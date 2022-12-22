@@ -24,9 +24,16 @@ function slot0.Ctor(slot0, slot1)
 	slot0.glitchArtMaterial = slot0:findTF("resource/material1"):GetComponent(typeof(Image)).material
 	slot0.maskMaterial = slot0:findTF("resource/material2"):GetComponent(typeof(Image)).material
 	slot0.glitchArtMaterialForPainting = slot0:findTF("resource/material3"):GetComponent(typeof(Image)).material
-	slot0.iconImage = slot0:findTF("front/icon"):GetComponent(typeof(Image))
+	slot2 = slot0:findTF("front/icon")
+	slot0.iconImage = slot2:GetComponent(typeof(Image))
 	slot0.typewriterSpeed = 0
 	slot0.defualtFontSize = slot0.conentTxt.fontSize
+	slot0.contentBgAlpha = 1
+	slot0.contentBgs = {
+		slot0:findTF("bg", slot0.nameLeft),
+		slot0:findTF("bg", slot0.nameRight),
+		slot0:findTF("bg", slot0.dialoguePanel)
+	}
 	slot0.live2dChars = {}
 	slot0.spinePainings = {}
 end
@@ -41,6 +48,7 @@ function slot0.OnReset(slot0, slot1, slot2)
 	slot0.conentTxt.text = ""
 
 	slot0:CancelTween(slot0.contentArr)
+	slot0:SetContentBgAlpha(slot1:GetContentBGAlpha())
 end
 
 function slot0.ResetActorTF(slot0, slot1, slot2)
@@ -375,7 +383,9 @@ function slot0.UpdateSpinePainting(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.UpdateMeshPainting(slot0, slot1, slot2, slot3, slot4, slot5)
-	function slot7()
+	slot7 = false
+
+	function slot8()
 		if uv0:IsShowNPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. uv1 .. "_n")) then
 			uv1 = uv1 .. "_n"
 		end
@@ -388,49 +398,62 @@ function slot0.UpdateMeshPainting(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 
 	if slot1:GetPainting() then
-		slot8 = findTF(slot2, "fitter").childCount
+		slot9 = findTF(slot2, "fitter").childCount
 
-		if not slot4 or slot8 <= 0 then
-			slot7()
+		if not slot4 or slot9 <= 0 then
+			slot8()
 		end
 
-		slot9 = slot1:GetPaintingDir()
-		slot2.localScale = Vector3(slot9, math.abs(slot9), 1)
-		slot11 = findTF(slot2, "fitter"):GetChild(0)
-		slot11.name = slot6
+		slot10 = slot1:GetPaintingDir()
+		slot2.localScale = Vector3(slot10, math.abs(slot10), 1)
+		slot12 = findTF(slot2, "fitter"):GetChild(0)
+		slot12.name = slot6
 
 		slot0:UpdateActorPostion(slot2, slot1)
-		slot0:UpdateExpression(slot11, slot1)
+		slot0:UpdateExpression(slot12, slot1)
 		slot0:StartPatiningActions(slot2, slot1)
-		slot0:AddGlitchArtEffectForPating(slot2, slot11, slot1)
-		slot0:InitSubPainting(slot3, slot1)
+		slot0:AddGlitchArtEffectForPating(slot2, slot12, slot1)
+		slot0:InitSubPainting(slot3, slot1:GetSubPaintings(), slot1)
+
+		if slot1:NeedDispppearSubPainting() then
+			slot7 = true
+
+			slot0:DisappearSubPainting(slot3, slot1, slot5)
+		end
+
 		slot2:SetAsLastSibling()
 
 		if slot1:ShouldGrayPainting() then
-			setGray(slot11, true, true)
+			setGray(slot12, true, true)
 		end
 
-		if findTF(slot11, "shadow") then
-			setActive(slot12, slot1:ShouldFaceBlack())
+		if findTF(slot12, "shadow") then
+			setActive(slot13, slot1:ShouldFaceBlack())
 		end
 
 		if slot1:GetPaintingAlpha() then
-			slot0:setPaintingAlpha(slot2, slot13)
+			slot0:setPaintingAlpha(slot2, slot14)
 		end
 	end
 
-	slot5()
+	if not slot7 then
+		slot5()
+	end
 end
 
-function slot0.InitSubPainting(slot0, slot1, slot2)
-	function slot3(slot0, slot1)
-		slot2 = slot0.name
+function slot2(slot0)
+	slot1 = slot0.name
 
-		if slot0.showNPainting and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot2 .. "_n")) then
-			slot2 = slot2 .. "_n"
-		end
+	if slot0.showNPainting and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) then
+		slot1 = slot1 .. "_n"
+	end
 
-		setPaintingPrefab(slot1, slot2, "duihua")
+	return slot1
+end
+
+function slot0.InitSubPainting(slot0, slot1, slot2, slot3)
+	function slot4(slot0, slot1)
+		setPaintingPrefab(slot1, uv0(slot0), "duihua")
 
 		slot4 = findTF(findTF(slot1, "fitter"):GetChild(0), "face")
 		slot5 = slot0.expression
@@ -453,7 +476,7 @@ function slot0.InitSubPainting(slot0, slot1, slot2)
 		end
 
 		if slot0.paintingNoise then
-			uv0:AddGlitchArtEffectForPating(slot1, slot3, uv1)
+			uv1:AddGlitchArtEffectForPating(slot1, slot3, uv2)
 		end
 	end
 
@@ -462,7 +485,48 @@ function slot0.InitSubPainting(slot0, slot1, slot2)
 			uv0(uv1[slot1 + 1], slot2)
 		end
 	end)
-	slot1:align(#slot2:GetSubPaintings())
+	slot1:align(#slot2)
+end
+
+function slot0.DisappearSubPainting(slot0, slot1, slot2, slot3)
+	slot5, slot6 = slot2:GetDisappearTime()
+	slot7 = slot2:GetDisappearSeq()
+	slot8 = {}
+	slot9 = {}
+
+	for slot13, slot14 in ipairs(slot2:GetSubPaintings()) do
+		table.insert(slot9, slot14)
+	end
+
+	for slot13, slot14 in ipairs(slot7) do
+		slot15 = slot14
+
+		table.insert(slot8, function (slot0)
+			for slot4, slot5 in ipairs(uv0) do
+				print(slot5.actor, uv1)
+
+				if slot5.actor == uv1 then
+					table.remove(uv0, slot4)
+
+					break
+				end
+			end
+
+			print(#uv0)
+			uv2:InitSubPainting(uv3, uv0, uv4)
+			uv2:DelayCall(uv5, slot0)
+		end)
+	end
+
+	slot10 = slot1.container
+
+	slot10:SetAsFirstSibling()
+	slot0:DelayCall(slot5, function ()
+		seriesAsync(uv0, function ()
+			uv0.container:SetAsLastSibling()
+			uv1()
+		end)
+	end)
 end
 
 function slot0.UpdateActorPostion(slot0, slot1, slot2)
@@ -710,6 +774,16 @@ function slot0.UpdateContent(slot0, slot1, slot2)
 	end
 end
 
+function slot0.SetContentBgAlpha(slot0, slot1)
+	if slot0.contentBgAlpha ~= slot1 then
+		for slot5, slot6 in ipairs(slot0.contentBgs) do
+			GetOrAddComponent(slot6, typeof(CanvasGroup)).alpha = slot1
+		end
+
+		slot0.contentBgAlpha = slot1
+	end
+end
+
 function slot0.GetSideTF(slot0, slot1)
 	slot2, slot3, slot4, slot5 = nil
 
@@ -739,7 +813,7 @@ function slot0.RecyclesSubPantings(slot0, slot1)
 	end)
 end
 
-function slot2(slot0)
+function slot3(slot0)
 	if slot0:Find("fitter").childCount == 0 then
 		return
 	end
@@ -765,7 +839,7 @@ function slot2(slot0)
 	end
 end
 
-function slot3(slot0, slot1)
+function slot4(slot0, slot1)
 	slot3 = false
 
 	if slot0.live2dChars[slot1] then
@@ -789,7 +863,7 @@ function slot3(slot0, slot1)
 	end
 end
 
-function slot4(slot0, slot1)
+function slot5(slot0, slot1)
 	slot3 = false
 
 	if slot0.spinePainings[slot1] then

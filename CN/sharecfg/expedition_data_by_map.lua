@@ -14034,6 +14034,302 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1700001] = {
+		map = 1700001,
+		name = "定向折叠·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-schoolfuture",
+		enter_story = "DINGXIANGZHEDIE1",
+		ani_name = "Map_1700001",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4607,
+		ui_type = 1,
+		bg = "Map_1700001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1700011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1700003,
+					"map_1700001_zhuanzhi"
+				}
+			}
+		}
+	},
+	[1700002] = {
+		map = 1700002,
+		name = "定向折叠·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-aostelab",
+		enter_story = "DINGXIANGZHEDIE13",
+		ani_name = "Map_1700002",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4607,
+		ui_type = 1,
+		bg = "Map_1700002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1700012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1700006,
+					"map_1700002_zhuanzhi"
+				}
+			}
+		}
+	},
+	[1700011] = {
+		map = 1700011,
+		name = "定向折叠·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-schoolfuture",
+		enter_story = "DINGXIANGZHEDIE1",
+		ani_name = "Map_1700003",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4607,
+		ui_type = 1,
+		bg = "Map_1700003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1700001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1700023,
+					"map_1700003_zhuanzhi"
+				}
+			}
+		}
+	},
+	[1700012] = {
+		map = 1700012,
+		name = "定向折叠·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-aostelab",
+		enter_story = "DINGXIANGZHEDIE13",
+		ani_name = "Map_1700004",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4607,
+		ui_type = 1,
+		bg = "Map_1700004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1700002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1700026,
+					"map_1700004_zhuanzhi"
+				}
+			}
+		}
+	},
+	[1700025] = {
+		map = 1700025,
+		name = "定向折叠·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-starsea-core",
+		enter_story = "",
+		ani_name = "Map_1700005",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4607,
+		ui_type = 1,
+		bg = "Map_1700005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1700012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1700026] = {
+		map = 1700026,
+		name = "定向折叠·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-starsea-core",
+		enter_story = "",
+		ani_name = "Map_1700006",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4607,
+		ui_type = 1,
+		bg = "Map_1700005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1700012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『红染的参访者』-前篇|| ||CHAPTER EX||E.X.",
@@ -16755,6 +17051,12 @@ pg.expedition_data_by_map = {
 		1690002,
 		1690003,
 		1690004,
+		1700001,
+		1700002,
+		1700011,
+		1700012,
+		1700025,
+		1700026,
 		2100000,
 		2100001,
 		2100010,

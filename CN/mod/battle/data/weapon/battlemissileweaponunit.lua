@@ -47,13 +47,12 @@ end
 
 function slot3.ChoiceOntheAir(slot0, slot1)
 	return function ()
-		slot0 = uv0:Tracking()
-		slot2 = uv0._tmpData.aim_type == uv1.WeaponAimType.AIM and slot0 and uv0:CalculateRandTargetPosition(uv2, slot0) or uv0:CalculateFixedExplodePosition(uv2)
-		slot3, slot4, slot5 = uv2:GetRotateInfo()
-		slot6, slot7 = uv2:GetOffset()
+		slot0 = uv0:GetMissileTargetPosition()
+		slot1, slot2, slot3 = uv0:GetRotateInfo()
+		slot4, slot5 = uv0:GetOffset()
 
-		slot2:Add(Vector3(slot6, 0, slot7))
-		uv2:SetExplodePosition(uv2:GetSpawnPosition() + Quaternion.Euler(0, slot5, 0) * pg.Tool.FilterY(slot2 - uv2:GetSpawnPosition()))
-		uv3.Battle.BattleMissileFactory.CreateBulletAlert(uv2)
+		slot0:Add(Vector3(slot4, 0, slot5))
+		uv0:SetExplodePosition(uv0:GetSpawnPosition() + Quaternion.Euler(0, slot3, 0) * pg.Tool.FilterY(slot0 - uv0:GetSpawnPosition()))
+		uv1.Battle.BattleMissileFactory.CreateBulletAlert(uv0)
 	end
 end

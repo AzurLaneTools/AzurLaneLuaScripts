@@ -1550,5 +1550,16 @@ pg.effect_offset = {
 			0,
 			0
 		}
+	},
+	yuekecheng_huabanhuanrao = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			1,
+			0.2,
+			0
+		}
 	}
 }

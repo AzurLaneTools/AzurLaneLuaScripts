@@ -210,6 +210,7 @@ function slot0.handleNotification(slot0, slot1)
 		end)
 	elseif slot2 == MiniGameProxy.ON_HUB_DATA_UPDATE or slot2 == GAME.SEND_MINI_GAME_OP_DONE then
 		slot0.viewComponent:emit(NewMainScene.ON_ACT_BTN_UPDATE)
+		slot0.viewComponent:emit(NewMainScene.ON_BUFF_UPDATE)
 	elseif slot2 == GAME.ZERO_HOUR_OP_DONE then
 		slot0.viewComponent:emit(NewMainScene.ON_ZERO_HOUR)
 	elseif slot2 == GAME.FETCH_NPC_SHIP_DONE then

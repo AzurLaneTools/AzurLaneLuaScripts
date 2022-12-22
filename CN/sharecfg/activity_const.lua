@@ -881,5 +881,11 @@ pg.activity_const = {
 	},
 	RYZA_TASK = {
 		act_id = 4582
+	},
+	MINIGAME_FIREWORK_VS_SAIREN = {
+		act_id = 4602
+	},
+	HOTSPRING_SHOP = {
+		act_id = 4606
 	}
 }

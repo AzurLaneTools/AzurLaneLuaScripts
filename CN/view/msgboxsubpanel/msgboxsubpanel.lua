@@ -45,7 +45,7 @@ end
 function slot0.OnRefresh(slot0, slot1)
 end
 
-function slot0.CloseView(slot0)
+function slot0.closeView(slot0)
 	pg.MsgboxMgr.GetInstance():hide()
 end
 

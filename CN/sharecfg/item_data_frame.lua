@@ -372,10 +372,10 @@ pg.item_data_frame = {
 	[323] = {
 		time_limit_type = 0,
 		name = "星海之环",
-		gain_by = "",
+		gain_by = "定向折叠",
 		id = 323,
 		time_second = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「时空在飞转的轮盘中折叠，命运于闪烁的光芒中交汇。」</color>\n「定向折叠」活动获取",
 		scene = {}
 	},
 	[401] = {

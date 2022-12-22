@@ -52,7 +52,6 @@ function slot3.onAttach(slot0, slot1, slot2)
 		end
 
 		slot8:FlushReloadMax(slot10)
-		slot8:FlushReloadRequire()
 	end
 
 	slot0._targetWeaponList = slot3
@@ -69,7 +68,6 @@ function slot3.onRemove(slot0, slot1, slot2)
 		end
 
 		slot7:FlushReloadMax(slot9)
-		slot7:FlushReloadRequire()
 	end
 end
 

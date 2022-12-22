@@ -20,6 +20,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.dragDirect = slot1.drag_direct
 	slot0.rangeAbs = slot1.range_abs == 1
 	slot0.actionTrigger = slot1.action_trigger
+	slot0.actionAtiveData = slot1.action_trigger_active
 	slot0.randomAttitudeIndex = L2D_RANDOM_PARAM
 	slot0.active = false
 	slot0.parameterCom = nil
@@ -83,34 +84,7 @@ function slot0.getParameterValue(slot0)
 	end
 
 	if slot0.actionTrigger then
-		slot0.nextTriggerTime = slot0.nextTriggerTime - Time.deltaTime
-
-		if slot0.active and not slot0.triggerActionFlag and slot0.nextTriggerTime <= 0 and slot0.actionTrigger.type == Live2D.DRAG_EVENT_ACTION then
-			if math.abs(slot0.parameterValue - slot0.actionTrigger.num) < math.abs(slot0.actionTrigger.num) * 0.25 then
-				slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
-
-				if slot0.actionTrigger.time < slot0.triggerActionTime and not slot0.live2dAction then
-					slot0.nextTriggerTime = uv0
-					slot0.triggerActionFlag = true
-
-					slot0:stopDrag()
-
-					if slot0.actionTrigger and slot0.actionTrigger.reset == 1 then
-						slot0.parameterTargetValue = slot0.actionTrigger.num
-					end
-
-					slot0.parameterToStart = 180
-
-					if slot0.eventCallback then
-						slot0.eventCallback(Live2D.DRAG_EVENT_ACTION, {
-							action = slot0.actionTrigger.action
-						})
-					end
-				end
-			else
-				slot0.triggerActionTime = slot0.triggerActionTime + 0
-			end
-		end
+		slot0:applyActionTrigger()
 	end
 
 	if slot0.gyro then
@@ -178,11 +152,11 @@ function slot0.getParameterValue(slot0)
 			if slot0.parameterToStart and slot0.parameterToStart > 0 then
 				slot0.parameterToStart = slot0.parameterToStart - 1
 
-				return slot0.parameterTargetValue
-			end
+				if slot0.actionTrigger.reset == 1 and slot0.parameterToStart <= 0 and slot0.actionTrigger then
+					slot0.parameterTargetValue = slot0.startValue
+				end
 
-			if slot0.actionTrigger and slot0.actionTrigger.reset == 1 then
-				slot0.parameterTargetValue = slot0.startValue
+				return slot0.parameterTargetValue
 			end
 
 			return nil
@@ -192,6 +166,62 @@ function slot0.getParameterValue(slot0)
 	end
 
 	return slot0.parameterValue
+end
+
+function slot0.applyActionTrigger(slot0)
+	if slot0:isActionTriggerAble() then
+		if slot0.actionTrigger.type == Live2D.DRAG_EVENT_ACTION then
+			if math.abs(slot0.parameterValue - slot0.actionTrigger.num) < math.abs(slot0.actionTrigger.num) * 0.25 then
+				slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
+
+				if slot0.actionTrigger.time < slot0.triggerActionTime and not slot0.live2dAction then
+					slot0.nextTriggerTime = uv0
+					slot0.triggerActionFlag = true
+
+					slot0:stopDrag()
+
+					if slot0.actionTrigger.reset == 1 then
+						slot0.parameterTargetValue = slot0.actionTrigger.num
+					end
+
+					slot0.parameterToStart = 180
+
+					if slot0.eventCallback then
+						slot0.eventCallback(Live2D.DRAG_EVENT_ACTION, {
+							action = slot0.actionTrigger.action,
+							active = slot0.actionAtiveData
+						})
+					end
+				end
+			else
+				slot0.triggerActionTime = slot0.triggerActionTime + 0
+			end
+		elseif slot0.actionTrigger.type == Live2D.DRAG_Click_ACTION then
+			slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
+
+			if slot0.actionTrigger.time < slot0.triggerActionTime and not slot0.live2dAction then
+				-- Nothing
+			end
+		end
+	end
+end
+
+function slot0.isActionTriggerAble(slot0)
+	if slot0.nextTriggerTime - Time.deltaTime >= 0 then
+		slot0.nextTriggerTime = slot0.nextTriggerTime - Time.deltaTime
+
+		return false
+	end
+
+	if not slot0.active then
+		return false
+	end
+
+	if slot0.triggerActionFlag then
+		return false
+	end
+
+	return true
 end
 
 function slot0.live2dActionChange(slot0, slot1)

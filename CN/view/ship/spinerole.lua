@@ -134,10 +134,37 @@ function slot0.SetVisible(slot0, slot1)
 end
 
 function slot0.SetAction(slot0, slot1)
-	if slot0:CheckInited() then
-		slot0._modleAnim:SetAction(slot1, 0)
-		slot0:HiddenAttachmentByAction(slot1)
+	if not slot0:CheckInited() then
+		return
 	end
+
+	slot0._modleAnim:SetAction(slot1, 0)
+	slot0:HiddenAttachmentByAction(slot1)
+end
+
+function slot0.SetActionOnce(slot0, slot1)
+	if not slot0:CheckInited() then
+		return
+	end
+
+	ReflectionHelp.RefCallMethod(typeof("Spine.AnimationState"), "SetAnimation", slot0._modleGraphic.AnimationState, {
+		typeof("System.Int32"),
+		typeof("System.String"),
+		typeof("System.Boolean")
+	}, {
+		0,
+		slot1,
+		false
+	})
+	slot0:HiddenAttachmentByAction(slot1)
+end
+
+function slot0.SetActionCallBack(slot0, slot1)
+	if not slot0:CheckInited() then
+		return
+	end
+
+	slot0._modleAnim:SetActionCallBack(slot1)
 end
 
 function slot0.HiddenAttachmentByAction(slot0, slot1)
@@ -216,6 +243,30 @@ function slot0.StopTweenShining(slot0)
 	end
 end
 
+function slot0.ChangeMaterial(slot0, slot1)
+	if not slot0:CheckInited() then
+		return
+	end
+
+	if not slot0._stageMaterial then
+		slot0._stageMaterial = slot0._modleGraphic.material
+	end
+
+	slot0._modleGraphic.material = slot1
+end
+
+function slot0.RevertMaterial(slot0)
+	if not slot0:CheckInited() then
+		return
+	end
+
+	if not slot0._stageMaterial then
+		return
+	end
+
+	slot0._modleGraphic.material = slot0._stageMaterial
+end
+
 function slot0.CreateInterface(slot0)
 	slot0._mouseChild = GameObject("mouseChild")
 
@@ -252,6 +303,7 @@ end
 function slot0.Dispose(slot0)
 	if slot0.state == uv0.STATE_INITED then
 		slot0:StopTweenShining()
+		slot0:RevertMaterial()
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefabName, slot0.model)
 		slot0:SetVisible(true)
 		slot0._modleGraphic.material:SetColor("_Color", Color.New(0, 0, 0, 0))

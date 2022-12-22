@@ -81,6 +81,8 @@ slot0.ACTIVITY_TYPE_TASK_POOL = 86
 slot0.ACTIVITY_TYPE_PT_OTHER = 87
 slot0.ACTIVITY_TYPE_ATELIER_LINK = 88
 slot0.ACTIVITY_TYPE_TASK_RYZA = 89
+slot0.ACTIVITY_TYPE_RED_PACKET_LOTTER = 90
+slot0.ACTIVITY_TYPE_HOTSPRING = 91
 slot0.HIDE_PT_PANELS = false
 slot0.WITHOUT_ACTIVITY = 0
 slot0.MONOPOLY_OP_THROW = 1
@@ -114,32 +116,6 @@ slot0.WORLDINPICTURE_OP_DRAW = 2
 slot0.COLLETION_EVENT_OP_JOIN = 1
 slot0.COLLETION_EVENT_OP_SUBMIT = 2
 slot0.COLLETION_EVENT_OP_GIVE_UP = 3
-slot0.LIMIT_SKIN_SHOP_TIME = {
-	{
-		{
-			2022,
-			11,
-			24
-		},
-		{
-			0,
-			0,
-			0
-		}
-	},
-	{
-		{
-			2022,
-			12,
-			9
-		},
-		{
-			23,
-			59,
-			59
-		}
-	}
-}
 
 function slot0.BBRule(slot0)
 	_.each(slot0, function (slot0)

@@ -95,6 +95,7 @@ slot2 = {
 	CS_11202_ARG2_FIELD = slot0.FieldDescriptor(),
 	CS_11202_ARG3_FIELD = slot0.FieldDescriptor(),
 	CS_11202_ARG_LIST_FIELD = slot0.FieldDescriptor(),
+	CS_11202_KVARGS1_FIELD = slot0.FieldDescriptor(),
 	SC_11203_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_11203_AWARD_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11203_BUILD_FIELD = slot0.FieldDescriptor(),
@@ -1504,6 +1505,16 @@ slot2.CS_11202_ARG_LIST_FIELD.has_default_value = false
 slot2.CS_11202_ARG_LIST_FIELD.default_value = {}
 slot2.CS_11202_ARG_LIST_FIELD.type = 13
 slot2.CS_11202_ARG_LIST_FIELD.cpp_type = 3
+slot2.CS_11202_KVARGS1_FIELD.name = "kvargs1"
+slot2.CS_11202_KVARGS1_FIELD.full_name = "p11.cs_11202.kvargs1"
+slot2.CS_11202_KVARGS1_FIELD.number = 7
+slot2.CS_11202_KVARGS1_FIELD.index = 6
+slot2.CS_11202_KVARGS1_FIELD.label = 3
+slot2.CS_11202_KVARGS1_FIELD.has_default_value = false
+slot2.CS_11202_KVARGS1_FIELD.default_value = {}
+slot2.CS_11202_KVARGS1_FIELD.message_type = slot1.KVDATA
+slot2.CS_11202_KVARGS1_FIELD.type = 11
+slot2.CS_11202_KVARGS1_FIELD.cpp_type = 10
 CS_11202.name = "cs_11202"
 CS_11202.full_name = "p11.cs_11202"
 CS_11202.nested_types = {}
@@ -1514,7 +1525,8 @@ CS_11202.fields = {
 	slot2.CS_11202_ARG1_FIELD,
 	slot2.CS_11202_ARG2_FIELD,
 	slot2.CS_11202_ARG3_FIELD,
-	slot2.CS_11202_ARG_LIST_FIELD
+	slot2.CS_11202_ARG_LIST_FIELD,
+	slot2.CS_11202_KVARGS1_FIELD
 }
 CS_11202.is_extendable = false
 CS_11202.extensions = {}

@@ -2,11 +2,9 @@ slot0 = class("NavalAcademyScene", import("..base.BaseUI"))
 slot0.WARP_TO_TACTIC = "WARP_TO_TACTIC"
 
 function slot0.getUIName(slot0)
-	slot1 = pg.gameset.naval_academy_theme.description
-
-	assert(slot1, "naval_academy_theme in gameset.csv is empty")
-
-	return pg.naval_academy_theme[slot1] and slot2.resource_path or "NavalAcademyUI"
+	return pg.naval_academy_theme[pg.activity_banner[_.filter(pg.activity_banner.get_id_list_by_type[GAMEUI_BANNER_13], function (slot0)
+		return pg.TimeMgr.GetInstance():inTime(pg.activity_banner[slot0].time)
+	end)[1]] and slot3.pic] and slot5.resource_path or "NavalAcademyUI"
 end
 
 function slot0.ResUISettings(slot0)

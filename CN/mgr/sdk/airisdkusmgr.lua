@@ -6,6 +6,7 @@ AIRI_PLATFORM_TWITTER = "twitter"
 AIRI_PLATFORM_YOSTAR = "yostar"
 AIRI_PLATFORM_APPLE = "apple"
 AIRI_PLATFORM_AMAZON = "amazon"
+AIRI_PLATFORM_GPS = "gps"
 AIRI_SDK_INITED = false
 
 function GoLoginScene()
@@ -31,33 +32,44 @@ function AiriGoLogin(slot0)
 end
 
 function AiriLogin(slot0)
-	pg.UIMgr.GetInstance():LoadingOff()
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:LoadingOff()
+
+	function slot1()
+		pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
+			user = User.New({
+				type = 1,
+				arg1 = PLATFORM_AIRIUS,
+				arg2 = uv0.UID,
+				arg3 = uv0.ACCESS_TOKEN
+			})
+		})
+	end
 
 	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
-		(function ()
-			pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
-				user = User.New({
-					type = 1,
-					arg1 = PLATFORM_AIRIUS,
-					arg2 = uv0.UID,
-					arg3 = uv0.ACCESS_TOKEN
-				})
-			})
-		end)()
-	elseif slot0.R_CODE:ToInt() == 100233 then
-		if pg.TimeMgr.GetInstance():GetServerTime() < tonumber(string.sub(slot0.R_DELETETIME, 1, string.len(slot0.R_DELETETIME) - 3)) then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				modal = true,
-				content = i18n("box_account_reborn_content", pg.TimeMgr.GetInstance():CTimeDescC(slot3, "%Y-%m-%d %H:%M:%S")),
-				weight = LayerWeightConst.TOP_LAYER,
-				onYes = function ()
-					uv0.AccountReborn()
-				end
-			})
-		end
+		slot1()
 	else
-		print("AiriLogin failed")
-		print(debug.traceback())
+		if uv0.AiriPGSResultCodeHandler(slot0.R_CODE, function ()
+			uv0()
+		end) then
+			return
+		end
+
+		if slot0.R_CODE:ToInt() == 100233 then
+			if pg.TimeMgr.GetInstance():GetServerTime() < tonumber(string.sub(slot0.R_DELETETIME, 1, string.len(slot0.R_DELETETIME) - 3)) then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					modal = true,
+					content = i18n("box_account_reborn_content", pg.TimeMgr.GetInstance():CTimeDescC(slot5, "%Y-%m-%d %H:%M:%S")),
+					weight = LayerWeightConst.TOP_LAYER,
+					onYes = function ()
+						uv0.AccountReborn()
+					end
+				})
+			end
+		else
+			originalPrint("AiriLogin failed")
+		end
 	end
 end
 
@@ -111,6 +123,8 @@ function UnlinkSocialResult(slot0)
 
 	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
 		pg.m02:sendNotification(GAME.ON_SOCIAL_UNLINKED)
+	elseif uv0.AiriPGSResultCodeHandler(slot0.R_CODE) then
+		return
 	end
 end
 
@@ -270,6 +284,8 @@ return {
 			uv1:UnlinkSocial(Airisdk.LoginPlatform.APPLE)
 		elseif slot0 == AIRI_PLATFORM_AMAZON then
 			uv1:UnlinkSocial(Airisdk.LoginPlatform.AMAZON)
+		elseif slot0 == AIRI_PLATFORM_GPS then
+			uv1:UnlinkSocial(Airisdk.LoginPlatform.GOOGLEPLAY)
 		end
 	end,
 	IsSocialLink = function (slot0)
@@ -287,6 +303,8 @@ return {
 			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.APPLE)
 		elseif slot0 == AIRI_PLATFORM_AMAZON then
 			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.AMAZON)
+		elseif slot0 == AIRI_PLATFORM_GPS then
+			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.GOOGLEPLAY)
 		end
 
 		return false
@@ -302,6 +320,8 @@ return {
 			return uv0.loginRet.APPLE_ID
 		elseif slot0 == AIRI_PLATFORM_AMAZON then
 			return uv0.loginRet.AMAZON_NAME
+		elseif slot0 == AIRI_PLATFORM_GPS then
+			return uv0.loginRet.GOOGLE_PLAY_GAME_NAME
 		end
 
 		return ""
@@ -331,7 +351,7 @@ return {
 		slot7 = math.modf(slot1.rmb / 100)
 
 		originalPrint("uid:" .. slot1.id .. ",name:" .. slot1.name .. ",level" .. slot1.level .. ",serverId:" .. slot5.id .. " - " .. slot5.name .. ",rmb:" .. slot7 .. ",createTime:" .. slot6)
-		uv0:OpenHelp(tostring(slot1.id), slot1.name, tostring(slot1.level), tostring(slot5.id .. " - " .. slot5.name), tostring(slot7), slot6)
+		uv0:OpenHelp(tostring(slot1.id), slot1.name, tostring(slot5.id .. " - " .. slot5.name), slot7, slot6)
 	end,
 	GetYostarUid = function ()
 		return uv0.loginRet.UID
@@ -377,6 +397,12 @@ return {
 		pg.UIMgr.GetInstance():LoadingOn()
 		uv0:AccountRebornReq()
 	end,
+	ConfirmLinkGooglePlayGame = function ()
+		uv0:ConfirmLinkGooglePlayGame()
+	end,
+	ConfirmUnLinkGooglePlayGame = function ()
+		uv0:ConfirmUnLinkGooglePlayGame()
+	end,
 	AiriResultCodeHandler = function (slot0)
 		slot1 = slot0:ToInt()
 		slot2 = ":" .. slot1
@@ -384,6 +410,19 @@ return {
 		if slot1 == 0 then
 			return true
 		else
+			if table.contains({
+				100233,
+				100201,
+				100202,
+				100203,
+				100204,
+				100205,
+				100206,
+				100214
+			}, slot1) then
+				return false
+			end
+
 			if slot1 == 100110 then
 				uv0.ClearAccountCache()
 			end
@@ -393,11 +432,75 @@ return {
 			if string.find(i18n("new_airi_error_code_" .. slot1), "UndefinedLanguage") then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("new_airi_error_code_other") .. slot2)
 			else
-				pg.TipsMgr.GetInstance():ShowTips(slot3 .. slot2)
+				pg.TipsMgr.GetInstance():ShowTips(slot4 .. slot2)
 			end
 		end
 
 		return false
+	end,
+	AiriPGSResultCodeHandler = function (slot0, slot1)
+		slot2 = slot0:ToInt()
+
+		originalPrint("AiriPGSResultCodeHandler", tostring(slot2))
+
+		if slot2 == 100201 then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("pgs_login_binding_exist2"),
+				onYes = function ()
+					uv0.ConfirmLinkGooglePlayGame()
+				end
+			})
+
+			return true
+		elseif slot2 == 100202 then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("pgs_login_binding_exist1"),
+				onYes = function ()
+					uv0.ConfirmLinkGooglePlayGame()
+				end
+			})
+
+			return true
+		elseif slot2 == 100203 then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("pgs_login_binding_exist3"),
+				onYes = function ()
+					uv0.ConfirmLinkGooglePlayGame()
+				end
+			})
+
+			return true
+		elseif slot2 == 100204 then
+			slot1()
+
+			return true
+		elseif slot2 == 100205 then
+			return true
+		elseif slot2 == 100206 then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideNo = true,
+				content = i18n("pgs_login_tip"),
+				onYes = function ()
+					pg.m02:sendNotification(GAME.ON_SOCIAL_LINKED)
+				end,
+				onClose = function ()
+					pg.m02:sendNotification(GAME.ON_SOCIAL_LINKED)
+				end
+			})
+
+			return true
+		elseif slot2 == 100214 then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("pgs_unbind_tip2"),
+				onYes = function ()
+					uv0.ConfirmUnLinkGooglePlayGame()
+				end
+			})
+
+			return true
+		else
+			return false
+		end
 	end,
 	ON_AIRI_LOADING = false,
 	SetAiriTimeout = function ()

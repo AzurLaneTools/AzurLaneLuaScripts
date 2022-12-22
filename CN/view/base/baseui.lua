@@ -58,8 +58,21 @@ function slot0.getBGM(slot0)
 
 	if pg.CriMgr.GetInstance():IsDefaultBGM() then
 		return slot1 and slot1.default_bgm or nil
+	elseif slot1 then
+		if slot1.special_bgm and type(slot2) == "string" and #slot2 > 0 then
+			slot3 = slot1.time
+			slot5 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot3[2])
+
+			if pg.TimeMgr.GetInstance():parseTimeFromConfig(slot3[1]) <= pg.TimeMgr.GetInstance():GetServerTime() and slot6 <= slot5 then
+				return slot2
+			else
+				return slot1.bgm
+			end
+		else
+			return slot1 and slot1.bgm or nil
+		end
 	else
-		return slot1 and slot1.bgm or nil
+		return nil
 	end
 end
 

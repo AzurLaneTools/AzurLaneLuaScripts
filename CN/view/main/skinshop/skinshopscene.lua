@@ -102,7 +102,6 @@ function slot0.init(slot0)
 	slot0.changeBtn = slot0.topTF:Find("change_btn")
 
 	setText(slot0.inptuTr:Find("holder"), i18n("skinatlas_search_holder"))
-	setText(slot0:findTF("bgs/empty/content/Text1"), i18n("skinatlas_search_result_is_empty"))
 
 	slot0.furnBg = slot0:findTF("Main/right/bg/furn")
 	slot0.bgMask = slot0:findTF("Main/right/bg/mask")
@@ -128,6 +127,8 @@ function slot0.init(slot0)
 	slot0.l2dDownloaded = slot0.l2dDownloadStateTf:Find("downloaded")
 	slot0.live2dContainer = slot0:findTF("painting/paint/live2d")
 	slot0.paintingContainer = slot0:findTF("painting")
+	slot0.spTF = slot0:findTF("painting/paint/spinePainting")
+	slot0.spBg = slot0:findTF("painting/paintBg/spinePainting")
 	slot0.defaultIndex = {
 		typeIndex = ShipIndexConst.TypeAll,
 		campIndex = ShipIndexConst.CampAll,
@@ -443,15 +444,12 @@ function slot0.UpdateViewMode(slot0, slot1)
 
 	if slot0.viewMode == uv0.SHOP_TYPE_TIMELIMIT then
 		slot2 = uv0.PAGE_TIME_LIMIT
-		slot4 = Vector2(-250, -88.3)
 	elseif slot0.viewMode == uv0.SHOP_TYPE_COMMON then
 		slot2 = slot0.contextData.warp or uv0.PAGE_ALL
-		slot4 = Vector2(-100, -88.3)
 	end
 
 	setActive(slot0.leftPanel, slot0.viewMode == uv0.SHOP_TYPE_COMMON)
 	triggerButton(slot1:Find(slot2), true)
-	setAnchoredPosition(slot0.paintingTF, slot4)
 	setImageSprite(slot0.title, GetSpriteFromAtlas("ui/SkinShopUI_atlas", uv1[slot0.viewMode][1]), true)
 	setImageSprite(slot0.titleEn, GetSpriteFromAtlas("ui/SkinShopUI_atlas", uv1[slot0.viewMode][2]), true)
 end
@@ -525,46 +523,101 @@ function slot0.updateMainView(slot0, slot1)
 end
 
 function slot0.UpdateLiveToggle(slot0, slot1, slot2)
-	slot6 = PlayerPrefs.GetInt("skinShop#l2dPreViewToggle" .. getProxy(PlayerProxy):getRawData().id, 0) == 1
-	slot8 = PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. pg.ship_skin_template[slot3.id].painting .. "_n"))
-	slot9 = true
-
-	if ShipSkin.New({
+	slot3 = ShipSkin.New({
 		id = slot1
-	}):IsLive2d() then
+	})
+	slot8 = PlayerPrefs.GetInt("skinShop#l2dPreViewToggle" .. getProxy(PlayerProxy):getRawData().id, 0) == 1
+	slot10 = PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. pg.ship_skin_template[slot3.id].painting .. "_n"))
+	slot11 = true
+
+	if slot3:IsLive2d() or slot3:IsSpine() then
 		onToggle(slot0, slot0.l2dPreViewToggle, function (slot0)
 			setActive(uv0.hideObjToggleTF, not slot0 and uv1)
 			setActive(uv0.l2dDownloadStateTf, slot0)
 
 			if slot0 then
 				PlayerPrefs.SetInt("skinShop#l2dPreViewToggle" .. uv2, 1)
-				uv0:UpdateLive2dDownloadState(uv3, uv4)
+
+				if uv3 then
+					uv0:UpdateLive2dDownloadState(uv4, uv5)
+				elseif uv6 then
+					uv0:UpdateSpineState(uv4, uv5)
+				end
 			else
 				PlayerPrefs.SetInt("skinShop#l2dPreViewToggle" .. uv2, 0)
-				uv0:UnLoadLive2d(uv3)
-				uv0:loadPainting(uv5, uv0.isHideObj)
+				uv0:loadPainting(uv7, uv0.isHideObj)
 
-				uv0.painting = uv5
+				uv0.painting = uv7
 			end
 
 			PlayerPrefs.Save()
 
-			if not uv6 then
+			if not uv8 then
 				uv0:emit(SkinShopMediator.ON_RECORD_ANIM_PREVIEW_BTN, slot0)
 			else
-				uv6 = false
+				uv8 = false
 			end
 		end, SFX_PANEL)
 	else
 		removeOnToggle(slot0.l2dPreViewToggle)
 		setActive(slot0.l2dDownloadStateTf, false)
-		setActive(slot0.hideObjToggleTF, slot8)
+		setActive(slot0.hideObjToggleTF, slot10)
 	end
 
-	triggerToggle(slot0.l2dPreViewToggle, slot6)
-	setActive(slot0.l2dPreViewToggle, slot4)
+	triggerToggle(slot0.l2dPreViewToggle, slot8)
+	setActive(slot0.l2dPreViewToggle, slot6)
 
 	slot0.skinId = slot1
+end
+
+function slot0.UpdateSpineState(slot0, slot1, slot2)
+	slot5 = PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("SpinePainting/" .. string.lower(pg.ship_skin_template[slot1.id].painting), nil, true)))
+
+	setActive(slot0.l2dUnDownload, not slot5)
+	setActive(slot0.l2dDownloaded, slot5)
+
+	if not slot5 then
+		onButton(slot0, slot0.l2dDownloadStateTf, function ()
+			pg.TipsMgr.GetInstance():ShowTips("word_cmdClose")
+		end, SFX_PANEL)
+
+		if slot2 then
+			slot2[1] = false
+		end
+	else
+		if slot2 then
+			slot2[1] = true
+		end
+
+		removeOnButton(slot0.l2dDownloadStateTf)
+		slot0:LoadSpine(slot1)
+	end
+end
+
+function slot0.LoadSpine(slot0, slot1)
+	slot0:recyclePainting()
+	slot0:UnLoadLive2d()
+	slot0:UnloadSpine()
+
+	slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
+		ship = Ship.New({
+			id = 999,
+			configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot1.id].ship_group).id,
+			skin_id = slot1.id
+		}),
+		position = Vector3(0, 0, 0),
+		parent = slot0.spTF,
+		effectParent = slot0.spBg
+	}), function (slot0)
+	end)
+end
+
+function slot0.UnloadSpine(slot0, slot1)
+	if slot0.spinePainting then
+		slot0.spinePainting:Dispose()
+
+		slot0.spinePainting = nil
+	end
 end
 
 function slot0.UpdateLive2dDownloadState(slot0, slot1, slot2)
@@ -609,12 +662,9 @@ end
 function slot0.LoadL2d(slot0, slot1)
 	slot0:recyclePainting()
 	slot0:UnLoadLive2d()
+	slot0:UnloadSpine()
 
-	slot5 = pg.UIMgr.GetInstance()
-
-	slot5:LoadingOn()
-
-	slot0.live2dChar = Live2D.New(Live2D.GenerateData({
+	slot4 = Live2D.GenerateData({
 		ship = Ship.New({
 			id = 999,
 			configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot1.id].ship_group).id,
@@ -623,7 +673,13 @@ function slot0.LoadL2d(slot0, slot1)
 		scale = Vector3(52, 52, 52),
 		position = Vector3(0, 0, -1),
 		parent = slot0.live2dContainer
-	}), function (slot0)
+	})
+	slot4.shopPreView = true
+	slot5 = pg.UIMgr.GetInstance()
+
+	slot5:LoadingOn()
+
+	slot0.live2dChar = Live2D.New(slot4, function (slot0)
 		uv0:recyclePainting()
 		slot0:IgonreReactPos(true)
 		pg.UIMgr.GetInstance():LoadingOff()
@@ -810,8 +866,12 @@ function slot0.updateBuyBtn(slot0, slot1)
 
 	onToggle(slot0, slot0.hideObjToggleTF, function (slot0)
 		uv0.isHideObj = slot0
+		slot1 = uv0.painting
 
-		uv0:loadPainting(uv0.painting, slot0)
+		uv0:loadPainting(slot1, slot0)
+
+		uv0.painting = slot1
+
 		uv0:setBg(uv1, uv2, slot0)
 	end, SFX_PANEL)
 end
@@ -944,8 +1004,9 @@ function slot0.updatePrice(slot0, slot1)
 end
 
 function slot0.loadPainting(slot0, slot1, slot2)
-	slot0:UnLoadLive2d()
 	slot0:recyclePainting()
+	slot0:UnLoadLive2d()
+	slot0:UnloadSpine()
 	slot0:setPaintingPrefab(slot0.paintingTF, slot1, "chuanwu", slot2)
 end
 
@@ -988,6 +1049,8 @@ function slot0.recyclePainting(slot0)
 	if slot0.painting then
 		retPaintingPrefab(slot0.paintingTF, slot0.painting)
 	end
+
+	slot0.painting = nil
 end
 
 function slot0.loadChar(slot0, slot1, slot2)
@@ -1351,6 +1414,7 @@ function slot0.willExit(slot0)
 
 	slot0.shipRect = nil
 
+	slot0:UnloadSpine()
 	slot0:UnLoadLive2d()
 	slot0:recycleChar()
 	slot0:recyclePainting()

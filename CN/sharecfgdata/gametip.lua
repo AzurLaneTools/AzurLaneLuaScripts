@@ -7723,7 +7723,11 @@ _G.pg.base.gametip.word_rename_time_warning = {
 }
 
 _G.pg.base.gametip.word_propose_cost_tip = {
-	tip = "誓约需要消耗<color=#92fc63>1</color>枚誓约之戒（当前拥有<color=#92fc63>$1</color>枚）\n\n<size=32>*誓约后角色将成为专属舰，可重新命名并获得<color=#92fc63>3%</color>属性加成</size>"
+	tip = [[
+誓约需要消耗<color=#92fc63>1</color>枚誓约之戒（当前拥有<color=#92fc63>$1</color>枚）
+
+<size=32>*誓约后角色将成为专属舰，可重新命名并获得<color=#92fc63>3%</color>属性加成</size>
+<size=32>*誓约后角色将自动锁定</size>]]
 }
 
 _G.pg.base.gametip.evaluate_too_loog = {
@@ -10064,7 +10068,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "莱莎琳・斯托特、帕特莉夏・阿贝尔海姆等角色 建造概率UP!"
+	tip = "约克城II、北安普敦II等角色 建造概率UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -14026,6 +14030,10 @@ _G.pg.base.gametip["3match_tip"] = {
 
 _G.pg.base.gametip.retire_selectzero = {
 	tip = "没找到符合条件的舰船"
+}
+
+_G.pg.base.gametip.retire_marry_skin = {
+	tip = "$1换装已被重置"
 }
 
 _G.pg.base.gametip.undermist_tip = {
@@ -22210,6 +22218,10 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 	}
 }
 
+_G.pg.base.gametip.hotspring_buff = {
+	tip = "露天温泉|入浴舰船心情回复速度加快"
+}
+
 _G.pg.base.gametip.random_ship_custom_mode_empty = {
 	tip = "当前秘书舰列表为空，点击编辑按钮可添加角色"
 }
@@ -22280,4 +22292,247 @@ _G.pg.base.gametip.random_ship_custom_mode_add_title = {
 
 _G.pg.base.gametip.random_ship_custom_mode_remove_title = {
 	tip = "移除角色"
+}
+
+_G.pg.base.gametip.hotspring_shop_enter1 = {
+	tip = "欢迎光临茗兑换屋！今天想要兑换什么奖品喵？"
+}
+
+_G.pg.base.gametip.hotspring_shop_enter2 = {
+	tip = "欢迎光临喵！奖品都在这里，只要有温泉券就能带走喵~"
+}
+
+_G.pg.base.gametip.hotspring_shop_insufficient = {
+	tip = "兑换卷不够了喵~想要奖品的话，就来帮茗经营温泉店喵~"
+}
+
+_G.pg.base.gametip.hotspring_shop_success1 = {
+	tip = "多谢惠顾喵~"
+}
+
+_G.pg.base.gametip.hotspring_shop_success2 = {
+	tip = "指挥官眼光不错喵~"
+}
+
+_G.pg.base.gametip.hotspring_shop_finish = {
+	tip = "不愧是指挥官，所有奖品都兑换完了，完美清仓喵！"
+}
+
+_G.pg.base.gametip.hotspring_shop_end = {
+	tip = "温泉经营活动已经结束了喵~不过奖品兑换服务依旧继续提供喵~"
+}
+
+_G.pg.base.gametip.hotspring_shop_touch1 = {
+	tip = "茗可不是能兑换的奖品喵？"
+}
+
+_G.pg.base.gametip.hotspring_shop_touch2 = {
+	tip = "再、再怎么请求，奖品也不能白送的喵！"
+}
+
+_G.pg.base.gametip.hotspring_shop_touch3 = {
+	tip = "指挥官该不会是在拿茗消遣喵！？"
+}
+
+_G.pg.base.gametip.hotspring_shop_exchanged = {
+	tip = "这个奖品已经兑换过了喵~指挥官不能太贪心喵~"
+}
+
+_G.pg.base.gametip.hotspring_shop_exchange = {
+	tip = "是否花费$1个 <icon name=Props/wenquanjuan w=0.7 h=0.7/> 兑换$2个$3？"
+}
+
+_G.pg.base.gametip.hotspring_tip1 = {
+	tip = "温泉可以提高入浴角色的心情回复速度"
+}
+
+_G.pg.base.gametip.hotspring_tip2 = {
+	tip = "温泉币不足~"
+}
+
+_G.pg.base.gametip.hotspring_help = {
+	tip = {
+		{
+			info = [[
+活动规则：
+<color=#92fc63>2022.12.22-2023.1.5维护</color>期间开启限时活动「露天温泉馆」
+1.2022.12月28日为止，每日0点解锁一个新任务，完成任务可获取「温泉币」在内的奖励
+2.「温泉币」可用于温泉扩建，每次扩建消耗100温泉币
+3.帮助茗扩建温泉可获得报酬「温泉券」，「温泉券」可在「温泉商店」处兑换丰厚奖励
+4.指挥官可以邀请舰船泡温泉，温泉可以提高入浴舰船的心情回复速度
+5.长按入浴舰船可拖动调整入浴位置]]
+		}
+	}
+}
+
+_G.pg.base.gametip.hotspring_expand = {
+	tip = "是否消耗$1温泉币<icon name=wenquanbi w=0.7 h=0.7/>扩展温泉"
+}
+
+_G.pg.base.gametip.hotspring_shop_help = {
+	tip = {
+		{
+			info = [[
+活动时间：2022.12.22-2023.1.5维护
+活动规则：
+1.活动期间，帮助茗经营露天温泉馆获得报酬「温泉券」
+2.「温泉券」可兑换限定家具「啾啾温泉馆」在内的丰厚奖励
+3.扩建温泉获得的「温泉券」可完全兑换所有奖励]]
+		}
+	}
+}
+
+_G.pg.base.gametip.resorts_help = {
+	tip = {
+		{
+			info = [[
+活动时间：<color=#92fc63>2022.12.22-2023.1.5维护</color>
+活动简介：
+「烟花VS塞壬」：参与小游戏获取伯明翰限定换装「乘风破浪之时」
+「露天温泉馆」：参与活动获取限定家具「啾啾温泉馆」在内的丰厚奖励
+「鸿运荷包」：参与活动获取限定家具「鸿运啾啾」
+「绘马祈愿」：参与绘马祈愿获取奖励「年贺状」
+「换装商店」：购买限时换装
+「限时建造」：建造限时角色]]
+		}
+	}
+}
+
+_G.pg.base.gametip.pvzminigame_help = {
+	tip = {
+		{
+			info = [[
+活动规则：
+1.<color=#92fc63>2022.12.28</color>为止每日0点开放<color=#92fc63>1</color>关新的游戏，总计<color=#92fc63>7</color>关，可累计。完成游戏可以获得伯明翰限定换装「乘风破浪之时」。
+
+游戏规则：
+1.指挥官需要部署攻击或防御类型的角色来阻挡塞壬的进攻，部署角色需要消耗一定数量的「烟花」！
+2.生产啾可以生产「烟花」，指挥官请部署较多的生产啾保证「烟花」供应！
+3.角色分为基础角色和限定角色，限定角色场上仅能部署一个！
+基础角色：战斗啾、防御啾、生产啾
+限定角色：能代、柴郡、樫野、利托里奥、伯明翰
+4.指挥官可以在「游戏手册」处查看角色、敌人、特殊元素的详细说明。
+5.指挥官可以召回已部署的角色，召回已部署的角色可以返还部分消耗的「烟花」。
+6.点击游戏内退出按钮也视为游戏完成。因其他原因中途退出游戏则视为未完成。
+7.第七关·无尽：敌人会不断刷新且难度越来越高；指挥官可以尝试挑战获取更高分数！]]
+		}
+	}
+}
+
+_G.pg.base.gametip.tips_yuandanhuoyue2023 = {
+	tip = {
+		{
+			info = [[
+活动时间：<color=#92fc63>2022.12.22-2023.1.5</color>
+活动规则：
+1.12月31日为止每天零点获得1次荷包开启次数， 开启荷包可获得丰厚奖励。开启次数可以累计，最多可开启10个红包。
+2.每1次开启可开启1个荷包，荷包总量为10个。
+3.荷包中共有：一等奖1份，二等奖2份，三等奖3份，四等奖4份。开启荷包可以获得的奖励如下：
+一等奖：特殊家具"鸿运啾啾"
+二等奖：T3随机教材*1
+三等奖：T3随机部件*5
+四等奖：T3随机科技箱*1
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.beach_guard_chaijun = {
+	tip = "发射火箭筒烟花对敌人造成伤害并引发爆炸！"
+}
+
+_G.pg.base.gametip.beach_guard_jianye = {
+	tip = "可以投掷烟花炸弹，对九宫格范围内的敌人造成伤害！"
+}
+
+_G.pg.base.gametip.beach_guard_lituoliao = {
+	tip = "可以发射迷雾烟花，在爆炸后产生迷雾。\n迷雾持续5秒，可以减缓敌人10%的移动速度与攻击速度10%，最多可以叠加5层。"
+}
+
+_G.pg.base.gametip.beach_guard_bominghan = {
+	tip = "可以发射一枚分裂烟花，分裂烟花命中敌人后会对其造成硬直效果并分裂，分裂产生的小烟花没有硬直效果。"
+}
+
+_G.pg.base.gametip.beach_guard_nengdai = {
+	tip = "同时发射两枚强化烟花。\n命中敌人后，会给自身九宫格范围内己方单位提供攻速提高1%，伤害提高1%的效果，持续10秒，最多叠加10层。"
+}
+
+_G.pg.base.gametip.beach_guard_m_craft = {
+	tip = "能够源源不断的生产烟花！"
+}
+
+_G.pg.base.gametip.beach_guard_m_atk = {
+	tip = "能够使用烟花进行攻击！"
+}
+
+_G.pg.base.gametip.beach_guard_m_guard = {
+	tip = "能够阻挡塞壬的进攻！"
+}
+
+_G.pg.base.gametip.beach_guard_m_craft_name = {
+	tip = "生产啾"
+}
+
+_G.pg.base.gametip.beach_guard_m_atk_name = {
+	tip = "战斗啾"
+}
+
+_G.pg.base.gametip.beach_guard_m_guard_name = {
+	tip = "防御啾"
+}
+
+_G.pg.base.gametip.beach_guard_e1 = {
+	tip = "探索者"
+}
+
+_G.pg.base.gametip.beach_guard_e2 = {
+	tip = "追迹者"
+}
+
+_G.pg.base.gametip.beach_guard_e3 = {
+	tip = "领洋者"
+}
+
+_G.pg.base.gametip.beach_guard_e4 = {
+	tip = "破局者"
+}
+
+_G.pg.base.gametip.beach_guard_e5 = {
+	tip = "执棋者"
+}
+
+_G.pg.base.gametip.beach_guard_e6 = {
+	tip = "测试者"
+}
+
+_G.pg.base.gametip.beach_guard_e7 = {
+	tip = "净化者"
+}
+
+_G.pg.base.gametip.beach_guard_e1_desc = {
+	tip = "最常见的塞壬执行者，可以进行移动和攻击！"
+}
+
+_G.pg.base.gametip.beach_guard_e2_desc = {
+	tip = "常见的塞壬执行者，移动速度比探索者更快！"
+}
+
+_G.pg.base.gametip.beach_guard_e3_desc = {
+	tip = "常见的塞壬执行者，攻击速度比探索者更快！"
+}
+
+_G.pg.base.gametip.beach_guard_e4_desc = {
+	tip = "塞壬执行者，拥有出色的攻击力和生命值，但行动缓慢。"
+}
+
+_G.pg.base.gametip.beach_guard_e5_desc = {
+	tip = "塞壬执行者，均衡型，攻击能力与生存能力都十分良好。"
+}
+
+_G.pg.base.gametip.beach_guard_e6_desc = {
+	tip = "血量在低于50%时，将会为场上所有塞壬单位提供一个护盾，护盾值为自身基础生命值的10%。\n同一个塞壬单位身上只会同时存在一个护盾。"
+}
+
+_G.pg.base.gametip.beach_guard_e7_desc = {
+	tip = "可以周期性解除自身周边存在的迷雾、减速异常效果。"
 }

@@ -2975,6 +2975,17 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[94] = {
+		commodity_id = 102233,
+		activity = 4602,
+		time = "stop",
+		scene = "",
+		num = 1,
+		num_limit = 1,
+		commodity_type = 7,
+		id = 94,
+		order = 15
+	},
 	get_id_list_by_commodity_type = {
 		[7] = {
 			1,
@@ -3065,7 +3076,8 @@ pg.activity_shop_extra = {
 			90,
 			91,
 			92,
-			93
+			93,
+			94
 		}
 	},
 	all = {
@@ -3157,6 +3169,7 @@ pg.activity_shop_extra = {
 		90,
 		91,
 		92,
-		93
+		93,
+		94
 	}
 }

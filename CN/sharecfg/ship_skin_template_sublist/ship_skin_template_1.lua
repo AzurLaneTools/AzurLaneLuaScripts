@@ -6106,22 +6106,22 @@ pg.ship_skin_template_1 = {
 		bound_bone = {
 			cannon = {
 				{
-					0.026,
+					0.63,
 					0.764,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.026,
+					0.79,
 					0.764,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0.146,
-					0.06,
+					0,
+					0,
 					0
 				}
 			}
@@ -6254,6 +6254,115 @@ pg.ship_skin_template_1 = {
 						"smoke",
 						{
 							-0.53,
+							2.34,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[101272] = {
+		ship_group = 10127,
+		name = "圣诞兔兔驾到！",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "125",
+		id = 101272,
+		group_index = 2,
+		prefab = "beili_3",
+		painting = "beili_3",
+		shop_id = 70791,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 1,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "圣诞兔兔来了！没错，不是圣诞老人，而是圣诞兔兔哦！因为圣诞老人太忙了，所以兔兔星的贝利变成圣诞兔兔来帮忙了！",
+		voice_actor = 63,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.88,
+					0.764,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.86,
+					0.764,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
 							2.34,
 							-0.16
 						}
@@ -9967,6 +10076,115 @@ pg.ship_skin_template_1 = {
 			main_1 = 3.05,
 			login = 1.32,
 			mission = 1.6
+		}
+	},
+	[101442] = {
+		ship_group = 10144,
+		name = "圣夜的温暖馈赠",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "100",
+		id = 101442,
+		group_index = 2,
+		prefab = "kubo_3",
+		painting = "kubo_3",
+		shop_id = 70454,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 1,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "唔？我正在把大家的礼物装到盒子里呢，一会它们就要被送到每个人的手里了呢~嘿嘿，指挥官也来帮忙吧！",
+		voice_actor = 229,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.067,
+					0.997,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.053,
+					1.005,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.486,
+							2.499,
+							0
+						}
+					}
+				}
+			}
 		}
 	}
 }

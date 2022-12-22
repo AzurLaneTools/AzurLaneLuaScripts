@@ -1,20 +1,20 @@
-slot0 = class("MainBuffView")
+slot0 = class("MainBuffView", import("view.base.BaseEventLogic"))
 
 function slot0.Ctor(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._tf = slot1
 	slot0._go = slot1.gameObject
-	slot0.event = slot2
 	slot0.buffs = {
 		slot1:Find("buff").gameObject
 	}
 	slot0.skinFreeUsageTag = nil
 	slot0.timers = {}
-end
 
-function slot0.emit(slot0, ...)
-	slot0.event:emit(...)
+	slot0:bind(NewMainScene.ON_BUFF_UPDATE, function (slot0)
+		uv0:Refresh()
+	end)
 end
 
 function slot0.CollectBuffs(slot0)
@@ -47,11 +47,10 @@ function slot0.Init(slot0)
 end
 
 function slot0.Refresh(slot0)
+	slot1 = slot0:CollectBuffs()
 	slot2 = slot0:ShouldFreeUsageSkinTag()
 
-	if #slot0:CollectBuffs() ~= #slot0.buffList or slot2 ~= slot0.showTag then
-		slot0:Init()
-	end
+	slot0:Init()
 end
 
 function slot0.Disable(slot0)
@@ -172,6 +171,7 @@ function slot0.Fold(slot0, slot1, slot2)
 end
 
 function slot0.Dispose(slot0)
+	slot0:disposeEvent()
 	pg.DelegateInfo.Dispose(slot0)
 
 	if slot0.skinFreeUsageTag then

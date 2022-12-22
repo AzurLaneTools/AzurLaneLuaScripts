@@ -49,6 +49,15 @@ function slot0.OnFlush(slot0)
 			}
 		})
 	elseif slot0.type == Ship.STATE_REST then
+		table.Foreach(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING), function (slot0, slot1)
+			if slot1 and not slot1:isEnd() then
+				slot2 = slot1:getConfig("config_data")[1][4]
+
+				_.each(slot1:getData1List(), function (slot0)
+					uv0[slot0] = (uv0[slot0] or 0) + uv1
+				end)
+			end
+		end)
 		slot2:updateProps1({
 			{
 				i18n("word_lv"),
@@ -60,7 +69,7 @@ function slot0.OnFlush(slot0)
 			},
 			{
 				i18n("word_energy_recov_speed"),
-				10 * (slot1:getRecoverEnergyPoint() + Ship.BACKYARD_2F_ENERGY_ADDITION) .. "/h"
+				10 * (slot1:getRecoverEnergyPoint() + Ship.BACKYARD_2F_ENERGY_ADDITION + (({})[slot1.id] or 0)) .. "/h"
 			}
 		})
 	end
@@ -100,6 +109,10 @@ end
 function slot0.OnDispose(slot0)
 	slot0.press.onLongPressed:RemoveAllListeners()
 	slot0.press.onLongPressed:AddListener(nil)
+
+	if slot0.info then
+		slot0.info:clear()
+	end
 end
 
 return slot0

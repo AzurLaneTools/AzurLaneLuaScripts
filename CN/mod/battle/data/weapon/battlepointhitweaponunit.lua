@@ -254,6 +254,14 @@ function slot4.handleCoolDown(slot0)
 	slot0._reloadBoostList = {}
 end
 
+function slot4.FlushReloadMax(slot0, slot1)
+	if uv0.super.FlushReloadMax(slot0, slot1) then
+		return true
+	end
+
+	slot0._playerChargeWeaponVo:RefreshReloadingBar()
+end
+
 function slot4.FlushReloadRequire(slot0)
 	if uv0.super.FlushReloadRequire(slot0) then
 		return true

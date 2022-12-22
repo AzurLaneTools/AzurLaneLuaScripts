@@ -29,7 +29,7 @@ function slot0.OnRefresh(slot0, slot1)
 
 	slot5:setOnComplete(System.Action(function ()
 		existCall(uv0.onYes)
-		uv1:CloseView()
+		uv1:closeView()
 	end))
 end
 
