@@ -106,7 +106,7 @@ function slot0.initData(slot0)
 	slot0.playerProxy = getProxy(PlayerProxy)
 	slot0.miniGameProxy = getProxy(MiniGameProxy)
 	slot0.commanderGameID = slot0.contextData.miniGameId
-	slot0.shipGameID = 35
+	slot0.shipGameID = pg.mini_game[slot0.commanderGameID].simple_config_data.shipGameID
 	slot0.cardPosList = {
 		{
 			x = -447,

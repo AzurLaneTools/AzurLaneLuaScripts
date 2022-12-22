@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Thank goodness... You finally woke up, Commander…",
+			say = "Thank goodness... You finally woke up, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "You kept tossing and turning with a terrified look on your face... I was just about to call Memphis over…",
+			say = "You kept tossing and turning with a terrified look on your face... I was just about to call Memphis over...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "Unfortunately, TB will not be able to leave... because this place is her mainframe…",
+			say = "Unfortunately, TB will not be able to leave... because this place is her mainframe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = ".........",
+			say = "Something's not right... Wasn't I just inside the Reality Lens simulation...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "I can't help but feel like I'm forgetting something important. What happened here…?",
+			say = "<Real%+y Le#s ac+%va%&d?? Consciousness merged with ■■■■■■–––>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

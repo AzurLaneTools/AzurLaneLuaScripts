@@ -689,7 +689,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "\"Once upon a time, there was a bunny named the Grey Rabbit who lived in a forest…\"",
+			say = "\"Once upon a time, there was a bunny named the Grey Rabbit who lived in a forest...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

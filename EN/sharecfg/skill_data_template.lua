@@ -69962,6 +69962,1377 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[16210] = {
+		desc_get = "",
+		name = "The Fighting Lady",
+		id = 16210,
+		type = 1,
+		max_level = 10,
+		desc = "3s after the battle starts: launches a recon squadron consisting of AD-1 Skyraiders, inflicting the Marked debuff to a random enemy (prioritizing humanoid enemies) for 12s and decreasing that enemy's AA by $1. \n12s after this effect activates, or after the Marked enemy is sunk: restores 3.0% of this ship's max HP and launches another AD-1 Skyraider squadron (this HP recovery effect can only activate up to 5 times per battle). \nWhen this ship launches an airstrike, if she has Eagle Union aircraft equipped: launches a $2 special airstrike (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.5%",
+				"6.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[16220] = {
+		desc_get = "",
+		name = "Waltzing Beyond Tragedy",
+		id = 16220,
+		type = 3,
+		max_level = 10,
+		desc = "When the battle starts, if there are 3 or more Eagle Union ships afloat in your fleet: increases this ship's AVI and ACC by $1. \nEvery 18s after the battle starts: $2 chance to fire a $3 special barrage (DMG is based on the skill's level) and decreases this ship's Detection Gauge value by 2 once a second for 5s. \nWhile this ship is afloat, for the first 4 battles another fleet fights during a sortie: increases the FP of that fleet's Main Fleet Eagle Union ships by $4; 20s after that fleet's battle starts: fires a $3 special barrage (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.5%"
+				},
+				{
+					"55.5%",
+					"+5.5%"
+				},
+				{
+					"61%",
+					"+5.5%"
+				},
+				{
+					"66.5%",
+					"+5.5%"
+				},
+				{
+					"72.0%",
+					"+5.5%"
+				},
+				{
+					"77.5%",
+					"+5.5%"
+				},
+				{
+					"83.0%",
+					"+5.5%"
+				},
+				{
+					"88.5%",
+					"+5.5%"
+				},
+				{
+					"94.0%",
+					"+6.0%"
+				},
+				{
+					"100.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			}
+		}
+	},
+	[16230] = {
+		desc_get = "",
+		name = "The Eagle Soars Free",
+		id = 16230,
+		type = 3,
+		max_level = 10,
+		desc = [[
+When this ship launches an airstrike: decreases your Yorktown-class CVs' airstrike loading time by $1 and decreases it by $2 for your other Essex-class CVs (only affects the currently loading airstrike once; effect does not stack). 
+Your Yorktown-class and Essex-class CVs gain the following effects during battle: 
+1) increases their DMG dealt by $1; 
+2) when they launch an airstrike: also launches a $3 interceptive airstrike (DMG is based on the skill's level).]],
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[16240] = {
+		desc_get = "",
+		name = "Waltzing Beyond Tragedy",
+		id = 16240,
+		type = 3,
+		max_level = 10,
+		desc = "跨越悲伤之城全图支援效果",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[16250] = {
+		desc_get = "",
+		name = "Hornet's Sting",
+		id = 16250,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship launches an airstrike: launches a $1 special airstrike with aircraft torpedoes and rockets (DMG is based on the skill's level); inflicts a special Burn ailment to enemies hit by these rockets (Burn DMG is based on this ship's AVI stat). Increases this ship's DMG dealt to enemy CLs and CVLs by $2.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[16260] = {
+		desc_get = "",
+		name = "Flying Ace",
+		id = 16260,
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's AVI and ACC by $1 and increases her Fighter aircraft gear slot efficiency by $2. Every time this ship's aircraft shoot down an enemy aircraft: increases this ship's AVI by $3 (can be stacked up to 3 times).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"4.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.3%"
+				},
+				{
+					"1.3%",
+					"+0.3%"
+				},
+				{
+					"1.6%",
+					"+0.4%"
+				},
+				{
+					"2.0%",
+					"+0.3%"
+				},
+				{
+					"2.3%",
+					"+0.3%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.3%"
+				},
+				{
+					"3.3%",
+					"+0.3%"
+				},
+				{
+					"3.6%",
+					"+0.4%"
+				},
+				{
+					"4.0%"
+				}
+			}
+		}
+	},
+	[16270] = {
+		desc_get = "",
+		name = "The Dancing Grey Ghost",
+		id = 16270,
+		type = 2,
+		max_level = 10,
+		desc = "When the battle starts, increases this ship's EVA by $1 and decreases her DMG taken by $2. Once per battle, when this ship's max HP falls below 30.0% as a result of DMG taken: this ship's Detection Gauge value is set to 0 and your Main Fleet takes no Ramming DMG for 8s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[16280] = {
+		desc_get = "",
+		name = "Ms. Langley's Guidance",
+		id = 16280,
+		type = 1,
+		max_level = 10,
+		desc = "When the battle starts, increases this ship's AVI by $1 for each CV and CVL in your fleet. Increases this ship's DMG dealt with her first 2 airstrikes by $2 each battle.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[16290] = {
+		desc_get = "",
+		name = "Ms. Langley's Strict Discipline",
+		id = 16290,
+		type = 3,
+		max_level = 10,
+		desc = "Increases the ACC of all your CVs and CVLs (excluding this ship) by $1. When this ship launches an airstrike: increases your CVs' and CVLs' DMG dealt by $2 for 8s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[16300] = {
+		desc_get = "",
+		name = "Flagship Cover - Hammann",
+		id = 16300,
+		type = 3,
+		max_level = 10,
+		desc = "While this ship is afloat: increases your CVs' and CVLs' airstrike DMG by $1 and decreases your Flagship's DMG taken by $2 (this DMG increasing effect does not stack with the skill \"Air Raid Assistance\" and this DMG decreasing effect does not stack with Hammann's \"Flagship Cover\" skill).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"15%",
+				"25%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
+	[16310] = {
+		desc_get = "",
+		name = "Cautious Caprice",
+		id = 16310,
+		type = 2,
+		max_level = 10,
+		desc = "Increases this ship's FP and AA by $1. For every 2 enemy aircraft shot down within your Vanguard's Anti-Air Gun range: decreases this ship's DMG taken by 2.0% until the battle ends (can be stacked up to 4 times).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[16320] = {
+		desc_get = "",
+		name = "Artillery Overload",
+		id = 16320,
+		type = 3,
+		max_level = 10,
+		desc = "Every 10s: fires a $1 special barrage (DMG is based on the skill's level). When the battle starts, if there are any other Eagle Union ships in your fleet: when this barrage activates, performs a scan, marking 1 enemy and increasing that enemy's DMG taken by $2 from all types of Cruisers in your Vanguard for 10s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[16330] = {
+		desc_get = "",
+		name = "Pilotfish",
+		id = 16330,
+		type = 2,
+		max_level = 10,
+		desc = "Increases this ship's EVA and ACC by $2. If your Flagship is a CV or a CVL, decreases this ship's DMG taken by 5.0% and, when your Flagship launches an airstrike: fires a $1 special barrage that ignores enemy shields (DMG is based on the skill's level; if your Flagship is an Eagle Union ship, the barrage also inflicts a -50.0% SPD debuff for 8s to enemies hit).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -78798,7 +80169,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20011] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20011,
 		type = 1,
 		max_level = 1,
@@ -78826,7 +80197,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20021] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20021,
 		type = 1,
 		max_level = 1,
@@ -78854,7 +80225,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20031] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20031,
 		type = 1,
 		max_level = 1,
@@ -78882,7 +80253,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20041] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20041,
 		type = 1,
 		max_level = 1,
@@ -78910,7 +80281,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20051] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20051,
 		type = 1,
 		max_level = 1,
@@ -78938,7 +80309,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20061] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20061,
 		type = 1,
 		max_level = 1,
@@ -78966,7 +80337,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20071] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20071,
 		type = 1,
 		max_level = 1,
@@ -78994,7 +80365,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20081] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20081,
 		type = 1,
 		max_level = 1,
@@ -79020,9 +80391,37 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[20091] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		id = 20091,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Edsall-class once every 15 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[20092] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		id = 20092,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault Ⅱ: Edsall-class once every 10 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[20111] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20111,
 		type = 1,
 		max_level = 1,
@@ -79050,7 +80449,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20121] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20121,
 		type = 1,
 		max_level = 1,
@@ -79078,7 +80477,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20131] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20131,
 		type = 1,
 		max_level = 1,
@@ -79120,7 +80519,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20141] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20141,
 		type = 1,
 		max_level = 1,
@@ -79148,7 +80547,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20211] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20211,
 		type = 1,
 		max_level = 1,
@@ -79176,7 +80575,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20221] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20221,
 		type = 1,
 		max_level = 1,
@@ -79204,7 +80603,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20231] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20231,
 		type = 1,
 		max_level = 1,
@@ -79232,7 +80631,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20241] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20241,
 		type = 1,
 		max_level = 1,
@@ -79260,7 +80659,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20251] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20251,
 		type = 1,
 		max_level = 1,
@@ -79288,7 +80687,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20261] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20261,
 		type = 1,
 		max_level = 1,
@@ -79316,7 +80715,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20271] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20271,
 		type = 1,
 		max_level = 1,
@@ -79342,9 +80741,37 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[20281] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		id = 20281,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Oregon City-class once every 12 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[20282] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		id = 20282,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault Ⅱ: Oregon City-class once every 8 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[20311] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20311,
 		type = 1,
 		max_level = 1,
@@ -79372,7 +80799,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[20321] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 20321,
 		type = 1,
 		max_level = 1,
@@ -79400,7 +80827,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21011] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21011,
 		type = 1,
 		max_level = 1,
@@ -79428,7 +80855,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21016] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21016,
 		type = 1,
 		max_level = 1,
@@ -79456,7 +80883,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21021] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21021,
 		type = 1,
 		max_level = 1,
@@ -79484,7 +80911,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21026] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21026,
 		type = 1,
 		max_level = 1,
@@ -79512,7 +80939,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21031] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21031,
 		type = 1,
 		max_level = 1,
@@ -79540,7 +80967,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21041] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21041,
 		type = 1,
 		max_level = 1,
@@ -79568,7 +80995,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21051] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21051,
 		type = 1,
 		max_level = 1,
@@ -79596,7 +81023,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21061] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21061,
 		type = 1,
 		max_level = 1,
@@ -79624,7 +81051,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21071] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21071,
 		type = 1,
 		max_level = 1,
@@ -79652,7 +81079,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21081] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21081,
 		type = 1,
 		max_level = 1,
@@ -79680,7 +81107,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21091] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21091,
 		type = 1,
 		max_level = 1,
@@ -79708,7 +81135,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21111] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21111,
 		type = 1,
 		max_level = 1,
@@ -79736,7 +81163,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21121] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21121,
 		type = 1,
 		max_level = 1,
@@ -79764,7 +81191,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21131] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21131,
 		type = 1,
 		max_level = 1,
@@ -79792,7 +81219,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21141] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21141,
 		type = 1,
 		max_level = 1,
@@ -79820,7 +81247,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21151] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21151,
 		type = 1,
 		max_level = 1,
@@ -79848,7 +81275,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21161] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21161,
 		type = 1,
 		max_level = 1,
@@ -79876,7 +81303,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21171] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21171,
 		type = 1,
 		max_level = 1,
@@ -79904,7 +81331,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21181] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21181,
 		type = 1,
 		max_level = 1,
@@ -79932,7 +81359,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21191] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21191,
 		type = 1,
 		max_level = 1,
@@ -79960,7 +81387,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21211] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21211,
 		type = 1,
 		max_level = 1,
@@ -79988,7 +81415,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21221] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21221,
 		type = 1,
 		max_level = 1,
@@ -80016,7 +81443,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21231] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21231,
 		type = 1,
 		max_level = 1,
@@ -80044,7 +81471,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[21241] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 21241,
 		type = 1,
 		max_level = 1,
@@ -80072,7 +81499,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22011] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22011,
 		type = 1,
 		max_level = 1,
@@ -80100,7 +81527,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22021] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22021,
 		type = 1,
 		max_level = 1,
@@ -80128,7 +81555,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22031] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22031,
 		type = 1,
 		max_level = 1,
@@ -80156,7 +81583,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22041] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22041,
 		type = 1,
 		max_level = 1,
@@ -80184,7 +81611,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22051] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22051,
 		type = 1,
 		max_level = 1,
@@ -80212,7 +81639,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22056] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22056,
 		type = 1,
 		max_level = 1,
@@ -80240,7 +81667,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22061] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22061,
 		type = 1,
 		max_level = 1,
@@ -80268,7 +81695,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22071] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22071,
 		type = 1,
 		max_level = 1,
@@ -80296,7 +81723,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22081] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22081,
 		type = 1,
 		max_level = 1,
@@ -80324,7 +81751,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22091] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22091,
 		type = 1,
 		max_level = 1,
@@ -80352,7 +81779,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22111] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22111,
 		type = 1,
 		max_level = 1,
@@ -80380,7 +81807,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22121] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22121,
 		type = 1,
 		max_level = 1,
@@ -80408,7 +81835,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22131] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22131,
 		type = 1,
 		max_level = 1,
@@ -80436,7 +81863,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22141] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22141,
 		type = 1,
 		max_level = 1,
@@ -80464,7 +81891,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22151] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22151,
 		type = 1,
 		max_level = 1,
@@ -80492,7 +81919,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22161] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22161,
 		type = 1,
 		max_level = 1,
@@ -80520,7 +81947,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22211] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22211,
 		type = 1,
 		max_level = 1,
@@ -80548,7 +81975,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22221] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22221,
 		type = 1,
 		max_level = 1,
@@ -80576,7 +82003,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22231] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22231,
 		type = 1,
 		max_level = 1,
@@ -80604,7 +82031,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22241] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22241,
 		type = 1,
 		max_level = 1,
@@ -80632,7 +82059,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22251] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22251,
 		type = 1,
 		max_level = 1,
@@ -80674,7 +82101,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22254] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22254,
 		type = 1,
 		max_level = 1,
@@ -80702,7 +82129,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22261] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22261,
 		type = 1,
 		max_level = 1,
@@ -80730,7 +82157,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22311] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22311,
 		type = 1,
 		max_level = 1,
@@ -80758,7 +82185,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[22411] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 22411,
 		type = 1,
 		max_level = 1,
@@ -80786,7 +82213,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23011] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23011,
 		type = 1,
 		max_level = 1,
@@ -80814,7 +82241,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23021] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23021,
 		type = 1,
 		max_level = 1,
@@ -80842,7 +82269,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23031] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23031,
 		type = 1,
 		max_level = 1,
@@ -80870,7 +82297,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23041] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23041,
 		type = 1,
 		max_level = 1,
@@ -80898,7 +82325,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23051] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23051,
 		type = 1,
 		max_level = 1,
@@ -80926,7 +82353,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23111] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23111,
 		type = 1,
 		max_level = 1,
@@ -80954,7 +82381,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23121] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23121,
 		type = 1,
 		max_level = 1,
@@ -80982,7 +82409,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23131] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23131,
 		type = 1,
 		max_level = 1,
@@ -81010,7 +82437,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23211] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23211,
 		type = 1,
 		max_level = 1,
@@ -81038,7 +82465,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23221] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23221,
 		type = 1,
 		max_level = 1,
@@ -81066,7 +82493,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23231] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23231,
 		type = 1,
 		max_level = 1,
@@ -81094,7 +82521,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23241] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23241,
 		type = 1,
 		max_level = 1,
@@ -81122,7 +82549,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23311] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23311,
 		type = 1,
 		max_level = 1,
@@ -81150,7 +82577,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23321] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23321,
 		type = 1,
 		max_level = 1,
@@ -81178,7 +82605,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23411] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23411,
 		type = 1,
 		max_level = 1,
@@ -81206,7 +82633,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[23511] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 23511,
 		type = 1,
 		max_level = 1,
@@ -81234,7 +82661,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[24011] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 24011,
 		type = 1,
 		max_level = 1,
@@ -81262,7 +82689,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[24111] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 24111,
 		type = 1,
 		max_level = 1,
@@ -81290,7 +82717,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[24121] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 24121,
 		type = 1,
 		max_level = 1,
@@ -81318,7 +82745,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[24131] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 24131,
 		type = 1,
 		max_level = 1,
@@ -81346,7 +82773,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[24141] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 24141,
 		type = 1,
 		max_level = 1,
@@ -81374,7 +82801,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[25011] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 25011,
 		type = 1,
 		max_level = 1,
@@ -81402,7 +82829,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[25021] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 25021,
 		type = 1,
 		max_level = 1,
@@ -81430,7 +82857,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[25031] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 25031,
 		type = 1,
 		max_level = 1,
@@ -81458,7 +82885,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[25041] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 25041,
 		type = 1,
 		max_level = 1,
@@ -81486,7 +82913,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[25211] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 25211,
 		type = 1,
 		max_level = 1,
@@ -81514,7 +82941,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[25213] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 25213,
 		type = 1,
 		max_level = 1,
@@ -81542,7 +82969,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[25221] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 25221,
 		type = 1,
 		max_level = 1,
@@ -81570,7 +82997,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[25231] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 25231,
 		type = 1,
 		max_level = 1,
@@ -81598,7 +83025,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[25511] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 25511,
 		type = 1,
 		max_level = 1,
@@ -81626,7 +83053,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[26011] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 26011,
 		type = 1,
 		max_level = 1,
@@ -81654,7 +83081,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[26021] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 26021,
 		type = 1,
 		max_level = 1,
@@ -81682,7 +83109,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[26031] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 26031,
 		type = 1,
 		max_level = 1,
@@ -81710,7 +83137,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[26111] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 26111,
 		type = 1,
 		max_level = 1,
@@ -81738,7 +83165,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[26211] = {
 		desc_get = "",
-		name = "All Out Assault - Tallinn I",
+		name = "All Out Assault I",
 		id = 26211,
 		type = 1,
 		max_level = 1,
@@ -81766,7 +83193,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[28011] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 28011,
 		type = 1,
 		max_level = 1,
@@ -81794,7 +83221,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[28021] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 28021,
 		type = 1,
 		max_level = 1,
@@ -81822,7 +83249,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[28031] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 28031,
 		type = 1,
 		max_level = 1,
@@ -81850,7 +83277,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[28111] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 28111,
 		type = 1,
 		max_level = 1,
@@ -81878,7 +83305,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[28121] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 28121,
 		type = 1,
 		max_level = 1,
@@ -81906,7 +83333,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[28211] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 28211,
 		type = 1,
 		max_level = 1,
@@ -81934,7 +83361,7 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 	},
 	[28221] = {
 		desc_get = "",
-		name = "All Out Assault Ⅰ",
+		name = "All Out Assault I",
 		id = 28221,
 		type = 1,
 		max_level = 1,
@@ -104016,6 +105443,19 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		16180,
 		16190,
 		16200,
+		16210,
+		16220,
+		16230,
+		16240,
+		16250,
+		16260,
+		16270,
+		16280,
+		16290,
+		16300,
+		16310,
+		16320,
+		16330,
 		18010,
 		18040,
 		18050,
@@ -104120,6 +105560,8 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		20072,
 		20081,
 		20082,
+		20091,
+		20092,
 		20111,
 		20112,
 		20121,
@@ -104143,6 +105585,8 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 		20262,
 		20271,
 		20272,
+		20281,
+		20282,
 		20311,
 		20312,
 		20321,

@@ -853,6 +853,30 @@ pg.equip_skin_theme_template = {
 			1218
 		}
 	},
+	[42] = {
+		id = 42,
+		name = "Beach Holiday",
+		ids = {
+			690,
+			691,
+			692,
+			693,
+			694,
+			695,
+			696,
+			697,
+			698,
+			699,
+			700,
+			701,
+			702,
+			703,
+			704,
+			705,
+			706,
+			707
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -940,6 +964,7 @@ pg.equip_skin_theme_template = {
 		39,
 		40,
 		41,
+		42,
 		101,
 		102,
 		199

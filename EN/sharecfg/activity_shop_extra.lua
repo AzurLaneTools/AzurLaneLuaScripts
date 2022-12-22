@@ -2342,6 +2342,44 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[94] = {
+		commodity_type = 7,
+		activity = 4602,
+		commodity_id = 102233,
+		id = 94,
+		num = 1,
+		num_limit = 1,
+		order = 15,
+		scene = {
+			"NEWYEAR BACKHILL 2023"
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	get_id_list_by_commodity_type = {
 		[7] = {
 			5,
@@ -2407,7 +2445,8 @@ pg.activity_shop_extra = {
 			90,
 			91,
 			92,
-			93
+			93,
+			94
 		}
 	},
 	all = {
@@ -2474,6 +2513,7 @@ pg.activity_shop_extra = {
 		90,
 		91,
 		92,
-		93
+		93,
+		94
 	}
 }

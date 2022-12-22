@@ -12,6 +12,7 @@ slot0.ON_CHAT_MSG_UPDATE = "NewMainScene:ON_CHAT_MSG_UPDATE"
 slot0.ON_STOP_PAITING_VOICE = "NewMainScene:ON_STOP_PAITING_VOICE"
 slot0.ON_ACT_BTN_UPDATE = "NewMainScene:ON_ACT_BTN_UPDATE"
 slot0.ON_ZERO_HOUR = "NewMainScene:ON_ZERO_HOUR"
+slot0.ON_BUFF_UPDATE = "NewMainScene:ON_BUFF_UPDATE"
 
 function slot0.getUIName(slot0)
 	return "NewMainUI"
@@ -187,7 +188,7 @@ function slot0.SwitchToNextShip(slot0)
 		return
 	end
 
-	if slot0.iconView.ship.skinId ~= getProxy(PlayerProxy):getRawData():GetNextFlagShip().skinId then
+	if slot0.iconView.ship.skinId ~= getProxy(PlayerProxy):getRawData():GetNextFlagShip().skinId or slot0.iconView.ship.id ~= slot2.id then
 		slot0.bgView:Refresh(slot2)
 		slot0:PlayBgm(slot2)
 		slot0.iconView:Refresh(slot2)

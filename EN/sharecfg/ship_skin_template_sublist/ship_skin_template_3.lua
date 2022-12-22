@@ -4899,6 +4899,251 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[103260] = {
+		ship_group = 10326,
+		name = "Northampton II",
+		bullet_skin_secondary = "",
+		hand_id = 3,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 103260,
+		group_index = 0,
+		prefab = "beianpudunII",
+		painting = "beianpudunII",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Oregon City-class heavy cruiser – Northampton II, Hull Number CA-125.",
+		voice_actor = 27,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.202,
+					1.03,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.24,
+					0.85,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.427,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103261] = {
+		ship_group = 10326,
+		name = "Swimming Star",
+		bullet_skin_secondary = "",
+		hand_id = 3,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "133",
+		id = 103261,
+		group_index = 1,
+		prefab = "beianpudunII_2",
+		painting = "beianpudunII_2",
+		shop_id = 70777,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 6,
+		illustrator = -1,
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Whew. How many laps have I done since my last break...? Oh. Commander, are you here to hone your swimming skills too?",
+		voice_actor = 27,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			15,
+			-25,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.202,
+					1.03,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.24,
+					0.85,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.44,
+							2.36,
+							0.14
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			mail = 0.43,
+			propose = 0.33,
+			main_1 = 0.26,
+			complete = 0.33,
+			home = 1.5,
+			login = 0.4,
+			mission_complete = 0.33,
+			mission = 0.33,
+			touch2 = 0.5,
+			main_2 = 0.26,
+			touch = 0.33,
+			main_3 = 0.33
+		},
+		ship_l2d_id = {
+			1032611
+		}
+	},
 	[105010] = {
 		ship_group = 10501,
 		name = "Nevada",

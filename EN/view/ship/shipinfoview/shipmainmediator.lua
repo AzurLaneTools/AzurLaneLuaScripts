@@ -14,6 +14,7 @@ slot0.BUY_ITEM = "ShipMainMediator:BUY_ITEM"
 slot0.UNEQUIP_FROM_SHIP_ALL = "ShipMainMediator:UNEQUIP_FROM_SHIP_ALL"
 slot0.UNEQUIP_FROM_SHIP = "ShipMainMediator:UNEQUIP_FROM_SHIP"
 slot0.NEXTSHIP = "ShipMainMediator:NEXTSHIP"
+slot0.ON_NEXTSHIP_PREPARE = "ShipMainMediator:ON_NEXTSHIP_PREPARE"
 slot0.OPEN_ACTIVITY = "ShipMainMediator:OPEN_ACTIVITY"
 slot0.PROPOSE = "ShipMainMediator:PROPOSE"
 slot0.RENAME_SHIP = "ShipMainMediator:RENAME_SHIP"
@@ -382,6 +383,7 @@ function slot0.nextPage(slot0, slot1, slot2)
 	end
 
 	if slot6 then
+		slot0.viewComponent:emit(uv0.ON_NEXTSHIP_PREPARE, slot6)
 		slot0.viewComponent:setPreOrNext(slot1, slot6)
 
 		slot0.viewComponent.fashionGroup = 0

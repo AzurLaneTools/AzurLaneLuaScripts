@@ -688,7 +688,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "\"Now that you mention it…\"",
+			say = "\"Now that you mention it...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "Phew... Okay, next report. This one's about the pseudo-environment simulation project…",
+			say = "Phew... Okay, next report. This one's about the pseudo-environment simulation project...",
 			painting = {
 				alpha = 0.3,
 				time = 1

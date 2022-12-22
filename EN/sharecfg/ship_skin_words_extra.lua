@@ -11739,6 +11739,306 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[103260] = {
+		unlock = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		expedition = "",
+		feeling1 = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 103260,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, for today's training... and other matters, I'll be counting on you."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"It's also thanks to you, Commander."
+			}
+		},
+		home = {
+			{
+				1100,
+				"It's good that everyone made it back safely. And you came back safely too... That's the most important part."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, it's nice out. Umm... Ah, uh, sorry. If it's fine, want to walk for a bit...?|A quiet office, unusual peace of mind... How nice."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"H-hold yourself back a bit..."
+			}
+		}
+	},
+	[107100] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 107100,
+		login = {
+			{
+				1100,
+				"Good day, Commander. How is your work going? If ever you need my aid, don't hesitate to ask."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"U-umm... \"Wow, I sure hope the Commander rewards me for being named MVP!\" Ahahaha... Th-this doesn't really suit me, does it?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Why don't we crack open some celebratory wine? Don't worry, I'm limiting myself to one glass. Honestly, I was hoping I could be a little bolder if I drank enough... Oh, n-never mind! Ignore that."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Come to me with any worries you have, okay? When I see that you're troubled, I start to feel so down... And then that's two people for everyone to worry about. Heehee!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"You're not worried? You just want to spend time with me? Okay. I... feel the same way.|The past matters. There may be things that we want to forget, but they're part of what makes up who we are. My happiness today is only thanks to everyone's tireless efforts.|Commander, what plans do you have for your next day off? We don't have to go far; I'm sure there are places around the port you haven't been to... Heehee."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Something troubling you, Commander?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The commission team is back safe and sound. Shall we go and meet them together?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"There, there. Good Commander... Heehee!"
+			}
+		}
+	},
+	[107120] = {
+		unlock = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		win_mvp = "",
+		profile = "",
+		mission = "",
+		mail = "",
+		touch = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 107120,
+		login = {
+			{
+				1100,
+				"Paperwork, check. Alcoholic drinks for unwinding, check... Oh, Commander! Sorry, I didn't expect you this early. Now let's get to work~♪"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Lookin' good, Commander! How's about a drink to put some pep in your—Ooh, nice catch! Even if... Well, I just handed it to you."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I-it's pretty embarrassing when someone says they've fallen for you all over again right to your face... Ahahaha... Y'know what? I've fallen for you all over, too, Commander~♪"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"You might not realize it, but Yorktown really wants you to pay attention to her. Same here, too, but... Ahaha! Popularity can be rough, huh, Commander?|Is your brain overheating, Commander? Look, there's steam rising from your head... Kidding, kidding! Take a break, 'kay?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Looks like the girls are back from their commission. You know what you gotta do, right? Hahaha, of course you do!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission bonus received! Great teamwork, Ty and Princeton!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ohh... D-do you want me to feel a bit more... flustered...?"
+			}
+		},
+		skill = {
+			{
+				1100,
+				"Kaboom! Just like that!"
+			}
+		}
+	},
+	[101500] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 101500,
+		login = {
+			{
+				1100,
+				"Finally, you're back! I was so tired of waiting... I-I mean, never mind! Whether you're here or not, I'm just fine!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Hey, stupid Commander! I don't know how to brew tea, so I brought you some refreshing juice... I-If you're thirsty, then just drink it already!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"L-look. I'll always be hard to deal with, so if you've got a problem—ack! Okay, okay, I get it! You're not the kind of person to change your mind, I get it! Geez... *blush*"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Comman—H-hmph. I shouldn't interrupt your work... Besides, you look c-cute when you're focused on work... I-I didn't say anythiiing!|Test out my new rigging? A-alright, here goes! ...Ah. Th-that wasn't... I-it's your fault, Commander!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Wh-what the heck do you want...?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"P-perv... *blush*"
+			}
+		}
+	},
+	[107270] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 107270,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Welcome back. Oh, you'd like to go out with Ms. Langley? Only after you finish your work for the day!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Haha! Did you learn anything, Commander?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back—Hold on there! Good, you're not hurt... Okay! You're free to go now."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"You'd like to see Ms. Langley's sweet, delicate side? Th-th-that isn't something to say to your teacher! P-perhaps when we're in private...|You think I'm too strict? Only because I care about you, Commander. But... I will keep that in mind.|Eyes on your work, please! ...Don't look at me, either! Goodness..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I keep telling you not to treat me like a child!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You mustn't do that to your teacher! A-at least, not when I'm acting as your teacher..."
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
@@ -11916,6 +12216,11 @@ pg.ship_skin_words_extra = {
 		10900030,
 		10900040,
 		10900050,
-		10900060
+		10900060,
+		103260,
+		107100,
+		107120,
+		101500,
+		107270
 	}
 }

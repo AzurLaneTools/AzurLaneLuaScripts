@@ -9487,6 +9487,71 @@ pg.activity_ins_template = {
 			3178
 		}
 	},
+	{
+		ship_group = 10707,
+		name = "CarVesGAL6",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "dahuangfengII",
+		id = 347,
+		group_id = 347,
+		order = 36,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10705,
+		name = "YorkTown",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yuekechengII",
+		id = 348,
+		group_id = 348,
+		order = 36,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10125,
+		name = "DD_Hammann",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "hamanII",
+		id = 349,
+		group_id = 349,
+		order = 36,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10303,
+		name = "Northampton",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "beianpudunII",
+		id = 350,
+		group_id = 350,
+		order = 36,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 10701,
+		name = "Langley",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "lanliII",
+		id = 351,
+		group_id = 351,
+		order = 36,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -9833,6 +9898,11 @@ pg.activity_ins_template = {
 		343,
 		344,
 		345,
-		346
+		346,
+		347,
+		348,
+		349,
+		350,
+		351
 	}
 }

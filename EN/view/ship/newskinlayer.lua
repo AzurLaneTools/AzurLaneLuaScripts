@@ -241,6 +241,10 @@ function slot0.getSameGroupShips(slot0)
 		end
 	end
 
+	for slot8, slot9 in ipairs(getProxy(BayProxy):CanUseShareSkinShips(slot2)) do
+		slot1[slot9.id] = slot9
+	end
+
 	return slot1
 end
 

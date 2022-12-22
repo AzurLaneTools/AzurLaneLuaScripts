@@ -753,6 +753,71 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[20020] = {
+		id = 20020,
+		name = "大洋联邦 自爆无人机移动AI",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -8,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 1.5
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 2,
+				param = {
+					x = -150,
+					z = 0
+				}
+			},
+			{
+				index = 4,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[20021] = {
+		id = 20021,
+		name = "大洋联邦 攻击潜艇移动AI",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -30,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[30000] = {
 		id = 30000,
 		name = "转圈小范围 顺时针",
@@ -8246,6 +8311,78 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70175] = {
+		id = 70175,
+		name = "2022美系活动 深水情报舰 循环移动轨迹",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -50,
+					z = 70
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70176] = {
+		id = 70176,
+		name = "2022美系活动 深水情报舰 循环移动轨迹",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -50,
+					z = 15
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70177] = {
+		id = 70177,
+		name = "2022美系活动 深水情报舰 循环移动轨迹",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -10,
+					z = 45
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",
@@ -9045,6 +9182,122 @@ pg.auto_pilot_template = {
 				type = 0,
 				param = {
 					duration = -1
+				}
+			}
+		}
+	},
+	[75021] = {
+		id = 75021,
+		name = "2022美系活动B3仲裁者浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 3,
+				param = {
+					Z1 = 20,
+					Z2 = 55,
+					X2 = 0,
+					moveCount = 8000,
+					duration = 3,
+					X1 = -25,
+					stopCount = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			}
+		}
+	},
+	[75022] = {
+		id = 75022,
+		name = "2022美系活动B3仲裁者浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 3,
+				param = {
+					Z1 = 55,
+					Z2 = 90,
+					X2 = 0,
+					moveCount = 8000,
+					duration = 3,
+					X1 = -25,
+					stopCount = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			}
+		}
+	},
+	[75023] = {
+		id = 75023,
+		name = "2022美系活动B3仲裁者浮游炮3",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 3,
+				param = {
+					Z1 = 0,
+					Z2 = 35,
+					X2 = 0,
+					moveCount = 5000,
+					duration = 2,
+					X1 = -25,
+					stopCount = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			}
+		}
+	},
+	[75024] = {
+		id = 75024,
+		name = "2022美系活动B3仲裁者浮游炮4",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 3,
+				param = {
+					Z1 = 75,
+					Z2 = 110,
+					X2 = 0,
+					moveCount = 5000,
+					duration = 2,
+					X1 = -25,
+					stopCount = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 1
 				}
 			}
 		}

@@ -372,10 +372,10 @@ pg.item_data_frame = {
 	[323] = {
 		time_limit_type = 0,
 		name = "Sea of Stars Loop",
-		gain_by = "",
+		gain_by = "Parallel Superimposition",
 		id = 323,
 		time_second = 0,
-		desc = "Obtained from a limited event.",
+		desc = "<color=#ffffff>\"Space and time intertwine amidst spinning rings, and destiny converges within the pillar of light.\"</color>\nObtained from the \"Parallel Superimposition\" event.",
 		scene = {}
 	},
 	[406] = {

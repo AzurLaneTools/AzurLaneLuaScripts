@@ -81,6 +81,8 @@ slot0.ACTIVITY_TYPE_TASK_POOL = 86
 slot0.ACTIVITY_TYPE_PT_OTHER = 87
 slot0.ACTIVITY_TYPE_ATELIER_LINK = 88
 slot0.ACTIVITY_TYPE_TASK_RYZA = 89
+slot0.ACTIVITY_TYPE_RED_PACKET_LOTTER = 90
+slot0.ACTIVITY_TYPE_HOTSPRING = 91
 slot0.HIDE_PT_PANELS = false
 slot0.WITHOUT_ACTIVITY = 0
 slot0.MONOPOLY_OP_THROW = 1
@@ -118,8 +120,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2022,
-			11,
-			24
+			12,
+			22
 		},
 		{
 			0,
@@ -129,9 +131,9 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	},
 	{
 		{
-			2022,
-			12,
-			7
+			2023,
+			1,
+			11
 		},
 		{
 			23,

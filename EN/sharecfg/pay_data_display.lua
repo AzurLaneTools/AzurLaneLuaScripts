@@ -2323,6 +2323,321 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[45] = {
+		subject = "Winter Swimsuit Lucky Bag 2022 A",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		type = 1,
+		limit_arg = 1,
+		name = "Winter Swimsuit Lucky Bag 2022 A",
+		name_display = "Winter Swimsuit Lucky Bag 2022 A",
+		type_order = 2,
+		extra_gem = 0,
+		id = 45,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe10_l",
+		id_str = "com.yostaren.azurlane.luckybag2",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		airijp_id = "com.yostaren.azurlane.luckybag2",
+		extra_service_item = {
+			{
+				2,
+				69922,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69922,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[46] = {
+		subject = "Winter Swimsuit Lucky Bag 2022 B",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		type = 1,
+		limit_arg = 1,
+		name = "Winter Swimsuit Lucky Bag 2022 B",
+		name_display = "Winter Swimsuit Lucky Bag 2022 B",
+		type_order = 2,
+		extra_gem = 0,
+		id = 46,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe11_l",
+		id_str = "com.yostaren.azurlane.luckybag3",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		airijp_id = "com.yostaren.azurlane.luckybag3",
+		extra_service_item = {
+			{
+				2,
+				69923,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69923,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[47] = {
+		subject = "Shougatsu Lucky Box 2022 Rerun",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		type = 1,
+		limit_arg = 1,
+		name = "Shougatsu Lucky Box 2022 Rerun",
+		name_display = "Shougatsu Lucky Box 2022 Rerun",
+		type_order = 2,
+		extra_gem = 0,
+		id = 47,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai6",
+		id_str = "com.yostaren.azurlane.luckybag1",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies.",
+		airijp_id = "com.yostaren.azurlane.luckybag1",
+		extra_service_item = {
+			{
+				2,
+				69916,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69916,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[139] = {
 		subject = "Black Friday Lucky Bag (2022)",
 		limit_group = 0,
@@ -7695,6 +8010,9 @@ pg.pay_data_display = {
 		42,
 		43,
 		44,
+		45,
+		46,
+		47,
 		139,
 		1000,
 		1001,

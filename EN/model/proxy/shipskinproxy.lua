@@ -327,6 +327,26 @@ function slot0.GetAllSkinForShip(slot0, slot1)
 	return slot3
 end
 
+function slot0.GetShareSkinsForShip(slot0, slot1)
+	if not pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[slot1.groupId][1]].share_group_id or #slot4.share_group_id <= 0 then
+		return {}
+	end
+
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot4.share_group_id) do
+		for slot15, slot16 in ipairs(pg.ship_skin_template.get_id_list_by_ship_group[slot10]) do
+			if ShipSkin.New({
+				id = slot16
+			}):CanShare() then
+				table.insert(slot5, slot17)
+			end
+		end
+	end
+
+	return slot5
+end
+
 function slot0.GetAllSkinForARCamera(slot0, slot1)
 	for slot6 = #ShipGroup.getSkinList(slot1), 1, -1 do
 		if slot2[slot6].skin_type == ShipSkin.SKIN_TYPE_OLD then
@@ -390,11 +410,15 @@ function slot0.InShowTime(slot0, slot1)
 end
 
 function slot0.HasFashion(slot0, slot1)
-	if #slot0:GetAllSkinForShip(slot1) == 1 then
-		return PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot2[1].painting .. "_n"))
+	if #slot0:GetShareSkinsForShip(slot1) > 0 then
+		return true
 	end
 
-	return #slot2 > 1
+	if #slot0:GetAllSkinForShip(slot1) == 1 then
+		return PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot3[1].painting .. "_n"))
+	end
+
+	return #slot3 > 1
 end
 
 function slot0.GetEncoreSkins(slot0)

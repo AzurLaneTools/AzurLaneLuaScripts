@@ -1020,6 +1020,118 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		desc = "Belfast's Blessings: Your ships gain 3.0% more EXP in the Dorm.\nBuff duration: $1",
+		benefit_effect = "3",
+		id = 66,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4603,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		desc = "Le Triomphant's Blessings: Your ships gain 3.0% more EXP in the Dorm.\nBuff duration: $1",
+		benefit_effect = "3",
+		id = 67,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4603,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		desc = "Shoukaku's Blessings: Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives stages.\nBuff duration: $1",
+		benefit_effect = "520",
+		id = 68,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4603,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		desc = "South Dakota's Blessings: Your ships gain 3.0% more EXP from Story, Hard, Event, and War Archives stages.\nBuff duration: $1",
+		benefit_effect = "3",
+		id = 69,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4603,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		desc = "Graf Zeppelin's Blessings: Your ships gain 3.0% more EXP from Story, Hard, Event, and War Archives stages.\nBuff duration: $1",
+		benefit_effect = "3",
+		id = 70,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4603,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		desc = "Illustrious' Blessings: Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives stages.\nBuff duration: $1",
+		benefit_effect = "520",
+		id = 71,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4603,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "",
+		hide = 0,
+		max_time = 86400,
+		desc = "Zara' Blessings: Your ships take 3.0% less DMG from enemies in Story, Hard, Event, and War Archives stages.\nBuff duration: $1",
+		benefit_effect = "520",
+		id = 72,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4603,
+			0
+		}
+	},
 	[103] = {
 		icon = "Props/newserver_skill",
 		name = "Campaign Skill Leveling Bonus",
@@ -1944,6 +2056,13 @@ pg.benefit_buff_template = {
 		63,
 		64,
 		65,
+		66,
+		67,
+		68,
+		69,
+		70,
+		71,
+		72,
 		103,
 		300001,
 		300002,

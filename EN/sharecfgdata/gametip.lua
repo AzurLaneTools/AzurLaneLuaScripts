@@ -8142,11 +8142,10 @@ _G.pg.base.gametip.word_rename_time_warning = {
 
 _G.pg.base.gametip.word_propose_cost_tip = {
 	tip = [[
-<size=30>You will need to use <color=#a0ff40>1</color> Promise Ring. 
-(You have <color=#a0ff40>$1</color>)</size>
+Marriage requires <color=#92fc63>1</color> Promise Ring (In Depot: <color=#92fc63>$1</color>).
 
-<size=30>*Once promised, your ship will become exclusive and may be renamed. 
-She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]]
+<size=32>Marrying a shipgirl grants her a special status, lets you change her name, and gives her a <color=#92fc63>3%</color> boost to most stats.</size>
+<size=32>Marrying a shipgirl automatically locks her in your dock. You can unlock her manually if so desired.</size>]]
 }
 
 _G.pg.base.gametip.evaluate_too_loog = {
@@ -10185,7 +10184,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Reisalin Stout, Patricia Abelheim and more!"
+	tip = "Rate UP for Yorktown II, Northampton II and more!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -14149,6 +14148,10 @@ _G.pg.base.gametip.retire_selectzero = {
 	tip = "No ships fit the specified conditions for quick retire. "
 }
 
+_G.pg.base.gametip.retire_marry_skin = {
+	tip = "$1's skin has been reset."
+}
+
 _G.pg.base.gametip.undermist_tip = {
 	tip = "No available missions. Please wait until tomorrow to unlock more."
 }
@@ -18018,7 +18021,7 @@ _G.pg.base.gametip.LevelSignal_intensity = {
 }
 
 _G.pg.base.gametip.backyard_longpress_ship_tip = {
-	tip = "<size=30>Tap and hold to view detailed character information.</size>"
+	tip = "<size=27>Tap and hold to view detailed character information.</size>"
 }
 
 _G.pg.base.gametip.common_npc_formation_tip = {
@@ -22376,6 +22379,10 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 	}
 }
 
+_G.pg.base.gametip.hotspring_buff = {
+	tip = "Open-Air Onsen|Shipgirls recover Morale faster while bathing."
+}
+
 _G.pg.base.gametip.random_ship_custom_mode_empty = {
 	tip = "You can add shipgirls to your secretary rotation list."
 }
@@ -22446,4 +22453,258 @@ _G.pg.base.gametip.random_ship_custom_mode_add_title = {
 
 _G.pg.base.gametip.random_ship_custom_mode_remove_title = {
 	tip = "Remove Shipgirls"
+}
+
+_G.pg.base.gametip.hotspring_shop_enter1 = {
+	tip = "Welcome to the souvenir shop, nya! Anything catch your eye, nya?"
+}
+
+_G.pg.base.gametip.hotspring_shop_enter2 = {
+	tip = "Welcome, nya! Akashi has wares if you have vouchers, nya."
+}
+
+_G.pg.base.gametip.hotspring_shop_insufficient = {
+	tip = "Not enough vouchers for that one, nya. Help me expand the hot spring and I'll give you some, nya."
+}
+
+_G.pg.base.gametip.hotspring_shop_success1 = {
+	tip = "Thank you for your patronyage~"
+}
+
+_G.pg.base.gametip.hotspring_shop_success2 = {
+	tip = "Good taste, nya!"
+}
+
+_G.pg.base.gametip.hotspring_shop_finish = {
+	tip = "All that's left in my storage are dust bunnies, nya! I have nothing more to offer, nya."
+}
+
+_G.pg.base.gametip.hotspring_shop_end = {
+	tip = "My hot spring promotion is over, but you can still trade for items, nya."
+}
+
+_G.pg.base.gametip.hotspring_shop_touch1 = {
+	tip = "I'm not for sale, nya!"
+}
+
+_G.pg.base.gametip.hotspring_shop_touch2 = {
+	tip = "You won't get free stuff by poking me, nya!"
+}
+
+_G.pg.base.gametip.hotspring_shop_touch3 = {
+	tip = "Ey, what's the big idea, nya?!"
+}
+
+_G.pg.base.gametip.hotspring_shop_exchanged = {
+	tip = "Not happening, nya. You've redeemed all you can of that one, nya."
+}
+
+_G.pg.base.gametip.hotspring_shop_exchange = {
+	tip = "Do you want to spend $1  <icon name=Props/wenquanjuan w=0.7 h=0.7/>  to exchange for $2 $3(s)?"
+}
+
+_G.pg.base.gametip.hotspring_tip1 = {
+	tip = "Your shipgirls recover Morale faster while bathing."
+}
+
+_G.pg.base.gametip.hotspring_tip2 = {
+	tip = "Insufficient Resort Coins."
+}
+
+_G.pg.base.gametip.hotspring_help = {
+	tip = {
+		{
+			info = [[
+- Open-Air Onsen Overview -
+Event lasts between <color=#92fc63>December 22nd, 2022 to January 4th, 2023</color>
+
+Placing your shipgirls in the Open-Air Onsen allows them to recover Morale at a faster rate than normal.
+This hot spring starts out with a few slots already available. You can purchase expansions to get more slots using Onsen Resort Coins, which are obtainable through completing event missions.
+Expanding the hot spring also gives you Onsen Souvenir Vouchers which can be exchanged for items in the Souvenir Shop.
+
+- Details -
+· New event missions will unlock every day up to December 28th. Completing these rewards you with Onsen Resort Coins.
+· The Expand button on the Open-Air Onsen menu can be used to develop the hot spring, adding more slots for your shipgirls to rest.
+· Developing the hot spring rewards you with Onsen Souvenir Vouchers which you can exchange for items in the Souvenir Shop.
+· Shipgirls can be added to or removed from the hot spring by tapping the Bathe button or the Manage Guests button on the top right of the screen.
+· You can also tap and hold the shipgirls in the hot spring to change their bathing slots.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.hotspring_expand = {
+	tip = "Do you want to use $1 Onsen Resort Coins to expand the hot spring?"
+}
+
+_G.pg.base.gametip.hotspring_shop_help = {
+	tip = {
+		{
+			info = [[
+Event lasts between December 22nd, 2022 to January 4th, 2023
+
+- Souvenir Shop Info -
+· New event missions will unlock every day up to December 28th. Completing these rewards you with Onsen Resort Coins.
+· Using Onset Resort Coins to expand the hot spring gives you Onsen Souvenir Vouchers.
+· The Souvenir Shop offers various items you can exchange for, including the limited-time furniture Manjuu Onsen Resort once you have bought everything else in the shop.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.resorts_help = {
+	tip = {
+		{
+			info = [[
+Event lasts between <color=#92fc63>December 22nd, 2022 to January 4th, 2023</color>
+
+- Vacation Resort Overview -
+· Minigame - play the minigame over 7 days to unlock Birmingham's new skin, To Where the Wind Blows.
+· Open-Air Onsen - shipgirls bathing in the hot spring recover Morale faster. Visit the Souvenir Shop to exchange for items.
+· Try Your Luck - log in every day, try your luck, and get the limited-time furniture Lucky Pouch.
+· New Year's Blessings - log in every day, make a wish, and receive a New Year's Invitation to recruit an SR shipgirl.
+· New Skins - visit the skins shop and see the latest fashion on offer.
+· Limited Construction - go to the build menu and recruit limited-time shipgirls.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.pvzminigame_help = {
+	tip = {
+		{
+			info = [[
+- Sirens vs Swimsuits Overview -
+Deploy manjuus and shipgirls in swimsuits on the playing field and take out all the encroaching Sirens to rack up points.
+<color=#92fc63>A new stage will unlock</color> every day at midnight up to <color=#92fc63>December 28th, 2022</color>.
+Complete all stages to receive Birmingham's new skin, To Where the Wind Blows.
+
+- How to Play -
+· Drag and drop a unit to place it on the playing field. Units cost fireworks to deploy.
+· Every unit comes with a special ability. You may only place 1 of each shipgirl.
+· There are 3 types of manjuus available: Fightjuus, Defendjuus, and Prodjuucers.
+Deploying Prodjuucers generates more fireworks for you to use.
+The shipgirls you can deploy are Noshiro, Cheshire, Kashino, Littorio, and Birmingham.
+For more details on the abilities of all friendly and enemy units, consult the Game Guide.
+· You can tap the shovel icon in the bottom right corner of the screen to remove your units from the field, but no firework will be refunded.
+· The minigame ends after either a game over, or when you exit it early.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.tips_yuandanhuoyue2023 = {
+	tip = {
+		{
+			info = [[
+Event lasts between <color=#92fc63>December 22nd, 2022 to January 4th, 2023</color>
+
+- How to Play -
+· You get 1 attempt every day at midnight up to December 31st. You can save a total of up to 10 attempts.
+· Tapping a pouch subtracts 1 attempt and reveals its contents.
+· Rewards are divided into tiers of 1 through 4. The tier number corresponds to the amount of pouches with that tier of reward (e.g. there is one tier 1 pouch, two tier 2 pouches, etc.)
+
+The list of pouch rewards is as follows:
+Tier 1 - Lucky Pouch (limited-time furniture)
+Tier 2 - 1 random T3 Skill Book
+Tier 3 - 5 random T3 Parts
+Tier 4 - 1 random Tech Box]]
+		}
+	}
+}
+
+_G.pg.base.gametip.beach_guard_chaijun = {
+	tip = "Fires rocket fireworks at enemies, dealing damage and causing an explosion!"
+}
+
+_G.pg.base.gametip.beach_guard_jianye = {
+	tip = "Throws firework bombs that deal damage to all enemies caught in its blast radius!"
+}
+
+_G.pg.base.gametip.beach_guard_lituoliao = {
+	tip = "Throws fireworks which leave a smokescreen after blowing up!\nThe smokescreen lasts 5 seconds and lowers the attack and movement speeds of enemies inside it by 10.0%. (Can stack up to 5 times.)"
+}
+
+_G.pg.base.gametip.beach_guard_bominghan = {
+	tip = "Launches fireworks which split into smaller ones and stop the enemy's movement for a while! (The smaller fireworks do not cause this stopping effect.)"
+}
+
+_G.pg.base.gametip.beach_guard_nengdai = {
+	tip = "Can fire 2 fireworks at once!\nAfter hitting an enemy, friendlies in range of her firework radius gain 1.0% increased attack speed and damage for 10 seconds! (Can stack up to 10 times.)"
+}
+
+_G.pg.base.gametip.beach_guard_m_craft = {
+	tip = "Creates more fireworks for you to use!"
+}
+
+_G.pg.base.gametip.beach_guard_m_atk = {
+	tip = "Shoots fireworks at the enemy!"
+}
+
+_G.pg.base.gametip.beach_guard_m_guard = {
+	tip = "Blocks incoming enemies!"
+}
+
+_G.pg.base.gametip.beach_guard_m_craft_name = {
+	tip = "Prodjuucer"
+}
+
+_G.pg.base.gametip.beach_guard_m_atk_name = {
+	tip = "Fightjuu"
+}
+
+_G.pg.base.gametip.beach_guard_m_guard_name = {
+	tip = "Defendjuu"
+}
+
+_G.pg.base.gametip.beach_guard_e1 = {
+	tip = "Scavenger"
+}
+
+_G.pg.base.gametip.beach_guard_e2 = {
+	tip = "Chaser"
+}
+
+_G.pg.base.gametip.beach_guard_e3 = {
+	tip = "Navigator"
+}
+
+_G.pg.base.gametip.beach_guard_e4 = {
+	tip = "Smasher"
+}
+
+_G.pg.base.gametip.beach_guard_e5 = {
+	tip = "Conductor"
+}
+
+_G.pg.base.gametip.beach_guard_e6 = {
+	tip = "Tester"
+}
+
+_G.pg.base.gametip.beach_guard_e7 = {
+	tip = "Purifier"
+}
+
+_G.pg.base.gametip.beach_guard_e1_desc = {
+	tip = "A regular Siren. Average attack and movement speed."
+}
+
+_G.pg.base.gametip.beach_guard_e2_desc = {
+	tip = "A regular Siren with higher movement speed than Scavenger."
+}
+
+_G.pg.base.gametip.beach_guard_e3_desc = {
+	tip = "A regular Siren with higher attack speed than Scavenger."
+}
+
+_G.pg.base.gametip.beach_guard_e4_desc = {
+	tip = "A hardy Siren. High damage and health, but low speed."
+}
+
+_G.pg.base.gametip.beach_guard_e5_desc = {
+	tip = "A well-rounded Siren. Don't underestimate her."
+}
+
+_G.pg.base.gametip.beach_guard_e6_desc = {
+	tip = "When her HP falls below 50.0%, she deploys barriers capable of tanking 10.0% of her max HP around all Sirens on the field. \nThe barriers cannot stack."
+}
+
+_G.pg.base.gametip.beach_guard_e7_desc = {
+	tip = "Periodically negates the effects of all smokescreens and speed debuffs around her."
 }

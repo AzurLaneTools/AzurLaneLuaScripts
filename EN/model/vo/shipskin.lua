@@ -11,6 +11,7 @@ slot0.WITH_BG = 2
 slot0.WITH_EFFECT = 3
 slot0.WITH_DYNAMIC_BG = 4
 slot0.WITH_BGM = 5
+slot0.WITH_SPINE = 6
 
 function slot0.Tag2Name(slot0)
 	if not uv0.Tag2NameTab then
@@ -19,7 +20,8 @@ function slot0.Tag2Name(slot0)
 			[uv0.WITH_BGM] = "bgm",
 			[uv0.WITH_DYNAMIC_BG] = "dtbg",
 			[uv0.WITH_EFFECT] = "effect",
-			[uv0.WITH_LIVE2D] = "live2d"
+			[uv0.WITH_LIVE2D] = "live2d",
+			[uv0.WITH_SPINE] = "spine"
 		}
 	end
 
@@ -169,6 +171,14 @@ function slot0.isBgm(slot0)
 	return slot0.isBgmTag
 end
 
+function slot0.IsSpine(slot0)
+	if not slot0.isSpine then
+		slot0.isSpine = table.contains(slot0:getConfig("tag"), uv0.WITH_SPINE)
+	end
+
+	return slot0.isSpine
+end
+
 function slot0.CantUse(slot0)
 	slot3 = slot0:getConfig("ship_group")
 
@@ -197,6 +207,49 @@ end
 
 function slot0.IsProposeSkin(slot0)
 	return slot0:getConfig("skin_type") == uv0.SKIN_TYPE_PROPOSE
+end
+
+function slot0.CanShare(slot0)
+	return not (slot0:getConfig("skin_type") == uv0.SKIN_TYPE_DEFAULT or slot4 == uv0.SKIN_TYPE_REMAKE or slot4 == uv0.SKIN_TYPE_PROPOSE and not (function ()
+		slot0 = uv0:getConfig("ship_group")
+
+		for slot5, slot6 in pairs(getProxy(BayProxy):getRawData()) do
+			if slot6.groupId == slot0 and slot6.propose then
+				return true
+			end
+		end
+
+		return false
+	end)() or slot4 == uv0.SKIN_TYPE_OLD or slot4 == uv0.SKIN_TYPE_NOT_HAVE_HIDE and not getProxy(ShipSkinProxy):hasSkin(slot0.configId) or slot4 == uv0.SKIN_TYPE_SHOW_IN_TIME and not (function ()
+		if uv0 then
+			return true
+		end
+
+		return uv1:InShowTime()
+	end)())
+end
+
+function slot0.IsShareSkin(slot0, slot1)
+	slot3 = pg.ship_data_group
+
+	return table.contains(slot3[slot3.get_id_list_by_group_type[slot0.groupId][1]].share_group_id, pg.ship_skin_template[slot1].ship_group)
+end
+
+function slot0.CanUseShareSkinForShip(slot0, slot1)
+	slot2 = uv0.IsShareSkin(slot0, slot1)
+	slot3 = ShipSkin.New({
+		id = slot1
+	})
+	slot4 = false
+	slot6 = slot3:IsProposeSkin()
+
+	if slot3:CanShare() and slot6 and slot0.propose then
+		slot4 = true
+	elseif slot5 and not slot6 then
+		slot4 = slot0:GetNoProposeIntimacyMax() <= math.floor(slot0:getIntimacy() / 100)
+	end
+
+	return slot2 and slot4
 end
 
 return slot0

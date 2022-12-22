@@ -1889,6 +1889,46 @@ pg.strategy_data_template = {
 		desc = "A mechanical arm made by the Sirens. It has a crushing grip strength and an extremely powerful mining laser. It might be useful for gathering alchemy materials.",
 		arg = {}
 	},
+	[200239] = {
+		buff_id = 200239,
+		name = "Autonomous Support Drones",
+		type = 10,
+		iconSize = "",
+		id = 200239,
+		icon = "200239",
+		desc = "The Devil XV's drones are empowering your ships. \nYour fleet has 10.0% increased FP, TRP, and AVI.",
+		arg = {}
+	},
+	[200240] = {
+		buff_id = 200240,
+		name = "Category V Threat - Omens",
+		type = 10,
+		iconSize = "",
+		id = 200240,
+		icon = "200240",
+		desc = "Something isn't right. \nBarrages will fire during battle which harm anything in their path, friend or foe.",
+		arg = {}
+	},
+	[200241] = {
+		buff_id = 200240,
+		name = "Category V Threat - Incursion",
+		type = 10,
+		iconSize = "",
+		id = 200241,
+		icon = "200241",
+		desc = "A dark threat looms over the horizon. \nBarrages will fire during battle which harm anything in their path, friend or foe.",
+		arg = {}
+	},
+	[200242] = {
+		buff_id = 200242,
+		name = "Reorigination System",
+		type = 10,
+		iconSize = "",
+		id = 200242,
+		icon = "200242",
+		desc = "The Tower has come to purge the system. \nAll ships lose a portion of their max HP at regular intervals during battle.",
+		arg = {}
+	},
 	all = {
 		1,
 		2,
@@ -2074,6 +2114,10 @@ pg.strategy_data_template = {
 		200085,
 		200086,
 		200087,
-		200088
+		200088,
+		200239,
+		200240,
+		200241,
+		200242
 	}
 }

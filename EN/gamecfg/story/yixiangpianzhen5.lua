@@ -396,31 +396,31 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Well, it looks like you've finally started to piece together the puzzle of the shipgirls' hulls.",
+					"<color=black>Well, it looks like you've finally started to piece together the puzzle of the shipgirls' hulls.</color>",
 					0.5
 				},
 				{
-					"It only matches my records by less than 1%, but this wavelength has to be yours.",
+					"<color=black>It only matches my records by less than 1%, but this wavelength has to be yours.</color>",
 					1
 				},
 				{
-					"The fact that you're playing this recording is absolute proof that it's you.",
+					"<color=black>The fact that you're playing this recording is absolute proof that it's you.</color>",
 					1.5
 				},
 				{
-					"It also means that my very last gamble was successful.",
+					"<color=black>It also means that my very last gamble was successful.</color>",
 					2
 				},
 				{
-					"I know you. No matter when, where, or who you are…",
+					"<color=black>I know you. No matter when, where, or who you are...</color>",
 					2.5
 				},
 				{
-					"You could never abandon those girls.",
+					"<color=black>You could never abandon those girls.</color>",
 					3
 				},
 				{
-					"Making you the final failsafe was the right call.",
+					"<color=black>Making you the final failsafe was the right call.</color>",
 					3.5
 				}
 			},

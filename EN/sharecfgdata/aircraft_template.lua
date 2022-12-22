@@ -6791,6 +6791,253 @@ _G.pg.base.aircraft_template[17433] = {
 	}
 }
 
+_G.pg.base.aircraft_template[17440] = {
+	attack_power = 2,
+	name = "F6F地狱猫（HVAR搭载型）",
+	type = 1,
+	accuracy = 23,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 0.315,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 17440,
+	icon = "f6f",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 11,
+	hp_growth = 1693,
+	speed = 50,
+	max_hp = 44,
+	scale = 1,
+	weapon_ID = {
+		50340,
+		50540,
+		59860
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.28,
+				1.62,
+				0
+			},
+			{
+				-1.12,
+				-1,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[17441] = {
+	max_hp = 51,
+	hp_growth = 1947,
+	base = 17440,
+	id = 17441,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50340,
+		50540,
+		59861
+	}
+}
+
+_G.pg.base.aircraft_template[17442] = {
+	max_hp = 57,
+	hp_growth = 2201,
+	base = 17440,
+	id = 17442,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50340,
+		50540,
+		59862
+	}
+}
+
+_G.pg.base.aircraft_template[17443] = {
+	max_hp = 64,
+	hp_growth = 2455,
+	base = 17440,
+	id = 17443,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50340,
+		50540,
+		59863
+	}
+}
+
+_G.pg.base.aircraft_template[17444] = {
+	max_hp = 70,
+	hp_growth = 2710,
+	base = 17440,
+	id = 17444,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50340,
+		50540,
+		59864
+	}
+}
+
+_G.pg.base.aircraft_template[17445] = {
+	max_hp = 77,
+	hp_growth = 2964,
+	base = 17440,
+	id = 17445,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50340,
+		50540,
+		59865
+	}
+}
+
+_G.pg.base.aircraft_template[17446] = {
+	max_hp = 84,
+	hp_growth = 3218,
+	base = 17440,
+	id = 17446,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50340,
+		50540,
+		59866
+	}
+}
+
+_G.pg.base.aircraft_template[17447] = {
+	max_hp = 90,
+	hp_growth = 3472,
+	base = 17440,
+	id = 17447,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50340,
+		50540,
+		59867
+	}
+}
+
+_G.pg.base.aircraft_template[17448] = {
+	max_hp = 97,
+	hp_growth = 3726,
+	base = 17440,
+	id = 17448,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50340,
+		50540,
+		59868
+	}
+}
+
+_G.pg.base.aircraft_template[17449] = {
+	max_hp = 103,
+	hp_growth = 3980,
+	base = 17440,
+	id = 17449,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50340,
+		50540,
+		59869
+	}
+}
+
+_G.pg.base.aircraft_template[17450] = {
+	max_hp = 110,
+	hp_growth = 4234,
+	base = 17440,
+	id = 17450,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50340,
+		50540,
+		59870
+	}
+}
+
+_G.pg.base.aircraft_template[17451] = {
+	max_hp = 117,
+	hp_growth = 4488,
+	base = 17440,
+	id = 17451,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50340,
+		50540,
+		59871
+	}
+}
+
+_G.pg.base.aircraft_template[17452] = {
+	max_hp = 123,
+	hp_growth = 4742,
+	base = 17440,
+	id = 17452,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50340,
+		50540,
+		59872
+	}
+}
+
+_G.pg.base.aircraft_template[17453] = {
+	max_hp = 130,
+	hp_growth = 4996,
+	base = 17440,
+	id = 17453,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50340,
+		50540,
+		59873
+	}
+}
+
 _G.pg.base.aircraft_template[18000] = {
 	attack_power = 2,
 	name = "TBD蹂躏者",
@@ -10767,6 +11014,253 @@ _G.pg.base.aircraft_template[19253] = {
 	weapon_ID = {
 		50553,
 		52853
+	}
+}
+
+_G.pg.base.aircraft_template[19300] = {
+	attack_power = 2,
+	name = "AD1天袭者",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ad1",
+	ACC_growth = 0,
+	crash_DMG = 206,
+	dodge = 3.03,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 19300,
+	icon = "ad1",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 2.2,
+	hp_growth = 2076,
+	speed = 45,
+	max_hp = 54,
+	scale = 1,
+	weapon_ID = {
+		50660,
+		52680,
+		59880
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.93,
+				-1.03,
+				0
+			},
+			{
+				0.96,
+				1.08,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[19301] = {
+	max_hp = 62,
+	hp_growth = 2387,
+	base = 19300,
+	id = 19301,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50661,
+		52681,
+		59881
+	}
+}
+
+_G.pg.base.aircraft_template[19302] = {
+	max_hp = 70,
+	hp_growth = 2698,
+	base = 19300,
+	id = 19302,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50662,
+		52682,
+		59882
+	}
+}
+
+_G.pg.base.aircraft_template[19303] = {
+	max_hp = 78,
+	hp_growth = 3010,
+	base = 19300,
+	id = 19303,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50663,
+		52683,
+		59883
+	}
+}
+
+_G.pg.base.aircraft_template[19304] = {
+	max_hp = 86,
+	hp_growth = 3321,
+	base = 19300,
+	id = 19304,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50664,
+		52684,
+		59884
+	}
+}
+
+_G.pg.base.aircraft_template[19305] = {
+	max_hp = 94,
+	hp_growth = 3632,
+	base = 19300,
+	id = 19305,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50665,
+		52685,
+		59885
+	}
+}
+
+_G.pg.base.aircraft_template[19306] = {
+	max_hp = 103,
+	hp_growth = 3944,
+	base = 19300,
+	id = 19306,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50666,
+		52686,
+		59886
+	}
+}
+
+_G.pg.base.aircraft_template[19307] = {
+	max_hp = 111,
+	hp_growth = 4255,
+	base = 19300,
+	id = 19307,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50667,
+		52687,
+		59887
+	}
+}
+
+_G.pg.base.aircraft_template[19308] = {
+	max_hp = 119,
+	hp_growth = 4566,
+	base = 19300,
+	id = 19308,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50668,
+		52688,
+		59888
+	}
+}
+
+_G.pg.base.aircraft_template[19309] = {
+	max_hp = 127,
+	hp_growth = 4878,
+	base = 19300,
+	id = 19309,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50669,
+		52689,
+		59889
+	}
+}
+
+_G.pg.base.aircraft_template[19310] = {
+	max_hp = 135,
+	hp_growth = 5189,
+	base = 19300,
+	id = 19310,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50670,
+		52690,
+		59890
+	}
+}
+
+_G.pg.base.aircraft_template[19311] = {
+	max_hp = 143,
+	hp_growth = 5501,
+	base = 19300,
+	id = 19311,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50671,
+		52691,
+		59891
+	}
+}
+
+_G.pg.base.aircraft_template[19312] = {
+	max_hp = 151,
+	hp_growth = 5812,
+	base = 19300,
+	id = 19312,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50672,
+		52692,
+		59892
+	}
+}
+
+_G.pg.base.aircraft_template[19313] = {
+	max_hp = 159,
+	hp_growth = 6123,
+	base = 19300,
+	id = 19313,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50673,
+		52693,
+		59893
 	}
 }
 
@@ -29095,6 +29589,80 @@ _G.pg.base.aircraft_template[61028] = {
 		},
 		{
 			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[61029] = {
+	attack_power = 2,
+	name = "约克城Ⅱ天袭者舰载机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ad1",
+	ACC_growth = 0,
+	crash_DMG = 206,
+	dodge = 3.03,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 61029,
+	icon = "ad1",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 2.2,
+	hp_growth = 2282,
+	speed = 66,
+	max_hp = 70,
+	scale = 1,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.93,
+				-1.03,
+				0
+			},
+			{
+				0.96,
+				1.08,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
 			0,
 			0
 		},
@@ -67387,6 +67955,735 @@ _G.pg.base.aircraft_template[160050] = {
 	weapon_ID = {
 		160060,
 		160070
+	}
+}
+
+_G.pg.base.aircraft_template[160351] = {
+	attack_power = 2,
+	name = "约克城Ⅱ一技能弹幕",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ad1",
+	ACC_growth = 0,
+	crash_DMG = 206,
+	dodge = 3.03,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 160351,
+	icon = "ad1",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 2.2,
+	hp_growth = 2076,
+	speed = 45,
+	max_hp = 54,
+	scale = 1,
+	weapon_ID = {
+		160361,
+		160371
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.93,
+				-1.03,
+				0
+			},
+			{
+				0.96,
+				1.08,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[160352] = {
+	max_hp = 62,
+	hp_growth = 2387,
+	base = 160351,
+	id = 160352,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160362,
+		160372
+	}
+}
+
+_G.pg.base.aircraft_template[160353] = {
+	max_hp = 70,
+	hp_growth = 2698,
+	base = 160351,
+	id = 160353,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160363,
+		160373
+	}
+}
+
+_G.pg.base.aircraft_template[160354] = {
+	max_hp = 78,
+	hp_growth = 3010,
+	base = 160351,
+	id = 160354,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160364,
+		160374
+	}
+}
+
+_G.pg.base.aircraft_template[160355] = {
+	max_hp = 86,
+	hp_growth = 3321,
+	base = 160351,
+	id = 160355,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160365,
+		160375
+	}
+}
+
+_G.pg.base.aircraft_template[160356] = {
+	max_hp = 94,
+	hp_growth = 3632,
+	base = 160351,
+	id = 160356,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160366,
+		160376
+	}
+}
+
+_G.pg.base.aircraft_template[160357] = {
+	max_hp = 103,
+	hp_growth = 3944,
+	base = 160351,
+	id = 160357,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160367,
+		160377
+	}
+}
+
+_G.pg.base.aircraft_template[160358] = {
+	max_hp = 111,
+	hp_growth = 4255,
+	base = 160351,
+	id = 160358,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160368,
+		160378
+	}
+}
+
+_G.pg.base.aircraft_template[160359] = {
+	max_hp = 119,
+	hp_growth = 4566,
+	base = 160351,
+	id = 160359,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160369,
+		160379
+	}
+}
+
+_G.pg.base.aircraft_template[160360] = {
+	max_hp = 127,
+	hp_growth = 4878,
+	base = 160351,
+	id = 160360,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160370,
+		160380
+	}
+}
+
+_G.pg.base.aircraft_template[160401] = {
+	attack_power = 2,
+	name = "约克城Ⅱ三技能弹幕",
+	type = 1,
+	accuracy = 24,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 0.327,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 160401,
+	icon = "f6f",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 10.5,
+	hp_growth = 1785,
+	speed = 60,
+	max_hp = 46,
+	scale = 1,
+	weapon_ID = {
+		50321,
+		50521
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.28,
+				1.62,
+				0
+			},
+			{
+				-1.12,
+				-1,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[160402] = {
+	max_hp = 52,
+	hp_growth = 2018,
+	base = 160401,
+	id = 160402,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50322,
+		50522
+	}
+}
+
+_G.pg.base.aircraft_template[160403] = {
+	max_hp = 59,
+	hp_growth = 2251,
+	base = 160401,
+	id = 160403,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50323,
+		50523
+	}
+}
+
+_G.pg.base.aircraft_template[160404] = {
+	max_hp = 65,
+	hp_growth = 2484,
+	base = 160401,
+	id = 160404,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50324,
+		50524
+	}
+}
+
+_G.pg.base.aircraft_template[160405] = {
+	max_hp = 71,
+	hp_growth = 2717,
+	base = 160401,
+	id = 160405,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50325,
+		50525
+	}
+}
+
+_G.pg.base.aircraft_template[160406] = {
+	max_hp = 77,
+	hp_growth = 2949,
+	base = 160401,
+	id = 160406,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50326,
+		50526
+	}
+}
+
+_G.pg.base.aircraft_template[160407] = {
+	max_hp = 83,
+	hp_growth = 3182,
+	base = 160401,
+	id = 160407,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50327,
+		50527
+	}
+}
+
+_G.pg.base.aircraft_template[160408] = {
+	max_hp = 89,
+	hp_growth = 3415,
+	base = 160401,
+	id = 160408,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50328,
+		50528
+	}
+}
+
+_G.pg.base.aircraft_template[160409] = {
+	max_hp = 95,
+	hp_growth = 3648,
+	base = 160401,
+	id = 160409,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50329,
+		50529
+	}
+}
+
+_G.pg.base.aircraft_template[160410] = {
+	max_hp = 101,
+	hp_growth = 3881,
+	base = 160401,
+	id = 160410,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50330,
+		50530
+	}
+}
+
+_G.pg.base.aircraft_template[160411] = {
+	attack_power = 2,
+	name = "大黄蜂II技能鱼雷机Lv1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "tbf",
+	ACC_growth = 0,
+	crash_DMG = 406,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 160411,
+	icon = "tbf",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1615,
+	speed = 48,
+	max_hp = 42,
+	scale = 1,
+	weapon_ID = {
+		160421
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.15,
+			-0.08,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[160412] = {
+	id = 160412,
+	name = "大黄蜂II技能鱼雷机Lv1",
+	hp_growth = 1826,
+	base = 160411,
+	max_hp = 47,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160422
+	}
+}
+
+_G.pg.base.aircraft_template[160413] = {
+	id = 160413,
+	name = "大黄蜂II技能鱼雷机Lv2",
+	hp_growth = 2036,
+	base = 160411,
+	max_hp = 53,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160423
+	}
+}
+
+_G.pg.base.aircraft_template[160414] = {
+	id = 160414,
+	name = "大黄蜂II技能鱼雷机Lv3",
+	hp_growth = 2247,
+	base = 160411,
+	max_hp = 58,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160424
+	}
+}
+
+_G.pg.base.aircraft_template[160415] = {
+	id = 160415,
+	name = "大黄蜂II技能鱼雷机Lv4",
+	hp_growth = 2458,
+	base = 160411,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160425
+	}
+}
+
+_G.pg.base.aircraft_template[160416] = {
+	id = 160416,
+	name = "大黄蜂II技能鱼雷机Lv5",
+	hp_growth = 2669,
+	base = 160411,
+	max_hp = 69,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160426
+	}
+}
+
+_G.pg.base.aircraft_template[160417] = {
+	id = 160417,
+	name = "大黄蜂II技能鱼雷机Lv6",
+	hp_growth = 2879,
+	base = 160411,
+	max_hp = 75,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160427
+	}
+}
+
+_G.pg.base.aircraft_template[160418] = {
+	id = 160418,
+	name = "大黄蜂II技能鱼雷机Lv7",
+	hp_growth = 3090,
+	base = 160411,
+	max_hp = 80,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160428
+	}
+}
+
+_G.pg.base.aircraft_template[160419] = {
+	id = 160419,
+	name = "大黄蜂II技能鱼雷机Lv8",
+	hp_growth = 3301,
+	base = 160411,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160429
+	}
+}
+
+_G.pg.base.aircraft_template[160420] = {
+	id = 160420,
+	name = "大黄蜂II技能鱼雷机Lv9",
+	hp_growth = 3511,
+	base = 160411,
+	max_hp = 91,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160430
+	}
+}
+
+_G.pg.base.aircraft_template[160431] = {
+	attack_power = 2,
+	name = "大黄蜂IIF6F地狱猫（HVAR搭载型）",
+	type = 1,
+	accuracy = 23,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 0.315,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 160431,
+	icon = "f6f",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 11,
+	hp_growth = 1947,
+	speed = 50,
+	max_hp = 51,
+	scale = 1,
+	weapon_ID = {
+		160441
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.28,
+				1.62,
+				0
+			},
+			{
+				-1.12,
+				-1,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[160432] = {
+	max_hp = 57,
+	hp_growth = 2201,
+	base = 160431,
+	id = 160432,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160442
+	}
+}
+
+_G.pg.base.aircraft_template[160433] = {
+	max_hp = 64,
+	hp_growth = 2455,
+	base = 160431,
+	id = 160433,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160443
+	}
+}
+
+_G.pg.base.aircraft_template[160434] = {
+	max_hp = 70,
+	hp_growth = 2710,
+	base = 160431,
+	id = 160434,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160444
+	}
+}
+
+_G.pg.base.aircraft_template[160435] = {
+	max_hp = 77,
+	hp_growth = 2964,
+	base = 160431,
+	id = 160435,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160445
+	}
+}
+
+_G.pg.base.aircraft_template[160436] = {
+	max_hp = 84,
+	hp_growth = 3218,
+	base = 160431,
+	id = 160436,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160446
+	}
+}
+
+_G.pg.base.aircraft_template[160437] = {
+	max_hp = 90,
+	hp_growth = 3472,
+	base = 160431,
+	id = 160437,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160447
+	}
+}
+
+_G.pg.base.aircraft_template[160438] = {
+	max_hp = 97,
+	hp_growth = 3726,
+	base = 160431,
+	id = 160438,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160448
+	}
+}
+
+_G.pg.base.aircraft_template[160439] = {
+	max_hp = 103,
+	hp_growth = 3980,
+	base = 160431,
+	id = 160439,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160449
+	}
+}
+
+_G.pg.base.aircraft_template[160440] = {
+	max_hp = 110,
+	hp_growth = 4234,
+	base = 160431,
+	id = 160440,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160450
 	}
 }
 
@@ -177298,6 +178595,2721 @@ _G.pg.base.aircraft_template[1005664] = {
 	}
 }
 
+_G.pg.base.aircraft_template[1006010] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-中小型舰船悬浮无人机 I",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006010,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 35,
+	max_hp = 180,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006040
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006011] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-中小型舰船悬浮无人机 II",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006011,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 35,
+	max_hp = 210,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006041
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006012] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-中小型舰船悬浮无人机 III",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006012,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2240,
+	speed = 35,
+	max_hp = 240,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006042
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006013] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-中小型舰船悬浮无人机 IV",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006013,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2520,
+	speed = 35,
+	max_hp = 270,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006043
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006014] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-中小型舰船悬浮无人机 V",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006014,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 35,
+	max_hp = 300,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006044
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006035] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-大中型舰船悬浮无人机 I",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006035,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 35,
+	max_hp = 180,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006040,
+		1006045,
+		1006050
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006036] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-大中型舰船悬浮无人机 II",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006036,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 35,
+	max_hp = 210,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006041,
+		1006046,
+		1006051
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006037] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-大中型舰船悬浮无人机 III",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006037,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2240,
+	speed = 35,
+	max_hp = 240,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006042,
+		1006047,
+		1006052
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006038] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-大中型舰船悬浮无人机 IV",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006038,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2520,
+	speed = 35,
+	max_hp = 270,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006043,
+		1006048,
+		1006053
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006039] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-大中型舰船悬浮无人机 V",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006039,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 35,
+	max_hp = 300,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006044,
+		1006049,
+		1006054
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006110] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-快速冲底自爆无人机 I",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ofs_zibaofeiji",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006110,
+	icon = "ofs_zibaofeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 60,
+	max_hp = 64,
+	scale = 0.75,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006111] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-快速冲底自爆无人机 II",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ofs_zibaofeiji",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006111,
+	icon = "ofs_zibaofeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 60,
+	max_hp = 88,
+	scale = 0.75,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006112] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-快速冲底自爆无人机 III",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ofs_zibaofeiji",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006112,
+	icon = "ofs_zibaofeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2240,
+	speed = 60,
+	max_hp = 112,
+	scale = 0.75,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006113] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-快速冲底自爆无人机 IV",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ofs_zibaofeiji",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006113,
+	icon = "ofs_zibaofeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2520,
+	speed = 60,
+	max_hp = 136,
+	scale = 0.75,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006114] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-快速冲底自爆无人机 V",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ofs_zibaofeiji",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006114,
+	icon = "ofs_zibaofeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 60,
+	max_hp = 160,
+	scale = 0.75,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006115] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-喷气式舰载机 I",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ofs_penqishifeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006115,
+	icon = "ofs_penqishifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 40,
+	max_hp = 80,
+	scale = 0.75,
+	weapon_ID = {
+		1006120,
+		1006125
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006116] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-喷气式舰载机 II",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ofs_penqishifeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006116,
+	icon = "ofs_penqishifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 40,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		1006121,
+		1006126
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006117] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-喷气式舰载机 III",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ofs_penqishifeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006117,
+	icon = "ofs_penqishifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2240,
+	speed = 40,
+	max_hp = 140,
+	scale = 0.75,
+	weapon_ID = {
+		1006122,
+		1006127
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006118] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-喷气式舰载机 IV",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ofs_penqishifeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006118,
+	icon = "ofs_penqishifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2520,
+	speed = 40,
+	max_hp = 170,
+	scale = 0.75,
+	weapon_ID = {
+		1006123,
+		1006128
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006119] = {
+	attack_power = 2,
+	name = "【量产型】大洋联邦-喷气式舰载机 V",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ofs_penqishifeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006119,
+	icon = "ofs_penqishifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 40,
+	max_hp = 200,
+	scale = 0.75,
+	weapon_ID = {
+		1006124,
+		1006129
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006200] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-大中型舰船悬浮无人机 I",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006200,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 35,
+	max_hp = 180,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006040,
+		1006045,
+		1006050
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006201] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-大中型舰船悬浮无人机 II",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006201,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 35,
+	max_hp = 210,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006041,
+		1006046,
+		1006051
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006202] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-大中型舰船悬浮无人机 III",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006202,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2240,
+	speed = 35,
+	max_hp = 240,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006042,
+		1006047,
+		1006052
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006203] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-大中型舰船悬浮无人机 IV",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006203,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2520,
+	speed = 35,
+	max_hp = 270,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006043,
+		1006048,
+		1006053
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006204] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-大中型舰船悬浮无人机 V",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 1006204,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 35,
+	max_hp = 300,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006044,
+		1006049,
+		1006054
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006235] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-快速冲底自爆无人机 I",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ofs_zibaofeiji",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006235,
+	icon = "ofs_zibaofeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 60,
+	max_hp = 64,
+	scale = 0.75,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006236] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-快速冲底自爆无人机 II",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ofs_zibaofeiji",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006236,
+	icon = "ofs_zibaofeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 60,
+	max_hp = 88,
+	scale = 0.75,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006237] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-快速冲底自爆无人机 III",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ofs_zibaofeiji",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006237,
+	icon = "ofs_zibaofeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2240,
+	speed = 60,
+	max_hp = 112,
+	scale = 0.75,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006238] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-快速冲底自爆无人机 IV",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ofs_zibaofeiji",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006238,
+	icon = "ofs_zibaofeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2520,
+	speed = 60,
+	max_hp = 136,
+	scale = 0.75,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006239] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-快速冲底自爆无人机 V",
+	type = 2,
+	accuracy = 23,
+	model_ID = "ofs_zibaofeiji",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006239,
+	icon = "ofs_zibaofeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 60,
+	max_hp = 160,
+	scale = 0.75,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006240] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-喷气式舰载机 I",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ofs_penqishifeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006240,
+	icon = "ofs_penqishifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 40,
+	max_hp = 80,
+	scale = 0.75,
+	weapon_ID = {
+		1006120,
+		1006125
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006241] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-喷气式舰载机 II",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ofs_penqishifeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006241,
+	icon = "ofs_penqishifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 40,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		1006121,
+		1006126
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006242] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-喷气式舰载机 III",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ofs_penqishifeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006242,
+	icon = "ofs_penqishifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2240,
+	speed = 40,
+	max_hp = 140,
+	scale = 0.75,
+	weapon_ID = {
+		1006122,
+		1006127
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006243] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-喷气式舰载机 IV",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ofs_penqishifeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006243,
+	icon = "ofs_penqishifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2520,
+	speed = 40,
+	max_hp = 170,
+	scale = 0.75,
+	weapon_ID = {
+		1006123,
+		1006128
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[1006244] = {
+	attack_power = 2,
+	name = "【精英】大洋联邦-喷气式舰载机 V",
+	type = 3,
+	accuracy = 23,
+	model_ID = "ofs_penqishifeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 1006244,
+	icon = "ofs_penqishifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2800,
+	speed = 40,
+	max_hp = 200,
+	scale = 0.75,
+	weapon_ID = {
+		1006124,
+		1006129
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 _G.pg.base.aircraft_template[1100765] = {
 	attack_power = 2,
 	name = "美系舰载-战斗机I（大世界通用飞机）",
@@ -209187,6 +213199,168 @@ _G.pg.base.aircraft_template[3037403] = {
 			{
 				0.48,
 				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3040006] = {
+	attack_power = 2,
+	name = "【2022美系活动A1】BOSS 重型驱逐舰 悬浮无人机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 3040006,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 35,
+	max_hp = 180,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006040,
+		1006045,
+		1006050
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3042006] = {
+	attack_power = 2,
+	name = "【2022美系活动C1】BOSS 重型驱逐舰 悬浮无人机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "ofs_xuanfufeiji",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	nationality = 3,
+	id = 3042006,
+	icon = "ofs_xuanfufeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2240,
+	speed = 35,
+	max_hp = 240,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 10,
+		stay = 2
+	},
+	weapon_ID = {
+		1006040,
+		1006045,
+		1006050
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
 				0
 			}
 		}

@@ -5410,6 +5410,145 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[240] = {
+		effect = "",
+		name = "Manjuu Onsen Resort",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/duocengwenquan",
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's just the perfect temperature~!",
+		tag = 6,
+		icon = "duocengwenquanicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 240,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					11.4,
+					-130.4
+				},
+				{
+					-1,
+					1
+				},
+				"chuanmo/duocengwenquan_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[241] = {
+		effect = "",
+		name = "Flowers of the Oneiric Realm",
+		gain_by = "Parallel Superimposition",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 0,
+		is_get_time_note = 1,
+		picture = "chuanmo/usv5xunzhang",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Blue flowers bloom among the ruins of a certain memory. A world created from ephemeral fragments takes root in the garden of recollection – and with time, it will become fragrant and beautiful. Awarded to Commanders who displayed excellence during the \"Parallel Superimposition\" event.",
+		tag = 6,
+		icon = "usv5xunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 241,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[242] = {
+		effect = "",
+		name = "Lucky Pouch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "May you be blessed by RNG!",
+		tag = 6,
+		icon = "saqianfudaiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 242,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"saqianfudai",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -7583,6 +7722,83 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100035] = {
+		effect = "",
+		name = "Supersonic Ski Slope",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Beware of the yeti.",
+		themeId = 0,
+		icon = "huaxuetaiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100035,
+		can_rotate = 0,
+		size = {
+			6,
+			13
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huaxuetaiB",
+				"normal"
+			},
+			{
+				"huaxuetaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -100185,6 +100401,1058 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[96001] = {
+		icon = "dibanhbicon",
+		name = "Beach Cabin Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 96,
+		picture = "hb/dibanhb",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Made from locally-sourced wood.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 96001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96002] = {
+		icon = "qiangbihbicon",
+		name = "Beach Cabin Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 96,
+		picture = "hb/qiangbihb",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "Colored a warm beige that reminds you of the beach.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 96002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96101] = {
+		effect = "",
+		name = "Beach Cabin Bar",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb/bataihb",
+		is_get_time_note = 0,
+		themeId = 96,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The piña coladas here are just divine.",
+		tag = 1,
+		icon = "bataihbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96101,
+		can_rotate = 0,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-97.4,
+					-79.6
+				},
+				{
+					1,
+					1
+				},
+				"hb/bataihb_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96102] = {
+		effect = "",
+		name = "Sunfish Recliner",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb/bianzhitangyihb",
+		is_get_time_note = 0,
+		themeId = 96,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You can't decline to recline.",
+		tag = 1,
+		icon = "bianzhitangyihbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96102,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					21.4,
+					10.3
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96103] = {
+		effect = "",
+		name = "Manjuu Lounge Chair 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb/bianzhiyi1hb",
+		is_get_time_note = 0,
+		themeId = 96,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A cozy place to unwind after a day out in the sun.",
+		tag = 1,
+		icon = "bianzhiyi1hbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96103,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					36.1,
+					-10.7
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96104] = {
+		effect = "",
+		name = "Manjuu Lounge Chair 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb/bianzhiyi2hb",
+		is_get_time_note = 0,
+		themeId = 96,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "That jellyfish plush is just begging to be cuddled.",
+		tag = 1,
+		icon = "bianzhiyi2hbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96104,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					13.8,
+					16.9
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96105] = {
+		effect = "",
+		name = "Beach Cabin Tea Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 96,
+		is_get_time_note = 0,
+		picture = "hb/chajihb",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A tea table without tea? What an atroci-tea!",
+		tag = 1,
+		icon = "chajihbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96106] = {
+		effect = "",
+		name = "Beach Cabin Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 96,
+		is_get_time_note = 0,
+		picture = "hb/guanggaopaihb",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "They even sell ice cream! There's mint chocolate ship, super-heavy strawberry, grape shot, and more.",
+		tag = 1,
+		icon = "guanggaopaihbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96106,
+		can_rotate = 1,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96107] = {
+		effect = "",
+		name = "Beach Cabin Café Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb/kafeidengzihb",
+		is_get_time_note = 0,
+		themeId = 96,
+		count = 2,
+		is_3d_obj = 0,
+		describe = "It's just the right size to seat a meowfficer.",
+		tag = 1,
+		icon = "kafeidengzihbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96107,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					1,
+					49
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96109] = {
+		effect = "",
+		name = "Beach Cabin Café Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 96,
+		is_get_time_note = 0,
+		picture = "hb/kafeizhuozihb",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Not even the sweltering summer heat can stop some shipgirls from getting their cuppa.",
+		tag = 1,
+		icon = "kafeizhuozihbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96109,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96110] = {
+		effect = "",
+		name = "Beach Cabin Potted Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 96,
+		is_get_time_note = 0,
+		picture = "hb/pengzai1hb",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Topically tropical. The flowers smell buttery.",
+		tag = 1,
+		icon = "pengzai1hbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96110,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96112] = {
+		effect = "",
+		name = "Beach Cabin Palm Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 96,
+		is_get_time_note = 0,
+		picture = "hb/pengzai2hb",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Not mature enough to grow coconuts. On the bright side, that means no risk of concussions.",
+		tag = 1,
+		icon = "pengzai2hbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96112,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96113] = {
+		effect = "",
+		name = "Beach Cabin Double Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb/shuangrenchuanghb",
+		is_get_time_note = 0,
+		themeId = 96,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Nothing beats resting in a big bed after a long day at the beach.",
+		tag = 1,
+		icon = "shuangrenchuanghbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96113,
+		can_rotate = 0,
+		size = {
+			5,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					27.4,
+					26.7
+				},
+				{
+					-1,
+					1
+				},
+				"hb/shuangrenchuanghb_using"
+			},
+			{
+				"sleep",
+				{
+					-43.8,
+					-13.9
+				},
+				{
+					-1,
+					1
+				},
+				"hb/shuangrenchuanghb_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96114] = {
+		effect = "",
+		name = "Beach Cabin Sink",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 96,
+		is_get_time_note = 0,
+		picture = "hb/xishutaihb",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Don't forget to powder up before you go out.",
+		tag = 1,
+		icon = "xishutaihbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96114,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96115] = {
+		effect = "",
+		name = "Beach Cabin Indoors Pool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb/yuganghb",
+		is_get_time_note = 0,
+		themeId = 96,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "All the good vibes of the beach, without the sand in your shoes.",
+		tag = 1,
+		icon = "yuganghbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96115,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-27,
+					-53
+				},
+				{
+					1,
+					1
+				},
+				"hb/yuganghb_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96116] = {
+		effect = "",
+		name = "Beach Cabin Home Theater",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Let's not watch the one about the shark, please...",
+		themeId = 96,
+		icon = "jiatingyingyuanhbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96116,
+		can_rotate = 0,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiatingyingyuanhb",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[96117] = {
+		effect = "",
+		name = "Beach Cabin Shark Windows",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "As terribly dangerous as they are jawesome.",
+		themeId = 96,
+		icon = "dimianbolichuanghbicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 96117,
+		can_rotate = 0,
+		size = {
+			15,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bolichuanghbB",
+				"normal"
+			},
+			{
+				"bolichuanghbT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[96301] = {
+		effect = "",
+		name = "Beach Cabin Coat Rack",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 96,
+		is_get_time_note = 0,
+		picture = "hb/biguahb",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Leave the fancy attire behind - we're going swimming!",
+		tag = 5,
+		icon = "biguahbicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 96301,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96302] = {
+		effect = "",
+		name = "Beach Cabin Surfboards",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 96,
+		is_get_time_note = 0,
+		picture = "hb/chonglangbanhb",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Are you cool enough to ride the waves?",
+		tag = 5,
+		icon = "chonglangbanhbicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 96302,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96303] = {
+		effect = "",
+		name = "Beach Cabin Window 1",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 96,
+		is_get_time_note = 0,
+		picture = "hb/chuang1hb",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You feel your urge to go outside rising.",
+		tag = 5,
+		icon = "chuang1hbicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 96303,
+		can_rotate = 0,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96304] = {
+		effect = "",
+		name = "Beach Cabin Window 2",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 96,
+		is_get_time_note = 0,
+		picture = "hb/chuang2hb",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "No different from looking outside your window on any other day. But now with more Summer!",
+		tag = 5,
+		icon = "chuang2hbicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 96304,
+		can_rotate = 0,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96305] = {
+		effect = "",
+		name = "Decorative Anchor",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 96,
+		is_get_time_note = 0,
+		picture = "hb/chuanmaohb",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Its weighing days are over.",
+		tag = 5,
+		icon = "chuanmaohbicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 96305,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96306] = {
+		effect = "",
+		name = "Fish Wall Plaque",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 96,
+		is_get_time_note = 0,
+		picture = "hb/guayuhb",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It sings about what it's like under the sea – down where it's wetter, down where it's better.",
+		tag = 5,
+		icon = "guayuhbicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 96306,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[96307] = {
+		effect = "",
+		name = "Lifebuoy Clock",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 96,
+		is_get_time_note = 0,
+		picture = "hb/guazhonghb",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Look at the time! It's volleyball-o'-clock.",
+		tag = 5,
+		icon = "guazhonghbicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		id = 96307,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -100299,6 +101567,9 @@ pg.furniture_data_template = {
 			237,
 			238,
 			239,
+			240,
+			241,
+			242,
 			100002,
 			100003,
 			100004,
@@ -100329,6 +101600,7 @@ pg.furniture_data_template = {
 			100031,
 			100032,
 			100033,
+			100035,
 			100042,
 			100044,
 			200001,
@@ -100466,6 +101738,9 @@ pg.furniture_data_template = {
 			237,
 			238,
 			239,
+			240,
+			241,
+			242,
 			100002,
 			100003,
 			100004,
@@ -100496,6 +101771,7 @@ pg.furniture_data_template = {
 			100031,
 			100032,
 			100033,
+			100035,
 			100042,
 			100044,
 			200001,
@@ -104893,6 +106169,56 @@ pg.furniture_data_template = {
 			95303,
 			95304,
 			95305
+		},
+		[96] = {
+			96001,
+			96002,
+			96101,
+			96102,
+			96103,
+			96104,
+			96105,
+			96106,
+			96107,
+			96109,
+			96110,
+			96112,
+			96113,
+			96114,
+			96115,
+			96116,
+			96117,
+			96301,
+			96302,
+			96303,
+			96304,
+			96305,
+			96306,
+			96307,
+			96001,
+			96002,
+			96101,
+			96102,
+			96103,
+			96104,
+			96105,
+			96106,
+			96107,
+			96109,
+			96110,
+			96112,
+			96113,
+			96114,
+			96115,
+			96116,
+			96117,
+			96301,
+			96302,
+			96303,
+			96304,
+			96305,
+			96306,
+			96307
 		}
 	},
 	get_id_list_by_tag = {
@@ -106329,7 +107655,20 @@ pg.furniture_data_template = {
 			95129,
 			95130,
 			95131,
-			95143
+			95143,
+			96101,
+			96102,
+			96103,
+			96104,
+			96105,
+			96106,
+			96107,
+			96109,
+			96110,
+			96112,
+			96113,
+			96114,
+			96115
 		},
 		{
 			1108,
@@ -106581,6 +107920,9 @@ pg.furniture_data_template = {
 			235,
 			237,
 			239,
+			240,
+			241,
+			242,
 			100002,
 			100003,
 			100004,
@@ -106611,6 +107953,7 @@ pg.furniture_data_template = {
 			100031,
 			100032,
 			100033,
+			100035,
 			100042,
 			100044,
 			31101,
@@ -106758,7 +108101,9 @@ pg.furniture_data_template = {
 			95140,
 			95141,
 			95142,
-			95144
+			95144,
+			96116,
+			96117
 		},
 		[4] = {
 			1001,
@@ -106835,7 +108180,8 @@ pg.furniture_data_template = {
 			92001,
 			93001,
 			94001,
-			95001
+			95001,
+			96001
 		},
 		[3] = {
 			1002,
@@ -106913,7 +108259,8 @@ pg.furniture_data_template = {
 			92002,
 			93002,
 			94002,
-			95002
+			95002,
+			96002
 		},
 		[5] = {
 			1301,
@@ -107185,7 +108532,14 @@ pg.furniture_data_template = {
 			95302,
 			95303,
 			95304,
-			95305
+			95305,
+			96301,
+			96302,
+			96303,
+			96304,
+			96305,
+			96306,
+			96307
 		}
 	},
 	get_id_list_by_type = {
@@ -107265,7 +108619,8 @@ pg.furniture_data_template = {
 			92002,
 			93002,
 			94002,
-			95002
+			95002,
+			96002
 		},
 		[7] = {
 			1,
@@ -107362,6 +108717,7 @@ pg.furniture_data_template = {
 			236,
 			237,
 			239,
+			241,
 			100002,
 			100004,
 			100005,
@@ -107384,6 +108740,7 @@ pg.furniture_data_template = {
 			100029,
 			100031,
 			100033,
+			100035,
 			100044
 		},
 		[2] = {
@@ -107401,6 +108758,8 @@ pg.furniture_data_template = {
 			209,
 			211,
 			238,
+			240,
+			242,
 			200001,
 			200002,
 			200003,
@@ -108812,7 +110171,22 @@ pg.furniture_data_template = {
 			95141,
 			95142,
 			95143,
-			95144
+			95144,
+			96101,
+			96102,
+			96103,
+			96104,
+			96105,
+			96106,
+			96107,
+			96109,
+			96110,
+			96112,
+			96113,
+			96114,
+			96115,
+			96116,
+			96117
 		},
 		[11] = {
 			131,
@@ -108939,7 +110313,8 @@ pg.furniture_data_template = {
 			92001,
 			93001,
 			94001,
-			95001
+			95001,
+			96001
 		},
 		[5] = {
 			1101,
@@ -109474,7 +110849,14 @@ pg.furniture_data_template = {
 			95302,
 			95303,
 			95304,
-			95305
+			95305,
+			96301,
+			96302,
+			96303,
+			96304,
+			96305,
+			96306,
+			96307
 		},
 		[8] = {
 			17121
@@ -109610,6 +110992,9 @@ pg.furniture_data_template = {
 		237,
 		238,
 		239,
+		240,
+		241,
+		242,
 		100002,
 		100003,
 		100004,
@@ -109640,6 +111025,7 @@ pg.furniture_data_template = {
 		100031,
 		100032,
 		100033,
+		100035,
 		100042,
 		100044,
 		200001,
@@ -111772,6 +113158,30 @@ pg.furniture_data_template = {
 		95302,
 		95303,
 		95304,
-		95305
+		95305,
+		96001,
+		96002,
+		96101,
+		96102,
+		96103,
+		96104,
+		96105,
+		96106,
+		96107,
+		96109,
+		96110,
+		96112,
+		96113,
+		96114,
+		96115,
+		96116,
+		96117,
+		96301,
+		96302,
+		96303,
+		96304,
+		96305,
+		96306,
+		96307
 	}
 }

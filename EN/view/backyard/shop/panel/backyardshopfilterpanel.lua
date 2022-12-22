@@ -17,12 +17,23 @@ function slot0.SortForDecorate(slot0, slot1, slot2)
 		end
 	end
 
-	function uv0.SortByDefault1(slot0, slot1)
-		slot4 = slot0:getConfig("new")
-		slot5 = slot1:getConfig("new")
+	function slot7(slot0)
+		slot1 = pg.furniture_shop_template[slot0.configId].time
 
+		if slot0:getConfig("new") > 0 then
+			return 4
+		elseif slot1 ~= "always" then
+			return 3
+		elseif slot1 == "always" then
+			return 2
+		else
+			return 1
+		end
+	end
+
+	function uv0.SortByDefault1(slot0, slot1)
 		if uv0(slot0) == uv0(slot1) then
-			if slot4 == slot5 then
+			if uv1(slot0) == uv1(slot1) then
 				return slot0.id < slot1.id
 			else
 				return slot4 < slot5
@@ -33,11 +44,8 @@ function slot0.SortForDecorate(slot0, slot1, slot2)
 	end
 
 	function uv0.SortByDefault2(slot0, slot1)
-		slot4 = slot0:getConfig("new")
-		slot5 = slot1:getConfig("new")
-
 		if uv0(slot0) == uv0(slot1) then
-			if slot4 == slot5 then
+			if uv1(slot0) == uv1(slot1) then
 				return slot1.id < slot0.id
 			else
 				return slot5 < slot4
@@ -60,7 +68,7 @@ function slot0.SortForDecorate(slot0, slot1, slot2)
 			end)
 		end
 	else
-		return slot8 < slot7
+		return slot9 < slot8
 	end
 end
 

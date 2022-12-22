@@ -19877,6 +19877,514 @@ _G.pg.base.ship_data_statistics[101494] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[101501] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Hammann II",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 101500,
+	english_name = "USS Hammann II",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 101501,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		267,
+		15,
+		70,
+		47,
+		0,
+		82,
+		0,
+		71,
+		71,
+		25.2,
+		55,
+		57
+	},
+	attrs_growth = {
+		7593,
+		205,
+		894,
+		1016,
+		0,
+		571,
+		0,
+		1088,
+		1491,
+		0,
+		0,
+		635
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Edsall-Class",
+		"Hammann",
+		"II"
+	}
+}
+
+_G.pg.base.ship_data_statistics[101502] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Hammann II",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 101500,
+	english_name = "USS Hammann II",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 101502,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		332,
+		19,
+		87,
+		58,
+		0,
+		82,
+		0,
+		71,
+		71,
+		25.2,
+		55,
+		71
+	},
+	attrs_growth = {
+		7593,
+		205,
+		894,
+		1016,
+		0,
+		571,
+		0,
+		1088,
+		1491,
+		0,
+		0,
+		635
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.05,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Edsall-Class",
+		"Hammann",
+		"II"
+	}
+}
+
+_G.pg.base.ship_data_statistics[101503] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Hammann II",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 101500,
+	english_name = "USS Hammann II",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 101503,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		462,
+		26,
+		122,
+		81,
+		0,
+		82,
+		0,
+		71,
+		71,
+		25.2,
+		55,
+		99
+	},
+	attrs_growth = {
+		7593,
+		205,
+		894,
+		1016,
+		0,
+		571,
+		0,
+		1088,
+		1491,
+		0,
+		0,
+		635
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.15,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Edsall-Class",
+		"Hammann",
+		"II"
+	}
+}
+
+_G.pg.base.ship_data_statistics[101504] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Hammann II",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 101500,
+	english_name = "USS Hammann II",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 101504,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		657,
+		37,
+		174,
+		115,
+		0,
+		82,
+		0,
+		71,
+		71,
+		25.2,
+		55,
+		141
+	},
+	attrs_growth = {
+		7593,
+		205,
+		894,
+		1016,
+		0,
+		571,
+		0,
+		1088,
+		1491,
+		0,
+		0,
+		635
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		468
+	},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.2,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Edsall-Class",
+		"Hammann",
+		"II"
+	}
+}
+
 _G.pg.base.ship_data_statistics[102011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -42520,6 +43028,510 @@ _G.pg.base.ship_data_statistics[103254] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[103261] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Northampton II",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 103260,
+	english_name = "USS Northampton II",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 103261,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		804,
+		47,
+		0,
+		55,
+		0,
+		69,
+		0,
+		45,
+		9,
+		26.4,
+		80,
+		0
+	},
+	attrs_growth = {
+		20264,
+		649,
+		0,
+		1183,
+		0,
+		478,
+		0,
+		701,
+		377,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		0.65,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"OregonCity-Class",
+		"NASELF"
+	}
+}
+
+_G.pg.base.ship_data_statistics[103262] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Northampton II",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 103260,
+	english_name = "USS Northampton II",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 103262,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1000,
+		59,
+		0,
+		69,
+		0,
+		69,
+		0,
+		45,
+		9,
+		26.4,
+		80,
+		0
+	},
+	attrs_growth = {
+		20264,
+		649,
+		0,
+		1183,
+		0,
+		478,
+		0,
+		701,
+		377,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		0.65,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"OregonCity-Class",
+		"NASELF"
+	}
+}
+
+_G.pg.base.ship_data_statistics[103263] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Northampton II",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 103260,
+	english_name = "USS Northampton II",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 103263,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1392,
+		82,
+		0,
+		96,
+		0,
+		69,
+		0,
+		45,
+		9,
+		26.4,
+		80,
+		0
+	},
+	attrs_growth = {
+		20264,
+		649,
+		0,
+		1183,
+		0,
+		478,
+		0,
+		701,
+		377,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		0.65,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"OregonCity-Class",
+		"NASELF"
+	}
+}
+
+_G.pg.base.ship_data_statistics[103264] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Northampton II",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 103260,
+	english_name = "USS Northampton II",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 103264,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1980,
+		117,
+		0,
+		136,
+		0,
+		69,
+		0,
+		45,
+		9,
+		26.4,
+		80,
+		0
+	},
+	attrs_growth = {
+		20264,
+		649,
+		0,
+		1183,
+		0,
+		478,
+		0,
+		701,
+		377,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		0.7,
+		1.4
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"OregonCity-Class",
+		"NASELF"
+	}
+}
+
 _G.pg.base.ship_data_statistics[105011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -55649,7 +56661,8 @@ _G.pg.base.ship_data_statistics[107091] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -55774,7 +56787,8 @@ _G.pg.base.ship_data_statistics[107092] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -55899,7 +56913,8 @@ _G.pg.base.ship_data_statistics[107093] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -56024,7 +57039,516 @@ _G.pg.base.ship_data_statistics[107094] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107101] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Yorktown II",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 107100,
+	english_name = "USS Yorktown II",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107101,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1248,
+		0,
+		0,
+		69,
+		87,
+		50,
+		0,
+		32,
+		13,
+		33,
+		70,
+		0
+	},
+	attrs_growth = {
+		33505,
+		0,
+		0,
+		1449,
+		1052,
+		347,
+		0,
+		480,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		111,
+		110
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.2,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Essex-Class",
+		"Yorktown II",
+		"Yorktown"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107102] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Yorktown II",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 107100,
+	english_name = "USS Yorktown II",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107102,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1552,
+		0,
+		0,
+		86,
+		109,
+		50,
+		0,
+		32,
+		13,
+		33,
+		70,
+		0
+	},
+	attrs_growth = {
+		33505,
+		0,
+		0,
+		1449,
+		1052,
+		347,
+		0,
+		480,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		111,
+		110
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.2,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Essex-Class",
+		"Yorktown II",
+		"Yorktown"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107103] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Yorktown II",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 107100,
+	english_name = "USS Yorktown II",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107103,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2161,
+		0,
+		0,
+		120,
+		152,
+		50,
+		0,
+		32,
+		13,
+		33,
+		70,
+		0
+	},
+	attrs_growth = {
+		33505,
+		0,
+		0,
+		1449,
+		1052,
+		347,
+		0,
+		480,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		111,
+		110
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.3,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Essex-Class",
+		"Yorktown II",
+		"Yorktown"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107104] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Yorktown II",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 107100,
+	english_name = "USS Yorktown II",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107104,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3074,
+		0,
+		0,
+		171,
+		216,
+		50,
+		0,
+		32,
+		13,
+		33,
+		70,
+		0
+	},
+	attrs_growth = {
+		33505,
+		0,
+		0,
+		1449,
+		1052,
+		347,
+		0,
+		480,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		111,
+		110
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		4,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.35,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Essex-Class",
+		"Yorktown II",
+		"Yorktown"
 	}
 }
 
@@ -56149,7 +57673,8 @@ _G.pg.base.ship_data_statistics[107111] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -56274,7 +57799,8 @@ _G.pg.base.ship_data_statistics[107112] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -56399,7 +57925,8 @@ _G.pg.base.ship_data_statistics[107113] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -56524,7 +58051,512 @@ _G.pg.base.ship_data_statistics[107114] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107121] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Hornet II",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 107120,
+	english_name = "USS Hornet II",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107121,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1106,
+		0,
+		0,
+		63,
+		83,
+		48,
+		0,
+		31,
+		13,
+		33,
+		76,
+		0
+	},
+	attrs_growth = {
+		29701,
+		0,
+		0,
+		1337,
+		1017,
+		333,
+		0,
+		462,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		111,
+		110
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.15,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107122] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Hornet II",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 107120,
+	english_name = "USS Hornet II",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107122,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1376,
+		0,
+		0,
+		79,
+		104,
+		48,
+		0,
+		31,
+		13,
+		33,
+		76,
+		0
+	},
+	attrs_growth = {
+		29701,
+		0,
+		0,
+		1337,
+		1017,
+		333,
+		0,
+		462,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		111,
+		110
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.28,
+		1.18,
+		1.08
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107123] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Hornet II",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 107120,
+	english_name = "USS Hornet II",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107123,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1915,
+		0,
+		0,
+		110,
+		145,
+		48,
+		0,
+		31,
+		13,
+		33,
+		76,
+		0
+	},
+	attrs_growth = {
+		29701,
+		0,
+		0,
+		1337,
+		1017,
+		333,
+		0,
+		462,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		111,
+		110
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.33,
+		1.23,
+		1.13
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107124] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Hornet II",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 107120,
+	english_name = "USS Hornet II",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107124,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2725,
+		0,
+		0,
+		156,
+		206,
+		48,
+		0,
+		31,
+		13,
+		33,
+		76,
+		0
+	},
+	attrs_growth = {
+		29701,
+		0,
+		0,
+		1337,
+		1017,
+		333,
+		0,
+		462,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		111,
+		110
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.3,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -56649,7 +58681,8 @@ _G.pg.base.ship_data_statistics[107141] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -56774,7 +58807,8 @@ _G.pg.base.ship_data_statistics[107142] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -56899,7 +58933,8 @@ _G.pg.base.ship_data_statistics[107143] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -57024,7 +59059,8 @@ _G.pg.base.ship_data_statistics[107144] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -57149,7 +59185,8 @@ _G.pg.base.ship_data_statistics[107171] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -57274,7 +59311,8 @@ _G.pg.base.ship_data_statistics[107172] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -57399,7 +59437,8 @@ _G.pg.base.ship_data_statistics[107173] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -57524,7 +59563,8 @@ _G.pg.base.ship_data_statistics[107174] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -58528,6 +60568,506 @@ _G.pg.base.ship_data_statistics[107234] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[107271] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Langley II",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 107270,
+	english_name = "USS Langley II",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107271,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		799,
+		0,
+		0,
+		51,
+		64,
+		70,
+		0,
+		29,
+		21,
+		31,
+		70,
+		24
+	},
+	attrs_growth = {
+		21445,
+		0,
+		0,
+		1100,
+		838,
+		490,
+		0,
+		465,
+		488,
+		0,
+		0,
+		291
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		110,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.4,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Independence-Class",
+		"Eagle Union-CVL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107272] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Langley II",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 107270,
+	english_name = "USS Langley II",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107272,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		994,
+		0,
+		0,
+		63,
+		80,
+		70,
+		0,
+		29,
+		21,
+		31,
+		70,
+		30
+	},
+	attrs_growth = {
+		21445,
+		0,
+		0,
+		1100,
+		838,
+		490,
+		0,
+		465,
+		488,
+		0,
+		0,
+		291
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		110,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.4,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Independence-Class",
+		"Eagle Union-CVL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107273] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Langley II",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 107270,
+	english_name = "USS Langley II",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107273,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1383,
+		0,
+		0,
+		88,
+		112,
+		70,
+		0,
+		29,
+		21,
+		31,
+		70,
+		42
+	},
+	attrs_growth = {
+		21445,
+		0,
+		0,
+		1100,
+		838,
+		490,
+		0,
+		465,
+		488,
+		0,
+		0,
+		291
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		110,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.4,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Independence-Class",
+		"Eagle Union-CVL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[107274] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Langley II",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 107270,
+	english_name = "USS Langley II",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 107274,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1968,
+		0,
+		0,
+		126,
+		159,
+		70,
+		0,
+		29,
+		21,
+		31,
+		70,
+		59
+	},
+	attrs_growth = {
+		21445,
+		0,
+		0,
+		1100,
+		838,
+		490,
+		0,
+		465,
+		488,
+		0,
+		0,
+		291
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		109,
+		110,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.55,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Independence-Class",
+		"Eagle Union-CVL"
+	}
+}
+
 _G.pg.base.ship_data_statistics[107291] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -59149,7 +61689,8 @@ _G.pg.base.ship_data_statistics[107381] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -59274,7 +61815,8 @@ _G.pg.base.ship_data_statistics[107382] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -59399,7 +61941,8 @@ _G.pg.base.ship_data_statistics[107383] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -59524,7 +62067,8 @@ _G.pg.base.ship_data_statistics[107384] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -296896,7 +299440,8 @@ _G.pg.base.ship_data_statistics[900343] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -297021,7 +299566,8 @@ _G.pg.base.ship_data_statistics[900344] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
