@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "发现塞壬舰队正在接近！除了代行者VI「Combination」之外，还有一种未知的塞壬人型。",
+			say = "發現塞壬艦隊正在接近！除了代行者VI「Combination」之外，還有一種未知的塞壬人型。",
 			bgm = "battle-midgard-hunting",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那些应该就是代行者VI「Attraction」了吧？",
+			say = "那些應該就是代行者VI「Attraction」了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "没错……要小心，敌人的单体战斗能力非常强。",
+			say = "沒錯……要小心，敵人的單體戰鬥能力非常強。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等……好像还不止如此，远方的水面也发生变化了诶？！",
+			say = "等等……好像還不止如此，遠方的水面也發生變化了欸？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看上去就很危险，你了解那是什么么？",
+			say = "看上去就很危險，妳了解那是什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "情报里没提过，我也不清楚……不过，绝对不要在里面呆着肯定没错。",
+			say = "情報裡沒提過，我也不清楚……不過，絕對不要在裡面待著肯定沒錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "同意。不要恋战，向着米德加尔特之塔加速撤离！",
+			say = "同意。不要戀戰，向著米德加爾特之塔加速撤離！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

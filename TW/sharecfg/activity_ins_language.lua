@@ -8910,6 +8910,315 @@ pg.activity_ins_language = {
 	op_reply_263_1_1 = {
 		value = "看來是有過慘痛的教訓呢，指揮官。"
 	},
+	ins_264 = {
+		value = ""
+	},
+	ins_discuss_264_1 = {
+		value = ""
+	},
+	ins_reply_264_1_1 = {
+		value = ""
+	},
+	ins_reply_264_1_2 = {
+		value = ""
+	},
+	ins_discuss_264_2 = {
+		value = ""
+	},
+	ins_reply_264_2_1 = {
+		value = ""
+	},
+	ins_reply_264_2_2 = {
+		value = ""
+	},
+	ins_discuss_264_3 = {
+		value = ""
+	},
+	ins_reply_264_3_1 = {
+		value = ""
+	},
+	ins_op_264_1_1 = {
+		value = ""
+	},
+	op_reply_264_1_1 = {
+		value = ""
+	},
+	ins_265 = {
+		value = ""
+	},
+	ins_discuss_265_1 = {
+		value = ""
+	},
+	ins_reply_265_1_1 = {
+		value = ""
+	},
+	ins_reply_265_1_2 = {
+		value = ""
+	},
+	ins_reply_265_1_3 = {
+		value = ""
+	},
+	ins_discuss_265_2 = {
+		value = ""
+	},
+	ins_reply_265_2_1 = {
+		value = ""
+	},
+	ins_reply_265_2_2 = {
+		value = ""
+	},
+	ins_op_265_1_1 = {
+		value = ""
+	},
+	op_reply_265_1_1 = {
+		value = ""
+	},
+	ins_266 = {
+		value = ""
+	},
+	ins_discuss_266_1 = {
+		value = ""
+	},
+	ins_reply_266_1_1 = {
+		value = ""
+	},
+	ins_reply_266_1_2 = {
+		value = ""
+	},
+	ins_discuss_266_2 = {
+		value = ""
+	},
+	ins_reply_266_2_1 = {
+		value = ""
+	},
+	ins_discuss_266_3 = {
+		value = ""
+	},
+	ins_reply_266_3_1 = {
+		value = ""
+	},
+	ins_op_266_1_1 = {
+		value = ""
+	},
+	op_reply_266_1_1 = {
+		value = ""
+	},
+	ins_267 = {
+		value = ""
+	},
+	ins_discuss_267_1 = {
+		value = ""
+	},
+	ins_reply_267_1_1 = {
+		value = ""
+	},
+	ins_reply_267_1_2 = {
+		value = ""
+	},
+	ins_reply_267_1_3 = {
+		value = ""
+	},
+	ins_discuss_267_2 = {
+		value = ""
+	},
+	ins_reply_267_2_1 = {
+		value = ""
+	},
+	ins_reply_267_2_2 = {
+		value = ""
+	},
+	ins_reply_267_2_3 = {
+		value = ""
+	},
+	ins_op_267_1_1 = {
+		value = ""
+	},
+	op_reply_267_1_1 = {
+		value = ""
+	},
+	ins_268 = {
+		value = ""
+	},
+	ins_discuss_268_1 = {
+		value = ""
+	},
+	ins_reply_268_1_1 = {
+		value = ""
+	},
+	ins_discuss_268_2 = {
+		value = ""
+	},
+	ins_reply_268_2_1 = {
+		value = ""
+	},
+	ins_reply_268_2_2 = {
+		value = ""
+	},
+	ins_discuss_268_3 = {
+		value = ""
+	},
+	ins_reply_268_3_1 = {
+		value = ""
+	},
+	ins_reply_268_3_2 = {
+		value = ""
+	},
+	ins_op_268_1_1 = {
+		value = ""
+	},
+	op_reply_268_1_1 = {
+		value = ""
+	},
+	ins_269 = {
+		value = ""
+	},
+	ins_discuss_269_1 = {
+		value = ""
+	},
+	ins_reply_269_1_1 = {
+		value = ""
+	},
+	ins_reply_269_1_2 = {
+		value = ""
+	},
+	ins_discuss_269_2 = {
+		value = ""
+	},
+	ins_reply_269_2_1 = {
+		value = ""
+	},
+	ins_reply_269_2_2 = {
+		value = ""
+	},
+	ins_op_269_1_1 = {
+		value = ""
+	},
+	op_reply_269_1_1 = {
+		value = ""
+	},
+	ins_270 = {
+		value = ""
+	},
+	ins_discuss_270_1 = {
+		value = ""
+	},
+	ins_reply_270_1_1 = {
+		value = ""
+	},
+	ins_reply_270_1_2 = {
+		value = ""
+	},
+	ins_discuss_270_2 = {
+		value = ""
+	},
+	ins_reply_270_2_1 = {
+		value = ""
+	},
+	ins_reply_270_2_2 = {
+		value = ""
+	},
+	ins_reply_270_2_3 = {
+		value = ""
+	},
+	ins_op_270_1_1 = {
+		value = ""
+	},
+	op_reply_270_1_1 = {
+		value = ""
+	},
+	ins_271 = {
+		value = ""
+	},
+	ins_discuss_271_1 = {
+		value = ""
+	},
+	ins_reply_271_1_1 = {
+		value = ""
+	},
+	ins_discuss_271_2 = {
+		value = ""
+	},
+	ins_reply_271_2_1 = {
+		value = ""
+	},
+	ins_discuss_271_3 = {
+		value = ""
+	},
+	ins_reply_271_3_1 = {
+		value = ""
+	},
+	ins_reply_271_3_2 = {
+		value = ""
+	},
+	ins_op_271_1_1 = {
+		value = ""
+	},
+	op_reply_271_1_1 = {
+		value = ""
+	},
+	ins_op_271_1_2 = {
+		value = ""
+	},
+	op_reply_271_1_2 = {
+		value = ""
+	},
+	ins_272 = {
+		value = ""
+	},
+	ins_discuss_272_1 = {
+		value = ""
+	},
+	ins_reply_272_1_1 = {
+		value = ""
+	},
+	ins_discuss_272_2 = {
+		value = ""
+	},
+	ins_reply_272_2_1 = {
+		value = ""
+	},
+	ins_discuss_272_3 = {
+		value = ""
+	},
+	ins_reply_272_3_1 = {
+		value = ""
+	},
+	ins_op_272_1_1 = {
+		value = ""
+	},
+	op_reply_272_1_1 = {
+		value = ""
+	},
+	ins_273 = {
+		value = ""
+	},
+	ins_discuss_273_1 = {
+		value = ""
+	},
+	ins_reply_273_1_1 = {
+		value = ""
+	},
+	ins_reply_273_1_2 = {
+		value = ""
+	},
+	ins_reply_273_1_3 = {
+		value = ""
+	},
+	ins_discuss_273_2 = {
+		value = ""
+	},
+	ins_reply_273_2_1 = {
+		value = ""
+	},
+	ins_reply_273_2_2 = {
+		value = ""
+	},
+	ins_op_273_1_1 = {
+		value = ""
+	},
+	op_reply_273_1_1 = {
+		value = ""
+	},
 	ins_289 = {
 		value = "偉大的龐培隊長，今天也在為艦隊的各項事務奔走忙碌著！"
 	},
@@ -12202,6 +12511,109 @@ pg.activity_ins_language = {
 		ins_reply_263_2_1,
 		ins_op_263_1_1,
 		op_reply_263_1_1,
+		ins_264,
+		ins_discuss_264_1,
+		ins_reply_264_1_1,
+		ins_reply_264_1_2,
+		ins_discuss_264_2,
+		ins_reply_264_2_1,
+		ins_reply_264_2_2,
+		ins_discuss_264_3,
+		ins_reply_264_3_1,
+		ins_op_264_1_1,
+		op_reply_264_1_1,
+		ins_265,
+		ins_discuss_265_1,
+		ins_reply_265_1_1,
+		ins_reply_265_1_2,
+		ins_reply_265_1_3,
+		ins_discuss_265_2,
+		ins_reply_265_2_1,
+		ins_reply_265_2_2,
+		ins_op_265_1_1,
+		op_reply_265_1_1,
+		ins_266,
+		ins_discuss_266_1,
+		ins_reply_266_1_1,
+		ins_reply_266_1_2,
+		ins_discuss_266_2,
+		ins_reply_266_2_1,
+		ins_discuss_266_3,
+		ins_reply_266_3_1,
+		ins_op_266_1_1,
+		op_reply_266_1_1,
+		ins_267,
+		ins_discuss_267_1,
+		ins_reply_267_1_1,
+		ins_reply_267_1_2,
+		ins_reply_267_1_3,
+		ins_discuss_267_2,
+		ins_reply_267_2_1,
+		ins_reply_267_2_2,
+		ins_reply_267_2_3,
+		ins_op_267_1_1,
+		op_reply_267_1_1,
+		ins_268,
+		ins_discuss_268_1,
+		ins_reply_268_1_1,
+		ins_discuss_268_2,
+		ins_reply_268_2_1,
+		ins_reply_268_2_2,
+		ins_discuss_268_3,
+		ins_reply_268_3_1,
+		ins_reply_268_3_2,
+		ins_op_268_1_1,
+		op_reply_268_1_1,
+		ins_269,
+		ins_discuss_269_1,
+		ins_reply_269_1_1,
+		ins_reply_269_1_2,
+		ins_discuss_269_2,
+		ins_reply_269_2_1,
+		ins_reply_269_2_2,
+		ins_op_269_1_1,
+		op_reply_269_1_1,
+		ins_270,
+		ins_discuss_270_1,
+		ins_reply_270_1_1,
+		ins_reply_270_1_2,
+		ins_discuss_270_2,
+		ins_reply_270_2_1,
+		ins_reply_270_2_2,
+		ins_reply_270_2_3,
+		ins_op_270_1_1,
+		op_reply_270_1_1,
+		ins_271,
+		ins_discuss_271_1,
+		ins_reply_271_1_1,
+		ins_discuss_271_2,
+		ins_reply_271_2_1,
+		ins_discuss_271_3,
+		ins_reply_271_3_1,
+		ins_reply_271_3_2,
+		ins_op_271_1_1,
+		op_reply_271_1_1,
+		ins_op_271_1_2,
+		op_reply_271_1_2,
+		ins_272,
+		ins_discuss_272_1,
+		ins_reply_272_1_1,
+		ins_discuss_272_2,
+		ins_reply_272_2_1,
+		ins_discuss_272_3,
+		ins_reply_272_3_1,
+		ins_op_272_1_1,
+		op_reply_272_1_1,
+		ins_273,
+		ins_discuss_273_1,
+		ins_reply_273_1_1,
+		ins_reply_273_1_2,
+		ins_reply_273_1_3,
+		ins_discuss_273_2,
+		ins_reply_273_2_1,
+		ins_reply_273_2_2,
+		ins_op_273_1_1,
+		op_reply_273_1_1,
 		ins_289,
 		ins_discuss_289_1,
 		ins_reply_289_1_1,

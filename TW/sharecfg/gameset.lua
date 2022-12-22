@@ -336,7 +336,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 287
+		key_value = 232
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1912,7 +1912,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 288
+		key_value = 231
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2566,10 +2566,6 @@ pg.gameset = {
 	submarine_chapter_activate_time = {
 		description = "",
 		key_value = 43200
-	},
-	naval_academy_theme = {
-		description = "winter",
-		key_value = 0
 	},
 	package_lv = {
 		key_value = 0,

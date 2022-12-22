@@ -15,7 +15,7 @@ return {
 			actor = 406020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "滴滴滴，现在插播一条重要消息！",
+			say = "滴滴滴，現在插播一條重要消息！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "现在前方出现了一处正在战斗中的区域，而在区域的中心，你们猜我发现了什么~",
+			say = "現在前方出現了一處正在戰鬥中的區域，而在區域的中心，妳們猜我發現了什麼~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "更多的残骸……？",
+			say = "更多的殘骸……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "这个是当然的吧！",
+			say = "這個是當然的吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怪兽……之类的？",
+			say = "怪獸……之類的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "并没有看到类似的存在哦~",
+			say = "並沒有看到類似的存在哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "那究竟是什么，别卖关子了，易北。",
+			say = "那究竟是什麼，別賣關子了，易北。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "哼哼，是一个倾泻着大量火力却无法被雷达捕捉的目标哦！",
+			say = "哼哼，是一個傾瀉著大量火力卻無法被雷達捕捉的目標哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "火力凶猛却无法被雷达捕捉……那岂不就是——",
+			say = "火力兇猛切無法被雷達捕捉……那豈不就是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "META，我们的目标终于出现了！",
+			say = "META，我們的目標終於出現了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

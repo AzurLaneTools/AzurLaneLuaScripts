@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>五 创新餐饮</size>",
+					"碳酸與紅茶\n\n<size=45>五 創新餐飲</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "来到了铁血的店——“莱茵咖啡馆 Café im Rhine”。",
+			say = "來到了鐵血的店——“萊茵咖啡館 Café im Rhine”。",
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "欢迎光临。",
+			say = "歡迎光臨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "居然是作为店长的俾斯麦在门口迎接客人。",
+			say = "居然是作為店長的俾斯麥在門口迎接客人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "店铺刚刚开业，作为店长有必要在最近的距离观察客人们的反馈，以便进行更好的方针调整。",
+			say = "店鋪剛剛開業，作為店長有必要在最近的距離觀察客人們的反饋，以便進行更好的方針調整。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "指挥官这边请，我们已经为你预留好了座位了。",
+			say = "指揮官這邊請，我們已經為你預留好了座位了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "跟随俾斯麦来到了店里的一处空座位。",
+			say = "跟隨俾斯麥來到了店裡的一處空座位。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "我们这次试制了很多新饮品，有些在营业菜单里，有些希望能在进入菜单前让你先品尝一下。",
+			say = "我們這次試制了很多新飲品，有些在營業菜單裡，有些希望能在進入菜單前讓你先品嚐一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官指挥官！碳酸苹果汁、碳酸牛奶还有碳酸咖啡都端来啦！请品尝！",
+			say = "指揮官指揮官！碳酸蘋果汁、碳酸牛奶還有碳酸咖啡都端來啦！請品嚐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "碳酸小麦汁我也拿过来了哦……唔…………",
+			say = "碳酸小麥汁我也拿過來了哦……唔…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408121,
-			say = "阿达尔伯特，你喝太多碳酸小麦汁了啦！",
+			say = "阿達爾貝特，妳喝太多碳酸小麥汁了啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "这些饮料的颜色，看起来好像都有些不太妙……不过盛意难却，还是依次品尝一下吧——",
+			say = "這些飲料的顏色，看起來好像都有些不太妙……不過盛情難卻，還是依次品嚐一下吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "嗯…？味道倒是都意外地不错。特别是咖啡味的气泡在口腔中爆炸时，会带来非常奇妙的感觉。",
+			say = "嗯…？味道倒是都意外地不錯。特別是咖啡味的氣泡在口腔中爆炸時，會帶來非常奇妙的感覺。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "看来指挥官对于这些饮料还算是满意啊。很好，明天就正式供应吧。",
+			say = "看來指揮官對於這些飲料還算是滿意啊。很好，明天就正式供應吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来要不要吃点东西？其实，我们还有一些新菜品也希望指挥官能先品尝一下。",
+			say = "接下來要不要吃點東西？其實，我們還有一些新菜品也希望指揮官能先品嚐一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402061,
-			say = "比如黑森林肘子、华夫饼三明治、冰淇淋烤肠之类的！",
+			say = "比如黑森林豬腳、鬆餅三明治、冰淇淋香腸之類的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "好像有些奇怪的东西混进去了……？",
+			say = "好像有些奇怪的東西混進去了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官……我都端来了哦，请品尝！",
+			say = "指揮官……我都端來了哦，請品嚐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，这个华夫饼香肠三明治可是我的创新，怎么样~看起来就很有食欲吧！",
+			say = "嘿嘿，這個鬆餅香腸三明治可是我的創新，怎麼樣~看起來就很有食慾吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408121,
-			say = "还是说要先从冰淇淋烤肠开始？确实诶，这个如果不快点吃的话冰淇淋就全部化掉了！",
+			say = "還是說要先從冰淇淋香腸開始？確實呢，這個如果不快點吃的話冰淇淋就全部化掉了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "star_level_bg_145",
 			dir = 1,
 			blackBg = true,
-			say = "嗯…………毕竟盛意难却，这里就尽情接受铁血众人的好意吧———",
+			say = "嗯…………畢竟盛情難卻，這裡就盡情接受鐵血眾人的好意吧———",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

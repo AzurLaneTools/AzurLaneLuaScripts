@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>六 悠扬琴音</size>",
+					"碳酸與紅茶\n\n<size=45>六 悠揚琴音</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "来到了皇家的店——“皇家午茶<Queen's Tea>”",
+			say = "來到了皇家的店——“皇家午茶<Queen's Tea>”",
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "走进店门后，一阵悠扬的小提琴声立刻传了过来——",
+			say = "走進店門後，一陣悠揚的小提琴聲立刻傳了過來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欢迎光临，指挥官！",
+			say = "歡迎光臨，指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201333,
-			say = "（小声）啊，对了，这里要行提裙礼……",
+			say = "（小聲）啊，對了，這裡要行提裙禮……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "伊卡洛斯在片刻的迟疑后，双手提裙朝这边微微地鞠了一躬。",
+			say = "伊卡洛斯在片刻的遲疑後，雙手提裙朝這邊微微地鞠了一躬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201333,
-			say = "指挥官，请跟我往这边走~",
+			say = "指揮官，請跟我往這邊走~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "在伊卡洛斯的带领下来到了一个单独的包间。",
+			say = "在伊卡洛斯的帶領下來到了一個單獨的包廂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "菜单在这里，请您过目。本店的推荐是皇室红茶哦~",
+			say = "菜單在這裡，請您過目。本店的推薦是皇室紅茶哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "接过精致的菜单，正如伊卡洛斯所言，在菜单的第一页就是用大字标着“店长力荐”的皇室红茶。",
+			say = "接過精緻的菜單，正如伊卡洛斯所言，在菜單的第一頁就是用大字標著“店長力薦”的皇室紅茶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "除此之外，饮品分类下还有各式各样听过或没听过的茶，光是红茶的种类就有十种以上……",
+			say = "除此之外，飲品分類下還有各式各樣聽過或沒聽過的茶，光是紅茶的種類就有十種以上……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "不愧是皇家的主题店……相比于咖啡店，称为饮茶店或许更为贴切。",
+			say = "不愧是皇家的主題店……相比於咖啡店，稱為飲茶店或許更為貼切。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "顺便借助余光观察了下伊卡洛斯，等待点单期间的她时不时会抚摸一下趴在邻桌上的小猫。",
+			say = "順便借助餘光觀察了一下伊卡洛斯，等待點單期間的她時不時會撫摸一下趴在鄰桌上的小貓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201333,
-			say = "（小声）嘿嘿，猫咪店员乖哦~一会就喂你吃小鱼干~",
+			say = "（小聲）嘿嘿，貓咪店員乖哦~等一下就餵你吃小魚乾~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "在包间内看到的数只可爱小猫，原来也被伊丽莎白授予了“猫咪店员”的荣誉职位啊……",
+			say = "在包廂內看到的數隻可愛小貓，原來也被伊莉莎白授予了“貓咪店員”的榮譽職位啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官~点单结束了么！",
+			say = "指揮官~點菜結束了嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "伴随着元气的声音推门而入的是手持小提琴的南安普顿。",
+			say = "伴隨著元氣的聲音推門而入的是手持小提琴的南安普敦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202072,
-			say = "嘿嘿，刚刚的小提琴演奏指挥官还满意么？",
+			say = "嘿嘿，剛剛的小提琴演奏指揮官還滿意嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,11 +299,11 @@ return {
 			},
 			options = {
 				{
-					content = "非常优美",
+					content = "非常優美",
 					flag = 1
 				},
 				{
-					content = "感觉很舒心",
+					content = "感覺很舒心",
 					flag = 2
 				}
 			}
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202072,
-			say = "创意成功~您能喜欢就好！",
+			say = "創意成功~您能喜歡就好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "不过……为什么在包间中也能清晰的听到琴声呢？",
+			say = "不過……為什麼在包廂中也能清晰的聽到琴聲呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202072,
-			say = "唔……好像是陛下按照音乐厅包间的设计对这里进行了些特别改造，我也不是很清楚啦……",
+			say = "唔……好像是陛下按照音樂廳包廂的設計對這裡進行了些特別改造，我也不是很清楚啦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "………再次翻阅菜单，着重确认了一下店名，不是音乐厅，而是皇家午茶<Queen's Tea>。",
+			say = "………再次翻閱菜單，著重確認了一下店名，不是音樂廳，而是皇家午茶<Queen's Tea>。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "之后将决定后的点单内容告诉了伊卡洛斯。",
+			say = "之後將決定後的點菜內容告訴了伊卡洛斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201333,
-			say = "指挥官要点的是这些对么……我明白了！请在猫咪店员的陪伴下稍等片刻哦！",
+			say = "指揮官要點的是這些對嗎……我明白了！請在貓咪店員的陪伴下稍等片刻哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202072,
-			say = "休息结束，我也该回去继续为店里增添气氛了~祝您能在店里度过美好的时光。",
+			say = "休息結束，我也該回去繼續為店裡增添氣氛了~祝您能在店裡度過美好的時光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			bgName = "star_level_bg_150",
 			dir = 1,
 			blackBg = true,
-			say = "店里又飘扬起悠扬的小提琴声。接下来要做的，便是等待享受美味的皇家茶点了————",
+			say = "店裡又飄揚起悠揚的小提琴聲。接下來要做的，便是等待享受美味的皇家茶點了————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,7 +15,7 @@ return {
 			actor = 406020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "报告！敌人没有再跟上来，周围也没有发现敌人！",
+			say = "報告！敵人沒有再跟上來，周圍也沒有發現敵人！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "残骸中都仔细检查过了么？",
+			say = "殘骸中都仔細檢查過了麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯！这次特意仔细搜索过了，确认无误！",
+			say = "嗯！這次特意仔細搜索過了，確認無誤！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "水下也没有追兵，看来暂时安全了~",
+			say = "水下也沒有追兵，看來暫時安全了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "暂时安全，但是不合理。",
+			say = "暫時安全，但是不合理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "狩猎中，相比一直紧追猎物，先让猎物自以为逃脱，在放松警惕之时突然出击效果会更好。",
+			say = "狩獵中，相比一直緊追獵物，先讓獵物自以為逃脫，在放鬆警惕之時突然出擊效果會更好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们的对手有着绝对优势兵力，对于海域环境也更加熟悉，它们没有放我们离开的必要。",
+			say = "我們的對手有著絕對優勢兵力，對於海域環境也更加熟悉，它們沒有放我們離開的必要。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "没错……不要放松警惕，这片海域依然非常危险……",
+			say = "沒錯……不要放鬆警惕，這片海域依然非常危險……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你终于醒了！啊、你伤得很严重，别乱动！",
+			say = "妳終於醒了！啊、妳傷得很嚴重，別亂動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "没事……这不是我受过最严重的伤，紧急修复一下大概还能战斗……",
+			say = "沒事……這不是我受過最嚴重的傷，緊急修復一下大概還能戰鬥……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还能战斗……？",
+			say = "還能戰鬥……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "有一门炮塔还能开火，动力系统还能勉强运转……勉强一下总是有办法的。",
+			say = "有一門炮塔還能開火，動力系統還能勉強運轉……勉強一下總是有辦法的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "既然没看到我出现，就说明计划失败，你们直接撤退就是……哪有这么主动自投罗网的。",
+			say = "既然沒看到我出現，就說明計劃失敗，妳們直接撤退就是了……哪有這麼主動自投羅網的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也是这么想的，但是格奈森瑙在意你的情况，作为长官也要照顾下属的情绪才是。",
+			say = "我也是這麼想的，但是格奈森瑙在意妳的情況，作為長官也要照顧下屬的情緒才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "格奈森瑙么……",
+			say = "格奈森瑙嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "真是狼狈啊，刚刚离开时候的气势呢？",
+			say = "真是狼狽啊，剛剛離開時候的氣勢呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……多谢你专程赶过来说风凉话。",
+			say = "……多謝妳專程趕過來說風涼話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………你身上的伤是不是又多了？",
+			say = "…………妳身上的傷是不是又多了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "刚才救你的时候是她一直冲在最前面开路，消灭了绝大多数敌人哦！",
+			say = "剛才救你的時候是她一直衝在最前面開路，消滅了絕大多數敵人哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……即使是毫无关系的人，你也拥有沙恩霍斯特的外表，在你的世界中与不同于我的另一个格奈森瑙有过羁绊吧。",
+			say = "……即使是毫無關係的人，妳也擁有沙恩霍斯特的外表，在妳的世界中與不同於我的另一個格奈森瑙有過羈絆吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "放任你这么死掉，对于我心中的沙恩霍斯特无法交代。",
+			say = "放任妳這麼死掉，對於我心中的沙恩霍斯特無法交代。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……非常感谢。这次救援的恩情，我会铭记在心的。",
+			say = "……非常感謝。這次救援的恩情，我會銘記在心的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看你的状态，前往你们的撤离点已经不可能了，跟我们一起回去吧。",
+			say = "看妳的狀態，前往妳們的撤離點已經不可能了，跟我們一起回去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不要求你的加入。跟我们回去与我们合作一段时间，等你伤好之后可以自行离开。",
+			say = "不要求妳的加入。跟我們回去與我們合作一段時間，等妳傷好之後可以自行離開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "现在的我看起来也没什么拒绝的余地……前提是我们能平安离开这里。",
+			say = "現在的我看起來也沒什麼拒絕的餘地……前提是我們能平安離開這裡的話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "余烬的沙恩霍斯特，我需要你立刻汇报刚才发生的事，并立刻提供仲裁机关拉沃斯的情报。",
+			say = "餘燼的沙恩霍斯特，我需要妳立刻匯報剛才發生的事，並立刻提供仲裁機關拉沃斯的情報。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……自从加入余烬到现在，这也是我第一次正面遭遇拉沃斯。",
+			say = "……自從加入餘燼到現在，這也是我第一次正面遭遇拉沃斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "因为之前遇到的代行者VI「Combination」低下的战斗能力……明明我早就知道它的强大，却还是轻敌了。",
+			say = "因為之前遇到的代行者VI「Combination」低下的戰鬥能力……明明我早就知道它的強大，卻還是輕敵了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那些真能算“低下”的战斗力么……？",
+			say = "那些真能算“低下”的戰鬥力嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "相对来说是这样的。对你们来说有些困难，不过我和格奈森瑙应对起来都还算游刃有余不是么？",
+			say = "相對來說是這樣的。對妳們來說有些困難，不過我和格奈森瑙應對起來都還算游刃有餘不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然十分不甘心，不过无法反驳……",
+			say = "雖然十分不甘心，不過無法反駁……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "代行者与代行者之间根据仲裁机关的偏好，性能差距有很大区别。",
+			say = "代行者與代行者之間根據仲裁機關的偏好，性能差距有很大區別。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "有喜爱战斗能力一般但依靠数量取胜的数量主义，也有喜爱单体强度极高依靠质量取胜的质量主义。",
+			say = "有喜愛戰鬥能力一般但依靠數量取勝的數量主義，也有喜愛單體強度極高依靠質量取勝的質量主義。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "拉沃斯算哪种？",
+			say = "拉沃斯算哪種？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "它似乎……选择了全都要，目前海域中的代行者并不只有一种。",
+			say = "它似乎……選擇了全都要，目前海域中的代行者並不只有一種。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "除了数量极多的代行者VI「Combination」之外，还有少数质量极高的代行者VI「Attraction」混入其中。",
+			say = "除了數量極多的代行者VI「Combination」之外，還有少數質量極高的代行者VI「Attraction」混入其中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此，你是在应对数量众多的杂兵有些大意之时，被突然出现的高质量精英敌人偷袭才变成这样的么？",
+			say = "原來如此，妳是在應對數量眾多的雜兵有些大意之時，被突然出現的高質量精英敵人偷襲才變成這樣的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "怎么可能……虽然有些难缠，但终究只是代行者，只要集中精神应对依然能够处理……",
+			say = "怎麼可能……雖然有些難纏，但終究只是代行者，只要集中精神應對依然能夠處理……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "问题就在于，集中精神应对的时候，拉沃斯本体突然出现了。",
+			say = "問題就在於，集中精神應對的時候，拉沃斯本體突然出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "映入视野的巨大装甲，就是我失去意识前看到的最后画面……",
+			say = "映入視野的巨大裝甲，就是我失去意識前看到的最後畫面……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再之后就是要派遣手下对你进行拆解的时间了啊……看来我们来的确实是千钧一发。",
+			say = "再之後就是要派遣手下對你進行拆解的時間了啊……看來我們來的確實是千鈞一髮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那些塞壬为什么要在海域里拆解残骸？拉沃斯还在附近么？",
+			say = "那些塞壬為什麼要在海域裡拆解殘骸？拉沃斯還在附近嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,7 +740,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……这两个其实是一个问题。",
+			say = "……這兩個其實是一個問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "拉沃斯已经和整片海域的塞壬执行系统同步了，它现在就是这片废墟之海本身。",
+			say = "拉沃斯已經和整片海域的塞壬執行系統同步了，它現在就是這片廢墟之海本身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "现在的它可以利用模块化分离与重组的方式快速出现在海域中的任意区域，并利用无尽的残骸进行快速修复。",
+			say = "現在的它可以利用模組化分離與重組的方式快速出現在海域中的任意區域，並利用無盡的殘骸進行快速修復。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -791,7 +791,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "而在消灭掉所有隐藏在的海域废墟中的代行者之前，拉沃斯是无法被消灭的，甚至都不会真正受伤……",
+			say = "而在消滅掉所有隱藏在的海域廢墟中的代行者之前，拉沃斯是無法被消滅的，甚至都不會真正受傷……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "真是人如其名，令人无处逃脱的爱啊……",
+			say = "真是人如其名，令人無處逃脫的愛啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "你们看嘛！我就知道之前看到的水下残骸有古怪！！！",
+			say = "妳們看嘛！我就知道之前看到的水下殘骸有古怪！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然有这种能力……那现在这样满是残骸的海域简直就是拉沃斯的主场！",
+			say = "居然有這種能力……那現在這樣滿是殘骸的海域簡直就是拉沃斯的主場！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -860,7 +860,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "是啊……对于给实验场进行善后来说，拉沃斯无愧是最为合适的人选……",
+			say = "是啊……對於給實驗場進行善後來說，拉沃斯無愧是最為合適的人選……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "给实验场善后……也就是说拉沃斯原本是打算来对付我的么？",
+			say = "給實驗場善後……也就是說拉沃斯原本是打算來對付我的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -894,7 +894,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "是啊……居然派了个这么厉害的狠角色，你之前在这里可真是大闹了一通呢……",
+			say = "是啊……居然派了個這麼厲害的狠角色，妳之前在這裡可真是大鬧了一通呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -911,7 +911,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "多谢夸奖…？",
+			say = "多謝誇獎…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,7 +928,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………格奈森瑙协助沙恩霍斯特，其他人排成保护队形，我们立刻撤离！",
+			say = "…………格奈森瑙協助沙恩霍斯特，其他人排成保護隊形，我們立刻撤離！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -945,7 +945,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "为什么要让我来照顾这家伙……",
+			say = "為什麼要讓我來照顧這傢伙……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -962,7 +962,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为只有你能在拖着它前进的同时追上我们的速度。",
+			say = "因為只有妳能在拖著它前進的同時追上我們的速度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -979,7 +979,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "呵……应该是只有移动力受损的我在拖着沙恩霍斯特的时候，你们才能追上我的速度吧。",
+			say = "呵……應該是只有移動力受損的我在拖著沙恩霍斯特的時候，妳們才能追上我的速度吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -996,7 +996,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "尽全力追赶吧，小心不要跟丢……我们出发！",
+			say = "盡全力追趕吧，小心不要跟丟……我們出發！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1011,7 +1011,7 @@ return {
 			bgName = "bg_midgard_6",
 			dir = 1,
 			blackBg = true,
-			say = "距离米德加尔特之塔关闭剩余——2小时17分。",
+			say = "距離米德加爾特之塔關閉剩餘——2小時17分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

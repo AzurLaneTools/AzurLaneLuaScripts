@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>二 铁血讨论会</size>",
+					"碳酸與紅茶\n\n<size=45>二 鐵血討論會</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·铁血会议室",
+			say = "港區·鐵血會議室",
 			side = 2,
 			bgName = "bg_guild_red",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "——事情就是这样。既然我已经担任了店长，就会认真负责到底。",
+			say = "——事情就是這樣。既然我已經擔任了店長，就會認真負責到底。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "为了能在这次与皇家的竞争中胜出，我们需要在开店前确定好经营方针。",
+			say = "為了能在這次與皇家的競爭中勝出，我們需要在開店前確定好經營方針。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家有什么想法和建议都可以提出来。",
+			say = "大家有什麼想法和建議都可以提出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然取胜的关键在于指挥官的个人喜好，单独对这些情报进行调查，做针对性对策怎么样？",
+			say = "既然取勝的關鍵在於指揮官的個人喜好，單獨對這些情報進行調查，做針對性對策怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "可以考虑。不过……皇家同时还有扩展其影响力的目的，我们铁血也不能落后。",
+			say = "可以考慮。不過……皇家同時還有擴展其影響力的目的，我們鐵血也不能落後。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然指挥官是最重要的，但也不能因此而忽略港区其他同伴的体验。",
+			say = "雖然指揮官是最重要的，但也不能因此而忽略港區其他同伴的體驗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家在女仆服务方面有着无与伦比的丰富经验，从这方面超过她们恐怕十分困难。",
+			say = "皇家在女僕服務方面有著無與倫比的豐富經驗，從這方面超過她們恐怕十分困難。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我们铁血的咖啡在港区里一直评价很高，开发一些新的咖啡调制饮品，以此来作为卖点如何？",
+			say = "我們鐵血的咖啡在港區裡一直評價很高，開發一些新的咖啡調製飲品，以此來作為賣點如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "扬长避短之策，想法不错。",
+			say = "揚長避短之策，想法不錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们的碳酸饮料也很棒哦！我觉得可以给各种饮料都加上碳酸试试！",
+			say = "我們的碳酸飲料也很棒哦！我覺得可以給各種飲料都加上碳酸試試！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "什么碳酸咖啡、碳酸果汁、碳酸牛奶都可以试一下！一定会好喝的！",
+			say = "什麼碳酸咖啡、碳酸果汁、碳酸牛奶都可以試一下！一定會好喝的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "碳酸的发酵饮品也可以尝试一下！",
+			say = "碳酸的發酵飲品也可以嘗試一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "在咖啡之外开辟出碳酸饮料的新维度么……也许是一个不错的选择。",
+			say = "在咖啡之外開闢出碳酸飲料的新維度嗎……也許是一個不錯的選擇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "除了饮料之外，吃的方面感觉也可以创新一下哎！",
+			say = "除了飲料之外，吃的方面感覺也可以創新一下哎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "不如把我们的招牌食品做个结合，尝试一下黑森林肘子或者华夫饼肘子怎么样！？",
+			say = "不如把我們的招牌食品做個結合，嘗試一下黑森林豬腳或者鬆餅豬腳怎麼樣！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "确实很有创新性，有尝试的价值…不过食物最终还要以味道作为评价标准。",
+			say = "確實很有創新性，有嘗試的價值…不過食物最終還要以味道作為評價標準。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只有吃喝的话，感觉有点单调……",
+			say = "只有吃喝的話，感覺有點單調……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "要不然设置一个搏击擂台，来一个热血主题的咖啡店怎么样？",
+			say = "要不然設置一個搏擊擂台，來一個熱血主體的咖啡店怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "这样做会影响到前来用餐的客人的，我不同意。",
+			say = "這樣做會影響到前來用餐的客人的，我不同意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "欸，我还以为一定是个好主意呢……",
+			say = "欸，我還以為一定是個好主意呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个……既然是要做服务生一样的工作的话，应该会需要一套……新的衣服？",
+			say = "那個……既然是要做服務生一樣的工作的話，應該會需要一套……新的衣服？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果穿着平时的服装接待客人的话……好像有点破坏气氛……",
+			say = "如果穿著平時的服裝接待客人的話……好像有點破壞氣氛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "有道理，确实考虑下统一制服比较好。",
+			say = "有道理，確實考慮下統一制服比較好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "嗯…咖啡店最重要的名字也需要定一下，这方面你们有什么想法么？",
+			say = "嗯…咖啡店最重要的名字也需要定一下，這方面妳們有什麼想法嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			bgName = "bg_guild_red",
 			dir = 1,
 			blackBg = true,
-			say = "在俾斯麦的主持下，铁血咖啡店的准备工作在有序的氛围中稳步推进着————",
+			say = "在俾斯麥的主持下，鐵血咖啡店的準備工作在有序的氛圍中穩步推進著————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

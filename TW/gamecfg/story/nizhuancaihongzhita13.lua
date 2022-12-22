@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在铁血舰队赶到后，看到的是一片狼藉的战场。",
+			say = "在鐵血艦隊趕到後，看到的是一片狼藉的戰場。",
 			side = 2,
 			bgName = "bg_midgard_3",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "海面上漂浮的残骸堆叠在一起形成了一片片破碎的浮岛。",
+			say = "海面上漂浮的殘骸堆疊在一起形成了一片片破碎的浮島。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "在浮岛最密集的中心，静静矗立着一个身影。",
+			say = "在浮島最密集的中心，靜靜矗立著一個身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "战斗已经结束了。听说如果是余烬成员的话，在战斗结束后应该早就跑远了才对。",
+			say = "戰鬥已經結束了。聽說如果是餘燼成員的話，在戰鬥結束後應該早就跑遠了才對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "非但没有离开，反而像是在欣赏破碎的战场一样……有点不太正常。",
+			say = "非但沒有離開，反而像是在欣賞破碎的戰場一樣……有點不太正常。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在正在毛骨悚然地盯着我们看哦…………",
+			say = "現在正在毛骨悚然地盯著我們看哦…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "那个样子，难道是格奈森瑙？！",
+			say = "那個樣子，難道是格奈森瑙？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "只是容貌的话确实和格奈森瑙小姐很像，但是气质上差太多了……",
+			say = "只是容貌的話確實和格奈森瑙小姐很像，但是氣質上差太多了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我还是第一次这么近距离接触META……",
+			say = "我還是第一次這麼近距離接觸META……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "浑身充满着铁与血的气息，却好像在盯着我们微笑……我感觉心里有点发毛！",
+			say = "渾身充滿著鐵與血的氣息，卻好像在盯著我們微笑……我感覺心裡有點發毛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "铁与血，与我们非常般配不是么？不但没有隶属于余烬，甚至还是铁血所属，真是中大奖了。",
+			say = "鐵與血，與我們非常般配不是嗎？不但沒有隸屬於餘燼，甚至還是鐵血所屬，真是中大獎了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在我们见到META了，劝诱加入这步要怎么做？她看上去怎么都不像是能正常对话的样子哦。",
+			say = "現在我們見到META了，勸誘加入這步要怎麼做？她看上去怎麼都不像是能正常對話的樣子哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那要等实际对话之后才知道了。",
+			say = "那要等實際對話之後才知道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "你不会是要！？",
+			say = "妳不會是要！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "乌尔里希没有再说话，只是示意舰队原地做好战斗准备，然后一个人向前方驶去。",
+			say = "烏爾里希沒有再說話，只是示意艦隊原地做好戰鬥準備，然後一個人向前方駛去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "……棋子居然没有发动攻击。",
+			say = "……棋子居然沒有發動攻擊。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我不是棋子，也非量产型，而是活生生真真正正的舰船。",
+			say = "我不是棋子，也非量產型，而是活生生真真正正的艦船。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "真真正正的舰船怎么会跑到这种地方来，还敢跑到我的面前……",
+			say = "真真正正的艦船怎麼會跑到這種地方來，還敢跑到我的面前……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "因为心中有所希望和追求。",
+			say = "因為心中有所希望和追求。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这是燃尽的世界，没有希望，更不应该有追求。",
+			say = "這是燃盡的世界，沒有希望，更不應該有追求。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那应该是由我，乌尔里希·冯·胡滕来判断的。",
+			say = "那應該是由我，烏爾里希·馮·胡滕來判斷的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "格奈森瑙，我以腓特烈大帝的名义命令你，向铁血再次效忠吧。",
+			say = "格奈森瑙，我以腓特烈大帝的名義命令你，向鐵血再次效忠吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "再次效忠，你的话说得真奇怪。",
+			say = "再次效忠，妳的話說得真奇怪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "我在这里战斗、战斗、战斗、战斗，一直战斗到现在。",
+			say = "我在這裡戰鬥、戰鬥、戰鬥、戰鬥，一直戰鬥到現在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "没有同伴，没有下属，没有上司，甚至连铁血都不复存在了，我还在战斗。",
+			say = "沒有同伴，沒有下屬，沒有上司，甚至連鐵血都不復存在了，我還在戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "我现在不正是在为铁血效忠么？",
+			say = "我現在不正是在為鐵血效忠嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……原来如此，那事情就好办了。腓特烈大帝的命令就是铁血的命令，加入我们吧。",
+			say = "……原來如此，那事情就好辦了。腓特烈大帝的命令就是鐵血的命令，加入我們吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "腓特烈大帝？没听过的名字啊，铁血里真有这号人么？",
+			say = "腓特烈大帝？沒聽過的名字啊，鐵血裡真有這號人嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "呵呵呵，拿虚构的名字装腔作势可不好哦。",
+			say = "呵呵呵，拿虛構的名字裝腔作勢可不好哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "……细看之下，你好像我也认不太清呢。名字叫乌尔里希.冯.胡縢对么？",
+			say = "……細看之下，妳好像我也認不太清呢。名字叫烏爾里希.馮.胡縢對嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "不认识……认不出……呵呵呵呵，你是什么小鱼小虾也敢来命令我？！",
+			say = "不認識……認不出……呵呵呵呵，妳是什麼小魚小蝦也敢來命令我？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "放肆。你已经疯了么？",
+			say = "放肆。妳已經瘋了嗎？",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "没错~我已经疯了，整个世界都疯了！",
+			say = "沒錯~我已經瘋了，整個世界都瘋了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "在这个疯狂的世界中，只有疯狂才是正常，而正常的你们，与这里格格不入的令我反胃！",
+			say = "在這個瘋狂的世界中，只有瘋狂才是正常，而正常的妳們，與這裡格格不入的令我反胃！",
 			effects = {
 				{
 					active = true,
@@ -662,7 +662,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "消失吧！！！",
+			say = "消失吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啧、全员开火，在进一步对话之前，首先让这个疯子冷静一下！",
+			say = "嘖、全員開火，在進一步對話之前，首先讓這個瘋子冷靜一下！",
 			effects = {
 				{
 					active = false,

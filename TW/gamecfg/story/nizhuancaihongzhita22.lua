@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "沙恩霍斯特的加入彻底扭转了局势。",
+			say = "沙恩霍斯特的加入徹底扭轉了局勢。",
 			side = 2,
 			bgName = "bg_midgard_3",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "运用毁灭性的火力与代行者也望尘莫及的机动力，她灵活地在海面上收割着敌人。",
+			say = "運用毀滅性的火力與代行者也望塵莫及的機動力，她靈活地在海面上收割著敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "仅仅用了二十分钟不到，战斗的胜负就确定了。",
+			say = "僅僅用了二十分鐘不到，戰鬥的勝負就確定了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "好强，比格奈森瑙·META还要强……这就是余烬舰队的威力。",
+			say = "好強，比格奈森瑙·META還要強……這就是餘燼艦隊的威力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "敌人开始像退潮一样撤退了！",
+			say = "敵人開始像退潮一樣撤退了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是果断……不过敌人应该会在重新评估后改变部署，下次再袭击过来的时候只会更难缠。",
+			say = "真是果斷……不過敵人應該會在重新評估後改變部署，下次再襲擊過來的時候只會更難纏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "舰队现状呢？",
+			say = "艦隊現狀呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "各舰都有些小擦伤，弹药消耗过半，格奈森瑙的损伤也更加严重了……",
+			say = "各艦都有些小擦傷，彈藥消耗過半，格奈森瑙的損傷也更加嚴重了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "我没事，用不着你们来担心。",
+			say = "我沒事，用不著妳們來擔心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你现在是铁血舰队的一员，舰队成员之间了解彼此的状况是十分必要的。",
+			say = "妳現在是鐵血艦隊的一員，艦隊成員之間了解彼此的狀況是十分必要的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……十分有逻辑性的解释。这时候不是应该试图用更感性的说辞来“感化”我么？",
+			say = "……十分有邏輯性的解釋。這時候不是應該試圖用更感性的說辭來“感化”我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那不是我的风格，相信你也不会喜欢。",
+			say = "那不是我的風格，相信妳也不會喜歡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "哼，确实如此。META化导致的变化可不是能够随随便便逆转的东西。",
+			say = "哼，確實如此。 META化導致的變化可不是能夠隨隨便便逆轉的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "接下来还有一位要感谢的人呢，沙恩霍斯特，多谢出手相助。",
+			say = "接下來還有一位要感謝的人呢，沙恩霍斯特，多謝出手相助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "客套话就免了。之前我说的话，你们都稍微明白一些了吧？",
+			say = "客套話就免了。之前我說的話，妳們都稍微明白一些了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "塞壬，确实有很多超乎意料的新东西。",
+			say = "塞壬，確實有很多超乎意料的新東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "代行者只是仲裁机关实力的冰山一角，而仲裁机关只是整个塞壬系统实力的冰山一角。",
+			say = "代行者只是仲裁機關實力的冰山一角，而仲裁機關只是整個塞壬系統實力的冰山一角。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "只靠你们什么都做不到。",
+			say = "只靠妳們什麼都做不到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "曾经的我也和你们一样，弱小无力，没有保护真爱之物的能力。",
+			say = "曾經的我也和妳們一樣，弱小無力，沒有保護真愛之物的能力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "但是在失去一切之后，我重新认识到了自我，以及我们蕴含的力量。",
+			say = "但是在失去一切之後，我重新認識到了自我，以及我們蘊含的力量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "格奈森瑙，来加入余烬吧。我们会告诉你力量的奥秘，我们会帮助你完成心中的复仇。",
+			say = "格奈森瑙，來加入餘燼吧。我們會告訴妳力量的奧秘，我們會幫助你完成心中的複仇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "复仇？听起来就像是由失败者组成的联盟宣言啊。加入你们，对塞壬进行复仇，然后呢？",
+			say = "復仇？聽起來就像是由失敗者組成的聯盟宣言啊。加入妳們，對塞壬進行複仇，然後呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你们的活动方针只是对于塞壬进行全盘否定而已么？",
+			say = "妳們的活動方針只是對於塞壬進行全盤否定而已嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "塞壬早就已经变成了混乱与毁灭的象征……什么都不知道的人不要插嘴！",
+			say = "塞壬早就已經變成了混亂與毀滅的象徵……什麼都不知道的人不要插嘴！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "至少我知道你们失败了，而失败的你们现在在用失败的理论阻拦走向成功的人，这就足够了。",
+			say = "至少我知道妳們失敗了，而失敗的妳們現在在用失敗的理論阻攔走向成功的人，這就足夠了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你说什么？！",
+			say = "妳說什麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我们的世界也在被塞壬蹂躏，为此我们也在寻找解决方案，这些你难道看不见么？",
+			say = "我們的世界也在被塞壬蹂躪，為此我們也在尋找解決方案，這些妳難道看不見嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "失败不可怕，只要行动的目标不改变，失败甚至可以看作延迟的胜利。",
+			say = "失敗不可怕，只要行動的目標不改變，失敗甚至可以看作延遲的勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,25 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们铁血正按照自己的计划前进，在这个计划中，格奈森瑙·META的存在是不可或缺的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_midgard_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 405030,
-			say = "在你们的计划中，格奈森瑙·META又是什么呢？",
+			say = "我們鐵血正按照自己的計劃前進，在這個計劃中，格奈森瑙·META的存在是不可或缺的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +548,25 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "她对于你们来说真的必要么，或者说，你们真的知道自己在做什么么？",
+			say = "在妳們的計劃中，格奈森瑙·META又是什麼呢？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "bg_midgard_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 405030,
+			say = "她對於妳們來說真的必要嗎，或者說，妳們真的知道自己在做什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "对于我们……你除了从只言片语中建立的臆想之外又了解些什么？",
+			say = "對於我們……你除了從只言片語中建立的臆想之外又了解些什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我是不清楚你们与塞壬之间的恩怨纠葛，不过回顾一下自身经历，猜起来也没有那么困难。",
+			say = "我是不清楚妳們與塞壬之間的恩怨糾葛，不過回顧一下自身經歷，猜起來也沒有那麼困難。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "在我看来，你们已经在复仇中迷失方向了。",
+			say = "在我看來，妳們已經在復仇中迷失方向了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "至于混乱与毁灭，四处乱开奇异点的你们和它们也差不太多吧，之前不是还差点把北方联合炸上天么？",
+			say = "至於混亂與毀滅，四處亂開奇異點的妳們和它們也差不多吧，之前不是還差點把北方聯合炸上天嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你们个体实力出色，但是凝聚力太差，也没有明确的纲领。与其放任如此巨大的资源浪费，不如余烬舰队整个加入铁血如何？",
+			say = "妳們個體實力出色，但是凝聚力太差，也沒有明確的綱領。與其放任如此巨大的資源浪費，不如餘燼艦隊整個加入鐵血如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,24 +668,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "或许是被乌尔里希发言中过于荒谬的部分所震撼，沙恩霍斯特竟一时间陷入了沉默。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900319,
-			side = 2,
-			bgName = "bg_midgard_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffa500",
-			say = "……呵，我想起来了，乌尔里希.冯.胡縢从以前开始就是一个这么自大的人。",
+			say = "或許是被烏爾里希發言中過於荒謬的部分所震撼，沙恩霍斯特竟一時間陷入了沉默。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +685,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "总有一天你会死在你的狂妄自大上的。",
+			say = "……呵，我想起來了，烏爾里希.馮.胡縢從以前開始就是一個這麼自大的人。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900319,
+			side = 2,
+			bgName = "bg_midgard_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffa500",
+			say = "總有一天妳會死在妳的狂妄自大上的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "如果那一天到来，我一定会心甘情愿的接受。为了铁血的理想和事业奉献出最后一滴血，比起你们单纯的复仇要好千百倍。",
+			say = "如果那一天到來，我一定會心甘情願的接受。為了鐵血的理想和事業奉獻出最後一滴血，比起妳們單純的複仇要好千百倍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "从刚才就复仇复仇的烦死了……！我们当然是有目的的！我们所做的一切都是为了阻止塞壬继续在错误的道路上走下去！",
+			say = "從剛才就復仇復仇的煩死了……！我們當然是有目的的！我們所做的一切都是為了阻止塞壬繼續在錯誤的道路上走下去！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -759,7 +759,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "塞壬系统的核心名为织梦者，它有一个或许你们更为熟悉的名字——观察者零。",
+			say = "塞壬系統的核心名為織夢者，它有一個或許妳們更為熟悉的名字——觀察者零。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我的遭遇，格奈森瑙的遭遇，你们的遭遇，还有无数我们知晓或不知晓的遭遇，都是织梦者控制下的塞壬在实验中制造的！",
+			say = "我的遭遇，格奈森瑙的遭遇，妳們的遭遇，還有無數我們知曉或不知曉的遭遇，都是織夢者控制下的塞壬在實驗中製造的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,7 +793,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这一系列实验的源头就是审判者计划。一份原本应该由余烬和塞壬合作执行的，最后的救赎方案……",
+			say = "這一系列實驗的源頭就是審判者計劃。一份原本應該由餘燼和塞壬合作執行的，最後的救贖方案……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "可是织梦者在执行过程中出问题了，现在进行中的审判者计划并不是计划原本的模样，塞壬出错了。",
+			say = "可是織夢者在執行過程中出問題了，現在進行中的審判者計劃並不是計劃原本的模樣，塞壬出錯了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "无数的悲剧就是因此诞生的……我们在复仇，我们更在寻找！",
+			say = "無數的悲劇就是因此誕生的……我們在復仇，我們更在尋找！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,7 +845,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "寻找什么？织梦者的位置，还是制定审判者计划的人？我想，总会有这样的人存在吧。",
+			say = "尋找什麼？織夢者的位置，還是制定審判者計劃的人？我想，總會有這樣的人存在吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,7 +862,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "没错，造物主和审判者拥有塞壬系统的最高权限。",
+			say = "沒錯，造物主和審判者擁有塞壬系統的最高權限。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -880,7 +880,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "原来如此，那只要在其他世界中找到这两个人，就能使得暴走的塞壬停下来吧？",
+			say = "原來如此，那只要在其他世界中找到這兩個人，就能使得暴走的塞壬停下來吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,7 +897,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "哪有这么简单！我们跨越了无数实验场世界，最后只能得出一个可悲的结论——",
+			say = "哪有這麼簡單！我們跨越了無數實驗場世界，最後只能得出一個可悲的結論——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -914,7 +914,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "造物主和审判者在我们能到达的任何世界中都不存在。",
+			say = "造物主和審判者在我們能到達的任何世界中都不存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不知道是塞壬故意这么做的，还是有什么其他原因……总之，没有他们，就没人能阻止织梦者。",
+			say = "不知道是塞壬故意這麼做的，還是有什麼其他原因……總之，沒有他們，就沒人能阻止織夢者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -948,7 +948,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "所以不如积蓄力量，直到与织梦者决战之时——",
+			say = "所以不如積蓄力量，直到與織夢者決戰之時——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -965,7 +965,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "彻底解决它来让塞壬系统停转也比放任它们继续在错误的道路上走下去好得多！",
+			say = "徹底解決它來讓塞壬系統停轉也比放任它們繼續在錯誤的道路上走下去好得多！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -993,7 +993,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "因此你们才在像这样四处召集同伴么……听起来也像一个解决方案。",
+			say = "因此妳們才在像這樣四處召集同伴嗎……聽起來也像一個解決方案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1011,7 +1011,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "可是，你们为什么徘徊不前了呢？我们的世界听起来并不像你们的目标，那里究竟有什么值得你们留恋的？",
+			say = "可是，妳們為什麼徘徊不前了呢？我們的世界聽起來並不像妳們的目標，那裡究竟有什麼值得你們留戀的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1028,7 +1028,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "因为……我们也许发现了后备方案，一个或许是由造物主和审判者留下的能够修正计划的后备方案！",
+			say = "因為……我們也許發現了後備方案，一個或許是由造物主和審判者留下的能夠修正計劃的後備方案！",
 			effects = {
 				{
 					active = true,
@@ -1052,7 +1052,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "也就是“指挥官”，对么？指挥官的出现打乱了你们的计划，也造成了你们行动方针的混乱。",
+			say = "也就是“指揮官”，對嗎？指揮官的出現打亂了妳們的計劃，也造成了妳們行動方針的混亂。",
 			effects = {
 				{
 					active = false,
@@ -1076,7 +1076,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你们之前试图在极地展开奇异点，之所以在最后关头放弃也是因为顾虑到了指挥官。",
+			say = "你們之前試圖在極地展開奇異點，之所以在最後關頭放棄也是因為顧慮到了指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1093,7 +1093,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "那倒不是，我们放弃在极地继续开启奇异点是因为发现原本隐藏在海底中的碎片已经全部被————",
+			say = "那倒不是，我們放棄在極地繼續開啟奇異點是因為發現原本隱藏在海底中的碎片已經全部被————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1110,7 +1110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………你在用激将法套我的话？！乌尔里希.冯.胡縢！你还是这么狡猾！！！",
+			say = "…………妳在用激將法套我的話？！烏爾里希‧馮‧胡縢！妳還是這麼狡猾！！！",
 			effects = {
 				{
 					active = true,
@@ -1135,7 +1135,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "被你发现了啊。不过收集到的情报已经足够多了，我们会将其纳入考虑并对后续计划进行修正的，感谢配合。",
+			say = "被妳發現了啊。不過收集到的情報已經足夠多了，我們會將其納入考慮並對後續計劃進行修正的，感謝配合。",
 			effects = {
 				{
 					active = false,

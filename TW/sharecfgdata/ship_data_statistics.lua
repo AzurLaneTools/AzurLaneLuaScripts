@@ -54521,7 +54521,8 @@ _G.pg.base.ship_data_statistics[107091] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -54646,7 +54647,8 @@ _G.pg.base.ship_data_statistics[107092] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -54771,7 +54773,8 @@ _G.pg.base.ship_data_statistics[107093] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -54896,7 +54899,8 @@ _G.pg.base.ship_data_statistics[107094] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -55021,7 +55025,8 @@ _G.pg.base.ship_data_statistics[107111] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -55146,7 +55151,8 @@ _G.pg.base.ship_data_statistics[107112] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -55271,7 +55277,8 @@ _G.pg.base.ship_data_statistics[107113] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -55396,7 +55403,8 @@ _G.pg.base.ship_data_statistics[107114] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -55521,7 +55529,8 @@ _G.pg.base.ship_data_statistics[107141] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -55646,7 +55655,8 @@ _G.pg.base.ship_data_statistics[107142] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -55771,7 +55781,8 @@ _G.pg.base.ship_data_statistics[107143] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -55896,7 +55907,8 @@ _G.pg.base.ship_data_statistics[107144] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -56021,7 +56033,8 @@ _G.pg.base.ship_data_statistics[107171] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -56146,7 +56159,8 @@ _G.pg.base.ship_data_statistics[107172] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -56271,7 +56285,8 @@ _G.pg.base.ship_data_statistics[107173] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -56396,7 +56411,8 @@ _G.pg.base.ship_data_statistics[107174] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -58021,7 +58037,8 @@ _G.pg.base.ship_data_statistics[107381] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -58146,7 +58163,8 @@ _G.pg.base.ship_data_statistics[107382] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -58271,7 +58289,8 @@ _G.pg.base.ship_data_statistics[107383] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -58396,7 +58415,8 @@ _G.pg.base.ship_data_statistics[107384] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -188123,6 +188143,518 @@ _G.pg.base.ship_data_statistics[402054] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[402061] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "馬德堡",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 402060,
+	english_name = "KMS Magdeburg",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.23",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 402061,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		630,
+		35,
+		58,
+		72,
+		0,
+		75,
+		0,
+		55,
+		31,
+		36,
+		50,
+		36
+	},
+	attrs_growth = {
+		16006,
+		478,
+		776,
+		1494,
+		0,
+		523,
+		0,
+		838,
+		721,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		231
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.3,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"M1"
+	}
+}
+
+_G.pg.base.ship_data_statistics[402062] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "馬德堡",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 402060,
+	english_name = "KMS Magdeburg",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.23",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 402062,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		784,
+		44,
+		72,
+		90,
+		0,
+		75,
+		0,
+		55,
+		31,
+		36,
+		50,
+		45
+	},
+	attrs_growth = {
+		16006,
+		478,
+		776,
+		1494,
+		0,
+		523,
+		0,
+		838,
+		721,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		232
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.3,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"M1"
+	}
+}
+
+_G.pg.base.ship_data_statistics[402063] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "馬德堡",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 402060,
+	english_name = "KMS Magdeburg",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.23",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 402063,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1091,
+		61,
+		101,
+		125,
+		0,
+		75,
+		0,
+		55,
+		31,
+		36,
+		50,
+		62
+	},
+	attrs_growth = {
+		16006,
+		478,
+		776,
+		1494,
+		0,
+		523,
+		0,
+		838,
+		721,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		233
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.3,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"M1"
+	}
+}
+
+_G.pg.base.ship_data_statistics[402064] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "馬德堡",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 402060,
+	english_name = "KMS Magdeburg",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.23",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 402064,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1552,
+		86,
+		145,
+		178,
+		0,
+		75,
+		0,
+		55,
+		31,
+		36,
+		50,
+		89
+	},
+	attrs_growth = {
+		16006,
+		478,
+		776,
+		1494,
+		0,
+		523,
+		0,
+		838,
+		721,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		234
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.35,
+		1.2,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"M1"
+	}
+}
+
 _G.pg.base.ship_data_statistics[403011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -191703,6 +192235,514 @@ _G.pg.base.ship_data_statistics[403094] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[403101] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "阿達爾貝特親王",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 403100,
+	english_name = "KMS Prinz Adalbert",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 403101,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1033,
+		56,
+		47,
+		40,
+		0,
+		67,
+		0,
+		46,
+		11,
+		26.4,
+		50,
+		0
+	},
+	attrs_growth = {
+		26244,
+		747,
+		650,
+		879,
+		0,
+		467,
+		0,
+		683,
+		432,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		331
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.4,
+		1,
+		0.4
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"P2"
+	}
+}
+
+_G.pg.base.ship_data_statistics[403102] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "阿達爾貝特親王",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 403100,
+	english_name = "KMS Prinz Adalbert",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 403102,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1285,
+		70,
+		59,
+		50,
+		0,
+		67,
+		0,
+		46,
+		11,
+		26.4,
+		50,
+		0
+	},
+	attrs_growth = {
+		26244,
+		747,
+		650,
+		879,
+		0,
+		467,
+		0,
+		683,
+		432,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		447
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.4,
+		1,
+		0.4
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"P2"
+	}
+}
+
+_G.pg.base.ship_data_statistics[403103] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "阿達爾貝特親王",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 403100,
+	english_name = "KMS Prinz Adalbert",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 403103,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1789,
+		97,
+		82,
+		70,
+		0,
+		67,
+		0,
+		46,
+		11,
+		26.4,
+		50,
+		0
+	},
+	attrs_growth = {
+		26244,
+		747,
+		650,
+		879,
+		0,
+		467,
+		0,
+		683,
+		432,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		447
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.4,
+		1,
+		0.4
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"P2"
+	}
+}
+
+_G.pg.base.ship_data_statistics[403104] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "阿達爾貝特親王",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 403100,
+	english_name = "KMS Prinz Adalbert",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 403104,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2544,
+		139,
+		117,
+		99,
+		0,
+		67,
+		0,
+		46,
+		11,
+		26.4,
+		50,
+		0
+	},
+	attrs_growth = {
+		26244,
+		747,
+		650,
+		879,
+		0,
+		467,
+		0,
+		683,
+		432,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		447
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.4,
+		1,
+		0.4
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"P2"
+	}
+}
+
 _G.pg.base.ship_data_statistics[403131] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -194215,6 +195255,506 @@ _G.pg.base.ship_data_statistics[405024] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[405031] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "烏爾里希·馮·胡滕",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 405030,
+	english_name = "KMS Ulrich von Hutten",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 405031,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1573,
+		86,
+		0,
+		47,
+		0,
+		65,
+		0,
+		23,
+		8,
+		30,
+		50,
+		0
+	},
+	attrs_growth = {
+		42868,
+		1046,
+		0,
+		1024,
+		0,
+		454,
+		0,
+		345,
+		150,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		2.1,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H39"
+	}
+}
+
+_G.pg.base.ship_data_statistics[405032] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "烏爾里希·馮·胡滕",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 405030,
+	english_name = "KMS Ulrich von Hutten",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 405032,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1957,
+		107,
+		0,
+		59,
+		0,
+		65,
+		0,
+		23,
+		8,
+		30,
+		50,
+		0
+	},
+	attrs_growth = {
+		42868,
+		1046,
+		0,
+		1024,
+		0,
+		454,
+		0,
+		345,
+		150,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2.1,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H39"
+	}
+}
+
+_G.pg.base.ship_data_statistics[405033] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "烏爾里希·馮·胡滕",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 405030,
+	english_name = "KMS Ulrich von Hutten",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 405033,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2724,
+		150,
+		0,
+		82,
+		0,
+		65,
+		0,
+		23,
+		8,
+		30,
+		50,
+		0
+	},
+	attrs_growth = {
+		42868,
+		1046,
+		0,
+		1024,
+		0,
+		454,
+		0,
+		345,
+		150,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		2.1,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H39"
+	}
+}
+
+_G.pg.base.ship_data_statistics[405034] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "烏爾里希·馮·胡滕",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 405030,
+	english_name = "KMS Ulrich von Hutten",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 405034,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3874,
+		214,
+		0,
+		116,
+		0,
+		65,
+		0,
+		23,
+		8,
+		30,
+		50,
+		0
+	},
+	attrs_growth = {
+		42868,
+		1046,
+		0,
+		1024,
+		0,
+		454,
+		0,
+		345,
+		150,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.55,
+		2.1,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H39"
+	}
+}
+
 _G.pg.base.ship_data_statistics[406011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -194708,6 +196248,502 @@ _G.pg.base.ship_data_statistics[406014] = {
 	},
 	tag_list = {
 		"Weser"
+	}
+}
+
+_G.pg.base.ship_data_statistics[406021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "易北",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 406020,
+	english_name = "KMS Elbe",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 406021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		820,
+		0,
+		0,
+		50,
+		62,
+		68,
+		0,
+		28,
+		17,
+		21,
+		30,
+		17
+	},
+	attrs_growth = {
+		22342,
+		0,
+		0,
+		1088,
+		811,
+		475,
+		0,
+		431,
+		357,
+		0,
+		0,
+		215
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		121,
+		123,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.25,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Elbe"
+	}
+}
+
+_G.pg.base.ship_data_statistics[406022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "易北",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 406020,
+	english_name = "KMS Elbe",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 406022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1020,
+		0,
+		0,
+		62,
+		77,
+		68,
+		0,
+		28,
+		17,
+		21,
+		30,
+		21
+	},
+	attrs_growth = {
+		22342,
+		0,
+		0,
+		1088,
+		811,
+		475,
+		0,
+		431,
+		357,
+		0,
+		0,
+		215
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		121,
+		123,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.25,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Elbe"
+	}
+}
+
+_G.pg.base.ship_data_statistics[406023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "易北",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 406020,
+	english_name = "KMS Elbe",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 406023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1420,
+		0,
+		0,
+		87,
+		108,
+		68,
+		0,
+		28,
+		17,
+		21,
+		30,
+		30
+	},
+	attrs_growth = {
+		22342,
+		0,
+		0,
+		1088,
+		811,
+		475,
+		0,
+		431,
+		357,
+		0,
+		0,
+		215
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		121,
+		123,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.25,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Elbe"
+	}
+}
+
+_G.pg.base.ship_data_statistics[406024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "易北",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 406020,
+	english_name = "KMS Elbe",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 406024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2019,
+		0,
+		0,
+		124,
+		154,
+		68,
+		0,
+		28,
+		17,
+		21,
+		30,
+		43
+	},
+	attrs_growth = {
+		22342,
+		0,
+		0,
+		1088,
+		811,
+		475,
+		0,
+		431,
+		357,
+		0,
+		0,
+		215
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		121,
+		123,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.35,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Elbe"
 	}
 }
 
@@ -207271,6 +209307,990 @@ _G.pg.base.ship_data_statistics[408114] = {
 			{
 				3,
 				0
+			}
+		}
+	},
+	tag_list = {
+		"U-boat"
+	}
+}
+
+_G.pg.base.ship_data_statistics[408121] = {
+	raid_distance = 30,
+	oxy_max = 198,
+	name = "U-1206",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 408120,
+	english_name = "KMS U-1206",
+	attack_duration = 5,
+	star = 2,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 1,
+	id = 408121,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		203,
+		8,
+		96,
+		0,
+		0,
+		31,
+		0,
+		60,
+		7,
+		18,
+		20,
+		0
+	},
+	attrs_growth = {
+		5777,
+		117,
+		1154,
+		0,
+		0,
+		214,
+		0,
+		888,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.05,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-3,
+				-3
+			},
+			{
+				-2,
+				-3
+			},
+			{
+				-2,
+				-2
+			},
+			{
+				-1,
+				-3
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				0,
+				-3
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				1,
+				-3
+			},
+			{
+				1,
+				-2
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				-2
+			},
+			{
+				3,
+				-3
+			}
+		},
+		{
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				3,
+				-1
+			},
+			{
+				3,
+				0
+			}
+		},
+		{
+			{
+				-3,
+				-2
+			},
+			{
+				3,
+				-2
+			}
+		}
+	},
+	tag_list = {
+		"U-boat"
+	}
+}
+
+_G.pg.base.ship_data_statistics[408122] = {
+	raid_distance = 30,
+	oxy_max = 198,
+	name = "U-1206",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 408120,
+	english_name = "KMS U-1206",
+	attack_duration = 5,
+	star = 3,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 1,
+	id = 408122,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		252,
+		10,
+		120,
+		0,
+		0,
+		31,
+		0,
+		60,
+		7,
+		18,
+		20,
+		0
+	},
+	attrs_growth = {
+		5777,
+		117,
+		1154,
+		0,
+		0,
+		214,
+		0,
+		888,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.1,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-3,
+				-3
+			},
+			{
+				-2,
+				-3
+			},
+			{
+				-2,
+				-2
+			},
+			{
+				-1,
+				-3
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				0,
+				-3
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				1,
+				-3
+			},
+			{
+				1,
+				-2
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				-2
+			},
+			{
+				3,
+				-3
+			}
+		},
+		{
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				3,
+				-1
+			},
+			{
+				3,
+				0
+			}
+		},
+		{
+			{
+				-3,
+				-2
+			},
+			{
+				3,
+				-2
+			}
+		}
+	},
+	tag_list = {
+		"U-boat"
+	}
+}
+
+_G.pg.base.ship_data_statistics[408123] = {
+	raid_distance = 30,
+	oxy_max = 198,
+	name = "U-1206",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 408120,
+	english_name = "KMS U-1206",
+	attack_duration = 5,
+	star = 4,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 2,
+	id = 408123,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		351,
+		14,
+		168,
+		0,
+		0,
+		31,
+		0,
+		60,
+		7,
+		18,
+		20,
+		0
+	},
+	attrs_growth = {
+		5777,
+		117,
+		1154,
+		0,
+		0,
+		214,
+		0,
+		888,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.1,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-3,
+				-3
+			},
+			{
+				-2,
+				-3
+			},
+			{
+				-2,
+				-2
+			},
+			{
+				-1,
+				-3
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				0,
+				-3
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				1,
+				-3
+			},
+			{
+				1,
+				-2
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				-2
+			},
+			{
+				3,
+				-3
+			}
+		},
+		{
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				3,
+				-1
+			},
+			{
+				3,
+				0
+			}
+		},
+		{
+			{
+				-3,
+				-2
+			},
+			{
+				3,
+				-2
+			}
+		}
+	},
+	tag_list = {
+		"U-boat"
+	}
+}
+
+_G.pg.base.ship_data_statistics[408124] = {
+	raid_distance = 30,
+	oxy_max = 198,
+	name = "U-1206",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 408120,
+	english_name = "KMS U-1206",
+	attack_duration = 5,
+	star = 5,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 2,
+	id = 408124,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		500,
+		21,
+		239,
+		0,
+		0,
+		31,
+		0,
+		60,
+		7,
+		18,
+		20,
+		0
+	},
+	attrs_growth = {
+		5777,
+		117,
+		1154,
+		0,
+		0,
+		214,
+		0,
+		888,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.2,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-3,
+				-3
+			},
+			{
+				-2,
+				-3
+			},
+			{
+				-2,
+				-2
+			},
+			{
+				-1,
+				-3
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				0,
+				-3
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				1,
+				-3
+			},
+			{
+				1,
+				-2
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				-2
+			},
+			{
+				3,
+				-3
+			}
+		},
+		{
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				3,
+				-1
+			},
+			{
+				3,
+				0
+			}
+		},
+		{
+			{
+				-3,
+				-2
+			},
+			{
+				3,
+				-2
 			}
 		}
 	},
@@ -272964,7 +275984,8 @@ _G.pg.base.ship_data_statistics[900343] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 
@@ -273089,7 +276110,8 @@ _G.pg.base.ship_data_statistics[900344] = {
 		{}
 	},
 	tag_list = {
-		"Essex-Class"
+		"Essex-Class",
+		"Essex-Class-No-Yorktown"
 	}
 }
 

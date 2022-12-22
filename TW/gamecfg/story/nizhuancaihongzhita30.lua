@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "乌尔里希阁下，一支执行者IV型舰队从侧面过来了。",
+			say = "烏爾里希閣下，一支執行者IV型艦隊從側面過來了。",
 			bgm = "battle-midgard-hunting",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "数量不多，不难应对。",
+			say = "數量不多，不難應對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "格奈森瑙带着沙恩霍斯特与我继续前进，其余人交替掩护断后。",
+			say = "格奈森瑙帶著沙恩霍斯特與我繼續前進，其餘人交替掩護斷後。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "铁血众人",
+			actorName = "鐵血眾人",
 			hidePaintObj = true,
 			dir = 1,
 			say = "是！",

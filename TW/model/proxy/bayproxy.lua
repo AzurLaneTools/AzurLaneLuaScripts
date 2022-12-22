@@ -118,32 +118,42 @@ function slot0.buildHandbookTypeAssign(slot0)
 end
 
 function slot0.recoverAllShipEnergy(slot0)
-	slot1 = getProxy(DormProxy)
-	slot2 = pg.energy_template[4].lower_bound - 2
-	slot3 = pg.energy_template[4].upper_bound
+	slot1 = pg.energy_template[3].upper_bound
+	slot2 = pg.energy_template[4].upper_bound
+	slot3 = {}
+	slot4 = getProxy(ActivityProxy)
 
-	for slot7, slot8 in pairs(slot0.data) do
-		if slot8.state == Ship.STATE_REST or slot8.state == Ship.STATE_TRAIN then
-			slot10 = slot8:getRecoverEnergyPoint() + Ship.BACKYARD_1F_ENERGY_ADDITION
+	table.Foreach(slot4:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING), function (slot0, slot1)
+		if slot1 and not slot1:isEnd() then
+			slot2 = slot1:getConfig("config_data")[1][4]
 
-			if slot8.state == Ship.STATE_REST then
-				slot10 = slot9 + Ship.BACKYARD_2F_ENERGY_ADDITION
+			_.each(slot1:getData1List(), function (slot0)
+				uv0[slot0] = (uv0[slot0] or 0) + uv1
+			end)
+		end
+	end)
+
+	for slot8, slot9 in pairs(slot0.data) do
+		slot10 = slot9:getRecoverEnergyPoint()
+		slot11 = slot1
+
+		if slot9.state == Ship.STATE_REST or slot9.state == Ship.STATE_TRAIN then
+			if slot9.state == Ship.STATE_TRAIN then
+				slot10 = slot10 + Ship.BACKYARD_1F_ENERGY_ADDITION
+			elseif slot9.state == Ship.STATE_REST then
+				slot10 = slot10 + Ship.BACKYARD_2F_ENERGY_ADDITION
 			end
 
-			if slot3 > slot8.energy + slot10 then
-				slot8:addEnergy(slot10)
-			else
-				slot8:setEnergy(slot3)
-			end
-		elseif slot2 > slot8.energy + slot8:getRecoverEnergyPoint() then
-			slot8:addEnergy(slot8:getRecoverEnergyPoint())
-		elseif slot2 < slot8.energy then
-			slot8:setEnergy(slot8.energy)
-		else
-			slot8:setEnergy(slot2)
+			slot11 = slot2
 		end
 
-		slot0:updateShip(slot8)
+		if slot3[slot9.id] then
+			slot10 = slot10 + slot3[slot9.id]
+			slot11 = slot2
+		end
+
+		slot9:setEnergy(math.min(slot9:getEnergy() + slot10, slot11))
+		slot0:updateShip(slot9)
 	end
 end
 
@@ -1083,6 +1093,19 @@ function slot0.getGroupPropose(slot0, slot1)
 	end
 
 	return slot2
+end
+
+function slot0.CanUseShareSkinShips(slot0, slot1)
+	slot5 = pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[pg.ship_skin_template[slot1].ship_group][1]].share_group_id
+	slot6 = {}
+
+	for slot11, slot12 in pairs(slot0:getRawData()) do
+		if table.contains(slot5, slot12.groupId) and slot12:GetNoProposeIntimacyMax() <= math.floor(slot12:getIntimacy() / 100) then
+			table.insert(slot6, slot12)
+		end
+	end
+
+	return slot6
 end
 
 return slot0

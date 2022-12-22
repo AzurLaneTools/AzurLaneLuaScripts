@@ -16,7 +16,7 @@ return {
 			actor = 9704010,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "…………全员警戒。",
+			say = "…………全員警戒。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "怎么了，你发现什么了么？",
+			say = "怎麼了，妳發現什麼了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "你们难道没感觉到么，这里的不寻常之处……",
+			say = "妳們難道沒感覺到嗎，這裡的不尋常之處……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊？周围还是和之前一样充满残骸，雷达和侦察机也没看到值得注意的目标。",
+			say = "啊？周圍還是和之前一樣充滿殘骸，雷達和偵察機也沒看到值得注意的目標。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "那就让你的侦察机再看仔细点！",
+			say = "那就讓妳的偵察機再看仔細點！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你听起来有些急躁，究竟发生什么事了？",
+			say = "妳聽起來有些急躁，究竟發生什麼事了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "这里的残骸不是我做的。",
+			say = "這裡的殘骸不是我做的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "额……来到这里的时候一路上都是残骸，可能是其他人做的吧。",
+			say = "呃……來到這裡的時候一路上都是殘骸，可能是其他人做的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "哈啊？！那么夸张的残骸都是你留下的？",
+			say = "哈啊？！那麼誇張的殘骸都是妳留下的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "海域里除了你们之外，我已经有段时间没见到其他人了。",
+			say = "海域裡除了妳們之外，我已經有段時間沒見到其他人了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不对吧，我们之前还遇到了一支小规模的东煌舰队呢！",
+			say = "不對吧，我們之前還遇到了一支小規模的東煌艦隊呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "东煌舰队？没见过呢……",
+			say = "東煌艦隊？沒見過呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "也可能是在特意躲着我走的吧……呵，她们居然还没放弃。",
+			say = "也可能是在特意躲著我走的吧……呵，她們居然還沒放棄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "放弃什么？",
+			say = "放棄什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "没什么……反正看现在的情况也能明白，不管曾经是什么现在都已经失败了。",
+			say = "沒什麼……反正看現在的情況也能明白，不管曾經是什麼現在都已經失敗了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "不过东煌舰队啊………果然还是不对，东煌舰队并不喜欢使用大口径火炮，这些残骸不是她们的风格。",
+			say = "不過東煌艦隊啊………果然還是不對，東煌艦隊並不喜歡使用大口徑火炮，這些殘骸不是她們的風格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "格奈森瑙，你的直觉没错……这片海域里确实还有其他什么东西！",
+			say = "格奈森瑙，妳的直覺沒錯……這片海域裡確實還有其他什麼東西！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "我又仔细地分析了一下回传的图像，在距离我们很近的地方发现了一个几乎静止的目标……但雷达根本完全没有反应！",
+			say = "我又仔細地分析了一下回傳的圖像，在距離我們很近的地方發現了一個幾乎靜止的目標……但雷達根本完全沒有反應！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "看来谜团解决，这里是另一个META做的。",
+			say = "看來謎團解決，這裡是另一個META做的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这片海域里也没有你想象中的那么冷清嘛？",
+			say = "這片海域裡也沒有妳想像中的那麼冷清嘛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "怪了……今天这是吹了什么风……一个接一个都是从哪儿冒出来的。",
+			say = "怪了……今天這是吹了什麼風……一個接一個都是從哪裡冒出來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "从外表来看，难道是沙恩霍斯特·META？！",
+			say = "從外表來看，難道是沙恩霍斯特·META？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "出现在这片海域里的沙恩霍斯特……是你的熟人么？",
+			say = "出現在這片海域裡的沙恩霍斯特……是妳的熟人嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "不认识。这里的铁血舰队早就已经不复存在了…………",
+			say = "不認識。這裡的鐵血艦隊早就已經不復存在了…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "原来如此。",
+			say = "原來如此。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "目标也发现我们了，正在向我们缓缓驶来。",
+			say = "目標也發現我們了，正在向我們緩緩駛來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "有谈话意愿的余烬可真难得。正好，多多益善，就让我们去会一会吧。",
+			say = "有談話意願的餘燼可真難得。正好，多多益善，就讓我們去會一會吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

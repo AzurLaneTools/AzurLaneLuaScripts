@@ -12,6 +12,7 @@ slot0.ON_CHAT_MSG_UPDATE = "NewMainScene:ON_CHAT_MSG_UPDATE"
 slot0.ON_STOP_PAITING_VOICE = "NewMainScene:ON_STOP_PAITING_VOICE"
 slot0.ON_ACT_BTN_UPDATE = "NewMainScene:ON_ACT_BTN_UPDATE"
 slot0.ON_ZERO_HOUR = "NewMainScene:ON_ZERO_HOUR"
+slot0.ON_BUFF_UPDATE = "NewMainScene:ON_BUFF_UPDATE"
 
 function slot0.getUIName(slot0)
 	return "NewMainUI"

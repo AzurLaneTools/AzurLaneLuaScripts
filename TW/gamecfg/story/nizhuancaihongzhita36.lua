@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "PH港·指挥室",
+			say = "PH港·指揮室",
 			side = 2,
 			bgName = "bg_luoxuan_1",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "这份、这份、还有这份……",
+			say = "這份、這份、還有這份……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真是的，那地方到底在搞些什么啊！",
+			say = "真是的，那地方到底在搞些什麼啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "萨拉妹妹可是急的都要掉头发了！",
+			say = "薩拉妹妹可是急的都要掉頭髮了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			say = "通讯中的萨拉托加正一边抱怨着，一边在文件堆中翻找着。",
+			say = "通訊中的薩拉托加正一邊抱怨著，一邊在文件堆中翻找著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			say = "堆成小山一样的文件一副摇摇欲坠的样子，似乎随时都能把连续加班了几个昼夜的萨拉托加埋在下面。",
+			say = "堆成小山一樣的文件一副搖搖欲墜的樣子，似乎隨時都能把連續加班了幾個晝夜的薩拉托加埋在下面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			say = "不过我这边的情况也好不多少就是了。",
+			say = "不過我這邊的情況也好不了太多就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			say = "铁血舰队在近期的神秘动作与南帕克菲克洋中突然出现的短暂异常气象……二者之间肯定有所关联。",
+			say = "鐵血艦隊在近期的神秘動作與南太平洋中突然出現的短暫異常氣象……二者之間肯定有所關聯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,45 +157,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			say = "不过就算分析了手头获取的一切情报，整个事件还是充满谜团。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_luoxuan_1",
-			expression = 1,
-			dir = 1,
-			actor = 107030,
-			nameColor = "#a9f548",
-			hidePaintObj = true,
-			say = "至少我们已经确定了事件发生的大致海域，想办法弄到了那个巨大装置的模糊照片。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_luoxuan_1",
-			expression = 4,
-			dir = 1,
-			actor = 107030,
-			nameColor = "#a9f548",
-			hidePaintObj = true,
-			say = "还有基本确定了任务是由一支乌尔里希·冯·胡縢带领的舰队和一支彼得·史特拉塞带领的舰队协作完成的。",
+			say = "不過就算分析了手頭獲取的一切情報，整個事件還是充滿謎團。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +176,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "就是那个装置的作用以及铁血舰队的具体任务实在是调查不出来！",
+			say = "至少我們已經確定了事件發生的大致海域，想辦法弄到了那個巨大裝置的模糊照片。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,40 +195,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "肯定和铁血最近换了加密方式有关……！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_luoxuan_1",
-			say = "和安塔迪卡科考站的通讯恢复了么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_luoxuan_1",
-			expression = 4,
-			dir = 1,
-			actor = 107030,
-			nameColor = "#a9f548",
-			hidePaintObj = true,
-			say = "已经恢复了！那边也确认当时在南帕克菲克洋中确实出现了“指数惊人”的能量爆发。",
+			say = "還有基本確定了任務是由一支烏爾里希·馮·胡縢帶領的艦隊和一支彼得·史特拉塞帶領的艦隊協作完成的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,25 +214,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "还好距离科考站还有一些距离，不然就不只是通讯中断这种小事了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 107030,
-			say = "稍等哦指挥官，有指挥部发来的紧急联络——————",
+			say = "就是那個裝置的作用以及鐵血艦隊的具體任務實在是調查不出來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +233,96 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……哎，等等，这个是什么呀？？！！而且给指挥官的联络为什么会发到指挥部啊？！",
+			say = "肯定和鐵血最近換了加密方式有關……！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_luoxuan_1",
+			say = "和南極科研站的通訊恢復了嗎？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_luoxuan_1",
+			expression = 4,
+			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "已經恢復了！那邊也確認當時在南太平洋中確實出現了“指數驚人”的能量爆發。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_luoxuan_1",
+			expression = 1,
+			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "還好距離科研站還有一些距離，不然就不只是通訊中斷這種小事了……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_luoxuan_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 107030,
+			say = "稍等哦指揮官，有指揮部發來的緊急聯絡——————",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_luoxuan_1",
+			expression = 4,
+			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "……哎，等等，這個是什麼呀？？！！而且給指揮官的聯絡為什麼會發到指揮部啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……北方联合就是这么发的……？！真是……无法理解。",
+			say = "……北方聯合就是這麼發的……？！真是……無法理解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "立刻致电圣彼得伯格司令部，我们需要一个解释！",
+			say = "立刻致電聖彼得堡司令部，我們需要一個解釋！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			},
 			options = {
 				{
-					content = "发生什么事了？",
+					content = "發生什麼事了？",
 					flag = 1
 				}
 			}
@@ -405,7 +405,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……我们的北方联合盟友似乎把指挥部的联络方式和指挥官的私人邮箱“弄混”了。",
+			say = "……我們的北方聯合盟友似乎把指揮部的聯絡方式和指揮官的私人信箱“弄混”了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "从联络的内容上来看……指挥官，近期NY司令部可能需要你回来开个会了……",
+			say = "從聯絡的內容上來看……指揮官，近期NY司令部可能需要你回來開個會了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,35 +438,35 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「你好，同志。」</size>",
+					"<size=51>「你好，同志。」</size> ",
 					1
 				},
 				{
-					"<size=51>「不知道你现在过的如何。」</size>",
+					"<size=51>「不知道你現在過的如何。」</size> ",
 					2
 				},
 				{
-					"<size=51>「虽然有很多话想说，不过我还是直奔主题吧。」</size>",
+					"「雖然有很多話想說，不過我還是直奔主題吧。」",
 					3
 				},
 				{
-					"<size=51>「碧蓝航线的支援物资成功扭转了局势。」</size> ",
+					"「碧藍航線的支援物資成功扭轉了局勢。」",
 					4
 				},
 				{
-					"<size=51>「是的，我想是时候了。」</size> ",
+					"<size=51>「是的，我想是時候了。」</size> ",
 					5
 				},
 				{
-					"<size=51>「很快，北方联舰队将对铁血发起报复行动。」</size> ",
+					"「很快，北方聯艦隊將對鐵血發起報復行動。」",
 					6
 				},
 				{
-					"<size=51>「届时，你会参与么？」</size> ",
+					"<size=51>「屆時，你會參與嗎？」</size> ",
 					7
 				},
 				{
-					"<size=51>「静候佳音——苏维埃同盟」</size> ",
+					"<size=51>「靜候佳音——蘇維埃聯盟」</size> ",
 					8
 				}
 			}

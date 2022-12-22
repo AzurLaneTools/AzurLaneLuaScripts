@@ -95,6 +95,14 @@ function slot2.handleCoolDown(slot0)
 	slot0._reloadBoostList = {}
 end
 
+function slot2.FlushReloadMax(slot0, slot1)
+	if uv0.super.FlushReloadMax(slot0, slot1) then
+		return true
+	end
+
+	slot0._playerTorpedoVO:RefreshReloadingBar()
+end
+
 function slot2.FlushReloadRequire(slot0)
 	if uv0.super.FlushReloadRequire(slot0) then
 		return true

@@ -5237,7 +5237,11 @@ _G.pg.base.gametip.intimacy_desc_day = {
 }
 
 _G.pg.base.gametip.word_propose_cost_tip1 = {
-	tip = "誓約需要消耗<color=#92fc63>1</color>頂誓約之冠（當前擁有<color=#92fc63>$1</color>頂）\n\n<size=32>*誓約後角色獲得<color=#92fc63>3%</color>屬性加成<color=#ff5c5c>但無法更名</color></size>"
+	tip = [[
+誓約需要消耗<color=#92fc63>1</color>頂誓約之冠（當前擁有<color=#92fc63>$1</color>頂）
+
+<size=32>*誓約後角色獲得<color=#92fc63>3%</color>屬性加成<color=#ff5c5c>但無法更名</color></size>
+<size=32>*誓約后角色將自動鎖定</size>]]
 }
 
 _G.pg.base.gametip.word_propose_cost_tip2 = {
@@ -9634,7 +9638,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "萊莎琳·斯托特、派翠夏·阿貝爾海姆、莉拉·德西亞斯、賽莉·古勞斯 建造機率UP！"
+	tip = "烏爾里希·馮·胡騰、阿達爾貝特親王、易北 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -13482,6 +13486,10 @@ _G.pg.base.gametip["3match_tip"] = {
 
 _G.pg.base.gametip.retire_selectzero = {
 	tip = "沒找到符合條件的艦船"
+}
+
+_G.pg.base.gametip.retire_marry_skin = {
+	tip = "$1換裝已被重置"
 }
 
 _G.pg.base.gametip.undermist_tip = {
@@ -18814,6 +18822,33 @@ _G.pg.base.gametip.Settings_title_Redeem_input_placeholder = {
 	tip = "僅限英語數字組合"
 }
 
+_G.pg.base.gametip.CurlingGame_tips1 = {
+	tip = {
+		{
+			info = [[
+活動規則：
+1.<color=#92fc63>12月28日</color>為止每日0點開放<color=#92fc63>1</color>場新遊戲，總計<color=#92fc63>7</color>場，可累計。完成7場遊戲可以獲得包括南安普敦限定造型在內的豐富獎勵。
+遊戲規則：
+1.每局遊戲由三小局組成，最終得分為三小局的分數和
+2.按住左側肌肉指揮喵可進行蓄力，上下移動可改變冰球發射的方向；鬆開後將會發射冰壺。冰壺碰到障礙則會根據碰撞角度進行反彈，<color=#92fc63>反彈時獲得額外積分</color>
+3.將冰壺發射至冰面上的圈內可獲得積分，藍色區域1000分，黃色區域2000分，紅色區域3000分；不在圈內不得分
+4.完成遊戲或點擊遊戲內退出按鈕均視為遊戲完成。因為其他原因中途退出遊戲則視為未完成。 ]]
+		}
+	}
+}
+
+_G.pg.base.gametip.maid_task_tips1 = {
+	tip = {
+		{
+			info = [[
+活動期間每日可解鎖2個任務，12月28日可解鎖全部任務
+1.完成「碳酸與紅茶」活動全部任務可獲得限定傢俱「皇家午茶」&「萊茵咖啡館」
+2.<color=#ff5c5c>完成第1至6日的活動任務時可獲得建築升級道具</color>，使用建築升級道具可於新年祝福頁面升級皇家午茶和萊茵咖啡館建築，升級建築可提升從中獲得的加成效果
+3.<color=#92fc63>第7日也許還會有隱藏任務出現？ </color>]]
+		}
+	}
+}
+
 _G.pg.base.gametip.shop_diamond_title = {
 	tip = "購買鑽石"
 }
@@ -18828,6 +18863,87 @@ _G.pg.base.gametip.shop_item_title = {
 
 _G.pg.base.gametip.shop_charge_level_limit = {
 	tip = "級解鎖"
+}
+
+_G.pg.base.gametip.backhill_cantupbuilding = {
+	tip = "必須先升級<color=#92fc63>$1</color>才能繼續升級哦"
+}
+
+_G.pg.base.gametip.pray_cant_tips = {
+	tip = "在繪馬祈願中懸掛艦船繪馬可以獲取有效次數"
+}
+
+_G.pg.base.gametip.help_xinnian2022_feast = {
+	tip = {
+		{
+			info = [[
+活動時間：<color=#92fc63>2022.12.22-2023.1.5</color>
+活動簡介：
+「啾啾冰壺戰」：參與小遊戲獲取南安普敦限定換裝「午後的休閒旋律」
+「煙火工坊」：參與小遊戲獲取限定角色「Z28」
+「繪馬祈願」：參與繪馬祈願獲取獎勵「年賀狀」
+「換裝商店」：購買新年限時換裝
+「限時建造」：建造限時角色
+「皇家午茶」&「萊茵咖啡館」：參與碳酸與紅茶任務獲取店鋪升級許可證進行建築升級；必須保持建築等級差不超過1級方可繼續升級]]
+		}
+	}
+}
+
+_G.pg.base.gametip.Pray_activity_tips1 = {
+	tip = {
+		{
+			info = [[
+<size=31><color=#92fc63>TIPS：
+在沒有許願有效次數時無法進行許願</color></size>
+1.活動期間指揮官每天獲得<color=#92fc63>1次幫助艦船掛繪馬的祈願次數</color>，次數可疊加，消耗祈願次數可以獲得新年的祝福和2次許願有效次數，<color=#ff5c5c>最多可獲得14次許願有效次數</color>
+2.幫助艦船掛繪馬會獲得對應艦船的祈願加成和新年的祝福，集齊7個新年的祝福可獲得「年賀狀」
+3.同一時間只能存在一種艦船的祈願加成
+4.擁有有效次數的情況下消耗5物資進行許願可以選擇不同加成效果：
+學業：戰術學院技能學習時間略微減少
+事業：主線、困難、作戰檔案關卡中，我方戰鬥內造成的傷害略微提高
+姻緣：秘書艦好感度提高速度加快
+以上三種效果持續時間為一天
+5.獲得學業效果時不會減少正在進行的技能學習時間，學業效果消失時不會增加已經被學業效果減少的技能學習時間
+6.如果在已經擁有加成效果的狀態下進行許願，那麼新獲得的加成效果會覆蓋掉之前擁有的加成效果，且持續時間重置
+7.同一時間只能存在一種許願加成效果]]
+		}
+	}
+}
+
+_G.pg.base.gametip.backhill_notenoughbuilding = {
+	tip = "升級所需材料不足，請前往<color=#92fc63>碳酸與紅茶</color>活動完成<color=#92fc63>活動任務</color>獲取"
+}
+
+_G.pg.base.gametip.help_xinnian2022_z28 = {
+	tip = {
+		{
+			info = [[
+活動規則：
+1.<color=#92fc63>12月28日</color>為止每日零點獲得<color=#92fc63>1</color>次遊戲次數，總計<color=#92fc63>7</color>次，可累計
+2.參與「新年煙火工坊」並進行<color=#92fc63>遊戲結算</color>會消耗遊戲次數並獲得獎勵與煙火券，集齊7個煙火券可以獲取限定角色<color=#92fc63>「Z28」</color>
+3.在沒有遊戲次數的情況下參與「新年煙火工坊」不會獲得獎勵與煙火券
+4.完成遊戲或點擊遊戲內退出按鈕均視為遊戲完成
+因為其他原因中途退出遊戲則視為未完成]]
+		}
+	}
+}
+
+_G.pg.base.gametip.help_xinnian2022_firework = {
+	tip = {
+		{
+			info = [[
+<size=31><color=#92fc63>TIPS：
+沒有遊戲次數也可以進行裝藥但是不會獲得煙火券與獎勵</color></size>
+製作煙火的過程：
+1.點擊開始配置開始煙火製作
+2.煙火分為內、中、外三層，在彩球區單擊色球可以將色球置入煙火中，色球顏色會影響煙火顏色
+在已放入區域單擊色球可以將其拿掉、單擊空白格子可以切換選中的區域
+3.在三層色球全部放滿的情況下可以點擊進行裝藥開始煙火裝藥，在有遊戲次數的情況下進行裝藥會消耗遊戲次數獲得煙火券並根據裝藥總值獲得不同的獎勵
+4.三次裝藥後完成煙火製作，已經製作好的煙火可以通過點擊新年祝福活動介面的放煙火按鈕進行煙火燃放，煙火燃放會使用最近一次製作的煙火
+5.煙火會持續燃放直到進入其他介面或退出新年祝福活動介面，下次進入新年祝福活動介面時可以再次點擊按鈕進行煙火燃放，隔日需要重新配置煙火才能進行燃放
+6.當天配置好的煙火重新配置需要進入煙火工坊點擊重新配置按鈕]]
+		}
+	}
 }
 
 _G.pg.base.gametip.player_manifesto_placeholder = {
@@ -20769,4 +20885,104 @@ _G.pg.base.gametip.random_ship_custom_mode_add_title = {
 
 _G.pg.base.gametip.random_ship_custom_mode_remove_title = {
 	tip = "移除角色"
+}
+
+_G.pg.base.gametip.beach_guard_chaijun = {
+	tip = "发射火箭筒烟花对敌人造成伤害并引发爆炸！"
+}
+
+_G.pg.base.gametip.beach_guard_jianye = {
+	tip = "可以投掷烟花炸弹，对九宫格范围内的敌人造成伤害！"
+}
+
+_G.pg.base.gametip.beach_guard_lituoliao = {
+	tip = "可以发射迷雾烟花，在爆炸后产生迷雾。\n迷雾持续5秒，可以减缓敌人10%的移动速度与攻击速度10%，最多可以叠加5层。"
+}
+
+_G.pg.base.gametip.beach_guard_bominghan = {
+	tip = "可以发射一枚分裂烟花，分裂烟花命中敌人后会对其造成硬直效果并分裂，分裂产生的小烟花没有硬直效果。"
+}
+
+_G.pg.base.gametip.beach_guard_nengdai = {
+	tip = "同时发射两枚强化烟花。\n命中敌人后，会给自身九宫格范围内己方单位提供攻速提高1%，伤害提高1%的效果，持续10秒，最多叠加10层。"
+}
+
+_G.pg.base.gametip.beach_guard_m_craft = {
+	tip = "能够源源不断的生产烟花！"
+}
+
+_G.pg.base.gametip.beach_guard_m_atk = {
+	tip = "能够使用烟花进行攻击！"
+}
+
+_G.pg.base.gametip.beach_guard_m_guard = {
+	tip = "能够阻挡塞壬的进攻！"
+}
+
+_G.pg.base.gametip.beach_guard_m_craft_name = {
+	tip = "生产啾"
+}
+
+_G.pg.base.gametip.beach_guard_m_atk_name = {
+	tip = "战斗啾"
+}
+
+_G.pg.base.gametip.beach_guard_m_guard_name = {
+	tip = "防御啾"
+}
+
+_G.pg.base.gametip.beach_guard_e1 = {
+	tip = "探索者"
+}
+
+_G.pg.base.gametip.beach_guard_e2 = {
+	tip = "追迹者"
+}
+
+_G.pg.base.gametip.beach_guard_e3 = {
+	tip = "领洋者"
+}
+
+_G.pg.base.gametip.beach_guard_e4 = {
+	tip = "破局者"
+}
+
+_G.pg.base.gametip.beach_guard_e5 = {
+	tip = "执棋者"
+}
+
+_G.pg.base.gametip.beach_guard_e6 = {
+	tip = "测试者"
+}
+
+_G.pg.base.gametip.beach_guard_e7 = {
+	tip = "净化者"
+}
+
+_G.pg.base.gametip.beach_guard_e1_desc = {
+	tip = "最常见的塞壬执行者，可以进行移动和攻击！"
+}
+
+_G.pg.base.gametip.beach_guard_e2_desc = {
+	tip = "常见的塞壬执行者，移动速度比探索者更快！"
+}
+
+_G.pg.base.gametip.beach_guard_e3_desc = {
+	tip = "常见的塞壬执行者，攻击速度比探索者更快！"
+}
+
+_G.pg.base.gametip.beach_guard_e4_desc = {
+	tip = "塞壬执行者，拥有出色的攻击力和生命值，但行动缓慢。"
+}
+
+_G.pg.base.gametip.beach_guard_e5_desc = {
+	tip = "塞壬执行者，均衡型，攻击能力与生存能力都十分良好。"
+}
+
+_G.pg.base.gametip.beach_guard_e6_desc = {
+	tip = "血量在低于50%时，将会为场上所有塞壬单位提供一个护盾，护盾值为自身基础生命值的10%。\n同一个塞壬单位身上只会同时存在一个护盾。"
+}
+
+_G.pg.base.gametip.beach_guard_e7_desc = {
+	tip = "可以周期性解除自身周边存在的迷雾、减速异常效果。"
 }

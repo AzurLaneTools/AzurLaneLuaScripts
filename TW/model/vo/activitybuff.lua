@@ -56,6 +56,8 @@ function slot0.isActivate(slot0)
 end
 
 function slot0.getLeftTime(slot0)
+	print("activityid is " .. slot0.activityId)
+
 	return getProxy(ActivityProxy):getActivityById(slot0.activityId).stopTime - pg.TimeMgr.GetInstance():GetServerTime()
 end
 

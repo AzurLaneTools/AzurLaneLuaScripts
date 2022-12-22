@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>十一 在那之后的莱茵咖啡馆</size>",
+					"碳酸與紅茶\n\n<size=45>十一 在那之後的萊茵咖啡館</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "傍晚，来到了莱茵咖啡馆 Café im Rhine",
+			say = "傍晚，來到了萊茵咖啡館 Café im Rhine",
 			side = 2,
 			bgName = "bg_coffeetea_3",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "Z46",
-			say = "很抱歉，今天已经打烊了……诶，指挥官？",
+			say = "很抱歉，今天已經打烊了……欸，指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,24 +70,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_3",
-			say = "想着稍微看观察一下俾斯麦打烊后的样子，于是叫住了正准备去找俾斯麦的Z46。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_coffeetea_3",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "俾斯麦",
-			say = "马格德堡，店里新来的猫还有些闹腾，明天也辛苦你照顾一下了。",
+			say = "想著稍微看觀察一下俾斯麥打烊後的樣子，於是叫住了正準備去找俾斯麥的Z46。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,8 +86,8 @@ return {
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
-			say = "库存的小麦汁有些不够了么……易北，这个交给你没问题吧？",
+			actorName = "俾斯麥",
+			say = "馬德堡，店里新來的貓還有些吵鬧，明天也麻煩妳照顧一下了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,22 +103,8 @@ return {
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
-			say = "然后是……Z46，门口那边打扫得怎么样了————",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_coffeetea_3",
-			say = "跟俾斯麦的目光对上了。",
+			actorName = "俾斯麥",
+			say = "庫存的小麥汁有些不夠了嗎……易北，這個交給妳沒問題吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,8 +120,8 @@ return {
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
-			say = "上次是营业前，这次是打烊后，指挥官最近是学习了游击战法么？",
+			actorName = "俾斯麥",
+			say = "然後是……Z46，門口那邊打掃得怎麼樣了————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +135,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_3",
-			say = "只是稍微有些好奇打烊后的店铺，马上就回去了。",
+			say = "跟俾斯麥的目光對上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,8 +151,39 @@ return {
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
-			say = "不用这么着急，虽然打烊了，但本日的食材还有剩余。",
+			actorName = "俾斯麥",
+			say = "上次是營業前，這次是打烊後，指揮官最近是學習了游擊戰法嗎？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_coffeetea_3",
+			say = "只是稍微有些好奇打烊後的店鋪，馬上就回去了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_coffeetea_3",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "俾斯麥",
+			say = "不用這麼著急，雖然打烊了，但本日的食材還有剩餘。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,8 +199,8 @@ return {
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "夜间咖啡馆，好像是值得开展的新业务呢。",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "夜間咖啡館，好像是值得開展的新業務呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,8 +216,8 @@ return {
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
-			say = "是啊。不过因为经营成本，就先只对指挥官试运营好了~",
+			actorName = "俾斯麥",
+			say = "是啊。不過因為經營成本，就先只對指揮官試營運好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,13 +229,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "俾斯麥",
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "指挥官，里面请。太阳还未落山，夜晚的生活才刚刚进入序章哦————",
+			say = "指揮官，裡面請。太陽還未落山，夜晚的生活才剛剛進入序章哦————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

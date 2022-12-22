@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "米德加尔特之塔内侧·未知海域",
+			say = "米德加爾特之塔內測·未知海域",
 			side = 2,
 			bgName = "bg_midgard_3",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "在铁血舰队发起进攻后，塞壬立刻发动了反击，一时间战斗从四面八方同时展开。",
+			say = "在鐵血艦隊發起進攻後，塞壬立刻發動了反擊，一時間戰鬥從四面八方同時展開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "新型塞壬势如破竹，最外层的量产型巡洋舰很快就被突破了，战列舰也没有争取到更多时间。",
+			say = "新型塞壬勢如破竹，最外層的量產型巡洋艦很快就被突破了，戰列艦也沒有爭取到更多時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "这……！？量产型舰队的损失速度太快了！",
+			say = "這……！？量產型艦隊的損失速度太快了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "我们这次带的量产型明明已经强化到和塞壬III型量产型不相上下的程度了，怎么会发生这种事…？！",
+			say = "我們這次帶的量產型明明已經強化到和塞壬III型量產型不相上下的程度了，怎麼會發生這種事…？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "只靠量产型机群恐怕控制不住制空权了……乌尔里希阁下，我出击了！",
+			say = "只靠量產型機群恐怕控制不住制空權了……烏爾里希閣下，我出擊了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "我们也该出击了。走吧，马格德堡！",
+			say = "我們也該出擊了。走吧，馬德堡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "嗯——敌人的火力已经差不多搞清楚了，去大闹一场咯~",
+			say = "嗯——敵人的火力已經差不多搞清楚了，去大鬧一場囉~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "乌尔里希阁下，塞壬潜艇正在从水下包围过来，其中还混有新型潜伏者。",
+			say = "烏爾里希閣下，塞壬潛艇正在從水下包圍過來，其中還混有新型潛伏者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "精英指挥单位的位置确认了么？",
+			say = "精英指揮單位的位置確認了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "还没有发现任何疑似指挥者的目标！",
+			say = "還沒有發現任何疑似指揮者的目標！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "明显是有组织的猎杀行动，却连控制系统都找不到。",
+			say = "明顯是有組織的獵殺行動，卻連控制系統都找不到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "找不到控制系统，以往对于塞壬优势舰队的战术就不管用了……",
+			say = "找不到控制系統，以往對於塞壬優勢艦隊的戰術就不管用了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			bgName = "bg_midgard_3",
-			say = "就在乌尔里希暂时陷入沉思之际，塞壬包围网中突然发生了剧烈爆炸。",
+			say = "就在烏爾里希暫時陷入沉思之際，塞壬包圍網中突然發生了劇烈爆炸。",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -340,7 +340,7 @@ return {
 			actor = 403100,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "乌尔里希……刚刚发生的事，你看到了么……？",
+			say = "烏爾里希……剛剛發生的事，妳看到了嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "没有，爆炸是谁引发的？",
+			say = "沒有，爆炸是誰引發的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "我也没有完全看清……",
+			say = "我也沒有完全看清……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "我看清楚了哦！但是难以置信……刚刚从天上飞来的武器速度超过了500节！",
+			say = "我看清楚了哦！但是難以置信……剛剛從天上飛來的武器速度超過了500節！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "又来了，又来了，大家快看天上！",
+			say = "又來了，又來了，大家快看天上！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "众人抬头望去，数个飞行物正从空中高速接近，宛如整齐飞行的陨石。从后方拉出的烟尾，仿佛一直延伸到地平线的彼端。",
+			say = "眾人抬頭望去，數個飛行物正從空中高速接近，宛如整齊飛行的隕石。從後方拉出的煙尾，彷彿一直延伸到地平線的彼端。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			}
 		},
 		{
-			say = "然后逐次高速落下——被命中的新型塞壬战舰转眼间就变为了一团团燃烧的火炬。",
+			say = "然後逐次高速落下——被命中的新型塞壬戰艦轉眼間就變為了一團團燃燒的火炬。",
 			side = 2,
 			bgName = "bg_midgard_3",
 			dir = 1,
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "超过500节的……炮弹？",
+			say = "超過500節的……炮彈？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "攻击又来了！还是落在刚才的位置！那里的塞壬现在已经被基本消灭殆尽了哦！",
+			say = "攻擊又來了！還是落在剛才的位置！那裡的塞壬現在已經被基本消滅殆盡了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "海域中肯定还有别的什么舰队在与塞壬交战。",
+			say = "海域中肯定還有別的什麼艦隊在於塞壬交戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "不管是谁发动的那种攻击，毫无疑问是个信号——“请往那边走”。",
+			say = "不管是誰發動的那種攻擊，毫無疑問是個訊號——“請往那邊走”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "既然好心开路了，我们就不妨接受邀请去看看吧？",
+			say = "既然好心開路了，我們就不妨接受邀請去看看吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "调整航线，向着缺口高速前进，我们准备突围了！",
+			say = "調整航線，向著缺口高速前進，我們準備突圍了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -16,7 +16,7 @@ return {
 			actor = 402060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呼~没有再追上来，我们成功甩开塞壬了！",
+			say = "呼~沒有再追上來，我們成功甩開塞壬了！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "与其说没有再追上来，不如说试图追上来的敌人都被消灭了诶……",
+			say = "與其說沒有再追上來，不如說試圖追上來的敵人都被消滅了欸……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "多么夸张的打击啊……高速、大威力，而且根本没看到是从哪里打出来的。",
+			say = "多麼誇張的打擊啊……高速、大威力，而且根本沒看到是從哪裡打出來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个真的是炮弹么？",
+			say = "那個真的是炮彈嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "不，严格来说那并不是一枚炮弹，而是一枚增程火箭。",
+			say = "不，嚴格來說那並不是一枚炮彈，而是一枚增程火箭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "增程火箭……增程火箭…………啊！好像确实曾经有做过一次实验的记录那种武器好像也被称为导弹！",
+			say = "增程火箭……增程火箭…………啊！好像確實曾經有做過一次實驗的紀錄，那種武器好像也被稱為飛彈！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "不过那个不是在陆地上使用的武器么？已经列装了么？！",
+			say = "不過那個不是在陸地上使用的武器嗎？已經列裝了嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "当然没有。我们开发的原型武器还存在问题，距离投入使用还很早，更不要说舰装化了。",
+			say = "當然沒有。我們開發的原型武器還存在問題，距離投入使用還很早，更不要說艦裝化了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "奇异点之中果然有很多有趣的事啊。",
+			say = "奇異點之中果然有很多有趣的事啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "报告！前方发现一小型舰队正在接近。舰船数量为两艘，看不出型号、不知道所属，也没有伴随的量产型。",
+			say = "報告！前方發現一小型艦隊正在接近。艦船數量為兩艘，看不出型號、不知道所屬，也沒有伴隨的量產型。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "不知道所属也就算了，看不出型号是什么意思？",
+			say = "不知道所屬也就算了，看不出型號是什麼意思？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "怎么说呢，她们带着很奇怪的舰装……一会你们见到就明白了。",
+			say = "怎麼說呢，她們帶著很奇怪的艦裝……等一下妳們見到就明白了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 408120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……啊，一会是要见的，不是要打的吧？",
+			say = "……啊，等一下是要見的，不是要打的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "当然。奇怪的舰装应该就是发射导弹的工具了。",
+			say = "當然。奇怪的艦裝應該就是發射飛彈的工具了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "来者究竟会是什么人呢——让我们去一探究竟吧。",
+			say = "來者究竟會是什麼人呢——讓我們去一探究竟吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "东煌所属，导弹驱逐舰鞍山，舷号101，旁边的是我的妹妹，同样东煌所属，导弹驱逐舰长春，舷号103。",
+			say = "東煌所屬，飛彈驅逐艦鞍山，弦號101，旁邊的是我的妹妹，同樣東煌所屬，飛彈驅逐艦長春，弦號103。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "易北",
-			say = "（东煌……东煌的舰队怎么会在这里？！）",
+			say = "（東煌……東煌的艦隊怎麼會在這裡？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,8 +343,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马格德堡",
-			say = "（而且导弹驱逐舰是什么啊，使用导弹的驱逐舰么？！）",
+			actorName = "馬德堡",
+			say = "（而且飛彈驅逐艦是什麼啊，使用飛彈的驅逐艦嗎？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "U-1206",
-			say = "（嘘——！）",
+			say = "（噓——！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,8 +387,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "铁血所属，特别行动舰队旗舰，腓特烈大帝特使，战列舰乌尔里希·冯·胡滕。",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "鐵血所屬，特別行動艦隊旗艦，腓特烈大帝特使，戰列艦烏爾里希·馮·胡滕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "鞍山",
-			say = "能在这里见到各位，真是意外。",
+			say = "能在這裡見到各位，真是意外。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "鞍山",
-			say = "虽然不能说很高兴见到你们，不过在这种充斥着塞壬与毁灭的地方见到还能够沟通的人倒也不错。",
+			say = "雖然不能說很高興見到妳們，不過在這種充斥著塞壬與毀滅的地方見到還能夠溝通的人倒也不錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "鞍山",
-			say = "从你们和塞壬交战的时候开始，我们就注意到你们了。",
+			say = "從妳們和塞壬交戰的時候開始，我們就注意到妳們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,8 +455,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "你们是在知道我们是铁血舰队的情况下，选择出手解围的么？",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "妳們是在知道我們是鐵血艦隊的情況下，選擇出手解圍的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "鞍山",
-			say = "嗯。我们出手，是因为在更广泛的立场上，塞壬是我们共同的敌人。",
+			say = "嗯。我們出手，是因為在更廣泛的立場上，塞壬是我們共同的敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,8 +489,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "原来如此。这是东煌的态度么？",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "原來如此。這是東煌的態度嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "鞍山",
-			say = "只是我个人的临机判断而已。",
+			say = "只是我個人的臨機判斷而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,42 +523,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "长春",
-			say = "其实只是那片区域本来就在我们的清理任务里，开打了之后才发现里面有别人的……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#ffff4d",
-			bgName = "bg_midgard_4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "鞍山",
-			say = "长—春——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 1,
-			nameColor = "#ffff4d",
-			bgName = "bg_midgard_4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "长春",
-			say = "啊，说错话了……",
+			actorName = "長春",
+			say = "其實只是那片區域本來就在我們的清理任務裡，開打了之後才發現裡面有別人的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +541,41 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "鞍山",
-			say = "咳、铁血舰队在这里做什么？",
+			say = "長—春——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#ffff4d",
+			bgName = "bg_midgard_4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "長春",
+			say = "啊，說錯話了……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 1,
+			nameColor = "#ffff4d",
+			bgName = "bg_midgard_4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "鞍山",
+			say = "咳、鐵血艦隊在這裡做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,8 +592,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "乌尔里希·冯·胡滕",
-			say = "东煌舰队在这里做什么？",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "東煌艦隊在這裡做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "鞍山",
-			say = "这件事的话，无可奉告。",
+			say = "這件事的話，無可奉告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,8 +627,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "乌尔里希·冯·胡滕",
-			say = "那我也无可奉告。",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "那我也無可奉告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,8 +662,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "乌尔里希·冯·胡滕",
-			say = "不过——可以给你们一个亲眼见证的机会。要来与我们一同行动么？",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "不過——可以給妳們一個親眼見證的機會。要來與我們一同行動嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +680,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "鞍山",
-			say = "这是不可能的，我们现在并不是能相安无事并肩战斗的关系，原因我想也不会有人比你们更清楚。",
+			say = "這是不可能的，我們現在並不是能相安無事並肩戰鬥的關係，原因我想也不會有人比妳們更清楚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "鞍山",
-			say = "不过我可以给你们一句建议。",
+			say = "不過我可以給妳們一句建議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "鞍山",
-			say = "抛弃量产型吧，量产型舰队在这里只会成为累赘。",
+			say = "拋棄量產型吧，量產型艦隊在這裡只會成為累贅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,8 +731,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "乌尔里希·冯·胡滕",
-			say = "是指目标太大会暴露行踪么？确实如此，刚刚的战斗中量产型也没起到什么作用……",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "是指目標太大會暴露行蹤嗎？確實如此，剛剛的戰鬥中量產型也沒起到什麼作用……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "鞍山",
-			say = "那就在此别过吧，奇妙的铁血舰队。这片海域正在变得愈发危险，你们还是尽快离开比较好。",
+			say = "那就在此別過吧，奇妙的鐵血艦隊。這片海域正在變得愈發危險，妳們還是盡快離開比較好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -763,7 +763,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "东煌的两人在对话结束迅速转身，不带丝毫迟疑的加速离开了。",
+			say = "東煌的兩人在對話結束迅速轉身，不帶絲毫遲疑的加速離開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "乌尔里希似乎还想追问什么，不过最终没有出声制止，只是目送着东煌舰队远去了。",
+			say = "烏爾里希似乎還想追問什麼，不過最終沒有出聲制止，只是目送著東煌艦隊遠去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +795,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "感觉和印象中的东煌差的也太多了！",
+			say = "感覺和印像中的東煌差的也太多了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +823,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "那个导弹舰装究竟是什么东西呀，我们都还没有的东西，东煌是从哪里弄到……？",
+			say = "那個飛彈艦裝究竟是什麼東西呀，我們都還沒有的東西，東煌是從哪裡弄到……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,7 +840,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "知晓我们的存在，但又与认知中不太一样……也许她们是存在于这个世界的东煌？没立刻打上来也是这个原因？",
+			say = "知曉我們的存在，但又與認知中不太一樣……也許她們是存在於這個世界的東煌？沒立刻打上來也是這個原因？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -858,7 +858,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "谁知道呢。也许在这个世界，或者说在每个世界里，阵营之间的关系都不完全一样吧……",
+			say = "誰知道呢。也許在這個世界，或者說在每個世界裡，陣營之間的關係都不完全一樣吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -875,7 +875,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难得见你下判断的时候会犹豫呢。",
+			say = "難得見妳下判斷的時候會猶豫呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -893,7 +893,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "情报太少了，无法判断。",
+			say = "情報太少了，無法判斷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -911,7 +911,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "走吧，我们在这里耽误的时间有些久了。",
+			say = "走吧，我們在這裡耽誤的時間有些久了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "量产型舰队怎么办？虽然剩下的还能不能称为舰队也很微妙……",
+			say = "量產型艦隊怎麼辦？雖然剩下的還能不能稱為艦隊也很微妙……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -947,7 +947,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "就留在这里吧，带着不但危险，也起不到什么作用。",
+			say = "就留在這裡吧，帶著不但危險，也起不到什麼作用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -965,7 +965,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "留在这里说不定回去的路上还用得着。",
+			say = "留在這裡說不定回去的路上還用得著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -982,7 +982,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么……接下来要继续往什么方向走呀？",
+			say = "那麼……接下來要繼續往什麼方向走呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1000,7 +1000,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "嗯……我们来的方向不能回去，东煌舰队来的方向大概也没什么值得注意的东西。",
+			say = "嗯……我們來的方向不能回去，東煌艦隊來的方向大概也沒什麼值得注意的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1018,7 +1018,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "就那边吧。",
+			say = "就那邊吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1032,7 +1032,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "乌尔里希指了一个介于遭受袭击方向和东煌舰队离开方向之间的位置。",
+			say = "烏爾里希指了一個介於遭受襲擊方向和東煌艦隊離開方向之間的位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1050,7 +1050,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那边充满残骸，也没有被东煌舰队探索过。我们就去那边，META永远不会离毁灭和战争太远的。",
+			say = "那邊充滿殘骸，也沒有被東煌艦隊探索過。我們就去那邊，META永遠不會離毀滅和戰爭太遠的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1064,7 +1064,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "铁血舰队果断的留下了量产型，以更精简的编制向着新的方向驶去了。",
+			say = "鐵血艦隊果斷的留下了量產型，以更精簡的編制向著新的方向駛去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1079,7 +1079,7 @@ return {
 			bgName = "bg_midgard_3",
 			dir = 1,
 			blackBg = true,
-			say = "距离米德加尔特之塔关闭剩余——14小时30分。",
+			say = "距離米德加爾特之塔關閉剩餘——14小時30分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

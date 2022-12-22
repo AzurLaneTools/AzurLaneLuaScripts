@@ -32,6 +32,10 @@ function slot0.IsShowTip(slot0)
 	elseif slot1 == ActivityConst.MINIGAME_RYZA then
 		return slot0:IsShowTipRyzaLink()
 	end
+
+	if getProxy(ActivityProxy):getActivityById(slot1) and slot2:getConfig("config_client").scene == SCENE.NEWYEAR_BACKHILL_2023 then
+		return slot0:IsShowTip4NewYear2023()
+	end
 end
 
 function slot0.CustomOnClick(slot0)
@@ -50,6 +54,12 @@ function slot0.CustomOnClick(slot0)
 	elseif slot1 == ActivityConst.MINIGAME_CURLING then
 		slot0:emit(NewMainMediator.GO_SCENE, SCENE.NEWYEAR_BACKHILL_2022)
 	else
+		if getProxy(ActivityProxy):getActivityById(slot1) and slot2:getConfig("config_client").scene then
+			slot0:emit(NewMainMediator.GO_SCENE, slot3)
+
+			return
+		end
+
 		errorMsg("not bind backhill Activity id:", slot1 or "NIL")
 		slot0:OnClick()
 	end
@@ -119,6 +129,28 @@ function slot0.IsShowTipRyzaLink(slot0)
 	end)() or (function ()
 		return getProxy(ActivityTaskProxy):getActTaskTip(ActivityConst.RYZA_TASK)
 	end)()
+end
+
+function slot0.IsShowTip4NewYear2023(slot0)
+	return _.any(_.values({
+		fudai = function ()
+			return RedPacket2023Layer.isShowRedPoint()
+		end,
+		hotspring = function ()
+			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING))
+		end,
+		shrine = function ()
+			return Shrine2023View.IsNeedShowTipWithoutActivityFinalReward()
+		end,
+		duihuanwu = function ()
+			return AmusementParkShopPage.GetActivityShopTip()
+		end,
+		firework = function ()
+			return BackHillTemplate.IsMiniActNeedTip(ActivityConst.MINIGAME_FIREWORK_VS_SAIREN)
+		end
+	}), function (slot0)
+		return slot0()
+	end)
 end
 
 return slot0

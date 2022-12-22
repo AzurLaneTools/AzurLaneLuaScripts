@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>四 惊喜&惊吓</size>",
+					"碳酸與紅茶\n\n<size=45>四 驚喜&驚嚇</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "只要再转过前面的街角，就到两家咖啡店的位置了。",
+			say = "只要再轉過前面的街角，就到兩家咖啡店的位置了。",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "皇家午茶<Queen's Tea>与莱茵咖啡馆 Café im Rhine，从名字开始就很有阵营特色的两家店。",
+			say = "皇家午茶<Queen's Tea>與萊茵咖啡館 Café im Rhine，從名字開始就很有陣營特色的兩家店。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "听说现在已经成为港区最热闹的地方了。",
+			say = "聽說現在已經成為港區最熱鬧的地方了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "其实正式开业是昨天，不过因为工作日程原因……总之，现在总算是空下来了。",
+			say = "其實正式開業是昨天，不過因為工作日程原因……總之，現在總算是空下來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,11 +97,11 @@ return {
 			bgName = "bg_main_day",
 			actor = 402041,
 			dir = 1,
-			actorName = "莱比锡&佩内洛珀",
+			actorName = "萊比錫&佩內洛珀",
 			hideOther = true,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指、指挥官！\n指挥官——！",
+			say = "指、指揮官！ 指揮官——！",
 			subActors = {
 				{
 					actor = 202292,
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402041,
-			say = "欸？你、你是皇家的……",
+			say = "欸？妳、妳是皇家的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "铁血的？！难道也是来……",
+			say = "鐵血的？！難道也是來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "突然，从拐角处冒出了两个一脸惊讶的身影。",
+			say = "突然，從拐角處冒出了兩個一臉驚訝的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402041,
-			say = "指、指挥官，请…来我们这边的店里坐坐吧！",
+			say = "指、指揮官，請…來我們這邊的店裡坐坐吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里是我们的传单……现在店里最新推出了好喝的碳酸咖啡！请、请务必要来尝试一下！",
+			say = "這裡是我們的傳單……現在店裡最新推出了好喝的碳酸咖啡！請、請務必要來嘗試一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个……要是选择休息之处的话，请一定要选择我们皇家这边哦？",
+			say = "那個……要是選擇休息之處的話，請一定要選擇我們皇家這邊哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202292,
-			say = "至于理由的话……因为我们皇家的服务肯定会更好？",
+			say = "至於理由的話……因為我們皇家的服務肯定會更好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,12 +253,12 @@ return {
 			actor = 402041,
 			side = 0,
 			bgName = "bg_main_day",
-			actorName = "莱比锡&佩内洛珀",
+			actorName = "萊比錫&佩內洛珀",
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官————",
+			say = "指揮官————",
 			subActors = {
 				{
 					actor = 202292,
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "还没到店门口就遭遇到了重大抉择选项，现在应该——",
+			say = "還沒到店門口就遭遇到了重大抉擇選項，現在應該——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402041,
-			actorName = "莱比锡&佩内洛珀",
+			actorName = "萊比錫&佩內洛珀",
 			hidePaintObj = true,
 			say = "哇啊啊啊啊！",
 			effects = {
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "突然，身穿女仆装（？）的大青花鱼，从路边的箱子（？）里蹦了出来。",
+			say = "突然，身穿女僕裝（？）的大青花魚，從路邊的箱子（？）裡蹦了出來。",
 			effects = {
 				{
 					active = false,
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108022,
-			say = "抱歉抱歉，本来只是埋伏在这个必经之路上想吓吓指挥官呢~",
+			say = "抱歉抱歉，本來只是埋伏在這個必經之路上想嚇嚇指揮官呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108022,
-			say = "不过一直在路上拦着指挥官不放的你们也有一点点错哦！箱子里太闷，我已经等不下去了！",
+			say = "不過一直在路上攔著指揮官不放的妳們也有一點點錯哦！箱子裡太悶，我已經等不下去了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402041,
-			say = "说的也是…不应该一直把指挥官拦在路上……对不起！",
+			say = "說的也是…不應該一直把指揮官攔在路上……對不起！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常抱歉……那我就先回店里等你了。",
+			say = "非常抱歉……那我就先回店裡等你了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "莱比锡和佩内洛珀都转身离开，四周暂时只剩下了穿着女仆装（？）的大青花鱼。",
+			say = "萊比錫和佩內洛珀都轉身離開，四周暫時只剩下了穿著女僕裝（？）的大青花魚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,11 +478,11 @@ return {
 			},
 			options = {
 				{
-					content = "多谢解围！",
+					content = "多謝解圍！",
 					flag = 1
 				},
 				{
-					content = "为什么是女仆装？",
+					content = "為什麼是女僕裝？",
 					flag = 2
 				},
 				{
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "指挥官在说什么话我完全听不懂哦~",
+			say = "指揮官在說什麼話我完全聽不懂哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "现在还是秘密！",
+			say = "現在還是秘密！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108022,
-			say = "嘿嘿~既然吓人的目的达到了，我就先走咯~",
+			say = "嘿嘿~既然嚇人的目的達到了，我就先走囉~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "两家店我都去过了，首先要去哪家真是难以抉择呢~指挥官加油哦~！",
+			say = "兩家店我都去過了，首先要去哪家真是難以抉擇呢~指揮官加油哦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,
-			say = "是啊，难题依旧存在……究竟应该先去哪家呢？",
+			say = "是啊，難題依舊存在……究竟應該先去哪家呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -32420,6 +32420,190 @@ _G.pg.base.aircraft_template[64780] = {
 	}
 }
 
+_G.pg.base.aircraft_template[64831] = {
+	attack_power = 2,
+	name = "易北技能轰炸机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "JU87C",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 0.315,
+	funnel_behavior = "",
+	nationality = 4,
+	id = 64831,
+	icon = "JU87C",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 11,
+	hp_growth = 1549,
+	speed = 50,
+	max_hp = 51,
+	scale = 1,
+	weapon_ID = {
+		64841
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.28,
+				1.62,
+				0
+			},
+			{
+				-1.12,
+				-1,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[64832] = {
+	id = 64832,
+	name = "易北技能轰炸机Lv2",
+	hp_growth = 1781,
+	base = 64831,
+	max_hp = 57,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64842
+	}
+}
+
+_G.pg.base.aircraft_template[64833] = {
+	id = 64833,
+	name = "易北技能轰炸机Lv3",
+	hp_growth = 2013,
+	base = 64831,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64843
+	}
+}
+
+_G.pg.base.aircraft_template[64834] = {
+	id = 64834,
+	name = "易北技能轰炸机Lv4",
+	hp_growth = 2246,
+	base = 64831,
+	max_hp = 70,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64844
+	}
+}
+
+_G.pg.base.aircraft_template[64835] = {
+	id = 64835,
+	name = "易北技能轰炸机Lv5",
+	hp_growth = 2478,
+	base = 64831,
+	max_hp = 77,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64845
+	}
+}
+
+_G.pg.base.aircraft_template[64836] = {
+	id = 64836,
+	name = "易北技能轰炸机Lv6",
+	hp_growth = 2710,
+	base = 64831,
+	max_hp = 84,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64846
+	}
+}
+
+_G.pg.base.aircraft_template[64837] = {
+	id = 64837,
+	name = "易北技能轰炸机Lv7",
+	hp_growth = 2943,
+	base = 64831,
+	max_hp = 90,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64847
+	}
+}
+
+_G.pg.base.aircraft_template[64838] = {
+	id = 64838,
+	name = "易北技能轰炸机Lv8",
+	hp_growth = 3175,
+	base = 64831,
+	max_hp = 97,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64848
+	}
+}
+
+_G.pg.base.aircraft_template[64839] = {
+	id = 64839,
+	name = "易北技能轰炸机Lv9",
+	hp_growth = 3407,
+	base = 64831,
+	max_hp = 103,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64849
+	}
+}
+
+_G.pg.base.aircraft_template[64840] = {
+	id = 64840,
+	name = "易北技能轰炸机Lv10",
+	hp_growth = 3640,
+	base = 64831,
+	max_hp = 110,
+	spawn_brownian = 1,
+	weapon_ID = {
+		64850
+	}
+}
+
 _G.pg.base.aircraft_template[64931] = {
 	attack_power = 2,
 	name = "隼鹰META鱼雷机Lv1",

@@ -1029,7 +1029,7 @@ pg.activity_shop_extra = {
 	},
 	[42] = {
 		commodity_type = 7,
-		activity = 40490,
+		activity = 40996,
 		commodity_id = 301231,
 		scene = "",
 		id = 42,
@@ -1039,9 +1039,9 @@ pg.activity_shop_extra = {
 		time = {
 			{
 				{
-					2021,
+					2022,
 					12,
-					23
+					22
 				},
 				{
 					0,
@@ -1051,7 +1051,7 @@ pg.activity_shop_extra = {
 			},
 			{
 				{
-					2022,
+					2023,
 					1,
 					5
 				},
@@ -1503,6 +1503,42 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[64] = {
+		commodity_type = 7,
+		activity = 40995,
+		commodity_id = 102272,
+		scene = "",
+		id = 64,
+		num = 1,
+		num_limit = 1,
+		order = 800,
+		time = {
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[67] = {
 		commodity_type = 7,
 		activity = 40510,
@@ -1821,6 +1857,42 @@ pg.activity_shop_extra = {
 					2022,
 					5,
 					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[81] = {
+		commodity_type = 7,
+		activity = 40981,
+		commodity_id = 202072,
+		scene = "",
+		id = 81,
+		num = 1,
+		num_limit = 1,
+		order = 800,
+		time = {
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					5
 				},
 				{
 					23,
@@ -2213,6 +2285,7 @@ pg.activity_shop_extra = {
 			60,
 			61,
 			62,
+			64,
 			67,
 			68,
 			69,
@@ -2222,6 +2295,7 @@ pg.activity_shop_extra = {
 			75,
 			76,
 			80,
+			81,
 			84,
 			85,
 			86,
@@ -2279,6 +2353,7 @@ pg.activity_shop_extra = {
 		60,
 		61,
 		62,
+		64,
 		67,
 		68,
 		69,
@@ -2288,6 +2363,7 @@ pg.activity_shop_extra = {
 		75,
 		76,
 		80,
+		81,
 		84,
 		85,
 		86,

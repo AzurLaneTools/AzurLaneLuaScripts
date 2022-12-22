@@ -359,4 +359,8 @@ function slot0.IsXIdol(slot0)
 	return slot0:getNation() == Nation.IDOL_LINK
 end
 
+function slot0.CanUseShareSkin(slot0)
+	return slot0.groupConfig.share_group_id and #slot0.groupConfig.share_group_id > 0
+end
+
 return slot0

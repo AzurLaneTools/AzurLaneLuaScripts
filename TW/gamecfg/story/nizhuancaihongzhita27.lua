@@ -15,7 +15,7 @@ return {
 			actor = 403100,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你们看前面，水面上是不是漂着个人……？",
+			say = "妳們看前面，水面上是不是漂著個人……？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊！那个是余烬的沙恩霍斯特吧！",
+			say = "啊！那個是餘燼的沙恩霍斯特吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_7",
-			say = "在一片残骸中心，众人终于发现了此行的搜寻目标。",
+			say = "在一片殘骸中心，眾人終於發現了此行的搜尋目標。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_7",
-			say = "浑身伤痕的沙恩霍斯特仰天漂浮着，舰装，或者曾经属于舰装的某些部分随意的散落在一旁。",
+			say = "渾身傷痕的沙恩霍斯特仰天漂浮著，艦裝，或者曾經屬於艦裝的某些部分隨意的散落在一旁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,38 +110,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_7",
-			say = "任凭海浪拍打与残骸撞击，她都没有做出任何反应。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_midgard_7",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "U-1206",
-			say = "喂，能听见么，醒一醒啊——！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_7",
-			say = "从水面下上浮的U-1206努力的拍打着，不过海面上的人依然毫无回应。",
+			say = "任憑海浪拍打與殘骸撞擊，她都沒有做出任何反映。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +127,38 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "U-1206",
-			say = "不行……已经彻底昏过去了。",
+			say = "喂，能聽見嗎，醒一醒啊——！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_7",
+			say = "從水面下上浮的U-1206努力的拍打著，不過海面上的人依然毫無回應。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_midgard_7",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "U-1206",
+			say = "不行……已經徹底昏過去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "易北",
-			say = "才分开几小时而已，到底发生了什么事？",
+			say = "才分開幾小時而已，到底發生了什麼事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,8 +191,8 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马格德堡",
-			say = "她可是顷刻间就能毁灭一队代行者的余烬哎……怎么弄成这样了？！",
+			actorName = "馬德堡",
+			say = "她可是頃刻間就能毀滅一隊代行者的餘燼哎……怎麼弄成這樣了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,8 +208,8 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿达尔伯特亲王",
-			say = "那只有等她醒过来之后才能知道了……",
+			actorName = "阿達爾貝特親王",
+			say = "那只有等她醒過來之後才能知道了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "U-1206",
-			say = "执行拆解作业的代行者冲着这边过来了……难道是想把她也当成残骸拆了？！",
+			say = "執行拆解作業的代行者衝著這邊過來了……難道是想把她也當成殘骸拆了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,8 +242,8 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马格德堡",
-			say = "这样可不好，万幸我们来得还算及时！",
+			actorName = "馬德堡",
+			say = "這樣可不好，萬幸我們來得還算及時！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "格奈森瑙！……冷静。",
+			say = "格奈森瑙！ ……冷靜。",
 			effects = {
 				{
 					active = true,
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "就现状而言，没办法继续避战了。",
+			say = "就現狀而言，沒辦法繼續避戰了。",
 			effects = {
 				{
 					active = false,
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "U-1206专注于救援作业，其他人趁塞壬还在专心拆解工作时先下手为强。",
+			say = "U-1206專注於救援作業，其他人趁塞壬還在專心拆解工作時先下手為強。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "战斗的目的是为了救人和突围，不要进行过度追击，明白了么？",
+			say = "戰鬥的目的是為了救人和突圍，不要進行過度追擊，明白了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "……这次就听你的好了。",
+			say = "……這次就聽妳的好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "很好。各舰注意，准备战斗！",
+			say = "很好。各艦注意，準備戰鬥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

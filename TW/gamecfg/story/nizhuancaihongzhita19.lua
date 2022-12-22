@@ -10,7 +10,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "轰————————！",
+			say = "轟————————！",
 			dir = 1,
 			bgm = "battle-midgard-hunting",
 			flashN = {
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "战斗的声音……看来是停留时间太久，敌人围上来了。",
+			say = "戰鬥的聲音……看來是停留時間太久，敵人圍上來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "居然把我晾在一边自顾自就上了……",
+			say = "居然把我晾在一邊自顧自就上了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你要去支援么？",
+			say = "妳要去支援嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "她们还有答应我的事没兑现。",
+			say = "她們還有答應我的事沒兌現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你觉得这些塞壬你能轻易应付掉？",
+			say = "妳覺得這些塞壬你能輕易應付掉？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "这是什么蠢话？我就是这么战斗过来的……既然你也是META，应该很明白吧？",
+			say = "這是什麼蠢話？我就是這麼戰鬥過來的……既然妳也是META，應該很明白吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "是，但是我更加明白塞壬的强大。",
+			say = "是，但是我更加明白塞壬的強大。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "混在舰队里的那几队显眼的人型，你之前见过么？",
+			say = "混在艦隊裡的那幾隊顯眼的人型，妳之前見過嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "没什么印象啊，没见过。不管它是什么，一会都要变成残骸就是了。",
+			say = "沒什麼印象啊，沒見過。不管它是什麼，等一下都要變成殘骸就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "那些是代行者，仲裁机关的爪牙。",
+			say = "那些是代行者，仲裁機關的爪牙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "代行者一定会与所属仲裁机关一同行动。它们出现在海域里，就意味着仲裁机关已经很近了。",
+			say = "代行者一定會與所屬仲裁機關一同行動。它們出現在海域裡，就意味著仲裁機關已經很近了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "代行者……仲裁机关，又学了几个新词啊，这就是接下来那些残骸的名字？",
+			say = "代行者……仲裁機關，又學了幾個新詞啊，這就是接下來那些殘骸的名字？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………META化的你，一定觉得自己已经足够强大，强大到可以和塞壬平分秋色了对吧？",
+			say = "…………META化的妳，一定覺得自己已經足夠強大，強大到可以和塞壬平分秋色了對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "回想起开战之初不得不躲躲藏藏的时光，是否会多出几分感慨？",
+			say = "回想起開戰之初不得不躲躲藏藏的時光，是否會多出幾分感慨？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "但是你错了……塞壬自始至终都在保留实力。你自以为的强大在它们的面前根本不值一提。",
+			say = "但是妳錯了……塞壬自始至終都在保留實力。妳自以為的強大在它們的面前根本不值一提。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "那你呢？",
+			say = "那妳呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "即便是我加入也无法改变这个事实。",
+			say = "即便是我加入也無法改變這個事實。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "那就在一边睁大眼睛看着就是……对话结束吧，我厌烦了。",
+			say = "那就在一邊睜大眼睛看著就是……對話結束吧，我厭煩了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "嗯，我会在一边静静地见证你们的结局的。",
+			say = "嗯，我會在一邊靜靜地見證妳們的結局的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "危言耸听的家伙……",
+			say = "危言聳聽的傢伙……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "格奈森瑙突然加速向着交火的方向疾驰而去，溅起的巨大水浪打湿了沙恩霍斯特的下装。",
+			say = "格奈森瑙突然加速向著交火的方向疾馳而去，濺起的巨大水浪打濕了沙恩霍斯特的下裝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_midgard_3",
 			dir = 1,
 			blackBg = true,
-			say = "不过沙恩霍斯特并没有在意。她只是静静地站在那里，注视着格奈森瑙逐渐远去的身影，直到身影完全消失在烟雾之中。",
+			say = "不過沙恩霍斯特並沒有在意。她只是靜靜地站在那裡，注視著格奈森瑙逐漸遠去的身影，直到身影完全消失在煙霧之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

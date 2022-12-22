@@ -43,6 +43,10 @@ function slot0.OnInit(slot0)
 
 	setActive(slot7, PLATFORM_CODE == PLATFORM_US and pg.SdkMgr.GetInstance():GetChannelUID() == "3")
 
+	slot0.pgsCon = findTF(slot2, "btn_layout/pgs_con")
+	slot0.btnBindPGS = findTF(slot0.pgsCon, "bind")
+	slot0.btnUnlinkPGS = findTF(slot0.pgsCon, "unlink")
+	slot0.pgsStatus = findTF(slot0.pgsCon, "status")
 	slot0.yostarAlert = findTF(slot1, "page2")
 	slot0.yostarEmailTxt = findTF(slot0.yostarAlert, "email_input_txt")
 	slot0.yostarCodeTxt = findTF(slot0.yostarAlert, "code_input_txt")
@@ -106,6 +110,14 @@ function slot0.RegisterEvent(slot0)
 
 		triggerButton(uv0.yostarAlert)
 	end)
+	onButton(slot0, slot0.btnUnlinkPGS, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("pgs_unbind_tip1"),
+			onYes = function ()
+				pg.SdkMgr.GetInstance():UnlinkSocial(AIRI_PLATFORM_GPS)
+			end
+		})
+	end)
 end
 
 function slot0.OnUpdate(slot0)
@@ -119,6 +131,7 @@ function slot0.checkAllAccountState_US(slot0)
 	slot0:checkAccountAppleView_US()
 	slot0:checkAccountYostarView_US()
 	slot0:checkAccountAmazonView_US()
+	slot0:checkAccountPGSView_US()
 end
 
 function slot0.checkAccountTwitterView_US(slot0)
@@ -182,6 +195,19 @@ function slot0.checkAccountYostarView_US(slot0)
 
 	if slot1 then
 		setText(slot0.yostarStatus, i18n("yostar_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_YOSTAR)))
+	end
+end
+
+function slot0.checkAccountPGSView_US(slot0)
+	slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_GPS)
+
+	setActive(slot0.pgsCon, slot1)
+	setActive(slot0.btnUnlinkPGS, slot1)
+	setActive(slot0.pgsStatus, slot1)
+	setActive(slot0.btnBindPGS, false)
+
+	if slot1 then
+		setText(slot0.pgsStatus, i18n("pgs_binding_account", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_GPS)))
 	end
 end
 

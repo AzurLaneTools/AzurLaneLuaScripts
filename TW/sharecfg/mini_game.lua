@@ -1040,7 +1040,7 @@ pg.mini_game = {
 		config_data = "",
 		config_csv = "",
 		id = 33,
-		hub_id = 38,
+		hub_id = 27,
 		request_data = 0,
 		simple_config_data = {
 			skin_shop_id = 2020772,
@@ -1094,7 +1094,8 @@ pg.mini_game = {
 		hub_id = 27,
 		request_data = 1,
 		simple_config_data = {
-			target = 100000
+			target = 100000,
+			shipGameID = 35
 		},
 		config_data = {
 			5,
@@ -1392,6 +1393,110 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		view_name = "BeachGuardGameView",
+		name = "PVZ小游戏",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 44,
+		hub_id = 37,
+		request_data = 0,
+		simple_config_data = {
+			drop = {
+				{
+					2,
+					54006,
+					1
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					1,
+					2,
+					300
+				},
+				{
+					2,
+					54034,
+					1
+				},
+				{
+					2,
+					20013,
+					1
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					7,
+					102233,
+					1
+				}
+			}
+		}
+	},
+	{
+		view_name = "Shrine2022View",
+		name = "2023神社指挥官许愿",
+		type = 3,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_csv = "",
+		id = 45,
+		hub_id = 37,
+		request_data = 1,
+		simple_config_data = {
+			target = 100000,
+			shipGameID = 46
+		},
+		config_data = {
+			5,
+			{
+				10,
+				11,
+				12
+			},
+			2
+		}
+	},
+	{
+		view_name = "Shrine2022View",
+		name = "2023神社舰娘许愿",
+		type = 5,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_csv = "",
+		id = 46,
+		hub_id = 37,
+		request_data = 1,
+		simple_config_data = {
+			8,
+			59372,
+			1
+		},
+		config_data = {
+			0,
+			{
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72
+			},
+			1
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1435,6 +1540,9 @@ pg.mini_game = {
 		40,
 		41,
 		42,
-		43
+		43,
+		44,
+		45,
+		46
 	}
 }

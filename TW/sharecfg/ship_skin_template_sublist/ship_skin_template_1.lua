@@ -5700,22 +5700,22 @@ pg.ship_skin_template_1 = {
 		bound_bone = {
 			cannon = {
 				{
-					0.026,
+					0.63,
 					0.764,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.026,
+					0.79,
 					0.764,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0.146,
-					0.06,
+					0,
+					0,
 					0
 				}
 			}
@@ -8677,6 +8677,114 @@ pg.ship_skin_template_1 = {
 			torpedo = {
 				{
 					0.299,
+					0.047,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101401] = {
+		ship_group = 10140,
+		name = "星期天的水族館",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 101401,
+		group_index = 1,
+		prefab = "aierwen_2",
+		painting = "aierwen_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70208,
+		shop_type_id = 9,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "這裡是水族館嗎…感覺很新鮮呢。啊，今天不是我而是指揮官領路呢，請小心不要迷路哦。欸嘿嘿",
+		voice_actor = 198,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.915,
+					1.034,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.9,
+					1.021,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.149,
 					0.047,
 					0
 				}

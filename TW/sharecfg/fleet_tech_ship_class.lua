@@ -1832,6 +1832,17 @@ pg.fleet_tech_ship_class = {
 			49903
 		}
 	},
+	[40204] = {
+		shiptype = 2,
+		name = "M級",
+		nation = 4,
+		id = 40204,
+		t_level_1 = 119,
+		t_level = 6,
+		ships = {
+			40206
+		}
+	},
 	[40301] = {
 		shiptype = 3,
 		name = "希佩爾將軍級",
@@ -1875,7 +1886,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 123,
 		t_level = 5,
 		ships = {
-			40309
+			40309,
+			40310
 		}
 	},
 	[40401] = {
@@ -1924,6 +1936,17 @@ pg.fleet_tech_ship_class = {
 			49902
 		}
 	},
+	[40503] = {
+		shiptype = 5,
+		name = "烏爾里希·馮·胡滕",
+		nation = 4,
+		id = 40503,
+		t_level_1 = 124,
+		t_level = 9,
+		ships = {
+			40503
+		}
+	},
 	[40601] = {
 		shiptype = 6,
 		name = "威悉",
@@ -1933,6 +1956,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 4,
 		ships = {
 			40601
+		}
+	},
+	[40602] = {
+		shiptype = 6,
+		name = "亞德級",
+		nation = 4,
+		id = 40602,
+		t_level_1 = 125,
+		t_level = 4,
+		ships = {
+			40602
 		}
 	},
 	[40701] = {
@@ -1983,7 +2017,8 @@ pg.fleet_tech_ship_class = {
 			40801,
 			40804,
 			40803,
-			40811
+			40811,
+			40812
 		}
 	},
 	[40803] = {
@@ -2725,6 +2760,7 @@ pg.fleet_tech_ship_class = {
 		40201,
 		40202,
 		40203,
+		40204,
 		40301,
 		40302,
 		40303,
@@ -2733,7 +2769,9 @@ pg.fleet_tech_ship_class = {
 		40402,
 		40501,
 		40502,
+		40503,
 		40601,
+		40602,
 		40701,
 		40702,
 		40801,

@@ -4722,6 +4722,126 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[216] = {
+		spine_extra = "",
+		describe = "茶AND咖啡店！，其名為皇家午茶<Queen's Tea>！就通過這個本王親自監督設計的皇家午茶企劃，來一轉頹勢吧！哼哼！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "cafe_enicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "皇家午茶",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/cafe_en",
+		canputon = 0,
+		id = 216,
+		can_rotate = 0,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[217] = {
+		spine_extra = "",
+		describe = "在傳統咖啡的基礎上，開發新的飲品和食物，以創新性作為賣點…——嗯，不失為一個好主意…",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "cafe_gericon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "萊茵咖啡館",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/cafe_ger",
+		canputon = 0,
+		id = 217,
+		can_rotate = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[218] = {
+		spine_extra = "",
+		describe = "仿照鐵血人工奇異點生成裝置米德加爾特之塔製作的微縮模型（內置光源）。 ——授予在「逆轉彩虹之塔」行動中獲得傑出成就者的紀念章",
+		gain_by = "逆轉彩虹之塔",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "dexiurxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "逆轉之虹紀念章",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 218,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"dexiurxunzhangB",
+				"normal"
+			},
+			{
+				"dexiurxunzhangT"
+			}
+		},
+		interAction_group = {}
+	},
 	[222] = {
 		spine_extra = "",
 		describe = "今天起我們結為姐妹purin！——不對，好像本來就是buli？",
@@ -6215,6 +6335,308 @@ pg.furniture_data_template = {
 				},
 				"walk"
 			}
+		},
+		interAction_group = {}
+	},
+	[100020] = {
+		spine_extra = "",
+		describe = "抬頭仰望，便是無盡的繁星。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "starlighticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "模擬裝置·星空",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100020,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"starlight",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					nil,
+					nil,
+					"bg1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[200001] = {
+		spine_extra = "",
+		describe = "沒錯，盡情地向你的女僕撒嬌吧…“主人”~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "夢中的沙發一角",
+		themeId = 0,
+		icon = "aogusite_2_furicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200001,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"aogusite_2_fur",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sleep",
+				{
+					499061
+				},
+				"furniture",
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[200002] = {
+		spine_extra = "",
+		describe = "雖然已經打烊了，不過，如果需要什麼幫助的話，和我說一聲就好了~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "閉店後的吧台",
+		themeId = 0,
+		icon = "p2_2_furicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200002,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"P2_2_furB",
+				"normal"
+			},
+			{
+				"P2_2_furT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sit",
+				{
+					403101
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[200003] = {
+		spine_extra = "",
+		describe = "快來收下令人驚喜的聖誕禮物吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "驚喜的聖誕樹",
+		themeId = 0,
+		icon = "junheshengdanshuicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200003,
+		can_rotate = 0,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"junheshengdanshuB",
+				"normal"
+			},
+			{
+				"junheshengdanshuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"sleep",
+				{
+					305143
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -85838,6 +86260,1286 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[85001] = {
+		spine_extra = "",
+		describe = "歡迎光臨！點菜…還是要老樣子嗎？",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "港區咖啡地板",
+		effect = "",
+		advice = 0,
+		icon = "dibancafe2icon",
+		spine_action_replace = "",
+		picture = "cafe2/dibancafe2",
+		comfortable = 4,
+		canputon = 0,
+		id = 85001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85002] = {
+		spine_extra = "",
+		describe = "歡迎光臨！點菜…還是要老樣子嗎？",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "港區咖啡牆壁",
+		effect = "",
+		advice = 0,
+		icon = "qiangbicafe2icon",
+		spine_action_replace = "",
+		picture = "cafe2/qiangbicafe2",
+		comfortable = 4,
+		canputon = 0,
+		id = 85002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85101] = {
+		spine_extra = "",
+		describe = "鐵血的料理技術也是天下第一！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaoxiangcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "雕塑「鐵血與蛋包飯」",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/diaoxiangcafe2",
+		canputon = 0,
+		id = 85101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85102] = {
+		spine_extra = "",
+		describe = "印著肉球圖案的紅色地毯",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "ditancafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "肉球地毯",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/ditancafe2",
+		canputon = 0,
+		id = 85102,
+		can_rotate = 0,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85103] = {
+		spine_extra = "",
+		describe = "獨自而座，不如相鄰為伴",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "gaojiaodengcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "吧台高腳凳",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/gaojiaodengcafe2",
+		canputon = 0,
+		id = 85103,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85106] = {
+		spine_extra = "",
+		describe = "要來點什麼啾？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guitaicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "咖啡店櫃檯",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "cafe2/guitaicafe2",
+		canputon = 0,
+		id = 85106,
+		can_rotate = 0,
+		size = {
+			12,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85107] = {
+		spine_extra = "",
+		describe = "和傳單的內容一樣……應該…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "lipaicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "咖啡店看板",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/lipaicafe2",
+		canputon = 0,
+		id = 85107,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85109] = {
+		spine_extra = "",
+		describe = "點綴店裡的一絲綠意。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "lvzhicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "咖啡店盆栽",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/lvzhicafe2",
+		canputon = 0,
+		id = 85109,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85112] = {
+		spine_extra = "",
+		describe = "要溫柔點撫摸哦",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "maowocafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "咖啡店貓窩",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/maowocafe2",
+		canputon = 0,
+		id = 85112,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85113] = {
+		spine_extra = "",
+		describe = "歡迎光臨啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "nvpujicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "掃除女僕啾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/nvpujicafe2",
+		canputon = 0,
+		id = 85113,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85114] = {
+		spine_extra = "",
+		describe = "要點些什麼啾？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "nvpuji2cafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "點餐女僕啾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/nvpuji2cafe2",
+		canputon = 0,
+		id = 85114,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85115] = {
+		spine_extra = "",
+		describe = "可以讓人放鬆休息的舒適座位",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 85,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "ruanzuocafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "舒適沙發桌A",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/ruanzuocafe2",
+		canputon = 0,
+		id = 85115,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					16.7,
+					23
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85119] = {
+		spine_extra = "",
+		describe = "是誰把漫畫放這裡的啾？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuguicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "咖啡店書架",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/shuguicafe2",
+		canputon = 0,
+		id = 85119,
+		can_rotate = 0,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85120] = {
+		spine_extra = "",
+		describe = "照亮咖啡店的落地檯燈",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "taidengcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "咖啡店檯燈",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/taidengcafe2",
+		canputon = 0,
+		id = 85120,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85123] = {
+		spine_extra = "",
+		describe = "剛，剛剛好像有什麼動了？ ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 85,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wanjuduicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "布娃娃堆",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/wanjuduicafe2",
+		canputon = 0,
+		id = 85123,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-21,
+					40.2
+				},
+				{
+					-1,
+					1
+				},
+				"cafe2/wanjuduicafe2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85124] = {
+		spine_extra = "",
+		describe = "Let's music！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 85,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wutaicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "駐場舞台",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/wutaicafe2",
+		canputon = 0,
+		id = 85124,
+		can_rotate = 0,
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-23.4,
+					17.9
+				},
+				{
+					-1,
+					1
+				},
+				"cafe2/wutaicafe2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85125] = {
+		spine_extra = "",
+		describe = "您的咖啡，請慢慢享用啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "zhishijicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "咖啡管家啾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/zhishijicafe2",
+		canputon = 0,
+		id = 85125,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85126] = {
+		spine_extra = "",
+		describe = "和小傢伙們一起享受悠閒時光！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "咖啡店貓爬架",
+		themeId = 85,
+		icon = "maopajiacafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 85126,
+		can_rotate = 0,
+		size = {
+			8,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"maopajiaB",
+				"normal"
+			},
+			{
+				"maopajiaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[85127] = {
+		spine_extra = "",
+		describe = "可以讓人放鬆休息的舒適座位",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "ruanzuobcafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "舒適沙發",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/ruanzuobcafe2",
+		canputon = 0,
+		id = 85127,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85131] = {
+		spine_extra = "",
+		describe = "擺在店內的矮方桌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "zuozicafe2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "咖啡店方桌",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/zuozicafe2",
+		canputon = 1,
+		id = 85131,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {
+			0,
+			61.33
+		},
+		canputonGrid = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85201] = {
+		spine_extra = "",
+		describe = "要畫點什麼上去呢…",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 2,
+		icon = "danbaofancafe2icon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "特製蛋包飯",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/danbaofancafe2",
+		canputon = 0,
+		id = 85201,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85202] = {
+		spine_extra = "",
+		describe = "隔著玻璃都能感覺到的咖啡香氣~",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 2,
+		icon = "fencafe2icon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "咖啡粉罐",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/fencafe2",
+		canputon = 0,
+		id = 85202,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85203] = {
+		spine_extra = "",
+		describe = "能不靠號碼牌記住每桌點菜順序，你就能獨當一面了！",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 2,
+		icon = "canpaicafe2icon",
+		deblocking = 1,
+		level = 2,
+		advice = 0,
+		effect = "",
+		name = "號碼牌",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/canpaicafe2",
+		canputon = 0,
+		id = 85203,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85301] = {
+		spine_extra = "",
+		describe = "咖啡豆是在…這裡啾？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "bichucafe2icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "咖啡店壁櫥",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/bichucafe2",
+		canputon = 0,
+		id = 85301,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85302] = {
+		spine_extra = "",
+		describe = "窗外的夜色映襯著咖啡店的氛圍",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuchuangcafe2icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "咖啡店櫥窗1",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/chuchuangcafe2",
+		canputon = 0,
+		id = 85302,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85303] = {
+		spine_extra = "",
+		describe = "窗外的夜色映襯著咖啡店的氛圍",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "chuchuang2cafe2icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "咖啡店櫥窗2",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cafe2/chuchuang2cafe2",
+		canputon = 0,
+		id = 85303,
+		can_rotate = 0,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85304] = {
+		spine_extra = "",
+		describe = "似乎是很稀有的蝴蝶？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "guahuacafe2icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "咖啡店掛畫",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/guahuacafe2",
+		canputon = 0,
+		id = 85304,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85305] = {
+		spine_extra = "",
+		describe = "造型可愛的咖啡店招牌",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 3,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "guapaicafe2icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "咖啡店招牌",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/guapaicafe2",
+		canputon = 0,
+		id = 85305,
+		can_rotate = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85306] = {
+		spine_extra = "",
+		describe = "今天的營業目標是~~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "heibancafe2icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "咖啡店黑板",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/heibancafe2",
+		canputon = 0,
+		id = 85306,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85307] = {
+		spine_extra = "",
+		describe = "歡迎光臨啾，咖啡店絕讚營業中！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 4,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "mengcafe2icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "咖啡店門",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cafe2/mengcafe2",
+		canputon = 0,
+		id = 85307,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85308] = {
+		spine_extra = "",
+		describe = "營業時間…還有很久！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 3,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "shizhongcafe2icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "咖啡店時鐘",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/shizhongcafe2",
+		canputon = 0,
+		id = 85308,
+		can_rotate = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[85309] = {
+		spine_extra = "",
+		describe = "燈光調暗點是不是更有氛圍啾？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 85,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 5,
+		icon = "bidengcafe2icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "咖啡店壁燈",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cafe2/bidengcafe2",
+		canputon = 0,
+		id = 85309,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[87001] = {
 		spine_extra = "",
 		describe = "暖風吹過，新的學期要開始啦！",
@@ -91562,6 +93264,9 @@ pg.furniture_data_template = {
 			212,
 			214,
 			215,
+			216,
+			217,
+			218,
 			222,
 			233,
 			235,
@@ -91583,6 +93288,10 @@ pg.furniture_data_template = {
 			100017,
 			100018,
 			100019,
+			100020,
+			200001,
+			200002,
+			200003,
 			12002,
 			12102,
 			12103,
@@ -91694,6 +93403,9 @@ pg.furniture_data_template = {
 			212,
 			214,
 			215,
+			216,
+			217,
+			218,
 			222,
 			233,
 			235,
@@ -91715,6 +93427,10 @@ pg.furniture_data_template = {
 			100017,
 			100018,
 			100019,
+			100020,
+			200001,
+			200002,
+			200003,
 			12002,
 			12102,
 			12103,
@@ -95475,6 +97191,72 @@ pg.furniture_data_template = {
 			84186,
 			84301
 		},
+		[85] = {
+			85001,
+			85002,
+			85101,
+			85102,
+			85103,
+			85106,
+			85107,
+			85109,
+			85112,
+			85113,
+			85114,
+			85115,
+			85119,
+			85120,
+			85123,
+			85124,
+			85125,
+			85126,
+			85127,
+			85131,
+			85201,
+			85202,
+			85203,
+			85301,
+			85302,
+			85303,
+			85304,
+			85305,
+			85306,
+			85307,
+			85308,
+			85309,
+			85001,
+			85002,
+			85101,
+			85102,
+			85103,
+			85106,
+			85107,
+			85109,
+			85112,
+			85113,
+			85114,
+			85115,
+			85119,
+			85120,
+			85123,
+			85124,
+			85125,
+			85126,
+			85127,
+			85131,
+			85201,
+			85202,
+			85203,
+			85301,
+			85302,
+			85303,
+			85304,
+			85305,
+			85306,
+			85307,
+			85308,
+			85309
+		},
 		[87] = {
 			87001,
 			87002,
@@ -97005,6 +98787,23 @@ pg.furniture_data_template = {
 			84181,
 			84182,
 			84183,
+			85101,
+			85102,
+			85103,
+			85106,
+			85107,
+			85109,
+			85112,
+			85113,
+			85114,
+			85115,
+			85119,
+			85120,
+			85123,
+			85124,
+			85125,
+			85127,
+			85131,
 			87101,
 			87102,
 			87107,
@@ -97210,6 +99009,9 @@ pg.furniture_data_template = {
 			48201,
 			48202,
 			48203,
+			85201,
+			85202,
+			85203,
 			89201,
 			92201,
 			92202,
@@ -97317,6 +99119,9 @@ pg.furniture_data_template = {
 			212,
 			214,
 			215,
+			216,
+			217,
+			218,
 			222,
 			235,
 			239,
@@ -97336,12 +99141,16 @@ pg.furniture_data_template = {
 			100017,
 			100018,
 			100019,
+			100020,
 			54104,
 			54105
 		},
 		[7] = {
 			233,
 			236,
+			200001,
+			200002,
+			200003,
 			13101,
 			13126,
 			13127,
@@ -97451,6 +99260,7 @@ pg.furniture_data_template = {
 			84184,
 			84185,
 			84186,
+			85126,
 			89126,
 			94119,
 			94120,
@@ -97527,6 +99337,7 @@ pg.furniture_data_template = {
 			81001,
 			83001,
 			84001,
+			85001,
 			87001,
 			89001,
 			92001,
@@ -97599,6 +99410,7 @@ pg.furniture_data_template = {
 			81002,
 			83002,
 			84002,
+			85002,
 			87002,
 			89002,
 			92002,
@@ -97829,6 +99641,15 @@ pg.furniture_data_template = {
 			81305,
 			81306,
 			84301,
+			85301,
+			85302,
+			85303,
+			85304,
+			85305,
+			85306,
+			85307,
+			85308,
+			85309,
 			89301,
 			89303,
 			89307,
@@ -97918,6 +99739,7 @@ pg.furniture_data_template = {
 			81002,
 			83002,
 			84002,
+			85002,
 			87002,
 			89002,
 			92002,
@@ -98011,6 +99833,9 @@ pg.furniture_data_template = {
 			208,
 			210,
 			212,
+			216,
+			217,
+			218,
 			222,
 			235,
 			236,
@@ -98026,7 +99851,8 @@ pg.furniture_data_template = {
 			100014,
 			100016,
 			100017,
-			100018
+			100018,
+			100020
 		},
 		[2] = {
 			122,
@@ -98039,6 +99865,9 @@ pg.furniture_data_template = {
 			205,
 			206,
 			209,
+			200001,
+			200002,
+			200003,
 			1102,
 			1103,
 			1104,
@@ -99258,6 +101087,23 @@ pg.furniture_data_template = {
 			84181,
 			84182,
 			84183,
+			85101,
+			85103,
+			85106,
+			85107,
+			85109,
+			85112,
+			85113,
+			85114,
+			85115,
+			85119,
+			85120,
+			85123,
+			85124,
+			85125,
+			85126,
+			85127,
+			85131,
 			87101,
 			87102,
 			87107,
@@ -99458,6 +101304,7 @@ pg.furniture_data_template = {
 			81001,
 			83001,
 			84001,
+			85001,
 			87001,
 			89001,
 			92001,
@@ -99569,6 +101416,7 @@ pg.furniture_data_template = {
 			84155,
 			84158,
 			84161,
+			85102,
 			87116,
 			89106,
 			89107,
@@ -99689,6 +101537,9 @@ pg.furniture_data_template = {
 			48201,
 			48202,
 			48203,
+			85201,
+			85202,
+			85203,
 			89201,
 			92201,
 			92202,
@@ -99916,6 +101767,15 @@ pg.furniture_data_template = {
 			81305,
 			81306,
 			84301,
+			85301,
+			85302,
+			85303,
+			85304,
+			85305,
+			85306,
+			85307,
+			85308,
+			85309,
 			89301,
 			89303,
 			89307,
@@ -100059,6 +101919,9 @@ pg.furniture_data_template = {
 		212,
 		214,
 		215,
+		216,
+		217,
+		218,
 		222,
 		233,
 		235,
@@ -100080,6 +101943,10 @@ pg.furniture_data_template = {
 		100017,
 		100018,
 		100019,
+		100020,
+		200001,
+		200002,
+		200003,
 		1001,
 		1002,
 		1101,
@@ -101900,6 +103767,38 @@ pg.furniture_data_template = {
 		84185,
 		84186,
 		84301,
+		85001,
+		85002,
+		85101,
+		85102,
+		85103,
+		85106,
+		85107,
+		85109,
+		85112,
+		85113,
+		85114,
+		85115,
+		85119,
+		85120,
+		85123,
+		85124,
+		85125,
+		85126,
+		85127,
+		85131,
+		85201,
+		85202,
+		85203,
+		85301,
+		85302,
+		85303,
+		85304,
+		85305,
+		85306,
+		85307,
+		85308,
+		85309,
 		87001,
 		87002,
 		87101,

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>三 皇家体验女仆</size>",
+					"碳酸與紅茶\n\n<size=45>三 皇家體驗女僕</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·皇家礼堂",
+			say = "港區·皇家禮堂",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总之，因为铁血的插手，整个情况变成了现在这样。",
+			say = "總之，因為鐵血的插手，整個情況變成了現在這樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过我们的目标不变！只要能最大化提升皇家的影响力，之后赢下铁血也只是顺手的事了。",
+			say = "不過我們的目標不變！只要能最大化提升皇家的影響力，之後贏下鐵血也只是順手的事了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诸位一定有些困惑，为何不是女仆队成员的你们会被本王叫来呢？",
+			say = "諸位一定有些困惑，為何不是女僕隊成員的妳們會被本王叫來呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼……一直以来，其他同伴对于皇家的印象都是熟练的女仆队，铁血肯定也是这么以为的。",
+			say = "哼哼……一直以來，其他同伴對於皇家的印像都是熟練的女僕隊，鐵血肯定也是這麼以為的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以本王偏不！拿出一直以来众人对于皇家的印象去回馈众人，这只是固守，不是进攻！",
+			say = "所以本王偏不！拿出一直以來眾人對於皇家的印象去回饋眾人，這只是固守，不是進攻！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本王要做的是出其不意的进攻！用有别于往日印象的皇家服务来给人出乎意料又耳目一新的感觉！",
+			say = "本王要做的是出其不意的進攻！用有別於往日印象的皇家服務來給人出乎意料又耳目一新的感覺！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而诸位就是本次与本王一同执行作战的体验女仆了！",
+			say = "而諸位就是本次與本王一同執行作戰的體驗女僕了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "好像还挺有趣的。",
+			say = "好像還挺有趣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下……身为女仆应该做些什么呢？我从来没有过当女仆的经验……",
+			say = "陛下……身為女僕應該做些什麼呢？我從來沒有過當女僕的經驗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个不用担心，你们要做的事情和正式的女仆队不一样，更像是“服务员”一类的角色。",
+			say = "這個不用擔心，妳們要做的事情和正式的女僕隊不一樣，更像是“服務員”一類的角色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "完全不熟悉也没关系，我会让贝法特别指导你们的。",
+			say = "完全不熟悉也沒關係，我會讓貝法特指導妳們的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从现在开始叫我“伊丽莎白店长”才对哦~",
+			say = "從現在開始叫我“伊莉莎白店長”才對哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201330,
-			say = "是！伊丽莎白店长！",
+			say = "是！伊莉莎白店長！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好~本王现在去看看给诸位准备的制服怎么样了，这里就交给你了哦，贝法。",
+			say = "很好~本王現在去看看給諸位準備的制服怎麼樣了，這裡就交給妳了哦，貝法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遵命。那么各位，现在请把自己想象成店员，将这里想象成咖啡店，试着演绎出自己心中店员应有的模样吧。",
+			say = "遵命。那麼各位，現在請把自己想像成店員，將這裡想像成咖啡店，試著演繹出自己心中店員應有的模樣吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请不用拘谨，有不熟悉的地方也没关系，我会为各位提供帮助的。",
+			say = "請不用拘謹，有不熟悉的地方也沒關係，我會為各位提供幫助的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "一段时间之后——",
+			say = "一段時間之後——",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "实际体验下来比想象中要辛苦不少……平日里的服务真是辛苦你们了，贝法。",
+			say = "實際體驗下來比想像中要辛苦不少……平日裡的服務真是辛苦妳們了，貝法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "您过奖了，那些只是女仆队的本职工作而已。",
+			say = "您過獎了，那些只是女僕隊的本職工作而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202070,
-			say = "刚刚提到的小提琴，真的可以去店里演奏么！",
+			say = "剛剛提到的小提琴，真的可以去店裡演奏嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201330,
-			say = "还有在店铺里加入猫咪店员的提案……",
+			say = "還有在店舖裡加入貓咪店員的提案……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我都会向陛下汇报的。本次陛下拜托各位担任“体验女仆”，就是想做一些耳目一新的创意，相信她会同意的。",
+			say = "我都會向陛下匯報的。本次陛下拜託各位擔任“體驗女僕”，就是想做一些耳目一新的創意，相信她會同意的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到陛…伊丽莎白店长对这件事这么关注，有些好奇准备中的衣服会是怎么样的了……",
+			say = "沒想到陛…伊莉莎白店長對這件事這麼關注，有些好奇準備中的衣服會是怎麼樣的了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请不用担心，都是些十分符合各位淑女身份的美丽衣服哦。",
+			say = "請不用擔心，都是些十分符合各位淑身份女的美麗衣服哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "接下来，为了更好展现出皇家的优雅，让我们再来练习一遍吧——",
+			say = "接下來，為了更好展現出皇家的優雅，讓我們再來練習一遍吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

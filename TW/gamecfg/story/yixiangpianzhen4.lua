@@ -238,7 +238,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_chongdong",
-			say = "紧随而来的是一股漫无目的开放感，仿佛孤身一人深处无垠的宇宙之中，就连时间也绵延到了见不到的边缘。",
+			say = "紧随而来的是一股漫无目的的开放感，仿佛孤身一人身处无垠的宇宙之中，就连时间也绵延到了见不到的边缘。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在此期间，我将会处在静默状态稳定安克雷奇的心智投影空间，并协助分析您分析见到的有价值信息。",
+			say = "在此期间，我将会处在静默状态稳定安克雷奇的心智投影空间，并协助您分析见到的有价值信息。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我监测到海量未知数据正在从空间内部涌出。无法在这样的状态下，我维持空间稳定太长时间。",
+			say = "指挥官，我监测到海量未知数据正在从空间内部涌出。我无法在这样的状态下，维持空间稳定太长时间。",
 			painting = {
 				alpha = 0.3,
 				time = 1

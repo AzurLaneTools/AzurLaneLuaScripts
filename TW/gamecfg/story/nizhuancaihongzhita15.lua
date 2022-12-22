@@ -16,7 +16,7 @@ return {
 			actor = 9704010,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "你究竟在盘算什么？",
+			say = "妳究竟在盤算什麼？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "乌尔里希的提议似乎也大幅出乎了格奈森瑙·META的预料。",
+			say = "烏爾里希的提議似乎也大幅出乎了格奈森瑙·META的預料。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "虽然并没无必要，不过她也停止了开火，放任铁血舰队撤离，并放任乌尔里希一步一步接近到面前。",
+			say = "雖然並沒無必要，不過她也停止了開火，放任鐵血艦隊撤離，並放任烏爾里希一步一步接近到面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……如果你在确认是否还有其他人的话，我可以替你回答。",
+			say = "……如果妳在確認是否還有其他人的話，我可以替妳回答。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "周围已经没人了。天上没有侦察机，水下也没有潜艇，你可以毫无顾虑地出手了。",
+			say = "周圍已經沒人了。天上沒有偵察機，水下也沒有潛艇，你可以毫無顧慮地出手了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "决斗这种形式我不讨厌，但认不清实力的差距便向我发起决斗……前言收回，你也疯的挺厉害的。",
+			say = "決鬥這種形式我不討厭，但認不清實力的差距便向我發起決鬥……前言收回，妳也瘋的挺厲害的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "不，我没有疯。",
+			say = "不，我沒有瘋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "没有疯的人，敢于向着已经META化的我，已经彻底失去理智、只会散布死亡与毁灭的我发起决斗么？！",
+			say = "沒有瘋的人，敢於向著已經META化的我，已經徹底失去理智、只會散佈死亡與毀滅的我發起決鬥嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "敢，因为你也没有疯。",
+			say = "敢，因為妳也沒有瘋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "胡说……见到我的每个人都说我已经疯了，刚刚你不也是这么说的。",
+			say = "胡說……見到我的每個人都說我已經瘋了，剛剛妳不也是這麼說的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那个啊，刚才是我看错了，前言收回。",
+			say = "那個啊，剛才是我看錯了，前言收回。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,8 +230,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "过去的事已经过去了，现在我们来一起看看这个。",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "過去的事已經過去了，現在我們來一起看看這個。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "乌尔里希没有立起炮管，而是拿出了一份精致的书信。信封的外侧，铁血徽记的蜡封印章仿佛还带着余温。",
+			say = "烏爾里希沒有立起炮管，而是拿出了一份精緻的書信。信封的外側，鐵血徽記的蠟封印章彷彿還帶著餘溫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "正式的命令书？",
+			say = "正式的命令書？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "呵，刚才我也说了，我不认识什么腓特烈大帝，对于她所谓的命令也没兴趣。",
+			say = "呵，剛才我也說了，我不認識什麼腓特烈大帝，對於她所謂的命令也沒興趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "这种东西对我来说和废纸没有区别！",
+			say = "這種東西對我來說和廢紙沒有區別！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,8 +312,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "别急嘛，刚才我说了，过去的事已经过去了。我可没有说这份命令书是腓特烈的哦？",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "別急嘛，剛才我說了，過去的事已經過去了。我可沒有說這份命令書是腓特烈的哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "你……是什么意思？",
+			say = "妳……是什麼意思？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "看到格奈森瑙试图将命令书抛出去的手僵在了半空中，乌尔里希知道自己猜对了。",
+			say = "看到格奈森瑙試圖將命令書拋出去的手僵在了半空中，烏爾里希知道自己猜對了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,8 +360,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "如果这份命令书是其他人的呢，比如————",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "如果這份命令書是其他人的呢，比如————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "在听到乌尔里希说出的名字后，格奈森瑙的表情彻底凝固了。",
+			say = "在聽到烏爾里希說出的名字後，格奈森瑙的表情徹底凝固了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "乌尔里希已经十分清楚，面前已经META化的格奈森瑙是不会轻易显露出内心真实想法的类型。",
+			say = "烏爾里希已經十分清楚，面前已經META化的格奈森瑙是不會輕易顯露出內心真實想法的類型。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "但是，想悄无声息掩盖掉如此规模的震惊也不是那么容易的。",
+			say = "但是，想悄無聲息掩蓋掉如此規模的震驚也不是那麼容易的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "格奈森瑙在沉默中打开了命令书，在缓慢地核对了落款之后，将名字轻声念了出来——",
+			say = "格奈森瑙在沉默中打開了命令書，在緩慢地核對了落款之後，將名字輕聲念了出來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "俾斯麦……",
+			say = "俾斯麥……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "无比熟悉的名字，像一股暖流在瞬间灌入她几乎空洞的躯壳中。",
+			say = "無比熟悉的名字，像一股暖流在瞬間灌入她幾乎空洞的軀殼中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "过往的记忆——或者说过往记忆残留的碎片，此时正在她的眼前不断闪回着。",
+			say = "過往的記憶——或者說過往記憶殘留的碎片，此時正在她的眼前不斷閃回著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "她记起了她们之间的相遇，她临行前的话语，以及——她不会再返航的噩耗。",
+			say = "她記起了她們之間的相遇，她臨行前的話語，以及——她不會再返航的噩耗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "时间仿佛回到了收到噩耗的那个傍晚，暮色照进那间已经空无一人的房间中。",
+			say = "時間彷彿回到了收到噩耗的那個傍晚，暮色照進那間已經空無一人的房間中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "她站在走廊里，犹豫着、徘徊着，却终究没有勇气再次推开那扇门。",
+			say = "她站在走廊裡，猶豫著、徘徊著，卻終究沒有勇氣再次推開那扇塔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "她曾经说过，已铸成的遗憾是永远无法弥补的，我们能做的唯有放眼未来……",
+			say = "她曾經說過，已鑄成的遺憾是永遠無法彌補的，我們能做的唯有放眼未來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,8 +537,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "当视野足够开阔之后，未知的过去又何尝不是未来的一种呢？",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "當視野足夠開闊之後，未知的過去又何嘗不是未來的一種呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,8 +554,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "你肯定认得她的笔迹，就算作假也不会逃过你的眼睛。",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "妳肯定認得她的筆跡，就算作假也不會逃過你的眼睛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "格奈森瑙没有回答，只是用颤抖的双手一遍又一遍抚摸着冰冷信纸上的落款。",
+			say = "格奈森瑙沒有回答，只是用顫抖的雙手一遍又一遍撫摸著冰冷信紙上的落款。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "是的……笔迹确实是她的没错，可是我不明白……这种感觉……",
+			say = "是的……筆跡確實是她的沒錯，可是我不明白……這種感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "……不，不对，不应该是这样的！",
+			say = "……不，不對，不應該是這樣的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "她不应该遭受这些！！！！！！",
+			say = "她不應該遭受這些！！！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,8 +636,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "她是自愿选择的，为了铁血的未来。",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "她是自願選擇的，為了鐵血的未來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,8 +653,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "你呢？愿意为她自愿做出如此奉献的铁血献上忠诚么？",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "妳呢？願意為她自願做出如此奉獻的鐵血獻上忠誠嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,8 +687,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "回答我，格奈森瑙！我现在给了你一次弥补遗憾的机会，你要抓住么？！",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "回答我，格奈森瑙！我現在給了妳一次彌補遺憾的機會，妳要抓住嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "她的情况已经很严重了吧……",
+			say = "她的情況已經很嚴重了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,8 +721,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "在你回答我的上一个问题之前，我不会跟你谈论更多了。",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "在妳回答我的上一個問題之前，我不會跟你談論更多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "格奈森瑙死死盯着被紧紧捏在手中的命令书，仔细确认着纸张上的每一处细节。",
+			say = "格奈森瑙死死盯著被緊緊捏在手中的命令書，仔細確認著紙張上的每一處細節。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "她仿佛在眼中看到了虚弱的俾斯麦艰难写下这封信的样子，依旧是在那间熟悉的房间中。",
+			say = "她彷彿在眼中看到了虛弱的俾斯麥艱難寫下這封信的樣子，依舊是在那間熟悉的房間中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,7 +781,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "末了，俾斯麦将笔搁在一旁，微笑着向她伸出手——",
+			say = "末了，俾斯麥將筆擱在一旁，微笑著向她伸出手——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +795,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "她能清晰的感觉到自己的心跳停了半拍，从那已然暗淡的灵魂中突然迸发出些许破碎的火花。",
+			say = "她能清晰的感覺到自己的心跳停了半拍，從那已然暗淡的靈魂中突然迸發出些許破碎的火花。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -812,7 +812,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "我的命运已经糟糕透顶……说实话，我本想把今天当成为铁尽忠的最后一天呢。",
+			say = "我的命運已經糟糕透頂……說實話，我本想把今天當成為鐵血盡忠的最後一天呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -829,7 +829,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "但……如果是为了她，我想再努力一下……",
+			say = "但……如果是為了她，我想再努力一下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,8 +845,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "很荣幸我们能达成一致。",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "很榮幸我們能達成一致。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -863,7 +863,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "……你们有办法过来，自然有办法离开吧？",
+			say = "……妳們有辦法過來，自然有辦法離開吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,7 +879,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "烏爾里希·馮·胡滕",
 			say = "那是自然。",
 			typewriter = {
 				speed = 0.05,
@@ -897,7 +897,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "回去之后我要见她。",
+			say = "回去之後我要見她。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,8 +913,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "这是你应得的权利。",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "這是妳應得的權利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -930,8 +930,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "不过，刚刚内容不要跟任何人说起。如果她现在的状况泄露出去的话，后果你应该很清楚。",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "不過，剛剛內容不要跟任何人說起。如果她現在的狀況洩露出去的話，後果你應該很清楚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -964,8 +964,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "走吧，我们一同归队，是时候返航了。",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "走吧，我們一同歸隊，是時候返航了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -981,8 +981,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "……还有，把眼泪擦一下。接下来将会比以前更需要那个“疯狂”的你呢。",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "……還有，把眼淚擦一下。接下來將會比以前更需要那個“瘋狂”的妳呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -999,7 +999,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "格奈森瑙·META",
-			say = "呵，你以为你在跟谁说话啊，不要得寸进尺，乌尔里希·冯·胡滕！",
+			say = "呵，妳以為妳在跟誰說話啊，不要得寸進尺，烏爾里希·馮·胡滕！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1015,8 +1015,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "这就对了，格奈森瑙·META，欢迎加入铁血。",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "這就對了，格奈森瑙·META，歡迎加入鐵血。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1032,8 +1032,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "Eisen und Blut über alles——让我们一同向着未来进发吧！",
+			actorName = "烏爾里希·馮·胡滕",
+			say = "Eisen und Blut über alles——讓我們一同向著未來進發吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1048,7 +1048,7 @@ return {
 			bgName = "bg_midgard_5",
 			dir = 1,
 			blackBg = true,
-			say = "距离米德加尔特之塔关闭剩余——11小时17分。",
+			say = "距離米德加爾特之塔關閉剩餘——11小時17分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

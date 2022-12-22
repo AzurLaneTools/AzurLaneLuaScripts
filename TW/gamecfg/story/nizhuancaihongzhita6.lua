@@ -15,7 +15,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "抱歉，让各位久等了。",
+			say = "抱歉，讓各位久等了。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "史特拉塞阁下，现在情况如何？",
+			say = "史特拉塞閣下，現在情況如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "战斗已经进入收尾阶段，因为采用了外围阻击策略加上要塞防御设施的帮助，敌方袭击没有造成任何损伤。",
+			say = "戰鬥已經進入收尾階段，因為採用了外圍阻擊策略加上要塞防禦設施的幫助，敵方襲擊沒有造成任何損傷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在正在抽调防御系统的供能至主系统，预计15分钟后米德加尔特之塔就能完全启动了。",
+			say = "現在正在抽調防禦系統的供能至主系統，預計15分鐘後米德加爾特之塔就能完全啟動了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "辛苦了，史特拉塞阁下。",
+			say = "辛苦了，史特塞拉閣下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在距离开启还有最后一点时间，大家做好出发前的最后检查吧。",
+			say = "現在距離開啟還有最後一點時間，大家做好出發前的最後檢查吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "乌尔里希阁下，你觉得这个人工奇异点像什么呀，马桶圈，还是甜甜圈？",
+			say = "烏爾里希閣下，妳覺得這個人工奇異點像什麼呀，馬桶圈，還是甜甜圈？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "居然还在纠结这个话题……",
+			say = "居然還在糾結這個話題……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "这个嘛……我觉得都不像。这个建筑物可不是如此美好的东西哦。",
+			say = "這個嘛……我覺得都不像。這個建築物可不是如此美好的東西哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你知道现在这个名字的含义么？",
+			say = "妳知道現在這個名字的含義嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "米德加尔特……是神话之中人类居住的世界？",
+			say = "米德加爾特……是神話之中人類居住的世界？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "没错，所以我觉得这个名字就足够形象了。",
+			say = "沒錯，所以我覺得這個名字就足夠形象了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "米德加尔特之塔——人类世界制作的，通向未知的高塔。",
+			say = "米德加爾特之塔——人類世界製作的，通向未知的高塔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "不过倒是让我想起来了一个其他问题，现在这座高塔，究竟是通向上呢，还是在通向下呢……",
+			say = "不過倒是讓我想起來了一個其他問題，現在這座高塔，究竟是通向上呢，還是在通向下呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "通向上，还是通向下？",
+			say = "通向上，還是通向下？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "向上为神之国度，向下为冥界……不论如何，要等实际进去看看之后才知道了。",
+			say = "向上為神之國度，向下為冥界……不論如何，要等實際進去看看之後才知道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "伴随着巨大的轰鸣声，海水，连同光束，甚至天空的云层都开始一同旋转，形成了一个巨大的立体旋涡。",
+			say = "伴隨著巨大的轟鳴聲，海水，連同光束，甚至天空的雲層都開始一同旋轉，形成了一個巨大的立體旋渦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "乌尔里希阁下，启动程序已经全部完成。",
+			say = "烏爾里希閣下，啟動程序已經全部完成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "米德加尔特之门在成功启动后将会稳定运行至少17个小时，请在严格遵守时限，务必在时间结束前返回。",
+			say = "米德加爾特之門在成功啟動後將會穩定運行至少17個小時，請嚴格遵守時限，務必在時間結束前返回。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "现在请踏入旅途吧，祝愿你们一切顺利。",
+			say = "現在請踏入旅途吧，祝願妳們一切順利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "明白，接下来就是我们的战场了。",
+			say = "明白，接下來就是我們的戰場了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "探索舰队全员注意，现在设置17小时的倒计时。",
+			say = "探索艦隊全員注意，現在設置17小時的倒數計時。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "进入次序为，U-1206，我，阿达尔伯特，马格德堡先进，易北带领量产型舰队最后进入。",
+			say = "進入次序為，U-1206，我，阿達爾貝特，馬德堡先進，易北帶領量產型艦隊最後進入。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我们的任务是探索奇异点所连通的未知世界，因此需要尽可能收集其中的每一条情报。",
+			say = "我們的任務是探索奇異點所連通的未知世界，因此需要盡可能收集其中的每一條情報。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "此行的成果将会直接影响到之后铁血的战略方针，我们就像先驱者一般，要为后人开拓前进的道路。",
+			say = "此行的成果將會直接影響到之後鐵血的戰略方針，我們就像先驅者一般，要為後人開拓前進的道路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "出发————！",
+			say = "出發————！",
 			effects = {
 				{
 					active = true,
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "乌尔里希·冯·胡滕下完命令后，率先冲入激流，消失在光怪陆离的漩涡之中。",
+			say = "烏爾里希·馮·胡滕下完命令後，率先衝入激流，消失在光怪陸離的漩渦之中。",
 			effects = {
 				{
 					active = false,
@@ -503,7 +503,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真的要进去么，突然感觉我好像还没准备好……",
+			say = "真的要進去嗎，突然感覺我好像還沒準備好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "准备工作是永远做不完的。该上就要上，冲了哦！",
+			say = "準備工作是永遠做不完的。該上就要上，衝了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "伴随着转瞬即逝的悲鸣声，U-1206在马格德堡的裹挟下一同消失在漩涡之中。",
+			say = "伴隨著轉瞬即逝的悲鳴聲，U-1206在馬德堡的裹挾下一同消失在漩渦之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "那我们奇异点后见了，易北。",
+			say = "那我們奇異點後見了，易北。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "奇异点后见啦。",
+			say = "奇異點後見啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "说完话，阿达尔伯特亲王从容淡定地进入了漩涡之中。",
+			say = "說完話，阿達爾貝特親王從容淡定地進入了漩渦之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "检查完成。量产型舰队的规模作为护卫来说也算可堪一用。",
+			say = "檢查完成。量產型艦隊的規模做為護衛來說也算可堪一用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "真是的……完全不知道另一侧的情况，究竟会遇到什么东西呢，令人期待啊~",
+			say = "真是的……完全不知道另一側的情況，究竟會遇到什麼東西呢，令人期待啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "那么彼得和威悉，我也走啦，等着我凯旋归来的身影吧。",
+			say = "那麼彼得和威悉，我也走啦，等著我凱旋歸來的身影吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406010,
-			say = "加油！不论在何处，都要展现铁血航空母舰的英姿，让我们的舰载机翱翔在异世界的天空之上吧。",
+			say = "加油！不論在何處，都要展現鐵血航空母艦的英姿，讓我們的艦載機翱翔在異世界的天空之上吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有拜托你的气动力学数据，别忘了哦。",
+			say = "還有拜託妳的空氣動力學數據，別忘了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "在装置中心如心跳般律动的光芒中，探索舰队成员，连同庞大的量产型舰队在内全部消失的无影无踪。铁血的探索行动终于开始了。",
+			say = "在裝置中心如心跳般律動的光芒中，探索艦隊成員，連同龐大的量產型艦隊在內全部消失的無影無蹤。鐵血的探索行動終於開始了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			bgName = "bg_midgard_2",
 			dir = 1,
 			blackBg = true,
-			say = "距离米德加尔特之塔关闭剩余——16小时55分。",
+			say = "距離米德加爾特之塔關閉剩餘——16小時55分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -73,20 +73,13 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 1,
-			dir = 1,
-			actorName = "{namecode:79}",
+			bgName = "star_level_bg_101",
 			say = "趁著打掃完神社的空檔，和{namecode:79}她們到休息室裡稍作休息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
 			}
 		},
 		{

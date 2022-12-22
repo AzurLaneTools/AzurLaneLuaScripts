@@ -3,6 +3,8 @@ pg.login = {
 	{
 		id = 1,
 		login_static = "login",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -36,6 +38,8 @@ pg.login = {
 	{
 		id = 2,
 		login_static = "login",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -69,6 +73,8 @@ pg.login = {
 	{
 		id = 3,
 		login_static = "login",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -102,6 +108,8 @@ pg.login = {
 	{
 		id = 4,
 		login_static = "login",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -135,6 +143,8 @@ pg.login = {
 	{
 		id = 5,
 		login_static = "login_0921",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -168,6 +178,8 @@ pg.login = {
 	[7] = {
 		id = 7,
 		login_static = "login_newyear",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -201,6 +213,8 @@ pg.login = {
 	[8] = {
 		id = 8,
 		login_static = "login",
+		op_play = 0,
+		op_time = "",
 		login_cri = "loginbg",
 		bgm = "main-chunjie3",
 		date = {
@@ -234,6 +248,8 @@ pg.login = {
 	[9] = {
 		id = 9,
 		login_static = "login_0214",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -267,6 +283,8 @@ pg.login = {
 	[10] = {
 		id = 10,
 		login_static = "login",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -300,6 +318,8 @@ pg.login = {
 	[12] = {
 		id = 12,
 		login_static = "login_0401",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -330,6 +350,186 @@ pg.login = {
 			}
 		}
 	},
+	[1001] = {
+		id = 1001,
+		op_play = 1,
+		login_static = "login_newyear",
+		login_cri = "",
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2023,
+					1,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[1002] = {
+		id = 1002,
+		op_play = 1,
+		login_static = "login",
+		login_cri = "",
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					12,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[1003] = {
+		id = 1003,
+		op_play = 1,
+		login_static = "login",
+		login_cri = "",
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2023,
+					1,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					12,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -340,6 +540,9 @@ pg.login = {
 		8,
 		9,
 		10,
-		12
+		12,
+		1001,
+		1002,
+		1003
 	}
 }

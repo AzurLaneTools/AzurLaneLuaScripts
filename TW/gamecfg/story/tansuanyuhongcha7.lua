@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>七 放假</size>",
+					"碳酸與紅茶\n\n<size=45>七 放假</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "皇家午茶<Queen's Tea>，正常营业中——",
+			say = "皇家午茶<Queen's Tea>，正常營業中——",
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家的各位下午好~我们来光临你们店了哦！",
+			say = "皇家的各位下午好~我們來光臨妳們店了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "U1206，这里应该用“拜访”才对。",
+			say = "U-1206，這裡應該用“拜訪”才對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201333,
-			say = "（小声）欸？铁血的……好像是隔壁的店员？",
+			say = "（小聲）欸？鐵血的……好像是隔壁的店員？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202072,
-			say = "（小声）难道是装作顾客试吃，其实是瞄准了我们皇家美食的秘密……",
+			say = "（小聲）難道是裝作顧客試吃，其實是瞄準了我們皇家美食的秘密……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（小声）放心，我觉得这个大概不可能……",
+			say = "（小聲）放心，我覺得這個大概不可能……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这不是隔壁铁血碳酸咖啡店的店员么，终于在意识到差距之后打算来本店长店里工作了？",
+			say = "這不是隔壁鐵血碳酸咖啡店的店員嗎，終於在意識到差距之後打算來本店長店裡工作了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408121,
-			say = "才不是呢~今天俾斯麦店长给我们了放假，所以我们就来玩咯！",
+			say = "才不是呢~今天俾斯麥店長讓我們放假，所以我們就來玩囉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401465,
-			say = "嗯，我们只是单纯来店里坐一下……",
+			say = "嗯，我們只是單純來店裡坐一下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "来者是客，那就找空位随便坐下吧。佩内洛珀，你去接待好了。",
+			say = "來者是客，那就找空位隨便坐下吧。佩內洛珀，妳去接待好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205015,
-			say = "“是，店长”，来回答就可以了哦！",
+			say = "“是，店長”，來回答就可以了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……是，店长。",
+			say = "……是，店長。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇啊……这个就是皇家的菜单，比我们的要精致很多诶！",
+			say = "哇啊……這個就是皇家的菜單，比我們的要精緻很多誒！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401465,
-			say = "精致华丽是皇家的特色，简约效率是我们的特色。不过稍微结合一下的话……",
+			say = "精緻華麗是皇家的特色，簡約效率是我們的特色。不過稍微結合一下的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "两位客人……有什么需要点的吗？",
+			say = "兩位客人……有什麼需要點的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408121,
-			say = "看起来有很多好吃的……嘿嘿，反正全款报销，点些什么好呢！",
+			say = "看起來有很多好吃的……嘿嘿，反正全額報銷，點些什麼好呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "食物相比平日茶会并无创新，不过茶的种类大幅度提升了……",
+			say = "食物相比平日茶會並無創新，不過茶的種類大幅度提升了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "沙沙……沙沙……（写字声）",
+			say = "沙沙……沙沙……（寫字聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请问……你是在写什么东西吗？",
+			say = "請問……妳是在寫什麼東西嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401465,
-			say = "没什么，不用在意。",
+			say = "沒什麼，不用在意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401465,
-			say = "猫猫很可爱，悠扬的琴声也令人身心舒畅……",
+			say = "貓貓很可愛，悠揚的琴聲也令人身心舒暢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "沙沙……沙沙……沙沙……（写字声）",
+			say = "沙沙……沙沙……沙沙……（寫字聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……总之，客人还是先点些什么再记录吧？",
+			say = "……總之，客人還是先點些什麼再紀錄吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦对，点单……",
+			say = "哦對，點菜……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我决定好了！从上到下全都来一份可以么！",
+			say = "我決定好了！從上到下全都來一份可以嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "店长，铁血的探店二人组心满意足地离开了。",
+			say = "店長，鐵血的探店二人組心滿意足地離開了。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -591,7 +591,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本店长都看到了哦，应对的非常不错！",
+			say = "本店長都看到了哦，應對的非常不錯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "店长，如果我们店的优势被铁血顺利借鉴了，我们的竞争力会不会因此而下降——",
+			say = "店長，如果我們店的優勢被鐵血順利借鑒了，我們的競爭力會不會因此而下降——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205015,
-			say = "不用担心~！我们“皇家午茶”才不是那种被别人学习模仿一下就能简单超过的店铺！",
+			say = "不用擔心~！我們“皇家午茶”才不是那種被別人學習模仿一下就能簡單超過的店鋪！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205015,
-			say = "不过……福利待遇上被比下去了。",
+			say = "不過……福利待遇上被比下去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好，本店长决定了！今天下午你们所有人都放假！",
+			say = "好，本店長決定了！今天下午妳們所有人都放假！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202072,
-			say = "我，我们是被炒鱿鱼了吗？！",
+			say = "我，我們是被炒魷魚了嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然不是！既然铁血给她们的店员放假，我们也不能被比下去！",
+			say = "當然不是！既然鐵血給她們的店員放假，我們也不能被比下去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205015,
-			say = "店里的事我会安排女仆队接手的，你们就放心的去铁血的店里玩吧！",
+			say = "店裡的事我會安排女僕隊接手的，妳們就放心的去鐵血的店裡玩吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明白了么？",
+			say = "明白了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "眾人",
 			bgName = "star_level_bg_150",
 			hidePaintObj = true,
 			dir = 1,

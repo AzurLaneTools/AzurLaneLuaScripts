@@ -271,11 +271,18 @@ function slot7(slot0, slot1)
 	SetActive(slot0._sigleItemPanel:Find("detail"), false)
 
 	slot2 = slot0._sigleItemPanel:Find("icon_bg/icon")
+	slot3 = slot0._sigleItemPanel:Find("icon_bg/frame")
 
 	setText(slot0._sigleItemPanel:Find("icon_bg/count"), "")
 	SetActive(slot0._sigleItemPanel:Find("icon_bg/startpl"), false)
 	SetActive(slot0.singleItemIntro, true)
-	setFrame(slot0._sigleItemPanel:Find("icon_bg/frame"), slot1.frame or 1)
+
+	if slot1.hideIconBG then
+		SetCompomentEnabled(slot0._sigleItemPanel:Find("icon_bg"), typeof(Image), false)
+		SetCompomentEnabled(slot0._sigleItemPanel:Find("icon_bg/frame"), typeof(Image), false)
+	else
+		setFrame(slot3, slot1.frame or 1)
+	end
 
 	if slot1.iconBg and slot1.frame then
 		setImageSprite(slot0._sigleItemPanel:Find("icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot1.frame))
@@ -1227,6 +1234,8 @@ function slot1.Clear(slot0)
 
 	setActive(slot0._top, true)
 	setActive(findTF(slot0._window, "bg"), true)
+	SetCompomentEnabled(slot0._sigleItemPanel:Find("icon_bg"), typeof(Image), true)
+	SetCompomentEnabled(slot0._sigleItemPanel:Find("icon_bg/frame"), typeof(Image), true)
 
 	slot5 = "icon_bg/own"
 

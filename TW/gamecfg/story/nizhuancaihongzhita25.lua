@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "米德加尔特之塔内侧·出口海域",
+			say = "米德加爾特之塔內側·出口海域",
 			side = 2,
 			bgName = "bg_midgard_3",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "乌尔里希阁下，外侧的史特拉塞询问我们约定的时间快到了，是否投入执行方案C的特殊舰队。",
+			say = "烏爾里希閣下，外側的史特塞拉詢問我們約定的時間快到了，是否投入執行方案C的特殊艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "来回两侧跑辛苦你了，奇异点内外侧不能通讯真是不便。",
+			say = "來回兩側跑辛苦妳了，奇異點內外側不能通訊真是不便。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "没事没事，这种被冲——",
+			say = "沒事沒事，這種被沖——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……被来回传送的感觉习惯了之后还是蛮好玩的！请问我要怎么回复那边呢？",
+			say = "……被來回傳送的感覺習慣了之後還是蠻好玩的！請問我要怎麼回復那邊呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "是啊…再过半小时就满四个小时了。",
+			say = "是啊…再過半小時就滿四個小時了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "通讯结果呢，她在走之前是留下了一个通讯频率吧？",
+			say = "通訊結果呢，她在走之前是留下了一個通訊頻率吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "呼叫了好几次哦，但是没收到任何回应！",
+			say = "呼叫了好幾次哦，但是沒收到任何回應！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "侦察情况呢？",
+			say = "偵察情況呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "向着更远方飞行的舰载机被塞壬全数击落了，不过半小时航程内没有发现任何疑似目标。",
+			say = "向著更遠方飛行的艦載機被塞壬全數擊落了，不過半小時航程內沒有發現任何疑似目標。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "看来她不会来了，吸引拉沃斯的作战计划失败。",
+			say = "看來她不會來了，吸引拉沃斯的作戰計劃失敗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "时间差不多了，在能源耗尽之前我们也准备撤退吧。",
+			say = "時間差不多了，在能源耗盡之前我們也準備撤退吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "……你要就这么离开么？",
+			say = "……妳要就這麼離開嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "虽然再继续等满四个小时也可以，不过我觉得没有等下去的必要了。",
+			say = "雖然再繼續等滿四個小時也可以，不過我覺得沒有等下去的必要了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "你不好奇发生了什么情况？",
+			say = "妳不好奇發生了什麼情況？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "通讯没有回应很正常，如你所见，跨越世界的通讯是很困难的。联络不上本身也可以作为她已经离开的证据。",
+			say = "通訊沒有回應很正常，如妳所見，跨越世界的通訊是很困難的。聯絡不上本身也可以作為她已經離開的證據。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "也许是那边的企业没有同意，也许是她头脑冷静之后改变了主意，不论如何，最后结果是我们联系不上，她也没来。",
+			say = "也許是那邊的企業沒有同意，也許是她頭腦冷靜之後改變了主意，不論如何，最後結果是我們聯繫不上，她也沒來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "侦察机被击落了，或许是塞壬在主动隐藏什么东西。",
+			say = "偵察機被擊落了，或許是塞壬在主動隱藏什麼東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "也或许只是例行进攻而已。不论是什么，只要我们离开，这里的事情就都与我们无关了。",
+			say = "也或許只是例行進攻而已。不論是什麼，只要我們離開，這裡的事情就都與我們無關了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "我想确认一下发生了什么。",
+			say = "我想回去確認一下發生了什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "为什么？她跟你还有跟我们都没有关系。",
+			say = "為什麼？她跟妳還有跟我們都沒有關係。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "我不知道，也许只是好奇吧。",
+			say = "我不知道，也許只是好奇吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "时间已经不多了，而且敌人十分难缠，我不会因为你模糊不清的好奇心就将整支舰队投入险境之中。",
+			say = "時間已經不多了，而且敵人十分難纏，我不會因為妳模糊不清的好奇心就將整支艦隊投入險境之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "告诉我，格奈森瑙，你想要回去确认的真正理由是什么？",
+			say = "告訴我，格奈森瑙，妳想要回去確認的真正理由是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "…………我有些，在意那个沙恩霍斯特的情况。",
+			say = "…………我有些，在意那個沙恩霍斯特的情況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "即便只是幻影……对我来说，你们也不过只是幻影而已，忘记了么？",
+			say = "即便只是幻影……對我來說，妳們也不過只是幻影而已，忘記了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "这件事我不能强行做主，问问大家的意见吧。",
+			say = "這件事我不能強行做主，問問大家的意見吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "这是格奈森瑙加入舰队之后的第一个请求，同伴的请求怎么能无视呢！",
+			say = "這是格奈森瑙加入艦隊之後的第一個請求，同伴的請求怎麼能無視呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，其实我也有些在意那位沙恩霍斯特的情况。从刚才的相处来看，她不像是会突然不辞而别的人。",
+			say = "嗯，其實我也有些在意那位沙恩霍斯特的情況。從剛才的相處來看，她不像是會突然不辭而別的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "虽然有些冒险，不过就这么回去总有些半途而废的感觉，我没意见。",
+			say = "雖然有些冒險，不過就這麼回去總有些半途而廢的感覺，我沒意見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "我也没意见~刚刚补给完毕，现在鱼雷充足，正适合再大闹一场！",
+			say = "我也沒意見~剛剛補給完畢，現在魚雷充足，正適合再大鬧一場！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那么这就是我们本次在奇异点中的最后任务了，三个半小时来回，不能再多了。",
+			say = "那麼這就是我們本次在奇異點中的最後任務了，三個半小時來回，不能再多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "时限一到，不论正在面对什么情况我们都要毫不迟疑的撤离，决不可再次拖延。",
+			say = "時限一到，不論正在面對什麼情況我們都要毫不遲疑的撤離，決不可再次拖延。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "……没问题。",
+			say = "……沒問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "U-1206，派艘量产型回去通知一下史特拉塞阁下，三个半小时后正式执行方案C，届时无需等待联络，直接投入特殊舰队即可。",
+			say = "U-1206，派艘量產型回去通知一下史特塞拉閣下，三個半小時後正式執行方案C，屆時無需等待聯絡，直接投入特殊艦隊即可。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "果然上面说的那些借口连你自己也不信啊。",
+			say = "果然上面說的那些藉口連妳自己也不信啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有备无患。全员转向，我们原路返回！",
+			say = "有備無患。全員轉向，我們原路返回！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			bgName = "bg_midgard_3",
 			dir = 1,
 			blackBg = true,
-			say = "距离米德加尔特之塔关闭剩余——4小时05分。",
+			say = "距離米德加爾特之塔關閉剩餘——4小時05分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

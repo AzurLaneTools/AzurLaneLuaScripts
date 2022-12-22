@@ -340,17 +340,28 @@ pg.activity_event_avatarframe = {
 		id = 40975,
 		pt_id = 59256,
 		icon_frame = 317,
-		link_event = 0,
+		link_event = 40976,
 		target = 2800,
-		start_time = "stop",
+		start_time = {
+			{
+				2022,
+				12,
+				22
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
 		task_level = {
 			{
 				1,
 				40303,
 				3,
 				{
-					1600113,
-					1602113
+					1600002,
+					1600022
 				},
 				10,
 				300
@@ -360,8 +371,8 @@ pg.activity_event_avatarframe = {
 				40703,
 				3,
 				{
-					1600213,
-					1602213
+					1600003,
+					1600023
 				},
 				10,
 				300
@@ -371,8 +382,8 @@ pg.activity_event_avatarframe = {
 				40502,
 				3,
 				{
-					1601113,
-					1603113
+					1600005,
+					1600025
 				},
 				10,
 				300
@@ -382,8 +393,8 @@ pg.activity_event_avatarframe = {
 				40802,
 				3,
 				{
-					1601213,
-					1603213
+					1600006,
+					1600026
 				},
 				10,
 				300

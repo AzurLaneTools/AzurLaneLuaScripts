@@ -16,7 +16,7 @@ return {
 			actor = 406020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "前方发现塞壬人型单位！看起来像是执行者系列……不过是没有记录过的型号？",
+			say = "前方發現塞壬人型單位！看起來像是執行者系列……不過是沒有紀錄過的型號？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "这么快就发现了新型敌人么……有点意思。",
+			say = "這麼快就發現了新型敵人嗎……有點意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真希望我们的舰装翻新也能跟上敌人型号的进化速度啊……",
+			say = "真希望我們的艦裝翻新也能跟上敵人型號的進化速度啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "比如爆破拳套之类的！",
+			say = "比如爆破拳套之類的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "现在不是做梦的时候吧，说回正题——",
+			say = "現在不是做夢的時候吧，說回正題——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "发现的塞壬执行者好像是孤立个体，没有看到周围有更多敌人存在。",
+			say = "發現的塞壬執行者好像是孤立個體，沒有看到周圍有更多敵人存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "好耶，那就把它打爆之后回去研究一下！",
+			say = "好耶，那就把它打爆之後回去研究一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "塞壬从来不孤立行动。尤其是执行者系列……不对劲。",
+			say = "塞壬從來不孤立行動。尤其是執行者系列……不對勁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "没错，乌尔里希阁下！我在水下发现了借助残骸隐藏起来的塞壬舰队，前面是个陷阱！",
+			say = "沒錯，烏爾里希閣下！我在水下發現了借助殘骸隱藏起來的塞壬艦隊，前面是個陷阱！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "哎，不会吧！用这种方法逃过我的侦察机么？",
+			say = "哎，不會吧！用這種方法逃過我的偵察機嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从来没见过只靠执行者和量产型就能执行复杂战术的塞壬啊……",
+			say = "從來沒見過只靠執行者和量產型就能執行複雜戰術的塞壬啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "也许是型号改进的特点，也许是有隐藏起来的指挥者吧。",
+			say = "也許是型號改進的特點，也許是有隱藏起來的指揮者吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "果然有点意思。迎战还是绕开？",
+			say = "果然有點意思。迎戰還是繞開？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "塞壬侦察系统比我们先进，设下陷阱的同时也就意味着早就发现我们了。",
+			say = "塞壬偵察系統比我們先進，設下陷阱的同時也就意味著早就發現我們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "在敌人面前撤退只会让情况变得更麻烦。",
+			say = "在敵人面前撤退只會讓情況變得更麻煩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "那就是战斗了~哼哼，进入奇异点后的第一战，让这里的塞壬也见识一下我们铁血舰队的厉害吧！",
+			say = "那就是戰鬥了~哼哼，進入奇異點後的第一戰，讓這裡的塞壬也見識一下我們鐵血艦隊的厲害吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，我同意。舰队排成战斗队形，只不过……用量产型舰队先上。",
+			say = "嗯，我同意。艦隊排成戰鬥隊形，只不過……用量產型艦隊先上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "敌情不明，首先用量产型试探一下对方的实力！",
+			say = "敵情不明，首先用量產型試探一下對方的實力！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

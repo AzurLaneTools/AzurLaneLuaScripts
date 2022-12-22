@@ -4,6 +4,7 @@ slot0.STATE_INITED = 1
 slot0.STATE_DISPOSE = 2
 slot1 = nil
 slot0.DRAG_EVENT_ACTION = 1
+slot0.DRAG_Click_ACTION = 2
 slot2 = {
 	CubismParameterBlendMode.Override,
 	CubismParameterBlendMode.Additive,
@@ -64,6 +65,14 @@ function slot4(slot0)
 end
 
 function slot5(slot0, slot1, slot2)
+	if slot0.enablePlayActions and #slot0.enablePlayActions > 0 and not table.contains(slot0.enablePlayActions, slot1) then
+		return
+	end
+
+	if slot0.ignorePlayActions and #slot0.ignorePlayActions > 0 and table.contains(slot0.ignorePlayActions, slot1) then
+		return
+	end
+
 	if slot0.updateAtom then
 		slot0:AtomSouceFresh()
 	end
@@ -96,10 +105,15 @@ function slot7(slot0, slot1, slot2)
 		slot4 = slot2.callback
 
 		uv0(slot0, slot2.action, false)
+		slot0:applyActiveData(slot2.active)
 	end
 end
 
 function slot8(slot0)
+	if not slot0._l2dCharEnable then
+		return
+	end
+
 	slot1 = false
 
 	for slot5 = 1, #slot0.drags do
@@ -122,22 +136,24 @@ end
 function slot9(slot0)
 	slot0.drags = {}
 	slot0.dragParts = {}
+	slot0._l2dCharEnable = true
+	slot0._shopPreView = slot0.live2dData.shopPreView
 
 	for slot4 = 1, #uv0.assistantTouchParts do
 		table.insert(slot0.dragParts, uv0.assistantTouchParts[slot4])
 	end
 
 	for slot4, slot5 in ipairs(slot0.live2dData.shipL2dId) do
-		if pg.ship_l2d[slot5] then
+		if pg.ship_l2d[slot5] and slot0:getDragEnable(slot6) then
 			if slot0.liveCom:GetCubismParameter(slot6.parameter) then
-				slot8 = Live2dDrag.New(slot6)
+				slot9 = Live2dDrag.New(slot6)
 
-				slot8:setParameterCom(slot7, function (slot0, slot1)
+				slot9:setParameterCom(slot8, function (slot0, slot1)
 					uv0(uv1, slot0, slot1)
 				end)
-				slot0.liveCom:AddParameterValue(slot8.parameterName, slot8.startValue, uv2[slot6.mode])
-				table.insert(slot0.drags, slot8)
-				table.insert(slot0.dragParts, slot8.drawAbleName)
+				slot0.liveCom:AddParameterValue(slot9.parameterName, slot9.startValue, uv2[slot6.mode])
+				table.insert(slot0.drags, slot9)
+				table.insert(slot0.dragParts, slot9.drawAbleName)
 			else
 				print(slot6.parameter .. "找不到这个参数")
 			end
@@ -146,10 +162,18 @@ function slot9(slot0)
 
 	slot0.liveCom:SetDragParts(slot0.dragParts)
 	slot0.liveCom:SetMouseInputActions(System.Action(function ()
+		if not uv0._l2dCharEnable then
+			return
+		end
+
 		if #uv0.drags > 0 and uv0.liveCom:GetDragPart() > 0 and uv0.liveCom:GetDragPart() - #uv1.assistantTouchParts > 0 and uv0.drags[slot0] then
 			uv0.drags[slot0]:startDrag(uv0.live2dAction)
 		end
 	end), System.Action(function ()
+		if not uv0._l2dCharEnable then
+			return
+		end
+
 		if uv0.drags and #uv0.drags > 0 then
 			for slot3 = 1, #uv0.drags do
 				uv0.drags[slot3]:stopDrag()
@@ -234,6 +258,10 @@ function slot10(slot0, slot1)
 
 		slot0.delayChangeParamater = nil
 	end
+
+	slot0.enablePlayActions = {}
+	slot0.ignorePlayActions = {}
+	slot0.idleIndex = 0
 end
 
 function slot0.Ctor(slot0, slot1, slot2)
@@ -273,6 +301,7 @@ function slot0.SetVisible(slot0, slot1)
 		slot2 = slot0.liveCom
 
 		slot2:IgonreReactPos(true)
+		slot0:Reset()
 		uv0(slot0, "idle", true)
 
 		slot0._readlyToStop = true
@@ -289,6 +318,22 @@ function slot0.IgonreReactPos(slot0, slot1)
 	if slot0.liveCom then
 		slot0.liveCom:IgonreReactPos(slot1)
 	end
+end
+
+function slot0.l2dCharEnable(slot0, slot1)
+	slot0._l2dCharEnable = slot1
+end
+
+function slot0.inShopPreView(slot0, slot1)
+	slot0._shopPreView = slot1
+end
+
+function slot0.getDragEnable(slot0, slot1)
+	if slot0._shopPreView and slot1.shop_action == 0 then
+		return false
+	end
+
+	return true
 end
 
 function slot0.updateShip(slot0, slot1)
@@ -322,6 +367,36 @@ end
 
 function slot0.Reset(slot0)
 	slot0:live2dActionChange(false)
+
+	slot0.enablePlayActions = {}
+	slot0.ignorePlayActions = {}
+
+	if slot0.idleIndex ~= 0 then
+		slot0:changeIdleIndex(0)
+	end
+end
+
+function slot0.applyActiveData(slot0, slot1)
+	slot3 = slot1.ignore
+	slot4 = slot1.idle
+
+	if slot1.enable and #slot2 >= 0 then
+		slot0.enablePlayActions = slot2
+	end
+
+	if slot3 and #slot3 >= 0 then
+		slot0.ignorePlayActions = slot3
+	end
+
+	if slot4 and slot4 >= 0 then
+		slot0:changeIdleIndex(slot4)
+	end
+end
+
+function slot0.changeIdleIndex(slot0, slot1)
+	slot0.idleIndex = slot1
+
+	slot0._animator:SetInteger("idle", slot1)
 end
 
 function slot0.live2dActionChange(slot0, slot1)

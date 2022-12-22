@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在炮火与轰鸣的战场中，乌尔里希·冯·胡滕一边开火，一边冷静地思考着。",
+			say = "在炮火與轟鳴的戰場中，烏爾里希·馮·胡滕一邊開火，一邊冷靜地思考著。",
 			side = 2,
 			bgName = "bg_midgard_3",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "局势焦灼，但并不绝望。",
+			say = "局勢焦灼，但並不絕望。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,71 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "因为铁血舰队的人数优势，虽然还没取得上风，却牢牢把握着战斗主动权。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_midgard_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 405030,
-			say = "可META是能通过人数轻易压倒的么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_midgard_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 405030,
-			say = "是她太弱了，我们太强了还是……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_3",
-			say = "细看下来，格奈森瑙行动确实的有不自然之处。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_3",
-			say = "虽然每一发炮击都蕴含着夸张威力，但在机动性上就逊色了许多。宁可硬吃下不少火力，也不愿轻易移动位置。",
+			say = "因為鐵血艦隊的人數優勢，雖然還沒取得上風，卻牢牢把握著戰鬥主動權。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "原来如此，受伤了啊。",
+			say = "可是META是能通過人數輕易壓倒的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +89,71 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "受伤确实会影响战斗力。但是还不止……还有什么原因在影响着局势。",
+			say = "是她太弱了，我們太強了還是……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_3",
+			say = "細看下來，格奈森瑙行動確實的有不自然之處。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_3",
+			say = "雖然每一發炮擊都蘊含著誇張威力，但在機動性上就遜色了許多。寧可硬吃下不少火力，也不願輕易移動位置。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_midgard_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 405030,
+			say = "原來如此，受傷了啊。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "bg_midgard_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 405030,
+			say = "受傷確實會影響戰鬥力。但是還不止……還有什麼原因在影響著局勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "之前提到铁血命令的时候，我看到了她眼神中燃起的一丝火焰。",
+			say = "之前提到鐵血命令的時候，我看到了她眼神中燃起的一絲火焰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "可是再次提到腓特烈的时候，火焰又熄灭了……",
+			say = "可是再次提到腓特烈的時候，火焰又熄滅了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……原来如此，所以才准备了“另一份命令”么。",
+			say = "……原來如此，所以才准備了“另一份命令”嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "乌尔里希像是想到了什么一般，突然停止了炮击，然后打开了舰队广播。",
+			say = "烏爾里希像是想到了什麼一般，突然停止了炮擊，然後打開了艦隊廣播。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里是舰队旗舰乌尔里希·冯·胡滕，舰队立刻停止射击，全员后撤。",
+			say = "這裡是艦隊旗艦烏爾里希·馮·胡滕，艦隊立刻停止射擊，全員後撤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "重复一遍，舰队立刻停止射击，全员后撤。",
+			say = "重複一遍，艦隊立刻停止射擊，全員後撤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "啊……为什么要现在后撤？",
+			say = "啊……為什麼要現在後撤？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我感觉再过一小会就能取得胜利了哎！",
+			say = "我感覺再過一下子就能取得勝利了哎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "突袭也马上就能发动了！（震惊）",
+			say = "突襲也馬上就能發動了！（震驚）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "指令太跳跃了，稍微解释一下……乌尔里希。",
+			say = "指令太跳躍了，稍微解釋一下……烏爾里希。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "无视了震惊的众人，乌尔里希接下来说出了更加令人震惊的话语。",
+			say = "無視了震驚的眾人，烏爾里希接下來說出了更加令人震驚的話語。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "让舰队撤退，自然是为了腾出场地来————",
+			say = "讓艦隊撤退，自然是為了空出場地來————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "格奈森瑙，来一对一的决斗吧！",
+			say = "格奈森瑙，來一對一的決鬥吧！",
 			effects = {
 				{
 					active = true,

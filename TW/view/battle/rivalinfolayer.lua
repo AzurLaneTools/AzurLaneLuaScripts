@@ -28,6 +28,24 @@ function slot0.didEnter(slot0)
 		weight = LayerWeightConst.SECOND_LAYER
 	})
 	slot0:initRivalInfo()
+
+	slot0.isRealName = false
+	slot0.realNameToggle = slot0:findTF("info/real_name")
+
+	onToggle(slot0, slot0.realNameToggle, function (slot0)
+		uv0.isRealName = slot0
+
+		uv0:UpdateNames()
+	end, SFX_PANEL)
+	setActive(slot0.realNameToggle, pg.PushNotificationMgr.GetInstance():isEnableShipName())
+end
+
+function slot0.UpdateNames(slot0)
+	for slot4, slot5 in pairs(slot0.names) do
+		slot7 = slot5[2]
+
+		setText(findTF(slot5[1], "content/info/name_mask/name"), slot0.isRealName and slot7:GetDefaultName() or slot7:getName())
+	end
 end
 
 function slot0.initRivalInfo(slot0)
@@ -59,6 +77,8 @@ function slot0.initRivalInfo(slot0)
 		end)
 	end
 
+	slot0.names = {}
+
 	function slot1(slot0, slot1)
 		flushShipCard(slot0, slot1)
 		setScrollText(findTF(slot0, "content/info/name_mask/name"), getProxy(PlayerProxy):getRawData():ShouldCheckCustomName() and slot1:GetDefaultName() or slot1:getName())
@@ -73,6 +93,10 @@ function slot0.initRivalInfo(slot0)
 
 		if slot3 then
 			uv1(slot4, slot3)
+			table.insert(uv0.names, {
+				slot4,
+				slot3
+			})
 		end
 	end
 

@@ -92,6 +92,10 @@ function slot0.updateDataList(slot0, slot1)
 	table.insert(slot0.data1_list, slot1)
 end
 
+function slot0.setDataList(slot0, slot1)
+	slot0.data1_list = slot1
+end
+
 function slot0.updateKVPList(slot0, slot1, slot2, slot3)
 	if not slot0.data1KeyValueList[slot1] then
 		slot0.data1KeyValueList[slot1] = {}
@@ -394,16 +398,22 @@ function slot0.readyToAchieve(slot0)
 				return false
 			end
 
-			if pg.TimeMgr.GetInstance():DiffDay(slot0:getStartTime(), pg.TimeMgr.GetInstance():GetServerTime()) + 1 > #slot4 then
-				slot6 = #slot4 or slot6
+			slot6 = pg.TimeMgr.GetInstance()
+
+			if (slot6:DiffDay(slot0:getStartTime(), slot6:GetServerTime()) + 1) * slot0:getConfig("config_id") > #slot4 then
+				slot7 = #slot4 or slot7
 			end
 
-			return slot6 - slot0.data1 > 0 and _.any(slot4, function (slot0)
+			return slot7 - slot0.data1 > 0 and _.any(slot4, function (slot0)
 				return uv0:getTaskById(slot0) and slot1:isFinish()
 			end)
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_EVENT then
 			return PlayerPrefs.GetInt("ACTIVITY_TYPE_EVENT_" .. slot0.id .. "_" .. getProxy(PlayerProxy):getData().id) == 0
-		elseif slot3 == ActivityConst.ACTIVITY_TYPE_PT_OTHER and slot0.data2 and slot0.data2 <= 0 and pg.activity_event_avatarframe[slot0:getConfig("config_id")].target <= slot0.data1 then
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_PT_OTHER then
+			if slot0.data2 and slot0.data2 <= 0 and pg.activity_event_avatarframe[slot0:getConfig("config_id")].target <= slot0.data1 then
+				return true
+			end
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_HOTSPRING and slot0.data1 < slot0:getConfig("config_data")[1][3] + 1 and slot4[1][2] <= slot0.data2 then
 			return true
 		end
 	end
@@ -477,11 +487,19 @@ function slot0.IsShowTipById(slot0)
 end
 
 function slot0.isShow(slot0)
-	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
-		return slot0:getConfig("is_show") > 0 and slot0.data1 ~= 0
-	else
-		return slot0:getConfig("is_show") > 0
+	if slot0:getConfig("is_show") <= 0 then
+		return false
 	end
+
+	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
+		return slot0.data1 ~= 0
+	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_CLIENT_DISPLAY and slot0:getConfig("config_client").display_link then
+		return underscore.any(slot1, function (slot0)
+			return slot0[2] == 0 or pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot0[2]].time)
+		end)
+	end
+
+	return true
 end
 
 function slot0.isAfterShow(slot0)
@@ -541,7 +559,7 @@ function slot0.getNotificationMsg(slot0)
 		slot2 = ActivityProxy.ACTIVITY_LOTTERY_SHOW_AWARDS
 	elseif slot1 == ActivityConst.ACTIVITY_TYPE_REFLUX then
 		slot2 = ActivityProxy.ACTIVITY_SHOW_REFLUX_AWARDS
-	elseif slot1 == ActivityConst.ACTIVITY_TYPE_RED_PACKETS then
+	elseif slot1 == ActivityConst.ACTIVITY_TYPE_RED_PACKETS or slot1 == ActivityConst.ACTIVITY_TYPE_RED_PACKET_LOTTER then
 		slot2 = ActivityProxy.ACTIVITY_SHOW_RED_PACKET_AWARDS
 	end
 

@@ -30,6 +30,7 @@ function slot0.execute(slot0, slot1)
 
 			for slot10, slot11 in ipairs(uv0) do
 				uv1:removeShip(slot11)
+				uv2:CheckShareSkin(slot11)
 
 				for slot15, slot16 in ipairs(slot11.equipments) do
 					if slot16 then
@@ -105,6 +106,43 @@ function slot0.execute(slot0, slot1)
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_destoryShips", slot0.result))
 		end
 	end)
+end
+
+function slot0.CheckShareSkin(slot0, slot1)
+	if not slot1.propose then
+		return
+	end
+
+	if not slot1:getProposeSkin() then
+		return
+	end
+
+	slot3 = {}
+	slot4 = {}
+
+	for slot8, slot9 in pairs(getProxy(BayProxy):getRawData()) do
+		if slot9.skinId == slot2.id then
+			if slot9.groupId == slot1.groupId then
+				table.insert(slot3, slot9)
+			else
+				table.insert(slot4, slot9)
+			end
+		end
+	end
+
+	if #slot3 <= 0 then
+		for slot8, slot9 in ipairs(slot4) do
+			slot9.skinId = slot9:getConfig("skin_id")
+		end
+	end
+
+	if #slot4 > 0 then
+		slot6 = pg.TipsMgr.GetInstance()
+
+		slot6:ShowTips(i18n("retire_marry_skin", table.concat(_.map(slot4, function (slot0)
+			return slot0:getName()
+		end), ", ")))
+	end
 end
 
 return slot0

@@ -1,5 +1,7 @@
 slot0 = class("NewYearShrinePage", import("...base.BaseActivityPage"))
 slot0.MAX_COUNT = 7
+slot0.GO_MINI_GAME_ID = 34
+slot0.GO_BACKHILL_SCENE = SCENE.NEWYEAR_BACKHILL_2022
 
 function slot0.OnInit(slot0)
 	slot0.progressTpl = slot0:findTF("ProgressTpl")
@@ -64,11 +66,11 @@ function slot0.OnFirstFlush(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.goBtn, function ()
-		pg.m02:sendNotification(GAME.GO_MINI_GAME, 20, {
+		pg.m02:sendNotification(GAME.GO_MINI_GAME, uv0.GO_MINI_GAME_ID, {
 			callback = function ()
 				slot0 = Context.New()
 
-				SCENE.SetSceneInfo(slot0, SCENE.NEWYEAR_BACKHILL)
+				SCENE.SetSceneInfo(slot0, uv0.GO_BACKHILL_SCENE)
 				getProxy(ContextProxy):PushContext2Prev(slot0)
 			end
 		})

@@ -935,6 +935,26 @@ pg.player_resource = {
 		name = "skinTicket41",
 		itemid = 59365
 	},
+	[290] = {
+		id = 290,
+		name = "wenquanjuan_pt",
+		itemid = 59371
+	},
+	[291] = {
+		id = 291,
+		name = "xinnianzhufu_pt",
+		itemid = 59372
+	},
+	[292] = {
+		id = 292,
+		name = "meixierxing_pt",
+		itemid = 59373
+	},
+	[293] = {
+		id = 293,
+		name = "skinTicket42",
+		itemid = 59374
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1822,6 +1842,18 @@ pg.player_resource = {
 		skinTicket41 = {
 			288
 		},
+		wenquanjuan_pt = {
+			290
+		},
+		xinnianzhufu_pt = {
+			291
+		},
+		meixierxing_pt = {
+			292
+		},
+		skinTicket42 = {
+			293
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2206,6 +2238,10 @@ pg.player_resource = {
 		286,
 		287,
 		288,
+		290,
+		291,
+		292,
+		293,
 		950,
 		951,
 		952,

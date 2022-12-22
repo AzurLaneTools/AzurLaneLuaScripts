@@ -51,6 +51,52 @@ pg.activity_task_permanent = {
 			35026
 		}
 	},
+	[6008] = {
+		gametip = "可獲得大潮限定換裝「馴鹿與聖誕禮物」",
+		banner_route = "permanent_dachaoshengdan",
+		gametip_extra = "最快7日獲得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6008,
+		activity_name = "聖誕禮物大作戰",
+		over_task_id = "",
+		eliminate_task_id = {
+			35096,
+			35097,
+			35098,
+			35099,
+			35100,
+			35101,
+			35102,
+			35103,
+			35104,
+			35105,
+			35106,
+			35107,
+			35108,
+			35109
+		}
+	},
+	[6009] = {
+		gametip = "可獲得格里德利限定換裝「聖誕攝影會！」",
+		banner_route = "permanent_gelidelishengdan",
+		gametip_extra = "最快8日獲得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6009,
+		activity_name = "愛與和平的聖夜祭",
+		over_task_id = "",
+		eliminate_task_id = {
+			35110,
+			35111,
+			35112,
+			35113,
+			35114,
+			35115,
+			35116,
+			35117
+		}
+	},
 	[6011] = {
 		gametip = "可獲得標槍限定換裝「微速前進！」",
 		banner_route = "permanent_biaoqiang",
@@ -84,6 +130,8 @@ pg.activity_task_permanent = {
 	all = {
 		6000,
 		6001,
+		6008,
+		6009,
 		6011
 	}
 }

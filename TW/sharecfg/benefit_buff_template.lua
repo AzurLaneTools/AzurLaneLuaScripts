@@ -236,7 +236,7 @@ pg.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			40812,
+			40987,
 			{
 				20,
 				2
@@ -255,7 +255,7 @@ pg.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			40812,
+			40987,
 			{
 				20,
 				3
@@ -747,6 +747,278 @@ pg.benefit_buff_template = {
 		id = 48,
 		type_priority = 0,
 		benefit_type = "chapter_up"
+	},
+	{
+		icon = "Props/yanchangli1",
+		name = "皇家午茶Lv.1",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，受到的傷害減少1%",
+		benefit_effect = "510",
+		id = 49,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40987,
+			0
+		}
+	},
+	{
+		icon = "Props/yanchangli2",
+		name = "皇家午茶Lv.2",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，受到的傷害減少2%",
+		benefit_effect = "512",
+		id = 50,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40987,
+			0
+		}
+	},
+	{
+		icon = "Props/yanchangli3",
+		name = "皇家午茶Lv.3",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，受到的傷害減少3%",
+		benefit_effect = "514",
+		id = 51,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40987,
+			0
+		}
+	},
+	{
+		icon = "Props/yanchangli2",
+		name = "皇家午茶Lv.4",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，受到的傷害減少4%",
+		benefit_effect = "516",
+		id = 52,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40987,
+			0
+		}
+	},
+	{
+		icon = "Props/yanchangli3",
+		name = "皇家午茶Lv.5",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，受到的傷害減少5%",
+		benefit_effect = "518",
+		id = 53,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40987,
+			0
+		}
+	},
+	{
+		icon = "Props/wudaoli1",
+		name = "萊茵咖啡館Lv.1",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，造成的傷害提高1%",
+		benefit_effect = "500",
+		id = 54,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40987,
+			0
+		}
+	},
+	{
+		icon = "Props/wudaoli2",
+		name = "萊茵咖啡館Lv.2",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，造成的傷害提高2%",
+		benefit_effect = "502",
+		id = 55,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40987,
+			0
+		}
+	},
+	{
+		icon = "Props/wudaoli3",
+		name = "萊茵咖啡館Lv.3",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，造成的傷害提高3%",
+		benefit_effect = "504",
+		id = 56,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40987,
+			0
+		}
+	},
+	{
+		icon = "Props/wudaoli2",
+		name = "萊茵咖啡館Lv.4",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，造成的傷害提高4%",
+		benefit_effect = "506",
+		id = 57,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40987,
+			0
+		}
+	},
+	{
+		icon = "Props/wudaoli3",
+		name = "萊茵咖啡館Lv.5",
+		hide = 0,
+		max_time = 0,
+		desc = "主線、困難、活動、作戰檔案關卡中，造成的傷害提高5%",
+		benefit_effect = "508",
+		id = 58,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40987,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "翔鶴的祈願",
+		hide = 0,
+		max_time = 86400,
+		desc = "翔鶴的祈願——主線、困難、活動、作戰檔案關卡中，受到的傷害減少3%\n剩餘時間:$1",
+		benefit_effect = "520",
+		id = 59,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40988,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "瑞鶴的祈願",
+		hide = 0,
+		max_time = 86400,
+		desc = "瑞鶴的祈願——主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高3%\n剩餘時間:$1",
+		benefit_effect = "3",
+		id = 60,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			40988,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "惡毒的祈願",
+		hide = 0,
+		max_time = 86400,
+		desc = "惡毒的祈願——後宅經驗加成提高3%\n剩餘時間:$1",
+		benefit_effect = "3",
+		id = 61,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			40988,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "勝利的祈願",
+		hide = 0,
+		max_time = 86400,
+		desc = "勝利的祈願——後宅經驗加成提高3%\n剩餘時間:$1",
+		benefit_effect = "3",
+		id = 62,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			40988,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "鐵必制的祈願",
+		hide = 0,
+		max_time = 86400,
+		desc = "鐵必制的祈願——主線、困難、活動、作戰檔案關卡中，受到的傷害減少3%\n剩餘時間:$1",
+		benefit_effect = "520",
+		id = 63,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40988,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "光輝的祈願",
+		hide = 0,
+		max_time = 86400,
+		desc = "光輝的祈願——主線、困難、活動、作戰檔案關卡中，受到的傷害減少3%\n剩餘時間:$1",
+		benefit_effect = "520",
+		id = 64,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			40988,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "艾塞克斯的祈願",
+		hide = 0,
+		max_time = 86400,
+		desc = "艾塞克斯的祈願——主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高3%\n剩餘時間:$1",
+		benefit_effect = "3",
+		id = 65,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			40988,
+			0
+		}
 	},
 	[103] = {
 		icon = "Props/newserver_skill",
@@ -1655,6 +1927,23 @@ pg.benefit_buff_template = {
 		46,
 		47,
 		48,
+		49,
+		50,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
 		103,
 		300001,
 		300002,

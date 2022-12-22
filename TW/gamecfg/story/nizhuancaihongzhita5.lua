@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "米德加尔特之塔·内环区",
+			say = "米德加爾特之塔·內環區",
 			side = 2,
 			bgName = "bg_midgard_2",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "近距离一看这个人工奇异点……造型就像新型抽水马桶一样啊，我们真的要进到里面去么？！",
+			say = "近距離一看這個人工奇異點……造型就像新型抽水馬桶一樣啊，我們真的要進到裡面去嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听你这么一说，心情突然有点微妙了……",
+			say = "聽妳這麼一說，心情突然有點微妙了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我倒是觉得更像甜甜圈之类的。现在还在发光，就像甜甜圈上的巧克力脆壳一样。",
+			say = "我倒是覺得更像甜甜圈之類的。現在還在發光，就像甜甜圈上的巧克力脆殼一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不不不！不管从哪个角度来看都很像马桶吧——至少也是马桶圈！",
+			say = "不不不！不管從哪個角度來看都很像馬桶吧——至少也是馬桶圈！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "那只是你的个人兴趣吧，还有为什么会把这两样东西放在一起争论啊……",
+			say = "那只是妳的個人興趣吧，還有為什麼會把這兩樣東西放在一起爭論啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……因为都是圈？而且都和吃东西有关？",
+			say = "唔……因為都是圈？而且都和吃東西有關？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "停！不要再说了，快停下来！真是的，怎么连马格德堡也被卷进这种奇怪的讨论里了……",
+			say = "停！不要再說了，快停下來！真是的，怎麼連馬德堡也被捲進這種奇怪的討論裡了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "因为实在太无聊嘛……米德加尔特之塔启动的好慢啊，明明外面正在激战，我们却只能在这里干等。",
+			say = "因為實在太無聊嘛……米德加爾特之塔啟動的好慢啊，明明外面正在激戰，我們卻只能在這裡乾等。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "启动速度确实比预想中要慢，也许是因为将启动所需的能源部分转移到防御设施上了吧。",
+			say = "啟動速度確實比預想中要慢，也許是因為將啟動所需的能源部分轉移到防禦設施上了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "那不是很不妙吗？我们出去帮忙吧！",
+			say = "那不是很不妙嗎？我們出去幫忙吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用。这种程度的滞后尚在计划之内。",
+			say = "不用。這種程度的滯後尚在計劃之內。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "之前史特拉塞应该也同你们说过，她们有她们的任务，我们有我们的。之后我们的探索任务比现在危险的多，需要保留实力。",
+			say = "之前史特拉塞應該也跟妳們說過，她們有她們的任務，我們有我們的。之後我們的探索任務比現在危險的多，保留實力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "况且，彼得·史特拉塞不可能连这点情况都搞不定，静静等着。",
+			say = "況且，彼得·史特拉塞不可能連這點情況都搞不定，靜靜等著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

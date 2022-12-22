@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "乌尔里希阁下，水下发现正在接近的敌人，我们战斗还没结束，来不及支援了！",
+			say = "烏爾里希閣下，水下發現正在接近的敵人，我們戰鬥還沒結束，來不及支援了！",
 			bgm = "battle-midgard-hunting",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "算准了我们护卫舰都不在的时候用潜艇……兵力不足，难免就有空隙，真难缠。",
+			say = "算準了我們護衛艦都不在的時候用潛艇……兵力不足，難免就有空隙，真難纏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还好我提前准备了一套反潜设备，你们呢？",
+			say = "還好我提前準備了一套反潛設備，妳們呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "还用问么……你们来之前我可是在这里一个人战斗的。",
+			say = "還用問嗎……妳們來之前我可是在這裡一個人戰鬥的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "你的腿伤就是被塞壬潜艇弄得么？",
+			say = "妳的腿傷就是被塞壬潛艇弄得嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "小伤，不影响战斗。相比我，还是首先关心一下你自己如何？",
+			say = "小傷，不影響戰鬥。相比我，還是首先關心一下妳自己如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "反潜设备都不能用了吧？",
+			say = "反潛設備都不能用了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里靠我们两个也没问题，战列舰反潜还挺有趣的。",
+			say = "這裡靠我們兩個也沒問題，戰列艦反潛還挺有趣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，这里靠我一个人就行，你带着已经没什么战斗力的沙恩霍斯特先走就好。",
+			say = "不，這裡靠我一個人就行，妳帶著已經沒什麼戰鬥力的沙恩霍斯特先走就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "……你们这是什么表情，这点塞壬让我牺牲在这里还是有些难度的。",
+			say = "……妳們這是什麼表情，這點塞壬讓我犧牲在這裡還是有些難度的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "况且我也没有这个打算了……只是在临行前再给它们留下点深刻的印象而已。",
+			say = "況且我也沒有這個打算了……只是在臨行前再給它們留下點深刻的印象而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明白了就快点走，不要扯我的后腿！",
+			say = "明白了就快點走，不要扯我的後腿！",
 			effects = {
 				{
 					active = true,

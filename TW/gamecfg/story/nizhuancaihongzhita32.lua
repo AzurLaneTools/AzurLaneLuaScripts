@@ -15,7 +15,7 @@ return {
 			actor = 900319,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "前方的代行者舰队……是先我们一步等在这里了么。",
+			say = "前方的代行者艦隊……是先我們一步等在這裡了嗎。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "距离米德加尔特之塔还有一段距离，时间不多了，必须突破过去。",
+			say = "去距離米德加爾特之塔還有一段距離，時間不多了，必須突破過去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这里就让我来开路吧……",
+			say = "這裡就讓我來開路吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "以现在这个状态，你冲过去可是一点胜算都没有的。",
+			say = "以現在這個狀態，妳衝過去可是一點勝算都沒有的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你们已经帮了我很多，我也不想继续展现这么脆弱的丑态了……",
+			say = "妳們已經幫了我很多，我也不想繼續展現這麼脆弱的醜態了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "强弱只是某一时刻的相对关系，不绝对，也不永恒。",
+			say = "強弱只是某一時刻的相對關係，不絕對，也不永恆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "强者有强者的用法，弱者有弱者的用法，铁血从不以强弱与否来区分同伴，忘了么？",
+			say = "強者有強者的用法，弱者有弱者的用法，鐵血從不以強弱與否來區分同伴，忘了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……我已经不是铁血的人了。",
+			say = "……我已經不是鐵血的人了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那余烬呢，抛弃脆弱的同伴是余烬的信条么？",
+			say = "那餘燼呢，拋棄脆弱的同伴是餘燼的信條嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你之前说这次不是你受过最重的伤对吧。",
+			say = "妳之前說這次不是妳受過最重的傷對吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那次是怎么化险为夷的，塞壬突然大发慈悲放了你一马？",
+			say = "那次是怎麼化險為夷的，塞壬突然大發慈悲放了妳一馬？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "那次是……我最初见到企业的时候。在废墟之海中绝望之时，是她为我开辟出了一条新生的道路。",
+			say = "那次是……我最初見到企業的時候。在廢墟之海中絕望之時，是她為我開闢出了一條新生的道路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "原来如此，那也是时候让我展现一下旗舰的气魄了。",
+			say = "原來如此，那也是時候讓我展現一下旗艦的氣魄了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你不是她……没胜算的。",
+			say = "妳不是她……沒勝算的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有人是天生的强者。而且还有后面正在赶来的同伴呢，加在一起努努力总有办法的。",
+			say = "沒有人是天生的強者。而且還有後面正在趕來的同伴呢，加在一起努努力總有辦法的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "乌尔里希阁下，追兵都解决了哦~",
+			say = "烏爾里希閣下，追兵都解決了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "准确来说其实没有完全解决，不过都暂时追不上来就是了！",
+			say = "準確來說其實沒有完全解決，不過都暫時追不上來就是了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "正好结束激战的格奈森瑙也被我们一起拉过来了。",
+			say = "正好結束激戰的格奈森瑙也被我們一起拉過來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然还对我发射深水炸弹，差点把我也一起反潜了诶——",
+			say = "居然還對我發射深水炸彈，差點把我也一起反潛了欸——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "……不是说好这件事不提了么。",
+			say = "……不是說好這件事不提了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说的是回去之后不再提，现在还没回去呢！",
+			say = "說的是回去之後不再提，現在還沒回去呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "她们身上的伤都多了不少……",
+			say = "她們身上的傷都多了不少……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "但是我们依然存在于此。前方是回家前的最后一道阻碍，铁血舰队，再努力一下，打穿它！",
+			say = "但是我們依然存在於此。前方是回家前的最後一道阻礙，鐵血艦隊，再努力一下，打穿它！",
 			effects = {
 				{
 					active = true,
