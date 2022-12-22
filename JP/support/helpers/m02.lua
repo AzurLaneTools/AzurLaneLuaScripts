@@ -3412,20 +3412,20 @@ function AfterCheck(slot0, slot1)
 	end
 end
 
-function CompareFuncs(slot0, slot1, slot2)
-	slot3 = 1
+function CompareFuncs(slot0, slot1, slot2, slot3)
+	slot4 = 1
 
-	while slot3 <= #slot2 do
-		slot4 = slot2[slot3]
+	while slot4 <= #slot2 do
+		slot5 = slot2[slot4]
 
-		if slot4(slot0) == slot4(slot1) then
-			slot3 = slot3 + 1
+		if slot5(slot0) == slot5(slot1) then
+			slot4 = slot4 + 1
 		else
-			return slot5 < slot6
+			return slot6 < slot7
 		end
 	end
 
-	return false
+	return tobool(slot3)
 end
 
 function DropResultIntegration(slot0)
@@ -3498,7 +3498,7 @@ function DropResultIntegration(slot0)
 end
 
 function getLoginConfig()
-	slot0 = pg.TimeMgr.GetInstance():Table2ServerTime(os.date("*t"))
+	slot0 = pg.TimeMgr.GetInstance():GetServerTime()
 	slot1 = 1
 
 	for slot5, slot6 in ipairs(pg.login.all) do
@@ -3507,17 +3507,23 @@ function getLoginConfig()
 
 			assert(not slot8)
 
-			slot10 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot7[3])
-
-			if pg.TimeMgr.GetInstance():parseTimeFromConfig(slot7[2]) < slot0 and slot0 < slot10 then
+			if pg.TimeMgr.GetInstance():inTime(slot7, slot0) then
 				slot1 = slot6
+
+				break
 			end
 		end
 	end
 
+	slot2 = pg.login[slot1].login_static ~= "" and slot2 or "login"
 	slot4 = pg.login[slot1].login_cri ~= "" and true or false
+	slot5 = pg.login[slot1].op_play == 1 and true or false
 
-	return slot4, slot4 and slot3 or (pg.login[slot1].login_static ~= "" and slot2 or "login"), pg.login[slot1].bgm
+	if pg.login[slot1].op_time == "" or not pg.TimeMgr.GetInstance():inTime(slot6, slot0) then
+		slot5 = false
+	end
+
+	return slot4, slot4 and slot3 or slot2, pg.login[slot1].bgm, slot5, slot6 == "" and slot6 or table.concat(slot6[1][1])
 end
 
 function setIntimacyIcon(slot0, slot1, slot2)

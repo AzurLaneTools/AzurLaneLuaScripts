@@ -29,7 +29,7 @@ function slot0.preload(slot0, slot1)
 			end)
 		end,
 		function (slot0)
-			uv0.isCriBg, uv0.bgPath, uv0.bgmName = getLoginConfig()
+			uv0.isCriBg, uv0.bgPath, uv0.bgmName, uv0.isOpPlay, uv0.opVersion = getLoginConfig()
 
 			if uv0.isCriBg then
 				LoadAndInstantiateAsync("effect", uv0.bgPath, function (slot0)
@@ -88,7 +88,7 @@ function slot0.init(slot0)
 	slot0.opBtn = slot0:findTF("bg_lay/buttons/opBtn")
 
 	if slot0.opBtn then
-		setActive(slot0.opBtn, PLAY_OPENING)
+		setActive(slot0.opBtn, slot0.isOpPlay)
 	end
 
 	slot0.airiUidTxt = slot0:findTF("airi_uid")
@@ -499,16 +499,16 @@ function slot0.didEnter(slot0)
 		end
 	end)
 
-	if PLAY_OPENING then
+	if slot0.isOpPlay then
 		onButton(slot0, slot0.opBtn, function ()
 			if uv0.initFinished and not pg.CpkPlayMgr.GetInstance():OnPlaying() then
 				uv0:playOpening()
 			end
 		end)
 
-		if PLATFORM_CODE ~= PLATFORM_JP and PlayerPrefs.GetString("op_ver", "") ~= OP_VERSION then
+		if PLATFORM_CODE ~= PLATFORM_JP and PlayerPrefs.GetString("op_ver", "") ~= slot0.opVersion then
 			slot0:playOpening(function ()
-				PlayerPrefs.SetString("op_ver", OP_VERSION)
+				PlayerPrefs.SetString("op_ver", uv0.opVersion)
 				uv0:playExtraVoice()
 
 				uv0.initFinished = true

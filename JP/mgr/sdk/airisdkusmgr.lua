@@ -479,7 +479,13 @@ return {
 		elseif slot2 == 100206 then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
-				content = i18n("pgs_login_tip")
+				content = i18n("pgs_login_tip"),
+				onYes = function ()
+					pg.m02:sendNotification(GAME.ON_SOCIAL_LINKED)
+				end,
+				onClose = function ()
+					pg.m02:sendNotification(GAME.ON_SOCIAL_LINKED)
+				end
 			})
 
 			return true

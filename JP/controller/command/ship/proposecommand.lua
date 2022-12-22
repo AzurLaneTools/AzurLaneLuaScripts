@@ -25,7 +25,14 @@ function slot0.execute(slot0, slot1)
 			uv0.propose = true
 			uv0.proposeTime = slot0.time
 
-			uv3:updateShip(uv0)
+			if not uv0:IsLocked() then
+				uv0:SetLockState(Ship.LOCK_STATE_LOCK)
+				uv3:updateShip(uv0)
+				uv4:sendNotification(GAME.UPDATE_LOCK_DONE, uv0)
+			else
+				uv3:updateShip(uv0)
+			end
+
 			getProxy(CollectionProxy).shipGroups[uv0.groupId]:updateMarriedFlag()
 			uv4:sendNotification(GAME.PROPOSE_SHIP_DONE, {
 				ship = uv0

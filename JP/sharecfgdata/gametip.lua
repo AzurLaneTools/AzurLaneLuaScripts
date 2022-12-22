@@ -10077,7 +10077,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「ライザリン・シュタウト」「パトリツィア・アーベルハイム」などの出現率UP！"
+	tip = "「ヨークタウンⅡ」「ノーザンプトンⅡ」などの出現率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -14337,6 +14337,10 @@ _G.pg.base.gametip["3match_tip"] = {
 
 _G.pg.base.gametip.retire_selectzero = {
 	tip = "一括退役できる艦船が存在しません"
+}
+
+_G.pg.base.gametip.retire_marry_skin = {
+	tip = "艦船$1の着せ替えが元に戻りました"
 }
 
 _G.pg.base.gametip.undermist_tip = {
@@ -19995,8 +19999,8 @@ _G.pg.base.gametip.Pray_activity_tips1 = {
 　③「艦船絵馬」による艦隊強化効果を1個入手します
 　※艦船絵馬による艦隊強化効果は艦船によって異なります
 　※艦船絵馬による艦隊強化効果は同時に1種類しか適用できず、新たに艦船絵馬を飾った場合、前の効果が上書きされます。
-・「正月オリヅル」を7つ集めると、イベントバナーでの「お正月キャンペーン2022」で「正月招待状2022」を入手できます
-・「正月招待状2022」を倉庫で使用すると、SSR艦船1隻と記念アイテムを入手できます
+・「正月オリヅル」を7つ集めると、イベントバナーでの「お正月キャンペーン2023」で「正月招待状2023」を入手できます
+・「正月招待状2023」を倉庫で使用すると、SSR艦船1隻と記念アイテムを入手できます
 
 ■「指揮官祈願」について
 ・「艦船絵馬」を飾ると、「指揮官祈願」回数を2回増加します
@@ -22511,6 +22515,10 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 	}
 }
 
+_G.pg.base.gametip.hotspring_buff = {
+	tip = "裏山温泉|入浴中の艦船のコンディション回復速度がUP"
+}
+
 _G.pg.base.gametip.random_ship_custom_mode_empty = {
 	tip = "ランダム秘書艦候補リストに艦船を追加しましょう"
 }
@@ -22581,4 +22589,258 @@ _G.pg.base.gametip.random_ship_custom_mode_add_title = {
 
 _G.pg.base.gametip.random_ship_custom_mode_remove_title = {
 	tip = "艦船削除"
+}
+
+_G.pg.base.gametip.hotspring_shop_enter1 = {
+	tip = "温泉売店へようこそにゃ！今日は何を交換するにゃ？"
+}
+
+_G.pg.base.gametip.hotspring_shop_enter2 = {
+	tip = "いらっしゃいませにゃ。報酬は引換券で交換できるにゃ"
+}
+
+_G.pg.base.gametip.hotspring_shop_insufficient = {
+	tip = "引換券が足りないにゃ。温泉の増築を手伝ってくれたら引換券をあげるにゃ"
+}
+
+_G.pg.base.gametip.hotspring_shop_success1 = {
+	tip = "毎度ありにゃ～"
+}
+
+_G.pg.base.gametip.hotspring_shop_success2 = {
+	tip = "いいセンスにゃ♪"
+}
+
+_G.pg.base.gametip.hotspring_shop_finish = {
+	tip = "在庫しょ…じゃにゃくて、報酬はすべて交換済みにゃ！"
+}
+
+_G.pg.base.gametip.hotspring_shop_end = {
+	tip = "裏山温泉は終了したけど、報酬は引き続き交換できるにゃ"
+}
+
+_G.pg.base.gametip.hotspring_shop_touch1 = {
+	tip = "明石は交換できにゃいにゃ～"
+}
+
+_G.pg.base.gametip.hotspring_shop_touch2 = {
+	tip = "報酬はただじゃあげられにゃいにゃ！"
+}
+
+_G.pg.base.gametip.hotspring_shop_touch3 = {
+	tip = "明石をからかってるのかにゃ？"
+}
+
+_G.pg.base.gametip.hotspring_shop_exchanged = {
+	tip = "報酬は1種類につき1回しか交換できにゃいにゃ～"
+}
+
+_G.pg.base.gametip.hotspring_shop_exchange = {
+	tip = " <icon name=Props/wenquanjuan w=0.7 h=0.7/> を$1個消費して、$3を$2個交換しますか？"
+}
+
+_G.pg.base.gametip.hotspring_tip1 = {
+	tip = "入浴中の艦船のコンディション回復速度が上昇します"
+}
+
+_G.pg.base.gametip.hotspring_tip2 = {
+	tip = "温泉コインが足りません"
+}
+
+_G.pg.base.gametip.hotspring_help = {
+	tip = {
+		{
+			info = [[
+裏山温泉について
+開催期間<color=#92fc63>2022.12.22-2023.1.5メンテナンスまで</color>
+
+裏山温泉とは
+裏山温泉とは、艦船を「温泉枠」に配置することで、艦船のコンディション回復速度を上昇させるシステムです。
+「温泉枠」は限定イベント完成で得られる「裏山温泉コイン」消費で拡張できます。
+また、「温泉枠」を拡張すると「温泉売店」で報酬アイテムと交換できます。
+
+遊び方
+1.2022年12月28日まで毎日開放される限定任務をクリアすると、アイテム「裏山温泉コイン」を入手できます
+2.温泉画面で枠拡張ボタンをタップすると、艦船を配置できる「温泉枠」を拡張できます
+3.「温泉枠」を拡張すると、「温泉売店」で報酬を交換できる「温泉売店引換券」を入手可能です
+4.「温泉枠」をタップするか、右上のボタンをタップすることで艦船を温泉枠に配置・配置解除できます
+5.また、温泉枠にいる艦船を長押しすることで配置枠を変更できます]]
+		}
+	}
+}
+
+_G.pg.base.gametip.hotspring_expand = {
+	tip = "裏山温泉コインを$1消費し温泉を増築しますか？"
+}
+
+_G.pg.base.gametip.hotspring_shop_help = {
+	tip = {
+		{
+			info = [[
+開催期間：2022.12.22-2023.1.5メンテナンスまで
+温泉売店について：
+1.イベント期間中12/28まで毎日開放される限定任務をクリアすると、「裏山温泉コイン」を入手できます
+2.「裏山温泉コイン」を消費し温泉を拡張すると、「温泉売店引換券」を入手できます
+3.「温泉売店引換券」は限定家具「饅頭温泉宿」と交換できます（入手可能な引換券ですべての報酬と交換できます]]
+		}
+	}
+}
+
+_G.pg.base.gametip.resorts_help = {
+	tip = {
+		{
+			info = [[
+開催期間：<color=#92fc63>2022.12.22-2023.1.5メンテナンスまで</color>
+裏山キャンペーンについて：
+「ミニゲーム」：ミニゲームを7日間プレイし、バーミンガムの着せ替え「行き先は風次第」を入手可能！
+「裏山温泉」：艦船を配置し、コンディション回復速度UP！さらに報酬家具「饅頭温泉宿」などと交換可能
+「運試し」：毎日ログインして運試しを行い、限定家具「福引き小包」を入手可能
+「幸運祈願」：毎日ログインして幸運祈願を行い、SSR艦船と交換可能な「招待状」アイテムをGET！
+「着せ替え」：着せ替えショップに移動する
+「限定建造」：限定建造に移動する]]
+		}
+	}
+}
+
+_G.pg.base.gametip.pvzminigame_help = {
+	tip = {
+		{
+			info = [[
+強敵VS花火　について：
+「強敵VS花火」とは、フィールドに饅頭や水着艦船を配置し、来襲するセイレーンを倒してスコアを稼ぐゲームです。
+<color=#92fc63>2022.12.28</color>まで、毎日0時に<color=#92fc63>新しいステージ</color>が開放されます。
+ステージをすべてクリアすると、バーミンガムの着せ替え「行き先は風次第」を入手できます。
+
+遊び方：
+1.コストである「花火」を消費し、キャラをドラッグ＆ドロップでフィールドを配置できます
+2.配置できるキャラはそれぞれ特徴があり、そのうち艦船は一人までしか配置できません
+3.饅頭キャラ：戦闘饅頭、防衛饅頭、生産饅頭
+　艦船キャラ：能代、チェシャー、樫野、リットリオ、バーミンガム
+　コストの「花火」は生産饅頭を配置すると自動で補充されます
+4.画面右下のボタンをタップし、フィールドに配置済みのキャラを配置解除すると、一定数のコスト「花火」が払い戻されます。
+5.味方、敵キャラや特殊ギミックについては「遊び方」で確認できます。
+6.ゲームオーバーになるか、ゲームを終了ボタンで一時中止すると、ゲームクリアになります。7.7日目のステージはスコアアタックステージになります]]
+		}
+	}
+}
+
+_G.pg.base.gametip.tips_yuandanhuoyue2023 = {
+	tip = {
+		{
+			info = [[
+開催期間：<color=#92fc63>2022.12.22-2023.1.5</color>
+遊び方：
+1.12月31日まで毎日0時に運試し回数が加算されます（最大10回まで）
+2.小包をタップすると、運試し回数を消費し，開封できます
+3.小包から下記の報酬を入手できます
+　各種ランクの報酬個数：一等賞×1、二等賞×2、三等賞×3、四等賞×4。
+
+　　報酬の詳細は下記になります：
+　一等賞：限定家具「運試し小包」
+　二等賞：ランダム教科書T3×1
+　三等賞：ランダムパーツT3×5
+　四等賞：ランダム装備箱T3×1
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.beach_guard_chaijun = {
+	tip = "ロケット花火で敵にダメージを与え、さらに爆発ダメージも発生させられるぞ！"
+}
+
+_G.pg.base.gametip.beach_guard_jianye = {
+	tip = "花火爆弾を投げ、一定範囲内の敵全員にダメージを与えるぞ！"
+}
+
+_G.pg.base.gametip.beach_guard_lituoliao = {
+	tip = "投げた花火は爆発後、煙幕を展開する。\n煙幕は5秒間持続し、中の敵の移動速度と攻撃速度を10％低下させられるぞ。（最大5回まで効果が加算可能）"
+}
+
+_G.pg.base.gametip.beach_guard_bominghan = {
+	tip = "命中した敵の動きを一瞬止め、さらに分裂する花火を発射できるぞ。（分裂後の小さな花火は敵の動きを止めない）"
+}
+
+_G.pg.base.gametip.beach_guard_nengdai = {
+	tip = "花火を同時に2発発射できるぞ！\nさらに敵に命中すると、一定範囲内の味方の攻撃速度・ダメージが10秒間1％アップ！（最大10回まで効果が加算可能）"
+}
+
+_G.pg.base.gametip.beach_guard_m_craft = {
+	tip = "花火を作ってコストをどんどん回復してくれるピョ！"
+}
+
+_G.pg.base.gametip.beach_guard_m_atk = {
+	tip = "花火を発射し敵を攻撃してくれるピョ！"
+}
+
+_G.pg.base.gametip.beach_guard_m_guard = {
+	tip = "攻めてくるセイレーンをブロックしてくれるピョ！"
+}
+
+_G.pg.base.gametip.beach_guard_m_craft_name = {
+	tip = "生産饅頭"
+}
+
+_G.pg.base.gametip.beach_guard_m_atk_name = {
+	tip = "戦闘饅頭"
+}
+
+_G.pg.base.gametip.beach_guard_m_guard_name = {
+	tip = "防衛饅頭"
+}
+
+_G.pg.base.gametip.beach_guard_e1 = {
+	tip = "スカベンジャー"
+}
+
+_G.pg.base.gametip.beach_guard_e2 = {
+	tip = "チェイサー"
+}
+
+_G.pg.base.gametip.beach_guard_e3 = {
+	tip = "ナビゲーター"
+}
+
+_G.pg.base.gametip.beach_guard_e4 = {
+	tip = "スマッシャー"
+}
+
+_G.pg.base.gametip.beach_guard_e5 = {
+	tip = "コンダクター"
+}
+
+_G.pg.base.gametip.beach_guard_e6 = {
+	tip = "テスター"
+}
+
+_G.pg.base.gametip.beach_guard_e7 = {
+	tip = "ピュリファイアー"
+}
+
+_G.pg.base.gametip.beach_guard_e1_desc = {
+	tip = "移動と攻撃を行う普通のセイレーンだ！"
+}
+
+_G.pg.base.gametip.beach_guard_e2_desc = {
+	tip = "普通のセイレーン。スカベンジャーより移動速度が早いぞ！"
+}
+
+_G.pg.base.gametip.beach_guard_e3_desc = {
+	tip = "普通のセイレーン。スカベンジャーより攻撃速度が早いぞ！"
+}
+
+_G.pg.base.gametip.beach_guard_e4_desc = {
+	tip = "高い耐久と攻撃力を持っているセイレーンだ。でも行動が遅いぞ。"
+}
+
+_G.pg.base.gametip.beach_guard_e5_desc = {
+	tip = "バランスの取れた性能を持っているセイレーンだ。"
+}
+
+_G.pg.base.gametip.beach_guard_e6_desc = {
+	tip = "耐久が50％を下回ると、フィールドの全てのセイレーンに、自身の耐久上限の10％分のダメージを吸収するシールドを生成するぞ！\nシールドは同時に一枚しか存在できない。"
+}
+
+_G.pg.base.gametip.beach_guard_e7_desc = {
+	tip = "自身の周りに存在する煙幕や速力低下効果を無効にするぞ。"
 }

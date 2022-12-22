@@ -185,6 +185,14 @@ function slot0.execute(slot0, slot1)
 
 			slot7:addExpToLevel(slot5)
 			slot6:updatePlayer(slot7)
+		elseif slot4 == 24 then
+			if getProxy(ActivityProxy):getActivityById(slot3:getConfig("link_id")) and not slot6:isEnd() and slot6:getConfig("type") == ActivityConst.ACTIVITY_TYPE_HOTSPRING then
+				slot6.data2 = slot6.data2 + slot2.count
+
+				getProxy(ActivityProxy):updateActivity(slot6)
+			end
+		elseif slot4 == 99 then
+			-- Nothing
 		end
 	elseif slot2.dropType == DROP_TYPE_EQUIPMENT_SKIN then
 		getProxy(EquipmentProxy):addEquipmentSkin(slot2.id, slot2.count)

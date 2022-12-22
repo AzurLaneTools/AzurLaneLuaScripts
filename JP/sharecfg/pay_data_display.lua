@@ -3827,6 +3827,321 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[45] = {
+		subject = "冬の水着福袋2023①",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		limit_arg = 1,
+		name = "冬の水着福袋2023①",
+		name_display = "冬の水着福袋2023①",
+		type_order = 2,
+		extra_gem = 0,
+		id = 45,
+		money = 3800,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe10_l",
+		id_str = "com.bilibili.blhx.zuanshi142",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "アイテム・資源とランダムな冬の水着2023シリーズの着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond134",
+		extra_service_item = {
+			{
+				2,
+				69922,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69922,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[46] = {
+		subject = "冬の水着福袋2023②",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		limit_arg = 1,
+		name = "冬の水着福袋2023②",
+		name_display = "冬の水着福袋2023②",
+		type_order = 2,
+		extra_gem = 0,
+		id = 46,
+		money = 3800,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe11_l",
+		id_str = "com.bilibili.blhx.zuanshi143",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "アイテム・資源とランダムな冬の水着2023シリーズの着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond135",
+		extra_service_item = {
+			{
+				2,
+				69923,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69923,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[47] = {
+		subject = "新年福袋2022",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		limit_arg = 1,
+		name = "新年福袋2022(復刻)",
+		name_display = "新年福袋2022(復刻) ",
+		type_order = 2,
+		extra_gem = 0,
+		id = 47,
+		money = 3800,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai6",
+		id_str = "com.bilibili.blhx.zuanshi144",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "アイテム・資源とランダムにお正月2022シリーズの着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond136",
+		extra_service_item = {
+			{
+				2,
+				69916,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69916,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[1000] = {
 		subject = "クルーズパス",
 		limit_group = 0,
@@ -5129,6 +5444,9 @@ pg.pay_data_display = {
 		40,
 		41,
 		44,
+		45,
+		46,
+		47,
 		1000,
 		1001,
 		1002,

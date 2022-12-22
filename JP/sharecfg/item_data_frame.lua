@@ -372,10 +372,10 @@ pg.item_data_frame = {
 	[323] = {
 		time_limit_type = 0,
 		name = "星海の環",
-		gain_by = "",
+		gain_by = "積重なる事象の幻界",
 		id = 323,
 		time_second = 0,
-		desc = "イベントで入手可能",
+		desc = "<color=#ffffff>「時空は回る旋輪の中で積重なり、運命は輝く光芒の中に交錯す」</color>\n「積重なる事象の幻界」に参加した指揮官に贈る",
 		scene = {}
 	},
 	[401] = {

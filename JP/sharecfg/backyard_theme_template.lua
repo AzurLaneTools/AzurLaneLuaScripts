@@ -2648,7 +2648,7 @@ pg.backyard_theme_template = {
 	[73] = {
 		Cfg_1 = 5,
 		name = "ブラウンクリスマス",
-		hot = 1,
+		hot = 0,
 		is_view = 1,
 		id = 73,
 		comfortable = 0,
@@ -3600,6 +3600,46 @@ pg.backyard_theme_template = {
 			95305
 		}
 	},
+	[96] = {
+		Cfg_1 = 5,
+		name = "饅頭ビーチハウス",
+		hot = 1,
+		is_view = 1,
+		id = 96,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "一日貸し切りの饅頭海小屋でおもてなしピョ！",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "hbthemeicon",
+		deblocking = 1,
+		order = 97,
+		ids = {
+			96001,
+			96002,
+			96101,
+			96102,
+			96103,
+			96104,
+			96105,
+			96106,
+			96107,
+			96109,
+			96110,
+			96112,
+			96113,
+			96114,
+			96115,
+			96301,
+			96302,
+			96303,
+			96304,
+			96305,
+			96306,
+			96307
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3682,6 +3722,7 @@ pg.backyard_theme_template = {
 		92,
 		93,
 		94,
-		95
+		95,
+		96
 	}
 }

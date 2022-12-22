@@ -17,7 +17,7 @@ function slot0.Setup(slot0, slot1, slot2)
 end
 
 function slot0.Load(slot0, slot1)
-	slot0:LoadModel(WorldConst.ModelPrefab, slot0.resPath, slot0.resName, false, function ()
+	slot0:LoadModel(WorldConst.ModelPrefab, slot0.resPath, slot0.resName, true, function ()
 		uv0.particles = {}
 
 		for slot4 = 0, uv0.model:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1 do
