@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"이방성 편광\n\n<size=45>1 1. 실험 사항</size>",
+					"이방성 편광\n\n<size=45>1. 실험 사항</size>",
 					1
 				}
 			}
