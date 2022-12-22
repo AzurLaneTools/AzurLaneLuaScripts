@@ -51,6 +51,8 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 		end
 	end)
 	slot0:prepareData()
+
+	GetOrAddComponent(slot0.pos, typeof(CanvasGroup)).blocksRaycasts = false
 end
 
 function slot0.setParent(slot0, slot1, slot2, slot3)
@@ -509,6 +511,10 @@ function slot0.checkBulletCollider(slot0, slot1)
 	end
 
 	return false
+end
+
+function slot0.setRaycast(slot0, slot1)
+	GetComponent(findTF(slot0._tf, "click"), typeof(Image)).raycastTarget = slot1
 end
 
 function slot0.addBuff(slot0, slot1)

@@ -3744,7 +3744,7 @@ pg.pay_data_display = {
 		limit_args = {}
 	},
 	[45] = {
-		subject = "泳装皮肤福袋·①",
+		subject = "2023泳装礼盒·I",
 		limit_group = 0,
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
@@ -3849,7 +3849,7 @@ pg.pay_data_display = {
 		limit_args = {}
 	},
 	[46] = {
-		subject = "泳装皮肤福袋·②",
+		subject = "2023泳装礼盒·II",
 		limit_group = 0,
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,

@@ -3401,12 +3401,10 @@ pg.ship_skin_template_4 = {
 		group_index = 1,
 		prefab = "yuekechengII_2",
 		painting = "yuekechengII_2",
-		shop_id = 70775,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 6,
 		illustrator = -1,
+		air_bullet_skin = "",
 		l2d_voice_calibrate = "",
+		shop_type_id = 6,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -3418,10 +3416,10 @@ pg.ship_skin_template_4 = {
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 70775,
 		desc = "这样可以吗？……不，没什么。比起这个带子移一下比较好吗…？嗯…呀？！抱歉指挥官…不，不要紧吧…",
 		voice_actor = 42,
-		spine_offset = "",
+		air_bomb_skin = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -3489,6 +3487,27 @@ pg.ship_skin_template_4 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				-50,
+				-489,
+				0
+			},
+			{
+				0.62
+			}
+		},
+		special_effects = {
+			"lihui_yuekechengII_2",
+			{
+				2418,
+				-99,
+				0
+			},
+			{
+				2
 			}
 		}
 	},

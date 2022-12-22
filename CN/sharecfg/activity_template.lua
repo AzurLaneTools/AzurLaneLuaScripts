@@ -7303,42 +7303,16 @@ pg.activity_template = {
 	},
 	[4596] = {
 		mark = 20221215,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 22,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4596,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4597] = {
 		mark = 20221215,
@@ -7695,42 +7669,16 @@ pg.activity_template = {
 	},
 	[4600] = {
 		mark = 20221215,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 3,
 		login_pop = 0,
 		config_id = 34,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4600,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4590] = {
 		mark = 20221215,

@@ -87,11 +87,11 @@ return {
 			},
 			options = {
 				{
-					content = "风云是一个人在这里？",
+					content = "枟是一个人在这里？",
 					flag = 1
 				},
 				{
-					content = "所以这里是风云的秘密地点？",
+					content = "所以这里是枟的秘密地点？",
 					flag = 2
 				}
 			}

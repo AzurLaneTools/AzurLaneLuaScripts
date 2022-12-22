@@ -2861,8 +2861,8 @@ slot0.chapater_enemy = {
 				time = 145,
 				stop = 165,
 				step = {
-					5,
-					5
+					10,
+					10
 				}
 			},
 			{
@@ -2875,8 +2875,8 @@ slot0.chapater_enemy = {
 				time = 170,
 				stop = 190,
 				step = {
-					5,
-					5
+					9,
+					9
 				}
 			},
 			{
@@ -2889,8 +2889,8 @@ slot0.chapater_enemy = {
 				time = 195,
 				stop = 215,
 				step = {
-					5,
-					5
+					8,
+					8
 				}
 			},
 			{
@@ -2903,8 +2903,8 @@ slot0.chapater_enemy = {
 				time = 220,
 				stop = 240,
 				step = {
-					5,
-					5
+					7,
+					7
 				}
 			},
 			{
@@ -2917,8 +2917,8 @@ slot0.chapater_enemy = {
 				time = 245,
 				stop = 265,
 				step = {
-					5,
-					5
+					6,
+					6
 				}
 			},
 			{
