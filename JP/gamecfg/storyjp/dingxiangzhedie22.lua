@@ -96,7 +96,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "もちろんよ。あなたたちと一緒に戦うときはたっぷり働かせてもらうわ",
 			painting = {
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "こっちの準備は終わっているよ",
 			painting = {
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "さて、次の対抗演習では指揮官、あなたのお手並みを拝見といこうか",
 			painting = {
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "さっきも言ったけど、あたしの得意分野は支援と戦場サポート、正面切って戦うのは苦手なの",
 			painting = {
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "だからといってこのボディの戦闘力を侮らないでほしいけど",
 			painting = {
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "支援ドローンだけじゃなく、防衛兵装も装備しているし、艦船たちの攻撃をしっかり回避できる機動力もある",
 			painting = {
@@ -316,7 +316,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "そしてあの支援ドローンを使って、量産艦たちの性能を向上させ、艦船たちを囲い込む",
 			painting = {
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "単体の戦闘力がほかのアビータよりも貧弱だからこそ、あなたの艦船たちに接近させないようにする",
 			painting = {
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "そしてあなたが孤立している間にあなたを倒し、その次に艦船たちを各個撃破すればいい",
 			painting = {
@@ -433,7 +433,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "どうかな？あたしが用意した量産兵器は何もフネに限ったものじゃないからね",
 			painting = {
@@ -451,7 +451,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "ほら、周りを見て",
 			painting = {
@@ -504,7 +504,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "そうよ。でもこの子たちはあたしと違って「主機」が存在しないし、「主機」による直接制御もされていないわ",
 			painting = {
@@ -540,7 +540,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "違うよ。今のボディだとエンフォーサーの生産制御ができないの。だからあの子たちは予めここに潜ませていたわ",
 			painting = {
@@ -558,7 +558,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "あなたたちが発見できなかったのは、この海域に入ったときにもう艤装をハッキングしていたからよ",
 			painting = {
@@ -622,7 +622,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "だからあたしの力を侮らないでってこと。このボティの戦闘力には電子戦力も含まれているからね",
 			painting = {
@@ -640,7 +640,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "さあ、配置について",
 			painting = {
@@ -658,7 +658,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "アビータ制御下級戦闘端末、制空兵装搭載空母型エンフォーサーXV「Temptation」",
 			painting = {
@@ -676,7 +676,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "アビータ制御下級戦闘端末、砲撃兵装搭載戦艦型エンフォーサーXV「Restriction」",
 			painting = {
@@ -694,7 +694,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "アンチエックスの自動戦術制御と、あなたたちの指揮官の采配のどっちが上か、試してみようじゃない",
 			painting = {
@@ -712,7 +712,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "もっとも、あたしに全力を出させることができれば、の話だけど",
 			painting = {
@@ -809,7 +809,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "始める前に最後に聞きたいことでもある？",
 			painting = {
@@ -854,7 +854,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "どうぞ？実験の条件に影響しない範囲のことだけど",
 			painting = {
@@ -890,7 +890,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "もちろんよ。アンチエックスだけを強化するようにしているから",
 			painting = {
@@ -926,7 +926,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "実弾を使ってほしい？",
 			painting = {
@@ -962,7 +962,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "言ってくれるね。艦船ホーネット",
 			painting = {
@@ -1008,7 +1008,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "はははは！じゃあ……このあとの本番、楽しみにしてなさい",
 			painting = {

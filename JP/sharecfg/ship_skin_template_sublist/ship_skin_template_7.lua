@@ -5215,129 +5215,6 @@ pg.ship_skin_template_7 = {
 			"touch_head"
 		}
 	},
-	[206037] = {
-		ship_group = 20603,
-		name = "天使のナーシング",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "138",
-		id = 206037,
-		group_index = 7,
-		prefab = "dujiaoshou_8",
-		painting = "dujiaoshou_8",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 15,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "ユニコーン…今は看病をするナースさんだよ？…あのぉ、お兄ちゃん、ユニコーンの「患者さん」になってくれる…？",
-		voice_actor = 8,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.27,
-					1.44,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.3,
-					1.31,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.26,
-					1.26,
-					0
-				}
-			},
-			plane = {
-				{
-					1.21,
-					1.17,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.39,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[206038] = {
 		ship_group = 20603,
 		name = "純白なる夢の誓い",
@@ -10248,6 +10125,127 @@ pg.ship_skin_template_7 = {
 							0.3,
 							0.87,
 							-0.4
+						}
+					}
+				}
+			}
+		}
+	},
+	[213021] = {
+		ship_group = 21302,
+		name = "ハロウィンテラー",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 213021,
+		group_index = 1,
+		prefab = "kongbu_2",
+		painting = "kongbu_2",
+		shop_id = 70115,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 8,
+		illustrator = 10,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "ハロウィンでは仮装すると聞きましたけど、テラーはあまり難しい服を作れません……こんな感じで、いい……？",
+		voice_actor = 1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.329,
+					1.057,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.246,
+					1.033,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.864,
+					0.968,
+					0
+				}
+			},
+			plane = {
+				{
+					1.11,
+					1.157,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.528,
+							2.36,
+							0
 						}
 					}
 				}

@@ -14,7 +14,7 @@ return {
 			bgmDelay = 2,
 			bgm = "battle-hightech",
 			actor = 900335,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			hidePaintObj = true,
 			say = "標的艦が位置についているようね。あっちよ",
 			flashin = {
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "ううん、あたしが今この演習海域に放った量産艦よ",
 			painting = {
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "もちろんよ。だってあのフネ、あたしがここに放つまで「いなかった」もの",
 			painting = {
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "そうよ。正確に言えばついさっき「組み立てた」の",
 			painting = {
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "あの量産艦の部品はあたしが制御している製造工場にあって、この演習海域に入ったときに組み立て始めたんだけど――",
 			painting = {
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "完成したら、あとはあたしの艤装でここの転送装置を作動させて、所定位置に移動してくるってわけ",
 			painting = {
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "昔は4日ちょっとでできたフネもあったけど、あたしたちアンチエックスにかかれば40分程度で作れるわね",
 			painting = {
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "うん。ただし実弾でね",
 			painting = {
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "まずはあたしの支援ドローン抜きで一隻沈めてもらうよ",
 			painting = {
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "その次にあたしがもう一隻配置するから、今度は支援ドローンのサポートを受けた状態で沈めてみせて",
 			painting = {
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "空母はもうちょっと待ってね。艦載機も艤装の一部だから性能が向上されるけど、砲撃戦にあまり参加しない空母にはあまり関係ない実験なの",
 			painting = {

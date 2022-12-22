@@ -152,7 +152,7 @@ pg.activity_banner = {
 		param = {
 			"scene charge",
 			{
-				warp = 2
+				wrap = 2
 			}
 		},
 		time = {
@@ -325,7 +325,7 @@ pg.activity_banner = {
 		pic = "temp98"
 	},
 	[100] = {
-		param = "桂花糯|「桂花糯…もぐもぐ～中秋節、良い祝日！」<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+		param = "キャンディケイン|美味しくて面白い形をしたクリスマスキャンディ<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		id = 100,
 		pic = "christmas",
 		type = 10,

@@ -392,7 +392,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -421,7 +421,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			say = "863000000件のデータがヒットしました。絞り込むための情報を追加してください",
 			painting = {
@@ -468,7 +468,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -492,7 +492,7 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			say = "0件ヒットしました。TBのデータベース内に、指揮官が述べる特徴をもつ個体に関する記録は存在しません",
 			painting = {
@@ -535,7 +535,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -559,7 +559,7 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			say = "当該データのメモリでの整理を行った後に、解析を開始できます",
 			painting = {
@@ -582,7 +582,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -601,7 +601,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -625,7 +625,7 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			say = "現在、「ヨークタウン」「ホーネット」「ラングレー」「ハムマン」「ノーザンプトン」に関する資料の解析が終了しています",
 			painting = {
@@ -653,7 +653,7 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			say = "「ラフィー」に関する「Ⅱ」型艤装の資料は存在しません。もう一度検索しますか？",
 			painting = {

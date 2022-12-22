@@ -717,6 +717,12 @@ function slot0.updateContent(slot0, slot1)
 	elseif slot4 == uv0.MODE2 then
 		slot7 = slot0.styleTF2
 		slot8 = Vector3(-27, 143, 0)
+		slot9 = slot2.windowbg == "3"
+		slot7:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/guide_atlas", "uibg" .. (slot9 and slot2.windowbg or "2"))
+
+		setAnchoredPosition(slot7:Find("content"), {
+			x = slot9 and 0 or 17
+		})
 	end
 
 	slot9 = slot7:Find("char"):GetComponent(typeof(Image))

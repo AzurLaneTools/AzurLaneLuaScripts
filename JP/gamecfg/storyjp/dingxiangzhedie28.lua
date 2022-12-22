@@ -397,7 +397,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
 			say = "それよりこれ、どう思う？",
@@ -418,7 +418,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
 			say = "今度のやつはなかなかかわいいわね～",
@@ -459,7 +459,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
 			say = "うかつだったー！",
@@ -470,7 +470,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
 			say = "そうね…この私ならきっとなんとかできるはず……そうだ！",
@@ -481,7 +481,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
 			say = "撮った写真をオースタのやつに送りつけて、それから手元の写真を削除する",
@@ -492,7 +492,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
 			say = "外に出た後、あいつにプロジェクト交流の名義で送り届けてもらう。これで解決でしょ！",
@@ -517,7 +517,7 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "奥斯塔",
+			actorName = "オースタ",
 			say = "「ここからでも聞こえているかな？アンジュ、そして指揮官」",
 			painting = {
 				alpha = 0.3,
@@ -534,7 +534,7 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "奥斯塔",
+			actorName = "オースタ",
 			say = "「君たちが工房にいるなら、もう新しい『アンチエックス』と対面しているはずだ」",
 			painting = {
 				alpha = 0.3,
@@ -551,7 +551,7 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			say = "オースタのやつ、律儀ね…指揮官がラフィーを連れ込んでいるからかな？",
 			painting = {
 				alpha = 0.3,
@@ -588,7 +588,7 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			say = "あんたも気づいた？そうよ！あいつ本当に白髮が好きね…というかこの子レイちゃんと属性被ってない？",
 			painting = {
 				alpha = 0.3,
@@ -615,7 +615,7 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "奥斯塔",
+			actorName = "オースタ",
 			say = "「既に成熟した技術を流用したボディであるため、レイと外見上での類似性はあるが――」",
 			painting = {
 				alpha = 0.3,
@@ -632,7 +632,7 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "奥斯塔",
+			actorName = "オースタ",
 			say = "「こいつのコードネームは『コンパイラー』だ」",
 			painting = {
 				alpha = 0.3,
@@ -649,7 +649,7 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			say = "ネーミングセンスもいつものオースタね。ははは",
 			painting = {
 				alpha = 0.3,
@@ -666,7 +666,7 @@ return {
 			bgName = "bg_aostelab_2",
 			side = 2,
 			dir = 1,
-			actorName = "奥斯塔",
+			actorName = "オースタ",
 			say = "「どうせ作り顔か微妙な表情にしかならないと思うが、会ったときの君の反応が楽しみだ。また後で――」",
 			painting = {
 				alpha = 0.3,
@@ -735,7 +735,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_aostelab_0",
 			nameColor = "#A9F548FF",
 			say = "……意識がまだ……ってないわ……",
@@ -746,7 +746,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_aostelab_0",
 			hidePaintObj = true,
 			dir = 1,

@@ -246,7 +246,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器？",
+			actorName = "通信機？",
 			bgName = "bg_port_ny_future",
 			nameColor = "#A9F548FF",
 			say = "（ディンドン♪）",
@@ -275,7 +275,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "手を突っ込ませてみると。どうやら音を出したのは長方形の端末のようだ。",
+			say = "手を突っ込んでみる。どうやら音を出したのは長方形の端末のようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器？",
+			actorName = "通信機？",
 			bgName = "bg_port_ny_future",
 			nameColor = "#A9F548FF",
 			say = "（ディンドン♪）",

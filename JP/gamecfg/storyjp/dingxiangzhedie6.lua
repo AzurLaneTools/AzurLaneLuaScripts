@@ -842,7 +842,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "好人理查德的影像",
+			actorName = "リシャールの声",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "ユニオン空母、ボノム・リシャールが主演！映画『ラスト・カウントダウン』大ヒット上映中！",
@@ -853,7 +853,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "好人理查德的影像",
+			actorName = "リシャールの声",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "映画館に見に来てくれると、ぼく嬉しいよ！",
@@ -864,7 +864,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大厦的广告屏",
+			actorName = "コマーシャル",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "『ラスト・カウントダウン』――待望の海戦超大作が登場！",
@@ -875,7 +875,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大厦的广告屏",
+			actorName = "コマーシャル",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "今チケットを購入すると、抽選でPH2泊3日ツアーチケットをプレゼント………",
@@ -886,7 +886,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "あの子は……ボノム・リシャール…！",
@@ -897,7 +897,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "北安普顿II",
+			actorName = "ノーザンプトンII",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "映画に出ているんだ……",
@@ -908,7 +908,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "この間会ったときは秘密プロジェクトに参加しているって言われたけど、一体どんなものかと思ったら…",
@@ -919,7 +919,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "まさか映画とは……！",
@@ -930,7 +930,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "あの子ってすっかり広告塔になじんでるね～",
@@ -941,7 +941,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "別に簡単な仕事じゃないわよ。表に出て注目が集まれば、それだけプレッシャーもかかるわ",
@@ -952,7 +952,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "喋る言葉の一つ一つだって考えておかないと。簡単にできることじゃないわ",
@@ -963,7 +963,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "私たちがこうして観光を楽しんでいる間も、あの子は仕事を頑張っているかもしれないわ",
@@ -974,7 +974,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "大変なのね。ボノム・リシャール……",
@@ -985,7 +985,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "よし、あの子の分の土産も買っとこう",
@@ -996,7 +996,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "あ、せっかくだからノーザンプトン、写真を一枚頼まれてくれない？",
@@ -1007,7 +1007,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "私たち全員と指揮官、それとリシャールを一枚に収めて",
@@ -1018,7 +1018,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "ほら、私たちが指揮官とデートしたのを知ったらきっとムッとするでしょ？",
@@ -1029,7 +1029,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
 			say = "だからこうしてあなたも顔だけ一緒に写ってるから許して～ってね♪",

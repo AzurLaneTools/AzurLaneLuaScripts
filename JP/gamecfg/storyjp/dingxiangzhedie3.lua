@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
-			say = "道にはアンジュと艦船たち、そして自分しかいないが、健啖の博士のお陰で寂しさを感じずに済んだ。",
+			say = "道にはアンジュと艦船たち、そして自分しかいないが、思い出話をしてくれる博士のお陰で寂しさを感じずに済んだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "――つまりそういうわけ",
 			painting = {
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "オースタのやつが自動で履修登録をしてくれるスクリプトを設置してくれてたから、単位のことはなんとかなった",
 			painting = {
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "あいつ、いつも私より一手先を考えていたから…飼ってた猫の話も結局あいつの言ってた通り",
 			painting = {
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "学院から出るまで掃除できていなかったし",
 			painting = {
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "？ちゃんと教えたよ？",
 			painting = {
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "あ、あれ？確かに普通覚えられないわね…いや違う、私どこかで間違えてた…",
 			painting = {
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "あの子はメールの送信と受信を覚えたけど…",
 			painting = {
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "いいわよ。実はある日、オースタのやつから「ふむ、詮索しないでおこう」ってメールを受信してて…",
 			painting = {
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "ん？どれ？……「グラナートカフェ」",
 			painting = {
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "そうだ！合ってる合ってる！よかったぁまだ開いてて～",
 			painting = {
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "見た目が前よりオシャレになってない？行ってない間、順調だったのかな？",
 			painting = {
@@ -341,7 +341,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "話は店に入ってから。この学院を訪れて「グラナート」に行かないってのは一生後悔するわよ！",
 			painting = {
@@ -388,7 +388,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "昔登録した会員情報がまだ使えるなんて～。いやぁ老舗はこれがいいんだよ",
 			painting = {
@@ -442,7 +442,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "ん？別に普通の高級レストランだよ？多分……",
 			painting = {
@@ -460,7 +460,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "それよりメニューを見てみない？ええと……",
 			painting = {
@@ -484,7 +484,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "点餐服务机器人",
+			actorName = "サービスロボット",
 			bgName = "star_level_bg_160",
 			nameColor = "#A9F548FF",
 			say = "イラッシャイマセ。ナニカオサガシデスカ？",
@@ -499,7 +499,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "あれ？昔はたしかここにメニューが……えっと、メニューはどこ……ってうわっ！？",
 			painting = {
@@ -523,7 +523,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "点餐服务机器人",
+			actorName = "サービスロボット",
 			bgName = "star_level_bg_160",
 			nameColor = "#A9F548FF",
 			say = "レストラン「グラナート」ヘヨウコソ。ワタシハチュウモンサービスガカリデス。メニューハコチラヲゴランクダサイ",
@@ -556,7 +556,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "老舗だからってなめてた…さすがに進歩しすぎじゃない？",
 			painting = {
@@ -584,7 +584,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "でもこいつは見覚えあるね…？つい最近出た第四世代のエナジーキューブ駆動サービスロボット…だっけ？",
 			painting = {
@@ -598,7 +598,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "点餐服务机器人",
+			actorName = "サービスロボット",
 			bgName = "star_level_bg_160",
 			nameColor = "#A9F548FF",
 			say = "ホメテイタダキ、アリガトウゴザイマス。サービスコウジョウノハゲミトイタシマス",
@@ -613,7 +613,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "別に褒めたわけじゃ……まあいいわ",
 			painting = {
@@ -631,7 +631,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "着ている服は前に通ってた頃から変わってないわね",
 			painting = {
@@ -649,7 +649,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "伝統を守るか、技術を導入するか…ここのオーナー、少しは考えているようね",
 			painting = {
@@ -667,7 +667,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "うわっ、この格好を見たら色々思い出したわ",
 			painting = {
@@ -685,7 +685,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "じゃあいつもどおりの。海鮮パエリアにカプチーノ",
 			painting = {
@@ -699,7 +699,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "点餐服务机器人",
+			actorName = "サービスロボット",
 			bgName = "star_level_bg_160",
 			nameColor = "#A9F548FF",
 			say = "ゴチュウモンヲウケタマワリマシタ。ホカニナニカアリマスカ？",
@@ -760,7 +760,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "そこがこの店の特徴よ。もちろん普通のカフェメニューもあるわよ",
 			painting = {
@@ -796,7 +796,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "いや、むしろカフェなのにおすすめがパエリアだというのが、この店が今まで生き残れた秘訣かもね",
 			painting = {
@@ -832,7 +832,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "ちょっとそこ、センスがあるのを褒めてくれるのはいいけど",
 			painting = {
@@ -860,7 +860,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "この店を勧めてくれたのはオースタのやつだからね",
 			painting = {
@@ -878,7 +878,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "いや私だって最初は本当に驚いたわよ。あいつこんなオシャレな店を知ってるんだってね",
 			painting = {
@@ -896,7 +896,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "まあすぐ気にったけどね",
 			painting = {
@@ -914,7 +914,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "みんなも好きなのを選んでいいわ。ほかのメニューもなかなか美味しいのが多いよ",
 			painting = {
@@ -1110,7 +1110,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "さすが我が頼れる「助手くん」！こんなところかな？",
 			painting = {
@@ -1124,7 +1124,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "点餐服务机器人",
+			actorName = "サービスロボット",
 			bgName = "star_level_bg_160",
 			nameColor = "#A9F548FF",
 			say = "デハチュウモンヲカクニンシマス。カイセンパエリア2ツ、チーズパエリア、ハワイアンピザ、ハンバーグセット",
@@ -1135,7 +1135,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "点餐服务机器人",
+			actorName = "サービスロボット",
 			bgName = "star_level_bg_160",
 			nameColor = "#A9F548FF",
 			say = "フライドポテトLサイズ、ハムトチーズポテト、シュヴァルツヴェルダー、カプチーノ、フラワーティー",
@@ -1146,7 +1146,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "点餐服务机器人",
+			actorName = "サービスロボット",
 			bgName = "star_level_bg_160",
 			nameColor = "#A9F548FF",
 			say = "イジョウデヨロシイデスカ？",
@@ -1161,7 +1161,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "大丈夫大丈夫、それでおねがい～",
 			painting = {

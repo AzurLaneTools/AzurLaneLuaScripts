@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
 			side = 2,
-			actorName = "零？",
+			actorName = "レイ？",
 			say = "わかりました。オースタ博士",
 			typewriter = {
 				speed = 0.05,

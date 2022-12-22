@@ -973,7 +973,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "みんな",
 			bgName = "bg_zhedie_3",
 			nameColor = "#A9F548FF",
 			say = "了解――",

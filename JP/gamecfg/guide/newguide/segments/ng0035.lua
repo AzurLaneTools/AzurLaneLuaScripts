@@ -19,7 +19,8 @@ return {
 				posY = -174,
 				char = "amazon",
 				dir = -1,
-				posX = -844.7,
+				windowbg = "3",
+				posX = -680,
 				charPos = {
 					10,
 					-114

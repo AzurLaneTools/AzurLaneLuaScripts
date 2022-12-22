@@ -2169,7 +2169,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "指揮官様、心配しないで。私は平気よ",
@@ -2180,7 +2180,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "あなたがくれた「Ⅱ」型艤装とヘレナのおかげで、もう少しなら動けるわ",
@@ -2191,14 +2191,14 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海伦娜·META",
+			actorName = "ヘレナ(META)",
 			bgName = "bg_zhedie_12",
 			nameColor = "#ffa500",
 			say = "ヨークタウン……会えたようね。もう一人のあなたと"
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "ヘレナ、計画は上手く進んでいるの？",
@@ -2209,7 +2209,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海伦娜·META",
+			actorName = "ヘレナ(META)",
 			bgName = "bg_zhedie_12",
 			nameColor = "#ffa500",
 			say = "ええ。指揮官のヘレナと連絡が取れて、この仮想空間からの脱出先を用意したわ",
@@ -2220,7 +2220,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海伦娜·META",
+			actorName = "ヘレナ(META)",
 			bgName = "bg_zhedie_12",
 			nameColor = "#ffa500",
 			say = "メンフィスが案内してくれるわ。ヨークタウンは私とここで敵の足止めをして",
@@ -2231,7 +2231,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "ふふふ、ちゃんと聞いてた指揮官様？もうお家に帰る時間よ",
@@ -2252,7 +2252,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "心配しないでって言ったでしょ？",
@@ -2263,7 +2263,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "リセットシステムのことはしばらく平気だし、ヘレナもここにいるから",
@@ -2274,7 +2274,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "指揮官様がたどり着くまでここで守るわ",
@@ -2285,7 +2285,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "「最後の光がかき消されるまで、頑張って戦って」でしょ？",
@@ -2306,7 +2306,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "大丈夫よ。何も言わないで",
@@ -2317,7 +2317,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "あなたが望む「ヨークタウン」は、それぐらい強くあるものなの",
@@ -2338,7 +2338,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海伦娜·META",
+			actorName = "ヘレナ(META)",
 			bgName = "bg_zhedie_12",
 			nameColor = "#ffa500",
 			say = "サモス島にある海洋生物研究所の入口。そこから脱出できるわ",
@@ -2349,7 +2349,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海伦娜·META",
+			actorName = "ヘレナ(META)",
 			bgName = "bg_zhedie_12",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -2357,7 +2357,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯·META",
+			actorName = "メンフィス(META)",
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			dir = 1,
@@ -2373,7 +2373,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			dir = 1,

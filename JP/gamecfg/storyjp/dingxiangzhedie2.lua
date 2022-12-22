@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			bgName = "bg_highschool_future",
 			dir = 1,
@@ -345,7 +345,7 @@ return {
 			}
 		},
 		{
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			bgName = "bg_highschool_future",
 			dir = 1,
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "ごめんごめん！出迎えに行かなかったのは飛行機が遅刻したからで、どうしようもなかったもん！",
 			painting = {
@@ -396,7 +396,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_highschool_future",
 			side = 2,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			say = "あんたもあの先生たちもみんな頭が堅いんだから～",
 			typewriter = {
 				speed = 0.05,
@@ -408,7 +408,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_highschool_future",
 			side = 2,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			say = "まあ状況が状況だからスケジュールを調整したのは私なんだけどさぁ",
 			typewriter = {
 				speed = 0.05,
@@ -421,7 +421,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "でも飛行機のことはどうにもならないでしょ？私が航路を変えたりなんてできないし～",
 			painting = {
@@ -495,7 +495,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "こほん！指揮官に言わないって約束してくれたんじゃなかった？！",
 			painting = {
@@ -541,7 +541,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "うわっ！本当だ……",
 			painting = {
@@ -595,7 +595,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "指揮官の言うとおり！ヒトの人生には意外性だってあるんだし！話がわかるね！",
 			painting = {
@@ -659,7 +659,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "指揮官は気にしないと言ってるでしょ！ここはソウゾウシュさま特権で――",
 			painting = {
@@ -727,7 +727,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "ふぅ…久しぶりだからカッコいい挨拶まで考えてたのにね…全部使えなくなっちゃって…くすん",
 			painting = {
@@ -758,7 +758,7 @@ return {
 			}
 		},
 		{
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			bgName = "bg_highschool_future",
 			dir = 1,
@@ -810,7 +810,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "そうだよね、ホーネット！そういうこと！もう過ぎたことなんだから！",
 			painting = {
@@ -828,7 +828,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "もうハムマンも隠れていないで指揮官に挨拶して！",
 			painting = {
@@ -846,7 +846,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "ハムマンのことは指揮官も知っているでしょ？",
 			painting = {
@@ -1083,7 +1083,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "あいさつはその辺で。そろそろ次の予定のところに行くわよ",
 			painting = {
@@ -1129,7 +1129,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "それは「次の重要な予定」であって、「次の予定」じゃないわ",
 			painting = {
@@ -1147,7 +1147,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "せっかくみんなで集まったんだし、とりあえず観光見物でもさせてあげようと思ってね！",
 			painting = {
@@ -1165,7 +1165,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "将軍との打ち合わせは明日にずらしたから、それまではなんの予定もなし！",
 			painting = {
@@ -1183,7 +1183,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "つまるところ休暇よ！ここで適当にぶらついても大丈夫！",
 			painting = {
@@ -1259,7 +1259,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "ちょっと考えさせてね……あ。もうお昼時じゃない！昔オースタのやつに紹介されたいいレストランにしよう！",
 			painting = {
@@ -1277,7 +1277,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "まだあるかな…開いてたらそこでご飯よ！",
 			painting = {
@@ -1295,7 +1295,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "そのあとは商店街にでも行って、映画とかでも見に行こう！",
 			painting = {
@@ -1348,7 +1348,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "りょーかい！「グラナート」って名前よ",
 			painting = {
@@ -1399,7 +1399,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "あら、指揮官には言ってなかったの？しまった、こりゃまたバタついてるパターンね",
 			painting = {
@@ -1417,7 +1417,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "明日のテストの準備をしているの。こっちに連絡がくるのはそれからよ",
 			painting = {
@@ -1435,7 +1435,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "あーあ、惜しいな～。こっちは休暇を楽しんでいるのに～",
 			painting = {
@@ -1453,7 +1453,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "でも指揮官が思い出してくれてよかったね。メンフィスへのお土産を忘れるところだった",
 			painting = {
@@ -1488,7 +1488,7 @@ return {
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "安洁",
+			actorName = "アンジュ",
 			side = 2,
 			say = "よかった！みんな、早く行こう！",
 			painting = {

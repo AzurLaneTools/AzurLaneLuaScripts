@@ -33,7 +33,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "実験が始まる前に簡単に自己紹介させてもらうわ",
 			painting = {
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "あたしのプロダクトナンバーは「DevilXV」、デビルでいいわよ",
 			painting = {
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "第2世代アンチエックスで得意分野は支援と戦場サポート、正面切って戦うのが苦手ね",
 			painting = {
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "そして今日の実験はアンチエックスと艦船で協力と対抗を別々で行う。メインは協力よ",
 			painting = {
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "そう。わかりやすくまとめてくれたね",
 			painting = {
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "量産型兵器もいるけど、第2世代のボディはあたしだけよ",
 			painting = {
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "大丈夫、遠慮はいらないわ。あたしの戦闘能力を試す実験なんだから、全力でかかってきて",
 			painting = {
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "今このボディと兵装の基本スペック、実験の計画に関するデータを通信機で送ったわ。好きなだけ確認していいからね",
 			painting = {
@@ -630,7 +630,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "哈曼II",
+			actorName = "ハムマンII",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
 			say = "……………",
@@ -641,7 +641,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "哈曼II",
+			actorName = "ハムマンII",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
 			say = "んんん……………",
@@ -652,7 +652,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "哈曼II",
+			actorName = "ハムマンII",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
 			say = "ぐぅううう…………………………",
@@ -663,7 +663,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
 			say = "さっきからラングレーが何言っているか全く分からないや…",
@@ -674,7 +674,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
 			say = "ハムマンちゃんは大丈夫？頭から湯気が出ているよ？",
@@ -685,7 +685,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "哈曼II",
+			actorName = "ハムマンII",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
 			say = "うぇええ…………え！？今どういう話をしていたの？",
@@ -696,7 +696,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "兰利II",
+			actorName = "ラングレーII",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
 			say = "ここですよ。分からないところとかあります？",
@@ -747,7 +747,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
 			say = "あたしの戦闘支援ドローンの働きを実演してほしい？いいよ。今出してあげる",
@@ -758,7 +758,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "哈曼II",
+			actorName = "ハムマンII",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
 			say = "…！急に艤装の調子が良くなったぞ！デビルのドローンのおかげなの？",
@@ -769,7 +769,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_6",
 			hidePaintObj = true,
 			dir = 1,
@@ -786,7 +786,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "兰利II",
+			actorName = "ラングレーII",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
 			say = "さっき説明しましたよ。デビルはドローンの分離式支援モジュールを使って、範囲内の艤装の出力バランスを調整し、性能を向上させられます",
@@ -797,7 +797,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "兰利II",
+			actorName = "ラングレーII",
 			bgName = "bg_zhedie_6",
 			nameColor = "#A9F548FF",
 			say = "支援モジュールが多ければ多いほど、性能の上昇幅が大きくなります。そして……",

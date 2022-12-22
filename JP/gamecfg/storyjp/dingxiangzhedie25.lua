@@ -688,7 +688,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "なんで…なんで「再現」がここに現れたの…？！",
@@ -699,7 +699,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "この世界の構成要素からは排除されているはずよ…！",
@@ -710,7 +710,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "指揮官、私、艦船、デビル、たとえ「タワー」のアビータが目覚めていても、あってはならないはずよ…！",
@@ -721,7 +721,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "デビルのメモリーには、あの戦いの記憶があるの…！？",
@@ -732,7 +732,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "それとも「タワー」？自然演算システム？",
@@ -743,7 +743,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "そんな…私が一体何をしたというの…！？",
@@ -754,7 +754,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "一体誰がそんな記憶を目覚めさせたというの！？",
@@ -765,7 +765,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_8",
 			nameColor = "#A9F548FF",
 			say = "メンフィス！どうしたの！？しっかりして…！",
@@ -775,7 +775,7 @@ return {
 			}
 		},
 		{
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			nameColor = "#a020f0",
 			bgName = "bg_zhedie_8",
 			side = 1,
@@ -791,7 +791,7 @@ return {
 			}
 		},
 		{
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			nameColor = "#a020f0",
 			bgName = "bg_zhedie_8",
 			side = 1,
@@ -807,7 +807,7 @@ return {
 			}
 		},
 		{
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			nameColor = "#a020f0",
 			bgName = "bg_zhedie_8",
 			side = 1,
@@ -824,7 +824,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "自然演算システムにつながってしまった私が悪かった！！",
@@ -835,7 +835,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "ここに破滅の記憶が存在することに、「タワー」がもう気づいてしまった！",
@@ -846,7 +846,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "だからもう「リアリティレンズ」の制御を、自然演算システムにアクセスすることができない……！",
@@ -857,7 +857,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "もうここからは逃げられないの…！",
@@ -868,7 +868,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "指揮官の意識も外に出せないの……！",
@@ -879,7 +879,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "この世界が崩壊したら、指揮官の脳が焼ききれちゃう…！",
@@ -890,7 +890,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "…ごめんなさい…ごめんなさい…！私のせいよ…私が……",
@@ -901,7 +901,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "私が指揮官を……私の指揮官を……くっ……",
@@ -912,7 +912,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "私が、一体何をしたの………！！！！",
@@ -939,7 +939,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_8",
 			nameColor = "#A9F548FF",
 			say = "メンフィス、一体何を言っているの？",
@@ -950,7 +950,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_8",
 			nameColor = "#A9F548FF",
 			say = "さっきから言っていることが分からないわ！指揮官様がどうなっちゃうというの？",
@@ -961,7 +961,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "ごめんなさい……うぅ……ごめんなさい…っ！",
@@ -972,7 +972,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "メンフィス",
 			bgName = "bg_zhedie_8",
 			nameColor = "#a020f0",
 			say = "指揮官……助け―――――",
@@ -1013,7 +1013,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_9",
 			nameColor = "#A9F548FF",
 			say = "今度は誰…どこから？",
@@ -1024,7 +1024,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_9",
 			nameColor = "#A9F548FF",
 			say = "この声……ヘレナ！？",
@@ -1065,7 +1065,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "海伦娜·META",
+			actorName = "ヘレナ(META)",
 			bgName = "bg_zhedie_10",
 			nameColor = "#ffa500",
 			say = "あなた一人で背負わせないわ。メンフィス",
@@ -1076,7 +1076,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大黄蜂II",
+			actorName = "ホーネットII",
 			bgName = "bg_zhedie_10",
 			nameColor = "#A9F548FF",
 			say = "なんだか雰囲気が違うけど…本当にヘレナなの！？",
@@ -1087,10 +1087,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯·META",
+			actorName = "メンフィス(META)",
 			bgName = "bg_zhedie_10",
 			nameColor = "#a020f0",
-			say = "「メンフィス」を抱き寄せる。",
+			say = "くすん……ヘレナ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1098,7 +1098,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_10",
 			nameColor = "#A9F548FF",
 			say = "あなたたちは……誰なの？",
@@ -1109,7 +1109,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "海伦娜·META",
+			actorName = "ヘレナ(META)",
 			bgName = "bg_zhedie_10",
 			nameColor = "#ffa500",
 			say = "話せば長くなるから、今度……ううん、できるだけ手短に説明するわ",
@@ -1120,7 +1120,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "ヨークタウンII",
 			bgName = "bg_zhedie_10",
 			nameColor = "#A9F548FF",
 			say = "うん。お願い",
@@ -1131,7 +1131,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "海伦娜·META",
+			actorName = "ヘレナ(META)",
 			bgName = "bg_zhedie_10",
 			nameColor = "#ffa500",
 			say = "私はヘレナ、しかしあなたの知っている「ヘレナ」ではないの",
@@ -1142,7 +1142,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "海伦娜·META",
+			actorName = "ヘレナ(META)",
 			bgName = "bg_zhedie_10",
 			nameColor = "#ffa500",
 			say = "同じく、彼女はメンフィスであって、あなたの知っている「メンフィス」じゃないわ",
@@ -1153,7 +1153,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "海伦娜·META",
+			actorName = "ヘレナ(META)",
 			bgName = "bg_zhedie_10",
 			nameColor = "#ffa500",
 			say = "そして、私たちはあなたたちと同じく、指揮官の味方",
@@ -1164,7 +1164,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "海伦娜·META",
+			actorName = "ヘレナ(META)",
 			bgName = "bg_zhedie_10",
 			nameColor = "#ffa500",
 			say = "だから全力で指揮官を救ってみせる。よろしく",
@@ -1175,7 +1175,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "海伦娜·META",
+			actorName = "ヘレナ(META)",
 			bgName = "bg_zhedie_10",
 			nameColor = "#ffa500",
 			say = "……指揮官、これでいい？",
@@ -1355,7 +1355,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "「メンフィス」を抱き寄せる。",
+			say = "………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1393,7 +1393,7 @@ return {
 			nameColor = "#a020f0",
 			bgName = "bg_aircraft_future",
 			side = 2,
-			actorName = "记录播放员",
+			actorName = "リプレイヤー",
 			say = "……待って。何かがこっちに来ている",
 			typewriter = {
 				speed = 0.05,
@@ -1405,7 +1405,7 @@ return {
 			nameColor = "#a020f0",
 			bgName = "bg_aircraft_future",
 			side = 2,
-			actorName = "记录播放员",
+			actorName = "リプレイヤー",
 			say = "つけられたわね君。何かが君の後ろについてきてたみたい！",
 			typewriter = {
 				speed = 0.05,
@@ -1417,7 +1417,7 @@ return {
 			nameColor = "#a020f0",
 			bgName = "bg_aircraft_future",
 			side = 2,
-			actorName = "记录播放员",
+			actorName = "リプレイヤー",
 			say = "………………………………",
 			typewriter = {
 				speed = 0.05,
@@ -1429,7 +1429,7 @@ return {
 			nameColor = "#a020f0",
 			bgName = "bg_aircraft_future",
 			side = 2,
-			actorName = "记录播放员",
+			actorName = "リプレイヤー",
 			say = "警告：Vクラス脅威の接近を確認しました。セキュリティプロトコルに従いAI及び記録の削除を開始する。",
 			typewriter = {
 				speed = 0.05,
@@ -1788,7 +1788,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "「メンフィス」を抱き寄せる。",
+			say = "諦めず最後まで戦う。…もちろん、ヘレナたちのためにも、ヨークタウンたちのためにも",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

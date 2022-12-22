@@ -945,7 +945,7 @@ return {
 			hideOther = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			actorName = "全域广播系统",
+			actorName = "アナウンス",
 			nameColor = "#ffff4d",
 			say = "ブルーチームの旗艦が撃破されました。演習が終了しました。レッドチームの勝利です",
 			typewriter = {

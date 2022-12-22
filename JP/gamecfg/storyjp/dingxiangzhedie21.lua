@@ -132,7 +132,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "次は雷撃実験ね。艦船の雷撃だけでなく、空母の攻撃機にも参加してもらうよ",
 			painting = {
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "単一目標照準のサポート、情報処理能力向上によるマルチロック機能、飛行姿勢制御による射線予測精度アップ、",
 			painting = {
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "マイクロウェーブを使った、発射された魚雷の軌跡変更など――",
 			painting = {
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "その兵器の元々の性能よりも優れたパフォーマンスを引き出せるよ",
 			painting = {
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "オースタ博士が科学で実現しただけよ",
 			painting = {
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "ほかにも色々支援できるわ。あとは実験の中で自分で試してね",
 			painting = {
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "デビルXV",
 			side = 2,
 			say = "今あなたたちの相手をする量産兵器を配置するから、ちょっと待っててね",
 			painting = {

@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -173,7 +173,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -211,7 +211,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			say = "言語プログラムでの情報開示は不可能です",
 			painting = {
@@ -350,7 +350,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			say = "意識の追跡、及び仮想空間の観測が、不可能です",
 			painting = {
@@ -387,7 +387,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -447,7 +447,7 @@ return {
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			say = "情報開示に必要な権限が取得されていません。プロトコルにより、艦船への当該情報の開示は不可能です",
 			painting = {
@@ -488,7 +488,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -511,7 +511,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_2",
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			say = "指揮官は現在も「リアリティレンズ」と接続しています。よって人格意識は正常に存在するものと判定します",
 			voice = "event:/tb/38/tb-38",
 			typewriter = {
@@ -609,7 +609,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -656,7 +656,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -675,7 +675,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -717,7 +717,7 @@ return {
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			say = "「リアリティレンズ」停止プログラムの制御権限が変更されました。現在TBに当該機能の権限はありません",
 			painting = {
@@ -735,7 +735,7 @@ return {
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			say = "停止プログラムの制御権限を付与するか、停止プログラムの基幹コードの修正が必要です",
 			painting = {
@@ -1014,7 +1014,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -1038,7 +1038,7 @@ return {
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			say = "緊急事態用アクセスコードを確認。権限移行を完了しました",
 			painting = {
@@ -1056,7 +1056,7 @@ return {
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			say = "中央制御室より座標を入力してください",
 			painting = {
@@ -1086,7 +1086,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -1123,7 +1123,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,
@@ -1170,7 +1170,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			dir = 1,

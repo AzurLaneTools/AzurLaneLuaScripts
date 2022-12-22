@@ -238,8 +238,9 @@ return {
 			actor = 107101,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
+			withoutActorName = true,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "ヨークタウンが水着を直しても、しばらく二人共ぎこちない時間を過ごした。",
 			painting = {
 				alpha = 0.3,

@@ -1,119 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_20 = {
-	[10700030] = {
-		ship_group = 1070003,
-		name = "水瀬伊織",
-		bullet_skin_secondary = "",
-		hand_id = 0,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 10700030,
-		group_index = 0,
-		prefab = "yizhi",
-		painting = "yizhi",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "こんにちは～！私、水瀬伊織って言います！よろしくお願いしま～す！……え？無理しなくていい……？ちょっとアンタ、それ、どういう意味よっ！",
-		voice_actor = 89,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.677,
-					1.007,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					-0.032,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.665,
-					1.001,
-					0
-				}
-			},
-			plane = {
-				{
-					1.682,
-					0.999,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.34,
-							2.662,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[10700031] = {
 		ship_group = 1070003,
 		name = "秘密の夕べ",
@@ -11052,7 +10938,7 @@ pg.ship_skin_template_20 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "ふぅ――、いい天気に心地良い潮風。指揮官、せっかくここに来たんだ、一旦執務室とか書類とかのことを忘れたらどうだ！海を満喫してきな！",
+		desc = "ふぅ――、いい天気に心地良い潮風。指揮官、せっかくここに来たんだ、一旦執務室とか書類とかのことは忘れたらどうだ！海を満喫してきな！",
 		voice_actor = 336,
 		spine_offset = "",
 		gyro = 0,

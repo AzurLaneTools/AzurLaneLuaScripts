@@ -541,7 +541,7 @@ return {
 			}
 		},
 		{
-			actorName = "企业",
+			actorName = "エンタープライズ",
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_15",
 			side = 2,
@@ -602,7 +602,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "企业",
+			actorName = "エンタープライズ",
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
 			say = "ヨークタウン、姉さん ",
@@ -643,7 +643,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "企业",
+			actorName = "エンタープライズ",
 			bgName = "bg_zhedie_17",
 			nameColor = "#A9F548FF",
 			say = "私は……………… ",
