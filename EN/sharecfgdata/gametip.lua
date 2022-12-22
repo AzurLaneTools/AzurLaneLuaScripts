@@ -10188,11 +10188,11 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Baltimore μ added to standard build pool ! "
+	tip = "Baltimore μ added to standard build pool! "
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Tashkent μ, Dido μ added to standard build pool ! "
+	tip = "Tashkent μ, Dido μ added to standard build pool! "
 }
 
 _G.pg.base.gametip.buildship_special_tip = {

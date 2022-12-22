@@ -14,7 +14,7 @@ return {
 				}
 			},
 			style = {
-				text = "点击「游戏手册」可以查看角色和敌人的详细说明",
+				text = "Check the Game Guide to read about the abilities of all friendly and enemy units!",
 				mode = 2,
 				posY = -174,
 				char = "amazon",
