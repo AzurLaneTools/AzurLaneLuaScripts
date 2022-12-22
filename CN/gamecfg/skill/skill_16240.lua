@@ -2,12 +2,23 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 160391
+					weapon_id = 160391,
+					supportTarget = {
+						targetChoice = {
+							"TargetPlayerAidUnit",
+							"TargetShipTag"
+						},
+						arg_list = {
+							ship_tag_list = {
+								"Yorktown II"
+							}
+						}
+					}
 				}
 			}
 		}
@@ -15,12 +26,23 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 160392
+					weapon_id = 160392,
+					supportTarget = {
+						targetChoice = {
+							"TargetPlayerAidUnit",
+							"TargetShipTag"
+						},
+						arg_list = {
+							ship_tag_list = {
+								"Yorktown II"
+							}
+						}
+					}
 				}
 			}
 		}
@@ -28,12 +50,23 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 160393
+					weapon_id = 160393,
+					supportTarget = {
+						targetChoice = {
+							"TargetPlayerAidUnit",
+							"TargetShipTag"
+						},
+						arg_list = {
+							ship_tag_list = {
+								"Yorktown II"
+							}
+						}
+					}
 				}
 			}
 		}
@@ -41,12 +74,23 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 160394
+					weapon_id = 160394,
+					supportTarget = {
+						targetChoice = {
+							"TargetPlayerAidUnit",
+							"TargetShipTag"
+						},
+						arg_list = {
+							ship_tag_list = {
+								"Yorktown II"
+							}
+						}
+					}
 				}
 			}
 		}
@@ -54,12 +98,23 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 160395
+					weapon_id = 160395,
+					supportTarget = {
+						targetChoice = {
+							"TargetPlayerAidUnit",
+							"TargetShipTag"
+						},
+						arg_list = {
+							ship_tag_list = {
+								"Yorktown II"
+							}
+						}
+					}
 				}
 			}
 		}
@@ -67,12 +122,23 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 160396
+					weapon_id = 160396,
+					supportTarget = {
+						targetChoice = {
+							"TargetPlayerAidUnit",
+							"TargetShipTag"
+						},
+						arg_list = {
+							ship_tag_list = {
+								"Yorktown II"
+							}
+						}
+					}
 				}
 			}
 		}
@@ -80,12 +146,23 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 160397
+					weapon_id = 160397,
+					supportTarget = {
+						targetChoice = {
+							"TargetPlayerAidUnit",
+							"TargetShipTag"
+						},
+						arg_list = {
+							ship_tag_list = {
+								"Yorktown II"
+							}
+						}
+					}
 				}
 			}
 		}
@@ -93,12 +170,23 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 160398
+					weapon_id = 160398,
+					supportTarget = {
+						targetChoice = {
+							"TargetPlayerAidUnit",
+							"TargetShipTag"
+						},
+						arg_list = {
+							ship_tag_list = {
+								"Yorktown II"
+							}
+						}
+					}
 				}
 			}
 		}
@@ -106,12 +194,23 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 160399
+					weapon_id = 160399,
+					supportTarget = {
+						targetChoice = {
+							"TargetPlayerAidUnit",
+							"TargetShipTag"
+						},
+						arg_list = {
+							ship_tag_list = {
+								"Yorktown II"
+							}
+						}
+					}
 				}
 			}
 		}
@@ -119,24 +218,35 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
+				type = "BattleSkillFireSupport",
 				casterAniEffect = "",
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 160400
+					weapon_id = 160400,
+					supportTarget = {
+						targetChoice = {
+							"TargetPlayerAidUnit",
+							"TargetShipTag"
+						},
+						arg_list = {
+							ship_tag_list = {
+								"Yorktown II"
+							}
+						}
+					}
 				}
 			}
 		}
 	},
 	uiEffect = "",
-	name = "",
+	name = "编队外支援炮击",
 	cd = 0,
-	painting = 1,
-	id = 16240,
-	picture = "1",
-	castCV = "skill",
-	desc = "",
+	painting = "yuekechengII",
+	id = 13220,
+	picture = "0",
+	castCV = "",
+	desc = "支援炮击",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -145,15 +255,5 @@ return {
 			0
 		}
 	},
-	effect_list = {
-		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
-			targetAniEffect = "",
-			arg_list = {
-				weapon_id = 160391
-			}
-		}
-	}
+	effect_list = {}
 }

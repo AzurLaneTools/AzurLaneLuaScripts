@@ -10689,7 +10689,23 @@ _G.pg.base.item_data_statistics[30301] = {
 	id = 30301,
 	is_world = 0,
 	icon = "Props/chrisgift",
-	display_icon = {},
+	display_icon = {
+		{
+			2,
+			50001,
+			10
+		},
+		{
+			2,
+			50004,
+			5
+		},
+		{
+			2,
+			59375,
+			1
+		}
+	},
 	price = {
 		1,
 		100
@@ -186890,6 +186906,27 @@ _G.pg.base.item_data_statistics[59374] = {
 	id = 59374,
 	is_world = 0,
 	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59375] = {
+	display = "包含少量物资、石油或家具币奖励",
+	name = "{namecode:98}的圣诞礼物",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59375,
+	is_world = 0,
+	icon = "Props/chrisgift",
 	display_icon = {},
 	price = {},
 	index = {},

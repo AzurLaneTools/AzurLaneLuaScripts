@@ -177,7 +177,7 @@ pg.activity_banner = {
 		param = {
 			"scene charge",
 			{
-				warp = 2
+				wrap = 2
 			}
 		},
 		time = {
@@ -537,7 +537,7 @@ pg.activity_banner = {
 	[202] = {
 		param = "",
 		id = 202,
-		pic = "springfes",
+		pic = "newyear",
 		type = 13,
 		time = {
 			{

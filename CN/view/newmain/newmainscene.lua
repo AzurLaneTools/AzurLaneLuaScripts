@@ -188,7 +188,7 @@ function slot0.SwitchToNextShip(slot0)
 		return
 	end
 
-	if slot0.iconView.ship.skinId ~= getProxy(PlayerProxy):getRawData():GetNextFlagShip().skinId then
+	if slot0.iconView.ship.skinId ~= getProxy(PlayerProxy):getRawData():GetNextFlagShip().skinId or slot0.iconView.ship.id ~= slot2.id then
 		slot0.bgView:Refresh(slot2)
 		slot0:PlayBgm(slot2)
 		slot0.iconView:Refresh(slot2)

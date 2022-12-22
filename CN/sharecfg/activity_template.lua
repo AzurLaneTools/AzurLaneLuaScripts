@@ -7669,16 +7669,42 @@ pg.activity_template = {
 	},
 	[4600] = {
 		mark = 20221215,
-		time = "stop",
+		title_res_tag = "",
 		page_info = "",
 		type = 3,
 		login_pop = 0,
 		config_id = 34,
 		is_show = 0,
-		title_res_tag = "",
 		config_client = "",
 		id = 4600,
-		config_data = {}
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					12,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					12,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[4590] = {
 		mark = 20221215,

@@ -1007,10 +1007,11 @@ return {
 		},
 		{
 			actor = 900189,
-			side = 2,
-			bgName = "bg_xiangting_3",
 			nameColor = "#ffa500",
+			bgName = "bg_xiangting_3",
+			side = 2,
 			dir = 1,
+			actorName = "獒·META",
 			say = "蠢材！NY港的袭击只不过是安蒂克丝把你们诱骗到这里的阴谋罢了，你们根本是被一帮机器脑袋利用了！",
 			painting = {
 				alpha = 0.3,
@@ -1029,10 +1030,11 @@ return {
 		},
 		{
 			actor = 900189,
-			side = 2,
-			bgName = "bg_xiangting_3",
 			nameColor = "#ffa500",
+			bgName = "bg_xiangting_3",
+			side = 2,
 			dir = 1,
+			actorName = "獒·META",
 			say = "至于我们，不过是一群于灰烬中苟且的残渣罢了，除此之外没有任何值得报出的名号。",
 			painting = {
 				alpha = 0.3,
