@@ -1957,10 +1957,10 @@ pg.skill_world_display = {
 		desc_get = "",
 		id = 16220,
 		desc = [[
-【大型作战效果】
-战斗开始时，若队伍中存在至少3个白鹰阵营角色，自身航空属性和命中属性提升$1；
-战斗开始后每18秒有$2概率触发一轮特殊弹幕$3(威力依据技能等级），并使自身被侦测条回复速率在接下来的5秒内提升2点/秒；
-关卡海域内其他编队进入该编队的前4场战斗时，若自身存活，队伍中的白鹰阵营主力角色炮击属性$4，并在战斗开始后20秒发动一轮支援弹幕$3【大型作战内，战斗次数在开启新的海域，或重新编队时清零】]],
+[Operation Siren only] 
+When the battle starts, if there are 3 or more Eagle Union ships afloat in your fleet: increases this ship's AVI and ACC by $1. 
+Every 18s after the battle starts: $2 chance to fire a $3 special barrage (DMG is based on the skill's level) and decreases this ship's Detection Gauge value by 2 once a second for 5s. 
+While this ship is afloat, for the first 4 battles another fleet fights during a sortie: increases the FP of that fleet's Main Fleet Eagle Union ships by $4; 20s after that fleet's battle starts: fires a $3 special barrage (DMG is based on the skill's level). [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]]],
 		desc_get_add = {
 			{
 				"5.0%",
