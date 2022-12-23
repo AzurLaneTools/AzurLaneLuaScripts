@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_qiongding_6",
 			stopbgm = true,
-			say = "东阿非利加·某处",
+			say = "???",
 			bgmDelay = 2,
 			bgm = "theme-irisangel",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "可怖，你推荐贞德带队参加撒丁博览会是为了支开她吧？",
+			say = "Le Terrible, you nominated Jeanne as an Expo representative to keep her away from us, didn't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "你要向我提出一些不方便让她参与的行动计划？",
+			say = "Do you mean to propose a strategy that does not involve her?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倒不是不方便……只不过有些事情不应该让她这样信仰如此无暇的人参与其中罢了。",
+			say = "I wouldn't go that far, Cardinal. I simply believed this would be too much for her pious ears to take.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "政治就像毒药，是会侵蚀信仰的……",
+			say = "Politics are like poison to the pious. They have a way of eroding one's faith.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "黎塞留大人，鸢尾教国曾经在海外建立的“圣堂”不只有莫桑比克海峡的一座，对吧？",
+			say = "Cardinal, are you aware that the Iris Libre Basilica is not only in this southern continent?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……………………",
+			say = "...............",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "克莱蒙梭在你走之前都告诉了你多少事？",
+			say = "What has Clemenceau told you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "她认为我应该知道的，全部。",
+			say = "Oh, probably everything that I'm allowed to be told.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "审判庭还是克莱蒙梭负责么？",
+			say = "Any updates regarding the Tribunal?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是，审判庭及其所有附属力量一直牢牢掌握在克莱蒙梭大人手中。",
+			say = "In terms of power dynamics, there have been no particular changes as of yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "你跟她还有联系么？",
+			say = "Are the two of you still in contact?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "只有克莱蒙梭大人想要联系我的时候，我才能跟她取得联系。",
+			say = "I wonder. She only seems to remember about me when it suits her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "好。",
+			say = "...Very well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "那就让我们来谈一谈这件会“侵蚀信仰”的事吧——",
+			say = "It is a grave situation... Capable of shaking one's faith, indeed.",
 			painting = {
 				alpha = 0.3,
 				time = 1

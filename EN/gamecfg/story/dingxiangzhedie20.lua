@@ -14,9 +14,9 @@ return {
 			bgmDelay = 2,
 			bgm = "battle-hightech",
 			actor = 900335,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			hidePaintObj = true,
-			say = "大家请看，我在远方部署的标靶已经就位了。",
+			say = "Everybody, the target ship is in position. It's right over there.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "放眼望去，依稀可见一艘军舰正从远方缓缓驶入视野内。",
+			say = "A small warship slowly comes into view from the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "那艘军舰……是逼真的全息投影么？",
+			say = "Is that ship... some kind of hologram?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,9 +69,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "不对哦，那艘是我带过来的真正的军舰。",
+			say = "Nope. It's a mass-produced ship I released into this testing area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "……你带过来的？可是刚才在路上的时候我没有发现它跟在我们后面啊？",
+			say = "You released it...? I didn't see anything on the radar.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,9 +105,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "当然咯~因为那时候我还没有把它造出来呢。",
+			say = "Of course you didn't! It wasn't even here until I released it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "……造出来，是指？这艘军舰是你来到这片测试海域后才生产出来的么？",
+			say = "It wasn't here? Does that mean you brought it from somewhere else?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,9 +141,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "没错哦~准确来说，应该是才刚刚重组完成的。",
+			say = "That's right. More precisely, I assembled it on the spot.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,9 +159,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "制造这艘军舰所需的物资我早就已经提前存储在货仓里了，蓝图也可以直接从数据库中调用。",
+			say = "I keep the component parts in a manufacturing plant I manage, so I had its construction begin when we entered this area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,9 +177,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "剩下的就是利用我这身巨大舰装中的生产区域，将其按照蓝图生产出来就好。",
+			say = "Once it was done, I transferred the ship here through my rigging, allowing me to deploy it in a place of my choosing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,9 +195,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "在准备的物资耗尽之前，我一个人就能用这种方法快速生产出一整支无人舰队哦？",
+			say = "It used to take around four days to make a mass-produced ship, but our technology allows me to shorten that to roughly forty minutes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "这种技术真的太惊人了……",
+			say = "In other words, as long as you have enough materials on hand...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "等于将后方的生产船坞搬运到了前线，而且只靠一个人就能快速生产出一支舰队……",
+			say = "You can basically serve as a frontline shipyard and single-handedly provide a near-endless amount of reinforcements...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以后的海战形态又要被改写了啊。",
+			say = "This kind of technology will forever change the way battles are fought...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "（这项技术，难道就是量产型技术的原型么……）",
+			say = "Is that how the Sirens have been materializing out of nowhere...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "自从舰船诞生之后，海战的形态就已经被改写了哦。",
+			say = "The way war is fought is always changing. There's nothing new about that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在我们所见到的不过是都是在进一步探索中出现的中间产物罢了。",
+			say = "Just as we shipgirls made traditional warships obsolete, the same may be true for the Antiochus.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "我相信这项技术虽然神奇，但绝对不是我们探索的终点。",
+			say = "Even though this technology is amazing, I don't think people will ever stop exploring new ideas.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有道理，看到这项技术之后，我对于未来更加充满期待了。",
+			say = "Interesting. Really makes me wonder what the future has in store.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "接下来我们只要对那艘靶舰开火就可以了么？",
+			say = "So, are you supposed to attack that target now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,9 +364,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "嗯，不过要用实弹进行。",
+			say = "Yes, but use live ammunition.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,9 +382,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "首先大家需要在没有接受强化的状态下用主炮对靶舰进行射击，直至将其击沉。",
+			say = "First, we'll establish a control to gauge your combat performance without the support of my drones.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,9 +400,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "之后我会生产出新的靶舰，然后请大家在被强化的状态下再次重复上述过程。",
+			say = "I'll set up another target after that, and we will repeat the process except with my support.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没问题，交给我吧。",
+			say = "Alrighty, let's do this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,9 +445,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "……不，大黄蜂小姐，这项测试是炮击测试。不需要进行炮击战的航空母舰就不用参与了。",
+			say = "Unfortunately, carriers will have to be left out of this part of the exercise. While carrier-based aircraft will benefit since they're also part of the rigging, this experiment specifically focuses on shelling performance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "啊哈哈哈……说的也是。那就哈曼、北安普敦、孟菲斯，你们三位加油咯~",
+			say = "Whoops! You're right. Good luck, the rest of you!",
 			painting = {
 				alpha = 0.3,
 				time = 1

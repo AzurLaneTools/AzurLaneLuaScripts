@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			stopbgm = true,
-			say = "在经历了炮击和雷击测试后，众人又陆续进行了轰炸、侦察、电子对抗等一系列测试项目。",
+			say = "With the Devil's support, we finish a series of bombing, recon, and electronic warfare tests.",
 			bgmDelay = 2,
 			bgm = "battle-hightech",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "终于，协作测试结束了，对抗测试即将展开——",
+			say = "Finally, it is time for us to face each other in a head-on test.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "本来以为会很辛苦……现在已经完完全全爽到了！",
+			say = "Man, I thought we'd be here all day, but those drones made things a piece of cake!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "迪贝路啊迪贝路，你可真是个好辅助机！",
+			say = "Despite your name, you're a real angel when it comes to buffing us up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以后上了战场的话，一定要多关照一下我啊。",
+			say = "Lemme tell you, if I ever find myself on the battlefield, I'd want you behind my back!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,9 +96,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "那是自然，只要有机会的话，一定。",
+			say = "Sure thing. I don't mind having meatshields like you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "战争……么。可能的话，还是不要有战争比较好啊。",
+			say = "I just hope... it never comes to that. War never accomplishes anything in the end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "当然了！约克城姐，我就是随口一说，假如打仗的话！",
+			say = "Haha, relax! It's just a bit of friendly banter!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "没关系，我明白我们的职责。",
+			say = "I understand you're just joking, but that is also our duty as shipgirls.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "虽然我不期待战争，但是如果战争来临，我是绝对不会退缩的。",
+			say = "If war truly was to break out, I would proudly carry out that duty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（面前的约克城与记忆中的她重叠了……）",
+			say = "Yorktown's resolve seems to overlap with the memory of the Yorktown I know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（虽然相遇时间与空间都不同，但约克城果然还是约克城……）",
+			say = "She sounds exactly like her. Even inside this simulation, I'm sure she must be the same person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,25 +214,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "迪贝路，对抗测试可以开始了么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900335,
-			nameColor = "#A9F548FF",
-			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "迪贝路·XV",
-			side = 2,
-			say = "没问题哦，我这边的准备已经完成了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "\"Devil, are you ready to begin?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,9 +226,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "到了对抗测试环节，就需要您这个指挥官大显身手了呢。",
+			say = "Ready whenever you are.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,9 +244,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "不过在正式开始之前，请允许我先来介绍一下自己的战斗风格。",
+			say = "Now, let's see how you fare in an actual battle against me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,9 +262,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "就像先前说的那样，我的定位是支援型角色。",
+			say = "Let me remind you that I'm not a frontline fighter. Supporting from the backlines is what I do best.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,9 +280,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "但是我也配备了一定程度的武装，并且拥有出色的机动能力，以便在一般战场环境中进行自我保护。",
+			say = "Having that said, my vessel is no slouch in a direct engagement.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,9 +298,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "毕竟如果团队支援型角色反而成为需要团队保护的短板，那就没有什么意义了。",
+			say = "In addition to my arsenal of support drones and defensive weapons, I obviously have the mobility to get out of dangerous situations.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,9 +316,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "不过我毕竟不是正面战斗的定位。",
+			say = "Speaking of those drones, they will be used to strengthen the mass-produced ships to make your job harder.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,9 +334,27 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "在遭遇敌人之后，我会利用机动性能将其诱导至队友的战斗火力内，尽力避免一对一的正面交战。",
+			say = "While I do not hit as hard as my peers on my own, you will find it difficult to approach me.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900335,
+			nameColor = "#A9F548FF",
+			bgName = "bg_zhedie_7",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "The Devil XV",
+			side = 2,
+			say = "My win condition is simple – I will isolate you, and pick you off one by one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "原来如此……但是接下来的对抗演习里你并没有可以依赖的队友。",
+			say = "You oversee and coordinate the state of the battle then... Much like the Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你的优势要如何发挥呢？",
+			say = "But the difference is, you are already isolated to begin with. Once we take out your mass-produced ships, there's nothing to protect you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "感觉单凭你的话，哈曼一个人就够了……",
+			say = "That's right! I bet I could take you out single-handedly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,9 +433,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "那可不一定哦~？之前我说了，会有一些使用演习规则的无人舰来帮我。",
+			say = "Oh yeah? We'll see about that. Remember what I said about mass-produced weapons at the start?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,9 +451,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "你们看，它们来了。",
+			say = "Well... Just take a look around you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "约克城……你看到了么，雷达上突然出现了大量无法辨明身份的目标，我们已经被包围了。",
+			say = "What?! Yorktown, look at the radar... We're completely surrounded by unidentifiable signals!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "这些就是…………你所说的无人舰？看上去都是和你一样的人型作战单位啊。",
+			say = "Are these... also your drones? But, they look humanoid, just like your vessel...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,9 +504,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "没错，毕竟我们是ANTI-X，就算看上去是人型，本质上也是由AI控制的机械，称之为无人舰并无不妥。",
+			say = "They're technically both at once. Unlike me, however, they are not controlled by a mainframe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "这些也和靶舰一样，是你刚刚生产出来的么……？",
+			say = "How did you manage to produce that many vessels in such a short period of time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,9 +540,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "并不是。我的舰装尚未拥有生产代行者的功能，它们都是我提前准备好并隐藏起来的。",
+			say = "I didn't, actually. My current vessel does not have the ability to mass-produce Enforcers, so I hid them beforehand.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,9 +558,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "你们之所以一直没有察觉，是因为在出发之后不久，你们所有人的电子设备就已经被我干扰了哦。",
+			say = "As for why you didn't notice their presence... It's because I hacked into all your electronics before we even began.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "咦？！迪贝路好可怕！",
+			say = "When did you... Oh, I bet it was when you transferred all that data to us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "刚刚说要迪贝路关照的不也是你么……",
+			say = "No wonder her communicator acted up... Here I thought she really had downloaded too many movies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,9 +622,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "哼哼，刚才这段就当是一个附赠的小小电子战教学了，大家在任何时候都不要掉以轻心哦。",
+			say = "Hmph, make sure you take this lesson in electronic warfare to heart. Whoever controls information also controls the flow of battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,9 +640,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "现在向大家介绍一下类似于我的左膀右臂的两类无人舰。",
+			say = "Now, allow me to introduce my little helpers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,9 +658,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "主要是用舰载机等轻型武器的型号名为代行者XV「Temptation」，擅长骚扰与支援。",
+			say = "Enforcer XV: Temptation. Aircraft carrier. Specialty: using aircraft to harass targets and support allies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,9 +676,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "主要使用舰炮等重武器的型号名为代行者XV「Restriction」，擅长正面作战。",
+			say = "Enforcer XV: Restriction. Battleship. Specialty: blowing targets to bits in head-on engagements.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -694,9 +694,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "再加上我的调度与配合，我们这支ANTI-X作战舰队战斗力可是不容小觑的。",
+			say = "This is the Antiochus force you'll be fighting. It's our integrated combat systems versus you and your Commander's wits.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,9 +712,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "如果轻敌的话，说不定会被我打的落花流水哦？",
+			say = "Just so you know – this is probably not going to be a very fair fight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,7 +731,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "约克城，指挥官……我也仔细阅读了数据…………这些名为代行者的作战单位，每一个都拥有惊人的战斗力。",
+			say = "Let's see... Enforcers, Enforcers... Found it. Commander, those Antiochus models boast absurd combat effectiveness.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "如果不认真起来迎战的话，我们也许真的会输……",
+			say = "They will make short work of us extremely quickly if we don't take this 100% seriously.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -763,7 +763,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（仲裁机关的战斗力，我当然清楚………）",
+			say = "Against any other Arbiter, our meager forces would likely make any prospect of victory a pipe dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,14 +773,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（但是II型舰装之中，也蕴含了新的力量……如果像这样多对一的话，也许会有赢的机会！）",
+			say = "But I've fought plenty of Enforcers before. If direct combat is this Arbiter's weakness... then there might still be a chance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "鼓励大家",
+					content = "\"There are no challenges we can't overcome.\"",
 					flag = 1
 				}
 			}
@@ -793,7 +793,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "嗯，指挥官，我们会加油的。",
+			say = "Well said, Commander. Let's give it our all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -809,9 +809,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "大家还有其他问题么？",
+			say = "So, any final questions before we start?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -828,7 +828,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我还有两个问题！",
+			say = "I have one. Two, actually.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -854,9 +854,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "请说~请说~",
+			say = "As long as it won't affect the experiment results, shoot.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -874,7 +874,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "第一，一会测试开始之后，你还会给我提供强化么？",
+			say = "Question one: your support drones can't buff us by mistake, can they?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -890,9 +890,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "很遗憾，不会哦~不过我会给我的代行者们都好好强化一番的，敬请期待。",
+			say = "Nope. They're calibrated to only empower Antiochus units.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -910,7 +910,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "啊哈哈哈……那么第二个问题，这项测试也和刚才一样使用实弹么？",
+			say = "Figures. Question two: are we using live ammunition or blanks?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -926,9 +926,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "别……既然是对抗演习，那当然用演习弹啊，演习弹！",
+			say = "Do you WANT to use live ammunition?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "呼……太好了。",
+			say = "Oh, absolutely not. Dr. Aoste would cry if I kicked your asses AND left you full of holes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -962,9 +962,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "已经信心不足了么，大黄蜂小姐？",
+			say = "You'll be the one crying at the end of this, KAN-SEN.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -982,7 +982,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "才不是呢，只是这样就不用担心会把你伤得太狠了！",
+			say = "Big girls don't cry, and I'm bigger than you in more ways than one. I'll show you why I'm worthy of inheriting the title of Grey Ghost!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1008,9 +1008,9 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "啊哈哈哈~那就一会让我们在战场上过过招咯~",
+			say = "Hahaha! Those are fighting words! This will be interesting!",
 			painting = {
 				alpha = 0.3,
 				time = 1

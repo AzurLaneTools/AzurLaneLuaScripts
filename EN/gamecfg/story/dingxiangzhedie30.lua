@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_1",
 			stopbgm = true,
-			say = "皇家·？？？",
+			say = "Somewhere in the Royal Navy...",
 			bgmDelay = 2,
 			bgm = "battle-boss-camelot",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这里是贝尔法斯特，对「星海」的调查结果如何？",
+			say = "Have you confirmed Master's safety?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……果然，我知道了。",
+			say = "...I am overjoyed to hear that Master is safe. Still in the Sea of Stars, I presume?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……不过？",
+			say = "But? But what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……之前指挥官在上岸后，又坐车前往内陆走了很久是吗？",
+			say = "You won't divulge the location of the Sea of Stars?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我明白了，这个情报十分重要。",
+			say = "That is a shame. I will inform Her Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我会汇报给陛下的。",
+			say = "It seems all we know is that the snowy scenery will be beautiful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……希望白鹰不要带指挥官去做些危险的事才好。",
+			say = "I can only hope that the Eagle Union won't try to do anything untoward...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……请继续进行调查，通话结束。",
+			say = "Understood. I await further reports.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "又一根红色的丝线被图钉按在了地图上。",
+			say = "Another red string hung on the map on the wall, connecting two of the thumbtacks littering its surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "错综复杂的线索连在一起，交织成一个躁动又危险的旋涡。",
+			say = "Rumors and records swirled in a complex vortex on the map, betraying signs of a new danger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就连白鹰的行动也变得令人捉摸不透了……",
+			say = "I hope our information exchange with the Eagle Union can bear some fruit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下的想法是对的，风暴要来了。",
+			say = "Her Majesty was right. A storm is brewing.",
 			painting = {
 				alpha = 0.3,
 				time = 1

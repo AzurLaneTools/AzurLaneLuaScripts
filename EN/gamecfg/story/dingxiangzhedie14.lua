@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			stopbgm = true,
-			say = "安洁的专机——「舒适旅行用1号」·会客室",
+			say = "[Reality Lens Replicated Space] [Location: Chartered plane WFH 'n' Chill Mk. 1] [Cognitive merging data unknown]",
 			bgmDelay = 2,
 			bgm = "theme-dailyfuture",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "此刻，安洁正惬意地将自己埋在会客室的沙发中，外头看着窗外的天空。",
+			say = "As soon as we get our luggage sorted, Anzeel plops down on a plush couch inside her jet's cabin and gazes out the window.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼…………果然还是回家的感觉好啊~",
+			say = "Ooh, that's nice... I tell ya, there's no place like home.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "忙了一整天，终于可以休息了~",
+			say = "I did a full day's work. Finally, time to kick back and relax...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "说起来，这架飞机的名字…………",
+			say = "\"Speaking of home, I've been wondering about this plane's name.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？名字怎么了么？",
+			say = "Hm? You got a problem with the name I gave it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "…………算了。",
+			say = "\"...Never mind, actually.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喏，别老是愁眉苦脸的，喝杯咖啡提提神吧。",
+			say = "What's with that look on your face? C'mon, grab a coffee and take it easy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "安洁递来一杯热乎乎的咖啡，然后就随手拿了一份报告翻看起来。",
+			say = "I accept the cup of hot coffee Anzeel hands me. She goes right back to flipping through some documents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "（不是说要好好休息一下么……）",
+			say = "Not exactly my idea of \"taking it easy.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "（还是说，这是什么特有的“放空大脑”的方式？）",
+			say = "Or maybe, reading something is just a way for her to clear her head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "（……也许不该过多思考这些事，毕竟现在看起来像是个闲聊的机会。）",
+			say = "I've probably been overthinking this too much. I'm not going to get more information about this world if I don't ask her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "（昨晚也是忙了一晚上，都没顾得上问问题……现在机会难得。）",
+			say = "Last night was a bit too hectic to even make small talk, but this is a good opportunity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……助手，你这么盯着我看干什么？",
+			say = "What are you staring at me for?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咖啡不合心意？",
+			say = "Oh, I get it. You're part of the tea faction, aren't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,14 +213,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "…………",
+			say = "Where should I even begin...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "安洁，你怎么看待时空旅行？",
+					content = "\"So about that movie, 'The Final Countdown'...\"",
 					flag = 1
 				}
 			}
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "时空旅行？",
+			say = "The one where the fleet travels through time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噢~理查德主演的那部电影么？",
+			say = "Pretty crazy how Bonnie got the lead role in that movie, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实电影在上映前我就已经看过内部试映的版本了哦~",
+			say = "I already knew though, since I got to sit in on their internal screenings.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倒不如说本来里面应该还有一个我客串的路人角色的……",
+			say = "Y'know, I would've at least liked to be one of the extras...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "结果因为日程排不开只好放弃了……！",
+			say = "But it just didn't mesh with my schedule, so I couldn't.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……你刚刚问我看法是吧。",
+			say = "Oh, right. You wanted to ask me about something, huh? Maybe time travel?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我是会毫不犹豫地选择去改变过去的那一派哦。",
+			say = "I'm the kind of person who'd try to change the past, no doubt about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然这种做法可能会瓦解既定的未来，但这也不一定是坏事。",
+			say = "Sure, it might cause the preordained future to unravel, but that's not a bad thing, is it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许能因此创造出一个更美好的未来也说不定哦？",
+			say = "If anything, doesn't that mean there's a chance to create a better future?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟你想，就算没有时空旅行，没有回到过去，人类不依然在为了美好的未来而奋斗着么？",
+			say = "In the end, isn't that what humans are always trying to do, with or without time travel?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么基于创造美好未来这一理念，我觉得去改变过去是完全合理且正确的行为。",
+			say = "For the sake of creating a better future, I think changing the past is perfectly reasonable. Maybe even morally correct.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，奥斯塔可能不太会支持我的观点就是了。",
+			say = "But, Aoste probably wouldn't agree with me on that one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "……说到奥斯塔。奥斯塔博士最近在做什么呢？",
+			say = "\"Speaking of Aoste, what has he been up to recently?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,24 +446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "他啊……负责的项目可就杂得很了，团队也扩展的乱七八糟。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900332,
-			side = 2,
-			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "毕竟他现在可是国家科学院当红的顶级————工具人。",
+			say = "That guy... What doesn't he research? His team has gotten so big these days that he has his hands in every cookie jar at once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过最近的话应该还是在主攻人工智能领域的研究吧。",
+			say = "After all, he's now our prized Renaissance man, master-of-all-trades.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +480,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是那个，玲，你不是也见过？",
+			say = "I think he's been focusing on AI research these days though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +497,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在已经有了新的项目编号ANTI-X，好像旨在创造新一代智慧兵器之类的。",
+			say = "I think you've already met his favorite. Does \"Zero\" ring a bell?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900332,
+			side = 2,
+			bgName = "bg_aircraft_future",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "She's part of Project ANTI-X. They seem to be next-generation humanoid weapons.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "（……玲？）",
+			say = "...Zero?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "咚、咚、咚——",
+			say = "Suddenly, Yorktown comes up to us, holding a tray of pastries.",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请进~",
+			say = "Oh, Yorktown. Need something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "打扰了……博士和老师要不要来尝一下甜品呢？",
+			say = "Doctor, Commander. Would you like some sweets?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "新买的甜品制造机，好像运行得非常不错————",
+			say = "The new instant mechanical confectioner is working very well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "甜品啊……不对，等等等等，甜品制造机？！",
+			say = "Sweets, huh? Wait, come again? An instant mechanical confectioner?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然我有说过会报销所有花费，不过这种东西已经超过纪念品的范畴了吧！",
+			say = "I said I'd pay for souvenirs, not whatever that is!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,7 +671,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从实招来，是你的主意还是大黄蜂的主意？",
+			say = "Spill the beans, Yorktown! Who did the deed?! You? Hornet? Or maybe the Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……其实是大黄蜂的主意。不过博士，如果在飞机里有一台甜品机的话，旅途的质量也会进一步提高吧？",
+			say = "Hornet bought it. Erm, she said it seemed like fun to make sweets in a chartered plane...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来是她偷偷买完之后找你来说好话——",
+			say = "And she got you hooked, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过你说的也对，反正确实缺个甜品机，买就买了吧，要是效果不错就是赚到……",
+			say = "I get it. What's done is done, and if it tastes good, maybe it's not all bad...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "安洁一边念叨着难懂的话，一边自顾自地离开了……大概是看甜品机去了。",
+			say = "Despite her grumbling, she gets up and makes her way to the mechanical confectioner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "不得不说这架飞机还真是厉害，宽敞，安静又舒适……有点理解安洁为什么给它起了现在这个名字了。",
+			say = "\"The facilities and furniture in this charter plane are too nice to be just a private plane, aren't they?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "这架飞机是军方给博士配属的私人专机哦。",
+			say = "The military provided this plane for the doctor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -777,7 +777,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "它的引擎是欧西斯商业联合领导的「回声」项目所诞生的杰作。",
+			say = "As I recall, some corporate alliance from the Union used cutting-edge Energy Cube technology to make it. It can fly smoothly in any weather.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -795,7 +795,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "安静、清洁、高效，就算在极端的天气中也能保证运行的稳定……",
+			say = "Heehee. This is my first time riding, too, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -812,7 +812,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "助手助手！这个机子真的不得了啊！",
+			say = "Commander, this mechanical confectioner is awesome!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -836,7 +836,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "约克城的介绍还没有结束，门就被突然杀了个回马枪的安洁猛烈掀开了。",
+			say = "It looks like Yorktown's going to tell me something, but Anzeel interrupts with her shouting from the hallway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -849,7 +849,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快快快，你也来试试！真的，这机子什么怪东西都能做啊！",
+			say = "It's seriously so cool! You gotta try it out! I mean, it can make anything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -877,7 +877,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "啊，老师被博士拉走了呢……",
+			say = "Shall we, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1

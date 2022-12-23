@@ -16,7 +16,7 @@ return {
 			actor = 900322,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "Hello，我知道有人能看到这条留言哦。",
+			say = "Hello there! Yes, you, the one watching this video!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "在我们正式见面之前，先来加深一下感情吧~",
+			say = "Before we meet, how about we get to know each other a little?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "比如，来猜个谜？",
+			say = "For example... Do you like riddles?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "“看啊，在那宏伟城堡中的君王。”",
+			say = "\"Behold, His Majesty's castle and home!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "“它正从窗中向外远眺着。”",
+			say = "\"From his window, one sees his all-piercing eyes!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "“六个忠诚的将军护卫在前。”",
+			say = "\"Below him are six faithful generals!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "“还有无数持弩的兵士屹立在墙上。”",
+			say = "\"Above him, countless soldiers stick to the castle walls!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "谜底是一种海洋生物，你能猜到是什么吗？",
+			say = "Here's a hint: it's a marine biology riddle! Think you can guess it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "这里是思考用的倒计时——————",
+			say = "Let's begin the countdown...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,161 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "结束————",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "现在来揭秘谜底，答案是“寄居蟹”，你猜对了么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "“宏伟的城堡”指的是寄居蟹寄住的螺壳。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "香螺、骨螺、玉螺等螺类都有可能成为其寄居目标哦。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "“六个忠诚的将军”指的是寄居蟹露在外面的两对足与一对鳌。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "寄居蟹通常会用它们来进行移动与捕食。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "不过不要被骗了，寄居蟹其实和所有螃蟹一样拥有四对足，另外两对一直隐藏在螺壳之中而已。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "“无数持弩的兵士”指的是会与寄居蟹共生的海葵。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 900322,
-			say = "你知道么，海葵虽然看起来像是植物，但它其实是肉食性动物哦。",
+			say = "Zero! Hahahahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "海葵由于没有骨骼，所以只能缓慢的移动。",
+			say = "The answer is... a hermit crab!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "但通过与寄居蟹合作，海葵的觅食范围也在一瞬间扩大了好多，还能获得一些寄居蟹觅食时剩下的食物碎屑。",
+			say = "His castle is the shell on his back!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "作为回报，海葵会利用触手上的毒液为寄居蟹而战，保护其免于天敌的猎杀。",
+			say = "Hermit crabs will use basically anything, from real shells to humans' litter!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "海葵的携带毒液的触手与携带弩箭的兵士很像吧~？",
+			say = "His six faithful generals are his two claws and four outside legs!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "寄居蟹是如此的有智慧，懂得协作又明白扬长避短。",
+			say = "He uses those to move around and catch prey!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "难怪能够成为海洋中的一方猎手，不是么？",
+			say = "But don't be fooled. Like other crabs, hermit crabs have four more legs; they're just on the inside!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +323,161 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900322,
-			say = "那么拜拜咯~有机会的话，我们下次再见啦~",
+			say = "The soldiers stuck to the castle walls are the sea anemones that have a symbiotic relationship with the crab.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "They might look like plants, but they're actually carnivorous animals!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "But they're really slow, on account of their total lack of bones.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "Working together with the hermit crab lets them move much further, and they get to eat his scraps, too!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "In return for carrying them, the sea anemones use their venomous tentacles to fight off the crab's natural enemies!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "They're just like soldiers protecting their king, right?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "They're smart, they can work together, they know how to use their advantages and cover for disadvantages. Hermit crabs are awesome!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "That's why they're used as a motif for the high-ranking Arbiters! Ahahahaha!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 900322,
+			say = "Well, goodbye! See you soon!",
 			painting = {
 				alpha = 0.3,
 				time = 1

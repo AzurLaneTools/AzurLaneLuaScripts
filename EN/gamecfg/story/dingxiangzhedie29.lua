@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			stopbgm = true,
-			say = "滴——滴——滴————————",
+			say = "Beep... Beep... Beep...",
 			bgmDelay = 2,
 			bgm = "battle-starsea-elec",
 			flashin = {
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "…………睁开双眼，这次映入眼帘的是「银河之心」的风景。",
+			say = "(Things don't feel off like they do inside the Reality Lens. I must be back in the Sea of Stars.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官？！太好了，您终于醒了！",
+			say = "Commander?! Thank goodness... You're finally awake!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "指挥官的身体指标一切正常，不论是意识还是身体都没有发现任何损伤！",
+			say = "Vital check complete. The Commander's mind and body seem to be in perfect shape.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "……太好了。欢迎回来……指挥官。",
+			say = "Oh, this is wonderful news... Welcome home, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,14 +122,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "…………",
+			say = "...............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我回来了。",
+					content = "\"It's good to be back.\"",
 					flag = 1
 				}
 			}
@@ -138,7 +138,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "就像是做了一场很长很长的梦。",
+			say = "(It feels like I just had the longest dream.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "但是这一次我很清楚，在沉睡期间所经历的那些事绝非虚假的。",
+			say = "(But I remember everything clearly, as if it happened in reality.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,14 +158,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "对了……",
+			say = "(Still, there's someone I'm more worried about than myself.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "安克雷奇怎么样？",
+					content = "\"How's Anchorage doing?\"",
 					flag = 1
 				}
 			}
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "放心，安克雷奇没有任何问题。",
+			say = "She's fine. She woke up before you, and is doing perfectly fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "她醒过来的比您更早一些，而且存在于她心智中的异常信息块已经全部消失了。",
+			say = "The aberrant data in her hull is all gone now too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官您还真是……一醒来就先关心别人的事。",
+			say = "But seriously, when are you going to worry about yourself before you worry about other people?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "这次您在进入现实透镜之后，我们这边发生了很多意外情况……",
+			say = "A lot has happened here while you were in the Reality Lens, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "多亏海伦娜在紧急关头从不知道什么人那里新获得了最高授权代码和一连串坐标，我们才能这么快把您平安救出来。",
+			say = "Someone gave Helena the access code to the Sea of Stars, allowing us to halt the Reality Lens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "海伦娜，指挥官现在平安醒来了，你可以解释一下了么？",
+			say = "That's what allowed us to save you. So... Helena, would you like to explain?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "其实……",
+			say = "Umm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "……是海伦娜·META告诉你的，对么？",
+			say = "\"It was the other Helena, right? Helena META told you?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "没错！指挥官已经知道了么？",
+			say = "Y-yes, Commander! How did you know that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "大概猜到了……",
+			say = "\"Let's just say, a lot has happened to me, too.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "是您在PH港附近遭遇{namecode:93}·META时协助您与{namecode:199}作战的人那位海伦娜·META么？！",
+			say = "Is she one of the META shipgirls you met alongside New Jersey?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "没错。进入现实透镜之后，我这边也发生了很多事。",
+			say = "\"Like I said, a lot has happened.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "这些事等以后慢慢说。",
+			say = "\"We can talk more about it later.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,14 +385,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "TB，你在么？",
+			say = "\"TB, are you there?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -400,7 +400,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我在，指挥官。",
+			say = "I am here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,14 +414,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "你知不知道“玲”是谁？",
+			say = "\"Does the name Zero sound familiar to you?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -429,7 +429,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认：搜索中————",
+			say = "Query received. Searching data.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,9 +445,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "共搜索出863000000条结果，请您提供关于“玲”的更多情报以精确搜索结果。",
+			say = "5,320,000,000 results found. I suggest narrowing down your search.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,14 +461,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "一个与你相识的个体，你能查到么？",
+			say = "\"Can you narrow it down to individuals you personally know?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -476,7 +476,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认：搜索中————",
+			say = "Query received. Searching data.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,9 +492,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "共搜索出0条结果。指挥官，我的数据库中不存在符合您描述的”玲“的情报。",
+			say = "No results found. No individual with those features exists in my records.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "……果然没那么容易将谜团查清啊。",
+			say = "\"I guess it couldn't be that easy...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "——还有另一件事。",
+			say = "\"One more question. I think this one's something a bit more manageable.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,14 +528,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "TB，在我进入「现实透镜」期间，你有没有存下来什么数据？",
+			say = "\"TB, do you have any logs or data concerning my time in the Reality Lens?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -543,7 +543,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "肯定。在您执行任务期间，我的硬盘阵列中收集了大量从心智空间中溢出的数据。",
+			say = "Due to data overflows that occurred during the experiment, searching and analyzing the logs would be time-consuming at this point.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,9 +559,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "目前尚在归类处理中。",
+			say = "Once I have organized the data in question, I can begin analysis.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,33 +575,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "能搜索到与「II型舰装」相关的资料么？",
+			say = "\"Is there anything on... Type II rigging?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
-			side = 2,
-			bgName = "bg_starsea_core_1",
-			dir = 1,
-			voice = "event:/tb/12/tb-12",
-			actor = 900284,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "指令已确认：搜索中————",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -609,7 +590,26 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "结果已确认：收集到的数据中存在有关「II型舰装」的资料。",
+			say = "Query received. Searching data.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "TB",
+			side = 2,
+			bgName = "bg_starsea_core_1",
+			dir = 1,
+			voice = "event:/tb/12/tb-12",
+			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Found analyzed data regarding Type II rigging.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,9 +625,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "资料共分为五个部分。根据其命名推测，分别属于约克城、大黄蜂、兰利、北安普敦、哈曼五人。",
+			say = "The data is broken up into five blocks based on the current naming schemes: Yorktown, Hornet, Langley, Northampton, and Hammann.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "……没有拉菲的么？",
+			say = "\"Anything on Laffey?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,9 +653,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "没有。请问需要我再进行一次搜索么？",
+			say = "No data exists on Type II rigging concerning Laffey. Would you like me to conduct another search?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "不用了。",
+			say = "(Unlike the others, I only interacted with her for a moment. It made sense that there would be no data on her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "（有五份成熟的资料，用于举一反三已经足够了！）",
+			say = "(But that's no problem. With this data...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……请问II型舰装是什么？",
+			say = "Commander... What's Type II rigging?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -706,18 +706,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "…………",
+			say = "...............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "一项全新的技术。",
+					content = "\"It's a way of integrating a separate mainframe...\"",
 					flag = 1
 				},
 				{
-					content = "一条全新的道路。",
+					content = "\"It's a way of reinforcing hull data...\"",
 					flag = 2
 				}
 			}
@@ -726,7 +726,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "孟菲斯，立刻联系萨拉托加，跟她说我有十万火急的紧急情况，让她立刻本人亲自来一趟星海。",
+			say = "\"Anyway, we need to call Saratoga and have her come to the Sea of Stars ASAP.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -736,7 +736,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "约克城和列克星敦的事…………有办法了。",
+			say = "\"We're going to save Yorktown and Lexington.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

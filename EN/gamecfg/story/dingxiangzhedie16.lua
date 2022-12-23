@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_4",
 			stopbgm = true,
-			say = "跟随安洁穿过树林后，面前出现了一堵能看出岁月侵蚀痕迹的高墙。",
+			say = "After a walk through the woods, we reach an aging facility.",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "稍等哦，我做个权限认证……完成了。",
+			say = "Authenticating access, aaand... Done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，大铁门，开启——————",
+			say = "Heheh. Open sesame!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "各位，欢迎来到奥斯塔的主实验室，“萨默斯海洋鱼类研究所”！",
+			say = "Welcome, one and all, to Aoste's own research center: the Samos Marine Research Institute!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "唔…………嗯。",
+			say = "Th-thanks...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？你一直心心念念的秘密实验室到了哦，兴奋感呢！",
+			say = "Geez, temper your excitement. This is THE secret research facility! Aren't you excited at all?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "嗯…………确实和名字一样，原汁原味地还原了……额，海洋鱼类研究所的风貌？",
+			say = "It's kinda plain. Like, it's just... a research facility, like you'd expect.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "做戏做全套，伪装装到底？",
+			say = "If you're gonna camouflage your secret research facility, then go all the way! That's basically Aoste's motto.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "博士……前面的那个房子，写的是鱼类标本陈列室么？",
+			say = "Is that... a room full of fish tanks?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，没错！应该是以前这里还是真海洋鱼类研究所的时候留下来的。",
+			say = "Yep! That's a remnant of when this place actually performed marine research.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "光从外面透过玻璃就能看到不少展品……看得我都饿了。",
+			say = "Wow, and it's so well-maintained. They've even got fish in there... Now I'm hungry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "安洁安洁，这里的食堂里是不是也会提供非常多的鱼类食品呀？！",
+			say = "Is fish the main course at the cafeteria here?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错~毕竟这里是海岛，名义上还是海洋鱼类研究所嘛。",
+			say = "Poultry is, actually. But they do serve fish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以前我跟奥斯塔还在大学的时候，去过某个水族馆玩。",
+			say = "This one time back at university, Aoste and I visited the aquarium together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老实说那个水族馆整体看下来也就是平均水平，但是你们知道么……那里的餐厅特色菜居然是烤章鱼！",
+			say = "The exhibits were, well, okay. But their restaurant's specialty was grilled squid!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不久前还在展柜里看到的章鱼，一转眼就出现在饭桌上了！",
+			say = "So you'd see squids in the exhibits, and then you'd have to eat their relatives...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那可真是又大又美味啊……",
+			say = "Let me tell you, I remember crying while I put lemon on it more than I remember the aquarium itself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我现在连那水族馆有什么鱼都不记得了，但是那烤章鱼的味道还记忆犹新！",
+			say = "Yorktown, you ought to take the Commander and Enterprise out on a date there sometime!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "水族馆……把自己的章鱼做成了菜么？",
+			say = "Eugh... They didn't cook the squids from the exhibits, did they...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯嗯~不光是章鱼哦，我记得还有其他各种鱼。",
+			say = "Of course they did! They had other stuff like that, too~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "该不会奥斯塔在自己的“海洋鱼类研究所”里搞这些也是受到了当时的启发吧……",
+			say = "Now that I think about it, maybe Aoste chose this Marine Research Institute because of the trauma...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，看到前面那座朴素的办公楼了么，那里就是我们的目的地。",
+			say = "Anyway, the boring building up ahead is our destination.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这座秘密实验室的真面目，要等过去之后才会正式揭晓哦~",
+			say = "You'd never know what kind of research is going on here unless you went in there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "跟随安洁来到朴素的办公楼入口。",
+			say = "Me and the others set foot inside the building's main hall. Then, something unexpected happens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "正当准备进门时，一旁的门禁机突然以明显超越其外观科技水平的方式洒下一道全息投影。",
+			say = "There's a panel next to the entrance. It glows and starts projecting a hologram.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "而这个投出的影像——————",
+			say = "The hologram looks familiar. Is that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,12 +497,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_4",
-			actorName = "？？",
+			actorName = "???",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欢迎您的到来，安洁博士。",
+			say = "Welcome back, Dr. Anzeel.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "（TB？！）",
+			say = "TB?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是玲啊，好久不见。奥斯塔现在在下面么？",
+			say = "Lookin' cute as ever, Zero. Is Aoste in?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,12 +548,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_4",
-			actorName = "玲？",
+			actorName = "Zero?",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "奥斯塔博士已经恭候诸位多时了。",
+			say = "Yes. He has been awaiting you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,12 +567,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_4",
-			actorName = "玲？",
+			actorName = "Zero?",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过此刻，博士手头的实验尚未结束，暂时无法亲自接待您。",
+			say = "Unfortunately, the doctor is currently preoccupied with work. You cannot meet him quite yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,12 +586,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_4",
-			actorName = "玲？",
+			actorName = "Zero?",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "作为代替，接下来一段时间我会为您提供全程导航服务。",
+			say = "So for the time being, I will be your guide around the facility.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,12 +605,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_4",
-			actorName = "玲？",
+			actorName = "Zero?",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "预定参与协作测试的ANTI-X机体已经在配装间待机了，请问您现在需要前往么？",
+			say = "Subject for Artificial Navy Transformational Intelligence, Class X is ready for testing. Will you be observing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啊好啊，开启前进的道路吧，玲！",
+			say = "Yes, please lead the way. Also, that full name is too much of a mouthful. Just go with Antiochus, alright?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,12 +651,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_4",
-			actorName = "玲？",
+			actorName = "Zero?",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遵命，通往实验区的道路即将为您开启。",
+			say = "Understood. I will now guide you to the testing area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "脚下的地面传来了一阵连续又轻微的震动。",
+			say = "There's a slight beneath my feet. Most likely some sort of machine springing into action.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "与此同时，大厅的地板竟然向两侧徐徐打开，最终形成了一个倾斜向下的地下入口。",
+			say = "Then, the floor ahead of us splits in two, forming a set of staircases that lead down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "实验室真正重要的部分都被隐藏在了地下……？",
+			say = "I presume this is our way to the secret institute.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼，没错~",
+			say = "Right you are.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -733,7 +733,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家看好了，这才是这座“海洋鱼类研究所”的真面目！",
+			say = "Now come along and I'll show you what the \"Marine Research Institute\" REALLY works on!",
 			painting = {
 				alpha = 0.3,
 				time = 1

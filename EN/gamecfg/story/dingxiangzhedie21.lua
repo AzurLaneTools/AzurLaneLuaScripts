@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_4",
 			stopbgm = true,
-			say = "一段时间后，炮击协作测试结束了——",
+			say = "Later in the exercise...",
 			bgmDelay = 2,
 			bgm = "battle-hightech",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "没想到被强化前和强化后居然有这么大的差距……",
+			say = "Target ship confirmed sunk. Shelling test complete.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目标的整体结构，装甲的参数，甚至每一片装甲的当前状态都被标了出来。",
+			say = "The upgrades in raw output are quite nice, but the functions that highlight enemy weak points and analyze their current status are even more helpful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "还有开火目标提示和更高精度的射击修正……",
+			say = "My rigging even seems to have some sort of guided target correction built in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "就像在游戏里开了自瞄加弱点透视一样?",
+			say = "Like aimbots in a shooting game?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "虽然我没开过，不过大概就是这种感觉……",
+			say = "I'm not much of a gamer, but that's probably a fairly good description.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,9 +132,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "接下来要进行的是雷击测试。这次不光是哈曼小姐和孟菲斯小姐，大家也可以使用鱼雷机参与哦。",
+			say = "Next up is the torpedo exercise. Carriers using torpedo bombers are able to participate, in addition to all torpedo-mounted ships.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "通过支援模块，你可以帮助提高鱼雷机的鱼雷命中率对么？",
+			say = "What kind of assistance can your drones provide to torpedo bombers?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,9 +167,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "不仅如此哦，我可以协助不具有多目标锁定能力的鱼雷机同时锁定多个目标。",
+			say = "It can support single-target aiming, add a multi-target function through improved information processing capabilities, increase the precision of line-of-fire predictions...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,9 +185,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "精确控制其飞行姿态，并能控制其发射出去的鱼雷行动轨迹——",
+			say = "...Change the travel path of torpedos after they've been launched, and even–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,9 +203,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "就算鱼雷本身并没有制导功能也没关系哦~",
+			say = "Basically, it draws out more performance than your weapons could on their own.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "这种事情究竟是怎么做到的……",
+			say = "Unbelievable... How have you accomplished all this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,9 +239,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "通过科学的手段？",
+			say = "All I did was bring Dr. Aoste's research to life.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,9 +257,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "我还有其他各种多种样式的支援方式，就请诸位在后续测试中自行探索咯~？",
+			say = "I have many other functionalities, which you are free to experiment with after we begin our exercises.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快开始吧，我已经迫不及待地想要看看究竟能强化到什么地步了！",
+			say = "I can't wait to find out how strong I can get! Commander, just give us the signal when it's time to start!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,9 +302,9 @@ return {
 			bgName = "bg_zhedie_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "迪贝路·XV",
+			actorName = "The Devil XV",
 			side = 2,
-			say = "好哦。大家稍后，新的靶舰舰队即将登场~",
+			say = "Give me just a minute to deploy the mass-produced weapons you will be facing.",
 			painting = {
 				alpha = 0.3,
 				time = 1

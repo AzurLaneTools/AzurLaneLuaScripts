@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			stopbgm = true,
-			say = "双方舰队正在驶向各自的预定位置，对抗测试将在双方舰队就位后正式开始。",
+			say = "Both our fleets arrive at the designated location. The exercise will begin any moment now.",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "不过此刻，距离开始尚有片刻的间歇。",
+			say = "While I look across the water from the deck of my command ship, Yorktown comes over to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "………………",
+			say = "Hi, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "有什么心事么，约克城？",
+			say = "\"I know that look. You have something to tell me.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "被您看出来了啊……",
+			say = "Heehee. You read me like an open book.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "……其实我是想向老师道谢的。感谢您愿意和以前一样耐心地陪着我们……",
+			say = "I wanted to thank you again for all you've done for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我知道这可能有些不成熟，但……见到老师后，我确实感到了安心。",
+			say = "For the longest time, sorrow formed a chain around my heart...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "安心了很多……和老师相处的时候尽是温馨和美好的感觉。",
+			say = "Then you came into my life. Spending time together with you released my heart from the clutches of grief after so long.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "但是不知道为什么……我却感觉到愈发焦虑。",
+			say = "But a while ago, I started getting anxious. I feared that the wonderful moments we shared would come to an end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "原本我以为只是暂时的……但是随着时间的推移，焦虑感越来越严重。",
+			say = "You showed me the light. What would happen if I fell back into the darkness? My anxiety grew worse and worse.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "老师明明没有变化，还是像以前那样温柔又可靠。",
+			say = "You are still just as kind and gentle as you have always been, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "但是我却感觉到……与您疏远了。",
+			say = "Something about you feels more distant...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "甚至一靠近您，就会产生一股不自觉的悲伤之情。",
+			say = "I can't exactly put my finger around it, but... It feels almost tragic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "算了老师，忘了我刚才说的话吧……",
+			say = "I'm sorry, Commander. Please forget I brought this up...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "也许不是老师的问题，而是我自己的问题……",
+			say = "It might just be my own doubts and insecurities speaking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是我自己胡思乱想太多了也说不定……",
+			say = "Thank you for always being so kind to me. Sometimes, I feel like that... is the true power behind the Type II rigging.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（不，你的直觉是对的。）",
+			say = "No... She's not wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（毕竟，现在的我并不记着你记忆中的我所做过的事……）",
+			say = "After all, I don't remember what kind of memories the \"me\" of this world might have shared with this Yorktown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（也没有如同你记忆中一般，我们一同经历过的回忆……）",
+			say = "But despite that, this world has shown me how blissful Yorktown's smile can look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（但是……即便如此…………）",
+			say = "And surely... there must be something real about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉打断一下————",
+			say = "Hey, Yorktown~ Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "约克城姐，别忘了一会演习结束之后把精挑细选的礼物送给指挥官哦~",
+			say = "Hate to interrupt, just wanted to say you really should give your present to the Commander after this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "欸……？大黄蜂？！",
+			say = "H-Hornet? How did you...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "糟、糟糕……我没断开舰队通讯频道么？",
+			say = "Oh no... I forgot to switch off my communicator!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "YES。",
+			say = "Wheeew~♪ You sure as heck did!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "我刚才说的话，你……你们全都听到了？",
+			say = "Don't tell me you heard everything I said...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "YES。",
+			say = "Wheeew~♪ You sure as heck did!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "啊………………………………………………………………………………………",
+			say = "Oh... my goodnes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,14 +479,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "咳…………",
+			say = "Yorktown buries her face in her hands, blushing so furiously she seems to be giving off steam.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "刚才大黄蜂提到的礼物是？",
+					content = "\"What was that about a present?\"",
 					flag = 1
 				}
 			}
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "啊……？那个是大黄蜂胡说的！您别理她！",
+			say = "P-please ignore that! You know how she can be with her pranks sometimes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "现在演习马上就要开始了，大家把胡思乱想都停一停，先专心在演习上啦！",
+			say = "Hornet, you should know better than to say stuff like that before an important exercise!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………约克城，你的感觉是对的。",
+			say = "Yorktown... What's done is done...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "因为我也感受到了……",
+			say = "Nobody else is here. Nobody else can see us. Nothing is going to change...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那股从天空、大海、陆地、甚至身边的每一寸空气中传来的悲伤……",
+			say = "So, let's just say what we need to say...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "…………孟菲斯，你还好么？",
+			say = "Memphis...? Is something wrong?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "我虽然说感受到了悲伤，但也没有到这么夸张的程度……",
+			say = "Your voice is shaking... Did I say something I shouldn't have?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉……也许是最近的事情实在太多，我积累的压力有点太大了。",
+			say = "Sorry, I'm a bit worn out. I've just been going through a lot lately...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "等到一切结束之后，我去睡一觉，也许一切就能恢复如常了……",
+			say = "Once we're done here, I'm gonna get a good night's sleep. I'm sure everything will be fine when I wake up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一定能，恢复如常的……",
+			say = "Yes, everything... will go back to normal...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,7 +689,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（从孟菲斯的话语中，我感受到了些许悲伤与绝望。）",
+			say = "There's no mistaking it. The tone of someone who has given in to despair. I've heard it before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（……关于这片空间，关于我的现状，你究竟知道些什么。）",
+			say = "Without a doubt, she knows that this whole world is a temporary dream. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（现在的你究竟是谁，又在背负着什么呢…………）",
+			say = "But, who exactly is she? She doesn't seem to be the same \"Memphis\" I know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "赞同赞同！等搞定了测试，我们就能迎接好几天的假期了！",
+			say = "Ditto. After this is over, I'm taking more than a few days off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -751,7 +751,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "到时候过昼夜颠倒的日子都没关系哦！",
+			say = "I'm gonna go to the beach, binge-watch movies, and go full Bunker Hill mode and turn my sleep schedule on its head!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -770,7 +770,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……说的也是，让我们先打起精神来应付眼前的事吧！",
+			say = "...Right. That's why we have to finish the work in front of us first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -789,7 +789,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，要我去通知迪贝路我们已经到达预定位置了么？",
+			say = "Commander, radio Devil and tell her we're in position.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -803,7 +803,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "嗯，就让这场对抗测试开始吧————",
+			say = "As my finger leaves the communicator, the battle begins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

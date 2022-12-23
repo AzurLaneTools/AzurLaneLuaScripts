@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_4",
 			stopbgm = true,
-			say = "数小时后，舒适旅行用1号稳稳当当地降落在了萨默斯岛跑道上。",
+			say = "Anzeel's charter plane lands at the Samos Island airport and we disembark.",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
 			flashin = {
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_endingsong_15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "对了，最后再送你一个情报吧————萨默斯岛。",
+			say = "Before I go, let me leave you with a gift. You'll want to pay a visit to Samos Island.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_endingsong_15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "有时间的话去仔细调查一下如何？",
+			say = "All I can say is that you'll find something of intrigue there.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -71,7 +71,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_endingsong_15",
-			say = "……那里有什么么？",
+			say = "\"Something of intrigue, huh. That's so vague I'm not sure what to think of it.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谁知道呢。",
+			say = "If I knew what it is, I would tell you a little more. Sadly, I don't.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "（腓特烈当时确实着重提到了萨默斯岛这个地方……）",
+			say = "Friedrich has mentioned Samos Island, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "（现在我来了，你当时想要我来调查的，究竟是什么呢？）",
+			say = "But will I really find that thing of intrigue here? In this virtual space?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "阳光、沙滩、躺椅……这就是萨默斯岛。",
+			say = "Bright sunlight, sandy beach... Now that's a vacation island for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "唔……看上去完全就是普通的海岛度假区啊！",
+			say = "It's like an island resort!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是哦，来之前我不是说了要带大家来度假嘛~",
+			say = "Right? I told you we were gonna party.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "话虽数如此……可是军用基地呢，巡逻队呢？戒备森严的实验室呢……？",
+			say = "You also said this place had a secret military research facility. I don't see anything like that, though...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "这里怎么看都不像会有军方的机密设施存在的地方吧！",
+			say = "Should they be letting tourists get so close to a military facility in the first place?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦~我忘了你们是第一次来了。大黄蜂，看来你对于“机密实验室”这种东西多少存在些误会。",
+			say = "I forgot that this was your first time here. This is how some secret research facilities are.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所谓机密实验室，最重要的是其本身研究的东西是机密的，而不是其本身的位置是机密的。",
+			say = "It's not the facility that needs to be hidden; it's the research.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就像在很多大学里也有研究机密项目的实验室哦，说不定跟旁边的小吃街就面对面挨着呢~",
+			say = "You never know. Maybe that university had a lab where they conduct secret experiments right under the café!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过当然，这里也不是一点伪装都没做过。",
+			say = "Anyway, it's not like this facility isn't hidden.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一直以来，这里对外挂的牌子都是萨默斯岛海洋鱼类研究所。",
+			say = "Outsiders think it's just the Samos Marine Research Institute, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且这里在建立之初，似乎还真的是一座研究海洋鱼类的研究所。",
+			say = "A long time ago, they actually used to research marine life here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "直到某个时间点后就被军方接管了下来，然后变成了现在奥斯塔本人常驻的主实验室。",
+			say = "One day the military took over, and it became Dr. Aoste's research facility.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "具体选在这里的理由他说有着自己的考虑。",
+			say = "I think he had his reasons for picking this place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过看看这周围，谁知道他会不会是喜欢被沙滩和泳装包围的感觉呢~",
+			say = "But hey, it's a tourist destination. Maybe he just picked it so he could hang out on the beach when he feels lazy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说到这个！大家的泳装都准备好了么？",
+			say = "Ooh! Commander, did everyone bring swimsuits?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "呃……没有？",
+			say = "Umm... I didn't.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "我也没有……大家应该都没准备吧。",
+			say = "Me, neither. I'm sorry, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "嗯，毕竟事先没有真的把你说海滨度假的计划当回事……",
+			say = "That goes to show just how few of us seriously see this as a vacation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好吧，我大概明白了。看来一会得安排一下采购泳装的事了……",
+			say = "You heard them, Commander. You'd better go get some swimsuits!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,14 +464,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "记得这次应奥斯塔博士的邀请前来萨默斯岛，好像是有更重要的事要做……",
+			say = "\"We didn't come here just to have fun, did we?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "跟ANTI-X进行的测试要怎么办？",
+					content = "\"What can I help out with?\"",
 					flag = 1
 				}
 			}
@@ -483,7 +483,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "测试完还有玩的时间呢！来海岛度假没泳装怎么行！",
+			say = "Forget about that for now! Right now, we gotta think of how to get these girls ready to swim!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦对……你倒是提醒我了。其实倒也不用费劲去买……",
+			say = "Oh, but don't worry about buying swimsuits for everyone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我记得这里的研究所有专门用于生产防护装备的设备，让那些设备生产一批泳装不就行了！",
+			say = "Aoste has facilities that can make gear for each individual guard on demand, so I bet there's something here that can make swimsuits and other clothes!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不但质量有保证，细节和款式还能自由定制，完美~",
+			say = "Maybe it even spits out certain designs on demand!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "总感觉安洁提出了什么不得了的想法……",
+			say = "\"Would he really have equipment like that?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "……博士，这样真的好么？",
+			say = "Should we be wasting time on the beach...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系没关系~我们可是千里迢迢的飞过来参加合作项目了哦，享受这种程度的服务还是应该的吧。",
+			say = "Don't worry about it! You came all this way to help, so we gotta let you indulge yourselves a little!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "……不愧是安洁。",
+			say = "As long as it's okay...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……我记得穿过接下来这片树林就到研究所的入口了。大家跟紧点，别迷路了哦~",
+			say = "The facility's just through these woods. Make sure you keep up! We don't want anyone getting lost.",
 			painting = {
 				alpha = 0.3,
 				time = 1

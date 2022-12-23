@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			stopbgm = true,
-			say = "此刻，一场旨在消灭仲裁者·迪贝路XV的战斗正在进行中——",
+			say = "[Reality Lens Replicated Space] [Cognitive merge: Commander - The Devil XV - Framework of Logic - ???]",
 			bgmDelay = 2,
 			bgm = "theme-thedevilXV",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "迪贝路的「阵型」已经布置完成了，在这种状态下，不要直接攻击其本体。",
+			say = "The Devil's formation is already in place. Under these conditions, don't even bother trying to attack the main vessel.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,7 +51,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "首先，我们要先消灭“恶魔”的眼睛——代行者XV「Temptation」。",
+			say = "We'll need to eliminate her \"eyes\" first – the Temptation-type carriers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "孟菲斯，情报支援。",
+			say = "Memphis. Requesting intel support.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			actor = 9702020,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "了解。所有代行者XV「Temptation」的位置及弱点部位已同步至联合作战系统。",
+			say = "Understood. I've sent information on their location, stats, and weaknesses over the data link.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……你，究竟是怎么做到的？",
+			say = "How did you tap directly into our data link?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			actor = 9702020,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "不重要。",
+			say = "That's not important.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			actor = 9702020,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "指挥官，请让舰载机群对这些目标同时发动攻击，就像之前在演习中对付我的时候一样。",
+			say = "Commander, order a synchronized attack on these coordinates. Just as you did with my mass-produced ships in the previous exercise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "海伦娜，能像之前那次一样为大家提供全方位的强化么？",
+			say = "\"We know the enemy's weakness. Now...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "已经在调整中了哦~",
+			say = "Anti-jamming measures and communication network reinforcement. I'm already on it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "很好。约克城，大黄蜂，兰利，接下来拜托各位按照孟菲斯的标记发动攻击了。",
+			say = "\"We've got the META shipgirls' support. Everyone, attack the Antiochus – the Sirens!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 107100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "放心交给我们吧。",
+			say = "Leave it to us, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			actor = 107120,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大黄蜂大人早就想报复回去了！",
+			say = "Ol' Hornet's ready to get her revenge!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "轰————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，打击已经完成了……目标全数被毁。",
+			say = "Target confirmed sunk! We did it, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			actor = 107270,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从速度到威力……我们的舰载机得到了全方位的性能提升，这些都是你做么，海伦娜？",
+			say = "Our aircraft have improved in speed, power, and more. Helena, did you do this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "是哦~",
+			say = "Of course!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			actor = 107100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官！迪贝路的高度正在下降，她要落回水面了！",
+			say = "The Devil is losing altitude! She's about to land in the water!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "它当然会这么做，因为它要开始进行反制了。",
+			say = "That means she's getting serious. Being in the air restricts what weapons she can use.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "接下来，不要去进攻“恶魔”的爪子——代行者XV「Restriction」，那些只是吸引无知之人缠斗的陷阱。",
+			say = "Don't let her Restriction-type battleships distract you. Fighting them is a trap people fall into when they don't know about her tactics.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "失去了眼睛引导的爪子不过是胡乱挥舞的棍棒罢了。",
+			say = "Without air control, her battleships are nothing more than clubs to be swung around indiscriminately.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "在迪贝路完成「阵型」调整前，绕过爪子直扑本体。",
+			say = "Now, let's slip in and strike at her vessel before the Enforcers have time to readjust their formation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "没问题。但是第二波舰载机准备还需要时间，你能加快这一准备过程么？",
+			say = "\"I understand the urgency, Helena, but we'll need some time before we can have our second wave of planes fully prepared.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "可以，但没必要。我所说的直扑，是字面意义上的哦。",
+			say = "Don't misunderstand me. We're not sending in aircraft – we'll be getting up close and personal ourselves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我有办法可以黑掉迪贝路的系统，进而让它的大多数武器设备停机。",
+			say = "I can hack into her system and disable most of her weapons.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "但是现在整片空间已经脱离了我的控制，我没法远程做到这件事。",
+			say = "I would normally do that remotely, but Helena hasn't gained full control over this virtual space yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "海伦娜一边说着，一边不知从何处拿出来一个如同黑色针筒一般的设备。",
+			say = "While grumbling, Helena META produces a black syringe-like device.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "看到这个设备了么？插入迪贝路的胸口，然后大功告成。",
+			say = "So instead, we're going to go in and stab this into the Devil's heart.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "……原来如此，确实是字面意义上的“直扑”。",
+			say = "\"I get it. You weren't kidding when you said we need to get up close and personal.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "但是这种作战实在太危险了。",
+			say = "\"But this strategy is far too dangerous.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "是哦。",
+			say = "You're right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "执行任务的人需要高速穿过代行者编织的网络，躲过迪贝路的近防炮，最后将设备精准插到迪贝路的胸口上。",
+			say = "We'll have to shake off the Enforcers defending her, avoid the hail of bullets coming from Devil's close-range defenses, and scale her enormous rigging.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "但这是我们仅有的机会。",
+			say = "It's a lot to ask for... but it's also our only chance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "一旦迪贝路完成「阵型」的调整，接下来战斗就要变成消耗战了。",
+			say = "If the Enforcers manage to regroup, it'll become a battle of attrition. And by that point, we've already lost.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "别忘了这片空间的控制权已经被迪贝路接管了哦？",
+			say = "Also, don't forget that she's still a floating manufacturing plant with the ability to call in limitless reinforcements.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			actor = 101500,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……哼，只要有足够高的灵巧和速度就可以对吧？",
+			say = "So you just need someone with the speed and agility to get in there, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -623,7 +623,7 @@ return {
 			actor = 101500,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "区区这种事对于哈曼来说就是小菜一碟！",
+			say = "That's a piece of cake for me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -650,7 +650,7 @@ return {
 			actor = 101500,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，这件事就交给哈曼来做吧！",
+			say = "Commander, leave it to me! Let me do it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,7 +667,7 @@ return {
 			actor = 103260,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有我。指挥官，我跟哈曼一起去。",
+			say = "Allow me to help you. This job is too big for one little Hammann to handle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			actor = 103260,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "必要的时候我会为她抵挡攻击，保证把哈曼送到迪贝路面前。",
+			say = "I'll do whatever it takes to protect her along the way and deliver her to Devil's heart.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "…………一定注意安全。",
+			say = "\"...Be careful out there, okay?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "孟菲斯，规划最优航线。大家调整攻击方向，为哈曼打开前进的道路！",
+			say = "\"Memphis, plan a route. Everyone else, shift your attacks to clear a path for Hammann!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

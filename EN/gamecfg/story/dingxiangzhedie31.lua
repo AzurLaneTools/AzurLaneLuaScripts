@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			stopbgm = true,
-			say = "世界博览会会场·铁血馆",
+			say = "World Expo Venue - Iron Blood pavilion",
 			bgmDelay = 2,
 			bgm = "story-roma-outside",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼~♪哼哼~♪",
+			say = "Hmhm~♪ Hmhm~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "欧根，心情很不错？",
+			say = "You're in high spirits, Eugen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "当然了~看我拿到了什么？",
+			say = "Of course I am! Hehe, do you know what this is?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个是……其他阵营的计划舰资料？",
+			say = "Would this be... information on the blueprint shipgirls of other fleets?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "没错！我花了大力气才弄到的呢。",
+			say = "That's right! You can't imagine the effort it took to put all of this together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是东煌的资料还是太少了，要是她们让滨江加入代表团过来转一圈就好了……",
+			say = "All that remains is the Dragon Empery... It's such a shame that Harbin didn't bother attending the World Expo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "人家就是为了防你这样乱打听情报的人，才专门没有让她过来也说不定哦？",
+			say = "One would imagine that they didn't allow her to come, lest a certain snoop gets too close to her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "小气……鲁普雷希特亲王是我们最新锐的计划舰，我们不还是让她来博览会玩一圈嘛。",
+			say = "Don't be so mean~ Especially after I brought our cutting-edge Prinz Rupprecht here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "我觉得炫耀武力和保护机密之间，还是应该进行区分看待的……",
+			say = "You're clearly trying to show her off. Hah, quite unlike the Empery.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算啦算啦~乌尔里希那边怎么样，有没有异常情况？",
+			say = "Now, now~ So, how is Ulrich doing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有。乌尔里希阁下负责的区域内目前一切正常。",
+			say = "So far, so good.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "不过我有一件其他事要汇报——东煌代表团明天就要回去了。",
+			say = "I bring news, as well. The Empery's delegation will depart tomorrow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "明天？！走得这么早？！",
+			say = "Tomorrow?! What's the rush?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "奇怪……是嗅到什么风声了么。",
+			say = "The Commander isn't even here yet... Did they catch wind of something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "今天晚上她们有安排么？有没有要跟什么阵营会面之类的？",
+			say = "Z2, do the Empery girls have plans tonight? Are they meeting with another fleet, or anything?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目前我还没有看到相关的情报，应该是没有吧……",
+			say = "I wouldn't know. But if they plan to depart tomorrow, I see no reason for them to make plans for the night before?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "好！你抓紧时间安排一下，今晚我们请东煌代表团吃饭！",
+			say = "Good! Let's make plans with them. Dinner, a party, whatever it takes—just get them into our pavilion.",
 			painting = {
 				alpha = 0.3,
 				time = 1

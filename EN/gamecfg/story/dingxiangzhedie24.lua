@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			stopbgm = true,
-			say = "测试海域中，与迪贝路之间的对抗演习正有条不紊的进行着。",
+			say = "Though our battle against Devil is gruelling to say the least, we are standing our ground.",
 			bgmDelay = 2,
 			bgm = "theme-thedevilXV",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "舰载机群一次又一次地发动着攻击，而迪贝路则在激起的水柱间穿梭着，一副游刃有余的模样。",
+			say = "Our carriers' planes weave past the anti-air fire and attack her repeatedly, but accomplish nothing other than create pillars of seawater.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "啧……能让这种完全不符合空气动力学的大家伙在天上飞的这么灵活！",
+			say = "How the hell is she so mobile when she's gotta haul that huge rigging around?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "新一代ANTI-X在制造的时候究竟塞了多强劲的动力进去啊！",
+			say = "What kind of power source did Dr. Aoste put into these second-generation Antiochus?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "真是应了那句俗话，只要动力足够大，板砖也能飞上天呢。",
+			say = "It's as if she's using her sheer volume of Energy Cubes to brute force her way into the air.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "轰炸机和鱼雷机没什么对空作战的能力，早知道的话，就多带一些战斗机了……",
+			say = "Our torpedoes can't hit her and our bombers can't lock on to her. That leaves us with only fighters...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "约克城，我这里还留了一架搭载实验型舰装化对空导弹的舰载机，你要不要用它来试试？",
+			say = "Yorktown, I still have these jets with experimental anti-air missiles. Do you want to give them a try?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "只要让她的动力系统受损无法维持飞行模式，接下来就好对付了。",
+			say = "If we can disable that pesky flight system, she'll be an easy target.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "Nice兰利~指挥官，我申请发起一波空中佯攻，配合导弹战斗机打击迪贝路的动力系统。",
+			say = "Commander, I'd like to request an aerial feint attack to give me an opportunity to coordinate with the missile fighter jets to strike Devil's power system.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			},
 			options = {
 				{
-					content = "许可。",
+					content = "\"Roger. Proceed.\"",
 					flag = 1
 				}
 			}
@@ -182,7 +182,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（这里居然已经实现了导弹的舰装化了么……而且还用在了舰载机上。）",
+			say = "Missiles aren't exactly foreign to me, but I've only seen them deployed in a very limited capacity by the Dragon Empery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（真是不得了的技术……这样一来就能限制住迪贝路夸张的机动性了。）",
+			say = "But here, the technology is robust enough to mount them onto carrier-based aircraft? Surely something that powerful should be able to disable her power system.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "打击完成~指挥官，六枚导弹全部命中目标，迪贝路的动力系统应该遭受到严重损伤了——",
+			say = "A direct hit! Commander, six of our missiles landed! That should be enough to...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "遭受了严重损伤才对……",
+			say = "Wait, it still didn't work...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "约克城姐，迪贝路依然在空中高速飞行中！",
+			say = "She's still in the air! If anything, she's moving even faster now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "可是……好奇怪，我这边明明显示的是有效命中。她现在应该因为动力系统受损而落入水面才是！",
+			say = "That doesn't make any sense. The module should've automatically shut down after the dummy warheads hit... Is something wrong with my sensors?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "…………事情好像有些不对劲。",
+			say = "\"Something isn't right here.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "指挥官，迪贝路的无人机群正在接近，看来是针对刚才袭击行动的回应。",
+			say = "Commander, Enforcer aircraft incoming! I think those missiles pissed them off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "……哈曼，不要让这些飞机接近约克城。",
+			say = "\"Hammann, don't let them hit Yorktown.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "放心吧，看哈曼把它们全部打下来！",
+			say = "On it! I'll shoot every last one of them down!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "轰————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "疼…………！",
+			say = "Ow! Oww! Those are some hard-hitting blanks...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "指挥官，约克城姐姐，对面使用了实弹武器攻击哈曼！",
+			say = "Wait, no! Those are NOT blanks! Commander, Yorktown, they're using live ammunition!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "迪贝路在作弊！",
+			say = "Stupid Antiochus, breaking the rules once they start losing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "……诶？实弹武器？",
+			say = "What?! Langley, are they using live rounds?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………我前去拦截的舰载机也被真的击落了几架，可以肯定对面使用的是实弹武器！",
+			say = "They are. I sent out planes to intercept theirs, and they went up in smoke. That couldn't happen if they shot blanks!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "……仔细凝视着侦察机画面中的迪贝路。",
+			say = "...I enlarge the feed from our recon planes and look carefully at Devil.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "我从中感受到了一股难以名状的疯狂气息。",
+			say = "She no longer looks like the Antiochus vessel we had been speaking to just moments ago. The lust for destruction swirling around her is unmistakable - it is that of a Siren Arbiter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "……不远处的迪贝路，或许已经不是不久前与大家一起有说有笑的迪贝路了。",
+			say = "Even as the shipgirls around me begin to realize the danger they are now in, they remain calm and collected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "指挥官……我们现在应该怎么办？",
+			say = "Commander, what should we do now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "所有人以指挥舰为中心组成防御队形，并……装填实弹。",
+			say = "\"Swap to live ammunition, and regroup around the command ship.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "暂时先不要向迪贝路发动攻击，但是可以清理其飞过来的无人机与对阵型产生威胁的代行者。",
+			say = "\"Devil doesn't seem to be coming for us for the time being. She is an AI, so we can't exclude the possibility that she's gone rogue due to an error.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "好的……！",
+			say = "Understood! Everyone, group up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，是不是先叫停测试比较好？",
+			say = "The exercise can't go on like this. Should I call it off, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "嗯。孟菲斯，立刻向迪贝路呼叫，终止对抗测试。",
+			say = "\"You're right. I don't want to risk any damage if it can be avoided. Let's radio Devil.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "并令其立刻解除武装，询问其使用实弹的原因。",
+			say = "\"We'll need to determine why she suddenly used live ammo against us.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "遵命。",
+			say = "Roger.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "迪贝路，这里是孟菲斯，我现在命令你立刻解除全部武装并降落到海面上。",
+			say = "Devil, you've violated the rules of the exercise! I order you to immediately disarm and return to the surface.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………奇怪，迪贝路对于我的指令没有回应。",
+			say = "...She's not responding? Why isn't my override working?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "它主动关闭了通讯频道……？不应该会发生这种事才对啊……",
+			say = "What?! My hacking attempt failed! How? The Arbiters here can't have developed countermeasures already...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "（…………没想到，现状居然也超出了孟菲斯的控制？）",
+			say = "Only Anchorage and I were connected to the Reality Lens when the experiment started...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "孟菲斯，立刻联系安洁和奥斯塔，向他们告知现场发生的异常状况。",
+			say = "If \"Memphis\" was able to connect afterwards, it would be a piece of cake for the far more technologically advanced Arbiters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "基于迪贝路出现的连续异常行为，可以认定其已处于某种未知的失控状态中。",
+			say = "Everything starts to fall into place... The Devil was not a product of this virtual space. Rather, this whole place was hosted by the Arbiter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "各舰注意，立刻调整航向至萨默斯岛。",
+			say = "The fear of death sends an icy chill to my bones. This is no longer a situation any of us can manage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "迪贝路目前还未发动猛烈进攻，我们先撤离到安全位置再考虑下一步行动！",
+			say = "\"Change of plans. Turn around and head for Samos Island at full speed. Put me in touch with Anzeel and Aoste.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,10 +741,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "bg_zhedie_7",
 			nameColor = "#A9F548FF",
-			say = "遵命————！",
+			say = "Roger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

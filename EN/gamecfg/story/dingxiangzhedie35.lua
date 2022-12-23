@@ -11,7 +11,7 @@ return {
 			bgName = "bg_story_4",
 			bgm = "Beverly_short_inst",
 			bgmDelay = 2,
-			say = "「我做了一个梦——————————」",
+			say = "\"I had a long dream.\"",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,7 +29,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_6",
-			say = "「一个，很长————」",
+			say = "\"A very...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_7",
-			say = "「很长————」",
+			say = "\"Very...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_10",
-			say = "「很长————」",
+			say = "\"Very...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_11",
-			say = "「很长————」",
+			say = "\"Very...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_14",
-			say = "「很长————」",
+			say = "\"Very...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_15",
-			say = "「——很长的梦。」",
+			say = "\"Long dream.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_16",
-			say = "「梦中的企业一直在努力。」",
+			say = "\"In the dream, I saw Enterprise, giving it her all.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_16",
-			say = "「一次次跌倒，又一次次爬起来。」",
+			say = "\"She fell again and again, but stood back up each time.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_16",
-			say = "「纵使满身伤痕，纵使筋疲力竭——」",
+			say = "\"Even when she was covered with wounds, even when she was exhausted.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_16",
-			say = "「而我，什么都做不到。」",
+			say = "\"Yet, all I could do was watch.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_16",
-			say = "「我什么都做不到……」",
+			say = "\"There was nothing I could do for her.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_16",
-			say = "「为什么会变成这个样子呢……」",
+			say = "\"How did it end up this way?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_16",
-			say = "「……………………」",
+			say = "\"...............\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_16",
-			say = "「如果能再一次醒来的话……」",
+			say = "\"If only I could wake up again. If only I had one more chance.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_task",
 			bgm = "Beverly_short_eng",
 			nameColor = "#A9F548FF",
-			say = "————（脚步音）",
+			say = "*tap tap tap*",
 			soundeffect = "event:/ui/footsteps",
 			typewriter = {
 				speed = 0.05,
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………",
+			say = "...............",
 			soundeffect = "event:/ui/footsteps",
 			painting = {
 				alpha = 0.3,
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "姐————",
+			say = "York—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "……………………？",
+			say = ".........?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "………………",
+			say = "...............",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "………………………………",
+			say = "...............",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,11 +541,11 @@ return {
 			}
 		},
 		{
-			actorName = "企业",
+			actorName = "Enterprise",
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_15",
 			side = 2,
-			say = "………………！",
+			say = ".........!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -558,10 +558,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "Yorktown II",
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
-			say = "虽然是「星海」中的模拟环境，不过阳光与清风的感觉已经和真实相差无几了呢。",
+			say = "How interesting. The simulated sunshine and wind in the Sea of Stars weren't all that different from the real deal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,10 +569,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "Yorktown II",
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
-			say = "当然，也有可能是我已经记不太清阳光与清风的真实感受了。",
+			say = "But, maybe that's just because I forgot how they really felt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,10 +580,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "Yorktown II",
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
-			say = "感觉我好像睡了很久很久，错过了很多很多事。",
+			say = "I've slept for far, far too long. Long enough to miss so, so many things...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,10 +591,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "Yorktown II",
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
-			say = "也让你一个人努力太久了……没有努力过头吧？",
+			say = "Long enough to make you carry the weight of the world by yourself for all this time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,10 +602,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
-			say = "……约克城，姐姐。",
+			say = "Yorktown...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,10 +632,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "约克城II",
+			actorName = "Yorktown II",
 			bgName = "bg_zhedie_17",
 			nameColor = "#A9F548FF",
-			say = "我回来了哦，企业。",
+			say = "Enterprise, I'm back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,10 +643,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_zhedie_17",
 			nameColor = "#A9F548FF",
-			say = "我……………",
+			say = "I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "哇哦，企业姐你居然从前线赶回来了么！",
+			say = "Enty! Did you come all the way from the front lines?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "看，我这身新装备怎么样？！",
+			say = "Look! Check out my new rigging!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -706,7 +706,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "大黄蜂，看来这次你才是木头啊……",
+			say = "It looks like you're the dense one this time, Hornet...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,7 +724,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "就算是我也能明白，你这么突然跳出来+是非常不合适的……",
+			say = "Even I know this isn't the right time to be barging in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "欸……？",
+			say = "...Huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -760,7 +760,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "哈曼也觉得……",
+			say = "Yeah, not the best look.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,7 +778,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "大黄蜂，木头……",
+			say = "You're such a blockhead, Hornet!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,7 +796,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "欸哎？！！",
+			say = "Wha?! What'd I do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -814,7 +814,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "呵呵，这样不也挺好么？",
+			say = "Now, now. It's okay.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,7 +831,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Fighting-lady约克城，以此全新姿态康复归来。",
+			say = "Yorktown, the Fighting Lady, has returned to you once more.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -849,7 +849,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "我相信，在黑暗之后迎来的一定是绚烂的幸福之光。",
+			say = "Bathed in the resplendent dawn of happiness born from the darkest night...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -867,7 +867,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "同伴们，让我们一起携手迈向未来吧————",
+			say = "I am here to fight alongside you, my friends.",
 			painting = {
 				alpha = 0.3,
 				time = 1
