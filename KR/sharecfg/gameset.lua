@@ -2601,7 +2601,7 @@ pg.gameset = {
 		key_value = 43200
 	},
 	naval_academy_theme = {
-		description = "winter",
+		description = "christmas",
 		key_value = 0
 	},
 	package_lv = {
