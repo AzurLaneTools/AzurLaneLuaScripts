@@ -137,7 +137,7 @@ end
 
 function slot0.UpdatePainting(slot0)
 	if slot0.bossMission:GetPainting() and slot2 ~= "" then
-		setGuildPaintingPrefab(slot0.paintingTF, slot2, nil, )
+		setGuildPaintingPrefab(slot0.paintingTF, slot2, "chuanwu", nil)
 	else
 		slot4 = slot1:GetEmenyId()
 
