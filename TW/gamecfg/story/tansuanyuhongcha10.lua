@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指揮官，一周的期限已經到了。",
+			say = "指揮官，一週的期限已經到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

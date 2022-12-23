@@ -118,7 +118,7 @@ function slot0.buildHandbookTypeAssign(slot0)
 end
 
 function slot0.recoverAllShipEnergy(slot0)
-	slot1 = pg.energy_template[3].upper_bound
+	slot1 = pg.energy_template[3].upper_bound - 1
 	slot2 = pg.energy_template[4].upper_bound
 	slot3 = {}
 	slot4 = getProxy(ActivityProxy)
@@ -135,24 +135,25 @@ function slot0.recoverAllShipEnergy(slot0)
 
 	for slot8, slot9 in pairs(slot0.data) do
 		slot10 = slot9:getRecoverEnergyPoint()
-		slot11 = slot1
+		slot11 = 0
+		slot12 = slot1
 
 		if slot9.state == Ship.STATE_REST or slot9.state == Ship.STATE_TRAIN then
 			if slot9.state == Ship.STATE_TRAIN then
-				slot10 = slot10 + Ship.BACKYARD_1F_ENERGY_ADDITION
+				slot11 = slot11 + Ship.BACKYARD_1F_ENERGY_ADDITION
 			elseif slot9.state == Ship.STATE_REST then
-				slot10 = slot10 + Ship.BACKYARD_2F_ENERGY_ADDITION
+				slot11 = slot11 + Ship.BACKYARD_2F_ENERGY_ADDITION
 			end
 
-			slot11 = slot2
+			slot12 = slot2
 		end
 
 		if slot3[slot9.id] then
-			slot10 = slot10 + slot3[slot9.id]
-			slot11 = slot2
+			slot11 = slot11 + slot3[slot9.id]
+			slot12 = slot2
 		end
 
-		slot9:setEnergy(math.min(slot9:getEnergy() + slot10, slot11))
+		slot9:setEnergy(math.min(slot9:getEnergy() + math.max(math.min(slot10, slot12 - slot9:getEnergy()), 0) + slot11, slot2))
 		slot0:updateShip(slot9)
 	end
 end

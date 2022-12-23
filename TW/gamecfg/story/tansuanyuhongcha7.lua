@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇啊……這個就是皇家的菜單，比我們的要精緻很多誒！",
+			say = "哇啊……這個就是皇家的菜單，比我們的要精緻很多欸！",
 			flashout = {
 				black = true,
 				dur = 0.5,

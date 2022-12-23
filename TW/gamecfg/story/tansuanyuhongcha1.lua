@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "然後以開業後一周後為期限，看指揮官對哪邊的評價更高，以此來當做競爭的結果如何？",
+			say = "然後以開業後一週後為期限，看指揮官對哪邊的評價更高，以此來當做競爭的結果如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

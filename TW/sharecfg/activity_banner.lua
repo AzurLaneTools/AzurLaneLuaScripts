@@ -811,7 +811,7 @@ pg.activity_banner = {
 	[202] = {
 		param = "",
 		id = 202,
-		pic = "springfes",
+		pic = "newyear",
 		type = 13,
 		time = {
 			{

@@ -14,12 +14,13 @@ return {
 				}
 			},
 			style = {
-				text = "点击游戏手册查看角色、敌人详细说明",
+				text = "点击「游戏手册」可以查看角色和敌人的详细说明",
 				mode = 2,
 				posY = -174,
 				char = "amazon",
 				dir = -1,
-				posX = -844.7,
+				windowbg = "3",
+				posX = -680,
 				charPos = {
 					10,
 					-114
