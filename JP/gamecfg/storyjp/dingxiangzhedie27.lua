@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "仲間たちが奮戦してくれたおかげで、なんとかアビータの巨大艤装に乗り移り、そのボディに接近することができた。",
+			say = "振り返る余裕はない。デビルとエンフォーサーの注意が引かれている間になんとかしないと。",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -244,7 +244,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "仲間たちが奮戦してくれたおかげで、なんとかアビータの巨大艤装に乗り移り、そのボディに接近することができた。",
+			say = "こっちが至近距離に接近していたことに戸惑いを見せたデビルに、ためらわずヘレナからもらったデバイスを突き刺した。",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,

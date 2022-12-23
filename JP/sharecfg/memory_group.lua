@@ -2924,7 +2924,7 @@ pg.memory_group = {
 		subtype = 3,
 		type = 2,
 		id = 234,
-		title = "水边的假日",
+		title = "水辺の休日",
 		memories = {
 			2461,
 			2462,

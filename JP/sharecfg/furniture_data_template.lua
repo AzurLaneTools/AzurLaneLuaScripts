@@ -5874,7 +5874,7 @@ pg.furniture_data_template = {
 		picture = "chuanmo/duocengwenquan",
 		canputon = 0,
 		id = 240,
-		can_rotate = 0,
+		can_rotate = 1,
 		size = {
 			6,
 			6
@@ -109879,7 +109879,7 @@ pg.furniture_data_template = {
 		picture = "",
 		canputon = 0,
 		id = 96116,
-		can_rotate = 0,
+		can_rotate = 1,
 		size = {
 			6,
 			7
