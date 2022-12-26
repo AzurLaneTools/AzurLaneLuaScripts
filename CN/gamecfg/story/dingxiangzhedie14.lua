@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "此刻，安洁正惬意地将自己埋在会客室的沙发中，外头看着窗外的天空。",
+			say = "此刻，安洁正惬意地将自己埋在会客室的沙发中，歪头看着窗外的天空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "他啊……负责的项目可就杂得很了，团队也扩展的乱七八糟。",
+			say = "他啊……负责的项目可就杂得很了，团队也扩展得乱七八糟。",
 			painting = {
 				alpha = 0.3,
 				time = 1

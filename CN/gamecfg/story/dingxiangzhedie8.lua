@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "你看看我，再看看约克城姐，甚至连哈曼手把手里拿满了！",
+			say = "你看看我，再看看约克城姐，甚至连哈曼都把手里拿满了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "买了那么多东西，全拎着不是反而更引人注目吧……",
+			say = "买了那么多东西，全拎着不是反而更引人注目吗……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -793,7 +793,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "具体场景是什么样的，敌人会使用哪些装备，导演部会安排什么“意外情况”，都等到演习开始前才能揭晓。",
+			say = "具体场景是什么样的，敌人会使用哪些装备，导演部会安排什么“意外情况”，都要等到演习开始前才能揭晓。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1570,7 +1570,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "……大黄蜂，你稍微闹得有过了，会给指挥官带来困扰的。",
+			say = "……大黄蜂，你稍微闹得有点过了，会给指挥官带来困扰的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1795,7 +1795,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_2",
-			say = "被安洁不由分说得拽回了小吃街的入口————看来今晚，才刚刚开始呢。",
+			say = "被安洁不由分说地拽回了小吃街的入口————看来今晚，才刚刚开始呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

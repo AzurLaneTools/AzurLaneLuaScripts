@@ -8340,7 +8340,7 @@ pg.activity_template = {
 				1
 			},
 			use_secretary = false,
-			painting = "dahuangfengII_pt",
+			painting = "mingshi_live2d",
 			pt_id = 292
 		}
 	},
@@ -8967,6 +8967,70 @@ pg.activity_template = {
 		},
 		config_client = {
 			build_painting = "yuekechengII_building"
+		}
+	},
+	[4621] = {
+		mark = 20221222,
+		config_client = "",
+		title_res_tag = "unicorn_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 31,
+		id = 4621,
+		config_data = {
+			{
+				18139
+			},
+			{
+				18140
+			},
+			{
+				18141
+			},
+			{
+				18142
+			},
+			{
+				18143
+			},
+			{
+				18144
+			},
+			{
+				18145
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2022,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "UnicornSkinPage",
+			ui_name = "UnicornSkinPage"
 		}
 	},
 	[7001] = {
@@ -13664,6 +13728,7 @@ pg.activity_template = {
 		4618,
 		4619,
 		4620,
+		4621,
 		7001,
 		7002,
 		7003,

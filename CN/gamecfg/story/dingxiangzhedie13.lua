@@ -358,7 +358,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现状：指挥官与「现实透镜」的之间的连接依然稳定，可以认定其并未处于危险之中。",
+			say = "现状：指挥官与「现实透镜」之间的连接依然稳定，可以认定其并未处于危险之中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -512,7 +512,7 @@ return {
 			bgName = "bg_starsea_core_2",
 			side = 2,
 			actorName = "领航员-TB",
-			say = "结果已确认：指挥官与「现实透镜」的之间的连接依然稳定，因此可以认定指挥官并未处于危险之中。",
+			say = "结果已确认：指挥官与「现实透镜」之间的连接依然稳定，因此可以认定指挥官并未处于危险之中。",
 			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,

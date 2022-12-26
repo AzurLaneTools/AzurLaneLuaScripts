@@ -582,7 +582,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "因此，我让「厄庇墨透斯」上浮，只是将哈曼调离您所在指挥舰的位置计策罢了。",
+			say = "因此，我让「厄庇墨透斯」上浮，只是将哈曼调离您所在指挥舰位置的计策罢了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "啊哈哈……也许了我昨天晚上下载了太多东西有关吧……",
+			say = "啊哈哈……也许和我昨天晚上下载了太多东西有关吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在我们所见到的不过是都是在进一步探索中出现的中间产物罢了。",
+			say = "现在我们所见到的不过都是在进一步探索中出现的中间产物罢了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "话虽数如此……可是军用基地呢，巡逻队呢？戒备森严的实验室呢……？",
+			say = "话虽说如此……可是军用基地呢，巡逻队呢？戒备森严的实验室呢……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "这里怎么看都不像会有军方的机密设施存在的地方吧！",
+			say = "这里怎么看都不像是会有军方的机密设施存在的地方吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "直到某个时间点后就被军方接管了下来，然后变成了现在奥斯塔本人常驻的主实验室。",
+			say = "直到某个时间点后就被军方接管了下来，然后现在变成了奥斯塔本人常驻的主实验室。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系没关系~我们可是千里迢迢的飞过来参加合作项目了哦，享受这种程度的服务还是应该的吧。",
+			say = "没关系没关系~我们可是千里迢迢地飞过来参加合作项目了哦，享受这种程度的服务还是应该的吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -529,7 +529,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那是自然~利用这项技术，只需要创建出完善的理论逻辑体系，就可以绕过很多装备生产中的遭遇的技术瓶颈。",
+			say = "那是自然~利用这项技术，只需要创建出完善的理论逻辑体系，就可以绕过很多装备生产中遭遇的技术瓶颈。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "具体做到了哪些，我先买个关子。等到一会的协作测试中你们就知道了。",
+			say = "具体做到了哪些，我先卖个关子。等到一会的协作测试中你们就知道了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,7 +796,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……就像增加了一套体外的人工心肺一样！你知道的吧，就是手术中用由于构建人体外循环的那一套机器？",
+			say = "嗯……就像增加了一套体外的人工心肺一样！你知道的吧，就是手术中用于构建人体外循环的那一套机器？",
 			painting = {
 				alpha = 0.3,
 				time = 1

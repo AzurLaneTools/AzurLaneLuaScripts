@@ -737,7 +737,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "嗯……虽然服饰风格已经周围的具有科技感的都市融为了一体，不过下车的人确实是北安普敦。",
+			say = "嗯……虽然服饰风格已经和周围的具有科技感的都市融为了一体，不过下车的人确实是北安普敦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

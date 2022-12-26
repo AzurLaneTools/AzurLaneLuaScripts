@@ -279,8 +279,9 @@ function slot0.UpdateSlot(slot0, slot1, slot2)
 	setAnchoredPosition(slot2, (slot6 and slot0.slotShipPos or slot0.slotOriginalPos)[slot1])
 
 	if slot6 then
-		slot9 = SpineRole.New(slot6)
+		slot9 = SpineRole.New()
 
+		slot9:SetData(slot6:getPrefab())
 		slot0:LoadingOn()
 		slot9:Load(function ()
 			uv0:SetParent(uv1:Find("Model"))
