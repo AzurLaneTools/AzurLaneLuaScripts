@@ -1205,7 +1205,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "Commander, you're been aware this whole time that this world is nothing but a replicated virtual space, right?",
+			say = "Commander, you've been aware this whole time that this world is nothing but a replicated virtual space, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1

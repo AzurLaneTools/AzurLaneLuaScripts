@@ -692,7 +692,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Commander... What's Type II rigging?",
+			say = "Commander... What's a Type II rigging?",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "Cardinal, are you aware that the Iris Libre Basilica is not only in this southern continent?",
+			say = "Cardinal, are you aware that the Iris Orthodoxy's Basilica is not only in this southern continent?",
 			painting = {
 				alpha = 0.3,
 				time = 1

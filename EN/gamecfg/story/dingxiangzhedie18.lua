@@ -1180,7 +1180,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_2",
-			say = "I am left by myself. Unsettling, alien thoughts creep start to creep into my mind.",
+			say = "I am left by myself. Unsettling, alien thoughts start to creep into my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
