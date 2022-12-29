@@ -5989,22 +5989,22 @@ pg.ship_skin_template_1 = {
 		bound_bone = {
 			cannon = {
 				{
-					0.026,
+					0.63,
 					0.764,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.026,
+					0.79,
 					0.764,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0.146,
-					0.06,
+					0,
+					0,
 					0
 				}
 			}
@@ -6137,6 +6137,115 @@ pg.ship_skin_template_1 = {
 						"smoke",
 						{
 							-0.53,
+							2.34,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[101272] = {
+		ship_group = 10127,
+		name = "토끼토끼 산타!",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "125",
+		id = 101272,
+		group_index = 2,
+		prefab = "beili_3",
+		painting = "beili_3",
+		shop_id = 70791,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 1,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "토끼토끼 산타가 왔어! 그래, 산타가 아니라, 토끼토끼 산타라구! 산타가 너무 바빠서, 토끼토끼별에서 찾아온 베일리가 대신 도와주는 거야!",
+		voice_actor = 63,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.88,
+					0.764,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.86,
+					0.764,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
 							2.34,
 							-0.16
 						}

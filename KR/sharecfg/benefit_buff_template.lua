@@ -1020,6 +1020,118 @@ pg.benefit_buff_template = {
 			0
 		}
 	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "벨파스트의 축복",
+		hide = 0,
+		max_time = 86400,
+		desc = "벨파스트의 축복——숙소 경험치 보너스 3% 증가\n남은 시간: $1",
+		benefit_effect = "3",
+		id = 66,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4603,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "르 트리옹팡의 축복",
+		hide = 0,
+		max_time = 86400,
+		desc = "르 트리옹팡의 축복——숙소 경험치 보너스 3% 증가\n남은 시간: $1",
+		benefit_effect = "3",
+		id = 67,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4603,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "쇼카쿠의 축복",
+		hide = 0,
+		max_time = 86400,
+		desc = "쇼카쿠의 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 3% 감소\n남은 시간: $1",
+		benefit_effect = "520",
+		id = 68,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4603,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "사우스다코타의 축복",
+		hide = 0,
+		max_time = 86400,
+		desc = "사우스다코타의 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 캐릭터 경험치 획득 3% 증가\n남은 시간: $1",
+		benefit_effect = "3",
+		id = 69,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4603,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "그라프 체펠린의 축복",
+		hide = 0,
+		max_time = 86400,
+		desc = "그라프 체펠린의 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 캐릭터 경험치 획득 3% 증가\n남은 시간: $1",
+		benefit_effect = "3",
+		id = 70,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4603,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "일러스트리어스의 축복",
+		hide = 0,
+		max_time = 86400,
+		desc = "일러스트리어스의 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 3% 감소\n남은 시간: $1",
+		benefit_effect = "520",
+		id = 71,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4603,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "차라의 축복",
+		hide = 0,
+		max_time = 86400,
+		desc = "차라의 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 3% 감소\n남은 시간: $1",
+		benefit_effect = "520",
+		id = 72,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4603,
+			0
+		}
+	},
 	[103] = {
 		icon = "Props/newserver_skill",
 		name = "신입 지휘관 스킬 강화속도 UP",
@@ -1944,6 +2056,13 @@ pg.benefit_buff_template = {
 		63,
 		64,
 		65,
+		66,
+		67,
+		68,
+		69,
+		70,
+		71,
+		72,
 		103,
 		300001,
 		300002,

@@ -36,6 +36,20 @@ function slot0.Ctor(slot0, slot1)
 	slot0.glitchArt = slot1.paintingNoise
 	slot0.hideOtherPainting = slot1.hideOther
 	slot0.subPaintings = slot1.subActors
+	slot0.disappearSeq = {}
+	slot0.disappearTime = {
+		0,
+		0
+	}
+
+	if slot0.subPaintings and #slot0.subPaintings > 0 and slot1.disappearSeq then
+		slot0.disappearSeq = slot1.disappearSeq
+		slot0.disappearTime = slot1.disappearTime or {
+			0,
+			0
+		}
+	end
+
 	slot0.paingtingScale = slot1.actorScale
 	slot0.hidePainting = slot1.withoutPainting
 	slot0.actorShadow = slot1.actorShadow
@@ -47,6 +61,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.spine = slot1.spine
 	slot0.live2dOffset = slot1.live2dOffset
 	slot0.icon = slot1.icon
+	slot0.contentBGAlpha = slot1.dialogueBgAlpha or 1
 
 	if slot0.hidePainting or slot0.actor == nil then
 		slot0.actor = nil
@@ -58,6 +73,10 @@ end
 
 function slot0.GetMode(slot0)
 	return Story.MODE_DIALOGUE
+end
+
+function slot0.GetContentBGAlpha(slot0)
+	return slot0.contentBGAlpha
 end
 
 function slot0.GetExPression(slot0)
@@ -235,6 +254,7 @@ function slot0.GetSubPaintings(slot0)
 		assert(slot1)
 
 		return {
+			actor = slot0.actor,
 			name = slot1.painting,
 			expression = slot0.expression,
 			pos = slot0.pos,
@@ -243,6 +263,18 @@ function slot0.GetSubPaintings(slot0)
 			showNPainting = slot0.hidePaintObj or false
 		}
 	end)
+end
+
+function slot0.NeedDispppearSubPainting(slot0)
+	return #slot0.disappearSeq > 0
+end
+
+function slot0.GetDisappearSeq(slot0)
+	return slot0.disappearSeq
+end
+
+function slot0.GetDisappearTime(slot0)
+	return slot0.disappearTime[1], slot0.disappearTime[2]
 end
 
 function slot0.IsNoHeadPainting(slot0)

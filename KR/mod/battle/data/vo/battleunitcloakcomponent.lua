@@ -64,7 +64,11 @@ function slot5.AppendExposeSpeed(slot0, slot1)
 end
 
 function slot5.ForceToMax(slot0)
-	slot0._cloakValue = slot0._exposeValue
+	slot0:ForceToRate(1)
+end
+
+function slot5.ForceToRate(slot0, slot1)
+	slot0._cloakValue = math.floor(slot1 * slot0._exposeValue)
 
 	slot0:UpdateCloakState()
 end

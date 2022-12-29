@@ -8,10 +8,18 @@ function slot0.setShipSkin(slot0, slot1)
 	slot0.shipVO.skinId = slot1
 end
 
+function slot0.GetShareSkins(slot0)
+	slot1 = getProxy(ShipSkinProxy)
+
+	return _.map(slot1:GetShareSkinsForShip(slot0.shipVO), function (slot0)
+		return pg.ship_skin_template[slot0.id]
+	end)
+end
+
 function slot0.setSkinList(slot0, slot1)
 	slot0.skinList = slot1
 	slot0.skins = slot0:getGroupSkinList(slot0.shipVO.groupId)
-	slot0.owns = slot0:getGroupOwnSkins(slot0.shipVO.groupId)
+	slot0.shareSkins = slot0:GetShareSkins()
 end
 
 function slot0.getUIName(slot0)
@@ -23,14 +31,13 @@ function slot0.back(slot0)
 end
 
 function slot0.init(slot0)
+	slot0.shareBtn = slot0:findTF("select_skin/share_btn")
 end
 
 function slot0.didEnter(slot0)
 	slot0:initSelectSkinPanel()
-
-	if slot0.shipVO then
-		slot0:openSelectSkinPanel()
-	end
+	triggerToggle(slot0.shareBtn, false)
+	setActive(slot0.shareBtn, #slot0.shareSkins > 0)
 end
 
 function slot0.initSelectSkinPanel(slot0)
@@ -42,6 +49,13 @@ function slot0.initSelectSkinPanel(slot0)
 	onButton(slot0, slot0:findTF("print", slot0.skinPanel), function ()
 		uv0:back()
 	end)
+	onToggle(slot0, slot0.shareBtn, function (slot0)
+		if slot0 then
+			uv0:Flush(uv0.shareSkins)
+		else
+			uv0:Flush(uv0.skins)
+		end
+	end, SFX_PANEL)
 
 	slot0.skinScroll = slot0:findTF("select_skin/style_scroll", slot0.skinPanel)
 	slot0.skinContainer = slot0:findTF("view_port", slot0.skinScroll)
@@ -53,44 +67,47 @@ function slot0.initSelectSkinPanel(slot0)
 end
 
 function slot0.openSelectSkinPanel(slot0)
-	for slot4 = slot0.skinContainer.childCount, #slot0.skins - 1 do
+	slot0:Flush(slot0.skins)
+end
+
+function slot0.Flush(slot0, slot1)
+	for slot5 = slot0.skinContainer.childCount, #slot1 - 1 do
 		cloneTplTo(slot0.skinCard, slot0.skinContainer)
 	end
 
-	for slot4 = #slot0.skins, slot0.skinContainer.childCount - 1 do
-		setActive(slot0.skinContainer:GetChild(slot4), false)
+	for slot5 = #slot1, slot0.skinContainer.childCount - 1 do
+		setActive(slot0.skinContainer:GetChild(slot5), false)
 	end
 
-	slot1 = slot0.skinContainer.childCount
+	slot2 = slot0.skinContainer.childCount
 
-	for slot5, slot6 in ipairs(slot0.skins) do
-		if not slot0.skinCardMap[slot0.skinContainer:GetChild(slot5 - 1)] then
-			slot0.skinCardMap[slot7] = ShipSkinCard.New(slot7.gameObject)
+	for slot6, slot7 in ipairs(slot1) do
+		if not slot0.skinCardMap[slot0.skinContainer:GetChild(slot6 - 1)] then
+			slot0.skinCardMap[slot8] = ShipSkinCard.New(slot8.gameObject)
 		end
 
-		slot10 = slot0.shipVO:proposeSkinOwned(slot6) or table.contains(slot0.skinList, slot6.id) or slot0.shipVO:getRemouldSkinId() == slot6.id and slot0.shipVO:isRemoulded() or slot6.skin_type == ShipSkin.SKIN_TYPE_OLD
+		slot9:updateData(slot0.shipVO, slot7, slot0.shipVO:proposeSkinOwned(slot7) or table.contains(slot0.skinList, slot7.id) or slot0.shipVO:getRemouldSkinId() == slot7.id and slot0.shipVO:isRemoulded() or slot7.skin_type == ShipSkin.SKIN_TYPE_OLD)
+		slot9:updateUsing(slot0.shipVO.skinId == slot7.id)
+		removeOnButton(slot8)
 
-		slot8:updateData(slot0.shipVO, slot6, slot10)
-		slot8:updateSkin(slot6, slot10)
-		slot8:updateUsing(slot0.shipVO.skinId == slot6.id)
-		removeOnButton(slot7)
+		slot14 = slot7.shop_id > 0 and pg.shop_template[slot7.shop_id] or nil
+		slot15 = slot14 and not pg.TimeMgr.GetInstance():inTime(slot14.time)
+		slot16 = slot7.id == slot0.shipVO.skinId
+		slot17 = slot7.id == slot0.shipVO:getConfig("skin_id") or ((slot0.shipVO:proposeSkinOwned(slot7) or table.contains(slot0.skinList, slot7.id) or slot0.shipVO:getRemouldSkinId() == slot7.id and slot0.shipVO:isRemoulded()) and 1 or 0) >= 1 or slot7.skin_type == ShipSkin.SKIN_TYPE_OLD
+		slot18 = getProxy(ShipSkinProxy):InForbiddenSkinListAndShow(slot7.id)
 
-		slot13 = slot6.shop_id > 0 and pg.shop_template[slot6.shop_id] or nil
-		slot14 = slot13 and not pg.TimeMgr.GetInstance():inTime(slot13.time)
-		slot15 = slot6.id == slot0.shipVO.skinId
-		slot16 = slot6.id == slot0.shipVO:getConfig("skin_id") or ((slot0.shipVO:proposeSkinOwned(slot6) or table.contains(slot0.skinList, slot6.id) or slot0.shipVO:getRemouldSkinId() == slot6.id and slot0.shipVO:isRemoulded()) and 1 or 0) >= 1 or slot6.skin_type == ShipSkin.SKIN_TYPE_OLD
-		slot17 = getProxy(ShipSkinProxy):InForbiddenSkinListAndShow(slot6.id)
-
-		onToggle(slot0, slot8.hideObjToggleTF, function (slot0)
+		onToggle(slot0, slot9.hideObjToggleTF, function (slot0)
 			PlayerPrefs.SetInt("paint_hide_other_obj_" .. uv0.paintingName, slot0 and 1 or 0)
 			uv0:flushSkin()
 			uv1:emit(SwichSkinMediator.UPDATE_SKINCONFIG, uv1.shipVO.skinId)
 		end, SFX_PANEL)
-		onButton(slot0, slot7, function ()
+		onButton(slot0, slot8, function ()
 			if uv0 then
 				uv1:back()
-			elseif uv2 then
-				uv1:emit(SwichSkinMediator.CHANGE_SKIN, uv1.shipVO.id, uv3.id == uv1.shipVO:getConfig("skin_id") and 0 or uv3.id)
+			elseif ShipSkin.IsShareSkin(uv1.shipVO, uv2.id) and not ShipSkin.CanUseShareSkinForShip(uv1.shipVO, uv2.id) then
+				-- Nothing
+			elseif uv3 then
+				uv1:emit(SwichSkinMediator.CHANGE_SKIN, uv1.shipVO.id, uv2.id == uv1.shipVO:getConfig("skin_id") and 0 or uv2.id)
 				uv1:back()
 			elseif uv4 then
 				if uv5 or uv6 then
@@ -99,10 +116,10 @@ function slot0.openSelectSkinPanel(slot0)
 					slot0 = Goods.Create({
 						shop_id = uv4.id
 					}, Goods.TYPE_SKIN)
-					slot3 = i18n("text_buy_fashion_tip", slot0:GetPrice(), HXSet.hxLan(uv3.name))
+					slot3 = i18n("text_buy_fashion_tip", slot0:GetPrice(), HXSet.hxLan(uv2.name))
 
 					if slot0:isDisCount() and slot0:IsItemDiscountType() then
-						slot3 = i18n("discount_coupon_tip", slot2, slot0:GetDiscountItem().name, HXSet.hxLan(uv3.name))
+						slot3 = i18n("discount_coupon_tip", slot2, slot0:GetDiscountItem().name, HXSet.hxLan(uv2.name))
 					end
 
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -115,54 +132,15 @@ function slot0.openSelectSkinPanel(slot0)
 							end
 						end
 					})
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("text_buy_fashion_tip", slot2, HXSet.hxLan(uv3.name)),
-						onYes = function ()
-							uv0:emit(SwichSkinMediator.BUY_ITEM, uv1.id, 1)
-						end
-					})
 				end
 			end
 		end)
-		setActive(slot7, true)
-	end
-end
-
-function slot0.isCurrentShipExistSkin(slot0, slot1)
-	if slot1 then
-		if #slot0.skins > 1 then
-			return true
-		elseif #slot0.skins == 1 then
-			return false
-		end
+		setActive(slot8, true)
 	end
 end
 
 function slot0.getGroupSkinList(slot0, slot1)
 	return getProxy(ShipSkinProxy):GetAllSkinForShip(slot0.shipVO)
-end
-
-function slot0.getGroupOwnSkins(slot0, slot1)
-	slot2 = {}
-	slot3 = slot0.skinList
-
-	if getProxy(CollectionProxy):getShipGroup(slot1) then
-		for slot9, slot10 in ipairs(ShipGroup.getSkinList(slot1)) do
-			if slot10.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or table.contains(slot3, slot10.id) or slot10.skin_type == ShipSkin.SKIN_TYPE_REMAKE and slot4.trans or slot10.skin_type == ShipSkin.SKIN_TYPE_PROPOSE and slot4.married == 1 then
-				slot2[slot10.id] = true
-			end
-		end
-	end
-
-	if HXSet.isHx() then
-		for slot8 = #slot2, 1, -1 do
-			if pg.ship_skin_template[slot2[slot8].id].isHX == 1 then
-				table.remove(slot2, slot8)
-			end
-		end
-	end
-
-	return slot2
 end
 
 function slot0.willExit(slot0)

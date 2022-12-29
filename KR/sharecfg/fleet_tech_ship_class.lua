@@ -119,6 +119,17 @@ pg.fleet_tech_ship_class = {
 			10149
 		}
 	},
+	[10109] = {
+		shiptype = 1,
+		name = "에드솔급",
+		nation = 1,
+		id = 10109,
+		t_level_1 = 7,
+		t_level = 4,
+		ships = {
+			10150
+		}
+	},
 	[10201] = {
 		shiptype = 2,
 		name = "애틀란타급",
@@ -278,6 +289,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 8,
 		ships = {
 			19903
+		}
+	},
+	[10308] = {
+		shiptype = 3,
+		name = "오리건시티급",
+		nation = 1,
+		id = 10308,
+		t_level_1 = 3,
+		t_level = 9,
+		ships = {
+			10326
 		}
 	},
 	[10501] = {
@@ -2950,6 +2972,7 @@ pg.fleet_tech_ship_class = {
 		10106,
 		10107,
 		10108,
+		10109,
 		10201,
 		10202,
 		10203,
@@ -2962,6 +2985,7 @@ pg.fleet_tech_ship_class = {
 		10305,
 		10306,
 		10307,
+		10308,
 		10501,
 		10502,
 		10503,

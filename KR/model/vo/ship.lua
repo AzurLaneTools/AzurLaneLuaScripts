@@ -180,8 +180,12 @@ function slot0.getIntimacyMax(slot0)
 	if slot0.propose then
 		return 200
 	else
-		return 100
+		return slot0:GetNoProposeIntimacyMax()
 	end
+end
+
+function slot0.GetNoProposeIntimacyMax(slot0)
+	return 100
 end
 
 function slot0.getIntimacyIcon(slot0)

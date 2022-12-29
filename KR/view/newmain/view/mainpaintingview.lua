@@ -86,7 +86,7 @@ function slot0.Refresh(slot0, slot1, slot2)
 	slot3 = uv0.GetAssistantStatus(slot1)
 	slot4 = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.painting.paintingName, 0)
 
-	if slot1.skinId == slot0.ship.skinId and slot0.state == slot3 and slot0.bgToggle == slot4 then
+	if slot1.skinId == slot0.ship.skinId and slot1.id == slot0.ship.id and slot0.state == slot3 and slot0.bgToggle == slot4 then
 		slot0.painting:Resume()
 
 		if slot2 then

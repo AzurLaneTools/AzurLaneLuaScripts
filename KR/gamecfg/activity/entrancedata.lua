@@ -81,7 +81,9 @@ return {
 			}
 		},
 		isShow = function ()
-			return pg.TimeMgr.GetInstance():inTime(ActivityConst.LIMIT_SKIN_SHOP_TIME)
+			return pg.activity_banner.get_id_list_by_type[GAMEUI_BANNER_12] and #slot0 > 0 and _.any(slot0, function (slot0)
+				return pg.TimeMgr.GetInstance():inTime(pg.activity_banner[slot0].time)
+			end)
 		end,
 		isTip = function ()
 			if not getProxy(PlayerProxy):getRawData():getResource(pg.gameset.skin_ticket.key_value) or slot2 <= 0 then

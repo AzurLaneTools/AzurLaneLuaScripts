@@ -129,3 +129,48 @@ function DOAParabolaCalc(slot0, slot1, slot2)
 
 	return slot4
 end
+
+function mergeSort(slot0, slot1)
+	slot1 = slot1 or function (slot0, slot1)
+		return slot0 <= slot1
+	end
+	slot2 = {}
+
+	(function (slot0, slot1)
+		if slot1 <= slot0 then
+			return
+		end
+
+		slot2 = math.floor((slot0 + slot1) / 2)
+
+		uv0(slot0, slot2)
+		uv0(slot2 + 1, slot1)
+
+		slot3 = slot0
+		slot4 = slot2 + 1
+
+		while slot3 <= slot2 and slot4 <= slot1 do
+			if uv1(uv2[slot3], uv2[slot4]) then
+				uv3[slot3 + slot4 - slot2 - 1] = uv2[slot3]
+				slot3 = slot3 + 1
+			else
+				uv3[slot3 + slot4 - slot2 - 1] = uv2[slot4]
+				slot4 = slot4 + 1
+			end
+		end
+
+		while slot3 <= slot2 do
+			uv3[slot3 + slot4 - slot2 - 1] = uv2[slot3]
+			slot3 = slot3 + 1
+		end
+
+		while slot4 <= slot1 do
+			uv3[slot3 + slot4 - slot2 - 1] = uv2[slot4]
+			slot4 = slot4 + 1
+		end
+
+		for slot8 = slot0, slot1 do
+			uv2[slot8] = uv3[slot8]
+		end
+	end)(1, #slot0)
+end

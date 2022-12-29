@@ -23,6 +23,7 @@ function slot6.Ctor(slot0, slot1)
 	slot0._skill = uv0.Battle.BattleSkillUnit.New(slot1)
 	slot0._skillID = slot1
 	slot0._reloadFacotrList = {}
+	slot0._reloadBoostList = {}
 	slot0._jammingTime = 0
 end
 
@@ -83,6 +84,14 @@ end
 
 function slot6.FlushReloadMax(slot0, slot1)
 	slot0._reloadMax = slot0._totalReload * (slot1 or 1)
+
+	if not slot0._CDstartTime or slot0._reloadRequire == 0 then
+		return true
+	end
+
+	slot0._reloadRequire = uv1.Battle.BattleWeaponUnit.FlushRequireByInverse(slot0, uv0.GetCurrent(slot0._host, "loadSpeed"))
+
+	slot0._allInWeaponVo:RefreshReloadingBar()
 end
 
 function slot6.AppendReloadFactor(slot0, slot1, slot2)
@@ -206,8 +215,7 @@ function slot6.FlushReloadRequire(slot0)
 		return true
 	end
 
-	slot2 = pg.TimeMgr.GetInstance():GetCombatTime() - slot0._CDstartTime
-	slot0._reloadRequire = slot2 + uv0.CalculateReloadTime(slot0._reloadMax - uv0.CaclulateReloaded(slot2, uv0.CaclulateReloadAttr(slot0._reloadMax, slot0._reloadRequire)), uv1.GetCurrent(slot0._host, "loadSpeed"))
+	slot0._reloadRequire = uv1.Battle.BattleWeaponUnit.FlushRequireByInverse(slot0, uv0.CaclulateReloadAttr(slot0._reloadMax, slot0._reloadRequire))
 
 	slot0._allInWeaponVo:RefreshReloadingBar()
 end
@@ -235,7 +243,18 @@ function slot6.AppendReloadBoost(slot0, slot1)
 end
 
 function slot6.GetReloadFinishTimeStamp(slot0)
-	return slot0._reloadRequire + slot0._CDstartTime + slot0._jammingTime
+	slot1 = 0
+
+	for slot5, slot6 in ipairs(slot0._reloadBoostList) do
+		slot1 = slot1 + slot6
+	end
+
+	if slot1 ~= 0 then
+		slot3 = pg.TimeMgr.GetInstance():GetCombatTime() - slot0._jammingTime - slot0._CDstartTime
+		slot1 = (slot1 >= 0 or math.max(slot1, (slot0._reloadRequire - slot3) * -1)) and math.min(slot1, slot3)
+	end
+
+	return slot0._reloadRequire + slot0._CDstartTime + slot0._jammingTime + slot1
 end
 
 function slot6.StartJamming(slot0)

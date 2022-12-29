@@ -44,6 +44,13 @@ function slot0.OnInit(slot0)
 	setButtonEnabled(slot0.yostarUnlinkBtn, false)
 	setText(findTF(slot0.yostarUnlinkBtn, "Text"), i18n("yostar_unlink_btn_text"))
 
+	slot0.pgsCon = findTF(slot0.accountTwitterUI, "btn_layout/pgs_con")
+	slot0.pgsBtn = findTF(slot0.pgsCon, "bind")
+	slot0.pgsUnlinkBtn = findTF(slot0.pgsCon, "unlink")
+	slot0.pgsLinkSign = findTF(slot0.pgsCon, "status")
+
+	setText(findTF(slot0.pgsUnlinkBtn, "Text"), i18n("pgs_unbind"))
+
 	slot0.transcodeUI = findTF(slot1, "page2")
 	slot0.uidTxt = findTF(slot0.transcodeUI, "account_name/Text")
 	slot0.transcodeTxt = findTF(slot0.transcodeUI, "password/Text")
@@ -85,6 +92,14 @@ function slot0.OnRegisterEvent(slot0)
 	onButton(slot0, slot0.yostarBtn, function ()
 		pg.m02:sendNotification(NewSettingsMediator.OPEN_YOSTAR_ALERT_VIEW)
 	end)
+	onButton(slot0, slot0.pgsUnlinkBtn, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("pgs_unbind_tip1"),
+			onYes = function ()
+				pg.SdkMgr.GetInstance():UnlinkSocial(AIRI_PLATFORM_GPS)
+			end
+		})
+	end)
 end
 
 function slot0.OnUpdate(slot0)
@@ -97,6 +112,7 @@ function slot0.checkAllAccountState(slot0)
 	slot0:checkAccountAppleView()
 	slot0:checkAccountAmazonView()
 	slot0:checkAccountYostarView()
+	slot0:checkAccountGPSView()
 end
 
 function slot0.showTranscode(slot0, slot1)
@@ -167,6 +183,19 @@ function slot0.checkAccountYostarView(slot0)
 
 	if slot1 then
 		setText(slot0.yostarLinkSign, i18n("yostar_link_title"))
+	end
+end
+
+function slot0.checkAccountGPSView(slot0)
+	slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_GPS)
+
+	setActive(slot0.pgsCon, slot1)
+	setActive(slot0.pgsUnlinkBtn, slot1)
+	setActive(slot0.pgsLinkSign, slot1)
+	setActive(slot0.pgsBtn, false)
+
+	if slot1 then
+		setText(slot0.pgsLinkSign, i18n("pgs_binding_account", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_GPS)))
 	end
 end
 

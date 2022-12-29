@@ -4387,6 +4387,61 @@ _G.pg.base.equip_data_statistics[467] = {
 	}
 }
 
+_G.pg.base.equip_data_statistics[468] = {
+	tech = 0,
+	name = "哈曼II自带刺猬弹",
+	speciality = "대잠",
+	type = 14,
+	descrip = "说明未填写",
+	ammo = 9,
+	damage = "153 ~ 306",
+	nationality = 1,
+	rarity = 5,
+	id = 468,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 45,
+	icon = "1",
+	attribute_2 = "antisub",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			7,
+			9008
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		468
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"DC"
+	}
+}
+
 _G.pg.base.equip_data_statistics[500] = {
 	type = 10,
 	name = "비버즈 휘장",
@@ -18599,7 +18654,8 @@ _G.pg.base.equip_data_statistics[4200] = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	},
 	weapon_id = {
 		4200
@@ -18690,7 +18746,8 @@ _G.pg.base.equip_data_statistics[4220] = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	},
 	weapon_id = {
 		4220
@@ -18826,7 +18883,8 @@ _G.pg.base.equip_data_statistics[4240] = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	},
 	weapon_id = {
 		4240
@@ -19002,7 +19060,7 @@ _G.pg.base.equip_data_statistics[4251] = {
 	ammo_info = {
 		{
 			8,
-			53150
+			53151
 		}
 	},
 	weapon_id = {
@@ -19038,7 +19096,8 @@ _G.pg.base.equip_data_statistics[4300] = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	},
 	weapon_id = {
 		4300
@@ -19129,7 +19188,8 @@ _G.pg.base.equip_data_statistics[4320] = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	},
 	weapon_id = {
 		4320
@@ -19265,7 +19325,8 @@ _G.pg.base.equip_data_statistics[4340] = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	},
 	weapon_id = {
 		4340
@@ -19441,7 +19502,7 @@ _G.pg.base.equip_data_statistics[4351] = {
 	ammo_info = {
 		{
 			8,
-			53250
+			53251
 		}
 	},
 	weapon_id = {
@@ -40368,6 +40429,367 @@ _G.pg.base.equip_data_statistics[17433] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[17440] = {
+	rarity = 5,
+	name = "F6F 헬캣(HVAR 탑재형)",
+	speciality = "항공",
+	type = 7,
+	tech = 0,
+	ammo = 5,
+	nationality = 1,
+	descrip = "고속 항공 로켓을 탑재한 F6F 헬캣 함재기",
+	id = 17440,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "17440",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50340
+		},
+		{
+			6,
+			50540
+		},
+		{
+			5,
+			59860
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		17440
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"CV",
+		"FT",
+		"HERK"
+	}
+}
+
+_G.pg.base.equip_data_statistics[17441] = {
+	id = 17441,
+	base = 17440,
+	ammo_info = {
+		{
+			6,
+			50341
+		},
+		{
+			6,
+			50541
+		},
+		{
+			5,
+			59861
+		}
+	},
+	weapon_id = {
+		17441
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17442] = {
+	id = 17442,
+	base = 17440,
+	ammo_info = {
+		{
+			6,
+			50342
+		},
+		{
+			6,
+			50542
+		},
+		{
+			5,
+			59862
+		}
+	},
+	weapon_id = {
+		17442
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17443] = {
+	id = 17443,
+	base = 17440,
+	ammo_info = {
+		{
+			6,
+			50343
+		},
+		{
+			6,
+			50543
+		},
+		{
+			5,
+			59863
+		}
+	},
+	weapon_id = {
+		17443
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17444] = {
+	id = 17444,
+	base = 17440,
+	ammo_info = {
+		{
+			6,
+			50344
+		},
+		{
+			6,
+			50544
+		},
+		{
+			5,
+			59864
+		}
+	},
+	weapon_id = {
+		17444
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17445] = {
+	id = 17445,
+	base = 17440,
+	ammo_info = {
+		{
+			6,
+			50345
+		},
+		{
+			6,
+			50545
+		},
+		{
+			5,
+			59865
+		}
+	},
+	weapon_id = {
+		17445
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17446] = {
+	id = 17446,
+	base = 17440,
+	ammo_info = {
+		{
+			6,
+			50346
+		},
+		{
+			6,
+			50546
+		},
+		{
+			5,
+			59866
+		}
+	},
+	weapon_id = {
+		17446
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17447] = {
+	id = 17447,
+	base = 17440,
+	ammo_info = {
+		{
+			6,
+			50347
+		},
+		{
+			6,
+			50547
+		},
+		{
+			5,
+			59867
+		}
+	},
+	weapon_id = {
+		17447
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17448] = {
+	id = 17448,
+	base = 17440,
+	ammo_info = {
+		{
+			6,
+			50348
+		},
+		{
+			6,
+			50548
+		},
+		{
+			5,
+			59868
+		}
+	},
+	weapon_id = {
+		17448
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17449] = {
+	id = 17449,
+	base = 17440,
+	ammo_info = {
+		{
+			6,
+			50349
+		},
+		{
+			6,
+			50549
+		},
+		{
+			5,
+			59869
+		}
+	},
+	weapon_id = {
+		17449
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17450] = {
+	id = 17450,
+	base = 17440,
+	ammo_info = {
+		{
+			6,
+			50350
+		},
+		{
+			6,
+			50550
+		},
+		{
+			5,
+			59870
+		}
+	},
+	weapon_id = {
+		17450
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17451] = {
+	id = 17451,
+	anti_siren = 100,
+	base = 17440,
+	ammo_info = {
+		{
+			6,
+			50351
+		},
+		{
+			6,
+			50551
+		},
+		{
+			5,
+			59871
+		}
+	},
+	weapon_id = {
+		17451
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17452] = {
+	id = 17452,
+	anti_siren = 200,
+	base = 17440,
+	ammo_info = {
+		{
+			6,
+			50352
+		},
+		{
+			6,
+			50552
+		},
+		{
+			5,
+			59872
+		}
+	},
+	weapon_id = {
+		17452
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[17453] = {
+	id = 17453,
+	anti_siren = 300,
+	base = 17440,
+	ammo_info = {
+		{
+			6,
+			50353
+		},
+		{
+			6,
+			50553
+		},
+		{
+			5,
+			59873
+		}
+	},
+	weapon_id = {
+		17453
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[18000] = {
 	type = 8,
 	name = "TBD 데버스테이터",
@@ -44798,6 +45220,367 @@ _G.pg.base.equip_data_statistics[19253] = {
 	},
 	weapon_id = {
 		19253
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[19300] = {
+	rarity = 6,
+	name = "AD-1 스카이레이더",
+	speciality = "폭격",
+	type = 9,
+	tech = 0,
+	ammo = 5,
+	nationality = 1,
+	descrip = "이글 유니온이 개발한 신형 함상 공격기. 로켓탄과 항공 폭탄을 동시 탑재했다.",
+	id = 19300,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 65,
+	icon = "19300",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50660
+		},
+		{
+			5,
+			52680
+		},
+		{
+			5,
+			59880
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		19300
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"CV",
+		"DB",
+		"HERK"
+	}
+}
+
+_G.pg.base.equip_data_statistics[19301] = {
+	id = 19301,
+	base = 19300,
+	ammo_info = {
+		{
+			6,
+			50661
+		},
+		{
+			5,
+			52681
+		},
+		{
+			5,
+			59881
+		}
+	},
+	weapon_id = {
+		19301
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[19302] = {
+	id = 19302,
+	base = 19300,
+	ammo_info = {
+		{
+			6,
+			50662
+		},
+		{
+			5,
+			52682
+		},
+		{
+			5,
+			59882
+		}
+	},
+	weapon_id = {
+		19302
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[19303] = {
+	id = 19303,
+	base = 19300,
+	ammo_info = {
+		{
+			6,
+			50663
+		},
+		{
+			5,
+			52683
+		},
+		{
+			5,
+			59883
+		}
+	},
+	weapon_id = {
+		19303
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[19304] = {
+	id = 19304,
+	base = 19300,
+	ammo_info = {
+		{
+			6,
+			50664
+		},
+		{
+			5,
+			52684
+		},
+		{
+			5,
+			59884
+		}
+	},
+	weapon_id = {
+		19304
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[19305] = {
+	id = 19305,
+	base = 19300,
+	ammo_info = {
+		{
+			6,
+			50665
+		},
+		{
+			5,
+			52685
+		},
+		{
+			5,
+			59885
+		}
+	},
+	weapon_id = {
+		19305
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[19306] = {
+	id = 19306,
+	base = 19300,
+	ammo_info = {
+		{
+			6,
+			50666
+		},
+		{
+			5,
+			52686
+		},
+		{
+			5,
+			59886
+		}
+	},
+	weapon_id = {
+		19306
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[19307] = {
+	id = 19307,
+	base = 19300,
+	ammo_info = {
+		{
+			6,
+			50667
+		},
+		{
+			5,
+			52687
+		},
+		{
+			5,
+			59887
+		}
+	},
+	weapon_id = {
+		19307
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[19308] = {
+	id = 19308,
+	base = 19300,
+	ammo_info = {
+		{
+			6,
+			50668
+		},
+		{
+			5,
+			52688
+		},
+		{
+			5,
+			59888
+		}
+	},
+	weapon_id = {
+		19308
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[19309] = {
+	id = 19309,
+	base = 19300,
+	ammo_info = {
+		{
+			6,
+			50669
+		},
+		{
+			5,
+			52689
+		},
+		{
+			5,
+			59889
+		}
+	},
+	weapon_id = {
+		19309
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[19310] = {
+	id = 19310,
+	base = 19300,
+	ammo_info = {
+		{
+			6,
+			50670
+		},
+		{
+			5,
+			52690
+		},
+		{
+			5,
+			59890
+		}
+	},
+	weapon_id = {
+		19310
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[19311] = {
+	id = 19311,
+	anti_siren = 100,
+	base = 19300,
+	ammo_info = {
+		{
+			6,
+			50671
+		},
+		{
+			5,
+			52691
+		},
+		{
+			5,
+			59891
+		}
+	},
+	weapon_id = {
+		19311
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[19312] = {
+	id = 19312,
+	anti_siren = 200,
+	base = 19300,
+	ammo_info = {
+		{
+			6,
+			50672
+		},
+		{
+			5,
+			52692
+		},
+		{
+			5,
+			59892
+		}
+	},
+	weapon_id = {
+		19312
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[19313] = {
+	id = 19313,
+	anti_siren = 300,
+	base = 19300,
+	ammo_info = {
+		{
+			6,
+			50673
+		},
+		{
+			5,
+			52693
+		},
+		{
+			5,
+			59893
+		}
+	},
+	weapon_id = {
+		19313
 	},
 	hidden_skill_id = {}
 }
@@ -108083,6 +108866,56 @@ _G.pg.base.equip_data_statistics[61054] = {
 	label = {}
 }
 
+_G.pg.base.equip_data_statistics[61061] = {
+	type = 99,
+	name = "航空攻击展示-埃塞克斯-约克城I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "공중지원 샘플용",
+	id = 61061,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61061
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[61062] = {
+	id = 61062,
+	name = "航空攻击展示-埃塞克斯-约克城II",
+	base = 61061,
+	weapon_id = {
+		61062
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[61063] = {
+	id = 61063,
+	name = "航空攻击展示-埃塞克斯-约克城II",
+	base = 61061,
+	weapon_id = {
+		61063
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[61501] = {
 	type = 99,
 	name = "0",
@@ -108713,6 +109546,59 @@ _G.pg.base.equip_data_statistics[70082] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[70091] = {
+	type = 1,
+	name = "全弹发射-埃德索尔级I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "스킬 탄막",
+	id = 70091,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		70091
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[70092] = {
+	id = 70092,
+	name = "全弹发射-埃德索尔级II",
+	base = 70091,
+	weapon_id = {
+		70092
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[70111] = {
 	type = 1,
 	name = "0",
@@ -109292,6 +110178,59 @@ _G.pg.base.equip_data_statistics[70272] = {
 	base = 70271,
 	weapon_id = {
 		70272
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[70281] = {
+	type = 1,
+	name = "全弹发射-俄勒冈城级I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "스킬 탄막",
+	id = 70281,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		70281
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[70282] = {
+	id = 70282,
+	name = "全弹发射-俄勒冈城级II",
+	base = 70281,
+	weapon_id = {
+		70282
 	},
 	hidden_skill_id = {}
 }
@@ -129710,6 +130649,7 @@ _G.pg.base.equip_data_statistics[90466] = {
 
 _G.pg.base.equip_data_statistics[90467] = {
 	id = 90467,
+	anti_siren = 100,
 	damage = "70 x 4",
 	base = 90460,
 	weapon_id = {
@@ -130122,6 +131062,17 @@ _G.pg.base.equip_data_statistics[90566] = {
 	base = 90560,
 	weapon_id = {
 		90566
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[90567] = {
+	id = 90567,
+	anti_siren = 100,
+	damage = "35/회",
+	base = 90560,
+	weapon_id = {
+		90567
 	},
 	hidden_skill_id = {}
 }
@@ -131237,6 +132188,7 @@ _G.pg.base.equip_data_statistics[90766] = {
 
 _G.pg.base.equip_data_statistics[90767] = {
 	id = 90767,
+	anti_siren = 100,
 	damage = "11 x 4",
 	base = 90760,
 	weapon_id = {

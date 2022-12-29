@@ -33,7 +33,7 @@ end
 function slot1.getAreaCldFunc(slot0, slot1)
 	return function (slot0)
 		slot1 = uv0:getTargetList(uv1, {
-			"TargetAllHarm"
+			"TargetEntityUnit"
 		})
 
 		for slot5, slot6 in ipairs(slot0) do
@@ -50,7 +50,7 @@ function slot1.getAreaCldFunc(slot0, slot1)
 	end, function (slot0)
 		if slot0.Active then
 			for slot5, slot6 in ipairs(uv0:getTargetList(uv1, {
-				"TargetAllHarm"
+				"TargetEntityUnit"
 			})) do
 				if slot6:GetUniqueID() == slot0.UID then
 					slot6:RemoveBuff(uv0._buffID, true)
@@ -62,7 +62,7 @@ function slot1.getAreaCldFunc(slot0, slot1)
 	end, function (slot0)
 		if slot0.Active then
 			for slot5, slot6 in ipairs(uv0:getTargetList(uv1, {
-				"TargetAllHarm"
+				"TargetEntityUnit"
 			})) do
 				if slot6:GetUniqueID() == slot0.UID then
 					slot6:RemoveBuff(uv0._buffID, true)

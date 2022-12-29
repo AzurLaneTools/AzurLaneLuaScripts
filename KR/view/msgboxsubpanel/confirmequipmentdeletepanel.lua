@@ -33,7 +33,7 @@ function slot0.OnRefresh(slot0, slot1)
 			end
 
 			existCall(uv2.onYes)
-			uv3:CloseView()
+			uv3:closeView()
 		end,
 		sound = slot1.yesSound or SFX_CONFIRM,
 		alignment = slot1.yesSize and TextAnchor.MiddleCenter

@@ -188134,6 +188134,1672 @@ _G.pg.base.task_data_template[18101] = {
 	}
 }
 
+_G.pg.base.task_data_template[18102] = {
+	name = "新年温泉活动1",
+	guild_coin_award = 0,
+	award = 98707,
+	type = 26,
+	desc = "함대를 출격시켜, 적 중요함대를 3회 격파하라!",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18102,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54016,
+			5
+		},
+		{
+			8,
+			59370,
+			120
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18103] = {
+	name = "新年温泉活动2",
+	guild_coin_award = 0,
+	award = 98708,
+	type = 26,
+	desc = "전술학원에서 전술훈련을 2번 수행한다",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18103,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54050,
+			2
+		},
+		{
+			8,
+			59370,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18104] = {
+	name = "新年温泉活动3",
+	guild_coin_award = 0,
+	award = 98709,
+	type = 26,
+	desc = "군사 의뢰 3회 완료",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18104,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50005,
+			3
+		},
+		{
+			8,
+			59370,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18105] = {
+	name = "新年温泉活动4",
+	guild_coin_award = 0,
+	award = 98710,
+	type = 26,
+	desc = "임의의 함선을 20기 격파한다",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18105,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54051,
+			2
+		},
+		{
+			8,
+			59370,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18106] = {
+	name = "新年温泉活动5",
+	guild_coin_award = 0,
+	award = 98711,
+	type = 26,
+	desc = "건조를 2회 진행한다.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18106,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54003,
+			2
+		},
+		{
+			8,
+			59370,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18107] = {
+	name = "新年温泉活动6",
+	guild_coin_award = 0,
+	award = 98712,
+	type = 26,
+	desc = "군사의뢰를 2번 수행한다.",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18107,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54024,
+			2
+		},
+		{
+			8,
+			59370,
+			120
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18108] = {
+	name = "新年温泉活动7",
+	guild_coin_award = 0,
+	award = 98713,
+	type = 26,
+	desc = "장비를 2번 강화한다.",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18108,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50006,
+			3
+		},
+		{
+			8,
+			59370,
+			180
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18109] = {
+	name = "『美系II型』-日常建造",
+	guild_coin_award = 0,
+	award = 98721,
+	type = 36,
+	desc = "함선 건조를 3회 진행한다",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18109,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59373,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18110] = {
+	name = "『美系II型』-日常出击",
+	guild_coin_award = 0,
+	award = 98722,
+	type = 36,
+	desc = "함대를 출격시켜 15회 승리한다.",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18110,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59373,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18111] = {
+	name = "『美系II型』-日常困难本",
+	guild_coin_award = 0,
+	award = 98723,
+	type = 36,
+	desc = "임의의 어려움 난이도 메인 스테이지를 1회 클리어한다.",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18111,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59373,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18112] = {
+	name = "『美系II型』通关A1/C1",
+	guild_coin_award = 0,
+	award = 98724,
+	type = 6,
+	desc = "A1 혹은 C1을 클리어",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18113",
+	auto_commit = 0,
+	story_id = "",
+	id = 18112,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700001,
+		1700021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59373,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4607
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18113] = {
+	name = "『美系II型』通关A2/C2",
+	guild_coin_award = 0,
+	award = 98725,
+	type = 6,
+	desc = "A2 혹은 C2을 클리어",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18114",
+	auto_commit = 0,
+	story_id = "",
+	id = 18113,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700002,
+		1700022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59373,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4607
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18114] = {
+	name = "『美系II型』通关A3/C3",
+	guild_coin_award = 0,
+	award = 98726,
+	type = 6,
+	desc = "A3 혹은 C3을 클리어",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18115",
+	auto_commit = 0,
+	story_id = "",
+	id = 18114,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700003,
+		1700023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59373,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4607
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18115] = {
+	name = "『美系II型』通关B1/D1",
+	guild_coin_award = 0,
+	award = 98727,
+	type = 6,
+	desc = "B1 혹은 D1을 클리어",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18116",
+	auto_commit = 0,
+	story_id = "",
+	id = 18115,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700004,
+		1700024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59373,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4608
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18116] = {
+	name = "『美系II型』通关B2/D2",
+	guild_coin_award = 0,
+	award = 98728,
+	type = 6,
+	desc = "B2 혹은 D2을 클리어",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18117",
+	auto_commit = 0,
+	story_id = "",
+	id = 18116,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700005,
+		1700025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59373,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4608
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18117] = {
+	name = "『美系II型』通关B3/D3",
+	guild_coin_award = 0,
+	award = 98729,
+	type = 6,
+	desc = "B3 혹은 D3을 클리어",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18118",
+	auto_commit = 0,
+	story_id = "",
+	id = 18117,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700006,
+		1700026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59373,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4608
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18118] = {
+	name = "『美系II型』通关SP",
+	guild_coin_award = 0,
+	award = 98730,
+	type = 6,
+	desc = "SP 클리어",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1700041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18118,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1700025,
+			chapterId = 1700041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18119] = {
+	name = "『美系II型』通关EX",
+	guild_coin_award = 0,
+	award = 98731,
+	type = 6,
+	desc = "EX 스테이지를 클리어",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1700051",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18119,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1700026,
+			chapterId = 1700051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18120] = {
+	name = "『美系II型』通关D3",
+	guild_coin_award = 0,
+	award = 98732,
+	type = 6,
+	desc = "이벤트 해역 D3를 클리어",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1700026",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18120,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			241,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1700012,
+			chapterId = 1700026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18121] = {
+	name = "『美系II型』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 98733,
+	type = 6,
+	desc = "A1 혹은 C1을 ✩3성으로 클리어",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18122",
+	auto_commit = 0,
+	story_id = "",
+	id = 18121,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700001,
+		1700021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4607
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18122] = {
+	name = "『美系II型』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 98734,
+	type = 6,
+	desc = "A2 혹은 C2을 ✩3성으로 클리어",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18123",
+	auto_commit = 0,
+	story_id = "",
+	id = 18122,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700002,
+		1700022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4607
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18123] = {
+	name = "『美系II型』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 98735,
+	type = 6,
+	desc = "A3 혹은 C3을 ✩3성으로 클리어",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18124",
+	auto_commit = 0,
+	story_id = "",
+	id = 18123,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700003,
+		1700023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4607
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18124] = {
+	name = "『美系II型』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 98736,
+	type = 6,
+	desc = "B1 혹은 D1을 ✩3성으로 클리어",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18125",
+	auto_commit = 0,
+	story_id = "",
+	id = 18124,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700004,
+		1700024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4608
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18125] = {
+	name = "『美系II型』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 98737,
+	type = 6,
+	desc = "B2 혹은 D2을 ✩3성으로 클리어",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18126",
+	auto_commit = 0,
+	story_id = "",
+	id = 18125,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700005,
+		1700025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4608
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18126] = {
+	name = "『美系II型』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 98738,
+	type = 6,
+	desc = "B3 혹은 D3을 ✩3성으로 클리어",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18126,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700006,
+		1700026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4608
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18127] = {
+	name = "『美系II型』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 98720,
+	type = 6,
+	desc = "장비 스킨 상자(휴일) 20개 오픈",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "30342",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18127,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30516,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18128] = {
+	name = "『美系II型活动』皮肤剧情签到活动1",
+	guild_coin_award = 0,
+	award = 98739,
+	type = 14,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18128,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30329,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18129] = {
+	name = "『美系II型活动』皮肤剧情签到活动2",
+	guild_coin_award = 0,
+	award = 98739,
+	type = 14,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18129,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30329,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18130] = {
+	name = "『美系II型活动』皮肤剧情签到活动3",
+	guild_coin_award = 0,
+	award = 98739,
+	type = 14,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18130,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30329,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18131] = {
+	name = "『美系II型活动』皮肤剧情签到活动4",
+	guild_coin_award = 0,
+	award = 98739,
+	type = 14,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18131,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30329,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18132] = {
+	name = "『美系II型活动』皮肤剧情签到活动5",
+	guild_coin_award = 0,
+	award = 98739,
+	type = 14,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18132,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30329,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18133] = {
+	name = "『美系II型活动』皮肤剧情签到活动6",
+	guild_coin_award = 0,
+	award = 98739,
+	type = 14,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18133,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30329,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18134] = {
+	name = "『美系II型活动』皮肤剧情签到活动7",
+	guild_coin_award = 0,
+	award = 98739,
+	type = 14,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18134,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30329,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18135] = {
+	name = "『美系II型活动』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 98740,
+	type = 6,
+	desc = "게임 로그인하기",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18135,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			293,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18136] = {
+	name = "『美系II型』通关任务10次",
+	guild_coin_award = 0,
+	award = 98780,
+	type = 6,
+	desc = "『거듭되는 평행세계』 특별 작전 스테이지 10회 클리어",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18136,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700001,
+		1700002,
+		1700003,
+		1700004,
+		1700005,
+		1700006,
+		1700021,
+		1700022,
+		1700023,
+		1700024,
+		1700025,
+		1700026,
+		1700041
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			292,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18137] = {
+	name = "『美系II型』通关任务30次",
+	guild_coin_award = 0,
+	award = 98781,
+	type = 6,
+	desc = "『거듭되는 평행세계』 특별 작전 스테이지 30회 클리어",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18137,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700001,
+		1700002,
+		1700003,
+		1700004,
+		1700005,
+		1700006,
+		1700021,
+		1700022,
+		1700023,
+		1700024,
+		1700025,
+		1700026,
+		1700041
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			292,
+			1500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18138] = {
+	name = "『美系II型』通关任务60次",
+	guild_coin_award = 0,
+	award = 98782,
+	type = 6,
+	desc = "『거듭되는 평행세계』 특별 작전 스테이지 60회 클리어",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18138,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1700001,
+		1700002,
+		1700003,
+		1700004,
+		1700005,
+		1700006,
+		1700021,
+		1700022,
+		1700023,
+		1700024,
+		1700025,
+		1700026,
+		1700041
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			292,
+			3000
+		}
+	}
+}
+
 _G.pg.base.task_data_template[30201] = {
 	name = "전투승리-일상",
 	guild_coin_award = 0,

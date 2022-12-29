@@ -13,14 +13,18 @@ function slot0.InitFashion(slot0)
 	slot0.stylePanel = slot0._tf
 	slot0.styleScroll = slot0:findTF("style_scroll", slot0.stylePanel)
 	slot0.styleContainer = slot0:findTF("view_port", slot0.styleScroll)
-	slot0.styleCard = slot0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
-	slot0.hideObjToggleTF = findTF(slot0._tf, "hideObjToggle")
+	slot1 = slot0._tf
+	slot0.styleCard = slot1:GetComponent(typeof(ItemList)).prefabItem[0]
+	slot0.hideObjToggleTF = findTF(slot0._tf, "btns/hideObjToggle")
 
 	setActive(slot0.hideObjToggleTF, false)
 
 	slot0.hideObjToggle = GetComponent(slot0.hideObjToggleTF, typeof(Toggle))
 
 	setText(findTF(slot0.hideObjToggleTF, "Label"), i18n("paint_hide_other_obj_tip"))
+
+	slot0.shareBtn = findTF(slot0._tf, "share_btn")
+
 	setActive(slot0.stylePanel, true)
 	setActive(slot0.styleCard, false)
 
@@ -29,6 +33,19 @@ function slot0.InitFashion(slot0)
 	slot0.fashionGroup = 0
 	slot0.fashionSkinId = 0
 	slot0.onSelected = false
+	slot0.isShareSkinFlag = false
+
+	onToggle(slot0, slot0.shareBtn, function (slot0)
+		uv0.fashionGroup = false
+		uv0.isShareSkinFlag = slot0
+
+		uv0:UpdateFashion()
+	end, SFX_PANEL)
+	slot0:bind(ShipMainMediator.ON_NEXTSHIP_PREPARE, function (slot0, slot1)
+		if uv0.isShareSkinFlag and slot1 and #uv0:GetShareSkins(slot1) <= 0 then
+			uv0.isShareSkinFlag = false
+		end
+	end)
 end
 
 function slot0.SetShareData(slot0, slot1)
@@ -48,7 +65,8 @@ function slot0.SetSkinList(slot0, slot1)
 end
 
 function slot0.UpdateUI(slot0)
-	slot0:UpdateFashion()
+	triggerToggle(slot0.shareBtn, slot0.isShareSkinFlag)
+	setActive(slot0.shareBtn, #slot0:GetShareSkins(slot0:GetShipVO()) > 0)
 end
 
 function slot0.OnSelected(slot0, slot1)
@@ -70,37 +88,45 @@ function slot0.OnSelected(slot0, slot1)
 	slot0.onSelected = slot1
 end
 
-function slot0.UpdateAllFashion(slot0, slot1)
-	slot2 = slot0:GetShipVO().groupId
-	slot0.fashionSkins = slot0.shareData:GetGroupSkinList(slot2)
+function slot0.GetShareSkins(slot0, slot1)
+	slot2 = getProxy(ShipSkinProxy)
 
-	if slot0.fashionGroup ~= slot2 or slot1 then
-		slot0.fashionGroup = slot2
+	return _.map(slot2:GetShareSkinsForShip(slot1), function (slot0)
+		return pg.ship_skin_template[slot0.id]
+	end)
+end
+
+function slot0.UpdateAllFashion(slot0, slot1)
+	slot3 = slot0:GetShipVO().groupId
+	slot0.fashionSkins = slot0.isShareSkinFlag and slot0:GetShareSkins(slot2) or slot0.shareData:GetGroupSkinList(slot3)
+
+	if slot0.fashionGroup ~= slot3 or slot1 then
+		slot0.fashionGroup = slot3
 
 		slot0:ResetFashion()
 
-		for slot6 = slot0.styleContainer.childCount, #slot0.fashionSkins - 1 do
+		for slot7 = slot0.styleContainer.childCount, #slot0.fashionSkins - 1 do
 			cloneTplTo(slot0.styleCard, slot0.styleContainer)
 		end
 
-		for slot6 = #slot0.fashionSkins, slot0.styleContainer.childCount - 1 do
-			if slot0.fashionCellMap[slot0.styleContainer:GetChild(slot6)] then
-				slot0.fashionCellMap[slot7]:clearPainting()
+		for slot7 = #slot0.fashionSkins, slot0.styleContainer.childCount - 1 do
+			if slot0.fashionCellMap[slot0.styleContainer:GetChild(slot7)] then
+				slot0.fashionCellMap[slot8]:clear()
 			end
 
-			setActive(slot7, false)
+			setActive(slot8, false)
 		end
 
-		for slot6, slot7 in ipairs(slot0.fashionSkins) do
-			slot8 = slot0.fashionSkins[slot6]
+		for slot7, slot8 in ipairs(slot0.fashionSkins) do
+			slot9 = slot0.fashionSkins[slot7]
 
-			if not slot0.fashionCellMap[slot0.styleContainer:GetChild(slot6 - 1)] then
-				slot0.fashionCellMap[slot9] = ShipSkinCard.New(slot9.gameObject)
+			if not slot0.fashionCellMap[slot0.styleContainer:GetChild(slot7 - 1)] then
+				slot0.fashionCellMap[slot10] = ShipSkinCard.New(slot10.gameObject)
 			end
 
-			slot10:updateData(slot0:GetShipVO(), slot8, slot0:GetShipVO():proposeSkinOwned(slot8) or table.contains(slot0.skinList, slot8.id) or slot0:GetShipVO():getRemouldSkinId() == slot8.id and slot0:GetShipVO():isRemoulded() or slot8.skin_type == ShipSkin.SKIN_TYPE_OLD)
-			slot10:updateUsing(slot0:GetShipVO().skinId == slot8.id)
-			onButton(slot0, slot9, function ()
+			slot11:updateData(slot0:GetShipVO(), slot9, slot0:GetShipVO():proposeSkinOwned(slot9) or table.contains(slot0.skinList, slot9.id) or slot0:GetShipVO():getRemouldSkinId() == slot9.id and slot0:GetShipVO():isRemoulded() or slot9.skin_type == ShipSkin.SKIN_TYPE_OLD)
+			slot11:updateUsing(slot0:GetShipVO().skinId == slot9.id)
+			onButton(slot0, slot10, function ()
 				if ShipViewConst.currentPage ~= ShipViewConst.PAGE.FASHION then
 					return
 				end
@@ -137,26 +163,26 @@ function slot0.UpdateAllFashion(slot0, slot1)
 					end, SFX_PANEL)
 				end
 			end)
-			setActive(slot9, true)
+			setActive(slot10, true)
 		end
 	else
-		for slot6, slot7 in ipairs(slot0.fashionSkins) do
-			slot0.fashionCellMap[slot0.styleContainer:GetChild(slot6 - 1)]:updateData(slot0:GetShipVO(), slot7, slot0:GetShipVO():proposeSkinOwned(slot7) or table.contains(slot0.skinList, slot7.id) or slot0:GetShipVO():getRemouldSkinId() == slot7.id and slot0:GetShipVO():isRemoulded() or slot7.skin_type == ShipSkin.SKIN_TYPE_OLD)
+		for slot7, slot8 in ipairs(slot0.fashionSkins) do
+			slot0.fashionCellMap[slot0.styleContainer:GetChild(slot7 - 1)]:updateData(slot0:GetShipVO(), slot8, slot0:GetShipVO():proposeSkinOwned(slot8) or table.contains(slot0.skinList, slot8.id) or slot0:GetShipVO():getRemouldSkinId() == slot8.id and slot0:GetShipVO():isRemoulded() or slot8.skin_type == ShipSkin.SKIN_TYPE_OLD)
 		end
 	end
 
 	slot0.fashionSkinId = slot0:GetShipVO().skinId
-	slot3 = slot0.styleContainer:GetChild(0)
+	slot4 = slot0.styleContainer:GetChild(0)
 
-	for slot7, slot8 in ipairs(slot0.fashionSkins) do
-		if slot8.id == slot0.fashionSkinId then
-			slot3 = slot0.styleContainer:GetChild(slot7 - 1)
+	for slot8, slot9 in ipairs(slot0.fashionSkins) do
+		if slot9.id == slot0.fashionSkinId then
+			slot4 = slot0.styleContainer:GetChild(slot8 - 1)
 
 			break
 		end
 	end
 
-	triggerButton(slot3)
+	triggerButton(slot4)
 end
 
 function slot0.UpdateFashion(slot0, slot1)
@@ -245,6 +271,9 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 		setActive(slot2.experience, true)
 	elseif slot9 then
 		setActive(slot2.using, true)
+	elseif slot10 and ShipSkin.IsShareSkin(slot0:GetShipVO(), slot1.id) and not ShipSkin.CanUseShareSkinForShip(slot0:GetShipVO(), slot1.id) then
+		setActive(slot2.change, true)
+		setGray(slot2.confirm, true)
 	elseif slot10 then
 		setActive(slot2.change, true)
 	elseif slot6 then
@@ -255,12 +284,13 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 		setGray(slot2.confirm, true)
 	end
 
-	print(slot12)
 	onButton(slot0, slot2.confirm, function ()
 		if uv0 then
 			-- Nothing
 		elseif uv1 then
-			uv2:emit(ShipMainMediator.CHANGE_SKIN, uv2:GetShipVO().id, uv3.id == uv2:GetShipVO():getConfig("skin_id") and 0 or uv3.id)
+			if not ShipSkin.IsShareSkin(uv2:GetShipVO(), uv3.id) or ShipSkin.CanUseShareSkinForShip(uv2:GetShipVO(), uv3.id) then
+				uv2:emit(ShipMainMediator.CHANGE_SKIN, uv2:GetShipVO().id, uv3.id == uv2:GetShipVO():getConfig("skin_id") and 0 or uv3.id)
+			end
 		elseif uv4 then
 			if uv5 or uv6 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_skin_out_of_stock"))
@@ -298,6 +328,7 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 			return
 		end
 
+		triggerToggle(uv0.shareBtn, false)
 		uv0:emit(ShipViewConst.SWITCH_TO_PAGE, ShipViewConst.PAGE.DETAIL)
 	end)
 end

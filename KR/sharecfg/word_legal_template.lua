@@ -5846,7 +5846,10 @@ temp()
 function temp()
 	uv0["허"] = {
 		["먼"] = {
-			this = true
+			this = true,
+			["Ⅱ"] = {
+				this = true
+			}
 		},
 		["마"] = {
 			["이"] = {
@@ -6946,7 +6949,10 @@ function temp()
 			}
 		},
 		["넷"] = {
-			this = true
+			this = true,
+			["Ⅱ"] = {
+				this = true
+			}
 		},
 		["쇼"] = {
 			this = true
@@ -7391,7 +7397,10 @@ function temp()
 		["샘"] = {
 			["프"] = {
 				["턴"] = {
-					this = true
+					this = true,
+					["Ⅱ"] = {
+						this = true
+					}
 				}
 			}
 		},
@@ -8088,7 +8097,10 @@ function temp()
 	uv0["랭"] = {
 		["글"] = {
 			["리"] = {
-				this = true
+				this = true,
+				["Ⅱ"] = {
+					this = true
+				}
 			}
 		},
 		["동"] = {
@@ -8166,7 +8178,10 @@ function temp()
 			this = true,
 			["타"] = {
 				["운"] = {
-					this = true
+					this = true,
+					["Ⅱ"] = {
+						this = true
+					}
 				}
 			}
 		},

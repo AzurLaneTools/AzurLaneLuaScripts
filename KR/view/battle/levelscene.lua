@@ -2038,7 +2038,6 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 	slot0.leftCanvasGroup.blocksRaycasts = false
 	slot0.rightCanvasGroup.blocksRaycasts = false
 
-	warning("Switchtochapter")
 	assert(not slot0.levelStageView, "LevelStageView Exists On SwitchToChapter")
 	slot0:DestroyLevelStageView()
 

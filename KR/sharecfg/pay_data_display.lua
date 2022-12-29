@@ -3627,6 +3627,321 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[45] = {
+		subject = "2023 수영복 패키지·I",
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
+		type = 1,
+		limit_arg = 1,
+		name = "2023 수영복 패키지·I",
+		name_display = "2023 수영복 패키지·I",
+		type_order = 2,
+		extra_gem = 0,
+		id = 45,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe10_l",
+		id_str = "alkrgift50",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "캐릭터 스킨*1, 다이아*2023, 기타 대량의 보상 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.diamond134",
+		extra_service_item = {
+			{
+				2,
+				69922,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69922,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[46] = {
+		subject = "2023 수영복 패키지·II",
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
+		type = 1,
+		limit_arg = 1,
+		name = "2023 수영복 패키지·II",
+		name_display = "2023 수영복 패키지·II",
+		type_order = 2,
+		extra_gem = 0,
+		id = 46,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe11_l",
+		id_str = "alkrgift51",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "캐릭터 스킨*1, 다이아*2023, 기타 대량의 보상 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.diamond135",
+		extra_service_item = {
+			{
+				2,
+				69923,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69923,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[47] = {
+		subject = "연회복 패키지 복각(2022)",
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
+		type = 1,
+		limit_arg = 1,
+		name = "연회복 패키지 복각(2022)",
+		name_display = "연회복 패키지 복각(2022)",
+		type_order = 2,
+		extra_gem = 0,
+		id = 47,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai6",
+		id_str = "alkrgift52",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "캐릭터 스킨*1, 다이아*2022, 기타 대량의 보상 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.diamond136",
+		extra_service_item = {
+			{
+				2,
+				69977,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69977,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[1000] = {
 		subject = "특허 투어 패스",
 		limit_group = 0,
@@ -4927,6 +5242,9 @@ pg.pay_data_display = {
 		40,
 		41,
 		44,
+		45,
+		46,
+		47,
 		1000,
 		1001,
 		1002,

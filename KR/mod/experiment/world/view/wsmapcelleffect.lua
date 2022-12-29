@@ -35,8 +35,9 @@ function slot0.Setup(slot0, slot1, slot2)
 		elseif slot1 == WorldMapCell.TerrainPoison then
 			uv0:SetModelOrder(WorldConst.LOEffectA, slot0.row)
 		end
+
+		uv0:Init()
 	end)
-	slot0:Init()
 end
 
 function slot0.Dispose(slot0)

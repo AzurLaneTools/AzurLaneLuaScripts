@@ -178,7 +178,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.PLATFORM_LOGIN_DONE,
 		GAME.SERVER_LOGIN_WAIT,
 		GAME.BEGIN_STAGE_DONE,
-		GAME.SERVER_LOGIN_FAILED_USER_BANNED
+		GAME.SERVER_LOGIN_FAILED_USER_BANNED,
+		GAME.ON_SOCIAL_LINKED
 	}
 end
 
@@ -307,6 +308,8 @@ function slot0.handleNotification(slot0, slot1)
 				content = i18n("user_is_banned", pg.TimeMgr.GetInstance():STimeDescS(slot3, "%Y-%m-%d %H:%M"))
 			})
 		end
+	elseif slot2 == GAME.ON_SOCIAL_LINKED then
+		slot0.viewComponent:closeYostarAlertView()
 	end
 end
 

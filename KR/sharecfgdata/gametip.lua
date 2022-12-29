@@ -7723,7 +7723,11 @@ _G.pg.base.gametip.word_rename_time_warning = {
 }
 
 _G.pg.base.gametip.word_propose_cost_tip = {
-	tip = "<size=30>서약 시 「서약의 반지」를 <color=#92fc63>1</color>개 소모합니다. (보유 수：<color=#92fc63>$1</color>)</size>\n\n<size=30>*서약을 진행한 함선은 전속 함선이 되어 이름을 변경할 수 있고, 추가로 능력치가 <color=#92fc63>3%</color> 강화됩니다.</size>"
+	tip = [[
+서약 시 서약의 반지<color=#92fc63>1</color>개(현재 <color=#92fc63>$1</color>개 보유 중)를 소모합니다.
+
+<size=32>*서약 후 캐릭터는 전용 함선이 되어, 이름을 변경할 수 있으며 <color=#92fc63>3%</color> 스탯 보너스</size>를 획득합니다.
+<size=32>*서약 후 캐릭터는 자동으로 잠금 상태가 됩니다</size>.]]
 }
 
 _G.pg.base.gametip.evaluate_too_loog = {
@@ -9794,7 +9798,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "라이잘린 스타우트,파트리샤 아벨하임  등 함선 건조 확률 UP!"
+	tip = "요크타운II,노샘프턴II  등 함선 건조 확률 UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -13828,6 +13832,10 @@ _G.pg.base.gametip["3match_tip"] = {
 
 _G.pg.base.gametip.retire_selectzero = {
 	tip = "조건에 부합하는 함선을 찾을 수 없습니다. "
+}
+
+_G.pg.base.gametip.retire_marry_skin = {
+	tip = "$1 스킨이 초기화되었습니다."
 }
 
 _G.pg.base.gametip.undermist_tip = {
@@ -21820,6 +21828,10 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 	}
 }
 
+_G.pg.base.gametip.hotspring_buff = {
+	tip = "노천 온천|입욕한 함선의 기분 회복 속도 가속"
+}
+
 _G.pg.base.gametip.random_ship_custom_mode_empty = {
 	tip = "비서함 목록이 비어있습니다. 편집 버튼을 터치해 캐릭터를 추가하세요."
 }
@@ -21890,4 +21902,247 @@ _G.pg.base.gametip.random_ship_custom_mode_add_title = {
 
 _G.pg.base.gametip.random_ship_custom_mode_remove_title = {
 	tip = "캐릭터 삭제"
+}
+
+_G.pg.base.gametip.hotspring_shop_enter1 = {
+	tip = "아카시의 교환 상점에 온 걸 환영한다냥! 무슨 물건을 교환하고 싶냐옹?"
+}
+
+_G.pg.base.gametip.hotspring_shop_enter2 = {
+	tip = "어서 오라냥! 물건은 잔뜩 있으니, 온천 티켓만 있으면 가져갈 수 있다냥~"
+}
+
+_G.pg.base.gametip.hotspring_shop_insufficient = {
+	tip = "교환권이 부족하다냥~ 물건을 원한다면 아카시의 온천 경영을 도와달라냥~"
+}
+
+_G.pg.base.gametip.hotspring_shop_success1 = {
+	tip = "고맙다냥~"
+}
+
+_G.pg.base.gametip.hotspring_shop_success2 = {
+	tip = "지휘관 눈썰미가 좋다냥~"
+}
+
+_G.pg.base.gametip.hotspring_shop_finish = {
+	tip = "역시 지휘관이다냥. 물건을 모두 교환해서 재고가 텅 비었다냥!"
+}
+
+_G.pg.base.gametip.hotspring_shop_end = {
+	tip = "온천 경영 이벤트는 종료되었다냥~ 하지만 교환 서비스는 계속 이어진다냥~"
+}
+
+_G.pg.base.gametip.hotspring_shop_touch1 = {
+	tip = "아카시는 교환할 수 있는 물건이 아니다냥!"
+}
+
+_G.pg.base.gametip.hotspring_shop_touch2 = {
+	tip = "아, 아무리 빌어도 물건을 공짜로 줄 순 없다냥!"
+}
+
+_G.pg.base.gametip.hotspring_shop_touch3 = {
+	tip = "설마 아카시를 놀리는 건 아니겠지냥!?"
+}
+
+_G.pg.base.gametip.hotspring_shop_exchanged = {
+	tip = "이 물건은 교환했던 것이다냥~ 욕심부리지 마라냥~"
+}
+
+_G.pg.base.gametip.hotspring_shop_exchange = {
+	tip = "$1개의  <icon name=Props/wenquanjuan w=0.7 h=0.7/> 을 소모하여 $2개의 $3을(를) 교환하시겠습니까?"
+}
+
+_G.pg.base.gametip.hotspring_tip1 = {
+	tip = "온천에 입욕한 캐릭터의 기분 회복 속도를 높일 수 있습니다."
+}
+
+_G.pg.base.gametip.hotspring_tip2 = {
+	tip = "온천 코인이 부족합니다."
+}
+
+_G.pg.base.gametip.hotspring_help = {
+	tip = {
+		{
+			info = [[
+이벤트 규칙:
+<color=#92fc63>2022.12.29-2023.1.12 업데이트 전</color>까지 한정 이벤트 「노천 온천관」이 오픈됩니다.
+1. 2023년 1월 4일까지 매일 0시마다 새로운 임무가 해제되며, 임무 완료 시 「온천 코인」이 포함된 보상을 획득할 수 있습니다.
+2. 「온천 코인」은 온천 확장에 사용되며, 매번 확장 시 온천 코인*100이 소모됩니다.
+3. 아카시를 도와 온천 확장 시 「온천 티켓」을 보상으로 획득합니다. 「온천 티켓」은 「온천 상점」에서 다양한 보상과 교환할 수 있습니다.
+4. 함선 소녀를 온천에 초대할 수 있으며, 온천에 입욕한 함선 소녀는 기분 회복 속도가 상승합니다.
+5. 입욕한 함선 소녀를 길게 터치하면 드래그하여 위치를 조정할 수 있습니다.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.hotspring_expand = {
+	tip = "온천 코인*$1을 소모하여 온천을 확장하시겠습니까?"
+}
+
+_G.pg.base.gametip.hotspring_shop_help = {
+	tip = {
+		{
+			info = [[
+이벤트 기간: 2022.12.29-2023.1.12 업데이트 전
+이벤트 규칙:
+1. 이벤트 기간 동안, 아카시를 도와 노천 온천관을 경영하면 「온천 티켓」 보상을 획득합니다.
+2. 「온천 티켓」은 한정 가구 「쥬쥬 온천」이 포함된 풍부한 보상과 교환할 수 있습니다.
+3. 온천 확장으로 획득하는 「온천 티켓」은 모든 보상과 교환할 수 있습니다.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.resorts_help = {
+	tip = {
+		{
+			info = [[
+이벤트 기간: <color=#92fc63>2022.12.29-2023.1.12 업데이트 전</color>
+이벤트 소개:
+「불꽃 VS 세이렌」: 미니게임에 참여하여 버밍햄 한정 스킨 「도착지는 바람 따라」 획득.
+「노천 온천관」: 이벤트에 참여하여 한정 가구 「쥬쥬 온천」이 포함된 풍부한 보상 획득.
+「행운 주머니」: 이벤트에 참여하여 한정 가구 「행운 쥬쥬」 획득
+「에마 기원」: 에마 기원에 참여하여 「연하장」 보상 획득.
+「스킨 상점」: 한정 스킨 구매.
+「한정 건조」: 한정 캐릭터 건조.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.pvzminigame_help = {
+	tip = {
+		{
+			info = [[
+이벤트 규칙:
+1.<color=#92fc63>2023.1.4</color>까지 매일 0시마다 <color=#92fc63>1</color>장의 미니게임이 개방됩니다(총 <color=#92fc63>7</color>장, 누적 가능). 미니게임 완성 시 버밍햄 한정 스킨 「도착지는 바람 따라」를 획득할 수 있습니다.
+
+이벤트 규칙:
+1. 공격 또는 방어 타입의 캐릭터를 배치하여 세이렌의 공격을 저지하세요. 캐릭터 배치 시 일정 수량의 「불꽃」을 소모해야 합니다.
+2. 생산쥬는 「불꽃」을 생산합니다. 「불꽃」 보급이 끊이지 않도록 충분히 배치해 주세요!
+3. 캐릭터는 기본 캐릭터와 한정 캐릭터로 나뉘며, 한정 캐릭터는 1명만 배치할 수 있습니다.
+기본 캐릭터: 전투쥬, 방어쥬, 생산쥬
+한정 캐릭터: 노시로, 체셔, 카시노, 리토리오, 버밍햄
+4. 「게임 수첩」에서 캐릭터, 적, 특수 요소에 대한 자세한 설명을 확인할 수 있습니다.
+5. 이미 배치한 캐릭터를 회수할 수 있으며, 캐릭터 회수 시에는 소모된 「불꽃」을 반환하지 않습니다.
+6. 게임 내 퇴장 버튼을 터치하여 퇴장 시 게임을 완료한 것으로 간주됩니다. 기타 원인으로 인하여 게임을 중도 퇴장 시 미완료한 것으로 간주됩니다.
+7. 제7장·무한: 적이 끊임없이 나타나며 난이도가 점점 높아집니다. 더 높은 점수에 도전해 보세요!]]
+		}
+	}
+}
+
+_G.pg.base.gametip.tips_yuandanhuoyue2023 = {
+	tip = {
+		{
+			info = [[
+이벤트 기간: <color=#92fc63>2022.12.29-2023.1.12</color>
+이벤트 규칙:
+1. 1월 7일까지 매일 0시마다 주머니를 1회 오픈하여 풍부한 보상을 획득할 수 있습니다. 오픈 횟수는 누적되며, 최대 10개까지 오픈할 수 있습니다.
+2. 1회 오픈 시마다 1개의 주머니를 오픈합니다. 주머니는 총 10개입니다.
+3. 주머니에는 1등상 1장, 2등상 2장, 3등상 3장, 4등상 4장이 들어있으며, 각 보상은 다음과 같습니다:
+1등상: 특수 가구 ""행운 쥬쥬""
+2등상: T3 랜덤 교본*1
+3등상: T3 랜덤 부속*5
+4등상: T3 랜덤 장비 상자*1
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.beach_guard_chaijun = {
+	tip = "적에게 로켓포 불꽃을 발사해 대미지를 입히고 폭발을 일으킨다."
+}
+
+_G.pg.base.gametip.beach_guard_jianye = {
+	tip = "불꽃 폭탄을 던져 범위 내의 적에게 대미지를 입힌다."
+}
+
+_G.pg.base.gametip.beach_guard_lituoliao = {
+	tip = "안개 불꽃을 발사해 폭발 후 안개를 발생시킨다.\n안개는 5초 지속되며, 적의 이동 속도와 공격 속도가 10%씩 감소된다. 최대 5회 중첩 가능."
+}
+
+_G.pg.base.gametip.beach_guard_bominghan = {
+	tip = "분열 불꽃을 발사한다. 분열 불꽃이 적에게 명중하면 경직 효과를 주며 분열시킨다. 분열로 발생하는 불꽃에는 경직 효과 없음."
+}
+
+_G.pg.base.gametip.beach_guard_nengdai = {
+	tip = "동시에 두 개의 강화 불꽃을 발사한다.\n적 명중 후, 자신 주변 범위 내의 아군의 공격 속도와 대미지가 1% 상승한다. 10초 지속, 최대 10회 중첩."
+}
+
+_G.pg.base.gametip.beach_guard_m_craft = {
+	tip = "끊임없이 불꽃을 생산한다."
+}
+
+_G.pg.base.gametip.beach_guard_m_atk = {
+	tip = "불꽃을 이용해 공격한다."
+}
+
+_G.pg.base.gametip.beach_guard_m_guard = {
+	tip = "세이렌의 공격을 저지한다."
+}
+
+_G.pg.base.gametip.beach_guard_m_craft_name = {
+	tip = "생산쥬"
+}
+
+_G.pg.base.gametip.beach_guard_m_atk_name = {
+	tip = "전투쥬"
+}
+
+_G.pg.base.gametip.beach_guard_m_guard_name = {
+	tip = "방어쥬"
+}
+
+_G.pg.base.gametip.beach_guard_e1 = {
+	tip = "스캐빈저"
+}
+
+_G.pg.base.gametip.beach_guard_e2 = {
+	tip = "체이서"
+}
+
+_G.pg.base.gametip.beach_guard_e3 = {
+	tip = "네비게이터"
+}
+
+_G.pg.base.gametip.beach_guard_e4 = {
+	tip = "스매셔"
+}
+
+_G.pg.base.gametip.beach_guard_e5 = {
+	tip = "컨덕터"
+}
+
+_G.pg.base.gametip.beach_guard_e6 = {
+	tip = "테스터"
+}
+
+_G.pg.base.gametip.beach_guard_e7 = {
+	tip = "퓨리파이어"
+}
+
+_G.pg.base.gametip.beach_guard_e1_desc = {
+	tip = "가장 흔한 세이렌 집행자. 이동하며 공격한다."
+}
+
+_G.pg.base.gametip.beach_guard_e2_desc = {
+	tip = "흔한 세이렌 집행자. 이동 속도가 스캐빈저보다 빠르다."
+}
+
+_G.pg.base.gametip.beach_guard_e3_desc = {
+	tip = "흔한 세이렌 집행자. 공격 속도가 스캐빈저보다 빠르다."
+}
+
+_G.pg.base.gametip.beach_guard_e4_desc = {
+	tip = "세이렌 집행자. 뛰어난 공격력과 체력을 지녔지만, 행동이 더디다."
+}
+
+_G.pg.base.gametip.beach_guard_e5_desc = {
+	tip = "세이렌 집행자. 밸런스형. 공격 능력과 생존 능력이 모두 양호하다."
+}
+
+_G.pg.base.gametip.beach_guard_e6_desc = {
+	tip = "체력이 50% 이하일 시, 전장의 모든 세이렌에게 실드를 부여한다. 실드 수치는 자신의 기본 체력의 10%.\n1명의 세이렌당 동시에 1개의 실드만 적용됨."
+}
+
+_G.pg.base.gametip.beach_guard_e7_desc = {
+	tip = "주기적으로 자신 주변에 존재하는 안개, 감속 효과를 제거한다."
 }

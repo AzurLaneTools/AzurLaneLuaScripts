@@ -44,7 +44,8 @@ function slot0.execute(slot0, slot1)
 		cmd = slot2.cmd,
 		arg1 = slot2.arg1,
 		arg2 = slot2.arg2,
-		arg_list = {}
+		arg_list = {},
+		kvargs1 = slot2.kvargs1
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			slot1 = PlayerConst.GetTranAwards(uv0, slot0)
@@ -357,6 +358,16 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 
 			slot8:updateActivity(slot9)
 		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_RED_PACKET_LOTTER then
+		slot3.data1 = slot3.data1 + 1
+
+		if not table.contains(slot3.data2_list, slot1.arg1) then
+			table.insert(slot3.data2_list, slot1.arg1)
+		end
+
+		if not table.contains(slot3.data1_list, slot2.number[1]) then
+			table.insert(slot3.data1_list, slot2.number[1])
+		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
 		slot9 = slot3.data1KeyValueList[2][slot1.arg1] or 1
 		slot3.data1KeyValueList[2][slot1.arg1] = slot9 + 1
@@ -431,8 +442,25 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		elseif slot1.cmd == 2 then
 			slot3.data2 = 1
 		end
-	elseif slot5 == ActivityConst.ACTIVITY_TYPE_PT_OTHER and slot1.cmd == 1 then
-		slot3.data2 = 1
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_PT_OTHER then
+		if slot1.cmd == 1 then
+			slot3.data2 = 1
+		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_HOTSPRING then
+		if slot1.cmd == 1 then
+			slot3.data1 = slot3.data1 + 1
+			slot8 = slot3:getData1List()
+			slot8[slot3.data1] = 0
+
+			slot3:setDataList(slot8)
+
+			slot3.data2 = math.max(0, slot3.data2 - slot3:getConfig("config_data")[1][2])
+		elseif slot1.cmd == 2 then
+			table.Foreach(slot1.kvargs1, function (slot0, slot1)
+				uv0[slot1.key] = slot1.value
+			end)
+			slot3:setDataList(slot3:getData1List())
+		end
 	end
 
 	return slot3
