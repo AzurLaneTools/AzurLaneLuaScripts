@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "'별의 바다' 기지-지휘센터-'나침반자리'-B2O 구역-지휘관 사무실, 몇주 전————",
+			say = "'은하수' 기지-지휘센터-'나침반자리'-B2O 구역-지휘관 사무실, 몇주 전————",
 			bgm = "battle-deepecho",
 			flashout = {
 				black = true,
@@ -219,7 +219,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "이 내용을 분석하는 것도 별의 바다의 계획 중 하나지만, 계획함의 마인드 성숙도에 따라 이 덩어리들은 짧은 시간 안에 합쳐지고 완전히 사라지게 되는 거지.",
+			say = "이 내용을 분석하는 것도 은하수의 계획 중 하나지만, 계획함의 마인드 성숙도에 따라 이 덩어리들은 짧은 시간 안에 합쳐지고 완전히 사라지게 되는 거지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "——머릿속에서 '별의 바다'에서 진행된 각종 기밀사항들을 떠올리기 시작한다.",
+			say = "——머릿속에서 '은하수'에서 진행된 각종 기밀사항들을 떠올리기 시작한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

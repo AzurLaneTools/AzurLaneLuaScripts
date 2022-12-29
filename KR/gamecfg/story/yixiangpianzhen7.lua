@@ -504,7 +504,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "정체를 알 수 없는 거대한 물체가…… 접근해 오고 있다고? 우리 지금 「별의 바다」에 있잖아?",
+			say = "정체를 알 수 없는 거대한 물체가…… 접근해 오고 있다고? 우리 지금 「은하수」에 있잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "……맞아, 별의 바다는 지금 레드 경계 상태야.",
+			say = "……맞아, 은하수는 지금 레드 경계 상태야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "30분 후에 별의 바다는 철저히 봉쇄되고 은닉 상태가 될 거야. 그때는 안에 있는 인원의 안전을 보장할 수 없을 거야.",
+			say = "30분 후에 은하수는 철저히 봉쇄되고 은닉 상태가 될 거야. 그때는 안에 있는 인원의 안전을 보장할 수 없을 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1

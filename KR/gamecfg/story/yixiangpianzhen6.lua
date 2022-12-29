@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "별의 바다 기지-핵심 구역-「은하의 중심」-X구역",
+			say = "은하수 기지-핵심 구역-「은하의 중심」-X구역",
 			bgmDelay = 2,
 			bgm = "battle-starsea-elec",
 			flashout = {
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			say = "아마도요. 현재 상황에서 가장 합리적인 추측입니다.",
 			painting = {
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			say = "긴급 사태 대비책 F에 따라, 여분의 저장 진열 구역 G104-H142, I472-K071을 「현실 렌즈」로 배치합니다.",
 			painting = {
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -403,7 +403,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -422,7 +422,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -487,7 +487,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -506,7 +506,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -530,9 +530,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
-			say = "현 상황에 따라, 긴급 사태 대비책 K에 따라, 「별의 바다」 내 우선 등급 3 이하의 항목을 폐쇄하며, 방출된 리소스를 「현실 렌즈」로 집중시킵니다.",
+			say = "현 상황에 따라, 긴급 사태 대비책 K에 따라, 「은하수」 내 우선 등급 3 이하의 항목을 폐쇄하며, 방출된 리소스를 「현실 렌즈」로 집중시킵니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			say = "데이터 팽창 속도에 따르면 대략 90초의 처리 시간을 추가 확보할 수 있습니다.",
 			painting = {
@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "멤피스, 최종 방안을 가용해야 해요. 별의 바다가 위기 상태임을 선포하세요.",
+			say = "멤피스, 최종 방안을 가용해야 해요. 은하수가 위기 상태임을 선포하세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "그렇게 하면 별의 바다의 모든 계산력을 집중시킬 수 있고, 나아가 최단 시간 내에 조정 장치에 대한 통제를 회복할 수 있을 겁니다.",
+			say = "그렇게 하면 은하수의 모든 계산력을 집중시킬 수 있고, 나아가 최단 시간 내에 조정 장치에 대한 통제를 회복할 수 있을 겁니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,7 +712,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "좋아, 네비게이터 씨, 「별의 바다」 기지의 경계 등급을 레드로 상승시켜줘. 보안 시스템 외에 모든 리소스를 「현실 렌즈」로 배치해줘.",
+			say = "좋아, 네비게이터 씨, 「은하수」 기지의 경계 등급을 레드로 상승시켜줘. 보안 시스템 외에 모든 리소스를 「현실 렌즈」로 배치해줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -826,7 +826,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -850,7 +850,7 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			say = "일회용 긴급 사태 코드 인증 완료. 승인 통과되었습니다.",
 			painting = {
@@ -868,7 +868,7 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			say = "긴급 지령에 따라 모든 시스템이 위기 대응 모드로 전환됩니다——",
 			painting = {
@@ -886,7 +886,7 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			say = "각 부분에 알립니다——",
 			painting = {
@@ -904,9 +904,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
-			say = "각 부문과 인원들은 주의해 주시기 바랍니다, 저는 「별의 바다」 호스트 컴퓨터, 네비게이터-TB입니다.",
+			say = "각 부문과 인원들은 주의해 주시기 바랍니다, 저는 「은하수」 호스트 컴퓨터, 네비게이터-TB입니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -922,9 +922,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
-			say = "위험 통제 협약 ECP-15가 활성화되어, 「별의 바다」는 레드 상태에 들어섰습니다.",
+			say = "위험 통제 협약 ECP-15가 활성화되어, 「은하수」는 레드 상태에 들어섰습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -940,9 +940,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
-			say = "협약에 따라 「별의 바다」 핵심 구역은 10분 후 전면 봉쇄되며, 모든 상시 구역은 30분 후 폐쇄됩니다.",
+			say = "협약에 따라 「은하수」 핵심 구역은 10분 후 전면 봉쇄되며, 모든 상시 구역은 30분 후 폐쇄됩니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -958,7 +958,7 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			say = "이 프로세스는 취소할 수 없습니다.",
 			painting = {
@@ -976,7 +976,7 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			say = "각 부서는 침착하게, 대비책에 따라 질서 있게 철수 구역으로 이동해 주십시오. 훈련 상황이 아닙니다.",
 			painting = {
@@ -994,7 +994,7 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "네비게이터-TB",
 			side = 2,
 			say = "반복합니다: 각 부문과 인원들은 주의해 주시기————",
 			painting = {
