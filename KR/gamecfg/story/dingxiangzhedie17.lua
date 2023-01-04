@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			stopbgm = true,
-			say = "서머스 해양 어류 연구소·지하 통로",
+			say = "사모스 해양 어류 연구소·지하 통로",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
 			flashin = {
@@ -129,7 +129,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
@@ -148,7 +148,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
@@ -167,7 +167,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
@@ -186,7 +186,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
@@ -233,7 +233,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
@@ -512,7 +512,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
@@ -531,7 +531,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
@@ -577,7 +577,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
@@ -596,7 +596,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
@@ -615,7 +615,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "그 말을 하고난 뒤, 안제가 링이라고 부르던 네비게이터 양과 똑같이 생긴 소녀의 홀로그램이 허공에서 사라졌다.",
+			say = "그 말을 하고난 뒤, 안제가 제로이라고 부르던 네비게이터 양과 똑같이 생긴 소녀의 홀로그램이 허공에서 사라졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -909,7 +909,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "링, 아직 있어? 아직 나한테 이 아이의 이름을 말해주지 않았잖아!",
+			say = "제로, 아직 있어? 아직 나한테 이 아이의 이름을 말해주지 않았잖아!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -933,7 +933,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
@@ -984,7 +984,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "(하지만 안제도 링도 ANTI-X라고 부르고 있어...)",
+			say = "(하지만 안제도 제로도 ANTI-X라고 부르고 있어...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1423,7 +1423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "(저기… 링. 질문이 있는데, 데빌을 대기 상태에서 깨워줄 수 있어?)",
+			say = "(저기… 제로. 질문이 있는데, 데빌을 대기 상태에서 깨워줄 수 있어?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1448,7 +1448,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			side = 2,
-			actorName = "링？",
+			actorName = "제로？",
 			paintingNoise = true,
 			say = "(문제 없습니다, 데빌의 대기 상태는 언제든지 해제 가능합니다.)",
 			typewriter = {
@@ -1460,7 +1460,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "무슨 이유에선지 링도 호넷을 따라 작은 소리로 귓속말을 했다….",
+			say = "무슨 이유에선지 제로도 호넷을 따라 작은 소리로 귓속말을 했다….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1489,7 +1489,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			side = 2,
-			actorName = "링？",
+			actorName = "제로？",
 			say = "(합리적인 요청입니다. 활성화 프로그램을 실행하고 있습니다——)",
 			typewriter = {
 				speed = 0.05,
@@ -1560,7 +1560,7 @@ return {
 			dir = 1,
 			actorName = "데빌·XV",
 			side = 2,
-			say = "처음 인사할게. 난 데빌·XV야. 서머스 해양 어류 연구소에 온 걸 환영해.",
+			say = "처음 인사할게. 난 데빌·XV야. 사모스 해양 어류 연구소에 온 걸 환영해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1938,7 +1938,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "링？",
+			actorName = "제로？",
 			side = 2,
 			say = "다시 한 번 실례하겠습니다, 아오스타 박사님이 조금 전 실험을 마치고 사무실에서 두 분이 오시기를 기다리고 계십니다.",
 			painting = {
@@ -1975,7 +1975,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "맞아—— 헤헤, 링도 너무 귀엽지?",
+			say = "맞아—— 헤헤, 제로도 너무 귀엽지?",
 			painting = {
 				alpha = 0.3,
 				time = 1

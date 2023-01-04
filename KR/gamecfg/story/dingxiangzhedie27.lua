@@ -2341,7 +2341,7 @@ return {
 			actorName = "헬레나·META",
 			bgName = "bg_zhedie_12",
 			nameColor = "#ffa500",
-			say = "멤피스, 지휘관을 서머스 섬 해양 어류 연구소 지하 입구로 돌려보내줘.",
+			say = "멤피스, 지휘관을 사모스 섬 해양 어류 연구소 지하 입구로 돌려보내줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

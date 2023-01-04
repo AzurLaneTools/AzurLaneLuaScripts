@@ -723,7 +723,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_7",
-			say = "각 함대는 주의를 기울이고 즉시 서머스 섬으로 항로를 조정한다.",
+			say = "각 함대는 주의를 기울이고 즉시 사모스 섬으로 항로를 조정한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

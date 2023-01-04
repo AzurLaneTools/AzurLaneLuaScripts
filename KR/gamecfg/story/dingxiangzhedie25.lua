@@ -188,7 +188,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "지휘관, 서머스 섬에서 아무런 응답이 없어. 후방과 연락이 끊긴 상태야.",
+			say = "지휘관, 사모스 섬에서 아무런 응답이 없어. 후방과 연락이 끊긴 상태야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1079,7 +1079,7 @@ return {
 			actorName = "호넷II",
 			bgName = "bg_zhedie_10",
 			nameColor = "#A9F548FF",
-			say = "으아… 그냥 떠본 건데, 정말 누군가 나타났 줄은 몰랐다구!",
+			say = "으아… 그냥 떠본 건데, 정말 누군가 나타날 줄은 몰랐다구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

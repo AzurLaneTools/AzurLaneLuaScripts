@@ -497,7 +497,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그, 링. 너도 본 적 있지 않아?",
+			say = "그, 제로. 너도 본 적 있지 않아?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aircraft_future",
-			say = "(…링?)",
+			say = "(…제로?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

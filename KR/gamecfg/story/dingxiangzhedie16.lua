@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "여러분, 아오스타의 메인 실험실, '서머스 해양 어류 연구소'에 온 것을 환영해!",
+			say = "여러분, 아오스타의 메인 실험실, '사모스 해양 어류 연구소'에 온 것을 환영해!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "링이구나, 오랜만이야. 아오스타는 지금 밑에 있어?",
+			say = "제로이구나, 오랜만이야. 아오스타는 지금 밑에 있어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_4",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
@@ -567,7 +567,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_4",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
@@ -586,12 +586,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_4",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "대신 이 기간 동안은 제가 완벽한 네이게이션 서비스를 제공해드릴게요.",
+			say = "대신 이 기간 동안은 제가 완벽한 네비게이션 서비스를 제공해드릴게요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_4",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
@@ -627,7 +627,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "좋아, 앞장서줘, 링!",
+			say = "좋아, 앞장서줘, 제로!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_4",
-			actorName = "링？",
+			actorName = "제로？",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",

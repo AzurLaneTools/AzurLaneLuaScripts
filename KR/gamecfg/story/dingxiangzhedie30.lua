@@ -85,7 +85,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…지휘관님, 저번에 상륙했다가 다시 차를 타고 내륙으로 가는 데 오래 걸리셨나요?",
+			say = "…주인님, 저번에 상륙했다가 다시 차를 타고 내륙으로 가는 데 오래 걸리셨나요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…유니온이 지휘관님을 데리고 위험한 일을 하지 않았으면 좋겠어요.",
+			say = "…유니온이 주인님을 데리고 위험한 일을 하지 않았으면 좋겠어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이글 유니온의 행동조차 종잡을 수 없게 되었어….",
+			say = "이글 유니온의 행동조차 종잡을 수 없게 되었네요….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "폐하의 생각이 옳아, 폭풍이 다가오고 있어.",
+			say = "폐하의 생각이 옳았군요. 폭풍이 다가오고 있어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1

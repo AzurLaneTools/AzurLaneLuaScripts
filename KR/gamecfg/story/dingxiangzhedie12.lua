@@ -1323,7 +1323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "바로 서머스 섬이야——— 정말 멋진 휴양지거든~!",
+			say = "바로 사모스 섬이야——— 정말 멋진 휴양지거든~!",
 			painting = {
 				alpha = 0.3,
 				time = 1

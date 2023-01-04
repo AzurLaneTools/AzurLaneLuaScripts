@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			stopbgm = true,
-			say = "서머스 해양 어류 연구소·지하 통로 입구",
+			say = "사모스 해양 어류 연구소·지하 통로 입구",
 			bgmDelay = 2,
 			bgm = "theme-starsea-core",
 			flashin = {
@@ -195,7 +195,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_aostelab_2",
-			say = "이곳은 여전히 서머스 해양 어류 연구소의 지하지만…. 눈에 들어오는 광경은 더 이상 어두컴컴한 지하 통로가 아니었다.",
+			say = "이곳은 여전히 사모스 해양 어류 연구소의 지하지만…. 눈에 들어오는 광경은 더 이상 어두컴컴한 지하 통로가 아니었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "안제",
-			say = "너무 귀여워! 그런데… 링이랑 속성이 좀 겹치는 거 아니야?",
+			say = "너무 귀여워! 그런데… 제로이랑 속성이 좀 겹치는 거 아니야?",
 			painting = {
 				alpha = 0.3,
 				time = 1

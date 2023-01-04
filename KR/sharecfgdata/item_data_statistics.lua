@@ -169873,7 +169873,7 @@ _G.pg.base.item_data_statistics[58754] = {
 }
 
 _G.pg.base.item_data_statistics[58755] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -169920,7 +169920,7 @@ _G.pg.base.item_data_statistics[58755] = {
 }
 
 _G.pg.base.item_data_statistics[58756] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -169967,7 +169967,7 @@ _G.pg.base.item_data_statistics[58756] = {
 }
 
 _G.pg.base.item_data_statistics[58757] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170014,7 +170014,7 @@ _G.pg.base.item_data_statistics[58757] = {
 }
 
 _G.pg.base.item_data_statistics[58758] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170061,7 +170061,7 @@ _G.pg.base.item_data_statistics[58758] = {
 }
 
 _G.pg.base.item_data_statistics[58759] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170108,7 +170108,7 @@ _G.pg.base.item_data_statistics[58759] = {
 }
 
 _G.pg.base.item_data_statistics[58760] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170155,7 +170155,7 @@ _G.pg.base.item_data_statistics[58760] = {
 }
 
 _G.pg.base.item_data_statistics[58761] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170202,7 +170202,7 @@ _G.pg.base.item_data_statistics[58761] = {
 }
 
 _G.pg.base.item_data_statistics[58762] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170249,7 +170249,7 @@ _G.pg.base.item_data_statistics[58762] = {
 }
 
 _G.pg.base.item_data_statistics[58763] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170296,7 +170296,7 @@ _G.pg.base.item_data_statistics[58763] = {
 }
 
 _G.pg.base.item_data_statistics[58764] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170343,7 +170343,7 @@ _G.pg.base.item_data_statistics[58764] = {
 }
 
 _G.pg.base.item_data_statistics[58765] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170390,7 +170390,7 @@ _G.pg.base.item_data_statistics[58765] = {
 }
 
 _G.pg.base.item_data_statistics[58766] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170437,7 +170437,7 @@ _G.pg.base.item_data_statistics[58766] = {
 }
 
 _G.pg.base.item_data_statistics[58767] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170484,7 +170484,7 @@ _G.pg.base.item_data_statistics[58767] = {
 }
 
 _G.pg.base.item_data_statistics[58768] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170531,7 +170531,7 @@ _G.pg.base.item_data_statistics[58768] = {
 }
 
 _G.pg.base.item_data_statistics[58769] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170578,7 +170578,7 @@ _G.pg.base.item_data_statistics[58769] = {
 }
 
 _G.pg.base.item_data_statistics[58770] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170625,7 +170625,7 @@ _G.pg.base.item_data_statistics[58770] = {
 }
 
 _G.pg.base.item_data_statistics[58771] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170672,7 +170672,7 @@ _G.pg.base.item_data_statistics[58771] = {
 }
 
 _G.pg.base.item_data_statistics[58772] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170719,7 +170719,7 @@ _G.pg.base.item_data_statistics[58772] = {
 }
 
 _G.pg.base.item_data_statistics[58773] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170766,7 +170766,7 @@ _G.pg.base.item_data_statistics[58773] = {
 }
 
 _G.pg.base.item_data_statistics[58774] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170808,7 +170808,7 @@ _G.pg.base.item_data_statistics[58774] = {
 }
 
 _G.pg.base.item_data_statistics[58775] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170850,7 +170850,7 @@ _G.pg.base.item_data_statistics[58775] = {
 }
 
 _G.pg.base.item_data_statistics[58776] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170892,7 +170892,7 @@ _G.pg.base.item_data_statistics[58776] = {
 }
 
 _G.pg.base.item_data_statistics[58777] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170934,7 +170934,7 @@ _G.pg.base.item_data_statistics[58777] = {
 }
 
 _G.pg.base.item_data_statistics[58778] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -170976,7 +170976,7 @@ _G.pg.base.item_data_statistics[58778] = {
 }
 
 _G.pg.base.item_data_statistics[58779] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -171023,7 +171023,7 @@ _G.pg.base.item_data_statistics[58779] = {
 }
 
 _G.pg.base.item_data_statistics[58780] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -171065,7 +171065,7 @@ _G.pg.base.item_data_statistics[58780] = {
 }
 
 _G.pg.base.item_data_statistics[58781] = {
-	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -171202,7 +171202,7 @@ _G.pg.base.item_data_statistics[58781] = {
 }
 
 _G.pg.base.item_data_statistics[58782] = {
-	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -171334,7 +171334,7 @@ _G.pg.base.item_data_statistics[58782] = {
 }
 
 _G.pg.base.item_data_statistics[58783] = {
-	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -171466,7 +171466,7 @@ _G.pg.base.item_data_statistics[58783] = {
 }
 
 _G.pg.base.item_data_statistics[58784] = {
-	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -171598,7 +171598,7 @@ _G.pg.base.item_data_statistics[58784] = {
 }
 
 _G.pg.base.item_data_statistics[58785] = {
-	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -171730,7 +171730,7 @@ _G.pg.base.item_data_statistics[58785] = {
 }
 
 _G.pg.base.item_data_statistics[58786] = {
-	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -171862,7 +171862,7 @@ _G.pg.base.item_data_statistics[58786] = {
 }
 
 _G.pg.base.item_data_statistics[58787] = {
-	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -171999,7 +171999,7 @@ _G.pg.base.item_data_statistics[58787] = {
 }
 
 _G.pg.base.item_data_statistics[58788] = {
-	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -172131,7 +172131,7 @@ _G.pg.base.item_data_statistics[58788] = {
 }
 
 _G.pg.base.item_data_statistics[58789] = {
-	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -172263,7 +172263,7 @@ _G.pg.base.item_data_statistics[58789] = {
 }
 
 _G.pg.base.item_data_statistics[58790] = {
-	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -172395,7 +172395,7 @@ _G.pg.base.item_data_statistics[58790] = {
 }
 
 _G.pg.base.item_data_statistics[58791] = {
-	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -172527,7 +172527,7 @@ _G.pg.base.item_data_statistics[58791] = {
 }
 
 _G.pg.base.item_data_statistics[58792] = {
-	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -172659,7 +172659,7 @@ _G.pg.base.item_data_statistics[58792] = {
 }
 
 _G.pg.base.item_data_statistics[58793] = {
-	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,

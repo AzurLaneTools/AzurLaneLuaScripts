@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
 			stopbgm = true,
-			say = "서머스 해양 어류 연구소 아오스타의 사무실",
+			say = "사모스 해양 어류 연구소 아오스타의 사무실",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그만 가봐, 링. 다른 일하러 가도 돼.",
+			say = "그만 가봐, 제로. 다른 일하러 가도 돼.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
 			side = 2,
-			actorName = "링？",
+			actorName = "제로？",
 			say = "알겠습니다, 아오스타 박사님.",
 			typewriter = {
 				speed = 0.05,
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "역시 안제야…. 만약 이 기술이 대규모로 적용된다면 ANTI-X는 정말 미래가 기대되는 차세대 스마트 병기가 될 수 있을지도 몰라.",
+			say = "역시 아오스타야…. 만약 이 기술이 대규모로 적용된다면 ANTI-X는 정말 미래가 기대되는 차세대 스마트 병기가 될 수 있을지도 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1

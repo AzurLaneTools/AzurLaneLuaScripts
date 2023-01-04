@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_4",
 			stopbgm = true,
-			say = "몇 시간 뒤, 편안한 여행 1호는 서머스 섬 활주로에 안전하게 착지했다.",
+			say = "몇 시간 뒤, 편안한 여행 1호는 사모스 섬 활주로에 안전하게 착지했다.",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
 			flashin = {
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_endingsong_15",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "참, 마지막으로 또 다른 정보를 하나 줄게, 서머스 섬.",
+			say = "참, 마지막으로 또 다른 정보를 하나 줄게, 사모스 섬.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -104,7 +104,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "(프리드리히가 당시 특별히 서머스 섬이라는 곳을 언급했어….)",
+			say = "(프리드리히가 당시 특별히 사모스 섬이라는 곳을 언급했어….)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "햇빛, 모래사장, 데크 의자…. 이곳이 바로 서머스 섬구나.",
+			say = "햇빛, 모래사장, 데크 의자…. 이곳이 바로 사모스 섬구나.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이곳에는 그동안 서머스 섬 해양 어류 연구소라는 간판이 걸려 있었어.",
+			say = "이곳에는 그동안 사모스 섬 해양 어류 연구소라는 간판이 걸려 있었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그리다가 어느 시점에 군에 인수되어 현재 아오스타가 상주하고 있는 메인 실험실이 된 거지.",
+			say = "그러다가 어느 시점에 군에 인수되어 현재 아오스타가 상주하고 있는 메인 실험실이 된 거지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "이번에 아오스타 박사의 초대로 서머스 섬에 왔던 거 아니야? 더 중요한 일이 있었던 것 같은데….",
+			say = "이번에 아오스타 박사의 초대로 사모스 섬에 왔던 거 아니야? 더 중요한 일이 있었던 것 같은데….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
