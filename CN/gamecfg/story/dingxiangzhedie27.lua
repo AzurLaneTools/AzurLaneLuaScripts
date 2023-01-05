@@ -575,7 +575,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_11",
-			say = "等海伦娜解拿回空间控制权之后，要把剩下的问题都问个清楚。",
+			say = "等海伦娜拿回空间控制权之后，要把剩下的问题都问个清楚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1205,7 +1205,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我们并不能与直接与托瓦进行任何形式的交流，更像是……我们在利用它吧。",
+			say = "我们并不能直接与托瓦进行任何形式的交流，更像是……我们在利用它吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1

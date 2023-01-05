@@ -67,6 +67,19 @@ function temp()
 					}
 				}
 			}
+		},
+		["菈"] = {
+			["·"] = {
+				["伊"] = {
+					["迪"] = {
+						["亚"] = {
+							["斯"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -268,7 +281,12 @@ temp()
 function temp()
 	uv0["哈"] = {
 		["曼"] = {
-			this = true
+			this = true,
+			I = {
+				I = {
+					this = true
+				}
+			}
 		},
 		["尔"] = {
 			["西"] = {
@@ -387,6 +405,21 @@ function temp()
 			["."] = {
 				["改"] = {
 					this = true
+				}
+			}
+		},
+		["洛"] = {
+			["蒂"] = {
+				["娅"] = {
+					["·"] = {
+						["巴"] = {
+							["兰"] = {
+								["茨"] = {
+									this = true
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -1171,7 +1204,18 @@ function temp()
 		["利"] = {
 			["桑"] = {
 				["那"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -1316,7 +1360,12 @@ function temp()
 		["安"] = {
 			["普"] = {
 				["敦"] = {
-					this = true
+					this = true,
+					I = {
+						I = {
+							this = true
+						}
+					}
 				}
 			}
 		},
@@ -1840,7 +1889,12 @@ temp()
 function temp()
 	uv0["兰"] = {
 		["利"] = {
-			this = true
+			this = true,
+			I = {
+				I = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -1900,7 +1954,12 @@ function temp()
 		["克"] = {
 			this = true,
 			["城"] = {
-				this = true
+				this = true,
+				I = {
+					I = {
+						this = true
+					}
+				}
 			},
 			["公"] = {
 				["爵"] = {
@@ -1940,7 +1999,12 @@ function temp()
 	uv0["大"] = {
 		["黄"] = {
 			["蜂"] = {
-				this = true
+				this = true,
+				I = {
+					I = {
+						this = true
+					}
+				}
 			}
 		},
 		["青"] = {
@@ -2246,6 +2310,17 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["莉"] = {
+			["·"] = {
+				["古"] = {
+					["劳"] = {
+						["斯"] = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -2387,7 +2462,18 @@ function temp()
 		["运"] = {
 			["女"] = {
 				["神"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -2993,7 +3079,10 @@ function temp()
 			},
 			["财"] = {
 				["富"] = {
-					this = true
+					this = true,
+					["号"] = {
+						this = true
+					}
 				}
 			}
 		}
@@ -4475,6 +4564,19 @@ function temp()
 										this = true
 									}
 								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["莎"] = {
+			["琳"] = {
+				["·"] = {
+					["斯"] = {
+						["托"] = {
+							["特"] = {
+								this = true
 							}
 						}
 					}
@@ -6048,6 +6150,52 @@ function temp()
 			["斯"] = {
 				["特"] = {
 					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["帕"] = {
+		["特"] = {
+			["莉"] = {
+				["夏"] = {
+					["·"] = {
+						["阿"] = {
+							["贝"] = {
+								["尔"] = {
+									["海"] = {
+										["姆"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["莉"] = {
+		["拉"] = {
+			["·"] = {
+				["德"] = {
+					["西"] = {
+						["亚"] = {
+							["斯"] = {
+								this = true
+							}
+						}
+					}
 				}
 			}
 		}

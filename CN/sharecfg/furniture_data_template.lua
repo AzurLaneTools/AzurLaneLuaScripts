@@ -10054,7 +10054,7 @@ pg.furniture_data_template = {
 					true,
 					nil,
 					nil,
-					"houzhai_pugongying",
+					"houzhai_sangna",
 					"action1"
 				}
 			}

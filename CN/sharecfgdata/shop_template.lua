@@ -20232,6 +20232,177 @@ _G.pg.base.shop_template[60370] = {
 	}
 }
 
+_G.pg.base.shop_template[60371] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "980钻石购买限时建造补给（破晓冰华复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60371,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40118
+	},
+	time = {
+		{
+			{
+				2023,
+				1,
+				5
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				1,
+				11
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60372] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "120钻石购买限时攻略补给（破晓冰华复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60372,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2023,
+				1,
+				5
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				1,
+				11
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60373] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "500钻石购买家具币礼包（破晓冰华复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60373,
+	resource_num = 500,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2023,
+				1,
+				5
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				1,
+				11
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[61001] = {
 	is_auto_use = 0,
 	time_second = 0,
@@ -26347,7 +26518,7 @@ _G.pg.base.shop_template[70097] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 99,
-	time = "always",
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 20,
@@ -30477,7 +30648,7 @@ _G.pg.base.shop_template[70189] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 25,
-	time = "always",
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 20,
@@ -33160,7 +33331,7 @@ _G.pg.base.shop_template[70243] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 25,
-	time = "always",
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 20,
@@ -33707,7 +33878,7 @@ _G.pg.base.shop_template[70255] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 25,
-	time = "always",
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42139,7 +42310,7 @@ _G.pg.base.shop_template[70455] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 23,
-	time = "always",
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43803,7 +43974,8 @@ _G.pg.base.shop_template[70505] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 3,
+	order = 1,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43814,32 +43986,6 @@ _G.pg.base.shop_template[70505] = {
 	limit_args = {},
 	effect_args = {
 		703011
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -43855,7 +44001,8 @@ _G.pg.base.shop_template[70506] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 3,
+	order = 1,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43866,32 +44013,6 @@ _G.pg.base.shop_template[70506] = {
 	limit_args = {},
 	effect_args = {
 		705041
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -43907,7 +44028,8 @@ _G.pg.base.shop_template[70507] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 1,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43918,32 +44040,6 @@ _G.pg.base.shop_template[70507] = {
 	limit_args = {},
 	effect_args = {
 		702041
-	},
-	time = {
-		{
-			{
-				2022,
-				5,
-				26
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				5,
-				29
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -43956,10 +44052,11 @@ _G.pg.base.shop_template[70508] = {
 	desc = "购买皮肤:雷鸣睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 3,
+	order = 1,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43970,32 +44067,6 @@ _G.pg.base.shop_template[70508] = {
 	limit_args = {},
 	effect_args = {
 		701071
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -44011,7 +44082,8 @@ _G.pg.base.shop_template[70509] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 3,
+	order = 1,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44022,32 +44094,6 @@ _G.pg.base.shop_template[70509] = {
 	limit_args = {},
 	effect_args = {
 		702061
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -44060,10 +44106,11 @@ _G.pg.base.shop_template[70510] = {
 	desc = "购买皮肤:洪亮睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 3,
+	order = 1,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44074,32 +44121,6 @@ _G.pg.base.shop_template[70510] = {
 	limit_args = {},
 	effect_args = {
 		701081
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -44115,7 +44136,8 @@ _G.pg.base.shop_template[70511] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 3,
+	order = 1,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44126,32 +44148,6 @@ _G.pg.base.shop_template[70511] = {
 	limit_args = {},
 	effect_args = {
 		705012
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -44164,10 +44160,11 @@ _G.pg.base.shop_template[70513] = {
 	desc = "购买皮肤:水星纪念睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 3,
+	order = 1,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44178,32 +44175,6 @@ _G.pg.base.shop_template[70513] = {
 	limit_args = {},
 	effect_args = {
 		702022
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -44219,7 +44190,8 @@ _G.pg.base.shop_template[70514] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 3,
+	order = 1,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44230,32 +44202,6 @@ _G.pg.base.shop_template[70514] = {
 	limit_args = {},
 	effect_args = {
 		702032
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -44268,10 +44214,11 @@ _G.pg.base.shop_template[70515] = {
 	desc = "购买皮肤:威严睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 3,
+	order = 1,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44282,32 +44229,6 @@ _G.pg.base.shop_template[70515] = {
 	limit_args = {},
 	effect_args = {
 		701022
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -44375,7 +44296,8 @@ _G.pg.base.shop_template[70517] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 3,
+	order = 1,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44386,32 +44308,6 @@ _G.pg.base.shop_template[70517] = {
 	limit_args = {},
 	effect_args = {
 		701042
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -61484,7 +61380,7 @@ _G.pg.base.shop_template[90075] = {
 _G.pg.base.shop_template[90076] = {
 	is_auto_use = 0,
 	time_second = 172800,
-	resource_type = 189,
+	resource_type = 296,
 	type = 6,
 	genre = "skin_shop_timelimit",
 	desc = "限时皮肤体验：贝拉罗斯睡衣",
@@ -61494,6 +61390,7 @@ _G.pg.base.shop_template[90076] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 1,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -61504,39 +61401,13 @@ _G.pg.base.shop_template[90076] = {
 	limit_args = {},
 	effect_args = {
 		705041
-	},
-	time = {
-		{
-			{
-				2021,
-				2,
-				25
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				3,
-				11
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
 _G.pg.base.shop_template[90077] = {
 	is_auto_use = 0,
 	time_second = 172800,
-	resource_type = 189,
+	resource_type = 296,
 	type = 6,
 	genre = "skin_shop_timelimit",
 	desc = "限时皮肤体验：基洛夫睡衣",
@@ -61546,6 +61417,7 @@ _G.pg.base.shop_template[90077] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 2,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -61556,39 +61428,13 @@ _G.pg.base.shop_template[90077] = {
 	limit_args = {},
 	effect_args = {
 		702041
-	},
-	time = {
-		{
-			{
-				2021,
-				2,
-				25
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				3,
-				11
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
 _G.pg.base.shop_template[90078] = {
 	is_auto_use = 0,
 	time_second = 172800,
-	resource_type = 189,
+	resource_type = 296,
 	type = 6,
 	genre = "skin_shop_timelimit",
 	desc = "限时皮肤体验：恰巴耶夫睡衣",
@@ -61598,6 +61444,7 @@ _G.pg.base.shop_template[90078] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 3,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -61608,32 +61455,6 @@ _G.pg.base.shop_template[90078] = {
 	limit_args = {},
 	effect_args = {
 		702032
-	},
-	time = {
-		{
-			{
-				2021,
-				2,
-				25
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				3,
-				11
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 

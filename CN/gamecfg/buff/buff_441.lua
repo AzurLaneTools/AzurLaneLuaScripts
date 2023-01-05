@@ -76,7 +76,13 @@ return {
 			},
 			arg_list = {
 				skill_id = 441,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				deathCause = {
+					1,
+					3,
+					4,
+					5
+				}
 			}
 		}
 	}

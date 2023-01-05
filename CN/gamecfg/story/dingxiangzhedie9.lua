@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "不光是各类老式军舰的新型改造，就连最新型的军舰也调过来一些。",
+			say = "不光是各类老式军舰的新型改造，就连最新型的军舰也调过来了一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "也就是说，尽管我们在总体力量处于劣势，但在战术层面我们反而占据优势？",
+			say = "也就是说，尽管我们总体力量处于劣势，但在战术层面我们反而占据优势？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -861,7 +861,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "看来大家都聊的差不多了呢。",
+			say = "看来大家都聊得差不多了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -879,7 +879,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "博士？！今天一大早就没见你的人，你去哪里了啊！",
+			say = "博士？！今天一大早就没见你人，你去哪里了啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1

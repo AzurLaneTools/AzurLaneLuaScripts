@@ -72,7 +72,7 @@ pg.ship_data_create_material = {
 		exchange_available_times = 0,
 		build_voice = "",
 		use_item = 20001,
-		build_anim = "building_laisha",
+		build_anim = "building",
 		number_1 = 2,
 		id = 4,
 		icon = "build_4",
@@ -82,15 +82,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
 			"普通舰船：30%",
-			"<color=#ffde38>莱莎琳·斯托特</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>苏维埃贝拉罗斯</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>帕特莉夏·阿贝尔海姆</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>基洛夫</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>科洛蒂娅·巴兰茨</color>：0.5%",
+			"<color=#ffde38>塔林</color>：0.5%",
 			" ",
-			"<color=#d797ff>莉拉·德西亚斯</color>：2.5%<color=#92FC63>(up!)</color>",
+			"<color=#d797ff>雷鸣</color>：2.5%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#d797ff>赛莉·古劳斯</color>：2.5%<color=#92FC63>(up!)</color>"
+			"<color=#d797ff>摩尔曼斯克</color>：2.5%<color=#92FC63>(up!)</color>"
 		}
 	},
 	{

@@ -186933,6 +186933,90 @@ _G.pg.base.item_data_statistics[59375] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59376] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59376,
+	is_world = 0,
+	icon = "Props/xunliandianshu_mv2",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59377] = {
+	display = "用于「破晓冰华」复刻活动兑换，活动结束后将会消失",
+	name = "未知晶体",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59377,
+	is_world = 0,
+	icon = "Props/beilian2_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59378] = {
+	display = "用于「限时体验商店」兑换角色限时换装",
+	name = "换装体验券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59378,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59379] = {
+	display = "于「破晓冰华」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	name = "单次建造券",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 4631,
+	id = 59379,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-茳",
 	name = "船模-茳",

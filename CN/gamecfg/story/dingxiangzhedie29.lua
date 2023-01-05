@@ -461,7 +461,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "一个与你相识的个体，你能查到么？",
+			say = "一个与你相似的个体，你能查到么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
