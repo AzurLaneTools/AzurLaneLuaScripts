@@ -10184,7 +10184,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Sovetskaya Belorussiya, Kirov, Tallinn and more !"
+	tip = "Rate UP for Sovetskaya Belorussiya, Kirov and more!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -10196,7 +10196,7 @@ _G.pg.base.gametip.buildship_light_tip = {
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Rate UP for  Sovetskaya Belorussiya, Kirov, Tallinn and more !"
+	tip = "U-110 added to standard build pool!"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -21976,7 +21976,7 @@ _G.pg.base.gametip.pgs_login_binding_exist2 = {
 }
 
 _G.pg.base.gametip.pgs_login_binding_exist3 = {
-	tip = "This game account is already bound to another PGS account, and your current PGS account is also bound to another game account.\nWould you like to rebound your game and/or PGS account?"
+	tip = "This game account is already bound to another PGS account, and your current PGS account is also bound to another game account.\nWould you like to rebind your game and/or PGS account?"
 }
 
 _G.pg.base.gametip.pgs_binding_account = {

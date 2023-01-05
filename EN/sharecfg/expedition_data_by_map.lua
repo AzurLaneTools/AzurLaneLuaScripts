@@ -8420,7 +8420,7 @@ pg.expedition_data_by_map = {
 	},
 	[1480025] = {
 		map = 1480025,
-		name = "Khorovod of Dawn's Rime – SP| ||CHAPTER EX||E.X.",
+		name = "Khorovod of Dawn's Rime - SP| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",

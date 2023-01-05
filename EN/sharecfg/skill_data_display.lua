@@ -5686,19 +5686,19 @@ pg.skill_data_display = {
 	},
 	[18440] = {
 		id = 18440,
-		name = "Riddle a riddle +"
+		name = "Riddle Me This+"
 	},
 	[18441] = {
 		id = 18441,
-		name = "Riddle a riddle +"
+		name = "Riddle Me This+"
 	},
 	[18442] = {
 		id = 18442,
-		name = "Riddle a riddle +"
+		name = "Riddle Me This+"
 	},
 	[18443] = {
 		id = 18443,
-		name = "Riddle a riddle +"
+		name = "Riddle Me This+"
 	},
 	[18460] = {
 		id = 18460,

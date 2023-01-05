@@ -178001,7 +178001,7 @@ _G.pg.base.item_data_statistics[59376] = {
 }
 
 _G.pg.base.item_data_statistics[59377] = {
-	display = "Used to exchange for items in \"Khorovod of Dawn's Rime.\" Will be removed after the event ends. ",
+	display = "Used to exchange for items in \"Khorovod of Dawn's Rime.\" Will be removed after the event ends.",
 	name = "Arcana Cube",
 	max_num = 0,
 	type = 98,
