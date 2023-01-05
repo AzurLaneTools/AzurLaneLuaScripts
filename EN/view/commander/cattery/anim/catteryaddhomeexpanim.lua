@@ -144,15 +144,15 @@ function slot0.HideOrShowAddition(slot0, slot1)
 end
 
 function slot0.Clear(slot0)
-	if LeanTween.isTweening(go(slot0.expSlider)) then
+	if not IsNil(slot0.expSlider) and LeanTween.isTweening(go(slot0.expSlider)) then
 		LeanTween.cancel(go(slot0.expSlider))
 	end
 
-	if LeanTween.isTweening(go(slot0.expTxt)) then
+	if not IsNil(slot0.expTxt) and LeanTween.isTweening(go(slot0.expTxt)) then
 		LeanTween.cancel(go(slot0.expTxt))
 	end
 
-	if LeanTween.isTweening(go(slot0.addition)) then
+	if not IsNil(slot0.addition) and LeanTween.isTweening(go(slot0.addition)) then
 		LeanTween.cancel(go(slot0.addition))
 	end
 end

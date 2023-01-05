@@ -103,35 +103,10 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	NewMainScene = {
-		default_bgm = "Main-christmas",
-		special_bgm = "newyear2",
-		bgm = "Main-christmas",
-		time = {
-			{
-				{
-					2022,
-					12,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		default_bgm = "main",
+		special_bgm = "",
+		time = "",
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",

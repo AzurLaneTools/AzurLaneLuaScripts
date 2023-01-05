@@ -25,7 +25,6 @@ return {
 			bgm = "story-richang-6",
 			actor = 107101,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			say = "How does this pose look, Commander?",
 			flashout = {
 				black = true,

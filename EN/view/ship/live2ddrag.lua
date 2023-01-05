@@ -187,8 +187,10 @@ function slot0.applyActionTrigger(slot0)
 					slot0.parameterToStart = 180
 
 					if slot0.eventCallback then
+						slot1 = nil
+
 						slot0.eventCallback(Live2D.DRAG_EVENT_ACTION, {
-							action = slot0.actionTrigger.action,
+							action = (type(slot0.actionTrigger.action) ~= "table" or slot0.actionTrigger.action[math.random(1, #slot0.actionTrigger.action)]) and slot0.actionTrigger.action,
 							active = slot0.actionAtiveData
 						})
 					end

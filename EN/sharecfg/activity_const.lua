@@ -887,5 +887,8 @@ pg.activity_const = {
 	},
 	HOTSPRING_SHOP = {
 		act_id = 4606
+	},
+	ACTIVITY_BOSS_BRISTOL = {
+		act_id = 41029
 	}
 }

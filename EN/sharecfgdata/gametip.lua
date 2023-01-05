@@ -10184,7 +10184,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Yorktown II, Northampton II and more!"
+	tip = "Rate UP for Sovetskaya Belorussiya, Kirov, Tallinn and more !"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -10196,7 +10196,7 @@ _G.pg.base.gametip.buildship_light_tip = {
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "U-110 added to standard build pool!"
+	tip = "Rate UP for  Sovetskaya Belorussiya, Kirov, Tallinn and more !"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -21964,19 +21964,19 @@ _G.pg.base.gametip.defense_formation_tip_npc = {
 }
 
 _G.pg.base.gametip.pgs_login_tip = {
-	tip = "A PGS account allows you to log in to your game account on multiple devices. All your game accounts (excluding guest accounts) are automatically bound to your PGS account."
+	tip = "A PGS account allows you to log in to your game account on multiple devices.\nAll your game accounts (excluding guest accounts) are automatically bound to your PGS account."
 }
 
 _G.pg.base.gametip.pgs_login_binding_exist1 = {
-	tip = "This game account is already bound to another PGS account. Would you like to rebind it to your current PGS account?"
+	tip = "This game account is already bound to another PGS account.\nWould you like to rebind it to your current PGS account?"
 }
 
 _G.pg.base.gametip.pgs_login_binding_exist2 = {
-	tip = "This PGS account is already bound to another game account. Would you like to rebind it to your current game account?"
+	tip = "This PGS account is already bound to another game account.\nWould you like to rebind it to your current game account?"
 }
 
 _G.pg.base.gametip.pgs_login_binding_exist3 = {
-	tip = "This game account is already bound to another PGS account, and your current PGS account is also bound to another game account. Would you like to rebound your game and/or PGS account?"
+	tip = "This game account is already bound to another PGS account, and your current PGS account is also bound to another game account.\nWould you like to rebound your game and/or PGS account?"
 }
 
 _G.pg.base.gametip.pgs_binding_account = {
@@ -21992,7 +21992,7 @@ _G.pg.base.gametip.pgs_unbind_tip1 = {
 }
 
 _G.pg.base.gametip.pgs_unbind_tip2 = {
-	tip = "Your game account is bound to your PGS account. Removing all your other account binds will also remove your bind to your PGS account."
+	tip = "Your game account is bound to your PGS account.\nRemoving all your other account binds will also remove your bind to your PGS account."
 }
 
 _G.pg.base.gametip.word_item = {

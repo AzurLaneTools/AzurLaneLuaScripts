@@ -182126,6 +182126,1011 @@ _G.pg.base.task_data_template[18138] = {
 	}
 }
 
+_G.pg.base.task_data_template[18146] = {
+	name = "『破晓冰华复刻』B1/D1通关一次",
+	guild_coin_award = 0,
+	award = 98790,
+	type = 6,
+	desc = "Clear B1 or D1 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18146,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1480004,
+		1480024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59379,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59377,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4627
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18147] = {
+	name = "『破晓冰华复刻』B2/D2通关一次",
+	guild_coin_award = 0,
+	award = 98791,
+	type = 6,
+	desc = "Clear B2 or D2 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18147,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1480005,
+		1480025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59379,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59377,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4627
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18148] = {
+	name = "『破晓冰华复刻』B3/D3通关一次",
+	guild_coin_award = 0,
+	award = 98792,
+	type = 6,
+	desc = "Clear B3 or D3 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18148,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1480006,
+		1480026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59379,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59377,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4627
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18149] = {
+	name = "『破晓冰华复刻』通关SP",
+	guild_coin_award = 0,
+	award = 98793,
+	type = 6,
+	desc = "Clear SP.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1480041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18149,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59379,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1480025,
+			chapterId = 1480041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18150] = {
+	name = "『破晓冰华复刻』通关D3",
+	guild_coin_award = 0,
+	award = 98794,
+	type = 6,
+	desc = "Clear D3 Stage<color=#92fc63> (can only be obtained once) </color> ",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1480026",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18150,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			192,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1480012,
+			chapterId = 1480026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18151] = {
+	name = "『破晓冰华复刻』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 98795,
+	type = 6,
+	desc = "Complete A1 or C1 with 3 stars",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18152",
+	auto_commit = 0,
+	story_id = "",
+	id = 18151,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1480001,
+		1480021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4626
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18152] = {
+	name = "『破晓冰华复刻』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 98796,
+	type = 6,
+	desc = "Complete A2 or C2 with 3 stars",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18153",
+	auto_commit = 0,
+	story_id = "",
+	id = 18152,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1480002,
+		1480022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4626
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18153] = {
+	name = "『破晓冰华复刻』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 98797,
+	type = 6,
+	desc = "Complete A3 or C3 with 3 stars",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18154",
+	auto_commit = 0,
+	story_id = "",
+	id = 18153,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1480003,
+		1480023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4626
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18154] = {
+	name = "『破晓冰华复刻』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 98798,
+	type = 6,
+	desc = "Complete B1 or D1 with 3 stars",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18155",
+	auto_commit = 0,
+	story_id = "",
+	id = 18154,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1480004,
+		1480024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4627
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18155] = {
+	name = "『破晓冰华复刻』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 98799,
+	type = 6,
+	desc = "Complete B2 or D2 with 3 stars",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18156",
+	auto_commit = 0,
+	story_id = "",
+	id = 18155,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1480005,
+		1480025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4627
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18156] = {
+	name = "『破晓冰华复刻』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 98800,
+	type = 6,
+	desc = "Complete B3 or D3 with 3 stars",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18156,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1480006,
+		1480026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4627
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18157] = {
+	name = "『破晓冰华复刻』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 98801,
+	type = 6,
+	desc = "Log in once.",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18157,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			296,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18158] = {
+	name = "『破晓冰华复刻』通关EX",
+	guild_coin_award = 0,
+	award = 98802,
+	type = 6,
+	desc = "Clear EX.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1460051",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18158,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1480026,
+			chapterId = 1480051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18159] = {
+	name = "『破晓冰华复刻』-日常建造",
+	guild_coin_award = 0,
+	award = 98806,
+	type = 36,
+	desc = "Build 3 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18159,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59377,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18160] = {
+	name = "『破晓冰华复刻』-日常出击",
+	guild_coin_award = 0,
+	award = 98807,
+	type = 36,
+	desc = "Sortie and obtain 15 victories",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18160,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			59379,
+			1
+		},
+		{
+			2,
+			59377,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18161] = {
+	name = "『破晓冰华复刻』-日常困难本",
+	guild_coin_award = 0,
+	award = 98808,
+	type = 36,
+	desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18161,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59377,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18162] = {
+	name = "『破晓冰华复刻』- 日常活动关卡",
+	guild_coin_award = 0,
+	award = 98809,
+	type = 36,
+	desc = "Clear any event stage 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18162,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1480001,
+		1480002,
+		1480003,
+		1480004,
+		1480005,
+		1480006,
+		1480021,
+		1480022,
+		1480023,
+		1480024,
+		1480025,
+		1480026,
+		1480041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			1
+		},
+		{
+			2,
+			59377,
+			300
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4626
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18163] = {
+	name = "『破晓冰华复刻』A1/C1通关一次",
+	guild_coin_award = 0,
+	award = 98810,
+	type = 6,
+	desc = "Clear A1 or C1 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18163,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1480001,
+		1480021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59379,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59377,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4626
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18164] = {
+	name = "『破晓冰华复刻』A2/C2通关一次",
+	guild_coin_award = 0,
+	award = 98811,
+	type = 6,
+	desc = "Clear A2 or C2 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18164,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1480002,
+		1480022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59379,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59377,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4626
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18165] = {
+	name = "『破晓冰华复刻』A3/C3通关一次",
+	guild_coin_award = 0,
+	award = 98812,
+	type = 6,
+	desc = "Clear A3 or C3 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18165,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1480003,
+		1480023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59379,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59377,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4626
+		}
+	}
+}
+
 _G.pg.base.task_data_template[31013] = {
 	name = "投票日常建造",
 	guild_coin_award = 0,

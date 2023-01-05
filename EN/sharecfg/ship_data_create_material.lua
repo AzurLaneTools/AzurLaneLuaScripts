@@ -72,7 +72,7 @@ pg.ship_data_create_material = {
 		exchange_available_times = 0,
 		build_voice = "",
 		use_item = 20001,
-		build_anim = "building_laisha",
+		build_anim = "building",
 		number_1 = 2,
 		id = 4,
 		icon = "build_4",
@@ -86,15 +86,15 @@ pg.ship_data_create_material = {
 			"",
 			"Common: 30%",
 			"",
-			"<color=#ffde38>Reisalin Stout</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Sovetskaya Belorussiya</color>：2.0%(<color=#92fc63>up!</color>)",
 			"",
-			"<color=#ffde38>Patricia Abelheim</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Kirov</color>：2.0%(<color=#92fc63>up!</color>)",
 			"",
-			"<color=#ffde38>Klaudia Valentz</color>: 0.5%",
+			"<color=#ffde38>Tallinn</color>：0.5%",
 			"",
-			"<color=#d797ff>Lila Decyrus</color>: 2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Gremyashchy</color>：2.5%(<color=#92fc63>up!</color>)",
 			"",
-			"<color=#d797ff>Serri Glaus</color>: 2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>Murmansk</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{
