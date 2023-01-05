@@ -10077,7 +10077,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「ヨークタウンⅡ」「ノーザンプトンⅡ」などの出現率UP！"
+	tip = "「ソビエツカヤ·ベラルーシア」「キーロフ」などの出現率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {

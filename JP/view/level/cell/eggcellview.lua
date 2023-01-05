@@ -44,6 +44,7 @@ function slot0.UpdateEggCell(slot0, slot1, slot2, slot3, slot4)
 	slot0.animator.enabled = slot7 and slot2.data > 0
 
 	setActive(slot0.tfDamageCount, slot7 and slot2.data > 0)
+	setActive(slot0.effectFireball, false)
 
 	if slot2.trait == ChapterConst.TraitVirgin then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)

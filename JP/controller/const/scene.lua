@@ -408,6 +408,8 @@ slot0 = {
 			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and slot0.id
 		end)() == ActivityConst.ACTIVITY_BOSS_ALBION then
 			slot2 = ActivityBossAlbionScene
+		elseif slot5 == ActivityConst.ACTIVITY_BOSS_BRISTOL then
+			slot2 = ActivityBossBristolScene
 		else
 			assert(nil, "Missing ActiviyBoss ID in Activity_Const id: " .. (slot5 or "NIL"))
 		end

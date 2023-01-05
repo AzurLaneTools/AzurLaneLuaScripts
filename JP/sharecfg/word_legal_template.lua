@@ -1770,7 +1770,10 @@ function temp()
 			["グ"] = {
 				["レ"] = {
 					["ー"] = {
-						this = true
+						this = true,
+						["Ⅱ"] = {
+							this = true
+						}
 					}
 				}
 			},
@@ -1993,7 +1996,10 @@ function temp()
 		["ム"] = {
 			["マ"] = {
 				["ン"] = {
-					this = true
+					this = true,
+					["Ⅱ"] = {
+						this = true
+					}
 				}
 			}
 		},
@@ -2491,7 +2497,10 @@ function temp()
 			["ネ"] = {
 				["ッ"] = {
 					["ト"] = {
-						this = true
+						this = true,
+						["Ⅱ"] = {
+							this = true
+						}
 					}
 				}
 			}
@@ -3431,7 +3440,10 @@ function temp()
 					["プ"] = {
 						["ト"] = {
 							["ン"] = {
-								this = true
+								this = true,
+								["Ⅱ"] = {
+									this = true
+								}
 							}
 						}
 					}
@@ -3977,7 +3989,10 @@ function temp()
 				["タ"] = {
 					["ウ"] = {
 						["ン"] = {
-							this = true
+							this = true,
+							["Ⅱ"] = {
+								this = true
+							}
 						}
 					}
 				}

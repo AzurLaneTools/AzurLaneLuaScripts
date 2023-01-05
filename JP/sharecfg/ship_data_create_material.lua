@@ -72,7 +72,7 @@ pg.ship_data_create_material = {
 		exchange_available_times = 0,
 		build_voice = "",
 		use_item = 20001,
-		build_anim = "building_laisha",
+		build_anim = "building",
 		number_1 = 2,
 		id = 4,
 		icon = "build_4",
@@ -82,15 +82,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：30%",
-			"<color=#ffde38>ライザリン・シュタウト</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>ソビエツカヤ·ベラルーシア</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>パトリツィア・アーベルハイム</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>キーロフ</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>クラウディア・バレンツ</color>：0.5%",
+			"<color=#ffde38>タリン</color>：0.5%",
 			" ",
-			"<color=#d797ff>リラ・ディザイアス</color>：2.5%<color=#92FC63>(up!)</color>",
+			"<color=#d797ff>グレミャーシュチ</color>：2.5%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#d797ff>セリ・グロース</color>：2.5%<color=#92FC63>(up!)</color>"
+			"<color=#d797ff>ムルマンスク</color>：2.5%<color=#92FC63>(up!)</color>"
 		}
 	},
 	{
