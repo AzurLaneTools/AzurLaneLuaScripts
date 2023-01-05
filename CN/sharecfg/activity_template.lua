@@ -7992,13 +7992,12 @@ pg.activity_template = {
 	},
 	[4610] = {
 		mark = 20221222,
-		config_client = "",
+		id = 4610,
 		title_res_tag = "AmericanII_pt",
 		type = 74,
 		login_pop = 0,
 		config_id = 4610,
 		is_show = 25,
-		id = 4610,
 		config_data = {},
 		time = {
 			"timer",
@@ -8030,6 +8029,9 @@ pg.activity_template = {
 		page_info = {
 			class_name = "AmericanIIPtPage",
 			ui_name = "AmericanIIPtPage"
+		},
+		config_client = {
+			linkActID = 4607
 		}
 	},
 	[4611] = {
