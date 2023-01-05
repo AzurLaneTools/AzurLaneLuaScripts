@@ -1561,7 +1561,7 @@ pg.equip_upgrade_template = {
 		category1 = 2,
 		category2 = 4,
 		canvasSize = {
-			1350,
+			1800,
 			900
 		},
 		canvasPadding = {
@@ -1601,6 +1601,12 @@ pg.equip_upgrade_template = {
 				1125,
 				720,
 				24040,
+				false
+			},
+			{
+				1575,
+				180,
+				24160,
 				false
 			}
 		},
@@ -1658,6 +1664,16 @@ pg.equip_upgrade_template = {
 				},
 				{
 					968,
+					180
+				}
+			},
+			{
+				{
+					1282,
+					180
+				},
+				{
+					1418,
 					180
 				}
 			}
@@ -1866,8 +1882,8 @@ pg.equip_upgrade_template = {
 		category1 = 2,
 		category2 = 6,
 		canvasSize = {
-			2250,
-			1440
+			2700,
+			1710
 		},
 		canvasPadding = {
 			1,
@@ -1936,6 +1952,18 @@ pg.equip_upgrade_template = {
 				2025,
 				720,
 				26540,
+				false
+			},
+			{
+				2025,
+				450,
+				26620,
+				false
+			},
+			{
+				2475,
+				450,
+				26600,
 				false
 			}
 		},
@@ -2060,6 +2088,26 @@ pg.equip_upgrade_template = {
 				{
 					968,
 					1260
+				}
+			},
+			{
+				{
+					1282,
+					450
+				},
+				{
+					1868,
+					450
+				}
+			},
+			{
+				{
+					2182,
+					450
+				},
+				{
+					2318,
+					450
 				}
 			}
 		}
@@ -2757,6 +2805,12 @@ pg.equip_upgrade_template = {
 				450,
 				34160,
 				false
+			},
+			{
+				2070,
+				180,
+				34180,
+				false
 			}
 		},
 		links = {
@@ -2806,6 +2860,16 @@ pg.equip_upgrade_template = {
 				{
 					1913,
 					450
+				}
+			},
+			{
+				{
+					1732,
+					180
+				},
+				{
+					1913,
+					180
 				}
 			}
 		}
@@ -3743,6 +3807,49 @@ pg.equip_upgrade_template = {
 			}
 		}
 	},
+	[403] = {
+		id = 403,
+		category1 = 4,
+		category2 = 3,
+		canvasSize = {
+			900,
+			900
+		},
+		canvasPadding = {
+			1,
+			8
+		},
+		gridSize = {
+			45,
+			45
+		},
+		equipments = {
+			{
+				225,
+				450,
+				43040,
+				false
+			},
+			{
+				675,
+				450,
+				43060,
+				false
+			}
+		},
+		links = {
+			{
+				{
+					382,
+					450
+				},
+				{
+					518,
+					450
+				}
+			}
+		}
+	},
 	[404] = {
 		id = 404,
 		category1 = 4,
@@ -4303,6 +4410,7 @@ pg.equip_upgrade_template = {
 		308,
 		401,
 		402,
+		403,
 		404,
 		405,
 		413,

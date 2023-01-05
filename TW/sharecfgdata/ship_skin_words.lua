@@ -322,6 +322,40 @@ _G.pg.base.ship_skin_words[101030] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[101031] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "看看最近有什麼趣聞…哇哇！往購物車裡放冰飲料的時候小心點嘛…",
+	mission = "",
+	touch2 = "這裡可是有監視的哦…？",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "雖然答應了你放學一起來買東西，不過走路果然還是好累啊…正好，這裡的購物車比較堅固，就這樣吧。",
+	mail = "",
+	touch = "…幹、幹嘛，我沒佔太多位置吧？",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "雖然答應了你放學一起來買東西，不過走路果然還是好累啊…正好，這裡的購物車比較堅固，就這樣吧。",
+	feeling5 = "",
+	main = "……咖啡？你經常喝這個嗎？反正我不熬夜，我是不怎麼喝……|唐斯…聽說她好像有在便利商店裡幫忙…？不要搞出什麼奇怪的“爆炸”事件就好了…|多買點泡麵囤房間裡，就不用整天出門覓食了。嗯，好主意。",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "啊，好累，不想動……指揮官，就這樣推著我走好不好？",
+	vote = "",
+	hp_warning = "",
+	id = 101031,
+	detail = "欸…坐在購物車裡有這麼奇怪？",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[101039] = {
 	feeling1 = "",
 	feeling3 = "",
@@ -387,6 +421,40 @@ _G.pg.base.ship_skin_words[101040] = {
 	hp_warning = "",
 	id = 101040,
 	detail = "什麼啊，指揮官喜歡我這種有點肌肉的女孩子嗎？",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[101041] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "這個玻璃瓶子放在……嗚哇哇！？…哦！指揮官接得好！差點出大事了…",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Yaho！我聽說今天便利商店裡會有另一個幫手，原來就是指揮官你呀！…你說我在做什麼？因為很閒有些無聊嘛，就…嘿嘿~",
+	mail = "",
+	touch = "哎呀，兩個人一起做事效率就是高呢~",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Yaho！我聽說今天便利商店裡會有另一個幫手，原來就是指揮官你呀！…你說我在做什麼？因為很閒有些無聊嘛，就…嘿嘿~",
+	feeling5 = "",
+	main = "指揮官，幫我拿一個三角形狀的罐頭，謝啦！|把店裡的材料拿來弄一下的話，說不定能弄出炸藥來哦！……哈哈，我只是說說而已啦！|這個罐頭好像快過期了耶，要不要問問{namecode:98}需不需要幫忙“清理庫存”？哈哈~",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Yo~！指揮官來得挺早的呀。來和我一起擺罐頭吧？",
+	vote = "",
+	hp_warning = "",
+	id = 101041,
+	detail = "嘿嘿，我這個“作品”還挺不錯的吧？啊，別告訴{namecode:98}哦？",
 	couple_encourage = {}
 }
 
@@ -4985,6 +5053,40 @@ _G.pg.base.ship_skin_words[102162] = {
 	hp_warning = "",
 	id = 102162,
 	detail = "指揮官要來顆糖果嗎？我從阿貝克隆比那裡拿來的~（瞄）",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[102163] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "馬布爾黑德，快醒醒，要上課了！真是的，叫妳不要半夜做什麼實驗了…",
+	mission = "",
+	touch2 = "你該去教職員室被念一頓了！",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "呼~真舒服~果然還是應該趁著課間開窗透透氣…指揮官，在那楞著作什麼？給你準備了好位置，坐下來一起休息一下吧。",
+	mail = "",
+	touch = "想看我的課堂筆記？倒是沒什麼問題…啊，等、等等…不可以亂翻啦！",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "呼~真舒服~果然還是應該趁著課間開窗透透氣…指揮官，在那楞著作什麼？給你準備了好位置，坐下來一起休息一下吧。",
+	feeling5 = "",
+	main = "奧馬哈，妳這一抽屜的零食是…呃，也太多了吧？！|趁著下課看看有沒有什麼有趣的消息…嗯？康克德發了新的甜品分享？這個好像有點有趣~|我喜歡這個窗邊的位置哦，視野好，而且打開窗戶就能吹到涼爽的風~",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "總算來了啊，再晚點都可以一起放學回家了……",
+	vote = "",
+	hp_warning = "",
+	id = 102163,
+	detail = "這、這個只是隨便畫畫的…不准偷看少女的筆記本啦！",
 	couple_encourage = {}
 }
 
@@ -25855,6 +25957,40 @@ _G.pg.base.ship_skin_words[301591] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[301592] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "欸，搞錯了？……(小聲){namecode:127}那傢伙，說著要去迎接委託組，結果還沒回來…真是讓人不省心的傢伙…",
+	win_mvp = "",
+	home = "新成員招募情況怎麼樣了？……沒有？哎，算了，你也努力過了。",
+	mission = "大將自己可不能荒廢了練習…不對，是任務哦！",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "唔…為什麼沒有人加入我的樂隊…啊，指揮官！好了，不用多說什麼，你現在就是我們“戰國樂隊”的一員了。",
+	mail = "",
+	touch = "好，照著樂譜，把我剛剛給你演示的那一段彈一遍吧。",
+	profile = "",
+	mission_complete = "把任務報酬拿來了？幹得好{namecode:143}！下次你來當城主吧！",
+	feeling4 = "",
+	unlock = "唔…為什麼沒有人加入我的樂隊…啊，指揮官！好了，不用多說什麼，你現在就是我們“戰國樂隊”的一員了。",
+	feeling5 = "",
+	main = "{namecode:128}居然說參加樂隊會影響學習什麼的……哼，她才不懂樂隊的樂趣。|樂隊的標誌？那還用問嗎，當然是用我的家紋。|你要是累了的話，就找個結實點的地方坐著吧？…我可沒擔心你。",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "別在那拖拖拉拉的了，快點來開始今天的練習。",
+	vote = "",
+	hp_warning = "",
+	id = 301592,
+	detail = "音樂當然也是戰國時期就有的東西……你說樂隊這個太現代了？哼，這叫與時俱進。",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[301600] = {
 	feeling1 = "走開，我不要跟尼玩了，{namecode:128}，{namecode:128}尼在哪裡？",
 	feeling3 = "西軍突擊！拿下東軍！讓我看看，接下來是……哇呀呀，小早川秀秋被策反啦！大將尼好壞，我要，我要，嗚嗚嗚嗚……",
@@ -26954,6 +27090,40 @@ _G.pg.base.ship_skin_words[301811] = {
 	hp_warning = "",
 	id = 301811,
 	detail = "{namecode:20}送的年糕，還有很多。指揮官，要吃？",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[301812] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "指揮官…要在開學典禮上發言？有點好奇指揮官要講些什麼……",
+	mission = "",
+	touch2 = "指揮官，噗噗它在不停地撞你哦。",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "嗯，新學期，{namecode:180}和噗噗都很期待。指揮官也是，對嗎？",
+	mail = "",
+	touch = "東西掉了…？謝謝指揮官幫我撿起來。",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "嗯，新學期，{namecode:180}和噗噗都很期待。指揮官也是，對嗎？",
+	feeling5 = "",
+	main = "無論是上學、放學，還是在學校裡，噗噗都和{namecode:180}在一起。|校園不可思議傳說…感覺可以給噗噗找到一些同伴了呢。|作業…要是噗噗也能幫忙寫就好了。",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "指揮官，準時到了呢。噗噗和{namecode:180}，也沒有遲到。",
+	vote = "",
+	hp_warning = "",
+	id = 301812,
+	detail = "欸…書包拉鍊開了？…一定是噗噗的惡作劇，才不是因為睡過頭出門太趕沒注意…",
 	couple_encourage = {}
 }
 
@@ -32792,6 +32962,40 @@ _G.pg.base.ship_skin_words[306061] = {
 	hp_warning = "",
 	id = 306061,
 	detail = "雖然早已習慣月月火水木金金的生活，但是這樣的……似乎也不壞呢，主公",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[306062] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "Quest Clear！嘿嘿，一命通關！",
+	home = "玩遊戲也要全力以赴！現在的吾，已經快趕上那位LI小姐了！",
+	mission = "",
+	touch2 = "呀啊？！嗚…死了，都怪主公你！",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "對，就是這樣！保持這個狀態…好，贏啦！嘿嘿~——欸欸？主公！？！這、這是…對，只是下課時間稍微放鬆一下而已！",
+	mail = "有新消息？會是誰發來的組隊邀請嗎？",
+	touch = "主公也要加入嗎？ (挪)那就坐到吾身邊吧！",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "對，就是這樣！保持這個狀態…好，贏啦！嘿嘿~——欸欸？主公！？！這、這是…對，只是下課時間稍微放鬆一下而已！",
+	feeling5 = "通過遊戲，吾和港區的大家加深了羈絆，發現了新的和主公的相處方式…和主公一起玩遊戲的時光，雖、雖然可能有那麼一點點懈怠…不過，真的很開心！",
+	main = "噢噢~挖到稀有材料了！嘿嘿，果然和主公一起幸運值就會變高呢！|隨時隨地都能玩電子遊戲真是太棒了~…吾、吾會自制，絕對不會沉迷的！|功課？放心吧，吾已經按要求全部完成了！",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "主公，來得正好！和吾組隊挑戰這個上位任務吧！",
+	vote = "",
+	hp_warning = "",
+	id = 306062,
+	detail = "吾使用的角色，是跟吾一樣勇猛的武士哦！",
 	couple_encourage = {}
 }
 

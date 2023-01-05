@@ -238,7 +238,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没关系，继续请跟随我为各位亮起的指示灯前进。",
+			say = "没关系，请继续跟随我为各位亮起的指示灯前进。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -836,7 +836,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（以至于在看到她的瞬间，脑海中立刻便立刻浮现出了塞壬仲裁机关的身影。）",
+			say = "（以至于在看到她的瞬间，脑海中便立刻浮现出了塞壬仲裁机关的身影。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -909,7 +909,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "玲，你还在么？这个孩子名字你还没跟我说呢！",
+			say = "玲，你还在么？这个孩子的名字你还没跟我说呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1006,12 +1006,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
+			actor = 900192,
 			nameColor = "#ffa500",
 			bgName = "bg_xiangting_3",
 			side = 2,
 			dir = 1,
-			actorName = "獒·META",
+			actorName = "獒.META",
 			say = "蠢材！NY港的袭击只不过是安蒂克丝把你们诱骗到这里的阴谋罢了，你们根本是被一帮机器脑袋利用了！",
 			painting = {
 				alpha = 0.3,
@@ -1029,12 +1029,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
+			actor = 900192,
 			nameColor = "#ffa500",
 			bgName = "bg_xiangting_3",
 			side = 2,
 			dir = 1,
-			actorName = "獒·META",
+			actorName = "獒.META",
 			say = "至于我们，不过是一群于灰烬中苟且的残渣罢了，除此之外没有任何值得报出的名号。",
 			painting = {
 				alpha = 0.3,

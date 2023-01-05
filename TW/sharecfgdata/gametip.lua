@@ -20156,7 +20156,7 @@ _G.pg.base.gametip.technology_detail = {
 }
 
 _G.pg.base.gametip.technology_mission_unfinish = {
-	tip = "条件未达成"
+	tip = "條件未達成"
 }
 
 _G.pg.base.gametip.word_chinese = {

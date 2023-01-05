@@ -20,6 +20,7 @@ function slot0.OnLoad(slot0, slot1)
 		effectParent = slot0.spBg
 	}), function (slot0)
 		uv0:AdJustOrderInLayer(slot0)
+		uv0:InitSpecialTouch()
 		uv1()
 	end)
 end
@@ -49,6 +50,19 @@ function slot0.AdJustOrderInLayer(slot0, slot1)
 			ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot11, ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot11) - slot2)
 		end
 	end
+end
+
+function slot0.InitSpecialTouch(slot0)
+	if not findTF(slot0.spTF:GetChild(0), "hitArea") then
+		return
+	end
+
+	eachChild(slot1, function (slot0)
+		onButton(uv0, slot0, function ()
+			uv0:TriggerEvent(uv0:GetSpecialTouchEvent(uv1.name))
+			uv0:TriggerPersonalTask(uv0.ship.groupId)
+		end)
+	end)
 end
 
 function slot0.OnClick(slot0)

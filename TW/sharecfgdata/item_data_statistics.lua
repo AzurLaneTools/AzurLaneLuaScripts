@@ -142433,6 +142433,27 @@ _G.pg.base.item_data_statistics[59332] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59334] = {
+	display = "用於『環城之夜』複刻活動兌換，活動結束後將會消失",
+	name = "鷹羽",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59334,
+	is_world = 0,
+	icon = "Props/meifu2_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59338] = {
 	display = "用於「啾啾速食店」活動兌換，活動結束後將會消失",
 	name = "餐廳經營物資",

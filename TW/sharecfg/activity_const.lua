@@ -511,7 +511,7 @@ pg.activity_const = {
 		act_id = 40599
 	},
 	FRANCE_SP = {
-		act_id = 40341
+		act_id = 41005
 	},
 	FRANCE_ICON_TASK = {
 		act_id = 40345
@@ -893,5 +893,8 @@ pg.activity_const = {
 	},
 	HOTSPRING_SHOP = {
 		act_id = 4606
+	},
+	ACTIVITY_BOSS_BRISTOL = {
+		act_id = 41029
 	}
 }

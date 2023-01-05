@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "好了，多留一一秒钟就多一分危险，您快进去吧。",
+			say = "好了，多留一秒钟就多一分危险，您快进去吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1

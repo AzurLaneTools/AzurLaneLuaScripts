@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……原來如此，所以才准備了“另一份命令”嗎。",
+			say = "……原來如此，所以才準備了“另一份命令”嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

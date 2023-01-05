@@ -86,7 +86,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "平时指挥官都挺忙的，不常这样的地方见到你呢。",
+			say = "平时指挥官都挺忙的，不常在这样的地方见到你呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是不可思议，我还从来没有过如此舒展地游过……",
+			say = "真是不可思议，我还从来没有如此舒展地游过……",
 			painting = {
 				alpha = 0.3,
 				time = 1

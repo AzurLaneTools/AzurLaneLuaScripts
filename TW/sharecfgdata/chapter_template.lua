@@ -228341,7 +228341,7 @@ _G.pg.base.chapter_template[1350001] = {
 	name = "月色正濃 ",
 	count = 0,
 	pop_pic = "",
-	act_id = 40339,
+	act_id = 41003,
 	pos_y = "0.34375",
 	is_ai = 0,
 	progress_boss = 34,
@@ -228953,7 +228953,7 @@ _G.pg.base.chapter_template[1350002] = {
 	name = "陸間海氣候",
 	count = 0,
 	pop_pic = "",
-	act_id = 40339,
+	act_id = 41003,
 	pos_y = "0.09083333",
 	is_ai = 0,
 	progress_boss = 25,
@@ -229625,7 +229625,7 @@ _G.pg.base.chapter_template[1350003] = {
 	name = "強行突破",
 	count = 0,
 	pop_pic = "",
-	act_id = 40339,
+	act_id = 41003,
 	pos_y = "0.344791667",
 	is_ai = 0,
 	progress_boss = 20,
@@ -229757,7 +229757,11 @@ _G.pg.base.chapter_template[1350003] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		20,
+		30,
+		15
+	},
 	win_condition = {
 		{
 			1,
@@ -292302,7 +292306,7 @@ _G.pg.base.chapter_template[1480002] = {
 	act_id = 40561,
 	pos_y = "0.052083333",
 	is_ai = 1,
-	progress_boss = 34,
+	progress_boss = 50,
 	model = 2,
 	boss_refresh = 4,
 	is_limit_move = 1,
@@ -292342,7 +292346,7 @@ _G.pg.base.chapter_template[1480002] = {
 	profiles = "即便在王冠已經遭到極地艦隊襲擊的情況下，塞壬依舊對“密室”發起了猛烈進攻……準備迎戰。",
 	avoid_ratio = 11,
 	difficulty = 4,
-	num_2 = 15,
+	num_2 = 11,
 	star_require_2 = 2,
 	win_condition_display = "win_condition_display_qijian",
 	time = 43200,
@@ -292955,7 +292959,7 @@ _G.pg.base.chapter_template[1480002] = {
 	},
 	defeat_story_count = {
 		1,
-		3
+		2
 	},
 	npc_data = {},
 	risk_levels = {
@@ -293893,7 +293897,7 @@ _G.pg.base.chapter_template[1480004] = {
 	act_id = 40562,
 	pos_y = "0.227083333",
 	is_ai = 1,
-	progress_boss = 25,
+	progress_boss = 50,
 	model = 2,
 	boss_refresh = 4,
 	is_limit_move = 1,
@@ -293933,7 +293937,7 @@ _G.pg.base.chapter_template[1480004] = {
 	profiles = "遠方璀璨的都市群點亮了整片原本有些昏暗的海域……艦隊已經成功穿越“大門”，繼續探索吧。",
 	win_condition_display = "win_condition_display_qijian",
 	difficulty = 5,
-	num_2 = 25,
+	num_2 = 14,
 	star_require_2 = 2,
 	avoid_require = 0,
 	time = 43200,
@@ -294678,7 +294682,7 @@ _G.pg.base.chapter_template[1480005] = {
 	act_id = 40562,
 	pos_y = "0.052083333",
 	is_ai = 1,
-	progress_boss = 25,
+	progress_boss = 50,
 	model = 2,
 	boss_refresh = 5,
 	is_limit_move = 1,
@@ -294718,7 +294722,7 @@ _G.pg.base.chapter_template[1480005] = {
 	profiles = "預想中的返回之路沒有出現，取而代之的是一處昏暗而巨大的會議廳，這裡究竟是什麼地方…… ",
 	win_condition_display = "win_condition_display_qijian",
 	difficulty = 6,
-	num_2 = 30,
+	num_2 = 15,
 	star_require_2 = 2,
 	avoid_require = 0,
 	time = 43200,
@@ -295488,7 +295492,7 @@ _G.pg.base.chapter_template[1480006] = {
 	act_id = 40562,
 	pos_y = "0.383333333",
 	is_ai = 1,
-	progress_boss = 25,
+	progress_boss = 34,
 	model = 2,
 	boss_refresh = 5,
 	is_limit_move = 1,
@@ -295528,7 +295532,7 @@ _G.pg.base.chapter_template[1480006] = {
 	profiles = "海域中出現未知敵人，可是在另一處軌道下方，也許什麼都不存在……戰鬥，直到光芒消散為止。",
 	win_condition_display = "win_condition_display_qijian",
 	difficulty = 7,
-	num_2 = 30,
+	num_2 = 21,
 	star_require_2 = 2,
 	avoid_require = 0,
 	time = 43200,
@@ -296360,11 +296364,11 @@ _G.pg.base.chapter_template[1480006] = {
 	},
 	defeat_story_count = {
 		1,
+		3,
 		4,
 		5,
 		6,
-		7,
-		8
+		7
 	},
 	npc_data = {},
 	risk_levels = {
@@ -296408,7 +296412,7 @@ _G.pg.base.chapter_template[1480021] = {
 	act_id = 40561,
 	pos_y = "0.392708333",
 	is_ai = 1,
-	progress_boss = 34,
+	progress_boss = 50,
 	model = 2,
 	boss_refresh = 4,
 	is_limit_move = 1,
@@ -296448,7 +296452,7 @@ _G.pg.base.chapter_template[1480021] = {
 	profiles = "根據情報，本次行動目標是……前往代號為“密室”的某個北方聯合機密設施？",
 	avoid_ratio = 12,
 	difficulty = 6,
-	num_2 = 17,
+	num_2 = 13,
 	star_require_2 = 2,
 	win_condition_display = "win_condition_display_qijian",
 	time = 43200,
@@ -297123,7 +297127,7 @@ _G.pg.base.chapter_template[1480022] = {
 	act_id = 40561,
 	pos_y = "0.052083333",
 	is_ai = 1,
-	progress_boss = 34,
+	progress_boss = 50,
 	model = 2,
 	boss_refresh = 4,
 	is_limit_move = 1,
@@ -297163,7 +297167,7 @@ _G.pg.base.chapter_template[1480022] = {
 	profiles = "即便在王冠已經遭到極地艦隊襲擊的情況下，塞壬依舊對“密室”發起了猛烈進攻……準備迎戰。",
 	avoid_ratio = 13,
 	difficulty = 7,
-	num_2 = 17,
+	num_2 = 13,
 	star_require_2 = 2,
 	win_condition_display = "win_condition_display_qijian",
 	time = 43200,
@@ -297818,7 +297822,7 @@ _G.pg.base.chapter_template[1480022] = {
 	},
 	defeat_story_count = {
 		1,
-		3
+		2
 	},
 	npc_data = {},
 	risk_levels = {
@@ -297854,7 +297858,7 @@ _G.pg.base.chapter_template[1480023] = {
 	act_id = 40561,
 	pos_y = "0.344791667",
 	is_ai = 1,
-	progress_boss = 25,
+	progress_boss = 34,
 	model = 2,
 	boss_refresh = 5,
 	is_limit_move = 1,
@@ -297894,7 +297898,7 @@ _G.pg.base.chapter_template[1480023] = {
 	profiles = "腳下是一層平靜的海水，頭頂上方原本應該屬於天空的部分如今也被海水所佔據，此處就是北方聯合的“密室”…… ",
 	avoid_ratio = 14,
 	difficulty = 8,
-	num_2 = 21,
+	num_2 = 19,
 	star_require_2 = 2,
 	win_condition_display = "win_condition_display_qijian",
 	time = 43200,
@@ -298763,7 +298767,7 @@ _G.pg.base.chapter_template[1480023] = {
 	defeat_story_count = {
 		1,
 		2,
-		4
+		3
 	},
 	npc_data = {},
 	risk_levels = {
@@ -298799,7 +298803,7 @@ _G.pg.base.chapter_template[1480024] = {
 	act_id = 40562,
 	pos_y = "0.380208333",
 	is_ai = 1,
-	progress_boss = 25,
+	progress_boss = 34,
 	model = 2,
 	boss_refresh = 5,
 	is_limit_move = 1,
@@ -298839,7 +298843,7 @@ _G.pg.base.chapter_template[1480024] = {
 	profiles = "遠方璀璨的都市群點亮了整片原本有些昏暗的海域……艦隊已經成功穿越“大門”，繼續探索吧。",
 	win_condition_display = "win_condition_display_qijian",
 	difficulty = 8,
-	num_2 = 35,
+	num_2 = 21,
 	star_require_2 = 2,
 	avoid_require = 0,
 	time = 43200,
@@ -299629,7 +299633,7 @@ _G.pg.base.chapter_template[1480025] = {
 	act_id = 40562,
 	pos_y = "0.122916667",
 	is_ai = 1,
-	progress_boss = 20,
+	progress_boss = 34,
 	model = 2,
 	boss_refresh = 6,
 	is_limit_move = 1,
@@ -299669,7 +299673,7 @@ _G.pg.base.chapter_template[1480025] = {
 	profiles = "預想中的返回之路沒有出現，取而代之的是一處昏暗而巨大的會議廳，這裡究竟是什麼地方…… ",
 	win_condition_display = "win_condition_display_qijian",
 	difficulty = 9,
-	num_2 = 40,
+	num_2 = 24,
 	star_require_2 = 2,
 	avoid_require = 0,
 	time = 43200,
@@ -300486,7 +300490,7 @@ _G.pg.base.chapter_template[1480026] = {
 	act_id = 40562,
 	pos_y = "0.35625",
 	is_ai = 1,
-	progress_boss = 20,
+	progress_boss = 34,
 	model = 2,
 	boss_refresh = 6,
 	is_limit_move = 1,
@@ -300526,7 +300530,7 @@ _G.pg.base.chapter_template[1480026] = {
 	profiles = "海域中出現未知敵人，可是在另一處軌道下方，也許什麼都不存在……戰鬥，直到光芒消散為止。",
 	win_condition_display = "win_condition_display_qijian",
 	difficulty = 10,
-	num_2 = 40,
+	num_2 = 24,
 	star_require_2 = 2,
 	avoid_require = 0,
 	time = 43200,
@@ -301405,11 +301409,11 @@ _G.pg.base.chapter_template[1480026] = {
 	},
 	defeat_story_count = {
 		1,
+		3,
+		4,
 		5,
 		6,
-		7,
-		8,
-		9
+		7
 	},
 	npc_data = {},
 	risk_levels = {

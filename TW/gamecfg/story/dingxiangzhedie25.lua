@@ -1452,6 +1452,16 @@ return {
 				speed = 0.05,
 				speedUp = 0.01
 			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			},
 			flashout = {
 				dur = 0.25,
 				alpha = {
@@ -1465,6 +1475,12 @@ return {
 				alpha = {
 					1,
 					0
+				}
+			},
+			effects = {
+				{
+					active = true,
+					name = "speed"
 				}
 			}
 		},
@@ -1483,6 +1499,16 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
 			}
 		},
 		{
@@ -1500,6 +1526,22 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			},
+			effects = {
+				{
+					active = false,
+					name = "speed"
+				}
 			}
 		},
 		{

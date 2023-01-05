@@ -907,6 +907,116 @@ pg.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101031] = {
+		ship_group = 10103,
+		name = "購物車大小姐",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 101031,
+		group_index = 1,
+		prefab = "kaxin_2",
+		painting = "kaxin_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70570,
+		shop_type_id = 4,
+		air_bomb_skin = "",
+		illustrator = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "雖然答應了你放學一起來買東西，不過走路果然還是好累啊…正好，這裡的購物車比較堅固，就這樣吧。",
+		voice_actor = 95,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.817,
+					0.991,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.002,
+					0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.725,
+					1.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.436,
+							2.496,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101039] = {
 		ship_group = 10103,
 		name = "卡辛.改",
@@ -1129,6 +1239,116 @@ pg.ship_skin_template_1 = {
 						{
 							-0.379,
 							0.307,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101041] = {
+		ship_group = 10104,
+		name = "搗蛋的幫手？",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 101041,
+		group_index = 1,
+		prefab = "tangsi_2",
+		painting = "tangsi_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70569,
+		shop_type_id = 4,
+		air_bomb_skin = "",
+		illustrator = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Yaho！我聽說今天便利商店裡會有另一個幫手，原來就是指揮官你呀！…你說我在做什麼？因為很閒有些無聊嘛，就…嘿嘿~",
+		voice_actor = 96,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.05,
+					1.016,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.071,
+					1.009,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.499,
+							2.436,
 							0
 						}
 					}
@@ -8577,222 +8797,6 @@ pg.ship_skin_template_1 = {
 		smoke = {
 			{
 				40,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[101400] = {
-		ship_group = 10140,
-		name = "艾爾文",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 101400,
-		group_index = 0,
-		prefab = "aierwen",
-		painting = "aierwen",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "法拉格特級驅逐艦—艾爾文，舷號DD-355",
-		voice_actor = 198,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.361,
-					0.936,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.444,
-					0.966,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.299,
-					0.047,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[101401] = {
-		ship_group = 10140,
-		name = "星期天的水族館",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 101401,
-		group_index = 1,
-		prefab = "aierwen_2",
-		painting = "aierwen_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70208,
-		shop_type_id = 9,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "這裡是水族館嗎…感覺很新鮮呢。啊，今天不是我而是指揮官領路呢，請小心不要迷路哦。欸嘿嘿",
-		voice_actor = 198,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.915,
-					1.034,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.9,
-					1.021,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.149,
-					0.047,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
 				{
 					{
 						"smoke",

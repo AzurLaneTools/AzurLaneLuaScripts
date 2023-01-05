@@ -62,6 +62,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哟吼，指挥官~",
 			painting = {
 				alpha = 0.3,
@@ -79,6 +80,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "是来看大黄蜂冲过终点时的身姿，还是……想来和我一起体验下驰骋在波涛上的感觉的呢？",
 			painting = {
 				alpha = 0.3,
@@ -96,6 +98,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哈~这样灿烂的阳光，就该搭配紧张刺激的摩托艇冲浪才够味嘛~",
 			painting = {
 				alpha = 0.3,
@@ -119,6 +122,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "为了保持速度，特地穿了方便行动的一款！至于暴露度什么的……",
 			painting = {
 				alpha = 0.3,
@@ -136,6 +140,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嘿嘿~难道指挥官是被我迷住了嘛？",
 			painting = {
 				alpha = 0.3,
@@ -153,6 +158,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "没关系没关系，直截了当地说出来也无所谓！不如说我正喜欢这种直来直去的感觉哟？",
 			painting = {
 				alpha = 0.3,
@@ -170,6 +176,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "好啦好啦，别管那么多了！快上来，我来带你领略一下海上的极速！",
 			painting = {
 				alpha = 0.3,
@@ -205,6 +212,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "准备好了吗？抱紧我，然后坐稳咯！我们这就出发！",
 			painting = {
 				alpha = 0.3,
@@ -222,6 +230,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "来和大黄蜂一起享受下在水上飞行的感觉吧~！",
 			painting = {
 				alpha = 0.3,
@@ -257,6 +266,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呼——在海上迎着水花全速冲刺的感觉真棒！",
 			painting = {
 				alpha = 0.3,
@@ -291,6 +301,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指挥官感觉怎么样？",
 			painting = {
 				alpha = 0.3,
@@ -312,13 +323,14 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "bg_port_niuyue",
 			spine = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "没错！没有什么能比这种肆意冲刺的感觉更让人高兴的了！",
 			painting = {
 				alpha = 0.3,
@@ -330,13 +342,14 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "bg_port_niuyue",
 			spine = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 107121,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哈哈，指挥官也是经历过大风大浪的人了，这一点点刺激不算什么吧？",
 			painting = {
 				alpha = 0.3,
@@ -354,6 +367,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "正好也玩够了，我们这就以最快速度返航！",
 			painting = {
 				alpha = 0.3,
@@ -371,6 +385,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -388,6 +403,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "奇怪？怎么启动不了了？",
 			painting = {
 				alpha = 0.3,
@@ -405,6 +421,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "该不会是刚刚玩得太凶了，把摩托艇给玩坏了……",
 			painting = {
 				alpha = 0.3,
@@ -428,6 +445,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哎呀，抱歉抱歉。这下只能安心等待巡逻的同伴来救援了呢。",
 			painting = {
 				alpha = 0.3,
@@ -445,6 +463,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "在那之前，就随波漂流，一起看下海上的风景吧？",
 			painting = {
 				alpha = 0.3,
@@ -462,6 +481,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "既然大海舍不得我们，就心安理得地当做约会的下半场好了~",
 			painting = {
 				alpha = 0.3,

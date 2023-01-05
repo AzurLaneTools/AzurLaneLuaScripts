@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "周圍已經沒人了。天上沒有偵察機，水下也沒有潛艇，你可以毫無顧慮地出手了。",
+			say = "周圍已經沒人了。天上沒有偵察機，水下也沒有潛艇，妳可以毫無顧慮地出手了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "烏爾里希·馮·胡滕",
-			say = "妳肯定認得她的筆跡，就算作假也不會逃過你的眼睛。",
+			say = "妳肯定認得她的筆跡，就算作假也不會逃過妳的眼睛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "烏爾里希·馮·胡滕",
-			say = "在妳回答我的上一個問題之前，我不會跟你談論更多了。",
+			say = "在妳回答我的上一個問題之前，我不會跟妳談論更多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "烏爾里希·馮·胡滕",
-			say = "不過，剛剛內容不要跟任何人說起。如果她現在的狀況洩露出去的話，後果你應該很清楚。",
+			say = "不過，剛剛內容不要跟任何人說起。如果她現在的狀況洩露出去的話，後果妳應該很清楚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

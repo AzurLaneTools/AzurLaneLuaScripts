@@ -225,6 +225,116 @@ end
 temp()
 
 function temp()
+	uv0.M = {
+		a = {
+			g = {
+				d = {
+					e = {
+						b = {
+							u = {
+								r = {
+									g = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		A = {
+			G = {
+				D = {
+					E = {
+						B = {
+							U = {
+								R = {
+									G = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		e = {
+			r = {
+				k = {
+					u = {
+						r = {
+							i = {
+								a = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		E = {
+			R = {
+				K = {
+					U = {
+						R = {
+							I = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0.m = {
+		a = {
+			g = {
+				d = {
+					e = {
+						b = {
+							u = {
+								r = {
+									g = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		e = {
+			r = {
+				k = {
+					u = {
+						r = {
+							i = {
+								a = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0.e = {
 		s = {
 			s = {
@@ -360,65 +470,6 @@ function temp()
 						["親"] = {
 							["王"] = {
 								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0.M = {
-		e = {
-			r = {
-				k = {
-					u = {
-						r = {
-							i = {
-								a = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		E = {
-			R = {
-				K = {
-					U = {
-						R = {
-							I = {
-								A = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0.m = {
-		e = {
-			r = {
-				k = {
-					u = {
-						r = {
-							i = {
-								a = {
-									this = true
-								}
 							}
 						}
 					}

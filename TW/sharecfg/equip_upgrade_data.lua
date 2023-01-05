@@ -1320,6 +1320,26 @@ pg.equip_upgrade_data = {
 			}
 		}
 	},
+	[24160] = {
+		coin_consume = 2500,
+		id = 24160,
+		upgrade_from = 24240,
+		target_id = 24160,
+		material_consume = {
+			{
+				18126,
+				6
+			},
+			{
+				18117,
+				6
+			},
+			{
+				18106,
+				24
+			}
+		}
+	},
 	[24340] = {
 		coin_consume = 2000,
 		id = 24340,
@@ -1665,6 +1685,46 @@ pg.equip_upgrade_data = {
 		id = 26540,
 		upgrade_from = 26440,
 		target_id = 26540,
+		material_consume = {
+			{
+				18121,
+				3
+			},
+			{
+				18106,
+				21
+			},
+			{
+				18114,
+				18
+			}
+		}
+	},
+	[26600] = {
+		coin_consume = 2500,
+		id = 26600,
+		upgrade_from = 26620,
+		target_id = 26600,
+		material_consume = {
+			{
+				18121,
+				9
+			},
+			{
+				18106,
+				21
+			},
+			{
+				18114,
+				18
+			}
+		}
+	},
+	[26620] = {
+		coin_consume = 2000,
+		id = 26620,
+		upgrade_from = 26060,
+		target_id = 26620,
 		material_consume = {
 			{
 				18121,
@@ -2317,6 +2377,26 @@ pg.equip_upgrade_data = {
 			{
 				18106,
 				21
+			}
+		}
+	},
+	[34180] = {
+		coin_consume = 1500,
+		id = 34180,
+		upgrade_from = 34300,
+		target_id = 34180,
+		material_consume = {
+			{
+				18126,
+				6
+			},
+			{
+				18117,
+				2
+			},
+			{
+				18106,
+				8
 			}
 		}
 	},
@@ -3180,6 +3260,26 @@ pg.equip_upgrade_data = {
 			}
 		}
 	},
+	[43060] = {
+		coin_consume = 2500,
+		id = 43060,
+		upgrade_from = 43040,
+		target_id = 43060,
+		material_consume = {
+			{
+				18126,
+				6
+			},
+			{
+				18117,
+				6
+			},
+			{
+				18103,
+				24
+			}
+		}
+	},
 	[44140] = {
 		coin_consume = 2000,
 		id = 44140,
@@ -3647,6 +3747,7 @@ pg.equip_upgrade_data = {
 		23200,
 		24040,
 		24060,
+		24160,
 		24340,
 		24240,
 		25000,
@@ -3665,6 +3766,8 @@ pg.equip_upgrade_data = {
 		26440,
 		26460,
 		26540,
+		26600,
+		26620,
 		26640,
 		27040,
 		27060,
@@ -3697,6 +3800,7 @@ pg.equip_upgrade_data = {
 		34060,
 		34140,
 		34160,
+		34180,
 		34300,
 		35140,
 		35160,
@@ -3740,6 +3844,7 @@ pg.equip_upgrade_data = {
 		42080,
 		42240,
 		42340,
+		43060,
 		44140,
 		45040,
 		45140,

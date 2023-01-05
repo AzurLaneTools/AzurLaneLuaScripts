@@ -724,7 +724,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "就算是我也能明白，你这么突然跳出来+是非常不合适的……",
+			say = "就算是我也能明白，你这么突然跳出来是非常不合适的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
