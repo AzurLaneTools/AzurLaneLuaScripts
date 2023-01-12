@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"눈에 깃든 빛을 위하여\n\n<size=45>의뢰</size>",
+					"눈에 깃든 빛을 위하여\n\n<size=45>2.의뢰</size>",
 					1
 				}
 			}
