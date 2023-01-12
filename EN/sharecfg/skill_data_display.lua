@@ -7308,6 +7308,10 @@ pg.skill_data_display = {
 		id = 29332,
 		name = "All Out Assault Ⅱ"
 	},
+	[29333] = {
+		id = 29333,
+		name = "All Out Assault Ⅱ +"
+	},
 	[29341] = {
 		id = 29341,
 		name = "All Out Assault Ⅰ"
@@ -9288,6 +9292,10 @@ pg.skill_data_display = {
 		id = 1011625,
 		name = "Predestined Launch+"
 	},
+	[1011900] = {
+		id = 1011900,
+		name = "Protector of The North Passage+"
+	},
 	[1090030] = {
 		id = 1090030,
 		name = "Anti-Air Mode - Montpelier"
@@ -9315,6 +9323,14 @@ pg.skill_data_display = {
 	[1010580] = {
 		id = 1010580,
 		name = "Vampire's Kiss+"
+	},
+	[1011500] = {
+		id = 1011500,
+		name = "Radiant Iris+"
+	},
+	[1011501] = {
+		id = 1011501,
+		name = "Radiant Iris+"
 	},
 	[1090020] = {
 		id = 1090020,
@@ -11164,6 +11180,7 @@ pg.skill_data_display = {
 		29322,
 		29331,
 		29332,
+		29333,
 		29341,
 		29342,
 		29351,
@@ -11659,6 +11676,7 @@ pg.skill_data_display = {
 		1011623,
 		1011624,
 		1011625,
+		1011900,
 		1090030,
 		1090031,
 		1090032,
@@ -11666,6 +11684,8 @@ pg.skill_data_display = {
 		1010340,
 		1010511,
 		1010580,
+		1011500,
+		1011501,
 		1090020,
 		1090042,
 		1090043,

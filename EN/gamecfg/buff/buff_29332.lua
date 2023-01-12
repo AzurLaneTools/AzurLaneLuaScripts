@@ -34,9 +34,36 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
+				maxTargetNumber = 0,
 				skill_id = 29332,
-				countType = 29330
+				target = "TargetSelf",
+				countType = 29330,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"kaixuan_DanmakuBoost"
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onBattleBuffCount"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				skill_id = 29333,
+				target = "TargetSelf",
+				countType = 29330,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"kaixuan_DanmakuBoost"
+				}
 			}
 		}
 	}

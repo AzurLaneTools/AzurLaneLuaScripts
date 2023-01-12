@@ -13647,18 +13647,17 @@ _G.pg.base.gametip.pile_game_notice = {
 	tip = {
 		{
 			info = [[
-- The Manjuu Tower:
-The Manjuu Tower is a minigame where your goal is to collect the fallen blocks and stack them as high as you can.
-When you finish the game while in possession of a Ticket, 1 Ticket will be deducted and you'll receive a Stamp.
-Once you've collected 7 Stamps, you can unlock the Sakura Empire DD through the Spring Festival screen.
-You will receive 1 Ticket each day for the duration of the event.
+- Manjuu Tower Minigame Overview -
+Collect the fallen blocks and stack them as high as you can to rack up points.
+Complete the final stage of the minigame to receive the Sakura Empire destroyer Uranami.
+A new stage will unlock every day up to <color=#92fc63>January 18th</color>.
 
-- Minigame Details:
-1. Tap on the screen to make blocks fall down from the top of the screen.
-2. Make the blocks fall onto the tower to build it and increase your score. Once 3 blocks have fallen and missed the tower, the game ends.
-3. The tower has a balance value that must be maintained. If your tower loses too much balance and the Manjuu to the right of the screen reaches the red area, your tower will collapse and the game will end.
-4. If you stop the game midway through, you won't lose a Ticket, but you won't receive a Stamp either-
-5. You can play the minigame even without a Ticket if you'd so like.]]
+- How to Play -
+· Tap the screen to release the block at the top and try to land it on the tower below.
+· If you land the block on the tower, you earn points. If you miss the tower 3 times, the game ends.
+· The tower has a balance gauge (seen on the right side of the screen) that needs to be managed. If the manjuu at the center of the gauge reaches either of the red areas, the tower will collapse and end the game.
+· The game can be stopped midway through without using an attempt, but you won't receive a stamp either.
+· You can play this minigame even if you don't have a daily attempt remaining.]]
 		}
 	}
 }
@@ -22707,4 +22706,44 @@ _G.pg.base.gametip.beach_guard_e6_desc = {
 
 _G.pg.base.gametip.beach_guard_e7_desc = {
 	tip = "Periodically negates the effects of all smokescreens and speed debuffs around her."
+}
+
+_G.pg.base.gametip.ninghai_nianye = {
+	tip = "The baozi are done steaming! Want to give one a try, Commander?"
+}
+
+_G.pg.base.gametip.yingrui_nianye = {
+	tip = "All done~! Every New Year's celebration has to be sweet, right?"
+}
+
+_G.pg.base.gametip.zhaohe_nianye = {
+	tip = "Not overcooked at all, right? See, I told you I got this!"
+}
+
+_G.pg.base.gametip.zhenhai_nianye = {
+	tip = "All done. I hope we'll be able to make a lot of money this year."
+}
+
+_G.pg.base.gametip.haitian_nianye = {
+	tip = "Life is more exciting when you spice things up a bit. Speaking of spice..."
+}
+
+_G.pg.base.gametip.taiyuan_nianye = {
+	tip = "Phew... Thank goodness none of the dumplings fell apart in the pot..."
+}
+
+_G.pg.base.gametip.yixian_nianye = {
+	tip = "May each and every year be blessed with peace and prosperity! Happy New Year, Commander!"
+}
+
+_G.pg.base.gametip.sevenday_nianye = {
+	tip = {
+		{
+			info = "During the event, log in every day and tap the button on the right-hand side of the screen to prepare the menu item of the day.\nDifferent foods will randomly appear over the event period, but all 7 types of food will appear.\nAll Commanders will receive the same rewards by the end of the 7-day period."
+		}
+	}
+}
+
+_G.pg.base.gametip.tip_nianye = {
+	tip = "Please wait for the cook to be ready, thank you!"
 }

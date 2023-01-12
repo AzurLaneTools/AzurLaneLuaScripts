@@ -7655,3 +7655,304 @@ _G.pg.base.spweapon_data_statistics[10570] = {
 		}
 	}
 }
+
+_G.pg.base.spweapon_data_statistics[10580] = {
+	tech = 0,
+	name = "Bizarre Teatime",
+	value_2_random = 5,
+	type = 7,
+	value_1_random = 10,
+	value_1 = 17,
+	effect_id_display = 902160,
+	level = 1,
+	descrip = "A custom-designed piece of gear made from an Augment Module core.",
+	uncraftable = 0,
+	next = 10581,
+	upgrade_id = 101,
+	value_2 = 11,
+	icon = "10580",
+	effect_id = 902160,
+	attribute_2 = "antisub",
+	id = 10580,
+	rarity = 4,
+	unique = 20605,
+	important = 2,
+	prev = 0,
+	attribute_1 = "air",
+	usability = {
+		6
+	},
+	skill_upgrade = {
+		{
+			0,
+			1011900
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10581] = {
+	prev = 10580,
+	base = 10580,
+	next = 10582,
+	upgrade_id = 102,
+	id = 10581,
+	value_2 = 12,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10582] = {
+	prev = 10581,
+	base = 10580,
+	next = 10583,
+	upgrade_id = 103,
+	id = 10582,
+	value_2 = 12,
+	value_1 = 18,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10583] = {
+	prev = 10582,
+	base = 10580,
+	next = 10584,
+	upgrade_id = 104,
+	id = 10583,
+	value_2 = 13,
+	value_1 = 18,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10584] = {
+	prev = 10583,
+	base = 10580,
+	next = 10585,
+	upgrade_id = 105,
+	id = 10584,
+	value_2 = 13,
+	value_1 = 19,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10585] = {
+	prev = 10584,
+	base = 10580,
+	next = 10586,
+	upgrade_id = 106,
+	id = 10585,
+	value_2 = 14,
+	value_1 = 20,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10586] = {
+	prev = 10585,
+	base = 10580,
+	next = 10587,
+	upgrade_id = 107,
+	id = 10586,
+	value_2 = 14,
+	value_1 = 21,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10587] = {
+	prev = 10586,
+	base = 10580,
+	next = 10588,
+	upgrade_id = 108,
+	id = 10587,
+	value_2 = 15,
+	value_1 = 22,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10588] = {
+	prev = 10587,
+	base = 10580,
+	next = 10589,
+	upgrade_id = 109,
+	id = 10588,
+	value_2 = 15,
+	value_1 = 23,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10589] = {
+	prev = 10588,
+	base = 10580,
+	next = 10590,
+	upgrade_id = 110,
+	id = 10589,
+	value_2 = 16,
+	value_1 = 24,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10590] = {
+	base = 10580,
+	prev = 10589,
+	next = 0,
+	upgrade_id = 111,
+	id = 10590,
+	value_2 = 17,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			11900,
+			1011900
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10600] = {
+	tech = 0,
+	name = "Knight-Princess's Gauntlets",
+	value_2_random = 20,
+	type = 1,
+	value_1_random = 10,
+	value_1 = 11,
+	effect_id_display = 901010,
+	level = 1,
+	descrip = "A custom-designed piece of gear made from an Augment Module core.",
+	uncraftable = 0,
+	next = 10601,
+	upgrade_id = 101,
+	value_2 = 130,
+	icon = "10600",
+	effect_id = 901010,
+	attribute_2 = "durability",
+	id = 10600,
+	rarity = 4,
+	unique = 80101,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1011500
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10601] = {
+	prev = 10600,
+	base = 10600,
+	next = 10602,
+	upgrade_id = 102,
+	id = 10601,
+	value_2 = 135,
+	value_1 = 12,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10602] = {
+	prev = 10601,
+	base = 10600,
+	next = 10603,
+	upgrade_id = 103,
+	id = 10602,
+	value_2 = 140,
+	value_1 = 13,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10603] = {
+	prev = 10602,
+	base = 10600,
+	next = 10604,
+	upgrade_id = 104,
+	id = 10603,
+	value_2 = 145,
+	value_1 = 14,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10604] = {
+	prev = 10603,
+	base = 10600,
+	next = 10605,
+	upgrade_id = 105,
+	id = 10604,
+	value_2 = 150,
+	value_1 = 15,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10605] = {
+	prev = 10604,
+	base = 10600,
+	next = 10606,
+	upgrade_id = 106,
+	id = 10605,
+	value_2 = 155,
+	value_1 = 16,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10606] = {
+	prev = 10605,
+	base = 10600,
+	next = 10607,
+	upgrade_id = 107,
+	id = 10606,
+	value_2 = 160,
+	value_1 = 17,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10607] = {
+	prev = 10606,
+	base = 10600,
+	next = 10608,
+	upgrade_id = 108,
+	id = 10607,
+	value_2 = 165,
+	value_1 = 18,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10608] = {
+	prev = 10607,
+	base = 10600,
+	next = 10609,
+	upgrade_id = 109,
+	id = 10608,
+	value_2 = 170,
+	value_1 = 19,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10609] = {
+	prev = 10608,
+	base = 10600,
+	next = 10610,
+	upgrade_id = 110,
+	id = 10609,
+	value_2 = 175,
+	value_1 = 20,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10610] = {
+	base = 10600,
+	prev = 10609,
+	next = 0,
+	upgrade_id = 111,
+	id = 10610,
+	value_2 = 180,
+	value_1 = 22,
+	level = 11,
+	skill_upgrade = {
+		{
+			11500,
+			1011500
+		}
+	}
+}

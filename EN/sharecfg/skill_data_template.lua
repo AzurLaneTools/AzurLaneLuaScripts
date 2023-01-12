@@ -22717,7 +22717,7 @@ pg.skill_data_template = {
 		}
 	},
 	[11610] = {
-		desc_get = "For the first 2 Airstrikes this ship launches: Airstrike reload time is decreased by 5.0% (25.0% when fully upgraded,) and launches extra Suiseis (DMG is based on the skill's level) with each Airstrike. If there are 1 or more CVs or CVLs in your fleet: th",
+		desc_get = "For the first 2 Airstrikes this ship launches: decreases Airstrike reload time by 5% (25%), and launches extra Suisei bombers along with those Airstrikes. If there is at least 1 CV or CVL in your fleet: the aforementioned effects apply to all of this ship's Airstrikes.",
 		name = "Aviation Battleship Fleet",
 		id = 11610,
 		type = 1,
@@ -101621,6 +101621,20 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[902160] = {
+		desc_get = "",
+		name = "Quiet Afternoon",
+		id = 902160,
+		type = 3,
+		max_level = 1,
+		desc = "When the battle starts: increases this ship's ASW by 10.0% and increases her Hit Rate against enemy SSs and SSVs by 10.0%.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[1010140] = {
 		desc_get = "",
 		name = "Eagle's Tears+",
@@ -103714,6 +103728,218 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 				},
 				{
 					"Lv.10"
+				}
+			}
+		}
+	},
+	[1011900] = {
+		desc_get = "",
+		name = "Protector of The North Passage+",
+		id = 1011900,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship launches an airstrike: 1) performs a scan, revealing the location of enemy SSs, decreasing their SPD by 40.0%, and increasing their DMG taken by 10.0% for $1s; 2) launches an additional airstrike consisting of Swordfishes armed with anti-sub and anti-surface torpedoes (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5",
+				"10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5",
+					"+0.5"
+				},
+				{
+					"5.5",
+					"+0.5"
+				},
+				{
+					"6",
+					"+0.5"
+				},
+				{
+					"6.5",
+					"+0.5"
+				},
+				{
+					"7",
+					"+0.5"
+				},
+				{
+					"7.5",
+					"+0.5"
+				},
+				{
+					"8",
+					"+0.5"
+				},
+				{
+					"8.5",
+					"+0.5"
+				},
+				{
+					"9",
+					"+1"
+				},
+				{
+					"10"
+				}
+			}
+		}
+	},
+	[1011500] = {
+		desc_get = "",
+		name = "Radiant Iris+",
+		id = 1011500,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship's Main Gun damages the same target consecutively (if an attack hits multiple targets at once, they are all designated for this effect): increases this ship's RLD by $1 and FP by $2 (effect can only activate once every second; buff can be stacked up to 4 times); when this ship hits a different target, the RLD buff is reset. The first time each battle the max number of stacks is reached: decreases this ship's DMG taken by $3 and improves this ship's \"All Out Assault\" skill until the battle ends.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
 				}
 			}
 		}
@@ -106214,6 +106440,7 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 		902130,
 		902140,
 		902150,
+		902160,
 		1010140,
 		1010390,
 		1010410,
@@ -106231,6 +106458,8 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 		1010530,
 		1010290,
 		1011670,
+		1011900,
+		1011500,
 		1090010,
 		1090020,
 		1090030,
