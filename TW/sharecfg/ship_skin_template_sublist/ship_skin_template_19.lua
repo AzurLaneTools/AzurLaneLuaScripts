@@ -5868,7 +5868,7 @@ pg.ship_skin_template_19 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "沙恩霍斯特級戰列巡洋艦<color=#92fc63>(若已獲得相應的META角色，獎勵將會轉化為對應的角色結晶，可在「META研究室」-「能量啟動」中使用)</color>",
+		desc = "沙恩霍斯特級戰鬥巡洋艦<color=#92fc63>(若已獲得相應的META角色，獎勵將會轉化為對應的角色結晶，可在「META研究室」-「能量啟動」中使用)</color>",
 		voice_actor = 38,
 		spine_offset = "",
 		gyro = 0,
