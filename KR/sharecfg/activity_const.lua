@@ -887,5 +887,14 @@ pg.activity_const = {
 	},
 	HOTSPRING_SHOP = {
 		act_id = 4606
+	},
+	ACTIVITY_BOSS_BRISTOL = {
+		act_id = 41029
+	},
+	NEW_YEAR_EVE_DINNER_TASK_POOL = {
+		act_id = 4638
+	},
+	NEW_YEAR_EVE_DINNER_TASK_LIST = {
+		act_id = 4639
 	}
 }

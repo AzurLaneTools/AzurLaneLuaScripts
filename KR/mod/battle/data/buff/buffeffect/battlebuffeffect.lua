@@ -19,6 +19,7 @@ function slot3.Ctor(slot0, slot1)
 	slot0._indexRequire = slot2.index
 	slot0._damageAttrRequire = slot2.damageAttr
 	slot0._damageReasonRequire = slot2.damageReason
+	slot0._deathCauseRequire = slot2.deathCause
 	slot0._countType = slot2.countType
 	slot0._behit = slot2.be_hit_condition
 	slot0._ammoTypeRequire = slot2.ammoType
@@ -366,7 +367,17 @@ function slot3.onFoeDying(slot0, slot1, slot2, slot3)
 end
 
 function slot3.onSink(slot0, slot1, slot2)
-	slot0:onTrigger(slot1, slot2)
+	if slot0:deathCauseRequire(slot1) then
+		slot0:onTrigger(slot1, slot2)
+	end
+end
+
+function slot3.deathCauseRequire(slot0, slot1)
+	if not slot0._deathCauseRequire then
+		return true
+	end
+
+	return table.contains(slot0._deathCauseRequire, slot1:GetDeathReason())
 end
 
 function slot3.killerRequire(slot0, slot1, slot2, slot3)

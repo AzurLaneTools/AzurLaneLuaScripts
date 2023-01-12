@@ -319,6 +319,8 @@ function slot0.didEnter(slot0)
 		uv0:emit(EquipmentTransformMediator.OPEN_TRANSFORM_TREE, uv0.equipmentTarget)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.layer:Find("SwitchButton"), function ()
+		uv0.contextData.sourceEquipmentInstance = nil
+
 		uv0:UpdateFormula(slot0[table.indexof(EquipmentProxy.GetTransformSources(uv0.equipmentTarget), uv0.contextData.formulaId) and slot1 % #slot0 + 1 or 1])
 	end, SFX_PANEL)
 	onButton(slot0, slot0.layer:Find("HelpBtn"), function ()

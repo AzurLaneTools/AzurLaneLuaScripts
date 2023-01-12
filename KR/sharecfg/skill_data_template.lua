@@ -102258,6 +102258,20 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[902160] = {
+		desc_get = "",
+		name = "고요한 오후",
+		id = 902160,
+		type = 3,
+		max_level = 1,
+		desc = "전투 개시 후, 자신의 대잠 스탯 10% 증가. 자신의 잠수함, 잠수항모에 대한 명중률 10% 증가.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[1010140] = {
 		desc_get = "",
 		name = "이글 유니온의 검은 눈물 +",
@@ -106854,6 +106868,7 @@ pg.skill_data_template = {
 		902130,
 		902140,
 		902150,
+		902160,
 		1010140,
 		1010390,
 		1010410,

@@ -25,7 +25,6 @@ return {
 			bgm = "story-richang-6",
 			actor = 107101,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			say = "지휘관님, 이런 자세 괜찮은가요?",
 			flashout = {
 				black = true,

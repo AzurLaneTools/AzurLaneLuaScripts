@@ -144,17 +144,35 @@ function slot0.execute(slot0, slot1)
 		end)
 		seriesAsync(slot11, function ()
 			if #uv0 > 0 and uv1 then
-				slot0 = 0
-				slot1 = 1
+				slot0 = {}
+				slot1 = {}
 
-				for slot5, slot6 in ipairs(uv0) do
-					if slot6.power < slot0 then
-						slot1 = slot1 + 1
+				function slot2(slot0)
+					slot2 = 0
+
+					for slot6 = 1, table.indexof(uv0, slot0) - 1 do
+						slot2 = slot2 + uv1[uv0[slot6]]
 					end
 
-					slot6:setRank(slot1)
+					return slot2 + 1
+				end
 
-					slot0 = slot6.power
+				for slot6, slot7 in ipairs(uv0) do
+					if not table.contains(slot0, slot7.power) then
+						table.insert(slot0, slot8)
+
+						slot1[slot8] = 1
+					else
+						slot1[slot8] = slot1[slot8] + 1
+					end
+				end
+
+				table.sort(slot0, function (slot0, slot1)
+					return slot1 < slot0
+				end)
+
+				for slot6, slot7 in ipairs(uv0) do
+					slot7:setRank(slot2(slot7.power))
 				end
 			end
 

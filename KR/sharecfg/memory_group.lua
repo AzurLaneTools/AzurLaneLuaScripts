@@ -4180,6 +4180,22 @@ pg.memory_group = {
 			2457
 		}
 	},
+	[582] = {
+		icon = "title_chara_yinggelahan",
+		subtype = 0,
+		type = 3,
+		id = 582,
+		title = "눈에 깃든 빛을 위하여",
+		memories = {
+			2511,
+			2512,
+			2513,
+			2514,
+			2515,
+			2516,
+			2517
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4394,6 +4410,7 @@ pg.memory_group = {
 		578,
 		579,
 		580,
-		581
+		581,
+		582
 	}
 }

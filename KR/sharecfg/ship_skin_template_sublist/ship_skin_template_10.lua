@@ -2554,7 +2554,7 @@ pg.ship_skin_template_10 = {
 	},
 	[302203] = {
 		ship_group = 30220,
-		name = "고백의 모르포나비",
+		name = "푸른 나비의 고백",
 		bullet_skin_secondary = "",
 		hand_id = 2,
 		bgm = "",
@@ -2582,7 +2582,7 @@ pg.ship_skin_template_10 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "정면 공세를 취하는 건 저의 스타일이 아니지만, 다른 사람들에게 {namecode:49}는 시시한 여자라는 인식을 주는 건 안 좋겠죠... 헤헷, 지휘관님이 알아듣지 못해도 상관없어요. 오늘 밤은 제 곁에만 있어주면 돼요~",
+		desc = "정면으로 부딪히는 건 제 스타일이 아니긴 하지만, 사람들에게 아가노는 꼼수만 부릴 줄 아는 여자라는 인식을 가지게 해선 안되겠죠… 헤헷, 지휘관님이 알아듣지 못하셔도 괜찮아요. 오늘 저녁에 제 곁에서 함께해 주시기만 하면 돼요~",
 		voice_actor = 132,
 		spine_offset = "",
 		gyro = 0,

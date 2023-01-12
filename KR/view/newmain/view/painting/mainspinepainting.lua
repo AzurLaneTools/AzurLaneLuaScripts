@@ -20,6 +20,7 @@ function slot0.OnLoad(slot0, slot1)
 		effectParent = slot0.spBg
 	}), function (slot0)
 		uv0:AdJustOrderInLayer(slot0)
+		uv0:InitSpecialTouch()
 		uv1()
 	end)
 end
@@ -51,10 +52,33 @@ function slot0.AdJustOrderInLayer(slot0, slot1)
 	end
 end
 
+function slot0.InitSpecialTouch(slot0)
+	if not findTF(slot0.spTF:GetChild(0), "hitArea") then
+		return
+	end
+
+	eachChild(slot1, function (slot0)
+		onButton(uv0, slot0, function ()
+			uv0:TriggerEvent(uv0:GetSpecialTouchEvent(uv1.name))
+			uv0:TriggerPersonalTask(uv0.ship.groupId)
+		end)
+	end)
+end
+
 function slot0.OnClick(slot0)
 	slot1 = slot0:CollectTouchEvents()
 
 	slot0:TriggerEvent(slot1[math.ceil(math.random(#slot1))])
+end
+
+function slot0.OnDisplayWorld(slot0, slot1)
+	if ShipExpressionHelper.GetExpression(slot0.paintingName, slot1, slot0.ship:getCVIntimacy(), slot0.ship.skinId) ~= "" then
+		slot0.spinePainting:SetAction(slot3, 1)
+	end
+end
+
+function slot0.OnDisplayWordEnd(slot0)
+	slot0.spinePainting:SetEmptyAction(1)
 end
 
 function slot0.OnLongPress(slot0)
@@ -88,6 +112,7 @@ end
 function slot0.OnResume(slot0)
 	if slot0.spinePainting then
 		slot0.spinePainting:SetVisible(true)
+		slot0.spinePainting:SetEmptyAction(1)
 	end
 end
 

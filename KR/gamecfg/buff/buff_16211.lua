@@ -19,7 +19,13 @@ return {
 				},
 				arg_list = {
 					skill_id = 16211,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					deathCause = {
+						1,
+						3,
+						4,
+						5
+					}
 				}
 			}
 		}
@@ -44,7 +50,13 @@ return {
 				},
 				arg_list = {
 					skill_id = 16211,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					deathCause = {
+						1,
+						3,
+						4,
+						5
+					}
 				}
 			}
 		}
@@ -69,7 +81,13 @@ return {
 				},
 				arg_list = {
 					skill_id = 16211,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					deathCause = {
+						1,
+						3,
+						4,
+						5
+					}
 				}
 			}
 		}
@@ -94,7 +112,13 @@ return {
 				},
 				arg_list = {
 					skill_id = 16211,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					deathCause = {
+						1,
+						3,
+						4,
+						5
+					}
 				}
 			}
 		}
@@ -119,7 +143,13 @@ return {
 				},
 				arg_list = {
 					skill_id = 16211,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					deathCause = {
+						1,
+						3,
+						4,
+						5
+					}
 				}
 			}
 		}
@@ -144,7 +174,13 @@ return {
 				},
 				arg_list = {
 					skill_id = 16211,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					deathCause = {
+						1,
+						3,
+						4,
+						5
+					}
 				}
 			}
 		}
@@ -169,7 +205,13 @@ return {
 				},
 				arg_list = {
 					skill_id = 16211,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					deathCause = {
+						1,
+						3,
+						4,
+						5
+					}
 				}
 			}
 		}
@@ -194,7 +236,13 @@ return {
 				},
 				arg_list = {
 					skill_id = 16211,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					deathCause = {
+						1,
+						3,
+						4,
+						5
+					}
 				}
 			}
 		}
@@ -219,7 +267,13 @@ return {
 				},
 				arg_list = {
 					skill_id = 16211,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					deathCause = {
+						1,
+						3,
+						4,
+						5
+					}
 				}
 			}
 		}
@@ -244,7 +298,13 @@ return {
 				},
 				arg_list = {
 					skill_id = 16211,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					deathCause = {
+						1,
+						3,
+						4,
+						5
+					}
 				}
 			}
 		}
@@ -277,7 +337,13 @@ return {
 			},
 			arg_list = {
 				skill_id = 16211,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				deathCause = {
+					1,
+					3,
+					4,
+					5
+				}
 			}
 		}
 	}

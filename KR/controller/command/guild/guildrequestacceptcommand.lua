@@ -22,7 +22,7 @@ function slot0.execute(slot0, slot1)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_player_in_cd_time"))
 		elseif slot0.result == 1 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_player_already_join"))
-			uv0:sendNotification(GAME.GUIDL_REQUEST_REJECT, uv1)
+			uv0:sendNotification(GAME.GUIDL_REQUEST_REJECT, uv1, true)
 		elseif slot0.result == 4305 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_tip_grand_fleet_is_frozen"))
 		else
