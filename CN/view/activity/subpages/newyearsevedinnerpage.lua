@@ -38,7 +38,13 @@ function slot0.OnFirstFlush(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.cookBtn, function ()
-		if uv0.isEffectPlaying or uv0.isMoving then
+		if uv0.isMoving then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("tip_nianye"))
+
+			return
+		end
+
+		if uv0.isEffectPlaying then
 			return
 		end
 
@@ -63,6 +69,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0.usedCnt = slot0.cookAct:getData1()
 
 	slot0:RefreshCookData()
+	setActive(slot0:findTF("shine", slot0.cookBtn), false)
 end
 
 function slot0.OnUpdateFlush(slot0)
@@ -145,7 +152,6 @@ function slot0.UpdateCookUI(slot0)
 	setActive(slot0:findTF("got", slot0.cookAwardTF), slot5)
 	setActive(slot0:findTF("icon_bg/count", slot0.cookAwardTF), slot5)
 	setText(slot0:findTF("Text", slot0.dialogTF), i18n(slot0.cookCfg[slot0.curTaskId][3]))
-	setActive(slot0:findTF("shine", slot0.cookBtn), not slot5 and slot0.remainCnt > 0)
 	GetImageSpriteFromAtlasAsync("ui/activityuipage/NewYearsEveDinnerPage_atlas", slot0.cookCfg[slot0.curTaskId][2], slot0.foodTF, true)
 	GetImageSpriteFromAtlasAsync("ui/activityuipage/NewYearsEveDinnerPage_atlas", slot5 and slot0.cookCfg[slot0.curTaskId][2] .. "_2" or "unknown", slot0.titleFoodTF, true)
 
@@ -166,6 +172,8 @@ function slot0.UpdateCookUI(slot0)
 end
 
 function slot0.ClearRole(slot0)
+	slot0.isMoving = false
+
 	if LeanTween.isTweening(slot0.roleTF) then
 		LeanTween.cancel(slot0.roleTF)
 	end
@@ -178,12 +186,14 @@ function slot0.PlayRoleAnim(slot0)
 
 	setActive(slot0.foodTF, false)
 	setActive(slot0.dialogTF, false)
+	setActive(slot0:findTF("shine", slot0.cookBtn), false)
 
 	if slot0.taskProxy:getTaskVO(slot0.curTaskId):getTaskStatus() == 2 then
 		setAnchoredPosition(slot0.roleTF, uv0)
 		slot3:SetAction("normal", 0)
 		setActive(slot0.foodTF, true)
 		setActive(slot0.dialogTF, true)
+		setActive(slot0:findTF("shine", slot0.cookBtn), not slot2 and slot0.remainCnt > 0)
 	else
 		slot3:SetAction("move", 0)
 
@@ -197,6 +207,7 @@ function slot0.PlayRoleAnim(slot0)
 
 			setActive(uv1.foodTF, uv2)
 			setActive(uv1.dialogTF, uv2)
+			setActive(uv1:findTF("shine", uv1.cookBtn), not uv2 and uv1.remainCnt > 0)
 		end, slot0.roleTF, uv0.x, uv2):setEase(LeanTweenType.linear)
 	end
 end

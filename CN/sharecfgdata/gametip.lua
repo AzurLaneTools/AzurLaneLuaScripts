@@ -22568,3 +22568,7 @@ _G.pg.base.gametip.sevenday_nianye = {
 		}
 	}
 }
+
+_G.pg.base.gametip.tip_nianye = {
+	tip = "厨师还未就位,稍等一下~"
+}
