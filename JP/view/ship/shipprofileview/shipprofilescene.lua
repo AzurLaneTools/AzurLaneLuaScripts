@@ -616,6 +616,10 @@ function slot0.UpdatePaintingFace(slot0, slot1)
 	if slot0.paintingFitter.childCount > 0 then
 		ShipExpressionHelper.SetExpression(slot0.paintingFitter:GetChild(0), slot0.paintingName, slot4, slot2.maxfavor, slot1.skin.id)
 	end
+
+	if slot0.spinePainting and ShipExpressionHelper.GetExpression(slot0.paintingName, slot4, slot2.maxfavor, slot1.skin.id) ~= "" then
+		slot0.spinePainting:SetAction(slot5, 1)
+	end
 end
 
 function slot0.PlayVoice(slot0, slot1, slot2)
@@ -704,6 +708,10 @@ function slot0.ShowDailogue(slot0, slot1, slot2, slot3)
 				uv0.dailogueCallback()
 
 				uv0.dailogueCallback = nil
+			end
+
+			if uv0.spinePainting then
+				uv0.spinePainting:SetEmptyAction(1)
 			end
 		end))
 	end))

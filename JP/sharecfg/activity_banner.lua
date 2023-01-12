@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4626",
+		param = "4639",
 		id = 1,
 		pic = "temp1",
 		type = 3,
@@ -10,7 +10,7 @@ pg.activity_banner = {
 				{
 					2023,
 					1,
-					5
+					12
 				},
 				{
 					0,
@@ -21,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					1,
-					12
+					2,
+					2
 				},
 				{
 					23,
@@ -33,97 +33,118 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4637",
 		id = 2,
-		pic = "temp3",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					1,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 3,
-		pic = "temp4",
-		type = 2,
-		param = {
-			"scene skinshop"
-		},
-		time = {
-			{
-				{
-					2023,
-					1,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 4,
-		pic = "temp5",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene skinshop"
-		}
-	},
-	{
-		param = "4622",
-		id = 5,
-		pic = "temp6",
+		pic = "temp2",
 		type = 3,
 		time = {
 			{
 				{
 					2023,
 					1,
-					5
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4636",
+		id = 3,
+		pic = "temp3",
+		type = 3,
+		time = {
+			{
+				{
+					2023,
+					1,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4635",
+		id = 4,
+		pic = "temp4",
+		type = 3,
+		time = {
+			{
+				{
+					2023,
+					1,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 5,
+		pic = "temp5",
+		type = 2,
+		param = {
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					1,
+					12
 				},
 				{
 					0,
@@ -135,7 +156,7 @@ pg.activity_banner = {
 				{
 					2023,
 					1,
-					12
+					18
 				},
 				{
 					23,
@@ -150,7 +171,7 @@ pg.activity_banner = {
 		time = "stop",
 		type = 3,
 		id = 6,
-		pic = "temp2"
+		pic = "temp6"
 	},
 	{
 		id = 7,
@@ -225,35 +246,10 @@ pg.activity_banner = {
 	},
 	[90] = {
 		param = "",
-		id = 90,
-		pic = "temp99",
+		time = "stop",
 		type = 9,
-		time = {
-			{
-				{
-					2023,
-					1,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 90,
+		pic = "temp99"
 	},
 	[91] = {
 		param = "",
@@ -296,35 +292,10 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		id = 99,
-		pic = "limit_skin",
+		time = "stop",
 		type = 12,
-		time = {
-			{
-				{
-					2023,
-					1,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 99,
+		pic = "limit_skin"
 	},
 	[100] = {
 		param = "キャンディケイン|美味しくて面白い形をしたクリスマスキャンディ<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
@@ -375,13 +346,13 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[3] = {
 			1,
-			5,
-			6
-		},
-		[2] = {
 			2,
 			3,
 			4,
+			6
+		},
+		[2] = {
+			5,
 			7,
 			8
 		},

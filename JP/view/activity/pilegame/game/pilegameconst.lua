@@ -1,7 +1,7 @@
 slot0 = class("PileGameConst")
 slot0.INDEX_WIDTH = 150
-slot0.SAFE_INDEX_WIDTH = 40
-slot0.DEATH_INDEX_WIDTH = 86
+slot0.SAFE_INDEX_WIDTH = 45
+slot0.DEATH_INDEX_WIDTH = 87
 slot0.ITEM_PIVOT = Vector2(0.5, 0)
 slot0.GROUND_SIZE = Vector2(1300, 20)
 slot0.GROUND_PIVOT = Vector2(0.5, 1)
@@ -31,9 +31,9 @@ slot0.Prefabs = {
 		speActionCount = 1,
 		name = "abercrombie_N",
 		boundary = {
-			3.7,
+			7.7,
 			0,
-			92.6,
+			105,
 			129.6
 		},
 		size = {
@@ -45,9 +45,9 @@ slot0.Prefabs = {
 		speActionCount = 0,
 		name = "abercrombie_R",
 		boundary = {
-			2.7,
+			2.77,
 			3.6,
-			86.4,
+			100,
 			131.5
 		},
 		size = {
@@ -61,7 +61,7 @@ slot0.Prefabs = {
 		boundary = {
 			2.7,
 			3.6,
-			86.4,
+			100,
 			131.5
 		},
 		size = {
@@ -75,7 +75,7 @@ slot0.Prefabs = {
 		boundary = {
 			2.7,
 			3.6,
-			86.4,
+			100,
 			131.5
 		},
 		size = {
@@ -89,7 +89,7 @@ slot0.Prefabs = {
 		boundary = {
 			2.7,
 			3.6,
-			86.4,
+			100,
 			131.5
 		},
 		size = {
@@ -103,7 +103,7 @@ slot0.Prefabs = {
 		boundary = {
 			2.7,
 			3.6,
-			86.4,
+			100,
 			131.5
 		},
 		size = {
@@ -115,9 +115,9 @@ slot0.Prefabs = {
 		speActionCount = 0,
 		name = "abercrombie_UR",
 		boundary = {
-			6.39,
+			2.66,
 			2.18,
-			92.47,
+			100,
 			139.45
 		},
 		size = {
@@ -131,7 +131,7 @@ slot0.Prefabs = {
 		boundary = {
 			0,
 			-0.49,
-			100,
+			120,
 			85.37
 		},
 		size = {
@@ -145,7 +145,7 @@ slot0.Prefabs = {
 		boundary = {
 			0,
 			0,
-			98.9,
+			120,
 			91.6
 		},
 		size = {
@@ -159,7 +159,7 @@ slot0.Prefabs = {
 		boundary = {
 			0,
 			0,
-			100,
+			120,
 			80.06
 		},
 		size = {
@@ -173,7 +173,7 @@ slot0.Prefabs = {
 		boundary = {
 			0,
 			0,
-			100,
+			120,
 			97.54
 		},
 		size = {
@@ -187,7 +187,7 @@ slot0.Prefabs = {
 		boundary = {
 			0,
 			0,
-			100,
+			110,
 			96.02
 		},
 		size = {
@@ -201,7 +201,7 @@ slot0.Prefabs = {
 		boundary = {
 			2.49,
 			2.12,
-			64,
+			74,
 			112.22
 		},
 		size = {
@@ -215,7 +215,7 @@ slot0.Prefabs = {
 		boundary = {
 			1,
 			0.5,
-			96.01,
+			100,
 			101
 		},
 		size = {
@@ -229,7 +229,7 @@ slot0.Prefabs = {
 		boundary = {
 			2.99,
 			0,
-			105.98,
+			110,
 			88.04
 		},
 		size = {
@@ -243,7 +243,7 @@ slot0.Prefabs = {
 		boundary = {
 			0,
 			-0.5,
-			100,
+			110,
 			114.95
 		},
 		size = {
@@ -271,7 +271,7 @@ slot0.Prefabs = {
 		boundary = {
 			0,
 			2.6,
-			100,
+			120,
 			87.9
 		},
 		size = {
@@ -285,7 +285,7 @@ slot0.Prefabs = {
 		boundary = {
 			0,
 			-2.5,
-			100,
+			110,
 			89.8
 		},
 		size = {
@@ -297,9 +297,9 @@ slot0.Prefabs = {
 		speActionCount = 1,
 		name = "unicorn",
 		boundary = {
-			0,
+			4,
 			-2.5,
-			100,
+			110,
 			87.6
 		},
 		size = {

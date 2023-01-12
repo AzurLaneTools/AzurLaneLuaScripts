@@ -134,7 +134,10 @@ function slot0.UpdateBtnState(slot0, slot1, slot2)
 	end
 
 	setActive(slot0.stateTr, slot1)
-	uv0(slot0, slot2)
+
+	if not slot1 then
+		uv0(slot0, slot2)
+	end
 end
 
 function slot0.Show(slot0)
