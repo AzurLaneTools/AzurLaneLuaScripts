@@ -374,6 +374,10 @@ function slot10.GetIsCld(slot0)
 	return slot0._needCld
 end
 
+function slot10.IsIngoreCld(slot0)
+	return slot0._tempData.extra_param.ingoreCld
+end
+
 function slot10.IsFragile(slot0)
 	return slot0._tempData.extra_param.fragile
 end

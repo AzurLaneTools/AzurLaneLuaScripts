@@ -71,6 +71,16 @@ function slot0.OnClick(slot0)
 	slot0:TriggerEvent(slot1[math.ceil(math.random(#slot1))])
 end
 
+function slot0.OnDisplayWorld(slot0, slot1)
+	if ShipExpressionHelper.GetExpression(slot0.paintingName, slot1, slot0.ship:getCVIntimacy(), slot0.ship.skinId) ~= "" then
+		slot0.spinePainting:SetAction(slot3, 1)
+	end
+end
+
+function slot0.OnDisplayWordEnd(slot0)
+	slot0.spinePainting:SetEmptyAction(1)
+end
+
 function slot0.OnLongPress(slot0)
 	if slot0.isFoldState then
 		return
@@ -102,6 +112,7 @@ end
 function slot0.OnResume(slot0)
 	if slot0.spinePainting then
 		slot0.spinePainting:SetVisible(true)
+		slot0.spinePainting:SetEmptyAction(1)
 	end
 end
 

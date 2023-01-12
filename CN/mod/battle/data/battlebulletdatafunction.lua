@@ -21,6 +21,14 @@ function slot4.CreateBattleBulletData(slot0, slot1, slot2, slot3, slot4)
 		slot7:SetStandHostAttr(slot3:GetStandHost():GetAttr())
 	end
 
+	if slot7:IsIngoreCld() ~= nil then
+		slot9 = not slot9
+
+		slot7:SetIsCld(slot9)
+
+		slot8 = slot9
+	end
+
 	return slot7, slot8
 end
 

@@ -208,6 +208,10 @@ function slot0.readyToAchieve(slot0)
 				end)
 			end
 
+			if not slot2 and slot0:getConfig("config_client") and slot0:getConfig("config_client").linkTaskPoolAct then
+				slot2 = getProxy(ActivityProxy):getActivityById(slot0:getConfig("config_client").linkTaskPoolAct) and slot7:readyToAchieve()
+			end
+
 			return slot2
 		end
 
@@ -286,7 +290,11 @@ function slot0.readyToAchieve(slot0)
 				end)
 			end
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_MINIGAME then
-			slot2 = getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")).count > 0 or slot4:getConfig("reward_need") <= slot4.usedtime and slot4.ultimate == 0
+			slot2 = getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")).count > 0
+
+			if slot0:getConfig("id") ~= 4637 then
+				slot2 = slot2 or slot4:getConfig("reward_need") <= slot4.usedtime and slot4.ultimate == 0
+			end
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_TURNTABLE then
 			slot4 = pg.activity_event_turning[slot0:getConfig("config_id")]
 
