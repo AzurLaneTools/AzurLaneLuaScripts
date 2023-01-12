@@ -306,6 +306,12 @@ function slot0.onGo(slot0, slot1)
 		return
 	end
 
+	if isa(slot1, AvatarFrameTask) and slot1:IsActEnd() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+		return
+	end
+
 	slot0:emit(TaskMediator.ON_TASK_GO, slot1)
 end
 

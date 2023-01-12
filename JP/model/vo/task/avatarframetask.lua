@@ -24,6 +24,10 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.submitTime = slot3.submit_time or 0
 end
 
+function slot0.IsActEnd(slot0)
+	return not getProxy(ActivityProxy):getActivityById(pg.activity_event_avatarframe[slot0.configId].link_event) or slot2:isEnd()
+end
+
 function slot0.updateProgress(slot0, slot1)
 	slot0.progress = slot1 or 0
 end
