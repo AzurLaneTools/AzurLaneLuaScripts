@@ -51,6 +51,25 @@ pg.activity_task_permanent = {
 			35026
 		}
 	},
+	[6002] = {
+		gametip = "可獲得吸血鬼限定換裝「白衣小惡魔」",
+		banner_route = "permanent_xixuegui",
+		gametip_extra = "最快7日獲得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6002,
+		activity_name = "白衣天使or惡魔？",
+		over_task_id = "",
+		eliminate_task_id = {
+			35027,
+			35028,
+			35029,
+			35030,
+			35031,
+			35032,
+			35033
+		}
+	},
 	[6008] = {
 		gametip = "可獲得大潮限定換裝「馴鹿與聖誕禮物」",
 		banner_route = "permanent_dachaoshengdan",
@@ -130,6 +149,7 @@ pg.activity_task_permanent = {
 	all = {
 		6000,
 		6001,
+		6002,
 		6008,
 		6009,
 		6011

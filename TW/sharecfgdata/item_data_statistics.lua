@@ -8501,6 +8501,27 @@ _G.pg.base.item_data_statistics[21008] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21009] = {
+	display = "沙恩霍斯特·META的專用性能提升裝置，可在「META研究室」-「能量激活」中使用。",
+	name = "結晶：沙恩霍斯特·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21009,
+	is_world = 0,
+	icon = "Props/21009",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21010] = {
 	display = "{namecode:223}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。 ",
 	name = "結晶：{namecode:223}",
@@ -8747,6 +8768,27 @@ _G.pg.base.item_data_statistics[21905] = {
 	id = 21905,
 	is_world = 0,
 	icon = "Props/21905",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21906] = {
+	display = "於「信標·META」戰鬥中收集的數據，可以提升沙恩霍斯特·META同步率。",
+	name = "同步值：沙恩霍斯特·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21906,
+	is_world = 0,
+	icon = "Props/21906",
 	display_icon = {},
 	price = {},
 	index = {},

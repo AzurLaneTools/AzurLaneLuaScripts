@@ -381,7 +381,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704021] = {
-		breakout_view = "习得技能【破敌之炬·沙恩霍斯特】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "習得技能【破敵之炬·沙恩霍斯特】/主炮底座+1/主炮效率提高5%",
 		gold = 1000,
 		breakout_id = 9704022,
 		repair = 0,
@@ -398,7 +398,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9704022] = {
-		breakout_view = "装备特殊副炮/主炮效率提高10%",
+		breakout_view = "裝備特殊副炮/主炮效率提高10%",
 		gold = 3000,
 		breakout_id = 9704023,
 		repair = 0,
@@ -414,7 +414,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9704023] = {
-		breakout_view = "【破敌之炬·沙恩霍斯特】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【破敵之炬·沙恩霍斯特】升級/主炮底座+1/主炮效率提高15%",
 		gold = 10000,
 		breakout_id = 9704024,
 		repair = 0,
@@ -432,7 +432,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9704024] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,

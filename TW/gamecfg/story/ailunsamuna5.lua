@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"3星豪华恋物语\n\n<size=45>五夕阳下的晚餐</size>",
+					"三星豪華戀物語\n\n<size=45>五 夕陽下的晚餐</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 101450,
 			nameColor = "#a9f548",
-			say = "好棒……！这道菜真好吃啊！",
+			say = "好棒……！這道菜真好吃啊！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -68,7 +68,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔唔……呼……不好意思，不应该边吃边聊的！",
+			say = "唔唔……呼……不好意思，不應該邊吃邊聊的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过真的很美味啊！谢谢指挥官带我来了这么棒的一家店！",
+			say = "不過真的很美味啊！謝謝指揮官帶我來了這麼棒的一家店！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "在逛了几家艾伦想去的店之后，决定带她到了一家常去的饭店吃饭。",
+			say = "在逛了幾家艾倫想去的店之後，決定帶她到了一家常去的飯店吃飯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "天色在不知不觉间暗了下来，落日的余晖映入餐厅，金色的光芒点亮了室内。",
+			say = "天色在不知不覺間暗了下來，落日的餘暉映入餐廳，金色的光芒點亮了室內。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，在下一道菜上来之前先再检查一下今天的采购清单吧。",
+			say = "那麼，在下一道菜上來之前先再檢查一下今天的採購清單吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯嗯…这个OK……然后这个断货了，要找{namecode:98}再去进一次货才行……",
+			say = "嗯嗯…這個OK……然後這個斷貨了，要找明石再去進一次貨才行……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "风卷残云般吃完了前菜的艾伦拿出采购清单，一条条认真确认起来。",
+			say = "風捲殘雲般吃完了前菜的艾倫拿出採購清單，一條條認真確認起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官？其实我有一个事情想问……",
+			say = "指揮官？其實我有一個事情想問……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个，指挥官为什么要对我这么好呢？你看我在工作的时候经常走神，还给你添了不少麻烦…",
+			say = "那個，指揮官為什麼要對我這麼好呢？你看我在工作的時候經常走神，還給你添了不少麻煩…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听到有奖励之后还特意挑了件那么贵的，最后也没做出什么能够报答指挥官的事。",
+			say = "聽到有獎勵之後還特意挑了件那麼貴的，最後也沒做出什麼能夠報答指揮官的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "或许是因为害羞，艾伦用采购清单挡住了自己的脸。",
+			say = "或許是因為害羞，艾倫用採購清單擋住了自己的臉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么说呢…作为秘书舰来说努力工作是理所应当的吧？既然是理所当然的事，我又有什么资格拿奖励呢……",
+			say = "怎麼說呢…作為秘書艦來說努力工作是理所應當的吧？既然是理所當然的事，我又有什麼資格拿獎勵呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			},
 			options = {
 				{
-					content = "不是这样的。",
+					content = "不是這樣的。",
 					flag = 1
 				}
 			}
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "虽然我们的职务不同，但是我们彼此之间是重要的伙伴吧。",
+			say = "雖然我們的職務不同，但是我們彼此之間是重要的伙伴吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "既然是一起努力的伙伴，给予一些自己的感谢又有什么“资格”不“资格”的说法呢？",
+			say = "既然是一起努力的伙伴，給予一些自己的感謝又有什麼“資格”不“資格”的說法呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "仔细想想，“奖励”这个词用的确实不太好呢……",
+			say = "仔細想想，“獎勵”這個詞用的確實不太好呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对，对哦……我也是指挥官重要的伙伴呢……呼……",
+			say = "對，對哦……我也是指揮官重要的伙伴呢……呼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯！我明白了！既然指挥官这么说的话，我也要用尽全力才行！",
+			say = "嗯！我明白了！既然指揮官這麼說的話，我也要用盡全力才行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "为了我的“奖励”能够顺利入手呢~嘿嘿♪",
+			say = "為了我的“獎勵”能夠順利入手呢~嘿嘿♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

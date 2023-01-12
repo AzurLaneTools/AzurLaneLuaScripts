@@ -5837,6 +5837,121 @@ pg.ship_skin_template_19 = {
 			}
 		}
 	},
+	[9704020] = {
+		ship_group = 970402,
+		name = "沙恩霍斯特·META",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 9704020,
+		group_index = 0,
+		prefab = "shaenhuosite_alter",
+		painting = "shaenhuosite_alter",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "沙恩霍斯特級戰列巡洋艦<color=#92fc63>(若已獲得相應的META角色，獎勵將會轉化為對應的角色結晶，可在「META研究室」-「能量啟動」中使用)</color>",
+		voice_actor = 38,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.57,
+					0.95,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.31,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.33,
+					1.58,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[9705010] = {
 		ship_group = 970501,
 		name = "扶桑·META",
@@ -8805,121 +8920,6 @@ pg.ship_skin_template_19 = {
 						{
 							-0.47,
 							2.531,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10700030] = {
-		ship_group = 1070003,
-		name = "水瀨伊織",
-		bullet_skin_secondary = "",
-		hand_id = 0,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 10700030,
-		group_index = 0,
-		prefab = "yizhi",
-		painting = "yizhi",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "你好~！我叫水瀨伊織！很高興見到你~！ …欸？不用勉強自己…？等下，你這是什麼意思啦！",
-		voice_actor = 89,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.677,
-					1.007,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					-0.032,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.665,
-					1.001,
-					0
-				}
-			},
-			plane = {
-				{
-					1.682,
-					0.999,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.34,
-							2.662,
 							0
 						}
 					}

@@ -4426,7 +4426,18 @@ function temp()
 			["霍"] = {
 				["斯"] = {
 					["特"] = {
-						this = true
+						this = true,
+						["·"] = {
+							M = {
+								E = {
+									T = {
+										A = {
+											this = true
+										}
+									}
+								}
+							}
+						}
 					}
 				}
 			}

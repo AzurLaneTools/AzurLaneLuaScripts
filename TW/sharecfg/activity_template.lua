@@ -1791,6 +1791,64 @@ pg.activity_template = {
 			}
 		}
 	},
+	[6002] = {
+		mark = 20210708,
+		title_res_tag = "xixuegui_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		id = 6002,
+		config_data = {
+			{
+				35027
+			},
+			{
+				35028
+			},
+			{
+				35029
+			},
+			{
+				35030
+			},
+			{
+				35031
+			},
+			{
+				35032
+			},
+			{
+				35033
+			}
+		},
+		page_info = {
+			class_name = "XixueguiSkinPagere",
+			ui_name = "XixueguiSkinPagere"
+		},
+		config_client = {
+			story = {
+				{
+					"XIXUEGUI1"
+				},
+				{
+					"XIXUEGUI2"
+				},
+				{
+					"XIXUEGUI3"
+				},
+				{},
+				{
+					"XIXUEGUI4"
+				},
+				{},
+				{
+					"XIXUEGUI5"
+				}
+			}
+		}
+	},
 	[6008] = {
 		mark = 20211223,
 		title_res_tag = "dachaosd_permanent",
@@ -21845,40 +21903,14 @@ pg.activity_template = {
 	},
 	[40973] = {
 		mark = 20221215,
-		id = 40973,
 		title_res_tag = "Georgia_catchup",
+		time = "stop",
 		type = 69,
 		login_pop = 0,
 		config_id = 12,
 		is_show = 20,
+		id = 40973,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "KitakazeTecCatchupPage",
 			ui_name = "KitakazeTecCatchupPage"
@@ -21902,41 +21934,15 @@ pg.activity_template = {
 	},
 	[40975] = {
 		mark = 20221215,
-		config_client = "",
 		title_res_tag = "dexiV3_frame",
+		time = "stop",
 		type = 87,
 		login_pop = 0,
 		config_id = 40975,
 		is_show = 24,
+		config_client = "",
 		id = 40975,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "DeXiQianShaoRePtPage",
 			ui_name = "DeXiQianShaoPtPage"
@@ -23052,6 +23058,159 @@ pg.activity_template = {
 		page_info = {
 			class_name = "U410VictoryPtPage",
 			ui_name = "U410VictoryPtPage"
+		}
+	},
+	[41011] = {
+		mark = 20230112,
+		config_client = "",
+		title_res_tag = "ruoyeshengdan",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 29,
+		id = 41011,
+		config_data = {
+			{
+				80366,
+				80367
+			},
+			{
+				80368,
+				80369
+			},
+			{
+				80370,
+				80371
+			},
+			{
+				80372,
+				80373
+			},
+			{
+				80374,
+				80375
+			},
+			{
+				80376,
+				80377
+			},
+			{
+				80378,
+				80379
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					1,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MutsukiNewYearSkinPage",
+			ui_name = "MutsukiNewYearSkinPage"
+		}
+	},
+	[41012] = {
+		mark = 20230112,
+		title_res_tag = "",
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 41012,
+		is_show = 0,
+		config_client = "",
+		id = 41012,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					1,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41013] = {
+		mark = 20230112,
+		title_res_tag = "",
+		page_info = "",
+		type = 34,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 41013,
+		config_data = {
+			6
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					1,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 970402
 		}
 	},
 	[45000] = {
@@ -24969,6 +25128,7 @@ pg.activity_template = {
 		2057,
 		6000,
 		6001,
+		6002,
 		6008,
 		6009,
 		6011,
@@ -25654,6 +25814,9 @@ pg.activity_template = {
 		41008,
 		41009,
 		41010,
+		41011,
+		41012,
+		41013,
 		45000,
 		45001,
 		45002,

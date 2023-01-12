@@ -73,7 +73,7 @@ function slot0.ShowExitMsg(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.exitPanelConfirmBtn, function ()
 		uv0()
-		uv1.controller:ExitGame()
+		uv1.controller:OnEndGame(false)
 	end, SFX_PANEL)
 end
 

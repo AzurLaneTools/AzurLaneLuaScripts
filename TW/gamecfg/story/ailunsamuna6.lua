@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"3星豪华恋物语\n\n<size=45>六 奖励与回报</size>",
+					"三星豪華戀物語\n\n<size=45>六 獎勵與回報</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "自从那天一起出门采购以来，正如艾伦“用尽全力”的说辞一样，她在工作时的态度也有了惊人的变化。",
+			say = "自從那天一起出門採購以來，正如艾倫“用盡全力“的說辭一樣，她在工作時的態度也有了驚人的變化。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "整理资料？刚才不是都完成了嘛。难道说指挥官忘记了？",
+			say = "整理資料？剛才不是都完成了嘛。難道說指揮官忘記了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶嘿嘿，不是全都放在这里了嘛♪",
+			say = "欸嘿嘿，不是全都放在這裡了嘛♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的，不能因为光注意着我而把自己的工作都忘掉了哟~",
+			say = "真是的，不能因為光注意著我而把自己的工作都忘掉了喲~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "感觉现在比起我提醒她，倒不如说是她提醒我要更多一些……",
+			say = "感覺現在比起我提醒她，倒不如說是她提醒我要更多一些……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说起来，今天就是“奖励”到货的日子吧。",
+			say = "說起來，今天就是“獎勵”到貨的日子吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好期待呀～又要有新的贴纸了！",
+			say = "好期待呀～又要有新的貼紙了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…………我记得她想要的是“3星精品按摩椅”吧？",
+			say = "…………我記得她想要的是“3星精品按摩椅”吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个家具正在搞活动，买入就送一套贴纸哦！",
+			say = "這個傢俱正在辦活動，買入就送一套貼紙哦！",
 			effects = {
 				{
 					active = true,
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我一直想要这个！但是太贵了，所以一直都没买～谢谢指挥官！",
+			say = "我一直想要這個！但是太貴了，所以一直都沒買～謝謝指揮官！",
 			effects = {
 				{
 					active = true,
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯，果然她更想要的还是贴纸……",
+			say = "嗯，果然她更想要的還是貼紙……",
 			effects = {
 				{
 					active = false,
@@ -232,7 +232,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢惠顾喵～东西我让蛮啾送到办公室去了，记得坐坐看喵。",
+			say = "謝謝惠顧喵～東西我讓蠻啾送到辦公室去了，記得坐坐看喵。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -266,7 +266,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "多谢指挥官和{namecode:98}啦~！！",
+			say = "多謝指揮官和明石啦~！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了售后服务顺便问一个问题喵。这个椅子主要是谁来坐喵？",
+			say = "為了售後服務順便問一個問題喵。這個椅子主要是誰來坐喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "既然是作为艾伦努力后的奖励，那当然是——",
+			say = "既然是作為艾倫努力後的獎勵，那當然是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "肯定是为了一直都在努力工作的指挥官呀！",
+			say = "肯定是為了一直都在努力工作的指揮官呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对吧？指挥官？",
+			say = "對吧？指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此喵！那就是给指挥官的犒劳慰问了喵！{namecode:98}很感动喵！",
+			say = "原來如此喵！那就是給指揮官的犒勞慰問了喵！明石很感動喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…虽然掏钱的是指挥官，但是{namecode:98}决定还是不要想太多了喵。",
+			say = "…雖然掏錢的是指揮官，但是明石決定還是不要想太多了喵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错没错，不用想那么多啦！",
+			say = "沒錯沒錯，不用想那麼多啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "star_level_bg_113",
 			dir = 1,
 			blackBg = true,
-			say = "总有一种完美进入了艾伦设下的陷阱（？）的感觉……",
+			say = "總有一種完美進入了艾倫設下的陷阱（？）的感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

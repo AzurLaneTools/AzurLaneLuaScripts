@@ -23532,6 +23532,304 @@ _G.pg.base.task_data_template[5597] = {
 	}
 }
 
+_G.pg.base.task_data_template[5601] = {
+	name = "凝視的力量",
+	guild_coin_award = 0,
+	award = 5436,
+	type = 5,
+	desc = "提交3個《魚雷天婦羅》",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "ailunsamuna",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "50003",
+	next_task = "5602",
+	auto_commit = 0,
+	story_id = "AILUNSAMUNA1",
+	id = 5601,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5602] = {
+	name = "買櫝還珠？",
+	guild_coin_award = 0,
+	award = 5437,
+	type = 5,
+	desc = "強化任意角色10次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "ailunsamuna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AILUNSAMUNA2",
+	target_id = "0",
+	next_task = "5603",
+	auto_commit = 0,
+	scene = "",
+	id = 5602,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5603] = {
+	name = "關於興趣",
+	guild_coin_award = 0,
+	award = 5438,
+	type = 5,
+	desc = "艾倫·M·桑拿上陣出擊(關卡)勝利20次",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "ailunsamuna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AILUNSAMUNA3",
+	target_id = "10145",
+	next_task = "5604",
+	auto_commit = 0,
+	scene = "",
+	id = 5603,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5604] = {
+	name = "櫥窗反射的約會",
+	guild_coin_award = 0,
+	award = 5439,
+	type = 5,
+	desc = "艾倫·M·桑拿上陣完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "ailunsamuna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AILUNSAMUNA4",
+	target_id = "10145",
+	next_task = "5605",
+	auto_commit = 0,
+	scene = "",
+	id = 5604,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5605] = {
+	name = "夕陽下的晚餐",
+	guild_coin_award = 0,
+	award = 5440,
+	type = 5,
+	desc = "艾倫·M·桑拿好感度達到100",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "ailunsamuna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AILUNSAMUNA5",
+	target_id = "10145",
+	next_task = "5606",
+	auto_commit = 0,
+	scene = "",
+	id = 5605,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5606] = {
+	name = "獎勵與回報",
+	guild_coin_award = 0,
+	award = 5441,
+	type = 5,
+	desc = "艾倫·M·桑拿突破至滿星",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "ailunsamuna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AILUNSAMUNA6",
+	target_id = "101454",
+	next_task = "5607",
+	auto_commit = 0,
+	scene = "",
+	id = 5606,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5607] = {
+	name = "真正想要的禮物",
+	guild_coin_award = 0,
+	award = 5442,
+	type = 5,
+	desc = "艾倫·M·桑拿等級達到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "ailunsamuna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AILUNSAMUNA7",
+	target_id = "10145",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5607,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18003,
+			1
+		}
+	}
+}
+
 _G.pg.base.task_data_template[5611] = {
 	name = "暴風雨後的第二天",
 	guild_coin_award = 0,
@@ -132052,6 +132350,286 @@ _G.pg.base.task_data_template[35026] = {
 	}
 }
 
+_G.pg.base.task_data_template[35027] = {
+	name = "【常驻活动】吸血鬼登录1",
+	guild_coin_award = 0,
+	award = 65019,
+	type = 26,
+	desc = "擊敗任意旗艦3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35027,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35028] = {
+	name = "【常驻活动】吸血鬼登录2",
+	guild_coin_award = 0,
+	award = 65020,
+	type = 26,
+	desc = "擊敗任意旗艦3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35028,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17013,
+			3
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35029] = {
+	name = "【常驻活动】吸血鬼登录3",
+	guild_coin_award = 0,
+	award = 65021,
+	type = 26,
+	desc = "擊敗任意旗艦3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35029,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17033,
+			3
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35030] = {
+	name = "【常驻活动】吸血鬼登录4",
+	guild_coin_award = 0,
+	award = 65022,
+	type = 26,
+	desc = "擊敗任意旗艦3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35030,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17023,
+			3
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35031] = {
+	name = "【常驻活动】吸血鬼登录5",
+	guild_coin_award = 0,
+	award = 65023,
+	type = 26,
+	desc = "擊敗任意旗艦3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35031,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17043,
+			3
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35032] = {
+	name = "【常驻活动】吸血鬼登录6",
+	guild_coin_award = 0,
+	award = 65024,
+	type = 26,
+	desc = "擊敗任意旗艦3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35032,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			3
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[35033] = {
+	name = "【常驻活动】吸血鬼登录7",
+	guild_coin_award = 0,
+	award = 65025,
+	type = 26,
+	desc = "擊敗任意旗艦3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 35033,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			7,
+			201232,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
 _G.pg.base.task_data_template[35034] = {
 	name = "【常驻活动】小天鹅皮肤任务1",
 	guild_coin_award = 0,
@@ -186235,5 +186813,541 @@ _G.pg.base.task_data_template[80365] = {
 			80033,
 			1
 		}
+	}
+}
+
+_G.pg.base.task_data_template[80366] = {
+	name = "睦月春节皮肤1",
+	guild_coin_award = 0,
+	award = 92410,
+	type = 26,
+	desc = "擊敗旗艦3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 80366,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54012,
+			5
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[80367] = {
+	name = "睦月春节皮肤1",
+	guild_coin_award = 0,
+	award = 92411,
+	type = 26,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80367,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80368] = {
+	name = "睦月春节皮肤2",
+	guild_coin_award = 0,
+	award = 92412,
+	type = 26,
+	desc = "進行2次戰術訓練",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80368,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54050,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80369] = {
+	name = "睦月春节皮肤2",
+	guild_coin_award = 0,
+	award = 92413,
+	type = 26,
+	desc = "退役艦船2次",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80369,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80370] = {
+	name = "睦月春节皮肤3",
+	guild_coin_award = 0,
+	award = 92414,
+	type = 26,
+	desc = "完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80370,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54022,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80371] = {
+	name = "睦月春节皮肤3",
+	guild_coin_award = 0,
+	award = 92415,
+	type = 26,
+	desc = "後宅補充食物5次",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80371,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80372] = {
+	name = "睦月春节皮肤4",
+	guild_coin_award = 0,
+	award = 92416,
+	type = 26,
+	desc = "擊沉任意敵人20艘",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80372,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50004,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80373] = {
+	name = "睦月春节皮肤4",
+	guild_coin_award = 0,
+	award = 92417,
+	type = 26,
+	desc = "打開任意科技箱1個",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80373,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80374] = {
+	name = "睦月春节皮肤5",
+	guild_coin_award = 0,
+	award = 92418,
+	type = 26,
+	desc = "建造艦船2次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80374,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54023,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80375] = {
+	name = "睦月春节皮肤5",
+	guild_coin_award = 0,
+	award = 92419,
+	type = 26,
+	desc = "參與演習2次 ",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80375,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80376] = {
+	name = "睦月春节皮肤6",
+	guild_coin_award = 0,
+	award = 92420,
+	type = 26,
+	desc = "進行2次委託",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80376,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54003,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80377] = {
+	name = "睦月春节皮肤6",
+	guild_coin_award = 0,
+	award = 92421,
+	type = 26,
+	desc = "強化艦船5次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80377,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80378] = {
+	name = "睦月春节皮肤7",
+	guild_coin_award = 0,
+	award = 92422,
+	type = 26,
+	desc = "強化裝備2次 ",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80378,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54024,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[80379] = {
+	name = "睦月春节皮肤7",
+	guild_coin_award = 0,
+	award = 92423,
+	type = 26,
+	desc = "艦隊出征，以S評價通關10次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 80379,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			7,
+			301323,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
 	}
 }

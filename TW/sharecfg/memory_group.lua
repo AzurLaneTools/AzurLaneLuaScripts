@@ -3028,6 +3028,22 @@ pg.memory_group = {
 			1587
 		}
 	},
+	[558] = {
+		icon = "title_chara_ailunsamuna",
+		subtype = 0,
+		type = 3,
+		id = 558,
+		title = "三星豪華戀物語",
+		memories = {
+			1591,
+			1592,
+			1593,
+			1594,
+			1595,
+			1596,
+			1597
+		}
+	},
 	[559] = {
 		icon = "title_chara_shiyu",
 		subtype = 0,
@@ -3379,6 +3395,7 @@ pg.memory_group = {
 		555,
 		556,
 		557,
+		558,
 		559,
 		560,
 		561,

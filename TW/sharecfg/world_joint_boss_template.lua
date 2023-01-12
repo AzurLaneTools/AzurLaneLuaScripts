@@ -150,12 +150,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "格奈森瑙·META",
 		painting = "genaisennao",
 		boss_level_id = 61,
 		id = 5,
 		meta_id = 970401,
+		item_id = 100000,
 		description = {
 			{
 				"焰光之鍊",
@@ -168,12 +169,40 @@ pg.world_joint_boss_template = {
 				"戰鬥中會不斷釋放出在水下航行的大型魚雷，在觸碰敵方主力時會造成大量傷害。"
 			}
 		},
+		p_offset = {
+			-58.2,
+			634.2
+		},
+		p_offset_other = {
+			480,
+			635
+		}
+	},
+	{
+		item_id = 100000,
+		name = "沙恩霍斯特·META",
+		painting = "shaenhuosite",
+		boss_level_id = 76,
+		id = 6,
+		meta_id = 970402,
+		description = {
+			{
+				"鋼火之杖",
+				2,
+				"戰鬥中將會釋放在場中不斷迴旋且產生連環爆炸的特殊攻擊彈幕。"
+			},
+			{
+				"潛航魚雷",
+				1,
+				"戰鬥中會不斷釋放出在水下航行的大型魚雷，在觸碰敵方主力時會造成大量傷害。"
+			}
+		},
 		state = {
 			{
 				{
-					2022,
-					10,
-					20
+					2023,
+					1,
+					12
 				},
 				{
 					0,
@@ -184,8 +213,8 @@ pg.world_joint_boss_template = {
 			{
 				{
 					2023,
-					1,
-					12
+					4,
+					6
 				},
 				{
 					23,
@@ -208,6 +237,7 @@ pg.world_joint_boss_template = {
 		2,
 		3,
 		4,
-		5
+		5,
+		6
 	}
 }

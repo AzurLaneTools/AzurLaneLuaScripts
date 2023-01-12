@@ -20751,6 +20751,41 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30009] = {
+		type = 4,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30009,
+		code = 30009,
+		group_type = 970402,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：META研究室-資訊同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9704021
+					}
+				},
+				0
+			}
+		}
+	},
 	[30010] = {
 		type = 5,
 		redirect_id = 101,
@@ -22405,6 +22440,9 @@ pg.ship_data_group = {
 		[970602] = {
 			30008
 		},
+		[970402] = {
+			30009
+		},
 		[970502] = {
 			30010
 		},
@@ -22932,6 +22970,7 @@ pg.ship_data_group = {
 		30006,
 		30007,
 		30008,
+		30009,
 		30010,
 		30011,
 		30013

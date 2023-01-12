@@ -231,6 +231,7 @@ function slot0.PlayCvAndAnimation(slot0, slot1, slot2, slot3)
 		end
 	}, function ()
 		uv0:TriggerNextEventAuto()
+		uv0:OnDisplayWordEnd()
 	end)
 end
 
@@ -446,6 +447,9 @@ function slot0.OnTriggerEventAuto(slot0)
 end
 
 function slot0.OnDisplayWorld(slot0)
+end
+
+function slot0.OnDisplayWordEnd(slot0)
 end
 
 function slot0.OnFold(slot0)

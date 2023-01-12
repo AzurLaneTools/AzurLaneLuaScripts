@@ -110,8 +110,8 @@ function slot0.DoTouchAction(slot0)
 	end
 end
 
-function slot0.DoAction(slot0, slot1)
-	function slot2()
+function slot0.DoAction(slot0, slot1, slot2)
+	function slot3()
 		uv0.inAction = false
 
 		uv0:SetAction("normal", 0)
@@ -138,7 +138,19 @@ end
 
 function slot0.SetAction(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot0.spineAnimList) do
-		slot7:SetAction("normal", 0)
+		slot7:SetAction(slot1, slot2)
+	end
+end
+
+function slot0.SetEmptyAction(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.spineAnimList) do
+		ReflectionHelp.RefCallMethod(typeof("Spine.AnimationState"), "SetEmptyAnimation", ReflectionHelp.RefGetField(typeof("SpineAnimUI"), "spineAnimationState", slot6), {
+			typeof("System.Int32"),
+			typeof("System.Single")
+		}, {
+			slot1,
+			0
+		})
 	end
 end
 

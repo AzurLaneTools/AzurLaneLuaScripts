@@ -1497,6 +1497,57 @@ pg.mini_game = {
 			1
 		}
 	},
+	{
+		view_name = "StackGameView",
+		name = "春节叠叠乐复刻",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 47,
+		hub_id = 39,
+		request_data = 1,
+		simple_config_data = {
+			drop = {
+				{
+					2,
+					54006,
+					1
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					1,
+					2,
+					300
+				},
+				{
+					2,
+					54034,
+					1
+				},
+				{
+					2,
+					20013,
+					1
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					4,
+					301721,
+					1
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1543,6 +1594,7 @@ pg.mini_game = {
 		43,
 		44,
 		45,
-		46
+		46,
+		47
 	}
 }
