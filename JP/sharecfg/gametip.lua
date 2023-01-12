@@ -20017,5 +20017,10 @@ cs.gametip = {
 		821808,
 		571,
 		true
+	},
+	tip_nianye = {
+		822379,
+		131,
+		true
 	}
 }

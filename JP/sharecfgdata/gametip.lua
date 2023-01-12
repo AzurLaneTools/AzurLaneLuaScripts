@@ -22865,3 +22865,7 @@ _G.pg.base.gametip.sevenday_nianye = {
 		}
 	}
 }
+
+_G.pg.base.gametip.tip_nianye = {
+	tip = "SDキャラ演出完了まで少々お待ちください"
+}
