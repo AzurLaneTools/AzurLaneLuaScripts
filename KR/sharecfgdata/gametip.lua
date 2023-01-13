@@ -22177,3 +22177,7 @@ _G.pg.base.gametip.sevenday_nianye = {
 		}
 	}
 }
+
+_G.pg.base.gametip.tip_nianye = {
+	tip = "셰프가 아직 준비 중입니다. 잠시만 기다려 주세요~ "
+}
