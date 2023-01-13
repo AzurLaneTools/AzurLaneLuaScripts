@@ -25,8 +25,26 @@ function slot0.OnDataSetting(slot0)
 	slot0.cookTaskIds = pg.activity_template[slot0.cookActID].config_data
 	slot0.totalCookCnt = #slot0.cookTaskIds
 	slot0.playerId = getProxy(PlayerProxy):getData().id
+	slot0.randomSeed = slot0:GetRandomById()
 
 	uv0.super.OnDataSetting(slot0)
+end
+
+function slot0.GetRandomById(slot0)
+	slot1 = slot0.playerId
+	slot2 = {}
+
+	while #slot2 < 6 do
+		slot3 = slot1 % 10
+
+		if math.floor(slot1 / 10) == 0 then
+			slot1 = slot0.playerId
+		end
+
+		table.insert(slot2, slot3)
+	end
+
+	return slot2
 end
 
 function slot0.OnFirstFlush(slot0)
@@ -61,24 +79,22 @@ function slot0.OnFirstFlush(slot0)
 			end, uv1, nil)
 		end
 	end, SFX_PANEL)
-
-	slot0.cookAct = getProxy(ActivityProxy):getActivityById(slot0.cookActID)
-
-	assert(slot0.cookAct and not slot0.cookAct:isEnd(), "自选任务池活动(type86)已结束")
-
-	slot0.usedCnt = slot0.cookAct:getData1()
-
-	slot0:RefreshCookData()
 	setActive(slot0:findTF("shine", slot0.cookBtn), false)
 end
 
 function slot0.OnUpdateFlush(slot0)
 	uv0.super.OnUpdateFlush(slot0)
+
+	slot0.cookAct = getProxy(ActivityProxy):getActivityById(slot0.cookActID)
+
+	assert(slot0.cookAct and not slot0.cookAct:isEnd(), "自选任务池活动(type86)已结束")
+	slot0:RefreshCookData()
 	slot0:UpdateCookData()
 	slot0:UpdateCookUI()
 end
 
 function slot0.RefreshCookData(slot0)
+	slot0.usedCnt = slot0.cookAct:getData1()
 	slot1 = pg.TimeMgr.GetInstance()
 	slot0.unlockCnt = (slot1:DiffDay(slot0.cookAct:getStartTime(), slot1:GetServerTime()) + 1) * slot0.cookAct:getConfig("config_id")
 	slot0.unlockCnt = math.min(slot0.unlockCnt, slot0.totalCookCnt)
@@ -88,50 +104,42 @@ end
 function slot0.UpdateCookData(slot0)
 	slot1 = 0
 	slot0.receivedTasks = {}
+	slot2 = underscore.rest(slot0.cookTaskIds, 1)
 
-	for slot5, slot6 in ipairs(slot0.cookTaskIds) do
-		slot0.receivedTasks[slot6] = slot0.taskProxy:getTaskVO(slot6):isReceive()
+	for slot6, slot7 in ipairs(slot0.cookTaskIds) do
+		if slot0.taskProxy:getTaskVO(slot7):isReceive() then
+			table.insert(slot0.receivedTasks, slot8)
 
-		if slot0.receivedTasks[slot6] then
 			slot1 = slot1 + 1
+
+			table.removebyvalue(slot2, slot7)
 		end
 	end
 
+	table.sort(slot0.receivedTasks, function (slot0, slot1)
+		return slot0.submitTime < slot1.submitTime
+	end)
+
+	slot0.receivedTasks = underscore.map(slot0.receivedTasks, function (slot0)
+		return slot0.id
+	end)
+
 	if slot0.usedCnt ~= slot1 then
 		slot0.usedCnt = slot1
-		slot2 = slot0.cookAct
-		slot2.data1 = slot0.usedCnt
+		slot3 = slot0.cookAct
+		slot3.data1 = slot0.usedCnt
 
-		getProxy(ActivityProxy):updateActivity(slot2)
+		getProxy(ActivityProxy):updateActivity(slot3)
 
 		return
 	end
 
-	slot0:RefreshCookData()
-
-	slot3 = PlayerPrefs.GetInt("NewYearsEveDinner" .. slot0.playerId .. "_day_" .. (slot0.remainCnt == 0 and slot0.usedCnt or slot0.usedCnt + 1))
-
-	if slot0.remainCnt > 0 then
-		if slot0.usedCnt == #slot0.cookTaskIds - 1 then
-			slot0.curTaskId = slot0.cookTaskIds[#slot0.cookTaskIds]
-
-			PlayerPrefs.SetInt("NewYearsEveDinner" .. slot0.playerId .. "_day_" .. #slot0.cookTaskIds, slot0.curTaskId)
-		elseif slot3 ~= 0 then
-			slot0.curTaskId = slot3
-		else
-			slot0.curTaskId = slot0.curTaskId or 0
-			slot4 = slot0.curTaskId
-
-			while slot0.receivedTasks[slot4] or slot4 == slot0.curTaskId do
-				slot4 = slot0.cookTaskIds[math.random(#slot0.cookTaskIds - 1)]
-			end
-
-			slot0.curTaskId = slot4
-
-			PlayerPrefs.SetInt("NewYearsEveDinner" .. slot0.playerId .. "_day_" .. slot2, slot0.curTaskId)
-		end
+	if (slot0.remainCnt == 0 and slot0.usedCnt or slot0.usedCnt + 1) == #slot0.cookTaskIds then
+		slot0.curTaskId = slot0.cookTaskIds[#slot0.cookTaskIds]
+	elseif slot0.remainCnt == 0 then
+		slot0.curTaskId = slot0.receivedTasks[#slot0.receivedTasks]
 	else
-		slot0.curTaskId = slot3
+		slot0.curTaskId = slot2[slot0.randomSeed[slot3] % #slot2 + 1]
 	end
 end
 
