@@ -1561,5 +1561,16 @@ pg.effect_offset = {
 			0.2,
 			0
 		}
+	},
+	zidan_lingxingsuipian_donghua = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			-1.5,
+			0.2,
+			4
+		}
 	}
 }

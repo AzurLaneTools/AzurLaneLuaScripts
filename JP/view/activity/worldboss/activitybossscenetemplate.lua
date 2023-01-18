@@ -51,9 +51,6 @@ function slot0.init(slot0)
 	onButton(slot0, slot0.top:Find("back_btn"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SOUND_BACK)
-
-	slot0.backBtn = slot0:findTF("back_button", slot0.top)
-
 	setActive(slot0.top, false)
 	setAnchoredPosition(slot0.top, {
 		y = 1080
@@ -300,6 +297,17 @@ function slot0.ShowNormalFleet(slot0, slot1)
 		slot0.contextData.actFleets[slot1 + 10]
 	})
 
+	slot4 = slot0.contextData.useOilLimit[slot1]
+
+	if not slot0.contextData.activity:IsOilLimit(slot0.contextData.normalStageIDs[slot1]) then
+		slot4 = {
+			0,
+			0
+		}
+	end
+
+	slot3.buffer:SetOilLimit(slot4)
+
 	slot0.contextData.editFleet = slot1
 
 	slot3.buffer:UpdateView()
@@ -322,6 +330,17 @@ function slot0.ShowEXFleet(slot0)
 		slot0.contextData.actFleets[slot1],
 		slot0.contextData.actFleets[slot1 + 10]
 	})
+
+	slot3 = slot0.contextData.useOilLimit[slot1]
+
+	if not slot0.contextData.activity:IsOilLimit(slot0.contextData.exStageID) then
+		slot3 = {
+			0,
+			0
+		}
+	end
+
+	slot2.buffer:SetOilLimit(slot3)
 
 	slot0.contextData.editFleet = slot1
 

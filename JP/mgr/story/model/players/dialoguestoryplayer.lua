@@ -24,6 +24,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.glitchArtMaterial = slot0:findTF("resource/material1"):GetComponent(typeof(Image)).material
 	slot0.maskMaterial = slot0:findTF("resource/material2"):GetComponent(typeof(Image)).material
 	slot0.glitchArtMaterialForPainting = slot0:findTF("resource/material3"):GetComponent(typeof(Image)).material
+	slot0.glitchArtMaterialForPaintingBg = slot0:findTF("resource/material4"):GetComponent(typeof(Image)).material
 	slot2 = slot0:findTF("front/icon")
 	slot0.iconImage = slot2:GetComponent(typeof(Image))
 	slot0.typewriterSpeed = 0
@@ -743,6 +744,8 @@ function slot0.AddGlitchArtEffectForPating(slot0, slot1, slot2, slot3)
 				slot13.material = slot0.maskMaterial
 			elseif slot13.gameObject.name == "face" then
 				slot13.material = slot0.glitchArtMaterial
+			elseif slot3.hasPaintbg and slot13.gameObject == slot2.gameObject then
+				slot13.material = slot0.glitchArtMaterialForPaintingBg
 			else
 				slot13.material = slot0.glitchArtMaterialForPainting
 			end

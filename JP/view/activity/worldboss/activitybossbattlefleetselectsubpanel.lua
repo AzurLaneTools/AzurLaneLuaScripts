@@ -33,11 +33,11 @@ function slot0.OnInit(slot0)
 			slot4(slot0, "panel/sub/1")
 		}
 	}
-	slot0.tfLimit = slot0:findTF("panel/limit")
-	slot0.tfLimitTips = slot0:findTF("panel/limit_tip")
-	slot0.tfLimitElite = slot0:findTF("panel/limit_elite")
-	slot0.tfLimitContainer = slot0:findTF("panel/limit_elite/limit_list")
-	slot0.tfLimitTpl = slot0:findTF("panel/limit_elite/condition")
+	slot0.tfLimit = slot0:findTF("panel/limit_list/limit")
+	slot0.tfLimitTips = slot0:findTF("panel/limit_list/limit_tip")
+	slot0.tfLimitElite = slot0:findTF("panel/limit_list/limit_elite")
+	slot0.tfLimitContainer = slot0:findTF("panel/limit_list/limit_elite/limit_list")
+	slot0.rtCostLimit = slot0._tf:Find("panel/limit_list/cost_limit")
 	slot0.btnBack = slot0:findTF("panel/btnBack")
 	slot0.btnGo = slot0:findTF("panel/start_button")
 	slot0.btnTry = slot0:findTF("panel/try_button")
@@ -57,7 +57,6 @@ function slot0.OnInit(slot0)
 
 	setActive(slot0.tfShipTpl, false)
 	setActive(slot0.tfEmptyTpl, false)
-	setActive(slot0.tfLimitTpl, false)
 	setActive(slot0.toggleMask, false)
 	setActive(slot0.btnSp, false)
 	setActive(slot0.spMask, false)
@@ -129,6 +128,32 @@ function slot0.SetFleets(slot0, slot1)
 	end
 end
 
+function slot0.SetOilLimit(slot0, slot1)
+	slot2 = _.any(slot1, function (slot0)
+		return slot0 > 0
+	end)
+
+	setActive(slot0.rtCostLimit, slot2)
+	setText(slot0.rtCostLimit:Find("text"), i18n("formationScene_use_oil_limit_tip_worldboss"))
+
+	if slot2 then
+		slot3 = 0
+
+		setActive(slot0.rtCostLimit:Find("cost_noraml/Text"), slot1[1] > 0)
+
+		if slot3 > 0 then
+			setText(slot0.rtCostLimit:Find("cost_noraml/Text"), string.format("%s(%d)", i18n("formationScene_use_oil_limit_surface"), slot3))
+		end
+
+		setActive(slot0.rtCostLimit:Find("cost_boss/Text"), 0 > 0)
+		setActive(slot0.rtCostLimit:Find("cost_sub/Text"), slot1[2] > 0)
+
+		if slot3 > 0 then
+			setText(slot0.rtCostLimit:Find("cost_sub/Text"), string.format("%s(%d)", i18n("formationScene_use_oil_limit_submarine"), slot3))
+		end
+	end
+end
+
 function slot0.SetSettings(slot0, slot1, slot2, slot3, slot4)
 	slot0.groupNum = slot1
 	slot0.submarineNum = slot2
@@ -193,20 +218,17 @@ function slot0.updateFleet(slot0, slot1, slot2)
 		setActive(slot9, slot3 and slot4)
 	end
 
-	if slot3 then
-		if slot4 then
-			setText(slot6, i18n(uv0[slot4.id]) or "")
+	if slot3 and slot4 then
+		setText(slot6, i18n(uv0[slot4.id]) or "")
 
-			if slot1 == FleetType.Submarine then
-				slot0:updateShips(slot9, slot4.subShips, slot4.id, TeamType.Submarine)
-			else
-				slot0:updateShips(slot7, slot4.mainShips, slot4.id, TeamType.Main)
-				slot0:updateShips(slot8, slot4.vanguardShips, slot4.id, TeamType.Vanguard)
-			end
-
-			slot0:updateCommanders(slot13, slot4)
+		if slot1 == FleetType.Submarine then
+			slot0:updateShips(slot9, slot4.subShips, slot4.id, TeamType.Submarine)
+		else
+			slot0:updateShips(slot7, slot4.mainShips, slot4.id, TeamType.Main)
+			slot0:updateShips(slot8, slot4.vanguardShips, slot4.id, TeamType.Vanguard)
 		end
 
+		slot0:updateCommanders(slot13, slot4)
 		onButton(slot0, slot10, function ()
 			uv0:emit(uv0.viewParent.contextData.mediatorClass.ON_FLEET_RECOMMEND, uv1.id)
 		end)

@@ -252,6 +252,69 @@ pg.ship_meta_breakout = {
 		pre_id = 9702023,
 		weapon_ids = {}
 	},
+	[9702031] = {
+		breakout_view = "【炬火の力-シェフィールド】習得/主砲補正+5%",
+		gold = 500,
+		breakout_id = 9702032,
+		repair = 0,
+		item2 = 21018,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9702031,
+		item1 = 21018,
+		pre_id = 0,
+		weapon_ids = {
+			170011
+		}
+	},
+	[9702032] = {
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
+		gold = 1500,
+		breakout_id = 9702033,
+		repair = 0,
+		item2 = 21018,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9702032,
+		item1 = 21018,
+		pre_id = 9702031,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9702033] = {
+		breakout_view = "【炬火の力-シェフィールド】強化/主砲補正+15%",
+		gold = 2500,
+		breakout_id = 9702034,
+		repair = 0,
+		item2 = 21018,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9702033,
+		item1 = 21018,
+		pre_id = 9702032,
+		weapon_ids = {
+			170012
+		}
+	},
+	[9702034] = {
+		breakout_view = "なし",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21018,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9702034,
+		item1 = 21018,
+		pre_id = 9702033,
+		weapon_ids = {}
+	},
 	[9703011] = {
 		breakout_view = "【揺灯の力-トレント】習得/主砲補正+5%",
 		gold = 500,
@@ -1141,6 +1204,10 @@ pg.ship_meta_breakout = {
 		9702022,
 		9702023,
 		9702024,
+		9702031,
+		9702032,
+		9702033,
+		9702034,
 		9703011,
 		9703012,
 		9703013,

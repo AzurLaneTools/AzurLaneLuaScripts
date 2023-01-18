@@ -82,6 +82,8 @@ function slot0.CommonInit(slot0)
 	setText(findTF(slot0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
 	setText(findTF(slot0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
 	setText(findTF(slot0._tf, "middle/gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
+	setText(slot0._startBtn:Find("text"), i18n("pre_combat_start"))
+	setText(slot0._startBtn:Find("text_en"), i18n("pre_combat_start_en"))
 
 	slot0._middle = slot0:findTF("middle")
 	slot0._right = slot0:findTF("right")

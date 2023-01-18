@@ -5,6 +5,7 @@ slot0.ENTER = "BattleMediator:ENTER"
 slot0.ON_BACK_PRE_SCENE = "BattleMediator:ON_BACK_PRE_SCENE"
 slot0.ON_LEAVE = "BattleMediator:ON_LEAVE"
 slot0.ON_QUIT_BATTLE_MANUALLY = "BattleMediator:ON_QUIT_BATTLE_MANUALLY"
+slot0.HIDE_ALL_BUTTONS = "BattleMediator:HIDE_ALL_BUTTONS"
 slot0.ON_CHAT = "BattleMediator:ON_CHAT"
 slot0.CLOSE_CHAT = "BattleMediator:CLOSE_CHAT"
 slot0.ON_AUTO = "BattleMediator:ON_AUTO"
@@ -104,8 +105,32 @@ function slot0.register(slot0)
 			getProxy(ChapterProxy):StopAutoFight()
 		elseif uv0 == SYSTEM_WORLD then
 			nowWorld():TriggerAutoFight(false)
+		elseif uv0 == SYSTEM_ACT_BOSS and getProxy(ContextProxy):getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
+			getProxy(ContextProxy):GetPrevContext(1):addChild(Context.New({
+				mediator = ActivityBossTotalRewardPanelMediator,
+				viewComponent = ActivityBossTotalRewardPanel,
+				data = {
+					isAutoFight = false,
+					isLayer = true,
+					rewards = getProxy(ChapterProxy):PopActBossRewards(),
+					continuousBattleTimes = uv1.contextData.continuousBattleTimes,
+					totalBattleTimes = uv1.contextData.totalBattleTimes
+				}
+			}))
 		end
 	end)
+
+	if slot0.contextData.continuousBattleTimes and slot0.contextData.continuousBattleTimes > 0 then
+		if not getProxy(ContextProxy):getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
+			slot0:addSubLayers(Context.New({
+				mediator = ContinuousOperationMediator,
+				viewComponent = ContinuousOperationPanel,
+				data = CreateShell(slot0.contextData)
+			}))
+		end
+
+		slot0.contextData.battleData.hideAllButtons = true
+	end
 
 	if getProxy(PlayerProxy) then
 		slot0.player = slot3:getData()
@@ -465,10 +490,7 @@ function slot0.GenBattleData(slot0)
 			slot1.SubCommanderList = slot14:buildBattleBuffList()
 		else
 			slot1.SubFlag = 0
-
-			if flag ~= ys.Battle.BattleConst.SubAidFlag.AID_EMPTY then
-				slot1.TotalSubAmmo = 0
-			end
+			slot1.TotalSubAmmo = 0
 		end
 
 		slot0.mainShips = {}
@@ -718,9 +740,25 @@ function slot0.GenBattleData(slot0)
 			end
 
 			slot19 = getProxy(PlayerProxy):getRawData()
-			slot20 = slot15:GetCostSum().oil + slot7:GetCostSum().oil
+			slot20 = 0
+			slot21 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId)
+			slot24 = pg.activity_event_worldboss[slot21:getConfig("config_id")].use_oil_limit[slot0.contextData.mainFleetId]
+			slot26 = slot7:GetCostSum().oil
+			slot27 = slot15:GetCostSum().oil
 
-			if slot15:isLegalToFight() == true and (slot2 == SYSTEM_BOSS_EXPERIMENT or slot20 < slot19.oil) then
+			if slot21:IsOilLimit(slot0.contextData.stageId) then
+				if slot24[1] > 0 then
+					slot26 = math.min(slot26, slot24[1])
+				end
+
+				if slot24[2] > 0 then
+					slot27 = math.min(slot27, slot24[2])
+				end
+			end
+
+			slot20 = slot26 + slot27
+
+			if slot15:isLegalToFight() == true and (slot2 == SYSTEM_BOSS_EXPERIMENT or slot20 <= slot19.oil) then
 				slot1.SubFlag = 1
 				slot1.TotalSubAmmo = 1
 			end
@@ -816,14 +854,14 @@ function slot0.GenBattleData(slot0)
 		if BATTLE_DEBUG and BATTLE_FREE_SUBMARINE and #slot6:getFleetById(11):getTeamByName(TeamType.Submarine) > 0 then
 			slot1.SubFlag = 1
 			slot1.TotalSubAmmo = 1
-			subCommanderList = _.values(slot8:getCommanders())
+			slot17 = _.values(slot8:getCommanders())
 			slot1.SubCommanderList = slot8:buildBattleBuffList()
 
-			for slot21, slot22 in ipairs(slot16) do
-				slot23 = slot3:getShipById(slot22)
+			for slot22, slot23 in ipairs(slot16) do
+				slot24 = slot3:getShipById(slot23)
 
-				table.insert(slot11, slot23)
-				table.insert(slot1.SubUnitList, uv0(slot2, slot23, subCommanderList, slot5))
+				table.insert(slot11, slot24)
+				table.insert(slot1.SubUnitList, uv0(slot2, slot24, slot17, slot5))
 			end
 		end
 	end
@@ -999,7 +1037,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.START_GUIDE,
 		GAME.PAUSE_BATTLE,
 		uv0.CLOSE_CHAT,
-		GAME.QUIT_BATTLE
+		GAME.QUIT_BATTLE,
+		uv0.HIDE_ALL_BUTTONS
 	}
 end
 
@@ -1052,6 +1091,8 @@ function slot0.handleNotification(slot0, slot1)
 					extraDrops = slot3.extraDrops,
 					extraBuffList = slot8,
 					isLastBonus = slot3.isLastBonus,
+					continuousBattleTimes = slot0.contextData.continuousBattleTimes,
+					totalBattleTimes = slot0.contextData.totalBattleTimes,
 					mode = slot0.contextData.mode,
 					cmdArgs = slot0.contextData.cmdArgs
 				}
@@ -1096,6 +1137,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot0:sendNotification(GAME.GO_BACK)
 	elseif slot2 == uv0.CLOSE_CHAT then
 		slot0.viewComponent:OnCloseChat()
+	elseif slot2 == uv0.HIDE_ALL_BUTTONS then
+		ys.Battle.BattleState.GetInstance():GetProxyByName(ys.Battle.BattleDataProxy.__name):DispatchEvent(ys.Event.New(ys.Battle.BattleEvent.HIDE_INTERACTABLE_BUTTONS, {
+			isActive = slot3
+		}))
 	elseif slot2 == GAME.QUIT_BATTLE then
 		slot4:Stop()
 	end

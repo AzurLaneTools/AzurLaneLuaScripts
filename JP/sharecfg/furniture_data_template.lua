@@ -9073,6 +9073,57 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100045] = {
+		spine_extra = "",
+		describe = "いい汗かく…ピョ……",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "sangnaluicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "饅頭サウナ",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100045,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sangnalu",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"houzhai_sangna",
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		spine_extra = "",
 		describe = "「これがあなたの望む光景を叶えるもの、あなたが一時的な快楽を得られるシチュエーション」",
@@ -110251,6 +110302,1181 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[97001] = {
+		spine_extra = "",
+		describe = "「色香味」三拍子が揃った美食パラダイス！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "美食ランドの床",
+		effect = "",
+		advice = 0,
+		icon = "dibancj5icon",
+		spine_action_replace = "",
+		picture = "cj5/dibancj5",
+		comfortable = 4,
+		canputon = 0,
+		id = 97001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97002] = {
+		spine_extra = "",
+		describe = "「色香味」三拍子が揃った美食パラダイス！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "美食ランドの壁",
+		effect = "",
+		advice = 0,
+		icon = "qiangbicj5icon",
+		spine_action_replace = "",
+		picture = "cj5/qiangbicj5",
+		comfortable = 4,
+		canputon = 0,
+		id = 97002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97101] = {
+		spine_extra = "",
+		describe = "作りたてのバオズは熱々で美味しい！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "baozipucj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "バオズの屋台",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj5/baozipucj5",
+		canputon = 0,
+		id = 97101,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97102] = {
+		spine_extra = "",
+		describe = "つるっとした食感がたまらないっ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "changfenhuaticj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "腸粉滑り台",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj5/changfenhuaticj5",
+		canputon = 0,
+		id = 97102,
+		can_rotate = 0,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97103] = {
+		spine_extra = "",
+		describe = "臭豆腐の匂いが移らないよね…？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 97,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "choudoufuchangyicj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "臭豆腐ベンチ",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj5/choudoufuchangyicj5",
+		canputon = 0,
+		id = 97103,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-8.2,
+					20.6
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97104] = {
+		spine_extra = "",
+		describe = "長く浸かるとデザートになっちゃうピョ？！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 97,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "ganluyongchicj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "楊枝甘露プール",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj5/ganluyongchicj5",
+		canputon = 0,
+		id = 97104,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					6.2,
+					-46.7
+				},
+				{
+					-1,
+					1
+				},
+				"cj5/ganluyongchicj5_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97105] = {
+		spine_extra = "",
+		describe = "めでたい春聯が貼られているよ",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "gongmencj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "美食ランドのアーチ",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj5/gongmencj5",
+		canputon = 1,
+		id = 97105,
+		can_rotate = 0,
+		size = {
+			4,
+			1
+		},
+		offset = {
+			0,
+			-5.05
+		},
+		canputonGrid = {
+			{
+				2,
+				0
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97106] = {
+		spine_extra = "",
+		describe = "東煌風のウッドフェンス",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "hulancj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "美食ランドのフェンス",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cj5/hulancj5",
+		canputon = 0,
+		id = 97106,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97110] = {
+		spine_extra = "",
+		describe = "大きくて食べ応えあるよ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 6,
+		tag = 1,
+		icon = "huludengcj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "糖葫蘆ランタン",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cj5/huludengcj5",
+		canputon = 0,
+		id = 97110,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97116] = {
+		spine_extra = "",
+		describe = "登ってはダメピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiashancj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "美食ランドの築山",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj5/jiashancj5",
+		canputon = 0,
+		id = 97116,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97117] = {
+		spine_extra = "",
+		describe = "わたあめ、美味しいピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiu1cj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "美食ランド饅頭（裏）",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cj5/jiu1cj5",
+		canputon = 0,
+		id = 97117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97118] = {
+		spine_extra = "",
+		describe = "わたあめ、美味しいピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiu2cj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "美食ランド饅頭（表）",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "cj5/jiu2cj5",
+		canputon = 0,
+		id = 97118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97119] = {
+		spine_extra = "",
+		describe = "ようこそ、美食ランドへ！",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "paifangcj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "美食ランドの牌坊",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj5/paifangcj5",
+		canputon = 1,
+		id = 97119,
+		can_rotate = 1,
+		size = {
+			3,
+			6
+		},
+		offset = {
+			0,
+			-3.55
+		},
+		canputonGrid = {
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97120] = {
+		spine_extra = "",
+		describe = "めでたしめでたし",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "penzaicj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "祝祭の盆栽",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj5/penzaicj5",
+		canputon = 0,
+		id = 97120,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97122] = {
+		spine_extra = "",
+		describe = "東煌風の屛風",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "pingfengcj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "美食ランドの屛風",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj5/pingfengcj5",
+		canputon = 0,
+		id = 97122,
+		can_rotate = 0,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97123] = {
+		spine_extra = "",
+		describe = "遊び疲れたら、ここで料理を楽しむのも悪くないピョ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 97,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shiyuanzhuocj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "石の円テーブル",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj5/shiyuanzhuocj5",
+		canputon = 0,
+		id = 97123,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-88.1,
+					40.3
+				},
+				{
+					1,
+					1
+				},
+				"cj5/shiyuanzhuocj5_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97124] = {
+		spine_extra = "",
+		describe = "寄ってらっしゃい見てらっしゃい～甘くて美味しいピョ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "tanghulutanweicj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "糖葫蘆の屋台",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "cj5/tanghulutanweicj5",
+		canputon = 0,
+		id = 97124,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97125] = {
+		spine_extra = "",
+		describe = "ぶつかり合ってぷるんぷるん！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 97,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "wanzipengpengchecj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "団子バンパーカー",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj5/wanzipengpengchecj5",
+		canputon = 0,
+		id = 97125,
+		can_rotate = 0,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					1.7,
+					-32.1
+				},
+				{
+					-1,
+					1
+				},
+				"cj5/wanzipengpengchecj5_using",
+				0,
+				{
+					{
+						-20.1,
+						31.5
+					},
+					{
+						200,
+						200
+					},
+					"cj5/wanzipengpengchecj5_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97126] = {
+		spine_extra = "",
+		describe = "小籠包と一緒にグルグル回ろう",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 97,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaolongbaomumacj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "小籠包のメリーゴーランド",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj5/xiaolongbaomumacj5",
+		canputon = 0,
+		id = 97126,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-2.6,
+					-24.2
+				},
+				{
+					-1,
+					1
+				},
+				"cj5/xiaolongbaomumacj5_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97127] = {
+		spine_extra = "",
+		describe = "目、目が回る…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 97,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xuanzhuanchabeicj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "回る茶碗",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj5/xuanzhuanchabeicj5",
+		canputon = 0,
+		id = 97127,
+		can_rotate = 0,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					42,
+					-50.1
+				},
+				{
+					1,
+					1
+				},
+				"cj5/xuanzhuanchabeicj5_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97128] = {
+		spine_extra = "",
+		describe = "赤スープと白スープ、お好みはどっち？",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yuanyangguoditancj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "オシドリ鍋ラグ",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj5/yuanyangguoditancj5",
+		canputon = 0,
+		id = 97128,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97129] = {
+		spine_extra = "",
+		describe = "もちもち、ぷるぷる！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "東坡肉トランポリン",
+		themeId = 97,
+		icon = "dongporoubengchuangcj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 97129,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dongporoubengchuangcj5B",
+				"normal"
+			},
+			{
+				"dongporoubengchuangcj5T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[97130] = {
+		spine_extra = "",
+		describe = "まるで鍋の中で振るわれているような…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "松鼠魚ヴァイキング",
+		themeId = 97,
+		icon = "haidaochuancj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 97130,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"haidaochuancj5B",
+				"normal"
+			},
+			{
+				"haidaochuancj5T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[97131] = {
+		spine_extra = "",
+		describe = "月のように登っては降りる～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "月餅観覧車",
+		themeId = 97,
+		icon = "motianluncj5icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 97131,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"motianluncj5B",
+				"normal"
+			},
+			{
+				"motianluncj5T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					20,
+					-19
+				},
+				{
+					176,
+					171
+				},
+				"cj5/motianluncj5_mask"
+			},
+			{
+				-21,
+				21
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[97301] = {
+		spine_extra = "",
+		describe = "祝祭にピッタリ、めでたい灯籠",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 97,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "denglongcj5icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "グルメランドの灯籠",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "cj5/denglongcj5",
+		canputon = 0,
+		id = 97301,
+		can_rotate = 0,
+		size = {
+			24,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -110419,6 +111645,7 @@ pg.furniture_data_template = {
 			100042,
 			100043,
 			100044,
+			100045,
 			200001,
 			200002,
 			200003,
@@ -110609,6 +111836,7 @@ pg.furniture_data_template = {
 			100042,
 			100043,
 			100044,
+			100045,
 			200001,
 			200002,
 			200003,
@@ -115401,6 +116629,58 @@ pg.furniture_data_template = {
 			96305,
 			96306,
 			96307
+		},
+		[97] = {
+			97001,
+			97002,
+			97101,
+			97102,
+			97103,
+			97104,
+			97105,
+			97106,
+			97110,
+			97116,
+			97117,
+			97118,
+			97119,
+			97120,
+			97122,
+			97123,
+			97124,
+			97125,
+			97126,
+			97127,
+			97128,
+			97129,
+			97130,
+			97131,
+			97301,
+			97001,
+			97002,
+			97101,
+			97102,
+			97103,
+			97104,
+			97105,
+			97106,
+			97110,
+			97116,
+			97117,
+			97118,
+			97119,
+			97120,
+			97122,
+			97123,
+			97124,
+			97125,
+			97126,
+			97127,
+			97128,
+			97129,
+			97130,
+			97131,
+			97301
 		}
 	},
 	get_id_list_by_tag = {
@@ -116973,7 +118253,28 @@ pg.furniture_data_template = {
 			96112,
 			96113,
 			96114,
-			96115
+			96115,
+			97101,
+			97102,
+			97103,
+			97104,
+			97105,
+			97106,
+			97110,
+			97116,
+			97117,
+			97118,
+			97119,
+			97120,
+			97122,
+			97123,
+			97124,
+			97125,
+			97126,
+			97127,
+			97128,
+			97129,
+			97130
 		},
 		{
 			1108,
@@ -117290,6 +118591,7 @@ pg.furniture_data_template = {
 			100042,
 			100043,
 			100044,
+			100045,
 			31101,
 			54104,
 			54105
@@ -117444,7 +118746,8 @@ pg.furniture_data_template = {
 			95142,
 			95144,
 			96116,
-			96117
+			96117,
+			97131
 		},
 		[4] = {
 			1001,
@@ -117527,7 +118830,8 @@ pg.furniture_data_template = {
 			93001,
 			94001,
 			95001,
-			96001
+			96001,
+			97001
 		},
 		[3] = {
 			1002,
@@ -117611,7 +118915,8 @@ pg.furniture_data_template = {
 			93002,
 			94002,
 			95002,
-			96002
+			96002,
+			97002
 		},
 		[5] = {
 			1301,
@@ -117908,7 +119213,8 @@ pg.furniture_data_template = {
 			96304,
 			96305,
 			96306,
-			96307
+			96307,
+			97301
 		}
 	},
 	get_id_list_by_type = {
@@ -117994,7 +119300,8 @@ pg.furniture_data_template = {
 			93002,
 			94002,
 			95002,
-			96002
+			96002,
+			97002
 		},
 		[7] = {
 			1,
@@ -118136,7 +119443,8 @@ pg.furniture_data_template = {
 			100040,
 			100041,
 			100043,
-			100044
+			100044,
+			100045
 		},
 		[2] = {
 			120,
@@ -119693,7 +121001,26 @@ pg.furniture_data_template = {
 			96114,
 			96115,
 			96116,
-			96117
+			96117,
+			97101,
+			97102,
+			97103,
+			97104,
+			97106,
+			97110,
+			97116,
+			97117,
+			97118,
+			97120,
+			97122,
+			97123,
+			97124,
+			97125,
+			97126,
+			97127,
+			97129,
+			97130,
+			97131
 		},
 		[11] = {
 			143,
@@ -119828,7 +121155,8 @@ pg.furniture_data_template = {
 			93001,
 			94001,
 			95001,
-			96001
+			96001,
+			97001
 		},
 		[5] = {
 			1101,
@@ -119964,7 +121292,8 @@ pg.furniture_data_template = {
 			93117,
 			93119,
 			95112,
-			95120
+			95120,
+			97128
 		},
 		[3] = {
 			1108,
@@ -120408,7 +121737,8 @@ pg.furniture_data_template = {
 			96304,
 			96305,
 			96306,
-			96307
+			96307,
+			97301
 		},
 		[8] = {
 			15119,
@@ -120421,7 +121751,9 @@ pg.furniture_data_template = {
 			51107,
 			52105,
 			62112,
-			94103
+			94103,
+			97105,
+			97119
 		},
 		[10] = {
 			28306,
@@ -120602,6 +121934,7 @@ pg.furniture_data_template = {
 		100042,
 		100043,
 		100044,
+		100045,
 		200001,
 		200002,
 		200003,
@@ -122925,6 +124258,31 @@ pg.furniture_data_template = {
 		96304,
 		96305,
 		96306,
-		96307
+		96307,
+		97001,
+		97002,
+		97101,
+		97102,
+		97103,
+		97104,
+		97105,
+		97106,
+		97110,
+		97116,
+		97117,
+		97118,
+		97119,
+		97120,
+		97122,
+		97123,
+		97124,
+		97125,
+		97126,
+		97127,
+		97128,
+		97129,
+		97130,
+		97131,
+		97301
 	}
 }

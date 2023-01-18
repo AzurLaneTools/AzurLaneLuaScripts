@@ -27,3 +27,9 @@ function slot1.getDataLayers(slot0, slot1, slot2)
 
 	return nil
 end
+
+function slot1.dumpDataLayers(slot0, slot1, slot2, slot3)
+	if slot0:getData(slot1) then
+		slot4:dumpTileDataLayer(slot2, slot3)
+	end
+end

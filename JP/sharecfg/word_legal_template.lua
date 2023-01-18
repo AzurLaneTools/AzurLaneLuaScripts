@@ -1119,6 +1119,15 @@ function temp()
 						}
 					}
 				}
+			},
+			["ビ"] = {
+				["シ"] = {
+					["ェ"] = {
+						["フ"] = {
+							this = true
+						}
+					}
+				}
 			}
 		},
 		["オ"] = {
@@ -1927,6 +1936,19 @@ function temp()
 											}
 										}
 									}
+								},
+								["("] = {
+									M = {
+										E = {
+											T = {
+												A = {
+													[")"] = {
+														this = true
+													}
+												}
+											}
+										}
+									}
 								}
 							}
 						}
@@ -1983,6 +2005,17 @@ function temp()
 			["ト"] = {
 				["ル"] = {
 					this = true
+				}
+			}
+		},
+		["ー"] = {
+			["シ"] = {
+				["ュ"] = {
+					["ー"] = {
+						["ス"] = {
+							this = true
+						}
+					}
 				}
 			}
 		}
@@ -6445,6 +6478,26 @@ temp()
 function temp()
 	uv0["武"] = {
 		["蔵"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["華"] = {
+		["甲"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["定"] = {
+		["安"] = {
 			this = true
 		}
 	}

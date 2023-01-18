@@ -2708,11 +2708,15 @@ _G.pg.base.gametip.coloring_help_tip = {
 ・絵が完成（着色枠を全て着色・「空白絵」は除く）す
 ると、報酬を入手することができます。
 ・おえかき完成の報酬一覧：
-No.1 ランダム教科書T3×3 
-No.2 汎用パーツT3 x4 
-No.3 「島へようこそ！」  
+No.1 ランダム教科書 T3x1
+No.2 年玉x1
+No.3 艦砲パーツT3 x2
+No.4 年玉x1
+No.5 汎用パーツT3 x3
+No.6 年玉x1
+No.7 「鞍山」  
 ・イベント終了後、未使用の絵の具はリセットされます
-・11月19日(土)まで毎日新しい絵が一枚ずつ解放され
+・1月24日(火)まで毎日新しい絵が一枚ずつ解放され
 ます。]]
 		}
 	}
@@ -7849,6 +7853,10 @@ _G.pg.base.gametip.ship_remould_warning_521034 = {
 改造を行いますか？]]
 }
 
+_G.pg.base.gametip.ship_remould_warning_502114 = {
+	tip = "改造（近代化改修）でスキル<color=#92fc63>【東煌の絆】</color>が\nスキル<color=#92fc63>【東煌の絆 ·改】</color>に強化されます"
+}
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "ボイス更新"
 }
@@ -9315,7 +9323,7 @@ _G.pg.base.gametip.help_shipblueprintui = {
 			info = [[
 
 開発開始
-1. 「特別計画」艦の開発開放条件が達成されますと、艦の開発が可能になります。
+1. 「特別計画」艦の開発開放条件が達成されると、艦の開発が可能になります。
 2. 「特別計画」艦の開発開放条件は画面中央に表示されます。
 3. 開発ドック画面にて対象艦を選択し、「開発開始」をタップすると、開発を開始できます。
 4. 同時に複数の開発を行うことできません。
@@ -9327,7 +9335,7 @@ _G.pg.base.gametip.help_shipblueprintui = {
 4. 一部の開発任務は他の開発任務を完了しなければ進められません。
 
 開発対象変更
-1. 開発中に、開発対象を別の艦に変更することができます。
+1. 開発中に、開発対象を別の艦に変更することもできます。
 2. 開発対象を変更しても、開発全体の進捗および進行中任務の進捗状況は保持されます。
 3. 開発開始・再開後、24時間以内は開発対象を変更できません。
 
@@ -9339,16 +9347,24 @@ _G.pg.base.gametip.help_shipblueprintui = {
 1. 「特別計画」艦入手後、艦の強化機能が開放されます。
 2. 強化には艦の「強化ユニット」を消費します。
 3. 「強化ユニット」は科学研究室で研究を行うことにより入手出来ます。
-4. 強化を行うことで「特別計画」艦の性能を向上させられます。また、一定の強化レベルに達するとさらなる強化効果を獲得できます。（new!）5.一部の特別計画艦は、「強化ユニット」を所持していない場合でも、代わりに資金を消費して強化を行うことができます。
+4. 強化を行うことで「特別計画」艦の性能を向上させられます。また、一定の強化レベルに達するとさらなる強化効果を獲得できます。（new!）5.一部の特別計画艦は、「強化ユニット」を所持していない場合でも、代わりに資金を消費して強化もしくは竜骨編纂を行うことができます。
 　　※注意
-　　資金による特別計画艦の強化・竜骨編纂は毎日、最初の15個分まで資金消費が割引されます。
-       0個目～2個目：無料
+　　資金による特別計画艦の強化・竜骨編纂は毎日、DRとPRそれぞれ最初の15個分まで資金消費が割引されます。
+
+ PR特別計画艦について：   
+   0個目～2個目：無料
 　　3個目～4個目：消費資金10%
        5個目～7個目：消費資金20%
        8個目～10個目：消費資金40%
       11個目～15個目：消費資金70%
 　　16個目以降：消費資金100% = 1個分につき1500消費
-　　資金消費量は強化時の強化ユニット使用数選択画面で自動で計算されます。
+n DR特別計画艦について：   
+   0個目～2個目：無料
+　　3個目～6個目：消費資金10%
+       7個目～10個目：消費資金20%
+      11個目～15個目：消費資金50%
+　　16個目以降：消費資金100% = 1個分につき6000消費
+　資金消費量は強化時の強化ユニット使用数選択画面で自動で計算されます。
 割引分強化回数のリセットは毎日4:00になります。
 
 「特別計画」艦のレベル上限について
@@ -10085,11 +10101,11 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「リノ」「イングラハム」「クーパー」「Z2」などが常設実装！"
+	tip = "「ブリストル」「カリブディス」などが常設実装！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「イントレピッド」「ノーチラス」常設実装！"
+	tip = "「鎮海」常設実装！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -10164,16 +10180,24 @@ _G.pg.base.gametip.newplayer_notice_8 = {
 	tip = "海域を上手く攻略できない時は、「新兵任務」で様々な報酬を手に入れて戦力を充実させましょう！"
 }
 
-_G.pg.base.gametip.tec_notice_1 = {
-	tip = "Ⅰ期特別計画艦任務全てクリアで開放"
+_G.pg.base.gametip.tec_catchup_1 = {
+	tip = "Ⅰ期"
 }
 
-_G.pg.base.gametip.tec_notice_2 = {
-	tip = "新兵任務「開発・Ⅱ期」全クリアで開放"
+_G.pg.base.gametip.tec_catchup_2 = {
+	tip = "Ⅱ期"
 }
 
-_G.pg.base.gametip.tec_notice_3 = {
-	tip = "特別計画艦Ⅲ期新兵任務全クリアで解放"
+_G.pg.base.gametip.tec_catchup_3 = {
+	tip = "Ⅲ期"
+}
+
+_G.pg.base.gametip.tec_catchup_4 = {
+	tip = "Ⅳ期"
+}
+
+_G.pg.base.gametip.tec_notice = {
+	tip = "科学研究$1任務すべてクリアで開放"
 }
 
 _G.pg.base.gametip.tec_notice_not_open_tip = {
@@ -10985,7 +11009,7 @@ _G.pg.base.gametip.world_boss_help = {
 			info = "<color=#92fc63>★遊び方</color>"
 		},
 		{
-			info = "イベント「戦え！ロイヤルメイド隊3rd」とは、<color=#92fc63>「演習Pt」</color>を集めて作戦進捗を進めると、個人累計Pt報酬と作戦進捗報酬が得られるイベントになります。"
+			info = "イベント「共闘　冬の案内人」とは、<color=#92fc63>「演習Pt」</color>を集めて作戦進捗を進めると、個人累計Pt報酬と作戦進捗報酬が得られるイベントになります。"
 		},
 		{
 			info = [[
@@ -13844,11 +13868,11 @@ _G.pg.base.gametip.help_chunjie_jiulou = {
 			info = [[
 ■饅頭年玉について
 ・「饅頭年玉」では、ミニゲームで手に入れた「年玉」を開封し、報酬を入手できます。
-・「年玉」は「四天王大冒険・撫順編Ⅲ」「おえかき」「画中世界」「応瑞春遊記」を遊ぶことで入手できます。
+・「年玉」は「撫順の大冒険Ⅳ」「おえかき」「画中世界」「百艦一首」を遊ぶことで入手できます。
 ・入手した「年玉」は15個目までは「年玉・大」になります。
 ・入手した「年玉」を開封する際は「年玉・大」から優先的に開封されます。
 開封すると、ダイヤなどの報酬をランダムで獲得できます。
-また、「年玉」を累計25個開封すると、<color=#92fc63>「U-73」の着せ替え</color>を入手できます]]
+また、「年玉」を累計15個開封すると、<color=#92fc63>「U-73」の着せ替え（復刻）</color>を入手できます。「年玉」を累計25個開封すると、<color=#92fc63>「撫順」の着せ替え（新規）</color>を入手できます]]
 		}
 	}
 }
@@ -18684,6 +18708,32 @@ _G.pg.base.gametip.blueprint_catchup_by_gold_confirm = {
 	tip = "$1の資金を消費し、強化を行いますか？"
 }
 
+_G.pg.base.gametip.blueprint_catchup_by_gold_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/blueprint_catchup_by_gold",
+				path = ""
+			}
+		},
+		disableScroll = false,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
 _G.pg.base.gametip.tec_tip_no_consumption = {
 	tip = "消費なし"
 }
@@ -19223,6 +19273,14 @@ _G.pg.base.gametip.formationScene_use_oil_limit_flagship = {
 
 _G.pg.base.gametip.formationScene_use_oil_limit_submarine = {
 	tip = "潜水"
+}
+
+_G.pg.base.gametip.formationScene_use_oil_limit_surface = {
+	tip = "水上"
+}
+
+_G.pg.base.gametip.formationScene_use_oil_limit_tip_worldboss = {
+	tip = "消費上限："
 }
 
 _G.pg.base.gametip.attr_durability = {
@@ -20217,7 +20275,7 @@ _G.pg.base.gametip.worldinpicture_help = {
 「探索回数」「名物配置回数」を全部消費すると、艦船「海天」を入手できます。
 
 ■遊び方
-・2/2（水）まで毎日解放される任務をクリアすると、「探索回数」「名物配置回数」を入手できます。
+・1/24（火）まで毎日解放される任務をクリアすると、「探索回数」「名物配置回数」を入手できます。
 ・画中世界では、画面をタップすることで「探索回数」を消費し画面を探索することが可能です。また、宝箱を探索すると「お年玉」を入手できます。
 ・画面左下のボタンで、「探索」「名物配置」を切り替える事ができます。
 ・「名物配置」では、探索済みのマスをタップすると「名物配置回数」を消費し、名物を配置できます。]]
@@ -20235,7 +20293,7 @@ _G.pg.base.gametip.worldinpicture_task_help = {
 「探索回数」「名物配置回数」を全部消費すると、艦船「海天」を入手できます。
 
 ■遊び方
-・2/2（水）まで毎日解放される任務をクリアすると、「探索回数」「名物配置回数」を入手できます。
+・1/24（火）まで毎日解放される任務をクリアすると、「探索回数」「名物配置回数」を入手できます。
 ・画中世界では、画面をタップすることで「探索回数」を消費し画面を探索することが可能です。また、宝箱を探索すると「お年玉」を入手できます。
 ・画面左下のボタンで、「探索」「名物配置」を切り替える事ができます。
 ・「名物配置」では、探索済みのマスをタップすると「名物配置回数」を消費し、名物を配置できます。]]
@@ -20695,6 +20753,72 @@ _G.pg.base.gametip.battlepass_main_help_2212 = {
 }
 
 _G.pg.base.gametip.cruise_task_help_2212 = {
+	tip = {
+		{
+			info = [[
+■シーズン任務について
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+　①週次開放任務
+　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ
+　②全期間任務
+　最初から全開放される任務。全1グループ
+
+・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+
+・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+　ダイヤを消費しますので、オススメしません……
+　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battlepass_main_tip_2302 = {
+	tip = "<size=23>2023.2.1-2023.3.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「シェフィールド(META)」</color>などを入手可能！</size>"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2302 = {
+	tip = {
+		{
+			info = [[
+■キャンペーン開催期間
+ 2023.2.1（水）0:00～2023.3.31（金）23:59
+
+■概要
+「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。
+また、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。
+通常報酬からは艦船「シェフィールド(META)」、SP報酬からは駆逐艦「夕暮」の限定着せ替え「海辺の遊戯」を入手できます。
+
+■遊び方
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+　①週次開放任務
+　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ
+　②全期間任務
+　最初から全開放される任務。全1グループ
+・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。
+・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。
+　①通常報酬
+　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります
+　②SP報酬
+　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。
+・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。
+
+■Tips
+・プレイスタイル
+　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。
+
+・クルーズパス
+　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。
+
+・任務のスキップ（オススメしません）
+　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+　ダイヤを消費しますので、オススメしません厖
+　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2302 = {
 	tip = {
 		{
 			info = [[
@@ -22858,6 +22982,56 @@ _G.pg.base.gametip.yixian_nianye = {
 	tip = "連年有余、平安歳歳。新しい一年、全て上手くいきますように"
 }
 
+_G.pg.base.gametip.activity_yanhua_tip1 = {
+	tip = "花火"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip2 = {
+	tip = "解放済み花火"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip3 = {
+	tip = "現在開放済みの花火数"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip4 = {
+	tip = "花火の星$1を消費し花火を開放しますか？"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip5 = {
+	tip = "花火の星が不足しています"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip6 = {
+	tip = "今日はこれ以上開放できません"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip7 = {
+	tip = "花火をもう一度タップすると打ち上げ順から削除できます"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip8 = {
+	tip = "花火を開放しました"
+}
+
+_G.pg.base.gametip.help_chunjie2023 = {
+	tip = {
+		{
+			info = [[
+開催期間：<color=#92fc63>2023.1.18-2023.2.2メンテナンスまで</color>
+遊び方：
+<color=#92fc63>「撫順の大冒険Ⅳ」</color>：ミニゲームを7日間プレイすると<color=#92fc63>「撫順」</color>を入手可能
+<color=#92fc63>「新春の花火」</color>：3章以降の海域クリアで「花火の星」を稼ぎ、花火を全部開放すると限定艦船<color=#92fc63>「定安」</color>を入手可能
+<color=#92fc63>「画中世界」</color>：ミニゲームをクリアし、<color=#92fc63>「海天」</color>と<color=#92fc63>「海祈」</color>を入手可能
+<color=#92fc63>「おえかき」</color>：3章以降の海域クリアで絵の具を稼ぎ、艦船<color=#92fc63>「鞍山」</color>を入手可能
+<color=#92fc63>「百艦一首」</color>：毎日解放される任務をクリアし、更に句を完成させると、逸仙専用の設備を入手可能
+<color=#92fc63>「饅頭の年玉」</color>：各種ミニイベントやミニゲームで入手できる年玉を開封可能。15個開封でU-73の限定着せ替え（復刻）を入手でき、25個開封で撫順の限定着せ替え（新規）<color=#92fc63>「四天王のバオズ釣り」</color>を入手可能
+<color=#92fc63>「着せ替え」</color>：着せ替えショップに移動可能
+<color=#92fc63>「限定建造」</color>：限定建造ページに移動可能]]
+		}
+	}
+}
+
 _G.pg.base.gametip.sevenday_nianye = {
 	tip = {
 		{
@@ -22868,4 +23042,329 @@ _G.pg.base.gametip.sevenday_nianye = {
 
 _G.pg.base.gametip.tip_nianye = {
 	tip = "SDキャラ演出完了まで少々お待ちください"
+}
+
+_G.pg.base.gametip.couplete_activty_desc = {
+	tip = "1/24（火）まで毎日開放される任務をクリアすると、句が開放されます。右側の文字を並び替え、さらに下部ボタンタップで正しい句を完成させると報酬を入手できます。"
+}
+
+_G.pg.base.gametip.couplete_click_desc = {
+	tip = "SDキャラを3回タップすると正解を閲覧可能"
+}
+
+_G.pg.base.gametip.couplet_index_desc = {
+	tip = "$1問目"
+}
+
+_G.pg.base.gametip.couplete_help = {
+	tip = {
+		{
+			info = [[
+遊び方：
+イベント期間中、<color=#92fc63>1.24（火）</color>まで毎日限定任務が1個開放され、更に句が1個出題されます。
+任務をクリアすると、出題される句
+出題される句の画面右の文字をドラッグアンドドロップで並び替え、さらに画面下部の「句確認」ボタンをタップすると句を完成し、「お年玉」を入手できます。
+出題される7つの句を全て完成させると、限定設備「梅の語り」を入手できます。
+
+ヒント：
+画面左下のSDキャラを3回タップすると…？
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.couplete_drag_tip = {
+	tip = "※ドラッグして字の並びを調整可能"
+}
+
+_G.pg.base.gametip.couplete_remind = {
+	tip = "正解は「$1」"
+}
+
+_G.pg.base.gametip.couplete_complete = {
+	tip = "句が全て完成しましたね"
+}
+
+_G.pg.base.gametip.couplete_enter = {
+	tip = "任務をクリアして、句を解放しましょう"
+}
+
+_G.pg.base.gametip.couplete_stay = {
+	tip = "SDキャラタップでヒントをもらえます"
+}
+
+_G.pg.base.gametip.couplete_task = {
+	tip = "任務クリアで次の句が開放されます"
+}
+
+_G.pg.base.gametip.couplete_pass_1 = {
+	tip = "うん。その感じです"
+}
+
+_G.pg.base.gametip.couplete_pass_2 = {
+	tip = "正解ですよ。指揮官"
+}
+
+_G.pg.base.gametip.couplete_fail_1 = {
+	tip = "どこかが間違っていますね…"
+}
+
+_G.pg.base.gametip.couplete_fail_2 = {
+	tip = "並び替えたほうがよさそうです"
+}
+
+_G.pg.base.gametip.couplete_pair_1 = {
+	tip = "つゆにぬれつつ"
+}
+
+_G.pg.base.gametip.couplete_pair_2 = {
+	tip = "ゆきはふりつつ"
+}
+
+_G.pg.base.gametip.couplete_pair_3 = {
+	tip = "あまのかぐやま"
+}
+
+_G.pg.base.gametip.couplete_pair_4 = {
+	tip = "ながめせしまに"
+}
+
+_G.pg.base.gametip.couplete_pair_5 = {
+	tip = "みづくくるとは"
+}
+
+_G.pg.base.gametip.couplete_pair_6 = {
+	tip = "ひとりかもねむ"
+}
+
+_G.pg.base.gametip.couplete_pair_7 = {
+	tip = "いでしつきかも"
+}
+
+_G.pg.base.gametip["2023spring_minigame_item_lantern"] = {
+	tip = "新春灯籠|使用すると年獣を遠ざけられ、5秒間接近してこれなくなる"
+}
+
+_G.pg.base.gametip["2023spring_minigame_item_firecracker"] = {
+	tip = "バクチク|使用すると周りの年獣をびっくりさせ5秒間逃げさせる事が可能"
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_icewall"] = {
+	tip = "アイスウォール|年獣を阻む氷の壁を作り出す"
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_icewall_up"] = {
+	tip = "スキル「アイスウォール」を開放。長さ7マス、スキルクールダウン1秒|アイスウォール長さ2マス増加|アイスウォール長さ2増加"
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_sprint"] = {
+	tip = "クイックステップ|一定時間移動速度が20％アップ"
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_sprint_up"] = {
+	tip = "スキル「クイックステップ」を開放。持続時間5秒。スキルクールダウン20秒|移動速度がさらに10％アップ|持続時間が2秒伸びる"
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_flash"] = {
+	tip = "フラッシュ|障害物を無視し一定距離離れた前方に瞬間移動する"
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_flash_up"] = {
+	tip = "スキル「フラッシュ」を開放。スキルクールダウン30秒|クールダウンタイム5秒短縮|クールダウンタイム5秒短縮"
+}
+
+_G.pg.base.gametip["2023spring_minigame_bless_speed"] = {
+	tip = "ハイスピード|基本移動速度が上昇する"
+}
+
+_G.pg.base.gametip["2023spring_minigame_bless_speed_up"] = {
+	tip = "基本移動速度が3％上昇|基本移動速度がさらに3％上昇|基本移動速度がさらに4％上昇"
+}
+
+_G.pg.base.gametip["2023spring_minigame_bless_substitute"] = {
+	tip = "デコイ|年獣に攻撃された瞬間氷の分身を作り出し、離れた場所に瞬間移動する（一度しか使えない）"
+}
+
+_G.pg.base.gametip["2023spring_minigame_bless_substitute_up"] = {
+	tip = "スキル「デコイ」を開放"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill1"] = {
+	tip = "転送年獣|障害物に囲まれるか、撫順から遠く離れた場合、撫順の近くまで瞬間移動する"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill2"] = {
+	tip = "高速年獣|年獣の基本移動速度が10%上昇する"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill3"] = {
+	tip = "剛力年獣|氷の壁を破壊できる"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill4"] = {
+	tip = "重力年獣|撫順の移動速度を15％ダウンさせる"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill5"] = {
+	tip = "分身年獣|分身を召喚する。分身は特殊能力を持たず、移動速度が本物の70％になる"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill6"] = {
+	tip = "渋滞年獣|撫順のスキルのクールダウンタイムを20％増加させる"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill7"] = {
+	tip = "吸引年獣|20秒毎にランダムでブラックホールを作り出す。撫順が近づくと移動速度がダウンし、さらに中心に入ると1秒間移動不可となる"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill8"] = {
+	tip = "爆速年獣|10秒毎に発動し、5秒間移動速度が20％アップする（効果持続中に攻撃すると効果が無効になる）"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip1"] = {
+	tip = "装備"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip2"] = {
+	tip = "装備済み"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip3"] = {
+	tip = "スコア"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip5"] = {
+	tip = "年獣能力を無効化するとスコア倍率が低下"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip6"] = {
+	tip = "$1を開放しました"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip7"] = {
+	tip = "$1がレベルアップしました"
+}
+
+_G.pg.base.gametip["2023spring_minigame_help"] = {
+	tip = {
+		{
+			info = [[
+概要：
+「撫順の大冒険Ⅳ」とは、SDキャラを操作し、年獣饅頭を避けながら画面上の料理などのアイテムを集めてスコアを稼ぐミニゲームになります。
+<color=#92fc63>1.24（火）</color>まで毎日1ステージ開放されます。7ステージ全部クリアすると、駆逐艦「撫順」を入手できます。
+
+遊び方：
+1.画面左下のボタンを操作することで撫順を移動させることができます。また画面右下のボタンで開放されたアイテムやスキルを使用できます。
+
+2.画面上部に表示されたアイテムアイコンと同じアイテムを入手するとスコアを入手できます。制限時間が0になるか、ゲームを中止するとゲームクリアになります。
+
+3.ゲームの「各種設定」では、入手したスコアを消費して、アイテムやスキルを開放・装備することができます。
+
+4.ステージの開始画面ではそのステージに出現する年獣の能力が表示されます。年獣の能力を無効化すると、ステージで入手できるスコアの倍率も低下します。
+
+5.各ステージでは年獣の能力、ステージで入手できるスコアの倍率が異なります。
+
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.multiple_sorties_title = {
+	tip = "連続挑戦"
+}
+
+_G.pg.base.gametip.multiple_sorties_title_eng = {
+	tip = "Multiple Sorties"
+}
+
+_G.pg.base.gametip.multiple_sorties_locked_tip = {
+	tip = "当該ステージ一回クリアで<color=#92fc63>連続作戦</color>機能が開放"
+}
+
+_G.pg.base.gametip.multiple_sorties_times = {
+	tip = "挑戦回数"
+}
+
+_G.pg.base.gametip.multiple_sorties_tip = {
+	tip = "※連続挑戦では<color=#92fc63>「オート戦闘」</color>、<color=#92fc63>「潜水艦自動召喚」</color>が適用されます"
+}
+
+_G.pg.base.gametip.multiple_sorties_challenge_ticket_use = {
+	tip = "自動使用"
+}
+
+_G.pg.base.gametip.multiple_sorties_cost1 = {
+	tip = "消費：<color=#92fc63>「燃料<icon name=oil w=0.7 h=0.7/>$1」</color>"
+}
+
+_G.pg.base.gametip.multiple_sorties_cost2 = {
+	tip = "<color=#92fc63>「特別戦闘券<icon name=ticket w=0.7 h=0.7/>$1」</color>"
+}
+
+_G.pg.base.gametip.multiple_sorties_stopped = {
+	tip = "中止しました"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_tip = {
+	tip = "<color=#92fc63>連続挑戦</color>を中止しました。戦闘終了時に前の画面に戻ります"
+}
+
+_G.pg.base.gametip.multiple_sorties_resume_tip = {
+	tip = "<color=#92fc63>連続挑戦</color>を継続します"
+}
+
+_G.pg.base.gametip.multiple_sorties_auto_on = {
+	tip = "<color=#92fc63>オート戦闘</color>が開始されました"
+}
+
+_G.pg.base.gametip.multiple_sorties_finish = {
+	tip = "連続挑戦が完了しました"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop = {
+	tip = "連続挑戦を中止しました"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_end = {
+	tip = "　　連続挑戦が中止されました"
+}
+
+_G.pg.base.gametip.multiple_sorties_end_status = {
+	tip = "連続挑戦設定出撃回数<color=#92fc63>$1</color>回。中止・終了時時出撃回数<color=#92fc63>$2</color>回。"
+}
+
+_G.pg.base.gametip.multiple_sorties_finish_tip = {
+	tip = "<color=#92fc63>連続挑戦</color>が完了しました"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_tip_end = {
+	tip = "　　連続挑戦が中止されました"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_reason1 = {
+	tip = "燃料が不足しているため"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_reason2 = {
+	tip = "編成中の<color=#92fc63>$2</color>のコンディションが低いため"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_reason3 = {
+	tip = "ドックの空きがないため"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_reason4 = {
+	tip = "戦闘敗北のため"
+}
+
+_G.pg.base.gametip.msgbox_text_battle = {
+	tip = "出撃"
+}
+
+_G.pg.base.gametip.pre_combat_start = {
+	tip = "出撃"
+}
+
+_G.pg.base.gametip.pre_combat_start_en = {
+	tip = "WEIGH ANCHOR"
 }

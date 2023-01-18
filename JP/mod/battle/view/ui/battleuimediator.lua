@@ -245,6 +245,7 @@ function slot6.AddUIEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_HOSTILE_SUBMARINE, slot0.onUpdateHostileSubmarine)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_ENVIRONMENT_WARNING, slot0.onUpdateEnvironmentWarning)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_COUNT_DOWN, slot0.onUpdateCountDown)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.HIDE_INTERACTABLE_BUTTONS, slot0.OnHideButtons)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_UI_FX, slot0.OnAddUIFX)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.JAMMING, slot0.onJamming)
 end
@@ -273,6 +274,7 @@ function slot6.RemoveUIEvent(slot0)
 	slot0._userFleet:UnregisterEventListener(slot0, uv0.UPDATE_FLEET_ATTR)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_HOSTILE_SUBMARINE)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_ENVIRONMENT_WARNING)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.HIDE_INTERACTABLE_BUTTONS)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_UI_FX)
 end
 
@@ -628,6 +630,13 @@ function slot6.AddBossWarningUI(slot0)
 		uv0._appearEffect = nil
 	end)
 	SetActive(slot0._appearEffect, true)
+end
+
+function slot6.OnHideButtons(slot0, slot1)
+	slot2 = slot1.Data.isActive
+
+	slot0._skillView:HideSkillButton(not slot2)
+	SetActive(slot0._autoBtn.transform, slot2)
 end
 
 function slot6.registerUnitEvent(slot0, slot1)

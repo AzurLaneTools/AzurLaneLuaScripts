@@ -3139,7 +3139,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				69916,
+				69917,
 				1
 			},
 			{
@@ -4142,6 +4142,321 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[48] = {
+		subject = "春節福袋2023・Ⅰ ",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		limit_arg = 1,
+		name = "春節福袋2023・Ⅰ ",
+		name_display = "春節福袋2023・Ⅰ ",
+		type_order = 2,
+		extra_gem = 0,
+		id = 48,
+		money = 3800,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudaiqp1",
+		id_str = "com.bilibili.blhx.zuanshi145",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "アイテム・資源とランダムに旧正月2023シリーズの着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond137",
+		extra_service_item = {
+			{
+				2,
+				69924,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69924,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[49] = {
+		subject = "春節福袋2023・Ⅱ ",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		limit_arg = 1,
+		name = "春節福袋2023・Ⅱ ",
+		name_display = "春節福袋2023・Ⅱ ",
+		type_order = 2,
+		extra_gem = 0,
+		id = 49,
+		money = 3800,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudaiqp2",
+		id_str = "com.bilibili.blhx.zuanshi146",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "アイテム・資源とランダムに旧正月2023シリーズの着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond138",
+		extra_service_item = {
+			{
+				2,
+				69925,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69925,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[50] = {
+		subject = "春節福袋2022(復刻) ",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		limit_arg = 1,
+		name = "春節福袋2022(復刻) ",
+		name_display = "春節福袋2022(復刻) ",
+		type_order = 2,
+		extra_gem = 0,
+		id = 50,
+		money = 3800,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai7",
+		id_str = "com.bilibili.blhx.zuanshi147",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "アイテム・資源とランダムに旧正月2022シリーズの着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond139",
+		extra_service_item = {
+			{
+				2,
+				69917,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69917,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[1000] = {
 		subject = "クルーズパス",
 		limit_group = 0,
@@ -4721,6 +5036,79 @@ pg.pay_data_display = {
 		},
 		sub_display = {
 			7008,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[1008] = {
+		subject = "クルーズパス(23冬)",
+		limit_group = 0,
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
+		type = 0,
+		limit_arg = 1,
+		name = "クルーズパス(23冬)",
+		name_display = "クルーズパス(23冬)",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1008,
+		money = 1200,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.bilibili.blhx.battlepass9",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		airijp_id = "com.yostarjp.azurlane.seasonpass9",
+		extra_service_item = {
+			{
+				1,
+				4009,
+				1500
+			},
+			{
+				8,
+				59299,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4009,
+				1500
+			}
+		},
+		sub_display = {
+			7009,
 			1500
 		},
 		ignorePlatform = {},
@@ -5447,6 +5835,9 @@ pg.pay_data_display = {
 		45,
 		46,
 		47,
+		48,
+		49,
+		50,
 		1000,
 		1001,
 		1002,
@@ -5455,6 +5846,7 @@ pg.pay_data_display = {
 		1005,
 		1006,
 		1007,
+		1008,
 		2001,
 		2002,
 		2003,

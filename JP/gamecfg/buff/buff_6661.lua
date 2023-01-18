@@ -23,7 +23,11 @@ return {
 			},
 			arg_list = {
 				attr = "airPower",
-				number = 800
+				number = 800,
+				group = {
+					id = 6661,
+					level = 1
+				}
 			}
 		}
 	}

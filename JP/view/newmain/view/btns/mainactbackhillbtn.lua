@@ -33,8 +33,12 @@ function slot0.IsShowTip(slot0)
 		return slot0:IsShowTipRyzaLink()
 	end
 
-	if getProxy(ActivityProxy):getActivityById(slot1) and slot2:getConfig("config_client").scene == SCENE.NEWYEAR_BACKHILL_2023 then
-		return slot0:IsShowTip4NewYear2023()
+	if getProxy(ActivityProxy):getActivityById(slot1) then
+		if slot2:getConfig("config_client").scene == SCENE.NEWYEAR_BACKHILL_2023 then
+			return slot0:IsShowTip4NewYear2023()
+		elseif slot3 == SCENE.SPRING_FESTIVAL_BACKHILL_2023 then
+			return SpringFestival2023Scene.IsShowMainTip()
+		end
 	end
 end
 
@@ -134,7 +138,7 @@ end
 function slot0.IsShowTip4NewYear2023(slot0)
 	return _.any(_.values({
 		fudai = function ()
-			return RedPacket2023Layer.isShowRedPoint()
+			return BeachPacketLayer.isShowRedPoint()
 		end,
 		hotspring = function ()
 			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING))
