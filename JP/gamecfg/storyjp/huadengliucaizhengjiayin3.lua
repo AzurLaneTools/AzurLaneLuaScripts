@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "应瑞",
+			actorName = "応瑞",
 			side = 2,
 			say = "いいえ、笑っていませんけど？",
 			painting = {
@@ -125,7 +125,7 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "应瑞",
+			actorName = "応瑞",
 			side = 2,
 			say = "それより…新春おめでとうございます。指揮官♪",
 			painting = {
@@ -143,7 +143,7 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "应瑞",
+			actorName = "応瑞",
 			side = 2,
 			say = "姉さんも、早く終わらせないと今の姿を指揮官に見られちゃいますよ？",
 			painting = {
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "应瑞",
+			actorName = "応瑞",
 			side = 2,
 			say = "ふーん、指揮官？肇和姉さんと机の下で何をしているんですか～？",
 			painting = {

@@ -878,7 +878,7 @@ slot1 = {
 					end
 				end
 
-				slot2 = slot0.controller:GetWayfindingMap(slot0.pos, not slot0.isDoppel, slot0.isDoppel)
+				slot2 = slot0.controller:GetWayfindingMap(slot0.pos, tobool(slot0.isDoppel))
 				slot3 = slot0.pos
 
 				for slot7, slot8 in ipairs({

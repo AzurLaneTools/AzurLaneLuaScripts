@@ -573,7 +573,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "「リトルウィッチ」…やっぱりね。シーシュース",
+			actorName = "シーシュース",
 			say = "そうよ。私こそ選ばれし「リトルウィッチ」、シーシュースだわ！",
 			painting = {
 				alpha = 0.3,
@@ -609,7 +609,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "「リトルウィッチ」…やっぱりね。シーシュース",
+			actorName = "シーシュース",
 			say = "えへへ、まぁね～",
 			painting = {
 				alpha = 0.3,
@@ -627,7 +627,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "「リトルウィッチ」…やっぱりね。シーシュース",
+			actorName = "シーシュース",
 			say = "というわけで、クイビシェフもコインを渡してもらえないかな？",
 			painting = {
 				alpha = 0.3,
@@ -645,7 +645,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "「リトルウィッチ」…やっぱりね。シーシュース",
+			actorName = "シーシュース",
 			say = "妖精のお宝を手に入れて、母港を守るナイトさんとデートをしたいの♪",
 			painting = {
 				alpha = 0.3,
@@ -699,7 +699,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "「リトルウィッチ」…やっぱりね。シーシュース",
+			actorName = "シーシュース",
 			say = "「リトルウィッチ」よ！ぷんぷん！",
 			painting = {
 				alpha = 0.3,
@@ -727,7 +727,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "「リトルウィッチ」…やっぱりね。シーシュース",
+			actorName = "シーシュース",
 			say = "まあこうして模擬戦をするのも予定通りだし、ここは素直に戦お～",
 			painting = {
 				alpha = 0.3,
@@ -745,7 +745,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "「リトルウィッチ」…やっぱりね。シーシュース",
+			actorName = "シーシュース",
 			say = "よーく見といてね！シーシュースが優勝するんだから！",
 			painting = {
 				alpha = 0.3,

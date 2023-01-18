@@ -10271,8 +10271,8 @@ pg.ship_skin_template_20 = {
 			2
 		},
 		live2d_offset = {
-			-60,
-			160,
+			-65,
+			170,
 			0
 		},
 		fx_container = {

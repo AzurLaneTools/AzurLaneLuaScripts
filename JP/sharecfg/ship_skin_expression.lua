@@ -42210,7 +42210,7 @@ pg.ship_skin_expression = {
 		login = "5",
 		detail = "2"
 	},
-	U47_6 = {
+	u47_6 = {
 		default = "",
 		feeling3 = "4",
 		unlock = "",
@@ -42221,7 +42221,7 @@ pg.ship_skin_expression = {
 		mission = "4",
 		touch2 = "2",
 		feeling1 = "5",
-		painting = "U47_6",
+		painting = "u47_6",
 		lose = "4",
 		feeling4 = "2",
 		touch = "1",

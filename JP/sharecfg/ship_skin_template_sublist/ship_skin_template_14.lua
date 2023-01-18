@@ -112,8 +112,8 @@ pg.ship_skin_template_14 = {
 		bg = "152",
 		id = 408025,
 		group_index = 5,
-		prefab = "U47_6",
-		painting = "U47_6",
+		prefab = "u47_6",
+		painting = "u47_6",
 		shop_id = 70818,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
@@ -6794,7 +6794,6 @@ pg.ship_skin_template_14 = {
 		air_bomb_skin = "",
 		shop_type_id = 3,
 		illustrator = 21,
-		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
 		bullet_skin_main = "",
 		skin_type = 0,
@@ -6821,8 +6820,8 @@ pg.ship_skin_template_14 = {
 			2
 		},
 		live2d_offset = {
-			0,
-			0,
+			180,
+			-20,
 			0
 		},
 		fx_container = {
@@ -6906,6 +6905,9 @@ pg.ship_skin_template_14 = {
 			"touch_body",
 			"touch_special",
 			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
 		}
 	},
 	[502050] = {

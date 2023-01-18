@@ -178,6 +178,18 @@ function slot0.removeActivity(slot0, slot1)
 	end
 end
 
+function slot0.loadLayers(slot0)
+	if slot0.pageDic[slot0.activity.id] and slot1.OnLoadLayers then
+		slot1:OnLoadLayers()
+	end
+end
+
+function slot0.removeLayers(slot0)
+	if slot0.pageDic[slot0.activity.id] and slot1.OnRemoveLayers then
+		slot1:OnRemoveLayers()
+	end
+end
+
 function slot0.GetOnShowEntranceData()
 	uv0 = uv0 or require("GameCfg.activity.EntranceData")
 

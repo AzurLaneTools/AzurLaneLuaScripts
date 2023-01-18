@@ -197819,8 +197819,8 @@ _G.pg.base.item_data_statistics[69924] = {
 	display = [[
 下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
 各衣装の出現割合：
-（<color=#92fc63>12.0%</color>）応瑞：戯れる松梅・上（<color=#92fc63>Live：2D</color>）；
-（<color=#92fc63>12.0%</color>）肇和：戯れる松梅・下（<color=#92fc63>Live：2D</color>）；
+（<color=#92fc63>12.0%</color>）応瑞：戯れる松梅・上（<color=#92fc63>Live 2D</color>）；
+（<color=#92fc63>12.0%</color>）肇和：戯れる松梅・下（<color=#92fc63>Live 2D</color>）；
 （<color=#92fc63>12.0%</color>）華甲：霊幻艦船新春夜；
 （<color=#92fc63>12.0%</color>）逸仙：螓首蛾眉；
 （<color=#92fc63>14.0%</color>）クイビシェフ：銀弦の嚮導兵；
@@ -197851,8 +197851,8 @@ _G.pg.base.item_data_statistics[69925] = {
 	display = [[
 下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
 各衣装の出現割合：
-（<color=#92fc63>12.0%</color>）プリンツ・ループレヒト：ドラゴンの龍門上り？（<color=#92fc63>Live：2D</color>）；
-（<color=#92fc63>12.0%</color>）エーギル：祥雲に昇る金龍（<color=#92fc63>Live：2D</color>）；
+（<color=#92fc63>12.0%</color>）プリンツ・ループレヒト：ドラゴンの龍門上り？（<color=#92fc63>Live 2D</color>）；
+（<color=#92fc63>12.0%</color>）エーギル：祥雲に昇る金龍（<color=#92fc63>Live 2D</color>）；
 （<color=#92fc63>16.1%</color>）U-47：dynamic rising；
 （<color=#92fc63>15.8%</color>）リュッツォウ：お熱いうちにちょうだい♪；
 （<color=#92fc63>15.8%</color>）アラバマ：緞子金襴；
