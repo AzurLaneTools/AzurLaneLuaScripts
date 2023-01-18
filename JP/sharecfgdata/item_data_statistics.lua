@@ -197630,8 +197630,8 @@ _G.pg.base.item_data_statistics[69917] = {
 	display = [[
 下記の着せ替えからランダムに入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
 各衣装の出現割合：
-（<color=#92fc63>12.0%</color>）カリブディス：癒やしの紅閨（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12.0%</color>）赤城 朝凰来儀（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.0%</color>）カリブディス：癒やしの紅閨（<color=#92fc63>Live 2D</color>）；
+（<color=#92fc63>12.0%</color>）赤城：朝凰来儀（<color=#92fc63>Live 2D</color>）；
 （<color=#92fc63>5.2%</color>）ブリストル：東煌志怪談；
 （<color=#92fc63>5.2%</color>）リノ：きらめく春の息吹；
 （<color=#92fc63>5.2%</color>）加賀：鸞翔影集；
