@@ -6414,9 +6414,7 @@ pg.ship_skin_template_14 = {
 		air_bomb_skin = "",
 		shop_type_id = 3,
 		illustrator = 21,
-		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
-		l2d_animations = "",
 		bullet_skin_main = "",
 		skin_type = 4,
 		bg_sp = "1101",
@@ -6442,8 +6440,8 @@ pg.ship_skin_template_14 = {
 			2
 		},
 		live2d_offset = {
-			0,
-			0,
+			180,
+			-20,
 			0
 		},
 		fx_container = {
@@ -6512,6 +6510,23 @@ pg.ship_skin_template_14 = {
 					}
 				}
 			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
 		}
 	},
 	[502050] = {

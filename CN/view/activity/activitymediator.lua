@@ -343,7 +343,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.MONOPOLY_AWARD_DONE,
 		GAME.ACTIVITY_PERMANENT_START_DONE,
 		GAME.ACTIVITY_PERMANENT_FINISH_DONE,
-		GAME.MEMORYBOOK_UNLOCK_AWARD_DONE
+		GAME.MEMORYBOOK_UNLOCK_AWARD_DONE,
+		GAME.LOAD_LAYERS
 	}
 end
 
@@ -422,6 +423,8 @@ function slot0.handleNotification(slot0, slot1)
 		if slot3.context.mediator == VoteFameHallMediator then
 			slot0.viewComponent:updateEntrances()
 		end
+
+		slot0.viewComponent:removeLayers()
 	elseif slot2 == GAME.MONOPOLY_AWARD_DONE then
 		if slot0.viewComponent.pageDic[slot0.viewComponent.activity.id] and slot4.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY and slot4.onAward then
 			slot4:onAward(slot3.awards, slot3.callback)
@@ -449,6 +452,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:emit(ActivityMediator.ACTIVITY_PERMANENT, slot3.activity_id)
 	elseif slot2 == GAME.MEMORYBOOK_UNLOCK_AWARD_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+	elseif slot2 == GAME.LOAD_LAYERS then
+		slot0.viewComponent:loadLayers()
 	end
 end
 

@@ -322,7 +322,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[50201] = {
 		ship_group = 50201,
-		name = "YIXIAN",
+		name = "Yi Xian",
 		sculpture = "yixian"
 	},
 	[50101] = {
@@ -1992,7 +1992,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[50602] = {
 		ship_group = 50602,
-		name = "Hwah Jah",
+		name = "Hua Jia",
 		sculpture = "huajia_2"
 	},
 	[89903] = {
@@ -2007,7 +2007,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[59901] = {
 		ship_group = 59901,
-		name = "Harbin",
+		name = "Bin Jiang",
 		sculpture = "haerbin"
 	},
 	[79901] = {
@@ -2017,7 +2017,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[49907] = {
 		ship_group = 49907,
-		name = "Prinz Rupprecht",
+		name = "Prinz-Rupprecht",
 		sculpture = "lupuleixite"
 	},
 	all = {

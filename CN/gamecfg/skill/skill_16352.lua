@@ -1,11 +1,11 @@
 return {
 	uiEffect = "",
-	name = "联合暴击伤害",
+	name = "生效弹条",
 	cd = 0,
-	painting = 0,
-	id = 16351,
+	painting = 1,
+	id = 16352,
 	picture = "0",
-	desc = "联合暴击伤害",
+	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -20,13 +20,10 @@ return {
 			casterAniEffect = "",
 			targetAniEffect = "",
 			target_choise = {
-				"TargetAllHelp",
-				"TargetPlayerVanguardFleet",
-				"TargetNationality"
+				"TargetSelf"
 			},
 			arg_list = {
-				buff_id = 16353,
-				nationality = 7
+				buff_id = 16352
 			}
 		}
 	}

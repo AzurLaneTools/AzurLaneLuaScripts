@@ -80690,6 +80690,7 @@ _G.pg.base.ship_data_template[502011] = {
 	buff_list_display = {
 		10760,
 		10500,
+		16440,
 		24121
 	},
 	hide_buff_list = {}
@@ -80737,6 +80738,7 @@ _G.pg.base.ship_data_template[502012] = {
 	buff_list_display = {
 		10760,
 		10500,
+		16440,
 		24121
 	},
 	hide_buff_list = {}
@@ -80784,6 +80786,7 @@ _G.pg.base.ship_data_template[502013] = {
 	buff_list_display = {
 		10760,
 		10500,
+		16440,
 		24121
 	},
 	hide_buff_list = {}
@@ -80831,6 +80834,7 @@ _G.pg.base.ship_data_template[502014] = {
 	buff_list_display = {
 		10760,
 		10500,
+		16440,
 		24122
 	},
 	hide_buff_list = {}

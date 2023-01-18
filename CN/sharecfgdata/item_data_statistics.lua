@@ -199380,8 +199380,8 @@ _G.pg.base.item_data_statistics[69924] = {
 	display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
-（<color=#92fc63>12.0%</color>）应瑞换装 松戏梅·其上<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12.0%</color>）肇和换装 松戏梅·其下<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.0%</color>）应瑞换装 松戏梅·其上（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.0%</color>）肇和换装 松戏梅·其下（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>12.0%</color>）华甲换装 欢乐喜庆僵尸夜；
 （<color=#92fc63>12.0%</color>）逸仙换装  膏发凝脂；
 （<color=#92fc63>14.0%</color>）古比雪夫换装 银弦的向导兵；
@@ -199412,8 +199412,8 @@ _G.pg.base.item_data_statistics[69925] = {
 	display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
-（<color=#92fc63>12.0%</color>）鲁普雷希特亲王换装 腾龙戏春？<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12.0%</color>）埃吉尔换装 金龙腾祥云<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.0%</color>）鲁普雷希特亲王换装 腾龙戏春？（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.0%</color>）埃吉尔换装 金龙腾祥云（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>16.1%</color>）U-47换装 锦鲤捕获作战；
 （<color=#92fc63>15.8%</color>）吕佐夫换装 请趁热享用?；
 （<color=#92fc63>15.8%</color>）阿拉巴马换装 金锱银铢；
