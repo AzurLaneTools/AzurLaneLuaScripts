@@ -41,10 +41,7 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_CLICK_SETTINGS_BTN, function (slot0)
 		uv0:addSubLayers(Context.New({
 			viewComponent = TechnologySettingsLayer,
-			mediator = TechnologySettingsMediator,
-			onRemoved = function ()
-				uv0.viewComponent:updateSettingsBtn()
-			end
+			mediator = TechnologySettingsMediator
 		}))
 	end)
 
@@ -63,7 +60,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.FINISH_QUEUE_TECHNOLOGY_DONE,
 		TechnologyProxy.TECHNOLOGY_UPDATED,
 		TechnologyProxy.REFRESH_UPDATED,
-		PlayerProxy.UPDATED
+		PlayerProxy.UPDATED,
+		TechnologySettingsMediator.EXIT_CALL
 	}
 end
 
@@ -108,6 +106,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateRefreshBtn(slot2)
 	elseif slot3 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot2)
+	elseif slot3 == TechnologySettingsMediator.EXIT_CALL then
+		slot0.viewComponent:updateSettingsBtn()
 	end
 end
 

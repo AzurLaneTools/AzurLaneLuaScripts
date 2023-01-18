@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"演习神秘事件调查\n\n<size=45>一 演习开始</size>",
+					"布里斯托爾共鬥劇情\n\n<size=45>一 演習開始</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日·港区",
+			say = "某日·港區",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔，是指挥官啊，有何贵干？",
+			say = "唔，是指揮官啊，有何貴幹？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			},
 			options = {
 				{
-					content = "将任务书递给英格拉罕。",
+					content = "將任務書遞給英格拉罕。",
 					flag = 1
 				}
 			}
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "诶？是新的任务？",
+			say = "欸？是新的任務？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "没记错的话，我现在应该是在休假中……？",
+			say = "沒記錯的話，我現在應該是在休假中……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			},
 			options = {
 				{
-					content = "其实……",
+					content = "其實……",
 					flag = 1
 				}
 			}
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不是给我的任务……？",
+			say = "不是給我的任務……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "……这是什么休假期间限定的玩笑么？",
+			say = "……這是什麼休假期間限定的玩笑嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "英格拉罕接过任务书，有些疑惑地翻了起来。",
+			say = "英格拉罕接過任務書，有些疑惑地翻了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“……准备展开新一轮的实战对抗演习，目的在于检验港区舰队的应变能力……”",
+			say = "“……準備展開新一輪的實戰對抗演習，目的在於檢驗港區艦隊的應變能力……”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "“……地点位于外海废弃基地附近的演习海域，计划安排艾伦·萨姆纳级的布里斯托尔作为演习的进攻方……”",
+			say = "“……地點位於外海廢棄基地附近的演習海域，計劃安排艾倫·M·桑拿級的布里斯托爾作為演習的進攻方……”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此。",
+			say = "原來如此。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "英格拉罕阅读完毕之后，将任务书抱在怀里，歪着脑袋望了过来。",
+			say = "英格拉罕閱讀完畢之後，將任務書抱在懷裡，歪著腦袋望了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "所以，指挥官的意思是让我代为传达吗？",
+			say = "所以，指揮官的意思是讓我代為傳達嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为布里斯托尔还在返航途中，而你接下来要去参加会议——差不多就是这么回事吧？",
+			say = "因為布里斯托爾還在返航途中，而你接下來要去參加會議——差不多就是這麼回事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			},
 			options = {
 				{
-					content = "对占用假期致歉。",
+					content = "對占用假期致歉。",
 					flag = 1
 				}
 			}
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "没事没事，小事一桩啦~",
+			say = "沒事沒事，小事一樁啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我这就去给布里斯托尔发报，指挥官就安心去开会吧！",
+			say = "我這就去給布里斯托爾發訊息，指揮官就安心去開會吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "英格拉罕看来已经完全理解了任务，径直向着通讯室的方向走去了。",
+			say = "英格拉罕看來已經完全理解了任務，徑直向著通訊室的方向走去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "虽然布里斯托尔的思维比较活跃，不过交给同为艾伦·萨姆纳级的英格拉罕去传达应该不会出问题。",
+			say = "雖然布里斯托爾的思維比較活躍，不過交給同為艾倫·M·桑拿級的英格拉罕去傳達應該不會出問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "这件事就算告一段落，差不多该返回指挥室进行会议准备了——",
+			say = "這件事就算告一段落，差不多該返回指揮室進行會議準備了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "通讯测试，一二三……这里是英格拉罕，呼叫布里斯托尔。",
+			say = "通訊測試，一二三……這裡是英格拉罕，呼叫布里斯托爾。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101490,
-			say = "咦，英格拉罕？现在还不到定期联络的时间啊，出什么事了么？",
+			say = "咦，英格拉罕？現在還不到定期聯絡的時間啊，出什麼事了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "嗯。指挥官现在无法脱身，所以只好由我来向你传达紧急任务。",
+			say = "嗯。指揮官現在無法脫身，所以只好由我來向你傳達緊急任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "计划有变，立刻改变航向前往新的海域，坐标已经发给你了。",
+			say = "計劃有變，立刻改變航向前往新的海域，座標已經發給你了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "请火速前往，注意安全。",
+			say = "請火速前往，注意安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（通讯中断）",
+			say = "（通訊中斷）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "轻松又高效……临时任务完成，该继续休假时光了——",
+			say = "輕鬆又高效……臨時任務完成，該繼續休假時光了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			oldPhoto = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "与此同时的某处海域",
+			say = "與此同時的某處海域",
 			dir = 1,
 			bgm = "xinnong-3",
 			flashout = {
@@ -564,7 +564,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等，等一下啊英格拉罕！到底发生了什么事了？！",
+			say = "等，等一下啊英格拉罕！到底發生了什麼事了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……通讯中断了？！",
+			say = "……通訊中斷了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官……无法脱身？！计划有变……紧急任务，而且要火速前往、注意安全？！",
+			say = "指揮官……無法脫身？！計劃有變……緊急任務，而且要火速前往、注意安全？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "该不会是港区遭受了袭击，所以指挥官无法脱身……",
+			say = "該不會是港區遭受了襲擊，所以指揮官無法脫身……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "而恰好只有我在外面执行任务，所以需要火速前往新的海域执行紧急任务……",
+			say = "而恰好只有我在外面執行任務，所以需要火速前往新的海域執行緊急任務……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "总，总之先冷静下来……深呼吸！",
+			say = "總，總之先冷靜下來……深呼吸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不行……完全冷静不下来！",
+			say = "不行……完全冷靜不下來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "怎么办……要不还是发个消息回去问问好了……",
+			say = "怎麼辦……要不還是發個消息回去問問好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不对，不能发消息！",
+			say = "不對，不能發消息！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,7 +793,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			oldPhoto = true,
-			say = "如果港区遇袭的话就表示……往来的通讯信号都会被监控！",
+			say = "如果港區遇襲的話就表示……往來的通訊訊號都會被監控！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -812,7 +812,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "所以通讯内容才会这么简略……！",
+			say = "所以通訊內容才會這麼簡略……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -831,7 +831,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "冷静下来布里斯托尔……这种情况在曾经的演习中也不是没有应对过……",
+			say = "冷靜下來布里斯托爾……這種情況在曾經的演習中也不是沒有應對過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -849,7 +849,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			oldPhoto = true,
-			say = "在这种已知被监听的情况下……通讯应该启用特殊的加密方式。",
+			say = "在這種已知被監聽的情況下……通訊應該啟用特殊的加密方式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,7 +868,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "也就是说，刚才的通讯其实是暗号……！",
+			say = "也就是說，剛才的通訊其實是暗號……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -893,7 +893,7 @@ return {
 			oldPhoto = true,
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "布里斯托尔从舰装上摘下了提灯，将其紧握在手中——虽然现在是白天。",
+			say = "布里斯托爾從艦裝上摘下了提燈，將其緊握在手中——雖然現在是白天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -930,7 +930,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不管怎么说，还是应该先依照命令火速前往指定海域。",
+			say = "不管怎麼說，還是應該先依照命令火速前往指定海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -948,7 +948,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			oldPhoto = true,
-			say = "……嗯？那个坐标我记得好像是一个离港区不远的一个废弃基地……",
+			say = "……嗯？那個座標我記得好像是一個離港區不遠的一個廢棄基地……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -967,7 +967,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原来如此……是想让我在那里重新集结兵力，赶走袭击港区的敌人对吧！",
+			say = "原來如此……是想讓我在那裡重新集結兵力，趕走襲擊港區的敵人對吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1014,7 +1014,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			oldPhoto = true,
-			say = "布里斯托尔，出发！",
+			say = "布里斯托爾，出發！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

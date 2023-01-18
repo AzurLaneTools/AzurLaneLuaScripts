@@ -1,5 +1,6 @@
 slot0 = class("TechnologySettingsMediator", import("..base.ContextMediator"))
-slot0.CHANGE_TENDENCY = "TechnologySettingsMediator:CHANGE_TENDENCY"
+slot0.CHANGE_TENDENCY = "TechnologySettingsMediator.CHANGE_TENDENCY"
+slot0.EXIT_CALL = "TechnologySettingsMediator.EXIT_CALL"
 
 function slot0.register(slot0)
 	slot0:bindEvent()
@@ -33,6 +34,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateTargetCatchupPage(slot3.tecID)
 		slot0.viewComponent:updateTargetCatchupBtns()
 	end
+end
+
+function slot0.remove(slot0)
+	slot0:sendNotification(uv0.EXIT_CALL)
 end
 
 return slot0

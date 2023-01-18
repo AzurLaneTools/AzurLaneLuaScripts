@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"essential.\n\n<size=45>一　不苟言笑的她</size>",
+					"essential.\n\n<size=45>一 不苟言笑的她</size>",
 					1
 				}
 			}
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今天的指挥室内也充斥着谜一般的沉默。",
+			say = "今天的指揮室內也充斥著謎一般的沉默。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "虽然很想说有窥视他人的空闲不如在手头继续加把劲，不过——",
+			say = "雖然很想說有窺視他人的空閒不如在手頭繼續加把勁，不過——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "指挥官，文件已经整理完毕，需要销毁的部分都放在废纸箱里了。",
+			say = "指揮官，文件已經整理完畢，需要銷毀的部分都放在廢紙箱裡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "桌上贴便签的部分都是需要你再次过目的，记得看。",
+			say = "桌上貼便條的部分都是需要你再次過目的，記得看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "——面前这位英姿飒爽的女性是最近莅任港区，并在数天前就任了秘书舰的乌尔里希·冯·胡滕。",
+			say = "——面前這位英姿颯爽的女性是最近蒞臨港區，並在數天前就任了秘書艦的烏爾里希·馮·胡滕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "她的工作能力确实肉眼可见的优秀，不过……",
+			say = "她的工作能力確實肉眼可見的優秀，不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "布置的工作已经完成了，还有什么其它的事么？",
+			say = "佈置的工作已經完成了，還有什麼其它的事麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,11 +180,11 @@ return {
 			},
 			options = {
 				{
-					content = "没什么了。",
+					content = "沒什麼了。",
 					flag = 1
 				},
 				{
-					content = "今天天气不错呢。",
+					content = "今天天氣不錯呢。",
 					flag = 2
 				}
 			}
@@ -198,7 +198,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "很好。那接下来的时间你就好好休息，我也去自由行动一下好了。",
+			say = "很好。那接下來的時間你就好好休息，我也去自由行動一下好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯，是不错。既然没什么工作，接下来的时间我就自由行动了。",
+			say = "嗯，是不錯。既然沒什麼工作，接下來的時間我就自由行動了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……担任秘书舰的这几天，胡滕除了必要的对话以外几乎不会参与闲聊话题。",
+			say = "……擔任秘書艦的這幾天，胡騰除了必要的對話以外幾乎不會參與閒聊話題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这已经不是一般的冷淡了吧，她该不会是那种对他人毫无兴趣的类型……？",
+			say = "這已經不是一般的冷淡了吧，她該不會是那種對他人毫無興趣的類型……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,42 +276,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区内倒不是没有沉默寡言的伙伴，不过像她这种程度的……真的能正常融入港区的生活么……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 405030,
-			say = "嗯？你问我在港区过得如何？不用担心，我过得挺好。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 405030,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "如果你是想打听我的人际关系，那没有必要。我本来就是作为你的部下在此，没有特别在意别人的打算。",
+			say = "港區內倒不是沒有沉默寡言的伙伴，不過像她這種程度的……真的能正常融入港區的生活嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +294,42 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你也只需考虑自己就好。",
+			say = "嗯？你問我在港區過得如何？不用擔心，我過得挺好。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 405030,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "如果你是想打聽我的人際關係，那沒有必要。我本來就是作為你的部下在此，沒有特別在意別人的打算。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 405030,
+			say = "你也只需考慮自己就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "别说放心，这回答反而更让人担忧了……",
+			say = "別說放心，這回答反而更讓人擔憂了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

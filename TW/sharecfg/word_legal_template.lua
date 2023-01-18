@@ -763,6 +763,15 @@ function temp()
 					}
 				}
 			}
+		},
+		["律"] = {
+			["布"] = {
+				["狄"] = {
+					["斯"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -1250,6 +1259,15 @@ function temp()
 		},
 		["蘭"] = {
 			this = true
+		},
+		["里"] = {
+			["斯"] = {
+				["托"] = {
+					["爾"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -1485,6 +1503,12 @@ function temp()
 			}
 		},
 		["風"] = {
+			this = true
+		},
+		["天"] = {
+			this = true
+		},
+		["圻"] = {
 			this = true
 		}
 	}
@@ -2271,7 +2295,12 @@ function temp()
 			this = true
 		},
 		["春"] = {
-			this = true
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		},
 		["波"] = {
 			this = true
@@ -2671,7 +2700,18 @@ temp()
 function temp()
 	uv0["獵"] = {
 		["人"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -4563,7 +4603,12 @@ temp()
 function temp()
 	uv0["鞍"] = {
 		["山"] = {
-			this = true
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -5622,6 +5667,16 @@ temp()
 function temp()
 	uv0["易"] = {
 		["北"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鎮"] = {
+		["海"] = {
 			this = true
 		}
 	}

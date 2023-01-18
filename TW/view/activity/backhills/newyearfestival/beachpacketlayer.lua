@@ -1,7 +1,7 @@
-slot0 = class("RedPacket2023Layer", import("view.base.BaseUI"))
+slot0 = class("BeachPacketLayer", import("view.base.BaseUI"))
 
 function slot0.getUIName(slot0)
-	return "RedPacket2023UI"
+	return "BeachPacketUI"
 end
 
 function slot0.init(slot0)

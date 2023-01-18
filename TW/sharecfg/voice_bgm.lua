@@ -1,10 +1,10 @@
 pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
-		default_bgm = "main",
+		default_bgm = "main-chunjie4-2",
 		special_bgm = "",
 		time = "",
-		bgm = "main"
+		bgm = "main-chunjie3"
 	},
 	HoloLiveLinkLinkSelectScene = {
 		default_bgm = "holo-fff-inst",
@@ -90,23 +90,23 @@ pg.voice_bgm = {
 		time = "",
 		bgm = "backyard"
 	},
-	LoginScene = {
-		default_bgm = "login",
-		special_bgm = "",
-		time = "",
-		bgm = "login"
-	},
 	NewPlayerScene = {
 		default_bgm = "main",
 		special_bgm = "",
 		time = "",
 		bgm = "main"
 	},
-	NewMainScene = {
-		default_bgm = "main",
+	LoginScene = {
+		default_bgm = "main-chunjie4-2",
 		special_bgm = "",
 		time = "",
-		bgm = "main"
+		bgm = "main-chunjie3"
+	},
+	NewMainScene = {
+		default_bgm = "main-chunjie4-2",
+		special_bgm = "",
+		time = "stop",
+		bgm = "main-chunjie3"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -115,10 +115,10 @@ pg.voice_bgm = {
 		bgm = "holo-fff-inst"
 	},
 	CollectionScene = {
-		default_bgm = "main",
+		default_bgm = "main-chunjie4-2",
 		special_bgm = "",
 		time = "",
-		bgm = "main"
+		bgm = "main-chunjie3"
 	},
 	ActivityBossSPFScene = {
 		default_bgm = "level02",
@@ -425,5 +425,23 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "bar-soft"
+	},
+	ActivityBossKuybyshevScene = {
+		default_bgm = "bgm-cccp2",
+		special_bgm = "",
+		time = "",
+		bgm = "bgm-cccp2"
+	},
+	NenjuuMiniGameView = {
+		default_bgm = "main-chunjie2",
+		special_bgm = "",
+		time = "",
+		bgm = "main-chunjie2"
+	},
+	SpringFestival2023Scene = {
+		default_bgm = "main-chunjie4-1",
+		special_bgm = "",
+		time = "",
+		bgm = "main-chunjie4-1"
 	}
 }

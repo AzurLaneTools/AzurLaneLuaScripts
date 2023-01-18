@@ -326,6 +326,7 @@ function slot0.initTechnologys(slot0)
 	end
 
 	slot0.itemList:align(#slot0.technologyVOs)
+	setActive(slot0.srcollView, true)
 end
 
 function slot0.initQueue(slot0)

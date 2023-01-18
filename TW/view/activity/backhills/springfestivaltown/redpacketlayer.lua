@@ -1,7 +1,11 @@
 slot0 = class("RedPacketLayer", import("view.base.BaseUI"))
 
 function slot0.getUIName(slot0)
-	return "RedPacketUI"
+	if PLATFORM_CODE == PLATFORM_CHT then
+		return "RedPacketUI"
+	else
+		return "RedPacket2023UI"
+	end
 end
 
 function slot0.init(slot0)
@@ -40,6 +44,12 @@ function slot0.findUI(slot0)
 	slot0.specialCountText = slot0:findTF("Text", slot0.specialTF)
 	slot0.normalTF = slot0:findTF("Container/Count/Normal")
 	slot0.normalCountText = slot0:findTF("Text", slot0.normalTF)
+	slot0.awardBtnList = {}
+
+	table.insert(slot0.awardBtnList, slot0:findTF("Container/Award"))
+	table.insert(slot0.awardBtnList, slot0:findTF("Container/Award2"))
+
+	slot0.countText = slot0:findTF("Container/CountText")
 	slot0.backBtn = slot0:findTF("Top/BackBtn")
 end
 
@@ -53,27 +63,43 @@ function slot0.addListener(slot0)
 			activity_id = uv0.activityID
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0.helpBtn, function ()
+
+	function slot4()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.help_chunjie_jiulou.tip
 		})
-	end, SFX_PANEL)
+	end
+
+	slot5 = SFX_PANEL
+
+	onButton(slot0, slot0.helpBtn, slot4, slot5)
+
+	for slot4, slot5 in ipairs(slot0.awardBtnList) do
+		if slot5 then
+			onButton(slot0, slot5, function ()
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
+			end, SFX_PANEL)
+		end
+	end
 end
 
 function slot0.updateUI(slot0)
 	slot1 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS)
 	slot2 = slot1.data3
+	slot3 = slot1.data1
 	slot4 = math.min(slot1.data1, slot1.data2)
 
+	print(slot3 - slot4, slot4, slot3)
 	setActive(slot0.tagTF, slot4 > 0)
-	setActive(slot0.normalTF, true)
-	setActive(slot0.specialTF, true)
-	setActive(slot0.countTF, true)
-	setText(slot0.normalCountText, slot1.data1 - slot4)
+	setActive(slot0.normalTF, slot5 > 0)
+	setActive(slot0.specialTF, slot4 > 0)
+	setActive(slot0.countTF, slot3 > 0)
+	setText(slot0.normalCountText, slot5)
 	setText(slot0.specialCountText, slot4)
 	setActive(slot0.packetBtn, slot3 > 0)
 	setActive(slot0.packetMask, slot3 <= 0)
+	setText(slot0.countText, slot1.data1_list[2] .. "/" .. slot1.data1_list[1])
 end
 
 function slot0.tryPlayStory(slot0)

@@ -3510,6 +3510,216 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[4025] = {
+		subject = "福袋",
+		limit_group = 0,
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		limit_arg = 1,
+		name = "春節福袋2023",
+		name_display = "春節福袋2023",
+		type_order = 2,
+		extra_gem = 0,
+		id = 4025,
+		money = 990,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudaiqp1_tw",
+		id_str = "com.hkmanjuu.azurlane.package26",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可獲得一件角色換裝，2023鑽，和大量其他獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.package26",
+		extra_service_item = {
+			{
+				2,
+				86006,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86006,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[4026] = {
+		subject = "福袋",
+		limit_group = 0,
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		limit_arg = 1,
+		name = "春節福袋復刻（2022）",
+		name_display = "春節福袋復刻（2022）",
+		type_order = 2,
+		extra_gem = 0,
+		id = 4026,
+		money = 990,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai7",
+		id_str = "com.hkmanjuu.azurlane.package27",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可獲得一件角色換裝，2022鑽，和大量其他獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.package27",
+		extra_service_item = {
+			{
+				2,
+				86002,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86002,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[4850] = {
 		subject = "最高方案研發禮包（一期）",
 		limit_group = 1,
@@ -4523,6 +4733,79 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[4906] = {
+		subject = "特許巡遊憑證",
+		limit_group = 0,
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		type = 0,
+		limit_arg = 1,
+		name = "特許巡遊憑證（七期）",
+		name_display = "特許巡遊憑證",
+		type_order = 4,
+		extra_gem = 0,
+		id = 4906,
+		money = 330,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.hkmanjuu.azurlane.battlepass7",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵·水星紀念限定換裝和其他獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.battlepass7",
+		extra_service_item = {
+			{
+				1,
+				4007,
+				1500
+			},
+			{
+				8,
+				59294,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4007,
+				1500
+			}
+		},
+		sub_display = {
+			45906,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	all = {
 		1,
 		2,
@@ -4563,6 +4846,8 @@ pg.pay_data_display = {
 		4022,
 		4023,
 		4024,
+		4025,
+		4026,
 		4850,
 		4851,
 		4852,
@@ -4578,6 +4863,7 @@ pg.pay_data_display = {
 		4902,
 		4903,
 		4904,
-		4905
+		4905,
+		4906
 	}
 }

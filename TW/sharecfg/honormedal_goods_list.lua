@@ -398,35 +398,35 @@ pg.honormedal_goods_list = {
 	{
 		price = 20,
 		goods_purchase_limit = 15,
-		goods_icon = "Props/42010",
+		goods_icon = "Props/42030",
 		type = 2,
 		group = 10022,
 		num = 1,
-		goods_name = "定向藍圖・二期",
+		goods_name = "定向藍圖・四期",
 		goods_type = 1,
 		id = 23,
 		is_ship = 0,
 		goods_rarity = 4,
 		order = 5,
 		goods = {
-			42010
+			42030
 		}
 	},
 	{
 		price = 20,
 		goods_purchase_limit = 5,
-		goods_icon = "Props/42017",
+		goods_icon = "Props/42036",
 		type = 2,
 		group = 10023,
 		num = 1,
-		goods_name = "高級定向藍圖・二期",
+		goods_name = "高級定向藍圖・四期",
 		goods_type = 1,
 		id = 24,
 		is_ship = 0,
 		goods_rarity = 5,
 		order = 4,
 		goods = {
-			42017
+			42036
 		}
 	},
 	{

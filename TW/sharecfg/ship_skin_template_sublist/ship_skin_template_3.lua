@@ -1,21 +1,21 @@
 pg = pg or {}
 pg.ship_skin_template_3 = {
-	[102261] = {
+	[102264] = {
 		ship_group = 10226,
-		name = "波濤的啦啦隊長！",
+		name = "閃耀東煌之春",
 		bullet_skin_secondary = "",
 		hand_id = 1,
 		bgm = "",
 		illustrator2 = -1,
-		bg = "132",
-		id = 102261,
-		group_index = 1,
-		prefab = "linuo_2",
-		painting = "linuo_2",
+		bg = "152",
+		id = 102264,
+		group_index = 4,
+		prefab = "linuo_5",
+		painting = "linuo_5",
 		aircraft_skin = "",
 		air_bullet_skin = "",
-		shop_id = 70334,
-		shop_type_id = 13,
+		shop_id = 70652,
+		shop_type_id = 3,
 		air_bomb_skin = "",
 		illustrator = -1,
 		lip_smoothing = 0,
@@ -31,7 +31,7 @@ pg.ship_skin_template_3 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "不愧是聚集了各陣營的精英們的大運動會，精彩的比賽真是一場接著一場呢！我作為啦啦隊一員也要努力加油才行！白鷹，fight！",
+		desc = "指揮官！你看！…嘿嘿，試著弄了點“小把戲”，有沒有很吸引目光？——比起小煙火，這身衣服更吸引目光？…欸？",
 		voice_actor = 231,
 		spine_offset = "",
 		gyro = 0,
@@ -74,22 +74,22 @@ pg.ship_skin_template_3 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.417,
-					1.072,
+					1.3,
+					1.087,
 					0
 				}
 			},
 			vicegun = {
 				{
-					1.413,
-					1.156,
+					1.034,
+					1.126,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					1.469,
-					1.106,
+					1.246,
+					1.168,
 					0
 				}
 			},
@@ -108,125 +108,8 @@ pg.ship_skin_template_3 = {
 					{
 						"smoke",
 						{
-							-0.67,
-							2.17,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[102262] = {
-		ship_group = 10226,
-		name = "夏日番外篇",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "106",
-		id = 102262,
-		group_index = 2,
-		prefab = "linuo_4",
-		painting = "linuo_4",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70412,
-		shop_type_id = 6,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "「超級英雄番外篇！拯救世界的超級英雄，正在夏日午後的海灘和助手享受難得的假日！」……嘿嘿，指揮官，是不是有一點這樣的感覺呢？",
-		voice_actor = 231,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.282,
-					1.111,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.357,
-					1.156,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.368,
-					1.106,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.67,
-							2.17,
+							-0.572,
+							2.197,
 							0
 						}
 					}
@@ -6852,6 +6735,121 @@ pg.ship_skin_template_3 = {
 			}
 		}
 	},
+	[105031] = {
+		ship_group = 10503,
+		name = "石州飛將",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "153",
+		id = 105031,
+		group_index = 1,
+		prefab = "binxifaniya_2",
+		painting = "binxifaniya_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70655,
+		shop_type_id = 3,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "站住！來者何人！…原來是指揮官啊。還以為是哪來的細作…你是來參觀的？還是說…真的是來“刺探情報”的?",
+		voice_actor = 23,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.26,
+					1.15,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.86,
+					1.07,
+					0
+				},
+				{
+					1.44,
+					0.95,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.36,
+					1.39,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[105040] = {
 		ship_group = 10504,
 		name = "亞利桑那",
@@ -6976,6 +6974,126 @@ pg.ship_skin_template_3 = {
 						{
 							0.227,
 							0.657,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[105041] = {
+		ship_group = 10504,
+		name = "異域的舞姬",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "144",
+		id = 105041,
+		group_index = 1,
+		prefab = "yalisangna_2",
+		painting = "yalisangna_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70656,
+		shop_type_id = 3,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "據說這服裝和東煌有些淵源，不過…啊，也不是不喜歡，就是…像這樣被指揮官看著，多少還是會有點害羞…啊，也沒有想哭的意思啦…",
+		voice_actor = 37,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.062,
+					1.069,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.876,
+					1.092,
+					0
+				},
+				{
+					1.157,
+					1.149,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.106,
+					1.278,
+					0
+				},
+				{
+					1.13,
+					1.202,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.389,
+							2.301,
 							0
 						}
 					}
@@ -8961,6 +9079,120 @@ pg.ship_skin_template_3 = {
 						{
 							-0.522,
 							2.16,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[106010] = {
+		ship_group = 10601,
+		name = "長島",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 106010,
+		group_index = 0,
+		prefab = "changdao",
+		painting = "changdao",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "長島級護航航空母艦—長島，舷號CVE-1",
+		voice_actor = 45,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.59,
+					0.597,
+					0
+				}
+			},
+			plane = {
+				{
+					0.59,
+					0.597,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.509,
+							0.442,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.416,
+							0.493,
 							0
 						}
 					}

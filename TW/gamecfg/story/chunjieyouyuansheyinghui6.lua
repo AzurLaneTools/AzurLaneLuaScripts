@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春节游园摄影会\n\n<size=45>六 居家感</size>",
+					"春節遊園攝影會\n\n<size=45>六 居家感</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·东煌风园林",
+			say = "港區·東煌風園林",
 			side = 2,
 			bgName = "star_level_bg_128",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "镇海小姐，您觉得这样如何？",
+			say = "鎮海小姐，您覺得這樣如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "嗯……无论是服装还是场景，卡律布狄斯小姐的选择都很大胆啊。",
+			say = "嗯……無論是服裝還是場景，卡律布狄斯小姐的選擇都很大膽啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202301,
-			say = "唔？这样只是为了表现出镇海小姐想要的居家感哦~",
+			say = "唔？這樣只是為了表現出鎮海小姐想要的居家感哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202301,
-			say = "所谓“居家感”，应该是一种无论多疲倦、多劳累，只要回到这个地方，都能立刻感受到的安心感吧。",
+			say = "所謂“居家感”，應該是一種無論多疲倦、多勞累，只要回到這個地方，都能立刻感受到的安心感吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "在具体的姿势上有什么想法吗？",
+			say = "在具體的姿勢上有什麼想法嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202301,
-			say = "有的哦，我想要一种准备给指挥官掏耳朵的女仆的感觉？",
+			say = "有的哦，我想要一種準備給指揮官掏耳朵的女僕的感覺？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "想象一下的话……指挥官经过了一天的工作，疲倦地回到房间，然后在这里躺下，舒舒服服地享受着服务的场景——",
+			say = "想像一下的話……指揮官經過了一天的工作，疲倦地回到房間，然後在這裡躺下，舒舒服服地享受著服務的場景——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "嗯……体验东煌风的皇家女仆队，也是一种蛮有趣的设计。",
+			say = "嗯……體驗東煌風的皇家女僕隊，也是一種蠻有趣的設計。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "可以的话，我现在就开始拍摄了？",
+			say = "可以的話，我現在就開始拍攝了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "拍照顺利结束，卡律布狄斯小姐，辛苦你了。",
+			say = "拍照順利結束，卡律布狄斯小姐，辛苦妳了。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202301,
-			say = "身为女仆队的一员，帮助镇海小姐拍摄只是举手之劳。",
+			say = "身為女僕隊的一員，幫助鎮海小姐拍攝只是舉手之勞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202301,
-			say = "不过{namecode:98}小姐在这里是……？",
+			say = "不過明石小姐在這裡是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用在意喵~我只是取得了前期游园体验许可现在正在考察商铺建设位置的一只路过猫咪喵~",
+			say = "不用在意喵~我只是取得了前期遊園體驗許可現在正在考察商舖建設位置的一隻路過貓咪喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原……原来如此。对了，这个工具我可以带回去么，有机会的话我想实际请指挥官来试一下~",
+			say = "原……原來如此。對了，這個工具我可以帶回去嗎，有機會的話我想實際請指揮官來試一下~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然没问题，请收好。",
+			say = "當然沒問題，請收好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 202301,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "非常感谢~那我就先回去了，如果有需要帮忙的地方再联系我哦。",
+			say = "非常感謝~那我就先回去了，如果有需要幫忙的地方再聯繫我哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

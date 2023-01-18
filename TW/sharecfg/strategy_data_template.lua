@@ -132,6 +132,18 @@ pg.strategy_data_template = {
 		desc = "處於海霧區域中，戰鬥時己方和敵方的隱蔽強度降低速率減慢。",
 		arg = {}
 	},
+	[18] = {
+		buff_id = 0,
+		name = "飛彈",
+		type = 2,
+		iconSize = "",
+		id = 18,
+		icon = "18",
+		desc = "進行一次制導打擊",
+		arg = {
+			missile
+		}
+	},
 	[47] = {
 		buff_id = 0,
 		name = "高效作戰",
@@ -1500,6 +1512,7 @@ pg.strategy_data_template = {
 		14,
 		16,
 		17,
+		18,
 		47,
 		90,
 		91,

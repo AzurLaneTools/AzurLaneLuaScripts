@@ -89,7 +89,7 @@ function slot0.UpdateView(slot0)
 	_.each(slot0.tipTfs, function (slot0)
 		setActive(slot0.trans, tobool(switch(slot0.name, {
 			fudai = function ()
-				return RedPacket2023Layer.isShowRedPoint()
+				return BeachPacketLayer.isShowRedPoint()
 			end,
 			hotspring = function ()
 				return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING))

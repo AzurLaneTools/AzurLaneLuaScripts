@@ -57,7 +57,13 @@ function slot2(slot0, slot1)
 		slot0.spineAnimList[#slot0.spineAnimList + 1] = GetOrAddComponent(slot2[slot6], "SpineAnimUI")
 	end
 
-	slot0.firstSpineAnim = slot0.spineAnimList[1]
+	assert(#slot0.spineAnimList > 0, "动态立绘至少要保证有一个spine动画，请检查" .. slot0._spinePaintingData:GetShipName())
+
+	if slot3 == 1 then
+		slot0.mainSpineAnim = slot0.spineAnimList[1]
+	else
+		slot0.mainSpineAnim = slot0.spineAnimList[#slot0.spineAnimList]
+	end
 end
 
 function slot3(slot0, slot1)
@@ -104,41 +110,41 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.DoTouchAction(slot0)
-	if not slot0.inAction then
-		slot0:DoAction("touch")
-	end
-end
-
-function slot0.DoAction(slot0, slot1, slot2)
-	function slot3()
-		uv0.inAction = false
-
-		uv0:SetAction("normal", 0)
-	end
-
-	if slot0.firstSpineAnim then
-		slot0.inAction = true
-
-		slot0.firstSpineAnim:SetActionCallBack(function (slot0)
-			uv0.firstSpineAnim:SetActionCallBack(nil)
-
-			if slot0 == "finish" then
-				uv1()
-			end
-		end)
-		slot0.firstSpineAnim:SetAction(slot1, 0)
-	end
-end
-
 function slot0.SetVisible(slot0, slot1)
 	setActive(slot0._spinePaintingData.effectParent, slot1)
 	setActiveViaLayer(slot0._spinePaintingData.effectParent, slot1)
 end
 
+function slot0.DoSpecialTouch(slot0)
+	if not slot0.inAction then
+		slot0.inAction = true
+
+		slot0:SetActionWithCallback("special", 0, function ()
+			uv0:SetAction("normal", 0)
+
+			uv0.inAction = false
+		end)
+	end
+end
+
 function slot0.SetAction(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot0.spineAnimList) do
 		slot7:SetAction(slot1, slot2)
+	end
+end
+
+function slot0.SetActionWithCallback(slot0, slot1, slot2, slot3)
+	slot0:SetAction(slot1, slot2)
+
+	if slot0.mainSpineAnim then
+		slot0.mainSpineAnim:SetActionCallBack(function (slot0)
+			uv0.mainSpineAnim:SetActionCallBack(nil)
+
+			if slot0 == "finish" and uv1 then
+				uv1()
+			end
+		end)
+		slot0.mainSpineAnim:SetAction(slot1, 0)
 	end
 end
 

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春节游园摄影会\n\n<size=45>五 游园诗话</size>",
+					"春節遊園攝影會\n\n<size=45>五 遊園詩話</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·东煌风园林",
+			say = "港區·東煌風園林",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "离下一场拍摄还早，稍微闲逛一会吧。",
+			say = "離下一場拍攝還早，稍微閒逛一會吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "湖心亭那边的人是————",
+			say = "湖心亭那邊的人是————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……昨天的这场雪，给园林增添了些许冬日的气氛呢。",
+			say = "……昨天的這場雪，給園林增添了些許冬日的氣氛呢。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "不过，唔……这里的雪薄掉了不少。",
+			say = "不過，唔……這裡的雪薄掉了不少。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海圻，快用造雪机对着这边吹吹~",
+			say = "海圻，快用造雪機對著這邊吹吹~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "遵命~哈哈哈，雪花来了！",
+			say = "遵命~哈哈哈，雪花來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "很好~这样好多了。",
+			say = "很好~這樣好多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶，在这皑皑白雪之中的些许残叶，更是令人不禁增添几分诗兴……",
+			say = "欸，在這皚皚白雪之中的些許殘葉，更是令人不禁增添幾分詩興……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "……海圻，风开得有些太大了，不要对着我直接吹呀！",
+			say = "……海圻，風開得有些太大了，不要對著我直接吹呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "这样不是更有狂风暴雪的感觉嘛~",
+			say = "這樣不是更有狂風暴雪的感覺嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "不需要啦……残叶都要被吹跑了。和风细雪就好！",
+			say = "不需要啦……殘葉都要被吹跑了。和風細雪就好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "海天在（人造）飘雪中眉头紧锁，来回踱步着。",
+			say = "海天在（人造）飄雪中眉頭緊鎖，來回踱步著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "第一句……踱步园中顾雪霜，叶影疏疏映池塘。",
+			say = "第一句……踱步園中顧雪霜，葉影疏疏映池塘。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "感觉不错……！那么是第二句……",
+			say = "感覺不錯……！那麼是第二句……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "两位下午好。",
+			say = "兩位下午好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "下午好~我们来园子里玩咯。",
+			say = "下午好~我們來園子裡玩囉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "打扰了。",
+			say = "打擾了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "平海、宁海还有逸仙？！欢迎光临，我们制造的雪景不错吧~",
+			say = "平海、寧海還有逸仙？！歡迎光臨，我們製造的雪景不錯吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实很有冬日气息。",
+			say = "確實很有冬日氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "打雪仗咯，打雪仗~海天和海圻一起来么？",
+			say = "打雪仗囉，打雪仗~海天和海圻一起來嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我在想诗，就先不去啦。",
+			say = "我在想詩，就先不去啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此，我还以为发生了什么，原来是因为诗句的原因在左右踱步呀。",
+			say = "原來如此，我還以為發生了什麼，原來是因為詩句的原因在左右踱步呀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可以让我听听么？",
+			say = "可以讓我聽聽嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "其实只想好了前一半，踱步园中顾雪霜，叶影疏疏映池塘。",
+			say = "其實只想好了前一半，踱步園中顧雪霜，葉影疏疏映池塘。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "后一半暂时还没有什么思路……",
+			say = "後一半暫時還沒有什麼思路……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听起来有些伤感呢。",
+			say = "聽起來有些傷感呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "冬日的庭院，大体就是如此感觉吧。",
+			say = "冬日的庭院，大體就是如此感覺吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "枝头的红梅倒是生机盎然哦？",
+			say = "枝頭的紅梅倒是生機盎然哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "欸，枝头……",
+			say = "欸，枝頭……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为过于沉浸于低处的景色，所以才一直没注意到的么……",
+			say = "因為過於沉浸於低處的景色，所以才一直沒注意到的嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "几日之后正式开园，想必这里一定会宾客满棚吧。",
+			say = "幾日之後正式開園，想必這裡一定會賓客滿棚吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家坐在一起赏梅饮茶，不也是一种冬日庭院么？",
+			say = "大家坐在一起賞梅飲茶，不也是一種冬日庭院嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "第二句，薄红不惧冬寂寥，亭畔枝头添新妆。",
+			say = "第二句，薄紅不懼冬寂寥，亭畔枝頭添新妝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -736,7 +736,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "嗯，这样就好了~",
+			say = "嗯，這樣就好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "咔嚓——拍照完毕。",
+			say = "咔嚓——拍照完畢。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -790,7 +790,7 @@ return {
 			actor = 506010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "虽然未经许可拍照不是什么值得鼓励的行为，不过既然是美丽的景色，这里就“先斩后奏”好了~",
+			say = "雖然未經許可拍照不是什麼值得鼓勵的行為，不過既然是美麗的景色，這裡就“先斬後奏”好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

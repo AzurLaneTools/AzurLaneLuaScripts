@@ -1,5 +1,78 @@
 slot0 = class("MiniGameTileData")
 
+function slot1(slot0)
+	slot1 = {}
+	slot2 = {}
+	slot3 = {}
+	slot4 = 1
+	slot5 = "{\n"
+
+	while true do
+		slot6 = 0
+
+		for slot10, slot11 in pairs(slot0) do
+			slot6 = slot6 + 1
+		end
+
+		slot7 = 1
+
+		for slot11, slot12 in pairs(slot0) do
+			if slot1[slot0] == nil or slot1[slot0] <= slot7 then
+				if string.find(slot5, "}", slot5:len()) then
+					slot5 = slot5 .. ",\n"
+				elseif not string.find(slot5, "\n", slot5:len()) then
+					slot5 = slot5 .. "\n"
+				end
+
+				table.insert(slot3, slot5)
+
+				slot5 = ""
+				slot13 = nil
+				slot13 = (type(slot11) == "number" or type(slot11) == "boolean") and "[" .. tostring(slot11) .. "]" or "['" .. tostring(slot11) .. "']"
+
+				if type(slot12) == "number" or type(slot12) == "boolean" then
+					slot5 = slot5 .. string.rep("\t", slot4) .. slot13 .. " = " .. tostring(slot12)
+				elseif type(slot12) == "table" then
+					slot5 = slot5 .. string.rep("\t", slot4) .. slot13 .. " = {\n"
+
+					table.insert(slot2, slot0)
+					table.insert(slot2, slot12)
+
+					slot1[slot0] = slot7 + 1
+
+					break
+				else
+					slot5 = slot5 .. string.rep("\t", slot4) .. slot13 .. " = '" .. tostring(slot12) .. "'"
+				end
+
+				if slot7 == slot6 then
+					slot5 = slot5 .. "\n" .. string.rep("\t", slot4 - 1) .. "}"
+				else
+					slot5 = slot5 .. ","
+				end
+			elseif slot7 == slot6 then
+				slot5 = slot5 .. "\n" .. string.rep("\t", slot4 - 1) .. "}"
+			end
+
+			slot7 = slot7 + 1
+		end
+
+		if slot6 == 0 then
+			slot5 = slot5 .. "\n" .. string.rep("\t", slot4 - 1) .. "}"
+		end
+
+		if #slot2 > 0 then
+			slot2[#slot2] = nil
+			slot4 = slot1[slot2[#slot2]] == nil and slot4 + 1 or slot4 - 1
+		else
+			break
+		end
+	end
+
+	table.insert(slot3, slot5)
+	print(table.concat(slot3))
+end
+
 function slot0.Ctor(slot0, slot1)
 	slot0._data = slot1
 	slot0._name = slot1.name
@@ -38,6 +111,19 @@ function slot0.getTileDataLayer(slot0, slot1)
 	end
 
 	return nil
+end
+
+function slot0.dumpTileDataLayer(slot0, slot1, slot2)
+	if slot0.tileDataDic[slot1] then
+		for slot7 = 1, #slot0.tileDataDic[slot1].layers do
+			slot8 = slot3[slot7]
+
+			if not slot2 or slot2 == slot8.name then
+				print(slot8.name .. " = ")
+				uv0(slot8)
+			end
+		end
+	end
 end
 
 function slot0.initData(slot0)
@@ -105,7 +191,7 @@ function slot0.createLayerData(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	for slot8 = 1, #slot1 do
-		if slot0:checkTileName(slot1[slot8], slot2, slot3, slot8) and slot9 ~= 0 then
+		if slot0:relationTile(slot1[slot8], slot2, slot3, slot8) and slot9 ~= 0 then
 			table.insert(slot4, slot11)
 		end
 	end
@@ -113,10 +199,12 @@ function slot0.createLayerData(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.checkTileName(slot0, slot1, slot2, slot3, slot4)
+function slot0.relationTile(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 
-	if slot0._name ~= MiniGameTile.BOOM_GAME then
+	if slot0._name == MiniGameTile.BOOM_GAME then
+		-- Nothing
+	elseif slot0._name ~= MiniGameTile.SPRING23_GAME then
 		slot5.id = slot1
 	end
 
@@ -135,8 +223,9 @@ function slot0.checkTileName(slot0, slot1, slot2, slot3, slot4)
 				for slot18, slot19 in ipairs(slot14) do
 					if slot19.id + slot11 == slot1 then
 						slot21 = slot1
+						slot23, slot24 = slot0:createGridPropData(slot19.properties, slot19.name, slot3)
 						slot5.item = slot19.name or nil
-						slot5.prop = slot0:createGridPropData(slot19.properties, slot19.name, slot3) or nil
+						slot5.prop = slot23 or nil
 
 						return slot5
 					end
@@ -152,21 +241,24 @@ end
 
 function slot0.createGridPropData(slot0, slot1, slot2, slot3)
 	slot4 = {}
+	slot5 = nil
 
 	if slot0._name == MiniGameTile.BOOM_GAME then
-		slot6 = nil
+		slot7 = nil
 
-		if slot1.drop_id and slot5 > 0 then
-			slot4.drop = MiniGameTile.drops[slot5]
+		if slot1.drop_id and slot6 > 0 then
+			slot4.drop = MiniGameTile.drops[slot6]
 		else
 			slot4.drop = nil
 		end
 
 		if slot1.use_attr and slot1.use_attr ~= nil and MiniGameTile.attrs[slot3][slot2] then
-			for slot12, slot13 in pairs(slot8) do
-				slot4[slot12] = slot13
+			for slot13, slot14 in pairs(slot9) do
+				slot4[slot13] = slot14
 			end
 		end
+	elseif slot0._name == MiniGameTile.SPRING23_GAME then
+		slot4 = nil
 	end
 
 	return slot4

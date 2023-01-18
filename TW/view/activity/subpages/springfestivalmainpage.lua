@@ -31,7 +31,7 @@ function slot0.OnFirstFlush(slot0)
 	slot3 = slot0.btnList
 
 	onButton(slot0, slot3:Find("mountain"), function ()
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SPRING_FESTIVAL_BACKHILL_2022)
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SPRING_FESTIVAL_BACKHILL_2023)
 	end, SFX_PANEL)
 
 	slot0.printCount = 0

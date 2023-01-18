@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春节游园摄影会\n\n<size=45>四 在想象中冒险</size>",
+					"春節遊園攝影會\n\n<size=45>四 在想像中冒險</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·东煌风园林",
+			say = "港區·東煌風園林",
 			side = 2,
 			bgName = "star_level_bg_152",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "镇海小姐，我现在这个姿势OK吗？",
+			say = "鎮海小姐，我現在這個姿勢OK嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "我、我感觉很完美哦！",
+			say = "我、我感覺很完美哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（虽然嘴上这么说着，但明显还不够放松。）",
+			say = "（雖然嘴上這麼說著，但明顯還不夠放鬆。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "（单纯说要放松大概只会起到反效果…嗯，要不试试这样吧。）",
+			say = "（單純說要放鬆大概只會起到反效果…嗯，要不然試試這樣吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "我听说布里斯托尔小姐喜欢冒险，不如来接下来我们来一场“想象”的冒险如何？",
+			say = "我聽說布里斯托爾小姐喜歡冒險，不如來接下來我們來一場“想像”的冒險如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“想象”的冒险？",
+			say = "“想像”的冒險？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "海天，你觉得怎么样？",
+			say = "海天，妳覺得怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "感觉挺有趣的，要不然就《逍遥游》好了？",
+			say = "感覺挺有趣的，要不然就《逍遙遊》好了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "没问题。布里斯托尔小姐，现在请闭上眼睛，让思绪沉浸到我们接下来的故事之中。",
+			say = "沒問題。布里斯托爾小姐，現在請閉上眼睛，讓思緒沉浸到我們接下來的故事之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "原来如此……我懂了~让我试试哦！",
+			say = "原來如此……我懂了~讓我試試哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "这么说着，布里斯托尔闭上了自己的眼睛。",
+			say = "這麼說著，布里斯托爾閉上了自己的眼睛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "“北冥有鱼，其名为鲲。鲲之大，不知其几千里也。”",
+			say = "“北冥有魚，其名為鯤。鯤之大，不知其幾千里也。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "在北方的大海里，有一只非常非常大的鱼，它的名字叫做“鲲”。",
+			say = "在北方的大海裡，有一隻非常非常大的魚，它的名字叫做“鯤”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "鲲的身长有数千里，就像一座漂浮的巨岛一样。",
+			say = "鯤的身長有數千里，就像一座漂浮的巨島一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "现在，它在海面上漫无目的地飘荡着，而你正好站在它的背上，缓慢地前进，调查着……",
+			say = "現在，它在海面上漫無目的地飄蕩著，而妳正好站在它的背上，緩慢地前進，調查著……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "嗯~~真是波澜壮阔的史诗感啊！",
+			say = "嗯~~真是波瀾壯闊的史詩感啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "“化而为鸟，其名为鹏。鹏之背，不知其几千里也。怒而飞，其翼若垂天之云。”",
+			say = "“化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒而飛，其翼若垂天之雲。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "突然之间，整个岛屿颤动了起来。“鲲”变成了一只巨大的鸟，“鹏”，向着天空飞去。",
+			say = "突然之間，整個島嶼顫動了起來。 “鯤”變成了一隻巨大的鳥，“鵬”，向著天空飛去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "飞翼震起的水花高达数千米，巨大的翅膀仿佛从天上垂下的云朵。",
+			say = "飛翼震起的水花高達數千米，巨大的翅膀彷彿從天上垂下的雲朵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "你拼命地抱住它身上凸起的部分，为了让自己不被甩下去——",
+			say = "妳拼命地抱住它身上凸起的部分，為了讓自己不被甩下去——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "就这样不知过了多久，它终于停止了继续升空，转而平缓地飞行起来。",
+			say = "就這樣不知過了多久，它終於停止了繼續升空，轉而平緩地飛行起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "你松开了双臂，放松了下来……小鸟们叽叽喳喳地凑到了你的身边，想要与你一起玩耍。",
+			say = "妳鬆開了雙臂，放鬆了下來……小鳥們嘰嘰喳喳地湊到了你的身邊，想要與你一起玩耍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "你拿出了兜里的泡泡水，向她们吹起了泡泡——",
+			say = "妳拿出了口袋裡的泡泡水，向她們吹起了泡泡——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咔嚓~拍照完毕！一张非常漂亮的照片哦！",
+			say = "咔嚓~拍照完畢！一張非常漂亮的照片哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "辛苦了，布里斯托尔小姐。现在请睁开眼睛——拍摄结束了哦。",
+			say = "辛苦了，布里斯托爾小姐。現在請睜開眼睛——拍攝結束了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等一下……在云层之中，我好像看到了什么东西。",
+			say = "等一下……在雲層之中，我好像看到了什麼東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "诶……你看到了什么？",
+			say = "欸……妳看到了什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是一个巨大的虹色圆锥体，高约十英尺，底部的直径也有十英尺……",
+			say = "那是一個巨大的虹色圓錐體，高約十英尺，底部的直徑也有十英尺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虹色圆锥体……等，等一下！",
+			say = "虹色圓錐體……等，等一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "唔……我无法移开目光。",
+			say = "唔……我無法移開目光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虹色圆锥体全身都覆盖着某种凹凸不平的半弹性鳞片。",
+			say = "虹色圓錐體全身都覆蓋著某種凹凸不平的半彈性鱗片。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "在圆锥体顶端，有四只可以伸缩的圆柱形器官，看起来是……邪恶的生物！",
+			say = "在圓錐體頂端，有四隻可以伸縮的圓柱形器官，看起來是……邪惡的生物！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "——冲啊，巨鲲，让我们一同迎战吧！",
+			say = "——衝啊，巨鯤，讓我們一同迎戰吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "快回到现实世界来，布里斯托尔小姐——————",
+			say = "快回到現實世界來，布里斯托爾小姐——————",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -713,7 +713,7 @@ return {
 			bgName = "star_level_bg_152",
 			dir = 1,
 			blackBg = true,
-			say = "就这样，本日的拍摄也平安无事地顺利结束了。",
+			say = "就這樣，本日的拍攝也平安無事地順利結束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

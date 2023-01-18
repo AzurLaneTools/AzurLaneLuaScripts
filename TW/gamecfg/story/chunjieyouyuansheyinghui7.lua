@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春节游园摄影会\n\n<size=45>七 宾客盈门</size>",
+					"春節遊園攝影會\n\n<size=45>七 賓客盈門</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "终于，开园日到了",
+			say = "終於，開園日到了",
 			side = 2,
 			bgName = "star_level_bg_144",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 312012,
-			say = "欢迎大家光临东煌风园林，请尽情享受旅途喵~",
+			say = "歡迎大家光臨東煌風園林，請盡情享受旅途喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 312012,
-			say = "园中纪念品小卖部也在盛大营业中，营业首日全部商品九五折，欢迎进店选购喵~",
+			say = "園中紀念品販賣部也在盛大營業中，營業首日全部商品九五折，歡迎進店選購喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "东煌风园林·屏风桥",
+			say = "東煌風園林·屏風橋",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101450,
-			say = "哇哦~这里就是布里斯托尔拍照的那个地方哎~屏风真漂亮！",
+			say = "哇哦~這裡就是布里斯托爾拍照的那個地方哎~屏風真漂亮！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿~看我现在这个姿势，是不是和照片上的布里斯托尔一样？",
+			say = "嘿嘿~看我現在這個姿勢，是不是和照片上的布里斯托爾一樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那你别动，我来给你拍个照好好对比一下——",
+			say = "那妳別動，我來幫妳拍個照好好對比一下——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "东煌风园林·林中雪地",
+			say = "東煌風園林·林中雪地",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105031,
-			say = "呵！来者何人！",
+			say = "呵！來者何人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "吾乃亲王英勇，来一决雌雄吧！",
+			say = "吾乃親王英勇，來一決雌雄吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205100,
-			say = "爱丁堡扶我上马！",
+			say = "愛丁堡扶我上馬！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105031,
-			say = "哎？！你的马也是租来的么？",
+			say = "哎？！妳的馬也是租來的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼哼，我这可是从皇家马厩里牵出来的哦~",
+			say = "哼哼哼，我這可是從皇家馬厩裡牽出來的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205100,
-			say = "吃我一剑，接招——！",
+			say = "吃我一劍，接招——！",
 			effects = {
 				{
 					active = true,
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "东煌风园林·蒸馏浓缩茶室",
+			say = "東煌風園林·蒸餾濃縮茶室",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好香的气味啊~",
+			say = "好香的氣味啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408052,
-			say = "欢迎来到U-73的蒸馏浓缩茶室！要来一杯蒸馏浓缩茶么！",
+			say = "歡迎來到U-73的蒸餾濃縮茶室！要來一杯蒸餾濃縮茶嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301822,
-			say = "要，请给我一杯——！",
+			say = "要，請給我一杯——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408052,
-			say = "没问题，稍等片刻哦~",
+			say = "沒問題，稍等片刻哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "东煌风园林·湖心亭",
+			say = "東煌風園林·湖心亭",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "哇……这个汹涌的人潮，摄影会作战大成功！",
+			say = "哇……這個洶湧的人潮，攝影會作戰大成功！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "大家都玩得很开心呢~",
+			say = "大家都玩得很開心呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "哼哼，一切都依计而行。连环宣传的第一步已经完成了，接下来的一切都是水到渠成。",
+			say = "哼哼，一切都依計而行。連環宣傳的第一步已經完成了，接下來的一切都是水到渠成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "可以哦~等一切都忙完之后。",
+			say = "可以哦~等一切都忙完之後。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "作为主办方，开园只是所有事情的第一步，接下来还有源源不断的工作会来呢。",
+			say = "作為主辦方，開園只是所有事情的第一步，接下來還有源源不斷的工作會來呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，找到你们了~！",
+			say = "啊，找到妳們了~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你看，说到就到。",
+			say = "妳看，說到就到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "有什么需要帮忙的么，应瑞？",
+			say = "有什麼需要幫忙的嗎，應瑞？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然拜托刚刚结束辛劳的你们有些不妥……不过，年夜饭的准备还缺少人手，如果可以的话，三位能搭把手吗？",
+			say = "雖然拜託剛剛結束辛勞的妳們有些不妥……不過，年夜飯的準備還缺少人手，如果可以的話，三位能幫個忙嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "呵呵……当然可以，这是我们应该做的。",
+			say = "呵呵……當然可以，這是我們應該做的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			actor = 506011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "走吧~新的工作开始了，让我们一起把春节变得热闹起来吧——",
+			say = "走吧~新的工作開始了，讓我們一起把春節變得熱鬧起來吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

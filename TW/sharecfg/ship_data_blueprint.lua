@@ -627,7 +627,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>760</color>",
 		id = 19901,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60071
 		},
@@ -730,7 +730,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>810</color>",
 		id = 19902,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60081
 		},
@@ -833,7 +833,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "重櫻陣營科技點數達到<color=#92fc63>780</color>",
 		id = 39903,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60091
 		},
@@ -935,7 +935,7 @@ pg.ship_data_blueprint = {
 		strengthen_item = 42014,
 		unlock_word = "重櫻陣營科技點數達到<color=#92fc63>900</color>",
 		id = 39904,
-		price = 3000,
+		price = 6000,
 		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60101
@@ -1040,7 +1040,7 @@ pg.ship_data_blueprint = {
 		strengthen_item = 42015,
 		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>630</color>",
 		id = 49902,
-		price = 3000,
+		price = 6000,
 		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60111
@@ -1131,7 +1131,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>760</color>、鐵血陣營科技點數達到<color=#92fc63>420</color>",
 		id = 99901,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60120,
 			60121
@@ -1335,7 +1335,7 @@ pg.ship_data_blueprint = {
 		strengthen_item = 42022,
 		unlock_word = "皇家陣營科技點數達到<color=#92fc63>820</color>",
 		id = 29904,
-		price = 3000,
+		price = 6000,
 		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60141
@@ -1819,7 +1819,7 @@ pg.ship_data_blueprint = {
 		strengthen_item = 42032,
 		unlock_word = "重櫻陣營科技點數達到<color=#92fc63>950</color>",
 		id = 39905,
-		price = 3000,
+		price = 6000,
 		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60191
@@ -1909,7 +1909,7 @@ pg.ship_data_blueprint = {
 		strengthen_item = 42033,
 		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>700</color>",
 		id = 49905,
-		price = 3000,
+		price = 6000,
 		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60201

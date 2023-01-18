@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"essential.\n\n<size=45>四　毒</size>",
+					"essential.\n\n<size=45>四 毒</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区・演习海域",
+			say = "港區・演習海域",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "今天的铁血演习似乎胡滕也参加了。",
+			say = "今天的鐵血演習似乎胡滕也參加了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，舰队集结完毕……很好。那就让模拟战开始吧。",
+			say = "呵呵，艦隊集結完畢……很好。那就讓模擬戰開始吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让大家见识一下我希佩尔的实力，全速前进！",
+			say = "讓大家見識一下我希佩爾的實力，全速前進！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "喂希佩尔，你冲太前了！稍微跟其他人的步调配合下！",
+			say = "喂希佩爾，妳衝太前慢了！稍微跟其他人的步調配合下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "这场演习看起来是由胡滕进行指挥的，腓特烈大帝似乎更多沉浸在了战斗的乐趣上。",
+			say = "這場演習看起來是由胡滕進行指揮的，腓特烈大帝似乎更多沉浸在了戰鬥的樂趣上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "不知不觉间，出神的看完了全程。",
+			say = "不知不覺間，出神的看完了全程。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你都看到了吗。",
+			say = "你都看到了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			},
 			options = {
 				{
-					content = "刚刚的演习非常不错。",
+					content = "剛剛的演習非常不錯。",
 					flag = 1
 				}
 			}
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就好。说实话我并没有腓特烈那么喜欢战斗……但为了在战场上能把所有伙伴都平安带回来，这些演习是必要的。",
+			say = "那就好。說實話我並沒有腓特烈那麼喜歡戰鬥……但為了在戰場上能把所有夥伴都平安帶回來，這些演習是必要的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "到是你那边没问题么？铁血舰队的事我还要处理一段时间，你再去找个新的秘书舰顶班也可以哦。",
+			say = "倒是你那邊沒問題嗎？鐵血艦隊的事我還要處理一段時間，你再去找個新的秘書艦代替我也可以哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "最近出人意料的工作逐步空下来了，暂时来说并没有什么问题。",
+			say = "最近出人意料的工作逐步空下來了，暫時來說並沒有什麼問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "胡滕可以安心处理铁血同伴之间的事，之后再返回工作也是可以的。当然——",
+			say = "胡滕可以安心處理鐵血同伴之間的事，之後再返回工作也是可以的。當然——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "（小声）观察力倒是一如既往的敏锐……",
+			say = "（小聲）觀察力倒是一如既往的敏銳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "比起担心别人更应该考虑自己，周围所有人里，最需要休息的人不就站在这里么。",
+			say = "比起擔心別人更應該考慮自己，周圍所有人裡，最需要休息的人不就站在這裡嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "温柔可成药，过度的温柔亦能为毒。",
+			say = "溫柔可成藥，過度的溫柔亦能為毒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "全部饮下可是需要相当觉悟的呢。",
+			say = "全部飲下可是需要相當覺悟的呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "还是说……",
+			say = "還是說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "腓特烈……指挥官已经完全陷入困惑了，要不就先到这里吧……",
+			say = "腓特烈……指揮官已經完全陷入困惑了，要不就先到這裡吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "总而言之，不需要太在意我。如果需要帮忙的话马上直说，等到出了什么事再说就晚了哦。",
+			say = "總而言之，不需要太在意我。如果需要幫忙的話馬上直說，等到出了什麼事再說就晚了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "那么今天的演习就到此为止，大家都回去休息吧。包括你哦，指挥官。解散——",
+			say = "那麼今天的演習就到此為止，大家都回去休息吧。包括你哦，指揮官。解散——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

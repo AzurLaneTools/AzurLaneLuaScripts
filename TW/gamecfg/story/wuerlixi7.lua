@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"essential.\n\n<size=45>七　真实的她</size>",
+					"essential.\n\n<size=45>七 真實的她</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "再次醒来后————",
+			say = "再次醒來後————",
 			side = 2,
 			bgName = "star_level_bg_109",
 			dir = 1,
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "夜幕已经降临，书桌前的胡滕在昏暗的灯光下沉睡着。",
+			say = "夜幕已經降臨，書桌前的胡滕在昏暗的燈光下沉睡著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "睡着在书桌前可不是什么值得鼓励的事，难道是做出不好的表率了么……",
+			say = "睡著在書桌前可不是什麼值得鼓勵的事，難道是做出不好的表率了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "啧……我听到了哦。一起来就有精力吐槽，说明休息的还不错。",
+			say = "嘖……我聽到了哦。一起來就有精力吐槽，說明休息的還不錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			},
 			options = {
 				{
-					content = "接下来的工作就——",
+					content = "接下來的工作就——",
 					flag = 1
 				}
 			}
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就交给你么？夜晚应该是休息的时间了。",
+			say = "就交給你嗎？夜晚應該是休息的時間了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "但是在睡了这么久之后，再怎么说也睡不着了……",
+			say = "但是在睡了這麼久之後，再怎麼說也睡不著了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "昼夜颠倒导致疲劳过度，进而造成人造时差。这种不健康的工作方式肯定不是第一次了。长期疲劳的累计再加上突然而来的大量工作，就会变成这样了。",
+			say = "晝夜顛倒導致疲勞過度，進而造成人造時差。這種不健康的工作方式肯定不是第一次了。長期疲勞的累計再加上突然而來的大量工作，就會變成這樣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "平时好像也没有勉强的感觉，而且工作总是要做完的……",
+			say = "平時好像也沒有勉強的感覺，而且工作總是要做完的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "工作总是要做完的，但是做完工作的不一定要是你……唉，没有自觉么。",
+			say = "工作總是要做完的，但是做完工作的不一定要是你……唉，沒有自覺嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你啊，对他人有感兴趣之前，先把握好自己的事如何？",
+			say = "你啊，對他人有感興趣之前，先把握好自己的事如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "……马不停蹄地去完成剩下的工作？看书桌的情况应该还剩下了一些吧。",
+			say = "……馬不停蹄地去完成剩下的工作？看書桌的情況應該還剩下了一些吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "………………以防你产生不切实际的幻想姑且澄清一下，现在你面前剩下的只是我带过来的一部分里还没有处理到的一部分，在指挥室里还有今天新增的部分呢。",
+			say = "………………以防你產生不切實際的幻想姑且澄清一下，現在你面前剩下的只是我帶過來的一部分裡還沒有處理到的一部分，在指揮室裡還有今天新增的部分呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "债多不压身，今天你就乖乖放弃吧。",
+			say = "債多不壓身，今天你就乖乖放棄吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "说起来……观察我这么久，有什么感想吗？",
+			say = "說起來……觀察我這麼久，有什麼感想嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "回想一下这段时间内看到的事——",
+			say = "回想一下這段時間內看到的事——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "虽然最初有些担心胡滕能否顺利融入港区与同伴正常相处。不够后来发现完全是担心过度了。",
+			say = "雖然最初有些擔心胡滕能否順利融入港區與同伴正常相處。不過後來發現完全是擔心過度了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "英姿飒爽过度理性的表象后，隐藏着一颗感性的、或者有些关心过度的心。",
+			say = "英姿颯爽過度理性的表像後，隱藏著一顆感性的、或者有些關心過度的心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "………………真是微妙地评价。",
+			say = "………………真是微妙地評價。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "只是根据观察到的现象实话实说而已————",
+			say = "只是根據觀察到的現象實話實說而已————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			},
 			options = {
 				{
-					content = "不满意么？",
+					content = "不滿意嗎？",
 					flag = 1
 				}
 			}
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "也没有……既然是观察之后得出的结果，根据主观急于否认也太不讲道理了。",
+			say = "也沒有……既然是觀察之後得出的結果，根據主觀急於否認也太不講道理了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "唉……腓特烈说的不错，对于“毒性”我已经感同身受了。",
+			say = "唉……腓特烈說的不錯，對於“毒性”我已經感同身受了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "这个话题就到这里。我们回到现实来，讨论一下沉睡在指挥室里的巨大文件怪兽好了。",
+			say = "這個話題就到這裡。我們回到現實來，討論一下沉睡在指揮室裡的巨大文件怪獸好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一个人解决不了就两个人，两个人解决不了就三个人。特事特办，工作峰值抵达的时候，临时特别设置两三艘秘书舰不也挺好的么？",
+			say = "一個人解決不了就兩個人，兩個人解決不了就三個人。特事特辦，工作峰值抵達的時候，臨時特別設置兩三艘秘書艦不也挺好的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			},
 			options = {
 				{
-					content = "这个思路倒是……",
+					content = "這個思路倒是……",
 					flag = 1
 				}
 			}
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "哼，人选的话我可以先帮你看一下，有着出色文书处理能力又有空闲的同伴应该还是有的。那么我要回房间休息了，锅里我留了饭，你吃完之后继续睡吧。",
+			say = "哼，人選的話我可以先幫你看一下，有著出色文書處理能力又有空閒的同伴應該還是有的。那麼我要回房間休息了，鍋裡我留了飯，你吃完之後繼續睡吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "像是什么都没发生过一样，胡滕打开房门，打算就这么离开——",
+			say = "像是什麼都沒發生過一樣，胡騰打開房門，打算就這麼離開——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有一件事……",
+			say = "還有一件事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你昨天被搬运回房间之后，就进行了一场漫长的睡眠，直到明天早上起床。",
+			say = "你昨天被搬運回房間之後，就進行了一場漫長的睡眠，直到明天早上起床。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不只是对腓特烈，要是其他伙伴问起来，你也这样回答就好了。",
+			say = "不只是對腓特烈，要是其他夥伴問起來，你也這樣回答就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "“被安眠曲哄睡了后，跟我在房内共度了一整天”这种情报希望永远不要流出去，感谢配合。",
+			say = "“被安眠曲哄睡了後，跟我在房內共度了一整天”這種情報希望永遠不要流出去，感謝配合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

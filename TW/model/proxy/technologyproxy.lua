@@ -38,6 +38,7 @@ function slot0.register(slot0)
 
 		uv0.coldTime = slot0.cold_time or 0
 		uv0.pursuingTimes = slot0.daily_catchup_strengthen or 0
+		uv0.pursuingTimesUR = slot0.daily_catchup_strengthen_ur or 0
 	end)
 end
 
@@ -313,21 +314,32 @@ function slot0.IsShowTip(slot0)
 	return OPEN_TEC_TREE_SYSTEM and getProxy(TechnologyNationProxy):getShowRedPointTag() or (SelectTechnologyMediator.onBlueprintNotify() or SelectTechnologyMediator.onTechnologyNotify()) and slot3
 end
 
-function slot0.addPursuingTimes(slot0, slot1)
-	slot0.pursuingTimes = slot0.pursuingTimes + slot1
+function slot0.addPursuingTimes(slot0, slot1, slot2)
+	if slot2 then
+		slot0.pursuingTimesUR = slot0.pursuingTimesUR + slot1
+	else
+		slot0.pursuingTimes = slot0.pursuingTimes + slot1
+	end
 end
 
 function slot0.resetPursuingTimes(slot0)
 	slot0.pursuingTimes = 0
+	slot0.pursuingTimesUR = 0
 
 	slot0:sendNotification(GAME.PURSUING_RESET_DONE)
 end
 
+function slot0.getPursuingTimes(slot0, slot1)
+	if slot1 then
+		return slot0.pursuingTimesUR
+	else
+		return slot0.pursuingTimes
+	end
+end
+
 function slot0.calcMaxPursuingCount(slot0, slot1)
-	slot2 = pg.gameset.blueprint_pursue_discount_ssr.description
-	slot3 = getProxy(PlayerProxy)
-	slot3 = slot3:getRawData()
-	slot3 = slot3:getResource(PlayerConst.ResGold)
+	slot2 = pg.gameset[slot1:isRarityUR() and "blueprint_pursue_discount_ur" or "blueprint_pursue_discount_ssr"].description
+	slot3 = getProxy(PlayerProxy):getRawData():getResource(PlayerConst.ResGold)
 	slot4 = 0
 
 	function slot5(slot0)
@@ -341,8 +353,9 @@ function slot0.calcMaxPursuingCount(slot0, slot1)
 	end
 
 	slot6 = nil
+	slot10 = slot1
 
-	for slot10 = slot0.pursuingTimes + 1, slot2[#slot2][1] - 1 do
+	for slot10 = slot0:getPursuingTimes(slot1.isRarityUR(slot10)) + 1, slot2[#slot2][1] - 1 do
 		if slot3 < slot1:getPursuingPrice(slot5(slot10)) then
 			return slot4
 		else
@@ -355,7 +368,7 @@ function slot0.calcMaxPursuingCount(slot0, slot1)
 end
 
 function slot0.calcPursuingCost(slot0, slot1, slot2)
-	slot3 = pg.gameset.blueprint_pursue_discount_ssr.description
+	slot3 = pg.gameset[slot1:isRarityUR() and "blueprint_pursue_discount_ur" or "blueprint_pursue_discount_ssr"].description
 	slot4 = 0
 
 	function slot5(slot0)
@@ -369,8 +382,9 @@ function slot0.calcPursuingCost(slot0, slot1, slot2)
 	end
 
 	slot6 = nil
+	slot10 = slot1
 
-	for slot10 = slot0.pursuingTimes + 1, slot3[#slot3][1] - 1 do
+	for slot10 = slot0:getPursuingTimes(slot1.isRarityUR(slot10)) + 1, slot3[#slot3][1] - 1 do
 		slot6 = slot1:getPursuingPrice(slot5(slot10))
 
 		if slot2 == 0 then
@@ -384,14 +398,14 @@ function slot0.calcPursuingCost(slot0, slot1, slot2)
 	return slot4 + slot2 * slot1:getPursuingPrice()
 end
 
-function slot0.getPursuingDiscount(slot0)
-	slot2 = #pg.gameset.blueprint_pursue_discount_ssr.description
+function slot0.getPursuingDiscount(slot0, slot1)
+	slot3 = #pg.gameset[slot1 and "blueprint_pursue_discount_ur" or "blueprint_pursue_discount_ssr"].description
 
-	while slot0 < slot1[slot2][1] do
-		slot2 = slot2 - 1
+	while slot0 < slot2[slot3][1] do
+		slot3 = slot3 - 1
 	end
 
-	return slot1[slot2][2]
+	return slot2[slot3][2]
 end
 
 function slot0.getItemCanUnlockBluePrint(slot0, slot1)

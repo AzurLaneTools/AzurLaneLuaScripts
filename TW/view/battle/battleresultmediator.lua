@@ -12,6 +12,9 @@ slot0.DIRECT_EXIT = "BattleResultMediator:DIRECT_EXIT"
 slot0.REENTER_STAGE = "BattleResultMediator:REENTER_STAGE"
 slot0.OPEN_FAIL_TIP_LAYER = "BattleResultMediator:OPEN_FAIL_TIP_LAYER"
 slot0.PRE_BATTLE_FAIL_EXIT = "BattleResultMediator:PRE_BATTLE_FAIL_EXIT"
+slot0.ON_ENTER_BATTLE_RESULT = "BattleResultMediator:ON_ENTER_BATTLE_RESULT"
+slot0.SET_SKIP_FLAG = "BattleResultMediator:SET_SKIP_FLAG"
+slot0.ON_COMPLETE_BATTLE_RESULT = "BattleResultMediator:ON_COMPLETE_BATTLE_RESULT"
 
 function slot0.register(slot0)
 	slot2 = getProxy(PlayerProxy):getData()
@@ -164,6 +167,13 @@ function slot0.register(slot0)
 			if slot3 then
 				slot4:removeChild(slot3)
 			end
+
+			if slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
+				uv1:sendNotification(uv2.ON_COMPLETE_BATTLE_RESULT, uv1.contextData)
+				existCall(uv1.viewComponent.HideConfirmPanel, uv1.viewComponent)
+
+				return
+			end
 		elseif uv0 == SYSTEM_ROUTINE or uv0 == SYSTEM_SUB_ROUTINE then
 			if slot2:getContextByMediator(DailyLevelMediator) then
 				slot3:removeChild(slot3:getContextByMediator(PreCombatMediator))
@@ -289,7 +299,9 @@ function slot0.register(slot0)
 			mainFleetId = uv0.contextData.mainFleetId,
 			system = uv0.contextData.system,
 			actId = uv0.contextData.actId,
-			rivalId = uv0.contextData.rivalId
+			rivalId = uv0.contextData.rivalId,
+			continuousBattleTimes = uv0.contextData.continuousBattleTimes,
+			totalBattleTimes = uv0.contextData.totalBattleTimes
 		})
 	end)
 	slot0:bind(uv0.PRE_BATTLE_FAIL_EXIT, function (slot0)
@@ -334,6 +346,8 @@ function slot0.register(slot0)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_AUTO_BATTLE)
 		LuaHelper.Vibrate()
 	end
+
+	slot0:sendNotification(uv0.ON_ENTER_BATTLE_RESULT)
 end
 
 function slot0.showExtraChapterActSocre(slot0)
@@ -365,7 +379,10 @@ end
 function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.BEGIN_STAGE_DONE,
-		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE
+		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE,
+		ContinuousOperationMediator.CONTINUE_OPERATION,
+		uv0.SET_SKIP_FLAG,
+		uv0.REENTER_STAGE
 	}
 end
 
@@ -376,6 +393,12 @@ function slot0.handleNotification(slot0, slot1)
 		slot0:sendNotification(GAME.CHANGE_SCENE, SCENE.COMBATLOAD, slot3)
 	elseif slot2 == GAME.ACT_BOSS_EXCHANGE_TICKET_DONE then
 		existCall(slot0.viewComponent.OnActBossExchangeTicket, slot0.viewComponent)
+	elseif slot2 == uv0.SET_SKIP_FLAG then
+		slot0.viewComponent:SetSkipFlag(slot3)
+	elseif slot2 == ContinuousOperationMediator.CONTINUE_OPERATION then
+		slot0.contextData.continuousBattleTimes = slot0.contextData.continuousBattleTimes - 1
+	elseif slot2 == uv0.REENTER_STAGE then
+		slot0.viewComponent:emit(uv0.REENTER_STAGE)
 	end
 end
 

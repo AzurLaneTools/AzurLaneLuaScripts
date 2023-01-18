@@ -11505,6 +11505,32 @@ pg.activity_shop_template = {
 		resource_num = 500,
 		order = 5
 	},
+	[10065] = {
+		limit_args = "",
+		resource_category = 2,
+		activity = 0,
+		num_limit = 1,
+		num = 1,
+		commodity_id = 101382,
+		commodity_type = 7,
+		resource_type = 59900,
+		id = 10065,
+		resource_num = 1000,
+		order = 3
+	},
+	[10066] = {
+		limit_args = "",
+		resource_category = 2,
+		activity = 0,
+		num_limit = 1,
+		num = 1,
+		commodity_id = 96000,
+		commodity_type = 3,
+		resource_type = 59900,
+		id = 10066,
+		resource_num = 800,
+		order = 4
+	},
 	[11001] = {
 		limit_args = "",
 		resource_category = 1,
@@ -11542,7 +11568,7 @@ pg.activity_shop_template = {
 		resource_type = 9,
 		id = 11003,
 		resource_num = 120,
-		order = 4
+		order = 2
 	},
 	[11004] = {
 		limit_args = "",
@@ -11555,7 +11581,7 @@ pg.activity_shop_template = {
 		resource_type = 9,
 		id = 11004,
 		resource_num = 15,
-		order = 9
+		order = 10
 	},
 	[11005] = {
 		limit_args = "",
@@ -11568,7 +11594,7 @@ pg.activity_shop_template = {
 		resource_type = 9,
 		id = 11005,
 		resource_num = 15,
-		order = 8
+		order = 9
 	},
 	[11006] = {
 		limit_args = "",
@@ -11646,7 +11672,7 @@ pg.activity_shop_template = {
 		resource_type = 9,
 		id = 11011,
 		resource_num = 15,
-		order = 7
+		order = 8
 	},
 	[11012] = {
 		limit_args = "",
@@ -11660,6 +11686,58 @@ pg.activity_shop_template = {
 		id = 11012,
 		resource_num = 120,
 		order = 2
+	},
+	[11013] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 0,
+		num_limit = 30,
+		num = 1,
+		commodity_id = 42030,
+		commodity_type = 2,
+		resource_type = 9,
+		id = 11013,
+		resource_num = 30,
+		order = 3
+	},
+	[11014] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 0,
+		num_limit = 10,
+		num = 1,
+		commodity_id = 42036,
+		commodity_type = 2,
+		resource_type = 9,
+		id = 11014,
+		resource_num = 120,
+		order = 2
+	},
+	[11015] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 0,
+		num_limit = 20,
+		num = 1,
+		commodity_id = 14004,
+		commodity_type = 2,
+		resource_type = 9,
+		id = 11015,
+		resource_num = 15,
+		order = 7
+	},
+	[11016] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 0,
+		num_limit = 50,
+		num = 1,
+		commodity_id = 13019,
+		commodity_type = 2,
+		resource_type = 9,
+		id = 11016,
+		resource_num = 60,
+		order = 6
 	},
 	[5001] = {
 		limit_args = "",
@@ -13557,6 +13635,7 @@ pg.activity_shop_template = {
 			1430,
 			1801,
 			10063,
+			10065,
 			5001,
 			5038,
 			5140
@@ -13623,6 +13702,7 @@ pg.activity_shop_template = {
 			10057,
 			10061,
 			10064,
+			10066,
 			5028,
 			5029,
 			5030,
@@ -14339,6 +14419,10 @@ pg.activity_shop_template = {
 			11010,
 			11011,
 			11012,
+			11013,
+			11014,
+			11015,
+			11016,
 			5011,
 			5012,
 			5013,
@@ -15308,6 +15392,8 @@ pg.activity_shop_template = {
 		10062,
 		10063,
 		10064,
+		10065,
+		10066,
 		11001,
 		11002,
 		11003,
@@ -15320,6 +15406,10 @@ pg.activity_shop_template = {
 		11010,
 		11011,
 		11012,
+		11013,
+		11014,
+		11015,
+		11016,
 		5001,
 		5002,
 		5003,

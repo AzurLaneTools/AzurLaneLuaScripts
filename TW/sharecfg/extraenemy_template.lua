@@ -270,6 +270,42 @@ pg.extraenemy_template = {
 			}
 		}
 	},
+	{
+		mail_title = "world_boss_title_9",
+		name = "古比雪夫",
+		hp = 10000,
+		mail_content = "world_boss_content_1",
+		id = 9,
+		background = "",
+		reward = {
+			99061,
+			99062,
+			99063,
+			99064
+		},
+		reward_display = {
+			{
+				2,
+				17003,
+				10
+			},
+			{
+				2,
+				18013,
+				2
+			},
+			{
+				2,
+				11043,
+				5
+			},
+			{
+				3,
+				3840,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -278,6 +314,7 @@ pg.extraenemy_template = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9
 	}
 }

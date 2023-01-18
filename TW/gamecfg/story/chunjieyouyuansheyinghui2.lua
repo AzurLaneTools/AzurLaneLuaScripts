@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春节游园摄影会\n\n<size=45>二 蒸馏浓缩茶</size>",
+					"春節遊園攝影會\n\n<size=45>二 蒸餾濃縮茶</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·东煌风园林",
+			say = "港區·東煌風園林",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "（第一场摄影的模特是U-73小姐，然后拍摄地点就在前面的屋子里……)",
+			say = "（第一場攝影的模特是U-73小姐，然後拍攝地點就在前面的屋子裡……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "（嗯？这股飘来的清香是……）",
+			say = "（嗯？這股飄來的清香是……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "镇海小姐，春节快乐~！",
+			say = "鎮海小姐，春節快樂~！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "U-73小姐，也祝你春节快乐。现在这个场景是……？",
+			say = "U-73小姐，也祝妳春節快樂。現在這個場景是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 408052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，有没有感受到古典与现代的结合感？！",
+			say = "嘿嘿，有沒有感受到古典與現代的結合感？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我听海圻说了，现在是要准备园林宣传的照片吧，我就照着自己的想法把屋子稍微布置了一下~",
+			say = "我聽海圻說了，現在是要準備園林宣傳的照片吧，我就照著自己的想法把屋子稍微佈置了一下~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "场景与道具的搭配，的确给人耳目一新的感觉。",
+			say = "場景與道具的搭配，的確給人耳目一新的感覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 408052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~这个实验装置可不是道具，而是货真价实的哦。",
+			say = "哼哼~這個實驗裝置可不是道具，而是貨真價實的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "货真价实的仪器……这么说来现在充斥着这房间内的清香也是——",
+			say = "貨真價實的儀器……這麼說來現在充斥著這房間內的清香也是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 408052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "蒸馏浓缩茶！",
+			say = "蒸餾濃縮茶！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "啊哈哈……还真是具有现代感的创新啊。",
+			say = "啊哈哈……還真是具有現代感的創新啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "香气上来说肯定没问题哦！味道上的话……理论上也没问题！",
+			say = "香氣上來說肯定沒問題哦！味道上的話……理論上也沒問題！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 408052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟没有加入其他的添加剂，单纯是几种不同茶叶的混合蒸馏……",
+			say = "畢竟沒有加入其他的添加劑，單純是幾種不同茶葉的混合蒸餾……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等拍摄结束之后，大家一起品尝一下吧！",
+			say = "等拍攝結束之後，大家一起品嚐一下吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果觉得不错的话，也请顺便帮我宣传一下~",
+			say = "如果覺得不錯的話，也請順便幫我宣傳一下~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "U-73小姐，摄影装置调试完毕，你这边也准备好了么？",
+			say = "U-73小姐，攝影裝置調整完畢，妳這邊也準備好了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "我这边也准备完毕咯，趁着仪器还在运行中，我们开始吧~",
+			say = "我這邊也準備完畢囉，趁著儀器還在運行中，我們開始吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

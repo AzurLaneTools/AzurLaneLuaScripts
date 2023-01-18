@@ -1200,43 +1200,203 @@ pg.voice_actor_CN = {
 		code = 300,
 		actor_name = "野村真悠華"
 	},
-	[308] = {
+	{
+		code = 301,
+		actor_name = "伊達朱里紗"
+	},
+	{
+		code = 302,
+		actor_name = "風間万裕子"
+	},
+	{
+		code = 303,
+		actor_name = "綾瀨有"
+	},
+	{
+		code = 304,
+		actor_name = "花井美春"
+	},
+	{
+		code = 305,
+		actor_name = "茜屋日海夏"
+	},
+	{
+		code = 306,
+		actor_name = "久保田未夢"
+	},
+	{
+		code = 307,
+		actor_name = "芝崎典子"
+	},
+	{
 		code = 308,
 		actor_name = "會澤紗彌"
 	},
-	[309] = {
+	{
 		code = 309,
 		actor_name = "大森日雅"
 	},
-	[320] = {
+	{
+		code = 310,
+		actor_name = "井上穗乃花"
+	},
+	{
+		code = 311,
+		actor_name = "田中有紀"
+	},
+	{
+		code = 312,
+		actor_name = "三上枝織"
+	},
+	{
+		code = 313,
+		actor_name = "關根明良"
+	},
+	{
+		code = 314,
+		actor_name = "杉山里穗"
+	},
+	{
+		code = 315,
+		actor_name = "中島由貴"
+	},
+	{
+		code = 316,
+		actor_name = "佐藤美由希"
+	},
+	{
+		code = 317,
+		actor_name = "伊藤美來"
+	},
+	{
+		code = 318,
+		actor_name = "早瀨莉花"
+	},
+	{
+		code = 319,
+		actor_name = "東城日沙子"
+	},
+	{
 		code = 320,
-		actor_name = "宴寧 "
+		actor_name = "宴寧"
 	},
-	[321] = {
+	{
 		code = 321,
-		actor_name = "多多poi "
+		actor_name = "多多poi"
 	},
-	[326] = {
+	{
+		code = 322,
+		actor_name = "陳陽"
+	},
+	{
+		code = 323,
+		actor_name = "菊花花"
+	},
+	{
+		code = 324,
+		actor_name = "龜娘"
+	},
+	{
+		code = 325,
+		actor_name = "辻步美"
+	},
+	{
 		code = 326,
 		actor_name = "藤井雪代"
 	},
-	[338] = {
+	{
+		code = 327,
+		actor_name = "村上真夏"
+	},
+	{
+		code = 328,
+		actor_name = "麻倉桃"
+	},
+	{
+		code = 329,
+		actor_name = "柚木涼香"
+	},
+	{
+		code = 330,
+		actor_name = "千本木彩花"
+	},
+	{
+		code = 331,
+		actor_name = "近藤唯"
+	},
+	{
+		code = 332,
+		actor_name = "丸岡和佳奈"
+	},
+	{
+		code = 333,
+		actor_name = "指出毬亞"
+	},
+	{
+		code = 334,
+		actor_name = "夏吉優子"
+	},
+	{
+		code = 335,
+		actor_name = "前川涼子"
+	},
+	{
+		code = 336,
+		actor_name = "法元明菜"
+	},
+	{
+		code = 337,
+		actor_name = "愛美"
+	},
+	{
 		code = 338,
 		actor_name = "大木咲繪子"
 	},
-	[346] = {
+	{
+		code = 339,
+		actor_name = "飯田光"
+	},
+	{
+		code = 340,
+		actor_name = "鈴木愛奈"
+	},
+	{
+		code = 341,
+		actor_name = "菱川花菜"
+	},
+	{
+		code = 342,
+		actor_name = "和多田美咲"
+	},
+	{
+		code = 343,
+		actor_name = "相良茉優"
+	},
+	{
+		code = 344,
+		actor_name = "白城奈央"
+	},
+	{
+		code = 345,
+		actor_name = "木野日菜"
+	},
+	{
 		code = 346,
 		actor_name = "田中愛美"
 	},
-	[348] = {
+	{
+		code = 347,
+		actor_name = "田中那實"
+	},
+	{
 		code = 348,
 		actor_name = "野口百合"
 	},
-	[349] = {
+	{
 		code = 349,
 		actor_name = "照井春佳"
 	},
-	[350] = {
+	{
 		code = 350,
 		actor_name = "羊宮妃那"
 	}

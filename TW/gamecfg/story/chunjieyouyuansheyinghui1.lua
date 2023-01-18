@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春节游园摄影会\n\n<size=45>一 东煌风园林</size>",
+					"春節遊園攝影會\n\n<size=45>一 東煌風園林</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "临近春节的港区",
+			say = "臨近春節的港區",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "锵锵锵，东煌风园林顺利竣工！从室内到庭院均无可挑剔……真是华丽啊！",
+			say = "鏘鏘鏘，東煌風園林順利竣工！從室內到庭院均無可挑剔……真是華麗啊！",
 			effects = {
 				{
 					active = true,
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "“万树江边杏，新开一夜风。满园深浅色，照在绿波中。”",
+			say = "“萬樹江邊杏，新開一夜風。滿園深淺色，照在綠波中。”",
 			effects = {
 				{
 					active = false,
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "这样美丽的景色都要归功于逸仙的提案、同伴们的帮助与指挥官慷慨的预算呢~",
+			say = "這樣美麗的景色都要歸功於逸仙的提案、同伴們的幫助與指揮官慷慨的預算呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "然后接下来就是开园！",
+			say = "然後接下來就是開園！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "不知道到时候来玩的大家评价如何……一定是好评如潮吧！",
+			say = "不知道到時候來玩的大家評價如何……一定是好評如潮吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "这是自然~不过在此之前，首先要想办法吸引更多的同伴来参观才行呢。",
+			say = "這是自然~不過在此之前，首先要想辦法吸引更多的同伴來參觀才行呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "没错，需要一个迅速提高知名度的计策。",
+			say = "沒錯，需要一個迅速提高知名度的計策。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "唔……搭个戏台大家敲锣打鼓一番怎么样！",
+			say = "唔……搭個戲台大家敲鑼打鼓一番怎麼樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果敲的声音太小，大家听不到就没有意义了。",
+			say = "如果敲的聲音太小，大家聽不到就沒有意義了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "可是如果敲得声音太大，会打扰到休息和办公的同伴们吧？",
+			say = "可是如果敲得聲音太大，會打擾到休息和辦公的同伴們吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "海天姐姐所说有理……不过普通的发传单的话，感觉有些太……普通了！",
+			say = "海天姐姐所說有理……不過普通的發傳單的話，感覺有些太……普通了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "没错，所以我们才不要这么做呢~",
+			say = "沒錯，所以我們才不要這麼做呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "这座园林最引人瞩目之处，你觉得是什么？",
+			say = "這座園林最引人矚目之處，妳覺得是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "镇海回答正确~！这座园林最引人瞩目之处为“景”。",
+			say = "鎮海回答正確~！這座園林最引人矚目之處為“景”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "我们首先拍一些景色优美的照片，以此作为宣传素材的话一定能吸引大家的目光的！",
+			say = "我們首先拍一些景色優美的照片，以此作為宣傳素材的話一定能吸引大家的目光的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "我也是这么想的。不过，光有“景”也许略显单薄。",
+			say = "我也是這麼想的。不過，光有“景”也許略顯單薄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "自古良辰美景配佳人，临近春节此乃良辰，眼前尽入皆为美景，只差佳人何处寻呢？",
+			say = "自古良辰美景配佳人，臨近春節此乃良辰，眼前盡入皆為美景，只差佳人何處尋呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你、我再加上海天姐姐……此为佳人！",
+			say = "妳、我再加上海天姐姐……此為佳人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳…自己称自己为佳人未免也有些……",
+			say = "咳…自己稱自己為佳人未免也有些……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "不过模特的话，靠我们和东煌的同伴们应该就可以了吧？",
+			say = "不過模特的話，靠我們和東煌的同伴們應該就可以了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "是可以。不过我们得目的是向更多的同伴推广，让更多的同伴参与进来不是更好么？",
+			say = "是可以。不過我們的目的是向更多的同伴推廣，讓更多的同伴參與進來不是更好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "让身着东煌服装的同伴们在节日气息的园林中拍照，这样才算真正的良辰美景配佳人吧~",
+			say = "讓身著東煌服裝的同伴們在節日氣息的園林中拍照，這樣才算真正的良辰美景配佳人吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "（顺便还能推广一下东煌风的服饰……呼呼呼。）",
+			say = "（順便還能推廣一下東煌風的服飾……呼呼呼。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "我们拍摄的照片会吸引更多的同伴来园林中打卡，前来打卡的同伴又可以用作为纪念品的照片替我们宣传。",
+			say = "我們拍攝的照片會吸引更多的同伴來園林中打卡，前來打卡的同伴又可以用作為紀念品的照片替我們宣傳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "如此连环宣传下去，这里的人气自然会红火起来~",
+			say = "如此連環宣傳下去，這裡的人氣自然會熱門起來~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "噢噢，这就是所谓的“抛砖引玉”之计吧！",
+			say = "噢噢，這就是所謂的“拋磚引玉”之計吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "我觉得“抛砖”这个说法可以再斟酌一下吧~",
+			say = "我覺得“拋磚”這個說法可以再斟酌一下吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "诶…算啦。“春节游园摄影会”，这个名字你们觉得怎么样？",
+			say = "欸…算啦。 “春節遊園攝影會”，這個名字妳們覺得怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "游园摄影会~听起来会很有趣的样子！",
+			say = "遊園攝影會~聽起來會很有趣的樣子！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "邀请拍照的模特你应该也有人选了吧？",
+			say = "邀請拍照的模特妳應該也有人選了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "嗯，接下来就拜托各位跑个腿邀请一下了。",
+			say = "嗯，接下來就拜託各位跑個腿邀請一下了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			actor = 502080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嘿嘿，小事一桩！交给我们就好啦~",
+			say = "嘿嘿，小事一樁！交給我們就好啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

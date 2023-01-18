@@ -372,7 +372,7 @@ function slot1.UpdatePBEnable(slot0, slot1)
 end
 
 function slot1.BlurCamera(slot0, slot1, slot2, slot3)
-	if not slot0.camLockStatus[slot1] then
+	if not slot0.camLockStatus[slot1] or slot3 then
 		slot4 = slot0.cameraBlurs[slot1][uv0.OptimizedBlur]
 		slot5 = slot0.cameraBlurs[slot1][uv0.StaticBlur]
 

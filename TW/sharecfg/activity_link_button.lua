@@ -36,39 +36,13 @@ pg.activity_link_button = {
 	[10] = {
 		param = "0",
 		name = "event_map",
-		type = 0,
+		time = "stop",
 		text_pic = "text_event_map",
+		type = 0,
+		pic = "event_map",
 		id = 10,
 		group_id = 2,
-		pic = "event_map",
-		order = 1,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		order = 1
 	},
 	[20] = {
 		param = "0",
@@ -76,12 +50,12 @@ pg.activity_link_button = {
 		type = 0,
 		text_pic = "text_event_minigame",
 		id = 20,
-		group_id = 3,
+		group_id = 4,
 		pic = "event_minigame",
 		order = 1,
 		time = {
 			"default",
-			40981
+			41028
 		}
 	},
 	[30] = {
@@ -90,11 +64,12 @@ pg.activity_link_button = {
 		type = 0,
 		text_pic = "text_event_boss",
 		id = 30,
-		group_id = 4,
+		group_id = 3,
 		pic = "event_boss",
 		order = 1,
 		time = {
-			"default"
+			"default",
+			41029
 		}
 	},
 	[40] = {

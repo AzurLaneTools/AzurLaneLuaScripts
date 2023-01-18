@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"演习神秘事件调查\n\n<size=45>二 调查员</size>",
+					"布里斯托爾共鬥劇情\n\n<size=45>二 調查員</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "轟————————！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "布里斯托尔刚进入废弃基地近海就遭到了猛烈的攻击。",
+			say = "布里斯托爾剛進入廢棄基地近海就遭到了猛烈的攻擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——这是当然的，因为演习舰队已经部署完毕了。",
+			say = "——這是當然的，因為演習艦隊已經部署完畢了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "敌、敌袭？！",
+			say = "敵、敵襲？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不好……居然连这里也被攻陷了！",
+			say = "不好……居然連這裡也被攻陷了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "损伤状况确认……几乎无损！看来这些敌人准头不怎么好嘛！",
+			say = "損傷狀況確認……幾乎無損！看來這些敵人準頭不怎麼好嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然全身多处中弹，但是布里斯托尔并未受到什么损伤。",
+			say = "雖然全身多處中彈，但是布里斯托爾並未受到什麼損傷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——这也是当然的，因为舰队使用的是演习专用弹药，尽管这一切此时的布里斯托尔还并不知晓。",
+			say = "——這也是當然的，因為艦隊使用的是演習專用彈藥，儘管這一切此時的布里斯托爾還並不知曉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不可以认输，布里斯托尔！这片海域岛礁复杂，首先找一个地方躲起来吧！",
+			say = "不可以認輸，布里斯托爾！這片海域島礁複雜，首先找一個地方的躲起來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "短暂的交火后，布里斯托尔借助烟雾脱离了战斗，之后选择了一处废弃的设施躲了起来。",
+			say = "短暫的交火後，布里斯托爾借助煙霧脫離了戰鬥，之後選擇了一處廢棄的設施躲了起來。",
 			bgm = "xinnong-3",
 			flashout = {
 				black = true,
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "废弃的设施中寂寥荒凉，即使是在白天也显得有些阴森可怕。",
+			say = "廢棄的設施中寂寥荒涼，即使是在白天也顯得有些陰森可怕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			oldPhoto = true,
-			say = "照明系统————ON！",
+			say = "照明系統————ON！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯……这样安心多了！",
+			say = "嗯……這樣安心多了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			oldPhoto = true,
-			say = "敌人居然攻到了这里，说明港区的情况已经不容乐观了……",
+			say = "敵人居然攻到了這裡，說明港區的情況已經不容樂觀了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可是既然如此，英格拉罕为什么要派我过来呢？",
+			say = "可是既然如此，英格拉罕為什麼要派我過來呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……没有头绪，想不明白。",
+			say = "……沒有頭緒，想不明白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,25 +398,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一阵冷风吹过，沉思中的布里斯托尔打了个寒颤。在风声之中，她似乎隐约听到了什么。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900321,
-			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			oldPhoto = true,
-			say = "斯……托尔……",
+			say = "一陣冷風吹過，沉思中的布里斯托爾打了個寒顫。在風聲之中，她似乎隱約聽到了什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +416,25 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			oldPhoto = true,
-			say = "布里……托尔……我来找你了……",
+			say = "斯……托爾……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900321,
+			side = 2,
+			bgName = "star_level_bg_148",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			oldPhoto = true,
+			say = "布里……托爾……我來找妳了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "勇，勇敢的调查员无所畏惧！我记得书上曾经说过，听到陌生人叫自己的名字，绝不可以答应！",
+			say = "勇，勇敢的調查員無所畏懼！我記得書上曾經說過，聽到陌生人叫自己的名字，絕不可以答應！",
 			effects = {
 				{
 					active = false,
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			oldPhoto = true,
-			say = "布里斯……托尔……",
+			say = "布里斯……托爾……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "随着声音越来越近，那个伴随声音接近的身影也越发清晰起来。",
+			say = "隨著聲音越來越近，那個伴隨聲音接近的身影也越發清晰起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你、你是谁？！",
+			say = "妳、妳是誰？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			actor = 101450,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "连我都不认得了吗？你没事吧，是不是刚才被炮弹打到头了？",
+			say = "連我都不認得了嗎？妳沒事吧，是不是剛才被炮彈打到頭了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			oldPhoto = true,
-			say = "进攻舰队就在附近，接下来你就跟我一起……",
+			say = "進攻艦隊就在附近，接下來妳就跟我一起……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "代表指挥官的贴纸是什么？",
+			say = "代表指揮官的貼紙是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "果然是假的！你是谁？！",
+			say = "果然是假的！妳是誰？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			actor = 101450,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈？你在说什么啊？",
+			say = "哈？妳在說什麼啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "快回去，从哪儿来的回哪儿去！这、这里没有你要找的人——",
+			say = "快回去，從哪裡來的回哪裡去！這、這裡沒有妳要找的人——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "丢下了一串如同咒语一般意义不明的话语后，布里斯托尔转头跑入了黑暗的设施深处。",
+			say = "丟下了一串如同咒語一般意義不明的話語後，布里斯托爾轉頭跑入了黑暗的設施身處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			}
 		},
 		{
-			say = "不久之后，休假中的英格拉罕收到了来自演习舰队的联络。",
+			say = "不久之後，休假中的英格拉罕收到了來自演習艦隊的聯絡。",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
@@ -762,7 +762,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "……演习海域与不明敌人发生交火？",
+			say = "……演習海域與不明敵人發生交火？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（离港区那么近的地方不可能出现敌人……应该是布里斯托尔没错吧？）",
+			say = "（離港區那麼近的地方不可能出現敵人……應該是布里斯托爾沒錯吧？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "那个大概就是布里斯托尔……可能刚刚远洋回来还没有进入演习状态。",
+			say = "那個大概就是布里斯托爾……可能剛剛遠洋回來還沒有進入演習狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -816,7 +816,7 @@ return {
 			actor = 101450,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我刚刚在废弃设施里见到她了哦，慌慌张张的，见到我之后说了些奇怪的话就跑掉了！",
+			say = "我剛剛在廢棄設施裡見到她了哦，慌慌張張的，見到我之後說了些奇怪的話就跑掉了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "额……她说了些什么？",
+			say = "呃……她說了些什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -853,7 +853,7 @@ return {
 			actor = 101450,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我想想……好像是让我“快回去”之类的？",
+			say = "我想想……好像是讓我“快回去”之類的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -870,7 +870,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“快回去”……我知道了，布里斯托尔大概是有些不舒服，所以希望你们暂停一下演习的意思吧。",
+			say = "“快回去”……我知道了，布里斯托爾大概是有些不舒服，所以希望妳們暫停一下演習的意思吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101450,
-			say = "如果是这样直说就好嘛……我现在就去请示一下指挥官~",
+			say = "如果是這樣直說就好嘛……我現在就去請示一下指揮官~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -923,7 +923,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "（布里斯托尔那家伙到底在搞什么……我的指令传达的已经很详细了吧？）",
+			say = "（布里斯托爾那傢伙到底在搞什麼……我的指令傳達的已經很詳細了吧？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -958,7 +958,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "（难道也许……会不会有一种可能，是我的指令传达出了些偏差？）",
+			say = "（難道也許……會不會有一種可能，是我的指令傳達出了一些偏差？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -994,7 +994,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（我……我还是去确认一下吧！）",
+			say = "（我……我還是去確認一下吧！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

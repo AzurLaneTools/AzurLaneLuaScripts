@@ -1541,7 +1541,7 @@ pg.activity_shop_extra = {
 	},
 	[67] = {
 		commodity_type = 7,
-		activity = 40510,
+		activity = 41037,
 		commodity_id = 502041,
 		scene = "",
 		id = 67,
@@ -1551,9 +1551,9 @@ pg.activity_shop_extra = {
 		time = {
 			{
 				{
-					2022,
+					2023,
 					1,
-					27
+					18
 				},
 				{
 					0,
@@ -1563,9 +1563,9 @@ pg.activity_shop_extra = {
 			},
 			{
 				{
-					2022,
+					2023,
 					2,
-					10
+					2
 				},
 				{
 					23,
@@ -1674,6 +1674,42 @@ pg.activity_shop_extra = {
 					2021,
 					6,
 					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[72] = {
+		commodity_type = 7,
+		activity = 41040,
+		commodity_id = 301212,
+		scene = "",
+		id = 72,
+		num = 1,
+		num_limit = 1,
+		order = 800,
+		time = {
+			{
+				{
+					2023,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					2
 				},
 				{
 					23,
@@ -1893,6 +1929,42 @@ pg.activity_shop_extra = {
 					2023,
 					1,
 					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[82] = {
+		commodity_type = 7,
+		activity = 41026,
+		commodity_id = 408052,
+		scene = "",
+		id = 82,
+		num = 1,
+		num_limit = 1,
+		order = 800,
+		time = {
+			{
+				{
+					2023,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					2
 				},
 				{
 					23,
@@ -2130,6 +2202,45 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[92] = {
+		commodity_type = 7,
+		activity = 45906,
+		commodity_id = 702023,
+		id = 92,
+		num = 1,
+		num_limit = 1,
+		order = 800,
+		scene = {
+			"crusing",
+			{}
+		},
+		time = {
+			{
+				{
+					2023,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[5001] = {
 		commodity_type = 7,
 		activity = 40146,
@@ -2326,18 +2437,21 @@ pg.activity_shop_extra = {
 			68,
 			69,
 			71,
+			72,
 			73,
 			74,
 			75,
 			76,
 			80,
 			81,
+			82,
 			84,
 			85,
 			86,
 			88,
 			89,
 			90,
+			92,
 			5001,
 			5002,
 			5003,
@@ -2395,18 +2509,21 @@ pg.activity_shop_extra = {
 		68,
 		69,
 		71,
+		72,
 		73,
 		74,
 		75,
 		76,
 		80,
 		81,
+		82,
 		84,
 		85,
 		86,
 		88,
 		89,
 		90,
+		92,
 		5001,
 		5002,
 		5003,

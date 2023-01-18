@@ -196,6 +196,49 @@ pg.activity_event_picturepuzzle = {
 		awards = {},
 		auto_finish_args = {}
 	},
+	[4178] = {
+		id = 4178,
+		chapter = 0,
+		cd = 0,
+		define = 0,
+		pickup_picturepuzzle = {},
+		drop_picturepuzzle = {
+			70093,
+			70094,
+			70095,
+			70096,
+			70097,
+			70098,
+			70099,
+			70100,
+			70101,
+			70102,
+			70103,
+			70104
+		},
+		story = {},
+		awards = {},
+		auto_finish_args = {}
+	},
+	[4669] = {
+		id = 4669,
+		chapter = 0,
+		cd = 0,
+		define = 0,
+		pickup_picturepuzzle = {},
+		drop_picturepuzzle = {
+			70119,
+			70120,
+			70121,
+			70122,
+			70123,
+			70124,
+			70125
+		},
+		story = {},
+		awards = {},
+		auto_finish_args = {}
+	},
 	[40476] = {
 		id = 40476,
 		chapter = 0,
@@ -423,6 +466,8 @@ pg.activity_event_picturepuzzle = {
 		935,
 		959,
 		4058,
+		4178,
+		4669,
 		40476,
 		334,
 		40228,

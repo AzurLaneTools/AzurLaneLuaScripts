@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"essential.\n\n<size=45>五　工作，工作，然后……</size>",
+					"essential.\n\n<size=45>五 工作，工作，然後……</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "新的一天开始了，推开指挥室的大门，看向桌案。",
+			say = "新的一天開始了，推開指揮室的大門，看向桌案。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			},
 			options = {
 				{
-					content = "……出现了一座山。",
+					content = "……出現了一座山。",
 					flag = 1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "只过了一夜，昨日干干净净的办公桌仿佛拥有了生命一般吐出了如同小山一样的文件。",
+			say = "只過了一夜，昨日乾乾淨淨的辦公桌彷彿擁有了生命一般吐出了如同小山一樣的文件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "哼……桌上的这些都是什么呢，指挥官？",
+			say = "哼……桌上的這些都是什麼呢，指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "本以为肯定不会发生这种情况的……该不会是在我不在的时候，你就放着工作不管了吧？",
+			say = "本以為肯定不會發生這種情況的……該不會是在我不在的時候，你就放著工作不管了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不知何时等在指挥室的胡滕瞪了过来。",
+			say = "不知何時等在指揮室的胡騰瞪了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别在意，只是句玩笑话。",
+			say = "別在意，只是句玩笑話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "搬运这些多到不可思议的文件也有我的一份功劳，能看到你那么精彩的表情，也算值得了。",
+			say = "搬運這些躲到不可思議的文件也有我的一份功勞，能看到你那麼精彩的表情，也算值得了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "看来你已经理解了，目前十分严峻的状况。",
+			say = "看來你已經理解了，目前十分嚴峻的狀況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "别发呆了，快点开始工作，我们联手把这堆文件大山收拾掉吧。",
+			say = "別發呆了，快點開始工作，我們聯手把這堆文件大山收拾掉吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "时针指向凌晨1点的时候，至今为止一直默默工作着的胡滕突然站了起来。",
+			say = "時針指向凌晨1點的時候，至今為止一直默默工作著的胡騰突然站了起來。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "指挥官，稍微休息下。",
+			say = "指揮官，稍微休息一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "她腋下夹着已经处理完的厚厚文件夹，把不知从何处取出的能量饮料罐放在了桌上。",
+			say = "她腋下夾著已經處理完的厚厚文件夾，把不知從何處取出的能量飲料罐放在了桌上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "这些都是需要一大早就要下发的部分，我先送出去了。在这段时间内，你先打个盹如何？",
+			say = "這些都是需要一大早就要下發的部分，我先送出去了。在這段時間內，你先打個盹如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "别担心，我会叫醒你的。如果你还是不放心的话……",
+			say = "別擔心，我會叫醒你的。如果你還是不放心的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "胡滕又把不知从何处取出的闹钟放了过来。",
+			say = "胡滕又把不知從何處取出的鬧鐘放了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帮你设个闹钟好了。",
+			say = "幫你設個鬧鐘好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			},
 			options = {
 				{
-					content = "这个闹钟……",
+					content = "這個鬧鐘……",
 					flag = 1
 				}
 			}
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "明显是有备而来！应该说准备充分呢，还是过于魔鬼呢……",
+			say = "明顯是有備而來！應該說準備充分呢，還是過於魔鬼呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "就算不休息，这个工作量也不是一个人能做完的。不如在我回来之前就这么放着好了。",
+			say = "就算不休息，這個工作量也不是一個人能做完的。不如在我回來之前就這麼放著好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "感觉有些过意不去……",
+			say = "感覺有點過意不去……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "这也是最有效率的考量，不用在意。",
+			say = "這也是最有效率的考量，不用在意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就算这么说………还是适当地努力下吧。",
+			say = "就算這麼說………還是適當地努力下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "至少解决掉手头的这组文件——",
+			say = "至少解決掉手頭的這組文件——",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "别担心，我会叫醒你的。如果你还是不放心的话……",
+			say = "別擔心，我會叫醒你的。如果你還是不放心的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "嗯……意识有些无法击中。",
+			say = "嗯……意識有些無法集中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "……不行，好像……越来越……困……了……",
+			say = "……不行，好像……越來越……睏……了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……这个状况看上去是在坚持着工作的途中败给了睡魔啊。诶……所以我不是说了么，你去休息才是最有效率的做法哦，笨蛋。",
+			say = "……這個狀況看上去是在堅持著工作的途中敗給了睡魔啊。欸……所以我不是說了嗎，你去休息才是最有效率的做法哦，笨蛋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			blackBg = true,
-			say = "在一片朦胧的意识中…似乎听到了胡滕的轻声说了些什么……",
+			say = "在一片朦朧的意識中…似乎聽到了胡滕的輕聲說了些什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

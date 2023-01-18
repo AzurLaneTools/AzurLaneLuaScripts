@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"演习神秘事件调查\n\n<size=45>三 加密通话</size>",
+					"布里斯托爾共鬥劇情\n\n<size=45>三 加密通話</size>",
 					1
 				}
 			}
@@ -27,7 +27,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是我的错觉吗……敌人好像越来越多了？！",
+			say = "是我的錯覺嗎……敵人好像越來越多了？！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -63,7 +63,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不知道指挥官和港区的同伴们还好么……",
+			say = "不知道指揮官和港區的同伴們還好嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			oldPhoto = true,
 			bgName = "bg_story_nepu2",
-			say = "轰————————！",
+			say = "轟————————！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -137,7 +137,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "敌人的攻势很猛……这样下去不行，我需要增援。",
+			say = "敵人的攻勢很猛……這樣下去不行，我需要增援。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可是通讯被敌人监控，也不知道港区现在的情况怎么样了……",
+			say = "可是通訊被敵人監控，也不知道港區現在的情況怎麼樣了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "没办法……虽然有风险，但也只能进行加密通话了！",
+			say = "沒辦法……雖然有風險，但也只能進行加密通話了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这里是调查员，现在呼叫事务所——",
+			say = "這裡是調查員，現在呼叫事務所——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#a9f548",
 			say = "………………",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………通讯没有接通？！",
+			say = "…………通訊沒有接通？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不、不过也许只是敌人的干扰……可恶、港区的同伴们千万要平安无事啊！",
+			say = "不、不過也許只是敵人的干擾……可惡、港區的同伴們千萬要平安無事啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "接下来还有英格拉罕的私人联络频道可以试一试……",
+			say = "接下來還有英格拉罕的私人聯絡頻道可以試一試……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "英格拉罕！英格拉罕！这里是调查员——",
+			say = "英格拉罕！英格拉罕！這裡是調查員——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "布里斯托尔……？你现在在哪儿？",
+			say = "布里斯托爾……？妳現在在哪裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那个，你听我说哦。今天本来天气好好的，突然就下雨了！（到达后遭遇突袭！）",
+			say = "那個，妳聽我說哦。今天本來天氣好好的，突然就下雨了！（到達後遭遇突襲！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我还没带伞，你能不能送把伞给我！（情况紧急，急需支援！）",
+			say = "我還沒帶傘，妳能不能送把傘給我！（情況緊急，急需支援！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "今天……你那里好像是晴天哦……",
+			say = "今天……妳那裡好像是晴天哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（……暗号……暗号，要是想让英格拉罕理解到暗号内容的话，这句话应该……对，这么回答！）",
+			say = "（……暗號……暗號，要是想讓英格拉罕理解到暗號內容的話，這句話應該……對，這麼回答！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……唔，你“没有明白”我的意思！",
+			say = "……唔，妳“沒有明白”我的意思！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "我需要你给我送把伞过来啊！（我顶不住了，快派支援！）",
+			say = "我需要妳幫我送把傘過來啊！（我頂不住了，快派支援！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可是根本没下雨，我为什么要去送伞啊……而且就算下雨的话，废弃基地附近肯定有避雨的地方吧，躲一会就好了。",
+			say = "可是根本沒下雨，我為什麼要去送傘啊……而且就算下雨的話，廢棄基地附近肯定有避雨的地方吧，躲一下就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊，原来是这样……！",
+			say = "啊，原來是這樣……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "（躲一会就好了——的意思是敌人攻势猛烈，需要暂时躲避！）",
+			say = "（躲一下就好了——的意思是敵人攻勢猛烈，需要暫時躲避！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这件事先放一边，我有其他事要问你——",
+			say = "這件事先放一邊，我有其他事要問妳——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "我完全明白了！调查员通讯结束！",
+			say = "我完全明白了！調查員通訊結束！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呼………………没想到港区的情况已经这么严重了，支援什么的……果然是没法指望了。",
+			say = "呼………………沒想到港區的情況已經這麼嚴重了，支援什麼的……果然是沒法指望了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "不过英格拉罕依然让我在废弃基地附近寻找掩护……是只要坚定守住这里就有办法的意思么？",
+			say = "不過英格拉罕依然讓我在廢棄基地附近尋找掩護……是只要堅定守住這裡就有辦法的意思嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "布里斯托尔掏出笔记本，在上面写下：",
+			say = "布里斯托爾掏出筆記本，在上面寫下：",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "█年█月█日，晴（心情在下雨），港区半数被毁，战况紧迫。",
+			say = "█年█月█日，晴（心情在下雨），港區半數被毀，戰況緊迫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
-			say = "我被要求守住最后的堡垒……愿大家平安无事。",
+			say = "我被要求守住最後的堡壘……願大家平安無事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

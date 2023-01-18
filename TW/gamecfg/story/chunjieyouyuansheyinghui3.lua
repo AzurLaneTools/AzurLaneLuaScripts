@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春节游园摄影会\n\n<size=45>三 飞将来袭</size>",
+					"春節遊園攝影會\n\n<size=45>三 飛將來襲</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·东煌风园林",
+			say = "港區·東煌風園林",
 			side = 2,
 			bgName = "star_level_bg_153",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（园林的郊外，此时正被薄薄的白雪覆盖着。）",
+			say = "（園林的郊外，此時正被薄薄的白雪覆蓋著。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "（然后是……马蹄声。而且，越来越近了……）",
+			say = "（然後是……馬蹄聲。而且，越來越近了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 105031,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "站住，来者何人！",
+			say = "站住，來者何人！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "鄙人乃东煌所属，谋士镇海。今日得见宾夕法尼亚将军，实是荣幸之至。",
+			say = "鄙人乃東煌所屬，謀士鎮海。今日得見賓夕法尼亞將軍，實是榮幸之至。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105031,
-			say = "没想到镇海小姐你回答得那么正经，倒是我这边不知道怎么往下接了呢，哈哈。",
+			say = "沒想到鎮海小姐妳回答得那麼正經，倒是我這邊不知道怎麼往下接了呢，哈哈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "今天的拍摄场地，也是非常有氛围啊……",
+			say = "今天的拍攝場地，也是非常有氛圍啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "“北风卷地白草折，胡天八月即飞雪”……虽然现在是春天就是了~",
+			say = "“北風卷地白草折，胡天八月即飛雪”……雖然現在是春天就是了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "我和海圻联手布置的场景如何？",
+			say = "我和海圻聯手佈置的場景如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "正所谓“飞雪带春风”，不过……白的印象色同时是为了象征白门楼么？",
+			say = "正所謂“飛雪帶春風”，不過……白的印象色同時是為了象徵白門樓嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，说起来“飞将”的确有一点……",
+			say = "啊，說起來“飛將”的確有一點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……请问，白门楼是？",
+			say = "……請問，白門樓是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "不用在意。同为飞将，宾夕法尼亚这身戎装的渊源是比白门楼那位将军早了三百年呢",
+			say = "不用在意。同為飛將，賓夕法尼亞這身戎裝的淵源可是比白門樓那位將軍早了三百年呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105031,
-			say = "原来如此……又学到新的知识了！",
+			say = "原來如此……又學到新的知識了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来就是拍照对吧，台词我记得是——",
+			say = "接下來就是拍照對吧，台詞我記得是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105031,
-			say = "“我乃石州飞将宾夕法尼亚，谁敢与我一战！”",
+			say = "“我乃石州飛將賓夕法尼亞，誰敢與我一戰！”",
 			effects = {
 				{
 					active = true,
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "咔嚓——抓拍完毕，辛苦了！",
+			say = "咔嚓——拍攝完畢，辛苦了！",
 			effects = {
 				{
 					active = false,
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "在白色大地上自由驰骋的猛将……嗯，这张照片一定能大火。",
+			say = "在白色大地上自由馳騁的猛將……嗯，這張照片一定能大受歡迎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，没想到{namecode:98}小姐居然愿意免费借给我们马和造雪机，真是大好人啊！",
+			say = "嘿嘿，沒想到明石小姐居然願意免費借給我們馬和造雪機，真是大好人啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "等等……{namecode:98}，免费……？",
+			say = "等等……明石，免費……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "海天，海圻……一会拍摄结束之后，大概有些事情我们要好好聊聊！",
+			say = "海天，海圻……等一下拍攝結束之後，大概有些事情我們要好好聊聊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"essential.\n\n<size=45>二　铁血宿舍的骚动</size>",
+					"essential.\n\n<size=45>二 鐵血宿舍的騷動</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 401190,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "胡，胡滕！你在这里吗？！你在这里对吧？",
+			say = "胡，胡騰！妳在這裡嗎？！妳在這裡對吧？",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "快，快快快救救我们ーーー！！",
+			say = "快，快快快救救我們ーーー！！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "一阵喧嚣后，铁血的驱逐舰们突然闯进了指挥室，看起来仿佛快要哭起来一样。",
+			say = "一陣喧囂後，鐵血的驅逐艦們突然闖進了指揮室，看起來彷彿快要哭起來一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……现在可是工作时间，到底怎么了。",
+			say = "……現在可是工作時間，到底怎麼了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“那个”……“那个”出现了！",
+			say = "“那個”……“那個”出現了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……唉，又是那个吗。抱歉，指挥官，我去去就来。",
+			say = "……唉，又是那個嗎。抱歉，指揮官，我去去就來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "难得能见到她和其他同伴说话的情景。虽然不清楚具体情况，还是跟着一起去吧。",
+			say = "難得能見到她和其他同伴說話的情景。雖然不清楚具體情況，還是跟著一起去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "啧。随你便吧，并没什么有趣的。",
+			say = "嘖。隨你便吧，並沒什麼有趣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么就麻烦你了！就算是我，对“那个”也……",
+			say = "那麼就麻煩妳了！就算是我，對“那個”也……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "跟着胡滕一起走进了铁血宿舍的一个房间里。是要在这里做什么吗……",
+			say = "跟著胡騰一起走進了鐵血宿舍的一個房間裡。是要在這裡做什麼嗎……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "大概是蝙蝠什么的又飞进来了吧。马上就能解决。",
+			say = "大概是蝙蝠什麼的又飛進來了吧。馬上就能解決。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,11 +260,11 @@ return {
 			},
 			options = {
 				{
-					content = "需要什么工具吗？",
+					content = "需要什麼工具嗎？",
 					flag = 1
 				},
 				{
-					content = "要把它们赶出去吗？",
+					content = "要把它們趕出去嗎？",
 					flag = 2
 				}
 			}
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "强行赶走容易。但若它们是被这里的环境吸引而来，那这么迟早还会再回来。",
+			say = "強行趕走容易。但若它們是被這裡的環境吸引而來，那這麼遲早還會再回來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,75 +309,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "那该怎么做呢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_109",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 405030,
-			say = "“这里已是他人的住所，不好意思还请移居别处”…让它们明白这个道理就好。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_109",
-			say = "胡滕把窗户完全打开，然后径直坐在了屋内的椅子上。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_109",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 405030,
-			say = "接下来就只要等它们自己出去就行了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "star_level_bg_109",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 405030,
-			say = "…………没理解吗？那我解释下好了。",
+			say = "那該怎麼做呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我是不被动物喜爱的体质，只要在这里待着一般它们就会逃走。这样说能懂吗？",
+			say = "“這裡已是他人的住所，不好意思還請移居別處”…讓它們明白這個道理就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +341,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "虽说有听过这样的事……难道不止是对猫狗，连蝙蝠也有效吗…？",
+			say = "胡騰把窗戶完全打開，然後徑直坐在了屋內的椅子上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,35 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "如果觉得难以置信的话，那就稍微做得明显一点好了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_109",
-			say = "胡滕一边说着，一边开始在屋内踱步起来。只过了一小会，一只蝙蝠就从不知何处飞了出来，随后快速逃出了窗外。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_109",
-			say = "虽然不好确定是不是因为胡滕的“体质”，但麻烦显然已经解决了。",
+			say = "接下來就只要等它們自己出去就行了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +377,103 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "很遗憾，这里并不是你们的住所。",
+			say = "…………沒理解嗎？那我解釋下好了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_109",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 405030,
+			say = "我是不被動物喜愛的體質，只要在這裡待著一般它們就會逃走。這樣說能懂嗎？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_109",
+			say = "雖說有聽過這樣的事……難道不止是對貓狗，連蝙蝠也有效嗎…？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_109",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 405030,
+			say = "如果覺得難以置信的話，那就稍微做得明顯一點好了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_109",
+			say = "胡騰一邊說著，一邊開始在屋內踱步起來。只過了一小會，一隻蝙蝠就從不知何處飛了出來，隨後快速逃出了窗外。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_109",
+			say = "雖然不好確定是不是因為胡滕的“體質”，但麻煩顯然已經解決了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "star_level_bg_109",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 405030,
+			say = "很遺憾，這裡並不是你們的住所。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……工作的时间又被耽误了。",
+			say = "……工作的時間又被耽誤了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "虽然嘴上是这么说的，不过胡滕还是小心仔细地关上了窗户。",
+			say = "雖然嘴上是這麼說的，不過胡滕還是小心仔細地關上了窗戶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……每次都让我做这种事。这次是第几回了，差不多该教她们要好好关上窗了吧？",
+			say = "……每次都讓我做這種事。這次是第幾回了，差不多該教她們要好好關上窗了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			bgName = "star_level_bg_109",
 			dir = 1,
 			blackBg = true,
-			say = "虽然嘴上是这么说的，不过这次同伴的“临时委托”也圆满完成了。对于胡滕的了解又多了一分。",
+			say = "雖然嘴上是這麼說的，不過這次同伴的“臨時委託”也圓滿完成了。對於胡滕的了解又多了一分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
