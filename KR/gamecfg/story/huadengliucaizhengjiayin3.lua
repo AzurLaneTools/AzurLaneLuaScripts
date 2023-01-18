@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"华灯流彩正佳音\n\n<size=45>松戏梅·其二</size>",
+					"현란한 등불의 기쁨\n\n<size=45>3 장난치는 송매화·下</size>",
 					1
 				}
 			}
@@ -19,8 +19,8 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_102",
-			say = "空气中氤氲着新墨的清香，这里原本似乎应该正在……写春联？只是正在发生的事情似乎与写春联毫无干系——",
+			bgName = "star_level_bg_144",
+			say = "공기 중에 먹의 맑은 향기가 자욱하다. 이곳은 원래라면 현재…… 춘련을 쓰고 있어야 하는데? 지금 일어나고 있는 일은 춘련과는 아무런 관계가 없는 것 같다——",
 			bgmDelay = 2,
 			bgm = "main-chunjie3",
 			flashout = {
@@ -46,12 +46,18 @@ return {
 			}
 		},
 		{
-			actor = 502050,
+			actor = 502052,
 			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = "main1",
 			dir = 1,
-			say = "喂！应瑞，你刚刚在偷笑对吧？",
+			nameColor = "#A9F548FF",
+			say = "야! 잉 루이, 너 방금 몰래 웃었지?",
+			live2dOffset = {
+				0,
+				200,
+				0
+			},
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,12 +68,14 @@ return {
 			}
 		},
 		{
-			actor = 502040,
-			side = 2,
-			bgName = "star_level_bg_102",
+			actor = 502052,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = true,
 			dir = 1,
-			say = "嗯哼哼~没有哦。",
+			actorName = "잉 루이",
+			side = 2,
+			say = "이힛~ 아닌데요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,12 +86,13 @@ return {
 			}
 		},
 		{
-			actor = 502050,
+			actor = 502052,
 			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = true,
 			dir = 1,
-			say = "明明就是在偷笑吧！我在桌下都听见了！",
+			nameColor = "#A9F548FF",
+			say = "분명히 몰래 웃었어! 여기 밑에서도 다 들렸거든!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,12 +103,13 @@ return {
 			}
 		},
 		{
-			actor = 502050,
+			actor = 502052,
 			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = true,
 			dir = 1,
-			say = "绝对是你在捣鬼……真是的……",
+			nameColor = "#A9F548FF",
+			say = "분명히 뭔가 꿍꿍이가 있어…… 에이, 정말……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,12 +120,14 @@ return {
 			}
 		},
 		{
-			actor = 502040,
-			side = 2,
-			bgName = "star_level_bg_102",
+			actor = 502052,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = true,
 			dir = 1,
-			say = "比起这个……新年快乐，指挥官~",
+			actorName = "잉 루이",
+			side = 2,
+			say = "그것보단…… 새해 복 많이 받으세요, 지휘관님~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,12 +138,14 @@ return {
 			}
 		},
 		{
-			actor = 502040,
-			side = 2,
-			bgName = "star_level_bg_102",
+			actor = 502052,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = true,
 			dir = 1,
-			say = "肇和，不抓紧结束工作的话，你的样子可就要被指挥官看见了哦。",
+			actorName = "잉 루이",
+			side = 2,
+			say = "차오 호, 얼른 끝내지 않으면, 지휘관이 지금 그 모습을 보게 될 걸요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,12 +156,92 @@ return {
 			}
 		},
 		{
-			actor = 502050,
+			actor = 502052,
 			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = "touch",
 			dir = 1,
-			say = "啊指挥官！什什什什什么时候进来的！……咳，新年快乐，指挥官！",
+			nameColor = "#A9F548FF",
+			say = "아, 지휘관! 어어어어어언제 들어왔어!? ……크흠, 새해 복 많이 받아, 지휘관!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			},
+			options = {
+				{
+					content = "차오 호 쪽으로 고개를 돌린다.",
+					flag = 1
+				}
+			}
+		},
+		{
+			actor = 502052,
+			side = 2,
+			bgName = "star_level_bg_144",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "지휘관, 안녕…… 아, 아니, 지금은 이런 말을 할 때가 아니지! 지휘관, 드디어 왔구나!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 502052,
+			side = 2,
+			bgName = "star_level_bg_144",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "원래 내가 춘련을 장식하고 잉 루이가 춘련을 쓰기로 했는데……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 502052,
+			side = 2,
+			bgName = "star_level_bg_144",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "저 녀석이 갑자기 나타나서 필요한 장식을 가지고 가버렸어! 잉 루이 짓이 분명해!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 502052,
+			side = 2,
+			bgName = "star_level_bg_144",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "그래도 지휘관이 있어서…… 다행이야…… 얼른 저 녀석 잡는 것 좀 도와줘!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,18 +252,41 @@ return {
 			},
 			options = {
 				{
-					content = "看向肇和",
+					content = "알았어!",
 					flag = 1
 				}
 			}
 		},
 		{
-			actor = 502050,
+			actor = 502052,
 			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = "touch2",
 			dir = 1,
-			say = "指挥官，新年好……不，不对，现在不是说这个的时候！指挥官，你终于来了！",
+			nameColor = "#A9F548FF",
+			say = "야야얏, 잠깐 잠깐! 갑자기 비집고 들어오지마아아아아아아!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			actor = 502052,
+			side = 2,
+			bgName = "star_level_bg_144",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "지휘관, 손! 손! 조심하라고!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,12 +297,13 @@ return {
 			}
 		},
 		{
-			actor = 502050,
+			actor = 502052,
 			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = true,
 			dir = 1,
-			say = "本来和应瑞说好了我来做春联的装饰，应瑞来写对联来着……",
+			nameColor = "#A9F548FF",
+			say = "정말…… 어딜 만지는 거야……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,12 +314,14 @@ return {
 			}
 		},
 		{
-			actor = 502050,
-			side = 2,
-			bgName = "star_level_bg_102",
+			actor = 502052,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = true,
 			dir = 1,
-			say = "不知为什么突然窜出来这么个小东西，把我要用的装饰拿走了！绝对是应瑞捣的鬼！",
+			actorName = "잉 루이",
+			side = 2,
+			say = "음, 지휘관, 차오 호, 밑에서 뭐하세요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,12 +332,13 @@ return {
 			}
 		},
 		{
-			actor = 502050,
+			actor = 502052,
 			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = true,
 			dir = 1,
-			say = "不过幸好指挥官在……得救了……快来帮我把这家伙给抓住！",
+			nameColor = "#A9F548FF",
+			say = "아아아아아아무것도 아니야! 아무것도! 진짜로……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,36 +347,20 @@ return {
 				speed = 0.05,
 				speedUp = 0.01
 			},
-			options = {
-				{
-					content = "没问题！",
-					flag = 1
-				}
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
 			}
 		},
 		{
-			actor = 502050,
+			actor = 502052,
 			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = true,
 			dir = 1,
-			say = "喂喂喂等下等下！不要突然挤进来啊啊啊啊啊啊！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 502050,
-			side = 2,
-			bgName = "star_level_bg_102",
 			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "指挥官，手！手！不要趁人之危啦！",
+			say = "후…… 그래도 드디어 이 녀석을 잡았네…… 그럼 이제 할 일은 당연히——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,12 +371,13 @@ return {
 			}
 		},
 		{
-			actor = 502050,
+			actor = 502052,
 			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = "main1",
 			dir = 1,
-			say = "真是的……你在摸哪里啊……",
+			nameColor = "#A9F548FF",
+			say = "잉——루이——!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,12 +388,13 @@ return {
 			}
 		},
 		{
-			actor = 502040,
+			actor = 502052,
 			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = true,
 			dir = 1,
-			say = "嗯，指挥官和肇和，你们在桌子下面做什么呢？",
+			nameColor = "#A9F548FF",
+			say = "어라!? 도망갔잖아!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,76 +405,13 @@ return {
 			}
 		},
 		{
-			actor = 502050,
+			actor = 502052,
 			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_144",
+			live2d = true,
 			dir = 1,
-			say = "不不不不不什么都没有！什么都没有啦！真是的……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 502050,
-			side = 2,
-			bgName = "star_level_bg_102",
 			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "呼……不过好在终于把这家伙给抓住了……接下来要做的事情当然就是——",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 502050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "应——瑞——！？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 502050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "噫？！跑掉了！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 502050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "指挥官，快追上她！接下来就是清算的时间了！",
+			say = "지휘관, 얼른 쫓아가! 당한 걸 되갚아 줄 시간이야!",
 			painting = {
 				alpha = 0.3,
 				time = 1

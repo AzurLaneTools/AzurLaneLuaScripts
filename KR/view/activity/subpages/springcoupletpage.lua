@@ -2,7 +2,7 @@ slot0 = class("SpringCoupletPage", import("...base.BaseActivityPage"))
 slot1 = 7
 slot2 = 7
 slot3 = 7
-slot4 = 100
+slot4 = 400
 slot5 = 78
 slot6 = 1
 slot7 = "ui/activityuipage/springcoupletpage_atlas"
@@ -15,14 +15,16 @@ slot13 = "couplete_remind"
 slot14 = "couplete_complete"
 slot15 = "couplete_enter"
 slot16 = "couplete_stay"
-slot17 = {
+slot17 = "couplete_task"
+slot18 = {
 	"couplete_pass_1",
 	"couplete_pass_2"
 }
-slot18 = {
+slot19 = {
 	"couplete_fail_1",
 	"couplete_fail_2"
 }
+slot20 = 20
 
 function slot0.OnInit(slot0)
 	slot0.itemTpl = findTF(slot0._tf, "AD/itemTpl")
@@ -140,6 +142,7 @@ function slot0.OnInit(slot0)
 			normal_submit = true,
 			taskId = uv0.taskVO.id
 		})
+		uv0:showTips(i18n(uv1), true)
 	end, SFX_PANEL)
 
 	slot1 = Ship.New({
@@ -161,6 +164,22 @@ function slot0.OnInit(slot0)
 	end)
 end
 
+function slot0.OnShowFlush(slot0)
+	slot0.tipStayIndex = uv0
+
+	if slot0.data1List and slot0.data2List and #slot0.data1List ~= #slot0.data2List then
+		slot0:showTips(i18n(uv1))
+	elseif slot0.data1List and slot0.data2List and #slot0.data1List == #slot0.data2List and not slot0.coupletFinishAll then
+		slot0:showTips(i18n(uv2))
+	elseif slot0.coupletFinishAll then
+		slot0:showTips(i18n(uv3))
+	end
+end
+
+function slot0.OnHideFlush(slot0)
+	setActive(slot0.charTip, false)
+end
+
 function slot0.OnDataSetting(slot0)
 	if not slot0.coupletIds then
 		slot0.coupletIds = slot0.activity:getConfig("config_client").couplet
@@ -174,7 +193,7 @@ function slot0.OnDataSetting(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskActivity = getProxy(ActivityProxy):getActivityById(slot0.activity:getConfig("config_client").linkActID)
 	slot0.taskGroup = slot0.taskActivity:getConfig("config_data")
-	slot0.tipStayIndex = 30
+	slot0.tipStayIndex = uv0
 
 	return updateActivityTaskStatus(slot0.taskActivity)
 end
@@ -195,13 +214,6 @@ end
 
 function slot0.OnFirstFlush(slot0)
 	slot0:updateUI()
-
-	if not slot0.coupletFinishAll then
-		slot0:showTips(i18n(uv0))
-	else
-		slot0:showTips(i18n(uv1))
-	end
-
 	slot0:finishAll()
 end
 
@@ -224,20 +236,22 @@ function slot0.updateUI(slot0)
 
 	slot0.coupletIndex = 1
 
-	for slot4 = 1, #slot0.coupletIds do
+	for slot4 = #slot0.coupletIds, 1, -1 do
 		if table.contains(slot0.data1List, slot0.coupletIds[slot4]) and not table.contains(slot0.data2List, slot5) then
 			slot0.coupletIndex = slot4
 		end
 
+		slot6 = table.contains(slot0.data2List, slot5) or false
 		slot7 = table.contains(slot0.data1List, slot5) or false
 
-		setActive(findTF(slot0.items[slot4], "got"), table.contains(slot0.data2List, slot5) or false or false)
-		setActive(findTF(slot8, "bgMask"), not slot7 or false)
+		setActive(findTF(slot0.items[slot4], "got"), slot6 or false)
+		setActive(findTF(slot8, "bgMask"), not slot7 or slot6 or false)
+		setActive(findTF(slot8, "red"), slot7)
 		setActive(findTF(slot8, "lock"), not slot7 or false)
 
 		if slot4 == 7 then
 			setActive(findTF(slot0.finalAward, "lock"), not slot7 or false)
-			setActive(findTF(slot0.finalAward, "mask"), not slot7 or false)
+			setActive(findTF(slot0.finalAward, "mask"), not slot7 or slot6 or false)
 			setActive(findTF(slot0.finalAward, "got"), slot0.coupletFinishAll)
 		end
 	end
@@ -290,7 +304,7 @@ function slot0.finishCouplete(slot0)
 
 		for slot7 = 1, #slot0.coupletBottomWords do
 			slot8 = slot0.coupletBottomWords[slot7]
-			slot9 = true
+			slot9 = false
 
 			if slot8.index == slot8.swapIndex then
 				slot9 = true
@@ -309,25 +323,25 @@ function slot0.finishCouplete(slot0)
 			end
 		end
 
-		if table.contains(slot0.data1List, slot1) then
-			if not table.contains(slot0.activity.data2_list, slot1) then
-				slot4 = nil
+		if table.contains(slot0.data1List, slot1) and not table.contains(slot0.activity.data2_list, slot1) then
+			slot4 = nil
 
-				if #slot0.activity.data2_list == #slot0.coupletIds - 1 then
-					function slot4(slot0)
-						uv0:emit(ActivityMediator.NEXT_DISPLAY_AWARD, slot0)
-						uv0:finishAll()
-					end
+			if #slot0.activity.data2_list == #slot0.coupletIds - 1 then
+				function slot4(slot0)
+					uv0:emit(ActivityMediator.NEXT_DISPLAY_AWARD, slot0)
+					uv0:finishAll()
 				end
 
-				pg.m02:sendNotification(GAME.MEMORYBOOK_UNLOCK, {
-					id = slot1,
-					actId = slot0.activity.id,
-					awardCallback = slot4
-				})
+				slot0:showTips(i18n(uv1), true)
+			else
+				slot0:showTips(uv2, true)
 			end
 
-			slot0:showTips(uv1, true)
+			pg.m02:sendNotification(GAME.MEMORYBOOK_UNLOCK, {
+				id = slot1,
+				actId = slot0.activity.id,
+				awardCallback = slot4
+			})
 		end
 	elseif not slot0.coupletUnLock then
 		-- Nothing
@@ -389,7 +403,21 @@ function slot0.updateCoupletWord(slot0)
 		slot7.tf.anchoredPosition = slot0:getWordPosition(slot8)
 
 		setImageSprite(findTF(slot7.tf, "img"), GetSpriteFromAtlas(uv0, "couplet_" .. slot0.coupletIndex .. "_" .. slot7.index), true)
-		setActive(findTF(slot7.tf, "bgOn"), slot0.coupletUnLock)
+
+		slot9 = false
+		slot11 = slot0.coupletDatas[slot0.coupletIndex].repeated_jp
+
+		if slot7.index == slot7.swapIndex then
+			slot9 = slot7.index == slot7.swapIndex
+		elseif PLATFORM_CODE == PLATFORM_JP and slot11 and #slot11 > 0 then
+			for slot15 = 1, #slot11 do
+				if table.contains(slot11[slot15], slot7.index) and table.contains(slot16, slot7.swapIndex) then
+					slot9 = true
+				end
+			end
+		end
+
+		setActive(findTF(slot7.tf, "bgOn"), slot9)
 		GetComponent(findTF(slot7.tf, "bgOn"), typeof(Image)):SetNativeSize()
 		GetComponent(findTF(slot7.tf, "bgOff"), typeof(Image)):SetNativeSize()
 	end
@@ -469,9 +497,25 @@ function slot0.tweenWord(slot0, slot1)
 	end
 
 	slot4 = LeanTween.value(go(slot1.tf), slot1.tf.anchoredPosition.y, slot3.y, 0.1)
-
-	slot4:setOnUpdate(System.Action_float(function (slot0)
+	slot4 = slot4:setOnUpdate(System.Action_float(function (slot0)
 		uv0.tf.anchoredPosition = Vector2(uv0.tf.anchoredPosition.x, slot0)
+	end))
+
+	slot4:setOnComplete(System.Action(function ()
+		slot0 = false
+		slot2 = uv0.coupletDatas[uv0.coupletIndex].repeated_jp
+
+		if uv1.index == uv1.swapIndex then
+			slot0 = uv1.index == uv1.swapIndex
+		elseif PLATFORM_CODE == PLATFORM_JP and slot2 and #slot2 > 0 then
+			for slot6 = 1, #slot2 do
+				if table.contains(slot2[slot6], uv1.index) and table.contains(slot7, uv1.swapIndex) then
+					slot0 = true
+				end
+			end
+		end
+
+		setActive(findTF(uv1.tf, "bgOn"), slot0)
 	end))
 end
 
@@ -484,10 +528,6 @@ function slot0.clearTween(slot0)
 end
 
 function slot0.showTips(slot0, slot1, slot2)
-	if not slot2 and slot0.tipTime and Time.realtimeSinceStartup - slot0.tipTime < 2 then
-		return
-	end
-
 	if type(slot1) == "table" then
 		if slot1 and #slot1 > 0 then
 			slot0.tipTime = Time.realtimeSinceStartup

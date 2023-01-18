@@ -26,6 +26,20 @@ function slot0.register(slot0)
 
 		uv0:sendNotification(BattleResultMediator.REENTER_STAGE)
 	end)
+	slot0:bind(BattleMediator.HIDE_ALL_BUTTONS, function (slot0, slot1)
+		uv0:sendNotification(BattleMediator.HIDE_ALL_BUTTONS, slot1)
+
+		if not slot1 and not ys.Battle.BattleState.GetInstance().IsAutoBotActive(SYSTEM_ACT_BOSS) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("multiple_sorties_auto_on"))
+			uv0:sendNotification(GAME.AUTO_BOT, {
+				isActiveBot = false
+			})
+			uv0:sendNotification(GAME.AUTO_SUB, {
+				isActiveSub = false
+			})
+			slot2:ActiveBot(slot2.IsAutoBotActive(SYSTEM_ACT_BOSS))
+		end
+	end)
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -40,6 +54,7 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == BattleResultMediator.ON_ENTER_BATTLE_RESULT then
 		slot0:sendNotification(BattleResultMediator.SET_SKIP_FLAG, true)
+		slot0.viewComponent:OnEnterBattleResult()
 	elseif slot2 == BattleResultMediator.ON_COMPLETE_BATTLE_RESULT then
 		slot0:sendNotification(uv0.CONTINUE_OPERATION)
 
@@ -95,6 +110,14 @@ function slot0.handleNotification(slot0, slot1)
 			slot0:DisplayTotalReward(i18n("multiple_sorties_stop_reason4"))
 
 			return
+		end
+
+		if pg.GuildMsgBoxMgr.GetInstance():GetShouldShowBattleTip() and getProxy(GuildProxy):getRawData() and slot19:getWeeklyTask() and slot20.id ~= 0 then
+			slot18:SubmitTask(function (slot0, slot1)
+				if slot1 then
+					uv0:CancelShouldShowBattleTip()
+				end
+			end)
 		end
 
 		if slot0.contextData.continuousBattleTimes <= 1 then

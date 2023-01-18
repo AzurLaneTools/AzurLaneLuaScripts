@@ -931,7 +931,7 @@ function slot0.getSubAidFlag(slot0, slot1)
 
 		if slot11 <= 0 then
 			return slot2.AMMO_EMPTY
-		elseif slot7.oil < slot12 + slot9.oil then
+		elseif slot7.oil <= slot12 + slot9.oil then
 			return slot2.OIL_EMPTY
 		else
 			return true, slot5

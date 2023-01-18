@@ -133,7 +133,7 @@ return {
 	name = "",
 	cd = 0,
 	painting = 1,
-	id = 107112,
+	id = 16440,
 	picture = "0",
 	castCV = "skill",
 	desc = "",

@@ -403,61 +403,6 @@ _G.pg.base.equip_data_statistics[22] = {
 	label = {}
 }
 
-_G.pg.base.equip_data_statistics[97] = {
-	type = 1,
-	name = "空白武器",
-	speciality = "无",
-	tech = 1,
-	rarity = 1,
-	ammo = 10,
-	nationality = 0,
-	descrip = "空白装备",
-	id = 97,
-	value_3 = 0,
-	value_2 = 0,
-	icon = "1",
-	torpedo_ammo = 0,
-	property_rate = {},
-	ammo_icon = {},
-	ammo_info = {},
-	equip_info = {},
-	weapon_id = {},
-	skill_id = {},
-	hidden_skill_id = {},
-	part_main = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		10,
-		12,
-		13,
-		18,
-		19,
-		20,
-		21
-	},
-	part_sub = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		10,
-		12,
-		13,
-		18,
-		19,
-		20,
-		21
-	},
-	equip_parameters = {},
-	label = {}
-}
-
 _G.pg.base.equip_data_statistics[99] = {
 	type = 5,
 	name = "0",
@@ -18025,7 +17970,7 @@ _G.pg.base.equip_data_statistics[3791] = {
 
 _G.pg.base.equip_data_statistics[3800] = {
 	type = 10,
-	name = "梅之语",
+	name = "매화 이야기",
 	speciality = "无",
 	tech = 0,
 	value_2 = 0,
@@ -18155,13 +18100,13 @@ _G.pg.base.equip_data_statistics[3813] = {
 
 _G.pg.base.equip_data_statistics[3820] = {
 	type = 18,
-	name = "戊型水上机",
+	name = "E형 수상기",
 	speciality = "无",
 	tech = 0,
 	value_2 = 14,
 	ammo = 10,
 	nationality = 5,
-	descrip = "定安号装载的戊型水上机",
+	descrip = "딩안호에 탑재된 E형 수상기",
 	rarity = 4,
 	attribute_1 = "durability",
 	value_3 = 0,
@@ -18181,8 +18126,12 @@ _G.pg.base.equip_data_statistics[3820] = {
 		60300
 	},
 	hidden_skill_id = {},
-	part_main = {},
-	part_sub = {},
+	part_main = {
+		19
+	},
+	part_sub = {
+		19
+	},
 	equip_parameters = {},
 	label = {
 		"PRAN",
@@ -18281,13 +18230,13 @@ _G.pg.base.equip_data_statistics[3831] = {
 
 _G.pg.base.equip_data_statistics[3840] = {
 	type = 10,
-	name = "“妖精魔法”海报",
+	name = "“요정 마법” 포스터",
 	speciality = "无",
 	tech = 0,
 	value_2 = 6,
 	ammo = 10,
 	nationality = 7,
-	descrip = "适合张贴在休息室的有趣海报——“想要得到妖精的秘宝，就请勇往直前吧~”",
+	descrip = "휴게실에 붙여두기 좋은 흥미로운 포스터——“요정의 보물을 원한다면, 용감히 전진하라~”",
 	rarity = 5,
 	attribute_1 = "hit",
 	value_3 = 0,
@@ -18307,12 +18256,8 @@ _G.pg.base.equip_data_statistics[3840] = {
 		60310
 	},
 	hidden_skill_id = {},
-	part_main = {
-		19
-	},
-	part_sub = {
-		19
-	},
+	part_main = {},
+	part_sub = {},
 	equip_parameters = {},
 	label = {
 		"SN",
@@ -108955,7 +108900,7 @@ _G.pg.base.equip_data_statistics[60921] = {
 	rarity = 1,
 	ammo = 10,
 	nationality = 0,
-	descrip = "航母空袭展示用",
+	descrip = "공중지원 샘플용",
 	id = 60921,
 	value_3 = 0,
 	value_2 = 0,
@@ -109005,7 +108950,7 @@ _G.pg.base.equip_data_statistics[60931] = {
 	rarity = 1,
 	ammo = 10,
 	nationality = 0,
-	descrip = "航母空袭展示用",
+	descrip = "공중지원 샘플용",
 	id = 60931,
 	value_3 = 0,
 	value_2 = 0,
@@ -109055,7 +109000,7 @@ _G.pg.base.equip_data_statistics[60941] = {
 	rarity = 1,
 	ammo = 10,
 	nationality = 0,
-	descrip = "航母空袭展示用",
+	descrip = "공중지원 샘플용",
 	id = 60941,
 	value_3 = 0,
 	value_2 = 0,
@@ -141511,7 +141456,7 @@ _G.pg.base.equip_data_statistics[170001] = {
 	rarity = 1,
 	ammo = 10,
 	nationality = 0,
-	descrip = "技能弹幕",
+	descrip = "스킬 탄막",
 	id = 170001,
 	value_3 = 0,
 	value_2 = 0,
@@ -141564,7 +141509,7 @@ _G.pg.base.equip_data_statistics[170011] = {
 	rarity = 1,
 	ammo = 10,
 	nationality = 0,
-	descrip = "技能弹幕",
+	descrip = "스킬 탄막",
 	id = 170011,
 	value_3 = 0,
 	value_2 = 0,

@@ -419,7 +419,7 @@ function slot0.updateFinished(slot0, slot1)
 		for slot14 = 1, 3 do
 			if slot8["equipment_proficiency_" .. slot14] then
 				slot0:updateAttrTF_D(cloneTplTo(slot0.attrTplD, slot0.attrContainer), {
-					attrName = EquipType.type2Title(slot14, slot10["equip_" .. slot14][1]) .. i18n("common_proficiency"),
+					attrName = EquipType.LabelToName(EquipType.Types2Title(slot14, slot0.shipVO.configId)) .. i18n("common_proficiency"),
 					value = slot0.shipVO:getEquipProficiencyByPos(slot14) * 100,
 					addition = slot8["equipment_proficiency_" .. slot14] * 100
 				}, true)
@@ -577,7 +577,7 @@ function slot0.updateProgress(slot0, slot1)
 		for slot16 = 1, 3 do
 			if slot6["equipment_proficiency_" .. slot16] then
 				slot0:updateAttrTF(cloneTplTo(slot0.attrTpl, slot0.attrContainer), {
-					attrName = EquipType.type2Title(slot16, slot12["equip_" .. slot16][1]) .. i18n("common_proficiency"),
+					attrName = EquipType.LabelToName(EquipType.Types2Title(slot16, slot0.shipVO.configId)) .. i18n("common_proficiency"),
 					value = slot0.shipVO:getEquipProficiencyByPos(slot16) * 100,
 					addition = slot6["equipment_proficiency_" .. slot16] * 100
 				}, true)

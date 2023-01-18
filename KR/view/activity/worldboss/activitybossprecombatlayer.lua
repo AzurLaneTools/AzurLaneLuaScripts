@@ -12,32 +12,14 @@ function slot0.CommonInit(slot0)
 	slot0._costTip = slot0._startBtn:Find("cost_container/popup/tip")
 	slot0._continuousBtn = slot0:findTF("right/multiple")
 
+	setText(slot0._continuousBtn:Find("text"), i18n("multiple_sorties_title"))
+	setText(slot0._continuousBtn:Find("text_en"), i18n("multiple_sorties_title_eng"))
 	setText(slot0._ticket:Find("title"), i18n("ex_pass_use"))
 	setText(slot0._bonus:Find("title"), i18n("expedition_extra_drop_tip"))
 end
 
 function slot0.didEnter(slot0)
 	uv0.super.didEnter(slot0)
-	onButton(slot0, slot0._costTip, function ()
-		slot0 = 0
-		slot1 = 0
-
-		for slot5, slot6 in ipairs(uv0.contextData.fleets) do
-			slot1 = slot1 + slot6:GetCostSum().oil
-
-			if uv0.contextData.costLimit[slot5 == 1 and 1 or 2] > 0 then
-				slot7 = math.min(slot7, slot9)
-			end
-
-			slot0 = slot0 + slot7
-		end
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			hideNo = true,
-			content = i18n("use_oil_limit_help", slot1, slot0),
-			weight = LayerWeightConst.SECOND_LAYER
-		})
-	end)
 
 	slot2 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId)
 
@@ -107,22 +89,35 @@ function slot0.displayFleetInfo(slot0)
 	end
 
 	slot5 = 0
-	slot6 = false
+	slot6 = 0
+	slot7 = false
 
-	for slot10, slot11 in ipairs(slot0.contextData.fleets) do
-		slot12 = slot11:GetCostSum().oil
+	for slot11, slot12 in ipairs({
+		slot0.contextData.fleets[1]
+	}) do
+		slot6 = slot6 + slot12:GetCostSum().oil
 
-		if slot0.contextData.costLimit[slot10 == 1 and 1 or 2] > 0 then
-			slot6 = slot6 or slot14 < slot12
-			slot12 = math.min(slot12, slot14)
+		if slot0.contextData.costLimit[slot11 == 1 and 1 or 2] > 0 then
+			slot7 = slot7 or slot15 < slot13
+			slot13 = math.min(slot13, slot15)
 		end
 
-		slot5 = slot5 + slot12
+		slot5 = slot5 + slot13
 	end
 
-	setTextColor(slot0._costText, slot6 and Color(0.9803921568627451, 0.39215686274509803, 0.39215686274509803) or Color.white)
+	setTextColor(slot0._costText, slot7 and Color(0.9803921568627451, 0.39215686274509803, 0.39215686274509803) or Color.white)
 	FormationUI.tweenNumText(slot0._costText, slot5)
-	setActive(slot0._costTip, slot6)
+	setActive(slot0._costTip, slot7)
+
+	if slot7 then
+		onButton(slot0, slot0._costTip, function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideNo = true,
+				content = i18n("use_oil_limit_help", uv0, uv1),
+				weight = LayerWeightConst.SECOND_LAYER
+			})
+		end)
+	end
 
 	if slot1 == SYSTEM_ACT_BOSS or slot1 == SYSTEM_HP_SHARE_ACT_BOSS or slot1 == SYSTEM_BOSS_EXPERIMENT then
 		setText(slot0._fleetNameText, Fleet.DEFAULT_NAME_BOSS_ACT[slot0._currentFleetVO.id])

@@ -282,7 +282,7 @@ function slot0.CheckTip(slot0)
 
 	return switch(slot0, {
 		xiaoyouxi = function ()
-			return BackHillTemplate.IsMiniActNeedTip(uv0:getActivityById(ActivityConst.MINIGAME_SPRING_FESTIVAL_2023))
+			return BackHillTemplate.IsMiniActNeedTip(ActivityConst.MINIGAME_SPRING_FESTIVAL_2023)
 		end,
 		huituriji = function ()
 			return getProxy(ColoringProxy):CheckTodayTip()

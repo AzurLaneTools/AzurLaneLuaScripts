@@ -2549,12 +2549,10 @@ pg.ship_skin_template_14 = {
 		group_index = 1,
 		prefab = "yixian_2",
 		painting = "yixian_2",
-		shop_id = 70804,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 3,
 		illustrator = 21,
+		air_bullet_skin = "",
 		l2d_voice_calibrate = "",
+		shop_type_id = 3,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -2566,10 +2564,10 @@ pg.ship_skin_template_14 = {
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 70804,
 		desc = "경사스러운 길일에 지휘관님과 같이 아름다운 풍경을 바라볼 수 있다니 더할 나위 없이 영광스럽습니다. 그… 빈말이 아니라, 이렇게나 잘 대해주셔서 조금은 송구스러울 정도라….",
 		voice_actor = 74,
-		spine_offset = "",
+		air_bomb_skin = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -2651,6 +2649,27 @@ pg.ship_skin_template_14 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				-98,
+				-874,
+				0
+			},
+			{
+				2.5
+			}
+		},
+		special_effects = {
+			"lihui_yixian_2",
+			{
+				147,
+				329,
+				0
+			},
+			{
+				1.47
 			}
 		}
 	},
@@ -5054,9 +5073,7 @@ pg.ship_skin_template_14 = {
 		air_bomb_skin = "",
 		shop_type_id = 3,
 		illustrator = 21,
-		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
-		l2d_animations = "",
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "1101",
@@ -5082,8 +5099,8 @@ pg.ship_skin_template_14 = {
 			2
 		},
 		live2d_offset = {
-			0,
-			0,
+			180,
+			-20,
 			0
 		},
 		fx_container = {
@@ -5152,6 +5169,23 @@ pg.ship_skin_template_14 = {
 					}
 				}
 			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
 		}
 	},
 	[502050] = {
@@ -5420,7 +5454,6 @@ pg.ship_skin_template_14 = {
 		time = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		ship_l2d_id = "",
 		tag = {
 			1,
 			2
@@ -5516,13 +5549,16 @@ pg.ship_skin_template_14 = {
 		},
 		l2d_para_range = {
 			ParamAngleX = {
-				-15,
-				15
+				-20,
+				20
 			},
 			ParamAngleY = {
 				-15,
 				15
 			}
+		},
+		ship_l2d_id = {
+			5020521
 		}
 	},
 	[502070] = {
@@ -6361,7 +6397,7 @@ pg.ship_skin_template_14 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "",
+		desc = "수상기 항공모함—화지아",
 		voice_actor = 354,
 		spine_offset = "",
 		gyro = 0,
@@ -6409,14 +6445,14 @@ pg.ship_skin_template_14 = {
 			},
 			plane = {
 				{
-					1.21,
-					1.43,
+					1.06,
+					1.24,
 					0
 				}
 			},
 			cannon = {
 				{
-					1.49,
+					1.35,
 					1.11,
 					0
 				}
@@ -6457,12 +6493,10 @@ pg.ship_skin_template_14 = {
 		group_index = 1,
 		prefab = "huajia_2",
 		painting = "huajia_2",
-		shop_id = 70807,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 3,
 		illustrator = -1,
+		air_bullet_skin = "",
 		l2d_voice_calibrate = "",
+		shop_type_id = 3,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -6474,10 +6508,10 @@ pg.ship_skin_template_14 = {
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 70807,
 		desc = "강시 화지아예요. 모쪼록 잘 부탁드… 어머, 지휘관님. 왜 그러시죠? 다들 평소와는 다른 모습을 하고 있길래, 저도 옷을 갈아입고 온 건데…… 좀 이상한가요?",
 		voice_actor = 354,
-		spine_offset = "",
+		air_bomb_skin = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -6560,6 +6594,27 @@ pg.ship_skin_template_14 = {
 					}
 				}
 			}
+		},
+		spine_offset = {
+			{
+				-50,
+				-307,
+				0
+			},
+			{
+				0.67
+			}
+		},
+		special_effects = {
+			"lihui_huajia_2",
+			{
+				-5,
+				266,
+				0
+			},
+			{
+				1.416
+			}
 		}
 	},
 	[519010] = {
@@ -6592,7 +6647,7 @@ pg.ship_skin_template_14 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "",
+		desc = "운송함—딩안",
 		voice_actor = 353,
 		spine_offset = "",
 		gyro = 0,

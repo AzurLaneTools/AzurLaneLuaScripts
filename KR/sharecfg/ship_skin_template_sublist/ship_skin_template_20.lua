@@ -9675,7 +9675,7 @@ pg.ship_skin_template_20 = {
 		desc = "새로운 장식에 새로운 의상, 그리고 다양한 준비……. 이것이 이스트 글림의 '새해'라는 건가? 가서 네 할 일을 해. 이 축제 준비에 네가 빠질 수 없는 존재란 것쯤은 나도 잘 알아. 그렇지만… 날 너무 기다리게 하진 마. 후후후.",
 		voice_actor = 21,
 		spine_offset = "",
-		gyro = 0,
+		gyro = 1,
 		rarity_bg = "",
 		time = "",
 		lip_sync_gain = 0,
@@ -9685,8 +9685,8 @@ pg.ship_skin_template_20 = {
 			2
 		},
 		live2d_offset = {
-			-70,
-			185,
+			-65,
+			170,
 			0
 		},
 		fx_container = {
@@ -9768,12 +9768,12 @@ pg.ship_skin_template_20 = {
 		},
 		l2d_para_range = {
 			ParamAngleX = {
-				-15,
-				15
+				-20,
+				20
 			},
 			ParamAngleY = {
-				-15,
-				15
+				-20,
+				20
 			}
 		},
 		ship_l2d_id = {
@@ -9781,7 +9781,9 @@ pg.ship_skin_template_20 = {
 			4990522,
 			4990523,
 			4990524,
-			4990525
+			4990525,
+			4990526,
+			4990527
 		}
 	},
 	[499060] = {
@@ -10596,9 +10598,7 @@ pg.ship_skin_template_20 = {
 		air_bomb_skin = "",
 		shop_type_id = 3,
 		illustrator = 1,
-		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
-		l2d_animations = "",
 		bullet_skin_main = "",
 		skin_type = 0,
 		bg_sp = "1102",
@@ -10615,17 +10615,15 @@ pg.ship_skin_template_20 = {
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
-		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		ship_l2d_id = "",
 		tag = {
 			1,
 			2
 		},
 		live2d_offset = {
-			0,
-			0,
+			47,
+			200,
 			0
 		},
 		fx_container = {
@@ -10694,6 +10692,36 @@ pg.ship_skin_template_20 = {
 					}
 				}
 			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-15,
+				15
+			},
+			ParamAngleY = {
+				-15,
+				15
+			}
+		},
+		ship_l2d_id = {
+			4990711
 		}
 	},
 	[599010] = {

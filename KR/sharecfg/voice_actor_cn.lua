@@ -1382,18 +1382,18 @@ pg.voice_actor_CN = {
 	},
 	[351] = {
 		code = 351,
-		actor_name = "土屋李央"
+		actor_name = "Rio Tsuchiya"
 	},
 	[352] = {
 		code = 352,
-		actor_name = "村上奈津实"
+		actor_name = "Natsumi Murakami"
 	},
 	[353] = {
 		code = 353,
-		actor_name = "田中千惠美"
+		actor_name = "Chiemi Tanaka"
 	},
 	[354] = {
 		code = 354,
-		actor_name = "贯井柚佳"
+		actor_name = "Yuka Nukui"
 	}
 }

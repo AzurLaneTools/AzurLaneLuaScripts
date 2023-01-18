@@ -388,7 +388,13 @@ function slot0.readyToAchieve(slot0)
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_PUZZLA then
 			slot4 = slot0.data1_list
 			slot5 = slot0.data2_list
-			slot2 = _.any(uv0.GetPicturePuzzleIds(slot0.id), function (slot0)
+			slot6 = uv0.GetPicturePuzzleIds(slot0.id)
+
+			if slot0:getConfig("config_client").linkActID and getProxy(ActivityProxy):getActivityById(slot7) and slot8:readyToAchieve() then
+				return true
+			end
+
+			slot2 = _.any(slot6, function (slot0)
 				return not table.contains(uv0, slot0) and table.contains(uv1, slot0)
 			end)
 

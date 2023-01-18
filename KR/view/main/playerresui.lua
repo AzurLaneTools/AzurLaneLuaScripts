@@ -91,7 +91,7 @@ function slot0.Init(slot0, slot1)
 
 	slot0.position = tf(slot0._go).anchoredPosition
 
-	setActiveViaLayer(slot0._go, true)
+	setActive(slot0._go, true)
 end
 
 function slot0.SetActive(slot0, slot1, slot2)
@@ -148,7 +148,7 @@ function slot0.Enable(slot0, slot1)
 		slot0.state = uv1
 
 		slot0:CustomSetting(slot1)
-		setActiveViaLayer(slot0._go, true)
+		setActive(slot0._go, true)
 
 		if slot0:IsDirty() then
 			slot0:Flush()
@@ -169,7 +169,7 @@ function slot0.Disable(slot0)
 
 	slot0.state = uv0
 
-	setActiveViaLayer(slot0._go, false)
+	setActive(slot0._go, false)
 
 	if pg.goldExchangeMgr then
 		pg.goldExchangeMgr:exit()
@@ -370,9 +370,9 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.REMOVE_LAYERS then
 		slot0.balance = slot0.balance - 1
 	elseif uv0.HIDE == slot2 then
-		setActiveViaLayer(slot0._go, false)
+		setActive(slot0._go, false)
 	elseif uv0.SHOW == slot2 then
-		setActiveViaLayer(slot0._go, true)
+		setActive(slot0._go, true)
 	end
 
 	slot0:updateResPanel(slot2)

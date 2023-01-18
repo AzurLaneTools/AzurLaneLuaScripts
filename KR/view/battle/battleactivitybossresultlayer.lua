@@ -1,9 +1,9 @@
 slot0 = class("BattleActivityBossResultLayer", import(".BattleResultLayer"))
 
 function slot0.showRightBottomPanel(slot0)
+	setActive(slot0._blurConatiner:Find("activitybossConfirmPanel"), true)
 	uv0.super.showRightBottomPanel(slot0)
 	SetActive(slot0._rightBottomPanel, false)
-	setActive(slot0._blurConatiner:Find("activitybossConfirmPanel"), true)
 	setActive(slot1:Find("playAgain"), slot0.contextData.system ~= SYSTEM_BOSS_EXPERIMENT)
 	onButton(slot0, slot1:Find("statisticsBtn"), function ()
 		setActive(uv0:Find("playAgain"), uv1._atkBG.gameObject.activeSelf and uv2)
@@ -18,15 +18,12 @@ function slot0.showRightBottomPanel(slot0)
 	setText(slot1:Find("playAgain/bonus/title"), i18n("expedition_extra_drop_tip"))
 
 	slot5 = getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId]
-	slot6 = slot1:Find("playAgain/bonus")
-	slot7 = slot1:Find("playAgain/ticket")
 	slot8 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId)
-	slot10 = 0
-	slot12 = pg.activity_event_worldboss[slot8:getConfig("config_id")]
-	slot13 = slot12.ticket
-	slot14 = slot8:IsOilLimit(slot0.contextData.stageId)
-	slot15 = 0
-	slot16 = slot12.use_oil_limit[slot0.contextData.mainFleetId]
+	slot9 = slot0.contextData.stageId
+	slot11 = pg.activity_event_worldboss[slot8:getConfig("config_id")]
+	slot12 = slot11.ticket
+	slot14 = slot8:IsOilLimit(slot9)
+	slot16 = slot11.use_oil_limit[slot0.contextData.mainFleetId]
 
 	(function ()
 		slot1 = uv0[uv1.contextData.mainFleetId]:GetCostSum().oil
@@ -37,42 +34,19 @@ function slot0.showRightBottomPanel(slot0)
 
 		uv4 = uv4 + slot1
 	end)()
-
-	if slot0.contextData.statistics.submarineAid then
-		(function ()
-			slot1 = uv0[uv1.contextData.mainFleetId + 10]:GetCostSum().oil
-
-			if uv2 and uv3[2] > 0 then
-				slot1 = math.min(slot1, uv3[2])
-			end
-
-			uv4 = uv4 + slot1
-		end)()
-	end
-
-	slot21 = "playAgain/Text"
-
-	setText(slot1:Find(slot21), slot15)
-
-	for slot21, slot22 in pairs(slot8.data1KeyValueList) do
-		for slot26, slot27 in pairs(slot22) do
-			if slot26 == slot9 then
-				slot10 = slot10 + slot27
-			end
-		end
-	end
+	setText(slot1:Find("playAgain/Text"), 0)
 
 	slot18, slot19 = nil
 
-	setActive(slot6, slot10 > 0)
-	setActive(slot7, slot10 <= 0)
-	setText(slot6:Find("Text"), slot10)
+	setActive(slot1:Find("playAgain/bonus"), slot8:GetStageBonus(slot9) > 0)
+	setActive(slot1:Find("playAgain/ticket"), slot13 <= 0)
+	setText(slot6:Find("Text"), slot13)
 
-	if slot10 <= 0 then
-		setImageSprite(slot7:Find("icon"), GetSpriteFromAtlas(itemId2icon(pg.player_resource[slot13].itemid), ""))
+	if slot13 <= 0 then
+		setImageSprite(slot7:Find("icon"), GetSpriteFromAtlas(itemId2icon(pg.player_resource[slot12].itemid), ""))
 
 		slot19 = getProxy(SettingsProxy):isTipActBossExchangeTicket() == 1
-		slot18 = getProxy(PlayerProxy):getRawData():getResource(slot13) > 0
+		slot18 = getProxy(PlayerProxy):getRawData():getResource(slot12) > 0
 		slot24 = 1
 		slot25 = slot7:Find("checkbox")
 
@@ -160,6 +134,10 @@ end
 
 function slot0.OnActBossExchangeTicket(slot0)
 	slot0:emit(BattleResultMediator.REENTER_STAGE)
+end
+
+function slot0.HideConfirmPanel(slot0)
+	setActive(slot0._blurConatiner:Find("activitybossConfirmPanel"), false)
 end
 
 return slot0

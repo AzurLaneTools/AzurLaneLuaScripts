@@ -24,7 +24,7 @@ function slot0.Entrance(slot0, slot1)
 	end
 
 	slot13 = slot18:getStartCost().oil
-	slot21 = slot18:GetCostSum()
+	slot15 = slot18:GetCostSum().oil
 	slot22 = slot5.use_oil_limit[slot17]
 
 	if slot3:IsOilLimit(slot16) and slot22[1] > 0 then

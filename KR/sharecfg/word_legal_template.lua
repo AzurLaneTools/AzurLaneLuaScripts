@@ -6464,6 +6464,15 @@ function temp()
 		},
 		["온"] = {
 			this = true
+		},
+		["이"] = {
+			["비"] = {
+				["셰"] = {
+					["프"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -7805,6 +7814,13 @@ function temp()
 		},
 		["러"] = {
 			this = true
+		},
+		["세"] = {
+			["우"] = {
+				["스"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -8884,6 +8900,17 @@ function temp()
 						["장"] = {
 							["비"] = {
 								[")"] = {
+									this = true
+								}
+							}
+						}
+					}
+				},
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
 									this = true
 								}
 							}
@@ -10112,7 +10139,12 @@ temp()
 function temp()
 	uv0["얏"] = {
 		["센"] = {
-			this = true
+			this = true,
+			["·"] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -10507,6 +10539,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["지"] = {
+			["아"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -10782,6 +10819,16 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["딩"] = {
+		["안"] = {
+			this = true
 		}
 	}
 end

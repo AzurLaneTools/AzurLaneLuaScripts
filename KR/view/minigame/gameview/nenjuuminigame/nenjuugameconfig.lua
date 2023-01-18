@@ -58,18 +58,18 @@ return {
 			wave = {
 				{
 					"Item_1",
-					10,
-					20
+					30,
+					10
 				},
 				{
 					"Item_2",
-					10,
-					20
+					40,
+					10
 				}
 			},
 			extra_time = {
 				120,
-				400
+				300
 			},
 			ability_rate = {
 				blackhole = 0.5,
@@ -86,19 +86,19 @@ return {
 			base_rate = 1,
 			wave = {
 				{
-					"Item_2",
-					15,
-					30
+					"Item_3",
+					20,
+					20
 				},
 				{
-					"Item_3",
-					15,
-					30
+					"Item_4",
+					30,
+					20
 				}
 			},
 			extra_time = {
 				120,
-				500
+				300
 			},
 			ability_rate = {
 				blackhole = 0.5,
@@ -117,24 +117,19 @@ return {
 			base_rate = 1,
 			wave = {
 				{
-					"Item_2",
-					20,
-					40
+					"Item_6",
+					30,
+					20
 				},
 				{
-					"Item_3",
-					20,
-					40
-				},
-				{
-					"Item_4",
-					20,
-					40
+					"Item_5",
+					30,
+					20
 				}
 			},
 			extra_time = {
-				120,
-				600
+				150,
+				500
 			},
 			ability_rate = {
 				blackhole = 0.5,
@@ -155,24 +150,19 @@ return {
 			base_rate = 1,
 			wave = {
 				{
+					"Item_1",
+					30,
+					20
+				},
+				{
 					"Item_3",
-					15,
-					50
-				},
-				{
-					"Item_4",
-					15,
-					50
-				},
-				{
-					"Item_5",
-					15,
-					50
+					30,
+					30
 				}
 			},
 			extra_time = {
-				120,
-				700
+				150,
+				500
 			},
 			ability_rate = {
 				blackhole = 0.5,
@@ -195,24 +185,19 @@ return {
 			base_rate = 1,
 			wave = {
 				{
+					"Item_2",
+					20,
+					40
+				},
+				{
 					"Item_4",
 					20,
-					60
-				},
-				{
-					"Item_5",
-					20,
-					60
-				},
-				{
-					"Item_6",
-					20,
-					60
+					40
 				}
 			},
 			extra_time = {
-				120,
-				800
+				150,
+				500
 			},
 			ability_rate = {
 				blackhole = 0.5,
@@ -238,23 +223,18 @@ return {
 			wave = {
 				{
 					"Item_1",
-					20,
-					70
+					30,
+					30
 				},
 				{
 					"Item_3",
-					20,
-					70
-				},
-				{
-					"Item_6",
-					20,
-					70
+					30,
+					40
 				}
 			},
 			extra_time = {
-				120,
-				900
+				150,
+				600
 			},
 			ability_rate = {
 				blackhole = 0.5,
@@ -281,29 +261,39 @@ return {
 			base_rate = 1,
 			wave = {
 				{
+					"Item_1",
+					5,
+					70
+				},
+				{
+					"Item_2",
+					5,
+					70
+				},
+				{
 					"Item_3",
-					10,
-					100
+					5,
+					70
 				},
 				{
 					"Item_4",
-					10,
-					100
-				},
-				{
-					"Item_5",
-					10,
-					100
+					5,
+					70
 				},
 				{
 					"Item_6",
-					10,
-					100
+					5,
+					70
+				},
+				{
+					"Item_5",
+					5,
+					70
 				}
 			},
 			extra_time = {
 				120,
-				1000
+				700
 			},
 			ability_rate = {
 				blackhole = 0.5,
@@ -629,18 +619,22 @@ return {
 				table.insert(uv0, "object/Snow_5")
 				table.insert(uv0, "object")
 
-				uv1.size = NewPos(2, 2)
+				uv1.size = NewPos(2, 1)
 				uv1.hide = true
 			end,
 			Lamp_B1 = function ()
 				table.insert(uv0, NenjuuGameNameSpace.TargetObject)
 				table.insert(uv0, "object/Lamp_B1")
 				table.insert(uv0, "object")
+
+				uv1.hide = true
 			end,
 			Lamp_B2 = function ()
 				table.insert(uv0, NenjuuGameNameSpace.TargetObject)
 				table.insert(uv0, "object/Lamp_B2")
 				table.insert(uv0, "object")
+
+				uv1.hide = true
 			end,
 			Building_B = function ()
 				table.insert(uv0, NenjuuGameNameSpace.TargetObject)
@@ -699,8 +693,8 @@ return {
 			level = 1,
 			cost = {
 				0,
-				500,
-				500
+				1000,
+				1000
 			},
 			param = {
 				7,
@@ -711,7 +705,7 @@ return {
 		flash = {
 			level = 0,
 			cost = {
-				3000,
+				2000,
 				2000,
 				2000
 			},
@@ -725,8 +719,8 @@ return {
 			level = 0,
 			cost = {
 				2000,
-				1000,
-				1000
+				2000,
+				2000
 			},
 			param = {
 				{
@@ -746,7 +740,7 @@ return {
 		blessing = {
 			level = 0,
 			cost = {
-				1000,
+				2000,
 				1000,
 				1000
 			},
@@ -765,13 +759,13 @@ return {
 		bomb = {
 			level = 0,
 			cost = {
-				2000
+				1000
 			}
 		},
 		lantern = {
 			level = 0,
 			cost = {
-				2000
+				1000
 			}
 		}
 	},

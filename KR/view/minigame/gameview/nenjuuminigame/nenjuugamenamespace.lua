@@ -670,7 +670,7 @@ slot1 = {
 			blackhole = 20,
 			stealth = 10,
 			rush = 0,
-			attack = 1,
+			attack = 2,
 			breakpassable = 0
 		}
 
@@ -878,7 +878,7 @@ slot1 = {
 					end
 				end
 
-				slot2 = slot0.controller:GetWayfindingMap(slot0.pos, not slot0.isDoppel, slot0.isDoppel)
+				slot2 = slot0.controller:GetWayfindingMap(slot0.pos, tobool(slot0.isDoppel))
 				slot3 = slot0.pos
 
 				for slot7, slot8 in ipairs({
@@ -1175,7 +1175,8 @@ for slot5, slot6 in ipairs({
 	"TargetBlackHole",
 	"TargetSubEffect",
 	"TargetItem",
-	"TargetRushEffect"
+	"TargetRushEffect",
+	"TargetArbor"
 }) do
 	slot0[slot6] = slot1[slot6]()
 end

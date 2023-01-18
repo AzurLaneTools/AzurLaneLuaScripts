@@ -2923,7 +2923,7 @@ pg.memory_group = {
 		subtype = 3,
 		type = 2,
 		id = 237,
-		title = "华灯流彩正佳音",
+		title = "현란한 등불의 기쁨",
 		memories = {
 			2531,
 			2532,

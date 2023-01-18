@@ -5,6 +5,7 @@ slot0.ENTER = "BattleMediator:ENTER"
 slot0.ON_BACK_PRE_SCENE = "BattleMediator:ON_BACK_PRE_SCENE"
 slot0.ON_LEAVE = "BattleMediator:ON_LEAVE"
 slot0.ON_QUIT_BATTLE_MANUALLY = "BattleMediator:ON_QUIT_BATTLE_MANUALLY"
+slot0.HIDE_ALL_BUTTONS = "BattleMediator:HIDE_ALL_BUTTONS"
 slot0.ON_CHAT = "BattleMediator:ON_CHAT"
 slot0.CLOSE_CHAT = "BattleMediator:CLOSE_CHAT"
 slot0.ON_AUTO = "BattleMediator:ON_AUTO"
@@ -757,7 +758,7 @@ function slot0.GenBattleData(slot0)
 
 			slot20 = slot26 + slot27
 
-			if slot15:isLegalToFight() == true and (slot2 == SYSTEM_BOSS_EXPERIMENT or slot20 < slot19.oil) then
+			if slot15:isLegalToFight() == true and (slot2 == SYSTEM_BOSS_EXPERIMENT or slot20 <= slot19.oil) then
 				slot1.SubFlag = 1
 				slot1.TotalSubAmmo = 1
 			end
@@ -1036,7 +1037,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.START_GUIDE,
 		GAME.PAUSE_BATTLE,
 		uv0.CLOSE_CHAT,
-		GAME.QUIT_BATTLE
+		GAME.QUIT_BATTLE,
+		uv0.HIDE_ALL_BUTTONS
 	}
 end
 
@@ -1135,6 +1137,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot0:sendNotification(GAME.GO_BACK)
 	elseif slot2 == uv0.CLOSE_CHAT then
 		slot0.viewComponent:OnCloseChat()
+	elseif slot2 == uv0.HIDE_ALL_BUTTONS then
+		ys.Battle.BattleState.GetInstance():GetProxyByName(ys.Battle.BattleDataProxy.__name):DispatchEvent(ys.Event.New(ys.Battle.BattleEvent.HIDE_INTERACTABLE_BUTTONS, {
+			isActive = slot3
+		}))
 	elseif slot2 == GAME.QUIT_BATTLE then
 		slot4:Stop()
 	end

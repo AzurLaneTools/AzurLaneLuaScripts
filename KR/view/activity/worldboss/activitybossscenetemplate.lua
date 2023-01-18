@@ -297,6 +297,17 @@ function slot0.ShowNormalFleet(slot0, slot1)
 		slot0.contextData.actFleets[slot1 + 10]
 	})
 
+	slot4 = slot0.contextData.useOilLimit[slot1]
+
+	if not slot0.contextData.activity:IsOilLimit(slot0.contextData.normalStageIDs[slot1]) then
+		slot4 = {
+			0,
+			0
+		}
+	end
+
+	slot3.buffer:SetOilLimit(slot4)
+
 	slot0.contextData.editFleet = slot1
 
 	slot3.buffer:UpdateView()
@@ -319,6 +330,17 @@ function slot0.ShowEXFleet(slot0)
 		slot0.contextData.actFleets[slot1],
 		slot0.contextData.actFleets[slot1 + 10]
 	})
+
+	slot3 = slot0.contextData.useOilLimit[slot1]
+
+	if not slot0.contextData.activity:IsOilLimit(slot0.contextData.exStageID) then
+		slot3 = {
+			0,
+			0
+		}
+	end
+
+	slot2.buffer:SetOilLimit(slot3)
 
 	slot0.contextData.editFleet = slot1
 

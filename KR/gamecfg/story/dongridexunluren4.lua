@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			actor = 702050,
 			actorName = "쿠이비셰프",
-			say = "테세우스……？",
+			say = "'작은 마녀'…. 역시 내 생각대로네. 테세우스.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "'작은 마녀'…. 역시 내 생각대로네. 테세우스.",
+			actorName = "테세우스",
 			say = "그래. 내가 바로 선택받은 '작은 마녀', 테세우스야!",
 			painting = {
 				alpha = 0.3,
@@ -609,7 +609,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "'작은 마녀'…. 역시 내 생각대로네. 테세우스.",
+			actorName = "테세우스",
 			say = "에헤헤, 그렇지 뭐~",
 			painting = {
 				alpha = 0.3,
@@ -627,7 +627,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "'작은 마녀'…. 역시 내 생각대로네. 테세우스.",
+			actorName = "테세우스",
 			say = "그래서 말인데, 쿠이비셰프도 코인 좀 넘겨주지 않을래?",
 			painting = {
 				alpha = 0.3,
@@ -645,7 +645,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "'작은 마녀'…. 역시 내 생각대로네. 테세우스.",
+			actorName = "테세우스",
 			say = "요정의 보물을 손에 넣어서, 모항을 지키는 기사님과 데이트하고 싶다구♪",
 			painting = {
 				alpha = 0.3,
@@ -699,7 +699,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "'작은 마녀'…. 역시 내 생각대로네. 테세우스.",
+			actorName = "테세우스",
 			say = "'작은 마녀'거든?! 흥!",
 			painting = {
 				alpha = 0.3,
@@ -727,7 +727,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "'작은 마녀'…. 역시 내 생각대로네. 테세우스.",
+			actorName = "테세우스",
 			say = "뭐, 이렇게 모의전을 하는 것도 예정의 일부니까, 지금은 이것저것 재지 말고 그냥 싸우자구~",
 			painting = {
 				alpha = 0.3,
@@ -745,7 +745,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "'작은 마녀'…. 역시 내 생각대로네. 테세우스.",
+			actorName = "테세우스",
 			say = "잘~ 보고 있어! 우승하는 건 나 테세우스야!",
 			painting = {
 				alpha = 0.3,

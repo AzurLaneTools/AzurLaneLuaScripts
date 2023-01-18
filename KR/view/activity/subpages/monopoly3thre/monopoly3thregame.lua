@@ -187,7 +187,7 @@ function slot0.start(slot0)
 	if slot0.leftCount and slot0.leftCount <= 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_count_noenough"))
 
-		if slot0.autoFlag then
+		if slot0.autoFlag and not slot0:checkLastBonus() then
 			slot0.autoFlag = false
 
 			setActive(slot0.btnCancelAuto, false)
@@ -329,7 +329,13 @@ function slot0.checkLastBonus(slot0)
 			setActive(findTF(uv0.labelDropShip, "get"), false)
 			setActive(findTF(uv0.labelDropShip, "got"), true)
 			setActive(findTF(uv0.labelDropShip, "text"), false)
+
+			if uv0.autoFlag then
+				uv0:start()
+			end
 		end)
+
+		return true
 	end
 
 	if slot0.lastBonusFlag == 1 then
@@ -337,6 +343,8 @@ function slot0.checkLastBonus(slot0)
 		setActive(findTF(slot0.labelDropShip, "got"), true)
 		setActive(findTF(slot0.labelDropShip, "text"), false)
 	end
+
+	return false
 end
 
 function slot0.activityDataUpdata(slot0, slot1)

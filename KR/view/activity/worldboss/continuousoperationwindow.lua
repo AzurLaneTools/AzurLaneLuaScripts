@@ -20,7 +20,7 @@ function slot0.init(slot0)
 	slot0.consumeText = slot0.panel:Find("content/consume"):GetComponent("RichText")
 
 	setText(slot0._tf:Find("window/top/bg/title/title"), i18n("multiple_sorties_title"))
-	setText(slot0._tf:Find("window/top/bg/title/title/title_en"), i18n("expedition_extra_drop_tip"))
+	setText(slot0._tf:Find("window/top/bg/title/title/title_en"), i18n("multiple_sorties_title_eng"))
 	setText(slot0.panel:Find("content/desc_txt"), i18n("multiple_sorties_times"))
 	setText(slot0.panel:Find("Tip"), i18n("multiple_sorties_tip"))
 	setText(slot0.panel:Find("battle/pic"), i18n("msgbox_text_battle"))
@@ -64,7 +64,7 @@ function slot0.didEnter(slot0)
 	end)
 	slot0._pageUtil:setMaxNum(uv0)
 
-	slot0.contextData.battleTimes = slot0.contextData.battleTimes or uv0
+	slot0.contextData.battleTimes = slot0.contextData.battleTimes or 1
 
 	slot0._pageUtil:setDefaultNum(slot0.contextData.battleTimes)
 	slot0:UpdateContent()

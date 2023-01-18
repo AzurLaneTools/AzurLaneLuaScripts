@@ -1,7 +1,7 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGRIDEXUNLUREN1",
+	id = "DONGRIDEXUNLUREN2",
 	once = true,
 	fadeType = 2,
 	fadein = 1.5,

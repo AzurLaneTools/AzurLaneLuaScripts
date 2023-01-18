@@ -927,7 +927,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 43,
-		name = "东煌美食",
+		name = "이스트 글림 음식",
 		ids = {
 			710,
 			711,
@@ -991,7 +991,7 @@ pg.equip_skin_theme_template = {
 	},
 	[103] = {
 		id = 103,
-		name = "风云万象",
+		name = "풍운만상",
 		ids = {
 			2029,
 			2030,

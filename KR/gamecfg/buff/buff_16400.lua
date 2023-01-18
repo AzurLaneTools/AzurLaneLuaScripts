@@ -24,6 +24,18 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				quota = 1,
+				target = "TargetSelf",
+				time = 3,
+				skill_id = 16400
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
 				"onAllInStrikeSteady"
 			},
 			arg_list = {

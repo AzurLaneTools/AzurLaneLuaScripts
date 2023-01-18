@@ -271,7 +271,7 @@ pg.activity_template = {
 						51164,
 						51165,
 						51166,
-						51166,
+						51167,
 						51168,
 						51169,
 						51170,
@@ -7683,17 +7683,17 @@ pg.activity_template = {
 		config_client = {
 			id = 2,
 			bg = "loadingbg/bg_build_2_act",
-			buildship_tip = "古比雪夫、忒修斯、华甲 建造概率UP！",
+			buildship_tip = "쿠이비셰프, 테세우스, 화지아 건조 확률 UP！",
 			rate_tip = {
-				"<color=#ffde38>超稀有舰船</color>：7%",
-				"<color=#d797ff>精锐舰船</color>：12%",
-				"<color=#3dc6ff>稀有舰船</color>：26%",
-				"普通舰船：55%",
-				"<color=#ffde38>古比雪夫</color>：2.0%(<color=#92fc63>up!</color>)",
+				"<color=#ffde38>SSR</color>: 7%",
+				"<color=#d797ff>SR</color>: 12%",
+				"<color=#3dc6ff>R</color>: 26%",
+				"N: 55%",
+				"<color=#ffde38>쿠이비셰프</color>: 2.0%(<color=#92fc63>up!</color>)",
 				" ",
-				"<color=#ffde38>忒修斯</color>：2.0%(<color=#92fc63>up!</color>)",
+				"<color=#ffde38>테세우스</color>: 2.0%(<color=#92fc63>up!</color>)",
 				" ",
-				"<color=#d797ff>华甲</color>：2.5%(<color=#92fc63>up!</color>)"
+				"<color=#d797ff>화지아</color>: 2.5%(<color=#92fc63>up!</color>)"
 			}
 		}
 	},
@@ -7738,6 +7738,45 @@ pg.activity_template = {
 					2023,
 					2,
 					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4681] = {
+		mark = 20230118,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31969,100}]",
+		config_client = "",
+		id = 4681,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					1
 				},
 				{
 					23,
@@ -13225,6 +13264,7 @@ pg.activity_template = {
 		4678,
 		4679,
 		4680,
+		4681,
 		7004,
 		7005,
 		7006,

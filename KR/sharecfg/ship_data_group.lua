@@ -1834,6 +1834,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -8462,6 +8473,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -10237,7 +10259,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：永夜幻光",
+				"한정 이벤트: 춘절 한정 건조",
 				{
 					""
 				},
@@ -19295,6 +19317,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -19322,7 +19355,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：占坑",
+				"한정 이벤트: 춘절 한정 건조",
 				{
 					""
 				},
@@ -19354,7 +19387,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：占坑",
+				"한정 이벤트: 춘절 폭죽",
 				{
 					""
 				},
@@ -20718,7 +20751,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：占坑",
+				"한정 이벤트: 춘절 한정 건조",
 				{
 					""
 				},

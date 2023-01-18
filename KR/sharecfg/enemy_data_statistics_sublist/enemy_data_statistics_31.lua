@@ -556,7 +556,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90736] = {
 		cannon = 0,
-		name = "阿芙乐尔",
+		name = "아브로라",
 		type = 2,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -720,7 +720,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90737] = {
 		cannon = 0,
-		name = "甘古特",
+		name = "강구트",
 		type = 5,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -871,7 +871,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90738] = {
 		cannon = 0,
-		name = "忒修斯",
+		name = "테세우스",
 		type = 6,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -1029,7 +1029,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90739] = {
 		cannon = 0,
-		name = "古比雪夫",
+		name = "쿠이비셰프",
 		type = 2,
 		speed_growth = 0,
 		battle_unit_type = 49,

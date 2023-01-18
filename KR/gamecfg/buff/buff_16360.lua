@@ -59,6 +59,16 @@ return {
 					"TargetNationalityFriendly"
 				}
 			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAllInStrike"
+			},
+			arg_list = {
+				skill_id = 16362,
+				target = "TargetSelf"
+			}
 		}
 	}
 }

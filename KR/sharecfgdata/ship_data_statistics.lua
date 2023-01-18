@@ -114509,9 +114509,9 @@ _G.pg.base.ship_data_statistics[206081] = {
 		0
 	},
 	equipment_proficiency = {
-		1.1,
-		1.2,
-		1.2
+		1,
+		1.15,
+		1.4
 	},
 	strategy_list = {},
 	hunting_range = {
@@ -114634,9 +114634,9 @@ _G.pg.base.ship_data_statistics[206082] = {
 		0
 	},
 	equipment_proficiency = {
-		1.12,
-		1.22,
-		1.22
+		1.02,
+		1.17,
+		1.42
 	},
 	strategy_list = {},
 	hunting_range = {
@@ -114759,9 +114759,9 @@ _G.pg.base.ship_data_statistics[206083] = {
 		0
 	},
 	equipment_proficiency = {
-		1.15,
-		1.25,
-		1.25
+		1.05,
+		1.2,
+		1.45
 	},
 	strategy_list = {},
 	hunting_range = {
@@ -114884,9 +114884,9 @@ _G.pg.base.ship_data_statistics[206084] = {
 		0
 	},
 	equipment_proficiency = {
-		1.2,
-		1.3,
-		1.3
+		1.1,
+		1.25,
+		1.5
 	},
 	strategy_list = {},
 	hunting_range = {
@@ -236223,9 +236223,9 @@ _G.pg.base.ship_data_statistics[519011] = {
 	},
 	fix_equip_list = {},
 	default_equip_list = {
-		152,
-		97,
-		97
+		100,
+		100,
+		100
 	},
 	depth_charge_list = {},
 	base_list = {
@@ -236346,9 +236346,9 @@ _G.pg.base.ship_data_statistics[519012] = {
 	},
 	fix_equip_list = {},
 	default_equip_list = {
-		152,
-		97,
-		97
+		100,
+		100,
+		100
 	},
 	depth_charge_list = {},
 	base_list = {
@@ -236469,9 +236469,9 @@ _G.pg.base.ship_data_statistics[519013] = {
 	},
 	fix_equip_list = {},
 	default_equip_list = {
-		152,
-		97,
-		97
+		100,
+		100,
+		100
 	},
 	depth_charge_list = {},
 	base_list = {
@@ -236592,9 +236592,9 @@ _G.pg.base.ship_data_statistics[519014] = {
 	},
 	fix_equip_list = {},
 	default_equip_list = {
-		152,
-		97,
-		97
+		100,
+		100,
+		100
 	},
 	depth_charge_list = {},
 	base_list = {

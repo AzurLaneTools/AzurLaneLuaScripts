@@ -2,10 +2,9 @@ return {
 	uiEffect = "",
 	name = "联合暴击伤害",
 	cd = 0,
-	painting = 1,
+	painting = 0,
 	id = 16351,
 	picture = "0",
-	castCV = "skill",
 	desc = "联合暴击伤害",
 	aniEffect = {
 		effect = "jineng",

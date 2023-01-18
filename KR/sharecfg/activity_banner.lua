@@ -1,16 +1,22 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4639",
 		id = 1,
 		pic = "temp1",
-		type = 3,
+		type = 2,
+		param = {
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
+		},
 		time = {
 			{
 				{
 					2023,
 					1,
-					12
+					18
 				},
 				{
 					0,
@@ -33,16 +39,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4637",
 		id = 2,
 		pic = "temp2",
-		type = 3,
+		type = 2,
+		param = {
+			"scene skinshop"
+		},
 		time = {
 			{
 				{
 					2023,
 					1,
-					12
+					18
 				},
 				{
 					0,
@@ -54,7 +62,7 @@ pg.activity_banner = {
 				{
 					2023,
 					2,
-					2
+					1
 				},
 				{
 					23,
@@ -65,7 +73,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4636",
+		param = "4671",
 		id = 3,
 		pic = "temp3",
 		type = 3,
@@ -74,7 +82,7 @@ pg.activity_banner = {
 				{
 					2023,
 					1,
-					12
+					18
 				},
 				{
 					0,
@@ -97,7 +105,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4635",
+		param = "4669",
 		id = 4,
 		pic = "temp4",
 		type = 3,
@@ -106,7 +114,7 @@ pg.activity_banner = {
 				{
 					2023,
 					1,
-					12
+					18
 				},
 				{
 					0,
@@ -133,10 +141,9 @@ pg.activity_banner = {
 		pic = "temp5",
 		type = 2,
 		param = {
-			"scene equip",
+			"shipblueprint",
 			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
+				shipGroupId = 49902
 			}
 		},
 		time = {
@@ -144,7 +151,7 @@ pg.activity_banner = {
 				{
 					2023,
 					1,
-					12
+					18
 				},
 				{
 					0,
@@ -155,8 +162,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					1,
-					18
+					2,
+					2
 				},
 				{
 					23,
@@ -167,15 +174,8 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4621",
-		time = "stop",
-		type = 3,
 		id = 6,
-		pic = "temp6"
-	},
-	{
-		id = 7,
-		pic = "temp7",
+		pic = "temp6",
 		type = 2,
 		param = {
 			"scene charge",
@@ -188,7 +188,7 @@ pg.activity_banner = {
 				{
 					2023,
 					1,
-					5
+					18
 				},
 				{
 					0,
@@ -199,8 +199,42 @@ pg.activity_banner = {
 			{
 				{
 					2023,
+					2,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 7,
+		pic = "temp7",
+		type = 2,
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2023,
 					1,
-					11
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					1
 				},
 				{
 					23,
@@ -215,14 +249,17 @@ pg.activity_banner = {
 		pic = "temp8",
 		type = 2,
 		param = {
-			"scene court yard"
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
 		},
 		time = {
 			{
 				{
 					2023,
 					1,
-					5
+					18
 				},
 				{
 					0,
@@ -233,8 +270,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					1,
-					11
+					2,
+					1
 				},
 				{
 					23,
@@ -348,7 +385,7 @@ pg.activity_banner = {
 		}
 	},
 	[100] = {
-		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		param = "만두|모두가 좋아하는 전통 음식! <color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
 		id = 100,
 		pic = "dumpling",
 		type = 10,
@@ -451,17 +488,17 @@ pg.activity_banner = {
 		pic = "winter"
 	},
 	get_id_list_by_type = {
-		[3] = {
+		[2] = {
 			1,
 			2,
-			3,
-			4,
-			6
-		},
-		[2] = {
 			5,
+			6,
 			7,
 			8
+		},
+		[3] = {
+			3,
+			4
 		},
 		[9] = {
 			90,

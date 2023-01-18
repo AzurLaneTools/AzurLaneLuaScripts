@@ -11,20 +11,21 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"华灯流彩正佳音\n\n<size=45>金龙的休憩</size>",
+					"현란한 등불의 기쁨\n\n<size=45>1 금룡의 휴식</size>",
 					1
 				}
 			}
 		},
 		{
-			actor = 499050,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgmDelay = 2,
-			say = "新年快乐，指挥官。",
 			bgm = "main-chunjie3",
+			actor = 499052,
+			nameColor = "#A9F548FF",
+			live2d = "expedition",
+			say = "해피 뉴 이어, 지휘관.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -52,12 +53,13 @@ return {
 			}
 		},
 		{
-			actor = 499050,
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			dir = 1,
-			say = "呵呵，欢迎来到——金龙休憩的角落。",
+			nameColor = "#A9F548FF",
+			say = "후후, 금룡의 휴식처에 온 걸 환영한다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,12 +70,13 @@ return {
 			}
 		},
 		{
-			actor = 499050,
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			dir = 1,
-			say = "听说在东煌的故事里有不少关于“龙”的传说？不过它代表的感情似乎和我平常熟稔的那种恶兽完全不同呢。",
+			nameColor = "#A9F548FF",
+			say = "이스트 글림에는 \"용\"과 관련된 전설이 많다며? 하지만 용이 대표하는 감정은 내가 잘 아는 악물과는 다른 것 같던데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,12 +87,13 @@ return {
 			}
 		},
 		{
-			actor = 499050,
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			dir = 1,
-			say = "于是就试着扮成了现在的样子——",
+			nameColor = "#A9F548FF",
+			say = "그래서 지금의 모습으로 꾸며봤어——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,12 +104,13 @@ return {
 			}
 		},
 		{
-			actor = 499050,
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			dir = 1,
-			say = "怎样，在气质上还不赖吧？",
+			nameColor = "#A9F548FF",
+			say = "어때, 분위기 나쁘지 않지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,255 +121,13 @@ return {
 			}
 		},
 		{
-			actor = 499050,
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			dir = 1,
-			say = "……喂，你那是什么表情！怎么，我选的这套衣服难道不合节日的氛围吗？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "赞美",
-					flag = 1
-				},
-				{
-					content = "质疑",
-					flag = 2
-				}
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
 			nameColor = "#A9F548FF",
-			dir = 1,
-			optionFlag = 1,
-			say = "果然，指挥官还是很有眼光的嘛。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			optionFlag = 1,
-			say = "你能喜欢那就再好不过了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			optionFlag = 2,
-			say = "……不许质疑和有意见！选衣服可是花了我好久呢！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			optionFlag = 2,
-			say = "“春节才不是什么色色的节日”？我、我当然知道！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			optionFlag = 2,
-			say = "真是的，不解风情的家伙……唉，算了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "和流光溢彩的外面不同，这里是喧闹春节之中一处难得的宁静角落呢。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "如果节日的准备工作做得差不多了的话，要不要来我的身边稍微放松一会呢？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "哪怕是驰骋在海上的恶兽，也会有想要享受片刻安静的时候啊。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_102",
-			say = "在埃吉尔的邀请下坐在了她的身边。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "嗯~很在意吗，熏香的味道？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "呼呼，打理熏香可是我新学会的技能哟~",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "不仅如此，我最近还学到了很多有趣的东西呢。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_102",
-			say = "……比如？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "书法！嗯~这用毛绒绒的毛笔在宣纸上写字也意外地有意思哦——",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "唔唔唔，不过毛笔……应该怎么握来着？这样？还是……这样？",
+			say = "…… 너, 그건 무슨 표정이야!? 왜, 내가 고른 이 옷이 설마 명절의 분위기에 안 맞아?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,23 +138,24 @@ return {
 			},
 			options = {
 				{
-					content = "伸手帮忙",
+					content = "칭찬한다.",
 					flag = 1
 				},
 				{
-					content = "笑而不语",
+					content = "질문한다.",
 					flag = 2
 				}
 			}
 		},
 		{
-			actor = 499050,
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			live2d = "headtouch",
 			dir = 1,
 			optionFlag = 1,
-			say = "哦！我就知道你会这个……",
+			nameColor = "#A9F548FF",
+			say = "지휘관은 역시 보는 눈이 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,13 +166,14 @@ return {
 			}
 		},
 		{
-			actor = 499050,
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			dir = 1,
 			optionFlag = 1,
-			say = "先、先说好，区区毛笔，我自己也能学会哦？",
+			nameColor = "#A9F548FF",
+			say = "네가 좋다면 더할 나위 없지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,13 +184,14 @@ return {
 			}
 		},
 		{
-			actor = 499050,
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "有、有点难弄……",
+			nameColor = "#A9F548FF",
+			say = "…… 질문이나 의견은 안 받아! 옷 고르는데 얼마나 시간을 들였는데!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,13 +202,37 @@ return {
 			}
 		},
 		{
-			actor = 499050,
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			live2d = "headtouch",
 			dir = 1,
 			optionFlag = 2,
-			say = "我知道你会这个，别光看着了，快来教教我！",
+			nameColor = "#A9F548FF",
+			say = "\"춘절은 이런 옷을 입고 축하하는 명절이 아니라고\"? 나, 나도 당연히 알아!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
+			say = "정말이지, 뭘 모른다니까…… 에휴, 됐어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,22 +243,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "埃吉尔在尴尬中下意识地挥起毛笔来……不过这样的话——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			dir = 1,
-			say = "等，等一下？！墨汁沾到上面了……",
+			nameColor = "#A9F548FF",
+			say = "시끌벅적한 춘절의 화려한 바깥과 달리 여기는 모처럼 한적한 곳이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,12 +260,13 @@ return {
 			}
 		},
 		{
-			actor = 499050,
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			live2d = "touch",
 			dir = 1,
-			say = "欸？！不、不用！我，我自己擦就行了！！",
+			nameColor = "#A9F548FF",
+			say = "명절 준비 작업이 거의 다 끝났으면, 이쪽으로 와서 좀 쉴래?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,22 +277,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "一阵手忙脚乱之后——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			dir = 1,
-			say = "唔……唔，没想到还挺有难度……",
+			nameColor = "#A9F548FF",
+			say = "바다를 누비는 악물이라도 잠시나마 정적을 즐기고 싶을 때가 있잖아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,12 +294,14 @@ return {
 			}
 		},
 		{
-			actor = 499050,
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
+			live2d = true,
+			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "笑、笑什么？我已经学会了哦！",
+			say = "에기르의 말에 그녀의 옆으로 가서 앉았다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,12 +312,13 @@ return {
 			}
 		},
 		{
-			actor = 499050,
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			dir = 1,
-			say = "好啦！指挥官！",
+			nameColor = "#A9F548FF",
+			say = "음~ 신경 쓰여? 아로마 향?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,12 +329,307 @@ return {
 			}
 		},
 		{
-			actor = 499050,
+			actor = 499052,
 			side = 2,
 			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "후후, 요즘 아로마를 관리하는 방법을 새로 터득했거든~",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "이것 뿐만 아니라 재미난 것들을 아주 많이 배웠어.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "刚刚的小插曲就让它这么过去，此刻就请放空心绪，专心享受这节日的甘美吧——",
+			say = "……예를 들면?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = "main1",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "서예! 음~ 이 부들부들한 붓으로 화선지에 글씨를 쓰는 것도 의외로 재밌더라고——",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "으어어, 근데 붓…… 어떻게 잡는 거였더라? 이렇게? 아니면… 이렇게?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			options = {
+				{
+					content = "도와준다.",
+					flag = 1
+				},
+				{
+					content = "말없이 웃는다.",
+					flag = 2
+				}
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
+			say = "아! 네가 알고 있을 줄 알았어……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
+			say = "그, 그래도 말해두자면, 이정도는 혼자서도 할 수 있어!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
+			say = "어, 어렵네……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
+			say = "넌 알고 있다는 거 알아. 보지만 말고 빨리 가르쳐줘!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "에기르는 뻘쭘해하며 무의식적으로 붓을 휘둘렀다…… 하지만 그렇게 하면——",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = "touch2",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "어, 어라!? 먹물이 튀겼네……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "엣!? 괘, 괜찮아! 내, 내가 닦을 수 있어!!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "정신없이 한바탕 허둥지둥한 후——",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "후…… 음, 생각보다 많이 어렵네……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "우, 웃어? 이제 할 줄 안다고!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = "touch",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "됐어! 지휘관!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "방금 일은 그냥 넘겨. 지금 이 순간은 마음을 비우고, 이 감미로운 명절을 즐기는데 전념해——",
 			painting = {
 				alpha = 0.3,
 				time = 1

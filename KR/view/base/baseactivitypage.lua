@@ -60,6 +60,12 @@ end
 function slot0.OnDestroy(slot0)
 end
 
+function slot0.OnLoadLayers(slot0)
+end
+
+function slot0.OnRemoveLayers(slot0)
+end
+
 function slot0.UseSecondPage(slot0, slot1)
 	return false
 end

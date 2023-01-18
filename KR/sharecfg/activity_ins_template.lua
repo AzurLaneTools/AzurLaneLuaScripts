@@ -1299,7 +1299,7 @@ pg.activity_ins_template = {
 	},
 	{
 		ship_group = 50201,
-		name = "YIXIAN",
+		name = "Yi Xian",
 		sculpture = "yixian",
 		message_persist = "ins_48",
 		picture_persist = "https://blcdn.imtxwy.com/pic/spring_15iXfOO5o93oJMRSbB.png",
@@ -1593,7 +1593,7 @@ pg.activity_ins_template = {
 	},
 	{
 		ship_group = 50201,
-		name = "YIXIAN",
+		name = "Yi Xian",
 		sculpture = "yixian",
 		message_persist = "ins_61",
 		picture_persist = "https://blcdn.imtxwy.com/pic/200528_yixian_Hl2itAb9YRxHTktpkr.png",
@@ -5006,7 +5006,7 @@ pg.activity_ins_template = {
 	},
 	[193] = {
 		ship_group = 50201,
-		name = "YIXIAN",
+		name = "Yi Xian",
 		sculpture = "yixian",
 		message_persist = "ins_193",
 		picture_persist = "https://blcdn.imtxwy.com/pic/210204_yixian_VxNxOpevcFuEViYB.png",
@@ -9258,7 +9258,7 @@ pg.activity_ins_template = {
 	},
 	[355] = {
 		ship_group = 50602,
-		name = "Hwah Jah",
+		name = "Hua Jia",
 		sculpture = "huajia_2",
 		message_persist = "",
 		picture_persist = "",
@@ -9270,7 +9270,7 @@ pg.activity_ins_template = {
 	},
 	[356] = {
 		ship_group = 50201,
-		name = "YIXIAN",
+		name = "Yi Xian",
 		sculpture = "yixian",
 		message_persist = "",
 		picture_persist = "",
@@ -9306,7 +9306,7 @@ pg.activity_ins_template = {
 	},
 	[359] = {
 		ship_group = 59901,
-		name = "Harbin",
+		name = "Bin Jiang",
 		sculpture = "haerbin",
 		message_persist = "",
 		picture_persist = "",
@@ -9330,7 +9330,7 @@ pg.activity_ins_template = {
 	},
 	[361] = {
 		ship_group = 49907,
-		name = "Prinz Rupprecht",
+		name = "Prinz-Rupprecht",
 		sculpture = "lupuleixite",
 		message_persist = "",
 		picture_persist = "",

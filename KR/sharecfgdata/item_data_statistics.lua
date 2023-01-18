@@ -6689,13 +6689,13 @@ _G.pg.base.item_data_statistics[14004] = {
 
 _G.pg.base.item_data_statistics[14005] = {
 	display = [[
-使用后可从超稀有科研装备(IV期)的设计图中任意选择一张
-兑换列表如下：
-「试作型四联装330mm主炮Mle1931（超巡用）T0设计图」
-「试作舰载型Su-2T0设计图」
-「试作型VIT-2（VK107）T0设计图」
-「试作型四联装30mm机炮T0设计图」
-「试作型双联装130mm主炮Model1936T0设计图」
+사용 시 SSR 개발 장비(V기)의 설계도 중 1장 임의 선택 가능
+교환 목록:
+「시제형 4연장 330mm 주포 Mle1931(대형순양함용) T0 설계도」
+「시제 함재형 Su-2 T0 설계도」
+「시제형 VIT-2(VK107) T0 설계도」
+「시제형 4연장 30mm 기관포 T0 설계도」
+「시제형 2연장 130mm 주포 Model 1936 T0 설계도」
 ]],
 	name = "원형 과학 연구 도면·S-V",
 	max_num = 0,
@@ -15415,8 +15415,8 @@ _G.pg.base.item_data_statistics[30342] = {
 }
 
 _G.pg.base.item_data_statistics[30343] = {
-	display = "可以获得一件随机的东煌美食风格外观装备",
-	name = "外观装备箱(东煌美食)",
+	display = "이스트 글림 음식 스타일 장비스킨 1가지 랜덤 획득 가능",
+	name = "장비스킨 상자(이스트 글림 음식)",
 	max_num = 0,
 	type = 11,
 	drop_oil_max = 0,
@@ -15913,8 +15913,8 @@ _G.pg.base.item_data_statistics[30409] = {
 }
 
 _G.pg.base.item_data_statistics[30410] = {
-	display = "可以随机获得一件本次世界巡游限定外观装备",
-	name = "外观装备箱(世界巡游)",
+	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
+	name = "장비스킨 상자(월드 투어)",
 	max_num = 0,
 	type = 11,
 	drop_oil_max = 0,
@@ -17620,8 +17620,8 @@ _G.pg.base.item_data_statistics[30516] = {
 }
 
 _G.pg.base.item_data_statistics[30517] = {
-	display = "使用后可从「东煌美食」主题外观装备中任意选择一种获得1个",
-	name = "定向外观装备箱(东煌美食)",
+	display = "사용 시「이스트 글림 음식」 스타일 장비스킨 중 1가지 선택 획득 가능",
+	name = "지향형 장비스킨 상자(이스트 글림 음식)",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -17732,8 +17732,8 @@ _G.pg.base.item_data_statistics[30517] = {
 }
 
 _G.pg.base.item_data_statistics[30518] = {
-	display = "使用后可从「鸢尾风格」主题外观装备中任意选择一种获得1个",
-	name = "定向外观装备箱(鸢尾)",
+	display = "사용 시 「아이리스 스타일」 테마 장비스킨 중 임의의 1가지 선택 획득 가능",
+	name = "지향형 장비스킨 상자(아이리스)",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -22118,8 +22118,8 @@ _G.pg.base.item_data_statistics[40923] = {
 }
 
 _G.pg.base.item_data_statistics[40924] = {
-	display = "购买礼包可获得随机换装*1，钻石*2023，心智单元*50，心智魔方*20，高级定向蓝图五期*2，快速完成工具*10，家具币*100",
-	name = "2023年春节福袋·I",
+	display = "패키지 구매 시 랜덤 스킨*1, 다이아*2023, 성정 유닛*50, 성정 큐브*20, 고급 지향형 강화 유닛-제5기*2, 고속 건조재*10, 가구 코인*100 획득 가능",
+	name = "2023 춘절 복주머니·I",
 	max_num = 0,
 	type = 17,
 	drop_oil_max = 0,
@@ -22175,8 +22175,8 @@ _G.pg.base.item_data_statistics[40924] = {
 }
 
 _G.pg.base.item_data_statistics[40925] = {
-	display = "购买礼包可获得随机换装*1，钻石*2023，心智单元*50，心智魔方*20，高级定向蓝图五期*2，快速完成工具*10，家具币*100",
-	name = "2023年春节福袋·II",
+	display = "패키지 구매 시 랜덤 스킨*1, 다이아*2023, 성정 유닛*50, 성정 큐브*20, 고급 지향형 강화 유닛-제5기*2, 고속 건조재*10, 가구 코인*100 획득 가능",
+	name = "2023 춘절 복주머니·II",
 	max_num = 0,
 	type = 17,
 	drop_oil_max = 0,
@@ -173391,8 +173391,8 @@ _G.pg.base.item_data_statistics[58793] = {
 }
 
 _G.pg.base.item_data_statistics[58794] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -173438,8 +173438,8 @@ _G.pg.base.item_data_statistics[58794] = {
 }
 
 _G.pg.base.item_data_statistics[58795] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -173485,8 +173485,8 @@ _G.pg.base.item_data_statistics[58795] = {
 }
 
 _G.pg.base.item_data_statistics[58796] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -177607,7 +177607,7 @@ _G.pg.base.item_data_statistics[59297] = {
 
 _G.pg.base.item_data_statistics[59298] = {
 	display = "参与「世界巡游」(2023.2.1~2023.3.31)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
-	name = "巡游点数",
+	name = "투어 PT",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -178891,8 +178891,8 @@ _G.pg.base.item_data_statistics[59375] = {
 }
 
 _G.pg.base.item_data_statistics[59380] = {
-	display = "参与「冬日的寻路人」获得的点数，累计一定程度可以领取报酬",
-	name = "贡献值",
+	display = "「겨울날의 길잡이」에 참여해 획득한 포인트. 일정 수량 누적 시 보상 수령 가능",
+	name = "공헌도",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -178912,8 +178912,8 @@ _G.pg.base.item_data_statistics[59380] = {
 }
 
 _G.pg.base.item_data_statistics[59381] = {
-	display = "参与「冬日的寻路人」EX关的必要道具，也可以用来增加普通关额外奖励次数",
-	name = "特别挑战券",
+	display = "「겨울날의 길잘이」 EX 스테이지 참여에 필수 아이템. 일반 스테이지 추가 보상 횟수를 증가시킬 수도 있다.",
+	name = "특별 도전권",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -178933,8 +178933,8 @@ _G.pg.base.item_data_statistics[59381] = {
 }
 
 _G.pg.base.item_data_statistics[59389] = {
-	display = "用于「限时体验商店」兑换角色限时换装",
-	name = "换装体验券",
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
+	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -178954,8 +178954,8 @@ _G.pg.base.item_data_statistics[59389] = {
 }
 
 _G.pg.base.item_data_statistics[59390] = {
-	display = "用于「新岁祝福·癸卯」活动兑换，活动结束后将会消失",
-	name = "东煌结",
+	display = "「신년 축복·계묘」 이벤트 교환용. 이벤트 종료 후 사라짐",
+	name = "이스트 글림 매듭",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -178975,8 +178975,8 @@ _G.pg.base.item_data_statistics[59390] = {
 }
 
 _G.pg.base.item_data_statistics[59391] = {
-	display = "用于「飞彩迎新春」活动制作烟花，活动结束后将会消失",
-	name = "飞彩之星",
+	display = "「춘절 폭죽」 이벤트 폭죽 제작용. 이벤트 종료 후 사라짐.",
+	name = "폭죽의 별",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -178996,8 +178996,8 @@ _G.pg.base.item_data_statistics[59391] = {
 }
 
 _G.pg.base.item_data_statistics[59392] = {
-	display = "用于「海天与海祈的画中世界」进行游历，活动结束后将会消失",
-	name = "游历点数",
+	display = "「하이티엔과 하이치의 그림 세계」에서 탐사 가능. 이벤트 종료 후 사라짐.",
+	name = "탐사 PT",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -179017,8 +179017,8 @@ _G.pg.base.item_data_statistics[59392] = {
 }
 
 _G.pg.base.item_data_statistics[59393] = {
-	display = "用于「海天与海祈的画中世界」进行绘制，活动结束后将会消失",
-	name = "绘制点数",
+	display = "「하이티엔과 하이치의 그림 세계」에서 탐사 가능. 이벤트 종료 후 사라짐.",
+	name = "제작 PT",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -184206,8 +184206,8 @@ _G.pg.base.item_data_statistics[60023] = {
 }
 
 _G.pg.base.item_data_statistics[60024] = {
-	display = "可在「啾啾大酒楼」活动中使用 ",
-	name = "红包",
+	display = "「쥬쥬 레스토랑」 이벤트에서 사용할 수 있다. ",
+	name = "세뱃돈 ",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -188555,8 +188555,8 @@ _G.pg.base.item_data_statistics[60284] = {
 }
 
 _G.pg.base.item_data_statistics[60290] = {
-	display = "饱含祝福的贺年卡。使用后可以选择一名特定角色赠送（获取指定角色）",
-	name = "贺年卡（癸卯）",
+	display = "축복이 담긴 연하장. 사용 시 특정 캐릭터 선택 획득 가능.",
+	name = "연하장(계묘)",
 	max_num = 0,
 	type = 21,
 	drop_oil_max = 0,
@@ -188576,8 +188576,8 @@ _G.pg.base.item_data_statistics[60290] = {
 }
 
 _G.pg.base.item_data_statistics[60291] = {
-	display = "由鹩处收到的，春节贺年卡",
-	name = "鹩的贺年卡",
+	display = "다이호에게 받은 춘절 연하장",
+	name = "다이호의 연하장",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -188597,8 +188597,8 @@ _G.pg.base.item_data_statistics[60291] = {
 }
 
 _G.pg.base.item_data_statistics[60292] = {
-	display = "由U-110处收到的，春节贺年卡",
-	name = "U-110的贺年卡",
+	display = "U-110에게 받은 춘절 연하장",
+	name = "U-110의 연하장",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -188618,8 +188618,8 @@ _G.pg.base.item_data_statistics[60292] = {
 }
 
 _G.pg.base.item_data_statistics[60293] = {
-	display = "由阿拉巴马处收到的，春节贺年卡",
-	name = "阿拉巴马的贺年卡",
+	display = "앨라배마에게 받은 춘절 연하장",
+	name = "앨라배마의 연하장",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -188639,8 +188639,8 @@ _G.pg.base.item_data_statistics[60293] = {
 }
 
 _G.pg.base.item_data_statistics[60294] = {
-	display = "由肇和处收到的，春节贺年卡",
-	name = "肇和的贺年卡",
+	display = "차오 호에게 받은 춘절 연하장",
+	name = "차오 호의 연하장",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -188660,8 +188660,8 @@ _G.pg.base.item_data_statistics[60294] = {
 }
 
 _G.pg.base.item_data_statistics[60295] = {
-	display = "由应瑞处收到的，春节贺年卡",
-	name = "应瑞的贺年卡",
+	display = "잉 루이에게 받은 춘절 연하장",
+	name = "잉 루이의 연하장",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -188681,8 +188681,8 @@ _G.pg.base.item_data_statistics[60295] = {
 }
 
 _G.pg.base.item_data_statistics[60296] = {
-	display = "由长春处收到的，春节贺年卡",
-	name = "长春的贺年卡",
+	display = "창춘에게 받은 춘절 연하장",
+	name = "창춘의 연하장",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -188702,8 +188702,8 @@ _G.pg.base.item_data_statistics[60296] = {
 }
 
 _G.pg.base.item_data_statistics[60297] = {
-	display = "由太原处收到的，春节贺年卡",
-	name = "太原的贺年卡",
+	display = "타이위안에게 받은 춘절 연하장",
+	name = "타이위안의 연하장",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -188723,8 +188723,8 @@ _G.pg.base.item_data_statistics[60297] = {
 }
 
 _G.pg.base.item_data_statistics[60298] = {
-	display = "由逸仙处收到的，春节贺年卡",
-	name = "逸仙的贺年卡",
+	display = "얏센에게 받은 춘절 연하장",
+	name = "얏센의 연하장",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -188744,8 +188744,8 @@ _G.pg.base.item_data_statistics[60298] = {
 }
 
 _G.pg.base.item_data_statistics[60299] = {
-	display = "颜料A，用于绘图日记活动，活动结束后将会消失",
-	name = "颜料A",
+	display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 A",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -188765,8 +188765,8 @@ _G.pg.base.item_data_statistics[60299] = {
 }
 
 _G.pg.base.item_data_statistics[60300] = {
-	display = "颜料B，用于绘图日记活动，活动结束后将会消失",
-	name = "颜料B",
+	display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 B",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -188786,8 +188786,8 @@ _G.pg.base.item_data_statistics[60300] = {
 }
 
 _G.pg.base.item_data_statistics[60301] = {
-	display = "颜料C，用于绘图日记活动，活动结束后将会消失",
-	name = "颜料C",
+	display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 C",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -188807,8 +188807,8 @@ _G.pg.base.item_data_statistics[60301] = {
 }
 
 _G.pg.base.item_data_statistics[60302] = {
-	display = "颜料D，用于绘图日记活动，活动结束后将会消失",
-	name = "颜料D",
+	display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 D",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -188828,8 +188828,8 @@ _G.pg.base.item_data_statistics[60302] = {
 }
 
 _G.pg.base.item_data_statistics[60303] = {
-	display = "颜料E，用于绘图日记活动，活动结束后将会消失",
-	name = "颜料E",
+	display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 E",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -188849,8 +188849,8 @@ _G.pg.base.item_data_statistics[60303] = {
 }
 
 _G.pg.base.item_data_statistics[60304] = {
-	display = "颜料F，用于绘图日记活动，活动结束后将会消失",
-	name = "颜料F",
+	display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 F",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -188870,8 +188870,8 @@ _G.pg.base.item_data_statistics[60304] = {
 }
 
 _G.pg.base.item_data_statistics[60305] = {
-	display = "颜料G，用于绘图日记活动，活动结束后将会消失",
-	name = "颜料G",
+	display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	name = "물감 G",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -189684,18 +189684,18 @@ _G.pg.base.item_data_statistics[69923] = {
 
 _G.pg.base.item_data_statistics[69924] = {
 	display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>12.0%</color>）应瑞换装 松戏梅·其上<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12.0%</color>）肇和换装 松戏梅·其下<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12.0%</color>）华甲换装 欢乐喜庆僵尸夜；
-（<color=#92fc63>12.0%</color>）逸仙换装  膏发凝脂；
-（<color=#92fc63>14.0%</color>）古比雪夫换装 银弦的向导兵；
-（<color=#92fc63>13.6%</color>）忒修斯换装 白羽报春；
-（<color=#92fc63>12.4%</color>）长春换装 “红”运当头；
-（<color=#92fc63>12.0%</color>）定安换装 红红火火度勤春；
+다음 스킨 중 1가지 랜덤 획득(해당 스킨을 보유 중인 경우, 동등한 가치의 다이아로 자동 전환)
+포함된 스킨 및 획득 확률:
+(<color=#92fc63>12.0%</color>)잉 루이 스킨 장난치는 송매화·上(<color=#92fc63>Live 2d</color>)；
+(<color=#92fc63>12.0%</color>)차오 호 스킨 장난치는 송매화·下(<color=#92fc63>Live 2d</color>)；
+(<color=#92fc63>12.0%</color>)화지아 스킨 강시 함선의 봄날 밤；
+(<color=#92fc63>12.0%</color>)얏센 스킨 진수아미；
+(<color=#92fc63>14.0%</color>)쿠이비셰프 스킨 은빛 현의 향도병；
+(<color=#92fc63>13.6%</color>)테세우스 스킨 휘파람새의 흰 날개；
+(<color=#92fc63>12.4%</color>)창춘 스킨 행운이 깃들기를；
+(<color=#92fc63>12.0%</color>)딩안 스킨 백옥유련；
 ]],
-	name = "随机春节换装2023①",
+	name = "랜덤 춘절 스킨 2023①",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -189716,17 +189716,17 @@ _G.pg.base.item_data_statistics[69924] = {
 
 _G.pg.base.item_data_statistics[69925] = {
 	display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>12.0%</color>）鲁普雷希特亲王换装 腾龙戏春？<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12.0%</color>）埃吉尔换装 金龙腾祥云<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>16.1%</color>）U47换装 锦鲤捕获作战；
-（<color=#92fc63>15.8%</color>）吕佐夫换装 请趁热享用?；
-（<color=#92fc63>15.8%</color>）阿拉巴马换装 金锱银铢；
-（<color=#92fc63>14.3%</color>）U110换装雪地小鲨鱼；
-（<color=#92fc63>14.0%</color>）不屈换装 寒冬全力配送中！；
+다음 스킨 중 1가지 랜덤 획득(해당 스킨을 보유 중인 경우, 동등한 가치의 다이아로 자동 전환)
+포함된 스킨 및 획득 확률:
+(<color=#92fc63>12.0%</color>)프린츠 루프레히트 스킨 드래곤의 용문 오르기?(<color=#92fc63>Live 2d</color>)；
+(<color=#92fc63>12.0%</color>)에기르 스킨 상운을 오르는 금룡(<color=#92fc63>Live 2d</color>)；
+(<color=#92fc63>16.1%</color>)U-47 스킨 다이나믹 라이징；
+(<color=#92fc63>15.8%</color>)뤼초 스킨 뜨거울 때 줘♪；
+(<color=#92fc63>15.8%</color>)앨라배마 스킨 금란 단자；
+(<color=#92fc63>14.3%</color>)U-110 스킨 샤크 인 더 스프링；
+(<color=#92fc63>14.0%</color>)랭동타블 스킨 따끈따끈 일일 점원；
 ]],
-	name = "随机春节换装2023②",
+	name = "랜덤 춘절 스킨 2023②",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -191927,8 +191927,8 @@ _G.pg.base.item_data_statistics[70104] = {
 }
 
 _G.pg.base.item_data_statistics[70105] = {
-	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
-	name = "春节烟花1",
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽1",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -191948,8 +191948,8 @@ _G.pg.base.item_data_statistics[70105] = {
 }
 
 _G.pg.base.item_data_statistics[70106] = {
-	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
-	name = "春节烟花2",
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽2",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -191969,8 +191969,8 @@ _G.pg.base.item_data_statistics[70106] = {
 }
 
 _G.pg.base.item_data_statistics[70107] = {
-	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
-	name = "春节烟花3",
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽3",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -191990,8 +191990,8 @@ _G.pg.base.item_data_statistics[70107] = {
 }
 
 _G.pg.base.item_data_statistics[70108] = {
-	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
-	name = "春节烟花4",
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽4",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192011,8 +192011,8 @@ _G.pg.base.item_data_statistics[70108] = {
 }
 
 _G.pg.base.item_data_statistics[70109] = {
-	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
-	name = "春节烟花5",
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽5",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192032,8 +192032,8 @@ _G.pg.base.item_data_statistics[70109] = {
 }
 
 _G.pg.base.item_data_statistics[70110] = {
-	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
-	name = "春节烟花6",
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽6",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192053,8 +192053,8 @@ _G.pg.base.item_data_statistics[70110] = {
 }
 
 _G.pg.base.item_data_statistics[70111] = {
-	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
-	name = "春节烟花7",
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽7",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192074,8 +192074,8 @@ _G.pg.base.item_data_statistics[70111] = {
 }
 
 _G.pg.base.item_data_statistics[70112] = {
-	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
-	name = "春节烟花8",
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽8",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192095,8 +192095,8 @@ _G.pg.base.item_data_statistics[70112] = {
 }
 
 _G.pg.base.item_data_statistics[70113] = {
-	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
-	name = "春节烟花9",
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽9",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192116,8 +192116,8 @@ _G.pg.base.item_data_statistics[70113] = {
 }
 
 _G.pg.base.item_data_statistics[70114] = {
-	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
-	name = "春节烟花10",
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽10",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192137,8 +192137,8 @@ _G.pg.base.item_data_statistics[70114] = {
 }
 
 _G.pg.base.item_data_statistics[70115] = {
-	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
-	name = "春节烟花11",
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽11",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192158,8 +192158,8 @@ _G.pg.base.item_data_statistics[70115] = {
 }
 
 _G.pg.base.item_data_statistics[70116] = {
-	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
-	name = "春节烟花12",
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽12",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192179,8 +192179,8 @@ _G.pg.base.item_data_statistics[70116] = {
 }
 
 _G.pg.base.item_data_statistics[70117] = {
-	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
-	name = "春节烟花13",
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽13",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192200,8 +192200,8 @@ _G.pg.base.item_data_statistics[70117] = {
 }
 
 _G.pg.base.item_data_statistics[70118] = {
-	display = "活动「飞彩迎新春」的收集道具，活动结束后将会消失",
-	name = "春节烟花14",
+	display = "이벤트 「춘절 폭죽」 수집 아이템. 이벤트 종료 후 사라짐",
+	name = "춘절 폭죽14",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192221,8 +192221,8 @@ _G.pg.base.item_data_statistics[70118] = {
 }
 
 _G.pg.base.item_data_statistics[70119] = {
-	display = "虚拟道具用于解锁春节对联，不显示",
-	name = "春节对联1",
+	display = "춘절 대련 해제용",
+	name = "춘절 대련1",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192242,8 +192242,8 @@ _G.pg.base.item_data_statistics[70119] = {
 }
 
 _G.pg.base.item_data_statistics[70120] = {
-	display = "虚拟道具用于解锁春节对联，不显示",
-	name = "春节对联2",
+	display = "춘절 대련 해제용",
+	name = "춘절 대련2",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192263,8 +192263,8 @@ _G.pg.base.item_data_statistics[70120] = {
 }
 
 _G.pg.base.item_data_statistics[70121] = {
-	display = "虚拟道具用于解锁春节对联，不显示",
-	name = "春节对联3",
+	display = "춘절 대련 해제용",
+	name = "춘절 대련3",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192284,8 +192284,8 @@ _G.pg.base.item_data_statistics[70121] = {
 }
 
 _G.pg.base.item_data_statistics[70122] = {
-	display = "虚拟道具用于解锁春节对联，不显示",
-	name = "春节对联4",
+	display = "춘절 대련 해제용",
+	name = "춘절 대련4",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192305,8 +192305,8 @@ _G.pg.base.item_data_statistics[70122] = {
 }
 
 _G.pg.base.item_data_statistics[70123] = {
-	display = "虚拟道具用于解锁春节对联，不显示",
-	name = "春节对联5",
+	display = "춘절 대련 해제용",
+	name = "춘절 대련5",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192326,8 +192326,8 @@ _G.pg.base.item_data_statistics[70123] = {
 }
 
 _G.pg.base.item_data_statistics[70124] = {
-	display = "虚拟道具用于解锁春节对联，不显示",
-	name = "春节对联6",
+	display = "춘절 대련 해제용",
+	name = "춘절 대련6",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -192347,8 +192347,8 @@ _G.pg.base.item_data_statistics[70124] = {
 }
 
 _G.pg.base.item_data_statistics[70125] = {
-	display = "虚拟道具用于解锁春节对联，不显示",
-	name = "春节对联7",
+	display = "춘절 대련 해제용",
+	name = "춘절 대련7",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,

@@ -40885,11 +40885,11 @@ _G.pg.base.ship_data_template[206074] = {
 }
 
 _G.pg.base.ship_data_template[206081] = {
-	oil_at_end = 6,
+	oil_at_end = 7,
 	star_max = 6,
 	oil_at_start = 1,
 	type = 6,
-	max_level = 100,
+	max_level = 70,
 	strengthen_id = 20608,
 	equip_id_3 = 0,
 	equip_id_2 = 0,
@@ -40936,11 +40936,11 @@ _G.pg.base.ship_data_template[206081] = {
 }
 
 _G.pg.base.ship_data_template[206082] = {
-	oil_at_end = 8,
+	oil_at_end = 9,
 	star_max = 6,
 	oil_at_start = 1,
 	type = 6,
-	max_level = 100,
+	max_level = 80,
 	strengthen_id = 20608,
 	equip_id_3 = 0,
 	equip_id_2 = 0,
@@ -40987,11 +40987,11 @@ _G.pg.base.ship_data_template[206082] = {
 }
 
 _G.pg.base.ship_data_template[206083] = {
-	oil_at_end = 10,
+	oil_at_end = 11,
 	star_max = 6,
 	oil_at_start = 1,
 	type = 6,
-	max_level = 100,
+	max_level = 90,
 	strengthen_id = 20608,
 	equip_id_3 = 0,
 	equip_id_2 = 0,
@@ -41039,7 +41039,7 @@ _G.pg.base.ship_data_template[206083] = {
 }
 
 _G.pg.base.ship_data_template[206084] = {
-	oil_at_end = 12,
+	oil_at_end = 13,
 	star_max = 6,
 	oil_at_start = 1,
 	type = 6,
@@ -80690,6 +80690,7 @@ _G.pg.base.ship_data_template[502011] = {
 	buff_list_display = {
 		10760,
 		10500,
+		16440,
 		24121
 	},
 	hide_buff_list = {}
@@ -80737,6 +80738,7 @@ _G.pg.base.ship_data_template[502012] = {
 	buff_list_display = {
 		10760,
 		10500,
+		16440,
 		24121
 	},
 	hide_buff_list = {}
@@ -80784,6 +80786,7 @@ _G.pg.base.ship_data_template[502013] = {
 	buff_list_display = {
 		10760,
 		10500,
+		16440,
 		24121
 	},
 	hide_buff_list = {}
@@ -80831,6 +80834,7 @@ _G.pg.base.ship_data_template[502014] = {
 	buff_list_display = {
 		10760,
 		10500,
+		16440,
 		24122
 	},
 	hide_buff_list = {}
@@ -80873,7 +80877,6 @@ _G.pg.base.ship_data_template[502114] = {
 	buff_list = {
 		16430,
 		10500,
-		16440,
 		24122
 	},
 	buff_list_display = {
@@ -82213,7 +82216,7 @@ _G.pg.base.ship_data_template[506021] = {
 	star_max = 5,
 	oil_at_start = 1,
 	type = 6,
-	max_level = 100,
+	max_level = 70,
 	strengthen_id = 50602,
 	equip_id_3 = 0,
 	equip_id_2 = 91180,
@@ -82260,7 +82263,7 @@ _G.pg.base.ship_data_template[506022] = {
 	star_max = 5,
 	oil_at_start = 1,
 	type = 6,
-	max_level = 100,
+	max_level = 80,
 	strengthen_id = 50602,
 	equip_id_3 = 0,
 	equip_id_2 = 0,
@@ -82307,7 +82310,7 @@ _G.pg.base.ship_data_template[506023] = {
 	star_max = 5,
 	oil_at_start = 1,
 	type = 6,
-	max_level = 100,
+	max_level = 90,
 	strengthen_id = 50602,
 	equip_id_3 = 0,
 	equip_id_2 = 0,
@@ -82403,7 +82406,7 @@ _G.pg.base.ship_data_template[519011] = {
 	star_max = 5,
 	oil_at_start = 1,
 	type = 19,
-	max_level = 100,
+	max_level = 70,
 	strengthen_id = 51901,
 	equip_id_3 = 0,
 	equip_id_2 = 0,
@@ -82434,7 +82437,7 @@ _G.pg.base.ship_data_template[519011] = {
 		18
 	},
 	airassist_time = {
-		27
+		20
 	},
 	buff_list = {
 		16380,
@@ -82452,7 +82455,7 @@ _G.pg.base.ship_data_template[519012] = {
 	star_max = 5,
 	oil_at_start = 1,
 	type = 19,
-	max_level = 100,
+	max_level = 80,
 	strengthen_id = 51901,
 	equip_id_3 = 0,
 	equip_id_2 = 0,
@@ -82483,7 +82486,7 @@ _G.pg.base.ship_data_template[519012] = {
 		18
 	},
 	airassist_time = {
-		27
+		21
 	},
 	buff_list = {
 		16380,
@@ -82501,7 +82504,7 @@ _G.pg.base.ship_data_template[519013] = {
 	star_max = 5,
 	oil_at_start = 1,
 	type = 19,
-	max_level = 100,
+	max_level = 90,
 	strengthen_id = 51901,
 	equip_id_3 = 0,
 	equip_id_2 = 0,
@@ -82532,7 +82535,7 @@ _G.pg.base.ship_data_template[519013] = {
 		18
 	},
 	airassist_time = {
-		27
+		21
 	},
 	buff_list = {
 		16380,
@@ -82581,7 +82584,7 @@ _G.pg.base.ship_data_template[519014] = {
 		18
 	},
 	airassist_time = {
-		27
+		22
 	},
 	buff_list = {
 		16380,
@@ -89728,7 +89731,7 @@ _G.pg.base.ship_data_template[702051] = {
 	star_max = 6,
 	oil_at_start = 1,
 	type = 2,
-	max_level = 100,
+	max_level = 70,
 	strengthen_id = 70205,
 	equip_id_3 = 85060,
 	equip_id_2 = 0,
@@ -89774,7 +89777,7 @@ _G.pg.base.ship_data_template[702052] = {
 	star_max = 6,
 	oil_at_start = 1,
 	type = 2,
-	max_level = 100,
+	max_level = 80,
 	strengthen_id = 70205,
 	equip_id_3 = 0,
 	equip_id_2 = 0,
@@ -89821,7 +89824,7 @@ _G.pg.base.ship_data_template[702053] = {
 	star_max = 6,
 	oil_at_start = 1,
 	type = 2,
-	max_level = 100,
+	max_level = 90,
 	strengthen_id = 70205,
 	equip_id_3 = 0,
 	equip_id_2 = 0,

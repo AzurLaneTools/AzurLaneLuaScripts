@@ -170,6 +170,7 @@ function slot0.register(slot0)
 
 			if slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
 				uv1:sendNotification(uv2.ON_COMPLETE_BATTLE_RESULT, uv1.contextData)
+				existCall(uv1.viewComponent.HideConfirmPanel, uv1.viewComponent)
 
 				return
 			end
