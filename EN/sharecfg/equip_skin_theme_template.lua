@@ -943,7 +943,7 @@ pg.equip_skin_theme_template = {
 	},
 	[103] = {
 		id = 103,
-		name = "风云万象",
+		name = "Call of the Elements",
 		ids = {
 			2029,
 			2030,

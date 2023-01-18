@@ -2351,15 +2351,15 @@ pg.activity_template = {
 			bg = "loadingbg/bg_build_2_act",
 			buildship_tip = "Rate UP for Kuybyshev, Theseus and Hwah Jah!",
 			rate_tip = {
-				"<color=#ffde38>Super Rare</color>：7%",
-				"<color=#d797ff>Elite</color>：12%",
-				"<color=#3dc6ff>Rare</color>：26%",
-				"Common：55%",
-				"<color=#ffde38>Kuybyshev</color>：2.0%(<color=#92fc63>up!</color>)",
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 26%",
+				"Common: 55%",
+				"<color=#ffde38>Kuybyshev</color>: 2.0%(<color=#92fc63>up!</color>)",
 				" ",
-				"<color=#ffde38>Theseus</color>：2.0%(<color=#92fc63>up!</color>)",
+				"<color=#ffde38>Theseus</color>: 2.0%(<color=#92fc63>up!</color>)",
 				" ",
-				"<color=#d797ff>Hwah Jah</color>：2.5%(<color=#92fc63>up!</color>)"
+				"<color=#d797ff>Hwah Jah</color>: 2.5%(<color=#92fc63>up!</color>)"
 			}
 		}
 	},

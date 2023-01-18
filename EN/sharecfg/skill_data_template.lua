@@ -71922,7 +71922,7 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 		id = 16380,
 		type = 3,
 		max_level = 10,
-		desc = "When the battle starts, if there are any other ships in your Vanguard: increases this ship's SPD by 10. Every 20s after the battle starts: targets 2 random ships in your fleet and grants them a buff for 8s based on their hull classification; /n1) DD: increases TRP by $1; 2) CL, CA, or CB: increases FP by $2; 3) BB, BC, or BBV: increases ACC by $3; 4) CV or CVL: increases AVI by $4; 5) any other hull classification: increases AA by $5.",
+		desc = "When the battle starts, if there are any other ships in your Vanguard: increases this ship's SPD by 10. Every 20s: targets 2 random ships in your fleet and grants them a buff for 8s based on their hull classification; /n1) DD: increases TRP by $1; 2) CL, CA, or CB: increases FP by $2; 3) BB, BC, or BBV: increases ACC by $3; 4) CV or CVL: increases AVI by $4; 5) any other hull classification: increases AA by $5.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -72350,7 +72350,7 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 		id = 16400,
 		type = 1,
 		max_level = 10,
-		desc = "3s after the battle starts, or when this ship launches an airstrike: launches an additional $1 special airstrike (DMG is based on the skill's level). Increases this ship's DMG dealt by $2 against enemies that have been afloat for 10s or longer.",
+		desc = "3s after the battle starts, and when this ship launches an airstrike: launches an additional $1 special airstrike (DMG is based on the skill's level). Increases this ship's DMG dealt by $2 against enemies that have been afloat for 10s or longer.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -74052,7 +74052,7 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 		id = 18220,
 		type = 1,
 		max_level = 10,
-		desc = "When this ship takes DMG or when an enemy comes within close range of this ship: fires a $1 special barrage - Eins (DMG is based on the skill's level; 15s cooldown between activations). When this ship fires her Main Guns: fires a $1 special barrage - Zwei (DMG is based on the skill's level). These barrages always fire from your Flagship position.",
+		desc = "When this ship takes DMG or when an enemy comes within close range of her: fires a $1 special barrage - Eins (DMG is based on the skill's level; 15s cooldown between activations). When this ship fires her Main Guns: fires a $1 special barrage - Zwei (DMG is based on the skill's level). Both these barrages always fire from your Flagship position.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -103558,7 +103558,7 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 		id = 800705,
 		type = 3,
 		max_level = 1,
-		desc = "[Operation Siren]\nEvery 12/8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		system_transform = {
 			[51.0] = 800705
 		},
@@ -103574,7 +103574,7 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 		id = 800707,
 		type = 3,
 		max_level = 1,
-		desc = "[Operation Siren]\nEvery 12/8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
+		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		system_transform = {
 			[51.0] = 800707
 		},

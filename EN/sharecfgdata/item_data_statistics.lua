@@ -6476,14 +6476,12 @@ Prototype Saiun Kai T0 Design]],
 
 _G.pg.base.item_data_statistics[14005] = {
 	display = [[
-使用后可从超稀有科研装备(V期)的设计图中任意选择一张
-兑换列表如下：
-「试作型四联装330mm主炮Mle1931（超巡用）T0设计图」
-「试作舰载型Su-2T0设计图」
-「试作型VIT-2（VK107）T0设计图」
-「试作型四联装30mm机炮T0设计图」
-「试作型双联装130mm主炮Model1936T0设计图」
-]],
+Can be converted to one of the following SR gear blueprints:
+Prototype Quadruple 330mm Mle 1931 (CB Only) Main Gun Mount T0 Design
+Prototype Su-2 T0 Design
+Prototype VIT-2 (VK-107) T0 Design
+Prototype Quadruple 30mm AA Gun Mount T0 Design
+Prototype Twin 130mm Model 1936 Main Gun Mount T0 Design]],
 	name = "Prototype Weapon Blueprint - Series 5",
 	max_num = 0,
 	type = 13,
@@ -8693,7 +8691,7 @@ _G.pg.base.item_data_statistics[20103] = {
 }
 
 _G.pg.base.item_data_statistics[20104] = {
-	display = "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 3 Combat Data Collection missions.<color=#ff5c5c>(Can be converted into Prototype Cores).</color>",
+	display = "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 4 Combat Data Collection missions.<color=#ff5c5c>(Can be converted into Prototype Cores).</color>",
 	name = "Combat Data Pack - Series 4",
 	max_num = 0,
 	type = 18,
@@ -17509,8 +17507,8 @@ _G.pg.base.item_data_statistics[30517] = {
 }
 
 _G.pg.base.item_data_statistics[30518] = {
-	display = "使用后可从「鸢尾风格」主题外观装备中任意选择一种获得1个",
-	name = "定向外观装备箱(鸢尾)",
+	display = "Can be opened to receive 1 Iris Libre Specialties gear skin of your choosing.",
+	name = "Selection Gear Skin Box (Iris)",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -21680,7 +21678,7 @@ _G.pg.base.item_data_statistics[40923] = {
 }
 
 _G.pg.base.item_data_statistics[40924] = {
-	display = "Contains 1x random swimsuit skin (Winter 2022), 2x Special General Blueprints - Series 5, 2023x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	display = "Contains 1x random skin (Spring 2023 A), 2x Special General Blueprints - Series 5, 2023x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
 	name = "Spring Lucky Bag 2023 A",
 	max_num = 0,
 	type = 17,
@@ -21737,7 +21735,7 @@ _G.pg.base.item_data_statistics[40924] = {
 }
 
 _G.pg.base.item_data_statistics[40925] = {
-	display = "Contains 1x random swimsuit skin (Winter 2022), 2x Special General Blueprints - Series 5, 2023x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	display = "Contains 1x random skin (Spring 2023 B), 2x Special General Blueprints - Series 5, 2023x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
 	name = "Spring Lucky Bag 2023 B",
 	max_num = 0,
 	type = 17,
@@ -178905,7 +178903,7 @@ _G.pg.base.item_data_statistics[59389] = {
 }
 
 _G.pg.base.item_data_statistics[59390] = {
-	display = "用于「新岁祝福·癸卯」活动兑换，活动结束后将会消失",
+	display = "Used to exchange for Spring Festival Invitation (2023). Expires after the event ends.",
 	name = "Empery Knot",
 	max_num = 0,
 	type = 98,
@@ -178948,7 +178946,7 @@ _G.pg.base.item_data_statistics[59391] = {
 
 _G.pg.base.item_data_statistics[59392] = {
 	display = "Used to reveal tiles in the World Within the Painting. Will disappear after the event period ends.",
-	name = "Exploration Points ",
+	name = "Exploration Points",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -183477,7 +183475,7 @@ _G.pg.base.item_data_statistics[60023] = {
 
 _G.pg.base.item_data_statistics[60024] = {
 	display = "An item received through the Manjuu Resort. Can be opened. ",
-	name = "Red Envelope ",
+	name = "Red Envelope",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -188718,7 +188716,7 @@ _G.pg.base.item_data_statistics[60298] = {
 }
 
 _G.pg.base.item_data_statistics[60299] = {
-	display = "Pigment A used during Akashi's Fanbook event. Disappears after event has ended.",
+	display = "Pigment A used during An Shan's Drawing Book event. Disappears after event has ended.",
 	name = "Pigment A",
 	max_num = 0,
 	type = 0,
@@ -188739,7 +188737,7 @@ _G.pg.base.item_data_statistics[60299] = {
 }
 
 _G.pg.base.item_data_statistics[60300] = {
-	display = "Pigment B used during Akashi's Fanbook event. Disappears after event has ended.",
+	display = "Pigment B used during An Shan's Drawing Book event. Disappears after event has ended.",
 	name = "Pigment B",
 	max_num = 0,
 	type = 0,
@@ -188760,7 +188758,7 @@ _G.pg.base.item_data_statistics[60300] = {
 }
 
 _G.pg.base.item_data_statistics[60301] = {
-	display = "Pigment C used during Akashi's Fanbook event. Disappears after event has ended.",
+	display = "Pigment C used during An Shan's Drawing Book event. Disappears after event has ended.",
 	name = "Pigment C",
 	max_num = 0,
 	type = 0,
@@ -188781,7 +188779,7 @@ _G.pg.base.item_data_statistics[60301] = {
 }
 
 _G.pg.base.item_data_statistics[60302] = {
-	display = "Pigment D used during Akashi's Fanbook event. Disappears after event has ended.",
+	display = "Pigment D used during An Shan's Drawing Book event. Disappears after event has ended.",
 	name = "Pigment D",
 	max_num = 0,
 	type = 0,
@@ -188802,7 +188800,7 @@ _G.pg.base.item_data_statistics[60302] = {
 }
 
 _G.pg.base.item_data_statistics[60303] = {
-	display = "Pigment E used during Akashi's Fanbook event. Disappears after event has ended.",
+	display = "Pigment E used during An Shan's Drawing Book event. Disappears after event has ended.",
 	name = "Pigment E",
 	max_num = 0,
 	type = 0,
@@ -188823,7 +188821,7 @@ _G.pg.base.item_data_statistics[60303] = {
 }
 
 _G.pg.base.item_data_statistics[60304] = {
-	display = "Pigment F used during Akashi's Fanbook event. Disappears after event has ended.",
+	display = "Pigment F used during An Shan's Drawing Book event. Disappears after event has ended.",
 	name = "Pigment F",
 	max_num = 0,
 	type = 0,
@@ -188844,7 +188842,7 @@ _G.pg.base.item_data_statistics[60304] = {
 }
 
 _G.pg.base.item_data_statistics[60305] = {
-	display = "Pigment G used during Akashi's Fanbook event. Disappears after event has ended.",
+	display = "Pigment G used during An Shan's Drawing Book event. Disappears after event has ended.",
 	name = "Pigment G",
 	max_num = 0,
 	type = 0,
@@ -189594,17 +189592,16 @@ The available outfits and their rarities are as follows:
 
 _G.pg.base.item_data_statistics[69924] = {
 	display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>12.0%</color>）应瑞换装 松戏梅·其上（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12.0%</color>）肇和换装 松戏梅·其下（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12.0%</color>）华甲换装 欢乐喜庆僵尸夜；
-（<color=#92fc63>12.0%</color>）逸仙换装  膏发凝脂；
-（<color=#92fc63>14.0%</color>）古比雪夫换装 银弦的向导兵；
-（<color=#92fc63>13.6%</color>）忒修斯换装 白羽报春；
-（<color=#92fc63>12.4%</color>）长春换装 “红”运当头；
-（<color=#92fc63>12.0%</color>）定安换装 红红火火度勤春；
-]],
+Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems).
+The available outfits and their rarities are as follows:
+(<color=#92fc63>12.0%</color>) Ying Swei - Frolicking Flowers, Verse I (<color=#92fc63>Live2D</color>);
+(<color=#92fc63>12.0%</color>) Chao Ho - Frolicking Flowers, Verse II (<color=#92fc63>Live2D</color>);
+(<color=#92fc63>12.0%</color>) Hwah Jah - The Festive Undead;
+(<color=#92fc63>12.0%</color>) Yat Sen - Paragon of Celestial Grace;
+(<color=#92fc63>14.0%</color>) Kuybyshev - Maestro of Sterling Strings;
+(<color=#92fc63>13.6%</color>) Theseus - New Year's White Plumage;
+(<color=#92fc63>12.4%</color>) Chang Chun - Fortune Arrives in Red;
+(<color=#92fc63>12.0%</color>) Ting An - Tender White Jade]],
 	name = "Random Skin",
 	max_num = 0,
 	type = 98,
@@ -189626,16 +189623,15 @@ _G.pg.base.item_data_statistics[69924] = {
 
 _G.pg.base.item_data_statistics[69925] = {
 	display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>12.0%</color>）鲁普雷希特亲王换装 腾龙戏春？（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12.0%</color>）埃吉尔换装 金龙腾祥云（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>16.1%</color>）U-47换装 锦鲤捕获作战；
-（<color=#92fc63>15.8%</color>）吕佐夫换装 请趁热享用?；
-（<color=#92fc63>15.8%</color>）阿拉巴马换装 金锱银铢；
-（<color=#92fc63>14.3%</color>）U-110换装 雪地小鲨鱼；
-（<color=#92fc63>14.0%</color>）不屈换装 寒冬全力配送中！；
-]],
+Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems).
+The available outfits and their rarities are as follows:
+(<color=#92fc63>12.0%</color>) Prinz Rupprecht - The Gate Dragon's Advent (<color=#92fc63>Live2D</color>);
+(<color=#92fc63>12.0%</color>) Ägir - Golden Dragon Among Auspicious Clouds (<color=#92fc63>Live2D</color>);
+(<color=#92fc63>16.1%</color>) U-47 - Hook, Line, and Sinker;
+(<color=#92fc63>15.8%</color>) Lützow - Steaming-Hot Treat;
+(<color=#92fc63>15.8%</color>) Alabama - Untarnished Silver, Silken Gold;
+(<color=#92fc63>14.3%</color>) U-110 - Springtime Shark;
+(<color=#92fc63>14.0%</color>) L'Indomptable - Temp in Low Temperatures]],
 	name = "Random Skin",
 	max_num = 0,
 	type = 98,

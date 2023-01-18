@@ -1813,6 +1813,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -8398,6 +8409,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -10191,7 +10213,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：新春限时建造",
+				"Event: Winter Pathfinder",
 				{
 					""
 				},
@@ -19251,6 +19273,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Special Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -19278,7 +19311,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：新春限时建造",
+				"Event: Winter Pathfinder",
 				{
 					""
 				},
@@ -19310,7 +19343,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：飞彩迎新春",
+				"Event: Winter Pathfinder",
 				{
 					""
 				},
@@ -20684,7 +20717,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：新春限时建造",
+				"Event: Winter Pathfinder",
 				{
 					""
 				},
@@ -24945,7 +24978,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"Event: Cruise Missions",
 				{
 					"METACHARACTER",
 					{

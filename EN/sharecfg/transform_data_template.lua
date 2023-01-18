@@ -29777,7 +29777,11 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		skin_id = 502019,
 		use_ship = 1,
 		level_limit = 85,
-		descrip = "近代化改造完成，炮击+25，防空+20\n改造后技能【东煌之绊】升级为【东煌之绊.改】",
+		descrip = [[
+Retrofit complete. The following changes have been applied:
+
+FP+25, AA+20
+The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92fc63>Dragon Empery Bond+</color>.]],
 		icon = "mt_red",
 		skill_id = 0,
 		condition_id = {
