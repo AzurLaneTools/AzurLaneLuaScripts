@@ -4,10 +4,15 @@ function slot0.register(slot0)
 	slot0:bind(PreCombatMediator.CONTINUOUS_OPERATION, function (slot0)
 		getProxy(SettingsProxy):setActBossExchangeTicketTip(uv0.contextData.useTicket and 1 or 0)
 		uv0:sendNotification(GAME.AUTO_BOT, {
-			isActiveBot = false
+			isActiveBot = false,
+			system = SYSTEM_ACT_BOSS
 		})
+
+		ContinuousOperationMediator.isActiveSub = ys.Battle.BattleState.IsAutoSubActive(SYSTEM_ACT_BOSS)
+
 		uv0:sendNotification(GAME.AUTO_SUB, {
-			isActiveSub = false
+			isActiveSub = false,
+			system = SYSTEM_ACT_BOSS
 		})
 		uv0:sendNotification(PreCombatMediator.CONTINUOUS_OPERATION, {
 			mainFleetId = uv0.contextData.mainFleetId,

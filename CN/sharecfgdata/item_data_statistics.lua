@@ -6734,7 +6734,7 @@ _G.pg.base.item_data_statistics[14004] = {
 
 _G.pg.base.item_data_statistics[14005] = {
 	display = [[
-使用后可从超稀有科研装备(IV期)的设计图中任意选择一张
+使用后可从超稀有科研装备(V期)的设计图中任意选择一张
 兑换列表如下：
 「试作型四联装330mm主炮Mle1931（超巡用）T0设计图」
 「试作舰载型Su-2T0设计图」
