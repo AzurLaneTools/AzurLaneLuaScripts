@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "英姿颯爽過度理性的表像後，隱藏著一顆感性的、或者有些關心過度的心。",
+			say = "英姿颯爽過度理性的表象後，隱藏著一顆感性的、或者有些關心過度的心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

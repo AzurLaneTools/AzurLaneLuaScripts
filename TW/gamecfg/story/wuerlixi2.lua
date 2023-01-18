@@ -264,7 +264,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "要把它們趕出去嗎？",
+					content = "要把牠們趕出去嗎？",
 					flag = 2
 				}
 			}
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "強行趕走容易。但若它們是被這裡的環境吸引而來，那這麼遲早還會再回來。",
+			say = "強行趕走容易。但若牠們是被這裡的環境吸引而來，那這麼遲早還會再回來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "“這裡已是他人的住所，不好意思還請移居別處”…讓它們明白這個道理就好。",
+			say = "“這裡已是他人的住所，不好意思還請移居別處”…讓牠們明白這個道理就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "接下來就只要等它們自己出去就行了。",
+			say = "接下來就只要等牠們自己出去就行了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我是不被動物喜愛的體質，只要在這裡待著一般它們就會逃走。這樣說能懂嗎？",
+			say = "我是不被動物喜愛的體質，只要在這裡待著一般牠們就會逃走。這樣說能懂嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

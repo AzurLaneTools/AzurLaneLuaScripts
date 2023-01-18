@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "佈置的工作已經完成了，還有什麼其它的事麼？",
+			say = "佈置的工作已經完成了，還有什麼其它的事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
