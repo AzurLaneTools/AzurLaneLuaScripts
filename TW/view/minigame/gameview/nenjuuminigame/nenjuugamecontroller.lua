@@ -295,6 +295,8 @@ function slot0.CreateTarget(slot0, slot1)
 end
 
 function slot0.DestoryTarget(slot0, slot1)
+	slot0.dirtyMap = true
+
 	table.removebyvalue(slot0.map[tostring(slot1.pos)], slot1)
 
 	if slot1:InTimeLine() then
@@ -335,6 +337,7 @@ function slot0.ResetGame(slot0)
 	slot0.moveFuShun = nil
 	slot0.moveNenjuu = nil
 	slot0.moveDoppel = nil
+	slot0.wayfindCache = {}
 end
 
 function slot0.ReadyGame(slot0, slot1)
@@ -449,6 +452,8 @@ function slot0.GetPressInput(slot0, slot1)
 end
 
 function slot0.UpdateTargetPos(slot0, slot1, slot2, slot3)
+	slot0.dirtyMap = true
+
 	for slot8 = 0, slot1:GetSize().x - 1 do
 		for slot12 = 0, slot4.y - 1 do
 			slot13 = NewPos(slot8, slot12)
@@ -692,58 +697,70 @@ slot4 = {
 	}
 }
 
-function slot0.GetWayfindingMap(slot0, slot1, slot2, slot3)
-	slot4 = {}
-	slot5 = slot0.moveFuShun.pos + slot0.moveFuShun:GetDirPos()
-
-	if slot3 and slot0:InRange(slot5) then
-		table.insert(slot4, slot5)
-	else
-		table.insert(slot4, slot0.moveFuShun.pos)
+function slot0.GetWayfindingMap(slot0, slot1, slot2)
+	if not slot0.dirtyMap and slot0.wayfindCache[slot2] and (slot0.wayfindCache[slot2].inLantern and slot0.wayfindCache[slot2].inLantern > 0 or false) == (slot0.moveFuShun.inLantern and slot0.moveFuShun.inLantern > 0 or false) and slot0.wayfindCache[slot2].pos == slot0.moveFuShun.pos and slot0.wayfindCache[slot2].basePos == slot1 then
+		return slot0.wayfindCache[slot2].map
 	end
 
-	slot6 = {
-		[tostring(slot4[1])] = {
+	slot0.dirtyMap = false
+	slot3 = {}
+	slot4 = slot0.moveFuShun.pos + slot0.moveFuShun:GetDirPos()
+
+	if slot2 and slot0:InRange(slot4) then
+		table.insert(slot3, slot4)
+	else
+		table.insert(slot3, slot0.moveFuShun.pos)
+	end
+
+	slot5 = {
+		[tostring(slot3[1])] = {
 			value = 0,
-			pos = slot4[1]
+			pos = slot3[1]
 		}
 	}
-	slot7 = 0
+	slot6 = 0
 
-	while slot7 < #slot4 do
-		slot9 = slot6[tostring(slot4[slot7 + 1])].value + 1
+	while slot6 < #slot3 do
+		slot8 = slot5[tostring(slot3[slot6 + 1])].value + 1
 
-		for slot13, slot14 in ipairs(uv0) do
-			if slot8 + NewPos(unpack(slot14)) == slot1 or slot0:Moveable(slot15, slot2) then
-				if not slot6[tostring(slot15)] then
-					slot6[slot16] = {
-						pos = slot15,
-						value = slot9,
-						last = slot8
+		for slot12, slot13 in ipairs(uv0) do
+			if slot7 + NewPos(unpack(slot13)) == slot1 or slot0:Moveable(slot14, not slot2) then
+				if not slot5[tostring(slot14)] then
+					slot5[slot15] = {
+						pos = slot14,
+						value = slot8,
+						last = slot7
 					}
 
-					table.insert(slot4, slot15)
-				elseif slot9 < slot6[slot16].value then
-					slot6[slot16].value = slot9
-					slot6[slot16].last = slot8
+					table.insert(slot3, slot14)
+				elseif slot8 < slot5[slot15].value then
+					slot5[slot15].value = slot8
+					slot5[slot15].last = slot7
 				end
 			end
 		end
 	end
 
 	if slot0.moveFuShun.inLantern then
-		slot8 = NenjuuGameConfig.LANTERN_RANGE
+		slot7 = NenjuuGameConfig.LANTERN_RANGE
 
-		for slot12 = -slot8, slot8 do
-			for slot16 = -slot8, slot8 do
-				if slot6[tostring(slot0.moveFuShun.pos + NewPos(slot12, slot16))] then
-					slot17.lightValue = 1000 - slot17.value
+		for slot11 = -slot7, slot7 do
+			for slot15 = -slot7, slot7 do
+				if slot5[tostring(slot0.moveFuShun.pos + NewPos(slot11, slot15))] then
+					slot16.lightValue = 1000 - slot16.value
 				end
 			end
 		end
 	end
 
-	return slot6
+	slot0.wayfindCache[slot2] = {
+		pos = slot0.moveFuShun.pos,
+		inLantern = slot0.moveFuShun.inLantern,
+		basePos = slot1,
+		map = slot5
+	}
+
+	return slot5
 end
 
 function slot0.GetTeleportTargetPos(slot0, slot1, slot2)

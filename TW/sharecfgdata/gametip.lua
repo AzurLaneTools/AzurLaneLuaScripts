@@ -9749,6 +9749,22 @@ _G.pg.base.gametip.newplayer_notice_8 = {
 	tip = "指揮官，歡迎來到碧藍航線，先去新兵訓練營報到吧。"
 }
 
+_G.pg.base.gametip.tec_catchup_1 = {
+	tip = "一期"
+}
+
+_G.pg.base.gametip.tec_catchup_2 = {
+	tip = "二期"
+}
+
+_G.pg.base.gametip.tec_catchup_3 = {
+	tip = "三期"
+}
+
+_G.pg.base.gametip.tec_catchup_4 = {
+	tip = "四期"
+}
+
 _G.pg.base.gametip.tec_notice = {
 	tip = "完成科研$1研發加速所有任務後解鎖"
 }

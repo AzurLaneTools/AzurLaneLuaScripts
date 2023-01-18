@@ -32,16 +32,16 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffCastSkill",
 			trigger = {
 				"onStartGame"
 			},
 			arg_list = {
-				buff_id = 16352,
 				check_target = "TargetNationalityFriendly",
 				minTargetNumber = 1,
 				nationality = 7,
-				exceptCaster = true
+				exceptCaster = true,
+				skill_id = 16352
 			}
 		},
 		{

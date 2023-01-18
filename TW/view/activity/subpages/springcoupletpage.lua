@@ -2,7 +2,7 @@ slot0 = class("SpringCoupletPage", import("...base.BaseActivityPage"))
 slot1 = 7
 slot2 = 7
 slot3 = 7
-slot4 = 100
+slot4 = 400
 slot5 = 78
 slot6 = 1
 slot7 = "ui/activityuipage/springcoupletpage_atlas"
@@ -502,7 +502,20 @@ function slot0.tweenWord(slot0, slot1)
 	end))
 
 	slot4:setOnComplete(System.Action(function ()
-		setActive(findTF(uv0.tf, "bgOn"), uv0.index == uv0.swapIndex)
+		slot0 = false
+		slot2 = uv0.coupletDatas[uv0.coupletIndex].repeated_jp
+
+		if uv1.index == uv1.swapIndex then
+			slot0 = uv1.index == uv1.swapIndex
+		elseif PLATFORM_CODE == PLATFORM_JP and slot2 and #slot2 > 0 then
+			for slot6 = 1, #slot2 do
+				if table.contains(slot2[slot6], uv1.index) and table.contains(slot7, uv1.swapIndex) then
+					slot0 = true
+				end
+			end
+		end
+
+		setActive(findTF(uv1.tf, "bgOn"), slot0)
 	end))
 end
 

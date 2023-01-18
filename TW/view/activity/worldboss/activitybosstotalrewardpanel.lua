@@ -12,8 +12,8 @@ function slot0.init(slot0)
 	slot0.itemList = slot0.boxView:Find("Content/ItemGrid2")
 
 	setText(slot0.emptyTip, i18n("autofight_rewards_none"))
-	setText(slot0.window:Find("Fixed/top/bg/obtain/title"), slot0.contextData.title)
-	setText(slot0.window:Find("Fixed/top/bg/obtain/title/title_en"), slot0.contextData.subTitle)
+	setText(slot0.window:Find("Fixed/top/bg/obtain/title"), i18n("autofight_rewards"))
+	setText(slot0.window:Find("Fixed/top/bg/obtain/title/title_en"), i18n("total_rewards_subtitle"))
 	setText(slot0.boxView:Find("Content/Title/Text"), i18n("battle_end_subtitle1"))
 	setText(slot0.boxView:Find("Content/TitleSub/Text"), i18n("settle_rewards_text"))
 end

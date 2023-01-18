@@ -1183,8 +1183,8 @@ pg.ship_l2d = {
 		range_abs = 0,
 		offset_y = 0,
 		range = {
-			-30,
-			30
+			-10,
+			10
 		}
 	},
 	[4990527] = {
@@ -1210,8 +1210,8 @@ pg.ship_l2d = {
 		range_abs = 0,
 		offset_y = 0,
 		range = {
-			-30,
-			30
+			-10,
+			10
 		}
 	},
 	[5020521] = {

@@ -1321,7 +1321,7 @@ pg.activity_ins_template = {
 	},
 	[50] = {
 		ship_group = 50201,
-		name = "YIXIAN",
+		name = "Yi Xian",
 		message_persist = "ins_48",
 		picture_persist = "https://blhxstatic.azurlane.tw/pics/15.png",
 		is_active = 0,
@@ -1626,7 +1626,7 @@ pg.activity_ins_template = {
 	},
 	[61] = {
 		ship_group = 50201,
-		name = "YIXIAN",
+		name = "Yi Xian",
 		message_persist = "ins_61",
 		picture_persist = "https://blhxstatic.azurlane.tw/pics/az_yixian.png",
 		is_active = 0,
@@ -4439,7 +4439,7 @@ pg.activity_ins_template = {
 	},
 	[193] = {
 		ship_group = 50201,
-		name = "YIXIAN",
+		name = "Yi Xian",
 		message_persist = "ins_193",
 		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_193.png",
 		is_active = 0,

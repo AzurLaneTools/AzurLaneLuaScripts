@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"布里斯托爾共鬥劇情\n\n<size=45>五 對手戲</size>",
+					"演習神秘事件調查\n\n<size=45>五 對手戲</size>",
 					1
 				}
 			}
@@ -358,7 +358,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "還沒有……到底發生什麼事了？只剩你一個人指的是什麼？",
+			say = "還沒有……到底發生什麼事了？只剩妳一個人指的是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那你現在在廢棄的設施裡做什麼呢？",
+			say = "那妳現在在廢棄的設施裡做什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "嗯……不愧是英格拉罕，讓簡單的事情完美復雜化了。",
+			say = "嗯……不愧是英格拉罕，讓簡單的事情完美複雜化了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

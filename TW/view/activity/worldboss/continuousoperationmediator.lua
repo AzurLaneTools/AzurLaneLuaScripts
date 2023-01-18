@@ -112,6 +112,14 @@ function slot0.handleNotification(slot0, slot1)
 			return
 		end
 
+		if pg.GuildMsgBoxMgr.GetInstance():GetShouldShowBattleTip() and getProxy(GuildProxy):getRawData() and slot19:getWeeklyTask() and slot20.id ~= 0 then
+			slot18:SubmitTask(function (slot0, slot1)
+				if slot1 then
+					uv0:CancelShouldShowBattleTip()
+				end
+			end)
+		end
+
 		if slot0.contextData.continuousBattleTimes <= 1 then
 			slot0:DisplayTotalReward()
 		elseif not slot0.contextData.autoFlag then

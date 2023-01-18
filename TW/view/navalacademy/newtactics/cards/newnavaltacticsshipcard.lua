@@ -66,7 +66,7 @@ function slot0.UpdateSkill(slot0)
 	slot1 = slot0.ship
 	slot2 = slot0.student
 	slot3 = slot0.skillVO
-	slot0.skillNameTxt.text = slot3:GetName()
+	slot0.skillNameTxt.text = shortenString(slot3:GetName(), 8)
 	slot0.skillLevelTxt.text = slot3.level
 
 	LoadSpriteAsync("skillicon/" .. slot3:GetIcon(), function (slot0)

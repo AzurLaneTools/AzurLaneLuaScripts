@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"布里斯托爾共鬥劇情\n\n<size=45>三 加密通話</size>",
+					"演習神秘事件調查\n\n<size=45>三 加密通話</size>",
 					1
 				}
 			}

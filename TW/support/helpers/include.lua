@@ -7,3 +7,4 @@ require("Support/Helpers/Calculation")
 require("Support/Helpers/AndroidSupport")
 
 ReflectionHelp = require("Support/Helpers/ReflectionHelp")
+Heap = require("Support/Helpers/Heap")

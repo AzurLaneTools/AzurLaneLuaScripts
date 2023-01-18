@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"布里斯托爾共鬥劇情\n\n<size=45>一 演習開始</size>",
+					"演習神秘事件調查\n\n<size=45>一 演習開始</size>",
 					1
 				}
 			}
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "計劃有變，立刻改變航向前往新的海域，座標已經發給你了。",
+			say = "計劃有變，立刻改變航向前往新的海域，座標已經發給妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

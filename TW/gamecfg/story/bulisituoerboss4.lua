@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"布里斯托爾共鬥劇情\n\n<size=45>四 小船當家</size>",
+					"演習神秘事件調查\n\n<size=45>四 小船當家</size>",
 					1
 				}
 			}
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…有些在意你們的情況，所以來看看。情況還好嗎？",
+			say = "…有些在意妳們的情況，所以來看看。情況還好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "別告訴我是布里斯托爾說下雨了讓你去送傘。",
+			say = "別告訴我是布里斯托爾說下雨了讓妳去送傘。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "現在演習的代理指揮是我，有什麼需要我幫你轉達給指揮官的嗎？",
+			say = "現在演習的代理指揮是我，有什麼需要我幫妳轉達給指揮官的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那你就隨便轉轉吧，我還有事先走一步，休假愉快哦~",
+			say = "那妳就隨便轉轉吧，我還有事先走一步，休假愉快哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
