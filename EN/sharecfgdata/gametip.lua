@@ -9432,7 +9432,9 @@ _G.pg.base.gametip.show_chat_warning = {
 }
 
 _G.pg.base.gametip.help_shipblueprintui = {
-	tip = [[
+	tip = {
+		{
+			info = [[
 1. Starting Development:
 You can begin development on a PR/DR ship once you meet her development requirements, which are shown at the center of the Shipyard screen when a ship has been selected.
 To start developing a ship, select one and tap the Commence button. You can only develop 1 PR/DR ship at a time.
@@ -9490,6 +9492,8 @@ You can preview the performance of certain PR/DRs through the Battle Simulation 
 To access it, simply select a ship and tap the Battle Simulation button. You will then be sent into a special battle with the ship you selected.
 
 Please note that the ships' stats and loadouts are preset in this mode, and may not accurately reflect their real performance.]]
+		}
+	}
 }
 
 _G.pg.base.gametip.help_shipblueprintui_luck = {
