@@ -2705,18 +2705,22 @@ _G.pg.base.gametip.coloring_help_tip = {
 		},
 		{
 			info = [[
-1. Each cell of the Fanbook is marked with a number that corresponds to the pigment color of the same number. Select the pigment color from the palette on the right and click on the cell to color it. 
+1. Each cell of the Drawing Book is marked with a number that corresponds to the pigment color of the same number. Select the pigment color from the palette on the right and click on the cell to color it. 
 2. The drawing area can be zoomed in and out by stretching or pinching with two fingers. 
 3. All adjacent cells with the same number will be automatically colored until the cells are filled in or there is no pigment of that color left. 
 4. Coloring each cell will consume pigment. If no pigment is left, no more cells may be colored. 
 5. Pigments can be obtained by completing event missions to consume a total amount of oil. 
-6. Completing pages in the Fanbook will grant rewards. 
+6. Completing pages in the Drawing Book will grant rewards. 
 7. The rewards for completing each page are as follows: 
-	 Complete Page 1: Random T3 Skill Books x3
-	 Complete Page 2: T3 General Parts x4
-	 Complete Page 3: Akashi's limited skin "Welcome to AzurCon";
+	 Complete Page 1: Random T3 Skill Books x2
+	 Complete Page 2: Red Envelope x1
+	 Complete Page 3: T3 Main Gun Parts x2
+	 Complete Page 4: Red Envelope x1
+	 Complete Page 5: T3 General Parts x3
+	 Complete Page 6: Red Envelope x1
+	 Complete Page 7: Limited shipgirl An Shan;
 8. After the event ends, unused pigments will be removed.
-9. One new page will be unlocked every day up to November 19th.]]
+9. One new page will be unlocked every day up to January 24th.]]
 		}
 	}
 }
@@ -7912,6 +7916,10 @@ Her stats and combat performance may change significantly.
 Proceed with retrofit?]]
 }
 
+_G.pg.base.gametip.ship_remould_warning_502114 = {
+	tip = "The skill <color=#92fc63>Dragon Empery Bond</color> will be upgraded upon retrofit completion."
+}
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "Download Language Pack"
 }
@@ -9424,12 +9432,10 @@ _G.pg.base.gametip.show_chat_warning = {
 }
 
 _G.pg.base.gametip.help_shipblueprintui = {
-	tip = {
-		{
-			info = [[
+	tip = [[
 1. Starting Development:
-You can begin development on a blueprint ship once you meet her development requirements, which are shown at the center of the Shipyard screen when a ship has been selected.
-To start developing a ship, select one and tap the Commence button. You can only develop 1 blueprint ship at a time.
+You can begin development on a PR/DR ship once you meet her development requirements, which are shown at the center of the Shipyard screen when a ship has been selected.
+To start developing a ship, select one and tap the Commence button. You can only develop 1 PR/DR ship at a time.
 
 2. Development Tasks:
 The ship you've chosen to develop will unlock after you complete all her development tasks.
@@ -9443,40 +9449,47 @@ Once you do this, you must wait 24 hours before you can change targets again.
 
 4. Completing Development:
 Upon completing all development tasks for a ship, she will join your dock and you unlock the ability to Enhance her.
-To begin development on a new blueprint ship, you must go to the Development Dock and select one. New development targets are not chosen automatically.
+To begin development on a new PR/DR ship, you must go to the Development Dock and select one. New development targets are not chosen automatically.
 
-5. Enhancing blueprint Ships:
-In contrast to ordinary ships, blueprint ships require Blueprints to be Enhanced. Blueprints are mainly acquired through conducting research at the Research Academy.
-Enhancing a blueprint ship will raise her stats, unlock new skills, and give her new abilities, similar to ordinary ships.
-
+5. Enhancing PR/DR Ships:
+In contrast to ordinary ships, PR/DR ships require Blueprints to be Enhanced. Blueprints are mainly acquired through conducting research at the Research Academy.
+Enhancing a PR/DR ship will raise her stats, unlock new skills, and give her new abilities, similar to ordinary ships.
 6. Enhancing with Coins:
-Some blueprint ships can also be Enhanced and undergo Fate Simulation with Coins as a substitute for Blueprints. 
-The Coin cost depends on how many times you've used this method of Enhancement previously in a day. The first 15 times each day are discounted.
-The following table lists the Coin cost per number of Blueprints substituted:
+Some PR/DR ships can also be Enhanced and undergo Fate Simulation with Coins as a substitute for Blueprints. 
+The Coin cost depends on how many times you've used this method of Enhancement previously in a day, as well as whether the ship is classified as a PR or a DR. The first 15 times each day are discounted.
+The following tables list the Coin cost per number of Blueprints substituted:
+
+For a PR ship:
 1 to 2: Free
 3 to 4: 90% discount
 5 to 7: 80% discount
 8 to 9: 60% discount
 10 to 15: 30% discount
-16 and onward: 0% discount; Blueprint costs 1,500 Coins each.
+16 and onward: 0% discount; Blueprints cost 1,500 Coins each.
+
+For a DR ship:
+1 to 2: Free
+3 to 6: 90% discount
+7 to 10: 80% discount
+11 to 15: 50% discount
+16 and onward: 0% discount; Blueprints cost 6,000 Coins each.
+
 The game will automatically calculate the Coin cost for you when using this method of Enhancement. The Coin cost resets daily at 4:00 AM.
 
-7. blueprint Ship Level Caps:
-blueprint ships do not need to be Limit Broken to be able to reach level 100. However, past that, you must still use Cognitive Chips and Coins to further increase their level caps. 
+7. PR/DR Ship Level Caps:
+PR/DR ships do not need to be Limit Broken to be able to reach level 100. However, past that, you must still use Cognitive Chips and Coins to further increase their level caps. 
 
 8. Fate Simulation:
-Once a blueprint ship reaches Development Level 30, she can undergo Fate Simulation, etching a historical record of sorts into her hull to be more akin to regular ships.
-In gameplay terms, Fate Simulation will allow you to use additional Blueprints to further enhance the capabilities of your blueprint ship.
+Once a PR/DR ship reaches Development Level 30, she can undergo Fate Simulation, etching a historical record of sorts into her hull to be more akin to regular ships.
+In gameplay terms, Fate Simulation will allow you to use additional Blueprints to further enhance the capabilities of your PR/DR ship.
 Fate Simulation is done in 5 steps. The first 4 steps grant a boost to the ship's Luck stat, and the final 5th step grants an upgrade to one of her skills.
 You can also use Coins in place of Blueprints. Please refer to section 6 above for more details.
 
 9. Battle Simulations:
-You can preview the performance of certain blueprints through the Battle Simulation mode.
+You can preview the performance of certain PR/DRs through the Battle Simulation mode.
 To access it, simply select a ship and tap the Battle Simulation button. You will then be sent into a special battle with the ship you selected.
 
 Please note that the ships' stats and loadouts are preset in this mode, and may not accurately reflect their real performance.]]
-		}
-	}
 }
 
 _G.pg.base.gametip.help_shipblueprintui_luck = {
@@ -10192,11 +10205,11 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Tashkent μ, Dido μ added to standard build pool! "
+	tip = "Charybdis, Bristol added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "U-110 added to standard build pool!"
+	tip = "Chen Hai added to standard build pool!"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -10280,16 +10293,24 @@ _G.pg.base.gametip.newplayer_notice_8 = {
 	tip = "Commander, welcome to Azur Lane! Let’s report to boot camp, now!"
 }
 
-_G.pg.base.gametip.tec_notice_1 = {
-	tip = "Complete all PR1 Catch-Up missions"
+_G.pg.base.gametip.tec_catchup_1 = {
+	tip = "Series 1"
 }
 
-_G.pg.base.gametip.tec_notice_2 = {
-	tip = "Complete all PR2 Catch-Up missions "
+_G.pg.base.gametip.tec_catchup_2 = {
+	tip = "Series 2"
 }
 
-_G.pg.base.gametip.tec_notice_3 = {
-	tip = "Complete all PR3 Catch-Up missions "
+_G.pg.base.gametip.tec_catchup_3 = {
+	tip = "Series 3"
+}
+
+_G.pg.base.gametip.tec_catchup_4 = {
+	tip = "Series 4"
+}
+
+_G.pg.base.gametip.tec_notice = {
+	tip = "Unlocks after completing all $1 Research Projects."
 }
 
 _G.pg.base.gametip.tec_notice_not_open_tip = {
@@ -11097,7 +11118,7 @@ _G.pg.base.gametip.world_boss_help = {
 			info = "<color=#92fc63>- Overview -</color>"
 		},
 		{
-			info = "During Fight On, Royal Maids! (Part 3) event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
+			info = "During Winter Pathfinder event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
 		},
 		{
 			info = [[
@@ -13702,10 +13723,10 @@ _G.pg.base.gametip.help_chunjie_jiulou = {
 			info = [[
 - Manjuu Resort Info -
 · You can visit the Manjuu Resort to open the Red Envelopes you've collected through playing minigames.
-· Red Envelopes can be acquired from Fu Shun's Great Adventure III, World Within the Painting, and Ying Swei's Spring Travels.
+· Red Envelopes can be acquired from Fu Shun's Great Adventure IV, An Shan's Drawing Book, World Within the Painting, and Songs of Spring.
 · Opening envelopes will grant you a number of randomly chosen rewards, potentially including Gems.
 · Your first 15 envelopes are Special Red Envelopes and will yield better rewards than regular Red Envelopes.
-· After opening 25 envelopes in total, you will receive <color=#92fc63>a skin for U-73</color> as a bonus reward.]]
+· After opening 15 envelopes in total, you will receive U-73's <color=#92fc63>New Year's Chemistry</color> skin as a bonus reward, and after 25 envelopes you'll also receive Fu Shun's <color=#92fc63>The Unbreakable Baozi Heist</color> skin.]]
 		}
 	}
 }
@@ -18577,6 +18598,32 @@ _G.pg.base.gametip.blueprint_catchup_by_gold_confirm = {
 	tip = "Enhancing will cost $1 Coins. Do you wish to continue? "
 }
 
+_G.pg.base.gametip.blueprint_catchup_by_gold_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/blueprint_catchup_by_gold",
+				path = ""
+			}
+		},
+		disableScroll = false,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
 _G.pg.base.gametip.tec_tip_no_consumption = {
 	tip = "Free"
 }
@@ -19102,6 +19149,14 @@ _G.pg.base.gametip.formationScene_use_oil_limit_flagship = {
 
 _G.pg.base.gametip.formationScene_use_oil_limit_submarine = {
 	tip = "SS"
+}
+
+_G.pg.base.gametip.formationScene_use_oil_limit_surface = {
+	tip = "Surface"
+}
+
+_G.pg.base.gametip.formationScene_use_oil_limit_tip_worldboss = {
+	tip = "Cost Limit:"
 }
 
 _G.pg.base.gametip.attr_durability = {
@@ -20047,7 +20102,7 @@ _G.pg.base.gametip.worldinpicture_help = {
 · Additionally spending all available Landmark Points will also award you with another new shipgirl, Hai Tien.
 
 - How to Play -
-· New missions will be unlocked every day up to February 2nd. Completing these will yield both Exploration Points and Landmark Points.
+· New missions will be unlocked every day up to January 24th. Completing these will yield both Exploration Points and Landmark Points.
 · These points can be used to explore the World Within the Painting. You may come across treasure chests on the way. Finding these will reward you with Red Envelopes.
 · You can switch between Exploration and Landmark mode by tapping the button on the bottom left corner of the screen.
 · Landmarks can be placed on revealed tiles. This will use up Landmark Points and grant you rewards.]]
@@ -20065,7 +20120,7 @@ _G.pg.base.gametip.worldinpicture_task_help = {
 · Additionally spending all available Landmark Points will also award you with another new shipgirl, Hai Tien.
 
 - How to Play -
-· New missions will be unlocked every day up to February 2nd. Completing these will yield both Exploration Points and Landmark Points.
+· New missions will be unlocked every day up to January 24th. Completing these will yield both Exploration Points and Landmark Points.
 · These points can be used to explore the World Within the Painting. You may come across treasure chests on the way. Finding these will reward you with Red Envelopes.
 · You can switch between Exploration and Landmark mode by tapping the button on the bottom left corner of the screen.
 · Landmarks can be placed on revealed tiles. This will use up Landmark Points and grant you rewards.]]
@@ -20492,6 +20547,66 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 }
 
 _G.pg.base.gametip.cruise_task_help_2212 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battlepass_main_tip_2302 = {
+	tip = "Complete Cruise Missions between 2/1/2023 00:00 – 3/31/2023 23:59 to receive <color=#854747>Sheffield META</color> and other rewards!"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2302 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+2/1/2023 00:00 – 3/31/2023 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Sheffield META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for Yuugure, "Fun in the Sun"
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2302 = {
 	tip = {
 		{
 			info = [[
@@ -22736,6 +22851,57 @@ _G.pg.base.gametip.yixian_nianye = {
 	tip = "May each and every year be blessed with peace and prosperity! Happy New Year, Commander!"
 }
 
+_G.pg.base.gametip.activity_yanhua_tip1 = {
+	tip = "Fireworks"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip2 = {
+	tip = "Completed Fireworks"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip3 = {
+	tip = "Available Fireworks"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip4 = {
+	tip = "Spend $1 Festive Shooting Stars to complete fireworks?"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip5 = {
+	tip = "Insufficient Festive Shooting Stars."
+}
+
+_G.pg.base.gametip.activity_yanhua_tip6 = {
+	tip = "You can't make any more fireworks today."
+}
+
+_G.pg.base.gametip.activity_yanhua_tip7 = {
+	tip = "Tap the fireworks again to remove them from the Launch Order arrangement."
+}
+
+_G.pg.base.gametip.activity_yanhua_tip8 = {
+	tip = "Fireworks complete!"
+}
+
+_G.pg.base.gametip.help_chunjie2023 = {
+	tip = {
+		{
+			info = [[
+Events last from <color=#92fc63>January 18th to February 1st</color>
+
+- Spring Festival Overview -
+· <color=#92fc63>Fu Shun's Great Adventure IV</color> - play the minigame over 7 days to unlock the destroyer <color=#92fc63>Fu Shun</color>.
+· <color=#92fc63>Spring Blossoms</color> - clear Chapter 3+ stages to earn Festive Shooting Stars and unlock the seaplane carrier <color=#92fc63>Ting An</color>.
+· <color=#92fc63>Inside the Painting</color> - complete the minigame to unlock the light cruisers <color=#92fc63>Hai Chi</color> and <color=#92fc63>Hai Tien</color>.
+· <color=#92fc63>Drawing Book</color> - clear Chapter 3+ stages to earn Pigments and unlock the destroyer <color=#92fc63>An Shan</color>.
+· <color=#92fc63>Songs of Spring</color> - complete daily missions and finish the songs to unlock an exclusive piece of gear for Yat Sen.
+· <color=#92fc63>Manjuu Resort</color> - open the Red Envelopes you've collected through minigames and mini-events. Open a total of 15 to receive U-73's <color=#92fc63>New Year's Chemistry</color> skin and open 25 to receive Fu Shun's <color=#92fc63>The Unbreakable Baozi Heist</color> skin.
+· <color=#92fc63>New Skins</color> - visit the skins shop and see the latest fashion on offer.
+· <color=#92fc63>Limited Construction</color> - go to the build menu and recruit new shipgirls.]]
+		}
+	}
+}
+
 _G.pg.base.gametip.sevenday_nianye = {
 	tip = {
 		{
@@ -22746,4 +22912,329 @@ _G.pg.base.gametip.sevenday_nianye = {
 
 _G.pg.base.gametip.tip_nianye = {
 	tip = "Please wait for the cook to be ready, thank you!"
+}
+
+_G.pg.base.gametip.couplete_activty_desc = {
+	tip = "New event missions will unlock every day until 1/24. Complete them all to access 7 different Songs of Spring to complete. Rearrange the words on the right side of the screen to complete the rhyming couplets, and tap the red button at the bottom to get your reward!"
+}
+
+_G.pg.base.gametip.couplete_click_desc = {
+	tip = "Tap Yat Sen 3 times in a row to ask for a hint."
+}
+
+_G.pg.base.gametip.couplet_index_desc = {
+	tip = "Poem $1"
+}
+
+_G.pg.base.gametip.couplete_help = {
+	tip = {
+		{
+			info = [[
+- How to Play -
+During the event period, one event mission will be unlocked every day until <color=#92fc63>1/24</color>.
+Completing a mission allows you to arrange a new Spring Couplet. There are a total of 7 couplets.
+
+Rearrange the words on the right-hand side of the screen by dragging-and-dropping them into the correct order. Tap the "Check" button to see if you arranged the couplet verse in the correct order.
+Completing the couplets will allow you to obtain Red Envelopes. Complete all 7 to get the limited gear, 'Plum-Petal Poetry.'
+
+- Hint -
+If you're having trouble, tap the chibi character at the bottom left-hand side of the screen three times in a row.
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.couplete_drag_tip = {
+	tip = "*Change the order of the words by dragging on them."
+}
+
+_G.pg.base.gametip.couplete_remind = {
+	tip = "Commander, the second line is \"$1\"."
+}
+
+_G.pg.base.gametip.couplete_complete = {
+	tip = "Commander, you've already completed all the poems."
+}
+
+_G.pg.base.gametip.couplete_enter = {
+	tip = "Shall we complete a rhyming couplet?"
+}
+
+_G.pg.base.gametip.couplete_stay = {
+	tip = "Do you need a hint, Commander?"
+}
+
+_G.pg.base.gametip.couplete_task = {
+	tip = "Complete the missions to unlock the next set of couplets."
+}
+
+_G.pg.base.gametip.couplete_pass_1 = {
+	tip = "Mm. Sounds right."
+}
+
+_G.pg.base.gametip.couplete_pass_2 = {
+	tip = "Well done, Commander."
+}
+
+_G.pg.base.gametip.couplete_fail_1 = {
+	tip = "Hmm, something doesn't seem quite right."
+}
+
+_G.pg.base.gametip.couplete_fail_2 = {
+	tip = "Why don't we think about it some more?"
+}
+
+_G.pg.base.gametip.couplete_pair_1 = {
+	tip = "Its vibrant colors always leave us awestruck"
+}
+
+_G.pg.base.gametip.couplete_pair_2 = {
+	tip = "In with the new, plum flowers sing"
+}
+
+_G.pg.base.gametip.couplete_pair_3 = {
+	tip = "Beneath the evening rain a flower dances"
+}
+
+_G.pg.base.gametip.couplete_pair_4 = {
+	tip = "Joy spreads to all beneath the sky"
+}
+
+_G.pg.base.gametip.couplete_pair_5 = {
+	tip = "Apricot flowers bloom when easterly winds leave"
+}
+
+_G.pg.base.gametip.couplete_pair_6 = {
+	tip = "Welcome the New Year's gentle, warm glow"
+}
+
+_G.pg.base.gametip.couplete_pair_7 = {
+	tip = "May this year also be pleasant too"
+}
+
+_G.pg.base.gametip["2023spring_minigame_item_lantern"] = {
+	tip = "New Year's Lantern|Use to ward off Nianjuus, creating a Nianjuu-repellent zone for 5s."
+}
+
+_G.pg.base.gametip["2023spring_minigame_item_firecracker"] = {
+	tip = "Firecrackers|Use to scare Nianjuus when they are near you, allowing you to flee for 5s."
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_icewall"] = {
+	tip = "Ice Wall|Creates an obstacle that impedes Nianjuus."
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_icewall_up"] = {
+	tip = "Unlocks the skill Ice Wall. Length: 7 tiles. Cooldown: 1s.|Increases length by 2 tiles|Further increases length by 2 tiles"
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_sprint"] = {
+	tip = "Fast Footwork|Temporarily increases your speed by 20%."
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_sprint_up"] = {
+	tip = "Unlocks the skill Fast Footwork. Duration: 5s. Cooldown: 20s.|Further increases your speed by 10%|Increases the duration by 2s"
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_flash"] = {
+	tip = "Flash|Teleports you in the direction you're facing, ignoring obstacles in your path."
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_flash_up"] = {
+	tip = "Unlocks the skill Flash. Cooldown: 30s.|Reduces the cooldown by 5s|Further reduces the cooldown by 5s"
+}
+
+_G.pg.base.gametip["2023spring_minigame_bless_speed"] = {
+	tip = "Gotta Go Fast|Increases your base speed."
+}
+
+_G.pg.base.gametip["2023spring_minigame_bless_speed_up"] = {
+	tip = "Increases your base speed by 3%.|Further increases your base speed by 3%|Further increases your base speed by 4%"
+}
+
+_G.pg.base.gametip["2023spring_minigame_bless_substitute"] = {
+	tip = "Decoy|Creates an ice clone of you while teleporting you elsewhere when a Nianjuu attacks. One-time use."
+}
+
+_G.pg.base.gametip["2023spring_minigame_bless_substitute_up"] = {
+	tip = "Unlocks the skill Decoy."
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill1"] = {
+	tip = "Teleportation|When a Nianjuu gets stuck or when Fu Shun gets too far away, it will teleport near her."
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill2"] = {
+	tip = "Wild Hunt|Increases Nianjuus' base speed by 10%."
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill3"] = {
+	tip = "Oh, Yeahhh!|Nianjuus can break through 3 tiles of ice walls."
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill4"] = {
+	tip = "Gravity|Decreases Fu Shun's speed by 15%."
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill5"] = {
+	tip = "Double Trouble|Creates a Nianjuu clone. The clone has no special abilities and moves at 70% of the original's speed."
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill6"] = {
+	tip = "Weighed Down|Increases Fu Shun's skill cooldown time by 20%."
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill7"] = {
+	tip = "Black Hole|A black hole spawns in a random location every 20s. Being near it reduces Fu Shun's speed, and entering it stuns her for 1s."
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill8"] = {
+	tip = "Supersonic|Every 10s, a Nianjuu's speed increases by 20% for 5s. This effect is negated if the Nianjuu attacks during it."
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip1"] = {
+	tip = "Equip"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip2"] = {
+	tip = "Equipped"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip3"] = {
+	tip = "Score"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip5"] = {
+	tip = "Weakening Nianjuus reduces your score potential"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip6"] = {
+	tip = "$1 unlocked."
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip7"] = {
+	tip = "$1 upgraded."
+}
+
+_G.pg.base.gametip["2023spring_minigame_help"] = {
+	tip = {
+		{
+			info = [[
+In the "Fu Shun's Great Adventure IV" minigame, your goal is to control Fu Shun's chibi and collect food dishes indicated by the Target displayed onscreen, avoiding dangerous Nianjuus in the process.
+A new stage will be unlocked every day until <color=#92fc63>1/24</color>. Clear all 7 stages to obtain the destroyer, Fu Shun.
+
+How to Play:
+1) You can move Fu Shun by using the joypad at the bottom left-hand side of the screen. Use the buttons on the bottom right-hand side of the screen to use various skills and items.
+
+2) Earn points by collecting the item indicated by the "Target" displayed onscreen. The game ends when the timer runs out, or you quit the game.
+
+3) Tap on the "Settings" button to use your accumulated score to unlock and equip skills and items.
+
+4) Upon starting a stage, you will be able to view the abilities of the Nianjuus appearing on that stage. Disabling certain Nianjuu abilities will make the game easier, but also reduces your score potential.
+
+5) In each stage, Nianjuus have different abilities, and the score multiplier that can be attained from each stage differs as well.
+
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.multiple_sorties_title = {
+	tip = "Auto-Repeat"
+}
+
+_G.pg.base.gametip.multiple_sorties_title_eng = {
+	tip = "Multiple Sorties"
+}
+
+_G.pg.base.gametip.multiple_sorties_locked_tip = {
+	tip = "Unlock <color=#92fc63>Auto-Repeat</color> by clearing the stage on this difficulty once."
+}
+
+_G.pg.base.gametip.multiple_sorties_times = {
+	tip = "Sorties"
+}
+
+_G.pg.base.gametip.multiple_sorties_tip = {
+	tip = "*During Auto-Repeat, <color=#92fc63>Auto-Battle</color> and <color=#92fc63>Auto-Submarine</color> are enabled by default."
+}
+
+_G.pg.base.gametip.multiple_sorties_challenge_ticket_use = {
+	tip = "Automatically Use"
+}
+
+_G.pg.base.gametip.multiple_sorties_cost1 = {
+	tip = "Estimated Consumption: <color=#92fc63><icon name=oil w=0.7 h=0.7/>$1 Oil </color>"
+}
+
+_G.pg.base.gametip.multiple_sorties_cost2 = {
+	tip = "and <color=#92fc63><icon name=ticket w=0.7 h=0.7/>$1 Bonus Ticket(s)</color>."
+}
+
+_G.pg.base.gametip.multiple_sorties_stopped = {
+	tip = "Stopped"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_tip = {
+	tip = "<color=#92fc63>Auto-Repeat</color> has been stopped, and you will exit the stage after this run."
+}
+
+_G.pg.base.gametip.multiple_sorties_resume_tip = {
+	tip = "Continuing <color=#92fc63>Auto-Repeat</color>."
+}
+
+_G.pg.base.gametip.multiple_sorties_auto_on = {
+	tip = "<color=#92fc63>Auto-Battle</color> enabled."
+}
+
+_G.pg.base.gametip.multiple_sorties_finish = {
+	tip = "Auto-Repeat finished."
+}
+
+_G.pg.base.gametip.multiple_sorties_stop = {
+	tip = "Auto-Repeat stopped."
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_end = {
+	tip = "Auto-Repeat has been stopped."
+}
+
+_G.pg.base.gametip.multiple_sorties_end_status = {
+	tip = "You completed <color=#92fc63>$2</color> out of <color=#92fc63>$1</color> planned sorties."
+}
+
+_G.pg.base.gametip.multiple_sorties_finish_tip = {
+	tip = "<color=#92fc63>Auto-Repeat</color> has finished."
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_tip_end = {
+	tip = "<color=#92fc63>Auto-Repeat</color> has been stopped."
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_reason1 = {
+	tip = "Due to insufficient Oil, "
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_reason2 = {
+	tip = "Due to Fleet <color=#92fc63>$2</color>'s low morale, "
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_reason3 = {
+	tip = "Due to insufficient Dock space, "
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_reason4 = {
+	tip = "Due to being defeated during battle, "
+}
+
+_G.pg.base.gametip.msgbox_text_battle = {
+	tip = "Sortie"
+}
+
+_G.pg.base.gametip.pre_combat_start = {
+	tip = "Sortie"
+}
+
+_G.pg.base.gametip.pre_combat_start_en = {
+	tip = "WEIGH ANCHOR"
 }

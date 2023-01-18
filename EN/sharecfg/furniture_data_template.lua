@@ -7725,6 +7725,79 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100034] = {
+		effect = "",
+		name = "Song of Heavenly Steel",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Rise, my trusty cannon! Full speed ahead~!",
+		themeId = 0,
+		icon = "feixingpaoicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100034,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feixingpao",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[100035] = {
 		effect = "",
 		name = "Supersonic Ski Slope",
@@ -101453,6 +101526,1181 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[97001] = {
+		icon = "dibancj5icon",
+		name = "Gourmet Garden Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 97,
+		picture = "cj5/dibancj5",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "Welcome to a smorgasbord of sights and scents!",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 97001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97002] = {
+		icon = "qiangbicj5icon",
+		name = "Gourmet Garden Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 97,
+		picture = "cj5/qiangbicj5",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "Welcome to a smorgasbord of sights and scents!",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 97002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97101] = {
+		effect = "",
+		name = "Baozi Stall",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 97,
+		is_get_time_note = 0,
+		picture = "cj5/baozipucj5",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Piping-hot packets of goodness, bursting with savory flavors with every bite!",
+		tag = 1,
+		icon = "baozipucj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97101,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97102] = {
+		effect = "",
+		name = "Rice Noodle Roll Slide",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 97,
+		is_get_time_note = 0,
+		picture = "cj5/changfenhuaticj5",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "An irresistibly smooth sensation.",
+		tag = 1,
+		icon = "changfenhuaticj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97102,
+		can_rotate = 0,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97103] = {
+		effect = "",
+		name = "Stinky Tofu Sofa",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj5/choudoufuchangyicj5",
+		is_get_time_note = 0,
+		themeId = 97,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The smell won't rub off on me, right...?",
+		tag = 1,
+		icon = "choudoufuchangyicj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97103,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-8.2,
+					20.6
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97104] = {
+		effect = "",
+		name = "Mango Pomelo Sago Pool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj5/ganluyongchicj5",
+		is_get_time_note = 0,
+		themeId = 97,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Don't soak for too long, or you'll turn into a delectable treat.",
+		tag = 1,
+		icon = "ganluyongchicj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97104,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					6.2,
+					-46.7
+				},
+				{
+					-1,
+					1
+				},
+				"cj5/ganluyongchicj5_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97105] = {
+		effect = "",
+		name = "Gourmet Garden Entryway",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 97,
+		is_get_time_note = 0,
+		picture = "cj5/gongmencj5",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A festive entryway lined with spring-themed poetry.",
+		tag = 1,
+		icon = "gongmencj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		id = 97105,
+		can_rotate = 0,
+		size = {
+			4,
+			1
+		},
+		offset = {
+			0,
+			-5.05
+		},
+		canputonGrid = {
+			{
+				2,
+				0
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97106] = {
+		effect = "",
+		name = "Gourmet Garden Fence",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 97,
+		is_get_time_note = 0,
+		picture = "cj5/hulancj5",
+		count = 4,
+		is_3d_obj = 0,
+		describe = "A wooden fence in a traditional Dragon Empery style.",
+		tag = 1,
+		icon = "hulancj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97106,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97110] = {
+		effect = "",
+		name = "Tanghulu Lanterns",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 97,
+		is_get_time_note = 0,
+		picture = "cj5/huludengcj5",
+		count = 6,
+		is_3d_obj = 0,
+		describe = "They might look bright and shiny, but don't try to eat them!",
+		tag = 1,
+		icon = "huludengcj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97110,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97116] = {
+		effect = "",
+		name = "Gourmet Garden Decorative Mountain",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 97,
+		is_get_time_note = 0,
+		picture = "cj5/jiashancj5",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A Manjuu-sized workout.",
+		tag = 1,
+		icon = "jiashancj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97116,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97117] = {
+		effect = "",
+		name = "Gourmet Garden Manjuu (Back)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 97,
+		is_get_time_note = 0,
+		picture = "cj5/jiu1cj5",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "What's squishier: cotton candy, or a Manjuu?",
+		tag = 1,
+		icon = "jiu1cj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97117,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97118] = {
+		effect = "",
+		name = "Gourmet Garden Manjuu (Facing)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 97,
+		is_get_time_note = 0,
+		picture = "cj5/jiu2cj5",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "What's squishier: cotton candy, or a Manjuu?",
+		tag = 1,
+		icon = "jiu2cj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97119] = {
+		effect = "",
+		name = "Gourmet Garden Gate",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 97,
+		is_get_time_note = 0,
+		picture = "cj5/paifangcj5",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You can already smell the deliciousness before stepping through these gates.",
+		tag = 1,
+		icon = "paifangcj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		id = 97119,
+		can_rotate = 1,
+		size = {
+			3,
+			6
+		},
+		offset = {
+			0,
+			-3.55
+		},
+		canputonGrid = {
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97120] = {
+		effect = "",
+		name = "Lucky Shrubbery",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 97,
+		is_get_time_note = 0,
+		picture = "cj5/penzaicj5",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "To another year of joy and prosperity!",
+		tag = 1,
+		icon = "penzaicj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97120,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97122] = {
+		effect = "",
+		name = "Gourmet Garden Screens",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 97,
+		is_get_time_note = 0,
+		picture = "cj5/pingfengcj5",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Beautiful, delicate Dragon Empery-style screens.",
+		tag = 1,
+		icon = "pingfengcj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97122,
+		can_rotate = 0,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97123] = {
+		effect = "",
+		name = "Round Stone Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj5/shiyuanzhuocj5",
+		is_get_time_note = 0,
+		themeId = 97,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A perfect place to rest after an evening of fun – a stone-cold fact.",
+		tag = 1,
+		icon = "shiyuanzhuocj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97123,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-88.1,
+					40.3
+				},
+				{
+					1,
+					1
+				},
+				"cj5/shiyuanzhuocj5_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97124] = {
+		effect = "",
+		name = "Tanghulu Stall",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 97,
+		is_get_time_note = 0,
+		picture = "cj5/tanghulutanweicj5",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Each bite is crispy, sweet, and tangy!",
+		tag = 1,
+		icon = "tanghulutanweicj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97124,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97125] = {
+		effect = "",
+		name = "Meatball Bumper Cars",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj5/wanzipengpengchecj5",
+		is_get_time_note = 0,
+		themeId = 97,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You're getting hungry watching the meatballs bump into each other.",
+		tag = 1,
+		icon = "wanzipengpengchecj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97125,
+		can_rotate = 0,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					1.7,
+					-32.1
+				},
+				{
+					-1,
+					1
+				},
+				"cj5/wanzipengpengchecj5_using",
+				0,
+				{
+					{
+						-20.1,
+						31.5
+					},
+					{
+						200,
+						200
+					},
+					"cj5/wanzipengpengchecj5_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97126] = {
+		effect = "",
+		name = "Xiaolongbao Merry-Go-Round",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj5/xiaolongbaomumacj5",
+		is_get_time_note = 0,
+		themeId = 97,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Flavors that make your head spin!",
+		tag = 1,
+		icon = "xiaolongbaomumacj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97126,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-2.6,
+					-24.2
+				},
+				{
+					-1,
+					1
+				},
+				"cj5/xiaolongbaomumacj5_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97127] = {
+		effect = "",
+		name = "Spinning Teacups",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cj5/xuanzhuanchabeicj5",
+		is_get_time_note = 0,
+		themeId = 97,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Don't try this at home - you wouldn't want the hot tea to spill.",
+		tag = 1,
+		icon = "xuanzhuanchabeicj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97127,
+		can_rotate = 0,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					42,
+					-50.1
+				},
+				{
+					1,
+					1
+				},
+				"cj5/xuanzhuanchabeicj5_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97128] = {
+		effect = "",
+		name = "Hotpot Rug",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 97,
+		is_get_time_note = 0,
+		picture = "cj5/yuanyangguoditancj5",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Sometimes, it's really hard to pick a side!",
+		tag = 1,
+		icon = "yuanyangguoditancj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97128,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[97129] = {
+		effect = "",
+		name = "Dongpo Pork Trampoline",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Ever wanted to leap into that soft, springy fat? Now you can!",
+		themeId = 97,
+		icon = "dongporoubengchuangcj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97129,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dongporoubengchuangcj5B",
+				"normal"
+			},
+			{
+				"dongporoubengchuangcj5T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[97130] = {
+		effect = "",
+		name = "Squirrel Fish Pirate Ship",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Almost looks like it's being rocked around in a wok...",
+		themeId = 97,
+		icon = "haidaochuancj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97130,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"haidaochuancj5B",
+				"normal"
+			},
+			{
+				"haidaochuancj5T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[97131] = {
+		effect = "",
+		name = "Mooncake Ferris Wheel",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Just like the path of the moon across the night sky.",
+		themeId = 97,
+		icon = "motianluncj5icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 97131,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"motianluncj5B",
+				"normal"
+			},
+			{
+				"motianluncj5T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					20,
+					-19
+				},
+				{
+					176,
+					171
+				},
+				"cj5/motianluncj5_mask"
+			},
+			{
+				-21,
+				21
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[97301] = {
+		effect = "",
+		name = "Gourmet Garden Lanterns",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 97,
+		is_get_time_note = 0,
+		picture = "cj5/denglongcj5",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "The perfect way to light the night with a festive atmosphere.",
+		tag = 5,
+		icon = "denglongcj5icon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 97301,
+		can_rotate = 0,
+		size = {
+			24,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -101600,6 +102848,7 @@ pg.furniture_data_template = {
 			100031,
 			100032,
 			100033,
+			100034,
 			100035,
 			100042,
 			100044,
@@ -101771,6 +103020,7 @@ pg.furniture_data_template = {
 			100031,
 			100032,
 			100033,
+			100034,
 			100035,
 			100042,
 			100044,
@@ -106219,6 +107469,58 @@ pg.furniture_data_template = {
 			96305,
 			96306,
 			96307
+		},
+		[97] = {
+			97001,
+			97002,
+			97101,
+			97102,
+			97103,
+			97104,
+			97105,
+			97106,
+			97110,
+			97116,
+			97117,
+			97118,
+			97119,
+			97120,
+			97122,
+			97123,
+			97124,
+			97125,
+			97126,
+			97127,
+			97128,
+			97129,
+			97130,
+			97131,
+			97301,
+			97001,
+			97002,
+			97101,
+			97102,
+			97103,
+			97104,
+			97105,
+			97106,
+			97110,
+			97116,
+			97117,
+			97118,
+			97119,
+			97120,
+			97122,
+			97123,
+			97124,
+			97125,
+			97126,
+			97127,
+			97128,
+			97129,
+			97130,
+			97131,
+			97301
 		}
 	},
 	get_id_list_by_tag = {
@@ -107668,7 +108970,28 @@ pg.furniture_data_template = {
 			96112,
 			96113,
 			96114,
-			96115
+			96115,
+			97101,
+			97102,
+			97103,
+			97104,
+			97105,
+			97106,
+			97110,
+			97116,
+			97117,
+			97118,
+			97119,
+			97120,
+			97122,
+			97123,
+			97124,
+			97125,
+			97126,
+			97127,
+			97128,
+			97129,
+			97130
 		},
 		{
 			1108,
@@ -107953,6 +109276,7 @@ pg.furniture_data_template = {
 			100031,
 			100032,
 			100033,
+			100034,
 			100035,
 			100042,
 			100044,
@@ -108103,7 +109427,8 @@ pg.furniture_data_template = {
 			95142,
 			95144,
 			96116,
-			96117
+			96117,
+			97131
 		},
 		[4] = {
 			1001,
@@ -108181,7 +109506,8 @@ pg.furniture_data_template = {
 			93001,
 			94001,
 			95001,
-			96001
+			96001,
+			97001
 		},
 		[3] = {
 			1002,
@@ -108260,7 +109586,8 @@ pg.furniture_data_template = {
 			93002,
 			94002,
 			95002,
-			96002
+			96002,
+			97002
 		},
 		[5] = {
 			1301,
@@ -108539,7 +109866,8 @@ pg.furniture_data_template = {
 			96304,
 			96305,
 			96306,
-			96307
+			96307,
+			97301
 		}
 	},
 	get_id_list_by_type = {
@@ -108620,7 +109948,8 @@ pg.furniture_data_template = {
 			93002,
 			94002,
 			95002,
-			96002
+			96002,
+			97002
 		},
 		[7] = {
 			1,
@@ -110186,7 +111515,26 @@ pg.furniture_data_template = {
 			96114,
 			96115,
 			96116,
-			96117
+			96117,
+			97101,
+			97102,
+			97103,
+			97104,
+			97106,
+			97110,
+			97116,
+			97117,
+			97118,
+			97120,
+			97122,
+			97123,
+			97124,
+			97125,
+			97126,
+			97127,
+			97129,
+			97130,
+			97131
 		},
 		[11] = {
 			131,
@@ -110199,6 +111547,7 @@ pg.furniture_data_template = {
 			100021,
 			100022,
 			100030,
+			100034,
 			100042,
 			30123,
 			35128,
@@ -110314,7 +111663,8 @@ pg.furniture_data_template = {
 			93001,
 			94001,
 			95001,
-			96001
+			96001,
+			97001
 		},
 		[5] = {
 			1101,
@@ -110438,7 +111788,8 @@ pg.furniture_data_template = {
 			93117,
 			93119,
 			95112,
-			95120
+			95120,
+			97128
 		},
 		[3] = {
 			1108,
@@ -110856,7 +112207,8 @@ pg.furniture_data_template = {
 			96304,
 			96305,
 			96306,
-			96307
+			96307,
+			97301
 		},
 		[8] = {
 			17121
@@ -110867,7 +112219,9 @@ pg.furniture_data_template = {
 			51107,
 			52105,
 			62112,
-			94103
+			94103,
+			97105,
+			97119
 		},
 		[10] = {
 			38301,
@@ -111025,6 +112379,7 @@ pg.furniture_data_template = {
 		100031,
 		100032,
 		100033,
+		100034,
 		100035,
 		100042,
 		100044,
@@ -113182,6 +114537,31 @@ pg.furniture_data_template = {
 		96304,
 		96305,
 		96306,
-		96307
+		96307,
+		97001,
+		97002,
+		97101,
+		97102,
+		97103,
+		97104,
+		97105,
+		97106,
+		97110,
+		97116,
+		97117,
+		97118,
+		97119,
+		97120,
+		97122,
+		97123,
+		97124,
+		97125,
+		97126,
+		97127,
+		97128,
+		97129,
+		97130,
+		97131,
+		97301
 	}
 }

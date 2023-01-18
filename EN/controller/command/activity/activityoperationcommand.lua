@@ -219,6 +219,8 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		elseif slot1.cmd == 4 then
 			slot3.data1 = 2
 		end
+
+		getProxy(ActivityProxy):updateActivity(slot3)
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_VOTE then
 		slot9 = getProxy(VoteProxy):getVoteGroup()
 
@@ -462,6 +464,26 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			end)
 			slot3:setDataList(slot3:getData1List())
 		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_FIREWORK and slot1.cmd == 1 then
+		slot3.data1 = slot3.data1 - 1
+
+		if not table.contains(slot3.data1_list, slot1.arg1) then
+			table.insert(slot3.data1_list, slot1.arg1)
+		end
+
+		if pg.item_data_statistics[slot1.arg1].link_id > 0 and getProxy(ActivityProxy):getActivityById(slot8) and not slot10:isEnd() then
+			slot10.data1 = slot10.data1 + 1
+
+			slot9:updateActivity(slot10)
+		end
+
+		slot9 = getProxy(PlayerProxy)
+		slot10 = slot9:getRawData()
+
+		slot10:consume({
+			[id2res(slot3:getConfig("config_data")[2][1])] = slot3:getConfig("config_data")[2][2]
+		})
+		slot9:updatePlayer(slot10)
 	end
 
 	return slot3
@@ -564,6 +586,19 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 				uv1.data1 = uv6.arg1
 			elseif uv6.cmd == 2 then
 				uv1.data2 = 1
+			end
+		elseif uv0 == ActivityConst.ACTIVITY_TYPE_FIREWORK then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("activity_yanhua_tip8"))
+
+			slot0 = #uv1:getData1List()
+
+			if uv1:getConfig("config_client").story and type(slot1) == "table" then
+				for slot5, slot6 in ipairs(slot1) do
+					if slot0 == slot6[1] then
+						pg.NewStoryMgr.GetInstance():Play(slot6[2], uv2)
+						coroutine.yield()
+					end
+				end
 			end
 		end
 

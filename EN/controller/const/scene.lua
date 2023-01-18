@@ -55,24 +55,24 @@ SCENE = {
 	PHYSICS2D_TEST = "physics2d test",
 	NEWGUILD = "scene newguild",
 	MUSIC_FESTIVAL2 = "music festival 2",
-	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
+	CRUSING = "crusing",
 	ACTIVITY = "scene activity",
 	SUMMER_FEAST = "summer feast",
 	BULLETINBOARD = "scene bulletinboard",
-	CRUSING = "crusing",
+	PUBLIC_GUILD = "public guild",
 	IDOL_MEDAL_COLLECTION_SCENE = "idol medal collection scene",
 	COMMANDROOM = "scene command room",
 	BACKYARD = "scene court yard",
 	SSSS_ACADEMY = "SSSS ACADEMY",
 	RYZA_URBAN_AREA = "RYZA_URBAN_AREA",
 	BIANDUI = "scene biandui",
-	PUBLIC_GUILD = "public guild",
 	RESOLVEEQUIP = "scene resolve equip",
-	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
 	CARD_PAIRS = "card pairs",
-	WORLD_FLEET_SELECT = "world fleet select",
+	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
 	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
+	WORLD_FLEET_SELECT = "world fleet select",
 	AMUSEMENT_PARK = "amusement park",
+	SPRING_FESTIVAL_BACKHILL_2023 = "SPRING FESTIVAL BackHill 2023",
 	COLORING = "scene coloring",
 	GUILD = "scene guild",
 	NAVALTACTICS = "naval tactics",
@@ -115,6 +115,7 @@ SCENE = {
 	ANSWER = "answer",
 	SPRING_FESTIVAL_BACKHILL_2022 = "springfestival BackHill 2022",
 	HOTSPRING_REDPACKET = "hotSpring redpacket",
+	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
 	BILLBOARD = "scene billboard",
 	METACHARACTER = "metacharacter",
 	MILITARYEXERCISE = "scene militaryexercise",
@@ -401,20 +402,20 @@ slot0 = {
 		slot0.viewComponent = SpringFestivalBackHill2022Scene
 	end,
 	[SCENE.ACT_BOSS_BATTLE] = function (slot0, slot1)
-		slot2 = ActivityBossSceneTemplate
-		slot3 = ActivityBossMediatorTemplate
+		(function ()
+			if not uv0 or uv0:isEnd() then
+				return
+			end
 
-		if (function ()
-			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and slot0.id
-		end)() == ActivityConst.ACTIVITY_BOSS_ALBION then
-			slot2 = ActivityBossAlbionScene
-		elseif slot5 == ActivityConst.ACTIVITY_BOSS_BRISTOL then
-			slot2 = ActivityBossBristolScene
-		else
-			assert(nil, "Missing ActiviyBoss ID in Activity_Const id: " .. (slot5 or "NIL"))
-		end
+			if not uv0:getConfig("config_client").scene then
+				return
+			end
 
-		slot0.mediator = slot3
+			uv1 = _G[slot0]
+		end)()
+		assert(ActivityBossSceneTemplate, "Activity_template not set scene in config_client: " .. (getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and slot4.id or "NIL"))
+
+		slot0.mediator = ActivityBossMediatorTemplate
 		slot0.viewComponent = slot2
 	end,
 	[SCENE.ACT_BOSS_SPF] = function (slot0, slot1)
@@ -506,8 +507,8 @@ slot0 = {
 		slot0.viewComponent = RedPacketLayer
 	end,
 	[SCENE.REDPACKEYLOTTERY] = function (slot0, slot1)
-		slot0.mediator = RedPacket2023Mediator
-		slot0.viewComponent = RedPacket2023Layer
+		slot0.mediator = BeachPacketMediator
+		slot0.viewComponent = BeachPacketLayer
 	end,
 	[SCENE.BACK_CHARGE] = function (slot0, slot1)
 		slot0.mediator = BackChargeMediator
@@ -590,8 +591,12 @@ slot0 = {
 		slot0.viewComponent = NewYearHotSpringShopLayer
 	end,
 	[SCENE.HOTSPRING_REDPACKET] = function (slot0, slot1)
-		slot0.mediator = RedPacket2023Mediator
-		slot0.viewComponent = RedPacket2023Layer
+		slot0.mediator = BeachPacketMediator
+		slot0.viewComponent = BeachPacketLayer
+	end,
+	[SCENE.SPRING_FESTIVAL_BACKHILL_2023] = function (slot0, slot1)
+		slot0.mediator = SpringFestival2023Mediator
+		slot0.viewComponent = SpringFestival2023Scene
 	end
 }
 

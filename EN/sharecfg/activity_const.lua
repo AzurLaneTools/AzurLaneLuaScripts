@@ -34,7 +34,7 @@ pg.activity_const = {
 		act_id = 30849
 	},
 	ACTIVITY_BOSS_PT_ID = {
-		act_id = 4554
+		act_id = 4676
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -861,9 +861,6 @@ pg.activity_const = {
 	MINIGAME_CAKEMAKING = {
 		act_id = 4530
 	},
-	INVITATION_JP_FIFTH = {
-		act_id = 4533
-	},
 	ACTIVITY_BOSS_ALBION = {
 		act_id = 4552
 	},
@@ -875,6 +872,9 @@ pg.activity_const = {
 	},
 	RYZA_PT = {
 		act_id = 4587
+	},
+	INVITATION_JP_FIFTH = {
+		act_id = 4533
 	},
 	RYZA_MAP_ACT_ID = {
 		act_id = 4580
@@ -888,13 +888,31 @@ pg.activity_const = {
 	HOTSPRING_SHOP = {
 		act_id = 4606
 	},
-	ACTIVITY_BOSS_BRISTOL = {
-		act_id = 41029
-	},
 	NEW_YEAR_EVE_DINNER_TASK_POOL = {
 		act_id = 4638
 	},
 	NEW_YEAR_EVE_DINNER_TASK_LIST = {
 		act_id = 4639
+	},
+	MINIGAME_SPRING_FESTIVAL_2023 = {
+		act_id = 4666
+	},
+	FIREWORK_PT_ID = {
+		act_id = 4671
+	},
+	FIREWORK_ACT_ID = {
+		act_id = 4672
+	},
+	ACTIVITY_BOSS_KUYBYSHEV = {
+		act_id = 4674
+	},
+	ACTIVITY_BOSS_BRISTOL = {
+		act_id = 41029
+	},
+	ACTIVITY_COUPLET = {
+		act_id = 4669
+	},
+	ACTIVITY_COUPLET_TASK = {
+		act_id = 4670
 	}
 }

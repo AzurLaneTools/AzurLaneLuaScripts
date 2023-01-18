@@ -24,6 +24,7 @@ slot0.GO_SUBMARINE_RUN = "event go sumbarine run"
 slot0.ON_SIMULATION_COMBAT = "event simulation combat"
 slot0.ON_AIRFIGHT_COMBAT = "event perform airfight combat"
 slot0.SPECIAL_BATTLE_OPERA = "special battle opera"
+slot0.NEXT_DISPLAY_AWARD = "next display awards"
 slot0.GO_PRAY_POOL = "go pray pool"
 slot0.SELECT_ACTIVITY = "event select activity"
 slot0.OPEN_VOTEBOOK = "event open vote book"
@@ -301,6 +302,9 @@ function slot0.register(slot0)
 			memory = slot1.memory
 		})
 	end)
+	slot0:bind(uv0.NEXT_DISPLAY_AWARD, function (slot0, slot1, slot2)
+		uv0.nextDisplayAwards = slot1
+	end)
 	slot0.viewComponent:setActivities(getProxy(ActivityProxy):getPanelActivities())
 
 	slot3 = getProxy(PlayerProxy):getRawData()
@@ -338,7 +342,9 @@ function slot0.listNotificationInterests(slot0)
 		GAME.SEND_MINI_GAME_OP_DONE,
 		GAME.MONOPOLY_AWARD_DONE,
 		GAME.ACTIVITY_PERMANENT_START_DONE,
-		GAME.ACTIVITY_PERMANENT_FINISH_DONE
+		GAME.ACTIVITY_PERMANENT_FINISH_DONE,
+		GAME.MEMORYBOOK_UNLOCK_AWARD_DONE,
+		GAME.LOAD_LAYERS
 	}
 end
 
@@ -368,7 +374,17 @@ function slot0.handleNotification(slot0, slot1)
 
 		slot0:showNextActivity()
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_AWARDS then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
+		slot4 = slot3.awards
+
+		if slot0.nextDisplayAwards and #slot0.nextDisplayAwards > 0 then
+			for slot8 = 1, #slot0.nextDisplayAwards do
+				table.insert(slot4, slot0.nextDisplayAwards[slot8])
+			end
+		end
+
+		slot0.nextDisplayAwards = {}
+
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot4, slot3.callback)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_BB_RESULT then
 		slot0.viewComponent:emit(ActivityMediator.ON_BOBING_RESULT, slot3)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT then
@@ -407,6 +423,8 @@ function slot0.handleNotification(slot0, slot1)
 		if slot3.context.mediator == VoteFameHallMediator then
 			slot0.viewComponent:updateEntrances()
 		end
+
+		slot0.viewComponent:removeLayers()
 	elseif slot2 == GAME.MONOPOLY_AWARD_DONE then
 		if slot0.viewComponent.pageDic[slot0.viewComponent.activity.id] and slot4.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY and slot4.onAward then
 			slot4:onAward(slot3.awards, slot3.callback)
@@ -432,6 +450,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:verifyTabs(slot3.id)
 	elseif slot2 == GAME.ACTIVITY_PERMANENT_FINISH_DONE then
 		slot0.viewComponent:emit(ActivityMediator.ACTIVITY_PERMANENT, slot3.activity_id)
+	elseif slot2 == GAME.MEMORYBOOK_UNLOCK_AWARD_DONE then
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+	elseif slot2 == GAME.LOAD_LAYERS then
+		slot0.viewComponent:loadLayers()
 	end
 end
 

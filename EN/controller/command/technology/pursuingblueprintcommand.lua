@@ -50,7 +50,7 @@ function slot0.execute(slot0, slot1)
 				gold = uv0
 			})
 			slot1:updatePlayer(slot2)
-			uv1:addPursuingTimes(uv2)
+			uv1:addPursuingTimes(uv2, uv3:isRarityUR())
 			uv3:addExp(uv3:getItemExp() * uv2)
 
 			if Clone(uv3).level < uv3.level then

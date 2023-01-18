@@ -55,6 +55,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.actorShadow = slot1.actorShadow
 	slot0.actorAlpha = slot1.actorAlpha
 	slot0.showNPainting = slot1.hidePaintObj
+	slot0.hasPaintbg = slot1.hasPaintbg
 	slot0.showWJZPainting = slot1.hidePaintEquip
 	slot0.nohead = slot1.nohead
 	slot0.live2d = slot1.live2d

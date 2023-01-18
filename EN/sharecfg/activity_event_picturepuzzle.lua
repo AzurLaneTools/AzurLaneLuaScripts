@@ -220,6 +220,25 @@ pg.activity_event_picturepuzzle = {
 		awards = {},
 		auto_finish_args = {}
 	},
+	[4669] = {
+		id = 4669,
+		chapter = 0,
+		cd = 0,
+		define = 0,
+		pickup_picturepuzzle = {},
+		drop_picturepuzzle = {
+			70119,
+			70120,
+			70121,
+			70122,
+			70123,
+			70124,
+			70125
+		},
+		story = {},
+		awards = {},
+		auto_finish_args = {}
+	},
 	[30378] = {
 		id = 30378,
 		chapter = 1360001,
@@ -326,6 +345,7 @@ pg.activity_event_picturepuzzle = {
 		959,
 		4058,
 		4178,
+		4669,
 		30378,
 		30751,
 		30774

@@ -12039,6 +12039,279 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[702050] = {
+		unlock = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		feeling4 = "",
+		mission = "",
+		feeling2 = "",
+		profile = "",
+		skill = "",
+		id = 702050,
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Phew... Commander? Did you turn the AC on? Th-thank you..."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Such a passionate celebration. It's beyond warm—why, I'd call it downright fiery! Heehee."
+			}
+		},
+		lose = {
+			{
+				1100,
+				"...We mustn't retreat! Ours is the final line of defense!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, over here! You're finally back. Come enjoy some piping-hot borscht."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"The Commander is watching! All shipgirls, with me!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"I'm fine... Oh, that's not why you're touching me? H-heheh... My mistake."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Ouch! Sorry for making you wrap these bandages for me... Don't worry about me. It's better if we go all-out during these exercises. I'm used to this, anyway."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Is something on your mind? I could... Oh. You say you're just daydreaming? I see... *sigh*|Back straight! Fix that posture! Head up! Heehee, there! Now this feels more like an outing.|*blows*... Ack! I forgot to move the tea out of the thermos... O-oh, ignore me! I don't burn that easily, I swear, haha..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Is this a distress signal from our poor, dependable Commander? Heehee~!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"This is a rather paltry reward... Perhaps I should look into this?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Your hands are so warm, Commander..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Solving your problems and warming your bed are both my responsibilities... Haha! I'm kidding. I do it all because I want to, after all. Oh? That's not what you expected the punchline to be? Well..."
+			}
+		}
+	},
+	[206080] = {
+		unlock = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		feeling1 = "",
+		upgrade = "",
+		mission_complete = "",
+		mission = "",
+		feeling2 = "",
+		feeling4 = "",
+		skill = "",
+		headtouch = "",
+		id = 206080,
+		lose = "",
+		profile = "",
+		login = {
+			{
+				1100,
+				"Good morning, my Honourable Knight. May luck be on our side today. Heehee."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Victory is ours. Hehe, so, do you have any praise for me, my brave lion of a Commander?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, our Seagull of Victory. You've fought admirably. Do you want a pat on the head? Or should I recite an incantation that'll take you straight to dreamland?"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Eyes open for my – and the Commander's – prowess!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Ah yes, there's the black cat, hell-bent as always on spying on me... Heehee. Don't be alarmed, Commander. You are always welcome to my room."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Hey, Perseus! Are you in the mood for another tea party with Unicorn? Those biscuits we had last time were simply divine!|Office is all tidied up and I've struck upon the solution to our next task. It's time to... Wait! First, I have to brew some tea for you, Commander!|A swim in the river in the woods? Sounds good! I'll pack my tea set, biscuits, and... Hang on. This sounds an awful lot like a picnic to me..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Need something? Heehee, that's my cue. Eyes open, now!"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The commission team is back in port. I'm going make like a Sakura cat and beckon them to... I've got it wrong?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"There, there. You're my sunshine, Commander."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Oh, something on your mind, Commander? Heehee. I don't reckon you need an incantation. You're here for the sole purpose of seeing me, isn't that right? Missing me is still a problem, and I know when you have one of those."
+			}
+		}
+	},
+	[519010] = {
+		unlock = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
+		expedition = "",
+		win_mvp = "",
+		feeling1 = "",
+		mission = "",
+		profile = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 519010,
+		detail = "",
+		login = {
+			{
+				1100,
+				"How are you feeling, Commander? If there are no problems, let's get started with today's work."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Oh, do you remember the statement I gave you earlier? Some new ideas suddenly dawned upon me... Since nothing has been implemented yet, shall we give it another pass?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Old-fashioned decorations accentuate your refinement, whereas modern decorations attest to your good taste. Combining the two appropriately can leave a good impression on those who visit, Commander.|This article is... 'The Commander's Preference on Secretary Ship Selection'... It seems that one of your friends wrote it. Heehee, how intriguing."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander, right now... might not be the best time for that."
+			}
+		}
+	},
+	[506020] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		id = 506020,
+		detail = "",
+		login = {
+			{
+				1100,
+				"There's not a whole lot of stuff to get through today, Commander. Why don't we come up with some plans for what we can do afterwards?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Credit for the greatest contribution should belong to you, Commander."
+			}
+		},
+		home = {
+			{
+				1100,
+				"By any chance, were you flirting with other girls while you were out? ...Heehee, I was just messing with you. I wanted to see how you'd react, that's all~♪"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Thanks to you, Commander, I'm able to go all-out."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Thwap. ...Oh, I didn't need anything from you. I just felt like giving you a good smack over the head with a fan for no reason. Heehee, no harm no foul, right?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"So I was thinking... If you aren't busy, how about we head out and have some fun with our friends~♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ooh? Commander, you're gutsier than I gave you credit for."
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
@@ -12221,6 +12494,10 @@ pg.ship_skin_words_extra = {
 		107100,
 		107120,
 		101500,
-		107270
+		107270,
+		702050,
+		206080,
+		519010,
+		506020
 	}
 }

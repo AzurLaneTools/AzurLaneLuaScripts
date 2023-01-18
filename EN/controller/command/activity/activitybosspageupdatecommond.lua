@@ -19,10 +19,7 @@ function slot0.execute(slot0, slot1)
 				return
 			end
 
-			uv0.data1 = slot0.boss_hp or 0
-			uv0.data1_list = slot0.milestones or {}
-			uv0.data2 = 1
-
+			uv0:UpdatePublicData(slot0)
 			getProxy(ActivityProxy):updateActivity(uv0)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))

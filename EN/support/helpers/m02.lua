@@ -3017,6 +3017,16 @@ function checkExist(slot0, ...)
 	return slot0
 end
 
+function NullConditional(slot0, slot1)
+	if slot0 == nil then
+		return
+	end
+
+	assert(type(slot0) == "table")
+
+	return slot0[slot1]
+end
+
 function showRepairMsgbox()
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		hideYes = true,
@@ -3627,29 +3637,31 @@ function parseTimeConfig(slot0)
 	end
 end
 
+slot25 = {
+	__add = function (slot0, slot1)
+		return NewPos(slot0.x + slot1.x, slot0.y + slot1.y)
+	end,
+	__sub = function (slot0, slot1)
+		return NewPos(slot0.x - slot1.x, slot0.y - slot1.y)
+	end,
+	__mul = function (slot0, slot1)
+		return NewPos(slot0.x * slot1, slot0.y * slot1)
+	end,
+	__eq = function (slot0, slot1)
+		return slot0.x == slot1.x and slot0.y == slot1.y
+	end,
+	__tostring = function (slot0)
+		return slot0.x .. "_" .. slot0.y
+	end
+}
+
 function NewPos(slot0, slot1)
 	assert(slot0 and slot1)
 
 	slot2 = setmetatable({
 		x = slot0,
 		y = slot1
-	}, {
-		__add = function (slot0, slot1)
-			return NewPos(slot0.x + slot1.x, slot0.y + slot1.y)
-		end,
-		__sub = function (slot0, slot1)
-			return NewPos(slot0.x - slot1.x, slot0.y - slot1.y)
-		end,
-		__mul = function (slot0, slot1)
-			return NewPos(slot0.x * slot1, slot0.y * slot1)
-		end,
-		__eq = function (slot0, slot1)
-			return slot0.x == slot1.x and slot0.y == slot1.y
-		end,
-		__tostring = function (slot0)
-			return slot0.x .. "_" .. slot0.y
-		end
-	})
+	}, uv0)
 
 	function slot2.SqrMagnitude(slot0)
 		return slot0.x * slot0.x + slot0.y * slot0.y
@@ -3666,7 +3678,7 @@ function NewPos(slot0, slot1)
 	return slot2
 end
 
-slot25 = nil
+slot26 = nil
 
 function Timekeeping()
 	warning(Time.realtimeSinceStartup - (uv0 or Time.realtimeSinceStartup))

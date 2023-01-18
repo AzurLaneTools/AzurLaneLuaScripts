@@ -2585,6 +2585,20 @@ While this ship is afloat, for the first 4 battles another fleet fights during a
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800701] = {
+		desc_get = "",
+		id = 800701,
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800702] = {
+		desc_get = "",
+		id = 800702,
+		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		3631,
 		4161,
@@ -2620,6 +2634,8 @@ While this ship is afloat, for the first 4 battles another fleet fights during a
 		800601,
 		800602,
 		800631,
-		800632
+		800632,
+		800701,
+		800702
 	}
 }

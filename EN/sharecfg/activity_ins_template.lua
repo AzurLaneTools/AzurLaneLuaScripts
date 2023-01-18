@@ -1348,7 +1348,7 @@ pg.activity_ins_template = {
 	},
 	{
 		ship_group = 50201,
-		name = "YIXIAN",
+		name = "Yi Xian",
 		message_persist = "ins_48",
 		picture_persist = "https://blhxusstatic.yo-star.com/pic/spring_15iXfOO5o93oJMRSbB.png",
 		is_active = 0,
@@ -1653,7 +1653,7 @@ pg.activity_ins_template = {
 	},
 	{
 		ship_group = 50201,
-		name = "YIXIAN",
+		name = "Yi Xian",
 		message_persist = "ins_61",
 		picture_persist = "https://blhxusstatic.yo-star.com/pic/200528_yixian_Hl2itAb9YRxHTktp.png",
 		is_active = 0,
@@ -5252,7 +5252,7 @@ pg.activity_ins_template = {
 	},
 	{
 		ship_group = 50201,
-		name = "YIXIAN",
+		name = "Yi Xian",
 		message_persist = "ins_193",
 		picture_persist = "https://blhxusstatic.yo-star.com/pic/210204_yixian_VxNxOpevcFuEViYB.png",
 		is_active = 0,
@@ -9490,65 +9490,268 @@ pg.activity_ins_template = {
 	{
 		ship_group = 10707,
 		name = "CarVesGAL6",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_347",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/20221222_dahuangfeng_kkT5Wxyw5mYk2XPr.png",
+		is_active = 0,
 		sculpture = "dahuangfengII",
 		id = 347,
 		group_id = 347,
 		order = 36,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				12,
+				22
+			},
+			{
+				13,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3184,
+			3186,
+			3188
+		}
 	},
 	{
 		ship_group = 10705,
 		name = "YorkTown",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_348",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/20221222_yuekecheng_xrfuckN5Wbqe3nnQ.png",
+		is_active = 0,
 		sculpture = "yuekechengII",
 		id = 348,
 		group_id = 348,
 		order = 36,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				12,
+				22
+			},
+			{
+				19,
+				24,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3193,
+			3195,
+			3197
+		}
 	},
 	{
 		ship_group = 10125,
 		name = "DD_Hammann",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_349",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/20221222_haman_V8wbZdk44Jb2G2Mh.png",
+		is_active = 0,
 		sculpture = "hamanII",
 		id = 349,
 		group_id = 349,
 		order = 36,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				12,
+				23
+			},
+			{
+				9,
+				24,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3204,
+			3208,
+			3210
+		}
 	},
 	{
 		ship_group = 10303,
 		name = "Northampton",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_350",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/20221222_beianpudun_ZgMrAxXNMS4f2KSU.png",
+		is_active = 0,
 		sculpture = "beianpudunII",
 		id = 350,
 		group_id = 350,
 		order = 36,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2022,
+				12,
+				24
+			},
+			{
+				15,
+				16,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3215,
+			3217
+		}
 	},
 	{
 		ship_group = 10701,
 		name = "Langley",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_351",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/20221222_lanli_WS4K84ckH5FDxEcU.png",
+		is_active = 0,
 		sculpture = "lanliII",
 		id = 351,
 		group_id = 351,
 		order = 36,
+		time_persist = {
+			{
+				2022,
+				12,
+				25
+			},
+			{
+				18,
+				5,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3225,
+			3228
+		}
+	},
+	{
+		ship_group = 51901,
+		name = "Ting An",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "dingan_2",
+		id = 352,
+		group_id = 352,
+		order = 37,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 20608,
+		name = "Theseus",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "texiusi_2",
+		id = 353,
+		group_id = 353,
+		order = 37,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 70205,
+		name = "Kuybyshev",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "gubixuefu_2",
+		id = 354,
+		group_id = 354,
+		order = 37,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 50602,
+		name = "Hua Jia",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "huajia_2",
+		id = 355,
+		group_id = 355,
+		order = 37,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 50201,
+		name = "Yi Xian",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yixian",
+		id = 356,
+		group_id = 356,
+		order = 37,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 89903,
+		name = "Brest",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "buleisite",
+		id = 357,
+		group_id = 357,
+		order = 37,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 29905,
+		name = "Plymouth",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "pulimaosi",
+		id = 358,
+		group_id = 358,
+		order = 37,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 59901,
+		name = "Bin Jiang",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "haerbin",
+		id = 359,
+		group_id = 359,
+		order = 37,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 79901,
+		name = "Chkalov",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "qikaluofu",
+		id = 360,
+		group_id = 360,
+		order = 37,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 49907,
+		name = "Prinz-Rupprecht",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "lupuleixite",
+		id = 361,
+		group_id = 361,
+		order = 37,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -9903,6 +10106,16 @@ pg.activity_ins_template = {
 		348,
 		349,
 		350,
-		351
+		351,
+		352,
+		353,
+		354,
+		355,
+		356,
+		357,
+		358,
+		359,
+		360,
+		361
 	}
 }

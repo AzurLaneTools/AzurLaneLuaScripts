@@ -103,8 +103,16 @@ function slot0.update(slot0, slot1)
 		end
 	end
 
+	slot5 = 0
+
+	if slot2 == 302053 then
+		slot5 = 39
+	elseif slot2 == 502052 then
+		slot5 = 60
+	end
+
 	setAnchoredPosition(slot0._icon.gameObject, {
-		y = slot2 == 302053 and 39 or 0
+		y = slot5
 	})
 end
 

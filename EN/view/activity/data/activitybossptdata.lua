@@ -18,7 +18,7 @@ function slot0.GetBossProgress(slot0)
 	slot3 = 0
 
 	if getProxy(ActivityProxy):getActivityById(slot0.linkID) and not slot2:isEnd() then
-		slot3 = slot2.data1 or 0
+		slot3 = slot2:GetBossHP() or 0
 	end
 
 	return slot3, slot0.progress_target[slot1]

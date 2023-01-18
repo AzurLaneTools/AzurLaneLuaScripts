@@ -973,14 +973,15 @@ function slot0.updateModPanel(slot0)
 			uv1:updateModInfo(slot3)
 			setText(uv1.calcTxt, slot0)
 
-			slot4 = TechnologyProxy.getPursuingDiscount(uv2.pursuingTimes + uv3 + 1)
+			slot4 = uv0:isRarityUR()
+			slot5 = TechnologyProxy.getPursuingDiscount(uv2:getPursuingTimes(slot4) + uv3 + 1, slot4)
 
-			setText(uv1.itemInfoIcon:Find("icon_bg/count"), uv0:getPursuingPrice(slot4))
-			setActive(uv1.itemInfo:Find("no_cost"), slot4 == 0)
-			setActive(uv1.itemInfo:Find("discount"), slot4 > 0 and slot4 < 100)
+			setText(uv1.itemInfoIcon:Find("icon_bg/count"), uv0:getPursuingPrice(slot5))
+			setActive(uv1.itemInfo:Find("no_cost"), slot5 == 0)
+			setActive(uv1.itemInfo:Find("discount"), slot5 > 0 and slot5 < 100)
 
-			if slot4 > 0 and slot4 < 100 then
-				setText(uv1.itemInfo:Find("discount/Text"), 100 - slot4 .. "%OFF")
+			if slot5 > 0 and slot5 < 100 then
+				setText(uv1.itemInfo:Find("discount/Text"), 100 - slot5 .. "%OFF")
 			end
 
 			setActive(uv1.modBtn:Find("pursuing_cost"), uv3 > 0)
@@ -994,7 +995,14 @@ function slot0.updateModPanel(slot0)
 
 		updateDrop(slot0.itemInfoIcon, slot10)
 		onButton(slot0, slot0.itemInfoIcon, function ()
-			uv0:emit(BaseUI.ON_DROP, uv1)
+			if LOCK_TECHNOLOGY_PURSUING_TIP then
+				uv0:emit(BaseUI.ON_DROP, uv1)
+			else
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					type = MSGBOX_TYPE_HELP,
+					helps = pg.gametip.blueprint_catchup_by_gold_help.tip
+				})
+			end
 		end, SFX_PANEL)
 		setScrollText(findTF(slot0.itemInfo, "name/Text"), HXSet.hxLan(slot10.cfg.name))
 
@@ -1187,14 +1195,15 @@ function slot0.updateFittingPanel(slot0)
 			uv1:updateFittingInfo(slot3)
 			setText(uv1.fittingCalcTxt, slot0)
 
-			slot4 = TechnologyProxy.getPursuingDiscount(uv2.pursuingTimes + uv3 + 1)
+			slot4 = uv0:isRarityUR()
+			slot5 = TechnologyProxy.getPursuingDiscount(uv2:getPursuingTimes(slot4) + uv3 + 1, slot4)
 
-			setText(uv1.fittingItemInfoIcon:Find("icon_bg/count"), uv0:getPursuingPrice(slot4))
-			setActive(uv1.fittingItemInfo:Find("no_cost"), slot4 == 0)
-			setActive(uv1.fittingItemInfo:Find("discount"), slot4 > 0 and slot4 < 100)
+			setText(uv1.fittingItemInfoIcon:Find("icon_bg/count"), uv0:getPursuingPrice(slot5))
+			setActive(uv1.fittingItemInfo:Find("no_cost"), slot5 == 0)
+			setActive(uv1.fittingItemInfo:Find("discount"), slot5 > 0 and slot5 < 100)
 
-			if slot4 > 0 and slot4 < 100 then
-				setText(uv1.fittingItemInfo:Find("discount/Text"), 100 - slot4 .. "%OFF")
+			if slot5 > 0 and slot5 < 100 then
+				setText(uv1.fittingItemInfo:Find("discount/Text"), 100 - slot5 .. "%OFF")
 			end
 
 			setActive(uv1.fittingConfirmBtn:Find("pursuing_cost"), slot0 > 0)
@@ -1208,7 +1217,14 @@ function slot0.updateFittingPanel(slot0)
 
 		updateDrop(slot0.fittingItemInfoIcon, slot10)
 		onButton(slot0, slot0.fittingItemInfoIcon, function ()
-			uv0:emit(BaseUI.ON_DROP, uv1)
+			if LOCK_TECHNOLOGY_PURSUING_TIP then
+				uv0:emit(BaseUI.ON_DROP, uv1)
+			else
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					type = MSGBOX_TYPE_HELP,
+					helps = pg.gametip.blueprint_catchup_by_gold_help.tip
+				})
+			end
 		end, SFX_PANEL)
 		setScrollText(findTF(slot0.fittingItemInfo, "name/Text"), HXSet.hxLan(slot10.cfg.name))
 

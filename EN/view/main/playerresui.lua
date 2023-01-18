@@ -75,6 +75,7 @@ function slot0.Init(slot0, slot1)
 	slot2 = slot0._go
 	slot0.animation = slot2:GetComponent(typeof(Animation))
 	slot0.gemPos = slot0.gemAddBtn.anchoredPosition
+	slot0.oilPos = slot0.oilAddBtn.anchoredPosition
 
 	onButton(slot0, slot0.goldAddBtn, function ()
 		if not pg.goldExchangeMgr then
@@ -90,7 +91,7 @@ function slot0.Init(slot0, slot1)
 
 	slot0.position = tf(slot0._go).anchoredPosition
 
-	setActiveViaLayer(slot0._go, true)
+	setActive(slot0._go, true)
 end
 
 function slot0.SetActive(slot0, slot1, slot2)
@@ -119,6 +120,8 @@ function slot0.Enable(slot0, slot1)
 	end
 
 	if not slot1 then
+		slot0.settings = nil
+
 		if slot0:IsEnable() then
 			slot0:Disable()
 		end
@@ -133,6 +136,10 @@ function slot0.Enable(slot0, slot1)
 		}
 	end
 
+	if slot1.reset and slot0.settings then
+		slot0.resetSettings = slot0.settings
+	end
+
 	if not slot0:IsLoaded() then
 		slot0:Load(slot1)
 	elseif slot0.state == uv1 then
@@ -141,12 +148,14 @@ function slot0.Enable(slot0, slot1)
 		slot0.state = uv1
 
 		slot0:CustomSetting(slot1)
-		setActiveViaLayer(slot0._go, true)
+		setActive(slot0._go, true)
 
 		if slot0:IsDirty() then
 			slot0:Flush()
 		end
 	end
+
+	slot0.settings = slot1
 end
 
 function slot0.Disable(slot0)
@@ -160,12 +169,20 @@ function slot0.Disable(slot0)
 
 	slot0.state = uv0
 
-	setActiveViaLayer(slot0._go, false)
+	setActive(slot0._go, false)
 
 	if pg.goldExchangeMgr then
 		pg.goldExchangeMgr:exit()
 
 		pg.goldExchangeMgr = nil
+	end
+
+	if slot0.resetSettings then
+		slot0.resetSettings.anim = false
+
+		slot0:Enable(slot0.resetSettings)
+
+		slot0.resetSettings = nil
 	end
 end
 
@@ -179,7 +196,9 @@ function slot0.CustomSetting(slot0, slot1)
 		slot0:DoAnimation()
 	end
 
-	slot0.gemAddBtn.anchoredPosition = Vector3(slot0.gemPos.x + (slot1.gemOffsetX or 0), slot0.gemPos.y, 1)
+	slot3 = slot1.gemOffsetX or 0
+	slot0.gemAddBtn.anchoredPosition3D = Vector3(slot0.gemPos.x + slot3, slot0.gemPos.y, 1)
+	slot0.oilAddBtn.anchoredPosition3D = Vector3(slot0.oilPos.x + slot3, slot0.oilPos.y, 1)
 
 	NotchAdapt.AdjustUI()
 end
@@ -351,9 +370,9 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.REMOVE_LAYERS then
 		slot0.balance = slot0.balance - 1
 	elseif uv0.HIDE == slot2 then
-		setActiveViaLayer(slot0._go, false)
+		setActive(slot0._go, false)
 	elseif uv0.SHOW == slot2 then
-		setActiveViaLayer(slot0._go, true)
+		setActive(slot0._go, true)
 	end
 
 	slot0:updateResPanel(slot2)

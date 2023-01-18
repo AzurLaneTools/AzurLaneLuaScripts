@@ -32,6 +32,12 @@ function slot3.DoPrologue(slot0)
 			uv0._state:GetCommandByName(uv1.Battle.BattleControllerWeaponCommand.__name):TryAutoSub()
 			uv0._state:ChangeState(uv1.Battle.BattleState.BATTLE_STATE_FIGHT)
 			uv0._waveUpdater:Start()
+
+			if uv0._dataProxy:GetInitData().hideAllButtons then
+				uv0._dataProxy:DispatchEvent(uv1.Event.New(uv1.Battle.BattleEvent.HIDE_INTERACTABLE_BUTTONS, {
+					isActive = false
+				}))
+			end
 		end)
 		uv0._dataProxy:GetFleetByIFF(uv1.Battle.BattleConfig.FRIENDLY_CODE):FleetWarcry()
 		uv0._dataProxy:InitAllFleetUnitsWeaponCD()

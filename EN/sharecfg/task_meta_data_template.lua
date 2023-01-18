@@ -1200,6 +1200,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100041] = {
+		target_id_2 = "970203",
+		sub_type = 180,
+		desc = "Win 1 battle with Sheffield META in your fleet.",
+		id = 100041,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100042] = {
+		target_id_2 = "970203",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Sheffield META in your fleet.",
+		id = 100042,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100043] = {
+		target_id_2 = "970203",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Sheffield META in your fleet.",
+		id = 100043,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100044] = {
+		target_id_2 = "970203",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Sheffield META in your fleet.",
+		id = 100044,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100045] = {
+		target_id_2 = "970203",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Sheffield META in your fleet.",
+		id = 100045,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1293,6 +1333,38 @@ pg.task_meta_data_template = {
 		sub_type = 302,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Arizona META in your fleet.",
 		id = 200034,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200041] = {
+		target_id_2 = "970203",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Sheffield META in your fleet.",
+		id = 200041,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200042] = {
+		target_id_2 = "970203",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Sheffield META in your fleet.",
+		id = 200042,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200043] = {
+		target_id_2 = "970203",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Sheffield META in your fleet.",
+		id = 200043,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200044] = {
+		target_id_2 = "970203",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Sheffield META in your fleet.",
+		id = 200044,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1447,6 +1519,11 @@ pg.task_meta_data_template = {
 		100033,
 		100034,
 		100035,
+		100041,
+		100042,
+		100043,
+		100044,
+		100045,
 		200001,
 		200002,
 		200003,
@@ -1458,6 +1535,10 @@ pg.task_meta_data_template = {
 		200031,
 		200032,
 		200033,
-		200034
+		200034,
+		200041,
+		200042,
+		200043,
+		200044
 	}
 }

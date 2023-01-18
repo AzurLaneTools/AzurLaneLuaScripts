@@ -931,7 +931,7 @@ function slot0.getSubAidFlag(slot0, slot1)
 
 		if slot11 <= 0 then
 			return slot2.AMMO_EMPTY
-		elseif slot7.oil < slot12 + slot9.oil then
+		elseif slot7.oil <= slot12 + slot9.oil then
 			return slot2.OIL_EMPTY
 		else
 			return true, slot5
@@ -1160,6 +1160,18 @@ function slot0.anyRemasterAwardCanReceive(slot0)
 	end
 
 	return false
+end
+
+function slot0.AddActBossRewards(slot0, slot1)
+	slot0.actBossItems = slot0.actBossItems or {}
+
+	table.insertto(slot0.actBossItems, slot1)
+end
+
+function slot0.PopActBossRewards(slot0)
+	slot0.actBossItems = nil
+
+	return slot0.actBossItems or {}
 end
 
 return slot0

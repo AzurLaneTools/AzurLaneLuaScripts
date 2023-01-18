@@ -41,7 +41,6 @@ function slot0.register(slot0)
 
 	slot0:UpdateActivityData(slot1)
 
-	slot0.contextData.activity = slot1
 	slot0.contextData.activityID = slot1 and slot1.id
 
 	if pg.activity_event_worldboss[slot1 and slot1:getConfig("config_id")] then
@@ -51,6 +50,7 @@ function slot0.register(slot0)
 		slot0.contextData.groupNum = slot4.group_num
 		slot0.contextData.submarineNum = slot4.submarine_num
 		slot0.contextData.ticketInitPools = slot4.normal_expedition_drop_num or {}
+		slot0.contextData.useOilLimit = slot4.use_oil_limit
 		slot0.contextData.DisplayItems = pg.extraenemy_template[slot4.boss_id[1]] and slot6.reward_display or {}
 	end
 
@@ -123,7 +123,14 @@ function slot0.BindEvent(slot0)
 			slot2[slot1]
 		}
 		slot5 = SYSTEM_ACT_BOSS
-		slot6 = uv2.contextData.normalStageIDs[slot1]
+		slot8 = uv2.contextData.useOilLimit[slot1]
+
+		if not uv2.contextData.activity:IsOilLimit(uv2.contextData.normalStageIDs[slot1]) then
+			slot8 = {
+				0,
+				0
+			}
+		end
 
 		slot2[slot1 + 10]:RemoveUnusedItems()
 
@@ -139,6 +146,7 @@ function slot0.BindEvent(slot0)
 				stageId = slot6,
 				actId = uv1.id,
 				fleets = slot7,
+				costLimit = slot8,
 				OnConfirm = function (slot0)
 					if not uv0.contextData.activity:checkBattleTimeInBossAct() then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
@@ -261,7 +269,14 @@ function slot0.BindEvent(slot0)
 					uv0[uv1]
 				}
 				slot1 = uv2 and SYSTEM_BOSS_EXPERIMENT or SYSTEM_HP_SHARE_ACT_BOSS
-				slot2 = uv3.contextData.exStageID
+				slot4 = uv3.contextData.useOilLimit[4]
+
+				if not uv3.contextData.activity:IsOilLimit(uv3.contextData.exStageID) then
+					slot4 = {
+						0,
+						0
+					}
+				end
 
 				uv0[uv1 + 10]:RemoveUnusedItems()
 
@@ -277,6 +292,7 @@ function slot0.BindEvent(slot0)
 						stageId = slot2,
 						actId = uv4.id,
 						fleets = slot3,
+						costLimit = slot4,
 						OnConfirm = function (slot0)
 							if not uv0.contextData.activity:checkBattleTimeInBossAct() then
 								pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
@@ -495,16 +511,10 @@ function slot0.UpdateRankData(slot0, slot1)
 end
 
 function slot0.UpdateActivityData(slot0, slot1)
-	slot0.contextData.bossHP = slot1.data1
-	slot0.contextData.mileStones = slot1.data1_list
-	slot0.contextData.stageTickets = {}
-	slot2 = slot0.contextData.stageTickets
-
-	for slot6, slot7 in pairs(slot1.data1KeyValueList) do
-		for slot11, slot12 in pairs(slot7) do
-			slot2[slot11] = (slot2[slot11] or 0) + slot12
-		end
-	end
+	slot0.contextData.activity = slot1
+	slot0.contextData.bossHP = slot1:GetBossHP()
+	slot0.contextData.mileStones = slot1:GetMileStones()
+	slot0.contextData.stageTickets = slot1:GetTickets()
 end
 
 function slot0.getDockCallbackFuncs4ActicityFleet(slot0, slot1, slot2)

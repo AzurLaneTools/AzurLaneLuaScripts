@@ -29377,6 +29377,477 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 			30
 		}
 	},
+	[25701] = {
+		use_gold = 400,
+		name = "Hull Improvement Ⅰ",
+		star_limit = 2,
+		id = 25701,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 1,
+		descrip = "",
+		icon = "hp_1",
+		skill_id = 0,
+		condition_id = {},
+		effect = {
+			{
+				durability = 70
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[25702] = {
+		use_gold = 600,
+		name = "Reload Enhancement Ⅰ",
+		star_limit = 2,
+		id = 25702,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 5,
+		descrip = "",
+		icon = "rl_1",
+		skill_id = 0,
+		condition_id = {
+			25701
+		},
+		effect = {
+			{
+				reload = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[25703] = {
+		use_gold = 800,
+		name = "Main Gun Improvement Ⅰ",
+		star_limit = 3,
+		id = 25703,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 20,
+		descrip = "",
+		icon = "mgup_1",
+		skill_id = 0,
+		condition_id = {
+			25701
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05,
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[25704] = {
+		use_gold = 1000,
+		name = "Firepower Enhancement Ⅰ",
+		star_limit = 3,
+		id = 25704,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 25,
+		descrip = "",
+		icon = "cn_1",
+		skill_id = 0,
+		condition_id = {
+			25703
+		},
+		effect = {
+			{
+				cannon = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18011,
+					5
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[25705] = {
+		use_gold = 1200,
+		name = "Anti-Air Gun Improvement Ⅰ",
+		star_limit = 4,
+		id = 25705,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 35,
+		descrip = "",
+		icon = "aaup_1",
+		skill_id = 0,
+		condition_id = {
+			25703
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[25706] = {
+		use_gold = 1500,
+		name = "Anti-Air Enhancement Ⅰ",
+		star_limit = 4,
+		id = 25706,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 40,
+		descrip = "",
+		icon = "aa_1",
+		skill_id = 0,
+		condition_id = {
+			25702,
+			25705
+		},
+		effect = {
+			{
+				antiaircraft = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[25707] = {
+		use_gold = 1800,
+		name = "Hull Improvement Ⅱ",
+		star_limit = 4,
+		id = 25707,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 50,
+		descrip = "",
+		icon = "hp_2",
+		skill_id = 0,
+		condition_id = {
+			25705
+		},
+		effect = {
+			{
+				durability = 70
+			},
+			{
+				durability = 100
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			},
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[25708] = {
+		use_gold = 2000,
+		name = "Evasion Enhancement Ⅱ",
+		star_limit = 4,
+		id = 25708,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 55,
+		descrip = "",
+		icon = "dd_2",
+		skill_id = 0,
+		condition_id = {
+			25707
+		},
+		effect = {
+			{
+				dodge = 5
+			},
+			{
+				dodge = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			},
+			{
+				{
+					18012,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[25709] = {
+		use_gold = 2500,
+		name = "Main Gun Improvement Ⅱ",
+		star_limit = 5,
+		id = 25709,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 70,
+		descrip = "",
+		icon = "mgup_2",
+		skill_id = 0,
+		condition_id = {
+			25707
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05,
+				equipment_proficiency_2 = 0.05
+			},
+			{
+				equipment_proficiency_1 = 0.05,
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					1
+				}
+			},
+			{
+				{
+					18013,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[25710] = {
+		use_gold = 3000,
+		name = "Firepower Enhancement Ⅱ",
+		star_limit = 5,
+		id = 25710,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 75,
+		descrip = "",
+		icon = "cn_2",
+		skill_id = 0,
+		condition_id = {
+			25704,
+			25709
+		},
+		effect = {
+			{
+				cannon = 5
+			},
+			{
+				cannon = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					1
+				},
+				{
+					17013,
+					15
+				}
+			},
+			{
+				{
+					18013,
+					2
+				},
+				{
+					17013,
+					35
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[25711] = {
+		use_gold = 4000,
+		name = "Modernization",
+		star_limit = 5,
+		id = 25711,
+		max_level = 1,
+		skin_id = 502019,
+		use_ship = 1,
+		level_limit = 85,
+		descrip = "近代化改造完成，炮击+25，防空+20\n改造后技能【东煌之绊】升级为【东煌之绊.改】",
+		icon = "mt_red",
+		skill_id = 0,
+		condition_id = {
+			25709,
+			25710
+		},
+		effect = {
+			{
+				cannon = 25,
+				antiaircraft = 20
+			}
+		},
+		ship_id = {
+			{
+				502014,
+				502114
+			}
+		},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					4
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
+	[25712] = {
+		use_gold = 3000,
+		name = "Tactical Learning",
+		star_limit = 5,
+		id = 25712,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 90,
+		descrip = "习得技能【寒夜语梅】",
+		icon = "skill_red",
+		skill_id = 16440,
+		condition_id = {
+			25708,
+			25711
+		},
+		effect = {
+			{
+				skill_id = 16440
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					2
+				},
+				{
+					17003,
+					50
+				}
+			}
+		},
+		gear_score = {
+			30
+		}
+	},
 	[25801] = {
 		use_gold = 400,
 		name = "Hull Improvement Ⅰ",
@@ -39108,6 +39579,18 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		25511,
 		25512,
 		25513,
+		25701,
+		25702,
+		25703,
+		25704,
+		25705,
+		25706,
+		25707,
+		25708,
+		25709,
+		25710,
+		25711,
+		25712,
 		25801,
 		25802,
 		25803,

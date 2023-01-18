@@ -6474,6 +6474,61 @@ Prototype Saiun Kai T0 Design]],
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[14005] = {
+	display = [[
+使用后可从超稀有科研装备(V期)的设计图中任意选择一张
+兑换列表如下：
+「试作型四联装330mm主炮Mle1931（超巡用）T0设计图」
+「试作舰载型Su-2T0设计图」
+「试作型VIT-2（VK107）T0设计图」
+「试作型四联装30mm机炮T0设计图」
+「试作型双联装130mm主炮Model1936T0设计图」
+]],
+	name = "Prototype Weapon Blueprint - Series 5",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 14005,
+	is_world = 0,
+	icon = "Props/14005",
+	display_icon = {
+		{
+			2,
+			13032,
+			1
+		},
+		{
+			2,
+			13033,
+			1
+		},
+		{
+			2,
+			13034,
+			1
+		},
+		{
+			2,
+			13035,
+			1
+		},
+		{
+			2,
+			13036,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[15001] = {
 	display = "A Medal of Honor granted after retiring a ship. Use to apply for rare ships.",
 	name = "Medal of Honor",
@@ -8637,6 +8692,30 @@ _G.pg.base.item_data_statistics[20103] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[20104] = {
+	display = "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 3 Combat Data Collection missions.<color=#ff5c5c>(Can be converted into Prototype Cores).</color>",
+	name = "Combat Data Pack - Series 4",
+	max_num = 0,
+	type = 18,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 20104,
+	is_world = 0,
+	icon = "Props/20104",
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21001] = {
 	display = "An item that increases the potential of Hiryuu META. Used in the META Lab during Somatic Activation.",
 	name = "META Crystal - Hiryuu ",
@@ -8988,6 +9067,27 @@ _G.pg.base.item_data_statistics[21017] = {
 	id = 21017,
 	is_world = 0,
 	icon = "Props/21017",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21018] = {
+	display = "An item that increases the potential of Sheffield META. Used in the META Lab during Somatic Activation.",
+	name = "META Crystal – Sheffield",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21018,
+	is_world = 0,
+	icon = "Props/21018",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -15004,6 +15104,121 @@ _G.pg.base.item_data_statistics[30342] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30343] = {
+	display = "Contains a random gear skin.",
+	name = "Gear Skin Box (Empery Gourmet)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30343,
+	is_world = 0,
+	icon = "Props/appearanceboxtunianchunjie",
+	display_icon = {
+		{
+			9,
+			710,
+			1
+		},
+		{
+			9,
+			711,
+			1
+		},
+		{
+			9,
+			712,
+			1
+		},
+		{
+			9,
+			713,
+			1
+		},
+		{
+			9,
+			714,
+			1
+		},
+		{
+			9,
+			715,
+			1
+		},
+		{
+			9,
+			716,
+			1
+		},
+		{
+			9,
+			717,
+			1
+		},
+		{
+			9,
+			718,
+			1
+		},
+		{
+			9,
+			719,
+			1
+		},
+		{
+			9,
+			720,
+			1
+		},
+		{
+			9,
+			721,
+			1
+		},
+		{
+			9,
+			722,
+			1
+		},
+		{
+			9,
+			723,
+			1
+		},
+		{
+			9,
+			724,
+			1
+		},
+		{
+			9,
+			725,
+			1
+		},
+		{
+			9,
+			726,
+			1
+		},
+		{
+			9,
+			727,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	display = "Contains 1 random Cruise Mission gear skin.",
 	name = "Random Gear Skin Box",
@@ -15379,6 +15594,48 @@ _G.pg.base.item_data_statistics[30409] = {
 		{
 			9,
 			2028,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30410] = {
+	display = "Contains 1 random Cruise Mission gear skin.",
+	name = "Random Gear Skin Box",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30410,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	display_icon = {
+		{
+			9,
+			2029,
+			1
+		},
+		{
+			9,
+			2030,
+			1
+		},
+		{
+			9,
+			2031,
+			1
+		},
+		{
+			9,
+			2032,
 			1
 		}
 	},
@@ -17131,6 +17388,230 @@ _G.pg.base.item_data_statistics[30516] = {
 		{
 			9,
 			707,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30517] = {
+	display = "Can be opened to receive 1 Empery Gourmet gear skin of your choosing.",
+	name = "Selection Gear Skin Box (Empery Gourmet)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30517,
+	is_world = 0,
+	icon = "Props/appearanceboxtunianchunjiezixuan",
+	display_icon = {
+		{
+			9,
+			710,
+			1
+		},
+		{
+			9,
+			711,
+			1
+		},
+		{
+			9,
+			712,
+			1
+		},
+		{
+			9,
+			713,
+			1
+		},
+		{
+			9,
+			714,
+			1
+		},
+		{
+			9,
+			715,
+			1
+		},
+		{
+			9,
+			716,
+			1
+		},
+		{
+			9,
+			717,
+			1
+		},
+		{
+			9,
+			718,
+			1
+		},
+		{
+			9,
+			719,
+			1
+		},
+		{
+			9,
+			720,
+			1
+		},
+		{
+			9,
+			721,
+			1
+		},
+		{
+			9,
+			722,
+			1
+		},
+		{
+			9,
+			723,
+			1
+		},
+		{
+			9,
+			724,
+			1
+		},
+		{
+			9,
+			725,
+			1
+		},
+		{
+			9,
+			726,
+			1
+		},
+		{
+			9,
+			727,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30518] = {
+	display = "使用后可从「鸢尾风格」主题外观装备中任意选择一种获得1个",
+	name = "定向外观装备箱(鸢尾)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30518,
+	is_world = 0,
+	icon = "Props/appearanceboxfaxizixuan",
+	display_icon = {
+		{
+			9,
+			260,
+			1
+		},
+		{
+			9,
+			261,
+			1
+		},
+		{
+			9,
+			262,
+			1
+		},
+		{
+			9,
+			263,
+			1
+		},
+		{
+			9,
+			264,
+			1
+		},
+		{
+			9,
+			265,
+			1
+		},
+		{
+			9,
+			266,
+			1
+		},
+		{
+			9,
+			267,
+			1
+		},
+		{
+			9,
+			268,
+			1
+		},
+		{
+			9,
+			269,
+			1
+		},
+		{
+			9,
+			270,
+			1
+		},
+		{
+			9,
+			271,
+			1
+		},
+		{
+			9,
+			272,
+			1
+		},
+		{
+			9,
+			273,
+			1
+		},
+		{
+			9,
+			274,
+			1
+		},
+		{
+			9,
+			275,
+			1
+		},
+		{
+			9,
+			276,
+			1
+		},
+		{
+			9,
+			277,
 			1
 		}
 	},
@@ -21160,6 +21641,120 @@ _G.pg.base.item_data_statistics[40923] = {
 		{
 			2,
 			69923,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40924] = {
+	display = "Contains 1x random swimsuit skin (Winter 2022), 2x Special General Blueprints - Series 5, 2023x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	name = "Spring Lucky Bag 2023 A",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40924,
+	is_world = 0,
+	icon = "Props/fudaiqp1",
+	display_icon = {
+		{
+			2,
+			69924,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40925] = {
+	display = "Contains 1x random swimsuit skin (Winter 2022), 2x Special General Blueprints - Series 5, 2023x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	name = "Spring Lucky Bag 2023 B",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40925,
+	is_world = 0,
+	icon = "Props/fudaiqp2",
+	display_icon = {
+		{
+			2,
+			69925,
 			1
 		},
 		{
@@ -172788,6 +173383,147 @@ _G.pg.base.item_data_statistics[58793] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[58794] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58794,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			2,
+			1
+		},
+		{
+			2,
+			3,
+			1
+		},
+		{
+			2,
+			70,
+			1
+		},
+		{
+			2,
+			10113,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58795] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58795,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		},
+		{
+			2,
+			10114,
+			1
+		},
+		{
+			2,
+			10113,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58796] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58796,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		},
+		{
+			2,
+			10114,
+			1
+		},
+		{
+			2,
+			10113,
+			1
+		},
+		{
+			2,
+			11043,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "EXP is required to level up",
 	name = "Ship EXP",
@@ -176736,6 +177472,48 @@ _G.pg.base.item_data_statistics[59297] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59298] = {
+	display = "A currency earned from completing Cruise Missions during the seasonal campaign (2/1/2023 – 3/31/2023), used to obtain milestone rewards. Will disappear after the campaign season ends.",
+	name = "Progress Point",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59298,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59299] = {
+	display = "",
+	name = "通行证九期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 21,
+	link_id = 7009,
+	id = 59299,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59305] = {
 	display = "Used to exchange for a portrait frame. Expires after the event ends.  ",
 	name = "Training Points ",
@@ -178057,6 +178835,153 @@ _G.pg.base.item_data_statistics[59379] = {
 	id = 59379,
 	is_world = 0,
 	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59380] = {
+	display = "Earned by participating in the \"Winter Pathfinder\" event. Earning a certain amount will allow you to claim Individual Rewards.",
+	name = "Contribution Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59380,
+	is_world = 0,
+	icon = "Props/kuybyshev_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59381] = {
+	display = "A ticket used to access the EX stage in the \"Winter Pathfinder\" event. Can also be used to gain more Reward Sorties.",
+	name = "Bonus Ticket",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59381,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59389] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period ends.",
+	name = "Rental Outfit Voucher",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59389,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59390] = {
+	display = "用于「新岁祝福·癸卯」活动兑换，活动结束后将会消失",
+	name = "Empery Knot",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59390,
+	is_world = 0,
+	icon = "Props/donghuangjie",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59391] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Festive Shooting Star",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59391,
+	is_world = 0,
+	icon = "Props/feicaizhixing_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59392] = {
+	display = "Used to reveal tiles in the World Within the Painting. Will disappear after the event period ends.",
+	name = "Exploration Points ",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 15,
+	link_id = 4667,
+	id = 59392,
+	is_world = 0,
+	icon = "Props/youlidianshu",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59393] = {
+	display = "Used to unlock bonus rewards in the World Within the Painting. Will disappear after the event period ends.",
+	name = "Landmark Points",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 15,
+	link_id = 4667,
+	id = 59393,
+	is_world = 0,
+	icon = "Props/huizhidianshu",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182542,6 +183467,27 @@ _G.pg.base.item_data_statistics[60023] = {
 	virtual_type = 11,
 	link_id = 4218,
 	id = 60023,
+	is_world = 0,
+	icon = "props/red_packet2",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60024] = {
+	display = "An item received through the Manjuu Resort. Can be opened. ",
+	name = "Red Envelope ",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 11,
+	link_id = 4665,
+	id = 60024,
 	is_world = 0,
 	icon = "props/red_packet2",
 	display_icon = {},
@@ -187582,6 +188528,342 @@ _G.pg.base.item_data_statistics[60284] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[60290] = {
+	display = "A card with a handwritten seasonal greeting. Can be used to receive a shipgirl of your choice and a commemorative item.",
+	name = "Spring Festival Invitation (2023)",
+	max_num = 0,
+	type = 21,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 60290,
+	is_world = 0,
+	icon = "Props/henianka2023",
+	price = "",
+	display_icon = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60291] = {
+	display = "A card from Taihou. It reads: \"My Commander, what song shall I play to you for the evening entertainment?\"",
+	name = "Spring Festival Tidings (Taihou)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 60291,
+	is_world = 0,
+	icon = "Props/henianka2023",
+	price = "",
+	display_icon = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60292] = {
+	display = "A card from U-110. It reads: \"It's the year of the shaaark. Raaawr.\"",
+	name = "Spring Festival Tidings (U-110)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 60292,
+	is_world = 0,
+	icon = "Props/henianka2023",
+	price = "",
+	display_icon = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60293] = {
+	display = "A card from Alabama. It reads: \"Those baozi are damn good. Let's sit down sometime and eat 'em together.\"",
+	name = "Spring Festival Tidings (Alabama)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 60293,
+	is_world = 0,
+	icon = "Props/henianka2023",
+	price = "",
+	display_icon = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60294] = {
+	display = "A card from Chao Ho. It reads: \"Happy Lunar New Year, Commander. P.S., I'm the big sister!\"",
+	name = "Spring Festival Tidings (Chao Ho)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 60294,
+	is_world = 0,
+	icon = "Props/henianka2023",
+	price = "",
+	display_icon = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60295] = {
+	display = "A card from Ying Swei. It reads: \"Happy Lunar New Year, Commander. P.S., I'm the big sister.\"",
+	name = "Spring Festival Tidings (Ying Swei)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 60295,
+	is_world = 0,
+	icon = "Props/henianka2023",
+	price = "",
+	display_icon = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60296] = {
+	display = "A card from Chang Chun. It reads: \"Yeah, I've got missiles, but all I wanna fire right now are fireworks!\"",
+	name = "Spring Festival Tidings (Chang Chun)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 60296,
+	is_world = 0,
+	icon = "Props/henianka2023",
+	price = "",
+	display_icon = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60297] = {
+	display = "A card from Tai Yuan. It reads: \"Happy Lunar New Year. We'd better keep an eye on Fu Shun until the holiday is over.\"",
+	name = "Spring Festival Tidings (Tai Yuan)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 60297,
+	is_world = 0,
+	icon = "Props/henianka2023",
+	price = "",
+	display_icon = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60298] = {
+	display = "A card from Yat Sen. It reads: \"It's always a pleasure to have you at our gatherings, Commander. You're welcome to join us again this year.\"",
+	name = "Spring Festival Tidings (Yat Sen)",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 60298,
+	is_world = 0,
+	icon = "Props/henianka2023",
+	price = "",
+	display_icon = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60299] = {
+	display = "Pigment A used during Akashi's Fanbook event. Disappears after event has ended.",
+	name = "Pigment A",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4661,
+	id = 60299,
+	is_world = 0,
+	icon = "props/draw_a",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60300] = {
+	display = "Pigment B used during Akashi's Fanbook event. Disappears after event has ended.",
+	name = "Pigment B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4661,
+	id = 60300,
+	is_world = 0,
+	icon = "props/draw_b",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60301] = {
+	display = "Pigment C used during Akashi's Fanbook event. Disappears after event has ended.",
+	name = "Pigment C",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4661,
+	id = 60301,
+	is_world = 0,
+	icon = "props/draw_c",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60302] = {
+	display = "Pigment D used during Akashi's Fanbook event. Disappears after event has ended.",
+	name = "Pigment D",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4661,
+	id = 60302,
+	is_world = 0,
+	icon = "props/draw_d",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60303] = {
+	display = "Pigment E used during Akashi's Fanbook event. Disappears after event has ended.",
+	name = "Pigment E",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4661,
+	id = 60303,
+	is_world = 0,
+	icon = "props/draw_e",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60304] = {
+	display = "Pigment F used during Akashi's Fanbook event. Disappears after event has ended.",
+	name = "Pigment F",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4661,
+	id = 60304,
+	is_world = 0,
+	icon = "props/draw_f",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60305] = {
+	display = "Pigment G used during Akashi's Fanbook event. Disappears after event has ended.",
+	name = "Pigment G",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 4,
+	link_id = 4661,
+	id = 60305,
+	is_world = 0,
+	icon = "props/draw_g",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[69000] = {
 	display = "Damage Rating from Guild battles and is also counted for Guild boss damage total",
 	name = "Damage Rating ",
@@ -188302,6 +189584,69 @@ The available outfits and their rarities are as follows:
 	virtual_type = 0,
 	link_id = 0,
 	id = 69923,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[69924] = {
+	display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>12.0%</color>）应瑞换装 松戏梅·其上（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.0%</color>）肇和换装 松戏梅·其下（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.0%</color>）华甲换装 欢乐喜庆僵尸夜；
+（<color=#92fc63>12.0%</color>）逸仙换装  膏发凝脂；
+（<color=#92fc63>14.0%</color>）古比雪夫换装 银弦的向导兵；
+（<color=#92fc63>13.6%</color>）忒修斯换装 白羽报春；
+（<color=#92fc63>12.4%</color>）长春换装 “红”运当头；
+（<color=#92fc63>12.0%</color>）定安换装 红红火火度勤春；
+]],
+	name = "Random Skin",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 69924,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[69925] = {
+	display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>12.0%</color>）鲁普雷希特亲王换装 腾龙戏春？（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.0%</color>）埃吉尔换装 金龙腾祥云（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>16.1%</color>）U-47换装 锦鲤捕获作战；
+（<color=#92fc63>15.8%</color>）吕佐夫换装 请趁热享用?；
+（<color=#92fc63>15.8%</color>）阿拉巴马换装 金锱银铢；
+（<color=#92fc63>14.3%</color>）U-110换装 雪地小鲨鱼；
+（<color=#92fc63>14.0%</color>）不屈换装 寒冬全力配送中！；
+]],
+	name = "Random Skin",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 69925,
 	is_world = 0,
 	icon = "Props/clothIcon",
 	display_icon = {},
@@ -191223,6 +192568,447 @@ _G.pg.base.item_data_statistics[70104] = {
 	id = 70104,
 	is_world = 0,
 	icon = "Props/gridsireninfo",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70105] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 1",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 25,
+	link_id = 4671,
+	id = 70105,
+	is_world = 0,
+	icon = "Props/yanhua_1",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70106] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 2",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 25,
+	link_id = 4671,
+	id = 70106,
+	is_world = 0,
+	icon = "Props/yanhua_2",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70107] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 3",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 25,
+	link_id = 4671,
+	id = 70107,
+	is_world = 0,
+	icon = "Props/yanhua_3",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70108] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 4",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 25,
+	link_id = 4671,
+	id = 70108,
+	is_world = 0,
+	icon = "Props/yanhua_4",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70109] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 5",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 25,
+	link_id = 4671,
+	id = 70109,
+	is_world = 0,
+	icon = "Props/yanhua_5",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70110] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 6",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 25,
+	link_id = 4671,
+	id = 70110,
+	is_world = 0,
+	icon = "Props/yanhua_6",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70111] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 7",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 25,
+	link_id = 4671,
+	id = 70111,
+	is_world = 0,
+	icon = "Props/yanhua_7",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70112] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 8",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 25,
+	link_id = 4671,
+	id = 70112,
+	is_world = 0,
+	icon = "Props/yanhua_8",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70113] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 9",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 25,
+	link_id = 4671,
+	id = 70113,
+	is_world = 0,
+	icon = "Props/yanhua_9",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70114] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 10",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 25,
+	link_id = 4671,
+	id = 70114,
+	is_world = 0,
+	icon = "Props/yanhua_10",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70115] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 11",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 25,
+	link_id = 4671,
+	id = 70115,
+	is_world = 0,
+	icon = "Props/yanhua_11",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70116] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 12",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 25,
+	link_id = 4671,
+	id = 70116,
+	is_world = 0,
+	icon = "Props/yanhua_12",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70117] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 13",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 25,
+	link_id = 4671,
+	id = 70117,
+	is_world = 0,
+	icon = "Props/yanhua_13",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70118] = {
+	display = "Spring Blossoms in the Sky event item. Will be removed when the event ends.",
+	name = "Spring Festival Firework 14",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 25,
+	link_id = 4671,
+	id = 70118,
+	is_world = 0,
+	icon = "Props/yanhua_14",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70119] = {
+	display = "Songs of Spring event item. Will be removed when the event ends.",
+	name = "Spring Couplet 1",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4669,
+	id = 70119,
+	is_world = 0,
+	icon = "Props/yanhua_1",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70120] = {
+	display = "Songs of Spring event item. Will be removed when the event ends.",
+	name = "Spring Couplet 2",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4669,
+	id = 70120,
+	is_world = 0,
+	icon = "Props/yanhua_1",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70121] = {
+	display = "Songs of Spring event item. Will be removed when the event ends.",
+	name = "Spring Couplet 3",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4669,
+	id = 70121,
+	is_world = 0,
+	icon = "Props/yanhua_1",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70122] = {
+	display = "Songs of Spring event item. Will be removed when the event ends.",
+	name = "Spring Couplet 4",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4669,
+	id = 70122,
+	is_world = 0,
+	icon = "Props/yanhua_1",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70123] = {
+	display = "Songs of Spring event item. Will be removed when the event ends.",
+	name = "Spring Couplet 5",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4669,
+	id = 70123,
+	is_world = 0,
+	icon = "Props/yanhua_1",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70124] = {
+	display = "Songs of Spring event item. Will be removed when the event ends.",
+	name = "Spring Couplet 6",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4669,
+	id = 70124,
+	is_world = 0,
+	icon = "Props/yanhua_1",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[70125] = {
+	display = "Songs of Spring event item. Will be removed when the event ends.",
+	name = "Spring Couplet 7",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4669,
+	id = 70125,
+	is_world = 0,
+	icon = "Props/yanhua_1",
 	display_icon = {},
 	price = {},
 	index = {},

@@ -7,44 +7,49 @@ function slot0.Entrance(slot0, slot1)
 		return
 	end
 
-	slot2 = slot0.actId
-	slot3 = getProxy(PlayerProxy)
-	slot4 = getProxy(BayProxy)
-	slot5 = getProxy(FleetProxy)
-	slot7 = pg.battle_cost_template[SYSTEM_HP_SHARE_ACT_BOSS].oil_cost > 0
-	slot8 = {}
-	slot9 = 0
-	slot10 = 0
-	slot11 = 0
+	slot5 = pg.activity_event_worldboss[getProxy(ActivityProxy):getActivityById(slot0.actId):getConfig("config_id")]
+	slot6 = getProxy(PlayerProxy)
+	slot7 = getProxy(BayProxy)
+	slot8 = getProxy(FleetProxy)
+	slot10 = pg.battle_cost_template[SYSTEM_HP_SHARE_ACT_BOSS].oil_cost > 0
+	slot11 = {}
 	slot12 = 0
+	slot13 = 0
+	slot14 = 0
+	slot15 = 0
+	slot16 = slot0.stageId
 
-	for slot18, slot19 in ipairs(slot4:getSortShipsByFleet(slot5:getActivityFleets()[slot2][slot0.mainFleetId])) do
-		slot8[#slot8 + 1] = slot19.id
+	for slot23, slot24 in ipairs(slot7:getSortShipsByFleet(slot8:getActivityFleets()[slot2][slot0.mainFleetId])) do
+		slot11[#slot11 + 1] = slot24.id
 	end
 
-	slot10 = slot13:getStartCost().oil
-	slot12 = slot13:GetCostSum().oil
-	slot17 = slot3:getData()
+	slot13 = slot18:getStartCost().oil
+	slot15 = slot18:GetCostSum().oil
+	slot22 = slot5.use_oil_limit[slot17]
 
-	if slot3:getRawData():getResource(pg.activity_event_worldboss[pg.activity_template[slot2].config_id].ticket) <= 0 then
+	if slot3:IsOilLimit(slot16) and slot22[1] > 0 then
+		slot15 = math.min(slot15, slot22[1])
+	end
+
+	slot24 = slot6:getData()
+
+	if slot6:getRawData():getResource(pg.activity_event_worldboss[pg.activity_template[slot2].config_id].ticket) <= 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noTicket"))
 
 		return
 	end
 
-	if slot7 and slot17.oil < slot12 then
+	if slot10 and slot24.oil < slot15 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
 	end
 
-	slot20 = slot0.mainFleetId
-	slot21 = slot0.stageId
-	slot23 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot21].dungeon_id).fleet_prefab
+	slot28 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot16].dungeon_id).fleet_prefab
 
 	slot1.ShipVertify()
-	BeginStageCommand.SendRequest(SYSTEM_HP_SHARE_ACT_BOSS, slot8, {
-		slot21
+	BeginStageCommand.SendRequest(SYSTEM_HP_SHARE_ACT_BOSS, slot11, {
+		slot16
 	}, function (slot0)
 		if uv0 then
 			uv1:consume({
@@ -84,52 +89,72 @@ end
 
 function slot0.Exit(slot0, slot1)
 	slot2 = pg.battle_cost_template[SYSTEM_HP_SHARE_ACT_BOSS]
+	slot3 = getProxy(FleetProxy)
 	slot4 = getProxy(BayProxy)
-	slot7 = getProxy(FleetProxy):getActivityFleets()[slot0.actId][slot0.mainFleetId]
-	slot8 = 0
-	slot9 = {}
-	slot8 = slot7:getEndCost().oil
-	slot11 = {}
+	slot0.statistics._battleScore = ys.Battle.BattleConst.BattleScore.S
+	slot6 = getProxy(ActivityProxy)
+	slot6 = slot6:getActivityById(slot0.actId)
+	slot9 = pg.activity_event_worldboss[slot6:getConfig("config_id")].use_oil_limit[slot0.mainFleetId]
+	slot10 = slot6:IsOilLimit(slot0.stageId)
+	slot14 = 0
+	slot15 = {}
+	slot16 = {}
 
-	for slot15, slot16 in pairs(slot7.commanderIds) do
-		table.insert(slot11, slot16)
+	(function (slot0)
+		slot1 = slot0:getStartCost()
+		slot3 = slot0:getEndCost().oil
+
+		if uv0 and uv1[1] > 0 then
+			slot3 = math.clamp(uv1[1] - slot1.oil, 0, slot2.oil)
+		end
+
+		for slot7, slot8 in pairs(slot0.commanderIds) do
+			table.insert(uv2, slot8)
+		end
+
+		uv3 = uv4:getSortShipsByFleet(slot0)
+		uv5 = uv5 + slot3
+	end)(slot3:getActivityFleets()[slot0.actId][slot0.mainFleetId])
+
+	function slot18(slot0)
+		slot1 = slot0:getStartCost()
+		slot3 = slot0:getEndCost().oil
+
+		if uv0 and uv1[2] > 0 then
+			slot3 = math.clamp(uv1[2] - slot1.oil, 0, slot2.oil)
+		end
+
+		for slot7, slot8 in pairs(slot0.commanderIds) do
+			table.insert(uv2, slot8)
+		end
+
+		table.insertto(uv4, uv3:getShipsByFleet(slot0))
+
+		uv5 = uv5 + slot3
 	end
 
-	slot9 = slot4:getSortShipsByFleet(slot7)
-
 	if slot0.statistics.submarineAid then
-		if slot6[slot0.mainFleetId + 10] then
-			for slot17, slot18 in ipairs(slot4:getShipsByFleet(slot12)) do
-				if slot0.statistics[slot18.id] then
-					table.insert(slot9, slot18)
-
-					slot8 = slot8 + slot18:getEndBattleExpend()
-				end
-			end
-
-			for slot17, slot18 in pairs(slot12.commanderIds) do
-				table.insert(slot11, slot18)
-			end
+		if slot12[slot0.mainFleetId + 10] then
+			slot18(slot19)
 		else
 			originalPrint("finish stage error: can not find submarin fleet.")
 		end
 	end
 
-	slot0.statistics._battleScore = ys.Battle.BattleConst.BattleScore.S
-	slot1.GeneralPackage(slot0, slot9).commander_id_list = slot11
-	slot14 = {}
+	slot1.GeneralPackage(slot0, slot15).commander_id_list = slot16
+	slot20 = {}
 
-	for slot18, slot19 in ipairs(slot0.statistics._enemyInfoList) do
-		table.insert(slot14, {
-			enemy_id = slot19.id,
-			damage_taken = slot19.damage,
-			total_hp = slot19.totalHp
+	for slot24, slot25 in ipairs(slot0.statistics._enemyInfoList) do
+		table.insert(slot20, {
+			enemy_id = slot25.id,
+			damage_taken = slot25.damage,
+			total_hp = slot25.totalHp
 		})
 	end
 
-	slot13.enemy_info = slot14
+	slot19.enemy_info = slot20
 
-	slot1:SendRequest(slot13, function (slot0)
+	slot1:SendRequest(slot19, function (slot0)
 		if uv0.end_sink_cost > 0 then
 			uv1.DeadShipEnergyCosume(uv2, uv3)
 		end
@@ -140,6 +165,8 @@ function slot0.Exit(slot0, slot1)
 		slot1, slot2 = uv1:GeneralLoot(slot0)
 
 		uv1.GeneralPlayerCosume(SYSTEM_HP_SHARE_ACT_BOSS, ys.Battle.BattleConst.BattleScore.C < uv4, uv6, slot0.player_exp)
+		uv7:AddStage(uv2.stageId)
+		getProxy(ActivityProxy):updateActivity(uv7)
 		uv1:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = SYSTEM_HP_SHARE_ACT_BOSS,
 			statistics = uv2.statistics,
