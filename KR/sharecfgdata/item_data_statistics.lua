@@ -188744,7 +188744,7 @@ _G.pg.base.item_data_statistics[60298] = {
 }
 
 _G.pg.base.item_data_statistics[60299] = {
-	display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	display = "물감 A, 그림 일기 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 A",
 	max_num = 0,
 	type = 0,
@@ -188765,7 +188765,7 @@ _G.pg.base.item_data_statistics[60299] = {
 }
 
 _G.pg.base.item_data_statistics[60300] = {
-	display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	display = "물감 B, 그림 일기 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 B",
 	max_num = 0,
 	type = 0,
@@ -188786,7 +188786,7 @@ _G.pg.base.item_data_statistics[60300] = {
 }
 
 _G.pg.base.item_data_statistics[60301] = {
-	display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	display = "물감 C, 그림 일기 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 C",
 	max_num = 0,
 	type = 0,
@@ -188807,7 +188807,7 @@ _G.pg.base.item_data_statistics[60301] = {
 }
 
 _G.pg.base.item_data_statistics[60302] = {
-	display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	display = "물감 D, 그림 일기 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 D",
 	max_num = 0,
 	type = 0,
@@ -188828,7 +188828,7 @@ _G.pg.base.item_data_statistics[60302] = {
 }
 
 _G.pg.base.item_data_statistics[60303] = {
-	display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	display = "물감 E, 그림 일기 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 E",
 	max_num = 0,
 	type = 0,
@@ -188849,7 +188849,7 @@ _G.pg.base.item_data_statistics[60303] = {
 }
 
 _G.pg.base.item_data_statistics[60304] = {
-	display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	display = "물감 F, 그림 일기 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 F",
 	max_num = 0,
 	type = 0,
@@ -188870,7 +188870,7 @@ _G.pg.base.item_data_statistics[60304] = {
 }
 
 _G.pg.base.item_data_statistics[60305] = {
-	display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+	display = "물감 G, 그림 일기 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
 	name = "물감 G",
 	max_num = 0,
 	type = 0,

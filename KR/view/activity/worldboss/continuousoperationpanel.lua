@@ -5,15 +5,19 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	slot0.btnOn = slot0._tf:Find("On")
-	slot0.btnOff = slot0._tf:Find("Off")
-	slot0.slider = slot0._tf:Find("Slider")
+	slot0.btnOn = slot0._tf:Find("Panel/On")
+	slot0.btnOff = slot0._tf:Find("Panel/Off")
+	slot0.slider = slot0._tf:Find("Panel/Slider")
 	slot0._ratioFitter = GetComponent(slot0._tf, typeof(AspectRatioFitter))
 
 	setText(slot0.btnOff:Find("common/Text"), i18n("multiple_sorties_stopped"))
 end
 
 function slot0.UpdateAutoFightMark(slot0)
+	slot1 = slot0.contextData.autoFlag
+
+	setActive(slot0.btnOn, slot1)
+	setActive(slot0.btnOff, not slot1)
 end
 
 function slot0.didEnter(slot0)
@@ -36,6 +40,7 @@ function slot0.didEnter(slot0)
 
 	slot0._ratioFitter.aspectRatio = pg.CameraFixMgr.GetInstance():GetBattleUIRatio()
 
+	slot0:UpdateAutoFightMark()
 	slot0:UpdateBattleTimes()
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		groupName = LayerWeightConst.GROUP_COMBAT

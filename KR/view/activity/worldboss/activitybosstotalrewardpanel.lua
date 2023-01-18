@@ -19,6 +19,15 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
+	if ContinuousOperationMediator.isActiveSub ~= nil then
+		pg.m02:sendNotification(GAME.AUTO_SUB, {
+			isActiveSub = not ContinuousOperationMediator.isActiveSub,
+			system = SYSTEM_ACT_BOSS
+		})
+
+		ContinuousOperationMediator.isActiveSub = nil
+	end
+
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, nil, {
 		lockGlobalBlur = true,
 		weight = LayerWeightConst.SECOND_LAYER
