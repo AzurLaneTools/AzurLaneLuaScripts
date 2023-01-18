@@ -676,8 +676,12 @@ function slot0.getChangeSkillList(slot0)
 	return slot0:getConfig("change_skill")
 end
 
+function slot0.isRarityUR(slot0)
+	return ShipRarity.SSR <= slot0:getShipVO():getRarity()
+end
+
 function slot0.getFateMaxLeftOver(slot0)
-	slot1 = ShipRarity.SSR <= slot0:getShipVO():getRarity() and pg.gameset.fate_sim_ur.key_value or pg.gameset.fate_sim_ssr.key_value
+	slot1 = slot0:isRarityUR() and pg.gameset.fate_sim_ur.key_value or pg.gameset.fate_sim_ssr.key_value
 
 	return slot1 - slot0:getFateUseNum() < 0 and slot1 or slot2
 end

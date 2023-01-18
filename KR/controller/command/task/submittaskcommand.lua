@@ -5,20 +5,26 @@ function slot0.execute(slot0, slot1)
 	slot4 = nil
 	slot5 = {}
 	slot6 = getProxy(TaskProxy)
+	slot7 = true
 
 	if type(slot1:getBody()) == "number" or type(slot2) == "string" then
 		slot4 = slot2
 	elseif type(slot2) == "table" then
-		slot8 = slot6:getTaskById(slot2.taskId)
+		if slot2.normal_submit then
+			slot7 = slot2.virtual ~= nil and slot2.virtual
+			slot4 = slot2.taskId
+		else
+			slot9 = slot6:getTaskById(slot2.taskId)
 
-		assert(slot8:isSelectable())
+			assert(slot9:isSelectable())
 
-		for slot13, slot14 in ipairs(slot8:getConfig("award_choice")[slot2.index]) do
-			table.insert(slot5, {
-				type = slot14[1],
-				id = slot14[2],
-				number = slot14[3]
-			})
+			for slot14, slot15 in ipairs(slot9:getConfig("award_choice")[slot2.index]) do
+				table.insert(slot5, {
+					type = slot15[1],
+					id = slot15[2],
+					number = slot15[3]
+				})
+			end
 		end
 	end
 
@@ -32,7 +38,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if not slot7:isFinish() then
+	if not slot8:isFinish() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("task_submitTask_error_notFinish"))
 
 		if slot3 then
@@ -48,10 +54,10 @@ function slot0.execute(slot0, slot1)
 		slot6:addSubmittingTask(slot4)
 	end
 
-	slot8 = {}
+	slot9 = {}
 
-	if slot7:IsOverflowShipExpItem() and not slot0:InTaskScene() then
-		table.insert(slot8, function (slot0)
+	if slot8:IsOverflowShipExpItem() and not slot0:InTaskScene() then
+		table.insert(slot9, function (slot0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("player_expResource_mail_fullBag"),
 				onYes = slot0,
@@ -66,7 +72,7 @@ function slot0.execute(slot0, slot1)
 		end)
 	end
 
-	seriesAsync(slot8, function ()
+	seriesAsync(slot9, function ()
 		slot0 = pg.ConnectionMgr.GetInstance()
 
 		slot0:Send(20005, {
@@ -110,7 +116,15 @@ function slot0.execute(slot0, slot1)
 					uv0:updateTask(uv2)
 				end
 
-				uv4:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
+				if not uv4 then
+					for slot5 = #slot1, 1, -1 do
+						if slot1[slot5].dropType == DROP_TYPE_VITEM then
+							table.remove(slot1, slot5)
+						end
+					end
+				end
+
+				uv5:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
 					uv2.id
 				})
 
@@ -118,14 +132,14 @@ function slot0.execute(slot0, slot1)
 					slot2:monitorTaskList(slot3)
 				end
 
-				if uv5 then
-					uv5(true)
+				if uv6 then
+					uv6(true)
 				end
 			else
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
 
-				if uv5 then
-					uv5(false)
+				if uv6 then
+					uv6(false)
 				end
 			end
 		end)

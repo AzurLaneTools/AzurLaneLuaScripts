@@ -11,6 +11,8 @@ function slot0.Create(slot0)
 		return ReturnerActivity.New(slot0)
 	elseif slot1.type == ActivityConst.ACTIVITY_TYPE_ATELIER_LINK then
 		return AtelierActivity.New(slot0)
+	elseif slot1.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+		return ActivityBossActivity.New(slot0)
 	else
 		return Activity.New(slot0)
 	end
@@ -259,7 +261,13 @@ function slot0.readyToAchieve(slot0)
 				slot6 = slot8 and slot8:GetStage() == VoteGroup.VOTE_STAGE
 			end
 
-			return slot5 and slot6
+			slot7 = false
+
+			if slot0:getConfig("config_client").fireworkActID and slot8 ~= 0 then
+				slot7 = getProxy(ActivityProxy):getActivityById(slot8) and slot9:readyToAchieve()
+			end
+
+			return slot5 and slot6 or slot7
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
 			if slot0.data1 == 1 then
 				slot6 = pg.activity_template_headhunting[slot0.id].target
@@ -421,8 +429,17 @@ function slot0.readyToAchieve(slot0)
 			if slot0.data2 and slot0.data2 <= 0 and pg.activity_event_avatarframe[slot0:getConfig("config_id")].target <= slot0.data1 then
 				return true
 			end
-		elseif slot3 == ActivityConst.ACTIVITY_TYPE_HOTSPRING and slot0.data1 < slot0:getConfig("config_data")[1][3] + 1 and slot4[1][2] <= slot0.data2 then
-			return true
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_HOTSPRING then
+			if slot0.data1 < slot0:getConfig("config_data")[1][3] + 1 and slot4[1][2] <= slot0.data2 then
+				return true
+			end
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_FIREWORK then
+			slot5 = slot0:getConfig("config_data")[2][2]
+			slot6 = getProxy(PlayerProxy):getRawData():getResource(slot0:getConfig("config_data")[2][1])
+
+			if slot0.data1 > 0 and slot5 <= slot6 then
+				return true
+			end
 		end
 	end
 end

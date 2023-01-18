@@ -935,8 +935,8 @@ pg.ship_data_blueprint = {
 		strengthen_item = 42014,
 		unlock_word = "사쿠라 엠파이어 진영 기술Pt<color=#92fc63>900</color>이상",
 		id = 39904,
-		price = 3000,
-		is_pursuing = 0,
+		price = 6000,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60101
 		},
@@ -1036,16 +1036,25 @@ pg.ship_data_blueprint = {
 		blueprint_version = 2,
 		name = "腓特烈大帝",
 		simulate_dungeon = 9911,
-		luck_story = "",
+		luck_story = "LUCK49902",
 		strengthen_item = 42015,
 		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>630</color>이상",
 		id = 49902,
-		price = 3000,
-		is_pursuing = 0,
+		price = 6000,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60111
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19220,
+				18220
+			},
+			{
+				19240,
+				18240
+			}
+		},
 		unlock_task = {
 			{
 				60112,
@@ -1112,7 +1121,13 @@ pg.ship_data_blueprint = {
 			1129,
 			1130
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			1131,
+			1132,
+			1133,
+			1134,
+			1135
+		},
 		attr_exp = {
 			100,
 			100,
@@ -1235,7 +1250,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "로열 네이비 진영 과학 기술 포인트 <color=#92fc63>700</color> 달성",
 		id = 29903,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60131
 		},
@@ -1335,7 +1350,7 @@ pg.ship_data_blueprint = {
 		strengthen_item = 42022,
 		unlock_word = "로열 네이비 진영 과학 기술 포인트 <color=#92fc63>820</color> 달성",
 		id = 29904,
-		price = 3000,
+		price = 6000,
 		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60141
@@ -1441,7 +1456,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "메탈 블러드 진영 과학 기술 포인트 <color=#92fc63>550</color> 달성",
 		id = 49903,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60151
 		},
@@ -1542,7 +1557,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "메탈 블러드 진영 과학 기술 포인트 <color=#92fc63>600</color> 달성",
 		id = 49904,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60161
 		},
@@ -1643,7 +1658,7 @@ pg.ship_data_blueprint = {
 		unlock_word = "이글 유니온 진영 과학 기술 포인트 <color=#92fc63>760</color> 달성, 로열 네이비 진영 과학 기술 포인트<color=#92fc63>700</color> 달성",
 		id = 89902,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60170,
 			60171
@@ -1845,7 +1860,7 @@ pg.ship_data_blueprint = {
 		strengthen_item = 42032,
 		unlock_word = "사쿠라 엠파이어 진영 기술Pt<color=#92fc63>950</color>이상",
 		id = 39905,
-		price = 3000,
+		price = 6000,
 		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60191
@@ -1935,7 +1950,7 @@ pg.ship_data_blueprint = {
 		strengthen_item = 42033,
 		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>700</color>이상",
 		id = 49905,
-		price = 3000,
+		price = 6000,
 		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60201
@@ -2228,7 +2243,7 @@ pg.ship_data_blueprint = {
 		strengthen_item = 42041,
 		unlock_word = "로열 네이비 진영 기술PT <color=#92fc63>900</color> 도달",
 		id = 29905,
-		price = 3000,
+		price = 6000,
 		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60231
@@ -2589,7 +2604,7 @@ pg.ship_data_blueprint = {
 		strengthen_item = 42045,
 		unlock_word = "아이리스 리브레 진영 기술PT <color=#92fc63>250</color> 도달",
 		id = 89903,
-		price = 3000,
+		price = 6000,
 		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60271

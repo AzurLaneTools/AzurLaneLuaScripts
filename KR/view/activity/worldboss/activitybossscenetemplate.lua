@@ -51,9 +51,6 @@ function slot0.init(slot0)
 	onButton(slot0, slot0.top:Find("back_btn"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SOUND_BACK)
-
-	slot0.backBtn = slot0:findTF("back_button", slot0.top)
-
 	setActive(slot0.top, false)
 	setAnchoredPosition(slot0.top, {
 		y = 1080

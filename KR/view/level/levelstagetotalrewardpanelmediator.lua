@@ -1,4 +1,4 @@
-slot0 = class("LevelStageTotalRewardPanelMediator", ContextMediator)
+slot0 = class("LevelStageTotalRewardPanelMediator", import("view.base.ContextMediator"))
 
 function slot0.register(slot0)
 	slot0:RegisterTrackEvent()

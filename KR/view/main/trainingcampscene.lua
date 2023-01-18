@@ -244,15 +244,27 @@ function slot0.updateNormalProgressPanel(slot0, slot1, slot2, slot3)
 end
 
 function slot0.initTecPanel(slot0)
-	slot1 = slot0:findTF("ToggleList", slot0.tecPanel)
+	slot7 = "Phase1"
 	slot0.tecToggles = {
-		slot0:findTF("Phase1", slot1),
-		slot0:findTF("Phase2", slot1),
-		slot0:findTF("Phase3", slot1)
+		slot0:findTF(slot7, slot0:findTF("ToggleList", slot0.tecPanel))
 	}
 
-	for slot7 = #slot0.tecTaskActivity:getConfig("config_data")[3] + 1, #slot0.tecToggles do
-		setActive(slot0.tecToggles[slot7], false)
+	for slot7 = #slot0.tecToggles + 1, #slot0.tecTaskActivity:getConfig("config_data")[3] do
+		slot8 = cloneTplTo(slot0.tecToggles[1], slot3)
+
+		table.insert(slot0.tecToggles, slot8)
+
+		slot8.name = "Phase" .. slot7
+		slot9 = slot0:findTF("TextImg", slot8)
+
+		print(tostring(slot8))
+		print(tostring(slot9))
+		setText(slot9, i18n("tec_catchup_" .. slot7))
+
+		slot9 = slot0:findTF("Selected/TextImage", slot8)
+
+		print(tostring(slot9))
+		setText(slot9, i18n("tec_catchup_" .. slot7))
 	end
 
 	slot8 = "ScrollRect/TaskTpl"
@@ -324,7 +336,7 @@ function slot0.updateTecProgressPanel(slot0, slot1, slot2, slot3)
 			})
 		end
 
-		setText(slot11, i18n("tec_notice_" .. slot1))
+		setText(slot11, i18n("tec_notice", i18n("tec_catchup_" .. slot1)))
 		_.each(slot3, function (slot0)
 			if uv0.taskProxy:getTaskVO(slot0) and slot1:isReceive() then
 				uv1 = uv1 + 1

@@ -252,6 +252,69 @@ pg.ship_meta_breakout = {
 		pre_id = 9702023,
 		weapon_ids = {}
 	},
+	[9702031] = {
+		breakout_view = "习得技能【破敌之炬·谢菲尔德】/主炮效率提高5%",
+		gold = 500,
+		breakout_id = 9702032,
+		repair = 0,
+		item2 = 21018,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9702031,
+		item1 = 21018,
+		pre_id = 0,
+		weapon_ids = {
+			170011
+		}
+	},
+	[9702032] = {
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		gold = 1500,
+		breakout_id = 9702033,
+		repair = 0,
+		item2 = 21018,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9702032,
+		item1 = 21018,
+		pre_id = 9702031,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9702033] = {
+		breakout_view = "【破敌之炬·谢菲尔德】升级/主炮效率提高15%",
+		gold = 2500,
+		breakout_id = 9702034,
+		repair = 0,
+		item2 = 21018,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9702033,
+		item1 = 21018,
+		pre_id = 9702032,
+		weapon_ids = {
+			170012
+		}
+	},
+	[9702034] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21018,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9702034,
+		item1 = 21018,
+		pre_id = 9702033,
+		weapon_ids = {}
+	},
 	[9703011] = {
 		breakout_view = "스킬 [흔들리는 불빛·트렌토] 습득/주포 효율 +5%",
 		gold = 500,
@@ -1141,6 +1204,10 @@ pg.ship_meta_breakout = {
 		9702022,
 		9702023,
 		9702024,
+		9702031,
+		9702032,
+		9702033,
+		9702034,
 		9703011,
 		9703012,
 		9703013,

@@ -335,7 +335,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 295
+		key_value = 301
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1898,7 +1898,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 293
+		key_value = 297
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -1961,6 +1961,10 @@ pg.gameset = {
 			},
 			{
 				20103,
+				10000
+			},
+			{
+				20104,
 				10000
 			}
 		}
@@ -2510,6 +2514,31 @@ pg.gameset = {
 			}
 		}
 	},
+	blueprint_pursue_discount_ur = {
+		key_value = 0,
+		description = {
+			{
+				1,
+				0
+			},
+			{
+				3,
+				10
+			},
+			{
+				7,
+				20
+			},
+			{
+				11,
+				50
+			},
+			{
+				16,
+				100
+			}
+		}
+	},
 	dayandnight_bgm = {
 		key_value = 20805,
 		description = {
@@ -2599,6 +2628,10 @@ pg.gameset = {
 	submarine_chapter_activate_time = {
 		description = "",
 		key_value = 43200
+	},
+	naval_academy_theme = {
+		description = "winter",
+		key_value = 0
 	},
 	package_lv = {
 		key_value = 0,

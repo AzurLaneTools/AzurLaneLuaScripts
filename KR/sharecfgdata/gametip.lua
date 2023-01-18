@@ -7494,6 +7494,10 @@ _G.pg.base.gametip.ship_remould_warning_521034 = {
 계속하시겠습니까?]]
 }
 
+_G.pg.base.gametip.ship_remould_warning_502114 = {
+	tip = "此次改造操作后<color=#92fc63>【东煌之绊】</color>技能\n将升级为<color=#92fc63>【东煌之绊 ·改】</color>"
+}
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "보이스 갱신"
 }
@@ -9897,16 +9901,24 @@ _G.pg.base.gametip.newplayer_notice_8 = {
 	tip = "지휘관, 벽람항로에 온 걸 환영해! 우선, 신병 훈련장으로 가 전입 신고부터 하자구!"
 }
 
-_G.pg.base.gametip.tec_notice_1 = {
-	tip = "1기 과학 연구 개발 가속 모든 임무 완료 시 해제 "
+_G.pg.base.gametip.tec_catchup_1 = {
+	tip = "一期"
 }
 
-_G.pg.base.gametip.tec_notice_2 = {
-	tip = "과학 연구 2기 개발 가속 모든 임무 완료 후 개방"
+_G.pg.base.gametip.tec_catchup_2 = {
+	tip = "二期"
 }
 
-_G.pg.base.gametip.tec_notice_3 = {
-	tip = "과학 연구 3기 개발 가속 모든 임무 완료 후 개방"
+_G.pg.base.gametip.tec_catchup_3 = {
+	tip = "三期"
+}
+
+_G.pg.base.gametip.tec_catchup_4 = {
+	tip = "四期"
+}
+
+_G.pg.base.gametip.tec_notice = {
+	tip = "完成科研$1研发加速所有任务后解锁"
 }
 
 _G.pg.base.gametip.tec_notice_not_open_tip = {
@@ -18220,6 +18232,32 @@ _G.pg.base.gametip.blueprint_catchup_by_gold_confirm = {
 	tip = "이번 강화에 $1 물자를 소모합니다. 확인하시겠습니까?"
 }
 
+_G.pg.base.gametip.blueprint_catchup_by_gold_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/blueprint_catchup_by_gold",
+				path = ""
+			}
+		},
+		disableScroll = false,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
 _G.pg.base.gametip.tec_tip_no_consumption = {
 	tip = "무료"
 }
@@ -18749,6 +18787,14 @@ _G.pg.base.gametip.formationScene_use_oil_limit_flagship = {
 
 _G.pg.base.gametip.formationScene_use_oil_limit_submarine = {
 	tip = "잠수함"
+}
+
+_G.pg.base.gametip.formationScene_use_oil_limit_surface = {
+	tip = "水面"
+}
+
+_G.pg.base.gametip.formationScene_use_oil_limit_tip_worldboss = {
+	tip = "消耗上限:"
 }
 
 _G.pg.base.gametip.attr_durability = {
@@ -20157,6 +20203,83 @@ _G.pg.base.gametip.cruise_task_help_2212 = {
 (2)「투어 임무 완료 쿠폰」 수량이 부족할 경우, 다이아를 소비해 보충할 수 있습니다.
 (3)각 투어 임무마다 필요한 「투어 임무 완료 쿠폰」 수량은 제공되는 「투어 PT」와 연관이 있으며, 현재 임무 진도와는 무관합니다.
 (4)「투어 임무 완료 쿠폰」은 <color=#92fc63>이번 이벤트 종료 시 사라지지 않습니다.</color>]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battlepass_main_tip_2302 = {
+	tip = "2023.2.1-2023.3.31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「谢菲尔德·META」</color>在内的丰富奖励"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2302 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2023.2.1-2023.3.31)
+
+·<color=#92fc63>开放时间</color>
+    2023.2.1 0点 ~ 2023.3.31 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「谢菲尔德·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·五期</color>等奖励；
+    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>棭换装「海边嬉戏时间</color>」、<color=#ff5c5c>钻石</color>等奖励；
+    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即3.31 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2302 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+    2023.1.31 0点 ~ 2023.3.31 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
 		}
 	}
 }
@@ -22170,6 +22293,56 @@ _G.pg.base.gametip.yixian_nianye = {
 	tip = "새해 복 많이 받으세요. 새로운 1년 동안 모든 게 뜻대로 되시길."
 }
 
+_G.pg.base.gametip.activity_yanhua_tip1 = {
+	tip = "烟花"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip2 = {
+	tip = "累计制作烟花："
+}
+
+_G.pg.base.gametip.activity_yanhua_tip3 = {
+	tip = "当前制作烟花："
+}
+
+_G.pg.base.gametip.activity_yanhua_tip4 = {
+	tip = "是否消耗$1飞彩之星制作烟花"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip5 = {
+	tip = "飞彩之星不足~"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip6 = {
+	tip = "今日制作次数已用完~"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip7 = {
+	tip = "已选中的烟花再次点击可以取消排序"
+}
+
+_G.pg.base.gametip.activity_yanhua_tip8 = {
+	tip = "制作完成！"
+}
+
+_G.pg.base.gametip.help_chunjie2023 = {
+	tip = {
+		{
+			info = [[
+活动时间：<color=#92fc63>2023.1.18-2023.2.2维护</color>
+活动简介：
+<color=#92fc63>「抚顺大冒险Ⅳ」</color>：参与小游戏获取限定角色<color=#92fc63>「抚顺」</color>
+<color=#92fc63>「飞彩迎新春」</color>：参与活动获取限定角色<color=#92fc63>「定安」</color>
+<color=#92fc63>「画中世界」</color>：参与活动获取限定角色<color=#92fc63>「海天」</color>与<color=#92fc63>「海祈」</color>
+<color=#92fc63>「绘图日记」</color>：参与活动获取限定角色<color=#92fc63>「鞍山」</color>
+<color=#92fc63>「傲梅迎春」</color>：参与活动获取逸仙专属设备<color=#92fc63>「梅之语」</color>
+<color=#92fc63>「啾啾大酒楼」</color>：参与活动开启15个红包获取U73限定换装<color=#92fc63>「早春的热情药剂」</color>，开启25个红包获取抚顺限定换装<color=#92fc63>「“钓”包游戏」</color>
+<color=#92fc63>「换装商店」</color>：购买春节限时换装
+<color=#92fc63>「限时建造」</color>：建造限时角色]]
+		}
+	}
+}
+
 _G.pg.base.gametip.sevenday_nianye = {
 	tip = {
 		{
@@ -22180,4 +22353,321 @@ _G.pg.base.gametip.sevenday_nianye = {
 
 _G.pg.base.gametip.tip_nianye = {
 	tip = "셰프가 아직 준비 중입니다. 잠시만 기다려 주세요~ "
+}
+
+_G.pg.base.gametip.couplete_activty_desc = {
+	tip = "1月24日为止每日0点解锁1个新任务，完成后可解锁一副新对联，总计7副。春联的下联已被打乱，请指挥官将它调整为对应上联的正确排序吧。成功对出后可获得限定装备「梅之语」在内的丰富奖励。"
+}
+
+_G.pg.base.gametip.couplete_click_desc = {
+	tip = "连续点击逸仙三次可以获得帮助"
+}
+
+_G.pg.base.gametip.couplet_index_desc = {
+	tip = "第$1副"
+}
+
+_G.pg.base.gametip.couplete_help = {
+	tip = {
+		{
+			info = [[
+活动规则：
+1.<color=#92fc63>2023.1.24</color>为止每日0点解锁1个新任务，完成后可解锁一副新对联，总计<color=#92fc63>7</color>副。春联的下联已被打乱，请指挥官将它调整为对应上联的正确排序吧。
+
+2.对联解锁后，指挥官可以拖动下联的文字调整顺序；成功出对可以获得红包奖励，完成所有对联获取逸仙专属设备<color=#92fc63>「梅之语」</color>
+
+对联规则说明：
+1.仄起平收，上联末尾字要仄音，下联尾字要平音。
+平音（ā）（á）
+仄音（ǎ）（à）
+例如：
+酒绿灯红辞旧岁——仄仄平平平仄仄
+莺歌燕舞庆新春——平平仄仄仄平平
+
+2.联上下联相同位置要求词性相对，内容相互关联。
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.couplete_drag_tip = {
+	tip = "*上下拖动文字调整顺序"
+}
+
+_G.pg.base.gametip.couplete_remind = {
+	tip = "指挥官，下联是\n“$1”"
+}
+
+_G.pg.base.gametip.couplete_complete = {
+	tip = "指挥官，您已经把所有对子都对出来了哦。"
+}
+
+_G.pg.base.gametip.couplete_enter = {
+	tip = "指挥官，要开始对对子么？"
+}
+
+_G.pg.base.gametip.couplete_stay = {
+	tip = "指挥官~~~需要帮忙吗！"
+}
+
+_G.pg.base.gametip.couplete_task = {
+	tip = "指挥官，完成任务可以解锁对联哦~"
+}
+
+_G.pg.base.gametip.couplete_pass_1 = {
+	tip = "没错，就是这样的~"
+}
+
+_G.pg.base.gametip.couplete_pass_2 = {
+	tip = "指挥官，完全正确哦。 "
+}
+
+_G.pg.base.gametip.couplete_fail_1 = {
+	tip = "指挥官，好像有哪里不太对……"
+}
+
+_G.pg.base.gametip.couplete_fail_2 = {
+	tip = "唔……好像不太押韵呢。"
+}
+
+_G.pg.base.gametip.couplete_pair_1 = {
+	tip = "万紫千红总是春"
+}
+
+_G.pg.base.gametip.couplete_pair_2 = {
+	tip = "梅花几点送新春"
+}
+
+_G.pg.base.gametip.couplete_pair_3 = {
+	tip = "夜雨瞒人去润花"
+}
+
+_G.pg.base.gametip.couplete_pair_4 = {
+	tip = "燕语南邻万户欢"
+}
+
+_G.pg.base.gametip.couplete_pair_5 = {
+	tip = "东风先报杏花开"
+}
+
+_G.pg.base.gametip.couplete_pair_6 = {
+	tip = "和风细雨兆丰年"
+}
+
+_G.pg.base.gametip.couplete_pair_7 = {
+	tip = "日暖神州万木荣"
+}
+
+_G.pg.base.gametip["2023spring_minigame_item_lantern"] = {
+	tip = "新年灯笼|可以驱赶年兽，并生成一个年兽无法靠近的区域，持续5秒"
+}
+
+_G.pg.base.gametip["2023spring_minigame_item_firecracker"] = {
+	tip = "鞭炮|可以吓跑年兽，使其进入无法攻击的恐惧状态，持续5秒"
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_icewall"] = {
+	tip = "冰墙|建造一面冰墙能够阻挡年兽"
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_icewall_up"] = {
+	tip = "解锁冰墙，冰墙长度7格，冷却时间1秒|冰墙长度增加2格|冰墙长度增加2格"
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_sprint"] = {
+	tip = "疾跑|增加角色基础移动速度20%"
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_sprint_up"] = {
+	tip = "解锁疾跑，持续5秒，冷却时间20秒|速度额外增加10%|持续时间延长2秒"
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_flash"] = {
+	tip = "闪现|向面朝方向瞬间传送一小段距离，可以穿过阻挡物"
+}
+
+_G.pg.base.gametip["2023spring_minigame_skill_flash_up"] = {
+	tip = "解锁闪现，冷却时间30秒|冷却时间缩短5秒|冷却时间缩短5秒"
+}
+
+_G.pg.base.gametip["2023spring_minigame_bless_speed"] = {
+	tip = "速度|提高基础移动速度"
+}
+
+_G.pg.base.gametip["2023spring_minigame_bless_speed_up"] = {
+	tip = "基础移动速度+3%|基础移动速度+3%|基础移动速度+4%"
+}
+
+_G.pg.base.gametip["2023spring_minigame_bless_substitute"] = {
+	tip = "替身|遇袭的瞬间用冰块阻挡并闪现到远处(每场游戏仅能触发一次)"
+}
+
+_G.pg.base.gametip["2023spring_minigame_bless_substitute_up"] = {
+	tip = "解锁替身"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill1"] = {
+	tip = "传送|当年兽四周被封闭或距离角色较远时，会传送到角色附近"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill2"] = {
+	tip = "疾跑|年兽移动速度增加20%"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill3"] = {
+	tip = "破坏|年兽可以破坏3格冰墙"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill4"] = {
+	tip = "重力|角色移动速度降低15%"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill5"] = {
+	tip = "双生|召唤分身加入战斗，分身没有特性且仅拥有本体移动速度的80%"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill6"] = {
+	tip = "迟滞|角色技能冷却时间增加20%"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill7"] = {
+	tip = "牵引|每20秒在地图上随机生成黑洞，角色进入黑洞影响范围会减少移动速度；且进入黑洞中心会被定身1秒，定身结束后黑洞消失"
+}
+
+_G.pg.base.gametip["2023spring_minigame_nenjuu_skill8"] = {
+	tip = "诡秘|年兽每10秒会进入诡秘状态，增加30%移动速度，持续5秒；诡秘期间年兽攻击退出诡秘状态"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip1"] = {
+	tip = "装备"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip2"] = {
+	tip = "已装备"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip3"] = {
+	tip = "积分"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip5"] = {
+	tip = "弱化年兽会减少积分倍率"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip6"] = {
+	tip = "$1解锁成功~"
+}
+
+_G.pg.base.gametip["2023spring_minigame_tip7"] = {
+	tip = "$1升级成功~"
+}
+
+_G.pg.base.gametip["2023spring_minigame_help"] = {
+	tip = {
+		{
+			info = [[
+活动规则：
+1.<color=#92fc63>2023.1.24</color>为止每日0点开放<color=#92fc63>1</color>关新的游戏，总计<color=#92fc63>7</color>关，可累计。完成游戏可以获得限定角色「抚顺」。
+
+游戏规则：
+1.指挥官需要帮助抚顺躲避年兽，收集地图上的资源完成大冒险！
+
+2.收集资源可以获取游戏积分，游戏积分可在「作战准备」处解锁和升级道具、技能、祝福，详细内容可在「作战准备」处查看。
+
+3.游戏不同关卡的年兽会持有不同特性，越往后的关卡年兽会越强大但关卡积分倍率也会越高！
+
+4.指挥官可以通过「弱化年兽」降低年兽的强度，但同时关卡积分倍率也会减少。
+
+5.游戏时间归零或点击游戏内退出按钮均视为游戏完成。因其他原因中途退出游戏则视为未完成。
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.multiple_sorties_title = {
+	tip = "连续作战"
+}
+
+_G.pg.base.gametip.multiple_sorties_title_eng = {
+	tip = "MULTIPLE SORTIES"
+}
+
+_G.pg.base.gametip.multiple_sorties_locked_tip = {
+	tip = "通关一次该难度后解锁<color=#92fc63>连续作战</color>"
+}
+
+_G.pg.base.gametip.multiple_sorties_times = {
+	tip = "作战次数"
+}
+
+_G.pg.base.gametip.multiple_sorties_tip = {
+	tip = "※连续作战默认开启<color=#92fc63>「自律作战」</color>、<color=#92fc63>「自动呼叫潜艇」</color>"
+}
+
+_G.pg.base.gametip.multiple_sorties_challenge_ticket_use = {
+	tip = "自动使用"
+}
+
+_G.pg.base.gametip.multiple_sorties_cost1 = {
+	tip = "预计消耗<color=#92fc63>「<icon name=oil w=0.7 h=0.7/>$1石油」</color>"
+}
+
+_G.pg.base.gametip.multiple_sorties_cost2 = {
+	tip = "和<color=#92fc63>「<icon name=ticket w=0.7 h=0.7/>$1特别挑战券」</color>"
+}
+
+_G.pg.base.gametip.multiple_sorties_stopped = {
+	tip = "已中止"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_tip = {
+	tip = "<color=#92fc63>连续作战</color>已中止，将在本次战斗结算后退出"
+}
+
+_G.pg.base.gametip.multiple_sorties_resume_tip = {
+	tip = "<color=#92fc63>连续作战</color>继续进行"
+}
+
+_G.pg.base.gametip.multiple_sorties_auto_on = {
+	tip = "<color=#92fc63>自律战斗</color>已开启"
+}
+
+_G.pg.base.gametip.multiple_sorties_finish = {
+	tip = "连续作战已完成。"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop = {
+	tip = "连续作战已中止。"
+}
+
+_G.pg.base.gametip.multiple_sorties_end_status = {
+	tip = "计划出击<color=#92fc63>$1</color>次，实际完成出击<color=#92fc63>$2</color>次。"
+}
+
+_G.pg.base.gametip.multiple_sorties_finish_tip = {
+	tip = "<color=#92fc63>连续作战</color>已完成"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_tip_end = {
+	tip = "，<color=#92fc63>连续作战</color>已中止"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_reason1 = {
+	tip = "<color=#92fc63>石油</color>不足"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_reason2 = {
+	tip = "$1中$2处于低心情状态"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_reason3 = {
+	tip = "船坞已满"
+}
+
+_G.pg.base.gametip.multiple_sorties_stop_reason4 = {
+	tip = "作战失败"
+}
+
+_G.pg.base.gametip.msgbox_text_battle = {
+	tip = "出击"
 }

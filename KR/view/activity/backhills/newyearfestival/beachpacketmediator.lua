@@ -1,4 +1,11 @@
-slot0 = class("RedPacket2023Mediator", import(".RedPacketMediator"))
+slot0 = class("BeachPacketMediator", import("view.base.ContextMediator"))
+
+function slot0.listNotificationInterests(slot0)
+	return {
+		ActivityProxy.ACTIVITY_SHOW_RED_PACKET_AWARDS,
+		ActivityProxy.ACTIVITY_UPDATED
+	}
+end
 
 function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()

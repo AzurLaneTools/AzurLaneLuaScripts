@@ -541,7 +541,9 @@ function slot0.updatePauseWindow(slot0)
 	end
 
 	setActive(slot0.pauseWindow, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.pauseWindow)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.pauseWindow, nil, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 
 	function slot1(slot0, slot1, slot2)
 		if not slot0 then

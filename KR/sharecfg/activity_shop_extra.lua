@@ -2311,6 +2311,118 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[95] = {
+		commodity_type = 7,
+		activity = 4665,
+		commodity_id = 408052,
+		id = 95,
+		num = 1,
+		num_limit = 1,
+		order = 14,
+		scene = {
+			"SPRING FESTIVAL BackHill 2023"
+		},
+		time = {
+			{
+				{
+					2023,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[96] = {
+		commodity_type = 7,
+		activity = 4665,
+		commodity_id = 501021,
+		id = 96,
+		num = 1,
+		num_limit = 1,
+		order = 14,
+		scene = {
+			"SPRING FESTIVAL BackHill 2023"
+		},
+		time = {
+			{
+				{
+					2023,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[97] = {
+		commodity_type = 7,
+		activity = 4636,
+		commodity_id = 301323,
+		scene = "",
+		id = 97,
+		num = 1,
+		num_limit = 1,
+		order = 14,
+		time = {
+			{
+				{
+					2023,
+					1,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	get_id_list_by_commodity_type = {
 		[7] = {
 			7,
@@ -2375,7 +2487,10 @@ pg.activity_shop_extra = {
 			91,
 			92,
 			93,
-			94
+			94,
+			95,
+			96,
+			97
 		}
 	},
 	all = {
@@ -2441,6 +2556,9 @@ pg.activity_shop_extra = {
 		91,
 		92,
 		93,
-		94
+		94,
+		95,
+		96,
+		97
 	}
 }

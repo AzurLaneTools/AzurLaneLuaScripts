@@ -1379,5 +1379,21 @@ pg.voice_actor_CN = {
 	[350] = {
 		code = 350,
 		actor_name = "Hina Yomiya"
+	},
+	[351] = {
+		code = 351,
+		actor_name = "土屋李央"
+	},
+	[352] = {
+		code = 352,
+		actor_name = "村上奈津实"
+	},
+	[353] = {
+		code = 353,
+		actor_name = "田中千惠美"
+	},
+	[354] = {
+		code = 354,
+		actor_name = "贯井柚佳"
 	}
 }

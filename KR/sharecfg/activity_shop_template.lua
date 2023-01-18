@@ -16779,7 +16779,20 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10075,
 		resource_num = 800,
-		order = 0
+		order = 4
+	},
+	[10076] = {
+		limit_args = "",
+		resource_category = 2,
+		activity = 0,
+		num_limit = 1,
+		num = 1,
+		commodity_id = 502041,
+		commodity_type = 7,
+		resource_type = 59900,
+		id = 10076,
+		resource_num = 1000,
+		order = 3
 	},
 	[11001] = {
 		limit_args = "",
@@ -17015,6 +17028,58 @@ pg.activity_shop_template = {
 		resource_num = 1000,
 		order = 5
 	},
+	[11019] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 0,
+		num_limit = 30,
+		num = 1,
+		commodity_id = 42040,
+		commodity_type = 2,
+		resource_type = 9,
+		id = 11019,
+		resource_num = 30,
+		order = 0
+	},
+	[11020] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 0,
+		num_limit = 10,
+		num = 1,
+		commodity_id = 42046,
+		commodity_type = 2,
+		resource_type = 9,
+		id = 11020,
+		resource_num = 120,
+		order = 0
+	},
+	[11021] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 0,
+		num_limit = 20,
+		num = 1,
+		commodity_id = 14005,
+		commodity_type = 2,
+		resource_type = 9,
+		id = 11021,
+		resource_num = 15,
+		order = 0
+	},
+	[11022] = {
+		limit_args = "",
+		resource_category = 1,
+		activity = 0,
+		num_limit = 50,
+		num = 1,
+		commodity_id = 13030,
+		commodity_type = 2,
+		resource_type = 9,
+		id = 11022,
+		resource_num = 60,
+		order = 0
+	},
 	get_id_list_by_commodity_type = {
 		{
 			421,
@@ -17141,7 +17206,8 @@ pg.activity_shop_template = {
 			10021,
 			10063,
 			10065,
-			10069
+			10069,
+			10076
 		},
 		[4] = {
 			4,
@@ -18322,7 +18388,11 @@ pg.activity_shop_template = {
 			11015,
 			11016,
 			11017,
-			11018
+			11018,
+			11019,
+			11020,
+			11021,
+			11022
 		},
 		[8] = {
 			1621,
@@ -19630,6 +19700,7 @@ pg.activity_shop_template = {
 		10073,
 		10074,
 		10075,
+		10076,
 		11001,
 		11002,
 		11003,
@@ -19647,6 +19718,10 @@ pg.activity_shop_template = {
 		11015,
 		11016,
 		11017,
-		11018
+		11018,
+		11019,
+		11020,
+		11021,
+		11022
 	}
 }

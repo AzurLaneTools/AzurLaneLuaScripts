@@ -236,7 +236,8 @@ function slot0.didEnter(slot0)
 	slot2 = pg.UIMgr.GetInstance()
 
 	slot2:BlurPanel(slot0._tf, true, {
-		lockGlobalBlur = true
+		lockGlobalBlur = true,
+		groupName = LayerWeightConst.GROUP_COMBAT
 	})
 	ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCemera(false)
 
@@ -404,14 +405,18 @@ function slot0.showRewardInfo(slot0)
 			slot6 = uv0.skipFlag
 			slot7 = false
 
-			if uv0.contextData.system == SYSTEM_SCENARIO and getProxy(ChapterProxy):getActiveChapter(true) then
-				if slot8:isLoop() then
-					getProxy(ChapterProxy):AddExtendChapterDataArray(slot8.id, "TotalDrops", slot3)
+			if uv0.contextData.system == SYSTEM_SCENARIO then
+				if getProxy(ChapterProxy):getActiveChapter(true) then
+					if slot8:isLoop() then
+						getProxy(ChapterProxy):AddExtendChapterDataArray(slot8.id, "TotalDrops", slot3)
 
-					slot7 = getProxy(ChapterProxy):GetChapterAutoFlag(slot8.id) == 1
+						slot7 = getProxy(ChapterProxy):GetChapterAutoFlag(slot8.id) == 1
+					end
+
+					slot8:writeDrops(slot3)
 				end
-
-				slot8:writeDrops(slot3)
+			elseif uv0.contextData.system == SYSTEM_ACT_BOSS and getProxy(ContextProxy):getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
+				getProxy(ChapterProxy):AddActBossRewards(slot3)
 			end
 
 			slot8 = uv0
