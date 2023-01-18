@@ -1,5 +1,6 @@
-slot0 = class("MiniGameTileData")
+slot0 = class("MiniGameTile")
 slot0.BOOM_GAME = "BoomGame"
+slot0.SPRING23_GAME = "Spring23Game"
 slot0.tiles = {
 	BoomGame = {
 		name = "BoomGame",
@@ -18,6 +19,23 @@ slot0.tiles = {
 			"BoomLevel_7",
 			"BoomLevel_8",
 			"BoomLevel_9"
+		}
+	},
+	Spring23Game = {
+		name = "Spring23Game",
+		tile_map = {
+			"Spring23Item",
+			"Spring23Character",
+			"Spring23Map"
+		},
+		tile_data = {
+			"Spring23Level_1",
+			"Spring23Level_2",
+			"Spring23Level_3",
+			"Spring23Level_4",
+			"Spring23Level_5",
+			"Spring23Level_6",
+			"Spring23Level_7"
 		}
 	}
 }

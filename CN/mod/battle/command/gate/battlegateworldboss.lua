@@ -20,19 +20,17 @@ function slot0.Entrance(slot0, slot1)
 		slot7[#slot7 + 1] = slot18
 	end
 
-	ships = slot4:getSortShipsByFleet(slot12)
-	slot8 = 0
-	slot9 = 0
-	slot14 = slot3:getData()
-	slot16 = slot10:GetBossProxy()
-	slot17 = slot16:GetBossById(slot0.bossId)
-	slot18 = slot17:GetStageID()
+	slot14 = slot4:getSortShipsByFleet(slot12)
+	slot15 = slot3:getData()
+	slot17 = slot10:GetBossProxy()
+	slot18 = slot17:GetBossById(slot0.bossId)
+	slot19 = slot18:GetStageID()
 
-	if slot16:IsSelfBoss(slot17) and slot17:GetSelfFightCnt() > 0 then
-		slot9 = slot17:GetOilConsume()
+	if slot17:IsSelfBoss(slot18) and slot18:GetSelfFightCnt() > 0 then
+		slot9 = slot18:GetOilConsume()
 	end
 
-	if slot6 and slot14.oil < slot9 then
+	if slot6 and slot15.oil < slot9 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
@@ -40,7 +38,7 @@ function slot0.Entrance(slot0, slot1)
 
 	slot1.ShipVertify()
 	BeginStageCommand.SendRequest(SYSTEM_WORLD_BOSS, slot7, {
-		slot15
+		slot16
 	}, function (slot0)
 		if uv0 then
 			uv1:consume({
@@ -49,37 +47,37 @@ function slot0.Entrance(slot0, slot1)
 			})
 		end
 
-		if uv3.enter_energy_cost > 0 and not exFlag then
+		if uv3.enter_energy_cost > 0 then
 			slot1 = pg.gameset.battle_consume_energy.key_value
 
-			for slot5, slot6 in ipairs(ships) do
+			for slot5, slot6 in ipairs(uv4) do
 				slot6:cosumeEnergy(slot1)
-				uv4:updateShip(slot6)
+				uv5:updateShip(slot6)
 			end
 		end
 
-		if uv5:IsSelfBoss(uv6) then
-			uv6:IncreaseFightCnt()
+		if uv6:IsSelfBoss(uv7) then
+			uv7:IncreaseFightCnt()
 		else
-			if WorldBossConst._IsCurrBoss(uv6) then
-				uv5:reducePt()
+			if WorldBossConst._IsCurrBoss(uv7) then
+				uv6:reducePt()
 			end
 
-			uv5:LockCacheBoss(uv7)
+			uv6:LockCacheBoss(uv8)
 		end
 
-		slot1 = uv8
+		slot1 = uv9
 
 		slot1:updatePlayer(uv1)
-		uv11:sendNotification(GAME.BEGIN_STAGE_DONE, {
+		uv12:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			prefabFleet = {},
-			bossId = uv7,
-			actId = uv9,
-			stageId = uv10,
+			bossId = uv8,
+			actId = uv10,
+			stageId = uv11,
 			system = SYSTEM_WORLD_BOSS,
 			token = slot0.key,
-			bossLevel = uv6:GetLevel(),
-			bossConfigId = uv6:GetConfigID()
+			bossLevel = uv7:GetLevel(),
+			bossConfigId = uv7:GetConfigID()
 		})
 	end, function (slot0)
 		function slot1()
@@ -117,32 +115,26 @@ function slot0.Exit(slot0, slot1)
 
 	slot2 = pg.battle_cost_template[SYSTEM_WORLD_BOSS]
 	slot3 = slot0.statistics._battleScore
-	slot4 = 0
-	slot5 = {}
-	slot8 = nowWorld():GetBossProxy():GetFleet(slot0.bossId)
-	slot9 = slot8:getEndCost()
-	gold = slot9.gold
-	slot4 = slot9.oil
-	stageId = slot0.bossId
-	slot10 = slot1.GeneralPackage(slot0, getProxy(BayProxy):getSortShipsByFleet(slot8))
-	slot11 = 0
-	slot12 = {}
+	slot4 = {}
+	slot8 = slot1.GeneralPackage(slot0, getProxy(BayProxy):getSortShipsByFleet(nowWorld():GetBossProxy():GetFleet(slot0.bossId)))
+	slot9 = 0
+	slot10 = {}
 
-	for slot16, slot17 in ipairs(slot0.statistics._enemyInfoList) do
-		table.insert(slot12, {
-			enemy_id = slot17.id,
-			damage_taken = slot17.damage,
-			total_hp = slot17.totalHp
+	for slot14, slot15 in ipairs(slot0.statistics._enemyInfoList) do
+		table.insert(slot10, {
+			enemy_id = slot15.id,
+			damage_taken = slot15.damage,
+			total_hp = slot15.totalHp
 		})
 
-		if slot11 < slot17.damage then
-			slot11 = slot17.damage
+		if slot9 < slot15.damage then
+			slot9 = slot15.damage
 		end
 	end
 
-	slot10.enemy_info = slot12
+	slot8.enemy_info = slot10
 
-	slot1:SendRequest(slot10, function (slot0)
+	slot1:SendRequest(slot8, function (slot0)
 		slot1, slot2 = uv0:GeneralLoot(slot0)
 
 		if uv1.end_sink_cost > 0 then

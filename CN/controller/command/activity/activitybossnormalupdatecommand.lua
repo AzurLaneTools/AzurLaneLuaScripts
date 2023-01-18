@@ -44,9 +44,8 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	if table.getCount(slot6) > 0 then
-		getProxy(ActivityProxy):updateActivity(slot4)
-	end
+	slot4:AddStage(slot3)
+	getProxy(ActivityProxy):updateActivity(slot4)
 end
 
 return slot0

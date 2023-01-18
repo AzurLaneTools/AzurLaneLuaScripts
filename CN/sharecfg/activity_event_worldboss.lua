@@ -2,15 +2,15 @@ pg = pg or {}
 pg.activity_event_worldboss = {
 	{
 		group_num = 1,
-		damage_resource = 2001,
-		time = "stop",
 		stage_hp = "",
-		id = 1,
+		time = "stop",
+		expedition_both_buff = "",
 		ex_expedition = 0,
 		expedition_buff = "",
-		expedition_both_buff = "",
-		normal_expedition = "",
 		normal_expedition_drop_num = "",
+		id = 1,
+		normal_expedition = "",
+		damage_resource = 2001,
 		ticket = 0,
 		submarine_num = 1,
 		boss_id = {
@@ -133,6 +133,24 @@ pg.activity_event_worldboss = {
 					11900105
 				}
 			}
+		},
+		use_oil_limit = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			}
 		}
 	},
 	{
@@ -141,8 +159,8 @@ pg.activity_event_worldboss = {
 		time = "stop",
 		ticket = 2003,
 		submarine_num = 1,
-		id = 2,
 		ex_expedition = 1260004,
+		id = 2,
 		boss_id = {
 			3
 		},
@@ -217,7 +235,25 @@ pg.activity_event_worldboss = {
 		},
 		stage_hp = {},
 		expedition_buff = {},
-		expedition_both_buff = {}
+		expedition_both_buff = {},
+		use_oil_limit = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			}
+		}
 	},
 	{
 		group_num = 1,
@@ -225,8 +261,8 @@ pg.activity_event_worldboss = {
 		time = "stop",
 		ticket = 2005,
 		submarine_num = 1,
-		id = 3,
 		ex_expedition = 1320401,
+		id = 3,
 		boss_id = {
 			4
 		},
@@ -301,7 +337,25 @@ pg.activity_event_worldboss = {
 		},
 		stage_hp = {},
 		expedition_buff = {},
-		expedition_both_buff = {}
+		expedition_both_buff = {},
+		use_oil_limit = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			}
+		}
 	},
 	{
 		group_num = 1,
@@ -309,8 +363,8 @@ pg.activity_event_worldboss = {
 		time = "stop",
 		ticket = 2007,
 		submarine_num = 1,
-		id = 4,
 		ex_expedition = 1410004,
+		id = 4,
 		boss_id = {
 			5
 		},
@@ -385,7 +439,25 @@ pg.activity_event_worldboss = {
 		},
 		stage_hp = {},
 		expedition_buff = {},
-		expedition_both_buff = {}
+		expedition_both_buff = {},
+		use_oil_limit = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			}
+		}
 	},
 	{
 		group_num = 1,
@@ -393,8 +465,8 @@ pg.activity_event_worldboss = {
 		time = "stop",
 		ticket = 2009,
 		submarine_num = 1,
-		id = 5,
 		ex_expedition = 1260004,
+		id = 5,
 		boss_id = {
 			3
 		},
@@ -469,7 +541,25 @@ pg.activity_event_worldboss = {
 		},
 		stage_hp = {},
 		expedition_buff = {},
-		expedition_both_buff = {}
+		expedition_both_buff = {},
+		use_oil_limit = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			}
+		}
 	},
 	{
 		group_num = 1,
@@ -477,8 +567,8 @@ pg.activity_event_worldboss = {
 		time = "stop",
 		ticket = 2011,
 		submarine_num = 1,
-		id = 6,
 		ex_expedition = 1610004,
+		id = 6,
 		boss_id = {
 			6
 		},
@@ -553,7 +643,25 @@ pg.activity_event_worldboss = {
 		},
 		stage_hp = {},
 		expedition_buff = {},
-		expedition_both_buff = {}
+		expedition_both_buff = {},
+		use_oil_limit = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			}
+		}
 	},
 	{
 		group_num = 1,
@@ -561,8 +669,8 @@ pg.activity_event_worldboss = {
 		time = "stop",
 		ticket = 2007,
 		submarine_num = 1,
-		id = 7,
 		ex_expedition = 1410004,
+		id = 7,
 		boss_id = {
 			5
 		},
@@ -637,7 +745,25 @@ pg.activity_event_worldboss = {
 		},
 		stage_hp = {},
 		expedition_buff = {},
-		expedition_both_buff = {}
+		expedition_both_buff = {},
+		use_oil_limit = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			}
+		}
 	},
 	{
 		group_num = 1,
@@ -645,8 +771,8 @@ pg.activity_event_worldboss = {
 		time = "stop",
 		ticket = 2013,
 		submarine_num = 1,
-		id = 8,
 		ex_expedition = 1659004,
+		id = 8,
 		boss_id = {
 			7
 		},
@@ -722,7 +848,25 @@ pg.activity_event_worldboss = {
 		},
 		stage_hp = {},
 		expedition_buff = {},
-		expedition_both_buff = {}
+		expedition_both_buff = {},
+		use_oil_limit = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			}
+		}
 	},
 	{
 		group_num = 1,
@@ -730,8 +874,8 @@ pg.activity_event_worldboss = {
 		time = "stop",
 		ticket = 2015,
 		submarine_num = 1,
-		id = 9,
 		ex_expedition = 1689004,
+		id = 9,
 		boss_id = {
 			8
 		},
@@ -806,7 +950,152 @@ pg.activity_event_worldboss = {
 		},
 		stage_hp = {},
 		expedition_buff = {},
-		expedition_both_buff = {}
+		expedition_both_buff = {},
+		use_oil_limit = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			}
+		}
+	},
+	{
+		group_num = 1,
+		damage_resource = 2016,
+		ex_expedition = 1709004,
+		ticket = 2017,
+		submarine_num = 1,
+		id = 10,
+		boss_id = {
+			9
+		},
+		reward_pt = {
+			9500,
+			9500,
+			9500,
+			9000,
+			8500,
+			8000,
+			7500,
+			7000,
+			6500,
+			6000,
+			5500,
+			5000,
+			4500,
+			4000,
+			3500,
+			3000,
+			2500,
+			2000,
+			1500,
+			1000,
+			500,
+			0,
+			0
+		},
+		time = {
+			{
+				{
+					2023,
+					1,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		formula = {
+			10,
+			5,
+			2,
+			60,
+			0.026,
+			0.68,
+			1.3,
+			11.7,
+			0.1
+		},
+		ex_expedition_enemy = {
+			{
+				1709004,
+				{
+					16409401
+				}
+			}
+		},
+		normal_expedition = {
+			1709001,
+			1709002,
+			1709003
+		},
+		normal_expedition_drop_num = {
+			{
+				{
+					1709001
+				},
+				15
+			},
+			{
+				{
+					1709002
+				},
+				15
+			},
+			{
+				{
+					1709003
+				},
+				15
+			}
+		},
+		stage_hp = {},
+		expedition_buff = {},
+		expedition_both_buff = {},
+		use_oil_limit = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				25,
+				16
+			},
+			{
+				40,
+				16
+			}
+		}
 	},
 	all = {
 		1,
@@ -817,6 +1106,7 @@ pg.activity_event_worldboss = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	}
 }

@@ -2986,7 +2986,7 @@ pg.backyard_theme_template = {
 	[75] = {
 		Cfg_1 = 5,
 		name = "敬贺新禧",
-		hot = 1,
+		hot = 0,
 		is_view = 1,
 		id = 75,
 		comfortable = 0,
@@ -3894,6 +3894,48 @@ pg.backyard_theme_template = {
 			96307
 		}
 	},
+	[97] = {
+		Cfg_1 = 5,
+		name = "美食乐园",
+		hot = 1,
+		is_view = 1,
+		id = 97,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "色香味俱全的快乐之园！",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "cj5themeicon",
+		deblocking = 1,
+		order = 98,
+		ids = {
+			97001,
+			97002,
+			97101,
+			97102,
+			97103,
+			97104,
+			97105,
+			97106,
+			97110,
+			97116,
+			97117,
+			97118,
+			97119,
+			97120,
+			97122,
+			97123,
+			97124,
+			97125,
+			97126,
+			97127,
+			97128,
+			97129,
+			97130,
+			97301
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3982,6 +4024,7 @@ pg.backyard_theme_template = {
 		93,
 		94,
 		95,
-		96
+		96,
+		97
 	}
 }

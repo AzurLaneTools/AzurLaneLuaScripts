@@ -1,4 +1,4 @@
-slot0 = class("LevelStageTotalRewardPanel", BaseUI)
+slot0 = class("LevelStageTotalRewardPanel", import("view.base.BaseUI"))
 
 function slot0.getUIName(slot0)
 	return "LevelStageTotalRewardPanel"

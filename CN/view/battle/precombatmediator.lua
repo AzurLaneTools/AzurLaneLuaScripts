@@ -8,6 +8,8 @@ slot0.REMOVE_SHIP = "PreCombatMediator:REMOVE_SHIP"
 slot0.CHANGE_FLEET_SHIPS_ORDER = "PreCombatMediator:CHANGE_FLEET_SHIPS_ORDER"
 slot0.CHANGE_FLEET_SHIP = "PreCombatMediator:CHANGE_FLEET_SHIP"
 slot0.BEGIN_STAGE_PROXY = "PreCombatMediator:BEGIN_STAGE_PROXY"
+slot0.SHOW_CONTINUOUS_OPERATION_WINDOW = "PreCombatMediator:SHOW_CONTINUOUS_OPERATION_WINDOW"
+slot0.CONTINUOUS_OPERATION = "PreCombatMediator:CONTINUOUS_OPERATION"
 slot0.ON_AUTO = "PreCombatMediator:ON_AUTO"
 slot0.ON_SUB_AUTO = "PreCombatMediator:ON_SUB_AUTO"
 slot0.GET_CHAPTER_DROP_SHIP_LIST = "PreCombatMediator:GET_CHAPTER_DROP_SHIP_LIST"
@@ -145,8 +147,8 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_COMMIT_EDIT, function (slot0, slot1)
 		uv0:commitEdit(slot1)
 	end)
-	slot0:bind(uv0.ON_START, function (slot0, slot1)
-		function slot2()
+	slot0:bind(uv0.ON_START, function (slot0, slot1, slot2)
+		function slot3()
 			if uv0.contextData.customFleet then
 				uv0.contextData.func()
 			else
@@ -159,50 +161,81 @@ function slot0.register(slot0)
 						end
 					end,
 					function ()
-						uv0.viewComponent:emit(uv1.BEGIN_STAGE_PROXY, uv2)
+						uv0.viewComponent:emit(uv1.BEGIN_STAGE_PROXY, uv2, uv3)
 					end
 				})
 			end
 		end
 
 		if uv2 == SYSTEM_DUEL then
-			slot2()
+			slot3()
 		else
-			slot3, slot4 = nil
+			slot4, slot5 = nil
 
 			if uv2 == SYSTEM_HP_SHARE_ACT_BOSS or uv2 == SYSTEM_BOSS_EXPERIMENT or uv2 == SYSTEM_ACT_BOSS then
-				slot3 = uv3[1]
-				slot4 = "ship_energy_low_warn_no_exp"
+				slot4 = uv3[1]
+				slot5 = "ship_energy_low_warn_no_exp"
 			else
-				slot3 = uv4:getFleetById(slot1)
+				slot4 = uv4:getFleetById(slot1)
 			end
 
-			slot5 = {}
+			slot6 = {}
 
-			for slot9, slot10 in ipairs(slot3.ships) do
-				table.insert(slot5, uv5:getShipById(slot10))
+			for slot10, slot11 in ipairs(slot4.ships) do
+				table.insert(slot6, uv5:getShipById(slot11))
 			end
 
-			if slot3.name == "" or slot6 == nil then
-				slot6 = Fleet.DEFAULT_NAME[slot1]
+			if slot4.name == "" or slot7 == nil then
+				slot7 = Fleet.DEFAULT_NAME[slot1]
 			end
 
-			Fleet.EnergyCheck(slot5, slot6, function (slot0)
+			Fleet.EnergyCheck(slot6, slot7, function (slot0)
 				if slot0 then
 					uv0()
 				end
-			end, nil, slot4)
+			end, nil, slot5)
 		end
 	end)
-	slot0:bind(uv0.BEGIN_STAGE_PROXY, function (slot0, slot1)
-		slot2 = nil
+
+	function slot7()
+		slot0 = 0
+
+		for slot4, slot5 in ipairs(uv0.contextData.fleets) do
+			slot6 = slot5:GetCostSum().oil
+
+			if uv0.contextData.costLimit[slot4 == 1 and 1 or 2] > 0 then
+				slot6 = math.min(slot6, slot8)
+			end
+
+			slot0 = slot0 + slot6
+		end
+
+		return slot0
+	end
+
+	slot0:bind(uv0.SHOW_CONTINUOUS_OPERATION_WINDOW, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = ContinuousOperationWindowMediator,
+			viewComponent = ContinuousOperationWindow,
+			data = {
+				mainFleetId = slot1,
+				stageId = uv0.contextData.stageId,
+				system = uv0.contextData.system,
+				oilCost = uv1()
+			}
+		}))
+	end)
+	slot0:bind(uv0.BEGIN_STAGE_PROXY, function (slot0, slot1, slot2)
+		slot3 = nil
 
 		uv0:sendNotification(GAME.BEGIN_STAGE, {
 			stageId = (not uv0.contextData.rivalId or uv0.contextData.rivalId) and uv0.contextData.stageId,
 			mainFleetId = slot1,
 			system = uv0.contextData.system,
 			actId = uv0.contextData.actId,
-			rivalId = uv0.contextData.rivalId
+			rivalId = uv0.contextData.rivalId,
+			continuousBattleTimes = slot2,
+			totalBattleTimes = slot2
 		})
 	end)
 end
@@ -289,7 +322,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.BEGIN_STAGE_DONE,
 		PlayerProxy.UPDATED,
 		GAME.BEGIN_STAGE_ERRO,
-		PreCombatMediator.BEGIN_STAGE_PROXY
+		PreCombatMediator.BEGIN_STAGE_PROXY,
+		uv0.CONTINUOUS_OPERATION
 	}
 end
 
@@ -312,6 +346,8 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == PreCombatMediator.BEGIN_STAGE_PROXY then
 		slot0.viewComponent:emit(PreCombatMediator.BEGIN_STAGE_PROXY, slot3)
+	elseif slot2 == uv0.CONTINUOUS_OPERATION then
+		slot0.viewComponent:emit(PreCombatMediator.ON_START, slot3.mainFleetId, slot3.battleTimes)
 	end
 end
 

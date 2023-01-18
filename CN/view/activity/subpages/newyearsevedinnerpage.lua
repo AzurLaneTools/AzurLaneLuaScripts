@@ -34,7 +34,7 @@ function slot0.GetRandomById(slot0)
 	slot1 = slot0.playerId
 	slot2 = {}
 
-	while #slot2 < 6 do
+	while #slot2 < 7 do
 		slot3 = slot1 % 10
 
 		if math.floor(slot1 / 10) == 0 then
@@ -134,9 +134,9 @@ function slot0.UpdateCookData(slot0)
 		return
 	end
 
-	if (slot0.remainCnt == 0 and slot0.usedCnt or slot0.usedCnt + 1) == #slot0.cookTaskIds then
-		slot0.curTaskId = slot0.cookTaskIds[#slot0.cookTaskIds]
-	elseif slot0.remainCnt == 0 then
+	slot3 = slot0.remainCnt == 0 and slot0.usedCnt or slot0.usedCnt + 1
+
+	if slot0.remainCnt == 0 then
 		slot0.curTaskId = slot0.receivedTasks[#slot0.receivedTasks]
 	else
 		slot0.curTaskId = slot2[slot0.randomSeed[slot3] % #slot2 + 1]

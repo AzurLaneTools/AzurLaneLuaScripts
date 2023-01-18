@@ -191,6 +191,22 @@ function slot0.execute(slot0, slot1)
 
 				getProxy(ActivityProxy):updateActivity(slot6)
 			end
+		elseif slot4 == 25 then
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_FIREWORK) and not slot6:isEnd() then
+				slot6.data1 = slot6.data1 - 1
+
+				if not table.contains(slot6.data1_list, slot2.id) then
+					table.insert(slot6.data1_list, slot2.id)
+				end
+
+				slot5:updateActivity(slot6)
+
+				if slot3:getConfig("link_id") > 0 and slot5:getActivityById(slot7) and not slot8:isEnd() then
+					slot8.data1 = slot8.data1 + 1
+
+					slot5:updateActivity(slot8)
+				end
+			end
 		elseif slot4 == 99 then
 			-- Nothing
 		end

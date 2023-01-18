@@ -1200,6 +1200,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100041] = {
+		target_id_2 = "970203",
+		sub_type = 180,
+		desc = "使用谢菲尔德.META获得1次胜利",
+		id = 100041,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100042] = {
+		target_id_2 = "970203",
+		sub_type = 180,
+		desc = "使用谢菲尔德.META击破等级>30的敌方1次",
+		id = 100042,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100043] = {
+		target_id_2 = "970203",
+		sub_type = 180,
+		desc = "使用谢菲尔德.META击破等级>55的敌方1次",
+		id = 100043,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100044] = {
+		target_id_2 = "970203",
+		sub_type = 180,
+		desc = "使用谢菲尔德.META击破等级>80的敌方1次",
+		id = 100044,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100045] = {
+		target_id_2 = "970203",
+		sub_type = 180,
+		desc = "使用谢菲尔德.META击破等级>100的敌方1次",
+		id = 100045,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1293,6 +1333,38 @@ pg.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用亚利桑那.META击破等级>100的敌方1次",
 		id = 200034,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200041] = {
+		target_id_2 = "970203",
+		sub_type = 302,
+		desc = "大型作战内使用谢菲尔德.META获得1次胜利",
+		id = 200041,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200042] = {
+		target_id_2 = "970203",
+		sub_type = 302,
+		desc = "大型作战内使用谢菲尔德.META击破等级>70的敌方1次",
+		id = 200042,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200043] = {
+		target_id_2 = "970203",
+		sub_type = 302,
+		desc = "大型作战内使用谢菲尔德.META击破等级>90的敌方1次",
+		id = 200043,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200044] = {
+		target_id_2 = "970203",
+		sub_type = 302,
+		desc = "大型作战内使用谢菲尔德.META击破等级>100的敌方1次",
+		id = 200044,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1447,6 +1519,11 @@ pg.task_meta_data_template = {
 		100033,
 		100034,
 		100035,
+		100041,
+		100042,
+		100043,
+		100044,
+		100045,
 		200001,
 		200002,
 		200003,
@@ -1458,6 +1535,10 @@ pg.task_meta_data_template = {
 		200031,
 		200032,
 		200033,
-		200034
+		200034,
+		200041,
+		200042,
+		200043,
+		200044
 	}
 }

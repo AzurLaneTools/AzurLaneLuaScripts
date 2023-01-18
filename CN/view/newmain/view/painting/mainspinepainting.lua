@@ -59,8 +59,20 @@ function slot0.InitSpecialTouch(slot0)
 
 	eachChild(slot1, function (slot0)
 		onButton(uv0, slot0, function ()
-			uv0:TriggerEvent(uv0:GetSpecialTouchEvent(uv1.name))
-			uv0:TriggerPersonalTask(uv0.ship.groupId)
+			if uv0:GetSpecialTouchEvent(uv1.name) == "special" then
+				if uv0.isDragAndZoomState then
+					return
+				end
+
+				if uv0.chatting then
+					return
+				end
+
+				uv0.spinePainting:DoSpecialTouch()
+			else
+				uv0:TriggerEvent(slot0)
+				uv0:TriggerPersonalTask(uv0.ship.groupId)
+			end
 		end)
 	end)
 end

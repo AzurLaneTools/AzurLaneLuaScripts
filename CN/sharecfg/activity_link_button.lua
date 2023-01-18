@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			4626
+			4674
 		}
 	},
 	{
@@ -55,24 +55,27 @@ pg.activity_link_button = {
 		type = 0,
 		text_pic = "text_event_minigame",
 		id = 20,
-		group_id = 3,
+		group_id = 4,
 		pic = "event_minigame",
 		order = 1,
 		time = {
 			"default",
-			4602
+			4666
 		}
 	},
 	[30] = {
 		param = "0",
 		name = "event_boss",
-		time = "stop",
-		text_pic = "text_event_boss",
 		type = 0,
-		pic = "event_boss",
+		text_pic = "text_event_boss",
 		id = 30,
-		group_id = 4,
-		order = 1
+		group_id = 3,
+		pic = "event_boss",
+		order = 1,
+		time = {
+			"default",
+			4674
+		}
 	},
 	[40] = {
 		param = "0",

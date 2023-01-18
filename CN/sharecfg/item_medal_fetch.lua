@@ -1169,6 +1169,90 @@ pg.item_medal_fetch = {
 		id = 209,
 		price = 40
 	},
+	[210] = {
+		itemid = 42030,
+		name = "定向蓝图・四期",
+		itemquantity = 1,
+		id = 210,
+		price = 20
+	},
+	[211] = {
+		itemid = 42030,
+		name = "定向蓝图・四期",
+		itemquantity = 2,
+		id = 211,
+		price = 40
+	},
+	[212] = {
+		itemid = 42041,
+		name = "蓝图：普利茅斯",
+		itemquantity = 1,
+		id = 212,
+		price = 20
+	},
+	[213] = {
+		itemid = 42042,
+		name = "蓝图：鲁普雷希特亲王",
+		itemquantity = 1,
+		id = 213,
+		price = 20
+	},
+	[214] = {
+		itemid = 42043,
+		name = "蓝图：{namecode:224}",
+		itemquantity = 1,
+		id = 214,
+		price = 20
+	},
+	[215] = {
+		itemid = 42044,
+		name = "蓝图：契卡洛夫",
+		itemquantity = 1,
+		id = 215,
+		price = 20
+	},
+	[216] = {
+		itemid = 42045,
+		name = "蓝图：布雷斯特",
+		itemquantity = 1,
+		id = 216,
+		price = 20
+	},
+	[217] = {
+		itemid = 42041,
+		name = "蓝图：普利茅斯",
+		itemquantity = 2,
+		id = 217,
+		price = 40
+	},
+	[218] = {
+		itemid = 42042,
+		name = "蓝图：鲁普雷希特亲王",
+		itemquantity = 2,
+		id = 218,
+		price = 40
+	},
+	[219] = {
+		itemid = 42043,
+		name = "蓝图：{namecode:224}",
+		itemquantity = 2,
+		id = 219,
+		price = 40
+	},
+	[220] = {
+		itemid = 42044,
+		name = "蓝图：契卡洛夫",
+		itemquantity = 2,
+		id = 220,
+		price = 40
+	},
+	[221] = {
+		itemid = 42045,
+		name = "蓝图：布雷斯特",
+		itemquantity = 2,
+		id = 221,
+		price = 40
+	},
 	all = {
 		1,
 		2,
@@ -1336,6 +1420,18 @@ pg.item_medal_fetch = {
 		206,
 		207,
 		208,
-		209
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221
 	}
 }

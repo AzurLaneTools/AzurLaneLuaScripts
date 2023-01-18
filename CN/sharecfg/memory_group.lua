@@ -78,6 +78,7 @@ pg.memory_group = {
 			720,
 			721,
 			722,
+			723,
 			725,
 			726,
 			727,
@@ -2989,6 +2990,45 @@ pg.memory_group = {
 			2505
 		}
 	},
+	[236] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 236,
+		title = "冬日的寻路人",
+		memories = {
+			2521,
+			2522,
+			2523,
+			2524,
+			2525
+		}
+	},
+	[237] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 237,
+		title = "华灯流彩正佳音",
+		memories = {
+			2531,
+			2532,
+			2533,
+			2534
+		}
+	},
+	[238] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 238,
+		title = "飞彩迎新春",
+		memories = {
+			2541,
+			2542,
+			2543
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -4423,6 +4463,9 @@ pg.memory_group = {
 		233,
 		234,
 		235,
+		236,
+		237,
+		238,
 		501,
 		502,
 		503,

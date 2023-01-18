@@ -1091,7 +1091,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 64,
 		t_level = 6,
 		ships = {
-			20606
+			20606,
+			20608
 		}
 	},
 	[20701] = {
@@ -2354,6 +2355,28 @@ pg.fleet_tech_ship_class = {
 			50601
 		}
 	},
+	[50602] = {
+		shiptype = 6,
+		name = "华甲",
+		nation = 5,
+		id = 50602,
+		t_level_1 = 130,
+		t_level = 1,
+		ships = {
+			50602
+		}
+	},
+	[51901] = {
+		shiptype = 19,
+		name = "定安",
+		nation = 5,
+		id = 51901,
+		t_level_1 = 131,
+		t_level = 1,
+		ships = {
+			51901
+		}
+	},
 	[60101] = {
 		shiptype = 1,
 		name = "索尔达蒂级",
@@ -2627,7 +2650,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 135,
 		t_level = 7,
 		ships = {
-			70203
+			70203,
+			70205
 		}
 	},
 	[70204] = {
@@ -3159,6 +3183,8 @@ pg.fleet_tech_ship_class = {
 		50204,
 		50205,
 		50601,
+		50602,
+		51901,
 		60101,
 		60102,
 		60103,

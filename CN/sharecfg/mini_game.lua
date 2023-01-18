@@ -1547,6 +1547,57 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		view_name = "NenjuuMiniGameView",
+		name = "年兽小游戏",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 48,
+		hub_id = 40,
+		request_data = 0,
+		simple_config_data = {
+			drop = {
+				{
+					2,
+					60024,
+					1
+				},
+				{
+					2,
+					60024,
+					1
+				},
+				{
+					2,
+					60024,
+					1
+				},
+				{
+					2,
+					60024,
+					1
+				},
+				{
+					2,
+					60024,
+					1
+				},
+				{
+					2,
+					60024,
+					1
+				},
+				{
+					4,
+					501021,
+					1
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1594,6 +1645,7 @@ pg.mini_game = {
 		44,
 		45,
 		46,
-		47
+		47,
+		48
 	}
 }

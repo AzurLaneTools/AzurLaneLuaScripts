@@ -324,3 +324,5 @@ AcademyGraph = {
 		}
 	}
 }
+
+return AcademyGraph
