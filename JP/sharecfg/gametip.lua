@@ -20395,86 +20395,86 @@ cs.gametip = {
 	},
 	multiple_sorties_stopped = {
 		842811,
-		106,
+		97,
 		true
 	},
 	multiple_sorties_stop_tip = {
-		842917,
+		842908,
 		194,
 		true
 	},
 	multiple_sorties_resume_tip = {
-		843111,
+		843102,
 		145,
 		true
 	},
 	multiple_sorties_auto_on = {
-		843256,
+		843247,
 		151,
 		true
 	},
 	multiple_sorties_finish = {
-		843407,
+		843398,
 		120,
 		true
 	},
 	multiple_sorties_stop = {
-		843527,
+		843518,
 		118,
 		true
 	},
 	multiple_sorties_stop_end = {
-		843645,
+		843636,
 		132,
 		true
 	},
 	multiple_sorties_end_status = {
-		843777,
+		843768,
 		218,
 		true
 	},
 	multiple_sorties_finish_tip = {
-		843995,
+		843986,
 		148,
 		true
 	},
 	multiple_sorties_stop_tip_end = {
-		844143,
+		844134,
 		136,
 		true
 	},
 	multiple_sorties_stop_reason1 = {
-		844279,
+		844270,
 		126,
 		true
 	},
 	multiple_sorties_stop_reason2 = {
-		844405,
+		844396,
 		170,
 		true
 	},
 	multiple_sorties_stop_reason3 = {
-		844575,
+		844566,
 		126,
 		true
 	},
 	multiple_sorties_stop_reason4 = {
-		844701,
+		844692,
 		114,
 		true
 	},
 	msgbox_text_battle = {
-		844815,
+		844806,
 		88,
 		true
 	},
 	pre_combat_start = {
-		844903,
+		844894,
 		86,
 		true
 	},
 	pre_combat_start_en = {
-		844989,
+		844980,
 		95,
 		true
 	}

@@ -23316,7 +23316,7 @@ _G.pg.base.gametip.multiple_sorties_cost2 = {
 }
 
 _G.pg.base.gametip.multiple_sorties_stopped = {
-	tip = "中止しました"
+	tip = "中止済"
 }
 
 _G.pg.base.gametip.multiple_sorties_stop_tip = {

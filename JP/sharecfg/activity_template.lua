@@ -4905,7 +4905,7 @@ pg.activity_template = {
 					"DONGRIDEXUNLUREN1"
 				},
 				{
-					7500,
+					6000,
 					"DONGRIDEXUNLUREN2"
 				},
 				{
