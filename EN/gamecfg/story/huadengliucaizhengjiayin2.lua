@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_144",
-			say = "Walk into a room, I smell fresh ink in the air. I presume someone is writing Spring Festival couplets... which isn't entirely right.",
+			say = "Walking into a room, I smell fresh ink in the air. I presume someone is writing Spring Festival couplets... which isn't entirely right.",
 			bgmDelay = 2,
 			bgm = "main-chunjie3",
 			flashout = {

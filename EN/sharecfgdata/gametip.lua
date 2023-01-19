@@ -21403,7 +21403,7 @@ _G.pg.base.gametip.pre_combat_team = {
 }
 
 _G.pg.base.gametip.pre_combat_vanguard = {
-	tip = "Vanguard Fleet"
+	tip = "Vanguard"
 }
 
 _G.pg.base.gametip.pre_combat_main = {
