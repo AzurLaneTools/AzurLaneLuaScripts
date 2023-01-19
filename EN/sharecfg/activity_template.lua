@@ -8500,7 +8500,7 @@ pg.activity_template = {
 		id = 30116
 	},
 	[30117] = {
-		mark = 20220915,
+		mark = 20230112,
 		title_res_tag = "",
 		page_info = "",
 		type = 0,
@@ -8514,9 +8514,9 @@ pg.activity_template = {
 			"timer",
 			{
 				{
-					2022,
-					9,
-					16
+					2023,
+					1,
+					19
 				},
 				{
 					0,
@@ -8526,9 +8526,9 @@ pg.activity_template = {
 			},
 			{
 				{
-					2022,
-					9,
-					25
+					2023,
+					1,
+					23
 				},
 				{
 					23,
