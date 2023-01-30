@@ -71922,7 +71922,7 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 		id = 16380,
 		type = 3,
 		max_level = 10,
-		desc = "When the battle starts, if there are any other ships in your Vanguard: increases this ship's SPD by 10. Every 20s: targets 2 random ships in your fleet and grants them a buff for 8s based on their hull classification; /n1) DD: increases TRP by $1; 2) CL, CA, or CB: increases FP by $2; 3) BB, BC, or BBV: increases ACC by $3; 4) CV or CVL: increases AVI by $4; 5) any other hull classification: increases AA by $5.",
+		desc = "When the battle starts, if there are any other ships in your Vanguard: increases this ship's SPD by 10. Every 20s: targets 2 random ships in your fleet and grants them a buff for 8s based on their hull classification; \n1) DD: increases TRP by $1; 2) CL, CA, or CB: increases FP by $2; 3) BB, BC, or BBV: increases ACC by $3; 4) CV or CVL: increases AVI by $4; 5) any other hull classification: increases AA by $5.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -105935,7 +105935,7 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 	},
 	[1011900] = {
 		desc_get = "",
-		name = "Protector of The North Passage+",
+		name = "Protector of the North Passage+",
 		id = 1011900,
 		type = 1,
 		max_level = 10,
