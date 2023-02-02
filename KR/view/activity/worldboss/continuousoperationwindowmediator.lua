@@ -7,9 +7,7 @@ function slot0.register(slot0)
 			isActiveBot = false,
 			system = SYSTEM_ACT_BOSS
 		})
-
-		ContinuousOperationMediator.isActiveSub = ys.Battle.BattleState.IsAutoSubActive(SYSTEM_ACT_BOSS)
-
+		getProxy(SettingsProxy):RecordContinuousOperationAutoSubStatus(ys.Battle.BattleState.IsAutoSubActive(SYSTEM_ACT_BOSS))
 		uv0:sendNotification(GAME.AUTO_SUB, {
 			isActiveSub = false,
 			system = SYSTEM_ACT_BOSS

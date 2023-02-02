@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	[29] = {
-		answer_right = "1.85km/h",
-		answer_false1 = "1.45mi/h",
-		question = "항속 단위 1 \"노트\"와 같은 속도는?",
+	[43] = {
+		answer_right = "중순양함",
+		answer_false1 = "경순양함",
+		question = "CA는 해군 통용 항선 분류 부호 중 ( )을 가리키는 데 사용된다.",
 		type = 1,
-		id = 29,
-		answer_false3 = "2km/h",
+		id = 43,
+		answer_false3 = "순양전함",
 		wrong_time = 30,
-		answer_false2 = "1mi/h"
+		answer_false2 = "대형순양함"
 	},
-	[30] = {
+	[44] = {
+		answer_right = "대미지 컨트롤",
+		answer_false1 = "긴급 수리",
+		question = "함선이 자신의 체력을 유지하거나 회복하기 위해, 피해를 예방, 제한, 감소하는 대책과 행동은 일반적으로 ( )이라고 불린다.",
+		type = 1,
+		id = 44,
+		answer_false3 = "손상 처리",
+		wrong_time = 30,
+		answer_false2 = "파손 처리"
+	},
+	[45] = {
 		answer_right = "305mm",
 		answer_false1 = "203mm",
-		question = "역사상 구축함이 장비했던 함포 중 최대 함포 구경은?",
+		question = "함선이 장비했던 역사상 가장 큰 함포의 구경은 ( )이다.",
 		type = 1,
-		id = 30,
-		answer_false3 = "138.6mm",
+		id = 45,
+		answer_false3 = "105mm",
 		wrong_time = 30,
-		answer_false2 = "150mm"
+		answer_false2 = "152mm"
 	},
-	[31] = {
-		answer_right = "지근탄",
-		answer_false1 = "불발탄",
-		question = "전함이 발사한 포탄이 적함 주위에 떨어지며 명중하지 못한 현상은?",
+	[46] = {
+		answer_right = "열역학",
+		answer_false1 = "전자식",
+		question = "93식 산소 어뢰는 동력 타입에 따라 분류 시 ( ) 어뢰에 속한다.",
 		type = 1,
-		id = 31,
-		answer_false3 = "확산탄",
+		id = 46,
+		answer_false3 = "특수 동력",
 		wrong_time = 30,
-		answer_false2 = "직격탄"
+		answer_false2 = "에어로졸"
 	},
-	[32] = {
-		answer_right = "1955년",
-		answer_false1 = "1986년",
-		question = "세계에서 가장 마지막으로 완공된 전함이 완공된 년도는?",
+	[47] = {
+		answer_right = "엔진 오더 텔레그래프(EOT)",
+		answer_false1 = "쉽 벨",
+		question = "함선의 함교와 기관실 사이에 함선의 전진 후퇴 지령을 발·수신하는 조종 설비는 ( )이다.",
 		type = 1,
-		id = 32,
-		answer_false3 = "1973년",
+		id = 47,
+		answer_false3 = "무선 전신 통신",
 		wrong_time = 30,
-		answer_false2 = "1951년"
+		answer_false2 = "보이스 튜브"
 	},
-	[33] = {
-		answer_right = "지면 효과 이륙",
-		answer_false1 = "캐터펄트",
-		question = "다음 중 항공모함 함재기의 이륙 방식이 아닌 것은?",
+	[48] = {
+		answer_right = "1922년",
+		answer_false1 = "1919년",
+		question = "순수 항공모함으로 건조된 첫 항공모함의 준공연도는 ( )이다.",
 		type = 1,
-		id = 33,
-		answer_false3 = "캐터펄트",
+		id = 48,
+		answer_false3 = "1920년",
 		wrong_time = 30,
-		answer_false2 = "로켓 보조"
+		answer_false2 = "1924년"
 	},
-	[34] = {
-		answer_right = "중력",
-		answer_false1 = "음향",
-		question = "다음 중 어뢰에 사용되는 신관이 아닌 것은?",
+	[49] = {
+		answer_right = "수중탄 효과",
+		answer_false1 = "수리탄 효과",
+		question = "포탄이 물에 들어간 뒤 수평 방향으로 일정 거리를 전진해 함선의 아래 장갑대에 명중하는 현상은 ( )라고 일컫는다.",
 		type = 1,
-		id = 34,
-		answer_false3 = "자기장",
+		id = 49,
+		answer_false3 = "잠수탄 효과",
 		wrong_time = 30,
-		answer_false2 = "접촉"
+		answer_false2 = "스플래시 효과"
 	},
-	[35] = {
-		answer_right = "HE",
-		answer_false1 = "HEAT",
-		question = "고폭탄의 영문 약칭은?",
-		type = 1,
-		id = 35,
-		answer_false3 = "HAP",
-		wrong_time = 30,
-		answer_false2 = "HESH"
-	},
-	[36] = {
-		answer_right = "20",
-		answer_false1 = "10",
-		question = "함대 상점에서 장비 강화 부속 T4를 한 주에 최대 ()개 획득할 수 있다.",
+	[50] = {
+		answer_right = "102000",
+		answer_false1 = "40000",
+		question = "숙소 식량 저장량의 최대 상한은 ( )이다.",
 		type = 2,
-		id = 36,
-		answer_false3 = "0",
-		wrong_time = 30,
-		answer_false2 = "30"
-	},
-	[37] = {
-		answer_right = "대미지 상승",
-		answer_false1 = "이륙 가속",
-		question = "항공모함이 \"은닉\" 상태일 때, 획득할 수 있는 버프 효과는?",
-		type = 2,
-		id = 37,
-		answer_false3 = "내구도 회복",
-		wrong_time = 30,
-		answer_false2 = "대미지 면역"
-	},
-	[38] = {
-		answer_right = "7",
-		answer_false1 = "5",
-		question = "대형 작전에서, 유저는 데일리 미션을 동시에 최대 ()개 수령할 수 있다.",
-		type = 2,
-		id = 38,
-		answer_false3 = "8",
-		wrong_time = 30,
-		answer_false2 = "6"
-	},
-	[39] = {
-		answer_right = "스킬 효력 상실",
-		answer_false1 = "내구도 상한 감소",
-		question = "대형 작전에서 함선이 전투 피해 상태일 때, 발생하는 효과는?",
-		type = 2,
-		id = 39,
-		answer_false3 = "대미지 상승",
-		wrong_time = 30,
-		answer_false2 = "장전 상승"
-	},
-	[40] = {
-		answer_right = "대공포",
-		answer_false1 = "전투기",
-		question = "장비 개발에서 개발 가능한 장비가 가장 많은 장비 종류는?",
-		type = 2,
-		id = 40,
-		answer_false3 = "구축함 주포",
-		wrong_time = 30,
-		answer_false2 = "어뢰&폭격기"
-	},
-	[41] = {
-		answer_right = "함대 항속 상승",
-		answer_false1 = "함대 기동 상승",
-		question = "다음 중 작전 시 매복 당할 확률을 감소시키지 못하는 방법은?",
-		type = 2,
-		id = 41,
-		answer_false3 = "특수 장비 휴대",
-		wrong_time = 30,
-		answer_false2 = "함대 항공 상승"
-	},
-	[42] = {
-		answer_right = "3000",
-		answer_false1 = "4000",
-		question = "[함선 연습 데이터 T1]의 최대 저장량은?",
-		type = 2,
-		id = 42,
-		answer_false3 = "5000",
+		id = 50,
+		answer_false3 = "80000",
 		wrong_time = 30,
 		answer_false2 = "무제한"
 	},
+	[51] = {
+		answer_right = "구축함",
+		answer_false1 = "잠수함",
+		question = "( )은 한계돌파 MAX 달성 시, 3가지 버프 효과 중 랜덤으로 1가지를 얻을 수 있다.",
+		type = 2,
+		id = 51,
+		answer_false3 = "주력함대",
+		wrong_time = 30,
+		answer_false2 = "공작함"
+	},
+	[52] = {
+		answer_right = "중형 장갑",
+		answer_false1 = "중장갑",
+		question = "반철갑탄은 ( )의 적을 공격 시 대미지가 가장 높다.",
+		type = 2,
+		id = 52,
+		answer_false3 = "세이렌 함대",
+		wrong_time = 30,
+		answer_false2 = "경장갑"
+	},
+	[53] = {
+		answer_right = "37",
+		answer_false1 = "35",
+		question = "대형 작전에서 매주 최대 ( )개의 모항 임무를 접수할 수 있다.",
+		type = 2,
+		id = 53,
+		answer_false3 = "39",
+		wrong_time = 30,
+		answer_false2 = "42"
+	},
+	[54] = {
+		answer_right = "쿨타임 단축",
+		answer_false1 = "범위 확대",
+		question = "「특수 장비 효과-특수 참격」 레벨업 시 어떤 버프 효과가 추가되는가?",
+		type = 2,
+		id = 54,
+		answer_false3 = "탄막 무효화 강화",
+		wrong_time = 30,
+		answer_false2 = "대미지 상승"
+	},
+	[55] = {
+		answer_right = "1400",
+		answer_false1 = "200",
+		question = "META 연구실에서 보유할 수 있는 [파일 비콘 데이터] 상한은 ( )이다.",
+		type = 2,
+		id = 55,
+		answer_false3 = "700",
+		wrong_time = 30,
+		answer_false2 = "100"
+	},
+	[56] = {
+		answer_right = "스테이지 진도 100%",
+		answer_false1 = "3성 수집 완료",
+		question = "일부 스테이지의 [연료 소모 상한] 기능을 해제하는 조건은 ( )이다.",
+		type = 2,
+		id = 56,
+		answer_false3 = "모든 적 처치",
+		wrong_time = 30,
+		answer_false2 = "안전 해역 달성"
+	},
 	all = {
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42
+		43,
+		44,
+		45,
+		46,
+		47,
+		48,
+		49,
+		50,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56
 	}
 }

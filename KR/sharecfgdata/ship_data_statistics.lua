@@ -315186,6 +315186,522 @@ _G.pg.base.ship_data_statistics[9702024] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[9702031] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "셰필드·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702030,
+	english_name = "Sheffield.META",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702031,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		652,
+		30,
+		56,
+		66,
+		0,
+		70,
+		0,
+		43,
+		25,
+		32,
+		78,
+		22
+	},
+	attrs_growth = {
+		11220,
+		411,
+		749,
+		846,
+		0,
+		486,
+		0,
+		606,
+		424,
+		0,
+		0,
+		317
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		211
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.4,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Sheffield.META",
+		"Town-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702032] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "셰필드·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702030,
+	english_name = "Sheffield.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702032,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		811,
+		37,
+		70,
+		82,
+		0,
+		70,
+		0,
+		43,
+		25,
+		32,
+		78,
+		28
+	},
+	attrs_growth = {
+		11220,
+		411,
+		749,
+		846,
+		0,
+		486,
+		0,
+		606,
+		424,
+		0,
+		0,
+		317
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		212
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.4,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Sheffield.META",
+		"Town-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702033] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "셰필드·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702030,
+	english_name = "Sheffield.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702033,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1129,
+		52,
+		98,
+		115,
+		0,
+		70,
+		0,
+		43,
+		25,
+		32,
+		78,
+		39
+	},
+	attrs_growth = {
+		11220,
+		411,
+		749,
+		846,
+		0,
+		486,
+		0,
+		606,
+		424,
+		0,
+		0,
+		317
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		213
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.5,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Sheffield.META",
+		"Town-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9702034] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "셰필드·META",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 9702030,
+	english_name = "Sheffield.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9702034,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1606,
+		74,
+		139,
+		164,
+		0,
+		70,
+		0,
+		43,
+		25,
+		32,
+		78,
+		55
+	},
+	attrs_growth = {
+		11220,
+		411,
+		749,
+		846,
+		0,
+		486,
+		0,
+		606,
+		424,
+		0,
+		0,
+		317
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		214
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.5,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Sheffield.META",
+		"Town-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[9703011] = {
 	raid_distance = 0,
 	oxy_max = 0,

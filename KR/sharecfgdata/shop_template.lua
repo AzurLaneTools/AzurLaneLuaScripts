@@ -32587,7 +32587,8 @@ _G.pg.base.shop_template[70315] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 200,
+	order = 100,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -32598,32 +32599,6 @@ _G.pg.base.shop_template[70315] = {
 	limit_args = {},
 	effect_args = {
 		201022
-	},
-	time = {
-		{
-			{
-				2022,
-				3,
-				31
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				4,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -39099,7 +39074,7 @@ _G.pg.base.shop_template[70481] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39126,7 +39101,7 @@ _G.pg.base.shop_template[70482] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39153,7 +39128,7 @@ _G.pg.base.shop_template[70483] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39180,7 +39155,7 @@ _G.pg.base.shop_template[70484] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39207,7 +39182,7 @@ _G.pg.base.shop_template[70485] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39234,7 +39209,7 @@ _G.pg.base.shop_template[70486] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39261,7 +39236,7 @@ _G.pg.base.shop_template[70488] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39288,7 +39263,7 @@ _G.pg.base.shop_template[70489] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39315,7 +39290,7 @@ _G.pg.base.shop_template[70490] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39342,7 +39317,7 @@ _G.pg.base.shop_template[70491] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39369,7 +39344,7 @@ _G.pg.base.shop_template[70492] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39396,7 +39371,7 @@ _G.pg.base.shop_template[70494] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39423,7 +39398,7 @@ _G.pg.base.shop_template[70495] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39450,7 +39425,7 @@ _G.pg.base.shop_template[70496] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39477,7 +39452,7 @@ _G.pg.base.shop_template[70497] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39504,7 +39479,7 @@ _G.pg.base.shop_template[70498] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39531,7 +39506,7 @@ _G.pg.base.shop_template[70499] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39558,7 +39533,7 @@ _G.pg.base.shop_template[70500] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39585,7 +39560,7 @@ _G.pg.base.shop_template[70501] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -40285,10 +40260,11 @@ _G.pg.base.shop_template[70516] = {
 	desc = "购买皮肤:神速睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 200,
+	order = 100,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -40299,32 +40275,6 @@ _G.pg.base.shop_template[70516] = {
 	limit_args = {},
 	effect_args = {
 		701061
-	},
-	time = {
-		{
-			{
-				2022,
-				3,
-				31
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				4,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 

@@ -6232,12 +6232,13 @@ pg.activity_template = {
 	},
 	[4636] = {
 		mark = 20230112,
-		config_client = "",
 		title_res_tag = "muyuechunjie",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 28,
+		config_client = "",
 		id = 4636,
 		config_data = {
 			{
@@ -6269,33 +6270,6 @@ pg.activity_template = {
 				18200
 			}
 		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MutsukiNewYearSkinPage",
 			ui_name = "MutsukiNewYearSkinPage"
@@ -6303,41 +6277,15 @@ pg.activity_template = {
 	},
 	[4637] = {
 		mark = 20230112,
-		config_client = "",
 		title_res_tag = "ijnuranamipilegame",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 39,
 		is_show = 29,
+		config_client = "",
 		id = 4637,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "IJNUranamiPileGamePage",
 			ui_name = "IJNUranamiPileGamePage"
@@ -6345,12 +6293,13 @@ pg.activity_template = {
 	},
 	[4638] = {
 		mark = 20230112,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 86,
 		login_pop = 0,
 		config_id = 1,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4638,
 		config_data = {
 			18166,
@@ -6360,33 +6309,6 @@ pg.activity_template = {
 			18170,
 			18171,
 			18172
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			[18166] = {
@@ -6428,12 +6350,13 @@ pg.activity_template = {
 	},
 	[4639] = {
 		mark = 20230112,
-		id = 4639,
 		title_res_tag = "NewYearsEveDinner",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 34,
+		id = 4639,
 		config_data = {
 			{
 				18173,
@@ -6464,33 +6387,6 @@ pg.activity_template = {
 				18186
 			}
 		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewYearsEveDinnerPage",
 			ui_name = "NewYearsEveDinnerPage"
@@ -6501,81 +6397,29 @@ pg.activity_template = {
 	},
 	[4659] = {
 		mark = 20230118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4659,
 		config_data = {
 			18250
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4660] = {
 		mark = 20230118,
-		id = 4660,
 		title_res_tag = "NewYear4thSkinShow",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 40,
+		id = 4660,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "Spring23AnniversaryPage",
 			ui_name = "Spring23AnniversaryPage"
@@ -6651,12 +6495,13 @@ pg.activity_template = {
 	},
 	[4661] = {
 		mark = 20230118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 43,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4661,
 		config_data = {
 			{
@@ -6688,45 +6533,19 @@ pg.activity_template = {
 				99096
 			}
 		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			ui = "ColoringAnshanUI"
 		}
 	},
 	[4662] = {
 		mark = 20230118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4662,
 		config_data = {
@@ -6748,71 +6567,18 @@ pg.activity_template = {
 			18319,
 			18320,
 			18321
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4663] = {
 		mark = 20230118,
-		id = 4663,
 		title_res_tag = "NewYearGreeting",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 4663,
 		is_show = 35,
+		id = 4663,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewYearGreetingPtPage",
 			ui_name = "NewYearGreetingPtPage"
@@ -6825,12 +6591,13 @@ pg.activity_template = {
 	},
 	[4664] = {
 		mark = 20230118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4664,
 		config_data = {
@@ -6860,72 +6627,19 @@ pg.activity_template = {
 			18274,
 			18275,
 			18276
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4665] = {
 		mark = 20230118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 64,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4665,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			story = {
 				{
@@ -6949,41 +6663,15 @@ pg.activity_template = {
 	},
 	[4666] = {
 		mark = 20230118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 57,
 		login_pop = 0,
 		config_id = 40,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4666,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			scene = "SPRING FESTIVAL BackHill 2023",
 			ships = {
@@ -7008,42 +6696,16 @@ pg.activity_template = {
 	},
 	[4667] = {
 		mark = 20230118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 79,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4667,
 		config_data = {
 			2
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			linkActID = 4668
@@ -7051,12 +6713,13 @@ pg.activity_template = {
 	},
 	[4668] = {
 		mark = 20230118,
-		config_client = "",
 		title_res_tag = "worldinpicture",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 36,
+		config_client = "",
 		id = 4668,
 		config_data = {
 			{
@@ -7088,33 +6751,6 @@ pg.activity_template = {
 				18303
 			}
 		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "WorldInPictureRePage",
 			ui_name = "WorldInPictureRePage"
@@ -7122,40 +6758,14 @@ pg.activity_template = {
 	},
 	[4669] = {
 		mark = 20230118,
-		id = 4669,
 		title_res_tag = "springcouplet",
+		time = "stop",
 		type = 21,
 		login_pop = 0,
 		config_id = 1,
 		is_show = 37,
+		id = 4669,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "SpringCoupletPage",
 			ui_name = "SpringCoupletPage"
@@ -7175,12 +6785,13 @@ pg.activity_template = {
 	},
 	[4670] = {
 		mark = 20230118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4670,
 		config_data = {
@@ -7205,71 +6816,18 @@ pg.activity_template = {
 			{
 				18283
 			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4671] = {
 		mark = 20230118,
-		id = 4671,
 		title_res_tag = "fireworks_pt",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 4671,
 		is_show = 38,
+		id = 4671,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "FireworksPtPage",
 			ui_name = "FireworksPtPage"
@@ -7280,12 +6838,13 @@ pg.activity_template = {
 	},
 	[4672] = {
 		mark = 20230118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 92,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4672,
 		config_data = {
 			2,
@@ -7310,33 +6869,6 @@ pg.activity_template = {
 				70118
 			}
 		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			story = {
 				{
@@ -7356,7 +6888,7 @@ pg.activity_template = {
 	},
 	[4673] = {
 		mark = 20230118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
@@ -7364,34 +6896,8 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "[{31959,100}]",
 		config_client = "",
-		id = 4673,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 4673
 	},
 	[4674] = {
 		mark = 20230118,
@@ -7537,12 +7043,13 @@ pg.activity_template = {
 	},
 	[4677] = {
 		mark = 20230118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4677,
 		config_data = {
@@ -7552,75 +7059,22 @@ pg.activity_template = {
 			18287,
 			18288,
 			18289
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4678] = {
 		mark = 20230118,
-		id = 4678,
 		title_res_tag = "springSkinGuide",
+		time = "stop",
 		type = 86,
 		login_pop = 0,
 		config_id = 1,
 		is_show = 39,
+		id = 4678,
 		config_data = {
 			18322,
 			18323,
 			18324,
 			18325
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "Spring23SkinGuidePage",
@@ -7645,41 +7099,15 @@ pg.activity_template = {
 	},
 	[4679] = {
 		mark = 20230118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
 		config_data = "activity_drop_4679",
+		title_res_tag = "",
 		id = 4679,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 2,
 			bg = "loadingbg/bg_build_2_act",
@@ -7699,12 +7127,13 @@ pg.activity_template = {
 	},
 	[4680] = {
 		mark = 20230118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4680,
 		config_data = {
@@ -7718,38 +7147,11 @@ pg.activity_template = {
 			359,
 			360,
 			361
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4681] = {
 		mark = 20230118,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
@@ -7757,14 +7159,26 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "[{31969,100}]",
 		config_client = "",
-		id = 4681,
+		title_res_tag = "",
+		id = 4681
+	},
+	[4682] = {
+		mark = 20230202,
+		title_res_tag = "",
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 41,
+		is_show = 0,
+		id = 4682,
+		config_data = {},
 		time = {
 			"timer",
 			{
 				{
 					2023,
-					1,
-					18
+					2,
+					2
 				},
 				{
 					0,
@@ -7776,7 +7190,7 @@ pg.activity_template = {
 				{
 					2023,
 					2,
-					1
+					16
 				},
 				{
 					23,
@@ -7784,6 +7198,80 @@ pg.activity_template = {
 					59
 				}
 			}
+		},
+		config_client = {
+			miniGame = 49
+		}
+	},
+	[4683] = {
+		mark = 20230202,
+		config_client = "",
+		title_res_tag = "nagara_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 20,
+		id = 4683,
+		config_data = {
+			{
+				18326,
+				18327
+			},
+			{
+				18328,
+				18329
+			},
+			{
+				18330,
+				18331
+			},
+			{
+				18332,
+				18333
+			},
+			{
+				18334,
+				18335
+			},
+			{
+				18336,
+				18337
+			},
+			{
+				18338,
+				18339
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NagaraSkinPage",
+			ui_name = "NagaraSkinPage"
 		}
 	},
 	[7004] = {
@@ -8147,6 +7635,88 @@ pg.activity_template = {
 				{
 					9,
 					2028,
+					1
+				}
+			}
+		}
+	},
+	[7009] = {
+		mark = 20230202,
+		id = 7009,
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_data = {
+			81,
+			82,
+			83,
+			84,
+			85,
+			86,
+			87,
+			88,
+			89
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage9"
+		},
+		config_client = {
+			map_name = "map_202302",
+			spine_name = "chess_ximu",
+			tips = {
+				"battlepass_main_tip_2302",
+				"battlepass_main_help_2302",
+				"cruise_task_help_2302"
+			},
+			equip_skin = {
+				{
+					9,
+					2029,
+					1
+				},
+				{
+					9,
+					2030,
+					1
+				},
+				{
+					9,
+					2031,
+					1
+				},
+				{
+					9,
+					2032,
 					1
 				}
 			}
@@ -13265,11 +12835,14 @@ pg.activity_template = {
 		4679,
 		4680,
 		4681,
+		4682,
+		4683,
 		7004,
 		7005,
 		7006,
 		7007,
 		7008,
+		7009,
 		8009,
 		8010,
 		8019,

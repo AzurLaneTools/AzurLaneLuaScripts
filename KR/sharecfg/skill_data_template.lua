@@ -70048,7 +70048,7 @@ pg.skill_data_template = {
 	},
 	[16220] = {
 		desc_get = "",
-		name = "슬픔의 도시를 넘어",
+		name = "슬픔을 넘어선 요크타운",
 		id = 16220,
 		type = 3,
 		max_level = 10,
@@ -70381,7 +70381,7 @@ pg.skill_data_template = {
 	},
 	[16240] = {
 		desc_get = "",
-		name = "슬픔의 도시를 넘어",
+		name = "슬픔을 넘어선 요크타운",
 		id = 16240,
 		type = 3,
 		max_level = 10,
@@ -104175,7 +104175,7 @@ pg.skill_data_template = {
 	},
 	[800702] = {
 		desc_get = "",
-		name = "破敌之炬·谢菲尔德II",
+		name = "섬멸의 횃불·셰필드II",
 		id = 800702,
 		type = 3,
 		max_level = 1,
@@ -104207,7 +104207,7 @@ pg.skill_data_template = {
 	},
 	[800707] = {
 		desc_get = "",
-		name = "破敌之炬·谢菲尔德II",
+		name = "섬멸의 횃불·셰필드II",
 		id = 800707,
 		type = 3,
 		max_level = 1,

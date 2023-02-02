@@ -16,6 +16,7 @@ function slot0.execute(slot0)
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips("Sign Error:" .. slot0.result)
+			getProxy(RefluxProxy):setAutoActionForbidden(true)
 		end
 	end)
 end

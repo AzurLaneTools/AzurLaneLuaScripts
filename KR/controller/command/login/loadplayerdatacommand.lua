@@ -229,6 +229,7 @@ function slot0.execute(slot0, slot1)
 		MonthCardOutDateTipPanel.SetMonthCardEndDateLocal()
 		pg.NewStoryMgr.GetInstance():Fix()
 		getProxy(SettingsProxy):ResetTimeLimitSkinShopTip()
+		getProxy(SettingsProxy):ResetContinuousOperationAutoSub()
 		getProxy(PlayerProxy):setInited(true)
 
 		if MainCheckShipNumSequence.New():Check(slot0.ship_count) then

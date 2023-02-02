@@ -11046,6 +11046,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -20373,6 +20384,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -25153,6 +25175,41 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30018] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30018,
+		code = 30018,
+		group_type = 970203,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 월드 투어",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9702031
+					}
+				},
+				0
+			}
+		}
+	},
 	get_id_list_by_group_type = {
 		[10000] = {
 			1
@@ -26983,6 +27040,9 @@ pg.ship_data_group = {
 		},
 		[970503] = {
 			30017
+		},
+		[970203] = {
+			30018
 		}
 	},
 	all = {
@@ -27595,6 +27655,7 @@ pg.ship_data_group = {
 		30014,
 		30015,
 		30016,
-		30017
+		30017,
+		30018
 	}
 }
