@@ -1,22 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		param = "4683",
 		id = 1,
 		pic = "temp1",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2023,
-					1,
-					18
+					2,
+					2
 				},
 				{
 					0,
@@ -28,7 +22,7 @@ pg.activity_banner = {
 				{
 					2023,
 					2,
-					2
+					16
 				},
 				{
 					23,
@@ -39,18 +33,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "7009",
 		id = 2,
 		pic = "temp2",
-		type = 2,
-		param = {
-			"scene skinshop"
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2023,
-					1,
-					18
+					2,
+					2
 				},
 				{
 					0,
@@ -62,7 +54,7 @@ pg.activity_banner = {
 				{
 					2023,
 					2,
-					1
+					16
 				},
 				{
 					23,
@@ -74,102 +66,27 @@ pg.activity_banner = {
 	},
 	{
 		param = "4671",
-		id = 3,
-		pic = "temp3",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 3,
+		pic = "temp3"
 	},
 	{
 		param = "4669",
-		id = 4,
-		pic = "temp4",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 4,
+		pic = "temp4"
 	},
 	{
 		id = 5,
 		pic = "temp5",
+		time = "stop",
 		type = 2,
 		param = {
 			"shipblueprint",
 			{
 				shipGroupId = 49902
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -386,67 +303,17 @@ pg.activity_banner = {
 	},
 	[100] = {
 		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
-		id = 100,
-		pic = "dumpling",
+		time = "stop",
 		type = 10,
-		time = {
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 100,
+		pic = "dumpling"
 	},
 	[200] = {
 		param = "",
-		id = 200,
-		pic = "springfes",
+		time = "stop",
 		type = 13,
-		time = {
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 200,
+		pic = "springfes"
 	},
 	[201] = {
 		param = "",
@@ -456,17 +323,17 @@ pg.activity_banner = {
 		pic = "winter"
 	},
 	get_id_list_by_type = {
-		[2] = {
+		[3] = {
 			1,
 			2,
+			3,
+			4
+		},
+		[2] = {
 			5,
 			6,
 			7,
 			8
-		},
-		[3] = {
-			3,
-			4
 		},
 		[9] = {
 			90,

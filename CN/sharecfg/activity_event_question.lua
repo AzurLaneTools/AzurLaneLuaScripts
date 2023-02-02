@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	[29] = {
-		answer_right = "1.85公里/时",
-		answer_false1 = "1.45英里/时",
-		question = "航速单位1“节”可以换算为（）",
+	[43] = {
+		answer_right = "重巡洋舰",
+		answer_false1 = "轻巡洋舰",
+		question = "CA在海军通用舰船分类符号中用来指代（） ",
 		type = 1,
-		id = 29,
-		answer_false3 = "2公里/时",
+		id = 43,
+		answer_false3 = "战列巡洋舰",
 		wrong_time = 30,
-		answer_false2 = "1英里/时"
+		answer_false2 = "大型巡洋舰"
 	},
-	[30] = {
+	[44] = {
+		answer_right = "损害管制",
+		answer_false1 = "紧急维修",
+		question = "舰艇为保持或恢复自身生命力所采取的预防、限制和消除损害的措施和行动一般被称为（） ",
+		type = 1,
+		id = 44,
+		answer_false3 = "损伤处置",
+		wrong_time = 30,
+		answer_false2 = "损毁处理"
+	},
+	[45] = {
 		answer_right = "305mm",
 		answer_false1 = "203mm",
-		question = "历史上驱逐舰装备过最大口径的舰炮的口径为（） ",
+		question = "历史上潜艇装备过最大口径的舰炮的口径为（） ",
 		type = 1,
-		id = 30,
-		answer_false3 = "138.6mm",
+		id = 45,
+		answer_false3 = "105mm",
 		wrong_time = 30,
-		answer_false2 = "150mm"
+		answer_false2 = "152mm"
 	},
-	[31] = {
-		answer_right = "跨射",
-		answer_false1 = "歪射",
-		question = "海战中战舰发射的炮弹落在敌舰周围而没有命中的现象称为（） ",
+	[46] = {
+		answer_right = "热动力鱼雷",
+		answer_false1 = "机械动力鱼雷",
+		question = "93式氧气鱼雷按动力类型分类属于（）鱼雷 ",
 		type = 1,
-		id = 31,
-		answer_false3 = "散射",
+		id = 46,
+		answer_false3 = "特殊动力鱼雷",
 		wrong_time = 30,
-		answer_false2 = "斜射"
+		answer_false2 = "气体动力鱼雷"
 	},
-	[32] = {
-		answer_right = "1955年",
-		answer_false1 = "1986年",
-		question = "世界上最晚完工的战列舰在（）完工 ",
+	[47] = {
+		answer_right = "车钟",
+		answer_false1 = "船钟",
+		question = "舰艇上舰桥与轮机舱之间发出与接收舰艇前进倒退指令的操纵设备是（） ",
 		type = 1,
-		id = 32,
-		answer_false3 = "1973年",
+		id = 47,
+		answer_false3 = "短波无线电",
 		wrong_time = 30,
-		answer_false2 = "1951年"
+		answer_false2 = "传声管"
 	},
-	[33] = {
-		answer_right = "地效起飞",
-		answer_false1 = "液压弹射起飞",
-		question = "以下哪个选项不是航空母舰舰载机的起飞方式？",
+	[48] = {
+		answer_right = "1922年",
+		answer_false1 = "1919年",
+		question = "世界上第一艘专门建造的标准航空母舰在（）建成服役 ",
 		type = 1,
-		id = 33,
-		answer_false3 = "滑跃起飞",
+		id = 48,
+		answer_false3 = "1920年",
 		wrong_time = 30,
-		answer_false2 = "火箭助推起飞"
+		answer_false2 = "1924年"
 	},
-	[34] = {
-		answer_right = "重力引信",
-		answer_false1 = "声引信",
-		question = "以下哪种引信不是鱼雷使用的引信 ？",
+	[49] = {
+		answer_right = "水中弹",
+		answer_false1 = "水里弹",
+		question = "炮弹进入水中后以水平方向前进一定距离，从而命中舰船水线下装甲带的现象被称为（） ",
 		type = 1,
-		id = 34,
-		answer_false3 = "磁引信",
+		id = 49,
+		answer_false3 = "潜水弹",
 		wrong_time = 30,
-		answer_false2 = "碰撞引信"
+		answer_false2 = "溅水弹"
 	},
-	[35] = {
-		answer_right = "SAP",
-		answer_false1 = "HAP",
-		question = "半穿甲弹的英文缩写是（） ",
-		type = 1,
-		id = 35,
-		answer_false3 = "BAP",
-		wrong_time = 30,
-		answer_false2 = "HESH"
-	},
-	[36] = {
-		answer_right = "20",
-		answer_false1 = "10",
-		question = "舰队商店一周最多可以获取（）个强化部件T4 ",
+	[50] = {
+		answer_right = "102000",
+		answer_false1 = "40000",
+		question = "后宅食物存量最大上限为（） ",
 		type = 2,
-		id = 36,
-		answer_false3 = "0",
+		id = 50,
+		answer_false3 = "80000",
 		wrong_time = 30,
-		answer_false2 = "30"
+		answer_false2 = "无上限"
 	},
-	[37] = {
-		answer_right = "伤害提高",
-		answer_false1 = "起飞加快",
-		question = "航空母舰处于“隐匿”状态时会获得哪种增益效果 ？",
+	[51] = {
+		answer_right = "驱逐舰",
+		answer_false1 = "潜水艇",
+		question = "（）突破至满星后，会获得三种不同方向增益效果的其中一种 ",
 		type = 2,
-		id = 37,
-		answer_false3 = "耐久回复",
+		id = 51,
+		answer_false3 = "后排主力",
 		wrong_time = 30,
-		answer_false2 = "免疫伤害"
+		answer_false2 = "维修舰"
 	},
-	[38] = {
-		answer_right = "7",
-		answer_false1 = "5",
-		question = "大型作战中，玩家最多可以同时接取（）个每日任务 ",
+	[52] = {
+		answer_right = "中型装甲",
+		answer_false1 = "重型装甲",
+		question = "半穿甲弹攻击（）目标时伤害最高 ",
 		type = 2,
-		id = 38,
-		answer_false3 = "8",
+		id = 52,
+		answer_false3 = "塞壬阵营",
 		wrong_time = 30,
-		answer_false2 = "6"
+		answer_false2 = "轻型装甲"
 	},
-	[39] = {
-		answer_right = "技能失效",
-		answer_false1 = "耐久上限减少",
-		question = "大型作战中，舰船进入战损状态后会获得哪种BUFF效果？",
+	[53] = {
+		answer_right = "37",
+		answer_false1 = "35",
+		question = "大型作战中，指挥官每周最多接取（）个港口任务 ",
 		type = 2,
-		id = 39,
-		answer_false3 = "伤害提高",
+		id = 53,
+		answer_false3 = "39",
 		wrong_time = 30,
-		answer_false2 = "装填提升"
+		answer_false2 = "42"
 	},
-	[40] = {
-		answer_right = "防空炮",
-		answer_false1 = "战斗机",
-		question = "在装备研发中拥有最多可研发装备的装备种类是 （）",
+	[54] = {
+		answer_right = "冷却变短",
+		answer_false1 = "范围扩大",
+		question = "提升「兵装效果-特殊斩击」等级不会给特殊斩击带来哪种增益？ ",
 		type = 2,
-		id = 40,
-		answer_false3 = "驱逐主炮",
+		id = 54,
+		answer_false3 = "消弹能力提升",
 		wrong_time = 30,
-		answer_false2 = "鱼雷&轰炸机"
+		answer_false2 = "伤害提升"
 	},
-	[41] = {
-		answer_right = "提升队伍航速",
-		answer_false1 = "提升队伍机动",
-		question = "以下哪种行为不能降低在作战中被伏击的概率 ？",
+	[55] = {
+		answer_right = "1400",
+		answer_false1 = "200",
+		question = "META研究室中，指挥官可持有的【档案信标数据】上限为（）",
 		type = 2,
-		id = 41,
-		answer_false3 = "携带特殊装备",
+		id = 55,
+		answer_false3 = "700",
 		wrong_time = 30,
-		answer_false2 = "提升队伍航空"
+		answer_false2 = "100"
 	},
-	[42] = {
-		answer_right = "3000",
-		answer_false1 = "4000",
-		question = "【舰艇演习数据T1】的储存数量上限是（） ",
+	[56] = {
+		answer_right = "关卡进度100%",
+		answer_false1 = "完成三星收集",
+		question = "部分地图的【石油消耗上限】功能解锁条件为 （）",
 		type = 2,
-		id = 42,
-		answer_false3 = "5000",
+		id = 56,
+		answer_false3 = "击破全部敌人",
 		wrong_time = 30,
-		answer_false2 = "无限制"
+		answer_false2 = "达成安全海域"
 	},
 	all = {
-		29,
-		30,
-		31,
-		32,
-		33,
-		34,
-		35,
-		36,
-		37,
-		38,
-		39,
-		40,
-		41,
-		42
+		43,
+		44,
+		45,
+		46,
+		47,
+		48,
+		49,
+		50,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56
 	}
 }

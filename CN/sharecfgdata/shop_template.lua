@@ -36496,7 +36496,7 @@ _G.pg.base.shop_template[70314] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 20,
+	order = 0,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -36545,10 +36545,11 @@ _G.pg.base.shop_template[70315] = {
 	desc = "购买皮肤：阿卡斯塔元宵节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 23,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -36559,32 +36560,6 @@ _G.pg.base.shop_template[70315] = {
 	limit_args = {},
 	effect_args = {
 		201022
-	},
-	time = {
-		{
-			{
-				2022,
-				5,
-				26
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				5,
-				29
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -42537,7 +42512,7 @@ _G.pg.base.shop_template[70454] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 23,
+	order = 24,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -42564,7 +42539,7 @@ _G.pg.base.shop_template[70455] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 23,
+	order = 24,
 	time = "stop",
 	group = 0,
 	num = 1,
@@ -42591,7 +42566,7 @@ _G.pg.base.shop_template[70456] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 23,
+	order = 24,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -42618,7 +42593,7 @@ _G.pg.base.shop_template[70457] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 23,
+	order = 24,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -42749,7 +42724,7 @@ _G.pg.base.shop_template[70461] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 22,
+	order = 24,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -42776,7 +42751,7 @@ _G.pg.base.shop_template[70462] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 22,
+	order = 24,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -42855,7 +42830,7 @@ _G.pg.base.shop_template[70465] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 22,
+	order = 24,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -42882,7 +42857,7 @@ _G.pg.base.shop_template[70466] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 22,
+	order = 24,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -43429,7 +43404,7 @@ _G.pg.base.shop_template[70477] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 22,
+	order = 24,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -43508,7 +43483,7 @@ _G.pg.base.shop_template[70479] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 20,
+	order = 0,
 	time = "stop",
 	group = 0,
 	num = 1,
@@ -45171,10 +45146,11 @@ _G.pg.base.shop_template[70516] = {
 	desc = "购买皮肤:神速睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 3,
+	order = 23,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -45185,32 +45161,6 @@ _G.pg.base.shop_template[70516] = {
 	limit_args = {},
 	effect_args = {
 		701061
-	},
-	time = {
-		{
-			{
-				2021,
-				12,
-				23
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2021,
-				12,
-				28
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 

@@ -659,24 +659,26 @@ function slot0.getBuildPoolActivity(slot0, slot1)
 end
 
 function slot0.getEnterReadyActivity(slot0)
-	slot2 = {}
+	slot3 = {}
 
-	for slot6, slot7 in ipairs({
-		ActivityConst.ACTIVITY_TYPE_ZPROJECT,
-		ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2
-	}) do
-		slot2[slot7] = 0
+	for slot7, slot8 in ipairs(_.keys({
+		[ActivityConst.ACTIVITY_TYPE_ZPROJECT] = false,
+		[ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2] = function (slot0)
+			return not slot0:checkBattleTimeInBossAct()
+		end
+	})) do
+		slot3[slot8] = 0
 	end
 
-	for slot6, slot7 in pairs(slot0.data) do
-		if slot2[slot7:getConfig("type")] and not slot7:isEnd() then
-			slot2[slot8] = math.max(slot2[slot8], slot6)
+	for slot7, slot8 in pairs(slot0.data) do
+		if slot3[slot8:getConfig("type")] and not slot8:isEnd() and not existCall(slot1[slot9], slot8) then
+			slot3[slot9] = math.max(slot3[slot9], slot7)
 		end
 	end
 
-	for slot6, slot7 in ipairs(slot1) do
-		if slot2[slot7] > 0 then
-			return slot0.data[slot2[slot7]]
+	for slot7, slot8 in ipairs(slot2) do
+		if slot3[slot8] > 0 then
+			return slot0.data[slot3[slot8]]
 		end
 	end
 end

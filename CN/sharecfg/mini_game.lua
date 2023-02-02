@@ -1598,6 +1598,19 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		view_name = "LanternFestivalView",
+		name = "元宵答题4",
+		simple_config_data = "",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "activity_event_question",
+		id = 49,
+		hub_id = 41,
+		request_data = 1
+	},
 	all = {
 		1,
 		2,
@@ -1646,6 +1659,7 @@ pg.mini_game = {
 		45,
 		46,
 		47,
-		48
+		48,
+		49
 	}
 }

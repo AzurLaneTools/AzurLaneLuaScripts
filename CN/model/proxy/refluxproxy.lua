@@ -81,4 +81,8 @@ function slot0.isInRefluxTime(slot0)
 	end
 end
 
+function slot0.setAutoActionForbidden(slot0, slot1)
+	slot0.autoActionForbidden = slot1
+end
+
 return slot0

@@ -10090,7 +10090,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "布里斯托尔、卡律布狄斯 建造追加！"
+	tip = "{namecode:192}、 神速 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -13841,7 +13841,7 @@ _G.pg.base.gametip.lanternRiddles_gametip = {
 第四次答对：T3防御教材*2，100石油 
 第五次答对：T3通用改造部件*3，300物资 
 第六次答对：T3攻击教材*2，100石油 
-第七次答对：<color=#92fc63>高级定向蓝图四期*2</color>，300物资]]
+第七次答对：<color=#92fc63>高级定向蓝图五期*2</color>，300物资]]
 		}
 	}
 }

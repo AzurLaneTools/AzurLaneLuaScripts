@@ -14,10 +14,10 @@ function slot0.Ctor(slot0, slot1, slot2)
 		MainActSummaryBtn.New(slot3, slot2),
 		MainActEscortBtn.New(slot3, slot2),
 		MainActMapBtn.New(slot3, slot2),
-		MainActLotteryBtn.New(slot3, slot2),
 		MainActBossBtn.New(slot3, slot2),
 		MainActBackHillBtn.New(slot3, slot2),
-		MainActAtelierBtn.New(slot3, slot2)
+		MainActAtelierBtn.New(slot3, slot2),
+		MainLanternFestivalBtn.New(slot3, slot2)
 	}
 	slot0.specailBtns = {
 		MainActInsBtn.New(slot3.parent, slot2),
