@@ -27211,6 +27211,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[99981] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "69981",
+		id = 99981,
+		compose_number = 0,
+		target_id = 0
+	},
 	all = {
 		1,
 		2,
@@ -29414,6 +29425,7 @@ pg.item_data_template = {
 		60296,
 		60297,
 		60298,
-		61001
+		61001,
+		99981
 	}
 }
