@@ -82,7 +82,7 @@ function slot0.init(slot0)
 	slot0.selectedMin = defaultValue(slot1.selectedMin, 1)
 	slot0.selectedMax = defaultValue(slot1.selectedMax, pg.gameset.equip_select_limit.key_value or 0)
 	slot0.selectedIds = Clone(slot1.selectedIds or {})
-	slot0.checkEquipment = slot1.onEquipment or function (slot0)
+	slot0.checkEquipment = slot1.onEquipment or function (slot0, slot1, slot2)
 		return true
 	end
 	slot0.onSelected = slot1.onSelected or function ()
@@ -565,23 +565,25 @@ function slot0.didEnter(slot0)
 		setActive(uv0.helpBtn, not slot0)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.weaponToggle, function (slot0)
-		setActive(uv0.BatchDisposeBtn, slot0)
-		setActive(uv0.filterBusyToggle, slot0)
-		setActive(uv0.equipmentToggle, slot0 and not uv0.contextData.shipId)
+		if slot0 then
+			if uv0.contextData.warp ~= StoreHouseConst.WARP_TO_WEAPON then
+				uv0.contextData.warp = StoreHouseConst.WARP_TO_WEAPON
 
-		if slot0 and uv0.contextData.warp ~= StoreHouseConst.WARP_TO_WEAPON then
-			uv0.contextData.warp = StoreHouseConst.WARP_TO_WEAPON
+				setActive(uv0.tip, false)
+				setActive(uv0.capacityTF.parent, true)
 
-			setActive(uv0.tip, false)
-			setActive(uv0.capacityTF.parent, true)
-
-			if uv0.page == uv1 then
-				triggerToggle(uv0.equipmentToggle:Find("skin"), true)
-			elseif uv0.page == uv2 then
-				triggerToggle(uv0.equipmentToggle:Find("spweapon"), true)
-			else
-				triggerToggle(uv0.equipmentToggle:Find("equipment"), true)
+				if uv0.page == uv1 then
+					triggerToggle(uv0.equipmentToggle:Find("skin"), true)
+				elseif uv0.page == uv2 then
+					triggerToggle(uv0.equipmentToggle:Find("spweapon"), true)
+				else
+					triggerToggle(uv0.equipmentToggle:Find("equipment"), true)
+				end
 			end
+		else
+			setActive(uv0.BatchDisposeBtn, false)
+			setActive(uv0.filterBusyToggle, false)
+			setActive(uv0.equipmentToggle, false)
 		end
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.designToggle, function (slot0)
@@ -630,8 +632,7 @@ function slot0.didEnter(slot0)
 			uv0:filterEquipment()
 		end
 
-		setActive(uv0.filterBusyToggle, uv0.mode == StoreHouseConst.OVERVIEW)
-		setActive(uv0.equipmentToggle, uv0.mode == StoreHouseConst.OVERVIEW and not uv0.contextData.shipId)
+		uv0:UpdateWeaponWrapButtons()
 	end, SFX_PANEL)
 	onButton(slot0, findTF(slot0.selectPanel, "cancel_button"), function ()
 		uv0:unselecteAllEquips()
@@ -670,6 +671,7 @@ function slot0.didEnter(slot0)
 	slot2 = slot0.contextData.mode or StoreHouseConst.OVERVIEW
 	slot0.contextData.warp = nil
 	slot0.contextData.mode = nil
+	slot0.mode = slot0.mode or StoreHouseConst.OVERVIEW
 
 	if (slot0.contextData.warp or StoreHouseConst.WARP_TO_MATERIAL) == StoreHouseConst.WARP_TO_DESIGN then
 		triggerToggle(slot0.designToggle, true)
@@ -828,6 +830,8 @@ function slot0.UpdateWeaponWrapButtons(slot0)
 	setActive(slot0.BatchDisposeBtn, slot1 == uv0)
 	setActive(slot0.capacityTF.parent, slot1 == uv0 or slot1 == uv1)
 	setActive(slot0.equipSkinFilteBtn, slot1 == uv2)
+	setActive(slot0.filterBusyToggle, slot0.mode == StoreHouseConst.OVERVIEW)
+	setActive(slot0.equipmentToggle, slot0.mode == StoreHouseConst.OVERVIEW and not slot0.contextData.shipId)
 	slot0:updatePageFilterButtons(slot1)
 end
 

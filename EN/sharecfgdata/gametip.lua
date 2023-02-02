@@ -10209,7 +10209,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Charybdis, Bristol added to standard build pool!"
+	tip = "Oite and Stremitelny added to the standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {

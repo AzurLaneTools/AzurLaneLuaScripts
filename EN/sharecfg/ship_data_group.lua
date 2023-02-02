@@ -11008,6 +11008,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -20337,6 +20348,17 @@ pg.ship_data_group = {
 				"Monthly Sign-in",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}

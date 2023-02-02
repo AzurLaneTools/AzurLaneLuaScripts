@@ -2452,6 +2452,118 @@ pg.activity_template = {
 			}
 		}
 	},
+	[4682] = {
+		mark = 20230202,
+		title_res_tag = "",
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 41,
+		is_show = 0,
+		id = 4682,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			miniGame = 49
+		}
+	},
+	[4683] = {
+		mark = 20230202,
+		config_client = "",
+		title_res_tag = "nagara_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 20,
+		id = 4683,
+		config_data = {
+			{
+				18326,
+				18327
+			},
+			{
+				18328,
+				18329
+			},
+			{
+				18330,
+				18331
+			},
+			{
+				18332,
+				18333
+			},
+			{
+				18334,
+				18335
+			},
+			{
+				18336,
+				18337
+			},
+			{
+				18338,
+				18339
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NagaraSkinPage",
+			ui_name = "NagaraSkinPage"
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		id = 7001,
@@ -23028,6 +23140,8 @@ pg.activity_template = {
 		4679,
 		4680,
 		4681,
+		4682,
+		4683,
 		7001,
 		7002,
 		7003,

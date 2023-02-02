@@ -2779,16 +2779,24 @@ function flushShipCard(slot0, slot1)
 	setActive(slot10, true)
 
 	slot11 = findTF(slot10, "star_tpl")
-	slot13 = slot1:getStar()
+	slot12 = slot10.childCount
 
-	for slot18 = slot10.childCount, slot1:getMaxStar() - 1 do
+	while slot12 < Ship.CONFIG_MAX_STAR do
+		slot12 = slot12 + 1
+
 		cloneTplTo(slot11, slot10)
 	end
 
-	for slot18 = 0, slot10.childCount - 1 do
-		slot10:GetChild(slot18).gameObject:SetActive(slot18 < slot14)
-		SetActive(slot19:Find("star_tpl"), slot18 < slot13)
-		SetActive(slot19:Find("star_empty_tpl"), slot13 <= slot18)
+	slot13 = slot1.getStar(slot1)
+	slot14 = slot1.getMaxStar(slot1)
+
+	for slot18 = 0, slot12 - 1 do
+		slot19 = slot10:GetChild(slot18)
+		slot20 = slot18 < slot14
+		GetOrAddComponent(slot19, typeof(LayoutElement)).ignoreLayout = not slot20
+
+		setImageAlpha(slot19:Find("star_tpl"), slot20 and slot18 < slot13 and 1 or 0)
+		setImageAlpha(slot19:Find("star_empty_tpl"), slot20 and slot13 <= slot18 and 1 or 0)
 	end
 
 	slot15 = findTF(slot0, "content/front/bg_other")

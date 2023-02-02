@@ -725,6 +725,28 @@ function slot0.SetPrevRandomFlagShipTime(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
+function slot0.RecordContinuousOperationAutoSubStatus(slot0, slot1)
+	if slot1 then
+		return
+	end
+
+	PlayerPrefs.SetInt("AutoBotCOFlag" .. getProxy(PlayerProxy):getRawData().id, 1)
+	PlayerPrefs.Save()
+end
+
+function slot0.ResetContinuousOperationAutoSub(slot0)
+	if PlayerPrefs.SetInt("AutoBotCOFlag" .. getProxy(PlayerProxy):getRawData().id, 0) == 0 then
+		return
+	end
+
+	pg.m02:sendNotification(GAME.AUTO_SUB, {
+		isActiveSub = true,
+		system = SYSTEM_ACT_BOSS
+	})
+	PlayerPrefs.SetInt("AutoBotCOFlag" .. slot1, 0)
+	PlayerPrefs.Save()
+end
+
 function slot0.Reset(slot0)
 	slot0:resetEquipSceneIndex()
 	slot0:resetActivityLayerIndex()

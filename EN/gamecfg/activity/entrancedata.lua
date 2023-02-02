@@ -231,7 +231,7 @@ return {
 		banner = "LanternFestival",
 		event = ActivityMediator.GO_MINI_GAME,
 		data = {
-			38
+			MainLanternFestivalBtn.LANTERNFESTIVAL_MINIGAME_ID
 		},
 		isShow = function ()
 			return getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot0:isEnd()
