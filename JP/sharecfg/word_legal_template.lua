@@ -5936,7 +5936,10 @@ temp()
 function temp()
 	uv0["逸"] = {
 		["仙"] = {
-			this = true
+			this = true,
+			["改"] = {
+				this = true
+			}
 		}
 	}
 end

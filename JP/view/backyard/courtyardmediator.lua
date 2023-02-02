@@ -111,6 +111,8 @@ function slot0.register(slot0)
 		getProxy(DormProxy).floor = slot1
 		uv0.contextData.floor = slot1
 		_courtyard = CourtYardBridge.New(uv0:GenCourtYardData())
+
+		uv0.viewComponent:SwitchFloorDone()
 	end)
 	slot0.viewComponent:SetDorm(slot0.contextData.dorm or getProxy(DormProxy):getRawData())
 end

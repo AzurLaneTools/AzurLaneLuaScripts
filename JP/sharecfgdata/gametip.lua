@@ -10101,7 +10101,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ブリストル」「カリブディス」などが常設実装！"
+	tip = "「追風」「ストレミテルヌイ」常設実装！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {

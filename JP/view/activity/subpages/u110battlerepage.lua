@@ -20,7 +20,7 @@ end
 
 function slot0.OnFirstFlush(slot0)
 	onButton(slot0, slot0.battleBtn, function ()
-		if not getProxy(ActivityProxy):getActivityById(pg.activity_const.U110BATTLE_RE_PAGE.act_id) or slot0:isEnd() then
+		if not uv0.activity:getConfig("config_client").fightLinkActID or not getProxy(ActivityProxy):getActivityById(slot0) or slot1:isEnd() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
 
 			return
@@ -32,7 +32,7 @@ function slot0.OnFirstFlush(slot0)
 		uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv0.curTaskVO)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.buildBtn, function ()
-		if not getProxy(ActivityProxy):getActivityById(pg.activity_const.U110BATTLE_RE_PAGE.act_id) or slot0:isEnd() then
+		if not uv0.activity:getConfig("config_client").buildLinkActID or not getProxy(ActivityProxy):getActivityById(slot0) or slot1:isEnd() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
 
 			return

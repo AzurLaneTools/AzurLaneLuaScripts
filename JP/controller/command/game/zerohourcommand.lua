@@ -90,6 +90,8 @@ function slot0.mainHandler(slot0, slot1)
 		end
 	end
 
+	getProxy(RefluxProxy):setAutoActionForbidden(false)
+
 	if slot13:getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) and not slot14:isEnd() then
 		slot14.data1KeyValueList = {
 			{}

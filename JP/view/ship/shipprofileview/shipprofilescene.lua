@@ -778,7 +778,7 @@ function slot0.updateSpinePaintingState(slot0)
 			uv0:StopDailogue()
 
 			if uv0.skin then
-				uv0.pages[uv1.INDEX_PROFILE]:ExecuteAction("Flush", uv0.skin, uv0.spinePaintingisOn)
+				uv0.pages[uv1.INDEX_PROFILE]:ExecuteAction("Flush", uv0.skin, false)
 			end
 		end, SFX_PANEL)
 	else
