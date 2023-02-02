@@ -279,6 +279,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「向上為神國，向下為冥府。穿越逆轉之虹，向著未知進發吧」</color>\n「逆轉彩虹之塔」活動獲取",
 		scene = {}
 	},
+	[318] = {
+		time_limit_type = 0,
+		name = "深寒之星",
+		gain_by = "深度回音",
+		id = 318,
+		time_second = 0,
+		desc = "<color=#ffffff><size=24>「对在极地任务中做出卓越贡献的同志致以最崇高的敬意，欢迎回家！」</size></color>\n「深度回音」活动获取",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂紀念：企業",
@@ -365,6 +374,7 @@ pg.item_data_frame = {
 		315,
 		316,
 		317,
+		318,
 		401,
 		402,
 		414,

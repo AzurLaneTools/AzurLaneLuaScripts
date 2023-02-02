@@ -194185,7 +194185,7 @@ _G.pg.base.chapter_template[1270001] = {
 	name = "“狼群”戰術",
 	count = 0,
 	pop_pic = "",
-	act_id = 40381,
+	act_id = 41062,
 	pos_y = "0.373958333",
 	is_ai = 1,
 	progress_boss = 35,
@@ -194757,7 +194757,7 @@ _G.pg.base.chapter_template[1270002] = {
 	name = "目標，鐵血潛艇！",
 	count = 0,
 	pop_pic = "",
-	act_id = 40381,
+	act_id = 41062,
 	pos_y = "0.079166667",
 	is_ai = 1,
 	progress_boss = 28,
@@ -195430,7 +195430,7 @@ _G.pg.base.chapter_template[1270003] = {
 	name = "恩尼格瑪的去向",
 	count = 0,
 	pop_pic = "",
-	act_id = 40381,
+	act_id = 41062,
 	pos_y = "0.313541667",
 	is_ai = 1,
 	progress_boss = 22,
@@ -195587,7 +195587,11 @@ _G.pg.base.chapter_template[1270003] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		20,
+		30,
+		15
+	},
 	win_condition = {
 		{
 			1,

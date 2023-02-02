@@ -255,6 +255,10 @@ function slot0.initTecPanel(slot0)
 		table.insert(slot0.tecToggles, slot8)
 
 		slot8.name = "Phase" .. slot7
+	end
+
+	for slot7 = 1, slot2 do
+		slot8 = slot3:GetChild(slot7 - 1)
 		slot9 = slot0:findTF("TextImg", slot8)
 
 		print(tostring(slot8))

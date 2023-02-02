@@ -24869,9 +24869,9 @@ _G.pg.base.shop_template[70252] = {
 	time = {
 		{
 			{
-				2022,
-				9,
-				15
+				2023,
+				2,
+				2
 			},
 			{
 				0,
@@ -24881,9 +24881,9 @@ _G.pg.base.shop_template[70252] = {
 		},
 		{
 			{
-				2022,
-				10,
-				12
+				2023,
+				2,
+				15
 			},
 			{
 				23,
@@ -26540,6 +26540,7 @@ _G.pg.base.shop_template[70316] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 540,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -26550,32 +26551,6 @@ _G.pg.base.shop_template[70316] = {
 	limit_args = {},
 	effect_args = {
 		301391
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -26592,6 +26567,7 @@ _G.pg.base.shop_template[70317] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 540,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -26602,32 +26578,6 @@ _G.pg.base.shop_template[70317] = {
 	limit_args = {},
 	effect_args = {
 		301721
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -35338,6 +35288,7 @@ _G.pg.base.shop_template[70502] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 540,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -35348,32 +35299,6 @@ _G.pg.base.shop_template[70502] = {
 	limit_args = {},
 	effect_args = {
 		202032
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -35390,6 +35315,7 @@ _G.pg.base.shop_template[70503] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 540,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -35400,32 +35326,6 @@ _G.pg.base.shop_template[70503] = {
 	limit_args = {},
 	effect_args = {
 		107232
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -35442,6 +35342,7 @@ _G.pg.base.shop_template[70504] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 540,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -35452,32 +35353,6 @@ _G.pg.base.shop_template[70504] = {
 	limit_args = {},
 	effect_args = {
 		101314
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -42715,6 +42590,7 @@ _G.pg.base.shop_template[70665] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 540,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42725,32 +42601,6 @@ _G.pg.base.shop_template[70665] = {
 	limit_args = {},
 	effect_args = {
 		501012
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -42767,6 +42617,7 @@ _G.pg.base.shop_template[70666] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 540,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42777,32 +42628,6 @@ _G.pg.base.shop_template[70666] = {
 	limit_args = {},
 	effect_args = {
 		301153
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -54569,6 +54394,120 @@ _G.pg.base.shop_template[200166] = {
 				2023,
 				2,
 				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[200167] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "120钻石购买限时攻略补给（23情人节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 200167,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2023,
+				1,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				2,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[200168] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "980钻石购买限时礼包-比翼双飞",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 3,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 200168,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40100
+	},
+	time = {
+		{
+			{
+				2023,
+				2,
+				14
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				2,
+				20
 			},
 			{
 				23,

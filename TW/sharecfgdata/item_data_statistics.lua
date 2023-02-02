@@ -142591,6 +142591,27 @@ _G.pg.base.item_data_statistics[59254] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59255] = {
+	display = "用於『明日之星☆閃亮登場！』活動提升角色好感，活動結束後將會消失",
+	name = "友好度",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59255,
+	is_world = 0,
+	icon = "Props/shengdiyagePT",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59256] = {
 	display = "用於頭像框活動兌換，活動結束後將會消失",
 	name = "訓練點數",
@@ -142879,6 +142900,27 @@ _G.pg.base.item_data_statistics[59270] = {
 	id = 59270,
 	is_world = 0,
 	icon = "props/summer_stamp",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59275] = {
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59275,
+	is_world = 0,
+	icon = "Props/xunliandianshu_mv3",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -150220,6 +150262,27 @@ _G.pg.base.item_data_statistics[60233] = {
 	id = 60233,
 	is_world = 0,
 	icon = "Props/henianka2022",
+	price = "",
+	display_icon = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60234] = {
+	display = "用于「情报解密」，活动结束后将会消失",
+	name = "情报点",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 99,
+	link_id = 41068,
+	id = 60234,
+	is_world = 0,
+	icon = "Props/information_pt",
 	price = "",
 	display_icon = {},
 	index = {},

@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 171
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 40936
+		act_id = 41071
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -583,7 +583,7 @@ pg.activity_const = {
 		act_id = 40120
 	},
 	LANTERNFESTIVAL = {
-		act_id = 45035
+		act_id = 41072
 	},
 	VALENTINE = {
 		act_id = 491

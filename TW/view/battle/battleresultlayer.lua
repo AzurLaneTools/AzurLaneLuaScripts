@@ -269,7 +269,11 @@ end
 
 function slot0.setStageName(slot0)
 	if slot0.contextData.system and slot0.contextData.system == SYSTEM_DUEL then
-		setText(slot0._levelText, slot0.rivalVO.name)
+		if slot0.rivalVO then
+			setText(slot0._levelText, slot0.rivalVO.name)
+		else
+			setText(slot0._levelText, "")
+		end
 	else
 		setText(slot0._levelText, pg.expedition_data_template[slot0.contextData.stageId].name)
 	end

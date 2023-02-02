@@ -564,9 +564,10 @@ pg.activity_event_worldboss = {
 	{
 		group_num = 1,
 		damage_resource = 2010,
-		ex_expedition = 1610004,
+		time = "stop",
 		ticket = 2011,
 		submarine_num = 1,
+		ex_expedition = 1610004,
 		id = 6,
 		boss_id = {
 			6
@@ -595,32 +596,6 @@ pg.activity_event_worldboss = {
 			500,
 			0,
 			0
-		},
-		time = {
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		formula = {
 			10,
@@ -998,9 +973,10 @@ pg.activity_event_worldboss = {
 	{
 		group_num = 1,
 		damage_resource = 2016,
-		ex_expedition = 1709004,
+		time = "stop",
 		ticket = 2017,
 		submarine_num = 1,
+		ex_expedition = 1709004,
 		id = 10,
 		boss_id = {
 			9
@@ -1029,32 +1005,6 @@ pg.activity_event_worldboss = {
 			500,
 			0,
 			0
-		},
-		time = {
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		formula = {
 			10,

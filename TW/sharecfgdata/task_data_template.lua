@@ -85385,6 +85385,486 @@ _G.pg.base.task_data_template[15796] = {
 	}
 }
 
+_G.pg.base.task_data_template[15797] = {
+	name = "U110复刻SP3累计1",
+	guild_coin_award = 0,
+	award = 93537,
+	type = 6,
+	desc = "通關10次SP3",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1270003",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 15797,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18012,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1270001,
+			chapterId = 1270001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[15798] = {
+	name = "U110复刻SP3累计2",
+	guild_coin_award = 0,
+	award = 93538,
+	type = 6,
+	desc = "通關20次SP3",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1270003",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 15798,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18012,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1270001,
+			chapterId = 1270002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[15799] = {
+	name = "U110复刻SP3累计3",
+	guild_coin_award = 0,
+	award = 93539,
+	type = 6,
+	desc = "通關30次SP3",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1270003",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 15799,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1270001,
+			chapterId = 1270003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[15800] = {
+	name = "U110复刻SP3累计4",
+	guild_coin_award = 0,
+	award = 93540,
+	type = 6,
+	desc = "通關40次SP3",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1270003",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 15800,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			408081,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1270001,
+			chapterId = 1270001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[15801] = {
+	name = "U110复刻SP1通过任务",
+	guild_coin_award = 0,
+	award = 91890,
+	type = 6,
+	desc = "通關SP1",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1270001",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 15801,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18012,
+			1
+		},
+		{
+			3,
+			2920,
+			1
+		},
+		{
+			3,
+			4040,
+			2
+		},
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1270001,
+			chapterId = 1270002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[15802] = {
+	name = "U110复刻SP2通过任务",
+	guild_coin_award = 0,
+	award = 91891,
+	type = 6,
+	desc = "通關SP2",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1270002",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 15802,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1270001,
+			chapterId = 1270003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[15803] = {
+	name = "U110复刻SP3通过任务",
+	guild_coin_award = 0,
+	award = 91892,
+	type = 6,
+	desc = "通關SP3",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1270003",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 15803,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		},
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1270001,
+			chapterId = 1270003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[15804] = {
+	name = "U110复刻SP1三星任务",
+	guild_coin_award = 0,
+	award = 91893,
+	type = 6,
+	desc = "完成SP1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1270001",
+	next_task = "15805",
+	auto_commit = 0,
+	story_id = "",
+	id = 15804,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1270001,
+			chapterId = 1270003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[15805] = {
+	name = "U110复刻SP2三星任务",
+	guild_coin_award = 0,
+	award = 91894,
+	type = 6,
+	desc = "完成SP2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1270002",
+	next_task = "15806",
+	auto_commit = 0,
+	story_id = "",
+	id = 15805,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1270001,
+			chapterId = 1270003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[15806] = {
+	name = "U110复刻SP3三星任务",
+	guild_coin_award = 0,
+	award = 91895,
+	type = 6,
+	desc = "完成SP3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1270003",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 15806,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1270001,
+			chapterId = 1270003
+		}
+	}
+}
+
 _G.pg.base.task_data_template[15811] = {
 	name = "美服2-战斗胜利I",
 	guild_coin_award = 0,
@@ -118586,6 +119066,38 @@ _G.pg.base.task_data_template[17242] = {
 	}
 }
 
+_G.pg.base.task_data_template[17243] = {
+	name = "小圣地亚哥复刻临时角色加入",
+	guild_coin_award = 0,
+	award = 96510,
+	type = 6,
+	desc = "不该看到",
+	count_inherit = 0,
+	award_display = "[{4,102211,1}]",
+	target_id_2 = "",
+	sub_type = 1011,
+	is_head = 1,
+	task_fold = 0,
+	story_icon = "",
+	award_choice = "",
+	visibility = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_type = 0,
+	priority_type = 0,
+	ryza_icon = "",
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	target_id = "0",
+	scene = "",
+	id = 17243,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {}
+}
+
 _G.pg.base.task_data_template[17253] = {
 	name = "『德系V4』登录送皮肤体验券活动",
 	guild_coin_award = 0,
@@ -123612,6 +124124,542 @@ _G.pg.base.task_data_template[17406] = {
 			5,
 			191,
 			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17416] = {
+	name = "『毛系V3』解密游戏双任务1",
+	guild_coin_award = 0,
+	award = 96956,
+	type = 26,
+	desc = "擊敗旗艦3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17416,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60234,
+			4
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17417] = {
+	name = "『毛系V3』解密游戏双任务2",
+	guild_coin_award = 0,
+	award = 96957,
+	type = 26,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17417,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60234,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17418] = {
+	name = "『毛系V3』解密游戏双任务3",
+	guild_coin_award = 0,
+	award = 96958,
+	type = 26,
+	desc = "強化艦船5次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17418,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60234,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17419] = {
+	name = "『毛系V3』解密游戏双任务4",
+	guild_coin_award = 0,
+	award = 96959,
+	type = 26,
+	desc = "退役艦船2次",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17419,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60234,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17420] = {
+	name = "『毛系V3』解密游戏双任务5",
+	guild_coin_award = 0,
+	award = 96960,
+	type = 26,
+	desc = "進行2次戰術訓練",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17420,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60234,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17421] = {
+	name = "『毛系V3』解密游戏双任务6",
+	guild_coin_award = 0,
+	award = 96961,
+	type = 26,
+	desc = "後宅補充5次食物",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17421,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60234,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17422] = {
+	name = "『毛系V3』解密游戏双任务7",
+	guild_coin_award = 0,
+	award = 96962,
+	type = 26,
+	desc = "擊沉任意敵人20艘",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17422,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60234,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17423] = {
+	name = "『毛系V3』解密游戏双任务8",
+	guild_coin_award = 0,
+	award = 96963,
+	type = 26,
+	desc = "建造艦船2次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17423,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60234,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17424] = {
+	name = "『毛系V3』解密游戏双任务9",
+	guild_coin_award = 0,
+	award = 96964,
+	type = 26,
+	desc = "打開任意科技箱1個",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17424,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60234,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17425] = {
+	name = "『毛系V3』解密游戏双任务10",
+	guild_coin_award = 0,
+	award = 96965,
+	type = 26,
+	desc = "強化艦船5次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17425,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60234,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17426] = {
+	name = "『毛系V3』解密游戏双任务11",
+	guild_coin_award = 0,
+	award = 96966,
+	type = 26,
+	desc = "完成2次委託",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17426,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60234,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17427] = {
+	name = "『毛系V3』解密游戏双任务12",
+	guild_coin_award = 0,
+	award = 96967,
+	type = 26,
+	desc = "後宅補充5次食物",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17427,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60234,
+			4
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17428] = {
+	name = "『毛系V3』解密游戏双任务13",
+	guild_coin_award = 0,
+	award = 96968,
+	type = 26,
+	desc = "強化裝備2次",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17428,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60234,
+			6
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17429] = {
+	name = "『毛系V3』解密游戏双任务14",
+	guild_coin_award = 0,
+	award = 96969,
+	type = 26,
+	desc = "艦隊出征，以S評價通關10次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17429,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60234,
+			6
 		}
 	},
 	scene = {

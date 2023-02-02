@@ -1040,7 +1040,7 @@ pg.mini_game = {
 		config_data = "",
 		config_csv = "",
 		id = 33,
-		hub_id = 27,
+		hub_id = 38,
 		request_data = 0,
 		simple_config_data = {
 			skin_shop_id = 2020772,
@@ -1094,8 +1094,7 @@ pg.mini_game = {
 		hub_id = 27,
 		request_data = 1,
 		simple_config_data = {
-			target = 100000,
-			shipGameID = 35
+			target = 100000
 		},
 		config_data = {
 			5,
@@ -1599,6 +1598,19 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		view_name = "LanternFestivalView",
+		name = "元宵答题4",
+		simple_config_data = "",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "activity_event_question",
+		id = 49,
+		hub_id = 41,
+		request_data = 1
+	},
 	all = {
 		1,
 		2,
@@ -1647,6 +1659,7 @@ pg.mini_game = {
 		45,
 		46,
 		47,
-		48
+		48,
+		49
 	}
 }
