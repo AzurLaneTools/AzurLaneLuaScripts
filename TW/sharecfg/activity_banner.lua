@@ -88,7 +88,7 @@ pg.activity_banner = {
 				{
 					2023,
 					2,
-					16
+					15
 				},
 				{
 					23,
@@ -554,35 +554,10 @@ pg.activity_banner = {
 	},
 	[201] = {
 		param = "",
-		id = 201,
-		pic = "christmas",
+		time = "always",
 		type = 13,
-		time = {
-			{
-				{
-					2022,
-					12,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 201,
+		pic = "winter"
 	},
 	[202] = {
 		param = "",
