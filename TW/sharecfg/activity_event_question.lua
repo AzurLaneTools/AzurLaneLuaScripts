@@ -71,7 +71,7 @@ pg.activity_event_question = {
 		answer_false2 = "濺水彈"
 	},
 	[50] = {
-		answer_right = "102000",
+		answer_right = "90000",
 		answer_false1 = "40000",
 		question = "後宅食物存量最大上限為（）",
 		type = 2,
@@ -121,14 +121,14 @@ pg.activity_event_question = {
 		answer_false2 = "傷害提升"
 	},
 	[55] = {
-		answer_right = "1400",
-		answer_false1 = "200",
-		question = "META研究室中，指揮官可持有的【檔案信標數據】上限為（）",
+		answer_right = "3000",
+		answer_false1 = "4000",
+		question = "【艦艇演習數據T1】的儲存數量上限是（）",
 		type = 2,
 		id = 55,
-		answer_false3 = "700",
+		answer_false3 = "5000",
 		wrong_time = 30,
-		answer_false2 = "100"
+		answer_false2 = "無限制"
 	},
 	[56] = {
 		answer_right = "關卡進度100%",
