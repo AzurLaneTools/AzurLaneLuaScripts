@@ -23829,7 +23829,7 @@ pg.activity_template = {
 		config_client = {
 			id = 1,
 			bg = "loadingbg/bg_build_1_act",
-			buildship_tip = "U-110 建造概率UP！",
+			buildship_tip = "U-110 建造機率UP！",
 			rate_tip = {
 				"<color=#ffde38>超稀有艦船</color>：7%",
 				"<color=#d797ff>精銳艦船</color>：12%",
@@ -24324,7 +24324,7 @@ pg.activity_template = {
 				{
 					2023,
 					2,
-					23
+					22
 				},
 				{
 					23,

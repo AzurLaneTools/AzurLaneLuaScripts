@@ -193,6 +193,7 @@ function slot0.Reset(slot0, slot1)
 	slot0.genItemTime = 0
 	slot0.gearShowTime = 0
 	slot0.timers = {}
+	slot0.startFlag = false
 	slot0.statistics = {
 		Score = 0,
 		Combo = 0,
@@ -242,6 +243,8 @@ function slot0.CalcGearArea(slot0, slot1, slot2)
 end
 
 function slot0.StartGame(slot0)
+	slot0.startFlag = true
+
 	if not slot0.handle then
 		slot0.handle = UpdateBeat:CreateListener(slot0.UpdateGame, slot0)
 	end
@@ -282,7 +285,11 @@ function slot0.StartGame(slot0)
 			end
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf, function ()
+
+	slot0.dragDelegate = GetOrAddComponent(slot0._tf, "EventTriggerListener")
+	slot1 = slot0.dragDelegate
+
+	slot1:AddPointDownFunc(function ()
 		uv0.isClick = true
 
 		if uv0.opCdTime <= 0 and not uv0.puaseGameFlag then
@@ -639,7 +646,7 @@ function slot0.EndGame(slot0, slot1)
 		UpdateBeat:RemoveListener(slot0.handle)
 	end
 
-	removeOnButton(slot0._tf)
+	ClearEventTrigger(slot0.dragDelegate)
 	removeOnButton(slot0.puaseBtn)
 
 	if slot1 then
@@ -669,6 +676,12 @@ function slot0.ExitGame(slot0)
 end
 
 function slot0.onBackPressed(slot0)
+	if slot0.startFlag and not slot0.puaseGameFlag then
+		triggerButton(slot0.puaseBtn)
+
+		return true
+	end
+
 	if isActive(slot0.msgBox._tf) then
 		triggerButton(slot0.msgBox.cancelBtn)
 

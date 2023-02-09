@@ -212,7 +212,6 @@ function slot0.ShowOrHideResUI(slot0, slot1)
 		}
 	end
 
-	warning(slot1, slot0.__cname)
 	pg.playerResUI:SetActive(setmetatable({
 		active = slot1,
 		weight = slot2.weight,
