@@ -7054,13 +7054,13 @@ _G.pg.base.equip_data_statistics[951] = {
 
 _G.pg.base.equip_data_statistics[980] = {
 	type = 10,
-	name = "机密文件·日志残卷",
+	name = "機密文件·日誌殘卷",
 	speciality = "无",
 	tech = 0,
 	value_2 = 100,
 	ammo = 10,
 	nationality = 7,
-	descrip = "已经损毁的航海日志中残留下来的备忘录，记载了作业中捕捉到的雷达识别数据。",
+	descrip = "已經損毀的航海日誌中殘留下來的備忘錄，記載了作業中捕捉到的雷達識別數據。",
 	rarity = 4,
 	attribute_1 = "torpedo",
 	value_3 = 0,

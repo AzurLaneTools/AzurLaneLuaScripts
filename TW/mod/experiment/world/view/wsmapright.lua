@@ -69,7 +69,6 @@ function slot0.Init(slot0)
 	onToggle(slot0, slot0.toggleSkipPrecombat, function (slot0)
 		PlayerPrefs.SetInt("world_skip_precombat", slot0 and 1 or 0)
 	end, SFX_PANEL)
-	triggerToggle(slot0.toggleSkipPrecombat, PlayerPrefs.GetInt("world_skip_precombat", 0) == 1)
 
 	slot0.toggleAutoFight = slot1:Find("btn_list/auto_fight")
 	slot0.toggleAutoSwitch = slot1:Find("btn_list/auto_switch")

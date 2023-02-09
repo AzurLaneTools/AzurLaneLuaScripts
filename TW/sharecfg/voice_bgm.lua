@@ -443,5 +443,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "main-chunjie4-1"
+	},
+	ValentineQteGameView = {
+		default_bgm = "story-richang-5",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-5"
 	}
 }

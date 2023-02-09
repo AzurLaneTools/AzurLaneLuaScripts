@@ -627,6 +627,54 @@ pg.activity_template = {
 			}
 		}
 	},
+	[4686] = {
+		mark = 20230209,
+		title_res_tag = "",
+		page_info = "",
+		type = 29,
+		login_pop = 0,
+		config_id = 15,
+		is_show = 0,
+		config_client = "",
+		id = 4686,
+		config_data = {
+			{
+				defaultID,
+				312011
+			},
+			{
+				itemID,
+				44001
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[8009] = {
 		mark = 20220414,
 		config_client = "",
@@ -2059,6 +2107,44 @@ pg.activity_template = {
 					"BIAOQIANGMANHUA5"
 				}
 			}
+		}
+	},
+	[6018] = {
+		mark = 20230209,
+		title_res_tag = "ChocolateWorkshop",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		config_client = "",
+		id = 6018,
+		config_data = {
+			{
+				35216
+			},
+			{
+				35217
+			},
+			{
+				35218
+			},
+			{
+				35219
+			},
+			{
+				35220
+			},
+			{
+				35221
+			},
+			{
+				35222
+			}
+		},
+		page_info = {
+			class_name = "ChocolateWorkshopSkinPage",
+			ui_name = "ChocolateWorkshopPermanentPage"
 		}
 	},
 	[100001] = {
@@ -23660,7 +23746,7 @@ pg.activity_template = {
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 28,
+		is_show = 27,
 		config_data = {
 			15797,
 			15798,
@@ -23844,6 +23930,243 @@ pg.activity_template = {
 			}
 		}
 	},
+	[41064] = {
+		mark = 20230202,
+		id = 41064,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 13,
+		is_show = 28,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SeattleTecCatchupPage",
+			ui_name = "SeattleTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42011
+		}
+	},
+	[41065] = {
+		mark = 20230202,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 16,
+		is_show = 0,
+		config_client = "",
+		id = 41065,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41066] = {
+		mark = 20230202,
+		config_client = "",
+		title_res_tag = "maoxiV3_frame",
+		type = 87,
+		login_pop = 0,
+		config_id = 41066,
+		is_show = 29,
+		id = 41066,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MaoxiV3FrameRePage",
+			ui_name = "MaoxiV3FrameRePage"
+		}
+	},
+	[41068] = {
+		mark = 20230202,
+		title_res_tag = "",
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 31,
+		is_show = 0,
+		config_client = "",
+		id = 41068,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41069] = {
+		mark = 20230202,
+		id = 41069,
+		title_res_tag = "decode",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 31,
+		config_data = {
+			{
+				17416,
+				17417
+			},
+			{
+				17418,
+				17419
+			},
+			{
+				17420,
+				17421
+			},
+			{
+				17422,
+				17423
+			},
+			{
+				17424,
+				17425
+			},
+			{
+				17426,
+				17427
+			},
+			{
+				17428,
+				17429
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DecodeGamePage",
+			ui_name = "DecodeGamePage"
+		},
+		config_client = {
+			decodeGameId = 39
+		}
+	},
 	[41070] = {
 		mark = 20230202,
 		config_client = "",
@@ -23851,7 +24174,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 41070,
-		is_show = 27,
+		is_show = 26,
 		id = 41070,
 		config_data = {},
 		time = {
@@ -23971,6 +24294,48 @@ pg.activity_template = {
 		},
 		config_client = {
 			miniGame = 49
+		}
+	},
+	[41073] = {
+		mark = 20230209,
+		config_client = "",
+		title_res_tag = "ValentineQte",
+		type = 57,
+		login_pop = 0,
+		config_id = 42,
+		is_show = 33,
+		id = 41073,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ValentineQtePage",
+			ui_name = "ValentineQtePage"
 		}
 	},
 	[45000] = {
@@ -25915,6 +26280,7 @@ pg.activity_template = {
 		4067,
 		4076,
 		4254,
+		4686,
 		8009,
 		8010,
 		8019,
@@ -25974,6 +26340,7 @@ pg.activity_template = {
 		6008,
 		6009,
 		6011,
+		6018,
 		100001,
 		40009,
 		40030,
@@ -26684,9 +27051,15 @@ pg.activity_template = {
 		41061,
 		41062,
 		41063,
+		41064,
+		41065,
+		41066,
+		41068,
+		41069,
 		41070,
 		41071,
 		41072,
+		41073,
 		45000,
 		45001,
 		45002,

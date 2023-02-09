@@ -91,8 +91,8 @@ function slot0.loadScene(slot0, slot1, slot2, slot3)
 				table.SerialIpairsAsync(uv0, function (slot0, slot1, slot2)
 					slot3 = false
 
-					if uv0 then
-						slot3 = uv0.mediator.__cname == slot1.mediator.__cname
+					if uv0 and uv0.mediator.__cname == slot1.mediator.__cname then
+						uv1:clearTempCache(slot1.mediator)
 					end
 
 					uv1:remove(slot1.mediator, function ()

@@ -2042,6 +2042,19 @@ pg.memory_group = {
 			1991
 		}
 	},
+	[210] = {
+		icon = "title_event",
+		subtype = 1,
+		type = 2,
+		id = 210,
+		title = "黎明之暗",
+		memories = {
+			2002,
+			2003,
+			2004,
+			2005
+		}
+	},
 	[212] = {
 		icon = "title_event",
 		subtype = 2,
@@ -3381,6 +3394,7 @@ pg.memory_group = {
 		207,
 		208,
 		209,
+		210,
 		212,
 		213,
 		227,

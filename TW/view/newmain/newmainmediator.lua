@@ -151,7 +151,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.SEND_MINI_GAME_OP_DONE,
 		GAME.FETCH_NPC_SHIP_DONE,
 		GAME.ZERO_HOUR_OP_DONE,
-		uv0.REFRESH_VIEW
+		uv0.REFRESH_VIEW,
+		GAME.WILL_LOGOUT
 	}
 
 	for slot5, slot6 in pairs(pg.redDotHelper:GetNotifyType()) do
@@ -218,6 +219,8 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == uv0.REFRESH_VIEW then
 		slot0.viewComponent:setVisible(false)
 		slot0.viewComponent:setVisible(true)
+	elseif slot2 == GAME.WILL_LOGOUT then
+		slot0.viewComponent:OnLogOut()
 	end
 end
 

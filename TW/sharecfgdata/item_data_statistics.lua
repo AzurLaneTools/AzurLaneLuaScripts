@@ -150269,8 +150269,8 @@ _G.pg.base.item_data_statistics[60233] = {
 }
 
 _G.pg.base.item_data_statistics[60234] = {
-	display = "用于「情报解密」，活动结束后将会消失",
-	name = "情报点",
+	display = "用於「情報解密」，活動結束後將會消失",
+	name = "情報點",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,

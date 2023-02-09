@@ -13360,21 +13360,18 @@ _G.pg.base.gametip.decodegame_gametip = {
 		{
 			info = [[
 活動簡介：
- 1.活動期間，每獲得<color=#92fc63>200點</color>「情報PT」，可以獲得1點情
-報點，最多可獲得60點
- 2.每次點擊情報頁的單元格進行破譯，需要消耗1點情報
-點
+ 1.活動期間，完成七日活動任務，可以獲得情報點，最多可獲得60點 
+ 2.每次點擊情報頁的單元格進行破譯，需要消耗1點情報點
  3.完成一定次數的情報破譯即可獲得如下獎勵：
  完成10次：物資*1000
  完成20次：T3通用改造部件*5
  完成30次：物資*1000
  完成40次：T3攻擊教材*2
  完成50次：T3隨機改造圖紙*2
- 完成60次：T3支援教材*2 
- 4.3張情報頁全部破譯後，會出現密碼頁按鈕，點擊密碼
-頁按鈕可進入解密模式，解密模式下再次點擊情報頁可進行比對，比對後每張情報頁可以獲取三個密碼，點擊密碼所在單元格可進行輸入,<color=#92fc63>9位密碼全部輸入正確後可獲取最終獎勵</color>
+ 完成60次：T3輔助教材*2 
+ 4.3張情報頁全部破譯後，會出現密碼頁按鈕，點擊密碼頁按鈕可進入解密模式，解密模式下再次點擊情報頁可進行比對，比對後每張情報頁可以獲取三個密碼，點擊密碼所在單元格可進行輸入，<color=#92fc63>9位密碼全部輸入正確後可獲取最終獎勵</color>
 5.9位密碼每3個為一組，每組密碼都屬於同一張情報頁
-6.當密碼輸入錯誤時，左側紅燈會亮起，當密碼輸入正確時，右側綠燈會亮起同時將密碼保存在密碼框中]]
+6.當密碼輸入錯誤時，左側紅燈會亮起，當密碼輸入正確時，右側綠燈會亮起，同時將密碼保存在密碼框中]]
 		}
 	}
 }
@@ -19987,6 +19984,14 @@ _G.pg.base.gametip.pre_combat_submarine = {
 	tip = "潛艇艦隊"
 }
 
+_G.pg.base.gametip.pre_combat_targets = {
+	tip = "目標"
+}
+
+_G.pg.base.gametip.pre_combat_atlasloot = {
+	tip = "掉落"
+}
+
 _G.pg.base.gametip.destroy_confirm_access = {
 	tip = "確 定"
 }
@@ -21538,4 +21543,32 @@ _G.pg.base.gametip.pre_combat_start = {
 
 _G.pg.base.gametip.pre_combat_start_en = {
 	tip = "WEIGH ANCHOR"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_s"] = {
+	tip = "哇哦…一份品質絕佳的巧克力製作完成！指揮官，請品嚐一下吧！情人節快樂！"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_a"] = {
+	tip = "這份巧克力看起來相當不錯呢！指揮官，請第一時間品嚐一下吧！"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_b"] = {
+	tip = "巧克力製作完成……味道應該差不多吧？辛苦了，指揮官！"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_c"] = {
+	tip = "……指揮官，你真的要品嚐這一份嗎？是不是重新做一份比較好……"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label1"] = {
+	tip = "最終得分："
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label2"] = {
+	tip = "完成次數"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
+	tip = "當前完成："
 }

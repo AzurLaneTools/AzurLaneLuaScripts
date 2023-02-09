@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在水星纪念和阿芙乐尔的护送下，米高扬号破冰船安全抵达了北联军港。",
+			say = "在水星紀念和曙光的護送下，米高揚號破冰船安全抵達了北聯軍港。",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……关于那场“失败行动”你还有多少印象？",
+			say = "……關於那場“失敗行動”妳還有多少印象？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可以说是印象深刻诶，毕竟那么宏大的开局最后只迎来了惨淡的收尾……",
+			say = "可以說是印象深刻欸，畢竟那麼宏大的開局最後只迎來了慘淡的收尾……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "记得那是极地舰队刚建立没多久的时候吧，信心满满的我们在计划着向极地中更深的未知探索。",
+			say = "記得那是極地艦隊剛建立沒多久的時候吧，信心滿滿的我們在計劃著向極地中更深的未知探索。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原本一切都进展顺利，结果突然在某一天收到了行动失败的消息。",
+			say = "原本一切都進展順利，結果突然在某一天收到了行動失敗的消息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……最初极地舰队的主力，实验型潜航舰，还有包括这艘米高扬号破冰船在内的所有人员设备，甚至规模庞大的基地本身都消失了。",
+			say = "……最初極地艦隊的主力，實驗型潛航艦，還有包括這艘米高揚號破冰船在內的所有人員設備，甚至規模龐大的基地本身都消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……我了解的也是这样，不过细节上知道的比你稍微多一点。",
+			say = "嗯……我了解的也是這樣，不過細節上知道的比妳稍微多一點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最初顺利，舰队在出发后正常的进行着定期联络。",
+			say = "最初順利，艦隊在出發後正常的進行著定期聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一段时间后，基地收到了舰队遭遇敌方舰队阻拦的消息。当然，我们第一时间就派出了空军支援。",
+			say = "一段時間後，基地收到了艦隊遭遇敵方艦隊阻攔的消息。當然，我們第一時間就派出了空軍支援。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是在空军抵达之后，看到的只有茫茫的冰海，非但没有敌人，连航道都没有看到。",
+			say = "可是在空軍抵達之後，看到的只有茫茫的冰海，非但沒有敵人，連航道都沒有看到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "紧接着，空军在向基地汇报的时候，发现基地也彻底失去了联络。",
+			say = "緊接著，空軍在向基地匯報的時候，發現基地也徹底失去了聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也就是你所知道的彻底失踪……",
+			say = "也就是妳所知道的徹底失蹤……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，我们怀疑过进入镜面海域的可能性，也实际组织舰队前往了任务所在区域数次。",
+			say = "當然，我們懷疑過進入鏡面海域的可能性，也實際組織艦隊前往了任務所在區域數次。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "苏维埃同盟甚至在舰装尚未完成的时候就亲自加入了一线搜索行动。",
+			say = "蘇維埃聯盟甚至在艦裝尚未完成的時候就親自加入了一線搜索行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这件事我倒是第一次知道，这么慌张也太不符合她的性格了。",
+			say = "這件事我倒是第一次知道，這麼慌張也太不符合她的性格了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过……也不是不能理解，我记得那次行动就是她亲自送舰队出发的吧……",
+			say = "不過……也不是不能理解，我記得那次行動就是她親自送艦隊出發的吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊……但是所有行动均一无所获。",
+			say = "是啊……但是所有行動均一無所獲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "后来在出现“王冠”后，极地塞壬的进攻加剧，铁血也开始施压，寻找行动就慢慢终止了。",
+			say = "後來在出現“王冠”後，極地塞壬的進攻加劇，鐵血也開始施壓，尋找行動就慢慢終止了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再之后的事我也不清楚了。过去的这份行动也被封入机密档案，渐渐成为了一次没有存在过的行动……",
+			say = "再之後的事我也不清楚了。過去的這份行動也被封入機密檔案，漸漸成為了一次沒有存在過的行動……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "后来在无数次复盘中唯一相对合理的解释就是，基地的实际位置可能并不是我们以为它所在的位置。",
+			say = "後來在無數次復盤中唯一相對合理的解釋就是，基地的實際位置可能並不是我們以為它所在的位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也许基地一开始就建立在一片异常的海域里，只不过我们所有人都没发现。",
+			say = "也許基地一開始就建立在一片異常的海域裡，只不過我們所有人都沒發現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎……？是指也许一开始我们的探索基地就建立在一片特殊的镜面海中么？",
+			say = "哎……？是指也許一開始我們的探索基地就建立在一片特殊的鏡面海中嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实有点可能……！这次米高扬号也是在镜面海域内被找到的。",
+			say = "確實有點可能……！這次米高揚號也是在鏡面海域內被找到的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是这没法解释为什么只有米高扬号在镜面海域里被我们发现了。",
+			say = "但是這沒法解釋為什麼只有米高揚號在鏡面海域裡被我們發現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，解释不了。但是如果将另一件事与之关联或许就能解释得通了。",
+			say = "是的，解釋不了。但是如果將另一件事與之關聯或許就能解釋得通了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你听说过“杂波”事件么？",
+			say = "妳聽說過“雜波”事件嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……杂波事件？",
+			say = "……雜波事件？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来没有呢。大概在最近的密室行动之后，我们从回收的资料中改进了对塞壬进行监听的雷达。",
+			say = "看來沒有呢。大概在最近的密室行動之後，我們從回收的資料中改進了對塞壬進行監聽的雷達。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后在某个方向发现了一些不定时出现的信号。",
+			say = "然後在某個方向發現了一些不定時出現的訊號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最开始我们以为是杂波，不过在某一天之后，我们终于注意到那是一段使用停用密码的加密通讯。",
+			say = "最開始我們以為是雜波，不過在某一天之後，我們終於注意到那是一段使用停用密碼的加密通訊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "内容很简单，是遭遇敌人呼叫支援的联络，只不过……“恰好”和曾经在舰队失踪之前收到的信号一模一样。",
+			say = "內容很簡單，是遭遇敵人呼叫支援的聯絡，只不過……“恰好”和曾經在艦隊失蹤之前收到的訊號一模一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么“恰好”啊……这不就是发送通讯的设备至今还在某处工作的意思么？！",
+			say = "什麼“恰好”啊……這不就是發送通訊的設備至今還在某處工作的意思麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我们也是这么猜测的。而现在突然出现的米高扬号也许就能当做某种证实……",
+			say = "嗯，我們也是這麼猜測的。而現在突然出現的米高揚號也許就能當做某種證實……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这也巧过头了……简直就像故意让我们在这时候发现一样。",
+			say = "這也巧過頭了……簡直就像故意讓我們在這時候發現一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同感。看来苏维埃同盟可能在行动之前就已经有所预感了，只不过需要我们寻找铁证而已。",
+			say = "同感。看來蘇維埃聯盟可能在行動之前就已經有所預感了，只不過需要我們尋找鐵證而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们那位在铁血的可靠情报提供人还真是神通广大啊~",
+			say = "我們那位在鐵血的可靠情報提供人還真是神通廣大啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊……现在电子仪器和所有纸质档案都在分析中，相信很快就会有结果了。",
+			say = "是啊……現在電子儀器和所有紙質檔案都在分析中，相信很快就會有結果了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然这艘船也是当年的随行船只之一，那么就一定会有记录。",
+			say = "既然這艘船也是當年的隨行船隻之一，那麼就一定會有紀錄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一些不但能告诉我们当时发生了什么，甚至提供一些寻找失踪舰队线索的记录……",
+			say = "一些不但能告訴我們當時發生了什麼，甚至提供一些尋找失蹤艦隊線索的紀錄……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这恐怕才是苏维埃同盟想要的“答案”……",
+			say = "這恐怕才是蘇維埃聯盟想要的“答案”……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

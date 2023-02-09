@@ -37,14 +37,8 @@ function slot0.getUIName(slot0)
 	return "LevelStageView"
 end
 
-function slot0.Show(slot0)
-	uv0.super.Show(slot0)
-	pg.playerResUI:SetActive(true, true)
-end
-
-function slot0.Hide(slot0)
-	uv0.super.Hide(slot0)
-	pg.playerResUI:SetActive(false)
+function slot0.ResUISettings(slot0)
+	return true
 end
 
 function slot0.OnInit(slot0)

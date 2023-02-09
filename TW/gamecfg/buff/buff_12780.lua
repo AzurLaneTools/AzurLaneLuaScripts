@@ -26,6 +26,7 @@ return {
 			trigger = {
 				"onStartGame"
 			},
+			pop = {},
 			arg_list = {
 				skill_id = 12780,
 				target = "TargetSelf"
@@ -37,8 +38,34 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
+				maxTargetNumber = 0,
+				target = "TargetSelf",
 				skill_id = 12782,
-				target = "TargetSelf"
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"parallelMG"
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				target = "TargetSelf",
+				skill_id = 12783,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"parallelMG"
+				}
 			}
 		}
 	}

@@ -233,6 +233,18 @@ function slot0.setPage(slot0, slot1)
 	setActive(slot0._tf:Find("blur_panel/adapt/left"), slot1 == uv0.PageBase)
 	setActive(slot0._tf:Find("blur_panel/adapt/top/title_queue"), slot1 == uv0.PageQueue)
 	setActive(slot0._tf:Find("blur_panel/adapt/right"), slot1 == uv0.PageQueue)
+
+	if slot1 == uv0.PageBase then
+		for slot5, slot6 in ipairs(slot0.technologyVOs) do
+			if slot6:isActivate() then
+				Timer.New(function ()
+					uv0.srcollView:GetComponent("EnhancelScrollView"):SetHorizontalTargetItemIndex(uv0.technologCards[uv1]:GetComponent("EnhanceItem").scrollViewItemIndex)
+				end, 0.35, 1):Start()
+
+				break
+			end
+		end
+	end
 end
 
 function slot0.didEnter(slot0)
@@ -299,12 +311,6 @@ function slot0.initTechnologys(slot0)
 
 				if uv0.lastButtonListener[slot2] then
 					slot3:RemoveListener(uv0.lastButtonListener[slot2])
-				end
-
-				if uv0.technologyVOs[slot1]:isActivate() then
-					Timer.New(function ()
-						uv0.srcollView:GetComponent("EnhancelScrollView"):SetHorizontalTargetItemIndex(uv1:GetComponent("EnhanceItem").scrollViewItemIndex)
-					end, 0.35, 1):Start()
 				end
 
 				uv0.lastButtonListener[slot2] = function ()

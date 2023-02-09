@@ -602,6 +602,13 @@ pg.equip_skin_theme_template = {
 			1218
 		}
 	},
+	[44] = {
+		id = 44,
+		name = "甜蜜之禮",
+		ids = {
+			1300
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "星辰無垠",
@@ -678,6 +685,7 @@ pg.equip_skin_theme_template = {
 		31,
 		32,
 		41,
+		44,
 		101,
 		102,
 		199

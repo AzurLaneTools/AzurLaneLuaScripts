@@ -146,12 +146,32 @@ pg.activity_task_permanent = {
 			35135
 		}
 	},
+	[6018] = {
+		gametip = "可獲得限定傢俱「巧克力啾」",
+		banner_route = "permanent_qiaokelijiu",
+		gametip_extra = "最快7日獲得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6018,
+		activity_name = "啾啾巧克力工坊",
+		over_task_id = "",
+		eliminate_task_id = {
+			35216,
+			35217,
+			35218,
+			35219,
+			35220,
+			35221,
+			35222
+		}
+	},
 	all = {
 		6000,
 		6001,
 		6002,
 		6008,
 		6009,
-		6011
+		6011,
+		6018
 	}
 }

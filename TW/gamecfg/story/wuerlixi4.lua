@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "喂希佩爾，妳衝太前慢了！稍微跟其他人的步調配合下！",
+			say = "喂希佩爾，妳衝太前面了！稍微跟其他人的步調配合下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

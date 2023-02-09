@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方联合·？？？ ",
+			say = "北方聯合·？？？",
 			side = 2,
 			bgName = "bg_story_italy",
 			dir = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "一处地点不明所属机构不明的昏暗房间中，苏维埃同盟正仔细阅读着行动报告。",
+			say = "一處地點不明所屬機構不明的昏暗房間中，蘇維埃聯盟正仔細閱讀著行動報告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然是米高扬号…………",
+			say = "居然是米高揚號…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这还真是，出乎意料的收获……",
+			say = "這還真是，出乎意料的收穫……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actorName = "？？？",
-			say = "看你还算满意，我也放心了。",
+			say = "看妳還算滿意，我也放心了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "从不知道摆放在某处的通讯中传来了经过处理的声音。",
+			say = "從不知道擺放在某處的通訊中傳來了經過處理的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actorName = "？？？",
-			say = "这份情报就当成我们在此前一系列摩擦事件中所造成损失的补偿与后续合作的诚意。",
+			say = "這份情報就當成我們在此前一系列摩擦事件中所造成損失的補償與後續合作的誠意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她们现在是什么状态？",
+			say = "她們現在是什麼狀態？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actorName = "？？？",
-			say = "不明，我只是知道这些情报而已。",
+			say = "不明，我只是知道這些情報而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actorName = "？？？",
-			say = "具体是什么情况，就需要靠你们自己了，不是么？",
+			say = "具體是什麼情況，就需要靠妳們自己了，不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你们的“诚意”我收到了。",
+			say = "……妳們的“誠意”我收到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过补偿的话，恐怕远远不够吧？",
+			say = "不過補償的話，恐怕遠遠不夠吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "运输航线的长期损失，边境的侵扰。",
+			say = "運輸航線的長期損失，邊境的侵擾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算根据协议停止了推进，初期你们非法占领的部分领土和港口呢？",
+			say = "就算根據協議停止了推進，初期妳們非法佔領的部分領土和港口呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "我还以为这些都是过去协议的一部分呢。",
+			say = "我還以為這些都是過去協議的一部分呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actorName = "？？？",
-			say = "不论如何，我们已经规避了既定的走向不是么？",
+			say = "不論如何，我們已經規避了既定的走向不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算继续走下去，最终的输家也会是你们就是了。",
+			say = "就算繼續走下去，最終的輸家也會是妳們就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "正如你我所知，曾经的铁血毫无未来。",
+			say = "正如妳我所知，曾經的鐵血毫無未來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "你这是在讽刺，还是在夸奖？",
+			say = "妳這是在諷刺，還是在誇獎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请当成夸奖吧，俾斯麦确实是一位值得尊重的领袖。",
+			say = "請當成誇獎吧，俾斯麥確實是一位值得尊重的領袖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actorName = "？？？",
-			say = "那就进行继续进行我们的合作吧。",
+			say = "那就進行繼續進行我們的合作吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "随着最后一组“要素”的重现，北方联合也将摆脱禁锢，打开一条全新的道路。",
+			say = "隨著最後一組“要素”的重現，北方聯合也將擺脫禁錮，打開一條全新的道路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			actorName = "？？？",
-			say = "让我们一同向着未来进发吧————",
+			say = "讓我們一同向著未來進發吧————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "通讯中断了，但是苏维埃同盟并没有做出反应。",
+			say = "通訊中斷了，但是蘇維埃聯盟並沒有做出反應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "多年的悔恨、多年的等待与多年的期盼仿佛都在此刻汇聚而来。",
+			say = "多年的悔恨、多年的等待與多年的期盼彷彿都在此刻匯聚而來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "她仿佛在寂静的空间中聆听，在凝视，又仿佛是在沉思。",
+			say = "她彷彿在寂靜的空間中聆聽，在凝視，又彷佛是在沉思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,40 +447,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "终于，她点亮了一个屏幕，耳边响起了专属线路独有的提示音。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_italy",
-			actor = 900218,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "……鉴于“杂波”事件的情报分析与最新行动所收获的证据……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900218,
-			side = 2,
-			bgName = "bg_story_italy",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……在极地的冰封之中，昔日失踪的行动舰队依然存在生还的可能……",
+			say = "終於，她打開了一個螢幕，耳邊響起了專屬線路獨有的提示音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +464,40 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我已取得确切的行动坐标，也许我们还有挽回曾经失败的机会……",
+			say = "……鑑於“雜波”事件的情報分析與最新行動所收穫的證據……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900218,
+			side = 2,
+			bgName = "bg_story_italy",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "……在極地的冰封之中，昔日失蹤的行動艦隊依然存在生還的可能……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_italy",
+			actor = 900218,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "……我已取得確切的行動坐標，也許我們還有挽回曾經失敗的機會……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "——最高联合主席团，我希望立刻组建救援队展开营救行动！",
+			say = "——最高聯合主席團，我希望立刻組建救援隊展開營救行動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

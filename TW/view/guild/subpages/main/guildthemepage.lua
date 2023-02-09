@@ -77,16 +77,10 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	slot0:Show()
 end
 
-function slot0.Show(slot0)
-	uv0.super.Show(slot0)
-	pg.playerResUI:SetActive(true, {
+function slot0.ResUISettings(slot0)
+	return {
 		showType = PlayerResUI.TYPE_ALL
-	})
-end
-
-function slot0.Hide(slot0)
-	uv0.super.Hide(slot0)
-	pg.playerResUI:SetActive(false)
+	}
 end
 
 function slot0.UpdateData(slot0, slot1, slot2, slot3)
