@@ -429,6 +429,25 @@ pg.activity_task_permanent = {
 		over_task_id = "",
 		eliminate_task_id = {}
 	},
+	[6018] = {
+		gametip = "한정 가구 「초콜릿쥬」 획득 가능",
+		banner_route = "permanent_qiaokelijiu",
+		gametip_extra = "7일만에 획득 가능",
+		over_pt = 0,
+		task_extra = "",
+		id = 6018,
+		activity_name = "쥬쥬 초콜릿 공방",
+		over_task_id = "",
+		eliminate_task_id = {
+			35216,
+			35217,
+			35218,
+			35219,
+			35220,
+			35221,
+			35222
+		}
+	},
 	all = {
 		6000,
 		6001,
@@ -447,6 +466,7 @@ pg.activity_task_permanent = {
 		6014,
 		6015,
 		6016,
-		6017
+		6017,
+		6018
 	}
 }

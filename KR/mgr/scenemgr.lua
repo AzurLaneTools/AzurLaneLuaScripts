@@ -146,6 +146,7 @@ function slot1.removeLayer(slot0, slot1, slot2, slot3)
 
 		table.insert(slot6, function (slot0)
 			if uv0 then
+				uv1:clearTempCache(uv0)
 				uv1:remove(uv0, function ()
 					uv0:onContextRemoved()
 					uv1()
@@ -191,6 +192,12 @@ function slot1.removeLayerMediator(slot0, slot1, slot2, slot3)
 	end
 
 	slot3(slot6)
+end
+
+function slot1.clearTempCache(slot0, slot1)
+	if slot1:getViewComponent():tempCache() then
+		slot2:RemoveTempCache()
+	end
 end
 
 function slot1.remove(slot0, slot1, slot2, slot3)

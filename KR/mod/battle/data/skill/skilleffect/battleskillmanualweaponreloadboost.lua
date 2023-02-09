@@ -8,12 +8,25 @@ function slot1.Ctor(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1, lv)
 
 	slot0._weaponType = slot0._tempData.arg_list.weaponType
-	slot0._boostValue = slot0._tempData.arg_list.value * -1
+	slot0._boostValue = slot0._tempData.arg_list.value
+	slot0._boostRate = slot0._tempData.arg_list.rate
 end
 
 function slot1.DoDataEffect(slot0, slot1, slot2)
-	for slot7, slot8 in ipairs(slot0:_GetWeapon(slot1)) do
-		slot8:AppendReloadBoost(slot0._boostValue)
+	slot3 = slot0:_GetWeapon(slot1)
+
+	if slot0._boostValue then
+		slot4 = slot0._boostValue * -1
+
+		for slot8, slot9 in ipairs(slot3) do
+			slot9:AppendReloadBoost(slot4)
+		end
+	elseif slot0._boostRate then
+		for slot7, slot8 in ipairs(slot3) do
+			boostValue = slot8:GetReloadTimeByRate(slot0._boostRate) * -1
+
+			slot8:AppendReloadBoost(boostValue)
+		end
 	end
 end
 

@@ -18,6 +18,7 @@ slot1.TypePizzahut = 13
 slot1.TypeSecondSummary = 14
 slot1.TypePoraisMedals = 15
 slot1.TypeIcecream = 16
+slot1.TypeValentineQte = 17
 slot1.TypeTWCelebrationShare = 5000
 slot1.PANEL_TYPE_BLACK = 1
 slot1.PANEL_TYPE_PINK = 2
@@ -45,6 +46,12 @@ slot1.ANCHORS_TYPE = {
 		1,
 		1,
 		1
+	},
+	{
+		0.5,
+		0.5,
+		0.5,
+		0.5
 	}
 }
 
@@ -61,6 +68,10 @@ function slot1.Init(slot0)
 
 		setActive(uv0.panelBlack, false)
 		setActive(uv0.panelPink, false)
+
+		uv0.logo = uv0.tr:Find("deck/logo")
+
+		GetComponent(uv0.logo, "Image"):SetNativeSize()
 	end)
 
 	slot0.screenshot = Application.persistentDataPath .. "/screen_scratch/last_picture_for_share.jpg"
@@ -83,12 +94,14 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot4 = LuaHelper.GetCHPackageType()
+	if not IsUnityEditor then
+		slot4 = LuaHelper.GetCHPackageType()
 
-	if PLATFORM_CODE == PLATFORM_CH and slot4 ~= PACKAGE_TYPE_BILI then
-		uv0.TipsMgr.GetInstance():ShowTips("指挥官，当前平台不支持分享功能哦")
+		if PLATFORM_CODE == PLATFORM_CH and slot4 ~= PACKAGE_TYPE_BILI then
+			uv0.TipsMgr.GetInstance():ShowTips("指挥官，当前平台不支持分享功能哦")
 
-		return
+			return
+		end
 	end
 
 	if IsNil(slot0.go) then
@@ -105,44 +118,44 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 	setActive(slot0.panelPink, slot2 == uv1.PANEL_TYPE_PINK)
 	assert(uv0.share_template[slot1], "share_template not exist: " .. slot1)
 
-	slot6 = getProxy(PlayerProxy):getRawData()
-	slot8 = getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot7.server or 0]
-	slot11 = slot0.deckTF
-	slot12 = slot0.ANCHORS_TYPE[slot5.deck] or {
+	slot5 = getProxy(PlayerProxy):getRawData()
+	slot7 = getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot6.server or 0]
+	slot10 = slot0.deckTF
+	slot11 = slot0.ANCHORS_TYPE[slot4.deck] or {
 		0.5,
 		0.5,
 		0.5,
 		0.5
 	}
-	slot11.anchorMin = Vector2(slot12[1], slot12[2])
-	slot11.anchorMax = Vector2(slot12[3], slot12[4])
+	slot10.anchorMin = Vector2(slot11[1], slot11[2])
+	slot10.anchorMax = Vector2(slot11[3], slot11[4])
 
-	setText(slot11:Find("name/value"), slot6 and slot6.name or "")
-	setText(slot11:Find("server/value"), slot8 and slot8.name or "")
-	setText(slot11:Find("lv/value"), slot6.level)
+	setText(slot10:Find("name/value"), slot5 and slot5.name or "")
+	setText(slot10:Find("server/value"), slot7 and slot7.name or "")
+	setText(slot10:Find("lv/value"), slot5.level)
 
-	if PLATFORM_CODE == PLATFORM_CHT then
-		setActive(slot11:Find("code_bg"), true)
+	if PLATFORM_CODE == PLATFORM_CHT or PLATFORM_CODE == PLATFORM_CH then
+		setActive(slot10:Find("code_bg"), true)
 	else
-		setActive(slot11:Find("code_bg"), false)
+		setActive(slot10:Find("code_bg"), false)
 	end
 
-	slot11.anchoredPosition3D = Vector3(slot5.qrcode_location[1], slot5.qrcode_location[2], -100)
-	slot11.anchoredPosition = Vector2(slot5.qrcode_location[1], slot5.qrcode_location[2])
+	slot10.anchoredPosition3D = Vector3(slot4.qrcode_location[1], slot4.qrcode_location[2], -100)
+	slot10.anchoredPosition = Vector2(slot4.qrcode_location[1], slot4.qrcode_location[2])
 
-	_.each(slot5.hidden_comps, function (slot0)
+	_.each(slot4.hidden_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and slot1.activeSelf then
 			table.insert(uv0.cacheComps, slot1)
 			slot1:SetActive(false)
 		end
 	end)
-	_.each(slot5.show_comps, function (slot0)
+	_.each(slot4.show_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and not slot1.activeSelf then
 			table.insert(uv0.cacheShowComps, slot1)
 			slot1:SetActive(true)
 		end
 	end)
-	_.each(slot5.move_comps, function (slot0)
+	_.each(slot4.move_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0.path)) then
 			table.insert(uv0.cacheMoveComps, {
 				slot1,
@@ -155,35 +168,35 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 			})
 		end
 	end)
-	SetParent(slot11, GameObject.Find(slot5.camera):GetComponent(typeof(Camera)).transform:GetChild(0), false)
-	slot11:SetAsLastSibling()
+	SetParent(slot10, GameObject.Find(slot4.camera):GetComponent(typeof(Camera)).transform:GetChild(0), false)
+	slot10:SetAsLastSibling()
 
-	slot15 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
+	slot14 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
 
 	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and uv0.SdkMgr.GetInstance():GetIsPlatform() then
-		uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot15:EncodeToJPG(slot15:TakePhoto(slot13)))
+		uv0.SdkMgr.GetInstance():GameShare(slot4.description, slot0:TakeTexture(slot1, slot14, slot12))
 		uv0.UIMgr.GetInstance():LoadingOn()
 		onDelayTick(function ()
 			uv0.UIMgr.GetInstance():LoadingOff()
 		end, 2)
 	elseif PLATFORM_CODE == PLATFORM_CHT then
-		slot15:Take(slot13, slot0.screenshot)
+		slot0:TakePhoto(slot1, slot14, slot12)
 		uv0.SdkMgr.GetInstance():ShareImg(slot0.screenshot, function ()
 		end)
-	elseif PLATFORM_CODE == PLATFORM_CH and slot4 == PACKAGE_TYPE_BILI then
-		if slot15:Take(slot13, slot0.screenshot) then
-			uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot0.screenshot)
+	elseif PLATFORM_CODE == PLATFORM_CH and packageType == PACKAGE_TYPE_BILI then
+		if slot0:TakePhoto(slot1, slot14, slot12) then
+			uv0.SdkMgr.GetInstance():GameShare(slot4.description, slot0.screenshot)
 		end
-	elseif slot15:Take(slot13, slot0.screenshot) then
+	elseif slot0:TakePhoto(slot1, slot14, slot12) then
 		print("截图位置: " .. slot0.screenshot)
-		slot0:Show(slot5, slot3)
+		slot0:Show(slot4, slot3)
 	elseif PLATFORM_CODE == PLATFORM_CHT then
 		uv0.TipsMgr.GetInstance():ShowTips("截圖失敗")
 	else
 		uv0.TipsMgr.GetInstance():ShowTips("截图失败")
 	end
 
-	SetParent(slot11, slot0.tr, false)
+	SetParent(slot10, slot0.tr, false)
 	_.each(slot0.cacheComps, function (slot0)
 		slot0:SetActive(true)
 	end)
@@ -204,6 +217,32 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 	end)
 
 	slot0.cacheMoveComps = {}
+end
+
+function slot1.TakeTexture(slot0, slot1, slot2, slot3)
+	if slot1 == uv0.TypeValentineQte then
+		slot4 = System.Collections.Generic.List_UnityEngine_Camera()
+
+		slot4:Add(GameObject.Find("UICamera"):GetComponent(typeof(Camera)))
+		slot4:Add(GameObject.Find("OverlayCamera"):GetComponent(typeof(Camera)))
+
+		return slot2:EncodeToJPG(slot2:TakePhotoMultiCam(slot4))
+	else
+		return slot2:EncodeToJPG(slot2:TakePhoto(slot3))
+	end
+end
+
+function slot1.TakePhoto(slot0, slot1, slot2, slot3)
+	if slot1 == uv0.TypeValentineQte then
+		slot4 = System.Collections.Generic.List_UnityEngine_Camera()
+
+		slot4:Add(GameObject.Find("UICamera"):GetComponent(typeof(Camera)))
+		slot4:Add(GameObject.Find("OverlayCamera"):GetComponent(typeof(Camera)))
+
+		return slot2:TakeMultiCam(slot4, slot0.screenshot)
+	else
+		return slot2:Take(slot3, slot0.screenshot)
+	end
 end
 
 function slot1.Show(slot0, slot1, slot2)

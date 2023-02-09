@@ -1044,6 +1044,10 @@ function slot8.GetReloadTime(slot0)
 	return slot0._cacheReloadTime
 end
 
+function slot8.GetReloadTimeByRate(slot0, slot1)
+	return uv1.CalculateReloadTime(slot0._cacheReloadMax * slot1, uv0.GetCurrent(slot0._host, "loadSpeed"))
+end
+
 function slot8.GetReloadFinishTimeStamp(slot0)
 	slot1 = 0
 

@@ -19545,6 +19545,63 @@ _G.pg.base.shop_template[60377] = {
 	}
 }
 
+_G.pg.base.shop_template[60378] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "980钻石购买限时礼包-比翼双飞（2023情人节）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 3,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60378,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40100
+	},
+	time = {
+		{
+			{
+				2023,
+				2,
+				9
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				2,
+				22
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[61001] = {
 	is_auto_use = 0,
 	time_second = 0,
@@ -32584,10 +32641,10 @@ _G.pg.base.shop_template[70315] = {
 	desc = "购买皮肤：阿卡斯塔元宵节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -39640,6 +39697,7 @@ _G.pg.base.shop_template[70503] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 200,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -39650,32 +39708,6 @@ _G.pg.base.shop_template[70503] = {
 	limit_args = {},
 	effect_args = {
 		107232
-	},
-	time = {
-		{
-			{
-				2022,
-				3,
-				31
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				4,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -39692,6 +39724,7 @@ _G.pg.base.shop_template[70504] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 200,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -39702,32 +39735,6 @@ _G.pg.base.shop_template[70504] = {
 	limit_args = {},
 	effect_args = {
 		101314
-	},
-	time = {
-		{
-			{
-				2022,
-				3,
-				31
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				4,
-				20
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -40260,10 +40267,10 @@ _G.pg.base.shop_template[70516] = {
 	desc = "购买皮肤:神速睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -47672,9 +47679,9 @@ _G.pg.base.shop_template[70665] = {
 	time = {
 		{
 			{
-				2022,
-				3,
-				31
+				2023,
+				2,
+				9
 			},
 			{
 				0,
@@ -47684,9 +47691,9 @@ _G.pg.base.shop_template[70665] = {
 		},
 		{
 			{
-				2022,
-				4,
-				20
+				2023,
+				2,
+				22
 			},
 			{
 				23,
@@ -47724,9 +47731,9 @@ _G.pg.base.shop_template[70666] = {
 	time = {
 		{
 			{
-				2022,
-				3,
-				31
+				2023,
+				2,
+				9
 			},
 			{
 				0,
@@ -47736,9 +47743,9 @@ _G.pg.base.shop_template[70666] = {
 		},
 		{
 			{
-				2022,
-				4,
-				20
+				2023,
+				2,
+				22
 			},
 			{
 				23,
@@ -55019,6 +55026,162 @@ _G.pg.base.shop_template[70818] = {
 				2023,
 				2,
 				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70819] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230209易北情人节",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70819,
+	resource_num = 1080,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		406022
+	},
+	time = {
+		{
+			{
+				2023,
+				2,
+				9
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				2,
+				22
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70820] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230209羽黑情人节",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 3,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70820,
+	resource_num = 780,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		303102
+	},
+	time = {
+		{
+			{
+				2023,
+				2,
+				9
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				2,
+				22
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[70821] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 6,
+	genre = "skin_shop",
+	desc = "购买皮肤:230209水星纪念情人节",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 70821,
+	resource_num = 780,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		702024
+	},
+	time = {
+		{
+			{
+				2023,
+				2,
+				9
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				2,
+				22
 			},
 			{
 				23,

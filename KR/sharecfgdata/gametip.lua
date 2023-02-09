@@ -20891,6 +20891,14 @@ _G.pg.base.gametip.pre_combat_submarine = {
 	tip = "잠수함대"
 }
 
+_G.pg.base.gametip.pre_combat_targets = {
+	tip = "목표"
+}
+
+_G.pg.base.gametip.pre_combat_atlasloot = {
+	tip = "드랍"
+}
+
 _G.pg.base.gametip.destroy_confirm_access = {
 	tip = "확인"
 }
@@ -22698,4 +22706,32 @@ _G.pg.base.gametip.pre_combat_start = {
 
 _G.pg.base.gametip.pre_combat_start_en = {
 	tip = "WEIGH ANCHOR"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_s"] = {
+	tip = "우와…… 훌륭한 퀄리티의 초콜릿이 완성되었어요! 지휘관님, 드셔 보세요! 해피 밸런타인 데이!"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_a"] = {
+	tip = "이 초콜릿은 꽤나 괜찮아 보이네요! 지휘관님, 바로 드셔 보세요!"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_b"] = {
+	tip = "초콜릿이 완성되었어요…… 맛은 그럭저럭 나쁘지 않겠죠? 수고하셨어요, 지휘관님!"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_c"] = {
+	tip = "……지휘관님, 정말 이걸 드실 건가요? 다시 만드는게 더 좋지 않을까요……?"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label1"] = {
+	tip = "최종 점수:"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label2"] = {
+	tip = "완성 횟수"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
+	tip = "현재 완성:"
 }

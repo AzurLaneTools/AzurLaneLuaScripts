@@ -37,7 +37,6 @@ function slot0.OnRegister(slot0)
 		uv0:emit(CourtYardMediator.GO_THEME_TEMPLATE)
 	end, SFX_PANEL)
 	slot0:SetActive(slot0.stampBtn, not LOCK_CLICK_MINGSHI and getProxy(TaskProxy):mingshiTouchFlagEnabled())
-	slot0:SetActive(slot0.granaryBtn, slot0:IsInner())
 	slot0:UpdateShopTip()
 end
 
@@ -71,6 +70,8 @@ function slot0.OnFlush(slot0, slot1)
 		slot0.stockBar.fillAmount = slot2.food / (slot3 + slot2.dorm_food_max)
 		slot0.stockTxt.text = math.ceil(slot2.food) .. "/" .. slot3 + slot2.dorm_food_max
 	end
+
+	slot0:UpdateFloor()
 end
 
 function slot0.UpdateShopTip(slot0)
@@ -126,7 +127,7 @@ function slot0.GetMoveY(slot0)
 end
 
 function slot0.UpdateFloor(slot0, slot1)
-	slot0:SetActive(slot0.granaryBtn, getProxy(DormProxy).floor == 1)
+	slot0:SetActive(slot0.granaryBtn, slot0:IsInner() and getProxy(DormProxy).floor == 1)
 end
 
 function slot0.OnDispose(slot0)

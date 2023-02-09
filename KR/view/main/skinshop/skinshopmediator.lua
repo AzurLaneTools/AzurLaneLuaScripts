@@ -83,9 +83,7 @@ function slot0.listNotificationInterests(slot0)
 		GAME.SHOPPING_DONE,
 		PlayerProxy.UPDATED,
 		GAME.SKIN_COUPON_SHOPPING_DONE,
-		GAME.BUY_FURNITURE_DONE,
-		GAME.LOAD_LAYERS,
-		GAME.REMOVE_LAYERS
+		GAME.BUY_FURNITURE_DONE
 	}
 end
 
@@ -112,12 +110,6 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setPlayer(slot3)
 	elseif slot2 == GAME.BUY_FURNITURE_DONE then
 		slot0.viewComponent:OnFurnitureUpdate(slot4[1])
-	elseif slot2 == GAME.LOAD_LAYERS then
-		if slot3.context.mediator == NewBackYardShopMediator then
-			slot0:sendNotification(PlayerResUI.HIDE)
-		end
-	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator == NewBackYardShopMediator then
-		slot0:sendNotification(PlayerResUI.SHOW)
 	end
 end
 

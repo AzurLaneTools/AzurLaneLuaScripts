@@ -1235,7 +1235,7 @@ pg.ship_l2d = {
 		smooth = 30,
 		id = 4990528,
 		range_abs = 1,
-		offset_y = 3,
+		offset_y = 1,
 		range = {
 			0,
 			1
@@ -1288,16 +1288,70 @@ pg.ship_l2d = {
 		smooth = 100,
 		id = 4990711,
 		range_abs = 1,
-		offset_y = 30,
+		offset_y = 20,
 		range = {
 			0,
-			-10
+			10
 		},
 		action_trigger = {
 			action = "touch_drag1",
-			num = -10,
+			num = 10,
 			time = 0.5,
 			type = 1
+		}
+	},
+	[4060221] = {
+		draw_able_name = "TouchDrag1",
+		offset_x = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 2,
+		start_value = 0,
+		ship_skin_id = 406022,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		action_trigger = "",
+		revert = 100,
+		ignore_action = 0,
+		parameter = "touch_drag1",
+		shop_action = 0,
+		gyro_z = 0,
+		smooth = 100,
+		id = 4060221,
+		range_abs = 1,
+		offset_y = 100,
+		range = {
+			0,
+			1
+		}
+	},
+	[4060222] = {
+		draw_able_name = "TouchDrag2",
+		offset_x = 1,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 1,
+		start_value = 0,
+		ship_skin_id = 406022,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		action_trigger = "",
+		revert = -1,
+		ignore_action = 0,
+		parameter = "touch_drag2",
+		shop_action = 0,
+		gyro_z = 0,
+		smooth = 30,
+		id = 4060222,
+		range_abs = 0,
+		offset_y = 0,
+		range = {
+			0,
+			1
 		}
 	},
 	all = {
@@ -1344,6 +1398,8 @@ pg.ship_l2d = {
 		4990527,
 		4990528,
 		5020521,
-		4990711
+		4990711,
+		4060221,
+		4060222
 	}
 }

@@ -39,10 +39,14 @@ slot0.ACTIVITY_PERMANENT = "ActivityMediator.ACTIVITY_PERMANENT"
 slot0.FINISH_ACTIVITY_PERMANENT = "ActivityMediator.FINISH_ACTIVITY_PERMANENT"
 slot0.ON_SHAKE_BEADS_RESULT = "on shake beads result"
 slot0.GO_PERFORM_COMBAT = "ActivityMediator.GO_PERFORM_COMBAT"
+slot0.ON_AWARD_WINDOW = "ActivityMediator:ON_AWARD_WINDOW"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
 
+	slot0:bind(uv0.ON_AWARD_WINDOW, function (slot0, slot1, slot2, slot3)
+		uv0.viewComponent:ShowAwardWindow(slot1, slot2, slot3)
+	end)
 	slot0:bind(uv0.GO_DECODE_MINI_GAME, function (slot0)
 		pg.m02:sendNotification(GAME.REQUEST_MINI_GAME, {
 			type = MiniGameRequestCommand.REQUEST_HUB_DATA,

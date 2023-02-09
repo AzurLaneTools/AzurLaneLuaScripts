@@ -949,6 +949,13 @@ pg.equip_skin_theme_template = {
 			727
 		}
 	},
+	{
+		id = 44,
+		name = "스윗 선물",
+		ids = {
+			1300
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "무한한 별",
@@ -1050,6 +1057,7 @@ pg.equip_skin_theme_template = {
 		41,
 		42,
 		43,
+		44,
 		101,
 		102,
 		103,
