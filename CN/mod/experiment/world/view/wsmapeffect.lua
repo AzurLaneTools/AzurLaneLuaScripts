@@ -23,6 +23,7 @@ function slot0.Load(slot0, slot1)
 end
 
 function slot0.Unload(slot0)
+	slot0:UnloadModel()
 end
 
 return slot0

@@ -21,7 +21,7 @@ function slot0.Ctor(slot0)
 	pg.m02:registerMediator(slot0)
 
 	slot0.state = uv1
-	slot0.balance = 0
+	slot0.settingsStack = {}
 end
 
 function slot0.GetPlayer(slot0)
@@ -42,19 +42,8 @@ function slot0.Load(slot0, slot1)
 	end
 
 	slot0.state = uv1
-	slot2 = PoolMgr.GetInstance()
 
-	slot2:GetUI("ResPanel", true, function (slot0)
-		pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_OVERLAY_FOREVER, slot0.transform, {
-			weight = LayerWeightConst.BASE_LAYER + 1
-		})
-
-		uv0.state = uv1
-
-		uv0:Init(slot0.transform:Find("frame").gameObject)
-		uv0:CustomSetting(uv2)
-		uv0:Flush()
-	end)
+	PoolMgr.GetInstance():GetUI("ResPanel", true, slot1)
 end
 
 function slot0.Init(slot0, slot1)
@@ -94,58 +83,35 @@ function slot0.Init(slot0, slot1)
 	setActive(slot0._go, true)
 end
 
-function slot0.SetActive(slot0, slot1, slot2)
-	if not slot1 then
-		slot0:Disable()
+function slot0.SetActive(slot0, slot1)
+	if slot1.active then
+		table.insert(slot0.settingsStack, slot1)
+		slot0:Enable(slot1)
 	else
-		slot0:Enable(slot2)
+		if slot1.clear then
+			slot0.settingsStack = {}
+		else
+			table.remove(slot0.settingsStack)
+		end
+
+		slot0:Disable()
 	end
-end
-
-function slot0.PinUp(slot0, slot1)
-	slot0:SetActive(true, slot1)
-
-	slot0.pin = true
-end
-
-function slot0.UnPin(slot0)
-	slot0.pin = false
-
-	slot0:SetActive(false)
 end
 
 function slot0.Enable(slot0, slot1)
-	if slot0.pin then
-		return
-	end
-
-	if not slot1 then
-		slot0.settings = nil
-
-		if slot0:IsEnable() then
-			slot0:Disable()
-		end
-
-		return
-	end
-
-	if slot1 == true then
-		slot1 = {
-			anim = true,
-			showType = uv0.TYPE_ALL
-		}
-	end
-
-	if slot1.reset and slot0.settings then
-		slot0.resetSettings = slot0.settings
-	end
-
 	if not slot0:IsLoaded() then
-		slot0:Load(slot1)
-	elseif slot0.state == uv1 then
+		slot0:Load(function (slot0)
+			uv0._tf = slot0.transform
+			uv0.state = uv1
+
+			uv0:Init(uv0._tf:Find("frame").gameObject)
+			uv0:CustomSetting(uv2)
+			uv0:Flush()
+		end)
+	elseif slot0.state == uv0 then
 		slot0:CustomSetting(slot1)
 	else
-		slot0.state = uv1
+		slot0.state = uv0
 
 		slot0:CustomSetting(slot1)
 		setActive(slot0._go, true)
@@ -154,35 +120,24 @@ function slot0.Enable(slot0, slot1)
 			slot0:Flush()
 		end
 	end
-
-	slot0.settings = slot1
 end
 
 function slot0.Disable(slot0)
-	if slot0.pin then
-		return
-	end
-
-	if not slot0:IsEnable() or slot0.balance ~= 1 then
-		return
-	end
-
-	slot0.state = uv0
-
-	setActive(slot0._go, false)
-
 	if pg.goldExchangeMgr then
 		pg.goldExchangeMgr:exit()
 
 		pg.goldExchangeMgr = nil
 	end
 
-	if slot0.resetSettings then
-		slot0.resetSettings.anim = false
+	if #slot0.settingsStack > 0 then
+		slot1 = slot0.settingsStack[#slot0.settingsStack]
+		slot1.anim = false
 
-		slot0:Enable(slot0.resetSettings)
+		slot0:Enable(slot1)
+	else
+		slot0.state = uv0
 
-		slot0.resetSettings = nil
+		setActive(slot0._go, false)
 	end
 end
 
@@ -201,6 +156,10 @@ function slot0.CustomSetting(slot0, slot1)
 	slot0.oilAddBtn.anchoredPosition3D = Vector3(slot0.oilPos.x + slot3, slot0.oilPos.y, 1)
 
 	NotchAdapt.AdjustUI()
+	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_OVERLAY_FOREVER, slot0._tf, {
+		weight = slot1.weight,
+		groupName = slot1.groupName
+	})
 end
 
 function slot0.DoAnimation(slot0)
@@ -331,9 +290,6 @@ function slot0.listNotificationInterests(slot0)
 		PlayerProxy.UPDATED,
 		GAME.GUILD_GET_USER_INFO_DONE,
 		GAME.GET_PUBLIC_GUILD_USER_DATA_DONE,
-		GAME.START_LOAD_SCENE,
-		GAME.WILL_LOAD_LAYERS,
-		GAME.REMOVE_LAYERS,
 		PlayerResUI.CHANGE_TOUCH_ABLE,
 		uv0.HIDE,
 		uv0.SHOW
@@ -341,38 +297,13 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
-	if slot1:getName() == GAME.START_LOAD_SCENE then
-		slot0.isResScene = slot1:getBody().viewComponent:ResUISettings() ~= nil
-		slot0.balance = 1
-	end
-
-	if slot2 == PlayerResUI.CHANGE_TOUCH_ABLE then
+	if slot1:getName() == PlayerResUI.CHANGE_TOUCH_ABLE then
 		slot3 = slot1:getBody()
 		slot4 = GetComponent(tf(slot0._go), typeof(CanvasGroup))
 		slot4.interactable = slot3
 		slot4.blocksRaycasts = slot3
 
 		return
-	end
-
-	if not slot0.isResScene then
-		slot0:updateResPanel(slot2)
-
-		return
-	end
-
-	if slot0.pin then
-		return
-	end
-
-	if slot2 == GAME.WILL_LOAD_LAYERS then
-		slot0.balance = slot0.balance + slot1:getBody()
-	elseif slot2 == GAME.REMOVE_LAYERS then
-		slot0.balance = slot0.balance - 1
-	elseif uv0.HIDE == slot2 then
-		setActive(slot0._go, false)
-	elseif uv0.SHOW == slot2 then
-		setActive(slot0._go, true)
 	end
 
 	slot0:updateResPanel(slot2)
@@ -387,6 +318,18 @@ function slot0.updateResPanel(slot0, slot1)
 
 	if slot1 == PlayerProxy.UPDATED or slot1 == GAME.GUILD_GET_USER_INFO_DONE or slot1 == GAME.GET_PUBLIC_GUILD_USER_DATA_DONE then
 		slot0:Flush()
+	end
+end
+
+function slot0.checkBackPressed(slot0)
+	if pg.goldExchangeMgr then
+		pg.goldExchangeMgr:exit()
+
+		pg.goldExchangeMgr = nil
+
+		return true
+	else
+		return false
 	end
 end
 

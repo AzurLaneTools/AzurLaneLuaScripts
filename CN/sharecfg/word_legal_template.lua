@@ -1812,6 +1812,9 @@ function temp()
 			["顿"] = {
 				this = true
 			}
+		},
+		["甲"] = {
+			this = true
 		}
 	}
 end
@@ -2706,6 +2709,17 @@ function temp()
 							["兵"] = {
 								["装"] = {
 									[")"] = {
+										this = true
+									}
+								}
+							}
+						}
+					},
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
 										this = true
 									}
 								}
@@ -4822,7 +4836,12 @@ temp()
 function temp()
 	uv0["逸"] = {
 		["仙"] = {
-			this = true
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -6196,6 +6215,42 @@ function temp()
 							}
 						}
 					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["忒"] = {
+		["修"] = {
+			["斯"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["定"] = {
+		["安"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["古"] = {
+		["比"] = {
+			["雪"] = {
+				["夫"] = {
+					this = true
 				}
 			}
 		}

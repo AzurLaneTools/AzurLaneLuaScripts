@@ -104,25 +104,10 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0)
-	uv0.super.Show(slot0)
-
-	slot1 = nil
-
-	if slot0.openAgain then
-		slot1 = {
-			showType = PlayerResUI.TYPE_ALL
-		}
-	else
-		slot0.openAgain = true
-	end
-
-	pg.playerResUI:PinUp(defaultValue(slot1, true))
-end
-
-function slot0.Hide(slot0)
-	uv0.super.Hide(slot0)
-	pg.playerResUI:UnPin()
+function slot0.ResUISettings(slot0)
+	return {
+		showType = PlayerResUI.TYPE_ALL
+	}
 end
 
 function slot0.OnUpdatePlayer(slot0)

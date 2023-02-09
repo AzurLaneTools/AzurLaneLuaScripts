@@ -53,8 +53,8 @@ function slot0.Destroy(slot0)
 	slot0:cleanManagedTween()
 
 	slot0._tf = nil
-
-	PoolMgr.GetInstance():DelTempCache(slot0:getUIName())
+	slot1 = PoolMgr.GetInstance()
+	slot2 = slot0:getUIName()
 
 	if slot0._go ~= nil and slot2 then
 		slot1:ReturnUI(slot2, slot0._go)

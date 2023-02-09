@@ -21317,6 +21317,14 @@ _G.pg.base.gametip.pre_combat_submarine = {
 	tip = "潜艇舰队"
 }
 
+_G.pg.base.gametip.pre_combat_targets = {
+	tip = "目标"
+}
+
+_G.pg.base.gametip.pre_combat_atlasloot = {
+	tip = "掉落"
+}
+
 _G.pg.base.gametip.destroy_confirm_access = {
 	tip = "确 定"
 }
@@ -23102,4 +23110,32 @@ _G.pg.base.gametip.pre_combat_start = {
 
 _G.pg.base.gametip.pre_combat_start_en = {
 	tip = "WEIGH ANCHOR"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_s"] = {
+	tip = "哇哦…一份品质绝佳的巧克力制作完成！指挥官，请品尝一下吧！情人节快乐！"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_a"] = {
+	tip = "这份巧克力看起来相当不错呢！指挥官，请第一时间品尝一下吧！"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_b"] = {
+	tip = "巧克力制作完成……味道应该差不多吧？辛苦了，指挥官！"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_c"] = {
+	tip = "……指挥官，你真的要品尝这一份么？是不是重新做一份比较好……"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label1"] = {
+	tip = "最终得分："
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label2"] = {
+	tip = "完成次数"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
+	tip = "当前完成："
 }

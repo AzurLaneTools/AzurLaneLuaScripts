@@ -21,8 +21,12 @@ end
 function slot0.Refresh(slot0, slot1)
 	if slot0.name ~= slot1:getPainting() then
 		slot0:Init(slot1)
-	elseif slot0.spineAnim then
-		slot0.spineAnim:Resume()
+	else
+		slot0.ship = slot1
+
+		if slot0.spineAnim then
+			slot0.spineAnim:Resume()
+		end
 	end
 
 	slot0.propose = slot1.propose

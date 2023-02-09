@@ -224,6 +224,8 @@ function slot1.LayerSortHandler(slot0)
 				slot12 = slot16 - 1
 
 				slot31()
+			elseif slot4 ~= nil and slot4 == slot23 then
+				slot31()
 			else
 				slot32()
 			end

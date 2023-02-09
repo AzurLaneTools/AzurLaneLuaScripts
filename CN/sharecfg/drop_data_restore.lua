@@ -2940,7 +2940,7 @@ pg.drop_data_restore = {
 		resource_type = 1,
 		id = 6000,
 		resource_num = 1000,
-		drop_id = 96930,
+		drop_id = 65228,
 		target_id = 191
 	},
 	all = {

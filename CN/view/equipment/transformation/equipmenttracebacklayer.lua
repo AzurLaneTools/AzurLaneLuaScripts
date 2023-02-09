@@ -15,6 +15,7 @@ function slot0.init(slot0)
 	setActive(slot0.sortBar, false)
 
 	slot0.equipLayout = slot0._tf:Find("Adapt/Left/Scroll View")
+	slot0.equipLayoutScroll = slot0.equipLayout:GetComponent("LScrollRect")
 	slot0.equipLayoutContent = slot0.equipLayout:Find("Viewport/Content")
 	slot0.equipLayoutContent:GetComponent(typeof(GridLayoutGroup)).constraintCount = 6
 	slot3 = slot0._tf:Find("Adapt/Right")
@@ -142,6 +143,15 @@ function slot0.UpdateSort(slot0)
 end
 
 function slot0.didEnter(slot0)
+	function slot0.equipLayoutScroll.onUpdateItem(slot0, slot1)
+		uv0:UpdateSourceListItem(slot0, tf(slot1))
+		TweenItemAlphaAndWhite(slot1)
+	end
+
+	function slot0.equipLayoutScroll.onReturnItem(slot0, slot1)
+		ClearTweenItemAlphaAndWhite(slot1)
+	end
+
 	function slot4()
 		setActive(uv0.sortBar, not isActive(uv0.sortBar))
 	end
@@ -202,21 +212,7 @@ end
 function slot0.UpdateSourceList(slot0)
 	slot0.lastSourceItem = nil
 
-	UIItemList.StaticAlign(slot0.equipLayoutContent, slot0.equipLayoutContent:GetChild(0), #slot0.totalPaths, function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			uv0:UpdateSourceListItem(slot1, slot2)
-		end
-	end)
-	Canvas.ForceUpdateCanvases()
-
-	slot1 = slot0.equipLayoutContent.rect.height < slot0.equipLayout.rect.height
-	slot0.equipLayout:GetComponent(typeof(ScrollRect)).enabled = not slot1
-
-	setActive(slot0.equipLayout:Find("Scrollbar"), not slot1)
-
-	if slot1 then
-		slot0.equipLayoutContent.anchoredPosition = Vector2.zero
-	end
+	slot0.equipLayoutScroll:SetTotalCount(#slot0.totalPaths)
 end
 
 function slot0.UpdateSourceListItem(slot0, slot1, slot2)
