@@ -7554,7 +7554,7 @@ pg.ship_skin_template_13 = {
 	},
 	[406022] = {
 		ship_group = 40602,
-		name = "청순한 ”악역 아가씨“?",
+		name = "청순한 ''악역 아가씨''?",
 		bullet_skin_secondary = "",
 		hand_id = 1,
 		bgm = "",
@@ -7595,7 +7595,7 @@ pg.ship_skin_template_13 = {
 		},
 		live2d_offset = {
 			0,
-			0,
+			-10,
 			0
 		},
 		fx_container = {
@@ -7669,8 +7669,7 @@ pg.ship_skin_template_13 = {
 			use_event = true
 		},
 		ship_l2d_id = {
-			4060221,
-			4060222
+			4060221
 		}
 	},
 	[407010] = {

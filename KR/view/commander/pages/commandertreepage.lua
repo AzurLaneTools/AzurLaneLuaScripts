@@ -21,11 +21,11 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.openTreePanel(slot0, slot1)
+function slot0.openTreePanel(slot0, slot1, slot2)
 	setActive(slot0.treePanel, true)
 	slot0.treePanel:SetAsLastSibling()
 
-	function slot2(slot0)
+	function slot3(slot0)
 		uv0.treeTalentDesTxt.text = slot0:getConfig("desc")
 	end
 
@@ -50,7 +50,7 @@ function slot0.openTreePanel(slot0, slot1)
 	end)
 	slot0.treeList:align(#slot1:getTalentList())
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
+		weight = slot2 or LayerWeightConst.SECOND_LAYER
 	})
 end
 

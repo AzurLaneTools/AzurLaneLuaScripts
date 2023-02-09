@@ -94,14 +94,12 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	if not IsUnityEditor then
-		slot4 = LuaHelper.GetCHPackageType()
+	slot4 = LuaHelper.GetCHPackageType()
 
-		if PLATFORM_CODE == PLATFORM_CH and slot4 ~= PACKAGE_TYPE_BILI then
-			uv0.TipsMgr.GetInstance():ShowTips("指挥官，当前平台不支持分享功能哦")
+	if not IsUnityEditor and PLATFORM_CODE == PLATFORM_CH and slot4 ~= PACKAGE_TYPE_BILI then
+		uv0.TipsMgr.GetInstance():ShowTips("指挥官，当前平台不支持分享功能哦")
 
-			return
-		end
+		return
 	end
 
 	if IsNil(slot0.go) then
@@ -118,44 +116,44 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 	setActive(slot0.panelPink, slot2 == uv1.PANEL_TYPE_PINK)
 	assert(uv0.share_template[slot1], "share_template not exist: " .. slot1)
 
-	slot5 = getProxy(PlayerProxy):getRawData()
-	slot7 = getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot6.server or 0]
-	slot10 = slot0.deckTF
-	slot11 = slot0.ANCHORS_TYPE[slot4.deck] or {
+	slot6 = getProxy(PlayerProxy):getRawData()
+	slot8 = getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot7.server or 0]
+	slot11 = slot0.deckTF
+	slot12 = slot0.ANCHORS_TYPE[slot5.deck] or {
 		0.5,
 		0.5,
 		0.5,
 		0.5
 	}
-	slot10.anchorMin = Vector2(slot11[1], slot11[2])
-	slot10.anchorMax = Vector2(slot11[3], slot11[4])
+	slot11.anchorMin = Vector2(slot12[1], slot12[2])
+	slot11.anchorMax = Vector2(slot12[3], slot12[4])
 
-	setText(slot10:Find("name/value"), slot5 and slot5.name or "")
-	setText(slot10:Find("server/value"), slot7 and slot7.name or "")
-	setText(slot10:Find("lv/value"), slot5.level)
+	setText(slot11:Find("name/value"), slot6 and slot6.name or "")
+	setText(slot11:Find("server/value"), slot8 and slot8.name or "")
+	setText(slot11:Find("lv/value"), slot6.level)
 
 	if PLATFORM_CODE == PLATFORM_CHT or PLATFORM_CODE == PLATFORM_CH then
-		setActive(slot10:Find("code_bg"), true)
+		setActive(slot11:Find("code_bg"), true)
 	else
-		setActive(slot10:Find("code_bg"), false)
+		setActive(slot11:Find("code_bg"), false)
 	end
 
-	slot10.anchoredPosition3D = Vector3(slot4.qrcode_location[1], slot4.qrcode_location[2], -100)
-	slot10.anchoredPosition = Vector2(slot4.qrcode_location[1], slot4.qrcode_location[2])
+	slot11.anchoredPosition3D = Vector3(slot5.qrcode_location[1], slot5.qrcode_location[2], -100)
+	slot11.anchoredPosition = Vector2(slot5.qrcode_location[1], slot5.qrcode_location[2])
 
-	_.each(slot4.hidden_comps, function (slot0)
+	_.each(slot5.hidden_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and slot1.activeSelf then
 			table.insert(uv0.cacheComps, slot1)
 			slot1:SetActive(false)
 		end
 	end)
-	_.each(slot4.show_comps, function (slot0)
+	_.each(slot5.show_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and not slot1.activeSelf then
 			table.insert(uv0.cacheShowComps, slot1)
 			slot1:SetActive(true)
 		end
 	end)
-	_.each(slot4.move_comps, function (slot0)
+	_.each(slot5.move_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0.path)) then
 			table.insert(uv0.cacheMoveComps, {
 				slot1,
@@ -168,35 +166,35 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 			})
 		end
 	end)
-	SetParent(slot10, GameObject.Find(slot4.camera):GetComponent(typeof(Camera)).transform:GetChild(0), false)
-	slot10:SetAsLastSibling()
+	SetParent(slot11, GameObject.Find(slot5.camera):GetComponent(typeof(Camera)).transform:GetChild(0), false)
+	slot11:SetAsLastSibling()
 
-	slot14 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
+	slot15 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
 
 	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and uv0.SdkMgr.GetInstance():GetIsPlatform() then
-		uv0.SdkMgr.GetInstance():GameShare(slot4.description, slot0:TakeTexture(slot1, slot14, slot12))
+		uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot0:TakeTexture(slot1, slot15, slot13))
 		uv0.UIMgr.GetInstance():LoadingOn()
 		onDelayTick(function ()
 			uv0.UIMgr.GetInstance():LoadingOff()
 		end, 2)
 	elseif PLATFORM_CODE == PLATFORM_CHT then
-		slot0:TakePhoto(slot1, slot14, slot12)
+		slot0:TakePhoto(slot1, slot15, slot13)
 		uv0.SdkMgr.GetInstance():ShareImg(slot0.screenshot, function ()
 		end)
-	elseif PLATFORM_CODE == PLATFORM_CH and packageType == PACKAGE_TYPE_BILI then
-		if slot0:TakePhoto(slot1, slot14, slot12) then
-			uv0.SdkMgr.GetInstance():GameShare(slot4.description, slot0.screenshot)
+	elseif PLATFORM_CODE == PLATFORM_CH and slot4 == PACKAGE_TYPE_BILI then
+		if slot0:TakePhoto(slot1, slot15, slot13) then
+			uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot0.screenshot)
 		end
-	elseif slot0:TakePhoto(slot1, slot14, slot12) then
+	elseif slot0:TakePhoto(slot1, slot15, slot13) then
 		print("截图位置: " .. slot0.screenshot)
-		slot0:Show(slot4, slot3)
+		slot0:Show(slot5, slot3)
 	elseif PLATFORM_CODE == PLATFORM_CHT then
 		uv0.TipsMgr.GetInstance():ShowTips("截圖失敗")
 	else
 		uv0.TipsMgr.GetInstance():ShowTips("截图失败")
 	end
 
-	SetParent(slot10, slot0.tr, false)
+	SetParent(slot11, slot0.tr, false)
 	_.each(slot0.cacheComps, function (slot0)
 		slot0:SetActive(true)
 	end)

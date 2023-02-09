@@ -5049,7 +5049,7 @@ pg.ship_skin_template_10 = {
 	},
 	[303102] = {
 		ship_group = 30310,
-		name = "잘못 들어간 “새장”",
+		name = "잘못 들어간 ''새장''",
 		bullet_skin_secondary = "",
 		hand_id = 14,
 		bgm = "",
