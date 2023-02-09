@@ -21558,6 +21558,14 @@ _G.pg.base.gametip.pre_combat_submarine = {
 	tip = "潜水艦隊"
 }
 
+_G.pg.base.gametip.pre_combat_targets = {
+	tip = "目標"
+}
+
+_G.pg.base.gametip.pre_combat_atlasloot = {
+	tip = "出現"
+}
+
 _G.pg.base.gametip.destroy_confirm_access = {
 	tip = "確 定"
 }
@@ -23381,4 +23389,32 @@ _G.pg.base.gametip.pre_combat_start = {
 
 _G.pg.base.gametip.pre_combat_start_en = {
 	tip = "WEIGH ANCHOR"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_s"] = {
+	tip = "これはものすごいチョコレートができたようですね…指揮官、どうぞ召し上がってください！"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_a"] = {
+	tip = "うん！いい仕上がりです！指揮官、早めに召し上がってくださいね！"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_b"] = {
+	tip = "これでよしっと……味の方は大丈夫でしょうか？ええと、指揮官、よかったらどうぞ！"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_c"] = {
+	tip = "ほ、本当に召し上がるのですか？？やっぱり作り直した方が……"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label1"] = {
+	tip = "スコア"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label2"] = {
+	tip = "報酬開放ステージ："
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
+	tip = "クリア済ステージ："
 }

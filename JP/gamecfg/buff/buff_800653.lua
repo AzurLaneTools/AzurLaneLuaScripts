@@ -64,6 +64,17 @@ return {
 					"fennumetayalisangna"
 				}
 			}
+		},
+		{
+			type = "BattleBuffCleanse",
+			trigger = {
+				"onRemove"
+			},
+			arg_list = {
+				buff_id_list = {
+					800655
+				}
+			}
 		}
 	}
 }

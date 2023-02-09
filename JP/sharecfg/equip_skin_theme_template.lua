@@ -949,6 +949,13 @@ pg.equip_skin_theme_template = {
 			727
 		}
 	},
+	{
+		id = 44,
+		name = "スイート・プレゼント",
+		ids = {
+			1300
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "プラネットダンス",
@@ -1050,6 +1057,7 @@ pg.equip_skin_theme_template = {
 		41,
 		42,
 		43,
+		44,
 		101,
 		102,
 		103,

@@ -278,6 +278,29 @@ pg.share_template = {
 			"UICamera/Canvas/UIMain/IcecreamSharePage(Clone)"
 		}
 	},
+	{
+		description = "#アズールレーン#",
+		name = "情人节qet",
+		deck = 5,
+		id = 17,
+		move_comps = "",
+		camera = "OverlayCamera",
+		qrcode_location = {
+			470,
+			-440
+		},
+		hidden_comps = {
+			"/UICamera/Canvas/UIMain/ValentineQteGamePage(Clone)/pause",
+			"/UICamera/Canvas/UIMain/ValentineQteGamePage(Clone)/time",
+			"/UICamera/Canvas/UIMain/ValentineQteGamePage(Clone)/title",
+			"/UICamera/Canvas/UIMain/ValentineQteGamePage(Clone)/score",
+			"/OverlayCamera/Overlay/UIMain/result_panel/share",
+			"/OverlayCamera/Overlay/UIEffect"
+		},
+		show_comps = {
+			"/OverlayCamera/Overlay/UIMain/result_panel/frame/Text"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -294,6 +317,7 @@ pg.share_template = {
 		13,
 		14,
 		15,
-		16
+		16,
+		17
 	}
 }

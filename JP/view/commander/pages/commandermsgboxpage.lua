@@ -31,6 +31,8 @@ function slot0.OnUpdate(slot0, slot1)
 		setText(slot0.text, setColorStr(slot1.content, "#847D7B"))
 	end
 
+	slot0.layer = slot1.layer
+
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Hide()
 
@@ -64,7 +66,7 @@ end
 function slot0.Show(slot0)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
+		weight = slot0.layer or LayerWeightConst.SECOND_LAYER
 	})
 end
 

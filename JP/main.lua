@@ -142,6 +142,10 @@ function OnApplicationExit()
 		slot14 = slot3.transform:GetSiblingIndex()
 	end
 
+	if pg.playerResUI:checkBackPressed() then
+		return
+	end
+
 	if slot12 == slot15 and slot14 < slot13 then
 		slot11:onBackPressed()
 

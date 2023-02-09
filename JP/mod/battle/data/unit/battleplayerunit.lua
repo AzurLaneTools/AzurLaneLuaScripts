@@ -466,6 +466,21 @@ end
 function slot7.UpdatePrecastMoveLimit(slot0)
 end
 
+function slot7.setStandardLabelTag(slot0)
+	uv0.super.setStandardLabelTag(slot0)
+
+	slot2 = #slot0:GetManualWeaponParallel()
+
+	while slot2 > 0 do
+		if slot1[slot2] > 1 then
+			print(uv1.PARALLEL_LABEL_TAG[slot2])
+			slot0:AddLabelTag(uv1.PARALLEL_LABEL_TAG[slot2])
+		end
+
+		slot2 = slot2 - 1
+	end
+end
+
 function slot7.ConfigBubbleFX(slot0)
 	slot0._bubbleFX = uv0.PLAYER_SUB_BUBBLE_FX
 

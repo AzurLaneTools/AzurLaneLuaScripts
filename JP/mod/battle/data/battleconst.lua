@@ -370,6 +370,11 @@ slot0.ManualWeaponIndex = {
 	TORPEDO = 2,
 	AIR_ASSIST = 3
 }
+slot0.PARALLEL_LABEL_TAG = {
+	"parallelMG",
+	"parallelTP",
+	"parallelAS"
+}
 slot0.EnviroumentBehaviour = {
 	PLAY_FX = 1,
 	DAMAGE = 2,

@@ -23430,6 +23430,41 @@ pg.equip_skin_template = {
 			24000
 		}
 	},
+	[1300] = {
+		hit_sfx = "",
+		bullet_name = "paodan_hezi",
+		orbit_ui_bound = "",
+		type = 1,
+		name = "チョコボックス砲弾",
+		orbit_combat = "",
+		themeid = 44,
+		desc = "甘いプレゼントを受け取ってピョ！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		id = 1300,
+		icon = "94701",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "paodan_hezi_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
 	[2001] = {
 		hit_sfx = "",
 		bullet_name = "yulei_fanxing",
@@ -25328,6 +25363,7 @@ pg.equip_skin_template = {
 		1216,
 		1217,
 		1218,
+		1300,
 		2001,
 		2002,
 		2003,

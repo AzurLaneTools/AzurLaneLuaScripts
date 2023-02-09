@@ -429,6 +429,25 @@ pg.activity_task_permanent = {
 		over_task_id = "",
 		eliminate_task_id = {}
 	},
+	[6018] = {
+		gametip = "限定家具「チョコ饅頭」をGET!",
+		banner_route = "permanent_qiaokelijiu",
+		gametip_extra = "最速7日間で入手",
+		over_pt = 0,
+		task_extra = "",
+		id = 6018,
+		activity_name = "饅頭チョコ工場",
+		over_task_id = "",
+		eliminate_task_id = {
+			35216,
+			35217,
+			35218,
+			35219,
+			35220,
+			35221,
+			35222
+		}
+	},
 	all = {
 		6000,
 		6001,
@@ -447,6 +466,7 @@ pg.activity_task_permanent = {
 		6014,
 		6015,
 		6016,
-		6017
+		6017,
+		6018
 	}
 }

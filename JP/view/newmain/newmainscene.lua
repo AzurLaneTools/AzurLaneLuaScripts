@@ -21,7 +21,8 @@ end
 function slot0.ResUISettings(slot0)
 	return {
 		showType = PlayerResUI.TYPE_ALL,
-		anim = not slot0.isInit
+		anim = not slot0.isInit,
+		weight = LayerWeightConst.BASE_LAYER + 1
 	}
 end
 
@@ -248,6 +249,12 @@ function slot0.OnDisVisible(slot0)
 	pg.LayerWeightMgr.GetInstance():SetVisibleViaLayer(slot0.mainCG.gameObject.transform, false)
 	slot0.sequenceView:Disable()
 	slot0.awakeSequenceView:Disable()
+end
+
+function slot0.OnLogOut(slot0)
+	if slot0.calibrationPage and slot0.calibrationPage:GetLoaded() and slot0.calibrationPage:isShowing() then
+		triggerButton(slot0.calibrationPage.backBtn)
+	end
 end
 
 function slot0.onBackPressed(slot0)

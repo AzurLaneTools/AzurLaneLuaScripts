@@ -167,6 +167,10 @@ function slot6.GetReloadTime(slot0)
 	return slot0._cacheReloadTime
 end
 
+function slot6.GetReloadTimeByRate(slot0, slot1)
+	return uv0.CalculateReloadTime(slot0._cacheReloadMax * slot1, battleAttr.GetCurrent(slot0._host, "loadSpeed"))
+end
+
 function slot6.SetModifyInitialCD(slot0)
 	slot0._modInitCD = true
 end
