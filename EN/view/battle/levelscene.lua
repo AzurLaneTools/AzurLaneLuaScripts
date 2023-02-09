@@ -18,7 +18,8 @@ end
 
 function slot0.ResUISettings(slot0)
 	return {
-		showType = PlayerResUI.TYPE_ALL
+		showType = PlayerResUI.TYPE_ALL,
+		groupName = LayerWeightConst.GROUP_LEVELUI
 	}
 end
 
@@ -2056,7 +2057,8 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 				pg.UIMgr.GetInstance():BlurPanel(uv0.topPanel, false, {
 					blurCamList = {
 						pg.UIMgr.CameraUI
-					}
+					},
+					groupName = LayerWeightConst.GROUP_LEVELUI
 				})
 				uv0.levelStageView:updateStageInfo()
 				uv0.levelStageView:updateAmbushRate(uv1.fleet.line, true)

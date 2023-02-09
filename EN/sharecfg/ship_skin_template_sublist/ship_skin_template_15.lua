@@ -7659,7 +7659,7 @@ pg.ship_skin_template_15 = {
 	},
 	[702020] = {
 		ship_group = 70202,
-		name = "Pamiat Merkuria",
+		name = "Pamiat' Merkuria",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
@@ -8237,7 +8237,7 @@ pg.ship_skin_template_15 = {
 	},
 	[702029] = {
 		ship_group = 70202,
-		name = "Pamiat‘ Merkuria (Retrofit)",
+		name = "Pamiat' Merkuria (Retrofit)",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
