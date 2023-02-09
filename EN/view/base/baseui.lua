@@ -45,6 +45,10 @@ function slot0.forceGC(slot0)
 	return false
 end
 
+function slot0.tempCache(slot0)
+	return false
+end
+
 function slot0.getGroupName(slot0)
 	return nil
 end
@@ -93,7 +97,7 @@ end
 function slot0.load(slot0)
 	slot1 = nil
 	slot2 = Time.realtimeSinceStartup
-	slot3 = 0
+	slot3 = slot0:getUIName()
 
 	seriesAsync({
 		function (slot0)
@@ -101,18 +105,22 @@ function slot0.load(slot0)
 		end,
 		function (slot0)
 			slot1 = PoolMgr.GetInstance()
-			slot3 = uv0
 
-			slot1:GetUI(slot3:getUIName(), true, function (slot0)
+			slot1:GetUI(uv0, true, function (slot0)
 				uv0 = slot0
-				uv1 = not IsNil(uv0)
 
+				print("Loaded " .. uv1)
 				uv2()
 			end)
 		end
 	}, function ()
 		originalPrint("load " .. uv0.name .. " time cost: " .. Time.realtimeSinceStartup - uv1)
 		uv0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
+
+		if uv2:tempCache() then
+			PoolMgr.GetInstance():AddTempCache(uv3)
+		end
+
 		uv2:PlayBGM()
 		uv2:onUILoaded(uv0)
 	end)
@@ -212,6 +220,29 @@ function slot0.onUILoaded(slot0, slot1)
 end
 
 function slot0.ResUISettings(slot0)
+	return nil
+end
+
+function slot0.ShowOrHideResUI(slot0, slot1)
+	if not slot0:ResUISettings() then
+		return
+	end
+
+	if slot2 == true then
+		slot2 = {
+			anim = true,
+			showType = PlayerResUI.TYPE_ALL
+		}
+	end
+
+	pg.playerResUI:SetActive(setmetatable({
+		active = slot1,
+		clear = not slot1 and not slot0:isLayer(),
+		weight = slot2.weight or slot0:getWeightFromData(),
+		groupName = slot2.groupName or slot0:getGroupNameFromData()
+	}, {
+		__index = slot2
+	}))
 end
 
 function slot0.onUIAnimEnd(slot0, slot1)
@@ -235,13 +266,13 @@ end
 
 function slot0.enter(slot0)
 	slot0:quickExit()
-	pg.playerResUI:SetActive(true, slot0:ResUISettings())
 
 	function slot1()
 		uv0:emit(uv1.DID_ENTER)
 
 		if not uv0._isCachedView then
 			uv0:didEnter()
+			uv0:ShowOrHideResUI(true)
 		end
 
 		uv0:emit(uv1.AVALIBLE)
@@ -308,7 +339,7 @@ function slot0.exit(slot0)
 
 	function slot1()
 		uv0:willExit()
-		pg.playerResUI:SetActive(false)
+		uv0:ShowOrHideResUI(false)
 		uv0:detach()
 		pg.GuideMgr.GetInstance():onSceneExit({
 			view = uv0.__cname
@@ -331,6 +362,10 @@ function slot0.ClearTweens(slot0, slot1)
 	slot0:cleanManagedTween(slot1)
 end
 
+function slot0.RemoveTempCache(slot0)
+	PoolMgr.GetInstance():DelTempCache(slot0:getUIName())
+end
+
 function slot0.detach(slot0, slot1)
 	slot0._isLoaded = false
 
@@ -340,8 +375,8 @@ function slot0.detach(slot0, slot1)
 	slot0:ClearTweens(false)
 
 	slot0._tf = nil
-
-	PoolMgr.GetInstance():DelTempCache(slot0:getUIName())
+	slot2 = PoolMgr.GetInstance()
+	slot3 = slot0:getUIName()
 
 	if slot0._go ~= nil and slot3 then
 		slot2:ReturnUI(slot3, slot0._go)
@@ -384,7 +419,7 @@ function slot0.setImageAmount(slot0, slot1, slot2)
 end
 
 function slot0.setVisible(slot0, slot1)
-	pg.playerResUI:SetActive(slot1, slot0:ResUISettings())
+	slot0:ShowOrHideResUI(slot1)
 	setActiveViaLayer(slot0._tf, slot1)
 
 	if slot1 then

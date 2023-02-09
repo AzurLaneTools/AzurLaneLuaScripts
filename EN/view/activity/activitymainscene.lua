@@ -23,6 +23,12 @@ function slot0.onBackPressed(slot0)
 		end
 	end
 
+	if slot0.awardWindow and slot0.awardWindow:GetLoaded() and slot0.awardWindow:isShowing() then
+		slot0.awardWindow:Hide()
+
+		return
+	end
+
 	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 
@@ -37,6 +43,7 @@ function slot0.init(slot0)
 	slot0.entranceList = UIItemList.New(slot0:findTF("enter/viewport/content"), slot0:findTF("enter/viewport/content/btn"))
 	slot0.windowList = {}
 	slot0.lockAll = slot0:findTF("blur_panel/lock_all")
+	slot0.awardWindow = AwardWindow.New(slot0._tf, slot0.event)
 
 	setActive(slot0.tab, false)
 	setActive(slot0.lockAll, false)
@@ -340,6 +347,12 @@ function slot0.HideWindow(slot0, slot1)
 	slot0.windowList[slot2]:Hide()
 end
 
+function slot0.ShowAwardWindow(slot0, slot1, slot2, slot3)
+	if slot0.awardWindow then
+		slot0.awardWindow:ExecuteAction("Flush", slot1, slot2, slot3)
+	end
+end
+
 function slot0.willExit(slot0)
 	slot0.shareData = nil
 
@@ -349,6 +362,12 @@ function slot0.willExit(slot0)
 
 	for slot4, slot5 in pairs(slot0.windowList) do
 		slot5:Dispose()
+	end
+
+	if slot0.awardWindow then
+		slot0.awardWindow:Destroy()
+
+		slot0.awardWindow = nil
 	end
 end
 

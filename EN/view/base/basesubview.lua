@@ -89,8 +89,8 @@ function slot0.Destroy(slot0)
 	slot0:cleanManagedTween()
 
 	slot0._tf = nil
-
-	PoolMgr.GetInstance():DelTempCache(slot0:getUIName())
+	slot1 = PoolMgr.GetInstance()
+	slot2 = slot0:getUIName()
 
 	if slot0._go ~= nil and slot2 then
 		slot1:ReturnUI(slot2, slot0._go)
@@ -156,10 +156,12 @@ end
 
 function slot0.Show(slot0)
 	setActive(slot0._tf, true)
+	slot0:ShowOrHideResUI(true)
 end
 
 function slot0.Hide(slot0)
 	setActive(slot0._tf, false)
+	slot0:ShowOrHideResUI(false)
 end
 
 function slot0.isShowing(slot0)
@@ -192,6 +194,31 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDestroy(slot0)
+end
+
+function slot0.ResUISettings(slot0)
+	return nil
+end
+
+function slot0.ShowOrHideResUI(slot0, slot1)
+	if not slot0:ResUISettings() then
+		return
+	end
+
+	if slot2 == true then
+		slot2 = {
+			anim = true,
+			showType = PlayerResUI.TYPE_ALL
+		}
+	end
+
+	pg.playerResUI:SetActive(setmetatable({
+		active = slot1,
+		weight = slot2.weight,
+		groupName = slot2.groupName
+	}, {
+		__index = slot2
+	}))
 end
 
 return slot0

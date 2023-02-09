@@ -21407,11 +21407,19 @@ _G.pg.base.gametip.pre_combat_vanguard = {
 }
 
 _G.pg.base.gametip.pre_combat_main = {
-	tip = "Main Fleet"
+	tip = "Main"
 }
 
 _G.pg.base.gametip.pre_combat_submarine = {
 	tip = "Sub Fleet"
+}
+
+_G.pg.base.gametip.pre_combat_targets = {
+	tip = "Targets"
+}
+
+_G.pg.base.gametip.pre_combat_atlasloot = {
+	tip = "Loot"
 }
 
 _G.pg.base.gametip.destroy_confirm_access = {
@@ -23241,4 +23249,32 @@ _G.pg.base.gametip.pre_combat_start = {
 
 _G.pg.base.gametip.pre_combat_start_en = {
 	tip = "WEIGH ANCHOR"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_s"] = {
+	tip = "Woah, we've finished some amazing-looking chocolate... Commander, come give it a taste-test!"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_a"] = {
+	tip = "Yep! That came out nicely! Commander, let's try some while it's still fresh!"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_b"] = {
+	tip = "That should do it... I hope it tastes alright though. Um, Commander, please give it a try!"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_c"] = {
+	tip = "Um, C-Commander, are you sure you want this? Why don't I go make another batch first..."
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label1"] = {
+	tip = "Score:"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label2"] = {
+	tip = "Chocolates Needed"
+}
+
+_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
+	tip = "Chocolates:"
 }

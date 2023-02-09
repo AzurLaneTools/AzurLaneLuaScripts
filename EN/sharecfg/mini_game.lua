@@ -1611,6 +1611,57 @@ pg.mini_game = {
 		hub_id = 41,
 		request_data = 1
 	},
+	{
+		view_name = "ValentineQteGameView",
+		name = "2023情人节小游戏",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 50,
+		hub_id = 42,
+		request_data = 0,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54006,
+					1
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					1,
+					2,
+					300
+				},
+				{
+					2,
+					54034,
+					2
+				},
+				{
+					2,
+					20013,
+					1
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					9,
+					1300,
+					1
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1660,6 +1711,7 @@ pg.mini_game = {
 		46,
 		47,
 		48,
-		49
+		49,
+		50
 	}
 }

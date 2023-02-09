@@ -33393,6 +33393,40 @@ _G.pg.base.ship_skin_words[303101] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[303102] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Really missed my chance to give out chocolate, huh? ...Hm? N-nobody said you were the one I was most excited to give chocolate to, okay, Commander?",
+	mission = "",
+	touch2 = "Wh-why are you going straight for THAT place?!",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "H-hey, help me out! ...No, I didn't come in here for fun. When I finished my security duty last night, I got to thinking about how I was going to give you chocolate for Valentine's and fell asleep. When I woke up, I was stuffed in this thing...",
+	mail = "",
+	touch = "M-move the claw carefully, okay? You'll crush the chocolate...",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "H-hey, help me out! ...No, I didn't come in here for fun. When I finished my security duty last night, I got to thinking about how I was going to give you chocolate for Valentine's and fell asleep. When I woke up, I was stuffed in this thing...",
+	feeling5 = "Good! Keep it up! Almost there! Aaand, failed again. Hmm... I'd feel better if you could at least take the chocolate, but it's just not gonna work out. Ahaha! Thanks for trying, Commander.",
+	main = "It's a little cramped in here, but eh, I'll be fine. Akashi should be here soon... She'd lose money if nobody can play it, right?|Yaaawn... My bad. I'm a little sleepy... This thing's ventilated, so don't worry about me.|I wonder if Ashigara managed to give the Commander her chocolate. Pfft, I bet she'd tell me to focus on my own problems first... Yeeeah.",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Man, is there any way to get out of this thing... Hm? You'll stay with me until help comes, Commander? ...For real?",
+	vote = "",
+	hp_warning = "",
+	id = 303102,
+	detail = "If I move, you're gonna see everything... No, I don't want you to see my bits! Mmrgh!",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[303110] = {
 	feeling1 = "A sword has no eyes. It would be wise to avoid approaching me casually.",
 	feeling3 = "It might be pretty nice to just set aside my duties and have a relaxing conversation with you every once in a while, Commander.",
@@ -44754,6 +44788,40 @@ _G.pg.base.ship_skin_words[406021] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[406022] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "We won! I'm really on fire today!",
+	home = "Thank you for your continued efforts. Um... Wh-why are you looking at me so expectantly?",
+	mission = "Why don't we forget about all the missions for a day? Come and be bad with me!",
+	touch2 = "...Hwaah?!",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Still not here yet...? Geez, I'll give the Commander what-for for coming later than me... Huh? C-Commander? N-no, I happened to come an hour early, is all...",
+	mail = "",
+	touch = "I-is this a massage?",
+	profile = "",
+	mission_complete = "Here are your rewards. Allow me to hold your things for you.",
+	feeling4 = "",
+	unlock = "Still not here yet...? Geez, I'll give the Commander what-for for coming later than me... Huh? C-Commander? N-no, I happened to come an hour early, is all...",
+	feeling5 = "My slogan today is \"Neglect the Commander!\" Heheh, no matter what you say to me, I won't reply one bit! ...Commander? S-say something, please... Are you okay? I'm right here...",
+	main = "I-I don't mind if you sit here! Today, you have special permission to be next to me!|Heheh, I will gladly let you carry my things! Where should we go next? Or...do you need a minute to rest?|(Things have been so awkward for a while now... I have to scoot a little bit closer...) B-Bwuh?! Did you hear that?!",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "I-it's about time we went on a... date, isn't it, Commander?",
+	vote = "",
+	hp_warning = "",
+	id = 406022,
+	detail = "Heheh, how do you like my outfit today? ...Y-you say it's cute, and it looks good on me? Th-thank... you...",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[407010] = {
 	feeling1 = "You again...?",
 	feeling3 = "Does prayer really work? Will God ever respond? Nein. Gods are called as such because they are merciless.",
@@ -51507,6 +51575,40 @@ _G.pg.base.ship_skin_words[702023] = {
 	hp_warning = "",
 	id = 702023,
 	detail = "Lemme just reply with a manjuu sticker~ Don't wanna be that girl who leaves someone on read! Hahaha~",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[702024] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Happy Valentine's Day~♪ Did you come here to enjoy my chocolate? Then, try guessing where I hid my chocolate – if you get it right, I'll give it to you~♪ Is it here... or maybe over here? Ahahaha~♡",
+	mail = "",
+	touch = "",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "",
+	feeling5 = "",
+	main = "nil|nil|nil",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	vote = "",
+	hp_warning = "",
+	id = 702024,
+	detail = "",
 	couple_encourage = {}
 }
 

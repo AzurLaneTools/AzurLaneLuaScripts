@@ -429,6 +429,25 @@ pg.activity_task_permanent = {
 		over_task_id = "",
 		eliminate_task_id = {}
 	},
+	[6018] = {
+		gametip = "Get the limited \"Choco Manjuu\" furniture!",
+		banner_route = "permanent_qiaokelijiu",
+		gametip_extra = "Takes at least 7 days to complete",
+		over_pt = 0,
+		task_extra = "",
+		id = 6018,
+		activity_name = "Manjuu Manufactory",
+		over_task_id = "",
+		eliminate_task_id = {
+			35216,
+			35217,
+			35218,
+			35219,
+			35220,
+			35221,
+			35222
+		}
+	},
 	all = {
 		6000,
 		6001,
@@ -447,6 +466,7 @@ pg.activity_task_permanent = {
 		6014,
 		6015,
 		6016,
-		6017
+		6017,
+		6018
 	}
 }

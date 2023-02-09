@@ -100,7 +100,6 @@ function slot0.Ctor(slot0)
 		["painting/mat"] = {}
 	}
 	slot0.ui_tempCache = {}
-	slot0.tempCacheLink = {}
 end
 
 function slot0.Init(slot0, slot1)
@@ -296,7 +295,7 @@ function slot0.ReturnUI(slot0, slot1, slot2)
 			slot2.transform:SetParent(slot0.root, false)
 		end
 
-		if table.indexof(uv1, slot1) or table.indexof(slot0.ui_tempCache, slot1) then
+		if table.indexof(uv1, slot1) or slot0.ui_tempCache[slot1] then
 			setActiveViaLayer(slot2.transform, false)
 			slot0.pools_plural[slot4]:Enqueue(slot2)
 		elseif table.indexof(uv2, slot1) then
@@ -337,29 +336,12 @@ function slot0.PreloadUI(slot0, slot1, slot2)
 	seriesAsync(slot3, slot2)
 end
 
-function slot0.AddTempCache(slot0, slot1, slot2)
-	if slot0.tempCacheLink[slot1] == nil then
-		slot0.tempCacheLink[slot1] = {}
-	end
-
-	table.insert(slot0.tempCacheLink[slot1], slot2)
-	_.each(slot0.tempCacheLink[slot1], function (slot0)
-		if not table.contains(uv0.ui_tempCache, slot0) then
-			table.insert(uv0.ui_tempCache, slot0)
-		end
-	end)
+function slot0.AddTempCache(slot0, slot1)
+	slot0.ui_tempCache[slot1] = true
 end
 
 function slot0.DelTempCache(slot0, slot1)
-	if slot0.tempCacheLink[slot1] ~= nil then
-		_.each(slot0.tempCacheLink[slot1], function (slot0)
-			if table.contains(uv0.ui_tempCache, slot0) then
-				table.removebyvalue(uv0.ui_tempCache, slot0, true)
-			end
-		end)
-
-		slot0.tempCacheLink[slot1] = nil
-	end
+	slot0.ui_tempCache[slot1] = nil
 end
 
 function slot0.GetPainting(slot0, slot1, slot2, slot3)

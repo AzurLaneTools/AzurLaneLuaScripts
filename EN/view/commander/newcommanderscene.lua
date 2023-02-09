@@ -4,10 +4,6 @@ function slot0.getUIName(slot0)
 	return "GetCommanderUI"
 end
 
-function slot0.setCommander(slot0, slot1)
-	slot0.commanderVO = slot1
-end
-
 function slot0.init(slot0)
 	slot0.bgTF = slot0:findTF("main/bg")
 	slot0.clickTF = slot0:findTF("click")
@@ -35,12 +31,14 @@ function slot0.init(slot0)
 		slot0.skipAnim = false
 	end
 
-	setParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER + 1
+	})
 end
 
 function slot0.openTreePanel(slot0, slot1)
 	function slot2()
-		uv0.treePanel:ActionInvoke("openTreePanel", uv1)
+		uv0.treePanel:ActionInvoke("openTreePanel", uv1, LayerWeightConst.SECOND_LAYER + 2)
 	end
 
 	if slot0.treePanel:GetLoaded() then
@@ -68,7 +66,7 @@ function slot0.onUIAnimEnd(slot0, slot1)
 	slot2 = slot2:GetComponent(typeof(DftAniEvent))
 
 	slot2:SetTriggerEvent(function (slot0)
-		if uv0.commanderVO:isSSR() then
+		if uv0.contextData.commander:isSSR() then
 			uv0:playerEffect()
 		end
 
@@ -118,27 +116,30 @@ end
 function slot0.didEnter(slot0)
 	slot0:updateInfo()
 	onButton(slot0, slot0.shareBtn, function ()
-		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeCommander, pg.ShareMgr.PANEL_TYPE_PINK)
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeCommander, pg.ShareMgr.PANEL_TYPE_PINK, {
+			weight = LayerWeightConst.TOP_LAYER
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.lockBtn, function ()
-		uv0:emit(NewCommanderMediator.ON_LOCK, uv0.commanderVO.id, 1 - uv0.commanderVO:getLock())
+		uv0:emit(NewCommanderMediator.ON_LOCK, uv0.contextData.commander.id, 1 - uv0.contextData.commander:getLock())
 	end, SFX_PANEL)
 	onButton(slot0, slot0.clickTF, function ()
 		if uv0.isAnim then
 			uv0.antor:SetBool("play", false)
 
-			if uv0.commanderVO:isSSR() and not uv0.effect then
+			if uv0.contextData.commander:isSSR() and not uv0.effect then
 				uv0:playerEffect()
 			end
 
 			uv0.isAnim = nil
-		elseif uv0.commanderVO:isSSR() and not uv0.commanderVO:isLocked() then
+		elseif uv0.contextData.commander:isSSR() and not getProxy(CommanderProxy):getCommanderById(uv0.contextData.commander.id):isLocked() then
 			uv0:openMsgBox({
 				content = i18n("commander_lock_tip"),
 				onYes = function ()
-					uv0:emit(NewCommanderMediator.ON_LOCK, uv0.commanderVO.id, 1)
+					uv0:emit(NewCommanderMediator.ON_LOCK, uv0.contextData.commander.id, 1)
 					uv0:emit(uv1.ON_CLOSE)
 				end,
+				layer = LayerWeightConst.SECOND_LAYER + 2,
 				onNo = function ()
 					uv0:emit(uv1.ON_CLOSE)
 				end
@@ -149,15 +150,15 @@ function slot0.didEnter(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.updateLockState(slot0, slot1)
-	setActive(slot0.lockBtn:Find("image"), slot1 == 0)
+function slot0.updateLockState(slot0)
+	setActive(slot0.lockBtn:Find("image"), getProxy(CommanderProxy):getCommanderById(slot0.contextData.commander.id):getLock() == 0)
 	onButton(slot0, slot0.lockBtn, function ()
-		uv1:emit(NewCommanderMediator.ON_LOCK, uv1.commanderVO.id, 1 - uv0)
+		uv1:emit(NewCommanderMediator.ON_LOCK, uv1.contextData.commander.id, 1 - uv0)
 	end, SFX_PANEL)
 end
 
 function slot0.updateInfo(slot0, slot1)
-	slot2 = slot0.commanderVO
+	slot2 = slot0.contextData.commander
 
 	slot0:updateLockState(slot2:getLock())
 
@@ -180,7 +181,7 @@ function slot0.updateInfo(slot0, slot1)
 end
 
 function slot0.updateAbilitys(slot0)
-	slot1 = slot0.commanderVO
+	slot1 = slot0.contextData.commander
 	slot2 = slot1:getAbilitys()
 
 	eachChild(slot0.abilitysTF, function (slot0)
@@ -193,7 +194,7 @@ function slot0.updateAbilitys(slot0)
 end
 
 function slot0.updateTalents(slot0)
-	slot2 = slot0.commanderVO:getTalents()
+	slot2 = slot0.contextData.commander:getTalents()
 
 	slot0.talentsList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -223,6 +224,7 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 	slot0.treePanel:Destroy()
 	slot0.msgbox:Destroy()
 	retCommanderPaintingPrefab(slot0.paintTF, slot0.painting:getPainting())

@@ -901,6 +901,13 @@ pg.equip_skin_theme_template = {
 			727
 		}
 	},
+	[44] = {
+		id = 44,
+		name = "Sweet Presents",
+		ids = {
+			1300
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -1000,6 +1007,7 @@ pg.equip_skin_theme_template = {
 		41,
 		42,
 		43,
+		44,
 		101,
 		102,
 		103,

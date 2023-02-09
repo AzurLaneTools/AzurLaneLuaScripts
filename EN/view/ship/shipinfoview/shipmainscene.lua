@@ -11,7 +11,11 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.ResUISettings(slot0)
-	return true
+	return {
+		anim = true,
+		showType = PlayerResUI.TYPE_ALL,
+		groupName = LayerWeightConst.GROUP_SHIPINFOUI
+	}
 end
 
 function slot0.preload(slot0, slot1)

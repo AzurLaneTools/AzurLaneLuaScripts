@@ -25,7 +25,7 @@ return {
 				"TargetShipTag"
 			},
 			arg_list = {
-				buff_id = 800653,
+				buff_id = 800655,
 				ship_tag_list = {
 					"ArizonaMETA"
 				}

@@ -735,7 +735,7 @@ function slot0.RecordContinuousOperationAutoSubStatus(slot0, slot1)
 end
 
 function slot0.ResetContinuousOperationAutoSub(slot0)
-	if PlayerPrefs.SetInt("AutoBotCOFlag" .. getProxy(PlayerProxy):getRawData().id, 0) == 0 then
+	if PlayerPrefs.GetInt("AutoBotCOFlag" .. getProxy(PlayerProxy):getRawData().id, 0) == 0 then
 		return
 	end
 

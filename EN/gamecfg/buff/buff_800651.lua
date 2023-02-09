@@ -52,7 +52,7 @@ return {
 		{
 			type = "BattleBuffCount",
 			trigger = {
-				"onHPRatioUpdate"
+				"onTakeDamage"
 			},
 			arg_list = {
 				maxHPRatio = 0.3,

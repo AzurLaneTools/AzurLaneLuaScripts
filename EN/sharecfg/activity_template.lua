@@ -2564,6 +2564,96 @@ pg.activity_template = {
 			ui_name = "NagaraSkinPage"
 		}
 	},
+	[4685] = {
+		mark = 20230209,
+		config_client = "",
+		title_res_tag = "ValentineQte",
+		type = 57,
+		login_pop = 0,
+		config_id = 42,
+		is_show = 21,
+		id = 4685,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ValentineQtePage",
+			ui_name = "ValentineQtePage"
+		}
+	},
+	[4686] = {
+		mark = 20230209,
+		title_res_tag = "",
+		page_info = "",
+		type = 29,
+		login_pop = 0,
+		config_id = 15,
+		is_show = 0,
+		config_client = "",
+		id = 4686,
+		config_data = {
+			{
+				defaultID,
+				312011
+			},
+			{
+				itemID,
+				44001
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		id = 7001,
@@ -4874,6 +4964,44 @@ pg.activity_template = {
 		page_info = {
 			class_name = "MabuerheideshengdanPermanentPage",
 			ui_name = "MabuerheideshengdanPermanentPage"
+		}
+	},
+	[6018] = {
+		mark = 20230209,
+		title_res_tag = "ChocolateWorkshop",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		config_client = "",
+		id = 6018,
+		config_data = {
+			{
+				35216
+			},
+			{
+				35217
+			},
+			{
+				35218
+			},
+			{
+				35219
+			},
+			{
+				35220
+			},
+			{
+				35221
+			},
+			{
+				35222
+			}
+		},
+		page_info = {
+			class_name = "ChocolateWorkshopSkinPage",
+			ui_name = "ChocolateWorkshopPermanentPage"
 		}
 	},
 	[100001] = {
@@ -8612,7 +8740,7 @@ pg.activity_template = {
 		id = 30116
 	},
 	[30117] = {
-		mark = 20230112,
+		mark = 20220915,
 		title_res_tag = "",
 		page_info = "",
 		type = 0,
@@ -8626,9 +8754,9 @@ pg.activity_template = {
 			"timer",
 			{
 				{
-					2023,
-					1,
-					19
+					2022,
+					9,
+					16
 				},
 				{
 					0,
@@ -8638,9 +8766,9 @@ pg.activity_template = {
 			},
 			{
 				{
-					2023,
-					1,
-					23
+					2022,
+					9,
+					25
 				},
 				{
 					23,
@@ -23142,6 +23270,8 @@ pg.activity_template = {
 		4681,
 		4682,
 		4683,
+		4685,
+		4686,
 		7001,
 		7002,
 		7003,
@@ -23190,6 +23320,7 @@ pg.activity_template = {
 		6015,
 		6016,
 		6017,
+		6018,
 		100001,
 		100003,
 		100004,

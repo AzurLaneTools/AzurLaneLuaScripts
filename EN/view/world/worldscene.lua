@@ -1333,10 +1333,10 @@ function slot0.NewMapRight(slot0, slot1)
 			seriesAsync(slot1, function ()
 				pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_tip_bigworld_begin"))
 				getProxy(MetaCharacterProxy):setMetaTacticsInfoOnStart()
-				triggerToggle(uv0.wsMapRight.toggleSkipPrecombat, true)
+				PlayerPrefs.SetInt("world_skip_precombat", 1)
 				PlayerPrefs.SetInt("autoBotIsAcitve" .. AutoBotCommand.GetAutoBotMark(SYSTEM_WORLD), 1)
-				uv1:TriggerAutoFight(true)
-				uv0:Op("OpInteractive")
+				uv0:TriggerAutoFight(true)
+				uv1:Op("OpInteractive")
 			end)
 		end)
 	end, SFX_PANEL)
@@ -2197,6 +2197,7 @@ function slot0.UpdateAutoFightDisplay(slot0)
 		setActive(slot0.wsMapRight.toggleAutoFight:Find("off"), not slot1)
 		setActive(slot0.wsMapRight.toggleAutoFight:Find("on"), slot1)
 		setActive(slot0.wsMapRight.toggleSkipPrecombat, not slot1)
+		triggerToggle(slot0.wsMapRight.toggleSkipPrecombat, PlayerPrefs.GetInt("world_skip_precombat", 0) == 1)
 	end
 end
 
@@ -2318,7 +2319,7 @@ function slot0.StartAutoSwitch(slot0)
 			end
 		else
 			getProxy(MetaCharacterProxy):setMetaTacticsInfoOnStart()
-			triggerToggle(uv2.wsMapRight.toggleSkipPrecombat, true)
+			PlayerPrefs.SetInt("world_skip_precombat", 1)
 			PlayerPrefs.SetInt("autoBotIsAcitve" .. AutoBotCommand.GetAutoBotMark(SYSTEM_WORLD), 1)
 			uv2:Op("OpAutoSwitchMap")
 		end
