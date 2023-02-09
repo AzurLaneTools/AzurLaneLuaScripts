@@ -193,6 +193,7 @@ function slot0.Reset(slot0, slot1)
 	slot0.genItemTime = 0
 	slot0.gearShowTime = 0
 	slot0.timers = {}
+	slot0.startFlag = false
 	slot0.statistics = {
 		Score = 0,
 		Combo = 0,
@@ -242,6 +243,8 @@ function slot0.CalcGearArea(slot0, slot1, slot2)
 end
 
 function slot0.StartGame(slot0)
+	slot0.startFlag = true
+
 	if not slot0.handle then
 		slot0.handle = UpdateBeat:CreateListener(slot0.UpdateGame, slot0)
 	end
@@ -669,6 +672,12 @@ function slot0.ExitGame(slot0)
 end
 
 function slot0.onBackPressed(slot0)
+	if slot0.startFlag and not slot0.puaseGameFlag then
+		triggerButton(slot0.puaseBtn)
+
+		return true
+	end
+
 	if isActive(slot0.msgBox._tf) then
 		triggerButton(slot0.msgBox.cancelBtn)
 

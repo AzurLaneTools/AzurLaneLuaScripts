@@ -21,7 +21,7 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.COMMANDER_LOCK_DONE then
-		slot0.viewComponent:updateLockState(slot3.flag)
+		slot0.viewComponent:updateLockState()
 	end
 end
 

@@ -8760,7 +8760,7 @@ pg.ship_skin_template_13 = {
 		},
 		live2d_offset = {
 			0,
-			0,
+			-10,
 			0
 		},
 		fx_container = {
@@ -8834,8 +8834,7 @@ pg.ship_skin_template_13 = {
 			use_event = true
 		},
 		ship_l2d_id = {
-			4060221,
-			4060222
+			4060221
 		}
 	},
 	[407010] = {
