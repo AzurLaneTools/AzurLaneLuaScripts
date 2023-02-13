@@ -51401,7 +51401,7 @@ _G.pg.base.equip_data_statistics[23213] = {
 
 _G.pg.base.equip_data_statistics[23220] = {
 	tech = 0,
-	name = "Prototype Triple 203mm Mk IX Main Gun Mount",
+	name = "Prototype Triple 203mm Mk X Main Gun Mount",
 	speciality = "Lock",
 	type = 3,
 	descrip = "No description",
