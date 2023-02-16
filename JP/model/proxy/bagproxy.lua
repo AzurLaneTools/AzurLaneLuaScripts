@@ -1,5 +1,4 @@
 slot0 = class("BagProxy", import(".NetProxy"))
-slot0.ITEM_ADDED = "item added"
 slot0.ITEM_UPDATED = "item updated"
 
 function slot0.register(slot0)
@@ -39,33 +38,28 @@ function slot0.addExtraData(slot0, slot1, slot2)
 	table.insert(slot0.extraItemData[slot1], slot2)
 end
 
-function slot0.addItem(slot0, slot1)
-	assert(isa(slot1, Item), "should be an instance of Item")
-	assert(slot0.data[slot1.id] == nil, "item already exist, use updateItem() instead")
-
-	slot0.data[slot1.id] = slot1:clone()
-
-	slot0.data[slot1.id]:display("added")
-	slot0.facade:sendNotification(uv0.ITEM_ADDED, slot1:clone())
+function slot0.removeExtraData(slot0, slot1, slot2)
+	table.removebyvalue(slot0.extraItemData[slot1] or {}, slot2)
 end
 
-function slot0.addItemById(slot0, slot1, slot2)
+function slot0.addItemById(slot0, slot1, slot2, slot3)
 	assert(slot2 > 0, "count should greater than zero")
 
 	if slot1 == ITEM_ID_CUBE then
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_CUBE_ADD, slot2)
 	end
 
-	if slot0.data[slot1] == nil then
-		slot0:addItem(Item.New({
-			id = slot1,
-			count = slot2
-		}))
-	else
-		slot3.count = slot3.count + slot2
+	slot0:updateItem(slot1, slot2, slot3)
+end
 
-		slot0:updateItem(slot3)
+function slot0.removeItemById(slot0, slot1, slot2, slot3)
+	assert(slot2 > 0, "count should greater than zero")
+
+	if slot1 == ITEM_ID_CUBE then
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_CUBE_CONSUME, slot2)
 	end
+
+	slot0:updateItem(slot1, -slot2, slot3)
 end
 
 function slot0.getItemsByExclude(slot0)
@@ -203,14 +197,31 @@ function slot0.getCanComposeCount(slot0)
 	return slot1
 end
 
-function slot0.updateItem(slot0, slot1)
-	assert(isa(slot1, Item), "should be an instance of Item")
-	assert(slot0.data[slot1.id] ~= nil, "item should exist in the bag")
+function slot0.updateItem(slot0, slot1, slot2, slot3)
+	slot4 = slot0.data[slot1] or Item.New({
+		count = 0,
+		id = slot1
+	})
+	slot4.count = slot4.count + slot2
 
-	slot0.data[slot1.id] = slot1:clone()
+	assert(slot4.count >= 0, "item count error: " .. slot4.id)
 
-	slot0.data[slot1.id]:display("updated")
-	slot0.facade:sendNotification(uv0.ITEM_UPDATED, slot1:clone())
+	if slot3 then
+		slot0.extraItemData[slot1] = slot0.extraItemData[slot1] or {}
+
+		for slot8 = -1, slot2, -1 do
+			assert(table.removebyvalue(slot0.extraItemData[slot1], slot3) > 0)
+		end
+
+		for slot8 = 1, slot2 do
+			table.insert(slot0.extraItemData[slot1], slot3)
+		end
+	end
+
+	slot0.data[slot4.id] = slot4
+
+	slot0.data[slot4.id]:display("updated")
+	slot0.facade:sendNotification(uv0.ITEM_UPDATED, slot4:clone())
 end
 
 function slot0.canUpgradeFlagShipEquip(slot0)
@@ -223,19 +234,6 @@ function slot0.canUpgradeFlagShipEquip(slot0)
 
 		return true
 	end
-end
-
-function slot0.removeItemById(slot0, slot1, slot2)
-	assert(slot2 > 0, "count should greater than zero")
-	assert(slot0.data[slot1] ~= nil, "item should exist")
-	assert(slot2 <= slot3.count, "number of item should enough")
-
-	if slot1 == ITEM_ID_CUBE then
-		pg.TrackerMgr.GetInstance():Tracking(TRACKING_CUBE_CONSUME, slot2)
-	end
-
-	slot3:consume(slot2)
-	slot0:updateItem(slot3)
 end
 
 function slot0.AddLimitCnt(slot0, slot1, slot2)

@@ -902,5 +902,11 @@ pg.activity_const = {
 	},
 	ACTIVITY_COUPLET_TASK = {
 		act_id = 4670
+	},
+	ACTIVITY_QET_ID = {
+		act_id = 4685
+	},
+	ACTIVITY_STACK_ID = {
+		act_id = 4637
 	}
 }

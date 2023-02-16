@@ -286,22 +286,20 @@ function slot0.MergePassItemDrop(slot0)
 		end
 	end
 
-	table.sort(slot2, function (slot0, slot1)
-		return CompareFuncs(slot0, slot1, {
-			function (slot0)
-				if type(uv0.PassItemOrder[slot0.type]) == "number" then
-					return uv0.PassItemOrder[slot0.type]
-				elseif type(uv0.PassItemOrder[slot0.type]) == "table" and type(uv0.PassItemOrder[slot0.type][slot0.id]) == "number" then
-					return uv0.PassItemOrder[slot0.type][slot0.id]
-				else
-					return uv0.PassItemOrder.other
-				end
-			end,
-			function (slot0)
-				return slot0.id
+	table.sort(slot2, CompareFuncs({
+		function (slot0)
+			if type(uv0.PassItemOrder[slot0.type]) == "number" then
+				return uv0.PassItemOrder[slot0.type]
+			elseif type(uv0.PassItemOrder[slot0.type]) == "table" and type(uv0.PassItemOrder[slot0.type][slot0.id]) == "number" then
+				return uv0.PassItemOrder[slot0.type][slot0.id]
+			else
+				return uv0.PassItemOrder.other
 			end
-		})
-	end)
+		end,
+		function (slot0)
+			return slot0.id
+		end
+	}))
 
 	return slot2
 end

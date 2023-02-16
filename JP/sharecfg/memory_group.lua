@@ -3019,6 +3019,22 @@ pg.memory_group = {
 			2543
 		}
 	},
+	[239] = {
+		icon = "title_event",
+		subtype = 2,
+		type = 2,
+		id = 239,
+		title = "女王の一日",
+		memories = {
+			2551,
+			2552,
+			2553,
+			2554,
+			2555,
+			2556,
+			2557
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -4312,6 +4328,22 @@ pg.memory_group = {
 			2517
 		}
 	},
+	[583] = {
+		icon = "title_chara_xiyatu",
+		subtype = 0,
+		type = 3,
+		id = 583,
+		title = "オール陣営パーティーナイト！",
+		memories = {
+			2561,
+			2562,
+			2563,
+			2564,
+			2565,
+			2566,
+			2567
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4455,6 +4487,7 @@ pg.memory_group = {
 		236,
 		237,
 		238,
+		239,
 		501,
 		502,
 		503,
@@ -4534,6 +4567,7 @@ pg.memory_group = {
 		579,
 		580,
 		581,
-		582
+		582,
+		583
 	}
 }

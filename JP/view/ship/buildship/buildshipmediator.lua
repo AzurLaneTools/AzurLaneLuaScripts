@@ -141,7 +141,6 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.BUILD_SHIP_DONE,
 		BagProxy.ITEM_UPDATED,
-		BagProxy.ITEM_ADDED,
 		PlayerProxy.UPDATED,
 		GAME.GET_SHIP_DONE,
 		GAME.SKIP_SHIP_DONE,
@@ -192,7 +191,7 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == GAME.BUILD_SHIP_DONE then
 		triggerToggle(slot0.viewComponent.toggles[BuildShipScene.PAGE_QUEUE], true)
-	elseif slot2 == BagProxy.ITEM_UPDATED or slot2 == BagProxy.ITEM_ADDED then
+	elseif slot2 == BagProxy.ITEM_UPDATED then
 		slot0.viewComponent:setUseItem(getProxy(BagProxy):getItemById(slot0.useItem))
 	elseif slot2 == BuildShipProxy.ADDED or slot2 == BuildShipProxy.REMOVED then
 		slot0.viewComponent:setStartCount(table.getCount(getProxy(BuildShipProxy):getRawData()))

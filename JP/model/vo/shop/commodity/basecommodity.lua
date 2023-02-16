@@ -68,6 +68,10 @@ function slot0.isSham(slot0)
 	return slot0.type == Goods.TYPE_SHAM_BATTLE
 end
 
+function slot0.IsActivityExtra(slot0)
+	return slot0.type == Goods.TYPE_ACTIVITY_EXTRA
+end
+
 function slot0.getKey(slot0)
 	return slot0.id .. "_" .. slot0.type
 end

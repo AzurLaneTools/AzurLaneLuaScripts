@@ -378,6 +378,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「時空は回る旋輪の中で積重なり、運命は輝く光芒の中に交錯す」</color>\n「積重なる事象の幻界」に参加した指揮官に贈る",
 		scene = {}
 	},
+	[324] = {
+		time_limit_type = 0,
+		name = "ホーリー・ベネディクション",
+		gain_by = "",
+		id = 324,
+		time_second = 0,
+		desc = "イベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -493,6 +502,7 @@ pg.item_data_frame = {
 		321,
 		322,
 		323,
+		324,
 		401,
 		402,
 		403,

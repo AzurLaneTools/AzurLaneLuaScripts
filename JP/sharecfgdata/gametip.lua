@@ -11893,6 +11893,10 @@ _G.pg.base.gametip.limit_skin_time_overtime = {
 	tip = "利用期間外です"
 }
 
+_G.pg.base.gametip.limit_skin_time_before_maintenance = {
+	tip = "$1月$2日メンテまで"
+}
+
 _G.pg.base.gametip.award_window_pt_title = {
 	tip = "カムバックPt："
 }
@@ -17053,6 +17057,10 @@ _G.pg.base.gametip.autofight_tip_bigworld_stop = {
 
 _G.pg.base.gametip.autofight_tip_bigworld_suspend = {
 	tip = "可視範囲内で調査対象が存在しないため、自動攻略モードが中止されました"
+}
+
+_G.pg.base.gametip.autofight_tip_bigworld_loop = {
+	tip = "目標地点に移動できないため、自動攻略モードが終了しました"
 }
 
 _G.pg.base.gametip.autofight_farm = {
@@ -23417,4 +23425,32 @@ _G.pg.base.gametip["2023Valentine_minigame_label2"] = {
 
 _G.pg.base.gametip["2023Valentine_minigame_label3"] = {
 	tip = "クリア済ステージ："
+}
+
+_G.pg.base.gametip.sort_energy = {
+	tip = "ｺﾝﾃﾞｨｼｮﾝ"
+}
+
+_G.pg.base.gametip.dockyard_search_holder = {
+	tip = "タップでキャラ名を入力"
+}
+
+_G.pg.base.gametip.loveletter_exchange_tip1 = {
+	tip = "明石メールが削除されています。運営窓口までご連絡ください"
+}
+
+_G.pg.base.gametip.loveletter_exchange_tip2 = {
+	tip = "明石メールのアイテムを一度受け取ってからお試しください"
+}
+
+_G.pg.base.gametip.loveletter_exchange_confirm = {
+	tip = "明石からのプレゼント・メセージを削除し、\nシェフィールド(META)のプレゼント・メッセージもを補填しますか？(メールボックスに送られます)"
+}
+
+_G.pg.base.gametip.loveletter_exchange_button = {
+	tip = "補填"
+}
+
+_G.pg.base.gametip.loveletter_exchange_tip3 = {
+	tip = "補填メールをメールボックスにてご確認ください"
 }

@@ -119,7 +119,6 @@ function slot0.InitSkinPages(slot0, slot1)
 
 	seriesAsync(slot3, function ()
 		setActive(uv0.scrollrect.gameObject, true)
-		Canvas.ForceUpdateCanvases()
 		uv0.rollingCircleRect:ScrollTo(uv1.PAGE_ALL)
 
 		uv0.canvasGroup.blocksRaycasts = true
