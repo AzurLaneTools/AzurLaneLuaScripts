@@ -345,8 +345,8 @@ slot0 = {
 		slot0.viewComponent = BulletinBoardLayer
 	end,
 	[SCENE.SKINSHOP] = function (slot0, slot1)
-		slot0.mediator = SkinShopMediator
-		slot0.viewComponent = SkinShopScene
+		slot0.mediator = NewSkinShopMediator
+		slot0.viewComponent = NewSkinShopScene
 	end,
 	[SCENE.SKINATALAS] = function (slot0, slot1)
 		slot0.mediator = SkinAtlasMediator

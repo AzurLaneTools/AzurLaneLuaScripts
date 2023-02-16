@@ -14,6 +14,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.bgPanel = slot0:findTF("back/bg")
 	slot0.bgPanelCg = slot0.bgPanel:GetComponent(typeof(CanvasGroup))
 	slot0.bgImage = slot0:findTF("image", slot0.bgPanel):GetComponent(typeof(Image))
+	slot0.mainImg = slot0._tf:GetComponent(typeof(Image))
 	slot0.actorPanel = slot0:findTF("actor")
 	slot0.dialoguePanel = slot0:findTF("front/dialogue")
 	slot0.effectPanel = slot0:findTF("front/effect")
@@ -214,6 +215,7 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 			}, slot0)
 		end,
 		function (slot0)
+			uv0:OnWillClear(uv1)
 			uv0:Clear(slot0)
 		end
 	}, slot4)
@@ -860,6 +862,9 @@ end
 
 function slot0.OnWillExit(slot0, slot1, slot2, slot3)
 	slot3()
+end
+
+function slot0.OnWillClear(slot0, slot1)
 end
 
 function slot0.OnClear(slot0)

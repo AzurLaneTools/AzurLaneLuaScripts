@@ -3,6 +3,7 @@ slot0.USE_ITEM = "ItemInfoMediator:USE_ITEM"
 slot0.COMPOSE_ITEM = "ItemInfoMediator:COMPOSE_ITEM"
 slot0.ON_BLUEPRINT_SCENE = "ItemInfoMediator:ON_BLUEPRINT_SCENE"
 slot0.SELL_BLUEPRINT = "sell blueprint"
+slot0.EXCHANGE_LOVE_LETTER_ITEM = "ItemInfoMediator.EXCHANGE_LOVE_LETTER_ITEM"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.ON_BLUEPRINT_SCENE, function ()
@@ -58,6 +59,11 @@ function slot0.register(slot0)
 					count = slot2
 				})
 			end)
+			slot0:bind(uv0.EXCHANGE_LOVE_LETTER_ITEM, function (slot0, slot1)
+				uv0:sendNotification(GAME.EXCHANGE_LOVE_LETTER_ITEM, {
+					activity_id = slot1
+				})
+			end)
 		end
 	else
 		assert(false, "do not support current kind of type: " .. slot1.type)
@@ -76,7 +82,7 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == BagProxy.ITEM_UPDATED then
-		if slot0.contextData.mine and slot0:updateItem().count <= 0 then
+		if slot0.contextData.mine and (slot0:updateItem().count <= 0 or slot5.extra) then
 			slot0.viewComponent:doClose()
 		end
 	elseif slot2 == GAME.USE_ITEM_DONE then
@@ -88,11 +94,15 @@ end
 
 function slot0.updateItem(slot0)
 	slot1 = slot0.contextData.info
+	slot3 = getProxy(BagProxy)
 	slot4 = nil
-	slot4 = (not slot0.contextData.mine or Item.New({
+	slot4 = (not slot0.contextData.mine or (not slot1.extra or Item.New({
 		id = slot1.id,
-		count = slot1.extra and 1 or getProxy(BagProxy):getItemCountById(slot1.id),
+		count = math.min(slot3:getItemCountById(slot1.id), 1),
 		extra = slot1.extra
+	})) and Item.New({
+		id = slot1.id,
+		count = slot3:getItemCountById(slot1.id)
 	})) and Item.New({
 		id = slot1.id,
 		count = defaultValue(slot1.count, 0)

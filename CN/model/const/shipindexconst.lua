@@ -4,6 +4,7 @@ slot0.SortLevel = bit.lshift(1, 1)
 slot0.SortPower = bit.lshift(1, 2)
 slot0.SortAchivedTime = bit.lshift(1, 3)
 slot0.SortIntimacy = bit.lshift(1, 4)
+slot0.SortEnergy = bit.lshift(1, 13)
 slot0.SortProperty_Cannon = bit.lshift(1, 5)
 slot0.SortProperty_Air = bit.lshift(1, 6)
 slot0.SortProperty_Dodge = bit.lshift(1, 7)
@@ -31,15 +32,18 @@ slot0.SortIndexs = {
 	slot0.SortLevel,
 	slot0.SortPower,
 	slot0.SortAchivedTime,
-	slot0.SortIntimacy
+	slot0.SortIntimacy,
+	slot0.SortEnergy
 }
 
 function slot0.getSortFuncAndName(slot0, slot1)
 	for slot5 = 1, #ShipIndexCfg.sort do
 		if bit.band(bit.lshift(1, slot5 - 1), slot0) > 0 then
-			slot7 = ShipIndexCfg.sort[slot5].sortFuncs
-
-			return slot1 and slot7[1] or slot7[2], ShipIndexCfg.sort[slot5].name
+			return underscore.map(ShipIndexCfg.sort[slot5].sortFuncs, function (slot0)
+				return function (slot0)
+					return (uv0 and -1 or 1) * uv1(slot0)
+				end
+			end), ShipIndexCfg.sort[slot5].name
 		end
 	end
 end
@@ -49,7 +53,8 @@ slot0.SortNames = {
 	"word_lv",
 	"word_synthesize_power",
 	"word_achieved_item",
-	"attribute_intimacy"
+	"attribute_intimacy",
+	"sort_energy"
 }
 slot0.SortPropertyNames = {
 	"sort_attribute",
@@ -62,206 +67,80 @@ slot0.SortPropertyNames = {
 	"word_attr_durability",
 	"word_attr_antisub"
 }
-slot0.combatPowerCaches = {}
 
-function slot0.sortByCombatPower(slot0, slot1)
-	if not uv0.combatPowerCaches[slot0] then
-		uv0.combatPowerCaches[slot0] = slot0:getShipCombatPower()
-	end
-
-	if not uv0.combatPowerCaches[slot1] then
-		uv0.combatPowerCaches[slot1] = slot1:getShipCombatPower()
-	end
-
-	return sortCompare({
-		uv0.combatPowerCaches[slot1],
-		uv0.combatPowerCaches[slot0]
-	}, {
-		slot0.configId,
-		slot1.configId
-	})
-end
-
-function slot0.sortByCombatPowerAsc(slot0, slot1)
-	if not uv0.combatPowerCaches[slot0] then
-		uv0.combatPowerCaches[slot0] = slot0:getShipCombatPower()
-	end
-
-	if not uv0.combatPowerCaches[slot1] then
-		uv0.combatPowerCaches[slot1] = slot1:getShipCombatPower()
-	end
-
-	return sortCompare({
-		uv0.combatPowerCaches[slot0],
-		uv0.combatPowerCaches[slot1]
-	}, {
-		slot0.configId,
-		slot1.configId
-	})
+function slot0.sortByCombatPower()
+	return {
+		function (slot0)
+			return -slot0:getShipCombatPower()
+		end,
+		function (slot0)
+			return slot0.configId
+		end
+	}
 end
 
 function slot0.sortByField(slot0)
-	return function (slot0, slot1)
-		return sortCompare({
-			slot1[uv0],
-			slot0[uv0]
-		}, {
-			slot1:getRarity(),
-			slot0:getRarity()
-		}, {
-			slot0.configId,
-			slot1.configId
-		})
-	end
-end
-
-function slot0.sortByFieldAsc(slot0)
-	return function (slot0, slot1)
-		return sortCompare({
-			slot0[uv0],
-			slot1[uv0]
-		}, {
-			slot0:getRarity(),
-			slot1:getRarity()
-		}, {
-			slot0.configId,
-			slot1.configId
-		})
-	end
+	return {
+		function (slot0)
+			return -slot0[uv0]
+		end,
+		function (slot0)
+			return -slot0:getRarity()
+		end,
+		function (slot0)
+			return slot0.configId
+		end
+	}
 end
 
 function slot0.sortByProperty(slot0)
-	uv0.propertyCaches = {}
-
-	return function (slot0, slot1)
-		if not uv0.propertyCaches[slot0] then
-			uv0.propertyCaches[slot0] = slot0:getShipProperties()
+	return {
+		function (slot0)
+			return -slot0:getShipProperties()[uv0]
+		end,
+		function (slot0)
+			return slot0.configId
 		end
-
-		if not uv0.propertyCaches[slot1] then
-			uv0.propertyCaches[slot1] = slot1:getShipProperties()
-		end
-
-		return sortCompare({
-			uv0.propertyCaches[slot1][uv1],
-			uv0.propertyCaches[slot0][uv1]
-		}, {
-			slot0.configId,
-			slot1.configId
-		})
-	end
-end
-
-function slot0.sortByPropertyAsc(slot0)
-	uv0.propertyCaches = {}
-
-	return function (slot0, slot1)
-		if not uv0.propertyCaches[slot0] then
-			uv0.propertyCaches[slot0] = slot0:getShipProperties()
-		end
-
-		if not uv0.propertyCaches[slot1] then
-			uv0.propertyCaches[slot1] = slot1:getShipProperties()
-		end
-
-		return sortCompare({
-			uv0.propertyCaches[slot0][uv1],
-			uv0.propertyCaches[slot1][uv1]
-		}, {
-			slot0.configId,
-			slot1.configId
-		})
-	end
+	}
 end
 
 function slot0.sortByCfg(slot0)
-	return function (slot0, slot1)
-		slot2 = slot0:getConfig(uv0)
-		slot3 = slot1:getConfig(uv0)
-
-		if uv0 == "rarity" then
-			slot2 = slot0:getRarity()
-			slot3 = slot1:getRarity()
+	return {
+		function (slot0)
+			return -(uv0 == "rarity" and slot0:getRarity() or slot0:getConfig(uv0))
+		end,
+		function (slot0)
+			return slot0.configId
 		end
-
-		return sortCompare({
-			slot3,
-			slot2
-		}, {
-			slot0.configId,
-			slot1.configId
-		})
-	end
+	}
 end
 
-function slot0.sortByCfgAsc(slot0)
-	return function (slot0, slot1)
-		slot2 = slot0:getConfig(uv0)
-		slot3 = slot1:getConfig(uv0)
-
-		if uv0 == "rarity" then
-			slot2 = slot0:getRarity()
-			slot3 = slot1:getRarity()
+function slot0.sortByIntimacy()
+	return {
+		function (slot0)
+			return -slot0.intimacy
+		end,
+		function (slot0)
+			return slot0.propose and 0 or 1
+		end,
+		function (slot0)
+			return slot0.configId
+		end,
+		function (slot0)
+			return -slot0.level
 		end
-
-		return sortCompare({
-			slot2,
-			slot3
-		}, {
-			slot0.configId,
-			slot1.configId
-		})
-	end
+	}
 end
 
-function slot0.sortByPriorityFullSkill(slot0, slot1, slot2)
-	return sortCompare({
-		slot0:isFullSkillLevel() and 1 or 0,
-		slot1:isFullSkillLevel() and 1 or 0
-	}, slot2(slot0, slot1))
-end
-
-function slot0.sortForGuider(slot0, slot1)
-	return (table.contains({
-		101171,
-		201211,
-		401231,
-		301051
-	}, slot0.configId) and 1 or 0) > (table.contains(slot2, slot1.configId) and 1 or 0)
-end
-
-function slot0.sortByIntimacy(slot0, slot1)
-	if slot0.intimacy ~= slot1.intimacy then
-		return slot1.intimacy < slot0.intimacy
-	end
-
-	if slot0.propose ~= slot1.propose then
-		return slot0.propose
-	end
-
-	if slot0.configId ~= slot1.configId then
-		return slot0.configId < slot1.configId
-	end
-
-	return slot1.level < slot0.level
-end
-
-function slot0.sortByIntimacyAsc(slot0, slot1)
-	if slot0.intimacy ~= slot1.intimacy then
-		return slot0.intimacy < slot1.intimacy
-	end
-
-	if slot0.propose ~= slot1.propose then
-		return slot1.propose
-	end
-
-	if slot0.configId ~= slot1.configId then
-		return slot0.configId < slot1.configId
-	end
-
-	if slot0.level ~= slot1.level then
-		return slot1.level < slot0.level
-	end
+function slot0.sortByEnergy()
+	return {
+		function (slot0)
+			return -slot0:getEnergy()
+		end,
+		function (slot0)
+			return slot0.configId
+		end
+	}
 end
 
 slot0.TypeFront = bit.lshift(1, 0)

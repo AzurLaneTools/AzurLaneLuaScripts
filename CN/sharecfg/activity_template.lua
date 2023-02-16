@@ -4188,53 +4188,28 @@ pg.activity_template = {
 	},
 	[4682] = {
 		mark = 20230202,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 57,
 		login_pop = 0,
 		config_id = 41,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4682,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			miniGame = 49
 		}
 	},
 	[4683] = {
 		mark = 20230202,
-		config_client = "",
 		title_res_tag = "nagara_skin",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 20,
+		config_client = "",
 		id = 4683,
 		config_data = {
 			{
@@ -4264,33 +4239,6 @@ pg.activity_template = {
 			{
 				18338,
 				18339
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -4386,6 +4334,226 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[4687] = {
+		mark = 20230216,
+		config_client = "",
+		title_res_tag = "yingxiV4_frame",
+		type = 87,
+		login_pop = 0,
+		config_id = 7,
+		is_show = 24,
+		id = 4687,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YingxiV4FramePage",
+			ui_name = "YingxiV4FramePage"
+		}
+	},
+	[4688] = {
+		mark = 20230216,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 23,
+		is_show = 0,
+		config_client = "",
+		id = 4688,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4689] = {
+		mark = 20230216,
+		id = 4689,
+		title_res_tag = "yingxiV4_skirmish",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 23,
+		config_data = {
+			{
+				18350,
+				18351
+			},
+			{
+				18352,
+				18353
+			},
+			{
+				18354,
+				18355
+			},
+			{
+				18356,
+				18357
+			},
+			{
+				18358,
+				18359
+			},
+			{
+				18360,
+				18361
+			},
+			{
+				18362,
+				18363
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YingxiV4SkirmishPage",
+			ui_name = "YingxiV4SkirmishPage"
+		},
+		config_client = {
+			story = {
+				{
+					"NVWANGDEYITIAN1"
+				},
+				{
+					"NVWANGDEYITIAN2"
+				},
+				{
+					"NVWANGDEYITIAN3"
+				},
+				{
+					"NVWANGDEYITIAN4"
+				},
+				{
+					"NVWANGDEYITIAN5"
+				},
+				{
+					"NVWANGDEYITIAN6"
+				},
+				{
+					"NVWANGDEYITIAN7"
+				}
+			}
+		}
+	},
+	[4690] = {
+		mark = 20230216,
+		id = 4690,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 20,
+		is_show = 22,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MarcoPoloTecCatchupPage",
+			ui_name = "MarcoPoloTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42035
 		}
 	},
 	[7001] = {
@@ -9105,6 +9273,10 @@ pg.activity_template = {
 		4683,
 		4685,
 		4686,
+		4687,
+		4688,
+		4689,
+		4690,
 		7001,
 		7002,
 		7003,

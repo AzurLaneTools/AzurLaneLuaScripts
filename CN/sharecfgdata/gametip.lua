@@ -11892,6 +11892,10 @@ _G.pg.base.gametip.limit_skin_time_overtime = {
 	tip = "已到期"
 }
 
+_G.pg.base.gametip.limit_skin_time_before_maintenance = {
+	tip = "$1月$2日维护前"
+}
+
 _G.pg.base.gametip.award_window_pt_title = {
 	tip = "当前PT："
 }
@@ -16980,6 +16984,10 @@ _G.pg.base.gametip.autofight_tip_bigworld_stop = {
 
 _G.pg.base.gametip.autofight_tip_bigworld_suspend = {
 	tip = "当前所选舰队视野内无可自律事件，无法继续自律寻敌"
+}
+
+_G.pg.base.gametip.autofight_tip_bigworld_loop = {
+	tip = "因目标点无法抵达，自律寻敌已终止。"
 }
 
 _G.pg.base.gametip.autofight_farm = {
@@ -23138,4 +23146,32 @@ _G.pg.base.gametip["2023Valentine_minigame_label2"] = {
 
 _G.pg.base.gametip["2023Valentine_minigame_label3"] = {
 	tip = "当前完成："
+}
+
+_G.pg.base.gametip.sort_energy = {
+	tip = "心情值"
+}
+
+_G.pg.base.gametip.dockyard_search_holder = {
+	tip = "搜索角色名"
+}
+
+_G.pg.base.gametip.loveletter_exchange_tip1 = {
+	tip = "没有符合条件的邮件，请联系客服"
+}
+
+_G.pg.base.gametip.loveletter_exchange_tip2 = {
+	tip = "情人节邮件有奖励未领取，请领取后再作尝试"
+}
+
+_G.pg.base.gametip.loveletter_exchange_confirm = {
+	tip = "是否确认更换情人节邮件与礼物，更换后将\n删除此<color=#ff5c5c>{namecode:98}的情人节礼物与邮箱内对应的情人节邮件</color>\n同时发放一封<color=#92fc63>新的谢菲尔德·META情人节邮件</color>(包含谢菲尔德·META情人节礼物)"
+}
+
+_G.pg.base.gametip.loveletter_exchange_button = {
+	tip = "更换"
+}
+
+_G.pg.base.gametip.loveletter_exchange_tip3 = {
+	tip = "更换成功，请前往邮件查看"
 }

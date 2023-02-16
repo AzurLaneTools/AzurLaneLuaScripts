@@ -655,16 +655,14 @@ function slot0.filterBlueprints(slot0)
 		})
 	end
 
-	table.sort(slot0.filterBlueprintVOs, function (slot0, slot1)
-		return CompareFuncs(slot0, slot1, {
-			function (slot0)
-				return -slot0.state
-			end,
-			function (slot0)
-				return slot0.id
-			end
-		})
-	end)
+	table.sort(slot0.filterBlueprintVOs, CompareFuncs({
+		function (slot0)
+			return -slot0.state
+		end,
+		function (slot0)
+			return slot0.id
+		end
+	}))
 end
 
 function slot0.setSelectedBluePrint(slot0)

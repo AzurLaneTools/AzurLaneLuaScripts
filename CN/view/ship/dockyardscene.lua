@@ -66,9 +66,21 @@ function slot0.init(slot0)
 
 	setActive(slot0.leftTipsText, false)
 
-	slot0.preferenceBtn = slot0.topPanel:Find("preference_toggle")
 	slot0.indexBtn = slot0.topPanel:Find("index_button")
-	slot0.attrBtn = slot0.topPanel:Find("attr_toggle")
+	slot0.switchPanel = slot0.topPanel:Find("switch")
+
+	triggerToggle(slot0.switchPanel:Find("Image"), true)
+
+	slot0.preferenceBtn = slot0.switchPanel:Find("toggles/preference_toggle")
+	slot0.attrBtn = slot0.switchPanel:Find("toggles/attr_toggle")
+	slot0.nameSearchInput = slot0.switchPanel:Find("search")
+
+	setText(slot0.nameSearchInput:Find("holder"), i18n("dockyard_search_holder"))
+	setInputText(slot0.nameSearchInput, "")
+	onInputChanged(slot0, slot0.nameSearchInput, function ()
+		uv0:filter()
+	end)
+
 	slot0.modLockFilter = slot0:findTF("mod_flter_lock", slot0.topPanel)
 	slot0.modLeveFilter = slot0:findTF("mod_flter_level", slot0.topPanel)
 	slot0.energyDescTF = slot0:findTF("energy_desc")
@@ -92,9 +104,8 @@ function slot0.init(slot0)
 	slot0.stampBtn = slot0.topPanel:Find("stamp")
 	slot0.isRemouldOrUpgradeMode = slot0.contextData.mode == uv0.MODE_REMOULD or slot0.contextData.mode == uv0.MODE_UPGRADE
 
-	setActive(slot0.preferenceBtn, not slot0.isRemouldOrUpgradeMode)
+	setActive(slot0.switchPanel, not slot0.isRemouldOrUpgradeMode)
 	setActive(slot0.indexBtn, not slot0.isRemouldOrUpgradeMode)
-	setActive(slot0.attrBtn, not slot0.isRemouldOrUpgradeMode)
 	setActive(slot0.sortBtn, not slot0.isRemouldOrUpgradeMode)
 	setActive(slot0.modLeveFilter, slot0.isRemouldOrUpgradeMode)
 	setActive(slot0.modLockFilter, slot0.isRemouldOrUpgradeMode)
@@ -196,7 +207,7 @@ function slot0.init(slot0)
 	end
 
 	slot0:updateIndexDatas()
-	triggerToggle(findTF(slot0.topPanel, "preference_toggle"), slot0.commonTag == Ship.PREFERENCE_TAG_COMMON)
+	triggerToggle(slot0.preferenceBtn, slot0.commonTag == Ship.PREFERENCE_TAG_COMMON)
 	slot0:initIndexPanel()
 
 	slot0.itemDetailType = -1
@@ -233,7 +244,7 @@ end
 function slot0.GetCard(slot0, slot1)
 	slot2 = nil
 
-	return (not slot0.contextData.selectFriend or DockyardFriend.New(slot1)) and (not slot0.contextData.energyDisplay or DockyardShipItemForEnergy.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)) and DockyardShipItem.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)
+	return (not slot0.contextData.selectFriend or DockyardFriend.New(slot1)) and DockyardShipItem.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)
 end
 
 function slot0.OnClickCard(slot0, slot1)
@@ -354,6 +365,7 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 
 	slot3.isLoading = false
 
+	slot3:updateIntimacyEnergy(slot0.contextData.energyDisplay or slot0.sortIndex == ShipIndexConst.SortEnergy)
 	slot3:updateIntimacy(slot0.sortIndex == ShipIndexConst.SortIntimacy and slot0.contextData.mode ~= DockyardScene.MODE_UPGRADE)
 end
 
@@ -477,7 +489,7 @@ function slot0.initIndexPanel(slot0)
 			end
 		})
 	end, SFX_PANEL)
-	onToggle(slot0, findTF(slot0.topPanel, "preference_toggle"), function (slot0)
+	onToggle(slot0, slot0.preferenceBtn, function (slot0)
 		if slot0 then
 			uv0.commonTag = Ship.PREFERENCE_TAG_COMMON
 		else
@@ -657,16 +669,14 @@ function slot0.filterForRemouldAndUpgrade(slot0)
 		end
 	end
 
-	table.sort(slot0.shipVOs, function (slot0, slot1)
-		slot2 = slot0:isTestShip() and 1 or 0
-		slot3 = slot1:isTestShip() and 1 or 0
-
-		if slot0.level == slot1.level then
-			return slot2 < slot3
-		else
-			return slot0.level < slot1.level
+	table.sort(slot0.shipVOs, CompareFuncs({
+		function (slot0)
+			return slot0.level
+		end,
+		function (slot0)
+			return slot0:isTestShip() and 1 or 0
 		end
-	end)
+	}))
 end
 
 function slot0.filterCommon(slot0)
@@ -703,51 +713,58 @@ function slot0.filterCommon(slot0)
 		end
 	end
 
-	slot3, slot4 = ShipIndexConst.getSortFuncAndName(slot1, slot0.selectAsc)
-
-	if (slot1 ~= ShipIndexConst.SortIntimacy and true or false) and not defaultValue((slot0.contextData.hideTagFlags or {}).inFleet, ShipStatus.TAG_HIDE_BASE.inFleet) then
-		slot6 = slot3
-
-		function slot3(slot0, slot1)
-			return sortCompare({
-				slot1:getFlag("inFleet") and 1 or 0,
-				slot0:getFlag("inFleet") and 1 or 0
-			}, uv0(slot0, slot1))
-		end
+	if getInputText(slot0.nameSearchInput) and slot3 ~= "" then
+		slot0.shipVOs = underscore.filter(slot0.shipVOs, function (slot0)
+			return slot0:IsMatchKey(uv0)
+		end)
 	end
 
-	if slot3 then
-		slot0:SortShips(slot3)
+	slot4, slot5 = ShipIndexConst.getSortFuncAndName(slot1, slot0.selectAsc)
+
+	if (slot1 ~= ShipIndexConst.SortIntimacy and true or false) and not defaultValue((slot0.contextData.hideTagFlags or {}).inFleet, ShipStatus.TAG_HIDE_BASE.inFleet) then
+		table.insert(slot4, 1, function (slot0)
+			return slot0:getFlag("inFleet") and 0 or 1
+		end)
+	end
+
+	if slot4 then
+		slot0:SortShips(slot4)
 	end
 
 	slot0:updateSelected()
 	setActive(slot0.sortImgAsc, slot0.selectAsc)
 	setActive(slot0.sortImgDesc, not slot0.selectAsc)
-	setText(slot0:findTF("Image", slot0.sortBtn), i18n(slot4))
+	setText(slot0:findTF("Image", slot0.sortBtn), i18n(slot5))
 end
 
 function slot0.SortShips(slot0, slot1)
-	table.sort(slot0.shipVOs, function (slot0, slot1)
-		if pg.GuideMgr.GetInstance():isRuning() then
-			return ShipIndexConst.sortForGuider(slot0, slot1)
-		elseif uv0.isFormTactics then
-			return ShipIndexConst.sortByPriorityFullSkill(slot0, slot1, uv1)
-		elseif uv0.contextData.mode == uv2.MODE_OVERVIEW or uv0.contextData.mode == uv2.MODE_SELECT then
-			if slot0.activityNpc == slot1.activityNpc then
-				return uv1(slot0, slot1)
-			else
-				return slot1.activityNpc < slot0.activityNpc
+	if pg.GuideMgr.GetInstance():isRuning() then
+		slot2 = {
+			101171,
+			201211,
+			401231,
+			301051
+		}
+		slot1 = {
+			function (slot0)
+				return table.contains(uv0, slot0.configId) and 0 or 1
 			end
-		elseif uv0.contextData.mode == uv2.MODE_GUILD_BOSS then
-			if (slot0.guildRecommand and 1 or 0) == (slot1.guildRecommand and 1 or 0) then
-				return uv1(slot0, slot1)
-			else
-				return slot3 < slot2
-			end
-		else
-			return uv1(slot0, slot1)
-		end
-	end)
+		}
+	elseif slot0.isFormTactics then
+		table.insert(slot1, 1, function (slot0)
+			return slot0:isFullSkillLevel() and 1 or 0
+		end)
+	elseif slot0.contextData.mode == uv0.MODE_OVERVIEW or slot0.contextData.mode == uv0.MODE_SELECT then
+		table.insert(slot1, 1, function (slot0)
+			return -slot0.activityNpc
+		end)
+	elseif slot0.contextData.mode == uv0.MODE_GUILD_BOSS then
+		table.insert(slot1, 1, function (slot0)
+			return slot0.guildRecommand and 0 or 1
+		end)
+	end
+
+	table.sort(slot0.shipVOs, CompareFuncs(slot1))
 end
 
 function slot0.UpdateGuildViewEquipmentsBtn(slot0)
@@ -799,7 +816,7 @@ function slot0.didEnter(slot0)
 		end, SFX_PANEL)
 	end
 
-	eachChild(slot0:findTF("attr_toggle", slot0.topPanel):GetComponent("Button"), function (slot0)
+	eachChild(slot0.attrBtn:GetComponent("Button"), function (slot0)
 		setActive(slot0, false)
 	end)
 

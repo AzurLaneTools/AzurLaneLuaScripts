@@ -174,13 +174,11 @@ function slot0.GetActivityShops(slot0, slot1)
 			slot2 = getProxy(ActivityProxy)
 			slot2 = slot2:getRawData()
 
-			table.sort(uv0.shopList[NewShopsScene.TYPE_ACTIVITY], function (slot0, slot1)
-				return CompareFuncs(slot0, slot1, {
-					function (slot0)
-						return uv0[slot0.activityId]:getStartTime()
-					end
-				})
-			end)
+			table.sort(uv0.shopList[NewShopsScene.TYPE_ACTIVITY], CompareFuncs({
+				function (slot0)
+					return uv0[slot0.activityId]:getStartTime()
+				end
+			}))
 		end
 
 		slot0()

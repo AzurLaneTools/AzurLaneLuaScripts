@@ -71,6 +71,8 @@ function slot0.OnLoaded(slot0)
 	setText(slot0.settingBtn:Find("Text"), i18n("player_vitae_skin_setting"))
 	setText(slot0.randomBtn:Find("Text"), i18n("random_ship_label"))
 	setText(slot0.settingSeceneBtn:Find("Text"), i18n("playervtae_setting_btn_label"))
+
+	slot0.cardContainerCG = GetOrAddComponent(slot0.cardContainer, typeof(CanvasGroup))
 end
 
 function slot0.OnBeginDragCard(slot0, slot1)
@@ -82,6 +84,12 @@ function slot0.OnBeginDragCard(slot0, slot1)
 		if isActive(slot7._tf) then
 			slot0.displayCards[slot6] = slot7
 			slot0.displayPos[slot6] = slot7._tf.localPosition
+		end
+	end
+
+	for slot6, slot7 in pairs(slot0.displayCards) do
+		if slot6 ~= slot1 then
+			slot7:DisableDrag()
 		end
 	end
 end
@@ -122,7 +130,8 @@ function slot0.OnEndDragCard(slot0)
 	slot4 = getProxy(PlayerProxy):getRawData()
 	slot5 = false
 
-	for slot9, slot10 in ipairs(slot0.displayCards) do
+	for slot9, slot10 in pairs(slot0.displayCards) do
+		slot10:EnableDrag()
 		table.insert(slot3, slot10.displayShip.id)
 
 		if not slot5 and slot4.characters[#slot3] ~= slot10.displayShip.id then
@@ -130,13 +139,22 @@ function slot0.OnEndDragCard(slot0)
 		end
 	end
 
-	if slot5 then
-		slot0:emit(PlayerVitaeMediator.CHANGE_PAINTS, slot3)
-	end
-
 	slot0.dragIndex = nil
 	slot0.displayCards = nil
 	slot0.displayPos = nil
+	slot0.cardContainerCG.blocksRaycasts = false
+
+	if slot5 then
+		slot0:emit(PlayerVitaeMediator.CHANGE_PAINTS, slot3, function ()
+			Timer.New(function ()
+				if uv0.cardContainerCG then
+					uv0.cardContainerCG.blocksRaycasts = true
+				end
+			end, 0.3, 1):Start()
+		end)
+	else
+		slot0.cardContainerCG.blocksRaycasts = true
+	end
 end
 
 function slot0.OnInit(slot0)

@@ -378,6 +378,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「时空在飞转的轮盘中折叠，命运于闪烁的光芒中交汇。」</color>\n「定向折叠」活动获取",
 		scene = {}
 	},
+	[324] = {
+		time_limit_type = 0,
+		name = "圣辉之证",
+		gain_by = "",
+		id = 324,
+		time_second = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂纪念：企业",
@@ -493,6 +502,7 @@ pg.item_data_frame = {
 		321,
 		322,
 		323,
+		324,
 		401,
 		402,
 		404,

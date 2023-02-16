@@ -79,18 +79,16 @@ function slot0.didEnter(slot0)
 					end)
 				end)
 
-				table.sort(uv1.tempTaskGroup, function (slot0, slot1)
-					return CompareFuncs(slot0, slot1, {
-						function (slot0)
-							return underscore.all(slot0, function (slot0)
-								return slot0:isReceive()
-							end) and 1 or 0
-						end,
-						function (slot0)
-							return slot0[1].id
-						end
-					})
-				end)
+				table.sort(uv1.tempTaskGroup, CompareFuncs({
+					function (slot0)
+						return underscore.all(slot0, function (slot0)
+							return slot0:isReceive()
+						end) and 1 or 0
+					end,
+					function (slot0)
+						return slot0[1].id
+					end
+				}))
 				uv1.taskGroupItemList:align(#uv1.tempTaskGroup)
 				uv1:updateTaskInfo()
 			end
