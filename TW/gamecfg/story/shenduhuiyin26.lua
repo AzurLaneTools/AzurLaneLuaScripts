@@ -933,7 +933,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "這片海域最深處也只有不到六千米，這點距離不會讓樣本失效的！",
+			say = "這片海域最深處也只有不到六千公尺，這點距離不會讓樣本失效的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

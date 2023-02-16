@@ -13,7 +13,7 @@ return {
 		{
 			type = "BattleBuffAddBuff",
 			trigger = {
-				"onStartGame"
+				"onAttach"
 			},
 			arg_list = {
 				minTargetNumber = 1,
@@ -31,12 +31,30 @@ return {
 		{
 			type = "BattleBuffAddBuff",
 			trigger = {
-				"onStartGame"
+				"onAttach"
 			},
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 60333,
 				quota = 1,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"QE"
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				quota = 1,
+				skill_id = 60334,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

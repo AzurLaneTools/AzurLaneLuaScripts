@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "深度400米，運行狀況良好！",
+			say = "深度400公尺，運行狀況良好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

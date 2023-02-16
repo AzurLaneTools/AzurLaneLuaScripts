@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "1600米……我們還真是來到了一個不得了的深度。",
+			say = "1600公尺……我們還真是來到了一個不得了的深度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

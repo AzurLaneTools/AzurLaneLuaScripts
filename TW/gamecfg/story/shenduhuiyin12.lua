@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "呼—呼——我來給你吹吹，疼痛疼痛快飛走~",
+			say = "呼—呼——我來給妳吹吹，疼痛疼痛快飛走~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看起來確實是比較靠南的海域，周圍能看到什麼島礁或者大陸麼？",
+			say = "看起來確實是比較靠南的海域，周圍能看到什麼島礁或者大陸嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有些……一拳打在棉花上的感覺，緊張的神經都要松掉了。",
+			say = "有些……一拳打在棉花上的感覺，緊張的神經都要鬆掉了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

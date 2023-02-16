@@ -502,7 +502,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用在意，這裡只是陛下為了裝古董修的新地下室而已……我送你出去吧。",
+			say = "不用在意，這裡只是陛下為了裝古董修的新地下室而已……我送妳出去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

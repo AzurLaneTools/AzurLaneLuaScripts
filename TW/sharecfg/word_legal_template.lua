@@ -450,6 +450,17 @@ function temp()
 						this = true
 					}
 				}
+			},
+			["漢"] = {
+				["格"] = {
+					["爾"] = {
+						["斯"] = {
+							["克"] = {
+								this = true
+							}
+						}
+					}
+				}
 			}
 		},
 		["布"] = {
@@ -5317,6 +5328,9 @@ function temp()
 			["夫"] = {
 				this = true
 			}
+		},
+		["輔"] = {
+			this = true
 		}
 	}
 end
@@ -5678,6 +5692,42 @@ function temp()
 	uv0["鎮"] = {
 		["海"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["靈"] = {
+		["敏"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["窩"] = {
+		["瓦"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["喀"] = {
+		["琅"] = {
+			["施"] = {
+				["塔"] = {
+					["得"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end

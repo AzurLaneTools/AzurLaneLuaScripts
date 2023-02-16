@@ -24314,7 +24314,7 @@ pg.activity_template = {
 			ui_name = "MaoxiV3PtPage"
 		},
 		config_client = {
-			linkActID = 4265
+			linkActID = 41083
 		}
 	},
 	[41079] = {

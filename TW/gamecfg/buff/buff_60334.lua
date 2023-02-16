@@ -17,13 +17,23 @@ return {
 	},
 	effect_list = {
 		{
+			type = "BattleBuffCleanse",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				buff_id_list = {
+					60331
+				}
+			}
+		},
+		{
 			type = "BattleBuffCastSkill",
 			trigger = {
 				"onAttach"
 			},
 			arg_list = {
 				skill_id = 60335,
-				minTargetNumber = 1,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

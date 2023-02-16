@@ -1,28 +1,30 @@
 return {
 	init_effect = "",
-	name = "判断",
-	time = 0,
+	name = "",
+	time = 1,
+	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 60333,
+	id = 60337,
 	icon = 60330,
 	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onChargeWeaponFire"
+				"onAttach"
 			},
 			arg_list = {
-				skill_id = 60330,
 				minTargetNumber = 1,
+				quota = 1,
+				skill_id = 60333,
 				check_target = {
-					"TargetSelf",
+					"TargetAllHelp",
 					"TargetShipTag"
 				},
 				ship_tag_list = {
-					"QE_REST"
+					"Schedule_alive"
 				}
 			}
 		}
