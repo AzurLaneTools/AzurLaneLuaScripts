@@ -60021,6 +60021,44 @@ _G.pg.base.task_data_template[14678] = {
 	}
 }
 
+_G.pg.base.task_data_template[14679] = {
+	name = "『限界挑战10』-积分任务",
+	guild_coin_award = 0,
+	award = 91199,
+	type = 6,
+	desc = "PT",
+	count_inherit = 0,
+	sub_type = 103,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 14679,
+	target_num = 8800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			14,
+			210,
+			1
+		}
+	}
+}
+
 _G.pg.base.task_data_template[14730] = {
 	name = "『法系复刻活动』-日常建造",
 	guild_coin_award = 0,
@@ -124664,6 +124702,909 @@ _G.pg.base.task_data_template[17429] = {
 	},
 	scene = {
 		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17430] = {
+	name = "『毛系V3』通关EX",
+	guild_coin_award = 0,
+	award = 96630,
+	type = 6,
+	desc = "通關EX關卡",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1620051",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17430,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1620026,
+			chapterId = 1620051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17431] = {
+	name = "『毛系V3』-日常建造",
+	guild_coin_award = 0,
+	award = 96978,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17431,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59276,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17432] = {
+	name = "『毛系V3』-日常出击",
+	guild_coin_award = 0,
+	award = 96979,
+	type = 36,
+	desc = "艦隊出擊，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17432,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59276,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17433] = {
+	name = "『毛系V3』-日常困难本",
+	guild_coin_award = 0,
+	award = 96980,
+	type = 36,
+	desc = "通關1次任意困難關卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17433,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59276,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17434] = {
+	name = "『毛系V3』通关A1/C1",
+	guild_coin_award = 0,
+	award = 96981,
+	type = 6,
+	desc = "通關A1或C1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17435",
+	auto_commit = 0,
+	story_id = "",
+	id = 17434,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1620001,
+		1620021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59276,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4265
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17435] = {
+	name = "『毛系V3』通关A2/C2",
+	guild_coin_award = 0,
+	award = 96982,
+	type = 6,
+	desc = "通關A2或C2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17436",
+	auto_commit = 0,
+	story_id = "",
+	id = 17435,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1620002,
+		1620022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59276,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4265
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17436] = {
+	name = "『毛系V3』通关A3/C3",
+	guild_coin_award = 0,
+	award = 96983,
+	type = 6,
+	desc = "通關A3或C3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17437",
+	auto_commit = 0,
+	story_id = "",
+	id = 17436,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1620003,
+		1620023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59276,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4265
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17437] = {
+	name = "『毛系V3』通关B1/D1",
+	guild_coin_award = 0,
+	award = 96984,
+	type = 6,
+	desc = "通關B1或D1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17438",
+	auto_commit = 0,
+	story_id = "",
+	id = 17437,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1620004,
+		1620024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59276,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4266
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17438] = {
+	name = "『毛系V3』通关B2/D2",
+	guild_coin_award = 0,
+	award = 96985,
+	type = 6,
+	desc = "通關B2或D2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17439",
+	auto_commit = 0,
+	story_id = "",
+	id = 17438,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1620005,
+		1620025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59276,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4266
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17439] = {
+	name = "『毛系V3』通关B3/D3",
+	guild_coin_award = 0,
+	award = 96986,
+	type = 6,
+	desc = "通關B3或D3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17440",
+	auto_commit = 0,
+	story_id = "",
+	id = 17439,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1620006,
+		1620026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59276,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4266
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17440] = {
+	name = "『毛系V3』通关SP",
+	guild_coin_award = 0,
+	award = 96987,
+	type = 6,
+	desc = "通關SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1620041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17440,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1620025,
+			chapterId = 1620041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17441] = {
+	name = "『毛系V3』通关D3",
+	guild_coin_award = 0,
+	award = 96988,
+	type = 6,
+	desc = "通關D3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1620026",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17441,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			221,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1620012,
+			chapterId = 1620026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17442] = {
+	name = "『毛系V3』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 96989,
+	type = 6,
+	desc = "完成A1或C1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17443",
+	auto_commit = 0,
+	story_id = "",
+	id = 17442,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1620001,
+		1620021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4265
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17443] = {
+	name = "『毛系V3』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 96990,
+	type = 6,
+	desc = "完成A2或C2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17444",
+	auto_commit = 0,
+	story_id = "",
+	id = 17443,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1620002,
+		1620022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4265
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17444] = {
+	name = "『毛系V3』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 96991,
+	type = 6,
+	desc = "完成A3或C3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17445",
+	auto_commit = 0,
+	story_id = "",
+	id = 17444,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1620003,
+		1620023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4265
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17445] = {
+	name = "『毛系V3』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 96992,
+	type = 6,
+	desc = "完成B1或D1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17446",
+	auto_commit = 0,
+	story_id = "",
+	id = 17445,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1620004,
+		1620024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4266
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17446] = {
+	name = "『毛系V3』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 96993,
+	type = 6,
+	desc = "完成B2或D2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17447",
+	auto_commit = 0,
+	story_id = "",
+	id = 17446,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1620005,
+		1620025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4266
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17447] = {
+	name = "『毛系V3』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 96994,
+	type = 6,
+	desc = "完成B3或D3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17447,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1620006,
+		1620026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4266
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17448] = {
+	name = "『毛系V3』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 97034,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17448,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			241,
+			2
+		}
 	}
 }
 

@@ -17753,6 +17753,38 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[537] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 7,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 473,
+		code = 537,
+		group_type = 70109,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：深度回音",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[432] = {
 		type = 1,
 		redirect_id = 101,
@@ -17846,6 +17878,38 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時活動：激唱的Universe",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[535] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 7,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 477,
+		code = 535,
+		group_type = 70110,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：深度回音",
 				{
 					""
 				},
@@ -18161,6 +18225,102 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時活動：北境序曲",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[536] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 7,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 488,
+		code = 536,
+		group_type = 70506,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：深度回音",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[538] = {
+		type = 7,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 7,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 489,
+		code = 538,
+		group_type = 70701,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：深度回音",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[539] = {
+		type = 18,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 7,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 490,
+		code = 539,
+		group_type = 71801,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：深度回音",
 				{
 					""
 				},
@@ -22421,6 +22581,9 @@ pg.ship_data_group = {
 		[70106] = {
 			491
 		},
+		[70109] = {
+			537
+		},
 		[70103] = {
 			432
 		},
@@ -22429,6 +22592,9 @@ pg.ship_data_group = {
 		},
 		[70105] = {
 			475
+		},
+		[70110] = {
+			535
 		},
 		[70201] = {
 			262
@@ -22456,6 +22622,15 @@ pg.ship_data_group = {
 		},
 		[70505] = {
 			441
+		},
+		[70506] = {
+			536
+		},
+		[70701] = {
+			538
+		},
+		[71801] = {
+			539
 		},
 		[80102] = {
 			348
@@ -23143,9 +23318,11 @@ pg.ship_data_group = {
 		497,
 		431,
 		491,
+		537,
 		432,
 		433,
 		475,
+		535,
 		262,
 		434,
 		498,
@@ -23155,6 +23332,9 @@ pg.ship_data_group = {
 		437,
 		440,
 		441,
+		536,
+		538,
+		539,
 		348,
 		359,
 		395,

@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "……你不会真的想喝吧？",
+			say = "……妳不會真的想喝吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "任务中禁止饮酒？我要记在航行日志里了哦？",
+			say = "任務中禁止飲酒？我要記在航行日誌裡了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,12 +115,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "阿爾漢格爾斯克",
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……欸？怎么突然不说话了，在思考说服我的话术么？",
+			say = "……欸？怎麼突然不說話了，在思考說服我的話術嗎？",
 			bgm = "battle-deepecho",
 			flashout = {
 				dur = 1,
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "（又是熟悉的场景，熟悉的话语……我又回来了。）",
+			say = "（又是熟悉的場景，熟悉的話語……我又回來了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_6",
-			say = "陌生的量产型，黑色的风暴……所有的一切仿佛从未真实存在过一样。",
+			say = "陌生的量產型，黑色的風暴……所有的一切彷彿從未真實存在過一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,75 +181,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_6",
-			say = "从昏迷中醒过来的喀琅施塔得发现自己再一次回到了潜航舰苏丽珂号的科研舱中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_6",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "阿尔汉格尔斯克……同步任务暂时停止。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_6",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "欸？！发生了什么事么……不对，你的脸色突然变得超级差哎！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_6",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "难道是身体突然不舒服么……我还以为你说要喝伏特加是开玩笑呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_6",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "……别急，我这就去给你拿一杯！",
+			say = "從昏迷中醒過來的喀琅施塔得發現自己再一次回到了潛航艦蘇麗珂號的科研艙中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "…………没事，不用管酒的问题了。",
+			say = "阿爾漢格爾斯克……同步任務暫時停止。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,8 +214,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "这样啊……总之你先好好休息一下吧。",
+			actorName = "阿爾漢格爾斯克",
+			say = "欸？！發生麼什麼事嗎……不對，妳的臉色突然變得超級差哎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,8 +231,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "难道是进行任务之前的突然紧张？",
+			actorName = "阿爾漢格爾斯克",
+			say = "難道是身體突然不舒服嗎……我還以為妳說要喝伏特加是開玩笑呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,42 +248,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "也可以这么说……不过我紧张的可不是要执行任务这件事啊……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_6",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "这次怎么样，你还是什么都不记得么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_6",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "……嗯？我要记得什么么？",
+			actorName = "阿爾漢格爾斯克",
+			say = "……別急，我這就去幫妳拿一杯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +266,41 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "（明明已经发生过两次，阿尔汉格尔斯克居然还是什么都不记得。）",
+			say = "…………沒事，不用管酒的問題了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_6",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "阿爾漢格爾斯克",
+			say = "這樣啊……總之妳先好好休息一下吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_6",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "阿爾漢格爾斯克",
+			say = "難道是進行任務之前的突然緊張？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +317,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "（………我现在可以百分之百确定了，之前经历的事绝对不是什么一瞬间产生的幻觉。）",
+			say = "也可以這麼說……不過我緊張的可不是要執行任務這件事啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +334,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "（现在的局面一定与使用了同步装置连接样本有关……）",
+			say = "這次怎麼樣，妳還是什麼都不記得嗎？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_6",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "阿爾漢格爾斯克",
+			say = "……嗯？我要記得什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "（虽然不知道有关到什么程度，究竟是因为什么原因……这些都是需要查明的……）",
+			say = "（明明已經發生過兩次，阿爾漢格爾斯克居然還是什麼都不記得。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +384,58 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "喀琅施塔得",
+			say = "（………我現在可以百分之百確定了，之前經歷的事絕對不是什麼一瞬間產生的幻覺。）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_6",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "喀琅施塔得",
+			say = "（現在的局面一定與使用了同步裝置連接樣本有關……）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_6",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "喀琅施塔得",
+			say = "（雖然不知道有關到什麼程度，究竟是因為什麼原因……這些都是需要查明的……）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_6",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "阿爾漢格爾斯克",
 			say = "喂—喀琅施塔得小姐————",
 			typewriter = {
 				speed = 0.05,
@@ -452,8 +452,8 @@ return {
 			bgName = "bg_deepecho_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "不要突然留下一句意义不明的话然后自顾自陷入沉思啊。",
+			actorName = "阿爾漢格爾斯克",
+			say = "不要突然留下一句意義不明的話然後自顧自陷入沉思啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "啊~抱歉抱歉。也许是我不太习惯呆在狭窄的科研舱内吧。",
+			say = "啊~抱歉抱歉。也許是我不太習慣待在狹窄的科研艙內吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "稍等我一下，我去外面透透气就回来。",
+			say = "稍等我一下，我去外面透透氣就回來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_6",
-			say = "苏丽珂号·控制室",
+			say = "蘇麗珂號·控制室",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（唉，真是遭遇到了意想不到的事态。）",
+			say = "（唉，真是遭遇到了意想不到的事態。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（老实说我都想先回去之后再从长计议了。）",
+			say = "（老實說我都想先回去之後再從長計議了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（不过……障眼法只能用一次。如果这里真的被塞壬发现了，恐怕我们就没有第二次机会了吧。）",
+			say = "（不過……障眼法只能用一次。如果這裡真的被塞壬發現了，恐怕我們就沒有第二次機會了吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "与这艘潜航舰一样，这次任务也应该是你们极地舰队成立以来的第一次任务。",
+			say = "與這艘潛航艦一樣，這次任務也應該是妳們極地艦隊成立以來的第一次任務。",
 			effects = {
 				{
 					active = true,
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "漂亮的完成任务，向北方联合展现一下你们的实力吧！",
+			say = "漂亮的完成任務，向北方聯合展現一下妳們的實力吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "既然我亲自出马了，你就放心吧，保证完成任务。",
+			say = "既然我親自出馬了，妳就放心吧，保證完成任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（极地舰队的第一次任务…不甘心以这样的状态结束啊…………）",
+			say = "（極地艦隊的第一次任務…不甘心以這樣的狀態結束啊…………）",
 			effects = {
 				{
 					active = false,
@@ -687,7 +687,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "哟，喀琅施塔得~我这边的样本回收顺利结束了哦！",
+			say = "喲，喀琅施塔得~我這邊的樣本回收順利結束了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "诶？灵敏么……嗯，操作辛苦了。",
+			say = "欸？靈敏嗎……嗯，操作辛苦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "没事没事，我觉得蛮有趣的~",
+			say = "沒事沒事，我覺得蠻有趣的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "嗯…………基辅和伏尔加呢？",
+			say = "嗯…………基輔和窩瓦呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "诶……她们不是就在旁边坐着么?",
+			say = "欸……她們不是就在旁邊坐著嗎?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +795,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "啊、是哦是哦，是我走神了。",
+			say = "啊、是哦是哦，是我恍神了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -812,7 +812,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你还好么……感觉就像生了场大病一样？",
+			say = "妳還好嗎……感覺就像生了場大病一樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "现在样本已经成功回收，我们可以隐蔽起来慢慢执行后面的任务哦。",
+			say = "現在樣本已經成功回收，我們可以隱蔽起來慢慢執行後面的任務哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,7 +848,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "如果感觉难受的话就休息一会吧，同步任务换我来也是可以的。",
+			say = "如果感覺難受的話就休息一會吧，同步任務換我來也是可以的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "不过同步任务可不能交给你哦，这个可是苏维埃同盟指名给我的任务。",
+			say = "不過同步任務可不能交給妳哦，這個可是蘇維埃聯盟指名給我的任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -902,7 +902,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（虽然是这样，不过其实大家已经跟我一起经历了两次就是了……）",
+			say = "（雖然是這樣，不過其實大家已經跟我一起經歷了兩次了就是了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -919,7 +919,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………你们觉得这次任务怎么样？",
+			say = "…………妳們覺得這次任務怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -936,7 +936,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是极地舰队的第一次任务，我其实一直有点担心自己能不能做好……",
+			say = "這是極地艦隊的第一次任務，我其實一直有點擔心自己能不能做好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -954,7 +954,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "不过总算还是顺利来到这里了，只要完成最后一步，我们的首次任务就能算顺利结束了吧~",
+			say = "不過總算還是順利來到這裡了，只要完成最後一步，我們的首次任務就能算順利結束了吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -971,7 +971,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错~不过要等最后返回极地要塞之后才算正式结束呢。",
+			say = "沒錯~不過要等最後返回極地要塞之後才算正式結束呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -989,7 +989,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "真是有趣又新奇、兴奋又刺激！这样的任务请多来一点！",
+			say = "真是有趣又新奇、興奮又刺激！這樣的任務請多來一點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1007,7 +1007,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "我其实更想做一些在水面上消灭敌人的任务……",
+			say = "我其實更想做一些在水面上消滅敵人的任務……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1025,7 +1025,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "虽然现在这样的任务有些枯燥，不过像这样与大家在一起，也还不错。",
+			say = "雖然現在這樣的任務有些枯燥，不過像這樣與大家在一起，也還不錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1043,7 +1043,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "对了！喀琅施塔得，等任务结束之后我们可以在极地要塞多停一段时间么？",
+			say = "對了！喀琅施塔得，等任務結束之後我們可以在極地要塞多停一段時間嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1061,7 +1061,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "我在那边看到了好多有趣的东西想研究一下啊！",
+			say = "我在那邊看到了好多有趣的東西想研究一下啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1106,7 +1106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "呵呵，没问题。等任务顺利结束之后，我会跟苏维埃同盟好好说一说的~",
+			say = "呵呵，沒問題。等任務順利結束之後，我會跟蘇維埃聯盟好好說一說的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1124,7 +1124,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "不过我打算任务结束之后回圣彼得伯格好好歇一歇，放你一个人在极地要塞没问题么？",
+			say = "不過我打算任務結束之後回聖彼得堡好好歇一歇，放妳一個人在極地要塞沒問題嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1142,7 +1142,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "唔……这样的话可能稍微有些寂寞！我可以申请让基辅留下来陪我么！",
+			say = "唔……這樣的話可能稍微有些寂寞！我可以申請讓基輔留下來陪我嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1160,7 +1160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "我拒绝。任务结束后我还有很多训练项目要做。",
+			say = "我拒絕。任務結束後我還有很多訓練項目要做。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1178,7 +1178,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "欸~~别这么冷淡嘛！相比训练，直接来实战不是更好？",
+			say = "欸~~別這麼冷淡嘛！相比訓練，直接來實戰不是更好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1205,7 +1205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "来的时候你也看到了吧，极地要塞附近总会有零星的塞壬巡逻队出现。",
+			say = "來的時候妳也看到了吧，極地要塞附近總會有零星的塞壬巡邏隊出現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1223,7 +1223,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "你留下来消灭敌人，不是比训练场训练有趣多了！",
+			say = "妳留下來消滅敵人，不是比訓練場訓練有趣多了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1241,7 +1241,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "唔……你这么说的话，有些心动。",
+			say = "唔……妳這麼說的話，有些心動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1259,7 +1259,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "喀琅施塔得，等任务结束之后，让我在极地要塞承担一段时间的保卫工作可以么。",
+			say = "喀琅施塔得，等任務結束之後，讓我在極地要塞承擔一段時間的保衛工作可以嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1277,7 +1277,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "听起来感觉也是可以商量的事，我会想办法的~",
+			say = "聽起來感覺也是可以商量的事，我會想辦法的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1295,7 +1295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "嗯~感觉休息的差不多了！",
+			say = "嗯~感覺休息的差不多了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1313,7 +1313,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "（谢谢你们。）",
+			say = "（謝謝妳們。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1331,7 +1331,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "阿尔汉格尔斯克，能听到么。阿尔汉格尔斯克——",
+			say = "阿爾漢格爾斯克，能聽到嗎。阿爾漢格爾斯克——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1348,7 +1348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听到了听到了，不要这么大老远喊我啊。",
+			say = "聽到了聽到了，不要這麼大老遠喊我啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1365,7 +1365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过听起来声音倒是有精神多了，怎么说，任务继续么？",
+			say = "不過聽起來聲音倒是有精神多了，怎麼說，任務繼續嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1383,7 +1383,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "没错没错，必须要完成任务才行~",
+			say = "沒錯沒錯，必須要完成任務才行~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1402,7 +1402,7 @@ return {
 			actor = 718010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "让我们再次出发吧————",
+			say = "讓我們再次出發吧————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

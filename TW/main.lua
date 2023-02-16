@@ -78,6 +78,8 @@ function OnApplicationPause(slot0)
 end
 
 function OnApplicationExit()
+	originalPrint("OnApplicationExit")
+
 	if pg.NewStoryMgr.GetInstance():IsRunning() then
 		pg.NewStoryMgr.GetInstance():ForEscPress()
 

@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_0",
-			say = "窗外的风景在逐渐定格。不知不觉间，列车在一处仿佛凭空出现的站台中停止了。",
+			say = "窗外的風景在逐漸定格。不知不覺間，列車在一處彷彿憑空出現的站台中停止了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_0",
-			say = "在弥漫的蒸汽中，一个身穿白色大衣的人走了过来。",
+			say = "在瀰漫的蒸汽中，一個身穿白色大衣的人走了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "各位远道而来辛苦了。旅途还算舒适么？",
+			say = "各位遠道而來辛苦了。旅途還算舒適嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "堪称完美！",
+			say = "堪稱完美！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这节豪华车厢是罗西亚帝国时期留下来的？",
+			say = "這節豪華車廂是俄羅斯帝國時期留下來的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错。最初想着在寒冷的西伯利亚铁路上多少用的上，各位能习惯真是再好不过了。",
+			say = "沒錯。最初想著在寒冷的西伯利亞鐵路上多少用的上，各位能習慣真是再好不過了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "这里就是我们的目的地么，看起来一片荒凉啊……",
+			say = "這裡就是我們的目的地嗎，看起來一片荒涼啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "各位不要急，这里只是一处中转站。接下来要去的地方并没有和这条铁路相连，我们用汽车。",
+			say = "各位不要急，這裡只是一處中轉站。接下來要去的地方並沒有和這條鐵路相連，我們用汽車。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦……？感觉比想象中还要复杂……",
+			say = "咦……？感覺比想像中還要復雜……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，一会也许还会有更加令各位吃惊的事哦，大家这边请。",
+			say = "呵呵，一會也許還會有更加令各位吃驚的事哦，大家這邊請。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			say = "北方联合境内·某处",
+			say = "北方聯合境內·某處",
 			side = 2,
 			bgName = "bg_deepecho_0",
 			dir = 1,
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_0",
-			say = "众人在汽车中又行驶了几个小时。",
+			say = "眾人在汽車中又行駛了幾個小時。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_0",
-			say = "终于，在驶过一片针叶林之后，一座港口出现在众人视野之中。",
+			say = "終於，在駛過一片針葉林之後，一座港口出現在眾人視野之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真没想到……居然在这种地方会有港口。",
+			say = "真沒想到……居然在這種地方會有港口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "而且水面没有结冰……？！这里难道是不冻港！？",
+			say = "而且水面沒有結冰……？！這裡難道是不凍港！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "大家快看大家快看！停在港口里的那个是什么……就潜艇来说也太过巨大了？！",
+			say = "大家快看大家快看！停在港口裡的那個是什麼……就潛艇來說也太過巨大了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我从没见过这种造型的潜艇……",
+			say = "我從沒見過這種造型的潛艇……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……这个难道就是那个传说中的关于水下作战平台的机密项目……",
+			say = "唔……這個難道就是那個傳說中的關於水下作戰平台的機密項目……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "真是不管什么事，总有些风声会流到你这里啊。",
+			say = "真是不管什麼事，總有些風聲會流到妳這裡啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……哎，苏维埃同盟？！",
+			say = "……哎，蘇維埃聯盟？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "没错~欢迎来到地点保密名称保密的北方联合不冻港。",
+			say = "沒錯~歡迎來到地點保密名稱保密的北方聯合不凍港。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "看来今天多少还是有些事出乎你的意料之外的。",
+			say = "看來今天多少還是有些事出乎妳的意料之外的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "不过情报泄露就是情报泄露，作为机密项目的潜航舰项目居然出现这种事，是不是该好好彻查一下了~？",
+			say = "不過情報洩露就是情報洩露，作為機密項目的潛航艦項目居然出現這種事，是不是該好好徹查一下了~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "……刚刚那些都是我随便瞎猜的，绝对没有情报泄露的事发生！放心放心，不用查啦！",
+			say = "……剛剛那些都是我隨便瞎猜的，絕對沒有情報洩露的事發生！放心放心，不用查啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "呵呵，玩笑话罢了。能看到你这幅表情，也不枉我这么千里迢迢跑来一趟了。",
+			say = "呵呵，玩笑話罷了。能看到妳這副表情，也不枉我這麼千里迢迢跑來一趟了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "那还真是令我倍感荣幸……",
+			say = "那還真是令我倍感榮幸……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不得不说，确实是一艘十分壮观的巨型潜艇。我们这次的任务就与它有关？",
+			say = "不得不說，確實是一艘十分壯觀的巨型潛艇。我們這次的任務就與它有關？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "没错，终于到执行下一步计划的时候了。",
+			say = "沒錯，終於到執行下一步計劃的時候了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "啊，首先让我介绍一下潜航舰吧。",
+			say = "啊，首先先讓我介紹一下潛航艦吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "正如各位所见，所谓潜航舰，是一种设计用来当做远洋水下作战平台的巨型军舰。",
+			say = "正如各位所見，所謂潛航艦，是一種設計用來當做遠洋水下作戰平台的巨型軍艦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "它同时拥有水面战斗和水下战斗模式。",
+			say = "它同時擁有水面戰鬥和水下戰鬥模式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "在水面行驶时，其拥有良好的破冰能力与防空性能。在水下行驶时不但可以进行快速深潜，还可以进行隐秘巡航。",
+			say = "在水面行駛時，其擁有良好的破冰能力與防空性能。在水下行駛時不但可以進行快速深潛，還可以進行隱秘巡航。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "其巨大的内部空间更是使得搭载大量武器装备成为可能，就算是水下的敌人也可以轻松消灭。",
+			say = "其巨大的內部空間更是使得搭載大量武器裝備成為可能，就算是水下的敵人也可以輕鬆消滅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "几艘潜航舰之间如果相互配合的话，更能构建出无坚不摧的水下封锁网，令敌人无处遁形。",
+			say = "幾艘潛航艦之間如果相互配合的話，更能構建出無堅不摧的水下封鎖網，令敵人無處遁形。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "哇……好厉害！这次会有很多潜航舰和我们一起行动么？！",
+			say = "哇……好厲害！這次會有很多潛航艦和我們一起行動嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "咳……很遗憾，现在还不会。",
+			say = "咳……很遺憾，現在還不會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "上面只是理论预测。实际的话……停泊在诸位面前的只有第一艘成功建造的原型舰。",
+			say = "上面只是理論預測。實際的話……停泊在諸位面前的只有第一艘成功建造的原型艦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "其主要目的是为了进行数据验证，以便后续改进和量产。",
+			say = "其主要目的是為了進行數據驗證，以便後續改進和量產。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705060,
-			say = "也就是实验舰一类的？",
+			say = "也就是實驗艦一類的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "没错。不过也因此，这艘潜航舰上装备了一些原本并不在设计规划中的设备。",
+			say = "沒錯。不過也因此，這艘潛航艦上裝備了一些原本並不在設計規劃中的設備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -755,7 +755,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "比如用于深海探测的科研设备，能够承受极端环境和激烈战斗的特制加厚装甲，用于长时间水下活动的生命维持设备等。",
+			say = "比如用於深海探測的科研設備，能夠承受極端環境和激烈戰鬥的特製加厚裝甲，用於長時間水下活動的生命維持設備等。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "相比作战舰艇，听起来更像科研船呢……",
+			say = "相比作戰艦艇，聽起來更像科研船呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,7 +790,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "是的。也因此，这艘潜航舰的武装极其有限。",
+			say = "是的。也因此，這艘潛航艦的武裝極其有限。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "你们除了好好使用这些设备完成任务之外，还要担负起保护她的责任哦。",
+			say = "妳們除了好好使用這些設備完成任務之外，還要擔負起保護她的責任哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "太夸张了………呜呜呜…………我感动的快要哭了！",
+			say = "太誇張了………嗚嗚嗚…………我感動的快要哭了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -844,7 +844,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "我们什么时候上船？我已经迫不及待想研究一下了！",
+			say = "我們什麼時候上船？我已經迫不及待想研究一下了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,7 +862,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "别急……在上船之前，多少应该先听我交代一下你们这次的任务吧。",
+			say = "別急……在上船之前，多少應該先聽我交代一下你們這次的任務吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -880,7 +880,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "虽然我觉得喀琅施塔得大概已经知道的八九不离十了……不过你们肯定还不知道吧？",
+			say = "雖然我覺得喀琅施塔得大概已經知道的八九不離十了……不過妳們肯定還不知道吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,7 +915,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "这次任务，将会是我们极地掌控计划第二阶段的起点。",
+			say = "這次任務，將會是我們極地掌控計劃第二階段的起點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -933,7 +933,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "如各位所知，在第一阶段中，我们在极地的冰海之中成功建立了一处永久据点——极地要塞。",
+			say = "如各位所知，在第一階段中，我們在極地的冰海之中成功建立了一處永久據點——極地要塞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -951,7 +951,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "诸位需要首先乘坐潜航舰前往极地要塞，在那边安装某些更特殊的设备后，前往深海的某处完成调查行动。",
+			say = "諸位需要首先乘坐潛航艦前往極地要塞，在那邊安裝某些更特殊的設備後，前往深海的某處完成調查行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,7 +969,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "极地的水下隐藏着什么……这件事相信诸位已经十分清楚了。",
+			say = "極地的水下隱藏著什麼……這件事相信諸位已經十分清楚了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "不过这次的具体任务和之前都不太一样……船舱中有指令书，各位可以在路上慢慢看。",
+			say = "不過這次的具體任務和之前都不太一樣……船艙中有指令書，各位可以在路上慢慢看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1005,7 +1005,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "与这艘潜航舰一样，这次任务也应该是你们极地舰队成立以来的第一次任务。",
+			say = "與這艘潛航艦一樣，這次任務也應該是妳們極地艦隊成立以來的第一次任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1023,7 +1023,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "漂亮的完成任务，向北方联合展现一下你们的实力吧！",
+			say = "漂亮的完成任務，向北方聯合展現一下妳們的實力吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1041,7 +1041,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "既然我亲自出马了，你就放心吧，保证完成任务。",
+			say = "既然我親自出馬了，妳就放心吧，保證完成任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1059,7 +1059,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "不但要完成任务，而且要全员平安返回哦。",
+			say = "不但要完成任務，而且要全員平安返回哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1077,7 +1077,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "放心吧，放心~再怎么说，也轮不到舰装还没完成的你来担心我。",
+			say = "放心吧，放心~再怎麼說，也輪不到艦裝還沒完成的妳來擔心我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1095,7 +1095,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "……这次任务结束之后，你的舰装能做好么？",
+			say = "……這次任務結束之後，妳的艦裝能做好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1113,7 +1113,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "谁知道呢，似乎在研发过程中出现了一些问题。",
+			say = "誰知道呢，似乎在研發過程中出現了一些問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1131,7 +1131,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "不过我个人希望你们快去快回，最好别拖拖拉拉等到那个时候。",
+			say = "不過我個人希望妳們快去快回，最好別拖拖拉拉等到那個時候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1167,7 +1167,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "噗……好了，大家随我来进行登舰准备吧。",
+			say = "噗……好了，大家隨我來進行登艦準備吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1185,7 +1185,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "请问，这艘潜航舰有名字么？！",
+			say = "請問，這艘潛航艦有名字嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1203,7 +1203,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "哦……好像是忘了说了。",
+			say = "哦……好像是忘了說了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1221,7 +1221,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "————Сулико（苏丽珂）",
+			say = "————Сулико（蘇麗珂）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1239,7 +1239,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "作为数据验证舰而存在的仅有一艘的原型舰，苏丽珂级的苏丽珂号。",
+			say = "作為數據驗證艦而存在的僅有一艘的原型艦，蘇麗珂級的蘇麗珂號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1258,7 +1258,7 @@ return {
 			actor = 900218,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "一个十分温柔又优美的名字，不是么？",
+			say = "一個十分溫柔又優美的名字，不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

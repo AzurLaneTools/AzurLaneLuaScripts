@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你不会真的想喝吧？",
+			say = "……妳不會真的想喝吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "任务中禁止饮酒？我要记在航行日志里了哦？",
+			say = "任務中禁止飲酒？我要記在航行日誌裡了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,9 +113,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_deepecho_6",
-			actorName = "阿尔汉格尔斯克",
+			actorName = "阿爾漢格爾斯克",
 			dir = 1,
-			say = "……欸？怎么突然不说话了，在思考说服我的话术么？",
+			say = "……欸？怎麼突然不說話了，在思考說服我的話術嗎？",
 			bgm = "battle-deepecho",
 			flashout = {
 				dur = 0.5,
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我这是在…………哪儿？",
+			say = "我這是在…………哪裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,11 +159,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "阿爾漢格爾斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……？你在苏丽珂号的科研舱中哦？",
+			say = "……？你在蘇麗珂號的科研艙中哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "苏丽珂号……科研舱………………",
+			say = "蘇麗珂號……科研艙………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,11 +191,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "阿爾漢格爾斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了，突然这样…………感觉身体难受么？",
+			say = "怎麼了，突然這樣…………感覺身體難受嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,11 +207,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "阿爾漢格爾斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我还以为你说要喝伏特加是开玩笑……别急，我这就去给你拿一杯。",
+			say = "我還以為妳說要喝伏特加是開玩笑……別急，我這就去幫妳拿一杯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用了……那个确实是我在开玩笑。",
+			say = "不用了……那個確實是我在開玩笑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你还记得刚才发生的事么？",
+			say = "……妳還記得剛才發生的事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,11 +255,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "阿爾漢格爾斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才发生的事是指……灵敏开始回收样本，之后我们来到科研舱准备同步，之后你要喝伏特加的事么？",
+			say = "剛才發生的事是指……靈敏開始回收樣本，之後我們來到科研艙準備同步，之後妳要喝伏特加的事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只有这些么……？",
+			say = "只有這些嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,11 +287,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "阿爾漢格爾斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……我记得只有这些哦。你想问什么？",
+			say = "嗯……我記得只有這些哦。妳想問什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…………问些我觉得你知道但是你好像并不知道的。",
+			say = "唔…………問些我覺得妳知道但是你好像並不知道的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,11 +319,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "阿爾漢格爾斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要想耍宝的话，我觉得任务即将开始的此刻并不是一个合适的时机欸。",
+			say = "要想耍寶的話，我覺得任務即將開始的此刻並不是一個合適的時機欸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵……说的也是。同步装置真的还没有启动过吧？",
+			say = "呵呵……說的也是。同步裝置真的還沒有啟動過吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,11 +351,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "阿爾漢格爾斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绝对没有。毕竟要等灵敏完成样本回收之后，我们这边的同步装置才能够达成启动条件。",
+			say = "絕對沒有。畢竟要等靈敏完成樣本回收之後，我們這邊的同步裝置才能夠達成啟動條件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,11 +367,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "阿爾漢格爾斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你真的没事吧，要不然我们休息一会再开始也可以哦？",
+			say = "……妳真的沒事吧，要不然我們休息一下再開始也可以哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系没关系，可能刚刚只是我有点走神了~",
+			say = "沒關係沒關係，可能剛剛只是我有點走神了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,11 +399,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "灵敏",
+			actorName = "靈敏",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喀琅施塔得，样本回收完毕，可以进行下一步操作了！",
+			say = "喀琅施塔得，樣本回收完畢，可以進行下一步操作了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……知道了。那就开始操作吧，阿尔汉格尔斯克。",
+			say = "……知道了。那就開始操作吧，阿爾漢格爾斯克。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,11 +431,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "阿爾漢格爾斯克",
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解~现在开始最终检查————嗯，各模块运行正常，已经检测到样本到位。",
+			say = "了解~現在開始最終檢查————嗯，各模組運行正常，已經檢測到樣本到位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_6",
-			say = "将头盔与眼罩安装好，视野陷入了一片黑暗。",
+			say = "將頭盔與眼罩安裝好，視野陷入了一片黑暗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚经历的一切真的只是短暂的幻觉么……",
+			say = "剛剛經歷的一切真的只是短暫的幻覺嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,11 +477,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "阿爾漢格爾斯克",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么3——2——1———",
+			say = "那麼3——2——1———",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

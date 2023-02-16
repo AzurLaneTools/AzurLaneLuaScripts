@@ -70,7 +70,6 @@ function slot0.listNotificationInterests(slot0)
 		EquipmentProxy.EQUIPMENT_REMOVED,
 		GAME.USE_ITEM_DONE,
 		GAME.DESTROY_EQUIPMENTS_DONE,
-		BagProxy.ITEM_ADDED,
 		BagProxy.ITEM_UPDATED,
 		uv0.BATCHDESTROY_MODE,
 		GAME.EQUIP_TO_SHIP_DONE,
@@ -102,7 +101,7 @@ function slot0.handleNotification(slot0, slot1)
 				items = slot3
 			})
 		end
-	elseif slot2 == BagProxy.ITEM_ADDED or slot2 == BagProxy.ITEM_UPDATED then
+	elseif slot2 == BagProxy.ITEM_UPDATED then
 		if slot0.canUpdate then
 			slot0.viewComponent:SetMaterials(getProxy(BagProxy):GetItemsByCondition({
 				is_world = 1

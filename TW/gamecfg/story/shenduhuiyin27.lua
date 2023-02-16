@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "炫目的白光之后，出现在喀琅施塔得面前的是一片燃烧的海面。",
+			say = "炫目的白光之後，出現在喀琅施塔得面前的是一片燃燒的海面。",
 			side = 2,
 			bgName = "bg_deepecho_9",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "这次还真是……一上来就是剧目的高潮啊。",
+			say = "這次還真是……一上來就是劇目的高潮啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "很明显，这里是演习海域，而冲击已经发生了。",
+			say = "很明顯，這裡是演習海域，而衝擊已經發生了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "整片海域像是经历了超强风暴的洗礼，只剩下一片狼藉。",
+			say = "整片海域像是經歷了超強風暴的洗禮，只剩下一片狼藉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "整齐的队列早已荡然无存，留下的只有燃烧的残骸，或者即将变成残骸的未知军舰。",
+			say = "整齊的隊列早已蕩然無存，留下的只有燃燒的殘骸，或者即將變成殘骸的未知軍艦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "海面、空气、甚至天空都在燃烧，宛如末日般的景象。",
+			say = "海面、空氣、甚至天空都在燃燒，宛如末日般的景象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "在这片死亡之海中，只有位于毁灭中心的那个黑色风暴显得“生机勃勃”。",
+			say = "在這片死亡之海中，只有位於毀滅中心的那個黑色風暴顯得“生機勃勃”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "就好像活物一样……",
+			say = "就好像活物一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不对，也许就是活物吧…………",
+			say = "不對，也許就是活物吧…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "喀琅施塔得迎着狂风与火焰，顺着模糊的视线向着黑色风暴一点一点的接近着。",
+			say = "喀琅施塔得迎著狂風與火焰，順著模糊的視線向著黑色風暴一點一點的接近著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "终于，喀琅施塔得来到了黑色风暴的面前。",
+			say = "終於，喀琅施塔得來到了黑色風暴的面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "只要战胜了你，任务就能结束了吧……",
+			say = "只要戰勝了妳，任務就能結束了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "喀琅施塔得正面凝视着风暴，风暴似乎也在凝视着她。",
+			say = "喀琅施塔得正面凝視著風暴，風暴似乎也在凝視著她。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "不知为何，喀琅施塔得脑海中出现了那个神秘少女的脸庞，只不过在那张脸上，再也找不到一丝可爱的气息。",
+			say = "不知為何，喀琅施塔得腦海中出現了那個神秘少女的臉龐，只不過在那張臉上，再也找不到一絲可愛的氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "少女表情阴暗冰冷，嘴角带着嘲讽意味的笑意。",
+			say = "少女表情陰暗冰冷，嘴角帶著嘲諷意味的笑意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "你想击败我？为什么？",
+			say = "妳想擊敗我？為什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "击败你，我才能完成任务……",
+			say = "擊敗你，我才能完成任務……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "完成任务，为什么？",
+			say = "完成任務，為什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "完成任务之后……才能回到祖国，回到同伴身旁。",
+			say = "完成任務之後……才能回到祖國，回到同伴身旁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "祖国，同伴？它们不正是抛弃你的罪魁祸首么？",
+			say = "祖國，同伴？它們不正是拋棄妳的罪魁禍首嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "祖国，只有在它需要你的时候才是你的祖国。",
+			say = "祖國，只有在它需要妳的時候才是妳的祖國。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "同伴，只有在它需要你的时候才是同伴。",
+			say = "同伴，只有在它需要妳的時候才是同伴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "如果它们不需要你了，那它们就什么也不是了。",
+			say = "如果它們不需要妳了，那它們就什麼也不是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "只要我能战胜你……不论是祖国还是同伴，都会回到我的身边……",
+			say = "只要我能戰勝妳……不論是祖國還是同伴，都會回到我的身邊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "哦？你是这么认为的么。",
+			say = "哦？妳是這麼認為的嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "战胜我，只能意味着你的力量十分强大。",
+			say = "戰勝我，只能意味著妳的力量十分強大。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "强大的力量，将会引来恐惧。",
+			say = "強大的力量，將會引來恐懼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "它们希望你拥有力量，却又恐惧你拥有力量。",
+			say = "它們希望妳擁有力量，卻又恐懼妳擁有力量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "不是很矛盾么？",
+			say = "不是很矛盾嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "相信我，当你战胜了我之后，迎接你的不会是凯旋，没有鲜花更没有掌声。",
+			say = "相信我，當妳戰勝了我之後，迎接妳的不會是凱旋，沒有鮮花更沒有掌聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "迎接你的只有毁灭与死亡。",
+			say = "迎接妳的只有毀滅與死亡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "胡说……全是臆断，你不了解我的祖国与同伴。",
+			say = "胡說……全是臆斷，妳不了解我的祖國與同伴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "不，是你不了解。",
+			say = "不，是妳不了解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "一切都是谎言，一切都是利用。",
+			say = "一切都是謊言，一切都是利用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "一切都是虚情假意……",
+			say = "一切都是虛情假意……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "它们现在尊敬你，只是因为能够控制你。",
+			say = "它們現在尊敬妳，只是因為能夠控制妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "一旦它们发现无法继续控制你了————",
+			say = "一旦它們發現無法繼續控制妳了————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "就会立刻调转枪口，毁灭你。",
+			say = "就會立刻調轉槍口，毀滅妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "如果不信的话……我就在这里，就在你的面前。",
+			say = "如果不信的話……我就在這裡，就在妳的面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#696969",
-			say = "来战胜我，来毁灭我吧——————————",
+			say = "來戰勝我，來毀滅我吧——————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

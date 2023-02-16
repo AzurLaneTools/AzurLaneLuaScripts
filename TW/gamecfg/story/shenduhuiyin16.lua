@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "极地海域·极地要塞近海",
+			say = "極地海域·極地要塞近海",
 			side = 2,
 			bgName = "bg_deepecho_7",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_7",
-			say = "数艘潜航舰正在冰层上行驶着，将厚重的冰层破为一条条航道。",
+			say = "數艘潛航艦正在冰層上行駛著，將厚重的冰層破為一條條航道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,40 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_7",
-			say = "紧跟在后面的是一支规模不大不小的舰队。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_deepecho_7",
-			actor = 705040,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "这片海域……跟之前极地要塞的坐标差的也太远了吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 705040,
-			side = 2,
-			bgName = "bg_deepecho_7",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "多亏了指挥官，我们才能压制这一片海域的塞壬。",
+			say = "緊跟在後面的是一支規模不大不小的艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +66,40 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过……真的会藏在这种地方么？",
+			say = "這片海域……跟之前極地要塞的座標差的也太遠了吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 705040,
+			side = 2,
+			bgName = "bg_deepecho_7",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "多虧了指揮官，我們才能壓制這一片海域的塞壬。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_deepecho_7",
+			actor = 705040,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "不過……真的會藏在這種地方嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "回收到的情报显示最后的位置就是这里……不会错。",
+			say = "回收到的情報就是顯示最後的位置是這裡……不會錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "希望如此……冰层越来越厚了。",
+			say = "希望如此……冰層越來越厚了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_7",
-			say = "一股肃穆的气氛笼罩在舰队之间，大家只是偶尔会零星交谈几句，其他时间都在睁大眼睛在一片雪白中搜索着。",
+			say = "一股肅穆的氣氛籠罩在艦隊之間，大家只是偶爾會零星交談幾句，其他時間都在睜大眼睛在一片雪白中搜索著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "疑似目标……发现。",
+			say = "疑似目標……發現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_7",
-			say = "塔什干似乎终于从一片雪白中发现了什么。",
+			say = "塔什干似乎終於從一片雪白中發現了什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………这个，就像一座巨大的冰雪要塞一样。",
+			say = "…………這個，就像一座巨大的冰雪要塞一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_deepecho_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比事前听说的规模要大太多了吧！",
+			say = "比事前聽說的規模要大太多了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………没错，就是这里没错。",
+			say = "…………沒錯，就是這裡沒錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这么多年过去，已经彻底被冰雪覆盖了啊…………",
+			say = "這麼多年過去，已經徹底被冰雪覆蓋了啊…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "同志们，欢迎来到我们的极地要塞。",
+			say = "同志們，歡迎來到我們的極地要塞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来……",
+			say = "接下來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "让我们开始任务吧。",
+			say = "讓我們開始任務吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

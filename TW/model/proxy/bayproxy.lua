@@ -1053,15 +1053,11 @@ function slot0.getUpgradeRecommendShip(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	slot8 = {
+	table.sort(slot7, CompareFuncs({
 		function (slot0)
 			return slot0:isSameKind(uv0) and 0 or 1
 		end
-	}
-
-	table.sort(slot7, function (slot0, slot1)
-		return CompareFuncs(slot0, slot1, uv0)
-	end)
+	}))
 
 	slot9 = {}
 

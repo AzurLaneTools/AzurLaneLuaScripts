@@ -10,7 +10,7 @@ return {
 			bgm = "bgm-cccp3",
 			side = 2,
 			bgName = "bg_deepecho_2",
-			say = "警报音————",
+			say = "警報音————",
 			dir = 1,
 			bgmDelay = 1,
 			soundeffect = "event:/ui/alarm",
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……？这是…………",
+			say = "嗯……？這是…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "喀琅施塔得！刚刚是基地的警报系统！似乎是在周边海域发现了正在接近的塞壬舰队！",
+			say = "喀琅施塔得！剛剛是基地的警報系統！似乎是在周邊海域發現了正在接近的塞壬艦隊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "敌人规模呢？",
+			say = "敵人規模呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "稍等，我去侦察一下哦————",
+			say = "稍等，我去偵察一下哦————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只看到了零星的敌人，规模不大，似乎只是偶然接近的巡逻队。",
+			say = "只看到了零星的敵人，規模不大，似乎只是偶然接近的巡邏隊。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "这种规模依靠基地的驻防舰队应该就能轻松解决~",
+			say = "這種規模依靠基地的駐防艦隊應該就能輕鬆解決~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "看起似乎是这样呢。不过……我觉得这个机会还挺合适的。大家要不要去练练手？",
+			say = "看起似乎是這樣呢。不過……我覺得這個機會還挺合適的。大家要不要去練練手？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就像赛前热身一样？",
+			say = "就像賽前熱身一樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "没错~就像赛前热身一样，在正式执行任务之前，首先重温一下极地的寒风吧。",
+			say = "沒錯~就像賽前熱身一樣，在正式執行任務之前，首先重溫一下極地的寒風吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "好耶！正好去实验一下潜航舰的性能！",
+			say = "好耶！正好去實驗一下潛航艦的性能！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "我也没问题哦。",
+			say = "我也沒問題哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,8 +259,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
-			say = "啊——大家快看天上，极光开始出现了！",
+			actorName = "窩瓦",
+			say = "啊——大家快看天上，極光開始出現了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,24 +274,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_3",
-			say = "潜航舰平整宽阔的前甲板正是欣赏美景的绝佳地点，众人来到甲板处，望着天空微微出神。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_3",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "灵敏",
-			say = "哇……今天的极光真漂亮！",
+			say = "潛航艦平整寬闊的前甲板正是欣賞美景的絕佳地點，眾人來到甲板處，望著天空微微出神。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,8 +290,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "基辅",
-			say = "赞同。",
+			actorName = "靈敏",
+			say = "哇……今天的極光真漂亮！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,8 +307,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
-			say = "你知道么，基辅，极光的光芒是自太阳而来的高速带电粒子经过磁场偏转之后与空气粒子碰撞形成的哦。",
+			actorName = "基輔",
+			say = "贊同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,8 +324,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
-			say = "绚烂飘动的极光本身也是巨大的能量释放!",
+			actorName = "靈敏",
+			say = "妳知道嗎，基輔，極光的光芒是自太陽而來的高速帶電粒子經過磁場偏轉之後與空氣粒子碰撞形成的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,8 +341,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "基辅",
-			say = "……听起来好像没有那么浪漫了。",
+			actorName = "靈敏",
+			say = "絢爛飄動的極光本身也是巨大的能量釋放!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,8 +358,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "灵敏",
-			say = "是么~粒子碰撞产生的高能释放形成了梦幻的光带！我觉得还是挺浪漫的~",
+			actorName = "基輔",
+			say = "……聽起來好像沒有那麼浪漫了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,8 +375,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "基辅",
-			say = "………你开心就好。",
+			actorName = "靈敏",
+			say = "是嗎~粒子碰撞產生的高能釋放形成了夢幻的光帶！我覺得還是挺浪漫的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,22 +392,8 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
-			say = "这么美妙的景色，让人忍不住许愿呢~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_deepecho_3",
-			say = "伏尔加双手合十，似乎对着极光认真许下了什么愿望。",
+			actorName = "基輔",
+			say = "………妳開心就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,8 +409,39 @@ return {
 			bgName = "bg_deepecho_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
-			say = "（希望这次的任务可以顺顺利利，所有人都能够平安回去~）",
+			actorName = "窩瓦",
+			say = "這麼美妙的景色，讓人忍不住許願呢~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_deepecho_3",
+			say = "窩瓦雙手合十，似乎對著極光認真許下了什麼願望。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_3",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "窩瓦",
+			say = "（希望這次的任務可以順順利利，所有人都能夠平安回去~）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			bgName = "bg_deepecho_3",
 			dir = 1,
 			blackBg = true,
-			say = "潜航舰开始了移动，极地要塞在众人的视野中缓慢倒退着。以此为标志，任务正式开始了。",
+			say = "潛航艦開始了移動，極地要塞在眾人的視野中緩慢倒退著。以此為標誌，任務正式開始了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

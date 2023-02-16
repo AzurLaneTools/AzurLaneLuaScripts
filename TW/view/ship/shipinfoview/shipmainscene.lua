@@ -1437,4 +1437,10 @@ function slot0.RefreshShipExpItemUsagePage(slot0)
 	end
 end
 
+function slot0.OnWillLogout(slot0)
+	if slot0.inPaintingView then
+		slot0:hidePaintView(true)
+	end
+end
+
 return slot0

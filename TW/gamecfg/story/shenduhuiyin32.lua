@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "萨福克正抱着文件，急匆匆地在走廊中穿梭着。",
+			say = "薩福克正抱著文件，急匆匆地在走廊中穿梭著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "虽然在贝尔法斯特的叮嘱下，萨福克这次有记得好好看了表，但问题是她根本就没给表上发条。",
+			say = "雖然在貝爾法斯特的叮囑下，薩福克這次有記得好好看了表，但問題是她根本就沒給表上發條。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "等到发现这件事时，她已经完全错过了时间。为了赶路，慌不择路的她只得选择了从来没走过的近路。",
+			say = "等到發現這件事時，她已經完全錯過了時間。為了趕路，慌不擇路的她只得選擇了從來沒走過的近路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜呜呜……要迟到了！",
+			say = "嗚嗚嗚……要遲到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么跑了这么久都没到啊……明明平常都没有这么远的……！",
+			say = "怎麼跑了這麼久都沒到啊……明明平常都沒有這麼遠的……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我不会是迷路了吧？",
+			say = "……我不會是迷路了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "萨福克站定在原地。直到这时候，她才发现自己好像已经跑进了宫殿的地下。",
+			say = "薩福克站定在原地。直到這時候，她才發現自己好像已經跑進了宮殿的地下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			say = "伊丽莎白所喜爱的华丽装潢早已荡然无存，取而代之的则是泛着冷色的白色钢墙。",
+			say = "伊莉莎白所喜愛的華麗裝潢早已蕩然無存，取而代之的則是泛著冷色的白色鋼牆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我居然在陛下的宫殿里迷路了？！",
+			say = "……我居然在陛下的宮殿裡迷路了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "完了完了……这下肯定要被贝法说教一整年了。",
+			say = "完了完了……這下肯定要被貝法說教一整年了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "哟，这里有外人来还真是稀奇。你是女仆队的孩子么？",
+			say = "喲，這裡有外人來還真是稀奇。妳是女僕隊的孩子嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜噫！",
+			say = "嗚噫！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……是、是！请问是哪位在说话？不……不要吓我啊……",
+			say = "……是、是！請問是哪位在說話？不……不要嚇我啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "抱歉抱歉~你是不小心迷路进来的？",
+			say = "抱歉抱歉~妳是不小心迷路進來的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是诶，没想到还有这样的地方……",
+			say = "是欸，沒想到還有這樣的地方……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我是萨福克，你是……？",
+			say = "我是薩福克，妳是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "萨福克啊~嗯~我有听谢菲介绍过。",
+			say = "薩福克啊~嗯~我有聽謝菲介紹過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "好像是一位情绪比较飘忽的女仆？",
+			say = "好像是一位情緒比較飄忽的女僕？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这算什么评价诶！工作我还是会认真做的哦！",
+			say = "這算什麼評價欸！工作我還是會認真做的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的……看你这身打扮，原来是女仆队的新人啊。",
+			say = "真是的……看妳這身打扮，原來是女僕隊的新人啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨福克，你在这里做什么？",
+			say = "薩福克，妳在這裡做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谢菲？！呼……得救了。",
+			say = "謝菲？！呼……得救了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你知道这里是哪里么？",
+			say = "妳知道這裡是哪裡嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我只顾着着急给陛下送情报，一不留神就在这里迷路了……",
+			say = "我只顧著著急給陛下送情報，一不留神就在這裡迷路了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此……看来由于转移过来过于仓促，结构设计上还有所疏忽啊。",
+			say = "原來如此……看來由於轉移過來過於倉促，結構設計上還有所疏忽啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用在意，这里只是陛下为了装古董修的新地下室而已……我送你出去吧。",
+			say = "不用在意，這裡只是陛下為了裝古董修的新地下室而已……我送你出去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帮大忙了，谢菲！",
+			say = "幫大忙了，謝菲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "举手之劳而已。对了……",
+			say = "舉手之勞而已。對了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			bgName = "star_level_bg_116",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下希望这里在完工之前能够暂时保密，所以在这里发生的事出去之后不要跟任何人说哦？",
+			say = "陛下希望這裡在完工之前能夠暫時保密，所以在這裡發生的事出去之後不要跟任何人說哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "了解，了解！快加速加速加速———真要来不及了，快把我送出去吧！",
+			say = "了解，了解！快加速加速加速———真要來不及了，快把我送出去吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

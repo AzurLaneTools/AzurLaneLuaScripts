@@ -30,9 +30,10 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
-	slot0:bind(uv0.CHANGE_PAINTS, function (slot0, slot1)
+	slot0:bind(uv0.CHANGE_PAINTS, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.CHANGE_PLAYER_ICON, {
-			characterId = slot1
+			characterId = slot1,
+			callback = slot2
 		})
 	end)
 	slot0:bind(uv0.ON_CHANGE_PLAYER_NAME, function (slot0, slot1)

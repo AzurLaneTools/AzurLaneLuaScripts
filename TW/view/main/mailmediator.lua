@@ -84,16 +84,14 @@ function slot0.getAllAttachment(slot0)
 		}
 	end)
 
-	table.sort(slot1, function (slot0, slot1)
-		return CompareFuncs(slot0, slot1, {
-			function (slot0)
-				return -getDropRarity(slot0)
-			end,
-			function (slot0)
-				return -slot0.id
-			end
-		})
-	end)
+	table.sort(slot1, CompareFuncs({
+		function (slot0)
+			return -getDropRarity(slot0)
+		end,
+		function (slot0)
+			return -slot0.id
+		end
+	}))
 
 	return slot1
 end

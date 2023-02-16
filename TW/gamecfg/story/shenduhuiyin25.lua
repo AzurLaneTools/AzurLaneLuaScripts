@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "喀琅施塔得睁开双眼，这里是苏丽珂号的科研舱。",
+			say = "喀琅施塔得睜開雙眼，這裡是蘇麗珂號的科研艙。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我又回来了啊……",
+			say = "我又回來了啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,23 +87,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "眼前依然是熟悉的场景，不过似乎有哪里不太一样了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "喀琅施塔得",
-			bgName = "bg_deepecho_10",
-			nameColor = "#ffa500",
-			dir = 1,
-			say = "阿尔汉格尔斯克？",
+			say = "眼前依然是熟悉的場景，不過似乎有哪裡不太一樣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +103,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "伏尔加？",
+			say = "阿爾漢格爾斯克？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +119,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "基辅？",
+			say = "窩瓦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,35 +135,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "灵敏？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_deepecho_10",
-			say = "无人回应。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_deepecho_10",
-			say = "在一片昏暗之中，只能听到设备运行发出的低沉噪音。",
+			say = "基輔？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +151,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "呵，怎么一个人都没有……都去哪儿了？",
+			say = "靈敏？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +165,51 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "苏丽珂号·控制室",
+			say = "無人回應。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_deepecho_10",
+			say = "在一片昏暗之中，只能聽到設備運行發出的低沉噪音。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "喀琅施塔得",
+			bgName = "bg_deepecho_10",
+			nameColor = "#ffa500",
+			dir = 1,
+			say = "呵，怎麼一個人都沒有……都去哪裡了？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_deepecho_10",
+			say = "蘇麗珂號·控制室",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "控制室里也没有人……潜航舰正在自动驾驶。",
+			say = "控制室裡也沒有人……潛航艦正在自動駕駛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "航行一切正常但是…………无法切换为手动模式。",
+			say = "航行一切正常但是…………無法切換為手動模式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "通讯装置也…………呵，完全无法启动。",
+			say = "通訊裝置也…………呵，完全無法啟動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "在所有试图与外界取得联系的手段均以失败告终后，喀琅施塔得返回了科研舱。",
+			say = "在所有試圖與外界取得聯繫的手段均以失敗告終後，喀琅施塔得返回了科研艙。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "这还真是个绝妙的处境……",
+			say = "這還真是個絕妙的處境……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "所有的同伴都跑了，只留下了我一个人。",
+			say = "所有的同伴都跑了，只留下了我一個人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "这次潜航任务恐怕也被委员会放弃了吧……",
+			say = "這次潛航任務恐怕也被委員會放棄了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "只留下我一个人，孤零零的在这深海之中。",
+			say = "只留下我一個人，孤零零的在這深海之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "哈哈……真是悲惨啊。",
+			say = "哈哈……真是悲慘啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "被委员会抛弃，被同伴抛弃，在深海的铁棺材里长眠就是我喀琅施塔得最后得到的结局么？",
+			say = "被委員會拋棄，被同伴拋棄，在深海的鐵棺材裡長眠就是我喀琅施塔得最後得到的結局嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,37 +415,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
-			say = "屏幕上的一行行代码不断刷新着，同步程序再一次启动了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "喀琅施塔得",
-			bgName = "bg_deepecho_10",
-			nameColor = "#ffa500",
-			dir = 1,
-			say = "………………无所谓了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_deepecho_10",
-			say = "画面定格在最终的确认界面，喀琅施塔得的手悬停在按钮上方。",
+			say = "螢幕上的一行行代碼不斷刷新著，同步程序再一次啟動了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +431,21 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不论如何也要完成任务……",
+			say = "………………無所謂了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_deepecho_10",
+			say = "畫面定格在最終的確認介面，喀琅施塔得的手懸停在按鈕上方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +461,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "就算只有我一个人……",
+			say = "不論如何也要完成任務……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +477,7 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "就算无法返航…………",
+			say = "就算只有我一個人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +493,23 @@ return {
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "就算被世人遗忘………………",
+			say = "就算無法返航…………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "喀琅施塔得",
+			bgName = "bg_deepecho_10",
+			nameColor = "#ffa500",
+			dir = 1,
+			say = "就算被世人遺忘………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

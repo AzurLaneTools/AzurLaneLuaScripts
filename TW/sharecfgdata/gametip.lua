@@ -9670,7 +9670,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "烏爾里希·馮·胡騰、阿達爾貝特親王、易北 建造機率UP！"
+	tip = "喀琅施塔得、窩瓦、阿爾漢格爾斯克 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11342,6 +11342,10 @@ _G.pg.base.gametip.limit_skin_time_min = {
 
 _G.pg.base.gametip.limit_skin_time_overtime = {
 	tip = "已到期"
+}
+
+_G.pg.base.gametip.limit_skin_time_before_maintenance = {
+	tip = "$1月$2日維護前"
 }
 
 _G.pg.base.gametip.award_window_pt_title = {
@@ -16104,6 +16108,10 @@ _G.pg.base.gametip.autofight_tip_bigworld_stop = {
 
 _G.pg.base.gametip.autofight_tip_bigworld_suspend = {
 	tip = "當前所選艦隊視野內無可自律事件，無法繼續自律尋敵"
+}
+
+_G.pg.base.gametip.autofight_tip_bigworld_loop = {
+	tip = "因目標點無法抵達，自律尋敵已終止。"
 }
 
 _G.pg.base.gametip.autofight_farm = {
@@ -21571,4 +21579,12 @@ _G.pg.base.gametip["2023Valentine_minigame_label2"] = {
 
 _G.pg.base.gametip["2023Valentine_minigame_label3"] = {
 	tip = "當前完成："
+}
+
+_G.pg.base.gametip.sort_energy = {
+	tip = "心情值"
+}
+
+_G.pg.base.gametip.dockyard_search_holder = {
+	tip = "搜索角色名"
 }

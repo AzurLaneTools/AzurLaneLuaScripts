@@ -108,7 +108,7 @@ function slot0.Init(slot0)
 	slot5 = slot4 and 1 or 0.85
 	slot0._tf.localScale = Vector3(slot5, slot5, 1)
 	slot0.initPos = slot0.initPos or slot0._tf.localPosition
-	slot0._tf.localPosition = slot0.initPos + Vector3(0, slot4 and 0 or 33, 0)
+	slot0._tf.localPosition = Vector3(slot0._tf.localPosition.x, slot0._tf.localPosition.y + (slot4 and 0 or 33), 0)
 
 	for slot10, slot11 in ipairs(slot0.specailBtns) do
 		if slot11:InShowTime() then

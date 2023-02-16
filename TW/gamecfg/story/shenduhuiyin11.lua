@@ -15,7 +15,7 @@ return {
 			actor = 701090,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼哼！当前深度1900，我终于锁定了一处辐射反应强烈的区域，那里应该就是样本的位置了！",
+			say = "哼哼！當前深度1900，我終於鎖定了一處輻射反應強烈的區域，那裡應該就是樣本的位置了！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "干得漂亮！灵敏，接下来开始回收任务。",
+			say = "幹得漂亮！靈敏，接下來開始回收任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "收到~机械臂正在释放中——",
+			say = "收到~機械臂正在釋放中——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "哇啊！这个设备居然是从鱼雷发射管发射出去的哎，好酷！",
+			say = "哇啊！這個設備居然是從魚雷發射管發射出去的哎，好酷！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "样本回收任务开始，预计十五分钟内完成回收！",
+			say = "樣本回收任務開始，預計十五分鐘內完成回收！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "很好。接下来就是同步任务……",
+			say = "很好。接下來就是同步任務……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "操作手册上说最好有一个人协助。阿尔汉格尔斯克，你会操作科学仪器么？",
+			say = "操作手冊上說最好有一個人協助。阿爾漢格爾斯克，妳會操作科學儀器嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果有详细说明书的话没问题哦，交给我吧。",
+			say = "如果有詳細說明書的話沒問題哦，交給我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "那我就跟阿尔汉格尔斯克一起去科研舱好好研究一下那个“同步装置”了。",
+			say = "那我就跟阿爾漢格爾斯克一起去科研艙好好研究一下那個“同步裝置”了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "在我们执行“同步”任务期间，灵敏负责驾驶，基辅负责警戒，指挥权就暂时交给伏尔加。",
+			say = "在我們執行“同步”任務期間，靈敏負責駕駛，基輔負責警戒，指揮權就暫時交給窩瓦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题，这里就交给我们吧~科研仪器大概都是些十分精密的设备，要小心操作哦。",
+			say = "沒問題，這裡就交給我們吧~科研儀器大概都是些十分精密的設備，要小心操作哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_4",
-			say = "苏丽珂号·科研舱",
+			say = "蘇麗珂號·科研艙",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_4",
-			say = "大量的仪器，巨大的屏幕，无数的按钮，以及充满科技感的座椅，这是苏丽珂号科研舱给人的第一印象。",
+			say = "大量的儀器，巨大的螢幕，無數的按鈕，以及充滿科技感的座椅，這是蘇麗珂號科研艙給人的第一印象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,24 +288,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_4",
-			say = "在阿尔汉格尔斯克的注视下，喀琅施塔得坐上了“同步装置”。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "简直就像某个宇宙飞船的驾驶舱呢。",
+			say = "在阿爾漢格爾斯克的注視下，喀琅施塔得坐上了“同步裝置”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,25 +304,8 @@ return {
 			bgName = "bg_deepecho_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "你是这么觉得的么？我倒是觉得更像某种改良过的审讯室座椅……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "现在坐在上面的可不是我，是你自己哦，还是选个好点的比喻吧。",
+			actorName = "阿爾漢格爾斯克",
+			say = "簡直就像某個宇宙飛船的駕駛艙呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "第一印象这种东西跟理性无关嘛。而且相比宇航员座椅，我觉得审讯室座椅可能还会略微亲近一点点。",
+			say = "妳是這麼覺得的嗎？我倒是覺得更像某種改良過的審訊室座椅……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,59 +338,8 @@ return {
 			bgName = "bg_deepecho_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "诶……你开心就好。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "能给我来杯伏特加么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "……你不会真的想喝吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "任务中禁止饮酒？我要记在航行日志里了哦？",
+			actorName = "阿爾漢格爾斯克",
+			say = "現在坐在上面的可不是我，是妳自己哦，還是選個好點的比喻吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "别别别，我就是想活跃一下气氛而已啊！这个科研舱里的嗡嗡声实在让人静不下来。",
+			say = "第一印象這種東西跟理性無關嘛。而且相比太空人座椅，我覺得審訊室座椅可能還會略微親近一點點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,42 +372,8 @@ return {
 			bgName = "bg_deepecho_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "那我要是说“没问题，这就给你拿一杯来呢？”",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "那就……拿都拿来了，把喝下去这件事本身当成活跃气氛！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "灵敏",
-			say = "喀琅施塔得，样本回收完毕，可以进行下一步操作了！",
+			actorName = "阿爾漢格爾斯克",
+			say = "欸……妳開心就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +390,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "了解~那我也把这个巨大的头盔带上吧，接下来的操作就拜托你了哦。",
+			say = "能給我來杯伏特加嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,8 +406,8 @@ return {
 			bgName = "bg_deepecho_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "没问题。现在开始最终检查————嗯，各模块运行正常，已经检测到样本到位。",
+			actorName = "阿爾漢格爾斯克",
+			say = "……妳不會真的想喝吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,8 +423,127 @@ return {
 			bgName = "bg_deepecho_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "那么3——2——1————————设备启动！",
+			actorName = "阿爾漢格爾斯克",
+			say = "任務中禁止飲酒？我要記在航行日誌裡了哦？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "喀琅施塔得",
+			say = "別別別，我就是想活躍一下氣氛而已啊！這個科研艙裡的嗡嗡聲實在讓人靜不下來。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "阿爾漢格爾斯克",
+			say = "那我要是說“沒問題，這就幫妳拿一杯來呢？”",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "喀琅施塔得",
+			say = "那就……拿都拿來了，把喝下去這件事本身當成活躍氣氛！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "靈敏",
+			say = "喀琅施塔得，樣本回收完畢，可以進行下一步操作了！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "喀琅施塔得",
+			say = "了解~那我也把這個巨大的頭盔帶上吧，接下來的操作就拜託妳了哦。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "阿爾漢格爾斯克",
+			say = "沒問題。現在開始最終檢查————嗯，各模組運行正常，已經檢測到樣本到位。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_4",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "阿爾漢格爾斯克",
+			say = "那麼3——2——1————————設備啟動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

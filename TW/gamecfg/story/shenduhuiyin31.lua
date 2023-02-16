@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方联合·莫斯科",
+			say = "北方聯合·莫斯科",
 			side = 2,
 			bgName = "bg_deepecho_13",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_13",
-			say = "盛大的阅兵式正在进行着。",
+			say = "盛大的閱兵式正在進行著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,55 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_13",
-			say = "地上是坦克与装甲车构成的钢铁洪流，天上则是重型轰炸机群构成的空中长城。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "喀琅施塔得",
-			bgName = "bg_deepecho_13",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "真是一幅壮观的盛景……和我走的时候大不一样了啊。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "苏维埃同盟",
-			bgName = "bg_deepecho_13",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "那是肯定的，在这期间我们一天都没有闲着哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "苏维埃同盟",
-			bgName = "bg_deepecho_13",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "路上还顺利么？",
+			say = "地上是坦克與裝甲車構成的鋼鐵洪流，天上則是重型轟炸機群構成的空中長城。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +65,39 @@ return {
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又是一次豪华车厢中的观光之旅，实在是令人身心舒畅~",
+			say = "真是一幅壯觀的盛景……和我走的時候大不一樣了啊。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "蘇維埃聯盟",
+			bgName = "bg_deepecho_13",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "那是肯定的，在這期間我們一天都沒有閒著哦。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "蘇維埃聯盟",
+			bgName = "bg_deepecho_13",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "路上還順利嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +113,23 @@ return {
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特别是灵敏，在见到防结霜处理的玻璃之后真是开心得不得了……",
+			say = "又是一次豪華車廂中的觀光之旅，實在是令人身心舒暢~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "喀琅施塔得",
+			bgName = "bg_deepecho_13",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "特別是靈敏，在見到防結霜處理的玻璃之後真是開心得不得了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "远处的那个巨大建筑物是……？",
+			say = "遠處的那個巨大建築物是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,11 +173,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "蘇維埃聯盟",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个啊……是向世界展示我们北方联合的强大，象征着我们的团结与不屈的地标，苏维埃宫。",
+			say = "那個啊……是向世界展示我們北方聯合的強大，象徵著我們的團結與不屈的地標，蘇維埃宮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前只是听过这个设计……没想到真的建出来了啊。",
+			say = "之前只是聽過這個設計……沒想到真的建出來了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,11 +205,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "蘇維埃聯盟",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。你不知道的变化还有很多哦。",
+			say = "嗯。妳不知道的變化還有很多哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,11 +221,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "蘇維埃聯盟",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至少一段时间之内，你别想用奇奇怪怪的情报压过我了。",
+			say = "至少一段時間之內，妳別想用奇奇怪怪的情報壓過我了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这还真是……倍感恐怖。",
+			say = "這還真是……倍感恐怖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来的康复训练，看来要很艰苦啊……",
+			say = "接下來的康復訓練，看來要很艱苦啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,11 +269,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "蘇維埃聯盟",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。所以你还要继续加把劲才行，赶紧恢复状态，祖国需要你。",
+			say = "沒錯。所以妳還要繼續加把勁才行，趕緊恢復狀態，祖國需要妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白……随时等候着执行新的任务。",
+			say = "我明白……隨時等候著執行新的任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "蘇維埃聯盟",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -317,11 +317,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃同盟",
+			actorName = "蘇維埃聯盟",
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欢迎回家，同志。",
+			say = "歡迎回家，同志。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让你久等了，苏维埃同盟……",
+			say = "讓妳久等了，蘇維埃聯盟……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "任务顺利结束，我回来了——————",
+			say = "任務順利結束，我回來了——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -32,19 +32,17 @@ function slot0.OnUpdateFlush(slot0)
 		return uv0:getTaskVO(slot0)
 	end)
 
-	table.sort(slot0.taskVOs, function (slot0, slot1)
-		return CompareFuncs(slot0, slot1, {
-			function (slot0)
-				if slot0:isReceive() then
-					return 2
-				elseif slot0:isFinish() then
-					return 0
-				else
-					return 1
-				end
+	table.sort(slot0.taskVOs, CompareFuncs({
+		function (slot0)
+			if slot0:isReceive() then
+				return 2
+			elseif slot0:isFinish() then
+				return 0
+			else
+				return 1
 			end
-		})
-	end)
+		end
+	}))
 	slot0.uiList:align(#slot0.taskVOs)
 end
 

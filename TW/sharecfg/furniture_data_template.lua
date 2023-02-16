@@ -4842,6 +4842,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[221] = {
+		spine_extra = "",
+		describe = "仿照極地要塞製作的紀念碑，從中能感受到一股毫不動搖的堅韌意志。——「深度回音」活動紀念",
+		gain_by = "深度回音",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "maozi3xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "回音紀念碑",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 221,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maozi3xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[222] = {
 		spine_extra = "",
 		describe = "今天起我們結為姐妹purin！——不對，好像本來就是buli？",
@@ -6441,6 +6484,80 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100021] = {
+		belong = 1,
+		describe = "Let's Jump！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		name = "跳跳彈球 ",
+		tag = 6,
+		icon = "doaqiuicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100021,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"doaqiu",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"doaqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		spine_extra = "",
 		describe = "沒錯，盡情地向你的女僕撒嬌吧…“主人”~",
@@ -6688,6 +6805,88 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[200004] = {
+		spine_extra = "",
+		describe = "“寶物就由我優雅地接收了！”",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "逃脫用直升機 ",
+		themeId = 0,
+		icon = "furniture_aerhangeersike_2icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200004,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"furniture_aerhangeersike_2",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"tuozhuai2",
+				{
+					705061
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -94258,6 +94457,7 @@ pg.furniture_data_template = {
 			216,
 			217,
 			218,
+			221,
 			222,
 			233,
 			235,
@@ -94281,9 +94481,11 @@ pg.furniture_data_template = {
 			100018,
 			100019,
 			100020,
+			100021,
 			200001,
 			200002,
 			200003,
+			200004,
 			12002,
 			12102,
 			12103,
@@ -94398,6 +94600,7 @@ pg.furniture_data_template = {
 			216,
 			217,
 			218,
+			221,
 			222,
 			233,
 			235,
@@ -94421,9 +94624,11 @@ pg.furniture_data_template = {
 			100018,
 			100019,
 			100020,
+			100021,
 			200001,
 			200002,
 			200003,
+			200004,
 			12002,
 			12102,
 			12103,
@@ -100179,6 +100384,7 @@ pg.furniture_data_template = {
 			216,
 			217,
 			218,
+			221,
 			222,
 			235,
 			239,
@@ -100200,6 +100406,7 @@ pg.furniture_data_template = {
 			100018,
 			100019,
 			100020,
+			100021,
 			54104,
 			54105
 		},
@@ -100209,6 +100416,7 @@ pg.furniture_data_template = {
 			200001,
 			200002,
 			200003,
+			200004,
 			13101,
 			13126,
 			13127,
@@ -100899,6 +101107,7 @@ pg.furniture_data_template = {
 			216,
 			217,
 			218,
+			221,
 			222,
 			235,
 			236,
@@ -100932,6 +101141,7 @@ pg.furniture_data_template = {
 			200001,
 			200002,
 			200003,
+			200004,
 			1102,
 			1103,
 			1104,
@@ -102285,6 +102495,7 @@ pg.furniture_data_template = {
 			233,
 			100003,
 			100008,
+			100021,
 			30123,
 			35128,
 			37121,
@@ -103007,6 +103218,7 @@ pg.furniture_data_template = {
 		216,
 		217,
 		218,
+		221,
 		222,
 		233,
 		235,
@@ -103030,9 +103242,11 @@ pg.furniture_data_template = {
 		100018,
 		100019,
 		100020,
+		100021,
 		200001,
 		200002,
 		200003,
+		200004,
 		1001,
 		1002,
 		1101,

@@ -3244,6 +3244,48 @@ _G.pg.base.equip_data_statistics[374] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[430] = {
+	tech = 1,
+	name = "喀琅施塔得自带副炮",
+	speciality = "锁定",
+	type = 1,
+	rarity = 1,
+	ammo = 1,
+	damage = "21 x 4",
+	nationality = 7,
+	descrip = "默认装备",
+	id = 430,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		430
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {
+		3,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"CL",
+		"MG",
+		"AP"
+	}
+}
+
 _G.pg.base.equip_data_statistics[431] = {
 	tech = 1,
 	name = "双联装128mmSKC41高平两用炮（奥丁副炮）",
@@ -108658,6 +108700,59 @@ _G.pg.base.equip_data_statistics[76022] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[76031] = {
+	type = 1,
+	name = "全弹发射-前哨级I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 76031,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		76031
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[76032] = {
+	id = 76032,
+	name = "全弹发射-前哨级II",
+	base = 76031,
+	weapon_id = {
+		76032
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[76111] = {
 	type = 1,
 	name = "全弹发射-博加特里级I",
@@ -113158,6 +113253,59 @@ _G.pg.base.equip_data_statistics[79812] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[79821] = {
+	type = 1,
+	name = "专属弹幕-基辅I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 79821,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60771
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79822] = {
+	id = 79822,
+	name = "专属弹幕-基辅II",
+	base = 79821,
+	weapon_id = {
+		60772
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[79831] = {
 	type = 1,
 	name = "專屬彈幕-龐培·馬格諾I",
@@ -116174,10 +116322,10 @@ _G.pg.base.equip_data_statistics[85466] = {
 
 _G.pg.base.equip_data_statistics[85520] = {
 	tech = 0,
-	name = "B-50 三联装305mm主炮Mk-15",
+	name = "B-50 三聯裝305mm主炮Mk-15",
 	speciality = "跨射",
 	type = 11,
-	descrip = "预计由喀琅施塔得级搭载的305mm主炮",
+	descrip = "預計由喀琅施塔得級搭載的305mm主炮",
 	ammo = 1,
 	damage = "60 x 3",
 	nationality = 7,

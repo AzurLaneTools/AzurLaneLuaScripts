@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "极地海域·此刻",
+			say = "極地海域·此刻",
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "深海中，北方联合的水下舰队正在缓缓前进。",
+			say = "深海中，北方聯合的水下艦隊正在緩緩前進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "与以往不同，现在的潜航舰不再是单独出战，而是以满编战斗队列的方式集体出动着。",
+			say = "與以往不同，現在的潛航艦不再是單獨出戰，而是以滿編戰鬥隊列的方式集體出動著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701040,
-			say = "前方区域发现塞壬潜艇……判定类型为III型。",
+			say = "前方區域發現塞壬潛艇……判定類型為III型。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705040,
-			say = "用潜航舰的鱼雷消灭它们！",
+			say = "用潛航艦的魚雷消滅它們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701040,
-			say = "这样。目标锁定，咻——咻——咻————",
+			say = "這樣。目標鎖定，咻——咻——咻————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701040,
-			say = "目标消失，战斗结束。",
+			say = "目標消失，戰鬥結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705040,
-			say = "呼~在数千米的水下准确命中目标，我们的潜航舰也变得十分不得了了啊。",
+			say = "呼~在數千公尺的水下準確命中目標，我們的潛航艦也變得十分不得了了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟已经到第三代了……",
+			say = "畢竟已經到第三代了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果当时她们驾驶的不是苏丽珂号而是现在我们乘坐的这一型……",
+			say = "如果當時她們駕駛的不是蘇麗珂號而是現在我們乘坐的這一型……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705040,
-			say = "此一时彼一时嘛……如果没有验证舰苏丽珂号，我们的潜航舰也不会顺利发展到现在这个程度。",
+			say = "此一時彼一時嘛……如果沒有驗證艦蘇麗珂號，我們的潛航艦也不會順利發展到現在這個程度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "苏丽珂号是潜航舰的先行者，她们是我们的先行者。",
+			say = "蘇麗珂號是潛航艦的先行者，她們是我們的先行者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701040,
-			say = "潜航舰正在接近海底，已经能够看到苏丽珂号的船体了……",
+			say = "潛航艦正在接近海底，已經能夠看到蘇麗珂號的船體了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "开始救援行动，让我们接英雄回家！",
+			say = "開始救援行動，讓我們接英雄回家！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

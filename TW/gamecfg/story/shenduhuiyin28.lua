@@ -10,7 +10,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "在黑色风暴的面前，喀琅施塔得一次又一次的攻击着。",
+			say = "在黑色風暴的面前，喀琅施塔得一次又一次的攻擊著。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "main-ashes-theme",
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "喀琅施塔得的声音越发歇斯底里，似乎每一次主炮齐射都让她破坏的欲望更进一步，",
+			say = "喀琅施塔得的聲音越發歇斯底里，似乎每一次主炮齊射都讓她破壞的慾望更進一步，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "而风暴也如同之前的允诺一样，完全没有还手。",
+			say = "而風暴也如同之前的允諾一樣，完全沒有還手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "……这不是自然的么，风暴究竟要怎么还手啊。",
+			say = "……這不是自然的嗎，風暴究竟要怎麼還手啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "要用武器击败一个风暴的我未免也太好笑了一点……",
+			say = "要用武器擊敗一個風暴的我未免也太好笑了一點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "进攻无法停止。",
+			say = "進攻無法停止。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "大姐姐，这就是你的极限么？我还毫发无损哦。",
+			say = "大姐姐，這就是妳的極限嗎？我還毫髮無損哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 718010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "闭嘴……现在才刚刚开始呢！",
+			say = "閉嘴……現在才剛剛開始呢！",
 			flashN = {
 				color = {
 					1,
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "理智的弦正在断裂，意识正在模糊，只剩下最原始的破坏本能。",
+			say = "理智的弦正在斷裂，意識正在模糊，只剩下最原始的破壞本能。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "喀琅施塔得一次又一次的攻击着，黑色冲击也一次又一次的出现。",
+			say = "喀琅施塔得一次又一次的攻擊著，黑色衝擊也一次又一次的出現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "但对于此刻的喀琅施塔得而言，这样的冲击反而像迎面扑来的春风一般怡人。",
+			say = "但對於此刻的喀琅施塔得而言，這樣的衝擊反而像迎面撲來的春風一般怡人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "仿佛在每一次经历冲击后，炮击的破坏力就又提升了一分。",
+			say = "彷彿在每一次經歷衝擊後，炮擊的破壞力就有提升了一分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 718010,
-			say = "就这样破碎吧，就这样毁灭吧！",
+			say = "就這樣破碎吧，就這樣毀滅吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "恍惚中，喀琅施塔得仿佛看到了少女正站在她的面前。",
+			say = "恍惚中，喀琅施塔得彷彿看到了少女正站在她的面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "她用额头顶着炮管，脸上挂着渗人的微笑。",
+			say = "她用額頭頂著炮管，臉上掛著滲人的微笑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "去死吧…………就在心中完全被负面情感占据的喀琅施塔得即将打出最后一炮的时候。",
+			say = "去死吧…………就在心中完全被負面情感佔據的喀琅施塔得即將打出最後一炮的時候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "光芒，在眼前出现了。",
+			say = "光芒，在眼前出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

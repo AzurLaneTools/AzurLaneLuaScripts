@@ -15,7 +15,7 @@ return {
 			bgm = "theme-dailyfuture",
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "前方的区域禁止入内哦。",
+			say = "前方的區域禁止入內哦。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "就在北方联合众人在地点不明的岛上探索的时候，突然被一个从身旁出现的声音喊住了。",
+			say = "就在北方聯合眾人在地點不明的島上探索的時候，突然被一個從身旁出現的聲音喊住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "停！不要突然发动攻击，万一伤到一般人怎么办。",
+			say = "停！不要突然發動攻擊，萬一傷到一般人怎麼辦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "抱歉，下意识。",
+			say = "抱歉，下意識。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你没受伤吧？",
+			say = "……妳沒受傷吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "嗯，没事哦。是突然向你们搭话的我不对。",
+			say = "嗯，沒事哦。是突然向妳們搭話的我不對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "伴随着话语声，一位少女从旁边的树林中走了出来，然后径直挤入了北方联合众人中。",
+			say = "伴隨著話語聲，一位少女從旁邊的樹林中走了出來，然後徑直擠入了北方聯合眾人中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "不用担心，我不是一般人，就算被刚才的拳头打到也伤不到我啦。",
+			say = "不用擔心，我不是一般人，就算被剛才的拳頭打到也傷不到我啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,8 +173,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "看上去确实是这样……请问你是？这里是什么地方？",
+			actorName = "阿爾漢格爾斯克",
+			say = "看上去確實是這樣……請問妳是？這裡是什麼地方？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,8 +190,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "我是好人理查德，这里是萨默斯岛哦。",
+			actorName = "好人理察",
+			say = "我是好人理察，這裡是薩摩斯島哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,8 +207,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "好人理查德…………没听过的名字。不过听名字有点白鹰的感觉？",
+			actorName = "阿爾漢格爾斯克",
+			say = "好人理察…………沒聽過的名字。不過聽名字有點白鷹的感覺？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,8 +224,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "嗯~我确实是白鹰所属哦，不过现在服务于整个大洋联邦就是了。",
+			actorName = "好人理察",
+			say = "嗯~我確實是白鷹所屬哦，不過現在服務於整個大洋聯邦就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,8 +241,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "萨默斯岛，是爱琴海中的那个萨默斯岛么？",
+			actorName = "阿爾漢格爾斯克",
+			say = "薩摩斯島，是愛琴海中的那個薩摩斯島嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,8 +258,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "不是哦，这里是百慕大海域。",
+			actorName = "好人理察",
+			say = "不是哦，這裡是百慕達海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,8 +275,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "你们看起来什么都不知道呢，偷偷跑过来玩的么？",
+			actorName = "好人理察",
+			say = "妳們看起來什麼都不知道呢，偷偷跑過來玩的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
+			actorName = "阿爾漢格爾斯克",
 			say = "算……是吧。",
 			typewriter = {
 				speed = 0.05,
@@ -309,8 +309,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "我懂我懂，偷偷跑出来玩的感觉很有趣呢。",
+			actorName = "好人理察",
+			say = "我懂我懂，偷偷跑出來玩的感覺很有趣呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,8 +326,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "……你不问问我们是谁么？",
+			actorName = "阿爾漢格爾斯克",
+			say = "……妳不問問我們是誰嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,8 +343,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "这种穿着和打扮，虽然我不知道你们的名字，不过是北方联合的人吧？",
+			actorName = "好人理察",
+			say = "這種穿著和打扮，雖然我不知道妳們的名字，不過是北方聯合的人吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,8 +360,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "而且看你们迷迷糊糊的态度，应该是从不知道哪里被临时抽调过来当这场无聊闹剧的陪衬的吧。",
+			actorName = "好人理察",
+			say = "而且看妳們迷迷糊糊的態度，應該是從不知道哪裡被臨時抽調過來當這場無聊鬧劇的陪襯的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,8 +377,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "从这一点上来说我们是一样的哦。",
+			actorName = "好人理察",
+			say = "從這一點上來說我們是一樣哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,8 +394,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "所以只要你们不引起破坏，我不会举报你们啦。",
+			actorName = "好人理察",
+			say = "所以只要妳們不引起破壞，我不會檢舉妳們啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,25 +411,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "无聊的闹剧是……？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "喀琅施塔得",
-			say = "（嘘……接下来交给我来问。）",
+			actorName = "阿爾漢格爾斯克",
+			say = "無聊的鬧劇是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "咳……刚刚你说前方的区域禁止入内是为什么？",
+			say = "（噓……接下來交給我來問。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,58 +446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "这里不是一座度假岛么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffff4d",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "嗯，是度假岛哦。不过前方的萨默斯海洋鱼类研究所稍微有些危险，在很久之前就被封闭了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffff4d",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "有传言说是因为出过恶性事故，也有传言说是因为饲养了很多恐怖的深海生物……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffff4d",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "不知道真实原因到底是什么样呢~",
+			say = "咳……剛剛妳說前方的區域禁止入內是為什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "那还真是……这样会影响到度假区的观光游客吧。",
+			say = "這裡不是一座度假島嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,8 +479,42 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "完全不会哦？倒不如说慕名而来的人反而变多了。大概直到不久之前，这里还是每天熙熙攘攘人流涌动呢。",
+			actorName = "好人理察",
+			say = "嗯，是度假島哦。不過前方的薩摩斯海洋魚類研究所稍微有些危險，在很久之前就被封閉了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffff4d",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "好人理察",
+			say = "有傳言說是因為出過惡性事故，也有傳言說是因為飼養了很多恐怖的深海生物……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffff4d",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "好人理察",
+			say = "不知道真實原因到底是什麼樣呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "喜欢前往具有危险传说的地方旅游……确实，好像总是会有这样的人。",
+			say = "那還真是……這樣會影響到度假區的觀光遊客吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,25 +547,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "这样的人意外的多哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffff4d",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "不过只要不进去就不会有危险，你们也不要过去就是啦。",
+			actorName = "好人理察",
+			say = "完全不會哦？倒不如說慕名而來的人反而變多了。大概直到不久之前，這裡還是每天熙熙攘攘人流湧動呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +565,41 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "我们明白了，感谢忠告。",
+			say = "喜歡前往具有危險傳說的地方旅遊……確實，好像總是會有這樣的人。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffff4d",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "好人理察",
+			say = "這樣的人意外的多哦。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffff4d",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "好人理察",
+			say = "不過只要不進去就不會有危險，妳們也不要過去就是啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,109 +616,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "好人理查德小姐，你也是偷偷跑出来玩的么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffff4d",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "当然了~不过我比你们来得早，已经差不多打算回去了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffff4d",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "Division13的规章制度比想象中要严格得多，虽然只是暂时的，不过还是感觉习惯不了啊~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffff4d",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "啊，话题稍微有些阴沉了，不适合今天这么美好的天气呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffff4d",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "对了~来拍个照吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#ffff4d",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "好人理查德",
-			say = "今天参观了这么美丽的景色，又遇到了同样偷偷跑出来的各位同伴，让我们把这段快乐记录下来吧~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "阿尔汉格尔斯克",
-			say = "欸……好突然，怎么办喀琅施塔得？",
+			say = "我們明白了，感謝忠告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,41 +633,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "喀琅施塔得",
-			say = "我没意见哦~就拍一张吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "灵敏",
-			say = "好诶，看我摆一个酷酷的表情。基辅也是，笑一个笑一个~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_deepecho_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "基辅",
-			say = "我就是这样的性格，不要勉强我。",
+			say = "好人理察小姐，妳也是偷偷跑出來玩的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,8 +649,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "那么3——2——1——",
+			actorName = "好人理察",
+			say = "當然了~不過我比你們來得早，已經差不多打算回去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,7 +666,160 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
+			actorName = "好人理察",
+			say = "Division13的規章制度比想像中要嚴格得多，雖然只是暫時的，不過還是感覺習慣不了啊~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffff4d",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "好人理察",
+			say = "啊，話題稍微有些陰沉了，不適合今天這麼美好的天氣呢。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffff4d",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "好人理察",
+			say = "對了~來拍個照吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffff4d",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "好人理察",
+			say = "今天參觀了這麼美麗的景色，又遇到了同樣偷偷跑出來的各位同伴，讓我們把這段快樂紀錄下來吧~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "阿爾漢格爾斯克",
+			say = "欸……好突然，怎麼辦喀琅施塔得？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "喀琅施塔得",
+			say = "我沒意見哦~就拍一張吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "靈敏",
+			say = "好欸，看我擺一個酷酷的表情。基輔也是，笑一個笑一個~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "基輔",
+			say = "我就是這樣的性格，不要勉強我。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffff4d",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "好人理察",
+			say = "那麼3——2——1——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#ffff4d",
+			bgName = "bg_deepecho_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "好人理察",
 			say = "要拍照了哦~",
 			typewriter = {
 				speed = 0.05,
@@ -836,7 +836,7 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伏尔加",
+			actorName = "窩瓦",
 			say = "嘿嘿嘿，茄子~!",
 			typewriter = {
 				speed = 0.05,
@@ -848,13 +848,13 @@ return {
 			}
 		},
 		{
-			actorName = "好人理查德",
+			actorName = "好人理察",
 			side = 2,
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "大满足~不过这张照片是绝对不能发到SNS上的那种类型，就由我私藏了~",
+			say = "大滿足~不過這張照片是絕對不能發到SNS上的那種類型，就由我私藏了~",
 			soundeffect = "event:/ui/kuaimen",
 			flashN = {
 				color = {
@@ -893,8 +893,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "……我差不多该回去了，你们有什么计划，继续在这里玩一段时间么？",
+			actorName = "好人理察",
+			say = "……我差不多該回去了，妳們有什麼計劃，繼續在這裡玩一段時間嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,7 +912,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actorName = "喀琅施塔得",
-			say = "嗯，难得来一趟，我们打算多呆一会。",
+			say = "嗯，難得來一趟，我們打算多待一會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,8 +928,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "那就好，尽情享受吧。",
+			actorName = "好人理察",
+			say = "那就好，盡情享受吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -945,8 +945,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "可以的话，就请一直呆在这里，演习海域不去也没关系哦。",
+			actorName = "好人理察",
+			say = "可以的話，就請一直待在這裡，演習海域不去也沒關係哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -962,8 +962,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "就用迷航了之类的借口糊弄过去……",
+			actorName = "好人理察",
+			say = "就用迷航了之類的藉口糊弄過去……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -996,8 +996,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "没事！又是我的自说自话而已，这么要求的话你们也会很难办吧。",
+			actorName = "好人理察",
+			say = "沒事！又是我的自說自話而已，這麼要求的話妳們也會很難辦吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1013,8 +1013,8 @@ return {
 			bgName = "bg_deepecho_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "好人理查德",
-			say = "那么就在此别过了，拜拜~",
+			actorName = "好人理察",
+			say = "那麼就在此別過了，拜拜~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1028,7 +1028,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "在众人的注视下，少女在海面上滑出优雅的曲线，渐渐消失在大家的视野中。",
+			say = "在眾人的注視下，少女在海面上滑出優雅的曲線，漸漸消失在大家的視野中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1045,7 +1045,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你注意到她的拍照设备了么……",
+			say = "妳注意到她的拍照設備了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1062,7 +1062,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯…………科技程度很高，我从没见过类似的型号。",
+			say = "嗯…………科技程度很高，我從沒見過類似的型號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1080,7 +1080,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "还有大洋联邦和Division13也是，净是些没听过的组织名字。",
+			say = "還有大洋聯邦和Division13也是，淨是些沒聽過的組織名字。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1097,7 +1097,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来这里的情况非常不一般啊……",
+			say = "看來這裡的情況非常不一般啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1115,7 +1115,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 707010,
-			say = "不过还真是个可爱的女孩子，感觉被治愈了~",
+			say = "不過還真是個可愛的女孩子，感覺被治癒了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1133,7 +1133,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "治愈系的伏尔加都有这种感觉，我自然也是同感！",
+			say = "治癒系的窩瓦都有這種感覺，我自然也是同感！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1151,7 +1151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701100,
-			say = "嗯，和印象中的白鹰舰船的气场有很大区别，好像阵营的感觉特别弱……我说不太上来。",
+			say = "嗯，和印象中的白鷹艦船的氣場有很大區別，好像陣營的感覺特別弱……我說不太上來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1168,7 +1168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来要去哪里？风景虽好，我们也不能一直观光下去吧。",
+			say = "接下來要去哪裡？風景雖好，我們也不能一直觀光下去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1185,7 +1185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听下来有两个值得在意的点，一个是禁止入内的萨默斯海洋鱼类研究所，另一个是她不希望我们去的演习海域。",
+			say = "聽下來有兩個值得在意的點，一個是禁止入內的薩摩斯海洋魚類研究所，另一個是她不希望我們去的演習海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1203,7 +1203,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "你们想去哪一处？",
+			say = "妳們想去哪一處？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1220,7 +1220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "危险的废弃设施之类的……怎么看都像是当地政府为了旅游业搞出来的噱头吧。",
+			say = "危險的廢棄設施之類的……怎麼看都像是當地政府為了旅遊業搞出來的噱頭吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1238,7 +1238,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "真要危险重要的地方，早就被警卫里三层外三层的围起来了，还要拉起来长长的封锁线！",
+			say = "真要危險重要的地方，早就被警衛裡三層外三層的圍起來了，還要拉起來長長的封鎖線！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1255,7 +1255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要不然我们去演习海域看一下吧？",
+			say = "要不然我們去演習海域看一下吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1274,7 +1274,7 @@ return {
 			actor = 718010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我也感觉演习的部分好像很有趣。那就这么定了，我们出发吧~",
+			say = "我也感覺演習的部分好像很有趣。那就這麼定了，我們出發吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

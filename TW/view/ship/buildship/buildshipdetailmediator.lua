@@ -53,7 +53,6 @@ end
 function slot0.listNotificationInterests(slot0)
 	return {
 		BagProxy.ITEM_UPDATED,
-		BagProxy.ITEM_ADDED,
 		GAME.GET_SHIP_DONE,
 		GAME.SKIP_SHIP_DONE,
 		GAME.BUILD_SHIP_IMMEDIATELY_DONE,
@@ -66,7 +65,7 @@ end
 function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == BagProxy.ITEM_UPDATED or slot2 == BagProxy.ITEM_ADDED then
+	if slot1:getName() == BagProxy.ITEM_UPDATED then
 		slot0.viewComponent:setItems(slot0.bagProxy:getData())
 		slot0.viewComponent:updateItem()
 	elseif slot2 == GAME.GET_SHIP_DONE or slot2 == GAME.SKIP_SHIP_DONE then

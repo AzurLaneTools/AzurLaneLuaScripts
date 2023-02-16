@@ -750,23 +750,21 @@ function slot0.getHigestClearChapterAndMap(slot0)
 end
 
 function slot0.SortRecommendLimitation(slot0)
-	table.sort(slot0, function (slot0, slot1)
-		return CompareFuncs(slot0, slot1, {
-			function (slot0)
-				if type(slot0) == "number" then
-					if slot0 == 0 then
-						return 1
-					else
-						return -slot0
-					end
-				elseif type(slot0) == "string" then
-					return 0
+	table.sort(slot0, CompareFuncs({
+		function (slot0)
+			if type(slot0) == "number" then
+				if slot0 == 0 then
+					return 1
 				else
-					assert(false)
+					return -slot0
 				end
+			elseif type(slot0) == "string" then
+				return 0
+			else
+				assert(false)
 			end
-		})
-	end)
+		end
+	}))
 end
 
 function slot0.eliteFleetRecommend(slot0, slot1, slot2)

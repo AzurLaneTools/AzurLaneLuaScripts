@@ -25,13 +25,7 @@ function slot0.execute(slot0, slot1)
 				getProxy(BagProxy):addItemById(slot2.id, slot5)
 			end
 		else
-			getProxy(BagProxy):addItemById(slot2.id, slot2.count)
-
-			if slot2.extra then
-				for slot8 = 1, slot2.count do
-					slot4:addExtraData(slot2.id, slot2.extra)
-				end
-			end
+			getProxy(BagProxy):addItemById(slot2.id, slot2.count, slot2.extra)
 		end
 	elseif slot2.dropType == DROP_TYPE_EQUIP then
 		assert(pg.equip_data_statistics[slot2.id], "equip_data_statistics" .. slot2.id)

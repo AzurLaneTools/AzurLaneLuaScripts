@@ -1980,6 +1980,8 @@ function slot0.CheckMoveQueue(slot0, slot1)
 		end
 
 		if #slot0.moveQueue == 0 then
+			slot0:ResetLostMoveQueueCount()
+
 			slot0.moveQueueInteractive = true
 		end
 	end
@@ -1997,6 +1999,20 @@ end
 
 function slot0.ReContinueMoveQueue(slot0)
 	slot0.moveQueueInteractive = false
+end
+
+function slot0.CheckLostMoveQueueCount(slot0)
+	slot0.lostMoveQueueCount = defaultValue(slot0.lostMoveQueueCount, 0) + 1
+
+	return WorldConst.AutoFightLoopCountLimit < slot0.lostMoveQueueCount
+end
+
+function slot0.ResetLostMoveQueueCount(slot0, slot1)
+	if slot1 then
+		slot0.inLoopAutoFight = true
+	end
+
+	slot0.lostMoveQueueCount = 0
 end
 
 function slot0.DisplayMoveStopClick(slot0, slot1)

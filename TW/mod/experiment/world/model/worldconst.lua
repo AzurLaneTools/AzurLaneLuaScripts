@@ -38,6 +38,7 @@ slot0.ActionDrag = "tuozhuai"
 slot0.ActionYun = "yun"
 slot0.ActionVanish = "vanish"
 slot0.ActionAppear = "appear"
+slot0.AutoFightLoopCountLimit = 25
 slot0.EnemySize = {
 	1,
 	2,

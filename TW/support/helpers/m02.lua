@@ -2933,6 +2933,18 @@ function skinTimeStamp(slot0)
 	end
 end
 
+function skinCommdityTimeStamp(slot0)
+	if math.floor(math.max(slot0 - pg.TimeMgr.GetInstance():GetServerTime(), 0) / 86400) > 0 then
+		return i18n("time_remaining_tip") .. slot3 .. i18n("word_date")
+	elseif math.floor(slot2 / 3600) > 0 then
+		return i18n("time_remaining_tip") .. slot4 .. i18n("word_hour")
+	elseif math.floor(slot2 / 60) > 0 then
+		return i18n("time_remaining_tip") .. slot5 .. i18n("word_minute")
+	else
+		return i18n("time_remaining_tip") .. slot2 .. i18n("word_second")
+	end
+end
+
 function InstagramTimeStamp(slot0)
 	if (pg.TimeMgr.GetInstance():GetServerTime() - slot0) / 86400 > 1 then
 		return i18n("ins_word_day", math.floor(slot3))
@@ -3429,20 +3441,29 @@ function AfterCheck(slot0, slot1)
 	end
 end
 
-function CompareFuncs(slot0, slot1, slot2, slot3)
-	slot4 = 1
+function CompareFuncs(slot0, slot1)
+	slot2 = {}
 
-	while slot4 <= #slot2 do
-		slot5 = slot2[slot4]
+	function slot3(slot0, slot1)
+		uv0[slot0] = uv0[slot0] or {}
+		uv0[slot0][slot1] = uv0[slot0][slot1] or uv1[slot0](slot1)
 
-		if slot5(slot0) == slot5(slot1) then
-			slot4 = slot4 + 1
-		else
-			return slot6 < slot7
-		end
+		return uv0[slot0][slot1]
 	end
 
-	return tobool(slot3)
+	return function (slot0, slot1)
+		slot2 = 1
+
+		while slot2 <= #uv0 do
+			if uv1(slot2, slot0) == uv1(slot2, slot1) then
+				slot2 = slot2 + 1
+			else
+				return slot3 < slot4
+			end
+		end
+
+		return tobool(uv2)
+	end
 end
 
 function DropResultIntegration(slot0)
@@ -3461,7 +3482,7 @@ function DropResultIntegration(slot0)
 		end
 	end
 
-	slot3 = {
+	table.sort(slot0, CompareFuncs({
 		function (slot0)
 			slot2 = slot0.id
 
@@ -3507,11 +3528,7 @@ function DropResultIntegration(slot0)
 		function (slot0)
 			return slot0.id
 		end
-	}
-
-	table.sort(slot0, function (slot0, slot1)
-		return CompareFuncs(slot0, slot1, uv0)
-	end)
+	}))
 end
 
 function getLoginConfig()

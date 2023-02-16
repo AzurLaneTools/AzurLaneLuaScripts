@@ -444,9 +444,20 @@ pg.activity_event_avatarframe = {
 		id = 41066,
 		pt_id = 59275,
 		icon_frame = 318,
-		link_event = 0,
+		link_event = 41083,
 		target = 2800,
-		start_time = "stop",
+		start_time = {
+			{
+				2023,
+				2,
+				16
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
 		task_level = {
 			{
 				1,
@@ -483,7 +494,7 @@ pg.activity_event_avatarframe = {
 			},
 			{
 				4,
-				40802,
+				70201,
 				3,
 				{
 					1620006,

@@ -77,7 +77,7 @@ return {
 		data = {
 			SCENE.SKINSHOP,
 			{
-				type = SkinShopScene.SHOP_TYPE_TIMELIMIT
+				mode = NewSkinShopScene.MODE_EXPERIENCE
 			}
 		},
 		isShow = function ()

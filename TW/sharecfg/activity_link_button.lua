@@ -3,13 +3,39 @@ pg.activity_link_button = {
 	{
 		param = "0",
 		name = "event_all",
-		time = "stop",
-		text_pic = "text_event_all",
 		type = 3,
-		pic = "event_all",
+		text_pic = "text_event_all",
 		id = 1,
 		group_id = 1,
-		order = 1
+		pic = "event_all",
+		order = 1,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
 		param = "0",
@@ -48,7 +74,7 @@ pg.activity_link_button = {
 				{
 					2023,
 					2,
-					2
+					16
 				},
 				{
 					0,
@@ -59,8 +85,8 @@ pg.activity_link_button = {
 			{
 				{
 					2023,
-					2,
-					16
+					3,
+					2
 				},
 				{
 					23,
@@ -109,39 +135,13 @@ pg.activity_link_button = {
 	[60] = {
 		param = "0",
 		name = "event_LanternFestival",
-		type = 0,
+		time = "stop",
 		text_pic = "",
+		type = 0,
+		pic = "event_LanternFestival",
 		id = 60,
 		group_id = 6,
-		pic = "event_LanternFestival",
-		order = 1,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		order = 1
 	},
 	[70] = {
 		param = "0",
