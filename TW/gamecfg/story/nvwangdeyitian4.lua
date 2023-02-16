@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "调整工作已经全部完成，约定的时间即将到达，剩下就等你来亲自操作了。",
+			say = "调整工作已经全部完成，剩下就等你来亲自操作了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

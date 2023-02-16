@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "立刻让驻扎在南大洋科研基地的舰队过去将圣堂控制下来！",
+			say = "立刻命令安塔迪卡洋舰队将圣堂控制下来！",
 			painting = {
 				alpha = 0.3,
 				time = 1
