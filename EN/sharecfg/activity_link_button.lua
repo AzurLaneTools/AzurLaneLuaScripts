@@ -87,39 +87,13 @@ pg.activity_link_button = {
 	[60] = {
 		param = "0",
 		name = "event_LanternFestival",
-		type = 0,
+		time = "stop",
 		text_pic = "",
+		type = 0,
+		pic = "event_LanternFestival",
 		id = 60,
 		group_id = 6,
-		pic = "event_LanternFestival",
-		order = 1,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		order = 1
 	},
 	[70] = {
 		param = "0",

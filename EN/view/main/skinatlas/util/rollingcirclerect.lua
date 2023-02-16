@@ -45,6 +45,8 @@ function slot0.AddItem(slot0, slot1)
 end
 
 function slot0.ScrollTo(slot0, slot1)
+	Canvas.ForceUpdateCanvases()
+
 	if _.detect(slot0.childs, function (slot0)
 		return slot0:GetID() == uv0
 	end) then
@@ -155,6 +157,8 @@ function slot0.Dispose(slot0)
 	for slot4, slot5 in ipairs(slot0.childs) do
 		slot5:Dispose()
 	end
+
+	ClearEventTrigger(GetOrAddComponent(slot0.parent, "EventTriggerListener"))
 
 	slot0.binder = nil
 	slot0.OnSelected = nil

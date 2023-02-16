@@ -2,7 +2,7 @@ slot0 = class("MainOverDueEquipmentSequence", import(".MainSublayerSequence"))
 
 function slot0.Execute(slot0, slot1)
 	if #getProxy(EquipmentProxy):getTimeLimitShipList() > 0 then
-		slot0:ShowMsgBox(BaseUI.ON_DROP_LIST, {
+		slot0:ShowMsgBox({
 			item2Row = true,
 			itemList = slot2,
 			content = i18n("time_limit_equip_destroy_on_ship"),

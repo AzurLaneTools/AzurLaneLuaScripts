@@ -195,7 +195,6 @@ function slot0.listNotificationInterests(slot0)
 		PlayerProxy.UPDATED,
 		GAME.USE_ITEM_DONE,
 		GAME.DESTROY_EQUIPMENTS_DONE,
-		BagProxy.ITEM_ADDED,
 		BagProxy.ITEM_UPDATED,
 		uv0.BATCHDESTROY_MODE,
 		uv0.SWITCH_TO_SPWEAPON_PAGE,
@@ -273,7 +272,7 @@ function slot0.handleNotification(slot0, slot1)
 				items = slot3
 			})
 		end
-	elseif slot2 == BagProxy.ITEM_ADDED or slot2 == BagProxy.ITEM_UPDATED then
+	elseif slot2 == BagProxy.ITEM_UPDATED then
 		if slot0.canUpdate then
 			slot0.viewComponent:setItems(getProxy(BagProxy):getItemsByExclude())
 		end

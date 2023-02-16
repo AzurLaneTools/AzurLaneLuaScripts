@@ -159,13 +159,11 @@ function slot0.updateGoods(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	table.sort(slot8, function (slot0, slot1)
-		return CompareFuncs(slot0, slot1, {
-			function (slot0)
-				return pg.shop_template[slot0.id].order
-			end
-		})
-	end)
+	table.sort(slot8, CompareFuncs({
+		function (slot0)
+			return pg.shop_template[slot0.id].order
+		end
+	}))
 
 	slot0.goodsList = slot8
 

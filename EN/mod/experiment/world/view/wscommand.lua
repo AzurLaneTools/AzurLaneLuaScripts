@@ -223,24 +223,6 @@ function slot0.OpInteractive(slot0, slot1)
 	slot4 = {}
 
 	table.insert(slot4, function (slot0)
-		if not uv0.isAutoFight and not uv0.isAutoSwitch and uv0:HasAutoFightDrops() then
-			slot1 = {}
-
-			table.insert(slot1, function (slot0)
-				uv0:Op("OpOpenLayer", Context.New({
-					mediator = WorldAutoFightRewardMediator,
-					viewComponent = WorldAutoFightRewardLayer,
-					onRemoved = slot0
-				}))
-			end)
-			seriesAsync(slot1, function ()
-				uv0:Op("OpInteractive")
-			end)
-		else
-			slot0()
-		end
-	end)
-	table.insert(slot4, function (slot0)
 		if uv0:GetTaskProxy():getAutoSubmitTaskVO() then
 			uv1:Op("OpAutoSubmitTask", slot1)
 		else
@@ -405,6 +387,31 @@ function slot0.OpInteractive(slot0, slot1)
 			slot0()
 		end
 	end)
+	table.insert(slot4, function (slot0)
+		if master.inLoopAutoFight then
+			master.inLoopAutoFight = false
+
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideNo = true,
+				content = i18n("autofight_tip_bigworld_loop"),
+				onYes = slot0,
+				onNo = slot0
+			})
+		else
+			slot0()
+		end
+	end)
+	table.insert(slot4, function (slot0)
+		if not uv0.isAutoFight and not uv0.isAutoSwitch and uv0:HasAutoFightDrops() then
+			uv1:Op("OpOpenLayer", Context.New({
+				mediator = WorldAutoFightRewardMediator,
+				viewComponent = WorldAutoFightRewardLayer,
+				onRemoved = slot0
+			}))
+		else
+			slot0()
+		end
+	end)
 	seriesAsync(slot4, function ()
 		uv0:Op("OpReqDiscover")
 	end)
@@ -485,6 +492,10 @@ function slot0.OpReadyToMove(slot0)
 	if nowWorld().isAutoFight then
 		if #master.moveQueue > 0 then
 			master:DoQueueMove(slot3)
+		elseif master:CheckLostMoveQueueCount() then
+			master:ResetLostMoveQueueCount(true)
+			slot4:TriggerAutoFight(false)
+			slot0:Op("OpInteractive")
 		else
 			slot0:Op("OpAutoFightSeach")
 		end
@@ -2335,16 +2346,16 @@ function slot0.OpAutoSwitchMap(slot0, slot1)
 		[WorldSwitchPlanningLayer.MODE_DIFFICULT] = function ()
 			slot0 = underscore.values(uv0.entranceDic)
 
-			table.sort(slot0, function (slot0, slot1)
-				return CompareFuncs(slot0, slot1, {
-					function (slot0)
-						return slot0:GetBaseMap():GetDanger()
-					end,
-					function (slot0)
-						return slot0.id
-					end
-				})
-			end)
+			function slot5(slot0)
+				return slot0.id
+			end
+
+			table.sort(slot0, CompareFuncs({
+				function (slot0)
+					return slot0:GetBaseMap():GetDanger()
+				end,
+				slot5
+			}))
 
 			slot1 = PlayerPrefs.GetString("auto_switch_difficult_base", "all")
 
@@ -2421,16 +2432,16 @@ function slot0.OpAutoSwitchMap(slot0, slot1)
 				}
 			end)
 
-			table.sort(slot1, function (slot0, slot1)
-				return CompareFuncs(slot0, slot1, {
-					function (slot0)
-						return slot0[1]:GetDanger()
-					end,
-					function (slot0)
-						return slot0[1].id
-					end
-				})
-			end)
+			function slot6(slot0)
+				return slot0[1].id
+			end
+
+			table.sort(slot1, CompareFuncs({
+				function (slot0)
+					return slot0[1]:GetDanger()
+				end,
+				slot6
+			}))
 
 			slot2 = PlayerPrefs.GetString("auto_switch_difficult_treasure", "all")
 

@@ -510,4 +510,15 @@ function slot0.updateIntimacy(slot0, slot1)
 	slot0:updateNpcTfPosY()
 end
 
+function slot0.updateIntimacyEnergy(slot0, slot1)
+	slot2 = slot0.tr:Find("content/energy")
+
+	setActive(slot0.tr:Find("content/energy"), slot0.shipVO and slot1)
+
+	if slot1 and tobool(slot3) then
+		setImageSprite(slot2:Find("icon/img"), GetSpriteFromAtlas("energy", slot3:getEnergyPrint()), true)
+		setText(slot2:Find("Text"), slot3:getEnergy())
+	end
+end
+
 return slot0

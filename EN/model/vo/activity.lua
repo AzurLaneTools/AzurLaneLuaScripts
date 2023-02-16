@@ -300,7 +300,7 @@ function slot0.readyToAchieve(slot0)
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_MINIGAME then
 			slot2 = getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")).count > 0
 
-			if slot0:getConfig("id") ~= 4637 and slot0:getConfig("id") ~= 4685 then
+			if slot0:getConfig("id") ~= ActivityConst.ACTIVITY_STACK_ID and slot0:getConfig("id") ~= ActivityConst.ACTIVITY_QET_ID then
 				slot2 = slot2 or slot4:getConfig("reward_need") <= slot4.usedtime and slot4.ultimate == 0
 			end
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_TURNTABLE then

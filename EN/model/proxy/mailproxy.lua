@@ -20,6 +20,12 @@ function slot0.register(slot0)
 	end)
 end
 
+function slot0.resetData(slot0)
+	slot0.data = {}
+	slot0.init = false
+	slot0.dirty = false
+end
+
 function slot0.addMail(slot0, slot1)
 	assert(isa(slot1, Mail), "should be an instance of Mail")
 	assert(slot0.data[slot1.id] == nil, "mail already exist")

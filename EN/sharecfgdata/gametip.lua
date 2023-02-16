@@ -11967,6 +11967,10 @@ _G.pg.base.gametip.limit_skin_time_overtime = {
 	tip = "Your rental period for this skin has concluded."
 }
 
+_G.pg.base.gametip.limit_skin_time_before_maintenance = {
+	tip = "Until $1/$2 Maint"
+}
+
 _G.pg.base.gametip.award_window_pt_title = {
 	tip = "Returnee points:"
 }
@@ -16877,6 +16881,10 @@ _G.pg.base.gametip.autofight_tip_bigworld_stop = {
 
 _G.pg.base.gametip.autofight_tip_bigworld_suspend = {
 	tip = "Auto Search has been disabled because there are no more visible exploration targets."
+}
+
+_G.pg.base.gametip.autofight_tip_bigworld_loop = {
+	tip = "Unable to reach destination; Auto-Search has been disabled."
 }
 
 _G.pg.base.gametip.autofight_farm = {
@@ -23277,4 +23285,32 @@ _G.pg.base.gametip["2023Valentine_minigame_label2"] = {
 
 _G.pg.base.gametip["2023Valentine_minigame_label3"] = {
 	tip = "Chocolates:"
+}
+
+_G.pg.base.gametip.sort_energy = {
+	tip = "Morale"
+}
+
+_G.pg.base.gametip.dockyard_search_holder = {
+	tip = "Search by name"
+}
+
+_G.pg.base.gametip.loveletter_exchange_tip1 = {
+	tip = "No mail matches the requirement, please contact customer service."
+}
+
+_G.pg.base.gametip.loveletter_exchange_tip2 = {
+	tip = "Please retry after collecting the Valentine's gift."
+}
+
+_G.pg.base.gametip.loveletter_exchange_confirm = {
+	tip = "Would you like to exchange the Valentine's letter and present from <color=#ff5c5c>Akashi</color>\nand replace them with a letter and present from <color=#92fc63>Sheffield META</color>? (Items will be sent to your Inbox)."
+}
+
+_G.pg.base.gametip.loveletter_exchange_button = {
+	tip = "Replace"
+}
+
+_G.pg.base.gametip.loveletter_exchange_tip3 = {
+	tip = "Replacement successful. Please check your Inbox to receive your new items."
 }

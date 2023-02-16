@@ -393,13 +393,11 @@ function slot0.OnTimer(slot0, slot1)
 		slot6.time = slot6.time - slot1
 	end
 
-	table.sort(slot0.timeQueue, function (slot0, slot1)
-		return CompareFuncs(slot0, slot1, {
-			function (slot0)
-				return -slot0.time
-			end
-		})
-	end)
+	table.sort(slot0.timeQueue, CompareFuncs({
+		function (slot0)
+			return -slot0.time
+		end
+	}))
 
 	while #slot0.timeQueue > 0 and slot0.timeQueue[#slot0.timeQueue].time <= 0 do
 		table.remove(slot0.timeQueue).func()
@@ -778,16 +776,14 @@ function slot0.GetTeleportTargetPos(slot0, slot1, slot2)
 		})
 	end
 
-	table.sort(slot5, function (slot0, slot1)
-		return CompareFuncs(slot0, slot1, {
-			function (slot0)
-				return math.abs(slot0.value - uv0)
-			end,
-			function (slot0)
-				return slot0.mDis
-			end
-		})
-	end)
+	table.sort(slot5, CompareFuncs({
+		function (slot0)
+			return math.abs(slot0.value - uv0)
+		end,
+		function (slot0)
+			return slot0.mDis
+		end
+	}))
 
 	return slot5[1].pos
 end

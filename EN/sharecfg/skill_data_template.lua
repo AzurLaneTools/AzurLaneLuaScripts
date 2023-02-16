@@ -9464,6 +9464,20 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[60330] = {
+		desc_get = "",
+		name = "Her Majesty's Top-Secret Itinerary",
+		id = 60330,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by Queen Elizabeth: she enters Rest Mode, recovering 3.0% of her max HP when she fires her Main Guns. When equipped by any other Royal Navy ship: with every odd-numbered volley Queen Elizabeth fires, she enters Work Mode, increasing all your Royal Navy ships' DMG dealt by 8.0% for 8s; after this effect ends, Queen Elizabeth enters Rest Mode.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -103836,6 +103850,20 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[902170] = {
+		desc_get = "",
+		name = "Sky-Sundering Maya",
+		id = 902170,
+		type = 3,
+		max_level = 1,
+		desc = "Increases this ship's Anti-Air Gun slot efficiency by 10.0% and grants her a special Anti-Air Gun during battle.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[1010140] = {
 		desc_get = "",
 		name = "Eagle's Tears+",
@@ -106145,6 +106173,112 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 			}
 		}
 	},
+	[1010600] = {
+		desc_get = "",
+		name = "Myriad Nights: Trayastrimsa+",
+		id = 1010600,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's AA by $2 and RLD by $1. Changes this ship's Torpedo Spread Angle and, when this ship fires her torpedoes: $2 chance to fire another wave of torpedoes and increase this ship's EVA by 15.0% for 6s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"35.0%"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+2.2%"
+				},
+				{
+					"17.2%",
+					"+2.2%"
+				},
+				{
+					"19.4%",
+					"+2.2%"
+				},
+				{
+					"21.6%",
+					"+2.2%"
+				},
+				{
+					"23.8%",
+					"+2.2%"
+				},
+				{
+					"26.0%",
+					"+2.2%"
+				},
+				{
+					"28.2%",
+					"+2.2%"
+				},
+				{
+					"30.4%",
+					"+2.2%"
+				},
+				{
+					"32.6%",
+					"+2.4%"
+				},
+				{
+					"35.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.5%"
+				},
+				{
+					"55.5%",
+					"+5.5%"
+				},
+				{
+					"61%",
+					"+5.5%"
+				},
+				{
+					"66.5%",
+					"+5.5%"
+				},
+				{
+					"72.0%",
+					"+5.5%"
+				},
+				{
+					"77.5%",
+					"+5.5%"
+				},
+				{
+					"83.0%",
+					"+5.5%"
+				},
+				{
+					"88.5%",
+					"+5.5%"
+				},
+				{
+					"94.0%",
+					"+6.0%"
+				},
+				{
+					"100.0%"
+				}
+			}
+		}
+	},
 	[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -106945,6 +107079,103 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 			}
 		}
 	},
+	[1090070] = {
+		desc_get = "",
+		name = "Artillery Command - Sims",
+		id = 1090070,
+		type = 3,
+		max_level = 10,
+		desc = "Increases your DDs' FP by $1 (does not stack with other \"Artillery Command\" skills.) Every 10s: fires a $2 special barrage; enemies hit by this barrage take 15.0% more cannon DMG from your DDs for 5s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -107242,6 +107473,7 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 		60300,
 		60310,
 		60320,
+		60330,
 		7000,
 		9010,
 		9020,
@@ -108666,6 +108898,7 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 		902140,
 		902150,
 		902160,
+		902170,
 		1010140,
 		1010390,
 		1010410,
@@ -108685,11 +108918,13 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 		1011670,
 		1011900,
 		1011500,
+		1010600,
 		1090010,
 		1090020,
 		1090030,
 		1090040,
 		1090050,
-		1090060
+		1090060,
+		1090070
 	}
 }

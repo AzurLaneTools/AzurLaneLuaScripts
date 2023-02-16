@@ -30984,12 +30984,310 @@ _G.pg.base.task_data_template[5847] = {
 	}
 }
 
+_G.pg.base.task_data_template[5851] = {
+	name = "A Morning Unlike Any Other",
+	guild_coin_award = 0,
+	award = 5611,
+	type = 5,
+	desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed).",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "xiyatu",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "50003",
+	next_task = "5852",
+	auto_commit = 0,
+	story_id = "XIYATU1",
+	id = 5851,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5852] = {
+	name = "Operation Extravaganza",
+	guild_coin_award = 0,
+	award = 5612,
+	type = 5,
+	desc = "Enhance ships 10 times.",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "xiyatu",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "XIYATU2",
+	target_id = "0",
+	next_task = "5853",
+	auto_commit = 0,
+	scene = "",
+	id = 5852,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5853] = {
+	name = "Setting the Mood",
+	guild_coin_award = 0,
+	award = 5613,
+	type = 5,
+	desc = "Sortie and obtain 20 victories with Seattle in the fleet.",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "xiyatu",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "XIYATU3",
+	target_id = "19901",
+	next_task = "5854",
+	auto_commit = 0,
+	scene = "",
+	id = 5853,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5854] = {
+	name = "Setting the Table",
+	guild_coin_award = 0,
+	award = 5614,
+	type = 5,
+	desc = "Complete 3 Daily Challenges with Seattle in the fleet.",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "xiyatu",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "XIYATU4",
+	target_id = "19901",
+	next_task = "5855",
+	auto_commit = 0,
+	scene = "",
+	id = 5854,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5855] = {
+	name = "Setting the Scene",
+	guild_coin_award = 0,
+	award = 5615,
+	type = 5,
+	desc = "Reach 100 Affinity with Seattle.",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "xiyatu",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "XIYATU5",
+	target_id = "19901",
+	next_task = "5856",
+	auto_commit = 0,
+	scene = "",
+	id = 5855,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16012,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5856] = {
+	name = "It's Party Time!",
+	guild_coin_award = 0,
+	award = 5616,
+	type = 5,
+	desc = "Fully Limit Break Seattle.",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "xiyatu",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "XIYATU6",
+	target_id = "19901",
+	next_task = "5857",
+	auto_commit = 0,
+	scene = "",
+	id = 5856,
+	target_num = 6,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5857] = {
+	name = "A Morning Like Any Other",
+	guild_coin_award = 0,
+	award = 5617,
+	type = 5,
+	desc = "Get Seattle to Level 100.",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "xiyatu",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "XIYATU7",
+	target_id = "19901",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5857,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18013,
+			1
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
-	name = "Offshore Exercises - Hard",
+	name = "",
 	guild_coin_award = 0,
 	award = 6001,
 	type = 2,
-	desc = "Get 3 stars on Hard mode in stage 1-1.",
+	desc = "Complete Hard Mode Stage 1-1 with 3 stars.",
 	count_inherit = 0,
 	sub_type = 1021,
 	target_id_2 = "",
@@ -188453,6 +188751,542 @@ _G.pg.base.task_data_template[18339] = {
 		{
 			7,
 			302041,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18350] = {
+	name = "『英系UR』前哨战七日任务1",
+	guild_coin_award = 0,
+	award = 99150,
+	type = 26,
+	desc = "Sortie and obtain 10 victories with S-rating.",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18350,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18351] = {
+	name = "『英系UR』前哨战七日任务2",
+	guild_coin_award = 0,
+	award = 99151,
+	type = 26,
+	desc = "Log in once.",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18351,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18352] = {
+	name = "『英系UR』前哨战七日任务3",
+	guild_coin_award = 0,
+	award = 99152,
+	type = 26,
+	desc = "Conduct 2 exercises.",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18352,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18353] = {
+	name = "『英系UR』前哨战七日任务4",
+	guild_coin_award = 0,
+	award = 99153,
+	type = 26,
+	desc = "Complete 2 commissions.",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18353,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18354] = {
+	name = "『英系UR』前哨战七日任务5",
+	guild_coin_award = 0,
+	award = 99154,
+	type = 26,
+	desc = "Retire 2 ships.",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18354,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18355] = {
+	name = "『英系UR』前哨战七日任务6",
+	guild_coin_award = 0,
+	award = 99155,
+	type = 26,
+	desc = "Complete 3 Daily Challenges.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18355,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18356] = {
+	name = "『英系UR』前哨战七日任务7",
+	guild_coin_award = 0,
+	award = 99156,
+	type = 26,
+	desc = "Enhance ship 5 times.",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18356,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18357] = {
+	name = "『英系UR』前哨战七日任务8",
+	guild_coin_award = 0,
+	award = 99157,
+	type = 26,
+	desc = "Conduct tactical training 2 times.",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18357,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18358] = {
+	name = "『英系UR』前哨战七日任务9",
+	guild_coin_award = 0,
+	award = 99158,
+	type = 26,
+	desc = "Defeat 20 enemies.",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18358,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18359] = {
+	name = "『英系UR』前哨战七日任务10",
+	guild_coin_award = 0,
+	award = 99159,
+	type = 26,
+	desc = "Restock snacks in your dorm 5 times.",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18359,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18360] = {
+	name = "『英系UR』前哨战七日任务11",
+	guild_coin_award = 0,
+	award = 99160,
+	type = 26,
+	desc = "Build 2 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18360,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18361] = {
+	name = "『英系UR』前哨战七日任务12",
+	guild_coin_award = 0,
+	award = 99161,
+	type = 26,
+	desc = "Open 1 Tech Box.",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18361,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18362] = {
+	name = "『英系UR』前哨战七日任务13",
+	guild_coin_award = 0,
+	award = 99162,
+	type = 26,
+	desc = "Conduct tactical training 2 times.",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18362,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18363] = {
+	name = "『英系UR』前哨战七日任务14",
+	guild_coin_award = 0,
+	award = 99163,
+	type = 26,
+	desc = "Sortie and defeat 3 Boss Fleets.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18363,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			3,
+			3860,
 			1
 		}
 	},

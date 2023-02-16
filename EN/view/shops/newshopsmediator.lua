@@ -163,7 +163,6 @@ function slot0.listNotificationInterests(slot0)
 		ShopsProxy.MERITOROUS_SHOP_UPDATED,
 		ShopsProxy.SHAM_SHOP_UPDATED,
 		GAME.SHAM_SHOPPING_DONE,
-		BagProxy.ITEM_ADDED,
 		BagProxy.ITEM_UPDATED,
 		GAME.FRAG_SHOPPING_DONE,
 		ShopsProxy.FRAGMENT_SHOP_UPDATED,
@@ -218,7 +217,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.SHAM_SHOPPING_DONE then
 		slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_SHAM_SHOP, getProxy(ShopsProxy):getShamShop(), slot3.id)
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
-	elseif slot2 == BagProxy.ITEM_UPDATED or slot2 == BagProxy.ITEM_ADDED then
+	elseif slot2 == BagProxy.ITEM_UPDATED then
 		slot0.viewComponent:UpdateItems(getProxy(BagProxy):getRawData())
 	elseif slot2 == GAME.FRAG_SHOPPING_DONE then
 		slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_FRAGMENT, getProxy(ShopsProxy):getFragmentShop(), slot3.id)

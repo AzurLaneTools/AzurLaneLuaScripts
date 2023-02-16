@@ -704,6 +704,14 @@ pg.skill_data_display = {
 		id = 60270,
 		name = "Glorious Melody"
 	},
+	[60334] = {
+		id = 60334,
+		name = "Rest Mode"
+	},
+	[60335] = {
+		id = 60335,
+		name = "Work Mode"
+	},
 	[7000] = {
 		id = 7000,
 		name = "Rhine Drill"
@@ -9448,6 +9456,10 @@ pg.skill_data_display = {
 		id = 1090050,
 		name = "Full Firepower - Nagara"
 	},
+	[1090071] = {
+		id = 1090071,
+		name = "Artillery Command - Sims"
+	},
 	all = {
 		4,
 		10,
@@ -9625,6 +9637,8 @@ pg.skill_data_display = {
 		60250,
 		60260,
 		60270,
+		60334,
+		60335,
 		7000,
 		7500,
 		8521,
@@ -11810,6 +11824,7 @@ pg.skill_data_display = {
 		1090042,
 		1090043,
 		1090044,
-		1090050
+		1090050,
+		1090071
 	}
 }

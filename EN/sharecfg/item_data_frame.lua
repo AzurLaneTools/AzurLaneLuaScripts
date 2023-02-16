@@ -378,6 +378,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"Space and time intertwine amidst spinning rings, and destiny converges within the pillar of light.\"</color>\nObtained from the \"Parallel Superimposition\" event.",
 		scene = {}
 	},
+	[324] = {
+		time_limit_type = 0,
+		name = "Seal of Divine Refulgence",
+		gain_by = "",
+		id = 324,
+		time_second = 0,
+		desc = "Obtained from a limited event.",
+		scene = {}
+	},
 	[406] = {
 		time_limit_type = 0,
 		name = "Hall of Fame: Laffey ",
@@ -466,6 +475,7 @@ pg.item_data_frame = {
 		321,
 		322,
 		323,
+		324,
 		406,
 		411,
 		412,
