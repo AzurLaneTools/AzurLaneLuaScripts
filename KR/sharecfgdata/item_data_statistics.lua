@@ -178890,6 +178890,90 @@ _G.pg.base.item_data_statistics[59375] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59376] = {
+	display = "아이콘 테두리 이벤트에서 교환 가능. 이벤트 종료 후 사라짐.",
+	name = "훈련PT",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59376,
+	is_world = 0,
+	icon = "Props/xunliandianshu_mv2",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59377] = {
+	display = "「새벽녘에 비치는 빙화」 복각 이벤트 교환용. 이벤트 종료 후 사라짐",
+	name = "미지 결정",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59377,
+	is_world = 0,
+	icon = "Props/beilian2_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59378] = {
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59378,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59379] = {
+	display = "「새벽녘에 비치는 빙화」 한정 복각 이벤트에서 획득. 한정 건조 무료 1회 진행 가능(이벤트 종료 후 사라짐)",
+	name = "1회 건조권",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 4631,
+	id = 59379,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59380] = {
 	display = "「겨울날의 길잡이」에 참여해 획득한 포인트. 일정 수량 누적 시 보상 수령 가능",
 	name = "공헌도",

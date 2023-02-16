@@ -3,13 +3,16 @@ pg.activity_link_button = {
 	{
 		param = "0",
 		name = "event_all",
-		time = "stop",
-		text_pic = "text_event_all",
 		type = 3,
-		pic = "event_all",
+		text_pic = "",
 		id = 1,
 		group_id = 1,
-		order = 1
+		pic = "event_all",
+		order = 1,
+		time = {
+			"default",
+			4626
+		}
 	},
 	{
 		param = "0",
@@ -37,7 +40,7 @@ pg.activity_link_button = {
 		param = "0",
 		name = "event_map",
 		type = 0,
-		text_pic = "text_event_map",
+		text_pic = "",
 		id = 10,
 		group_id = 2,
 		pic = "event_map",
@@ -111,7 +114,7 @@ pg.activity_link_button = {
 				{
 					2023,
 					2,
-					16
+					15
 				},
 				{
 					23,

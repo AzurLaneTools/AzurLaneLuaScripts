@@ -185,6 +185,7 @@ HandleGuildAndPublicGuildTechCommand = import("controller.command.guild.public.H
 PublicGuildCommitDonateCommand = import("controller.command.guild.public.PublicGuildCommitDonateCommand")
 PublicGuildUpgradeTechCommand = import("controller.command.guild.public.PublicGuildUpgradeTechCommand")
 ComposeItemCommand = import("controller.command.item.ComposeItemCommand")
+ExchangeLoveLetterItem = import("controller.command.item.ExchangeLoveLetterItem")
 QuickExchangeBlueprintCommand = import("controller.command.item.QuickExchangeBlueprintCommand")
 UseAddShipExpCommand = import("controller.command.item.UseAddShipExpCommand")
 UseFudaiItemCommand = import("controller.command.item.UseFudaiItemCommand")

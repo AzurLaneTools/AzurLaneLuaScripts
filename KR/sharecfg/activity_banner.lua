@@ -1,88 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		param = "4626",
 		id = 1,
-		pic = "temp5",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2023,
-					2,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 2,
-		pic = "temp6",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					2,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4685",
-		id = 3,
-		pic = "temp3",
+		pic = "temp1",
 		type = 3,
 		time = {
 			{
 				{
 					2023,
 					2,
-					9
+					16
 				},
 				{
 					0,
@@ -105,94 +33,168 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4669",
-		time = "stop",
-		type = 3,
+		id = 2,
+		pic = "temp3",
+		type = 2,
+		param = {
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					2,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 3,
+		pic = "temp4",
+		type = 2,
+		param = {
+			"scene skinshop"
+		},
+		time = {
+			{
+				{
+					2023,
+					2,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		id = 4,
-		pic = "temp4"
-	},
-	{
-		param = "4683",
-		id = 5,
-		pic = "temp1",
-		type = 3,
-		time = {
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "7009",
-		id = 6,
-		pic = "temp2",
-		type = 3,
-		time = {
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 7,
-		pic = "temp7",
+		pic = "temp5",
 		time = "stop",
 		type = 2,
 		param = {
+			"scene skinshop"
+		}
+	},
+	{
+		param = "4683",
+		time = "stop",
+		type = 3,
+		id = 5,
+		pic = "temp6"
+	},
+	{
+		param = "7009",
+		time = "stop",
+		type = 3,
+		id = 6,
+		pic = "temp2"
+	},
+	{
+		id = 7,
+		pic = "temp8",
+		type = 2,
+		param = {
 			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2023,
+					2,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
 		id = 8,
-		pic = "temp8",
-		time = "stop",
+		pic = "temp7",
 		type = 2,
 		param = {
-			"scene shop",
+			"scene charge",
 			{
-				warp = "shopstreet"
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					2,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -206,7 +208,7 @@ pg.activity_banner = {
 				{
 					2023,
 					2,
-					9
+					16
 				},
 				{
 					0,
@@ -244,10 +246,35 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
-		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		type = 12,
+		time = {
+			{
+				{
+					2023,
+					2,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					2,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
 		param = "만두|모두가 좋아하는 전통 음식! <color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
@@ -271,17 +298,17 @@ pg.activity_banner = {
 		pic = "winter"
 	},
 	get_id_list_by_type = {
-		[2] = {
-			1,
-			2,
-			7,
-			8
-		},
 		[3] = {
-			3,
-			4,
+			1,
 			5,
 			6
+		},
+		[2] = {
+			2,
+			3,
+			4,
+			7,
+			8
 		},
 		[9] = {
 			90,

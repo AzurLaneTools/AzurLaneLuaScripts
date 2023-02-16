@@ -20,24 +20,25 @@ function slot0.init(slot0)
 	slot0.iconType = slot0:findTF("window/item/display_panel/name_container/shiptype"):GetComponent(typeof(Image))
 	slot0.count = slot0:findTF("window/item/display_panel/icon_bg/count")
 	slot0.shipIcon = slot0:findTF("window/item/display_panel/icon_bg/icon/icon")
+	slot0.btnContent = slot0:findTF("window/actions")
 	slot0.okBtn = slot0:findTF("window/actions/ok_button")
+
+	setText(slot0.okBtn:Find("pic"), i18n("msgbox_text_confirm"))
+
 	slot0.useBtn = slot0:findTF("window/actions/use_button")
 	slot0.batchUseBtn = slot0:findTF("window/actions/batch_use_button")
 	slot0.useOneBtn = slot0:findTF("window/actions/use_one_button")
 	slot0.composeBtn = slot0:findTF("window/actions/compose_button")
 	slot0.resolveBtn = slot0:findTF("window/actions/resolve_button")
+
+	setText(slot0.resolveBtn:Find("pic"), i18n("msgbox_text_analyse"))
+
+	slot0.loveRepairBtn = slot0.btnContent:Find("love_lettle_repair_button")
+
+	setText(slot0.loveRepairBtn:Find("pic"), i18n("loveletter_exchange_button"))
+
 	slot0.itemTF = slot0:findTF("window/item")
 	slot0.stars = slot0.itemTF:Find("icon_bg/stars")
-
-	setText(slot0.okBtn:Find("pic"), i18n("msgbox_text_confirm"))
-	setText(slot0.resolveBtn:Find("pic"), i18n("msgbox_text_analyse"))
-	SetActive(slot0.batchUseBtn, false)
-	SetActive(slot0.useBtn, false)
-	setActive(slot0.okBtn, true)
-	setActive(slot0.composeBtn, false)
-	setActive(slot0.resolveBtn, false)
-	setActive(slot0.useOneBtn, false)
-
 	slot0.window = slot0:findTF("window")
 	slot0.top = slot0:findTF("window/top")
 	slot0.operatePanel = slot0:findTF("operate")
@@ -125,12 +126,9 @@ function slot0.setItem(slot0, slot1)
 	slot0.itemVO = slot1
 
 	slot0:setItemInfo(slot1, slot0.itemTF)
-	setActive(slot0.okBtn, false)
-	setActive(slot0.useBtn, false)
-	setActive(slot0.batchUseBtn, false)
-	setActive(slot0.composeBtn, false)
-	setActive(slot0.resolveBtn, false)
-	setActive(slot0.useOneBtn, false)
+	eachChild(slot0.btnContent, function (slot0)
+		setActive(slot0, false)
+	end)
 
 	slot2 = true
 
@@ -175,17 +173,22 @@ function slot0.setItem(slot0, slot1)
 			setActive(slot0.resolveBtn, true)
 			slot0:UpdateSpeedUpResolveNum()
 			slot0:setItemInfo(slot1, slot0:findTF("item", slot0.operatePanel))
+		elseif slot4 == Item.LOVE_LETTER_TYPE then
+			setActive(slot0.loveRepairBtn, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOVE_LETTER) and not slot5:isEnd() and slot5.data1 > 0 and slot1.extra == 31201)
+			onButton(slot0, slot0.loveRepairBtn, function ()
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = HXSet.hxLan(i18n("loveletter_exchange_confirm")),
+					onYes = function ()
+						uv0:emit(ItemInfoMediator.EXCHANGE_LOVE_LETTER_ITEM, uv1.id)
+					end
+				})
+			end, SFX_PANEL)
 		end
 	end
 
 	setActive(slot0.okBtn, slot2)
 
 	if slot0.itemVO:isBluePrintType() and slot0.contextData.fromMediatorName == EquipmentMediator.__cname then
-		setActive(slot0.okBtn, false)
-		setActive(slot0.useBtn, false)
-		setActive(slot0.batchUseBtn, false)
-		setActive(slot0.composeBtn, false)
-		setActive(slot0.resolveBtn, false)
 		setActive(slot0.useOneBtn, true)
 		onButton(slot0, slot0.useOneBtn, function ()
 			uv0:emit(ItemInfoMediator.ON_BLUEPRINT_SCENE)

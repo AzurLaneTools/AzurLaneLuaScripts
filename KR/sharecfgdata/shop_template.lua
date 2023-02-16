@@ -19317,6 +19317,177 @@ _G.pg.base.shop_template[60370] = {
 	}
 }
 
+_G.pg.base.shop_template[60371] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "980钻石购买限时建造补给（破晓冰华复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60371,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40118
+	},
+	time = {
+		{
+			{
+				2023,
+				2,
+				16
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				2,
+				22
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60372] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "120钻石购买限时攻略补给（破晓冰华复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60372,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2023,
+				2,
+				16
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				2,
+				22
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60373] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "500钻石购买家具币礼包（破晓冰华复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60373,
+	resource_num = 500,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2023,
+				2,
+				16
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				2,
+				22
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[60374] = {
 	is_auto_use = 1,
 	time_second = 0,
@@ -39765,9 +39936,9 @@ _G.pg.base.shop_template[70505] = {
 	time = {
 		{
 			{
-				2022,
-				3,
-				31
+				2023,
+				2,
+				16
 			},
 			{
 				0,
@@ -39777,9 +39948,9 @@ _G.pg.base.shop_template[70505] = {
 		},
 		{
 			{
-				2022,
-				4,
-				20
+				2023,
+				2,
+				22
 			},
 			{
 				23,
@@ -39817,9 +39988,9 @@ _G.pg.base.shop_template[70506] = {
 	time = {
 		{
 			{
-				2022,
-				3,
-				31
+				2023,
+				2,
+				16
 			},
 			{
 				0,
@@ -39829,9 +40000,9 @@ _G.pg.base.shop_template[70506] = {
 		},
 		{
 			{
-				2022,
-				4,
-				20
+				2023,
+				2,
+				22
 			},
 			{
 				23,
@@ -39851,7 +40022,7 @@ _G.pg.base.shop_template[70507] = {
 	desc = "购买皮肤:基洛夫睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 200,
@@ -39869,9 +40040,9 @@ _G.pg.base.shop_template[70507] = {
 	time = {
 		{
 			{
-				2022,
-				3,
-				31
+				2023,
+				2,
+				16
 			},
 			{
 				0,
@@ -39881,9 +40052,9 @@ _G.pg.base.shop_template[70507] = {
 		},
 		{
 			{
-				2022,
-				4,
-				20
+				2023,
+				2,
+				22
 			},
 			{
 				23,
@@ -39903,7 +40074,7 @@ _G.pg.base.shop_template[70508] = {
 	desc = "购买皮肤:雷鸣睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 200,
@@ -39921,9 +40092,9 @@ _G.pg.base.shop_template[70508] = {
 	time = {
 		{
 			{
-				2022,
-				3,
-				31
+				2023,
+				2,
+				16
 			},
 			{
 				0,
@@ -39933,9 +40104,9 @@ _G.pg.base.shop_template[70508] = {
 		},
 		{
 			{
-				2022,
-				4,
-				20
+				2023,
+				2,
+				22
 			},
 			{
 				23,
@@ -39973,9 +40144,9 @@ _G.pg.base.shop_template[70509] = {
 	time = {
 		{
 			{
-				2022,
-				3,
-				31
+				2023,
+				2,
+				16
 			},
 			{
 				0,
@@ -39985,9 +40156,9 @@ _G.pg.base.shop_template[70509] = {
 		},
 		{
 			{
-				2022,
-				4,
-				20
+				2023,
+				2,
+				22
 			},
 			{
 				23,
@@ -40007,7 +40178,7 @@ _G.pg.base.shop_template[70510] = {
 	desc = "购买皮肤:洪亮睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 200,
@@ -40025,9 +40196,9 @@ _G.pg.base.shop_template[70510] = {
 	time = {
 		{
 			{
-				2022,
-				3,
-				31
+				2023,
+				2,
+				16
 			},
 			{
 				0,
@@ -40037,9 +40208,9 @@ _G.pg.base.shop_template[70510] = {
 		},
 		{
 			{
-				2022,
-				4,
-				20
+				2023,
+				2,
+				22
 			},
 			{
 				23,
@@ -40077,9 +40248,9 @@ _G.pg.base.shop_template[70511] = {
 	time = {
 		{
 			{
-				2022,
-				3,
-				31
+				2023,
+				2,
+				16
 			},
 			{
 				0,
@@ -40089,9 +40260,9 @@ _G.pg.base.shop_template[70511] = {
 		},
 		{
 			{
-				2022,
-				4,
-				20
+				2023,
+				2,
+				22
 			},
 			{
 				23,
@@ -40111,7 +40282,7 @@ _G.pg.base.shop_template[70513] = {
 	desc = "购买皮肤:水星纪念睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 200,
@@ -40129,9 +40300,9 @@ _G.pg.base.shop_template[70513] = {
 	time = {
 		{
 			{
-				2022,
-				3,
-				31
+				2023,
+				2,
+				16
 			},
 			{
 				0,
@@ -40141,9 +40312,9 @@ _G.pg.base.shop_template[70513] = {
 		},
 		{
 			{
-				2022,
-				4,
-				20
+				2023,
+				2,
+				22
 			},
 			{
 				23,
@@ -40181,9 +40352,9 @@ _G.pg.base.shop_template[70514] = {
 	time = {
 		{
 			{
-				2022,
-				3,
-				31
+				2023,
+				2,
+				16
 			},
 			{
 				0,
@@ -40193,9 +40364,9 @@ _G.pg.base.shop_template[70514] = {
 		},
 		{
 			{
-				2022,
-				4,
-				20
+				2023,
+				2,
+				22
 			},
 			{
 				23,
@@ -40215,7 +40386,7 @@ _G.pg.base.shop_template[70515] = {
 	desc = "购买皮肤:威严睡衣",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 200,
@@ -40233,9 +40404,9 @@ _G.pg.base.shop_template[70515] = {
 	time = {
 		{
 			{
-				2022,
-				3,
-				31
+				2023,
+				2,
+				16
 			},
 			{
 				0,
@@ -40245,9 +40416,9 @@ _G.pg.base.shop_template[70515] = {
 		},
 		{
 			{
-				2022,
-				4,
-				20
+				2023,
+				2,
+				22
 			},
 			{
 				23,
@@ -40312,9 +40483,9 @@ _G.pg.base.shop_template[70517] = {
 	time = {
 		{
 			{
-				2022,
-				3,
-				31
+				2023,
+				2,
+				16
 			},
 			{
 				0,
@@ -40324,9 +40495,9 @@ _G.pg.base.shop_template[70517] = {
 		},
 		{
 			{
-				2022,
-				4,
-				20
+				2023,
+				2,
+				22
 			},
 			{
 				23,
@@ -47661,7 +47832,7 @@ _G.pg.base.shop_template[70665] = {
 	desc = "购买皮肤:鞍山情人节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 200,
@@ -47713,7 +47884,7 @@ _G.pg.base.shop_template[70666] = {
 	desc = "购买皮肤:时雨情人节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
 	order = 200,
@@ -62995,7 +63166,7 @@ _G.pg.base.shop_template[90183] = {
 	resource_type = 297,
 	type = 6,
 	genre = "skin_shop_timelimit",
-	desc = "230118限时皮肤体验：逸仙春节",
+	desc = "230105限时皮肤体验：白俄罗斯皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 0,
@@ -63011,14 +63182,14 @@ _G.pg.base.shop_template[90183] = {
 	discount_time = {},
 	limit_args = {},
 	effect_args = {
-		502011
+		705041
 	},
 	time = {
 		{
 			{
 				2023,
-				1,
-				18
+				2,
+				16
 			},
 			{
 				0,
@@ -63030,7 +63201,7 @@ _G.pg.base.shop_template[90183] = {
 			{
 				2023,
 				2,
-				1
+				22
 			},
 			{
 				23,
@@ -63047,7 +63218,7 @@ _G.pg.base.shop_template[90184] = {
 	resource_type = 297,
 	type = 6,
 	genre = "skin_shop_timelimit",
-	desc = "230118限时皮肤体验：埃吉尔春节",
+	desc = "230105限时皮肤体验：基洛夫皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 0,
@@ -63063,14 +63234,14 @@ _G.pg.base.shop_template[90184] = {
 	discount_time = {},
 	limit_args = {},
 	effect_args = {
-		499052
+		702041
 	},
 	time = {
 		{
 			{
 				2023,
-				1,
-				18
+				2,
+				16
 			},
 			{
 				0,
@@ -63082,7 +63253,7 @@ _G.pg.base.shop_template[90184] = {
 			{
 				2023,
 				2,
-				1
+				22
 			},
 			{
 				23,
@@ -63099,7 +63270,7 @@ _G.pg.base.shop_template[90185] = {
 	resource_type = 297,
 	type = 6,
 	genre = "skin_shop_timelimit",
-	desc = "230118限时皮肤体验：华甲春节",
+	desc = "230105限时皮肤体验：恰巴耶夫皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 0,
@@ -63115,14 +63286,14 @@ _G.pg.base.shop_template[90185] = {
 	discount_time = {},
 	limit_args = {},
 	effect_args = {
-		506021
+		702032
 	},
 	time = {
 		{
 			{
 				2023,
-				1,
-				18
+				2,
+				16
 			},
 			{
 				0,
@@ -63134,7 +63305,7 @@ _G.pg.base.shop_template[90185] = {
 			{
 				2023,
 				2,
-				1
+				22
 			},
 			{
 				23,

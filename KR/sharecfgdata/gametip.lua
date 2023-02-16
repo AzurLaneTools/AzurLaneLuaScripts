@@ -9809,7 +9809,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "요크타운II,노샘프턴II  등 함선 건조 확률 UP!"
+	tip = "소비에츠카야 벨로루시아, 키로프 등 함선 건조 확률 UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11666,6 +11666,10 @@ _G.pg.base.gametip.limit_skin_time_min = {
 
 _G.pg.base.gametip.limit_skin_time_overtime = {
 	tip = "만료되었습니다."
+}
+
+_G.pg.base.gametip.limit_skin_time_before_maintenance = {
+	tip = "$1月$2日维护前"
 }
 
 _G.pg.base.gametip.award_window_pt_title = {
@@ -16646,6 +16650,10 @@ _G.pg.base.gametip.autofight_tip_bigworld_stop = {
 
 _G.pg.base.gametip.autofight_tip_bigworld_suspend = {
 	tip = "이미 시야 내 모든 사건을 완료했습니다. 자율 색적 중지."
+}
+
+_G.pg.base.gametip.autofight_tip_bigworld_loop = {
+	tip = "因目标点无法抵达，自律寻敌已终止。"
 }
 
 _G.pg.base.gametip.autofight_farm = {
@@ -22734,4 +22742,32 @@ _G.pg.base.gametip["2023Valentine_minigame_label2"] = {
 
 _G.pg.base.gametip["2023Valentine_minigame_label3"] = {
 	tip = "현재 완성:"
+}
+
+_G.pg.base.gametip.sort_energy = {
+	tip = "心情值"
+}
+
+_G.pg.base.gametip.dockyard_search_holder = {
+	tip = "搜索角色名"
+}
+
+_G.pg.base.gametip.loveletter_exchange_tip1 = {
+	tip = "没有符合条件的邮件，请联系客服"
+}
+
+_G.pg.base.gametip.loveletter_exchange_tip2 = {
+	tip = "情人节邮件有奖励未领取，请领取后再作尝试"
+}
+
+_G.pg.base.gametip.loveletter_exchange_confirm = {
+	tip = "是否确认更换情人节邮件与礼物，更换后将\n删除此<color=#ff5c5c>{namecode:98}的情人节礼物与邮箱内对应的情人节邮件</color>\n同时发放一封<color=#92fc63>新的谢菲尔德·META情人节邮件</color>(包含谢菲尔德·META情人节礼物)"
+}
+
+_G.pg.base.gametip.loveletter_exchange_button = {
+	tip = "更换"
+}
+
+_G.pg.base.gametip.loveletter_exchange_tip3 = {
+	tip = "更换成功，请前往邮件查看"
 }
