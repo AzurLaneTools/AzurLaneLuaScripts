@@ -609,7 +609,7 @@ function slot0.GetRecommendShipsForEliteMission(slot0, slot1)
 			return uv0:MatchShipType(slot0) and 0 or 1
 		end,
 		function (slot0)
-			return -(a.attrs[uv0] or 0)
+			return -(slot0.attrs[uv0] or 0)
 		end,
 		function (slot0)
 			return -slot0.level

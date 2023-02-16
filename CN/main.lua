@@ -122,34 +122,34 @@ function OnApplicationExit()
 		return
 	end
 
-	if pg.ShareMgr.GetInstance() and slot8.panel and slot9.gameObject.activeSelf then
+	if pg.ShareMgr.GetInstance().go and isActive(slot8.go) then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-		triggerButton(slot9:Find("main/top/btnBack"))
+		triggerButton(sharePanel:Find("main/top/btnBack"))
 
 		return
 	end
 
-	if not slot5:retrieveMediator(slot7:retriveLastChild().mediator.__cname) or not slot10.viewComponent then
+	if not slot5:retrieveMediator(slot7:retriveLastChild().mediator.__cname) or not slot9.viewComponent then
 		return
 	end
 
-	slot11 = slot10.viewComponent
-	slot12 = slot11._tf.parent
-	slot13 = slot11._tf:GetSiblingIndex()
-	slot14 = -1
-	slot15 = nil
+	slot10 = slot9.viewComponent
+	slot11 = slot10._tf.parent
+	slot12 = slot10._tf:GetSiblingIndex()
+	slot13 = -1
+	slot14 = nil
 
 	if slot3 and slot3.activeSelf then
-		slot15 = slot3.transform.parent
-		slot14 = slot3.transform:GetSiblingIndex()
+		slot14 = slot3.transform.parent
+		slot13 = slot3.transform:GetSiblingIndex()
 	end
 
 	if pg.playerResUI:checkBackPressed() then
 		return
 	end
 
-	if slot12 == slot15 and slot14 < slot13 then
-		slot11:onBackPressed()
+	if slot11 == slot14 and slot13 < slot12 then
+		slot10:onBackPressed()
 
 		return
 	end
@@ -161,13 +161,13 @@ function OnApplicationExit()
 		return
 	end
 
-	if nowWorld() and slot16.staminaMgr:IsShowing() then
-		slot16.staminaMgr:Hide()
+	if nowWorld() and slot15.staminaMgr:IsShowing() then
+		slot15.staminaMgr:Hide()
 
 		return
 	end
 
-	slot11:onBackPressed()
+	slot10:onBackPressed()
 end
 
 function OnReceiveMemoryWarning()

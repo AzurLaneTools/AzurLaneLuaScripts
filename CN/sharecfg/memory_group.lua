@@ -3031,7 +3031,7 @@ pg.memory_group = {
 	},
 	[239] = {
 		icon = "title_event",
-		subtype = 2,
+		subtype = 1,
 		type = 2,
 		id = 239,
 		title = "女王的一天",

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"女王的一天\n\n<size=45>二 一日之计在于晨</size>",
+					"女王的一天\n\n<size=45>二 午餐时光</size>",
 					1
 				}
 			}
