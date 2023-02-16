@@ -16,17 +16,6 @@ return {
 			},
 			arg_list = {
 				buff_id_list = {
-					60331
-				}
-			}
-		},
-		{
-			type = "BattleBuffCleanse",
-			trigger = {
-				"onAttach"
-			},
-			arg_list = {
-				buff_id_list = {
 					60333
 				}
 			}
@@ -37,7 +26,7 @@ return {
 				"onChargeWeaponFire"
 			},
 			arg_list = {
-				skill_id = 60333,
+				skill_id = 60336,
 				quota = 1
 			}
 		},

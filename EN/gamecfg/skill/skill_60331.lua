@@ -22,6 +22,16 @@ return {
 					"QE"
 				}
 			}
+		},
+		{
+			type = "BattleSkillEditTag",
+			casterAniEffect = "",
+			target_choise = "TargetSelf",
+			targetAniEffect = "",
+			arg_list = {
+				tag = "Schedule_alive",
+				operation = 1
+			}
 		}
 	}
 }

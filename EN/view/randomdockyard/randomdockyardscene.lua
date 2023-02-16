@@ -425,13 +425,10 @@ end
 function slot0.SortShips(slot0, slot1)
 	slot5, slot6 = ShipIndexConst.getSortFuncAndName(slot0.indexDatas[slot0.mode].sortIndex, slot0.sortFlags[slot0.mode])
 
-	table.sort(slot1, function (slot0, slot1)
-		if slot0.activityNpc == slot1.activityNpc then
-			return uv0(slot0, slot1)
-		else
-			return slot1.activityNpc < slot0.activityNpc
-		end
+	table.insert(slot5, 1, function (slot0)
+		return -slot0.activityNpc
 	end)
+	table.sort(slot1, CompareFuncs(slot5))
 
 	slot0.sortTxt.text = i18n(slot6)
 end
