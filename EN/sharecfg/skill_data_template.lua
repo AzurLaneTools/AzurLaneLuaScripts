@@ -106179,7 +106179,7 @@ Your Yorktown-class and Essex-class CVs gain the following effects during battle
 		id = 1010600,
 		type = 1,
 		max_level = 10,
-		desc = "Increases this ship's AA by $2 and RLD by $1. Changes this ship's Torpedo Spread Angle and, when this ship fires her torpedoes: $2 chance to fire another wave of torpedoes and increase this ship's EVA by 15.0% for 6s.",
+		desc = "Increases this ship's AA by $2 and RLD by $1. Changes this ship's Torpedo Spread Angle and, 10s after the battle starts, when this ship fires her torpedoes: $2 chance to fire another wave of torpedoes and increase this ship's EVA by 15.0% for 6s (10s cooldown between activations).",
 		system_transform = {},
 		world_death_mark = {
 			1

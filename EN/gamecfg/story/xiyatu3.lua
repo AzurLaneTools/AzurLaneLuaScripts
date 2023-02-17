@@ -260,8 +260,8 @@ return {
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "608020",
 			nameColor = "#A9F548FF",
+			actor = 608020,
 			say = "So? Isn't that normal? Everyone knows cats and dogs are natural enemies.",
 			painting = {
 				alpha = 0.3,
