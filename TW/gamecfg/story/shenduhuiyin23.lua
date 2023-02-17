@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "這麼說我們已經躲過了風暴的襲擊了麼？",
+			say = "這麼說我們已經躲過了風暴的襲擊了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

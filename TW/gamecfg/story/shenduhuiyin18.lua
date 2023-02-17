@@ -1296,7 +1296,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701090,
-			say = "我有！剛剛她拍照的設備你們注意到了麼！",
+			say = "我有！剛剛她拍照的設備妳們注意到了嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
