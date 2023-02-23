@@ -112,7 +112,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "リシュリュー",
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
