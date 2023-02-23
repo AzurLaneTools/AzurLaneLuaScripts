@@ -4442,6 +4442,74 @@ _G.pg.base.equip_data_statistics[468] = {
 	}
 }
 
+_G.pg.base.equip_data_statistics[469] = {
+	tech = 0,
+	name = "摩耶特殊兵装专属特殊防空炮",
+	speciality = "대공",
+	type = 6,
+	descrip = "说明未填写",
+	ammo = 5,
+	damage = "124/회",
+	nationality = 3,
+	rarity = 5,
+	id = 469,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 45,
+	icon = "1",
+	attribute_2 = "antiaircraft",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		1,
+		2,
+		6,
+		10
+	},
+	weapon_id = {
+		469
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"ST",
+		"AA"
+	}
+}
+
 _G.pg.base.equip_data_statistics[500] = {
 	type = 10,
 	name = "비버즈 휘장",
@@ -18368,6 +18436,132 @@ _G.pg.base.equip_data_statistics[3853] = {
 	base = 3840,
 	id = 3853,
 	value_1 = "45",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3860] = {
+	type = 10,
+	name = "여왕의 스케줄(기밀)",
+	speciality = "无",
+	tech = 0,
+	value_2 = 4,
+	ammo = 10,
+	nationality = 2,
+	descrip = "여왕의 일정을 상세히 기록한 극비 기밀 문서. 특정 인원만 열람할 수 있는 자격이 있는 것 같다.",
+	rarity = 4,
+	attribute_1 = "cannon",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3860,
+	icon = "3860",
+	value_1 = "6",
+	attribute_2 = "dodge",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60330
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3861] = {
+	id = 3861,
+	value_2 = 5,
+	value_1 = "6",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3862] = {
+	id = 3862,
+	value_2 = 6,
+	value_1 = "7",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3863] = {
+	id = 3863,
+	value_2 = 6,
+	value_1 = "8",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3864] = {
+	id = 3864,
+	value_2 = 7,
+	value_1 = "9",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3865] = {
+	id = 3865,
+	value_2 = 8,
+	value_1 = "10",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3866] = {
+	id = 3866,
+	value_2 = 9,
+	value_1 = "11",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3867] = {
+	id = 3867,
+	value_2 = 9,
+	value_1 = "12",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3868] = {
+	id = 3868,
+	value_2 = 10,
+	value_1 = "13",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3869] = {
+	id = 3869,
+	value_2 = 11,
+	value_1 = "14",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3870] = {
+	id = 3870,
+	value_2 = 12,
+	value_1 = "15",
+	base = 3860,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3871] = {
+	value_2 = 13,
+	anti_siren = 100,
+	base = 3860,
+	id = 3871,
+	value_1 = "16",
 	hidden_skill_id = {}
 }
 

@@ -200,27 +200,25 @@ function slot0.filterTarget(slot0)
 end
 
 function slot0.updataTaskList(slot0)
-	table.sort(slot0.showVOGroup, function (slot0, slot1)
-		return CompareFuncs(slot0, slot1, {
-			function (slot0)
-				for slot4, slot5 in ipairs(slot0) do
-					if slot5:getTaskStatus() == 1 then
-						return 0
-					end
+	table.sort(slot0.showVOGroup, CompareFuncs({
+		function (slot0)
+			for slot4, slot5 in ipairs(slot0) do
+				if slot5:getTaskStatus() == 1 then
+					return 0
 				end
-
-				return underscore.all(slot0, function (slot0)
-					return slot0:isReceive()
-				end) and 2 or 1
-			end,
-			function (slot0)
-				return slot0[1]:getConfig("type") ~= Task.TYPE_ACTIVITY_ROUTINE and 1 or 0
-			end,
-			function (slot0)
-				return slot0[1].id
 			end
-		})
-	end)
+
+			return underscore.all(slot0, function (slot0)
+				return slot0:isReceive()
+			end) and 2 or 1
+		end,
+		function (slot0)
+			return slot0[1]:getConfig("type") ~= Task.TYPE_ACTIVITY_ROUTINE and 1 or 0
+		end,
+		function (slot0)
+			return slot0[1].id
+		end
+	}))
 	slot0.taskGroupItemList:align(#slot0.showVOGroup)
 end
 

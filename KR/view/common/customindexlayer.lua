@@ -87,7 +87,7 @@ function slot0.InitGroup(slot0)
 	end
 
 	if slot0.contextData.customPanels.minHeight then
-		slot0.layout:GetComponent(typeof(LayoutElement)).preferredHeight = slot0.contextData.customPanels.minHeight
+		slot0.layout:GetComponent(typeof(LayoutElement)).minHeight = slot0.contextData.customPanels.minHeight
 	end
 
 	if slot0.contextData.customPanels.layoutPos then
@@ -104,17 +104,13 @@ function slot0.InitDropdown(slot0, slot1)
 	setParent(slot3, slot0.layout, false)
 	setActive(slot3, true)
 
-	slot4 = uv0.Clone2Full(slot3:Find("bg/panel"), #slot2)
+	slot4 = uv0.Clone2Full(slot3:Find("bg"), #slot2)
 	go(slot3).name = slot1.titleTxt
 
 	setText(slot3:Find("title/Image"), i18n(slot1.titleTxt))
 	setText(slot3:Find("title/Image/Image_en"), i18n(slot1.titleENTxt))
 
-	slot5 = slot3:Find("bg"):GetComponent(typeof(ScrollRect))
-
-	setActive(slot5.verticalScrollbar, false)
-
-	slot5.enabled = false
+	slot3:Find("bg"):GetComponent(typeof(ScrollRect)).enabled = false
 
 	for slot9, slot10 in ipairs(slot2) do
 		slot11 = slot4[slot9]
@@ -146,11 +142,7 @@ function slot0.InitCustoms(slot0, slot1)
 	setText(slot4:Find("title/Image"), i18n(slot1.titleTxt))
 	setText(slot4:Find("title/Image/Image_en"), i18n(slot1.titleENTxt))
 
-	slot5 = slot4:Find("bg"):GetComponent(typeof(ScrollRect))
-
-	setActive(slot5.verticalScrollbar, false)
-
-	slot5.enabled = false
+	slot4:Find("bg"):GetComponent(typeof(ScrollRect)).enabled = false
 	slot6 = slot3.options
 	slot7 = slot3.mode or uv0.Mode.OR
 	slot8 = 0
@@ -163,7 +155,7 @@ function slot0.InitCustoms(slot0, slot1)
 	slot0.contextData.indexDatas[slot2] = slot0.contextData.indexDatas[slot2] or slot6[1]
 	slot10 = nil
 
-	for slot15, slot16 in ipairs(uv0.Clone2Full(slot4:Find("bg/panel"), #slot6)) do
+	for slot15, slot16 in ipairs(uv0.Clone2Full(slot4:Find("bg"), #slot6)) do
 		slot17 = slot6[slot15]
 
 		setText(findTF(slot16, "Image"), i18n(slot3.names[slot15]))
@@ -226,10 +218,10 @@ function slot0.InitCustoms(slot0, slot1)
 	if slot1.simpleDropdown then
 		assert(slot7 == uv0.Mode.OR, "simpleDropdown目前只支持OR模式")
 
-		slot12 = slot4:Find("bg/panel"):GetChild(0)
+		slot12 = slot4:Find("bg"):GetChild(0)
 
 		for slot16, slot17 in ipairs(slot1.simpleDropdown) do
-			slot19 = cloneTplTo(slot12, slot4:Find("bg/panel"))
+			slot19 = cloneTplTo(slot12, slot4:Find("bg"))
 			slot19.name = slot17 .. "_simple"
 
 			setActive(slot0:findTF("dropdown", slot19), true)

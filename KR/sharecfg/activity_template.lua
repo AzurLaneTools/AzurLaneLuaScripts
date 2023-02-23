@@ -6185,12 +6185,13 @@ pg.activity_template = {
 	},
 	[4625] = {
 		mark = 20230105,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4625,
 		config_data = {
@@ -6214,43 +6215,17 @@ pg.activity_template = {
 			18163,
 			18164,
 			18165
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4626] = {
 		mark = 20230105,
-		id = 4626,
 		title_res_tag = "MaoxiV2_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 30,
+		id = 4626,
 		config_data = {
 			1480001,
 			1480002,
@@ -6258,33 +6233,6 @@ pg.activity_template = {
 			1480021,
 			1480022,
 			1480023
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "MaoxiV2MainPage",
@@ -6296,12 +6244,13 @@ pg.activity_template = {
 	},
 	[4627] = {
 		mark = 20230105,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4627,
 		config_data = {
 			1480004,
@@ -6312,33 +6261,6 @@ pg.activity_template = {
 			1480026,
 			1480041,
 			1480051
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
@@ -6465,81 +6387,29 @@ pg.activity_template = {
 	},
 	[4630] = {
 		mark = 20230105,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4630,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4631] = {
 		mark = 20230105,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 80,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4631,
 		config_data = {
 			4
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			59379
@@ -6547,82 +6417,30 @@ pg.activity_template = {
 	},
 	[4632] = {
 		mark = 20230105,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4632,
 		config_data = {
 			18157
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4633] = {
 		mark = 20230105,
-		config_client = "",
 		title_res_tag = "maoxiV2_login",
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 36,
 		is_show = 27,
+		config_client = "",
 		id = 4633,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MaoxiV2LoginPage",
 			ui_name = "MaoxiV2LoginPage"
@@ -6630,42 +6448,16 @@ pg.activity_template = {
 	},
 	[4634] = {
 		mark = 20230105,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 10,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4634,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4635] = {
 		mark = 20230112,
@@ -7679,41 +7471,15 @@ pg.activity_template = {
 	},
 	[4685] = {
 		mark = 20230209,
-		config_client = "",
 		title_res_tag = "ValentineQte",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 42,
 		is_show = 21,
+		config_client = "",
 		id = 4685,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "ValentineQtePage",
 			ui_name = "ValentineQtePage"
@@ -7721,12 +7487,13 @@ pg.activity_template = {
 	},
 	[4686] = {
 		mark = 20230209,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 29,
 		login_pop = 0,
 		config_id = 15,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4686,
 		config_data = {
@@ -7738,14 +7505,25 @@ pg.activity_template = {
 				itemID,
 				44001
 			}
-		},
+		}
+	},
+	[4687] = {
+		mark = 20230216,
+		config_client = "",
+		title_res_tag = "yingxiV4_frame",
+		type = 87,
+		login_pop = 0,
+		config_id = 7,
+		is_show = 24,
+		id = 4687,
+		config_data = {},
 		time = {
 			"timer",
 			{
 				{
 					2023,
 					2,
-					14
+					23
 				},
 				{
 					0,
@@ -7756,8 +7534,8 @@ pg.activity_template = {
 			{
 				{
 					2023,
-					2,
-					23
+					3,
+					22
 				},
 				{
 					23,
@@ -7765,6 +7543,188 @@ pg.activity_template = {
 					59
 				}
 			}
+		},
+		page_info = {
+			class_name = "YingxiV4FramePage",
+			ui_name = "YingxiV4FramePage"
+		}
+	},
+	[4688] = {
+		mark = 20230216,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 23,
+		is_show = 0,
+		config_client = "",
+		id = 4688,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4689] = {
+		mark = 20230216,
+		id = 4689,
+		title_res_tag = "yingxiV4_skirmish",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 23,
+		config_data = {
+			{
+				18350,
+				18351
+			},
+			{
+				18352,
+				18353
+			},
+			{
+				18354,
+				18355
+			},
+			{
+				18356,
+				18357
+			},
+			{
+				18358,
+				18359
+			},
+			{
+				18360,
+				18361
+			},
+			{
+				18362,
+				18363
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YingxiV4SkirmishPage",
+			ui_name = "YingxiV4SkirmishPage"
+		},
+		config_client = {
+			story = {
+				{
+					"NVWANGDEYITIAN1"
+				},
+				{
+					"NVWANGDEYITIAN2"
+				},
+				{
+					"NVWANGDEYITIAN3"
+				},
+				{
+					"NVWANGDEYITIAN4"
+				},
+				{
+					"NVWANGDEYITIAN5"
+				},
+				{
+					"NVWANGDEYITIAN6"
+				},
+				{
+					"NVWANGDEYITIAN7"
+				}
+			}
+		}
+	},
+	[4690] = {
+		mark = 20230216,
+		id = 4690,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 20,
+		is_show = 22,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					2,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MarcoPoloTecCatchupPage",
+			ui_name = "MarcoPoloTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42035
 		}
 	},
 	[7004] = {
@@ -13383,6 +13343,10 @@ pg.activity_template = {
 		4683,
 		4685,
 		4686,
+		4687,
+		4688,
+		4689,
+		4690,
 		7004,
 		7005,
 		7006,

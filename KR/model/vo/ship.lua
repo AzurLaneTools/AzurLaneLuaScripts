@@ -296,7 +296,7 @@ function slot0.getName(slot0)
 		return HXSet.hxLan(pg.ship_skin_template[slot0:getRemouldSkinId()].name)
 	end
 
-	return pg.ship_data_statistics[slot0.configId].name
+	return HXSet.hxLan(pg.ship_data_statistics[slot0.configId].name)
 end
 
 function slot0.GetDefaultName(slot0)
@@ -2316,6 +2316,14 @@ end
 
 function slot0.IsDefaultSkin(slot0)
 	return slot0.skinId == 0 or slot0.skinId == slot0:getConfig("skin_id")
+end
+
+function slot0.IsMatchKey(slot0, slot1)
+	if not slot1 or slot1 == "" then
+		return true
+	end
+
+	return string.find(slot0:GetDefaultName(), string.gsub(slot1, "%.", "%%."))
 end
 
 return slot0

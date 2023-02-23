@@ -8772,6 +8772,76 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100046] = {
+		spine_extra = "",
+		describe = "행복한 토끼해 되세요~~ 뿅뿅~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "변신 장치·묘토",
+		themeId = 0,
+		icon = "biantuicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100046,
+		can_rotate = 1,
+		size = {
+			5,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"biantuB",
+				"normal"
+			},
+			{
+				"biantuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		spine_extra = "",
 		describe = "그래, 마음껏 메이드에게 응석을 부리라고, \"주인님\"~",
@@ -110905,6 +110975,7 @@ pg.furniture_data_template = {
 			100043,
 			100044,
 			100045,
+			100046,
 			200001,
 			200002,
 			200003,
@@ -111086,6 +111157,7 @@ pg.furniture_data_template = {
 			100043,
 			100044,
 			100045,
+			100046,
 			200001,
 			200002,
 			200003,
@@ -117821,6 +117893,7 @@ pg.furniture_data_template = {
 			100043,
 			100044,
 			100045,
+			100046,
 			54104,
 			54105
 		},
@@ -118659,7 +118732,8 @@ pg.furniture_data_template = {
 			100041,
 			100043,
 			100044,
-			100045
+			100045,
+			100046
 		},
 		[2] = {
 			120,
@@ -121140,6 +121214,7 @@ pg.furniture_data_template = {
 		100043,
 		100044,
 		100045,
+		100046,
 		200001,
 		200002,
 		200003,

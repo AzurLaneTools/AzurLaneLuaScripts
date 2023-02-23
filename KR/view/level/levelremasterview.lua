@@ -245,26 +245,24 @@ function slot0.flush(slot0, slot1)
 					return slot0.activity_type == uv0
 				end)
 
-				table.sort(uv0.temp, function (slot0, slot1)
-					return CompareFuncs(slot0, slot1, {
-						function (slot0)
-							for slot4, slot5 in ipairs(slot0.drop_gain) do
-								if #slot5 > 0 then
-									slot6, slot7, slot8, slot9 = unpack(slot5)
+				table.sort(uv0.temp, CompareFuncs({
+					function (slot0)
+						for slot4, slot5 in ipairs(slot0.drop_gain) do
+							if #slot5 > 0 then
+								slot6, slot7, slot8, slot9 = unpack(slot5)
 
-									if not uv0.remasterInfo[slot6][slot4].receive and slot9 <= slot10.count then
-										return 0
-									end
+								if not uv0.remasterInfo[slot6][slot4].receive and slot9 <= slot10.count then
+									return 0
 								end
 							end
-
-							return 1
-						end,
-						function (slot0)
-							return slot0.order
 						end
-					})
-				end)
+
+						return 1
+					end,
+					function (slot0)
+						return slot0.order
+					end
+				}))
 				uv0.itemList:align(math.max(math.ceil(#uv0.temp / 2) * 2, 4))
 			end
 		end, SFX_PANEL)

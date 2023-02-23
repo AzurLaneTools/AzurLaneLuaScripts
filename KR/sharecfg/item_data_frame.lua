@@ -369,6 +369,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「시공간은 회전하는 룰렛 속에서 거듭되고 운명은 반짝이는 빛 속에서 교차한다.」</color>\n「거듭되는 평행세계」 이벤트 획득",
 		scene = {}
 	},
+	[324] = {
+		time_limit_type = 0,
+		name = "성휘의 증명",
+		gain_by = "",
+		id = 324,
+		time_second = 0,
+		desc = "추후 이벤트를 통해 획득",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "전당 기념: 엔터프라이즈",
@@ -456,6 +465,7 @@ pg.item_data_frame = {
 		321,
 		322,
 		323,
+		324,
 		401,
 		402,
 		413,

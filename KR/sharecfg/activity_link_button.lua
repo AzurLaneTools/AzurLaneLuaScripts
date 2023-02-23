@@ -3,16 +3,13 @@ pg.activity_link_button = {
 	{
 		param = "0",
 		name = "event_all",
+		time = "stop",
+		text_pic = "text_event_all",
 		type = 3,
-		text_pic = "",
+		pic = "event_all",
 		id = 1,
 		group_id = 1,
-		pic = "event_all",
-		order = 1,
-		time = {
-			"default",
-			4626
-		}
+		order = 1
 	},
 	{
 		param = "0",
@@ -40,7 +37,7 @@ pg.activity_link_button = {
 		param = "0",
 		name = "event_map",
 		type = 0,
-		text_pic = "",
+		text_pic = "text_event_map",
 		id = 10,
 		group_id = 2,
 		pic = "event_map",
@@ -90,39 +87,13 @@ pg.activity_link_button = {
 	[60] = {
 		param = "0",
 		name = "event_LanternFestival",
-		type = 0,
+		time = "stop",
 		text_pic = "",
+		type = 0,
+		pic = "event_LanternFestival",
 		id = 60,
 		group_id = 6,
-		pic = "event_LanternFestival",
-		order = 1,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		order = 1
 	},
 	[70] = {
 		param = "0",

@@ -54,6 +54,20 @@ function slot0.OnInit(slot0)
 	setText(slot0.randomSkinBtn:Find("Text"), i18n("random_ship_skin_label"))
 	setText(slot0.randomShipBtn:Find("Text"), i18n("random_ship_label"))
 	setText(slot0.changskinBtn:Find("Text"), i18n("random_flag_ship_changskinBtn_label"))
+
+	slot0.canDragFlag = true
+end
+
+function slot0.DisableDrag(slot0)
+	slot0.canDragFlag = false
+end
+
+function slot0.EnableDrag(slot0)
+	slot0.canDragFlag = true
+end
+
+function slot0.CanDrag(slot0)
+	return not slot0.inEdit and slot0.canDragFlag
 end
 
 function slot0.ShouldTip(slot0)
@@ -69,7 +83,7 @@ function slot0.RegisterEvent(slot0)
 	slot2 = PlayerVitaeShipsPage.GetSlotMaxCnt()
 
 	slot1:AddBeginDragFunc(function ()
-		if uv0.inEdit then
+		if not uv0:CanDrag() then
 			return
 		end
 
@@ -88,7 +102,7 @@ function slot0.RegisterEvent(slot0)
 		setButtonEnabled(uv0._tf, false)
 	end)
 	slot1:AddDragFunc(function (slot0, slot1)
-		if uv0.inEdit then
+		if not uv0:CanDrag() then
 			return
 		end
 
@@ -102,7 +116,7 @@ function slot0.RegisterEvent(slot0)
 		uv0:emit(PlayerVitaeShipsPage.ON_DRAGING_CARD, slot2)
 	end)
 	slot1:AddDragEndFunc(function (slot0, slot1)
-		if uv0.inEdit then
+		if not uv0:CanDrag() then
 			return
 		end
 

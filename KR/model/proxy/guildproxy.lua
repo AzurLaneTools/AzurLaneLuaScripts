@@ -530,23 +530,24 @@ function slot0.GetRecommendShipsForMission(slot0, slot1)
 
 		slot6 = slot1:GetRecommendShipNation()
 		slot7 = slot1:GetRecommendShipTypes()
+		slot11 = {
+			function (slot0)
+				return table.contains(uv0, slot0.nation) and 0 or 1
+			end,
+			function (slot0)
+				return table.contains(uv0, slot0.type) and 0 or 1
+			end,
+			function (slot0)
+				return -slot0.level
+			end,
+			slot12
+		}
 
-		table.sort(slot5, function (slot0, slot1)
-			return CompareFuncs(slot0, slot1, {
-				function (slot0)
-					return table.contains(uv0, slot0.nation) and 0 or 1
-				end,
-				function (slot0)
-					return table.contains(uv0, slot0.type) and 0 or 1
-				end,
-				function (slot0)
-					return -slot0.level
-				end,
-				function (slot0)
-					return -slot0.power
-				end
-			})
-		end)
+		function slot12(slot0)
+			return -slot0.power
+		end
+
+		table.sort(slot5, CompareFuncs(slot11))
 
 		for slot11, slot12 in ipairs(slot5) do
 			if GuildEventMediator.OnCheckMissionShip(slot1.id, slot2, slot12) then
@@ -597,30 +598,26 @@ function slot0.GetRecommendShipsForEliteMission(slot0, slot1)
 	end
 
 	slot9 = slot1:GetEffectAttr()
-
-	function slot10(slot0, slot1)
-		return CompareFuncs(slot0, slot1, {
-			function (slot0)
-				return uv0:MatchAttr(slot0) and 0 or 1
-			end,
-			function (slot0)
-				return uv0:MatchNation(slot0) and 0 or 1
-			end,
-			function (slot0)
-				return uv0:MatchShipType(slot0) and 0 or 1
-			end,
-			function (slot0)
-				return -(uv0.attrs[uv1] or 0)
-			end,
-			function (slot0)
-				return -slot0.level
-			end,
-			function (slot0)
-				return -slot0.power
-			end
-		})
-	end
-
+	slot10 = CompareFuncs({
+		function (slot0)
+			return uv0:MatchAttr(slot0) and 0 or 1
+		end,
+		function (slot0)
+			return uv0:MatchNation(slot0) and 0 or 1
+		end,
+		function (slot0)
+			return uv0:MatchShipType(slot0) and 0 or 1
+		end,
+		function (slot0)
+			return -(slot0.attrs[uv0] or 0)
+		end,
+		function (slot0)
+			return -slot0.level
+		end,
+		function (slot0)
+			return -slot0.power
+		end
+	})
 	slot11 = slot1:GetSquadronTargetCnt()
 
 	if #slot6 > 0 and slot11 > 0 then
