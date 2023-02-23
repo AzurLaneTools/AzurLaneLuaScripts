@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那是自然，没有理由放过这么好的机会",
+			say = "那是自然，没有理由放过这么好的机会。",
 			painting = {
 				alpha = 0.3,
 				time = 1

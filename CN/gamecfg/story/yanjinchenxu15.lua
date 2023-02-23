@@ -66,7 +66,7 @@ return {
 				{
 					active = true,
 					name = "yuanzhou_juqing01",
-					interlayer = 953
+					interlayer = 1001
 				}
 			}
 		},
@@ -856,7 +856,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "远方，侦察归来的英雄正在水面上疾驰，而一个如同山丘般的机甲骑士正紧跟在她身后不远处的。",
+			say = "远方，侦察归来的英雄正在水面上疾驰，而一个如同山丘般的机甲骑士正紧跟在她身后不远处。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

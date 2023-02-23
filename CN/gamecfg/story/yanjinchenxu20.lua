@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "只是可能性而已",
+			say = "只是可能性而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1

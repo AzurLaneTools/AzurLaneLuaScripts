@@ -184,7 +184,23 @@ function slot0.onConfirm(slot0)
 			uv2:emit(LevelUIConst.TRACK_CHAPTER, uv1, slot0)
 		end,
 		function (slot0)
-			uv1:emit(LevelMediator2.ON_TRACKING, uv2.id, uv3, uv2.loopFlag, uv4, uv5, PlayerPrefs.GetInt(uv0, 1) == 1)
+			slot2 = LevelMediator2.ON_TRACKING
+			slot3 = table.packParams(uv1.id, uv2, uv1.loopFlag, uv3, uv4, PlayerPrefs.GetInt(uv0, 1) == 1)
+
+			if pg.m02:retrieveMediator(LevelMediator2.__cname) then
+				pg.m02:sendNotification(slot2, slot3)
+
+				return
+			end
+
+			if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
+				slot5:extendData({
+					ToTrackingData = {
+						slot2,
+						slot3
+					}
+				})
+			end
 		end
 	})
 end
@@ -1033,7 +1049,23 @@ function slot0.setOnHard(slot0, slot1)
 				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_BATTLE)
 			end,
 			function (slot0)
-				uv1:emit(LevelMediator2.ON_ELITE_TRACKING, uv2.id, uv2.loopFlag, uv3, uv4, PlayerPrefs.GetInt(uv0, 1) == 1)
+				slot2 = LevelMediator2.ON_ELITE_TRACKING
+				slot3 = table.packParams(uv1.id, uv1.loopFlag, uv2, uv3, PlayerPrefs.GetInt(uv0, 1) == 1)
+
+				if pg.m02:retrieveMediator(LevelMediator2.__cname) then
+					pg.m02:sendNotification(slot2, slot3)
+
+					return
+				end
+
+				if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
+					slot5:extendData({
+						ToTrackingData = {
+							slot2,
+							slot3
+						}
+					})
+				end
 			end
 		})
 	end, SFX_UI_WEIGHANCHOR_GO)

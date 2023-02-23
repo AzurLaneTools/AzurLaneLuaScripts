@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "自然……我也不打算就这样退让。因为我相信皇家橡树大人不论面对任何都会在原地坚守到底的。",
+			say = "自然……我也不打算就这样退让。因为我相信皇家橡树大人不论面对任何情况都会在原地坚守到底的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1049,7 +1049,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此，这就是岛上的圣堂在设计上如此防范内部的原因……今天您意外的坦诚呢。",
+			say = "原来如此，这就是岛上的圣堂在设计上如此防范内部的原因……今天您意外地坦诚呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1218,15 +1218,10 @@ return {
 				speed = 0.05,
 				speedUp = 0.01
 			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
 			}
 		},
 		{

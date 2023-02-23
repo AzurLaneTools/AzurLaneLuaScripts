@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“庇护”，就如同圣堂上层的“净化”一样，是一种我们用来控制圣堂而利用的概念。",
+			say = "“庇护”，就如同圣堂上层的“净化”一样，是一种我们为了控制圣堂而利用的概念。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那为什么不将下层整个摧毁呢？摧毁镜面海域和其中的所有设备，一劳永逸的解决问题。",
+			say = "那为什么不将下层整个摧毁呢？摧毁镜面海域和其中的所有设备，一劳永逸地解决问题。",
 			painting = {
 				alpha = 0.3,
 				time = 1

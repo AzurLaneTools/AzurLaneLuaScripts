@@ -528,15 +528,10 @@ return {
 					name = "speed"
 				}
 			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
 			}
 		},
 		{
@@ -825,7 +820,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "还真是简单易懂的命名字，其他几个区域不会分别叫圣堂Rouge、圣堂Vert和圣堂Noir吧……",
+			say = "还真是简单易懂的命名，其他几个区域不会分别叫圣堂Rouge、圣堂Vert和圣堂Noir吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -942,7 +937,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "走路地还是水面？",
+			say = "走陆地还是水面？",
 			painting = {
 				alpha = 0.3,
 				time = 1

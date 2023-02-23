@@ -316,7 +316,8 @@ return {
 			effects = {
 				{
 					active = true,
-					name = "yuanzhou_juqing01"
+					name = "yuanzhou_juqing01",
+					interlayer = 1001
 				}
 			}
 		},

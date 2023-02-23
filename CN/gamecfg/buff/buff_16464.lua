@@ -2,13 +2,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAircraftAttr",
 				trigger = {
 					"onAircraftCreate",
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
+					attr = "GCT",
 					number = 1,
 					index = {
 						16460
@@ -20,13 +20,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAircraftAttr",
 				trigger = {
 					"onAircraftCreate",
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
+					attr = "GCT",
 					number = 1,
 					index = {
 						16460
@@ -38,13 +38,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAircraftAttr",
 				trigger = {
 					"onAircraftCreate",
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
+					attr = "GCT",
 					number = 1,
 					index = {
 						16460
@@ -56,13 +56,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAircraftAttr",
 				trigger = {
 					"onAircraftCreate",
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
+					attr = "GCT",
 					number = 1,
 					index = {
 						16460
@@ -74,13 +74,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAircraftAttr",
 				trigger = {
 					"onAircraftCreate",
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
+					attr = "GCT",
 					number = 1,
 					index = {
 						16460
@@ -92,13 +92,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAircraftAttr",
 				trigger = {
 					"onAircraftCreate",
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
+					attr = "GCT",
 					number = 1,
 					index = {
 						16460
@@ -110,13 +110,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAircraftAttr",
 				trigger = {
 					"onAircraftCreate",
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
+					attr = "GCT",
 					number = 1,
 					index = {
 						16460
@@ -128,13 +128,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAircraftAttr",
 				trigger = {
 					"onAircraftCreate",
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
+					attr = "GCT",
 					number = 1,
 					index = {
 						16460
@@ -146,13 +146,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAircraftAttr",
 				trigger = {
 					"onAircraftCreate",
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
+					attr = "GCT",
 					number = 1,
 					index = {
 						16460
@@ -164,13 +164,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAircraftAttr",
 				trigger = {
 					"onAircraftCreate",
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
+					attr = "GCT",
 					number = 1,
 					index = {
 						16460
@@ -190,13 +190,13 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffAddBulletAttr",
+			type = "BattleBuffAddAircraftAttr",
 			trigger = {
 				"onAircraftCreate",
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cri",
+				attr = "GCT",
 				number = 1,
 				index = {
 					16460
