@@ -7,7 +7,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_3",
+					attr = "damageToArmorRateEnhance_3",
 					number = 0.01
 				}
 			},
@@ -17,7 +17,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.01
 				}
 			}
@@ -31,7 +31,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_3",
+					attr = "damageToArmorRateEnhance_3",
 					number = 0.02
 				}
 			},
@@ -41,7 +41,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.02
 				}
 			}
@@ -55,7 +55,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_3",
+					attr = "damageToArmorRateEnhance_3",
 					number = 0.03
 				}
 			},
@@ -65,7 +65,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.03
 				}
 			}
@@ -79,7 +79,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_3",
+					attr = "damageToArmorRateEnhance_3",
 					number = 0.04
 				}
 			},
@@ -89,7 +89,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.04
 				}
 			}
@@ -103,7 +103,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_3",
+					attr = "damageToArmorRateEnhance_3",
 					number = 0.05
 				}
 			},
@@ -113,7 +113,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.05
 				}
 			}
@@ -127,7 +127,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_3",
+					attr = "damageToArmorRateEnhance_3",
 					number = 0.06
 				}
 			},
@@ -137,7 +137,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.06
 				}
 			}
@@ -151,7 +151,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_3",
+					attr = "damageToArmorRateEnhance_3",
 					number = 0.07
 				}
 			},
@@ -161,7 +161,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.07
 				}
 			}
@@ -175,7 +175,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_3",
+					attr = "damageToArmorRateEnhance_3",
 					number = 0.08
 				}
 			},
@@ -185,7 +185,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.08
 				}
 			}
@@ -199,7 +199,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_3",
+					attr = "damageToArmorRateEnhance_3",
 					number = 0.09
 				}
 			},
@@ -209,7 +209,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.09
 				}
 			}
@@ -223,7 +223,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_3",
+					attr = "damageToArmorRateEnhance_3",
 					number = 0.1
 				}
 			},
@@ -233,7 +233,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.1
 				}
 			}
@@ -262,7 +262,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageAgainstArmorEnhance_3",
+				attr = "damageToArmorRateEnhance_3",
 				number = 0.01
 			}
 		},
@@ -272,7 +272,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageAgainstArmorEnhance_2",
+				attr = "damageToArmorRateEnhance_2",
 				number = 0.01
 			}
 		}

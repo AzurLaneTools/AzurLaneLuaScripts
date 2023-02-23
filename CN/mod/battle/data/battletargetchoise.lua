@@ -1,22 +1,23 @@
 ys = ys or {}
 slot0 = ys.Battle.BattleConfig
 slot1 = ys.Battle.BattleAttr
-slot2 = {}
-ys.Battle.BattleTargetChoise = slot2
+slot2 = ys.Battle.BattleFormulas
+slot3 = {}
+ys.Battle.BattleTargetChoise = slot3
 
-function slot2.TargetNil()
+function slot3.TargetNil()
 	return nil
 end
 
-function slot2.TargetNull()
+function slot3.TargetNull()
 	return {}
 end
 
-function slot2.TargetAll()
+function slot3.TargetAll()
 	return ys.Battle.BattleDataProxy.GetInstance():GetUnitList()
 end
 
-function slot2.TargetEntityUnit()
+function slot3.TargetEntityUnit()
 	slot0 = {}
 
 	for slot5, slot6 in pairs(ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
@@ -28,7 +29,7 @@ function slot2.TargetEntityUnit()
 	return slot0
 end
 
-function slot2.TargetTemplate(slot0, slot1, slot2)
+function slot3.TargetTemplate(slot0, slot1, slot2)
 	slot3 = slot1.targetTemplateIDList or {
 		slot1.targetTemplateID
 	}
@@ -47,7 +48,7 @@ function slot2.TargetTemplate(slot0, slot1, slot2)
 	return slot5
 end
 
-function slot2.TargetNationality(slot0, slot1, slot2)
+function slot3.TargetNationality(slot0, slot1, slot2)
 	slot3 = slot1.targetTemplateIDList or {
 		slot1.targetTemplateID
 	}
@@ -68,7 +69,7 @@ function slot2.TargetNationality(slot0, slot1, slot2)
 	return slot5
 end
 
-function slot2.TargetShipType(slot0, slot1, slot2)
+function slot3.TargetShipType(slot0, slot1, slot2)
 	slot3 = slot2 or uv0.TargetEntityUnit()
 	slot4 = {}
 	slot5 = slot1.ship_type_list
@@ -82,7 +83,7 @@ function slot2.TargetShipType(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot2.TargetShipTag(slot0, slot1, slot2)
+function slot3.TargetShipTag(slot0, slot1, slot2)
 	slot3 = slot2 or uv0.TargetEntityUnit()
 	slot4 = {}
 	slot5 = slot1.ship_tag_list
@@ -96,7 +97,7 @@ function slot2.TargetShipTag(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot2.TargetShipArmor(slot0, slot1, slot2)
+function slot3.TargetShipArmor(slot0, slot1, slot2)
 	slot3 = slot2 or uv0.TargetEntityUnit()
 	slot4 = {}
 	slot5 = slot1.armor_type
@@ -110,7 +111,7 @@ function slot2.TargetShipArmor(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot2.getShipListByIFF(slot0)
+function slot3.getShipListByIFF(slot0)
 	slot1 = ys.Battle.BattleDataProxy.GetInstance()
 	slot2 = nil
 
@@ -123,7 +124,7 @@ function slot2.getShipListByIFF(slot0)
 	return slot2
 end
 
-function slot2.TargetAllHelp(slot0, slot1, slot2)
+function slot3.TargetAllHelp(slot0, slot1, slot2)
 	slot3 = {}
 
 	if slot0 then
@@ -143,7 +144,7 @@ function slot2.TargetAllHelp(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot2.TargetHelpLeastHP(slot0, slot1, slot2)
+function slot3.TargetHelpLeastHP(slot0, slot1, slot2)
 	slot3 = nil
 	slot4 = (slot1 or {}).targetMaxHPRatio
 
@@ -164,7 +165,7 @@ function slot2.TargetHelpLeastHP(slot0, slot1, slot2)
 	}
 end
 
-function slot2.TargetHelpLeastHPRatio(slot0, slot1, slot2)
+function slot3.TargetHelpLeastHPRatio(slot0, slot1, slot2)
 	slot1 = slot1 or {}
 	slot3 = nil
 
@@ -185,7 +186,7 @@ function slot2.TargetHelpLeastHPRatio(slot0, slot1, slot2)
 	}
 end
 
-function slot2.TargetHighestHP(slot0, slot1, slot2)
+function slot3.TargetHighestHP(slot0, slot1, slot2)
 	slot1 = slot1 or {}
 	slot3 = nil
 
@@ -206,7 +207,7 @@ function slot2.TargetHighestHP(slot0, slot1, slot2)
 	}
 end
 
-function slot2.TargetHighestHPRatio(slot0, slot1, slot2)
+function slot3.TargetHighestHPRatio(slot0, slot1, slot2)
 	slot1 = slot1 or {}
 	slot3 = nil
 
@@ -227,7 +228,20 @@ function slot2.TargetHighestHPRatio(slot0, slot1, slot2)
 	}
 end
 
-function slot2.TargetHPCompare(slot0, slot1, slot2)
+function slot3.TargetAttrCompare(slot0, slot1, slot2)
+	slot3 = {}
+	slot4 = slot2 or uv0.TargetEntityUnit()
+
+	for slot8, slot9 in pairs(slot4) do
+		if slot9:IsAlive() and uv1.parseCompareUnitAttr(slot1.attrCompare, slot9, slot0) then
+			table.insert(slot3, slot9)
+		end
+	end
+
+	return slot3
+end
+
+function slot3.TargetHPCompare(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = slot2 or uv0.TargetEntityUnit()
 
@@ -244,7 +258,7 @@ function slot2.TargetHPCompare(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot2.TargetHPRatioLowerThan(slot0, slot1, slot2)
+function slot3.TargetHPRatioLowerThan(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = slot1.hpRatioList[1]
 	slot5 = slot2 or uv0.TargetEntityUnit()
@@ -258,7 +272,7 @@ function slot2.TargetHPRatioLowerThan(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot2.TargetNationalityFriendly(slot0, slot1, slot2)
+function slot3.TargetNationalityFriendly(slot0, slot1, slot2)
 	slot3 = {}
 
 	if slot0 then
@@ -275,7 +289,7 @@ function slot2.TargetNationalityFriendly(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot2.TargetNationalityFoe(slot0, slot1, slot2)
+function slot3.TargetNationalityFoe(slot0, slot1, slot2)
 	slot3 = {}
 
 	if slot0 then
@@ -292,7 +306,7 @@ function slot2.TargetNationalityFoe(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot2.TargetShipTypeFriendly(slot0, slot1, slot2)
+function slot3.TargetShipTypeFriendly(slot0, slot1, slot2)
 	slot3 = {}
 
 	if slot0 then
@@ -309,13 +323,13 @@ function slot2.TargetShipTypeFriendly(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot2.TargetSelf(slot0)
+function slot3.TargetSelf(slot0)
 	return {
 		slot0
 	}
 end
 
-function slot2.TargetAllHarm(slot0, slot1, slot2)
+function slot3.TargetAllHarm(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = nil
 	slot5 = ys.Battle.BattleDataProxy.GetInstance()
@@ -341,7 +355,7 @@ function slot2.TargetAllHarm(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot2.TargetAllFoe(slot0, slot1, slot2)
+function slot3.TargetAllFoe(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = nil
 	slot5 = ys.Battle.BattleDataProxy.GetInstance()
@@ -367,7 +381,7 @@ function slot2.TargetAllFoe(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot2.TargetFoeUncloak(slot0, slot1, slot2)
+function slot3.TargetFoeUncloak(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = nil
 	slot5 = ys.Battle.BattleDataProxy.GetInstance()
@@ -393,7 +407,7 @@ function slot2.TargetFoeUncloak(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot2.TargetCloakState(slot0, slot1, slot2)
+function slot3.TargetCloakState(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = slot1.cloak or 1
 	slot5 = slot2 or uv0.TargetEntityUnit()
@@ -407,7 +421,7 @@ function slot2.TargetCloakState(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot2.TargetFaintState(slot0, slot1, slot2)
+function slot3.TargetFaintState(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = slot1.faint or 1
 	slot5 = slot2 or uv0.TargetEntityUnit()
@@ -427,7 +441,7 @@ function slot2.TargetFaintState(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot2.TargetHarmNearest(slot0, slot1, slot2)
+function slot3.TargetHarmNearest(slot0, slot1, slot2)
 	slot3 = (slot1 or {}).range or 9999999999.0
 	slot4 = nil
 	slot5 = slot2 or uv0.TargetFoeUncloak(slot0)
@@ -444,7 +458,7 @@ function slot2.TargetHarmNearest(slot0, slot1, slot2)
 	}
 end
 
-function slot2.TargetHarmFarthest(slot0, slot1, slot2)
+function slot3.TargetHarmFarthest(slot0, slot1, slot2)
 	slot3 = 0
 	slot4 = nil
 	slot5 = slot2 or uv0.TargetFoeUncloak(slot0)
@@ -461,7 +475,7 @@ function slot2.TargetHarmFarthest(slot0, slot1, slot2)
 	}
 end
 
-function slot2.TargetHarmRandom(slot0, slot1, slot2)
+function slot3.TargetHarmRandom(slot0, slot1, slot2)
 	if #(slot2 or uv0.TargetFoeUncloak(slot0)) > 0 then
 		return {
 			slot4[math.random(#slot4)]
@@ -471,7 +485,7 @@ function slot2.TargetHarmRandom(slot0, slot1, slot2)
 	end
 end
 
-function slot2.TargetHarmRandomByWeight(slot0, slot1, slot2)
+function slot3.TargetHarmRandomByWeight(slot0, slot1, slot2)
 	slot3 = slot2 or uv0.TargetFoeUncloak(slot0)
 	slot4 = {}
 	slot5 = -9999
@@ -496,7 +510,7 @@ function slot2.TargetHarmRandomByWeight(slot0, slot1, slot2)
 	end
 end
 
-function slot2.TargetWeightiest(slot0, slot1, slot2)
+function slot3.TargetWeightiest(slot0, slot1, slot2)
 	slot3 = slot2 or uv0.TargetEntityUnit()
 	slot4 = {}
 	slot5 = -9999
@@ -515,11 +529,11 @@ function slot2.TargetWeightiest(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot2.TargetRandom(slot0, slot1, slot2)
+function slot3.TargetRandom(slot0, slot1, slot2)
 	return Mathf.MultiRandom(slot2 or uv0.TargetEntityUnit(), slot1.randomCount or 1)
 end
 
-function slot2.TargetInsideArea(slot0, slot1, slot2)
+function slot3.TargetInsideArea(slot0, slot1, slot2)
 	slot3 = slot2 or uv0.TargetAllHarm(slot0)
 	slot5 = slot1.lineX
 	slot6 = {}
@@ -541,7 +555,7 @@ function slot2.TargetInsideArea(slot0, slot1, slot2)
 	return slot6
 end
 
-function slot2.TargetAircraftHelp(slot0)
+function slot3.TargetAircraftHelp(slot0)
 	slot2 = {}
 	slot3 = slot0:GetIFF()
 
@@ -554,7 +568,7 @@ function slot2.TargetAircraftHelp(slot0)
 	return slot2
 end
 
-function slot2.TargetAircraftHarm(slot0)
+function slot3.TargetAircraftHarm(slot0)
 	slot2 = {}
 	slot3 = slot0:GetIFF()
 
@@ -567,7 +581,7 @@ function slot2.TargetAircraftHarm(slot0)
 	return slot2
 end
 
-function slot2.TargetDiveState(slot0, slot1, slot2)
+function slot3.TargetDiveState(slot0, slot1, slot2)
 	slot3 = slot1 and slot1.diveState or ys.Battle.BattleConst.OXY_STATE.DIVE
 	slot4 = slot2 or uv0.TargetEntityUnit()
 	slot5 = {}
@@ -581,7 +595,7 @@ function slot2.TargetDiveState(slot0, slot1, slot2)
 	return slot5
 end
 
-function slot2.TargetDetectedUnit(slot0, slot1, slot2)
+function slot3.TargetDetectedUnit(slot0, slot1, slot2)
 	slot3 = slot2 or uv0.TargetEntityUnit()
 	slot4 = {}
 
@@ -594,7 +608,7 @@ function slot2.TargetDetectedUnit(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot2.TargetAllHarmBullet(slot0)
+function slot3.TargetAllHarmBullet(slot0)
 	slot2 = {}
 	slot3 = slot0:GetIFF()
 
@@ -607,7 +621,7 @@ function slot2.TargetAllHarmBullet(slot0)
 	return slot2
 end
 
-function slot2.TargetAllHarmBulletByType(slot0, slot1)
+function slot3.TargetAllHarmBulletByType(slot0, slot1)
 	slot3 = {}
 	slot4 = slot0:GetIFF()
 
@@ -620,11 +634,11 @@ function slot2.TargetAllHarmBulletByType(slot0, slot1)
 	return slot3
 end
 
-function slot2.TargetAllHarmTorpedoBullet(slot0)
+function slot3.TargetAllHarmTorpedoBullet(slot0)
 	return uv0.TargetAllHarmBulletByType(slot0, ys.Battle.BattleConst.BulletType.TORPEDO)
 end
 
-function slot2.TargetFleetIndex(slot0, slot1)
+function slot3.TargetFleetIndex(slot0, slot1)
 	slot2 = ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF())
 	slot3 = TeamType.TeamPos
 	slot4 = slot1.fleetPos
@@ -674,7 +688,7 @@ function slot2.TargetFleetIndex(slot0, slot1)
 	return slot5
 end
 
-function slot2.TargetPlayerVanguardFleet(slot0, slot1, slot2)
+function slot3.TargetPlayerVanguardFleet(slot0, slot1, slot2)
 	slot4 = ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF()):GetScoutList()
 
 	if not slot2 then
@@ -694,7 +708,7 @@ function slot2.TargetPlayerVanguardFleet(slot0, slot1, slot2)
 	end
 end
 
-function slot2.TargetPlayerMainFleet(slot0, slot1, slot2)
+function slot3.TargetPlayerMainFleet(slot0, slot1, slot2)
 	slot4 = ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF()):GetMainList()
 
 	if not slot2 then
@@ -714,19 +728,19 @@ function slot2.TargetPlayerMainFleet(slot0, slot1, slot2)
 	end
 end
 
-function slot2.TargetPlayerFlagShip(slot0, slot1, slot2)
+function slot3.TargetPlayerFlagShip(slot0, slot1, slot2)
 	return {
 		ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF()):GetFlagShip()
 	}
 end
 
-function slot2.TargetPlayerLeaderShip(slot0, slot1, slot2)
+function slot3.TargetPlayerLeaderShip(slot0, slot1, slot2)
 	return {
 		ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF()):GetLeaderShip()
 	}
 end
 
-function slot2.TargetPlayerByType(slot0, slot1)
+function slot3.TargetPlayerByType(slot0, slot1)
 	slot4 = {}
 	slot5 = slot1.shipType
 
@@ -739,7 +753,7 @@ function slot2.TargetPlayerByType(slot0, slot1)
 	return slot4
 end
 
-function slot2.TargetPlayerAidUnit(slot0, slot1)
+function slot3.TargetPlayerAidUnit(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(ys.Battle.BattleDataProxy.GetInstance():GetAidUnit()) do
@@ -749,7 +763,7 @@ function slot2.TargetPlayerAidUnit(slot0, slot1)
 	return slot3
 end
 
-function slot2.TargetDamageSource(slot0, slot1, slot2)
+function slot3.TargetDamageSource(slot0, slot1, slot2)
 	slot3 = slot2 or uv0.TargetAllFoe(slot0)
 	slot4 = {}
 
@@ -764,7 +778,7 @@ function slot2.TargetDamageSource(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot2.TargetRarity(slot0, slot1, slot2)
+function slot3.TargetRarity(slot0, slot1, slot2)
 	slot3 = slot2 or uv0.TargetAllHelp(slot0)
 	slot4 = {}
 
@@ -777,7 +791,7 @@ function slot2.TargetRarity(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot2.TargetIllustrator(slot0, slot1, slot2)
+function slot3.TargetIllustrator(slot0, slot1, slot2)
 	slot3 = slot2 or uv0.TargetAllHelp(slot0)
 	slot4 = {}
 
@@ -790,7 +804,7 @@ function slot2.TargetIllustrator(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot2.TargetTeam(slot0, slot1, slot2)
+function slot3.TargetTeam(slot0, slot1, slot2)
 	slot3 = ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF())
 	slot4 = {}
 
@@ -813,7 +827,7 @@ function slot2.TargetTeam(slot0, slot1, slot2)
 	return slot6
 end
 
-function slot2.TargetGroup(slot0, slot1, slot2)
+function slot3.TargetGroup(slot0, slot1, slot2)
 	slot3 = slot1.groupIDList
 	slot4 = slot2 or uv0.TargetAllHelp(slot0)
 	slot5 = {}

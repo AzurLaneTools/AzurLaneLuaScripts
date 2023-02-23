@@ -1419,5 +1419,21 @@ pg.voice_actor_CN = {
 	{
 		code = 355,
 		actor_name = "张琦"
+	},
+	{
+		code = 356,
+		actor_name = "Yukana"
+	},
+	{
+		code = 357,
+		actor_name = "高木美佑"
+	},
+	{
+		code = 358,
+		actor_name = "樱庭有纱"
+	},
+	{
+		code = 359,
+		actor_name = "进藤天音"
 	}
 }

@@ -24,7 +24,8 @@ slot0.WaveTriggerType = {
 	CAMERA = 7,
 	CLEAR = 8,
 	JAMMING = 9,
-	ENVIRONMENT = 10
+	ENVIRONMENT = 10,
+	LABEL = 11
 }
 slot0.UnitType = {
 	PLAYER_UNIT = 1,

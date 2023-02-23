@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抢在自由鸢尾前面，看看维希教廷究竟那里面弄了些什么东西！",
+			say = "抢在自由鸢尾前面，看看维希教廷究竟在那里面弄了些什么东西！",
 			painting = {
 				alpha = 0.3,
 				time = 1

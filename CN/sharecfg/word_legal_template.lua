@@ -512,6 +512,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["库"] = {
+			["拉"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -2357,6 +2362,9 @@ function temp()
 			["座"] = {
 				this = true
 			}
+		},
+		["雄"] = {
+			this = true
 		}
 	}
 end
@@ -3097,6 +3105,11 @@ function temp()
 					["号"] = {
 						this = true
 					}
+				}
+			},
+			["橡"] = {
+				["树"] = {
+					this = true
 				}
 			}
 		}
@@ -5605,6 +5618,13 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["眼"] = {
+			["巨"] = {
+				["人"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -6253,6 +6273,16 @@ function temp()
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["怨"] = {
+		["仇"] = {
+			this = true
 		}
 	}
 end

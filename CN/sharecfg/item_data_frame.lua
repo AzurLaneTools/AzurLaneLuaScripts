@@ -381,10 +381,10 @@ pg.item_data_frame = {
 	[324] = {
 		time_limit_type = 0,
 		name = "圣辉之证",
-		gain_by = "",
+		gain_by = "湮烬尘墟",
 		id = 324,
 		time_second = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「以女王陛下之名，愿祝福之光照耀世间——」</color>\n「湮烬尘墟」活动获取",
 		scene = {}
 	},
 	[401] = {

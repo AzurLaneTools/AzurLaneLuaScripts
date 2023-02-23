@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "如果有发现会的话，我会第一时间向您汇报的。",
+			say = "如果有发现的话，我会第一时间向您汇报的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "撒丁帝国将会场秩序维持得十分良好，也接二连三的举办活跃气氛的活动，每天都是在火热的节日气氛中度过……的感觉？",
+			say = "撒丁帝国将会场秩序维持得十分良好，也接二连三地举办活跃气氛的活动，每天都是在火热的节日气氛中度过……的感觉？",
 			painting = {
 				alpha = 0.3,
 				time = 1

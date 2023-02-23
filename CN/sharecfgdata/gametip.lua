@@ -10082,7 +10082,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "苏维埃贝拉罗斯、基洛夫等角色 建造概率UP!"
+	tip = "每累计建造200次可获得海上传奇舰船 怨仇(最多4次)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -23174,4 +23174,44 @@ _G.pg.base.gametip.loveletter_exchange_button = {
 
 _G.pg.base.gametip.loveletter_exchange_tip3 = {
 	tip = "更换成功，请前往邮件查看"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_1 = {
+	tip = "战争骑士似乎在向<color=#f1f102>左前方</color>向蓄势"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_2 = {
+	tip = "战争骑士似乎在向<color=#f1f102>正前方</color>向蓄势"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_3 = {
+	tip = "战争骑士似乎在向<color=#f1f102>右前方</color>向蓄势"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_4 = {
+	tip = "战争骑士似乎受到了某种<color=#f1f102>反噬</color>"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_5 = {
+	tip = "战争骑士变得更加<color=#f1f102>狂热</color>了起来"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_6 = {
+	tip = "战争骑士正在全神贯注积蓄力量，<color=#f1f102>阻止它</color>"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_7 = {
+	tip = "战争骑士正保持着警惕，暂时<color=#f1f102>不要轻举妄动</color>"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_8 = {
+	tip = "战争骑士开始用特殊装置<color=#f1f102>锁定</color>我方主力舰队"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_9 = {
+	tip = "引导对方的<color=#f1f102>主炮攻击</color>破坏这些装置"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_10 = {
+	tip = "战争骑士陷入了<color=#f1f102>瘫痪状态</color>，舰队可以随意开火"
 }

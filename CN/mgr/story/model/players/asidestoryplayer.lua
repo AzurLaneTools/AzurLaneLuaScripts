@@ -121,7 +121,7 @@ function slot0.PlayBubbleAside(slot0, slot1, slot2)
 				uv0()
 			end
 
-			slot2:setSpeed(0.1)
+			slot2:setSpeed(uv3:GetTypewriterSpeed())
 			slot2:Play()
 		end)
 	end

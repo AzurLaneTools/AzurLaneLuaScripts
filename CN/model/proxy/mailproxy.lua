@@ -188,29 +188,25 @@ function slot0.getMailAttachments(slot0)
 end
 
 function slot0.getAllAttachment(slot0)
+	slot2 = {}
+
 	_.each(slot0:getMailAttachments(), function (slot0)
 		_.each(slot0.attachments or {}, function (slot0)
-			slot1 = slot0.dropType .. "_" .. slot0.id
-
 			if slot0.dropType == DROP_TYPE_LOVE_LETTER then
-				slot1 = slot1 .. "_" .. slot0.count
-			end
-
-			if uv0[slot1] then
-				uv0[slot1].count = uv0[slot1].count + slot0.count
+				table.insert(uv0, slot0)
+			elseif uv1[slot0.dropType .. "_" .. slot0.id] then
+				uv1[slot1].count = uv1[slot1].count + slot0.count
 			else
-				uv0[slot1] = slot0
+				uv1[slot1] = slot0
 			end
 		end)
 	end)
 
-	slot3 = {}
-
 	for slot7, slot8 in pairs({}) do
-		table.insert(slot3, slot8)
+		table.insert(slot2, slot8)
 	end
 
-	return slot3
+	return slot2
 end
 
 return slot0
