@@ -97,10 +97,10 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "Theme-vichy-church",
 		special_bgm = "",
 		time = "",
-		bgm = "login"
+		bgm = "Theme-vichy-church"
 	},
 	NewMainScene = {
 		default_bgm = "main",

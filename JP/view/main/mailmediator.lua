@@ -76,7 +76,7 @@ end
 function slot0.getAllAttachment(slot0)
 	slot1 = {}
 	slot2 = getProxy(MailProxy)
-	slot1 = _.map(slot2:getAllAttachment(), function (slot0)
+	slot1 = underscore.map(slot2:getAllAttachment(), function (slot0)
 		return {
 			type = slot0.dropType,
 			id = slot0.id,

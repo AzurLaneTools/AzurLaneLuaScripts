@@ -637,7 +637,8 @@ pg.fleet_tech_ship_class = {
 		t_level = 4,
 		ships = {
 			20116,
-			20120
+			20120,
+			20136
 		}
 	},
 	[20107] = {
@@ -801,6 +802,7 @@ pg.fleet_tech_ship_class = {
 			20224,
 			20227,
 			20230,
+			20233,
 			20231
 		}
 	},
@@ -1024,7 +1026,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 62,
 		t_level = 6,
 		ships = {
-			20511
+			20511,
+			20514
 		}
 	},
 	[20506] = {
@@ -1095,6 +1098,17 @@ pg.fleet_tech_ship_class = {
 			20608
 		}
 	},
+	[20607] = {
+		shiptype = 6,
+		name = "アーガス",
+		nation = 2,
+		id = 20607,
+		t_level_1 = 61,
+		t_level = 3,
+		ships = {
+			20602
+		}
+	},
 	[20701] = {
 		shiptype = 7,
 		name = "イラストリアス級",
@@ -1140,6 +1154,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 3,
 		ships = {
 			20701
+		}
+	},
+	[20705] = {
+		shiptype = 7,
+		name = "インプラカブル級",
+		nation = 2,
+		id = 20705,
+		t_level_1 = 67,
+		t_level = 8,
+		ships = {
+			20707
 		}
 	},
 	[21301] = {
@@ -3079,10 +3104,12 @@ pg.fleet_tech_ship_class = {
 		20603,
 		20604,
 		20605,
+		20607,
 		20701,
 		20702,
 		20703,
 		20704,
+		20705,
 		21301,
 		21302,
 		30101,

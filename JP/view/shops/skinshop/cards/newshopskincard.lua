@@ -19,6 +19,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.discountTagOffTxt = slot0.discountTag:Find("Text"):GetComponent(typeof(Text))
 	slot0.timelimitTag = slot0._tf:Find("frame/content/top/tag_timelimit")
 	slot0.isSelected = false
+	slot0._icon.transform.localScale = Vector3.zero
 end
 
 slot10 = {
@@ -96,10 +97,12 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	slot5 = pg.ship_skin_template
 	slot0.shipSkinConfig = slot5[slot4]
 	slot0._icon.sprite = nil
+	slot0._icon.transform.localScale = Vector3.zero
 
 	LoadSpriteAsync("shipYardIcon/" .. slot5[slot4].prefab, function (slot0)
 		if not IsNil(uv0._icon) then
 			uv0._icon.sprite = slot0
+			uv0._icon.transform.localScale = Vector3.one
 		end
 	end)
 
@@ -108,6 +111,10 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 
 	if slot0.commodity.type == Goods.TYPE_SKIN then
 		LoadSpriteAsync(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon, function (slot0)
+			if IsNil(uv0._priceIcon) then
+				return
+			end
+
 			uv0._priceIcon.sprite = slot0
 		end)
 
@@ -161,6 +168,7 @@ end
 function slot0.Dispose(slot0)
 	slot0:UpdateSelected(false)
 
+	slot0._icon.transform.localScale = Vector3.one
 	slot0._go = nil
 	slot0._tf = nil
 end

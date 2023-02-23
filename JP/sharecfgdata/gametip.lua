@@ -10093,7 +10093,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「ソビエツカヤ·ベラルーシア」「キーロフ」などの出現率UP！"
+	tip = "期間限定建造を累計200回行うと「インプラカブル」を確定で入手可能！（最大4隻まで）"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -20890,8 +20890,8 @@ _G.pg.base.gametip.blackfriday_help = {
 			info = [[
 ルール説明：
 1.キャンペーン期間中、復刻きせかえの購入数に応じて、キャンペーン報酬を入手出来ます
-2.限定家具「お買い物だにゃ！」は家具ショップでもダイヤで直接購入できます。すでに「お買い物だにゃ！」を所持している状態で再度キャンペーンから入手した場合、自動でダイヤに変換されます。
-3.既に復刻衣装126着を全部所持、もしくは購入可能分がキャンペーン報酬を入手できる購入数に満たない場合、キャンペーン報酬の入手条件に関係なく、その報酬を獲得することが可能です。]]
+2.限定家具「ジェム・スプリング」は家具ショップでもダイヤで直接購入できます。すでに「ジェム・スプリング」を所持している状態で再度キャンペーンから入手した場合、自動でダイヤに変換されます。
+3.既に復刻衣装92着を全部所持、もしくは購入可能分がキャンペーン報酬を入手できる購入数に満たない場合、キャンペーン報酬の入手条件に関係なく、その報酬を獲得することが可能です。]]
 		}
 	}
 }
@@ -23453,4 +23453,44 @@ _G.pg.base.gametip.loveletter_exchange_button = {
 
 _G.pg.base.gametip.loveletter_exchange_tip3 = {
 	tip = "補填メールをメールボックスにてご確認ください"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_1 = {
+	tip = "騎士はチャージをしている（左）"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_2 = {
+	tip = "騎士はチャージをしている（中央）"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_3 = {
+	tip = "騎士はチャージをしている（右）"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_4 = {
+	tip = "騎士の防御が手薄になっている！"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_5 = {
+	tip = "騎士の出力が上昇している！"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_6 = {
+	tip = "騎士による強力な攻撃を阻止せよ！"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_7 = {
+	tip = "騎士が警戒状態だ！動きを慎重に！"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_8 = {
+	tip = "騎士は味方主力艦隊をロックオンしている"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_9 = {
+	tip = "敵の主砲攻撃をうまく誘導し装置を破壊させよ！"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_10 = {
+	tip = "騎士の動きが弱っている、火力を集中せよ！"
 }

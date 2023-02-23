@@ -1375,5 +1375,21 @@ pg.voice_actor_CN = {
 	[354] = {
 		code = 354,
 		actor_name = "貫井柚佳"
+	},
+	[356] = {
+		code = 356,
+		actor_name = "ゆかな"
+	},
+	[357] = {
+		code = 357,
+		actor_name = "高木美佑"
+	},
+	[358] = {
+		code = 358,
+		actor_name = "櫻庭有紗"
+	},
+	[359] = {
+		code = 359,
+		actor_name = "進藤あまね"
 	}
 }

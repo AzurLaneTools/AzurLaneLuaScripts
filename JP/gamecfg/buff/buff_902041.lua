@@ -22,7 +22,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageAgainstArmorEnhance_1",
+				attr = "damageToArmorRateEnhance_1",
 				number = -0.05,
 				index = {
 					1
@@ -35,7 +35,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageAgainstArmorEnhance_3",
+				attr = "damageToArmorRateEnhance_3",
 				number = 0.05,
 				index = {
 					1

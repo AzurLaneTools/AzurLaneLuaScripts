@@ -156,6 +156,7 @@ end
 
 function slot6.InitCommonWarning(slot0)
 	slot0._warningView = uv0.Battle.BattleCommonWarningView.New(slot0._ui:findTF("WarningView"))
+	slot0._updateViewList[slot0._warningView] = true
 end
 
 function slot6.InitScoreBar(slot0)
@@ -247,7 +248,7 @@ function slot6.AddUIEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_COUNT_DOWN, slot0.onUpdateCountDown)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.HIDE_INTERACTABLE_BUTTONS, slot0.OnHideButtons)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_UI_FX, slot0.OnAddUIFX)
-	slot0._dataProxy:RegisterEventListener(slot0, uv0.JAMMING, slot0.onJamming)
+	slot0._dataProxy:RegisterEventListener(slot0, uv0.EDIT_CUSTOM_WARNING_LABEL, slot0.onEditCustomWarning)
 end
 
 function slot6.RemoveUIEvent(slot0)
@@ -276,6 +277,7 @@ function slot6.RemoveUIEvent(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_ENVIRONMENT_WARNING)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.HIDE_INTERACTABLE_BUTTONS)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_UI_FX)
+	slot0._dataProxy:UnregisterEventListener(slot0, uv0.EDIT_CUSTOM_WARNING_LABEL)
 end
 
 function slot6.ShowSkillPainting(slot0, slot1, slot2, slot3)
@@ -639,6 +641,10 @@ function slot6.OnHideButtons(slot0, slot1)
 	SetActive(slot0._autoBtn.transform, slot2)
 end
 
+function slot6.onEditCustomWarning(slot0, slot1)
+	slot0._warningView:EditCustomWarning(slot1.Data.labelData)
+end
+
 function slot6.registerUnitEvent(slot0, slot1)
 	slot1:RegisterEventListener(slot0, uv0.SKILL_FLOAT, slot0.onSkillFloat)
 end
@@ -683,6 +689,9 @@ function slot6.Dispose(slot0)
 	end
 
 	slot0:RemoveUIEvent()
+
+	slot0._updateViewList = nil
+
 	slot0._timerView:Dispose()
 	slot0._enemyHpBar:Dispose()
 	slot0._skillView:Dispose()

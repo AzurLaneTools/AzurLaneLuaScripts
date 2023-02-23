@@ -381,10 +381,10 @@ pg.item_data_frame = {
 	[324] = {
 		time_limit_type = 0,
 		name = "ホーリー・ベネディクション",
-		gain_by = "",
+		gain_by = "黙示の遺構",
 		id = 324,
 		time_second = 0,
-		desc = "イベントで入手可能",
+		desc = "<color=#ffffff>「求められしものは神ではなく、女王陛下の祝福の光ーー」</color>\n「黙示の遺構」に参加した指揮官に贈る",
 		scene = {}
 	},
 	[401] = {

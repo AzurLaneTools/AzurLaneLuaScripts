@@ -87,6 +87,8 @@ function slot0.Flush(slot0, slot1)
 		slot0:FlushPaintingToggle(slot1)
 		slot0:FlushBG(slot1)
 		slot0:FlushPainting(slot1)
+	else
+		slot0:FlushBG(slot1)
 	end
 
 	slot0:FlushPrice(slot1)
@@ -152,15 +154,16 @@ function slot0.FlushBG(slot0, slot1, slot2)
 		configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot3].ship_group).id,
 		skin_id = slot3
 	}):getShipBgPrint(true)
+	slot8 = pg.ship_skin_template[slot3].painting
 
-	if slot0.isToggleShowBg and slot4.bg_sp ~= "" then
+	if (slot0.isToggleShowBg or not PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot8 .. "_n"))) and slot4.bg_sp ~= "" then
 		slot7 = slot4.bg_sp
 	end
 
 	if slot7 ~= slot6:rarity2bgPrintForGet() then
-		slot9 = pg.DynamicBgMgr.GetInstance()
+		slot10 = pg.DynamicBgMgr.GetInstance()
 
-		slot9:LoadBg(slot0, slot7, slot0.diffBg.parent, slot0.diffBg, function (slot0)
+		slot10:LoadBg(slot0, slot7, slot0.diffBg.parent, slot0.diffBg, function (slot0)
 			if uv0 then
 				uv0()
 			end
@@ -173,8 +176,8 @@ function slot0.FlushBG(slot0, slot1, slot2)
 		slot2()
 	end
 
-	setActive(slot0.diffBg, slot8)
-	setActive(slot0.defaultBg, not slot8)
+	setActive(slot0.diffBg, slot9)
+	setActive(slot0.defaultBg, not slot9)
 end
 
 function slot0.FlushName(slot0, slot1)

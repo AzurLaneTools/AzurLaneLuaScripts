@@ -7,6 +7,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.front = slot0:findTF("front")
+	slot0.actorTr = slot0._tf:Find("actor")
+	slot0.frontTr = slot0._tf:Find("front")
 	slot0.goCG = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 	slot0.asidePanel = slot0:findTF("front/aside_panel")
 	slot0.bgGlitch = slot0:findTF("back/bg_glitch")
@@ -586,19 +588,28 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 
 	for slot8, slot9 in ipairs(slot3) do
 		slot11 = slot9.active
+		slot12 = slot9.interlayer
 
 		if slot0.effectPanel:Find(slot9.name) then
-			setActive(slot12, slot11)
-		else
-			slot13 = ""
+			setActive(slot13, slot11)
 
-			if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. slot10)) then
-				slot13 = "ui"
-			elseif PathMgr.FileExists(PathMgr.getAssetBundle("effect/" .. slot10)) then
-				slot13 = "effect"
+			if slot12 then
+				slot0:UpdateEffectInterLayer(slot10, slot12)
 			end
 
-			if slot13 and slot13 ~= "" then
+			if slot11 == false then
+				slot0:ClearEffectInterlayer(slot10)
+			end
+		else
+			slot14 = ""
+
+			if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. slot10)) then
+				slot14 = "ui"
+			elseif PathMgr.FileExists(PathMgr.getAssetBundle("effect/" .. slot10)) then
+				slot14 = "effect"
+			end
+
+			if slot14 and slot14 ~= "" then
 				table.insert(slot4, function (slot0)
 					LoadAndInstantiateAsync(uv0, uv1, function (slot0)
 						setParent(slot0, uv0.effectPanel.transform)
@@ -606,7 +617,15 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 
 						slot0.name = uv2
 
-						uv3()
+						if uv3 then
+							uv0:UpdateEffectInterLayer(uv2, uv3)
+						end
+
+						if uv1 == false then
+							uv0:ClearEffectInterlayer(uv2)
+						end
+
+						uv4()
 					end)
 				end)
 			else
@@ -618,8 +637,45 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 	parallelAsync(slot4, slot2)
 end
 
+function slot0.UpdateEffectInterLayer(slot0, slot1, slot2)
+	slot3 = GetOrAddComponent(slot0.actorTr, typeof(Canvas))
+	slot3.overrideSorting = true
+	slot3.sortingOrder = slot2
+	slot4 = GetOrAddComponent(slot0.frontTr, typeof(Canvas))
+	slot4.overrideSorting = true
+	slot4.sortingOrder = slot2 + 1
+	slot0.activeInterLayer = slot1
+
+	GetOrAddComponent(slot0.frontTr, typeof(GraphicRaycaster))
+end
+
+function slot0.ClearEffectInterlayer(slot0, slot1)
+	if slot0.activeInterLayer == slot1 then
+		slot3 = slot0.frontTr:GetComponent(typeof(Canvas))
+		slot4 = slot0.frontTr:GetComponent(typeof(GraphicRaycaster))
+
+		if slot0.actorTr:GetComponent(typeof(Canvas)) then
+			Object.Destroy(slot2)
+		end
+
+		if slot4 then
+			Object.Destroy(slot4)
+		end
+
+		if slot3 then
+			Object.Destroy(slot3)
+		end
+
+		slot0.activeInterLayer = nil
+	end
+end
+
 function slot0.ClearEffects(slot0)
 	removeAllChildren(slot0.effectPanel)
+
+	if slot0.activeInterLayer ~= nil then
+		slot0:ClearEffectInterlayer(slot0.activeInterLayer)
+	end
 end
 
 function slot0.PlaySoundEffect(slot0, slot1)

@@ -153,20 +153,20 @@ function slot0.CreateContextCalculateDamage(slot0)
 		end
 
 		slot31 = uv0.NUM1
-		slot25 = math.max(slot31, math.floor(slot25 * slot19 * (slot31 - slot2) * ((slot10:GetFixAmmo() or slot16[slot20] or slot31) + uv2.GetCurrent(slot0, uv5.AGAINST_ARMOR_ENHANCE[slot20])) * slot22 * (slot31 + uv2.GetCurrent(slot0, "damageRatioBullet")) * uv2.GetTagAttr(slot0, slot1, uv6) * (slot31 + uv2.GetCurrent(slot1, "injureRatio")) * (slot31 + uv2.GetCurrent(slot0, uv7[slot15.ammo_type]) - uv2.GetCurrent(slot1, uv8[slot15.ammo_type])) * (slot31 + uv2.GetCurrent(slot1, uv2.GetCurrent(slot0, "comboTag"))) * (slot31 + math.min(slot7[1], math.max(-slot7[1], slot21)) * slot7[2])))
+		slot25 = math.max(slot31, math.floor(slot25 * slot19 * (slot31 - slot2) * ((slot10:GetFixAmmo() or slot16[slot20] or slot31) + uv2.GetCurrent(slot0, uv5.DAMAGE_AMMO_TO_ARMOR_RATE_ENHANCE[slot20])) * (slot31 + uv2.GetCurrent(slot0, uv5.DAMAGE_TO_ARMOR_RATE_ENHANCE[slot20])) * slot22 * (slot31 + uv2.GetCurrent(slot0, "damageRatioBullet")) * uv2.GetTagAttr(slot0, slot1, uv6) * (slot31 + uv2.GetCurrent(slot1, "injureRatio")) * (slot31 + uv2.GetCurrent(slot0, uv7[slot15.ammo_type]) - uv2.GetCurrent(slot1, uv8[slot15.ammo_type])) * (slot31 + uv2.GetCurrent(slot1, uv2.GetCurrent(slot0, "comboTag"))) * (slot31 + math.min(slot7[1], math.max(-slot7[1], slot21)) * slot7[2])))
 
 		if slot1:GetCurrentOxyState() == uv1.OXY_STATE.DIVE then
 			slot25 = math.floor(slot25 * slot15.antisub_enhancement)
 		end
 
-		slot40 = {
+		slot41 = {
 			isMiss = slot23,
 			isCri = slot24,
 			damageAttr = slot13
 		}
 
 		if slot0:GetDamageEnhance() ~= 1 then
-			slot25 = math.floor(slot25 * slot41)
+			slot25 = math.floor(slot25 * slot42)
 		end
 
 		slot25 = slot25 * slot18.repressReduce
@@ -182,13 +182,13 @@ function slot0.CreateContextCalculateDamage(slot0)
 		end
 
 		slot25 = math.floor(slot25)
-		slot43 = slot15.DMG_font[slot20]
+		slot44 = slot15.DMG_font[slot20]
 
-		if slot42 < 0 then
-			slot43 = uv5.BULLET_DECREASE_DMG_FONT
+		if slot43 < 0 then
+			slot44 = uv5.BULLET_DECREASE_DMG_FONT
 		end
 
-		return slot25, slot40, slot43
+		return slot25, slot41, slot44
 	end
 end
 
@@ -612,6 +612,13 @@ function slot0.simpleCompare(slot0, slot1)
 	slot2, slot3 = string.find(slot0, "%p+")
 
 	return getCompareFuncByPunctuation(string.sub(slot0, slot2, slot3))(slot1, tonumber(string.sub(slot0, slot3 + 1, #slot0)))
+end
+
+function slot0.parseCompareUnitAttr(slot0, slot1, slot2)
+	slot3, slot4 = string.find(slot0, "%p+")
+	slot7 = string.sub(slot0, slot4 + 1, #slot0)
+
+	return getCompareFuncByPunctuation(string.sub(slot0, slot3, slot4))(tonumber(string.sub(slot0, 1, slot3 - 1)) or slot1:GetAttrByName(slot6), tonumber(slot7) or slot2:GetAttrByName(slot7))
 end
 
 function slot0.parseCompare(slot0, slot1)
