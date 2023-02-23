@@ -4404,41 +4404,15 @@ pg.activity_template = {
 	},
 	[4685] = {
 		mark = 20230209,
-		config_client = "",
 		title_res_tag = "ValentineQte",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 42,
 		is_show = 21,
+		config_client = "",
 		id = 4685,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "ValentineQtePage",
 			ui_name = "ValentineQtePage"
@@ -4446,12 +4420,13 @@ pg.activity_template = {
 	},
 	[4686] = {
 		mark = 20230209,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 29,
 		login_pop = 0,
 		config_id = 15,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4686,
 		config_data = {
@@ -4462,33 +4437,6 @@ pg.activity_template = {
 			{
 				itemID,
 				44001
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -4536,42 +4484,16 @@ pg.activity_template = {
 	},
 	[4688] = {
 		mark = 20230216,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 23,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4688,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4689] = {
 		mark = 20230216,
