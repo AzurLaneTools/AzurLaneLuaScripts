@@ -9302,6 +9302,68 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[75025] = {
+		id = 75025,
+		name = "2023英系活动B3 审判机甲-战争 水平追踪移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 8,
+				param = {
+					X = -5,
+					duration = 4,
+					offsetZ = 0
+				}
+			}
+		}
+	},
+	[75026] = {
+		id = 75026,
+		name = "2023英系活动B3 审判机甲-战争 向左突进",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -70,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[75027] = {
+		id = 75027,
+		name = "骑士二阶段大范围随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					Z1 = 25,
+					Z2 = 85,
+					X2 = 5,
+					moveCount = 5000,
+					duration = -1,
+					X1 = -40,
+					stopCount = 0
+				}
+			}
+		}
+	},
 	[80000] = {
 		id = 80000,
 		name = "自爆船AI",

@@ -594,6 +594,27 @@ function retShopPaintingPrefab(slot0, slot1)
 	retPaintingPrefab(slot0, slot1, "shoppainting/")
 end
 
+function setBuildPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
+	slot5, slot6, slot7 = checkPaintingPrefab(slot0, slot1, slot2, slot4)
+	uv0[slot0] = slot6
+	slot8 = PoolMgr.GetInstance()
+
+	slot8:GetPaintingWithPrefix(slot6, true, function (slot0)
+		onLoadedPaintingPrefabAsync({
+			paintingTF = slot0,
+			fitterTF = uv0,
+			objectOrTransform = uv1,
+			paintingName = uv2,
+			defaultPaintingName = uv3,
+			callback = uv4
+		})
+	end, "buildpainting/")
+end
+
+function retBuildPaintingPrefab(slot0, slot1)
+	retPaintingPrefab(slot0, slot1, "buildpainting/")
+end
+
 function setColorCount(slot0, slot1, slot2)
 	setText(slot0, string.format(slot1 < slot2 and "<color=" .. COLOR_RED .. ">%d</color>/%d" or "%d/%d", slot1, slot2))
 end

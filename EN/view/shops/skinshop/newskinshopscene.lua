@@ -127,6 +127,8 @@ function slot0.OnShopping(slot0, slot1)
 		end
 
 		slot0:UpdateCommodities(slot2, false)
+
+		slot0.commodities = slot2
 	end
 end
 

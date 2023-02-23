@@ -1991,15 +1991,6 @@ function slot0.trackChapter(slot0, slot1, slot2)
 			return
 		end
 
-		slot3 = uv2:getConfig("enter_story_limit")
-
-		if uv2:getConfig("enter_story") and slot2 ~= "" and uv0:isCrossStoryLimit(slot3) and not slot0:isRemaster() then
-			ChapterOpCommand.PlayChapterStory(slot2, function ()
-				onNextTick(uv0)
-			end, uv2:isLoop() and PlayerPrefs.GetInt("chapter_autofight_flag_" .. uv2.id, 1) == 1)
-			coroutine.yield()
-		end
-
 		if uv2:isTriesLimit() and not uv2:enoughTimes2Start() then
 			if uv2:IsSpChapter() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("sp_no_quota"))
@@ -2010,9 +2001,28 @@ function slot0.trackChapter(slot0, slot1, slot2)
 			return
 		end
 
-		if uv3 then
-			uv3()
+		slot3 = uv2:getConfig("enter_story_limit")
+
+		if uv2:getConfig("enter_story") and slot2 ~= "" and uv0:isCrossStoryLimit(slot3) and not slot0:isRemaster() and not pg.NewStoryMgr.GetInstance():IsPlayed(slot2) then
+			if tonumber(slot2) and slot5 > 0 then
+				uv0:emit(LevelMediator2.ON_PERFORM_COMBAT, slot5, uv1)
+				coroutine.yield()
+			else
+				slot6 = ChapterOpCommand.PlayChapterStory
+				slot7 = slot2
+
+				function slot8()
+					onNextTick(uv0)
+				end
+
+				slot9 = uv2:isLoop() and PlayerPrefs.GetInt("chapter_autofight_flag_" .. uv2.id, 1) == 1
+
+				slot6(slot7, slot8, slot9)
+				coroutine.yield()
+			end
 		end
+
+		existCall(uv3)
 	end)()
 end
 

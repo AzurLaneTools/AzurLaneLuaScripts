@@ -10201,7 +10201,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Sovetskaya Belorussiya, Kirov and more!"
+	tip = "Get Implacable guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -23313,4 +23313,44 @@ _G.pg.base.gametip.loveletter_exchange_button = {
 
 _G.pg.base.gametip.loveletter_exchange_tip3 = {
 	tip = "Replacement successful. Please check your Inbox to receive your new items."
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_1 = {
+	tip = "The Horseman is charging <color=#f1f102>left</color>!"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_2 = {
+	tip = "The Horseman is charging <color=#f1f102>forward</color>!"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_3 = {
+	tip = "The Horseman is charging <color=#f1f102>right</color>!"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_4 = {
+	tip = "The Horseman's defenses are <color=#f1f102>exposed</color>!"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_5 = {
+	tip = "The Horseman is <color=#f1f102>powering up</color>!"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_6 = {
+	tip = "<color=#f1f102>Stop</color> the Horseman's powerful attack!"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_7 = {
+	tip = "The Horseman is alerted! <color=#f1f102>Move carefully!</color>"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_8 = {
+	tip = "The Horseman is <color=#f1f102>targeting</color> your Main Fleet!"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_9 = {
+	tip = "Direct the enemy's <color=#f1f102>attacks</color> to the devices!"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_10 = {
+	tip = "The Horseman is <color=#f1f102>weakened</color>! Focus fire!"
 }

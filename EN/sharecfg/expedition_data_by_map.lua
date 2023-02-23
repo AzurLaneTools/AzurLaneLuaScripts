@@ -13400,6 +13400,270 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1710001] = {
+		map = 1710001,
+		name = "Revelations of Dust - PT.1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-vichy-church",
+		enter_story = "YANJINCHENXU1",
+		ani_name = "Map_1710001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4701,
+		ui_type = 1,
+		bg = "Map_1710001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1710011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1710002] = {
+		map = 1710002,
+		name = "Revelations of Dust - PT.2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-vichy-revelation",
+		enter_story = "YANJINCHENXU15",
+		ani_name = "Map_1710002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4701,
+		ui_type = 1,
+		bg = "Map_1710002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1710012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1710011] = {
+		map = 1710011,
+		name = "Revelations of Dust - PT.1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-vichy-church",
+		enter_story = "YANJINCHENXU1",
+		ani_name = "Map_1710003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4701,
+		ui_type = 1,
+		bg = "Map_1710003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1710001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1710012] = {
+		map = 1710012,
+		name = "Revelations of Dust - PT.2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-vichy-revelation",
+		enter_story = "YANJINCHENXU15",
+		ani_name = "Map_1710004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4701,
+		ui_type = 1,
+		bg = "Map_1710004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1710002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1710025] = {
+		map = 1710025,
+		name = "Revelations of Dust - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-vichy-slaughter",
+		enter_story = "",
+		ani_name = "Map_1710005",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4701,
+		ui_type = 1,
+		bg = "Map_1710005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1710012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1710026] = {
+		map = 1710026,
+		name = "Revelations of Dust - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-vichy-slaughter",
+		enter_story = "",
+		ani_name = "Map_1710005",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4701,
+		ui_type = 1,
+		bg = "Map_1710005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1710012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
@@ -16063,6 +16327,12 @@ pg.expedition_data_by_map = {
 		1700012,
 		1700025,
 		1700026,
+		1710001,
+		1710002,
+		1710011,
+		1710012,
+		1710025,
+		1710026,
 		2100000,
 		2100001,
 		2100010,

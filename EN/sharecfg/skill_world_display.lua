@@ -2137,6 +2137,305 @@ While this ship is afloat, for the first 4 battles another fleet fights during a
 			}
 		}
 	},
+	[16450] = {
+		desc_get = "",
+		id = 16450,
+		desc = [[
+[Operation Siren]
+When this ship launches an airstrike: $1 chance to lower the SPD of all enemies to 0 over 2s, keep it at 0 for 2s, then gradually restore their SPD to normal over 2s; when this effect activates: targets 1 random enemy (prioritizing humanoid enemies) and lowers their EVA by $2 for 6s. 
+Each sortie, for the first 3 battles fought by a fleet this ship is NOT in: when that fleet's Flagship fires her first Main Gun volley or launches an airstrike: expends all stacks of No Mercy and, after 2s, activates one of the following effects based on the number of No Mercy stacks expended: 
+1) 3 to 5: decreases the SPD of all enemies by 20.0% for 2s; 
+2) 6 to 8: decreases the SPD of all enemies by 60.0% for 2s; 
+3) 9: decreases the SPD of all enemies by 100.0% for 2s.
+[In Operation Siren, the battle count resets when the fleets enter a new zone or when the Fleet Deployment order is issued.]]],
+		desc_get_add = {
+			{
+				"70.0%",
+				"100.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"70.0%",
+					"+3.3%"
+				},
+				{
+					"73.3%",
+					"+3.3%"
+				},
+				{
+					"76.6%",
+					"+3.3%"
+				},
+				{
+					"79.9%",
+					"+3.3%"
+				},
+				{
+					"83.2%",
+					"+3.3%"
+				},
+				{
+					"86.5%",
+					"+3.3%"
+				},
+				{
+					"89.8%",
+					"+3.3%"
+				},
+				{
+					"93.1%",
+					"+3.3%"
+				},
+				{
+					"96.4%",
+					"+3.6%"
+				},
+				{
+					"100%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[16510] = {
+		desc_get = "",
+		id = 16510,
+		desc = [[
+[Operation Siren]
+When the HP of a CV or CVL in your fleet falls below 20.0% as a result of DMG taken: restores 10.0% of that ship's max HP (can only activate once per ship). While this ship is afloat:
+1) When the fleet this ship is in starts a battle, increases your CVs' and CVLs' AVI by $1 and RLD by $2, and decreases the loading time of this ship's first airstrike by $3;
+2) When the battle starts for the fleet this ship is NOT in, increases your CVs' and CVLs' AVI and RLD by $4. Does not stack with the skill "Supporting Wings."]],
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"5.0%",
+				"10.0%"
+			},
+			{
+				"10.0%",
+				"25.0%"
+			},
+			{
+				"2.0%",
+				"4.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.8%"
+				},
+				{
+					"5.3%",
+					"+0.8%"
+				},
+				{
+					"6.1%",
+					"+0.9%"
+				},
+				{
+					"7.0%",
+					"+0.8%"
+				},
+				{
+					"7.8%",
+					"+0.8%"
+				},
+				{
+					"8.6%",
+					"+0.9%"
+				},
+				{
+					"9.5%",
+					"+0.8%"
+				},
+				{
+					"10.3%",
+					"+0.8%"
+				},
+				{
+					"11.1%",
+					"+0.9%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.5%"
+				},
+				{
+					"11.5%",
+					"+1.5%"
+				},
+				{
+					"13%",
+					"+1.5%"
+				},
+				{
+					"14.5%",
+					"+1.6%"
+				},
+				{
+					"16.1%",
+					"+1.6%"
+				},
+				{
+					"17.7%",
+					"+1.7%"
+				},
+				{
+					"19.4%",
+					"+1.8%"
+				},
+				{
+					"21.2%",
+					"+1.8%"
+				},
+				{
+					"23%",
+					"+2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"2.0%",
+					"+0.1%"
+				},
+				{
+					"2.1%",
+					"+0.1%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.2%"
+				},
+				{
+					"2.6%",
+					"+0.2%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.3%"
+				},
+				{
+					"3.4%",
+					"+0.3%"
+				},
+				{
+					"3.7%",
+					"+0.3%"
+				},
+				{
+					"4.0%"
+				}
+			}
+		}
+	},
 	[19260] = {
 		desc_get = "",
 		id = 19260,
@@ -2621,6 +2920,8 @@ While this ship is afloat, for the first 4 battles another fleet fights during a
 		14980,
 		16190,
 		16220,
+		16450,
+		16510,
 		19260,
 		19510,
 		105010,

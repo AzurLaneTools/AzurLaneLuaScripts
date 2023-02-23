@@ -251,10 +251,15 @@ slot0.AMMO_DAMAGE_REDUCE = {
 	nil,
 	"damageReduceFromAmmoType_7"
 }
-slot0.AGAINST_ARMOR_ENHANCE = {
-	"damageAgainstArmorEnhance_1",
-	"damageAgainstArmorEnhance_2",
-	"damageAgainstArmorEnhance_3"
+slot0.DAMAGE_AMMO_TO_ARMOR_RATE_ENHANCE = {
+	"damageAmmoToArmorRateEnhance_1",
+	"damageAmmoToArmorRateEnhance_2",
+	"damageAmmoToArmorRateEnhance_3"
+}
+slot0.DAMAGE_TO_ARMOR_RATE_ENHANCE = {
+	"damageToArmorRateEnhance_1",
+	"damageToArmorRateEnhance_2",
+	"damageToArmorRateEnhance_3"
 }
 slot0.SHIP_TYPE_ACCURACY_ENHANCE = {
 	[ShipType.QuZhu] = "accuracyToShipType_1",
@@ -396,7 +401,8 @@ slot0.AIM_BIAS_MAX_RANGE_MONSTER = 60
 slot0.AIM_BIAS_MAX_RANGE_SUB = 25
 slot0.AIM_BIAS_ENEMY_INIT_TIME = 1.5
 slot0.FLEET_ATTR_CAP = {
-	ReisalinAP = 99
+	ReisalinAP = 99,
+	yuanchou = 9
 }
 slot0.TARGET_SELECT_PRIORITY = {
 	C14_1 = 10,

@@ -3311,6 +3311,17 @@ pg.map_event_list = {
 			"helpbg/battle_lianjin_jupao"
 		}
 	},
+	[1710041] = {
+		help_open = 0,
+		chapter_id = 1710041,
+		event_list = {
+			800
+		},
+		event_list_loop = {
+			800
+		},
+		help_pictures = {}
+	},
 	[2200071] = {
 		help_open = 1,
 		chapter_id = 2200071,
@@ -3599,6 +3610,7 @@ pg.map_event_list = {
 		1690025,
 		1690031,
 		1690041,
+		1710041,
 		2200071,
 		2200072,
 		2200073,

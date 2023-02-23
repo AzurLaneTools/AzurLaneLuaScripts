@@ -82781,6 +82781,506 @@ _G.pg.base.ship_data_statistics[201354] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[201361] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Hero",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 201360,
+	english_name = "HMS Hero",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 201361,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		236,
+		16,
+		71,
+		31,
+		0,
+		72,
+		0,
+		72,
+		78,
+		43.2,
+		80,
+		55
+	},
+	attrs_growth = {
+		6733,
+		223,
+		904,
+		682,
+		0,
+		503,
+		0,
+		1112,
+		1428,
+		0,
+		0,
+		620
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[201362] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Hero",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 201360,
+	english_name = "HMS Hero",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 201362,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		294,
+		20,
+		89,
+		39,
+		0,
+		72,
+		0,
+		72,
+		78,
+		43.2,
+		80,
+		69
+	},
+	attrs_growth = {
+		6733,
+		223,
+		904,
+		682,
+		0,
+		503,
+		0,
+		1112,
+		1428,
+		0,
+		0,
+		620
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[201363] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Hero",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 201360,
+	english_name = "HMS Hero",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 201363,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		409,
+		28,
+		124,
+		54,
+		0,
+		72,
+		0,
+		72,
+		78,
+		43.2,
+		80,
+		96
+	},
+	attrs_growth = {
+		6733,
+		223,
+		904,
+		682,
+		0,
+		503,
+		0,
+		1112,
+		1428,
+		0,
+		0,
+		620
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[201364] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Hero",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 201360,
+	english_name = "HMS Hero",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 201364,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		582,
+		40,
+		176,
+		77,
+		0,
+		72,
+		0,
+		72,
+		78,
+		43.2,
+		80,
+		137
+	},
+	attrs_growth = {
+		6733,
+		223,
+		904,
+		682,
+		0,
+		503,
+		0,
+		1112,
+		1428,
+		0,
+		0,
+		620
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		470
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.35,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[201514] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -98300,6 +98800,518 @@ _G.pg.base.ship_data_statistics[202324] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[202331] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Scylla",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 202330,
+	english_name = "HMS Scylla",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 202331,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		677,
+		27,
+		33,
+		84,
+		0,
+		71,
+		0,
+		59,
+		28,
+		32.25,
+		56,
+		41
+	},
+	attrs_growth = {
+		17075,
+		379,
+		454,
+		1712,
+		0,
+		492,
+		0,
+		874,
+		646,
+		0,
+		0,
+		482
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		211
+	},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.2,
+		1.5,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Dido-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[202332] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Scylla",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 202330,
+	english_name = "HMS Scylla",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 202332,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		842,
+		34,
+		41,
+		105,
+		0,
+		71,
+		0,
+		59,
+		28,
+		32.25,
+		56,
+		51
+	},
+	attrs_growth = {
+		17075,
+		379,
+		454,
+		1712,
+		0,
+		492,
+		0,
+		874,
+		646,
+		0,
+		0,
+		482
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		212
+	},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		1.5,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Dido-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[202333] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Scylla",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 202330,
+	english_name = "HMS Scylla",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 202333,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1173,
+		47,
+		57,
+		146,
+		0,
+		71,
+		0,
+		59,
+		28,
+		32.25,
+		56,
+		72
+	},
+	attrs_growth = {
+		17075,
+		379,
+		454,
+		1712,
+		0,
+		492,
+		0,
+		874,
+		646,
+		0,
+		0,
+		482
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		213
+	},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.3,
+		1.5,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Dido-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[202334] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Scylla",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 202330,
+	english_name = "HMS Scylla",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 202334,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1668,
+		68,
+		82,
+		208,
+		0,
+		71,
+		0,
+		59,
+		28,
+		32.25,
+		56,
+		102
+	},
+	attrs_growth = {
+		17075,
+		379,
+		454,
+		1712,
+		0,
+		492,
+		0,
+		874,
+		646,
+		0,
+		0,
+		482
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		214
+	},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.3,
+		1.5,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Dido-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[203011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -111278,6 +112290,510 @@ _G.pg.base.ship_data_statistics[205114] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[205141] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Royal Oak",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 205140,
+	english_name = "HMS Royal Oak",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 205141,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1305,
+		81,
+		0,
+		43,
+		0,
+		57,
+		0,
+		24,
+		5,
+		22,
+		47,
+		0
+	},
+	attrs_growth = {
+		34777,
+		947,
+		0,
+		933,
+		0,
+		400,
+		0,
+		389,
+		188,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Revenge-Class",
+		"Royal Oak"
+	}
+}
+
+_G.pg.base.ship_data_statistics[205142] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Royal Oak",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 205140,
+	english_name = "HMS Royal Oak",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 205142,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1623,
+		101,
+		0,
+		53,
+		0,
+		57,
+		0,
+		24,
+		5,
+		22,
+		47,
+		0
+	},
+	attrs_growth = {
+		34777,
+		947,
+		0,
+		933,
+		0,
+		400,
+		0,
+		389,
+		188,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Revenge-Class",
+		"Royal Oak"
+	}
+}
+
+_G.pg.base.ship_data_statistics[205143] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Royal Oak",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 205140,
+	english_name = "HMS Royal Oak",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 205143,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2260,
+		141,
+		0,
+		74,
+		0,
+		57,
+		0,
+		24,
+		5,
+		22,
+		47,
+		0
+	},
+	attrs_growth = {
+		34777,
+		947,
+		0,
+		933,
+		0,
+		400,
+		0,
+		389,
+		188,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Revenge-Class",
+		"Royal Oak"
+	}
+}
+
+_G.pg.base.ship_data_statistics[205144] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Royal Oak",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 205140,
+	english_name = "HMS Royal Oak",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 205144,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3215,
+		201,
+		0,
+		106,
+		0,
+		57,
+		0,
+		24,
+		5,
+		22,
+		47,
+		0
+	},
+	attrs_growth = {
+		34777,
+		947,
+		0,
+		933,
+		0,
+		400,
+		0,
+		389,
+		188,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Revenge-Class",
+		"Royal Oak"
+	}
+}
+
 _G.pg.base.ship_data_statistics[206011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -111771,6 +113287,506 @@ _G.pg.base.ship_data_statistics[206014] = {
 	},
 	tag_list = {
 		"Royal Fleet-CVL"
+	}
+}
+
+_G.pg.base.ship_data_statistics[206021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Argus",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 206020,
+	english_name = "HMS Argus",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 206021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		833,
+		0,
+		0,
+		48,
+		53,
+		65,
+		0,
+		26,
+		16,
+		20,
+		81,
+		26
+	},
+	attrs_growth = {
+		22694,
+		0,
+		0,
+		1036,
+		718,
+		450,
+		0,
+		429,
+		351,
+		0,
+		0,
+		314
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.15,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Royal Fleet-CVL",
+		"Argus"
+	}
+}
+
+_G.pg.base.ship_data_statistics[206022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Argus",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 206020,
+	english_name = "HMS Argus",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 206022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1036,
+		0,
+		0,
+		60,
+		66,
+		65,
+		0,
+		26,
+		16,
+		20,
+		81,
+		32
+	},
+	attrs_growth = {
+		22694,
+		0,
+		0,
+		1036,
+		718,
+		450,
+		0,
+		429,
+		351,
+		0,
+		0,
+		314
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.15,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Royal Fleet-CVL",
+		"Argus"
+	}
+}
+
+_G.pg.base.ship_data_statistics[206023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Argus",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 206020,
+	english_name = "HMS Argus",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 206023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1442,
+		0,
+		0,
+		83,
+		92,
+		65,
+		0,
+		26,
+		16,
+		20,
+		81,
+		45
+	},
+	attrs_growth = {
+		22694,
+		0,
+		0,
+		1036,
+		718,
+		450,
+		0,
+		429,
+		351,
+		0,
+		0,
+		314
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.15,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Royal Fleet-CVL",
+		"Argus"
+	}
+}
+
+_G.pg.base.ship_data_statistics[206024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Argus",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 206020,
+	english_name = "HMS Argus",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 206024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2051,
+		0,
+		0,
+		118,
+		132,
+		65,
+		0,
+		26,
+		16,
+		20,
+		81,
+		64
+	},
+	attrs_growth = {
+		22694,
+		0,
+		0,
+		1036,
+		718,
+		450,
+		0,
+		429,
+		351,
+		0,
+		0,
+		314
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.3,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Royal Fleet-CVL",
+		"Argus"
 	}
 }
 
@@ -117891,6 +119907,510 @@ _G.pg.base.ship_data_statistics[207064] = {
 	},
 	tag_list = {
 		"Courageous-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[207071] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Implacable",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 207070,
+	english_name = "HMS Implacable",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 207071,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1151,
+		0,
+		0,
+		62,
+		84,
+		46,
+		0,
+		32,
+		13,
+		32.5,
+		79,
+		0
+	},
+	attrs_growth = {
+		30428,
+		0,
+		0,
+		1314,
+		1026,
+		322,
+		0,
+		481,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		115,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.2,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Implacable-Class",
+		"Armor-CV"
+	}
+}
+
+_G.pg.base.ship_data_statistics[207072] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Implacable",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 207070,
+	english_name = "HMS Implacable",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 207072,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1432,
+		0,
+		0,
+		77,
+		105,
+		46,
+		0,
+		32,
+		13,
+		32.5,
+		79,
+		0
+	},
+	attrs_growth = {
+		30428,
+		0,
+		0,
+		1314,
+		1026,
+		322,
+		0,
+		481,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		115,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.25,
+		1.25
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Implacable-Class",
+		"Armor-CV"
+	}
+}
+
+_G.pg.base.ship_data_statistics[207073] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Implacable",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 207070,
+	english_name = "HMS Implacable",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 207073,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1993,
+		0,
+		0,
+		108,
+		146,
+		46,
+		0,
+		32,
+		13,
+		32.5,
+		79,
+		0
+	},
+	attrs_growth = {
+		30428,
+		0,
+		0,
+		1314,
+		1026,
+		322,
+		0,
+		481,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		115,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.25,
+		1.25
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Implacable-Class",
+		"Armor-CV"
+	}
+}
+
+_G.pg.base.ship_data_statistics[207074] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Implacable",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 207070,
+	english_name = "HMS Implacable",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 207074,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2835,
+		0,
+		0,
+		153,
+		209,
+		46,
+		0,
+		32,
+		13,
+		32.5,
+		79,
+		0
+	},
+	attrs_growth = {
+		30428,
+		0,
+		0,
+		1314,
+		1026,
+		322,
+		0,
+		481,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		115,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.3,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Implacable-Class",
+		"Armor-CV"
 	}
 }
 
@@ -303587,6 +306107,762 @@ _G.pg.base.ship_data_statistics[900361] = {
 	},
 	tag_list = {
 		"Z-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900362] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Scylla",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 202330,
+	english_name = "HMS Scylla",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 900362,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1612,
+		67,
+		75,
+		195,
+		0,
+		66,
+		0,
+		59,
+		28,
+		32.25,
+		56,
+		84
+	},
+	attrs_growth = {
+		16497,
+		375,
+		417,
+		1619,
+		0,
+		459,
+		0,
+		869,
+		652,
+		0,
+		0,
+		404
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		22293,
+		85053,
+		26553
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.3,
+		1.3,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Dido-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900363] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Hero",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 201360,
+	english_name = "HMS Hero",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 900363,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1101,
+		72,
+		162,
+		132,
+		0,
+		70,
+		0,
+		52,
+		29,
+		35.3,
+		38,
+		59
+	},
+	attrs_growth = {
+		11481,
+		398,
+		767,
+		1151,
+		0,
+		490,
+		0,
+		768,
+		742,
+		0,
+		0,
+		293
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		85053,
+		45153,
+		26553
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.35,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900364] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Richelieu",
+	type = 18,
+	oxy_cost = 0,
+	skin_id = 805010,
+	english_name = "FFNF Richelieu",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 8,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 900364,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3072,
+		134,
+		0,
+		104,
+		0,
+		62,
+		0,
+		43,
+		11,
+		24.8,
+		50,
+		0
+	},
+	attrs_growth = {
+		31949,
+		729,
+		0,
+		919,
+		0,
+		434,
+		0,
+		618,
+		211,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		33113,
+		22293,
+		90633
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.6,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Richelieu-Class",
+		"Richelieu",
+		"PRE"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900365] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Implacable",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 207070,
+	english_name = "HMS Implacable",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 900365,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2835,
+		0,
+		0,
+		153,
+		209,
+		46,
+		0,
+		32,
+		13,
+		32.5,
+		79,
+		0
+	},
+	attrs_growth = {
+		30428,
+		0,
+		0,
+		1314,
+		1026,
+		322,
+		0,
+		481,
+		327,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		27333,
+		29313,
+		28413
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.3,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Implacable-Class",
+		"Armor-CV"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900366] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Royal Oak",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 205140,
+	english_name = "HMS Royal Oak",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 900366,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3215,
+		201,
+		0,
+		106,
+		0,
+		57,
+		0,
+		24,
+		5,
+		22,
+		47,
+		0
+	},
+	attrs_growth = {
+		34777,
+		947,
+		0,
+		933,
+		0,
+		400,
+		0,
+		389,
+		188,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		14513,
+		11273,
+		26071
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Revenge-Class",
+		"Royal Oak"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900367] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Argus",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 206020,
+	english_name = "HMS Argus",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 900367,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2051,
+		0,
+		0,
+		118,
+		132,
+		65,
+		0,
+		26,
+		16,
+		20,
+		81,
+		64
+	},
+	attrs_growth = {
+		22694,
+		0,
+		0,
+		1036,
+		718,
+		450,
+		0,
+		429,
+		351,
+		0,
+		0,
+		314
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		27333,
+		28413,
+		26071
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.3,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Royal Fleet-CVL"
 	}
 }
 

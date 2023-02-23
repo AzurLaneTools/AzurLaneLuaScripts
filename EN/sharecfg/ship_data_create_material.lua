@@ -216,7 +216,7 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 10,
 		icon = "build_4",
-		exchange_ship_id = 107101,
+		exchange_ship_id = 207071,
 		rate_tip = {
 			"<color=#ff5e39>Ultra Rare</color>: 1.2%",
 			"",
@@ -228,13 +228,13 @@ pg.ship_data_create_material = {
 			"",
 			"Common: 28.8%",
 			"",
-			"<color=#ff5e39>Yorktown II</color>: 1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>Implacable</color>: 1.2%(<color=#92fc63>up!</color>)",
 			"",
-			"<color=#ffde38>Northampton II</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Scylla</color>: 2.0%(<color=#92fc63>up!</color>)",
 			"",
-			"<color=#ffde38>Hornet II</color>: 0.5%",
+			"<color=#ffde38>Royal Oak</color>: 0.5%",
 			"",
-			"<color=#d797ff>Hammann II</color>: 2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>Argus</color>: 2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

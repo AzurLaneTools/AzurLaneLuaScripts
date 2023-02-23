@@ -28,7 +28,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.15
 				}
 			}
@@ -63,7 +63,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.161
 				}
 			}
@@ -98,7 +98,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.172
 				}
 			}
@@ -133,7 +133,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.183
 				}
 			}
@@ -168,7 +168,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.194
 				}
 			}
@@ -203,7 +203,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.205
 				}
 			}
@@ -238,7 +238,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.216
 				}
 			}
@@ -273,7 +273,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.227
 				}
 			}
@@ -308,7 +308,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.238
 				}
 			}
@@ -342,7 +342,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_2",
+					attr = "damageToArmorRateEnhance_2",
 					number = 0.25
 				}
 			}
@@ -392,7 +392,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageAgainstArmorEnhance_2",
+				attr = "damageToArmorRateEnhance_2",
 				number = 0.15
 			}
 		}

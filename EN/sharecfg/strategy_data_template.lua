@@ -1919,14 +1919,54 @@ pg.strategy_data_template = {
 		desc = "A dark threat looms over the horizon. \nBarrages will fire during battle which harm anything in their path, friend or foe.",
 		arg = {}
 	},
-	[200242] = {
-		buff_id = 200242,
-		name = "Reorigination System",
+	[200327] = {
+		buff_id = 200327,
+		name = "Basilica Control Device - Inoperable",
 		type = 10,
 		iconSize = "",
-		id = 200242,
-		icon = "200242",
-		desc = "The Tower has come to purge the system. \nAll ships lose a portion of their max HP at regular intervals during battle.",
+		id = 200327,
+		icon = "200327",
+		desc = "The Basilica's control device is inoperable. \nBarrages will appear during battle, inflicting damage to all targets in proportion to their max HP.",
+		arg = {}
+	},
+	[200330] = {
+		buff_id = 200330,
+		name = "Basilica Control Device - Recovering",
+		type = 10,
+		iconSize = "",
+		id = 200330,
+		icon = "200330",
+		desc = "The Basilica's control device is recovering. \nBarrages will appear during battle, inflicting damage to all enemies in proportion to their max HP.",
+		arg = {}
+	},
+	[200333] = {
+		buff_id = 200333,
+		name = "Basilica Control Device - Stable",
+		type = 10,
+		iconSize = "",
+		id = 200333,
+		icon = "200333",
+		desc = "The Basilica's control device is stable. \nBarrages will appear during battle, inflicting damage to all enemies in proportion to their max HP and recovering the HP of your ships.",
+		arg = {}
+	},
+	[200336] = {
+		buff_id = 200336,
+		name = "The Blessed Faithful - Iris Orthodoxy",
+		type = 10,
+		iconSize = "",
+		id = 200336,
+		icon = "200336",
+		desc = "The Iris has answered your prayers. \nYour Iris Libre and Vichya Dominion ships gain 3.0% FP, TRP, AVI, AA, RLD, ACC, and EVA.",
+		arg = {}
+	},
+	[200338] = {
+		buff_id = 200338,
+		name = "The Blessed Faithful - Royal Navy",
+		type = 10,
+		iconSize = "",
+		id = 200338,
+		icon = "200338",
+		desc = "Your prayers have been answered... but by whom?\nYour Royal Navy ships gain 3.0% FP, TRP, AVI, AA, RLD, ACC, and EVA.",
 		arg = {}
 	},
 	all = {
@@ -2118,6 +2158,10 @@ pg.strategy_data_template = {
 		200239,
 		200240,
 		200241,
-		200242
+		200327,
+		200330,
+		200333,
+		200336,
+		200338
 	}
 }

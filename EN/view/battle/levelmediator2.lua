@@ -508,6 +508,12 @@ function slot0.DidEnterLevelMainUI(slot0, slot1)
 
 		slot0.contextData.StopAutoFightFlag = nil
 	end
+
+	if slot0.contextData.ToTrackingData then
+		slot0:sendNotification(slot0.contextData.ToTrackingData[1], slot0.contextData.ToTrackingData[2])
+
+		slot0.contextData.ToTrackingData = nil
+	end
 end
 
 function slot0.RegisterTrackEvent(slot0)
@@ -565,6 +571,8 @@ function slot0.listNotificationInterests(slot0)
 		ChapterProxy.CHAPTER_TIMESUP,
 		PlayerProxy.UPDATED,
 		DailyLevelProxy.ELITE_QUOTA_UPDATE,
+		uv0.ON_TRACKING,
+		uv0.ON_ELITE_TRACKING,
 		GAME.TRACKING_DONE,
 		GAME.CHAPTER_OP_DONE,
 		GAME.EVENT_LIST_UPDATE,
@@ -599,6 +607,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateVoteBookBtn(slot3)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:updateRes(slot3)
+	elseif slot2 == uv0.ON_TRACKING or slot2 == uv0.ON_ELITE_TRACKING then
+		slot0.viewComponent:emit(slot2, table.unpackParams(slot3))
 	elseif slot2 == GAME.TRACKING_DONE then
 		slot4 = slot0.viewComponent
 

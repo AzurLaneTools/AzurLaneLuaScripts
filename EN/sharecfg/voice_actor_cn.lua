@@ -1399,5 +1399,21 @@ pg.voice_actor_CN = {
 	[355] = {
 		code = 355,
 		actor_name = "张琦"
+	},
+	[356] = {
+		code = 356,
+		actor_name = "Yukana"
+	},
+	[357] = {
+		code = 357,
+		actor_name = "Miyu Takagi"
+	},
+	[358] = {
+		code = 358,
+		actor_name = "Arisa Sakuraba"
+	},
+	[359] = {
+		code = 359,
+		actor_name = "Amane Shindo"
 	}
 }

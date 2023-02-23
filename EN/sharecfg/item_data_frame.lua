@@ -381,10 +381,10 @@ pg.item_data_frame = {
 	[324] = {
 		time_limit_type = 0,
 		name = "Seal of Divine Refulgence",
-		gain_by = "",
+		gain_by = "Revelations of Dust",
 		id = 324,
 		time_second = 0,
-		desc = "Obtained from a limited event.",
+		desc = "<color=#ffffff>\"It is not Divinity we seek, but rather the light of Her Majesty's blessings–\"</color>\nObtained from the \"Revelations of Dust\" event.",
 		scene = {}
 	},
 	[406] = {

@@ -1572,5 +1572,49 @@ pg.effect_offset = {
 			0.2,
 			4
 		}
+	},
+	yuanchou_gongjian = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			1.5,
+			0
+		}
+	},
+	yuanchou_kandao = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			1.5,
+			0
+		}
+	},
+	yuanchou_tianping = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			1.5,
+			0
+		}
+	},
+	yuanchou_liandao = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			1.5,
+			0
+		}
 	}
 }
