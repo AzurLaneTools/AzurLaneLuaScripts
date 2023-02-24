@@ -73402,7 +73402,7 @@ pg.skill_data_template = {
 	},
 	[16480] = {
 		desc_get = "",
-		name = "无法回避的命运",
+		name = "予怨予还的信条",
 		id = 16480,
 		type = 1,
 		max_level = 10,

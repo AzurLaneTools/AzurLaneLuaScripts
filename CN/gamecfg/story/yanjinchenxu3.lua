@@ -67,7 +67,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通信器",
 			bgName = "bg_firedust_2",
 			nameColor = "#A9F548FF",
 			say = "………………",

@@ -222,7 +222,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通信器",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			say = "「凯尔盖朗圣堂分队呼叫安塔迪卡洋舰队司令部」",
@@ -233,7 +233,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通信器",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			say = "「我们遭遇到海量来源不明的敌人进攻」",
@@ -244,7 +244,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通信器",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			say = "「情况危急，请求立刻派遣支援」",
@@ -255,7 +255,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通信器",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			say = "「重复，凯尔盖朗圣堂分队呼叫——」",
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "这是……通讯器播放的求援信号？",
+			say = "这是……通信器播放的求援信号？",
 			painting = {
 				alpha = 0.3,
 				time = 1

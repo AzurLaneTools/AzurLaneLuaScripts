@@ -984,6 +984,7 @@ JiqilifuSkinPermanentPage = import("view.activity.subPages.JiqilifuSkinPermanent
 JiuJiuExpeditionPage = import("view.activity.subPages.JiuJiuExpeditionPage")
 JiujiuYoyoPage = import("view.activity.subPages.JiujiuYoyoPage")
 JPSkirmishHeadFramePage = import("view.activity.subPages.JPSkirmishHeadFramePage")
+JPSkirmishHeadFrameRePage = import("view.activity.subPages.JPSkirmishHeadFrameRePage")
 JunZhuTecCatchupPage = import("view.activity.subPages.JunZhuTecCatchupPage")
 KFCPTPage = import("view.activity.subPages.KFCPTPage")
 KitakazeTecCatchupPage = import("view.activity.subPages.KitakazeTecCatchupPage")
