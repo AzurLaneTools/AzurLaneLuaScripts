@@ -10,7 +10,7 @@ return {
 			nameColor = "#ffa500",
 			bgName = "bg_burningsea_1",
 			stopbgm = true,
-			say = "？？？·？？？",
+			say = "Unknown location",
 			bgmDelay = 1,
 			bgm = "battle-whaling-normal",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#ffa500",
 			side = 2,
 			bgName = "bg_burningsea_1",
-			say = "轰——————————！",
+			say = "KABOOM–––!!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我来帮忙了，情况如何？",
+			say = "Sorry to keep you waiting. How's the situation?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "迟了一步，只剩下些杂鱼，让“鲸鱼”跑了。",
+			say = "I was a step too late. The \"whale\" got away, and it's only the small fry left now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "可惜。有其他收获么？",
+			say = "Unfortunate. Did you manage to retrieve anything else?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "给，这是回收到的情报残留，你看看吧。",
+			say = "Yes, I have everything here. Want to take a look?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………果然，“鲸鱼”看似随机的“游动”是存在某种目的性的。",
+			say = "...I knew it. The \"whale's\" seemingly random movements do have a purpose after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "所以我真是完全不明白它们在搞些什么……审判者计划变成这样子还能进行下去么？",
+			say = "Which makes me even more confused as to what they're trying to do. Can the Magister's plan still proceed in this state?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "还是说……这也是审判者计划的一环？",
+			say = "Or, did the Magister also account for all this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "为什么要问我？",
+			say = "Why are you asking me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "因为，你有一个漂亮的履历。",
+			say = "Well, you have a pretty good track record and whatnot...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "附近还有一个履历比我更漂亮的人呢，你要实在好奇的话去问问「D小姐」如何？",
+			say = "Isn't there someone who'd be more suitable to answer that than me? For example, a certain \"Miss D.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我自然问过……可是它说除非先抓住“鲸鱼”，否则什么都不会告诉我。",
+			say = "I've already tried. She won't tell us anything unless we catch the \"whale.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "那就继续去抓“鲸鱼”。",
+			say = "I see. I'll leave you to it then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我知道了……",
+			say = "Mmhmm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不过不是现在，陛下叫我们回去了。",
+			say = "But, let's head back first. Her Majesty is waiting for us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,47 +334,47 @@ return {
 			},
 			sequence = {
 				{
-					"<size=34>「万物皆应有始终」</size>",
+					"\"All beings in creation have both beginning and end.\"",
 					1
 				},
 				{
-					"<size=34>「尘应归于尘，土应归于土」</size>",
+					"\"Ashes to ashes, dust to dust.\"",
 					2
 				},
 				{
-					"<size=34>「但，我依然还活着」</size>",
+					"\"But, I shall continue to live.\"",
 					3
 				},
 				{
-					"<size=34>「只有这样，我才能完成那件事」</size>",
+					"\"For doing so is the only way to achieve my purpose.\"",
 					4
 				},
 				{
-					"<size=34>「那件成功几率渺茫，但必须要被完成的事」</size>",
+					"\"No matter how desperate the odds, it must be done.\"",
 					5
 				},
 				{
-					"<size=34>「——寻找真相」</size>",
+					"\"––The Truth must be found.\"",
 					6
 				},
 				{
-					"<size=34>「为此，我追逐，我狩猎」</size>",
+					"\"For that pursuit, for that hunt, one must become as a beast.\"",
 					7
 				},
 				{
-					"<size=34>「如果你亦志在此处的话」</size>",
+					"\"If this is a price you are willing to pay,\"",
 					9
 				},
 				{
-					"<size=34>「我可以接受你的效忠」</size>",
+					"\"Then I may accept your allegiance.\"",
 					10
 				},
 				{
-					"<size=34>「亦或是——」</size>",
+					"\"Otherwise... Hmm, let's see...\"",
 					11
 				},
 				{
-					"<size=34>「向本王祈祷吧」</size>",
+					"\"Yes, offer unto me your prayers.\"",
 					12
 				}
 			}

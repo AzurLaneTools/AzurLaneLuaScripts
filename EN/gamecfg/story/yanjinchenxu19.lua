@@ -24,11 +24,11 @@ return {
 			},
 			sequence = {
 				{
-					"接管第[//]日，□■:□■://",
+					"Mirror Sea - Famine's Territory",
 					1
 				},
 				{
-					"？？？·？？？//",
+					"Joint Basilica Investigation Team",
 					2
 				},
 				{
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "分散行动后，百眼巨人与皇家橡树正在追踪着饥荒骑士的踪迹。",
+			say = "After splitting up, Argus and Royal Oak were tasked with locating the Horseman of Famine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……这里也没有发现目标，又排除了一片区域。",
+			say = "\"Even a hundred eyes are not sufficient to locate my mark.\" ...Yeah, our target isn't in this area either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "……嗯？这些是……被破坏不久的残骸？",
+			say = "Hmm... Wait, are those fresh wreckages over there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "顺着线索的方向继续侦察的话，也许很快就能找到了……",
+			say = "Let's see if there are any more clues of recent battles nearby. It might lead us to our target.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "能搜索这么大片的区域……航空母舰果然很厉害啊。",
+			say = "Ahh... Carriers sure are amazing, being able to search wide areas so easily. I wish I could be that useful...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "我用眼睛看不了那么远，根本帮不上你的忙……",
+			say = "Even though I'm a senior knight... I can't contribute anything at all with my naked eyes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "就像我也没法同您一样应付近身的敌人一样，我们各自有各自的优势哦，皇家橡树大人。",
+			say = "Don't say that, Royal Oak! I can't deal with enemies charging straight at us the way you can. We all have our strengths and weaknesses!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "不过，我这里有望远镜，你要用么？",
+			say = "But, uh... Here, why don't you use these binoculars? You'll at least be able to see farther this way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "……望远镜？",
+			say = "...Binoculars?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“威斯克公司海军假日限量纪念品型望远镜，仅含透镜与机械结构，中等放大倍率，作为收藏来说是上上之选。”",
+			say = "\"Naval Holiday-themed commemorative binoculars from Viscker Industries, lens and frame only, excellent magnification at medium range, makes for a perfect collectible!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "包装上的宣传是这么写的。",
+			say = "Or, so it says on the package.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "你怎么会带着这个……？",
+			say = "...Why do you even have that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原本是买给竞技神的礼物，作为之前她送我帽子的回礼。",
+			say = "I originally bought it to repay Hermes for this hat she got me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "不过现在驻扎在安塔迪卡，一时半会也见不到她，我们就先拆开用了吧~",
+			say = "But I got sent off to this operation and won't get to see her for a while, so why don't you go ahead and see if it works fine?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "既然如此，那我就借用一下了……",
+			say = "Um, alright then. If you don't mind, I...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "不过就算用了望远镜，也还是没法看得和你一样远。",
+			say = "I still can't see as far as you, even with binoculars.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "但终究比之前看得要远了，不是么？",
+			say = "Yeah, but it's still better than nothing, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "没错！",
+			say = "Guess so!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,11 +362,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP––––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "这里是贝亚恩，皇家舰队的诸位，能听到么？",
+			say = "This is Béarn, light carrier of Iris Libre. My Royal Navy friends, do you copy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			actor = 807010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我跟黎赛留大人已经发现了战争骑士的位置。",
+			say = "Lady Richelieu has just located the Horseman of War.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			actor = 807010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因其身边存在大量舰队，侦察上花了点时间。不过已经确认其处于正常运作的状态了。",
+			say = "It took quite some time to fight through the large number of mass-produced enemies, but we are now attempting to approach the Horseman.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "我们正在对其护卫队的详细情况进行进一步侦察，贝亚恩通讯结束。",
+			say = "We will also try to assess the combat power of its escort fleet. Over.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝亚恩已经有进展了，我也得加油才行……",
+			say = "Béarn's already found the target, so we better get a move on it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "啊……那个是！皇家橡树大人，我也发现目标了！",
+			say = "Oh wait, there it is right there! Royal Oak, I found my target as well!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "饥荒骑士目前正在与战争骑士的量产型舰队进行交战，而且……它身上似乎有伤痕！",
+			say = "Hold on, Famine is currently in combat with War mass-produced ships! Also, Famine seems to have sustained serious damage!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "饥荒骑士已经受伤了？四骑士之间真的在相互战斗啊……",
+			say = "It's already been damaged? So, the Horsemen really are fighting amongst themselves...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "呼呼呼……按照顺序，下一个应该被消灭的本来也是饥荒骑士，就这么看它被战争骑士消灭也不错欸……",
+			say = "According to Lady Implacable, the Horseman of Famine should be defeated next, right? If the mass-produced ships manage to take it down...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也是这么认为的，我们现在就把情况汇报给怨仇女士吧。",
+			say = "Then we won't have to fight at all, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我是怨仇，诸位，能听到么？",
+			say = "This is Implacable. Everyone, can you hear me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们在侦察支配骑士所控制的区域时，有了一些非常不得了的发现。",
+			say = "We've made some significant findings while searching for the Horseman of Conquest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先说结论，支配骑士应该是完好无损的，但是它这里的情况实在有些……奇特。",
+			say = "I'll skip straight to the takeaway first – Conquest is still fine, but a strange situation has developed here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我们正在支配骑士控制区的外围待机，各位在侦察完毕后请来我这里汇合。",
+			say = "Hero and I are currently waiting outside the perimeter of Conquest's control area, so please regroup with us as soon as you complete your recon assignments.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "没问题，怨仇女士。",
+			say = "Understood.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们这边也成功确认到了饥荒骑士的位置，其目前正在与战争骑士的军队交战，而且已经受了伤。",
+			say = "We've confirmed the condition of Famine. It is currently in combat with mass-produced ships, and has already sustained some damage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "我们这就去与您汇合。",
+			say = "In any case, we'll be there shortly, Lady Implacable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "我这边目前还没有摆脱战争舰队的纠缠，要稍微晚一点才能与你们汇合。",
+			say = "My team is currently being pursued by enemies, so there might be a bit of a delay on our end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "遇到麻烦了？",
+			say = "Do you need help?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算不上。战争骑士并没有移动，追来的只是些量产型舰队，不碍事。",
+			say = "Not particularly. War hasn't made any moves as of yet, but the sheer number of mass-produced ships are slowing us down even if they're not a major threat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -753,7 +753,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "了解，那我就在原地等候各位到来了。",
+			say = "In that case, I'll be waiting for you at the designated spot.",
 			painting = {
 				alpha = 0.3,
 				time = 1

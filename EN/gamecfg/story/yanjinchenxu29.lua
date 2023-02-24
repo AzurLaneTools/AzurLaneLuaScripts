@@ -12,7 +12,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "█ █ █·█ █ █ █ █ █",
+			say = "█ █ █ █ █ █ █ █ █",
 			bgm = "theme-vichy-church",
 			flashin = {
 				delay = 1,
@@ -44,7 +44,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真正的我，此时此刻应该驻守在浮岛要塞群中才对。",
+			say = "The real me should still be stationed at the floating fortress right now, which means...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是说……现在的我在做梦，这里是梦中的景象。",
+			say = "I'm dreaming right now, and this is a scene from my dreams.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "无人回应乌尔里希·冯·胡滕的自言自语，只有黑色的太阳在无声地燃烧着。",
+			say = "Nobody confirmed Ulrich's statement to herself, only a black sun roiling silently above her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "黑色的太阳……是某种宗教的象征么？",
+			say = "The black sun... is this some kind of religious symbol of sorts?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么会出现在我的梦里……",
+			say = "And why is it appearing in my dream?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "腓特烈？！",
+			say = "Friedrich?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你在说什么……？我完全理解不了。",
+			say = "What are you trying to say? I can't understand you at all...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 499020,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			say = "█▎■小▋▂▁▅▎▌心▇▊▇",
+			say = "█▎■Be▋▂▁▅▎▌ware▇▊▇",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小心？你想让我小心什么？",
+			say = "Beware? Beware of what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			actor = 499020,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			say = "█▆▎来█▎█",
+			say = "█▆▎Come█▎█",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			actor = 499020,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			say = "█▎█▎找▅█▎█▎▌我▅▎▌█",
+			say = "█▎█▎to▅█▎█▎▌me▅▎▌█",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么……你刚刚说什么？！",
+			say = "What? What did you just say?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等，你把话说清楚再走！",
+			say = "Wait! Don't leave without telling me what you just said!!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			stopbgm = true,
-			say = "宽厚的重剑插入了骑士的机械结构。",
+			say = "Royal Oak lodged her greatsword into the Horseman's armor.",
 			bgmDelay = 1,
 			bgm = "theme-vichy-slaughter",
 			flashin = {
@@ -29,7 +29,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "一连串爆炸后，萦绕在战争骑士庞大躯壳上的红色火焰，终是逐渐熄灭了。",
+			say = "After a series of deafening explosions, the crimson flames smoldering on the Horseman of War's armor petered out, and the giant crashed to the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼、呼、呼……这样就结束了……",
+			say = "*pant*... *pant*... It's... It's finished!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是皇家骑士，女王陛下以你精湛的技艺为荣，皇家橡树大人。",
+			say = "An excellent display by the Royal Knight, of course. Her Majesty will be proud of you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈，其实它到最后完全不会动了……多亏了怨仇女士，我只是瞄着靶子打而已。",
+			say = "M-me? Not at all... I only put in the finishing touch. Your quick wit is what really saved the day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多亏了这把弓呢，等回去之后我要把它挂在大厅最显眼的位置~",
+			say = "C'mon, we all know my bow is the star of the show~ When I get home, I'm gonna frame it and hang it over the fireplace~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔，奇怪……我怎么感觉这金弓好像褪色了？弓梢这边是不是裂——欸？！",
+			say = "...Hang on, did it always look this dull? And what are these cracks in the wood? Those weren't there before!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "在英雄讶异的目光中，那道细微的裂痕沿着弓臂一路蔓延，最后贯穿了整副金弓。",
+			say = "Right before Hero's eyes, the cracks spread further and further through the sacred bow, finally reaching both ends of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "一声清脆的爆响后，金弓碎裂成了无法辨认的粉末。",
+			say = "Then, with a hollow snap, it broke into a dozen little pieces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊——！它它它……碎了？！",
+			say = "Noooo! My precious boooow!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜呜呜，本来还想着拿回去当英雄的战利品呢！",
+			say = "Whyyyy?! It was my loot! I earned it!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这把弓这次也算帮了我们的大忙，回头我去定一个仿制品给你收藏吧。",
+			say = "It's a shame, but there's no use crying over spilled milk. I'll ask Richelieu if she can give us another replica later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好耶~！多谢怨仇大人~",
+			say = "Oh! Okay, sweet♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在战争骑士也被顺利消灭，接下来只要去消灭代表支配的机甲骑士，整件事就彻底结束了。",
+			say = "With War defeated, now there's only Conquest left to vanquish to end this Siren experiment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是，支配骑士也是战斗力最强的，我们要怎么消灭它呢……",
+			say = "But Conquest will be strongest yet, now that we've \"conquered\" all the other Horsemen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也不能用像对抗战争的时候一样找到削弱它的象征物了吧……？",
+			say = "Not to mention, we're nearly out of energy and ammo... And there aren't any more concepts we can channel, are there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "倒也不一定……第五印、第六印还有第七印的效果我还没试过呢……",
+			say = "Not necessarily... In the Scriptures, there are a total of seven seals, which means three more concepts should be–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不行！继续尝试实在是过于危险了！",
+			say = "Hold up, I'm gonna veto that! You're not pulling a stunt like that again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没事没事~都说了这片圣堂对我的影响小，刚才试了两个我不都平安无事么。",
+			say = "Why not? Channeling Conquest worked fine, and we've seen no symbolism for the remaining three seals in the Mirror Sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "但是对于圣堂所处的塞壬镜面海域本身呢？",
+			say = "Just because they haven't been manifested in the form of Horsemen does not mean that the concepts don't exist!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "在这片海域中诞生了代表末日四骑士的机甲，不代表它只能诞生代表末日四骑士的机甲。",
+			say = "For all we know, the Mirror Sea itself could represent the last three seals.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "如果第五印、第六印甚至第七印的象征也在这里得到了具现化，使得工厂开始生产些什么……",
+			say = "You're aware of what those seals are, right? Do you have any idea what kind of calamity you could bring if you were to manifest those things?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "之后会发生的事你有想过么！",
+			say = "If you don't want the world to end, you'd better get that idea out of your head!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………你说得对……！",
+			say = "...I'll admit, I didn't consider that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那么，无敌的余烬拉·加利索尼埃小姐，在你原本的计划里要怎么消灭支配呢？",
+			say = "So, if that's no longer an option, how do you propose we take down the last Horseman?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "原本我打算等它和战争拼的两败俱伤之后再跳出来补刀的，不过就现状而言这个方案肯定用不上了。",
+			say = "Well, the original plan was to have Conquest and War take each other out after softening them up enough, but that's no longer on the table.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确实……那接下来该怎么办啊。",
+			say = "*sigh*... I suppose we're in a real bind then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "嗯？什么怎么办，在我看来事情已经和全部结束没区别了啊？",
+			say = "Hmm? Does it even matter at this point?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你们忘记发现支配骑士自己还处在极光之壁的“支配”下，根本就没有启动的事了么？",
+			say = "Did you forget that the Horseman of Conquest is still asleep behind the Skybound Wall?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊？！说的也是欸…………！",
+			say = "Well, sure, it's not an immediate threat to us at the moment...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那也就是说……不用苦战了？",
+			say = "But that doesn't improve our situation. While you can leave this place whenever you want, we can't unless we finish the job.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不用，对付没有启动的机甲骑士，方法可就多了。比如启动极光之壁，将其分割摧毁之类的？",
+			say = "Riiight, I forgot! Lucky for you, there are a few ways to deal with an inactive Horseman.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "具体要怎么做我得去现场再调查一下才能确认。",
+			say = "One being, you can use the walls of light to cut it to ribbons if you position 'em right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这里是鸢尾的圣堂，黎塞留主教和贝亚恩也来配合我调查一下没问题吧？",
+			say = "Now that I think about it, why didn't the Tribunal of your branch already come up with that idea?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +640,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那是自然，只要能安全解决事态就可以。",
+			say = "...Let's see if your idea is feasible, shall we?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "嗯~那说不如做，让我们赶紧出发吧~",
+			say = "No answer, huh. Fine, to the lair of the sleeping giant we go!",
 			painting = {
 				alpha = 0.3,
 				time = 1

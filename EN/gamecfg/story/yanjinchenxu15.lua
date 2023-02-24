@@ -30,35 +30,35 @@ return {
 			},
 			sequence = {
 				{
-					"<size=34>「第一印被揭开时，我看到一匹白马」</size>",
+					"<size=29>\"I watched as the Lamb opened the first of the seven seals, and there before me was a white horse.\"</size>",
 					1
 				},
 				{
-					"<size=34>「马上的骑士拿着弓，并有冠冕赐给他。他出来征服，胜了又要胜」</size>",
+					"<size=29>\"Its rider held a bow, and he was given a crown, and he rode out as a conqueror bent on conquest.\"</size>",
 					2
 				},
 				{
-					"<size=34>「第二印被揭开时，我看到一匹红马」</size>",
+					"<size=29>\"When the Lamb opened the second seal, another horse came out, a fiery red one.\"</size>",
 					3
 				},
 				{
-					"<size=34>「有权柄给了那骑士，可以从地上夺去太平，使人彼此相杀。又有一把大刀赐给他」</size>",
+					"<size=29>\"Its rider was given power to take peace from the earth and to make people kill each other. To him was given a large sword.\"</size>",
 					4
 				},
 				{
-					"<size=34>「第三印被揭开时，我看到一匹黑马」</size>",
+					"<size=29>\"When the Lamb opened the third seal, there before me was a black horse.\"</size>",
 					5
 				},
 				{
-					"<size=34>「马上的骑士拿着天平 ，似乎在说着，一钱银币买一升麦子，一钱银币买三升大麦」</size>",
+					"<size=29>\"Its rider was holding a pair of scales in his hands. Then I heard what sounded like its voice, saying, 'Two pounds of \nwheat for a day's wages, and six pounds of barley for a day's wages, and do not damage the oil and the wine!'\"</size>",
 					6
 				},
 				{
-					"<size=34>「第四印被揭开时，我看到一匹苍绿色马」</size>",
+					"<size=29>\"When the Lamb opened the fourth seal, before me was a pale horse.\"</size>",
 					7
 				},
 				{
-					"<size=34>「马上的骑士名字叫作死，阴府也随着他……」</size>",
+					"<size=29>\"Its rider was named Death. They were given power over a fourth of the earth to kill by sword, famine and plague, \n and by the wild beasts of the earth.\"</size>",
 					8
 				}
 			},
@@ -88,11 +88,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这是…………？",
+			say = "Where... am I...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,11 +100,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我究竟在哪里……发生了什么事？",
+			say = "What happened? I don't understand...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,11 +112,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不要急，冷静下来，深呼吸。",
+			say = "Don't fear, Implacable. Take deep breaths and calm down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,11 +124,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唔，感觉好难受……就像被装在木桶里从山上滚下来一样……",
+			say = "*huff*... *huff*... Eurgh, I feel awful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,34 +136,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我记得我们在审判庭堡垒中完成了净化程序，接着天空就……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_firedust_6",
-			hidePaintObj = true,
-			say = "此刻，赤色的洋面倒映着昏沉的天空。抬头望去，宛若日蚀一般的黑色太阳高挂在天空。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			actorName = "怨仇",
-			bgName = "bg_firedust_6",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "我们都被卷到那个黑洞内部了么……",
+			say = "One moment I'm looking up at the sky, the next, the world is spinning like I'm inside a washing machine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +151,30 @@ return {
 			side = 2,
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
-			say = "怨仇茫然地环顾着四周。凯尔盖朗岛已经消失了，取而代之的是一直延伸到天际线的恢弘建筑群。",
+			say = "Shadowy reflections were cast upon the stained ocean. High above, a black sun hung above the sky like an unending solar eclipse.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			actorName = "Implacable",
+			bgName = "bg_firedust_6",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Did we... get sucked through a Singularity?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_firedust_6",
+			hidePaintObj = true,
+			say = "Implacable looked around blankly. Basilica Island had completely disappeared, replaced with a sprawling network of intricate buildings reaching all the way to the skyline.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "原来如此，这就是圣堂的“下层”，您口中那个“与我们当前任务无关”的地方……",
+			say = "This feels like somewhere we aren't meant to be...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黎塞留，我需要一个答案。",
+			say = "Cardinal, do you know anything? Are we \"beneath\" the Basilicas?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你判断得不错，这里是圣堂的下层，也是圣堂的表象之下隐藏着的真面目。",
+			say = "I believe so, yes. We've somehow entered the catacombs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这么简单就完了？",
+			say = "Catacombs? You mean Mirror Sea, don't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "维希教廷可做不出来这些东西，甚至曾经的鸢尾教国也不行。",
+			say = "I doubt all the technology in the Basilicas could've created something like this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这里是货真价实的镜面海域，没错吧？",
+			say = "Not only is this clearly Siren territory, but it's also been here for a long time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "…………不错。",
+			say = "Yes, you're probably right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "鸢尾圣堂下方隐藏的秘密居然是塞壬镜面海域……解释一下，大主教。",
+			say = "How did this happen? You said it'd be over once we activated all the purification systems on the island.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很简单，这里本就是我们夺取的塞壬要塞的一部分，自从圣堂建立之初就已经存在于此。",
+			say = "It SHOULD have been over, but it seems I was mistaken... I can only guess the system malfunctioned in some way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "也就是说，你们除了夺取了塞壬修建在岛上的设施之外还……夺取了一处镜面海域的控制权？！",
+			say = "That, or this was an elaborate Siren trap from the very start.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不错。",
+			say = "Regardless, I shouldn't have assumed the Mirror Sea was limited to the island's surface layer. A foolish error on my part...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我之前就觉得有点奇怪……既然是与塞壬战斗，怎么会一点没提到镜面海域的事。",
+			say = "Don't blame yourself. The Sirens have ways of catching even the most cautious among us off-guard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "果然是刻意隐瞒了这个部分！",
+			say = "Let's focus on getting out of here. Does anything about this place resemble its real-world equivalent?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "………………",
+			say = "I can't say for sure. If I notice something, I will let you know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "……所以我们为什么会来到这里？",
+			say = "...Why did we get sent down here to begin with?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "该不会是因为我们知道的太多了，所以你要把我们弄到这里灭口吧……？",
+			say = "Is it because we now know too much, and the Tribunal wants to silence us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么可能。我们一直控制这里是有正当理由的，我本来想等到合适的机会再向你解释的……",
+			say = "That seems unlikely. If they wanted to get rid of us, we would've been sent down when we activated the very first purification system.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我希望这个“合适的机会”能够尽快来临。",
+			say = "\"Unlikely\" means it's not out of the question, but I'll take your word for it. For now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "先着眼于眼前。既然不是你故意送我们来的，那我们为什么会来这里？",
+			say = "If I remember right, you said Pawns are broken down and recycled in the catacombs, correct?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "净化程序不是已经成功执行了么？",
+			say = "So if we're not being silenced, maybe the facility sees us as \"outside invaders\" and is trying to eliminate us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "……我不知道，至少在我过去的记忆里，净化程序确实应该与这里无关的。",
+			say = "As far as I know, the catacombs and the purification process have no bearing on one another.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "出于安全考虑，下层区与上层区应该是被完全隔离开的。未经许可进入下层可比执行上层净化程序困难多了。",
+			say = "It should also be stated the catacombs are almost entirely separated from the surface layer. Béarn and I don't know any way to reach them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "除非…………",
+			say = "That is to say, I fear you may be right in saying that we've walked into a trap.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除非，维希教廷对这里进行了改造！",
+			say = "That would make it one of the most despicable I've ever seen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "她们知道在撤离之后一定会有人来接管这里，然后一定会触发圣堂上层的危机。",
+			say = "Whoever's behind it knew that people would investigate if they just withdrew the island's defense force.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "如果来的是皇家或者白鹰舰队的话……光是上层的危机就足够消灭掉“访客”了。",
+			say = "Then, the Pawns would easily dispatch whatever mass-produced ships were sent in, forcing us shipgirls to do the job.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果是自由鸢尾的“专业人士”来启动净化流程的话，也会因为“意外”而被送到下层来！",
+			say = "The Royal Navy wouldn't be able to activate the purification systems or escape the Mirror Sea, and would eventually succumb to the Pawns.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这是一个设置精密的陷阱啊，大主教。",
+			say = "Meanwhile, the only people in Iris Libre who could activate the purification systems would be sent to be dealt with down here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,7 +702,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………不好，我们在这里呆得太久了。",
+			say = "...We need to get moving, immediately.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -719,7 +719,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？是我想的那样么？果然会有危险出现么？",
+			say = "Huh? Why? Are Pawns on the way?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -737,7 +737,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "从下层的情况来看……这里恐怕已经彻底失控了。",
+			say = "No, something far worse. By the look of things, the catacombs are completely out of control.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么我们接下来的处境应该会变得相当危险……",
+			say = "If we don't act now, we'll be in grave peril.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -773,7 +773,7 @@ return {
 			actor = 201360,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇——！！！怨仇大人、怨仇大人不好了！！",
+			say = "Implacable! Implacableeeee!! We need to get the heck out of here!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			actor = 201360,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有个超级巨大的机甲骑士朝我们冲过来了！",
+			say = "There's a huge-ass mecha-knight coming straight towards you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -830,7 +830,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "超级巨大的……机甲骑士？",
+			say = "Mecha-knight? Did I hear that right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -845,7 +845,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "英雄的紧急呼叫暂时打断了黎塞留与怨仇针对现状的分析，二人将视线拉向远方。",
+			say = "An emergency call interrupted the girls' analysis of the situation, shifting their attention towards the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "远方，侦察归来的英雄正在水面上疾驰，而一个如同山丘般的机甲骑士正紧跟在她身后不远处。",
+			say = "There, they saw Hero, fleeing while desperately firing her cannons at the rapidly approaching threat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -867,7 +867,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "骑士身披黑色盔甲，手提天平坐在同样身披黑色盔甲的机甲战马上，浑身散发着不详的气息。",
+			say = "A massive mechanical knight, clad in black armor with a set of heavy scales in hand, galloped across the water. An ominous, deathly aura followed in its wake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -881,7 +881,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "…………「审判型机甲武装—饥荒」。",
+			say = "...Mechanicus Harbinger - Famine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -898,7 +898,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然与我记忆中已经大有不同，但是这个感觉不会错……就是那个东西。",
+			say = "It looks very different from what I remember, but that is definitely one of the Four Horsemen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -915,7 +915,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "皇家海军，准备战斗——！",
+			say = "Royal Navy, intercept the target!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -933,7 +933,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不行，凭借我们现在的舰队不一定是它的对手，不能硬碰硬！",
+			say = "No, Implacable! Make no attempt to fight it! It is far too powerful for us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -950,7 +950,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝亚恩、去看看附近还有没有正常运作的稳定锚，我们必须立刻撤退！",
+			say = "Béarn! Search for a nearby conceptual anchor! We must retreat at once!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -968,7 +968,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "好的，请给我一点时间！",
+			say = "Understood, Cardinal! I will look for one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,7 +996,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "什么，撤退……？不过是个有点大的塞壬量产型而已吧？",
+			say = "Retreat? Why? Isn't it just an oversized Pawn?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1014,7 +1014,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "那台机甲可不是什么有点大的塞壬量产型！",
+			say = "It is nothing of the sort! We have to run!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1031,7 +1031,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等到了安全的地方，它们的真面目还有我们控制这里的原因，我会和盘托出。",
+			say = "Look, I'll explain what it is and how to deal with it once we've made it somewhere safe!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1049,7 +1049,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "现在请一定要相信我！",
+			say = "You need to trust me, Implacable!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1067,7 +1067,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "好吧……这里本来也是你的地盘，就听你的，带路吧！",
+			say = "Alright, alright. You know this place better than me, so I'll just follow you!",
 			painting = {
 				alpha = 0.3,
 				time = 1

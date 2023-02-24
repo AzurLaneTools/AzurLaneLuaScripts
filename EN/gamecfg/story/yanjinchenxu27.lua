@@ -24,15 +24,15 @@ return {
 			},
 			sequence = {
 				{
-					"接管第七日 00:00:00",
+					"Basilica Island Lighthouse",
 					0.5
 				},
 				{
-					"自由鸢尾舰队",
+					"Iris Libre Fleet",
 					1
 				},
 				{
-					"凯尔盖朗岛·圣堂引航灯塔",
+					"Midnight - Day 7 since start of investigation",
 					1.5
 				}
 			}
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "钟声敲响，新的一日已经来临。",
+			say = "The clock ticked over silently to the new day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "劳累了数日的枢机主教黎塞留，此刻正在办公桌前安眠。",
+			say = "The Cardinal was asleep at her desk, exhausted after what had transpired.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			nameColor = "#A9F548FF",
-			say = "█ █ █·█ █ █ █ █ █",
+			say = "█ █ █ █ █ █ █ █ █",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………又是这幅景象。",
+			say = "...This scene again...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
-			say = "降落至人间的黑色太阳……",
+			say = "...A black sun, descending into the world of Man.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "声音传了出来……究竟是从哪里？",
+			say = "That sound... Where is it coming from?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我…………理解不了。",
+			say = "I... can't make any sense of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
-			say = "请问是谁在说话，能否亮出真容来？",
+			say = "Who goes there? May I ask you to show yourself?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………让·巴尔？",
+			say = "...Jean Bart?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			actor = 905010,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			say = "█▎■小▋▂▁▅▎▌心▇▊▇",
+			say = "█▎■Be▋▂▁▅▎▌ware▇▊▇",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
-			say = "……小心？小心什么？！",
+			say = "Beware? Beware of what?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			actor = 905010,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			say = "█▆▎来█▎█",
+			say = "█▆▎Come█▎█",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			actor = 905010,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			say = "█▎█▎找▅█▎█▎▌我▅▎▌█",
+			say = "█▎█▎to▅█▎█▎▌me▅▎▌█",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等……别走，让·巴尔！",
+			say = "Wait! Jean Bart, don't go!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让…………",
+			say = "Jean... Bart...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "………………刚刚的是，噩梦？",
+			say = "Just now... was I dreaming...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "只是噩梦……而已…………么？",
+			say = "That... was just a dream... right?",
 			painting = {
 				alpha = 0.3,
 				time = 1

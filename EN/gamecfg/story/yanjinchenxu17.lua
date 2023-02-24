@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "一段时间后——————",
+			say = "Basilica Island Catacombs",
 			bgm = "theme-vichy-revelation",
 			flashin = {
 				delay = 1,
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "怨仇女士，黎塞留大人，这是整合完毕的侦察结果，请过目。",
+			say = "Lady Implacable, Lady Richelieu, this is the layout of the entire area. Please take a look.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "效率挺高嘛~",
+			say = "Efficient as always. Thank you for your hard work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "唔…………海域中确实没有明显的中心地标建筑，敌人的数量也真不少……",
+			say = "Hmm... You're right, I don't see any sort of control device here, and the entire place is crawling with enemies...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？有些奇怪……大主教，四个机甲骑士应该都会控制一套低级量产型协同自己作战吧？",
+			say = "Wait, this is odd... Cardinal, didn't you say that each of the Four Horsemen controlled a set of Pawns corresponding to their respective concepts?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "没错，每个机甲都是一支舰队的统帅。",
+			say = "Yes, each Horseman basically functions as a fleet leader.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当机甲骑士重生后，海域中的设施会立即为其生产出量产型舰队。",
+			say = "Whenever a Horseman is reborn, the facilities here will automatically produce another Pawn fleet for it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那就奇怪了……四种颜色的建筑群倒确实都看到了，但是敌人却只见到了红色一种！",
+			say = "Things don't add up then. There are four different-coloured Basilicas corresponding to each of the Horsemen, but I'm only seeing one type of enemy here – red.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这就有些对不上了吧……？代表支配、饥荒、死亡的另外三种颜色的敌人呢？",
+			say = "Where are the other three Horsemen's Pawn fleets?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "海域中可以看到大量无法辨识的残骸，也许是四骑士的军队之间发生了战斗，只有战争的军队胜出了？",
+			say = "I see a large number of wreckages of unknown origin around this area. Maybe the Four Horsemen fought amongst each other, and one of them came out on top?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "之前你们有见过类似情况的发生么？",
+			say = "Fighting amongst themselves? Has anything like that happened in the past?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "没有，不过也许只是我们没有创造出与现在相同的环境。",
+			say = "No, but we've also never been in this exact situation before either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，塞壬让棋子之间相互战斗以进行某些测试的情况也并不少见。",
+			say = "Furthermore, it's not unheard of for Sirens to have Pawns fight each other for experimentation purposes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "嗯……这种情况倒确实在其他地方有出现过。",
+			say = "Based on my experiences, that does sound somewhat plausible...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "可就算假设这个结论是正确的，还是不太对……",
+			say = "But even if we accept that premise, it shouldn't lead to these results.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们还记得么，在圣堂上层一直运行的棋子工厂是代表死亡的苍绿色，",
+			say = "Do you remember what we saw at Basilica Vert's factory?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "也就是说理论上，最初诞生的应该是代表死亡的机甲骑士，和它的军队——没错吧？",
+			say = "Despite it being the largest facility and most severely affected by infection, there were very few Pawns on the upper level. If what you said is true, shouldn't the Horseman of Death have the largest fleet and be the strongest of the Four?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "可为什么我们在下层见到的不是苍绿色军队，而是代表战争的红色军队呢？",
+			say = "So my question is – why are they not down here either?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "哼哼，这个问题英雄能回答！",
+			say = "Ooh, let me take a stab at that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "既然只有战争的军队留下来了，那当然就表示战争的军队最强啦！",
+			say = "Since only the red fleet is still remaining, that means the Horseman of War was simply stronger!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "为什么？为什么是战争的军队最强？",
+			say = "That's begging the question, Hero. What evidence do we have?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“末日四骑士”概念之中只包含了四骑士出现的顺序，并没有提到强弱之分。",
+			say = "We don't know if there's any inherent differences in strength between the fleets.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "既然最先拓展军队的是死亡骑士，那为什么战争骑士会后来居上成为圣堂下层区的实际控制者？",
+			say = "If the Horseman of Death had the largest fleet and should have been powered up from the infection, how did the Horseman of War come out on top?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "这个……英雄就不知道了。",
+			say = "Uhh... I got nothing for ya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "难道说在下层，“战争”这个概念得到了格外的加强么……",
+			say = "Do you think this has something to do with \"concepts?\" Just like how the concept of sanctity kept us safe earlier, do you think something here is amplifying the concept of War?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "和我想的一样。",
+			say = "Good, I reached the same conclusion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "黎塞留，我接下来要做一个实验。如果我表现出任何异常之处的话，请用任何方法终止我的实验。",
+			say = "Cardinal, I will now conduct a little experiment to test this hypothesis. If I start to show any signs of abnormalities, please stop me by any means.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "嗯？具体来说你想要做什么？",
+			say = "...What are you trying to do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "验证一个想法，对不对马上就能知道了。",
+			say = "We'll find out if I'm on the right track soon enough.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 1,
-			say = "怨仇深吸一口气，用微不可查的声音轻声吟唱起来。",
+			say = "Implacable closed her eyes, took a deep breath, and began to chant in an almost imperceptible voice.",
 			bgm = "theme-vichy-slaughter",
 			typewriter = {
 				speed = 0.05,
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "「……第二印被揭开时，我看到一匹红马……」",
+			say = "\"When the Lamb opened the second seal, another horse came out, a fiery red one...\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 207070,
-			say = "「……有权柄给了那骑士，可以从地上夺去太平……」",
+			say = "\"Its rider was given power to take peace from the earth...\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "伴随着怨仇的吟唱声，与那些棋子身上的红色雾瘴无异的颜色，开始从怨仇身上弥散开来。",
+			say = "As the words of power flowed from her lips, a red mist began to diffuse from her body, just like the Pawns around them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "这是……………………不好，怨仇女士，快停下来！",
+			say = "Wait... Stop this right now, Implacable!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "红雾缠身的怨仇没有理会黎塞留的呼喊，只是继续轻声吟唱了下去。",
+			say = "Even as red mist flowed from her, Implacable ignored Richelieu's words and continued her chant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 207070,
-			say = "「……使人彼此相杀，又有一把大刀赐给他……」",
+			say = "\"...and to make people kill each other. To him was given a large sword...\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "怨仇女士……怨仇女士…………！",
+			say = "Lady Implacable... Lady Implacable!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……啧，抱歉得罪了。",
+			say = "Tch... I apologize for this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,7 +724,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "轰——————————！",
+			say = "KABOOM––!!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -778,7 +778,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "…………啊！痛痛痛…………刚刚发生什么事了？",
+			say = "...Aaaaargh! That hurt like hell! What in the world just happened?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "我用空包弹把你打醒了，感觉还好么？",
+			say = "I hit you with a blank to snap you back to your senses. How are you feeling?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "很不好！我刚刚遭受到了精神肉体的双重打击欸！",
+			say = "Terrible, thank you very much! My mind's all foggy, like someone just hit me in the head!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -842,7 +842,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不过好在冒险是有回报的……刚刚在祷告期间，我身上发生了某种变化对吧。",
+			say = "But, uh, my little gamble paid off, right? When I was reciting those lines from the Scriptures, something started happening to me, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -859,7 +859,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，身上出现了红色的雾气，而且怎么叫你都没有回应。",
+			say = "Yes, your body started giving off the same red mist coming off of those Pawns, and you wouldn't respond to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -877,7 +877,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "就像被“战争”这个概念附身了一样，没错吧？！",
+			say = "Almost as if I was being possessed by the concept of War, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -895,7 +895,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这就是“概念”在这片空间中的影响力……所以战争强过死亡也可以理解了。",
+			say = "You said earlier that this space brought the Four Horsemen into being based on the Iris Orthodoxy's beliefs. What you just saw was a manifestation of the power of concepts here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -912,7 +912,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟，四骑士都在这片海域中厮杀，“战争”几乎出现在这片空间的每个角落。",
+			say = "And if the Four Horsemen are fighting over control of this area, then the concept of war would permeate every corner of this space.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -930,7 +930,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "而对于机械和量产型来说————死亡的概念是不存在的。",
+			say = "What about the concepts of Death and Famine? For Pawns and mass-produced machines, these concepts do not exist at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -948,7 +948,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "同理，“饥荒”的概念在海域中也很弱，而“支配”的话……应该会非常强吧。",
+			say = "As for the concept of Conquest, that would likely depend on whether or not they were given orders, correct?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -965,7 +965,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说在圣堂下层中的四台机甲骑士是有强弱区别的，原来如此……合理的推测。",
+			say = "That seems likely. In other words, this space imposes a completely different set of rules on the Horsemen compared to up above.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -983,7 +983,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "大主教，你们当年是怎么与四骑士作战的？",
+			say = "By the way, how did the Orthodoxy try to fight against the Horsemen back then?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1001,7 +1001,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "怎么作战……？应该是见到一个消灭一个吧？",
+			say = "You mean, tactics-wise? We didn't really have the luxury to pick and choose our fights, so we had to suppress them as we saw them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1018,7 +1018,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要知道具体细节就要查阅审判庭记录了，我不是很清楚，怎么了？",
+			say = "If you want further details on the exact nature of those operations, you'd have to look through the Tribunal's logs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1035,7 +1035,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "顺序！在消灭四骑士的过程中，“顺序”的概念也是至关重要的！",
+			say = "I don't think that'll be necessary. You had us activate the purification stations at each of the four Basilicas in a specific order, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1053,7 +1053,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "如果说从第一印至第四印的揭开代表审判日的执行的话，那按照相反的顺序来不就是代表终止么！",
+			say = "If that symbolises the breaking of the seals from the Scriptures, what do you think would happen if we defeated the Horsemen in the opposite order?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1071,7 +1071,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "因此……必须按照死亡、饥荒、战争、支配的顺序依次将四骑士消灭，才能终止它们源源不断地再生！",
+			say = "We'll follow the order of Vert, Noir, Rouge, and then finally Blanc. Given the diminished strength of the first two Horsemen, we should also take advantage of that opportunity to learn how to best fight in this space.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1089,7 +1089,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "按照你们见到一个消灭一个的做法来战斗的话……如果最初消灭顺序就弄错了，自然永远没办法达成正确的顺序咯~",
+			say = "Also, we can use the conceptual anchors to wait for opportune times to attack and avoid unfavourable fights.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1106,7 +1106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你觉得呢，大主教？",
+			say = "What do you think about my proposal, Cardinal?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1124,7 +1124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "所以审判庭才一直没能成功么……推测完全合理，有一试的价值。",
+			say = "It's certainly worth a shot. We have more resources at our disposal now than we ever did back then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1142,7 +1142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "很好！既然找到了方向，那就事不宜迟，首先先让我们去会一会最弱的死亡骑士吧！",
+			say = "Excellent. In that case, let's move out while we can still seize the initiative.",
 			painting = {
 				alpha = 0.3,
 				time = 1

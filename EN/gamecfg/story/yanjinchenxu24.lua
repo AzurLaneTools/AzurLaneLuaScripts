@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			stopbgm = true,
-			say = "一段时间的寻找后，众人来到了一处鸢尾教国时期修建的教堂内。",
+			say = "After looking around the Mirror Sea, the girls managed to find an Orthodoxy church preserved by a conceptual anchor.",
 			bgmDelay = 1,
 			bgm = "theme-vichy-church",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "虽然有些残破……不过现在也不是挑三拣四的时候了。",
+			say = "This is like a vault of Orthodoxy Sacraments... It's definitely seen better days, but I suppose beggars can't be choosers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大主教，您先请？",
+			say = "Well, Cardinal, could you give me an example of a prayer?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，那就先让我来尝试一下吧。",
+			say = "Of course. Please listen closely.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "黎塞留来到破旧的大厅中间，双手合十，吟诵起了祈祷词。",
+			say = "Richelieu got down on her knees, put her hands together, and began reciting a holy prayer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,25 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……我们在天上的父，愿人都尊你的名为圣……」",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "「……愿你的国降临，愿你的旨意行在地上，如同行度在天上……」",
+			say = "\"Hallowed Iris in Heaven, blessed is your holy name.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……我们日用的饮食，今日赐给我们……」",
+			say = "\"Give us the courage to stride upon the blue seas as we would in the clouds before you.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……免我们的债，如同我们免了人的债……」",
+			say = "\"Give us your Sacrament so that our lives may be filled with purpose.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……不叫我们遇见试探，救我们脱离凶恶……」",
+			say = "\"Forgive our sins, so that we may forgive others.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +169,25 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……因为国度、权柄、荣耀，全是你的， 直到永远……」",
+			say = "\"Protect us from tribulations, and ward us from evil.\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "\"All authority, all glory, all of Heaven and Earth belong to you.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			side = 2,
-			say = "伴随着黎塞留的祈祷声，星星点点的金色光芒从空气中析出，逐渐汇聚至矗立在她身边的旗帜上。",
+			say = "Hearing her prayer, beads of golden light emerged from thin air and converged upon her Orthodoxy flag, one light at a time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
-			say = "此时此刻，那面自由鸢尾的旗帜正如同琉璃瓦一般闪耀。",
+			say = "Once she had finished praying, her flag shone like glorious sunlight through stained glass.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "光是站在旗帜周围，就能感受到勇气与力量逐渐从体内涌出。",
+			say = "Simply laying eyes upon it inspired courage and empowered the spirit of all those who followed the Iris.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "做得漂亮！",
+			say = "Incredible, Cardinal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "不愧是枢机主教，这份旗帜中蕴含的力量连我也能感受到。",
+			say = "Even I could feel how powerful that prayer was.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "这样一来，你们肯定能好好教训一下那台战争机甲了。",
+			say = "No doubt about it. You'll easily be able to fight the Horseman of War face to face.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呼………………怨仇女士，我的祈祷结束了。",
+			say = "Whew... Okay, Implacable. It's your turn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "仪式期间只有安心的感觉，并无任何不适感，请放心。",
+			say = "As La Galissonnière said, the Iris is safe to pray to. I did not sense the influence of any Horseman in my heart.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "好~那接下来就让我来试试吧。",
+			say = "Good to know. I'll give it a shot as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,10 +386,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……我们在天上的父，愿人都尊你的名为圣……」",
+			say = "\"Hallowed Iris in Heaven, blessed is your holy name.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,10 +397,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……愿你的国降临，愿你的旨意行在地上，如同行度在天上……」",
+			say = "\"Give us the courage to stride upon the blue seas as we would in the clouds before you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,10 +408,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……我们日用的饮食，今日赐给我们……」",
+			say = "\"Give us your Sacrament so that our lives may be filled with purpose.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,10 +419,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……免我们的债，如同我们免了人的债……」",
+			say = "\"Forgive our sins, so that we may forgive others.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,10 +430,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……不叫我们遇见试探，救我们脱离凶恶……」",
+			say = "\"Protect us from tribulations, and ward us from evil.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,10 +441,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……因为国度、权柄、荣耀，全是你的， 直到永远……」",
+			say = "\"All authority, all glory, all of Heaven and Earth belong to you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_9",
-			say = "光芒没有出现，怨仇的身边依然被漆黑所笼罩。",
+			say = "Unlike Richelieu's prayer, Implacable's produced no lights, and her surroundings continued to remain dark.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,10 +462,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,10 +473,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "……………………？",
+			say = "...Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "神没有回应你呢。",
+			say = "Looks like God doesn't feel like answering your prayers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "行…………吧……………………为什么我就一点都不意外呢。",
+			say = "Hah... Why am I not surprised... Just like at the Skybound Wall...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "从刚才开门的时候我就发现了，我跟你们的鸢尾圣堂是真的合不来。",
+			say = "Guess I'm not as devout and pure-of-heart as the Cardinal after all~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "刚才开门的时候……？是指穿越极光之壁的时候么。",
+			say = "What happened at the Skybound Wall?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊，和刚才一样，我跟黎塞留念了一样的祷词，但是只有她念的才有效果。",
+			say = "I recited the same prayer as Richelieu, but only her words had any effect.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……我明白了。",
+			say = "I see, it makes sense now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "此处虽然是塞壬的镜面海域，但也是经过鸢尾教国改造的圣堂。",
+			say = "Though this is a Siren Mirror Sea, it was shaped and sculpted into a Basilica of the Iris Orthodoxy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "包括四骑士、审判等与信仰有关的概念，都是在教国的认知体系下定义的。",
+			say = "Everything here, from the concept of Judgment to the Four Horsemen, are built from the Orthodoxy's cognitive system.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自然，“神”这个概念也不意外。",
+			say = "Naturally, the concept of faith is an inseparable part of all this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "…………“战争”的定义总是战争，但“神”的定义就不一定了是么……",
+			say = "And there is no way for me to invoke the concept of a faith I do not hold.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,7 +671,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "要不然借此机会干脆来改信鸢尾的信仰如何，怨仇女士？",
+			say = "It's never too late for me to share the Iris's teachings with you–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这件事我一点兴趣都没有，请容许我坚定拒绝。",
+			say = "I appreciate the sentiment, Cardinal, but I'll have to pass.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -706,7 +706,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "既然在这片空间中“神”的概念是由鸢尾教国定义的，那我只要避开这个概念，换一个祈祷目标就行了吧？",
+			say = "But, I just had an idea. If \"faith\" is the concept that governs this space, it should not matter if we have faith in the same thing, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "理论上也不是这样……但是刚刚战争的影响你也亲身体会到了，请千万不要去尝试那些危险的概念。",
+			say = "In theory, yes. However, you just experienced for yourself how dangerous it can be to invoke the concepts of the Four Horsemen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,7 +740,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那是自然，没有被鸢尾定义过，又包含正面信仰的概念，你以为我找不出来了么？",
+			say = "Who said anything about praying to one of those Siren constructs? If there's anything you should know about the Royal Navy, it's that we have an unshakable faith in one person.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "怨仇一边说着，一边拿出了一个小巧的伊丽莎白女王雕像。",
+			say = "With a wry smile, Implacable took out a small carving in Queen Elizabeth's likeness and clasped it in her hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "伊丽莎白女王的雕像……你该不会是想对着女王祈祷吧……？",
+			say = "That's... a figure of Queen Elizabeth? What are you trying to do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,7 +785,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "归根结底，这里还是塞壬的镜面海域吧？",
+			say = "Do you think the Sirens can distinguish between the faith of the Iris Orthodoxy and the faith of the Royal Navy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -803,7 +803,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那在塞壬最初设计的时候，你觉得它们会去细究究竟用的是鸢尾信仰中的四骑士还是皇家信仰中的四骑士么？",
+			say = "Who knows, maybe someone else might hear my prayers?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -820,7 +820,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你要想试那就试试吧……但是我觉得没戏就是了。",
+			say = "I'm not expecting much, but... can't hurt to give it a shot.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -838,7 +838,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那我们拭目以待~",
+			say = "Heehee~♪ Now then, to the one I trust in most...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -880,11 +880,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_10",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「蒙主洪恩，太阳所照耀之地的女王」",
+			say = "\"To the hallowed name who smiles upon our land like the sun,\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,11 +892,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_10",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「皇家海军的领袖，国教的保护者」",
+			say = "\"Protector of our safe haven, beacon of our glory.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,11 +904,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_10",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「你的光芒与智慧照耀我们七海的领土」",
+			say = "\"May the light of your wisdom protect us across the seven seas.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -916,11 +916,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_11",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「让我们看到这世间的真实」",
+			say = "\"May the authority of your blade reveal the truth in this chaotic world.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,11 +928,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_11",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「你看顾我们苦难的同胞，邪恶因你退去」",
+			say = "\"May you grant us the power to overcome hardship and endure trials, to purge evil and bring peace.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -940,11 +940,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_11",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「我们领受你的启示，因而必成就你的应许」",
+			say = "\"Grant us your enlightenment, so that we may open the way in your name.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,11 +952,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_11",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「赞颂你的名，我的陛下——！」",
+			say = "\"To you I pray, Your Majesty, Queen Elizabeth!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,7 +983,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_12",
-			say = "这一次，怨仇的祈祷获得了回应。",
+			say = "This time, her prayer was heard and answered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -993,7 +993,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_12",
-			say = "金色的光芒在怨仇手中的伊丽莎白雕像上徐徐亮起。",
+			say = "From the carving clutched between her hands, golden lights emerged, ascending to the church ceiling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1003,7 +1003,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_12",
-			say = "那缓缓升起的光芒温暖而有力量，在汇聚成光团后，又如喷泉般跃起，洒向了四面八方。",
+			say = "The specks of warmth clumped together into one big ball before bursting, showering the girls with star-like fragments of hope.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1011,10 +1011,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_12",
 			nameColor = "#A9F548FF",
-			say = "…………我感受到您的回应了，陛下……",
+			say = "...Thank you, Your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1026,7 +1026,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……这是来自女王陛下的……力量么？",
+			say = "Is this... Her Majesty's grace?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1043,7 +1043,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我感受到了一股……温暖的家的感觉……",
+			say = "I feel so warm. Relaxed. Like being back home...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1060,7 +1060,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然完全搞不懂是怎么回事，但有这种力量，就可以对付战争骑士了吧~☆",
+			say = "Whatever the hell this is, it feels like I just received a major buff. I'm gonna walk all over that War loser~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1087,7 +1087,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不可思议…………居然真的成功了？",
+			say = "I'll be damned... It actually worked.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1104,7 +1104,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“蒙主洪恩的女王”哦，也是信仰有关的概念不是么~",
+			say = "Whether you follow the Iris or Her Majesty doesn't matter. What's important is that you believe in it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1121,7 +1121,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………我无话可说，你无疑也是有着属于自己坚持的坚定信仰。",
+			say = "...It seems you had it in you after all, Implacable. You do have strong faith, just not in the Iris.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1138,7 +1138,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样一来就算是全部强化完成了~",
+			say = "Mhm. At any rate, I should be ready now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1154,7 +1154,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "别愁眉苦脸了，大主教，接下来我们还有两个骑士要打呢。",
+			say = "There are still two Horsemen left. Even with this newfound strength, we must stay on top of our game.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1171,7 +1171,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "趁效果还在的时候，快些行动吧~",
+			say = "And who knows how long these prayers will last. Let's get going at once, Cardinal.",
 			painting = {
 				alpha = 0.3,
 				time = 1

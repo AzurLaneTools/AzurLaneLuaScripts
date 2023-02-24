@@ -12,7 +12,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "█ █ █·█ █ █ █ █ █",
+			say = "█ █ █ █ █ █ █ █ █",
 			bgm = "theme-vichy-church",
 			flashin = {
 				delay = 1,
@@ -44,7 +44,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "………………我就知道，回来之后肯定会做噩梦。",
+			say = "I knew that place was going to give me nightmares...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在应该算是预感成功了吧？",
+			say = "I suppose that proves my gut instincts right, then?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "无人回应怨仇的自言自语，只有黑色的太阳在无声地燃烧着。",
+			say = "Nobody answered Implacable's rhetorical question, only a black sun roiling silently above her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然如此，就让我来仔细观察一下你好了。",
+			say = "That being the case, let me take a closer look at you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在凯尔盖朗的时候被你吓了两次，你说你究竟算是什么东西呢?",
+			say = "You spooked me twice back there on Kerguelen. Just who do you think you are?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "怨仇看向不远处的黑色太阳，终于做出了决定。",
+			say = "Implacable turned her eyes towards the black sun, and made up her mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "不过在迈开脚步前，她感到了身后突然出现的气息。",
+			say = "But just as she was about to step forward, she suddenly felt another presence behind her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……陛下？",
+			say = "...Your Majesty?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……您说什么……我，听不清？",
+			say = "What are you saying? I can't hear you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,11 +222,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？？",
+			actorName = "???",
 			bgName = "bg_firedust_5",
 			nameColor = "#ffa500",
 			dialogueBgAlpha = 0.6,
-			say = "听不清，那还有救。",
+			say = "If you can't hear anything, then there's still hope for you yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,11 +234,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？？",
+			actorName = "???",
 			bgName = "bg_firedust_5",
 			nameColor = "#ffa500",
 			dialogueBgAlpha = 0.6,
-			say = "魑魅魍魉，给本王退下！",
+			say = "Ghosts and demons, step aside before your Queen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "轰——————————！",
+			say = "KABOOM––!!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "一阵猛烈的冲击后，那个发出不明声音的伊丽莎白女王不见了。",
+			say = "The whole area seemed to shudder violently with that explosion, and in the place of the enigmatic voice stood another person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "取而代之的是出现在怨仇身后另一侧的——",
+			say = "Implacable opened her eyes, and came face-to-face with the figure across from her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,12 +326,12 @@ return {
 			dialogueBgAlpha = 0.6,
 			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "？？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "嗯？这么看着本王做什么？",
+			say = "What are you staring at us for?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……伊丽莎白女王·META？！",
+			say = "Queen Elizabeth... META?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,11 +366,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "为何要如此惊讶，不是你呼唤的本王么？",
+			say = "What's with that stunned look on your face? Did you not call out to us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,11 +386,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "细看下来……你并没有META化呢。",
+			say = "Now that I take a closer look at you, you still haven't undergone METAmorphosis...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,11 +406,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "那你为何能呼唤到本王？又是如何被那些东西缠上的？",
+			say = "How, then, did you invoke our name? And, how did you manage to get yourself involved with THOSE things?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,11 +426,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "有些意思……",
+			say = "How interesting...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我有点……跟不上您的思路。",
+			say = "I... can't quite follow what you're saying...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
-			say = "我这是在做梦么？",
+			say = "Am I in a dream?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,12 +481,12 @@ return {
 			dialogueBgAlpha = 0.6,
 			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			dir = 1,
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "对于你来说，是。",
+			say = "For you, perhaps.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,11 +502,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "梦该醒了，这里不是你该来的地方，回去吧。",
+			say = "Wake up. Go back. This place was never meant for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是我还有问题————",
+			say = "But, I still have so many questions–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,11 +541,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "本王又没在征求你的意见。",
+			say = "That was an order, not a suggestion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,11 +561,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "「回去」",
+			say = "\"Go back.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1

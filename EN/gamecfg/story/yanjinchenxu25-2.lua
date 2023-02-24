@@ -10,7 +10,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			stopbgm = true,
-			say = "怨仇女士，战争骑士正主动向我们的方向袭来。",
+			say = "Implacable, War is coming towards us.",
 			bgm = "battle-whaling-normal",
 			painting = {
 				alpha = 0.3,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不愧是代表战争的骑士，就是好战。",
+			say = "It's raring to go, hmm? How befitting its namesake.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "而且……外表看上去完好无损，看来确实是场苦战了……",
+			say = "Looks like there's no signs of damage on it either. This won't be an easy fight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "没事没事，“蒙主洪恩的女王陛下”不是正在照耀着你们么？",
+			say = "What's wrong? Isn't your queen watching over you? I'm sure she won't let you lose more than a limb or two at worst.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "别跟事不关己一样地说风凉话！",
+			say = "Thanks for the \"encouragement.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "你要是还不出力的话，说不定我们会遭受重大损失的！",
+			say = "If you don't start pulling your weight, maybe you'll lose a limb or two as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我跟你们又不熟，帮是情分不帮是本分。",
+			say = "Listen, I said I'd fight by your side, not that I'd adapt to your tactics.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			actor = 900353,
 			dir = 1,
-			say = "硬碰硬不是我的风格，你们就先在正面坚持一下。",
+			say = "As I said, I'm not gonna charge up there head-first, as that's not my style.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			actor = 900353,
 			dir = 1,
-			say = "我绕到侧面去找它的弱点，看看有没有什么破敌良方。",
+			say = "You guys can run up there and butt heads all you want, but I'm gonna look for weaknesses to exploit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "先走一步~",
+			say = "Sounds good? Alright. Have fun now, shipgirls of this \"branch\"~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你……！",
+			say = "Cheeky little... Why is she like this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			actor = 805010,
 			dir = 1,
-			say = "…………怨仇女士，消消气。",
+			say = "Calm down, Implacable. She doesn't trust us to not use her as cannon fodder, which is sensible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "事到如今我们也没有别的选择，怒火还是留给敌人吧。",
+			say = "We don't have much of a choice anyway, so let's at least give her the best conditions to succeed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "………………皇家海军，见敌必战！",
+			say = "Ugh... Everyone, attack it head-on!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "女王陛下的荣光正在照耀着我们呢，奋力战斗，不要让陛下蒙羞！",
+			say = "Her Majesty's graces are with us! Show that Horseman our might!",
 			painting = {
 				alpha = 0.3,
 				time = 1

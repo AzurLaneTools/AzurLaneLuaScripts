@@ -7,7 +7,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			bgm = "battle-whaling-normal",
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 805010,
 			dir = 1,
-			say = "啧，这样近距离的炮击都没能彻底击穿其装甲么……",
+			say = "Our cannons cannot penetrate it, even at this close range?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "既然如此————",
+			say = "This time, surely...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -139,7 +139,7 @@ return {
 			actor = 201360,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "居、居然躲开了黎塞留大人的近距离攻击？！明明受了这么重的伤！",
+			say = "Did that thing just dodge her shot? So much for being halfway dead!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			actor = 202330,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "看来之前余烬的拉·加利索尼埃没有说谎。",
+			say = "It would seem our enemy's combat ability rivals that of even elite Sirens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 202330,
 			dir = 1,
-			say = "这个机甲明明只是个塞壬实验场中制造出的自律兵器，但其却有堪比高阶塞壬的战斗力……",
+			say = "I can see now why La Galissonnière opted not to fight it head-on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			actor = 205140,
 			dir = 1,
-			say = "怎么会有这种事……",
+			say = "This can't be happening...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			actor = 205140,
 			dir = 1,
-			say = "难道我们、黎塞留主教和怨仇女士，再加上余烬的拉加利索尼埃合力，都没法击倒它么……",
+			say = "Even with Implacable, Richelieu, and support from the Ashes, we still can't defeat an injured Horseman...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不。余烬的那位根本就没出手吧……",
+			say = "Small correction – our Ashes ally isn't doing much of anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			dir = 1,
-			say = "喂，余烬的！你怎么出工不出力啊！别摸鱼划水了！",
+			say = "La Galissonnière, what are you doing? Didn't you say you'd help us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "嘘……别急，我在祈祷。",
+			say = "I AM helping. Can't you tell I'm praying?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这时候祈祷？祈祷对面高抬贵手么？",
+			say = "Excuse me? Don't tell me you're praying for it to give up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			actor = 900353,
 			dir = 1,
-			say = "不，祈祷给对面带来毁灭。",
+			say = "Give up? No, more like blow up! Literally!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			actor = 900353,
 			dir = 1,
-			say = "「……慈爱的主，我诚心听您所言，行您所谕……」",
+			say = "\"O, benevolent Iris, whose holy words I heed, whose divine will I carry out...\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			actor = 900353,
 			dir = 1,
-			say = "「……请将我的仇恨视作您的仇恨，将我的敌人视为您的敌人……」",
+			say = "\"Take my enemy as your own, feel my fury as your own...\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			actor = 900353,
 			dir = 1,
-			say = "请赐予我洗涤世间一切不义与罪恶的力量吧——！",
+			say = "\"Grant me strength! Give me the power to cleanse this evil from your world!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			eventDelay = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "伴随着拉·加利索尼埃逐渐变大的吟诵声，众人在恍惚间感受到了一股必胜的意志。",
+			say = "La Galissonnière's echoing prayer swept like a rejuvenating wind across the battlefield, instantly dispersing the noxious energy that infested it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "战场的天平似乎真的开始倾倒了。",
+			say = "At the same time, the black Horseman staggered as the tide of battle began turning in the shipgirls' favor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			actor = 805010,
 			dir = 1,
-			say = "……饥荒骑士，好像变弱了？",
+			say = "What in the world...? The Horseman is weakening?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "没错，该趁这个机会集中火力消灭它了哦~",
+			say = "Yeah! Now hit it with all you've got!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			actor = 900353,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "余烬所属，拉·加利索尼埃，现在加入战斗！~",
+			say = "Let's see how tough you really are, skinny boy! Ahahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1

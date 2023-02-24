@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			stopbgm = true,
-			say = "圣堂Blanc——或者说对应上层区中圣堂Blanc的概念而存在于镜面海域的宏伟建筑群中。",
+			say = "Mirror Sea - Horseman of Conquest Confinement Area",
 			bgmDelay = 1,
 			bgm = "theme-vichy-revelation",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "诸位，我已经调查完圣堂控制室了，利用极光之壁切分机甲骑士的精细操作是可以实现的。",
+			say = "After investigating the control room, I'm pleased to report that we can indeed take Conquest apart by manipulating the Skybound Walls.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "跟我想的一样~那黎塞留主教，就请你来操作吧。",
+			say = "Just as I suspected. Whaddya say, alt branch Cardinal? Wanna give it a shot?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……维希教廷在极光之壁的研究上真的取得了不小的进展呢。",
+			say = "(She was right. All along, the Tribunal had a way to eliminate this Horseman... So why didn't they do it?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "站在控制室中，复杂的操作面板不禁让黎塞留心生感慨。",
+			say = "Richelieu glanced at the Skybound Wall controls and felt a tremble in her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不过，为什么是由我来操作？",
+			say = "...Why would I have to do it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "也许谁来都一样，不过“象征”在海域中实际能起到的作用你也见到了。",
+			say = "Doesn't HAVE to be you, but you know the power that concepts and faith can have.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "如果让我或者皇家的怨仇小姐来，说不定会出现什么意外波折呢。",
+			say = "I mean, who knows what'll happen if you let Implacable touch an Orthodoxy Sacrament?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "让作为教国枢机主教的你来结束这一切——这样才是最有象征意义的吧？",
+			say = "There's the practical angle, too. Iris Libre's leader \"conquering\" an Antiochus problem that's festered beneath its Basilicas for decades. See what I'm getting at?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然如此，那就————",
+			say = "I understand. I'll do it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "黎塞留仔细观察着面前的操作面板。",
+			say = "Richelieu took a moment to inspect the control panel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "虽说布局与标志都有了不少变化，但其本质依然与教国时期没什么不同。",
+			say = "Its design had changed somewhat since the days of the unified Orthodoxy, but that wouldn't impede her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "也因此，只要遵循以往的经验，完成参数设定，然后点击执行——",
+			say = "Following the procedures she remembered, she input a sequence of parameters, then hit finalize.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "确认执行……这样就可以了吧？",
+			say = "Will that do it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "大概？至少执行效果是立竿见影的。",
+			say = "Probably? Give it a minute to work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "在象征系统运作的轰鸣声中，极光之壁如同切割刀一般开始了“切割工程”。",
+			say = "The facility's machinery sprung into action with a roar, moving the Skybound Wall like a glowing sawblade.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "头盔，胸甲，臂甲，马铠……从外到内，从上到下，属于机甲骑士的部分正一块接着一块被剥落着。",
+			say = "It cleaved the Horseman apart, one piece at a time. Its head, chest, armor plating, even its steed. It made no attempt to fight back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "很快，巍峨的机甲就变成了一地无法辨识的碎块。",
+			say = "When the Skybound Walls were finished, the embodiment of Conquest was no more than a pile of assorted scrap metal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样一来，就彻底结束了……",
+			say = "It's over... Finally.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,15 +346,15 @@ return {
 			},
 			sequence = {
 				{
-					"接管第六日 11:54:00",
+					"Basilica Island - Surrounding Waters",
 					0.5
 				},
 				{
-					"皇家与自由鸢尾联合舰队",
+					"Joint Basilica Investigation Team",
 					1
 				},
 				{
-					"凯尔盖朗岛·近海",
+					"11:54 - Day 6 since start of investigation",
 					1.5
 				}
 			},
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳咳……又是一样的景象出现了！",
+			say = "Nnngh... The black... sun...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "还好么，怨仇女士……还是有不适的感觉？",
+			say = "Good morning, Implacable. Did you have a nightmare?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "好像没之前那么明显了……但还是很吓人！",
+			say = "I guess so... I still can't get the sight of the black sun over the Mirror Sea out of my head...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这个黑色太阳究竟是什么啊！",
+			say = "What even was that? Do you know, Cardinal?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "我也完全没有头绪……",
+			say = "Unfortunately not, but I have a possible explanation for it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过既没有温度，也不会对人造成实际损伤……也许只是某种作为进入上下层之间“门”的概念而设置的幻象？",
+			say = "My instruments could not detect any heat coming from that sun. I would theorize that it serves as a portal between the surface and the catacombs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "真是搞不懂你们鸢尾的人……",
+			say = "As always, there's never a concrete answer...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不过这样总算是真真正正地，圆满解决了事件呢！",
+			say = "At least we prevented an eventual crisis. All in a day's work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "怨仇女士，余烬的拉·加利索尼埃不见了。",
+			say = "Lady Implacable, our beacon tracker has lost La Galissonnière's signal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "在神出鬼没上倒是挺有余烬的风格的……",
+			say = "Gone like a ghost. A fitting exit for someone from the Ashes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "算了，留下来我们也不能拿她怎么样，走了就走了吧。",
+			say = "Oh well. She doesn't owe us anything, and it's not like we can make her stay anyway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么大主教，我们打算立刻返回驻地了，这里接下来就交还给你了。",
+			say = "Speaking of leaving, it's time we do the same. Take care of the Basilica Island, Cardinal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非常感谢，多亏各位的帮忙，此次自由鸢尾才能顺利收复失地。",
+			say = "Of course. I cannot thank you enough for helping us bring it back under our control.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用客气不用客气~我们离得也不远，如果后面有需要的话，欢迎随时呼叫哦。",
+			say = "Anything for a friend. If you ever need the Royal Navy again, give us a call.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "那是自然的。",
+			say = "I certainly will.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那就再会咯~期待下次和你一起行动了。",
+			say = "Until next time, I wish you the best.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以鸢尾之名，祝各位好运，我们后会有期。",
+			say = "The same to you. May the Iris watch over you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "在目所能及的远方，安塔迪卡的白色冰盖已经跃出了水平线。",
+			say = "Later, as the girls watched the Basilica Island vanish over the horizon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "斯库拉，余烬的拉·加利索尼埃之前多少出手了几次，信标记录仪记录到什么了么？",
+			say = "We had a META right beside us for a long while, and the beacon tracker didn't record anything...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -718,7 +718,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "关于这一点……我本来想回去之后再跟您说的，很奇怪，记录仪依然什么都没记录到。",
+			say = "Yes, it's very strange. The Commander used one to track the Ashes before, and yet it completely failed to detect La Galissonnière.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "其实坏掉的仪器是记录仪吧……这个在出发之前真的仔细检查了么？",
+			say = "Wouldn't surprise me if they upgraded their stealth tech. Either that, or the tracker's just bloody broken.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -764,7 +764,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "关于这一点……在出发之前信标记录仪只进行了最基本的检查，毕竟没有现成的META样本进行测试。",
+			say = "Nothing indicates that it wouldn't be working properly, but since we rarely run into the METAs, it's hard to actually verify that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -782,7 +782,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这件事先记下来，等回去之后对仪器来一次彻底检查好了。",
+			say = "I'll make a note of this. This mission left me with a lot of questions I want answered.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -800,7 +800,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "您觉得她对我们有所隐瞒？",
+			say = "Do you believe La Galissonnière was hiding something from us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -818,7 +818,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "别忘了，现在正有META在暗中跟我们作对呢。",
+			say = "Very likely. Don't forget, there's still a META out there actively working against us in secret.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -835,7 +835,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "圣堂系统设计上有比管理员权限更高的权限，以至于阻碍了百眼巨人关闭启动的紧急模式，你还记得吧？",
+			say = "The entire Basilica system was designed with a higher authorisation level than sysadmin, preventing Argus from shutting down its emergency mode.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -853,7 +853,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那么，这个权限会是什么呢，为什么会这么设计，又会掌握在谁手中呢？",
+			say = "My question is, what might that authorisation be? What purpose does it serve, and who holds it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -871,7 +871,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "这个……情报不足，我无法回答。",
+			say = "I... don't have enough information to answer that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -889,7 +889,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "呵呵，也许用不了多久之后我们就知道了。",
+			say = "Hah... With any luck, we won't have to wait long to find out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -907,7 +907,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我有种预感……这件事，恐怕还没有彻底结束哦——————",
+			say = "In any case, I have a feeling this whole affair is far from over.",
 			painting = {
 				alpha = 0.3,
 				time = 1

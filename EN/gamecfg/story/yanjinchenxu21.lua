@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "一段时间后————",
+			say = "Mirror Sea - Conquest's Territory",
 			bgm = "theme-vichy-church",
 			flashin = {
 				delay = 1,
@@ -35,7 +35,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怨仇女士，我来换茶壶，还有刚做好的三明治，请用。",
+			say = "A cup of tea for you, Lady Implacable. I also made sandwiches, if you'd like one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "非常感谢~不过泡茶这种事真的我自己来就好啦！",
+			say = "Thanks. Also, didn't I tell you I wanted to make the tea myself?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "这是皇家女仆分内的工作，请容我拒绝。",
+			say = "Making tea is the duty of a Royal Maid. You'll have to forgive me for denying your request.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "欸……可我来到这里之后我有了些新灵感，迫不及待地想尝试一下！",
+			say = "You're so mean. I came up with a new brewing method, but you won't even give it a chance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "感觉能泡出来一种口味更加丰富的茶！",
+			say = "Do you deny me at every corner out of spite, or what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "不，在这件事上没有商量，怨仇女士。",
+			say = "Spite? Perish the thought. I only do it because you have an unfortunate habit of making tea that is, mildly put, unsavoury.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "好——————",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "……zZZZ 吃饱了之后英雄想睡觉了，黎塞留大人她们好慢啊……",
+			say = "*yaaawn*... My kingdom for a bed... What's taking Richelieu so bloody long?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "……会不会是遇到危险了，要不我们还是去看一下吧……？",
+			say = "Do you think she might have encountered a Horseman?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "放心，大主教可用不着我们来担心，她应该是顺路去做点什么事了吧。",
+			say = "Doubtful. This is the Cardinal we're talking about. She's probably just inspecting buildings along the way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "大家好好休息，不着急。",
+			say = "We've no reason to worry. Let's just relax and be patient.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉让大家久等了，希望我来得不算晚。",
+			say = "Hello again, ladies. Apologies for being so late.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "来的路上还顺利么，没受伤吧？",
+			say = "Are you alright? No brushes with death?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多谢关心，路上很顺利。",
+			say = "Fortunately not. My trip went quite well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "只是在摆脱了战争舰队的追击后，我和贝亚恩顺便去了几个也许会是出口的位置调查了一下。",
+			say = "I broke off from a pursuing mass-produced fleet, then went to look for clues that may lead us to an exit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "结果很可惜，并没有找到。",
+			say = "Sadly, I did not find any.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们这边情况如何？",
+			say = "What about you? How is the situation?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "如你所见，对这道封锁前进路线的光之壁束手无策，正在喝茶休息呢。",
+			say = "Not great, since this wall of light stands in our way. At the moment, we're having teatime.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "这个难道是…………完成版的「极光之壁」？！",
+			say = "Wall of light...? That's a Skybound Wall! I'm sure of it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是你们启动的么？！",
+			say = "Did you activate it? What happened?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然不是，我们来的时候这里就已经是现在这幅样子了。",
+			say = "No. It was already up when we got here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这么说来，这道光之壁果然是你们的极光之壁啊……",
+			say = "(It's also strikingly similar to a Siren blockade device. Are they one and the same, perhaps?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不会错，这明显是之前维希教廷在莫桑比克圣堂应用过的极光之壁的完成版。",
+			say = "Without a doubt, this is a refined version of the Skybound Wall we saw at the Vichya-held Basilica previously.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "居然修建在这里……难道维希教廷计划用极光之壁修建机甲骑士的牢笼么……？",
+			say = "So, does this mean that the Orthodoxy was already studying this technology? Was it developed in an attempt to control the Horsemen?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这说不通啊……既然是维希教廷的最新技术，那下层的这座设施肯定是两年内修建的，而上层的棋子生产设施已经运行了超过两年了。",
+			say = "That doesn't add up. Someone must've improved the technology recently... But who was responsible for capturing this Horseman? Vichya, or the Tribunal?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "假设维希教廷想要管控危机的话，为什么跳过上层直接处理下层呢？",
+			say = "Actually, neither option seems likely. Why would Vichya ignore the situation on the surface level and make the situation down here even more difficult?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "况且从实战情况来看，极光之壁的强度连四骑士都无法打破。",
+			say = "Assuming the Skybound Wall is actually capable of holding in a Horseman for good, we must then ask: why did only one Wall get built instead of just containing all four?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "既然如此，如果在四个区域都修建这样的极光之壁，然后一启动……问题不就解决了么？为什么只修了一处？",
+			say = "Either imprisoning them this way was too difficult, or whoever imprisoned this one didn't want to do the same to the rest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "也许…………这个事故最初并不是维希教廷想要发生的，而是驻守在这里的人……疏于维护导致的。",
+			say = "This may be just like the situation on the surface. While there was a way of containing the problem, it was deemed too difficult to sustain, and later abandoned.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "教廷司令部在发现此处的局势失控之后，也许尝试过重新控制局面，但是发现能力不足，所以干脆放弃了。",
+			say = "The one possibility we cannot ignore is that this is actually a trap laid for us by the Sirens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——或者说，他们既然在这里设置了陷阱，那海域中唯一一处如此明显的极光之壁肯定也是陷阱的一部分。",
+			say = "You're right. Maybe its purpose isn't to keep a Horseman confined, but rather us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "实际上我先前从空中派去的侦察机在下降到一定高度后都失联了。",
+			say = "The only reason anyone would have to enter this Mirror Sea is to eliminate the Four Horsemen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "如果我们试图从空中硬闯的话，肯定也是相同的下场。",
+			say = "And what better way to do that than luring all our forces into one inescapable area using an immobilised Horseman as bait?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "大主教，你知道怎么解除极光之壁么？",
+			say = "All theorising aside... Do you know how to dispel the Skybound Wall, Cardinal?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "只有找到控制台或能源供应装置才能解除极光之壁。",
+			say = "Destroying its power generator would be the simplest way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "但只是通过的话……利用一下这个镜面海域的特性，强调一下“开门”的概念或许可行？",
+			say = "However, considering the apparent laws of this Mirror Sea, another solution may be to conceptualize the wall away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这个思路我之前已经尝试过了，可惜完全没效果哦。",
+			say = "I already tried praying for the door to open, and that didn't work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "除非你想用那个试试……",
+			say = "But, maybe something like this will–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -733,7 +733,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "「……第七印被揭开时，天上寂静了约有半小时……」",
+			say = "\"And when he had opened the seventh seal, there was silence in heaven...\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -751,7 +751,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "「……我看见……」",
+			say = "\"And I saw the seven angels which stood before God...\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不能用这个！！！！！！！！！！",
+			say = "NO! STOP AT ONCE!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,7 +798,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "哇啊！！！大主教你突然喊这么大声干嘛啊！",
+			say = "Ow! You don't need to shout!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -820,7 +820,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我在阻止你做傻事！",
+			say = "I'm just trying to stop you from doing something stupid. Remember what happened the last time you tried to recite the second seal?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -849,7 +849,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "还记得你之前念第二印的时候发生的事么！",
+			say = "If your faith is not strong enough, invoking the concepts within this Mirror Sea is extremely dangerous!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -867,7 +867,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那除了这个之外……我一下子也想不到其他的了嘛……",
+			say = "Why? Because I would lose myself to them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -884,7 +884,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……也许，只是你的信仰不够虔诚，所以之前才没效果？",
+			say = "That is my theory, and I don't want to see it proven. Allow me to try instead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -902,7 +902,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "是是是~您是大主教我说不过您。反正您要是不信尽管尝试！",
+			say = "Very well. Show us how it's done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -917,7 +917,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "怨仇后退半步，做出了“您请”的姿势。",
+			say = "Implacable took a step back and silently observed the Cardinal, whose faith far better represented the concepts of the Iris Orthodoxy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,25 +928,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "黎塞留面向光墙的方向双手合十，吟诵出了与先前怨仇口中相同的祷词。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "「……慈爱的主，您了解我的行为，通晓我的力量……」",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "Facing the wall, Richelieu put her hands together and began reciting a prayer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -960,7 +942,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……我遵守您的道，未抛绝您的名……」",
+			say = "\"My Lord, I know thy works and thy strength...\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -978,7 +960,25 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……因此，请在我的面前，为我敞开一座无人能关的门吧……」",
+			say = "\"I hast kept my word, and hast not denied thy name...\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "\"Please, open before me a door that no man can shut.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -993,7 +993,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "随即，一道敞开的门在极光之壁上出现了————",
+			say = "The Skybound Wall shimmered and then dissolved, revealing a path to the other side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

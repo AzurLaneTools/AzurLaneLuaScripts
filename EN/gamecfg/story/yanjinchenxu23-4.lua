@@ -8,7 +8,7 @@ return {
 			bgName = "bg_firedust_7",
 			stopbgm = true,
 			bgm = "theme-vichy-slaughter",
-			say = "在一连串的爆炸声后，山丘般的机甲巨人终于垮塌，成了再也拼不回来的碎片。",
+			say = "A thunderous explosion struck the colossal Horseman, breaking it apart like a stone golem, never to reanimate again.",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -61,7 +61,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "好嘞，收工。怎么样，现在还怀疑我的战斗力么？",
+			say = "Hell yeah! Suck on that! Whaddya think of me now, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不…………毫无疑问，你绝对是出色的余烬战士。",
+			say = "Clearly, I misjudged you. You live up to the name of the Ashes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "幸好你是站在我们这一边的。",
+			say = "Thank god you're on our side.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "虽然只是暂时的哦，不过还是多谢夸奖~",
+			say = "This alliance is only temporary. Keep the praise coming, though!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "余烬的拉·加利索尼埃小姐，您刚刚究竟是……",
+			say = "I must ask... What did you do back there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "如你所见，我进行了祈祷，然后我获得了回应。",
+			say = "What do you think? I offered a prayer, and it was answered.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "塞壬在这里进行的就是这样的实验，我只是利用了一下而已。",
+			say = "That's how this test site works. No reason not to exploit it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "概念的具现化，对吧？！",
+			say = "Meaning, you manifested a concept?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "准确来说，并不是所有概念的具现化，而是与信仰有关的概念的具现化。",
+			say = "Bingo. Well, kind of. You can't just make any concept real – it's got to do with faith.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不过你看来你理解了，很聪明嘛，怨仇小姐。",
+			say = "Other stuff from the Orthodoxy's religious texts applies as well, since it's where the Four Horsemen come from.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼，我之前还尝试着呼唤过“战争”，四骑士需要按顺序消灭也是我发现的呢。",
+			say = "That much, I already know. It's the reason War and Conquest became stronger than Death and Famine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "哈啊？你念了第二印呼唤战争？然后呢？",
+			say = "Mhm. Did you try prayin' for yourself?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后感觉……好像受到了某些存在的影响，我开始变得不再是我了……幸好被大主教及时打断了。",
+			say = "Yes. I recited a verse from the Scriptures, and something started happening to me... Luckily, Richelieu stopped me before I could finish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "居然真的那么危险么？",
+			say = "Are these concepts really that dangerous?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你运气还真好……是的，非常危险。",
+			say = "No shit they are! Embracing the Horsemen's concepts is like inviting the Mirror Sea inside your head.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "呼唤神是一回事，呼唤末日骑士又是另一回事啊……至少对你呼唤的对象该有个筛选吧。",
+			say = "Use your brain before you pray. Don't go around offering words of power to a harbinger of doom.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不过……嗯……………………我觉得可行，你们要不要试试？",
+			say = "Speaking of which, you'll want to figure out how to manifest your faith sooner rather than later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可行？你是指什么？",
+			say = "What do you mean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "「信仰的现化」哦，接下来的战争骑士比饥荒骑士还要对付，你们要是不武装一下自己的话，会被轻松消灭的。",
+			say = "My own prayers can only have a very limited effect on you. You need to play by the Mirror Sea's rules as well, or the Horseman of War will blast you off the face of the earth.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这一现象是由塞壬的设施引发的吧，我们用了真的不会有副作用么？",
+			say = "Is it truly THAT powerful?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不会不会~塞壬设施只是构建了能够实现这一现象的空间，只能算个工具而已。",
+			say = "I'm not kidding here. Since the very concept of war empowers it, you're gonna make it stronger when you go to battle with it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "好影响与坏影响只取决于使用的人利用它做了什么。",
+			say = "You CAN overcome those gains, but your conviction needs to be strong enough.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "向主祈祷自然没事，我刚才做的事你也看到了吧？",
+			say = "If you want a safe bet, pray to the Iris. That's how you got through those walls, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "如果是这样的话……怨仇女士，我觉得有试一下的价值。",
+			say = "Implacable... I think you should take her advice and sincerely pray, if only for practical purposes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "咦？……但这里终究还是塞壬的设施哦，你不介意么？",
+			say = "If that's what it takes to defeat the Sirens, sure. Can I do it right here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自然是介意的，不过这里不还有鸢尾教国时期修建的教堂么？去那里祈祷就好。",
+			say = "No. Praying is a sacred act. You are my ally, and I will not condone you treating the Holy Iris without respect.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也…………行。既然大主教您都不介意的话，我自然也不介意。",
+			say = "I suppose it must be done in a reasonably dignified location, huh.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "事不宜迟，我们这就去找一处适合祈祷的地点吧~",
+			say = "First, we'll need to find a place matching that description. Shall we?",
 			painting = {
 				alpha = 0.3,
 				time = 1

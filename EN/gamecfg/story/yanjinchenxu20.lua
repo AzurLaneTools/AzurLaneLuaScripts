@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "圣堂Blanc——或者说对应上层区中圣堂Blanc的概念而存在于镜面海域的宏伟建筑群外。",
+			say = "Mirror Sea - Inverted Basilica Blanc",
 			bgm = "theme-vichy-church",
 			flashin = {
 				delay = 1,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "这里并没有敌人。雄伟的大门向外敞开，那通向其核心区域的道路似乎畅行无阻。",
+			say = "The entrance to the facility was wide open, exposing the passageway leading to the central area. No enemies were in sight, seemingly leaving the facility unprotected...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "不过怨仇与英雄却怎么也无法向内前进一步。",
+			say = "But Implacable and Hero found a completely different obstacle in front of them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,11 +79,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "Hero",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唔…………我敲——！",
+			say = "Hiii-yah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
-			say = "英雄的拳头落在了前方的光之壁上，细小的涟漪在橙色的光幕中荡漾开来，却也仅此而已了。",
+			say = "Hero slammed her fist into the wall of light, causing its holographic surface to ripple but not fracture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,11 +107,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "Hero",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怨仇大人，这东西好奇怪！我试试炮击可以么！",
+			say = "Huh. Weird. Implacable, can I shoot it real quick?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,11 +119,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "稍微离远一点哦。",
+			say = "Go ahead. Just steer clear of the blast radius.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -182,11 +182,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "Hero",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "居、居然把英雄的炮弹弹开了！",
+			say = "What the hell?! It bounced off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,11 +199,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "Hero",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "明明连后面的景色都能隐约看到，这就是一道光而已，怎么会这么坚固啊！",
+			say = "How is it so sturdy?! It's made of light! I can see right through it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,11 +211,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这下麻烦了……虽然和以前见过的塞壬海域封锁装置不太一样，不过恐怕原理类似。",
+			say = "How annoying... Maybe it's similar to those Siren blockade devices.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,11 +223,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不破坏掉其供能装置的话，我们恐怕很难继续前进了……",
+			say = "If so, we'll need to destroy the power generator before we can proceed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,11 +235,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……嗯？你这是在做什么？",
+			say = "I believe passing through the Skybound Wall requires you to... Hero, what are you doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
-			say = "本来已经放弃的英雄，突然又开始伸手在光墙上比划起来。",
+			say = "Unfazed, Hero leaned against the wall of light once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,11 +258,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "Hero",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嚯嚯嚯，英雄突然想到了一个绝好的主意！",
+			say = "I've got an idea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,11 +275,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "Hero",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "之前你不是提到了“概念”在这片海域里的重要性么！",
+			say = "You basically said concepts can influence this Mirror Sea, yeah?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,11 +287,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "Hero",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然我没完全听懂，但是我只要想办法在墙上做出“开门”的概念，说不定门就会开了吧！",
+			say = "So, what if we simply believe in the idea that the wall will let us through?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,11 +299,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这还……真说不定意外是个好主意？！",
+			say = "Hmm... It's worth trying, at least.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,11 +311,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "Hero",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼，英雄刚刚在做的事就是——在墙上画了一个代表钥匙的符号！",
+			say = "Exactly. Drawing a key symbol on it should do the trick!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,11 +323,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "Hero",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "接下来，就是见证奇迹的时刻——",
+			say = "Watch this! I'm gonna perform a miracle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,11 +335,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "Hero",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "芝麻开门！",
+			say = "Opeeen Sesame!",
 			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
-			say = "面对英雄的咒语，前方的光之壁没有出现任何变化。",
+			say = "The wall of light continued to glow impassively despite Hero's efforts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,11 +359,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "Hero",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……哈啊？怎、怎么会这样！",
+			say = "...No dice. Stupid bloody wall!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,11 +376,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也许思考的方向是对的，但是吟唱的内容不对？",
+			say = "I think you've got the right idea, but not the right approach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,58 +388,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我也有个想法，来试一下好了——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_firedust_8",
-			hidePaintObj = true,
-			say = "怨仇正了正神色，双手合十，开始轻声吟唱起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "怨仇",
-			bgName = "bg_firedust_8",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "「……慈爱的主，您了解我的行为，通晓我的力量……」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "怨仇",
-			bgName = "bg_firedust_8",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "「……我遵守您的道，未抛绝您的名……」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "怨仇",
-			bgName = "bg_firedust_8",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "「……因此，请在我的面前，为我敞开一座无人能关的门吧……」",
+			say = "Let me give it a try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +403,54 @@ return {
 			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
-			say = "面对怨仇的吟唱，前方的光之墙壁依然没有出现任何变化。",
+			say = "Implacable put her hands together, cleared her mind, and began praying softly.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Implacable",
+			bgName = "bg_firedust_8",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "\"My Lord, I know thy works and thy strength...\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Implacable",
+			bgName = "bg_firedust_8",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "\"I hast kept my word, and hast not denied thy name...\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Implacable",
+			bgName = "bg_firedust_8",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "\"Please, open before me a door that no man can shut.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_firedust_8",
+			hidePaintObj = true,
+			say = "However, her prayer fell on deaf ears. The wall remained impassable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,11 +458,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "Hero",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "………………你这个咒语好像也不对呢。",
+			say = "Well, that did a whole lot of nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,11 +470,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唔…………该不会要念第七印的那一段……",
+			say = "Perhaps \"open a door\" is too specific...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,11 +482,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "Implacable",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可是……那一段可不是拿到“钥匙”之后就能结束的，怎么办呢……",
+			say = "Oh well. We're not in a rush. There are plenty of other things we could try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怨仇女士，我们来了，两位是在……做什么呢？",
+			say = "Lady Implacable? What are you doing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "如各位所见，进去的路被挡住了，我们没法穿过这道光之壁，正在愁眉苦脸呢。",
+			say = "Trying to find a way through this wall. As you can see, it's blocking our path.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "不论是炮击还是咒语都没效果哦！英雄已经完全束手无策了！",
+			say = "Both shooting at it and praying did nothing! I dunno what else to do!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "……咒、咒语？",
+			say = "You... prayed to the wall?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "咳……不用在意。",
+			say = "Ahem. Let's not dwell on that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总而言之，现在正在寻找能够穿过这道光之壁进入建筑的方法，可惜还没有什么进展。",
+			say = "What matters is, we need to figure out a way through. Does anyone have any ideas?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怨仇女士，我有一个想法……既然光之壁很坚固，那连接它们的墙壁呢？",
+			say = "I may have one. Instead of trying to break through that wall, can't we try breaking through the stone instead?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "这些墙体看上去并不是坚不可摧的，炸一个洞进去如何？",
+			say = "It's quite a blunt solution, but it should be more straightforward than going through the wall of light.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我虽然没试，但恐怕没用，大家来看这里——",
+			say = "Someone already tried, it seems. Look.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,7 +666,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "怨仇带众人退出正门，来到了圣堂外侧的一处墙体边。",
+			say = "Implacable gestured towards a massive hole in the facility's stone exterior.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "在众人面前，一道高达数十米的狰狞裂痕几乎将墙体劈裂，但朝裂缝里望去，却又能看到隐约的光芒。",
+			say = "Though the hole reached deep, one could see the same glow as the wall of light leaking through at its very end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "这道光墙根本就是无缝的——即便击穿了坚固的建筑，创造的缝隙也会被光墙重新回填。",
+			say = "Looking closer, it became evident that the wall of light was filling in the huge gap made into the facility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "这是……其他骑士留下的？",
+			say = "Look at the size of this hole... Did one of the Horsemen do this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "嗯，和从死亡骑士的机体上发现的伤口类似。",
+			say = "Who knows. Maybe it was trying to find a way through, just like us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,7 +738,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "看来其他骑士尝试过来进攻支配的控制区，不过因为无法打穿光之壁所以放弃了。",
+			say = "I suspect this wall is the reason Conquest is still alive and well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -756,7 +756,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "这也太犯规了……那些巨大机甲都打不穿我肯定也……对、对了！",
+			say = "If even a Horseman couldn't get through, there's no way my cannons will... Wait, I know!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -783,7 +783,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "用飞机从顶部进行轰炸也试过了哦。",
+			say = "You're thinking about dropping bombs on it, aren't you? I already tried.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "虽然顶部看上去并没有被光墙覆盖，不过飞机飞得过低就会因不明原因直接失去控制，炸弹落下去也不会爆炸。",
+			say = "While the facility's roof appears unprotected by the wall, aircraft lose all control when flying straight over it, for some strange reason.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我已经损失了好几架舰载机了。",
+			say = "Figuring that out cost me a few planes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "看来不管是谁封锁的这里，明显都不想让外面的人进去。",
+			say = "Whoever built this wall, be it Conquest or somebody else, they clearly did not want anyone breaching it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -855,7 +855,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "那接下来我们该怎么办，要去寻找供能装置么……？",
+			say = "Then I suppose our only option is to locate and destroy its power source.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -873,7 +873,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "理论上应该是要这样……不过这片海域复杂又危险，搜索起来不知道要找到什么时候。",
+			say = "A good idea, if only we knew where to look.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -891,7 +891,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "而且还存在供能装置其实在建筑内部的可能性。",
+			say = "For all we know, the power source could be on the other side of the wall.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -909,7 +909,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "在内部的话，岂不是谁都进不去了……？",
+			say = "But then it's impossible to reach... We cannot defeat Conquest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "只是可能性而已。",
+			say = "Mhm. That would mean we're stuck in this place forever, unable to defeat the last Horseman.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -944,7 +944,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然这里是维希教廷的设施，那我多少有了个猜想……不过还不能确定。",
+			say = "But, I think I have an inkling. The Orthodoxy built this place, so let us ask the Cardinal for ideas.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -962,7 +962,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不如我们先吃点茶点，补充一下体力，等大主教她们来了之后再说吧。",
+			say = "Scylla, prepare some refreshments. We'll take a minute to relax before she arrives.",
 			painting = {
 				alpha = 0.3,
 				time = 1

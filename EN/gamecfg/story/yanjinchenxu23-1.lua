@@ -24,11 +24,11 @@ return {
 			},
 			sequence = {
 				{
-					"接管第[//]日，□■:□■://",
+					"Mirror Sea - Famine's Territory",
 					1
 				},
 				{
-					"？？？·？？？//",
+					"Joint Basilica Investigation Team",
 					2
 				},
 				{
@@ -44,7 +44,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "斯库拉，你怎么看那个余烬拉·加利索尼埃的话？",
+			say = "This makes it the third Ashes member we've made contact with. What do you think about her, Scylla?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "听起来很真诚，很可信，解决问题的思路跟我们之前想的也差不多。",
+			say = "She sounds simple and straightforward, and it's great that our goals align. However...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "但是？",
+			say = "Yes? Go on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "我总觉得哪里不太对……她对于这里了解得过于细致了？或者说，她对于这件事过于热心了？",
+			say = "She also talks too much. While we did rescue her, she's under no obligation to tell us anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "抱歉怨仇女士，我还说不出来违和感的源头是什么。",
+			say = "I can't put my finger on why, but it makes me uncomfortable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没事，慢慢想就好，这件事上我也是同感。",
+			say = "Mull it over a bit more. You're not the only one who thinks the same way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "说的话虽然听不出任何问题，但是总感觉有哪里不对……",
+			say = "I can't find any faults with her so far, but something still feels amiss...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "也许只是我们对于余烬天然的不信任感导致的错觉，但又也许不是。",
+			say = "Is it because I'm naturally inclined to distrust the Ashes, or is it something more tangible...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总而言之，接下来注意观察保持警惕。",
+			say = "At any rate, keep a close eye on her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "遵命，怨仇女士。",
+			say = "As you wish, Lady Implacable.",
 			painting = {
 				alpha = 0.3,
 				time = 1

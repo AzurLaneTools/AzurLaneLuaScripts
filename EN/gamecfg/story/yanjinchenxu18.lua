@@ -24,11 +24,11 @@ return {
 			},
 			sequence = {
 				{
-					"接管第[//]日，□■:□■://",
+					"Mirror Sea - Death's Territory",
 					1
 				},
 				{
-					"？？？·？？？//",
+					"Joint Basilica Investigation Team",
 					2
 				},
 				{
@@ -42,7 +42,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "轰——————————！",
+			say = "KABOOM––!!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "区域抵达，英雄登场~",
+			say = "Hero has arrived at the quest objective~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "亲爱的死亡骑士，你在家么~☆",
+			say = "Hehe! Come out, my dear Horseman! I'm gonna turn you into juicy EXP~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "四周只有一片死寂，英雄的英雄式登场没有得到任何回应。",
+			say = "However, Hero's energetic taunts were met with only silence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "这里应该是……苍绿色建筑群的中心区域了吧？居然会这么冷清……",
+			say = "This is supposed to be the part of the Mirror Sea corresponding to Basilica Vert, right? How come it's so quiet...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "除了战争的军队会偶尔出现，一路上居然什么别的东西都没看到，明明这里是死亡的大本营欸……",
+			say = "We only ran into a few stragglers along the way here, roaming around as if they didn't have a commander at all...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "情况确实很反常。大家仔细搜索，我有种不好的预感……",
+			say = "Quite unusual... I have a bad feeling about this, so let's stick together and try to figure out what's going on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "在一阵搜索后，众人在一处广场中找到了此行的目标。",
+			say = "It did not take long for the group to come across a series of remains in an open area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "曾经巨大的机甲骑士如今正像垃圾一样占据着广场最显眼的位置。",
+			say = "What formerly was a suit of armor was strewn across the water, seemingly crushed and torn to shreds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "……能看出形如镰刀的兵器，再加上这个体积，应该是代表死亡的机甲骑士没错了。",
+			say = "An intricate scythe was discarded nearby, leaving no doubt that this is where Vert, the Horseman of Death met its demise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "就是……已经被干掉了啊。",
+			say = "What in the world happened here...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "破坏得相当彻底呢，怪不得之前从空中搜索的时候什么没能注意到。",
+			say = "S-sorry, the armour was destroyed so badly I couldn't distinguish it from the other wreckages in my previous recon report.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "这下不是省事了嘛~代表死亡的骑士已经死了~☆",
+			say = "We have one fewer giant mecha-knight to go up against. Isn't that a good thing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不…………这个情况非常不妙。",
+			say = "No... Quite the opposite, actually.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这些骑士必须按顺序消灭才行，如果不按照顺序就麻烦了！",
+			say = "The whole point is that we're trying to defeat the Horsemen in a certain order.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "斯库拉，能从残骸上看出线索么，是谁做的？",
+			say = "Scylla, are you able to analyse the traces left behind to track who's responsible for this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "最为显著的，应当就是炮击痕迹和巨大锐器留下的斩痕。",
+			say = "Certainly. The most conspicuous damage comes from Siren shells, and these lacerations came from a massive slashing weapon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "能造成如此巨大伤口的武器不是常规舰船能使用的，反倒是其他机甲骑士的武器可以同时造成这两种伤痕。",
+			say = "Neither Pawns nor conventional mass-produced ships are able to cause this kind of damage, so that most likely narrows things down to two of the remaining Horsemen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "我推测应该是其他骑士做的，就现状而言……也许是战争骑士。",
+			say = "Given what we know about the armaments of the other Horsemen, War most closely fits the bill.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "看来机械构成的空间对于“死亡”这个概念来说实在是过于不友好了……",
+			say = "For machines that do not know the concept of \"Death,\" this space seems like a particularly unforgiving place to fight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "META也能做到这种事……META信标监测仪有什么发现么？",
+			say = "Actually, you forgot another group that could've inflicted damage like this – the METAs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "没有。",
+			say = "I did consider that possibility, but the beacon tracker hasn't picked up anything as of yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没有么……那局面总算不至于变得更加复杂。",
+			say = "(That's assuming all the META ships play by the same rules... Not a bet I'm willing to hedge. Though, things would admittedly be much simpler if the META aren't involved.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怨仇女士，您为什么会突然想到META上？",
+			say = "What led you to bring up META all of a sudden, Implacable?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "哎……大主教你可能还不太清楚，最近有正体不明的META一直在跟我们皇家作对呢，不得不处处留个心眼才行啊。",
+			say = "Hmm... I'm not sure if you've heard the news yet, but not too long ago, we detected an unidentified META signal after a break-in at one of our repositories, where a number of cultural relics were stolen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "正体不明的META正在海域中对皇家采取敌意行动……？",
+			say = "Not a Siren? There's a META out there currently targeting the Royal Navy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那还真是危险，感谢您的这份情报，我们也会警惕这件事的。",
+			say = "That certainly is a reason for concern. Thank you for sharing that bit of information with me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "唉……幸好按照顺序来说，死亡骑士本就是要被第一个消灭的。",
+			say = "You're welcome. But, the problem still remains that Death has already been defeated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "饥荒骑士应该还好，毕竟不久前才见过，持续保持关注就可以。",
+			say = "It's clear that we're no match for the Horseman of Famine we ran into earlier, so we should continue to steer clear of it for now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "至于战争骑士……虽然它的的军队还在，但是没有确认到其本体的话，也不能做定论。",
+			say = "I'm actually more curious about the status of the other Horsemen now. We didn't pick up on either War or Conquest during the previous recon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "支配骑士的位置同样没有被空中侦察确认，而且海域中没有见到它的军队……",
+			say = "We've been fortunate that we only have to deal with the War's Pawns and mass-produced ships, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不过它要是和理论中一样是最强的话，应该也不至于被消灭掉……最差也就和饥荒骑士一样吧。",
+			say = "If the Horseman of War truly is the strongest of the Four, it probably still is out there somewhere.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "只要能确认它们都还存在于海域之中，我们就可以继续按原方案推进计划。",
+			say = "As long as we can confirm the existence of the other two Horsemen, we technically will still be able to maintain the correct order.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "既然如此，为了效率，分开搜索如何？",
+			say = "If we have to scour the entire Mirror Sea, wouldn't it be more efficient to split up our forces?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们负责确认战争骑士的状况，支配骑士和饥荒骑士那边就拜托你们如何？",
+			say = "My forces will go search for War. Do you think you can take Famine and Conquest?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -732,7 +732,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "战争骑士那里应该是敌人最密集的区域吧……？",
+			say = "Are you sure? War should be the toughest of the remaining Horsemen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,7 +750,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "支配骑士也是四骑士中理论上最强的。大家的风险都很高，现在不是谦让的时候。",
+			say = "The strength of the Horseman of Conquest is still an unknown, so we both will have to bear some degree of risk.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -768,7 +768,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "好，那就这么分工吧。遭遇敌人时不要纠缠，优先确定剩下三名机甲骑士的位置与状态！",
+			say = "Very well then. Everyone, spread out, and avoid unnecessary combat. Remember, your priority is just to confirm the existence of the remaining Horsemen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
