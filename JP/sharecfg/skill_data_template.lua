@@ -73371,7 +73371,7 @@ pg.skill_data_template = {
 	},
 	[16480] = {
 		desc_get = "",
-		name = "動いても無駄よ♪",
+		name = "慈悲なく容赦せず情けかけず",
 		id = 16480,
 		type = 1,
 		max_level = 10,

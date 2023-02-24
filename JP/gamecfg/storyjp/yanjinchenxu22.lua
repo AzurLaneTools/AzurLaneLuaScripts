@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "この施設にいる量産型と人型個体みたいに動かないのね。眠っているかしら？",
+			say = "この施設にいる量産型と人型個体みたいに動かないのね。眠っているのかしら？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1101,7 +1101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "ふぅ…道理で喋り方がほかの子と全然違うわね",
+			say = "ふぅ…道理で口が軽いわけね",
 			painting = {
 				alpha = 0.3,
 				time = 1

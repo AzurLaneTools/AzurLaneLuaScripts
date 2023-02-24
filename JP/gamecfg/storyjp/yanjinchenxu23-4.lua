@@ -468,7 +468,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "インプラカブルさん、私からの…状況は状況ですから、一度は本気で祈ったほうがよろしいかと",
+			say = "インプラカブルさん、状況が状況ですから、一度は本気で祈ったほうがよろしいかと",
 			painting = {
 				alpha = 0.3,
 				time = 1

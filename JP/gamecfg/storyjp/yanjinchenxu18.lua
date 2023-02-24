@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "無造作に捨てられた鎌の意匠の兵装が緑の騎士の最期を物語っていた。",
+			say = "鎌の意匠の兵装…ということは緑の騎士ですね…",
 			painting = {
 				alpha = 0.3,
 				time = 1

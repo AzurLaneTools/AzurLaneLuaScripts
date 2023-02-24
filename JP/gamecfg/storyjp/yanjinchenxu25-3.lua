@@ -217,7 +217,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#ffa500",
+			nameColor = "#A9F548FF",
 			side = 2,
 			actor = 805010,
 			dir = 1,
@@ -234,7 +234,7 @@ return {
 		{
 			actor = 805010,
 			side = 2,
-			nameColor = "#ffa500",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "どうしても実行する気でしたら、インプラカブルさんの代わりに私にやらせてください！",
 			painting = {
@@ -296,7 +296,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#ffa500",
+			nameColor = "#A9F548FF",
 			side = 2,
 			actor = 805010,
 			dir = 1,

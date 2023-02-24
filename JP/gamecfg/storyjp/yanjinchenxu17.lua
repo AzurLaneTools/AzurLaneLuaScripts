@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "怪我はないけど痛いわよ…しかも今のでだいぶメンタルがやられそうになったわ",
+			say = "怪我はないけど痛いわよ…いい気持ちにはならないもの",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1106,7 +1106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "という作戦で行きたいけど…枢機卿もそれでいい？",
+			say = "という作戦でどうかしら…枢機卿もそれでいい？",
 			painting = {
 				alpha = 0.3,
 				time = 1

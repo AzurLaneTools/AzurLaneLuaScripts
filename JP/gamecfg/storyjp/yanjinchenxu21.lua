@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "この施設にやってきたときはすでにこんな感じよ",
+			say = "ここに来た時にはもうあったわよ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "それをしなかったことは、封印の難易度が高すぎるか、もしくは封印する気がなかったかのどっちかね",
+			say = "それをしなかったということは、封印の難易度が高すぎたか、もしくは封印する気がなかったかのどっちかね",
 			painting = {
 				alpha = 0.3,
 				time = 1
