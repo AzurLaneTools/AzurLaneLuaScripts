@@ -85500,7 +85500,7 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 		id = 22262,
 		type = 1,
 		max_level = 1,
-		desc = "Activates All Out Assault Ⅰ: Takao Class once every 4 times the Main Guns are fired. The first time this ship fires its All Out Assault, increases this ship's evasion chance by 10%, activating only once. ",
+		desc = "Activates All Out Assault Ⅱ: Takao Class once every 4 times the Main Guns are fired. The first time this ship fires its All Out Assault, increases this ship's evasion chance by 10%, activating only once. ",
 		system_transform = {},
 		world_death_mark = {
 			1
