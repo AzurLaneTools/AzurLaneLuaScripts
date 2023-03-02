@@ -540,7 +540,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果想要跟塞壬、跟理查德，还有更强大的敌人对抗的话，就跟应该如此做才行。",
+			say = "如果想要跟塞壬、跟理查德，还有更强大的敌人对抗的话，就更应该如此做才行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,7 +591,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你已经让我们实实在在的在所有阵营中取得了先机。",
+			say = "你已经让我们实实在在地在所有阵营中取得了先机。",
 			painting = {
 				alpha = 0.3,
 				time = 1

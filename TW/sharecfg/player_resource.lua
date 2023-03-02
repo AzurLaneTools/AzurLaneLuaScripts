@@ -980,6 +980,16 @@ pg.player_resource = {
 		name = "feicaizhixing_pt",
 		itemid = 59391
 	},
+	[302] = {
+		id = 302,
+		name = "yingxiv4_pt",
+		itemid = 59395
+	},
+	[303] = {
+		id = 303,
+		name = "skinTicket45",
+		itemid = 59396
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1223,6 +1233,11 @@ pg.player_resource = {
 	[4599] = {
 		id = 4599,
 		name = "skin_rerun_pt_2022",
+		itemid = 0
+	},
+	[4699] = {
+		id = 4699,
+		name = "skin_rerun_pt_jp2023",
 		itemid = 0
 	},
 	[100004] = {
@@ -1909,6 +1924,12 @@ pg.player_resource = {
 		feicaizhixing_pt = {
 			301
 		},
+		yingxiv4_pt = {
+			302
+		},
+		skinTicket45 = {
+			303
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2055,6 +2076,9 @@ pg.player_resource = {
 		},
 		skin_rerun_pt_2022 = {
 			4599
+		},
+		skin_rerun_pt_jp2023 = {
+			4699
 		},
 		skin_rerun_pt = {
 			100004
@@ -2311,6 +2335,8 @@ pg.player_resource = {
 		297,
 		300,
 		301,
+		302,
+		303,
 		950,
 		951,
 		952,
@@ -2360,6 +2386,7 @@ pg.player_resource = {
 		4186,
 		4276,
 		4599,
+		4699,
 		100004,
 		40275,
 		30853,

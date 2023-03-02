@@ -19601,6 +19601,19 @@ _G.pg.base.gametip.attrset_input_ill = {
 	tip = "輸入不合法 "
 }
 
+_G.pg.base.gametip.blackfriday_help = {
+	tip = {
+		{
+			info = [[
+活動規則：
+1.活動期間，每購買一件復刻換裝可解鎖一個階段的獎勵
+2.「限定傢俱」可單獨從傢俱商店購買，重複獲得的
+「限定傢俱」會按照其商店售價自動折算為鑽石
+3.可解鎖換裝數量無法滿足禮品清單全部解鎖條件的情況下，將直接解鎖相差數量階段的獎勵]]
+		}
+	}
+}
+
 _G.pg.base.gametip.eventshop_time_hint = {
 	tip = "兌換時間截止至$1維護 "
 }
@@ -21587,4 +21600,12 @@ _G.pg.base.gametip.sort_energy = {
 
 _G.pg.base.gametip.dockyard_search_holder = {
 	tip = "搜索角色名"
+}
+
+_G.pg.base.gametip.setting_label_private = {
+	tip = "隱私權協議"
+}
+
+_G.pg.base.gametip.setting_label_licence = {
+	tip = "使用者協議"
 }

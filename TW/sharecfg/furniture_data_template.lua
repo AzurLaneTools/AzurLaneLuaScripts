@@ -4928,6 +4928,57 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[223] = {
+		spine_extra = "",
+		describe = "「只要買買買就可以了喵！」「指揮官要注意別買太多了呢…呵呵呵」",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "gouwuchejpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "到了購物的時間了喵~",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 223,
+		can_rotate = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gouwuchejp",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[233] = {
 		spine_extra = "",
 		describe = "飄逸的「銀月」留給對手的只有那夢幻般的背影！",
@@ -94459,6 +94510,7 @@ pg.furniture_data_template = {
 			218,
 			221,
 			222,
+			223,
 			233,
 			235,
 			236,
@@ -94602,6 +94654,7 @@ pg.furniture_data_template = {
 			218,
 			221,
 			222,
+			223,
 			233,
 			235,
 			236,
@@ -100411,6 +100464,7 @@ pg.furniture_data_template = {
 			54105
 		},
 		[7] = {
+			223,
 			233,
 			236,
 			200001,
@@ -101138,6 +101192,7 @@ pg.furniture_data_template = {
 			205,
 			206,
 			209,
+			223,
 			200001,
 			200002,
 			200003,
@@ -103220,6 +103275,7 @@ pg.furniture_data_template = {
 		218,
 		221,
 		222,
+		223,
 		233,
 		235,
 		236,

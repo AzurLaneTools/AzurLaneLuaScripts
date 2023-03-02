@@ -212,8 +212,8 @@ function slot0.BBRule(slot0)
 	return slot2
 end
 
-slot0.BLACK_FRIDAY_ACT_ID = 4599
-slot0.BLACK_FRIDAY_SIGNIN_ACT_ID = 4600
+slot0.BLACK_FRIDAY_ACT_ID = 41090
+slot0.BLACK_FRIDAY_SIGNIN_ACT_ID = 41093
 slot0.PageIdLink = {
 	[slot0.IDOL_INS_ID] = slot0.IDOL_PT_ID,
 	[slot0.POCKY_SKIN_PT] = slot0.POCKY_SKIN_LOGIN,

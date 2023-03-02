@@ -1,18 +1,20 @@
 ys = ys or {}
 slot0 = ys
 slot1 = slot0.Battle.BattleDataFunction
-slot2 = class("BattleCommonWarningView")
-slot0.Battle.BattleCommonWarningView = slot2
-slot2.__name = "BattleCommonWarningView"
-slot2.WARNING_TYPE_SUBMARINE = "submarine"
-slot2.WARNING_TYPE_ARTILLERY = "artillery"
+slot2 = slot0.Battle.BattleSkillEditCustomWarning
+slot3 = class("BattleCommonWarningView")
+slot0.Battle.BattleCommonWarningView = slot3
+slot3.__name = "BattleCommonWarningView"
+slot3.WARNING_TYPE_SUBMARINE = "submarine"
+slot3.WARNING_TYPE_ARTILLERY = "artillery"
 
-function slot2.Ctor(slot0, slot1)
+function slot3.Ctor(slot0, slot1)
 	slot0._submarineCount = 0
 	slot0._go = slot1
-	slot0._subIcon = slot1.transform:Find("submarineIcon")
-	slot0._tips = slot1.transform:Find("warningTips")
-	slot0._subWarn = slot1.transform:Find("submarineWarningTips")
+	slot0._tf = slot1.transform
+	slot0._subIcon = slot0._tf:Find("submarineIcon")
+	slot0._tips = slot0._tf:Find("warningTips")
+	slot0._subWarn = slot0._tf:Find("submarineWarningTips")
 	slot0._warningRequestTable = {
 		{
 			flag = false,
@@ -25,9 +27,12 @@ function slot2.Ctor(slot0, slot1)
 			tf = slot0._subWarn
 		}
 	}
+	slot0._customWarningTpl = slot0._tf:Find("customWarningTpl")
+	slot0._customWarningContainer = slot0._tf:Find("customWarningContainer")
+	slot0._customWarningList = {}
 end
 
-function slot2.UpdateHostileSubmarineCount(slot0, slot1)
+function slot3.UpdateHostileSubmarineCount(slot0, slot1)
 	if slot1 > 0 and slot0._submarineCount <= 0 then
 		slot0:activeSubmarineWarning()
 	elseif slot0._submarineCount > 0 and slot1 <= 0 then
@@ -37,7 +42,7 @@ function slot2.UpdateHostileSubmarineCount(slot0, slot1)
 	slot0._submarineCount = slot1
 end
 
-function slot2.ActiveWarning(slot0, slot1)
+function slot3.ActiveWarning(slot0, slot1)
 	slot2 = false
 	slot3 = #slot0._warningRequestTable
 
@@ -62,7 +67,7 @@ function slot2.ActiveWarning(slot0, slot1)
 	end
 end
 
-function slot2.DeactiveWarning(slot0, slot1)
+function slot3.DeactiveWarning(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._warningRequestTable) do
 		if slot1 == slot6.type then
 			slot6.flag = false
@@ -76,14 +81,54 @@ function slot2.DeactiveWarning(slot0, slot1)
 	end
 end
 
-function slot2.activeSubmarineWarning(slot0)
+function slot3.EditCustomWarning(slot0, slot1)
+	slot3 = slot1.key
+
+	if slot1.op == uv0.OP_ADD then
+		slot5 = uv1.Battle.BattleCustomWarningLabel.New(cloneTplTo(slot0._customWarningTpl, slot0._customWarningContainer))
+
+		slot5:ConfigData(slot1)
+
+		slot0._customWarningList[slot3] = slot5
+	elseif slot2 == uv0.OP_REMOVE then
+		if slot0._customWarningList[slot3] then
+			slot4:SetExpire()
+		end
+	elseif slot2 == uv0.OP_REMOVE_PERMANENT then
+		for slot7, slot8 in pairs(slot0._customWarningList) do
+			if slot8:GetDuration() <= 0 then
+				slot8:SetExpire()
+			end
+		end
+	elseif slot2 == uv0.OP_REMOVE_TEMPLATE then
+		for slot7, slot8 in pairs(slot0._customWarningList) do
+			if slot8:GetDuration() > 0 then
+				slot8:SetExpire()
+			end
+		end
+	end
+end
+
+function slot3.Update(slot0)
+	for slot4, slot5 in pairs(slot0._customWarningList) do
+		slot5:Update()
+
+		if slot5:IsExpire() then
+			slot5:Dispose()
+
+			slot0._customWarningList[slot4] = nil
+		end
+	end
+end
+
+function slot3.activeSubmarineWarning(slot0)
 	SetActive(slot0._subIcon, true)
 	slot0:ActiveWarning(uv0.WARNING_TYPE_SUBMARINE)
 	LeanTween.cancel(go(slot0._subIcon))
 	LeanTween.alpha(rtf(slot0._subIcon), 1, 2):setFrom(0)
 end
 
-function slot2.deactiveSubmarineWarning(slot0)
+function slot3.deactiveSubmarineWarning(slot0)
 	LeanTween.cancel(go(slot0._subIcon))
 	LeanTween.alpha(rtf(slot0._subIcon), 0, 1):setFrom(1):setOnComplete(System.Action(function ()
 		SetActive(uv0._subIcon, false)
@@ -91,8 +136,16 @@ function slot2.deactiveSubmarineWarning(slot0)
 	end))
 end
 
-function slot2.Dispose(slot0)
+function slot3.Dispose(slot0)
+	for slot4, slot5 in pairs(slot0._customWarningList) do
+		slot5:Dispose()
+
+		slot0._customWarningList[slot4] = nil
+	end
+
+	slot0._customWarningList = nil
 	slot0._go = nil
+	slot0._tf = nil
 	slot0._icon = nil
 	slot0._tips = nil
 end

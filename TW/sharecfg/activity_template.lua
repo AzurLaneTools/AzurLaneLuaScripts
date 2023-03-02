@@ -84,7 +84,10 @@ pg.activity_template = {
 		page_info = {
 			ui_name = "monthsignpage",
 			ui_name2 = "monthsignpage_special",
-			class_name = "MonthSignPage"
+			class_name = "MonthSignPage",
+			sub_ui = {
+				"MonthSignReSignUI"
+			}
 		},
 		config_client = {
 			8,
@@ -629,12 +632,13 @@ pg.activity_template = {
 	},
 	[4686] = {
 		mark = 20230209,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 29,
 		login_pop = 0,
 		config_id = 15,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4686,
 		config_data = {
@@ -645,33 +649,6 @@ pg.activity_template = {
 			{
 				itemID,
 				44001
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -23927,51 +23904,26 @@ pg.activity_template = {
 	},
 	[41068] = {
 		mark = 20230202,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 57,
 		login_pop = 0,
 		config_id = 31,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 41068,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[41069] = {
 		mark = 20230202,
-		id = 41069,
 		title_res_tag = "decode",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 26,
+		id = 41069,
 		config_data = {
 			{
 				17416,
@@ -24000,33 +23952,6 @@ pg.activity_template = {
 			{
 				17428,
 				17429
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -24132,12 +24057,13 @@ pg.activity_template = {
 	},
 	[41075] = {
 		mark = 20230216,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 41075,
 		config_data = {
@@ -24159,33 +24085,6 @@ pg.activity_template = {
 			17445,
 			17446,
 			17447
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[41076] = {
@@ -24280,7 +24179,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 41078,
-		is_show = 32,
+		is_show = 29,
 		config_data = {},
 		time = {
 			"timer",
@@ -24319,53 +24218,28 @@ pg.activity_template = {
 	},
 	[41079] = {
 		mark = 20230216,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 41079,
 		config_data = {
 			17448
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[41080] = {
 		mark = 20230216,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 41080,
 		config_data = {
@@ -24374,72 +24248,19 @@ pg.activity_template = {
 			286,
 			287,
 			288
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[41081] = {
 		mark = 20230216,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 10,
 		is_show = 0,
+		title_res_tag = "",
 		id = 41081,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			build_painting = "kalangshitade_building"
 		}
@@ -24518,12 +24339,13 @@ pg.activity_template = {
 	},
 	[41083] = {
 		mark = 20230216,
-		id = 41083,
 		title_res_tag = "maoxiV3_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 33,
+		id = 41083,
 		config_data = {
 			1620001,
 			1620002,
@@ -24531,33 +24353,6 @@ pg.activity_template = {
 			1620021,
 			1620022,
 			1620023
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "MaoxiV3MainPage",
@@ -24569,12 +24364,13 @@ pg.activity_template = {
 	},
 	[41084] = {
 		mark = 20230216,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 41084,
 		config_data = {
 			1620004,
@@ -24585,33 +24381,6 @@ pg.activity_template = {
 			1620026,
 			1620041,
 			1620051
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					17
-				},
-				{
-					12,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
@@ -24737,6 +24506,300 @@ pg.activity_template = {
 					2023,
 					5,
 					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41090] = {
+		mark = 20230302,
+		id = 41090,
+		title_res_tag = "blackfriday",
+		type = 74,
+		login_pop = 0,
+		config_id = 41090,
+		is_show = 30,
+		config_data = {
+			70085,
+			70086,
+			70104,
+			70109,
+			70193,
+			70213,
+			70214,
+			70317,
+			70328,
+			70329,
+			70330,
+			70331,
+			70332,
+			70334,
+			70335,
+			70336,
+			70337,
+			70339,
+			70340,
+			70341,
+			70342,
+			70343,
+			70344,
+			70345,
+			70346,
+			70348,
+			70349,
+			70350,
+			70370,
+			70371,
+			70373,
+			70374,
+			70376,
+			70377,
+			70378,
+			70382,
+			70390,
+			70391,
+			70392,
+			70393,
+			70394,
+			70395,
+			70396,
+			70397,
+			70398,
+			70399,
+			70401,
+			70402,
+			70403,
+			70406,
+			70407,
+			70408,
+			70409,
+			70410,
+			70411,
+			70412,
+			70414,
+			70415,
+			70416,
+			70419,
+			70420,
+			70426,
+			70427,
+			70433,
+			70436,
+			70437,
+			70438,
+			70444,
+			70505,
+			70506,
+			70508,
+			70509,
+			70510,
+			70511,
+			70513,
+			70514,
+			70515,
+			70516,
+			70517,
+			70518,
+			70524,
+			70527,
+			70528,
+			70529,
+			70530,
+			70531,
+			70534,
+			70535,
+			70536,
+			70537,
+			70538,
+			70539,
+			70540,
+			70541,
+			70542,
+			70543,
+			70544,
+			70546,
+			70548,
+			70549,
+			70550,
+			70551,
+			70554,
+			70556,
+			70557,
+			70558,
+			70559,
+			70560,
+			70676,
+			70677,
+			70678,
+			70245,
+			70216,
+			70218,
+			70439
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "BlackFridayWithSignInPage",
+			ui_name = "BlackFridayWithSignInPage"
+		},
+		config_client = {
+			{
+				{
+					2023,
+					3,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			},
+			41093
+		}
+	},
+	[41091] = {
+		mark = 20230302,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 13,
+		is_show = 0,
+		config_data = "",
+		config_client = "",
+		id = 41091,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41092] = {
+		mark = 20230302,
+		id = 41092,
+		title_res_tag = "xunliandianshu_r",
+		type = 87,
+		login_pop = 0,
+		config_id = 41092,
+		is_show = 31,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JPSkirmishHeadFrameRePage",
+			ui_name = "JPSkirmishHeadFrameRePage"
+		},
+		config_client = {
+			linkExpActID = 41091
+		}
+	},
+	[41093] = {
+		mark = 20230302,
+		title_res_tag = "",
+		page_info = "",
+		type = 3,
+		login_pop = 0,
+		config_id = 37,
+		is_show = 0,
+		config_client = "",
+		id = 41093,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					15
 				},
 				{
 					23,
@@ -27481,6 +27544,10 @@ pg.activity_template = {
 		41085,
 		41086,
 		41087,
+		41090,
+		41091,
+		41092,
+		41093,
 		45000,
 		45001,
 		45002,

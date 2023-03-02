@@ -15,6 +15,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.hideBgAlpha = slot1.hideBgAlpha
 	slot0.rectOffset = slot1.rectOffset
 	slot0.spacing = slot1.spacing
+	slot0.typewriterSpeed = slot1.typewriterTime
 
 	if slot0.asideType == uv0.ASIDE_TYPE_LEFTBOTTOMVEC and not slot1.showMode then
 		slot0.showMode = uv0.SHOW_MODE_BUBBLE
@@ -29,6 +30,10 @@ end
 
 function slot0.GetMode(slot0)
 	return Story.MODE_ASIDE
+end
+
+function slot0.GetTypewriterSpeed(slot0)
+	return slot0.typewriterSpeed or 0.1
 end
 
 function slot0.GetSequence(slot0)

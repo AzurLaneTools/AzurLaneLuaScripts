@@ -255,11 +255,18 @@ function slot0.UpdateBuildPoolPaiting(slot0, slot1)
 		slot3 = slot3:GetInstance()
 
 		slot3:LoadingOn()
-		setPaintingPrefabAsync(slot0.patingTF, slot2, "build", function ()
+
+		function slot3()
 			uv0.painting = uv1
 
 			pg.UIMgr:GetInstance():LoadingOff()
-		end)
+		end
+
+		if slot0.buildPainting then
+			setBuildPaintingPrefabAsync(slot0.patingTF, slot2, "build", slot3)
+		else
+			setPaintingPrefabAsync(slot0.patingTF, slot2, "build", slot3)
+		end
 	end
 end
 

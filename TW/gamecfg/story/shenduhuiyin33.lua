@@ -245,7 +245,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好。立刻幫我接通在「星海」之中的密蘇里和阿拉斯加。",
+			say = "很好。立刻幫我接通在「星海」之中和阿拉斯加。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
