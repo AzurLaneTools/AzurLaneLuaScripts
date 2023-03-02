@@ -27,4 +27,33 @@ function slot0.OnUpdateFlush(slot0)
 	setActive(slot0.frameGot, slot5)
 end
 
+function slot0.OnFirstFlush(slot0)
+	onButton(slot0, slot0.battleBtn, function ()
+		if uv0.avatarConfig.start_time == "stop" then
+			uv0.inTime = false
+		else
+			uv0.inTime = pg.TimeMgr.GetInstance():GetServerTime() - pg.TimeMgr.GetInstance():Table2ServerTime({
+				year = slot0[1][1],
+				month = slot0[1][2],
+				day = slot0[1][3],
+				hour = slot0[2][1],
+				min = slot0[2][2],
+				sec = slot0[2][3]
+			}) > 0
+		end
+
+		if uv0.inTime then
+			uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK)
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_notStartOrEnd"))
+		end
+	end, SFX_PANEL)
+	onButton(slot0, slot0.getBtn, function ()
+		uv0:emit(ActivityMediator.EVENT_OPERATION, {
+			cmd = 1,
+			activity_id = uv0.activity.id
+		})
+	end, SFX_PANEL)
+end
+
 return slot0

@@ -24728,12 +24728,13 @@ pg.activity_template = {
 	},
 	[41092] = {
 		mark = 20230302,
-		id = 41092,
+		config_client = "",
 		title_res_tag = "xunliandianshu_r",
 		type = 87,
 		login_pop = 0,
 		config_id = 41092,
 		is_show = 31,
+		id = 41092,
 		config_data = {},
 		time = {
 			"timer",
@@ -24765,9 +24766,6 @@ pg.activity_template = {
 		page_info = {
 			class_name = "JPSkirmishHeadFrameRePage",
 			ui_name = "JPSkirmishHeadFrameRePage"
-		},
-		config_client = {
-			linkExpActID = 41091
 		}
 	},
 	[41093] = {
