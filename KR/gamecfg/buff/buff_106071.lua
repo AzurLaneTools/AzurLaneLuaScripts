@@ -19,7 +19,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.05
 				}
 			}
@@ -45,7 +45,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.061
 				}
 			}
@@ -71,7 +71,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.072
 				}
 			}
@@ -97,7 +97,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.083
 				}
 			}
@@ -123,7 +123,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.094
 				}
 			}
@@ -149,7 +149,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.105
 				}
 			}
@@ -175,7 +175,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.116
 				}
 			}
@@ -201,7 +201,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.127
 				}
 			}
@@ -227,7 +227,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.138
 				}
 			}
@@ -253,7 +253,7 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.15
 				}
 			}
@@ -294,7 +294,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageAgainstArmorEnhance_1",
+				attr = "damageToArmorRateEnhance_1",
 				number = 0.05
 			}
 		}

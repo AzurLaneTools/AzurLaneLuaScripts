@@ -1,112 +1,5 @@
 pg = pg or {}
 pg.ship_skin_template_2 = {
-	[101460] = {
-		ship_group = 10146,
-		name = "스테판 포터",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 101460,
-		group_index = 0,
-		prefab = "shidifenbote",
-		painting = "shidifenbote",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "플레처급 구축함—스테판 포터, 현호 DD-538",
-		voice_actor = 267,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.226,
-					1.007,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.23,
-					1.007,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.521,
-							2.444,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101461] = {
 		ship_group = 10146,
 		name = "느긋한 핑크 바니",
@@ -9440,6 +9333,142 @@ pg.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102274] = {
+		ship_group = 10227,
+		name = "비오는 날의 우연한 만남?",
+		bullet_skin_secondary = "",
+		hand_id = 16,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "147",
+		id = 102274,
+		group_index = 4,
+		prefab = "mabuerheide_5",
+		painting = "mabuerheide_5",
+		illustrator = -1,
+		air_bullet_skin = "",
+		l2d_voice_calibrate = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70829,
+		desc = "휴… 이제 문제 없겠지~? 어머, 지휘관님? 여기서 뭐하고 계세요~? 설마 일부러 여기서 기다리신 거예요? 항상 우연일 수는…… 없겠죠?",
+		voice_actor = 230,
+		air_bomb_skin = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.157,
+					1.023,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.118,
+					1.034,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.148,
+					1.034,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.533,
+							2.426,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				22,
+				-557,
+				0
+			},
+			{
+				0.85
+			}
+		},
+		special_effects = {
+			"lihui_mabuerheide_5",
+			{
+				273,
+				25,
+				0
+			},
+			{
+				1.5
+			}
+		}
+	},
 	[102290] = {
 		ship_group = 10229,
 		name = "보이시",
@@ -10545,6 +10574,126 @@ pg.ship_skin_template_2 = {
 							0.3,
 							0.87,
 							-0.4
+						}
+					}
+				}
+			}
+		}
+	},
+	[103060] = {
+		ship_group = 10306,
+		name = "포틀랜드",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 103060,
+		group_index = 0,
+		prefab = "botelan",
+		painting = "botelan",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 10,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "포틀랜드급 중순양함·포틀랜드 (CA-33)",
+		voice_actor = 10,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.704,
+					0.702,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.038,
+					1.046,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.038,
+					1.046,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.75,
+							0.53,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.63,
+							0.57,
+							0
 						}
 					}
 				}

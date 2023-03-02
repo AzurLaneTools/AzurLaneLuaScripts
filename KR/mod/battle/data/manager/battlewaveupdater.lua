@@ -57,6 +57,8 @@ function slot2.SetWavesData(slot0, slot1)
 			slot8 = uv1.Battle.BattleJammingWave.New()
 		elseif slot7 == uv0.ENVIRONMENT then
 			slot8 = uv1.Battle.BattleEnvironmentWave.New()
+		elseif slot7 == uv0.LABEL then
+			slot8 = uv1.Battle.BattleLabelWave.New()
 		end
 
 		slot8:SetWaveData(slot6)

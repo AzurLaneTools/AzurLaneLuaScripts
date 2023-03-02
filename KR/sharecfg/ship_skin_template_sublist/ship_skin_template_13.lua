@@ -1,5 +1,121 @@
 pg = pg or {}
 pg.ship_skin_template_13 = {
+	[402081] = {
+		ship_group = 40208,
+		name = "환몽의 프로셀피나",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "156",
+		id = 402081,
+		group_index = 1,
+		prefab = "aierbin_2",
+		painting = "aierbin_2",
+		shop_id = 70686,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 18,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "저, 저택 주인의 이름으로 명령하노니, 꿇어라……. 하긴… 내가 명령해봤자 아무도 들어주지 않겠지…. 역시 난, 아가씨보다는 메이드 쪽이 더 잘 어울릴 거야….",
+		voice_actor = 312,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.576,
+					1.234,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.366,
+					1.191,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.303,
+					1.932,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.468,
+							2.387,
+							-0.568
+						}
+					}
+				}
+			}
+		}
+	},
 	[402082] = {
 		ship_group = 40208,
 		name = "잠 못 이루는 밤의 소원",
@@ -3278,6 +3394,122 @@ pg.ship_skin_template_13 = {
 			ParamEyeBallY = {
 				-0.5,
 				0.5
+			}
+		}
+	},
+	[403093] = {
+		ship_group = 40309,
+		name = "어두운 곳의 히든 보스?",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "147",
+		id = 403093,
+		group_index = 3,
+		prefab = "haiyinlixi_5",
+		painting = "haiyinlixi_5",
+		shop_id = 70830,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 4,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "난 어두운 곳에서 모항의 학원을 지휘하는 히든 보스야. 그러니까 지휘관도 내 말을 따라야 해! 물론 지휘관 보호도 내가 할 거야! 하하하♪",
+		voice_actor = 255,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.52,
+					1.1,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.52,
+					1.003,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.38,
+					1.41,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.507,
+							2.567,
+							0
+						}
+					}
+				}
 			}
 		}
 	},
@@ -10320,108 +10552,6 @@ pg.ship_skin_template_13 = {
 				{
 					0,
 					-0.109,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.48,
-							2.43,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[408082] = {
-		ship_group = 40808,
-		name = "상어 귀여미",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "135",
-		id = 408082,
-		group_index = 2,
-		prefab = "U110_3",
-		painting = "U110_3",
-		shop_id = 70425,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 7,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1101",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "불독이 연회 때는 예쁜 옷을 입어야 한다고 해서 U-110이 동료들한테 \"예쁜 옷\"을 부탁했어. 지휘관, \"예뻐\"? 응...? 귀여워?",
-		voice_actor = 56,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.212,
-					1.222,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
 					0
 				}
 			}

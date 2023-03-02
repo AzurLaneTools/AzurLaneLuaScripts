@@ -2054,3 +2054,9 @@ function slot8.RemoveFlag(slot0, slot1)
 
 	table.removebyvalue(slot2, slot1)
 end
+
+function slot8.DispatchCustomWarning(slot0, slot1)
+	slot0:DispatchEvent(uv0.Event.New(uv1.EDIT_CUSTOM_WARNING_LABEL, {
+		labelData = slot1
+	}))
+end

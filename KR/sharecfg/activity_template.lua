@@ -7551,42 +7551,16 @@ pg.activity_template = {
 	},
 	[4688] = {
 		mark = 20230216,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 23,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4688,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4689] = {
 		mark = 20230216,
@@ -7725,6 +7699,542 @@ pg.activity_template = {
 		},
 		config_client = {
 			itemid = 42035
+		}
+	},
+	[4701] = {
+		mark = 20230223,
+		id = 4701,
+		title_res_tag = "yingxiV4_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 33,
+		config_data = {
+			1710001,
+			1710002,
+			1710003,
+			1710021,
+			1710022,
+			1710023
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YingxiV4MainPage",
+			ui_name = "YingxiV4MainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4702] = {
+		mark = 20230223,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4702,
+		config_data = {
+			1710004,
+			1710005,
+			1710006,
+			1710024,
+			1710025,
+			1710026,
+			1710041,
+			1710051
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					3
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4703] = {
+		mark = 20230223,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4703,
+		config_data = {
+			18364,
+			18365,
+			18366,
+			18367,
+			18368,
+			18369,
+			18370,
+			18371,
+			18372,
+			18373,
+			18374,
+			18375,
+			18376,
+			18377,
+			18378,
+			18379,
+			18380,
+			18381,
+			18382,
+			18383,
+			18384,
+			18385,
+			18386
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4704] = {
+		mark = 20230223,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 0,
+		id = 4704,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			build_painting = "yuanchou_building"
+		}
+	},
+	[4705] = {
+		mark = 20230223,
+		id = 4705,
+		title_res_tag = "yingxiV4_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4705,
+		is_show = 32,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YingxiV4PtPage",
+			ui_name = "YingxiV4PtPage"
+		},
+		config_client = {
+			linkActID = 4701
+		}
+	},
+	[4706] = {
+		mark = 20230223,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4706,
+		config_data = {
+			1990,
+			1991,
+			1992,
+			1993,
+			1994,
+			1995,
+			1996,
+			1997,
+			1998,
+			1999,
+			2000,
+			2001,
+			2002,
+			2003,
+			2004,
+			2005,
+			2006,
+			2007,
+			2008,
+			2009,
+			2010,
+			2011,
+			2012,
+			2013,
+			2014,
+			2015
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_yingxi4",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			use_secretary = false,
+			painting = "huangjiaxiangshu_pt",
+			pt_id = 302
+		}
+	},
+	[4707] = {
+		mark = 20230223,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4707,
+		config_data = {
+			1715001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4708] = {
+		mark = 20230223,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 302,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 4708,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4709] = {
+		mark = 20230223,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31958,100}]",
+		config_client = "",
+		id = 4709,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4710] = {
+		mark = 20230223,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4710,
+		config_data = {
+			18383
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4711] = {
+		mark = 20230223,
+		title_res_tag = "",
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4711,
+		config_data = {
+			362,
+			363,
+			364,
+			365,
+			366
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[7004] = {
@@ -13347,6 +13857,17 @@ pg.activity_template = {
 		4688,
 		4689,
 		4690,
+		4701,
+		4702,
+		4703,
+		4704,
+		4705,
+		4706,
+		4707,
+		4708,
+		4709,
+		4710,
+		4711,
 		7004,
 		7005,
 		7006,

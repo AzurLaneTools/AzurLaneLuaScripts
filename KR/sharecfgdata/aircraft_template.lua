@@ -17427,6 +17427,239 @@ _G.pg.base.aircraft_template[29213] = {
 	}
 }
 
+_G.pg.base.aircraft_template[29220] = {
+	attack_power = 2,
+	name = "萤火虫(1771中队)",
+	type = 3,
+	accuracy = 23,
+	model_ID = "yinghuochong1771",
+	ACC_growth = 0,
+	crash_DMG = 210,
+	dodge = 2.25,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 29220,
+	icon = "yinghuochong1771",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 7,
+	hp_growth = 1723,
+	speed = 47,
+	max_hp = 45,
+	scale = 1,
+	weapon_ID = {
+		50660,
+		52780
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				1.26,
+				-1.13,
+				0
+			},
+			{
+				1.35,
+				1.18,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.44,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[29221] = {
+	max_hp = 52,
+	hp_growth = 1982,
+	base = 29220,
+	id = 29221,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50661,
+		52781
+	}
+}
+
+_G.pg.base.aircraft_template[29222] = {
+	max_hp = 58,
+	hp_growth = 2240,
+	base = 29220,
+	id = 29222,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50662,
+		52782
+	}
+}
+
+_G.pg.base.aircraft_template[29223] = {
+	max_hp = 65,
+	hp_growth = 2499,
+	base = 29220,
+	id = 29223,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50663,
+		52783
+	}
+}
+
+_G.pg.base.aircraft_template[29224] = {
+	max_hp = 72,
+	hp_growth = 2757,
+	base = 29220,
+	id = 29224,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50664,
+		52784
+	}
+}
+
+_G.pg.base.aircraft_template[29225] = {
+	max_hp = 78,
+	hp_growth = 3016,
+	base = 29220,
+	id = 29225,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50665,
+		52785
+	}
+}
+
+_G.pg.base.aircraft_template[29226] = {
+	max_hp = 85,
+	hp_growth = 3274,
+	base = 29220,
+	id = 29226,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50666,
+		52786
+	}
+}
+
+_G.pg.base.aircraft_template[29227] = {
+	max_hp = 92,
+	hp_growth = 3533,
+	base = 29220,
+	id = 29227,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50667,
+		52787
+	}
+}
+
+_G.pg.base.aircraft_template[29228] = {
+	max_hp = 99,
+	hp_growth = 3791,
+	base = 29220,
+	id = 29228,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50668,
+		52788
+	}
+}
+
+_G.pg.base.aircraft_template[29229] = {
+	max_hp = 105,
+	hp_growth = 4050,
+	base = 29220,
+	id = 29229,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50669,
+		52789
+	}
+}
+
+_G.pg.base.aircraft_template[29230] = {
+	max_hp = 112,
+	hp_growth = 4308,
+	base = 29220,
+	id = 29230,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50670,
+		52790
+	}
+}
+
+_G.pg.base.aircraft_template[29231] = {
+	max_hp = 119,
+	hp_growth = 4567,
+	base = 29220,
+	id = 29231,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50671,
+		52791
+	}
+}
+
+_G.pg.base.aircraft_template[29232] = {
+	max_hp = 125,
+	hp_growth = 4825,
+	base = 29220,
+	id = 29232,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50672,
+		52792
+	}
+}
+
+_G.pg.base.aircraft_template[29233] = {
+	max_hp = 132,
+	hp_growth = 5084,
+	base = 29220,
+	id = 29233,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50673,
+		52793
+	}
+}
+
 _G.pg.base.aircraft_template[29300] = {
 	attack_power = 2,
 	name = "梭鱼(831中队)",
@@ -69849,6 +70082,742 @@ _G.pg.base.aircraft_template[160590] = {
 	spawn_brownian = 1,
 	weapon_ID = {
 		160600
+	}
+}
+
+_G.pg.base.aircraft_template[160651] = {
+	attack_power = 2,
+	name = "怨仇技能萤火虫Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "yinghuochong_01",
+	ACC_growth = 0,
+	crash_DMG = 210,
+	dodge = 0.75,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 160651,
+	icon = "yinghuochong",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 7,
+	hp_growth = 1943,
+	speed = 47,
+	max_hp = 51,
+	scale = 1,
+	weapon_ID = {
+		160661
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				1.26,
+				-1.13,
+				0
+			},
+			{
+				1.35,
+				1.18,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.44,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[160652] = {
+	id = 160652,
+	name = "怨仇技能萤火虫Lv2",
+	hp_growth = 2196,
+	base = 160651,
+	max_hp = 57,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160662
+	}
+}
+
+_G.pg.base.aircraft_template[160653] = {
+	id = 160653,
+	name = "怨仇技能萤火虫Lv3",
+	hp_growth = 2450,
+	base = 160651,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160663
+	}
+}
+
+_G.pg.base.aircraft_template[160654] = {
+	id = 160654,
+	name = "怨仇技能萤火虫Lv4",
+	hp_growth = 2703,
+	base = 160651,
+	max_hp = 70,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160664
+	}
+}
+
+_G.pg.base.aircraft_template[160655] = {
+	id = 160655,
+	name = "怨仇技能萤火虫Lv5",
+	hp_growth = 2957,
+	base = 160651,
+	max_hp = 77,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160665
+	}
+}
+
+_G.pg.base.aircraft_template[160656] = {
+	id = 160656,
+	name = "怨仇技能萤火虫Lv6",
+	hp_growth = 3210,
+	base = 160651,
+	max_hp = 83,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160666
+	}
+}
+
+_G.pg.base.aircraft_template[160657] = {
+	id = 160657,
+	name = "怨仇技能萤火虫Lv7",
+	hp_growth = 3464,
+	base = 160651,
+	max_hp = 90,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160667
+	}
+}
+
+_G.pg.base.aircraft_template[160658] = {
+	id = 160658,
+	name = "怨仇技能萤火虫Lv8",
+	hp_growth = 3717,
+	base = 160651,
+	max_hp = 97,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160668
+	}
+}
+
+_G.pg.base.aircraft_template[160659] = {
+	id = 160659,
+	name = "怨仇技能萤火虫Lv9",
+	hp_growth = 3971,
+	base = 160651,
+	max_hp = 103,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160669
+	}
+}
+
+_G.pg.base.aircraft_template[160660] = {
+	id = 160660,
+	name = "怨仇技能萤火虫Lv10",
+	hp_growth = 4224,
+	base = 160651,
+	max_hp = 110,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160670
+	}
+}
+
+_G.pg.base.aircraft_template[160671] = {
+	attack_power = 2,
+	name = "怨仇技能萤火虫Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "yinghuochong_02",
+	ACC_growth = 0,
+	crash_DMG = 210,
+	dodge = 0.75,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 160671,
+	icon = "yinghuochong",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 7,
+	hp_growth = 1943,
+	speed = 47,
+	max_hp = 51,
+	scale = 1,
+	weapon_ID = {
+		160661
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				1.26,
+				-1.13,
+				0
+			},
+			{
+				1.35,
+				1.18,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.44,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[160672] = {
+	id = 160672,
+	name = "怨仇技能萤火虫Lv2",
+	hp_growth = 2196,
+	base = 160671,
+	max_hp = 57,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160662
+	}
+}
+
+_G.pg.base.aircraft_template[160673] = {
+	id = 160673,
+	name = "怨仇技能萤火虫Lv3",
+	hp_growth = 2450,
+	base = 160671,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160663
+	}
+}
+
+_G.pg.base.aircraft_template[160674] = {
+	id = 160674,
+	name = "怨仇技能萤火虫Lv4",
+	hp_growth = 2703,
+	base = 160671,
+	max_hp = 70,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160664
+	}
+}
+
+_G.pg.base.aircraft_template[160675] = {
+	id = 160675,
+	name = "怨仇技能萤火虫Lv5",
+	hp_growth = 2957,
+	base = 160671,
+	max_hp = 77,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160665
+	}
+}
+
+_G.pg.base.aircraft_template[160676] = {
+	id = 160676,
+	name = "怨仇技能萤火虫Lv6",
+	hp_growth = 3210,
+	base = 160671,
+	max_hp = 83,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160666
+	}
+}
+
+_G.pg.base.aircraft_template[160677] = {
+	id = 160677,
+	name = "怨仇技能萤火虫Lv7",
+	hp_growth = 3464,
+	base = 160671,
+	max_hp = 90,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160667
+	}
+}
+
+_G.pg.base.aircraft_template[160678] = {
+	id = 160678,
+	name = "怨仇技能萤火虫Lv8",
+	hp_growth = 3717,
+	base = 160671,
+	max_hp = 97,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160668
+	}
+}
+
+_G.pg.base.aircraft_template[160679] = {
+	id = 160679,
+	name = "怨仇技能萤火虫Lv9",
+	hp_growth = 3971,
+	base = 160671,
+	max_hp = 103,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160669
+	}
+}
+
+_G.pg.base.aircraft_template[160680] = {
+	id = 160680,
+	name = "怨仇技能萤火虫Lv10",
+	hp_growth = 4224,
+	base = 160671,
+	max_hp = 110,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160670
+	}
+}
+
+_G.pg.base.aircraft_template[160711] = {
+	attack_power = 2,
+	name = "百眼巨人剑鱼弹幕Lv1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "jianyu",
+	ACC_growth = 0,
+	crash_DMG = 102,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 160711,
+	icon = "jianyu",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1538,
+	speed = 45,
+	max_hp = 40,
+	scale = 1,
+	weapon_ID = {
+		160721
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				1.03,
+				-1.43,
+				0
+			},
+			{
+				1.01,
+				1.43,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.52,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[160712] = {
+	id = 160712,
+	name = "百眼巨人剑鱼弹幕Lv2",
+	hp_growth = 1739,
+	base = 160711,
+	max_hp = 45,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160722
+	}
+}
+
+_G.pg.base.aircraft_template[160713] = {
+	id = 160713,
+	name = "百眼巨人剑鱼弹幕Lv3",
+	hp_growth = 1940,
+	base = 160711,
+	max_hp = 50,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160723
+	}
+}
+
+_G.pg.base.aircraft_template[160714] = {
+	id = 160714,
+	name = "百眼巨人剑鱼弹幕Lv4",
+	hp_growth = 2140,
+	base = 160711,
+	max_hp = 56,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160724
+	}
+}
+
+_G.pg.base.aircraft_template[160715] = {
+	id = 160715,
+	name = "百眼巨人剑鱼弹幕Lv5",
+	hp_growth = 2341,
+	base = 160711,
+	max_hp = 61,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160725
+	}
+}
+
+_G.pg.base.aircraft_template[160716] = {
+	id = 160716,
+	name = "百眼巨人剑鱼弹幕Lv6",
+	hp_growth = 2541,
+	base = 160711,
+	max_hp = 66,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160726
+	}
+}
+
+_G.pg.base.aircraft_template[160717] = {
+	id = 160717,
+	name = "百眼巨人剑鱼弹幕Lv7",
+	hp_growth = 2742,
+	base = 160711,
+	max_hp = 71,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160727
+	}
+}
+
+_G.pg.base.aircraft_template[160718] = {
+	id = 160718,
+	name = "百眼巨人剑鱼弹幕Lv8",
+	hp_growth = 2943,
+	base = 160711,
+	max_hp = 77,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160728
+	}
+}
+
+_G.pg.base.aircraft_template[160719] = {
+	id = 160719,
+	name = "百眼巨人剑鱼弹幕Lv9",
+	hp_growth = 3143,
+	base = 160711,
+	max_hp = 82,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160729
+	}
+}
+
+_G.pg.base.aircraft_template[160720] = {
+	id = 160720,
+	name = "百眼巨人剑鱼弹幕Lv10",
+	hp_growth = 3344,
+	base = 160711,
+	max_hp = 87,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160730
+	}
+}
+
+_G.pg.base.aircraft_template[160731] = {
+	attack_power = 2,
+	name = "怨仇技能萤火虫Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "Yinghuochong_03",
+	ACC_growth = 0,
+	crash_DMG = 210,
+	dodge = 0.75,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 160731,
+	icon = "yinghuochong",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 7,
+	hp_growth = 1943,
+	speed = 47,
+	max_hp = 51,
+	scale = 1,
+	weapon_ID = {
+		160661
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				1.26,
+				-1.13,
+				0
+			},
+			{
+				1.35,
+				1.18,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.44,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[160732] = {
+	id = 160732,
+	name = "怨仇技能萤火虫Lv2",
+	hp_growth = 2196,
+	base = 160731,
+	max_hp = 57,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160662
+	}
+}
+
+_G.pg.base.aircraft_template[160733] = {
+	id = 160733,
+	name = "怨仇技能萤火虫Lv3",
+	hp_growth = 2450,
+	base = 160731,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160663
+	}
+}
+
+_G.pg.base.aircraft_template[160734] = {
+	id = 160734,
+	name = "怨仇技能萤火虫Lv4",
+	hp_growth = 2703,
+	base = 160731,
+	max_hp = 70,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160664
+	}
+}
+
+_G.pg.base.aircraft_template[160735] = {
+	id = 160735,
+	name = "怨仇技能萤火虫Lv5",
+	hp_growth = 2957,
+	base = 160731,
+	max_hp = 77,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160665
+	}
+}
+
+_G.pg.base.aircraft_template[160736] = {
+	id = 160736,
+	name = "怨仇技能萤火虫Lv6",
+	hp_growth = 3210,
+	base = 160731,
+	max_hp = 83,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160666
+	}
+}
+
+_G.pg.base.aircraft_template[160737] = {
+	id = 160737,
+	name = "怨仇技能萤火虫Lv7",
+	hp_growth = 3464,
+	base = 160731,
+	max_hp = 90,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160667
+	}
+}
+
+_G.pg.base.aircraft_template[160738] = {
+	id = 160738,
+	name = "怨仇技能萤火虫Lv8",
+	hp_growth = 3717,
+	base = 160731,
+	max_hp = 97,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160668
+	}
+}
+
+_G.pg.base.aircraft_template[160739] = {
+	id = 160739,
+	name = "怨仇技能萤火虫Lv9",
+	hp_growth = 3971,
+	base = 160731,
+	max_hp = 103,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160669
+	}
+}
+
+_G.pg.base.aircraft_template[160740] = {
+	id = 160740,
+	name = "怨仇技能萤火虫Lv10",
+	hp_growth = 4224,
+	base = 160731,
+	max_hp = 110,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160670
 	}
 }
 
@@ -214755,6 +215724,626 @@ _G.pg.base.aircraft_template[3049204] = {
 			{
 				0.48,
 				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3051101] = {
+	attack_power = 2,
+	name = "【2023英系活动A2】BOSS 勒马尔 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3051101,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		3051105
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3051102] = {
+	attack_power = 2,
+	name = "【2023英系活动A2】BOSS 勒马尔 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3051102,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 33,
+	max_hp = 99,
+	scale = 0.75,
+	weapon_ID = {
+		3051106
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3051103] = {
+	attack_power = 2,
+	name = "【2023英系活动A2】BOSS 勒马尔 浮游炮1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 183,
+	dodge = 1,
+	nationality = 3,
+	id = 3051103,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 400,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3051107
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3051104] = {
+	attack_power = 2,
+	name = "【2023英系活动A2】BOSS 勒马尔 浮游炮2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 183,
+	dodge = 1,
+	nationality = 3,
+	id = 3051104,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 400,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3051108
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3053101] = {
+	attack_power = 2,
+	name = "【2023英系活动C2】BOSS 勒马尔 轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 126,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3053101,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3060,
+	speed = 30,
+	max_hp = 162,
+	scale = 0.75,
+	weapon_ID = {
+		3053105
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3053102] = {
+	attack_power = 2,
+	name = "【2023英系活动C2】BOSS 勒马尔 鱼雷机",
+	type = 2,
+	accuracy = 23,
+	model_ID = "shenhaifeiji",
+	ACC_growth = 0,
+	crash_DMG = 114,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3053102,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2880,
+	speed = 33,
+	max_hp = 154,
+	scale = 0.75,
+	weapon_ID = {
+		3053106
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3053103] = {
+	attack_power = 2,
+	name = "【2023英系活动C2】BOSS 勒马尔 浮游炮1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 183,
+	dodge = 1,
+	nationality = 3,
+	id = 3053103,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 400,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3053107
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3053104] = {
+	attack_power = 2,
+	name = "【2023英系活动C2】BOSS 勒马尔 浮游炮2",
+	type = 1,
+	accuracy = 23,
+	model_ID = "fuyoupao2",
+	ACC_growth = 0,
+	crash_DMG = 183,
+	dodge = 1,
+	nationality = 3,
+	id = 3053104,
+	icon = "fuyoupao2",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 3680,
+	speed = 70,
+	max_hp = 400,
+	scale = 0.75,
+	funnel_behavior = {
+		exist = 20,
+		stay = 2
+	},
+	weapon_ID = {
+		3053108
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
 				0
 			}
 		}

@@ -20,7 +20,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.05
 				}
 			}
@@ -47,7 +47,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.066
 				}
 			}
@@ -74,7 +74,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.082
 				}
 			}
@@ -101,7 +101,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.1
 				}
 			}
@@ -128,7 +128,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.116
 				}
 			}
@@ -155,7 +155,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.132
 				}
 			}
@@ -182,7 +182,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.15
 				}
 			}
@@ -209,7 +209,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.166
 				}
 			}
@@ -236,7 +236,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.182
 				}
 			}
@@ -263,7 +263,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageAgainstArmorEnhance_1",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.2
 				}
 			}
@@ -299,7 +299,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageAgainstArmorEnhance_1",
+				attr = "damageToArmorRateEnhance_1",
 				number = 0.05
 			}
 		}
