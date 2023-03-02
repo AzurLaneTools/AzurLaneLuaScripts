@@ -10,7 +10,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			stopbgm = true,
-			say = "怨仇女士，战争骑士正主动向我们的方向袭来。",
+			say = "임플래커블, 전쟁의 기사가 우리의 방향으로 습격해오고 있어.",
 			bgm = "battle-whaling-normal",
 			painting = {
 				alpha = 0.3,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不愧是代表战争的骑士，就是好战。",
+			say = "역시나 전쟁의 기사, 호전적이군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "而且……外表看上去完好无损，看来确实是场苦战了……",
+			say = "거기다…… 외면상으로 보면 전혀 이상이 없어요. 확실히 고전하게 되겠군요…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "没事没事，“蒙主洪恩的女王陛下”不是正在照耀着你们么？",
+			say = "괜찮아, 괜찮아. '주의 은혜를 입은 여왕폐하'가 너희를 비추고 있는 거 아니었어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "别跟事不关己一样地说风凉话！",
+			say = "상관 없는 것처럼 비아냥거리지 마!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "你要是还不出力的话，说不定我们会遭受重大损失的！",
+			say = "당신이 계속 이런 식으로 빠지면 우리 중대한 손실을 입고 말지도 모른다고!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我跟你们又不熟，帮是情分不帮是本分。",
+			say = "너희랑 내가 무슨 사이가 된다고, 도우면 정이고 안 도우면 본분을 지키는 거지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			actor = 900353,
 			dir = 1,
-			say = "硬碰硬不是我的风格，你们就先在正面坚持一下。",
+			say = "몸으로 부닥치는 건 내 스타일이 아냐. 먼저 정면에서 버티고들 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			actor = 900353,
 			dir = 1,
-			say = "我绕到侧面去找它的弱点，看看有没有什么破敌良方。",
+			say = "난 어디 좋은 공략 방법이 있나 측면으로 가서 약점을 찾아볼게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "先走一步~",
+			say = "그럼 실례~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你……！",
+			say = "당신…...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			actor = 805010,
 			dir = 1,
-			say = "…………怨仇女士，消消气。",
+			say = "…....임플래커블, 화 가라앉혀.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "事到如今我们也没有别的选择，怒火还是留给敌人吧。",
+			say = "이렇게 된 이상 우리도 다른 선택지가 없어. 화는 적에게 풀도록 하자구.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "………………皇家海军，见敌必战！",
+			say = "……로열 네이비, 적을 피하지 마라!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "女王陛下的荣光正在照耀着我们呢，奋力战斗，不要让陛下蒙羞！",
+			say = "여왕 폐하의 영광이 우릴 비추고 계신다. 전투에 임하여 폐하께 수치를 안기지 마라!",
 			painting = {
 				alpha = 0.3,
 				time = 1

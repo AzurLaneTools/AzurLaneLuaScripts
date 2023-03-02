@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			stopbgm = true,
-			say = "一段时间的寻找后，众人来到了一处鸢尾教国时期修建的教堂内。",
+			say = "시간이 조금 흐른 후, 다들 아이리스 교국 시절 지어진 성당으로 도착했다.",
 			bgmDelay = 1,
 			bgm = "theme-vichy-church",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "虽然有些残破……不过现在也不是挑三拣四的时候了。",
+			say = "조금 낡긴 했지만…... 그래도 이것저것 가릴 땐 아니지요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大主教，您先请？",
+			say = "대주교, 먼저 하시겠습니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，那就先让我来尝试一下吧。",
+			say = "응, 나부터 하도록 할까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "黎塞留来到破旧的大厅中间，双手合十，吟诵起了祈祷词。",
+			say = "리슐리외는 낡고 허름한 홀 가운데, 두 손으로 합장하며 기도문을 외우기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,25 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……我们在天上的父，愿人都尊你的名为圣……」",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "「……愿你的国降临，愿你的旨意行在地上，如同行度在天上……」",
+			say = "「……하늘의 계신 아버지, 모두가 그대의 이름을 신성하게 여기길…...」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……我们日用的饮食，今日赐给我们……」",
+			say = "「……아버지의 나라가 강림하여, 그대의 뜻이 지상을 걷고, 마치 천상처럼 행동하기를…...」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……免我们的债，如同我们免了人的债……」",
+			say = "「……우리가 일용하는 음식, 오늘 우리에게 내리신…...」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……不叫我们遇见试探，救我们脱离凶恶……」",
+			say = "「……우리의 죄를 사하시고, 마치 우리가 인간의 죄를 사하듯…...」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +169,25 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……因为国度、权柄、荣耀，全是你的， 直到永远……」",
+			say = "「……우리가 만남에서 모색하지 않게 하고, 우리가 악에서 벗어나도록 도우소서…...」",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "「……나라, 권세, 영광, 모든 것은 본디 당신의 것으로, 영원히…...」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			side = 2,
-			say = "伴随着黎塞留的祈祷声，星星点点的金色光芒从空气中析出，逐渐汇聚至矗立在她身边的旗帜上。",
+			say = "리슐리외의 기도 소리와 함께, 별을 닮은 금빛이 공기 속을 나와 점차 그녀의 곁에 우뚝 선 깃발 위로 모여들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
-			say = "此时此刻，那面自由鸢尾的旗帜正如同琉璃瓦一般闪耀。",
+			say = "바로 그때, 아이리스 리브레의 깃발이 마치 유리기와처럼 반짝거렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "光是站在旗帜周围，就能感受到勇气与力量逐渐从体内涌出。",
+			say = "깃발 주위에 서 있는 것만으로도 용기와 힘이 몸속에서 용솟음치는 듯했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "做得漂亮！",
+			say = "훌륭해!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "不愧是枢机主教，这份旗帜中蕴含的力量连我也能感受到。",
+			say = "역시나 추기경, 이 깃발이 품은 힘이 나마저도 느껴질 정도야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "这样一来，你们肯定能好好教训一下那台战争机甲了。",
+			say = "이제 그 전쟁 기갑 정도는 너희가 충분히 혼내줄 수 있겠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呼………………怨仇女士，我的祈祷结束了。",
+			say = "후……. 임플래커블, 내 기도는 끝났어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "仪式期间只有安心的感觉，并无任何不适感，请放心。",
+			say = "의식을 올리는 동안 그저 안심할 수 있는 기분으로 불편한 곳은 없었으니 안심해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "好~那接下来就让我来试试吧。",
+			say = "좋습니다. 그럼 이제 제가 해보죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,10 +386,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……我们在天上的父，愿人都尊你的名为圣……」",
+			say = "「……하늘의 계신 아버지, 모두가 그대의 이름을 신성하게 여기길…...」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,10 +397,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……愿你的国降临，愿你的旨意行在地上，如同行度在天上……」",
+			say = "「……아버지의 나라가 강림하여, 그대의 뜻이 지상을 걷고, 마치 천상처럼 행동하기를…...」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,10 +408,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……我们日用的饮食，今日赐给我们……」",
+			say = "「……우리가 일용하는 음식, 오늘 우리에게 내리신…...」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,10 +419,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……免我们的债，如同我们免了人的债……」",
+			say = "「……우리의 죄를 사하시고, 마치 우리가 인간의 죄를 사하듯…...」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,10 +430,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……不叫我们遇见试探，救我们脱离凶恶……」",
+			say = "「……우리가 만남에서 모색하지 않게 하고, 우리가 악에서 벗어나도록 도우소서…...」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,10 +441,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
-			say = "「……因为国度、权柄、荣耀，全是你的， 直到永远……」",
+			say = "「……나라, 권세, 영광, 모든 것은 본디 당신의 것으로, 영원히…...」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_9",
-			say = "光芒没有出现，怨仇的身边依然被漆黑所笼罩。",
+			say = "빛은 나타나지 않았고, 임플래커블의 곁은 여전히 칠흑같은 어둠으로 감싸여 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
 			say = "…………",
@@ -473,7 +473,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_9",
 			nameColor = "#A9F548FF",
 			say = "……………………？",
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "神没有回应你呢。",
+			say = "신이 답해주지 않았네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "行…………吧……………………为什么我就一点都不意外呢。",
+			say = "좋…....아……. 그런데 왜 조금도 놀랍진 않을까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "从刚才开门的时候我就发现了，我跟你们的鸢尾圣堂是真的合不来。",
+			say = "방금 문이 열릴 때부터 깨달은 거지만, 난 아이리스의 성당과 정말 맞지 않네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "刚才开门的时候……？是指穿越极光之壁的时候么。",
+			say = "방금 문이 열릴 때부터…...? 오로라의 벽을 통과할 때 말인가.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊，和刚才一样，我跟黎塞留念了一样的祷词，但是只有她念的才有效果。",
+			say = "응, 방금처럼. 나와 리슐리외는 똑같은 기도문을 읊었는데도 리슐리외만 효과를 봤거든.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……我明白了。",
+			say = "그랬던 건가...... 알겠다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "此处虽然是塞壬的镜面海域，但也是经过鸢尾教国改造的圣堂。",
+			say = "이곳은 비록 세이렌의 거울 해역이라곤 하나 결국 아이리스 교국의 개조를 거친 성당이지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "包括四骑士、审判等与信仰有关的概念，都是在教国的认知体系下定义的。",
+			say = "네 기사, 심판 등 신앙과 관련된 개념은 교국의 인지 체계에서 정의된 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自然，“神”这个概念也不意外。",
+			say = "물론, '신'이란 개념도 다를 건 없지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "…………“战争”的定义总是战争，但“神”的定义就不一定了是么……",
+			say = "…...'전쟁'의 정의는 결국 전쟁이지만, '신'의 정의는 반드시 확실시된 게 아니란 거군요…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,7 +671,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "要不然借此机会干脆来改信鸢尾的信仰如何，怨仇女士？",
+			say = "아예 이 기회에 아이리스 리브레의 신앙으로 개종하는 건 어때, 임플래커블?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这件事我一点兴趣都没有，请容许我坚定拒绝。",
+			say = "그건 전혀 관심 없으니 거절하게 해주세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -706,7 +706,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "既然在这片空间中“神”的概念是由鸢尾教国定义的，那我只要避开这个概念，换一个祈祷目标就行了吧？",
+			say = "이 공간의 '신'의 개념이 아이리스 교국에 의해 정의된 거라면, 이 개념만 피해서 기도할 목표를 바꾸면 되는 거 아닌가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "理论上也不是这样……但是刚刚战争的影响你也亲身体会到了，请千万不要去尝试那些危险的概念。",
+			say = "이론상으로 그렇긴 하지만…... 방금 전쟁의 영향은 직접 느꼈잖아. 부디 위험한 개념은 시도하지 말아줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,7 +740,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那是自然，没有被鸢尾定义过，又包含正面信仰的概念，你以为我找不出来了么？",
+			say = "물론이죠. 아이리스에 의해 정의되지 않은, 긍정적인 신앙의 개념을 포함한, 제가 찾지 못할 거라 생각하시나요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "怨仇一边说着，一边拿出了一个小巧的伊丽莎白女王雕像。",
+			say = "임플래커블은 말하며 앙증맞은 크기의 퀸 엘리자베스의 조각상을 꺼내 들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "伊丽莎白女王的雕像……你该不会是想对着女王祈祷吧……？",
+			say = "퀸 엘리자베스의 조각상…... 설마 퀸에게 기도를 올리려고…...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,7 +785,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "归根结底，这里还是塞壬的镜面海域吧？",
+			say = "결국 따지고 들면, 여긴 아직도 세이렌의 거울 해역이죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -803,7 +803,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那在塞壬最初设计的时候，你觉得它们会去细究究竟用的是鸢尾信仰中的四骑士还是皇家信仰中的四骑士么？",
+			say = "그럼 세이렌이 최초 설계할 때, 그들이 아이리스 리브레 신앙 중의 네 기사인지 황실 신앙의 네 기사인지 따져 가면서 썼을까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -820,7 +820,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你要想试那就试试吧……但是我觉得没戏就是了。",
+			say = "시도해보고 싶으면 해봐…... 하지만 난 딱히 가망은 없을 것 같네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -838,7 +838,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那我们拭目以待~",
+			say = "그럼 어디 볼까~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -880,11 +880,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_10",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「蒙主洪恩，太阳所照耀之地的女王」",
+			say = "「주의 은혜를 입어 태양이 비추는 땅의 여왕이시여」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,11 +892,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_10",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「皇家海军的领袖，国教的保护者」",
+			say = "「황실 해군의 수장, 국교의 보호자」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,11 +904,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_10",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「你的光芒与智慧照耀我们七海的领土」",
+			say = "「당신의 빛과 지혜가 우리 칠해의 영토를 비추고 있나니」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -916,11 +916,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_11",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「让我们看到这世间的真实」",
+			say = "「저희로 하여금 이 세상의 진실을 보게 하시고」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,11 +928,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_11",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「你看顾我们苦难的同胞，邪恶因你退去」",
+			say = "「우리의 고난받는 동포를 보살피시며, 사악함이 당신으로 인해 떠나나니」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -940,11 +940,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_11",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「我们领受你的启示，因而必成就你的应许」",
+			say = "「당신의 계시를 받들어 당신의 뜻을 반드시 이루어 내고자 합니다」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,11 +952,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_11",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「赞颂你的名，我的陛下——！」",
+			say = "「당신의 이름을 찬양합니다, 나의 폐하──!」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,7 +983,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_12",
-			say = "这一次，怨仇的祈祷获得了回应。",
+			say = "이번엔, 임플래커블의 기도가 회답을 얻었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -993,7 +993,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_12",
-			say = "金色的光芒在怨仇手中的伊丽莎白雕像上徐徐亮起。",
+			say = "금빛이 임플래커블의 손에 담긴 퀸 엘리자베스의 조각상 위에서 반짝이고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1003,7 +1003,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_12",
-			say = "那缓缓升起的光芒温暖而有力量，在汇聚成光团后，又如喷泉般跃起，洒向了四面八方。",
+			say = "천천히 날아오르는 빛은 따듯하고도 힘을 품어, 빛의 무리를 지은 후 마치 분수처럼 튀어올라 사방을 가득 적셨다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1011,10 +1011,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_12",
 			nameColor = "#A9F548FF",
-			say = "…………我感受到您的回应了，陛下……",
+			say = "….....당신의 대답이 느껴져요, 폐하…….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1026,7 +1026,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……这是来自女王陛下的……力量么？",
+			say = "……이건 퀸에게서 온…… 힘인가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1043,7 +1043,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我感受到了一股……温暖的家的感觉……",
+			say = "따스한 집 같은 기분……을 느꼈어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1060,7 +1060,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然完全搞不懂是怎么回事，但有这种力量，就可以对付战争骑士了吧~☆",
+			say = "어떻게 된 건지 난 전혀 모르겠지만, 이 힘이면 전쟁의 기사를 상대할 수 있겠지~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1087,7 +1087,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不可思议…………居然真的成功了？",
+			say = "희한하네……. 이게 정말 된다고?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1104,7 +1104,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“蒙主洪恩的女王”哦，也是信仰有关的概念不是么~",
+			say = "'주의 은혜를 입은 여왕'이잖아. 이것도 신앙과 관련된 개념 아니겠어~?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1121,7 +1121,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………我无话可说，你无疑也是有着属于自己坚持的坚定信仰。",
+			say = "……할 말이 없네. 결국 자신이 굳건히 지키는 신앙이 있는 거잖아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1138,7 +1138,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样一来就算是全部强化完成了~",
+			say = "이렇게 됐으니 전원 강화 완료군요~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1154,7 +1154,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "别愁眉苦脸了，大主教，接下来我们还有两个骑士要打呢。",
+			say = "인상 쓰지 마세요, 대주교. 쓰러뜨러야 할 기사가 둘이나 남았다고요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1171,7 +1171,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "趁效果还在的时候，快些行动吧~",
+			say = "효과가 아직 남아 있을 때 어서 움직이도록 해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1

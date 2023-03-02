@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_2",
 			stopbgm = true,
-			say = "圣堂Blanc·沿海区域",
+			say = "블랑 성당·연해 구역",
 			bgmDelay = 1,
 			bgm = "theme-kerguelen",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "很遗憾，圣堂虽然临海，但看上去并没有面向海边的出入口呢。",
+			say = "유감입니다. 성당이 바닷가에 있긴 하나 바닷가로 향하는 출입구는 보이지 않는군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这样交通岂不是非常不便，这地方的设计师真的亲自来过这里么？",
+			say = "그렇다면 교통이 매우 불편했을텐데, 여길 건축한 이는 직접 와본 적이 없었던 건가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "或许是故意而为之的设计。",
+			say = "혹은 고의일지도요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "不论如何，看来我们还是需要从陆地上绕进去了，怨仇女士。",
+			say = "어쨌든간에, 걸어서 빙 돌아가는 수밖에 없겠어요. 임플래커블 님.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我才不要。英雄，开路。",
+			say = "사양하지. 히어로, 길을 열도록.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "了解！",
+			say = "좋아!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_firedust_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯……检查完毕，3、2、1……芝麻开门~☆",
+			say = "음…… 검사 완료, 3, 2, 1……. 열려라, 참깨~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_2",
-			say = "轰——————————！",
+			say = "쾅───────────!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -214,7 +214,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_2",
-			say = "在英雄的一连串炮击之下，圣堂Blanc银白色的外墙被凭空打出了一个缺口。",
+			say = "히어로의 연속된 포격으로 블랑 성당의 은백색 외벽에 구멍이 생겼다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好，这样就不用绕路了~我们进去吧。",
+			say = "훌륭해, 이러면 굳이 돌아갈 필요 없지~ 들어가자.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			stopbgm = true,
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "一段时间之后————",
+			say = "시간이 조금 흐른 후────",
 			bgmDelay = 1,
 			bgm = "theme-vichy-church",
 			typewriter = {
@@ -271,7 +271,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "众人在圣堂Blanc的内部空间中穿行着。",
+			say = "모두 블랑 성당 내부의 거대한 방을 건너가고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这里未免也……过于巨大了。与其说是房间连着房间，不如说是大厅连着大厅……",
+			say = "여기……너무 거대한데. 방과 방이 이어졌다기보단, 홀과 홀이 이어진 듯한…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "从尺寸上来看根本就不只是为行人准备的，就是过去些飞机坦克应该也没问题吧？",
+			say = "크기만 봐선 절대 여행자를 위해 준비한 게 아냐. 비행기나 탱크가 지나가도 문제 없을 정도인데?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "斯库拉，从地图上来看我们现在到哪里了？",
+			say = "스킬라, 우린 지금 지도 상으로 어디에 있지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "圣堂Blanc的4号军械库，再往前是5号军械库。",
+			say = "블랑 성당의 4호 무기고예요. 이 앞은 5호 무기고입니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "军械库……难道这里真的是为了通过巨大战争兵器而设计的么……？",
+			say = "무기고…… 설마 이 설계는 정말로 거대한 전쟁 병기가 지나가기 위해서였던 건가.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "继续向前走的话道路会出现分叉，向上走是祈祷厅，向下是雕刻室和圣物陈列室。",
+			say = "이 앞으로 쭉 가다 보면 갈림길이 나와요. 위로 가면 기도실, 아래로 가면 조각실과 성물 보관실이죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "至于看起来像圣堂Blanc枢纽的地方，貌似在下面的更深层。",
+			say = "블랑 성당의 중추로 보이는 곳은, 아무래도 더 깊은 하층에 있는 것 같아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "如果皇家橡树大人和百眼巨人要选择固守待援的话，那里就是最好的选择。",
+			say = "만약 로열 오크 님과 아거스가 지원을 기다리는 중이라면, 그곳이 최적의 선택이겠지요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那看来顺路呢，接下来去圣物陈列室转一圈如何？",
+			say = "그럼 이대로 길을 따라갈까. 성물 보관실로 가서 돌아보는 건 어때?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "怨仇女士是想看看有没有什么被遗留下来的圣物么？",
+			say = "임플래커블 님께선 남겨진 성물을 보고 싶으신 건가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "维希教廷撤得那么匆忙，万一呢。",
+			say = "비시아 성좌가 그리 황급히 떠났으니, 혹시 또 모르잖아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要是真的有被遗留下来的珍贵圣物的话，我们不保管起来未免也太可惜了。",
+			say = "만약 정말 가치 있는 성물이 남겨졌다면, 우리가 맡지 않으면 너무 아까운 일이지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "就算什么都没有，那里肯定也是维希教廷在撤退前必定去过的地方，至少也能看到些蛛丝马迹。",
+			say = "설령 아무것도 없다 해도, 비시아 성좌가 철수하기 전에 반드시 들렸을 곳이야. 조그만 단서라도 찾을 수 있겠지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "将珍贵的圣物带到这种位于世界边缘的军事要塞里，维希教廷究竟是在做些什么呢……",
+			say = "진귀한 성물을 이 세계 가장자리의 군사 요새로 가져왔다라, 비시아 성좌는 대체 뭘 꾸미고 있는 거지…….",
 			painting = {
 				alpha = 0.3,
 				time = 1

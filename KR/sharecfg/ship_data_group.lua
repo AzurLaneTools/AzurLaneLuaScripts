@@ -7048,7 +7048,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：湮烬尘墟",
+				"한정 이벤트: 잿빛 폐허",
 				{
 					""
 				},
@@ -8500,7 +8500,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：湮烬尘墟",
+				"한정 이벤트: 잿빛 폐허",
 				{
 					""
 				},
@@ -9794,7 +9794,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：湮烬尘墟",
+				"한정 이벤트: 잿빛 폐허",
 				{
 					""
 				},
@@ -10207,7 +10207,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：湮烬尘墟",
+				"한정 이벤트: 잿빛 폐허",
 				{
 					""
 				},
@@ -10879,7 +10879,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：湮烬尘墟",
+				"한정 이벤트: 잿빛 폐허",
 				{
 					""
 				},

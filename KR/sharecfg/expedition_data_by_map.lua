@@ -13886,7 +13886,7 @@ pg.expedition_data_by_map = {
 	},
 	[1710001] = {
 		map = 1710001,
-		name = "湮烬尘墟·上篇|| ||CHAPTER EX||E.X.",
+		name = "잿빛 폐허·상편|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -13930,7 +13930,7 @@ pg.expedition_data_by_map = {
 	},
 	[1710002] = {
 		map = 1710002,
-		name = "湮烬尘墟·下篇|| ||CHAPTER EX||E.X.",
+		name = "잿빛 폐허·하편|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -13974,7 +13974,7 @@ pg.expedition_data_by_map = {
 	},
 	[1710011] = {
 		map = 1710011,
-		name = "湮烬尘墟·上篇|| ||CHAPTER EX||E.X.",
+		name = "잿빛 폐허·상편|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -14018,7 +14018,7 @@ pg.expedition_data_by_map = {
 	},
 	[1710012] = {
 		map = 1710012,
-		name = "湮烬尘墟·下篇|| ||CHAPTER EX||E.X.",
+		name = "잿빛 폐허·하편|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -14062,7 +14062,7 @@ pg.expedition_data_by_map = {
 	},
 	[1710025] = {
 		map = 1710025,
-		name = "湮烬尘墟·SP|| ||CHAPTER EX||E.X.",
+		name = "잿빛 폐허·SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -14106,7 +14106,7 @@ pg.expedition_data_by_map = {
 	},
 	[1710026] = {
 		map = 1710026,
-		name = "湮烬尘墟·EX|| ||CHAPTER EX||E.X.",
+		name = "잿빛 폐허·EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",

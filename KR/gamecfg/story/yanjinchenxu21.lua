@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "一段时间后————",
+			say = "시간이 조금 흐른 후────",
 			bgm = "theme-vichy-church",
 			flashin = {
 				delay = 1,
@@ -35,7 +35,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怨仇女士，我来换茶壶，还有刚做好的三明治，请用。",
+			say = "임플래커블 님, 주전자를 바꿔 오겠습니다. 그리고 지금 막 만든 샌드위치에요. 부디 드셔주세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "非常感谢~不过泡茶这种事真的我自己来就好啦！",
+			say = "정말 고마워. 하지만 차 정도 일은 내가 해도 되는데!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "这是皇家女仆分内的工作，请容我拒绝。",
+			say = "로열 메이드로서 당연히 해야 하는 일입니다. 정중히 거절드리겠습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "欸……可我来到这里之后我有了些新灵感，迫不及待地想尝试一下！",
+			say = "휴…… 하지만 여기 오고 나서 새로운 영감이 떠올랐는 걸. 어서 시도해보고 싶어 몸이 간질간질해!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "感觉能泡出来一种口味更加丰富的茶！",
+			say = "훨씬 맛이 풍부한 차를 탈 수 있을 것 같단 말이지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "不，在这件事上没有商量，怨仇女士。",
+			say = "아뇨, 이건 상의할 여지도 없답니다. 임플래커블 님.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "好——————",
+			say = "알았어──────",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "……zZZZ 吃饱了之后英雄想睡觉了，黎塞留大人她们好慢啊……",
+			say = "……zZZZ 배가 부르니까 히어로는 자고 싶어졌어. 리슐리외 님들이 너무 늦네…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "……会不会是遇到危险了，要不我们还是去看一下吧……？",
+			say = "……혹시 위험을 만난 건 아닐까. 우리가 가봐야 하지 않을까…...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "放心，大主教可用不着我们来担心，她应该是顺路去做点什么事了吧。",
+			say = "걱정 마. 대주교는 감히 우리 걱정이 필요 없으니까. 아마 오면서 무언가를 하는 모양이겠지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "大家好好休息，不着急。",
+			say = "다들 조급해 말고 푹 쉬어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉让大家久等了，希望我来得不算晚。",
+			say = "다들 기다리게 해서 미안해. 내가 너무 안 늦었다면 좋겠군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "来的路上还顺利么，没受伤吧？",
+			say = "오는 길은 순조로우셨나요? 어디 다친 곳은요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多谢关心，路上很顺利。",
+			say = "고마워. 아주 순조로웠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "只是在摆脱了战争舰队的追击后，我和贝亚恩顺便去了几个也许会是出口的位置调查了一下。",
+			say = "전쟁의 함대의 추격을 벗어난 다음, 겸사겸사 베아른과 함께 혹은 출구가 있을지도 모르는 위치를 조사했을 뿐이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "结果很可惜，并没有找到。",
+			say = "다만 결과는 아주 안타깝게도, 찾지 못했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们这边情况如何？",
+			say = "다들 상황은 어때?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "如你所见，对这道封锁前进路线的光之壁束手无策，正在喝茶休息呢。",
+			say = "보신 대로, 여기 길을 봉쇄한 빛의 벽 때문에 아무것도 못하고 차를 마시고 있었답니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "这个难道是…………完成版的「极光之壁」？！",
+			say = "이건 설마…… 「오로라의 벽」의 완성판?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是你们启动的么？！",
+			say = "그대들이 가동한 건가요?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然不是，我们来的时候这里就已经是现在这幅样子了。",
+			say = "물론 아니지요. 저희가 왔을 때 이미 이 지경이었는걸요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这么说来，这道光之壁果然是你们的极光之壁啊……",
+			say = "그렇단 건, 이 빛의 벽이 역시 당신들의 오로라의 벽이었던 겁니까…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不会错，这明显是之前维希教廷在莫桑比克圣堂应用过的极光之壁的完成版。",
+			say = "잘못 봤을 리가 없어. 이건 일전 비시아 성좌가 모잠비크 성당에서 응용한 적 있던 오로라의 벽의 완성판이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "居然修建在这里……难道维希教廷计划用极光之壁修建机甲骑士的牢笼么……？",
+			say = "그걸 이곳에 만들 줄이야……. 설마 비시아 성좌는 오로라의 벽을 사용히 기갑 기사들의 감옥을 짓고자 했던 건가……?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这说不通啊……既然是维希教廷的最新技术，那下层的这座设施肯定是两年内修建的，而上层的棋子生产设施已经运行了超过两年了。",
+			say = "말이 되지 않아요……. 비시아 성좌의 최신 기술이라면, 하층의 이 시설은 분명 이 년 내에 지었단 겁니다. 그런데 상층의 장기말 생산 시설은 이미 이 년 넘게 가동되었다고요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "假设维希教廷想要管控危机的话，为什么跳过上层直接处理下层呢？",
+			say = "비시아 성좌가 위기를 통제하고 싶었다면 왜 상층을 건너뛰고 바로 하층을 처리하지 않았을까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "况且从实战情况来看，极光之壁的强度连四骑士都无法打破。",
+			say = "거기다 실전 상황으로 보면, 이 오로라의 벽의 강도는 네 기사마저도 파괴할 수 없어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "既然如此，如果在四个区域都修建这样的极光之壁，然后一启动……问题不就解决了么？为什么只修了一处？",
+			say = "그렇다면, 이 네 구역 모두 이런 오로라의 벽을 만들어서 가동하면…… 모든 문제가 해결되는 거 아닌가요? 왜 한 곳에만 지었을까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "也许…………这个事故最初并不是维希教廷想要发生的，而是驻守在这里的人……疏于维护导致的。",
+			say = "혹은…… 이 사고는 최초의 비시아 성좌가 원했던 것이 아니고, 이곳에 주둔한 이들은… 보수에 소홀해 일어난 것일지도.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "教廷司令部在发现此处的局势失控之后，也许尝试过重新控制局面，但是发现能力不足，所以干脆放弃了。",
+			say = "성좌 사령부는 이곳의 형세가 통세를 잃자, 혹은 새로이 이 국면을 바로잡고자 했을지도 몰라. 그러나 능력이 부족함을 발견하고 아예 포기한 거지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——或者说，他们既然在这里设置了陷阱，那海域中唯一一处如此明显的极光之壁肯定也是陷阱的一部分。",
+			say = "──혹은,  그들이 이곳에 함정을 만들었듯, 이 해역에서 유일하게 이토록 눈에 띄는 오로라의 벽 역시 함정의 일부일 거란 거죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "实际上我先前从空中派去的侦察机在下降到一定高度后都失联了。",
+			say = "실제로 먼저 하늘에 보낸 정찰기가 하강할 때마다 일정 고도에서 모두 연락이 끊겼으니까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "如果我们试图从空中硬闯的话，肯定也是相同的下场。",
+			say = "만약 하늘에서 억지로 돌파하려 들면 같은 꼴이 나겠죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "大主教，你知道怎么解除极光之壁么？",
+			say = "대주교, 어떻게 오로라의 벽을 해제하는지 아십니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "只有找到控制台或能源供应装置才能解除极光之壁。",
+			say = "콘솔 혹은 에너지 공급 장치를 찾아내야만 해제할 수 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "但只是通过的话……利用一下这个镜面海域的特性，强调一下“开门”的概念或许可行？",
+			say = "하지만 통과하는 것뿐이라면…… 이 거울 해역의 특성을 이용해서, '문을 연다'는 개념을 강조하면 가능할지도?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这个思路我之前已经尝试过了，可惜完全没效果哦。",
+			say = "그 방법은 이미 시도해봤지만 아쉽게도 전혀 효과는 없었습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "除非你想用那个试试……",
+			say = "혹은 그걸 시도해보고 싶으실지도 모르겠군요…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -733,7 +733,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "「……第七印被揭开时，天上寂静了约有半小时……」",
+			say = "「……일곱번째 봉인이 열렸을 때, 하늘은 반 시진간 고요했다……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -751,7 +751,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "「……我看见……」",
+			say = "「……나는 보았다……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不能用这个！！！！！！！！！！",
+			say = "그건 안돼!!!!!!!!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,7 +798,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "哇啊！！！大主教你突然喊这么大声干嘛啊！",
+			say = "우왁!!! 대주교, 갑자기 목소리가 너무 커요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -820,7 +820,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我在阻止你做傻事！",
+			say = "멍청한 짓을 벌이는 걸 막는 거야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -849,7 +849,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "还记得你之前念第二印的时候发生的事么！",
+			say = "두 번째 봉인을 읊었을 때 벌어진 일을 기억하곤 있는 거야?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -867,7 +867,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那除了这个之外……我一下子也想不到其他的了嘛……",
+			say = "이거 말곤…… 저도 당장 생각나는 게 아무것도 없어서…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -884,7 +884,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……也许，只是你的信仰不够虔诚，所以之前才没效果？",
+			say = "……혹은, 그대의 신앙이 부족해서 효과가 없는 걸지도?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -902,7 +902,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "是是是~您是大主教我说不过您。反正您要是不信尽管尝试！",
+			say = "예예예~ 대주교님 앞에서 제가 무슨 말을 하겠습니까. 못 믿으시겠으면 얼마든지 해보시지요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -917,7 +917,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "怨仇后退半步，做出了“您请”的姿势。",
+			say = "임플래커블은 반 걸음 물러서서 '해보십시오'란 자세를 취해 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,25 +928,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "黎塞留面向光墙的方向双手合十，吟诵出了与先前怨仇口中相同的祷词。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "「……慈爱的主，您了解我的行为，通晓我的力量……」",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "리슐리외는 빛의 벽을 향해 두 손을 모아 합장한 다음, 아까 임플래커블이 읊었던 것과 똑같은 기도문을 읊었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -960,7 +942,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……我遵守您的道，未抛绝您的名……」",
+			say = "「……자애로운 주여, 당신은 제 행위를 이해하시며 제 힘을 알고 계십니다……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -978,7 +960,25 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "「……因此，请在我的面前，为我敞开一座无人能关的门吧……」",
+			say = "「……저는 당신의 길을 지키며 당신의 이름을 버리지 않았나니……」",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "「……하여, 부디 제 앞에 그 누구도 닫을 수 없는 문을 열어주소서……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -993,7 +993,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "随即，一道敞开的门在极光之壁上出现了————",
+			say = "이어, 열려 있는 문이 오로라의 벽 위로 나타났다────",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

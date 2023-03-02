@@ -30,35 +30,35 @@ return {
 			},
 			sequence = {
 				{
-					"<size=34>「第一印被揭开时，我看到一匹白马」</size>",
+					"「첫 봉인이 열렸을 때, 나는 새하얀 말을 보았다.」",
 					1
 				},
 				{
-					"<size=34>「马上的骑士拿着弓，并有冠冕赐给他。他出来征服，胜了又要胜」</size>",
+					"「말 위의 기사는 활을 들고 그에게 면류관을 내렸다. 그는 정복을 위해 나섰고, 승리하고 또 승리했노라.」",
 					2
 				},
 				{
-					"<size=34>「第二印被揭开时，我看到一匹红马」</size>",
+					"「두 번째 봉인이 열렸을 때, 나는 붉은 말을 보았다.」",
 					3
 				},
 				{
-					"<size=34>「有权柄给了那骑士，可以从地上夺去太平，使人彼此相杀。又有一把大刀赐给他」</size>",
+					"「권세를 기사에게 내렸으니, 지상에서 평화를 앗아가 서로가 서로를 죽이게 할 수 있었다. 그에게 대검을 내렸다.」",
 					4
 				},
 				{
-					"<size=34>「第三印被揭开时，我看到一匹黑马」</size>",
+					"「세 번째 봉인이 열렸을 때, 나는 검은 말을 보았다.」",
 					5
 				},
 				{
-					"<size=34>「马上的骑士拿着天平 ，似乎在说着，一钱银币买一升麦子，一钱银币买三升大麦」</size>",
+					"「말 위의 기사는 천칭을 들고, 마치 무언가를 말하는 듯 했다. 은화 하나에 밀 한 되인 것을, 은화 하나로 밀 세 되를 사겠노라고.」",
 					6
 				},
 				{
-					"<size=34>「第四印被揭开时，我看到一匹苍绿色马」</size>",
+					"「네번째 봉인이 열렸을 때, 난 청록색 말을 보았다.」",
 					7
 				},
 				{
-					"<size=34>「马上的骑士名字叫作死，阴府也随着他……」</size>",
+					"「말 위의 기사의 이름은 죽음으로, 저승이 그와 함께 하였느니…...」",
 					8
 				}
 			},
@@ -88,11 +88,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这是…………？",
+			say = "이건……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,11 +100,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我究竟在哪里……发生了什么事？",
+			say = "내가 지금 어디 있는 거지……. 무슨 일이 일어난 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,11 +112,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "리슐리외",
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不要急，冷静下来，深呼吸。",
+			say = "진정해, 냉정해져. 숨을 깊이 들이마시도록.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,11 +124,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唔，感觉好难受……就像被装在木桶里从山上滚下来一样……",
+			say = "윽, 괴롭습니다……. 꼭 나무통에 처박혀 산에서 굴러떨어진 기분이에요…….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,34 +136,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我记得我们在审判庭堡垒中完成了净化程序，接着天空就……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_firedust_6",
-			hidePaintObj = true,
-			say = "此刻，赤色的洋面倒映着昏沉的天空。抬头望去，宛若日蚀一般的黑色太阳高挂在天空。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			actorName = "怨仇",
-			bgName = "bg_firedust_6",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "我们都被卷到那个黑洞内部了么……",
+			say = "내 기억에 심판정 보루에서 정화 프로그램을 완료하고 하늘에서…….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +151,30 @@ return {
 			side = 2,
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
-			say = "怨仇茫然地环顾着四周。凯尔盖朗岛已经消失了，取而代之的是一直延伸到天际线的恢弘建筑群。",
+			say = "그 때, 붉은 해수면 위로 어두침침한 하늘이 비쳤다. 고개를 들자 검은 태양이 마치 일식처럼 하늘 높이 걸려 있었다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 1,
+			actorName = "임플래커블",
+			bgName = "bg_firedust_6",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "검은 구멍 속으로 빨려들어온 걸까요…….",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_firedust_6",
+			hidePaintObj = true,
+			say = "임플래커블은 망연히 주위를 둘러보았다. 케르겔렌 섬은 이미 사라졌다. 대신 보이는 것은 지평선까지 멀리 뻗은 광대한 건축물들의 군집이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "原来如此，这就是圣堂的“下层”，您口中那个“与我们当前任务无关”的地方……",
+			say = "이게 성당의 '하층'이었군요.  '현재 임무와 무관'하다고 말씀하신 바로 그곳….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黎塞留，我需要一个答案。",
+			say = "리슐리외, 답을 요구합니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你判断得不错，这里是圣堂的下层，也是圣堂的表象之下隐藏着的真面目。",
+			say = "……그대의 판단이 맞아. 여긴 성당의 하층이자 성당의 상징 아래 감춰진 진면목이지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这么简单就完了？",
+			say = "쉽게 말씀해주시는군요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "维希教廷可做不出来这些东西，甚至曾经的鸢尾教国也不行。",
+			say = "비시아 성좌는 이런 걸 만들 수 없지. 심지어 과거의 아이리스 교국마저도 불가능해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这里是货真价实的镜面海域，没错吧？",
+			say = "명실상부한 거울 해역이로군요. 맞지요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "…………不错。",
+			say = "……그래.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "鸢尾圣堂下方隐藏的秘密居然是塞壬镜面海域……解释一下，大主教。",
+			say = "아이리스 성당 밑에 감춰진 비밀이 무려 세이렌의 거울 해역일 줄이야……. 설명이 필요합니다, 대주교.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很简单，这里本就是我们夺取的塞壬要塞的一部分，自从圣堂建立之初就已经存在于此。",
+			say = "아주 쉬워. 여긴 본래 우리가 뺴앗은 세이렌 요새의 일부고, 성당이 지어진 초창기에 이미 이곳에 존재했다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "也就是说，你们除了夺取了塞壬修建在岛上的设施之外还……夺取了一处镜面海域的控制权？！",
+			say = "그렇단 건, 빼앗은 건 세이렌이 섬에 지은 시설뿐만이 아니라…… 일부 거울 해역의 지배권을 손에 넣었던 겁니까?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不错。",
+			say = "그래.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我之前就觉得有点奇怪……既然是与塞壬战斗，怎么会一点没提到镜面海域的事。",
+			say = "어쩐지 조금 이상하다곤 생각했습어요……. 세이렌과 전투하면서 왜 거울 해역의 이야기는 조금도 나오지 않았는지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "果然是刻意隐瞒了这个部分！",
+			say = "역시 그 부분을 감추고 있었군요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "……所以我们为什么会来到这里？",
+			say = "……그래서 우리는 왜 여기에 오게 된 건가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "该不会是因为我们知道的太多了，所以你要把我们弄到这里灭口吧……？",
+			say = "우리가 너무 많은 걸 알아버려서, 여기로 데려와 영원히 입을 막아버리려는 건 아니겠죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么可能。我们一直控制这里是有正当理由的，我本来想等到合适的机会再向你解释的……",
+			say = "그럴 리가. 우리가 줄곧 여길 지배해온 건 정당한 이유가 있어. 원래 적당한 기회를 잡아 설명하려 했는데…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我希望这个“合适的机会”能够尽快来临。",
+			say = "그 '적합한 기회'가 최대한 빨리 왔으면 좋겠군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "先着眼于眼前。既然不是你故意送我们来的，那我们为什么会来这里？",
+			say = "당장 이 상황을 보세요. 당신이 고의로 우릴 데리고 온 게 아니라면, 우리가 왜 여기 있는 겁니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "净化程序不是已经成功执行了么？",
+			say = "정화 프로그램은 이미 성공한 게 아니었나요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "……我不知道，至少在我过去的记忆里，净化程序确实应该与这里无关的。",
+			say = "……난 몰라. 최소 내 과거의 기억 속, 정화 프로그램은 확실히 여기와 관련된 게 없었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "出于安全考虑，下层区与上层区应该是被完全隔离开的。未经许可进入下层可比执行上层净化程序困难多了。",
+			say = "안전을 위해서 하층 구역과 상층 구역은 완전히 격리되어 있을 터. 허가 없이 하층에 들어가는 건 상층 정화 프로그램보다 더욱 어려워.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "除非…………",
+			say = "하지만 만약…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除非，维希教廷对这里进行了改造！",
+			say = "만약, 비시아 성좌가 이곳을 개조했다면 얘기가 다르겠죠!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "她们知道在撤离之后一定会有人来接管这里，然后一定会触发圣堂上层的危机。",
+			say = "그녀들은 철수 후 반드시 누군가 이곳을 새로이 관할할 것임을 알았죠. 그리고 반드시 성당 상층의 위기를 촉발시킬 것도요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "如果来的是皇家或者白鹰舰队的话……光是上层的危机就足够消灭掉“访客”了。",
+			say = "만약 황실이나 이글 유니온 함대가 온다면…… 상층의 위기만으로도 충분히 '방문객'을 없애버릴 수 있을 것이었죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果是自由鸢尾的“专业人士”来启动净化流程的话，也会因为“意外”而被送到下层来！",
+			say = "만약 아이리스 리브레의 '전문가'가 정화 시스템을 가동한다 해도, '우연'으로 하층에 보내질 수 있었으니까!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这是一个设置精密的陷阱啊，大主教。",
+			say = "아주 정교한 함정이로군요, 대주교.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,7 +702,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………不好，我们在这里呆得太久了。",
+			say = "……큰일이야. 여기에 너무 오래 있었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -719,7 +719,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？是我想的那样么？果然会有危险出现么？",
+			say = "……응? 제 예측대로 역시 위험이 발생한 겁니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -737,7 +737,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "从下层的情况来看……这里恐怕已经彻底失控了。",
+			say = "하층의 상황을 보니…… 여긴 이미 철저히 통제를 잃었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么我们接下来的处境应该会变得相当危险……",
+			say = "그럼 이제 우리도 꽤 위험해졌겠군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -773,7 +773,7 @@ return {
 			actor = 201360,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇——！！！怨仇大人、怨仇大人不好了！！",
+			say = "우왁──!!! 임플래커블 님, 임플래커블 님, 큰일이야!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			actor = 201360,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有个超级巨大的机甲骑士朝我们冲过来了！",
+			say = "엄청나게 큰 기갑 기사가 우릴 향해 달려오고 있어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -830,7 +830,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "超级巨大的……机甲骑士？",
+			say = "엄청나게 큰…… 기갑 기사?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -845,7 +845,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "英雄的紧急呼叫暂时打断了黎塞留与怨仇针对现状的分析，二人将视线拉向远方。",
+			say = "리슐리외와 임플래커블의 상황 분석은 히어로의 긴급한 외침으로 끊겼고, 두 사람은 시선을 먼곳으로 돌렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "远方，侦察归来的英雄正在水面上疾驰，而一个如同山丘般的机甲骑士正紧跟在她身后不远处。",
+			say = "저 멀리, 정찰에서 돌아온 히어로가 수면 위를 질주하고 있다. 그리고 마치 언덕만큼 커다란 갑옷의 기사가 멀지 않은 곳에서 그녀를 뒤쫓고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -867,7 +867,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "骑士身披黑色盔甲，手提天平坐在同样身披黑色盔甲的机甲战马上，浑身散发着不详的气息。",
+			say = "기사는 검은 갑옷을 입었고, 손에는 천칭을 들고 역시 검은 갑옷을 두른 기갑 전마 위에서 불길한 기운을 내뿜고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -881,7 +881,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "…………「审判型机甲武装—饥荒」。",
+			say = "…………「심판형 기갑 무장─기근」.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -898,7 +898,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然与我记忆中已经大有不同，但是这个感觉不会错……就是那个东西。",
+			say = "내 기억 속과 이미 많이 달라졌지만, 이 느낌은 틀릴 리 없어……. 바로 그거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -915,7 +915,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "皇家海军，准备战斗——！",
+			say = "로열 네이비, 전투를 준비하라──!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -933,7 +933,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不行，凭借我们现在的舰队不一定是它的对手，不能硬碰硬！",
+			say = "안돼, 지금 우리의 함대로는 상대가 되지 않아, 억지로 충돌해서는 안돼!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -950,7 +950,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝亚恩、去看看附近还有没有正常运作的稳定锚，我们必须立刻撤退！",
+			say = "베아른, 부근에 정상 가동되는 안정의 닻이 있나 확인해, 반드시 바로 철수해야 해!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -968,7 +968,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "好的，请给我一点时间！",
+			say = "알겠습니다, 시간을 조금 주세요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,7 +996,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "什么，撤退……？不过是个有点大的塞壬量产型而已吧？",
+			say = "뭐, 철수…...? 고작 조금 덩치 큰 세이렌의 양산기일 뿐이잖습니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1014,7 +1014,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "那台机甲可不是什么有点大的塞壬量产型！",
+			say = "저건 덩치만 큰 양산기가 아니야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1031,7 +1031,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等到了安全的地方，它们的真面目还有我们控制这里的原因，我会和盘托出。",
+			say = "안전한 곳으로 간 다음 저들의 진면목과 우리가 이곳을 통제한 이유를 전부 털어놓지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1049,7 +1049,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "现在请一定要相信我！",
+			say = "지금은 날 믿어줘!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1067,7 +1067,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "好吧……这里本来也是你的地盘，就听你的，带路吧！",
+			say = "좋습니다……. 여긴 본디 당신의 소관이었죠. 당신 말을 듣겠습니다. 안내하세요!",
 			painting = {
 				alpha = 0.3,
 				time = 1

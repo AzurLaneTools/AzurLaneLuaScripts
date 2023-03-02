@@ -12,7 +12,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "——嘭！",
+			say = "──펑!",
 			bgm = "theme-vichy-church",
 			flashin = {
 				delay = 1,
@@ -71,7 +71,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "控制中心的门像是豆腐一样被英雄劈成了两段——",
+			say = "컨트롤 센터의 문이 두부처럼 히어로에 의해 반으로 갈라졌다──",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "有人在家吗~☆",
+			say = "누구 있니~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "哎呀，不管是敌人还是自己人，好像都不在这里的样子哦~",
+			say = "이런이런, 적도 아군도 여기엔 없는 모양이네~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "彻底搜索一下控制中心，看看有什么线索。",
+			say = "컨트롤 센터를 철저히 수색하도록.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "怨仇女士，我这边有所发现。",
+			say = "임플래커블 님, 제가 발견한 게 있어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "英雄这里也有重大发现哦！",
+			say = "나도 엄청난 걸 발견했어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "先别急，首先来听听我这个。",
+			say = "우선 조급해하지 말고 이걸 들어보지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,10 +222,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "통신기",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "「凯尔盖朗圣堂分队呼叫安塔迪卡洋舰队司令部」",
+			say = "「케르겔렌 성당 분대에서 안테디카 함대 사령부를 호출한다」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,10 +233,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "통신기",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "「我们遭遇到海量来源不明的敌人进攻」",
+			say = "「정체 불명의 적들이 끝없이 공격하고 있다」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,10 +244,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "통신기",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "「情况危急，请求立刻派遣支援」",
+			say = "「긴급 상황, 긴급 지원을 바란다」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,10 +255,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "통신기",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "「重复，凯尔盖朗圣堂分队呼叫——」",
+			say = "「반복한다.  케르겔렌 성당 분대는 응답하라──」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "这是……通讯器播放的求援信号？",
+			say = "이건…… 통신기가 구조 요청을 재생하고 있잖아요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没错，就是从我们所在的控制室发出的，而且现在依然在循环播放。",
+			say = "그래, 바로 우리가 지금 있는 통제실에서 보내고 있는 거야. 심지어 여전히 반복 재생 중이지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "什么？可是这个求救信号我们在登岛之前完全没收到。",
+			say = "뭐라고요? 하지만 이 구조 요청, 상륙 전에는 듣지도 못했잖아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "是啊，那巡逻队是怎么收到的呢？",
+			say = "그래, 그럼 그 순찰대는 어떻게 받았던 걸까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "非常抱歉，怨仇女士，我无法进行判断。",
+			say = "매우 죄송합니다, 임플래커블 님. 감히 판단할 수 없군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "事情越来越有趣了。来说说你们的发现吧~",
+			say = "일이 점점 흥미로워지네. 발견한 것들을 말해줘~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "英雄小姐你先说吧。",
+			say = "히어로 씨부터 말씀하시죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "那我就不客气了！",
+			say = "그럼 사양 않지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，你们看，工作台上的紧急停止杆似乎有受损的痕迹，恐怕是有人在情急之下用力拉动操纵杆造成的。",
+			say = "후후, 다들 봐봐. 워크 스테이션의 긴급 정지바에 훼손된 흔적이 있어. 누가 황급히 힘으로 이 바를 조종하려다 생긴 거겠지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "这里的设施都非常老旧，唯独这处擦痕是崭新的，所以拉下操纵杆的，极大概率就是我们的人。",
+			say = "이곳의 설비는 매우 낙후되어 있어. 오직 이 마찰흔만이 새로운 거야. 그러니 이걸 당긴 건 아주 큰 확률로 우리 쪽 사람이란 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "那也就是说，在事件发生的时候，控制室里是有人的！而且还在尝试解决问题！",
+			say = "그렇다면 사건이 일어났을 때 통제실엔 사람이 있었단 거잖아! 거기다 문제를 해결하려고도 했어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "也就是说！紧急情况是从圣堂内部出现的！这不是外部攻击！",
+			say = "그렇다는 건! 외부에서 공격받았던 게 아냐, 긴급 상황은 성당 내부에서 발생했단 거지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "观察得好仔细……！",
+			say = "섬세한 관찰력이군요……!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "哼哼哼~那斯库拉那边呢，有找到比英雄更厉害的线索么~☆",
+			say = "후후후~ 그럼 스킬라는? 나보다 더 대단한 단서를 찾았을까~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "是不是更厉害我倒不好说……不过我找到了百眼巨人留下来的日志记录。",
+			say = "대단한 건 잘 모르겠고…… 다만 아거스가 남긴 일지 기록을 찾아냈습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "里面详细记录了昨日18时例行联络后到发出救援通讯前这里发生的事，还附上了一张岛屿的地图。",
+			say = "어제 오후 6시에 관례인 통신을 마친 후 구조 요청을 보내기 전까지 여기서 발생했던 일에 대해 상세히 기록되어 있습니다. 거기에 섬의 지도까지 딸려 있어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "怨仇女士，请过目。",
+			say = "임플래커블 님, 봐주십시오.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "什么……！",
+			say = "뭐라고……!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "辛苦了，斯库拉，我看看哦。",
+			say = "수고했어, 스킬라. 어디 보자.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "传感器的异常数据……损坏的摄像头……",
+			say = "센서의 이상 데이터…… 파괴된 카메라……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "年久失修的设备……老式的系统……过长的自检时间……",
+			say = "오랫동안 보수되지 않은 설비…… 구식 시스템…… 지나치게 긴 자체 검사 시간……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -713,7 +713,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "……启用危机管控模式进行排查？",
+			say = "……위기 관리 모드를 가동해서 차근차근 조사하려 했다?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,7 +731,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "没想到百眼巨人小姐会做出这样充满奇思妙想的操作。",
+			say = "아거스 님께서 그런 기발한 생각을 하실 줄은 몰랐군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "再之后就是系统出现问题，控制中心收到了在圣堂内部的皇家橡树大人发出的据称正在与敌人交战的模糊通讯。",
+			say = "그 후에 시스템에 문제가 발생한 거야. 컨트롤 센터는 성당 내부에서 로열 오크 님이 현재 적과 교전 중이라는 모호한 통신을 받게  되었고요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -767,7 +767,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "百眼巨人在发出了求救通讯后，选择前往名为圣堂Blanc的建筑群内与皇家橡树大人汇合。",
+			say = "그리고 아거스는 구조 요청을 보냈죠. 블랑 성당 구역에서 로열 오크님과 합류하길 선택했고요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,7 +785,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "记录到这里就结束了。",
+			say = "기록은 여기서 끝입니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "圣堂Blanc……白色圣堂？",
+			say = "블랑 성당…… 흰색 성당?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -820,7 +820,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "还真是简单易懂的命名，其他几个区域不会分别叫圣堂Rouge、圣堂Vert和圣堂Noir吧……",
+			say = "직관적인 이름이군. 다른 구역들도 설마 루즈, 베르트, 누아르 이런 식으로 지은 건 아니겠지……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -838,7 +838,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "行吧…………图上还真是这么标的。",
+			say = "이런…… 지도에 정말 그렇게 표시되어 있군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -856,7 +856,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "刚才在绕岛航行的时候，英雄看到一片主体色为白色的建筑群了哦！",
+			say = "아까 섬을 돌아볼 때, 나 새하얀 건축물들을 봤었어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -884,7 +884,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "就在距离我们这里不远的地方！",
+			say = "우리가 있는 여기서 멀지 않은 곳에!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -902,7 +902,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "看来那里就是接下来的调查目标了呢。",
+			say = "거기가 우리의 조사 목표겠군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -919,7 +919,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "战斗首先是从那里开始的，也许她们现在还被困在里面。",
+			say = "처음 전투는 그곳에서 시작됐던 거야. 아직 거기 갇혀 있는지도 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -937,7 +937,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "走陆地还是水面？",
+			say = "육로, 아니면 수로로?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -955,7 +955,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "水面。",
+			say = "수로.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -973,7 +973,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不知为何，来到这里之后，岛屿上的鸢尾圣堂建筑群总给我一种不好的感觉。",
+			say = "어째서일까, 여기 온 후부터 섬의 아이리스 성당 건축물들이 내게 좋지 못한 기분을 안겨주네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -991,7 +991,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这里本应是人迹罕至的世界边缘，可是居然存在这么一座规模夸张的要塞群。",
+			say = "여긴 본디 사람이 거의 없을 세계의 가장자리야. 하지만 왜 이렇게까지 과장스러운 요새군이 존재하는 걸까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1009,7 +1009,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "单纯以设计而言，它甚至超越了我们在直布罗特的要塞。",
+			say = "단순히 디자인이라고 하기엔, 우리의 지브롤터 요새보다도 크잖아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1027,7 +1027,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "维希教廷，或者说鸢尾教国之前究竟在这里做过什么……",
+			say = "비시아 성좌, 혹은 아이리스 교국, 대체 여기서 무슨 짓을 저질렀던 거지…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1045,7 +1045,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "还好圣堂的危机管控模式没有正常运作，不然我们来的时候可就是惊喜连连了。",
+			say = "다행히 성당의 위기 관리 모드가 정상적으로 가동되지 않은 모양이에요. 안 그랬으면 우리 도착했을 때 아주 난리도 아니었을 걸요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1063,7 +1063,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "是啊，淑女大小姐的突发奇想也不容小觑呢……",
+			say = "그러게, 정말이지 기발한 생각이었어…….",
 			painting = {
 				alpha = 0.3,
 				time = 1

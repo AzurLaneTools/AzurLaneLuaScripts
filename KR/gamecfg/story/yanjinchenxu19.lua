@@ -24,11 +24,11 @@ return {
 			},
 			sequence = {
 				{
-					"接管第[//]日，□■:□■://",
+					"관할 후 [//]일 째, □■:□■://",
 					1
 				},
 				{
-					"？？？·？？？//",
+					"??? - ??? //",
 					2
 				},
 				{
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "分散行动后，百眼巨人与皇家橡树正在追踪着饥荒骑士的踪迹。",
+			say = "흩어져 움직인 후, 아거스와 로열 오크는 기근의 기사의 종적을 뒤쫓고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……这里也没有发现目标，又排除了一片区域。",
+			say = "음…… 여기서도 목표를 발견하진 못했어요. 구역 하나를 또 배제해야겠군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "……嗯？这些是……被破坏不久的残骸？",
+			say = "……응? 이건…… 부서진 지 얼마 안 된 잔해?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "顺着线索的方向继续侦察的话，也许很快就能找到了……",
+			say = "단서의 방향을 쫓아 정찰하다 보면 금방 찾아낼 수 있을지도 모르겠어…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "能搜索这么大片的区域……航空母舰果然很厉害啊。",
+			say = "이렇게 넓은 구역을 수색할 수 있다니…... 항공모함은 역시 정말 대단해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "我用眼睛看不了那么远，根本帮不上你的忙……",
+			say = "내 눈으로는 그리 멀리 볼 수도 없고, 도움이라곤 전혀 되지도 못하고….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "就像我也没法同您一样应付近身的敌人一样，我们各自有各自的优势哦，皇家橡树大人。",
+			say = "제가 로열 오크 님처럼 가까운 적을 대처하지 못하는 것처럼, 각자에겐 각자의 장점이 있는 법이에요. 로열 오크 님.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "不过，我这里有望远镜，你要用么？",
+			say = "다만, 여기 망원경이 있는데 써보시겠어요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "……望远镜？",
+			say = "……망원경?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“威斯克公司海军假日限量纪念品型望远镜，仅含透镜与机械结构，中等放大倍率，作为收藏来说是上上之选。”",
+			say = "'웨스커 회사 해군 홀리데이 한정 기념품 망원경, 렌즈와 기계 구조만으로도 배율을 중급으로 확대시켜 수집품으로써는 최적의 선택입니다.'",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "包装上的宣传是这么写的。",
+			say = "포장에는 그렇게 쓰여 있네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "你怎么会带着这个……？",
+			say = "왜 이런 걸 가지고 있는 거지……?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原本是买给竞技神的礼物，作为之前她送我帽子的回礼。",
+			say = "일전에 아레나의 신이 모자를 선물해줘서 답례로 주려던 거였어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "不过现在驻扎在安塔迪卡，一时半会也见不到她，我们就先拆开用了吧~",
+			say = "다만 지금 안테디카에 주둔 중이라 당장은 만나지도 못하니, 우선 뜯어서 우리가 써볼까요~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "既然如此，那我就借用一下了……",
+			say = "그렇다면, 우선 좀 빌리겠어…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "不过就算用了望远镜，也还是没法看得和你一样远。",
+			say = "다만 망원경을 쓴다 해도 너처럼 먼 곳을 볼 수는 없겠지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "但终究比之前看得要远了，不是么？",
+			say = "하지만 그래도 더 멀리 볼 수 있겠죠. 안 그런가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "没错！",
+			say = "그래!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,11 +362,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "통신기",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "띡────",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "这里是贝亚恩，皇家舰队的诸位，能听到么？",
+			say = "여기는 베아른, 로열 함대 여러분, 들리십니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			actor = 807010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我跟黎赛留大人已经发现了战争骑士的位置。",
+			say = "저와 리슐리외 님은 이미 전쟁의 기사의 위치를 발견했습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			actor = 807010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因其身边存在大量舰队，侦察上花了点时间。不过已经确认其处于正常运作的状态了。",
+			say = "곁에는 대량의 함대가 있어 정찰에 시간이 조금 걸렸습니다. 하지만 이곳이 정상적으로 활동되고 있음은 확인했어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "我们正在对其护卫队的详细情况进行进一步侦察，贝亚恩通讯结束。",
+			say = "저희는 저 호위대에 대해 더 상세히 정찰해보려 합니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝亚恩已经有进展了，我也得加油才行……",
+			say = "베아른 쪽은 이미 진전이 있군요. 나도 힘내지 않으면….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "啊……那个是！皇家橡树大人，我也发现目标了！",
+			say = "아…… 저건! 로열 오크 님, 저도 목표를 발견했습니다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "饥荒骑士目前正在与战争骑士的量产型舰队进行交战，而且……它身上似乎有伤痕！",
+			say = "기근의 기사가 현재 전쟁의 기사의 양산형 함대와 교전 중이에요. 거기다…… 몸에 상흔이 있는 것 같습니다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "饥荒骑士已经受伤了？四骑士之间真的在相互战斗啊……",
+			say = "기근의 기사가 이미 부상을 입었다고? 네 기사들 사이에서 정말 전투가 벌어지고 있었군…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "呼呼呼……按照顺序，下一个应该被消灭的本来也是饥荒骑士，就这么看它被战争骑士消灭也不错欸……",
+			say = "후후후……. 순서대로라면 다음에 소멸시켜야 하는 것 역시 기근의 기사지. 이대로 전쟁의 기사에게 소멸되도록 두는 것도 좋겠는걸…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也是这么认为的，我们现在就把情况汇报给怨仇女士吧。",
+			say = "저도 그렇게 생각합니다. 이제 상황을 임플래커블 님께 전하도록 할까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我是怨仇，诸位，能听到么？",
+			say = "여기는 임플래커블, 모두 들립니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们在侦察支配骑士所控制的区域时，有了一些非常不得了的发现。",
+			say = "지배의 기사의 구역을 정찰하던 도중 굉장히 심각한 발견이 있었습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先说结论，支配骑士应该是完好无损的，但是它这里的情况实在有些……奇特。",
+			say = "우선 결론부터 말하죠. 지배의 기사는 아마 무사할 겁니다. 다만 이곳의 상황이 조금…… 특이해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我们正在支配骑士控制区的外围待机，各位在侦察完毕后请来我这里汇合。",
+			say = "현재 지배의 기사의 구역 외곽에서 대기 중입니다. 모두 정찰을 끝내시면 이쪽으로 와 합류해 주십시오.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "没问题，怨仇女士。",
+			say = "알겠습니다. 임플래커블님.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们这边也成功确认到了饥荒骑士的位置，其目前正在与战争骑士的军队交战，而且已经受了伤。",
+			say = "저희 쪽 역시 성공적으로 기근의 기사의 위치를 확인했습니다. 현재 전쟁의 기사의 군대와 교전 중이며, 이미 부상당했습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "我们这就去与您汇合。",
+			say = "바로 합류하러 가겠습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "我这边目前还没有摆脱战争舰队的纠缠，要稍微晚一点才能与你们汇合。",
+			say = "내 쪽은 아직 전쟁 함대에게 쫓기고 있어서 합류가 좀 늦어지겠군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "遇到麻烦了？",
+			say = "곤란하신 건가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算不上。战争骑士并没有移动，追来的只是些量产型舰队，不碍事。",
+			say = "아니. 전쟁의 기사는 이동하지 않았어. 양산형 함대 몇  대 뿐이니 별 문제 없을 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -753,7 +753,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "了解，那我就在原地等候各位到来了。",
+			say = "알겠습니다. 그럼 이곳에서 기다리겠습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1

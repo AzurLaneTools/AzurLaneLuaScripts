@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "圣堂Blanc——或者说对应上层区中圣堂Blanc的概念而存在于镜面海域的宏伟建筑群外。",
+			say = "블랑 성당──혹은 상층 구역 블랑 성당의 개념에 상응하여 존재하는 거울 해역의 광활한 건축물 군집 밖.",
 			bgm = "theme-vichy-church",
 			flashin = {
 				delay = 1,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "这里并没有敌人。雄伟的大门向外敞开，那通向其核心区域的道路似乎畅行无阻。",
+			say = "이곳에 적은 없다. 웅장한 문이 밖을 향해 열리고, 핵심 구역의 길은 막힘 없이 뚫려 있는 듯하다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "不过怨仇与英雄却怎么也无法向内前进一步。",
+			say = "그러나 임플래커블과 히어로는 아무리 애를 써도 안에 단 한 걸음도 내딛을 수 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,11 +79,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唔…………我敲——！",
+			say = "윽……이얍──!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
-			say = "英雄的拳头落在了前方的光之壁上，细小的涟漪在橙色的光幕中荡漾开来，却也仅此而已了。",
+			say = "히어로의 주먹이 전방의 빛나는 벽을 내리쳤다. 미세한 파문이 주홍색 광막 속에서 파도쳤으나 그뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,11 +107,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怨仇大人，这东西好奇怪！我试试炮击可以么！",
+			say = "임플래커블님, 이거 이상해요! 포격해도 될까요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,11 +119,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "稍微离远一点哦。",
+			say = "조금 떨어져서 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
-			say = "轰——————————！",
+			say = "쾅───────────!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -182,11 +182,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "居、居然把英雄的炮弹弹开了！",
+			say = "헉, 히어로의 포탄을 튕겨버렸어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,11 +199,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "明明连后面的景色都能隐约看到，这就是一道光而已，怎么会这么坚固啊！",
+			say = "분명 뒤의 경치가 은은히 다 보일 정도의 빛인데, 어떻게 저렇게 튼튼한 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,11 +211,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这下麻烦了……虽然和以前见过的塞壬海域封锁装置不太一样，不过恐怕原理类似。",
+			say = "이거 곤란하게 됐군……. 전에 봤던 세이렌의 해역 봉쇄 장치와는 별로 닮지도 않았어. 하지만 원리 자체는 유사하겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,11 +223,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不破坏掉其供能装置的话，我们恐怕很难继续前进了……",
+			say = "제공 장치를 파괴하지 않으면 전진하기 힘들겠어…….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,11 +235,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……嗯？你这是在做什么？",
+			say = "……응? 뭘 하는 거죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
-			say = "本来已经放弃的英雄，突然又开始伸手在光墙上比划起来。",
+			say = "이미 포기했던 히어로는 갑자기 손을 뻗어 빛의 벽 위로 무언가를 그리기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,11 +258,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嚯嚯嚯，英雄突然想到了一个绝好的主意！",
+			say = "헤헤헷, 갑자기 엄청 좋은 생각이 났어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,11 +275,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "之前你不是提到了“概念”在这片海域里的重要性么！",
+			say = "전에 '개념'이 이 해역에서 가지는 중요성에 대해 말했었지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,11 +287,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然我没完全听懂，但是我只要想办法在墙上做出“开门”的概念，说不定门就会开了吧！",
+			say = "완전히 알아들은 건 아니지만, 내가 이 벽에다 '문을 연다'는 개념을 해내면 문이 열릴지도 모른다는 거잖아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,11 +299,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这还……真说不定意外是个好主意？！",
+			say = "그거……정말 좋은 아이디어 같은데?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,11 +311,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼，英雄刚刚在做的事就是——在墙上画了一个代表钥匙的符号！",
+			say = "후후후, 방금 내가 하고 있던 건──벽 위에다 열쇠를 뜻하는 기호를 그리던 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,11 +323,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "接下来，就是见证奇迹的时刻——",
+			say = "이제, 기적의 산 증거를 볼 때야──",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,11 +335,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "芝麻开门！",
+			say = "열려라 참깨!",
 			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
-			say = "面对英雄的咒语，前方的光之壁没有出现任何变化。",
+			say = "히어로의 주문에도 전방의 빛의 벽은 아무런 변화도 일어나지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,11 +359,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……哈啊？怎、怎么会这样！",
+			say = "……하아? 왜, 왜 이러는 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,11 +376,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也许思考的方向是对的，但是吟唱的内容不对？",
+			say = "생각의 방향은 옳았으나 읊은 내용이 틀렸다거나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,58 +388,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我也有个想法，来试一下好了——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_firedust_8",
-			hidePaintObj = true,
-			say = "怨仇正了正神色，双手合十，开始轻声吟唱起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "怨仇",
-			bgName = "bg_firedust_8",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "「……慈爱的主，您了解我的行为，通晓我的力量……」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "怨仇",
-			bgName = "bg_firedust_8",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "「……我遵守您的道，未抛绝您的名……」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "怨仇",
-			bgName = "bg_firedust_8",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "「……因此，请在我的面前，为我敞开一座无人能关的门吧……」",
+			say = "나한테도 좋은 생각이 있으니 어디 해볼까──",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +403,54 @@ return {
 			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
-			say = "面对怨仇的吟唱，前方的光之墙壁依然没有出现任何变化。",
+			say = "임플래커블은 표정을 엄숙히 하더니 두 손을 합장하며 낮은 목소리로 읊기 시작했다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "임플래커블",
+			bgName = "bg_firedust_8",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "「……자애로운 주여, 당신은 제 행위를 이해하시며 제 힘을 알고 계십니다……」",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "임플래커블",
+			bgName = "bg_firedust_8",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "「……저는 당신의 길을 지키며 당신의 이름을 버리지 않았나니……」",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "임플래커블",
+			bgName = "bg_firedust_8",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "「……하여, 부디 제 앞에 그 누구도 닫을 수 없는 문을 열어주소서……」",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_firedust_8",
+			hidePaintObj = true,
+			say = "임플래커블이 읊고 나서도 빛의 벽은 여전히 아무런 변화도 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,11 +458,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "………………你这个咒语好像也不对呢。",
+			say = "……그 주문도 아닌가 본데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,11 +470,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唔…………该不会要念第七印的那一段……",
+			say = "음…… 설마 일곱번째 봉인의 구절을 읊어야 했나…….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,11 +482,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "怨仇",
+			actorName = "임플래커블",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可是……那一段可不是拿到“钥匙”之后就能结束的，怎么办呢……",
+			say = "하지만…… 그 구절은 '열쇠'를 손에 넣은 후 바로 끝낼 수 있는 게 아닌데, 어쩌지…….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怨仇女士，我们来了，两位是在……做什么呢？",
+			say = "임플래커블 님, 저희 왔습니다. 두 분…… 뭘 하고 계신 거죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "如各位所见，进去的路被挡住了，我们没法穿过这道光之壁，正在愁眉苦脸呢。",
+			say = "지금 보는 대로, 들어가는 문이 막혀서 빛의 벽을 뚫지 못해 한창 고민 중이었지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "不论是炮击还是咒语都没效果哦！英雄已经完全束手无策了！",
+			say = "포격도 주문도 아무 소용 없었어! 히어로는 이제 완전히 속수무책이야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "……咒、咒语？",
+			say = "……주, 주문?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "咳……不用在意。",
+			say = "크흠…… 신경쓰실 필요 없습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总而言之，现在正在寻找能够穿过这道光之壁进入建筑的方法，可惜还没有什么进展。",
+			say = "아무튼, 이 빛의 벽을 뚫고 건물에 들어갈 방법을 찾고 있었지만 안타깝게도 진전은 없었습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怨仇女士，我有一个想法……既然光之壁很坚固，那连接它们的墙壁呢？",
+			say = "임플래커블 님, 제게 생각이 있어요……. 빛의 벽이 그리 견고하다면, 연결되어 있는 다른 벽들은요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "这些墙体看上去并不是坚不可摧的，炸一个洞进去如何？",
+			say = "이 벽들은 그리 견고해 보이지 않아요. 구멍을 터뜨려 들어가는 건 어떨까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我虽然没试，但恐怕没用，大家来看这里——",
+			say = "해보진 않았지만 효용은 없을 것 같은데, 여길 봐요──",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,7 +666,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "怨仇带众人退出正门，来到了圣堂外侧的一处墙体边。",
+			say = "임플래커블은 모두를 데리고 정문을 나가서 성당 바깥의 벽 앞으로 갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "在众人面前，一道高达数十米的狰狞裂痕几乎将墙体劈裂，但朝裂缝里望去，却又能看到隐约的光芒。",
+			say = "모두의 앞에 거의 십 미터 정도 되는 흉악한 균열이 드러났다. 균열은 거의 벽을 가르고 있었지만, 정작 균열 속으로 빛이 은은히 엿보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "这道光墙根本就是无缝的——即便击穿了坚固的建筑，创造的缝隙也会被光墙重新回填。",
+			say = "이 벽은 아예 틈이란 게 존재하지 않았다──견고한 건축물을 파괴할 수 있다 해도, 창조된 균열 역시 빛에 의해 다시 막히고 말았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "这是……其他骑士留下的？",
+			say = "이건…… 다른 기사가 남긴 걸까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "嗯，和从死亡骑士的机体上发现的伤口类似。",
+			say = "응, 죽음의 기사의 기체에서 발견된 상처와 흡사해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,7 +738,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "看来其他骑士尝试过来进攻支配的控制区，不过因为无法打穿光之壁所以放弃了。",
+			say = "보아하니 다른 기사가 공격과 지배를 시도했던 통제 구역인가. 하지만 빛의 구역을 뚫지 못해 포기했군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -756,7 +756,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "这也太犯规了……那些巨大机甲都打不穿我肯定也……对、对了！",
+			say = "이건 지나친 룰 위반이야……. 저 거대한 기갑들조차 뚫지 못하는 거라면 난……그, 그렇지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -783,7 +783,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "用飞机从顶部进行轰炸也试过了哦。",
+			say = "비행기로 날면서 위에서 폭발시키는 것도 시도해봤답니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "虽然顶部看上去并没有被光墙覆盖，不过飞机飞得过低就会因不明原因直接失去控制，炸弹落下去也不会爆炸。",
+			say = "꼭대기 부분은 빛의 벽에 감싸이지 않은 것처럼 보이지만, 비행기가 지나치게 낮게 날면 불명의 원인으로 통제를 잃고 폭탄을 떨어뜨려도 터지지 않아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我已经损失了好几架舰载机了。",
+			say = "벌써 함재기를 몇 대나 잃었답니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "看来不管是谁封锁的这里，明显都不想让外面的人进去。",
+			say = "보아하니 누가 여길 봉쇄했건, 외부인이 못 들어가게 할 목적인 건 분명해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -855,7 +855,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "那接下来我们该怎么办，要去寻找供能装置么……？",
+			say = "그럼 이제 어쩌면 좋죠. 제공 장치를 찾으러 가야 할까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -873,7 +873,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "理论上应该是要这样……不过这片海域复杂又危险，搜索起来不知道要找到什么时候。",
+			say = "이론상으론 그래야 하겠지만…… 이 해역은 복잡하고 또 위험해서 수색한다 쳐도 언제까지 찾아야 할지 몰라요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -891,7 +891,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "而且还存在供能装置其实在建筑内部的可能性。",
+			say = "게다가 제공 장치가 사실 이 건축물 안에 있을 가능성도 존재하지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -909,7 +909,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "在内部的话，岂不是谁都进不去了……？",
+			say = "내부에 있다면, 아무도 못 들어간단 얘기 아닌가……?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "只是可能性而已。",
+			say = "가능성일 뿐이에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -944,7 +944,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然这里是维希教廷的设施，那我多少有了个猜想……不过还不能确定。",
+			say = "이곳이 비시아 성좌의 시설이라면 어느 정도 추측은 됩니다만…… 아직 확신할 순 없어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -962,7 +962,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不如我们先吃点茶点，补充一下体力，等大主教她们来了之后再说吧。",
+			say = "우선 디저트라도 먹으면서 체력을 보충할까요. 대주교들이 도착한 후 다시 얘기합시다.",
 			painting = {
 				alpha = 0.3,
 				time = 1

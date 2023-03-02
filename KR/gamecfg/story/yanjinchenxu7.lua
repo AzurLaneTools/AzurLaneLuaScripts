@@ -15,7 +15,7 @@ return {
 			bgm = "theme-vichy-church",
 			actor = 201360,
 			stopbgm = true,
-			say = "呵……呵…………",
+			say = "헉…… 헉……",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些没脑子的棋子一齐压上来的时候，还挺有压迫感……",
+			say = "장기말 놈들이 단번에 밀려오니 압박감이 상당하네…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过区区杂鱼，还为难不了英雄呢！",
+			say = "그치만 저깟 조무래기들 따위, 별 것도 아니지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但敌人也一点没有减少的痕迹，要是这么僵持下去，就算砍到两臂酸痛也解决不了问题。",
+			say = "적들이 줄어들 기미가 안 보이네요. 이러다간 두 팔이 빠져라 휘둘러대도 해결하지 못해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你说得对，在这种狭窄的空间中与敌人缠斗对我们不利。",
+			say = "그 말이 옳아. 이렇게 협소한 공간에서 전투를 벌이는 건 우리에게 불리해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "必须转移到能尽情释放火力的地方……",
+			say = "반드시 제대로 힘을 쓸 수 있는 곳으로 옮겨야 해…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怨仇女士，我记着这里的地图，如果将火力集中到墙壁的话，应该能从建筑中开出一条通往海面的路。",
+			say = "임플래커블 님, 지도를 기억하고 있습니다. 여기 벽에 화력을 집중하면 바다로 향하는 길을 열 수 있을 거예요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过首先要离开这里到海平面以上才行，否则我们就要被水淹没了。",
+			say = "다만 우선 여길 떠나 해수면으로 올라가야 해요. 그렇지 않으면 우리가 물에 잠겨버리겠죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果变成那样还真让人笑不出来。",
+			say = "그럼 웃음거리도 못 되겠군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "英雄，向另一个方向冲！",
+			say = "히어로, 다른 방향으로 진격한다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们先原路返回，然后炸墙开路，去开阔地带解决这些敌人！",
+			say = "우선 원래 길로 돌아가서 벽들을 부수고 놈들을 상대하는 거야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "圣堂Blanc·4号军械库",
+			say = "블랑 성당·4호 무기고",
 			effects = {
 				{
 					active = false,
@@ -259,7 +259,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "杂鱼~杂鱼~全都消失吧~☆",
+			say = "조~무~래~기~들~ 전부 사라져버려라~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "轰——————————！",
+			say = "콰광──────────!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -326,7 +326,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "路通了，没发现英雄这么有爆破天赋啊。",
+			say = "길이 뚫렸군. 히어로에게 폭발의 재능이 있는 줄은 몰랐는데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "英雄的优点还有很多哦~☆",
+			say = "내 장점은 이거 말고도 아주 많지롱~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "斯库拉你看，我们这么一闹，皇家橡树大人那里的压力也会减轻不少吧~",
+			say = "스킬라, 우리가 일으킨 소란 덕에 로열 오크 님 쪽은 압력이 꽤 덜해졌겠지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "应该会这样。但是这里还请先顾好您自己，怨仇女士。",
+			say = "그럴 거예요. 다만 우선 자신부터 신경쓰셔야죠, 임플래커블 님.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "更多的敌人正在包围过来，请您继续前进，由我来殿后。",
+			say = "적들이 더 몰려오고 있어요. 가세요. 제가 뒤를 따르겠습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是是是~",
+			say = "그래 그래~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			stopbgm = true,
 			bgName = "bg_firedust_2",
 			nameColor = "#A9F548FF",
-			say = "圣堂Blanc·外围",
+			say = "블랑 성당·외곽",
 			bgmDelay = 1,
 			bgm = "theme-richelieu",
 			typewriter = {
@@ -465,7 +465,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_2",
-			say = "轰——————————！",
+			say = "콰광──────────!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -518,7 +518,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们到开阔地了哦~☆",
+			say = "드디어 밖이다~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好，在这里总算能尽情施展火力了。",
+			say = "훌륭해, 이제야 제대로 힘을 쓸 수 있겠군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "绝不容忍，绝不留情，让这些没脑子的棋子见识一下我们的厉害！",
+			say = "용납도, 자비도 없다. 저 놈들에게 우리의 실력을 보여줘라!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_2",
-			say = "轰——————————！",
+			say = "콰광──────────!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -619,7 +619,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“绝不容忍，绝不留情”，说得好啊。",
+			say = "'용납도, 자비도 없다'라, 훌륭하군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黎塞留大主教？！",
+			say = "리슐리외 대주교?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#A9F548FF",
-			say = "好久不见啊，怨仇女士。",
+			say = "오랜만이야, 임플래커블.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			bgName = "bg_firedust_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你在这里做什么？！",
+			say = "당신이 여기에 왜 있지?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			actor = 206020,
 			nameColor = "#A9F548FF",
-			say = "那个……怨仇女士，黎塞留大人是收到我们的救援信号之后特地前来支援我们的。",
+			say = "그게…… 임플래커블 씨, 리슐리외 님은 저희의 구조 신호를 듣고 지원하러 와주셨어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			dir = 1,
 			actor = 206020,
 			nameColor = "#A9F548FF",
-			say = "多亏她带领舰队及时出现，我和皇家橡树大人才得以脱离险境。",
+			say = "함대를 끌고 제때 와주신 덕에 저와 로열 오크 님 모두 무사히 나올 수 있었죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			actor = 205140,
 			nameColor = "#A9F548FF",
-			say = "非、非常抱歉，我没能及时处理掉危机……明明我应该做得更好的……",
+			say = "저, 정말 미안해. 내가 제때 위기를 처리하지 못한 탓에…… 더 잘할 수 있었는데…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -746,7 +746,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系没关系，见到你们人没事我也就放心了。",
+			say = "괜찮습니다. 모두 무사한 걸 보니 안심이 됩니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -763,7 +763,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳……黎塞留主教……",
+			say = "흠…… 리슐리외 주교…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#A9F548FF",
-			say = "怨仇女士，危机尚未解除，其他的事等到之后再说。",
+			say = "임플래커블, 위기는 아직 해결되지 않았어. 적을 처리한 후에 다시 이야기 하지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -799,7 +799,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#A9F548FF",
-			say = "首先让我们一同教训一下这些敢于在我鸢尾教国圣堂内搅扰的不速之客吧！",
+			say = "감히 아이리스 교국 성당 안을 어지럽히는 불청객 놈들, 죽어라!",
 			painting = {
 				alpha = 0.3,
 				time = 1

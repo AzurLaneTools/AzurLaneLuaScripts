@@ -44,7 +44,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真正的我，此时此刻应该驻守在浮岛要塞群中才对。",
+			say = "……진정한 나는, 바로 지금 부유섬 요새에 있어야 하는데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是说……现在的我在做梦，这里是梦中的景象。",
+			say = "그렇단 건…… 지금 난 꿈을 꾸고 있고, 이건 꿈속의 모습이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "无人回应乌尔里希·冯·胡滕的自言自语，只有黑色的太阳在无声地燃烧着。",
+			say = "아무도 울리히 폰 후텐의 혼잣말에 대답해주지 않았고, 오직 검은 태양만이 소리 없이 불타오를 뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "黑色的太阳……是某种宗教的象征么？",
+			say = "검은 태양이라…… 어떤 종교의 상징인가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么会出现在我的梦里……",
+			say = "왜 내 꿈에 나타난 거지…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "腓特烈？！",
+			say = "프리드리히?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你在说什么……？我完全理解不了。",
+			say = "무슨 말을 하는 거야…...? 전혀 이해가 가질 않아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 499020,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			say = "█▎■小▋▂▁▅▎▌心▇▊▇",
+			say = "█▎■조심▋▂▁▅▎▌해▇▊▇",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小心？你想让我小心什么？",
+			say = "조심? 내가 뭘 조심해야 해?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			actor = 499020,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			say = "█▆▎来█▎█",
+			say = "█▆▎가█▎█",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			actor = 499020,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			say = "█▎█▎找▅█▎█▎▌我▅▎▌█",
+			say = "█▎█▎날▅█▎█▎▌찾아▅▎▌█",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么……你刚刚说什么？！",
+			say = "뭐…... 방금 뭐라고 한 거야?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等，你把话说清楚再走！",
+			say = "기다려, 말 똑바로 하고 가란 말야!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -24,11 +24,11 @@ return {
 			},
 			sequence = {
 				{
-					"接管第[//]日，□■:□■://",
+					"관할 후 [//]일 째, □■:□■://",
 					1
 				},
 				{
-					"？？？·？？？//",
+					"??? - ??? //",
 					2
 				},
 				{
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "一段时间后，众人来到一座散发着柔和光芒的建筑中。",
+			say = "얼마 뒤, 모두 부드러운 빛을 내뿜는 건축물에 도착했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "太好了……虽然路上见到了不少坏掉的……不过这里的稳定锚还在正常工作，来到这里的话就可以暂时放心了。",
+			say = "정말 다행입니다……. 비록 오는 길에 망가진 것을 여럿 보긴 했지만……그래도 여긴 정상 가동 중이군요. 여기서 잠시 숨 돌릴 수 있겠어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "这里看上去也没什么特殊的，要怎么才能挡住刚才的机甲骑士啊？",
+			say = "여기 딱히 특별해보이는 건 없는데, 어떻게 방금의 기사를 막아내려고요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "难道这里有什么秘密武器？",
+			say = "설마 여기 비밀 무기라도 있나?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有，这里就是一处普通的建筑物。",
+			say = "없어. 평범한 건축물이지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不过在稳定锚的“庇护”下，那个机甲是不会靠近这里的。",
+			say = "그러나 안정의 닻의 '비호'가 있으니 그 기갑은 여기에 접근하지 않을 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从刚才开始你就一直提到的“稳定锚”究竟是什么？“庇护”又是指什么？",
+			say = "아까부터 쭉 말하던 '안정의 닻'은 대체 뭡니까? '비호'는 또 뭐고요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“庇护”，就如同圣堂上层的“净化”一样，是一种我们为了控制圣堂而利用的概念。",
+			say = "'비호'는 성당 상층의 '정화'처럼 우리가 성당을 통제하고 이용하기 위한 개념이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "承载“庇护”这个概念的装置就是稳定锚，一种深埋在安全区建筑下方的教国机械设备。",
+			say = "'비호'의 개념을 갖춘 장치가 바로 안정의 닻이지. 안전 구역 건물 밑에 깊이 묻은 교국의 기계 설비다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "因为教国基本取得了上层的控制权，所以我们可以利用“净化”的概念消除末日四骑士的概念影响。",
+			say = "교국은 기본적으로 상층의 통제권을 손에 넣었기 때문에, 우린 '정화'의 개념으로 종말의 네 기사의 개념의 영향을 소거할 수 있었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而到了下层，如各位所见，我们只能做到利用“庇护”的概念暂时驱散这种影响，在稳定锚周边获得一小片安全区。",
+			say = "그리고 하층으로 오면, 모두 봤듯이 우린 '비호'의 개념을 써야만 이런 영향을 내쫓을 수 있고, 안정의 닻 주변의 작은 안전 구역을 가질 수 있는 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不过放心，稳定锚的功效是经过检验的。只要不闹出大动静，四台机甲骑士是不会主动过来的。",
+			say = "하지만 안심해. 안정의 닻의 기능과 효과는 검증을 거쳤으니. 지나치게 큰 소란만 일으키지 않으면 네 기갑 기사 모두 스스로 여기로 오진 않을 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "虽然不是很明白，不过我至少弄懂了一件事——这里的设施确实是你们修建的。",
+			say = "잘 이해가 가는 건 아니지만, 하나는 알겠군요──이곳의 시설은 확실히 당신들이 지었다는 걸요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我想我还欠你一个解释。",
+			say = "……설명이 하나 부족한 것 같군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "嗯哼，“和盘托出”哦~",
+			say = "흐음, '전부' 털어놔주세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好吧……目前我们所处的区域为圣堂的下层区，如你所见，这里为了对应四骑士的概念，也划分出了四片大的区域。",
+			say = "좋아……. 현재 우리가 있는 곳은 성당의 하층 구역이야. 그대가 봤듯이 이곳은 네 기사의 개념에 상응하여 구역이 크게 넷으로 갈라져 있지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "在区域与区域之间，还安放了大量稳定锚作为区域间的屏障，就像我们现在所处的地方一样。",
+			say = "구역과 구역 간에는 대량의 안정의 닻을 구역 간의 장벽으로 두고 있어. 마치 우리가 지금 있는 곳처럼.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那个夸张的机甲骑士……在海域里一共有四个？",
+			say = "그 과장스러운 기갑 기사가…… 해역에 넷이나 있다고요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对的，分别对应四骑士概念中的支配、战争、饥荒与死亡。",
+			say = "그래, 네 기사에 상응하는 개념은 각각 지배, 전쟁, 기근, 죽음이지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这是你们制造的？还是回收的塞壬科技？",
+			say = "당신들이 만든 건가요? 아니면 회수한 세이렌의 과학 기술로?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,78 +390,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "都不是。四骑士一开始并不存在……下层区也不是这个样子的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "这里就要提到下层区的来源了……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 805010,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "在夺回这之后，彼时的教廷发现海域中的某些塞壬设备无法被控制，但又舍不得销毁这些来之不易的战利品。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "所以他们选择将所有无法利用的塞壬设施都堆积到下层的镜面海域中搁置，将精力集中起来建设可控的上层区。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "毕竟那里才是立即能够使用的，能够创造出价值的部分。",
+			say = "모두 아니야. 네 기사는 처음에는 존재하지 않았어……. 하층 구역도 이런 모습이 아니었지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,25 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "只不过随着上层棋子生产工厂的运作，下层这些设施不知为何也开始了不受控的生产。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "等我们发现驻守在下层的科研团队失联之后，四骑士已经诞生了。",
+			say = "하층 구역의 유래를 이야기해줘야겠네…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,43 +425,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们只是稍微费了些功夫就重新夺回了这里——当时的四骑士还并不强大。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "不过很快我们发现事情没有这么简单……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "只要上层设施继续生产，下层就会不断地重新诞生新的四骑士。",
+			say = "이곳을 되찾은 후, 당시 성좌는 해역에서 발견한 일부 세이렌의 설비를 통제하지 못했지만 어렵게 획득한 전리품을 아까워해서 파괴하지 못했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,24 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "然后我们就发现了棋子的污染问题，而且似乎上层遭受污染的棋子越多，下层的四骑士机甲在重生后就会变得越强。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 805010,
-			side = 2,
-			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "最开始教廷以为是找到了利用四骑士的概念驱动这些设备的方法。",
+			say = "그래서 이용할 수 없는 세이렌의 시선을 모두 하층 구역의 거울 해역에 두기로 하곤, 모든 힘을 통제 가능한 상층 구역에 집중했지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +461,149 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "但回过头来才发现，其实是这些设备在利用教廷完善它们自己。",
+			say = "그곳은 바로 사용할 수 있었고, 가치 있는 일부를 창조할 수 있었으니까.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "다만 상층의 장기말 공장의 가동에 따라, 어째서인지 하층의 이 시설들까지 함께 통제되지 않는 생산을 시작했어.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "우리가 하층 구역에 주둔하는 과학 기술팀의 연락이 끊긴 걸 발견했을 땐, 네 기사는 이미 탄생했지.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 805010,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "우린 약간의 힘만으로 이곳을 되찾을 수 있었어──당시의 네 기사는 강하지 않았지.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "하지만 우린 금세 일이 그렇게 간단하지 않단 걸 깨달았지.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "상층 시설이 계속 생산하는 한, 하층은 끝없이 새로운 네 기사를 탄생시킬 거라고.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "그리고 곧 장기말의 오염 문제를 발견했지. 거기다 상층의 오염된 장기말이 많아질수록, 하층의 네 기사는 새로 태어나고 더욱 강해지는 듯했어.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 805010,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "최초, 성좌는 네 기사를 이용할 수 있는 개념을 찾아냈고 이 설비들을 가동할 수 있는 방법을 찾아냈다고 생각했지.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_firedust_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "하지만 이제 와서 생각해보면, 이 설비들은 성좌를 이용해 자신들을 보완하고 있던 거였어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "…………塞壬最开始就是这么想的。",
+			say = "……세이렌 역시 최초에는 그렇게 생각했죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "所以基地也是当初它们故意放给你们的，为什么我一点都不觉得意外……",
+			say = "그래서 놈들은 일부러 당신들에게 기지를 내줬던 거군요. 어째서 조금도 놀랍지 않을까…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那为什么不将下层整个摧毁呢？摧毁镜面海域和其中的所有设备，一劳永逸地解决问题。",
+			say = "그럼 왜 하층을 전부 파괴하지 않았나요? 거울 해역과 그곳의 모든 설비를 파괴하면 깔끔히 해결될 문제인데요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "那是因为……我们没能找到此处镜面海域维持装置的位置。",
+			say = "그건…… 우리가 이 거울 해역을 유지하는 장치의 위치를 찾지 못했기 때문이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "…………什么？",
+			say = "……뭐라고요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们曾经探索了这里的每一处空间，但是都一无所获。",
+			say = "이곳의 모든 공간을 뒤졌지만 찾지 못했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -732,7 +732,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "而在一遍又一遍的死亡与重生中，四骑士却变得越发强大。",
+			say = "그리고 죽음과 탄생을 반복하는 사이 네 기사는 오히려 더욱 강해지기만 했고.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,7 +750,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "如果就这么一直放任不管的话，这个世界上将会诞生出四个塞壬的超级兵器吧……",
+			say = "만약 이대로 둔다면 이 세계에 세이렌의 초특급 병기가 넷이나 탄생할 예정이었지…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -768,7 +768,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "鸢尾教国要为自己的所作所为负责。所以我们决定停止棋子工厂的全部生产，将上层封存。",
+			say = "아이리스 교국은 자신들의 모든 행위에 책임을 지기로 했고, 우린 장기말 공장의 모든 생산을 멈추고 상층을 봉쇄했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,7 +786,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "同时，我们修建了大量稳定锚分割下层空间，以减少四骑士概念的影响。",
+			say = "동시에, 우리는 대량의 안정의 닻을 지어 하층 공간을 분할하여 네 기사의 개념이 끼치는 영향을 감소시켰다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -804,7 +804,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "最终让下层重新回到了我们的控制中。",
+			say = "그렇게 하층을 다시 우리의 통제 밑에 둘 수 있었지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "想法是好的。但是因为维希教廷接手了这里，或是有意或是无意地让上层工厂又重新生产了两年。",
+			say = "방법은 좋았군요. 하지만 비시아 성좌의 손에 들어간 탓에 고의건 아니건 상층의 공장은 다시 이 년간 생산을 시작했습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,7 +840,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "最后下层就变成如今的一团糟了……原来如此原来如此，我终于彻底把情况理清楚了。",
+			say = "결국 하층은 지금의 이 지경이 되어버렸고…… 그랬군, 그랬군요. 드디어 상황이 확실히 이해가 갑니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -858,7 +858,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "事情最终变成这样，我…………很抱歉。",
+			say = "일이 이렇게 되어 버려서, 정말…… 미안하네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -876,7 +876,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没关系啦~最初控制这里不是你做的决定，如今失控也不是由于你下的命令，这件事不是你的责任。",
+			say = "괜찮습니다. 최초의 지배는 당신의 결정도 아니었고, 지금의 이 상황도 당신의 명령 때문이 아니죠. 당신의 책임이 아닙니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -894,7 +894,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "况且你刚才也想到下面会是这幅景象了吧？",
+			say = "거기다 당신조차 이런 상황이 되었을 줄 모르지 않았습니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -911,7 +911,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在贝亚恩无意中透露出“下层”的存在之后，你提到过要调集人手处理问题——是打算独自来消灭这些机甲骑士么？",
+			say = "베아른이 무심코 '하층'의 존재를 드러냈을 때, 휘하를 불러 처리한다고 했을 때──혼자 저 기갑 기사들을 처리할 생각이었습니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -928,7 +928,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只是隐约预感到了。按照维希教廷管理圣堂上层的敷衍了事，下层不出现大问题才是问题。",
+			say = "은연 중에 느꼈을 뿐이야. 비시아 성좌가 성당의 상층에서 건성건성 일을 처리했으니, 하층에 큰 문제가 터지지 않으면 그거야말로 문제가 난 거라고.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "如果凯尔盖朗岛上的局面彻底失控，碧蓝航线在安塔迪卡的战略将会受到重大影响。",
+			say = "케르겔렌 섬의 국면이 철저히 통제를 잃었다면, 벽람항로의 안테디카에서의 전략이 중대한 영향을 입을 수 있지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -964,7 +964,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "维希教廷犯下的错，终究会有一部分被算到鸢尾教国上……",
+			say = "비시아 성좌가 저지른 잘못은, 결국 일부는 아이리스 교국에도 책임이 있어…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -981,7 +981,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因此我绝不可能置身事外，自由鸢尾也绝对不会容忍这种事的发生。",
+			say = "그래서 난 절대 모른 척 할 수 없었다. 아이리스 리브레 역시 이런 일이 일어나는 것을 절대 허락치 못해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -999,7 +999,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "所以你才不想让贝亚恩说太多下层的事啊……",
+			say = "그래서 베아른에게 하층에 대한 얘기를 시키지 않으려 한 건가요…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1017,7 +1017,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "棋子的“回收”与“处理”，是指拉到这里来销毁么？",
+			say = "장기말의 '회수'와 '처리'는 여기로 데려와 파괴하는 거였습니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1035,7 +1035,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "没错……这也是后来才想到的事。",
+			say = "그래……. 그것도 나중에야 생각해낸 방법이었지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1052,7 +1052,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟去外部海域销毁的话痕迹太明显，而且销毁与四骑士概念对应的棋子，似乎也有削弱它们的作用。",
+			say = "외부 해역에서 파괴하면 흔적이 너무 명확히 남아. 그리고 파괴와 네 기사의 개념이 상응하는 장기말에게는 그들을 쇠약하게 만드는 작용도 있는 듯 했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1070,7 +1070,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "请放心，我以鸢尾教国枢机主教黎塞留之名起誓，不论付出怎样的代价，我都会让这里恢复控制的。",
+			say = "안심해. 아이리스 교국 추기경 리슐리외의 이름으로 맹세하지. 어떤 대가를 치뤄서라도 이곳의 통제권을 회복하겠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1088,7 +1088,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "自然，也会想办法让各位平安离开。",
+			say = "당연히 모두 안전하게 떠날 수 있을 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1105,7 +1105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别这么见外嘛，大主教。",
+			say = "서먹하게 굴지 마세요, 대주교.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1123,7 +1123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "自由鸢尾现在如果把精力全部放在这里，会错过很多战略机遇吧？",
+			say = "아이리스 리브레가 이 시점에서 만약 모든 힘을 이곳에 쏟았다면, 전략적 찬스를 여럿 놓쳤겠지요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1141,7 +1141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我们既然都来了，还是帮你把问题解决掉再走好了。",
+			say = "기왕 온 이상, 우리 역시 문제 해결을 돕고 떠날 겁니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1158,7 +1158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "都是盟友，相互帮助是应该的，不用客气~",
+			say = "맹우가 아닙니까. 서로 돕는 건 당연하지요. 사양하지 않으셔도 됩니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1175,7 +1175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然如此，那么算我欠你一个人情。",
+			say = "빚을 지게 됐군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1193,7 +1193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "都说了不用客气啦——嗯，真的么？",
+			say = "사양하지 않으셔도 된다니까요──흠, 정말이신가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1211,7 +1211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "嗯。",
+			say = "응.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1229,7 +1229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "太好了，那我可得想想怎么利用你的这个人情才行~",
+			say = "정말 잘됐군요. 이 빚을 어떻게 이용할지 생각해봐야겠어요~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1247,7 +1247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我先慢慢想着，总之你先带我们回上层吧~",
+			say = "우선 천천히 생각할 테니. 먼저 상층으로 데려다주시겠어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1264,7 +1264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果有那样的机甲骑士有四个的话，我们还是多叫些支援比较好。",
+			say = "저런 기갑 기사가 넷이나 있다니 역시 지원부터 요청하는 게 낫겠어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1281,7 +1281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于这一点的话，有一个小小的问题——离开的方法需要从现在开始找。",
+			say = "그것 말인데, 작은 문제가 하나 있어──떠나는 방법은 지금부터 찾아야 해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1299,7 +1299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "…………啊？",
+			say = "……예?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1316,7 +1316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实我也是第一次亲眼见到下层的风景。",
+			say = "사실 나도 하층의 풍경을 직접 보는 건 처음이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1334,7 +1334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "以前的审判庭在汇报中一直说这里的一切都处于完全控制之下。",
+			say = "예전의 심판정은 줄곧 이곳의 모든 것이 완벽히 통제되고 있다고 했지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1351,7 +1351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么进入下层或者离开下层这样的小事，她们没有在报告里写过。",
+			say = "하층에 들어가거나 혹은 떠나는 방법에 대해서 보고서에 기록한 적은 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1369,7 +1369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "“小事”呢……",
+			say = "'작은 문제'인가요…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1386,7 +1386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈……审判庭是鸢尾教国内最可靠，也是最忠于教国的部门。",
+			say = "하하하…… 심판정은 아이리스 교국에서 가장 믿음직스럽고 가장 충실하니까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1404,7 +1404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "当时的我也没有想到日后会出现这样的情况啊……",
+			say = "그때의 난 이런 상황이 일어날지 몰랐던 터라…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1422,7 +1422,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "对了，我记得稳定锚的全名似乎是……「贝亚恩稳定锚」，没错吧，贝亚恩？",
+			say = "그렇지, 안정의 닻의 완전한 이름은 아마…... 「베아른의 안정의 닻」이었지. 그렇지, 베아른?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1440,7 +1440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "没错，这里的稳定锚是过去的我发明的，下层在建设的时候我也确实有参与过……",
+			say = "예, 이곳의 안정의 닻은 과거 제가 발명한 것이고, 하층이 건설될 때 확실히 참가하기도 했었습니다만…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1458,7 +1458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "但是……很抱歉，诸位，我这里没有各位期待的情报。",
+			say = "하지만…… 정말 죄송합니다, 여러분. 제겐 여러분이 기대하시는 정보가 없습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1475,7 +1475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在发现进入下层后，我第一时间就开始寻找出口的位置。",
+			say = "하층에 들어온 후, 저는 가장 먼저 출구의 위치를 수색했습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1493,7 +1493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "不过这里的布局已经与当初有所不同了……维希教廷肯定对这里进行了改建。",
+			say = "하지만 이곳의 배치가 이미 그 때와 달라져서…… 분명 비시아 성좌가 이곳에 손을 댄 것이겠죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1511,7 +1511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "说的也是…………如果能让我们轻易发现出口的话还叫什么陷阱啊。",
+			say = "그렇겠군……. 만약 우리가 쉽게 출구를 발견할 수 있다면 그게 무슨 함정이겠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1528,7 +1528,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最坏的情况也许根本就没有出口，我们必须找到海域维持装置，将其破坏之后才能出去。",
+			say = "최악의 상황은 혹은 출구가 아예 없을 수 있단 건데, 반드시 해역 유지 장치를 찾아내서 파괴해야만 나갈 수 있겠군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1546,7 +1546,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "可是，我们当年的寻找都失败了……",
+			say = "하지만, 당시 우리의 수색은 모두 실패했어…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1563,7 +1563,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "时过境迁嘛~过了这么多年，我们跟塞壬的战斗经验也丰富了，说不定能注意到当年忽略的细节呢。",
+			say = "예전 일이잖아요. 벌써 시간도 많이 흘렀고, 세이렌과의 전투 경험도 많이 쌓았어요. 그땐 놓쳤던 뭔가를 찾아낼 수 있을지도 몰라요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1581,7 +1581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "再说也没有更好的方案了！",
+			say = "이것보다 더 좋은 방법도 없잖아요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1599,7 +1599,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "总之先侦察一下海域情报，然后发挥聪明才智，走一步看一步好了~",
+			say = "우선 해역 정보를 정찰하고, 생각하면서 한 걸음 한 걸음 나아가자구요~",
 			painting = {
 				alpha = 0.3,
 				time = 1

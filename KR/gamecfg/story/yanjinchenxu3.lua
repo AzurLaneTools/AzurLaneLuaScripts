@@ -15,15 +15,15 @@ return {
 			bgm = "theme-kerguelen",
 			sequence = {
 				{
-					"接管第四日 12:45:00",
+					"점령 4일째 12:45:00",
 					1
 				},
 				{
-					"皇家海军安塔迪卡洋舰队",
+					"황실 해군 안테디카 함대",
 					2
 				},
 				{
-					"凯尔盖朗群岛·周边海域",
+					"케르겔렌 군도 주변 해역",
 					3
 				}
 			},
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "增援舰队呼叫凯尔盖朗接管分队，有没有人听到啊~",
+			say = "증원 함대에서 케르겔렌 주둔 부대를 호출한다. 들리는 사람~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "통신기",
 			bgName = "bg_firedust_2",
 			nameColor = "#A9F548FF",
 			say = "………………",
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "重复一遍，这里是皇家海军英雄号！",
+			say = "반복한다, 여긴 로열 네이비 히어로호다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "现在正在呼叫接管分队，有没有人听到啊！",
+			say = "주둔 함대는 대답하라, 듣고 있는 건가!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通信器",
+			actorName = "통신기",
 			bgName = "bg_firedust_2",
 			nameColor = "#A9F548FF",
 			say = "………………",
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "啧，怎么完全没动静啊！这个机器不会坏掉了吧！",
+			say = "쯧, 기척이 전혀 없잖아! 기계가 망가진 건 아니겠지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "设备都在出发前检查过了，性能完全正常哦。",
+			say = "출발 전에 검사했어요, 성능은 완벽히 정상이에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "或许是因为海域中依然存在通讯干扰，所以无法正常工作吧。",
+			say = "혹은 해역에 여전히 통신을 방해하는 원인이 건재해서 작동이 안 되는 걸 수도.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "这一点在布置任务的时候应该也有提到过……英雄小姐忘掉了么？",
+			say = "임무를 받을 때 이미 얘기 드렸는데…… 히어로 씨는 잊으신 걸까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "切————",
+			say = "쳇────",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "不过……就连之前巡逻舰队提到过的SOS信号也没收到，该不会……",
+			say = "다만, 이전의 순찰 함대에선 SOS 신호를 받은 적이 없다고 했어요. 설마……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不用太过担心，皇家橡树大人可没有这么容易被打倒。",
+			say = "너무 걱정할 필요 없어. 로열 오크 님은 그리 쉽게 지지 않아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "她虽然在日常发言中时常妄自菲薄，但也是经历了血与火的历练，一步步走到现在的皇家骑士。",
+			say = "비록 평소 스스로를 낮추는 발언을 하긴 하지만, 피와 불길 속에 단련해 차근차근 황실 기사의 자리에 오른 분이지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "事发还不到24小时，她们应该还活着。",
+			say = "아직 사건 발생 후 24시간도 지나지 않았어. 살아 있을 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "那怨仇女士，我们是否立刻登岛？",
+			say = "그럼 임플래커블 님, 바로 섬에 올라야 하지 않을까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不急。这个岛屿并不大，我们先环绕一圈，等彻底把握住海域中的情况再说。",
+			say = "조급해할 필요 없지. 이 섬은 크지 않아. 우선 한 바퀴 돌아보고 해역 상황을 파악한 다음 얘기하자.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "遵命。",
+			say = "존명.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_2",
-			say = "一段时间后————",
+			say = "시간이 조금 흐른 후────",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "唔……有些奇怪。",
+			say = "음…… 좀 이상한데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没有发现敌方舰队，岛上也没有发现战斗过的迹象……",
+			say = "적측 함대가 보이지 않아. 섬에는 적과 전투를 벌인 흔적도 없고……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "看来不进入圣堂内部调查一下是查不出问题了。",
+			say = "보아하니 성당 내부를 조사하지 않으면 문제점을 찾아낼 수 없겠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "欸~这座岛虽然不大，但是进入建筑中逐个排查就不知道要花多久时间了。",
+			say = "아아~ 이 섬, 크진 않아도 들어가 차근차근 조사하려면 시간이 얼마나 걸리련지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "英雄提议直接通过摧毁建筑物的方式来进行高效排除~☆",
+			say = "건축물을 박살내는 방식으로 효율 높은 배제법을 실행하는 건 어때~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "斯库拉，你觉得我们从哪里登陆比较好？",
+			say = "스킬라, 어디로 상륙하는 게 좋겠어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "岛屿西南侧的大灯塔。皇家橡树大人之前在报告中提到过，那里是整个圣堂建筑群的控制中心所在。",
+			say = "섬 서남쪽의 큰 등대요. 로열 오크 님의 보고서에서 그곳에 성당 건축물들의 컨트롤 센터가 있다고 했었죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "有点意思。",
+			say = "흥미롭군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "圣堂建筑群的控制中心被放置在岛屿最边缘的灯塔中而不是那些宏伟的建筑里，你怎么看这件事？",
+			say = "성당 컨트롤 센터는 그 웅장한 건축물들이 아닌 섬 가장자리에 있는 등대에 있어.  어떻게 생각해?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "圣堂的内部并不像表面看上去那么平静，或许还会存在危险。",
+			say = "성당 내부가 표면상으로 보이는 것처럼 평화롭진 않을 수도 있어요. 위험이 존재할지도 모릅니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "因此之前的鸢尾教国工程师选择将控制中心设置在远离建筑群并便于逃离的海边。",
+			say = "그래서 아이리스 교국의 엔지니어는 컨트롤 센터를 건축물들과 멀고 도주에 용이한 바닷가에 지은 거죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "合理的猜想。那我们就从西南侧的灯塔附近登陆，看看能不能从控制中心中找到些蛛丝马迹了。",
+			say = "합리적인 추측이야. 그럼 서남쪽의 등대 근처에 상륙하지. 컨트롤 센터에서 뭐라도 단서를 찾을 수 있을지 보자고.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "无、无视？！欸？等等、等一下——！",
+			say = "무, 무시하는 거야?! 에에? 기, 기다려──!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "你们说的是很有道理，但也不能完全无视英雄的发言吧！",
+			say = "일리 있는 추측들이야. 그치만 내 말은 완전히 무시하고 있잖아!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "哼哼，对这种事你其实也不讨厌吧~",
+			say = "후후, 그리 싫지도 않잖아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "不、讨厌，非常讨厌！不要无视我啊！",
+			say = "아냐, 싫어, 엄청 싫어! 무시하지 말라고!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那在接下来的调查中你要多多出力才行哦？",
+			say = "그럼 앞으로의 조사에서 열심히 해달라구.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "那还用说！！开路就交给我英雄大人吧~☆",
+			say = "그야 물론이지, 길 여는 건 나한테 맡기라고~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1

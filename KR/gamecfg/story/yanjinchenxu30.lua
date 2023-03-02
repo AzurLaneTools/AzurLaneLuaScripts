@@ -10,7 +10,7 @@ return {
 			nameColor = "#ffa500",
 			bgName = "bg_burningsea_1",
 			stopbgm = true,
-			say = "？？？·？？？",
+			say = "???·???",
 			bgmDelay = 1,
 			bgm = "battle-whaling-normal",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#ffa500",
 			side = 2,
 			bgName = "bg_burningsea_1",
-			say = "轰——————————！",
+			say = "쾅──────────!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我来帮忙了，情况如何？",
+			say = "도우러 왔습니다. 상황은 어떻죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "迟了一步，只剩下些杂鱼，让“鲸鱼”跑了。",
+			say = "한 발 늦었어. 조무래기들만 남고 '고래'는 도망쳤어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "可惜。有其他收获么？",
+			say = "아쉽군요. 다른 수확은 있습니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "给，这是回收到的情报残留，你看看吧。",
+			say = "여기, 회수한 잔류 정보야. 봐봐.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………果然，“鲸鱼”看似随机的“游动”是存在某种目的性的。",
+			say = "……역시, '고래'는 랜덤의 '유동'에 어떤 목적성이 존재하는 것 같군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "所以我真是完全不明白它们在搞些什么……审判者计划变成这样子还能进行下去么？",
+			say = "그러니까 대체 놈들이 뭘 꾸미는지 감도 안 잡힌다고……. 심판자 계획이 이렇게 되어서야 계속 할 수 있긴 해?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "还是说……这也是审判者计划的一环？",
+			say = "아니면 이 역시 심판자 계획이 일환인 건가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "为什么要问我？",
+			say = "그걸 왜 제게 묻습니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "因为，你有一个漂亮的履历。",
+			say = "그야 너한텐 멋진 경력이 있으니까~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "附近还有一个履历比我更漂亮的人呢，你要实在好奇的话去问问「D小姐」如何？",
+			say = "부근에 저보다 더 멋진 분이 계십니다만. 그렇게 궁금하면 「D 아가씨」께 여쭤보는 건 어떻습니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我自然问过……可是它说除非先抓住“鲸鱼”，否则什么都不会告诉我。",
+			say = "그야 이미 물어봤지……. 하지만 먼저 '고래'를 붙잡지 못하면 아무것도 알려주지 않는다고 했는걸.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "那就继续去抓“鲸鱼”。",
+			say = "그럼 계속 '고래'를 잡으세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			actor = 9701010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我知道了……",
+			say = "알았어────────",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不过不是现在，陛下叫我们回去了。",
+			say = "하지만 지금은 아니에요. 폐하께서 저희를 부르십니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,47 +334,47 @@ return {
 			},
 			sequence = {
 				{
-					"<size=34>「万物皆应有始终」</size>",
+					"「만물에는 시작이 있으면 끝이 있는 법」",
 					1
 				},
 				{
-					"<size=34>「尘应归于尘，土应归于土」</size>",
+					"「먼지는 먼지로, 흙은 흙으로 돌아간다」",
 					2
 				},
 				{
-					"<size=34>「但，我依然还活着」</size>",
+					"「그러나, 나는 여전히 살아있다」",
 					3
 				},
 				{
-					"<size=34>「只有这样，我才能完成那件事」</size>",
+					"「오직 이렇게 해야만 난 그 일을 완성할 수 있으니까」",
 					4
 				},
 				{
-					"<size=34>「那件成功几率渺茫，但必须要被完成的事」</size>",
+					"「성공 확률이 묘연하다 해도, 반드시 끝내야만 하는 일」",
 					5
 				},
 				{
-					"<size=34>「——寻找真相」</size>",
+					"「──진실을 찾는 것」",
 					6
 				},
 				{
-					"<size=34>「为此，我追逐，我狩猎」</size>",
+					"「이를 위해 나는 쫓고, 사냥한다」",
 					7
 				},
 				{
-					"<size=34>「如果你亦志在此处的话」</size>",
+					"「만약 네 뜻이 아직 여기 있다면」",
 					9
 				},
 				{
-					"<size=34>「我可以接受你的效忠」</size>",
+					"「네 충성을 받아줄 수 있어」",
 					10
 				},
 				{
-					"<size=34>「亦或是——」</size>",
+					"「아니면──」",
 					11
 				},
 				{
-					"<size=34>「向本王祈祷吧」</size>",
+					"「날 위해 기도해다오」",
 					12
 				}
 			}

@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "一段时间后——————",
+			say = "시간이 조금 흐른 후──────",
 			bgm = "theme-vichy-revelation",
 			flashin = {
 				delay = 1,
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "怨仇女士，黎塞留大人，这是整合完毕的侦察结果，请过目。",
+			say = "임플래커블 님, 리슐리외 님, 여기 종합 완료한 정찰 결과입니다. 봐주십시오.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "效率挺高嘛~",
+			say = "효율 꽤 높은 걸~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "唔…………海域中确实没有明显的中心地标建筑，敌人的数量也真不少……",
+			say = "흠…… 해역 내에는 확실히 뚜렷한 중심 지표로 보이는 건축물은 없어. 적의 수도 꽤 많군…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？有些奇怪……大主教，四个机甲骑士应该都会控制一套低级量产型协同自己作战吧？",
+			say = "……응? 조금 이상한데……. 대주교, 네 기갑 기사는 하급의 양산형들을 휘하에 두고 함께 전투하는 겁니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "没错，每个机甲都是一支舰队的统帅。",
+			say = "맞아. 매 기갑마다 한 함대를 통솔해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当机甲骑士重生后，海域中的设施会立即为其生产出量产型舰队。",
+			say = "기갑 기사가 재탄생했을 때, 해역의 시설은 즉시 양산형의 함대를 생산했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那就奇怪了……四种颜色的建筑群倒确实都看到了，但是敌人却只见到了红色一种！",
+			say = "그거 이상하군요……. 각각 네 색깔의 건축물들의 군집이라면 확실히 보았습니다만, 적은 적색밖에 보이지 않잖아요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这就有些对不上了吧……？代表支配、饥荒、死亡的另外三种颜色的敌人呢？",
+			say = "이거 얘기가 안 맞지 않나요……? 지배, 기근, 죽음을 대표하는 다른 셋은요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "海域中可以看到大量无法辨识的残骸，也许是四骑士的军队之间发生了战斗，只有战争的军队胜出了？",
+			say = "해역에서는 식별 불가능한 잔해가 대량 발견되지요. 혹은 그들 네 군대 사이에 전투가 발생하여 전쟁을 대표한 군대만이 이겼다던가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "之前你们有见过类似情况的发生么？",
+			say = "유사한 상황을 본 적 있나?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "没有，不过也许只是我们没有创造出与现在相同的环境。",
+			say = "아니요. 하지만 저희가 지금과 같은 환경을 창조해내지 못했던 것뿐일지도요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，塞壬让棋子之间相互战斗以进行某些测试的情况也并不少见。",
+			say = "더욱이, 세이렌이 테스트로 장기말들이 서로 전투하게 만든 건 적잖게 보이던 일이잖습니까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "嗯……这种情况倒确实在其他地方有出现过。",
+			say = "응……. 확실히 다른 곳에서 본 적 있지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "可就算假设这个结论是正确的，还是不太对……",
+			say = "하지만 이 결론이 정확하다 해도, 아직도 이상한 게 있어…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们还记得么，在圣堂上层一直运行的棋子工厂是代表死亡的苍绿色，",
+			say = "기억하십니까? 성당 상층에서 가동되는 장기말 공장은 죽음을 대표하는 청록색이에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "也就是说理论上，最初诞生的应该是代表死亡的机甲骑士，和它的军队——没错吧？",
+			say = "그렇단 건 이론상, 최초에 탄생한 건 죽음을 대표하는 기갑 기사와 그의 군대──맞습니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "可为什么我们在下层见到的不是苍绿色军队，而是代表战争的红色军队呢？",
+			say = "하지만 왜 하층에서 보게 된 건 청록색 군대가 아닌, 죽음을 대표하는 적색 군대죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "哼哼，这个问题英雄能回答！",
+			say = "후후, 그거 히어로가 대답할 수 있어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "既然只有战争的军队留下来了，那当然就表示战争的军队最强啦！",
+			say = "전쟁의 군대만 남았다, 그럼 당연히 전쟁의 군대가 제일 강해서지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "为什么？为什么是战争的军队最强？",
+			say = "어째서? 왜 전쟁의 군대가 가장 강하죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“末日四骑士”概念之中只包含了四骑士出现的顺序，并没有提到强弱之分。",
+			say = "'종말의 네 기사'란 개념에서는 네 기사가 출현하는 순서를 포함한 것이지 강한 순서를 나눈 건 아니에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "既然最先拓展军队的是死亡骑士，那为什么战争骑士会后来居上成为圣堂下层区的实际控制者？",
+			say = "가장 먼저 군대를 개척한 게 죽음의 기사라면, 전쟁의 기사는 왜 나중에 성당 하층 구역의 실제 통치자가 된 거죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "这个……英雄就不知道了。",
+			say = "그건…… 히어로는 모르겠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "难道说在下层，“战争”这个概念得到了格外的加强么……",
+			say = "설마 하층에서는 '전쟁'의 개념이 유독 강해진단 건가…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "和我想的一样。",
+			say = "내 생각은 그렇습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "黎塞留，我接下来要做一个实验。如果我表现出任何异常之处的话，请用任何方法终止我的实验。",
+			say = "리슐리외, 이제 실험을 하나 하려 합니다. 만약 내게 이상이 생기면 즉시 내 실험을 멈춰 주십시오.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "嗯？具体来说你想要做什么？",
+			say = "흠? 구체적으로 뭘 할 생각이지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "验证一个想法，对不对马上就能知道了。",
+			say = "제 생각을 입증해보려 합니다. 맞는지 틀린지는 해보면 알겠지요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 1,
-			say = "怨仇深吸一口气，用微不可查的声音轻声吟唱起来。",
+			say = "임플래커블은 숨을 깊이 들이마시고는, 거의 들리지 않는 목소리로 숨을 죽여 노래하기 시작했다.",
 			bgm = "theme-vichy-slaughter",
 			typewriter = {
 				speed = 0.05,
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "「……第二印被揭开时，我看到一匹红马……」",
+			say = "「……두번째 봉인이 열렸을 때, 나는 붉은 말을 보았다……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 207070,
-			say = "「……有权柄给了那骑士，可以从地上夺去太平……」",
+			say = "「……권세를 기사에게 내렸으니, 지상에서 평화를 앗아가……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "伴随着怨仇的吟唱声，与那些棋子身上的红色雾瘴无异的颜色，开始从怨仇身上弥散开来。",
+			say = "임플래커블의 노래와 함께 장기말들의 몸에서 붉은 장기 같은 색이 임플래커블을 향해 깃들기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "这是……………………不好，怨仇女士，快停下来！",
+			say = "이건…… 안돼, 임플래커블, 멈춰!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "红雾缠身的怨仇没有理会黎塞留的呼喊，只是继续轻声吟唱了下去。",
+			say = "붉은 안개에 휩싸인 임플래커블은 리슐리외의 외침을 무시하고 그저 숨 죽여 계속 노래할 뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 207070,
-			say = "「……使人彼此相杀，又有一把大刀赐给他……」",
+			say = "「……서로가 서로를 죽일 수 있게 그에게 대검을 내렸다……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "怨仇女士……怨仇女士…………！",
+			say = "임플래커블 님…… 임플래커블님……!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……啧，抱歉得罪了。",
+			say = "……쯧, 실례하지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,7 +724,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
-			say = "轰——————————！",
+			say = "탕───────────!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -778,7 +778,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "…………啊！痛痛痛…………刚刚发生什么事了？",
+			say = "……아! 아야야야…… 방금 무슨 일이었죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "我用空包弹把你打醒了，感觉还好么？",
+			say = "공포탄으로 내가 깨웠어. 기분은 어때?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "很不好！我刚刚遭受到了精神肉体的双重打击欸！",
+			say = "아주 안 좋아요! 방금 정신적으로도 육체적으로도 이중 타격을 입었다고요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -842,7 +842,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不过好在冒险是有回报的……刚刚在祷告期间，我身上发生了某种变化对吧。",
+			say = "모험이 헛되지 않아 다행이군요……. 방금 기도할 때, 내 몸에서 무슨 변화가 일어나지 않았나요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -859,7 +859,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，身上出现了红色的雾气，而且怎么叫你都没有回应。",
+			say = "응, 몸에서 붉은 안개가 피어오르더니 아무리 불러도 깨어나지 않았어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -877,7 +877,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "就像被“战争”这个概念附身了一样，没错吧？！",
+			say = "마치 '전쟁'이란 개념이 몸에 들러붙은 것처럼, 맞지요?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -895,7 +895,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这就是“概念”在这片空间中的影响力……所以战争强过死亡也可以理解了。",
+			say = "이게 바로 '개념'이 이 공간에서 가지는 영향력……. 전쟁이 죽음보다 강하단 게 이제 이해 가네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -912,7 +912,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟，四骑士都在这片海域中厮杀，“战争”几乎出现在这片空间的每个角落。",
+			say = "네 기사 모두 이 해역에서 살육을 벌이는 이상, '전쟁'은 거의 이 공간 어느 곳에도 출현하니까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -930,7 +930,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "而对于机械和量产型来说————死亡的概念是不存在的。",
+			say = "거기다 기계와 양산형에게 있어────죽음의 개념은 존재하지 않잖아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -948,7 +948,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "同理，“饥荒”的概念在海域中也很弱，而“支配”的话……应该会非常强吧。",
+			say = "같은 이치로 '기근'의 개념 역시 해역에서 매우 약하겠죠. 그리고 '지배'라면…… 매우 강력하겠어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -965,7 +965,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说在圣堂下层中的四台机甲骑士是有强弱区别的，原来如此……合理的推测。",
+			say = "그렇다는 건 성당 하층에서 네 기사는 각각 강한 정도가 다르단 거네. 합리적인 추측이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -983,7 +983,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "大主教，你们当年是怎么与四骑士作战的？",
+			say = "대주교, 당시 네 기사와 어떻게 전투를 벌였습니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1001,7 +1001,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "怎么作战……？应该是见到一个消灭一个吧？",
+			say = "어떻게 싸웠냐고……?  그야 보이는 족족 없앴겠지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1018,7 +1018,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要知道具体细节就要查阅审判庭记录了，我不是很清楚，怎么了？",
+			say = "상세한 내용을 알려면 심판정의 기록을 봐야 해서 나도 정확히는 몰라. 왜 그래?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1035,7 +1035,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "顺序！在消灭四骑士的过程中，“顺序”的概念也是至关重要的！",
+			say = "순서! 네 기사를 소멸시키는 과정에서 '순서'의 개념이 역시 매우 중요합니다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1053,7 +1053,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "如果说从第一印至第四印的揭开代表审判日的执行的话，那按照相反的顺序来不就是代表终止么！",
+			say = "만약 첫 봉인부터 네 번째 봉인이 열리는 것까지 심판의 날을 대표해 집행된 것이라면, 그럼 정반대의 순서대로 하면 끝을 의미하는 게 아닙니까!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1071,7 +1071,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "因此……必须按照死亡、饥荒、战争、支配的顺序依次将四骑士消灭，才能终止它们源源不断地再生！",
+			say = "그러니까…… 반드시 죽음, 기근, 전쟁, 지배의 순서대로 네 기사를 없애야 해요. 그래야만 끝없는 재탄생을 막을 수 있습니다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1089,7 +1089,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "按照你们见到一个消灭一个的做法来战斗的话……如果最初消灭顺序就弄错了，自然永远没办法达成正确的顺序咯~",
+			say = "보이는 대로 없애는 식으로 싸웠다면… 최초의 순서부터 틀렸으니 당연히 정확한 순서를 찾아내는 건 영영 불가능했을 겁니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1106,7 +1106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你觉得呢，大主教？",
+			say = "어떻게 생각하세요, 대주교?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1124,7 +1124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "所以审判庭才一直没能成功么……推测完全合理，有一试的价值。",
+			say = "그래서 심판정이 성공하지 못했던 건가……. 아주 합리적인 추측이야. 시도해볼 가치가 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1142,7 +1142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "很好！既然找到了方向，那就事不宜迟，首先先让我们去会一会最弱的死亡骑士吧！",
+			say = "좋습니다! 방향을 잡았으니 즉시 시행하지요. 우선 가장 약한 죽음의 기사를 만나러 가볼까요!",
 			painting = {
 				alpha = 0.3,
 				time = 1

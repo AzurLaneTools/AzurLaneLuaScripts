@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			stopbgm = true,
-			say = "圣堂Blanc·圣物陈列室",
+			say = "블랑 성당·성물 보관실",
 			bgmDelay = 2,
 			bgm = "theme-vichy-church",
 			flashin = {
@@ -56,10 +56,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "嚯呀！吾乃皇家海军的英雄大人！",
+			say = "하압! 난 로열 네이비의 히어로 님이다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,10 +72,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "来者何人，举起手来————！",
+			say = "네놈은 누구냐, 그 손 들지 못할까─────!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,10 +83,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "斯库拉",
+			actorName = "스킬라",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "这还真是……非常抱歉。",
+			say = "이거 정말……실례했군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,10 +94,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "斯库拉",
+			actorName = "스킬라",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "我的名字是斯库拉，只是一介女仆，没想到贸然进入了英雄大人的领地。",
+			say = "제 이름은 스킬라, 평범한 메이드일 뿐입니다. 경솔하게도 히어로 님의 영지에 발을 들이고 말았군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,10 +105,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "哼哼，看来你还是知道我的威名的！",
+			say = "후후, 내 명성을 익히 들어 보았구나!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,10 +116,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "但是做错了事就要受罚，斯库拉小姐打算如何为这次冒犯赔罪呢~☆",
+			say = "허나 잘못했으면 벌을 받아야 하는 법, 스킬라 씨는 어떻게 이 실수를 사죄해주려나~☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,10 +127,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "斯库拉",
+			actorName = "스킬라",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "英雄大人希望我如何做呢？",
+			say = "히어로 님께선 제가 어떻게 하길 바라시나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,10 +138,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英雄",
+			actorName = "히어로",
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
-			say = "这个嘛——",
+			say = "그건───",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "（开心地鼓掌）",
+			say = "(즐겁게 박수를 친다)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没想到斯库拉小姐还有即兴表演的天赋啊。",
+			say = "스킬라가 즉흥 연기에 재능을 가진 줄은 몰랐는데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "只是临场配合一下英雄小姐罢了，让您见笑了，怨仇女士。",
+			say = "히어로 씨께 잠깐 맞춰드렸을 뿐이에요. 부끄러운 모습을 보여드렸습니다, 임플래커블 님.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不不不，我觉得很有趣哦。多亏了你们，这里压抑的气息也消散了不少。",
+			say = "아니아니, 아주 흥미로웠어. 덕분에 짓눌리는 듯한 기운도 많이 사라진 것 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "英雄，把弓拿来给我看一下。",
+			say = "히어로, 활을 내게 보여줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这张弓就是从圣物陈列室里找到的唯一一样物品么？",
+			say = "이 활이 성물 보관실에서 찾아낸 유일한 아이템인가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对！这里一共有四个展柜，可是有三个都空了，只有这张弓是完好无损的~☆",
+			say = "응! 진열대가 총 네 개 있었는데, 세 개는 텅 비었고 이 활만 무사히 남아 있었지롱~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "在这个柜子下面还有一句话，“以此为审判的起点”，你知道是什么意思么？",
+			say = "이 진열대 밑에 이런 말도 적혀 있었어. '이를 심판의 기점으로 삼으라', 이게 무슨 소린지 알아?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "四个展柜……弓……审判的起点…………",
+			say = "네 개의 진열장…… 활…… 심판의 기점…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "您有什么猜想了么？",
+			say = "떠오른 생각이 있으신가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "只是很朦胧的一个念头，不过我好像快明白为什么要把这里的氛围塑造得如此压抑了。",
+			say = "흐릿하게 뭔가 떠오르긴 해, 다만 이곳의 분위기가 왜 이렇게 억압되어 있는지는 곧 알 것 같군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "————嗖！",
+			say = "─────휙!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就在一行人专注于面前的藏品时，从怨仇身后另一头的通道中出现了一个模糊的身影。",
+			say = "일행이 눈앞의 소장품에 정신이 팔려 있을 때, 임플래커블의 뒤의 한 통로에서 흐릿한 형체가 튀어 나왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怨仇女士小心——！",
+			say = "임플래커블 님, 조심하세요───",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "轰——————————！",
+			say = "콰앙──────────!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -461,7 +461,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不等入侵者近身，斯库拉就如同离弦的箭一般插入了怨仇与敌人之间。",
+			say = "침입자가 가까이 오는 것은 허락하지 않는다. 스킬라는 마치 시위를 떠난 화살처럼 임플래커블과 침입자 사이로 끼어들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "锋利的兵刃在昏暗的通道里如银弦般闪烁了一下，只在转瞬间，袭击者就倒在了地上。",
+			say = "날카로운 칼날이 어둑한 통로 속에서 은빛 현처럼 반짝였다. 습격자는 순식간에 바닥으로 쓰러졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来者何人，报上名来！",
+			say = "누구냐, 이름을 밝혀!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "袭击者已经被斯库拉解决了哦。",
+			say = "이미 스킬라에게 처리됐다만.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……好快！完全没给英雄出场的机会啊，喂！",
+			say = "……빠르다! 내가 나설 기회도 안 주고, 에잇!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非常抱歉，下次我会尽量给您留出一点反应时间的。",
+			say = "정말 죄송합니다. 다음부턴 반응할 시간을 드릴 수 있게 최선을 다하지요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好~☆",
+			say = "아주 좋아~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这个是…………维希教廷的拉·加利索尼埃？",
+			say = "이건…… 비시아 성좌의 라 갈리소니에르?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只是棋子而已，不堪一击。",
+			say = "일격에 허물어지는 장기말일 뿐이죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "维希教廷圣堂的内部出现了维希教廷的棋子……",
+			say = "비시아 성좌 성당 내부에서 비시아 성좌의 장기말이 나타났다, 라…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,7 +648,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（震动的声音————）",
+			say = "(흔들리는 소리가 난다────)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你、你们有没有感受到大地在震动，这这这，发生地震了么？！",
+			say = "대, 대지가 진동하는 거 느껴져? 이, 이이이거, 설마 지진이야?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………不会真的是这样吧？",
+			say = "……정말 지진일리는 없겠지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,7 +710,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恐怕和您猜测的一样，怨仇女士。",
+			say = "임플래커블 님의 추측과 같을 것 같습니다만.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有大量棋子正在向我们的方向接近，我们已经被包围了。",
+			say = "수많은 장기말들이 우리 쪽으로 가까워지고 있어요. 우린 이미 포위됐습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——女王陛下在上！所有人，准备战斗——！！",
+			say = "──여왕 폐하를 위하여! 모두, 전투 준비───!!",
 			painting = {
 				alpha = 0.3,
 				time = 1

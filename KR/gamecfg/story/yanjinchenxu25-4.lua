@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			stopbgm = true,
-			say = "宽厚的重剑插入了骑士的机械结构。",
+			say = "널찍하고 두터운 검이 기사의 기계 구조를 꿰뚫었다.",
 			bgmDelay = 1,
 			bgm = "theme-vichy-slaughter",
 			flashin = {
@@ -29,7 +29,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "一连串爆炸后，萦绕在战争骑士庞大躯壳上的红色火焰，终是逐渐熄灭了。",
+			say = "일련의 폭발 후, 전쟁의 기사의 거대한 몸을 감싸고 있던 붉은 화염이 결국엔 점차 스러져갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼、呼、呼……这样就结束了……",
+			say = "헉, 허억, 헉…... 이걸로 끝인 건가…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是皇家骑士，女王陛下以你精湛的技艺为荣，皇家橡树大人。",
+			say = "역시나 로열 네이비, 여왕 폐하께서 당신의 훌륭한 기예를 영광으로 여기실 겁니다, 로열 오크 님.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈，其实它到最后完全不会动了……多亏了怨仇女士，我只是瞄着靶子打而已。",
+			say = "하하, 사실 완전히 못 움직이게 한 건……다 임플래커블 당신 덕이죠. 난 그냥 과녁을 때리기만 했는걸요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多亏了这把弓呢，等回去之后我要把它挂在大厅最显眼的位置~",
+			say = "이 활 덕이야. 돌아가면 홀 가장 눈에 띄는 자리에다 걸어놔야지~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔，奇怪……我怎么感觉这金弓好像褪色了？弓梢这边是不是裂——欸？！",
+			say = "어, 이상하다……. 이 황금 활, 왠지 색이 벗겨지는 거 같은데? 활고자 쪽도 갈라지고──엑?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "在英雄讶异的目光中，那道细微的裂痕沿着弓臂一路蔓延，最后贯穿了整副金弓。",
+			say = "히어로의 의아해하는 시선 속에서 가느다란 금은 활에 점차 퍼져나가더니 마침내는 온 활을 관통했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_7",
-			say = "一声清脆的爆响后，金弓碎裂成了无法辨认的粉末。",
+			say = "맑게 터지는 소리와 함께 황금의 활은 알아볼 수조차 없게 가루로 부서졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊——！它它它……碎了？！",
+			say = "아──! 부, 부… 부서졌어?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜呜呜，本来还想着拿回去当英雄的战利品呢！",
+			say = "흐에엥, 갖고 돌아가서 히어로의 전리품으로 삼고 싶었는데!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这把弓这次也算帮了我们的大忙，回头我去定一个仿制品给你收藏吧。",
+			say = "……이 활이 우리를 크게 도왔다 할 수 있으니, 돌아가서 복제품 하나 만들어 소장하게 해줄게요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好耶~！多谢怨仇大人~",
+			say = "좋아~! 고마워, 임플래커블 님!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在战争骑士也被顺利消灭，接下来只要去消灭代表支配的机甲骑士，整件事就彻底结束了。",
+			say = "지금 전쟁의 기사는 순조롭게 소멸되었고, 이제 지배를 대표하는 기갑 기사만 처리하면 이 일은 철저히 끝나는 거예요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是，支配骑士也是战斗力最强的，我们要怎么消灭它呢……",
+			say = "하지만, 지배의 기사는 전투력이 제일 강한데, 어떻게 소멸시켜야…...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也不能用像对抗战争的时候一样找到削弱它的象征物了吧……？",
+			say = "전쟁에게 대항할 때처럼 그를 약화시키는 상징물을 찾아낼 수도 없지 않나…...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "倒也不一定……第五印、第六印还有第七印的效果我还没试过呢……",
+			say = "그렇지도 않아요……. 다섯 번째 봉인, 여섯번째 봉인과 일곱번째 봉인의 효과는 아직 시도해보지 않았는걸요…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不行！继续尝试实在是过于危险了！",
+			say = "안돼! 계속 시도하는 건 지나치게 위험해!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没事没事~都说了这片圣堂对我的影响小，刚才试了两个我不都平安无事么。",
+			say = "괜찮아, 괜찮아~ 이 성당이 내게 미치는 영향은 미미하다니까. 방금 두 번이나 했는데도 무사했잖아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "但是对于圣堂所处的塞壬镜面海域本身呢？",
+			say = "하지만 성당이 위치한 세이렌의 거울 해역 자체는?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "在这片海域中诞生了代表末日四骑士的机甲，不代表它只能诞生代表末日四骑士的机甲。",
+			say = "이 해역에서 종말의 네 기사를 대표하는 기갑이 탄생했어. 그게 종말의 네 기사를 대표하는 기갑만을 탄생시킬 수 있단 건 아니잖아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "如果第五印、第六印甚至第七印的象征也在这里得到了具现化，使得工厂开始生产些什么……",
+			say = "만약 다섯번째 봉인, 여섯번째 봉인, 심지어는 일곱번째 봉인의 상징이 이곳에서 구체화되면 공장이 뭘 만들어낼지…...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "之后会发生的事你有想过么！",
+			say = "그 후에 벌어질 일에 대해서 생각해 보긴 했던 거야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………你说得对……！",
+			say = "……당신 말이 옳아……!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那么，无敌的余烬拉·加利索尼埃小姐，在你原本的计划里要怎么消灭支配呢？",
+			say = "그럼, 무적의 라 갈리소니에르, 당신의 원 계획에서는 지배를 어떻게 소멸시키려 했지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "原本我打算等它和战争拼的两败俱伤之后再跳出来补刀的，不过就现状而言这个方案肯定用不上了。",
+			say = "본디 나는 지배와 전쟁이 서로와의 전투로 약해져 있을 때 등장해서 없애려 했었거든. 하지만 지금 이 상황에는 못 쓰는 방법이지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确实……那接下来该怎么办啊。",
+			say = "확실히…… 그럼 어떻게 하면 좋을까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "嗯？什么怎么办，在我看来事情已经和全部结束没区别了啊？",
+			say = "응? 뭘 어떻게 해, 내가 보기엔 이미 다 끝난 거나 마찬가진데?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你们忘记发现支配骑士自己还处在极光之壁的“支配”下，根本就没有启动的事了么？",
+			say = "다들 지배의 기사가 오로라의 벽에 '지배'당해서 꼼짝도 못 하고 있는 걸 발견했던 건 잊은 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊？！说的也是欸…………！",
+			say = "아?! 그렇네……!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那也就是说……不用苦战了？",
+			say = "그렇단 건…… 힘들게 싸울 필요가 없다?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不用，对付没有启动的机甲骑士，方法可就多了。比如启动极光之壁，将其分割摧毁之类的？",
+			say = "없지. 가동조차 안 되는 기갑 기사한테 쓸 수 있는 방법은 너무 많아. 오로라의 벽을 가동시켜 그걸 갈가리 파괴해버린다거나?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "具体要怎么做我得去现场再调查一下才能确认。",
+			say = "구체적으로 어떻게 할지는 현장에 가서 다시 조사해봐야  알겠지만.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这里是鸢尾的圣堂，黎塞留主教和贝亚恩也来配合我调查一下没问题吧？",
+			say = "여긴 아이리스의 성당이지. 리슐리외 주교와 베아른이 내 조사에 협조해줘도 될까나?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +640,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那是自然，只要能安全解决事态就可以。",
+			say = "그야 물론이죠. 안전하게 사태를 해결할 수 있기만 한다면야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "嗯~那说不如做，让我们赶紧出发吧~",
+			say = "음~ 그럼 말만 할 게 아니라 움직여야지. 어서 출발하도록 하자!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			stopbgm = true,
-			say = "圣堂Rouge·检阅广场，一段时间后——",
+			say = "루즈 성당·검역 광장, 시간이 조금 흐른 후──",
 			bgmDelay = 2,
 			bgm = "theme-vichy-church",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "欸？……这里的广场，是不是和我们之前见到的那个一样？",
+			say = "어라? ……이 광장, 전에 본 것과 똑같은데?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "就是好像尺寸上比之前那个还要大……",
+			say = "다만 크기가 전보다 더 크다 뿐이지…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "的确如此，皇家橡树阁下。四座圣堂虽说布局上各自有各自的特点，但在结构上却是大同小异。",
+			say = "확실히, 로열 오크 각하. 네 개의 성당은 각자의 특징을 갖고 있기는 하지만, 결국 구조 상 큰 차이는 없습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "这样的广场也是每座圣堂都有。当然，和你的观察相同，这里的广场要大上一些。",
+			say = "이런 광장은 성당마다 다 있지요. 물론, 생각하시는 것처럼 이곳의 광장이 조금 더 큽니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "而且圣堂Rouge的检阅广场正好位于前往统御中心的必经之路上，是我们进行迎敌的好地点。",
+			say = "게다가 루즈 성당의 검역 광장은 컨트롤 센터를 갈 때 반드시 지나야 하는 길목에 있으니까요. 우리가 적을 맞이하기 적당한 지점이기도 하죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "就是说……只要我们在这里布置防线，就能将所有棋子一网打尽？",
+			say = "그렇단 건…… 우리가 여기에 방어 라인을 배치하면 장기말들을 일망타진할 수 있단 거군요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不错。但是我记得这座圣堂配属的量产型棋子应该是最多的，接下来势必会有一番苦战。",
+			say = "그래. 다만 이 성당에 소속된 양산형 장기말들이 가장 많았던 걸로 기억해서, 꽤 고전할 것 같군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "（嗯……看上去确实是个不错的战斗位置。）",
+			say = "(흠…… 위치만 보면 전투에 꽤 걸맞은 자리야.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "（不过这个宽敞程度似乎有些…………）",
+			say = "(하지만 이 너비는 어쩐지 조금……)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "嗯？你有什么问题么，怨仇女士？",
+			say = "음? 무슨 문제라도 있나, 임플래커블?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，没什么，大主教您继续说~",
+			say = "아, 아무것도 아닙니다. 대주교께선 계속 말씀하세요~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "实际上我已经说完了……如果你没有什么补充内容的话。",
+			say = "사실 할 말은 다 끝났다만…… 자네가 보충할 말이 더 없다면 말이지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "唔……既然气氛到这里了，那我也简单说两句好了。",
+			say = "음…... 이런 분위기이니 가볍게 두어 마디 덧붙이지요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诸位，女王陛下要求所有人恪尽职守，所有人务必牢记自己的任务，坚守自己的位置。",
+			say = "여러분, 여왕 폐하께서는 모두가 직무에 충실하며 자신의 임무를 명심하고, 자신의 자리를 굳건히 지킬 것을 바라십니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "只要我们与自由鸢尾的盟友同心协力，这场胜利必将属于我们！",
+			say = "우리가 아이리스 리브레와 같은 마음으로 협력한다면, 이 전투의 승리는 우리에게 있을 것입니다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "轰——————————！",
+			say = "쾅───────────!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -377,7 +377,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "当第一个棋子的身影闯入广场后，激烈的战斗随即打响。",
+			say = "첫 장기말이 광장으로 들이닥치자마자 격렬한 전투가 시작되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "站在最高的检阅台上俯瞰时，能将广场上发生的一切收入眼底——",
+			say = "가장 높은 검역대에 서서 내려보면 광장에서 일어나는 모든 것을 눈에 담을 수 있었다──",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "散发着红色雾瘴的棋子源源不断地闯入广场，然后在密集的火力中一茬茬倒下。",
+			say = "붉은 독기를 내뿜는 장기말들이 끝도 없이 광장으로 밀려 들어오고, 밀집된 화력에 의해 하나하나 쓰러졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "因为众人提前占领了优势位置，战斗几乎变成了无需思考的机械劳动。",
+			say = "모두가 유리한 위치를 미리 점령한 덕에, 전투는 거의 끝없이 반복되는 무미건조함이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在似乎永无止境的枯燥重复中，怨仇的思绪逐渐飞向了远方——",
+			say = "반복되는 기계적인 노동 탓에 임플래커블의 상념은 점차 먼곳으로 흘러갔다──",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（首先是Blanc（白），然后是Rouge（红）……）",
+			say = "(처음은 블랑(흰색), 그다음은 루즈(적색)…...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……“以此为审判的起点”。）",
+			say = "(……'이를 심판의 기점으로 삼으라'.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（说起来……虽然经过多次扩建，不过这座圣堂最初是在第一次对塞壬反击战期间建立的……）",
+			say = "(그러고 보니…… 수 차례 증축하긴 했어도 이 성당은 첫 사이렌의 반격 때 지어진 곳이야…….)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（…………难道说，不会吧…………）",
+			say = "(……설마, 그럴 리가…….)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "红色的棋子残骸铺在地上，层层叠叠。",
+			say = "붉은 장기말이 땅에 쓰러져 겹겹이 쌓였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "从检阅台上望去，猩红色的地垫仿佛要铺至世界的尽头——",
+			say = "검역대 위에 서서 바라보니, 선홍색 카펫이 세계의 끝까지 이어진 것처럼 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "怨仇女士，战斗结束了。黎塞留主教正带着贝亚恩打扫战场，斯库拉在陪同。",
+			say = "임플래커블 님, 전투가 끝났습니다. 리슐리외 주교께선 베아른과 전장을 청소 중이십니다. 스킬라도 함께하고요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "我们都没受到损伤，怨仇女士，您还好么？",
+			say = "부상자는 없습니다. 임플래커블 님, 괜찮으십니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "嗯，我这里也一切正常。",
+			say = "응, 나도 괜찮아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "多亏黎塞留对于这里的了解，我们才能够以最小的代价消灭这么一支庞大的军队。",
+			say = "대주교 덕에 최소한의 대가를 치르며 이 거대한 군대를 파괴할 수 있었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是她能再诚实一点就好了……",
+			say = "조금만 더 솔직하다면 좋을 텐데…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……怨仇女士？",
+			say = "……임플래커블 님?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没什么~只是自言自语而已，不用在意。",
+			say = "별 것 아냐. 혼잣말일 뿐이니 신경 쓰지 마.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "百眼巨人，你们前几天巡逻的时候感觉如何，有没有什么异常之处？",
+			say = "아거스, 며칠 전 순찰 때 받은 느낌이 어땠지? 이상한 구석은 없었나?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "唔……老旧但庞大的设施，疏于维护的设备……",
+			say = "음……. 낡지만 거대한 시설, 보수에 소홀한 설비,",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "特别异常的应该是中间发生的几次设备爆炸，作为圣堂来说应该不应该吧……？",
+			say = "그중 기억에 남는 거라면 중간에 발생했던 몇 차례 설비의 전류 폭발 정도일까요. 성당은 그러면 안 될 텐데 말이죠……?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除此之外呢？",
+			say = "그거 말곤?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -732,7 +732,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "除此之外……就和报告书上写的一样，没有什么特别值得一提的事件发生。",
+			say = "그거 말곤…... 보고서와 마찬가지로 딱히 특별한 사건은 발생하지 않았습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,7 +750,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不是物理层面的，精神层面的之类的呢……？",
+			say = "물리적인 것 말고, 정신적인 것은…...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -768,7 +768,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我现在很难用准确的语言去描述……大致就是有没有什么精神层面上感受到的异常之处？",
+			say = "지금 말로 표현하기엔 매우 부정확하다만…… 정신적으로 느껴진 건 없나?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,7 +786,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "唔……也许是因为建筑布局的原因，来这里的几天让我感觉很压抑，好像无时无刻都处在紧张焦虑中。",
+			say = "흠…… 건축 배치 때문일까요. 여기 온 며칠간 내내 매우 억압적으로 느껴졌습니다. 단 한 순간도 긴장과 불안에서 벗어나지 못하는 것처럼요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -804,7 +804,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "皇家橡树大人也有与我相同的感觉。",
+			say = "로열 오크 님께서도 저와 같은 느낌을 받으셨습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这种感觉是一直都有，不是事故发生之后才有的对么？",
+			say = "그런 느낌은 쭉 있었던 건가. 사고가 일어난 후에야 발생했던 게 아니란 거지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,7 +840,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "没错……不过在事故发生后这种感觉似乎强烈了一些？",
+			say = "네……. 다만 사고가 발생한 후에는 이런 느낌이 더 강렬해진 것 같았어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -858,7 +858,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "然后在净化系统启动完毕后，似乎又消失不见了……",
+			say = "정화 시스템이 완전히 가동된 후에야 사라진 것 같았죠…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -876,7 +876,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "我也不太好用语言来描述，也许就像之前说的那样，只是心理作用也说不定。",
+			say = "저도 말로 표현하기 매우 어렵군요. 마치 전에 말씀드렸던 것처럼 그저 심리적인 것일지도요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -893,7 +893,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "精神层面的问题，有些时候反而比物理层面更应该值得警惕哦。",
+			say = "정신적인 건 어떨 땐 오히려 물리적인 것보다 더 경계해야 하지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -911,7 +911,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "走吧，我们该去下一处圣堂了。",
+			say = "가지, 다음 성당으로 갈 차례야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -928,7 +928,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？黎塞留主教已经告诉您我们接下来该去哪一座了么？",
+			say = "응? 리슐리외 주교가 다음 차례를 알려주신 건가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -956,7 +956,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "她没有，但是我已经知道了。",
+			say = "아직, 그치만 알아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -974,7 +974,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "接下来要去的地方是————圣堂Noir，那座漆黑的圣堂。",
+			say = "다음 갈 곳은─────누아르 성당, 칠흑의 성당이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1

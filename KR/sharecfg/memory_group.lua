@@ -2964,7 +2964,7 @@ pg.memory_group = {
 		subtype = 1,
 		type = 2,
 		id = 240,
-		title = "湮烬尘墟",
+		title = "잿빛 폐허",
 		memories = {
 			2571,
 			2572,

@@ -9,7 +9,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			stopbgm = true,
-			say = "诸位，我已经追踪到饥荒的踪迹了哦。",
+			say = "여러분, 나 기근의 종적을 이미 찾아냈어.",
 			bgm = "battle-whaling-normal",
 			painting = {
 				alpha = 0.3,
@@ -27,7 +27,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "受损程度大约……四五成？",
+			say = "꽤 부상이 크던데…… 4, 50% 정도?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -44,7 +44,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "跟战争纠缠了这么久还能维持这个状态，它的生存能力真是惊人啊。",
+			say = "전쟁과 꽤 오래 붙고도 그 상태를 유지할 수 있다니, 생존 능력이 정말 놀라운데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			nameColor = "#ffa500",
 			paintingNoise = true,
 			dir = 1,
-			say = "你们怎么说？现在它一个人在水面上移动，要将其消灭的话就是最好时机了哦。",
+			say = "어떻게 할 생각이야? 혼자 수면 위를 이동 중이던데, 없애려면 지금이 최적의 때야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那是自然，没有理由放过这么好的机会。",
+			say = "그야 당연하지요. 이렇게 좋은 기회를 놓칠 이유가 없습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			actor = 805010,
 			dir = 1,
-			say = "怨仇女士，接下来我前往一线战斗，贝亚恩可以暂时与你同行么？",
+			say = "임플래커블, 전투에 다녀올 테니 베아른을 잠시 동행시켜도 될까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "当然没问题~皇家橡树，火力战环节就由你来指挥了，协助黎塞留主教和余烬的拉·加利索尼埃进行作战。",
+			say = "물론 문제 없지요. 로열 오크 님, 화력전의 일환은 지휘를 부탁드립니다. 리슐리외 주교와 잔해의 라 갈리소니에르에 협조하여 전투하세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我跟百眼巨人还有贝亚恩会移动到更合适的位置为你们提供支援。",
+			say = "저와 아거스, 그리고 베아른은 더 적합한 위치로 이동하여 지원하겠습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "了解，战斗中的协助就拜托你了，皇家橡树阁下。",
+			say = "응. 전투 중의 협조는 부탁하죠, 로열 오크 각하.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没……没问题！我不会辜负你们的信任的！",
+			say = "무……문제 없습니다! 그 믿음 절대 어기지 않을 테니까요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "目标，塞壬的「审判型机甲武装—饥荒」，让我们开始战斗吧！",
+			say = "목표, 세이렌의 「심판형 기갑 무장—기근」, 전투를 시작한다!",
 			painting = {
 				alpha = 0.3,
 				time = 1

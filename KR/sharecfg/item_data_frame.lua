@@ -372,7 +372,7 @@ pg.item_data_frame = {
 	[324] = {
 		time_limit_type = 0,
 		name = "성휘의 증명",
-		gain_by = "湮烬尘墟",
+		gain_by = "잿빛 폐허",
 		id = 324,
 		time_second = 0,
 		desc = "<color=#ffffff>「여왕 폐하의 이름으로, 축복의 빛이 세간에 퍼지길——」</color>\n「잿빛 폐허」 이벤트 획득",

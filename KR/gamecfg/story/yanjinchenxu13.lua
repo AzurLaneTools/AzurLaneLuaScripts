@@ -15,15 +15,15 @@ return {
 			bgm = "theme-vichy-church",
 			sequence = {
 				{
-					"接管第五日 01:15:29",
+					"점령 5일째 01:15:29",
 					1
 				},
 				{
-					"皇家与自由鸢尾联合舰队",
+					"황실과 아이리스 리브레 연합 함대",
 					2
 				},
 				{
-					"圣堂Vert 统御中心",
+					"베르트 성당 컨트롤 센터",
 					3
 				}
 			},
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "唔…………怎么会这样。",
+			say = "으음…… 대체 왜 이렇게 된 거지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "怎么了，贝亚恩小姐？",
+			say = "왜 그래, 베아른?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "这里的情况比我想象中还要糟糕很多！",
+			say = "상황이 제가 상상한 것보다도 더 위험합니다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "原本此处就是在塞壬设施上修建的第一座圣堂，所以设施最为老旧。",
+			say = "여긴 본디 세이렌의 시설 위에 지어진 첫 성당이었어요. 그래서 시설이 가장 낡아있죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "我也想到了这里的问题也许会是四座圣堂里最严重的，但是现在…………",
+			say = "저도 그 점을 알고 있어서 네 성당 중 가장 심각할지도 모른단 생각은 했지만, 지금 이건…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "污染指数超过允许值几倍之多，恐怕这里才是导致圣堂彻底失控的真正原因！",
+			say = "오염 지수가 몇 배를 넘는 건 고사하고, 이곳이야말로 성당이 철저히 통제를 잃은 진정한 원인일지 모릅니다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不是因为百眼巨人的误操作导致的么？",
+			say = "아거스의 잘못된 조작 탓이 아니었나?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "那个操作应该只是导致了四座圣堂全部出现运行异常，进而扩大了问题……",
+			say = "그건 고작 네 성당의 전체적인 가동에 문제를 일으키고 확산시킨 것뿐일 겁니다….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "但是这里……至少在一年、不对至少两年前就出问题了！",
+			say = "하지만 여긴…… 최소 일 년, 아니, 이 년도 더 전에 문제가 생겼던 거예요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "至少从两年前开始，这里的生产设施就一刻都没有停止过！",
+			say = "최소 이 년 전, 이곳의 생산 설비는 단 한 순간도 멈춘 적이 없었어요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "过度的生产导致了设施的损耗，而维希教廷没有选择维修设备，只是将圣堂Vert封锁起来，放任其无休止地运作……",
+			say = "과도한 생산이 설비의 손상을 야기했고, 비시아 성좌는 설비를 보수하지 않고 베르트 성당을 봉쇄해서 끝없이 가동시켰던 겁니다…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "直到这里成了我们现在见到的这副样子……",
+			say = "지금 이 상황이 될 때까지요…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "所以，维希教廷撤退的真正原因不是因为什么海外战略变动，而是因为他们快控制不住这里了……",
+			say = "그럼 비시아 성좌가 철수한 진짜 원인은 해외 전략의 변동이 아닌, 그저 곧 여기를 더는 감당할 수 없어서…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算没有百眼巨人的误操作，这场危机也是迟早会爆发的。",
+			say = "아거스의 잘못된 조작이 없었어도, 어차피 이 사태는 시간 문제였단 겁니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "然后就看是谁赶上谁倒霉了。",
+			say = "어디 재수 없는 누가 걸릴 때까지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里是鸢尾教国的领土，原本应该是由你来接手的哦，黎塞留大主教？",
+			say = "여긴 아이리스 교국의 영토입니다. 본래라면 당신의 소관이었겠죠. 리슐리외 대주교님?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "这还真是……阴差阳错之下被你们救了一次啊。",
+			say = "정말이지…… 엉뚱한 착오로 그대들에게 도움을 받았어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不用谢~作为盟友这是应该做的。",
+			say = "고마워하실 필요 없습니다. 맹우로서 당연히 해야 하는 일이에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "但是如贝亚恩所说，这里的生产设施在两年间都没停的话，生产出的棋子都去哪儿了？",
+			say = "하지만 베아른의 말대로, 이 생산 설비가 이 년간 멈춘 적이 없다면, 생산된 장기말들은 다 어디로 간 거죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "实际上我们从进入这处圣堂一直到在这里启动净化系统为止，都没遇到过什么抵抗。",
+			say = "우리가 이곳에 들어온 후 정화 시스템에 올 때까지 저항이라곤 전혀 없었어요. 오히려 여태껏 가장 순조로웠죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "未经调查我也无法给出准确答案，不过也许大多数都被送到下层————",
+			say = "조사 없인 저도 확답을 드릴 수 없습니다. 하지만 대부분 모두 하층으로 보내졌을────",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "贝亚恩。",
+			say = "베아른.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "啊……抱歉，怨仇女士，我要去仔细检查一下净化系统能不能正常运作，先失陪了。",
+			say = "아……. 죄송합니다, 임플래커블 님. 정화 시스템이 정상 가동 가능한지 확인하고 오겠습니다. 그럼 실례하죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚刚的眼神很吓人哦，大主教~",
+			say = "방금 그 눈빛 아주 무서웠어요, 대주교~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "贝亚恩提到的“下层”，是什么？",
+			say = "베아른이 말한 '하층'은 뭐죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "……是圣堂的结构之一，主要用于棋子的“回收”与“处理”。",
+			say = "……성당 구조 중 하나야. 주로 장기말의 '회수'와 '처리'에 사용되지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恐怕那里的状况也不容乐观……不过下层的事与我们当前的任务无关。",
+			say = "그 곳 상황도 낙관적이지 못할 가능성이 커……. 하지만 하층은 현재 우리의 임무와는 관련이 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "只要我们完成四座圣堂的净化，局面就可以得到控制了。",
+			say = "네 성당의 정화를 끝내고 나면 이 국면은 통제할 수 있겠지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "至于其他的事……等凯尔盖朗岛回到自由鸢尾的控制下之后，我会调集人手慢慢处理的。",
+			say = "다른 일은…… 케르겔렌 섬이 아이리스 리브레의 통제 밑에 들어오면, 내 사람들이 천천히 처리할 거다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "伊丽莎白女王应该也不会阻拦吧？",
+			say = "퀸 엘리자베스도 이걸 막진 않겠지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那是自然，这里本来就是鸢尾教国的领土嘛。",
+			say = "물론이지요. 본디 아이리스 교국의 영토 아닙니까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我们只是奉女王的命令以盟友的身份帮助你把这里夺回来而已，等尘埃落定之后自然要物归原主的。",
+			say = "저흰 그저 폐하의 명령을 받들어 맹우의 신분으로 이곳을 되찾는 걸 도울 뿐입니다. 일이 끝나면 당연히 돌려드려야지요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对于皇家千里迢迢出兵帮自由鸢尾收回故土的事，请怨仇女士替我向伊丽莎白女王转达我最诚挚的谢意。",
+			say = "황실에서 이 먼 곳까지 아이리스 리브레가 옛 땅을 되찾게 지원을 보내준 것, 임플래커블 그대가 나 대신 퀸 엘리자베스께 내 가장 진실된 감사를 전해주게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那是自然的，我一定转达。",
+			say = "그야 물론이죠. 반드시 전하겠습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "非常感谢。那接下来我们就在此再等待一阵吧。相信贝亚恩一定能让这里的净化装置正常启动的。",
+			say = "정말 고마워. 그럼 여기서 좀 기다리도록 할까. 베아른이 금세 이곳의 정화 시스템을 정상으로 돌릴 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "斯库拉小姐，能拜托你准备一点宵夜么？",
+			say = "스킬라, 야식을 조금 준비해줄 수 있을까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "如您所愿，黎塞留大人——",
+			say = "원하시는 대로, 리슐리외님──",
 			painting = {
 				alpha = 0.3,
 				time = 1

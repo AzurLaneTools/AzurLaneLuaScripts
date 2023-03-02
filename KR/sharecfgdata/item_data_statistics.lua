@@ -15530,8 +15530,8 @@ _G.pg.base.item_data_statistics[30343] = {
 }
 
 _G.pg.base.item_data_statistics[30344] = {
-	display = "可以获得一件随机的皇家教室风格外观装备",
-	name = "外观装备箱(皇家教室)",
+	display = "로열 교실 스타일 장비스킨 1가지 랜덤 획득 가능",
+	name = "장비 스킨 상자(로열 교실)",
 	max_num = 0,
 	type = 11,
 	drop_oil_max = 0,
@@ -17959,8 +17959,8 @@ _G.pg.base.item_data_statistics[30518] = {
 }
 
 _G.pg.base.item_data_statistics[30519] = {
-	display = "使用后可从「皇家教室」主题外观装备中任意选择一种获得1个",
-	name = "定向外观装备箱(皇家教室)",
+	display = "사용 시「로열 교실」 스타일 장비스킨 중 1가지 선택 획득 가능",
+	name = "지향형 장비스킨 상자(로열 교실)",
 	max_num = 0,
 	type = 13,
 	drop_oil_max = 0,
@@ -173759,8 +173759,8 @@ _G.pg.base.item_data_statistics[58796] = {
 }
 
 _G.pg.base.item_data_statistics[58797] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -173806,8 +173806,8 @@ _G.pg.base.item_data_statistics[58797] = {
 }
 
 _G.pg.base.item_data_statistics[58798] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -173853,8 +173853,8 @@ _G.pg.base.item_data_statistics[58798] = {
 }
 
 _G.pg.base.item_data_statistics[58799] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -173900,8 +173900,8 @@ _G.pg.base.item_data_statistics[58799] = {
 }
 
 _G.pg.base.item_data_statistics[58800] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -173947,8 +173947,8 @@ _G.pg.base.item_data_statistics[58800] = {
 }
 
 _G.pg.base.item_data_statistics[58801] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -173994,8 +173994,8 @@ _G.pg.base.item_data_statistics[58801] = {
 }
 
 _G.pg.base.item_data_statistics[58802] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174041,8 +174041,8 @@ _G.pg.base.item_data_statistics[58802] = {
 }
 
 _G.pg.base.item_data_statistics[58803] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174088,8 +174088,8 @@ _G.pg.base.item_data_statistics[58803] = {
 }
 
 _G.pg.base.item_data_statistics[58804] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174135,8 +174135,8 @@ _G.pg.base.item_data_statistics[58804] = {
 }
 
 _G.pg.base.item_data_statistics[58805] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174182,8 +174182,8 @@ _G.pg.base.item_data_statistics[58805] = {
 }
 
 _G.pg.base.item_data_statistics[58806] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174229,8 +174229,8 @@ _G.pg.base.item_data_statistics[58806] = {
 }
 
 _G.pg.base.item_data_statistics[58807] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174276,8 +174276,8 @@ _G.pg.base.item_data_statistics[58807] = {
 }
 
 _G.pg.base.item_data_statistics[58808] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174323,8 +174323,8 @@ _G.pg.base.item_data_statistics[58808] = {
 }
 
 _G.pg.base.item_data_statistics[58809] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174370,8 +174370,8 @@ _G.pg.base.item_data_statistics[58809] = {
 }
 
 _G.pg.base.item_data_statistics[58810] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174417,8 +174417,8 @@ _G.pg.base.item_data_statistics[58810] = {
 }
 
 _G.pg.base.item_data_statistics[58811] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174464,8 +174464,8 @@ _G.pg.base.item_data_statistics[58811] = {
 }
 
 _G.pg.base.item_data_statistics[58812] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174511,8 +174511,8 @@ _G.pg.base.item_data_statistics[58812] = {
 }
 
 _G.pg.base.item_data_statistics[58813] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174558,8 +174558,8 @@ _G.pg.base.item_data_statistics[58813] = {
 }
 
 _G.pg.base.item_data_statistics[58814] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174605,8 +174605,8 @@ _G.pg.base.item_data_statistics[58814] = {
 }
 
 _G.pg.base.item_data_statistics[58815] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174652,8 +174652,8 @@ _G.pg.base.item_data_statistics[58815] = {
 }
 
 _G.pg.base.item_data_statistics[58816] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174694,8 +174694,8 @@ _G.pg.base.item_data_statistics[58816] = {
 }
 
 _G.pg.base.item_data_statistics[58817] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174736,8 +174736,8 @@ _G.pg.base.item_data_statistics[58817] = {
 }
 
 _G.pg.base.item_data_statistics[58818] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174778,8 +174778,8 @@ _G.pg.base.item_data_statistics[58818] = {
 }
 
 _G.pg.base.item_data_statistics[58819] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174820,8 +174820,8 @@ _G.pg.base.item_data_statistics[58819] = {
 }
 
 _G.pg.base.item_data_statistics[58820] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174862,8 +174862,8 @@ _G.pg.base.item_data_statistics[58820] = {
 }
 
 _G.pg.base.item_data_statistics[58821] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174909,8 +174909,8 @@ _G.pg.base.item_data_statistics[58821] = {
 }
 
 _G.pg.base.item_data_statistics[58822] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -174951,8 +174951,8 @@ _G.pg.base.item_data_statistics[58822] = {
 }
 
 _G.pg.base.item_data_statistics[58823] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -175088,8 +175088,8 @@ _G.pg.base.item_data_statistics[58823] = {
 }
 
 _G.pg.base.item_data_statistics[58824] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -175220,8 +175220,8 @@ _G.pg.base.item_data_statistics[58824] = {
 }
 
 _G.pg.base.item_data_statistics[58825] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -175352,8 +175352,8 @@ _G.pg.base.item_data_statistics[58825] = {
 }
 
 _G.pg.base.item_data_statistics[58826] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -175484,8 +175484,8 @@ _G.pg.base.item_data_statistics[58826] = {
 }
 
 _G.pg.base.item_data_statistics[58827] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -175616,8 +175616,8 @@ _G.pg.base.item_data_statistics[58827] = {
 }
 
 _G.pg.base.item_data_statistics[58828] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -175748,8 +175748,8 @@ _G.pg.base.item_data_statistics[58828] = {
 }
 
 _G.pg.base.item_data_statistics[58829] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -175885,8 +175885,8 @@ _G.pg.base.item_data_statistics[58829] = {
 }
 
 _G.pg.base.item_data_statistics[58830] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -176017,8 +176017,8 @@ _G.pg.base.item_data_statistics[58830] = {
 }
 
 _G.pg.base.item_data_statistics[58831] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -176149,8 +176149,8 @@ _G.pg.base.item_data_statistics[58831] = {
 }
 
 _G.pg.base.item_data_statistics[58832] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -176281,8 +176281,8 @@ _G.pg.base.item_data_statistics[58832] = {
 }
 
 _G.pg.base.item_data_statistics[58833] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -176413,8 +176413,8 @@ _G.pg.base.item_data_statistics[58833] = {
 }
 
 _G.pg.base.item_data_statistics[58834] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -176545,8 +176545,8 @@ _G.pg.base.item_data_statistics[58834] = {
 }
 
 _G.pg.base.item_data_statistics[58835] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
 	drop_oil_max = 0,
@@ -182293,8 +182293,8 @@ _G.pg.base.item_data_statistics[59394] = {
 }
 
 _G.pg.base.item_data_statistics[59395] = {
-	display = "用于「湮烬尘墟」活动兑换，活动结束后将会消失",
-	name = "往昔之印",
+	display = "「잿빛 폐허」 이벤트 교환용. 이벤트 종료 후 사라짐",
+	name = "과거의 인장",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,
@@ -182314,8 +182314,8 @@ _G.pg.base.item_data_statistics[59395] = {
 }
 
 _G.pg.base.item_data_statistics[59396] = {
-	display = "用于「限时体验商店」兑换角色限时换装",
-	name = "换装体验券",
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
+	name = "스킨 체험권",
 	max_num = 0,
 	type = 98,
 	drop_oil_max = 0,

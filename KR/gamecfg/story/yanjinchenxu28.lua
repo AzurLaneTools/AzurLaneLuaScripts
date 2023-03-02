@@ -12,7 +12,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "█ █ █·█ █ █ █ █ █",
+			say = "█ █ █ - █ █ █ █ █ █",
 			bgm = "theme-vichy-church",
 			flashin = {
 				delay = 1,
@@ -44,7 +44,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "………………我就知道，回来之后肯定会做噩梦。",
+			say = "……돌아오자마자, 악몽 꿀 줄 알았다니까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在应该算是预感成功了吧？",
+			say = "이걸 예감이 맞아 떨어졌다고 봐야 하나?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "无人回应怨仇的自言自语，只有黑色的太阳在无声地燃烧着。",
+			say = "아무도 대답해주지 않는 임플래커블의 혼잣말, 오로지 검은 태양만이 소리 없이 불타오를 뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然如此，就让我来仔细观察一下你好了。",
+			say = "그렇다면, 어디 이 몸이 관찰해주도록 할까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在凯尔盖朗的时候被你吓了两次，你说你究竟算是什么东西呢?",
+			say = "케르겔렌에 있을 적에 너 때문에 두 번이나 놀랐잖아. 넌 대체 뭐지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "怨仇看向不远处的黑色太阳，终于做出了决定。",
+			say = "임플래커블은 멀지 않은 검은 태양을 바라보다가, 마침내 결정을 내렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "不过在迈开脚步前，她感到了身后突然出现的气息。",
+			say = "그러나 걸음을 내딛기 전, 그녀는 뒤에서 갑자기 무언가 나타난 기운을 느꼈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……陛下？",
+			say = "……폐하?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……您说什么……我，听不清？",
+			say = "……뭐라고 말씀하시는지…... 저, 잘 들리지 않습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,11 +222,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？？",
+			actorName = "????",
 			bgName = "bg_firedust_5",
 			nameColor = "#ffa500",
 			dialogueBgAlpha = 0.6,
-			say = "听不清，那还有救。",
+			say = "잘 안 들린다니, 아직 기회가 있네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,11 +234,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？？",
+			actorName = "????",
 			bgName = "bg_firedust_5",
 			nameColor = "#ffa500",
 			dialogueBgAlpha = 0.6,
-			say = "魑魅魍魉，给本王退下！",
+			say = "이 잡것, 썩 물러가지 못할까!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "轰——————————！",
+			say = "콰앙───────────!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "一阵猛烈的冲击后，那个发出不明声音的伊丽莎白女王不见了。",
+			say = "맹렬한 충격이 벌어지고, 흐릿한 목소리를 내던 퀸 엘리자베스가 사라졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "取而代之的是出现在怨仇身后另一侧的——",
+			say = "그리고 대신한 것은 임플래커블 뒤에 나타난 다른──",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,12 +326,12 @@ return {
 			dialogueBgAlpha = 0.6,
 			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "？？？？",
+			actorName = "????",
 			dir = 1,
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "嗯？这么看着本王做什么？",
+			say = "응? 왜 날 그렇게 보지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……伊丽莎白女王·META？！",
+			say = "……퀸 엘리자베스·META?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,11 +366,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "퀸 엘리자베스·META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "为何要如此惊讶，不是你呼唤的本王么？",
+			say = "왜 그렇게 놀라는 거지, 네가 날 부른 게 아닌가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,11 +386,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "퀸 엘리자베스·META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "细看下来……你并没有META化呢。",
+			say = "자세히 보니…… META화 하지 않았네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,11 +406,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "퀸 엘리자베스·META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "那你为何能呼唤到本王？又是如何被那些东西缠上的？",
+			say = "그럼 넌 어떻게 날 부를 수 있었지? 또 그것들이 들러붙은 건가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,11 +426,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "퀸 엘리자베스·META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "有些意思……",
+			say = "흥미로운데…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我有点……跟不上您的思路。",
+			say = "전 조금…… 폐하의 맥락을 잡을 수 없습니다만.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
-			say = "我这是在做梦么？",
+			say = "전 꿈을 꾸고 있는 건가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,12 +481,12 @@ return {
 			dialogueBgAlpha = 0.6,
 			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "伊丽莎白女王·META",
+			actorName = "퀸 엘리자베스·META",
 			dir = 1,
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "对于你来说，是。",
+			say = "네게 있어선, 그래.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,11 +502,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "퀸 엘리자베스·META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "梦该醒了，这里不是你该来的地方，回去吧。",
+			say = "꿈은 깨어나야지. 여긴 네가 올 곳이 아니야, 돌아가.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是我还有问题————",
+			say = "하지만 전 아직 궁금한 게──",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,11 +541,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "퀸 엘리자베스·META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "本王又没在征求你的意见。",
+			say = "네 의견을 물은 게 아니야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,11 +561,11 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "퀸 엘리자베스·META",
 			actor = 900352,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "「回去」",
+			say = "「돌아가」",
 			painting = {
 				alpha = 0.3,
 				time = 1

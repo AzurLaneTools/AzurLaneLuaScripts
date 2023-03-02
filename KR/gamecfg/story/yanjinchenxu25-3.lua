@@ -10,7 +10,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			stopbgm = true,
-			say = "我、我没看错吧，它正在用身边的执行者修复自己？！",
+			say = "내, 내가 잘못 본 건 아니겠지. 지금 곁의 아비터를 사용해서 자길 고치고 있는 건가?!",
 			bgm = "battle-whaling-normal",
 			painting = {
 				alpha = 0.3,
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这还真是，令人意外……到底是带领军队横扫了这片空间的战争骑士。",
+			say = "이것 참, 뜻밖이네요……. 역시 군대를 이끌고 이 공간을 휩쓴 전쟁의 기사다워요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -45,7 +45,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海域中的大军就是它取之不尽用之不竭的备用零件……",
+			say = "해역의 대군은 무제한적으로 사용할 수 있는 스페어 부품이었던 거군요…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			actor = 201360,
 			dir = 1,
-			say = "这下糟了！战争骑士都这么强……之后的支配骑士要怎么办啊！",
+			say = "이제 큰일났어! 전쟁의 기사가 이렇게나 강한데…... 그 뒤의 지배의 기사는 어떻게 하란 거야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			actor = 206020,
 			dir = 1,
-			say = "现在也许不是该思考支配的时候……先着眼于眼前横冲直撞的战争吧。",
+			say = "지금은 지배에 대해 생각할 때가 아닌 것 같은데요……. 우선 당장 눈앞의 전쟁부터 보도록 하죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "不！也许……现在就是思考一下支配的时候！~",
+			say = "아니야! 혹은…… 지금이 바로 지배에 대해 생각해야 할지도 모르겠어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "还记得这片空间中，四骑士对应的概念是有强弱之分的么？",
+			say = "이 공간에서 네 기사에 상응하는 개념이 강약의 순서가 있던 건 기억해?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "战争强于死亡，支配强于战争。",
+			say = "전쟁은 죽음보다 강하고, 지배는 전쟁보다 강하다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "之前余烬的那位不是也说过，她计划利用支配去消灭战争。",
+			say = "전에 잔해도 말했잖아. 그녀의 계획은 지배를 이용해 전쟁을 소멸시키는 거라고.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "英雄从上层圣物保管柜里拿来的弓是支配的象征……通过放大这个概念，也许能对战局起到什么作用！",
+			say = "히어로가 상층의 성물 진열대에서 꺼내온 활이 바로 지배의 상징이었지……. 이 개념을 확대하면, 혹은 이 전세에 변화를 가져올 수 있을지도 몰라!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "余烬的拉·加利索尼埃，你觉得这个计划怎么样？",
+			say = "잔해의 라 갈리소니에르, 이 계획을 어떻게 생각해?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………我之前说要利用支配消灭战争并不是这个意思。",
+			say = "……내가 전에 말한 지배를 이용해서 전쟁을 소멸시킨단 말은 그 뜻이 아니었는데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			nameColor = "#ffa500",
 			paintingNoise = true,
 			dir = 1,
-			say = "不过你的思路也挺有趣的，作为支配象征的弓啊……也许真能起到些作用。",
+			say = "하지만 흥미로운 사고 방식이야. 지배의 상징인 활이라…… 정말 뭔가 해낼 수 있을지도 모르겠네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,11 +217,11 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#ffa500",
+			nameColor = "#A9F548FF",
 			side = 2,
 			actor = 805010,
 			dir = 1,
-			say = "但是利用支配的力量本身也很危险……",
+			say = "하지만 지배의 힘을 이용한다는 것 자체가 매우 위험할 텐데…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,9 +234,9 @@ return {
 		{
 			actor = 805010,
 			side = 2,
-			nameColor = "#ffa500",
+			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "怨仇女士，不能让你为了鸢尾教国的错误冒这么大风险，还是让我来吧。",
+			say = "임플래커블, 아이리스 교국의 잘못인데 당신이 구태여 위험하게 무릅써서는 안돼. 내가 할게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "不不不，你不行。这座圣堂跟信仰不同的我不对付，所以我受到的正面影响和负面影响都要小，必须得是我来才行。",
+			say = "아뇨아뇨, 당신은 안 됩니다. 이 성당과 신앙이 부합하지 않은 건 나예요. 그러니 나는 긍정적인 영향도 부정적인 영향도 모두 적게 받는 거니까요. 반드시 제가 해야 합니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "放心吧，陛下的荣光护佑着我呢。",
+			say = "안심하세요. 폐하의 영광이 절 지키고 계십니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "再说要真出问题，你就像之前一样，再拉我一把就不就行了？",
+			say = "거기다 정말 문제가 생긴다면, 전처럼 또 절 도와주시면 되잖아요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,11 +296,11 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#ffa500",
+			nameColor = "#A9F548FF",
 			side = 2,
 			actor = 805010,
 			dir = 1,
-			say = "可是……",
+			say = "하지만…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "没有可是，就这么决定了！",
+			say = "하지만은 없어요. 이미 결정된 거니까요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "怨仇从英雄处拿过弓，做出拉弓的动作对准远处的战争机甲。然后开始了低声吟唱。",
+			say = "임플래커블은 히어로에게서 활을 가져와선 활을 당기는 동작으로 먼곳의 전쟁의 기갑을 겨누었다. 그리고 낮은 목소리로 읊기 시작했다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "「……第一印被揭开时，我看到一匹白马……」",
+			say = "「첫 봉인이 열렸을 때, 나는 새하얀 말을 보았다.」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "「……马上的骑士拿着弓，并有冠冕赐给他……」",
+			say = "「말 위의 기사는 활을 들고 그에게 면류관을 내렸다…...」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			actor = 207070,
 			dir = 1,
-			say = "「……他出来征服，胜了又要胜……」",
+			say = "「그는 정복을 위해 나섰고, 승리하고 또 승리했노라.」",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -24,15 +24,15 @@ return {
 			},
 			sequence = {
 				{
-					"接管第七日 00:00:00",
+					"관할 7일 째 00:00:00",
 					0.5
 				},
 				{
-					"自由鸢尾舰队",
+					"아이리스 리브레 함대",
 					1
 				},
 				{
-					"凯尔盖朗岛·圣堂引航灯塔",
+					"케르겔렌 섬·성당 인항 등대",
 					1.5
 				}
 			}
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "钟声敲响，新的一日已经来临。",
+			say = "종소리가 울리고, 새로운 날이 왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "劳累了数日的枢机主教黎塞留，此刻正在办公桌前安眠。",
+			say = "수일간 피로했던 추기경 리슐리외는 사무용 데스크에 앞에 앉아 푹 잠들어 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			nameColor = "#A9F548FF",
-			say = "█ █ █·█ █ █ █ █ █",
+			say = "█ █ █ - █ █ █ █ █ █",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………又是这幅景象。",
+			say = "……또 이 광경인가.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
-			say = "降落至人间的黑色太阳……",
+			say = "세상에 떨어진 검은 태양…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "声音传了出来……究竟是从哪里？",
+			say = "목소리가 들려오고 있어……. 대체 어디서?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我…………理解不了。",
+			say = "난…… 이해할 수가 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
-			say = "请问是谁在说话，能否亮出真容来？",
+			say = "누가 말하고 있는 거지? 얼굴을 보여줄 수 있나?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………让·巴尔？",
+			say = "……장 바르?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			actor = 905010,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			say = "█▎■小▋▂▁▅▎▌心▇▊▇",
+			say = "█▎■조심▋▂▁▅▎▌해▇▊▇",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
-			say = "……小心？小心什么？！",
+			say = "……조심? 뭘 조심하란 거지?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			actor = 905010,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			say = "█▆▎来█▎█",
+			say = "█▆▎가█▎█",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			actor = 905010,
 			nameColor = "#696969",
 			hidePaintObj = true,
-			say = "█▎█▎找▅█▎█▎▌我▅▎▌█",
+			say = "█▎█▎날▅█▎█▎▌찾아▅▎▌█",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等……别走，让·巴尔！",
+			say = "기다려…… 가지 마, 장 바르!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让…………",
+			say = "장…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "………………刚刚的是，噩梦？",
+			say = "……방금은, 악몽?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "只是噩梦……而已…………么？",
+			say = "악몽일……뿐인……가?",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -8,7 +8,7 @@ return {
 			bgName = "bg_firedust_7",
 			stopbgm = true,
 			bgm = "theme-vichy-slaughter",
-			say = "在一连串的爆炸声后，山丘般的机甲巨人终于垮塌，成了再也拼不回来的碎片。",
+			say = "일련의 폭발 소리 후, 산 언덕처럼 거대했던 기갑 거인은 마침내 쓰러져 다시는 이어 붙일 수 없는 조각조각이 되어버렸다.",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -61,7 +61,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "好嘞，收工。怎么样，现在还怀疑我的战斗力么？",
+			say = "좋아, 끝. 어때, 아직도 내 전투력을 의심해?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不…………毫无疑问，你绝对是出色的余烬战士。",
+			say = "아니……. 전혀. 당신은 절대 뛰어난 잔해의 전사군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "幸好你是站在我们这一边的。",
+			say = "우리 편에 서 줘서 다행이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "虽然只是暂时的哦，不过还是多谢夸奖~",
+			say = "일시적인 거지만 말이야. 그래도 칭찬은 고마워~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "余烬的拉·加利索尼埃小姐，您刚刚究竟是……",
+			say = "잔해의 라 갈리소니에르 씨, 당신, 방금은 대체…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "如你所见，我进行了祈祷，然后我获得了回应。",
+			say = "당신이 본 대로, 내가 기도를 했고, 회답을 얻었던 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "塞壬在这里进行的就是这样的实验，我只是利用了一下而已。",
+			say = "세이렌이 이곳에서 진행했던 게 바로 이런 실험이지. 난 이용한 것뿐이고.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "概念的具现化，对吧？！",
+			say = "개념의 구체화, 말인가!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "准确来说，并不是所有概念的具现化，而是与信仰有关的概念的具现化。",
+			say = "정확히 말하면, 모든 개념의 구체화가 아니야. 신앙과 관련된 개념의 구체화지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不过你看来你理解了，很聪明嘛，怨仇小姐。",
+			say = "다만 당신은 이해한 모양이네. 아주 영리하잖아, 임플래커블씨.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼，我之前还尝试着呼唤过“战争”，四骑士需要按顺序消灭也是我发现的呢。",
+			say = "후후후, 일전에 '전쟁'을 부르는 걸 시도한 것도, 네 기사를 순서대로 소멸시키는 것도 내가 발견했는 걸.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "哈啊？你念了第二印呼唤战争？然后呢？",
+			say = "하아? 당신이 두번째를 읊어 전쟁을 불렀다고? 그리곤?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后感觉……好像受到了某些存在的影响，我开始变得不再是我了……幸好被大主教及时打断了。",
+			say = "그리고는…... 마치 무언가 존재하는 것의 영향을 받아 내가 더는 내가 아니게 되었지……. 다행히도 대주교께서 제때 멈춰 주셨지만.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "居然真的那么危险么？",
+			say = "그게 그토록 위험한 짓이었나?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你运气还真好……是的，非常危险。",
+			say = "운이 정말 좋았네……. 그래, 엄청 위험했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "呼唤神是一回事，呼唤末日骑士又是另一回事啊……至少对你呼唤的对象该有个筛选吧。",
+			say = "신을 부르는 것과 종말의 기사를 부르는 건 전혀 다르다고…... 최소 부르는 상대를 선별할 줄 알아야지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不过……嗯……………………我觉得可行，你们要不要试试？",
+			say = "하지만…... 음…...... 쓸 만할지도. 그쪽들도 시도해보지 않겠어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可行？你是指什么？",
+			say = "쓸만하다고? 뭐가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "「信仰的现化」哦，接下来的战争骑士比饥荒骑士还要对付，你们要是不武装一下自己的话，会被轻松消灭的。",
+			say = "「신앙의 실현」말야. 이제 만날 전쟁의 기사는 기근의 기사보다도 더 해. 스스로 더 무장하지 않으면 쉽게 당할 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这一现象是由塞壬的设施引发的吧，我们用了真的不会有副作用么？",
+			say = "이 현상은 세이렌의 시설로 일어나는 걸 텐데, 우리가 써도 정말 부작용은 없는 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不会不会~塞壬设施只是构建了能够实现这一现象的空间，只能算个工具而已。",
+			say = "전혀, 괜찮아~ 세이렌의 시설은 그저 이 현상이 일어나는 공간을 실현시킨 것뿐, 그저 도구라 할 수 있겠지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			actor = 900353,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "好影响与坏影响只取决于使用的人利用它做了什么。",
+			say = "좋은 영향과 나쁜 영향 모두 사용자가 어찌 쓰는지에 달린 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "向主祈祷自然没事，我刚才做的事你也看到了吧？",
+			say = "신에게 기도하면 당연히 문제가 없겠지, 방금 내가 하는 거 봤잖아?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "如果是这样的话……怨仇女士，我觉得有试一下的价值。",
+			say = "만약 그렇다면…... 임플래커블, 시도해볼만한 가치가 있다고 봐.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "咦？……但这里终究还是塞壬的设施哦，你不介意么？",
+			say = "어라? ……하지만 결국 여긴 세이렌의 시설인데. 괜찮으신 건가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自然是介意的，不过这里不还有鸢尾教国时期修建的教堂么？去那里祈祷就好。",
+			say = "물론 신경은 쓰이지만, 그래도 아이리스 교국 시절 지어진 성당이 있잖아. 그곳에서 기도를 올리도록 하지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也…………行。既然大主教您都不介意的话，我自然也不介意。",
+			say = "좋….......습니다. 대주교께서 괜찮으시다면야, 저도 괜찮지요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "事不宜迟，我们这就去找一处适合祈祷的地点吧~",
+			say = "지체 말고 움직이죠. 바로 기도에 적합한 지점을 찾도록 해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
