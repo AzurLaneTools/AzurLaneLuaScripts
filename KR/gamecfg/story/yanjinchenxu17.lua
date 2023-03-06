@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "맞아. 매 기갑마다 한 함대를 통솔해.",
+			say = "맞아요. 매 기갑마다 한 함대를 통솔하죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "기갑 기사가 재탄생했을 때, 해역의 시설은 즉시 양산형의 함대를 생산했어.",
+			say = "기갑 기사가 재탄생했을 때, 해역의 시설은 즉시 양산형의 함대를 생산했어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "기억하십니까? 성당 상층에서 가동되는 장기말 공장은 죽음을 대표하는 청록색이에요.",
+			say = "기억해? 성당 상층에서 가동되는 장기말 공장은 죽음을 대표하는 청록색이었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "그렇단 건 이론상, 최초에 탄생한 건 죽음을 대표하는 기갑 기사와 그의 군대──맞습니까?",
+			say = "그렇단 건 이론상, 최초에 탄생한 건 죽음을 대표하는 기갑 기사와 그의 군대──맞지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "하지만 왜 하층에서 보게 된 건 청록색 군대가 아닌, 죽음을 대표하는 적색 군대죠?",
+			say = "하지만 왜 하층에서 보게 된 건 청록색 군대가 아닌, 전쟁을 대표하는 적색 군대지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "후후, 그거 히어로가 대답할 수 있어!",
+			say = "후후, 그건 히어로가 대답할 수 있어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "어째서? 왜 전쟁의 군대가 가장 강하죠?",
+			say = "어째서? 왜 전쟁의 군대가 가장 강하지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "'종말의 네 기사'란 개념에서는 네 기사가 출현하는 순서를 포함한 것이지 강한 순서를 나눈 건 아니에요.",
+			say = "'종말의 네 기사'란 개념에서는 네 기사가 출현하는 순서를 포함한 것이지 강한 순서를 나눈 건 아니야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "가장 먼저 군대를 개척한 게 죽음의 기사라면, 전쟁의 기사는 왜 나중에 성당 하층 구역의 실제 통치자가 된 거죠?",
+			say = "가장 먼저 군대를 개척한 게 죽음의 기사라면, 전쟁의 기사는 왜 나중에 성당 하층 구역의 실제 통치자가 된 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "내 생각은 그렇습니다.",
+			say = "내 생각은 그래.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "흠? 구체적으로 뭘 할 생각이지?",
+			say = "흠? 구체적으로 뭘 할 생각이죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "이건…… 안돼, 임플래커블, 멈춰!",
+			say = "이건…… 안돼, 임플래커블, 멈춰요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "임플래커블 님…… 임플래커블님……!",
+			say = "임플래커블 님…… 임플래커블 님……!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……쯧, 실례하지.",
+			say = "……쯧, 실례하겠습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "공포탄으로 내가 깨웠어. 기분은 어때?",
+			say = "공포탄으로 제가 깨웠습니다. 기분은 어떤가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -859,7 +859,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "응, 몸에서 붉은 안개가 피어오르더니 아무리 불러도 깨어나지 않았어.",
+			say = "네, 몸에서 붉은 안개가 피어오르더니 아무리 불러도 깨어나지 않았어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -965,7 +965,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그렇다는 건 성당 하층에서 네 기사는 각각 강한 정도가 다르단 거네. 합리적인 추측이야.",
+			say = "그렇다는 건 성당 하층에서 네 기사는 각각 강한 정도가 다르단 거군요. 합리적인 추측이에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1001,7 +1001,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "어떻게 싸웠냐고……?  그야 보이는 족족 없앴겠지?",
+			say = "어떻게 싸웠냐고요……?  그야 보이는 족족 없앴겠지요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1018,7 +1018,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "상세한 내용을 알려면 심판정의 기록을 봐야 해서 나도 정확히는 몰라. 왜 그래?",
+			say = "상세한 내용을 알려면 심판정의 기록을 봐야 해서 저도 정확히는 몰라요. 왜 그러시죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1053,7 +1053,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "만약 첫 봉인부터 네 번째 봉인이 열리는 것까지 심판의 날을 대표해 집행된 것이라면, 그럼 정반대의 순서대로 하면 끝을 의미하는 게 아닙니까!",
+			say = "만약 첫 봉인부터 네 번째 봉인이 열리는 것까지 심판의 날을 대표해 집행된 것이라면, 그럼 정반대의 순서대로 하면 끝을 의미하는 게 아닙니까!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1124,7 +1124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그래서 심판정이 성공하지 못했던 건가……. 아주 합리적인 추측이야. 시도해볼 가치가 있어.",
+			say = "그래서 심판정이 성공하지 못했던 건가……. 아주 합리적인 추측이에요. 시도해볼 가치가 있어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1

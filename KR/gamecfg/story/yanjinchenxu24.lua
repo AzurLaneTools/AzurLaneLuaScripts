@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "응, 나부터 하도록 할까요.",
+			say = "음, 그럼 저부터 하도록 할까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "후……. 임플래커블, 내 기도는 끝났어.",
+			say = "후……. 임플래커블, 제 기도는 끝났어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "의식을 올리는 동안 그저 안심할 수 있는 기분으로 불편한 곳은 없었으니 안심해.",
+			say = "의식을 올리는 동안 그저 안심할 수 있는 기분으로 불편한 곳은 없었으니 안심해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그랬던 건가...... 알겠다.",
+			say = "그랬던 건가...... 알겠어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "이곳은 비록 세이렌의 거울 해역이라곤 하나 결국 아이리스 교국의 개조를 거친 성당이지.",
+			say = "이곳은 비록 세이렌의 거울 해역이라곤 하나 결국 아이리스 교국의 개조를 거친 성당이죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "네 기사, 심판 등 신앙과 관련된 개념은 교국의 인지 체계에서 정의된 거야.",
+			say = "네 기사, 심판 등 신앙과 관련된 개념은 교국의 인지 체계에서 정의된 거에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "물론, '신'이란 개념도 다를 건 없지.",
+			say = "물론, '신'이란 개념도 다를 건 없죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,7 +671,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "아예 이 기회에 아이리스 리브레의 신앙으로 개종하는 건 어때, 임플래커블?",
+			say = "아예 이 기회에 아이리스 리브레의 신앙으로 개종하는 건 어때요, 임플래커블?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "이론상으로 그렇긴 하지만…... 방금 전쟁의 영향은 직접 느꼈잖아. 부디 위험한 개념은 시도하지 말아줘.",
+			say = "이론상으로 그렇긴 하지만…... 방금 전쟁의 영향은 직접 느꼈잖아요. 부디 위험한 개념은 시도하지 말아주세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -767,7 +767,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "퀸 엘리자베스의 조각상…... 설마 퀸에게 기도를 올리려고…...?",
+			say = "퀸 엘리자베스의 조각상…... 설마 퀸에게 기도를 올리려고요…...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -896,7 +896,7 @@ return {
 			bgName = "bg_firedust_10",
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.2,
-			say = "「황실 해군의 수장, 국교의 보호자」",
+			say = "「로열 네이비의 수장, 국교의 보호자」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1121,7 +1121,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……할 말이 없네. 결국 자신이 굳건히 지키는 신앙이 있는 거잖아.",
+			say = "……할 말이 없네요. 결국 자신이 굳건히 지키는 신앙이 있는 거잖아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1

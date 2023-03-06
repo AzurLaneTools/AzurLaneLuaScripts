@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "운이 좋아. 복원 과정이 순조로워 보이는 걸 보니.",
+			say = "운이 좋군요. 복원 과정이 순조로워 보이는 걸 보니.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "당시 이런 상황을 상정하고 설계했던 덕분이지. 그러지 않았으면 여길 그냥 불태워버리는 것보다 더 쉬운 해결 방법이 없었을 테니.",
+			say = "당시 이런 상황을 상정하고 설계했던 덕분이겠죠. 그러지 않았으면 여길 그냥 불태워버리는 것보다 더 쉬운 해결 방법이 없었을 테니까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "정확히 말하면, 2기 공사를 승인한 게 나지. 추기경으로서 내 승인이 필요한 일들은 아주 많아.",
+			say = "정확히 말하면, 2기 공사를 승인한 게 저죠. 추기경으로서 저의 승인이 필요한 일들은 아주 많아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그리고 여길 내가 승인했을 때, 여긴…... 아직 이 모습을 갖추기 전이었지.",
+			say = "그리고 여길 제가 승인했을 때, 여긴…... 아직 이 모습을 갖추기 전이었지요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "모잠비크 성당과 똑같은 상황이야. 비시아 성좌의 손에 들어간 후 많은 것들이 바뀌었어.",
+			say = "모잠비크 성당과 똑같은 상황이에요. 비시아 성좌의 손에 들어간 후 많은 것들이 바뀌었어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "내 얕은 지식과 달리 베아른은 이 성당의 2기 공사에 실제로 참가했었어. 베아른을 이번에 데리고 온 이유기도 하지.",
+			say = "제 얕은 지식과 달리 베아른은 이 성당의 2기 공사에 실제로 참가했었어요. 베아른을 이번에 데리고 온 이유기도 하죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "블랑 성당의 컨트롤 센터로 가려면 반드시 정화 시스템을 완벽히 가동시켜야만 해.",
+			say = "블랑 성당의 컨트롤 센터로 가려면 반드시 정화 시스템을 완벽히 가동시켜야만 해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "지금 당장은 기다리는 수밖에 없어.",
+			say = "지금 당장은 기다리는 수밖에 없어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "고마워.",
+			say = "고맙습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "음? 이런 사소한 일은 내 스스로 해도 괜찮은데.",
+			say = "음? 이런 사소한 일은 나 스스로 해도 괜찮은데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "존명.",
+			say = "네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "……역시 로열 오크 님이시군요. 그리고?",
+			say = "……역시 로열 오크군. 그리고?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -838,7 +838,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "그랬던 거군요……. 장기말들로 이루어진 군대라, 비시아 성좌가 성당을 이용해 진행하던 프로젝트였군요…….",
+			say = "그랬던 거였군……. 장기말들로 이루어진 군대라, 비시아 성좌가 성당을 이용해 진행하던 프로젝트였군…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -855,7 +855,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "리슐리외 대주고, 아이리스 교국 때도 진행했던 건가요?",
+			say = "리슐리외 대주교, 아이리스 교국 때도 진행했던 건가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -872,7 +872,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "최초는 심판정의 생각이었지. 함선이 부족하단 전제 하에 장기말을 사용해서 거대한 함대를 만들어 교국의 안전을 수호하겠단 거였어.",
+			say = "최초는 심판정의 생각이었죠. 함선이 부족하단 전제 하에 장기말을 사용해서 거대한 함대를 만들어 교국의 안전을 수호하겠단 거였어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -890,7 +890,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그러나 계획은 순조롭지 못해서, 그대로 방치됐지.",
+			say = "그러나 계획은 순조롭지 못해서, 그대로 방치됐고요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -944,7 +944,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "하지만 원하는 대로 통제할 수 없었던 거겠지. 그렇지 않고서야 비시아 성좌에서 이렇게 거대한 대군을 버려두고 안 썼을 리가.",
+			say = "하지만 원하는 대로 통제할 수 없었던 거겠죠. 그렇지 않고서야 비시아 성좌에서 이렇게 거대한 대군을 버려두고 안 썼을 리가요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -979,7 +979,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "장기말은 기계이고, 기계는 고장이 나는 법이지.",
+			say = "장기말은 기계이고, 기계는 고장이 나는 법이에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -997,7 +997,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "실험하던 도중, 우린 장기말로 이루어진 군대는 규모가 클수록 같은 행동을 할 때 고장나는 개체가 점점 많아진단 걸 알아차렸어.",
+			say = "실험하던 도중, 우린 장기말로 이루어진 군대는 규모가 클수록 같은 행동을 할 때 고장나는 개체가 점점 많아진단 걸 알아차렸어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1015,7 +1015,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그리고 고장난 장기말은 정상적으로 작동하는 장기말의 움직임에도 영향을 끼쳤고, 고장이 점차 만연해졌지.",
+			say = "그리고 고장난 장기말은 정상적으로 작동하는 장기말의 움직임에도 영향을 끼쳤고, 고장이 점차 만연해졌죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1032,7 +1032,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "심판정은 이걸 '오염'이라 불렀지. 이 오염을 억누르는 게 바로 방금 보았던 정화 시스템이야.",
+			say = "심판정은 이걸 '오염'이라 불렀어요. 이 오염을 억누르는 게 바로 방금 보았던 정화 시스템이고요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1067,7 +1067,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그대들은 아이리스 교국의 설비 고장으로 인한 피해자니까.",
+			say = "여러분들은 아이리스 교국의 설비 고장으로 인한 피해자니까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1084,7 +1084,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "모두가 직접 이 모든 걸 겪었는데 외교 사령을 써서 억지로 부인하느니, 차라리 잡음이 없도록 솔직히 털어놓는 게 더 낫다고 생각했다.",
+			say = "모두가 직접 이 모든 걸 겪었는데 외교 사령을 써서 억지로 부인하느니, 차라리 잡음이 없도록 솔직히 털어놓는 게 더 낫다고 생각했습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1102,7 +1102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "이번 사건을 해결하려면 우리 모두가 마음을 합쳐 함께 노력할 필요가 있어.",
+			say = "이번 사건을 해결하려면 우리 모두가 마음을 합쳐 함께 노력할 필요가 있어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1137,7 +1137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이 사고는 설비의 보수 미비로 인해 일어났다 봐도 돼. 초기의 적절하지 못한 설비 사용이 문제를 더 심화시켰어.",
+			say = "이 사고는 설비의 보수 미비로 인해 일어났다 봐도 됩니다. 초기의 적절하지 못한 설비 사용이 문제를 더 심화시켰어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1155,7 +1155,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "현재 성당의 정화 시스템 네 개가 모두 정지된 상태야. 오염이 확산되면서 장기말 군대가 통제를 잃어 이 사태가 된 거니까.",
+			say = "현재 성당의 정화 시스템 네 개가 모두 정지된 상태에요. 오염이 확산되면서 장기말 군대가 통제를 잃어 이 사태가 된 거니까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1173,7 +1173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그러니까, 우린 이 성당의 정화 시스템 네 개를 새로 보수해서 가동해야 해. 그리고 각 성당의 컨트롤 센터를 가동함과 동시에 모든 고장난 장기말을 파괴해야 하고.",
+			say = "그러니까, 우린 이 성당의 정화 시스템 네 개를 새로 보수해서 가동해야 해요. 그리고 각 성당의 컨트롤 센터를 가동함과 동시에 모든 고장난 장기말을 파괴해야 하고요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1191,7 +1191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "정화 시스템이 정상적으로 가동하고 고장난 장기말이 모두 사라진다면, 성당의 체계는 다시 자연스레 안정을 되찾을 거야.",
+			say = "정화 시스템이 정상적으로 가동하고 고장난 장기말이 모두 사라진다면, 성당의 체계는 다시 자연스레 안정을 되찾을 겁니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1250,7 +1250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그 의견에는 매우 동의하지만, 유감이야. 그런 건 없어.",
+			say = "그 의견에는 매우 동의하지만, 유감입니다. 그런 건 없어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1304,7 +1304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "이벨리아 건은 우리 아이리스 교국에서 발생한 고장이 아닐 텐데?",
+			say = "이벨리아 건은 우리 아이리스 교국에서 발생한 고장이 아닐 텐데요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1374,7 +1374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "휴식 시간은 이걸로 끝이겠군. 그럼 출발할까──",
+			say = "휴식 시간은 이걸로 끝이겠군요. 그럼 출발할까요──",
 			painting = {
 				alpha = 0.3,
 				time = 1

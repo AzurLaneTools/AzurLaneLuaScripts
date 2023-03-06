@@ -77,7 +77,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "아니……. 전혀. 당신은 절대 뛰어난 잔해의 전사군.",
+			say = "아니……. 전혀. 당신은 절대 뛰어난 잔불의 전사군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "잔해의 라 갈리소니에르 씨, 당신, 방금은 대체…….",
+			say = "잔불의 라 갈리소니에르 씨, 당신, 방금은 대체…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "만약 그렇다면…... 임플래커블, 시도해볼만한 가치가 있다고 봐.",
+			say = "만약 그렇다면…... 임플래커블, 시도해볼만한 가치가 있다고 봅니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "물론 신경은 쓰이지만, 그래도 아이리스 교국 시절 지어진 성당이 있잖아. 그곳에서 기도를 올리도록 하지.",
+			say = "물론 신경은 쓰이지만, 그래도 아이리스 교국 시절 지어진 성당이 있잖아요. 그곳에서 기도를 올리도록 하죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1

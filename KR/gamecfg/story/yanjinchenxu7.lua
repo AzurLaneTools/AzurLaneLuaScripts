@@ -619,7 +619,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "'용납도, 자비도 없다'라, 훌륭하군.",
+			say = "'용납도, 자비도 없다'라, 훌륭하군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#A9F548FF",
-			say = "오랜만이야, 임플래커블.",
+			say = "오랜만입니다, 임플래커블.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			bgName = "bg_firedust_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "당신이 여기에 왜 있지?!",
+			say = "당신이 여기에 왜 있는 거죠?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -746,7 +746,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "괜찮습니다. 모두 무사한 걸 보니 안심이 됩니다.",
+			say = "괜찮아. 모두 무사한 걸 보니 안심이 되는군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#A9F548FF",
-			say = "임플래커블, 위기는 아직 해결되지 않았어. 적을 처리한 후에 다시 이야기 하지.",
+			say = "임플래커블, 위기는 아직 해결되지 않았어요. 적을 처리한 후에 다시 이야기 하죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -799,7 +799,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#A9F548FF",
-			say = "감히 아이리스 교국 성당 안을 어지럽히는 불청객 놈들, 죽어라!",
+			say = "감히 아이리스 교국 성당 안을 어지럽히다니, 불청객들은 사라지세요!",
 			painting = {
 				alpha = 0.3,
 				time = 1

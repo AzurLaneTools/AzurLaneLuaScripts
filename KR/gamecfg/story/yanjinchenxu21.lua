@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "다들 조급해 말고 푹 쉬어요.",
+			say = "다들 조급해 말고 푹 쉬어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "다들 기다리게 해서 미안해. 내가 너무 안 늦었다면 좋겠군.",
+			say = "다들 기다리게 해서 미안해요. 제가 너무 안 늦었다면 좋겠군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "고마워. 아주 순조로웠어.",
+			say = "고마워요. 아주 순조로웠어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "전쟁의 함대의 추격을 벗어난 다음, 겸사겸사 베아른과 함께 혹은 출구가 있을지도 모르는 위치를 조사했을 뿐이야.",
+			say = "전쟁의 함대의 추격을 벗어난 다음, 겸사겸사 베아른과 함께 혹은 출구가 있을지도 모르는 위치를 조사했을 뿐이에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "다만 결과는 아주 안타깝게도, 찾지 못했어.",
+			say = "다만 결과는 아주 안타깝게도, 찾지 못했어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "다들 상황은 어때?",
+			say = "다들 상황은 어때요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그대들이 가동한 건가요?!",
+			say = "여러분들이 가동한 건가요?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "잘못 봤을 리가 없어. 이건 일전 비시아 성좌가 모잠비크 성당에서 응용한 적 있던 오로라의 벽의 완성판이야.",
+			say = "잘못 봤을 리가 없어요. 이건 일전 비시아 성좌가 모잠비크 성당에서 응용한 적 있던 오로라의 벽의 완성판이에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그걸 이곳에 만들 줄이야……. 설마 비시아 성좌는 오로라의 벽을 사용히 기갑 기사들의 감옥을 짓고자 했던 건가……?",
+			say = "그걸 이곳에 만들 줄이야……. 설마 비시아 성좌는 오로라의 벽을 사용해 기갑 기사들의 감옥을 짓고자 했던 건가……?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "말이 되지 않아요……. 비시아 성좌의 최신 기술이라면, 하층의 이 시설은 분명 이 년 내에 지었단 겁니다. 그런데 상층의 장기말 생산 시설은 이미 이 년 넘게 가동되었다고요.",
+			say = "말이 되지 않아요……. 비시아 성좌의 최신 기술이라면, 하층의 이 시설은 분명 이 년 내에 지었단 겁니다. 그런데 상층의 장기말 생산 시설은 이미 2년 넘게 가동되었다고요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "혹은…… 이 사고는 최초의 비시아 성좌가 원했던 것이 아니고, 이곳에 주둔한 이들은… 보수에 소홀해 일어난 것일지도.",
+			say = "혹은…… 이 사고는 최초의 비시아 성좌가 원했던 것이 아니고, 이곳에 주둔한 이들은… 보수에 소홀해 일어난 것일지도요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "성좌 사령부는 이곳의 형세가 통세를 잃자, 혹은 새로이 이 국면을 바로잡고자 했을지도 몰라. 그러나 능력이 부족함을 발견하고 아예 포기한 거지.",
+			say = "성좌 사령부는 이곳의 형세가 통세를 잃자, 혹은 새로이 이 국면을 바로잡고자 했을지도 몰라요. 그러나 능력이 부족함을 발견하고 아예 포기한 거죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "콘솔 혹은 에너지 공급 장치를 찾아내야만 해제할 수 있어.",
+			say = "콘솔 혹은 에너지 공급 장치를 찾아내야만 해제할 수 있어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그건 안돼!!!!!!!!!",
+			say = "그건 안돼요!!!!!!!!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -820,7 +820,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "멍청한 짓을 벌이는 걸 막는 거야!",
+			say = "멍청한 짓을 벌이는 걸 막는 거에요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -849,7 +849,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "두 번째 봉인을 읊었을 때 벌어진 일을 기억하곤 있는 거야?!",
+			say = "두 번째 봉인을 읊었을 때 벌어진 일을 기억하곤 있는 거에요?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -884,7 +884,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……혹은, 그대의 신앙이 부족해서 효과가 없는 걸지도?",
+			say = "……어쩌면, 당신의 신앙이 부족해서 효과가 없는 걸지도 모르죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1

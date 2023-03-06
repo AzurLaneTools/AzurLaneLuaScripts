@@ -133,7 +133,7 @@ return {
 			},
 			options = {
 				{
-					content = "맛있네요.",
+					content = "시애틀.",
 					flag = 1
 				}
 			}
@@ -205,7 +205,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "활기찬 분위기는 정말 좋았어요.",
+			say = "활기찬 분위기는 정말 좋았어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			},
 			options = {
 				{
-					content = "당신이요.",
+					content = "시애틀.",
 					flag = 1
 				},
 				{
@@ -547,7 +547,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "일과 휴식은 적절하게 병행해야 하니까요.",
+			say = "일과 휴식은 적절하게 병행해야 하니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

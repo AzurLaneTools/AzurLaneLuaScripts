@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "정확히 말한다면 베르트 성당 내부를 정화하던 그 순간이지.",
+			say = "정확히 말한다면 베르트 성당 내부를 정화하던 그 순간이죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "네 성당의 정화 프로그램을 완성한 후에야 이 보루가 땅밑에서 올라왔어.",
+			say = "네 성당의 정화 프로그램을 완성한 후에야 이 보루가 땅밑에서 올라왔어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "모든 단계를 시행한 후 마지막 단계인 곳이지. 물론, 이렇게 은밀한 곳은 지도에 표시해놓지 않아.",
+			say = "모든 단계를 시행한 후 마지막 단계인 곳이죠. 물론, 이렇게 은밀한 곳은 지도에 표시해놓지 않아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "응, 그해 심판정의 가장 신예였던 기도함 역시 이곳에서 가라앉았지.",
+			say = "네, 그해 심판정의 가장 신예였던 기도함 역시 이곳에서 가라앉았지요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그 배는 아이리스 해군 서열에 속하지 못해서 사실 전투에 참여하지 않아도 됐는데 말야.",
+			say = "그 배는 아이리스 해군 서열에 속하지 못해서 사실 전투에 참여하지 않아도 됐는데 말이에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "다만 성좌께서 그 어떤 대가를 치뤄서라도 케르겔렌 섬을 되찾으라는 명령을 내리셨을 때, 심판정이 즉시 그 배를 최전선으로 끌고 갔거든.",
+			say = "다만 성좌께서 그 어떤 대가를 치뤄서라도 케르겔렌 섬을 되찾으라는 명령을 내리셨을 때, 심판정이 즉시 그 배를 최전선으로 끌고 갔거든요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그 배를 만들기 위해 심판정은 엄청난 액수를 들였으니까, 그러니 당시 기도함은 사실 아이리스 해군 중 전투력이 가장 강한 상규 전함이었어.",
+			say = "그 배를 만들기 위해 심판정은 엄청난 액수를 들였으니까, 그러니 당시 기도함은 사실 아이리스 해군 중 전투력이 가장 강한 상규 전함이었어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "전투에서 매우 중요한 역할을 하기도 했지.",
+			say = "전투에서 매우 중요한 역할을 하기도 했죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "하지만 그 대가로, 그 배는 영원히 이곳에 가라앉아버렸지…….",
+			say = "하지만 그 대가로, 그 배는 영원히 이곳에 가라앉아버렸어요…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "……그렇군, 정말 그리운 모습이야.",
+			say = "……그렇군요, 정말 그리운 모습이네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그럴 필요 없어. 아직 위기를 완전히 벗어난 게 아닌데 그럴 때가 아니지.",
+			say = "그럴 필요 없어요. 아직 위기를 완전히 벗어난 게 아닌데 그럴 때가 아니죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "모든 일이 끝나고 나면, 회포를 풀 시간은 충분히 많을 거야…….",
+			say = "모든 일이 끝나고 나면, 회포를 풀 시간은 충분히 많을 거에요…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "베아른, 마지막 정화 시스템을 가동해라. '심판' 프로그램을 가동하도록.",
+			say = "베아른, 마지막 정화 시스템을 가동해 주세요. '심판' 프로그램을 가동하도록.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "존명──",
+			say = "네──",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "아, 괜찮아.",
+			say = "아, 괜찮습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그 활은 그저 상징물이지 진정한 성물이 아니야. 맘에 든다면 기념품으로 가져가도 좋네.",
+			say = "그 활은 그저 상징물이지 진정한 성물이 아니에요. 맘에 든다면 기념품으로 가져가도 좋아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "만약 당신의 도움이 아니었다면 아거스와 로열 오크 님 모두 무사하지 못했을 겁니다. 이번 위기는 벽람항로의 온 안테디카에 대한 제어에 영향을 미쳤을 거고요.",
+			say = "만약 당신의 도움이 아니었다면 아거스와 로열 오크 님 모두 무사하지 못했을 겁니다. 이번 위기는 벽람항로의 온 남극에 대한 제어에 영향을 미쳤을 거고요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "이곳을 되찾고, 과거의 깃발이 다시 빛을 본 것만으로도 난 이미 충분히 만족했네.",
+			say = "이곳을 되찾고, 과거의 깃발이 다시 빛을 본 것만으로도 전 이미 충분히 만족했습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "감사의 말 외엔, 퀸 엘리자베스에게 특별히 전할 건 없네.",
+			say = "감사의 말 외엔, 퀸 엘리자베스에게 특별히 전할 말은 없습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1

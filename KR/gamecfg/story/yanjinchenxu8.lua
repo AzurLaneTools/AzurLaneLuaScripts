@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "베아른, 전장을 잘 살피도록. 움직일 수 있는 단 한 놈도 놓쳐선 안돼.",
+			say = "베아른, 전장을 잘 살피세요. 움직일 수 있는 단 한 명도 놓쳐선 안됩니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "이벨리아에서 작별한 후 꽤 시간이 흘렀네.",
+			say = "이벨리아에서 작별한 후 꽤 시간이 흘렀군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "본토로 돌아간 후 내내 군함을 업그레이드하며 개조한단 소문은 들었어. 얼마 전엔 안테디카 함대의 기함으로 이 부근에 동원되었다던가?",
+			say = "본토로 돌아간 후 내내 군함을 업그레이드하며 개조한단 소문은 들었어요. 얼마 전엔 남극 함대의 기함으로 이 부근에 동원되었다던가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "맹우가 아닌가. 더욱이 아이리스 교국의 영토에서 벌어진 일이야. 내가 돕는 건 당연하지. 굳이 감사할 필요 없어, 임플래커블.",
+			say = "맹우 아닌가요. 더욱이 아이리스 교국의 영토에서 벌어진 일이에요. 제가 돕는 건 당연하죠. 굳이 감사할 필요 없어요, 임플래커블.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "말해보게.",
+			say = "말씀해보세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "대주교께선 아프리카, 전 안테디카에 주둔하고 있지요.",
+			say = "대주교께선 아프리카, 전 남극에 주둔하고 있지요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그거였나……. 그게 궁금한 건 당연하겠지.",
+			say = "그거였나요……. 그게 궁금한 건 당연하겠지요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "이곳의 성당은 우리 아이리스 교국의 창조물이야. 성당에서 발송된 메시지는 정상적인 루트 외의 방법으로, 즉 우리에겐 수신할 수 있는 다른 수단이 있단 거야.",
+			say = "이곳의 성당은 우리 아이리스 교국의 창조물입니다. 성당에서 발송된 메시지는 정상적인 루트 외의 방법으로, 즉 저희에겐 수신할 수 있는 다른 수단이 있다는 거죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "우린 그 특수 기기를 이용해서 너희보다 빨리 신호를 받았던 거지.",
+			say = "저흰 그 특수 기기를 이용해서 여러분보다 빨리 신호를 받았던 거죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "……은빛 바다 순찰 함대? 무슨 얘길 하는 건지?",
+			say = "……은빛 바다 순찰 함대요? 무슨 얘기죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "(작은 목소리로) 잘 들으세요. 당신의 도움 덕에 로열 오크 님과 아거스가 무사할 수 있었어요……. 진심으로 감사하고 있습니다.",
+			say = "(작은 목소리로) 잘 들으세요. 당신의 도움 덕에 로열 오크와 아거스가 무사할 수 있었어요……. 진심으로 감사하고 있습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "확실히…… 비시아 성좌의 손에 떨어진 지 오래되었어도 여긴 여전히 우리 아이리스 교국의 성당이니까.",
+			say = "확실히…… 비시아 성좌의 손에 떨어진 지 오래되었어도 여긴 여전히 우리 아이리스 교국의 성당이니까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "정말 뜻밖이군. 그녀들이 보수를 소홀히 한 탓에 이렇게 심각한 사고가 벌어졌어.",
+			say = "정말 뜻밖이군요. 그녀들이 보수를 소홀히 한 탓에 이렇게 심각한 사고가 벌어졌어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그렇다고 할 수 있지. 다만 상세히 얘기하려면 얘기가 길어져.",
+			say = "그렇다고 할 수 있죠. 다만 상세히 얘기하려면 얘기가 길어져요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "아무튼, 이 사건을 해결하려면 가야 할 곳이 많아. 가면서 얘기하지──",
+			say = "아무튼, 이 사건을 해결하려면 가야 할 곳이 많아요. 가면서 얘기하죠──",
 			painting = {
 				alpha = 0.3,
 				time = 1

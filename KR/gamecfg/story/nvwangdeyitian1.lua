@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "마치 NA 해역 중심 특이점에서 만났던 사이렌 대행자처럼….",
+			say = "마치 NA 해역 중심 특이점에서 만났던 세이렌 대행자처럼….",
 			painting = {
 				alpha = 0.3,
 				time = 1

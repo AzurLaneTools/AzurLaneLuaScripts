@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "매우 비정상적인 상황이군요. 다들 자세히 탐색해. 어쩐지 좋지 못한 예감이 들어…….",
+			say = "매우 비정상적인 상황이군. 다들 자세히 탐색해. 어쩐지 좋지 못한 예감이 들어…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "임플래커블, 왜 갑자기 META를 생각해낸거지?",
+			say = "임플래커블, 왜 갑자기 META를 생각해낸거죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "아…… 대주교께선 아직 모르시군요. 최근 정체불명의 META가 로열에 적대적으로 나오고 있습니다. 어디서든 조심하지 않으면 안 되지요.",
+			say = "아…… 대주교께선 아직 모르시군요. 최근 정체불명의 META가 로열에 적대적으로 나오고 있습니다. 어디서든 조심하지 않으면 안 돼요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "정체불명의 META가 현재 해역에서 로열에게 적대 행위를 취하고 있다고……?",
+			say = "정체불명의 META가 현재 해역에서 로열에게 적대 행위를 취하고 있다고요……?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그거 정말 위험한데. 정보 고마워. 우리도 경계를 갖추도록 해야겠어.",
+			say = "그거 정말 위험하군요. 정보 고마워요. 우리도 경계를 갖추도록 해야겠어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그렇다면, 효율을 위해 나눠서 수색하는 건 어떨까?",
+			say = "그렇다면, 효율을 위해 나눠서 수색하는 건 어떨까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "우린 전쟁의 기사의 상황을 확인할 테니, 지배의 기사와 기근의 기사는 그쪽에 부탁하는 건 어때?",
+			say = "저흰 전쟁의 기사의 상황을 확인할 테니, 지배의 기사와 기근의 기사는 여러분께 맡길게요, 어때요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,7 +750,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "지배의 기사 역시 이론상으론 네 기사 중 가장 강해. 위험한 건 다들 똑같아. 지금은 서로 배려할 때가 아니야.",
+			say = "지배의 기사 역시 이론상으론 네 기사 중 가장 강해요. 위험한 건 다들 똑같아요. 지금은 서로 배려할 때가 아닙니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1

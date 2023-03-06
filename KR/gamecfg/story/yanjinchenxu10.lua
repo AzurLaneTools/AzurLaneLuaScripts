@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "모두 정리됐어. 방금 파괴한 것들이 마지막이었나 보군.",
+			say = "모두 정리됐어요. 방금 파괴한 것들이 마지막이었나 보군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "베아른, 상황은 어떻지?",
+			say = "베아른, 상황은 어떻지요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "아주 훌륭해.",
+			say = "아주 훌륭해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "더 중요한 게 있는 것 같군요. 이곳의 설계는 원래 군사 요새, 혹은 군용 공장같은 곳을 위한 것이었겠죠….",
+			say = "더 중요한 게 있는 것 같아. 이곳의 설계는 원래 군사 요새, 혹은 군용 공장같은 곳을 위한 것이었겠지….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "음…… 심판정은 과거에 확실히 그런 계획을 세웠었지. 실제로 하나 만들기도 했어.",
+			say = "음…… 심판정은 과거에 확실히 그런 계획을 세웠었죠. 실제로 하나 만들기도 했어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "내 기억으로 당시에 「전선 기도함」으로 분류됐었지.",
+			say = "제 기억으로 당시에 「전선 기도함」으로 분류됐었어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "아주 오래 전 일이야. 거기다 기도함은 완공되고 얼마 되지도 않아서 심판정이 전장 최전선으로 끌고 갔거든.",
+			say = "아주 오래 전 일입니다. 거기다 기도함은 완공되고 얼마 되지도 않아서 심판정이 전장 최전선으로 끌고 갔거든요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "다만 아쉽게도, 첫 항해가 마지막 항해가 되었지.",
+			say = "다만 아쉽게도, 첫 항해가 마지막 항해가 되었죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "이제 두번째 성당, 루즈 성당이야. 모두 날 따라오도록──",
+			say = "이제 두번째 성당, 루즈 성당입니다. 모두 절 따라오세요──",
 			painting = {
 				alpha = 0.3,
 				time = 1

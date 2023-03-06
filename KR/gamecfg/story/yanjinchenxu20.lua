@@ -239,7 +239,7 @@ return {
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……응? 뭘 하는 거죠?",
+			say = "……응? 뭘 하는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "크흠…… 신경쓰실 필요 없습니다.",
+			say = "크흠…… 신경쓸 필요 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "아무튼, 이 빛의 벽을 뚫고 건물에 들어갈 방법을 찾고 있었지만 안타깝게도 진전은 없었습니다.",
+			say = "아무튼, 이 빛의 벽을 뚫고 건물에 들어갈 방법을 찾고 있었지만 안타깝게도 진전은 없었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "해보진 않았지만 효용은 없을 것 같은데, 여길 봐요──",
+			say = "해보진 않았지만 효용은 없을 것 같은데, 여길 봐──",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "응, 죽음의 기사의 기체에서 발견된 상처와 흡사해요.",
+			say = "응, 죽음의 기사의 기체에서 발견된 상처와 흡사해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -783,7 +783,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "비행기로 날면서 위에서 폭발시키는 것도 시도해봤답니다.",
+			say = "비행기로 날면서 위에서 폭발시키는 것도 시도해봤어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "꼭대기 부분은 빛의 벽에 감싸이지 않은 것처럼 보이지만, 비행기가 지나치게 낮게 날면 불명의 원인으로 통제를 잃고 폭탄을 떨어뜨려도 터지지 않아요.",
+			say = "꼭대기 부분은 빛의 벽에 감싸이지 않은 것처럼 보이지만, 비행기가 지나치게 낮게 날면 불명의 원인으로 통제를 잃고 폭탄을 떨어뜨려도 터지지 않아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "벌써 함재기를 몇 대나 잃었답니다.",
+			say = "벌써 함재기를 몇 대나 잃었다고.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "보아하니 누가 여길 봉쇄했건, 외부인이 못 들어가게 할 목적인 건 분명해요.",
+			say = "보아하니 누가 여길 봉쇄했건, 외부인이 못 들어가게 할 목적인 건 분명해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -873,7 +873,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "이론상으론 그래야 하겠지만…… 이 해역은 복잡하고 또 위험해서 수색한다 쳐도 언제까지 찾아야 할지 몰라요.",
+			say = "이론상으론 그래야 하겠지만…… 이 해역은 복잡하고 또 위험해서 수색한다 쳐도 언제까지 찾아야 할지 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "가능성일 뿐이에요.",
+			say = "가능성일 뿐이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -944,7 +944,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이곳이 비시아 성좌의 시설이라면 어느 정도 추측은 됩니다만…… 아직 확신할 순 없어요.",
+			say = "이곳이 비시아 성좌의 시설이라면 어느 정도 추측은 됩니다만…… 아직 확신할 순 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -962,7 +962,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "우선 디저트라도 먹으면서 체력을 보충할까요. 대주교들이 도착한 후 다시 얘기합시다.",
+			say = "우선 디저트라도 먹으면서 체력을 보충할까. 대주교들이 도착한 후 다시 얘기하자.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -10,7 +10,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			stopbgm = true,
-			say = "임플래커블, 전쟁의 기사가 우리의 방향으로 습격해오고 있어.",
+			say = "임플래커블, 전쟁의 기사가 우리의 방향으로 습격해오고 있어요.",
 			bgm = "battle-whaling-normal",
 			painting = {
 				alpha = 0.3,
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			actor = 805010,
 			dir = 1,
-			say = "…....임플래커블, 화 가라앉혀.",
+			say = "…....임플래커블, 화를 가라앉히세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "이렇게 된 이상 우리도 다른 선택지가 없어. 화는 적에게 풀도록 하자구.",
+			say = "이렇게 된 이상 우리도 다른 선택지가 없어요. 화는 적에게 풀도록 하자구요.",
 			painting = {
 				alpha = 0.3,
 				time = 1

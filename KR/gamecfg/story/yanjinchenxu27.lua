@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
-			say = "누가 말하고 있는 거지? 얼굴을 보여줄 수 있나?",
+			say = "누가 말하고 있는 거죠? 얼굴을 보여줄 수 있나요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
-			say = "……조심? 뭘 조심하란 거지?!",
+			say = "……조심? 뭘 조심하란 거죠?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "기다려…… 가지 마, 장 바르!",
+			say = "기다려…… 가지 마세요, 장 바르!",
 			painting = {
 				alpha = 0.3,
 				time = 1

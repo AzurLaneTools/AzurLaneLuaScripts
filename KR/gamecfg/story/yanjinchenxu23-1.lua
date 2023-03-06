@@ -44,7 +44,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "스킬라, 잔해의 라 갈리소니에르를 어떻게 생각하지?",
+			say = "스킬라, 잔불의 라 갈리소니에르를 어떻게 생각하지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "혹은 우리가 잔해의 천연스러움에 불신을 품고 생기는 착각인지도, 하지만 그게 아닐지도.",
+			say = "혹은 우리가 잔불의 천연스러움에 불신을 품고 생기는 착각인지도, 하지만 그게 아닐지도.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "존명, 임플래커블 님.",
+			say = "네, 임플래커블 님.",
 			painting = {
 				alpha = 0.3,
 				time = 1

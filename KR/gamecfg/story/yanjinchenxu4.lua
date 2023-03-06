@@ -225,7 +225,7 @@ return {
 			actorName = "통신기",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "「케르겔렌 성당 분대에서 안테디카 함대 사령부를 호출한다」",
+			say = "「케르겔렌 성당 분대에서 남극 함대 사령부를 호출한다」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "섬세한 관찰력이군요……!",
+			say = "섬세한 관찰력이군……!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "그 후에 시스템에 문제가 발생한 거야. 컨트롤 센터는 성당 내부에서 로열 오크 님이 현재 적과 교전 중이라는 모호한 통신을 받게  되었고요.",
+			say = "그 후에 시스템에 문제가 발생한 거에요. 컨트롤 센터는 성당 내부에서 로열 오크 님이 현재 적과 교전 중이라는 모호한 통신을 받게  되었고요.",
 			painting = {
 				alpha = 0.3,
 				time = 1

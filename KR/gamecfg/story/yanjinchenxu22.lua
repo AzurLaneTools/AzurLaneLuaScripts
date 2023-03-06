@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그건 나도 모르겠네. 완성된 오로라의 벽은 나도 처음 보니까.",
+			say = "그건 저도 모르겠네요. 완성된 오로라의 벽은 저도 처음 보니까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "게다가 이건 비시아 성좌의 설비야. 뒷문이 있대도 나한테 열어주진 않겠지.",
+			say = "게다가 이건 비시아 성좌의 설비에요. 뒷문이 있대도 저한테 열어주진 않겠죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "임플래커블 님, 옆에 저기 꼼짝도 않는 건 지배의 군대인건가?",
+			say = "임플래커블 님, 옆에 저기 꼼짝도 않는 건 지배의 군대인 건가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "힘이 넘친다면 지배의 기사의 위치를 찾으러 가봐요.",
+			say = "힘이 넘친다면 지배의 기사의 위치를 찾으러 가봐.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "하지만! 아무것도 만져선 안 됩니다!",
+			say = "하지만! 아무것도 만져선 안 돼!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "알겠어요~ 히어로 출동~☆",
+			say = "알겠어~ 히어로 출동~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "그리고 감옥 안에는 모호한 인영 하나가 보이고 있었다.",
+			say = "그리고 감옥 안에는 모호한 그림자 하나가 보이고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "뭐라고?! 라 갈리소니에르가 여기 갇혀 있다고?!",
+			say = "뭐라고요?! 라 갈리소니에르가 여기 갇혀 있다고요?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "그야 당연하지~ 안녕, 이 세계의 리슐리외 주교. 난 잔해에서 온 라 갈리소니에르야.",
+			say = "그야 당연하지~ 안녕, 이 세계의 리슐리외 주교. 난 잔불에서 온 라 갈리소니에르야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "잔해에서 온?!",
+			say = "잔불에서 온?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,7 +738,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그쪽이 우리와 적대하는데 먼저 정보를 조사해야 하는 건 당연한 것 아닌가요?",
+			say = "그쪽이 우리와 적대하는데 먼저 정보를 조사해야 하는 건 당연한 것 아닌가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -784,7 +784,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "그럼 여기는 뭣하러…… 아니지, 어떻게 오로라의 벽을 뚫고 들어온 겁니까?",
+			say = "그럼 여기는 뭣하러…… 아니지, 어떻게 오로라의 벽을 뚫고 들어온 거지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1013,7 +1013,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "그런데 어떻게 들어온 거야? 난 잔해야. 이까짓 술수론 날 어쩔 수 없거든.",
+			say = "그런데 어떻게 들어온 거야? 난 잔불이야. 이까짓 술수론 날 어쩔 수 없거든.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1066,7 +1066,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "당신…… 설마 잔해에 들어간 지 얼마 안 된 건가?",
+			say = "당신…… 설마 잔불에 들어간 지 얼마 안 된 건가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1119,7 +1119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "하지만 잔해는 모두 매우 강한데, 왜 이런 복잡한 방법을 쓴 거지?",
+			say = "하지만 잔불은 모두 매우 강한데, 왜 이런 복잡한 방법을 쓴 거지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1217,7 +1217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "그러고 보니, 잔해는 세이렌을 소멸할 때 어딜 가서 어딜 공격하는지 하는 방식을 따르는 게 아니었나?",
+			say = "그러고 보니, 잔불은 세이렌을 소멸할 때 어딜 가서 어딜 공격하는지 하는 방식을 따르는 게 아니었나?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1252,7 +1252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "설마 당신……잔해에서 최약체라 이런 잡일만 전문으로 시키는 거야?",
+			say = "설마 당신……잔불에서 최약체라 이런 잡일만 전문으로 시키는 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1269,7 +1269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "잔해의 일원도 아니면서 왜 우리가 이런 일을 안 한다고 생각하지?",
+			say = "잔불의 일원도 아니면서 왜 우리가 이런 일을 안 한다고 생각하지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1403,7 +1403,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900353,
-			say = "미리 말해두지만, 내가 쭉 귀환하지 않으면 역시 날 찾으러 오게 되어 있으니까. 잔해는 그렇게 냉혹하고 무정한 조직이 아니라고.",
+			say = "미리 말해두지만, 내가 쭉 귀환하지 않으면 역시 날 찾으러 오게 되어 있으니까. 잔불은 그렇게 냉혹하고 무정한 조직이 아니라고.",
 			painting = {
 				alpha = 0.3,
 				time = 1

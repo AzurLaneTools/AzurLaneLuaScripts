@@ -392,11 +392,11 @@ return {
 			},
 			options = {
 				{
-					content = "무슨 말인지 이해했어요….",
+					content = "무슨 말인지 이해했어⋯ ",
 					flag = 1
 				},
 				{
-					content = "알바코어가 바로 시애틀이 찾고 있던 서프라이즈 대가인가요?",
+					content = "알바코어가 바로 시애틀이 찾고 있던 서프라이즈 대가인가?",
 					flag = 2
 				}
 			},
@@ -525,7 +525,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "시애틀의 이론은 정말 대단하다고 밖에 볼 수 없네요——",
+			say = "시애틀의 이론은 정말 대단하다고 볼 수 밖에 없네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

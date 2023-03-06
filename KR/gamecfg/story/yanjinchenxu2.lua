@@ -19,11 +19,11 @@ return {
 					1
 				},
 				{
-					"로열 네이비 안테디카 함대",
+					"로열 네이비 남극 함대",
 					2
 				},
 				{
-					"안테디카 함대 사령부",
+					"남극 함대 사령부",
 					3
 				}
 			},
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "존명, 즉시 준비하겠습니다.",
+			say = "네, 즉시 준비하겠습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1086,7 +1086,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "다 아시면서 묻는 거 말고는 '폐하께서 친히 제정하신 로열 네이비 안테디카 함대 기함'이 이런 걸 물으실 이유가 생각나지 않네요.",
+			say = "다 아시면서 묻는 거 말고는 '폐하께서 친히 제정하신 로열 네이비 남극 함대 기함'이 이런 걸 물으실 이유가 생각나지 않네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1228,7 +1228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "맞아, 최근 정체불명의 META가 황실을 적대하고 있어.",
+			say = "맞아, 최근 정체불명의 META가 로열을 적대하고 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1282,7 +1282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "아거스와 로열 오크 님 모두 매우 믿음직스러운 전사고.",
+			say = "아거스와 로열 오크 모두 매우 믿음직스러운 전사고.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1353,7 +1353,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "존명.",
+			say = "네.",
 			painting = {
 				alpha = 0.3,
 				time = 1

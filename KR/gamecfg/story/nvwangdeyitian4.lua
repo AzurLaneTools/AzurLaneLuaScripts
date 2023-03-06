@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "아발론의 문·카멜로의 궁전",
+			say = "아발론의 문·카멜롯의 궁전",
 			bgmDelay = 2,
 			bgm = "theme-camelot",
 			flashout = {
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "에? 폐하, 카멜로의 정원을 작동시켜 어떤 임무를 수행하시려는 겁니까?",
+			say = "에? 폐하, 카멜롯의 정원을 작동시켜 어떤 임무를 수행하시려는 겁니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이번엔 아니야. 지난번 상황으로 볼 때 카멜로의 정원을 작동시켜 이동하면 본험 리차드에게 발각될 가능성이 커.",
+			say = "이번엔 아니야. 지난번 상황으로 볼 때 카멜롯의 정원을 작동시켜 이동하면 본험 리차드에게 발각될 가능성이 커.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "안전이 절대적으로 보장될 때까지 이 몸께선 무슨 일이 있어도 다시 카멜로의 정원을 작동하지 않을 거다.",
+			say = "안전이 절대적으로 보장될 때까지 이 몸께선 무슨 일이 있어도 다시 카멜롯의 정원을 작동하지 않을 거다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이번에 온 건 다른 일 때문에 카멜로 정원의 새로운 사용법을 연구하고 몇 가지 테스트를 좀 하기 위해서지.",
+			say = "이번에 온 건 다른 일 때문에 카멜롯 정원의 새로운 사용법을 연구하고 몇 가지 테스트를 좀 하기 위해서지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "카멜로의 정원은 함대가 충분히 다른 세계로 갈 수 있는 통로를 만들 수 있기 때문에 정보 전송을 위한 통로를 만드는 것은 충분히 가능하지.",
+			say = "카멜롯의 정원은 함대가 충분히 다른 세계로 갈 수 있는 통로를 만들 수 있기 때문에 정보 전송을 위한 통로를 만드는 것은 충분히 가능하지.",
 			painting = {
 				alpha = 0.3,
 				time = 1

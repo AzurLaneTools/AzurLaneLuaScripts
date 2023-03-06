@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "즉시 안타디카양 함대에 성당 장악을 명령한다!",
+			say = "즉시 남극해 함대에 성당 장악을 명령한다!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "갑자기 따끈한 팬케이크가 손에 쥐어졌다.",
+			say = "갑자기 따끈한 팬케이크가 앞에 놓여졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -19,7 +19,7 @@ return {
 					1
 				},
 				{
-					"황실과 아이리스 리브레 연합 함대",
+					"로열과 아이리스 리브레 연합 함대",
 					2
 				},
 				{
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "아거스의 잘못된 조작이 없었어도, 어차피 이 사태는 시간 문제였단 겁니다.",
+			say = "아거스의 잘못된 조작이 없었어도, 어차피 이 사태는 시간 문제였단 건가.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "여긴 아이리스 교국의 영토입니다. 본래라면 당신의 소관이었겠죠. 리슐리외 대주교님?",
+			say = "여긴 아이리스 교국의 영토, 본래라면 당신의 소관이었겠죠. 리슐리외 대주교님?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "정말이지…… 엉뚱한 착오로 그대들에게 도움을 받았어.",
+			say = "정말이지…… 엉뚱한 착오로 여러분들에게 도움을 받았군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "……성당 구조 중 하나야. 주로 장기말의 '회수'와 '처리'에 사용되지.",
+			say = "……성당 구조 중 하나입니다. 주로 장기말의 '회수'와 '처리'에 사용되죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그 곳 상황도 낙관적이지 못할 가능성이 커……. 하지만 하층은 현재 우리의 임무와는 관련이 없어.",
+			say = "그 곳 상황도 낙관적이지 못할 가능성이 커요……. 하지만 하층은 현재 우리의 임무와는 관련이 없어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "네 성당의 정화를 끝내고 나면 이 국면은 통제할 수 있겠지.",
+			say = "네 성당의 정화를 끝내고 나면 이 국면은 통제할 수 있겠죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "다른 일은…… 케르겔렌 섬이 아이리스 리브레의 통제 밑에 들어오면, 내 사람들이 천천히 처리할 거다.",
+			say = "다른 일은…… 케르겔렌 섬이 아이리스 리브레의 통제 밑에 들어오면, 저희 사람들이 천천히 처리할 겁니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "퀸 엘리자베스도 이걸 막진 않겠지?",
+			say = "퀸 엘리자베스도 이걸 막진 않겠죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "황실에서 이 먼 곳까지 아이리스 리브레가 옛 땅을 되찾게 지원을 보내준 것, 임플래커블 그대가 나 대신 퀸 엘리자베스께 내 가장 진실된 감사를 전해주게.",
+			say = "로열에서 이 먼 곳까지 아이리스 리브레가 옛 땅을 되찾게 지원을 보내준 것, 임플래커블 당신이 저 대신 퀸 엘리자베스께 저의 가장 진실된 감사를 전해주세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "정말 고마워. 그럼 여기서 좀 기다리도록 할까. 베아른이 금세 이곳의 정화 시스템을 정상으로 돌릴 거야.",
+			say = "정말 고마워요. 그럼 여기서 좀 기다리도록 할까요. 베아른이 금세 이곳의 정화 시스템을 정상으로 돌릴 거에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "스킬라, 야식을 조금 준비해줄 수 있을까?",
+			say = "스킬라, 야식을 조금 준비해줄 수 있을까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1

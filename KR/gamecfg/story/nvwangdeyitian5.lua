@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "카멜로의 정원·중앙 통제 구역. 잠시 후——",
+			say = "카멜롯의 정원·중앙 통제 구역. 잠시 후——",
 			bgmDelay = 2,
 			bgm = "theme-camelot",
 			flashout = {
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "게다가 카멜로의 정원을 통해 이곳에 침입할 수 있는 적은 만만치 않을 테니까요.",
+			say = "게다가 카멜롯의 정원을 통해 이곳에 침입할 수 있는 적은 만만치 않을 테니까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1

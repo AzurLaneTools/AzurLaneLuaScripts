@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "만약 나나 황실의 임플래커블씨가 하면 뜻밖의 소란이 일어날지도 모르는 걸.",
+			say = "만약 나나 로열의 임플래커블씨가 하면 뜻밖의 소란이 일어날지도 모르는 걸.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 					0.5
 				},
 				{
-					"황실과 아이리스 리브레 연합 함대",
+					"로열과 아이리스 리브레 연합 함대",
 					1
 				},
 				{
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "괜찮은 건가, 임플래커블……. 불편하진 않아?",
+			say = "괜찮은 건가요, 임플래커블……. 불편하진 않아요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "나도 잡히는 실마리가 없군…….",
+			say = "저도 잡히는 실마리가 없네요…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "하지만 온도도 없고, 인체에 실제적인 손상을 입히지도 않고…… 혹은 상하층간의 '문'의 개념을 위해 설정해놓은 환상은 아닐까?",
+			say = "하지만 온도도 없고, 인체에 실제적인 손상을 입히지도 않고…… 혹은 상하층간의 '문'의 개념을 위해 설정해놓은 환상은 아닐까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "임플래커블님, 잔해의 라 갈리소니에르가 사라졌습니다.",
+			say = "임플래커블님, 잔불의 라 갈리소니에르가 사라졌습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "신출귀몰한 건 잔해답긴 하군…….",
+			say = "신출귀몰한 건 잔불답긴 하군…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "그야 물론이지.",
+			say = "그야 물론이죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "눈으로 볼 수 있는 먼곳, 안테디카의 새하얀 얼음이 이미 수평선으로 떠올라 있었다.",
+			say = "눈으로 볼 수 있는 먼곳, 남극의 새하얀 얼음이 이미 수평선으로 떠올라 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "스킬라, 잔해의 라 갈리소니에르가 전에 몇 번이나 직접 움직였지? 비콘 감지기에는 어떻게 기록되었나?",
+			say = "스킬라, 잔불의 라 갈리소니에르가 전에 몇 번이나 직접 움직였지? 비콘 감지기에는 어떻게 기록되었나?",
 			painting = {
 				alpha = 0.3,
 				time = 1

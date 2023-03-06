@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "단서의 방향을 쫓아 정찰하다 보면 금방 찾아낼 수 있을지도 모르겠어…….",
+			say = "단서의 방향을 쫓아 정찰하다 보면 금방 찾아낼 수 있을지도 모르겠어요…….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "다만 지금 안테디카에 주둔 중이라 당장은 만나지도 못하니, 우선 뜯어서 우리가 써볼까요~",
+			say = "다만 지금 남극에 주둔 중이라 당장은 만나지도 못하니, 우선 뜯어서 우리가 써볼까요~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "여기는 임플래커블, 모두 들립니까?",
+			say = "여기는 임플래커블, 모두 들려?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "지배의 기사의 구역을 정찰하던 도중 굉장히 심각한 발견이 있었습니다.",
+			say = "지배의 기사의 구역을 정찰하던 도중 굉장히 심각한 발견이 있었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "우선 결론부터 말하죠. 지배의 기사는 아마 무사할 겁니다. 다만 이곳의 상황이 조금…… 특이해요.",
+			say = "우선 결론부터 말할게. 지배의 기사는 아마 무사할 거야. 다만 이곳의 상황이 조금…… 특이해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "현재 지배의 기사의 구역 외곽에서 대기 중입니다. 모두 정찰을 끝내시면 이쪽으로 와 합류해 주십시오.",
+			say = "현재 지배의 기사의 구역 외곽에서 대기 중이야. 모두 정찰을 끝내면 이쪽으로 와 합류해 줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "내 쪽은 아직 전쟁 함대에게 쫓기고 있어서 합류가 좀 늦어지겠군.",
+			say = "제쪽은 아직 전쟁 함대에게 쫓기고 있어서 합류가 좀 늦어지겠습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "아니. 전쟁의 기사는 이동하지 않았어. 양산형 함대 몇  대 뿐이니 별 문제 없을 거야.",
+			say = "아니요. 전쟁의 기사는 이동하지 않았어요. 양산형 함대 몇  대 뿐이니 별 문제 없을 거에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
