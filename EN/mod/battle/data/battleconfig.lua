@@ -407,9 +407,10 @@ slot0.FLEET_ATTR_CAP = {
 slot0.TARGET_SELECT_PRIORITY = {
 	C14_1 = 10,
 	leastHP = 998,
-	highlight = 99,
+	QEM_highlight = 99,
 	C14_highlight = 11,
 	farthest = 999,
+	highlight = 99,
 	xuzhang_hude = 1
 }
 slot0.EQUIPMENT_ACTIVE_LIMITED_BY_TYPE = {

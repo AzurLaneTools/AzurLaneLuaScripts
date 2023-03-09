@@ -1240,6 +1240,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100051] = {
+		target_id_2 = "970504",
+		sub_type = 180,
+		desc = "Win 1 battle with Queen Elizabeth META in your fleet.",
+		id = 100051,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100052] = {
+		target_id_2 = "970504",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Queen Elizabeth META in your fleet.",
+		id = 100052,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100053] = {
+		target_id_2 = "970504",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Queen Elizabeth META in your fleet.",
+		id = 100053,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100054] = {
+		target_id_2 = "970504",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Queen Elizabeth META in your fleet.",
+		id = 100054,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100055] = {
+		target_id_2 = "970504",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Queen Elizabeth META in your fleet.",
+		id = 100055,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1365,6 +1405,38 @@ pg.task_meta_data_template = {
 		sub_type = 302,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Sheffield META in your fleet.",
 		id = 200044,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200051] = {
+		target_id_2 = "970504",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Queen Elizabeth META in your fleet.",
+		id = 200051,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200052] = {
+		target_id_2 = "970504",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Queen Elizabeth META in your fleet.",
+		id = 200052,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200053] = {
+		target_id_2 = "970504",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Queen Elizabeth META in your fleet.",
+		id = 200053,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200054] = {
+		target_id_2 = "970504",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Queen Elizabeth META in your fleet.",
+		id = 200054,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1524,6 +1596,11 @@ pg.task_meta_data_template = {
 		100043,
 		100044,
 		100045,
+		100051,
+		100052,
+		100053,
+		100054,
+		100055,
 		200001,
 		200002,
 		200003,
@@ -1539,6 +1616,10 @@ pg.task_meta_data_template = {
 		200041,
 		200042,
 		200043,
-		200044
+		200044,
+		200051,
+		200052,
+		200053,
+		200054
 	}
 }

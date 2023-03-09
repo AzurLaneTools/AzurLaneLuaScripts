@@ -15,14 +15,14 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "Gather enough coordinates and you’ll unlock a new feature!",
+				text = "收集到的信标数据可以点击此处查看。",
 				mode = 2,
 				posY = 335.5,
 				char = "1",
 				dir = 1,
 				posX = 0,
 				ui = {
-					path = "OverlayCamera/Overlay/UIMain/top/adapt/top_stage/resources/WorldResPanel(Clone)/res/boss_progress",
+					path = "/OverlayCamera/Overlay/UIMain/top/adapt/top_chapter/resources/WorldResPanel(Clone)/res/boss_progress",
 					lineMode = true
 				}
 			}
@@ -30,61 +30,11 @@ return {
 		{
 			alpha = 0,
 			code = {
-				"FocusOnFleet"
+				"recall guide"
 			},
 			notifies = {
 				{
-					notify = "world focus edge",
-					body = {
-						stayTime = 0.1,
-						line = {
-							row = 5,
-							column = 0
-						}
-					}
-				}
-			}
-		},
-		{
-			delay = 0.5,
-			alpha = 0.3,
-			code = {
-				"ShowClickArea"
-			},
-			style = {
-				text = "Head back to the main Operation Siren menu and have a look!",
-				mode = 2,
-				posY = -160,
-				char = "1",
-				dir = -1,
-				posX = -460
-			},
-			showSign = {
-				type = 2,
-				signList = {
-					{
-						signType = 4,
-						pos = {
-							-550,
-							150,
-							0
-						}
-					}
-				},
-				clickArea = {
-					300,
-					200
-				}
-			}
-		},
-		{
-			alpha = 0,
-			code = {
-				"openOverview"
-			},
-			notifies = {
-				{
-					notify = "world open transport pos"
+					notify = "world recall"
 				}
 			}
 		}

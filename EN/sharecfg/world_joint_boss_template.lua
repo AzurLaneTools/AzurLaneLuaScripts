@@ -125,7 +125,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "Gneisenau META",
 		painting = "genaisennao",
 		boss_level_id = 61,
@@ -321,6 +321,64 @@ pg.world_joint_boss_template = {
 			0.9
 		}
 	},
+	{
+		item_id = 100000,
+		name = "Queen Elizabeth META",
+		painting = "yilishabainvwang",
+		boss_level_id = 136,
+		id = 10,
+		meta_id = 970504,
+		description = {
+			{
+				"Dominion Expansion",
+				1,
+				"This ship exerts a field of dominion and summons Phantom Knights during battle. <color=#92fc63>The Phantom Knights are resistant to attacks from non-META ships</color>. \nOnce all Phantom Knights have been defeated, this ship <color=#92fc63>becomes weaker</color> and permanently takes increased DMG."
+			},
+			{
+				"META Affinity",
+				2,
+				"This ship takes more DMG from your META ships, but also deals more DMG to your non-META ships."
+			}
+		},
+		state = {
+			{
+				{
+					2023,
+					3,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-118.8,
+			589.5,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			388,
+			586.2,
+			0.9,
+			0.9
+		}
+	},
 	all = {
 		1,
 		2,
@@ -330,6 +388,7 @@ pg.world_joint_boss_template = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	}
 }

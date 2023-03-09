@@ -9092,6 +9092,27 @@ _G.pg.base.item_data_statistics[21018] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21019] = {
+	display = "An item that increases the potential of Queen Elizabeth META. Used in the META Lab during Somatic Activation.",
+	name = "META Crystal – Queen Elizabeth",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21019,
+	is_world = 0,
+	icon = "Props/21019",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "Rare equipment used to improve the firepower capabilities of META ships during Restoration.",
 	name = "Crystallized Heat-Resistant Steel",
@@ -9359,6 +9380,27 @@ _G.pg.base.item_data_statistics[21909] = {
 	id = 21909,
 	is_world = 0,
 	icon = "Props/21909",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21910] = {
+	display = "Sync Points for Queen Elizabeth META.",
+	name = "Synchronization Point – Queen Elizabeth META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21910,
+	is_world = 0,
+	icon = "Props/21910",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182250,6 +182292,111 @@ _G.pg.base.item_data_statistics[59396] = {
 	id = 59396,
 	is_world = 0,
 	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59397] = {
+	display = "Used to exchange for a portrait frame. Removed after the event ends.",
+	name = "Training Points",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59397,
+	is_world = 0,
+	icon = "Props/xunliandianshu_yv2",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59398] = {
+	display = "Used in the \"Daedalian Hymn\" Event Exchange. Expires after the event ends.",
+	name = "Symbol of Renaissance",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59398,
+	is_world = 0,
+	icon = "Props/yidaliV2_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59399] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period ends.",
+	name = "Rental Outfit Voucher",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59399,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59400] = {
+	display = "A limited construction ticket for use during the \"Daedalian Hymn\" event. Removed after the event ends.",
+	name = "Shipbuilding Support Ticket",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 4723,
+	id = 59400,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59401] = {
+	display = "Used in the \"Young Tactician's Learning Log\" event. Will disappear after the exchange period ends.",
+	name = "Trust - Amagi-chan",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59401,
+	is_world = 0,
+	icon = "Props/xiaotiancheng_pt",
 	display_icon = {},
 	price = {},
 	index = {},

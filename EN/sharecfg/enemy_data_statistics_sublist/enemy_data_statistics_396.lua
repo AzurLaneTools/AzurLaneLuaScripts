@@ -1,5 +1,77 @@
 pg = pg or {}
 pg.enemy_data_statistics_396 = {
+	[295001] = {
+		cannon = 95,
+		name = "Hiryuu META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 288,
+		hit_growth = 0,
+		dodge = 11,
+		base = 90494,
+		durability_growth = 0,
+		antiaircraft = 190,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 10,
+		hit = 25,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 50000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295001,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295002] = {
+		cannon = 105,
+		name = "Hiryuu META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 302,
+		hit_growth = 0,
+		dodge = 11,
+		base = 90494,
+		durability_growth = 0,
+		antiaircraft = 204,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 10,
+		hit = 30,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 54000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295002,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
 	[295003] = {
 		cannon = 115,
 		name = "Hiryuu META",
@@ -677,78 +749,6 @@ pg.enemy_data_statistics_396 = {
 		armor = 0,
 		antisub = 0,
 		id = 295021,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295022] = {
-		cannon = 157,
-		name = "Ark Royal META ",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 371,
-		hit_growth = 0,
-		dodge = 13,
-		base = 90521,
-		durability_growth = 0,
-		antiaircraft = 276,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 12,
-		hit = 60,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability = 230000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		id = 295022,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295023] = {
-		cannon = 168,
-		name = "Ark Royal META ",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 384,
-		hit_growth = 0,
-		dodge = 13,
-		base = 90521,
-		durability_growth = 0,
-		antiaircraft = 291,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 13,
-		hit = 65,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability = 310000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		id = 295023,
 		buff_list = {
 			{
 				ID = 8830,

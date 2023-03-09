@@ -786,9 +786,7 @@ function slot0.getEquipments(slot0)
 			slot0.mask = true
 		end
 	end)
-	table.sort(slot7, function (slot0, slot1)
-		return uv0.sortFunc(slot0, slot1, uv0.sort[1], false)
-	end)
+	table.sort(slot7, CompareFuncs(uv0.sortFunc(uv0.sort[1], false)))
 
 	return slot7
 end

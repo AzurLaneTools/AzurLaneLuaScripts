@@ -11896,136 +11896,136 @@ pg.activity_ins_language = {
 		value = "Exactly, and I expect a reward for my hard work! Maybe then I'll do something even more impressive next time!"
 	},
 	ins_362 = {
-		value = ""
+		value = "I have some special black tea just for you, Commander. I'm sure you'll love it~"
 	},
 	ins_discuss_362_1 = {
-		value = ""
+		value = "You always go above and beyond with your preparation of tea... in both taste and preparation."
 	},
 	ins_reply_362_1_1 = {
-		value = ""
+		value = "I simply strive to seek stimulation from the insipid and mundane parts of daily life~"
 	},
 	ins_discuss_362_2 = {
-		value = ""
+		value = "Lady Implacable... I believe the tea is best left to the professionals..."
 	},
 	ins_reply_362_2_1 = {
-		value = ""
+		value = "Why's that? I think I've certainly outdone myself this time!"
 	},
 	ins_discuss_362_3 = {
-		value = ""
+		value = "Hmm? Is that the newest type of instant tea powder?"
 	},
 	ins_reply_362_3_1 = {
-		value = ""
+		value = "Uhh... Well, it's supposed to be very healthy for you."
 	},
 	ins_op_362_1_1 = {
-		value = ""
+		value = "Err, sure, I'll give it a try."
 	},
 	op_reply_362_1_1 = {
-		value = ""
+		value = "I knew your thirst would win out, Commander~"
 	},
 	ins_363 = {
-		value = ""
+		value = "Sorting and organising Master's everyday belongings is an essential part of being an excellent maid."
 	},
 	ins_discuss_363_1 = {
-		value = ""
+		value = "Well done, Scylla. You even make sure to keep us stocked up on sterile earpicks~"
 	},
 	ins_reply_363_1_1 = {
-		value = ""
+		value = "I am hardly worthy of the praise. It is simply my job, 'tis all."
 	},
 	ins_discuss_363_2 = {
-		value = ""
+		value = "With Scylla by your side, you won't have to worry about anything getting lost ever again"
 	},
 	ins_reply_363_2_1 = {
-		value = ""
+		value = "It is not some magical power inherent to my being. Proper sorting and organisation is all you need to not lose things."
 	},
 	ins_discuss_363_3 = {
-		value = ""
+		value = "Huh? So that's where my crown walked off to. Shoot, I already bought a new one..."
 	},
 	ins_reply_363_3_1 = {
-		value = ""
+		value = "You're lucky I found it, but make sure to take better care of your belongings next time, Miss Valiant."
 	},
 	ins_op_363_1_1 = {
-		value = ""
+		value = "Thanks for always keeping things tidy!"
 	},
 	op_reply_363_1_1 = {
-		value = ""
+		value = "I simply do what is expected of me. Are there any other facets of your life you'd like me to manage for you, Master?"
 	},
 	ins_364 = {
-		value = ""
+		value = "Phew... Barely made it back before curfew..."
 	},
 	ins_discuss_364_1 = {
-		value = ""
+		value = "What curfew...?"
 	},
 	ins_reply_364_1_1 = {
-		value = ""
+		value = "Umm, it's just something I hold myself to. \"Return to your nest before the ordained time,\" or something like that?"
 	},
 	ins_reply_364_1_2 = {
-		value = ""
+		value = "...Speaking of bird analogies, you look like a chicken that's been dropped in a pot and stewed for a few hours."
 	},
 	ins_discuss_364_2 = {
-		value = ""
+		value = "You're back later than usual today. Did something happen?"
 	},
 	ins_reply_364_2_1 = {
-		value = ""
+		value = "I saw the most beautiful night sky while taking my stroll, and ended up losing track of the time."
 	},
 	ins_op_364_1_1 = {
-		value = ""
+		value = "What happens if you miss your curfew?"
 	},
 	op_reply_364_1_1 = {
-		value = ""
+		value = "Then, umm, when I get out of bed the next morning..."
 	},
 	ins_365 = {
-		value = ""
+		value = "Why is my luck always so rotten..."
 	},
 	ins_discuss_365_1 = {
-		value = ""
+		value = "Are you alright?! Do you need me to take you to the hospital?"
 	},
 	ins_reply_365_1_1 = {
-		value = ""
+		value = "I'm fine now, Vestal and Jervis were kind enough to take a look at me..."
 	},
 	ins_discuss_365_2 = {
-		value = ""
+		value = "Ohmygosh, I am SO sorry! That was the one I belted outta the ballpark..."
 	},
 	ins_reply_365_2_1 = {
-		value = ""
+		value = "It's my fault for letting you get a hit in the first place. Sorry again!"
 	},
 	ins_reply_365_2_2 = {
-		value = ""
+		value = "It's okay... Stuff like this happens all the time, so I'm used to it... Ahaha..."
 	},
 	ins_discuss_365_3 = {
-		value = ""
+		value = "Would you like to come visit us at the shrine in the mountains? It's a great way to purify bad luck!"
 	},
 	ins_reply_365_3_1 = {
-		value = ""
+		value = "Really? Maybe I'll give it a try then..."
 	},
 	ins_op_365_1_1 = {
-		value = ""
+		value = "Are you sure you're fine? Do you want me to head over there?"
 	},
 	op_reply_365_1_1 = {
-		value = ""
+		value = "Oh... Thanks, but I'd feel bad for using up your precious time ><"
 	},
 	ins_366 = {
-		value = ""
+		value = "Ooooh, look at this cache I found in the Commander's room! Wonder what's inside~"
 	},
 	ins_discuss_366_1 = {
-		value = ""
+		value = "Hey, hands off the Commander's stuff!"
 	},
 	ins_reply_366_1_1 = {
-		value = ""
+		value = "Puh-lease. It's not like I took it with me or opened it. What's wrong with taking a look? Plus, aren't you curious about what scandalous stuff is inside~?"
 	},
 	ins_reply_366_1_2 = {
-		value = ""
+		value = "N-not at all!"
 	},
 	ins_discuss_366_2 = {
-		value = ""
+		value = "Did you open it or not? I wanna know if the Commander's got pervy mags in there."
 	},
 	ins_reply_366_2_1 = {
-		value = ""
+		value = "Huuh? I didn't put any points in my lockpicking skill~"
 	},
 	ins_op_366_1_1 = {
-		value = ""
+		value = "Where the heck did you get that..."
 	},
 	op_reply_366_1_1 = {
-		value = ""
+		value = "You can't be a Hero without having a keen sense for treasure~"
 	},
 	all = {
 		ins_op_1_1_1,

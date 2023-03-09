@@ -9308,6 +9308,38 @@ pg.skill_data_display = {
 		id = 800707,
 		name = "Ashen Might - Sheffield II"
 	},
+	[800710] = {
+		id = 800710,
+		name = "Ruler of Light and Darkness"
+	},
+	[800711] = {
+		id = 800711,
+		name = "Ruler of Light and Darkness"
+	},
+	[800720] = {
+		id = 800720,
+		name = "Paradoxical Charisma"
+	},
+	[800721] = {
+		id = 800721,
+		name = "Paradoxical Charisma"
+	},
+	[800730] = {
+		id = 800730,
+		name = "Answerer of Prayers"
+	},
+	[800731] = {
+		id = 800731,
+		name = "Answerer of Prayers"
+	},
+	[800732] = {
+		id = 800732,
+		name = "Answerer of Prayers"
+	},
+	[800733] = {
+		id = 800733,
+		name = "Queen's Blessing"
+	},
 	[1010140] = {
 		id = 1010140,
 		name = "Eagle's Tears+"
@@ -9547,6 +9579,10 @@ pg.skill_data_display = {
 	[200354] = {
 		id = 200354,
 		name = "~Incarnation Of Slaughter~"
+	},
+	[200359] = {
+		id = 200359,
+		name = "Dominion Expansion"
 	},
 	[1011540] = {
 		id = 1011540,
@@ -11984,6 +12020,14 @@ pg.skill_data_display = {
 		800702,
 		800705,
 		800707,
+		800710,
+		800711,
+		800720,
+		800721,
+		800730,
+		800731,
+		800732,
+		800733,
 		1010140,
 		1010143,
 		1010144,
@@ -12044,6 +12088,7 @@ pg.skill_data_display = {
 		200352,
 		200353,
 		200354,
+		200359,
 		1011540,
 		1011541,
 		1090010,

@@ -1,5 +1,77 @@
 pg = pg or {}
 pg.enemy_data_statistics_398 = {
+	[295043] = {
+		cannon = 265,
+		name = "Helena META ",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 347,
+		hit_growth = 0,
+		dodge = 39,
+		base = 90541,
+		durability_growth = 0,
+		antiaircraft = 366,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 60,
+		luck = 18,
+		hit = 90,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 910000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295043,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295044] = {
+		cannon = 281,
+		name = "Helena META ",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 361,
+		hit_growth = 0,
+		dodge = 42,
+		base = 90541,
+		durability_growth = 0,
+		antiaircraft = 381,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 60,
+		luck = 19,
+		hit = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 1100000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295044,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
 	[295045] = {
 		cannon = 297,
 		name = "Helena META ",
@@ -696,88 +768,6 @@ pg.enemy_data_statistics_398 = {
 			{
 				ID = 50510,
 				LV = 1
-			}
-		}
-	},
-	[295064] = {
-		cannon = 240,
-		name = "Gneisenau META",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 14,
-		base = 90600,
-		durability_growth = 0,
-		antiaircraft = 218,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 10,
-		hit = 45,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 115,
-		durability = 70000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295064,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 2
-			}
-		}
-	},
-	[295065] = {
-		cannon = 254,
-		name = "Gneisenau META",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 15,
-		base = 90600,
-		durability_growth = 0,
-		antiaircraft = 232,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 10,
-		hit = 50,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 124,
-		durability = 110000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295065,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 2
 			}
 		}
 	}

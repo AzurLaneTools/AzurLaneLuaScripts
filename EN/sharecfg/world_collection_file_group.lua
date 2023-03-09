@@ -291,7 +291,7 @@ pg.world_collection_file_group = {
 		name = "Richard Files IV",
 		id_2 = "144",
 		name_abbreviate = "20",
-		type = 1,
+		type = 3,
 		id = 1440,
 		child = {
 			14401,

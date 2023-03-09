@@ -125,3 +125,21 @@ function slot0.ShowForBiliLicence(slot0)
 		title = slot1.title
 	})
 end
+
+function slot0.ShowChtPrivate(slot0)
+	slot1 = require("GameCfg.useragreems.ChtPrivate")
+
+	slot0:Show({
+		content = slot1.content,
+		title = slot1.title
+	})
+end
+
+function slot0.ShowChtLicence(slot0)
+	slot1 = require("GameCfg.useragreems.ChtLicence")
+
+	slot0:Show({
+		content = slot1.content,
+		title = slot1.title
+	})
+end

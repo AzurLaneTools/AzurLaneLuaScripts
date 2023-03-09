@@ -31282,6 +31282,315 @@ _G.pg.base.task_data_template[5857] = {
 	}
 }
 
+_G.pg.base.task_data_template[5861] = {
+	name = "The Unmotivated Girl",
+	guild_coin_award = 0,
+	award = 5618,
+	type = 5,
+	desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed).",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "tuolichaili",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "50003",
+	next_task = "5862",
+	auto_commit = 0,
+	story_id = "TUOLICHAILI1",
+	id = 5861,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5862] = {
+	name = "Out of Sight, Out of Mind",
+	guild_coin_award = 0,
+	award = 5619,
+	type = 5,
+	desc = "Enhance ships 10 times.",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "tuolichaili",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "TUOLICHAILI2",
+	target_id = "0",
+	next_task = "5863",
+	auto_commit = 0,
+	scene = "",
+	id = 5862,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5863] = {
+	name = "Vacation after Sunset",
+	guild_coin_award = 0,
+	award = 5620,
+	type = 5,
+	desc = "Sortie and obtain 20 victories with Torricelli in the fleet.",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "tuolichaili",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "TUOLICHAILI3",
+	target_id = "60801",
+	next_task = "5864",
+	auto_commit = 0,
+	scene = "",
+	id = 5863,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5864] = {
+	name = "Mushroom Banquet?",
+	guild_coin_award = 0,
+	award = 5621,
+	type = 5,
+	desc = "Complete 1 Rescue Mission.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "tuolichaili",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "5865",
+	auto_commit = 0,
+	story_id = "TUOLICHAILI4",
+	id = 5864,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 1,
+	target_id = {
+		305,
+		405,
+		505,
+		605,
+		705,
+		805,
+		905,
+		1005
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[5865] = {
+	name = "Showing She Cares",
+	guild_coin_award = 0,
+	award = 5622,
+	type = 5,
+	desc = "Reach 100 Affinity with Torricelli.",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "tuolichaili",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "TUOLICHAILI5",
+	target_id = "60801",
+	next_task = "5866",
+	auto_commit = 0,
+	scene = "",
+	id = 5865,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5866] = {
+	name = "A Pleasant Surprise",
+	guild_coin_award = 0,
+	award = 5623,
+	type = 5,
+	desc = "Fully Limit Break Torricelli.",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "tuolichaili",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "TUOLICHAILI6",
+	target_id = "608014",
+	next_task = "5867",
+	auto_commit = 0,
+	scene = "",
+	id = 5866,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18022,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5867] = {
+	name = "True Warmth Comes from Within",
+	guild_coin_award = 0,
+	award = 5624,
+	type = 5,
+	desc = "Get Torricelli to Level 100.",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "tuolichaili",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "TUOLICHAILI7",
+	target_id = "60801",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5867,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18022,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "",
 	guild_coin_award = 0,
@@ -190398,6 +190707,1049 @@ _G.pg.base.task_data_template[18386] = {
 			2,
 			59395,
 			3000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18387] = {
+	name = "『复兴的赞美诗复刻』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 99266,
+	type = 6,
+	desc = "Log in once.",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18387,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			305,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18388] = {
+	name = "小天城复刻npc临时加入",
+	guild_coin_award = 0,
+	award = 99267,
+	type = 6,
+	desc = "？",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18388,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			304071,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18389] = {
+	name = "『复兴的赞美诗复刻』A1/C1通关一次",
+	guild_coin_award = 0,
+	award = 99292,
+	type = 6,
+	desc = "Clear A1 or C1 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18389,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1500001,
+		1500021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59400,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59398,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4718
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18390] = {
+	name = "『复兴的赞美诗复刻』A2/C2通关一次",
+	guild_coin_award = 0,
+	award = 99293,
+	type = 6,
+	desc = "Clear A2 or C2 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18390,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1500002,
+		1500022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59400,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59398,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4718
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18391] = {
+	name = "『复兴的赞美诗复刻』A3/C3通关一次",
+	guild_coin_award = 0,
+	award = 99294,
+	type = 6,
+	desc = "Clear A3 or C3 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18391,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1500003,
+		1500023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59400,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59398,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4718
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18392] = {
+	name = "『复兴的赞美诗复刻』B1/D1通关一次",
+	guild_coin_award = 0,
+	award = 99295,
+	type = 6,
+	desc = "Clear B1 or D1 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18392,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1500004,
+		1500024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59400,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59398,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4719
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18393] = {
+	name = "『复兴的赞美诗复刻』B2/D2通关一次",
+	guild_coin_award = 0,
+	award = 99296,
+	type = 6,
+	desc = "Clear B2 or D2 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18393,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1500005,
+		1500025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			59400,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59398,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4719
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18394] = {
+	name = "『复兴的赞美诗复刻』B3/D3通关一次",
+	guild_coin_award = 0,
+	award = 99297,
+	type = 6,
+	desc = "Clear B3 or D3 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18394,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1500006,
+		1500026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59400,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59398,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4719
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18395] = {
+	name = "『复兴的赞美诗复刻』通关SP",
+	guild_coin_award = 0,
+	award = 99298,
+	type = 6,
+	desc = "Clear SP.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1500041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18395,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			59400,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1500025,
+			chapterId = 1500041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18396] = {
+	name = "『复兴的赞美诗复刻』通关D3",
+	guild_coin_award = 0,
+	award = 99299,
+	type = 6,
+	desc = "Clear D3 <color=#92fc63>(special furniture can only be obtained once)</color>.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1500026",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18396,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			194,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1500012,
+			chapterId = 1500026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18397] = {
+	name = "『复兴的赞美诗复刻』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 99300,
+	type = 6,
+	desc = "Complete A1 or C1 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18398",
+	auto_commit = 0,
+	story_id = "",
+	id = 18397,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1500001,
+		1500021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4718
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18398] = {
+	name = "『复兴的赞美诗复刻』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 99301,
+	type = 6,
+	desc = "Complete A2 or C2 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18399",
+	auto_commit = 0,
+	story_id = "",
+	id = 18398,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1500002,
+		1500022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4718
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18399] = {
+	name = "『复兴的赞美诗复刻』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 99302,
+	type = 6,
+	desc = "Complete A3 or C3 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18400",
+	auto_commit = 0,
+	story_id = "",
+	id = 18399,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1500003,
+		1500023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4718
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18400] = {
+	name = "『复兴的赞美诗复刻』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 99303,
+	type = 6,
+	desc = "Complete B1 or D1 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18401",
+	auto_commit = 0,
+	story_id = "",
+	id = 18400,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1500004,
+		1500024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4719
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18401] = {
+	name = "『复兴的赞美诗复刻』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 99304,
+	type = 6,
+	desc = "Complete B2 or D2 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "18402",
+	auto_commit = 0,
+	story_id = "",
+	id = 18401,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1500005,
+		1500025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4719
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18402] = {
+	name = "『复兴的赞美诗复刻』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 99305,
+	type = 6,
+	desc = "Complete B3 or D3 with 3 stars.",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18402,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1500006,
+		1500026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4719
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18403] = {
+	name = "『复兴的赞美诗复刻』通关EX",
+	guild_coin_award = 0,
+	award = 99306,
+	type = 6,
+	desc = "Clear EX.",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1500051",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18403,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1500026,
+			chapterId = 1500051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18404] = {
+	name = "『复兴的赞美诗复刻』-日常建造",
+	guild_coin_award = 0,
+	award = 99307,
+	type = 36,
+	desc = "Build 3 ships.",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18404,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59398,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18405] = {
+	name = "『复兴的赞美诗复刻』-日常出击",
+	guild_coin_award = 0,
+	award = 99308,
+	type = 36,
+	desc = "Sortie and obtain 15 victories",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18405,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			59400,
+			1
+		},
+		{
+			2,
+			59398,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18406] = {
+	name = "『复兴的赞美诗复刻』-日常困难本",
+	guild_coin_award = 0,
+	award = 99309,
+	type = 36,
+	desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18406,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59398,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18407] = {
+	name = "『复兴的赞美诗复刻』-日常活动关卡",
+	guild_coin_award = 0,
+	award = 99310,
+	type = 36,
+	desc = "Clear any event stage 1 time.",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18407,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1500001,
+		1500002,
+		1500003,
+		1500004,
+		1500005,
+		1500006,
+		1500021,
+		1500022,
+		1500023,
+		1500024,
+		1500025,
+		1500026,
+		1500041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			1
+		},
+		{
+			2,
+			59398,
+			300
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4718
 		}
 	}
 }

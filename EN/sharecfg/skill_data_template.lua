@@ -105059,6 +105059,433 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800710] = {
+		desc_get = "",
+		name = "Ruler of Light and Darkness",
+		id = 800710,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP, AA, and EVA by $1. When this ship fires her Main Guns: $2 chance to fire a $3 special barrage (DMG is based on the skill's level). Enemies hit by this barrage are more likely to be targeted by the auto-aimed fire of your Royal Navy and/or META BBs and Bcs.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.5%"
+				},
+				{
+					"55.5%",
+					"+5.5%"
+				},
+				{
+					"61%",
+					"+5.5%"
+				},
+				{
+					"66.5%",
+					"+5.5%"
+				},
+				{
+					"72.0%",
+					"+5.5%"
+				},
+				{
+					"77.5%",
+					"+5.5%"
+				},
+				{
+					"83.0%",
+					"+5.5%"
+				},
+				{
+					"88.5%",
+					"+5.5%"
+				},
+				{
+					"94.0%",
+					"+6.0%"
+				},
+				{
+					"100.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800720] = {
+		desc_get = "",
+		name = "Paradoxical Charisma",
+		id = 800720,
+		type = 2,
+		max_level = 10,
+		desc = "When the battle starts: increases this ship's RLD and ACC by $1 for each META ship in your fleet (can be stacked up to 3 times). Decreases all your other META ships' DMG taken by 10.0%. Once per battle, when this ship's HP falls below 50.0% as a result of DMG taken: increases this ship's Secondary Gun efficiency by $2 until the battle ends.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"20.0%",
+				"50.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50.0%"
+				}
+			}
+		}
+	},
+	[800730] = {
+		desc_get = "",
+		name = "Answerer of Prayers",
+		id = 800730,
+		type = 3,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns: this ship takes DMG equal to 3.0% of her max HP and fires a $1 special barrage (DMG is based on the skill's level). 3s after this barrage was fired, up until 3s after this ship's next Main Gun volley: targets a random META ship in your fleet and increases that ship's DMG dealt by $2; if this ship is your Flagship, any ship in your fleet becomes eligible for this buff.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[800741] = {
+		desc_get = "",
+		name = "Cinders of Hope - Queen Elizabeth",
+		id = 800741,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's Crit DMG dealt by 5.0%.",
+		system_transform = {
+			[51.0] = 800745
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800742] = {
+		desc_get = "",
+		name = "Cinders of Hope - Queen Elizabeth",
+		id = 800742,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's Crit DMG dealt by 8.0%.",
+		system_transform = {
+			[51.0] = 800747
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800745] = {
+		desc_get = "",
+		name = "Cinders of Hope - Queen Elizabeth",
+		id = 800745,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's Crit DMG dealt by 5.0%.",
+		system_transform = {
+			[51.0] = 800745
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800747] = {
+		desc_get = "",
+		name = "Cinders of Hope - Queen Elizabeth",
+		id = 800747,
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's Crit DMG dealt by 8.0%.",
+		system_transform = {
+			[51.0] = 800747
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[901010] = {
 		desc_get = "",
 		name = "Slash Attack - Spread",
@@ -110355,6 +110782,13 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 		800702,
 		800705,
 		800707,
+		800710,
+		800720,
+		800730,
+		800741,
+		800742,
+		800745,
+		800747,
 		901010,
 		901020,
 		902010,

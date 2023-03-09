@@ -505,13 +505,14 @@ function slot0.returnItem(slot0, slot1, slot2)
 end
 
 function slot0.sortItems(slot0)
-	table.sort(slot0.itemList, function (slot0, slot1)
-		if slot0:getConfig("sort_priority") ~= slot1:getConfig("sort_priority") then
-			return slot3 < slot2
-		else
-			return slot0:getConfig("id") < slot1:getConfig("id")
+	table.sort(slot0.itemList, CompareFuncs({
+		function (slot0)
+			return -slot0:getConfig("sort_priority")
+		end,
+		function (slot0)
+			return slot0:getConfig("id")
 		end
-	end)
+	}))
 	slot0.itemRect:SetTotalCount(#slot0.itemList, -1)
 	slot0:updateResetExchange()
 end
@@ -711,11 +712,7 @@ function slot0.filterEquipment(slot0)
 	end
 
 	if slot1 then
-		slot4 = slot0.contextData.asc
-
-		table.sort(slot2, function (slot0, slot1)
-			return uv0.sortFunc(slot0, slot1, uv1, uv2)
-		end)
+		table.sort(slot2, CompareFuncs(uv0.sortFunc(slot1, slot0.contextData.asc)))
 	end
 
 	slot0:updateEquipmentCount()
@@ -780,13 +777,14 @@ function slot0.InitMaterials(slot0)
 end
 
 function slot0.SortMaterials(slot0)
-	table.sort(slot0.materials, function (slot0, slot1)
-		if slot0:getConfig("rarity") == slot1:getConfig("rarity") then
-			return slot0.id < slot1.id
-		else
-			return slot3 < slot2
+	table.sort(slot0.materials, CompareFuncs({
+		function (slot0)
+			return -slot0:getConfig("rarity")
+		end,
+		function (slot0)
+			return slot0.id
 		end
-	end)
+	}))
 	slot0.materialRect:SetTotalCount(#slot0.materials, -1)
 	Canvas.ForceUpdateCanvases()
 end

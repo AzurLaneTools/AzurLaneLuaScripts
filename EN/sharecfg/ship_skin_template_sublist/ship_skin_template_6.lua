@@ -10598,28 +10598,28 @@ pg.ship_skin_template_6 = {
 			205
 		}
 	},
-	[205020] = {
-		ship_group = 20502,
-		name = "Warspite",
+	[205016] = {
+		ship_group = 20501,
+		name = "伊丽莎白占坑",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
 		illustrator2 = -1,
 		bg = "",
-		id = 205020,
-		group_index = 0,
-		prefab = "yanzhan",
-		painting = "yanzhan",
+		id = 205016,
+		group_index = 6,
+		prefab = "yilishabai",
+		painting = "yilishabai",
 		shop_id = 0,
 		air_bullet_skin = "",
 		air_bomb_skin = "",
 		shop_type_id = 0,
-		illustrator = 19,
+		illustrator = -1,
 		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
-		skin_type = -1,
+		skin_type = 4,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
@@ -10628,7 +10628,7 @@ pg.ship_skin_template_6 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "Queen Elizabeth-class battleship - Warspite, Hull Number 03!",
+		desc = "占坑",
 		voice_actor = 28,
 		spine_offset = "",
 		gyro = 0,
@@ -10669,58 +10669,45 @@ pg.ship_skin_template_6 = {
 		bound_bone = {
 			cannon = {
 				{
-					-0.061,
-					1.339,
+					-0.106,
+					1.3,
 					0
 				}
 			},
 			vicegun = {
 				{
-					-0.696,
-					0.779,
+					-0.591,
+					1.589,
 					0
 				},
 				{
-					0.893,
-					0.242,
+					0.688,
+					1.12,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					-0.696,
-					0.779,
+					-0.591,
+					1.589,
 					0
 				},
 				{
-					0.893,
-					0.242,
+					0.688,
+					1.12,
 					0
 				}
 			}
 		},
 		smoke = {
 			{
-				70,
+				50,
 				{
 					{
 						"smoke",
 						{
-							-1.082,
-							0.566,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.919,
-							0.617,
+							-0.41,
+							2.35,
 							0
 						}
 					}

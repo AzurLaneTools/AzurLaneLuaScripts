@@ -4507,9 +4507,9 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>12/8/22 to 3/9/23</color>, challenge Arizona META
+From <color=#92fc63>3/9/23 to 6/8/23</color>, challenge Queen Elizabeth META
 to earn Sync Points. Sync Points can be used
-to obtain the limited character, <color=#92fc63>Arizona META</color> as well
+to obtain the limited character, <color=#92fc63>Queen Elizabeth META</color> as well
 as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
@@ -10201,7 +10201,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Implacable guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Rate UP for Vittorio Veneto, Aquila and more!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -23353,4 +23353,12 @@ _G.pg.base.gametip.battle_text_yingxiv4_9 = {
 
 _G.pg.base.gametip.battle_text_yingxiv4_10 = {
 	tip = "The Horseman is <color=#f1f102>weakened</color>! Focus fire!"
+}
+
+_G.pg.base.gametip.setting_label_private = {
+	tip = "隐私协议"
+}
+
+_G.pg.base.gametip.setting_label_licence = {
+	tip = "用户协议"
 }
