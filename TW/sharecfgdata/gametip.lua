@@ -9670,7 +9670,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "喀琅施塔得、窩瓦、阿爾漢格爾斯克 建造機率UP！"
+	tip = "龍鳳、風雲、駿河、霞、白雪 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {

@@ -2727,8 +2727,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40203,
-				141
+				41094,
+				208
 			}
 		}
 	},
@@ -2737,8 +2737,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40203,
-				141
+				41094,
+				208
 			}
 		}
 	},
@@ -2747,8 +2747,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40203,
-				141
+				41094,
+				208
 			}
 		}
 	},
@@ -2757,8 +2757,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40204,
-				141
+				41095,
+				208
 			}
 		}
 	},
@@ -2767,8 +2767,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40204,
-				141
+				41095,
+				208
 			}
 		}
 	},
@@ -2777,68 +2777,68 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40204,
-				141
+				41095,
+				208
 			}
 		}
 	},
 	[1310613] = {
 		id = 1310613,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40203,
-				141
+				41094,
+				208
 			}
 		}
 	},
 	[1310713] = {
 		id = 1310713,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40203,
-				141
+				41094,
+				208
 			}
 		}
 	},
 	[1310813] = {
 		id = 1310813,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40203,
-				141
+				41094,
+				208
 			}
 		}
 	},
 	[1310913] = {
 		id = 1310913,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40204,
-				141
+				41095,
+				208
 			}
 		}
 	},
 	[1311013] = {
 		id = 1311013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40204,
-				141
+				41095,
+				208
 			}
 		}
 	},
 	[1311113] = {
 		id = 1311113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40204,
-				141
+				41095,
+				208
 			}
 		}
 	},
@@ -2847,8 +2847,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				40204,
-				141
+				41095,
+				208
 			}
 		}
 	},

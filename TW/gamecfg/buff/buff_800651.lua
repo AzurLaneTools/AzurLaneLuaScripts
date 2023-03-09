@@ -56,7 +56,6 @@ return {
 			},
 			arg_list = {
 				maxHPRatio = 0.3,
-				countTarget = 10,
 				countType = 800650
 			}
 		},

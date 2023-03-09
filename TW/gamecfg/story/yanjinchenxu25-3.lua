@@ -217,7 +217,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#ffa500",
+			nameColor = "#A9F548FF",
 			side = 2,
 			actor = 805010,
 			dir = 1,
@@ -234,7 +234,7 @@ return {
 		{
 			actor = 805010,
 			side = 2,
-			nameColor = "#ffa500",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "怨仇女士，不能让你为了鸢尾教国的错误冒这么大风险，还是让我来吧。",
 			painting = {
@@ -296,7 +296,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#ffa500",
+			nameColor = "#A9F548FF",
 			side = 2,
 			actor = 805010,
 			dir = 1,

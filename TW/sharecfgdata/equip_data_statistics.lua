@@ -7094,6 +7094,155 @@ _G.pg.base.equip_data_statistics[951] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[960] = {
+	type = 10,
+	name = "FuMO 25",
+	speciality = "无",
+	tech = 0,
+	value_2 = 8,
+	ammo = 10,
+	nationality = 4,
+	descrip = "鐵血開發的艦載雷達，主要用於搜索和火控。",
+	rarity = 5,
+	attribute_1 = "hit",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 960,
+	icon = "960",
+	value_1 = "11",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {},
+	hidden_skill_id = {
+		9709
+	},
+	part_main = {
+		2,
+		3,
+		4,
+		5,
+		10,
+		13,
+		18,
+		19
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		10,
+		13,
+		18,
+		19
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[961] = {
+	id = 961,
+	value_2 = 9,
+	value_1 = "12",
+	base = 960
+}
+
+_G.pg.base.equip_data_statistics[962] = {
+	id = 962,
+	value_2 = 10,
+	value_1 = "13",
+	base = 960
+}
+
+_G.pg.base.equip_data_statistics[963] = {
+	id = 963,
+	value_2 = 12,
+	value_1 = "15",
+	base = 960
+}
+
+_G.pg.base.equip_data_statistics[964] = {
+	id = 964,
+	value_2 = 14,
+	value_1 = "17",
+	base = 960
+}
+
+_G.pg.base.equip_data_statistics[965] = {
+	id = 965,
+	value_2 = 16,
+	value_1 = "19",
+	base = 960
+}
+
+_G.pg.base.equip_data_statistics[966] = {
+	id = 966,
+	value_2 = 18,
+	value_1 = "21",
+	base = 960
+}
+
+_G.pg.base.equip_data_statistics[967] = {
+	id = 967,
+	value_2 = 20,
+	value_1 = "23",
+	base = 960
+}
+
+_G.pg.base.equip_data_statistics[968] = {
+	id = 968,
+	value_2 = 22,
+	value_1 = "25",
+	base = 960
+}
+
+_G.pg.base.equip_data_statistics[969] = {
+	id = 969,
+	value_2 = 24,
+	value_1 = "27",
+	base = 960
+}
+
+_G.pg.base.equip_data_statistics[970] = {
+	id = 970,
+	value_2 = 26,
+	value_1 = "29",
+	base = 960
+}
+
+_G.pg.base.equip_data_statistics[971] = {
+	value_2 = 28,
+	anti_siren = 100,
+	base = 960,
+	id = 971,
+	value_1 = "31"
+}
+
+_G.pg.base.equip_data_statistics[972] = {
+	value_2 = 30,
+	anti_siren = 200,
+	base = 960,
+	id = 972,
+	value_1 = "33"
+}
+
+_G.pg.base.equip_data_statistics[973] = {
+	value_2 = 32,
+	anti_siren = 300,
+	base = 960,
+	id = 973,
+	value_1 = "35"
+}
+
 _G.pg.base.equip_data_statistics[980] = {
 	type = 10,
 	name = "機密文件·日誌殘卷",
@@ -112931,6 +113080,59 @@ _G.pg.base.equip_data_statistics[79732] = {
 	base = 79731,
 	weapon_id = {
 		79732
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[79741] = {
+	type = 1,
+	name = "專屬彈幕-風雲I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 79741,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60651
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79742] = {
+	id = 79742,
+	name = "專屬彈幕-風雲II",
+	base = 79741,
+	weapon_id = {
+		60652
 	},
 	hidden_skill_id = {}
 }

@@ -99009,7 +99009,8 @@ _G.pg.base.ship_data_statistics[205011] = {
 	},
 	tag_list = {
 		"QE-Class",
-		"QE"
+		"QE",
+		"QE_1914"
 	}
 }
 
@@ -99135,7 +99136,8 @@ _G.pg.base.ship_data_statistics[205012] = {
 	},
 	tag_list = {
 		"QE-Class",
-		"QE"
+		"QE",
+		"QE_1914"
 	}
 }
 
@@ -99261,7 +99263,8 @@ _G.pg.base.ship_data_statistics[205013] = {
 	},
 	tag_list = {
 		"QE-Class",
-		"QE"
+		"QE",
+		"QE_1914"
 	}
 }
 
@@ -99387,7 +99390,8 @@ _G.pg.base.ship_data_statistics[205014] = {
 	},
 	tag_list = {
 		"QE-Class",
-		"QE"
+		"QE",
+		"QE_1914"
 	}
 }
 
@@ -111963,6 +111967,506 @@ _G.pg.base.ship_data_statistics[301014] = {
 		0,
 		0,
 		550
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.75,
+		1.6,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Special Type"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "白雪",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301020,
+	english_name = "IJN Shirayuki",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		290,
+		13,
+		98,
+		27,
+		0,
+		78,
+		0,
+		67,
+		72,
+		45.6,
+		41,
+		49
+	},
+	attrs_growth = {
+		8257,
+		174,
+		1171,
+		598,
+		0,
+		546,
+		0,
+		1032,
+		1332,
+		0,
+		0,
+		560
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.7,
+		1.4,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Special Type"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "白雪",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301020,
+	english_name = "IJN Shirayuki",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		361,
+		16,
+		122,
+		34,
+		0,
+		78,
+		0,
+		67,
+		72,
+		45.6,
+		41,
+		61
+	},
+	attrs_growth = {
+		8257,
+		174,
+		1171,
+		598,
+		0,
+		546,
+		0,
+		1032,
+		1332,
+		0,
+		0,
+		560
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.7,
+		1.45,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Special Type"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "白雪",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301020,
+	english_name = "IJN Shirayuki",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		502,
+		22,
+		171,
+		47,
+		0,
+		78,
+		0,
+		67,
+		72,
+		45.6,
+		41,
+		85
+	},
+	attrs_growth = {
+		8257,
+		174,
+		1171,
+		598,
+		0,
+		546,
+		0,
+		1032,
+		1332,
+		0,
+		0,
+		560
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.7,
+		1.55,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Special Type"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "白雪",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301020,
+	english_name = "IJN Shirayuki",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		714,
+		32,
+		243,
+		67,
+		0,
+		78,
+		0,
+		67,
+		72,
+		45.6,
+		41,
+		122
+	},
+	attrs_growth = {
+		8257,
+		174,
+		1171,
+		598,
+		0,
+		546,
+		0,
+		1032,
+		1332,
+		0,
+		0,
+		560
 	},
 	attrs_growth_extra = {
 		0,
@@ -128067,6 +128571,132 @@ _G.pg.base.ship_data_statistics[301494] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[301534] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "霞.改",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301810,
+	english_name = "IJN Kasumi",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301534,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		794,
+		30,
+		252,
+		72,
+		0,
+		74,
+		0,
+		67,
+		71,
+		42,
+		70,
+		117
+	},
+	attrs_growth = {
+		9182,
+		166,
+		1215,
+		638,
+		0,
+		515,
+		0,
+		1032,
+		1306,
+		0,
+		0,
+		542
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.8,
+		1.5,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Asashio-Class",
+		"pupu"
+	}
+}
+
 _G.pg.base.ship_data_statistics[301541] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -138100,6 +138730,506 @@ _G.pg.base.ship_data_statistics[301854] = {
 	},
 	tag_list = {
 		"Kamikaze-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301861] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "風雲",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301860,
+	english_name = "IJN Kazagumo",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 5,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301861,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		361,
+		14,
+		107,
+		30,
+		0,
+		82,
+		0,
+		73,
+		71,
+		42,
+		51,
+		44
+	},
+	attrs_growth = {
+		10279,
+		191,
+		1285,
+		652,
+		0,
+		571,
+		0,
+		1125,
+		1306,
+		0,
+		0,
+		515
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.8,
+		1.4,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Kazagumo-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301862] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "風雲",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301860,
+	english_name = "IJN Kazagumo",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 5,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301862,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		449,
+		17,
+		134,
+		37,
+		0,
+		82,
+		0,
+		73,
+		71,
+		42,
+		51,
+		55
+	},
+	attrs_growth = {
+		10279,
+		191,
+		1285,
+		652,
+		0,
+		571,
+		0,
+		1125,
+		1306,
+		0,
+		0,
+		515
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.8,
+		1.45,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Kazagumo-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301863] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "風雲",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301860,
+	english_name = "IJN Kazagumo",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 5,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301863,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		625,
+		24,
+		187,
+		52,
+		0,
+		82,
+		0,
+		73,
+		71,
+		42,
+		51,
+		77
+	},
+	attrs_growth = {
+		10279,
+		191,
+		1285,
+		652,
+		0,
+		571,
+		0,
+		1125,
+		1306,
+		0,
+		0,
+		515
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.8,
+		1.55,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Kazagumo-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[301864] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "風雲",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 301860,
+	english_name = "IJN Kazagumo",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 5,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 301864,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		889,
+		34,
+		266,
+		74,
+		0,
+		82,
+		0,
+		73,
+		71,
+		42,
+		51,
+		110
+	},
+	attrs_growth = {
+		10279,
+		191,
+		1285,
+		652,
+		0,
+		571,
+		0,
+		1125,
+		1306,
+		0,
+		0,
+		515
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.85,
+		1.6,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Kazagumo-Class"
 	}
 }
 

@@ -112,6 +112,7 @@ slot0.WORLD_FOCUS_EDGE = "world focus edge"
 slot0.WORLD_FOCUS_EVENT = "world focus event"
 slot0.WORLD_SCANNER_EVENT = "world scanner event"
 slot0.WORLD_HELP_EVENT = "world help event"
+slot0.WORLD_RECALL = "world recall"
 
 function slot0.GetWorldGuiderNotifies(slot0)
 	return {
@@ -128,7 +129,8 @@ function slot0.GetWorldGuiderNotifies(slot0)
 		uv0.WORLD_FOCUS_EDGE,
 		uv0.WORLD_FOCUS_EVENT,
 		uv0.WORLD_SCANNER_EVENT,
-		uv0.WORLD_HELP_EVENT
+		uv0.WORLD_HELP_EVENT,
+		uv0.WORLD_RECALL
 	}
 end
 
@@ -182,6 +184,8 @@ function slot0.WorldGuiderNotifyHandler(slot0, slot1, slot2, slot3)
 				pageId = slot2.pageId
 			}
 		}))
+	elseif slot1 == uv0.WORLD_RECALL then
+		slot3:Op("OpInteractive")
 	end
 end
 

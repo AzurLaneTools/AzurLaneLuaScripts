@@ -337,37 +337,37 @@ return {
 			return slot0.config[slot1]
 		end
 	end,
-	sortFunc = function (slot0, slot1, slot2, slot3)
-		slot4 = pg.equip_skin_template
-
-		if (slot0.isSkin and 1 or 0) == (slot1.isSkin and 1 or 0) and slot5 == 0 then
-			for slot10, slot11 in ipairs(slot2.values) do
-				if uv0.getWeight(slot0, slot11) ~= uv0.getWeight(slot1, slot11) then
-					return (slot3 and {
-						slot12 < slot13
-					} or {
-						slot13 < slot12
-					})[1]
+	sortFunc = function (slot0, slot1)
+		slot2 = {
+			function (slot0)
+				return slot0.isSkin and 0 or 1
+			end,
+			function (slot0)
+				if not slot0.isSkin then
+					return 0
+				else
+					return (uv0 and -1 or 1) * (pg.equip_skin_template[slot0.id][uv1.value] or 0)
+				end
+			end,
+			function (slot0)
+				if not slot0.isSkin then
+					return 0
+				else
+					return (uv0 and -1 or 1) * -slot0.id
 				end
 			end
+		}
 
-			return false
-		elseif slot6 == slot5 then
-			if ((slot0.isSkin and slot4[slot0.id] or slot0.config)[slot2.value] or 0) == ((slot1.isSkin and slot4[slot1.id] or slot1.config)[slot2.value] or 0) then
-				return (slot3 and {
-					slot0.id < slot1.id
-				} or {
-					slot1.id < slot0.id
-				})[1]
-			else
-				return (slot3 and {
-					slot10 < slot9
-				} or {
-					slot9 < slot10
-				})[1]
-			end
-		else
-			return slot6 < slot5
+		for slot6, slot7 in ipairs(slot0.values) do
+			table.insert(slot2, function (slot0)
+				if slot0.isSkin then
+					return 0
+				else
+					return (uv0 and -1 or 1) * -uv1.getWeight(slot0, uv2)
+				end
+			end)
 		end
+
+		return slot2
 	end
 }

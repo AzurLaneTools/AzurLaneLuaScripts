@@ -19022,6 +19022,40 @@ _G.pg.base.ship_skin_words[205015] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[205016] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "",
+	mail = "",
+	touch = "",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "",
+	feeling5 = "",
+	main = "",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	vote = "",
+	hp_warning = "",
+	id = 205016,
+	detail = "",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[205020] = {
 	feeling1 = "請你不要擺出一副好像你和我很熟的樣子",
 	feeling3 = "沒有什麼貴族氣質嗎？不像胡德她們那樣還真是對不起呢……我才沒有在說歐派……",
@@ -22282,6 +22316,99 @@ _G.pg.base.ship_skin_words[301015] = {
 	hp_warning = "",
 	id = 301015,
 	detail = "要是也能讓其它特型驅逐艦也看到我活躍的樣子就好了呢~“認真努力的{namecode:2}姐”——這樣的感覺？嘿嘿……哇！對，對不起，我發了會呆！",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[301020] = {
+	feeling1 = "（蓋住耳朵）我、我不想聽到你的聲音…",
+	feeling3 = "人多的時候，各種各樣的聲音傳到耳朵裡，頭會痛…還是安靜的地方適合{namecode:3}。",
+	lose = "嗚，輸了…掩護同伴，趕緊撤退吧…！",
+	propose = "指揮官，你的心跳得很快哦？沒關係的，因為我也是…以後，指揮官就要一直陪著{namecode:3}了哦？不許反悔哦？嗯嗯，約好了…！",
+	expedition = "(豎起耳朵）嗯…我聽到委託組的夥伴們回來的腳步聲了。",
+	win_mvp = "贏了？呼…大家都平安無事吧？",
+	home = "咕嘟咕嘟…回來得正好，水剛燒開，來一起泡茶吧。",
+	mission = "有新任務呢…唔，要不要我叫{namecode:2}姐姐一起來幫忙？",
+	touch2 = "指、指揮官你在幹嘛？！",
+	voice_key_2 = -1,
+	skill = "我也…不是吃素的！",
+	drop_descrip = "特I型{namecode:2}級驅逐艦二番艦—{namecode:3}",
+	mail = "郵件…再不看就要滿出來了。",
+	touch = "指揮官…是遇到什麼困難了嗎？",
+	profile = "我是重櫻的驅逐艦，{namecode:2}型二號艦，{namecode:3}。之前在第三水雷艦隊待過一段時間，具體…好像也沒什麼好說的。…嗯，希望在這裡能夠幫上指揮官和大家更多的忙。",
+	mission_complete = "唔，這次是…任務獎勵送到了的聲音吧。",
+	feeling4 = "要是下雨的話，就可以和指揮官撐一把傘，邊聽著雨聲，邊兩個人散散步…欸？我、我說出來了？",
+	unlock = "{namecode:2}型二號艦，{namecode:3}。和一直元氣滿滿的姐姐比起來，我會比較安靜一些……嗯，以後請多指教了。",
+	feeling5 = "指揮官，{namecode:3}要借你的胸口休息。…（貼）這就是指揮官的心跳聲啊。「撲通、撲通」的，聽著非常的舒服呢~",
+	main = "沙沙——沙沙——我喜歡聽指揮官寫字的聲音，讓人感覺…很安心。|{namecode:2}姐，總是有用不完的精力，而且好像什麼都能做的樣子…好厲害…|胡蘿蔔？{namecode:3}，對胡蘿蔔興趣不大…你該不會真的把我當成兔子了吧？",
+	battle = "雖然有過一點指揮的經驗…",
+	upgrade = "幹勁十足~{namecode:2}姐姐的話應該會這麼說吧。",
+	voice_key = 30102,
+	headtouch = "啊嗚！？這、這裡很癢…快停下…！",
+	feeling2 = "（豎起耳朵）沒有什麼奇怪的聲音…嗯，今天也是一切正常。",
+	login = "原來如此，這個腳步聲就是指揮官嗎……嗯，我記住了。",
+	vote = "",
+	hp_warning = "好像有點不妙…？",
+	id = 301020,
+	detail = "為什麼大家都喜歡摸我耳朵…有那麼好摸嗎……",
+	couple_encourage = {
+		{
+			{
+				30101
+			},
+			1,
+			"{namecode:2}姐姐果然精力旺盛…",
+			0
+		},
+		{
+			{
+				10116
+			},
+			1,
+			"兔兔…神教？",
+			0
+		},
+		{
+			{
+				30212
+			},
+			1,
+			"請儘管指示…！",
+			0
+		}
+	}
+}
+
+_G.pg.base.ship_skin_words[301021] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "小兔乖乖，快到這來…呼，終於讓這些孩子安靜點了…",
+	mission = "",
+	touch2 = "兔、兔兔們…咬他！",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "嗚哦…！？大家都有得吃，不用搶——唔，指揮官？既然都來了，請不要光是看著，也來幫幫忙吧。",
+	mail = "",
+	touch = "照顧兔兔還是有許多注意事項的，我跟你說哦…——",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "嗚哦…！？大家都有得吃，不用搶——唔，指揮官？既然都來了，請不要光是看著，也來幫幫忙吧。",
+	feeling5 = "",
+	main = "除了胡蘿蔔，還得準備點乾草……等等，{namecode:2}姐，那個零食是不能餵給兔子的…！|果然，遇到兔子時，人人都想摸摸它那長長的耳朵…喂，不，不是說我的！|小兔子，吃了睡，睡了吃，還有人陪你們玩，真幸福啊……",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "這個腳步聲…果然是指揮官，我沒有認錯。",
+	vote = "",
+	hp_warning = "",
+	id = 301021,
+	detail = "今天輪到{namecode:3}照顧兔兔們了，嗯…是照顧兔子的，不是被照顧的那一方。",
 	couple_encourage = {}
 }
 
@@ -27552,6 +27679,40 @@ _G.pg.base.ship_skin_words[301812] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[301819] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "指揮官回來了。指揮官，喝茶，這是{namecode:180}泡的哦。",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "{namecode:180}感覺…好像長大了一些。嗯，噗噗也是這麼說的。",
+	mail = "",
+	touch = "噗噗也想和你說話呢，指揮官。",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "{namecode:180}感覺…好像長大了一些。嗯，噗噗也是這麼說的。",
+	feeling5 = "",
+	main = "{namecode:180}希望能幫上大家更多忙，噗噗也是，嗯，{namecode:180}和噗噗，會一起加油的。|{namecode:180}好像沒有以前那麼容易累了，指揮官如果累了，就來{namecode:180}身邊休息一會吧。|{namecode:20}是夥伴，噗噗已經不會怕了，嗯。",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "指揮官好。噗噗和{namecode:180}，都在等著你來。",
+	vote = "",
+	hp_warning = "",
+	id = 301819,
+	detail = "因為{namecode:180}能看到，所以噗噗不再孤獨了，{namecode:180}也…多了許多好朋友，嗯，能看到，是好事。",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[301820] = {
 	feeling1 = "指揮官，{namecode:29}不想看到您就這麼被大家疏遠。但是再這樣下去的話，恐怕{namecode:29}也沒法幫到您了…",
 	feeling3 = "說起來有些慚愧，每次想試著自己種點什麼的時候，都會演變成糾結養究竟種哪種花，結果最後還是沒能動手……指揮官有喜歡的花嗎？這次我想給自己下定決心試一試呢。",
@@ -28102,6 +28263,91 @@ _G.pg.base.ship_skin_words[301852] = {
 	hp_warning = "",
 	id = 301852,
 	detail = "看似用墨水隨意點綴的圖畫，卻真切地讓人感受到了梅花的神韻……真是一幅頗有意境的水墨畫啊",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[301860] = {
+	feeling1 = "果然…大家都是註定孤獨的吧…我也好，指揮官也好…",
+	feeling3 = "嗯，指揮官不是奇怪的人，可以和你做朋友。…其實是{namecode:203}自己想交朋友？…才、才不回答你。",
+	lose = "啊啊…我果然還是…",
+	propose = "那個指揮官，和{namecode:203}約好，永遠不能分開哦？指揮官先答應我，我再答應指揮官，不許反過來。……嗯，謝謝你，{namecode:203}最喜歡你了。",
+	expedition = "委託組回來了，指揮官別忘了迎接她們…我？我，我還是算了…",
+	win_mvp = "能一直這樣下去就好了…",
+	home = "指揮官，辛苦了。…有奇怪的笛聲？那，那一定是你聽錯了。",
+	mission = "任務…還剩下很多。不許偷懶。",
+	touch2 = "詛咒你被霉運附身…",
+	voice_key_2 = -1,
+	skill = "啊…好想快點結束……",
+	drop_descrip = "{namecode:35}級驅逐艦三番艦—{namecode:203}",
+	mail = "這孩子把指揮官的信拿過來吧？…啊，不可以搶。",
+	touch = "指揮官…想幹嘛？（{namecode:203}用懷疑的目光盯著你）",
+	profile = "我是{namecode:35}級三號艦{namecode:203}，隸屬於第十驅逐隊，主要負責運輸和護衛相關的工作…這兩位是我的夥伴。興趣愛好？…不告訴你。",
+	mission_complete = "任務完成了…{namecode:203}，也有幫上忙吧…",
+	feeling4 = "指揮官，跟你講哦，最近港區，一直有個長髮白衣的女人在飄來飄去？剛剛好像就在指揮官身後——奇怪，指揮官不怕嗎？拉近關係作戰，失敗了…",
+	unlock = "我是{namecode:35}級驅逐艦{namecode:203}，今天開始加入港區，希望能和港區的大家好好相處…唔，指揮官不會在想什麼壞事吧…看起來有點可疑…",
+	feeling5 = "只要和指揮官在一起，{namecode:203}就覺得很開心…指揮官，你是我交過的最好的朋友。所以…以後，一定要多陪著{namecode:203}哦。",
+	main = "指揮官，請不要盯著我。這樣，沒辦法專心…|工作時間，{namecode:203}不能和你閒聊。…實在孤單寂寞的話，也…不是不可以說說話…|我喜歡笛子，「嗚嗚」的聲音，聽起來很舒服…吹一下試試？現、現在不行…",
+	battle = "應該能贏…吧",
+	upgrade = "指揮官，謝謝你…",
+	voice_key = 30186,
+	headtouch = "我才不是寵物…",
+	feeling2 = "和{namecode:203}做朋友？不是不可以…不過，要是被我發現不好的企圖，就、就和你絕交。",
+	login = "哇！…指揮官，你把它們都嚇跑了。",
+	vote = "",
+	hp_warning = "唔，要盯著水下……",
+	id = 301860,
+	detail = "我喜歡一個人在房間裡安靜地待著…做什麼？……不告訴你。",
+	couple_encourage = {
+		{
+			{
+				30704
+			},
+			1,
+			"{namecode:94}姐姐，我會保護好妳的。",
+			0
+		},
+		{
+			{
+				30180
+			},
+			1,
+			"{namecode:162}，要盯著水下。",
+			0
+		}
+	}
+}
+
+_G.pg.base.ship_skin_words[301861] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "嗯，開心。…嘻嘻。",
+	home = "歡迎回來，指揮官。那個…沒有人跟著你一起來吧？嗯…我還吹得不是很好，不想讓人發現…",
+	mission = "",
+	touch2 = "唔，指揮官……再這樣的話，我就要吹奏哀樂了",
+	voice_key_2 = -1,
+	skill = "指揮官…在看著！",
+	drop_descrip = "呼…哎？指揮官？！偷偷練習豎笛被聽到了嗎…唔，請不要告訴其他人這件事情…",
+	mail = "",
+	touch = "節奏被你弄亂了…壞心眼…",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "呼…哎？指揮官？！偷偷練習豎笛被聽到了嗎…唔，請不要告訴其他人這件事情…",
+	feeling5 = "",
+	main = "（吹豎笛的聲音）奇怪，剛剛找到的感覺又不見了…|剛剛吹的是什麼曲子？不告訴你…等我完全練好了再說。|指揮官，放學了還一直陪著我…給你造成困擾了…",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "唔…？指揮官你來了？抱歉…傍晚的風很舒服，一不小心就睏了…",
+	vote = "",
+	hp_warning = "",
+	id = 301861,
+	detail = "我又練習了一下，指揮官…要聽聽看嗎？…還是算了……",
 	couple_encourage = {}
 }
 

@@ -2314,7 +2314,7 @@ function slot0.IsMatchKey(slot0, slot1)
 		return true
 	end
 
-	return string.find(slot0:GetDefaultName(), string.gsub(slot1, "%.", "%%."))
+	return string.find(string.lower(slot0:GetDefaultName()), string.lower(string.gsub(slot1, "%.", "%%.")))
 end
 
 return slot0

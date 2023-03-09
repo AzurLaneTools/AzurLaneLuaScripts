@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然卡美洛之庭能创造出足够让舰队前往其他世界的通道，那创造一些传输信息的通道自然是可以完全可行的。",
+			say = "既然卡美洛之庭能创造出足够让舰队前往其他世界的通道，那创造一些传输信息的通道自然也是完全可行的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,7 +625,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在漫长的历史长河中，每个阵营都是独特的。有着独属自己的优势，也有独属自己的问题。",
+			say = "在漫长的历史长河中，每个阵营都是独特的。有着独属于自己的优势，也有独属于自己的问题。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -457,7 +457,7 @@ pg.activity_const = {
 		act_id = 40490
 	},
 	JAPANESE_NEWYEAR = {
-		act_id = 40203
+		act_id = 41094
 	},
 	ANIME_MIDTERM_LOGIN = {
 		act_id = 458

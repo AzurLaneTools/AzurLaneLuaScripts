@@ -33,7 +33,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "徹底擊破敵人后可獲得豐厚獎勵。",
+			say = "徹底擊破敵人後可獲得豐厚獎勵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

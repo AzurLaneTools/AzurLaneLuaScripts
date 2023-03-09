@@ -200560,7 +200560,7 @@ _G.pg.base.chapter_template[1300001] = {
 	name = "暗流",
 	count = 0,
 	pop_pic = "",
-	act_id = 40203,
+	act_id = 41094,
 	pos_y = "0.392708333",
 	is_ai = 1,
 	progress_boss = 50,
@@ -201130,7 +201130,7 @@ _G.pg.base.chapter_template[1300002] = {
 	name = "老驥伏櫪",
 	count = 0,
 	pop_pic = "",
-	act_id = 40203,
+	act_id = 41094,
 	pos_y = "0.052083333",
 	is_ai = 1,
 	progress_boss = 34,
@@ -201717,7 +201717,7 @@ _G.pg.base.chapter_template[1300003] = {
 	name = "鐵血之謀",
 	count = 0,
 	pop_pic = "",
-	act_id = 40203,
+	act_id = 41094,
 	pos_y = "0.344791667",
 	is_ai = 1,
 	progress_boss = 34,
@@ -202327,7 +202327,7 @@ _G.pg.base.chapter_template[1300004] = {
 	name = "驟雨",
 	count = 0,
 	pop_pic = "",
-	act_id = 40204,
+	act_id = 41095,
 	pos_y = "0.227083333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -202953,7 +202953,7 @@ _G.pg.base.chapter_template[1300005] = {
 	name = "颶風過崗",
 	count = 0,
 	pop_pic = "",
-	act_id = 40204,
+	act_id = 41095,
 	pos_y = "0.052083333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -203625,7 +203625,7 @@ _G.pg.base.chapter_template[1300006] = {
 	name = "落花歸航",
 	count = 0,
 	pop_pic = "",
-	act_id = 40204,
+	act_id = 41095,
 	pos_y = "0.383333333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -204260,7 +204260,7 @@ _G.pg.base.chapter_template[1300021] = {
 	name = "暗流",
 	count = 0,
 	pop_pic = "",
-	act_id = 40203,
+	act_id = 41094,
 	pos_y = "0.392708333",
 	is_ai = 1,
 	progress_boss = 34,
@@ -204872,7 +204872,7 @@ _G.pg.base.chapter_template[1300022] = {
 	name = "老驥伏櫪",
 	count = 0,
 	pop_pic = "",
-	act_id = 40203,
+	act_id = 41094,
 	pos_y = "0.052083333",
 	is_ai = 1,
 	progress_boss = 34,
@@ -205502,7 +205502,7 @@ _G.pg.base.chapter_template[1300023] = {
 	name = "鐵血之謀",
 	count = 0,
 	pop_pic = "",
-	act_id = 40203,
+	act_id = 41094,
 	pos_y = "0.344791667",
 	is_ai = 1,
 	progress_boss = 25,
@@ -206155,7 +206155,7 @@ _G.pg.base.chapter_template[1300024] = {
 	name = "驟雨",
 	count = 0,
 	pop_pic = "",
-	act_id = 40204,
+	act_id = 41095,
 	pos_y = "0.380208333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -206352,7 +206352,11 @@ _G.pg.base.chapter_template[1300024] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		29,
+		39,
+		15
+	},
 	win_condition = {
 		{
 			1,
@@ -206823,7 +206827,7 @@ _G.pg.base.chapter_template[1300025] = {
 	name = "颶風過崗",
 	count = 0,
 	pop_pic = "",
-	act_id = 40204,
+	act_id = 41095,
 	pos_y = "0.122916667",
 	is_ai = 1,
 	progress_boss = 20,
@@ -207022,7 +207026,11 @@ _G.pg.base.chapter_template[1300025] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		32,
+		43,
+		16
+	},
 	win_condition = {
 		{
 			1,
@@ -207539,7 +207547,7 @@ _G.pg.base.chapter_template[1300026] = {
 	name = "落花歸航",
 	count = 0,
 	pop_pic = "",
-	act_id = 40204,
+	act_id = 41095,
 	pos_y = "0.35625",
 	is_ai = 1,
 	progress_boss = 20,
@@ -207739,7 +207747,11 @@ _G.pg.base.chapter_template[1300026] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		35,
+		47,
+		16
+	},
 	win_condition = {
 		{
 			1,
@@ -208218,7 +208230,7 @@ _G.pg.base.chapter_template[1300041] = {
 	name = "浮櫻影華",
 	count = 1,
 	pop_pic = "",
-	act_id = 40204,
+	act_id = 41095,
 	pos_y = "0.2979",
 	is_ai = 1,
 	progress_boss = 100,
@@ -208911,7 +208923,7 @@ _G.pg.base.chapter_template[1300051] = {
 	name = "毀滅之舞",
 	count = 0,
 	pop_pic = "",
-	act_id = 40204,
+	act_id = 41095,
 	pos_y = "0.2979",
 	is_ai = 0,
 	progress_boss = 100,

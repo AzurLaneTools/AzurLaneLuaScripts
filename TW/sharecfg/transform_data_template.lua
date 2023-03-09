@@ -35583,6 +35583,470 @@ pg.transform_data_template = {
 			25
 		}
 	},
+	[42401] = {
+		use_gold = 400,
+		name = "艦體改良I",
+		star_limit = 2,
+		id = 42401,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 1,
+		descrip = "耐久+45",
+		icon = "hp_1",
+		skill_id = 0,
+		condition_id = {},
+		effect = {
+			{
+				durability = 45
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[42402] = {
+		use_gold = 600,
+		name = "機動強化I",
+		star_limit = 2,
+		id = 42402,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 5,
+		descrip = "機動+5",
+		icon = "dd_1",
+		skill_id = 0,
+		condition_id = {
+			42401
+		},
+		effect = {
+			{
+				dodge = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[42403] = {
+		use_gold = 800,
+		name = "主炮改良I",
+		star_limit = 3,
+		id = 42403,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 20,
+		descrip = "主炮武器效率+5%",
+		icon = "mgup_1",
+		skill_id = 0,
+		condition_id = {
+			42401
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[42404] = {
+		use_gold = 1000,
+		name = "炮擊強化I",
+		star_limit = 3,
+		id = 42404,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 25,
+		descrip = "炮擊+10",
+		icon = "cn_1",
+		skill_id = 0,
+		condition_id = {
+			42403
+		},
+		effect = {
+			{
+				cannon = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					5
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[42405] = {
+		use_gold = 1200,
+		name = "魚雷改良I",
+		star_limit = 4,
+		id = 42405,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 35,
+		descrip = "魚雷武器效率+5%",
+		icon = "tpup_1",
+		skill_id = 0,
+		condition_id = {
+			42403
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[42406] = {
+		use_gold = 1500,
+		name = "雷擊強化II",
+		star_limit = 4,
+		id = 42406,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 40,
+		descrip = "雷擊+10",
+		icon = "tp_1",
+		skill_id = 0,
+		condition_id = {
+			42405
+		},
+		effect = {
+			{
+				torpedo = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[42407] = {
+		use_gold = 1800,
+		name = "動力強化",
+		star_limit = 4,
+		id = 42407,
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 50,
+		descrip = "航速+3",
+		icon = "sp_1",
+		skill_id = 0,
+		condition_id = {
+			42405
+		},
+		effect = {
+			{
+				speed = 3
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					5
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
+	[42408] = {
+		use_gold = 2000,
+		name = "裝填強化II",
+		star_limit = 4,
+		id = 42408,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 55,
+		descrip = "裝填+5/裝填+10",
+		icon = "rl_2",
+		skill_id = 0,
+		condition_id = {
+			42404,
+			42407
+		},
+		effect = {
+			{
+				reload = 5
+			},
+			{
+				reload = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					1
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[42409] = {
+		use_gold = 2500,
+		name = "艦體改良II",
+		star_limit = 5,
+		id = 42409,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 70,
+		descrip = "耐久+45/耐久+75",
+		icon = "hp_2",
+		skill_id = 0,
+		condition_id = {
+			42407
+		},
+		effect = {
+			{
+				durability = 45
+			},
+			{
+				durability = 75
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				}
+			},
+			{
+				{
+					18003,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[42410] = {
+		use_gold = 3000,
+		name = "雷擊強化II",
+		star_limit = 5,
+		id = 42410,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 75,
+		descrip = "雷擊+5/雷擊+15",
+		icon = "tp_2",
+		skill_id = 0,
+		condition_id = {
+			42406,
+			42409
+		},
+		effect = {
+			{
+				torpedo = 5
+			},
+			{
+				torpedo = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				},
+				{
+					17023,
+					5
+				}
+			},
+			{
+				{
+					18003,
+					2
+				},
+				{
+					17023,
+					15
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[42411] = {
+		use_gold = 3000,
+		name = "機動強化II",
+		star_limit = 5,
+		id = 42411,
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 85,
+		descrip = "機動+5/機動+10",
+		icon = "dd_2",
+		skill_id = 0,
+		condition_id = {
+			42409,
+			42410
+		},
+		effect = {
+			{
+				dodge = 5
+			},
+			{
+				dodge = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					2
+				}
+			},
+			{
+				{
+					18003,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[42412] = {
+		use_gold = 4000,
+		name = "近代化改造",
+		star_limit = 5,
+		id = 42412,
+		max_level = 1,
+		skin_id = 301819,
+		use_ship = 1,
+		level_limit = 90,
+		descrip = "近代化改造完成，雷擊+30，機動+15",
+		icon = "mt_red",
+		skill_id = 0,
+		condition_id = {
+			42408,
+			42411
+		},
+		effect = {
+			{
+				torpedo = 30,
+				dodge = 15
+			}
+		},
+		ship_id = {
+			{
+				301814,
+				301534
+			}
+		},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					3
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
 	[43401] = {
 		use_gold = 400,
 		name = "艦體改良I",
@@ -36995,6 +37459,18 @@ pg.transform_data_template = {
 		37710,
 		37711,
 		37712,
+		42401,
+		42402,
+		42403,
+		42404,
+		42405,
+		42406,
+		42407,
+		42408,
+		42409,
+		42410,
+		42411,
+		42412,
 		43401,
 		43402,
 		43403,

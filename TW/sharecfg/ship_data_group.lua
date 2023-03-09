@@ -10222,6 +10222,38 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[152] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 3,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 253,
+		code = 152,
+		group_type = 30102,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：浮櫻影華",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[429] = {
 		type = 1,
 		redirect_id = 101,
@@ -11055,7 +11087,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		hide = 0,
 		nationality = 3,
-		trans_skin = 0,
+		trans_skin = 301819,
 		handbook_type = 0,
 		index_id = 276,
 		code = 424,
@@ -11070,7 +11102,14 @@ pg.ship_data_group = {
 			"D",
 			"C"
 		},
-		trans_radar_chart = {},
+		trans_radar_chart = {
+			"C",
+			"S",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
 		trans_skill = {},
 		description = {
 			{
@@ -11480,6 +11519,38 @@ pg.ship_data_group = {
 						projectName = "light",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[517] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 3,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 287,
+		code = 517,
+		group_type = 30186,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：浮櫻影華",
+				{
+					""
 				},
 				0
 			}
@@ -22001,6 +22072,9 @@ pg.ship_data_group = {
 		[30101] = {
 			151
 		},
+		[30102] = {
+			152
+		},
 		[30172] = {
 			429
 		},
@@ -22096,6 +22170,9 @@ pg.ship_data_group = {
 		},
 		[30120] = {
 			170
+		},
+		[30186] = {
+			517
 		},
 		[30183] = {
 			450
@@ -23138,6 +23215,7 @@ pg.ship_data_group = {
 		278,
 		280,
 		151,
+		152,
 		429,
 		155,
 		159,
@@ -23170,6 +23248,7 @@ pg.ship_data_group = {
 		318,
 		319,
 		170,
+		517,
 		450,
 		370,
 		293,

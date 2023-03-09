@@ -145052,6 +145052,48 @@ _G.pg.base.item_data_statistics[59222] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59223] = {
+	display = "用於『浮櫻影華』復刻活動兌換，活動結束後將會消失",
+	name = "勾玉",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59223,
+	is_world = 0,
+	icon = "Props/xinrixi_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59224] = {
+	display = "用於『限時體驗商店』兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59224,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59225] = {
 	display = "參與『穿越彼方的水線』獲得的點數，累計一定程度可以領取報酬",
 	name = "貢獻值",

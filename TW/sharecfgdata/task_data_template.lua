@@ -109643,6 +109643,865 @@ _G.pg.base.task_data_template[16767] = {
 	}
 }
 
+_G.pg.base.task_data_template[16770] = {
+	name = "龙凤复刻 -日常建造",
+	guild_coin_award = 0,
+	award = 95450,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16770,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59223,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16771] = {
+	name = "龙凤复刻 -日常出击",
+	guild_coin_award = 0,
+	award = 95451,
+	type = 36,
+	desc = "艦隊出擊，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16771,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59223,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[16772] = {
+	name = "龙凤复刻 -日常困难本",
+	guild_coin_award = 0,
+	award = 95452,
+	type = 36,
+	desc = "通關1次任意困難關卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16772,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59223,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16773] = {
+	name = "『龙凤活动复刻』 通关A1/C1",
+	guild_coin_award = 0,
+	award = 95453,
+	type = 6,
+	desc = "擊敗A1或C1敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16773,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1300001,
+		1300021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59223,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41094
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16774] = {
+	name = "『龙凤活动复刻』 通关A2/C2",
+	guild_coin_award = 0,
+	award = 95454,
+	type = 6,
+	desc = "擊敗A2或C2敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16774,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1300002,
+		1300022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59223,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41094
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16775] = {
+	name = "『龙凤活动复刻』 通关A3/C3",
+	guild_coin_award = 0,
+	award = 95455,
+	type = 6,
+	desc = "擊敗A3或C3敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16775,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1300003,
+		1300023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59223,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41094
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16776] = {
+	name = "『龙凤活动复刻』 通关B1/D1",
+	guild_coin_award = 0,
+	award = 95456,
+	type = 6,
+	desc = "擊敗B1或D1敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16776,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1300004,
+		1300024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59223,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41095
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16777] = {
+	name = "『龙凤活动复刻』 通关B2/D2",
+	guild_coin_award = 0,
+	award = 95457,
+	type = 6,
+	desc = "擊敗B2或D2敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16777,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1300005,
+		1300025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59223,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41095
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16778] = {
+	name = "『龙凤活动复刻』 通关B3/D3",
+	guild_coin_award = 0,
+	award = 95458,
+	type = 6,
+	desc = "擊敗B3或D3敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16778,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1300006,
+		1300026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59223,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41095
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16779] = {
+	name = "『龙凤活动复刻』 通关SP",
+	guild_coin_award = 0,
+	award = 95459,
+	type = 6,
+	desc = "通關SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1300041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16779,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1300025,
+			chapterId = 1300041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16780] = {
+	name = "『龙凤活动复刻』 通关D3",
+	guild_coin_award = 0,
+	award = 95460,
+	type = 6,
+	desc = "通關D3<color=#92fc63>（勳章無法重複獲得）</color>",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1300026",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16780,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			160,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1300012,
+			chapterId = 1300026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16781] = {
+	name = "『龙凤活动复刻』 A1/C1的3星",
+	guild_coin_award = 0,
+	award = 95461,
+	type = 6,
+	desc = "完成A1或C1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "16782",
+	auto_commit = 0,
+	story_id = "",
+	id = 16781,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1300001,
+		1300021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41094
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16782] = {
+	name = "『龙凤活动复刻』 A2/C2的3星",
+	guild_coin_award = 0,
+	award = 95462,
+	type = 6,
+	desc = "完成A2或C2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "16783",
+	auto_commit = 0,
+	story_id = "",
+	id = 16782,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1300002,
+		1300022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41094
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16783] = {
+	name = "『龙凤活动复刻』 A3/C3的3星",
+	guild_coin_award = 0,
+	award = 95463,
+	type = 6,
+	desc = "完成A3或C3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "16784",
+	auto_commit = 0,
+	story_id = "",
+	id = 16783,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1300003,
+		1300023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41094
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16784] = {
+	name = "『龙凤活动复刻』 B1/D1的3星",
+	guild_coin_award = 0,
+	award = 95464,
+	type = 6,
+	desc = "完成B1或D1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "16785",
+	auto_commit = 0,
+	story_id = "",
+	id = 16784,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1300004,
+		1300024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41095
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16785] = {
+	name = "『龙凤活动复刻』 B2/D2的3星",
+	guild_coin_award = 0,
+	award = 95465,
+	type = 6,
+	desc = "完成B2或D2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "16786",
+	auto_commit = 0,
+	story_id = "",
+	id = 16785,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1300005,
+		1300025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41095
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16786] = {
+	name = "『龙凤活动复刻』 B3/D3的3星",
+	guild_coin_award = 0,
+	award = 95466,
+	type = 6,
+	desc = "完成B3或D3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16786,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1300006,
+		1300026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41095
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16787] = {
+	name = "龙凤复刻登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 95506,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16787,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			209,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[16800] = {
 	name = "骏河世界BOSS复刻挑战券任务1",
 	guild_coin_award = 0,

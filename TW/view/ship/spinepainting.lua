@@ -104,8 +104,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 			end, slot2)
 		end
 	}, function ()
-		if uv0 then
-			uv0(uv1)
+		setActive(uv0._spinePaintingData.parent, true)
+		setActive(uv0._spinePaintingData.effectParent, true)
+
+		if uv1 then
+			uv1(uv0)
 		end
 	end)
 end

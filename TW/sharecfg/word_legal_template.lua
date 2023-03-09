@@ -3421,6 +3421,9 @@ function temp()
 		},
 		["龍"] = {
 			this = true
+		},
+		["雪"] = {
+			this = true
 		}
 	}
 end
@@ -3785,6 +3788,11 @@ function temp()
 	uv0["霞"] = {
 		this = {
 			this = true
+		},
+		["."] = {
+			["改"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -5728,6 +5736,16 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["風"] = {
+		["雲"] = {
+			this = true
 		}
 	}
 end
