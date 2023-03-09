@@ -11896,136 +11896,136 @@ pg.activity_ins_language = {
 		value = "你要是觉得我辛苦了，想奖励我，那就下次带我做点更有趣的事！"
 	},
 	ins_362 = {
-		value = ""
+		value = "特别调制的红茶，指挥官一定会喜欢的吧？"
 	},
 	ins_discuss_362_1 = {
-		value = ""
+		value = "怨仇小姐准备的茶，总是饱含创意和冲击力呢~"
 	},
 	ins_reply_362_1_1 = {
-		value = ""
+		value = "千篇一律的生活总是需要点不一样的调剂，对吧？"
 	},
 	ins_discuss_362_2 = {
-		value = ""
+		value = "怨仇小姐，泡茶这种事还是交给专业的人来就好……"
 	},
 	ins_reply_362_2_1 = {
-		value = ""
+		value = "哎？这次我其实还满有信心的呢……"
 	},
 	ins_discuss_362_3 = {
-		value = ""
+		value = "这…难道是什么新型冲剂？"
 	},
 	ins_reply_362_3_1 = {
-		value = ""
+		value = "唔…姑且应该是对身体有好处的…？"
 	},
 	ins_op_362_1_1 = {
-		value = ""
+		value = "可、可以一试！"
 	},
 	op_reply_362_1_1 = {
-		value = ""
+		value = "期待指挥官的评价哦，呵呵~"
 	},
 	ins_363 = {
-		value = ""
+		value = "主人日常物品的归类管理，是优秀女仆必备的技能。"
 	},
 	ins_discuss_363_1 = {
-		value = ""
+		value = "斯库拉果然很可靠呢，掏耳朵的小工具也辛苦你保管了~"
 	},
 	ins_reply_363_1_1 = {
-		value = ""
+		value = "一点举手之劳而已，不用客气~"
 	},
 	ins_discuss_363_2 = {
-		value = ""
+		value = "有斯库拉在，就不怕弄丢东西了呢。"
 	},
 	ins_reply_363_2_1 = {
-		value = ""
+		value = "只要平时管理得当，就不怕弄丢东西了哦。"
 	},
 	ins_discuss_363_3 = {
-		value = ""
+		value = "欸？原来我的皇冠在那啊，之前还以为弄丢了，换了个新的……"
 	},
 	ins_reply_363_3_1 = {
-		value = ""
+		value = "整理的时候偶然发现的，还是要注意保管好随身物品哦，英勇大人。"
 	},
 	ins_op_363_1_1 = {
-		value = ""
+		value = "收拾整理辛苦了！"
 	},
 	op_reply_363_1_1 = {
-		value = ""
+		value = "只是做好分内的事情而已，其他的地方，也需要斯库拉为指挥官管理吗？"
 	},
 	ins_364 = {
-		value = ""
+		value = "呼……赶在门限之前回来了。"
 	},
 	ins_discuss_364_1 = {
-		value = ""
+		value = "门限……？"
 	},
 	ins_reply_364_1_1 = {
-		value = ""
+		value = "嗯…算是给自己的一点要求，“要在规定时间之前归巢”？"
 	},
 	ins_reply_364_1_2 = {
-		value = ""
+		value = "…简直像落汤的小鸡"
 	},
 	ins_discuss_364_2 = {
-		value = ""
+		value = "今天回来得比平时晚呢，发生了什么吗？"
 	},
 	ins_reply_364_2_1 = {
-		value = ""
+		value = "散步看到了美丽的夜景，差点就忘了时间…"
 	},
 	ins_op_364_1_1 = {
-		value = ""
+		value = "过了门限会怎样？"
 	},
 	op_reply_364_1_1 = {
-		value = ""
+		value = "太晚的话，第二天早上起床就……"
 	},
 	ins_365 = {
-		value = ""
+		value = "为什么倒霉的总是我……"
 	},
 	ins_discuss_365_1 = {
-		value = ""
+		value = "没事吧！？这就带你去医务室！"
 	},
 	ins_reply_365_1_1 = {
-		value = ""
+		value = "已经没事了，女灶神和贾维斯她们已经给看过了……"
 	},
 	ins_discuss_365_2 = {
-		value = ""
+		value = "啊，对不起！那个球好像是我打出去的……"
 	},
 	ins_reply_365_2_1 = {
-		value = ""
+		value = "没想到球会飞那么会…真的非常抱歉！"
 	},
 	ins_reply_365_2_2 = {
-		value = ""
+		value = "没事的，我已经习惯这种展开了……"
 	},
 	ins_discuss_365_3 = {
-		value = ""
+		value = "可以试试来神社祈福哦？对驱除霉运很有效果的！"
 	},
 	ins_reply_365_3_1 = {
-		value = ""
+		value = "真的吗？下次我试试吧。"
 	},
 	ins_op_365_1_1 = {
-		value = ""
+		value = "不要紧吧？我给你看看？"
 	},
 	op_reply_365_1_1 = {
-		value = ""
+		value = "啊，不用麻烦指挥官的！><"
 	},
 	ins_366 = {
-		value = ""
+		value = "发现指挥室的宝箱！里面会有什么有趣的东西呢~"
 	},
 	ins_discuss_366_1 = {
-		value = ""
+		value = "怎么能乱动指挥官的东西！"
 	},
 	ins_reply_366_1_1 = {
-		value = ""
+		value = "哎呀~我没拿走也没打开，只是看看嘛，你不好奇里面装的是什么嘛~？"
 	},
 	ins_reply_366_1_2 = {
-		value = ""
+		value = "我，我对这种才不感兴趣！"
 	},
 	ins_discuss_366_2 = {
-		value = ""
+		value = "所以？打开了吗？里面有没有什么指挥官不可告人的秘密呀~？"
 	},
 	ins_reply_366_2_1 = {
-		value = ""
+		value = "可惜英雄没有“开锁”这样的技能呢~"
 	},
 	ins_op_366_1_1 = {
-		value = ""
+		value = "怎么翻出来的……"
 	},
 	op_reply_366_1_1 = {
-		value = ""
+		value = "凭借勇者对宝箱的嗅觉哦~"
 	},
 	all = {
 		ins_op_1_1_1,

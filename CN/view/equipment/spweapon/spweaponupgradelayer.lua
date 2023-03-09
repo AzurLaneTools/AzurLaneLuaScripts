@@ -853,11 +853,8 @@ function slot0.UpdatePtMaterials(slot0, slot1)
 	end
 
 	slot3 = SpWeaponSortCfg
-	slot4 = true
 
-	table.sort(slot0.candicateSpweapons, function (slot0, slot1)
-		return uv0.sortFunc(slot0, slot1, uv0.sort[1], uv1)
-	end)
+	table.sort(slot0.candicateSpweapons, CompareFuncs(slot3.sortFunc(slot3.sort[1], true)))
 	slot0.leftPanelItemRect:align(#slot0.candicateMaterials)
 
 	if not slot1 then

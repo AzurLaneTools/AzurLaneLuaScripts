@@ -1,5 +1,325 @@
 pg = pg or {}
 pg.enemy_data_statistics_395 = {
+	[294300] = {
+		cannon = 12,
+		name = "仲裁者·司特莲库斯·VIII",
+		type = 3,
+		speed_growth = 0,
+		battle_unit_type = 90,
+		air = 0,
+		air_growth = 0,
+		friendly_cld = 0,
+		durability = 220,
+		armor = 0,
+		id = 294300,
+		bubble_fx = "",
+		dodge_growth = 240,
+		icon = "sairenboss6",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 10,
+		luck_growth = 0,
+		icon_type = 3,
+		armor_growth = 0,
+		torpedo_growth = 1050,
+		hit_growth = 150,
+		speed = 26,
+		luck = 45,
+		antisub = 0,
+		scale = 135,
+		wave_fx = "movewave",
+		prefab = "sairenboss6",
+		cannon_growth = 980,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 19,
+		reload_growth = 0,
+		hit = 13,
+		nationality = 99,
+		durability_growth = 96800,
+		antiaircraft = 31,
+		antiaircraft_growth = 2460,
+		armor_type = 2,
+		world_enhancement = {
+			111,
+			1.8,
+			0.9,
+			0,
+			0,
+			1,
+			0.7
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.606,
+					0.501,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.333,
+					0.635,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.333,
+					0.635,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.333,
+					0.635,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							0.55,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.82,
+							2.19,
+							-0.4
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearBig"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[294301] = {
+		cannon = 12,
+		name = "仲裁者·司特莲库斯·VIII",
+		type = 3,
+		speed_growth = 0,
+		battle_unit_type = 90,
+		air = 0,
+		air_growth = 0,
+		friendly_cld = 0,
+		durability = 220,
+		armor = 0,
+		id = 294301,
+		bubble_fx = "",
+		dodge_growth = 240,
+		icon = "sairenboss6",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 10,
+		luck_growth = 0,
+		icon_type = 3,
+		armor_growth = 0,
+		torpedo_growth = 1050,
+		hit_growth = 150,
+		speed = 26,
+		luck = 45,
+		antisub = 0,
+		scale = 135,
+		wave_fx = "movewave",
+		prefab = "sairenboss6",
+		cannon_growth = 980,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 19,
+		reload_growth = 0,
+		hit = 13,
+		nationality = 99,
+		durability_growth = 96800,
+		antiaircraft = 31,
+		antiaircraft_growth = 2460,
+		armor_type = 2,
+		world_enhancement = {
+			145,
+			1.9,
+			1,
+			0,
+			0,
+			1.2,
+			0.8
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.606,
+					0.501,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.333,
+					0.635,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.333,
+					0.635,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.333,
+					0.635,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							0.55,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.82,
+							2.19,
+							-0.4
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearBig"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[294310] = {
 		cannon = 20,
 		name = "仲裁者·赫米忒·IX",
@@ -1638,78 +1958,6 @@ pg.enemy_data_statistics_395 = {
 		armor = 0,
 		antisub = 0,
 		id = 295010,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295011] = {
-		cannon = 195,
-		name = "龙·META(Tier.11)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 428,
-		hit_growth = 0,
-		dodge = 14,
-		base = 90494,
-		durability_growth = 0,
-		antiaircraft = 330,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 16,
-		hit = 75,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability = 600000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		id = 295011,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295012] = {
-		cannon = 205,
-		name = "龙·META(Tier.12)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 442,
-		hit_growth = 0,
-		dodge = 14,
-		base = 90494,
-		durability_growth = 0,
-		antiaircraft = 344,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 17,
-		hit = 80,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability = 760000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		id = 295012,
 		buff_list = {
 			{
 				ID = 8830,

@@ -459,6 +459,7 @@ function slot0.updateWorld(slot0)
 end
 
 function slot0.UpdateExpBuff(slot0)
+	setActive(slot0.expBuff, false)
 	setActive(slot0.expBuff, slot0.activityProxy:getBuffShipList()[slot0.shipVO:getGroupId()] ~= nil)
 
 	if slot3 then

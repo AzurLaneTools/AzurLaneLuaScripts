@@ -10595,6 +10595,123 @@ pg.ship_skin_template_6 = {
 			205
 		}
 	},
+	[205016] = {
+		ship_group = 20501,
+		name = "伊丽莎白占坑",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 205016,
+		group_index = 6,
+		prefab = "yilishabai",
+		painting = "yilishabai",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "占坑",
+		voice_actor = 28,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.106,
+					1.3,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.591,
+					1.589,
+					0
+				},
+				{
+					0.688,
+					1.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.591,
+					1.589,
+					0
+				},
+				{
+					0.688,
+					1.12,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[205020] = {
 		ship_group = 20502,
 		name = "厌战",
@@ -10718,115 +10835,6 @@ pg.ship_skin_template_6 = {
 						{
 							0.919,
 							0.617,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[205021] = {
-		ship_group = 20502,
-		name = "战士的圣诞任务",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "100",
-		id = 205021,
-		group_index = 1,
-		prefab = "yanzhan_2",
-		painting = "yanzhan_2",
-		shop_id = 70127,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 1,
-		illustrator = 19,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "今年是我负责给皇家的孩子们送礼物。嗯，把这个圣诞树装饰好就出发吧！",
-		voice_actor = 28,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.8,
-					1.7,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.82,
-					1.67,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.82,
-					1.75,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.42,
-							2.42,
 							0
 						}
 					}

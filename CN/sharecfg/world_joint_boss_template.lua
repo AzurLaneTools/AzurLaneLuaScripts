@@ -125,7 +125,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "格奈森瑙·META",
 		painting = "genaisennao",
 		boss_level_id = 61,
@@ -264,12 +264,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "亚利桑那·META",
 		painting = "yalisangna",
 		boss_level_id = 121,
 		id = 9,
 		meta_id = 970503,
+		item_id = 100000,
 		description = {
 			{
 				"扩散的哀伤",
@@ -282,12 +283,44 @@ pg.world_joint_boss_template = {
 				"任意敌方单位耐久低于50%时，其会受到额外的恢复效果。\n任意敌方单位耐久低于20%时，其受到的<color=#92fc63>所有恢复效果将被反转为伤害。</color>"
 			}
 		},
+		p_offset = {
+			-49.8,
+			589.5,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			388,
+			586.2,
+			0.9,
+			0.9
+		}
+	},
+	{
+		item_id = 100000,
+		name = "伊丽莎白女王·META",
+		painting = "yilishabainvwang",
+		boss_level_id = 136,
+		id = 10,
+		meta_id = 970504,
+		description = {
+			{
+				"「伊丽莎白」象限展开",
+				1,
+				"战斗中释放某种影响整个海域状态的的特殊领域，并召唤数名领域骑士，<color=#92fc63>领域骑士对非META角色的攻击有极大伤害减免效果</color>。\n若领域骑士被尽数消灭，则<color=#92fc63>领域崩溃并使自身遭到反噬</color>，行动将变得虚弱，且永久受到伤害加深效果影响。"
+			},
+			{
+				"META亲和性",
+				2,
+				"自身对非META角色造成的伤害提高，同时受到来自META角色的更多伤害。"
+			}
+		},
 		state = {
 			{
 				{
-					2022,
-					12,
-					8
+					2023,
+					3,
+					9
 				},
 				{
 					0,
@@ -298,8 +331,8 @@ pg.world_joint_boss_template = {
 			{
 				{
 					2023,
-					3,
-					9
+					6,
+					8
 				},
 				{
 					23,
@@ -309,7 +342,7 @@ pg.world_joint_boss_template = {
 			}
 		},
 		p_offset = {
-			-49.8,
+			-118.8,
 			589.5,
 			0.9,
 			0.9
@@ -330,6 +363,7 @@ pg.world_joint_boss_template = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	}
 }

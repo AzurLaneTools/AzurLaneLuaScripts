@@ -4134,7 +4134,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2022.12.8-2023.3.9</color>期间限时开放「亚利桑那·META」的挑战，在此期间指挥官可挑战「亚利桑那·META」累计其同步值获取<color=#92fc63>「亚利桑那·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2023.3.9-2023.6.8</color>期间限时开放「伊丽莎白女王·META」的挑战，在此期间指挥官可挑战「伊丽莎白女王·META」累计其同步值获取<color=#92fc63>「伊丽莎白女王·META」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -4163,7 +4163,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标·META挑战的进行，从第31天开始，即2023.1.9~2023.3.9期间，舰队挑战「亚利桑那·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。
+随着信标·META挑战的进行，从第31天开始，即2023.4.9~2023.6.8期间，舰队挑战「伊丽莎白女王·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。
 ※此支援只会在指挥官自己发现的信标·META战斗中出现，每次挑战均会触发。]]
 		}
 	}
@@ -10082,15 +10082,15 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 怨仇(最多4次)"
+	tip = "维托里奥·维内托、天鹰等角色 建造概率UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "布莱默顿 建造追加！"
+	tip = "黎塞留、阿尔及利亚 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:192}、 神速 建造追加！"
+	tip = "可怖、圣女贞德等角色 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -17571,9 +17571,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2022.12.8-2023.3.9</color>期间限时开放「亚利桑那·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「亚利桑那·META」角色</color>
+·<color=#92fc63>2023.3.9-2023.6.8</color>期间限时开放「伊丽莎白女王·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「伊丽莎白女王·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「亚利桑那·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「伊丽莎白女王·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -23214,4 +23214,12 @@ _G.pg.base.gametip.battle_text_yingxiv4_9 = {
 
 _G.pg.base.gametip.battle_text_yingxiv4_10 = {
 	tip = "战争骑士陷入了<color=#f1f102>瘫痪状态</color>，舰队可以随意开火"
+}
+
+_G.pg.base.gametip.setting_label_private = {
+	tip = "隐私协议"
+}
+
+_G.pg.base.gametip.setting_label_licence = {
+	tip = "用户协议"
 }

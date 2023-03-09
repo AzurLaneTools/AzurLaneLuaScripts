@@ -625,7 +625,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在漫长的历史长河中，每个阵营都是独特的。有着独属自己的优势，也有独属自己的问题。",
+			say = "在漫长的历史长河中，每个阵营都是独特的。有着独属于自己的优势，也有独属于自己的问题。",
 			painting = {
 				alpha = 0.3,
 				time = 1

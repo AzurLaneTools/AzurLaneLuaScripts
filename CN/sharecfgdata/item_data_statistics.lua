@@ -9373,6 +9373,27 @@ _G.pg.base.item_data_statistics[21018] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21019] = {
+	display = "伊丽莎白女王·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	name = "结晶：伊丽莎白女王·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21019,
+	is_world = 0,
+	icon = "Props/21019",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "用于提升舰装火炮性能的稀有材料，可在「META研究室」-「舰装强化」中使用。",
 	name = "结晶化热强钢",
@@ -9640,6 +9661,27 @@ _G.pg.base.item_data_statistics[21909] = {
 	id = 21909,
 	is_world = 0,
 	icon = "Props/21909",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21910] = {
+	display = "于「信标·META」战斗中收集的数据，可以提升伊丽莎白女王·META同步率。",
+	name = "同步值：伊丽莎白女王·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21910,
+	is_world = 0,
+	icon = "Props/21910",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -191149,6 +191191,90 @@ _G.pg.base.item_data_statistics[59396] = {
 	id = 59396,
 	is_world = 0,
 	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59397] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59397,
+	is_world = 0,
+	icon = "Props/xunliandianshu_yv2",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59398] = {
+	display = "用于「复兴的赞美诗」复刻活动兑换，活动结束后将会消失",
+	name = "复兴之证",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59398,
+	is_world = 0,
+	icon = "Props/yidaliV2_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59400] = {
+	display = "于「复兴的赞美诗」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	name = "单次建造券",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 4723,
+	id = 59400,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59401] = {
+	display = "用于「小小军师成长记」复刻活动提升角色好感，活动结束后将会消失",
+	name = "友好度-小鳐",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59401,
+	is_world = 0,
+	icon = "Props/xiaotiancheng_pt",
 	display_icon = {},
 	price = {},
 	index = {},
