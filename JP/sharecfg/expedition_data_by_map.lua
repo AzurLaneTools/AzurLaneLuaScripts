@@ -9271,7 +9271,7 @@ pg.expedition_data_by_map = {
 		ani_controller = "",
 		cloud_suffix = "",
 		uifx = "",
-		on_activity = 929,
+		on_activity = 4718,
 		ui_type = 1,
 		bg = "Map_1410001",
 		destory_icon_suffix = "blue",
@@ -9315,7 +9315,7 @@ pg.expedition_data_by_map = {
 		ani_controller = "",
 		cloud_suffix = "",
 		uifx = "",
-		on_activity = 929,
+		on_activity = 4718,
 		ui_type = 1,
 		bg = "Map_1410002",
 		destory_icon_suffix = "blue",
@@ -9359,7 +9359,7 @@ pg.expedition_data_by_map = {
 		ani_controller = "",
 		cloud_suffix = "",
 		uifx = "",
-		on_activity = 929,
+		on_activity = 4718,
 		ui_type = 1,
 		bg = "Map_1410003",
 		destory_icon_suffix = "blue",
@@ -9403,7 +9403,7 @@ pg.expedition_data_by_map = {
 		ani_controller = "",
 		cloud_suffix = "",
 		uifx = "",
-		on_activity = 929,
+		on_activity = 4718,
 		ui_type = 1,
 		bg = "Map_1410004",
 		destory_icon_suffix = "blue",
@@ -9447,7 +9447,7 @@ pg.expedition_data_by_map = {
 		ani_controller = "",
 		cloud_suffix = "",
 		uifx = "",
-		on_activity = 929,
+		on_activity = 4718,
 		ui_type = 1,
 		bg = "Map_1410004",
 		destory_icon_suffix = "blue",
@@ -9491,7 +9491,7 @@ pg.expedition_data_by_map = {
 		ani_controller = "",
 		cloud_suffix = "",
 		uifx = "",
-		on_activity = 929,
+		on_activity = 4718,
 		ui_type = 1,
 		bg = "Map_1410004",
 		destory_icon_suffix = "blue",
@@ -16222,6 +16222,182 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100241] = {
+		map = 2100241,
+		name = "神穹を衝く聖歌·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "SHENGYONGQU1",
+		ani_name = "map_1320001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1320001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100251,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100242] = {
+		map = 2100242,
+		name = "神穹を衝く聖歌·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-3",
+		enter_story = "SHENGYONGQU16",
+		ani_name = "map_1320002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1320002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100252,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100251] = {
+		map = 2100251,
+		name = "神穹を衝く聖歌·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "SHENGYONGQU1",
+		ani_name = "map_1320003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1320003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100241,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100252] = {
+		map = 2100252,
+		name = "神穹を衝く聖歌·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-3",
+		enter_story = "SHENGYONGQU16",
+		ani_name = "map_1320004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1320004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100242,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "努力、希望と計画|| ||CHAPTER SP||S.P.",
@@ -16597,6 +16773,50 @@ pg.expedition_data_by_map = {
 		bind_map = 0,
 		clouds_pos = {}
 	},
+	[2200090] = {
+		map = 2200090,
+		name = "帰路は海色の陰りへと|| ||CHAPTER SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "story-french1",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1310001",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -16966,6 +17186,10 @@ pg.expedition_data_by_map = {
 		2100222,
 		2100231,
 		2100232,
+		2100241,
+		2100242,
+		2100251,
+		2100252,
 		2200000,
 		2200010,
 		2200020,
@@ -16974,6 +17198,7 @@ pg.expedition_data_by_map = {
 		2200050,
 		2200060,
 		2200070,
-		2200080
+		2200080,
+		2200090
 	}
 }

@@ -125,7 +125,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "グナイゼナウ(META)",
 		painting = "genaisennao",
 		boss_level_id = 61,
@@ -264,12 +264,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "アリゾナ(META)",
 		painting = "yalisangna",
 		boss_level_id = 121,
 		id = 9,
 		meta_id = 970503,
+		item_id = 100000,
 		description = {
 			{
 				"広がる悲しみ",
@@ -282,12 +283,44 @@ pg.world_joint_boss_template = {
 				"任意の敵の艦船の耐久が50％を下回っている場合、その敵は戦闘中耐久が回復する。\n任意の敵の艦船の耐久が20％を下回っている場合、<color=#92fc63>その敵が受ける回復効果はダメージ効果になる。</color>"
 			}
 		},
+		p_offset = {
+			-49.8,
+			589.5,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			388,
+			586.2,
+			0.9,
+			0.9
+		}
+	},
+	{
+		item_id = 100000,
+		name = "クイーン・エリザベス(META)",
+		painting = "yilishabainvwang",
+		boss_level_id = 136,
+		id = 10,
+		meta_id = 970504,
+		description = {
+			{
+				"「クイーン・エリザベス」象限展開",
+				3,
+				"カリスマで海域全体の領域を支配し、幻影の騎士たちを召喚する。<color=#92fc63>幻影の騎士は「META」でない艦船からの攻撃に耐性を持つ</color>。\n幻影の騎士がすべて撃破された場合、<color=#92fc63>自身が弱体化し</color>、さらに受けるダメージが永続的に上昇する。"
+			},
+			{
+				"META親和性",
+				2,
+				"自身の「META以外の艦船」に与えるダメージが上昇するが、「META」から受けるダメージも上昇する。"
+			}
+		},
 		state = {
 			{
 				{
-					2022,
-					12,
-					8
+					2023,
+					3,
+					9
 				},
 				{
 					0,
@@ -298,8 +331,8 @@ pg.world_joint_boss_template = {
 			{
 				{
 					2023,
-					3,
-					9
+					6,
+					8
 				},
 				{
 					23,
@@ -309,7 +342,7 @@ pg.world_joint_boss_template = {
 			}
 		},
 		p_offset = {
-			-49.8,
+			-118.8,
 			589.5,
 			0.9,
 			0.9
@@ -330,6 +363,7 @@ pg.world_joint_boss_template = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	}
 }

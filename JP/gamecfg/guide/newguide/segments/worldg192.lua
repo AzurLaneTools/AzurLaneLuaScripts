@@ -12,7 +12,7 @@ return {
 				posX = -685.5
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/switch_btn",
+				path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/CurrentWorldBossDetailUI(Clone)/list_btn",
 				fingerPos = {
 					posX = 118.8,
 					posY = -39.94,
@@ -54,7 +54,7 @@ return {
 				dir = 1,
 				posX = 380.71,
 				ui = {
-					path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/point"
+					path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/CurrentWorldBossChallengeUI(Clone)/point"
 				}
 			}
 		},
@@ -69,7 +69,7 @@ return {
 				posX = 709.1
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/WorldBossUI(Clone)/option",
+				path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/option",
 				triggerType = {
 					1
 				},

@@ -106768,7 +106768,8 @@ _G.pg.base.ship_data_statistics[205011] = {
 	},
 	tag_list = {
 		"QE-Class",
-		"QE"
+		"QE",
+		"QE_1914"
 	}
 }
 
@@ -106894,7 +106895,8 @@ _G.pg.base.ship_data_statistics[205012] = {
 	},
 	tag_list = {
 		"QE-Class",
-		"QE"
+		"QE",
+		"QE_1914"
 	}
 }
 
@@ -107020,7 +107022,8 @@ _G.pg.base.ship_data_statistics[205013] = {
 	},
 	tag_list = {
 		"QE-Class",
-		"QE"
+		"QE",
+		"QE_1914"
 	}
 }
 
@@ -107146,7 +107149,8 @@ _G.pg.base.ship_data_statistics[205014] = {
 	},
 	tag_list = {
 		"QE-Class",
-		"QE"
+		"QE",
+		"QE_1914"
 	}
 }
 
@@ -322400,6 +322404,510 @@ _G.pg.base.ship_data_statistics[9705034] = {
 		"ArizonaMETA",
 		"TOC",
 		"Pennsylvania-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9705041] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "クイーン・エリザベス(META)",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 9705040,
+	english_name = "Queen Elizabeth.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 9705041,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1298,
+		81,
+		0,
+		41,
+		0,
+		56,
+		0,
+		16,
+		4,
+		24,
+		25,
+		0
+	},
+	attrs_growth = {
+		22341,
+		1000,
+		0,
+		558,
+		0,
+		386,
+		0,
+		269,
+		191,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"QE",
+		"QEMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9705042] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "クイーン・エリザベス(META)",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 9705040,
+	english_name = "Queen Elizabeth.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 9705042,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1615,
+		101,
+		0,
+		51,
+		0,
+		56,
+		0,
+		16,
+		4,
+		24,
+		25,
+		0
+	},
+	attrs_growth = {
+		22341,
+		1000,
+		0,
+		558,
+		0,
+		386,
+		0,
+		269,
+		191,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"QE",
+		"QEMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9705043] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "クイーン・エリザベス(META)",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 9705040,
+	english_name = "Queen Elizabeth.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 9705043,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2248,
+		141,
+		0,
+		71,
+		0,
+		56,
+		0,
+		16,
+		4,
+		24,
+		25,
+		0
+	},
+	attrs_growth = {
+		22341,
+		1000,
+		0,
+		558,
+		0,
+		386,
+		0,
+		269,
+		191,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"QE",
+		"QEMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9705044] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "クイーン・エリザベス(META)",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 9705040,
+	english_name = "Queen Elizabeth.META",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 9705044,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3197,
+		201,
+		0,
+		101,
+		0,
+		56,
+		0,
+		16,
+		4,
+		24,
+		25,
+		0
+	},
+	attrs_growth = {
+		22341,
+		1000,
+		0,
+		558,
+		0,
+		386,
+		0,
+		269,
+		191,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"QE",
+		"QEMETA"
 	}
 }
 

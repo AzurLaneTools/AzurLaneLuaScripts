@@ -21395,6 +21395,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -21425,6 +21436,17 @@ pg.ship_data_group = {
 				"イベント：神穹を衝く聖歌",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -21510,6 +21532,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -21542,6 +21575,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -21572,6 +21616,16 @@ pg.ship_data_group = {
 				"イベント：神穹を衝く聖歌",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -21711,6 +21765,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -21741,6 +21806,17 @@ pg.ship_data_group = {
 				"イベント：神穹を衝く聖歌",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -21905,6 +21981,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -21967,6 +22053,17 @@ pg.ship_data_group = {
 				"イベント：神穹を衝く聖歌",
 				{
 					""
+				},
+				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -25410,6 +25507,41 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[30019] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30019,
+		code = 30019,
+		group_type = 970504,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"メタラボ・情報解析",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9705041
+					}
+				},
+				0
+			}
+		}
+	},
 	get_id_list_by_group_type = {
 		[10000] = {
 			1
@@ -27258,6 +27390,9 @@ pg.ship_data_group = {
 		},
 		[970203] = {
 			30018
+		},
+		[970504] = {
+			30019
 		}
 	},
 	all = {
@@ -27876,6 +28011,7 @@ pg.ship_data_group = {
 		30015,
 		30016,
 		30017,
-		30018
+		30018,
+		30019
 	}
 }

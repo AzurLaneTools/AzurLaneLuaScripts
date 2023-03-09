@@ -4484,8 +4484,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2022.12.8-2023.3.9</color>
-META戦・アリゾナ(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
+<color=#92fc63>2023.3.9-2023.6.8</color>
+META戦・クイーン·エリザベス(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
 ■META戦について
@@ -10093,15 +10093,15 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「インプラカブル」を確定で入手可能！（最大4隻まで）"
+	tip = "「ヴィットリオ·ヴェネト」「アクィラ」などの出現率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「ブレマートン」常設実装！"
+	tip = "「リシュリュー」「アルジェリー」常設実装！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「追風」「ストレミテルヌイ」常設実装！"
+	tip = "「ル·テリブル」「ジャンヌ·ダルク」常設実装！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -17630,7 +17630,7 @@ _G.pg.base.gametip.meta_help = {
 ・解析Ptを一定数貯めると、「META艦船」を入手できます。
 ・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することが出来ます。
 
-※<color=#92fc63>2022.12.8-2023.3.9</color>アリゾナ(META) META戦開放期間は「アリゾナ・META」の解析Ptを入手できます。
+※<color=#92fc63>2023.3.9-2023.6.8</color>クイーン·エリザベス(META) META戦開放期間は「クイーン·エリザベス・META」の解析Ptを入手できます。
  解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。
 
 ■「META」艦船の艤装強化について
@@ -18206,7 +18206,7 @@ _G.pg.base.gametip.gametip_xiaotiancheng = {
 2.【天城ちゃん】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、また退役や強化・限界突破素材への選択をすることができません。
 3.【天城ちゃん】を編成に入れている艦隊で上記ステージの敵中枢艦隊を撃破し、かつ勝利時【天城ちゃん】が戦闘可能な状態の場合、獲得できる「友好度」が2倍になります。
 4.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【天城ちゃん】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【天城ちゃん】は母港からいなくなります。
-5.友好度報酬は4/28（水）まで毎日1段階ずつ解放されます。]]
+5.友好度報酬は3/15（水）まで毎日1段階ずつ解放されます。]]
 		},
 		{
 			info = "6.仮加入状態の【天城ちゃん】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
@@ -23493,4 +23493,12 @@ _G.pg.base.gametip.battle_text_yingxiv4_9 = {
 
 _G.pg.base.gametip.battle_text_yingxiv4_10 = {
 	tip = "騎士の動きが弱っている、火力を集中せよ！"
+}
+
+_G.pg.base.gametip.setting_label_private = {
+	tip = "隐私协议"
+}
+
+_G.pg.base.gametip.setting_label_licence = {
+	tip = "用户协议"
 }

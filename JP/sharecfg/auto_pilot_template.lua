@@ -8383,6 +8383,27 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70178] = {
+		id = 70178,
+		name = "黑伊丽莎白 亚空间人形移动方式",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					Z1 = 25,
+					Z2 = 75,
+					X2 = -5,
+					moveCount = 40,
+					duration = -1,
+					X1 = -35,
+					stopCount = 20
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

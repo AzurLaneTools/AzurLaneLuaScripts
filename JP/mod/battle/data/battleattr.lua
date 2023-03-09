@@ -423,9 +423,7 @@ function slot0.SetAircraftAttFromMother(slot0, slot1)
 
 	slot2.armorType = 0
 	slot2.velocity = uv0.GetCurrent(slot1, "baseVelocity")
-	slot2.labelTag = setmetatable({}, {
-		__index = slot1._attr.labelTag
-	})
+	slot2.labelTag = {}
 	slot2.TargetChoise = {}
 	slot2.guardian = {}
 	slot2.comboTag = "combo_" .. slot2.hostUID

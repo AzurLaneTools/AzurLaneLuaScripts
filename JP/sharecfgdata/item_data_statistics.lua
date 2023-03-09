@@ -9051,6 +9051,27 @@ _G.pg.base.item_data_statistics[21018] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21019] = {
+	display = "クイーン·エリザベス(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	name = "結晶：クイーン·エリザベス(META)",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21019,
+	is_world = 0,
+	icon = "Props/21019",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "艤装の火力を強化できるレア素材。「メタラボ」の「強化」で使用可能",
 	name = "耐熱強化結晶鋼",
@@ -9318,6 +9339,27 @@ _G.pg.base.item_data_statistics[21909] = {
 	id = 21909,
 	is_world = 0,
 	icon = "Props/21909",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21910] = {
+	display = "クイーン·エリザベス(META)の解析ポイント",
+	name = "クイーン·エリザベス(META)解析Pt",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21910,
+	is_world = 0,
+	icon = "Props/21910",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -189709,6 +189751,111 @@ _G.pg.base.item_data_statistics[59396] = {
 	id = 59396,
 	is_world = 0,
 	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59397] = {
+	display = "「作戦準備・サディア」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "訓練Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59397,
+	is_world = 0,
+	icon = "Props/xunliandianshu_yv2",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59398] = {
+	display = "「讃える復興の迷路」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "復興のシンボル",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59398,
+	is_world = 0,
+	icon = "Props/yidaliV2_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59399] = {
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2023.3.15メンテナンスまで）で削除されます",
+	name = "試着貸出チケット（2023.3.15まで）",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59399,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59400] = {
+	display = "イベント「讃える復興の迷路」で入手できる期間限定建造チケット。イベント終了後に削除されます",
+	name = "建造支援チケット",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 4723,
+	id = 59400,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59401] = {
+	display = "イベント「すこやかりとる」・友好度報酬（累計獲得数）",
+	name = "友好度-天城ちゃん",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59401,
+	is_world = 0,
+	icon = "Props/xiaotiancheng_pt",
 	display_icon = {},
 	price = {},
 	index = {},

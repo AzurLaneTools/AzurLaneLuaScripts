@@ -334,19 +334,18 @@ function slot0.filterEquipment(slot0)
 	end
 
 	if slot1 then
-		slot3 = slot0.asc
-
-		table.sort(slot0.loadEquipmentVOs, function (slot0, slot1)
-			if slot0.type ~= slot1.type then
-				return slot2 < slot3
+		table.sort(slot0.loadEquipmentVOs, CompareFuncs(table.mergeArray({
+			function (slot0)
+				return slot0.type
+			end,
+			function (slot0)
+				return slot0.template.shipId or -1
 			end
-
-			if (slot0.template.shipId or -1) ~= (slot1.template.shipId or -1) then
-				return slot6 < slot7
-			else
-				return uv0.sortFunc(slot4, slot5, uv1, uv2)
+		}, underscore.map(uv0.sortFunc(slot1, slot0.asc), function (slot0)
+			return function (slot0)
+				return uv0(slot0.template)
 			end
-		end)
+		end))))
 	end
 
 	slot0:updateSelected()

@@ -2,6 +2,49 @@ return {
 	id = "WorldG191",
 	events = {
 		{
+			delay = 0.5,
+			alpha = 0.3,
+			code = {
+				"ShowClickArea"
+			},
+			style = {
+				text = "新しいコンテンツを確認します。メイン画面にもどりましょう。",
+				mode = 2,
+				posY = -160,
+				char = "1",
+				dir = -1,
+				posX = -460
+			},
+			showSign = {
+				type = 2,
+				signList = {
+					{
+						signType = 4,
+						pos = {
+							-550,
+							150,
+							0
+						}
+					}
+				},
+				clickArea = {
+					300,
+					200
+				}
+			}
+		},
+		{
+			alpha = 0,
+			code = {
+				"openOverview"
+			},
+			notifies = {
+				{
+					notify = "world open transport pos"
+				}
+			}
+		},
+		{
 			alpha = 0.4,
 			style = {
 				text = "ほかの指揮官と共闘し、META艦船に挑む新コンテンツ「META戦」が開放されました。",
@@ -38,6 +81,30 @@ return {
 			alpha = 0.4,
 			waitScene = "WorldBossScene",
 			style = {
+				text = "開催中のMETA戦はこちらになります",
+				mode = 2,
+				posY = -375.9,
+				char = "1",
+				dir = 1,
+				posX = -776.6
+			},
+			ui = {
+				path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEntranceUI(Clone)/current",
+				triggerType = {
+					1
+				},
+				fingerPos = {
+					posX = 0,
+					posY = 0,
+					rotateX = 0,
+					rotateZ = 0,
+					rotateY = 0
+				}
+			}
+		},
+		{
+			alpha = 0.4,
+			style = {
 				text = "META戦は不定期で開催します。ここには今回の開催時間が表示されます。",
 				mode = 2,
 				posY = 294,
@@ -45,7 +112,7 @@ return {
 				dir = 1,
 				posX = -448.3,
 				ui = {
-					path = "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/current/time"
+					path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/CurrentWorldBossEmptyUI(Clone)/time"
 				}
 			}
 		},
@@ -72,7 +139,7 @@ return {
 				posX = -495
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/current",
+				path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/CurrentWorldBossEmptyUI(Clone)/useItem/list/tpl",
 				triggerType = {
 					1
 				},

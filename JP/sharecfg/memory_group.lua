@@ -4383,6 +4383,22 @@ pg.memory_group = {
 			2567
 		}
 	},
+	[584] = {
+		icon = "title_chara_tuolichaili",
+		subtype = 0,
+		type = 3,
+		id = 584,
+		title = "日陰のトリチェリ",
+		memories = {
+			2601,
+			2602,
+			2603,
+			2604,
+			2605,
+			2606,
+			2607
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4608,6 +4624,7 @@ pg.memory_group = {
 		580,
 		581,
 		582,
-		583
+		583,
+		584
 	}
 }

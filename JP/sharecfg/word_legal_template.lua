@@ -1116,7 +1116,20 @@ function temp()
 								["ザ"] = {
 									["ベ"] = {
 										["ス"] = {
-											this = true
+											this = true,
+											["("] = {
+												M = {
+													E = {
+														T = {
+															A = {
+																[")"] = {
+																	this = true
+																}
+															}
+														}
+													}
+												}
+											}
 										}
 									}
 								}

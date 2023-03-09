@@ -2150,7 +2150,7 @@ function slot0.CheckGuideSLG(slot0, slot1, slot2)
 	table.insert(slot4, {
 		"WorldG191",
 		function ()
-			return WorldBossConst.CanUnlockCurrBoss() and isActive(uv0.rtBottomAtlas) and nowWorld():IsSystemOpen(WorldConst.SystemWorldBoss)
+			return WorldBossConst.CanUnlockCurrBoss() and nowWorld():IsSystemOpen(WorldConst.SystemWorldBoss)
 		end
 	})
 

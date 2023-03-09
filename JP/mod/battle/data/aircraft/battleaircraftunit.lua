@@ -67,6 +67,7 @@ function slot6.Init(slot0)
 	slot0._speed = Vector3.zero
 	slot0._pos = Vector3.zero
 	slot0._undefeated = false
+	slot0._labelTagList = {}
 end
 
 function slot6.Clear(slot0)
@@ -263,6 +264,16 @@ function slot6.SetMotherUnit(slot0, slot1)
 	else
 		slot0._dir = uv1.UnitDir.LEFT
 	end
+end
+
+function slot6.GetLabelTag(slot0)
+	return slot0._labelTagList
+end
+
+function slot6.AddLabelTag(slot0, slot1)
+	table.insert(slot0._labelTagList, slot1)
+
+	slot2[slot1] = (slot0:GetAttrByName("labelTag")[slot1] or 0) + 1
 end
 
 function slot6.SetIFF(slot0, slot1)
@@ -498,10 +509,6 @@ end
 function slot6.TriggerBuff(slot0)
 end
 
-function slot6.GetLabelTag(slot0)
-	return {}
-end
-
 function slot6.CloakExpose(slot0)
 end
 
@@ -516,7 +523,4 @@ function slot6.SetRemoteBoundBone(slot0)
 end
 
 function slot6.GetRemoteBoundBone(slot0)
-end
-
-function slot6.ContainsLabelTag(slot0)
 end
