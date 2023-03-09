@@ -14,6 +14,13 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
+function slot0.OnFirstFlush(slot0)
+	uv0.super.OnFirstFlush(slot0)
+	onButton(slot0, slot0.battleBtn, function ()
+		uv0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
+	end, SFX_PANEL)
+end
+
 function slot0.OnUpdateFlush(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
