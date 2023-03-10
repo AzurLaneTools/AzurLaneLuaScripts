@@ -55,9 +55,11 @@ function slot0.OnLoaded(slot0)
 	slot0.acceptBtnTxt = slot0.acceptBtn:Find("Text"):GetComponent(typeof(Text))
 	slot0.scrollrect = slot0._go.transform:Find("window/container/scrollrect"):GetComponent(typeof(ScrollRect))
 	slot0.titleTxt = slot0._go.transform:Find("window/title"):GetComponent(typeof(Text))
+	slot0.msgboxTitleTxt = slot0._go.transform:Find("window/title1/Text"):GetComponent(typeof(Text))
 end
 
 function slot0.Flush(slot0)
+	slot0.msgboxTitleTxt.text = i18n("title_info")
 	slot0.contentTxt.text = slot0.content
 	slot0.acceptBtnTxt.text = i18n("word_back")
 	slot0.titleTxt.text = slot0.title
