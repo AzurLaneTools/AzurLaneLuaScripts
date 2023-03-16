@@ -1,13 +1,31 @@
 pg = pg or {}
 pg.expedition_daily_template = {
+	[101] = {
+		tips = "This stage is not available yet.",
+		limit_type = 0,
+		show_with_count = 0,
+		limit_time = 0,
+		insert_daily = 1,
+		title = "Unavailable",
+		pic = "daily4",
+		des = "This stage is not available yet.",
+		limit_period = "",
+		id = 101,
+		sort = "0",
+		weekday = {},
+		expedition_and_lv_limit_list = {}
+	},
 	[201] = {
 		tips = "Escort Mission available on every Monday, Thursday and Sunday",
 		limit_type = 1,
-		des = "Our Cargo ship is damaged by enemy torpedoes! Escort it to get a large number of Equipment Materials",
+		show_with_count = 0,
 		limit_time = 3,
-		id = 201,
+		insert_daily = 0,
 		title = "商船护送",
 		pic = "daily1",
+		des = "Our Cargo ship is damaged by enemy torpedoes! Escort it to get a large number of Equipment Materials",
+		limit_period = "",
+		id = 201,
 		sort = "1",
 		weekday = {
 			1,
@@ -68,11 +86,14 @@ pg.expedition_daily_template = {
 	[301] = {
 		tips = "Advance Mission available on every Tuesday, Friday and Sunday",
 		limit_type = 1,
-		des = "Enemy self-destruction boats are zerging around! Clear them will have a chance to get Tactical Materials",
+		show_with_count = 0,
 		limit_time = 3,
-		id = 301,
+		insert_daily = 0,
 		title = "海域突进",
 		pic = "daily2",
+		des = "Enemy self-destruction boats are zerging around! Clear them will have a chance to get Tactical Materials",
+		limit_period = "",
+		id = 301,
 		sort = "2",
 		weekday = {
 			2,
@@ -109,11 +130,14 @@ pg.expedition_daily_template = {
 	[401] = {
 		tips = "Fierce Assault available on every Wednesday, Saturday and Sunday",
 		limit_type = 1,
-		des = "Warning! Enemy Bosses on sight! Destroy them will have a chance to get Mystery Tech Packs",
+		show_with_count = 0,
 		limit_time = 3,
-		id = 401,
+		insert_daily = 0,
 		title = "斩首行动",
 		pic = "daily3",
+		des = "Warning! Enemy Bosses on sight! Destroy them will have a chance to get Mystery Tech Packs",
+		limit_period = "",
+		id = 401,
 		sort = "3",
 		weekday = {
 			3,
@@ -150,11 +174,14 @@ pg.expedition_daily_template = {
 	[501] = {
 		tips = "Supply Line Disruption is open every day, and can be played a maximum of 2 times weekly. ",
 		limit_type = 2,
-		des = "Launch an operation to disrupt enemy supply lines with your Submarine Fleet! Success will grant you various Submarine gear blueprints! ",
+		show_with_count = 0,
 		limit_time = 2,
-		id = 501,
+		insert_daily = 0,
 		title = "Supply Line Disruption ",
 		pic = "daily5",
+		des = "Launch an operation to disrupt enemy supply lines with your Submarine Fleet! Success will grant you various Submarine gear blueprints! ",
+		limit_period = "",
+		id = 501,
 		sort = "4",
 		weekday = {
 			1,
@@ -195,12 +222,15 @@ pg.expedition_daily_template = {
 	[601] = {
 		tips = "战术研修每天开启",
 		limit_type = 1,
-		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
+		show_with_count = 0,
 		limit_time = 3,
-		id = 601,
+		insert_daily = 0,
 		title = "战术研修",
 		pic = "daily6",
-		sort = "6",
+		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
+		limit_period = "",
+		id = 601,
+		sort = "7",
 		weekday = {
 			1,
 			2,
@@ -240,11 +270,14 @@ pg.expedition_daily_template = {
 	[701] = {
 		tips = "Twice per week",
 		limit_type = 2,
-		des = "This stage pits your fleet against another fleet that uses Augment Modules. Complete it to receive Augment Modules or associated materials.",
+		show_with_count = 0,
 		limit_time = 2,
-		id = 701,
+		insert_daily = 0,
 		title = "Module Development",
 		pic = "daily7",
+		des = "This stage pits your fleet against another fleet that uses Augment Modules. Complete it to receive Augment Modules or associated materials.",
+		limit_period = "",
+		id = 701,
 		sort = "5",
 		weekday = {
 			1,
@@ -267,18 +300,64 @@ pg.expedition_daily_template = {
 		}
 	},
 	[801] = {
-		tips = "This stage is not available yet.",
-		limit_type = 0,
-		des = "This stage is not available yet.",
-		limit_time = 0,
+		tips = "Can be challenged once per day during the available period.",
+		limit_type = 1,
+		show_with_count = 1,
+		limit_time = 1,
+		insert_daily = 0,
+		title = "Emergency Module Development",
+		pic = "daily8",
+		des = "A limited-time module development challenge. Clear it to obtain materials for module crafting and upgrading.",
 		id = 801,
-		title = "Unavailable",
-		pic = "daily4",
-		sort = "7",
-		weekday = {},
-		expedition_and_lv_limit_list = {}
+		sort = "6",
+		weekday = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		},
+		limit_period = {
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		expedition_and_lv_limit_list = {
+			{
+				7010,
+				30
+			},
+			{
+				7011,
+				70
+			}
+		}
 	},
 	all = {
+		101,
 		201,
 		301,
 		401,

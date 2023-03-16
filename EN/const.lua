@@ -321,6 +321,7 @@ CC_TYPE_8 = 8
 CC_TYPE_9 = 9
 CC_TYPE_10 = 10
 CC_TYPE_99 = 99
+CC_TYPE_100 = 100
 isOpenNewCheck = false
 CAMERA_MOVE_OPEN = false
 WORLD_ENTER_LOCK = false

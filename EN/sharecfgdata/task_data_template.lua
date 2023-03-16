@@ -36953,6 +36953,276 @@ _G.pg.base.task_data_template[10099] = {
 	}
 }
 
+_G.pg.base.task_data_template[10150] = {
+	name = "[Event] Emergency Module Development I",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 26,
+	desc = "Clear the Emergency Module Development Daily Challenge 1 time.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10150,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10151] = {
+	name = "[Event] Emergency Module Development II",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 26,
+	desc = "Clear the Emergency Module Development Daily Challenge 2 times.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10151,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10152] = {
+	name = "[Event] Emergency Module Development III",
+	guild_coin_award = 0,
+	award = 94086,
+	type = 26,
+	desc = "Clear the Emergency Module Development Daily Challenge 3 times.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10152,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10153] = {
+	name = "[Event] Emergency Module Development IV",
+	guild_coin_award = 0,
+	award = 94087,
+	type = 26,
+	desc = "Clear the Emergency Module Development Daily Challenge 4 times.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10153,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			2
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10154] = {
+	name = "[Event] Emergency Module Development V",
+	guild_coin_award = 0,
+	award = 94088,
+	type = 26,
+	desc = "Clear the Emergency Module Development Daily Challenge 5 times.",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 10154,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			3
+		},
+		{
+			2,
+			15017,
+			5
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			4
+		}
+	}
+}
+
 _G.pg.base.task_data_template[10204] = {
 	name = "June (?) Attack 1",
 	guild_coin_award = 0,

@@ -954,7 +954,7 @@ pg.skill_data_display = {
 	},
 	[8899] = {
 		id = 8899,
-		name = "Lone Queen of the North"
+		name = "Lonely Queen of the North"
 	},
 	[8903] = {
 		id = 8903,
@@ -1626,7 +1626,7 @@ pg.skill_data_display = {
 	},
 	[10670] = {
 		id = 10670,
-		name = "Lone Queen of the North"
+		name = "Lonely Queen of the North"
 	},
 	[10680] = {
 		id = 10680,
@@ -9632,6 +9632,14 @@ pg.skill_data_display = {
 		id = 1011900,
 		name = "Protector of The North Passage+"
 	},
+	[1010250] = {
+		id = 1010250,
+		name = "Javelin Raid+"
+	},
+	[1010251] = {
+		id = 1010251,
+		name = "Javelin Raid+"
+	},
 	[1090030] = {
 		id = 1090030,
 		name = "Anti-Air Mode - Montpelier"
@@ -9668,6 +9676,10 @@ pg.skill_data_display = {
 		id = 1011501,
 		name = "Radiant Iris+"
 	},
+	[1011711] = {
+		id = 1011711,
+		name = "Dullahan+"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -9691,6 +9703,22 @@ pg.skill_data_display = {
 	[1090071] = {
 		id = 1090071,
 		name = "Artillery Command - Sims"
+	},
+	[1090080] = {
+		id = 1090080,
+		name = "Torpedo Command - Kagerou"
+	},
+	[1090090] = {
+		id = 1090090,
+		name = "Fading Memories of Glory - Cavour"
+	},
+	[1090091] = {
+		id = 1090091,
+		name = "Fading Memories of Glory - Cavour"
+	},
+	[1090092] = {
+		id = 1090092,
+		name = "Fading Memories of Glory - Cavour"
 	},
 	all = {
 		4,
@@ -12101,6 +12129,8 @@ pg.skill_data_display = {
 		1011624,
 		1011625,
 		1011900,
+		1010250,
+		1010251,
 		1090030,
 		1090031,
 		1090032,
@@ -12110,11 +12140,16 @@ pg.skill_data_display = {
 		1010580,
 		1011500,
 		1011501,
+		1011711,
 		1090020,
 		1090042,
 		1090043,
 		1090044,
 		1090050,
-		1090071
+		1090071,
+		1090080,
+		1090090,
+		1090091,
+		1090092
 	}
 }

@@ -63,7 +63,7 @@ function slot0.OnShow(slot0)
 
 	slot0.impeachduty.sprite = GetSpriteFromAtlas("dutyicon", "icon_" .. slot3.duty)
 
-	for slot12 = slot0.impeachstarTF.childCount, pg.ship_data_statistics[slot3.icon].star - 1 do
+	for slot12 = slot0.impeachstarsTF.childCount, pg.ship_data_statistics[slot3.icon].star - 1 do
 		cloneTplTo(slot0.impeachstarTF, slot0.impeachstarsTF)
 	end
 

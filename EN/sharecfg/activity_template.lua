@@ -3430,7 +3430,7 @@ pg.activity_template = {
 		type = 87,
 		login_pop = 0,
 		config_id = 8,
-		is_show = 38,
+		is_show = 28,
 		id = 4713,
 		config_data = {},
 		time = {
@@ -3718,7 +3718,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4720,
-		is_show = 39,
+		is_show = 29,
 		config_data = {},
 		time = {
 			"timer",
@@ -4004,7 +4004,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4726,
-		is_show = 37,
+		is_show = 30,
 		id = 4726,
 		config_data = {},
 		time = {
@@ -4082,6 +4082,165 @@ pg.activity_template = {
 			npc = {
 				"",
 				18388
+			}
+		}
+	},
+	[4728] = {
+		mark = 20230316,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4728,
+		config_data = {
+			10150,
+			10151,
+			10152,
+			10153,
+			10154
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4729] = {
+		mark = 20230316,
+		id = 4729,
+		title_res_tag = "collection_event_pt",
+		type = 11,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 31,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CollectionEventPtPage",
+			ui_name = "CollectionEventPtPage"
+		},
+		config_client = {
+			shopActID = 4730
+		}
+	},
+	[4730] = {
+		mark = 20230316,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4730,
+		config_data = {
+			2037,
+			2038,
+			2039,
+			2040,
+			2041,
+			2042,
+			2043,
+			2044,
+			2045,
+			2046,
+			2047,
+			2048
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_commission",
+			{
+				0.925,
+				0.925,
+				0.925,
+				1
+			},
+			pt_id = 307,
+			use_secretary = false,
+			painting = "mengfeisi_pt",
+			event_shop = true,
+			outline = {
+				0,
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -24643,6 +24802,170 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30858] = {
+		mark = 20230316,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30858",
+		id = 30858,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "Baltimore μ added to standard build pool! ",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 51%",
+				"Common: 30%"
+			}
+		}
+	},
+	[30859] = {
+		mark = 20230316,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30859",
+		id = 30859,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "Oite and Stremitelny added to the standard build pool!",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 26%",
+				"Common: 55%"
+			}
+		}
+	},
+	[30860] = {
+		mark = 20230316,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30860",
+		id = 30860,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "Rate UP for Ingraham, Reno, Intrepid and others! ",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 51%",
+				"Common: 30%",
+				"<color=#ffde38>Ingraham</color>: 2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>Reno</color>: 2.0%<color=#92FC63>(up!)</color>",
+				"",
+				"<color=#ffde38>Intrepid</color>: 2.0%<color=#92FC63>(up!)</color>",
+				"",
+				"<color=#ffde38>Bremerton</color>: 0.5%",
+				"",
+				"<color=#d797ff>Cooper</color>: 2.5%<color=#92FC63>(up!)</color>",
+				"",
+				"<color=#d797ff>Nautilus</color>: 2.5%<color=#92FC63>(up!)</color>",
+				"",
+				"<color=#d797ff>Hardy</color>: 1.4%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>Z2</color>: 1.4%<color=#92FC63>(up!)</color>",
+				"",
+				"<color=#3dc6ff>Marblehead</color>: 5.0%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -24733,6 +25056,9 @@ pg.activity_template = {
 		4725,
 		4726,
 		4727,
+		4728,
+		4729,
+		4730,
 		7001,
 		7002,
 		7003,
@@ -25400,6 +25726,9 @@ pg.activity_template = {
 		30854,
 		30855,
 		30856,
-		30857
+		30857,
+		30858,
+		30859,
+		30860
 	}
 }

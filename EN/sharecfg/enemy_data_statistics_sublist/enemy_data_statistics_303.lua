@@ -1,5 +1,83 @@
 pg = pg or {}
 pg.enemy_data_statistics_303 = {
+	[15603901] = {
+		cannon = 80,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 0,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		luck = 0,
+		hit_growth = 120,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 9999,
+		antisub_growth = 0,
+		air_growth = 0,
+		speed_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		speed = 10,
+		armor = 0,
+		id = 15603901,
+		antiaircraft_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 8925,
+				LV = 1
+			}
+		}
+	},
+	[15603902] = {
+		cannon = 120,
+		reload = 150,
+		rarity = 2,
+		cannon_growth = 0,
+		torpedo = 0,
+		air = 0,
+		durability_growth = 0,
+		dodge = 0,
+		antiaircraft = 0,
+		luck = 0,
+		hit_growth = 120,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 9999,
+		antisub_growth = 0,
+		air_growth = 0,
+		speed_growth = 0,
+		base = 90535,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		speed = 10,
+		armor = 0,
+		id = 15603902,
+		antiaircraft_growth = 0,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 8925,
+				LV = 1
+			}
+		}
+	},
 	[15603903] = {
 		cannon = 160,
 		reload = 150,
@@ -904,117 +982,6 @@ pg.enemy_data_statistics_303 = {
 			1003290
 		},
 		buff_list = {
-			{
-				ID = 8924,
-				LV = 1
-			}
-		}
-	},
-	[15604203] = {
-		cannon = 154,
-		name = "Data Phantom CA",
-		type = 3,
-		speed_growth = 0,
-		antiaircraft_growth = 3200,
-		air = 0,
-		rarity = 4,
-		armor = 0,
-		id = 15604203,
-		reload = 150,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		dodge_growth = 156,
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90618,
-		durability = 15950,
-		armor_growth = 0,
-		torpedo_growth = 1600,
-		speed = 20,
-		luck = 22,
-		antisub = 0,
-		cannon_growth = 1760,
-		fog_fx = "",
-		dodge = 11,
-		reload_growth = 0,
-		hit = 20,
-		torpedo = 135,
-		durability_growth = 291200,
-		antiaircraft = 205,
-		hit_growth = 210,
-		armor_type = 2,
-		specific_fx_scale = {},
-		appear_fx = {
-			"heisewuqi_stg",
-			"appearQ"
-		},
-		equipment_list = {
-			1101104,
-			874906,
-			874907,
-			874908,
-			874905
-		},
-		buff_list = {
-			{
-				ID = 8924,
-				LV = 1
-			}
-		}
-	},
-	[15604204] = {
-		cannon = 210,
-		name = "Data Phantom BB",
-		type = 5,
-		speed_growth = 0,
-		antiaircraft_growth = 3600,
-		air = 0,
-		rarity = 3,
-		armor = 0,
-		id = 15604204,
-		reload = 150,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		dodge_growth = 156,
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90622,
-		durability = 23200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 18,
-		antisub = 0,
-		cannon_growth = 2500,
-		fog_fx = "",
-		dodge = 11,
-		reload_growth = 0,
-		hit = 32,
-		torpedo = 0,
-		durability_growth = 368400,
-		antiaircraft = 235,
-		hit_growth = 210,
-		armor_type = 3,
-		specific_fx_scale = {},
-		appear_fx = {
-			"heisewuqi_stg",
-			"appearQ"
-		},
-		equipment_list = {
-			1003175,
-			1101104,
-			1100724,
-			1003165,
-			874907,
-			874909
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 5
-			},
 			{
 				ID = 8924,
 				LV = 1

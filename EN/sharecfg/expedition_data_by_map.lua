@@ -15516,6 +15516,182 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100221] = {
+		map = 2100221,
+		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-story",
+		enter_story = "WEICENGHUNHE1",
+		ani_name = "Map_1300001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1300001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100231,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100222] = {
+		map = 2100222,
+		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-level",
+		enter_story = "WEICENGHUNHE17",
+		ani_name = "Map_1300002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1300002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100232,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100231] = {
+		map = 2100231,
+		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-story",
+		enter_story = "WEICENGHUNHE1",
+		ani_name = "Map_1300003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1300003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100221,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100232] = {
+		map = 2100232,
+		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-level",
+		enter_story = "WEICENGHUNHE17",
+		ani_name = "Map_1300004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1300004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100222,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "Strive, Wish, and Strategize || || Chapter SP || S.P.",
@@ -15867,6 +16043,29 @@ pg.expedition_data_by_map = {
 				-465
 			}
 		}
+	},
+	[2200080] = {
+		map = 2200080,
+		name = "Stars of the Shimmering Fjord|| ||CHAPTER SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "",
+		ani_name = "map_1200001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "map_1200001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {}
 	},
 	[9920001] = {
 		map = 9920001,
@@ -16377,6 +16576,10 @@ pg.expedition_data_by_map = {
 		2100201,
 		2100210,
 		2100211,
+		2100221,
+		2100222,
+		2100231,
+		2100232,
 		2200000,
 		2200010,
 		2200020,
@@ -16385,6 +16588,7 @@ pg.expedition_data_by_map = {
 		2200050,
 		2200060,
 		2200070,
+		2200080,
 		9920001,
 		9920002,
 		9920011,

@@ -2795,29 +2795,21 @@ function flushShipCard(slot0, slot1)
 
 	setShipCardFrame(findTF(slot0, "content/front/frame"), slot2, slot1.propose and "prop" .. (slot1:isBluePrintShip() and slot2 or slot1:isMetaShip() and "14" or "") or nil)
 
-	slot10 = findTF(slot0, "content/front/stars")
+	slot10 = slot1:getStar()
+	slot11 = slot1:getMaxStar()
+	slot12 = findTF(slot0, "content/front/stars")
 
-	setActive(slot10, true)
+	setActive(slot12, true)
 
-	slot11 = findTF(slot10, "star_tpl")
-	slot12 = slot10.childCount
+	slot13 = findTF(slot12, "star_tpl")
+	slot14 = slot12.childCount
 
-	while slot12 < Ship.CONFIG_MAX_STAR do
-		slot12 = slot12 + 1
+	for slot18 = 1, Ship.CONFIG_MAX_STAR do
+		slot19 = slot14 < slot18 and cloneTplTo(slot13, slot12) or slot12:GetChild(slot18 - 1)
+		GetOrAddComponent(slot19, typeof(LayoutElement)).ignoreLayout = slot11 < slot18
 
-		cloneTplTo(slot11, slot10)
-	end
-
-	slot13 = slot1.getStar(slot1)
-	slot14 = slot1.getMaxStar(slot1)
-
-	for slot18 = 0, slot12 - 1 do
-		slot19 = slot10:GetChild(slot18)
-		slot20 = slot18 < slot14
-		GetOrAddComponent(slot19, typeof(LayoutElement)).ignoreLayout = not slot20
-
-		setImageAlpha(slot19:Find("star_tpl"), slot20 and slot18 < slot13 and 1 or 0)
-		setImageAlpha(slot19:Find("star_empty_tpl"), slot20 and slot13 <= slot18 and 1 or 0)
+		setImageAlpha(slot19:Find("star_tpl"), slot18 <= slot10 and 1 or 0)
+		setImageAlpha(slot19:Find("star_empty_tpl"), slot10 < slot18 and slot18 <= slot11 and 1 or 0)
 	end
 
 	slot15 = findTF(slot0, "content/front/bg_other")

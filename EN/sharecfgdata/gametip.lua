@@ -10205,15 +10205,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Baltimore μ added to standard build pool! "
+	tip = "Bremerton added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Oite and Stremitelny added to the standard build pool!"
+	tip = "Reno, Hardy and others added to the standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Chen Hai added to standard build pool!"
+	tip = "Intrepid and Nautilus added to standard build pool!"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -21635,7 +21635,7 @@ _G.pg.base.gametip.commission_event_tip = {
 · The number of merits received is based on the time required to complete the commission. 
 <color=#92fc63>Every 5 minutes is worth 1 merit.</color>
 · For example: completing a commission that takes 1 hour will award you with 12 Commission Merits.
-· Only commissions initiated and completed during the event period will grant Commission Merits.
+· Only commissions completed during the event period will grant Commission Merits.
 · Canceling a commission will reward no Commission Merits.
 · Commission Merits can be spent on a myriad of items in the associated event tab in the shop.
 · Be aware that some items in the shop pool may only be purchased after you've cleared a particular stage in the Main Campaign.]]

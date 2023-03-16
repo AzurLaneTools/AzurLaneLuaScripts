@@ -454,6 +454,7 @@ function slot0.didEnter(slot0)
 
 		DailyLevelProxy.dailyLevelId = nil
 
+		uv0:updatDailyBtnTip()
 		uv0:emit(LevelMediator2.ON_DAILY_LEVEL)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.challengeBtn, function ()
@@ -593,6 +594,7 @@ function slot0.didEnter(slot0)
 
 		DailyLevelProxy.dailyLevelId = nil
 
+		uv0:updatDailyBtnTip()
 		uv0:emit(LevelMediator2.ON_DAILY_LEVEL)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.entranceLayer:Find("btns/btn_task"), function ()
@@ -658,6 +660,7 @@ function slot0.didEnter(slot0)
 	end
 
 	slot0:updateRemasterBtnTip()
+	slot0:updatDailyBtnTip()
 
 	if slot0.contextData.open_remaster then
 		slot0:displayRemasterPanel(slot0.contextData.isSP)
@@ -1188,6 +1191,13 @@ function slot0.updateRemasterBtnTip(slot0)
 
 	SetActive(slot0.remasterBtn:Find("tip"), slot2)
 	SetActive(slot0.entranceLayer:Find("btns/btn_remaster/tip"), slot2)
+end
+
+function slot0.updatDailyBtnTip(slot0)
+	slot2 = getProxy(DailyLevelProxy):ifShowDailyTip()
+
+	SetActive(slot0.dailyBtn:Find("tip"), slot2)
+	SetActive(slot0.entranceLayer:Find("btns/btn_daily/tip"), slot2)
 end
 
 function slot0.updateRemasterInfo(slot0)

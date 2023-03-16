@@ -14865,7 +14865,7 @@ pg.skill_data_template = {
 	},
 	[10670] = {
 		desc_get = "",
-		name = "Lone Queen of the North",
+		name = "Lonely Queen of the North",
 		id = 10670,
 		type = 1,
 		max_level = 10,
@@ -105752,6 +105752,20 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[902180] = {
+		desc_get = "",
+		name = "The Hunt Begins",
+		id = 902180,
+		type = 3,
+		max_level = 1,
+		desc = "When the ship with this gear equipped sinks an enemy: increases this ship's ACC by 10.0% for 12s (can only activate once a second; ACC buff does not stack; repeat activations only refresh the buff's duration).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[1010140] = {
 		desc_get = "",
 		name = "Eagle's Tears+",
@@ -108167,6 +108181,360 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 			}
 		}
 	},
+	[1011710] = {
+		desc_get = "",
+		name = "Dullahan+",
+		id = 1011710,
+		type = 2,
+		max_level = 10,
+		desc = "Once per battle, when this ship's HP falls below 30.0% as a result of DMG taken: decreases this ship's DMG taken by $2 until the battle ends and, for 16s, decreases this ship's SPD by 2 while restoring $1 of this ship's and 1.0% of all your Vanguard ships' max HP, respectively, once every 3s. If this skill does not activate within 40s of the battle starting: restores $3 of this ship's max HP.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"4.0%"
+			},
+			{
+				"5.0%",
+				"10.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.3%"
+				},
+				{
+					"1.3%",
+					"+0.3%"
+				},
+				{
+					"1.6%",
+					"+0.4%"
+				},
+				{
+					"2.0%",
+					"+0.3%"
+				},
+				{
+					"2.3%",
+					"+0.3%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.3%"
+				},
+				{
+					"3.3%",
+					"+0.3%"
+				},
+				{
+					"3.6%",
+					"+0.4%"
+				},
+				{
+					"4.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[1010250] = {
+		desc_get = "",
+		name = "Javelin Raid+",
+		id = 1010250,
+		type = 2,
+		max_level = 10,
+		desc = "Every 5s: fires a $1 special shell and, with a 20.0% chance, increases this ship's EVA by $3 for 8s (special shell DMG is based on the skill's level and this ship's TRP stat; EVA buff does not stack). Every 4 times this skill activates in the same battle: improves the special shell. If the special shell deals DMG to an enemy: increases its DMG by $2.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"30.0%",
+				"60.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"30.0%",
+					"+3.3%"
+				},
+				{
+					"33.3%",
+					"+3.3%"
+				},
+				{
+					"36.6%",
+					"+3.3%"
+				},
+				{
+					"39.9%",
+					"+3.3%"
+				},
+				{
+					"43.2%",
+					"+3.3%"
+				},
+				{
+					"46.5%",
+					"+3.3%"
+				},
+				{
+					"49.8%",
+					"+3.3%"
+				},
+				{
+					"53.1%",
+					"+3.3%"
+				},
+				{
+					"56.4%",
+					"+3.6%"
+				},
+				{
+					"60%"
+				}
+			}
+		}
+	},
+	[1010670] = {
+		desc_get = "",
+		name = "Lonely Queen of the North+",
+		id = 1010670,
+		type = 1,
+		max_level = 10,
+		desc = "When there are no non-Iron Blood BBs or BCs in your Main Fleet: increases this ship's DMG dealt by $1.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10%",
+				"30%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			}
+		}
+	},
 	[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -109057,6 +109425,353 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 				},
 				{
 					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[1090080] = {
+		desc_get = "",
+		name = "Torpedo Command - Kagerou",
+		id = 1090080,
+		type = 3,
+		max_level = 10,
+		desc = "Increases your Vanguard's TRP by $1 (does not stack with other \"Torpedo Command\" skills). While this ship is afloat, when the fleet this ship is in starts a battle: further increases this ship's TRP by $2 and increases your Vanguard's Torpedo Crit Rate by $3.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[1090090] = {
+		desc_get = "",
+		name = "Fading Memories of Glory - Cavour",
+		id = 1090090,
+		type = 1,
+		max_level = 10,
+		desc = "10s after the battle starts: launches a $3 special torpedo barrage (DMG is based on this ship's TRP stat and the skill's level); every 15s after that: increases this ship's ACC by 8.0% (can be stacked up to 3 times) and fires a $4 special barrage (DMG is based on this ship's FP stat and the skill level). \n5s after this ship fires her first Main Gun volley: increases this ship's FP by $1 and increases her DMG dealt to CLs by $2 until the battle ends, but sets her TRP stat to 0.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
 				},
 				{
 					"Lv.10"
@@ -110808,6 +111523,7 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 		902150,
 		902160,
 		902170,
+		902180,
 		1010140,
 		1010390,
 		1010410,
@@ -110828,12 +111544,17 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 		1011900,
 		1011500,
 		1010600,
+		1011710,
+		1010250,
+		1010670,
 		1090010,
 		1090020,
 		1090030,
 		1090040,
 		1090050,
 		1090060,
-		1090070
+		1090070,
+		1090080,
+		1090090
 	}
 }
