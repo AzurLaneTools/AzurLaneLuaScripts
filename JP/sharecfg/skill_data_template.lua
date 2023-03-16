@@ -110238,7 +110238,7 @@ pg.skill_data_template = {
 	},
 	[1090090] = {
 		desc_get = "",
-		name = "栄光、流れる記憶・カブール",
+		name = "栄光、流れる記憶·カブール",
 		id = 1090090,
 		type = 1,
 		max_level = 10,
