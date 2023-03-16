@@ -189862,6 +189862,27 @@ _G.pg.base.item_data_statistics[59401] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59402] = {
+	display = "「委託報酬計画」イベントで報酬と交換できるPtになります。イベント終了後に削除されます",
+	name = "軍事委託Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59402,
+	is_world = 0,
+	icon = "Props/commission_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",
@@ -203886,6 +203907,90 @@ _G.pg.base.item_data_statistics[99981] = {
 			1
 		}
 	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[99991] = {
+	display = "作戦履歴「讃える復興の迷路」D1の燃料消費上限不具合の補填",
+	name = "不具合補填",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 99991,
+	is_world = 0,
+	icon = "props/giftbox",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[99992] = {
+	display = "作戦履歴「讃える復興の迷路」D2の燃料消費上限不具合の補填",
+	name = "不具合補填",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 99992,
+	is_world = 0,
+	icon = "props/giftbox",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[99993] = {
+	display = "作戦履歴「讃える復興の迷路」D3の燃料消費上限不具合の補填",
+	name = "不具合補填",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 99993,
+	is_world = 0,
+	icon = "props/giftbox",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[99994] = {
+	display = "作戦履歴「帰路は海色の陰りへと」SP3の燃料消費上限不具合の補填",
+	name = "不具合補填",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 99994,
+	is_world = 0,
+	icon = "props/giftbox",
+	display_icon = {},
 	price = {},
 	index = {},
 	shiptrans_id = {}

@@ -5152,42 +5152,16 @@ pg.activity_template = {
 	},
 	[4712] = {
 		mark = 20230309,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 11,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4712,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4713] = {
 		mark = 20230309,
@@ -5196,7 +5170,7 @@ pg.activity_template = {
 		type = 87,
 		login_pop = 0,
 		config_id = 8,
-		is_show = 38,
+		is_show = 28,
 		id = 4713,
 		config_data = {},
 		time = {
@@ -5318,12 +5292,13 @@ pg.activity_template = {
 	},
 	[4717] = {
 		mark = 20230309,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4717,
 		config_data = {
@@ -5347,43 +5322,17 @@ pg.activity_template = {
 			18405,
 			18406,
 			18407
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4718] = {
 		mark = 20230309,
-		id = 4718,
 		title_res_tag = "YidaliV2_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 40,
+		id = 4718,
 		config_data = {
 			1500001,
 			1500002,
@@ -5391,33 +5340,6 @@ pg.activity_template = {
 			1500021,
 			1500022,
 			1500023
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "YidaliV2MainPage",
@@ -5429,12 +5351,13 @@ pg.activity_template = {
 	},
 	[4719] = {
 		mark = 20230309,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4719,
 		config_data = {
 			1500004,
@@ -5445,33 +5368,6 @@ pg.activity_template = {
 			1500026,
 			1500041,
 			1500051
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
@@ -5484,7 +5380,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4720,
-		is_show = 39,
+		is_show = 29,
 		config_data = {},
 		time = {
 			"timer",
@@ -5600,81 +5496,29 @@ pg.activity_template = {
 	},
 	[4722] = {
 		mark = 20230309,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4722,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4723] = {
 		mark = 20230309,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 80,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4723,
 		config_data = {
 			4
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			59400
@@ -5682,82 +5526,30 @@ pg.activity_template = {
 	},
 	[4724] = {
 		mark = 20230309,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4724,
 		config_data = {
 			18387
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4725] = {
 		mark = 20230309,
-		config_client = "",
 		title_res_tag = "YidaliV2_login",
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 38,
 		is_show = 36,
+		config_client = "",
 		id = 4725,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "YidaliV2LoginPage",
 			ui_name = "YidaliV2LoginPage"
@@ -5770,7 +5562,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4726,
-		is_show = 37,
+		is_show = 30,
 		id = 4726,
 		config_data = {},
 		time = {
@@ -5848,6 +5640,165 @@ pg.activity_template = {
 			npc = {
 				"",
 				18388
+			}
+		}
+	},
+	[4728] = {
+		mark = 20230316,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4728,
+		config_data = {
+			10150,
+			10151,
+			10152,
+			10153,
+			10154
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4729] = {
+		mark = 20230316,
+		id = 4729,
+		title_res_tag = "collection_event_pt",
+		type = 11,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 31,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CollectionEventPtPage",
+			ui_name = "CollectionEventPtPage"
+		},
+		config_client = {
+			shopActID = 4730
+		}
+	},
+	[4730] = {
+		mark = 20230316,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4730,
+		config_data = {
+			2037,
+			2038,
+			2039,
+			2040,
+			2041,
+			2042,
+			2043,
+			2044,
+			2045,
+			2046,
+			2047,
+			2048
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_commission",
+			{
+				0.925,
+				0.925,
+				0.925,
+				1
+			},
+			pt_id = 307,
+			use_secretary = false,
+			painting = "mengfeisi_pt",
+			event_shop = true,
+			outline = {
+				0,
+				0,
+				0,
+				0
 			}
 		}
 	},
@@ -10134,6 +10085,9 @@ pg.activity_template = {
 		4725,
 		4726,
 		4727,
+		4728,
+		4729,
+		4730,
 		7001,
 		7002,
 		7003,

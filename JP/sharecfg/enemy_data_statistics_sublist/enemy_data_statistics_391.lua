@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.enemy_data_statistics_391 = {
+	[295068] = {
+		cannon = 298,
+		name = "グナイゼナウ(META)-Tier.8",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 18,
+		base = 90600,
+		durability_growth = 0,
+		antiaircraft = 274,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 13,
+		hit = 65,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 151,
+		durability = 310000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295068,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 3
+			}
+		}
+	},
+	[295069] = {
+		cannon = 314,
+		name = "グナイゼナウ(META)-Tier.9",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 19,
+		base = 90600,
+		durability_growth = 0,
+		antiaircraft = 288,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 14,
+		hit = 70,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 160,
+		durability = 390000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295069,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 3
+			}
+		}
+	},
 	[295070] = {
 		cannon = 330,
 		name = "グナイゼナウ(META)-Tier.10",
@@ -768,88 +850,6 @@ pg.enemy_data_statistics_391 = {
 		antisub = 0,
 		fog_fx = "",
 		id = 295088,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 5
-			}
-		}
-	},
-	[295089] = {
-		cannon = 376,
-		name = "シャルンホルスト(META)-Tier.14",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 24,
-		base = 90623,
-		durability_growth = 0,
-		antiaircraft = 358,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 24,
-		hit = 100,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 228,
-		durability = 1240000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295089,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 5
-			}
-		}
-	},
-	[295090] = {
-		cannon = 396,
-		name = "シャルンホルスト(META)-Tier.15",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 25,
-		base = 90623,
-		durability_growth = 0,
-		antiaircraft = 372,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 25,
-		hit = 110,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 238,
-		durability = 1480000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295090,
 		buff_list = {
 			{
 				ID = 8830,
