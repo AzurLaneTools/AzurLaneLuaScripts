@@ -205341,7 +205341,7 @@ _G.pg.base.item_data_statistics[70125] = {
 }
 
 _G.pg.base.item_data_statistics[99991] = {
-	display = "领取后可获得作战档案-「复兴的赞美诗」D1中未正常获得的额外通关奖励",
+	display = "领取后可获得作战档案-「复兴的赞美诗D1」中未正常获得的额外通关奖励",
 	name = "作战档案补偿",
 	max_num = 0,
 	type = 17,
@@ -205362,7 +205362,7 @@ _G.pg.base.item_data_statistics[99991] = {
 }
 
 _G.pg.base.item_data_statistics[99992] = {
-	display = "领取后可获得作战档案-「复兴的赞美诗」D2中未正常获得的额外通关奖励",
+	display = "领取后可获得作战档案-「复兴的赞美诗D2」中未正常获得的额外通关奖励",
 	name = "作战档案补偿",
 	max_num = 0,
 	type = 17,
