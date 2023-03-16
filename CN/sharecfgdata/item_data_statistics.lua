@@ -191281,6 +191281,27 @@ _G.pg.base.item_data_statistics[59401] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59402] = {
+	display = "用于「委托兑换计划II」活动兑换，活动结束后将会消失",
+	name = "军事委托凭证",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59402,
+	is_world = 0,
+	icon = "Props/commission_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-茳",
 	name = "船模-茳",
@@ -205313,6 +205334,90 @@ _G.pg.base.item_data_statistics[70125] = {
 	id = 70125,
 	is_world = 0,
 	icon = "Props/yanhua_1",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[99991] = {
+	display = "领取后可获得作战档案-「复兴的赞美诗」D1中未正常获得的额外通关奖励",
+	name = "作战档案补偿",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 99991,
+	is_world = 0,
+	icon = "props/giftbox",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[99992] = {
+	display = "领取后可获得作战档案-「复兴的赞美诗」D2中未正常获得的额外通关奖励",
+	name = "作战档案补偿",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 99992,
+	is_world = 0,
+	icon = "props/giftbox",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[99993] = {
+	display = "领取后可获得作战档案-「复兴的赞美诗D3」中未正常获得的额外通关奖励",
+	name = "作战档案补偿",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 99993,
+	is_world = 0,
+	icon = "props/giftbox",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[99994] = {
+	display = "领取后可获得作战档案-「夜幕下的归途SP3」中未正常获得的额外通关奖励",
+	name = "作战档案补偿",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 99994,
+	is_world = 0,
+	icon = "props/giftbox",
 	display_icon = {},
 	price = {},
 	index = {},

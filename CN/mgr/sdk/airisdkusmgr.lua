@@ -377,6 +377,11 @@ return {
 			uv1:UserEventUpload(slot0)
 		end
 	end,
+	ShowSurvey = function (slot0, slot1)
+		if uv0.GetIsPlatform() then
+			uv1:UserEventUpload(slot0, tostring(getProxy(PlayerProxy):getData().id), slot1)
+		end
+	end,
 	OnAndoridBackPress = function ()
 		PressBack()
 	end,

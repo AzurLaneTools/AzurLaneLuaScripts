@@ -96,8 +96,11 @@ function slot0.loadScene(slot0, slot1, slot2, slot3)
 					end
 
 					uv1:remove(slot1.mediator, function ()
-						uv0.context:onContextRemoved()
-						uv1()
+						if uv0 == #uv1 then
+							uv2.context:onContextRemoved()
+						end
+
+						uv3()
 					end, slot3)
 				end, slot0)
 			else

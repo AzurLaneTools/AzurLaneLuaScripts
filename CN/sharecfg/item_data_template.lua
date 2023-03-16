@@ -27632,6 +27632,50 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[99991] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "191036",
+		id = 99991,
+		compose_number = 0,
+		target_id = 0
+	},
+	[99992] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "191037",
+		id = 99992,
+		compose_number = 0,
+		target_id = 0
+	},
+	[99993] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "191038",
+		id = 99993,
+		compose_number = 0,
+		target_id = 0
+	},
+	[99994] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "190003",
+		id = 99994,
+		compose_number = 0,
+		target_id = 0
+	},
 	all = {
 		1,
 		2,
@@ -29865,6 +29909,10 @@ pg.item_data_template = {
 		60296,
 		60297,
 		60298,
-		61001
+		61001,
+		99991,
+		99992,
+		99993,
+		99994
 	}
 }

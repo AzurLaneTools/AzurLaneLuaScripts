@@ -1,13 +1,31 @@
 pg = pg or {}
 pg.expedition_daily_template = {
+	[101] = {
+		tips = "该副本暂未开放，敬请期待",
+		limit_type = 0,
+		show_with_count = 0,
+		limit_time = 0,
+		insert_daily = 1,
+		title = "敬请期待",
+		pic = "daily4",
+		des = "该副本暂未开放，敬请期待",
+		limit_period = "",
+		id = 101,
+		sort = "0",
+		weekday = {},
+		expedition_and_lv_limit_list = {}
+	},
 	[201] = {
 		tips = "商船护送开启时间为：每周一、周四、周日",
 		limit_type = 1,
-		des = "我方商船被鱼雷艇袭击了！成功反击将获得大量的装备升级部件",
+		show_with_count = 0,
 		limit_time = 3,
-		id = 201,
+		insert_daily = 0,
 		title = "商船护送",
 		pic = "daily1",
+		des = "我方商船被鱼雷艇袭击了！成功反击将获得大量的装备升级部件",
+		limit_period = "",
+		id = 201,
 		sort = "1",
 		weekday = {
 			1,
@@ -68,11 +86,14 @@ pg.expedition_daily_template = {
 	[301] = {
 		tips = "海域突进开启时间为：每周二、周五、周日",
 		limit_type = 1,
-		des = "海域中有大量自爆艇需要清除，击破有几率获得战术教材",
+		show_with_count = 0,
 		limit_time = 3,
-		id = 301,
+		insert_daily = 0,
 		title = "海域突进",
 		pic = "daily2",
+		des = "海域中有大量自爆艇需要清除，击破有几率获得战术教材",
+		limit_period = "",
+		id = 301,
 		sort = "2",
 		weekday = {
 			2,
@@ -109,11 +130,14 @@ pg.expedition_daily_template = {
 	[401] = {
 		tips = "斩首行动开启时间为：每周三、周六、周日",
 		limit_type = 1,
-		des = "大量首领级敌人需要清除，击破有几率获得不知名的科技箱",
+		show_with_count = 0,
 		limit_time = 3,
-		id = 401,
+		insert_daily = 0,
 		title = "斩首行动",
 		pic = "daily3",
+		des = "大量首领级敌人需要清除，击破有几率获得不知名的科技箱",
+		limit_period = "",
+		id = 401,
 		sort = "3",
 		weekday = {
 			3,
@@ -150,11 +174,14 @@ pg.expedition_daily_template = {
 	[501] = {
 		tips = "破交作战每天开启，每周上限两次",
 		limit_type = 2,
-		des = "潜艇编队开始了破交行动，行动成功将获得各种潜艇装备设计图",
+		show_with_count = 0,
 		limit_time = 2,
-		id = 501,
+		insert_daily = 0,
 		title = "破交作战",
 		pic = "daily5",
+		des = "潜艇编队开始了破交行动，行动成功将获得各种潜艇装备设计图",
+		limit_period = "",
+		id = 501,
 		sort = "4",
 		weekday = {
 			1,
@@ -195,12 +222,15 @@ pg.expedition_daily_template = {
 	[601] = {
 		tips = "战术研修每天开启",
 		limit_type = 1,
-		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
+		show_with_count = 0,
 		limit_time = 3,
-		id = 601,
+		insert_daily = 0,
 		title = "战术研修",
 		pic = "daily6",
-		sort = "6",
+		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
+		limit_period = "",
+		id = 601,
+		sort = "7",
 		weekday = {
 			1,
 			2,
@@ -240,11 +270,14 @@ pg.expedition_daily_template = {
 	[701] = {
 		tips = "兵装训练每天开启，每周上限两次",
 		limit_type = 2,
-		des = "与贝尔法斯特进行特殊兵装战斗训练，完成训练可获得特殊兵装或特殊兵装材料",
+		show_with_count = 0,
 		limit_time = 2,
-		id = 701,
+		insert_daily = 0,
 		title = "兵装训练",
 		pic = "daily7",
+		des = "与贝尔法斯特进行特殊兵装战斗训练，完成训练可获得特殊兵装或特殊兵装材料",
+		limit_period = "",
+		id = 701,
 		sort = "5",
 		weekday = {
 			1,
@@ -267,18 +300,64 @@ pg.expedition_daily_template = {
 		}
 	},
 	[801] = {
-		tips = "该副本暂未开放，敬请期待",
-		limit_type = 0,
-		des = "该副本暂未开放，敬请期待",
-		limit_time = 0,
+		tips = "限时兵装训练开放期间每天开启",
+		limit_type = 1,
+		show_with_count = 1,
+		limit_time = 1,
+		insert_daily = 0,
+		title = "限时兵装训练",
+		pic = "daily8",
+		des = "限时开启的特殊兵装战斗特别训练，完成训练可获得特殊兵装或特殊兵装材料",
 		id = 801,
-		title = "敬请期待",
-		pic = "daily4",
-		sort = "7",
-		weekday = {},
-		expedition_and_lv_limit_list = {}
+		sort = "6",
+		weekday = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		},
+		limit_period = {
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		expedition_and_lv_limit_list = {
+			{
+				7010,
+				30
+			},
+			{
+				7011,
+				70
+			}
+		}
 	},
 	all = {
+		101,
 		201,
 		301,
 		401,

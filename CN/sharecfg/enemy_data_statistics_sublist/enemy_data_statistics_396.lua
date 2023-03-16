@@ -1,5 +1,77 @@
 pg = pg or {}
 pg.enemy_data_statistics_396 = {
+	[295009] = {
+		cannon = 175,
+		name = "龙·META(Tier.9)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 400,
+		hit_growth = 0,
+		dodge = 13,
+		base = 90494,
+		durability_growth = 0,
+		antiaircraft = 302,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 14,
+		hit = 65,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 390000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295009,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295010] = {
+		cannon = 185,
+		name = "龙·META(Tier.10)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 414,
+		hit_growth = 0,
+		dodge = 14,
+		base = 90494,
+		durability_growth = 0,
+		antiaircraft = 316,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 15,
+		hit = 70,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 480000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295010,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
 	[295011] = {
 		cannon = 195,
 		name = "龙·META(Tier.11)",
@@ -677,78 +749,6 @@ pg.enemy_data_statistics_396 = {
 		armor = 0,
 		antisub = 0,
 		id = 295029,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295030] = {
-		cannon = 255,
-		name = "皇家方舟·META(Tier.15)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 475,
-		hit_growth = 0,
-		dodge = 15,
-		base = 90521,
-		durability_growth = 0,
-		antiaircraft = 396,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 20,
-		hit = 105,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability = 1420000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		id = 295030,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295031] = {
-		cannon = 115,
-		name = "海伦娜·META(Tier.1)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 188,
-		hit_growth = 0,
-		dodge = 11,
-		base = 90541,
-		durability_growth = 0,
-		antiaircraft = 186,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 60,
-		luck = 10,
-		hit = 30,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability = 40000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		id = 295031,
 		buff_list = {
 			{
 				ID = 8830,

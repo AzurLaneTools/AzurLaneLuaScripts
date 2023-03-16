@@ -1,6 +1,7 @@
 slot0 = class("DailyLevelScene", import("..base.BaseUI"))
 slot1 = 3
 slot2 = 4
+slot3 = 101
 
 function slot0.getUIName(slot0)
 	return "dailylevelui"
@@ -51,6 +52,23 @@ function slot0.setDailyCounts(slot0, slot1)
 	slot0.dailyCounts = slot1
 end
 
+function slot0.updateShowCenter(slot0)
+	if not slot0.dailyList or #slot0.dailyList == 0 then
+		return
+	end
+
+	slot1 = pg.expedition_daily_template
+
+	for slot5 = 1, #slot0.dailyList do
+		if slot1[slot0.dailyList[slot5]].show_with_count and slot6.show_with_count == 1 and slot6.limit_time - (slot0.dailyCounts and slot0.dailyCounts[slot6.id] or 0) > 0 then
+			slot0.dailyList[slot5] = slot0.dailyList[1]
+			slot0.dailyList[1] = slot0.dailyList[slot5]
+
+			return
+		end
+	end
+end
+
 function slot0.setShips(slot0, slot1)
 	slot0.shipVOs = slot1
 end
@@ -96,31 +114,53 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.initItems(slot0)
+	slot1 = getProxy(DailyLevelProxy)
+
+	slot1:setDailyTip(false)
+
+	slot0.dailyCounts = slot1:getRawData()
 	slot0.dailyLevelTFs = {}
 	slot0.dailyList = _.reverse(Clone(pg.expedition_daily_template.all))
+
+	for slot6 = #slot0.dailyList, 1, -1 do
+		slot8 = slot2[slot0.dailyList[slot6]].insert_daily
+
+		if slot2[slot0.dailyList[slot6]].limit_period and type(slot7) == "table" then
+			if not pg.TimeMgr:GetInstance():inTime(slot7) then
+				table.remove(slot0.dailyList, slot6)
+			end
+		elseif slot8 == 1 then
+			table.remove(slot0.dailyList, slot6)
+		end
+	end
+
+	if #slot0.dailyList % 2 ~= 1 then
+		table.insert(slot0.dailyList, uv0)
+	end
 
 	table.sort(slot0.dailyList, function (slot0, slot1)
 		return pg.expedition_daily_template[slot1].sort < pg.expedition_daily_template[slot0].sort
 	end)
+	slot0:updateShowCenter()
 
-	for slot5, slot6 in pairs(slot0.dailyList) do
-		if table.contains(pg.expedition_daily_template[slot6].weekday, tonumber(slot0:getWeek())) then
-			table.remove(slot0.dailyList, slot5)
-			table.insert(slot0.dailyList, math.ceil(#slot1.all / 2), slot6)
+	for slot6, slot7 in pairs(slot0.dailyList) do
+		if table.contains(pg.expedition_daily_template[slot7].weekday, tonumber(slot0:getWeek())) then
+			table.remove(slot0.dailyList, slot6)
+			table.insert(slot0.dailyList, math.ceil(#slot2.all / 2), slot7)
 
 			break
 		end
 	end
 
 	if slot0.contextData.dailyLevelId then
-		slot2 = slot0.contextData.dailyLevelId
+		slot3 = slot0.contextData.dailyLevelId
 
-		table.removebyvalue(slot0.dailyList, slot2)
-		table.insert(slot0.dailyList, math.ceil(#slot1.all / 2), slot2)
+		table.removebyvalue(slot0.dailyList, slot3)
+		table.insert(slot0.dailyList, math.ceil(#slot2.all / 2), slot3)
 	end
 
-	for slot5, slot6 in pairs(slot0.dailyList) do
-		slot0.dailyLevelTFs[slot6] = cloneTplTo(slot0.dailylevelTpl, slot0.content, slot6)
+	for slot6, slot7 in pairs(slot0.dailyList) do
+		slot0.dailyLevelTFs[slot7] = cloneTplTo(slot0.dailylevelTpl, slot0.content, slot7)
 	end
 end
 
@@ -237,6 +277,37 @@ function slot0.initDailyLevel(slot0, slot1)
 		slot0.name = "card"
 	end)
 	setText(findTF(slot3, "Text"), "")
+	setActive(findTF(slot3, "lastTime"), false)
+
+	slot7 = nil
+
+	if Clone(slot2.limit_period) and type(slot6) == "table" and pg.TimeMgr:GetInstance():inTime(slot6) then
+		slot7 = pg.TimeMgr:GetInstance():Table2ServerTime({
+			year = slot6[2][1][1],
+			month = slot6[2][1][2],
+			day = slot6[2][1][3],
+			hour = slot6[2][2][1],
+			min = slot6[2][2][2],
+			sec = slot6[2][2][3]
+		}) - pg.TimeMgr:GetInstance():GetServerTime()
+	end
+
+	if slot7 then
+		slot8, slot9 = nil
+
+		if slot7 > 86400 then
+			slot8 = math.floor(tonumber(slot7) / 86400)
+			slot9 = i18n("word_date")
+		else
+			slot8 = math.floor(tonumber(slot7) / 3600)
+			slot9 = i18n("word_hour")
+		end
+
+		setText(findTF(slot3, "lastTime/content/text"), tostring(slot8) .. " ")
+		setText(findTF(slot3, "lastTime/content/word"), tostring(slot9))
+		setActive(findTF(slot3, "lastTime"), true)
+	end
+
 	slot0:UpdateDailyLevelCnt(slot1)
 end
 

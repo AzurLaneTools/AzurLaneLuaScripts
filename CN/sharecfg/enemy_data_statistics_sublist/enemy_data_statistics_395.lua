@@ -1,5 +1,304 @@
 pg = pg or {}
 pg.enemy_data_statistics_395 = {
+	[294213] = {
+		cannon = 18,
+		name = "代行者IX「Exploration」",
+		type = 5,
+		speed_growth = 0,
+		battle_unit_type = 90,
+		air = 0,
+		air_growth = 0,
+		friendly_cld = 0,
+		durability = 100,
+		armor = 0,
+		id = 294213,
+		bubble_fx = "",
+		dodge_growth = 240,
+		icon = "shenyuanboss4",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 10,
+		luck_growth = 0,
+		icon_type = 5,
+		armor_growth = 0,
+		torpedo_growth = 800,
+		hit_growth = 120,
+		speed = 24,
+		luck = 10,
+		antisub = 0,
+		scale = 130,
+		wave_fx = "shenyuan4_move",
+		prefab = "shenyuanboss4",
+		cannon_growth = 1360,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 19,
+		reload_growth = 0,
+		hit = 12,
+		nationality = 99,
+		durability_growth = 67200,
+		antiaircraft = 25,
+		antiaircraft_growth = 2000,
+		armor_type = 3,
+		world_enhancement = {
+			62,
+			0.9,
+			1,
+			0,
+			0.7,
+			1,
+			0.3
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.35,
+					1.02,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.35,
+					1.02,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.06,
+					0.15,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.35,
+					1.02,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							3.05,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearbig"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[294214] = {
+		cannon = 0,
+		name = "代行者XIV「Harmony」",
+		type = 7,
+		speed_growth = 0,
+		battle_unit_type = 90,
+		air = 55,
+		air_growth = 3550,
+		friendly_cld = 0,
+		durability = 98,
+		armor = 0,
+		id = 294214,
+		bubble_fx = "",
+		dodge_growth = 80,
+		icon = "shenyuanboss2",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 7,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 126,
+		speed = 18,
+		luck = 10,
+		antisub = 0,
+		scale = 125,
+		wave_fx = "longjuanfengditu",
+		prefab = "shenyuanboss2",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 6,
+		reload_growth = 0,
+		hit = 8,
+		nationality = 99,
+		durability_growth = 65600,
+		antiaircraft = 47,
+		antiaircraft_growth = 3744,
+		armor_type = 2,
+		world_enhancement = {
+			58,
+			1.5,
+			1.4,
+			0.5,
+			0.1,
+			1.8,
+			3.6
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.81,
+					0.757,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.81,
+					0.757,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-1.32,
+					0.757,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.333,
+					1.037,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.81,
+					0.757,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							3.05,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearbig"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[294300] = {
 		cannon = 12,
 		name = "仲裁者·司特莲库斯·VIII",
@@ -1886,78 +2185,6 @@ pg.enemy_data_statistics_395 = {
 		armor = 0,
 		antisub = 0,
 		id = 295008,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295009] = {
-		cannon = 175,
-		name = "龙·META(Tier.9)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 400,
-		hit_growth = 0,
-		dodge = 13,
-		base = 90494,
-		durability_growth = 0,
-		antiaircraft = 302,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 14,
-		hit = 65,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability = 390000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		id = 295009,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295010] = {
-		cannon = 185,
-		name = "龙·META(Tier.10)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 414,
-		hit_growth = 0,
-		dodge = 14,
-		base = 90494,
-		durability_growth = 0,
-		antiaircraft = 316,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 15,
-		hit = 70,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability = 480000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		id = 295010,
 		buff_list = {
 			{
 				ID = 8830,
