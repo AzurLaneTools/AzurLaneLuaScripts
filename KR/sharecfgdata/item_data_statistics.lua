@@ -182334,6 +182334,111 @@ _G.pg.base.item_data_statistics[59396] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59397] = {
+	display = "아이콘 테두리 이벤트에서 교환 가능. 이벤트 종료 후 사라짐.",
+	name = "훈련PT",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59397,
+	is_world = 0,
+	icon = "Props/xunliandianshu_yv2",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59398] = {
+	display = "「부흥의 찬송가」 복각 이벤트 교환용. 이벤트 종료 후 사라짐",
+	name = "부흥의 증표",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59398,
+	is_world = 0,
+	icon = "Props/yidaliV2_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59399] = {
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59399,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59400] = {
+	display = "「부흥의 찬송가」 한정 복각 이벤트에서 획득. 한정 건조 1회 무료 진행 가능(이벤트 종료 후 사라짐)",
+	name = "1회 건조권",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 4723,
+	id = 59400,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59401] = {
+	display = "「꼬마 책사 성장기」 복각 이벤트 캐릭터 호감도 상승용. 이벤트 종료 후 사라짐",
+	name = "호감도-꼬마 아마기",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59401,
+	is_world = 0,
+	icon = "Props/xiaotiancheng_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",

@@ -9809,15 +9809,15 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "누적 200회 건조 시마다 UR 함선 임플래커블 획득 가능(최대 4회)"
+	tip = "비토리오 베네토, 아퀼라 등 캐릭터 건조 확률 UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "볼티모어(μ장비) 건조 추가!"
+	tip = "리슐리외, 알제리 건조 추가!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:192}, 스트례미텔니 건조 추가!"
+	tip = "르 테리블, 잔 다르크 등 캐릭터 건조 추가!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -22810,4 +22810,12 @@ _G.pg.base.gametip.battle_text_yingxiv4_9 = {
 
 _G.pg.base.gametip.battle_text_yingxiv4_10 = {
 	tip = "전쟁의 기사가 허약해졌습니다! 집중 공격하세요!"
+}
+
+_G.pg.base.gametip.setting_label_private = {
+	tip = "隐私协议"
+}
+
+_G.pg.base.gametip.setting_label_licence = {
+	tip = "用户协议"
 }

@@ -1240,6 +1240,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100051] = {
+		target_id_2 = "970504",
+		sub_type = 180,
+		desc = "퀸 엘리자베스·META를 사용해 승리 1회",
+		id = 100051,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100052] = {
+		target_id_2 = "970504",
+		sub_type = 180,
+		desc = "퀸 엘리자베스·META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 100052,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100053] = {
+		target_id_2 = "970504",
+		sub_type = 180,
+		desc = "퀸 엘리자베스·META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 100053,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100054] = {
+		target_id_2 = "970504",
+		sub_type = 180,
+		desc = "퀸 엘리자베스·META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 100054,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100055] = {
+		target_id_2 = "970504",
+		sub_type = 180,
+		desc = "퀸 엘리자베스·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 100055,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1365,6 +1405,38 @@ pg.task_meta_data_template = {
 		sub_type = 302,
 		desc = "대형 작전에서 셰필드·META를 사용해 100 이상 레벨의 적 1회 격파",
 		id = 200044,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200051] = {
+		target_id_2 = "970504",
+		sub_type = 302,
+		desc = "퀸 엘리자베스·META를 사용해 1회 승리",
+		id = 200051,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200052] = {
+		target_id_2 = "970504",
+		sub_type = 302,
+		desc = "퀸 엘리자베스·META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 200052,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200053] = {
+		target_id_2 = "970504",
+		sub_type = 302,
+		desc = "퀸 엘리자베스·META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 200053,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200054] = {
+		target_id_2 = "970504",
+		sub_type = 302,
+		desc = "퀸 엘리자베스·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 200054,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1524,6 +1596,11 @@ pg.task_meta_data_template = {
 		100043,
 		100044,
 		100045,
+		100051,
+		100052,
+		100053,
+		100054,
+		100055,
 		200001,
 		200002,
 		200003,
@@ -1539,6 +1616,10 @@ pg.task_meta_data_template = {
 		200041,
 		200042,
 		200043,
-		200044
+		200044,
+		200051,
+		200052,
+		200053,
+		200054
 	}
 }

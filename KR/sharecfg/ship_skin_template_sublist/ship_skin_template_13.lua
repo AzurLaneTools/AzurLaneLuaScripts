@@ -1,5 +1,119 @@
 pg = pg or {}
 pg.ship_skin_template_13 = {
+	[402080] = {
+		ship_group = 40208,
+		name = "엘빙",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 402080,
+		group_index = 0,
+		prefab = "aierbin",
+		painting = "aierbin",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "필라우급 경순양함—엘빙",
+		voice_actor = 312,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.493,
+					1.046,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.087,
+					1.386,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.203,
+					0.263,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.979,
+					1.481,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-1.009,
+							2.493,
+							-0.568
+						}
+					}
+				}
+			}
+		}
+	},
 	[402081] = {
 		ship_group = 40208,
 		name = "환몽의 프로셀피나",
@@ -10450,108 +10564,6 @@ pg.ship_skin_template_13 = {
 				{
 					0,
 					0.055,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.48,
-							2.43,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[408081] = {
-		ship_group = 40808,
-		name = "Kleiner Hai",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "103",
-		id = 408081,
-		group_index = 1,
-		prefab = "U110_2",
-		painting = "U110_2",
-		shop_id = 70252,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 4,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "불독이랑 게임을 하면 U-110이 매번 져. 짜증나. 그러니까 U-110은 열심히 공부할 거야. 언젠가는 반드시 내가 이기고 말거라구.",
-		voice_actor = 56,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.909,
-					0.897,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					-0.109,
 					0
 				}
 			}

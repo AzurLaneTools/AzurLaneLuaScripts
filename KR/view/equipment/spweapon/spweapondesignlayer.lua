@@ -229,11 +229,7 @@ function slot0.filter(slot0)
 		end
 	end
 
-	slot3 = slot0.contextData.asc
-
-	table.sort(slot2, function (slot0, slot1)
-		return uv0.sortFunc(slot0, slot1, uv0.sort[1], uv1)
-	end)
+	table.sort(slot2, CompareFuncs(uv0.sortFunc(uv0.sort[1], slot0.contextData.asc)))
 
 	slot0.filterCraftList = slot2
 

@@ -20724,6 +20724,40 @@ _G.pg.base.ship_skin_words[205015] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[205016] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	mission = "",
+	touch2 = "",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "",
+	mail = "",
+	touch = "",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "",
+	feeling5 = "",
+	main = "",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	vote = "",
+	hp_warning = "",
+	id = 205016,
+	detail = "",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[205020] = {
 	feeling1 = "친한 척은 그만둬주지 않겠나…",
 	feeling3 = "귀족 기질이 없다고? 확실히 후드 같은 애들과는 달리 명색만…… 가, 가슴 얘기는 그만둬줘.",

@@ -761,8 +761,6 @@ function slot0.starsAnimation(slot0)
 	end)
 	slot2:SetEndEvent(function (slot0)
 		if uv0._shipVO:getReMetaSpecialItemVO() then
-			setActive(uv0.metaRepeatTF, true)
-
 			GetComponent(uv0.metaRepeatTF, "CanvasGroup").alpha = 1
 			slot3 = uv0
 			slot3 = slot3:managedTween(LeanTween.value, function ()
@@ -781,6 +779,10 @@ function slot0.starsAnimation(slot0)
 					x = slot0
 				})
 			end))
+			setAnchoredPosition(uv0.metaRepeatTF, {
+				x = uv0.metaRepeatTF.rect.width
+			})
+			setActive(uv0.metaRepeatTF, true)
 		else
 			uv0.inAnimating = false
 

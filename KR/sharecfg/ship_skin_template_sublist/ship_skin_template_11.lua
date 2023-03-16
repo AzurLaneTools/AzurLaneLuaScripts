@@ -1,5 +1,119 @@
 pg = pg or {}
 pg.ship_skin_template_11 = {
+	[305019] = {
+		ship_group = 30501,
+		name = "후소·改 ",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 305019,
+		group_index = 9,
+		prefab = "fusang_g",
+		painting = "fusang_g",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9997,
+		illustrator = 22,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관님, 감사합니다~ 아뇨아뇨, 개조 말고도, 늘 여러모로 감사하고 있답니다. 우후후, 후소도 야마시로도, 지휘관님과 만나서 정말 다행이라 생각하고 있어요. ",
+		voice_actor = 71,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.38,
+					1.28,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.33,
+					1.13,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.2,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.29,
+					1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[305020] = {
 		ship_group = 30502,
 		name = "야마시로",
@@ -10072,106 +10186,6 @@ pg.ship_skin_template_11 = {
 						{
 							-0.45,
 							2.19,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[307100] = {
-		ship_group = 30710,
-		name = "아카기(μ장비)",
-		bullet_skin_secondary = "",
-		hand_id = 2,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "121",
-		id = 307100,
-		group_index = 0,
-		prefab = "chicheng_idol",
-		painting = "chicheng_idol",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "사쿠라 엠파이어의 비술이라면 이 정도의 변신은 쉽게… 후후, 지휘관님? {namecode:91}의 모습이 어떠신가요? ",
-		voice_actor = 44,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.381,
-					1.021,
-					0
-				}
-			},
-			plane = {
-				{
-					1.362,
-					1.012,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.342,
-							2.332,
 							0
 						}
 					}

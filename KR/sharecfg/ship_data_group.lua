@@ -21375,6 +21375,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -21405,6 +21416,17 @@ pg.ship_data_group = {
 				"한정 이벤트: 하늘 아래의 찬송가",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -21480,6 +21502,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -21512,6 +21545,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -21542,6 +21586,16 @@ pg.ship_data_group = {
 				"한정 이벤트: 하늘 아래의 찬송가",
 				{
 					""
+				},
+				0
+			},
+			{
+				"군수 상점 교환",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -21671,6 +21725,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -21701,6 +21766,17 @@ pg.ship_data_group = {
 				"한정 이벤트: 하늘 아래의 찬송가",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -21865,6 +21941,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"군수 상점 교환",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -21927,6 +22013,17 @@ pg.ship_data_group = {
 				"한정 이벤트: 하늘 아래의 찬송가",
 				{
 					""
+				},
+				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}

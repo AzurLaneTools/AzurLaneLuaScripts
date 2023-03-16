@@ -118,11 +118,23 @@ function slot0.Sort(slot0)
 		return slot0:IsUrTask() and 1 or 0
 	end
 
-	function slot3(slot0, slot1)
+	function slot3(slot0)
+		return slot0.configId or 0
+	end
+
+	function slot4(slot0, slot1)
 		if slot0:GetRealType() == slot1:GetRealType() then
-			return slot0.id < slot1.id
+			if slot0:isAvatarTask() and slot1:isAvatarTask() then
+				if uv0(slot0) == uv0(slot1) then
+					return slot0.id < slot1.id
+				else
+					return slot3 < slot2
+				end
+			else
+				return slot0.id < slot1.id
+			end
 		elseif slot0:getTaskStatus() == 0 then
-			return uv0(slot0:GetRealType(), slot1:GetRealType(), {
+			return uv1(slot0:GetRealType(), slot1:GetRealType(), {
 				26,
 				36,
 				6,
@@ -134,7 +146,7 @@ function slot0.Sort(slot0)
 				1
 			})
 		elseif slot0:getTaskStatus() == 1 then
-			return uv0(slot0:GetRealType(), slot1:GetRealType(), {
+			return uv1(slot0:GetRealType(), slot1:GetRealType(), {
 				26,
 				36,
 				6,

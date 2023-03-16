@@ -11,7 +11,7 @@ return {
 				dir = 1,
 				posX = 545.87,
 				ui = {
-					path = "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/rank_panel/cnt",
+					path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/CurrentWorldBossDetailUI(Clone)/point",
 					lineMode = true
 				}
 			}
@@ -26,7 +26,7 @@ return {
 				dir = 1,
 				posX = 0,
 				ui = {
-					path = "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/hp"
+					path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/CurrentWorldBossDetailUI(Clone)/hp"
 				}
 			}
 		},
@@ -40,7 +40,7 @@ return {
 				dir = 1,
 				posX = -48.1,
 				ui = {
-					path = "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/btns/time"
+					path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/CurrentWorldBossDetailUI(Clone)/btns/time"
 				}
 			}
 		},
@@ -55,7 +55,7 @@ return {
 				posX = 383.9
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/btns/start_btn",
+				path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/CurrentWorldBossDetailUI(Clone)/btns/start_btn",
 				triggerType = {
 					1
 				},

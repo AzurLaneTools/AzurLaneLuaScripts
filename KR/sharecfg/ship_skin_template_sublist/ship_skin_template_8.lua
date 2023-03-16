@@ -1,5 +1,138 @@
 pg = pg or {}
 pg.ship_skin_template_8 = {
+	[301013] = {
+		ship_group = 30101,
+		name = "뮤직 픽시",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "107",
+		id = 301013,
+		group_index = 3,
+		prefab = "chuixue_3",
+		painting = "chuixue_3",
+		shop_id = 70096,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = 2,
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관, 봐봐! 이거, 어때? 나 참, 옷 말고! 이 튜바 말야! 지휘관에게 들려줄까~?",
+		voice_actor = 116,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			15,
+			-95,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.39,
+					0.98,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.39,
+					0.88,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.11,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-1.17,
+					3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
+		}
+	},
 	[301014] = {
 		ship_group = 30101,
 		name = "특형 아이돌 Fubuki ",
@@ -10605,120 +10738,6 @@ pg.ship_skin_template_8 = {
 						{
 							-0.76,
 							2.26,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301339] = {
-		ship_group = 30133,
-		name = "키사라기·改 ",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 301339,
-		group_index = 9,
-		prefab = "ruyue_g",
-		painting = "ruyue_g",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9997,
-		illustrator = 34,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "키사라기……. 개조 완료했습니다……. 여러분에게 더욱 도움이 되고 싶습니다……. ",
-		voice_actor = 49,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand2",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.77,
-					0.64,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.79,
-					0.65,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.69,
-					0.65,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.53,
-							2.25,
 							0
 						}
 					}

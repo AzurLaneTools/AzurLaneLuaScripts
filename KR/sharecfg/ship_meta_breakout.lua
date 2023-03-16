@@ -842,6 +842,73 @@ pg.ship_meta_breakout = {
 		pre_id = 9705033,
 		weapon_ids = {}
 	},
+	[9705041] = {
+		breakout_view = "스킬 [빛을 쫓는 화염·퀸 엘리자베스] 습득/주포 발사 수 +1/주포 효율 +5%",
+		gold = 1000,
+		breakout_id = 9705042,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9705041,
+		item1 = 21019,
+		pre_id = 0,
+		weapon_ids = {
+			14100,
+			14100
+		}
+	},
+	[9705042] = {
+		breakout_view = "부포 발사 수 +2 / 주포 효율 +10%",
+		gold = 3000,
+		breakout_id = 9705043,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9705042,
+		item1 = 21019,
+		pre_id = 9705041,
+		weapon_ids = {
+			11100,
+			11100,
+			11100
+		}
+	},
+	[9705043] = {
+		breakout_view = "[빛을 쫓는 화염·퀸 엘리자베스] 업그레이드/주포 발사 수 +1/주포 효율 +15%",
+		gold = 10000,
+		breakout_id = 9705044,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9705043,
+		item1 = 21019,
+		pre_id = 9705042,
+		weapon_ids = {
+			14100,
+			14100,
+			14100
+		}
+	},
+	[9705044] = {
+		breakout_view = "없음",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9705044,
+		item1 = 21019,
+		pre_id = 9705043,
+		weapon_ids = {}
+	},
 	[9706011] = {
 		breakout_view = "스킬 [섬멸의 횃불·{namecode:220}] 습득/모든 뇌격기+1/ 함재기 효율 +3%",
 		gold = 500,
@@ -1240,6 +1307,10 @@ pg.ship_meta_breakout = {
 		9705032,
 		9705033,
 		9705034,
+		9705041,
+		9705042,
+		9705043,
+		9705044,
 		9706011,
 		9706012,
 		9706013,

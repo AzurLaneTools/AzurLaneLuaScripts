@@ -1,5 +1,105 @@
 pg = pg or {}
 pg.ship_skin_template_12 = {
+	[307100] = {
+		ship_group = 30710,
+		name = "아카기(μ장비)",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "121",
+		id = 307100,
+		group_index = 0,
+		prefab = "chicheng_idol",
+		painting = "chicheng_idol",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "사쿠라 엠파이어의 비술이라면 이 정도의 변신은 쉽게… 후후, 지휘관님? {namecode:91}의 모습이 어떠신가요? ",
+		voice_actor = 44,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.381,
+					1.021,
+					0
+				}
+			},
+			plane = {
+				{
+					1.362,
+					1.012,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.342,
+							2.332,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[307110] = {
 		ship_group = 30711,
 		name = "다이호(μ장비)",
@@ -10446,120 +10546,6 @@ pg.ship_skin_template_12 = {
 						{
 							-0.4,
 							2.4,
-							-0.568
-						}
-					}
-				}
-			}
-		}
-	},
-	[402080] = {
-		ship_group = 40208,
-		name = "엘빙",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 402080,
-		group_index = 0,
-		prefab = "aierbin",
-		painting = "aierbin",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "필라우급 경순양함—엘빙",
-		voice_actor = 312,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.493,
-					1.046,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.087,
-					1.386,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.203,
-					0.263,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.979,
-					1.481,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-1.009,
-							2.493,
 							-0.568
 						}
 					}

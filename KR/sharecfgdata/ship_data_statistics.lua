@@ -106768,7 +106768,8 @@ _G.pg.base.ship_data_statistics[205011] = {
 	},
 	tag_list = {
 		"QE-Class",
-		"QE"
+		"QE",
+		"QE_1914"
 	}
 }
 
@@ -106894,7 +106895,8 @@ _G.pg.base.ship_data_statistics[205012] = {
 	},
 	tag_list = {
 		"QE-Class",
-		"QE"
+		"QE",
+		"QE_1914"
 	}
 }
 
@@ -107020,7 +107022,8 @@ _G.pg.base.ship_data_statistics[205013] = {
 	},
 	tag_list = {
 		"QE-Class",
-		"QE"
+		"QE",
+		"QE_1914"
 	}
 }
 
@@ -107146,7 +107149,8 @@ _G.pg.base.ship_data_statistics[205014] = {
 	},
 	tag_list = {
 		"QE-Class",
-		"QE"
+		"QE",
+		"QE_1914"
 	}
 }
 

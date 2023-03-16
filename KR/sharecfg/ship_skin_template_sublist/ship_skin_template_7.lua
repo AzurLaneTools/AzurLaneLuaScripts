@@ -1,5 +1,114 @@
 pg = pg or {}
 pg.ship_skin_template_7 = {
+	[205032] = {
+		ship_group = 20503,
+		name = "파랑과 금빛의 여름 라이트",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "114",
+		id = 205032,
+		group_index = 2,
+		prefab = "naerxun_3",
+		painting = "naerxun_3",
+		shop_id = 70691,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 10,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "…너, 제대로 즐기고 있는 거 맞아? 모처럼 불러냈는데, 네가 즐겁지 않으면 꿈자리가 사나우니까, 제대로 좀 즐겨봐! 뒤 좀 보라고? 응? 앗…!",
+		voice_actor = 13,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.684,
+					1.128,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.657,
+					1.048,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.447,
+							2.357,
+							-0.09
+						}
+					}
+				}
+			}
+		}
+	},
 	[205040] = {
 		ship_group = 20504,
 		name = "로드니",
@@ -10543,139 +10652,6 @@ pg.ship_skin_template_7 = {
 					}
 				}
 			}
-		}
-	},
-	[301013] = {
-		ship_group = 30101,
-		name = "뮤직 픽시",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "107",
-		id = 301013,
-		group_index = 3,
-		prefab = "chuixue_3",
-		painting = "chuixue_3",
-		shop_id = 70096,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 7,
-		illustrator = 2,
-		lip_smoothing = 0,
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "지휘관, 봐봐! 이거, 어때? 나 참, 옷 말고! 이 튜바 말야! 지휘관에게 들려줄까~?",
-		voice_actor = 116,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			15,
-			-95,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.39,
-					0.98,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.39,
-					0.88,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.18,
-					0.11,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-1.17,
-					3,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			propose = 2.5
 		}
 	}
 }

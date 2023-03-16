@@ -18,7 +18,19 @@ return {
 			},
 			arg_list = {
 				buff_id = 60334,
+				exceptCaster = true,
 				nationality = 2
+			}
+		},
+		{
+			type = "BattleSkillAddBuff",
+			casterAniEffect = "",
+			targetAniEffect = "",
+			target_choise = {
+				"TargetSelf"
+			},
+			arg_list = {
+				buff_id = 60334
 			}
 		}
 	}

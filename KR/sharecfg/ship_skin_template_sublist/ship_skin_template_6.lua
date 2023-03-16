@@ -9983,6 +9983,123 @@ pg.ship_skin_template_6 = {
 			205
 		}
 	},
+	[205016] = {
+		ship_group = 20501,
+		name = "伊丽莎白占坑",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 205016,
+		group_index = 6,
+		prefab = "yilishabai",
+		painting = "yilishabai",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "占坑",
+		voice_actor = 28,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.106,
+					1.3,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.591,
+					1.589,
+					0
+				},
+				{
+					0.688,
+					1.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.591,
+					1.589,
+					0
+				},
+				{
+					0.688,
+					1.12,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[205020] = {
 		ship_group = 20502,
 		name = "워스파이트",
@@ -10677,115 +10794,6 @@ pg.ship_skin_template_6 = {
 						{
 							-0.5,
 							2.44,
-							-0.09
-						}
-					}
-				}
-			}
-		}
-	},
-	[205032] = {
-		ship_group = 20503,
-		name = "파랑과 금빛의 여름 라이트",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "114",
-		id = 205032,
-		group_index = 2,
-		prefab = "naerxun_3",
-		painting = "naerxun_3",
-		shop_id = 70691,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 10,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "…너, 제대로 즐기고 있는 거 맞아? 모처럼 불러냈는데, 네가 즐겁지 않으면 꿈자리가 사나우니까, 제대로 좀 즐겨봐! 뒤 좀 보라고? 응? 앗…!",
-		voice_actor = 13,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.684,
-					1.128,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.657,
-					1.048,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.447,
-							2.357,
 							-0.09
 						}
 					}

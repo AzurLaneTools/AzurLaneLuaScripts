@@ -1040,11 +1040,7 @@ function slot0.filterEquipment(slot0)
 	end
 
 	if slot0.contextData.sortData then
-		slot5 = slot0.asc
-
-		table.sort(slot0.loadEquipmentVOs, function (slot0, slot1)
-			return uv0.sortFunc(slot0, slot1, uv1, uv2)
-		end)
+		table.sort(slot0.loadEquipmentVOs, CompareFuncs(uv2.sortFunc(slot4, slot0.asc)))
 	end
 
 	if slot0.contextData.qiutBtn then
@@ -1090,11 +1086,7 @@ function slot0.filterEquipSkin(slot0)
 	end
 
 	if slot0.contextData.sortData then
-		slot6 = slot0.asc
-
-		table.sort(slot0.loadEquipmentVOs, function (slot0, slot1)
-			return uv0.sortFunc(slot0, slot1, uv1, uv2)
-		end)
+		table.sort(slot0.loadEquipmentVOs, CompareFuncs(uv1.sortFunc(slot5, slot0.asc)))
 	end
 
 	if slot0.contextData.qiutBtn then
@@ -1127,11 +1119,7 @@ function slot0.filterSpWeapon(slot0)
 	end
 
 	if slot0.contextData.spweaponSortData then
-		slot6 = slot0.asc
-
-		table.sort(slot0.loadEquipmentVOs, function (slot0, slot1)
-			return uv0.sortFunc(slot0, slot1, uv1, uv2)
-		end)
+		table.sort(slot0.loadEquipmentVOs, CompareFuncs(uv1.sortFunc(slot5, slot0.asc)))
 	end
 
 	if slot0.contextData.qiutBtn then
@@ -1209,13 +1197,14 @@ function slot0.initItems(slot0)
 end
 
 function slot0.sortItems(slot0)
-	table.sort(slot0.itemVOs, function (slot0, slot1)
-		if slot0:getConfig("rarity") == slot1:getConfig("rarity") then
-			return slot0.id < slot1.id
-		else
-			return slot3 < slot2
+	table.sort(slot0.itemVOs, CompareFuncs({
+		function (slot0)
+			return -slot0:getConfig("rarity")
+		end,
+		function (slot0)
+			return slot0.id
 		end
-	end)
+	}))
 	slot0.itemRect:SetTotalCount(#slot0.itemVOs, -1)
 	setActive(slot0.listEmptyTF, #slot0.itemVOs <= 0)
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_storehouseui_item"))

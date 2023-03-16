@@ -1627,7 +1627,7 @@ function slot0.tryPlayChapterStory(slot0, slot1)
 			pg.SystemGuideMgr.GetInstance():PlayChapter(uv0, slot0)
 		end,
 		function (slot0)
-			if uv0:getConfig("story_refresh") and slot1[uv1] and slot2 ~= "" and type(slot2) == "string" and not uv0:IsRemaster() then
+			if uv0:getConfig("story_refresh") and slot1[uv1] and type(slot2) == "string" and slot2 ~= "" and not uv0:IsRemaster() then
 				ChapterOpCommand.PlayChapterStory(slot2, slot0, uv0:IsAutoFight())
 
 				return
@@ -1636,7 +1636,7 @@ function slot0.tryPlayChapterStory(slot0, slot1)
 			slot0()
 		end,
 		function (slot0)
-			if uv0:getConfig("story_refresh_boss") and slot1 ~= "" and type(slot1) == "string" and not uv0:IsRemaster() and uv0:bossRefreshed() then
+			if uv0:getConfig("story_refresh_boss") and type(slot1) == "string" and slot1 ~= "" and not uv0:IsRemaster() and uv0:bossRefreshed() then
 				ChapterOpCommand.PlayChapterStory(slot1, slot0, uv0:IsAutoFight())
 
 				return
@@ -1667,7 +1667,7 @@ function slot0.TryEnterChapterStoryStage(slot0)
 			slot2 = uv0:getConfig("story_refresh") and slot1[uv1]
 			slot3 = pg.NewStoryMgr.GetInstance():StoryId2StoryName(slot2)
 
-			if slot2 and type(slot2) == "number" and not pg.NewStoryMgr.GetInstance():IsPlayed(slot3) then
+			if slot2 and type(slot2) == "number" and not uv0:IsRemaster() and not pg.NewStoryMgr.GetInstance():IsPlayed(slot3) then
 				uv2:emit(LevelMediator2.ON_PERFORM_COMBAT, slot2, slot0)
 			else
 				slot0()
@@ -1677,7 +1677,7 @@ function slot0.TryEnterChapterStoryStage(slot0)
 			slot1 = uv0:getConfig("story_refresh_boss")
 			slot2 = pg.NewStoryMgr.GetInstance():StoryId2StoryName(slot1)
 
-			if slot1 and slot1 ~= "" and type(slot1) == "number" and uv0:bossRefreshed() and not pg.NewStoryMgr.GetInstance():IsPlayed(slot2) then
+			if slot1 and type(slot1) == "number" and not uv0:IsRemaster() and uv0:bossRefreshed() and not pg.NewStoryMgr.GetInstance():IsPlayed(slot2) then
 				uv1:emit(LevelMediator2.ON_PERFORM_COMBAT, slot1, slot0)
 			else
 				slot0()
