@@ -17917,7 +17917,7 @@ _G.pg.base.gametip.charge_error_disable = {
 }
 
 _G.pg.base.gametip.levelScene_select_sp = {
-	tip = "A High-Efficiency Combat Logisitics Plan has been set."
+	tip = "A High-Efficiency Combat Logistics Plan has been set."
 }
 
 _G.pg.base.gametip.word_adjustFleet = {
