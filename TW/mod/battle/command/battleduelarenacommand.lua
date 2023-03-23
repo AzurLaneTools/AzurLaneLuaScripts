@@ -239,14 +239,20 @@ function slot3.onUpdateCountDown(slot0, slot1)
 end
 
 function slot3.onUpdateUnitHP(slot0, slot1)
-	slot1.Dispatcher:GetFleetVO():UpdateFleetDamage(slot1.Data.validDHP)
+	if slot1.Dispatcher:GetFleetVO() then
+		slot3:UpdateFleetDamage(slot1.Data.validDHP)
+	end
 end
 
 function slot3.onUnitDying(slot0, slot1)
 	slot2 = slot1.Dispatcher
+	slot3 = slot2:GetUniqueID()
 
-	slot0._dataProxy:CalcBattleScoreWhenDead(slot2)
-	slot0._dataProxy:KillUnit(slot2:GetUniqueID())
+	if slot2:GetUnitType() ~= uv0.Battle.BattleConst.UnitType.MINION_UNIT then
+		slot0._dataProxy:CalcBattleScoreWhenDead(slot2)
+	end
+
+	slot0._dataProxy:KillUnit(slot3)
 end
 
 function slot3.onShutDownPlayer(slot0, slot1)

@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……这位正缠在我身边要着约会的姑娘，就是理论上应该在辛勤工作的港区秘书舰——布吕歇尔。",
+			say = "……这位正缠在我身边要着约会的姑娘，就是理论上应该在辛勤工作的港区秘书舰——{namecode:450}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "瞟了一眼布吕歇尔，而后重新进行手头上的工作。",
+			say = "瞟了一眼{namecode:450}，而后重新进行手头上的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明就没有那么多工作，更何况还有布吕歇尔陪在您的身边~跟布吕歇尔约会嘛！",
+			say = "明明就没有那么多工作，更何况还有{namecode:450}陪在您的身边~跟{namecode:450}约会嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（假装没看到）嘛算了~每天都能陪在指挥官的身边，布吕歇尔就已经心情大好啦~",
+			say = "（假装没看到）嘛算了~每天都能陪在指挥官的身边，{namecode:450}就已经心情大好啦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~！有布吕歇尔陪在身边，心情一定会变得愉悦起来对吧~",
+			say = "指挥官~！有{namecode:450}陪在身边，心情一定会变得愉悦起来对吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不知什么时候，布吕歇尔已经趴在旁边的桌子上睡着了。",
+			say = "不知什么时候，{namecode:450}已经趴在旁边的桌子上睡着了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "好在工作已经处理完了……说起来，当初为什么要同意让布吕歇尔来当秘书舰呢。",
+			say = "好在工作已经处理完了……说起来，当初为什么要同意让{namecode:450}来当秘书舰呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "就在站起身来的时候，在布吕歇尔的手边发现了一封桃红色信纸包着的信，难道是——",
+			say = "就在站起身来的时候，在{namecode:450}的手边发现了一封桃红色信纸包着的信，难道是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

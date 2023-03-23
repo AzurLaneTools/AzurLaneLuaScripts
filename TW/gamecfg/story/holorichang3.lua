@@ -85,7 +85,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "反应过头了啦，吹雪。是叫做腓特烈大帝的舰船，咱们挺聊得来的呢。",
+			say = "反应过头了啦，吹雪。是叫做{namecode:440}的舰船，咱们挺聊得来的呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "腓...腓特烈大帝？！！澪和她在哪些话题上聊得来啊？！！",
+			say = "腓...{namecode:440}？！！澪和她在哪些话题上聊得来啊？！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈......腓特烈小姐虽然看起来有些难以接近，实际上内心里也有柔软的部分哦",
+			say = "啊哈哈......{namecode:441}小姐虽然看起来有些难以接近，实际上内心里也有柔软的部分哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"来自鸢尾的天使\n\n<size=45>三　休息室的主教</size>",
+					"來自鳶尾的天使\n\n<size=45>三　休息室的主教</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "本日的宴会设置在宫殿的第四层。",
+			say = "本日的宴會設置在宮殿的第四層。",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "在经过第二层休息室时，霞飞本想稍作休息，不过似乎已经有人先来了。",
+			say = "在經過第二層休息室時，霞飛本想稍作休息，不過似乎已經有人先來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（让·巴尔跟黎塞留主教……？）",
+			say = "（讓·巴爾跟黎胥留主教……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "黎塞留与让·巴尔似乎并未注意到站在不远处的霞飞，依然在专心谈论着什么。",
+			say = "黎胥留與讓·巴爾似乎並未注意到站在不遠處的霞飛，依然在專心談論著什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "事关欧罗巴未来的会议已经结束了。",
+			say = "事關歐羅巴未來的會議已經結束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "虽然多数表态是符合我们的预期的，但未免也有些过于顺利了。",
+			say = "雖然多數表態是符合我們的預期的，但未免也有些過於順利了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "顺利到让人不得不怀疑俾斯麦到底在背后有什么企图。",
+			say = "順利到讓人不得不懷疑俾斯麥到底在背後有什麼企圖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "克莱蒙梭那边我已经问过了，我现在想听听你的看法。",
+			say = "克里孟梭那邊我已經問過了，我現在想听聽你的看法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这份声明在我看来，无异于割下自己的血肉去喂一头永远吃不饱的鲨鱼。",
+			say = "這份聲明在我看來，無異於割下自己的血肉去餵一頭永遠吃不飽的鯊魚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天俾斯麦可以用这样的方式得到铁血想要的东西，明天呢？",
+			say = "今天俾斯麥可以用這樣的方式得到鐵血想要的東西，明天呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "铁血在跟塞壬深度合作的传闻都已经传到我这里了，姐姐你们没理由不知道。",
+			say = "鐵血在跟塞壬深度合作的傳聞都已經傳到我這裡了，姐姐妳們沒理由不知道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然对于教廷大事我不好说什么，不过圣座那边你们是说得上话的。",
+			say = "雖然對於教廷大事我不好說什麼，不過聖座那邊妳們是說得上話的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果我们不早做准备，说不定下一块肉就要从我们自己身上割了！",
+			say = "如果我們不早做準備，說不定下一塊肉就要從我們自己身上割了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "冷静点，我的妹妹。你的想法与我和克莱蒙梭大体一致。",
+			say = "冷靜點，我的妹妹。妳的想法與我和克里孟梭大體一致。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，谋定而后动。情况还没有危及到火烧眉毛，切忌乱中出错。",
+			say = "不過，謀定而後動。情況還沒有危及到火燒眉毛，切忌亂中出錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "尤其是会议上皇家的态度，你有没感觉到什么不寻常之处么？",
+			say = "尤其是會議上皇家的態度，妳沒有感覺到什麼不尋常之處嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然有！皇家的发言内容实在是……太不像出自那个伊丽莎白女王的手笔了。",
+			say = "當然有！皇家的發言內容實在是……太不像出自那個伊莉莎白女王的手筆了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "嗯，这件事我已经让审判庭着手调查了，现在在这里乱猜也没有用。",
+			say = "嗯，這件事我已經讓審判庭著手調查了，現在在這裡亂猜也沒有用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "毕竟皇家可是我们长期的，坚定的，令人可疑的盟友啊……",
+			say = "畢竟皇家可是我們長期的，堅定的，令人可疑的盟友啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "……没听到，我什么都没听到。",
+			say = "……沒聽到，我什麼都沒聽到。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "接下来的事绝不是我能听下去的内容了……",
+			say = "接下來的事絕不是我能聽下去的內容了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "招呼留到下次再打，现在还是悄悄离开吧……",
+			say = "招呼留到下次再打，現在還是悄悄離開吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			bgName = "star_level_bg_115",
 			dir = 1,
 			blackBg = true,
-			say = "霞飞脑内回想着刚才听到的对话，悄悄离开了休息室。",
+			say = "霞飛腦內回想著剛才聽到的對話，悄悄離開了休息室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

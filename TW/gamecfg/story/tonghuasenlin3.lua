@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"童话森林奇遇记\n\n<size=45>三　面具与爱人</size>",
+					"童話森林奇遇記\n\n<size=45>三　面具與愛人</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "离开镜子迷宫后不久，一座城堡映入眼帘。",
+			say = "離開鏡子迷宮後不久，一座城堡映入眼簾。",
 			side = 2,
 			bgName = "star_level_bg_158",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "在城堡的阳台上，有人正朝这边招手——",
+			say = "在城堡的陽台上，有人正朝這邊招手——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 102254,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你终于来了，我的爱人，我的——",
+			say = "你終於來了，我的愛人，我的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "比洛克西似乎在暗示着接下来的台词——",
+			say = "比洛克西似乎在暗示著接下來的台詞——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,11 +95,11 @@ return {
 			},
 			options = {
 				{
-					content = "——我的罗密欧",
+					content = "——我的羅密歐",
 					flag = 1
 				},
 				{
-					content = "——我的朱丽叶",
+					content = "——我的朱麗葉",
 					flag = 2
 				}
 			}
@@ -111,7 +111,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "朱丽叶，我们的时间不多了，快上来吧。",
+			say = "朱麗葉，我們的時間不多了，快上來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "罗密欧，我们的时间不多了，快上来吧。",
+			say = "羅密歐，我們的時間不多了，快上來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "比洛克西从阳台上抛下了软梯。",
+			say = "比洛克西從陽台上拋下了軟梯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 102254,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次舞会是我们最后的机会了，必须要牢牢把握住才行！",
+			say = "這次舞會是我們最後的機會了，必須要牢牢把握住才行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "借着软梯来到了城堡中。一眼望去，在一片宽敞的大厅内，几个身穿盔甲的指挥喵正在往返巡逻着。",
+			say = "靠著軟梯來到了城堡中。一眼望去，在一片寬敞的大廳內，幾個身穿盔甲的指揮喵正在往返巡邏著。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -217,7 +217,7 @@ return {
 			actor = 102254,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你应该看到那些正在巡逻的守卫了吧？如果惊动了其中一人，所有的守卫就会朝这里一窝蜂地涌过来。",
+			say = "你應該看到那些正在巡邏的守衛了吧？如果驚動了其中一人，所有的守衛就會朝這裡一窩蜂地湧過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 102254,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "到时候再想离开这里可就麻烦了。",
+			say = "到時候再想離開這裡可就麻煩了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,11 +245,11 @@ return {
 			},
 			options = {
 				{
-					content = "这些“守卫”是？",
+					content = "這些“守衛”是？",
 					flag = 1
 				},
 				{
-					content = "可以顺着刚刚的梯子下去……",
+					content = "可以順著剛剛的梯子下去……",
 					flag = 2
 				}
 			}
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "城堡的主人为了不让我离开这里与你相见而布置的机关哦。",
+			say = "城堡的主人為了不讓我離開這裡與你相見而佈置的機關哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "如果顺着梯子下去的话，留下的梯子就会成为醒目的标记。我们就会被更早发现，然后被追兵给追上。",
+			say = "如果順著梯子下去的話，留下的梯子就會成為醒目的標記。我們就會被更早發現，然後被追兵給追上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "所以，为了能争取更多的时间，我们必须要用别的方法。",
+			say = "所以，為了能爭取更多的時間，我們必須要用別的方法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前我打听到这里的守卫会在舞会期间换班，那个时候就是我们唯一能够利用的时间点。",
+			say = "之前我打聽到這裡的守衛會在舞會期間換班，那個時候就是我們唯一能夠利用的時間點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 102254,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唯一的问题就是我们该如何确定时间呢？这个大厅里根本没有任何与时间有关的东西。",
+			say = "唯一的問題就是我們該如何確定時間呢？這個大廳裡根本沒有任何跟時間相關的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 102254,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我的爱人，应该怎么办才好呢？",
+			say = "我的愛人，應該怎麼辦才好呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "需要知道时间才能进行后续的计划啊……等等——时间？",
+			say = "需要知道時間才能進行後續的計劃啊……等等——時間？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			},
 			options = {
 				{
-					content = "拿出怀表",
+					content = "拿出懷錶",
 					flag = 1
 				}
 			}
@@ -384,7 +384,7 @@ return {
 			actor = 102254,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这、这是怀表？！",
+			say = "這、這是懷錶？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			actor = 102254,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太好了，有了这个就能准确了解时间了！",
+			say = "太好了，有了這個就能準確了解時間了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……还有五分钟就是守卫换班的时间了，我的爱人，快随我来！",
+			say = "嗯……還有五分鐘就是守衛換班的時間了，我的愛人，快隨我來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "在昏暗的城堡中拐了几个弯之后，顺利到达了无人看守的后门。",
+			say = "在昏暗的城堡中拐了幾個彎之後，順利到達了無人看守的後門。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -475,7 +475,7 @@ return {
 			actor = 102254,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我的爱人，加速！只要穿过这道门我们就自由了！",
+			say = "我的愛人，加速！只要穿過這道門我們就自由了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "就在即将跑到后门之时，一个从阴影中出现的身影挡住了去路。",
+			say = "就在即將跑到後門之時，一個從陰影中出現的身影擋住了去路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇后已经猜到了你们的计划，所以提前派我等在这里。",
+			say = "皇后已經猜到了你們的計劃，所以提前派我等在這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,57 +522,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们果然来了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_158",
-			actor = 102254,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "是你……糟了，我的爱人……我们今天落在黑骑士手里，恐怕没法活着离开了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_158",
-			actor = 903020,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "看来你还有自知之明。不过，皇后其实也有成全你们的意愿。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 903020,
-			side = 2,
-			bgName = "star_level_bg_158",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "如果你能让你的爱人为皇后办一件事，放你们平安离开也可以。",
+			say = "你們果然來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +539,7 @@ return {
 			actor = 102254,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇后想要做什么？",
+			say = "是妳……糟了，我的愛人……我們今天落在黑騎士手裡，恐怕沒法活著離開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +556,57 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很简单。这里有一个毒苹果，让你的爱人送给白雪公主，让她吃下去。",
+			say = "看來妳還有自知之明。不過，皇后其實也有成全你們的意願。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 903020,
+			side = 2,
+			bgName = "star_level_bg_158",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "如果妳能讓妳的愛人為皇后辦一件事，放你們平安離開也可以。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_158",
+			actor = 102254,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "皇后想要做什麼？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_158",
+			actor = 903020,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "很簡單。這裡有一個毒蘋果，讓妳的愛人送給白雪公主，讓她吃下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			actor = 102254,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇后果然还是想对白雪公主下手……",
+			say = "皇后果然還是想對白雪公主下手……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的爱人，这里不妨先假意答应下来，之后再见机行事。",
+			say = "我的愛人，這裡不妨先假意答應下來，之後再見機行事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			actor = 102254,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果坚决不从的话，我们两个今天都无法平安了。",
+			say = "如果堅決不從的話，我們兩個今天都無法平安了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "表示犹豫",
+					content = "表示猶豫",
 					flag = 2
 				}
 			}
@@ -700,7 +700,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "很好，是个聪明人。那拿上这个毒苹果，快去办事吧。",
+			say = "很好，是個聰明人。那拿上這個毒蘋果，快去辦事吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "白雪公主可没那么好对付，犹犹豫豫的话小心丢掉性命哦。",
+			say = "白雪公主可沒那麼好對付，猶猶豫豫的話小心丟掉性命哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "现在拿上这个毒苹果，快去办事吧。",
+			say = "現在拿上這個毒蘋果，快去辦事吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "从黑骑士手中接过了毒苹果。",
+			say = "從黑騎士手中接過了毒蘋果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			actor = 102254,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等一下我的爱人，带着这个舞会上的面具。带上它，就相当于把我带在身边了。",
+			say = "等一下我的愛人，帶著這個舞會上的面具。帶上它，就相當於把我帶在身邊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "祝你好运——",
+			say = "祝你好運——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

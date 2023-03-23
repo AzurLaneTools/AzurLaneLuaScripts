@@ -82,7 +82,7 @@ return {
 			bgName = "bg_wuzang_bg16",
 			side = 2,
 			actor = 900331,
-			say = "现在她可以自由地以自己的意志使用元魔方，而不用担心步俾斯麦的后尘。",
+			say = "现在她可以自由地以自己的意志使用元魔方，而不用担心步{namecode:435}的后尘。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

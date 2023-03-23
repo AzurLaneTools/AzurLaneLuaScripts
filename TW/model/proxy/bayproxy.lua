@@ -737,7 +737,7 @@ function slot0.getProposeGroupList(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data) do
-		if slot6.propose then
+		if slot6:ShowPropose() then
 			slot1[slot6.groupId] = true
 		end
 	end

@@ -13,7 +13,7 @@ return {
 			stopbgm = true,
 			actor = 401160,
 			nameColor = "#A9F548FF",
-			say = "布吕歇尔，对面舰队好像开始撤退了……！",
+			say = "{namecode:450}，对面舰队好像开始撤退了……！",
 			bgm = "story-6",
 			flashout = {
 				black = true,
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "不行……蓝方旗舰布伦希尔德已经离开了交战海域，无法继续追击了。",
+			say = "不行……蓝方旗舰{namecode:462}已经离开了交战海域，无法继续追击了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "不对，布吕歇尔，你是不是突然变聪明了！",
+			say = "不对，{namecode:450}，你是不是突然变聪明了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "哼哼哼~希佩尔在我出发之前没日没夜唠叨了很多，我多少也是记住了一些的哟~",
+			say = "哼哼哼~{namecode:426}在我出发之前没日没夜唠叨了很多，我多少也是记住了一些的哟~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "哇哦……只要让聪明的人在耳边没日没夜地唠叨，就算是布吕歇尔也能变聪明啊……",
+			say = "哇哦……只要让聪明的人在耳边没日没夜地唠叨，就算是{namecode:450}也能变聪明啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

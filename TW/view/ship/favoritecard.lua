@@ -136,7 +136,7 @@ function slot0.update(slot0, slot1, slot2, slot3)
 		slot7 = slot7 + slot14:getMaxStar()
 	end
 
-	slot0.nameTF.text = slot1:getConfig("name")
+	slot0.nameTF.text = HXSet.hxLan(slot1:getConfig("name"))
 
 	slot0:updateBound()
 end

@@ -190,7 +190,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根小姐，抱歉了！",
+			say = "{namecode:428}小姐，抱歉了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "欧根酱",
+			actorName = "{namecode:428}酱",
 			dir = 1,
 			say = "没事，妳不需要道歉。不过，至少…想和那个废柴AI指挥官说句话呢……",
 			typewriter = {
@@ -220,7 +220,7 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "欧根酱",
+			actorName = "{namecode:428}酱",
 			dir = 1,
 			say = "这逊爆了的名字…其实我还挺喜欢的……",
 			typewriter = {

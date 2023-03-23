@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "居然是来自俾斯麦的广播………这还真是令人震撼。",
+			say = "居然是来自{namecode:435}的广播………这还真是令人震撼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "俾斯麦阁下可是操牌手，负责发牌之人哦。",
+			say = "{namecode:435}阁下可是操牌手，负责发牌之人哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "约克突然气场变得好像邪恶的反派……好可怕……",
+			say = "{namecode:457}突然气场变得好像邪恶的反派……好可怕……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "奥古斯特，还有埃吉尔，能听到么？",
+			say = "{namecode:482}，还有{namecode:480}，能听到么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

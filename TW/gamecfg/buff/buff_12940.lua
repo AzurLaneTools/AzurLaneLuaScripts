@@ -53,9 +53,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				maxTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 12941,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

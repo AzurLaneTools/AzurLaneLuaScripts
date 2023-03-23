@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我们这边也只剩下Z23了，但愿能像{namecode:6}拉菲她们一样顺利汇合。",
+			say = "嗯，我们这边也只剩下{namecode:408}了，但愿能像{namecode:6}拉菲她们一样顺利汇合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

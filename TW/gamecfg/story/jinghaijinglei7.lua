@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "你的篇章已经告一段落了，腓特烈大帝，乖乖退场吧。",
+			say = "你的篇章已经告一段落了，{namecode:440}，乖乖退场吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1

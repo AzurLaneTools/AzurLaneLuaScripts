@@ -177,7 +177,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次试试全糖的碳酸咖啡怎么样？！之前欧根强烈推荐给我的，据说喝下去的感觉就像甜甜蜜蜜的恋爱一样~",
+			say = "这次试试全糖的碳酸咖啡怎么样？！之前{namecode:428}强烈推荐给我的，据说喝下去的感觉就像甜甜蜜蜜的恋爱一样~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "布吕歇尔十分期待~！",
+			say = "{namecode:450}十分期待~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "布吕歇尔也是，能陪伴在指挥官的身边，不论是去哪里约会都是很开心的哦！",
+			say = "{namecode:450}也是，能陪伴在指挥官的身边，不论是去哪里约会都是很开心的哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最喜欢指挥官了~那就由布吕歇尔来决定咯~",
+			say = "最喜欢指挥官了~那就由{namecode:450}来决定咯~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……不得不说，在约会这一方面，布吕歇尔实在是有着令人惊叹的热情。",
+			say = "……不得不说，在约会这一方面，{namecode:450}实在是有着令人惊叹的热情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "布吕歇尔想跟指挥官一起去更远的地方感受不一样的环境！",
+			say = "{namecode:450}想跟指挥官一起去更远的地方感受不一样的环境！",
 			painting = {
 				alpha = 0.3,
 				time = 1

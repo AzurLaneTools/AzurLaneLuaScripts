@@ -2128,6 +2128,37 @@ pg.memory_group = {
 			2062
 		}
 	},
+	[220] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 220,
+		title = "童話森林奇遇記",
+		memories = {
+			2181,
+			2182,
+			2183,
+			2184,
+			2185,
+			2186
+		}
+	},
+	[221] = {
+		icon = "title_event",
+		subtype = 1,
+		type = 2,
+		id = 221,
+		title = "來自鳶尾的天使",
+		memories = {
+			2191,
+			2192,
+			2193,
+			2194,
+			2195,
+			2196,
+			2197
+		}
+	},
 	[227] = {
 		icon = "title_event",
 		subtype = 2,
@@ -3440,6 +3471,8 @@ pg.memory_group = {
 		211,
 		212,
 		213,
+		220,
+		221,
 		227,
 		228,
 		230,

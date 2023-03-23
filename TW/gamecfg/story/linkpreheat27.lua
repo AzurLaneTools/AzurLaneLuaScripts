@@ -148,7 +148,7 @@ return {
 			actor = 10300020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Z23小姐，罗利小姐，突击者老师，兰利老师和苍龙老师……她们认真细心地教会了我",
+			say = "{namecode:408}小姐，罗利小姐，突击者老师，兰利老师和苍龙老师……她们认真细心地教会了我",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

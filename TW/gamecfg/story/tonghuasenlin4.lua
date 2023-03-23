@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"童话森林奇遇记\n\n<size=45>四　白雪公主与毒苹果</size>",
+					"童話森林奇遇記\n\n<size=45>四　白雪公主與毒蘋果</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "带着毒苹果与面具从城堡后门走出不远，一位坐在秋千上的少女进入了视线。",
+			say = "帶著毒蘋果與面具從城堡後門走出不遠，一位坐在鞦韆上的少女進入了視線。",
 			side = 2,
 			bgName = "star_level_bg_158",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你是皇后派来的刺客，想取走我的性命，对吧？",
+			say = "你是皇后派來的刺客，想取走我的性命，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,11 +67,11 @@ return {
 			},
 			options = {
 				{
-					content = "没错，抱歉了，白雪公主！",
+					content = "沒錯，抱歉了，白雪公主！",
 					flag = 1
 				},
 				{
-					content = "不，我只是路过的指挥官罢了。",
+					content = "不，我只是路過的指揮官罷了。",
 					flag = 2
 				}
 			}
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "这样啊……",
+			say = "這樣啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "star_level_bg_158",
 			dir = 1,
 			optionFlag = 1,
-			say = "转瞬间，白雪公主挥起的剑就停在了眼前不远处。",
+			say = "轉瞬間，白雪公主揮起的劍就停在了眼前不遠處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "现在呢，还想动手么？",
+			say = "現在呢，還想動手嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "想要蒙混过关可不行哦？",
+			say = "想要蒙混過關可不行哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "star_level_bg_158",
 			dir = 1,
 			optionFlag = 2,
-			say = "转瞬间，白雪公主挥起的剑就停在了眼前不远处。",
+			say = "轉瞬間，白雪公主揮起的劍就停在了眼前不遠處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "掩饰是没有用的。皇后的打算我都清楚，你也不是第一个刺客了。",
+			say = "掩飾是沒有用的。皇后的打算我都清楚，你也不是第一個刺客了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "老实说吧，这次皇后又准备了什么新花样？",
+			say = "老實說吧，這次皇后又準備了什麼新花樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "……将毒苹果拿给白雪公主看，并告诉了她皇后的计划。",
+			say = "……將毒蘋果拿給白雪公主看，並告訴了她皇后的計劃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "发现硬来不行，就转而去用阴险的手段了么……看来不跟皇后做个了断是不行了。",
+			say = "發現硬來不行，就轉而去用陰險的手段了嗎……看來不跟皇后做個了斷是不行了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我接下来要去军营调集军队，不过路上难免遇到皇后的眼线，如果能有什么能隐藏身份的东西就好了……",
+			say = "我接下來要去軍營調集軍隊，不過路上難免遇到皇后的眼線，如果能有什麼能隱藏身份的東西就好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个是舞会用的面具……？依靠这个倒确实可以隐藏身份……",
+			say = "這個是舞會用的面具……？依靠這個倒確實可以隱藏身份……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你虽然是刺客，人倒是还挺好的。",
+			say = "你雖然是刺客，人倒是還挺好的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想来刺杀我并非是你的本意，而是被皇后用什么把柄威胁了吧？",
+			say = "想來刺殺我並非是你的本意，而是被皇后用什麼把柄威脅了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没关系哦，等我消灭了皇后，你也就不用再害怕什么了。",
+			say = "沒關係哦，等我消滅了皇后，你也就不用再害怕什麼了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "真是一个武德充沛的白雪公主……",
+			say = "真是一個武德充沛的白雪公主……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么感谢你的帮助，事不宜迟，我要出发了。",
+			say = "那麼感謝你的幫助，事不宜遲，我要出發了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个毒苹果就留给你好了。森林中危险，也许还有用的上的地方。",
+			say = "這個毒蘋果就留給你好了。森林中危險，也許還有用的上的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "白雪公主一个人向着城堡的方向走远了。",
+			say = "白雪公主一個人向著城堡的方向走遠了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "star_level_bg_158",
 			dir = 1,
 			blackBg = true,
-			say = "还能用得上毒苹果的地方……不知道接下来还会发生什么呢——",
+			say = "還能用得上毒蘋果的地方……不知道接下來還會發生什麼呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

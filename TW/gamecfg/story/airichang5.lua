@@ -488,7 +488,7 @@ return {
 			bgName = "bg_battle_night",
 			side = 2,
 			dir = 1,
-			actorName = "欧根酱",
+			actorName = "{namecode:428}酱",
 			say = "果然还是不能没有我们呢。爱，没事吧？",
 			typewriter = {
 				speed = 0.05,
@@ -556,7 +556,7 @@ return {
 			bgName = "bg_battle_night",
 			side = 2,
 			dir = 1,
-			actorName = "欧根酱",
+			actorName = "{namecode:428}酱",
 			say = "已经等了妳好久了哦？",
 			typewriter = {
 				speed = 0.05,
@@ -725,7 +725,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱小姐从刚才就一直在喊着奇怪的名字哦？“欧根酱～！”“{namecode:95}酱～！”之类的",
+			say = "爱小姐从刚才就一直在喊着奇怪的名字哦？“{namecode:428}酱～！”“{namecode:95}酱～！”之类的",
 			bgm = "story-1",
 			effects = {
 				{

@@ -665,7 +665,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "参照腓特烈大帝治疗俾斯麦的方案，我们也要寻找曾隶属于皇家的META来配合我们的治疗——",
+			say = "参照{namecode:440}治疗{namecode:435}的方案，我们也要寻找曾隶属于皇家的META来配合我们的治疗——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

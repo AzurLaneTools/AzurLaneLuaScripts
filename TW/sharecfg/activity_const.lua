@@ -34,7 +34,7 @@ pg.activity_const = {
 		act_id = 40804
 	},
 	ACTIVITY_BOSS_PT_ID = {
-		act_id = 41031
+		act_id = 41107
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3

@@ -1006,7 +1006,7 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "标枪＆z23＆柚＆拉菲",
+			actorName = "标枪＆{namecode:408}＆柚＆拉菲",
 			say = "——了解！",
 			subActors = {
 				{

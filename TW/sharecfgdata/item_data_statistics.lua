@@ -5374,6 +5374,27 @@ _G.pg.base.item_data_statistics[11050] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[11052] = {
+	display = "BR.810艦載機設計圖 ",
+	name = "BR.810艦載機設計圖 ",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11052,
+	is_world = 0,
+	icon = "Equips/51240",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[12003] = {
 	display = "五聯裝533mm磁性魚雷T3設計圖",
 	name = "五聯裝533mm磁性魚雷T3設計圖",
@@ -8700,6 +8721,27 @@ _G.pg.base.item_data_statistics[21015] = {
 	id = 21015,
 	is_world = 0,
 	icon = "Props/21015",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21016] = {
+	display = "命運女神·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	name = "結晶：命運女神·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21016,
+	is_world = 0,
+	icon = "Props/21016",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -13075,6 +13117,121 @@ _G.pg.base.item_data_statistics[30332] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30335] = {
+	display = "可以獲得一件隨機的童話世界風格外觀裝備",
+	name = "外觀裝備箱(童話世界)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30335,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghua",
+	display_icon = {
+		{
+			9,
+			580,
+			1
+		},
+		{
+			9,
+			581,
+			1
+		},
+		{
+			9,
+			582,
+			1
+		},
+		{
+			9,
+			583,
+			1
+		},
+		{
+			9,
+			584,
+			1
+		},
+		{
+			9,
+			585,
+			1
+		},
+		{
+			9,
+			586,
+			1
+		},
+		{
+			9,
+			587,
+			1
+		},
+		{
+			9,
+			588,
+			1
+		},
+		{
+			9,
+			589,
+			1
+		},
+		{
+			9,
+			590,
+			1
+		},
+		{
+			9,
+			591,
+			1
+		},
+		{
+			9,
+			592,
+			1
+		},
+		{
+			9,
+			593,
+			1
+		},
+		{
+			9,
+			594,
+			1
+		},
+		{
+			9,
+			595,
+			1
+		},
+		{
+			9,
+			596,
+			1
+		},
+		{
+			9,
+			597,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30340] = {
 	display = "可以獲得一件隨機的鍊金工房風格外觀裝備",
 	name = "外觀裝備箱(鍊金工房)",
@@ -13643,6 +13800,48 @@ _G.pg.base.item_data_statistics[30408] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30409] = {
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	name = "外觀裝備箱(世界巡遊)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30409,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	display_icon = {
+		{
+			9,
+			2025,
+			1
+		},
+		{
+			9,
+			2026,
+			1
+		},
+		{
+			9,
+			2027,
+			1
+		},
+		{
+			9,
+			2028,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "使用後可從「炎炎夏日」主題外觀裝備中任意選擇一種獲得1個",
 	name = "定向外觀裝備箱(夏末)",
@@ -14076,6 +14275,118 @@ _G.pg.base.item_data_statistics[30505] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30506] = {
+	display = "使用後可從「童話世界」主題外觀裝備中任意選擇一種獲得1個",
+	name = "定向外觀裝備箱(童話世界)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30506,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghuazixuan",
+	display_icon = {
+		{
+			9,
+			580,
+			1
+		},
+		{
+			9,
+			581,
+			1
+		},
+		{
+			9,
+			582,
+			1
+		},
+		{
+			9,
+			583,
+			1
+		},
+		{
+			9,
+			584,
+			1
+		},
+		{
+			9,
+			585,
+			1
+		},
+		{
+			9,
+			586,
+			1
+		},
+		{
+			9,
+			587,
+			1
+		},
+		{
+			9,
+			588,
+			1
+		},
+		{
+			9,
+			589,
+			1
+		},
+		{
+			9,
+			590,
+			1
+		},
+		{
+			9,
+			591,
+			1
+		},
+		{
+			9,
+			592,
+			1
+		},
+		{
+			9,
+			593,
+			1
+		},
+		{
+			9,
+			594,
+			1
+		},
+		{
+			9,
+			595,
+			1
+		},
+		{
+			9,
+			596,
+			1
+		},
+		{
+			9,
+			597,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30508] = {
 	display = "使用後可從「薩丁風情」主題外觀裝備中任意選擇一種獲得1個",
 	name = "定向外觀裝備箱(薩丁)",
@@ -14404,6 +14715,118 @@ _G.pg.base.item_data_statistics[30513] = {
 		{
 			9,
 			1217,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30514] = {
+	display = "使用後可從「白鷹風格」主題外觀裝備中任意選擇一種獲得1個",
+	name = "定向外觀裝備箱(白鷹)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30514,
+	is_world = 0,
+	icon = "Props/appearanceboxbaiyingzixuan",
+	display_icon = {
+		{
+			9,
+			240,
+			1
+		},
+		{
+			9,
+			241,
+			1
+		},
+		{
+			9,
+			242,
+			1
+		},
+		{
+			9,
+			243,
+			1
+		},
+		{
+			9,
+			244,
+			1
+		},
+		{
+			9,
+			245,
+			1
+		},
+		{
+			9,
+			246,
+			1
+		},
+		{
+			9,
+			247,
+			1
+		},
+		{
+			9,
+			248,
+			1
+		},
+		{
+			9,
+			249,
+			1
+		},
+		{
+			9,
+			250,
+			1
+		},
+		{
+			9,
+			251,
+			1
+		},
+		{
+			9,
+			252,
+			1
+		},
+		{
+			9,
+			253,
+			1
+		},
+		{
+			9,
+			254,
+			1
+		},
+		{
+			9,
+			255,
+			1
+		},
+		{
+			9,
+			256,
+			1
+		},
+		{
+			9,
+			257,
 			1
 		}
 	},
@@ -140155,6 +140578,147 @@ _G.pg.base.item_data_statistics[58524] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[58609] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58609,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			81,
+			1
+		},
+		{
+			2,
+			82,
+			1
+		},
+		{
+			2,
+			43,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58610] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58610,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10090,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10103,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58611] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58611,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10090,
+			1
+		},
+		{
+			2,
+			10102,
+			1
+		},
+		{
+			2,
+			10119,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		},
+		{
+			2,
+			11052,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[58722] = {
 	display = "有機率獲得以下設計圖",
 	name = "未知設計圖",
@@ -146102,6 +146666,48 @@ _G.pg.base.item_data_statistics[59295] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59296] = {
+	display = "參與『世界巡遊』(2023.4.1~2023.5.31)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
+	name = "巡遊點數",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59296,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59297] = {
+	display = "參與『世界巡遊』(2023.2.1~2023.3.31)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
+	name = "巡遊點數",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 21,
+	link_id = 7008,
+	id = 59297,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59301] = {
 	display = "用於『限時體驗商店』兌換角色限時換裝",
 	name = "換裝體驗券",
@@ -146243,6 +146849,69 @@ _G.pg.base.item_data_statistics[59320] = {
 	id = 59320,
 	is_world = 0,
 	icon = "Props/union_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59323] = {
+	display = "參與「來自鳶尾的天使」獲得的點數，累計一定程度可以領取報酬",
+	name = "貢獻值",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59323,
+	is_world = 0,
+	icon = "Props/joffre_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59324] = {
+	display = "參與「來自鳶尾的天使」EX關的必要道具，也可以用來增加普通關額外獎勵次數",
+	name = "特別挑戰券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59324,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59325] = {
+	display = "用於『限時體驗商店』兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59325,
+	is_world = 0,
+	icon = "Props/skinTicket",
 	display_icon = {},
 	price = {},
 	index = {},

@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "要是单独遇到的话，埃尔宾肯定一根都应付服来……",
+			say = "要是单独遇到的话，{namecode:449}肯定一根都应付服来……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_12",
-			say = "猛烈的炮击过后，腓特烈大帝面前的构建者彻底陷入了沉默。",
+			say = "猛烈的炮击过后，{namecode:440}面前的构建者彻底陷入了沉默。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "埃吉尔、奥古斯特，现在开始执行最终环节，让阿瓦隆之门的光辉撕裂这片大海吧。",
+			say = "{namecode:480}、{namecode:482}，现在开始执行最终环节，让阿瓦隆之门的光辉撕裂这片大海吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

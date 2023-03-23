@@ -26,7 +26,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "终于等到了大晴天！今天也要跟布吕歇尔一起尽情地约会哦~",
+			say = "终于等到了大晴天！今天也要跟{namecode:450}一起尽情地约会哦~",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -67,7 +67,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "休息日的第二天，一大早便被布吕歇尔上门拉来了港区的商业街……",
+			say = "休息日的第二天，一大早便被{namecode:450}上门拉来了港区的商业街……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "休息……？能有指挥官陪伴在布吕歇尔身边，对布吕歇尔来说就是最好的休息！",
+			say = "休息……？能有指挥官陪伴在{namecode:450}身边，对{namecode:450}来说就是最好的休息！",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -215,7 +215,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊！要不来尝尝布吕歇尔的吧~",
+			say = "啊！要不来尝尝{namecode:450}的吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "接过布吕歇尔递过来的奶茶尝了一口——是全糖……好甜。",
+			say = "接过{namecode:450}递过来的奶茶尝了一口——是全糖……好甜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "到那个时候就由我布吕歇尔出马，把指挥官从水里救出来，然后就像电影最后那样……",
+			say = "到那个时候就由我{namecode:450}出马，把指挥官从水里救出来，然后就像电影最后那样……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "轻轻抱住布吕歇尔",
+					content = "轻轻抱住{namecode:450}",
 					flag = 2
 				}
 			}
@@ -588,7 +588,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇……那我也用力抱回去！毕竟布吕歇尔心里对指挥官的爱都要满到溢出来啦~！",
+			say = "呜哇……那我也用力抱回去！毕竟{namecode:450}心里对指挥官的爱都要满到溢出来啦~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明天、后天、还有今后的每一天布吕歇尔都想跟你呆在一起~",
+			say = "明天、后天、还有今后的每一天{namecode:450}都想跟你呆在一起~",
 			painting = {
 				alpha = 0.3,
 				time = 1

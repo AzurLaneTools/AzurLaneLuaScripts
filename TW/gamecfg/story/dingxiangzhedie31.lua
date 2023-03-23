@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "欧根，心情很不错？",
+			say = "{namecode:428}，心情很不错？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "小气……鲁普雷希特亲王是我们最新锐的计划舰，我们不还是让她来博览会玩一圈嘛。",
+			say = "小气……{namecode:484}是我们最新锐的计划舰，我们不还是让她来博览会玩一圈嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算啦算啦~乌尔里希那边怎么样，有没有异常情况？",
+			say = "算啦算啦~{namecode:464}那边怎么样，有没有异常情况？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有。乌尔里希阁下负责的区域内目前一切正常。",
+			say = "没有。{namecode:464}阁下负责的区域内目前一切正常。",
 			painting = {
 				alpha = 0.3,
 				time = 1

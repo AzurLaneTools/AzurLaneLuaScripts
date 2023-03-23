@@ -1327,6 +1327,60 @@ pg.ship_l2d = {
 			1
 		}
 	},
+	[7030211] = {
+		draw_able_name = "TouchDrag1",
+		offset_x = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 1,
+		start_value = 0,
+		ship_skin_id = 703021,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		action_trigger = "",
+		revert = 100,
+		ignore_action = 0,
+		parameter = "touch_drag1",
+		shop_action = 0,
+		gyro_z = 0,
+		smooth = 100,
+		id = 7030211,
+		range_abs = 1,
+		offset_y = 100,
+		range = {
+			0,
+			1
+		}
+	},
+	[7030212] = {
+		draw_able_name = "TouchDrag2",
+		offset_x = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 1,
+		start_value = 0,
+		ship_skin_id = 703021,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		action_trigger = "",
+		revert = 100,
+		ignore_action = 0,
+		parameter = "touch_drag2",
+		shop_action = 0,
+		gyro_z = 0,
+		smooth = 100,
+		id = 7030212,
+		range_abs = 1,
+		offset_y = 100,
+		range = {
+			0,
+			1
+		}
+	},
 	all = {
 		101,
 		102,
@@ -1372,6 +1426,8 @@ pg.ship_l2d = {
 		4990528,
 		5020521,
 		4990711,
-		4060221
+		4060221,
+		7030211,
+		7030212
 	}
 }

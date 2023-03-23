@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"来自鸢尾的天使\n\n<size=45>一　教堂的审判官</size>",
+					"來自鳶尾的天使\n\n<size=45>一　教堂的審判官</size>",
 					1
 				}
 			}
@@ -20,19 +20,19 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「仁慈的主啊，我于此向您虔诚地祈祷——」</size>",
+					"<size=51>「仁慈的主啊，我於此向您虔誠地祈禱——」</size>",
 					1
 				},
 				{
-					"<size=51>「愿您的光辉能照耀至教国的每一处——」</size>",
+					"<size=51>「願您的光輝能照耀至教國的每一處——」</size>",
 					2
 				},
 				{
-					"<size=51>「护佑我等的和平与希望——」</size>",
+					"<size=51>「護佑我等的和平與希望——」</size>",
 					3
 				},
 				{
-					"<size=51>「护佑我等平静又安宁的日常——」</size> ",
+					"<size=51>「護佑我等平靜又安寧的日常——」</size> ",
 					4
 				}
 			}
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			say = "鸢尾教国·本土",
+			say = "鳶尾教國·本土",
 			side = 2,
 			bgName = "bg_church",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_church",
-			say = "教堂的钟声敲响，惊动了小憩的鸟群。",
+			say = "教堂的鐘聲敲響，驚動了小憩的鳥群。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来都到了这个时间了……",
+			say = "原來都到了這個時間了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "该去办正事了。",
+			say = "該去辦正事了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_church",
-			say = "霞飞刚走出大门，就遇到了正欲进入教堂的拉·加利索尼埃。",
+			say = "霞飛剛走出大門，就遇到了正欲進入教堂的拉·加利索尼埃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哟~不愧是我们的天使，这个时间还在教堂做礼拜啊？",
+			say = "喲~不愧是我們的天使，這個時間還在教堂做禮拜啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "反正也没什么别的地方可去。倒是你，会来这里还真是少见。",
+			say = "反正也沒什麼別的地方可去。倒是妳，會來這裡還真是少見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 902010,
-			say = "哼哼，其实我主要是，想从下面的密道绕去————",
+			say = "哼哼，其實我主要是，想從下面的密道繞去————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "嘘，人多眼杂，不要乱说。",
+			say = "噓，人多眼雜，不要亂說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没事没事~我再三确认过了，这个点还在教堂的除了咱俩就没有第三个人！",
+			say = "沒事沒事~我再三確認過了，這個時間還在教堂的除了我們就沒有第三個人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "这可不一定哦，拉·加利索尼埃。",
+			say = "這可不一定哦，拉·加利索尼埃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "你看，我说什么？",
+			say = "妳看，我說什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不对不对……我明明再三确认过了！除了霞飞之外，四下无人啊！",
+			say = "不對不對……我明明再三確認過了！除了霞飛之外，四下無人啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 902010,
-			say = "你是从哪里冒出来的！",
+			say = "妳是從哪裡冒出來的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "这你就不需要知道了。不过看你技能这么生疏了，要不要接点工作充实一下？",
+			say = "這妳就不需要知道了。不過看妳技能這麼生疏了，要不要接點工作充實一下？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好主意，我赞同。",
+			say = "好主意，我贊成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "不过在工作之前，还是让她去礼拜堂里多少呆一会吧。",
+			say = "不過在工作之前，還是讓她去禮拜堂裡多少待一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，没问题哦。",
+			say = "嗯，沒問題哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 902010,
-			say = "等等等等！别这么就决定了啊，我还没同意呢！",
+			say = "等等等等！別這麼就決定了啊，我還沒同意呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 902010,
-			say = "可怖也别老是把工作挂在嘴边，偶尔放松一下嘛。",
+			say = "可怖也別老是把工作掛在嘴邊，偶爾放鬆一下嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听我说，审判庭最近截获了一批走私境外的文物，你们猜怎么样？",
+			say = "聽我說，審判庭最近截獲了一批走私境外的文物，妳們猜怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 902010,
-			say = "铁血居然暗中与此有牵连~！",
+			say = "鐵血居然暗中與此有牽連~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "铁血么……被走私的文物来自哪里？",
+			say = "鐵血嗎……被走私的文物來自哪裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "阿·维·尼·翁！",
+			say = "亞·維·農·！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 902010,
-			say = "怎么样~现在有没有兴趣跟我一起去看看了？",
+			say = "怎麼樣~現在有沒有興趣跟我一起去看看了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801070,
-			say = "兴趣不能说没有，不过我还有一些事要办，之后我会自己过去。",
+			say = "興趣不能說沒有，不過我還有一些事要辦，之後我會自己過去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 902010,
-			say = "好吧好吧~霞飞呢？",
+			say = "好吧好吧~霞飛呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "抱歉，今天有一场迎接皇家盟友的宴会，我必须要到场。",
+			say = "抱歉，今天有一場迎接皇家盟友的宴會，我必須要到場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦~原来，她们是今天来啊……",
+			say = "哦~原來，她們是今天來啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 902010,
-			say = "辛苦！那我就不打扰你了，安心去吧~",
+			say = "辛苦！那我就不打擾妳了，安心去吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_church",
-			say = "一阵喧嚣后，教堂的庭园又恢复了平静。",
+			say = "一陣喧囂後，教堂的庭園又恢復了平靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			bgName = "bg_church",
 			dir = 1,
 			blackBg = true,
-			say = "霞飞看了看带着各自目的离开的二人，提振了一下心情，也向着会场的方向走去了。",
+			say = "霞飛看了看帶著各自目的離開的二人，提振了一下心情，也向著會場的方向走去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“乌尔里希，已经向着，斯……卡帕湾撤退了。”",
+			say = "“{namecode:464}，已经向着，斯……卡帕湾撤退了。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "从各条战线上的情况来看，北方联合舰队主要与欧根亲王舰队指挥的舰队进行了交战，虽然损失轻微但推进速度最慢。",
+			say = "从各条战线上的情况来看，北方联合舰队主要与{namecode:427}舰队指挥的舰队进行了交战，虽然损失轻微但推进速度最慢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "NA海域舰队打击群则与提尔比茨指挥的舰队发生了交战，双方量产型损失严重，舰船也均有数艘受损。",
+			say = "NA海域舰队打击群则与{namecode:436}指挥的舰队发生了交战，双方量产型损失严重，舰船也均有数艘受损。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "佐治亚的情况也相同，在与乌尔里希带领的主力舰队激战之后，双方互有损伤。",
+			say = "佐治亚的情况也相同，在与{namecode:464}带领的主力舰队激战之后，双方互有损伤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

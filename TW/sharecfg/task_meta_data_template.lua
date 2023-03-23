@@ -1123,7 +1123,7 @@ pg.task_meta_data_template = {
 	[100021] = {
 		target_id_2 = "970102",
 		sub_type = 180,
-		desc = "使用命运女神.META获得1次胜利",
+		desc = "使用命運女神.META獲得1次勝利",
 		id = 100021,
 		target_num = 1,
 		target_id = "0"
@@ -1131,7 +1131,7 @@ pg.task_meta_data_template = {
 	[100022] = {
 		target_id_2 = "970102",
 		sub_type = 180,
-		desc = "使用命运女神.META击破等级>30的敌方1次",
+		desc = "使用命運女神.META擊破等級>30的敵方1次",
 		id = 100022,
 		target_num = 1,
 		target_id = "30"
@@ -1139,7 +1139,7 @@ pg.task_meta_data_template = {
 	[100023] = {
 		target_id_2 = "970102",
 		sub_type = 180,
-		desc = "使用命运女神.META击破等级>55的敌方1次",
+		desc = "使用命運女神.META擊破等級>55的敵方1次",
 		id = 100023,
 		target_num = 1,
 		target_id = "55"
@@ -1147,7 +1147,7 @@ pg.task_meta_data_template = {
 	[100024] = {
 		target_id_2 = "970102",
 		sub_type = 180,
-		desc = "使用命运女神.META击破等级>80的敌方1次",
+		desc = "使用命運女神.META擊破等級>80的敵方1次",
 		id = 100024,
 		target_num = 1,
 		target_id = "80"
@@ -1155,7 +1155,7 @@ pg.task_meta_data_template = {
 	[100025] = {
 		target_id_2 = "970102",
 		sub_type = 180,
-		desc = "使用命运女神.META击破等级>100的敌方1次",
+		desc = "使用命運女神.META擊破等級>100的敵方1次",
 		id = 100025,
 		target_num = 1,
 		target_id = "100"
@@ -1280,6 +1280,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100061] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "使用拉·加利索尼埃.META获得1次胜利",
+		id = 100061,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100062] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "使用拉·加利索尼埃.META击破等级>30的敌方1次",
+		id = 100062,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100063] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "使用拉·加利索尼埃.META击破等级>55的敌方1次",
+		id = 100063,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100064] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "使用拉·加利索尼埃.META击破等级>80的敌方1次",
+		id = 100064,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100065] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "使用拉·加利索尼埃.META击破等级>100的敌方1次",
+		id = 100065,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1315,7 +1355,7 @@ pg.task_meta_data_template = {
 	[200021] = {
 		target_id_2 = "970102",
 		sub_type = 302,
-		desc = "大型作战内使用命运女神.META获得1次胜利",
+		desc = "大型作戰內使用命運女神.META獲得1次勝利",
 		id = 200021,
 		target_num = 1,
 		target_id = "0"
@@ -1323,7 +1363,7 @@ pg.task_meta_data_template = {
 	[200022] = {
 		target_id_2 = "970102",
 		sub_type = 302,
-		desc = "大型作战内使用命运女神.META击破等级>70的敌方1次",
+		desc = "大型作戰內使用命運女神.META擊破等級>70的敵方1次",
 		id = 200022,
 		target_num = 1,
 		target_id = "70"
@@ -1331,7 +1371,7 @@ pg.task_meta_data_template = {
 	[200023] = {
 		target_id_2 = "970102",
 		sub_type = 302,
-		desc = "大型作战内使用命运女神.META击破等级>90的敌方1次",
+		desc = "大型作戰內使用命運女神.META擊破等級>90的敵方1次",
 		id = 200023,
 		target_num = 1,
 		target_id = "90"
@@ -1339,7 +1379,7 @@ pg.task_meta_data_template = {
 	[200024] = {
 		target_id_2 = "970102",
 		sub_type = 302,
-		desc = "大型作战内使用命运女神.META击破等级>100的敌方1次",
+		desc = "大型作戰內使用命運女神.META擊破等級>100的敵方1次",
 		id = 200024,
 		target_num = 1,
 		target_id = "100"
@@ -1437,6 +1477,38 @@ pg.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用伊丽莎白女王.META击破等级>100的敌方1次",
 		id = 200054,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200061] = {
+		target_id_2 = "970204",
+		sub_type = 302,
+		desc = "大型作战内使用拉·加利索尼埃.META获得1次胜利",
+		id = 200061,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200062] = {
+		target_id_2 = "970204",
+		sub_type = 302,
+		desc = "大型作战内使用拉·加利索尼埃.META击破等级>70的敌方1次",
+		id = 200062,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200063] = {
+		target_id_2 = "970204",
+		sub_type = 302,
+		desc = "大型作战内使用拉·加利索尼埃.META击破等级>90的敌方1次",
+		id = 200063,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200064] = {
+		target_id_2 = "970204",
+		sub_type = 302,
+		desc = "大型作战内使用拉·加利索尼埃.META击破等级>100的敌方1次",
+		id = 200064,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1601,6 +1673,11 @@ pg.task_meta_data_template = {
 		100053,
 		100054,
 		100055,
+		100061,
+		100062,
+		100063,
+		100064,
+		100065,
 		200001,
 		200002,
 		200003,
@@ -1620,6 +1697,10 @@ pg.task_meta_data_template = {
 		200051,
 		200052,
 		200053,
-		200054
+		200054,
+		200061,
+		200062,
+		200063,
+		200064
 	}
 }

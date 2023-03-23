@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23，没事吧？拉菲…看来似乎还能继续航行一会，的说",
+			say = "{namecode:408}，没事吧？拉菲…看来似乎还能继续航行一会，的说",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯~~还是休息一下好了，勉强自己是大忌！Z23就先好好休息一下吧！",
+			say = "嗯~~还是休息一下好了，勉强自己是大忌！{namecode:408}就先好好休息一下吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

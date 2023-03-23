@@ -6609,6 +6609,82 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100022] = {
+		belong = 1,
+		describe = "誰都可以體驗一把“隨時隨地都能蕩的鞦韆”了！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		name = "飛天御鞦韆",
+		tag = 6,
+		icon = "feiqiuqianicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		effect = "",
+		comfortable = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100022,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feiqiuqianB",
+				"normal"
+			},
+			{
+				"feiqiuqianT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"feiqiuqianCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[200001] = {
 		spine_extra = "",
 		describe = "沒錯，盡情地向你的女僕撒嬌吧…“主人”~",
@@ -17228,7 +17304,7 @@ pg.furniture_data_template = {
 			{
 				{
 					0,
-					200
+					109
 				},
 				{
 					400,
@@ -17236,8 +17312,8 @@ pg.furniture_data_template = {
 				}
 			},
 			{
-				4,
-				-66
+				-1,
+				-148
 			}
 		},
 		interAction_group = {}
@@ -90754,6 +90830,998 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[90001] = {
+		spine_extra = "",
+		describe = "洋溢著幻想色彩的奇妙森林～",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "童話之森地板",
+		effect = "",
+		advice = 0,
+		icon = "dibanthicon",
+		spine_action_replace = "",
+		picture = "th/dibanth",
+		comfortable = 4,
+		canputon = 0,
+		id = 90001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90002] = {
+		spine_extra = "",
+		describe = "洋溢著幻想色彩的奇妙森林～",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "童話之森壁紙",
+		effect = "",
+		advice = 0,
+		icon = "qiangbithicon",
+		spine_action_replace = "",
+		picture = "th/qiangbith",
+		comfortable = 4,
+		canputon = 0,
+		id = 90002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90101] = {
+		spine_extra = "",
+		describe = "這是…可食用的嗎？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "baimoguthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "白蘑菇群",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/baimoguth",
+		canputon = 0,
+		id = 90101,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90102] = {
+		spine_extra = "",
+		describe = "這是…可食用的嗎？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "baimogu2thicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "白蘑菇",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/baimogu2th",
+		canputon = 0,
+		id = 90102,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90103] = {
+		spine_extra = "",
+		describe = "拔蘿蔔呀拔蘿蔔～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "daluobothicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "大蘿蔔",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/daluoboth",
+		canputon = 0,
+		id = 90103,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90104] = {
+		spine_extra = "",
+		describe = "能在天空中翱翔的藍色鯨魚。",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "幻想藍鯨",
+		themeId = 90,
+		icon = "feitianjingyuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 90104,
+		can_rotate = 0,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feitianjingyuth",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[90105] = {
+		spine_extra = "",
+		describe = "風車咕嚕咕嚕轉～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fengchethicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "童話風車",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/fengcheth",
+		canputon = 0,
+		id = 90105,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90106] = {
+		spine_extra = "",
+		describe = "色彩艷麗的紅色蘑菇",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "hongmoguthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "紅蘑菇",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/hongmoguth",
+		canputon = 0,
+		id = 90106,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90107] = {
+		spine_extra = "",
+		describe = "為幽暗森林帶來星點光明",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 4,
+		tag = 1,
+		icon = "hualudengthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "路燈花",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/hualudength",
+		canputon = 0,
+		id = 90107,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90111] = {
+		spine_extra = "",
+		describe = "散發著淡淡幽光。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "hudiecongthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "蝴蝶叢",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/hudiecongth",
+		canputon = 0,
+		id = 90111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90112] = {
+		spine_extra = "",
+		describe = "樹上似乎趴著什麼……？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jushuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "幻想巨樹",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "th/jushuth",
+		canputon = 0,
+		id = 90112,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90113] = {
+		spine_extra = "",
+		describe = "嘿咻，休息一下吧～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 90,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "mogudengthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "蘑菇凳",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "th/mogudength",
+		canputon = 0,
+		id = 90113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					7.8,
+					38.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90116] = {
+		spine_extra = "",
+		describe = "屋裡住著誰呢～？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "moguwuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "蘑菇屋",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/moguwuth",
+		canputon = 0,
+		id = 90116,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90117] = {
+		spine_extra = "",
+		describe = "快上車，舞會就要開始了！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "夢幻南瓜車",
+		themeId = 90,
+		icon = "nanguachethicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 90117,
+		can_rotate = 0,
+		size = {
+			5,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"nanguachethB",
+				"normal"
+			},
+			{
+				"nanguachethT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					1.1,
+					-1.6
+				},
+				{
+					110,
+					140
+				},
+				"th/nanguacheth_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.7
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[90118] = {
+		spine_extra = "",
+		describe = "沒有什麼特殊的，就是石塊而已。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shitouthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "路邊石塊",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "th/shitouth",
+		canputon = 0,
+		id = 90118,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90119] = {
+		spine_extra = "",
+		describe = "孩子們的快樂夢想～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuwuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "幻想樹屋",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/shuwuth",
+		canputon = 0,
+		id = 90119,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90120] = {
+		spine_extra = "",
+		describe = "通往森林的深處——",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "suishiluthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "碎石路",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/suishiluth",
+		canputon = 0,
+		id = 90120,
+		can_rotate = 0,
+		size = {
+			24,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90121] = {
+		spine_extra = "",
+		describe = "要遲到了要遲到了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "tuzithicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "白兔先生?",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/tuzith",
+		canputon = 0,
+		id = 90121,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90122] = {
+		spine_extra = "",
+		describe = "魔法變變變啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiannvjiuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "仙女啾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/xiannvjiuth",
+		canputon = 0,
+		id = 90122,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90123] = {
+		spine_extra = "",
+		describe = "不知道奶奶怎麼樣…啾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaohongmaojiuthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "小紅帽啾",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "th/xiaohongmaojiuth",
+		canputon = 0,
+		id = 90123,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90124] = {
+		spine_extra = "",
+		describe = "美味的蘿蔔！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaoluobothicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "小蘿蔔",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "th/xiaoluoboth",
+		canputon = 0,
+		id = 90124,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90125] = {
+		spine_extra = "",
+		describe = "美味的蘿蔔！好多個！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "xiaoluobosanlianthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "小蘿蔔群",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "th/xiaoluobosanlianth",
+		canputon = 0,
+		id = 90125,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90127] = {
+		spine_extra = "",
+		describe = "岸邊長著各種奇妙的蘑菇和野草～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 90,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiaoxithicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "童話小溪",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/xiaoxith",
+		canputon = 0,
+		id = 90127,
+		can_rotate = 0,
+		size = {
+			14,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[90128] = {
+		spine_extra = "",
+		describe = "呼嚕嚕…呼嚕嚕…Zzzz",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 90,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiongthicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "瞌睡的大熊",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "th/xiongth",
+		canputon = 0,
+		id = 90128,
+		can_rotate = 0,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-3.6,
+					72
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[92001] = {
 		spine_extra = "",
 		describe = "生活如此多嬌，盡情享受美味~",
@@ -94534,6 +95602,7 @@ pg.furniture_data_template = {
 			100019,
 			100020,
 			100021,
+			100022,
 			200001,
 			200002,
 			200003,
@@ -94678,6 +95747,7 @@ pg.furniture_data_template = {
 			100019,
 			100020,
 			100021,
+			100022,
 			200001,
 			200002,
 			200003,
@@ -98656,6 +99726,56 @@ pg.furniture_data_template = {
 			89308,
 			89309
 		},
+		[90] = {
+			90001,
+			90002,
+			90101,
+			90102,
+			90103,
+			90104,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90117,
+			90118,
+			90119,
+			90120,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128,
+			90001,
+			90002,
+			90101,
+			90102,
+			90103,
+			90104,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90117,
+			90118,
+			90119,
+			90120,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128
+		},
 		[92] = {
 			92001,
 			92002,
@@ -100157,6 +101277,26 @@ pg.furniture_data_template = {
 			89123,
 			89124,
 			89125,
+			90101,
+			90102,
+			90103,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90118,
+			90119,
+			90120,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128,
 			92101,
 			92102,
 			92103,
@@ -100460,6 +101600,7 @@ pg.furniture_data_template = {
 			100019,
 			100020,
 			100021,
+			100022,
 			54104,
 			54105
 		},
@@ -100583,6 +101724,8 @@ pg.furniture_data_template = {
 			85126,
 			86122,
 			89126,
+			90104,
+			90117,
 			94119,
 			94120,
 			95132,
@@ -100662,6 +101805,7 @@ pg.furniture_data_template = {
 			86001,
 			87001,
 			89001,
+			90001,
 			92001,
 			94001,
 			95001
@@ -100736,6 +101880,7 @@ pg.furniture_data_template = {
 			86002,
 			87002,
 			89002,
+			90002,
 			92002,
 			94002,
 			95002
@@ -101067,6 +102212,7 @@ pg.furniture_data_template = {
 			86002,
 			87002,
 			89002,
+			90002,
 			92002,
 			94002,
 			95002
@@ -102484,6 +103630,25 @@ pg.furniture_data_template = {
 			89123,
 			89124,
 			89125,
+			90101,
+			90102,
+			90103,
+			90105,
+			90106,
+			90107,
+			90111,
+			90112,
+			90113,
+			90116,
+			90118,
+			90119,
+			90121,
+			90122,
+			90123,
+			90124,
+			90125,
+			90127,
+			90128,
 			92101,
 			92102,
 			92103,
@@ -102551,6 +103716,7 @@ pg.furniture_data_template = {
 			100003,
 			100008,
 			100021,
+			100022,
 			30123,
 			35128,
 			37121,
@@ -102572,6 +103738,8 @@ pg.furniture_data_template = {
 			84184,
 			84185,
 			84186,
+			90104,
+			90117,
 			94119
 		},
 		[14] = {
@@ -102655,6 +103823,7 @@ pg.furniture_data_template = {
 			86001,
 			87001,
 			89001,
+			90001,
 			92001,
 			94001,
 			95001
@@ -102770,6 +103939,7 @@ pg.furniture_data_template = {
 			87116,
 			89106,
 			89107,
+			90120,
 			95112,
 			95120
 		},
@@ -103299,6 +104469,7 @@ pg.furniture_data_template = {
 		100019,
 		100020,
 		100021,
+		100022,
 		200001,
 		200002,
 		200003,
@@ -105226,6 +106397,30 @@ pg.furniture_data_template = {
 		89307,
 		89308,
 		89309,
+		90001,
+		90002,
+		90101,
+		90102,
+		90103,
+		90104,
+		90105,
+		90106,
+		90107,
+		90111,
+		90112,
+		90113,
+		90116,
+		90117,
+		90118,
+		90119,
+		90120,
+		90121,
+		90122,
+		90123,
+		90124,
+		90125,
+		90127,
+		90128,
 		92001,
 		92002,
 		92101,

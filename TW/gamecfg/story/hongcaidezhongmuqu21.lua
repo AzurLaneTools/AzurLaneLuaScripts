@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "先是欧根亲王利用诱饵舰队吸引了皇家主力，然后提尔比茨率领主力袭击了斯卡帕湾，打破了皇家的海上封锁。",
+			say = "先是{namecode:427}利用诱饵舰队吸引了皇家主力，然后{namecode:436}率领主力袭击了斯卡帕湾，打破了皇家的海上封锁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "腓特烈大帝指挥下的铁血真的越来越锋利了。",
+			say = "{namecode:440}指挥下的铁血真的越来越锋利了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -815,7 +815,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？埃吉尔和奥古斯特呢？",
+			say = "嗯？{namecode:480}和{namecode:482}呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -885,7 +885,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "腓特烈大帝，接下来需要我们做什么？去和碧蓝航线的舰队打一架么？",
+			say = "{namecode:440}，接下来需要我们做什么？去和碧蓝航线的舰队打一架么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -971,7 +971,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愧是腓特烈大帝，考虑的就是周全~",
+			say = "不愧是{namecode:440}，考虑的就是周全~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -989,7 +989,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402080,
-			say = "就连埃尔宾也可以用么……",
+			say = "就连{namecode:449}也可以用么……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1024,7 +1024,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "埃尔宾，你可是由我腓特烈大帝认可，并亲自率领的公海舰队一员，稍微拿出些自信来吧。",
+			say = "{namecode:449}，你可是由我{namecode:440}认可，并亲自率领的公海舰队一员，稍微拿出些自信来吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1105,7 +1105,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "没问题，吕佐夫小姐。",
+			say = "没问题，{namecode:461}小姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1244,7 +1244,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "腓特烈大帝都说没问题了，我们还是不要客气比较好。",
+			say = "{namecode:440}都说没问题了，我们还是不要客气比较好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

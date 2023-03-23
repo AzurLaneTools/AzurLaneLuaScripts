@@ -9526,145 +9526,145 @@ pg.activity_ins_language = {
 		value = "只是空閒的時候隨便練練~避免手生而已~"
 	},
 	ins_284 = {
-		value = ""
+		value = "最危險的地方，往往就是最安全的地方！"
 	},
 	ins_discuss_284_1 = {
-		value = ""
+		value = "機密文件！？"
 	},
 	ins_reply_284_1_1 = {
-		value = ""
+		value = "哈哈~其實只是給指揮官看的一些戰術心得總結，不用擔心！"
 	},
 	ins_reply_284_1_2 = {
-		value = ""
+		value = "原來如此…"
 	},
 	ins_discuss_284_2 = {
-		value = ""
+		value = "基輔看到了…！"
 	},
 	ins_reply_284_2_1 = {
-		value = ""
+		value = "看到了？！"
 	},
 	ins_reply_284_2_2 = {
-		value = ""
+		value = "指揮官把文件夾帶走了…"
 	},
 	ins_reply_284_2_3 = {
-		value = ""
+		value = "竟然真的能順利送達啊？"
 	},
 	ins_reply_284_2_4 = {
-		value = ""
+		value = "哼哼，這就是我和指揮官的默契！"
 	},
 	ins_op_284_1_1 = {
-		value = ""
+		value = "文件已收到！"
 	},
 	op_reply_284_1_1 = {
-		value = ""
+		value = "很好！"
 	},
 	ins_op_284_1_2 = {
-		value = ""
+		value = "直接交給我不就好了…"
 	},
 	op_reply_284_1_2 = {
-		value = ""
+		value = "優秀的情報工作者，是不會拘泥於一種方法的！"
 	},
 	ins_285 = {
-		value = ""
+		value = "即興塗鴉…這樣就可以了吧？"
 	},
 	ins_discuss_285_1 = {
-		value = ""
+		value = "好可愛的畫~"
 	},
 	ins_reply_285_1_1 = {
-		value = ""
+		value = "即興塗鴉，就只能畫到這樣了 …"
 	},
 	ins_discuss_285_2 = {
-		value = ""
+		value = "塔什干也喜歡在天冷起霧的時候，在窗上隨便畫些什麼。"
 	},
 	ins_reply_285_2_1 = {
-		value = ""
+		value = "那，下次一起，可以嗎？"
 	},
 	ins_reply_285_2_2 = {
-		value = ""
+		value = "下次…來一起畫點更厲害的東西吧！"
 	},
 	ins_reply_285_2_3 = {
-		value = ""
+		value = "雖然不太確定什麼是更厲害的東西…不過，基輔很期待。"
 	},
 	ins_op_285_1_1 = {
-		value = ""
+		value = "大家都喜歡在窗戶上畫畫呢"
 	},
 	op_reply_285_1_1 = {
-		value = ""
+		value = "嗯…基輔也喜歡…！"
 	},
 	ins_286 = {
-		value = ""
+		value = "窩瓦特製，熱騰騰的羅宋湯來了哦~"
 	},
 	ins_discuss_286_1 = {
-		value = ""
+		value = "哇哇，看起來好好吃！"
 	},
 	ins_reply_286_1_1 = {
-		value = ""
+		value = "嘿嘿，還加入了許多營養豐富，強身健體的材料哦~"
 	},
 	ins_discuss_286_2 = {
-		value = ""
+		value = "呣呣…味道有點微妙……"
 	},
 	ins_reply_286_2_1 = {
-		value = ""
+		value = "唔…應該說口感非常豐富…嗎？"
 	},
 	ins_reply_286_2_2 = {
-		value = ""
+		value = "欸欸！？難道是多加的那些材料…"
 	},
 	ins_op_286_1_1 = {
-		value = ""
+		value = "非常感謝！"
 	},
 	op_reply_286_1_1 = {
-		value = ""
+		value = "嘿嘿~下次做還會給指揮官添一份~"
 	},
 	ins_287 = {
-		value = ""
+		value = "哼哼，準備接受本天才機械師的改造吧！"
 	},
 	ins_discuss_287_1 = {
-		value = ""
+		value = "是我的錯覺嗎，這孩子好像在瑟瑟發抖呢…"
 	},
 	ins_reply_287_1_1 = {
-		value = ""
+		value = "一定是興奮的顫抖！"
 	},
 	ins_discuss_287_2 = {
-		value = ""
+		value = "太粗暴可不行哦，靈敏？"
 	},
 	ins_reply_287_2_1 = {
-		value = ""
+		value = "嘿嘿，放心吧！我對機械一向是非常溫柔的~"
 	},
 	ins_discuss_287_3 = {
-		value = ""
+		value = "嗯哼，似乎在做很有趣的事情啊，下次請務必讓我觀摩一下。"
 	},
 	ins_reply_287_3_1 = {
-		value = ""
+		value = "沒問題！儘管來吧！"
 	},
 	ins_op_287_1_1 = {
-		value = ""
+		value = "幹勁滿滿的樣子呢"
 	},
 	op_reply_287_1_1 = {
-		value = ""
+		value = "嘿嘿，那是當然的！指揮官如果有什麼想翻修或者改造的設備，也儘管交給我就好！"
 	},
 	ins_288 = {
-		value = ""
+		value = "與冬天相伴的，不僅有伏特加，還有紅茶。"
 	},
 	ins_discuss_288_1 = {
-		value = ""
+		value = "冰天雪地之中享用紅茶…不錯啊，看起來很有氣勢！下次我們也開個這樣的茶會 ！"
 	},
 	ins_reply_288_1_1 = {
-		value = ""
+		value = "哎哎？！看著就讓人受不了啊…請務必不要帶上我！"
 	},
 	ins_reply_288_1_2 = {
-		value = ""
+		value = "紛紛白雪下的熱紅茶，其實意外的別有一番風味哦？"
 	},
 	ins_discuss_288_2 = {
-		value = ""
+		value = "這種時候喝紅茶怎麼過癮，當然得來瓶伏特加了！"
 	},
 	ins_reply_288_2_1 = {
-		value = ""
+		value = "偶爾也會有想這樣在寒冬喝杯熱茶的時候…吧。"
 	},
 	ins_op_288_1_1 = {
-		value = ""
+		value = "冬日裡的一杯熱茶，很棒呢。就是…有點冷……"
 	},
 	op_reply_288_1_1 = {
-		value = ""
+		value = "下次出來的時候記得多穿點衣服啊，指揮官。"
 	},
 	ins_289 = {
 		value = "偉大的龐培隊長，今天也在為艦隊的各項事務奔走忙碌著！"
@@ -9848,6 +9848,183 @@ pg.activity_ins_language = {
 	},
 	op_reply_294_1_2 = {
 		value = "嘿嘿，是吧是吧~下次指揮官也來拍一組嘛~"
+	},
+	ins_315 = {
+		value = ""
+	},
+	ins_discuss_315_1 = {
+		value = ""
+	},
+	ins_reply_315_1_1 = {
+		value = ""
+	},
+	ins_reply_315_1_2 = {
+		value = ""
+	},
+	ins_discuss_315_2 = {
+		value = ""
+	},
+	ins_reply_315_2_1 = {
+		value = ""
+	},
+	ins_discuss_315_3 = {
+		value = ""
+	},
+	ins_reply_315_3_1 = {
+		value = ""
+	},
+	ins_op_315_1_1 = {
+		value = ""
+	},
+	op_reply_315_1_1 = {
+		value = ""
+	},
+	ins_316 = {
+		value = ""
+	},
+	ins_discuss_316_1 = {
+		value = ""
+	},
+	ins_reply_316_1_1 = {
+		value = ""
+	},
+	ins_discuss_316_2 = {
+		value = ""
+	},
+	ins_reply_316_2_1 = {
+		value = ""
+	},
+	ins_discuss_316_3 = {
+		value = ""
+	},
+	ins_reply_316_3_1 = {
+		value = ""
+	},
+	ins_reply_316_3_2 = {
+		value = ""
+	},
+	ins_op_316_1_1 = {
+		value = ""
+	},
+	op_reply_316_1_1 = {
+		value = ""
+	},
+	ins_317 = {
+		value = ""
+	},
+	ins_discuss_317_1 = {
+		value = ""
+	},
+	ins_reply_317_1_1 = {
+		value = ""
+	},
+	ins_reply_317_1_2 = {
+		value = ""
+	},
+	ins_discuss_317_2 = {
+		value = ""
+	},
+	ins_reply_317_2_1 = {
+		value = ""
+	},
+	ins_reply_317_2_2 = {
+		value = ""
+	},
+	ins_reply_317_2_3 = {
+		value = ""
+	},
+	ins_op_317_1_1 = {
+		value = ""
+	},
+	op_reply_317_1_1 = {
+		value = ""
+	},
+	ins_318 = {
+		value = ""
+	},
+	ins_discuss_318_1 = {
+		value = ""
+	},
+	ins_reply_318_1_1 = {
+		value = ""
+	},
+	ins_discuss_318_2 = {
+		value = ""
+	},
+	ins_reply_318_2_1 = {
+		value = ""
+	},
+	ins_discuss_318_3 = {
+		value = ""
+	},
+	ins_reply_318_3_1 = {
+		value = ""
+	},
+	ins_reply_318_3_2 = {
+		value = ""
+	},
+	ins_op_318_1_1 = {
+		value = ""
+	},
+	op_reply_318_1_1 = {
+		value = ""
+	},
+	ins_319 = {
+		value = ""
+	},
+	ins_discuss_319_1 = {
+		value = ""
+	},
+	ins_reply_319_1_1 = {
+		value = ""
+	},
+	ins_discuss_319_2 = {
+		value = ""
+	},
+	ins_reply_319_2_1 = {
+		value = ""
+	},
+	ins_reply_319_2_2 = {
+		value = ""
+	},
+	ins_op_319_1_1 = {
+		value = ""
+	},
+	op_reply_319_1_1 = {
+		value = ""
+	},
+	ins_op_319_1_2 = {
+		value = ""
+	},
+	op_reply_319_1_2 = {
+		value = ""
+	},
+	ins_320 = {
+		value = ""
+	},
+	ins_discuss_320_1 = {
+		value = ""
+	},
+	ins_reply_320_1_1 = {
+		value = ""
+	},
+	ins_discuss_320_2 = {
+		value = ""
+	},
+	ins_reply_320_2_1 = {
+		value = ""
+	},
+	ins_discuss_320_3 = {
+		value = ""
+	},
+	ins_reply_320_3_1 = {
+		value = ""
+	},
+	ins_op_320_1_1 = {
+		value = ""
+	},
+	op_reply_320_1_1 = {
+		value = ""
 	},
 	ins_342 = {
 		value = "嗯哼，要放點什麼材料好呢~"
@@ -13271,6 +13448,65 @@ pg.activity_ins_language = {
 		op_reply_294_1_1,
 		ins_op_294_1_2,
 		op_reply_294_1_2,
+		ins_315,
+		ins_discuss_315_1,
+		ins_reply_315_1_1,
+		ins_reply_315_1_2,
+		ins_discuss_315_2,
+		ins_reply_315_2_1,
+		ins_discuss_315_3,
+		ins_reply_315_3_1,
+		ins_op_315_1_1,
+		op_reply_315_1_1,
+		ins_316,
+		ins_discuss_316_1,
+		ins_reply_316_1_1,
+		ins_discuss_316_2,
+		ins_reply_316_2_1,
+		ins_discuss_316_3,
+		ins_reply_316_3_1,
+		ins_reply_316_3_2,
+		ins_op_316_1_1,
+		op_reply_316_1_1,
+		ins_317,
+		ins_discuss_317_1,
+		ins_reply_317_1_1,
+		ins_reply_317_1_2,
+		ins_discuss_317_2,
+		ins_reply_317_2_1,
+		ins_reply_317_2_2,
+		ins_reply_317_2_3,
+		ins_op_317_1_1,
+		op_reply_317_1_1,
+		ins_318,
+		ins_discuss_318_1,
+		ins_reply_318_1_1,
+		ins_discuss_318_2,
+		ins_reply_318_2_1,
+		ins_discuss_318_3,
+		ins_reply_318_3_1,
+		ins_reply_318_3_2,
+		ins_op_318_1_1,
+		op_reply_318_1_1,
+		ins_319,
+		ins_discuss_319_1,
+		ins_reply_319_1_1,
+		ins_discuss_319_2,
+		ins_reply_319_2_1,
+		ins_reply_319_2_2,
+		ins_op_319_1_1,
+		op_reply_319_1_1,
+		ins_op_319_1_2,
+		op_reply_319_1_2,
+		ins_320,
+		ins_discuss_320_1,
+		ins_reply_320_1_1,
+		ins_discuss_320_2,
+		ins_reply_320_2_1,
+		ins_discuss_320_3,
+		ins_reply_320_3_1,
+		ins_op_320_1_1,
+		op_reply_320_1_1,
 		ins_342,
 		ins_discuss_342_1,
 		ins_reply_342_1_1,

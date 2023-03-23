@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这不是欧根亲王么，什么风把你吹过来了？",
+			say = "这不是{namecode:427}么，什么风把你吹过来了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "奥丁————！",
+			say = "{namecode:486}————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

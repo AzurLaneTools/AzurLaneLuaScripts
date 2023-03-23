@@ -353,6 +353,12 @@ end
 function slot0.showRewardInfo(slot0)
 	slot0._stateFlag = uv0.STATE_REWARD
 
+	if slot0.contextData.system == SYSTEM_BOSS_RUSH or slot0.contextData.system == SYSTEM_BOSS_RUSH_EX then
+		slot0:emit(BattleResultMediator.ON_BACK_TO_LEVEL_SCENE)
+
+		return
+	end
+
 	SetActive(slot0:findTF("jieuan01/tips", slot0._bg), false)
 	setParent(slot0._tf, slot0.UIMain)
 
@@ -950,8 +956,6 @@ function slot0.showRightBottomPanel(slot0)
 		if uv0.failTag == true then
 			uv0:emit(BattleResultMediator.PRE_BATTLE_FAIL_EXIT)
 			uv0:emit(BattleResultMediator.OPEN_FAIL_TIP_LAYER)
-		elseif uv0.contextData.system == SYSTEM_DUEL then
-			uv0:emit(BattleResultMediator.ON_BACK_TO_DUEL_SCENE)
 		else
 			uv0:emit(BattleResultMediator.ON_BACK_TO_LEVEL_SCENE)
 		end

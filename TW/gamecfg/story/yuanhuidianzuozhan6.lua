@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			say = "伴随着一声巨响，拥有着庞大又怪异舰装的齐柏林伯爵最终倒在了海面上。",
+			say = "伴随着一声巨响，拥有着庞大又怪异舰装的{namecode:437}最终倒在了海面上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "敌方舰队旗舰，齐柏林伯爵击破！",
+			say = "敌方舰队旗舰，{namecode:437}击破！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "唔……其中有一个没见过的名字，系统识别名为布伦希尔德，战列巡洋舰，你有听说过么？",
+			say = "唔……其中有一个没见过的名字，系统识别名为{namecode:462}，战列巡洋舰，你有听说过么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "布伦希尔德……？我没听说过，但是名字听起来好酷！",
+			say = "{namecode:462}……？我没听说过，但是名字听起来好酷！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

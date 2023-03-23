@@ -6872,6 +6872,38 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[557] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 2,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 164,
+		code = 557,
+		group_type = 20232,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：來自鳶尾的天使",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[104] = {
 		type = 2,
 		redirect_id = 101,
@@ -18170,7 +18202,7 @@ pg.ship_data_group = {
 		nationality = 7,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 487,
+		index_id = 488,
 		code = 436,
 		group_type = 70203,
 		trans_type = 0,
@@ -18202,7 +18234,7 @@ pg.ship_data_group = {
 		nationality = 7,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 489,
+		index_id = 490,
 		code = 496,
 		group_type = 70301,
 		trans_type = 0,
@@ -18234,7 +18266,7 @@ pg.ship_data_group = {
 		nationality = 7,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 490,
+		index_id = 492,
 		code = 437,
 		group_type = 70501,
 		trans_type = 0,
@@ -18266,7 +18298,7 @@ pg.ship_data_group = {
 		nationality = 7,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 491,
+		index_id = 493,
 		code = 440,
 		group_type = 70504,
 		trans_type = 0,
@@ -18298,7 +18330,7 @@ pg.ship_data_group = {
 		nationality = 7,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 492,
+		index_id = 494,
 		code = 441,
 		group_type = 70505,
 		trans_type = 0,
@@ -18330,7 +18362,7 @@ pg.ship_data_group = {
 		nationality = 7,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 493,
+		index_id = 495,
 		code = 536,
 		group_type = 70506,
 		trans_type = 0,
@@ -18362,7 +18394,7 @@ pg.ship_data_group = {
 		nationality = 7,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 494,
+		index_id = 497,
 		code = 538,
 		group_type = 70701,
 		trans_type = 0,
@@ -18394,7 +18426,7 @@ pg.ship_data_group = {
 		nationality = 7,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 495,
+		index_id = 498,
 		code = 539,
 		group_type = 71801,
 		trans_type = 0,
@@ -18426,7 +18458,7 @@ pg.ship_data_group = {
 		nationality = 8,
 		trans_skin = 801029,
 		handbook_type = 0,
-		index_id = 496,
+		index_id = 499,
 		code = 348,
 		group_type = 80102,
 		trans_type = 1,
@@ -18478,7 +18510,7 @@ pg.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 497,
+		index_id = 500,
 		code = 359,
 		group_type = 80103,
 		trans_type = 0,
@@ -18514,7 +18546,7 @@ pg.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 498,
+		index_id = 501,
 		code = 395,
 		group_type = 80104,
 		trans_type = 0,
@@ -18557,7 +18589,7 @@ pg.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 499,
+		index_id = 502,
 		code = 347,
 		group_type = 80101,
 		trans_type = 0,
@@ -18600,7 +18632,7 @@ pg.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 500,
+		index_id = 503,
 		code = 522,
 		group_type = 80107,
 		trans_type = 0,
@@ -18632,7 +18664,7 @@ pg.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 501,
+		index_id = 504,
 		code = 523,
 		group_type = 80108,
 		trans_type = 0,
@@ -18664,7 +18696,7 @@ pg.ship_data_group = {
 		nationality = 8,
 		trans_skin = 802019,
 		handbook_type = 0,
-		index_id = 502,
+		index_id = 505,
 		code = 349,
 		group_type = 80201,
 		trans_type = 2,
@@ -18705,7 +18737,7 @@ pg.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 503,
+		index_id = 506,
 		code = 454,
 		group_type = 80202,
 		trans_type = 0,
@@ -18737,7 +18769,7 @@ pg.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 504,
+		index_id = 507,
 		code = 453,
 		group_type = 80501,
 		trans_type = 0,
@@ -18769,7 +18801,7 @@ pg.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 505,
+		index_id = 508,
 		code = 458,
 		group_type = 80701,
 		trans_type = 0,
@@ -18801,7 +18833,7 @@ pg.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 506,
+		index_id = 509,
 		code = 350,
 		group_type = 80801,
 		trans_type = 0,
@@ -18844,7 +18876,7 @@ pg.ship_data_group = {
 		nationality = 9,
 		trans_skin = 901019,
 		handbook_type = 0,
-		index_id = 507,
+		index_id = 510,
 		code = 351,
 		group_type = 90101,
 		trans_type = 1,
@@ -18896,7 +18928,7 @@ pg.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 508,
+		index_id = 511,
 		code = 452,
 		group_type = 90102,
 		trans_type = 0,
@@ -18928,7 +18960,7 @@ pg.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 509,
+		index_id = 512,
 		code = 457,
 		group_type = 90103,
 		trans_type = 0,
@@ -18960,7 +18992,7 @@ pg.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 510,
+		index_id = 513,
 		code = 394,
 		group_type = 90111,
 		trans_type = 0,
@@ -18998,6 +19030,38 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[556] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 9,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 514,
+		code = 556,
+		group_type = 90113,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：來自鳶尾的天使",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[481] = {
 		type = 1,
 		redirect_id = 101,
@@ -19005,7 +19069,7 @@ pg.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 512,
+		index_id = 515,
 		code = 481,
 		group_type = 90112,
 		trans_type = 0,
@@ -19039,7 +19103,7 @@ pg.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 513,
+		index_id = 516,
 		code = 456,
 		group_type = 90201,
 		trans_type = 0,
@@ -19071,7 +19135,7 @@ pg.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 514,
+		index_id = 517,
 		code = 524,
 		group_type = 90301,
 		trans_type = 0,
@@ -19103,7 +19167,7 @@ pg.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 515,
+		index_id = 518,
 		code = 455,
 		group_type = 90302,
 		trans_type = 0,
@@ -19135,7 +19199,7 @@ pg.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 516,
+		index_id = 519,
 		code = 352,
 		group_type = 90401,
 		trans_type = 0,
@@ -19178,7 +19242,7 @@ pg.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 517,
+		index_id = 520,
 		code = 353,
 		group_type = 90501,
 		trans_type = 0,
@@ -19221,7 +19285,7 @@ pg.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 518,
+		index_id = 521,
 		code = 418,
 		group_type = 90503,
 		trans_type = 0,
@@ -19259,6 +19323,38 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[555] = {
+		type = 7,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 9,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 522,
+		code = 555,
+		group_type = 90701,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：來自鳶尾的天使",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[571] = {
 		type = 22,
 		redirect_id = 101,
@@ -19266,7 +19362,7 @@ pg.ship_data_group = {
 		nationality = 96,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 520,
+		index_id = 523,
 		code = 571,
 		group_type = 960001,
 		trans_type = 0,
@@ -21307,7 +21403,7 @@ pg.ship_data_group = {
 				{
 					"METACHARACTER",
 					{
-						autoOpenShipConfigID = 9702020
+						autoOpenShipConfigID = 9702021
 					}
 				},
 				0
@@ -21342,7 +21438,7 @@ pg.ship_data_group = {
 				{
 					"METACHARACTER",
 					{
-						autoOpenShipConfigID = 9703010
+						autoOpenShipConfigID = 9703011
 					}
 				},
 				0
@@ -21377,7 +21473,42 @@ pg.ship_data_group = {
 				{
 					"METACHARACTER",
 					{
-						autoOpenShipConfigID = 9701010
+						autoOpenShipConfigID = 9701011
+					}
+				},
+				0
+			}
+		}
+	},
+	[30016] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30016,
+		code = 30016,
+		group_type = 970102,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：世界巡遊",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701021
 					}
 				},
 				0
@@ -21843,6 +21974,9 @@ pg.ship_data_group = {
 		},
 		[20222] = {
 			373
+		},
+		[20232] = {
+			557
 		},
 		[20201] = {
 			104
@@ -22774,6 +22908,9 @@ pg.ship_data_group = {
 		[90111] = {
 			394
 		},
+		[90113] = {
+			556
+		},
 		[90112] = {
 			481
 		},
@@ -22794,6 +22931,9 @@ pg.ship_data_group = {
 		},
 		[90503] = {
 			418
+		},
+		[90701] = {
+			555
 		},
 		[960001] = {
 			571
@@ -22983,6 +23123,9 @@ pg.ship_data_group = {
 		},
 		[970101] = {
 			30015
+		},
+		[970102] = {
+			30016
 		}
 	},
 	all = {
@@ -23139,6 +23282,7 @@ pg.ship_data_group = {
 		460,
 		372,
 		373,
+		557,
 		104,
 		105,
 		106,
@@ -23449,6 +23593,7 @@ pg.ship_data_group = {
 		452,
 		457,
 		394,
+		556,
 		481,
 		456,
 		524,
@@ -23456,6 +23601,7 @@ pg.ship_data_group = {
 		352,
 		353,
 		418,
+		555,
 		571,
 		10061,
 		10062,
@@ -23518,6 +23664,7 @@ pg.ship_data_group = {
 		30010,
 		30011,
 		30013,
-		30015
+		30015,
+		30016
 	}
 }

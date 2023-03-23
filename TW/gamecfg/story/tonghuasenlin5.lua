@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"童话森林奇遇记\n\n<size=45>五　慵懒的小红帽</size>",
+					"童話森林奇遇記\n\n<size=45>五　慵懶的小紅帽</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "继续沿道路前进，身边树木逐渐稀疏。终于，几座房子出现在了眼前。",
+			say = "繼續沿道路前進，身邊樹木逐漸稀疏。終於，幾座房子出現在了眼前。",
 			side = 2,
 			bgName = "star_level_bg_158",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "一个小村落……怀表兔的家会不会也在这里呢。",
+			say = "一個小村落……懷錶兔的家會不會也在這裡呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "选择了距离道路最近的一间红顶小房子。",
+			say = "選擇了距離道路最近的一間紅頂小房子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			},
 			options = {
 				{
-					content = "推门而入——",
+					content = "推門而入——",
 					flag = 1
 				}
 			}
@@ -90,7 +90,7 @@ return {
 			actor = 901131,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欢迎来到小红帽的房间，你是来吃我的大灰狼么？",
+			say = "歡迎來到小紅帽的房間，你是來吃我的大灰狼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "原来这里不是怀表兔的家。",
+			say = "原來這裡不是懷錶兔的家。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "不过，躺在床上等大灰狼来吃的小红帽也有些……",
+			say = "不過，躺在床上等大灰狼來吃的小紅帽也有些……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			},
 			options = {
 				{
-					content = "你不逃跑么？",
+					content = "妳不逃跑嗎？",
 					flag = 1
 				}
 			}
@@ -141,7 +141,7 @@ return {
 			actor = 901131,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我不会逃跑，因为我是慵懒的小红帽。",
+			say = "我不會逃跑，因為我是慵懶的小紅帽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 901131,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "懒到只想躺在床上睡觉。",
+			say = "懶到只想躺在床上睡覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大灰狼肯定会来的。",
+			say = "大灰狼肯定會來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 901131,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果没来我家，估计是先去别人家了。",
+			say = "如果沒來我家，估計是先去別人家了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 901131,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过你没有大灰狼那么大的嘴巴，应该吃不掉我吧。",
+			say = "不過你沒有大灰狼那麼大的嘴巴，應該吃不掉我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然你不是大灰狼，那我就要继续睡觉了。",
+			say = "既然你不是大灰狼，那我就要繼續睡覺了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 901131,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "走的时候顺便帮我把门关上吧，非常感谢。",
+			say = "走的時候順便幫我把門關上吧，非常感謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊对了，作为帮我关门的回礼，你可以把旁边的红色斗篷拿走哦。",
+			say = "啊對了，作為幫我關門的回禮，你可以把旁邊的紅色斗篷拿走哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "拿着红色斗篷若有所思的离开了小红帽的家。",
+			say = "拿著紅色斗篷若有所思的離開了小紅帽的家。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "附近还有一座看起来能进入的房子，那里应该就是怀表兔的家了。",
+			say = "附近還有一座看起來能進入的房子，那裡應該就是懷錶兔的家了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			bgName = "star_level_bg_158",
 			dir = 1,
 			blackBg = true,
-			say = "也许大灰狼也在里面，看来要提高警惕才行——",
+			say = "也許大灰狼也在裡面，看來要提高警惕才行——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

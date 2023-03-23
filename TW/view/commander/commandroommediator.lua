@@ -248,6 +248,20 @@ function slot0.markFleet(slot0)
 				end
 			end
 		end
+	elseif CommandRoomScene.FLEET_TYPE_BOSSRUSH == slot0.contextData.fleetType then
+		slot4 = slot0.contextData.fleets
+
+		assert(slot4)
+
+		for slot8, slot9 in pairs(slot4) do
+			slot10 = slot8 == #slot4
+
+			for slot14, slot15 in pairs(slot9:getCommanders()) do
+				slot2[slot15.id].sub = slot10
+				slot2[slot15.id].fleetId = slot9.id
+				slot2[slot15.id].inFleet = true
+			end
+		end
 	end
 
 	if getProxy(ChapterProxy):getActiveChapter() then

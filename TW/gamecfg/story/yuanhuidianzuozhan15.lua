@@ -163,7 +163,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "这个声音是…………欧根亲王？！",
+			say = "这个声音是…………{namecode:427}？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没错~好久不见啊，Z16，还有布吕歇尔。",
+			say = "没错~好久不见啊，{namecode:442}，还有{namecode:450}。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "历时悠久的测试真是辛苦你了。以及，你跟我是初次见面吧，布伦希尔德。",
+			say = "历时悠久的测试真是辛苦你了。以及，你跟我是初次见面吧，{namecode:462}。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "初次见面，欧根亲王阁下，以及腓特烈大帝阁下，好久不见。",
+			say = "初次见面，{namecode:427}阁下，以及{namecode:440}阁下，好久不见。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "原来这位很帅的大姐姐名字叫腓特烈大帝……就是你以前说的不能透露名字的人么？",
+			say = "原来这位很帅的大姐姐名字叫{namecode:440}……就是你以前说的不能透露名字的人么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没错。我是腓特烈大帝。铁血海军战列舰，腓特烈大帝。",
+			say = "没错。我是{namecode:440}。铁血海军战列舰，{namecode:440}。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "布吕歇尔，以及Z16，测试实验辛苦了。你们的成果对于铁血很有帮助。",
+			say = "{namecode:450}，以及{namecode:442}，测试实验辛苦了。你们的成果对于铁血很有帮助。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "腓特烈大帝！你的舰装好帅啊！（两眼放光）",
+			say = "{namecode:440}！你的舰装好帅啊！（两眼放光）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "还有布伦希尔德，有关你之前提到的“归队”——我们的舰队已经解散重组了哦。",
+			say = "还有{namecode:462}，有关你之前提到的“归队”——我们的舰队已经解散重组了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "欧根欧根，俾斯麦大人她这次怎么没来呀？我还有问题想问她呢！",
+			say = "{namecode:428}{namecode:428}，{namecode:435}大人她这次怎么没来呀？我还有问题想问她呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "俾斯麦她……你有什么问题要问？",
+			say = "{namecode:435}她……你有什么问题要问？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "明明所有棋子的数据更新都是正常的，只有我这边最强的俾斯麦大人的棋子从某一天开始就完全不更新了！",
+			say = "明明所有棋子的数据更新都是正常的，只有我这边最强的{namecode:435}大人的棋子从某一天开始就完全不更新了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "原本我跟Z16还是有胜算的……结果因为这件事被对面欺负得好惨，到最后就连战列舰实力都比不过对面了！",
+			say = "原本我跟{namecode:442}还是有胜算的……结果因为这件事被对面欺负得好惨，到最后就连战列舰实力都比不过对面了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欧根亲王，我们该回去了。",
+			say = "{namecode:427}，我们该回去了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "在这里呆了这么久，除了Z16和布伦希尔德就没有能聊天的人，我都快闷死了！",
+			say = "在这里呆了这么久，除了{namecode:442}和{namecode:462}就没有能聊天的人，我都快闷死了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			blackBg = true,
-			say = "在布吕歇尔与欧根亲王有一搭没一搭的闲聊中，一行人的背影逐渐远去，最终从镜面海域中消失了。",
+			say = "在{namecode:450}与{namecode:427}有一搭没一搭的闲聊中，一行人的背影逐渐远去，最终从镜面海域中消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

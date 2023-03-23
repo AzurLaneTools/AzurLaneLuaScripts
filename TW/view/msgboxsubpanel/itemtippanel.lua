@@ -50,19 +50,19 @@ function slot0.ShowGoldBuyTip(slot0)
 	})
 end
 
-function slot0.ShowOilBuyTip(slot0)
+function slot0.ShowOilBuyTip(slot0, slot1)
 	if not ShoppingStreet.getRiseShopId(ShopArgs.BuyOil, getProxy(PlayerProxy):getRawData().buyOilCount) then
 		return
 	end
 
-	slot3 = pg.shop_template[slot2]
-	slot4 = slot3.num
+	slot4 = pg.shop_template[slot3]
+	slot5 = slot4.num
 
-	if slot3.num == -1 and slot3.genre == ShopArgs.BuyOil then
-		slot4 = ShopArgs.getOilByLevel(slot1.level)
+	if slot4.num == -1 and slot4.genre == ShopArgs.BuyOil then
+		slot5 = ShopArgs.getOilByLevel(slot2.level)
 	end
 
-	if pg.gameset.buy_oil_limit.key_value <= slot1.buyOilCount then
+	if pg.gameset.buy_oil_limit.key_value <= slot2.buyOilCount then
 		return
 	end
 
@@ -72,11 +72,11 @@ function slot0.ShowOilBuyTip(slot0)
 		windowSize = {
 			y = 570
 		},
-		content = i18n("oil_buy_tip_2", slot3.resource_num, slot4, slot1.buyOilCount, slot0 - slot1[id2res(2)]),
+		content = i18n(slot1 or "oil_buy_tip_2", slot4.resource_num, slot5, slot2.buyOilCount, slot0 - slot2[id2res(2)]),
 		drop = {
 			id = 2,
 			type = DROP_TYPE_RESOURCE,
-			count = slot4
+			count = slot5
 		},
 		onYes = function ()
 			pg.m02:sendNotification(GAME.SHOPPING, {

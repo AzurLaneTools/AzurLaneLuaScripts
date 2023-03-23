@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "好的，确认收到~Z23辛苦了！",
+			say = "好的，确认收到~{namecode:408}辛苦了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "嗯~以后也拜托了，Z23真的可靠呢~",
+			say = "嗯~以后也拜托了，{namecode:408}真的可靠呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Z23工作也加油哦~",
+			say = "{namecode:408}工作也加油哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1

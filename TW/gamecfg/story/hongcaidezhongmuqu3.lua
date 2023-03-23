@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "走吧，进入斯卡帕湾，相信腓特烈大帝会给我们的疑问一个答案的。",
+			say = "走吧，进入斯卡帕湾，相信{namecode:440}会给我们的疑问一个答案的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499050,
-			say = "各位应该就是应邀而来的重樱舰队吧，埃吉尔向各位问好。",
+			say = "各位应该就是应邀而来的重樱舰队吧，{namecode:480}向各位问好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499060,
-			say = "奥古斯特·冯·帕塞瓦尔向各位问好。",
+			say = "{namecode:481}向各位问好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "埃吉尔和奥古斯特……你们都是铁血计划舰队中的一员？",
+			say = "{namecode:480}和{namecode:482}……你们都是铁血计划舰队中的一员？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "奥古斯特与埃吉尔微微颔首，各自后退半步让出一条通路。",
+			say = "{namecode:482}与{namecode:480}微微颔首，各自后退半步让出一条通路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			actor = 499060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "各位这边请，腓特烈大帝已经恭候多时了。",
+			say = "各位这边请，{namecode:440}已经恭候多时了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

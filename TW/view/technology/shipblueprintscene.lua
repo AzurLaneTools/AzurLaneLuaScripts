@@ -1890,7 +1890,7 @@ function slot0.createTask(slot0, slot1)
 	function slot2.updateItemInfo(slot0, slot1)
 		slot0.taskVO = slot1
 
-		changeToScrollText(slot0.title, slot1:getConfig("name"))
+		changeToScrollText(slot0.title, HXSet.hxLan(slot1:getConfig("name")))
 		setText(slot0.desc, slot1:getConfig("desc") .. "\n\n")
 
 		slot2 = nil

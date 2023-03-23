@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			say = "不过，所有人都没有丝毫懈怠。布吕歇尔与Z16集中手头所有力量，进行了一场竭尽全力的正面较量。",
+			say = "不过，所有人都没有丝毫懈怠。{namecode:450}与{namecode:442}集中手头所有力量，进行了一场竭尽全力的正面较量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "……布伦希尔德，在回去之前还有点时间，要不要来一场解除测试规则限制的较量？",
+			say = "……{namecode:462}，在回去之前还有点时间，要不要来一场解除测试规则限制的较量？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

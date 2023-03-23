@@ -992,7 +992,7 @@ pg.player_resource = {
 	},
 	[304] = {
 		id = 304,
-		name = "yidaliV2_pt2",
+		name = "yidaliV2",
 		itemid = 59398
 	},
 	[305] = {
@@ -1004,6 +1004,21 @@ pg.player_resource = {
 		id = 306,
 		name = "xiaotiancheng_pt2",
 		itemid = 59401
+	},
+	[307] = {
+		id = 307,
+		name = "commission_pt2",
+		itemid = 59402
+	},
+	[308] = {
+		id = 308,
+		name = "jidifengbao_pt",
+		itemid = 59405
+	},
+	[309] = {
+		id = 309,
+		name = "skinTicket47",
+		itemid = 59406
 	},
 	[950] = {
 		id = 950,
@@ -1239,6 +1254,11 @@ pg.player_resource = {
 		id = 4009,
 		name = "Battlepass_9",
 		itemid = 59298
+	},
+	[4010] = {
+		id = 4010,
+		name = "Battlepass_10",
+		itemid = 59403
 	},
 	[4186] = {
 		id = 4186,
@@ -1950,7 +1970,7 @@ pg.player_resource = {
 		skinTicket45 = {
 			303
 		},
-		yidaliV2_pt2 = {
+		yidaliV2 = {
 			304
 		},
 		skinTicket46 = {
@@ -1958,6 +1978,15 @@ pg.player_resource = {
 		},
 		xiaotiancheng_pt2 = {
 			306
+		},
+		commission_pt2 = {
+			307
+		},
+		jidifengbao_pt = {
+			308
+		},
+		skinTicket47 = {
+			309
 		},
 		yisegefuke_pt1 = {
 			950
@@ -2099,6 +2128,9 @@ pg.player_resource = {
 		},
 		Battlepass_9 = {
 			4009
+		},
+		Battlepass_10 = {
+			4010
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -2372,6 +2404,9 @@ pg.player_resource = {
 		304,
 		305,
 		306,
+		307,
+		308,
+		309,
 		950,
 		951,
 		952,
@@ -2419,6 +2454,7 @@ pg.player_resource = {
 		4007,
 		4008,
 		4009,
+		4010,
 		4186,
 		4276,
 		4599,

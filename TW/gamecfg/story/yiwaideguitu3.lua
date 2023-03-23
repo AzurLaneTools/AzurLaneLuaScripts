@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "使用了元魔方的阿尔及利亚很简单就完成了净化，就连陷入那种状态的俾斯麦都已经好转了。",
+			say = "使用了元魔方的阿尔及利亚很简单就完成了净化，就连陷入那种状态的{namecode:435}都已经好转了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "治疗俾斯麦的方案对于胡德无法完全复用是当时我们所有人都没有料到的意外情况。",
+			say = "治疗{namecode:435}的方案对于胡德无法完全复用是当时我们所有人都没有料到的意外情况。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

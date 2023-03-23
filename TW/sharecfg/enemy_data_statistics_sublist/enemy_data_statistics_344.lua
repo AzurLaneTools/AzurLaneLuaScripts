@@ -275,7 +275,8 @@ pg.enemy_data_statistics_344 = {
 			"appearsmall"
 		},
 		equipment_list = {
-			1000866
+			1000869,
+			1000924
 		},
 		buff_list = {}
 	},

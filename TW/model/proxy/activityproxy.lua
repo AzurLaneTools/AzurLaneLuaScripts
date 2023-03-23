@@ -45,6 +45,10 @@ function slot0.register(slot0)
 				end
 
 				uv0.data[slot5.id] = slot6
+
+				if slot7 == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+					uv0:updateActivityFleet(slot5)
+				end
 			end
 		end
 
@@ -107,6 +111,36 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
 			activity = slot1
 		})
+	end)
+	slot0:on(40009, function (slot0)
+		slot2 = nil
+
+		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) then
+			slot2 = slot1:GetSeriesData()
+		end
+
+		slot3 = BossRushSettlementCommand.ConcludeEXP(slot0, slot1, slot2 and slot2:GetBattleStatistics())
+
+		(function ()
+			if not uv0 then
+				return
+			end
+
+			uv0:SetSettlementData(uv1)
+			uv2:updateActivity(uv0)
+		end)()
+	end)
+	slot0:on(24100, function (slot0)
+		if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) then
+			return
+		end
+
+		if not slot1:GetSeriesData() then
+			return
+		end
+
+		slot2:AddEXScore(slot0)
+		uv0:updateActivity(slot1)
 	end)
 
 	slot0.requestTime = {}
@@ -747,6 +781,35 @@ function slot0.getShipModExpActivity(slot0)
 	end
 
 	return slot0.shipModeExpbuffs
+end
+
+function slot0.InitContinuousTime(slot0, slot1)
+	slot0.continuousOpeartionTime = slot1
+	slot0.continuousOpeartionTotalTime = slot1
+end
+
+function slot0.UseContinuousTime(slot0)
+	if not slot0.continuousOpeartionTime then
+		return
+	end
+
+	slot0.continuousOpeartionTime = slot0.continuousOpeartionTime - 1
+end
+
+function slot0.GetContinuousTime(slot0)
+	return slot0.continuousOpeartionTime, slot0.continuousOpeartionTotalTime
+end
+
+function slot0.AddBossRushAwards(slot0, slot1)
+	slot0.bossrushAwards = slot0.bossrushAwards or {}
+
+	table.insertto(slot0.bossrushAwards, slot1)
+end
+
+function slot0.PopBossRushAwards(slot0)
+	slot0.bossrushAwards = nil
+
+	return slot0.bossrushAwards or {}
 end
 
 return slot0

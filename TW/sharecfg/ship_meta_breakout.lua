@@ -64,7 +64,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701021] = {
-		breakout_view = "习得技能【逐光之焰·命运女神】/主炮效率提高5%",
+		breakout_view = "習得技能【逐光之焰·命運女神】/主炮效率提高5%",
 		gold = 500,
 		breakout_id = 9701022,
 		repair = 0,
@@ -80,7 +80,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9701022] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提高10%",
 		gold = 1500,
 		breakout_id = 9701023,
 		repair = 0,
@@ -97,7 +97,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9701023] = {
-		breakout_view = "【逐光之焰·命运女神】弹幕升级/全武器效率提高5%",
+		breakout_view = "【逐光之焰·命運女神】彈幕升級/全武器效率提高5%",
 		gold = 2500,
 		breakout_id = 9701024,
 		repair = 0,
@@ -113,7 +113,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9701024] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -313,6 +313,69 @@ pg.ship_meta_breakout = {
 		id = 9702034,
 		item1 = 21018,
 		pre_id = 9702033,
+		weapon_ids = {}
+	},
+	[9702041] = {
+		breakout_view = "习得技能【逐光之焰·拉·加利索尼埃】/主炮效率提高5%",
+		gold = 500,
+		breakout_id = 9702042,
+		repair = 0,
+		item2 = 21020,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9702041,
+		item1 = 21020,
+		pre_id = 0,
+		weapon_ids = {
+			170041
+		}
+	},
+	[9702042] = {
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		gold = 1500,
+		breakout_id = 9702043,
+		repair = 0,
+		item2 = 21020,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9702042,
+		item1 = 21020,
+		pre_id = 9702041,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9702043] = {
+		breakout_view = "【逐光之焰·拉·加利索尼埃】升级/主炮效率提高10%",
+		gold = 2500,
+		breakout_id = 9702044,
+		repair = 0,
+		item2 = 21020,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9702043,
+		item1 = 21020,
+		pre_id = 9702042,
+		weapon_ids = {
+			170042
+		}
+	},
+	[9702044] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21020,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9702044,
+		item1 = 21020,
+		pre_id = 9702043,
 		weapon_ids = {}
 	},
 	[9703011] = {
@@ -1275,6 +1338,10 @@ pg.ship_meta_breakout = {
 		9702032,
 		9702033,
 		9702034,
+		9702041,
+		9702042,
+		9702043,
+		9702044,
 		9703011,
 		9703012,
 		9703013,

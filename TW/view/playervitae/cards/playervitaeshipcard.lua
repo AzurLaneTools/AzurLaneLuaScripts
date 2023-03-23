@@ -22,6 +22,13 @@ function slot0.OnInit(slot0)
 	slot0.tipTime = 0
 	slot0.nativeTr = slot0._tf:Find("mask_2")
 	slot1 = slot0.editTr:Find("tpl")
+
+	eachChild(slot0.editTr, function (slot0)
+		if string.find(slot0.gameObject.name, "tpl") and slot0 ~= uv0 then
+			Object.Destroy(slot0.gameObject)
+		end
+	end)
+
 	slot0.btns = {
 		PlayerVitaeSpineBtn.New(slot1, PlayerVitaeBaseBtn.VEC_TYPE),
 		PlayerVitaeBGBtn.New(slot1, PlayerVitaeBaseBtn.VEC_TYPE),
@@ -185,14 +192,14 @@ end
 function slot0.UpdateFrame(slot0, slot1, slot2)
 	slot3 = nil
 
-	setRectShipCardFrame(slot0.frame, slot1, slot2.propose and "prop" .. (slot2:isBluePrintShip() and slot1 or slot2:isMetaShip() and "14" or "") or nil)
+	setRectShipCardFrame(slot0.frame, slot1, slot2:ShowPropose() and "prop" .. (slot2:isBluePrintShip() and slot1 or slot2:isMetaShip() and "14" or "") or nil)
 end
 
 function slot0.UpdateEffect(slot0, slot1, slot2)
 	slot3 = nil
 	slot4 = false
 
-	if slot2.propose then
+	if slot2:ShowPropose() then
 		if slot2:isMetaShip() then
 			slot3 = "duang_meta_jiehun_1"
 		else

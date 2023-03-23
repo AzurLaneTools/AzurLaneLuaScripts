@@ -654,7 +654,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "从未发生过的事景象却如此逼真，如同埃尔宾的噩梦一样……",
+			say = "从未发生过的事景象却如此逼真，如同{namecode:449}的噩梦一样……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "腓特烈大帝，你不是说时间宝贵么？让我们速战速决吧，进攻！",
+			say = "{namecode:440}，你不是说时间宝贵么？让我们速战速决吧，进攻！",
 			effects = {
 				{
 					active = true,
