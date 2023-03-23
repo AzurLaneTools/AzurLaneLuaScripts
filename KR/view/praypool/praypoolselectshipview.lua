@@ -179,14 +179,14 @@ function slot0.updateSelectedShipList(slot0)
 				setAnchoredPosition(slot12, {
 					y = 14
 				})
-			elseif slot17 <= 18 then
+			elseif slot17 <= 21 then
 				slot10.sizeDelta = Vector2(uv0.WIDTH_MAX, slot10.sizeDelta.y)
 				GetComponent(slot12, "Text").fontSize = uv0.FONT_SIZE_MID
 
 				setAnchoredPosition(slot12, {
 					y = 19
 				})
-			elseif slot17 >= 21 then
+			else
 				slot10.sizeDelta = Vector2(uv0.WIDTH_MAX, slot10.sizeDelta.y)
 				GetComponent(slot12, "Text").fontSize = uv0.FONT_SIZE_MAX
 
