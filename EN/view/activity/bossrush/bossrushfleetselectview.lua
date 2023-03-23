@@ -55,10 +55,10 @@ function slot0.InitUI(slot0)
 	setText(slot0._tf:Find("Panel/Info/Modes/Multiple/Off/Text"), i18n("series_enemy_mode_2"))
 	table.Foreach(slot0.fleetIndexToggles, function (slot0, slot1)
 		if slot0 >= #uv0.fleetIndexToggles then
-			return
+			setText(slot1:Find("Text"), i18n("formationScene_use_oil_limit_submarine"))
+		else
+			setText(slot1:Find("Text"), i18n("series_enemy_fleet_prefix", GetRomanDigit(slot0)))
 		end
-
-		setText(slot1:Find("Text"), i18n("series_enemy_fleet_prefix", GetRomanDigit(slot0)))
 	end)
 	setText(slot0._tf:Find("Panel/Fleet/Normal/main/Item/Ship/EnergyWarn/Text"), i18n("series_enemy_mood"))
 	setText(slot0._tf:Find("Panel/Fleet/Normal/vanguard/Item/Ship/EnergyWarn/Text"), i18n("series_enemy_mood"))

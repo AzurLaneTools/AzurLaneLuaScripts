@@ -105852,7 +105852,7 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 		id = 800710,
 		type = 1,
 		max_level = 10,
-		desc = "Increases this ship's FP, AA, and EVA by $1. When this ship fires her Main Guns: $2 chance to fire a $3 special barrage (DMG is based on the skill's level). Enemies hit by this barrage are more likely to be targeted by the auto-aimed fire of your Royal Navy and/or META BBs and Bcs.",
+		desc = "Increases this ship's FP, AA, and EVA by $1. When this ship fires her Main Guns: $2 chance to fire a $3 special barrage (DMG is based on the skill's level). Enemies hit by this barrage are more likely to be targeted by the auto-aimed fire of your Royal Navy and/or META BBs and BCs.",
 		system_transform = {},
 		world_death_mark = {
 			1

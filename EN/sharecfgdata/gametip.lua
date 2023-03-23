@@ -23539,6 +23539,6 @@ _G.pg.base.gametip.series_enemy_empty_commander_assistant = {
 	tip = "Staff Cat"
 }
 
-_G.pg.base.gametip.limit_team_character_tips = {
+_G.pg.base.gametip.series_enemy_teamTips = {
 	tip = "You cannot have same name ships in your Coalition Battle fleets."
 }

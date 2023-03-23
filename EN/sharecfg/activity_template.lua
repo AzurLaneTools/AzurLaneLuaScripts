@@ -4087,12 +4087,13 @@ pg.activity_template = {
 	},
 	[4728] = {
 		mark = 20230316,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4728,
 		config_data = {
@@ -4101,33 +4102,6 @@ pg.activity_template = {
 			10152,
 			10153,
 			10154
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4729] = {
