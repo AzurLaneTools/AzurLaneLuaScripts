@@ -19974,7 +19974,7 @@ pg.furniture_data_template = {
 			{
 				{
 					0,
-					200
+					109
 				},
 				{
 					400,
@@ -19982,8 +19982,8 @@ pg.furniture_data_template = {
 				}
 			},
 			{
-				4,
-				-66
+				-1,
+				-148
 			}
 		},
 		interAction_group = {}

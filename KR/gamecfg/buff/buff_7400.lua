@@ -1,4 +1,6 @@
 return {
+	{},
+	{},
 	init_effect = "",
 	name = "兵装训练 贝法",
 	time = 0,

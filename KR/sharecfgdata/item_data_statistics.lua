@@ -182439,6 +182439,27 @@ _G.pg.base.item_data_statistics[59401] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59402] = {
+	display = "「의뢰 교환 계획II」 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	name = "군사의뢰 증빙",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59402,
+	is_world = 0,
+	icon = "Props/commission_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",
@@ -185629,6 +185650,27 @@ _G.pg.base.item_data_statistics[59845] = {
 		520034,
 		521034
 	}
+}
+
+_G.pg.base.item_data_statistics[59846] = {
+	display = "5주년 출석 이벤트 획득——돛을 올리고 파도를 헤쳐나간지 5년째! 계속해서 푸른 바다를 향하여 전진!",
+	name = "5주년 기념 코인",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59846,
+	is_world = 0,
+	icon = "props/wuzhounian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
 }
 
 _G.pg.base.item_data_statistics[59847] = {

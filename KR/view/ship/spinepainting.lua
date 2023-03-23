@@ -116,6 +116,7 @@ end
 function slot0.SetVisible(slot0, slot1)
 	setActive(slot0._spinePaintingData.effectParent, slot1)
 	setActiveViaLayer(slot0._spinePaintingData.effectParent, slot1)
+	setActive(slot0._tf, slot1)
 end
 
 function slot0.DoSpecialTouch(slot0)
