@@ -104,6 +104,7 @@ function slot0.execute(slot0, slot1)
 			uv3:sendNotification(GAME.BOSSRUSH_TRACE_DONE, uv1)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
+			uv3:sendNotification(GAME.BOSSRUSH_TRACE_ERROR, slot0.result)
 		end
 	end)
 end

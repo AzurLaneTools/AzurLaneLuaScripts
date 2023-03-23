@@ -170,7 +170,11 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_BACK_TO_LEVEL_SCENE, function (slot0, slot1)
 		slot2 = getProxy(ContextProxy)
 
-		if uv0 == SYSTEM_ACT_BOSS then
+		if uv0 == SYSTEM_DUEL then
+			uv1.viewComponent:emit(BattleResultMediator.ON_BACK_TO_DUEL_SCENE)
+
+			return
+		elseif uv0 == SYSTEM_ACT_BOSS then
 			slot3, slot4 = slot2:getContextByMediator(PreCombatMediator)
 
 			if slot3 then
@@ -326,14 +330,15 @@ function slot0.register(slot0)
 			slot6 = getProxy(ActivityProxy):getActivityById(uv1.contextData.actId):GetSeriesData()
 			slot7 = slot6:GetStaegLevel() + 1
 			slot8 = slot6:GetExpeditionIds()
+			slot10 = not slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) or slot9.data.autoFlag
 
-			if ys.Battle.BattleConst.BattleScore.C >= uv1.contextData.score or slot7 > #slot8 then
+			if ys.Battle.BattleConst.BattleScore.C >= uv1.contextData.score or slot7 > #slot8 or not slot10 then
 				if slot2:GetPrevContext(1):getContextByMediator(BossRushPreCombatMediator) then
-					slot9:removeChild(slot10)
+					slot11:removeChild(slot12)
 				end
 
-				if slot9:getContextByMediator(BossRushFleetSelectMediator) then
-					slot9:removeChild(slot11)
+				if slot11:getContextByMediator(BossRushFleetSelectMediator) then
+					slot11:removeChild(slot13)
 				end
 
 				uv1:sendNotification(GAME.BOSSRUSH_SETTLE, {
@@ -504,7 +509,6 @@ function slot0.listNotificationInterests(slot0)
 		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE,
 		ContinuousOperationMediator.CONTINUE_OPERATION,
 		uv0.SET_SKIP_FLAG,
-		uv0.REENTER_STAGE,
 		GAME.BOSSRUSH_SETTLE_DONE,
 		ContinuousOperationMediator.ON_REENTER
 	}
@@ -521,8 +525,6 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:SetSkipFlag(slot3)
 	elseif slot2 == ContinuousOperationMediator.CONTINUE_OPERATION then
 		slot0.contextData.continuousBattleTimes = slot0.contextData.continuousBattleTimes - 1
-	elseif slot2 == uv0.REENTER_STAGE then
-		slot0.viewComponent:emit(uv0.REENTER_STAGE)
 	elseif slot2 == GAME.BOSSRUSH_SETTLE_DONE then
 		slot4 = slot0.contextData.system
 		slot5 = slot0.contextData.actId
@@ -564,7 +566,7 @@ function slot0.handleNotification(slot0, slot1)
 			return
 		end
 
-		slot0:sendNotification(BattleResultMediator.REENTER_STAGE)
+		slot0.viewComponent:emit(uv0.REENTER_STAGE)
 	end
 end
 

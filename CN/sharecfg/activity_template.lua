@@ -4837,12 +4837,13 @@ pg.activity_template = {
 	},
 	[4715] = {
 		mark = 20230309,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4715,
 		config_data = {
@@ -4852,38 +4853,11 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4716] = {
 		mark = 20230309,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 16,
 		login_pop = 0,
@@ -4891,34 +4865,8 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 4716,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 4716
 	},
 	[4717] = {
 		mark = 20230309,
@@ -5379,7 +5327,7 @@ pg.activity_template = {
 		}
 	},
 	[4735] = {
-		mark = 20230223,
+		mark = 20230323,
 		title_res_tag = "",
 		page_info = "",
 		type = 93,
@@ -5456,7 +5404,7 @@ pg.activity_template = {
 		}
 	},
 	[4736] = {
-		mark = 20230223,
+		mark = 20230323,
 		title_res_tag = "",
 		page_info = "",
 		type = 94,
@@ -5495,7 +5443,7 @@ pg.activity_template = {
 		}
 	},
 	[4737] = {
-		mark = 20230223,
+		mark = 20230323,
 		id = 4737,
 		title_res_tag = "KurskSP_pt",
 		type = 74,
@@ -5622,6 +5570,45 @@ pg.activity_template = {
 					2023,
 					4,
 					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4741] = {
+		mark = 20230309,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 308,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 4741,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					19
 				},
 				{
 					23,
@@ -10386,6 +10373,7 @@ pg.activity_template = {
 		4737,
 		4738,
 		4739,
+		4741,
 		7001,
 		7002,
 		7003,
