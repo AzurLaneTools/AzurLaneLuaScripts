@@ -28,7 +28,7 @@ function slot1.Update(slot0, slot1)
 
 	slot0.scaleRatio = slot4
 
-	setText(slot0.sceneParent.chapterName, string.split(slot1:getConfig("name"), "||")[1])
+	setText(slot0.sceneParent.chapterName, HXSet.hxLan(string.split(slot1:getConfig("name"), "||")[1]))
 	slot0.sceneParent.loader:GetSprite("chapterno", "chapterex", slot0.sceneParent.chapterNoTitle, true)
 	uv0.super.Update(slot0, slot1)
 end

@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……？!Z23，11点方向好像有什么东西！",
+			say = "……？!{namecode:408}，11点方向好像有什么东西！",
 			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,

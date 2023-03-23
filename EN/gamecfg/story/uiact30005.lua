@@ -61,7 +61,7 @@ return {
 		{
 			actor = 213011,
 			side = 2,
-			say = "欧根小姐，德意志小姐，沙恩霍斯特小姐和格奈森瑙小姐，果然是铁血的各位啊……这也是传说的魔性吗……",
+			say = "{namecode:428}小姐，{namecode:429}小姐，{namecode:433}小姐和{namecode:434}小姐，果然是铁血的各位啊……这也是传说的魔性吗……",
 			shake = {
 				speed = 1,
 				number = 3

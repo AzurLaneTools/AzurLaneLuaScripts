@@ -589,7 +589,7 @@ return {
 			actor = 10300010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "像吗？双胞胎和Z23她们吗……为什么这么说？",
+			say = "像吗？双胞胎和{namecode:408}她们吗……为什么这么说？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -905,7 +905,7 @@ return {
 			actor = 10300050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欧根大人，你不也是这样吗？你也从心底认可着那位指挥官，这个心情就和我们是一样的……",
+			say = "{namecode:428}大人，你不也是这样吗？你也从心底认可着那位指挥官，这个心情就和我们是一样的……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1053,7 +1053,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正如欧根大人觉得自己和我们相似，我们也觉得您身上有和我们一样的气息",
+			say = "正如{namecode:428}大人觉得自己和我们相似，我们也觉得您身上有和我们一样的气息",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

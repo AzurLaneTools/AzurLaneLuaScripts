@@ -42,6 +42,7 @@ slot0.GET_CHAPTER_DROP_SHIP_LIST = "LevelMediator2:GET_CHAPTER_DROP_SHIP_LIST"
 slot0.ON_CHAPTER_REMASTER_AWARD = "LevelMediator2:ON_CHAPTER_REMASTER_AWARD"
 slot0.ENTER_WORLD = "LevelMediator2:ENTER_WORLD"
 slot0.ON_OPEN_ACT_BOSS_BATTLE = "LevelMediator2:ON_OPEN_ACT_BOSS_BATTLE"
+slot0.ON_BOSSRUSH_MAP = "LevelMediator2:ON_BOSSRUSH_MAP"
 slot0.SHOW_ATELIER_BUFF = "LevelMediator2:SHOW_ATELIER_BUFF"
 
 function slot0.register(slot0)
@@ -282,6 +283,9 @@ function slot0.register(slot0)
 				uv2.viewComponent:switchToChapter(uv1:getChapterById(uv0))
 			end
 		end)
+	end)
+	slot0:bind(uv0.ON_BOSSRUSH_MAP, function ()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_MAIN)
 	end)
 	slot0:bind(uv0.GO_ACT_SHOP, function ()
 		slot0 = pg.gameset.activity_res_id.key_value

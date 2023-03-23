@@ -51,7 +51,6 @@ function slot0.listNotificationInterests(slot0)
 		GAME.COMPOSITE_EQUIPMENT_DONE,
 		BagProxy.ITEM_UPDATED,
 		PlayerProxy.UPDATED,
-		EquipmentProxy.EQUIPMENT_ADDED,
 		EquipmentProxy.EQUIPMENT_UPDATED
 	}
 end
@@ -66,7 +65,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setItems(slot0.bagProxy:getData())
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot0.playerProxy:getData())
-	elseif slot2 == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED then
+	elseif slot2 == EquipmentProxy.EQUIPMENT_UPDATED then
 		slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
 	end
 end

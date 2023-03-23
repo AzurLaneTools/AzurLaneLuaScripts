@@ -4137,7 +4137,7 @@ pg.activity_template = {
 		type = 11,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 31,
+		is_show = 28,
 		config_data = {},
 		time = {
 			"timer",
@@ -4241,6 +4241,444 @@ pg.activity_template = {
 				0,
 				0,
 				0
+			}
+		}
+	},
+	[4731] = {
+		mark = 20230323,
+		id = 4731,
+		title_res_tag = "SkinGuide1",
+		type = 86,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 29,
+		config_data = {
+			18408,
+			18409,
+			18410,
+			18411,
+			18412
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SkinGuide1Page",
+			ui_name = "SkinGuide1Page"
+		},
+		config_client = {
+			story = {
+				{
+					"RONGXUEDEYAOYUE4"
+				},
+				{
+					"RONGXUEDEYAOYUE2"
+				},
+				{
+					"RONGXUEDEYAOYUE3"
+				},
+				{
+					"RONGXUEDEYAOYUE1"
+				},
+				{
+					"RONGXUEDEYAOYUE5"
+				}
+			}
+		}
+	},
+	[4734] = {
+		mark = 20230323,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 4734,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4735] = {
+		mark = 20230323,
+		title_res_tag = "",
+		page_info = "",
+		type = 93,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4735,
+		config_data = {
+			1001,
+			1002,
+			1003,
+			1004,
+			1005
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			scene = "BossRushKurskScene",
+			openActivityStory = "JIDIFENGBAO1",
+			openStory = "JIDIFENGBAO2",
+			endStory = "JIDIFENGBAO19",
+			entrance_bg = "activitybanner/temp10",
+			tasks = {
+				18420
+			},
+			storys = {
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			}
+		}
+	},
+	[4736] = {
+		mark = 20230323,
+		title_res_tag = "",
+		page_info = "",
+		type = 94,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		id = 4736,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4737] = {
+		mark = 20230323,
+		id = 4737,
+		title_res_tag = "KurskSP_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4737,
+		is_show = 30,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "KurskSPPtPage",
+			ui_name = "KurskSPPtPage"
+		},
+		config_client = {
+			linkActID = 4735
+		}
+	},
+	[4738] = {
+		mark = 20230323,
+		title_res_tag = "",
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4738,
+		config_data = {
+			367,
+			368,
+			369
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4739] = {
+		mark = 20230323,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4739,
+		config_data = {
+			18413,
+			18414,
+			18415,
+			18416,
+			18417,
+			18418,
+			18420,
+			18421,
+			18422,
+			18423
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4740] = {
+		mark = 20230323,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4740,
+		config_data = {
+			18419
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4741] = {
+		mark = 20230323,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 308,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 4741,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -13773,13 +14211,13 @@ pg.activity_template = {
 		config_client = {
 			id = 1,
 			bg = "loadingbg/bg_build_1_act",
-			buildship_tip = "Rate Up characters: U-110",
+			buildship_tip = "Rate Up characters: {namecode:420}",
 			rate_tip = {
 				"<color=#ffde38>Super Rare</color>：7%",
 				"<color=#d797ff>Elite</color>：12%",
 				"<color=#3dc6ff>Rare</color>：51%",
 				"Common：30%",
-				"<color=#d797ff>U-110</color>：1.4%<color=#92FC63>(up!)</color>"
+				"<color=#d797ff>{namecode:420}</color>：1.4%<color=#92FC63>(up!)</color>"
 			}
 		}
 	},
@@ -18543,7 +18981,7 @@ pg.activity_template = {
 		config_client = {
 			id = 1,
 			bg = "loadingbg/bg_build_1_act",
-			buildship_tip = "Rate Up characters: Shangri-La, U-101 and more",
+			buildship_tip = "Rate Up characters: Shangri-La, {namecode:418} and more",
 			rate_tip = {
 				"<color=#ffde38>Super Rare</color>：7%",
 				"<color=#d797ff>Elite</color>：12%",
@@ -18552,10 +18990,10 @@ pg.activity_template = {
 				"<color=#ffde38>Shangri-La</color>：2.0%(<color=#92fc63>up!</color>)",
 				"<color=#ffde38>Essex</color>：1.8%(<color=#92fc63>up!</color>)",
 				"<color=#ffde38>I-168</color>：1.5%(<color=#92fc63>up!</color>)",
-				"<color=#ffde38>U-101</color>：1.5%(<color=#92fc63>up!</color>)",
+				"<color=#ffde38>{namecode:418}</color>：1.5%(<color=#92fc63>up!</color>)",
 				"<color=#d797ff>I-25</color>：2.5%(<color=#92fc63>up!</color>)",
 				"<color=#d797ff>I-56</color>：2.5%(<color=#92fc63>up!</color>)",
-				"<color=#d797ff>U-522</color>：2.5%(<color=#92fc63>up!</color>)"
+				"<color=#d797ff>{namecode:419}</color>：2.5%(<color=#92fc63>up!</color>)"
 			}
 		}
 	},
@@ -22523,13 +22961,13 @@ pg.activity_template = {
 		config_client = {
 			id = 2,
 			bg = "loadingbg/bg_build_2_act",
-			buildship_tip = "Rate Up characters: Z2,Hardy",
+			buildship_tip = "Rate Up characters: {namecode:401},Hardy",
 			rate_tip = {
 				"<color=#ffde38>Super Rare</color>：7%",
 				"<color=#d797ff>Elite</color>：12%",
 				"<color=#3dc6ff>Rare</color>：26%",
 				"Common：55%",
-				"<color=#d797ff>Z2</color>：1.4%<color=#92FC63>(up!)</color>",
+				"<color=#d797ff>{namecode:401}</color>：1.4%<color=#92FC63>(up!)</color>",
 				"<color=#d797ff>Hardy</color>：1.4%<color=#92FC63>(up!)</color>"
 			}
 		}
@@ -23178,10 +23616,10 @@ pg.activity_template = {
 				"<color=#ffde38>Bismarck</color>：2%(<color=#92fc63>up!</color>)",
 				"<color=#ffde38>U-96</color>：2%(<color=#92fc63>up!</color>)",
 				"<color=#ffde38>King George V</color>：2%(<color=#92fc63>up!</color>)",
-				"<color=#d797ff>U-556</color>：2.5%(<color=#92fc63>up!</color>)",
-				"<color=#d797ff>U-73</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>{namecode:416}</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>{namecode:417}</color>：2.5%(<color=#92fc63>up!</color>)",
 				"<color=#d797ff>Z26</color>：2.5%(<color=#92fc63>up!</color>)",
-				"<color=#d797ff>Z36</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>{namecode:411}</color>：2.5%(<color=#92fc63>up!</color>)",
 				"<color=#3dc6ff>Echo</color>：5%(<color=#92fc63>up!</color>)"
 			}
 		}
@@ -23309,7 +23747,7 @@ pg.activity_template = {
 		config_client = {
 			id = 1,
 			bg = "loadingbg/bg_build_1_act",
-			buildship_tip = "U-96, U-556 and U-73 added to standard build pool! ",
+			buildship_tip = "U-96, {namecode:416} and {namecode:417} added to standard build pool! ",
 			rate_tip = {
 				"<color=#ffde38>Super Rare</color>：7%",
 				"<color=#d797ff>Elite</color>：12%",
@@ -25059,6 +25497,15 @@ pg.activity_template = {
 		4728,
 		4729,
 		4730,
+		4731,
+		4734,
+		4735,
+		4736,
+		4737,
+		4738,
+		4739,
+		4740,
+		4741,
 		7001,
 		7002,
 		7003,

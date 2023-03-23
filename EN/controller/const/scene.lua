@@ -11,14 +11,14 @@ SCENE = {
 	COURTYARD = "scene court yard",
 	SKINATALAS = "scene skinatals",
 	NEWYEAR_BACKHILL_2022 = "scene NEWYEAR BACKHILL 2022",
-	SPRING_TOWN = "springfestival town",
+	BOSSRUSH_MAIN = "bossrush main",
 	PLAYER_INFO = "scene player info",
 	SETTINGS = "scene settings",
-	SUMMARY = "summary",
+	SPRING_TOWN = "springfestival town",
 	CHUZHENG = "scene chuzheng",
 	GETBOAT = "scene get boat",
+	SUMMARY = "summary",
 	SELECT_TRANSFORM_EQUIPMENT = "select transform equipment",
-	EVENT = "scene event",
 	NAVALACADEMYSCENE = "naval academy scene",
 	ANNIVERSARY = "anniversary",
 	CHARGE = "scene charge",
@@ -26,47 +26,47 @@ SCENE = {
 	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
 	LEVEL = "scene level",
 	MONOPOLY_PT = "MONOPOLY_PT",
-	SPWEAPON_STOREHOUSE = "spweapon storehouse",
+	EVENT = "scene event",
 	NEWYEAR_SQUARE = "newyear square",
-	CLASS = "scene class",
+	SPWEAPON_STOREHOUSE = "spweapon storehouse",
 	MUSIC_FESTIVAL = "music festival",
 	MONOPOLY_WORLD = "MONOPOLY WORLD",
 	DAILYLEVEL = "scene dailylevel",
-	MAINUI = "scene mainUI",
+	CLASS = "scene class",
 	SHIP_PROFILE = "ship profile",
+	MAINUI = "scene mainUI",
 	BACKHILL_FIFTH_ANNIVERSARY = "BACKHILL FIFTH ANNIVERSARY",
-	ACT_BOSS_SPF = "act boss spf",
 	TECHNOLOGY = "technology",
 	TRAININGCAMP = "trainingcamp",
-	IDOL_MEDAL_COLLECTION_SCENE2 = "IDOL_MEDAL_COLLECTION_SCENE2",
+	ACT_BOSS_SPF = "act boss spf",
 	LINK_LINK = "link link",
 	HOTSPRING_SHOP = "hotSpring shop",
-	DOALINK_ISLAND = "scene DOALink Island",
+	IDOL_MEDAL_COLLECTION_SCENE2 = "IDOL_MEDAL_COLLECTION_SCENE2",
 	COLLECTSHIP = "scene collect ship",
 	REFLUX = "reflux",
 	FRIEND = "scene friend",
-	REDPACKEY = "scene RED PACKEY",
+	DOALINK_ISLAND = "scene DOALink Island",
 	BATTLE = "scene battle",
 	PROPINFO = "scene prop info",
-	REDPACKEYLOTTERY = "scene RED PACKEY LOTTERY",
+	REDPACKEY = "scene RED PACKEY",
 	THIRD_ANNIVERSARY_AKIBA = "third anniversary Akiba",
 	VOTE = "scene vote",
 	LOGIN = "scene login",
 	PHYSICS2D_TEST = "physics2d test",
 	NEWGUILD = "scene newguild",
 	MUSIC_FESTIVAL2 = "music festival 2",
-	CRUSING = "crusing",
+	REDPACKEYLOTTERY = "scene RED PACKEY LOTTERY",
 	ACTIVITY = "scene activity",
 	SUMMER_FEAST = "summer feast",
 	BULLETINBOARD = "scene bulletinboard",
-	PUBLIC_GUILD = "public guild",
+	CRUSING = "crusing",
 	IDOL_MEDAL_COLLECTION_SCENE = "idol medal collection scene",
 	COMMANDROOM = "scene command room",
 	BACKYARD = "scene court yard",
 	SSSS_ACADEMY = "SSSS ACADEMY",
 	RYZA_URBAN_AREA = "RYZA_URBAN_AREA",
 	BIANDUI = "scene biandui",
-	RESOLVEEQUIP = "scene resolve equip",
+	PUBLIC_GUILD = "public guild",
 	CARD_PAIRS = "card pairs",
 	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
 	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
@@ -77,7 +77,7 @@ SCENE = {
 	GUILD = "scene guild",
 	NAVALTACTICS = "naval tactics",
 	ACT_BOSS_BATTLE = "act boss battle",
-	TRANSITION = "scene transition",
+	RESOLVEEQUIP = "scene resolve equip",
 	DOCKYARD = "scene dockyard",
 	TASK = "scene task",
 	JIUJIU_EXPEDITION = "jiujiu expedition ",
@@ -116,6 +116,7 @@ SCENE = {
 	SPRING_FESTIVAL_BACKHILL_2022 = "springfestival BackHill 2022",
 	HOTSPRING_REDPACKET = "hotSpring redpacket",
 	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
+	TRANSITION = "scene transition",
 	BILLBOARD = "scene billboard",
 	METACHARACTER = "metacharacter",
 	MILITARYEXERCISE = "scene militaryexercise",
@@ -597,6 +598,23 @@ slot0 = {
 	[SCENE.SPRING_FESTIVAL_BACKHILL_2023] = function (slot0, slot1)
 		slot0.mediator = SpringFestival2023Mediator
 		slot0.viewComponent = SpringFestival2023Scene
+	end,
+	[SCENE.BOSSRUSH_MAIN] = function (slot0, slot1)
+		(function ()
+			if not uv0 or uv0:isEnd() then
+				return
+			end
+
+			if not uv0:getConfig("config_client").scene then
+				return
+			end
+
+			uv1 = _G[slot0]
+		end)()
+		assert(BossRushKurskScene, "Activity_template not set scene in config_client: " .. (getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) and slot4.id or "NIL"))
+
+		slot0.mediator = BossRushKurskMediator
+		slot0.viewComponent = slot2
 	end
 }
 

@@ -138,6 +138,12 @@ function table.Foreach(slot0, slot1)
 	end
 end
 
+function table.Ipars(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0) do
+		slot1(slot5, slot6)
+	end
+end
+
 function table.SerialIpairsAsync(slot0, slot1, slot2)
 	if type(slot0) ~= "table" then
 		return

@@ -54,6 +54,7 @@ function slot0.execute(slot0, slot1)
 	slot0.facade:registerCommand(GAME.FETCH_EVALUATION, FetchEvaluationCommand)
 	slot0.facade:registerCommand(GAME.SET_SHIP_SKIN, SetShipSkinCommand)
 	slot0.facade:registerCommand(GAME.PROPOSE_SHIP, ProposeCommand)
+	slot0.facade:registerCommand(GAME.PROPOSE_REGISTER_SHIP, ProposeRegiesterShipCommand)
 	slot0.facade:registerCommand(GAME.PROPOSE_EXCHANGE_RING, ProposeExchangeRingCommand)
 	slot0.facade:registerCommand(GAME.RENAME_SHIP, RenameShipCommand)
 	slot0.facade:registerCommand(GAME.REQ_PLAYER_ASSIST_SHIP, ReqPlayerAssistShipCommand)
@@ -414,6 +415,8 @@ function slot0.execute(slot0, slot1)
 	slot0.facade:registerCommand(GAME.REQUEST_ATELIER, AtelierRequestCommand)
 	slot0.facade:registerCommand(GAME.COMPOSITE_ATELIER_RECIPE, AtelierCompositeCommand)
 	slot0.facade:registerCommand(GAME.UPDATE_ATELIER_BUFF, AtelierRefreshBuffCommand)
+	slot0.facade:registerCommand(GAME.BOSSRUSH_TRACE, BossRushTracingCommand)
+	slot0.facade:registerCommand(GAME.BOSSRUSH_SETTLE, BossRushSettlementCommand)
 end
 
 return slot0

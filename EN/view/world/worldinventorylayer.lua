@@ -589,29 +589,20 @@ function slot0.setEquipments(slot0, slot1)
 end
 
 function slot0.setEquipment(slot0, slot1)
-	slot2 = true
+	slot2 = #slot0.equipmentVOs + 1
 
-	for slot6, slot7 in pairs(slot0.equipmentVOs) do
-		if slot7.id == slot1.id and not slot7.shipId then
-			slot0.equipmentVOs[slot6] = slot1
-			slot2 = false
+	for slot6, slot7 in ipairs(slot0.equipmentVOs) do
+		if not slot7.shipId and slot7.id == slot1.id then
+			slot2 = slot6
+
+			break
 		end
 	end
 
-	if slot2 then
-		table.insert(slot0.equipmentVOs, slot1)
-	end
-
-	if slot0.contextData.pageNum == uv0.PAGE.Equipment then
-		slot0:filterEquipment()
-	end
-end
-
-function slot0.removeEquipment(slot0, slot1)
-	for slot5 = #slot0.equipmentVOs, 1, -1 do
-		if slot0.equipmentVOs[slot5].id == slot1 then
-			table.remove(slot0.equipmentVOs, slot5)
-		end
+	if slot1.count > 0 then
+		slot0.equipmentVOs[slot2] = slot1
+	else
+		table.remove(slot0.equipmentVOs, slot2)
 	end
 
 	if slot0.contextData.pageNum == uv0.PAGE.Equipment then

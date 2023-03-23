@@ -374,16 +374,27 @@ function slot0.UpdateSpinePainting(slot0, slot1, slot2, slot3, slot4)
 			slot2.overrideSorting = true
 			slot2.sortingOrder = uv0(uv1, uv2, uv3.sortingOrder) + 1
 
-			if uv4 then
-				uv4()
+			uv3:UpdateSpineExpression(slot0, uv4)
+
+			if uv5 then
+				uv5()
 			end
 		end)
 	end
 
 	if slot3 and slot0.spinePainings[slot2] then
+		slot0:UpdateSpineExpression(slot0.spinePainings[slot2], slot1)
 		slot4()
 	else
 		slot5(slot4)
+	end
+end
+
+function slot0.UpdateSpineExpression(slot0, slot1, slot2)
+	if slot2:GetSpineExPression() then
+		slot1:SetAction(slot3, 1)
+	else
+		slot1:SetEmptyAction(1)
 	end
 end
 

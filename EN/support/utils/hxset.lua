@@ -104,7 +104,8 @@ function slot0.isHXNation(slot0)
 		[Nation.JP] = true,
 		[Nation.US] = true,
 		[Nation.META] = true,
-		[Nation.CN] = true
+		[Nation.CN] = true,
+		[Nation.DE] = true
 	}
 
 	return uv0.nationHX[slot0]
@@ -225,6 +226,10 @@ end
 
 function slot0.isHxSkin()
 	return not uv0.antiSkinMode
+end
+
+function slot0.isHxPropose()
+	return not uv0.codeMode and PLATFORM_CODE == PLATFORM_CH and LOCK_PROPOSE_SHIP
 end
 
 slot0.hxPathList = {

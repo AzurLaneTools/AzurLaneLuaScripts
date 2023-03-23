@@ -12672,6 +12672,197 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[702070] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		id = 702070,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Welcome back, Comrade Commander. You think I shouldn't wait for you all the time? ...It's okay. I was looking forward to seeing you."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Ah, Comrade Commander. I was so focused on work that I didn't notice your return. I would've liked to give you a more special welcome, but I lost track of time... Sorry."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"I don't... quite understand... *blushes*"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Do you still think I'm as cold as ice? Haha, well, that ice melted long ago thanks to you.|Kirov told me that if I want something, I should be bold. I understand that logically, but shouldn't I be more careful when it comes to emotions? I mean, this is my first time, so...|I'd always thought that absence is what makes the heart grow fonder. But staying so close to you and chatting... Heehee, it's pretty nice."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Your hands are cold... Would you like me to warm them up?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"We should both be more straightforward... *blushes*"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Dates must be planned as thoroughly as a battle. These three should do... \"Port Dates and You,\" \"Top 100 Dating Techniques,\" and \"How to Steal the Commander's Heart on a Date.\" ...Oh? You say I should leave the planning to you? I-if you say so..."
+			}
+		}
+	},
+	[703020] = {
+		upgrade = "",
+		feeling3 = "",
+		feeling5 = "",
+		main = "",
+		expedition = "",
+		win_mvp = "",
+		feeling1 = "",
+		unlock = "",
+		feeling2 = "",
+		feeling4 = "",
+		skill = "",
+		battle = "",
+		id = 703020,
+		lose = "",
+		mail = "",
+		profile = "",
+		login = {
+			{
+				1100,
+				"Welcome back. What are we doing today? Work, first of all? Fine. I'll wait here in the meanwhile."
+			}
+		},
+		home = {
+			{
+				1100,
+				"*sniff*... I smell gunpowder on you, but not blood. Good to know you're unharmed."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"If you really must..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Here to see me? 'kay. No need to cover my tracks... Truth is, I wanted to see you too."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I do things my way... but if need be, I'll follow your commands. I trust your better judgment.|The Northern Parliament's having a party? I don't mind liquor, it's just... Ah, forget it. I'll go, if only to make you look good. When it's time for chitchat, back me up.|Those white tundras and snowy valleys still hold a special place in my heart. I'd happily take you with me to see them sometime."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I'm right here. I'm bad at reading emotions, so if you need something, just say it."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"You've got new missions. I'll help you... in the way I know best."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission complete. Hah, we're starting to look like a team."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"It's time I taught you who's the hunter and who's the prey."
+			}
+		}
+	},
+	[705070] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 705070,
+		login = {
+			{
+				1100,
+				"Good day, Comrade Commander. Revolution isn't all fun and games. Can I trust you to guide us all to battle once more?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"I brought some beer! Heh, unlike Gangut, you'd get bored of only drinking vodka pretty fast, right?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"My, Comrade Commander? Did you come to see me because you wanted an invitation to our drinking party, or officially, \"tea\" party? I've already slipped one into your office drawer~♪"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I'd look miserable if I got drunk at work. Listen! You'd better stop me before I get drunk! ...Cheers!|Aww, someone looks like they're ready to learn. Okay! Sevastopol, dreadnought and training ship, would be happy to teach you!|There is no end to revolution. Rest easy; you will forever be my Comrade Commander."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Ask me for anything. As a comrade, I intend to do everything in my power to help you."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"C-Comrade Commander... What was the point of that, exactly?"
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
@@ -12863,6 +13054,9 @@ pg.ship_skin_words_extra = {
 		202330,
 		205140,
 		201360,
-		206020
+		206020,
+		702070,
+		703020,
+		705070
 	}
 }

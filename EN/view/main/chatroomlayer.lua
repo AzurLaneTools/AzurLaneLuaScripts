@@ -105,13 +105,12 @@ function slot0.createFriendItem(slot0, slot1)
 		slot0.friendVO = slot1
 		uv0.nameTF.text = slot1.name
 		uv0.levelTF.text = "LV." .. slot1.level
-		slot4 = Ship.New({
-			configId = slot1.icon,
-			skin_id = slot1.skinId
-		})
 
 		assert(pg.ship_data_statistics[slot1.icon], "shipCfg is nil >> id ==" .. slot1.icon)
-		LoadSpriteAsync("qicon/" .. slot4:getPainting(), function (slot0)
+		LoadSpriteAsync("qicon/" .. Ship.New({
+			configId = slot1.icon,
+			skin_id = slot1.skinId
+		}):getPainting(), function (slot0)
 			if not slot0 then
 				uv0.iconTF.sprite = GetSpriteFromAtlas("heroicon/unknown", "")
 			else
@@ -119,10 +118,9 @@ function slot0.createFriendItem(slot0, slot1)
 			end
 		end)
 
-		slot5 = AttireFrame.attireFrameRes(slot1, isSelf, AttireConst.TYPE_ICON_FRAME, slot1.propose)
-		slot6 = PoolMgr.GetInstance()
+		slot5 = AttireFrame.attireFrameRes(slot1, slot1.id == getProxy(PlayerProxy):getRawData().id, AttireConst.TYPE_ICON_FRAME, slot1.propose)
 
-		slot6:GetPrefab("IconFrame/" .. slot5, slot5, true, function (slot0)
+		PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot5, slot5, true, function (slot0)
 			if uv0.circle then
 				slot0.name = uv1
 				findTF(slot0.transform, "icon"):GetComponent(typeof(Image)).raycastTarget = false

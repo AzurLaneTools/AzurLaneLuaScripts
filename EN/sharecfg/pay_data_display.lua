@@ -2953,216 +2953,6 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
-	[139] = {
-		subject = "Black Friday Lucky Bag (2022)",
-		limit_group = 0,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		type = 1,
-		limit_arg = 1,
-		name = "Black Friday Lucky Bag (2022)",
-		name_display = "Black Friday Lucky Bag (2022)",
-		type_order = 2,
-		extra_gem = 0,
-		id = 139,
-		money = 2999,
-		tag = 2,
-		gem = 0,
-		limit_type = 2,
-		picture = "fudai77",
-		id_str = "com.yostaren.azurlane.diamond177",
-		first_pay_double = 0,
-		extra_service = 3,
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		airijp_id = "com.yostaren.azurlane.diamond177",
-		extra_service_item = {
-			{
-				2,
-				69976,
-				1
-			},
-			{
-				1,
-				4,
-				2022
-			},
-			{
-				2,
-				42046,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				35
-			},
-			{
-				2,
-				15003,
-				12
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					11,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					11,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69976,
-				1
-			},
-			{
-				1,
-				4,
-				2022
-			},
-			{
-				2,
-				42046,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {}
-	},
-	[140] = {
-		subject = "New Semester Lucky Pack",
-		limit_group = 0,
-		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
-		type = 1,
-		limit_arg = 1,
-		name = "New Semester Lucky Pack",
-		name_display = "New Semester Lucky Pack",
-		type_order = 2,
-		extra_gem = 0,
-		id = 140,
-		money = 2999,
-		tag = 2,
-		gem = 0,
-		limit_type = 2,
-		picture = "fudai78",
-		id_str = "com.yostaren.azurlane.luckybag8",
-		first_pay_double = 0,
-		extra_service = 3,
-		descrip = "Contains a random character outfit and a large amount of supplies ",
-		airijp_id = "com.yostaren.azurlane.luckybag8",
-		extra_service_item = {
-			{
-				2,
-				69978,
-				1
-			},
-			{
-				1,
-				4,
-				2023
-			},
-			{
-				2,
-				42046,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69978,
-				1
-			},
-			{
-				1,
-				4,
-				2023
-			},
-			{
-				2,
-				42046,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {}
-	},
 	[1000] = {
 		subject = "Fair Winds Cruise Pass",
 		limit_group = 0,
@@ -3815,6 +3605,79 @@ pg.pay_data_display = {
 		},
 		sub_display = {
 			7009,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[1009] = {
+		subject = "Fair Winds Cruise Pass",
+		limit_group = 0,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		type = 0,
+		limit_arg = 1,
+		name = "Fair Winds Cruise Pass (2023.4)",
+		name_display = "Fair Winds Cruise Pass",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1009,
+		money = 999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		id_str = "com.yostaren.azurlane.passport12",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		airijp_id = "com.yostaren.azurlane.passport12",
+		extra_service_item = {
+			{
+				1,
+				4010,
+				1500
+			},
+			{
+				8,
+				59404,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4010,
+				1500
+			}
+		},
+		sub_display = {
+			7010,
 			1500
 		},
 		ignorePlatform = {},
@@ -8475,6 +8338,321 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[139] = {
+		subject = "Black Friday Lucky Bag (2022)",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_arg = 1,
+		name = "Black Friday Lucky Bag (2022)",
+		name_display = "Black Friday Lucky Bag (2022)",
+		type_order = 2,
+		extra_gem = 0,
+		id = 139,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai77",
+		id_str = "com.yostaren.azurlane.diamond177",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		airijp_id = "com.yostaren.azurlane.diamond177",
+		extra_service_item = {
+			{
+				2,
+				69976,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					11,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69976,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[140] = {
+		subject = "New Semester Lucky Pack",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_arg = 1,
+		name = "New Semester Lucky Pack",
+		name_display = "New Semester Lucky Pack",
+		type_order = 2,
+		extra_gem = 0,
+		id = 140,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai78",
+		id_str = "com.yostaren.azurlane.luckybag8",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		airijp_id = "com.yostaren.azurlane.luckybag8",
+		extra_service_item = {
+			{
+				2,
+				69978,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					2,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69978,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
+	[141] = {
+		subject = "Onsen Souvenir Lucky Bag",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_arg = 1,
+		name = "Onsen Souvenir Lucky Bag",
+		name_display = "Onsen Souvenir Lucky Bag",
+		type_order = 2,
+		extra_gem = 0,
+		id = 141,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai79",
+		id_str = "com.yostaren.azurlane.luckybag9",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		airijp_id = "com.yostaren.azurlane.luckybag9",
+		extra_service_item = {
+			{
+				2,
+				69979,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69979,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	all = {
 		1,
 		2,
@@ -8509,8 +8687,6 @@ pg.pay_data_display = {
 		48,
 		49,
 		50,
-		139,
-		140,
 		1000,
 		1001,
 		1002,
@@ -8520,6 +8696,7 @@ pg.pay_data_display = {
 		1006,
 		1007,
 		1008,
+		1009,
 		2001,
 		2002,
 		2003,
@@ -8569,6 +8746,9 @@ pg.pay_data_display = {
 		135,
 		136,
 		137,
-		138
+		138,
+		139,
+		140,
+		141
 	}
 }

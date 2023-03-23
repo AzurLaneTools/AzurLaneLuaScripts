@@ -449,5 +449,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-richang-5"
+	},
+	BossRushKurskScene = {
+		default_bgm = "bgm-cccp3",
+		special_bgm = "battle-deepecho",
+		time = "",
+		bgm = "bgm-cccp3"
 	}
 }

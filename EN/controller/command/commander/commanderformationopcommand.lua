@@ -331,6 +331,100 @@ function slot0.execute(slot0, slot1)
 				fleet = slot15
 			})
 		end
+	elseif slot4 == LevelUIConst.FLEET_TYPE_BOSSRUSH then
+		slot10 = slot5:getPrefabFleetById(slot8.id)
+		slot11 = slot3.fleetId
+		slot12 = slot3.actId
+
+		if slot8.type == LevelUIConst.COMMANDER_OP_RECORD_PREFAB then
+			slot0:sendNotification(GAME.SET_COMMANDER_PREFAB, {
+				id = slot9,
+				commanders = slot7:getActivityFleets()[slot12][slot11]:getCommanders()
+			})
+		elseif slot8.type == LevelUIConst.COMMANDER_OP_USE_PREFAB then
+			slot13 = {}
+			slot14 = {}
+
+			_.each(slot3.fleets, function (slot0)
+				uv0[slot0.id] = slot0
+			end)
+
+			function slot15(slot0)
+				for slot4, slot5 in pairs(uv0) do
+					if uv1 ~= slot4 then
+						for slot11, slot12 in pairs(slot5:getCommanders()) do
+							if slot0 == slot12.id then
+								return slot4, slot11
+							end
+						end
+					end
+				end
+
+				return nil
+			end
+
+			for slot19 = 1, 2 do
+				if slot10:getCommanderByPos(slot19) then
+					slot21, slot22 = slot15(slot20.id)
+
+					if slot21 and slot22 then
+						table.insert(slot13, function (slot0)
+							pg.MsgboxMgr.GetInstance():ShowMsgBox({
+								content = i18n("comander_repalce_tip", Fleet.DEFAULT_NAME[table.indexof(uv1.fleets, uv2[uv3])], uv0 == 1 and i18n("commander_main_pos") or i18n("commander_assistant_pos")),
+								onYes = function ()
+									slot0 = uv0[uv1]
+
+									slot0:updateCommanderByPos(uv2, nil)
+									uv3:updateActivityFleet(uv4, uv1, slot0)
+
+									slot1 = uv0[uv5]
+
+									slot1:updateCommanderByPos(uv6, uv7)
+									uv3:updateActivityFleet(uv4, uv5, slot1)
+									uv8()
+								end,
+								onNo = slot0
+							})
+						end)
+					else
+						table.insert(slot13, function (slot0)
+							slot1 = uv0[uv1]
+
+							slot1:updateCommanderByPos(uv2, uv3)
+							uv4:updateActivityFleet(uv5, uv1, slot1)
+							slot0()
+						end)
+					end
+				else
+					table.insert(slot13, function (slot0)
+						slot1 = uv0[uv1]
+
+						slot1:updateCommanderByPos(uv2, nil)
+						uv3:updateActivityFleet(uv4, uv1, slot1)
+						slot0()
+					end)
+				end
+			end
+
+			seriesAsync(slot13, function ()
+				uv0:sendNotification(GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE, {
+					actId = uv1,
+					fleetId = uv2
+				})
+			end)
+		elseif slot8.type == LevelUIConst.COMMANDER_OP_REST_ALL then
+			slot13 = slot7:getActivityFleets()[slot12][slot11]
+
+			for slot17 = 1, 2 do
+				slot13:updateCommanderByPos(slot17, nil)
+			end
+
+			slot7:updateActivityFleet(slot12, slot11, slot13)
+			slot0:sendNotification(GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE, {
+				actId = slot12,
+				fleetId = slot11
+			})
+		end
 	end
 end
 

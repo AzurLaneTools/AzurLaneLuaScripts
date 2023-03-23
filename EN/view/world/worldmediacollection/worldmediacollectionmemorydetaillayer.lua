@@ -130,9 +130,9 @@ function slot0.ShowSubMemories(slot0, slot1)
 	if slot5 then
 		slot8 = slot0._tf
 
-		setText(slot8:Find("ItemRect/UnlockTip"), i18n("levelScene_remaster_unlock_tip", slot1.title, table.concat(_.map(_.sort(Map.GetRearChaptersOfRemaster(slot4[1])), function (slot0)
+		setText(slot8:Find("ItemRect/UnlockTip"), HXSet.hxLan(i18n("levelScene_remaster_unlock_tip", slot1.title, table.concat(_.map(_.sort(Map.GetRearChaptersOfRemaster(slot4[1])), function (slot0)
 			return getProxy(ChapterProxy):getChapterById(slot0, true):getConfig("chapter_name")
-		end), "/")))
+		end), "/"))))
 	end
 end
 

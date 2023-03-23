@@ -387,9 +387,11 @@ function slot3.killerRequire(slot0, slot1, slot2, slot3)
 
 	slot4, slot5 = nil
 
-	if (slot2.__name == uv0.Battle.BattlePlayerUnit.__name or slot6 == uv0.Battle.BattleNPCUnit.__name or slot6 == uv0.Battle.BattleEnemyUnit.__name or slot6 == uv0.Battle.BattleAircraftUnit.__name or slot6 == uv0.Battle.BattleAirFighterUnit.__name) and slot2 or slot2:GetHost() then
+	if (slot2.__name == uv0.Battle.BattlePlayerUnit.__name or slot6 == uv0.Battle.BattleNPCUnit.__name or slot6 == uv0.Battle.BattleMinionUnit.__name or slot6 == uv0.Battle.BattleEnemyUnit.__name or slot6 == uv0.Battle.BattleAircraftUnit.__name or slot6 == uv0.Battle.BattleAirFighterUnit.__name) and slot2 or slot2:GetHost() then
 		if slot4.__name == uv0.Battle.BattleAircraftUnit.__name then
 			slot5 = slot4:GetMotherUnit()
+		elseif slot7 == uv0.Battle.BattleMinionUnit.__name then
+			slot5 = slot4:GetMaster()
 		else
 			slot5 = slot4
 			slot4 = nil

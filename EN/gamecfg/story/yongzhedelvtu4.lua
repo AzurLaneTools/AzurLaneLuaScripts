@@ -45,7 +45,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "Z23",
+			actorName = "{namecode:408}",
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "While that sounds great, this place is a maze... Finding the exit will take forever.",
@@ -75,7 +75,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "Z23",
+			actorName = "{namecode:408}",
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "Don't get lazy so soon! We haven't even fought one battle yet!",

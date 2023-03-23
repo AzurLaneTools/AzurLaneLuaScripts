@@ -2902,6 +2902,20 @@ When the HP of a CV or CVL in your fleet falls below 20.0% as a result of DMG ta
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800771] = {
+		desc_get = "",
+		id = 800771,
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800772] = {
+		desc_get = "",
+		id = 800772,
+		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		3631,
 		4161,
@@ -2941,6 +2955,8 @@ When the HP of a CV or CVL in your fleet falls below 20.0% as a result of DMG ta
 		800631,
 		800632,
 		800701,
-		800702
+		800702,
+		800771,
+		800772
 	}
 }

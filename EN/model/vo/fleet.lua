@@ -264,6 +264,14 @@ function slot0.getShipIds(slot0)
 	return slot1
 end
 
+function slot0.GetRawShipIds(slot0)
+	return slot0.ships
+end
+
+function slot0.GetRawCommanderIds(slot0)
+	return slot0.commanderIds
+end
+
 function slot0.findSkills(slot0, slot1)
 	return _.filter(slot0:getSkills(), function (slot0)
 		return slot0:GetType() == uv0
@@ -408,6 +416,14 @@ function slot0.isLegalToFight(slot0)
 			return TeamType.Main, 1
 		end
 	elseif slot1 == FleetType.Submarine and #slot0.subShips == 0 then
+		return TeamType.Submarine, 1
+	end
+
+	return true
+end
+
+function slot0.IsLegalToFightForSubmarine(slot0)
+	if #slot0.subShips == 0 then
 		return TeamType.Submarine, 1
 	end
 

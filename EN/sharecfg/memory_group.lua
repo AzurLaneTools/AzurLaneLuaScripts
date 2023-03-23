@@ -2910,6 +2910,48 @@ pg.memory_group = {
 			2600
 		}
 	},
+	[241] = {
+		icon = "title_event",
+		subtype = 1,
+		type = 2,
+		id = 241,
+		title = "Frostfall",
+		memories = {
+			2611,
+			2612,
+			2613,
+			2614,
+			2615,
+			2616,
+			2617,
+			2618,
+			2619,
+			2620,
+			2621,
+			2622,
+			2623,
+			2624,
+			2625,
+			2626,
+			2627,
+			2628,
+			2629
+		}
+	},
+	[242] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 242,
+		title = "Invitation of Melting Snow",
+		memories = {
+			2631,
+			2632,
+			2633,
+			2634,
+			2635
+		}
+	},
 	[501] = {
 		icon = "title_chara_mingshi",
 		subtype = 0,
@@ -4372,6 +4414,8 @@ pg.memory_group = {
 		238,
 		239,
 		240,
+		241,
+		242,
 		501,
 		502,
 		503,

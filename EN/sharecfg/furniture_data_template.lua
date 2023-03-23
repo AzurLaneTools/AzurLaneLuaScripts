@@ -7738,8 +7738,8 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					9.3,
-					34.04
+					7.6,
+					36.48
 				},
 				{
 					100,
@@ -7748,8 +7748,8 @@ pg.furniture_data_template = {
 				"chuanmo/shizhongji_mask"
 			},
 			{
-				0,
-				-44
+				-0.8,
+				-33.4
 			},
 			{
 				1,
@@ -7909,6 +7909,80 @@ pg.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100036] = {
+		effect = "",
+		name = "Thunderbolt Generator",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "\"At long last, I've unraveled the mysteries of SCIENCE!\"",
+		themeId = 0,
+		icon = "qiuzhuangshandianfashengqiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100036,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiuzhuangshandianfashengqiB",
+				"normal"
+			},
+			{
+				"qiuzhuangshandianfashengqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -104443,6 +104517,1367 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[99001] = {
+		icon = "dibanwqicon",
+		name = "Bathhouse Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 99,
+		picture = "wq/dibanwq",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "A fabulous 50-50 split between stone and wood.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 99001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99002] = {
+		icon = "qiangbiwqicon",
+		name = "Bathhouse Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 99,
+		picture = "wq/qiangbiwq",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "The real deal might be treated to be steam-resistant, but this wallpaper isn't!",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 99002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99101] = {
+		effect = "",
+		name = "Large Stone Bath",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq/dawenquanwq",
+		is_get_time_note = 0,
+		themeId = 99,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A mineral-rich bath, large enough to accommodate all your friends!",
+		tag = 1,
+		icon = "dawenquanwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99101,
+		can_rotate = 0,
+		size = {
+			10,
+			13
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					0,
+					-110
+				},
+				{
+					1,
+					1
+				},
+				"wq/dawenquanwq_using1",
+				0,
+				{
+					{
+						-49.8,
+						95.2
+					},
+					{
+						300,
+						350
+					},
+					"wq/dawenquan_mask"
+				}
+			},
+			{
+				"wash",
+				{
+					0,
+					-110
+				},
+				{
+					-1,
+					1
+				},
+				"wq/dawenquanwq_using4",
+				0,
+				{
+					{
+						71.8,
+						68.9
+					},
+					{
+						300,
+						350
+					},
+					"wq/dawenquan_mask"
+				}
+			},
+			{
+				"wash",
+				{
+					0,
+					-110
+				},
+				{
+					1,
+					1
+				},
+				"wq/dawenquanwq_using3",
+				0,
+				{
+					{
+						-158.8,
+						20.2
+					},
+					{
+						300,
+						350
+					},
+					"wq/dawenquan_mask"
+				}
+			},
+			{
+				"wash",
+				{
+					0,
+					-110
+				},
+				{
+					-1,
+					1
+				},
+				"wq/dawenquanwq_using2",
+				0,
+				{
+					{
+						176.5,
+						-6.7
+					},
+					{
+						300,
+						350
+					},
+					"wq/dawenquan_mask"
+				}
+			},
+			{
+				"wash",
+				{
+					0,
+					-110
+				},
+				{
+					-1,
+					1
+				},
+				"wq/dawenquanwq_using5",
+				0,
+				{
+					{
+						-36.6,
+						-35.4
+					},
+					{
+						300,
+						350
+					},
+					"wq/dawenquan_mask"
+				}
+			},
+			{
+				"wash",
+				{
+					0,
+					-110
+				},
+				{
+					-1,
+					1
+				},
+				"wq/dawenquanwq_using6",
+				0,
+				{
+					{
+						87.3,
+						-79.9
+					},
+					{
+						300,
+						350
+					},
+					"wq/dawenquan_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99102] = {
+		effect = "",
+		name = "Bathhouse Square Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/fangzhuowq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "With rounded corners, for fewer bruised knees.",
+		tag = 1,
+		icon = "fangzhuowqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		id = 99102,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			21.29
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99103] = {
+		effect = "",
+		name = "Bathhouse Vending Machine",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/fanmaijiwq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Soda, juice, tea... No milk, strangely.",
+		tag = 1,
+		icon = "fanmaijiwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99103,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99104] = {
+		effect = "",
+		name = "Shishi-Odoshi",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/jingluwq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A very old, very satisfying contraption.",
+		tag = 1,
+		icon = "jingluwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99104,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99105] = {
+		effect = "",
+		name = "Old Bamboo Ornament",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/kuzhuwq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Asymmetry is such an aesthetic.",
+		tag = 1,
+		icon = "kuzhuwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99105,
+		can_rotate = 0,
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99106] = {
+		effect = "",
+		name = "Bathhouse Street Lantern",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/ludengwq",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "Reminds you of a lavish birdhouse, complete with electricity.",
+		tag = 1,
+		icon = "ludengwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99106,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99109] = {
+		effect = "",
+		name = "Bathhouse Floor Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/luodidengwq",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "It looks like a stylized squid seen from a flat angle.",
+		tag = 1,
+		icon = "luodidengwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99109,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99112] = {
+		effect = "",
+		name = "Bathhouse Noren Curtains",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/menlianwq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You should brush the curtains aside, not walk straight through them.",
+		tag = 1,
+		icon = "menlianwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99112,
+		can_rotate = 0,
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99113] = {
+		effect = "",
+		name = "Wooden Clogs",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/mujiwq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "How do I win in these wooden clogs? No one else has said that today.",
+		tag = 1,
+		icon = "mujiwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99114] = {
+		effect = "",
+		name = "Bathhouse Bonsai",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/penjingwq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Its pot is more like a table.",
+		tag = 1,
+		icon = "penjingwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99114,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99115] = {
+		effect = "",
+		name = "Bathhouse Screen",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "Wq/pingfengwq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Repositionable privacy and wabi-sabi.",
+		tag = 1,
+		icon = "pingfengwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99115,
+		can_rotate = 0,
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99116] = {
+		effect = "",
+		name = "Bathhouse Stone",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/shitouwq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It says, \"Welcome. Enjoy the waters\" in stone-speak.",
+		tag = 1,
+		icon = "shitouwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99116,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99117] = {
+		effect = "",
+		name = "Tatami-style Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq/tatamiwq",
+		is_get_time_note = 0,
+		themeId = 99,
+		count = 3,
+		is_3d_obj = 0,
+		describe = "It's actually quite cozy, once you get used to it.",
+		tag = 1,
+		icon = "tatamiwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		id = 99117,
+		can_rotate = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {
+			0,
+			-5.05
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			}
+		},
+		interAction = {
+			{
+				"sleep",
+				{
+					25,
+					59
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99120] = {
+		effect = "",
+		name = "Bathhouse Clothing Rack",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/yuyijiawq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The most beautiful bathrobes you've seen.",
+		tag = 1,
+		icon = "yuyijiawqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99120,
+		can_rotate = 0,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99121] = {
+		effect = "",
+		name = "Small Onsen Bath",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq/xiaowenquanwq",
+		is_get_time_note = 0,
+		themeId = 99,
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Less private space than a bigger bath... which creates certain opportunities with people.",
+		tag = 1,
+		icon = "xiaowenquanwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99121,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-0.8,
+					-147.8
+				},
+				{
+					-1,
+					1
+				},
+				"wq/xiaowenquanwq_using",
+				0,
+				{
+					{
+						0.4,
+						71.6
+					},
+					{
+						316,
+						344
+					},
+					"wq/xiaowenquanwq_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99123] = {
+		effect = "",
+		name = "Bath Bucket",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/zaopenwq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Remember to wash up before going in.",
+		tag = 1,
+		icon = "zaopenwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99123,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99124] = {
+		effect = "",
+		name = "Bathhouse Cushion (Thick)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq/zuodian1wq",
+		is_get_time_note = 0,
+		themeId = 99,
+		count = 2,
+		is_3d_obj = 0,
+		describe = "It's somewhere between a pillow and a chair in how much give it has.",
+		tag = 1,
+		icon = "zuodian1wqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99124,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-12.1,
+					38
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99126] = {
+		effect = "",
+		name = "Bathhouse Cushion (Thin)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq/zuodian2wq",
+		is_get_time_note = 0,
+		themeId = 99,
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Feels a tiny, tiny bit like a trampoline.",
+		tag = 1,
+		icon = "zuodian2wqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99126,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-12.1,
+					38
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99128] = {
+		effect = "",
+		name = "Volcano Bath",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Can you really refuse a bath offered by such a cute little face?",
+		themeId = 99,
+		icon = "huoshanwenquanwqicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99128,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huoshanwenquanwqB",
+				"normal"
+			},
+			{
+				"huoshanwenquanwqT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[99201] = {
+		effect = "",
+		name = "Cup of Green Tea",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/lvchawq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Wet your whistle after wetting your body.",
+		tag = 2,
+		icon = "lvchawqicon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99201,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99202] = {
+		effect = "",
+		name = "Assorted Milk Jugs",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/niunaiwq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "These taste simply divine after a long, hot bath.",
+		tag = 2,
+		icon = "niunaiwqicon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99202,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99203] = {
+		effect = "",
+		name = "Hanami Dango",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/tuanziwq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A colorful, chewy treat.",
+		tag = 2,
+		icon = "tuanziwqicon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99203,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99204] = {
+		effect = "",
+		name = "Onsen Tamago",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/wenquandanwq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The bathhouse's little-known specialty.",
+		tag = 2,
+		icon = "wenquandanwqicon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 99204,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99301] = {
+		effect = "",
+		name = "Bathhouse Painting",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/guahuawq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Clouds, a mountain, and trees. Imagery you've seen a million times, but always appreciate more of.",
+		tag = 5,
+		icon = "guahuawqicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 99301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99302] = {
+		effect = "",
+		name = "Bathhouse Sliding Windows",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/lachuangwq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The cherry blossoms are blooming outside.",
+		tag = 5,
+		icon = "lachuangwqicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 99302,
+		can_rotate = 0,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99303] = {
+		effect = "",
+		name = "Bathhouse Sliding Doors",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/lamenwq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "What's behind door number three?",
+		tag = 5,
+		icon = "lamenwqicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 99303,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[99304] = {
+		effect = "",
+		name = "Cartoon Hanging Scroll",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 99,
+		is_get_time_note = 0,
+		picture = "wq/shufawq",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "An artistic depiction of how one should enjoy the bath.",
+		tag = 5,
+		icon = "shufawqicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 99304,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	get_id_list_by_themeId = {
 		[0] = {
 			1,
@@ -104593,6 +106028,7 @@ pg.furniture_data_template = {
 			100033,
 			100034,
 			100035,
+			100036,
 			100037,
 			100042,
 			100044,
@@ -104767,6 +106203,7 @@ pg.furniture_data_template = {
 			100033,
 			100034,
 			100035,
+			100036,
 			100037,
 			100042,
 			100044,
@@ -109353,6 +110790,66 @@ pg.furniture_data_template = {
 			98312,
 			98313,
 			98314
+		},
+		[99] = {
+			99001,
+			99002,
+			99101,
+			99102,
+			99103,
+			99104,
+			99105,
+			99106,
+			99109,
+			99112,
+			99113,
+			99114,
+			99115,
+			99116,
+			99117,
+			99120,
+			99121,
+			99123,
+			99124,
+			99126,
+			99128,
+			99201,
+			99202,
+			99203,
+			99204,
+			99301,
+			99302,
+			99303,
+			99304,
+			99001,
+			99002,
+			99101,
+			99102,
+			99103,
+			99104,
+			99105,
+			99106,
+			99109,
+			99112,
+			99113,
+			99114,
+			99115,
+			99116,
+			99117,
+			99120,
+			99121,
+			99123,
+			99124,
+			99126,
+			99128,
+			99201,
+			99202,
+			99203,
+			99204,
+			99301,
+			99302,
+			99303,
+			99304
 		}
 	},
 	get_id_list_by_tag = {
@@ -110854,7 +112351,25 @@ pg.furniture_data_template = {
 			98138,
 			98139,
 			98140,
-			98141
+			98141,
+			99101,
+			99102,
+			99103,
+			99104,
+			99105,
+			99106,
+			99109,
+			99112,
+			99113,
+			99114,
+			99115,
+			99116,
+			99117,
+			99120,
+			99121,
+			99123,
+			99124,
+			99126
 		},
 		{
 			1108,
@@ -110995,7 +112510,11 @@ pg.furniture_data_template = {
 			92203,
 			92204,
 			98201,
-			98202
+			98202,
+			99201,
+			99202,
+			99203,
+			99204
 		},
 		[6] = {
 			1,
@@ -111144,6 +112663,7 @@ pg.furniture_data_template = {
 			100033,
 			100034,
 			100035,
+			100036,
 			100037,
 			100042,
 			100044,
@@ -111296,7 +112816,8 @@ pg.furniture_data_template = {
 			96116,
 			96117,
 			97131,
-			98142
+			98142,
+			99128
 		},
 		[4] = {
 			1001,
@@ -111376,7 +112897,8 @@ pg.furniture_data_template = {
 			95001,
 			96001,
 			97001,
-			98001
+			98001,
+			99001
 		},
 		[3] = {
 			1002,
@@ -111457,7 +112979,8 @@ pg.furniture_data_template = {
 			95002,
 			96002,
 			97002,
-			98002
+			98002,
+			99002
 		},
 		[5] = {
 			1301,
@@ -111743,7 +113266,11 @@ pg.furniture_data_template = {
 			98304,
 			98312,
 			98313,
-			98314
+			98314,
+			99301,
+			99302,
+			99303,
+			99304
 		}
 	},
 	get_id_list_by_type = {
@@ -111826,7 +113353,8 @@ pg.furniture_data_template = {
 			95002,
 			96002,
 			97002,
-			98002
+			98002,
+			99002
 		},
 		[7] = {
 			1,
@@ -111948,6 +113476,7 @@ pg.furniture_data_template = {
 			100031,
 			100033,
 			100035,
+			100036,
 			100044
 		},
 		[2] = {
@@ -113442,7 +114971,26 @@ pg.furniture_data_template = {
 			98139,
 			98140,
 			98141,
-			98142
+			98142,
+			99101,
+			99102,
+			99103,
+			99104,
+			99105,
+			99106,
+			99109,
+			99112,
+			99113,
+			99114,
+			99115,
+			99116,
+			99117,
+			99120,
+			99121,
+			99123,
+			99124,
+			99126,
+			99128
 		},
 		[11] = {
 			131,
@@ -113574,7 +115122,8 @@ pg.furniture_data_template = {
 			95001,
 			96001,
 			97001,
-			98001
+			98001,
+			99001
 		},
 		[5] = {
 			1101,
@@ -113843,7 +115392,11 @@ pg.furniture_data_template = {
 			92203,
 			92204,
 			98201,
-			98202
+			98202,
+			99201,
+			99202,
+			99203,
+			99204
 		},
 		[6] = {
 			1301,
@@ -114127,7 +115680,11 @@ pg.furniture_data_template = {
 			98304,
 			98312,
 			98313,
-			98314
+			98314,
+			99301,
+			99302,
+			99303,
+			99304
 		},
 		[8] = {
 			17121
@@ -114302,6 +115859,7 @@ pg.furniture_data_template = {
 		100033,
 		100034,
 		100035,
+		100036,
 		100037,
 		100042,
 		100044,
@@ -116526,6 +118084,35 @@ pg.furniture_data_template = {
 		98304,
 		98312,
 		98313,
-		98314
+		98314,
+		99001,
+		99002,
+		99101,
+		99102,
+		99103,
+		99104,
+		99105,
+		99106,
+		99109,
+		99112,
+		99113,
+		99114,
+		99115,
+		99116,
+		99117,
+		99120,
+		99121,
+		99123,
+		99124,
+		99126,
+		99128,
+		99201,
+		99202,
+		99203,
+		99204,
+		99301,
+		99302,
+		99303,
+		99304
 	}
 }

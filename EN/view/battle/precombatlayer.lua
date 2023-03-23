@@ -52,6 +52,8 @@ function slot0.CommonInit(slot0)
 	slot0._mainGS = slot1:Find("gear_score/main/Text")
 	slot0._vanguardGS = slot1:Find("gear_score/vanguard/Text")
 	slot0._subGS = slot1:Find("gear_score/submarine/Text")
+	slot0._bgFleet = slot1:Find("mask/grid_bg")
+	slot0._bgSub = slot1:Find("mask/bg_sub")
 	slot0._gridTFs = {
 		[TeamType.Vanguard] = {},
 		[TeamType.Main] = {},
@@ -420,16 +422,28 @@ end
 
 function slot0.UpdateFleetView(slot0, slot1)
 	slot0:displayFleetInfo()
+	slot0:updateFleetBg()
 	slot0._formationLogic:UpdateGridVisibility()
 	slot0._formationLogic:ResetGrid(TeamType.Vanguard, slot0._currentForm ~= uv0.FORM_EDIT)
 	slot0._formationLogic:ResetGrid(TeamType.Main, slot0._currentForm ~= uv0.FORM_EDIT)
-	SetActive(slot0._gridTFs[TeamType.Main][1]:Find("flag"), true)
+	slot0._formationLogic:ResetGrid(TeamType.Submarine, slot0._currentForm ~= uv0.FORM_EDIT)
+	slot0:resetFormationComponent()
 
 	if slot1 then
 		slot0._formationLogic:LoadAllCharacter()
 	else
 		slot0._formationLogic:SetAllCharacterPos()
 	end
+end
+
+function slot0.updateFleetBg(slot0)
+	setActive(slot0._bgFleet, slot0._currentFleetVO:getFleetType() == FleetType.Normal)
+	setActive(slot0._bgSub, slot1 == FleetType.Submarine)
+end
+
+function slot0.resetFormationComponent(slot0)
+	SetActive(slot0._gridTFs.main[1]:Find("flag"), #slot0._currentFleetVO:getTeamByName(TeamType.Main) ~= 0)
+	SetActive(slot0._gridTFs.submarine[1]:Find("flag"), #slot0._currentFleetVO:getTeamByName(TeamType.Submarine) ~= 0)
 end
 
 function slot0.uiStartAnimating(slot0)
@@ -579,10 +593,14 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.displayFleetInfo(slot0)
-	setActive(slot0._costContainer, slot4 ~= SYSTEM_DUEL)
+	setActive(slot0._vanguardGS.parent, slot0._currentFleetVO:getFleetType() == FleetType.Normal)
+	setActive(slot0._mainGS.parent, slot1 == FleetType.Normal)
+	setActive(slot0._subGS.parent, slot1 == FleetType.Submarine)
+	setActive(slot0._costContainer, slot6 ~= SYSTEM_DUEL)
 	uv0.tweenNumText(slot0._costText, pg.battle_cost_template[slot0.contextData.system].oil_cost == 0 and 0 or slot0._currentFleetVO:GetCostSum().oil)
-	uv0.tweenNumText(slot0._vanguardGS, slot0._currentFleetVO:GetGearScoreSum(TeamType.Vanguard))
-	uv0.tweenNumText(slot0._mainGS, slot0._currentFleetVO:GetGearScoreSum(TeamType.Main))
+	uv0.tweenNumText(slot0._vanguardGS, math.floor(slot0._currentFleetVO:GetGearScoreSum(TeamType.Vanguard)))
+	uv0.tweenNumText(slot0._mainGS, math.floor(slot0._currentFleetVO:GetGearScoreSum(TeamType.Main)))
+	uv0.tweenNumText(slot0._subGS, math.floor(slot0._currentFleetVO:GetGearScoreSum(TeamType.Submarine)))
 	setText(slot0._fleetNameText, uv0.defaultFleetName(slot0._currentFleetVO))
 	setText(slot0._fleetNumText, slot0._currentFleetVO.id)
 end
