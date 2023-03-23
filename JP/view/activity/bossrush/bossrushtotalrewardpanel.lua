@@ -111,4 +111,8 @@ function slot0.UpdateView(slot0)
 	end)
 end
 
+function slot0.willExit(slot0)
+	pg.m02:sendNotification(BossRushTotalRewardPanelMediator.ON_WILL_EXIT)
+end
+
 return slot0

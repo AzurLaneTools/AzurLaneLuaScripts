@@ -417,6 +417,10 @@ function slot0.HideConfirmPanel(slot0)
 	setActive(slot0.rightBottomPanel:Find("confirmBtn"), false)
 end
 
+function slot0.onBackPressed(slot0)
+	triggerButton(slot0.rightBottomPanel:Find("confirmBtn"))
+end
+
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	slot0.loader:Clear()

@@ -8795,7 +8795,7 @@ _G.pg.base.gametip.word_status_train = {
 }
 
 _G.pg.base.gametip.word_status_challenge = {
-	tip = "<size=24>ﾁｬﾚﾝｼﾞ出撃</size>"
+	tip = "<size=24>ｲﾍﾞﾝﾄ出撃</size>"
 }
 
 _G.pg.base.gametip.word_status_world = {

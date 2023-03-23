@@ -77,6 +77,10 @@ function slot0.retPainting(slot0, slot1, slot2)
 	retPaintingPrefab(slot1, slot2)
 end
 
+function slot0.onBackPressed(slot0)
+	triggerButton(slot0._tf:Find("Confirm"))
+end
+
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 

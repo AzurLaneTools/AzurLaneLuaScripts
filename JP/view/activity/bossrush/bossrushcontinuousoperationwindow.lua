@@ -33,6 +33,12 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.panel:Find("battle"), function ()
+		if getProxy(PlayerProxy):getRawData().oil < uv0.contextData.oilCost * uv0.contextData.battleTimes then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
+
+			return
+		end
+
 		uv0:emit(PreCombatMediator.CONTINUOUS_OPERATION)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf:Find("window/top/btnBack"), function ()
@@ -56,7 +62,14 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.UpdateContent(slot0)
-	slot0.consumeText.text = i18n("multiple_sorties_cost1", slot0.contextData.oilCost * slot0.contextData.battleTimes)
+	slot2 = slot0.contextData.oilCost * slot0.contextData.battleTimes
+	slot3 = i18n("multiple_sorties_cost1", slot2)
+
+	if getProxy(PlayerProxy):getRawData().oil < slot2 then
+		slot3 = string.gsub(slot3, "#92fc63", COLOR_RED)
+	end
+
+	slot0.consumeText.text = slot3
 end
 
 return slot0

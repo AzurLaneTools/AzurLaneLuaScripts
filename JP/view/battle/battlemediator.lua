@@ -133,10 +133,13 @@ function slot0.register(slot0)
 
 	if slot0.contextData.continuousBattleTimes and slot0.contextData.continuousBattleTimes > 0 then
 		if not getProxy(ContextProxy):getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
+			slot3 = CreateShell(slot0.contextData)
+			slot3.LayerWeightMgr_weight = LayerWeightConst.BASE_LAYER
+
 			slot0:addSubLayers(Context.New({
 				mediator = ContinuousOperationMediator,
 				viewComponent = ContinuousOperationPanel,
-				data = CreateShell(slot0.contextData)
+				data = slot3
 			}))
 		end
 

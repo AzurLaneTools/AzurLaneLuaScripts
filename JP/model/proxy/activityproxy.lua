@@ -699,7 +699,8 @@ function slot0.getEnterReadyActivity(slot0)
 		[ActivityConst.ACTIVITY_TYPE_ZPROJECT] = false,
 		[ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2] = function (slot0)
 			return not slot0:checkBattleTimeInBossAct()
-		end
+		end,
+		[ActivityConst.ACTIVITY_TYPE_BOSSRUSH] = false
 	})) do
 		slot3[slot8] = 0
 	end

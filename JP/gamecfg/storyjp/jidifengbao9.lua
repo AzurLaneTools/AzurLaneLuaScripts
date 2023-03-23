@@ -373,6 +373,7 @@ return {
 			bgName = "bg_hms_8",
 			actor = 702040,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "クロンシュタットに言わせれば「どーんと頼れる北方連合の簡易版気象兵器」だ",
 			painting = {
 				alpha = 0.3,

@@ -544,6 +544,9 @@ function slot0.didEnter(slot0)
 			end,
 			[ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2] = function ()
 				uv0:emit(LevelMediator2.ON_OPEN_ACT_BOSS_BATTLE)
+			end,
+			[ActivityConst.ACTIVITY_TYPE_BOSSRUSH] = function ()
+				uv0:emit(LevelMediator2.ON_BOSSRUSH_MAP)
 			end
 		})
 	end, SFX_PANEL)

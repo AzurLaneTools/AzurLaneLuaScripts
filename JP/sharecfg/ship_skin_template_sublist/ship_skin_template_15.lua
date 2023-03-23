@@ -9385,7 +9385,6 @@ pg.ship_skin_template_15 = {
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		l2d_voice_calibrate = "",
 		tag = {
 			1,
 			2
@@ -9476,6 +9475,9 @@ pg.ship_skin_template_15 = {
 			"touch_body",
 			"touch_special",
 			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
 		},
 		ship_l2d_id = {
 			7030211,

@@ -165,6 +165,15 @@ function slot0.UpdateView(slot0)
 	slot0:UpdateStory()
 	seriesAsync({
 		function (slot0)
+			if uv0.activity:HasPassSeries(1001) and not getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossRushTotalRewardPanelMediator) then
+				pg.SystemGuideMgr.GetInstance():PlayByGuideId("NG0036", nil, slot0)
+
+				return
+			end
+
+			slot0()
+		end,
+		function (slot0)
 			slot2 = nil
 
 			if uv0.contextData.displayMode == uv1.DISPLAY.BATTLE then

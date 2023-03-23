@@ -1132,9 +1132,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			actorName = "通信",
 			bgName = "bg_hms_8",
+			nameColor = "#A9F548FF",
 			say = "―――",
 			typewriter = {
 				speed = 0.05,
