@@ -723,7 +723,7 @@ return {
 		},
 		{
 			nameColor = "#A9F548FF",
-			actorName = "众人",
+			actorName = "All",
 			bgName = "bg_hms_8",
 			side = 2,
 			blackBg = true,

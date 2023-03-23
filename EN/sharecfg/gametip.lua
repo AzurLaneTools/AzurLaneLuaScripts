@@ -21173,9 +21173,9 @@ cs.gametip = {
 		111,
 		true
 	},
-	series_enemy_teamTips = {
+	limit_team_character_tips = {
 		797340,
-		150,
+		154,
 		true
 	}
 }

@@ -194563,10 +194563,10 @@ Use this to randomly obtain one of the following outfits (duplicate outfits will
 The available outfits and their rarities are as follows:
 （<color=#92fc64>13.0%</color>）Kursk - Lone Wolf Amid the Steam<color=#92fc63> Live2D</color>;
 （<color=#92fc66>13.0%</color>）Grozny - Bunny in the Banya<color=#92fc63> Live2D</color>;
-（<color=#92fc63>13.0%</color>）Voroshilov - Devoted as the Warm Snow ；
-（<color=#92fc67>13.0%</color>）Trieste - Amore Termico ；
-（<color=#92fc68>13.0%</color>）Joffre - Sublime Elysium ；
-（<color=#92fc69>17.5%</color>）Mainz - The Silkiest Brew ；
+（<color=#92fc63>13.0%</color>）Voroshilov - Devoted as the Warm Snow;
+（<color=#92fc67>13.0%</color>）Trieste - Amore Termico;
+（<color=#92fc68>13.0%</color>）Joffre - Sublime Elysium;
+（<color=#92fc69>17.5%</color>）Mainz - The Silkiest Brew;
 （<color=#92fc65>17.5%</color>）Sevastopol - More than a Little Drunk ]],
 	name = "Random Ship skin",
 	max_num = 0,

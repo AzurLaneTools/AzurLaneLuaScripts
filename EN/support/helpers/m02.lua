@@ -2066,10 +2066,30 @@ function filterSpecChars(slot0)
 
 				slot2 = slot2 + 1
 			end
-		elseif slot6 == 45 then
+		elseif slot6 == 45 or slot6 == 40 or slot6 == 41 then
 			table.insert(slot1, string.char(slot6))
 		elseif slot6 == 194 then
 			if string.byte(slot0, slot5 + 1) == 183 then
+				slot5 = slot5 + 1
+
+				table.insert(slot1, string.char(slot6, slot7))
+
+				slot2 = slot2 + 1
+			end
+		elseif slot6 == 239 then
+			slot8 = string.byte(slot0, slot5 + 2)
+
+			if string.byte(slot0, slot5 + 1) == 188 and (slot8 == 136 or slot8 == 137) then
+				slot5 = slot5 + 2
+
+				table.insert(slot1, string.char(slot6, slot7, slot8))
+
+				slot2 = slot2 + 1
+			end
+		elseif slot6 == 206 or slot6 == 207 then
+			slot7 = string.byte(slot0, slot5 + 1)
+
+			if slot6 == 206 and slot7 >= 177 or slot6 == 207 and slot7 <= 134 then
 				slot5 = slot5 + 1
 
 				table.insert(slot1, string.char(slot6, slot7))
