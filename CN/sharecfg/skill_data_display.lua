@@ -7538,11 +7538,11 @@ pg.skill_data_display = {
 	},
 	[29171] = {
 		id = 29171,
-		name = "专属弹幕-Z1I"
+		name = "专属弹幕-{namecode:400}I"
 	},
 	[29172] = {
 		id = 29172,
-		name = "专属弹幕-Z1II"
+		name = "专属弹幕-{namecode:400}II"
 	},
 	[29181] = {
 		id = 29181,
@@ -7570,11 +7570,11 @@ pg.skill_data_display = {
 	},
 	[29211] = {
 		id = 29211,
-		name = "专属弹幕-Z46I"
+		name = "专属弹幕-{namecode:412}I"
 	},
 	[29212] = {
 		id = 29212,
-		name = "专属弹幕-Z46II"
+		name = "专属弹幕-{namecode:412}II"
 	},
 	[29221] = {
 		id = 29221,

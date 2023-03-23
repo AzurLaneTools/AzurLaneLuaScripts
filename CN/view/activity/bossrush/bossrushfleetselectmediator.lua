@@ -32,7 +32,11 @@ function slot0.register(slot0)
 			onShip = slot6,
 			confirmSelect = slot7,
 			onSelected = slot8,
-			hideTagFlags = ShipStatus.TAG_HIDE_NORMAL,
+			hideTagFlags = setmetatable({
+				inActivity = uv0.contextData.actId
+			}, {
+				__index = ShipStatus.TAG_HIDE_ACTIVITY_BOSS
+			}),
 			otherSelectedIds = slot4,
 			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
 				isActivityNpc = true
@@ -358,8 +362,8 @@ function slot0.openCommanderPanel(slot0, slot1, slot2)
 				if slot0.type == LevelUIConst.COMMANDER_OP_SHOW_SKILL then
 					uv0.viewComponent:emit(uv1.ON_COMMANDER_SKILL, slot0.skill)
 				elseif slot0.type == LevelUIConst.COMMANDER_OP_ADD then
-					uv0.viewComponent:emit(uv1.ON_SELECT_COMMANDER, uv2, slot0.pos)
 					uv0:closeCommanderPanel()
+					uv0.viewComponent:emit(uv1.ON_SELECT_COMMANDER, uv2, slot0.pos)
 				else
 					uv0:sendNotification(GAME.COMMANDER_FORMATION_OP, {
 						data = {
@@ -410,12 +414,20 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 	slot5 = getProxy(BayProxy)
 
 	return function (slot0, slot1)
-		if uv0 and uv0:isSameKind(slot0) then
+		slot2, slot3 = ShipStatus.ShipStatusCheck("inActivity", slot0, slot1, {
+			inActivity = uv0
+		})
+
+		if not slot2 then
+			return slot2, slot3
+		end
+
+		if uv1 and uv1:isSameKind(slot0) then
 			return true
 		end
 
-		for slot5, slot6 in ipairs(uv1) do
-			if slot0:isSameKind(uv2:getShipById(slot6)) then
+		for slot7, slot8 in ipairs(uv2) do
+			if slot0:isSameKind(uv3:getShipById(slot8)) then
 				return false, i18n("ship_formationMediator_changeNameError_sameShip")
 			end
 		end

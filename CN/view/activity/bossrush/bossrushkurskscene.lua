@@ -218,14 +218,14 @@ function slot0.UpdateBattle(slot0)
 		})
 		slot4 = slot3:IsUnlock(uv1)
 
-		setActive(slot1:Find("NameBG/"), slot4)
-		setActive(slot1:Find("Lock"), not slot4)
-		setText(slot1:Find("ChapterName"), slot3:GetSeriesCode())
-		setText(slot1:Find("NameBG/Name"), slot3:GetName())
+		setActive(slot1:Find("Pin/NameBG"), slot4)
+		setActive(slot1:Find("Pin/Lock"), not slot4)
+		setText(slot1:Find("Pin/ChapterName"), slot3:GetSeriesCode())
+		setText(slot1:Find("Pin/NameBG/Name"), slot3:GetName())
 
 		slot5 = slot3:GetType() == BossRushSeriesData.TYPE.SP
 
-		setActive(slot1:Find("NameBG/BonusCount"), slot4 and slot5)
+		setActive(slot1:Find("Pin/NameBG/BonusCount"), slot4 and slot5)
 
 		slot6 = true
 
@@ -233,8 +233,8 @@ function slot0.UpdateBattle(slot0)
 			slot7 = uv1:GetUsedBonus()[slot0] or 0
 			slot8 = slot3:GetMaxBonusCount()
 
-			setText(slot1:Find("NameBG/BonusCount"):GetChild(0), i18n("series_enemy_SP_count"))
-			setText(slot1:Find("NameBG/BonusCount"):GetChild(1), math.max(0, slot8 - slot7) .. "/" .. slot8)
+			setText(slot1:Find("Pin/NameBG/BonusCount"):GetChild(0), i18n("series_enemy_SP_count"))
+			setText(slot1:Find("Pin/NameBG/BonusCount"):GetChild(1), math.max(0, slot8 - slot7) .. "/" .. slot8)
 
 			slot6 = slot8 - slot7 > 0
 		end

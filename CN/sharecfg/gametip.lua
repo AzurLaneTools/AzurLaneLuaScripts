@@ -20432,5 +20432,10 @@ cs.gametip = {
 		737627,
 		114,
 		true
+	},
+	series_enemy_teamTips = {
+		737741,
+		131,
+		true
 	}
 }

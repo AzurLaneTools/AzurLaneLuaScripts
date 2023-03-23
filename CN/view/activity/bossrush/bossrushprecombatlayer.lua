@@ -8,6 +8,10 @@ function slot0.getUIName(slot0)
 	return "BossRushPreCombatUI"
 end
 
+function slot0.tempCache(slot0)
+	return true
+end
+
 function slot0.init(slot0)
 	slot0:CommonInit()
 

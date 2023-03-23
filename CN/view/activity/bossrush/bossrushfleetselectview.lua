@@ -48,6 +48,7 @@ function slot0.InitUI(slot0)
 	setText(slot0._tf:Find("Panel/Reward/Normal/Base/Text"), i18n("series_enemy_reward_tip1"))
 	setText(slot0._tf:Find("Panel/Reward/Normal/Mode/Text"), i18n("series_enemy_reward_tip2"))
 	setText(slot0._tf:Find("Panel/Reward/EX/Title"), i18n("series_enemy_reward_tip4"))
+	setText(slot0._tf:Find("Panel/Reward/Tip"), i18n("series_enemy_teamTips"))
 	setText(slot0._tf:Find("Panel/Info/Modes/Single/On/Text"), i18n("series_enemy_mode_1"))
 	setText(slot0._tf:Find("Panel/Info/Modes/Single/Off/Text"), i18n("series_enemy_mode_1"))
 	setText(slot0._tf:Find("Panel/Info/Modes/Multiple/On/Text"), i18n("series_enemy_mode_2"))
@@ -282,6 +283,11 @@ end
 function slot0.onCancelHard(slot0)
 	slot0:emit(BossRushFleetSelectMediator.ON_UPDATE_CUSTOM_FLEET)
 	slot0:closeView()
+end
+
+function slot0.onBackPressed(slot0)
+	slot0:onCancelHard()
+	uv0.super.onBackPressed(slot0)
 end
 
 function slot0.setHardShipVOs(slot0, slot1)

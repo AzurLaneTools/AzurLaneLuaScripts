@@ -239,7 +239,7 @@ function slot0.didEnter(slot0)
 		groupName = LayerWeightConst.GROUP_COMBAT
 	})
 
-	if slot0.contextData.system ~= SYSTEM_BOSS_RUSH or slot0.contextData.system ~= SYSTEM_ACT_BOSS then
+	if slot0.contextData.system ~= SYSTEM_BOSS_RUSH and slot0.contextData.system ~= SYSTEM_BOSS_RUSH_EX and slot0.contextData.system ~= SYSTEM_ACT_BOSS then
 		ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCemera(false)
 	end
 

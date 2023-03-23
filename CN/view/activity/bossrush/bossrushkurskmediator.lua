@@ -75,7 +75,7 @@ function slot0.handleNotification(slot0, slot1)
 			if slot5:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
 				slot0.viewComponent:SetActivity(slot5)
 				slot0.viewComponent:UpdateView()
-			elseif slot5:getDataConfig("pt") == pg.gameset.activity_res_id.key_value then
+			elseif slot5:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF and slot5:getDataConfig("pt") == pg.gameset.activity_res_id.key_value then
 				slot0.viewComponent:SetPtActivity(slot5)
 				slot0.viewComponent:UpdateView()
 			end

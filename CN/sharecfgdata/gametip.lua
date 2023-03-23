@@ -23403,3 +23403,7 @@ _G.pg.base.gametip.series_enemy_empty_commander_main = {
 _G.pg.base.gametip.series_enemy_empty_commander_assistant = {
 	tip = "暂无参谋"
 }
+
+_G.pg.base.gametip.series_enemy_teamTips = {
+	tip = "※参战的舰队中不可出现同名角色"
+}

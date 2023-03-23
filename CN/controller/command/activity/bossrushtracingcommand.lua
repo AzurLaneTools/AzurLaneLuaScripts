@@ -101,6 +101,14 @@ function slot0.execute(slot0, slot1)
 				getProxy(PlayerProxy):updatePlayer(slot2)
 			end
 
+			(function ()
+				if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK) then
+					return
+				end
+
+				slot0:ResetLast()
+				getProxy(ActivityProxy):updateActivity(slot0)
+			end)()
 			uv3:sendNotification(GAME.BOSSRUSH_TRACE_DONE, uv1)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))

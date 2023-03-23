@@ -182,7 +182,8 @@ function slot0.register(slot0)
 			end
 
 			if slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
-				uv1:sendNotification(uv2.CONTINUE_OPERATION)
+				uv1:sendNotification(ContinuousOperationMediator.CONTINUE_OPERATION)
+				existCall(uv1.viewComponent.HideConfirmPanel, uv1.viewComponent)
 
 				slot5 = getProxy(ActivityProxy):getActivityById(uv1.contextData.actId)
 				slot8 = slot5:IsOilLimit(uv1.contextData.stageId)
@@ -248,15 +249,19 @@ function slot0.register(slot0)
 					end)
 				end
 
-				if uv1.contextData.continuousBattleTimes <= 1 then
+				if slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) and not slot20.data.autoFlag then
 					uv1:DisplayTotalReward()
-				elseif not uv1.contextData.autoFlag then
-					uv1:DisplayTotalReward()
-				else
-					uv1:sendNotification(ContinuousOperationMediator.ON_COMPLETE_BATTLE_RESULT)
+
+					return
 				end
 
-				existCall(uv1.viewComponent.HideConfirmPanel, uv1.viewComponent)
+				if uv1.contextData.continuousBattleTimes < 1 then
+					uv1:DisplayTotalReward()
+
+					return
+				end
+
+				uv1:sendNotification(BattleResultMediator.ON_COMPLETE_BATTLE_RESULT)
 
 				return
 			end
