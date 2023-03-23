@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"德意志的忧郁\n\n<size=45>二　高贵</size>",
+					"{namecode:429}的忧郁\n\n<size=45>二　高贵</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "和德意志出外勤的时候，看到了这样的一幕。",
+			say = "和{namecode:429}出外勤的时候，看到了这样的一幕。",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -162,7 +162,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那边不是格奈森瑙嘛，来得正好，仆人，你看着。",
+			say = "那边不是{namecode:434}嘛，来得正好，仆人，你看着。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，格奈森瑙。",
+			say = "喂，{namecode:434}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这不是德意志吗，怎么了？",
+			say = "这不是{namecode:429}吗，怎么了？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -240,7 +240,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……倒是也没有什么特别的问题呢，我会转告提尔比茨请她处理好的。",
+			say = "唔……倒是也没有什么特别的问题呢，我会转告{namecode:436}请她处理好的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "格奈森瑙说完就离开了。",
+			say = "{namecode:434}说完就离开了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "……格奈森瑙的态度，与其说是顺从，不如说是无所谓呢。",
+			say = "……{namecode:434}的态度，与其说是顺从，不如说是无所谓呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

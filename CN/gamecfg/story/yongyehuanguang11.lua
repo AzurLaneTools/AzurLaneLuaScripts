@@ -38,7 +38,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "欧根，这次的行动名是你定的，还是腓特烈大帝？",
+			say = "{namecode:428}，这次的行动名是你定的，还是{namecode:440}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "欧根，那边奇怪的指示灯开始乱闪起来了。",
+			say = "{namecode:428}，那边奇怪的指示灯开始乱闪起来了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "真的成功拦截到了么！腓特烈还真是给了我们一个好玩具啊…！",
+			say = "真的成功拦截到了么！{namecode:441}还真是给了我们一个好玩具啊…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "欧根，笑得好恶心。",
+			say = "{namecode:428}，笑得好恶心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

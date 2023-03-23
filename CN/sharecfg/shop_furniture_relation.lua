@@ -58,7 +58,7 @@ pg.shop_furniture_relation = {
 	[70700] = {
 		fur_id = 200005,
 		id = 70700,
-		desc = "欧根亲王——沉醉于夜",
+		desc = "{namecode:427}——沉醉于夜",
 		scale = {
 			0.65,
 			0.75

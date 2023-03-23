@@ -315,6 +315,69 @@ pg.ship_meta_breakout = {
 		pre_id = 9702033,
 		weapon_ids = {}
 	},
+	[9702041] = {
+		breakout_view = "习得技能【逐光之焰·拉·加利索尼埃】/主炮效率提高5%",
+		gold = 500,
+		breakout_id = 9702042,
+		repair = 0,
+		item2 = 21020,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9702041,
+		item1 = 21020,
+		pre_id = 0,
+		weapon_ids = {
+			170041
+		}
+	},
+	[9702042] = {
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		gold = 1500,
+		breakout_id = 9702043,
+		repair = 0,
+		item2 = 21020,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9702042,
+		item1 = 21020,
+		pre_id = 9702041,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9702043] = {
+		breakout_view = "【逐光之焰·拉·加利索尼埃】升级/主炮效率提高10%",
+		gold = 2500,
+		breakout_id = 9702044,
+		repair = 0,
+		item2 = 21020,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9702043,
+		item1 = 21020,
+		pre_id = 9702042,
+		weapon_ids = {
+			170042
+		}
+	},
+	[9702044] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21020,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9702044,
+		item1 = 21020,
+		pre_id = 9702043,
+		weapon_ids = {}
+	},
 	[9703011] = {
 		breakout_view = "习得技能【摇曳之火·特伦托】/主炮效率提高5%",
 		gold = 500,
@@ -379,7 +442,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704011] = {
-		breakout_view = "习得技能【逐光之焰·格奈森瑙】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "习得技能【逐光之焰·{namecode:434}】/主炮底座+1/主炮效率提高5%",
 		gold = 1000,
 		breakout_id = 9704012,
 		repair = 0,
@@ -412,7 +475,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9704013] = {
-		breakout_view = "【逐光之焰·格奈森瑙】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【逐光之焰·{namecode:434}】升级/主炮底座+1/主炮效率提高15%",
 		gold = 10000,
 		breakout_id = 9704014,
 		repair = 0,
@@ -444,7 +507,7 @@ pg.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704021] = {
-		breakout_view = "习得技能【破敌之炬·沙恩霍斯特】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "习得技能【破敌之炬·{namecode:433}】/主炮底座+1/主炮效率提高5%",
 		gold = 1000,
 		breakout_id = 9704022,
 		repair = 0,
@@ -477,7 +540,7 @@ pg.ship_meta_breakout = {
 		}
 	},
 	[9704023] = {
-		breakout_view = "【破敌之炬·沙恩霍斯特】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【破敌之炬·{namecode:433}】升级/主炮底座+1/主炮效率提高15%",
 		gold = 10000,
 		breakout_id = 9704024,
 		repair = 0,
@@ -1275,6 +1338,10 @@ pg.ship_meta_breakout = {
 		9702032,
 		9702033,
 		9702034,
+		9702041,
+		9702042,
+		9702043,
+		9702044,
 		9703011,
 		9703012,
 		9703013,

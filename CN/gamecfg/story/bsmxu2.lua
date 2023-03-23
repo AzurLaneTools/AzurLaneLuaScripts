@@ -65,7 +65,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按照这样发展下去，556很快就能成为王牌，拿到橡叶勋章，接受俾斯麦姐姐的嘉奖了吧~",
+			say = "按照这样发展下去，556很快就能成为王牌，拿到橡叶勋章，接受{namecode:435}姐姐的嘉奖了吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

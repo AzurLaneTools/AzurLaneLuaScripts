@@ -65,7 +65,7 @@ return {
 			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "这件有点……Z46你可以打扮更漂亮点的嘛～又不是Z23～",
+			say = "这件有点……{namecode:412}你可以打扮更漂亮点的嘛～又不是{namecode:408}～",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -83,7 +83,7 @@ return {
 			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "是啊……你人太认真了容易选到土里土气的衣服，干脆去问问Z35？",
+			say = "是啊……你人太认真了容易选到土里土气的衣服，干脆去问问{namecode:410}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "Z19跟Z23半斤八两，都不算！",
+			say = "{namecode:405}跟{namecode:408}半斤八两，都不算！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "Z35和Z1的打扮都太扎眼了，问问Z18的话怎么样？",
+			say = "{namecode:410}和{namecode:400}的打扮都太扎眼了，问问{namecode:404}的话怎么样？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "问Z18的话什么都说好，不算啦。啊！Z36说不定行！",
+			say = "问{namecode:404}的话什么都说好，不算啦。啊！{namecode:411}说不定行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "Z36的衣服不都是Z35给她挑的吗……？",
+			say = "{namecode:411}的衣服不都是{namecode:410}给她挑的吗……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "那Z36也不行了……所以Z46的衣服还是由我们三个决定吧……",
+			say = "那{namecode:411}也不行了……所以{namecode:412}的衣服还是由我们三个决定吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "啊！抱歉Z46！我们光顾着自说自话了>_<",
+			say = "啊！抱歉{namecode:412}！我们光顾着自说自话了>_<",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "大家真是的，把Z46晾在一边自己说个没完……Z46你挑自己喜欢的衣服就行啦！",
+			say = "大家真是的，把{namecode:412}晾在一边自己说个没完……{namecode:412}你挑自己喜欢的衣服就行啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

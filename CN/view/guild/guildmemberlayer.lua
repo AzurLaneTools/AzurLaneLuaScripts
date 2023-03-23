@@ -121,28 +121,41 @@ function slot0.LoadPainting(slot0, slot1)
 
 	setActive(slot0.buttonsPanel, true)
 
-	if not slot1:GetManifesto() or slot4 == "" then
+	slot4 = slot1:GetManifesto()
+
+	if HXSet.isHxPropose() then
+		slot4 = ""
+	end
+
+	if not slot4 or slot4 == "" then
 		setActive(slot0.chatPanel, false)
 	else
 		setActive(slot0.chatPanel, true)
 		setText(slot0:findTF("Text", slot0.chatPanel), slot4)
 	end
 
-	pg.GuildPaintingMgr:GetInstance():Update(Ship.New({
-		configId = slot1.icon,
-		skin_id = slot1.skinId
-	}):getPainting(), Vector3(-484, 0, 0), true)
+	slot5 = nil
+
+	if HXSet.isHxPropose() then
+		pg.GuildPaintingMgr:GetInstance():Update(slot0.guildVO:GetOfficePainting(), Vector3(-643, -160, 0))
+	else
+		pg.GuildPaintingMgr:GetInstance():Update(Ship.New({
+			configId = slot1.icon,
+			skin_id = slot1.skinId
+		}):getPainting(), Vector3(-484, 0, 0), true)
+	end
+
 	setActive(slot0.btns[4], slot3 == GuildConst.DUTY_DEPUTY_COMMANDER and slot2 == GuildConst.DUTY_COMMANDER and slot1:isLongOffLine())
+
+	slot6 = (slot3 == GuildConst.DUTY_DEPUTY_COMMANDER or slot3 == GuildConst.DUTY_COMMANDER) and slot3 < slot2
+
+	setButtonEnabled(slot0.btns[2], slot6)
+	setGray(slot0.btns[2], not slot6, true)
 
 	slot7 = (slot3 == GuildConst.DUTY_DEPUTY_COMMANDER or slot3 == GuildConst.DUTY_COMMANDER) and slot3 < slot2
 
-	setButtonEnabled(slot0.btns[2], slot7)
-	setGray(slot0.btns[2], not slot7, true)
-
-	slot8 = (slot3 == GuildConst.DUTY_DEPUTY_COMMANDER or slot3 == GuildConst.DUTY_COMMANDER) and slot3 < slot2
-
-	setButtonEnabled(slot0.btns[3], slot8)
-	setGray(slot0.btns[3], not slot8, true)
+	setButtonEnabled(slot0.btns[3], slot7)
+	setGray(slot0.btns[3], not slot7, true)
 end
 
 function slot0.RefreshMembers(slot0)

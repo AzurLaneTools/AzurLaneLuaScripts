@@ -36,7 +36,7 @@ return {
 			actor = 900010,
 			side = 1,
 			nameColor = "#ff0000",
-			say = "被发现了吗…欧根，立刻脱离这片海域",
+			say = "被发现了吗…{namecode:428}，立刻脱离这片海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 		},
 		{
 			actor = 900009,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			nameColor = "#ff0000",
 			side = 1,
 			actorAlpha = 0,

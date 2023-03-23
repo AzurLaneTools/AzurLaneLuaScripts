@@ -313,7 +313,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根大人，您喝醉了",
+			say = "{namecode:428}大人，您喝醉了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对不起诸位，欧根失态了…本人也没见过她酒品这么差的样子",
+			say = "对不起诸位，{namecode:428}失态了…本人也没见过她酒品这么差的样子",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "说完，众人从坐席上站了起来，只剩欧根亲王一人在酒桌旁睡了过去，脸上还带着幸福的红晕",
+			say = "说完，众人从坐席上站了起来，只剩{namecode:427}一人在酒桌旁睡了过去，脸上还带着幸福的红晕",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诸位还请自便，欧根大人由我照顾即可",
+			say = "诸位还请自便，{namecode:428}大人由我照顾即可",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "说完，众人便进入了仪式厅，留下躺在Z2膝枕上呼呼大睡的欧根亲王",
+			say = "说完，众人便进入了仪式厅，留下躺在{namecode:401}膝枕上呼呼大睡的{namecode:427}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂…喂欧根",
+			say = "喂…喂{namecode:428}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "呼…呼…哈（欧根的脸上露出幸福的笑容",
+			say = "呼…呼…哈（{namecode:428}的脸上露出幸福的笑容",
 			action = {
 				{
 					type = "shake",

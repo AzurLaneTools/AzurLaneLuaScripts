@@ -131,7 +131,7 @@ return {
 			side = 0,
 			actor = 900180,
 			dir = 1,
-			say = "这个时间点，难道会是俾斯麦姐姐…",
+			say = "这个时间点，难道会是{namecode:435}姐姐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "557你先回港通报情况，我必须要去确认一下！这是我和俾斯麦姐姐的约定！",
+			say = "557你先回港通报情况，我必须要去确认一下！这是我和{namecode:435}姐姐的约定！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -251,7 +251,7 @@ return {
 			side = 2,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "欧根也就算了…为什么白鹰的拉菲也会在这里啦！",
+			say = "{namecode:428}也就算了…为什么白鹰的拉菲也会在这里啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

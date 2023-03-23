@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "腓特烈大帝的也在赶来这里的路上，在那之前请各位放宽身心，尽情享受一下撒丁风情吧~",
+			say = "{namecode:440}的也在赶来这里的路上，在那之前请各位放宽身心，尽情享受一下撒丁风情吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -150,7 +150,7 @@ return {
 			side = 2,
 			actor = 206060,
 			dir = 1,
-			say = "仅算主力舰就有五艘......提尔比茨、沙恩霍斯特、格奈森瑙，德意志以及斯佩伯海军上将。",
+			say = "仅算主力舰就有五艘......{namecode:436}、{namecode:433}、{namecode:434}、{namecode:429}以及{namecode:430}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			actor = 206060,
 			dir = 1,
-			say = "还有重巡洋舰欧根亲王、希佩尔以及大量轻巡洋舰和驱逐舰......",
+			say = "还有重巡洋舰{namecode:427}、{namecode:426}以及大量轻巡洋舰和驱逐舰......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

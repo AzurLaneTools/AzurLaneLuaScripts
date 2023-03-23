@@ -100,7 +100,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我乃铁血第一艘航母，齐柏林伯爵！",
+			say = "我乃铁血第一艘航母，{namecode:437}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "（诶，小齐柏林急着去哪？）",
+			say = "（诶，小{namecode:438}急着去哪？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

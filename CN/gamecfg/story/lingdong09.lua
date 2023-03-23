@@ -34,7 +34,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "报告司令部“我舰将战至最后一弹，沙恩霍斯特永远向前！”",
+			say = "报告司令部“我舰将战至最后一弹，{namecode:433}永远向前！”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯嗯，拉菲、标枪、{namecode:6}、Z23……还有学院的各位，多亏了你们的帮忙呢。真的非常感谢！",
+			say = "嗯嗯，拉菲、标枪、{namecode:6}、{namecode:408}……还有学院的各位，多亏了你们的帮忙呢。真的非常感谢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23、{namecode:6}，真的非常感谢。能遇到你们真是太好了",
+			say = "{namecode:408}、{namecode:6}，真的非常感谢。能遇到你们真是太好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我知道……再见了Z23、{namecode:6}，谢谢你们。虽然发生了不少事，但我还是很开心哦",
+			say = "嗯，我知道……再见了{namecode:408}、{namecode:6}，谢谢你们。虽然发生了不少事，但我还是很开心哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…我也是，这边还有好多没有看过的书…和Z19她们也还没聊尽兴…完全不想回去……",
+			say = "哈啊…我也是，这边还有好多没有看过的书…和{namecode:405}她们也还没聊尽兴…完全不想回去……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

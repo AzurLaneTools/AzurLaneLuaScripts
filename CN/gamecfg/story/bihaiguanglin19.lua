@@ -54,7 +54,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你是……铁血的欧根亲王？",
+			say = "你是……铁血的{namecode:427}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "她的名字叫奥丁。你们不用在意她，就当她是我的侍从就好。",
+			say = "她的名字叫{namecode:486}。你们不用在意她，就当她是我的侍从就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奥丁小姐，真是一个沉默寡言的人啊……哈哈。",
+			say = "{namecode:486}小姐，真是一个沉默寡言的人啊……哈哈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这不是欧根亲王阁下么！你也是被龙宫城美丽的风景吸引进来之后受困于此的么？！",
+			say = "这不是{namecode:427}阁下么！你也是被龙宫城美丽的风景吸引进来之后受困于此的么？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欧根亲王，既然你们是先于我们被困在这里的。那就证明龙宫城至少出水入水了两次。",
+			say = "{namecode:427}，既然你们是先于我们被困在这里的。那就证明龙宫城至少出水入水了两次。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我有个疑问……算上欧根亲王，现在合计三支舰队陆续在海域中失联。",
+			say = "我有个疑问……算上{namecode:427}，现在合计三支舰队陆续在海域中失联。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

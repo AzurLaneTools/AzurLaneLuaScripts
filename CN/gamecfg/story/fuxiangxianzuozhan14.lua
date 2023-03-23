@@ -88,7 +88,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绝对不可能……铁血舰队里有战斗力的航空母舰只有齐柏林伯爵一艘，而且一直部署在欧罗巴大陆，怎么会跑到这里来。",
+			say = "绝对不可能……铁血舰队里有战斗力的航空母舰只有{namecode:437}一艘，而且一直部署在欧罗巴大陆，怎么会跑到这里来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "况且现在对面机群数量也不是齐柏林一艘航母能放出来的。从位置和数量上都和真正的铁血舰队对不上。",
+			say = "况且现在对面机群数量也不是{namecode:438}一艘航母能放出来的。从位置和数量上都和真正的铁血舰队对不上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -2317,4 +2317,22 @@ function slot0.IsMatchKey(slot0, slot1)
 	return string.find(string.lower(slot0:GetDefaultName()), string.lower(string.gsub(slot1, "%.", "%%.")))
 end
 
+function slot0.IsOwner(slot0)
+	return tobool(slot0.id)
+end
+
+function slot0.GetUniqueId(slot0)
+	return slot0.id
+end
+
+function slot0.ShowPropose(slot0)
+	if not slot0.propose then
+		return false
+	else
+		slot1 = not HXSet.isHxPropose() or slot0:IsOwner() and slot0:GetUniqueId() == getProxy(PlayerProxy):getRawData():GetProposeShipId()
+
+		return slot1
+	end
+end
+
 return slot0

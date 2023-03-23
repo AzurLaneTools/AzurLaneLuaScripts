@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"36年Z组 Z23老师\n\n<size=45>六 奔跑吧，Z23</size>",
+					"36年Z组 {namecode:408}老师\n\n<size=45>六 奔跑吧，{namecode:408}</size>",
 					1
 				}
 			}
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对不起啦Z23，刚才的恶作剧只是跟你开开玩笑而已～",
+			say = "对不起啦{namecode:408}，刚才的恶作剧只是跟你开开玩笑而已～",
 			flashout = {
 				black = true,
 				dur = 1,

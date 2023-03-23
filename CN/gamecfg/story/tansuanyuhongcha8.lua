@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "依然是作为店长的俾斯麦亲自在门口迎接。不过她手上拿着的是……？",
+			say = "依然是作为店长的{namecode:435}亲自在门口迎接。不过她手上拿着的是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "跟随俾斯麦来到了预留好的位置，不过与之前不同，现在店里空空如也，是来的太早的缘故么……",
+			say = "跟随{namecode:435}来到了预留好的位置，不过与之前不同，现在店里空空如也，是来的太早的缘故么……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_coffeetea_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "带着这样的理念，我们创造出了这款目前独一无二的饮品，可以说是我们铁血的自信之作。",
 			typewriter = {
 				speed = 0.05,
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_coffeetea_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			say = "嗯，它在制作中使用了铁血最新研制的碳酸拉花机。不但好看，口感更有保证。",
 			typewriter = {
 				speed = 0.05,
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_coffeetea_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			say = "指挥官，饮品就是饮品。如果因为表面的装饰而放弃了饮品本身的话，那才是十分可惜的。",
 			typewriter = {
 				speed = 0.05,
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_1",
-			say = "十分有道理。接过俾斯麦递来的饮料，在留念了就要消失的拉花最后一眼后，连同泡沫在内一同喝下————",
+			say = "十分有道理。接过{namecode:435}递来的饮料，在留念了就要消失的拉花最后一眼后，连同泡沫在内一同喝下————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_coffeetea_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "呵呵，从指挥官的表情上来看，新品研发大获成功呢。",
 			typewriter = {
 				speed = 0.05,
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_coffeetea_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "Z46",
+			actorName = "{namecode:412}",
 			say = "作战成功——",
 			typewriter = {
 				speed = 0.05,
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_coffeetea_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			say = "很敏锐，秘诀在于榛子。",
 			typewriter = {
 				speed = 0.05,
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "乌尔里希，Z46，厨房这里好像出了些问题，能过来帮个忙么？",
+			say = "{namecode:464}，{namecode:412}，厨房这里好像出了些问题，能过来帮个忙么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "不只何时出现的欧根亲王带着Z46和乌尔里希消失在后厨的大门中。",
+			say = "不只何时出现的{namecode:427}带着{namecode:412}和{namecode:464}消失在后厨的大门中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "唉，欧根就喜欢在这种奇怪的地方过于热心呢……",
+			say = "唉，{namecode:428}就喜欢在这种奇怪的地方过于热心呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "一开始欧根提议让我做这个“店长”的时候，我也纠结了很久。",
+			say = "一开始{namecode:428}提议让我做这个“店长”的时候，我也纠结了很久。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			bgName = "star_level_bg_145",
 			dir = 1,
 			blackBg = true,
-			say = "直到正式开店之前，就这样与俾斯麦一直聊了下去————",
+			say = "直到正式开店之前，就这样与{namecode:435}一直聊了下去————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

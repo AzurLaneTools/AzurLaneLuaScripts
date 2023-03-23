@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"幸福的范式\n\n<size=45>二 希佩尔想要冷静</size>",
+					"幸福的范式\n\n<size=45>二 {namecode:426}想要冷静</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "工作也算告一段落，于是起身去寻找希佩尔的下落。",
+			say = "工作也算告一段落，于是起身去寻找{namecode:426}的下落。",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "正在感慨之时，突然发现了在某间休息室内希佩尔的身影。似乎正在心无旁骛地弄着什么。",
+			say = "正在感慨之时，突然发现了在某间休息室内{namecode:426}的身影。似乎正在心无旁骛地弄着什么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,10 +69,10 @@ return {
 			actor = 403010,
 			side = 2,
 			bgName = "bg_story_room",
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……真是的，那个笨蛋也好欧根也好，为什么都……是我想太多了？还是听错了？不可能，绝对不可能…",
+			say = "……真是的，那个笨蛋也好{namecode:428}也好，为什么都……是我想太多了？还是听错了？不可能，绝对不可能…",
 			flashout = {
 				black = false,
 				dur = 0.5,
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "不过，既然这样不应该那家伙主动来找我吗？真是的……",
 			typewriter = {
 				speed = 0.05,
@@ -117,7 +117,7 @@ return {
 			},
 			options = {
 				{
-					content = "向希佩尔搭话",
+					content = "向{namecode:426}搭话",
 					flag = 1
 				}
 			}
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "呀啊啊啊啊啊啊！？你你你什么时候来的！？",
 			typewriter = {
 				speed = 0.05,
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "「本来想早点出声没想到看呆了？」……哈啊！？",
 			typewriter = {
 				speed = 0.05,
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "啊啊真是的，都是因为你！害我今天一天状态都不对劲！",
 			typewriter = {
 				speed = 0.05,
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "深呼吸深呼吸……呼，没什么，别在意。所以呢，找我有什么事?",
 			typewriter = {
 				speed = 0.05,
@@ -241,7 +241,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问希佩尔在做什么",
+					content = "询问{namecode:426}在做什么",
 					flag = 1
 				}
 			}
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "做什么……插花啊？",
 			typewriter = {
 				speed = 0.05,
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "你这是什么表情…有必要这么吃惊吗？",
 			typewriter = {
 				speed = 0.05,
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "在想要冷静的时候偶尔会自己弄弄这个，独处的情况下也比较容易集中。——为什么现在要冷静一下？还不是因为你…因为…你…唔！！",
 			typewriter = {
 				speed = 0.05,
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "啊啊真是的，好不容易冷静下来你一来全白费了！",
 			typewriter = {
 				speed = 0.05,
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "欸？哼，哼！那是当然。我对自己插花的手艺可以是很有自信的…你那么在意吗？这样啊…",
 			typewriter = {
 				speed = 0.05,
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "姑且问问，你有什么喜欢的花吗？",
 			typewriter = {
 				speed = 0.05,
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "这样…等我什么时候心血来潮了也给你弄一组好了。",
 			typewriter = {
 				speed = 0.05,
@@ -411,7 +411,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "总在那煞风景的指挥室里，岂不显得给你干活的我品味也不行了嘛~",
 			typewriter = {
 				speed = 0.05,
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "希佩尔似乎又有点开心了的样子……",
+			say = "{namecode:426}似乎又有点开心了的样子……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

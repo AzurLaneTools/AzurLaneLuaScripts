@@ -139,7 +139,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们知道么，罗恩舰装上的龙超厉害哦？！",
+			say = "你们知道么，{namecode:439}舰装上的龙超厉害哦？！",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "罗恩、舰装……？",
+			say = "{namecode:439}、舰装……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 10800010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是……罗恩的声音？真的是罗恩做的么。",
+			say = "那是……{namecode:439}的声音？真的是{namecode:439}做的么。",
 			hidePaintEquip = true,
 			effects = {
 				{
@@ -399,7 +399,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错！罗恩身上突然出现了像怪兽一样名叫“舰装”的装甲，不止破坏力超强，而且还会动哦！",
+			say = "没错！{namecode:439}身上突然出现了像怪兽一样名叫“舰装”的装甲，不止破坏力超强，而且还会动哦！",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -485,7 +485,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800020,
 			nameColor = "#a9f548",
-			say = "那么拜拜~我准备挂电话啦，罗恩罗恩！刚刚那个能再来一次么——",
+			say = "那么拜拜~我准备挂电话啦，{namecode:439}{namecode:439}！刚刚那个能再来一次么——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

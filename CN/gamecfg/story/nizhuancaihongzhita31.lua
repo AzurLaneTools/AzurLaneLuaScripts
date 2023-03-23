@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "乌尔里希阁下，水下发现正在接近的敌人，我们战斗还没结束，来不及支援了！",
+			say = "{namecode:464}阁下，水下发现正在接近的敌人，我们战斗还没结束，来不及支援了！",
 			bgm = "battle-midgard-hunting",
 			typewriter = {
 				speed = 0.05,
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，这里靠我一个人就行，你带着已经没什么战斗力的沙恩霍斯特先走就好。",
+			say = "不，这里靠我一个人就行，你带着已经没什么战斗力的{namecode:433}先走就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想要新的贴纸啊……买了的话就在夹克上再贴个星星，还有舰装上和海因里希小姐那边…",
+			say = "想要新的贴纸啊……买了的话就在夹克上再贴个星星，还有舰装上和{namecode:454}小姐那边…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

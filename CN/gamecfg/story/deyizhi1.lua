@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"德意志的忧郁\n\n<size=45>一　开端</size>",
+					"{namecode:429}的忧郁\n\n<size=45>一　开端</size>",
 					1
 				}
 			}
@@ -125,14 +125,14 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			dir = 1,
-			say = "……虽然担任了秘书舰，不过德意志还是一如既往的样子。",
+			say = "……虽然担任了秘书舰，不过{namecode:429}还是一如既往的样子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "请德意志帮忙工作",
+					content = "请{namecode:429}帮忙工作",
 					flag = 1
 				}
 			}
@@ -154,7 +154,7 @@ return {
 			},
 			options = {
 				{
-					content = "恳请德意志帮忙工作",
+					content = "恳请{namecode:429}帮忙工作",
 					flag = 1
 				}
 			}
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			side = 1,
 			bgName = "bg_story_task",
-			say = "德意志似乎找到了作为秘书舰的乐趣。",
+			say = "{namecode:429}似乎找到了作为秘书舰的乐趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

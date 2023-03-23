@@ -459,7 +459,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "经过了与Z23等伙伴们的交流，圣地亚哥对“改造”有了更深刻的理解，距离蜕变的时刻，已经不远了——也许",
+			say = "经过了与{namecode:408}等伙伴们的交流，圣地亚哥对“改造”有了更深刻的理解，距离蜕变的时刻，已经不远了——也许",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

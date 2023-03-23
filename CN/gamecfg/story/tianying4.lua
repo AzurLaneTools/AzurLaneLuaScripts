@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "在那边的是齐柏林小姐！好想跟她聊聊啊！",
+			say = "在那边的是{namecode:438}小姐！好想跟她聊聊啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "铁血的彼得·斯特拉塞不知何时出现在了身边。",
+			say = "铁血的{namecode:471}·斯特拉塞不知何时出现在了身边。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "在听了和天鹰多少有些渊源的史特拉塞的建议后，我将视线重新挪回了演习海域。",
+			say = "在听了和天鹰多少有些渊源的{namecode:472}的建议后，我将视线重新挪回了演习海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -56,7 +56,7 @@ return {
 			bgName = "star_level_bg_153",
 			side = 2,
 			dir = 1,
-			actorName = "布吕歇尔",
+			actorName = "{namecode:450}",
 			say = "呀吼~指挥官！~————",
 			hidePaintEquip = true,
 			painting = {
@@ -72,7 +72,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "布吕歇尔",
+			actorName = "{namecode:450}",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
@@ -111,7 +111,7 @@ return {
 			fontsize = 45,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "布吕歇尔",
+			actorName = "{namecode:450}",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
@@ -130,7 +130,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "布吕歇尔",
+			actorName = "{namecode:450}",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
@@ -169,7 +169,7 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "布吕歇尔",
+			actorName = "{namecode:450}",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
@@ -188,7 +188,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "布吕歇尔踩着滑雪板在雪道上疾驰而过，溅起大片的落雪。",
+			say = "{namecode:450}踩着滑雪板在雪道上疾驰而过，溅起大片的落雪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "布吕歇尔",
+			actorName = "{namecode:450}",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
@@ -217,7 +217,7 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "布吕歇尔",
+			actorName = "{namecode:450}",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
@@ -236,7 +236,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "布吕歇尔操纵着雪橇板在雪地上划了一圈，然后借助惯性来到高处。",
+			say = "{namecode:450}操纵着雪橇板在雪地上划了一圈，然后借助惯性来到高处。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_153",
 			side = 2,
 			dir = 1,
-			actorName = "布吕歇尔",
+			actorName = "{namecode:450}",
 			say = "指挥官，转过身来！给你个大大的拥抱~",
 			hidePaintEquip = true,
 			painting = {
@@ -284,7 +284,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "布吕歇尔从上方飞跃而下，向着我的怀里飞来——",
+			say = "{namecode:450}从上方飞跃而下，向着我的怀里飞来——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			optionFlag = 1,
-			say = "瞄准布吕歇尔飞过来的方向伸出手——",
+			say = "瞄准{namecode:450}飞过来的方向伸出手——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actorName = "布吕歇尔",
+			actorName = "{namecode:450}",
 			side = 2,
 			bgName = "star_level_bg_153",
 			dir = 1,
@@ -350,7 +350,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "布吕歇尔",
+			actorName = "{namecode:450}",
 			dir = 1,
 			optionFlag = 1,
 			hidePaintEquip = true,
@@ -413,7 +413,7 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "布吕歇尔",
+			actorName = "{namecode:450}",
 			dir = 1,
 			optionFlag = 2,
 			hidePaintEquip = true,
@@ -443,7 +443,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "布吕歇尔",
+			actorName = "{namecode:450}",
 			dir = 1,
 			optionFlag = 2,
 			hidePaintEquip = true,
@@ -465,7 +465,7 @@ return {
 			bgName = "star_level_bg_153",
 			side = 2,
 			dir = 1,
-			actorName = "布吕歇尔",
+			actorName = "{namecode:450}",
 			say = "好啦，指挥官~来跟我一起滑雪嘛~",
 			hidePaintEquip = true,
 			painting = {

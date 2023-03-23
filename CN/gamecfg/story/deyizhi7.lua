@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"德意志的忧郁\n\n<size=45>七　一如既往？</size>",
+					"{namecode:429}的忧郁\n\n<size=45>七　一如既往？</size>",
 					1
 				}
 			}
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "德意志，不服气吗？",
+			say = "{namecode:429}，不服气吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，这才像话，除了性能，德意志你更缺乏的是经验，想要变强，就练习，练习，再练习！",
+			say = "哈哈，这才像话，除了性能，{namecode:429}你更缺乏的是经验，想要变强，就练习，练习，再练习！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:33}",
-			say = "德意志，你是不是有另一个名字呀？",
+			say = "{namecode:429}，你是不是有另一个名字呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊……是啊，我曾经有过另一个名字，那个名字叫做“吕佐夫”。",
+			say = "啊……是啊，我曾经有过另一个名字，那个名字叫做“{namecode:461}”。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -410,7 +410,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:126}，要是德意志不喜欢的话……",
+			say = "{namecode:126}，要是{namecode:429}不喜欢的话……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "……就是这样，在那之后不久，德意志又恢复了把低等动物挂在嘴边的性格。",
+			say = "……就是这样，在那之后不久，{namecode:429}又恢复了把低等动物挂在嘴边的性格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

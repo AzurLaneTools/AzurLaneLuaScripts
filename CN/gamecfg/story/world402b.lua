@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "在这里转了这么久，铁血舰队也没有一点要来汇合的迹象。这究竟是怎么回事，腓特烈叫我们来的时候说的可是联合行动哟？",
+			say = "在这里转了这么久，铁血舰队也没有一点要来汇合的迹象。这究竟是怎么回事，{namecode:441}叫我们来的时候说的可是联合行动哟？",
 			bgm = "bsm-7",
 			flashin = {
 				delay = 1,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "腓特烈的计划我不是很清楚...不过现在我们的主力舰队也在NA海域中，大家在同一片海域中行动的话，应该也能叫做联合行动...?",
+			say = "{namecode:441}的计划我不是很清楚...不过现在我们的主力舰队也在NA海域中，大家在同一片海域中行动的话，应该也能叫做联合行动...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 401020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果欧根在的话倒是也许能问出点什么来...",
+			say = "如果{namecode:428}在的话倒是也许能问出点什么来...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不然你们直接去问腓特烈吧，她之前好像提到过要去撒丁参加宴会之类的，这段时间应该都会停在陆间海。",
+			say = "不然你们直接去问{namecode:441}吧，她之前好像提到过要去撒丁参加宴会之类的，这段时间应该都会停在陆间海。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -201,7 +201,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "啊，是欧根。你好，我们在进行一年一度的大扫除哟",
+			say = "啊，是{namecode:428}。你好，我们在进行一年一度的大扫除哟",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "格奈森瑙突然加速向着交火的方向疾驰而去，溅起的巨大水浪打湿了沙恩霍斯特的下装。",
+			say = "{namecode:434}突然加速向着交火的方向疾驰而去，溅起的巨大水浪打湿了{namecode:433}的下装。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_midgard_3",
 			dir = 1,
 			blackBg = true,
-			say = "不过沙恩霍斯特并没有在意。她只是静静地站在那里，注视着格奈森瑙逐渐远去的身影，直到身影完全消失在烟雾之中。",
+			say = "不过{namecode:433}并没有在意。她只是静静地站在那里，注视着{namecode:434}逐渐远去的身影，直到身影完全消失在烟雾之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

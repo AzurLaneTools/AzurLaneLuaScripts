@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "面对腓特烈大帝略显恶意的提案，伊丽莎白女王面色难看地长叹了一口气，似乎算是默许了。",
+			say = "面对{namecode:440}略显恶意的提案，伊丽莎白女王面色难看地长叹了一口气，似乎算是默许了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -799,7 +799,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
@@ -838,7 +838,7 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "你们感受到了么，遍地的不甘与绝望。",
 			typewriter = {
 				speed = 0.05,
@@ -906,7 +906,7 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "你们可曾认真思考过，酿成那场惨剧的真实原因？",
 			typewriter = {
 				speed = 0.05,
@@ -923,7 +923,7 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "她们被当做耻辱，被当成笑话。被戏谑、被抹黑、被遗忘。",
 			typewriter = {
 				speed = 0.05,
@@ -940,7 +940,7 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "直至彻底消散，变为没有丝毫生机的，无药可救的残骸。",
 			typewriter = {
 				speed = 0.05,
@@ -974,7 +974,7 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "她们曾是我们的战友，她们不该得到这种结局。",
 			typewriter = {
 				speed = 0.05,
@@ -989,7 +989,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_6",
-			say = "腓特烈大帝来到了一片残骸密集区的中央，拿出了数个心智魔方。",
+			say = "{namecode:440}来到了一片残骸密集区的中央，拿出了数个心智魔方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "归来吧，昔日的战友们。",
 			typewriter = {
 				speed = 0.05,
@@ -1036,7 +1036,7 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "用你们的声音，向世人诉说那段历史的真实！",
 			typewriter = {
 				speed = 0.05,
@@ -1053,7 +1053,7 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "用你们的面容，向世人展现你们的愤怒与不甘！",
 			typewriter = {
 				speed = 0.05,
@@ -1070,7 +1070,7 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "用你们的力量，为昔日的仇恨带来终结吧！",
 			typewriter = {
 				speed = 0.05,
@@ -1085,7 +1085,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_6",
-			say = "心智魔方在腓特烈大帝的身前旋转着，仿佛与之相呼应，海面也如沸腾一般，浪花互相交叠碰撞。",
+			say = "心智魔方在{namecode:440}的身前旋转着，仿佛与之相呼应，海面也如沸腾一般，浪花互相交叠碰撞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1245,7 +1245,7 @@ return {
 			bgName = "bg_endingsong_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "塞德利茨",
+			actorName = "{namecode:460}",
 			say = "呼………………",
 			typewriter = {
 				speed = 0.05,
@@ -1262,7 +1262,7 @@ return {
 			bgName = "bg_endingsong_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "塞德利茨",
+			actorName = "{namecode:460}",
 			say = "…………这里是，你是……？",
 			typewriter = {
 				speed = 0.05,
@@ -1279,7 +1279,7 @@ return {
 			bgName = "bg_endingsong_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -1292,7 +1292,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			bgName = "bg_endingsong_7",
 			hidePaintObj = true,
 			dir = 1,

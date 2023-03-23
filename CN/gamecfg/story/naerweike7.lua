@@ -12,7 +12,7 @@ return {
 			side = 1,
 			bgm = "battle-boss-1",
 			dir = 1,
-			say = "为了保护补给船，不能随便走掉，Z2她们出去巡逻又不知道什么时候回来……",
+			say = "为了保护补给船，不能随便走掉，{namecode:401}她们出去巡逻又不知道什么时候回来……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Z18和Z19还没回来吗……好想她们啊……",
+			say = "{namecode:404}和{namecode:405}还没回来吗……好想她们啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……咦，正说到她们，就收到了Z18的电报……哼哼，肯定也和我一样想找我过去玩吧！让我看看……",
+			say = "……咦，正说到她们，就收到了{namecode:404}的电报……哼哼，肯定也和我一样想找我过去玩吧！让我看看……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……怎么办怎么办怎么办，Z2就算收到了情报赶回来也需要时间……看来只有我能上了！",
+			say = "……怎么办怎么办怎么办，{namecode:401}就算收到了情报赶回来也需要时间……看来只有我能上了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

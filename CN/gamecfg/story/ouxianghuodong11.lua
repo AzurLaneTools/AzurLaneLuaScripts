@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶Z35不能参加吗！",
+			say = "诶{namecode:410}不能参加吗！",
 			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
@@ -187,7 +187,7 @@ return {
 			bgName = "star_level_bg_120",
 			side = 2,
 			dir = 1,
-			say = "那小35就去跟Z23帮忙咯",
+			say = "那小35就去跟{namecode:408}帮忙咯",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

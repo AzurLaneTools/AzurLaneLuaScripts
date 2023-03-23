@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "对于U-47来说漫长而平静的日子，突然迎来了完结之时——",
+			say = "对于{namecode:413}来说漫长而平静的日子，突然迎来了完结之时——",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -57,7 +57,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "U-47，你果然躲在这里！下次轮到我来躲了，什么时候开始？",
+			say = "{namecode:413}，你果然躲在这里！下次轮到我来躲了，什么时候开始？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U-47躲在如此明显的地方都没被找到，果然是因为我运气不好吧……",
+			say = "{namecode:413}躲在如此明显的地方都没被找到，果然是因为我运气不好吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "每天都（躲）到这里来的U-47，最终还是被同伴们发现了。",
+			say = "每天都（躲）到这里来的{namecode:413}，最终还是被同伴们发现了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U-81，我知道你想玩捉迷藏。但是现在先安静下来，指挥官正在工作。",
+			say = "{namecode:414}，我知道你想玩捉迷藏。但是现在先安静下来，指挥官正在工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然三人彼此之间性格迥异，不过U-47说过，她呆在这里并不是因为不喜欢她们。",
+			say = "虽然三人彼此之间性格迥异，不过{namecode:413}说过，她呆在这里并不是因为不喜欢她们。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……U-81。从我叫你安静到现在还不到十秒钟。",
+			say = "……{namecode:414}。从我叫你安静到现在还不到十秒钟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-47砰地一声合上正在看的书，从沙发上站起来。",
+			say = "{namecode:413}砰地一声合上正在看的书，从沙发上站起来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "丢下U-81和U-556两人，U-47一个人从指挥室走了出去。",
+			say = "丢下{namecode:414}和{namecode:416}两人，{namecode:413}一个人从指挥室走了出去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔——U-47真的会来吗……她总是独来独往的……",
+			say = "唔——{namecode:413}真的会来吗……她总是独来独往的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "配合U-47的个性，制定一个能让她在团队中发挥更顺利的作战方案吧。",
+			say = "配合{namecode:413}的个性，制定一个能让她在团队中发挥更顺利的作战方案吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

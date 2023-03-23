@@ -16,7 +16,7 @@ return {
 			actor = 406020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "乌尔里希阁下快看！已经能看到米德加尔特之塔发出的光亮了！",
+			say = "{namecode:464}阁下快看！已经能看到米德加尔特之塔发出的光亮了！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -132,7 +132,7 @@ return {
 			actor = 499030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "乌尔里希阁下，舰队已经部署完毕，接下来就交给我们吧",
+			say = "{namecode:464}阁下，舰队已经部署完毕，接下来就交给我们吧",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是难得见到你这么狼狈的一面啊，乌尔里希阁下。",
+			say = "真是难得见到你这么狼狈的一面啊，{namecode:464}阁下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然任务是保障撤退的火力支援，我跟美因茨不是绰绰有余嘛。",
+			say = "既然任务是保障撤退的火力支援，我跟{namecode:479}不是绰绰有余嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是这样的，乌尔里希阁下。埃吉尔和奥古斯特因为接到了腓特烈大帝的紧急命令，所以临时调动走了。",
+			say = "是这样的，{namecode:464}阁下。{namecode:480}和{namecode:482}因为接到了{namecode:440}的紧急命令，所以临时调动走了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说不定腓特烈大帝就是考虑到这一点才会把她们临时调走的哦。",
+			say = "说不定{namecode:440}就是考虑到这一点才会把她们临时调走的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "乌尔里希，我的伤比较轻，让我也留下殿后吧。",
+			say = "{namecode:464}，我的伤比较轻，让我也留下殿后吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "伴随着轰鸣声，乌尔里希一行人径直冲入了前方涌动的蔚蓝光芒中。",
+			say = "伴随着轰鸣声，{namecode:464}一行人径直冲入了前方涌动的蔚蓝光芒中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			bgName = "bg_midgard_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "罗恩",
+			actorName = "{namecode:439}",
 			say = "你就是仲裁者·拉沃斯·VI？",
 			typewriter = {
 				speed = 0.05,
@@ -556,8 +556,8 @@ return {
 			bgName = "bg_midgard_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "罗恩",
-			say = "看来是沉默寡言的类型啊……美因茨，这个自信的家伙正毫无防备的停在我们面前呢，要不要试试火力？",
+			actorName = "{namecode:439}",
+			say = "看来是沉默寡言的类型啊……{namecode:479}，这个自信的家伙正毫无防备的停在我们面前呢，要不要试试火力？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			bgName = "bg_midgard_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "美因茨",
+			actorName = "{namecode:479}",
 			say = "那是自然，千里迢迢跑一趟就是为了这一刻。",
 			typewriter = {
 				speed = 0.05,
@@ -590,7 +590,7 @@ return {
 			bgName = "bg_midgard_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿达尔伯特亲王",
+			actorName = "{namecode:455}",
 			say = "大家不要恋战，奇异点就要关闭了，我们也要尽快撤退才是。",
 			typewriter = {
 				speed = 0.05,
@@ -607,7 +607,7 @@ return {
 			bgName = "bg_midgard_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "罗恩",
+			actorName = "{namecode:439}",
 			say = "这种事我还是清楚的哦。就算只有几分钟也好，让我们大闹一场吧~",
 			typewriter = {
 				speed = 0.05,

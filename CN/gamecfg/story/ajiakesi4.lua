@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，这不是斯佩吗。一个人散步吗？",
+			say = "哎呀，这不是{namecode:432}吗。一个人散步吗？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 0,
 			dir = 1,
-			say = "是吗。我倒是没看出来指挥官有多困扰啊？还是说斯佩也想像我这样？",
+			say = "是吗。我倒是没看出来指挥官有多困扰啊？还是说{namecode:432}也想像我这样？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
-			say = "我知道…还有上次那件换装，传给希佩尔看了之后她不知道为什么很生气…不要紧吧…",
+			say = "我知道…还有上次那件换装，传给{namecode:426}看了之后她不知道为什么很生气…不要紧吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

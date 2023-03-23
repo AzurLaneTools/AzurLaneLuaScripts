@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "顺利到让人不得不怀疑俾斯麦到底在背后有什么企图。",
+			say = "顺利到让人不得不怀疑{namecode:435}到底在背后有什么企图。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天俾斯麦可以用这样的方式得到铁血想要的东西，明天呢？",
+			say = "今天{namecode:435}可以用这样的方式得到铁血想要的东西，明天呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

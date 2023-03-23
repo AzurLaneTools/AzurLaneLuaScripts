@@ -10,7 +10,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
-			actorName = "提尔比茨",
+			actorName = "{namecode:436}",
 			dir = 1,
 			say = "喂！那边的那个小不点，不许在港区海域胡闹，立刻报上所属！！",
 			bgm = "bsm-5",
@@ -24,12 +24,12 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "哼哼，伟大的水下骑士——橡叶勋章的获得者，U556正是在下！！",
+			say = "哼哼，伟大的水下骑士——橡叶勋章的获得者，{namecode:416}正是在下！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,12 +40,12 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "U556向提尔比茨姐姐送上晨间的问候~",
+			say = "{namecode:416}向{namecode:436}姐姐送上晨间的问候~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actorName = "提尔比茨",
+			actorName = "{namecode:436}",
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
 			side = 2,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actorName = "提尔比茨",
+			actorName = "{namecode:436}",
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
 			side = 2,
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
 			side = 2,
@@ -104,12 +104,12 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "对了对了，提尔比茨姐姐，来，重复模仿一遍我的动作~",
+			say = "对了对了，{namecode:436}姐姐，来，重复模仿一遍我的动作~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actorName = "提尔比茨",
+			actorName = "{namecode:436}",
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
 			side = 2,
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_bsm_2",
-			say = "（只见U556一个倒身翻滚潜入了港口的水里，还是那套滑稽的动作）",
+			say = "（只见{namecode:416}一个倒身翻滚潜入了港口的水里，还是那套滑稽的动作）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
-			actorName = "提尔比茨",
+			actorName = "{namecode:436}",
 			dir = 1,
 			say = "你——别跑！！",
 			effects = {
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_bsm_2",
-			say = "（提尔比茨头冒青筋，对着水底下的U556大吼着）",
+			say = "（{namecode:436}头冒青筋，对着水底下的{namecode:416}大吼着）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "（俾斯麦姐姐，您的妹妹果然跟您有很多相似的地方呢~）",
+			say = "（{namecode:435}姐姐，您的妹妹果然跟您有很多相似的地方呢~）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

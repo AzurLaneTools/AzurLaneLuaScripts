@@ -104,7 +104,7 @@ return {
 			},
 			options = {
 				{
-					content = "提尔比茨，变了很多呢。",
+					content = "{namecode:436}，变了很多呢。",
 					flag = 1
 				}
 			}
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			say = "提尔比茨一瞬间露出了吃惊的表情",
+			say = "{namecode:436}一瞬间露出了吃惊的表情",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "提尔比茨笑了。",
+			say = "{namecode:436}笑了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "映入眼帘的是……许许多多的门，以及……躺在地上的埃尔宾与U-47？",
+			say = "映入眼帘的是……许许多多的门，以及……躺在地上的{namecode:449}与{namecode:413}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "果然，只要我想着指挥官什么都做不到，会被谜题困住，会被埃姆登诱惑住，指挥官就能顺利过关……",
+			say = "果然，只要我想着指挥官什么都做不到，会被谜题困住，会被{namecode:448}诱惑住，指挥官就能顺利过关……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408024,
-			say = "（埃尔宾，台词……）",
+			say = "（{namecode:449}，台词……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

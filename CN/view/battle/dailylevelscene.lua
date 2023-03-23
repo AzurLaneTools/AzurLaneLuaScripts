@@ -293,14 +293,18 @@ function slot0.initDailyLevel(slot0, slot1)
 	end
 
 	if slot7 then
-		slot8, slot9 = nil
+		slot8 = ""
+		slot9 = ""
 
 		if slot7 > 86400 then
 			slot8 = math.floor(tonumber(slot7) / 86400)
 			slot9 = i18n("word_date")
-		else
+		elseif slot7 >= 3600 then
 			slot8 = math.floor(tonumber(slot7) / 3600)
 			slot9 = i18n("word_hour")
+		elseif slot7 > 0 then
+			slot8 = math.floor(tonumber(slot7) / 60)
+			slot9 = i18n("word_minute")
 		end
 
 		setText(findTF(slot3, "lastTime/content/text"), tostring(slot8) .. " ")

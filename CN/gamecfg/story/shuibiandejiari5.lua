@@ -77,7 +77,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "刚准备下水，就被海因里希亲王拉住了——",
+			say = "刚准备下水，就被{namecode:453}拉住了——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "在海因里希亲王的带领与监督下，做完了全套的准备体操。",
+			say = "在{namecode:453}的带领与监督下，做完了全套的准备体操。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			},
 			options = {
 				{
-					content = "海因里希亲王不和大家一起游泳嘛？",
+					content = "{namecode:453}不和大家一起游泳嘛？",
 					flag = 1
 				}
 			}

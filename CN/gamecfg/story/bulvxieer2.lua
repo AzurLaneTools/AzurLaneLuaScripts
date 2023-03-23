@@ -107,7 +107,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，指挥官也是故意为了见布吕歇尔才过来的吧？",
+			say = "嘿嘿，指挥官也是故意为了见{namecode:450}才过来的吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "……这是通往指挥室的必经之路。很显然，布吕歇尔早就堵在这里了。",
+			say = "……这是通往指挥室的必经之路。很显然，{namecode:450}早就堵在这里了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我们就走吧，指挥官？~你可是答应过今天要和布吕歇尔约会的哟？",
+			say = "那我们就走吧，指挥官？~你可是答应过今天要和{namecode:450}约会的哟？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但指挥官一大早就急着来见布吕歇尔了哦~",
+			say = "但指挥官一大早就急着来见{namecode:450}了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要布吕歇尔能陪在指挥官身边，那心情就———每时每刻都是阳光灿烂的大晴天！",
+			say = "只要{namecode:450}能陪在指挥官身边，那心情就———每时每刻都是阳光灿烂的大晴天！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "与布吕歇尔一同漫步在雨中的港区。",
+			say = "与{namecode:450}一同漫步在雨中的港区。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欧根~早上好！你也在进行雨中漫步么？",
+			say = "{namecode:428}~早上好！你也在进行雨中漫步么？",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -392,7 +392,7 @@ return {
 			},
 			options = {
 				{
-					content = "只是陪布吕歇尔在港区里随便转转。",
+					content = "只是陪{namecode:450}在港区里随便转转。",
 					flag = 1
 				},
 				{
@@ -441,7 +441,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "才不是什么闲逛！明明就是充满爱意的约会，欧根你不要听指挥官乱说哦！",
+			say = "才不是什么闲逛！明明就是充满爱意的约会，{namecode:428}你不要听指挥官乱说哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,7 +559,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~走啦，指挥官~我想好接下来去哪里玩了，今天要一直陪着布吕歇尔哦~",
+			say = "嘿嘿~走啦，指挥官~我想好接下来去哪里玩了，今天要一直陪着{namecode:450}哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1

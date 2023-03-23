@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "公海舰队将会追随腓特烈大帝的步伐。",
+			say = "公海舰队将会追随{namecode:440}的步伐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "哼哼，不足的部分就让塞德利茨想办法解决一下就好了~",
+			say = "哼哼，不足的部分就让{namecode:460}想办法解决一下就好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没问题，吕佐夫小姐。不论前路通向何方，我都会作为公海舰队的利刃与各位一同前进的。",
+			say = "没问题，{namecode:461}小姐。不论前路通向何方，我都会作为公海舰队的利刃与各位一同前进的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "有同伴的地方就是家……虽然不知道能为大家做到什么，不过埃尔宾会加油努力的！",
+			say = "有同伴的地方就是家……虽然不知道能为大家做到什么，不过{namecode:449}会加油努力的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

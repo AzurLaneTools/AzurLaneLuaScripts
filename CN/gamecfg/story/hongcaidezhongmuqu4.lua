@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从当时在撒丁帝国宴会之后算起，确实好久不见了，腓特烈大帝。",
+			say = "从当时在撒丁帝国宴会之后算起，确实好久不见了，{namecode:440}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "腓特烈大帝微微一笑，似乎在暗示{namecode:91}的担心都是多余的。",
+			say = "{namecode:440}微微一笑，似乎在暗示{namecode:91}的担心都是多余的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "就在腓特烈大帝的话语逐渐进入哲学领域的时候，一阵从角落里传来的声音突然打破了这份深邃。",
+			say = "就在{namecode:440}的话语逐渐进入哲学领域的时候，一阵从角落里传来的声音突然打破了这份深邃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,7 +796,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "还有腓特烈，现在不是讨论虚无主义的时候吧！",
+			say = "还有{namecode:441}，现在不是讨论虚无主义的时候吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

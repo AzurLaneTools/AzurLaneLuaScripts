@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论是学习还是运动，Z1大人都是No.1!",
+			say = "无论是学习还是运动，{namecode:400}大人都是No.1!",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那、那就两边都一起加油吧！{namecode:94}~加～油！Z1～Fight！",
+			say = "那、那就两边都一起加油吧！{namecode:94}~加～油！{namecode:400}～Fight！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 		},
 		{
 			actor = 307041,
-			actorName = "{namecode:94}&克雷文&Z1",
+			actorName = "{namecode:94}&克雷文&{namecode:400}",
 			bgName = "bg_story_school",
 			side = 0,
 			hideOther = true,
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			hideOther = true,
-			actorName = "{namecode:94}&克雷文&Z1",
+			actorName = "{namecode:94}&克雷文&{namecode:400}",
 			say = "呜——",
 			subActors = {
 				{

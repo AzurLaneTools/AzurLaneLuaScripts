@@ -248,7 +248,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "铁血海军，欧根亲王号战斗准备完毕！",
+			say = "铁血海军，{namecode:427}号战斗准备完毕！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您是……铁血的俾斯麦？！",
+			say = "您是……铁血的{namecode:435}？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过据我所知，在腓特烈大帝走后您现在应该接过了铁血的领导权，应该位于铁血本土才对……",
+			say = "不过据我所知，在{namecode:440}走后您现在应该接过了铁血的领导权，应该位于铁血本土才对……",
 			painting = {
 				alpha = 0.3,
 				time = 1

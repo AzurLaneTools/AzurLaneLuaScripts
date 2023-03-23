@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "……虽然你看起来成竹在胸的样子。不过请允许我提醒尊贵的欧根亲王阁下——",
+			say = "……虽然你看起来成竹在胸的样子。不过请允许我提醒尊贵的{namecode:427}阁下——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401020,
-			say = "您放任鲁普雷希特亲王自由行动已经是第四天了，把奥丁一个人留在科技馆中也是第四天了。",
+			say = "您放任{namecode:484}自由行动已经是第四天了，把{namecode:486}一个人留在科技馆中也是第四天了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_roma_13",
 			hidePaintObj = true,
 			side = 2,
-			say = "再说了，奥丁不喜欢热闹，鲁普雷希特亲王我也管不住她。",
+			say = "再说了，{namecode:486}不喜欢热闹，{namecode:484}我也管不住她。",
 			painting = {
 				alpha = 0.3,
 				time = 1

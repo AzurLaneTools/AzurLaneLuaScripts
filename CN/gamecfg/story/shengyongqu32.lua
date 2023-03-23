@@ -63,7 +63,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "俾斯麦阁下，希望铁血可以认真遵守协定的内容。对抗塞壬的战争远没有结束，碧蓝航线内部经不起任何分裂和对抗。",
+			say = "{namecode:435}阁下，希望铁血可以认真遵守协定的内容。对抗塞壬的战争远没有结束，碧蓝航线内部经不起任何分裂和对抗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都是那个铁血突然冒出来的什么…腓特烈大帝？的错啦！！",
+			say = "都是那个铁血突然冒出来的什么…{namecode:440}？的错啦！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈…哈哈…腓特烈大帝啊，我会重点记住这个名字的。",
+			say = "哈…哈哈…{namecode:440}啊，我会重点记住这个名字的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -103,7 +103,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "到达码头后，U-47的身影出现在了眼前。她伫立在海边，静静观望着海面。",
+			say = "到达码头后，{namecode:413}的身影出现在了眼前。她伫立在海边，静静观望着海面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "似乎是察觉到视线的存在，U-47轻轻转过身来。",
+			say = "似乎是察觉到视线的存在，{namecode:413}轻轻转过身来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "学着U-47的样子，侧耳倾听……潮来潮去的声音令人安心，仿佛从平日的喧嚣生活中解放出来一样。",
+			say = "学着{namecode:413}的样子，侧耳倾听……潮来潮去的声音令人安心，仿佛从平日的喧嚣生活中解放出来一样。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "就这样无言倾听了好一会儿后，U-47面带不可思议的探过头来。",
+			say = "就这样无言倾听了好一会儿后，{namecode:413}面带不可思议的探过头来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "留下这句略冷淡的话后，U-47起身离开了。",
+			say = "留下这句略冷淡的话后，{namecode:413}起身离开了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "得到了答案的U-47再度迈开了脚步，这次是真的离开了。",
+			say = "得到了答案的{namecode:413}再度迈开了脚步，这次是真的离开了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "在U-47离开后，又一个人独自享受了一阵海浪的声音。",
+			say = "在{namecode:413}离开后，又一个人独自享受了一阵海浪的声音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

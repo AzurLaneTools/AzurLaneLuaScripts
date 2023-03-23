@@ -25,7 +25,7 @@ return {
 			actor = 401190,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "胡，胡滕！你在这里吗？！你在这里对吧？",
+			say = "胡，{namecode:465}！你在这里吗？！你在这里对吧？",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "跟着胡滕一起走进了铁血宿舍的一个房间里。是要在这里做什么吗……",
+			say = "跟着{namecode:465}一起走进了铁血宿舍的一个房间里。是要在这里做什么吗……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "胡滕把窗户完全打开，然后径直坐在了屋内的椅子上。",
+			say = "{namecode:465}把窗户完全打开，然后径直坐在了屋内的椅子上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "胡滕一边说着，一边开始在屋内踱步起来。只过了一小会，一只蝙蝠就从不知何处飞了出来，随后快速逃出了窗外。",
+			say = "{namecode:465}一边说着，一边开始在屋内踱步起来。只过了一小会，一只蝙蝠就从不知何处飞了出来，随后快速逃出了窗外。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "虽然不好确定是不是因为胡滕的“体质”，但麻烦显然已经解决了。",
+			say = "虽然不好确定是不是因为{namecode:465}的“体质”，但麻烦显然已经解决了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "虽然嘴上是这么说的，不过胡滕还是小心仔细地关上了窗户。",
+			say = "虽然嘴上是这么说的，不过{namecode:465}还是小心仔细地关上了窗户。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			bgName = "star_level_bg_109",
 			dir = 1,
 			blackBg = true,
-			say = "虽然嘴上是这么说的，不过这次同伴的“临时委托”也圆满完成了。对于胡滕的了解又多了一分。",
+			say = "虽然嘴上是这么说的，不过这次同伴的“临时委托”也圆满完成了。对于{namecode:465}的了解又多了一分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

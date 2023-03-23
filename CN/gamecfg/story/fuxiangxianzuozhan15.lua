@@ -89,7 +89,7 @@ return {
 			actor = 402050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也没有看到……是不是搞错了航线呀，U37？",
+			say = "我也没有看到……是不是搞错了航线呀，{namecode:474}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_fuxiangxian_0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？Z24知道秘密基地的情报么？！",
+			say = "咦？{namecode:443}知道秘密基地的情报么？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 401280,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那……Z24，你洞悉到的结果究竟是……！",
+			say = "那……{namecode:443}，你洞悉到的结果究竟是……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 401240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欧根，你这家伙……！",
+			say = "{namecode:428}，你这家伙……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			actor = 408100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欧根，有点奇怪……我没有见到任何前来接应的人。",
+			say = "{namecode:428}，有点奇怪……我没有见到任何前来接应的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			bgName = "bg_fuxiangxian_0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（欧根一直就是这种性格啦……）",
+			say = "（{namecode:428}一直就是这种性格啦……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			bgName = "bg_fuxiangxian_0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳……U37，你对要塞部署最为熟悉，接下来就麻烦你带路了。",
+			say = "咳……{namecode:474}，你对要塞部署最为熟悉，接下来就麻烦你带路了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

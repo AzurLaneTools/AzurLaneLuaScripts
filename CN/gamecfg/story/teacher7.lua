@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"36年Z组 Z23老师\n\n<size=45>七 教教我吧，Z23老师！</size>",
+					"36年Z组 {namecode:408}老师\n\n<size=45>七 教教我吧，{namecode:408}老师！</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说Z23在这里……",
+			say = "听说{namecode:408}在这里……",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}…也想当一回Z23的学生",
+			say = "{namecode:6}…也想当一回{namecode:408}的学生",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actorName = "拉菲&标枪&{namecode:6}",
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "「「「教教我吧，Z23老师！」」」",
+			say = "「「「教教我吧，{namecode:408}老师！」」」",
 			subActors = {
 				{
 					actor = 201210,
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是重点！（敲黑板）不乖乖记笔记的话，Z23老师就要惩罚你了哦！",
+			say = "这里是重点！（敲黑板）不乖乖记笔记的话，{namecode:408}老师就要惩罚你了哦！",
 			flashout = {
 				black = true,
 				dur = 1,

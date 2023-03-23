@@ -95,7 +95,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "彼得，我有问题。",
+			say = "{namecode:471}，我有问题。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "彼得……再怎么说，拿盟友的数据当做训练的主要打击目标也有点……",
+			say = "{namecode:471}……再怎么说，拿盟友的数据当做训练的主要打击目标也有点……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 406010,
-			actorName = "威悉&Z46",
+			actorName = "{namecode:467}&{namecode:412}",
 			say = "了解。\n没问题。",
 			subActors = {
 				{
@@ -380,7 +380,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这么说也是…我们每天都是这么过来的~彼得，训练能开始了么，我已经等不及想要体验一下全新“敌人”的手感了！",
+			say = "这么说也是…我们每天都是这么过来的~{namecode:471}，训练能开始了么，我已经等不及想要体验一下全新“敌人”的手感了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很有干劲啊，海因里希。嗯……时间正好，演习程序启动，作——————",
+			say = "很有干劲啊，{namecode:454}。嗯……时间正好，演习程序启动，作——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

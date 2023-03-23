@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-47像往常一样来到办公室，从书架上选择了目标后就前往沙发进入了阅读模式。",
+			say = "{namecode:413}像往常一样来到办公室，从书架上选择了目标后就前往沙发进入了阅读模式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-47她们的小队在昨天的演习中取得了第一名啊……真可惜因为临时会议的关系没能去现场看成。",
+			say = "{namecode:413}她们的小队在昨天的演习中取得了第一名啊……真可惜因为临时会议的关系没能去现场看成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-47突然抬起头来向我搭话了。",
+			say = "{namecode:413}突然抬起头来向我搭话了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我从U-81那里听说了，那个战术是你想出来的。",
+			say = "我从{namecode:414}那里听说了，那个战术是你想出来的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然是突如其来的提问，但是面对一脸认真的U-47，我明白必须要认真回答她。",
+			say = "虽然是突如其来的提问，但是面对一脸认真的{namecode:413}，我明白必须要认真回答她。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-47，你现在——",
+			say = "{namecode:413}，你现在——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-47说完之后，又开始向手中的书集中起精神。",
+			say = "{namecode:413}说完之后，又开始向手中的书集中起精神。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

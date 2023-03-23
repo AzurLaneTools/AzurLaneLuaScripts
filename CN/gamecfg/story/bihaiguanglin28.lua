@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感谢欧根亲王阁下……我完全明白了！大家请放心，机关的事就交给我吧！",
+			say = "感谢{namecode:427}阁下……我完全明白了！大家请放心，机关的事就交给我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

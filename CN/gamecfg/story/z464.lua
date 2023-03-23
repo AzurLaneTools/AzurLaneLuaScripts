@@ -72,7 +72,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "提尔比茨，我来给你送指挥官给的东西。",
+			say = "{namecode:436}，我来给你送指挥官给的东西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "Z46？谢谢，我收下了。",
+			say = "{namecode:412}？谢谢，我收下了。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -102,7 +102,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "我将小包递给冰一般的她——被称为“北方的孤独女王”的战舰，提尔比茨。",
+			say = "我将小包递给冰一般的她——被称为“北方的孤独女王”的战舰，{namecode:436}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "谈话内容非常有趣。与其他阵营的交流、那些未完成舰如今的样子，还有因为战舰们的集会而焦头烂额的提尔比茨自己——",
+			say = "谈话内容非常有趣。与其他阵营的交流、那些未完成舰如今的样子，还有因为战舰们的集会而焦头烂额的{namecode:436}自己——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

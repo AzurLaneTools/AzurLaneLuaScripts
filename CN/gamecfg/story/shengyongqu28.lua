@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这股黑暗的力量和冲击………怎么可能！这种情况简直和当时遭遇俾斯麦的情况一样！！",
+			say = "这股黑暗的力量和冲击………怎么可能！这种情况简直和当时遭遇{namecode:435}的情况一样！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………要像对付俾斯麦的时候一样对付阿尔及利亚了么…",
+			say = "………要像对付{namecode:435}的时候一样对付阿尔及利亚了么…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像有点不太一样……胜利跟我说过，俾斯麦当时是在直接掏出了一个黑色的魔方之后才变得奇怪的。",
+			say = "好像有点不太一样……胜利跟我说过，{namecode:435}当时是在直接掏出了一个黑色的魔方之后才变得奇怪的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

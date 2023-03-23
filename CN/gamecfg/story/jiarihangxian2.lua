@@ -187,7 +187,7 @@ return {
 			bgName = "bg_map_doa",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "霞…小姐？我是Z23，这边的分别是{namecode:6}、拉菲、标枪，我们是奉命前来进行海域调查的“舰船”…",
+			say = "霞…小姐？我是{namecode:408}，这边的分别是{namecode:6}、拉菲、标枪，我们是奉命前来进行海域调查的“舰船”…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

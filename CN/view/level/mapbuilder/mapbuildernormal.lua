@@ -110,7 +110,7 @@ function slot1.Update(slot0, slot1)
 	slot0.float.pivot = Vector2(0.5, 0.5)
 	slot0.float.localPosition = Vector2(0, 0)
 
-	setText(slot0.sceneParent.chapterName, string.split(slot1:getConfig("name"), "||")[1])
+	setText(slot0.sceneParent.chapterName, HXSet.hxLan(string.split(slot1:getConfig("name"), "||")[1]))
 	slot0.sceneParent.loader:GetSpriteQuiet("chapterno", "chapter" .. slot1:getMapTitleNumber(), slot0.sceneParent.chapterNoTitle, true)
 	uv0.super.Update(slot0, slot1)
 end

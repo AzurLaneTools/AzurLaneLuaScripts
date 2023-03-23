@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不知道从哪里冒出来的俾斯麦接过了铁血阵营的领导权？",
+			say = "不知道从哪里冒出来的{namecode:435}接过了铁血阵营的领导权？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "腓特烈大帝不再管事了？",
+			say = "{namecode:440}不再管事了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

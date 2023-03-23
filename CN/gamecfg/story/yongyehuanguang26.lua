@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "德意志！？",
+			say = "{namecode:429}！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不过，如果让你靠过去对提尔比茨放鱼雷就麻烦了，就给我留在这里吧！",
+			say = "不过，如果让你靠过去对{namecode:436}放鱼雷就麻烦了，就给我留在这里吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/wave",
-			say = "英仙座适时赶来支援，然而舰载机投下的炸弹却穿过了德意志的身体，仅在空旷水面上激起空虚的浪花。",
+			say = "英仙座适时赶来支援，然而舰载机投下的炸弹却穿过了{namecode:429}的身体，仅在空旷水面上激起空虚的浪花。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "伴随着一连串嚣张的笑声，德意志的身体逐渐变的透明，最后完全消失了。",
+			say = "伴随着一连串嚣张的笑声，{namecode:429}的身体逐渐变的透明，最后完全消失了。",
 			effects = {
 				{
 					active = false,
@@ -251,7 +251,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "几乎是在同一时间内，提尔比茨、沙恩霍斯特、格奈森瑙、斯佩伯爵......其余的铁血主力也如同幻影一般随着德意志一起消失了。",
+			say = "几乎是在同一时间内，{namecode:436}、{namecode:433}、{namecode:434}、{namecode:431}......其余的铁血主力也如同幻影一般随着{namecode:429}一起消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

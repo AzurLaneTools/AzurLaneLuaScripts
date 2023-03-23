@@ -168,7 +168,7 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "U81&{namecode:154}",
+			actorName = "{namecode:414}&{namecode:154}",
 			say = "三，四~",
 			subActors = {
 				{
@@ -242,7 +242,7 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "{namecode:156}&U557",
+			actorName = "{namecode:156}&{namecode:415}",
 			say = "五，六……",
 			subActors = {
 				{
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，为什么U47没有来呢？",
+			say = "对了，为什么{namecode:413}没有来呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

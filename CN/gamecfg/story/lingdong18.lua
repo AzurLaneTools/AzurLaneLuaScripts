@@ -165,7 +165,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "另外，司令部通告说，提尔比茨将交给陆航的重型轰炸机接手",
+			say = "另外，司令部通告说，{namecode:436}将交给陆航的重型轰炸机接手",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

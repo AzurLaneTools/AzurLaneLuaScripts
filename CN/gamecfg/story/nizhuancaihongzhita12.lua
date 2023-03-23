@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "那究竟是什么，别卖关子了，易北。",
+			say = "那究竟是什么，别卖关子了，{namecode:468}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

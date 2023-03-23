@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stopBGM = true,
-			say = "希佩尔，“区区皇家杂鱼，我一个人就能轻松解决掉”，这句话不是从你口里说出来的吗？",
+			say = "{namecode:426}，“区区皇家杂鱼，我一个人就能轻松解决掉”，这句话不是从你口里说出来的吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "总之……姐姐，我们也开始搜索吧，她们应该还没走远。希佩尔未完成的任务，就由我们来善后吧 ",
+			say = "总之……姐姐，我们也开始搜索吧，她们应该还没走远。{namecode:426}未完成的任务，就由我们来善后吧 ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 1,
 			dir = -1,
 			blackBg = true,
-			say = "哼哼，有战斗当然没问题~希佩尔的仇，就由我来报吧！",
+			say = "哼哼，有战斗当然没问题~{namecode:426}的仇，就由我来报吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

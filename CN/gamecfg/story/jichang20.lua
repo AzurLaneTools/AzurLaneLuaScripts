@@ -184,7 +184,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，Z46等一下！Z36她……",
+			say = "啊，{namecode:412}等一下！{namecode:411}她……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 401360,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对不起，对不起！刚刚被Z23抓住了……",
+			say = "对不起，对不起！刚刚被{namecode:408}抓住了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "罗恩（μ兵装）",
+			actorName = "{namecode:439}（μ兵装）",
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -557,7 +557,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "罗恩（μ兵装）",
+			actorName = "{namecode:439}（μ兵装）",
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,

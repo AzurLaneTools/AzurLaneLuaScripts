@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯。这些机关是欧根和{namecode:98}临时新加的，从客观上来说你确实不知道。",
+			say = "嗯。这些机关是{namecode:428}和{namecode:98}临时新加的，从客观上来说你确实不知道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "吕佐夫话音未落，突然掉了下去……",
+			say = "{namecode:461}话音未落，突然掉了下去……",
 			effects = {
 				{
 					active = false,
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405041,
-			say = "指挥官，你不用担心吕佐夫，下面有足够多的缓冲软垫。",
+			say = "指挥官，你不用担心{namecode:461}，下面有足够多的缓冲软垫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "说完，图林根也跟着坠落了下去。",
+			say = "说完，{namecode:466}也跟着坠落了下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "加速前进，与塞德利茨和谢菲尔德之间的距离正逐渐拉开。",
+			say = "加速前进，与{namecode:460}和谢菲尔德之间的距离正逐渐拉开。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "被一个箭步冲上前来的塞德利茨抱住，随后一同落了下去。",
+			say = "被一个箭步冲上前来的{namecode:460}抱住，随后一同落了下去。",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -489,7 +489,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "因为下层的缓冲软垫再加上塞德利茨的保护，可以说是毫发无损……不过这样一来，就算失败了吧。",
+			say = "因为下层的缓冲软垫再加上{namecode:460}的保护，可以说是毫发无损……不过这样一来，就算失败了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "欧根说过，如果指挥官大人在这里落入陷阱的话，就直接前往终点……总之，我们先从这里上去吧？",
+			say = "{namecode:428}说过，如果指挥官大人在这里落入陷阱的话，就直接前往终点……总之，我们先从这里上去吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "塞德利茨与谢菲尔德逐渐追了上来……但是，终点已经就在眼前了！",
+			say = "{namecode:460}与谢菲尔德逐渐追了上来……但是，终点已经就在眼前了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

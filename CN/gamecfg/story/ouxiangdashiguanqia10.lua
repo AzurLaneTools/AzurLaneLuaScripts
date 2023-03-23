@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多亏Z23安排好了大家的任务分工，准备工作才能进行得这么顺利呢。",
+			say = "多亏{namecode:408}安排好了大家的任务分工，准备工作才能进行得这么顺利呢。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,

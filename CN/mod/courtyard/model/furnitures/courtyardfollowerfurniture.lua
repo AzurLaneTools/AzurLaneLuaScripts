@@ -53,4 +53,9 @@ function slot0.Stop(slot0)
 	slot0.slots[1]:Stop()
 end
 
+function slot0.SetPosition(slot0, slot1)
+	uv0.super.SetPosition(slot0, slot1)
+	slot0:DispatchEvent(CourtYardEvent.ROTATE_FURNITURE, slot0.dir)
+end
+
 return slot0

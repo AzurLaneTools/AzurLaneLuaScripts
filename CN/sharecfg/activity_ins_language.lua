@@ -139,7 +139,7 @@ pg.activity_ins_language = {
 		value = "哈啊…真是一群缺乏紧张感的家伙…"
 	},
 	ins_reply_5_2_1 = {
-		value = "希佩尔自己不也玩的很开心嘛~"
+		value = "{namecode:426}自己不也玩的很开心嘛~"
 	},
 	ins_reply_5_2_2 = {
 		value = "只、只是配合一下氛围而已啦，配合！"
@@ -172,13 +172,13 @@ pg.activity_ins_language = {
 		value = "呣呣呣…哼、哼…算你堆得不错…"
 	},
 	ins_reply_6_2_1 = {
-		value = "同样拿着铲子面对一盘扭曲散沙的希佩尔…令人同情"
+		value = "同样拿着铲子面对一盘扭曲散沙的{namecode:426}…令人同情"
 	},
 	ins_reply_6_2_2 = {
 		value = "哈啊？谁、谁谁要你同情了啊！"
 	},
 	ins_reply_6_2_3 = {
-		value = "请求对希佩尔展开支援行动"
+		value = "请求对{namecode:426}展开支援行动"
 	},
 	ins_reply_6_2_4 = {
 		value = "都说了不要同情我啊啊啊啊呜呜呜……"
@@ -277,7 +277,7 @@ pg.activity_ins_language = {
 		value = "哪有这种装饰方式的啦…还不如试试波斯菊、堇花之类的…"
 	},
 	ins_reply_10_3_2 = {
-		value = "哦哦…？希佩尔也喜欢这些吗！？"
+		value = "哦哦…？{namecode:426}也喜欢这些吗！？"
 	},
 	ins_reply_10_3_3 = {
 		value = "一、一般喜欢吧！"
@@ -436,7 +436,7 @@ pg.activity_ins_language = {
 		value = "哼、哼…努力不要拖后腿吧！"
 	},
 	ins_reply_16_2_1 = {
-		value = "希佩尔也需要更多的练习呢"
+		value = "{namecode:426}也需要更多的练习呢"
 	},
 	ins_reply_16_2_2 = {
 		value = "我、我知道啦！这不是在一起练习嘛！"
@@ -469,7 +469,7 @@ pg.activity_ins_language = {
 		value = "…呵呵呵，品味不错~"
 	},
 	ins_op_17_1_1 = {
-		value = "吉他手希佩尔，好帅！"
+		value = "吉他手{namecode:426}，好帅！"
 	},
 	op_reply_17_1_1 = {
 		value = "哈啊？!"
@@ -478,7 +478,7 @@ pg.activity_ins_language = {
 		value = "#铁血之夜#说到铁血，当然是香肠和啤酒啦！"
 	},
 	ins_discuss_18_1 = {
-		value = "情绪高涨的希佩尔也很可爱呢，呼呼"
+		value = "情绪高涨的{namecode:426}也很可爱呢，呼呼"
 	},
 	ins_reply_18_1_1 = {
 		value = "才、才没有情绪高涨啦！只是…"
@@ -490,7 +490,7 @@ pg.activity_ins_language = {
 		value = "虽然不习惯宴会…和铁血的大家在一起，似乎还没问题……"
 	},
 	ins_discuss_18_3 = {
-		value = "偶尔尝试些这样的娱乐活动也是必要的呢…加上斯佩也很开心的样子，不错！"
+		value = "偶尔尝试些这样的娱乐活动也是必要的呢…加上{namecode:432}也很开心的样子，不错！"
 	},
 	ins_op_18_1_1 = {
 		value = "香肠…很好吃的样子"
@@ -508,10 +508,10 @@ pg.activity_ins_language = {
 		value = "#啾啾套件#超、可、爱！"
 	},
 	ins_discuss_19_1 = {
-		value = "原来希佩尔喜欢这种可爱的东西啊…"
+		value = "原来{namecode:426}喜欢这种可爱的东西啊…"
 	},
 	ins_discuss_19_2 = {
-		value = "哈哈，希佩尔是喜欢可爱东西的女孩子呢"
+		value = "哈哈，{namecode:426}是喜欢可爱东西的女孩子呢"
 	},
 	ins_reply_19_2_1 = {
 		value = "才、才才才没有！刚才是别人错发而已的啦！"
@@ -520,7 +520,7 @@ pg.activity_ins_language = {
 		value = "这反应…经典傲娇？"
 	},
 	ins_reply_19_2_3 = {
-		value = "欧根！！！！"
+		value = "{namecode:428}！！！！"
 	},
 	ins_op_19_1_1 = {
 		value = "可爱！"
@@ -757,13 +757,13 @@ pg.activity_ins_language = {
 		value = "【魔眼的神托】得快点把卡片用掉才行呢"
 	},
 	ins_reply_27_1_1 = {
-		value = "Z36为什么不教教我嘛~我是初学者啊~"
+		value = "{namecode:411}为什么不教教我嘛~我是初学者啊~"
 	},
 	ins_reply_27_1_2 = {
 		value = "【魔眼的神托】(我也是初学者来着……）"
 	},
 	ins_discuss_27_2 = {
-		value = "Z35是想什么都会表现在脸上的类型啊？手上有什么卡片一目了然呢~"
+		value = "{namecode:410}是想什么都会表现在脸上的类型啊？手上有什么卡片一目了然呢~"
 	},
 	ins_reply_27_2_1 = {
 		value = "这种事就不要说出来了！（泪"
@@ -772,7 +772,7 @@ pg.activity_ins_language = {
 		value = "像萨拉托加说的一样，稍微控制一下表情比较好哦？"
 	},
 	ins_reply_27_2_3 = {
-		value = "话是这么说，Z23其实也没比我好到哪里去吧？"
+		value = "话是这么说，{namecode:408}其实也没比我好到哪里去吧？"
 	},
 	ins_op_27_1_1 = {
 		value = "祝你好运！"
@@ -793,7 +793,7 @@ pg.activity_ins_language = {
 		value = "拍得不错呢！"
 	},
 	ins_reply_28_1_1 = {
-		value = "Z23耐心地教会了独角兽…谢谢…！"
+		value = "{namecode:408}耐心地教会了独角兽…谢谢…！"
 	},
 	ins_discuss_28_2 = {
 		value = "对电子机械不太擅长，没能帮上忙，抱歉了"
@@ -1276,16 +1276,16 @@ pg.activity_ins_language = {
 		value = "呼呼…真是可爱呢"
 	},
 	ins_reply_42_2_1 = {
-		value = "说什么可爱，无论是德意志大人还是德意志大人的汪汪，都是帅气的顶点！"
+		value = "说什么可爱，无论是{namecode:429}大人还是{namecode:429}大人的汪汪，都是帅气的顶点！"
 	},
 	ins_reply_42_2_2 = {
 		value = "就是这点显得更可爱了啊，呵呵呵"
 	},
 	ins_reply_42_2_3 = {
-		value = "戏弄同僚也要适可而止啊，欧根"
+		value = "戏弄同僚也要适可而止啊，{namecode:428}"
 	},
 	ins_reply_42_2_4 = {
-		value = "哎呀？小希佩尔嫉妒了？放心吧，在我眼中，你才是最可爱的~"
+		value = "哎呀？小{namecode:426}嫉妒了？放心吧，在我眼中，你才是最可爱的~"
 	},
 	ins_reply_42_2_5 = {
 		value = "哈、哈啊！？谁嫉妒了啊！！！？"
@@ -1585,22 +1585,22 @@ pg.activity_ins_language = {
 		value = "一点小事，像低等动物那般一惊一乍的成何体统！"
 	},
 	ins_reply_50_2_1 = {
-		value = "姐姐当时也吓了一跳…吧，当Z46的球棒在耳边砸下的时候"
+		value = "姐姐当时也吓了一跳…吧，当{namecode:412}的球棒在耳边砸下的时候"
 	},
 	ins_reply_50_2_2 = {
-		value = "那、那只是配合气氛，堂堂德意志大人怎么可能因为这点小事就慌慌张张！"
+		value = "那、那只是配合气氛，堂堂{namecode:429}大人怎么可能因为这点小事就慌慌张张！"
 	},
 	ins_discuss_50_3 = {
-		value = "看着那副场景还能不慌不忙的拍下这张照片的欧根才是…哈啊…都有点佩服你了"
+		value = "看着那副场景还能不慌不忙的拍下这张照片的{namecode:428}才是…哈啊…都有点佩服你了"
 	},
 	ins_reply_50_3_1 = {
-		value = "呵呵呵~这么有趣的场景，怎么能错过嘛~可惜没拍下后来德意志的精彩表情…遗憾"
+		value = "呵呵呵~这么有趣的场景，怎么能错过嘛~可惜没拍下后来{namecode:429}的精彩表情…遗憾"
 	},
 	ins_op_50_1_1 = {
-		value = "德意志…后来没事吧？"
+		value = "{namecode:429}…后来没事吧？"
 	},
 	ins_op_50_1_2 = {
-		value = "欧根…是怎么抓拍到这一刻的？"
+		value = "{namecode:428}…是怎么抓拍到这一刻的？"
 	},
 	op_reply_50_1_1 = {
 		value = "哼，低等动物就是喜欢一惊一乍的，当然没什么事了！"
@@ -1630,7 +1630,7 @@ pg.activity_ins_language = {
 		value = "北方联合…厉害…！"
 	},
 	ins_op_51_1_2 = {
-		value = "Z23…辛苦了…"
+		value = "{namecode:408}…辛苦了…"
 	},
 	op_reply_51_1_1 = {
 		value = "指挥官也要来一瓶伏特加吗，呵呵~"
@@ -1912,7 +1912,7 @@ pg.activity_ins_language = {
 		value = "哎呀，这糕点的形状真是有趣呢~"
 	},
 	ins_reply_61_2_2 = {
-		value = "有趣…吗？欧根小姐要不要也来点呢，我有多做了一些哦？"
+		value = "有趣…吗？{namecode:428}小姐要不要也来点呢，我有多做了一些哦？"
 	},
 	ins_reply_61_2_3 = {
 		value = "欸？可以吗？那就…谢谢了~"
@@ -1942,7 +1942,7 @@ pg.activity_ins_language = {
 		value = "才不是那样的好吧！"
 	},
 	ins_reply_62_1_2 = {
-		value = "哎呀，那…你要吃吗，希佩尔？"
+		value = "哎呀，那…你要吃吗，{namecode:426}？"
 	},
 	ins_reply_62_1_3 = {
 		value = "…………要"
@@ -2203,10 +2203,10 @@ pg.activity_ins_language = {
 		value = "还要我帮忙传话呢，“{namecode:33}和{namecode:34}都有乖乖听话哦！”呢"
 	},
 	ins_discuss_70_2 = {
-		value = "保姆…？啊…不过感觉，也挺适合腓特烈小姐的呢…"
+		value = "保姆…？啊…不过感觉，也挺适合{namecode:441}小姐的呢…"
 	},
 	ins_reply_70_2_1 = {
-		value = "哎呀，Z23也想要被“照顾”吗？可以的哦？"
+		value = "哎呀，{namecode:408}也想要被“照顾”吗？可以的哦？"
 	},
 	ins_reply_70_2_2 = {
 		value = "我我我我就不用了！"
@@ -2335,19 +2335,19 @@ pg.activity_ins_language = {
 		value = "用这样的载具在海上破浪，感觉…还挺棒的"
 	},
 	ins_discuss_74_1 = {
-		value = "哇啊！俾斯麦姐姐好帅！那个是…金枪鱼？"
+		value = "哇啊！{namecode:435}姐姐好帅！那个是…金枪鱼？"
 	},
 	ins_reply_74_1_1 = {
 		value = "啊啊，其实是{namecode:98}她们研究室的试做品， 是叫“外形拟态海上载具”什么的…？"
 	},
 	ins_reply_74_1_2 = {
-		value = "啊哈哈，有机会的话U556也想试试呢~不知道能不能倒退呢…"
+		value = "啊哈哈，有机会的话{namecode:416}也想试试呢~不知道能不能倒退呢…"
 	},
 	ins_discuss_74_2 = {
 		value = "那个就是传闻中的试做品吗…实际的体感…如何？"
 	},
 	ins_reply_74_2_1 = {
-		value = "意外的…还不错呢，你也来试试如何，提尔比茨？"
+		value = "意外的…还不错呢，你也来试试如何，{namecode:436}？"
 	},
 	ins_op_74_1_1 = {
 		value = "好、好帅！"
@@ -2554,13 +2554,13 @@ pg.activity_ins_language = {
 		value = "看起来咖啡对你并不太有提神的效果呢…"
 	},
 	ins_reply_80_1_1 = {
-		value = "哦哦，原来是Z23给泡的咖啡吗~？"
+		value = "哦哦，原来是{namecode:408}给泡的咖啡吗~？"
 	},
 	ins_reply_80_1_2 = {
 		value = "在给指挥官泡咖啡的时候，顺便多泡了一杯"
 	},
 	ins_reply_80_1_3 = {
-		value = "谢谢Z23…如果除了糖…还能多加点奶……拉菲…会更感谢的"
+		value = "谢谢{namecode:408}…如果除了糖…还能多加点奶……拉菲…会更感谢的"
 	},
 	ins_discuss_80_2 = {
 		value = "泡咖啡…的技术，{namecode:6}也能学…的说？"
@@ -2764,7 +2764,7 @@ pg.activity_ins_language = {
 		value = "果然是这样吗？啊哈哈~"
 	},
 	ins_discuss_86_2 = {
-		value = "Z23偶尔也会有些小失误呢"
+		value = "{namecode:408}偶尔也会有些小失误呢"
 	},
 	ins_reply_86_2_1 = {
 		value = "呜…太丢人了"
@@ -2794,13 +2794,13 @@ pg.activity_ins_language = {
 		value = "嗯…跑跑步什么的……"
 	},
 	ins_87 = {
-		value = "是谁…动了罗恩的布丁？"
+		value = "是谁…动了{namecode:439}的布丁？"
 	},
 	ins_discuss_87_1 = {
 		value = "隔着屏幕都能感觉到的阵阵寒意…"
 	},
 	ins_reply_87_1_1 = {
-		value = "Z23…知道是谁吗？还是说…是你？"
+		value = "{namecode:408}…知道是谁吗？还是说…是你？"
 	},
 	ins_reply_87_1_2 = {
 		value = "咿！不、不是我！我也不知道是谁呜呜呜——"
@@ -2944,7 +2944,7 @@ pg.activity_ins_language = {
 		value = "哦哦哦！！来玩水下捉迷藏吧！"
 	},
 	ins_reply_91_1_1 = {
-		value = "这才刚开始学呢，U81你也太心急了。嘿嘿，让我们来教你一些潜泳的小窍门如何啊？"
+		value = "这才刚开始学呢，{namecode:414}你也太心急了。嘿嘿，让我们来教你一些潜泳的小窍门如何啊？"
 	},
 	ins_reply_91_1_2 = {
 		value = "真的可以吗？！"
@@ -4024,7 +4024,7 @@ pg.activity_ins_language = {
 		value = "黑暗之中的狂乱庆典，哼，还算有点意思。"
 	},
 	ins_reply_120_1_1 = {
-		value = "齐柏林…没有尽兴？"
+		value = "{namecode:438}…没有尽兴？"
 	},
 	ins_reply_120_1_2 = {
 		value = "哼，看着你们乐在其中的样子，也算是一种乐趣吧"
@@ -4060,25 +4060,25 @@ pg.activity_ins_language = {
 		value = "宴会，果然还是少不了美酒~之前留下的重樱好酒终于派上用场了呢~"
 	},
 	ins_reply_121_1_1 = {
-		value = "欧根，要是再喝醉了骚扰斯佩，我可不会轻饶你！"
+		value = "{namecode:428}，要是再喝醉了骚扰{namecode:432}，我可不会轻饶你！"
 	},
 	ins_reply_121_1_2 = {
-		value = "放松点放松点~你家斯佩不也挺开心的嘛~"
+		value = "放松点放松点~你家{namecode:432}不也挺开心的嘛~"
 	},
 	ins_reply_121_1_3 = {
 		value = "这种嬉闹的感觉，我并不讨厌哦？"
 	},
 	ins_reply_121_1_4 = {
-		value = "哼，既然斯佩都这么说了…"
+		value = "哼，既然{namecode:432}都这么说了…"
 	},
 	ins_discuss_121_2 = {
 		value = "料理就要专心品尝！醉鬼就丢一旁就好了！"
 	},
 	ins_reply_121_2_1 = {
-		value = "希佩尔虽然这么说，最后还是帮忙把欧根送回去了呢。"
+		value = "{namecode:426}虽然这么说，最后还是帮忙把{namecode:428}送回去了呢。"
 	},
 	ins_reply_121_2_2 = {
-		value = "斯佩，教你一个词，这就叫“傲娇”哦。"
+		value = "{namecode:432}，教你一个词，这就叫“傲娇”哦。"
 	},
 	ins_reply_121_2_3 = {
 		value = "哈啊？你说谁是傲娇？！"
@@ -4720,13 +4720,13 @@ pg.activity_ins_language = {
 		value = "在后台发现迷路的孩子一枚，怎么办才好呢~？"
 	},
 	ins_discuss_139_1 = {
-		value = "这孩子的表情…你不会对人家做了什么吧，罗恩？"
+		value = "这孩子的表情…你不会对人家做了什么吧，{namecode:439}？"
 	},
 	ins_reply_139_1_1 = {
 		value = "才没有做什么呢~啊，只是说了句要不要把这孩子拿去“放生”而已？"
 	},
 	ins_reply_139_1_2 = {
-		value = "…其实之前就想问，罗恩的“放生”究竟是指什么……？"
+		value = "…其实之前就想问，{namecode:439}的“放生”究竟是指什么……？"
 	},
 	ins_reply_139_1_3 = {
 		value = "呵呵呵…就是普通的放生而已呀~♡"
@@ -4735,7 +4735,7 @@ pg.activity_ins_language = {
 		value = "…我还是不细问了"
 	},
 	ins_discuss_139_2 = {
-		value = "哈哈哈，居然让小家伙露出了这种神情~罗恩其实很有吓人的天赋吧~"
+		value = "哈哈哈，居然让小家伙露出了这种神情~{namecode:439}其实很有吓人的天赋吧~"
 	},
 	ins_reply_139_2_1 = {
 		value = "嗯？我的笑容明明就很和善呀~"
@@ -5800,7 +5800,7 @@ pg.activity_ins_language = {
 		value = "你能喜欢就好~"
 	},
 	ins_reply_168_1_1 = {
-		value = "谢谢你！U110要去给小伙伴看大鲨鱼！"
+		value = "谢谢你！{namecode:420}要去给小伙伴看大鲨鱼！"
 	},
 	ins_discuss_168_2 = {
 		value = "哇~真好呀，我也想要个画着大青花鱼的~"
@@ -5872,7 +5872,7 @@ pg.activity_ins_language = {
 		value = "按照重樱的说法，新年第一天早晨取的水叫做“若水”，据说是很神圣的。"
 	},
 	ins_reply_170_1_2 = {
-		value = "真讲究啊，不愧是美因茨呢~希佩尔之前不是也说要一起去么，最后还是睡过头了吧~"
+		value = "真讲究啊，不愧是{namecode:479}呢~{namecode:426}之前不是也说要一起去么，最后还是睡过头了吧~"
 	},
 	ins_reply_170_1_3 = {
 		value = "哈啊？！还·不·是·你！你以为大半夜照顾喝得醉醺醺的家伙很容易吗！"
@@ -5944,22 +5944,22 @@ pg.activity_ins_language = {
 		value = "哎呀呀，真要许愿的时候反而要想很久许什么愿望呢"
 	},
 	ins_reply_172_1_1 = {
-		value = "Z1为什么会这么纠结呀？"
+		value = "{namecode:400}为什么会这么纠结呀？"
 	},
 	ins_reply_172_1_2 = {
 		value = "想要的有那么那么多，绘马却只有这么小一个，自然要纠结一下啦！哈哈哈"
 	},
 	ins_reply_172_1_3 = {
-		value = "说白了，只是Z1太贪心了吧"
+		value = "说白了，只是{namecode:400}太贪心了吧"
 	},
 	ins_discuss_172_2 = {
 		value = "有所欲就直接索取！掠夺！这才是“魔王”的行事准则，无需依靠什么绘马许愿！"
 	},
 	ins_reply_172_2_1 = {
-		value = "话是这么说，Z24还是乖乖地写了绘马呢~"
+		value = "话是这么说，{namecode:443}还是乖乖地写了绘马呢~"
 	},
 	ins_reply_172_2_2 = {
-		value = "愿望是“希望将来Z23能少布置点作业”，还真是…"
+		value = "愿望是“希望将来{namecode:408}能少布置点作业”，还真是…"
 	},
 	ins_reply_172_2_3 = {
 		value = "呣，看、看他人写下的愿望是不礼貌的！"
@@ -7291,7 +7291,7 @@ pg.activity_ins_language = {
 		value = "哼，这种“愉快”的茶会，怎么看都不适合我吧。"
 	},
 	ins_reply_211_2_2 = {
-		value = "哎呀呀~Z46和齐柏林好像关系不错？呵呵，下次来办个三个人的小茶会吧~"
+		value = "哎呀呀~{namecode:412}和{namecode:438}好像关系不错？呵呵，下次来办个三个人的小茶会吧~"
 	},
 	ins_reply_211_2_3 = {
 		value = "…谢谢。"
@@ -7300,7 +7300,7 @@ pg.activity_ins_language = {
 		value = "令人不禁微笑的场面呢。"
 	},
 	op_reply_211_1_1 = {
-		value = "和齐柏林聊天确实是一件很愉快的事情呢~"
+		value = "和{namecode:438}聊天确实是一件很愉快的事情呢~"
 	},
 	ins_212 = {
 		value = "唔呼呼…房间里的蘑菇长出来了，可爱吧？"
@@ -7798,7 +7798,7 @@ pg.activity_ins_language = {
 		value = "偶尔花点时间在悠闲的事上，似乎也不错。"
 	},
 	ins_discuss_226_1 = {
-		value = "威悉也喜欢钓鱼吗？"
+		value = "{namecode:467}也喜欢钓鱼吗？"
 	},
 	ins_reply_226_1_1 = {
 		value = "也？嗯…我的话…应该说单纯作为一种休息的方式来说，还不错吧。"
@@ -7939,13 +7939,13 @@ pg.activity_ins_language = {
 		value = "偶尔抛却效率、意义等等思考，单纯享受气氛，也不坏。"
 	},
 	ins_discuss_230_1 = {
-		value = "太有趣了哈哈~真是不错啊彼得！这个猫耳太适合你了哈哈哈~"
+		value = "太有趣了哈哈~真是不错啊{namecode:471}！这个猫耳太适合你了哈哈哈~"
 	},
 	ins_reply_230_1_1 = {
 		value = "哼，我就姑且当作是赞赏了。"
 	},
 	ins_reply_230_1_2 = {
-		value = "喵哈哈~这个可是我专门为了铁血的每位精心挑选的，当然合适啦~其实也有海因里希的份哦~等着我！"
+		value = "喵哈哈~这个可是我专门为了铁血的每位精心挑选的，当然合适啦~其实也有{namecode:454}的份哦~等着我！"
 	},
 	ins_reply_230_1_3 = {
 		value = "哇哇？真的吗~？我很期待！"
@@ -8071,7 +8071,7 @@ pg.activity_ins_language = {
 		value = "呵呵，对我来说，铁血的各位也好，指挥官也好，都是可爱的孩子~"
 	},
 	ins_reply_234_1_2 = {
-		value = "不过，确实坐在腓特烈大帝旁边，感觉有种让人昏昏欲睡的安心感呢…"
+		value = "不过，确实坐在{namecode:440}旁边，感觉有种让人昏昏欲睡的安心感呢…"
 	},
 	ins_discuss_234_2 = {
 		value = "呵…没想到我也有像这样参加集体活动的一天。"
@@ -8992,10 +8992,10 @@ pg.activity_ins_language = {
 		value = "哼哼，区区拍个照时间的倒立，才不会对我造成什么影响呢！"
 	},
 	ins_discuss_266_3 = {
-		value = "力的作用是相互的。地面撑起马格德堡的时候，马格德堡也同时举起了整个地面？"
+		value = "力的作用是相互的。地面撑起{namecode:447}的时候，{namecode:447}也同时举起了整个地面？"
 	},
 	ins_reply_266_3_1 = {
-		value = "请叫我举起大地的马格德堡！哈哈~"
+		value = "请叫我举起大地的{namecode:447}！哈哈~"
 	},
 	ins_op_266_1_1 = {
 		value = "拍了张不错的照片"
@@ -9031,7 +9031,7 @@ pg.activity_ins_language = {
 		value = "太、太过分的还是算了啦！"
 	},
 	ins_op_267_1_1 = {
-		value = "原来是易北整理的书柜吗？东西更好找了，帮大忙了。"
+		value = "原来是{namecode:468}整理的书柜吗？东西更好找了，帮大忙了。"
 	},
 	op_reply_267_1_1 = {
 		value = "欸…欸？！"
@@ -9850,7 +9850,7 @@ pg.activity_ins_language = {
 		value = "嘿嘿，是吧是吧~下次指挥官也来拍一组嘛~"
 	},
 	ins_295 = {
-		value = "呼呼，下一步“埃姆登”会怎么走呢？"
+		value = "呼呼，下一步“{namecode:448}”会怎么走呢？"
 	},
 	ins_discuss_295_1 = {
 		value = "嗯~~国际象棋啊…这个有意思吗？"
@@ -9871,7 +9871,7 @@ pg.activity_ins_language = {
 		value = "比起独自研究棋局，是不是找个人对弈更好点？"
 	},
 	ins_reply_295_3_1 = {
-		value = "呵呵，“埃姆登”从来不孤独的哦？"
+		value = "呵呵，“{namecode:448}”从来不孤独的哦？"
 	},
 	ins_op_295_1_1 = {
 		value = "组织国际象棋大赛吧。"
@@ -9886,10 +9886,10 @@ pg.activity_ins_language = {
 		value = "这家店东西一直都很好吃，还经常推出限量新品…"
 	},
 	ins_reply_296_1_1 = {
-		value = "没错~不愧是斯佩，对这块非常了解~"
+		value = "没错~不愧是{namecode:432}，对这块非常了解~"
 	},
 	ins_reply_296_1_2 = {
-		value = "哼哼，这次说什么也不会错过了！斯佩，我们这就出发！"
+		value = "哼哼，这次说什么也不会错过了！{namecode:432}，我们这就出发！"
 	},
 	ins_reply_296_1_3 = {
 		value = "我已经带了你们的份回来了哦 ，不用担心~"
@@ -9910,7 +9910,7 @@ pg.activity_ins_language = {
 		value = "和指挥官一起总能有些新发现，下次再一起去发现好店~"
 	},
 	ins_297 = {
-		value = "果然只要埃尔宾想着今天说不定会下雨，就肯定会放晴呢…"
+		value = "果然只要{namecode:449}想着今天说不定会下雨，就肯定会放晴呢…"
 	},
 	ins_discuss_297_1 = {
 		value = "一定只是巧合啦，不用想太多的~"
@@ -9922,19 +9922,19 @@ pg.activity_ins_language = {
 		value = "无论怎样，大晴天总归是好事，应该开心点。"
 	},
 	ins_reply_297_2_1 = {
-		value = "嗯…图林根真是积极啊…我就不行…总是事与愿违…唉…"
+		value = "嗯…{namecode:466}真是积极啊…我就不行…总是事与愿违…唉…"
 	},
 	ins_discuss_297_3 = {
 		value = "如果现实总和想法相反的话，那就反过来祈愿就好了，对吧~？"
 	},
 	ins_reply_297_3_1 = {
-		value = "嗯…！埃尔宾经常这么做呢…希望大家都变得不幸，这样的话，一定…"
+		value = "嗯…！{namecode:449}经常这么做呢…希望大家都变得不幸，这样的话，一定…"
 	},
 	ins_op_297_1_1 = {
 		value = "打起精神来！"
 	},
 	op_reply_297_1_1 = {
-		value = "嗯…也谢谢指挥官陪埃尔宾散步了…希望指挥官每天…都遇不上好事…？"
+		value = "嗯…也谢谢指挥官陪{namecode:449}散步了…希望指挥官每天…都遇不上好事…？"
 	},
 	ins_298 = {
 		value = "这个地方，今天就由我接收了！"
@@ -9970,7 +9970,7 @@ pg.activity_ins_language = {
 		value = "嗯，这些孩子都很结实，最后也确实没什么事。"
 	},
 	ins_discuss_299_2 = {
-		value = "当时真是吓到了呢…鱼鱼突然就和那孩子滚在一起了…谢谢图林根让我冷静下来了~"
+		value = "当时真是吓到了呢…鱼鱼突然就和那孩子滚在一起了…谢谢{namecode:466}让我冷静下来了~"
 	},
 	ins_reply_299_2_1 = {
 		value = "嗯哼，有精神是好事，只要情况没太失控，大体都是没问题的。"
@@ -9994,7 +9994,7 @@ pg.activity_ins_language = {
 		value = "稍微小维护一下就好了，没什么大事。"
 	},
 	ins_300 = {
-		value = "塞德利茨巡逻完毕，周边一切正常！"
+		value = "{namecode:460}巡逻完毕，周边一切正常！"
 	},
 	ins_discuss_300_1 = {
 		value = "掌握缰绳的感觉，确实不错吧？"
@@ -10216,7 +10216,7 @@ pg.activity_ins_language = {
 		value = "哈哈，所以“微醺”的状态才正好，不是吗？"
 	},
 	ins_reply_306_2_2 = {
-		value = "按欧根以往的表现来看，很难说只有“微醺”的程度就是了呢～"
+		value = "按{namecode:428}以往的表现来看，很难说只有“微醺”的程度就是了呢～"
 	},
 	ins_op_306_1_1 = {
 		value = "得到了很好的放松，感谢～"
@@ -10348,7 +10348,7 @@ pg.activity_ins_language = {
 		value = "试着练习了一下新乐器。"
 	},
 	ins_discuss_311_1 = {
-		value = "原来提尔比茨跑去练笛子了啊，还想找你玩儿呢…"
+		value = "原来{namecode:436}跑去练笛子了啊，还想找你玩儿呢…"
 	},
 	ins_reply_311_1_1 = {
 		value = "…我估计还要练习一阵子，改天再说吧"
@@ -12026,6 +12026,108 @@ pg.activity_ins_language = {
 	},
 	op_reply_366_1_1 = {
 		value = "凭借勇者对宝箱的嗅觉哦~"
+	},
+	ins_367 = {
+		value = ""
+	},
+	ins_discuss_367_1 = {
+		value = ""
+	},
+	ins_reply_367_1_1 = {
+		value = ""
+	},
+	ins_reply_367_1_2 = {
+		value = ""
+	},
+	ins_reply_367_1_3 = {
+		value = ""
+	},
+	ins_reply_367_2_1 = {
+		value = ""
+	},
+	ins_reply_367_2_2 = {
+		value = ""
+	},
+	ins_discuss_367_3 = {
+		value = ""
+	},
+	ins_reply_367_3_1 = {
+		value = ""
+	},
+	ins_op_367_1_1 = {
+		value = ""
+	},
+	op_reply_367_1_1 = {
+		value = ""
+	},
+	ins_368 = {
+		value = ""
+	},
+	ins_discuss_368_1 = {
+		value = ""
+	},
+	ins_reply_368_1_1 = {
+		value = ""
+	},
+	ins_reply_368_1_2 = {
+		value = ""
+	},
+	ins_discuss_368_2 = {
+		value = ""
+	},
+	ins_reply_368_2_1 = {
+		value = ""
+	},
+	ins_discuss_368_3 = {
+		value = ""
+	},
+	ins_reply_368_3_1 = {
+		value = ""
+	},
+	ins_discuss_368_4 = {
+		value = ""
+	},
+	ins_reply_368_4_1 = {
+		value = ""
+	},
+	ins_op_368_1_1 = {
+		value = ""
+	},
+	op_reply_368_1_1 = {
+		value = ""
+	},
+	ins_369 = {
+		value = ""
+	},
+	ins_discuss_369_1 = {
+		value = ""
+	},
+	ins_reply_369_1_1 = {
+		value = ""
+	},
+	ins_reply_369_1_2 = {
+		value = ""
+	},
+	ins_discuss_369_2 = {
+		value = ""
+	},
+	ins_reply_369_2_1 = {
+		value = ""
+	},
+	ins_reply_369_2_2 = {
+		value = ""
+	},
+	ins_discuss_369_3 = {
+		value = ""
+	},
+	ins_reply_369_3_1 = {
+		value = ""
+	},
+	ins_op_369_1_1 = {
+		value = ""
+	},
+	op_reply_369_1_1 = {
+		value = ""
 	},
 	all = {
 		ins_op_1_1_1,
@@ -16036,6 +16138,40 @@ pg.activity_ins_language = {
 		ins_discuss_366_2,
 		ins_reply_366_2_1,
 		ins_op_366_1_1,
-		op_reply_366_1_1
+		op_reply_366_1_1,
+		ins_367,
+		ins_discuss_367_1,
+		ins_reply_367_1_1,
+		ins_reply_367_1_2,
+		ins_reply_367_1_3,
+		ins_reply_367_2_1,
+		ins_reply_367_2_2,
+		ins_discuss_367_3,
+		ins_reply_367_3_1,
+		ins_op_367_1_1,
+		op_reply_367_1_1,
+		ins_368,
+		ins_discuss_368_1,
+		ins_reply_368_1_1,
+		ins_reply_368_1_2,
+		ins_discuss_368_2,
+		ins_reply_368_2_1,
+		ins_discuss_368_3,
+		ins_reply_368_3_1,
+		ins_discuss_368_4,
+		ins_reply_368_4_1,
+		ins_op_368_1_1,
+		op_reply_368_1_1,
+		ins_369,
+		ins_discuss_369_1,
+		ins_reply_369_1_1,
+		ins_reply_369_1_2,
+		ins_discuss_369_2,
+		ins_reply_369_2_1,
+		ins_reply_369_2_2,
+		ins_discuss_369_3,
+		ins_reply_369_3_1,
+		ins_op_369_1_1,
+		op_reply_369_1_1
 	}
 }

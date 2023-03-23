@@ -244,7 +244,7 @@ return {
 			actor = 401240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "完全沉寂！喂，欧根，你带我们来的这处基地到底是怎么回事啊！",
+			say = "完全沉寂！喂，{namecode:428}，你带我们来的这处基地到底是怎么回事啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 401240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………欧根！！！！",
+			say = "…………{namecode:428}！！！！",
 			effects = {
 				{
 					active = true,
@@ -324,7 +324,7 @@ return {
 			actor = 401240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种时候你在乱跑什么啊欧根！",
+			say = "这种时候你在乱跑什么啊{namecode:428}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总之先和你们前面的海因里希纠缠着，我还需要点时间。",
+			say = "总之先和你们前面的{namecode:454}纠缠着，我还需要点时间。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "主要以回避为主，仅做象征性的反击，你们把海因里希吸引到我的位置来。",
+			say = "主要以回避为主，仅做象征性的反击，你们把{namecode:454}吸引到我的位置来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			actor = 401240,
 			nameColor = "#a9f548",
-			say = "这又是要干嘛…？！到底是怎么回事啊欧根，对面的海因里希不是塞壬的棋子么？",
+			say = "这又是要干嘛…？！到底是怎么回事啊{namecode:428}，对面的{namecode:454}不是塞壬的棋子么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

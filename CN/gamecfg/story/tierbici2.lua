@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			say = "提尔比茨正准备将一批旧装备交给研发部门的{namecode:37}",
+			say = "{namecode:436}正准备将一批旧装备交给研发部门的{namecode:37}",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "???",
-			say = "提尔比茨小姐是要把这些东西送到科研部门吗？",
+			say = "{namecode:436}小姐是要把这些东西送到科研部门吗？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "没等到提尔比茨说完，小海狸们就开始了工作。",
+			say = "没等到{namecode:436}说完，小海狸们就开始了工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "跟在一旁的提尔比茨露出了若有所思的表情",
+			say = "跟在一旁的{namecode:436}露出了若有所思的表情",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "目送小海狸们离开的提尔比茨站在原地良久，才重新迈开脚步。",
+			say = "目送小海狸们离开的{namecode:436}站在原地良久，才重新迈开脚步。",
 			flashout = {
 				black = true,
 				dur = 0.5,

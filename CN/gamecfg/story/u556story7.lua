@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "U556以迅雷不及掩耳之势钻入了海中",
+			say = "{namecode:416}以迅雷不及掩耳之势钻入了海中",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官号驱逐舰反潜作战失败！U556号开始反击！",
+			say = "指挥官号驱逐舰反潜作战失败！{namecode:416}号开始反击！",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -384,7 +384,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，U556也非常开心！",
+			say = "嘿嘿，{namecode:416}也非常开心！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是俾斯麦姐姐也在就好了呢。",
+			say = "要是{namecode:435}姐姐也在就好了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…我已经明白了。我和俾斯麦姐姐的约定并不是虚无缥缈的。",
+			say = "…我已经明白了。我和{namecode:435}姐姐的约定并不是虚无缥缈的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "才能理解她心中真实的想法，帮助那个看起来坚不可摧，实际上也有很多烦恼的俾斯麦姐姐…",
+			say = "才能理解她心中真实的想法，帮助那个看起来坚不可摧，实际上也有很多烦恼的{namecode:435}姐姐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我U556在此时此刻，向着海洋之神发誓：今后不管指挥官遇到什么困难与危险，我都会第一时间，并且一直帮助和保护指挥官！",
+			say = "我{namecode:416}在此时此刻，向着海洋之神发誓：今后不管指挥官遇到什么困难与危险，我都会第一时间，并且一直帮助和保护指挥官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，但是指挥官不是俾斯麦姐姐，所以我要多加两个条件！",
+			say = "啊，但是指挥官不是{namecode:435}姐姐，所以我要多加两个条件！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为交换，指挥官要在U556需要的时候，一直陪着U556，不能擅自从U556身边离开！",
+			say = "作为交换，指挥官要在{namecode:416}需要的时候，一直陪着{namecode:416}，不能擅自从{namecode:416}身边离开！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

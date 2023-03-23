@@ -83,7 +83,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "如果初战只是空手而归那可就没脸见俾斯麦姐姐了…呜",
+			say = "如果初战只是空手而归那可就没脸见{namecode:435}姐姐了…呜",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这是…水下骑士U556的华丽首战就要来了！",
+			say = "这是…水下骑士{namecode:416}的华丽首战就要来了！",
 			effects = {
 				{
 					active = true,
@@ -245,7 +245,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "┗|｀O′|┛ 嗷~~水下骑士U556，出击（小声",
+			say = "┗|｀O′|┛ 嗷~~水下骑士{namecode:416}，出击（小声",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

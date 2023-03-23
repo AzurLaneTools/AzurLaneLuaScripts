@@ -137,7 +137,7 @@ return {
 			side = 1,
 			actorName = "？？？",
 			dir = 1,
-			say = "咦，Z2，是你们吗？下一轮的补给不是我和Z18吗？",
+			say = "咦，{namecode:401}，是你们吗？下一轮的补给不是我和{namecode:404}吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -20,7 +20,7 @@ return {
 			actor = 900010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			dir = 1,
 			blackBg = true,
 			say = "妹妹……对不起……",
@@ -54,7 +54,7 @@ return {
 			actor = 900010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			dir = 1,
 			blackBg = true,
 			say = "请原谅，我所做的一切……",
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			say = "一早来到指挥室，担当秘书舰的提尔比茨已经开始工作了。",
+			say = "一早来到指挥室，担当秘书舰的{namecode:436}已经开始工作了。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -228,7 +228,7 @@ return {
 			},
 			options = {
 				{
-					content = "向提尔比茨道谢",
+					content = "向{namecode:436}道谢",
 					flag = 1
 				}
 			}
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "提尔比茨继续利索地处理起公文来。",
+			say = "{namecode:436}继续利索地处理起公文来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

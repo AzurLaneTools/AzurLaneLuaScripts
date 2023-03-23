@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "居然是作为店长的俾斯麦在门口迎接客人。",
+			say = "居然是作为店长的{namecode:435}在门口迎接客人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "跟随俾斯麦来到了店里的一处空座位。",
+			say = "跟随{namecode:435}来到了店里的一处空座位。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408121,
-			say = "阿达尔伯特，你喝太多碳酸小麦汁了啦！",
+			say = "{namecode:456}，你喝太多碳酸小麦汁了啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

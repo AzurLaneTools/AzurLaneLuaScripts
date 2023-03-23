@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这是最后的通牒了，俾斯麦",
+			say = "这是最后的通牒了，{namecode:435}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

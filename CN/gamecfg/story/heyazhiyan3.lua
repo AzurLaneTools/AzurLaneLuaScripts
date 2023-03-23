@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			say = "房间中，演奏者罗恩正在倾注全部精力演奏着。",
+			say = "房间中，演奏者{namecode:439}正在倾注全部精力演奏着。",
 			side = 2,
 			bgName = "star_level_bg_146",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "悠扬的琴声如同流水一般包裹着一旁聆听的逸仙与提尔比茨。",
+			say = "悠扬的琴声如同流水一般包裹着一旁聆听的逸仙与{namecode:436}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "与上次相比有了很大的进步哦，罗恩小姐。",
+			say = "与上次相比有了很大的进步哦，{namecode:439}小姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…罗恩，这次让我来与你合奏吧。",
+			say = "…{namecode:439}，这次让我来与你合奏吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -182,10 +182,9 @@ function slot0.UpdateView(slot0)
 		end
 
 		slot0.isRewardAnimating = true
-		slot15 = {}
 
-		for slot19 = 1, #slot2 do
-			setActive(slot14[slot19], false)
+		for slot18 = 1, #slot2 do
+			setActive(slot14[slot18], false)
 			table.insert(slot13, function (slot0)
 				if uv0.exited then
 					return

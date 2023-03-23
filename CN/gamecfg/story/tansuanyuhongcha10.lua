@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "造成这一事态的罪魁祸首就是你吧——怀着这样的心情无言的看着欧根亲王。",
+			say = "造成这一事态的罪魁祸首就是你吧——怀着这样的心情无言的看着{namecode:427}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "乌尔里希的提议似乎也大幅出乎了格奈森瑙·META的预料。",
+			say = "{namecode:464}的提议似乎也大幅出乎了{namecode:434}·META的预料。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "虽然并没无必要，不过她也停止了开火，放任铁血舰队撤离，并放任乌尔里希一步一步接近到面前。",
+			say = "虽然并没无必要，不过她也停止了开火，放任铁血舰队撤离，并放任{namecode:464}一步一步接近到面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "过去的事已经过去了，现在我们来一起看看这个。",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "乌尔里希没有立起炮管，而是拿出了一份精致的书信。信封的外侧，铁血徽记的蜡封印章仿佛还带着余温。",
+			say = "{namecode:464}没有立起炮管，而是拿出了一份精致的书信。信封的外侧，铁血徽记的蜡封印章仿佛还带着余温。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "正式的命令书？",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
-			say = "呵，刚才我也说了，我不认识什么腓特烈大帝，对于她所谓的命令也没兴趣。",
+			actorName = "{namecode:434}·META",
+			say = "呵，刚才我也说了，我不认识什么{namecode:440}，对于她所谓的命令也没兴趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "这种东西对我来说和废纸没有区别！",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +312,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "别急嘛，刚才我说了，过去的事已经过去了。我可没有说这份命令书是腓特烈的哦？",
+			actorName = "{namecode:463}",
+			say = "别急嘛，刚才我说了，过去的事已经过去了。我可没有说这份命令书是{namecode:441}的哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "你……是什么意思？",
 			typewriter = {
 				speed = 0.05,
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "看到格奈森瑙试图将命令书抛出去的手僵在了半空中，乌尔里希知道自己猜对了。",
+			say = "看到{namecode:434}试图将命令书抛出去的手僵在了半空中，{namecode:464}知道自己猜对了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "如果这份命令书是其他人的呢，比如————",
 			typewriter = {
 				speed = 0.05,
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "在听到乌尔里希说出的名字后，格奈森瑙的表情彻底凝固了。",
+			say = "在听到{namecode:464}说出的名字后，{namecode:434}的表情彻底凝固了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "乌尔里希已经十分清楚，面前已经META化的格奈森瑙是不会轻易显露出内心真实想法的类型。",
+			say = "{namecode:464}已经十分清楚，面前已经META化的{namecode:434}是不会轻易显露出内心真实想法的类型。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "格奈森瑙在沉默中打开了命令书，在缓慢地核对了落款之后，将名字轻声念了出来——",
+			say = "{namecode:434}在沉默中打开了命令书，在缓慢地核对了落款之后，将名字轻声念了出来——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,8 +433,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
-			say = "俾斯麦……",
+			actorName = "{namecode:434}·META",
+			say = "{namecode:435}……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "她曾经说过，已铸成的遗憾是永远无法弥补的，我们能做的唯有放眼未来……",
 			typewriter = {
 				speed = 0.05,
@@ -537,7 +537,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "当视野足够开阔之后，未知的过去又何尝不是未来的一种呢？",
 			typewriter = {
 				speed = 0.05,
@@ -554,7 +554,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "你肯定认得她的笔迹，就算作假也不会逃过你的眼睛。",
 			typewriter = {
 				speed = 0.05,
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "格奈森瑙没有回答，只是用颤抖的双手一遍又一遍抚摸着冰冷信纸上的落款。",
+			say = "{namecode:434}没有回答，只是用颤抖的双手一遍又一遍抚摸着冰冷信纸上的落款。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "是的……笔迹确实是她的没错，可是我不明白……这种感觉……",
 			typewriter = {
 				speed = 0.05,
@@ -602,7 +602,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "……不，不对，不应该是这样的！",
 			typewriter = {
 				speed = 0.05,
@@ -619,7 +619,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "她不应该遭受这些！！！！！！",
 			typewriter = {
 				speed = 0.05,
@@ -636,7 +636,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "她是自愿选择的，为了铁血的未来。",
 			typewriter = {
 				speed = 0.05,
@@ -653,7 +653,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "你呢？愿意为她自愿做出如此奉献的铁血献上忠诚么？",
 			typewriter = {
 				speed = 0.05,
@@ -670,7 +670,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -687,8 +687,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "回答我，格奈森瑙！我现在给了你一次弥补遗憾的机会，你要抓住么？！",
+			actorName = "{namecode:463}",
+			say = "回答我，{namecode:434}！我现在给了你一次弥补遗憾的机会，你要抓住么？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "她的情况已经很严重了吧……",
 			typewriter = {
 				speed = 0.05,
@@ -721,7 +721,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "在你回答我的上一个问题之前，我不会跟你谈论更多了。",
 			typewriter = {
 				speed = 0.05,
@@ -738,7 +738,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "………………………………………………",
 			typewriter = {
 				speed = 0.05,
@@ -753,7 +753,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "格奈森瑙死死盯着被紧紧捏在手中的命令书，仔细确认着纸张上的每一处细节。",
+			say = "{namecode:434}死死盯着被紧紧捏在手中的命令书，仔细确认着纸张上的每一处细节。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "她仿佛在眼中看到了虚弱的俾斯麦艰难写下这封信的样子，依旧是在那间熟悉的房间中。",
+			say = "她仿佛在眼中看到了虚弱的{namecode:435}艰难写下这封信的样子，依旧是在那间熟悉的房间中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,7 +781,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "末了，俾斯麦将笔搁在一旁，微笑着向她伸出手——",
+			say = "末了，{namecode:435}将笔搁在一旁，微笑着向她伸出手——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "我的命运已经糟糕透顶……说实话，我本想把今天当成为铁尽忠的最后一天呢。",
 			typewriter = {
 				speed = 0.05,
@@ -828,7 +828,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "但……如果是为了她，我想再努力一下……",
 			typewriter = {
 				speed = 0.05,
@@ -845,7 +845,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "很荣幸我们能达成一致。",
 			typewriter = {
 				speed = 0.05,
@@ -862,7 +862,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "……你们有办法过来，自然有办法离开吧？",
 			typewriter = {
 				speed = 0.05,
@@ -879,7 +879,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "那是自然。",
 			typewriter = {
 				speed = 0.05,
@@ -896,7 +896,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "回去之后我要见她。",
 			typewriter = {
 				speed = 0.05,
@@ -913,7 +913,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "这是你应得的权利。",
 			typewriter = {
 				speed = 0.05,
@@ -930,7 +930,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "不过，刚刚内容不要跟任何人说起。如果她现在的状况泄露出去的话，后果你应该很清楚。",
 			typewriter = {
 				speed = 0.05,
@@ -947,7 +947,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
+			actorName = "{namecode:434}·META",
 			say = "呵……那我可是清楚的不能再清楚了。",
 			typewriter = {
 				speed = 0.05,
@@ -964,7 +964,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "走吧，我们一同归队，是时候返航了。",
 			typewriter = {
 				speed = 0.05,
@@ -981,7 +981,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "……还有，把眼泪擦一下。接下来将会比以前更需要那个“疯狂”的你呢。",
 			typewriter = {
 				speed = 0.05,
@@ -998,8 +998,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "格奈森瑙·META",
-			say = "呵，你以为你在跟谁说话啊，不要得寸进尺，乌尔里希·冯·胡滕！",
+			actorName = "{namecode:434}·META",
+			say = "呵，你以为你在跟谁说话啊，不要得寸进尺，{namecode:463}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1015,8 +1015,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "这就对了，格奈森瑙·META，欢迎加入铁血。",
+			actorName = "{namecode:463}",
+			say = "这就对了，{namecode:434}·META，欢迎加入铁血。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1032,7 +1032,7 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "Eisen und Blut über alles——让我们一同向着未来进发吧！",
 			typewriter = {
 				speed = 0.05,

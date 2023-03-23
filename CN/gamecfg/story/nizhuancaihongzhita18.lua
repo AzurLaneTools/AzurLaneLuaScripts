@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在U-1206无聊到即将进行第三次急速下潜的时候，远方的目标终于进入了铁血舰队的视野。",
+			say = "在{namecode:476}无聊到即将进行第三次急速下潜的时候，远方的目标终于进入了铁血舰队的视野。",
 			side = 2,
 			bgName = "bg_midgard_3",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "和之前一样，乌尔里希让舰队原地待命，之后一个人迎了上去。",
+			say = "和之前一样，{namecode:464}让舰队原地待命，之后一个人迎了上去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "初次见面，应该称你为沙恩霍斯特，余烬的沙恩霍斯特，还是沙恩霍斯特·META比较好呢？",
+			say = "初次见面，应该称你为{namecode:433}，余烬的{namecode:433}，还是{namecode:433}·META比较好呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "初次见面，乌尔里希.冯.胡滕。称呼的话随你习惯就好，不过我更倾向于被称为沙恩霍斯特。",
+			say = "初次见面，{namecode:464}.冯.{namecode:465}。称呼的话随你习惯就好，不过我更倾向于被称为{namecode:433}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那就这么办吧。沙恩霍斯特，以META的航速，你来这里花的时间似乎有些长啊？",
+			say = "那就这么办吧。{namecode:433}，以META的航速，你来这里花的时间似乎有些长啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "正好，我也有事情要跟你说。沙恩霍斯特，我以腓特烈大帝的名义命令你，向铁血再次效忠吧。",
+			say = "正好，我也有事情要跟你说。{namecode:433}，我以{namecode:440}的名义命令你，向铁血再次效忠吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "乌尔里希.冯.胡滕，可以把“我的妹妹”交给我么？",
+			say = "{namecode:464}.冯.{namecode:465}，可以把“我的妹妹”交给我么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……真不愧是乌尔里希.冯.胡滕，在语言上占你的便宜真困难。",
+			say = "……真不愧是{namecode:464}.冯.{namecode:465}，在语言上占你的便宜真困难。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "为什么我会疯了呢？因为我亲眼见到沙恩霍斯特在塞壬的炮火中粉碎，最后消失在冰冷的海水中！",
+			say = "为什么我会疯了呢？因为我亲眼见到{namecode:433}在塞壬的炮火中粉碎，最后消失在冰冷的海水中！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "曾经铁血所属，现在隶属于余烬，沙恩霍斯特级战列巡洋舰，沙恩霍斯特。",
+			say = "曾经铁血所属，现在隶属于余烬，{namecode:433}级战列巡洋舰，{namecode:433}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "就算外貌再相似，你也不是我所熟悉的沙恩霍斯特了，别来套近乎。",
+			say = "就算外貌再相似，你也不是我所熟悉的{namecode:433}了，别来套近乎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "乌尔里希阁下……周围又发现了塞壬舰队活动的痕迹，行动很谨慎，似乎正在部署包围网。",
+			say = "{namecode:464}阁下……周围又发现了塞壬舰队活动的痕迹，行动很谨慎，似乎正在部署包围网。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

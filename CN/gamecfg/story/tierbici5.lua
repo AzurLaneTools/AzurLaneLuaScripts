@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "提尔比茨正一如往常地高效地处理着秘书舰的工作。",
+			say = "{namecode:436}正一如往常地高效地处理着秘书舰的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用客气，提尔比茨平时也帮了大家很多忙…那我就先告退了。",
+			say = "不用客气，{namecode:436}平时也帮了大家很多忙…那我就先告退了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "打扰了。提尔比茨，上次谢谢你的帮忙了。",
+			say = "打扰了。{namecode:436}，上次谢谢你的帮忙了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，打扰了呢！之前聊天的时候提尔比茨好像对盆栽有点兴趣呢，所以我就带了点东西过来~",
+			say = "啊，打扰了呢！之前聊天的时候{namecode:436}好像对盆栽有点兴趣呢，所以我就带了点东西过来~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "提尔比茨还没有察觉到，自己早已成为舰队众人信任的好伙伴",
+			say = "{namecode:436}还没有察觉到，自己早已成为舰队众人信任的好伙伴",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

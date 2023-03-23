@@ -13,6 +13,8 @@ function slot0.Create(slot0)
 		return AtelierActivity.New(slot0)
 	elseif slot1.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
 		return ActivityBossActivity.New(slot0)
+	elseif slot1.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+		return BossRushActivity.New(slot0)
 	else
 		return Activity.New(slot0)
 	end
@@ -237,10 +239,10 @@ function slot0.readyToAchieve(slot0)
 			slot6 = true
 
 			if slot0:getConfig("config_client") and slot0:getConfig("config_client").task_act_id and slot7 ~= 0 and pg.activity_template[slot7] and pg.activity_template[slot7].config_data and #slot9 > 0 then
-				taskProxy = getProxy(TaskProxy)
+				slot10 = getProxy(TaskProxy)
 
-				for slot13 = 1, #slot9 do
-					if taskProxy:getTaskById(slot9[slot13]) and slot14:isFinish() then
+				for slot14 = 1, #slot9 do
+					if slot10:getTaskById(slot9[slot14]) and slot15:isFinish() then
 						return true
 					end
 				end

@@ -177,7 +177,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "腓特烈大帝对于这次与撒丁帝国进行的联合行动可是抱有很高的期待哟？",
+			say = "{namecode:440}对于这次与撒丁帝国进行的联合行动可是抱有很高的期待哟？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

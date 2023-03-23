@@ -114,7 +114,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有自信心是好事，海因里希。下次训练的时候，给“皇家舰队”再增加三艘光辉级和三艘伊丽莎白女王级好了。",
+			say = "有自信心是好事，{namecode:454}。下次训练的时候，给“皇家舰队”再增加三艘光辉级和三艘伊丽莎白女王级好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "彼得，再前方的重樱舰队怎么办？按照预定计划继续战斗么。",
+			say = "{namecode:471}，再前方的重樱舰队怎么办？按照预定计划继续战斗么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "彼得，知道了这种情报之后可没办法安心休息了哦。我也会尽可能的检查一下基地系统，保持联络。",
+			say = "{namecode:471}，知道了这种情报之后可没办法安心休息了哦。我也会尽可能的检查一下基地系统，保持联络。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

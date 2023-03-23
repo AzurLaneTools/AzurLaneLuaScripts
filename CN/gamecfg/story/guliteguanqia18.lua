@@ -367,7 +367,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "罗恩说的没错，具体什么情况总要试一试再说！{namecode:93}姐我们一起来吧！",
+			say = "{namecode:439}说的没错，具体什么情况总要试一试再说！{namecode:93}姐我们一起来吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			bgName = "bg_ssss_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "罗恩",
+			actorName = "{namecode:439}",
 			say = "这个威力…开什么玩笑？！",
 			typewriter = {
 				speed = 0.05,
@@ -673,7 +673,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "罗恩，打不赢的！战斗力差距已经很明显了。",
+			say = "{namecode:439}，打不赢的！战斗力差距已经很明显了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实有道理……虽然从气势上来说就变成罗恩了进行指挥，不过毕竟不是正式决定下来的事。",
+			say = "确实有道理……虽然从气势上来说就变成{namecode:439}了进行指挥，不过毕竟不是正式决定下来的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

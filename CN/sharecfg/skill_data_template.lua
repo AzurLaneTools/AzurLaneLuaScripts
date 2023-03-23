@@ -7632,7 +7632,7 @@ pg.skill_data_template = {
 		id = 6410,
 		type = 0,
 		max_level = 1,
-		desc = "U556装备该设备时，自身水面作战的持续时间增加4秒，自身狩猎范围等级+1；俾斯麦装备该设备时，主力舰队受到弹药匮乏状态的影响降低",
+		desc = "{namecode:416}装备该设备时，自身水面作战的持续时间增加4秒，自身狩猎范围等级+1；{namecode:435}装备该设备时，主力舰队受到弹药匮乏状态的影响降低",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -7646,7 +7646,7 @@ pg.skill_data_template = {
 		id = 6411,
 		type = 0,
 		max_level = 1,
-		desc = "U556装备该设备时，自身水面作战的持续时间增加4秒，自身狩猎范围等级+1；俾斯麦装备该设备时，主力舰队受到弹药匮乏状态的影响降低",
+		desc = "{namecode:416}装备该设备时，自身水面作战的持续时间增加4秒，自身狩猎范围等级+1；{namecode:435}装备该设备时，主力舰队受到弹药匮乏状态的影响降低",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -7660,7 +7660,7 @@ pg.skill_data_template = {
 		id = 6415,
 		type = 0,
 		max_level = 1,
-		desc = "U556装备该设备时，自身水面作战的持续时间增加4秒，自身狩猎范围等级+1；俾斯麦装备该设备时，主力舰队受到弹药匮乏状态的影响降低",
+		desc = "{namecode:416}装备该设备时，自身水面作战的持续时间增加4秒，自身狩猎范围等级+1；{namecode:435}装备该设备时，主力舰队受到弹药匮乏状态的影响降低",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -9471,6 +9471,20 @@ pg.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		desc = "伊丽莎白女王装备时，战斗中进入「预定事项-茶歇」状态（主炮开火后若处于该状态，回复自身3%最大耐久）；皇家阵营其他角色装备时，队伍中伊丽莎白女王主炮每奇数次开火时，使伊丽莎白女王进入「预定事项-会议」状态（自身和其他皇家角色造成伤害提高3%，持续8秒，结束后进入「预定事项-茶歇」状态）",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60340] = {
+		desc_get = "",
+		name = "作战报告·极地风暴",
+		id = 60340,
+		type = 0,
+		max_level = 0,
+		desc = "北方联合角色装备时，战斗中自身幸运提高3",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -15158,7 +15172,7 @@ pg.skill_data_template = {
 		id = 10710,
 		type = 1,
 		max_level = 10,
-		desc = "参与了逼沉斯佩伯爵的战役，战斗开始后，自身机动、雷击提高$2，对中型护甲敌人造成的伤害提升$1；若自身为重巡洋舰，主炮武器发射的子弹命中同一敌人4颗后，使其在5秒内减速$3，减速效果结束后开始下一轮计数",
+		desc = "参与了逼沉{namecode:431}的战役，战斗开始后，自身机动、雷击提高$2，对中型护甲敌人造成的伤害提升$1；若自身为重巡洋舰，主炮武器发射的子弹命中同一敌人4颗后，使其在5秒内减速$3，减速效果结束后开始下一轮计数",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -21050,7 +21064,7 @@ pg.skill_data_template = {
 	},
 	[11410] = {
 		desc_get = "",
-		name = "狼群战术-U81",
+		name = "狼群战术-{namecode:414}",
 		id = 11410,
 		type = 1,
 		max_level = 10,
@@ -27249,7 +27263,7 @@ pg.skill_data_template = {
 		id = 12140,
 		type = 3,
 		max_level = 10,
-		desc = "出击时，队伍中的铁血阵营角色炮击、雷击、航空武器暴击率提高$2，装填提高$1；提尔比茨造成的伤害提高$3",
+		desc = "出击时，队伍中的铁血阵营角色炮击、雷击、航空武器暴击率提高$2，装填提高$1；{namecode:436}造成的伤害提高$3",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -27659,7 +27673,7 @@ pg.skill_data_template = {
 		id = 12180,
 		type = 1,
 		max_level = 10,
-		desc = "自身在场时，若有队友受到伤害导致耐久低于20%，立即触发一轮鱼雷弹幕(每场战斗只能触发1次)；若此时队友中有俾斯麦，弹幕样式强化",
+		desc = "自身在场时，若有队友受到伤害导致耐久低于20%，立即触发一轮鱼雷弹幕(每场战斗只能触发1次)；若此时队友中有{namecode:435}，弹幕样式强化",
 		system_transform = {
 			[11.0] = 3500
 		},
@@ -29480,7 +29494,7 @@ pg.skill_data_template = {
 	},
 	[12410] = {
 		desc_get = "",
-		name = "狼群战术-U101",
+		name = "狼群战术-{namecode:418}",
 		id = 12410,
 		type = 2,
 		max_level = 10,
@@ -40441,7 +40455,7 @@ pg.skill_data_template = {
 	},
 	[13560] = {
 		desc_get = "",
-		name = "狼群战术-U96",
+		name = "狼群战术-{namecode:473}",
 		id = 13560,
 		type = 1,
 		max_level = 10,
@@ -43955,7 +43969,7 @@ pg.skill_data_template = {
 	},
 	[13940] = {
 		desc_get = "",
-		name = "狼群战术-U37",
+		name = "狼群战术-{namecode:474}",
 		id = 13940,
 		type = 1,
 		max_level = 10,
@@ -60216,7 +60230,7 @@ pg.skill_data_template = {
 	},
 	[15360] = {
 		desc_get = "",
-		name = "往昔之影·塞德利茨",
+		name = "往昔之影·{namecode:460}",
 		id = 15360,
 		type = 3,
 		max_level = 10,
@@ -61422,7 +61436,7 @@ pg.skill_data_template = {
 	},
 	[15450] = {
 		desc_get = "",
-		name = "往昔之影·图林根",
+		name = "往昔之影·{namecode:466}",
 		id = 15450,
 		type = 1,
 		max_level = 10,
@@ -61731,7 +61745,7 @@ pg.skill_data_template = {
 	},
 	[15480] = {
 		desc_get = "",
-		name = "往昔之影·吕佐夫",
+		name = "往昔之影·{namecode:461}",
 		id = 15480,
 		type = 1,
 		max_level = 10,
@@ -61943,7 +61957,7 @@ pg.skill_data_template = {
 	},
 	[15500] = {
 		desc_get = "",
-		name = "往昔之影·约克",
+		name = "往昔之影·{namecode:457}",
 		id = 15500,
 		type = 2,
 		max_level = 10,
@@ -62150,7 +62164,7 @@ pg.skill_data_template = {
 	},
 	[15520] = {
 		desc_get = "",
-		name = "往昔之影·埃姆登(?)",
+		name = "往昔之影·{namecode:448}(?)",
 		id = 15520,
 		type = 3,
 		max_level = 10,
@@ -62468,7 +62482,7 @@ pg.skill_data_template = {
 	},
 	[15560] = {
 		desc_get = "",
-		name = "往昔之影·埃尔宾",
+		name = "往昔之影·{namecode:449}",
 		id = 15560,
 		type = 1,
 		max_level = 10,
@@ -66729,7 +66743,7 @@ pg.skill_data_template = {
 		id = 15920,
 		type = 1,
 		max_level = 10,
-		desc = "战斗中，自身前四次进行鱼雷攻击时会在原地布置水雷$1（水雷伤害依据技能等级）,战斗中，若自身所在编队中存在希佩尔海军上将或场上存在敌方皇家阵营轻巡洋舰船，自身航速提升3点",
+		desc = "战斗中，自身前四次进行鱼雷攻击时会在原地布置水雷$1（水雷伤害依据技能等级）,战斗中，若自身所在编队中存在{namecode:425}或场上存在敌方皇家阵营轻巡洋舰船，自身航速提升3点",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -74465,6 +74479,723 @@ pg.skill_data_template = {
 				},
 				{
 					"10.0%"
+				}
+			}
+		}
+	},
+	[16580] = {
+		desc_get = "",
+		name = "飞雪中的孤狼",
+		id = 16580,
+		type = 2,
+		max_level = 10,
+		desc = "战斗开始时，若先锋编队仅由自身组成，自身炮击、雷击、命中属性提高$1，自身受到的伤害降低$2；战斗开始时，若先锋编队由至少两名角色组成，自身在战斗中击破敌舰时，自身炮击、雷击和命中属性提高$1，效果持续12秒，每秒最多触发一次，不可叠加，持续时间内触发将刷新时间",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"15.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
+	[16590] = {
+		desc_get = "",
+		name = "雪狼视界",
+		id = 16590,
+		type = 1,
+		max_level = 10,
+		desc = "进入战斗后3秒和进入战斗后每15秒使用2架水上机进行一次侦察和攻击$1（水上机弹幕威力依据炮击属性和技能等级），每架水上机将标记一个敌方单位，使其受到来自自身的伤害提升$2，效果持续10秒，重复标记时效果叠加",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[16600] = {
+		desc_get = "",
+		name = "雪狼利爪",
+		id = 16600,
+		type = 1,
+		max_level = 10,
+		desc = "进入战斗后每15秒，召唤2艘“Flea”号袖珍潜艇进行鱼雷攻击$1，“Flea”号的攻击有70%的概率对命中的敌人附加特殊进水效果，持续10秒（“Flea”号造成的伤害依据雷击属性和技能等级）“Flea”号战斗10秒后会脱离战斗",
+		system_transform = {
+			[3.0] = 16605
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[16610] = {
+		desc_get = "",
+		name = "变革的指导论",
+		id = 16610,
+		type = 3,
+		max_level = 10,
+		desc = "主炮开火时，有$1概率触发一轮特殊弹幕$2(威力依据技能等级)并使己方战列10秒内造成伤害提高$3。",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"30.0%",
+				"50.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30.0%",
+					"+2.2%"
+				},
+				{
+					"32.2%",
+					"+2.2%"
+				},
+				{
+					"34.4%",
+					"+2.2%"
+				},
+				{
+					"36.6%",
+					"+2.2%"
+				},
+				{
+					"38.8%",
+					"+2.2%"
+				},
+				{
+					"41.0%",
+					"+2.2%"
+				},
+				{
+					"43.2%",
+					"+2.2%"
+				},
+				{
+					"45.4%",
+					"+2.3%"
+				},
+				{
+					"47.7%",
+					"+2.3%"
+				},
+				{
+					"50.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[16620] = {
+		desc_get = "",
+		name = "顽强的坚守者",
+		id = 16620,
+		type = 2,
+		max_level = 10,
+		desc = "主炮开火时，回复随机1名舰队成员$1耐久，若回复对象属于北方联合阵营则10秒内额外提高其机动属性$2。",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[16630] = {
+		desc_get = "",
+		name = "冷彻冰结",
+		id = 16630,
+		type = 1,
+		max_level = 10,
+		desc = "战斗中，自身额外装备一座特殊副炮武器$2（威力依据技能等级），被特殊副炮命中的敌方单位叠加一层【冰结】效果，每层使其航速降低2%，持续4秒，最多叠加10层；战斗开始后每18秒，有$1概率触发一轮特殊弹幕$2（威力依据技能等级），被特殊弹幕命中的敌方单位若存在【冰结】效果，则清除【冰结】效果同时使其受到的炮击伤害提高5%，持续8秒",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[16640] = {
+		desc_get = "",
+		name = "沉着应对",
+		id = 16640,
+		type = 2,
+		max_level = 10,
+		desc = "战斗开始时，自身航速降低3点，自身回避率提高$1；防空炮开火时，自身机动属性提高$2，自身受到航空伤害降低$2，持续8秒（该效果每20秒最多触发一次）",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
 				}
 			}
 		}
@@ -85696,7 +86427,7 @@ pg.skill_data_template = {
 		id = 23111,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行12次攻击，触发全弹发射-柯尼斯堡级I",
+		desc = "主炮每进行12次攻击，触发全弹发射-{namecode:421}级I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -85710,7 +86441,7 @@ pg.skill_data_template = {
 		id = 23112,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行8次攻击，触发全弹发射-柯尼斯堡级II",
+		desc = "主炮每进行8次攻击，触发全弹发射-{namecode:421}级II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -85724,7 +86455,7 @@ pg.skill_data_template = {
 		id = 23121,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行12次攻击，触发全弹发射-莱比锡I",
+		desc = "主炮每进行12次攻击，触发全弹发射-{namecode:424}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -85738,7 +86469,7 @@ pg.skill_data_template = {
 		id = 23122,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行8次攻击，触发全弹发射-莱比锡II",
+		desc = "主炮每进行8次攻击，触发全弹发射-{namecode:424}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -85752,7 +86483,7 @@ pg.skill_data_template = {
 		id = 23131,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行12次攻击，触发全弹发射-皮劳级I",
+		desc = "主炮每进行12次攻击，触发全弹发射-{namecode:488}级I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -85766,7 +86497,7 @@ pg.skill_data_template = {
 		id = 23132,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行8次攻击，触发全弹发射-皮劳级II",
+		desc = "主炮每进行8次攻击，触发全弹发射-{namecode:488}级II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -85780,7 +86511,7 @@ pg.skill_data_template = {
 		id = 23211,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行9次攻击，触发全弹发射-希佩尔海军上将级I",
+		desc = "主炮每进行9次攻击，触发全弹发射-{namecode:425}级I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -85794,7 +86525,7 @@ pg.skill_data_template = {
 		id = 23212,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行6次攻击，触发全弹发射-希佩尔海军上将级II",
+		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:425}级II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -85808,7 +86539,7 @@ pg.skill_data_template = {
 		id = 23221,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行9次攻击，触发全弹发射-德意志级I",
+		desc = "主炮每进行9次攻击，触发全弹发射-{namecode:429}级I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -85822,7 +86553,7 @@ pg.skill_data_template = {
 		id = 23222,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行6次攻击，触发全弹发射-德意志级II",
+		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:429}级II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -85864,7 +86595,7 @@ pg.skill_data_template = {
 		id = 23241,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行9次攻击，触发全弹发射-罗恩级I",
+		desc = "主炮每进行9次攻击，触发全弹发射-{namecode:439}级I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -85878,7 +86609,7 @@ pg.skill_data_template = {
 		id = 23242,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行6次攻击，触发全弹发射-罗恩级II",
+		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:439}级II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -86523,6 +87254,34 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		desc = "主炮每进行6次攻击，触发全弹发射-塔林II",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[26311] = {
+		desc_get = "",
+		name = "全弹发射I",
+		id = 26311,
+		type = 1,
+		max_level = 1,
+		desc = "主炮每进行12次攻击，触发全弹发射-库尔斯克I",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[26312] = {
+		desc_get = "",
+		name = "全弹发射II",
+		id = 26312,
+		type = 1,
+		max_level = 1,
+		desc = "主炮每进行8次攻击，触发全弹发射-库尔斯克II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -87190,11 +87949,11 @@ pg.skill_data_template = {
 	},
 	[29171] = {
 		desc_get = "",
-		name = "专属弹幕-Z1I",
+		name = "专属弹幕-{namecode:400}I",
 		id = 29171,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行15次攻击，触发专属弹幕-Z1I",
+		desc = "主炮每进行15次攻击，触发专属弹幕-{namecode:400}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -87204,11 +87963,11 @@ pg.skill_data_template = {
 	},
 	[29172] = {
 		desc_get = "",
-		name = "专属弹幕-Z1II",
+		name = "专属弹幕-{namecode:400}II",
 		id = 29172,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行10次攻击，触发专属弹幕-Z1II",
+		desc = "主炮每进行10次攻击，触发专属弹幕-{namecode:400}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -87274,11 +88033,11 @@ pg.skill_data_template = {
 	},
 	[29201] = {
 		desc_get = "",
-		name = "专属弹幕-Z23I",
+		name = "专属弹幕-{namecode:408}I",
 		id = 29201,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行15次攻击，触发专属弹幕-Z23I",
+		desc = "主炮每进行15次攻击，触发专属弹幕-{namecode:408}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -87288,11 +88047,11 @@ pg.skill_data_template = {
 	},
 	[29202] = {
 		desc_get = "",
-		name = "专属弹幕-Z23II",
+		name = "专属弹幕-{namecode:408}II",
 		id = 29202,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行10次攻击，触发专属弹幕-Z23II",
+		desc = "主炮每进行10次攻击，触发专属弹幕-{namecode:408}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -87302,11 +88061,11 @@ pg.skill_data_template = {
 	},
 	[29211] = {
 		desc_get = "",
-		name = "专属弹幕-Z46I",
+		name = "专属弹幕-{namecode:412}I",
 		id = 29211,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行15次攻击，触发专属弹幕-Z46I",
+		desc = "主炮每进行15次攻击，触发专属弹幕-{namecode:412}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -87316,11 +88075,11 @@ pg.skill_data_template = {
 	},
 	[29212] = {
 		desc_get = "",
-		name = "专属弹幕-Z46II",
+		name = "专属弹幕-{namecode:412}II",
 		id = 29212,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行10次攻击，触发专属弹幕-Z46II",
+		desc = "主炮每进行10次攻击，触发专属弹幕-{namecode:412}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -87386,11 +88145,11 @@ pg.skill_data_template = {
 	},
 	[29241] = {
 		desc_get = "",
-		name = "专属弹幕-罗恩I",
+		name = "专属弹幕-{namecode:439}I",
 		id = 29241,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行12次攻击，触发专属弹幕-罗恩I",
+		desc = "主炮每进行12次攻击，触发专属弹幕-{namecode:439}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -87400,11 +88159,11 @@ pg.skill_data_template = {
 	},
 	[29242] = {
 		desc_get = "",
-		name = "专属弹幕-罗恩II",
+		name = "专属弹幕-{namecode:439}II",
 		id = 29242,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行8次攻击，触发专属弹幕-罗恩II",
+		desc = "主炮每进行8次攻击，触发专属弹幕-{namecode:439}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -87470,11 +88229,11 @@ pg.skill_data_template = {
 	},
 	[29271] = {
 		desc_get = "",
-		name = "专属弹幕-U81I",
+		name = "专属弹幕-{namecode:414}I",
 		id = 29271,
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-U81I",
+		desc = "进入战斗时，触发专属弹幕-{namecode:414}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -87484,11 +88243,11 @@ pg.skill_data_template = {
 	},
 	[29272] = {
 		desc_get = "",
-		name = "专属弹幕-U81II",
+		name = "专属弹幕-{namecode:414}II",
 		id = 29272,
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-U81II",
+		desc = "进入战斗时，触发专属弹幕-{namecode:414}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -87582,11 +88341,11 @@ pg.skill_data_template = {
 	},
 	[29311] = {
 		desc_get = "",
-		name = "专属弹幕-U47I",
+		name = "专属弹幕-{namecode:413}I",
 		id = 29311,
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-U47I",
+		desc = "进入战斗时，触发专属弹幕-{namecode:413}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -87596,11 +88355,11 @@ pg.skill_data_template = {
 	},
 	[29312] = {
 		desc_get = "",
-		name = "专属弹幕-U47II",
+		name = "专属弹幕-{namecode:413}II",
 		id = 29312,
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-U47II",
+		desc = "进入战斗时，触发专属弹幕-{namecode:413}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -87908,11 +88667,11 @@ pg.skill_data_template = {
 	},
 	[29431] = {
 		desc_get = "",
-		name = "专属弹幕-U101I",
+		name = "专属弹幕-{namecode:418}I",
 		id = 29431,
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-U101I",
+		desc = "进入战斗时，触发专属弹幕-{namecode:418}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -87922,11 +88681,11 @@ pg.skill_data_template = {
 	},
 	[29432] = {
 		desc_get = "",
-		name = "专属弹幕-U101II",
+		name = "专属弹幕-{namecode:418}II",
 		id = 29432,
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-U101II",
+		desc = "进入战斗时，触发专属弹幕-{namecode:418}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -88020,11 +88779,11 @@ pg.skill_data_template = {
 	},
 	[29471] = {
 		desc_get = "",
-		name = "专属弹幕-希佩尔海军上将(μ兵装)I",
+		name = "专属弹幕-{namecode:451}I",
 		id = 29471,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行9次攻击，触发专属弹幕-希佩尔海军上将(μ兵装)I",
+		desc = "主炮每进行9次攻击，触发专属弹幕-{namecode:451}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -88034,11 +88793,11 @@ pg.skill_data_template = {
 	},
 	[29472] = {
 		desc_get = "",
-		name = "专属弹幕-希佩尔海军上将(μ兵装)II",
+		name = "专属弹幕-{namecode:451}II",
 		id = 29472,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行6次攻击，触发专属弹幕-希佩尔海军上将(μ兵装)II",
+		desc = "主炮每进行6次攻击，触发专属弹幕-{namecode:451}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -88272,11 +89031,11 @@ pg.skill_data_template = {
 	},
 	[29571] = {
 		desc_get = "",
-		name = "专属弹幕-美因茨I",
+		name = "专属弹幕-{namecode:479}I",
 		id = 29571,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行15次攻击，触发专属弹幕-美因茨I",
+		desc = "主炮每进行15次攻击，触发专属弹幕-{namecode:479}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -88286,11 +89045,11 @@ pg.skill_data_template = {
 	},
 	[29572] = {
 		desc_get = "",
-		name = "专属弹幕-美因茨II",
+		name = "专属弹幕-{namecode:479}II",
 		id = 29572,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行10次攻击，触发专属弹幕-美因茨II",
+		desc = "主炮每进行10次攻击，触发专属弹幕-{namecode:479}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -88328,11 +89087,11 @@ pg.skill_data_template = {
 	},
 	[29591] = {
 		desc_get = "",
-		name = "专属弹幕-U96I",
+		name = "专属弹幕-{namecode:473}I",
 		id = 29591,
 		type = 1,
 		max_level = 1,
-		desc = "氧气不足浮上水面时，触发专属弹幕-U96I",
+		desc = "氧气不足浮上水面时，触发专属弹幕-{namecode:473}I",
 		system_transform = {
 			[11.0] = 29593
 		},
@@ -88344,11 +89103,11 @@ pg.skill_data_template = {
 	},
 	[29592] = {
 		desc_get = "",
-		name = "专属弹幕-U96II",
+		name = "专属弹幕-{namecode:473}II",
 		id = 29592,
 		type = 1,
 		max_level = 1,
-		desc = "氧气不足浮上水面时，触发专属弹幕-U96II",
+		desc = "氧气不足浮上水面时，触发专属弹幕-{namecode:473}II",
 		system_transform = {
 			[11.0] = 29594
 		},
@@ -88388,11 +89147,11 @@ pg.skill_data_template = {
 	},
 	[29611] = {
 		desc_get = "",
-		name = "专属弹幕-罗恩(μ兵装)I",
+		name = "专属弹幕-{namecode:452}I",
 		id = 29611,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行12次攻击，触发专属弹幕-罗恩(μ兵装)I",
+		desc = "主炮每进行12次攻击，触发专属弹幕-{namecode:452}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -88402,11 +89161,11 @@ pg.skill_data_template = {
 	},
 	[29612] = {
 		desc_get = "",
-		name = "专属弹幕-罗恩(μ兵装)II",
+		name = "专属弹幕-{namecode:452}II",
 		id = 29612,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行8次攻击，触发专属弹幕-罗恩(μ兵装)II",
+		desc = "主炮每进行8次攻击，触发专属弹幕-{namecode:452}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -88556,11 +89315,11 @@ pg.skill_data_template = {
 	},
 	[29671] = {
 		desc_get = "",
-		name = "专属弹幕-U37I",
+		name = "专属弹幕-{namecode:474}I",
 		id = 29671,
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-U37I",
+		desc = "进入战斗时，触发专属弹幕-{namecode:474}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -88570,11 +89329,11 @@ pg.skill_data_template = {
 	},
 	[29672] = {
 		desc_get = "",
-		name = "专属弹幕-U37II",
+		name = "专属弹幕-{namecode:474}II",
 		id = 29672,
 		type = 1,
 		max_level = 1,
-		desc = "进入战斗时，触发专属弹幕-U37II",
+		desc = "进入战斗时，触发专属弹幕-{namecode:474}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -88836,11 +89595,11 @@ pg.skill_data_template = {
 	},
 	[29771] = {
 		desc_get = "",
-		name = "专属弹幕-马格德堡I",
+		name = "专属弹幕-{namecode:447}I",
 		id = 29771,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行12次攻击，触发全弹发射-马格德堡I",
+		desc = "主炮每进行12次攻击，触发全弹发射-{namecode:447}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -88850,11 +89609,11 @@ pg.skill_data_template = {
 	},
 	[29772] = {
 		desc_get = "",
-		name = "专属弹幕-马格德堡II",
+		name = "专属弹幕-{namecode:447}II",
 		id = 29772,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行8次攻击，触发全弹发射-马格德堡II",
+		desc = "主炮每进行8次攻击，触发全弹发射-{namecode:447}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -89032,11 +89791,11 @@ pg.skill_data_template = {
 	},
 	[29841] = {
 		desc_get = "",
-		name = "专属弹幕-埃姆登I",
+		name = "专属弹幕-{namecode:448}I",
 		id = 29841,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行15次攻击，触发专属弹幕-埃姆登I",
+		desc = "主炮每进行15次攻击，触发专属弹幕-{namecode:448}I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -89046,11 +89805,11 @@ pg.skill_data_template = {
 	},
 	[29842] = {
 		desc_get = "",
-		name = "专属弹幕-埃姆登II",
+		name = "专属弹幕-{namecode:448}II",
 		id = 29842,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行10次攻击，触发专属弹幕-埃姆登II",
+		desc = "主炮每进行10次攻击，触发专属弹幕-{namecode:448}II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -89415,6 +90174,34 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		desc = "主炮每进行10次攻击，触发专属弹幕-斯库拉II，装备驱逐主炮时，专属弹幕触发所需主炮攻击次数降低为6",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29991] = {
+		desc_get = "",
+		name = "专属弹幕-伏罗希洛夫I",
+		id = 29991,
+		type = 1,
+		max_level = 1,
+		desc = "主炮每进行12次攻击，触发专属弹幕-伏罗希洛夫I",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29992] = {
+		desc_get = "",
+		name = "专属弹幕-伏罗希洛夫II",
+		id = 29992,
+		type = 1,
+		max_level = 1,
+		desc = "主炮每进行8次攻击，触发专属弹幕-伏罗希洛夫II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -102391,7 +103178,7 @@ pg.skill_data_template = {
 		id = 800270,
 		type = 3,
 		max_level = 10,
-		desc = "战斗中每15秒，触发一轮鱼雷弹幕$1（威力依据技能等级，被鱼雷弹幕命中的角色10秒内受到格奈森瑙·META造成的伤害提高8%）；每次鱼雷弹幕发射，或自身在战斗中每击破一艘敌舰时，自身暴击率提高$2，最高叠加3次",
+		desc = "战斗中每15秒，触发一轮鱼雷弹幕$1（威力依据技能等级，被鱼雷弹幕命中的角色10秒内受到{namecode:477}造成的伤害提高8%）；每次鱼雷弹幕发射，或自身在战斗中每击破一艘敌舰时，自身暴击率提高$2，最高叠加3次",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -102599,7 +103386,7 @@ pg.skill_data_template = {
 	},
 	[800291] = {
 		desc_get = "",
-		name = "逐光之焰·格奈森瑙I",
+		name = "逐光之焰·{namecode:434}I",
 		id = 800291,
 		type = 3,
 		max_level = 1,
@@ -102615,7 +103402,7 @@ pg.skill_data_template = {
 	},
 	[800292] = {
 		desc_get = "",
-		name = "逐光之焰·格奈森瑙II",
+		name = "逐光之焰·{namecode:434}II",
 		id = 800292,
 		type = 3,
 		max_level = 1,
@@ -102631,7 +103418,7 @@ pg.skill_data_template = {
 	},
 	[800295] = {
 		desc_get = "",
-		name = "逐光之焰·格奈森瑙I",
+		name = "逐光之焰·{namecode:434}I",
 		id = 800295,
 		type = 3,
 		max_level = 1,
@@ -102647,7 +103434,7 @@ pg.skill_data_template = {
 	},
 	[800297] = {
 		desc_get = "",
-		name = "逐光之焰·格奈森瑙II",
+		name = "逐光之焰·{namecode:434}II",
 		id = 800297,
 		type = 3,
 		max_level = 1,
@@ -103111,7 +103898,7 @@ pg.skill_data_template = {
 	},
 	[800371] = {
 		desc_get = "",
-		name = "破敌之炬·沙恩霍斯特I",
+		name = "破敌之炬·{namecode:433}I",
 		id = 800371,
 		type = 1,
 		max_level = 1,
@@ -103127,7 +103914,7 @@ pg.skill_data_template = {
 	},
 	[800372] = {
 		desc_get = "",
-		name = "破敌之炬·沙恩霍斯特II",
+		name = "破敌之炬·{namecode:433}II",
 		id = 800372,
 		type = 1,
 		max_level = 1,
@@ -103143,7 +103930,7 @@ pg.skill_data_template = {
 	},
 	[800375] = {
 		desc_get = "",
-		name = "破敌之炬·沙恩霍斯特I",
+		name = "破敌之炬·{namecode:433}I",
 		id = 800375,
 		type = 1,
 		max_level = 1,
@@ -103159,7 +103946,7 @@ pg.skill_data_template = {
 	},
 	[800377] = {
 		desc_get = "",
-		name = "破敌之炬·沙恩霍斯特II",
+		name = "破敌之炬·{namecode:433}II",
 		id = 800377,
 		type = 1,
 		max_level = 1,
@@ -106387,6 +107174,318 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800750] = {
+		desc_get = "",
+		name = "审判之锤",
+		id = 800750,
+		type = 1,
+		max_level = 10,
+		desc = "进入战斗时，自身炮击、雷击属性提高$1；自身每进行$2次主炮射击，额外对距离自身最近的地方角色进行一次审判之锤弹幕攻击$3（威力依据技能等级），审判之锤会使被命中的敌方单位在0.5秒内航速变为0，并赋予【审判】状态，持续至战斗结束",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"15",
+				"5"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"15",
+					"-1"
+				},
+				{
+					"14",
+					"-1"
+				},
+				{
+					"13",
+					"-1"
+				},
+				{
+					"12",
+					"-1"
+				},
+				{
+					"11",
+					"-1"
+				},
+				{
+					"10",
+					"-1"
+				},
+				{
+					"9",
+					"-1"
+				},
+				{
+					"8",
+					"-1"
+				},
+				{
+					"7",
+					"-2"
+				},
+				{
+					"5"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[800760] = {
+		desc_get = "",
+		name = "裁决之斧",
+		id = 800760,
+		type = 1,
+		max_level = 10,
+		desc = "进入战斗后每20秒触发一次裁决之斧特殊弹幕$1（威力依据技能等级），对命中的单位附加特殊点燃效果。若命中的敌方单位处于【审判】状态，在接下来的10秒内自身对该单位造成的伤害提高$2",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[800771] = {
+		desc_get = "",
+		name = "逐光之焰·拉·加利索尼埃I",
+		id = 800771,
+		type = 3,
+		max_level = 1,
+		desc = "主炮每进行12次攻击，触发一轮特殊弹幕I",
+		system_transform = {
+			[51.0] = 800775
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800772] = {
+		desc_get = "",
+		name = "逐光之焰·拉·加利索尼埃II",
+		id = 800772,
+		type = 3,
+		max_level = 1,
+		desc = "主炮每进行8次攻击，触发一轮特殊弹幕II",
+		system_transform = {
+			[51.0] = 800777
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800775] = {
+		desc_get = "",
+		name = "逐光之焰·拉·加利索尼埃I",
+		id = 800775,
+		type = 3,
+		max_level = 1,
+		desc = "【大型作战效果】\n主炮每进行12次攻击，触发一轮特殊弹幕 ，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高2%",
+		system_transform = {
+			[51.0] = 800775
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800777] = {
+		desc_get = "",
+		name = "逐光之焰·拉·加利索尼埃II",
+		id = 800777,
+		type = 3,
+		max_level = 1,
+		desc = "【大型作战效果】\n主炮每进行8次攻击，触发一轮特殊弹幕 ，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高6%",
+		system_transform = {
+			[51.0] = 800777
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[901010] = {
 		desc_get = "",
 		name = "特殊斩击-放射型",
@@ -109544,7 +110643,7 @@ pg.skill_data_template = {
 	},
 	[1090020] = {
 		desc_get = "",
-		name = "火力全开·卡尔斯鲁厄",
+		name = "火力全开·{namecode:422}",
 		id = 1090020,
 		type = 1,
 		max_level = 10,
@@ -109846,7 +110945,7 @@ pg.skill_data_template = {
 	},
 	[1090040] = {
 		desc_get = "",
-		name = "狼群战术·U-557",
+		name = "狼群战术·{namecode:415}",
 		id = 1090040,
 		type = 1,
 		max_level = 10,
@@ -110978,6 +112077,7 @@ pg.skill_data_template = {
 		60310,
 		60320,
 		60330,
+		60340,
 		7000,
 		9010,
 		9020,
@@ -111645,6 +112745,13 @@ pg.skill_data_template = {
 		16550,
 		16560,
 		16570,
+		16580,
+		16590,
+		16600,
+		16610,
+		16620,
+		16630,
+		16640,
 		18010,
 		18040,
 		18050,
@@ -111951,6 +113058,8 @@ pg.skill_data_template = {
 		26112,
 		26211,
 		26212,
+		26311,
+		26312,
 		28011,
 		28012,
 		28021,
@@ -112157,6 +113266,8 @@ pg.skill_data_template = {
 		29972,
 		29981,
 		29982,
+		29991,
+		29992,
 		101010,
 		101020,
 		101030,
@@ -112417,6 +113528,12 @@ pg.skill_data_template = {
 		800742,
 		800745,
 		800747,
+		800750,
+		800760,
+		800771,
+		800772,
+		800775,
+		800777,
 		901010,
 		901020,
 		902010,

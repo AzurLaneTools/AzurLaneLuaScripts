@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“光辉女士，腓特烈大帝手中还有很多底牌。她现在决定让局势降温只是因为这是一种更容易让其达到目的方式而已。”",
+			say = "“光辉女士，{namecode:440}手中还有很多底牌。她现在决定让局势降温只是因为这是一种更容易让其达到目的方式而已。”",
 			effects = {
 				{
 					active = true,

@@ -32,7 +32,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			actorName = "伊丽莎白？",
-			say = "电告，包括战列舰提尔比茨号、沙恩霍斯特号、格奈森瑙号、德意志号、斯佩伯爵号在内的铁血主力舰队已经完成集结，现在正在向巴伦支海的方向逼近。",
+			say = "电告，包括战列舰{namecode:436}号、{namecode:433}号、{namecode:434}号、{namecode:429}号、{namecode:431}号在内的铁血主力舰队已经完成集结，现在正在向巴伦支海的方向逼近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "star_level_bg_134",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "U-73按照计划撤退了，天上的飞机也返航了，这下皇家的运输舰队就暂时安全了哦~",
+			say = "{namecode:417}按照计划撤退了，天上的飞机也返航了，这下皇家的运输舰队就暂时安全了哦~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -233,7 +233,7 @@ return {
 			bgName = "star_level_bg_134",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "接下来就是等欧根所说的时机出现么......",
+			say = "接下来就是等{namecode:428}所说的时机出现么......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "star_level_bg_134",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "目前我可没看到有什么变化啊~护航编队怎么可能作出抛弃运输船队独自返航的事，欧根今天又在说什么梦话...",
+			say = "目前我可没看到有什么变化啊~护航编队怎么可能作出抛弃运输船队独自返航的事，{namecode:428}今天又在说什么梦话...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "star_level_bg_134",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "随她去吧...既然欧根特意这么说了，我们就先耐心等等。",
+			say = "随她去吧...既然{namecode:428}特意这么说了，我们就先耐心等等。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

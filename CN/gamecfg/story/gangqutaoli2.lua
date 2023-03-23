@@ -68,7 +68,7 @@ return {
 			actor = 304060,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "小齐柏林！不能用舰装打人啦！",
+			say = "小{namecode:438}！不能用舰装打人啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 304060,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "这关系到身为“御召舰“的尊严！小齐柏林既然是铁血海军的明日之星的话，也不可以向这么小的驱逐舰乞求回答哦",
+			say = "这关系到身为“御召舰“的尊严！小{namecode:438}既然是铁血海军的明日之星的话，也不可以向这么小的驱逐舰乞求回答哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 304060,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "小齐柏林，中途看丢了好几次吧……不如说中途因为好奇心而饶了好几次弯路不是吗？",
+			say = "小{namecode:438}，中途看丢了好几次吧……不如说中途因为好奇心而饶了好几次弯路不是吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

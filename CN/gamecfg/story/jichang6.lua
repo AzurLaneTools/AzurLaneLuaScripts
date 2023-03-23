@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此，参与「μ兵装」实验的三个组合，除了我们之外，还有{namecode:97}与罗恩以及鸢尾的一个组合。",
+			say = "原来如此，参与「μ兵装」实验的三个组合，除了我们之外，还有{namecode:97}与{namecode:439}以及鸢尾的一个组合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

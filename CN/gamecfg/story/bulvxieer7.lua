@@ -168,7 +168,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，布吕歇尔也是哦~",
+			say = "嘿嘿，{namecode:450}也是哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "昨天指挥官有没有梦到布吕歇尔呢？嗯，看这个表情，肯定是梦到了吧~",
+			say = "昨天指挥官有没有梦到{namecode:450}呢？嗯，看这个表情，肯定是梦到了吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "原来如此……仿佛听到了从布吕歇尔心中发出的算盘声。",
+			say = "原来如此……仿佛听到了从{namecode:450}心中发出的算盘声。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不许闭眼！要好好看着布吕歇尔才行！",
+			say = "不许闭眼！要好好看着{namecode:450}才行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "正在思考着应该如何应对布吕歇尔的热情攻势的时候，金色的头发已经凑到了眼前——",
+			say = "正在思考着应该如何应对{namecode:450}的热情攻势的时候，金色的头发已经凑到了眼前——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

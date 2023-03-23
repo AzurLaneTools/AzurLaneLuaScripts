@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"德意志的忧郁\n\n<size=45>六　真相·下</size>",
+					"{namecode:429}的忧郁\n\n<size=45>六　真相·下</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "“吕佐夫”……是因为这个名字。",
+			say = "“{namecode:461}”……是因为这个名字。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -67,7 +67,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是的。不知道是什么原因，德意志她作为舰船的存在不光是铁血的“德意志”还是北方联合的“吕佐夫”呢。",
+			say = "是的。不知道是什么原因，{namecode:429}她作为舰船的存在不光是铁血的“{namecode:429}”还是北方联合的“{namecode:461}”呢。",
 			subActors = {
 				{
 					actor = 403040,
@@ -118,7 +118,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不是在那场战斗中努力的“吕佐”，而是北方联合的“吕佐夫”……",
+			say = "不是在那场战斗中努力的“吕佐”，而是北方联合的“{namecode:461}”……",
 			subActors = {
 				{
 					actor = 403040,
@@ -184,7 +184,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "即使加入过北方联合，但她确实是德意志。",
+			say = "即使加入过北方联合，但她确实是{namecode:429}。",
 			subActors = {
 				{
 					actor = 403040,
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "铁血的大家也为了不伤害到德意志而非常小心呢。",
+			say = "铁血的大家也为了不伤害到{namecode:429}而非常小心呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以我们没有告诉她真相，就这样接受“现在的德意志”作为了我们的一员。",
+			say = "所以我们没有告诉她真相，就这样接受“现在的{namecode:429}”作为了我们的一员。",
 			subActors = {
 				{
 					actor = 403040,
@@ -360,7 +360,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "同意。那个任性的德意志看不到了虽然会有点惋惜。不过她应该活的更自由一些的。",
+			say = "同意。那个任性的{namecode:429}看不到了虽然会有点惋惜。不过她应该活的更自由一些的。",
 			subActors = {
 				{
 					actor = 403040,
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "结论是去告诉德意志真相呢。",
+			say = "结论是去告诉{namecode:429}真相呢。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -479,7 +479,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没这个必要呢……格奈森瑙，你说对吧？",
+			say = "没这个必要呢……{namecode:434}，你说对吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "松开抱着她的手。德意志打开门，出现在伙伴们的面前",
+			say = "松开抱着她的手。{namecode:429}打开门，出现在伙伴们的面前",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是瞒不过欧根你。",
+			say = "真是瞒不过{namecode:428}你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

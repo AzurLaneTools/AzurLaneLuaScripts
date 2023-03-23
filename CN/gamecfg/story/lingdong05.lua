@@ -105,7 +105,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "沙恩霍斯特号——迎敌！",
+			say = "{namecode:433}号——迎敌！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

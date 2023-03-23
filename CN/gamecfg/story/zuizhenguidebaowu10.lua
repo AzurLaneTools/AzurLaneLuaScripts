@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "level02",
-			say = "时间回到大斗犬和U110对峙的时候——",
+			say = "时间回到大斗犬和{namecode:420}对峙的时候——",
 			effects = {
 				{
 					active = true,

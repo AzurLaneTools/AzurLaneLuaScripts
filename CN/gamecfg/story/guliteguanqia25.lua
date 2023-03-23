@@ -668,7 +668,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「喂，斯佩伯爵么，是我，爱丁堡！」</size>",
+					"<size=51>「喂，{namecode:431}么，是我，爱丁堡！」</size>",
 					1
 				},
 				{
@@ -692,7 +692,7 @@ return {
 					6
 				},
 				{
-					"<size=51>「拜托了，斯佩伯爵！」</size>",
+					"<size=51>「拜托了，{namecode:431}！」</size>",
 					6
 				}
 			}

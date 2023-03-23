@@ -56,7 +56,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-47变得会经常呆在指挥室里。虽说不会影响工作，但是……",
+			say = "{namecode:413}变得会经常呆在指挥室里。虽说不会影响工作，但是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "想得太出神，不知不觉与U-47四目相对了。正当我想把注意力转回工作上时——",
+			say = "想得太出神，不知不觉与{namecode:413}四目相对了。正当我想把注意力转回工作上时——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "听这个声音，好像是U-47的同伴，U-81……？",
+			say = "听这个声音，好像是{namecode:413}的同伴，{namecode:414}……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官~指挥官~！你看到U-47了吗？",
+			say = "指挥官~指挥官~！你看到{namecode:413}了吗？",
 			action = {
 				{
 					type = "shake",
@@ -196,7 +196,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-47的话……目光转向了她所坐的沙发——但那里没有任何人的身影。",
+			say = "{namecode:413}的话……目光转向了她所坐的沙发——但那里没有任何人的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-81露出沮丧的表情坐在沙发上，我也重新回到办公桌前坐准备坐下的时候——",
+			say = "{namecode:414}露出沮丧的表情坐在沙发上，我也重新回到办公桌前坐准备坐下的时候——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……让我躲在这里，直到U-81离开。",
+			say = "……让我躲在这里，直到{namecode:414}离开。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……没办法了。虽然有尽力避开U-47的身体，但是在桌下狭小的空间中还是能清晰地感受到她的存在。",
+			say = "……没办法了。虽然有尽力避开{namecode:413}的身体，但是在桌下狭小的空间中还是能清晰地感受到她的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "U-47那家伙，好多时候根本找不到跑哪儿去了……！",
+			say = "{namecode:413}那家伙，好多时候根本找不到跑哪儿去了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果任凭她这样逃跑的话，不是显得我很没用吗！我绝对会找到你的，U-47！",
+			say = "如果任凭她这样逃跑的话，不是显得我很没用吗！我绝对会找到你的，{namecode:413}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "余音还未完全消失，U-81已经从指挥室中离开了……",
+			say = "余音还未完全消失，{namecode:414}已经从指挥室中离开了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "又过了好一会儿，U-47才慢吞吞地从桌子下面钻了出来，然后无奈地短叹了一声。",
+			say = "又过了好一会儿，{namecode:413}才慢吞吞地从桌子下面钻了出来，然后无奈地短叹了一声。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "作为打扰来说，也不算很打扰……不过为什么U-47不愿意在U-81面前出现呢？",
+			say = "作为打扰来说，也不算很打扰……不过为什么{namecode:413}不愿意在{namecode:414}面前出现呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……还是做好U-81冷不防杀个回马枪的准备吧。",
+			say = "……还是做好{namecode:414}冷不防杀个回马枪的准备吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

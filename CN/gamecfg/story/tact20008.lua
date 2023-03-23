@@ -43,7 +43,7 @@ return {
 			actor = 407010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "铁血之翼——齐柏林级航空母舰，在此赐予你们被毁灭的权力！",
+			say = "铁血之翼——{namecode:438}级航空母舰，在此赐予你们被毁灭的权力！",
 			shake = {
 				speed = 1,
 				number = 3

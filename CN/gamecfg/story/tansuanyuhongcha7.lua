@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "U1206，这里应该用“拜访”才对。",
+			say = "{namecode:476}，这里应该用“拜访”才对。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408121,
-			say = "才不是呢~今天俾斯麦店长给我们了放假，所以我们就来玩咯！",
+			say = "才不是呢~今天{namecode:435}店长给我们了放假，所以我们就来玩咯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

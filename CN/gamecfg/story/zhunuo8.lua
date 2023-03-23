@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stopBGM = true,
-			say = "格奈森瑙，对手怎么样？",
+			say = "{namecode:434}，对手怎么样？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

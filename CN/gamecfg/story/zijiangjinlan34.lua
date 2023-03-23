@@ -887,7 +887,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "……呵呵呵呵，俾斯麦也不过是懦夫而已。",
+			say = "……呵呵呵呵，{namecode:435}也不过是懦夫而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1

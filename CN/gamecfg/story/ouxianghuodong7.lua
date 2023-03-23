@@ -256,7 +256,7 @@ return {
 			side = 2,
 			actor = 403070,
 			dir = 1,
-			say = "我不像俾斯麦这方面没什么知识，只能猜就是",
+			say = "我不像{namecode:435}这方面没什么知识，只能猜就是",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

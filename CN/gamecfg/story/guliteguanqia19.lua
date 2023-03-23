@@ -897,7 +897,7 @@ return {
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "罗恩同学的疑心真的好重啊……那些塞壬可是要连我一起消灭的哦！我们可是共同战线，我有什么理由要这么做啊！",
+			say = "{namecode:439}同学的疑心真的好重啊……那些塞壬可是要连我一起消灭的哦！我们可是共同战线，我有什么理由要这么做啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

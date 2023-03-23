@@ -160,7 +160,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Z18，快，我们继续追！",
+			say = "{namecode:404}，快，我们继续追！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "…不要那么急躁呀，Z19",
+			say = "…不要那么急躁呀，{namecode:405}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "而且还得要立刻给Z21和Z2发警报，让她们做好准备，并且让Z2带着其他人赶回来才行呢",
+			say = "而且还得要立刻给{namecode:407}和{namecode:401}发警报，让她们做好准备，并且让{namecode:401}带着其他人赶回来才行呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不过，我们也有能做到的事，接敌可以交给Z21，我们至少要保住补给船。不然的话，大家连回家都会成问题呢。",
+			say = "不过，我们也有能做到的事，接敌可以交给{namecode:407}，我们至少要保住补给船。不然的话，大家连回家都会成问题呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

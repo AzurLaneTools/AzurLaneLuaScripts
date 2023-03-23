@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然也有这方面的疑问……不过最主要的还是关于那个腓特烈大帝的。",
+			say = "虽然也有这方面的疑问……不过最主要的还是关于那个{namecode:440}的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "面对碧蓝航线派出的舰队，铁血毫无疑问在本次战役中处于劣势，可腓特烈大帝的部署却如此的……不紧不慢。",
+			say = "面对碧蓝航线派出的舰队，铁血毫无疑问在本次战役中处于劣势，可{namecode:440}的部署却如此的……不紧不慢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我这次也赞同{namecode:96}的看法。姐姐，这次腓特烈大帝的邀请有蹊跷之处。",
+			say = "我这次也赞同{namecode:96}的看法。姐姐，这次{namecode:440}的邀请有蹊跷之处。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其二是，带的人多了我们不就顺理成章的要被当成打手投入战斗了？正中腓特烈大帝的下怀。",
+			say = "其二是，带的人多了我们不就顺理成章的要被当成打手投入战斗了？正中{namecode:440}的下怀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "腓特烈大帝总是令人捉摸不透，我也不喜欢她总是高高在上的态度。",
+			say = "{namecode:440}总是令人捉摸不透，我也不喜欢她总是高高在上的态度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

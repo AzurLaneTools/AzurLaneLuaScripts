@@ -144,7 +144,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家方舟号通告皇家舰队全军，敌舰俾斯麦已经失去行动能力，重复，敌舰已失去行动能力",
+			say = "皇家方舟号通告皇家舰队全军，敌舰{namecode:435}已经失去行动能力，重复，敌舰已失去行动能力",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "俾斯麦号通告司令部",
+			say = "{namecode:435}号通告司令部",
 			bgm = "bsm-8",
 			typewriter = {
 				speed = 0.05,

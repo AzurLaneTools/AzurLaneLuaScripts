@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么想起来跑我这里来了，Z23，你们四人组不是总是在一起吗。",
+			say = "怎么想起来跑我这里来了，{namecode:408}，你们四人组不是总是在一起吗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "与{namecode:93}和Z23愉快地度过了一段聊天时间",
+			say = "与{namecode:93}和{namecode:408}愉快地度过了一段聊天时间",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

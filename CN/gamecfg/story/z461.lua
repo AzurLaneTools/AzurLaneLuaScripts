@@ -150,7 +150,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "方才热心地向我介绍的铁血女孩，似乎是叫做Z35吧……",
+			say = "方才热心地向我介绍的铁血女孩，似乎是叫做{namecode:410}吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "很可惜，现在我还没有名字，你就暂时叫我Z46吧。",
+			say = "很可惜，现在我还没有名字，你就暂时叫我{namecode:412}吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "直到寻找到真正的名字为止，Z46这个名字就是维系你我的丝线。",
+			say = "直到寻找到真正的名字为止，{namecode:412}这个名字就是维系你我的丝线。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

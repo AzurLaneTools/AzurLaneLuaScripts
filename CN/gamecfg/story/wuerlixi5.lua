@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不知何时等在指挥室的胡滕瞪了过来。",
+			say = "不知何时等在指挥室的{namecode:465}瞪了过来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "时针指向凌晨1点的时候，至今为止一直默默工作着的胡滕突然站了起来。",
+			say = "时针指向凌晨1点的时候，至今为止一直默默工作着的{namecode:465}突然站了起来。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "胡滕又把不知从何处取出的闹钟放了过来。",
+			say = "{namecode:465}又把不知从何处取出的闹钟放了过来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			blackBg = true,
-			say = "在一片朦胧的意识中…似乎听到了胡滕的轻声说了些什么……",
+			say = "在一片朦胧的意识中…似乎听到了{namecode:465}的轻声说了些什么……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -30,7 +30,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "不好，果然是俾斯麦姐姐遭遇了危机！！",
+			say = "不好，果然是{namecode:435}姐姐遭遇了危机！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "水下骑士U556，马力全开！",
+			say = "水下骑士{namecode:416}，马力全开！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "等着我，俾斯麦姐姐！",
+			say = "等着我，{namecode:435}姐姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 					4.5
 				},
 				{
-					"<size=60>U556都将帮助她的姐姐俾斯麦击退所有飞机和鱼雷的攻击</size>",
+					"<size=60>{namecode:416}都将帮助她的姐姐{namecode:435}击退所有飞机和鱼雷的攻击</size>",
 					7.5
 				},
 				{
@@ -164,7 +164,7 @@ return {
 					7.5
 				},
 				{
-					"<size=60>无论在任何地方，如果俾斯麦姐姐不幸受伤</size>",
+					"<size=60>无论在任何地方，如果{namecode:435}姐姐不幸受伤</size>",
 					10.5
 				},
 				{
@@ -172,7 +172,7 @@ return {
 					10.5
 				},
 				{
-					"<size=60>哪怕是用拖，U556也要把她的姐姐拖回港口</size>",
+					"<size=60>哪怕是用拖，{namecode:416}也要把她的姐姐拖回港口</size>",
 					13.5
 				},
 				{
@@ -180,7 +180,7 @@ return {
 					13.5
 				},
 				{
-					"<size=60>                                                         ——水下骑士U556</size>",
+					"<size=60>                                                         ——水下骑士{namecode:416}</size>",
 					18
 				}
 			}

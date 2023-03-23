@@ -128,7 +128,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}，你听懂Z46说的话了吗！？",
+			say = "{namecode:6}，你听懂{namecode:412}说的话了吗！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一会儿得找Z36好好聊一聊了……",
+			say = "一会儿得找{namecode:411}好好聊一聊了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是状态绝佳，正在等待最后阶段的挑战者的{namecode:97}和罗恩组合「Verheerender」吗！",
+			say = "还是状态绝佳，正在等待最后阶段的挑战者的{namecode:97}和{namecode:439}组合「Verheerender」吗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

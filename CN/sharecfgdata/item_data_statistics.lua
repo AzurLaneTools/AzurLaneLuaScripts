@@ -5437,6 +5437,27 @@ _G.pg.base.item_data_statistics[11041] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[11042] = {
+	display = "B-13 双联装130mm主炮B-2LMT3设计图",
+	name = "B-13 双联装130mm主炮B-2LMT3设计图",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11042,
+	is_world = 0,
+	icon = "Equips/85000",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[11043] = {
 	display = "B-38 三联装152mm主炮MK5T3设计图",
 	name = "B-38 三联装152mm主炮MK5T3设计图",
@@ -9122,8 +9143,8 @@ _G.pg.base.item_data_statistics[21006] = {
 }
 
 _G.pg.base.item_data_statistics[21007] = {
-	display = "格奈森瑙·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
-	name = "结晶：格奈森瑙·META",
+	display = "{namecode:477}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	name = "结晶：{namecode:477}",
 	max_num = 0,
 	type = 4,
 	drop_oil_max = 0,
@@ -9164,8 +9185,8 @@ _G.pg.base.item_data_statistics[21008] = {
 }
 
 _G.pg.base.item_data_statistics[21009] = {
-	display = "沙恩霍斯特·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
-	name = "结晶：沙恩霍斯特·META",
+	display = "{namecode:478}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	name = "结晶：{namecode:478}",
 	max_num = 0,
 	type = 4,
 	drop_oil_max = 0,
@@ -9394,6 +9415,27 @@ _G.pg.base.item_data_statistics[21019] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21020] = {
+	display = "拉·加利索尼埃·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	name = "结晶：拉·加利索尼埃·META",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21020,
+	is_world = 0,
+	icon = "Props/21020",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "用于提升舰装火炮性能的稀有材料，可在「META研究室」-「舰装强化」中使用。",
 	name = "结晶化热强钢",
@@ -9563,8 +9605,8 @@ _G.pg.base.item_data_statistics[21904] = {
 }
 
 _G.pg.base.item_data_statistics[21905] = {
-	display = "于「信标·META」战斗中收集的数据，可以提升格奈森瑙·META同步率。",
-	name = "同步值：格奈森瑙·META",
+	display = "于「信标·META」战斗中收集的数据，可以提升{namecode:477}同步率。",
+	name = "同步值：{namecode:477}",
 	max_num = 0,
 	type = 4,
 	drop_oil_max = 0,
@@ -9584,8 +9626,8 @@ _G.pg.base.item_data_statistics[21905] = {
 }
 
 _G.pg.base.item_data_statistics[21906] = {
-	display = "于「信标·META」战斗中收集的数据，可以提升沙恩霍斯特·META同步率。",
-	name = "同步值：沙恩霍斯特·META",
+	display = "于「信标·META」战斗中收集的数据，可以提升{namecode:478}同步率。",
+	name = "同步值：{namecode:478}",
 	max_num = 0,
 	type = 4,
 	drop_oil_max = 0,
@@ -16132,6 +16174,95 @@ _G.pg.base.item_data_statistics[30410] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30411] = {
+	display = "可以随机获得一件本次世界巡游限定外观装备",
+	name = "外观装备箱(世界巡游)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30411,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	display_icon = {
+		{
+			9,
+			2033,
+			1
+		},
+		{
+			9,
+			2034,
+			1
+		},
+		{
+			9,
+			2035,
+			1
+		},
+		{
+			9,
+			2036,
+			1
+		},
+		{
+			9,
+			2037,
+			1
+		},
+		{
+			9,
+			2038,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30412] = {
+	display = "可以获得雷神之怒(鱼雷)、雷神之怒(战斗)、雷神之怒(轰炸)外观装备各一件",
+	name = "雷神之怒",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30412,
+	is_world = 0,
+	icon = "Equips/96531",
+	display_icon = {
+		{
+			9,
+			2033,
+			1
+		},
+		{
+			9,
+			2034,
+			1
+		},
+		{
+			9,
+			2035,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "使用后可从「炎炎夏日」主题外观装备中任意选择一种获得1个",
 	name = "定向外观装备箱(夏末)",
@@ -18216,6 +18347,121 @@ _G.pg.base.item_data_statistics[30519] = {
 		}
 	},
 	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30520] = {
+	display = "使用后可从「啾啾野战医院」主题外观装备中任意选择一种获得1个",
+	name = "定向外观装备箱(医疗)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30520,
+	is_world = 0,
+	icon = "Props/appearanceboxyiyuanzixuan",
+	display_icon = {
+		{
+			9,
+			280,
+			1
+		},
+		{
+			9,
+			281,
+			1
+		},
+		{
+			9,
+			282,
+			1
+		},
+		{
+			9,
+			283,
+			1
+		},
+		{
+			9,
+			284,
+			1
+		},
+		{
+			9,
+			285,
+			1
+		},
+		{
+			9,
+			286,
+			1
+		},
+		{
+			9,
+			287,
+			1
+		},
+		{
+			9,
+			288,
+			1
+		},
+		{
+			9,
+			289,
+			1
+		},
+		{
+			9,
+			290,
+			1
+		},
+		{
+			9,
+			291,
+			1
+		},
+		{
+			9,
+			292,
+			1
+		},
+		{
+			9,
+			293,
+			1
+		},
+		{
+			9,
+			294,
+			1
+		},
+		{
+			9,
+			295,
+			1
+		},
+		{
+			9,
+			296,
+			1
+		},
+		{
+			9,
+			297,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
 	index = {},
 	shiptrans_id = {}
 }
@@ -20581,7 +20827,7 @@ _G.pg.base.item_data_statistics[40122] = {
 
 _G.pg.base.item_data_statistics[40124] = {
 	display = [[
-可于科研-开发船坞界面，从君主、海王星、罗恩、路易九世、{namecode:152}、{namecode:151}中选择并获取一位等级与科研等级均为1级的角色
+可于科研-开发船坞界面，从君主、海王星、{namecode:439}、路易九世、{namecode:152}、{namecode:151}中选择并获取一位等级与科研等级均为1级的角色
 <color=#92fc63>上述角色全部获得时</color>，在仓库中使用此道具将会获得：
 科研测试数据·一期*300
 定向改造图纸T3*5
@@ -29544,7 +29790,7 @@ _G.pg.base.item_data_statistics[41169] = {
 }
 
 _G.pg.base.item_data_statistics[41170] = {
-	display = "莱伯勒希特·马斯（Z1）赠送的情人节礼物",
+	display = "莱伯勒希特·马斯（{namecode:400}）赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -29581,7 +29827,7 @@ _G.pg.base.item_data_statistics[41170] = {
 }
 
 _G.pg.base.item_data_statistics[41171] = {
-	display = "赫尔曼·库纳（Z19）赠送的情人节礼物",
+	display = "赫尔曼·库纳（{namecode:405}）赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -29618,7 +29864,7 @@ _G.pg.base.item_data_statistics[41171] = {
 }
 
 _G.pg.base.item_data_statistics[41172] = {
-	display = "卡尔·加尔斯特（Z20）赠送的情人节礼物",
+	display = "卡尔·加尔斯特（{namecode:406}）赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -29655,7 +29901,7 @@ _G.pg.base.item_data_statistics[41172] = {
 }
 
 _G.pg.base.item_data_statistics[41173] = {
-	display = "威尔海姆·海德坎姆（Z21）赠送的情人节礼物",
+	display = "威尔海姆·海德坎姆（{namecode:407}）赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -29692,7 +29938,7 @@ _G.pg.base.item_data_statistics[41173] = {
 }
 
 _G.pg.base.item_data_statistics[41174] = {
-	display = "Z23赠送的情人节礼物",
+	display = "{namecode:408}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -29729,7 +29975,7 @@ _G.pg.base.item_data_statistics[41174] = {
 }
 
 _G.pg.base.item_data_statistics[41175] = {
-	display = "Z46赠送的情人节礼物",
+	display = "{namecode:412}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -29766,7 +30012,7 @@ _G.pg.base.item_data_statistics[41175] = {
 }
 
 _G.pg.base.item_data_statistics[41176] = {
-	display = "柯尼斯堡赠送的情人节礼物",
+	display = "{namecode:421}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -29803,7 +30049,7 @@ _G.pg.base.item_data_statistics[41176] = {
 }
 
 _G.pg.base.item_data_statistics[41177] = {
-	display = "卡尔斯鲁厄赠送的情人节礼物",
+	display = "{namecode:422}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -29840,7 +30086,7 @@ _G.pg.base.item_data_statistics[41177] = {
 }
 
 _G.pg.base.item_data_statistics[41178] = {
-	display = "科隆赠送的情人节礼物",
+	display = "{namecode:423}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -29877,7 +30123,7 @@ _G.pg.base.item_data_statistics[41178] = {
 }
 
 _G.pg.base.item_data_statistics[41179] = {
-	display = "莱比锡赠送的情人节礼物",
+	display = "{namecode:424}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -29914,7 +30160,7 @@ _G.pg.base.item_data_statistics[41179] = {
 }
 
 _G.pg.base.item_data_statistics[41180] = {
-	display = "希佩尔海军上将赠送的情人节礼物",
+	display = "{namecode:425}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -29951,7 +30197,7 @@ _G.pg.base.item_data_statistics[41180] = {
 }
 
 _G.pg.base.item_data_statistics[41181] = {
-	display = "欧根亲王赠送的情人节礼物",
+	display = "{namecode:427}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -29988,7 +30234,7 @@ _G.pg.base.item_data_statistics[41181] = {
 }
 
 _G.pg.base.item_data_statistics[41182] = {
-	display = "德意志赠送的情人节礼物",
+	display = "{namecode:429}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -30025,7 +30271,7 @@ _G.pg.base.item_data_statistics[41182] = {
 }
 
 _G.pg.base.item_data_statistics[41183] = {
-	display = "斯佩伯爵海军上将赠送的情人节礼物",
+	display = "{namecode:430}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -30062,7 +30308,7 @@ _G.pg.base.item_data_statistics[41183] = {
 }
 
 _G.pg.base.item_data_statistics[41184] = {
-	display = "沙恩霍斯特赠送的情人节礼物",
+	display = "{namecode:433}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -30099,7 +30345,7 @@ _G.pg.base.item_data_statistics[41184] = {
 }
 
 _G.pg.base.item_data_statistics[41185] = {
-	display = "格奈森瑙赠送的情人节礼物",
+	display = "{namecode:434}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -30136,7 +30382,7 @@ _G.pg.base.item_data_statistics[41185] = {
 }
 
 _G.pg.base.item_data_statistics[41186] = {
-	display = "提尔比茨赠送的情人节礼物",
+	display = "{namecode:436}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -30173,7 +30419,7 @@ _G.pg.base.item_data_statistics[41186] = {
 }
 
 _G.pg.base.item_data_statistics[41187] = {
-	display = "齐柏林伯爵赠送的情人节礼物",
+	display = "{namecode:437}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 17,
@@ -34181,7 +34427,7 @@ _G.pg.base.item_data_statistics[41375] = {
 }
 
 _G.pg.base.item_data_statistics[41376] = {
-	display = "Z1赠送的情人节礼物",
+	display = "{namecode:400}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34202,7 +34448,7 @@ _G.pg.base.item_data_statistics[41376] = {
 }
 
 _G.pg.base.item_data_statistics[41377] = {
-	display = "Z23赠送的情人节礼物",
+	display = "{namecode:408}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34223,7 +34469,7 @@ _G.pg.base.item_data_statistics[41377] = {
 }
 
 _G.pg.base.item_data_statistics[41378] = {
-	display = "Z25赠送的情人节礼物",
+	display = "{namecode:409}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34244,7 +34490,7 @@ _G.pg.base.item_data_statistics[41378] = {
 }
 
 _G.pg.base.item_data_statistics[41379] = {
-	display = "柯尼斯堡赠送的情人节礼物",
+	display = "{namecode:421}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34265,7 +34511,7 @@ _G.pg.base.item_data_statistics[41379] = {
 }
 
 _G.pg.base.item_data_statistics[41380] = {
-	display = "卡尔斯鲁厄赠送的情人节礼物",
+	display = "{namecode:422}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34286,7 +34532,7 @@ _G.pg.base.item_data_statistics[41380] = {
 }
 
 _G.pg.base.item_data_statistics[41381] = {
-	display = "科隆赠送的情人节礼物",
+	display = "{namecode:423}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34307,7 +34553,7 @@ _G.pg.base.item_data_statistics[41381] = {
 }
 
 _G.pg.base.item_data_statistics[41382] = {
-	display = "莱比锡赠送的情人节礼物",
+	display = "{namecode:424}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34328,7 +34574,7 @@ _G.pg.base.item_data_statistics[41382] = {
 }
 
 _G.pg.base.item_data_statistics[41383] = {
-	display = "希佩尔海军上将赠送的情人节礼物",
+	display = "{namecode:425}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34349,7 +34595,7 @@ _G.pg.base.item_data_statistics[41383] = {
 }
 
 _G.pg.base.item_data_statistics[41384] = {
-	display = "欧根亲王赠送的情人节礼物",
+	display = "{namecode:427}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34370,7 +34616,7 @@ _G.pg.base.item_data_statistics[41384] = {
 }
 
 _G.pg.base.item_data_statistics[41385] = {
-	display = "德意志赠送的情人节礼物",
+	display = "{namecode:429}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34391,7 +34637,7 @@ _G.pg.base.item_data_statistics[41385] = {
 }
 
 _G.pg.base.item_data_statistics[41386] = {
-	display = "斯佩伯爵海军上将赠送的情人节礼物",
+	display = "{namecode:430}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34412,7 +34658,7 @@ _G.pg.base.item_data_statistics[41386] = {
 }
 
 _G.pg.base.item_data_statistics[41387] = {
-	display = "沙恩霍斯特赠送的情人节礼物",
+	display = "{namecode:433}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34433,7 +34679,7 @@ _G.pg.base.item_data_statistics[41387] = {
 }
 
 _G.pg.base.item_data_statistics[41388] = {
-	display = "格奈森瑙赠送的情人节礼物",
+	display = "{namecode:434}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34454,7 +34700,7 @@ _G.pg.base.item_data_statistics[41388] = {
 }
 
 _G.pg.base.item_data_statistics[41389] = {
-	display = "提尔比茨赠送的情人节礼物",
+	display = "{namecode:436}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34475,7 +34721,7 @@ _G.pg.base.item_data_statistics[41389] = {
 }
 
 _G.pg.base.item_data_statistics[41390] = {
-	display = "齐柏林伯爵赠送的情人节礼物",
+	display = "{namecode:437}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34685,7 +34931,7 @@ _G.pg.base.item_data_statistics[41399] = {
 }
 
 _G.pg.base.item_data_statistics[41400] = {
-	display = "Z19赠送的情人节礼物",
+	display = "{namecode:405}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34706,7 +34952,7 @@ _G.pg.base.item_data_statistics[41400] = {
 }
 
 _G.pg.base.item_data_statistics[41401] = {
-	display = "Z20赠送的情人节礼物",
+	display = "{namecode:406}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34727,7 +34973,7 @@ _G.pg.base.item_data_statistics[41401] = {
 }
 
 _G.pg.base.item_data_statistics[41402] = {
-	display = "Z21赠送的情人节礼物",
+	display = "{namecode:407}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -34748,7 +34994,7 @@ _G.pg.base.item_data_statistics[41402] = {
 }
 
 _G.pg.base.item_data_statistics[41403] = {
-	display = "Z46赠送的情人节礼物",
+	display = "{namecode:412}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -35693,7 +35939,7 @@ _G.pg.base.item_data_statistics[41447] = {
 }
 
 _G.pg.base.item_data_statistics[41448] = {
-	display = "U-81赠送的情人节礼物",
+	display = "{namecode:414}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -35735,7 +35981,7 @@ _G.pg.base.item_data_statistics[41449] = {
 }
 
 _G.pg.base.item_data_statistics[41450] = {
-	display = "U-47赠送的情人节礼物",
+	display = "{namecode:413}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -35756,7 +36002,7 @@ _G.pg.base.item_data_statistics[41450] = {
 }
 
 _G.pg.base.item_data_statistics[41451] = {
-	display = "U-557赠送的情人节礼物",
+	display = "{namecode:415}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -35777,7 +36023,7 @@ _G.pg.base.item_data_statistics[41451] = {
 }
 
 _G.pg.base.item_data_statistics[41452] = {
-	display = "Z35赠送的情人节礼物",
+	display = "{namecode:410}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -35798,7 +36044,7 @@ _G.pg.base.item_data_statistics[41452] = {
 }
 
 _G.pg.base.item_data_statistics[41453] = {
-	display = "Z18赠送的情人节礼物",
+	display = "{namecode:404}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -36491,7 +36737,7 @@ _G.pg.base.item_data_statistics[41501] = {
 }
 
 _G.pg.base.item_data_statistics[41502] = {
-	display = "罗恩赠送的情人节礼物",
+	display = "{namecode:439}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40208,7 +40454,7 @@ _G.pg.base.item_data_statistics[41775] = {
 }
 
 _G.pg.base.item_data_statistics[41776] = {
-	display = "Z1赠送的情人节礼物",
+	display = "{namecode:400}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40229,7 +40475,7 @@ _G.pg.base.item_data_statistics[41776] = {
 }
 
 _G.pg.base.item_data_statistics[41777] = {
-	display = "Z23赠送的情人节礼物",
+	display = "{namecode:408}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40250,7 +40496,7 @@ _G.pg.base.item_data_statistics[41777] = {
 }
 
 _G.pg.base.item_data_statistics[41778] = {
-	display = "Z25赠送的情人节礼物",
+	display = "{namecode:409}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40271,7 +40517,7 @@ _G.pg.base.item_data_statistics[41778] = {
 }
 
 _G.pg.base.item_data_statistics[41779] = {
-	display = "柯尼斯堡赠送的情人节礼物",
+	display = "{namecode:421}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40292,7 +40538,7 @@ _G.pg.base.item_data_statistics[41779] = {
 }
 
 _G.pg.base.item_data_statistics[41780] = {
-	display = "卡尔斯鲁厄赠送的情人节礼物",
+	display = "{namecode:422}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40313,7 +40559,7 @@ _G.pg.base.item_data_statistics[41780] = {
 }
 
 _G.pg.base.item_data_statistics[41781] = {
-	display = "科隆赠送的情人节礼物",
+	display = "{namecode:423}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40334,7 +40580,7 @@ _G.pg.base.item_data_statistics[41781] = {
 }
 
 _G.pg.base.item_data_statistics[41782] = {
-	display = "莱比锡赠送的情人节礼物",
+	display = "{namecode:424}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40355,7 +40601,7 @@ _G.pg.base.item_data_statistics[41782] = {
 }
 
 _G.pg.base.item_data_statistics[41783] = {
-	display = "希佩尔海军上将赠送的情人节礼物",
+	display = "{namecode:425}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40376,7 +40622,7 @@ _G.pg.base.item_data_statistics[41783] = {
 }
 
 _G.pg.base.item_data_statistics[41784] = {
-	display = "欧根亲王赠送的情人节礼物",
+	display = "{namecode:427}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40397,7 +40643,7 @@ _G.pg.base.item_data_statistics[41784] = {
 }
 
 _G.pg.base.item_data_statistics[41785] = {
-	display = "德意志赠送的情人节礼物",
+	display = "{namecode:429}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40418,7 +40664,7 @@ _G.pg.base.item_data_statistics[41785] = {
 }
 
 _G.pg.base.item_data_statistics[41786] = {
-	display = "斯佩伯爵海军上将赠送的情人节礼物",
+	display = "{namecode:430}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40439,7 +40685,7 @@ _G.pg.base.item_data_statistics[41786] = {
 }
 
 _G.pg.base.item_data_statistics[41787] = {
-	display = "沙恩霍斯特赠送的情人节礼物",
+	display = "{namecode:433}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40460,7 +40706,7 @@ _G.pg.base.item_data_statistics[41787] = {
 }
 
 _G.pg.base.item_data_statistics[41788] = {
-	display = "格奈森瑙赠送的情人节礼物",
+	display = "{namecode:434}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40481,7 +40727,7 @@ _G.pg.base.item_data_statistics[41788] = {
 }
 
 _G.pg.base.item_data_statistics[41789] = {
-	display = "提尔比茨赠送的情人节礼物",
+	display = "{namecode:436}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40502,7 +40748,7 @@ _G.pg.base.item_data_statistics[41789] = {
 }
 
 _G.pg.base.item_data_statistics[41790] = {
-	display = "齐柏林伯爵赠送的情人节礼物",
+	display = "{namecode:437}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40712,7 +40958,7 @@ _G.pg.base.item_data_statistics[41799] = {
 }
 
 _G.pg.base.item_data_statistics[41800] = {
-	display = "Z19赠送的情人节礼物",
+	display = "{namecode:405}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40733,7 +40979,7 @@ _G.pg.base.item_data_statistics[41800] = {
 }
 
 _G.pg.base.item_data_statistics[41801] = {
-	display = "Z20赠送的情人节礼物",
+	display = "{namecode:406}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40754,7 +41000,7 @@ _G.pg.base.item_data_statistics[41801] = {
 }
 
 _G.pg.base.item_data_statistics[41802] = {
-	display = "Z21赠送的情人节礼物",
+	display = "{namecode:407}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -40775,7 +41021,7 @@ _G.pg.base.item_data_statistics[41802] = {
 }
 
 _G.pg.base.item_data_statistics[41803] = {
-	display = "Z46赠送的情人节礼物",
+	display = "{namecode:412}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -41720,7 +41966,7 @@ _G.pg.base.item_data_statistics[41847] = {
 }
 
 _G.pg.base.item_data_statistics[41848] = {
-	display = "U-81赠送的情人节礼物",
+	display = "{namecode:414}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -41762,7 +42008,7 @@ _G.pg.base.item_data_statistics[41849] = {
 }
 
 _G.pg.base.item_data_statistics[41850] = {
-	display = "U-47赠送的情人节礼物",
+	display = "{namecode:413}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -41783,7 +42029,7 @@ _G.pg.base.item_data_statistics[41850] = {
 }
 
 _G.pg.base.item_data_statistics[41851] = {
-	display = "U-557赠送的情人节礼物",
+	display = "{namecode:415}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -41804,7 +42050,7 @@ _G.pg.base.item_data_statistics[41851] = {
 }
 
 _G.pg.base.item_data_statistics[41852] = {
-	display = "Z35赠送的情人节礼物",
+	display = "{namecode:410}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -41825,7 +42071,7 @@ _G.pg.base.item_data_statistics[41852] = {
 }
 
 _G.pg.base.item_data_statistics[41853] = {
-	display = "Z18赠送的情人节礼物",
+	display = "{namecode:404}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -42518,7 +42764,7 @@ _G.pg.base.item_data_statistics[41885] = {
 }
 
 _G.pg.base.item_data_statistics[41886] = {
-	display = "罗恩赠送的情人节礼物",
+	display = "{namecode:439}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -43568,7 +43814,7 @@ _G.pg.base.item_data_statistics[41936] = {
 }
 
 _G.pg.base.item_data_statistics[41937] = {
-	display = "Z2赠送的情人节礼物",
+	display = "{namecode:401}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -43589,7 +43835,7 @@ _G.pg.base.item_data_statistics[41937] = {
 }
 
 _G.pg.base.item_data_statistics[41938] = {
-	display = "Z36赠送的情人节礼物",
+	display = "{namecode:412}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -43610,7 +43856,7 @@ _G.pg.base.item_data_statistics[41938] = {
 }
 
 _G.pg.base.item_data_statistics[41939] = {
-	display = "希佩尔海军上将(μ兵装)赠送的情人节礼物",
+	display = "{namecode:451}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -43631,7 +43877,7 @@ _G.pg.base.item_data_statistics[41939] = {
 }
 
 _G.pg.base.item_data_statistics[41940] = {
-	display = "俾斯麦赠送的情人节礼物",
+	display = "{namecode:435}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -43652,7 +43898,7 @@ _G.pg.base.item_data_statistics[41940] = {
 }
 
 _G.pg.base.item_data_statistics[41941] = {
-	display = "小齐柏林赠送的情人节礼物",
+	display = "{namecode:469}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -43673,7 +43919,7 @@ _G.pg.base.item_data_statistics[41941] = {
 }
 
 _G.pg.base.item_data_statistics[41942] = {
-	display = "U-73赠送的情人节礼物",
+	display = "{namecode:417}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -43694,7 +43940,7 @@ _G.pg.base.item_data_statistics[41942] = {
 }
 
 _G.pg.base.item_data_statistics[41943] = {
-	display = "U-101赠送的情人节礼物",
+	display = "{namecode:418}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -43715,7 +43961,7 @@ _G.pg.base.item_data_statistics[41943] = {
 }
 
 _G.pg.base.item_data_statistics[41944] = {
-	display = "U-110赠送的情人节礼物",
+	display = "{namecode:420}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -43736,7 +43982,7 @@ _G.pg.base.item_data_statistics[41944] = {
 }
 
 _G.pg.base.item_data_statistics[41945] = {
-	display = "U-522赠送的情人节礼物",
+	display = "{namecode:419}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -43757,7 +44003,7 @@ _G.pg.base.item_data_statistics[41945] = {
 }
 
 _G.pg.base.item_data_statistics[41946] = {
-	display = "U-556赠送的情人节礼物",
+	display = "{namecode:416}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -44051,7 +44297,7 @@ _G.pg.base.item_data_statistics[41959] = {
 }
 
 _G.pg.base.item_data_statistics[41960] = {
-	display = "腓特烈大帝赠送的情人节礼物",
+	display = "{namecode:440}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -44241,8 +44487,8 @@ _G.pg.base.item_data_statistics[42004] = {
 }
 
 _G.pg.base.item_data_statistics[42005] = {
-	display = "铁血巡洋「罗恩」的设计蓝图。\n<color=#92fc63>获得「罗恩」后，可在「开发船坞」中用于增强「罗恩」的能力。</color>",
-	name = "蓝图：罗恩",
+	display = "铁血巡洋「{namecode:439}」的设计蓝图。\n<color=#92fc63>获得「{namecode:439}」后，可在「开发船坞」中用于增强「{namecode:439}」的能力。</color>",
+	name = "蓝图：{namecode:439}",
 	max_num = 0,
 	type = 12,
 	drop_oil_max = 0,
@@ -44457,8 +44703,8 @@ _G.pg.base.item_data_statistics[42014] = {
 }
 
 _G.pg.base.item_data_statistics[42015] = {
-	display = "铁血战列「腓特烈大帝」的设计蓝图。\n<color=#92fc63>获得「腓特烈大帝」后，可在「开发船坞」中用于增强「腓特烈大帝」的能力。</color>",
-	name = "蓝图：腓特烈大帝",
+	display = "铁血战列「{namecode:440}」的设计蓝图。\n<color=#92fc63>获得「{namecode:440}」后，可在「开发船坞」中用于增强「{namecode:440}」的能力。</color>",
+	name = "蓝图：{namecode:440}",
 	max_num = 0,
 	type = 12,
 	drop_oil_max = 0,
@@ -44677,8 +44923,8 @@ _G.pg.base.item_data_statistics[42022] = {
 }
 
 _G.pg.base.item_data_statistics[42023] = {
-	display = "铁血巡洋「美因茨」的设计蓝图。\n<color=#92fc63>获得「美因茨」后，可在「开发船坞」中用于增强「美因茨」的能力。</color>",
-	name = "蓝图：美因茨",
+	display = "铁血巡洋「{namecode:479}」的设计蓝图。\n<color=#92fc63>获得「{namecode:479}」后，可在「开发船坞」中用于增强「{namecode:479}」的能力。</color>",
+	name = "蓝图：{namecode:479}",
 	max_num = 0,
 	type = 12,
 	drop_oil_max = 0,
@@ -44701,8 +44947,8 @@ _G.pg.base.item_data_statistics[42023] = {
 }
 
 _G.pg.base.item_data_statistics[42024] = {
-	display = "铁血战巡「奥丁」的设计蓝图。\n<color=#92fc63>获得「奥丁」后，可在「开发船坞」中用于增强「奥丁」的能力。</color>",
-	name = "蓝图：奥丁",
+	display = "铁血战巡「{namecode:486}」的设计蓝图。\n<color=#92fc63>获得「{namecode:486}」后，可在「开发船坞」中用于增强「{namecode:486}」的能力。</color>",
+	name = "蓝图：{namecode:486}",
 	max_num = 0,
 	type = 12,
 	drop_oil_max = 0,
@@ -44941,8 +45187,8 @@ _G.pg.base.item_data_statistics[42032] = {
 }
 
 _G.pg.base.item_data_statistics[42033] = {
-	display = "铁血超巡「埃吉尔」的设计蓝图。\n<color=#92fc63>获得「埃吉尔」后，可在「开发船坞」中用于增强「埃吉尔」的能力。</color>",
-	name = "蓝图：埃吉尔",
+	display = "铁血超巡「{namecode:480}」的设计蓝图。\n<color=#92fc63>获得「{namecode:480}」后，可在「开发船坞」中用于增强「{namecode:480}」的能力。</color>",
+	name = "蓝图：{namecode:480}",
 	max_num = 0,
 	type = 12,
 	drop_oil_max = 0,
@@ -44965,8 +45211,8 @@ _G.pg.base.item_data_statistics[42033] = {
 }
 
 _G.pg.base.item_data_statistics[42034] = {
-	display = "铁血航母「奥古斯特·冯·帕塞瓦尔」的设计蓝图。\n<color=#92fc63>获得「奥古斯特·冯·帕塞瓦尔」后，可在「开发船坞」中用于增强「奥古斯特·冯·帕塞瓦尔」的能力。</color>",
-	name = "蓝图：奥古斯特·冯·帕塞瓦尔",
+	display = "铁血航母「{namecode:481}」的设计蓝图。\n<color=#92fc63>获得「{namecode:481}」后，可在「开发船坞」中用于增强「{namecode:481}」的能力。</color>",
+	name = "蓝图：{namecode:481}",
 	max_num = 0,
 	type = 12,
 	drop_oil_max = 0,
@@ -45206,8 +45452,8 @@ _G.pg.base.item_data_statistics[42041] = {
 }
 
 _G.pg.base.item_data_statistics[42042] = {
-	display = "铁血战巡「鲁普雷希特亲王」的设计蓝图。\n<color=#92fc63>获得「鲁普雷希特亲王」后，可在「开发船坞」中用于增强「鲁普雷希特亲王」的能力。</color>",
-	name = "蓝图：鲁普雷希特亲王",
+	display = "铁血战巡「{namecode:484}」的设计蓝图。\n<color=#92fc63>获得「{namecode:484}」后，可在「开发船坞」中用于增强「{namecode:484}」的能力。</color>",
+	name = "蓝图：{namecode:484}",
 	max_num = 0,
 	type = 12,
 	drop_oil_max = 0,
@@ -51323,7 +51569,7 @@ _G.pg.base.item_data_statistics[43284] = {
 }
 
 _G.pg.base.item_data_statistics[43285] = {
-	display = "Z1赠送的情人节礼物",
+	display = "{namecode:400}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51344,7 +51590,7 @@ _G.pg.base.item_data_statistics[43285] = {
 }
 
 _G.pg.base.item_data_statistics[43286] = {
-	display = "Z2赠送的情人节礼物",
+	display = "{namecode:401}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51365,7 +51611,7 @@ _G.pg.base.item_data_statistics[43286] = {
 }
 
 _G.pg.base.item_data_statistics[43287] = {
-	display = "Z18赠送的情人节礼物",
+	display = "{namecode:404}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51386,7 +51632,7 @@ _G.pg.base.item_data_statistics[43287] = {
 }
 
 _G.pg.base.item_data_statistics[43288] = {
-	display = "Z19赠送的情人节礼物",
+	display = "{namecode:405}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51407,7 +51653,7 @@ _G.pg.base.item_data_statistics[43288] = {
 }
 
 _G.pg.base.item_data_statistics[43289] = {
-	display = "Z20赠送的情人节礼物",
+	display = "{namecode:406}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51428,7 +51674,7 @@ _G.pg.base.item_data_statistics[43289] = {
 }
 
 _G.pg.base.item_data_statistics[43290] = {
-	display = "Z21赠送的情人节礼物",
+	display = "{namecode:407}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51449,7 +51695,7 @@ _G.pg.base.item_data_statistics[43290] = {
 }
 
 _G.pg.base.item_data_statistics[43291] = {
-	display = "Z23赠送的情人节礼物",
+	display = "{namecode:408}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51470,7 +51716,7 @@ _G.pg.base.item_data_statistics[43291] = {
 }
 
 _G.pg.base.item_data_statistics[43292] = {
-	display = "Z25赠送的情人节礼物",
+	display = "{namecode:409}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51491,7 +51737,7 @@ _G.pg.base.item_data_statistics[43292] = {
 }
 
 _G.pg.base.item_data_statistics[43293] = {
-	display = "Z35赠送的情人节礼物",
+	display = "{namecode:410}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51512,7 +51758,7 @@ _G.pg.base.item_data_statistics[43293] = {
 }
 
 _G.pg.base.item_data_statistics[43294] = {
-	display = "Z36赠送的情人节礼物",
+	display = "{namecode:412}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51533,7 +51779,7 @@ _G.pg.base.item_data_statistics[43294] = {
 }
 
 _G.pg.base.item_data_statistics[43295] = {
-	display = "Z46赠送的情人节礼物",
+	display = "{namecode:412}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51554,7 +51800,7 @@ _G.pg.base.item_data_statistics[43295] = {
 }
 
 _G.pg.base.item_data_statistics[43296] = {
-	display = "柯尼斯堡赠送的情人节礼物",
+	display = "{namecode:421}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51575,7 +51821,7 @@ _G.pg.base.item_data_statistics[43296] = {
 }
 
 _G.pg.base.item_data_statistics[43297] = {
-	display = "卡尔斯鲁厄赠送的情人节礼物",
+	display = "{namecode:422}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51596,7 +51842,7 @@ _G.pg.base.item_data_statistics[43297] = {
 }
 
 _G.pg.base.item_data_statistics[43298] = {
-	display = "科隆赠送的情人节礼物",
+	display = "{namecode:423}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51617,7 +51863,7 @@ _G.pg.base.item_data_statistics[43298] = {
 }
 
 _G.pg.base.item_data_statistics[43299] = {
-	display = "莱比锡赠送的情人节礼物",
+	display = "{namecode:424}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51638,7 +51884,7 @@ _G.pg.base.item_data_statistics[43299] = {
 }
 
 _G.pg.base.item_data_statistics[43300] = {
-	display = "希佩尔海军上将赠送的情人节礼物",
+	display = "{namecode:425}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51659,7 +51905,7 @@ _G.pg.base.item_data_statistics[43300] = {
 }
 
 _G.pg.base.item_data_statistics[43301] = {
-	display = "欧根亲王赠送的情人节礼物",
+	display = "{namecode:427}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51680,7 +51926,7 @@ _G.pg.base.item_data_statistics[43301] = {
 }
 
 _G.pg.base.item_data_statistics[43302] = {
-	display = "德意志赠送的情人节礼物",
+	display = "{namecode:429}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51701,7 +51947,7 @@ _G.pg.base.item_data_statistics[43302] = {
 }
 
 _G.pg.base.item_data_statistics[43303] = {
-	display = "斯佩伯爵海军上将赠送的情人节礼物",
+	display = "{namecode:430}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51722,7 +51968,7 @@ _G.pg.base.item_data_statistics[43303] = {
 }
 
 _G.pg.base.item_data_statistics[43304] = {
-	display = "希佩尔海军上将(μ兵装)赠送的情人节礼物",
+	display = "{namecode:451}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51743,7 +51989,7 @@ _G.pg.base.item_data_statistics[43304] = {
 }
 
 _G.pg.base.item_data_statistics[43305] = {
-	display = "沙恩霍斯特赠送的情人节礼物",
+	display = "{namecode:433}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51764,7 +52010,7 @@ _G.pg.base.item_data_statistics[43305] = {
 }
 
 _G.pg.base.item_data_statistics[43306] = {
-	display = "格奈森瑙赠送的情人节礼物",
+	display = "{namecode:434}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51785,7 +52031,7 @@ _G.pg.base.item_data_statistics[43306] = {
 }
 
 _G.pg.base.item_data_statistics[43307] = {
-	display = "俾斯麦赠送的情人节礼物",
+	display = "{namecode:435}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51806,7 +52052,7 @@ _G.pg.base.item_data_statistics[43307] = {
 }
 
 _G.pg.base.item_data_statistics[43308] = {
-	display = "提尔比茨赠送的情人节礼物",
+	display = "{namecode:436}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51827,7 +52073,7 @@ _G.pg.base.item_data_statistics[43308] = {
 }
 
 _G.pg.base.item_data_statistics[43309] = {
-	display = "齐柏林伯爵赠送的情人节礼物",
+	display = "{namecode:437}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51848,7 +52094,7 @@ _G.pg.base.item_data_statistics[43309] = {
 }
 
 _G.pg.base.item_data_statistics[43310] = {
-	display = "小齐柏林赠送的情人节礼物",
+	display = "{namecode:469}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51869,7 +52115,7 @@ _G.pg.base.item_data_statistics[43310] = {
 }
 
 _G.pg.base.item_data_statistics[43311] = {
-	display = "U-81赠送的情人节礼物",
+	display = "{namecode:414}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51890,7 +52136,7 @@ _G.pg.base.item_data_statistics[43311] = {
 }
 
 _G.pg.base.item_data_statistics[43312] = {
-	display = "U-47赠送的情人节礼物",
+	display = "{namecode:413}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51911,7 +52157,7 @@ _G.pg.base.item_data_statistics[43312] = {
 }
 
 _G.pg.base.item_data_statistics[43313] = {
-	display = "U-557赠送的情人节礼物",
+	display = "{namecode:415}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51932,7 +52178,7 @@ _G.pg.base.item_data_statistics[43313] = {
 }
 
 _G.pg.base.item_data_statistics[43314] = {
-	display = "U-556赠送的情人节礼物",
+	display = "{namecode:416}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51953,7 +52199,7 @@ _G.pg.base.item_data_statistics[43314] = {
 }
 
 _G.pg.base.item_data_statistics[43315] = {
-	display = "U-73赠送的情人节礼物",
+	display = "{namecode:417}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51974,7 +52220,7 @@ _G.pg.base.item_data_statistics[43315] = {
 }
 
 _G.pg.base.item_data_statistics[43316] = {
-	display = "U-101赠送的情人节礼物",
+	display = "{namecode:418}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -51995,7 +52241,7 @@ _G.pg.base.item_data_statistics[43316] = {
 }
 
 _G.pg.base.item_data_statistics[43317] = {
-	display = "U-522赠送的情人节礼物",
+	display = "{namecode:419}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -52016,7 +52262,7 @@ _G.pg.base.item_data_statistics[43317] = {
 }
 
 _G.pg.base.item_data_statistics[43318] = {
-	display = "U-110赠送的情人节礼物",
+	display = "{namecode:420}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -52646,7 +52892,7 @@ _G.pg.base.item_data_statistics[43347] = {
 }
 
 _G.pg.base.item_data_statistics[43348] = {
-	display = "罗恩赠送的情人节礼物",
+	display = "{namecode:439}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -52772,7 +53018,7 @@ _G.pg.base.item_data_statistics[43353] = {
 }
 
 _G.pg.base.item_data_statistics[43354] = {
-	display = "腓特烈大帝赠送的情人节礼物",
+	display = "{namecode:440}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -53591,7 +53837,7 @@ _G.pg.base.item_data_statistics[43392] = {
 }
 
 _G.pg.base.item_data_statistics[43393] = {
-	display = "Z26赠送的情人节礼物",
+	display = "{namecode:444}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -53612,7 +53858,7 @@ _G.pg.base.item_data_statistics[43393] = {
 }
 
 _G.pg.base.item_data_statistics[43394] = {
-	display = "U-96赠送的情人节礼物",
+	display = "{namecode:473}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -53759,7 +54005,7 @@ _G.pg.base.item_data_statistics[43400] = {
 }
 
 _G.pg.base.item_data_statistics[43401] = {
-	display = "罗恩(μ兵装)赠送的情人节礼物",
+	display = "{namecode:452}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -53801,7 +54047,7 @@ _G.pg.base.item_data_statistics[43402] = {
 }
 
 _G.pg.base.item_data_statistics[43403] = {
-	display = "奥丁赠送的情人节礼物",
+	display = "{namecode:486}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -53822,7 +54068,7 @@ _G.pg.base.item_data_statistics[43403] = {
 }
 
 _G.pg.base.item_data_statistics[43404] = {
-	display = "美因茨赠送的情人节礼物",
+	display = "{namecode:479}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -54116,7 +54362,7 @@ _G.pg.base.item_data_statistics[43417] = {
 }
 
 _G.pg.base.item_data_statistics[43418] = {
-	display = "彼得·史特拉塞赠送的情人节礼物",
+	display = "{namecode:470}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -54137,7 +54383,7 @@ _G.pg.base.item_data_statistics[43418] = {
 }
 
 _G.pg.base.item_data_statistics[43419] = {
-	display = "威悉赠送的情人节礼物",
+	display = "{namecode:467}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -54158,7 +54404,7 @@ _G.pg.base.item_data_statistics[43419] = {
 }
 
 _G.pg.base.item_data_statistics[43420] = {
-	display = "海因里希亲王赠送的情人节礼物",
+	display = "{namecode:453}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -54179,7 +54425,7 @@ _G.pg.base.item_data_statistics[43420] = {
 }
 
 _G.pg.base.item_data_statistics[43421] = {
-	display = "Z24赠送的情人节礼物",
+	display = "{namecode:443}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -54200,7 +54446,7 @@ _G.pg.base.item_data_statistics[43421] = {
 }
 
 _G.pg.base.item_data_statistics[43422] = {
-	display = "Z28赠送的情人节礼物",
+	display = "{namecode:445}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -54221,7 +54467,7 @@ _G.pg.base.item_data_statistics[43422] = {
 }
 
 _G.pg.base.item_data_statistics[43423] = {
-	display = "U-37赠送的情人节礼物",
+	display = "{namecode:474}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -54347,7 +54593,7 @@ _G.pg.base.item_data_statistics[43428] = {
 }
 
 _G.pg.base.item_data_statistics[43429] = {
-	display = "U-410赠送的情人节礼物",
+	display = "{namecode:475}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -54389,7 +54635,7 @@ _G.pg.base.item_data_statistics[43430] = {
 }
 
 _G.pg.base.item_data_statistics[43431] = {
-	display = "纽伦堡赠送的情人节礼物",
+	display = "{namecode:446}赠送的情人节礼物",
 	name = "情人节礼物",
 	max_num = 0,
 	type = 1,
@@ -185376,6 +185622,194 @@ _G.pg.base.item_data_statistics[58835] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[58836] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58836,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			11042,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58837] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58837,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			11042,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58838] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58838,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10122,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58839] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58839,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			76,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "参与角色将获得经验值",
 	name = "角色经验",
@@ -187519,7 +187953,7 @@ _G.pg.base.item_data_statistics[59193] = {
 }
 
 _G.pg.base.item_data_statistics[59194] = {
-	display = "收集7次后，可以得到限定角色「Z28」",
+	display = "收集7次后，可以得到限定角色「{namecode:445}」",
 	name = "美食券",
 	max_num = 0,
 	type = 0,
@@ -188842,7 +189276,7 @@ _G.pg.base.item_data_statistics[59259] = {
 }
 
 _G.pg.base.item_data_statistics[59260] = {
-	display = "收集7次后，可以获取限定角色「Z28」",
+	display = "收集7次后，可以获取限定角色「{namecode:445}」",
 	name = "烟花券",
 	max_num = 0,
 	type = 0,
@@ -190417,7 +190851,7 @@ _G.pg.base.item_data_statistics[59349] = {
 }
 
 _G.pg.base.item_data_statistics[59350] = {
-	display = "用于「“围剿”小斯佩伯爵」活动提升角色好感，活动结束后将会消失",
+	display = "用于「“围剿”{namecode:459}伯爵」活动提升角色好感，活动结束后将会消失",
 	name = "情报点",
 	max_num = 0,
 	type = 98,
@@ -191296,6 +191730,69 @@ _G.pg.base.item_data_statistics[59402] = {
 	id = 59402,
 	is_world = 0,
 	icon = "Props/commission_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59403] = {
+	display = "参与「世界巡游」(2023.4.1~2023.5.31)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
+	name = "巡游点数",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59403,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59404] = {
+	display = "不该被看到",
+	name = "通行证十期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 21,
+	link_id = 7010,
+	id = 59404,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59405] = {
+	display = "用于「极地风暴」活动，活动结束后将会消失",
+	name = "极地风暴Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59405,
+	is_world = 0,
+	icon = "Props/jidifengbao_pt",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -193718,7 +194215,7 @@ _G.pg.base.item_data_statistics[59774] = {
 
 _G.pg.base.item_data_statistics[59775] = {
 	display = "收集7枚后，可以得到限定设备《约定的证明》",
-	name = "U556的勋章",
+	name = "{namecode:416}的勋章",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -196760,7 +197257,7 @@ _G.pg.base.item_data_statistics[59979] = {
 
 _G.pg.base.item_data_statistics[59981] = {
 	display = "收集7枚后，可以得到限定设备《约定的证明》",
-	name = "U556的勋章",
+	name = "{namecode:416}的勋章",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -200287,8 +200784,8 @@ _G.pg.base.item_data_statistics[60212] = {
 }
 
 _G.pg.base.item_data_statistics[60213] = {
-	display = "由提尔比茨处收到的，新年年贺状",
-	name = "提尔比茨的年贺状",
+	display = "由{namecode:436}处收到的，新年年贺状",
+	name = "{namecode:436}的年贺状",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -200770,8 +201267,8 @@ _G.pg.base.item_data_statistics[60235] = {
 }
 
 _G.pg.base.item_data_statistics[60236] = {
-	display = "由提尔比茨赠与的，作为宴会邀约的回礼",
-	name = "提尔比茨的回礼",
+	display = "由{namecode:436}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:436}的回礼",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -200791,8 +201288,8 @@ _G.pg.base.item_data_statistics[60236] = {
 }
 
 _G.pg.base.item_data_statistics[60237] = {
-	display = "由齐柏林伯爵赠与的，作为宴会邀约的回礼",
-	name = "齐柏林伯爵的回礼",
+	display = "由{namecode:437}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:437}的回礼",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -201442,8 +201939,8 @@ _G.pg.base.item_data_statistics[60276] = {
 }
 
 _G.pg.base.item_data_statistics[60277] = {
-	display = "由齐柏林伯爵处收到的，新年年贺状",
-	name = "齐柏林伯爵的年贺状",
+	display = "由{namecode:437}处收到的，新年年贺状",
+	name = "{namecode:437}的年贺状",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -201652,8 +202149,8 @@ _G.pg.base.item_data_statistics[60291] = {
 }
 
 _G.pg.base.item_data_statistics[60292] = {
-	display = "由U-110处收到的，春节贺年卡",
-	name = "U-110的贺年卡",
+	display = "由{namecode:420}处收到的，春节贺年卡",
+	name = "{namecode:420}的贺年卡",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -202051,7 +202548,7 @@ _G.pg.base.item_data_statistics[69902] = {
 （<color=#92fc63>9.5%</color>）茗换装  黑猫来袭！；
 （<color=#92fc63>9.5%</color>）女将换装  小小的管弦乐队；
 （<color=#92fc63>9.5%</color>）南达科他换装  剧场上的独奏；
-（<color=#92fc63>9.5%</color>）U-81换装  静谧小夜曲；
+（<color=#92fc63>9.5%</color>）{namecode:414}换装  静谧小夜曲；
 （<color=#92fc63>9.5%</color>）光辉换装  光辉的舞会；]],
 	name = "随机换装",
 	max_num = 0,
@@ -202141,15 +202638,15 @@ _G.pg.base.item_data_statistics[69905] = {
 	display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
-（<color=#92fc63>7.2%</color>）俾斯麦换装  铁血的辉光（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.2%</color>）{namecode:435}换装  铁血的辉光（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>7.8%</color>）皇家方舟换装  晚会的守护者（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>9.5%</color>）乔治五世换装  温莎的玫瑰；
 （<color=#92fc63>9.5%</color>）佐治亚换装  南方的黑珍珠；
-（<color=#92fc63>11.0%</color>）Z23换装  宴会上的优等生；
+（<color=#92fc63>11.0%</color>）{namecode:408}换装  宴会上的优等生；
 （<color=#92fc63>11.0%</color>）海伦娜换装  与君共舞；
 （<color=#92fc63>11.0%</color>）大黄蜂换装  Bubbly Anniversary！；
 （<color=#92fc63>11.0%</color>）约克城换装  优雅与朦胧之夜；
-（<color=#92fc63>11.0%</color>）斯佩伯爵换装  未知的晚会；
+（<color=#92fc63>11.0%</color>）{namecode:431}换装  未知的晚会；
 （<color=#92fc63>11.0%</color>）栴换装  晚会幸运星！；]],
 	name = "随机二周年换装",
 	max_num = 0,
@@ -202175,16 +202672,16 @@ _G.pg.base.item_data_statistics[69906] = {
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
 （<color=#92fc63>7.0%</color>）鹬换装  散花舞鹤（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9.2%</color>）U-47换装  静谧一隅；
-（<color=#92fc63>9.2%</color>）欧根亲王换装  Wein Kornblume；
-（<color=#92fc63>9.2%</color>）提尔比茨换装  铁血的冰风；
+（<color=#92fc63>9.2%</color>）{namecode:413}换装  静谧一隅；
+（<color=#92fc63>9.2%</color>）{namecode:427}换装  Wein Kornblume；
+（<color=#92fc63>9.2%</color>）{namecode:436}换装  铁血的冰风；
 （<color=#92fc63>9.2%</color>）峦换装  轻扬的风花；
 （<color=#92fc63>9.2%</color>）西雅图换装  绚烂的盛宴；
 （<color=#92fc63>9.2%</color>）椿换装  肉肉之宴！；
 （<color=#92fc63>9.2%</color>）贝尔法斯特换装  优雅而高贵的从者；
 （<color=#92fc63>9.2%</color>）让巴尔换装  不羁的BloodStone；
-（<color=#92fc63>9.2%</color>）罗恩换装  暗红色的微笑；
-（<color=#92fc63>10.2%</color>）德意志换装  魔姬的夜宴；]],
+（<color=#92fc63>9.2%</color>）{namecode:439}换装  暗红色的微笑；
+（<color=#92fc63>10.2%</color>）{namecode:429}换装  魔姬的夜宴；]],
 	name = "随机国庆换装",
 	max_num = 0,
 	type = 98,
@@ -202211,11 +202708,11 @@ _G.pg.base.item_data_statistics[69908] = {
 （<color=#92fc63>8.0%</color>）鸗换装 凤舞新年（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>8.0%</color>）鲪换装  百花庆云（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>8.0%</color>）貅换装 祭典的秘境?（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>7.4%</color>）腓特烈大帝换装  雅乐的黯衣；
+（<color=#92fc63>7.4%</color>）{namecode:440}换装  雅乐的黯衣；
 （<color=#92fc63>7.4%</color>）鲨换装  御狐的辉振袖；
 （<color=#92fc63>6.8%</color>）栀换装  正月小恶魔；
 （<color=#92fc63>6.8%</color>）独角兽换装  祈愿的雪与梅；
-（<color=#92fc63>6.8%</color>）Z35换装  projekt Kirschblüte；
+（<color=#92fc63>6.8%</color>）{namecode:410}换装  projekt Kirschblüte；
 （<color=#92fc63>6.8%</color>）鳗换装  随性的闪耀之星；
 （<color=#92fc63>6.8%</color>）柚换装  新年的愿望；
 （<color=#92fc63>6.8%</color>）南安普顿换装  正月的LittleKnight；
@@ -202252,12 +202749,12 @@ _G.pg.base.item_data_statistics[69909] = {
 （<color=#92fc63>6.6%</color>）确捷换装  白玉佳人；
 （<color=#92fc63>6.6%</color>）峦换装  新桃换旧符；
 （<color=#92fc63>6.6%</color>）光辉换装  钟情春日；
-（<color=#92fc63>5.7%</color>）德意志换装  华灯下的支配者；
+（<color=#92fc63>5.7%</color>）{namecode:429}换装  华灯下的支配者；
 （<color=#92fc63>5.7%</color>）黑太子换装  Fairmaid·Spring；
 （<color=#92fc63>5.7%</color>）鲟换装  红梅垂香；
 （<color=#92fc63>5.7%</color>）比洛克西换装  俊俏丽人；
 （<color=#92fc63>5.7%</color>）格洛斯特换装  绛紫奢情；
-（<color=#92fc63>5.7%</color>）沙恩霍斯特换装  雪豹与白梅；
+（<color=#92fc63>5.7%</color>）{namecode:433}换装  雪豹与白梅；
 （<color=#92fc63>5.7%</color>）哈尔西·鲍威尔换装  春节小福星！；
 （<color=#92fc63>5.6%</color>）平海换装  美食大远征！；
 （<color=#92fc63>5.6%</color>）宁海换装  新年旅游！；]],
@@ -202331,7 +202828,7 @@ _G.pg.base.item_data_statistics[69911] = {
 （<color=#92fc63>5.8%</color>）独立换装 「独立」品牌；
 （<color=#92fc63>5.4%</color>）{namecode:129}换装 吉时祝宴；
 （<color=#92fc63>5.4%</color>）{namecode:31}换装 四季团圆；
-（<color=#92fc63>5.4%</color>）U-110换装 鲨鱼小可爱；
+（<color=#92fc63>5.4%</color>）{namecode:420}换装 鲨鱼小可爱；
 （<color=#92fc63>5.4%</color>）{namecode:72}换装 绯红Innocence；
 （<color=#92fc63>5.4%</color>）威奇塔换装 “将军”的晚宴；
 （<color=#92fc63>5.4%</color>）{namecode:13}换装 晨曦精灵Ikatuchi；
@@ -202360,25 +202857,25 @@ _G.pg.base.item_data_statistics[69912] = {
 	display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
-（<color=#92fc63>8.0%</color>）彼得·史特拉塞换装 节庆的Chronos（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.0%</color>）{namecode:470}换装 节庆的Chronos（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>8.0%</color>）让巴尔换装  舶刀Première neige（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>8.0%</color>）黎塞留换装 常緑Rêve prophétique（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>5.0%</color>）奥丁换装  挥毫苍雪；
-（<color=#92fc63>5.0%</color>）提尔比茨换装  松之节句、白之冰华；
+（<color=#92fc63>5.0%</color>）{namecode:486}换装  挥毫苍雪；
+（<color=#92fc63>5.0%</color>）{namecode:436}换装  松之节句、白之冰华；
 （<color=#92fc63>5.0%</color>）香槟换装  初梦蓝彩；
 （<color=#92fc63>5.0%</color>）贝尔法斯特换装  倾城之华扇；
 （<color=#92fc63>5.0%</color>）佐治亚换装  雅色彩华；
 （<color=#92fc63>5.0%</color>）{namecode:27}换装  新年板羽球大战！；
-（<color=#92fc63>5.0%</color>）海因里希亲王换装  花火烂漫的春绘卷；
-（<color=#92fc63>5.0%</color>）U-37换装  轻弹浅唱正月时；
-（<color=#92fc63>4.5%</color>）纽伦堡换装  正月的漫游；
-（<color=#92fc63>4.5%</color>）威悉换装  暗金绣色；
-（<color=#92fc63>4.5%</color>）Z24换装  「魔王」的祝祭；
+（<color=#92fc63>5.0%</color>）{namecode:453}换装  花火烂漫的春绘卷；
+（<color=#92fc63>5.0%</color>）{namecode:474}换装  轻弹浅唱正月时；
+（<color=#92fc63>4.5%</color>）{namecode:446}换装  正月的漫游；
+（<color=#92fc63>4.5%</color>）{namecode:467}换装  暗金绣色；
+（<color=#92fc63>4.5%</color>）{namecode:443}换装  「魔王」的祝祭；
 （<color=#92fc63>4.5%</color>）{namecode:72}换装  雅致莲华；
 （<color=#92fc63>4.5%</color>）比洛克西换装  绚烂缤纷花火夜；
 （<color=#92fc63>4.5%</color>）{namecode:145}换装  雪朝与铃；
-（<color=#92fc63>4.5%</color>）Z28换装  新年大杂烩！；
-（<color=#92fc63>4.5%</color>）U-110换装  小鲨鱼的初梦；]],
+（<color=#92fc63>4.5%</color>）{namecode:445}换装  新年大杂烩！；
+（<color=#92fc63>4.5%</color>）{namecode:420}换装  小鲨鱼的初梦；]],
 	name = "随机新年换装2021",
 	max_num = 0,
 	type = 98,
@@ -202406,7 +202903,7 @@ _G.pg.base.item_data_statistics[69913] = {
 （<color=#92fc63>6.5%</color>）布莱默顿换装  功夫少女！（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>6.0%</color>）拉·加利索尼埃换装 春晓醉梦（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>6.0%</color>）光荣换装  凉夜香雪（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>5.4%</color>）Z46换装  剪纸幻梦；
+（<color=#92fc63>5.4%</color>）{namecode:412}换装  剪纸幻梦；
 （<color=#92fc63>5.4%</color>）埃塞克斯换装  笔墨乾坤；
 （<color=#92fc63>5.4%</color>）路易九世换装  瑰丽的执勤人；
 （<color=#92fc63>5.4%</color>）胜利换装  春之女神的引导；
@@ -202420,7 +202917,7 @@ _G.pg.base.item_data_statistics[69913] = {
 （<color=#92fc63>4.8%</color>）{namecode:146}换装  新春福至；
 （<color=#92fc63>4.8%</color>）肇和换装  花枝映荷；
 （<color=#92fc63>4.8%</color>）佩内洛珀换装  嫣红深闺；
-（<color=#92fc63>4.8%</color>）U-410换装  寒梅映春]],
+（<color=#92fc63>4.8%</color>）{namecode:475}换装  寒梅映春]],
 	name = "随机春节换装2021",
 	max_num = 0,
 	type = 98,
@@ -202444,7 +202941,7 @@ _G.pg.base.item_data_statistics[69914] = {
 	display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
-（<color=#92fc63>12.5%</color>）威悉换装 黯调铅华（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.5%</color>）{namecode:467}换装 黯调铅华（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>13.1%</color>）可畏换装   梳妆的“大小姐”；
 （<color=#92fc63>13.1%</color>）赫敏换装 女仆的优雅午后；
 （<color=#92fc63>13.1%</color>）蒙彼利埃换装  魔境的公主？；
@@ -202477,7 +202974,7 @@ _G.pg.base.item_data_statistics[69915] = {
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
 （<color=#92fc63>13.0%</color>）柴郡换装 冰雪公主；（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12.0%</color>）彼得·史特拉塞换装   Weiß Uhrzeiger；
+（<color=#92fc63>12.0%</color>）{namecode:470}换装   Weiß Uhrzeiger；
 （<color=#92fc63>12.0%</color>）天鹰换装  绿苑的优雅花园；
 （<color=#92fc63>10.7%</color>）圣胡安换装 Loinging Princess；
 （<color=#92fc63>10.7%</color>）文琴佐·焦贝蒂换装  “淑女”的邀约；
@@ -202509,23 +203006,23 @@ _G.pg.base.item_data_statistics[69916] = {
 	display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
-（<color=#92fc63>8.0%</color>）乌尔里希·冯·胡滕换装 Mädchen Trümmer（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8.0%</color>）阿达尔伯特亲王换装  闭店后的特别时光（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.0%</color>）{namecode:465}换装 Mädchen Trümmer（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.0%</color>）{namecode:455}换装  闭店后的特别时光（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>8.0%</color>）伊丽莎白女王换装 Maid·My·Highness（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>5.0%</color>）马格德堡 换装  扫除？喵喵骚乱！；
-（<color=#92fc63>5.0%</color>）奥古斯特·冯·帕塞瓦尔换装  女仆魔女；
+（<color=#92fc63>5.0%</color>）{namecode:447} 换装  扫除？喵喵骚乱！；
+（<color=#92fc63>5.0%</color>）{namecode:481}换装  女仆魔女；
 （<color=#92fc63>5.0%</color>）{namecode:204}换装  快刀女仆？；
-（<color=#92fc63>5.0%</color>）Z46换装  无尽的尘埃之战；
-（<color=#92fc63>5.0%</color>）俾斯麦换装  黑铁·至福乐土；
+（<color=#92fc63>5.0%</color>）{namecode:412}换装  无尽的尘埃之战；
+（<color=#92fc63>5.0%</color>）{namecode:435}换装  黑铁·至福乐土；
 （<color=#92fc63>5.0%</color>）大青花鱼换装  箱子里的“惊喜”；
 （<color=#92fc63>5.0%</color>）豪换装  Cookie·Maid·Princess；
 （<color=#92fc63>5.0%</color>）{namecode:69}换装  清心风景；
 （<color=#92fc63>5.0%</color>）{namecode:50}换装  需要少冰吗？；
 （<color=#92fc63>5.0%</color>）马可波罗换装  Lovely Million；
-（<color=#92fc63>4.5%</color>）U-47换装  女仆极速达；
-（<color=#92fc63>4.4%</color>）易北换装  错失的高光时刻？；
-（<color=#92fc63>4.4%</color>）U-1206换装  需要服务请按铃！；
-（<color=#92fc63>4.4%</color>）莱比锡换装  前台接待·练习中；
+（<color=#92fc63>4.5%</color>）{namecode:413}换装  女仆极速达；
+（<color=#92fc63>4.4%</color>）{namecode:468}换装  错失的高光时刻？；
+（<color=#92fc63>4.4%</color>）{namecode:476}换装  需要服务请按铃！；
+（<color=#92fc63>4.4%</color>）{namecode:424}换装  前台接待·练习中；
 （<color=#92fc63>4.4%</color>）伊卡洛斯换装  女仆与猫与下午茶；
 （<color=#92fc63>3.9%</color>）佩内洛珀换装  盐系女仆？；]],
 	name = "随机新年换装2022",
@@ -202592,9 +203089,9 @@ _G.pg.base.item_data_statistics[69919] = {
 	display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
-（<color=#92fc63>13.0%</color>）罗恩换装 苍翠的安眠曲<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>13.0%</color>）{namecode:439}换装 苍翠的安眠曲<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>15.0%</color>）豪换装   奢华之夜宴；
-（<color=#92fc63>15.0%</color>）提尔比茨换装 独秀的冰华；
+（<color=#92fc63>15.0%</color>）{namecode:436}换装 独秀的冰华；
 （<color=#92fc63>15.0%</color>）华盛顿换装  微笑嘉年华；
 （<color=#92fc63>14.0%</color>）{namecode:197}换装  翠玉的海人鱼；
 （<color=#92fc63>14.0%</color>）{namecode:103}换装  水墨丽色；
@@ -202625,12 +203122,12 @@ _G.pg.base.item_data_statistics[69920] = {
 包含的换装和概率如下：
 （<color=#92fc63>13.0%</color>）{namecode:188}换装 绊倒的迷糊女仆<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>12.0%</color>）海王星换装   海洋女王的迎接；
-（<color=#92fc63>12.0%</color>）塞德利茨换装 绽放的苍之华；
+（<color=#92fc63>12.0%</color>）{namecode:460}换装 绽放的苍之华；
 （<color=#92fc63>11.5%</color>）卡律布狄斯换装  霞辉之华裳；
 （<color=#92fc63>11.5%</color>）{namecode:74}换装  神子的华服；
 （<color=#92fc63>10.0%</color>）朱诺换装  白鸟花园之约；
 （<color=#92fc63>10.0%</color>）镇海换装  潋滟水色；
-（<color=#92fc63>10.0%</color>）Z28换装  森林中的派对；
+（<color=#92fc63>10.0%</color>）{namecode:445}换装  森林中的派对；
 （<color=#92fc63>10.0%</color>）马耶·布雷泽换装  糖分小憩
 ]],
 	name = "随机金秋庆典换装",
@@ -202709,7 +203206,7 @@ _G.pg.base.item_data_statistics[69923] = {
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
 （<color=#92fc63>12.0%</color>）{namecode:50}换装 阳光·沙滩·假日<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12.0%</color>）海因里希亲王换装 泳池边的救生兔(?)<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.0%</color>）{namecode:453}换装 泳池边的救生兔(?)<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>12.0%</color>）{namecode:203}换装 烟火之夜、静谧之海；
 （<color=#92fc63>13.1%</color>）普利茅斯换装  无暇的夏之心；
 （<color=#92fc63>13.1%</color>）卡律布狄斯换装 清凉的水花；
@@ -202772,12 +203269,12 @@ _G.pg.base.item_data_statistics[69925] = {
 	display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
-（<color=#92fc63>12.0%</color>）鲁普雷希特亲王换装 腾龙戏春？（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12.0%</color>）埃吉尔换装 金龙腾祥云（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>16.1%</color>）U-47换装 锦鲤捕获作战；
-（<color=#92fc63>15.8%</color>）吕佐夫换装 请趁热享用?；
+（<color=#92fc63>12.0%</color>）{namecode:484}亲王换装 腾龙戏春？（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.0%</color>）{namecode:480}换装 金龙腾祥云（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>16.1%</color>）{namecode:413}换装 锦鲤捕获作战；
+（<color=#92fc63>15.8%</color>）{namecode:461}换装 请趁热享用?；
 （<color=#92fc63>15.8%</color>）阿拉巴马换装 金锱银铢；
-（<color=#92fc63>14.3%</color>）U-110换装 雪地小鲨鱼；
+（<color=#92fc63>14.3%</color>）{namecode:408}换装 雪地小鲨鱼；
 （<color=#92fc63>14.0%</color>）不屈换装 寒冬全力配送中！；
 ]],
 	name = "随机春节换装2023②",
@@ -203493,8 +203990,8 @@ _G.pg.base.item_data_statistics[70032] = {
 }
 
 _G.pg.base.item_data_statistics[70033] = {
-	display = "可用于解锁「海报·希佩尔」",
-	name = "海报·希佩尔",
+	display = "可用于解锁「海报·{namecode:426}」",
+	name = "海报·{namecode:426}",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -203514,8 +204011,8 @@ _G.pg.base.item_data_statistics[70033] = {
 }
 
 _G.pg.base.item_data_statistics[70034] = {
-	display = "可用于解锁「贴纸·希佩尔」",
-	name = "贴纸·希佩尔",
+	display = "可用于解锁「贴纸·{namecode:426}」",
+	name = "贴纸·{namecode:426}",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -203535,8 +204032,8 @@ _G.pg.base.item_data_statistics[70034] = {
 }
 
 _G.pg.base.item_data_statistics[70035] = {
-	display = "可用于解锁「徽章·希佩尔」",
-	name = "徽章·希佩尔",
+	display = "可用于解锁「徽章·{namecode:426}」",
+	name = "徽章·{namecode:426}",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -203934,8 +204431,8 @@ _G.pg.base.item_data_statistics[70058] = {
 }
 
 _G.pg.base.item_data_statistics[70059] = {
-	display = "可用于解锁「邮票·罗恩」",
-	name = "邮票·罗恩",
+	display = "可用于解锁「邮票·{namecode:439}」",
+	name = "邮票·{namecode:439}",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,
@@ -203976,8 +204473,8 @@ _G.pg.base.item_data_statistics[70060] = {
 }
 
 _G.pg.base.item_data_statistics[70061] = {
-	display = "可用于解锁「写真·罗恩」",
-	name = "写真·罗恩",
+	display = "可用于解锁「写真·{namecode:439}」",
+	name = "写真·{namecode:439}",
 	max_num = 0,
 	type = 0,
 	drop_oil_max = 0,

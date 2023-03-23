@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "德意志、多塞特郡、{namecode:156}，还有{namecode:71}、{namecode:16}。以及——",
+			say = "{namecode:429}、多塞特郡、{namecode:156}，还有{namecode:71}、{namecode:16}。以及——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

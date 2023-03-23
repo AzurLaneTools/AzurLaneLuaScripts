@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……半推半就地帮铁血，或者说帮德意志准备起了宴会",
+			say = "……半推半就地帮铁血，或者说帮{namecode:429}准备起了宴会",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actor = 205011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "区、区区德意志竟然这么嚣张…不过…就勉强承认这宴会准备得不错吧…",
+			say = "区、区区{namecode:429}竟然这么嚣张…不过…就勉强承认这宴会准备得不错吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感谢德意志大人、以及指挥官，没想到连我们女仆队也受到了邀请，实在有些诚惶诚恐…",
+			say = "感谢{namecode:429}大人、以及指挥官，没想到连我们女仆队也受到了邀请，实在有些诚惶诚恐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

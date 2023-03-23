@@ -85,7 +85,7 @@ return {
 			bgName = "bg_port_jier",
 			hidePaintObj = true,
 			side = 2,
-			say = "是的，俾斯麦大人不用在意我们啦~我们都很乐意能为铁血的舰队发展做出贡献！",
+			say = "是的，{namecode:435}大人不用在意我们啦~我们都很乐意能为铁血的舰队发展做出贡献！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "不愧是俾斯麦大人！那我就放心了！",
+			say = "不愧是{namecode:435}大人！那我就放心了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "不过，欧根呢？明明我这个姐姐都要出发了，她怎么也不来送送！",
+			say = "不过，{namecode:428}呢？明明我这个姐姐都要出发了，她怎么也不来送送！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "欧根她……是我没让她来。",
+			say = "{namecode:428}她……是我没让她来。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "有一些突发任务需要她和希佩尔一起去处理一下。放心吧，她在以后会理解的。",
+			say = "有一些突发任务需要她和{namecode:426}一起去处理一下。放心吧，她在以后会理解的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "那俾斯麦大人，我们就准备出发咯？",
+			say = "那{namecode:435}大人，我们就准备出发咯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "咦？难道我的对手不是Z16吗？！",
+			say = "咦？难道我的对手不是{namecode:442}吗？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,11 +369,11 @@ return {
 			side = 0,
 			bgName = "bg_port_jier",
 			actor = 403020,
-			actorName = "布吕歇尔&Z16",
+			actorName = "{namecode:450}&{namecode:442}",
 			hideOther = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎？！Z16和我原来是队友么！\n什么！我们原来是一边的么？！",
+			say = "哎？！{namecode:442}和我原来是队友么！\n什么！我们原来是一边的么？！",
 			effects = {
 				{
 					active = true,
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 8,
-			say = "我也是！呜呜呜……我精心准备的打败布吕歇尔的计划没用了……",
+			say = "我也是！呜呜呜……我精心准备的打败{namecode:450}的计划没用了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "俾斯麦大人，我现在有问题了！",
+			say = "{namecode:435}大人，我现在有问题了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "指令书上只写了我和Z16是一队的，那我们的对手是谁呀！",
+			say = "指令书上只写了我和{namecode:442}是一队的，那我们的对手是谁呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "俾斯麦大人，我们差不多该出发了。",
+			say = "{namecode:435}大人，我们差不多该出发了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

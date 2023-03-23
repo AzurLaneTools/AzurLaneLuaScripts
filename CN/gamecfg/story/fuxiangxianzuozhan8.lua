@@ -63,7 +63,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "彼得，我们击破了塞壬舰队之后来和你汇合了~",
+			say = "{namecode:471}，我们击破了塞壬舰队之后来和你汇合了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对了！Z46是最早来到这片海域训练的吧，过来之前你有参与过别处的训练么？！",
+			say = "对了！{namecode:412}是最早来到这片海域训练的吧，过来之前你有参与过别处的训练么？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很遗憾，没有。根据俾斯麦的命令，我在舰装还未完成之时就来到这片海域，没有参加其他海域训练的机会。",
+			say = "很遗憾，没有。根据{namecode:435}的命令，我在舰装还未完成之时就来到这片海域，没有参加其他海域训练的机会。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

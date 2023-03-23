@@ -99,7 +99,7 @@ return {
 			nameColor = "#ffde38",
 			actorName = "维托里奥.维内托",
 			dir = 1,
-			say = "好，大家都干的漂亮，凯撒，你带大家返回拉斯佩齐亚港修整，我会联系港区后勤好好犒劳大家的。",
+			say = "好，大家都干的漂亮，凯撒，你带大家返回拉{namecode:432}齐亚港修整，我会联系港区后勤好好犒劳大家的。",
 			effects = {
 				{
 					active = true,
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "好了，全舰队继续前行，目标——拉斯佩齐亚！",
+			say = "好了，全舰队继续前行，目标——拉{namecode:432}齐亚！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

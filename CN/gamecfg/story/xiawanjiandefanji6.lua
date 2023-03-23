@@ -11,7 +11,7 @@ return {
 			side = 0,
 			bgm = "level02",
 			dir = 1,
-			say = "Z19！终于找到你了……你怎么受了这么重的伤！",
+			say = "{namecode:405}！终于找到你了……你怎么受了这么重的伤！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "是Z18啊…刚才在躲避爱斯基摩人追击的时候，被伊卡洛斯打中了几炮。",
+			say = "是{namecode:404}啊…刚才在躲避爱斯基摩人追击的时候，被伊卡洛斯打中了几炮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "姑且还算好吧…Z2还在寻找撤退的路线。不过到处都是皇家海军，我们的弹药又快打光了…",
+			say = "姑且还算好吧…{namecode:401}还在寻找撤退的路线。不过到处都是皇家海军，我们的弹药又快打光了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "这样啊…我来拖住皇家的追兵，你快回去和Z2汇合，然后和大家一起撤退吧。",
+			say = "这样啊…我来拖住皇家的追兵，你快回去和{namecode:401}汇合，然后和大家一起撤退吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "我不同意！和我一起走吧，Z19。",
+			say = "我不同意！和我一起走吧，{namecode:405}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

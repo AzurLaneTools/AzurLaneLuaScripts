@@ -72,7 +72,7 @@ function slot0.UpdateApplyPanel(slot0)
 	slot0.flagName.text = slot1:getCommader().name
 	slot0.policyTF.text = slot1:getPolicyName()
 	slot5 = slot1:getCommader()
-	slot6 = AttireFrame.attireFrameRes(slot5, true, AttireConst.TYPE_ICON_FRAME, slot5.propose)
+	slot6 = AttireFrame.attireFrameRes(slot5, slot5.id == getProxy(PlayerProxy):getRawData().id, AttireConst.TYPE_ICON_FRAME, slot5.propose)
 
 	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot6, slot6, true, function (slot0)
 		if IsNil(uv0._tf) then

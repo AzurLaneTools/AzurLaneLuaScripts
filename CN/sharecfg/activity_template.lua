@@ -4722,7 +4722,7 @@ pg.activity_template = {
 	},
 	[4708] = {
 		mark = 20230223,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 16,
 		login_pop = 0,
@@ -4730,34 +4730,8 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 4708,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 4708
 	},
 	[4709] = {
 		mark = 20230223,
@@ -5198,41 +5172,15 @@ pg.activity_template = {
 	},
 	[4726] = {
 		mark = 20230309,
-		config_client = "",
 		title_res_tag = "xiaotiancheng",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 4726,
 		is_show = 30,
+		config_client = "",
 		id = 4726,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "XiaoTianChengPtPage",
 			ui_name = "xiaotianchengptpage"
@@ -5240,42 +5188,16 @@ pg.activity_template = {
 	},
 	[4727] = {
 		mark = 20230309,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4727,
 		config_data = {
 			18388
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			npc = {
@@ -5286,12 +5208,13 @@ pg.activity_template = {
 	},
 	[4728] = {
 		mark = 20230316,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4728,
 		config_data = {
@@ -5300,33 +5223,6 @@ pg.activity_template = {
 			10152,
 			10153,
 			10154
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4729] = {
@@ -5336,7 +5232,7 @@ pg.activity_template = {
 		type = 11,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 31,
+		is_show = 28,
 		config_data = {},
 		time = {
 			"timer",
@@ -5440,6 +5336,298 @@ pg.activity_template = {
 				0,
 				0,
 				0
+			}
+		}
+	},
+	[4734] = {
+		mark = 20230323,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 4734,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4735] = {
+		mark = 20230223,
+		title_res_tag = "",
+		page_info = "",
+		type = 93,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4735,
+		config_data = {
+			1001,
+			1002,
+			1003,
+			1004,
+			1005
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			scene = "BossRushKurskScene",
+			openActivityStory = "JIDIFENGBAO1",
+			openStory = "JIDIFENGBAO2",
+			endStory = "JIDIFENGBAO19",
+			entrance_bg = "activitybanner/temp10",
+			tasks = {
+				18420
+			},
+			storys = {
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			}
+		}
+	},
+	[4736] = {
+		mark = 20230223,
+		title_res_tag = "",
+		page_info = "",
+		type = 94,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		id = 4736,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4737] = {
+		mark = 20230223,
+		id = 4737,
+		title_res_tag = "KurskSP_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4737,
+		is_show = 30,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "KurskSPPtPage",
+			ui_name = "KurskSPPtPage"
+		},
+		config_client = {
+			linkActID = 4735
+		}
+	},
+	[4738] = {
+		mark = 20230323,
+		title_res_tag = "",
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4738,
+		config_data = {
+			367,
+			368,
+			369
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4739] = {
+		mark = 20230323,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4739,
+		config_data = {
+			18413,
+			18414,
+			18415,
+			18416,
+			18417,
+			18418,
+			18420,
+			18421,
+			18422,
+			18423
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -10192,6 +10380,12 @@ pg.activity_template = {
 		4728,
 		4729,
 		4730,
+		4734,
+		4735,
+		4736,
+		4737,
+		4738,
+		4739,
 		7001,
 		7002,
 		7003,

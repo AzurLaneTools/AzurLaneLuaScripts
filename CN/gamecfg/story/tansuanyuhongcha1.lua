@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欧根亲王？！你是从哪里冒出来的！可恶……来窃听本王的商业机密么！",
+			say = "{namecode:427}？！你是从哪里冒出来的！可恶……来窃听本王的商业机密么！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "尽管放马过来吧，铁血的欧根亲王店长！",
+			say = "尽管放马过来吧，铁血的{namecode:427}店长！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "与您相对，铁血这边的店长自然应该是我们的总旗舰俾斯麦才对嘛~",
+			say = "与您相对，铁血这边的店长自然应该是我们的总旗舰{namecode:435}才对嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "俾斯麦么……好，那你就回去传个话，让你们的俾斯麦店长等着接受失败吧！",
+			say = "{namecode:435}么……好，那你就回去传个话，让你们的{namecode:435}店长等着接受失败吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

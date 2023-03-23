@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "欧根亲王，也是重巡。",
+			say = "{namecode:427}，也是重巡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -995,7 +995,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等……欧根，我们也要返航么？",
+			say = "等等……{namecode:428}，我们也要返航么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

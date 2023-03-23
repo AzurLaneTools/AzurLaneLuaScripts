@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "总之先和Z2她们重新恢复联系。",
+			say = "总之先和{namecode:401}她们重新恢复联系。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

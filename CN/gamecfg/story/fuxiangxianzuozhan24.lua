@@ -61,7 +61,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一段时间没来，这里变的还真夸张……史特拉塞难道是想借机测试一下基地的航空战上限么？",
+			say = "一段时间没来，这里变的还真夸张……{namecode:472}难道是想借机测试一下基地的航空战上限么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U37，你还在指定位置吧！",
+			say = "{namecode:474}，你还在指定位置吧！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -199,7 +199,7 @@ return {
 			actor = 408100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里是U37~目前仍然在指定位置待机中，要重启控制设备么？",
+			say = "这里是{namecode:474}~目前仍然在指定位置待机中，要重启控制设备么？",
 			effects = {
 				{
 					active = false,
@@ -331,7 +331,7 @@ return {
 			actor = 408100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是！我明白了！现在开始进行攻击准备，U37通讯结束！",
+			say = "是！我明白了！现在开始进行攻击准备，{namecode:474}通讯结束！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

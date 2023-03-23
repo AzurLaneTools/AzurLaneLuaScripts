@@ -503,7 +503,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是“碧蓝航线”的港区，我是“舰船”Z23。",
+			say = "这里是“碧蓝航线”的港区，我是“舰船”{namecode:408}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -809,7 +809,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 403010,
-			actorName = "通信(希佩尔)",
+			actorName = "通信({namecode:426})",
 			say = "既然如此，来这边说不定能发现些什么哦。",
 			typewriter = {
 				speed = 0.05,
@@ -827,7 +827,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，是希佩尔姐姐？",
+			say = "哎呀，是{namecode:426}姐姐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

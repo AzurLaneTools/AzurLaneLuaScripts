@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "嘿嘿~Z23认真负责有主见，是个非常非常可靠的人呢！西南风也请教过她很多问题！",
+			say = "嘿嘿~{namecode:408}认真负责有主见，是个非常非常可靠的人呢！西南风也请教过她很多问题！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "确实，Z23是个认真可靠的人，应该会跟认真的西南风有共同话题。",
+			say = "确实，{namecode:408}是个认真可靠的人，应该会跟认真的西南风有共同话题。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

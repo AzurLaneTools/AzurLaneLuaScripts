@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "跟着吕佐夫与图林根二人一同宽敞的大厅中走着。",
+			say = "跟着{namecode:461}与{namecode:466}二人一同宽敞的大厅中走着。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "肩膀突然被吕佐夫抱住了。",
+			say = "肩膀突然被{namecode:461}抱住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "千钧一发之际，拿出之前得到的十字架对准吕佐夫。",
+			say = "千钧一发之际，拿出之前得到的十字架对准{namecode:461}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "……奇怪，吕佐夫依然将整个身体用力压过来，完全无法挣脱……这是怎么回事？",
+			say = "……奇怪，{namecode:461}依然将整个身体用力压过来，完全无法挣脱……这是怎么回事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			actor = 405041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……吕佐夫，按照剧本，你应该表现出一副受了攻击的样子，然后松开指挥官。",
+			say = "……{namecode:461}，按照剧本，你应该表现出一副受了攻击的样子，然后松开指挥官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			actor = 405041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我不会直接干涉你这么做，不过我会把情况都如实反馈，至于欧根听了之后会不会考虑换个NPC……",
+			say = "我不会直接干涉你这么做，不过我会把情况都如实反馈，至于{namecode:428}听了之后会不会考虑换个NPC……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "吕佐夫以相当夸张的姿势退后了几步。",
+			say = "{namecode:461}以相当夸张的姿势退后了几步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "烟雾之中隐约出现了两个身影——是塞德利茨和谢菲尔德。",
+			say = "烟雾之中隐约出现了两个身影——是{namecode:460}和谢菲尔德。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

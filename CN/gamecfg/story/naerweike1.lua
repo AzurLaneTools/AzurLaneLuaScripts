@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "好啦，Z21，来，笑一笑~",
+			say = "好啦，{namecode:407}，来，笑一笑~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -71,7 +71,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z21，不要抱怨了，已经到了目标海域，你是队长，按照规定，复述一遍任务。",
+			say = "{namecode:407}，不要抱怨了，已经到了目标海域，你是队长，按照规定，复述一遍任务。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是我好冷……Z2帮我做……？",
+			say = "可是我好冷……{namecode:401}帮我做……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……唉，本次作战，作为威悉演习行动的一环，目的是占领纳尔维克。",
+			say = "……唉，本次作战，作为{namecode:467}演习行动的一环，目的是占领纳尔维克。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 0,
 			actor = 401020,
 			dir = 1,
-			say = "这项任务，将由Z21作为旗舰，带领Z2，Z9，Z11，Z12，Z17，Z13，Z18，Z19，Z22，共10艘驱逐级共同完成。",
+			say = "这项任务，将由{namecode:407}作为旗舰，带领{namecode:401}，{namecode:495}，{namecode:496}，{namecode:497}，{namecode:403}，{namecode:498}，{namecode:404}，{namecode:405}，{namecode:499}，共10艘驱逐级共同完成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我！Z2，敌方的兵力如何？",
+			say = "我！{namecode:401}，敌方的兵力如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "另外，Z18，有情报显示，在峡湾的另一边有一座要塞，以防万一，你和Z22去探查一下。",
+			say = "另外，{namecode:404}，有情报显示，在峡湾的另一边有一座要塞，以防万一，你和{namecode:499}去探查一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其他人，跟随Z21出击。",
+			say = "其他人，跟随{namecode:407}出击。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶，结果还是我吗，Z2当队长不就好了……",
+			say = "诶，结果还是我吗，{namecode:401}当队长不就好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

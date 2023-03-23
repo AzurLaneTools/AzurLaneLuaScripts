@@ -119,7 +119,7 @@ return {
 			actor = 401360,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "希佩尔，天上有大量皇家的舰载机朝你飞过来了哦。",
+			say = "{namecode:426}，天上有大量皇家的舰载机朝你飞过来了哦。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			actor = 401360,
 			dir = 1,
-			say = "因为你是希佩尔级的首舰，对面把你当成我们的舰队旗舰了吧...",
+			say = "因为你是{namecode:426}级的首舰，对面把你当成我们的舰队旗舰了吧...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "不需要了哦。希佩尔、Z36，我们的作战行动结束，准备撤退。",
+			say = "不需要了哦。{namecode:426}、{namecode:411}，我们的作战行动结束，准备撤退。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

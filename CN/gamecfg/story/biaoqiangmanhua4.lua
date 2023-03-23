@@ -430,7 +430,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "…齐柏林，你看到了吗。",
+			say = "…{namecode:438}，你看到了吗。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "「作者：标枪(删除线)、Z1、圣地亚哥等」",
+			say = "「作者：标枪(删除线)、{namecode:400}、圣地亚哥等」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过没问题吗？齐柏林大人和{namecode:71}大人，刚才似乎就很难认到方向",
+			say = "不过没问题吗？{namecode:438}大人和{namecode:71}大人，刚才似乎就很难认到方向",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 304060,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actorName = "小齐柏林&小{namecode:71}",
+			actorName = "小{namecode:438}&小{namecode:71}",
 			dir = 1,
 			blackBg = true,
 			hideOther = true,

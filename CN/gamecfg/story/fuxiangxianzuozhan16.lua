@@ -522,7 +522,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳……U37，你带领客人和Z28绕过D13防御模块，经过B7浮岛使用应急路线直接前往E2浮岛休息。",
+			say = "咳……{namecode:474}，你带领客人和{namecode:445}绕过D13防御模块，经过B7浮岛使用应急路线直接前往E2浮岛休息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			actor = 408100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇啊，欧根你明明一次都没来过是怎么知道这条路的！我平时为了省事其实一直走的都是这条秘密路线……",
+			say = "哇啊，{namecode:428}你明明一次都没来过是怎么知道这条路的！我平时为了省事其实一直走的都是这条秘密路线……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来今天的训练作战也差不多该结束了……Z24，纽伦堡，跟我一起行动。",
+			say = "看来今天的训练作战也差不多该结束了……{namecode:443}，{namecode:446}，跟我一起行动。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

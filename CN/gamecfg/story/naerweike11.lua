@@ -174,7 +174,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,
-			say = "Z2，不追了吗？",
+			say = "{namecode:401}，不追了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 1,
 			actor = 401020,
 			dir = -1,
-			say = "不怪你，Z18你的选择是对的……保存实力比无谓的勇敢要更重要。",
+			say = "不怪你，{namecode:404}你的选择是对的……保存实力比无谓的勇敢要更重要。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Z19，听Z2的话，我们先去照顾Z21。",
+			say = "{namecode:405}，听{namecode:401}的话，我们先去照顾{namecode:407}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

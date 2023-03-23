@@ -350,7 +350,7 @@ return {
 			side = 2,
 			actor = 307110,
 			dir = 1,
-			say = "（你吓死我了，罗恩！）",
+			say = "（你吓死我了，{namecode:439}！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

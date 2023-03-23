@@ -304,7 +304,7 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "克利夫兰&Z35",
+			actorName = "克利夫兰&{namecode:410}",
 			say = "欸？",
 			subActors = {
 				{
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			hideOther = true,
-			actorName = "克利夫兰&Z35",
+			actorName = "克利夫兰&{namecode:410}",
 			say = "啊！",
 			dialogShake = {
 				speed = 0.09,

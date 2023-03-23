@@ -341,7 +341,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请当成夸奖吧，俾斯麦确实是一位值得尊重的领袖。",
+			say = "请当成夸奖吧，{namecode:435}确实是一位值得尊重的领袖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

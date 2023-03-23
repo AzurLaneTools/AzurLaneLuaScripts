@@ -531,7 +531,7 @@ pg.storeup_data_template = {
 	},
 	{
 		id = 18,
-		name = "柯尼斯堡级",
+		name = "{namecode:421}级",
 		char_list = {
 			40201,
 			40202,

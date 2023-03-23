@@ -11,7 +11,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根，诱导作战辛苦了！！你没受伤吧！",
+			say = "{namecode:428}，诱导作战辛苦了！！你没受伤吧！",
 			bgm = "battle-executor-type1",
 			typewriter = {
 				speed = 0.05,
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无妨无妨~史特拉塞才是此处基地的舰队总指挥，在这里的战斗自然要听她的。",
+			say = "无妨无妨~{namecode:472}才是此处基地的舰队总指挥，在这里的战斗自然要听她的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -60,7 +60,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "没错，Z驱的大姐就是我Z1——莱伯勒希特·马斯！",
+			say = "没错，Z驱的大姐就是我{namecode:400}——莱伯勒希特·马斯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "斯佩伯爵快到拉普拉塔河口了吧？",
+			say = "{namecode:431}快到拉普拉塔河口了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

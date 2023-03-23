@@ -626,7 +626,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不知道重樱的美酒和食物还习惯么，欧根亲王？",
+			say = "不知道重樱的美酒和食物还习惯么，{namecode:427}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -770,7 +770,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根，这个“生鱼片”很好吃，多尝一尝吧",
+			say = "{namecode:428}，这个“生鱼片”很好吃，多尝一尝吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -784,7 +784,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			say = "作为辅佐的Z2把食物放到了欧根亲王的盘中",
+			say = "作为辅佐的{namecode:401}把食物放到了{namecode:427}的盘中",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -880,7 +880,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让我来教教各位吧！啊，Z2小姐，请先听我说明啊！",
+			say = "让我来教教各位吧！啊，{namecode:401}小姐，请先听我说明啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -921,7 +921,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根，这个串在一起的肉丸也很好吃，大家也多尝一尝吧",
+			say = "{namecode:428}，这个串在一起的肉丸也很好吃，大家也多尝一尝吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -935,7 +935,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			say = "刚才还被{namecode:175}缠着的Z2，不知什么时候又拿来了新的食物",
+			say = "刚才还被{namecode:175}缠着的{namecode:401}，不知什么时候又拿来了新的食物",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

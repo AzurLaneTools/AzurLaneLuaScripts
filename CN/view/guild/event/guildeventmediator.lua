@@ -453,16 +453,14 @@ function slot0.SelectBossBattleShip(slot0, slot1, slot2, slot3)
 	end
 
 	for slot18, slot19 in pairs(getProxy(BayProxy):getData()) do
-		if slot19:getTeamType() == slot1 then
-			slot19.user = slot11
-			slot19.id = GuildAssaultFleet.GetVirtualId(slot11.id, slot19.id)
+		slot19.user = slot11
+		slot19.id = GuildAssaultFleet.GetVirtualId(slot11.id, slot19.id)
 
-			if slot13:GetShipByRealId(slot11.id, slot19.id) then
-				slot19.guildRecommand = slot20.guildRecommand
-			end
-
-			table.insert(slot4, slot19)
+		if slot13:GetShipByRealId(slot11.id, slot19.id) then
+			slot19.guildRecommand = slot20.guildRecommand
 		end
+
+		table.insert(slot4, GuildAssaultShip.ConverteFromShip(slot19))
 	end
 
 	slot15 = {}
@@ -471,19 +469,20 @@ function slot0.SelectBossBattleShip(slot0, slot1, slot2, slot3)
 		table.insert(slot15, slot3.ship.id)
 	end
 
-	for slot20, slot21 in ipairs(slot9:GetShipIds()) do
-		if slot21 and not table.contains(slot15, GuildAssaultFleet.GetVirtualId(slot21.uid, slot21.id)) then
-			table.insert(slot15, slot22)
+	for slot19, slot20 in ipairs(slot9:GetShipIds()) do
+		if slot20 then
+			table.insert(slot15, GuildAssaultFleet.GetVirtualId(slot20.uid, slot20.id))
 		end
 	end
 
-	slot17 = slot9:GetShips()
+	slot16 = slot9:GetShips()
 
 	slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 		selectedMin = 1,
 		selectedMax = 1,
 		quitTeam = slot3,
 		ignoredIds = slot15,
+		teamFilter = slot1,
 		shipVOs = slot4,
 		mode = DockyardScene.MODE_GUILD_BOSS,
 		hideTagFlags = ShipStatus.TAG_HIDE_CHALLENGE,

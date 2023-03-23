@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那个……就是，欧根小姐的醉相……之类的。哇哇哇，有点难以想象……",
+			say = "那个……就是，{namecode:428}小姐的醉相……之类的。哇哇哇，有点难以想象……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

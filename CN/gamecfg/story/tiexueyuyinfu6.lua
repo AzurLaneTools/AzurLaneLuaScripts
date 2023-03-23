@@ -28,7 +28,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "真可惜…如果齐柏林伯爵能够完成下水的话，战局就不会如此被动了…",
+			say = "真可惜…如果{namecode:437}能够完成下水的话，战局就不会如此被动了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

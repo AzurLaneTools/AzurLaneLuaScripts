@@ -4,14 +4,14 @@ pg.activity_link_button = {
 		param = "0",
 		name = "event_all",
 		type = 3,
-		text_pic = "",
+		text_pic = "text_event_all",
 		id = 1,
 		group_id = 1,
 		pic = "event_all",
 		order = 1,
 		time = {
 			"default",
-			4718
+			4735
 		}
 	},
 	{
@@ -55,7 +55,7 @@ pg.activity_link_button = {
 		type = 0,
 		text_pic = "text_event_minigame",
 		id = 20,
-		group_id = 4,
+		group_id = 5,
 		pic = "event_minigame",
 		order = 1,
 		time = {
@@ -80,7 +80,7 @@ pg.activity_link_button = {
 		type = 0,
 		text_pic = "text_event_escort",
 		id = 40,
-		group_id = 5,
+		group_id = 6,
 		pic = "event_escort",
 		order = 1,
 		time = {
@@ -95,7 +95,7 @@ pg.activity_link_button = {
 		type = 0,
 		pic = "event_LanternFestival",
 		id = 60,
-		group_id = 6,
+		group_id = 7,
 		order = 1
 	},
 	[70] = {
@@ -106,7 +106,7 @@ pg.activity_link_button = {
 		type = 0,
 		pic = "event_aprilFool",
 		id = 70,
-		group_id = 7,
+		group_id = 8,
 		order = 1
 	},
 	[80] = {
@@ -114,7 +114,7 @@ pg.activity_link_button = {
 		name = "event_Atelier",
 		text_pic = "text_event_Atelier",
 		id = 80,
-		group_id = 8,
+		group_id = 9,
 		pic = "event_Atelier",
 		order = 1,
 		time = {
@@ -123,6 +123,19 @@ pg.activity_link_button = {
 		},
 		param = {
 			"ATELIER_COMPOSITE"
+		}
+	},
+	[90] = {
+		param = "0",
+		name = "event_series",
+		type = 0,
+		text_pic = "text_event_series",
+		id = 90,
+		group_id = 4,
+		pic = "event_series",
+		order = 1,
+		time = {
+			"default"
 		}
 	},
 	get_id_list_by_name = {
@@ -151,6 +164,9 @@ pg.activity_link_button = {
 		},
 		event_Atelier = {
 			80
+		},
+		event_series = {
+			90
 		}
 	},
 	all = {
@@ -163,6 +179,7 @@ pg.activity_link_button = {
 		40,
 		60,
 		70,
-		80
+		80,
+		90
 	}
 }

@@ -337,7 +337,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "要是能起效就再好不过了~好了，大家过来参拜吧，欧根…还有拉菲也在吗？那我就稍微讲解一下好了～",
+			say = "要是能起效就再好不过了~好了，大家过来参拜吧，{namecode:428}…还有拉菲也在吗？那我就稍微讲解一下好了～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

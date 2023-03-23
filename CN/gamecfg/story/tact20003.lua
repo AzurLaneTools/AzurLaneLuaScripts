@@ -43,7 +43,7 @@ return {
 			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "沙恩霍斯特级战列巡洋舰二号舰——格奈森瑙，就让我在这里看看你们的实力吧",
+			say = "{namecode:433}级战列巡洋舰二号舰——{namecode:434}，就让我在这里看看你们的实力吧",
 			shake = {
 				speed = 1,
 				number = 3

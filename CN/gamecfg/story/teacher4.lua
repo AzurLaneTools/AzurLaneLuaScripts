@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"36年Z组 Z23老师\n\n<size=45>四 禁忌·双重恶作剧！</size>",
+					"36年Z组 {namecode:408}老师\n\n<size=45>四 禁忌·双重恶作剧！</size>",
 					1
 				}
 			}
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…萨拉这孩子，又对别人恶作剧了，Z23，没事吧？",
+			say = "哈啊…萨拉这孩子，又对别人恶作剧了，{namecode:408}，没事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

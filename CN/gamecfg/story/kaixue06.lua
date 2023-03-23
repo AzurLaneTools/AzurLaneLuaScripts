@@ -205,7 +205,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "问题是Z1！",
+			say = "问题是{namecode:400}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			hideOther = true,
-			actorName = "{namecode:94}&Z1",
+			actorName = "{namecode:94}&{namecode:400}",
 			say = "欸~~~~~~~",
 			subActors = {
 				{

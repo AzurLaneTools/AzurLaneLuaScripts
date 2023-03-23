@@ -42,7 +42,7 @@ return {
 			nameColor = "#ffde38",
 			side = 0,
 			dir = -1,
-			say = "欧根",
+			say = "{namecode:428}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -168,7 +168,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "希望你能尊重我的命令，这次可容不得你任性了，欧根",
+			say = "希望你能尊重我的命令，这次可容不得你任性了，{namecode:428}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "欧根亲王号重巡洋舰遵命。祝你好运，俾斯麦",
+			say = "{namecode:427}号重巡洋舰遵命。祝你好运，{namecode:435}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 		{
 			side = 0,
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			dir = -1,
 			blackBg = true,
 			say = "Eisen und Blut über alles！",
@@ -323,7 +323,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,

@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "史特拉塞阁下，现在情况如何？",
+			say = "{namecode:472}阁下，现在情况如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "辛苦了，史特拉塞阁下。",
+			say = "辛苦了，{namecode:472}阁下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "乌尔里希阁下，你觉得这个人工奇异点像什么呀，马桶圈，还是甜甜圈？",
+			say = "{namecode:464}阁下，你觉得这个人工奇异点像什么呀，马桶圈，还是甜甜圈？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "乌尔里希阁下，启动程序已经全部完成。",
+			say = "{namecode:464}阁下，启动程序已经全部完成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "进入次序为，U-1206，我，阿达尔伯特，马格德堡先进，易北带领量产型舰队最后进入。",
+			say = "进入次序为，{namecode:476}，我，{namecode:456}，{namecode:447}先进，{namecode:468}带领量产型舰队最后进入。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "乌尔里希·冯·胡滕下完命令后，率先冲入激流，消失在光怪陆离的漩涡之中。",
+			say = "{namecode:463}下完命令后，率先冲入激流，消失在光怪陆离的漩涡之中。",
 			effects = {
 				{
 					active = false,
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "伴随着转瞬即逝的悲鸣声，U-1206在马格德堡的裹挟下一同消失在漩涡之中。",
+			say = "伴随着转瞬即逝的悲鸣声，{namecode:476}在{namecode:447}的裹挟下一同消失在漩涡之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海因里希，我走了。",
+			say = "{namecode:454}，我走了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "那我们奇异点后见了，易北。",
+			say = "那我们奇异点后见了，{namecode:468}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "说完话，阿达尔伯特亲王从容淡定地进入了漩涡之中。",
+			say = "说完话，{namecode:455}从容淡定地进入了漩涡之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "那么彼得和威悉，我也走啦，等着我凯旋归来的身影吧。",
+			say = "那么{namecode:471}和{namecode:467}，我也走啦，等着我凯旋归来的身影吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

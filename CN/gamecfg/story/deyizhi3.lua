@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"德意志的忧郁\n\n<size=45>三　不协调音</size>",
+					"{namecode:429}的忧郁\n\n<size=45>三　不协调音</size>",
 					1
 				}
 			}
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "德意志小姐吗……嗯……",
+			say = "{namecode:429}小姐吗……嗯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_outdoor",
 			withoutActorName = true,
 			dir = 1,
-			say = "德意志的眼中闪着泪花，但是，应该在这里欺骗她吗？",
+			say = "{namecode:429}的眼中闪着泪花，但是，应该在这里欺骗她吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "说谎哄哄德意志",
+					content = "说谎哄哄{namecode:429}",
 					flag = 2
 				}
 			}
@@ -393,7 +393,7 @@ return {
 			},
 			options = {
 				{
-					content = "出声喊住德意志",
+					content = "出声喊住{namecode:429}",
 					flag = 1
 				}
 			}
@@ -403,7 +403,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "德意志像是没有听到一样，有些失魂落魄地离开了。",
+			say = "{namecode:429}像是没有听到一样，有些失魂落魄地离开了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

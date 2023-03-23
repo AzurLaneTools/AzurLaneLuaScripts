@@ -13,7 +13,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			bgmDelay = 1,
-			say = "奥丁，准备好了么？",
+			say = "{namecode:486}，准备好了么？",
 			bgm = "xinnong-2",
 			flashin = {
 				delay = 1,
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
-			say = "一道粗大光束毫无征兆出现在奥丁正前方，然后紧贴水面向远方的敌人直射而去。",
+			say = "一道粗大光束毫无征兆出现在{namecode:486}正前方，然后紧贴水面向远方的敌人直射而去。",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_daofeng_5",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "攻击结束，欧根亲王，请确认战斗结果。",
+			say = "攻击结束，{namecode:427}，请确认战斗结果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_daofeng_5",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "战斗结果已确认，辛苦了，奥丁。",
+			say = "战斗结果已确认，辛苦了，{namecode:486}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "奥丁小姐真和我们一样同为「舰船」么？！",
+			say = "{namecode:486}小姐真和我们一样同为「舰船」么？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_daofeng_5",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "虽然细节上有些区别，不过我觉得奥丁和我们一样都是「舰船」哦。",
+			say = "虽然细节上有些区别，不过我觉得{namecode:486}和我们一样都是「舰船」哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "情报收集很充分嘛~没错，奥丁就是被称为计划舰的舰船。",
+			say = "情报收集很充分嘛~没错，{namecode:486}就是被称为计划舰的舰船。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "奥丁已经没法再次开火了，我们还是先去解决掉机关的问题吧~",
+			say = "{namecode:486}已经没法再次开火了，我们还是先去解决掉机关的问题吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "齐柏林的动态，有些挺普通的，有些比较难懂……",
+			say = "{namecode:438}的动态，有些挺普通的，有些比较难懂……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

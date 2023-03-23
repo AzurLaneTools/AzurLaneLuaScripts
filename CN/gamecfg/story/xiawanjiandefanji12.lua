@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Z2，我的弹药已经打光了…",
+			say = "{namecode:401}，我的弹药已经打光了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "铁血驱逐舰Z12和Z17正从侧后方向我们发动攻击。",
+			say = "铁血驱逐舰{namecode:497}和{namecode:403}正从侧后方向我们发动攻击。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z2和Z18正在向峡湾的深处缓慢撤退，要追击么？",
+			say = "{namecode:401}和{namecode:404}正在向峡湾的深处缓慢撤退，要追击么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我们先去追击Z12和Z17，不能让她们跑了。",
+			say = "……我们先去追击{namecode:497}和{namecode:403}，不能让她们跑了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于Z2和Z18…这点时间我们还是可以给的。",
+			say = "至于{namecode:401}和{namecode:404}…这点时间我们还是可以给的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了…舰队调整航向，准备追击铁血驱逐舰Z12和Z17的作战！",
+			say = "我明白了…舰队调整航向，准备追击铁血驱逐舰{namecode:497}和{namecode:403}的作战！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

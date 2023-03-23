@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U73，和{namecode:37}，已经开始了……",
+			say = "{namecode:417}，和{namecode:37}，已经开始了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "老师就算啦～不过呢，科学的道路是十分广阔的！U73，",
+			say = "老师就算啦～不过呢，科学的道路是十分广阔的！{namecode:417}，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然你选择了这条道路，那就继续努力吧，U73！",
+			say = "既然你选择了这条道路，那就继续努力吧，{namecode:417}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…感觉，U73比起平时摆姐姐的架子，还是现在这样更适合她呢~",
+			say = "啊哈哈…感觉，{namecode:417}比起平时摆姐姐的架子，还是现在这样更适合她呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下午科隆应该还要用到那间教室来着…？",
+			say = "下午{namecode:423}应该还要用到那间教室来着…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
-			actorName = "科隆",
+			actorName = "{namecode:423}",
 			dir = 1,
 			say = "(远处传来的声音)是谁把教室弄成这样了啊啊啊啊！！！！",
 			effects = {
@@ -453,7 +453,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "得到了优秀的老师启发的U73，距离科学之路，大概还有一段距离——",
+			say = "得到了优秀的老师启发的{namecode:417}，距离科学之路，大概还有一段距离——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

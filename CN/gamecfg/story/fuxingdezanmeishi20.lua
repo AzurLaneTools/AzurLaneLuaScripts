@@ -16,7 +16,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "铁血……尤其是腓特烈大帝领导下的铁血与塞壬暗中有某种紧密联系，你应该也有感觉吧，利托里奥。",
+			say = "铁血……尤其是{namecode:440}领导下的铁血与塞壬暗中有某种紧密联系，你应该也有感觉吧，利托里奥。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "可能只是腓特烈大帝身上带有的神秘气质影响了我的判断吧……",
+			say = "可能只是{namecode:440}身上带有的神秘气质影响了我的判断吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "………利托里奥，那天我返航之后是你继续护送腓特烈大帝离开的，你不会直接问了吧？！",
+			say = "………利托里奥，那天我返航之后是你继续护送{namecode:440}离开的，你不会直接问了吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "（扶额）唉……算了。腓特烈大帝是怎么回应你的？",
+			say = "（扶额）唉……算了。{namecode:440}是怎么回应你的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "腓特烈大帝这个人总是能在言语间轻描淡写的抛出一些危险话题啊……",
+			say = "{namecode:440}这个人总是能在言语间轻描淡写的抛出一些危险话题啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

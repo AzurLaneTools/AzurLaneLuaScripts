@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是现在，如果感到疑问的不是指挥官，而是{namecode:74}和俾斯麦，甚至是北方联合的阿芙乐尔的话——",
+			say = "但是现在，如果感到疑问的不是指挥官，而是{namecode:74}和{namecode:435}，甚至是北方联合的阿芙乐尔的话——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

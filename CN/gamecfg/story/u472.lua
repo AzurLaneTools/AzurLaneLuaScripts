@@ -86,7 +86,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-47一走进来，就开始好奇地环视房间。不知道她有什么事呢——",
+			say = "{namecode:413}一走进来，就开始好奇地环视房间。不知道她有什么事呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "倒也没有忙到那个程度，所以告诉U-47可以一直呆到她想走为止。",
+			say = "倒也没有忙到那个程度，所以告诉{namecode:413}可以一直呆到她想走为止。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这样的环境不会对她造成压力吧……？稍微有些担心的看向了U-47坐着的沙发。",
+			say = "这样的环境不会对她造成压力吧……？稍微有些担心的看向了{namecode:413}坐着的沙发。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "弄清楚U-47睡着的原因后，轻轻为她盖上了毯子。",
+			say = "弄清楚{namecode:413}睡着的原因后，轻轻为她盖上了毯子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

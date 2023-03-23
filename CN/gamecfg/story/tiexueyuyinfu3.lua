@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "俾斯麦，要陪她们玩玩吗？",
+			say = "{namecode:435}，要陪她们玩玩吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

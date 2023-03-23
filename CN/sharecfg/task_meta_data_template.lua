@@ -299,7 +299,7 @@ pg.task_meta_data_template = {
 	[131] = {
 		target_id_2 = "970401",
 		sub_type = 180,
-		desc = "使用格奈森瑙.META获得1次胜利",
+		desc = "使用{namecode:477}获得1次胜利",
 		id = 131,
 		target_num = 1,
 		target_id = "0"
@@ -307,7 +307,7 @@ pg.task_meta_data_template = {
 	[132] = {
 		target_id_2 = "970401",
 		sub_type = 180,
-		desc = "使用格奈森瑙.META击破等级>30的敌方1次",
+		desc = "使用{namecode:477}击破等级>30的敌方1次",
 		id = 132,
 		target_num = 1,
 		target_id = "30"
@@ -315,7 +315,7 @@ pg.task_meta_data_template = {
 	[133] = {
 		target_id_2 = "970401",
 		sub_type = 180,
-		desc = "使用格奈森瑙.META击破等级>55的敌方1次",
+		desc = "使用{namecode:477}击破等级>55的敌方1次",
 		id = 133,
 		target_num = 1,
 		target_id = "55"
@@ -323,7 +323,7 @@ pg.task_meta_data_template = {
 	[134] = {
 		target_id_2 = "970401",
 		sub_type = 180,
-		desc = "使用格奈森瑙.META击破等级>80的敌方1次",
+		desc = "使用{namecode:477}击破等级>80的敌方1次",
 		id = 134,
 		target_num = 1,
 		target_id = "80"
@@ -331,7 +331,7 @@ pg.task_meta_data_template = {
 	[135] = {
 		target_id_2 = "970401",
 		sub_type = 180,
-		desc = "使用格奈森瑙.META击破等级>100的敌方1次",
+		desc = "使用{namecode:477}击破等级>100的敌方1次",
 		id = 135,
 		target_num = 1,
 		target_id = "100"
@@ -379,7 +379,7 @@ pg.task_meta_data_template = {
 	[141] = {
 		target_id_2 = "970402",
 		sub_type = 180,
-		desc = "使用沙恩霍斯特.META获得1次胜利",
+		desc = "使用{namecode:478}获得1次胜利",
 		id = 141,
 		target_num = 1,
 		target_id = "0"
@@ -387,7 +387,7 @@ pg.task_meta_data_template = {
 	[142] = {
 		target_id_2 = "970402",
 		sub_type = 180,
-		desc = "使用沙恩霍斯特.META击破等级>30的敌方1次",
+		desc = "使用{namecode:478}击破等级>30的敌方1次",
 		id = 142,
 		target_num = 1,
 		target_id = "30"
@@ -395,7 +395,7 @@ pg.task_meta_data_template = {
 	[143] = {
 		target_id_2 = "970402",
 		sub_type = 180,
-		desc = "使用沙恩霍斯特.META击破等级>55的敌方1次",
+		desc = "使用{namecode:478}击破等级>55的敌方1次",
 		id = 143,
 		target_num = 1,
 		target_id = "55"
@@ -403,7 +403,7 @@ pg.task_meta_data_template = {
 	[144] = {
 		target_id_2 = "970402",
 		sub_type = 180,
-		desc = "使用沙恩霍斯特.META击破等级>80的敌方1次",
+		desc = "使用{namecode:478}击破等级>80的敌方1次",
 		id = 144,
 		target_num = 1,
 		target_id = "80"
@@ -411,7 +411,7 @@ pg.task_meta_data_template = {
 	[145] = {
 		target_id_2 = "970402",
 		sub_type = 180,
-		desc = "使用沙恩霍斯特.META击破等级>100的敌方1次",
+		desc = "使用{namecode:478}击破等级>100的敌方1次",
 		id = 145,
 		target_num = 1,
 		target_id = "100"
@@ -811,7 +811,7 @@ pg.task_meta_data_template = {
 	[224] = {
 		target_id_2 = "970401",
 		sub_type = 302,
-		desc = "大型作战内使用格奈森瑙.META获得1次胜利",
+		desc = "大型作战内使用{namecode:477}获得1次胜利",
 		id = 224,
 		target_num = 1,
 		target_id = "0"
@@ -819,7 +819,7 @@ pg.task_meta_data_template = {
 	[225] = {
 		target_id_2 = "970401",
 		sub_type = 302,
-		desc = "大型作战内使用格奈森瑙.META击破等级>70的敌方1次",
+		desc = "大型作战内使用{namecode:477}击破等级>70的敌方1次",
 		id = 225,
 		target_num = 1,
 		target_id = "70"
@@ -827,7 +827,7 @@ pg.task_meta_data_template = {
 	[226] = {
 		target_id_2 = "970401",
 		sub_type = 302,
-		desc = "大型作战内使用格奈森瑙.META击破等级>90的敌方1次",
+		desc = "大型作战内使用{namecode:477}击破等级>90的敌方1次",
 		id = 226,
 		target_num = 1,
 		target_id = "90"
@@ -835,7 +835,7 @@ pg.task_meta_data_template = {
 	[227] = {
 		target_id_2 = "970401",
 		sub_type = 302,
-		desc = "大型作战内使用格奈森瑙.META击破等级>100的敌方1次",
+		desc = "大型作战内使用{namecode:477}击破等级>100的敌方1次",
 		id = 227,
 		target_num = 1,
 		target_id = "100"
@@ -875,7 +875,7 @@ pg.task_meta_data_template = {
 	[232] = {
 		target_id_2 = "970402",
 		sub_type = 302,
-		desc = "大型作战内使用沙恩霍斯特.META获得1次胜利",
+		desc = "大型作战内使用{namecode:478}获得1次胜利",
 		id = 232,
 		target_num = 1,
 		target_id = "0"
@@ -883,7 +883,7 @@ pg.task_meta_data_template = {
 	[233] = {
 		target_id_2 = "970402",
 		sub_type = 302,
-		desc = "大型作战内使用沙恩霍斯特.META击破等级>70的敌方1次",
+		desc = "大型作战内使用{namecode:478}击破等级>70的敌方1次",
 		id = 233,
 		target_num = 1,
 		target_id = "70"
@@ -891,7 +891,7 @@ pg.task_meta_data_template = {
 	[234] = {
 		target_id_2 = "970402",
 		sub_type = 302,
-		desc = "大型作战内使用沙恩霍斯特.META击破等级>90的敌方1次",
+		desc = "大型作战内使用{namecode:478}击破等级>90的敌方1次",
 		id = 234,
 		target_num = 1,
 		target_id = "90"
@@ -899,7 +899,7 @@ pg.task_meta_data_template = {
 	[235] = {
 		target_id_2 = "970402",
 		sub_type = 302,
-		desc = "大型作战内使用沙恩霍斯特.META击破等级>100的敌方1次",
+		desc = "大型作战内使用{namecode:478}击破等级>100的敌方1次",
 		id = 235,
 		target_num = 1,
 		target_id = "100"
@@ -1280,6 +1280,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100061] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "使用拉·加利索尼埃.META获得1次胜利",
+		id = 100061,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100062] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "使用拉·加利索尼埃.META击破等级>30的敌方1次",
+		id = 100062,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100063] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "使用拉·加利索尼埃.META击破等级>55的敌方1次",
+		id = 100063,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100064] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "使用拉·加利索尼埃.META击破等级>80的敌方1次",
+		id = 100064,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100065] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "使用拉·加利索尼埃.META击破等级>100的敌方1次",
+		id = 100065,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1437,6 +1477,38 @@ pg.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用伊丽莎白女王.META击破等级>100的敌方1次",
 		id = 200054,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200061] = {
+		target_id_2 = "970204",
+		sub_type = 302,
+		desc = "大型作战内使用拉·加利索尼埃.META获得1次胜利",
+		id = 200061,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200062] = {
+		target_id_2 = "970204",
+		sub_type = 302,
+		desc = "大型作战内使用拉·加利索尼埃.META击破等级>70的敌方1次",
+		id = 200062,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200063] = {
+		target_id_2 = "970204",
+		sub_type = 302,
+		desc = "大型作战内使用拉·加利索尼埃.META击破等级>90的敌方1次",
+		id = 200063,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200064] = {
+		target_id_2 = "970204",
+		sub_type = 302,
+		desc = "大型作战内使用拉·加利索尼埃.META击破等级>100的敌方1次",
+		id = 200064,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1601,6 +1673,11 @@ pg.task_meta_data_template = {
 		100053,
 		100054,
 		100055,
+		100061,
+		100062,
+		100063,
+		100064,
+		100065,
 		200001,
 		200002,
 		200003,
@@ -1620,6 +1697,10 @@ pg.task_meta_data_template = {
 		200051,
 		200052,
 		200053,
-		200054
+		200054,
+		200061,
+		200062,
+		200063,
+		200064
 	}
 }

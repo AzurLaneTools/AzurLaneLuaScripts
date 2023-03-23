@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "无人回应乌尔里希·冯·胡滕的自言自语，只有黑色的太阳在无声地燃烧着。",
+			say = "无人回应{namecode:463}的自言自语，只有黑色的太阳在无声地燃烧着。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "腓特烈？！",
+			say = "{namecode:441}？！",
 			painting = {
 				alpha = 0.3,
 				time = 1

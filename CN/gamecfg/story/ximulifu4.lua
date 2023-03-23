@@ -119,7 +119,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，今天就让皇家的那帮家伙们见识一下我妹妹有多么可爱！我这边还有点事，斯佩先自己转转，好好享受一下宴会吧！",
+			say = "哼哼哼，今天就让皇家的那帮家伙们见识一下我妹妹有多么可爱！我这边还有点事，{namecode:432}先自己转转，好好享受一下宴会吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 301263,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:31}姐姐……唔啊！是铁血的斯佩小姐…对、对不起，果汁差点就洒到了…",
+			say = "{namecode:31}姐姐……唔啊！是铁血的{namecode:432}小姐…对、对不起，果汁差点就洒到了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

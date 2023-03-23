@@ -65,7 +65,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "罗恩(μ兵装)",
+			actorName = "{namecode:439}(μ兵装)",
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -299,7 +299,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "罗恩(μ兵装)",
+			actorName = "{namecode:439}(μ兵装)",
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -348,7 +348,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "罗恩(μ兵装)",
+			actorName = "{namecode:439}(μ兵装)",
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -364,7 +364,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鹩(μ兵装)&罗恩(μ兵装)",
+			actorName = "鹩(μ兵装)&{namecode:439}(μ兵装)",
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,

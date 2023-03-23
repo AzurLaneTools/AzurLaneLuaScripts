@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "今天的巡逻分队由提尔比茨担当旗舰",
+			say = "今天的巡逻分队由{namecode:436}担当旗舰",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401190,
-			actorName = "z19&z20&z21",
+			actorName = "{namecode:405}&{namecode:406}&{namecode:407}",
 			say = "遵命！",
 			subActors = {
 				{
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是提尔比茨的支援炮击…敌方部队，全灭",
+			say = "是{namecode:436}的支援炮击…敌方部队，全灭",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "谢谢你，提尔比茨…",
+			say = "谢谢你，{namecode:436}…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

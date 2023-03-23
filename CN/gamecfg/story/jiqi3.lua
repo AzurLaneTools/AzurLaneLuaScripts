@@ -116,7 +116,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有护卫的模拟货船已经被U81她们给抢了，{namecode:155}她们也不知道在哪里得到了击破点数，这下可不太好办啊……",
+			say = "没有护卫的模拟货船已经被{namecode:414}她们给抢了，{namecode:155}她们也不知道在哪里得到了击破点数，这下可不太好办啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

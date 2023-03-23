@@ -842,7 +842,7 @@ pg.item_medal_fetch = {
 	},
 	[163] = {
 		itemid = 42005,
-		name = "蓝图：罗恩",
+		name = "蓝图：{namecode:439}",
 		itemquantity = 1,
 		id = 163,
 		price = 20
@@ -884,7 +884,7 @@ pg.item_medal_fetch = {
 	},
 	[169] = {
 		itemid = 42005,
-		name = "蓝图：罗恩",
+		name = "蓝图：{namecode:439}",
 		itemquantity = 2,
 		id = 169,
 		price = 40
@@ -947,7 +947,7 @@ pg.item_medal_fetch = {
 	},
 	[178] = {
 		itemid = 42015,
-		name = "蓝图：腓特烈大帝",
+		name = "蓝图：{namecode:440}",
 		itemquantity = 1,
 		id = 178,
 		price = 20
@@ -989,7 +989,7 @@ pg.item_medal_fetch = {
 	},
 	[184] = {
 		itemid = 42015,
-		name = "蓝图：腓特烈大帝",
+		name = "蓝图：{namecode:440}",
 		itemquantity = 2,
 		id = 184,
 		price = 40
@@ -1031,14 +1031,14 @@ pg.item_medal_fetch = {
 	},
 	[190] = {
 		itemid = 42023,
-		name = "蓝图：美因茨",
+		name = "蓝图：{namecode:479}",
 		itemquantity = 1,
 		id = 190,
 		price = 20
 	},
 	[191] = {
 		itemid = 42024,
-		name = "蓝图：奥丁",
+		name = "蓝图：{namecode:486}",
 		itemquantity = 1,
 		id = 191,
 		price = 20
@@ -1066,14 +1066,14 @@ pg.item_medal_fetch = {
 	},
 	[195] = {
 		itemid = 42023,
-		name = "蓝图：美因茨",
+		name = "蓝图：{namecode:479}",
 		itemquantity = 2,
 		id = 195,
 		price = 40
 	},
 	[196] = {
 		itemid = 42024,
-		name = "蓝图：奥丁",
+		name = "蓝图：{namecode:486}",
 		itemquantity = 2,
 		id = 196,
 		price = 40
@@ -1115,14 +1115,14 @@ pg.item_medal_fetch = {
 	},
 	[202] = {
 		itemid = 42033,
-		name = "蓝图：埃吉尔",
+		name = "蓝图：{namecode:480}",
 		itemquantity = 1,
 		id = 202,
 		price = 20
 	},
 	[203] = {
 		itemid = 42034,
-		name = "蓝图：奥古斯特·冯·帕塞瓦尔",
+		name = "蓝图：{namecode:481}",
 		itemquantity = 1,
 		id = 203,
 		price = 20
@@ -1150,14 +1150,14 @@ pg.item_medal_fetch = {
 	},
 	[207] = {
 		itemid = 42033,
-		name = "蓝图：埃吉尔",
+		name = "蓝图：{namecode:480}",
 		itemquantity = 2,
 		id = 207,
 		price = 40
 	},
 	[208] = {
 		itemid = 42034,
-		name = "蓝图：奥古斯特·冯·帕塞瓦尔",
+		name = "蓝图：{namecode:481}",
 		itemquantity = 2,
 		id = 208,
 		price = 40
@@ -1192,7 +1192,7 @@ pg.item_medal_fetch = {
 	},
 	[213] = {
 		itemid = 42042,
-		name = "蓝图：鲁普雷希特亲王",
+		name = "蓝图：{namecode:484}",
 		itemquantity = 1,
 		id = 213,
 		price = 20
@@ -1227,7 +1227,7 @@ pg.item_medal_fetch = {
 	},
 	[218] = {
 		itemid = 42042,
-		name = "蓝图：鲁普雷希特亲王",
+		name = "蓝图：{namecode:484}",
 		itemquantity = 2,
 		id = 218,
 		price = 40

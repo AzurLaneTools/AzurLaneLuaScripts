@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"36年Z组 Z23老师\n\n<size=45>一 问题儿童都来自——</size>",
+					"36年Z组 {namecode:408}老师\n\n<size=45>一 问题儿童都来自——</size>",
 					1
 				}
 			}
@@ -180,10 +180,10 @@ return {
 			actorShadow = true,
 			bgName = "bg_story_school",
 			side = 0,
-			actorName = "柯尼斯堡&科隆",
+			actorName = "{namecode:421}&{namecode:423}",
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "Z23？",
+			say = "{namecode:408}？",
 			subActors = {
 				{
 					actor = 402010,
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "问题儿童什么的，就交给我Z23吧！",
+			say = "问题儿童什么的，就交给我{namecode:408}吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

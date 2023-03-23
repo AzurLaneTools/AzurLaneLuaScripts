@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我可是知道哦，{namecode:91}从腓特烈那里借走的元魔方可没还。",
+			say = "我可是知道哦，{namecode:91}从{namecode:441}那里借走的元魔方可没还。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "腓特烈大帝才刚走，趁机做这种占便宜的小动作可不好哦~",
+			say = "{namecode:440}才刚走，趁机做这种占便宜的小动作可不好哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

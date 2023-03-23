@@ -488,7 +488,7 @@ return {
 			bgName = "bg_guild_red",
 			dir = 1,
 			blackBg = true,
-			say = "在俾斯麦的主持下，铁血咖啡店的准备工作在有序的氛围中稳步推进着————",
+			say = "在{namecode:435}的主持下，铁血咖啡店的准备工作在有序的氛围中稳步推进着————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

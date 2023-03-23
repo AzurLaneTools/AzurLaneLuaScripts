@@ -2319,7 +2319,7 @@ pg.expedition_data_by_map = {
 	},
 	[1070100] = {
 		map = 1070100,
-		name = "围剿斯佩伯爵！|| ||CHAPTER SP||S.P.",
+		name = "围剿{namecode:431}！|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -2363,7 +2363,7 @@ pg.expedition_data_by_map = {
 	},
 	[1070200] = {
 		map = 1070200,
-		name = "围剿斯佩伯爵！|| ||CHAPTER SP||S.P.",
+		name = "围剿{namecode:431}！|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -16844,7 +16844,7 @@ pg.expedition_data_by_map = {
 	},
 	[2200010] = {
 		map = 2200010,
-		name = "围剿斯佩伯爵！|| ||CHAPTER SP||S.P.",
+		name = "围剿{namecode:431}！|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",

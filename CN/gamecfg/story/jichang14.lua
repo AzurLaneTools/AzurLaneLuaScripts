@@ -369,7 +369,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "恶毒，以及{namecode:97}和罗恩的「感情」，已经再明确不过了。",
+			say = "恶毒，以及{namecode:97}和{namecode:439}的「感情」，已经再明确不过了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

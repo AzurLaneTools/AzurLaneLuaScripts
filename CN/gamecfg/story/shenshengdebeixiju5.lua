@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actorName = "厌战",
 			dir = 1,
-			say = "前方就是拉斯佩齐亚了——",
+			say = "前方就是拉{namecode:432}齐亚了——",
 			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,

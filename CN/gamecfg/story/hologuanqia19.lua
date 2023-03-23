@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actorName = "湊阿库娅（？）",
 			dir = 1,
-			say = "很遗憾，碧蓝航线的Z23，你将葬身于此。",
+			say = "很遗憾，碧蓝航线的{namecode:408}，你将葬身于此。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -419,7 +419,7 @@ pg.memory_group = {
 		subtype = 2,
 		type = 2,
 		id = 117,
-		title = "围剿斯佩伯爵！",
+		title = "围剿{namecode:431}！",
 		memories = {
 			196,
 			197,
@@ -582,7 +582,7 @@ pg.memory_group = {
 		subtype = 3,
 		type = 2,
 		id = 128,
-		title = "36年Z组 Z23老师",
+		title = "36年Z组 {namecode:408}老师",
 		memories = {
 			10029,
 			10030,
@@ -2827,7 +2827,7 @@ pg.memory_group = {
 		subtype = 2,
 		type = 2,
 		id = 228,
-		title = "围剿小斯佩伯爵",
+		title = "围剿{namecode:459}伯爵",
 		memories = {
 			2361,
 			2362,
@@ -3082,6 +3082,34 @@ pg.memory_group = {
 			2598,
 			2599,
 			2600
+		}
+	},
+	[241] = {
+		icon = "title_event",
+		subtype = 1,
+		type = 2,
+		id = 241,
+		title = "极地风暴",
+		memories = {
+			2611,
+			2612,
+			2613,
+			2614,
+			2615,
+			2616,
+			2617,
+			2618,
+			2619,
+			2620,
+			2621,
+			2622,
+			2623,
+			2624,
+			2625,
+			2626,
+			2627,
+			2628,
+			2629
 		}
 	},
 	[501] = {
@@ -3406,7 +3434,7 @@ pg.memory_group = {
 		subtype = 0,
 		type = 3,
 		id = 521,
-		title = "德意志的忧郁",
+		title = "{namecode:429}的忧郁",
 		memories = {
 			418,
 			419,
@@ -4555,6 +4583,7 @@ pg.memory_group = {
 		238,
 		239,
 		240,
+		241,
 		501,
 		502,
 		503,

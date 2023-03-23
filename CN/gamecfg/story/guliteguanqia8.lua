@@ -221,7 +221,7 @@ return {
 			actor = 306060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到塞壬还有这种机关……多亏了罗恩的说明，不然继续浑浑噩噩下去不知道会发生什么恐怖的事么。",
+			say = "没想到塞壬还有这种机关……多亏了{namecode:439}的说明，不然继续浑浑噩噩下去不知道会发生什么恐怖的事么。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -422,7 +422,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原本打算包扎完就走的，没想到正好遇到赶过来的茜和罗恩。",
+			say = "原本打算包扎完就走的，没想到正好遇到赶过来的茜和{namecode:439}。",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,

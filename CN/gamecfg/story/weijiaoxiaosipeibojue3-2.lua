@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 102190,
 			dir = 1,
-			say = "……那些裂缝好像不是我们打的……是小斯佩自己在破坏那些运输船！",
+			say = "……那些裂缝好像不是我们打的……是小{namecode:432}自己在破坏那些运输船！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "小{namecode:432}",
 			expression = 7,
 			side = 2,
 			say = "将大海，变为甜品之海，我原本是这么计划的……",
@@ -131,7 +131,7 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "小{namecode:432}",
 			expression = 3,
 			side = 2,
 			say = "可惜不能如愿了…………",
@@ -143,7 +143,7 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "小{namecode:432}",
 			expression = 1,
 			side = 2,
 			say = "这样的话，我就要在此自沉，沉入无穷无尽的甜品之海里！",
@@ -171,7 +171,7 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "小{namecode:432}",
 			expression = 2,
 			side = 2,
 			say = "再见了，我不会再回来了——",
@@ -209,7 +209,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "在小斯佩自沉的地方，到现在也会涌出源源不断的甜品，成为了广受好评的旅游胜地。",
+			say = "在小{namecode:432}自沉的地方，到现在也会涌出源源不断的甜品，成为了广受好评的旅游胜地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "至于小斯佩，有人说她已经前往甜品的世界了，有人说她被小欧根救了回去。",
+			say = "至于小{namecode:432}，有人说她已经前往甜品的世界了，有人说她被小{namecode:428}救了回去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"主演：小斯佩",
+					"主演：小{namecode:432}",
 					1
 				},
 				{

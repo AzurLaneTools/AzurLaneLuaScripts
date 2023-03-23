@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "距U556开始担任秘书舰已经过去了一段时间",
+			say = "距{namecode:416}开始担任秘书舰已经过去了一段时间",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "U556看起来……有点无精打采的样子？",
+			say = "{namecode:416}看起来……有点无精打采的样子？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "俾斯麦姐姐！我来找你玩啦！",
+			say = "{namecode:435}姐姐！我来找你玩啦！",
 			effects = {
 				{
 					active = true,
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_guild_red",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？是U556吗。",
+			say = "嗯？是{namecode:416}吗。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -222,7 +222,7 @@ return {
 			bgName = "bg_guild_red",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "俾斯麦姐姐，有空吗？",
+			say = "{namecode:435}姐姐，有空吗？",
 			flashout = {
 				black = true,
 				dur = 0.5,

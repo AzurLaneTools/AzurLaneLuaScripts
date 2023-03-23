@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？是斯佩啊。",
+			say = "哦？是{namecode:432}啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根小姐在这里做什么呢？",
+			say = "{namecode:428}小姐在这里做什么呢？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -142,7 +142,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "借着这个机会，问问欧根小姐的想法？",
+			say = "借着这个机会，问问{namecode:428}小姐的想法？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			},
 			options = {
 				{
-					content = "问欧根亲王",
+					content = "问{namecode:427}",
 					flag = 1
 				}
 			}
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那，斯佩的愿望是什么呢？",
+			say = "那，{namecode:432}的愿望是什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欧根小姐说出了原本我要说的话语。",
+			say = "{namecode:428}小姐说出了原本我要说的话语。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么欧根小姐会……？",
+			say = "为什么{namecode:428}小姐会……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……欧根小姐，知道该怎么解决吗？",
+			say = "……{namecode:428}小姐，知道该怎么解决吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

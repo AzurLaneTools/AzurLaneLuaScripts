@@ -509,7 +509,7 @@ return {
 			actor = 10400011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海伦娜小姐，待会见！欧根酱也要注意别喝太多哟～！会被打包带走的哦！……被我",
+			say = "海伦娜小姐，待会见！{namecode:428}酱也要注意别喝太多哟～！会被打包带走的哦！……被我",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

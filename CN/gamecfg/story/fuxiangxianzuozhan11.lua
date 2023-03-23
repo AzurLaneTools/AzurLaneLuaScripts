@@ -45,7 +45,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z46、威悉、海因里希……很好，人都到齐了。那么五分钟后训练继续开始。",
+			say = "{namecode:412}、{namecode:467}、{namecode:454}……很好，人都到齐了。那么五分钟后训练继续开始。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就按照和上午一样的配置，海因里希负责前锋，Z46负责护卫，我与威悉负责对空战。",
+			say = "那就按照和上午一样的配置，{namecode:454}负责前锋，{namecode:412}负责护卫，我与{namecode:467}负责对空战。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说的也是……算啦，这么复杂的事，只要彼得觉得对那肯定就没错了！",
+			say = "说的也是……算啦，这么复杂的事，只要{namecode:471}觉得对那肯定就没错了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，还是老样子又冲出去了……彼得？",
+			say = "呵呵，还是老样子又冲出去了……{namecode:471}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

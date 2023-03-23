@@ -53,7 +53,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "出、出现了！“铁血❤最可爱”偶像斯佩伯爵！",
+			say = "出、出现了！“铁血❤最可爱”偶像{namecode:431}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			actor = 403054,
 			dir = 1,
-			say = "德意志姐姐跟我说希望我参加的…希佩尔那边不是么？",
+			say = "{namecode:429}姐姐跟我说希望我参加的…{namecode:426}那边不是么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			actor = 403054,
 			dir = 1,
-			say = "啊哈哈哈…但是这个活动参加了感觉挺有意思的。希佩尔之前不也笑的很开心吗？",
+			say = "啊哈哈哈…但是这个活动参加了感觉挺有意思的。{namecode:426}之前不也笑的很开心吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

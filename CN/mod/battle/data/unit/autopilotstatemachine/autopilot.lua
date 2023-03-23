@@ -62,6 +62,8 @@ function slot2.generateList(slot0)
 			slot6 = uv1.Battle.AutoPilotMoveTo.New(slot7, slot0)
 		elseif slot9 == uv0.MOVE then
 			slot6 = uv1.Battle.AutoPilotMove.New(slot7, slot0)
+		elseif slot9 == uv0.MOVE_RELATIVE then
+			slot6 = uv1.Battle.AutoPilotMoveRelative.New(slot7, slot0)
 		elseif slot9 == uv0.BROWNIAN then
 			slot6 = uv1.Battle.AutoPilotBrownian.New(slot7, slot0)
 		elseif slot9 == uv0.CIRCLE then

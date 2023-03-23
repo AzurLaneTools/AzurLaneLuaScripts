@@ -13,7 +13,7 @@ return {
 			stopbgm = true,
 			actor = 401160,
 			nameColor = "#A9F548FF",
-			say = "布吕歇尔，前方发现了敌方的增援！",
+			say = "{namecode:450}，前方发现了敌方的增援！",
 			bgm = "story-6",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "这次的领队是……齐柏林伯爵的棋子！",
+			say = "这次的领队是……{namecode:437}的棋子！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "只有齐柏林伯爵，没有其他护卫……？",
+			say = "只有{namecode:437}，没有其他护卫……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "不过齐柏林伯爵，我记得她当时的舰装完成度也比较……",
+			say = "不过{namecode:437}，我记得她当时的舰装完成度也比较……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			nameColor = "#ff5c5c",
 			bgName = "bg_yuanhuidian",
 			side = 2,
-			actorName = "齐柏林伯爵？",
+			actorName = "{namecode:437}？",
 			say = "………………",
 			typewriter = {
 				speed = 0.05,

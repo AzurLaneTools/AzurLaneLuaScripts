@@ -55,7 +55,7 @@ return {
 			actor = 401020,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "心情很好啊，欧根。",
+			say = "心情很好啊，{namecode:428}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

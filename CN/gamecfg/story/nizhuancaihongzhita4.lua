@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "彼得~你终于开完会了！接下来我们要做什么，启动之后工作就结束了么？",
+			say = "{namecode:471}~你终于开完会了！接下来我们要做什么，启动之后工作就结束了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "等到乌尔里希阁下的探索舰队进入奇异点，然后再顺利出来的话，我们的工作才算告一段落哦。",
+			say = "等到{namecode:464}阁下的探索舰队进入奇异点，然后再顺利出来的话，我们的工作才算告一段落哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406010,
-			say = "史特拉塞，这里是正在执行侦察任务的威悉。",
+			say = "{namecode:472}，这里是正在执行侦察任务的{namecode:467}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "你是……刚刚到达的U-1206？请按顺序说明吧。",
+			say = "你是……刚刚到达的{namecode:476}？请按顺序说明吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "U-1206，怎么一会不见，你就跑去和威悉一起巡逻了？",
+			say = "{namecode:476}，怎么一会不见，你就跑去和{namecode:467}一起巡逻了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "没想到错过午餐的不是阿达尔伯特，是你啊。",
+			say = "没想到错过午餐的不是{namecode:456}，是你啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 408120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嘿嘿，才没有~第二码头也有食堂哦，威悉已经带我去吃过了！",
+			say = "嘿嘿，才没有~第二码头也有食堂哦，{namecode:467}已经带我去吃过了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "我和威悉会先发动突袭争取时间，不过我建议尽快布置防线比较好哦。",
+			say = "我和{namecode:467}会先发动突袭争取时间，不过我建议尽快布置防线比较好哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "不过，即将执行探索任务的各位就不用参与了，请直接前往内环区，乌尔里希阁下正在等待各位。",
+			say = "不过，即将执行探索任务的各位就不用参与了，请直接前往内环区，{namecode:464}阁下正在等待各位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有道理，你说得对。易北，马格德堡，还有现在不知道在哪个位置的U-1206。",
+			say = "有道理，你说得对。{namecode:468}，{namecode:447}，还有现在不知道在哪个位置的{namecode:476}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海因里希，外围战斗加油哦。",
+			say = "{namecode:454}，外围战斗加油哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

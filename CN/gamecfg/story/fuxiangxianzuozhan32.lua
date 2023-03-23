@@ -40,11 +40,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "{namecode:453}",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好！今天就到这里了！非常感谢，彼得！",
+			say = "好！今天就到这里了！非常感谢，{namecode:471}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,11 +56,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的学习才刚刚开始了十五分钟哦，海因里希~",
+			say = "今天的学习才刚刚开始了十五分钟哦，{namecode:454}~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "{namecode:453}",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -90,9 +90,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_fuxiangxian_6",
-			actorName = "海因里希亲王",
+			actorName = "{namecode:453}",
 			dir = 1,
-			say = "对了，欧根呢，欧根快来帮我！！！！！！！！！！",
+			say = "对了，{namecode:428}呢，{namecode:428}快来帮我！！！！！！！！！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -109,11 +109,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根今天又一大早扎进X区了哦。就算她在，也只会再笑嘻嘻的多给你增加两本记录而已。",
+			say = "{namecode:428}今天又一大早扎进X区了哦。就算她在，也只会再笑嘻嘻的多给你增加两本记录而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "{namecode:453}",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -141,11 +141,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次战斗的结果表明，海因里希的战斗能力十分出色，所以战斗训练只要保持目前的步调就好了。",
+			say = "这次战斗的结果表明，{namecode:454}的战斗能力十分出色，所以战斗训练只要保持目前的步调就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "{namecode:453}",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -173,7 +173,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -189,7 +189,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -205,7 +205,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "{namecode:453}",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -221,7 +221,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "{namecode:453}",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -237,11 +237,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至少为了我们的海因里希不要再次在重樱和撒丁帝国的盟友都在场的正式场合里做出对着构建者喊出海蟑螂这样名字的行为，好好加油吧。",
+			say = "至少为了我们的{namecode:454}不要再次在重樱和撒丁帝国的盟友都在场的正式场合里做出对着构建者喊出海蟑螂这样名字的行为，好好加油吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "{namecode:453}",
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,

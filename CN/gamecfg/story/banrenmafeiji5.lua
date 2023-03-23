@@ -97,7 +97,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我跟你说哦，去年夏天铁血虽然已经加入了不少人，不过只有欧根一个人来过海边玩，今年就好多了呢~",
+			say = "我跟你说哦，去年夏天铁血虽然已经加入了不少人，不过只有{namecode:428}一个人来过海边玩，今年就好多了呢~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -138,7 +138,7 @@ return {
 			actor = 206040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Z25前辈，Z46前辈，你们好。",
+			say = "{namecode:409}前辈，{namecode:412}前辈，你们好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z46不是前辈……",
+			say = "{namecode:412}不是前辈……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z25，Z46，来坐这边~",
+			say = "{namecode:409}，{namecode:412}，来坐这边~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "齐柏林，你也过来坐坐吧。",
+			say = "{namecode:438}，你也过来坐坐吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "提尔比茨前辈和齐柏林前辈，中午好。",
+			say = "{namecode:436}前辈和{namecode:438}前辈，中午好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？话说…德意志小姐呢？",
+			say = "嗯？话说…{namecode:429}小姐呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她啊，好像是被欧根灌输了什么奇怪的知识，整天在研究怎么样才能用泳装诱惑指挥官，刚到沙滩就跑去欧根那边了。",
+			say = "她啊，好像是被{namecode:428}灌输了什么奇怪的知识，整天在研究怎么样才能用泳装诱惑指挥官，刚到沙滩就跑去{namecode:428}那边了。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -569,7 +569,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给她找点事情做也好…欧根这次算是干得不错了。",
+			say = "给她找点事情做也好…{namecode:428}这次算是干得不错了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，提尔比茨小姐是喜欢这种运动的类型吗？",
+			say = "咦，{namecode:436}小姐是喜欢这种运动的类型吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

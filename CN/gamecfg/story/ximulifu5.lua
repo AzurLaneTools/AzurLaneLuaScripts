@@ -233,7 +233,7 @@ return {
 			actor = 301152,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喔？是斯佩带着{namecode:32}找到我们的吗？",
+			say = "喔？是{namecode:432}带着{namecode:32}找到我们的吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…其实斯佩小姐她……",
+			say = "…其实{namecode:432}小姐她……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

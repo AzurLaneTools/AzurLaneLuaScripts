@@ -10,7 +10,7 @@ return {
 			actor = 401210,
 			side = 1,
 			nameColor = "#ff5c5c",
-			say = "可恶，你们等着，Z2她们会帮我报仇的！",
+			say = "可恶，你们等着，{namecode:401}她们会帮我报仇的！",
 			dir = 1,
 			bgm = "battle-boss-1",
 			typewriter = {

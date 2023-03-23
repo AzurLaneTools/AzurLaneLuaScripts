@@ -115,7 +115,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这真是一个令人振奋的好消息。非常感谢，俾斯麦阁下。",
+			say = "这真是一个令人振奋的好消息。非常感谢，{namecode:435}阁下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 405010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我已经将博览会的事交给了欧根亲王，她在近日就会带队抵达罗马。",
+			say = "我已经将博览会的事交给了{namecode:427}，她在近日就会带队抵达罗马。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我们当然没问题。欧根亲王办事认真可靠，她的能力是有目共睹的。",
+			say = "我们当然没问题。{namecode:427}办事认真可靠，她的能力是有目共睹的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "我是真的完全没想到有生之年还能再见到俾斯麦，更别提跟她开会了……",
+			say = "我是真的完全没想到有生之年还能再见到{namecode:435}，更别提跟她开会了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "是啊~真没想到俾斯麦居然能完好无损的回来。",
+			say = "是啊~真没想到{namecode:435}居然能完好无损的回来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "不过这不也挺好么？以后不用再跟隔着通讯器都能释放压力的腓特烈大帝打交道了。",
+			say = "不过这不也挺好么？以后不用再跟隔着通讯器都能释放压力的{namecode:440}打交道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "俾斯麦相比腓特烈大帝确实更有人情味一点，不过总感觉她，不够可信……",
+			say = "{namecode:435}相比{namecode:440}确实更有人情味一点，不过总感觉她，不够可信……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "此前由北方联合牵头的打击行动，如果不是因为腓特烈大帝的惊人之举是不可能鸣金收兵的。",
+			say = "此前由北方联合牵头的打击行动，如果不是因为{namecode:440}的惊人之举是不可能鸣金收兵的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "逻辑终究是逻辑，毕竟是那个俾斯麦，我也实在是拿不准啊……",
+			say = "逻辑终究是逻辑，毕竟是那个{namecode:435}，我也实在是拿不准啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

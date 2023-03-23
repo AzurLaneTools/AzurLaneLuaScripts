@@ -180,7 +180,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "铁血主力舰队啊......俾斯麦已经销声匿迹很久了，听说铁血现在前的所有舰队都由腓特烈大帝控制。",
+			say = "铁血主力舰队啊......{namecode:435}已经销声匿迹很久了，听说铁血现在前的所有舰队都由{namecode:440}控制。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 205090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "沙恩霍斯特、格奈森瑙、提尔比茨、斯佩伯爵…都在之前的打击行动里先后受到了不同程度的损伤，也有一段时间没有在海面上看到了吧。",
+			say = "{namecode:433}、{namecode:434}、{namecode:436}、{namecode:431}…都在之前的打击行动里先后受到了不同程度的损伤，也有一段时间没有在海面上看到了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

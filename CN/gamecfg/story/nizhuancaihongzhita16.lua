@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "乌尔里希一直都是这种状态哦，总不能指望她能在撤退的路上陪你聊天吧。",
+			say = "{namecode:464}一直都是这种状态哦，总不能指望她能在撤退的路上陪你聊天吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "当然不是说乌尔里希阁下啊，另一位，另一位！",
+			say = "当然不是说{namecode:464}阁下啊，另一位，另一位！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "U-1206回头看了看跟在队伍后方浑身散发着阴沉气息的舰队“新成员”。",
+			say = "{namecode:476}回头看了看跟在队伍后方浑身散发着阴沉气息的舰队“新成员”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然乌尔里希说没问题，那就没问题吧。",
+			say = "既然{namecode:464}说没问题，那就没问题吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "好奇，但是没什么意义吧，反正就算去问乌尔里希，她也不会老实回答你。",
+			say = "好奇，但是没什么意义吧，反正就算去问{namecode:464}，她也不会老实回答你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是我们才到这里，又才认识她，乌尔里希阁下是怎么抓到她的把柄的呢？",
+			say = "可是我们才到这里，又才认识她，{namecode:464}阁下是怎么抓到她的把柄的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "额……这个我还没细想，不过有可能是那个……格奈森瑙·META说不定以前有很多经历跟我们的格奈森瑙是一样的。",
+			say = "额……这个我还没细想，不过有可能是那个……{namecode:434}·META说不定以前有很多经历跟我们的{namecode:434}是一样的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "也许以前抓到的格奈森瑙的把柄，在这里也能用得上……之类的？",
+			say = "也许以前抓到的{namecode:434}的把柄，在这里也能用得上……之类的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

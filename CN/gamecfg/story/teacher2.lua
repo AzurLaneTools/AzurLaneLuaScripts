@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"36年Z组 Z23老师\n\n<size=45>二 尼特最后的尊严</size>",
+					"36年Z组 {namecode:408}老师\n\n<size=45>二 尼特最后的尊严</size>",
 					1
 				}
 			}
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "努努努——嗯？啊，是铁血的……嗯……我想想，Z23？",
+			say = "努努努——嗯？啊，是铁血的……嗯……我想想，{namecode:408}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

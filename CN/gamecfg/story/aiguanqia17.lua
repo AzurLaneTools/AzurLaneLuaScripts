@@ -8,7 +8,7 @@ return {
 			actor = 403038,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "欧根酱",
+			actorName = "{namecode:428}酱",
 			dir = 1,
 			say = "到此为止了哦，不会让你们到绊爱那里去的",
 			typewriter = {
@@ -25,7 +25,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根小姐！？你们也来虚拟镜面海域了吗！？……不过，为什么是誓约换装……？",
+			say = "{namecode:428}小姐！？你们也来虚拟镜面海域了吗！？……不过，为什么是誓约换装……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23，注意的说。好像有点不对劲",
+			say = "{namecode:408}，注意的说。好像有点不对劲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绊爱舰队……话说，欧根小姐和{namecode:66}小姐为什么都穿着誓约换装？",
+			say = "绊爱舰队……话说，{namecode:428}小姐和{namecode:66}小姐为什么都穿着誓约换装？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "欧根酱",
+			actorName = "{namecode:428}酱",
 			dir = 1,
 			say = "你猜？无论如何，不能让你们把我们的“指挥官”……绊爱击败呢。想要过来的话，就做好相应的心理准备吧",
 			typewriter = {
@@ -226,7 +226,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根小姐！大家保护爱酱的心情应该都是一样的才对吧？所以和我们一起去帮助爱酱吧！",
+			say = "{namecode:428}小姐！大家保护爱酱的心情应该都是一样的才对吧？所以和我们一起去帮助爱酱吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "欧根酱",
+			actorName = "{namecode:428}酱",
 			dir = 1,
 			say = "这点…做不到呢",
 			typewriter = {

@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "在最初的试探性连败之后，布伦希尔德逐渐展现出了自己的真实实力，一点一点将比分扳了回来。",
+			say = "在最初的试探性连败之后，{namecode:462}逐渐展现出了自己的真实实力，一点一点将比分扳了回来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "那些棋子都是从哪里冒出来的啊……我们的航空母舰不是只有齐柏林伯爵一艘么！",
+			say = "那些棋子都是从哪里冒出来的啊……我们的航空母舰不是只有{namecode:437}一艘么！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "我也不知道。威悉和彼得·史特拉赛……都是我从来没听说过的名字。",
+			say = "我也不知道。{namecode:467}和{namecode:471}·史特拉赛……都是我从来没听说过的名字。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "是啊……最近布伦希尔德的船越来越多，不但航空编队成型了，巡洋舰的数量也在迅速增长。",
+			say = "是啊……最近{namecode:462}的船越来越多，不但航空编队成型了，巡洋舰的数量也在迅速增长。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "今天俾斯麦大人的数据也没更新么？",
+			say = "今天{namecode:435}大人的数据也没更新么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "呜呜呜……不会俾斯麦大人在外面出什么事了吧！",
+			say = "呜呜呜……不会{namecode:435}大人在外面出什么事了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "怎么可能！俾斯麦大人不但是我们的领袖，也是舰队里最强的人！",
+			say = "怎么可能！{namecode:435}大人不但是我们的领袖，也是舰队里最强的人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "世界上最强的战列舰！能打败俾斯麦大人的人钢板都还没铺出去呢！",
+			say = "世界上最强的战列舰！能打败{namecode:435}大人的人钢板都还没铺出去呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "布吕歇尔，我们已经在这里呆了好久了，我好想回家。",
+			say = "{namecode:450}，我们已经在这里呆了好久了，我好想回家。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 403020,
-			say = "……为了我们能够展现全部实力，真希望俾斯麦大人的棋子能够早日恢复正常啊……",
+			say = "……为了我们能够展现全部实力，真希望{namecode:435}大人的棋子能够早日恢复正常啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

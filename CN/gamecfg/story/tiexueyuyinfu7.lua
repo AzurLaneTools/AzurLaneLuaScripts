@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "bsm-3",
 			dir = 1,
-			say = "俾斯麦中弹确认，但仍在高速前进",
+			say = "{namecode:435}中弹确认，但仍在高速前进",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 1,
 			actor = 205050,
 			dir = 1,
-			say = "赌上皇家舰队的荣耀，绝对不能放走俾斯麦！",
+			say = "赌上皇家舰队的荣耀，绝对不能放走{namecode:435}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

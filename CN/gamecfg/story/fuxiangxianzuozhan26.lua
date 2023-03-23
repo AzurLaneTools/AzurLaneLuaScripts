@@ -62,7 +62,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "彼得，镜面海域正在解除，你之前做了什么？！！",
+			say = "{namecode:471}，镜面海域正在解除，你之前做了什么？！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在目标区域中仅剩下了欧根亲王与另一个高强度塞壬目标…………推测为塞壬人型指挥，构建者。",
+			say = "现在目标区域中仅剩下了{namecode:427}与另一个高强度塞壬目标…………推测为塞壬人型指挥，构建者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "由欧根亲王携带装置伪造了铁血舰队与重樱舰队行动的假象……所以欧根亲王是真的。",
+			say = "由{namecode:427}携带装置伪造了铁血舰队与重樱舰队行动的假象……所以{namecode:427}是真的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此……这样就说得通了。很厉害啊欧根，居然能在这种局面下完成这样的协作……",
+			say = "原来如此……这样就说得通了。很厉害啊{namecode:428}，居然能在这种局面下完成这样的协作……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本日出现的短时通信故障就是一切的开端，恐怕欧根亲王原本今天就会带领舰队前来，重樱舰队大概也是如此。",
+			say = "本日出现的短时通信故障就是一切的开端，恐怕{namecode:427}原本今天就会带领舰队前来，重樱舰队大概也是如此。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以才造成了这样的误会与混乱……既然是这样，欧根在进入海域之后直接联系我们就好了吧？",
+			say = "所以才造成了这样的误会与混乱……既然是这样，{namecode:428}在进入海域之后直接联系我们就好了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以意识到这些的欧根就将计就计伪装成异常的棋子诱导我们的行动，然后在最后攻击波抵达前暴露出塞壬主谋的真正位置……",
+			say = "所以意识到这些的{namecode:428}就将计就计伪装成异常的棋子诱导我们的行动，然后在最后攻击波抵达前暴露出塞壬主谋的真正位置……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欧根也真是厉害……我只是猜到今天肯定有塞壬在捣鬼，没想到居然会这么复杂……",
+			say = "{namecode:428}也真是厉害……我只是猜到今天肯定有塞壬在捣鬼，没想到居然会这么复杂……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "去追欧根的是海因里希，然后就一直留在了那边……那她岂不是早就知道了？",
+			say = "去追{namecode:428}的是{namecode:454}，然后就一直留在了那边……那她岂不是早就知道了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵…看来是呢………我们的打击区域也是海因里希告诉欧根的吧。",
+			say = "呵呵…看来是呢………我们的打击区域也是{namecode:454}告诉{namecode:428}的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那这次海因里希绝对算出色地完成了任务，之前汇报追击进度的时候我居然没能发现任何违和感……",
+			say = "那这次{namecode:454}绝对算出色地完成了任务，之前汇报追击进度的时候我居然没能发现任何违和感……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_fuxiangxian_4",
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			dir = 1,
 			say = "现在向海域中的所有铁血战士，以及作为盟友的重樱与撒丁帝国战士进行广播通告：",
 			bgm = "bsm-9",
@@ -492,11 +492,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我是铁血第二主力舰队旗舰，本处铁血基地的负责人之一，彼得·史特拉塞。",
+			say = "我是铁血第二主力舰队旗舰，本处铁血基地的负责人之一，{namecode:470}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -524,7 +524,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -540,7 +540,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -556,12 +556,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "——————彼得·史特拉塞通话结束。",
+			say = "——————{namecode:470}通话结束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

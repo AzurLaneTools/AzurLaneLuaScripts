@@ -77,7 +77,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不对，好像是我们的增援，是Z2！",
+			say = "不对，好像是我们的增援，是{namecode:401}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "忙完了么？我是Z2，对面的皇家驱逐舰，你是谁？",
+			say = "忙完了么？我是{namecode:401}，对面的皇家驱逐舰，你是谁？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

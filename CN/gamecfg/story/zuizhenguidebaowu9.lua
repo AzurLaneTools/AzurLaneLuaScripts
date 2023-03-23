@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U556，没事就好",
+			say = "{namecode:416}，没事就好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "呜哇！是U110啊…吓了我一跳…",
+			say = "呜哇！是{namecode:420}啊…吓了我一跳…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感谢U110的机智吧—",
+			say = "感谢{namecode:420}的机智吧—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "是啊…多亏了U110把大斗犬吸引开了",
+			say = "是啊…多亏了{namecode:420}把大斗犬吸引开了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U110装死了。特意把包丢下，吸引大斗犬的注意。超努力。",
+			say = "{namecode:420}装死了。特意把包丢下，吸引大斗犬的注意。超努力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

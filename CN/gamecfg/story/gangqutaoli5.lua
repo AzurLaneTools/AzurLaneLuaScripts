@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只能这么理解了喵…小{namecode:71}和小齐柏林似乎也只记得一部分的“战历”喵……",
+			say = "只能这么理解了喵…小{namecode:71}和小{namecode:438}似乎也只记得一部分的“战历”喵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小齐柏林，小{namecode:71}！太好了！",
+			say = "小{namecode:438}，小{namecode:71}！太好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "小…齐柏林？",
+			say = "小…{namecode:438}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "小齐柏林？",
+			say = "小{namecode:438}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -101,7 +101,7 @@ return {
 			side = 2,
 			actorName = "系统提示",
 			nameColor = "#A9F548FF",
-			say = "Z23  Lv1战士，加入了队伍。",
+			say = "{namecode:408}  Lv1战士，加入了队伍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

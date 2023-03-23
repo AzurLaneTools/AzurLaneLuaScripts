@@ -362,7 +362,7 @@ pg.box_data_template = {
 	},
 	[10108] = {
 		id = 10108,
-		name = "徽章·希佩尔",
+		name = "徽章·{namecode:426}",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -426,7 +426,7 @@ pg.box_data_template = {
 	},
 	[10116] = {
 		id = 10116,
-		name = "邮票·罗恩 ",
+		name = "邮票·{namecode:439} ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",

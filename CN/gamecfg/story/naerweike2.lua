@@ -58,7 +58,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z2，已经顺利完成占领了。",
+			say = "{namecode:401}，已经顺利完成占领了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "Z2还是老样子冷淡欸，完成了任务应该开心点嘛。",
+			say = "{namecode:401}还是老样子冷淡欸，完成了任务应该开心点嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我又不是Z1。而且，现在还不到放松的时候。",
+			say = "我又不是{namecode:400}。而且，现在还不到放松的时候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对，皇家和我们一样，都需要包括纳尔维克在内的一系列港口……昨天，沙恩姐妹已经和对方的声望交过手了，前天，希佩尔也被一艘皇家驱逐逼退……",
+			say = "对，皇家和我们一样，都需要包括纳尔维克在内的一系列港口……昨天，沙恩姐妹已经和对方的声望交过手了，前天，{namecode:426}也被一艘皇家驱逐逼退……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

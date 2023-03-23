@@ -168,7 +168,7 @@ return {
 			expression = 4,
 			actor = 900268,
 			actorName = "小加加？",
-			say = "我在去海边游乐园玩的时候，偶然目击到了欧根亲王进行甜品交易的现场！",
+			say = "我在去海边游乐园玩的时候，偶然目击到了{namecode:427}进行甜品交易的现场！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

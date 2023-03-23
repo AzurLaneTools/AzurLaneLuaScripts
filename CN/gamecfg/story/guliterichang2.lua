@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家好，叫我斯佩就行。",
+			say = "大家好，叫我{namecode:432}就行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "斯佩的打扮很可爱~和性格气质很配呢，这也算是一种特长嘛。",
+			say = "{namecode:432}的打扮很可爱~和性格气质很配呢，这也算是一种特长嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "化妆什么的其实都是欧根她们教我的……多亏了铁血的同伴们。",
+			say = "化妆什么的其实都是{namecode:428}她们教我的……多亏了铁血的同伴们。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

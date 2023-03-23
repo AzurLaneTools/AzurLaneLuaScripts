@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总感觉在刚来的时候听过U-1206说过类似的话……",
+			say = "总感觉在刚来的时候听过{namecode:476}说过类似的话……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "U-1206，你来水面上看看，是和之前你见到的残骸一样的感觉么？",
+			say = "{namecode:476}，你来水面上看看，是和之前你见到的残骸一样的感觉么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "U-1206……？",
+			say = "{namecode:476}……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

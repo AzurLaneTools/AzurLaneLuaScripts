@@ -102,7 +102,7 @@ return {
 			nameColor = "#D6341D",
 			side = 0,
 			dir = 1,
-			say = "嗯？啊……没什么，没想到会这么难缠而已，真是个不错的对手……格奈森瑙，你没事吧？",
+			say = "嗯？啊……没什么，没想到会这么难缠而已，真是个不错的对手……{namecode:434}，你没事吧？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

@@ -115,7 +115,7 @@ return {
 			actor = 408041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿，我找到u47啦！",
+			say = "嘿嘿嘿，我找到{namecode:413}啦！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -149,7 +149,7 @@ return {
 			actor = 401234,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的，u47，这可是我们铁血主办的宴会哦，作为铁血的一员怎么能这样躲在没人的角落呢！",
+			say = "真是的，{namecode:413}，这可是我们铁血主办的宴会哦，作为铁血的一员怎么能这样躲在没人的角落呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 199011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哟，怎么了吗罗恩？露出一脸微妙的表情～",
+			say = "哟，怎么了吗{namecode:439}？露出一脸微妙的表情～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

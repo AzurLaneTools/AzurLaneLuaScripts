@@ -158,7 +158,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "恩尼格玛？嗯，U110，最喜欢恩尼格玛了",
+			say = "恩尼格玛？嗯，{namecode:420}，最喜欢恩尼格玛了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "很有趣吧？U110最喜欢破译游戏了~",
+			say = "很有趣吧？{namecode:420}最喜欢破译游戏了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "密码本？俾斯麦姐姐说，不能告诉皇家。所以，不告诉你。",
+			say = "密码本？{namecode:435}姐姐说，不能告诉皇家。所以，不告诉你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，还是不了。因为U110的朋友已经来了哦~",
+			say = "唔，还是不了。因为{namecode:420}的朋友已经来了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
