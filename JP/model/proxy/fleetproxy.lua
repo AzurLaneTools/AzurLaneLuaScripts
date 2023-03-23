@@ -243,13 +243,20 @@ function slot0.addActivityFleet(slot0, slot1, slot2)
 	slot3 = slot0.activityFleetData[slot1]
 	slot4 = getProxy(BayProxy)
 	slot5 = nil
+	slot6 = pg.activity_template[slot1]
 
-	for slot9, slot10 in ipairs(slot2) do
-		slot11 = Fleet.New(slot10)
-		slot3[slot11.id] = slot11
+	for slot10, slot11 in ipairs(slot2) do
+		slot12 = Fleet
 
-		for slot15, slot16 in ipairs(slot10.ship_list) do
-			if not slot4:getShipById(slot16) then
+		if slot6.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+			slot12 = BossRushFleet
+		end
+
+		slot13 = slot12.New(slot11)
+		slot3[slot13.id] = slot13
+
+		for slot17, slot18 in ipairs(slot11.ship_list) do
+			if not slot4:getShipById(slot18) then
 				slot5 = true
 
 				break
@@ -261,20 +268,23 @@ function slot0.addActivityFleet(slot0, slot1, slot2)
 		slot0:commitActivityFleet(slot1)
 	end
 
-	slot6, slot7 = nil
+	slot7, slot8 = nil
 
-	if pg.activity_template[slot1].type == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
-		slot6 = 2
+	if slot6.type == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
 		slot7 = 2
-	else
-		slot9 = pg.activity_event_worldboss[slot8.config_id]
-		slot6 = slot9.group_num
-		slot7 = slot9.submarine_num
+		slot8 = 2
+	elseif slot6.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+		slot9 = pg.activity_event_worldboss[slot6.config_id]
+		slot7 = slot9.group_num
+		slot8 = slot9.submarine_num
+	elseif slot6.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+		slot7 = 0
+		slot8 = 0
 	end
 
 	slot9 = 0
 
-	while slot6 > slot9 do
+	while slot7 > slot9 do
 		if slot3[slot9 + 1] == nil then
 			slot3[slot9] = Fleet.New({
 				id = slot9,
@@ -285,7 +295,7 @@ function slot0.addActivityFleet(slot0, slot1, slot2)
 
 	slot9 = 0
 
-	while slot7 > slot9 do
+	while slot8 > slot9 do
 		if slot3[Fleet.SUBMARINE_FLEET_ID + slot9] == nil then
 			slot3[slot10] = Fleet.New({
 				id = slot10,

@@ -29,8 +29,8 @@ function slot0.Update(slot0, slot1)
 	end
 
 	slot0.furniture = slot1
-	slot0.name.text = shortenString(slot1:getConfig("name"), 9)
-	slot0.desc.text = slot1:getConfig("describe")
+	slot0.name.text = HXSet.hxLan(slot1:getConfig("name"))
+	slot0.desc.text = HXSet.hxLan(slot1:getConfig("describe"))
 	slot0.comfortable.text = slot1:getConfig("comfortable")
 
 	GetSpriteFromAtlasAsync("furnitureicon/" .. slot1:getConfig("icon"), "", function (slot0)

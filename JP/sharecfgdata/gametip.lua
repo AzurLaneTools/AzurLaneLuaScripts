@@ -2113,7 +2113,7 @@ _G.pg.base.gametip.exercise_rule_tip = {
 8、演習相手リストは毎日<color=#92fc63>5</color>回まで変更できます
 9、演習後、演習相手リストはリセットされます
 10、演習可能回数は00:00、12:00、18:00にリセットされます
-11、演習期間終了後、全ユーザーの階級とスコアはリセットされます]]
+11、演習期間終了後、演習可能回数、全ユーザーの階級とスコアはリセットされます]]
 }
 
 _G.pg.base.gametip.exercise_award_tip = {
@@ -8089,6 +8089,10 @@ _G.pg.base.gametip.word_propose_cost_tip = {
 	tip = "ケッコンは誓いの指輪を<color=#92fc63>1</color>つ消費します（所持数：<color=#92fc63>$1</color>）\n\n<size=32>*ケッコンした艦船は専属艦になり、名前を変更でき、更に性能が<color=#92fc63>3%</color>強化されます</size>"
 }
 
+_G.pg.base.gametip.word_propose_switch_tip = {
+	tip = "修正成功"
+}
+
 _G.pg.base.gametip.evaluate_too_loog = {
 	tip = "コメントが長すぎです"
 }
@@ -8800,6 +8804,10 @@ _G.pg.base.gametip.word_status_world = {
 
 _G.pg.base.gametip.word_status_inHardFormation = {
 	tip = "<size=24>ﾊｰﾄﾞ編成中</size>"
+}
+
+_G.pg.base.gametip.word_status_series_enemy = {
+	tip = "<size=24>ｲﾍﾞﾝﾄ編成中</size>"
 }
 
 _G.pg.base.gametip.challenge_current_score = {
@@ -10093,7 +10101,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「ヴィットリオ·ヴェネト」「アクィラ」などの出現率UP！"
+	tip = "「クルスク」「ヴォロシーロフ」などの出現率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -16486,7 +16494,7 @@ _G.pg.base.gametip.ur_exchange_help_tip = {
 }
 
 _G.pg.base.gametip.fleet_antisub_range = {
-	tip = "対潜探知："
+	tip = "対潜探知"
 }
 
 _G.pg.base.gametip.fleet_antisub_range_tip = {
@@ -19302,7 +19310,7 @@ _G.pg.base.gametip.formationScene_use_oil_limit_surface = {
 }
 
 _G.pg.base.gametip.formationScene_use_oil_limit_tip_worldboss = {
-	tip = "消費上限："
+	tip = "消費上限:"
 }
 
 _G.pg.base.gametip.attr_durability = {
@@ -20841,6 +20849,72 @@ _G.pg.base.gametip.battlepass_main_help_2302 = {
 }
 
 _G.pg.base.gametip.cruise_task_help_2302 = {
+	tip = {
+		{
+			info = [[
+■シーズン任務について
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+　①週次開放任務
+　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ
+　②全期間任務
+　最初から全開放される任務。全1グループ
+
+・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+
+・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+　ダイヤを消費しますので、オススメしません……
+　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battlepass_main_tip_2304 = {
+	tip = "<size=23> 2023.4.1-2023.5.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「ラ·ガリソニエール(META)」</color>などを入手可能！</size>"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2304 = {
+	tip = {
+		{
+			info = [[
+■キャンペーン開催期間
+ 2023.4.1（土）0:00～2023.5.31（水）23:59
+
+■概要
+「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。
+また、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。
+通常報酬からは艦船「ラ·ガリソニエール(META)」、SP報酬からは駆逐艦「ヴォークラン」の限定着せ替え「パラレルアドベンチャー」を入手できます。
+
+■遊び方
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+　①週次開放任務
+　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ
+　②全期間任務
+　最初から全開放される任務。全1グループ
+・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。
+・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。
+　①通常報酬
+　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります
+　②SP報酬
+　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。
+・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。
+
+■Tips
+・プレイスタイル
+　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。
+
+・クルーズパス
+　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。
+
+・任務のスキップ（オススメしません）
+　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+　ダイヤを消費しますので、オススメしません厖
+　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2304 = {
 	tip = {
 		{
 			info = [[
@@ -23495,10 +23569,118 @@ _G.pg.base.gametip.battle_text_yingxiv4_10 = {
 	tip = "騎士の動きが弱っている、火力を集中せよ！"
 }
 
+_G.pg.base.gametip.series_enemy_mood = {
+	tip = "戦意低下"
+}
+
+_G.pg.base.gametip.series_enemy_mood_error = {
+	tip = "コンディションが30以下の艦船がいるため単独出撃できません"
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip1 = {
+	tip = "基本報酬"
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip2 = {
+	tip = "協同出撃報酬"
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip3 = {
+	tip = "クリア報酬"
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip4 = {
+	tip = "最高スコア"
+}
+
+_G.pg.base.gametip.series_enemy_cost = {
+	tip = "合計消費："
+}
+
+_G.pg.base.gametip.series_enemy_SP_count = {
+	tip = "残り回数："
+}
+
+_G.pg.base.gametip.series_enemy_SP_error = {
+	tip = "本日はこれ以上挑戦できません"
+}
+
+_G.pg.base.gametip.series_enemy_unlock = {
+	tip = "まずは前の難易度のステージをクリアしてください"
+}
+
+_G.pg.base.gametip.series_enemy_storyunlock = {
+	tip = "次のストーリーを開放"
+}
+
+_G.pg.base.gametip.series_enemy_storyreward = {
+	tip = "解放済："
+}
+
+_G.pg.base.gametip.series_enemy_help = {
+	tip = [[
+連戦イベント「星霜嵐海」
+開催期間：<color=#92fc63>2023.3.23-2023.4.6メンテナンスまで</color>
+
+概要：
+イベント「星霜嵐海」とは、艦隊を編成し特別ステージに出撃することでイベントPtを入手し、イベント報酬を獲得するイベントです。
+イベントPtを貯めると累計入手数報酬を入手できます。
+イベントバナーの「出撃」をタップすると、イベントステージ選択画面に遷移できます。
+
+遊び方
+1. イベントステージ選択画面では、左下のボタンで「戦闘準備」「ストーリー閲覧」を切り替えることができます。
+2. 「戦闘準備」では、艦隊を編成し特別ステージに挑戦することができます。特別ステージは低い難易度のステージをクリアすると、高い難易度のステージが開放されます。
+3. EASY難易度以外の特別ステージは、一度の出撃で複数回の戦闘が行われます。
+4. 出撃の際に、戦闘の回数だけ艦隊を編成し出撃させることができます。出撃艦隊の個数は出撃準備画面で「単独出撃」「協同出撃」を切り替えられます。
+　単独出撃では、１個の艦隊でステージのすべての戦闘を行います
+　 協同出撃では、ステージの戦闘に応じてそれぞれ艦隊を編成し出撃させ、戦闘をそれぞれの艦隊にて行います。
+5. 特別ステージに出撃し、すべての戦闘で勝利すると、ステージ勝利になりイベントPtが入手できます。複数個の艦隊で出撃（協同出撃）した場合、追加の報酬を入手できます。
+6. EASY、NORMAL、HARD難易度のステージは燃料を消費し無制限に挑戦することができます。SPステージは1日に一度しかクリアできず、またEXステージは無制限に出撃できますが、イベントPtを入手することができません。一部のステージは「燃料消費上限」「連続自動出撃」仕様が適用できます。
+7. イベントPtを貯めると、イベントPt累計入手数報酬を入手できる他、「ストーリー」モードで新しいストーリーを開放できます。
+8. 「ストーリー」モードですべてのストーリーを開放すると、限定装備を入手できます。
+]]
+}
+
+_G.pg.base.gametip.series_enemy_score = {
+	tip = "スコア"
+}
+
+_G.pg.base.gametip.series_enemy_total_score = {
+	tip = "合計スコア"
+}
+
 _G.pg.base.gametip.setting_label_private = {
 	tip = "隐私协议"
 }
 
 _G.pg.base.gametip.setting_label_licence = {
 	tip = "用户协议"
+}
+
+_G.pg.base.gametip.series_enemy_reward = {
+	tip = "累計Pt報酬"
+}
+
+_G.pg.base.gametip.series_enemy_mode_1 = {
+	tip = "単独出撃"
+}
+
+_G.pg.base.gametip.series_enemy_mode_2 = {
+	tip = "協同出撃"
+}
+
+_G.pg.base.gametip.series_enemy_fleet_prefix = {
+	tip = "艦隊$1"
+}
+
+_G.pg.base.gametip.series_enemy_team_notenough = {
+	tip = "出撃条件（前衛と主力艦隊それぞれ1隻以上）に満たない艦隊があるため出撃できません"
+}
+
+_G.pg.base.gametip.series_enemy_empty_commander_main = {
+	tip = "指揮ニャ"
+}
+
+_G.pg.base.gametip.series_enemy_empty_commander_assistant = {
+	tip = "参謀ニャ"
 }

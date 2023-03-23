@@ -110,6 +110,8 @@ function slot0.execute(slot0, slot1)
 					end
 				elseif uv0 == PowerRank.TYPE_EXTRA_CHAPTER then
 					slot3 = PowerRank:getActivityByRankType(PowerRank.TYPE_EXTRA_CHAPTER) and slot4.data1 or slot0.point
+				elseif uv0 == PowerRank.TYPE_BOSSRUSH then
+					slot3 = PowerRank:getActivityByRankType(PowerRank.TYPE_BOSSRUSH) and slot4.data1 or slot0.point
 				else
 					slot3 = slot0.point
 				end

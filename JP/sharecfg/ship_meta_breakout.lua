@@ -315,6 +315,69 @@ pg.ship_meta_breakout = {
 		pre_id = 9702033,
 		weapon_ids = {}
 	},
+	[9702041] = {
+		breakout_view = "【焔追の灰-ラ·ガリソニエール】習得/主砲補正+5%",
+		gold = 500,
+		breakout_id = 9702042,
+		repair = 0,
+		item2 = 21020,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9702041,
+		item1 = 21020,
+		pre_id = 0,
+		weapon_ids = {
+			170041
+		}
+	},
+	[9702042] = {
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
+		gold = 1500,
+		breakout_id = 9702043,
+		repair = 0,
+		item2 = 21020,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9702042,
+		item1 = 21020,
+		pre_id = 9702041,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9702043] = {
+		breakout_view = "【焔追の灰-ラ·ガリソニエール】強化/主砲補正+15%",
+		gold = 2500,
+		breakout_id = 9702044,
+		repair = 0,
+		item2 = 21020,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9702043,
+		item1 = 21020,
+		pre_id = 9702042,
+		weapon_ids = {
+			170042
+		}
+	},
+	[9702044] = {
+		breakout_view = "なし",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21020,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9702044,
+		item1 = 21020,
+		pre_id = 9702043,
+		weapon_ids = {}
+	},
 	[9703011] = {
 		breakout_view = "【揺灯の力-トレント】習得/主砲補正+5%",
 		gold = 500,
@@ -1275,6 +1338,10 @@ pg.ship_meta_breakout = {
 		9702032,
 		9702033,
 		9702034,
+		9702041,
+		9702042,
+		9702043,
+		9702044,
 		9703011,
 		9703012,
 		9703013,

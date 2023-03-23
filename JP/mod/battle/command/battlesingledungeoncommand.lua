@@ -138,11 +138,14 @@ function slot3.onAddUnit(slot0, slot1)
 end
 
 function slot3.RegisterUnitEvent(slot0, slot1)
-	slot1:RegisterEventListener(slot0, uv0.WILL_DIE, slot0.onWillDie)
-	slot1:RegisterEventListener(slot0, uv0.DYING, slot0.onUnitDying)
+	if slot1:GetUnitType() ~= uv0.Battle.BattleConst.UnitType.MINION_UNIT then
+		slot1:RegisterEventListener(slot0, uv1.WILL_DIE, slot0.onWillDie)
+	end
 
-	if slot1:GetUnitType() == uv1.Battle.BattleConst.UnitType.PLAYER_UNIT then
-		slot1:RegisterEventListener(slot0, uv0.SHUT_DOWN_PLAYER, slot0.onShutDownPlayer)
+	slot1:RegisterEventListener(slot0, uv1.DYING, slot0.onUnitDying)
+
+	if slot2 == uv0.Battle.BattleConst.UnitType.PLAYER_UNIT then
+		slot1:RegisterEventListener(slot0, uv1.SHUT_DOWN_PLAYER, slot0.onShutDownPlayer)
 	end
 end
 

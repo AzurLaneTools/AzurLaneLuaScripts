@@ -141,6 +141,13 @@ function slot0.OnMove(slot0, slot1, slot2)
 	slot0.model.transform.localScale = Vector3((slot1.x < slot0.data:GetPosition().x and slot1.y == slot3.y or slot1.x == slot3.x and slot3.y < slot1.y) and -1 or 1, 1, 1)
 
 	LeanTween.moveLocal(slot0._go, CourtYardCalcUtil.TrPosition2LocalPos(slot0:GetParentTF(), slot0._tf.parent, Vector3(slot4.x, slot4.y, 0) + slot2), slot0.data:GetMoveTime())
+
+	for slot12 = 1, slot0.interactionTF.childCount do
+		slot13 = slot0.interactionTF:GetChild(slot12 - 1)
+		slot13.localScale = Vector3(math.abs(slot13.localScale.x), slot13.localScale.y, slot13.localScale.z)
+	end
+
+	slot0.interactionTF.localScale = slot0.model.transform.localScale
 end
 
 function slot0.OnAddAward(slot0, slot1, slot2)

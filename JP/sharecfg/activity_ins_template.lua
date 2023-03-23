@@ -9673,6 +9673,42 @@ pg.activity_ins_template = {
 			3372
 		}
 	},
+	{
+		ship_group = 70207,
+		name = "Voroshilov",
+		sculpture = "fuluoxiluofu",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 367,
+		id = 367,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 70302,
+		name = "Kursk",
+		sculpture = "kuersike",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 368,
+		id = 368,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	{
+		ship_group = 70507,
+		name = "Sevastopol",
+		sculpture = "saiwasituoboer",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 369,
+		id = 369,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -10039,6 +10075,9 @@ pg.activity_ins_template = {
 		363,
 		364,
 		365,
-		366
+		366,
+		367,
+		368,
+		369
 	}
 }

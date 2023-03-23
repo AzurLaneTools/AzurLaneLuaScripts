@@ -271,7 +271,7 @@ function slot0.UpdateUser(slot0, slot1)
 			uv0.userIconTF.sprite = slot0
 		end)
 
-		slot5 = AttireFrame.attireFrameRes(slot2, isSelf, AttireConst.TYPE_ICON_FRAME, slot2.propose)
+		slot5 = AttireFrame.attireFrameRes(slot2, false, AttireConst.TYPE_ICON_FRAME, slot2.propose)
 		slot6 = PoolMgr.GetInstance()
 
 		slot6:GetPrefab("IconFrame/" .. slot5, slot5, true, function (slot0)

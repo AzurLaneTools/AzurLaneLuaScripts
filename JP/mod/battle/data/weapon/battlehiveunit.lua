@@ -24,7 +24,7 @@ function slot3.Update(slot0)
 		else
 			slot1 = nil
 
-			if #((not slot0._antiSub or uv1.Battle.BattleTargetChoise.TargetDetectedUnit(nil, , uv1.Battle.BattleTargetChoise.TargetDiveState(nil, , uv1.Battle.BattleTargetChoise.TargetAllFoe(slot0._host)))) and uv1.Battle.BattleTargetChoise.TargetAircraftHarm(slot0._host)) > 0 then
+			if #((not slot0._antiSub or uv1.Battle.BattleTargetChoise.TargetDetectedUnit(nil, , uv1.Battle.BattleTargetChoise.TargetDiveState(nil, , uv1.Battle.BattleTargetChoise.LegalTarget(slot0._host)))) and uv1.Battle.BattleTargetChoise.TargetAircraftHarm(slot0._host)) > 0 then
 				slot0._currentState = slot0.STATE_PRECAST_FINISH
 			end
 		end

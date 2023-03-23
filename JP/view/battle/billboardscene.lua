@@ -61,7 +61,8 @@ function slot0.init(slot0)
 		slot0:findTF("frame/scroll_rect/tagRoot/extra_chapter", slot0.leftPanel),
 		slot0:findTF("frame/scroll_rect/tagRoot/boss_battle", slot0.leftPanel),
 		slot0:findTF("frame/scroll_rect/tagRoot/guild", slot0.leftPanel),
-		slot0:findTF("frame/scroll_rect/tagRoot/military", slot0.leftPanel)
+		slot0:findTF("frame/scroll_rect/tagRoot/military", slot0.leftPanel),
+		slot0:findTF("frame/scroll_rect/tagRoot/bossrush", slot0.leftPanel)
 	}
 	slot0.ptToggles = {}
 	slot2 = getProxy(ActivityProxy)

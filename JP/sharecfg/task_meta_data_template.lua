@@ -1280,6 +1280,46 @@ pg.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100061] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "ラ·ガリソニエール(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 100061,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100062] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 100062,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100063] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 100063,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100064] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 100064,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100065] = {
+		target_id_2 = "970204",
+		sub_type = 180,
+		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 100065,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1437,6 +1477,38 @@ pg.task_meta_data_template = {
 		sub_type = 302,
 		desc = "セイレーン作戦でクイーン・エリザベス(META)を含めた艦隊でLv100+の敵を撃破",
 		id = 200054,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200061] = {
+		target_id_2 = "970204",
+		sub_type = 302,
+		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊で1回勝利する",
+		id = 200061,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200062] = {
+		target_id_2 = "970204",
+		sub_type = 302,
+		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 200062,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200063] = {
+		target_id_2 = "970204",
+		sub_type = 302,
+		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 200063,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200064] = {
+		target_id_2 = "970204",
+		sub_type = 302,
+		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊でLv100+の敵を撃破",
+		id = 200064,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1601,6 +1673,11 @@ pg.task_meta_data_template = {
 		100053,
 		100054,
 		100055,
+		100061,
+		100062,
+		100063,
+		100064,
+		100065,
 		200001,
 		200002,
 		200003,
@@ -1620,6 +1697,10 @@ pg.task_meta_data_template = {
 		200051,
 		200052,
 		200053,
-		200054
+		200054,
+		200061,
+		200062,
+		200063,
+		200064
 	}
 }

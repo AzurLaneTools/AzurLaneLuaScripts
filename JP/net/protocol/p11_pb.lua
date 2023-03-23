@@ -52,6 +52,7 @@ slot2 = {
 	SC_11003_CARTOON_COLLECT_MARK_FIELD = slot0.FieldDescriptor(),
 	SC_11003_RANDOM_SHIP_MODE_FIELD = slot0.FieldDescriptor(),
 	SC_11003_RANDOM_SHIP_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_11003_MARRY_SHIP_FIELD = slot0.FieldDescriptor(),
 	SC_11004_RESOURCE_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_11005_TYPE_FIELD = slot0.FieldDescriptor(),
 	CS_11005_ID_FIELD = slot0.FieldDescriptor(),
@@ -95,6 +96,7 @@ slot2 = {
 	CS_11202_ARG2_FIELD = slot0.FieldDescriptor(),
 	CS_11202_ARG3_FIELD = slot0.FieldDescriptor(),
 	CS_11202_ARG_LIST_FIELD = slot0.FieldDescriptor(),
+	CS_11202_ARG_LIST2_FIELD = slot0.FieldDescriptor(),
 	CS_11202_KVARGS1_FIELD = slot0.FieldDescriptor(),
 	SC_11203_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_11203_AWARD_LIST_FIELD = slot0.FieldDescriptor(),
@@ -818,6 +820,15 @@ slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.has_default_value = false
 slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.default_value = {}
 slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.type = 13
 slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.cpp_type = 3
+slot2.SC_11003_MARRY_SHIP_FIELD.name = "marry_ship"
+slot2.SC_11003_MARRY_SHIP_FIELD.full_name = "p11.sc_11003.marry_ship"
+slot2.SC_11003_MARRY_SHIP_FIELD.number = 43
+slot2.SC_11003_MARRY_SHIP_FIELD.index = 42
+slot2.SC_11003_MARRY_SHIP_FIELD.label = 2
+slot2.SC_11003_MARRY_SHIP_FIELD.has_default_value = false
+slot2.SC_11003_MARRY_SHIP_FIELD.default_value = 0
+slot2.SC_11003_MARRY_SHIP_FIELD.type = 13
+slot2.SC_11003_MARRY_SHIP_FIELD.cpp_type = 3
 SC_11003.name = "sc_11003"
 SC_11003.full_name = "p11.sc_11003"
 SC_11003.nested_types = {}
@@ -864,7 +875,8 @@ SC_11003.fields = {
 	slot2.SC_11003_CARTOON_READ_MARK_FIELD,
 	slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD,
 	slot2.SC_11003_RANDOM_SHIP_MODE_FIELD,
-	slot2.SC_11003_RANDOM_SHIP_LIST_FIELD
+	slot2.SC_11003_RANDOM_SHIP_LIST_FIELD,
+	slot2.SC_11003_MARRY_SHIP_FIELD
 }
 SC_11003.is_extendable = false
 SC_11003.extensions = {}
@@ -1505,10 +1517,19 @@ slot2.CS_11202_ARG_LIST_FIELD.has_default_value = false
 slot2.CS_11202_ARG_LIST_FIELD.default_value = {}
 slot2.CS_11202_ARG_LIST_FIELD.type = 13
 slot2.CS_11202_ARG_LIST_FIELD.cpp_type = 3
+slot2.CS_11202_ARG_LIST2_FIELD.name = "arg_list2"
+slot2.CS_11202_ARG_LIST2_FIELD.full_name = "p11.cs_11202.arg_list2"
+slot2.CS_11202_ARG_LIST2_FIELD.number = 7
+slot2.CS_11202_ARG_LIST2_FIELD.index = 6
+slot2.CS_11202_ARG_LIST2_FIELD.label = 3
+slot2.CS_11202_ARG_LIST2_FIELD.has_default_value = false
+slot2.CS_11202_ARG_LIST2_FIELD.default_value = {}
+slot2.CS_11202_ARG_LIST2_FIELD.type = 13
+slot2.CS_11202_ARG_LIST2_FIELD.cpp_type = 3
 slot2.CS_11202_KVARGS1_FIELD.name = "kvargs1"
 slot2.CS_11202_KVARGS1_FIELD.full_name = "p11.cs_11202.kvargs1"
-slot2.CS_11202_KVARGS1_FIELD.number = 7
-slot2.CS_11202_KVARGS1_FIELD.index = 6
+slot2.CS_11202_KVARGS1_FIELD.number = 8
+slot2.CS_11202_KVARGS1_FIELD.index = 7
 slot2.CS_11202_KVARGS1_FIELD.label = 3
 slot2.CS_11202_KVARGS1_FIELD.has_default_value = false
 slot2.CS_11202_KVARGS1_FIELD.default_value = {}
@@ -1526,6 +1547,7 @@ CS_11202.fields = {
 	slot2.CS_11202_ARG2_FIELD,
 	slot2.CS_11202_ARG3_FIELD,
 	slot2.CS_11202_ARG_LIST_FIELD,
+	slot2.CS_11202_ARG_LIST2_FIELD,
 	slot2.CS_11202_KVARGS1_FIELD
 }
 CS_11202.is_extendable = false

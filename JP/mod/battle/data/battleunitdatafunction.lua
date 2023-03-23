@@ -53,6 +53,8 @@ function slot32.CreateBattleUnitData(slot0, slot1, slot2, slot3, slot4, slot5, s
 		slot13 = Ship.WEAPON_COUNT
 	elseif slot1 == uv0.UnitType.ENEMY_UNIT then
 		uv1.Battle.BattleEnemyUnit.New(slot0, slot2):SetOverrideLevel(slot11)
+	elseif slot1 == uv0.UnitType.MINION_UNIT then
+		slot12 = uv1.Battle.BattleMinionUnit.New(slot0, slot2)
 	elseif slot1 == uv0.UnitType.BOSS_UNIT then
 		uv1.Battle.BattleBossUnit.New(slot0, slot2):SetOverrideLevel(slot11)
 	elseif slot1 == uv0.UnitType.CONST_UNIT then
@@ -68,7 +70,7 @@ function slot32.CreateBattleUnitData(slot0, slot1, slot2, slot3, slot4, slot5, s
 
 	slot14 = {}
 
-	if slot1 == uv0.UnitType.ENEMY_UNIT or slot1 == uv0.UnitType.BOSS_UNIT then
+	if slot1 == uv0.UnitType.ENEMY_UNIT or slot1 == uv0.UnitType.MINION_UNIT or slot1 == uv0.UnitType.BOSS_UNIT then
 		for slot18, slot19 in ipairs(slot5) do
 			slot14[#slot14 + 1] = {
 				equipment = {
@@ -173,7 +175,7 @@ function slot32.AttachWeather(slot0, slot1)
 				slot4:AppendCrew(slot0)
 				slot4:Active(slot4.STATE_ACTIVITING)
 			end
-		elseif slot0:GetUnitType() == uv0.UnitType.ENEMY_UNIT or slot0:GetUnitType() == uv0.UnitType.BOSS_UNIT then
+		elseif slot0:GetUnitType() == uv0.UnitType.ENEMY_UNIT or slot0:GetUnitType() == uv0.UnitType.MINION_UNIT or slot0:GetUnitType() == uv0.UnitType.BOSS_UNIT then
 			uv2.Battle.BattleUnitAimBiasComponent.New():ConfigRangeFormula(uv2.Battle.BattleFormulas.CalculateMaxAimBiasRangeMonster, uv2.Battle.BattleFormulas.CalculateBiasDecayMonster)
 
 			if table.contains(TeamType.SubShipType, slot2) then

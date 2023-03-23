@@ -974,7 +974,7 @@ pg.benefit_buff_template = {
 	},
 	{
 		icon = "Props/jianchuanqiyuan",
-		name = "提尔比茨的祈愿",
+		name = "{namecode:436}的祈愿",
 		hide = 0,
 		max_time = 86400,
 		desc = "幸運祈願：ティルピッツ――メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵から受けるダメージが3%ダウン\n残り時間:$1",
@@ -1086,7 +1086,7 @@ pg.benefit_buff_template = {
 	},
 	{
 		icon = "Props/jianchuanqiyuan",
-		name = "齐柏林伯爵的祈愿",
+		name = "{namecode:437}的祈愿",
 		hide = 0,
 		max_time = 86400,
 		desc = "幸運祈願：グラーフ・ツェッペリン――メイン·ハード·イベント·作戦履歴海域における味方艦隊が得る経験値3%アップ\n残り時間:$1",

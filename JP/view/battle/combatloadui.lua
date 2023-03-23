@@ -204,6 +204,34 @@ function slot0.Preload(slot0)
 
 				uv0.addCommanderBuffRes(slot8:buildBattleBuffList())
 			end
+		elseif slot0.contextData.system == SYSTEM_BOSS_RUSH or slot0.contextData.system == SYSTEM_BOSS_RUSH_EX then
+			slot6 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetSeriesData()
+			slot8 = slot6:GetFleetIds()
+			slot9 = slot8[slot6:GetStaegLevel() + 1]
+			slot10 = slot8[#slot8]
+
+			if slot6:GetMode() == BossRushSeriesData.MODE.SINGLE then
+				slot9 = slot8[1]
+			end
+
+			slot13 = getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId]
+			slot15 = slot13[slot10]
+
+			if slot13[slot9] then
+				for slot20, slot21 in ipairs(slot14:GetRawShipIds()) do
+					table.insert(slot3, slot2:getShipById(slot21))
+				end
+
+				uv0.addCommanderBuffRes(slot14:buildBattleBuffList())
+			end
+
+			if slot15 then
+				for slot20, slot21 in ipairs(slot15:GetRawShipIds()) do
+					table.insert(slot3, slot2:getShipById(slot21))
+				end
+
+				uv0.addCommanderBuffRes(slot15:buildBattleBuffList())
+			end
 		elseif slot0.contextData.system == SYSTEM_GUILD then
 			for slot13, slot14 in ipairs(getProxy(GuildProxy):getRawData():GetActiveEvent():GetBossMission():GetMainFleet():GetShips()) do
 				if slot14 and slot14.ship then

@@ -984,7 +984,7 @@ function updateShip(slot0, slot1, slot2)
 
 	if slot1.isNpc then
 		slot9 = "frame_npc"
-	elseif slot1.propose then
+	elseif slot1.ShowPropose(slot1) then
 		if slot1.isMetaShip(slot1) then
 			slot9 = "frame_prop_meta"
 		else
@@ -2753,7 +2753,7 @@ function flushShipCard(slot0, slot1)
 
 	slot9 = nil
 
-	setShipCardFrame(findTF(slot0, "content/front/frame"), slot2, slot1.propose and "prop" .. (slot1:isBluePrintShip() and slot2 or slot1:isMetaShip() and "14" or "") or nil)
+	setShipCardFrame(findTF(slot0, "content/front/frame"), slot2, slot1:ShowPropose() and "prop" .. (slot1:isBluePrintShip() and slot2 or slot1:isMetaShip() and "14" or "") or nil)
 
 	slot10 = slot1:getStar()
 	slot11 = slot1:getMaxStar()
@@ -2776,7 +2776,7 @@ function flushShipCard(slot0, slot1)
 	slot16 = nil
 	slot17 = false
 
-	if slot1.propose then
+	if slot1.ShowPropose(slot1) then
 		if slot1.isMetaShip(slot1) then
 			slot16 = "duang_meta_jiehun"
 		else
@@ -3682,4 +3682,8 @@ function Timekeeping()
 	warning(Time.realtimeSinceStartup - (uv0 or Time.realtimeSinceStartup))
 
 	uv0 = Time.realtimeSinceStartup
+end
+
+function GetRomanDigit(slot0)
+	return string.char(226, 133, 160 + slot0 - 1)
 end

@@ -12027,6 +12027,108 @@ pg.activity_ins_language = {
 	op_reply_366_1_1 = {
 		value = "宝箱を見逃さない勇者の「勘」ってやつよ～"
 	},
+	ins_367 = {
+		value = ""
+	},
+	ins_discuss_367_1 = {
+		value = ""
+	},
+	ins_reply_367_1_1 = {
+		value = ""
+	},
+	ins_reply_367_1_2 = {
+		value = ""
+	},
+	ins_reply_367_1_3 = {
+		value = ""
+	},
+	ins_reply_367_2_1 = {
+		value = ""
+	},
+	ins_reply_367_2_2 = {
+		value = ""
+	},
+	ins_discuss_367_3 = {
+		value = ""
+	},
+	ins_reply_367_3_1 = {
+		value = ""
+	},
+	ins_op_367_1_1 = {
+		value = ""
+	},
+	op_reply_367_1_1 = {
+		value = ""
+	},
+	ins_368 = {
+		value = ""
+	},
+	ins_discuss_368_1 = {
+		value = ""
+	},
+	ins_reply_368_1_1 = {
+		value = ""
+	},
+	ins_reply_368_1_2 = {
+		value = ""
+	},
+	ins_discuss_368_2 = {
+		value = ""
+	},
+	ins_reply_368_2_1 = {
+		value = ""
+	},
+	ins_discuss_368_3 = {
+		value = ""
+	},
+	ins_reply_368_3_1 = {
+		value = ""
+	},
+	ins_discuss_368_4 = {
+		value = ""
+	},
+	ins_reply_368_4_1 = {
+		value = ""
+	},
+	ins_op_368_1_1 = {
+		value = ""
+	},
+	op_reply_368_1_1 = {
+		value = ""
+	},
+	ins_369 = {
+		value = ""
+	},
+	ins_discuss_369_1 = {
+		value = ""
+	},
+	ins_reply_369_1_1 = {
+		value = ""
+	},
+	ins_reply_369_1_2 = {
+		value = ""
+	},
+	ins_discuss_369_2 = {
+		value = ""
+	},
+	ins_reply_369_2_1 = {
+		value = ""
+	},
+	ins_reply_369_2_2 = {
+		value = ""
+	},
+	ins_discuss_369_3 = {
+		value = ""
+	},
+	ins_reply_369_3_1 = {
+		value = ""
+	},
+	ins_op_369_1_1 = {
+		value = ""
+	},
+	op_reply_369_1_1 = {
+		value = ""
+	},
 	all = {
 		ins_op_1_1_1,
 		ins_op_1_1_2,
@@ -16036,6 +16138,40 @@ pg.activity_ins_language = {
 		ins_discuss_366_2,
 		ins_reply_366_2_1,
 		ins_op_366_1_1,
-		op_reply_366_1_1
+		op_reply_366_1_1,
+		ins_367,
+		ins_discuss_367_1,
+		ins_reply_367_1_1,
+		ins_reply_367_1_2,
+		ins_reply_367_1_3,
+		ins_reply_367_2_1,
+		ins_reply_367_2_2,
+		ins_discuss_367_3,
+		ins_reply_367_3_1,
+		ins_op_367_1_1,
+		op_reply_367_1_1,
+		ins_368,
+		ins_discuss_368_1,
+		ins_reply_368_1_1,
+		ins_reply_368_1_2,
+		ins_discuss_368_2,
+		ins_reply_368_2_1,
+		ins_discuss_368_3,
+		ins_reply_368_3_1,
+		ins_discuss_368_4,
+		ins_reply_368_4_1,
+		ins_op_368_1_1,
+		op_reply_368_1_1,
+		ins_369,
+		ins_discuss_369_1,
+		ins_reply_369_1_1,
+		ins_reply_369_1_2,
+		ins_discuss_369_2,
+		ins_reply_369_2_1,
+		ins_reply_369_2_2,
+		ins_discuss_369_3,
+		ins_reply_369_3_1,
+		ins_op_369_1_1,
+		op_reply_369_1_1
 	}
 }

@@ -655,7 +655,7 @@ function slot0.openBonus(slot0, slot1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.bonusPanel)
 	setActive(slot0.bonusPanel, true)
 
-	slot0.boundName.text = slot1:getConfig("name")
+	slot0.boundName.text = HXSet.hxLan(slot1:getConfig("name"))
 	slot2 = slot1:getConfig("award_display")
 
 	for slot7, slot8 in ipairs(slot1:getConfig("level")) do
@@ -670,48 +670,18 @@ function slot0.openBonus(slot0, slot1)
 		setActive(findTF(slot10, "item_tpl/bg"), slot11 ~= Favorite.STATE_LOCK)
 
 		if slot2[slot7] then
-			updateDrop(findTF(slot10, "item_tpl"), {
+			slot12 = {
 				count = 0,
 				type = slot9[1],
 				id = slot9[2]
-			})
+			}
+
+			updateDrop(findTF(slot10, "item_tpl"), slot12)
+
+			slot12.count = slot9[3]
+
 			onButton(slot0, slot10, function ()
-				if uv0[1] == DROP_TYPE_RESOURCE then
-					uv1:emit(uv2.ON_ITEM, id2ItemId(uv0[2]))
-				elseif uv0[1] == DROP_TYPE_ITEM then
-					uv1:emit(uv2.ON_DROP, {
-						type = uv0[1],
-						id = uv0[2],
-						count = uv0[3]
-					})
-				elseif uv0[1] == DROP_TYPE_SHIP then
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						hideNo = true,
-						type = MSGBOX_TYPE_SINGLE_ITEM,
-						drop = {
-							type = uv0[1],
-							id = uv0[2],
-							count = uv0[3]
-						}
-					})
-				elseif uv0[1] == DROP_TYPE_FURNITURE then
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						hideNo = true,
-						content = "",
-						yesText = "text_confirm",
-						type = MSGBOX_TYPE_SINGLE_ITEM,
-						drop = {
-							type = DROP_TYPE_FURNITURE,
-							id = uv0[2],
-							cfg = pg.furniture_data_template[uv0[2]]
-						}
-					})
-				elseif uv0[1] == DROP_TYPE_EQUIP then
-					uv1:emit(uv2.ON_EQUIPMENT, {
-						equipmentId = uv0[2],
-						type = EquipmentInfoMediator.TYPE_DISPLAY
-					})
-				end
+				uv0:emit(uv1.ON_DROP, uv2)
 			end, SFX_PANEL)
 		else
 			GetOrAddComponent(slot10, typeof(Button)).onClick:RemoveAllListeners()

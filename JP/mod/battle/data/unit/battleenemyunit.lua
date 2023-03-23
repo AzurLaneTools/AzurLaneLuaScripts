@@ -81,7 +81,6 @@ end
 function slot8.SetAttr(slot0)
 	uv0.SetEnemyAttr(slot0)
 	uv0.InitDOTAttr(slot0._attr, slot0._tmpData)
-	uv0.SetCurrent(slot0, "srcShipType", slot0._tmpData.type)
 end
 
 function slot8.GetTemplate(slot0)

@@ -424,7 +424,7 @@ function slot0.updateTask(slot0, slot1, slot2, slot3)
 		id = slot1
 	})
 
-	setText(slot2:Find("TitleText"), slot7:getConfig("desc"))
+	setText(slot2:Find("TitleText"), HXSet.hxLan(slot7:getConfig("desc")))
 
 	slot8 = slot7:getConfig("award_display")[1]
 	slot9 = slot2:Find("Item")

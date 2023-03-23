@@ -53,8 +53,8 @@ end
 
 function slot0.SetUp(slot0, slot1, slot2, slot3)
 	if slot0.furniture ~= slot1 then
-		slot0.nameTxt.text = slot1:getConfig("name")
-		slot0.descTxt.text = slot0:shortenString(slot1:getConfig("describe"), 35)
+		slot0.nameTxt.text = HXSet.hxLan(slot1:getConfig("name"))
+		slot0.descTxt.text = slot0:shortenString(HXSet.hxLan(slot1:getConfig("describe")), 35)
 		slot0.icon.sprite = LoadSprite("furnitureicon/" .. slot1:getConfig("icon"))
 	end
 

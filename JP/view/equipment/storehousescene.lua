@@ -117,22 +117,23 @@ function slot0.init(slot0)
 end
 
 function slot0.setEquipment(slot0, slot1)
-	slot0.equipmentVOByIds[slot1.id] = slot1
-	slot2 = true
+	slot2 = #slot0.equipmentVOs + 1
 
-	for slot6 = #slot0.equipmentVOs, 1, -1 do
-		if slot0.equipmentVOs[slot6].id == slot1.id and slot1.count <= 0 then
-			slot0.equipmentVOByIds[slot1.id] = nil
+	for slot6, slot7 in ipairs(slot0.equipmentVOs) do
+		if not slot7.shipId and slot7.id == slot1.id then
+			slot2 = slot6
 
-			table.remove(slot0.equipmentVOs, slot6)
-		elseif slot7.id == slot1.id and not slot7.shipId then
-			slot0.equipmentVOs[slot6] = slot1
-			slot2 = false
+			break
 		end
 	end
 
-	if slot2 then
-		table.insert(slot0.equipmentVOs, slot1)
+	if slot1.count > 0 then
+		slot0.equipmentVOs[slot2] = slot1
+		slot0.equipmentVOByIds[slot1.id] = slot1
+	else
+		table.remove(slot0.equipmentVOs, slot2)
+
+		slot0.equipmentVOByIds[slot1.id] = nil
 	end
 end
 
@@ -140,16 +141,6 @@ function slot0.setEquipmentUpdate(slot0)
 	if slot0.contextData.warp == StoreHouseConst.WARP_TO_WEAPON then
 		slot0:filterEquipment()
 		slot0:updateCapacity()
-	end
-end
-
-function slot0.removeEquipment(slot0, slot1)
-	slot0.equipmentVOByIds[slot1] = nil
-
-	for slot5 = #slot0.equipmentVOs, 1, -1 do
-		if slot0.equipmentVOs[slot5].id == slot1 and not slot6.shipId then
-			table.remove(slot0.equipmentVOs, slot5)
-		end
 	end
 end
 
