@@ -91497,7 +91497,6 @@ _G.pg.base.ship_data_template[703021] = {
 	energy = 150,
 	specific_type = {},
 	equip_1 = {
-		2,
 		3
 	},
 	equip_2 = {
@@ -91546,7 +91545,6 @@ _G.pg.base.ship_data_template[703022] = {
 	energy = 150,
 	specific_type = {},
 	equip_1 = {
-		2,
 		3
 	},
 	equip_2 = {
@@ -91596,7 +91594,6 @@ _G.pg.base.ship_data_template[703023] = {
 	energy = 150,
 	specific_type = {},
 	equip_1 = {
-		2,
 		3
 	},
 	equip_2 = {
@@ -91646,7 +91643,6 @@ _G.pg.base.ship_data_template[703024] = {
 	energy = 150,
 	specific_type = {},
 	equip_1 = {
-		2,
 		3
 	},
 	equip_2 = {

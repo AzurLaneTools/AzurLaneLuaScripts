@@ -119611,7 +119611,7 @@ _G.pg.base.equip_data_statistics[79992] = {
 
 _G.pg.base.equip_data_statistics[85000] = {
 	tech = 1,
-	name = "130mm連装砲B-2LM",
+	name = "B-13 130mm連装砲B-2LM",
 	speciality = "追尾",
 	type = 1,
 	descrip = "北方連合製130mm連装砲。優秀な対艦性能を誇る ",
@@ -119741,7 +119741,7 @@ _G.pg.base.equip_data_statistics[85006] = {
 
 _G.pg.base.equip_data_statistics[85040] = {
 	tech = 3,
-	name = "130mm連装砲B-2LM",
+	name = "B-13 130mm連装砲B-2LM",
 	speciality = "追尾",
 	type = 1,
 	descrip = "北方連合製130mm連装砲。優秀な対艦性能を誇る ",

@@ -66,7 +66,7 @@ function slot0.bindEvent(slot0)
 		})
 	end)
 	slot0:bind(uv0.CHANGE_FLEET_SHIP, function (slot0, slot1, slot2, slot3)
-		slot7, slot8, slot9 = BossRushFleetSelectMediator.getDockCallbackFuncs(slot1, slot2, slot3, _.flatten(_.map(uv0.contextData.fleets, function (slot0)
+		slot6, slot7, slot8 = BossRushFleetSelectMediator.getDockCallbackFuncs(slot1, slot2, slot3, _.flatten(_.map(uv0.contextData.fleets, function (slot0)
 			return slot0:GetRawShipIds()
 		end)), uv0.contextData.actId)
 
@@ -78,12 +78,16 @@ function slot0.bindEvent(slot0)
 			leastLimitMsg = i18n("battle_preCombatMediator_leastLimit"),
 			quitTeam = slot1 ~= nil,
 			teamFilter = slot3,
-			onShip = slot7,
-			confirmSelect = slot8,
-			onSelected = slot9,
-			hideTagFlags = ShipStatus.TAG_HIDE_NORMAL,
+			onShip = slot6,
+			confirmSelect = slot7,
+			onSelected = slot8,
+			hideTagFlags = setmetatable({
+				inActivity = uv0.contextData.actId
+			}, {
+				__index = ShipStatus.TAG_HIDE_ACTIVITY_BOSS
+			}),
 			blockTagFlags = nil,
-			otherSelectedIds = slot6,
+			otherSelectedIds = slot5,
 			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
 				isActivityNpc = true
 			})

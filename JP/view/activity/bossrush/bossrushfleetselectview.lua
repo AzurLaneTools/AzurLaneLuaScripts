@@ -284,6 +284,11 @@ function slot0.onCancelHard(slot0)
 	slot0:closeView()
 end
 
+function slot0.onBackPressed(slot0)
+	slot0:onCancelHard()
+	uv0.super.onBackPressed(slot0)
+end
+
 function slot0.setHardShipVOs(slot0, slot1)
 	slot0.shipVOs = slot1
 end

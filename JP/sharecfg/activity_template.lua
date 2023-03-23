@@ -5752,7 +5752,7 @@ pg.activity_template = {
 		}
 	},
 	[4735] = {
-		mark = 20230223,
+		mark = 20230323,
 		title_res_tag = "",
 		page_info = "",
 		type = 93,
@@ -5829,7 +5829,7 @@ pg.activity_template = {
 		}
 	},
 	[4736] = {
-		mark = 20230223,
+		mark = 20230323,
 		title_res_tag = "",
 		page_info = "",
 		type = 94,
@@ -5868,7 +5868,7 @@ pg.activity_template = {
 		}
 	},
 	[4737] = {
-		mark = 20230223,
+		mark = 20230323,
 		id = 4737,
 		title_res_tag = "KurskSP_pt",
 		type = 74,
@@ -6046,7 +6046,7 @@ pg.activity_template = {
 		}
 	},
 	[4741] = {
-		mark = 20230309,
+		mark = 20230323,
 		title_res_tag = "",
 		page_info = "",
 		type = 16,

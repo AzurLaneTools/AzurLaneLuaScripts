@@ -131,16 +131,25 @@ function slot0.register(slot0)
 		end)()
 	end)
 	slot0:on(24100, function (slot0)
+		(function ()
+			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK) then
+				return
+			end
+
+			slot0:Record(uv0.score)
+			uv1:updateActivity(slot0)
+		end)()
+
 		if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) then
 			return
 		end
 
-		if not slot1:GetSeriesData() then
+		if not slot2:GetSeriesData() then
 			return
 		end
 
-		slot2:AddEXScore(slot0)
-		uv0:updateActivity(slot1)
+		slot3:AddEXScore(slot0)
+		uv0:updateActivity(slot2)
 	end)
 
 	slot0.requestTime = {}
