@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "霞飛小姐，這麼晚了，請允許我送你回去吧。",
+			say = "霞飛小姐，這麼晚了，請允許我送妳回去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 901130,
-			say = "沒錯！……………………你是怎麼知道的？",
+			say = "沒錯！……………………妳是怎麼知道的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

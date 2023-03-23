@@ -304,7 +304,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要开启这个装置的话，就可以抑制恶劣的风雪天气对于我们的影{namecode:12}。",
+			say = "只要开启这个装置的话，就可以抑制恶劣的风雪天气对于我们的影响。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,6 +373,7 @@ return {
 			bgName = "bg_hms_8",
 			actor = 702040,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "咳……你就简单理解成我们的便携式气象武器好了~",
 			painting = {
 				alpha = 0.3,

@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "克里孟梭那邊我已經問過了，我現在想听聽你的看法。",
+			say = "克里孟梭那邊我已經問過了，我現在想听聽妳的看法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

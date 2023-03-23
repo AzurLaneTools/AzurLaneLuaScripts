@@ -55,7 +55,8 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		ActivityProxy.ACTIVITY_UPDATED,
 		GAME.SUBMIT_TASK_DONE,
-		GAME.BEGIN_STAGE_DONE
+		GAME.BEGIN_STAGE_DONE,
+		BossRushTotalRewardPanelMediator.ON_WILL_EXIT
 	}
 end
 
@@ -85,6 +86,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot5:emit(BaseUI.ON_ACHIEVE, slot3, function ()
 			uv0.viewComponent:UpdateTasks(uv1)
 		end)
+	elseif slot2 == BossRushTotalRewardPanelMediator.ON_WILL_EXIT then
+		slot0.viewComponent:UpdateView()
 	end
 end
 

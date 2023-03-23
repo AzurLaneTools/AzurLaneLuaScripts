@@ -768,7 +768,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不過你的甜點很好吃……所以為了感謝你的款待，允許妳稍微摸一下好了……",
+			say = "不過妳的甜點很好吃……所以為了感謝妳的款待，允許妳稍微摸一下好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

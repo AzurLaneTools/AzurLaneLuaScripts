@@ -128,7 +128,7 @@ function slot0.didEnter(slot0)
 		setActive(slot0.toggles[uv0.PAGE_NEWSERVER], false)
 	end
 
-	if not isActive(slot0.toggles[slot0.contextData.page or BuildShipScene.Page or pg.SeriesGuideMgr.GetInstance():isRunning() and uv0.PAGE_BUILD or uv0.PAGE_NEWSERVER]) then
+	if not isActive(slot0.toggles[slot0.contextData.page or pg.SeriesGuideMgr.GetInstance():isRunning() and uv0.PAGE_BUILD or uv0.PAGE_NEWSERVER]) then
 		slot4 = uv0.PAGE_BUILD
 	end
 
@@ -168,7 +168,7 @@ function slot0.checkPage(slot0)
 		setActive(slot0.toggles[uv0.PAGE_NEWSERVER], false)
 	end
 
-	if not isActive(slot0.toggles[uv0.PAGE_NEWSERVER]) and BuildShipScene.Page == uv0.PAGE_NEWSERVER then
+	if not isActive(slot0.toggles[uv0.PAGE_NEWSERVER]) and slot0.contextData.page == uv0.PAGE_NEWSERVER then
 		triggerToggle(slot0.toggles[uv0.PAGE_BUILD], true)
 	else
 		slot0.poolsPage:Flush(slot0.pools)
@@ -203,7 +203,7 @@ function slot0.switchPage(slot0, slot1, slot2)
 		end
 	end
 
-	BuildShipScene.Page = slot1 == uv0.PAGE_UNSEAM and uv0.PAGE_BUILD or slot1
+	slot0.contextData.page = slot1 == uv0.PAGE_UNSEAM and uv0.PAGE_BUILD or slot1
 end
 
 function slot0.updateQueueTip(slot0, slot1)

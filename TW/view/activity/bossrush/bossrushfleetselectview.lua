@@ -284,6 +284,11 @@ function slot0.onCancelHard(slot0)
 	slot0:closeView()
 end
 
+function slot0.onBackPressed(slot0)
+	slot0:onCancelHard()
+	uv0.super.onBackPressed(slot0)
+end
+
 function slot0.setHardShipVOs(slot0, slot1)
 	slot0.shipVOs = slot1
 end
@@ -325,7 +330,7 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3)
 
 		if slot3 then
 			updateShip(slot4, slot3)
-			setActive(slot4:Find("EnergyWarn"), slot3:getEnergy() <= pg.gameset.series_enemy_mood_limit.key_value)
+			setActive(slot4:Find("EnergyWarn"), uv1.contextData.mode == BossRushSeriesData.MODE.SINGLE and slot3:getEnergy() <= pg.gameset.series_enemy_mood_limit.key_value)
 			setActive(slot4:Find("event_block"), slot3:getFlag("inEvent"))
 		end
 

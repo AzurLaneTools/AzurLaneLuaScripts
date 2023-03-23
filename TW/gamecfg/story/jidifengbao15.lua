@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "而依然有异常信号被捕获到，我也不认为是{namecode:8}光航标出现了故障……",
+			say = "而依然有异常信号被捕获到，我也不认为是曙光航标出现了故障……",
 			painting = {
 				alpha = 0.3,
 				time = 1

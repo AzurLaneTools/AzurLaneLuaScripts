@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 903020,
-			say = "我跟貞德還要再去確認一下場地的保全工作，就不打擾你了。",
+			say = "我跟貞德還要再去確認一下場地的保全工作，就不打擾妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

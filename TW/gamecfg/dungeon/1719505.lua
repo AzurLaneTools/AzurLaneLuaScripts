@@ -5,7 +5,7 @@ return {
 		{
 			stageIndex = 1,
 			failCondition = 1,
-			timeCount = 300,
+			timeCount = 180,
 			passCondition = 1,
 			backGroundStageID = 1,
 			totalArea = {

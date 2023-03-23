@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "逐一解除其对海域中施加的{namecode:14}磁压制、气象压制。",
+			say = "逐一解除其对海域中施加的电磁压制、气象压制。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "第五分队，代号「重锤」，沿极地航线{namecode:44}至乔治地岛附近，在预定位置待命。",
+			say = "第五分队，代号「重锤」，沿极地航线北上至乔治地岛附近，在预定位置待命。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

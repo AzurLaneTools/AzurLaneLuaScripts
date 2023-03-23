@@ -141,7 +141,7 @@ pg.battle_cost_template = {
 		user_exp_award = 1,
 		cat_exp_award = 1,
 		id = 12,
-		attack_count = 1
+		attack_count = 0
 	},
 	{
 		end_sink_cost = 0,
@@ -152,7 +152,7 @@ pg.battle_cost_template = {
 		user_exp_award = 0,
 		cat_exp_award = 0,
 		id = 13,
-		attack_count = 1
+		attack_count = 0
 	},
 	[50] = {
 		end_sink_cost = 0,

@@ -291,7 +291,7 @@ return {
 			actorName = "通讯器",
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
-			say = "一叶蔽目，不见泰山！两豆塞耳，不闻{namecode:13}霆！",
+			say = "一叶蔽目，不见泰山！两豆塞耳，不闻雷霆！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

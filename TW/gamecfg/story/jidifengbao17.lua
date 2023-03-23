@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "很好……看来谜底很快就要揭{namecode:11}了。",
+			say = "很好……看来谜底很快就要揭晓了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

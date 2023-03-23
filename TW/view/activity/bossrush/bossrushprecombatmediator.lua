@@ -11,6 +11,7 @@ slot0.REMOVE_SHIP = "BossRushPreCombatMediator:REMOVE_SHIP"
 slot0.ON_AUTO = "BossRushPreCombatMediator:ON_AUTO"
 slot0.ON_SUB_AUTO = "BossRushPreCombatMediator:ON_SUB_AUTO"
 slot0.ON_FLEET_REFRESHED = "BossRushPreCombatMediator:ON_FLEET_REFRESHED"
+slot0.ON_CHANGE_FLEET = "BossRushPreCombatMediator:ON_CHANGE_FLEET"
 
 function slot0.register(slot0)
 	slot0:bindEvent()
@@ -65,7 +66,7 @@ function slot0.bindEvent(slot0)
 		})
 	end)
 	slot0:bind(uv0.CHANGE_FLEET_SHIP, function (slot0, slot1, slot2, slot3)
-		slot7, slot8, slot9 = BossRushFleetSelectMediator.getDockCallbackFuncs(slot1, slot2, slot3, _.flatten(_.map(uv0.contextData.fleets, function (slot0)
+		slot6, slot7, slot8 = BossRushFleetSelectMediator.getDockCallbackFuncs(slot1, slot2, slot3, _.flatten(_.map(uv0.contextData.fleets, function (slot0)
 			return slot0:GetRawShipIds()
 		end)), uv0.contextData.actId)
 
@@ -77,12 +78,16 @@ function slot0.bindEvent(slot0)
 			leastLimitMsg = i18n("battle_preCombatMediator_leastLimit"),
 			quitTeam = slot1 ~= nil,
 			teamFilter = slot3,
-			onShip = slot7,
-			confirmSelect = slot8,
-			onSelected = slot9,
-			hideTagFlags = ShipStatus.TAG_HIDE_NORMAL,
+			onShip = slot6,
+			confirmSelect = slot7,
+			onSelected = slot8,
+			hideTagFlags = setmetatable({
+				inActivity = uv0.contextData.actId
+			}, {
+				__index = ShipStatus.TAG_HIDE_ACTIVITY_BOSS
+			}),
 			blockTagFlags = nil,
-			otherSelectedIds = slot6,
+			otherSelectedIds = slot5,
 			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
 				isActivityNpc = true
 			})
@@ -117,17 +122,29 @@ function slot0.bindEvent(slot0)
 				slot0()
 			end,
 			function (slot0)
-				if uv0.contextData.mode == BossRushSeriesData.MODE.SINGLE and _.any(uv0.contextData.fleets, function (slot0)
-					return _.any(slot0:GetRawShipIds(), function (slot0)
-						return getProxy(BayProxy):RawGetShipById(slot0):getEnergy() <= pg.gameset.series_enemy_mood_limit.key_value
-					end)
-				end) then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_mood_error"))
+				if uv0.contextData.mode == BossRushSeriesData.MODE.SINGLE then
+					if _.any(uv0.contextData.fleets, function (slot0)
+						return _.any(slot0:GetRawShipIds(), function (slot0)
+							return getProxy(BayProxy):RawGetShipById(slot0):getEnergy() <= pg.gameset.series_enemy_mood_limit.key_value
+						end)
+					end) then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_mood_error"))
 
-					return
+						return
+					else
+						slot0()
+					end
+				else
+					table.SerialIpairsAsync(uv0.contextData.fleets, function (slot0, slot1, slot2)
+						Fleet.EnergyCheck(_.map(_.values(slot1.ships), function (slot0)
+							return getProxy(BayProxy):getShipById(slot0)
+						end), Fleet.DEFAULT_NAME[slot0], function (slot0)
+							if slot0 then
+								uv0()
+							end
+						end)
+					end, slot0)
 				end
-
-				slot0()
 			end,
 			function (slot0)
 				if getProxy(PlayerProxy):getRawData():GoldMax(1) then
@@ -226,6 +243,12 @@ function slot0.onAutoSubBtn(slot0, slot1)
 		toggle = slot1.toggle,
 		system = slot0.contextData.system
 	})
+end
+
+function slot0.changeFleet(slot0, slot1)
+	slot0.viewComponent:SetCurrentFleet(slot1)
+	slot0.viewComponent:UpdateFleetView(true)
+	slot0.viewComponent:SetFleetStepper()
 end
 
 function slot0.refreshEdit(slot0, slot1)

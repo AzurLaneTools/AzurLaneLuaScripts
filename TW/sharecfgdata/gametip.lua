@@ -19585,7 +19585,7 @@ _G.pg.base.gametip.cruise_task_help_2210 = {
 }
 
 _G.pg.base.gametip.battlepass_main_tip_2212 = {
-	tip = "2022.4.1-2023.5.31期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可獲取<color=#854747>「命運女神·META」</color>在內的豐富獎勵"
+	tip = "2023.4.1-2023.5.31期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可獲取<color=#854747>「命運女神·META」</color>在內的豐富獎勵"
 }
 
 _G.pg.base.gametip.battlepass_main_help_2212 = {
@@ -19605,7 +19605,7 @@ _G.pg.base.gametip.battlepass_main_help_2212 = {
 
 ·<color=#92fc63>獎勵規則</color>
 巡游進度獎勵分為兩種：
-（1）基礎巡遊獎勵：包含<color=#ff5c5c>「命運女神·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·五期</color>等獎勵；
+（1）基礎巡遊獎勵：包含<color=#ff5c5c>「命運女神·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·四期</color>等獎勵；
     當巡遊達到指定進度時，指揮官可以直接領取相應的基礎巡遊獎勵。 
 （2）特許巡遊獎勵：包含<color=#ff5c5c>克里夫蘭換裝「南方之旅</color>」、<color=#ff5c5c>鑽石</color>等獎勵；
     購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。 
