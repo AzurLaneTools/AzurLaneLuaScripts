@@ -23404,6 +23404,6 @@ _G.pg.base.gametip.series_enemy_empty_commander_assistant = {
 	tip = "暂无参谋"
 }
 
-_G.pg.base.gametip.series_enemy_teamTips = {
+_G.pg.base.gametip.limit_team_character_tips = {
 	tip = "※参战的舰队中不可出现同名角色"
 }

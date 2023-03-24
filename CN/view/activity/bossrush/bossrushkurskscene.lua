@@ -66,6 +66,7 @@ function slot0.init(slot0)
 	slot0.links = {}
 	slot0.storyBar = slot0._tf:Find("Story/StoryBar")
 	slot0.storyAward = slot0._tf:Find("Story/PassLevel/Award")
+	slot0.ActionSequence = {}
 
 	setText(slot0._tf:Find("Battle/Rank/Title"), i18n("word_billboard"))
 	setText(slot0._tf:Find("Battle/Reward/Title"), i18n("series_enemy_reward"))
@@ -163,9 +164,12 @@ function slot0.UpdateView(slot0)
 	setActive(slot0._tf:Find("Links"), not slot1)
 	slot0:UpdateBattle()
 	slot0:UpdateStory()
-	seriesAsync({
+
+	slot2 = slot0.contextData.displayMode
+
+	slot0:addbubbleMsgBoxList({
 		function (slot0)
-			if uv0.activity:HasPassSeries(1001) and not getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossRushTotalRewardPanelMediator) then
+			if uv0.activity:HasPassSeries(1001) then
 				pg.SystemGuideMgr.GetInstance():PlayByGuideId("NG0036", nil, slot0)
 
 				return
@@ -174,15 +178,15 @@ function slot0.UpdateView(slot0)
 			slot0()
 		end,
 		function (slot0)
-			slot2 = nil
+			slot1 = nil
 
-			if uv0.contextData.displayMode == uv1.DISPLAY.BATTLE then
-				slot2 = uv0.activity:getConfig("config_client").openActivityStory
-			elseif slot1 == uv1.DISPLAY.STORY then
-				slot2 = uv0.activity:getConfig("config_client").openStory
+			if uv0 == uv1.DISPLAY.BATTLE then
+				slot1 = uv2.activity:getConfig("config_client").openActivityStory
+			elseif uv0 == uv1.DISPLAY.STORY then
+				slot1 = uv2.activity:getConfig("config_client").openStory
 			end
 
-			uv0:PlayStory(slot2, slot0)
+			uv2:PlayStory(slot1, slot0)
 		end,
 		function (slot0)
 			slot1 = true
@@ -199,11 +203,17 @@ function slot0.UpdateView(slot0)
 
 			if slot1 then
 				uv0:PlayStory(uv0.activity:getConfig("config_client").endStory, function (slot0)
+					uv0()
+
 					if slot0 then
-						uv0:UpdateView()
+						uv1:UpdateView()
 					end
 				end)
+
+				return
 			end
+
+			slot0()
 		end
 	})
 end
@@ -443,6 +453,47 @@ function slot0.UpdateTasks(slot0, slot1)
 
 		slot0:UpdateView()
 	end
+end
+
+function slot0.addbubbleMsgBoxList(slot0, slot1)
+	table.insertto(slot0.ActionSequence, slot1)
+
+	if not (#slot0.ActionSequence == 0) then
+		return
+	end
+
+	slot0:resumeBubble()
+end
+
+function slot0.addbubbleMsgBox(slot0, slot1)
+	table.insert(slot0.ActionSequence, slot1)
+
+	if not (#slot0.ActionSequence == 0) then
+		return
+	end
+
+	slot0:resumeBubble()
+end
+
+function slot0.resumeBubble(slot0)
+	if #slot0.ActionSequence == 0 then
+		return
+	end
+
+	slot1 = nil
+
+	(function ()
+		if uv0.ActionSequence[1] then
+			slot0(function ()
+				table.remove(uv0.ActionSequence, 1)
+				uv1()
+			end)
+		end
+	end)()
+end
+
+function slot0.CleanBubbleMsgbox(slot0)
+	table.clean(slot0.ActionSequence)
 end
 
 function slot0.willExit(slot0)

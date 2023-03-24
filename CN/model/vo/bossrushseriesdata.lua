@@ -82,6 +82,7 @@ function slot0.GetFleets(slot0)
 		slot2 = uv0[slot1]
 
 		slot2:SetSubFlag(slot0 == #uv1:GetFleetIds())
+		slot2:RemoveUnusedItems()
 
 		uv2[slot0] = slot2
 	end)
