@@ -2715,7 +2715,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70302] = {
 		shiptype = 3,
-		name = "库尔斯克",
+		name = "Kursk",
 		nation = 7,
 		id = 70302,
 		t_level_1 = 136,
