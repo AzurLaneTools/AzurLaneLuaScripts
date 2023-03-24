@@ -176,6 +176,10 @@ function slot0.checkPage(slot0)
 end
 
 function slot0.switchPage(slot0, slot1, slot2)
+	if slot2 then
+		slot0.contextData.page = slot1 == uv0.PAGE_UNSEAM and uv0.PAGE_BUILD or slot1
+	end
+
 	if slot1 == uv0.PAGE_UNSEAM then
 		if slot2 then
 			slot0:emit(BuildShipMediator.OPEN_DESTROY)
@@ -202,8 +206,6 @@ function slot0.switchPage(slot0, slot1, slot2)
 			slot0:emit(BuildShipMediator.CLOSE_PRAY_PAGE)
 		end
 	end
-
-	slot0.contextData.page = slot1 == uv0.PAGE_UNSEAM and uv0.PAGE_BUILD or slot1
 end
 
 function slot0.updateQueueTip(slot0, slot1)

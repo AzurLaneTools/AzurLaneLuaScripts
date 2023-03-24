@@ -87,18 +87,15 @@ function slot0.execute(slot0, slot1)
 		arg_list2 = slot11
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
-			slot1 = getProxy(ActivityProxy):getActivityById(uv0)
-
-			slot1:SetSeriesData(uv1)
-			getProxy(ActivityProxy):updateActivity(slot1)
+			getProxy(ActivityProxy):SetExtraDataMember(uv0, "seriesData", uv1)
 
 			if uv2 > 0 then
-				slot2 = getProxy(PlayerProxy):getRawData()
+				slot1 = getProxy(PlayerProxy):getRawData()
 
-				slot2:consume({
+				slot1:consume({
 					oil = uv2
 				})
-				getProxy(PlayerProxy):updatePlayer(slot2)
+				getProxy(PlayerProxy):updatePlayer(slot1)
 			end
 
 			(function ()
@@ -107,6 +104,7 @@ function slot0.execute(slot0, slot1)
 				end
 
 				slot0:ResetLast()
+				getProxy(ActivityProxy):updateActivity(slot0)
 			end)()
 			uv3:sendNotification(GAME.BOSSRUSH_TRACE_DONE, uv1)
 		else

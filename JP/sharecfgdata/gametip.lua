@@ -23684,3 +23684,7 @@ _G.pg.base.gametip.series_enemy_empty_commander_main = {
 _G.pg.base.gametip.series_enemy_empty_commander_assistant = {
 	tip = "参謀ニャ"
 }
+
+_G.pg.base.gametip.limit_team_character_tips = {
+	tip = "※元の名前が同じ艦船は複数の艦隊に編成できません"
+}

@@ -76,7 +76,10 @@ function slot0.CommonInit(slot0)
 	slot0.topPanelBg = slot0:findTF("top_bg", slot0._blurPanel)
 	slot0._backBtn = slot0:findTF("back_btn", slot0.topPanel)
 	slot0._spoilsContainer = slot0:findTF("right/infomation/atlasloot/spoils/items/items_container")
-	slot0._item = slot0:getTpl("right/infomation/atlasloot/spoils/items/item_tpl")
+	slot0._item = slot0:findTF("right/infomation/atlasloot/spoils/items/item_tpl")
+
+	SetActive(slot0._item, false)
+
 	slot0._goals = slot0:findTF("right/infomation/target/goal")
 	slot0._heroInfo = slot0:getTpl("heroInfo")
 	slot0._starTpl = slot0:getTpl("star_tpl")

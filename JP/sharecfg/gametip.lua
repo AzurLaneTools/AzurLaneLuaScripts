@@ -20762,5 +20762,10 @@ cs.gametip = {
 		859231,
 		114,
 		true
+	},
+	limit_team_character_tips = {
+		859345,
+		162,
+		true
 	}
 }
