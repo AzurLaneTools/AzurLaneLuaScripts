@@ -241,7 +241,7 @@ function slot0.doMain(slot0)
 			if uv0.intimacyDesc then
 				setActive(uv0.intimacyDesc, not uv0.intimacyDescPic)
 
-				slot5 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():ChieseDescTime(uv0.shipVO.proposeTime, true))
+				slot5 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():STimeDescS(uv0.shipVO.proposeTime, "%m/%d/%Y", true))
 
 				if not IsNil(GetComponent(uv0.intimacyDesc, "VerticalText")) then
 					GetComponent(uv0.intimacyDesc, "VerticalText").enabled = true
@@ -544,7 +544,7 @@ function slot0.stampWindow(slot0)
 	if slot0.intimacyDesc then
 		setActive(slot0.intimacyDesc, not slot0.intimacyDescPic)
 
-		slot2 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():ChieseDescTime(slot0.shipVO.proposeTime, true))
+		slot2 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():STimeDescS(slot0.shipVO.proposeTime, "%m/%d/%Y", true))
 
 		if not IsNil(GetComponent(slot0.intimacyDesc, "VerticalText")) then
 			GetComponent(slot0.intimacyDesc, "VerticalText").enabled = true

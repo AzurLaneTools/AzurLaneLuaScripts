@@ -4938,6 +4938,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -5927,6 +5937,16 @@ pg.ship_data_group = {
 				"Event: Microlayer Medley",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -7031,6 +7051,16 @@ pg.ship_data_group = {
 				"Event: Stars of the Shimmering Fjord",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -8418,6 +8448,16 @@ pg.ship_data_group = {
 				"Event: Passionate Polaris",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -11809,6 +11849,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13637,6 +13687,16 @@ pg.ship_data_group = {
 				"Event: Swirling Cherry Blossoms",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -22013,7 +22073,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
