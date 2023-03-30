@@ -9016,7 +9016,7 @@ _G.pg.base.spweapon_data_statistics[10750] = {
 
 _G.pg.base.spweapon_data_statistics[10760] = {
 	tech = 0,
-	name = "超级彩虹锤1号",
+	name = "슈퍼 레인보우 망치 1호",
 	value_2_random = 0,
 	type = 1,
 	value_1_random = 0,

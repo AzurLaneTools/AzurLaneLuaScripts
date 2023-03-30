@@ -4933,7 +4933,7 @@ pg.pay_data_display = {
 		id_str = "alkrgift57",
 		first_pay_double = 0,
 		extra_service = 4,
-		descrip = "1500 투어 PT 획득, 특허 투어 보상 해제 가능: 유구레 한정 스킨 및 기타 보상",
+		descrip = "1500 투어 PT 획득, 특허 투어 보상 해제 가능: 보클랭 한정 스킨 및 기타 보상",
 		airijp_id = "com.yostarjp.azurlane.seasonpass10",
 		extra_service_item = {
 			{

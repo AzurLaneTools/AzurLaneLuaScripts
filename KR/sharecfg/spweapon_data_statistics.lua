@@ -4868,7 +4868,7 @@ cs.spweapon_data_statistics = {
 	},
 	[10760] = {
 		127733,
-		494,
+		506,
 		true
 	}
 }

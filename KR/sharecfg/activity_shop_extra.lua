@@ -2584,7 +2584,7 @@ pg.activity_shop_extra = {
 				{
 					2023,
 					4,
-					1
+					8
 				},
 				{
 					0,
@@ -2595,8 +2595,8 @@ pg.activity_shop_extra = {
 			{
 				{
 					2023,
-					5,
-					31
+					6,
+					7
 				},
 				{
 					23,

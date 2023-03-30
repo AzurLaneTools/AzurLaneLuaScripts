@@ -9469,7 +9469,7 @@ pg.activity_template = {
 		}
 	},
 	[7009] = {
-		mark = 20230118,
+		mark = 20230202,
 		id = 7009,
 		title_res_tag = "CrusingDisplayAct",
 		type = 54,

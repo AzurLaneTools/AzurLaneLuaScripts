@@ -607,7 +607,7 @@ pg.enemy_data_statistics_213 = {
 	},
 	[13400005] = {
 		cannon = 1919,
-		name = "恐怖大魔王?",
+		name = "공포의 대마왕?",
 		fog_fx = "",
 		speed_growth = 0,
 		pilot_ai_template_id = 70050,
