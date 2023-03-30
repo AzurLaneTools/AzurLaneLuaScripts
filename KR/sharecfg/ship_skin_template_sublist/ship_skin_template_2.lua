@@ -1,114 +1,6 @@
 pg = pg or {}
-pg.ship_skin_template_2 = {
-	[101461] = {
-		ship_group = 10146,
-		name = "느긋한 핑크 바니",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "145",
-		id = 101461,
-		group_index = 1,
-		prefab = "shidifenbote_2",
-		painting = "shidifenbote_2",
-		shop_id = 70548,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 16,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "내 \"아지트\"에 온 걸 환영해, 여기서는 맘껏 게을러 퍼져도 돼… 농담이고, 오늘은 휴일이니까, 지휘관도 편하게 놀아.",
-		voice_actor = 267,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.05,
-					1.23,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.12,
-					1.22,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.59,
-							2.34,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
+pg.base = pg.base or {}
+pg.base.ship_skin_template_2 = {
 	[101470] = {
 		ship_group = 10147,
 		name = "모리슨",
@@ -10694,6 +10586,235 @@ pg.ship_skin_template_2 = {
 							0.63,
 							0.57,
 							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[103061] = {
+		ship_group = 10306,
+		name = "학원에서 인디랑! ",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 103061,
+		group_index = 1,
+		prefab = "botelan_2",
+		painting = "botelan_2",
+		shop_id = 70164,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 4,
+		illustrator = 10,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관님, 이것 좀 보세요! 제가 직접 만든 '인디 인형'에요! 정말 귀엽지 않나요!? 수예부 동아리 활동하면서 만든 자신작이에요! ",
+		voice_actor = 10,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.069,
+					0.936,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.149,
+					0.103,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.045,
+					0.896,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.703,
+							2.275,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[103069] = {
+		ship_group = 10306,
+		name = "포틀랜드·改",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 103069,
+		group_index = 9,
+		prefab = "botelan_g",
+		painting = "botelan_g",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9997,
+		illustrator = 10,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "만나서 반가워, 나는 인디애나 포틀랜드~! …응? 인디가 뭐냐고? 내 가장 소중한 여동생이자, 가장 좋아하는……",
+		voice_actor = 10,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.48,
+					0.77,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.48,
+					0.77,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.48,
+					0.77,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.75,
+							0.838,
+							-0.178
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.465,
+							2.504,
+							-1.14
 						}
 					}
 				}

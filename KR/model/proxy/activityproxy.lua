@@ -45,6 +45,10 @@ function slot0.register(slot0)
 				end
 
 				uv0.data[slot5.id] = slot6
+
+				if slot7 == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+					uv0:updateActivityFleet(slot5)
+				end
 			end
 		end
 
@@ -108,8 +112,43 @@ function slot0.register(slot0)
 			activity = slot1
 		})
 	end)
+	slot0:on(40009, function (slot0)
+		slot2 = nil
+
+		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) then
+			slot2 = slot1:GetSeriesData()
+		end
+
+		slot3 = BossRushSettlementCommand.ConcludeEXP(slot0, slot1, slot2 and slot2:GetBattleStatistics())
+
+		(function ()
+			getProxy(ActivityProxy):SetExtraDataMember(uv0.id, "settlementData", uv1)
+		end)()
+	end)
+	slot0:on(24100, function (slot0)
+		(function ()
+			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK) then
+				return
+			end
+
+			slot0:Record(uv0.score)
+			uv1:updateActivity(slot0)
+		end)()
+
+		if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) then
+			return
+		end
+
+		if not slot2:GetSeriesData() then
+			return
+		end
+
+		slot3:AddEXScore(slot0)
+		uv0:updateActivity(slot2)
+	end)
 
 	slot0.requestTime = {}
+	slot0.extraDatas = {}
 end
 
 function slot0.getActivityListByType(slot0, slot1)
@@ -677,7 +716,8 @@ function slot0.getEnterReadyActivity(slot0)
 		[ActivityConst.ACTIVITY_TYPE_ZPROJECT] = false,
 		[ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2] = function (slot0)
 			return not slot0:checkBattleTimeInBossAct()
-		end
+		end,
+		[ActivityConst.ACTIVITY_TYPE_BOSSRUSH] = false
 	})) do
 		slot3[slot8] = 0
 	end
@@ -759,6 +799,48 @@ function slot0.getShipModExpActivity(slot0)
 	end
 
 	return slot0.shipModeExpbuffs
+end
+
+function slot0.InitContinuousTime(slot0, slot1)
+	slot0.continuousOpeartionTime = slot1
+	slot0.continuousOpeartionTotalTime = slot1
+end
+
+function slot0.UseContinuousTime(slot0)
+	if not slot0.continuousOpeartionTime then
+		return
+	end
+
+	slot0.continuousOpeartionTime = slot0.continuousOpeartionTime - 1
+end
+
+function slot0.GetContinuousTime(slot0)
+	return slot0.continuousOpeartionTime, slot0.continuousOpeartionTotalTime
+end
+
+function slot0.AddBossRushAwards(slot0, slot1)
+	slot0.bossrushAwards = slot0.bossrushAwards or {}
+
+	table.insertto(slot0.bossrushAwards, slot1)
+end
+
+function slot0.PopBossRushAwards(slot0)
+	slot0.bossrushAwards = nil
+
+	return slot0.bossrushAwards or {}
+end
+
+function slot0.SetExtraDataMember(slot0, slot1, slot2, slot3)
+	slot0.extraDatas[slot1] = slot0.extraDatas[slot1] or {}
+	slot0.extraDatas[slot1][slot2] = slot3
+end
+
+function slot0.GetExtraDataMember(slot0, slot1, slot2)
+	if not slot0.extraDatas[slot1] then
+		return
+	end
+
+	return slot0.extraDatas[slot1][slot2]
 end
 
 return slot0

@@ -179,6 +179,7 @@ function slot0.Ctor(slot0, slot1)
 		table.insert(slot0.customRandomShips, slot8)
 	end
 
+	slot0.proposeShipId = slot1.marry_ship
 	slot0.displayInfo = slot1.display or {}
 	slot0.attireInfo = {
 		[AttireConst.TYPE_ICON_FRAME] = slot0.iconFrame,
@@ -745,6 +746,14 @@ end
 
 function slot0.UpdateCustomRandomShipList(slot0, slot1)
 	slot0.customRandomShips = slot1
+end
+
+function slot0.SetProposeShipId(slot0, slot1)
+	slot0.proposeShipId = slot1
+end
+
+function slot0.GetProposeShipId(slot0)
+	return slot0.proposeShipId
 end
 
 return slot0

@@ -372,7 +372,7 @@ function slot0.updateFinished(slot0, slot1)
 	setActive(slot0.skillDesc.parent, slot3.skill_id ~= 0)
 
 	if slot3.skill_id ~= 0 then
-		setText(slot0.skillDesc, i18n("ship_remould_material_unlock_skill", HXSet.hxLan(pg.skill_data_template[slot3.skill_id].name)))
+		setText(slot0.skillDesc, i18n("ship_remould_material_unlock_skill", pg.skill_data_template[slot3.skill_id].name))
 	end
 
 	removeAllChildren(slot0.attrContainer)
@@ -483,7 +483,7 @@ function slot0.updateProgress(slot0, slot1)
 	setActive(slot0.skillDesc.parent, slot3.skill_id ~= 0)
 
 	if slot3.skill_id ~= 0 then
-		setText(slot0.skillDesc, i18n("ship_remould_material_unlock_skill", HXSet.hxLan(pg.skill_data_template[slot3.skill_id].name)))
+		setText(slot0.skillDesc, i18n("ship_remould_material_unlock_skill", pg.skill_data_template[slot3.skill_id].name))
 	end
 
 	for slot12 = slot0.itemContainer.childCount, #slot7 - 1 do
@@ -620,7 +620,7 @@ function slot0.updateProgress(slot0, slot1)
 
 			slot6:ShowMsgBox({
 				modal = true,
-				content = HXSet.hxLan(i18n("ship_remould_warning_" .. uv2, uv0.shipVO:getName())),
+				content = i18n("ship_remould_warning_" .. uv2, uv0.shipVO:getName()),
 				onYes = function ()
 					uv0:emit(ShipRemouldMediator.REMOULD_SHIP, uv0.shipVO.id, uv1)
 				end
@@ -842,7 +842,7 @@ function slot0.showToolTip(slot0, slot1)
 		slot9:align(#slot5)
 	end
 
-	setText(findTF(slot0.tooltip, "window/scrollview/list/content/"), HXSet.hxLan(slot2.descrip))
+	setText(findTF(slot0.tooltip, "window/scrollview/list/content/"), slot2.descrip)
 	onButton(slot0, findTF(slot0.tooltip, "window/top/btnBack"), function ()
 		uv0:closeTip()
 	end, SFX_CANCEL)

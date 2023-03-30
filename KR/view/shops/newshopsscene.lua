@@ -56,7 +56,7 @@ function slot0.init(slot0)
 	slot0.contextData.paintingView:setSecretaryPos(slot0:findTF("secretaryPos"))
 
 	slot0.contextData.bgView = ShopBgView.New(slot0:findTF("bg"))
-	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 60038, slot0.pageContainer)
+	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 5, slot0.pageContainer)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 end
 

@@ -15,12 +15,7 @@ slot0.ON_SUB_AUTO = "PreCombatMediator:ON_SUB_AUTO"
 slot0.GET_CHAPTER_DROP_SHIP_LIST = "PreCombatMediator:GET_CHAPTER_DROP_SHIP_LIST"
 
 function slot0.register(slot0)
-	slot0:bind(uv0.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
-		uv0:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST, {
-			chapterId = slot1,
-			callback = slot2
-		})
-	end)
+	slot0:bindEvent()
 
 	slot1 = getProxy(BayProxy)
 
@@ -43,18 +38,10 @@ function slot0.register(slot0)
 		end
 	end
 
-	slot5 = slot0.viewComponent
+	slot0.fleets = slot4
 
-	slot5:SetFleets(slot4)
-
-	slot5 = getProxy(PlayerProxy)
-	slot7 = slot0.viewComponent
-
-	slot7:SetPlayerInfo(slot5:getData())
-	slot0:bind(uv0.ON_ABORT_EDIT, function (slot0)
-		uv0:abortEditting()
-		uv0:syncFleet()
-	end)
+	slot0.viewComponent:SetFleets(slot4)
+	slot0.viewComponent:SetPlayerInfo(getProxy(PlayerProxy):getData())
 
 	if slot2 == SYSTEM_DUEL then
 		slot0.viewComponent:SetCurrentFleet(FleetProxy.PVP_FLEET_ID)
@@ -79,7 +66,23 @@ function slot0.register(slot0)
 		slot0.viewComponent:SetStageID(slot0.contextData.stageId)
 		slot0.viewComponent:SetCurrentFleet(slot5.combatFleetId)
 	end
+end
 
+function slot0.bindEvent(slot0)
+	slot1 = slot0.contextData.system
+
+	slot0:bind(uv0.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST, {
+			chapterId = slot1,
+			callback = slot2
+		})
+	end)
+	slot0:bind(uv0.ON_ABORT_EDIT, function (slot0)
+		slot1 = getProxy(FleetProxy)
+
+		slot1:abortEditting()
+		slot1:syncFleet()
+	end)
 	slot0:bind(uv0.ON_CHANGE_FLEET, function (slot0, slot1)
 		uv0:changeFleet(slot1)
 	end)
@@ -173,16 +176,16 @@ function slot0.register(slot0)
 			slot4, slot5 = nil
 
 			if uv2 == SYSTEM_HP_SHARE_ACT_BOSS or uv2 == SYSTEM_BOSS_EXPERIMENT or uv2 == SYSTEM_ACT_BOSS then
-				slot4 = uv3[1]
+				slot4 = uv0.fleets[1]
 				slot5 = "ship_energy_low_warn_no_exp"
 			else
-				slot4 = uv4:getFleetById(slot1)
+				slot4 = getProxy(FleetProxy):getFleetById(slot1)
 			end
 
 			slot6 = {}
 
 			for slot10, slot11 in ipairs(slot4.ships) do
-				table.insert(slot6, uv5:getShipById(slot11))
+				table.insert(slot6, getProxy(BayProxy):getShipById(slot11))
 			end
 
 			if slot4.name == "" or slot7 == nil then
@@ -197,7 +200,7 @@ function slot0.register(slot0)
 		end
 	end)
 
-	function slot7()
+	function slot2()
 		slot0 = 0
 
 		for slot4, slot5 in ipairs(uv0.contextData.fleets) do

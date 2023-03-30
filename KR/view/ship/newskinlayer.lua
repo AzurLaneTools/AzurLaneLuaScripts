@@ -132,31 +132,29 @@ function slot0.setSkinPri(slot0, slot1)
 		end)
 	end
 
+	setPaintingPrefabAsync(slot0._paintingTF, slot0._skinConfig.painting, "huode")
+
+	slot0._skinName.text = i18n("ship_newSkin_name", slot0._skinConfig.name)
 	slot6 = nil
-
-	setPaintingPrefabAsync(slot0._paintingTF, (HXSet.isHx() or slot0._skinConfig.painting) and (slot0._skinConfig.painting_hx ~= "" and slot0._skinConfig.painting_hx or slot0._skinConfig.painting), "huode")
-
-	slot0._skinName.text = i18n("ship_newSkin_name", HXSet.hxLan(slot0._skinConfig.name))
-	slot7 = nil
-	slot8 = ""
-	slot9 = nil
+	slot7 = ""
+	slot8 = nil
 
 	if ShipWordHelper.RawGetWord(slot1, ShipWordHelper.WORD_TYPE_UNLOCK) == "" then
-		slot7, slot9, slot8 = ShipWordHelper.GetWordAndCV(slot1, ShipWordHelper.WORD_TYPE_DROP)
+		slot6, slot8, slot7 = ShipWordHelper.GetWordAndCV(slot1, ShipWordHelper.WORD_TYPE_DROP)
 	else
-		slot7, slot9, slot8 = ShipWordHelper.GetWordAndCV(slot1, ShipWordHelper.WORD_TYPE_UNLOCK)
+		slot6, slot8, slot7 = ShipWordHelper.GetWordAndCV(slot1, ShipWordHelper.WORD_TYPE_UNLOCK)
 	end
 
-	setWidgetText(slot0._dialogue, SwitchSpecialChar(slot8, true), "desc/Text")
+	setWidgetText(slot0._dialogue, SwitchSpecialChar(slot7, true), "desc/Text")
 
 	slot0._dialogue.transform.localScale = Vector3(0, 1, 1)
 
 	SetActive(slot0._dialogue, false)
 	SetActive(slot0._dialogue, true)
 
-	slot10 = LeanTween.scale(slot0._dialogue, Vector3(1, 1, 1), 0.1)
+	slot9 = LeanTween.scale(slot0._dialogue, Vector3(1, 1, 1), 0.1)
 
-	slot10:setOnComplete(System.Action(function ()
+	slot9:setOnComplete(System.Action(function ()
 		setActive(uv0._shade, false)
 		setActive(uv0.clickTF, true)
 		uv0:voice(uv1)
@@ -173,7 +171,7 @@ function slot0.showExitTip(slot0)
 end
 
 function slot0.didEnter(slot0)
-	slot0.shipName = HXSet.hxLan(pg.ship_skin_template[ShipWordHelper.GetDefaultSkin(slot0.contextData.skinId)].name)
+	slot0.shipName = pg.ship_skin_template[ShipWordHelper.GetDefaultSkin(slot0.contextData.skinId)].name
 
 	onButton(slot0, slot0._viewBtn, function ()
 		uv0.isInView = true
@@ -472,7 +470,7 @@ end
 
 function slot0.willExit(slot0)
 	pg.CpkPlayMgr.GetInstance():DisposeCpkMovie()
-	pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newSkinLayer_get", pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1].name, HXSet.hxLan(slot0._skinConfig.name)), COLOR_GREEN)
+	pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newSkinLayer_get", pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1].name, slot0._skinConfig.name), COLOR_GREEN)
 	slot0:recyclePainting()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0:stopVoice()

@@ -289,7 +289,7 @@ function slot0.GetExchangeItems(slot0)
 		table.insert(slot6, {
 			cost = 1,
 			drop = slot12,
-			name = HXSet.hxLan(slot12:getConfig("name")),
+			name = slot12:getConfig("name"),
 			stamina = slot12:getItemStaminaRecover()
 		})
 	end

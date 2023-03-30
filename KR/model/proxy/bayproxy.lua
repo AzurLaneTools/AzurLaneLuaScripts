@@ -735,7 +735,7 @@ function slot0.getProposeGroupList(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data) do
-		if slot6.propose then
+		if slot6:ShowPropose() then
 			slot1[slot6.groupId] = true
 		end
 	end
@@ -900,7 +900,7 @@ function slot0.getDelegationRecommendShips(slot0, slot1)
 		slot12 = slot11.id
 		slot13 = slot11:getGroupId()
 
-		if slot4 <= slot11.level and slot11.lockState ~= Ship.LOCK_STATE_UNLOCK and not table.contains(slot5, slot12) and not table.contains(slot7, slot13) and not table.contains(slot9, slot12) and not slot11:getFlag("inElite") and ShipStatus.ShipStatusCheck("inEvent", slot11) then
+		if slot4 <= slot11.level and slot11.lockState ~= Ship.LOCK_STATE_UNLOCK and not table.contains(slot5, slot12) and not table.contains(slot7, slot13) and not table.contains(slot9, slot12) and not slot11:getFlag("inElite") and not slot11:getFlag("inActivity") and ShipStatus.ShipStatusCheck("inEvent", slot11) then
 			table.insert(slot7, slot13)
 			table.insert(slot9, slot12)
 

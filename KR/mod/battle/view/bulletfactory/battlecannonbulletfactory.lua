@@ -1,30 +1,30 @@
 ys = ys or {}
 slot0 = ys
 slot1 = slot0.Battle.BattleConst.UnitType
+slot2 = slot0.Battle.BattleConst.AircraftUnitType
+slot3 = slot0.Battle.BattleConst.CharacterUnitType
 slot0.Battle.BattleCannonBulletFactory = singletonClass("BattleCannonBulletFactory", slot0.Battle.BattleBulletFactory)
 slot0.Battle.BattleCannonBulletFactory.__name = "BattleCannonBulletFactory"
-slot2 = slot0.Battle.BattleCannonBulletFactory
+slot4 = slot0.Battle.BattleCannonBulletFactory
 
-function slot2.Ctor(slot0)
+function slot4.Ctor(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot2.MakeBullet(slot0)
+function slot4.MakeBullet(slot0)
 	return uv0.Battle.BattleCannonBullet.New()
 end
 
-slot3 = Quaternion.Euler(-90, 0, 0)
+slot5 = Quaternion.Euler(-90, 0, 0)
 
-function slot2.onBulletHitFunc(slot0, slot1, slot2)
+function slot4.onBulletHitFunc(slot0, slot1, slot2)
 	slot3 = uv0.GetDataProxy()
 	slot5 = slot0:GetBulletData():GetTemplate()
 	slot6 = nil
 
-	if slot2 == uv1.AIRCRAFT_UNIT or slot2 == uv1.AIRFIGHTER_UNIT then
+	if table.contains(uv1, slot2) then
 		slot6 = uv0.GetSceneMediator():GetAircraft(slot1)
-	elseif slot2 == uv1.PLAYER_UNIT then
-		slot6 = uv0.GetSceneMediator():GetCharacter(slot1)
-	elseif slot2 == uv1.ENEMY_UNIT then
+	elseif table.contains(uv2, slot2) then
 		slot6 = uv0.GetSceneMediator():GetCharacter(slot1)
 	end
 
@@ -45,16 +45,16 @@ function slot2.onBulletHitFunc(slot0, slot1, slot2)
 			end
 
 			pg.EffectMgr.GetInstance():PlayBattleEffect(slot11, Vector3((math.random() - 0.5) * slot13.x, 0, slot13.z * slot14):Add(slot6:GetPosition()):Add(slot12), true)
-			uv2.Battle.PlayBattleSFX(slot4:GetMissSFX())
+			uv3.Battle.PlayBattleSFX(slot4:GetMissSFX())
 		else
 			slot10 = slot6:AddFX(slot0:GetFXID())
 
-			uv2.Battle.PlayBattleSFX(slot4:GetHitSFX())
+			uv3.Battle.PlayBattleSFX(slot4:GetHitSFX())
 
 			slot12 = slot0:GetPosition() - slot6:GetPosition()
 			slot12.x = slot12.x * slot7:GetDirection()
 			slot13 = slot10.transform.localPosition
-			slot12.y = math.cos(math.deg2Rad * (uv3 * slot6:GetTf().localRotation).eulerAngles.x) * slot12.z
+			slot12.y = math.cos(math.deg2Rad * (uv4 * slot6:GetTf().localRotation).eulerAngles.x) * slot12.z
 			slot12.z = 0
 
 			slot13:Add(slot12 / slot6:GetInitScale())
@@ -74,7 +74,7 @@ function slot2.onBulletHitFunc(slot0, slot1, slot2)
 	end
 end
 
-function slot2.onBulletMissFunc(slot0)
+function slot4.onBulletMissFunc(slot0)
 	slot1 = slot0:GetBulletData()
 	slot2 = slot1:GetTemplate()
 	slot3, slot4 = uv0.GetFXPool():GetFX(slot0:GetMissFXID())
@@ -83,7 +83,7 @@ function slot2.onBulletMissFunc(slot0)
 	uv1.Battle.PlayBattleSFX(slot1:GetMissSFX())
 end
 
-function slot2.MakeModel(slot0, slot1, slot2, slot3, slot4)
+function slot4.MakeModel(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0:GetDataProxy()
 	slot6 = slot1:GetBulletData()
 

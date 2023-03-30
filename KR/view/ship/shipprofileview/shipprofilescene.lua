@@ -460,7 +460,7 @@ function slot0.ShiftSkin(slot0, slot1)
 
 	slot0:LoadSkinBg((not slot0.skin.bg_sp or slot0.skin.bg_sp == "" or not (PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.skin.painting, 0) == 0) or slot0.skin.bg_sp) and (not slot0.skin.bg or slot0.skin.bg == "" or slot0.skin.bg) and shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.skin.id, slot0.shipGroup:isBluePrintGroup(), slot0.shipGroup:isMetaGroup()))
 
-	slot0.haveOp = PathMgr.FileExists(PathMgr.getAssetBundle("ui/star_level_unlock_anim_" .. slot0.skin.id))
+	slot0.haveOp = PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/star_level_unlock_anim_" .. slot0.skin.id))
 end
 
 function slot0.LoadModel(slot0, slot1)
@@ -732,7 +732,7 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.playOpening(slot0, slot1)
-	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. ("star_level_unlock_anim_" .. slot0.skin.id))) then
+	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/" .. ("star_level_unlock_anim_" .. slot0.skin.id))) then
 		slot4 = pg.CpkPlayMgr.GetInstance()
 
 		slot4:PlayCpkMovie(function ()
@@ -740,7 +740,7 @@ function slot0.playOpening(slot0, slot1)
 			if uv0 then
 				uv0()
 			end
-		end, "ui", slot2, true, true, nil)
+		end, "ui/skinunlockanim", slot2, true, true, nil)
 	elseif slot1 then
 		slot1()
 	end

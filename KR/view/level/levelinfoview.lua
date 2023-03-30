@@ -194,7 +194,7 @@ function slot0.set(slot0, slot1, slot2)
 		end)
 	end
 
-	setText(slot0.txIntro, HXSet.hxLan(slot4.profiles))
+	setText(slot0.txIntro, slot4.profiles)
 	setText(slot0.txCost, slot4.oil)
 
 	if slot4.icon and slot4.icon[1] then

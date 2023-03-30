@@ -32,7 +32,6 @@ function slot0.execute(slot0, slot1)
 	BillboardMediator.time = nil
 	Map.lastMap = nil
 	Map.lastMapForActivity = nil
-	BuildShipScene.Page = nil
 	BuildShipScene.projectName = nil
 	DockyardScene.selectedSort = nil
 	DockyardScene.selectAsc = nil

@@ -2712,6 +2712,17 @@ pg.fleet_tech_ship_class = {
 			70301
 		}
 	},
+	[70302] = {
+		shiptype = 3,
+		name = "쿠르스크",
+		nation = 7,
+		id = 70302,
+		t_level_1 = 136,
+		t_level = 8,
+		ships = {
+			70302
+		}
+	},
 	[70501] = {
 		shiptype = 5,
 		name = "강구트급",
@@ -3239,6 +3250,7 @@ pg.fleet_tech_ship_class = {
 		70204,
 		70205,
 		70301,
+		70302,
 		70501,
 		70502,
 		70503,

@@ -217,8 +217,8 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 		slot0.fashionDetailWrapper = slot2
 	end
 
-	setText(slot2.name, HXSet.hxLan(slot1.name))
-	setText(slot2.descTxt, SwitchSpecialChar(HXSet.hxLan(slot1.desc), true))
+	setText(slot2.name, slot1.name)
+	setText(slot2.descTxt, SwitchSpecialChar(slot1.desc, true))
 
 	if #slot2.descTxt:GetComponent(typeof(Text)).text > 50 then
 		slot3.alignment = TextAnchor.MiddleLeft
@@ -298,10 +298,10 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 				slot0 = Goods.Create({
 					shop_id = uv4.id
 				}, Goods.TYPE_SKIN)
-				slot3 = i18n("text_buy_fashion_tip", slot0:GetPrice(), HXSet.hxLan(uv3.name))
+				slot3 = i18n("text_buy_fashion_tip", slot0:GetPrice(), uv3.name)
 
 				if slot0:isDisCount() and slot0:IsItemDiscountType() then
-					slot3 = i18n("discount_coupon_tip", slot2, slot0:GetDiscountItem().name, HXSet.hxLan(uv3.name))
+					slot3 = i18n("discount_coupon_tip", slot2, slot0:GetDiscountItem().name, uv3.name)
 				end
 
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({

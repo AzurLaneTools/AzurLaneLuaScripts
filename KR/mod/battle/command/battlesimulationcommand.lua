@@ -251,7 +251,9 @@ function slot3.onUpdateCountDown(slot0, slot1)
 end
 
 function slot3.onUpdateUnitHP(slot0, slot1)
-	slot1.Dispatcher:GetFleetVO():UpdateFleetDamage(slot1.Data.validDHP)
+	if slot1.Dispatcher:GetFleetVO() then
+		slot3:UpdateFleetDamage(slot1.Data.validDHP)
+	end
 end
 
 function slot3.onUnitDying(slot0, slot1)

@@ -52,6 +52,7 @@ slot2 = {
 	SC_11003_CARTOON_COLLECT_MARK_FIELD = slot0.FieldDescriptor(),
 	SC_11003_RANDOM_SHIP_MODE_FIELD = slot0.FieldDescriptor(),
 	SC_11003_RANDOM_SHIP_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_11003_MARRY_SHIP_FIELD = slot0.FieldDescriptor(),
 	SC_11004_RESOURCE_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_11005_TYPE_FIELD = slot0.FieldDescriptor(),
 	CS_11005_ID_FIELD = slot0.FieldDescriptor(),
@@ -77,6 +78,8 @@ slot2 = {
 	CS_11023_TYPE_FIELD = slot0.FieldDescriptor(),
 	SC_11024_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_11024_SHOP_INFO_FIELD = slot0.FieldDescriptor(),
+	CS_11025_SURVEY_ID_FIELD = slot0.FieldDescriptor(),
+	SC_11026_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_11100_CMD_FIELD = slot0.FieldDescriptor(),
 	CS_11100_ARG1_FIELD = slot0.FieldDescriptor(),
 	CS_11100_ARG2_FIELD = slot0.FieldDescriptor(),
@@ -95,6 +98,7 @@ slot2 = {
 	CS_11202_ARG2_FIELD = slot0.FieldDescriptor(),
 	CS_11202_ARG3_FIELD = slot0.FieldDescriptor(),
 	CS_11202_ARG_LIST_FIELD = slot0.FieldDescriptor(),
+	CS_11202_ARG_LIST2_FIELD = slot0.FieldDescriptor(),
 	CS_11202_KVARGS1_FIELD = slot0.FieldDescriptor(),
 	SC_11203_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_11203_AWARD_LIST_FIELD = slot0.FieldDescriptor(),
@@ -281,6 +285,8 @@ CS_11021 = slot0.Descriptor()
 SC_11022 = slot0.Descriptor()
 CS_11023 = slot0.Descriptor()
 SC_11024 = slot0.Descriptor()
+CS_11025 = slot0.Descriptor()
+SC_11026 = slot0.Descriptor()
 CS_11100 = slot0.Descriptor()
 SC_11101 = slot0.Descriptor()
 BENEFITBUFF = slot0.Descriptor()
@@ -818,6 +824,15 @@ slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.has_default_value = false
 slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.default_value = {}
 slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.type = 13
 slot2.SC_11003_RANDOM_SHIP_LIST_FIELD.cpp_type = 3
+slot2.SC_11003_MARRY_SHIP_FIELD.name = "marry_ship"
+slot2.SC_11003_MARRY_SHIP_FIELD.full_name = "p11.sc_11003.marry_ship"
+slot2.SC_11003_MARRY_SHIP_FIELD.number = 43
+slot2.SC_11003_MARRY_SHIP_FIELD.index = 42
+slot2.SC_11003_MARRY_SHIP_FIELD.label = 2
+slot2.SC_11003_MARRY_SHIP_FIELD.has_default_value = false
+slot2.SC_11003_MARRY_SHIP_FIELD.default_value = 0
+slot2.SC_11003_MARRY_SHIP_FIELD.type = 13
+slot2.SC_11003_MARRY_SHIP_FIELD.cpp_type = 3
 SC_11003.name = "sc_11003"
 SC_11003.full_name = "p11.sc_11003"
 SC_11003.nested_types = {}
@@ -864,7 +879,8 @@ SC_11003.fields = {
 	slot2.SC_11003_CARTOON_READ_MARK_FIELD,
 	slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD,
 	slot2.SC_11003_RANDOM_SHIP_MODE_FIELD,
-	slot2.SC_11003_RANDOM_SHIP_LIST_FIELD
+	slot2.SC_11003_RANDOM_SHIP_LIST_FIELD,
+	slot2.SC_11003_MARRY_SHIP_FIELD
 }
 SC_11003.is_extendable = false
 SC_11003.extensions = {}
@@ -1289,6 +1305,42 @@ SC_11024.fields = {
 }
 SC_11024.is_extendable = false
 SC_11024.extensions = {}
+slot2.CS_11025_SURVEY_ID_FIELD.name = "survey_id"
+slot2.CS_11025_SURVEY_ID_FIELD.full_name = "p11.cs_11025.survey_id"
+slot2.CS_11025_SURVEY_ID_FIELD.number = 1
+slot2.CS_11025_SURVEY_ID_FIELD.index = 0
+slot2.CS_11025_SURVEY_ID_FIELD.label = 2
+slot2.CS_11025_SURVEY_ID_FIELD.has_default_value = false
+slot2.CS_11025_SURVEY_ID_FIELD.default_value = ""
+slot2.CS_11025_SURVEY_ID_FIELD.type = 9
+slot2.CS_11025_SURVEY_ID_FIELD.cpp_type = 9
+CS_11025.name = "cs_11025"
+CS_11025.full_name = "p11.cs_11025"
+CS_11025.nested_types = {}
+CS_11025.enum_types = {}
+CS_11025.fields = {
+	slot2.CS_11025_SURVEY_ID_FIELD
+}
+CS_11025.is_extendable = false
+CS_11025.extensions = {}
+slot2.SC_11026_RESULT_FIELD.name = "result"
+slot2.SC_11026_RESULT_FIELD.full_name = "p11.sc_11026.result"
+slot2.SC_11026_RESULT_FIELD.number = 1
+slot2.SC_11026_RESULT_FIELD.index = 0
+slot2.SC_11026_RESULT_FIELD.label = 2
+slot2.SC_11026_RESULT_FIELD.has_default_value = false
+slot2.SC_11026_RESULT_FIELD.default_value = 0
+slot2.SC_11026_RESULT_FIELD.type = 13
+slot2.SC_11026_RESULT_FIELD.cpp_type = 3
+SC_11026.name = "sc_11026"
+SC_11026.full_name = "p11.sc_11026"
+SC_11026.nested_types = {}
+SC_11026.enum_types = {}
+SC_11026.fields = {
+	slot2.SC_11026_RESULT_FIELD
+}
+SC_11026.is_extendable = false
+SC_11026.extensions = {}
 slot2.CS_11100_CMD_FIELD.name = "cmd"
 slot2.CS_11100_CMD_FIELD.full_name = "p11.cs_11100.cmd"
 slot2.CS_11100_CMD_FIELD.number = 1
@@ -1505,10 +1557,19 @@ slot2.CS_11202_ARG_LIST_FIELD.has_default_value = false
 slot2.CS_11202_ARG_LIST_FIELD.default_value = {}
 slot2.CS_11202_ARG_LIST_FIELD.type = 13
 slot2.CS_11202_ARG_LIST_FIELD.cpp_type = 3
+slot2.CS_11202_ARG_LIST2_FIELD.name = "arg_list2"
+slot2.CS_11202_ARG_LIST2_FIELD.full_name = "p11.cs_11202.arg_list2"
+slot2.CS_11202_ARG_LIST2_FIELD.number = 7
+slot2.CS_11202_ARG_LIST2_FIELD.index = 6
+slot2.CS_11202_ARG_LIST2_FIELD.label = 3
+slot2.CS_11202_ARG_LIST2_FIELD.has_default_value = false
+slot2.CS_11202_ARG_LIST2_FIELD.default_value = {}
+slot2.CS_11202_ARG_LIST2_FIELD.type = 13
+slot2.CS_11202_ARG_LIST2_FIELD.cpp_type = 3
 slot2.CS_11202_KVARGS1_FIELD.name = "kvargs1"
 slot2.CS_11202_KVARGS1_FIELD.full_name = "p11.cs_11202.kvargs1"
-slot2.CS_11202_KVARGS1_FIELD.number = 7
-slot2.CS_11202_KVARGS1_FIELD.index = 6
+slot2.CS_11202_KVARGS1_FIELD.number = 8
+slot2.CS_11202_KVARGS1_FIELD.index = 7
 slot2.CS_11202_KVARGS1_FIELD.label = 3
 slot2.CS_11202_KVARGS1_FIELD.has_default_value = false
 slot2.CS_11202_KVARGS1_FIELD.default_value = {}
@@ -1526,6 +1587,7 @@ CS_11202.fields = {
 	slot2.CS_11202_ARG2_FIELD,
 	slot2.CS_11202_ARG3_FIELD,
 	slot2.CS_11202_ARG_LIST_FIELD,
+	slot2.CS_11202_ARG_LIST2_FIELD,
 	slot2.CS_11202_KVARGS1_FIELD
 }
 CS_11202.is_extendable = false
@@ -3647,6 +3709,7 @@ cs_11017 = slot0.Message(CS_11017)
 cs_11019 = slot0.Message(CS_11019)
 cs_11021 = slot0.Message(CS_11021)
 cs_11023 = slot0.Message(CS_11023)
+cs_11025 = slot0.Message(CS_11025)
 cs_11100 = slot0.Message(CS_11100)
 cs_11202 = slot0.Message(CS_11202)
 cs_11204 = slot0.Message(CS_11204)
@@ -3694,6 +3757,7 @@ sc_11018 = slot0.Message(SC_11018)
 sc_11020 = slot0.Message(SC_11020)
 sc_11022 = slot0.Message(SC_11022)
 sc_11024 = slot0.Message(SC_11024)
+sc_11026 = slot0.Message(SC_11026)
 sc_11101 = slot0.Message(SC_11101)
 sc_11200 = slot0.Message(SC_11200)
 sc_11201 = slot0.Message(SC_11201)

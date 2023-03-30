@@ -22,6 +22,7 @@ function slot0.Ctor(slot0)
 		MainMonthCardSequence.New(),
 		MainMetaSkillSequence.New(),
 		MainCrusingActSequence.New(),
+		MainReceiveBossRushAwardsSequence.New(),
 		MainCalcHxSequence.New(),
 		MainGuideSequence.New(),
 		MainOpenSystemSequence.New()

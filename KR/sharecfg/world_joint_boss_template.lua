@@ -125,7 +125,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "그나이제나우·META",
 		painting = "genaisennao",
 		boss_level_id = 61,
@@ -264,12 +264,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "애리조나·META",
 		painting = "yalisangna",
 		boss_level_id = 121,
 		id = 9,
 		meta_id = 970503,
+		item_id = 100000,
 		description = {
 			{
 				"퍼지는 슬픔",
@@ -282,12 +283,44 @@ pg.world_joint_boss_template = {
 				"임의의 적의 내구도가 50% 이하로 감소한 경우, 추가 회복 효과를 받는다.\n임의의 적의 내구도가 20% 이하로 감소한 경우, 받는 <color=#92fc63>모든 회복 효과가 대미지로 전환된다</color>."
 			}
 		},
+		p_offset = {
+			-49.8,
+			589.5,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			388,
+			586.2,
+			0.9,
+			0.9
+		}
+	},
+	{
+		item_id = 100000,
+		name = "퀸 엘리자베스·META",
+		painting = "yilishabainvwang",
+		boss_level_id = 136,
+		id = 10,
+		meta_id = 970504,
+		description = {
+			{
+				"「퀸 엘리자베스」 사분면 확장",
+				1,
+				"전투 중 전체 해역의 상태에 영향을 미치는 특수한 영역을 방출하며, 환영의 기사들을 소환한다. <color=#92fc63>환영의 기사는 비META 캐릭터의 공격에 대해 높은 대미지 감소 효과를 가진다</color>.\n환영의 기사가 모두 처치당하면 <color=#92fc63>영역이 붕괴되며 자신은 페널티를 받아</color>, 행동이 허약해지며 받는 대미지 증가 효과가 영구 적용된다."
+			},
+			{
+				"META 친화성",
+				2,
+				"비META 캐릭터에게 입히는 대미지가 증가하며, META 캐릭터로부터 더 높은 대미지를 받는다."
+			}
+		},
 		state = {
 			{
 				{
-					2022,
-					12,
-					22
+					2023,
+					3,
+					30
 				},
 				{
 					0,
@@ -298,8 +331,8 @@ pg.world_joint_boss_template = {
 			{
 				{
 					2023,
-					3,
-					30
+					6,
+					29
 				},
 				{
 					23,
@@ -309,7 +342,7 @@ pg.world_joint_boss_template = {
 			}
 		},
 		p_offset = {
-			-49.8,
+			-118.8,
 			589.5,
 			0.9,
 			0.9
@@ -330,6 +363,7 @@ pg.world_joint_boss_template = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	}
 }

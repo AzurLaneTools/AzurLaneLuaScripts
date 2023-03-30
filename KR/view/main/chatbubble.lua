@@ -38,7 +38,7 @@ function slot0.update(slot0, slot1)
 	if not slot2 then
 		slot5 = slot3.propose
 	elseif slot3.character and getProxy(BayProxy):getShipById(slot6) then
-		slot5 = slot7.propose
+		slot5 = slot7:ShowPropose()
 	end
 
 	slot0.nameTF.text = slot3.name

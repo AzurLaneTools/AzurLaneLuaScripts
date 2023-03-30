@@ -1,8 +1,4 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "spweapon_data_statistics", rawget(pg.base, "spweapon_data_statistics") or {})
-
 pg.spweapon_data_statistics = setmetatable({
 	__name = "spweapon_data_statistics",
 	all = {
@@ -687,7 +683,8 @@ pg.spweapon_data_statistics = setmetatable({
 		10747,
 		10748,
 		10749,
-		10750
+		10750,
+		10760
 	},
 	get_id_list_by_unique = {
 		[0] = {
@@ -1449,9 +1446,14 @@ pg.spweapon_data_statistics = setmetatable({
 			10748,
 			10749,
 			10750
+		},
+		[10002] = {
+			10760
 		}
 	}
 }, confMT)
+pg.base = pg.base or {}
+pg.base.spweapon_data_statistics = pg.base.spweapon_data_statistics or {}
 cs = cs or {}
 cs.spweapon_data_statistics = {
 	[1010100] = {
@@ -4862,6 +4864,11 @@ cs.spweapon_data_statistics = {
 	[10750] = {
 		127542,
 		191,
+		true
+	},
+	[10760] = {
+		127733,
+		494,
 		true
 	}
 }

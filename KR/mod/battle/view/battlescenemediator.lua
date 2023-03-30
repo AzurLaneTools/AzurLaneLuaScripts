@@ -80,6 +80,7 @@ function slot5.InitCharacterFactory(slot0)
 	slot0._characterFactoryList = {
 		[uv1.UnitType.PLAYER_UNIT] = uv0.Battle.BattlePlayerCharacterFactory.GetInstance(),
 		[uv1.UnitType.ENEMY_UNIT] = uv0.Battle.BattleEnemyCharacterFactory.GetInstance(),
+		[uv1.UnitType.MINION_UNIT] = uv0.Battle.BattleMinionCharacterFactory.GetInstance(),
 		[uv1.UnitType.BOSS_UNIT] = uv0.Battle.BattleBossCharacterFactory.GetInstance(),
 		[uv1.UnitType.AIRCRAFT_UNIT] = uv0.Battle.BattleAircraftCharacterFactory.GetInstance(),
 		[uv1.UnitType.AIRFIGHTER_UNIT] = uv0.Battle.BattleAirFighterCharacterFactory.GetInstance(),

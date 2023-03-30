@@ -891,7 +891,7 @@ function updateItem(slot0, slot1, slot2)
 	end
 
 	uv0(slot0, false)
-	uv1(slot0, HXSet.hxLan(slot3.name), slot2)
+	uv1(slot0, slot3.name, slot2)
 	uv2(slot0, slot3.rarity + 1, slot2)
 end
 
@@ -907,7 +907,7 @@ function updateWorldItem(slot0, slot1, slot2)
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
 	GetImageSpriteFromAtlasAsync(slot1.icon or slot3.icon, "", findTF(slot0, "icon_bg/icon"))
 	uv0(slot0, false)
-	uv1(slot0, HXSet.hxLan(slot3.name), slot2)
+	uv1(slot0, slot3.name, slot2)
 	uv2(slot0, slot3.rarity + 1, slot2)
 end
 
@@ -943,7 +943,7 @@ function updateWorldBuff(slot0, slot1, slot2)
 	end
 
 	if not IsNil(findTF(slot0, "name")) then
-		setText(slot7, HXSet.hxLan(slot3.name))
+		setText(slot7, slot3.name)
 	end
 
 	if not IsNil(findTF(slot0, "icon_bg/count")) then
@@ -983,7 +983,7 @@ function updateShip(slot0, slot1, slot2)
 
 	if slot1.isNpc then
 		slot9 = "frame_npc"
-	elseif slot1.propose then
+	elseif slot1.ShowPropose(slot1) then
 		if slot1.isMetaShip(slot1) then
 			slot9 = "frame_prop_meta"
 		else
@@ -1073,7 +1073,7 @@ function updateStrategy(slot0, slot1, slot2)
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
 	GetImageSpriteFromAtlasAsync((slot2.isWorldBuff and "world/buff/" or "strategyicon/") .. slot3.icon, "", findTF(slot0, "icon_bg/icon"))
 	uv0(slot0, false)
-	uv1(slot0, HXSet.hxLan(slot3.name), slot2)
+	uv1(slot0, slot3.name, slot2)
 	uv2(slot0, 1, slot2)
 end
 
@@ -1085,7 +1085,7 @@ function updateFurniture(slot0, slot1, slot2)
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
 	GetImageSpriteFromAtlasAsync("furnitureicon/" .. slot3.icon, "", findTF(slot0, "icon_bg/icon"))
 	uv0(slot0, false)
-	uv1(slot0, HXSet.hxLan(slot3.name), slot2)
+	uv1(slot0, slot3.name, slot2)
 	uv2(slot0, slot3.rarity + 1, slot2)
 end
 
@@ -1398,7 +1398,7 @@ function updateDrop(slot0, slot1, slot2)
 	end
 
 	slot1.cfg = slot4
-	slot1.desc = HXSet.hxLan(slot5)
+	slot1.desc = slot5
 
 	uv2(slot0, slot6 or slot1.count)
 end
@@ -1476,7 +1476,7 @@ function updateDropCfg(slot0)
 	end
 
 	slot0.cfg = slot1
-	slot0.desc = HXSet.hxLan(slot2)
+	slot0.desc = slot2
 end
 
 function updateAttire(slot0, slot1, slot2, slot3)
@@ -1496,7 +1496,7 @@ function updateAttire(slot0, slot1, slot2, slot3)
 	end
 
 	GetImageSpriteFromAtlasAsync("Props/" .. slot7, "", slot6)
-	uv0(slot0, HXSet.hxLan(slot4.name), slot3)
+	uv0(slot0, slot4.name, slot3)
 end
 
 function updateEmoji(slot0, slot1, slot2)
@@ -1506,7 +1506,7 @@ function updateEmoji(slot0, slot1, slot2)
 
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot5))
 	setFrame(findTF(slot0, "icon_bg/frame"), slot5)
-	uv0(slot0, HXSet.hxLan(slot1.name), slot2)
+	uv0(slot0, slot1.name, slot2)
 end
 
 function GetOwnedpropCount(slot0)
@@ -1565,7 +1565,7 @@ function updateRyzaItem(slot0, slot1, slot2)
 	setFrame(findTF(slot0, "icon_bg/frame"), slot3)
 	GetImageSpriteFromAtlasAsync(slot1:GetIconPath(), "", findTF(slot0, "icon_bg/icon"))
 	uv0(slot0, false)
-	uv1(slot0, HXSet.hxLan(slot1:GetName()), slot2)
+	uv1(slot0, slot1:GetName(), slot2)
 	uv2(slot0, slot1:GetRarity(), slot2)
 end
 
@@ -2028,6 +2028,36 @@ function filterSpecChars(slot0)
 				slot5 = slot5 + 2
 
 				table.insert(slot1, string.char(slot6, slot7, slot8))
+
+				slot2 = slot2 + 1
+			end
+		elseif slot6 == 45 or slot6 == 40 or slot6 == 41 then
+			table.insert(slot1, string.char(slot6))
+		elseif slot6 == 194 then
+			if string.byte(slot0, slot5 + 1) == 183 then
+				slot5 = slot5 + 1
+
+				table.insert(slot1, string.char(slot6, slot7))
+
+				slot2 = slot2 + 1
+			end
+		elseif slot6 == 239 then
+			slot8 = string.byte(slot0, slot5 + 2)
+
+			if string.byte(slot0, slot5 + 1) == 188 and (slot8 == 136 or slot8 == 137) then
+				slot5 = slot5 + 2
+
+				table.insert(slot1, string.char(slot6, slot7, slot8))
+
+				slot2 = slot2 + 1
+			end
+		elseif slot6 == 206 or slot6 == 207 then
+			slot7 = string.byte(slot0, slot5 + 1)
+
+			if slot6 == 206 and slot7 >= 177 or slot6 == 207 and slot7 <= 134 then
+				slot5 = slot5 + 1
+
+				table.insert(slot1, string.char(slot6, slot7))
 
 				slot2 = slot2 + 1
 			end
@@ -2777,7 +2807,7 @@ function flushShipCard(slot0, slot1)
 
 	slot9 = nil
 
-	setShipCardFrame(findTF(slot0, "content/front/frame"), slot2, slot1.propose and "prop" .. (slot1:isBluePrintShip() and slot2 or slot1:isMetaShip() and "14" or "") or nil)
+	setShipCardFrame(findTF(slot0, "content/front/frame"), slot2, slot1:ShowPropose() and "prop" .. (slot1:isBluePrintShip() and slot2 or slot1:isMetaShip() and "14" or "") or nil)
 
 	slot10 = slot1:getStar()
 	slot11 = slot1:getMaxStar()
@@ -2800,7 +2830,7 @@ function flushShipCard(slot0, slot1)
 	slot16 = nil
 	slot17 = false
 
-	if slot1.propose then
+	if slot1.ShowPropose(slot1) then
 		if slot1.isMetaShip(slot1) then
 			slot16 = "duang_meta_jiehun"
 		else
@@ -3714,4 +3744,8 @@ function Timekeeping()
 	warning(Time.realtimeSinceStartup - (uv0 or Time.realtimeSinceStartup))
 
 	uv0 = Time.realtimeSinceStartup
+end
+
+function GetRomanDigit(slot0)
+	return string.char(226, 133, 160 + slot0 - 1)
 end

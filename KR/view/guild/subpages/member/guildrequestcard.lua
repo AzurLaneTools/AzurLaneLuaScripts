@@ -23,10 +23,9 @@ function slot0.Update(slot0, slot1)
 	slot0.dateTF.text = getOfflineTimeStamp(slot1.timestamp)
 	slot0.msg.text = slot1.content
 	slot3 = slot1.player
-	slot4 = AttireFrame.attireFrameRes(slot3, false, AttireConst.TYPE_ICON_FRAME, slot3.propose)
-	slot5 = PoolMgr.GetInstance()
+	slot4 = AttireFrame.attireFrameRes(slot3, slot3.id == getProxy(PlayerProxy):getRawData().id, AttireConst.TYPE_ICON_FRAME, slot3.propose)
 
-	slot5:GetPrefab("IconFrame/" .. slot4, slot4, true, function (slot0)
+	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot4, slot4, true, function (slot0)
 		if IsNil(uv0.tf) then
 			return
 		end

@@ -120,9 +120,9 @@ function slot3.initData(slot0)
 	slot0._freeShipList = slot0._dataProxy:GetFreeShipList()
 	slot0._monsterArray = {}
 
-	for slot4, slot5 in pairs(pg.enemy_data_statistics) do
-		if type(slot4) == "number" and slot4 <= 10000000 then
-			table.insert(slot0._monsterArray, slot4)
+	for slot4, slot5 in ipairs(pg.enemy_data_statistics.all) do
+		if type(slot5) == "number" and slot5 <= 10000000 then
+			table.insert(slot0._monsterArray, slot5)
 		end
 	end
 

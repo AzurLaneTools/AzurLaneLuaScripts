@@ -1,5 +1,6 @@
 pg = pg or {}
-pg.ship_skin_template_1 = {
+pg.base = pg.base or {}
+pg.base.ship_skin_template_1 = {
 	[100000] = {
 		ship_group = 10000,
 		name = "범용형 부린",
@@ -359,12 +360,10 @@ pg.ship_skin_template_1 = {
 		group_index = 0,
 		prefab = "buli_super",
 		painting = "buli_super",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
 		illustrator = -1,
+		air_bullet_skin = "",
 		l2d_voice_calibrate = "",
+		shop_type_id = 0,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -376,10 +375,10 @@ pg.ship_skin_template_1 = {
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "특장형 부린 MKIII, 레전더리 캐릭터 돌파에 사용 가능",
 		voice_actor = 72,
-		spine_offset = "",
+		air_bomb_skin = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -451,6 +450,27 @@ pg.ship_skin_template_1 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				188,
+				-638,
+				0
+			},
+			{
+				0.8
+			}
+		},
+		special_effects = {
+			"lihui_buli_super",
+			{
+				130,
+				469,
+				0
+			},
+			{
+				1.5
 			}
 		}
 	},
@@ -10415,6 +10435,115 @@ pg.ship_skin_template_1 = {
 						{
 							-0.521,
 							2.444,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101461] = {
+		ship_group = 10146,
+		name = "느긋한 핑크 바니",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "145",
+		id = 101461,
+		group_index = 1,
+		prefab = "shidifenbote_2",
+		painting = "shidifenbote_2",
+		shop_id = 70548,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 16,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "내 \"아지트\"에 온 걸 환영해, 여기서는 맘껏 게을러 퍼져도 돼… 농담이고, 오늘은 휴일이니까, 지휘관도 편하게 놀아.",
+		voice_actor = 267,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.05,
+					1.23,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.12,
+					1.22,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.59,
+							2.34,
 							0
 						}
 					}

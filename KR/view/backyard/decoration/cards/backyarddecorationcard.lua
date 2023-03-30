@@ -21,15 +21,15 @@ function slot0.Update(slot0, slot1, slot2)
 
 		uv0.iconImg.sprite = slot0
 	end)
-	setText(slot0.comfortableTF, shortenString(slot1:getConfig("name"), 4))
+	setText(slot0.comfortableTF, shortenString(HXSet.hxLan(slot1:getConfig("name")), 4))
 
 	slot0.showMask = slot1:GetOwnCnt() <= slot2
 
 	SetActive(slot0.maskTF, slot0.showMask)
 
 	if slot1:getConfig("count") > 1 then
-		setText(slot0.countTxt, slot2 .. "/" .. slot4)
-		SetActive(slot0.maskTF, slot2 == slot4)
+		setText(slot0.countTxt, slot2 .. "/" .. slot5)
+		SetActive(slot0.maskTF, slot2 == slot5)
 	else
 		setText(slot0.countTxt, "")
 	end

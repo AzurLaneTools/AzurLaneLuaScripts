@@ -65,9 +65,7 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		EquipmentProxy.EQUIPMENT_ADDED,
 		EquipmentProxy.EQUIPMENT_UPDATED,
-		EquipmentProxy.EQUIPMENT_REMOVED,
 		GAME.USE_ITEM_DONE,
 		GAME.DESTROY_EQUIPMENTS_DONE,
 		BagProxy.ITEM_UPDATED,
@@ -82,10 +80,8 @@ end
 function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED then
+	if slot1:getName() == EquipmentProxy.EQUIPMENT_UPDATED then
 		slot0.viewComponent:setEquipment(slot3)
-	elseif slot2 == EquipmentProxy.EQUIPMENT_REMOVED then
-		slot0.viewComponent:removeEquipment(slot3)
 	elseif slot2 == GAME.USE_ITEM_DONE then
 		if table.getCount(slot3) ~= 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {

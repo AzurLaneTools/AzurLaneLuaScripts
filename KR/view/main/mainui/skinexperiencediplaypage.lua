@@ -47,7 +47,7 @@ function slot0.Display(slot0, slot1)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
 
-			setText(slot2:Find("name/Text"), HXSet.hxLan(slot3:getConfig("name")))
+			setText(slot2:Find("name/Text"), slot3:getConfig("name"))
 
 			if uv1.skinTimers[slot3.id] then
 				uv1.skinTimers[slot3.id]:Stop()

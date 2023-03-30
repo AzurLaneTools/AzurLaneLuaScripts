@@ -1,5 +1,21 @@
 pg = pg or {}
-pg.ship_skin_words_add = {
+pg.ship_skin_words_add = setmetatable({
+	__name = "ship_skin_words_add",
+	all = {
+		10900010,
+		10900011,
+		10900020,
+		10900021,
+		10900030,
+		10900031,
+		10900040,
+		10900041,
+		10900050,
+		10900051
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.ship_skin_words_add = {
 	[10900010] = {
 		ryza_item5 = "이 안에서 강력한 에너지가 느껴져…!",
 		ryza_shop2 = "",
@@ -129,17 +145,5 @@ pg.ship_skin_words_add = {
 		ryza_shop3 = "",
 		ryza_shop4 = "",
 		ryza_shop1 = ""
-	},
-	all = {
-		10900010,
-		10900011,
-		10900020,
-		10900021,
-		10900030,
-		10900031,
-		10900040,
-		10900041,
-		10900050,
-		10900051
 	}
 }
