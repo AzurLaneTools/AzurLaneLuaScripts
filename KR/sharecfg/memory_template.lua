@@ -2293,6 +2293,9 @@ pg.memory_template = setmetatable({
 		2633,
 		2634,
 		2635,
+		2641,
+		2642,
+		2643,
 		10000,
 		10001,
 		10002,
@@ -27563,6 +27566,39 @@ pg.base.memory_template = {
 		story = "RONGXUEDEYAOYUE5",
 		id = 2635,
 		icon = "memory_rongxuedeyaoyue",
+		is_open = 0
+	},
+	[2641] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "그 오래된 전설",
+		condition = "「원 펀치! 푸링!」 이벤트 시작",
+		story = "YURENJIE1",
+		id = 2641,
+		icon = "memory_yurenjie",
+		is_open = 0
+	},
+	[2642] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "각고의 보답",
+		condition = "단서 수집 완료 시 발동",
+		story = "YURENJIE2",
+		id = 2642,
+		icon = "memory_yurenjie",
+		is_open = 0
+	},
+	[2643] = {
+		type = 2,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "시련의 땅",
+		condition = "도전 스테이지 첫 진입",
+		story = "1360004",
+		id = 2643,
+		icon = "memory_yurenjie",
 		is_open = 0
 	},
 	[10000] = {

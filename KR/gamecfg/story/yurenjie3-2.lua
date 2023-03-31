@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgm = "login-2022401us",
-			say = "布里们竭力与魔王战斗着，但是却渐渐落了下风。",
+			say = "부린들은 안간힘을 쓰며 마왕에게 맞섰지만 점점 밀리고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,11 +15,11 @@ return {
 		},
 		{
 			actor = 900233,
-			nameColor = "#A9F548FF",
+			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "恐怖大魔王？",
+			actorName = "공포의 대마왕?",
 			dir = 1,
-			say = "没用没用没用——哈哈哈哈！",
+			say = "소용없다, 소용없어——하하하핫!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -38,11 +38,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
+			nameColor = "#ff5c5c",
 			actor = 900233,
 			dir = 1,
-			actorName = "恐怖大魔王？",
-			say = "能激活“超级彩虹锤1号”power的家伙，现在还没诞生呢！",
+			actorName = "공포의 대마왕?",
+			say = "\"슈퍼 레인보우 망치 1호\"의 파워를 가동할 수 있었던 녀석은 지금까지 하나도 없었다고!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "才不是呢buli！妹妹是最强的buli！",
+			say = "그럼 그렇지 푸링! 우리 동생이 최강이니까 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "本大人是不会放你过去的purin！",
+			say = "절대 널 놓아주지 않을 거야 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,11 +111,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
+			nameColor = "#ff5c5c",
 			actor = 900233,
 			dir = 1,
-			actorName = "恐怖大魔王？",
-			say = "你们尽管试吧！努力吧！然后绝望吧！",
+			actorName = "공포의 대마왕?",
+			say = "마음껏 해봐라! 할 수 있는 건 뭐든지! 그리고 절망하거라!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你错了！我的回合了burin！吃我一锤，Full Charge！",
+			say = "넌 틀렸어! 내 차례다 푸링! 이거나 먹어라, Full Charge!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,11 +160,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			nameColor = "#A9F548FF",
+			nameColor = "#ff5c5c",
 			actor = 900233,
 			dir = 1,
-			actorName = "恐怖大魔王？",
-			say = "什么？！居然？！",
+			actorName = "공포의 대마왕?",
+			say = "뭐야!? 그럴리가!?",
 			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "做的好purin！锤到让魔王哭着跪下！",
+			say = "잘했어 푸링! 마왕이 싹싹 빌 때까지 두들겨 패줘!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "跟着我，无敌布里战队，上啦burin！",
+			say = "날 따라라, 무적 부린팀, 돌격 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1

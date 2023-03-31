@@ -8697,27 +8697,79 @@ pg.activity_template = {
 	},
 	[4732] = {
 		mark = 20230401,
-		time = "stop",
+		title_res_tag = "",
 		page_info = "",
 		type = 23,
 		login_pop = 0,
 		config_id = 4733,
 		is_show = 0,
-		title_res_tag = "",
 		config_client = "",
 		id = 4732,
-		config_data = {}
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[4733] = {
 		mark = 20230401,
+		id = 4733,
 		title_res_tag = "AprilFool2023",
-		time = "stop",
 		type = 21,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 11,
-		id = 4733,
+		is_show = 31,
 		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		page_info = {
 			class_name = "AprilFoolDiscovery2023Page",
 			ui_name = "AprilFoolDiscovery2023Page"

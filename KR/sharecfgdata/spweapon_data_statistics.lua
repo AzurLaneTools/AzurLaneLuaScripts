@@ -3291,6 +3291,41 @@ _G.pg.base.spweapon_data_statistics[1080230] = {
 	level = 11
 }
 
+_G.pg.base.spweapon_data_statistics[9000] = {
+	tech = 0,
+	name = "슈퍼 레인보우 망치 1호",
+	value_2_random = 0,
+	type = 1,
+	value_1_random = 0,
+	value_1 = 99,
+	effect_id_display = 902190,
+	level = 1,
+	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
+	uncraftable = 1,
+	next = 0,
+	upgrade_id = 101,
+	value_2 = 9,
+	icon = "9000",
+	effect_id = 902190,
+	attribute_2 = "luck",
+	id = 9000,
+	rarity = 4,
+	unique = 10002,
+	important = 2,
+	prev = 0,
+	attribute_1 = "durability",
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			9036,
+			9037
+		}
+	},
+	label = {}
+}
+
 _G.pg.base.spweapon_data_statistics[10000] = {
 	tech = 0,
 	name = "용감한 꿈의 베개",
@@ -9012,39 +9047,4 @@ _G.pg.base.spweapon_data_statistics[10750] = {
 			1010670
 		}
 	}
-}
-
-_G.pg.base.spweapon_data_statistics[10760] = {
-	tech = 0,
-	name = "슈퍼 레인보우 망치 1호",
-	value_2_random = 0,
-	type = 1,
-	value_1_random = 0,
-	value_1 = 99,
-	effect_id_display = 901010,
-	level = 1,
-	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
-	uncraftable = 0,
-	next = 0,
-	upgrade_id = 101,
-	value_2 = 99,
-	icon = "10760",
-	effect_id = 901010,
-	attribute_2 = "torpedo",
-	id = 10760,
-	rarity = 4,
-	unique = 10002,
-	important = 2,
-	prev = 0,
-	attribute_1 = "cannon",
-	usability = {
-		1
-	},
-	skill_upgrade = {
-		{
-			9036,
-			9037
-		}
-	},
-	label = {}
 }

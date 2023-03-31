@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"一锤！Burin！\n\n<size=45>三　试炼之地</size>",
+					"만우절 이벤트 스토리\n\n<size=45>3 시련의 땅</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgm = "login-2022401us",
 			bgmDelay = 2,
-			say = "在布里姐妹的通力合作下，试炼中的关卡都有惊无险地化解了。",
+			say = "부린 자매의 전폭적인 협력으로 시련의 관문은 모두 위험 없이 해결되었다.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "最后一个试炼解决buli！得到试炼钥匙buli！",
+			say = "마지막 시련을 해결했어 푸링! 시련의 열쇠를 얻었어 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "宝箱就在前方，快打开它吧purin！",
+			say = "보물상자가 바로 앞에 있어, 얼른 열어봐 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "上啦burin！开启宝藏！",
+			say = "간닷 푸링! 보물상자 오픈!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "在宝箱打开的瞬间，强烈的虹光冲天而起，甚至贯穿了上方的石壁。",
+			say = "보물상자가 열리는 순간 강렬한 무지개빛이 하늘로 치솟아 위쪽 석벽까지 관통했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "*获得道具「超级彩虹锤1号」*",
+			say = "*아이템 「슈퍼 레인보우 망치 1호」를 획득했습니다*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "好强的光芒burin！感受到了巨大的力量burin！",
+			say = "빛이 너무 강해 푸링! 거대한 힘이 느껴져 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			actor = 100020,
 			dir = 1,
-			say = "“超级彩虹锤1号”入手burin！",
+			say = "드디어 \"슈퍼 레인보우 망치 1호\"를 얻었다 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "就在布里姐妹们欢呼时，破碎的石壁口却跳进来了不速之客——",
+			say = "부린 자매들이 환호하고 있을 때, 부서진 석벽 입구에서 불청객이 뛰쳐들어왔다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,11 +186,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
+			nameColor = "#ff5c5c",
 			actor = 900233,
 			dir = 1,
-			actorName = "恐怖大魔王？",
-			say = "何方宵小，竟敢闯到这里来捣乱？",
+			actorName = "공포의 대마왕?",
+			say = "어떤 도둑놈이 감히 여기까지 쳐들어와서 소란이냐!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,11 +203,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			nameColor = "#A9F548FF",
+			nameColor = "#ff5c5c",
 			actor = 900233,
 			dir = 1,
-			actorName = "恐怖大魔王？",
-			say = "嚯~原来又是为了“超级彩虹锤1号”而来的冒险者。",
+			actorName = "공포의 대마왕?",
+			say = "호오~ 또 \"슈퍼 레인보우 망치 1호\"를 찾아온 모험가였군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,11 +220,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			nameColor = "#A9F548FF",
+			nameColor = "#ff5c5c",
 			actor = 900233,
 			dir = 1,
-			actorName = "恐怖大魔王？",
-			say = "真不巧，想要带走这里的宝物，还要过我这一关才行！",
+			actorName = "공포의 대마왕?",
+			say = "유감이지만, 이 보물을 가져가고 싶다면 나를 뛰어넘어야 한다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "魔王出现了purin！它要抢走试炼宝物purin！",
+			say = "마왕이 나타났어 푸링! 시련의 보물을 빼앗으려 한다 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "绝对不能允许这件事发生buli！快对魔王使用“超级彩虹锤1号”buli！",
+			say = "절대 그럴 수 없지 푸링! 어서 \"슈퍼 레인보우 망치 1호\"로 마왕을 공격해 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "看招，“超级彩虹锤1号”burin！",
+			say = "받아라, \"슈퍼 레인보우 망치 1호\"다 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "怎么回事burin！“超级彩虹锤1号”没有反应burin！",
+			say = "어떻게 된 거야 푸링!? \"슈퍼 레인보우 망치 1호\"가 반응을 안 해 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,11 +339,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			nameColor = "#A9F548FF",
+			nameColor = "#ff5c5c",
 			actor = 900233,
 			dir = 1,
-			actorName = "恐怖大魔王？",
-			say = "哼哼，真遗憾，“超级彩虹锤1号”可是要充能后才能使用的武器哦~",
+			actorName = "공포의 대마왕?",
+			say = "후훗, 안타깝게도 \"슈퍼 레인보우 망치 1호\"는 에너지를 충전해야만 사용할 수 있는 무기지~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "原来如此purin！这里就由姐姐们先顶住purin！你来为“超级彩虹锤1号”充能purin！",
+			say = "그랬군 푸링! 여기는 우선 언니들에게 맡겨 푸링! 너는 \"슈퍼 레인보우 망치 1호\"에 에너지를 충전해 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,8 +374,8 @@ return {
 			side = 0,
 			hideOther = true,
 			dir = 1,
-			actorName = "泛用型布里&试作型布里MKII",
-			say = "要上咯buli！\n要上咯purin！",
+			actorName = "범용형 부린&시제형 부린 MKII",
+			say = "간닷 푸링! 간닷 푸링!",
 			subActors = {
 				{
 					actor = 100010,

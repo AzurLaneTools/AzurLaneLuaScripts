@@ -47,9 +47,7 @@ end
 
 function slot0.flush(slot0)
 	if slot0.shipGroup then
-		slot2 = slot1.shipConfig
-
-		GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. shipRarity2bgPrint(slot1:getRarity(slot0.showTrans), nil, slot1:isBluePrintGroup(), slot1:isMetaGroup()), "", slot0.imageBg)
+		GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. slot1:rarity2bgPrint(slot0.showTrans), "", slot0.imageBg)
 
 		slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
 
@@ -71,7 +69,7 @@ function slot0.flush(slot0)
 		slot0.labelHeartIcon.color = slot1.iheart and Color.New(1, 0.6, 0.6) or Color.New(1, 1, 1)
 		slot0.labelHeartPlus.color = slot1.iheart and Color.New(1, 0.6, 0.6) or Color.New(1, 1, 1)
 
-		setShipCardFrame(slot0.shipFrameImg, slot4)
+		setShipCardFrame(slot0.shipFrameImg, slot2)
 	end
 
 	slot0.content:SetActive(tobool(slot1))

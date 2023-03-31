@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"一锤！Burin！\n\n<size=45>二　刻苦的回报</size>",
+					"만우절 이벤트 스토리\n\n<size=45>2 각고의 보답</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "自那之后，特装型布里MKIII一直在为了能追逐传说而刻苦训练。",
+			say = "그 이후 특장형 부린 MKIII는 전설을 쫓기 위해 각고의 훈련을 하고 있다.",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "看招，“超级喵喵1号”burin！",
+			say = "받아라, \"슈퍼 냥냥 1호\" 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "成功啦！果然我是最强的burin！",
+			say = "성공했어! 역시 난 최강이야 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "每天跑步十公里，一百下伏地挺身，一百下仰卧起坐再加上一百下深蹲，我已经练成啦burin！",
+			say = "매일마다 달리기 10km, 팔굽혀펴기 100회, 윗몸일으키기 100회 그리고 스쿼트 100회를 했지 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是“超级喵喵1号”已经到极限了burin，必须要找到能承受我power的兵装才行burin！",
+			say = "하지만 \"슈퍼 냥냥 1호\"는 이미 한계야 푸링. 내 파워를 버텨줄 수 있는 무기를 구해야만 해 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "让我们来帮你buli！我们已经找到了传闻中的“超级彩虹锤1号”的线索buli！",
+			say = "우리가 도와줄게 푸링! 소문의 \"슈퍼 레인보우 망치 1호\"의 단서를 찾았거든 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "只要装备了它，你就是最强的purin！",
+			say = "그것만 착용하면 네가 바로 최강이야 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的吗burin！",
+			say = "정말이야 푸링!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯！它就在试炼之地purin！只要通过试炼，就能得到它了purin！",
+			say = "그래! 그건 시련의 땅에 있어 푸링! 시련을 통과하기만 하면 손에 넣을 수 있지 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "小菜一碟burin！见证我的训练成果吧burin！",
+			say = "그까짓 거 푸링! 훈련의 성과를 보여주겠어 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1

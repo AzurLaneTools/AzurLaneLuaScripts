@@ -351,6 +351,9 @@ function slot0.onUpdateItemCount(slot0)
 		onButton(slot0, slot0.window:Find("ringCount/icon/btn_exchange"), function ()
 			uv0:showExchangePanel()
 		end, SFX_PANEL)
+	else
+		setActive(slot0.window:Find("ringCount/icon/base"), PLATFORM_CODE ~= PLATFORM_CH)
+		setActive(slot0.window:Find("ringCount/icon/hx"), PLATFORM_CODE == PLATFORM_CH)
 	end
 end
 
@@ -1166,6 +1169,9 @@ function slot0.showTip(slot0)
 	slot2 = slot0:findTF("tip", slot0.storyTF)
 
 	setText(slot0:findTF("Image_bg/Text", slot2), i18n("achieve_propose_tip", slot1.name))
+	eachChild(slot2:Find("Image_bg/Image"), function (slot0)
+		setActive(slot0, slot0.name == uv0.proposeType)
+	end)
 
 	slot4 = GetOrAddComponent(slot2, typeof(CanvasGroup))
 

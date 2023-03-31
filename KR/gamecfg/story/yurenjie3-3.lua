@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgm = "login-2022401us",
-			say = "在“超级彩虹锤1号”的攻击面前，魔王很快萌生了退意——",
+			say = "\"슈퍼 레인보우 망치 1호\"의 공격 아페, 마왕은 물러설 마음이 생겼다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -16,11 +16,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
+			nameColor = "#ff5c5c",
 			actor = 900233,
 			dir = 1,
-			actorName = "恐怖大魔王？",
-			say = "这不公平！我要撤退了！",
+			actorName = "공포의 대마왕?",
+			say = "이건 불공평해! 철수하겠다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "她露出破绽了buli！",
+			say = "허점을 보였어 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "好机会purin，大家一起上呀purin！",
+			say = "기회야 푸링. 다같이 돌격해 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "让魔王见识一下彩虹之力burin！！！",
+			say = "레인보우의 힘을 보여주마 푸링!!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,8 +130,8 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_megaburin",
-			actorName = "布里三姐妹",
-			say = "这一击，砸穿大地呀buli！\n这一击，突破天际呀purin！\n这一击，击坠星辰呀burin！",
+			actorName = "부린 삼자매",
+			say = "대지를 부숴버리는 일격을 받아라 푸링! 하늘을 뚫는 일격을 받아라 푸링! 별을 떨어뜨리는 일격을 받아라 푸링!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
-			say = "以“超级彩虹锤1号”的七彩虹光为引导，布里姐妹的力量汇聚到了一起，化为了点亮星辰的白色光芒。",
+			say = "\"슈퍼 레인보우 망치 1호\"의 화려한 빛에 이끌려 부린 자매들의 힘이 함께 뭉쳤고, 별을 밝히는 흰색 빛이 되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "——轰！！！",
+			say = "——쾅!!!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			dir = 1,
 			stopbgm = true,
-			say = "魔王消失了，我们赢啦purin！",
+			say = "마왕이 사라졌어, 우리가 이겼다 푸링!",
 			bgm = "story-richang-1",
 			painting = {
 				alpha = 0.3,
@@ -299,7 +299,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "burin？“超级彩虹锤1号”好像完全不亮了burin！",
+			say = "푸링? \"슈퍼 레인보우 망치 1호\"가 완전히 빛을 잃은 것 같아 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "坏、坏了buli…………",
+			say = "마, 망가졌나 푸링…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔~没关系，当做纪念品就好burin！刚刚感觉到，好像我们在一起的力量比“超级彩虹锤1号”还强burin！",
+			say = "음~ 상관없어. 기념품으로 삼지 뭐 푸링! 방금 느꼈는데, 우리의 힘을 함께 모으면 \"슈퍼 레인보우 망치 1호\"보다 더 강한 것 같아 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "还是庆祝胜利更重要，我们去吃烤肉吧burin！",
+			say = "승리를 축하하는 게 더 중요하니까, 고기 먹으러 가자 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,8 +385,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "泛用型布里&试作型布里MKII",
-			say = "好耶buli！\n好耶purin！",
+			actorName = "범용형 부린&시제형 부린 MKII",
+			say = "좋아 푸링! 좋아 푸링!",
 			subActors = {
 				{
 					actor = 100010,
@@ -424,7 +424,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
-			say = "就这样，布里姐妹们享受了一顿完美的烤肉大餐。",
+			say = "이렇게, 부린 자매들은 완벽한 고기 파티를 즐겼다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "至于那传说本身，也许还会继续是个传说吧——",
+			say = "그 전설에 관해서라면, 아마 앞으로도 계속 전설로 남지 않을까——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

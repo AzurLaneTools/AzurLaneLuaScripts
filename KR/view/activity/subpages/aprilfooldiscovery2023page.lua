@@ -69,7 +69,13 @@ function slot0.OnFirstFlush(slot0)
 			warnMsg = "bulin_tip_other3",
 			stageId = uv0.puzzleConfig.chapter
 		}, function ()
-			if getProxy(ActivityProxy):getActivityById(uv0).data1 == 1 then
+			if not pg.NewStoryMgr.GetInstance():IsPlayed(tostring(uv0), true) then
+				pg.m02:sendNotification(GAME.STORY_UPDATE, {
+					storyId = tostring(uv0)
+				})
+			end
+
+			if getProxy(ActivityProxy):getActivityById(uv1).data1 == 1 then
 				return
 			end
 

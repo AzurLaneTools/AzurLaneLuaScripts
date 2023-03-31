@@ -117,10 +117,10 @@ end
 
 function slot0.flushShip(slot0)
 	slot1 = slot0.shipGroup.shipConfig
-	slot4 = shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), nil, slot0.shipGroup:isBluePrintGroup(), slot0.shipGroup:isMetaGroup())
+	slot3 = slot0.shipGroup:rarity2bgPrint(slot0.showTrans)
 
-	setShipCardFrame(slot0.imageFrame, slot4, nil)
-	GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. slot4, "", slot0.imageBg)
+	setShipCardFrame(slot0.imageFrame, slot3, nil)
+	GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. slot3, "", slot0.imageBg)
 
 	slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
 
@@ -136,10 +136,10 @@ function slot0.flushShip(slot0)
 		warning("找不到船形, shipConfigId: " .. shipVO.configId)
 	end
 
-	slot0.iconType.sprite = slot5
+	slot0.iconType.sprite = slot4
 
-	for slot11 = slot0.stars.childCount, pg.ship_data_template[slot1.id].star_max - 1 do
-		slot12 = cloneTplTo(slot0.star, slot0.stars)
+	for slot10 = slot0.stars.childCount, pg.ship_data_template[slot1.id].star_max - 1 do
+		slot11 = cloneTplTo(slot0.star, slot0.stars)
 	end
 end
 

@@ -18247,7 +18247,7 @@ _G.pg.base.item_data_statistics[30520] = {
 	display = "사용 시「쥬쥬 야전 병원」 스타일 장비스킨 중 1가지 선택 획득 가능",
 	name = "지향형 장비스킨 상자(쥬쥬 야전 병원 )",
 	max_num = 0,
-	type = 11,
+	type = 13,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -18350,10 +18350,7 @@ _G.pg.base.item_data_statistics[30520] = {
 			1
 		}
 	},
-	price = {
-		1,
-		7000
-	},
+	price = {},
 	index = {},
 	shiptrans_id = {}
 }
@@ -192888,6 +192885,216 @@ _G.pg.base.item_data_statistics[60305] = {
 	id = 60305,
 	is_world = 0,
 	icon = "props/draw_g",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60306] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「S」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60306,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60307] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「u」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60307,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60308] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「p」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60308,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60309] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「e」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60309,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60310] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「r」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60310,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60311] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「B」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60311,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60312] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「u」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60312,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60313] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「r」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60313,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60314] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「i」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60314,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60315] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「n」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60315,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
 	display_icon = {},
 	price = {},
 	index = {},

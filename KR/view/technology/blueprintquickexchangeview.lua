@@ -148,13 +148,12 @@ end
 
 function slot0.UpdateBlueprint(slot0, slot1)
 	slot0.blueprintVO = slot1
-	slot2 = Item.New({
-		type = DROP_TYPE_ITEM,
-		id = slot1:getItemId()
-	})
 	slot7 = "name"
 
-	changeToScrollText(slot0.rtResult:Find("title/Text"), HXSet.targetItem:getConfig(slot7))
+	changeToScrollText(slot0.rtResult:Find("title/Text"), Item.New({
+		type = DROP_TYPE_ITEM,
+		id = slot1:getItemId()
+	}):getConfig(slot7))
 
 	slot0.displayList = {}
 	slot0.awardList = {}

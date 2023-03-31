@@ -1769,6 +1769,7 @@ pg.skill_data_template = setmetatable({
 		902160,
 		902170,
 		902180,
+		902190,
 		1010140,
 		1010390,
 		1010410,
@@ -11355,7 +11356,7 @@ pg.base.skill_data_template = {
 	},
 	[9036] = {
 		desc_get = "",
-		name = "부린은 스킬을 사용했다!",
+		name = "슈퍼 레인보우 망치 1호!",
 		id = 9036,
 		type = 0,
 		max_level = 0,
@@ -11369,11 +11370,11 @@ pg.base.skill_data_template = {
 	},
 	[9037] = {
 		desc_get = "",
-		name = "부린은 스킬을 사용했다!+",
+		name = "빛나는 슈퍼 레인보우 망치 1호!",
 		id = 9037,
 		type = 0,
 		max_level = 0,
-		desc = "",
+		desc = "기묘한 힘이 담겨 있는 것 같다!",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -109327,6 +109328,20 @@ pg.base.skill_data_template = {
 		type = 3,
 		max_level = 1,
 		desc = "전투 중 자신이 적함 격파 시, 자신의 명중 스탯 10% 증가, 12초 지속. 초당 최대 1회 발동. 중첩 불가. 지속 기간 내 발동 시 시간 초기화",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[902190] = {
+		desc_get = "",
+		name = "부린 Full Charge!",
+		id = 902190,
+		type = 3,
+		max_level = 1,
+		desc = "전투 개시 시, 자신의 화력, 뇌장, 항공, 대공, 장전, 기동, 명중, 대잠 스탯 9 증가",
 		system_transform = {},
 		world_death_mark = {
 			1

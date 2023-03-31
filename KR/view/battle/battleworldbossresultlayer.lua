@@ -517,7 +517,7 @@ function slot0.displayShips(slot0)
 				slot35 = slot35 - 1
 			end
 
-			setScrollText(findTF(slot30, "info/name_mask/name"), slot16:getName())
+			setScrollText(findTF(slot30, "info/name_mask/name"), slot16:GetColorName())
 
 			if slot4 and slot16.id == slot4.id then
 				slot0.mvpShipVO = slot16

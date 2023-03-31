@@ -36,7 +36,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "20995",
+		param = "4733",
 		id = 2,
 		pic = "temp2",
 		type = 3,
@@ -44,8 +44,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					3,
-					23
+					4,
+					1
 				},
 				{
 					0,
@@ -57,7 +57,7 @@ pg.activity_banner = {
 				{
 					2023,
 					4,
-					13
+					6
 				},
 				{
 					23,

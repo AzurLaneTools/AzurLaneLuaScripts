@@ -17,7 +17,7 @@ return {
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9030,
+	id = 9036,
 	icon = 9030,
 	last_effect = "",
 	effect_list = {
@@ -27,7 +27,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				skill_id = 9030
+				target = "TargetSelf",
+				time = 10,
+				skill_id = 9037
 			}
 		}
 	}

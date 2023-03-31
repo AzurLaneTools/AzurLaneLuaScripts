@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"一锤！Burin！\n\n<size=45>一　那个古老的传说</size>",
+					"만우절 이벤트 스토리\n\n<size=45>1 그 오래된 전설</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "传说，在遥远的远方，有能实现任何愿望的神明。",
+			say = "머나먼 곳, 어떤 소망도 이뤄줄 수 있는 신들이 있다는 전설이 있다.",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "但那毕竟是许久、许久以前的传说了——",
+			say = "하지만 그거슨 아주 아주 오래되고 오래된 전설이다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "能实现任何愿望buli？",
+			say = "어떤 소망도 이뤄준다고 푸링?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不可能的buli，布里的扳手也做不到实现所有愿望buli！",
+			say = "말도 안돼 푸링. 부린의 렌치도 모든 소망을 들어줄 수는 없다고 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "而且，那肯定是很远的地方purin！",
+			say = "게다가 거기는 반드시 아주 먼 곳일 거야 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "就算是用突破天际的钻头，也到达不了的地方purin！",
+			say = "하늘을 뚫는 드릴을 사용한다고 해도, 닿을 수 없는 곳 말이야 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "才不是呢burin！",
+			say = "아니거든 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我的好运告诉我，传说一定是存在的burin！",
+			say = "내 행운이 말해줬는데, 전설은 분명히 존재하는 거라고 했어 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我肯定会证明给你们看的burin！",
+			say = "내가 꼭 너희한테 증명해 보이겠어 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "*特装型布里MKIII离开了*",
+			say = "*특장형 부린 MKIII가 떠났습니다*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "buli！妹妹好像很生气的样子buli！",
+			say = "푸링! 화가 많이 난 것 같네 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "也许应该支持她purin！要让她带上这里最好的锤子，再去冒险purin！",
+			say = "같이 거들어줘야 할 거 같아 푸링! 여기서 가장 좋은 망치를 챙겨주고 모험을 떠나자 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我知道有一件能够敲碎任何东西的锤子purin！我们现在就去找它吧purin！",
+			say = "내가 무엇이든 부숴버릴 수 있는 망치를 알아 푸링! 지금 바로 가지러 가자 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "buli！现在就出发吧buli！",
+			say = "푸링! 가자, 출발 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "人家挖宝藏可是很厉害的buli！",
+			say = "나 보물찾기 엄청 잘 하거든 푸링!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,8 +306,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "泛用型布里&试作型布里MKII",
-			say = "一定要找到那个锤子buli\n一定要找到那个锤子purin！",
+			actorName = "범용형 부린&시제형 부린 MKII",
+			say = "꼭 그 망치를 찾아내겠어 푸링! 꼭 그 망치를 찾아내겠어 푸링!",
 			subActors = {
 				{
 					actor = 100010,
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
-			say = "于是，布里三姐妹踏上了殊途同归的道路。",
+			say = "그리하여 부린 삼자매는 방법은 달라도 향하는 목적지는 같은 길에 올랐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "时间，就这样飞速流逝着——",
+			say = "시간은 빠르게 흘렀다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

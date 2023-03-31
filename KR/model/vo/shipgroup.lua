@@ -363,4 +363,12 @@ function slot0.CanUseShareSkin(slot0)
 	return slot0.groupConfig.share_group_id and #slot0.groupConfig.share_group_id > 0
 end
 
+function slot0.rarity2bgPrint(slot0, slot1)
+	return shipRarity2bgPrint(slot0:getRarity(slot1), slot0:isBluePrintGroup(), slot0:isMetaGroup())
+end
+
+function slot0.rarity2bgPrintForGet(slot0, slot1, slot2)
+	return skinId2bgPrint(slot2 or slot0:GetSkin(slot1).id) or slot0:rarity2bgPrint(slot1)
+end
+
 return slot0

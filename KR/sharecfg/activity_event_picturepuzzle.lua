@@ -242,7 +242,7 @@ pg.activity_event_picturepuzzle = {
 	[4733] = {
 		id = 4733,
 		chapter = 1360004,
-		cd = 1200,
+		cd = 600,
 		define = 0,
 		pickup_picturepuzzle = {
 			60307,

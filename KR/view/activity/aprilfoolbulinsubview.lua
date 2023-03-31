@@ -52,32 +52,36 @@ function slot0.SetParent(slot0, slot1)
 	setParent(slot0._tf, slot1)
 end
 
-function slot0.ShowAprilFoolBulin(slot0, slot1, slot2)
-	slot3, slot4 = nil
+function slot0.ShowAprilFoolBulin(slot0, slot1, slot2, slot3)
+	slot4, slot5 = nil
 
-	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) or slot3:isEnd() then
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) or slot4:isEnd() then
 		return
 	end
 
-	if not pg.activity_event_picturepuzzle[slot3.id] then
+	if not pg.activity_event_picturepuzzle[slot4.id] then
 		return
 	end
 
-	if not slot4.pickup_picturepuzzle[slot1] or table.contains(slot3.data2_list, slot5) then
+	if not slot5.pickup_picturepuzzle[slot1] or table.contains(slot4.data2_list, slot6) then
 		return
 	end
 
-	if not _G[slot3:getConfig("config_client").subView] then
+	if not _G[slot4:getConfig("config_client").subView] then
 		return
 	end
 
-	slot6.New(slot0, slot5):Load()
+	slot7.New(slot0, slot6):Load()
 
 	if slot2 then
-		slot7.buffer:SetParent(slot2)
+		slot8.buffer:SetParent(slot2)
 	end
 
-	return slot7
+	if slot3 then
+		slot8.buffer:SetPosition(slot3)
+	end
+
+	return slot8
 end
 
 return slot0
