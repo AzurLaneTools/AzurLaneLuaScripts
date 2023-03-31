@@ -214,8 +214,8 @@ function slot0.InitDetailPage(slot0)
 
 	setImageSprite(slot0.iconTF, LoadSprite("qicon/" .. slot1:GetIcon()), false)
 
-	slot0.nameTxt.text = HXSet.hxLan(slot1:GetName())
-	slot0.contentTxt.text = HXSet.hxLan(slot1:GetContent())
+	slot0.nameTxt.text = slot1:GetName()
+	slot0.contentTxt.text = slot1:GetContent()
 
 	onToggle(slot0, slot0.commentPanel, function (slot0)
 		if slot0 then
@@ -259,7 +259,7 @@ function slot0.UpdateCommentList(slot0)
 			slot4 = slot3:HasReply()
 
 			setText(slot2:Find("main/reply"), slot3:GetReplyBtnTxt())
-			setText(slot2:Find("main/content"), HXSet.hxLan(SwitchSpecialChar(slot3:GetContent())))
+			setText(slot2:Find("main/content"), SwitchSpecialChar(slot3:GetContent()))
 			setText(slot2:Find("main/bubble/Text"), slot3:GetReplyCnt())
 			setText(slot2:Find("main/time"), slot3:GetTime())
 
@@ -311,7 +311,7 @@ function slot0.UpdateReplys(slot0, slot1, slot2)
 			slot3 = uv0[slot1 + 1]
 
 			setImageSprite(slot2:Find("head/icon"), LoadSprite("qicon/" .. slot3:GetIcon()), false)
-			setText(slot2:Find("content"), HXSet.hxLan(SwitchSpecialChar(slot3:GetContent())))
+			setText(slot2:Find("content"), SwitchSpecialChar(slot3:GetContent()))
 		end
 	end)
 	slot5:align(#slot3)
@@ -334,7 +334,7 @@ function slot0.OpenCommentPanel(slot0)
 			slot5 = uv0[slot3].id
 			slot6 = uv0[slot3].index
 
-			setText(slot2:Find("Text"), HXSet.hxLan(uv0[slot3].text))
+			setText(slot2:Find("Text"), uv0[slot3].text)
 			onButton(uv1, slot2, function ()
 				uv0:emit(InstagramMediator.ON_COMMENT, uv1.id, uv2, uv3)
 				uv0:CloseCommentPanel()

@@ -241,7 +241,8 @@ slot0.hxPathList = {
 	"shipmodels",
 	"technologycard",
 	"shipdesignicon",
-	"herohrzicon"
+	"herohrzicon",
+	"skinunlockanim"
 }
 slot0.folderBundle = {
 	"paintingface"

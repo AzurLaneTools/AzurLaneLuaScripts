@@ -30,7 +30,7 @@ function slot0.execute(slot0, slot1)
 		return uv0[slot0]
 	end)
 
-	if #getProxy(FleetProxy):getActivityFleets()[slot4][slot11[1]]:GetRawShipIds() == 0 then
+	if getProxy(FleetProxy):getActivityFleets()[slot4][slot11[1]]:isEmpty() then
 		table.remove(slot11)
 	end
 

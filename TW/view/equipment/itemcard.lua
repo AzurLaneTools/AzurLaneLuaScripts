@@ -16,7 +16,7 @@ function slot0.update(slot0, slot1)
 	TweenItemAlphaAndWhite(slot0.go)
 
 	slot0.countTF.text = slot1.count > 0 and slot1.count or ""
-	slot0.nameTF.text = slot0:ShortenString(HXSet.hxLan(slot1:getConfig("name")), 6)
+	slot0.nameTF.text = slot0:ShortenString(slot1:getConfig("name"), 6)
 end
 
 function slot0.ShortenString(slot0, slot1, slot2)

@@ -687,6 +687,48 @@ pg.enemy_data_statistics_245 = {
 		fog_fx = "",
 		equipment_list = {}
 	},
+	[13400005] = {
+		cannon = 1919,
+		name = "恐怖大魔王?",
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 70050,
+		air = 0,
+		speed = 14,
+		dodge = 0,
+		id = 13400005,
+		cannon_growth = 0,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 312,
+		luck = 0,
+		star = 5,
+		hit = 1145,
+		antisub_growth = 0,
+		rarity = 5,
+		reload = 150,
+		base = 90261,
+		durability = 114514,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		torpedo = 810,
+		durability_growth = 0,
+		antisub = 0,
+		luck_growth = 0,
+		hit_growth = 330,
+		specific_fx_scale = {
+			heisewuqi_stg = 2
+		},
+		appear_fx = {
+			"heisewuqi_stg",
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {}
+	},
 	[13400101] = {
 		cannon = 450,
 		battle_unit_type = 95,
@@ -772,46 +814,6 @@ pg.enemy_data_statistics_245 = {
 				ID = 200095,
 				LV = 1
 			}
-		}
-	},
-	[13400103] = {
-		cannon = 40,
-		battle_unit_type = 15,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 80000,
-		air = 0,
-		speed = 30,
-		dodge = 0,
-		id = 13400103,
-		cannon_growth = 0,
-		rarity = 1,
-		reload_growth = 0,
-		dodge_growth = 0,
-		armor = 0,
-		star = 1,
-		hit = 81,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90699,
-		durability = 60,
-		armor_growth = 0,
-		torpedo_growth = 1000,
-		luck_growth = 0,
-		hit_growth = 1200,
-		luck = 0,
-		torpedo = 85,
-		durability_growth = 2550,
-		antisub = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			630101,
-			630102
 		}
 	}
 }

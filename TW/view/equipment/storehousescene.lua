@@ -687,7 +687,7 @@ function slot0.didEnter(slot0)
 		end
 	end
 
-	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 60031, slot0.topItems)
+	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 1, slot0.topItems)
 end
 
 function slot0.isDefaultStatus(slot0)

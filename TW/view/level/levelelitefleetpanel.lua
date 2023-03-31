@@ -121,7 +121,7 @@ function slot0.updateLimit(slot0)
 			end
 
 			setActive(slot12, true)
-			setText(slot0:findTF("Text", slot12), AttributeType.EliteCondition2Name(slot8, slot11) .. AttributeType.eliteConditionCompareTip[slot9] .. slot10 .. "（" .. slot2[slot8] .. "）")
+			setText(slot0:findTF("Text", slot12), AttributeType.EliteCondition2Name(slot8, slot11) .. AttributeType.eliteConditionCompareTip(slot9) .. slot10 .. "（" .. slot2[slot8] .. "）")
 		end
 
 		setActive(slot0.tfLimitElite:Find("sub"), slot0.chapter:getConfig("submarine_num") > 0)

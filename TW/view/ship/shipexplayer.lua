@@ -76,7 +76,7 @@ function slot0.display(slot0)
 		slot0._expTFs[#slot0._expTFs + 1] = slot11
 
 		flushShipCard(slot11, slot9)
-		setScrollText(findTF(slot14, "info/name_mask/name"), slot9:getName())
+		setScrollText(findTF(slot14, "info/name_mask/name"), slot9:GetColorName())
 
 		slot16 = findTF(slot14, "dockyard/lv_bg/levelUpLabel")
 		slot17 = findTF(slot14, "dockyard/lv_bg/levelup")

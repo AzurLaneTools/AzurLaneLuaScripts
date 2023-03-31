@@ -24,9 +24,9 @@ function slot0.Ctor(slot0, slot1)
 		})
 		slot2 = nil
 
-		for slot6, slot7 in pairs(pg.world_joint_boss_template) do
-			if slot7.meta_id == slot0.id then
-				slot2 = slot7
+		for slot6, slot7 in ipairs(pg.world_joint_boss_template.all) do
+			if pg.world_joint_boss_template[slot7].meta_id == slot0.id then
+				slot2 = slot8
 
 				break
 			end

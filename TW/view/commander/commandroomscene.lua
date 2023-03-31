@@ -1018,6 +1018,12 @@ function slot0.willExit(slot0)
 	if slot0.mode == CommandRoomScene.MODE_SELECT then
 		getProxy(SettingsProxy):SetCommanderPlaySortData(slot0.sortData)
 	end
+
+	if slot0.bulinTip then
+		slot0.bulinTip:Destroy()
+
+		slot0.bulinTip = nil
+	end
 end
 
 return slot0

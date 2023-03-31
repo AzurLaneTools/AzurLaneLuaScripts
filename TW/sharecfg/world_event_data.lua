@@ -1,8 +1,4 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "world_event_data", rawget(pg.base, "world_event_data") or {})
-
 pg.world_event_data = setmetatable({
 	__name = "world_event_data",
 	all = {
@@ -6957,6 +6953,8 @@ pg.world_event_data = setmetatable({
 		11590610
 	}
 }, confMT)
+pg.base = pg.base or {}
+pg.base.world_event_data = pg.base.world_event_data or {}
 cs = cs or {}
 cs.world_event_data = {
 	{

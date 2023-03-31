@@ -588,7 +588,7 @@ function slot0.DisplayTotalReward(slot0, slot1)
 			stopReason = slot1,
 			rewards = slot2:PopActBossRewards(),
 			isAutoFight = slot0.contextData.autoFlag,
-			continuousBattleTimes = slot0.contextData.continuousBattleTimes - 1,
+			continuousBattleTimes = slot0.contextData.continuousBattleTimes,
 			totalBattleTimes = slot0.contextData.totalBattleTimes
 		}
 	}))

@@ -83,7 +83,7 @@ function slot0.updateContent(slot0, slot1)
 	slot4 = slot1.skillID
 	slot0.curUnlockSkillID = slot4
 
-	setText(slot0.tipText, i18n("meta_unlock_skill_tip", HXSet.hxLan(ShipGroup.getDefaultShipNameByGroupID(slot2:getMetaCharacter().id)), getSkillName(slot4)))
+	setText(slot0.tipText, i18n("meta_unlock_skill_tip", ShipGroup.getDefaultShipNameByGroupID(slot2:getMetaCharacter().id), getSkillName(slot4)))
 
 	slot7 = MetaCharacterConst.getMetaSkillTacticsConfig(slot4, 1)
 	slot8 = slot7.skill_unlock

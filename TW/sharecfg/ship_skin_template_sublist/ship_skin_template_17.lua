@@ -1,5 +1,6 @@
 pg = pg or {}
-pg.ship_skin_template_17 = {
+pg.base = pg.base or {}
+pg.base.ship_skin_template_17 = {
 	[901031] = {
 		ship_group = 90103,
 		name = "天然純真夏日騎士",

@@ -13,6 +13,7 @@ function slot0.OnInit(slot0)
 	slot2 = slot0._tf
 	slot0.UIlist = UIItemList.New(slot2:Find("front/stars"), slot0._tf:Find("front/stars/star_tpl"))
 	slot0.shipState = slot0._tf:Find("front/flag")
+	slot0.proposeMark = slot0._tf:Find("front/propose")
 	slot0.otherBg = slot0._tf:Find("front/bg_other")
 	slot0.editTr = slot0._tf:Find("mask")
 	slot0.changskinBtn = slot0.editTr:Find("skin")
@@ -177,7 +178,7 @@ function slot0.UpdateShip(slot0, slot1)
 		end
 	end)
 	slot0.UIlist:align(slot1:getMaxStar())
-	setScrollText(slot0.nameTxt, slot1:getName())
+	setScrollText(slot0.nameTxt, slot1:GetColorName())
 	setPaintingPrefabAsync(slot0.paintingTr, slot1:getPainting(), "biandui")
 
 	slot4 = slot1:rarity2bgPrint()
@@ -193,6 +194,7 @@ function slot0.UpdateFrame(slot0, slot1, slot2)
 	slot3 = nil
 
 	setRectShipCardFrame(slot0.frame, slot1, slot2:ShowPropose() and "prop" .. (slot2:isBluePrintShip() and slot1 or slot2:isMetaShip() and "14" or "") or nil)
+	setProposeMarkIcon(slot0.proposeMark, slot2)
 end
 
 function slot0.UpdateEffect(slot0, slot1, slot2)

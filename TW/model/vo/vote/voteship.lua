@@ -35,7 +35,7 @@ end
 
 function slot0.getShipName(slot0)
 	if slot0.group == 30507 then
-		slot1, slot2 = HXSet.hxLan(i18n("name_zhanliejahe"))
+		slot1, slot2 = i18n("name_zhanliejahe")
 
 		return slot1
 	end

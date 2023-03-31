@@ -1,8 +1,4 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "shop_template", rawget(pg.base, "shop_template") or {})
-
 pg.shop_template = setmetatable({
 	__name = "shop_template",
 	all = {
@@ -2530,6 +2526,8 @@ pg.shop_template = setmetatable({
 		}
 	}
 }, confMT)
+pg.base = pg.base or {}
+pg.base.shop_template = pg.base.shop_template or {}
 cs = cs or {}
 cs.shop_template = {
 	{

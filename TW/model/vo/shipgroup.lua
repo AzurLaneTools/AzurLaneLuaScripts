@@ -2,9 +2,9 @@ slot0 = class("ShipGroup", import(".BaseVO"))
 slot0.REQ_INTERVAL = 60
 
 function slot0.GetGroupConfig(slot0)
-	for slot4, slot5 in pairs(pg.ship_data_group) do
-		if slot5.group_type == slot0 then
-			return slot5
+	for slot4, slot5 in ipairs(pg.ship_data_group.all) do
+		if pg.ship_data_group[slot5].group_type == slot0 then
+			return slot6
 		end
 	end
 end
@@ -124,7 +124,7 @@ function slot0.getName(slot0, slot1)
 	slot2 = slot0.shipConfig.name
 
 	if slot1 and slot0.trans then
-		slot2 = HXSet.hxLan(pg.ship_skin_template[slot0.groupConfig.trans_skin].name)
+		slot2 = pg.ship_skin_template[slot0.groupConfig.trans_skin].name
 	end
 
 	return slot2

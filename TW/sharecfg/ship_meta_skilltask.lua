@@ -42578,7 +42578,7 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {
 			{
 				2,
-				16001,
+				16002,
 				2
 			}
 		}
@@ -43365,7 +43365,7 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {
 			{
 				2,
-				16001,
+				16002,
 				2
 			}
 		}

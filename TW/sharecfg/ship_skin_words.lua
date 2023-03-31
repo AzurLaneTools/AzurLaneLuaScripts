@@ -1,8 +1,4 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "ship_skin_words", rawget(pg.base, "ship_skin_words") or {})
-
 pg.ship_skin_words = setmetatable({
 	__name = "ship_skin_words",
 	all = {
@@ -1509,6 +1505,8 @@ pg.ship_skin_words = setmetatable({
 		699011
 	}
 }, confMT)
+pg.base = pg.base or {}
+pg.base.ship_skin_words = pg.base.ship_skin_words or {}
 cs = cs or {}
 cs.ship_skin_words = {
 	[100000] = {

@@ -13184,7 +13184,7 @@ _G.pg.base.gametip.bulin_tip9 = {
 }
 
 _G.pg.base.gametip.bulin_tip_other1 = {
-	tip = "是否解鎖提示？20分鐘內只能解鎖一個提示"
+	tip = "是否解鎖提示？10分鐘內只能解鎖一個提示"
 }
 
 _G.pg.base.gametip.bulin_tip_other2 = {
@@ -21692,4 +21692,62 @@ _G.pg.base.gametip.setting_label_private = {
 
 _G.pg.base.gametip.setting_label_licence = {
 	tip = "使用者協議"
+}
+
+_G.pg.base.gametip.caibulin_tip1 = {
+	tip = "從作戰中搜尋線索，目標1-2Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip2 = {
+	tip = "倉庫……很可疑，是一個適合藏匿線索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip3 = {
+	tip = "從作戰中搜尋線索，目標2-2Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip4 = {
+	tip = "船塢……很可疑，是一個適合藏匿線索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip5 = {
+	tip = "從作戰中搜尋線索，目標1-4Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip6 = {
+	tip = "後宅……很可疑，是一個適合藏匿線索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip7 = {
+	tip = "從作戰中搜尋線索，目標2-4Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip8 = {
+	tip = "學院……很可疑，是一個適合藏匿線索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip9 = {
+	tip = "補給商店……很可疑，是一個適合藏匿線索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip10 = {
+	tip = "建造台……很可疑，是一個適合藏匿線索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_help = {
+	tip = {
+		{
+			info = [[
+活動說明：
+1.活動期間，在特定介面或關卡中可收集相應的神器線索
+2.當收集線索遇到困難時，可以點擊線索格解鎖提示
+注意：10分鐘內只能解鎖一個提示哦
+3.線索收集完成可以開啟特別關卡，挑戰特別關卡並取
+得勝利可以獲得特殊獎勵]]
+		}
+	}
+}
+
+_G.pg.base.gametip.caibulin_tip11 = {
+	tip = "神器線索收集完成即可解鎖特別關卡~"
 }

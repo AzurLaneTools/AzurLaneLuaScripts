@@ -1,11 +1,9 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "gametip", rawget(pg.base, "gametip") or {})
-
 pg.gametip = setmetatable({
 	__name = "gametip"
 }, confMT)
+pg.base = pg.base or {}
+pg.base.gametip = pg.base.gametip or {}
 cs = cs or {}
 cs.gametip = {
 	ad_0 = {
@@ -19576,6 +19574,66 @@ cs.gametip = {
 	setting_label_licence = {
 		679990,
 		100,
+		true
+	},
+	caibulin_tip1 = {
+		680090,
+		121,
+		true
+	},
+	caibulin_tip2 = {
+		680211,
+		149,
+		true
+	},
+	caibulin_tip3 = {
+		680360,
+		121,
+		true
+	},
+	caibulin_tip4 = {
+		680481,
+		149,
+		true
+	},
+	caibulin_tip5 = {
+		680630,
+		121,
+		true
+	},
+	caibulin_tip6 = {
+		680751,
+		149,
+		true
+	},
+	caibulin_tip7 = {
+		680900,
+		121,
+		true
+	},
+	caibulin_tip8 = {
+		681021,
+		149,
+		true
+	},
+	caibulin_tip9 = {
+		681170,
+		155,
+		true
+	},
+	caibulin_tip10 = {
+		681325,
+		153,
+		true
+	},
+	caibulin_help = {
+		681478,
+		416,
+		true
+	},
+	caibulin_tip11 = {
+		681894,
+		127,
 		true
 	}
 }

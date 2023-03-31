@@ -423,7 +423,7 @@ for slot4 = 1, 4 do
 	slot0.EquipmentTransformTreeTemplate[slot4] = {}
 end
 
-for slot4, slot5 in pairs(pg.equip_upgrade_template.all) do
+for slot4, slot5 in ipairs(pg.equip_upgrade_template.all) do
 	slot6 = pg.equip_upgrade_template[slot5]
 	slot0.EquipmentTransformTreeTemplate[slot6.category1] = slot0.EquipmentTransformTreeTemplate[slot6.category1] or {}
 	slot0.EquipmentTransformTreeTemplate[slot6.category1][slot6.category2] = slot6

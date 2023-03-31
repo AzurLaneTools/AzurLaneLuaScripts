@@ -154742,6 +154742,216 @@ _G.pg.base.item_data_statistics[60305] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[60306] = {
+	display = "「一錘！Burin！」活動道具",
+	name = "線索「S」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60306,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60307] = {
+	display = "「一錘！Burin！」活動道具",
+	name = "線索「u」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60307,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60308] = {
+	display = "「一錘！Burin！」活動道具",
+	name = "線索「p」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60308,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60309] = {
+	display = "「一錘！Burin！」活動道具",
+	name = "線索「e」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60309,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60310] = {
+	display = "「一錘！Burin！」活動道具",
+	name = "線索「r」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60310,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60311] = {
+	display = "「一錘！Burin！」活動道具",
+	name = "線索「B」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60311,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60312] = {
+	display = "「一錘！Burin！」活動道具",
+	name = "線索「u」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60312,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60313] = {
+	display = "「一錘！Burin！」活動道具",
+	name = "線索「r」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60313,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60314] = {
+	display = "「一錘！Burin！」活動道具",
+	name = "線索「i」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60314,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60315] = {
+	display = "「一錘！Burin！」活動道具",
+	name = "線索「n」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60315,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[69001] = {
 	display = [[
 可以獲得以下裝備：
