@@ -1,8 +1,40 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4737",
+		param = "4733",
 		id = 1,
+		pic = "temp1",
+		type = 3,
+		time = {
+			{
+				{
+					2023,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4737",
+		id = 2,
 		pic = "temp2",
 		type = 3,
 		time = {
@@ -33,7 +65,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 2,
+		id = 3,
 		pic = "temp3",
 		type = 2,
 		param = {
@@ -71,7 +103,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 3,
+		id = 4,
 		pic = "temp4",
 		type = 2,
 		param = {
@@ -107,7 +139,7 @@ pg.activity_banner = {
 	},
 	{
 		param = "4731",
-		id = 4,
+		id = 5,
 		pic = "temp5",
 		type = 3,
 		time = {
@@ -138,7 +170,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 5,
+		id = 6,
 		pic = "temp6",
 		type = 2,
 		param = {
@@ -175,7 +207,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 6,
+		id = 7,
 		pic = "temp7",
 		type = 2,
 		param = {
@@ -209,11 +241,11 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 7,
+		id = 8,
 		pic = "temp8",
 		type = 2,
 		param = {
-			"cruising"
+			"crusing"
 		},
 		time = {
 			{
@@ -233,38 +265,6 @@ pg.activity_banner = {
 					2023,
 					4,
 					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4729",
-		id = 8,
-		pic = "temp1",
-		type = 3,
-		time = {
-			{
-				{
-					2023,
-					3,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					11
 				},
 				{
 					23,
@@ -376,15 +376,15 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[3] = {
 			1,
-			4,
-			8
+			2,
+			5
 		},
 		[2] = {
-			2,
 			3,
-			5,
+			4,
 			6,
-			7
+			7,
+			8
 		},
 		[9] = {
 			90,

@@ -142,6 +142,8 @@ function slot0.didEnter(slot0)
 		slot0.transform:SetAsFirstSibling()
 	end)
 	TagTipHelper.SetFreeBuildMark()
+
+	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 6, slot0.blurPanel)
 end
 
 function slot0.checkPage(slot0)

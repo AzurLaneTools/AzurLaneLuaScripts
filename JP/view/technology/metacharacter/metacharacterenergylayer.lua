@@ -414,7 +414,7 @@ function slot0.initPreviewPanel(slot0, slot1)
 					slot1 = slot1 .. "/" .. i18n(ShipType.SpecificTableTips[slot7])
 				end
 
-				changeToScrollText(uv1.breakView, HXSet.hxLan(slot1))
+				changeToScrollText(uv1.breakView, slot1)
 				uv1:switchStage(uv2)
 			end
 		end, SFX_PANEL)

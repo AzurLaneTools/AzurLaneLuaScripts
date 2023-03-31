@@ -25495,7 +25495,7 @@ pg.equip_skin_template = {
 			"face",
 			{
 				0,
-				4.33,
+				4.56,
 				-12.2
 			}
 		},
@@ -25503,7 +25503,7 @@ pg.equip_skin_template = {
 			"face",
 			{
 				-3,
-				195
+				205
 			}
 		},
 		orbit_hidden_action = {

@@ -99,9 +99,8 @@ function slot3.GetBuffBulletRes(slot0, slot1, slot2, slot3, slot4)
 	slot6 = {}
 	slot1 = slot1 or {}
 	slot7 = uv0.GetPlayerShipModelFromID(slot0)
-	slot8 = slot7.buff_list
 
-	function slot9(slot0)
+	function slot8(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			slot6 = nil
 			slot6 = (not uv0[slot5] or uv0[slot5].level) and 1
@@ -118,27 +117,27 @@ function slot3.GetBuffBulletRes(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
-	slot9(slot7.buff_list)
-	slot9(slot7.hide_buff_list)
+	slot8(slot7.buff_list)
+	slot8(slot7.hide_buff_list)
 
-	for slot14, slot15 in ipairs(slot7.airassist_time) do
-		for slot20, slot21 in ipairs(uv0.GetBulletResFromSkill(slot15)) do
-			slot5[#slot5 + 1] = slot21
+	for slot13, slot14 in ipairs(slot7.airassist_time) do
+		for slot19, slot20 in ipairs(uv0.GetBulletResFromSkill(slot14)) do
+			slot5[#slot5 + 1] = slot20
 		end
 	end
 
-	if uv0.GetShipTransformDataTemplate(slot0) and slot11.skill_id ~= 0 and pg.transform_data_template[slot11.skill_id].skill_id ~= 0 then
-		slot13 = nil
-		slot13 = (not slot1[pg.transform_data_template[slot11.skill_id].skill_id] or slot1[slot12].level) and 1
-		slot18 = slot3
+	if uv0.GetShipTransformDataTemplate(slot0) and slot10.skill_id ~= 0 and pg.transform_data_template[slot10.skill_id].skill_id ~= 0 then
+		slot12 = nil
+		slot12 = (not slot1[pg.transform_data_template[slot10.skill_id].skill_id] or slot1[slot11].level) and 1
+		slot17 = slot3
 
-		for slot18, slot19 in ipairs(uv0.GetResFromBuff(slot12, slot13, slot6, slot18)) do
-			slot5[#slot5 + 1] = slot19
+		for slot17, slot18 in ipairs(uv0.GetResFromBuff(slot11, slot12, slot6, slot17)) do
+			slot5[#slot5 + 1] = slot18
 		end
 	end
 
 	if uv0.GetShipMetaFromDataTemplate(slot0) then
-		slot9(slot7.buff_list_display)
+		slot8(slot7.buff_list_display)
 	end
 
 	return slot5

@@ -708,6 +708,13 @@ function temp()
 							K = {
 								["Ⅲ"] = {
 									this = true
+								},
+								I = {
+									I = {
+										I = {
+											this = true
+										}
+									}
 								}
 							}
 						}

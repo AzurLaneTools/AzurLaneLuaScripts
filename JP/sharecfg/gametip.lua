@@ -20767,5 +20767,65 @@ cs.gametip = {
 		859345,
 		162,
 		true
+	},
+	caibulin_tip1 = {
+		859507,
+		125,
+		true
+	},
+	caibulin_tip2 = {
+		859632,
+		165,
+		true
+	},
+	caibulin_tip3 = {
+		859797,
+		125,
+		true
+	},
+	caibulin_tip4 = {
+		859922,
+		168,
+		true
+	},
+	caibulin_tip5 = {
+		860090,
+		125,
+		true
+	},
+	caibulin_tip6 = {
+		860215,
+		165,
+		true
+	},
+	caibulin_tip7 = {
+		860380,
+		125,
+		true
+	},
+	caibulin_tip8 = {
+		860505,
+		165,
+		true
+	},
+	caibulin_tip9 = {
+		860670,
+		177,
+		true
+	},
+	caibulin_tip10 = {
+		860847,
+		172,
+		true
+	},
+	caibulin_help = {
+		861019,
+		560,
+		true
+	},
+	caibulin_tip11 = {
+		861579,
+		145,
+		true
 	}
 }

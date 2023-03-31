@@ -14009,7 +14009,7 @@ _G.pg.base.gametip.bulin_tip9 = {
 }
 
 _G.pg.base.gametip.bulin_tip_other1 = {
-	tip = "入手条件ヒントは20分につき1個しか表示できないプリン！表示するプリン？"
+	tip = "入手条件ヒントは10分につき1個しか表示できないプリン！表示するプリン？"
 }
 
 _G.pg.base.gametip.bulin_tip_other2 = {
@@ -23687,4 +23687,62 @@ _G.pg.base.gametip.series_enemy_empty_commander_assistant = {
 
 _G.pg.base.gametip.limit_team_character_tips = {
 	tip = "※元の名前が同じ艦船は複数の艦隊に編成できません"
+}
+
+_G.pg.base.gametip.caibulin_tip1 = {
+	tip = "通常海域の1-2に何かがあるプリン？"
+}
+
+_G.pg.base.gametip.caibulin_tip2 = {
+	tip = "倉庫…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
+}
+
+_G.pg.base.gametip.caibulin_tip3 = {
+	tip = "通常海域の2-2に何かがあるプリン？"
+}
+
+_G.pg.base.gametip.caibulin_tip4 = {
+	tip = "ドック…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
+}
+
+_G.pg.base.gametip.caibulin_tip5 = {
+	tip = "通常海域の1-4に何かがあるプリン？"
+}
+
+_G.pg.base.gametip.caibulin_tip6 = {
+	tip = "寮舎…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
+}
+
+_G.pg.base.gametip.caibulin_tip7 = {
+	tip = "通常海域の2-4に何かがあるプリン？"
+}
+
+_G.pg.base.gametip.caibulin_tip8 = {
+	tip = "学園…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
+}
+
+_G.pg.base.gametip.caibulin_tip9 = {
+	tip = "「ショップ」…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
+}
+
+_G.pg.base.gametip.caibulin_tip10 = {
+	tip = "「建造」…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
+}
+
+_G.pg.base.gametip.caibulin_help = {
+	tip = {
+		{
+			info = [[
+遊び方：
+1.イベント期間中、母港と海域の特定の場所に「ヒント」が現れるプリン！
+2.見つけられない場合は、「ヒント」のアイコンをタップするといいプリン！
+  ヘルプは10分に1個しか開放できないプリン！
+3.「ヒント」をすべて集めると、特殊ステージに挑戦できるプリン！
+   特殊ステージをクリアすると、報酬を入手できるプリン！]]
+		}
+	}
+}
+
+_G.pg.base.gametip.caibulin_tip11 = {
+	tip = "ヒントをすべて集めて特殊ステージを開放可能！"
 }

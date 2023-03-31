@@ -116,10 +116,10 @@ function slot0.Flush(slot0, slot1)
 					slot0 = Goods.Create({
 						shop_id = uv4.id
 					}, Goods.TYPE_SKIN)
-					slot3 = i18n("text_buy_fashion_tip", slot0:GetPrice(), HXSet.hxLan(uv2.name))
+					slot3 = i18n("text_buy_fashion_tip", slot0:GetPrice(), uv2.name)
 
 					if slot0:isDisCount() and slot0:IsItemDiscountType() then
-						slot3 = i18n("discount_coupon_tip", slot2, slot0:GetDiscountItem().name, HXSet.hxLan(uv2.name))
+						slot3 = i18n("discount_coupon_tip", slot2, slot0:GetDiscountItem().name, uv2.name)
 					end
 
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({

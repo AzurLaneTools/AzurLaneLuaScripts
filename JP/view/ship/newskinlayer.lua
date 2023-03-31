@@ -85,7 +85,7 @@ function slot0.setSkin(slot0, slot1)
 
 	slot0._shade:GetComponent(typeof(Image)).color = Color.New(0, 0, 0, 1)
 
-	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. ("star_level_unlock_anim_" .. slot1))) then
+	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/" .. ("star_level_unlock_anim_" .. slot1))) then
 		slot0:playOpening(function ()
 			uv0:setSkinPri(uv1)
 		end, slot2)
@@ -134,7 +134,7 @@ function slot0.setSkinPri(slot0, slot1)
 
 	setPaintingPrefabAsync(slot0._paintingTF, slot0._skinConfig.painting, "huode")
 
-	slot0._skinName.text = i18n("ship_newSkin_name", HXSet.hxLan(slot0._skinConfig.name))
+	slot0._skinName.text = i18n("ship_newSkin_name", slot0._skinConfig.name)
 	slot6 = nil
 	slot7 = ""
 	slot8 = nil
@@ -171,7 +171,7 @@ function slot0.showExitTip(slot0)
 end
 
 function slot0.didEnter(slot0)
-	slot0.shipName = HXSet.hxLan(pg.ship_skin_template[ShipWordHelper.GetDefaultSkin(slot0.contextData.skinId)].name)
+	slot0.shipName = pg.ship_skin_template[ShipWordHelper.GetDefaultSkin(slot0.contextData.skinId)].name
 
 	onButton(slot0, slot0._viewBtn, function ()
 		uv0.isInView = true
@@ -463,14 +463,14 @@ function slot0.playOpening(slot0, slot1, slot2)
 		if uv0 then
 			uv0()
 		end
-	end, "ui", slot2, false, false, {
+	end, "ui/skinunlockanim", slot2, false, false, {
 		weight = LayerWeightConst.THIRD_LAYER
 	})
 end
 
 function slot0.willExit(slot0)
 	pg.CpkPlayMgr.GetInstance():DisposeCpkMovie()
-	pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newSkinLayer_get", pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1].name, HXSet.hxLan(slot0._skinConfig.name)), COLOR_GREEN)
+	pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newSkinLayer_get", pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1].name, slot0._skinConfig.name), COLOR_GREEN)
 	slot0:recyclePainting()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0:stopVoice()

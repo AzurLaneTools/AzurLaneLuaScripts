@@ -81,7 +81,7 @@ function slot0.initRivalInfo(slot0)
 
 	function slot1(slot0, slot1)
 		flushShipCard(slot0, slot1)
-		setScrollText(findTF(slot0, "content/info/name_mask/name"), getProxy(PlayerProxy):getRawData():ShouldCheckCustomName() and slot1:GetDefaultName() or slot1:getName())
+		setScrollText(findTF(slot0, "content/info/name_mask/name"), slot1:GetColorName(getProxy(PlayerProxy):getRawData():ShouldCheckCustomName() and slot1:GetDefaultName() or slot1:getName()))
 	end
 
 	function slot2(slot0, slot1, slot2, slot3)

@@ -1,5 +1,53 @@
 pg = pg or {}
 pg.enemy_data_statistics_320 = {
+	[16000302] = {
+		cannon = 55,
+		name = "ジュノーの幻？",
+		type = 7,
+		speed_growth = 0,
+		hit_growth = 210,
+		air = 85,
+		durability = 7800,
+		armor = 0,
+		antisub = 0,
+		reload = 150,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		dodge_growth = 156,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90666,
+		icon_type = 7,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		luck = 0,
+		id = 16000302,
+		scale = 180,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		fog_fx = "",
+		dodge = 14,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 125,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			3001501,
+			3001502,
+			3001503,
+			3001506,
+			3001507,
+			3001508
+		}
+	},
 	[16000303] = {
 		cannon = 120,
 		name = "ネプチューンの幻？",
@@ -863,48 +911,6 @@ pg.enemy_data_statistics_320 = {
 				ID = 50500,
 				LV = 2
 			}
-		}
-	},
-	[16001206] = {
-		cannon = 35,
-		type = 7,
-		antiaircraft_growth = 3200,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 105,
-		icon_type = 7,
-		dodge = 11,
-		luck = 0,
-		id = 16001206,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 156,
-		reload = 150,
-		speed = 20,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 3500,
-		fog_fx = "",
-		base = 90669,
-		durability = 2690,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 125,
-		hit_growth = 210,
-		armor = 0,
-		torpedo = 0,
-		durability_growth = 144000,
-		antisub = 0,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		armor_type = 2,
-		equipment_list = {
-			781318,
-			1101091,
-			1101076,
-			1101116,
-			900002,
-			900007
 		}
 	}
 }

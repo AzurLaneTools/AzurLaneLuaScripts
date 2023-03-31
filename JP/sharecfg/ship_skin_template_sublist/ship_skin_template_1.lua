@@ -1,5 +1,6 @@
 pg = pg or {}
-pg.ship_skin_template_1 = {
+pg.base = pg.base or {}
+pg.base.ship_skin_template_1 = {
 	[100000] = {
 		ship_group = 10000,
 		name = "汎用型ブリ",
@@ -359,12 +360,10 @@ pg.ship_skin_template_1 = {
 		group_index = 0,
 		prefab = "buli_super",
 		painting = "buli_super",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
 		illustrator = -1,
+		air_bullet_skin = "",
 		l2d_voice_calibrate = "",
+		shop_type_id = 0,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -376,10 +375,10 @@ pg.ship_skin_template_1 = {
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "特装型ブリMKIII。Uレアのキャラの限界突破に使用可能。",
 		voice_actor = 72,
-		spine_offset = "",
+		air_bomb_skin = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -451,6 +450,27 @@ pg.ship_skin_template_1 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				188,
+				-638,
+				0
+			},
+			{
+				0.8
+			}
+		},
+		special_effects = {
+			"lihui_buli_super",
+			{
+				130,
+				469,
+				0
+			},
+			{
+				1.5
 			}
 		}
 	},

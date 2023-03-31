@@ -1,5 +1,48 @@
 pg = pg or {}
 pg.enemy_data_statistics_352 = {
+	[16502005] = {
+		cannon = 0,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		battle_unit_type = 65,
+		air = 48,
+		base = 90747,
+		dodge = 0,
+		durability_growth = 65600,
+		antiaircraft = 115,
+		speed = 10,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 2000,
+		antiaircraft_growth = 1800,
+		torpedo = 0,
+		durability = 4420,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 144,
+		armor = 0,
+		fog_fx = "",
+		id = 16502005,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1100052,
+			1100387,
+			1100932,
+			1100937
+		}
+	},
 	[16502006] = {
 		cannon = 60,
 		reload = 150,
@@ -838,54 +881,6 @@ pg.enemy_data_statistics_352 = {
 				ID = 50510,
 				LV = 3
 			}
-		}
-	},
-	[16502105] = {
-		cannon = 36,
-		name = "ジョッフル駒式統御武装「Moderate」",
-		type = 7,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 86,
-		fog_fx = "",
-		dodge = 9,
-		speed = 16,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 96,
-		antiaircraft_growth = 5280,
-		reload = 150,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 4127,
-		cannon_growth = 0,
-		base = 90648,
-		icon_type = 7,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 134,
-		hit_growth = 280,
-		armor = 0,
-		durability = 5780,
-		torpedo = 0,
-		id = 16502105,
-		durability_growth = 58880,
-		luck_growth = 0,
-		battle_unit_type = 70,
-		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_gongjian"
-		},
-		equipment_list = {
-			1100022,
-			1100172,
-			1100797,
-			1100927,
-			1100937
 		}
 	}
 }

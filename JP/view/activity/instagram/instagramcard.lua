@@ -18,9 +18,9 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0.instagram = slot1
 
 	setImageSprite(slot0.iconTF, LoadSprite("qicon/" .. slot1:GetIcon()), false)
-	setText(slot0.nameTxt, HXSet.hxLan(slot1:GetName()))
+	setText(slot0.nameTxt, slot1:GetName())
 	slot0:LoadImage()
-	setText(slot0.txt, HXSet.hxLan(slot1:GetContent()))
+	setText(slot0.txt, slot1:GetContent())
 	setText(slot0.like, slot1:GetLikeCnt())
 	slot0:RemoveTimer()
 

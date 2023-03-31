@@ -61,7 +61,7 @@ function slot0.OnUpdateRecordItem(slot0, slot1, slot2)
 		setActive(slot4:Find("normal"), true)
 		setActive(slot4:Find("lock"), false)
 
-		slot4:Find("normal/title"):GetComponent(typeof(Text)).text = HXSet.hxLan(slot3.name)
+		slot4:Find("normal/title"):GetComponent(typeof(Text)).text = slot3.name
 
 		slot0.loader:GetSpriteQuiet("memoryicon/" .. slot3.icon, "", slot4:Find("normal"))
 		setText(slot4:Find("normal/id"), string.format("#%u", slot3.group_ID))

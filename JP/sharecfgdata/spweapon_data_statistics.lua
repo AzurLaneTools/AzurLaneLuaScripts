@@ -3291,6 +3291,41 @@ _G.pg.base.spweapon_data_statistics[1080230] = {
 	level = 11
 }
 
+_G.pg.base.spweapon_data_statistics[9000] = {
+	tech = 0,
+	name = "スーパーレインボー1号",
+	value_2_random = 0,
+	type = 1,
+	value_1_random = 0,
+	value_1 = 99,
+	effect_id_display = 902190,
+	level = 1,
+	descrip = "特殊装備コアで製造できる艦船の専用兵装 ",
+	uncraftable = 1,
+	next = 0,
+	upgrade_id = 101,
+	value_2 = 9,
+	icon = "9000",
+	effect_id = 902190,
+	attribute_2 = "luck",
+	id = 9000,
+	rarity = 4,
+	unique = 10002,
+	important = 2,
+	prev = 0,
+	attribute_1 = "durability",
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			9036,
+			9037
+		}
+	},
+	label = {}
+}
+
 _G.pg.base.spweapon_data_statistics[10000] = {
 	tech = 0,
 	name = "勇ましい夢を見る枕",

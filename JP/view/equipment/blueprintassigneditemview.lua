@@ -40,7 +40,7 @@ function slot0.OnInit(slot0)
 		if not uv0.isAllNeedZero and slot2 < slot1 then
 			table.insert(slot3, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("blueprint_select_overflow_tip", HXSet.hxLan(uv0.cfg.name), uv1 - uv2),
+					content = i18n("blueprint_select_overflow_tip", uv0.cfg.name, uv1 - uv2),
 					onYes = slot0
 				})
 			end)
@@ -140,7 +140,7 @@ function slot0.update(slot0, slot1)
 				end
 			end, SFX_PANEL)
 			triggerToggle(slot2, slot1 == 1)
-			setScrollText(slot2:Find("name_bg/Text"), HXSet.hxLan(uv0.displayDrops[slot1].cfg.name))
+			setScrollText(slot2:Find("name_bg/Text"), uv0.displayDrops[slot1].cfg.name)
 
 			uv0.selectedItem = uv0.selectedItem or slot2
 

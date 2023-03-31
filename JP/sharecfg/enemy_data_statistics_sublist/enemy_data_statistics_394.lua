@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.enemy_data_statistics_394 = {
+	[295009] = {
+		cannon = 175,
+		name = "飛龍(META)-Tier.9",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 400,
+		hit_growth = 0,
+		dodge = 13,
+		base = 90494,
+		durability_growth = 0,
+		antiaircraft = 302,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 14,
+		hit = 65,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 390000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295009,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
 	[295010] = {
 		cannon = 185,
 		name = "飛龍(META)-Tier.10",
@@ -713,42 +749,6 @@ pg.enemy_data_statistics_394 = {
 		armor = 0,
 		antisub = 0,
 		id = 295029,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295030] = {
-		cannon = 255,
-		name = "アーク・ロイヤル(META)-Tier.15",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 475,
-		hit_growth = 0,
-		dodge = 15,
-		base = 90521,
-		durability_growth = 0,
-		antiaircraft = 396,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 20,
-		hit = 105,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability = 1420000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		id = 295030,
 		buff_list = {
 			{
 				ID = 8830,

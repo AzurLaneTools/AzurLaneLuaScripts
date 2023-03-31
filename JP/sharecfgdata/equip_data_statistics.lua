@@ -141494,14 +141494,93 @@ _G.pg.base.equip_data_statistics[630060] = {
 	label = {}
 }
 
+_G.pg.base.equip_data_statistics[630061] = {
+	type = 11,
+	name = "【愚人节活动2023】彩布里 锤子主炮",
+	speciality = "跨射",
+	tech = 3,
+	rarity = 4,
+	ammo = 1,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630061,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630061
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[630062] = {
+	type = 2,
+	name = "【愚人节活动2023】彩布里 兵装效果",
+	speciality = "跨射",
+	tech = 3,
+	rarity = 4,
+	ammo = 1,
+	nationality = 1,
+	descrip = "说明未填写",
+	id = 630062,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "12100",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {},
+	equip_info = {
+		{
+			6
+		}
+	},
+	weapon_id = {
+		630062
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		2
+	},
+	part_sub = {
+		5
+	},
+	equip_parameters = {},
+	label = {}
+}
+
 _G.pg.base.equip_data_statistics[630221] = {
-	tech = 1,
+	type = 4,
 	name = "【2022异世界勇者】拉菲-兔兔火球主炮",
 	speciality = "跨射",
-	type = 4,
+	tech = 1,
 	rarity = 1,
 	ammo = 5,
-	damage = "16 x 2",
 	nationality = 0,
 	descrip = "默认装备",
 	id = 630221,

@@ -340,7 +340,7 @@ function slot0.updateTaskListPanel(slot0, slot1)
 				setText(slot5, slot9 .. "/" .. slot11)
 			end
 
-			setText(slot3, HXSet.hxLan(pg.task_meta_data_template[slot7].desc))
+			setText(slot3, pg.task_meta_data_template[slot7].desc)
 		end
 	end)
 	slot0.taskUIItemList:align(#slot0:sortTaskConfig(slot1, slot0:getMetaSkillTacticsConfigBySkillID(slot1, slot0.curShipVO:getMetaSkillLevelBySkillID(slot1)).skill_levelup_task))
@@ -447,7 +447,7 @@ function slot0.openUnlockSkillPanel(slot0, slot1)
 	slot2 = slot0.curShipVO
 	slot0.curUnlockSkillID = slot1
 
-	setText(slot0.skillUnlockPanelTipText, i18n("meta_unlock_skill_tip", HXSet.hxLan(ShipGroup.getDefaultShipNameByGroupID(slot0.curMetaCharacterVO.id)), getSkillName(slot1)))
+	setText(slot0.skillUnlockPanelTipText, i18n("meta_unlock_skill_tip", ShipGroup.getDefaultShipNameByGroupID(slot0.curMetaCharacterVO.id), getSkillName(slot1)))
 
 	slot6 = slot0:getMetaSkillTacticsConfigBySkillID(slot1, 1)
 	slot7 = slot6.skill_unlock

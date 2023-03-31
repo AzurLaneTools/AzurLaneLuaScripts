@@ -18,7 +18,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 		MainActBackHillBtn.New(slot3, slot2),
 		MainActAtelierBtn.New(slot3, slot2),
 		MainLanternFestivalBtn.New(slot3, slot2),
-		MainActBossRushBtn.New(slot3, slot2)
+		MainActBossRushBtn.New(slot3, slot2),
+		MainActAprilFoolBtn.New(slot3, slot2)
 	}
 	slot0.specailBtns = {
 		MainActInsBtn.New(slot3.parent, slot2),

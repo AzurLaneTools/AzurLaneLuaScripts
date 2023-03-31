@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.enemy_data_statistics_359 = {
+	[16513102] = {
+		cannon = 74,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 936,
+		battle_unit_type = 55,
+		air = 0,
+		base = 90613,
+		dodge = 11,
+		durability_growth = 33600,
+		antiaircraft = 255,
+		speed = 24,
+		reload_growth = 0,
+		dodge_growth = 162,
+		luck = 0,
+		antiaircraft_growth = 3744,
+		hit = 25,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 112,
+		durability = 5270,
+		armor_growth = 0,
+		torpedo_growth = 3366,
+		luck_growth = 0,
+		hit_growth = 210,
+		armor = 0,
+		antisub = 0,
+		id = 16513102,
+		equipment_list = {
+			1004118,
+			1004123,
+			1004128,
+			1004133
+		}
+	},
 	[16513103] = {
 		cannon = 102,
 		reload = 150,
@@ -773,53 +809,6 @@ pg.enemy_data_statistics_359 = {
 			3059326,
 			3059327,
 			3059328
-		}
-	},
-	[16514303] = {
-		cannon = 320,
-		name = "特殊駒-セヴァストポリ",
-		speed_growth = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		hit_growth = 320,
-		dodge = 24,
-		base = 90753,
-		antiaircraft = 390,
-		speed = 18,
-		reload_growth = 0,
-		dodge_growth = 228,
-		luck = 30,
-		battle_unit_type = 95,
-		hit = 30,
-		antisub_growth = 0,
-		air_growth = 0,
-		antisub = 0,
-		torpedo = 180,
-		durability = 155000,
-		armor_growth = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		torpedo_growth = 0,
-		air = 300,
-		id = 16514303,
-		fog_fx = "",
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			3059341,
-			3059342,
-			3059343,
-			3059344,
-			3059345,
-			3059346,
-			3059347,
-			3059348,
-			3059349
 		}
 	}
 }
