@@ -485,7 +485,7 @@ pg.login = {
 		op_play = 0,
 		op_time = "",
 		login_cri = "loginbg_230401",
-		bgm = "",
+		bgm = "login-2022401jp",
 		date = {
 			"timer",
 			{
