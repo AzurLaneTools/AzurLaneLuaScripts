@@ -196,7 +196,7 @@ function slot0.getStory(slot0, slot1, slot2)
 	slot4 = pg.NewStoryMgr.GetInstance()
 
 	slot4:SetPlayedFlag(slot2)
-	setText(slot0:findTF("bar/Anim/Frame/Mask/Name", slot0.storyTip), HXSet.hxLan(pg.memory_template[slot1].title))
+	setText(slot0:findTF("bar/Anim/Frame/Mask/Name", slot0.storyTip), pg.memory_template[slot1].title)
 	removeOnButton(slot0.storyTip)
 	removeOnButton(slot0:findTF("bar/Button", slot0.storyTip))
 

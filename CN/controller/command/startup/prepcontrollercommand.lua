@@ -417,6 +417,7 @@ function slot0.execute(slot0, slot1)
 	slot0.facade:registerCommand(GAME.UPDATE_ATELIER_BUFF, AtelierRefreshBuffCommand)
 	slot0.facade:registerCommand(GAME.BOSSRUSH_TRACE, BossRushTracingCommand)
 	slot0.facade:registerCommand(GAME.BOSSRUSH_SETTLE, BossRushSettlementCommand)
+	slot0.facade:registerCommand(GAME.SURVEY_REQUEST, SurveyCommand)
 end
 
 return slot0

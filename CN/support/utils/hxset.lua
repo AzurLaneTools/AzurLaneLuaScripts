@@ -68,22 +68,22 @@ function slot0.calcLocalizationUse()
 		end
 
 		slot1 = pg.TimeMgr.GetInstance()
-		slot3 = PlayerPrefs.GetInt("localization_time_1", 0)
+		slot4 = PlayerPrefs.GetInt("localization_time_1_" .. getProxy(PlayerProxy):getData().id, 0)
 
-		if uv0.codeMode and not slot1.IsSameDay(slot1, slot3, slot1.GetServerTime(slot1)) then
+		if uv0.codeMode and not slot1.IsSameDay(slot1, slot4, slot1.GetServerTime(slot1)) then
 			pg.m02:sendNotification(GAME.CHEATER_MARK, {
 				reason = CC_TYPE_99
 			})
-			PlayerPrefs.SetInt(slot2, slot1:GetServerTime())
+			PlayerPrefs.SetInt(slot3, slot1:GetServerTime())
 		end
 
-		slot5 = PlayerPrefs.GetInt("localization_time_2", 0)
+		slot6 = PlayerPrefs.GetInt("localization_time_2_" .. slot2, 0)
 
-		if uv0.antiSkinMode and not slot1.IsSameDay(slot1, slot5, slot1.GetServerTime(slot1)) then
+		if uv0.antiSkinMode and not slot1.IsSameDay(slot1, slot6, slot1.GetServerTime(slot1)) then
 			pg.m02:sendNotification(GAME.CHEATER_MARK, {
 				reason = CC_TYPE_100
 			})
-			PlayerPrefs.SetInt(slot4, slot1:GetServerTime())
+			PlayerPrefs.SetInt(slot5, slot1:GetServerTime())
 		end
 	end
 end
@@ -241,7 +241,8 @@ slot0.hxPathList = {
 	"shipmodels",
 	"technologycard",
 	"shipdesignicon",
-	"herohrzicon"
+	"herohrzicon",
+	"skinunlockanim"
 }
 slot0.folderBundle = {
 	"paintingface"

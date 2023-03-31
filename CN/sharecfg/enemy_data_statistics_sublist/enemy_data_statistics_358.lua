@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.enemy_data_statistics_358 = {
+	[16500122] = {
+		cannon = 20,
+		name = "埃米尔统御武装-「铁卫」",
+		type = 2,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 11,
+		speed = 25,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 162,
+		antiaircraft_growth = 3744,
+		reload = 150,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 936,
+		base = 90742,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 3366,
+		antiaircraft = 28,
+		hit_growth = 210,
+		armor = 0,
+		durability = 630,
+		torpedo = 27,
+		id = 16500122,
+		durability_growth = 23120,
+		luck_growth = 0,
+		battle_unit_type = 55,
+		specific_fx_scale = {
+			yuanchou_tianping = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_tianping"
+		},
+		equipment_list = {
+			1100025,
+			1100105,
+			1100190,
+			1100475
+		}
+	},
 	[16500123] = {
 		cannon = 24,
 		name = "埃米尔统御武装-「侵袭」",
@@ -926,49 +973,6 @@ pg.enemy_data_statistics_358 = {
 			1000711,
 			1000716,
 			1000721
-		}
-	},
-	[16501102] = {
-		cannon = 20,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 936,
-		battle_unit_type = 55,
-		air = 0,
-		base = 90249,
-		dodge = 11,
-		durability_growth = 30500,
-		antiaircraft = 28,
-		speed = 25,
-		reload_growth = 0,
-		dodge_growth = 162,
-		luck = 0,
-		antisub = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 3744,
-		torpedo = 27,
-		durability = 760,
-		armor_growth = 0,
-		torpedo_growth = 3366,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		fog_fx = "",
-		id = 16501102,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000681,
-			1000686,
-			1000691,
-			1000696
 		}
 	}
 }

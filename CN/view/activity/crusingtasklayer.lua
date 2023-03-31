@@ -270,7 +270,7 @@ function slot0.updateTaskGroup(slot0, slot1, slot2)
 end
 
 function slot0.updateTaskDisplay(slot0, slot1, slot2)
-	setText(slot1:Find("desc"), HXSet.hxLan(slot2:getConfig("desc")))
+	setText(slot1:Find("desc"), slot2:getConfig("desc"))
 
 	slot3 = slot2:getProgress()
 	slot4 = slot2:getConfig("target_num")

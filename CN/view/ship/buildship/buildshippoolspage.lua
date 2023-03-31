@@ -181,7 +181,7 @@ function slot0.SwitchPool(slot0, slot1)
 	slot0:findTF("gallery/bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/BuildShipUI_atlas", "sub_title_" .. slot1:GetMark())
 	slot0:findTF("gallery/bg"):GetComponent(typeof(Image)).sprite = LoadSprite(slot2:getBuildActivityCfgByID(slot1:getConfigTable().id) and slot7.bg or "loadingbg/bg_" .. slot6.icon)
 
-	slot0.tipSTxt:SetText(HXSet.hxLan(slot7 and slot7.buildship_tip or i18n("buildship_" .. slot4 .. "_tip")))
+	slot0.tipSTxt:SetText(slot7 and slot7.buildship_tip or i18n("buildship_" .. slot4 .. "_tip"))
 	setText(slot0:findTF("gallery/item_bg/item/Text"), slot6.number_1)
 	setText(slot0:findTF("gallery/item_bg/gold/Text"), slot6.use_gold)
 	slot0:UpdateBuildPoolExchange(slot1)
@@ -284,7 +284,7 @@ function slot0.UpdateBuildPoolExchange(slot0, slot1)
 		setActive(slot0.buildPoolExchangeGetBtnMark, slot11)
 
 		slot0.buildPoolExchangeGetTxt.text = slot9 .. "/" .. slot4
-		slot0.buildPoolExchangeName.text = SwitchSpecialChar(HXSet.hxLan(pg.ship_data_statistics[slot5].name), true)
+		slot0.buildPoolExchangeName.text = SwitchSpecialChar(pg.ship_data_statistics[slot5].name, true)
 		slot13 = pg.ship_data_statistics[slot5].rarity
 
 		eachChild(slot0.buildPoolExchangeTF:Find("bg"), function (slot0)

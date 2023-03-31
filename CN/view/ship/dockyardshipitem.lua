@@ -42,17 +42,13 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.selectedGo:SetActive(false)
 
 	slot0.hpBar = findTF(slot0.tr, "content/dockyard/blood")
-	slot0.duang6tuzhi = findTF(slot0.tr, "content/duang_6_tuzhi")
 	slot0.expBuff = findTF(slot0.tr, "content/expbuff")
 	slot0.intimacyTF = findTF(slot0.tr, "content/intimacy")
 	slot0.detailType = uv0.DetailType0
+	slot0.proposeModel = slot0.proposeTF:Find("heartShipCard(Clone)")
 
-	if slot0.proposeTF.childCount > 0 then
-		slot0.proposeModel = slot0.proposeTF:GetChild(0)
-
-		if slot0.proposeModel then
-			slot0.sg = GetComponent(slot0.proposeModel, "SkeletonGraphic")
-		end
+	if slot0.proposeModel then
+		slot0.sg = GetComponent(slot0.proposeModel, "SkeletonGraphic")
 	end
 
 	slot0.activityProxy = getProxy(ActivityProxy)
@@ -143,7 +139,7 @@ function slot0.flush(slot0)
 		end
 
 		setActive(slot0.energyTF, slot5)
-		setText(slot0.nameTF, shortenString(slot1:getName(), PLATFORM_CODE == PLATFORM_US and 6 or 7))
+		setText(slot0.nameTF, slot1:GetColorName(shortenString(slot1:getName(), PLATFORM_CODE == PLATFORM_US and 6 or 7)))
 
 		slot6 = nil
 
@@ -172,28 +168,25 @@ function slot0.flush(slot0)
 		end
 
 		if not LOCK_PROPOSE then
-			if slot0.proposeTF.childCount == 0 then
-				if slot0:CheckHeartState() and not slot0.heartLoading then
-					slot0.heartLoading = true
+			if slot0.proposeModel then
+				slot0.sg.enabled = slot0:CheckHeartState()
+			elseif slot0:CheckHeartState() and not slot0.heartLoading then
+				slot0.heartLoading = true
+				slot7 = pg.PoolMgr.GetInstance()
 
-					LoadAndInstantiateAsync("UI", "heartShipCard", function (slot0)
+				slot7:GetUI("heartShipCard", false, function (slot0)
+					if uv0.proposeModel then
+						pg.PoolMgr.GetInstance():ReturnUI("heartShipCard", slot0)
+					else
 						uv0.proposeModel = slot0
 						uv0.sg = GetComponent(uv0.proposeModel, "SkeletonGraphic")
 
 						uv0.proposeModel.transform:SetParent(uv0.proposeTF, false)
 
-						slot1 = GetComponent(uv0.proposeModel, typeof(RectTransform))
-						slot1.localScale = Vector3(0.5, 0.5, 0.5)
-						slot1.rect.height = 40
-						slot1.rect.width = 40
-						slot1.localPosition = Vector3(0, 0, 0)
-						slot1.localRotation = Vector3(0, 0, 0)
 						uv0.sg.enabled = uv0:CheckHeartState()
 						uv0.heartLoading = false
-					end)
-				end
-			else
-				slot0.sg.enabled = slot0:CheckHeartState()
+					end
+				end)
 			end
 		end
 

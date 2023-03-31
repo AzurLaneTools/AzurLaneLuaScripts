@@ -34,7 +34,7 @@ function slot0.execute(slot0, slot1)
 
 			uv2:updateFleet(uv0)
 
-			if #uv0.ships == 0 and uv3.combatFleetId == uv0.id then
+			if uv0:isEmpty() and uv3.combatFleetId == uv0.id then
 				uv3.combatFleetId = 1
 			end
 

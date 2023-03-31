@@ -84,7 +84,7 @@ function slot0.init(slot0)
 			slot7 = uv0.targetList[slot1]:IsAchieved()
 			slot8 = not slot4 or slot7 or uv0.showHiddenDesc
 
-			setText(slot5:Find("desc"), slot8 and HXSet.hxLan(slot6.config.target_desc) or "???")
+			setText(slot5:Find("desc"), slot8 and slot6.config.target_desc or "???")
 			setText(slot5:Find("progress"), slot8 and slot6:GetProgress() .. "/" .. slot6:GetMaxProgress() or "")
 			setActive(slot5:Find("finish_mark/Image"), slot7)
 

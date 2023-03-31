@@ -3291,6 +3291,41 @@ _G.pg.base.spweapon_data_statistics[1080230] = {
 	level = 11
 }
 
+_G.pg.base.spweapon_data_statistics[9000] = {
+	tech = 0,
+	name = "超级彩虹锤1号",
+	value_2_random = 0,
+	type = 1,
+	value_1_random = 0,
+	value_1 = 99,
+	effect_id_display = 902190,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
+	uncraftable = 1,
+	next = 0,
+	upgrade_id = 101,
+	value_2 = 9,
+	icon = "9000",
+	effect_id = 902190,
+	attribute_2 = "luck",
+	id = 9000,
+	rarity = 4,
+	unique = 10002,
+	important = 2,
+	prev = 0,
+	attribute_1 = "durability",
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			9036,
+			9037
+		}
+	},
+	label = {}
+}
+
 _G.pg.base.spweapon_data_statistics[10000] = {
 	tech = 0,
 	name = "勇敢的美梦之枕",
@@ -9012,4 +9047,39 @@ _G.pg.base.spweapon_data_statistics[10750] = {
 			1010670
 		}
 	}
+}
+
+_G.pg.base.spweapon_data_statistics[10760] = {
+	tech = 0,
+	name = "韩服布里兵装占坑正常不显示",
+	value_2_random = 0,
+	type = 1,
+	value_1_random = 0,
+	value_1 = 99,
+	effect_id_display = 901010,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装 ",
+	uncraftable = 1,
+	next = 0,
+	upgrade_id = 101,
+	value_2 = 99,
+	icon = "10760",
+	effect_id = 901010,
+	attribute_2 = "torpedo",
+	id = 10760,
+	rarity = 4,
+	unique = 100,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			9036,
+			9037
+		}
+	},
+	label = {}
 }

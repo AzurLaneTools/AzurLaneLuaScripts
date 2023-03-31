@@ -45,9 +45,7 @@ slot2 = {
 }
 
 function slot0.didEnter(slot0)
-	slot1 = pg.UIMgr.GetInstance()
-
-	slot1:BlurPanel(slot0._tf, true, {
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, true, {
 		lockGlobalBlur = true,
 		groupName = LayerWeightConst.GROUP_COMBAT
 	})
@@ -56,83 +54,101 @@ function slot0.didEnter(slot0)
 	slot2 = slot1:GetBattleStatistics()
 	slot3 = slot1:GetFinalResults()
 	slot4 = slot1:GetFleets()
-	slot5 = slot1:GetExpeditionIds()
 	slot6 = slot4[#slot4]
 	slot7 = slot6:getTeamByName(TeamType.Submarine)
 	slot8 = slot6:GetRawCommanderIds()
 	slot9 = {}
 	slot10 = {}
 
-	table.Ipars(slot3, function (slot0, slot1)
-		slot2 = {
-			index = slot0,
-			oldShips = {},
-			ships = {},
-			oldCmds = {},
-			cmds = {},
-			mvp = slot1.mvp
-		}
-
-		table.Foreach(slot1.newShips, function (slot0, slot1)
-			if table.contains(uv0, slot1.id) then
-				table.insert(uv1.ships, slot1)
-
-				uv1.oldShips[slot1.id] = uv2.oldShips[slot1.id]
-			else
-				table.insert(uv3.ships, slot1)
-
-				uv3.oldShips[slot1.id] = uv2.oldShips[slot1.id]
-			end
-		end)
-		table.Foreach(slot1.newCmds, function (slot0, slot1)
-			if table.contains(uv0, slot1.id) then
-				table.insert(uv1.cmds, slot1)
-
-				uv1.oldCmds[slot1.id] = uv2.oldCmds[slot1.id]
-			else
-				table.insert(uv3.cmds, slot1)
-
-				uv3.oldCmds[slot1.id] = uv2.oldCmds[slot1.id]
-			end
-		end)
-
-		uv2[slot0] = slot2
-
-		if next(Clone(slot2).ships) then
-			table.insert(uv3, slot3)
-		end
-	end)
-
-	for slot14 = #slot3 + 1, #slot4 - 1 do
+	for slot14 = 1, #slot1:GetExpeditionIds() do
 		slot15 = slot4[slot14]
 
 		if slot1:GetMode() == BossRushSeriesData.MODE.SINGLE then
 			slot15 = slot4[1]
 		end
 
-		table.Foreach(slot15:GetRawShipIds(), function (slot0, slot1)
-			slot2 = getProxy(BayProxy):getShipById(slot1)
-
-			table.insert(uv0.ships, slot2)
-
-			uv0.oldShips[slot2.id] = slot2
-		end)
-		table.Foreach(slot15:GetRawCommanderIds(), function (slot0, slot1)
-			slot2 = getProxy(CommanderProxy):getCommanderById(slot1)
-
-			table.insert(uv0.cmds, slot2)
-
-			uv0.oldCmds[slot2.id] = slot2
-		end)
-
-		slot9[slot14] = {
-			mvp = 0,
+		slot17 = {
 			index = slot14,
 			oldShips = {},
 			ships = {},
 			oldCmds = {},
-			cmds = {}
+			cmds = {},
+			mvp = slot3[slot14] and slot16.mvp or 0
 		}
+
+		table.Foreach(slot15:getShipIds(), function (slot0, slot1)
+			if uv0 <= #uv1 then
+				if uv2.newShips[slot1] then
+					table.insert(uv3.ships, slot2)
+
+					uv3.oldShips[slot1] = uv2.oldShips[slot1]
+				end
+			else
+				slot2 = getProxy(BayProxy):getShipById(slot1)
+
+				table.insert(uv3.ships, slot2)
+
+				uv3.oldShips[slot1] = slot2
+			end
+		end)
+		table.Foreach(slot7, function (slot0, slot1)
+			if uv0 <= #uv1 and uv2.newShips[slot1] then
+				table.insert(uv3.ships, slot2)
+
+				uv3.oldShips[slot1] = uv2.oldShips[slot1]
+			end
+		end)
+
+		slot19 = slot15:GetRawCommanderIds()
+
+		_.each({
+			1,
+			2
+		}, function (slot0)
+			if uv0[slot0] or false then
+				if uv1 <= #uv2 then
+					if uv3.newCmds[slot1] then
+						table.insert(uv4.cmds, slot2)
+
+						uv4.oldCmds[slot1] = uv3.oldCmds[slot1]
+					end
+				else
+					slot2 = getProxy(CommanderProxy):getCommanderById(slot1)
+
+					table.insert(uv4.cmds, slot2)
+
+					uv4.oldCmds[slot1] = slot2
+				end
+			else
+				table.insert(uv4.cmds, false)
+			end
+		end)
+		_.each({
+			1,
+			2
+		}, function (slot0)
+			slot1 = uv0[slot0] or false
+
+			if uv1 <= #uv2 then
+				if slot1 then
+					if uv3.newCmds[slot1] then
+						table.insert(uv4.cmds, slot2)
+
+						uv4.oldCmds[slot2.id] = uv3.oldCmds[slot1]
+					else
+						table.insert(uv4.cmds, false)
+					end
+				else
+					table.insert(uv4.cmds, false)
+				end
+			end
+		end)
+
+		slot9[slot14] = slot17
+
+		if next(Clone(slot17).ships) then
+			table.insert(slot10, slot18)
+		end
 	end
 
 	slot11 = 0
@@ -144,24 +160,22 @@ function slot0.didEnter(slot0)
 				return
 			end
 
-			slot3 = slot1 + 1 > #uv0
+			slot4 = not uv0[slot1 + 1]
 
-			setActive(slot2:Find("empty"), slot3)
-			setActive(slot2:Find("exp"), not slot3)
+			setActive(slot2:Find("empty"), slot4)
+			setActive(slot2:Find("exp"), not slot4)
 
-			if slot3 then
+			if slot4 then
 				return
 			end
 
-			slot4 = uv0[slot1 + 1]
-
-			GetImageSpriteFromAtlasAsync("commandericon/" .. slot4:getPainting(), "", slot2:Find("exp/icon"))
-			setText(slot2:Find("exp/name_text"), slot4:getName())
-			setText(slot2:Find("exp/lv_text"), "Lv." .. slot4.level)
-			setText(slot2:Find("exp/exp_text"), "+" .. math.max(0, uv1[slot4.id].expAdd or 0))
+			GetImageSpriteFromAtlasAsync("commandericon/" .. slot3:getPainting(), "", slot2:Find("exp/icon"))
+			setText(slot2:Find("exp/name_text"), slot3:getName())
+			setText(slot2:Find("exp/lv_text"), "Lv." .. slot3.level)
+			setText(slot2:Find("exp/exp_text"), "+" .. math.max(0, uv1[slot3.id].expAdd or 0))
 
 			slot8 = nil
-			slot2:Find("exp/exp_progress"):GetComponent(typeof(Image)).fillAmount = slot4:isMaxLevel() and 1 or slot4.exp / slot4:getNextLevelExp()
+			slot2:Find("exp/exp_progress"):GetComponent(typeof(Image)).fillAmount = slot3:isMaxLevel() and 1 or slot3.exp / slot3:getNextLevelExp()
 		end)
 	end
 

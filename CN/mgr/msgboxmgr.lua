@@ -185,7 +185,7 @@ function slot5(slot0, slot1)
 	SetActive(slot0._exchangeShipPanel:Find("intro_view/Viewport/intro"), slot1.drop.type == DROP_TYPE_SHIP or slot1.drop.type == DROP_TYPE_RESOURCE or slot1.drop.type == DROP_TYPE_ITEM or slot1.drop.type == DROP_TYPE_FURNITURE or slot1.drop.type == DROP_TYPE_STRATEGY or slot1.drop.type == DROP_TYPE_SKIN or slot1.drop.type == DROP_TYPE_SKIN_TIMELIMIT)
 	setActive(slot0.singleItemIntro, slot0.settings.numUpdate == nil)
 	setActive(slot0._countDescTxt, slot3 ~= nil)
-	setText(slot0._exchangeShipPanel:Find("name_mode/name"), HXSet.hxLan(slot1.name or slot1.drop.cfg.name or ""))
+	setText(slot0._exchangeShipPanel:Find("name_mode/name"), slot1.name or slot1.drop.cfg.name or "")
 	setText(slot0._exchangeShipPanel:Find("name_mode/name/name"), getText(slot0._exchangeShipPanel:Find("name_mode/name")))
 
 	slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(uv0.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
@@ -332,7 +332,7 @@ function slot8(slot0, slot1)
 
 	setActive(slot0._countDescTxt, slot0.settings.numUpdate ~= nil)
 	SetActive(slot0.singleItemIntro, slot8 == nil)
-	setScrollText(slot0._sigleItemPanel:Find("name_mode/name_mask/name"), HXSet.hxLan(slot1.name or slot1.drop.cfg.name or ""))
+	setScrollText(slot0._sigleItemPanel:Find("name_mode/name_mask/name"), slot1.name or slot1.drop.cfg.name or "")
 	setParent(slot0._singleItemshipTypeTF, slot0._sigleItemPanel:Find("name_mode"))
 	slot0._singleItemshipTypeTF:SetSiblingIndex(1)
 	setActive(slot0._singleItemshipTypeBgTF, isActive(slot0._singleItemshipTypeTF))
@@ -472,17 +472,17 @@ function slot8(slot0, slot1)
 	if slot1.content and slot1.content ~= "" then
 		setText(slot6, slot1.content)
 	elseif slot1.drop.type == DROP_TYPE_RESOURCE then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot6, slot1.drop.cfg.display)
 	elseif slot1.drop.type == DROP_TYPE_ITEM then
 		slot12 = slot1.drop.cfg.display
 
 		if slot1.drop.cfg.type == Item.LOVE_LETTER_TYPE then
-			slot12 = HXSet.hxLan(string.gsub(slot12, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.extra)))
+			slot12 = string.gsub(slot12, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.extra))
 		end
 
-		setText(slot6, SwitchSpecialChar(HXSet.hxLan(slot12), true))
+		setText(slot6, SwitchSpecialChar(slot12, true))
 	elseif slot1.drop.type == DROP_TYPE_FURNITURE then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.describe))
+		setText(slot6, slot1.drop.cfg.describe)
 	elseif slot1.drop.type == DROP_TYPE_SHIP then
 		slot13, slot14, slot15 = ShipWordHelper.GetWordAndCV(uv0.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
@@ -502,21 +502,21 @@ function slot8(slot0, slot1)
 			slot12 = string.gsub(slot12, "$" .. slot16, slot17)
 		end
 
-		setText(slot6, HXSet.hxLan(slot12))
+		setText(slot6, slot12)
 
 		if slot1.extendDesc then
 			setText(cloneTplTo(slot6, slot6.parent), slot1.extendDesc)
 		end
 	elseif slot1.drop.type == DROP_TYPE_SKIN or slot1.drop.type == DROP_TYPE_SKIN_TIMELIMIT then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.desc))
+		setText(slot6, slot1.drop.cfg.desc)
 	elseif slot1.drop.type == DROP_TYPE_EQUIPMENT_SKIN then
 		setText(slot6, slot1.drop.cfg.desc .. "\n\n" .. i18n("word_fit") .. ": " .. table.concat(_.map(slot1.drop.cfg.equip_type, function (slot0)
 			return EquipType.Type2Name2(slot0)
 		end), ","))
 	elseif slot1.drop.type == DROP_TYPE_VITEM then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot6, slot1.drop.cfg.display)
 	elseif slot1.drop.type == DROP_TYPE_WORLD_ITEM then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot6, slot1.drop.cfg.display)
 	elseif slot1.drop.type == DROP_TYPE_WORLD_COLLECTION then
 		slot13 = WorldCollectionProxy.GetCollectionType(slot1.drop.id) == WorldCollectionProxy.WorldCollectionType.FILE and "file" or "record"
 
@@ -531,11 +531,11 @@ function slot8(slot0, slot1)
 	elseif slot1.drop.type == DROP_TYPE_LOVE_LETTER then
 		desc = string.gsub(slot1.drop.cfg.display, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.count))
 
-		setText(slot6, SwitchSpecialChar(HXSet.hxLan(desc), true))
+		setText(slot6, SwitchSpecialChar(desc, true))
 	elseif slot1.drop.type == DROP_TYPE_META_PT then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot6, slot1.drop.cfg.display)
 	elseif slot1.drop.type == DROP_TYPE_RYZA_DROP then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot6, slot1.drop.cfg.display)
 	else
 		assert(false, "can not handle this type>>" .. slot1.drop.type)
 	end
@@ -664,9 +664,9 @@ function slot9(slot0, slot1)
 			slot10:AddSprite(slot11, GetSpriteFromAtlas(slot7.rawIcon.atlas, slot11))
 			setText(slot8, "")
 
-			slot10.text = HXSet.hxLan(string.format("<icon name=%s w=0.7 h=0.7/>%s", slot11, slot7.info or ""))
+			slot10.text = string.format("<icon name=%s w=0.7 h=0.7/>%s", slot11, slot7.info or "")
 		else
-			setText(slot8, HXSet.hxLan(slot7.info and SwitchSpecialChar(slot7.info, true) or ""))
+			setText(slot8, slot7.info and SwitchSpecialChar(slot7.info, true) or "")
 		end
 
 		setActive(slot10.gameObject, slot7.rawIcon)
@@ -830,7 +830,7 @@ function slot12(slot0, slot1)
 			slot5 = slot3[2]
 			slot6 = slot3[3]
 
-			slot2:Find("mask/title"):GetComponent("ScrollText"):SetText(HXSet.hxLan(slot3[1]))
+			slot2:Find("mask/title"):GetComponent("ScrollText"):SetText(slot3[1])
 			setActive(slot2:Find("skip_btn"), uv1 and slot5[1] ~= "" and slot5[1] ~= "COLLECTSHIP")
 
 			if slot5[1] ~= "" then

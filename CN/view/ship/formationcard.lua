@@ -18,6 +18,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.frame = slot0.content:Find("front/frame")
 	slot0.UIlist = UIItemList.New(slot0.content:Find("front/stars"), slot0.content:Find("front/stars/star_tpl"))
 	slot0.shipState = slot0.content:Find("front/flag")
+	slot0.proposeMark = slot0.content:Find("front/propose")
 	slot0.otherBg = slot0.content:Find("front/bg_other")
 
 	setActive(slot0.propsTr1, false)
@@ -49,49 +50,20 @@ function slot0.flush(slot0)
 		end
 	end)
 	slot0.UIlist:align(slot1:getMaxStar())
-	setScrollText(slot0.nameTxt, slot1:getName())
+	setScrollText(slot0.nameTxt, slot1:GetColorName())
 	slot0:updateProps({})
 	setPaintingPrefabAsync(slot0.paintingTr, slot1:getPainting(), "biandui")
 
-	slot4 = slot0.shipVO:rarity2bgPrint()
-	slot5 = nil
+	slot4 = slot1:rarity2bgPrint()
 
-	setRectShipCardFrame(slot0.frame, slot4, slot1:ShowPropose() and "prop" .. (slot1:isBluePrintShip() and slot4 or slot1:isMetaShip() and "14" or "") or nil)
 	GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. slot4, "", slot0.bgImage)
+
+	slot5, slot6 = slot1:GetFrameAndEffect(true)
+
+	setRectShipCardFrame(slot0.frame, slot4, slot5)
+	setFrameEffect(slot0.otherBg, slot6)
+	setProposeMarkIcon(slot0.proposeMark, slot1)
 	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", shipType2print(slot0.shipVO:getShipType())))
-
-	slot7 = nil
-	slot8 = false
-
-	if slot1:ShowPropose() then
-		if slot1:isMetaShip() then
-			slot7 = "duang_meta_jiehun_1"
-		else
-			slot7 = "duang_6_jiehun" .. (slot1:isBluePrintShip() and "_tuzhi" or "") .. "_1"
-		end
-	elseif slot1:isMetaShip() then
-		slot7 = "duang_meta_b" .. slot4
-	elseif slot1:getRarity() == 6 then
-		slot7 = "duang_6_1"
-	end
-
-	if slot7 then
-		eachChild(slot0.otherBg, function (slot0)
-			setActive(slot0, slot0.name == uv0 .. "(Clone)")
-
-			uv1 = uv1 or slot0.name == uv0 .. "(Clone)"
-		end)
-
-		if not slot8 then
-			slot9 = slot0.loader
-
-			slot9:GetPrefab("effect/" .. slot7, "", function (slot0)
-				setParent(slot0, uv0.otherBg)
-			end, "OtherBGEffect")
-		end
-	end
-
-	setActive(slot0.otherBg, slot7)
 end
 
 function slot0.updateProps(slot0, slot1)

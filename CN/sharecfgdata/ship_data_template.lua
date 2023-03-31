@@ -128,7 +128,9 @@ _G.pg.base.ship_data_template[100021] = {
 	buff_list_display = {
 		16
 	},
-	hide_buff_list = {}
+	hide_buff_list = {
+		9036
+	}
 }
 
 _G.pg.base.ship_data_template[101021] = {
@@ -103796,6 +103798,139 @@ _G.pg.base.ship_data_template[900374] = {
 		2,
 		340
 	}
+}
+
+_G.pg.base.ship_data_template[900375] = {
+	oil_at_end = 3,
+	star_max = 4,
+	oil_at_start = 1,
+	type = 1,
+	max_level = 100,
+	strengthen_id = 10000,
+	equip_id_3 = 0,
+	equip_id_2 = 0,
+	equip_id_1 = 0,
+	group_type = 10000,
+	id = 900375,
+	can_get_proficency = 1,
+	star = 4,
+	energy = 150,
+	specific_type = {},
+	equip_1 = {
+		1
+	},
+	equip_2 = {
+		6
+	},
+	equip_3 = {
+		6
+	},
+	equip_4 = {
+		10,
+		14
+	},
+	equip_5 = {
+		10,
+		14
+	},
+	airassist_time = {},
+	buff_list = {
+		14
+	},
+	buff_list_display = {
+		14
+	},
+	hide_buff_list = {
+		9033
+	}
+}
+
+_G.pg.base.ship_data_template[900376] = {
+	oil_at_end = 3,
+	star_max = 5,
+	oil_at_start = 1,
+	type = 1,
+	max_level = 100,
+	strengthen_id = 10001,
+	equip_id_3 = 0,
+	equip_id_2 = 0,
+	equip_id_1 = 0,
+	group_type = 10001,
+	id = 900376,
+	can_get_proficency = 1,
+	star = 5,
+	energy = 150,
+	specific_type = {},
+	equip_1 = {
+		1
+	},
+	equip_2 = {
+		6
+	},
+	equip_3 = {
+		6
+	},
+	equip_4 = {
+		10,
+		14
+	},
+	equip_5 = {
+		10,
+		14
+	},
+	airassist_time = {},
+	buff_list = {
+		15
+	},
+	buff_list_display = {
+		15
+	},
+	hide_buff_list = {
+		9030
+	}
+}
+
+_G.pg.base.ship_data_template[900377] = {
+	oil_at_end = 3,
+	star_max = 6,
+	oil_at_start = 1,
+	type = 1,
+	max_level = 100,
+	strengthen_id = 10002,
+	equip_id_3 = 0,
+	equip_id_2 = 0,
+	equip_id_1 = 0,
+	group_type = 10002,
+	id = 900377,
+	can_get_proficency = 1,
+	star = 6,
+	energy = 150,
+	specific_type = {},
+	equip_1 = {
+		1
+	},
+	equip_2 = {
+		6
+	},
+	equip_3 = {
+		6
+	},
+	equip_4 = {
+		10,
+		14
+	},
+	equip_5 = {
+		10,
+		14
+	},
+	airassist_time = {},
+	buff_list = {
+		16
+	},
+	buff_list_display = {
+		16
+	},
+	hide_buff_list = {}
 }
 
 _G.pg.base.ship_data_template[900801] = {

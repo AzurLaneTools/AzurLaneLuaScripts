@@ -55,7 +55,7 @@ pg.activity_series_enemy = {
 	},
 	[1002] = {
 		pre_chapter = 1001,
-		name = "突破：楚科奇海 ",
+		name = "夺回：北地群岛",
 		chapter_name = "TC2",
 		type = 1,
 		pos_x = "0.34609375",
@@ -65,7 +65,7 @@ pg.activity_series_enemy = {
 		whether_singlefight = 1,
 		ex_count = "",
 		oil = 0,
-		profiles = "任务目标：突破塞壬尚未完工的楚科奇海要塞防线，并摧毁清除者位于该处的气象武器基地。 ",
+		profiles = "任务目标：夺回曾经的前进基地，如今的塞壬北地群岛要塞，削弱清除者对于极地的控制力。 ",
 		limitation = {},
 		expedition_id = {
 			1719201,
@@ -124,7 +124,7 @@ pg.activity_series_enemy = {
 	},
 	[1003] = {
 		pre_chapter = 1002,
-		name = "夺回：北地群岛",
+		name = "侦察：北极点",
 		chapter_name = "TC3",
 		type = 1,
 		pos_x = "0.50546875",
@@ -134,7 +134,7 @@ pg.activity_series_enemy = {
 		whether_singlefight = 1,
 		ex_count = "",
 		oil = 0,
-		profiles = "任务目标：夺回曾经的前进基地，如今的塞壬北地群岛要塞，削弱清除者对于极地的控制力。 ",
+		profiles = "任务目标：对塞壬北极点要塞进行抵近侦察，尽可能收集数据以协助对于清除者战略意图的研究。 ",
 		limitation = {},
 		expedition_id = {
 			1719301,
@@ -198,7 +198,7 @@ pg.activity_series_enemy = {
 	},
 	[1004] = {
 		pre_chapter = 1003,
-		name = "侦察：北极点",
+		name = "突破：楚科奇海 ",
 		chapter_name = "SP",
 		type = 2,
 		pos_x = "0.60546875",
@@ -208,7 +208,7 @@ pg.activity_series_enemy = {
 		whether_singlefight = 0,
 		ex_count = "",
 		oil = 0,
-		profiles = "任务目标：对塞壬北极点要塞进行抵近侦察，尽可能收集数据以协助对于清除者战略意图的研究。 ",
+		profiles = "任务目标：突破塞壬尚未完工的楚科奇海要塞防线，并摧毁清除者位于该处的气象武器基地。 ",
 		limitation = {},
 		expedition_id = {
 			1719401,

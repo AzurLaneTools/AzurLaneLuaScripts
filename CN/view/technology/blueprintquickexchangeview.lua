@@ -37,7 +37,7 @@ function slot0.OnInit(slot0)
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
 			setText(slot2:Find("calc/value"), uv0.countList[slot1])
-			setScrollText(slot2:Find("name/Text"), HXSet.hxLan(slot3.cfg.name))
+			setScrollText(slot2:Find("name/Text"), slot3.cfg.name)
 			setText(slot2:Find("kc"), i18n("tec_tip_material_stock") .. ":" .. slot3.count)
 			pressPersistTrigger(slot2:Find("calc/plus"), 0.5, function (slot0)
 				if uv1.countList[uv2] < uv0.count and uv1.count + uv3 <= uv1.need then
@@ -152,10 +152,9 @@ function slot0.UpdateBlueprint(slot0, slot1)
 		type = DROP_TYPE_ITEM,
 		id = slot1:getItemId()
 	})
-	slot7 = slot2
-	slot8 = "name"
+	slot7 = "name"
 
-	changeToScrollText(slot0.rtResult:Find("title/Text"), HXSet.hxLan(slot2.getConfig(slot7, slot8)))
+	changeToScrollText(slot0.rtResult:Find("title/Text"), HXSet.targetItem:getConfig(slot7))
 
 	slot0.displayList = {}
 	slot0.awardList = {}

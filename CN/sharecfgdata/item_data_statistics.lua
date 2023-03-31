@@ -6915,7 +6915,7 @@ _G.pg.base.item_data_statistics[15005] = {
 
 _G.pg.base.item_data_statistics[15006] = {
 	display = "与角色誓约所必须的道具",
-	name = "誓约之戒",
+	name = "永恒礼盒",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -9419,7 +9419,7 @@ _G.pg.base.item_data_statistics[21020] = {
 	display = "拉·加利索尼埃·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
 	name = "结晶：拉·加利索尼埃·META",
 	max_num = 0,
-	type = 0,
+	type = 4,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -18355,7 +18355,7 @@ _G.pg.base.item_data_statistics[30520] = {
 	display = "使用后可从「啾啾野战医院」主题外观装备中任意选择一种获得1个",
 	name = "定向外观装备箱(医疗)",
 	max_num = 0,
-	type = 11,
+	type = 13,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -18458,10 +18458,7 @@ _G.pg.base.item_data_statistics[30520] = {
 			1
 		}
 	},
-	price = {
-		1,
-		7000
-	},
+	price = {},
 	index = {},
 	shiptrans_id = {}
 }
@@ -20176,7 +20173,7 @@ _G.pg.base.item_data_statistics[40025] = {
 }
 
 _G.pg.base.item_data_statistics[40100] = {
-	display = "购买礼包可获得誓约之戒*2",
+	display = "购买礼包可获得永恒礼盒*2",
 	name = "比翼双飞",
 	max_num = 0,
 	type = 17,
@@ -201750,8 +201747,8 @@ _G.pg.base.item_data_statistics[60267] = {
 }
 
 _G.pg.base.item_data_statistics[60268] = {
-	display = "由提尔皮茨赠与的，作为宴会邀约的回礼",
-	name = "提尔皮茨的回礼",
+	display = "由{namecode:436}赠与的，作为宴会邀约的回礼",
+	name = "{namecode:436}的回礼",
 	max_num = 0,
 	type = 1,
 	drop_oil_max = 0,
@@ -202436,6 +202433,216 @@ _G.pg.base.item_data_statistics[60305] = {
 	id = 60305,
 	is_world = 0,
 	icon = "props/draw_g",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60306] = {
+	display = "「一锤！Burin！」活动道具 ",
+	name = "线索「S」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60306,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60307] = {
+	display = "「一锤！Burin！」活动道具 ",
+	name = "线索「u」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60307,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60308] = {
+	display = "「一锤！Burin！」活动道具 ",
+	name = "线索「p」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60308,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60309] = {
+	display = "「一锤！Burin！」活动道具 ",
+	name = "线索「e」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60309,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60310] = {
+	display = "「一锤！Burin！」活动道具 ",
+	name = "线索「r」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60310,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60311] = {
+	display = "「一锤！Burin！」活动道具 ",
+	name = "线索「B」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60311,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60312] = {
+	display = "「一锤！Burin！」活动道具 ",
+	name = "线索「u」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60312,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60313] = {
+	display = "「一锤！Burin！」活动道具 ",
+	name = "线索「r」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60313,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60314] = {
+	display = "「一锤！Burin！」活动道具 ",
+	name = "线索「i」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60314,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60315] = {
+	display = "「一锤！Burin！」活动道具 ",
+	name = "线索「n」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60315,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
 	display_icon = {},
 	price = {},
 	index = {},

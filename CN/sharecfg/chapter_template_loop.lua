@@ -1,8 +1,4 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "chapter_template_loop", rawget(pg.base, "chapter_template_loop") or {})
-
 pg.chapter_template_loop = setmetatable({
 	__name = "chapter_template_loop",
 	all = {
@@ -793,6 +789,8 @@ pg.chapter_template_loop = setmetatable({
 		2200093
 	}
 }, confMT)
+pg.base = pg.base or {}
+pg.base.chapter_template_loop = pg.base.chapter_template_loop or {}
 cs = cs or {}
 cs.chapter_template_loop = {
 	[101] = {

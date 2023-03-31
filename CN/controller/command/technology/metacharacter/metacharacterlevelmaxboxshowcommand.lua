@@ -22,7 +22,7 @@ function slot0.execute(slot0, slot1)
 
 		for slot12, slot13 in ipairs(slot7) do
 			slot15 = slot13.metaSkillID
-			slot16 = setColorStr(HXSet.hxLan(slot13.metaShipVO:getName()), COLOR_GREEN)
+			slot16 = setColorStr(slot13.metaShipVO:getName(), COLOR_GREEN)
 			slot8 = slot12 < #slot7 and slot8 .. slot16 .. "、" or slot8 .. slot16 .. "、" .. slot16
 		end
 

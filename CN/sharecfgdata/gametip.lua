@@ -5250,7 +5250,7 @@ _G.pg.base.gametip.intimacy_desc_7_detail = {
 }
 
 _G.pg.base.gametip.intimacy_desc_ring = {
-	tip = "拥有一枚誓约戒指"
+	tip = "拥有一个永恒礼盒"
 }
 
 _G.pg.base.gametip.intimacy_desc_tiara = {
@@ -5266,7 +5266,7 @@ _G.pg.base.gametip.word_propose_cost_tip1 = {
 }
 
 _G.pg.base.gametip.word_propose_cost_tip2 = {
-	tip = "是否消耗<color=#92fc63>1</color>枚誓约之戒兑换为<color=#92fc63>1</color>顶誓约之冠\n<color=#ff5c5c>兑换操作无法撤回，以此誓约的角色无法更名</color>"
+	tip = "是否消耗<color=#92fc63>1</color>个永恒礼盒兑换为<color=#92fc63>1</color>顶誓约之冠\n<color=#ff5c5c>兑换操作无法撤回，以此誓约的角色无法更名</color>"
 }
 
 _G.pg.base.gametip.word_propose_tiara_tip = {
@@ -7732,7 +7732,7 @@ _G.pg.base.gametip.word_rename_time_warning = {
 
 _G.pg.base.gametip.word_propose_cost_tip = {
 	tip = [[
-誓约需要消耗<color=#92fc63>1</color>枚誓约之戒（当前拥有<color=#92fc63>$1</color>枚）
+誓约需要消耗<color=#92fc63>1</color>个永恒礼盒（当前拥有<color=#92fc63>$1</color>枚）
 
 <size=32>*誓约后角色将成为专属舰，可重新命名并获得<color=#92fc63>3%</color>属性加成</size>
 <size=32>*誓约后角色将自动锁定</size>]]
@@ -13740,7 +13740,7 @@ _G.pg.base.gametip.bulin_tip9 = {
 }
 
 _G.pg.base.gametip.bulin_tip_other1 = {
-	tip = "是否解锁提示？20分钟内只能解锁一个提示"
+	tip = "是否解锁提示？10分钟内只能解锁一个提示"
 }
 
 _G.pg.base.gametip.bulin_tip_other2 = {
@@ -19925,7 +19925,7 @@ _G.pg.base.gametip.help_xinnian2022_z28 = {
 			info = [[
 活动规则：
 1.<color=#92fc63>1月4日</color>为止每日零点获得<color=#92fc63>1</color>次游戏次数，总计<color=#92fc63>7</color>次，可累计
-2.参与「新年烟花工坊」并进行<color=#92fc63>游戏结算</color>会消耗游戏次数并获得奖励与烟花券，集齐7个烟花券可以获取限定角色<color=#92fc63>「{namecode:445}」</color>
+2.参与「新年烟花工坊」并进行<color=#92fc63>游戏结算</color>会消耗游戏次数并获得奖励与烟花券，集齐7个烟花券可以获取限定角色<color=#92fc63>「Z28」</color>
 3.在没有游戏次数的情况下参与「新年烟花工坊」不会获得奖励与烟花券
 4.完成游戏或点击游戏内退出按钮均视为游戏完成
 因为其他原因中途退出游戏则视为未完成]]
@@ -20123,7 +20123,7 @@ _G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
 }
 
 _G.pg.base.gametip.shipmodechange_reject_inactivity = {
-	tip = "舰船在限界挑战/共斗活动编成中，请调整编队阵容后重试"
+	tip = "舰船在限界挑战/共斗/连战活动编成中，请调整编队阵容后重试"
 }
 
 _G.pg.base.gametip.monopoly3thre_tip = {
@@ -20691,7 +20691,7 @@ _G.pg.base.gametip.cruise_task_help_2302 = {
 }
 
 _G.pg.base.gametip.battlepass_main_tip_2304 = {
-	tip = "2023.4.1-2023.5.31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「·META」</color>在内的丰富奖励"
+	tip = "4/1-5/31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「拉·加利索尼埃·META」</color>在内的丰富奖励"
 }
 
 _G.pg.base.gametip.battlepass_main_help_2304 = {
@@ -20711,15 +20711,15 @@ _G.pg.base.gametip.battlepass_main_help_2304 = {
 
 ·<color=#92fc63>奖励规则</color>
 巡游进度奖励分为两种：
-（1）基础巡游奖励：包含<color=#ff5c5c>「谢菲尔德·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·五期</color>等奖励；
+（1）基础巡游奖励：包含<color=#ff5c5c>「拉·加利索尼埃·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·五期</color>等奖励；
     当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
-（2）特许巡游奖励：包含<color=#ff5c5c>棭换装「海边嬉戏时间</color>」、<color=#ff5c5c>钻石</color>等奖励；
+（2）特许巡游奖励：包含<color=#ff5c5c>沃克兰换装「异世界的“不速之客”</color>」、<color=#ff5c5c>钻石</color>等奖励；
     购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
     注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
 
 ·<color=#92fc63>「特许巡游凭证」说明</color>
 （1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
-（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即3.31 22:59:59停止)，请指挥官注意购买时间。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即5.31 22:59:59停止)，请指挥官注意购买时间。
 
 ·<color=#92fc63>任务说明</color>
 巡游任务分为两种：
@@ -20749,7 +20749,7 @@ _G.pg.base.gametip.cruise_task_help_2304 = {
 巡游任务说明
 
 ·<color=#92fc63>开放时间</color>
-    2023.1.31 0点 ~ 2023.5.31 23:59:59
+    2023.3.31 0点 ~ 2023.5.31 23:59:59
 
 ·<color=#92fc63>巡游任务分为两种</color>
 （1）每周任务
@@ -23406,4 +23406,62 @@ _G.pg.base.gametip.series_enemy_empty_commander_assistant = {
 
 _G.pg.base.gametip.limit_team_character_tips = {
 	tip = "※参战的舰队中不可出现同名角色"
+}
+
+_G.pg.base.gametip.caibulin_tip1 = {
+	tip = "从作战中搜寻线索，目标1-2Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip2 = {
+	tip = "仓库……很可疑，是一个适合藏匿线索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip3 = {
+	tip = "从作战中搜寻线索，目标2-2Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip4 = {
+	tip = "船坞……很可疑，是一个适合藏匿线索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip5 = {
+	tip = "从作战中搜寻线索，目标1-4Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip6 = {
+	tip = "后宅……很可疑，是一个适合藏匿线索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip7 = {
+	tip = "从作战中搜寻线索，目标2-4Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip8 = {
+	tip = "学院……很可疑，是一个适合藏匿线索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip9 = {
+	tip = "小卖部……很可疑，是一个适合藏匿线索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip10 = {
+	tip = "建造台……很可疑，是一个适合藏匿线索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_help = {
+	tip = {
+		{
+			info = [[
+活动说明：
+1.活动期间，在特定界面或关卡中可收集相应的神器线索
+2.当收集线索遇到困难时，可以点击线索格解锁提示
+注意：10分钟内只能解锁一个提示哦
+3.线索收集完成可以开启特别关卡，挑战特别关卡并取
+得胜利可以获得特殊奖励]]
+		}
+	}
+}
+
+_G.pg.base.gametip.caibulin_tip11 = {
+	tip = "神器线索收集完成即可解锁特别关卡~"
 }
