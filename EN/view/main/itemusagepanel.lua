@@ -72,8 +72,8 @@ function slot0.Update(slot0, slot1)
 		id = slot1.id,
 		count = slot1.count
 	})
-	setText(slot0.itemIntro, HXSet.hxLan(slot1:getConfig("display")))
-	setText(slot0.itemName, HXSet.hxLan(slot1:getConfig("name")))
+	setText(slot0.itemIntro, slot1:getConfig("display"))
+	setText(slot0.itemName, slot1:getConfig("name"))
 	onButton(slot0, slot0.resetBtn, function ()
 		assert(uv0.settings.onResetInfo, "without reset info callback")
 		uv0.settings.onResetInfo({

@@ -65,7 +65,7 @@ function slot0.Refresh(slot0, slot1, slot2)
 end
 
 function slot0.UpdateShipInfo(slot0)
-	slot0.shipNameTxt.text = HXSet.hxLan(slot0.ship:getName())
+	slot0.shipNameTxt.text = slot0.ship:getName()
 	slot0.userNameTxt.text = slot0.playerId == slot0.member.id and "" or i18n("guild_ship_from") .. slot2.name
 	slot0.shipTypeIcon.sprite = GetSpriteFromAtlas("shiptype", shipType2print(pg.ship_data_statistics[slot1.configId].type))
 	slot6 = slot1:getStar()
@@ -92,7 +92,7 @@ function slot0.UpdateEquipments(slot0)
 
 			if slot3 then
 				updateEquipment(slot2:Find("info"), slot3)
-				setText(slot2:Find("info/name_bg/Text"), shortenString(HXSet.hxLan(slot3.config.name), 5))
+				setText(slot2:Find("info/name_bg/Text"), shortenString(slot3.config.name, 5))
 			end
 		end
 	end)

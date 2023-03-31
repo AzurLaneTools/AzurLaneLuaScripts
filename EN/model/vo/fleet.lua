@@ -326,7 +326,7 @@ function slot0.insertShip(slot0, slot1, slot2, slot3)
 		slot2 = slot2 or #slot4 + 1
 
 		table.insert(slot4, slot2, slot1.id)
-		table.insert(slot0.ships, (slot3 == TeamType.MainMax and #slot0.vanguardShips or 0) + slot2, slot1.id)
+		table.insert(slot0.ships, (slot3 == TeamType.Main and #slot0.vanguardShips or 0) + slot2, slot1.id)
 	end
 end
 

@@ -39,7 +39,7 @@ function slot0.Flush(slot0)
 
 	flushShipCard(slot0._tf, slot1)
 	setActive(slot0.npcTr, slot1:isActivityNpc())
-	setText(slot0.nameTF, shortenString(slot1:getName(), PLATFORM_CODE == PLATFORM_US and 6 or 7))
+	setText(slot0.nameTF, slot1:GetColorName(shortenString(slot1:getName(), PLATFORM_CODE == PLATFORM_US and 6 or 7)))
 	slot0.lockTr.gameObject:SetActive(slot1:GetLockState() == Ship.LOCK_STATE_LOCK)
 end
 

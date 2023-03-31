@@ -58,14 +58,14 @@ function slot0.onUpdateMemoryItem(slot0, slot1, slot2)
 		setActive(slot4:Find("normal"), true)
 		setActive(slot4:Find("lock"), false)
 
-		slot4:Find("normal/title"):GetComponent(typeof(Text)).text = HXSet.hxLan(slot3.title)
+		slot4:Find("normal/title"):GetComponent(typeof(Text)).text = slot3.title
 
 		slot0.loader:GetSpriteQuiet("memoryicon/" .. slot3.icon, "", slot4:Find("normal"))
 		setText(slot4:Find("normal/id"), string.format("#%u", slot1 + 1))
 	else
 		setActive(slot4:Find("normal"), false)
 		setActive(slot4:Find("lock"), true)
-		setText(slot4:Find("lock/condition"), HXSet.hxLan(slot3.condition))
+		setText(slot4:Find("lock/condition"), slot3.condition)
 	end
 end
 
@@ -130,9 +130,9 @@ function slot0.ShowSubMemories(slot0, slot1)
 	if slot5 then
 		slot8 = slot0._tf
 
-		setText(slot8:Find("ItemRect/UnlockTip"), HXSet.hxLan(i18n("levelScene_remaster_unlock_tip", slot1.title, table.concat(_.map(_.sort(Map.GetRearChaptersOfRemaster(slot4[1])), function (slot0)
+		setText(slot8:Find("ItemRect/UnlockTip"), i18n("levelScene_remaster_unlock_tip", slot1.title, table.concat(_.map(_.sort(Map.GetRearChaptersOfRemaster(slot4[1])), function (slot0)
 			return getProxy(ChapterProxy):getChapterById(slot0, true):getConfig("chapter_name")
-		end), "/"))))
+		end), "/")))
 	end
 end
 

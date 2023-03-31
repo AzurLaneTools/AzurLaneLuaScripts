@@ -59,7 +59,7 @@ function slot0.init(slot0)
 			slot3 = uv0.ids[slot1]
 			slot4 = pg.activity_task_permanent[slot3]
 
-			setText(slot2:Find("main/word/Text"), HXSet.hxLan(slot4.gametip))
+			setText(slot2:Find("main/word/Text"), slot4.gametip)
 			setText(slot2:Find("main/Image/tip/Text"), slot4.gametip_extra)
 			GetImageSpriteFromAtlasAsync("activitybanner/" .. slot4.banner_route, "", slot2:Find("main/Image"))
 			onButton(uv0, slot2:Find("main"), function ()

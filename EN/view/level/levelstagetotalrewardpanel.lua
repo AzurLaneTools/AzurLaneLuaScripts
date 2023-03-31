@@ -292,9 +292,9 @@ function slot0.UpdateSPItem(slot0)
 
 	slot4 = {}
 
-	for slot8, slot9 in pairs(pg.benefit_buff_template) do
-		if slot9.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and table.contains(slot3, slot8) then
-			table.insert(slot4, slot9)
+	for slot8, slot9 in ipairs(pg.benefit_buff_template.all) do
+		if pg.benefit_buff_template[slot9].benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and table.contains(slot3, slot9) then
+			table.insert(slot4, slot10)
 		end
 	end
 

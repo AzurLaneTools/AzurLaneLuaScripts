@@ -298,27 +298,36 @@ function slot1(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	slot5 = ys.Battle.BattleDataFunction.GenerateHiddenBuff(slot1.configId)
+	slot5 = {}
 
-	for slot9, slot10 in pairs(slot1.skills) do
-		if not slot10 or slot10.id ~= 14900 or slot1.transforms[16412] then
-			slot11 = {
-				level = slot10.level,
-				id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot1:RemapSkillId(slot10.id))
-			}
-			slot5[slot11.id] = slot11
+	function slot6(slot0)
+		return {
+			level = slot0.level,
+			id = ys.Battle.BattleDataFunction.SkillTranform(uv1, uv0:RemapSkillId(slot0.id))
+		}
+	end
+
+	for slot11, slot12 in pairs(ys.Battle.BattleDataFunction.GenerateHiddenBuff(slot1.configId)) do
+		slot13 = slot6(slot12)
+		slot5[slot13.id] = slot13
+	end
+
+	for slot11, slot12 in pairs(slot1.skills) do
+		if not slot12 or slot12.id ~= 14900 or slot1.transforms[16412] then
+			slot13 = slot6(slot12)
+			slot5[slot13.id] = slot13
 		end
 	end
 
-	for slot10, slot11 in ipairs(ys.Battle.BattleDataFunction.GetEquipSkill(slot4)) do
-		slot12 = {
+	for slot12, slot13 in ipairs(ys.Battle.BattleDataFunction.GetEquipSkill(slot4)) do
+		slot14 = {
 			level = 1,
-			id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot11)
+			id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot13)
 		}
-		slot5[slot12.id] = slot12
+		slot5[slot14.id] = slot14
 	end
 
-	slot7 = nil
+	slot9 = nil
 
 	(function ()
 		uv0 = uv1:GetSpWeapon()
@@ -338,25 +347,25 @@ function slot1(slot0, slot1, slot2, slot3)
 		uv3[slot1.id] = slot1
 	end)()
 
-	for slot12, slot13 in pairs(slot1:getTriggerSkills()) do
-		slot14 = {
-			level = slot13.level,
-			id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot13.id)
+	for slot14, slot15 in pairs(slot1:getTriggerSkills()) do
+		slot16 = {
+			level = slot15.level,
+			id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot15.id)
 		}
-		slot5[slot14.id] = slot14
+		slot5[slot16.id] = slot16
 	end
 
-	slot10 = false
+	slot12 = false
 
 	if slot0 == SYSTEM_WORLD and WorldConst.FetchWorldShip(slot1.id) then
-		slot10 = slot11:IsBroken()
+		slot12 = slot13:IsBroken()
 	end
 
-	if slot10 then
-		for slot14, slot15 in pairs(slot5) do
-			if pg.skill_data_template[slot14].world_death_mark[1] == ys.Battle.BattleConst.DEATH_MARK_SKILL.DEACTIVE then
-				slot5[slot14] = nil
-			elseif slot17 == ys.Battle.BattleConst.DEATH_MARK_SKILL.IGNORE then
+	if slot12 then
+		for slot16, slot17 in pairs(slot5) do
+			if pg.skill_data_template[slot16].world_death_mark[1] == ys.Battle.BattleConst.DEATH_MARK_SKILL.DEACTIVE then
+				slot5[slot16] = nil
+			elseif slot19 == ys.Battle.BattleConst.DEATH_MARK_SKILL.IGNORE then
 				-- Nothing
 			end
 		end
@@ -368,7 +377,7 @@ function slot1(slot0, slot1, slot2, slot3)
 		skinId = slot1.skinId,
 		level = slot1.level,
 		equipment = slot4,
-		properties = slot1:getProperties(slot2, slot3, slot9),
+		properties = slot1:getProperties(slot2, slot3, slot11),
 		baseProperties = slot1:getShipProperties(),
 		proficiency = slot1:getEquipProficiencyList(),
 		rarity = slot1:getRarity(),
@@ -378,8 +387,8 @@ function slot1(slot0, slot1, slot2, slot3)
 		baseList = slot1:getBaseList(),
 		preloasList = slot1:getPreLoadCount(),
 		name = slot1:getName(),
-		deathMark = slot10,
-		spWeapon = slot7
+		deathMark = slot12,
+		spWeapon = slot9
 	}
 end
 

@@ -852,7 +852,7 @@ function slot3.LegalTarget(slot0)
 	slot9 = slot0:GetIFF()
 
 	for slot13, slot14 in pairs(slot3:GetUnitList()) do
-		if slot14:IsAlive() and slot14:GetIFF() ~= slot9 and slot14:GetPosition().x < slot7 then
+		if slot14:IsAlive() and slot14:GetIFF() ~= slot9 and slot14:GetPosition().x < slot7 and not slot14:IsSpectre() then
 			slot1[#slot1 + 1] = slot14
 		end
 	end
@@ -866,7 +866,7 @@ function slot3.LegalWeaponTarget(slot0)
 	slot5 = slot0:GetIFF()
 
 	for slot9, slot10 in pairs(ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
-		if slot10:GetIFF() ~= slot5 then
+		if slot10:GetIFF() ~= slot5 and not slot10:IsSpectre() then
 			slot1[#slot1 + 1] = slot10
 		end
 	end

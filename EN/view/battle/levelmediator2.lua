@@ -699,14 +699,38 @@ function slot0.handleNotification(slot0, slot1)
 							})
 						end,
 						function (slot0)
-							if _.any(uv0, function (slot0)
+							if uv0 == ChapterConst.OpBox and _.any(uv1, function (slot0)
+								if slot0.type ~= DROP_TYPE_VITEM then
+									return false
+								end
+
+								return slot0:getConfig("virtual_type") == 1
+							end) then
+								(function ()
+									if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) then
+										return
+									end
+
+									if not pg.activity_event_picturepuzzle[slot0.id] then
+										return
+									end
+
+									if #table.mergeArray(slot0.data1_list, slot0.data2_list, true) < #slot1.pickup_picturepuzzle + #slot1.drop_picturepuzzle then
+										return
+									end
+
+									pg.NewStoryMgr.GetInstance():Play(slot0:getConfig("config_client").comStory, uv0)
+								end)()
+							end
+
+							if _.any(uv1, function (slot0)
 								if slot0.type ~= DROP_TYPE_STRATEGY then
 									return false
 								end
 
 								return pg.strategy_data_template[slot0.id].type == ChapterConst.StgTypeConsume
 							end) then
-								uv1.viewComponent.levelStageView:popStageStrategy()
+								uv2.viewComponent.levelStageView:popStageStrategy()
 							end
 
 							slot0()

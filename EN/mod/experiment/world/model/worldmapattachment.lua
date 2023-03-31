@@ -170,7 +170,7 @@ function slot0.DebugPrint(slot0)
 事件  [id: %d]  [%s]  [位置: %d, %d]  [flag: %s]  [data: %d]  [感染值：%s]  [自动优先级：%s] 
      [effect: %s] 
      [effect_op: %s] 
-     [buff: %s]]], slot0.id, HXSet.hxLan(slot0.config.name), slot0.row, slot0.column, slot0.flag, slot0.data, setColorStr(slot0.config.infection_value, COLOR_RED), setColorStr(slot0.config.auto_pri, COLOR_YELLOW), slot3, table.concat(slot1, ", "), table.concat(slot0.buffList, ", "))
+     [buff: %s]]], slot0.id, slot0.config.name, slot0.row, slot0.column, slot0.flag, slot0.data, setColorStr(slot0.config.infection_value, COLOR_RED), setColorStr(slot0.config.auto_pri, COLOR_YELLOW), slot3, table.concat(slot1, ", "), table.concat(slot0.buffList, ", "))
 	elseif uv0.IsEnemyType(slot0.type) then
 		return string.format("敌人  [id: %s]  [%s]  [类型 %s]  [位置: %s, %s]  [flag: %s]  [data: %s]  [buff: %s]", slot0.id, slot0.config.name, slot0.type, slot0.row, slot0.column, tostring(slot0.flag), tostring(slot0.data), table.concat(slot0.buffList, ", "))
 	elseif slot0.type == uv0.TypeTrap then

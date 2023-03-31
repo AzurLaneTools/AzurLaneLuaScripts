@@ -1,8 +1,4 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "task_data_template", rawget(pg.base, "task_data_template") or {})
-
 pg.task_data_template = setmetatable({
 	__name = "task_data_template",
 	all = {
@@ -6280,6 +6276,8 @@ pg.task_data_template = setmetatable({
 		1100036
 	}
 }, confMT)
+pg.base = pg.base or {}
+pg.base.task_data_template = pg.base.task_data_template or {}
 cs = cs or {}
 cs.task_data_template = {
 	{

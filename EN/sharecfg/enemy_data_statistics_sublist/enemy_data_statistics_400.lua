@@ -1,5 +1,59 @@
 pg = pg or {}
 pg.enemy_data_statistics_400 = {
+	[293043] = {
+		cannon = 43,
+		antiaircraft_growth = 2880,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 3,
+		air = 0,
+		speed = 14,
+		dodge = 32,
+		id = 293043,
+		wave_fx = "shenyuanxiaoguai_move",
+		cannon_growth = 3456,
+		reload_growth = 0,
+		dodge_growth = 40,
+		luck = 10,
+		star = 4,
+		hit = 8,
+		antisub_growth = 0,
+		air_growth = 0,
+		reload = 150,
+		base = 90251,
+		durability = 413,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 126,
+		armor = 0,
+		torpedo = 0,
+		durability_growth = 165000,
+		antisub = 0,
+		antiaircraft = 36,
+		scale = 160,
+		battle_unit_type = 90,
+		world_enhancement = {
+			9.3,
+			0.7,
+			1.7,
+			0.7,
+			0.9,
+			2,
+			2.2
+		},
+		equipment_list = {
+			2029800,
+			2029801,
+			2029802,
+			2029803,
+			2029880
+		},
+		random_nub = {
+			1,
+			1
+		}
+	},
 	[293044] = {
 		cannon = 0,
 		antiaircraft_growth = 3744,

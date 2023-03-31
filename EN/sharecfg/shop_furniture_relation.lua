@@ -1,5 +1,37 @@
 pg = pg or {}
-pg.shop_furniture_relation = {
+pg.shop_furniture_relation = setmetatable({
+	__name = "shop_furniture_relation",
+	get_id_list_by_fur_id = {
+		[200003] = {
+			70626
+		},
+		[200001] = {
+			70633
+		},
+		[200002] = {
+			70629
+		},
+		[200004] = {
+			70671
+		},
+		[200005] = {
+			70700
+		},
+		[200006] = {
+			70715
+		}
+	},
+	all = {
+		70626,
+		70633,
+		70629,
+		70671,
+		70700,
+		70715
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.shop_furniture_relation = {
 	[70626] = {
 		fur_id = 200003,
 		id = 70626,
@@ -88,33 +120,5 @@ pg.shop_furniture_relation = {
 				-20
 			}
 		}
-	},
-	get_id_list_by_fur_id = {
-		[200003] = {
-			70626
-		},
-		[200001] = {
-			70633
-		},
-		[200002] = {
-			70629
-		},
-		[200004] = {
-			70671
-		},
-		[200005] = {
-			70700
-		},
-		[200006] = {
-			70715
-		}
-	},
-	all = {
-		70626,
-		70633,
-		70629,
-		70671,
-		70700,
-		70715
 	}
 }

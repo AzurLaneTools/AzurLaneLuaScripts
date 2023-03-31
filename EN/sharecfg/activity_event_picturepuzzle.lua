@@ -241,8 +241,8 @@ pg.activity_event_picturepuzzle = {
 	},
 	[4733] = {
 		id = 4733,
-		chapter = 1360001,
-		cd = 1200,
+		chapter = 1360004,
+		cd = 600,
 		define = 0,
 		pickup_picturepuzzle = {
 			60307,
@@ -262,27 +262,32 @@ pg.activity_event_picturepuzzle = {
 		awards = {
 			{
 				8,
-				60031,
+				60307,
 				1
 			},
 			{
 				8,
-				60033,
+				60309,
 				1
 			},
 			{
 				8,
-				60035,
+				60311,
 				1
 			},
 			{
 				8,
-				60037,
+				60313,
 				1
 			},
 			{
 				8,
-				60038,
+				60314,
+				1
+			},
+			{
+				8,
+				60315,
 				1
 			}
 		},

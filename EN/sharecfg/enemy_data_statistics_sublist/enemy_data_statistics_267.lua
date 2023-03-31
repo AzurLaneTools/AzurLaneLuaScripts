@@ -1,5 +1,94 @@
 pg = pg or {}
 pg.enemy_data_statistics_267 = {
+	[14701304] = {
+		cannon = 170,
+		name = "Tester Incognita ???",
+		type = 5,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 160,
+		friendly_cld = 0,
+		rarity = 6,
+		icon_type = 5,
+		armor = 0,
+		antisub = 0,
+		reload = 150,
+		dodge_growth = 156,
+		luck_growth = 0,
+		star = 6,
+		battle_unit_type = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90247,
+		durability = 8000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 16,
+		luck = 8,
+		id = 14701304,
+		scale = 100,
+		cannon_growth = 0,
+		pilot_ai_template_id = 70148,
+		fog_fx = "",
+		dodge = 18,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 150,
+		durability_growth = 0,
+		antiaircraft = 240,
+		hit_growth = 210,
+		bound_bone = {
+			cannon = {
+				{
+					-0.27,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.13,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			plane = {
+				{
+					0.94,
+					4.3,
+					0
+				}
+			}
+		},
+		specific_fx_scale = {
+			dianliu_unknown1 = 1.5
+		},
+		appear_fx = {
+			"appearQ",
+			"dianliu_unknown1"
+		},
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 2
+			}
+		}
+	},
 	[14701305] = {
 		cannon = 170,
 		name = "Tester Incognita ???",
@@ -986,57 +1075,5 @@ pg.enemy_data_statistics_267 = {
 				LV = 3
 			}
 		}
-	},
-	[14702105] = {
-		cannon = 36,
-		hit_growth = 280,
-		bubble_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 86,
-		speed = 16,
-		dodge = 9,
-		antisub = 0,
-		cannon_growth = 0,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 96,
-		luck = 0,
-		reload = 150,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 4127,
-		torpedo = 0,
-		base = 90252,
-		durability = 5780,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 70,
-		armor = 0,
-		durability_growth = 58880,
-		antiaircraft = 134,
-		id = 14702105,
-		antiaircraft_growth = 5280,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			1000802,
-			1000807,
-			1000817,
-			1000822
-		},
-		buff_list = {}
 	}
 }

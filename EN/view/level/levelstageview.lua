@@ -308,9 +308,9 @@ function slot0.AddListener(slot0)
 				if uv3 ~= "" then
 					slot4 = nil
 
-					for slot8, slot9 in pairs(pg.memory_template) do
-						if slot9.story == uv4 then
-							slot4 = slot9.title
+					for slot8, slot9 in ipairs(pg.memory_template.all) do
+						if pg.memory_template[slot9].story == uv4 then
+							slot4 = slot10.title
 						end
 					end
 

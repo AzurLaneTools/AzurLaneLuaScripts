@@ -1,5 +1,58 @@
 pg = pg or {}
 pg.enemy_data_statistics_385 = {
+	[212215] = {
+		cannon = 36,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 2880,
+		base = 90308,
+		air = 0,
+		durability_growth = 117820,
+		dodge = 12,
+		speed = 14,
+		luck = 0,
+		battle_unit_type = 65,
+		reload_growth = 0,
+		dodge_growth = 30,
+		antiaircraft_growth = 2568,
+		antisub = 0,
+		hit = 7,
+		antisub_growth = 0,
+		air_growth = 0,
+		luck_growth = 0,
+		torpedo = 0,
+		durability = 295,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 32,
+		hit_growth = 105,
+		armor = 0,
+		fog_fx = "",
+		id = 212215,
+		world_enhancement = {
+			2,
+			0.8,
+			2,
+			0.8,
+			1,
+			2.3,
+			2.6
+		},
+		equipment_list = {
+			1100103,
+			1100598,
+			1100733
+		},
+		random_equipment_list = {
+			{
+				2021301,
+				2021302
+			}
+		},
+		random_nub = {
+			1
+		}
+	},
 	[212216] = {
 		cannon = 0,
 		hit_growth = 105,
@@ -1069,85 +1122,6 @@ pg.enemy_data_statistics_385 = {
 			2021900,
 			2021914,
 			2021916
-		}
-	},
-	[213018] = {
-		cannon = 0,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		base = 90295,
-		air = 53,
-		durability_growth = 89780,
-		dodge = 6,
-		antiaircraft = 41,
-		speed = 18,
-		luck = 10,
-		reload_growth = 0,
-		dodge_growth = 70,
-		battle_unit_type = 60,
-		antisub = 0,
-		hit = 7,
-		antisub_growth = 0,
-		air_growth = 4256,
-		antiaircraft_growth = 3276,
-		torpedo = 0,
-		durability = 224,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 105,
-		armor = 0,
-		fog_fx = "",
-		id = 213018,
-		world_enhancement = {
-			9.3,
-			1.9,
-			1.7,
-			0.7,
-			0.1,
-			2,
-			0.1
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.5,
-					0.5,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.5,
-					0.8,
-					0
-				},
-				{
-					-0.5,
-					0.8,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.5,
-					0.5,
-					0
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			1100019,
-			1100169,
-			2200769,
-			2200774,
-			2200779,
-			2021900
 		}
 	}
 }

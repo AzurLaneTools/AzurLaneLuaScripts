@@ -1,5 +1,55 @@
 pg = pg or {}
 pg.enemy_data_statistics_331 = {
+	[16002312] = {
+		cannon = 220,
+		hit_growth = 210,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		luck = 18,
+		dodge = 20,
+		cannon_growth = 0,
+		speed = 20,
+		reload = 150,
+		reload_growth = 0,
+		dodge_growth = 284,
+		id = 16002312,
+		torpedo = 0,
+		hit = 25,
+		antisub_growth = 0,
+		air_growth = 0,
+		durability_growth = 0,
+		base = 90276,
+		durability = 56200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		armor = 0,
+		antiaircraft = 225,
+		antiaircraft_growth = 0,
+		antisub = 0,
+		scale = 144,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			3003201,
+			3003202,
+			3003203,
+			3003204,
+			3003205,
+			3003206
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 3
+			}
+		}
+	},
 	[16002313] = {
 		cannon = 190,
 		reload = 150,
@@ -817,48 +867,6 @@ pg.enemy_data_statistics_331 = {
 		antiaircraft = 390,
 		antiaircraft_growth = 0,
 		armor_type = 2,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {}
-	},
-	[16003303] = {
-		cannon = 280,
-		name = "Roma's Phantom",
-		type = 10,
-		speed_growth = 0,
-		hit_growth = 210,
-		air = 210,
-		durability = 115000,
-		armor = 0,
-		antisub = 0,
-		reload = 150,
-		luck_growth = 0,
-		battle_unit_type = 95,
-		dodge_growth = 228,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90670,
-		icon_type = 10,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 18,
-		luck = 25,
-		id = 16003303,
-		scale = 180,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		fog_fx = "",
-		dodge = 16,
-		reload_growth = 0,
-		hit = 30,
-		torpedo = 0,
-		durability_growth = 0,
-		antiaircraft = 460,
-		antiaircraft_growth = 0,
-		armor_type = 3,
-		specific_fx_scale = {},
 		appear_fx = {
 			"bossguangxiao",
 			"appearQ"

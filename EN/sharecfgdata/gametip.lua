@@ -13834,11 +13834,11 @@ _G.pg.base.gametip.bulin_tip9 = {
 }
 
 _G.pg.base.gametip.bulin_tip_other1 = {
-	tip = "Get a hint? You can only get one every 20 minutes."
+	tip = "Unlock this clue now, bulin? It takes 10 minutes cooldown before another one can be unlocked like this, bulin! "
 }
 
 _G.pg.base.gametip.bulin_tip_other2 = {
-	tip = "Hints are on cooldown."
+	tip = "Clues are on cooldown, bulin!"
 }
 
 _G.pg.base.gametip.bulin_tip_other3 = {
@@ -20193,7 +20193,7 @@ _G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
 }
 
 _G.pg.base.gametip.shipmodechange_reject_inactivity = {
-	tip = "This ship is assigned to a Challenge/Contribution-type event fleet. Replace her with a different ship and try again."
+	tip = "One or more ships are currently participating in a Challenge Mode, Joint Operation or Coalition Battle event stage. Please adjust your fleet and try again."
 }
 
 _G.pg.base.gametip.monopoly3thre_tip = {
@@ -23541,4 +23541,61 @@ _G.pg.base.gametip.series_enemy_empty_commander_assistant = {
 
 _G.pg.base.gametip.limit_team_character_tips = {
 	tip = "You cannot have same name ships in your Coalition Battle fleets."
+}
+
+_G.pg.base.gametip.caibulin_tip1 = {
+	tip = "Maybe you'll find something in 1-2 of the Main Campaign, bulin?"
+}
+
+_G.pg.base.gametip.caibulin_tip2 = {
+	tip = "The depot? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
+}
+
+_G.pg.base.gametip.caibulin_tip3 = {
+	tip = "Maybe you'll find something in 2-2 of the Main Campaign, bulin?"
+}
+
+_G.pg.base.gametip.caibulin_tip4 = {
+	tip = "The dock? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
+}
+
+_G.pg.base.gametip.caibulin_tip5 = {
+	tip = "Maybe you'll find something in 1-4 of the Main Campaign, bulin?"
+}
+
+_G.pg.base.gametip.caibulin_tip6 = {
+	tip = "The dorms? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
+}
+
+_G.pg.base.gametip.caibulin_tip7 = {
+	tip = "Maybe you'll find something in 2-4 of the Main Campaign, bulin?"
+}
+
+_G.pg.base.gametip.caibulin_tip8 = {
+	tip = "The academy? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
+}
+
+_G.pg.base.gametip.caibulin_tip9 = {
+	tip = "The shop? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
+}
+
+_G.pg.base.gametip.caibulin_tip10 = {
+	tip = "The construction pools? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
+}
+
+_G.pg.base.gametip.caibulin_help = {
+	tip = {
+		{
+			info = [[
+How to Play:
+1. During the event, navigate to certain menus or stages to search for mysterious clues.
+2. If you're having difficulty finding the clue, tap the Clue icon to unlock the next phase of the clue search.
+Note: Clues can only be unlocked this way once every 10 minutes.
+3. Once all the clues have been collected, you will be able to challenge a secret stage. Complete it to obtain a special reward.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.caibulin_tip11 = {
+	tip = "Collect all the clues to unlock a secret stage!"
 }

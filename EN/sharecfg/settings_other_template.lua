@@ -160,6 +160,15 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		title = "L2D Gyroscope Functionality",
 		desc = "When toggled ON, some L2D animations will react to your device's gyroscopic sensor."
 	},
+	{
+		default = 0,
+		name = "SHIP_NAME_COLOR",
+		type = 0,
+		alignment = 0,
+		id = 16,
+		title = "Change Oathed Ship Name Color",
+		desc = "When toggled ON, changes the font color of the names of oathed ships."
+	},
 	all = {
 		1,
 		2,
@@ -175,6 +184,7 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		12,
 		13,
 		14,
-		15
+		15,
+		16
 	}
 }

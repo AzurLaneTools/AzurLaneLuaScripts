@@ -1,5 +1,94 @@
 pg = pg or {}
 pg.enemy_data_statistics_270 = {
+	[14703304] = {
+		cannon = 340,
+		name = "Tester Incognita ???",
+		type = 5,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 310,
+		friendly_cld = 0,
+		rarity = 6,
+		icon_type = 5,
+		armor = 0,
+		antisub = 0,
+		reload = 150,
+		dodge_growth = 312,
+		luck_growth = 0,
+		star = 6,
+		battle_unit_type = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90247,
+		durability = 28000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 16,
+		luck = 25,
+		id = 14703304,
+		scale = 100,
+		cannon_growth = 0,
+		pilot_ai_template_id = 70148,
+		fog_fx = "",
+		dodge = 22,
+		reload_growth = 0,
+		hit = 45,
+		torpedo = 240,
+		durability_growth = 0,
+		antiaircraft = 390,
+		hit_growth = 210,
+		bound_bone = {
+			cannon = {
+				{
+					-0.27,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.13,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			plane = {
+				{
+					0.94,
+					4.3,
+					0
+				}
+			}
+		},
+		specific_fx_scale = {
+			dianliu_unknown1 = 1.5
+		},
+		appear_fx = {
+			"appearQ",
+			"dianliu_unknown1"
+		},
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 4
+			}
+		}
+	},
 	[14703305] = {
 		cannon = 340,
 		name = "Tester Incognita ???",
@@ -932,56 +1021,5 @@ pg.enemy_data_statistics_270 = {
 				LV = 2
 			}
 		}
-	},
-	[14705001] = {
-		cannon = 750,
-		name = "Tester Incognita",
-		type = 5,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 200,
-		bubble_fx = "",
-		luck = 51,
-		id = 14705001,
-		reload = 150,
-		antiaircraft = 750,
-		battle_unit_type = 95,
-		dodge_growth = 252,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90247,
-		durability = 360000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 25,
-		armor = 0,
-		antisub = 0,
-		scale = 144,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		fog_fx = "",
-		dodge = 0,
-		reload_growth = 0,
-		hit = 9999,
-		torpedo = 200,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 330,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {},
-		buff_list = {}
 	}
 }

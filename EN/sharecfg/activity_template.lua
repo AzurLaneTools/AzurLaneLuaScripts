@@ -4284,6 +4284,93 @@ pg.activity_template = {
 			}
 		}
 	},
+	[4732] = {
+		mark = 20230401,
+		title_res_tag = "",
+		page_info = "",
+		type = 23,
+		login_pop = 0,
+		config_id = 4733,
+		is_show = 0,
+		config_client = "",
+		id = 4732,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4733] = {
+		mark = 20230401,
+		id = 4733,
+		title_res_tag = "AprilFool2023",
+		type = 21,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 31,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AprilFoolDiscovery2023Page",
+			ui_name = "AprilFoolDiscovery2023Page"
+		},
+		config_client = {
+			{},
+			"YURENJIE1",
+			comStory = "YURENJIE2",
+			subView = "AprilFoolSuperBurinSubView",
+			lastChapter = 136004
+		}
+	},
 	[4734] = {
 		mark = 20230323,
 		title_res_tag = "",
@@ -5279,6 +5366,88 @@ pg.activity_template = {
 				{
 					9,
 					2032,
+					1
+				}
+			}
+		}
+	},
+	[7010] = {
+		mark = 20230323,
+		id = 7010,
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_data = {
+			91,
+			92,
+			93,
+			94,
+			95,
+			96,
+			97,
+			98,
+			99
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage10"
+		},
+		config_client = {
+			map_name = "map_202304",
+			spine_name = "chess_wokelan",
+			tips = {
+				"battlepass_main_tip_2304",
+				"battlepass_main_help_2304",
+				"cruise_task_help_2304"
+			},
+			equip_skin = {
+				{
+					9,
+					2035,
+					1
+				},
+				{
+					9,
+					2036,
+					1
+				},
+				{
+					9,
+					2037,
+					1
+				},
+				{
+					9,
+					2038,
 					1
 				}
 			}
@@ -17526,7 +17695,8 @@ pg.activity_template = {
 		config_client = {
 			{},
 			"HUANGJINDEMIBAO1",
-			guideName = "HJDMB001"
+			guideName = "HJDMB001",
+			subView = "AprilFoolBulinSubView"
 		}
 	},
 	[30379] = {
@@ -25472,6 +25642,8 @@ pg.activity_template = {
 		4729,
 		4730,
 		4731,
+		4732,
+		4733,
 		4734,
 		4735,
 		4736,
@@ -25489,6 +25661,7 @@ pg.activity_template = {
 		7007,
 		7008,
 		7009,
+		7010,
 		8009,
 		8010,
 		8019,

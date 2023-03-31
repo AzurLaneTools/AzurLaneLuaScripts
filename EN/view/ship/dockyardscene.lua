@@ -1158,7 +1158,7 @@ function slot0.didEnter(slot0)
 		slot0:updateSelected()
 	end
 
-	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 60033)
+	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 2)
 
 	onButton(slot0, slot0.settingBtn, function ()
 		uv0.settingPanel:Load()

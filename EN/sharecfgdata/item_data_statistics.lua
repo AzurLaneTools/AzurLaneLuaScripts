@@ -9180,7 +9180,7 @@ _G.pg.base.item_data_statistics[21020] = {
 	display = "An item that increases the potential of La Galissonnière META. Used in the META Lab during Somatic Activation.",
 	name = "META Crystal – La Galissonnière",
 	max_num = 0,
-	type = 0,
+	type = 4,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -18064,7 +18064,7 @@ _G.pg.base.item_data_statistics[30520] = {
 	display = "Can be opened to receive 1 Medical Supplies gear skin of your choosing.",
 	name = "Selection Gear Skin Box (Medical Supplies)",
 	max_num = 0,
-	type = 11,
+	type = 13,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -18167,10 +18167,7 @@ _G.pg.base.item_data_statistics[30520] = {
 			1
 		}
 	},
-	price = {
-		1,
-		7000
-	},
+	price = {},
 	index = {},
 	shiptrans_id = {}
 }
@@ -192911,6 +192908,216 @@ _G.pg.base.item_data_statistics[60305] = {
 	id = 60305,
 	is_world = 0,
 	icon = "props/draw_g",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60306] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: S",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60306,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60307] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: u",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60307,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60308] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: p",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60308,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60309] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: e",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60309,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60310] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: r",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60310,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60311] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60311,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60312] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: u",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60312,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60313] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: l",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60313,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60314] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: i",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60314,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60315] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: n",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60315,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
 	display_icon = {},
 	price = {},
 	index = {},

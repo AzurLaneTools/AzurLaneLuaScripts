@@ -13,6 +13,7 @@ function slot0.OnInit(slot0)
 	slot2 = slot0._tf
 	slot0.UIlist = UIItemList.New(slot2:Find("front/stars"), slot0._tf:Find("front/stars/star_tpl"))
 	slot0.shipState = slot0._tf:Find("front/flag")
+	slot0.proposeMark = slot0._tf:Find("front/propose")
 	slot0.otherBg = slot0._tf:Find("front/bg_other")
 	slot0.editTr = slot0._tf:Find("mask")
 	slot0.changskinBtn = slot0.editTr:Find("skin")
@@ -177,57 +178,20 @@ function slot0.UpdateShip(slot0, slot1)
 		end
 	end)
 	slot0.UIlist:align(slot1:getMaxStar())
-	setScrollText(slot0.nameTxt, slot1:getName())
+	setScrollText(slot0.nameTxt, slot1:GetColorName())
 	setPaintingPrefabAsync(slot0.paintingTr, slot1:getPainting(), "biandui")
 
 	slot4 = slot1:rarity2bgPrint()
 
 	GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. slot4, "", slot0.bgImage)
 	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType())))
-	slot0:UpdateFrame(slot4, slot1)
-	slot0:UpdateEffect(slot4, slot1)
+
+	slot6, slot7 = slot1:GetFrameAndEffect(true)
+
+	setRectShipCardFrame(slot0.frame, slot4, slot6)
+	setFrameEffect(slot0.otherBg, slot7)
+	setProposeMarkIcon(slot0.proposeMark, slot1)
 	slot0:UpdateProps(slot1)
-end
-
-function slot0.UpdateFrame(slot0, slot1, slot2)
-	slot3 = nil
-
-	setRectShipCardFrame(slot0.frame, slot1, slot2:ShowPropose() and "prop" .. (slot2:isBluePrintShip() and slot1 or slot2:isMetaShip() and "14" or "") or nil)
-end
-
-function slot0.UpdateEffect(slot0, slot1, slot2)
-	slot3 = nil
-	slot4 = false
-
-	if slot2:ShowPropose() then
-		if slot2:isMetaShip() then
-			slot3 = "duang_meta_jiehun_1"
-		else
-			slot3 = "duang_6_jiehun" .. (slot2:isBluePrintShip() and "_tuzhi" or "") .. "_1"
-		end
-	elseif slot2:isMetaShip() then
-		slot3 = "duang_meta_b" .. slot1
-	elseif slot2:getRarity() == 6 then
-		slot3 = "duang_6_1"
-	end
-
-	if slot3 then
-		eachChild(slot0.otherBg, function (slot0)
-			setActive(slot0, slot0.name == uv0 .. "(Clone)")
-
-			uv1 = uv1 or slot0.name == uv0 .. "(Clone)"
-		end)
-
-		if not slot4 then
-			slot5 = PoolMgr.GetInstance()
-
-			slot5:GetPrefab("effect/" .. slot3, "", true, function (slot0)
-				setParent(slot0, uv0.otherBg)
-			end)
-		end
-	end
-
-	setActive(slot0.otherBg, slot3)
 end
 
 function slot0.UpdateProps(slot0, slot1)

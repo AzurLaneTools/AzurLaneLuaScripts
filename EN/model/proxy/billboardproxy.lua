@@ -4,7 +4,8 @@ slot0.NONTIMER = {}
 
 function slot0.register(slot0)
 	uv0.NONTIMER = {
-		PowerRank.TYPE_MILITARY_RANK
+		PowerRank.TYPE_MILITARY_RANK,
+		PowerRank.TYPE_BOSSRUSH
 	}
 	slot0.data = {}
 	slot0.playerData = {}

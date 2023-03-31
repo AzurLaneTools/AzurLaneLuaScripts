@@ -1,5 +1,51 @@
 pg = pg or {}
 pg.enemy_data_statistics_361 = {
+	[16502111] = {
+		cannon = 22,
+		name = "Le Mars Mechanicus Pawn - Wanderer",
+		type = 1,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 22,
+		speed = 36,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 360,
+		antiaircraft_growth = 3000,
+		reload = 150,
+		hit = 25,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 626,
+		base = 90279,
+		icon_type = 1,
+		armor_growth = 0,
+		torpedo_growth = 5200,
+		antiaircraft = 72,
+		hit_growth = 280,
+		armor = 0,
+		durability = 3060,
+		torpedo = 94,
+		id = 16502111,
+		durability_growth = 21600,
+		luck_growth = 0,
+		battle_unit_type = 50,
+		specific_fx_scale = {
+			yuanchou_kandao = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_kandao"
+		},
+		equipment_list = {
+			1100022,
+			1100397,
+			1100507
+		}
+	},
 	[16502112] = {
 		cannon = 38,
 		name = "Le Mars Mechanicus Pawn - Defender",
@@ -968,51 +1014,6 @@ pg.enemy_data_statistics_361 = {
 		equipment_list = {
 			1000608,
 			1000613
-		},
-		buff_list = {}
-	},
-	[16503003] = {
-		cannon = 18,
-		hit_growth = 144,
-		bubble_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 20004,
-		air = 0,
-		speed = 15,
-		dodge = 0,
-		id = 16503003,
-		cannon_growth = 1800,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck = 0,
-		reload = 150,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 17,
-		base = 90125,
-		durability = 1190,
-		armor_growth = 0,
-		torpedo_growth = 1250,
-		luck_growth = 0,
-		battle_unit_type = 35,
-		armor = 0,
-		durability_growth = 35200,
-		antiaircraft = 95,
-		antisub = 0,
-		antiaircraft_growth = 1400,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearsmall",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000618,
-			1000623,
-			1000628
 		},
 		buff_list = {}
 	}

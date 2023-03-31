@@ -238164,7 +238164,7 @@ _G.pg.base.task_data_template[42118] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	},
@@ -238205,7 +238205,7 @@ _G.pg.base.task_data_template[42119] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -238243,7 +238243,7 @@ _G.pg.base.task_data_template[42120] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -238281,7 +238281,7 @@ _G.pg.base.task_data_template[42121] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -238318,7 +238318,7 @@ _G.pg.base.task_data_template[42122] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -238362,7 +238362,7 @@ _G.pg.base.task_data_template[42123] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -238407,7 +238407,7 @@ _G.pg.base.task_data_template[42124] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			240
 		}
 	}
@@ -238444,7 +238444,7 @@ _G.pg.base.task_data_template[42125] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	},
@@ -238485,7 +238485,7 @@ _G.pg.base.task_data_template[42126] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -238523,7 +238523,7 @@ _G.pg.base.task_data_template[42127] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -238561,7 +238561,7 @@ _G.pg.base.task_data_template[42128] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -238598,7 +238598,7 @@ _G.pg.base.task_data_template[42129] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -238639,7 +238639,7 @@ _G.pg.base.task_data_template[42130] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -238684,7 +238684,7 @@ _G.pg.base.task_data_template[42131] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			240
 		}
 	}
@@ -238721,7 +238721,7 @@ _G.pg.base.task_data_template[42132] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	},
@@ -238762,7 +238762,7 @@ _G.pg.base.task_data_template[42133] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -238800,7 +238800,7 @@ _G.pg.base.task_data_template[42134] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -238838,7 +238838,7 @@ _G.pg.base.task_data_template[42135] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -238876,7 +238876,7 @@ _G.pg.base.task_data_template[42136] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -238914,7 +238914,7 @@ _G.pg.base.task_data_template[42137] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -238959,7 +238959,7 @@ _G.pg.base.task_data_template[42138] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			240
 		}
 	}
@@ -238997,7 +238997,7 @@ _G.pg.base.task_data_template[42139] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -239035,7 +239035,7 @@ _G.pg.base.task_data_template[42140] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -239073,7 +239073,7 @@ _G.pg.base.task_data_template[42141] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -239111,7 +239111,7 @@ _G.pg.base.task_data_template[42142] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -239149,7 +239149,7 @@ _G.pg.base.task_data_template[42143] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -239186,7 +239186,7 @@ _G.pg.base.task_data_template[42144] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -239234,7 +239234,7 @@ _G.pg.base.task_data_template[42145] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			240
 		}
 	}
@@ -239272,7 +239272,7 @@ _G.pg.base.task_data_template[42146] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -239309,7 +239309,7 @@ _G.pg.base.task_data_template[42147] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	},
@@ -239353,7 +239353,7 @@ _G.pg.base.task_data_template[42148] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -239390,7 +239390,7 @@ _G.pg.base.task_data_template[42149] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -239431,7 +239431,7 @@ _G.pg.base.task_data_template[42150] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -239469,7 +239469,7 @@ _G.pg.base.task_data_template[42151] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -239514,7 +239514,7 @@ _G.pg.base.task_data_template[42152] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			240
 		}
 	}
@@ -239552,7 +239552,7 @@ _G.pg.base.task_data_template[42153] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -239589,7 +239589,7 @@ _G.pg.base.task_data_template[42154] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	},
@@ -239630,7 +239630,7 @@ _G.pg.base.task_data_template[42155] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -239667,7 +239667,7 @@ _G.pg.base.task_data_template[42156] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -239708,7 +239708,7 @@ _G.pg.base.task_data_template[42157] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -239746,7 +239746,7 @@ _G.pg.base.task_data_template[42158] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -239791,7 +239791,7 @@ _G.pg.base.task_data_template[42159] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			240
 		}
 	}
@@ -239829,7 +239829,7 @@ _G.pg.base.task_data_template[42160] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -239867,7 +239867,7 @@ _G.pg.base.task_data_template[42161] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -239905,7 +239905,7 @@ _G.pg.base.task_data_template[42162] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -239942,7 +239942,7 @@ _G.pg.base.task_data_template[42163] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -239983,7 +239983,7 @@ _G.pg.base.task_data_template[42164] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -240021,7 +240021,7 @@ _G.pg.base.task_data_template[42165] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -240066,7 +240066,7 @@ _G.pg.base.task_data_template[42166] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			240
 		}
 	}
@@ -240104,7 +240104,7 @@ _G.pg.base.task_data_template[42167] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -240142,7 +240142,7 @@ _G.pg.base.task_data_template[42168] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -240179,7 +240179,7 @@ _G.pg.base.task_data_template[42169] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	},
@@ -240220,7 +240220,7 @@ _G.pg.base.task_data_template[42170] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -240258,7 +240258,7 @@ _G.pg.base.task_data_template[42171] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -240296,7 +240296,7 @@ _G.pg.base.task_data_template[42172] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -240341,7 +240341,7 @@ _G.pg.base.task_data_template[42173] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			240
 		}
 	}
@@ -240378,7 +240378,7 @@ _G.pg.base.task_data_template[42174] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	},
@@ -240418,7 +240418,7 @@ _G.pg.base.task_data_template[42175] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	},
@@ -240458,7 +240458,7 @@ _G.pg.base.task_data_template[42176] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	},
@@ -240498,7 +240498,7 @@ _G.pg.base.task_data_template[42177] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	},
@@ -240538,7 +240538,7 @@ _G.pg.base.task_data_template[42178] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -240578,7 +240578,7 @@ _G.pg.base.task_data_template[42179] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -240618,7 +240618,7 @@ _G.pg.base.task_data_template[42180] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -240658,7 +240658,7 @@ _G.pg.base.task_data_template[42181] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -240698,7 +240698,7 @@ _G.pg.base.task_data_template[42182] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			240
 		}
 	},
@@ -240739,7 +240739,7 @@ _G.pg.base.task_data_template[42183] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -240777,7 +240777,7 @@ _G.pg.base.task_data_template[42184] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -240815,7 +240815,7 @@ _G.pg.base.task_data_template[42185] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -240853,7 +240853,7 @@ _G.pg.base.task_data_template[42186] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -240891,7 +240891,7 @@ _G.pg.base.task_data_template[42187] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -240929,7 +240929,7 @@ _G.pg.base.task_data_template[42188] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -240967,7 +240967,7 @@ _G.pg.base.task_data_template[42189] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -241005,7 +241005,7 @@ _G.pg.base.task_data_template[42190] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -241043,7 +241043,7 @@ _G.pg.base.task_data_template[42191] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -241081,7 +241081,7 @@ _G.pg.base.task_data_template[42192] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -241119,7 +241119,7 @@ _G.pg.base.task_data_template[42193] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -241157,7 +241157,7 @@ _G.pg.base.task_data_template[42194] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -241195,7 +241195,7 @@ _G.pg.base.task_data_template[42195] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -241233,7 +241233,7 @@ _G.pg.base.task_data_template[42196] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -241271,7 +241271,7 @@ _G.pg.base.task_data_template[42197] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			180
 		}
 	}
@@ -241309,7 +241309,7 @@ _G.pg.base.task_data_template[42198] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			180
 		}
 	}
@@ -241347,7 +241347,7 @@ _G.pg.base.task_data_template[42199] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			180
 		}
 	}
@@ -241385,7 +241385,7 @@ _G.pg.base.task_data_template[42200] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			180
 		}
 	}
@@ -241422,7 +241422,7 @@ _G.pg.base.task_data_template[42201] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -241462,7 +241462,7 @@ _G.pg.base.task_data_template[42202] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -241502,7 +241502,7 @@ _G.pg.base.task_data_template[42203] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -241542,7 +241542,7 @@ _G.pg.base.task_data_template[42204] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -241582,7 +241582,7 @@ _G.pg.base.task_data_template[42205] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -241622,7 +241622,7 @@ _G.pg.base.task_data_template[42206] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -241662,7 +241662,7 @@ _G.pg.base.task_data_template[42207] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -241702,7 +241702,7 @@ _G.pg.base.task_data_template[42208] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	},
@@ -241742,7 +241742,7 @@ _G.pg.base.task_data_template[42209] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			240
 		}
 	},
@@ -241782,7 +241782,7 @@ _G.pg.base.task_data_template[42210] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			240
 		}
 	},
@@ -241823,7 +241823,7 @@ _G.pg.base.task_data_template[42211] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -241861,7 +241861,7 @@ _G.pg.base.task_data_template[42212] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -241899,7 +241899,7 @@ _G.pg.base.task_data_template[42213] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -241937,7 +241937,7 @@ _G.pg.base.task_data_template[42214] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			60
 		}
 	}
@@ -241975,7 +241975,7 @@ _G.pg.base.task_data_template[42215] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -242013,7 +242013,7 @@ _G.pg.base.task_data_template[42216] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			120
 		}
 	}
@@ -242051,7 +242051,7 @@ _G.pg.base.task_data_template[42217] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			240
 		}
 	}
@@ -242089,7 +242089,7 @@ _G.pg.base.task_data_template[42218] = {
 	award_display = {
 		{
 			1,
-			4009,
+			4010,
 			240
 		}
 	}

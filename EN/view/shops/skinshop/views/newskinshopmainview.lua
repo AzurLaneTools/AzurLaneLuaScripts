@@ -182,8 +182,8 @@ end
 
 function slot0.FlushName(slot0, slot1)
 	slot3 = pg.ship_skin_template[slot1:getSkinId()]
-	slot0.skinNameTxt.text = SwitchSpecialChar(HXSet.hxLan(slot3.name), true)
-	slot0.shipNameTxt.text = HXSet.hxLan(ShipGroup.getDefaultShipConfig(slot3.ship_group).name)
+	slot0.skinNameTxt.text = SwitchSpecialChar(slot3.name, true)
+	slot0.shipNameTxt.text = ShipGroup.getDefaultShipConfig(slot3.ship_group).name
 end
 
 function slot0.FlushPaintingToggle(slot0, slot1)
@@ -645,10 +645,10 @@ function slot0.OnPurchase(slot0, slot1)
 		return
 	end
 
-	slot4 = i18n("charge_scene_buy_confirm", slot1:GetPrice(), HXSet.hxLan(pg.ship_skin_template[slot1:getSkinId()].name))
+	slot4 = i18n("charge_scene_buy_confirm", slot1:GetPrice(), pg.ship_skin_template[slot1:getSkinId()].name)
 
 	if slot1:isDisCount() and slot1:IsItemDiscountType() then
-		slot4 = i18n("discount_coupon_tip", slot2, slot1:GetDiscountItem().name, HXSet.hxLan(slot3))
+		slot4 = i18n("discount_coupon_tip", slot2, slot1:GetDiscountItem().name, slot3)
 	end
 
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -706,7 +706,7 @@ function slot0.OnExperience(slot0, slot1)
 	slot6, slot7, slot8, slot9 = pg.TimeMgr.GetInstance():parseTimeFrom(slot1:getConfig("time_second") * slot4)
 
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
-		content = i18n("exchange_limit_skin_tip", slot4, HXSet.hxLan(pg.ship_skin_template[slot1:getSkinId()].name), slot6, slot7),
+		content = i18n("exchange_limit_skin_tip", slot4, pg.ship_skin_template[slot1:getSkinId()].name, slot6, slot7),
 		onYes = function ()
 			if getProxy(PlayerProxy):getRawData():getSkinTicket() < uv0 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))

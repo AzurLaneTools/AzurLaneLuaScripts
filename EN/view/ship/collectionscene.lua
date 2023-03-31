@@ -655,7 +655,7 @@ function slot0.openBonus(slot0, slot1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.bonusPanel)
 	setActive(slot0.bonusPanel, true)
 
-	slot0.boundName.text = HXSet.hxLan(slot1:getConfig("name"))
+	slot0.boundName.text = slot1:getConfig("name")
 	slot2 = slot1:getConfig("award_display")
 
 	for slot7, slot8 in ipairs(slot1:getConfig("level")) do
@@ -848,9 +848,9 @@ end
 function slot0.memoryFilter(slot0)
 	slot0.memoryGroups = {}
 
-	for slot4, slot5 in pairs(pg.memory_group) do
-		if slot0.memoryFilterIndex[slot5.type] then
-			table.insert(slot0.memoryGroups, slot5)
+	for slot4, slot5 in ipairs(pg.memory_group.all) do
+		if slot0.memoryFilterIndex[pg.memory_group[slot5].type] then
+			table.insert(slot0.memoryGroups, slot6)
 		end
 	end
 

@@ -110,11 +110,36 @@ pg.activity_banner = {
 	{
 		id = 4,
 		pic = "temp4",
-		time = "stop",
 		type = 2,
 		param = {
 			"scene skinshop",
 			{}
+		},
+		time = {
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
@@ -189,12 +214,10 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "7010",
 		id = 7,
 		pic = "temp8",
-		type = 2,
-		param = {
-			"cruising"
-		},
+		type = 3,
 		time = {
 			{
 				{
@@ -223,7 +246,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4729",
+		param = "4733",
 		id = 8,
 		pic = "temp1",
 		type = 3,
@@ -231,8 +254,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					3,
-					16
+					4,
+					1
 				},
 				{
 					0,
@@ -243,8 +266,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					5,
-					11
+					4,
+					5
 				},
 				{
 					23,
@@ -381,6 +404,7 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[3] = {
 			1,
+			7,
 			8
 		},
 		[2] = {
@@ -388,8 +412,7 @@ pg.activity_banner = {
 			3,
 			4,
 			5,
-			6,
-			7
+			6
 		},
 		[9] = {
 			90,
