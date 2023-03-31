@@ -273,8 +273,6 @@ function slot0.autoHxShift(slot0, slot1)
 		if string.find(slot0, "live2d") then
 			if PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. slot1 .. "_hx")) then
 				return slot0, slot1 .. "_hx"
-			elseif PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. slot1)) then
-				return slot0, slot1
 			elseif pg.l2dhx[slot1] then
 				return slot0, slot1 .. "_hx"
 			end
@@ -297,8 +295,6 @@ function slot0.autoHxShiftPath(slot0, slot1, slot2)
 				end
 			elseif PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. "_hx")) then
 				return slot0 .. "_hx"
-			elseif PathMgr.FileExists(PathMgr.getAssetBundle(slot0)) then
-				return slot0
 			elseif pg.l2dhx[string.gsub(slot0, "live2d/", "")] then
 				return slot0 .. "_hx"
 			end

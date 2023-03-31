@@ -684,8 +684,7 @@ pg.spweapon_data_statistics = setmetatable({
 		10747,
 		10748,
 		10749,
-		10750,
-		10760
+		10750
 	},
 	get_id_list_by_unique = {
 		[0] = {
@@ -1450,9 +1449,6 @@ pg.spweapon_data_statistics = setmetatable({
 			10748,
 			10749,
 			10750
-		},
-		[100] = {
-			10760
 		}
 	}
 }, confMT)
@@ -4873,11 +4869,6 @@ cs.spweapon_data_statistics = {
 	[10750] = {
 		127184,
 		191,
-		true
-	},
-	[10760] = {
-		127375,
-		506,
 		true
 	}
 }
