@@ -10000,6 +10000,16 @@ pg.ship_meta_repair = {
 			4
 		}
 	},
+	[20221] = {
+		id = 20221,
+		repair_exp = 100,
+		item_id = 21131,
+		item_num = 16,
+		effect_attr = {
+			"torpedo",
+			4
+		}
+	},
 	[20401] = {
 		id = 20401,
 		repair_exp = 100,
@@ -10195,6 +10205,16 @@ pg.ship_meta_repair = {
 		repair_exp = 100,
 		item_id = 21121,
 		item_num = 20,
+		effect_attr = {
+			"reload",
+			4
+		}
+	},
+	[20421] = {
+		id = 20421,
+		repair_exp = 100,
+		item_id = 21121,
+		item_num = 16,
 		effect_attr = {
 			"reload",
 			4
@@ -11201,6 +11221,7 @@ pg.ship_meta_repair = {
 		20218,
 		20219,
 		20220,
+		20221,
 		20401,
 		20402,
 		20403,
@@ -11220,6 +11241,7 @@ pg.ship_meta_repair = {
 		20417,
 		20418,
 		20419,
-		20420
+		20420,
+		20421
 	}
 }

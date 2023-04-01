@@ -108,13 +108,10 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4731",
 		id = 4,
 		pic = "temp4",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
+		type = 3,
 		time = {
 			{
 				{
@@ -404,13 +401,13 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[3] = {
 			1,
+			4,
 			7,
 			8
 		},
 		[2] = {
 			2,
 			3,
-			4,
 			5,
 			6
 		},
