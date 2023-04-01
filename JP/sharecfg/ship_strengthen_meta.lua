@@ -5940,7 +5940,7 @@ pg.ship_strengthen_meta = {
 			20217,
 			20220,
 			20219,
-			20220
+			20221
 		},
 		repair_air = {},
 		repair_reload = {
@@ -5963,7 +5963,7 @@ pg.ship_strengthen_meta = {
 			20417,
 			20420,
 			20419,
-			20420
+			20421
 		},
 		repair_effect = {
 			{
