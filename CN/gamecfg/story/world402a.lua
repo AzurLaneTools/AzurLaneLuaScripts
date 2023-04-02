@@ -72,7 +72,7 @@ return {
 			actor = 401020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欢迎来到达咯尔港，我是驱逐舰Z2，根据铁血司令部的命令在此等候各位的到来。",
+			say = "欢迎来到达咯尔港，我是驱逐舰{namecode:401}，根据铁血司令部的命令在此等候各位的到来。",
 			flashout = {
 				black = true,
 				dur = 0.5,

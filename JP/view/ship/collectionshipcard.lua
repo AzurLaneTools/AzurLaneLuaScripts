@@ -102,14 +102,14 @@ function slot0.flush(slot0)
 end
 
 function slot0.loadImage(slot0, slot1, slot2)
-	slot4 = shipRarity2bgPrint(slot1:getRarity(slot0.showTrans), nil, slot1:isBluePrintGroup(), slot1:isMetaGroup())
-	slot5 = slot2 and slot1:getPainting(slot0.showTrans) or "unknown"
+	slot3 = slot1:rarity2bgPrint(slot0.showTrans)
+	slot4 = slot2 and slot1:getPainting(slot0.showTrans) or "unknown"
 
-	GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. slot4, "", slot0.imageBg)
+	GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. slot3, "", slot0.imageBg)
 
-	slot0.loadingPaintingName = slot5
+	slot0.loadingPaintingName = slot4
 
-	GetSpriteFromAtlasAsync("shipYardIcon/" .. slot5, "", function (slot0)
+	GetSpriteFromAtlasAsync("shipYardIcon/" .. slot4, "", function (slot0)
 		if not IsNil(uv0.go) and uv0.loadingPaintingName == uv1 then
 			uv0.iconShip.sprite = slot0
 		end
@@ -118,7 +118,7 @@ function slot0.loadImage(slot0, slot1, slot2)
 	slot0.iconType.sprite = GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType(slot0.showTrans)))
 
 	setScrollText(slot0.labelName, slot1:getName(slot0.showTrans))
-	setShipCardFrame(slot0.shipFrameImg, slot4)
+	setShipCardFrame(slot0.shipFrameImg, slot3)
 end
 
 function slot0.clear(slot0)

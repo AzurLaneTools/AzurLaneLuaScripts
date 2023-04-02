@@ -46,7 +46,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海因里希作战顺利，“重樱”舰队也在向预定位置接近，很快两支舰队将会在D13防御模块附近汇合。",
+			say = "{namecode:454}作战顺利，“重樱”舰队也在向预定位置接近，很快两支舰队将会在D13防御模块附近汇合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来就是彼得那边……",
+			say = "接下来就是{namecode:471}那边……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是威悉。彼得，你那边的准备工作怎么样？",
+			say = "这里是{namecode:467}。{namecode:471}，你那边的准备工作怎么样？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

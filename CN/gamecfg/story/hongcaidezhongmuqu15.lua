@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "讲的好，塞德利茨！现在剩下的敌人还有多少？",
+			say = "讲的好，{namecode:460}！现在剩下的敌人还有多少？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

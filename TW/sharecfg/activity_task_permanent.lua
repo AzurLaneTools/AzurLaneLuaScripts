@@ -1,5 +1,18 @@
 pg = pg or {}
-pg.activity_task_permanent = {
+pg.activity_task_permanent = setmetatable({
+	__name = "activity_task_permanent",
+	all = {
+		6000,
+		6001,
+		6002,
+		6008,
+		6009,
+		6011,
+		6018
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.activity_task_permanent = {
 	[6000] = {
 		gametip = "可獲得山城限定換裝「季夏攻勢」 ",
 		banner_route = "permanent_yamashiro",
@@ -164,14 +177,5 @@ pg.activity_task_permanent = {
 			35221,
 			35222
 		}
-	},
-	all = {
-		6000,
-		6001,
-		6002,
-		6008,
-		6009,
-		6011,
-		6018
 	}
 }

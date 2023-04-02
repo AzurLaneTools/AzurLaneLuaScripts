@@ -160,7 +160,7 @@ end
 function slot10.updateDetectedList(slot0)
 	slot2 = uv0.TargetDiveState(slot0._host, {
 		diveState = uv1.OXY_STATE.DIVE
-	}, uv0.TargetAllFoe(slot0._host))
+	}, uv0.LegalTarget(slot0._host))
 	slot3 = slot0:FilterRange(slot2)
 
 	for slot7, slot8 in ipairs(slot2) do
@@ -181,7 +181,7 @@ end
 function slot10.FilterTarget(slot0)
 	return slot0:FilterRange(uv0.TargetDiveState(slot0._host, {
 		diveState = uv1.OXY_STATE.DIVE
-	}, uv0.TargetAllFoe(slot0._host)))
+	}, uv0.LegalTarget(slot0._host)))
 end
 
 function slot10.FilterRange(slot0, slot1)

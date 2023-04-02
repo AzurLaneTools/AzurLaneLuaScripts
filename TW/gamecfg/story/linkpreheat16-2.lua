@@ -238,7 +238,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "学院指的是……Z23的大本营吧？",
+			say = "学院指的是……{namecode:408}的大本营吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是个好点子，Z23！就是嘛，好不容易来到这边的世界了，来我们这里坐坐吧，就当休息了",
+			say = "真是个好点子，{namecode:408}！就是嘛，好不容易来到这边的世界了，来我们这里坐坐吧，就当休息了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -630,7 +630,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "铁血浮岛要塞负责人彼得·史特拉塞大人发来了联络，她想和您确认一下舰队对接的细节。",
+			say = "铁血浮岛要塞负责人{namecode:470}大人发来了联络，她想和您确认一下舰队对接的细节。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

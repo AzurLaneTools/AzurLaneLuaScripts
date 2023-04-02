@@ -214,7 +214,7 @@ function slot0.updateEliteLimit(slot0)
 				slot2:Find("Text"):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
 			end
 
-			setText(slot2:Find("Text"), AttributeType.EliteCondition2Name(slot4, slot7) .. AttributeType.eliteConditionCompareTip[slot5] .. slot6 .. "（" .. uv2[slot4] .. "）")
+			setText(slot2:Find("Text"), AttributeType.EliteCondition2Name(slot4, slot7) .. AttributeType.eliteConditionCompareTip(slot5) .. slot6 .. "（" .. uv2[slot4] .. "）")
 		end
 	end)
 	slot4:align(#slot1)

@@ -366,7 +366,7 @@ return {
 			actor = 307110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可恶…指挥官看不到的演唱会什么的…得跟罗恩商量一下，让她好好录下来……",
+			say = "可恶…指挥官看不到的演唱会什么的…得跟{namecode:439}商量一下，让她好好录下来……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

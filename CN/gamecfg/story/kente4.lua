@@ -146,7 +146,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "走得差不多了 呢！该回指挥室——嗯？那是…俾斯麦…和威尔士亲王？",
+			say = "走得差不多了 呢！该回指挥室——嗯？那是…{namecode:435}…和威尔士亲王？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "俾斯麦扶着帽檐，以目光示意，比了比大树上的位置。",
+			say = "{namecode:435}扶着帽檐，以目光示意，比了比大树上的位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "威尔士亲王望着小猫，语气中透露出些许的担心，俾斯麦似乎也是如此，不过…",
+			say = "威尔士亲王望着小猫，语气中透露出些许的担心，{namecode:435}似乎也是如此，不过…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

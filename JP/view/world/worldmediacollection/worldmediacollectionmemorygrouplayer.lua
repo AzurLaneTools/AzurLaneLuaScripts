@@ -147,14 +147,14 @@ function slot0.MemoryFilter(slot0)
 		return slot0
 	end) and slot0.memoryFilterIndex[uv0.PAGE_ACTIVITY]
 
-	for slot6, slot7 in pairs(pg.memory_group) do
-		if slot0.memoryFilterIndex[slot7.type] then
+	for slot6, slot7 in ipairs(pg.memory_group.all) do
+		if slot0.memoryFilterIndex[pg.memory_group[slot7].type] then
 			if slot2 then
-				if slot0.activityFilter == 0 or slot0.activityFilter == slot7.subtype then
-					table.insert(slot0.memoryGroups, slot7)
+				if slot0.activityFilter == 0 or slot0.activityFilter == slot8.subtype then
+					table.insert(slot0.memoryGroups, slot8)
 				end
 			else
-				table.insert(slot0.memoryGroups, slot7)
+				table.insert(slot0.memoryGroups, slot8)
 			end
 		end
 	end
@@ -190,7 +190,7 @@ function slot0.onUpdateMemoryGroup(slot0, slot1, slot2)
 
 	slot0.memoryGroupInfos[slot2] = slot3
 
-	setText(tf(slot2):Find("title"), HXSet.hxLan(slot3.title))
+	setText(tf(slot2):Find("title"), slot3.title)
 	slot0.loader:GetSpriteQuiet("memoryicon/" .. slot3.icon, "", tf(slot2):Find("BG"))
 	setActive(tf(slot2):Find("Tip"), PlayerPrefs.GetInt("MEMORY_GROUP_NOTIFICATION" .. getProxy(PlayerProxy):getRawData().id .. " " .. slot3.id, 0) == 1)
 	setText(tf(slot2):Find("count"), _.reduce(slot3.memories, 0, function (slot0, slot1)

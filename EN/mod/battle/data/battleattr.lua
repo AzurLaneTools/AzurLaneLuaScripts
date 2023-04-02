@@ -4,7 +4,6 @@ ys.Battle.BattleAttr = slot0
 slot1 = ys.Battle.BattleConst
 slot0.AttrListInheritance = {
 	"level",
-	"srcShipType",
 	"formulaLevel",
 	"repressReduce",
 	"cannonPower",
@@ -371,6 +370,73 @@ function slot0.SetEnemyWorldEnhance(slot0)
 	slot2.antiAirPower = slot2.antiAirPower * (1 + slot8)
 	slot2.antiSubPower = slot2.antiSubPower * (1 + slot8)
 	slot2.maxHP = math.ceil(slot2.maxHP * (1 + slot9))
+
+	uv0.SetBaseAttr(slot0)
+end
+
+function slot0.SetMinionAttr(slot0, slot1)
+	slot4 = slot0._tmpData
+	slot5 = uv0.GetAttr(slot0:GetMaster()).level
+	slot6 = slot0._attr or {}
+	slot0._attr = slot6
+	slot6.battleUID = slot0:GetUniqueID()
+
+	for slot10, slot11 in ipairs(uv0.AttrListInheritance) do
+		slot6[slot11] = slot3[slot11]
+	end
+
+	for slot10, slot11 in pairs(slot3) do
+		if string.find(slot10, uv0.TAG_EHC_KEY) then
+			slot6[slot10] = slot11
+		end
+	end
+
+	for slot10, slot11 in pairs(slot3) do
+		if string.find(slot10, uv0.TAG_CRI_EHC_KEY) then
+			slot6[slot10] = slot11
+		end
+	end
+
+	slot6.id = slot3.id
+	slot6.level = slot5
+	slot6.formulaLevel = slot5
+
+	function slot7(slot0, slot1)
+		if uv0[slot0 .. "_growth"] ~= 0 then
+			uv1[slot1] = uv2[slot1] * slot2 * 0.0001
+		else
+			uv1[slot1] = uv0[slot0]
+		end
+	end
+
+	slot6.HPRate = 1
+	slot6.DMGRate = 0
+
+	slot7("durability", "maxHP")
+	slot7("cannon", "cannonPower")
+	slot7("torpedo", "torpedoPower")
+	slot7("antiaircraft", "antiAirPower")
+	slot7("air", "airPower")
+	slot7("antisub", "antiSubPower")
+	slot7("reload", "loadSpeed")
+	slot7("hit", "attackRating")
+	slot7("dodge", "dodgeRate")
+	slot7("luck", "luck")
+
+	slot6.armorType = slot4.armor_type
+
+	slot7("speed", "velocity")
+
+	slot6.velocity = ys.Battle.BattleFormulas.ConvertShipSpeed(slot6.velocity)
+	slot6.baseVelocity = slot6.velocity
+	slot6.bulletSpeedRatio = 0
+	slot6.id = "minion_" .. tostring(slot4.id)
+	slot6.repressReduce = 1
+	slot6.healingRate = 1
+	slot6.comboTag = "combo_" .. slot6.battleUID
+	slot6.labelTag = {}
+	slot6.TargetChoise = {}
+	slot6.guardian = {}
 
 	uv0.SetBaseAttr(slot0)
 end

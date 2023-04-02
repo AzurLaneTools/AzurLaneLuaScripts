@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "完了完了，看来可怜的U-1206是最近跟乌尔里希呆的时间太长，已经被同化了。",
+			say = "完了完了，看来可怜的{namecode:476}是最近跟{namecode:464}呆的时间太长，已经被同化了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愧是乌尔里希，这个说法某种意义上跟U-1206马桶论的不相上下了……",
+			say = "不愧是{namecode:464}，这个说法某种意义上跟{namecode:476}马桶论的不相上下了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_midgard_3",
 			dir = 1,
 			blackBg = true,
-			say = "对于这个提问，乌尔里希·冯·胡滕只是神秘莫测地笑了笑，没有回答。",
+			say = "对于这个提问，{namecode:463}只是神秘莫测地笑了笑，没有回答。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

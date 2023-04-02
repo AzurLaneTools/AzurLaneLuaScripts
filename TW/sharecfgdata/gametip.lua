@@ -1775,18 +1775,17 @@ _G.pg.base.gametip.exercise_time_tip = {
 
 _G.pg.base.gametip.exercise_rule_tip = {
 	tip = [[
-   1、每<color=#a9f548>14</color>天為一個賽季，賽季中達到指定軍銜，即可獲得軍銜對應獎勵
-   2、戰鬥勝利可以按軍銜等級獲得功勳，即使失敗也可獲得<color=#a9f548>一半</color>的功勳
-   3、戰鬥勝利可以獲得積分，戰鬥失敗<color=#a9f548>不會扣除積分</color>
+1、每<color=#92fc63>14</color>天為一個賽季，賽季中達到指定軍銜，即可獲得軍銜對應獎勵
+   2、戰鬥勝利可以按軍銜等級獲得功勳，即使失敗也可獲得<color=#92fc63>一半</color>的功勳
+   3、戰鬥勝利可以獲得積分，戰鬥失敗<color=#92fc63>不會扣除積分</color>
    4、受到其他人的挑戰而失敗不會扣除積分
-   5、積分達到一定值，就可以提升軍銜，<color=#a9f548>將階以上</color>軍銜需要達到一定名次
+   5、積分達到一定值，就可以提升軍銜，<color=#92fc63>將階以上</color>軍銜需要達到一定名次
    6、軍銜只要達到過1次，就會立刻獲得軍銜獎勵
    7、獲得的功勳可以在功勳商店兌換科技箱、角色等獎勵
-   8、演習對手可以免費手動更換，每天只能更換<color=#a9f548>5</color>次
-   9 、挑戰後，無論成敗，都會自動更換一組對手
-   10、演習次數每天00:00、12:00、18:00重置，重置時增加<color=#a9f548>5</color>次演習次
-   數，演習次數上限為<color=#a9f548>10</color>次
-   11、賽季結束後，所有玩家軍銜和積分重置]]
+   8、演習對手可以免費手動更換，每天只能更換<color=#92fc63>5</color>次
+   9、挑戰後，無論勝敗，都會自動更換一組對手
+   10、演習次數每天00:00、12:00、18:00刷新，刷新時增加<color=#92fc63>5</color>次演習次數，演習次數上限為<color=#92fc63>10</color>次
+   11、賽季結束後，所有玩家演習次數、軍銜和積分重置]]
 }
 
 _G.pg.base.gametip.exercise_award_tip = {
@@ -4965,6 +4964,10 @@ _G.pg.base.gametip.word_shipNation_weixi = {
 	tip = "維希教廷"
 }
 
+_G.pg.base.gametip.word_shipNation_yuanwei = {
+	tip = "鳶尾教國"
+}
+
 _G.pg.base.gametip.word_shipNation_um = {
 	tip = "傳頌之物"
 }
@@ -7604,6 +7607,10 @@ _G.pg.base.gametip.word_propose_cost_tip = {
 	tip = "誓約需要消耗<color=#a0ff40>1</color>枚誓約之戒（當前擁有<color=#a0ff40>$1</color>枚）\n\n<size= 32>*誓約後角色將成為專屬艦，可重新命名並獲得<color=#a0ff40>3%</color>屬性加成</size>"
 }
 
+_G.pg.base.gametip.word_propose_switch_tip = {
+	tip = "更改成功"
+}
+
 _G.pg.base.gametip.evaluate_too_loog = {
 	tip = "評論過長"
 }
@@ -9670,7 +9677,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "龍鳳、風雲、駿河、霞、白雪 建造機率UP！"
+	tip = "霞飛、不屈、企業 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -10547,7 +10554,7 @@ _G.pg.base.gametip.world_boss_help = {
 8.當「演習據點」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗盡</color>後，會記錄本服達成的里程碑時間，同時，在演習中獲得過「貢獻值」的玩家可以獲得相應獎勵
 9.獎勵將在「演習據點」完全耗盡後，通過郵件發放，如果活動結束時耐久未被耗盡，則會根據據點推進進度，為在演習中獲得過「貢獻值」的玩家發放對應進度的獎勵
 10.活動期間，可以領取個人貢獻獎勵，個人貢獻獎勵需要當據點攻略進度和擁有的「貢獻值」達到指定要求後才能領取
-11.1.18-2.02維護前期間可以參與演習戰鬥，獎勵領取的截止時間為2.8 23:59]]
+11.3.23-4.06維護前期間可以參與演習戰鬥，獎勵領取的截止時間為4.12 23:59]]
 		},
 		{
 			info = [[
@@ -13177,7 +13184,7 @@ _G.pg.base.gametip.bulin_tip9 = {
 }
 
 _G.pg.base.gametip.bulin_tip_other1 = {
-	tip = "是否解鎖提示？20分鐘內只能解鎖一個提示"
+	tip = "是否解鎖提示？10分鐘內只能解鎖一個提示"
 }
 
 _G.pg.base.gametip.bulin_tip_other2 = {
@@ -19577,6 +19584,83 @@ _G.pg.base.gametip.cruise_task_help_2210 = {
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2212 = {
+	tip = "2023.4.1-2023.5.31期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可獲取<color=#854747>「命運女神·META」</color>在內的豐富獎勵"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2212 = {
+	tip = {
+		{
+			info = [[
+世界巡遊(2023.4.1-2023.5.31)
+
+·<color=#92fc63>開放時間</color>
+    2023.4.1 0點 ~ 2023.5.31 23:59:59
+
+·<color=#92fc63>巡游進度說明</color>
+（1）活動期間，指揮官通過完成巡遊任務，可獲取「巡遊點數」。 
+（2）巡遊任務隨時間開放解鎖。 
+（3）每獲取100點「巡遊點數」即可增加1巡游進度
+（4）巡游進度提升後可以獲取相應等級的獎勵，巡游進度最高可達100。 
+
+·<color=#92fc63>獎勵規則</color>
+巡游進度獎勵分為兩種：
+（1）基礎巡遊獎勵：包含<color=#ff5c5c>「命運女神·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·四期</color>等獎勵；
+    當巡遊達到指定進度時，指揮官可以直接領取相應的基礎巡遊獎勵。 
+（2）特許巡遊獎勵：包含<color=#ff5c5c>克里夫蘭換裝「南方之旅</color>」、<color=#ff5c5c>鑽石</color>等獎勵；
+    購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。 
+    注：購買「特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。 
+
+·<color=#92fc63>「特許巡遊憑證」說明</color>
+（1）「特許巡遊憑證」可於「商店」-「優惠禮包」中購買，購買後可立刻獲得<color=#ff5c5c>1500點</color>「巡遊點數」同時解鎖特許巡遊獎勵。 
+（2）「特許巡遊憑證」將於<color=#ff5c5c>活動結束前一小時</color>停止售賣(即5.31 22:59:59停止)，請指揮官注意購買時間。 
+
+·<color=#92fc63>任務說明</color>
+巡遊任務分為兩種：
+（1）每週任務 
+    巡遊任務中共有8組每週任務。自活動開始後解鎖第一周任務，之後每週一的0點解鎖下一組每週任務
+（2）S.P.任務
+    S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。 
+（3）巡遊任務在解鎖後將自動接取，滿足任務完成條件時，會自動完成並獲取對應獎勵。 
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成大部分巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的完成券數量固定，與當前任務進度無關
+（4）「巡遊任務快速完成券」不會隨本期活動結束而消失
+
+·<color=#ff5c5c>特別提示</color>
+（1）在本期世界巡遊活動結束後，所有巡遊任務將會無法繼續完成，所有巡遊獎勵將會無法繼續領取，請各位指揮官務必注意活動結束時間，提前領取獎勵。 
+（2）巡游進度、[特許巡遊憑證]僅對本期世界巡遊活動生效]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2212 = {
+	tip = {
+		{
+			info = [[
+巡遊任務說明
+
+·<color=#92fc63>開放時間</color>
+    2023.4.1 0點 ~ 2023.5.31 23:59:59
+
+·<color=#92fc63>巡遊任務分為兩種</color>
+（1）每週任務
+    巡遊任務中共有8組每週任務。自活動開始後解鎖第一周任務，之後每週一的0點解鎖下一組每週任務。 
+（2）S.P.任務
+    S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。 
+（3）巡遊任務在解鎖後將自動接取，滿足任務完成條件時，會自動完成並獲取對應獎勵
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成每週巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的「巡遊任務快速完成券」數量和其提供的「巡遊點數」相關，與當前任務進度無關
+（4）「巡遊任務快速完成券」<color=#92fc63>不會隨本期活動結束而消失</color>]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "全部重置"
 }
@@ -21608,4 +21692,62 @@ _G.pg.base.gametip.setting_label_private = {
 
 _G.pg.base.gametip.setting_label_licence = {
 	tip = "使用者協議"
+}
+
+_G.pg.base.gametip.caibulin_tip1 = {
+	tip = "從作戰中搜尋線索，目標1-2Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip2 = {
+	tip = "倉庫……很可疑，是一個適合藏匿線索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip3 = {
+	tip = "從作戰中搜尋線索，目標2-2Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip4 = {
+	tip = "船塢……很可疑，是一個適合藏匿線索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip5 = {
+	tip = "從作戰中搜尋線索，目標1-4Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip6 = {
+	tip = "後宅……很可疑，是一個適合藏匿線索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip7 = {
+	tip = "從作戰中搜尋線索，目標2-4Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip8 = {
+	tip = "學院……很可疑，是一個適合藏匿線索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip9 = {
+	tip = "補給商店……很可疑，是一個適合藏匿線索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip10 = {
+	tip = "建造台……很可疑，是一個適合藏匿線索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_help = {
+	tip = {
+		{
+			info = [[
+活動說明：
+1.活動期間，在特定介面或關卡中可收集相應的神器線索
+2.當收集線索遇到困難時，可以點擊線索格解鎖提示
+注意：10分鐘內只能解鎖一個提示哦
+3.線索收集完成可以開啟特別關卡，挑戰特別關卡並取
+得勝利可以獲得特殊獎勵]]
+		}
+	}
+}
+
+_G.pg.base.gametip.caibulin_tip11 = {
+	tip = "神器線索收集完成即可解鎖特別關卡~"
 }

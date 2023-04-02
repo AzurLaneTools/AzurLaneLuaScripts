@@ -68,7 +68,7 @@ function slot0.update(slot0, slot1)
 		slot0._go.name = slot1.id
 	end
 
-	slot0.descTxt.text = HXSet.hxLan(slot1:getConfig("desc"))
+	slot0.descTxt.text = slot1:getConfig("desc")
 	slot0.tagTF.sprite = GetSpriteFromAtlas("ui/TaskUI_atlas", uv0.Type2Tag(slot1:GetRealType()))
 	slot2 = slot1:getConfig("target_num")
 

@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "你们看那个沙恩霍斯特的眼神……是不是正盘算着要干掉我们啊。",
+			say = "你们看那个{namecode:433}的眼神……是不是正盘算着要干掉我们啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "我说沙恩霍斯特，将这些情报透露给我们真的好吗？",
+			say = "我说{namecode:433}，将这些情报透露给我们真的好吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "嘘——格奈森瑙，你这是在说什么话，不要火上浇油啊！",
+			say = "嘘——{namecode:434}，你这是在说什么话，不要火上浇油啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这要由乌尔里希阁下进行判断了，舰队旗舰没有命令，我们不能擅自行动。",
+			say = "这要由{namecode:464}阁下进行判断了，舰队旗舰没有命令，我们不能擅自行动。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

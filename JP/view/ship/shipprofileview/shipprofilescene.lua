@@ -13,9 +13,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.preload(slot0, slot1)
-	slot3 = getProxy(CollectionProxy):getShipGroup(slot0.contextData.groupId)
-
-	LoadSpriteAtlasAsync("bg/star_level_bg_" .. shipRarity2bgPrint(slot3:getRarity(slot0.showTrans), slot3:GetSkin(slot0.contextData.showTrans).id, slot3:isBluePrintGroup(), slot3:isMetaGroup()), "", slot1)
+	LoadSpriteAtlasAsync("bg/star_level_bg_" .. getProxy(CollectionProxy):getShipGroup(slot0.contextData.groupId):rarity2bgPrintForGet(slot0.showTrans), "", slot1)
 end
 
 function slot0.setShipGroup(slot0, slot1)
@@ -223,25 +221,22 @@ function slot0.InitSkinList(slot0)
 end
 
 function slot0.InitCommon(slot0)
-	slot1 = slot0.shipGroup.shipConfig
-	slot2 = slot0.shipGroup:getPainting(slot0.showTrans)
-
-	slot0:LoadSkinBg(shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.shipGroup:GetSkin(slot0.showTrans).id, slot0.isBluePrintGroup, slot0.isMetaGroup))
+	slot0:LoadSkinBg(slot0.shipGroup:rarity2bgPrintForGet(slot0.showTrans))
 	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", slot0.shipGroup:getShipType(slot0.showTrans)))
 
-	slot6 = slot0.shipGroup
-	slot7 = slot6
+	slot5 = slot0.showTrans
 
-	setScrollText(tf(slot0.labelName), slot6.getName(slot7, slot0.showTrans))
+	setScrollText(tf(slot0.labelName), slot0.shipGroup:getName(slot5))
 
+	slot1 = slot0.shipGroup.shipConfig
 	slot0.labelEnName.text = slot1.english_name
 
-	for slot7 = 1, slot1.star do
+	for slot5 = 1, slot1.star do
 		cloneTplTo(slot0.star, slot0.stars)
 	end
 
 	slot0:FlushHearts()
-	slot0:SetPainting(slot3, slot0.showTrans)
+	slot0:SetPainting(slot0.shipGroup:GetSkin(slot0.showTrans).id, slot0.showTrans)
 end
 
 function slot0.SetPainting(slot0, slot1, slot2)
@@ -274,8 +269,8 @@ function slot0.FlushHearts(slot0)
 end
 
 function slot0.LoadSkinBg(slot0, slot1)
-	slot0.bluePintBg = slot0.isBluePrintGroup and shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), nil, true, false)
-	slot0.metaMainBg = slot0.isMetaGroup and shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), nil, false, true)
+	slot0.bluePintBg = slot0.isBluePrintGroup and slot0.shipGroup:rarity2bgPrintForGet(slot0.showTrans)
+	slot0.metaMainBg = slot0.isMetaGroup and slot0.shipGroup:rarity2bgPrintForGet(slot0.showTrans)
 
 	if slot0.shipSkinBg ~= slot1 then
 		slot0.shipSkinBg = slot1
@@ -464,9 +459,9 @@ function slot0.ShiftSkin(slot0, slot1)
 
 	slot3 = nil
 
-	slot0:LoadSkinBg((not slot0.skin.bg_sp or slot0.skin.bg_sp == "" or not (PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.skin.painting, 0) == 0) or slot0.skin.bg_sp) and (not slot0.skin.bg or slot0.skin.bg == "" or slot0.skin.bg) and shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.skin.id, slot0.shipGroup:isBluePrintGroup(), slot0.shipGroup:isMetaGroup()))
+	slot0:LoadSkinBg((not slot0.skin.bg_sp or slot0.skin.bg_sp == "" or not (PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.skin.painting, 0) == 0) or slot0.skin.bg_sp) and (not slot0.skin.bg or slot0.skin.bg == "" or slot0.skin.bg) and slot0.shipGroup:rarity2bgPrintForGet(slot0.showTrans, slot0.skin.id))
 
-	slot0.haveOp = PathMgr.FileExists(PathMgr.getAssetBundle("ui/star_level_unlock_anim_" .. slot0.skin.id))
+	slot0.haveOp = PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/star_level_unlock_anim_" .. slot0.skin.id))
 end
 
 function slot0.LoadModel(slot0, slot1)
@@ -738,7 +733,7 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.playOpening(slot0, slot1)
-	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. ("star_level_unlock_anim_" .. slot0.skin.id))) then
+	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/" .. ("star_level_unlock_anim_" .. slot0.skin.id))) then
 		slot4 = pg.CpkPlayMgr.GetInstance()
 
 		slot4:PlayCpkMovie(function ()
@@ -746,7 +741,7 @@ function slot0.playOpening(slot0, slot1)
 			if uv0 then
 				uv0()
 			end
-		end, "ui", slot2, true, true, nil)
+		end, "ui/skinunlockanim", slot2, true, true, nil)
 	elseif slot1 then
 		slot1()
 	end

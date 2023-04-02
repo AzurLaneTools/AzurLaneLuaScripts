@@ -174,7 +174,7 @@ return {
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			dir = 1,
-			say = "罗恩，一会稍微手下留情一点，打完塞壬舰队，压制住对面之后就先停手哦！",
+			say = "{namecode:439}，一会稍微手下留情一点，打完塞壬舰队，压制住对面之后就先停手哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

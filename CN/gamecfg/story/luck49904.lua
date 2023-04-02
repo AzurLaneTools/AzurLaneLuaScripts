@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "力量变得更强的奥丁，一定会实现你的夙愿。",
+			say = "力量变得更强的{namecode:486}，一定会实现你的夙愿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

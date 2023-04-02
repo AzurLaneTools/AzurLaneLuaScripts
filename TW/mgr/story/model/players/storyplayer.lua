@@ -594,7 +594,7 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 			setActive(slot13, slot11)
 
 			if slot12 then
-				slot0:UpdateEffectInterLayer(slot10, slot12)
+				slot0:UpdateEffectInterLayer(slot10, slot13)
 			end
 
 			if slot11 == false then
@@ -618,7 +618,7 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 						slot0.name = uv2
 
 						if uv3 then
-							uv0:UpdateEffectInterLayer(uv2, uv3)
+							uv0:UpdateEffectInterLayer(uv2, slot0)
 						end
 
 						if uv1 == false then
@@ -638,12 +638,21 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 end
 
 function slot0.UpdateEffectInterLayer(slot0, slot1, slot2)
-	slot3 = GetOrAddComponent(slot0.actorTr, typeof(Canvas))
-	slot3.overrideSorting = true
-	slot3.sortingOrder = slot2
-	slot4 = GetOrAddComponent(slot0.frontTr, typeof(Canvas))
-	slot4.overrideSorting = true
-	slot4.sortingOrder = slot2 + 1
+	slot3 = slot0._go:GetComponent(typeof(Canvas)).sortingOrder
+
+	for slot8 = 1, slot2:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")).Length - 1 do
+		if slot3 < ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot4[slot8 - 1]) then
+			slot3 = slot10
+		end
+	end
+
+	slot3 = slot3 + 1
+	slot5 = GetOrAddComponent(slot0.actorTr, typeof(Canvas))
+	slot5.overrideSorting = true
+	slot5.sortingOrder = slot3
+	slot6 = GetOrAddComponent(slot0.frontTr, typeof(Canvas))
+	slot6.overrideSorting = true
+	slot6.sortingOrder = slot3 + 1
 	slot0.activeInterLayer = slot1
 
 	GetOrAddComponent(slot0.frontTr, typeof(GraphicRaycaster))

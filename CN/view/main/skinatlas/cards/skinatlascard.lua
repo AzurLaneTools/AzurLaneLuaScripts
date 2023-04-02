@@ -32,7 +32,7 @@ function slot0.Update(slot0, slot1, slot2)
 	end))
 	setActive(slot0.unavailableTr, #slot4 == 0 or getProxy(CollectionProxy).shipGroups[slot3] == nil)
 
-	slot0.name.text = shortenString(HXSet.hxLan(slot1:getConfig("name")), 7)
+	slot0.name.text = shortenString(slot1:getConfig("name"), 7)
 
 	slot0:FlushTags(slot1:getConfig("tag"))
 end

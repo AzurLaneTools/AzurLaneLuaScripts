@@ -18,6 +18,17 @@ return {
 			arg_list = {
 				tag = "Albion"
 			}
+		},
+		{
+			type = "BattleBuffAddAircraftTag",
+			trigger = {
+				"onAircraftCreate"
+			},
+			arg_list = {
+				tag_list = {
+					"Albion"
+				}
+			}
 		}
 	}
 }

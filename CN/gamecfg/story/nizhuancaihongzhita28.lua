@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也是这么想的，但是格奈森瑙在意你的情况，作为长官也要照顾下属的情绪才是。",
+			say = "我也是这么想的，但是{namecode:434}在意你的情况，作为长官也要照顾下属的情绪才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "格奈森瑙么……",
+			say = "{namecode:434}么……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……即使是毫无关系的人，你也拥有沙恩霍斯特的外表，在你的世界中与不同于我的另一个格奈森瑙有过羁绊吧。",
+			say = "……即使是毫无关系的人，你也拥有{namecode:433}的外表，在你的世界中与不同于我的另一个{namecode:434}有过羁绊吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "放任你这么死掉，对于我心中的沙恩霍斯特无法交代。",
+			say = "放任你这么死掉，对于我心中的{namecode:433}无法交代。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "余烬的沙恩霍斯特，我需要你立刻汇报刚才发生的事，并立刻提供仲裁机关拉沃斯的情报。",
+			say = "余烬的{namecode:433}，我需要你立刻汇报刚才发生的事，并立刻提供仲裁机关拉沃斯的情报。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "相对来说是这样的。对你们来说有些困难，不过我和格奈森瑙应对起来都还算游刃有余不是么？",
+			say = "相对来说是这样的。对你们来说有些困难，不过我和{namecode:434}应对起来都还算游刃有余不是么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,7 +928,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………格奈森瑙协助沙恩霍斯特，其他人排成保护队形，我们立刻撤离！",
+			say = "…………{namecode:434}协助{namecode:433}，其他人排成保护队形，我们立刻撤离！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -979,7 +979,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "呵……应该是只有移动力受损的我在拖着沙恩霍斯特的时候，你们才能追上我的速度吧。",
+			say = "呵……应该是只有移动力受损的我在拖着{namecode:433}的时候，你们才能追上我的速度吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

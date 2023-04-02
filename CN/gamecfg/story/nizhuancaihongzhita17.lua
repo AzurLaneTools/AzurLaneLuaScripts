@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "格奈森瑙，你的直觉没错……这片海域里确实还有其他什么东西！",
+			say = "{namecode:434}，你的直觉没错……这片海域里确实还有其他什么东西！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "从外表来看，难道是沙恩霍斯特·META？！",
+			say = "从外表来看，难道是{namecode:433}·META？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "出现在这片海域里的沙恩霍斯特……是你的熟人么？",
+			say = "出现在这片海域里的{namecode:433}……是你的熟人么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

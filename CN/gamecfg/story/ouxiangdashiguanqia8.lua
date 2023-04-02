@@ -46,7 +46,7 @@ return {
 			actor = 201216,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我回来了！Z23、大家，都没事吧？！",
+			say = "我回来了！{namecode:408}、大家，都没事吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

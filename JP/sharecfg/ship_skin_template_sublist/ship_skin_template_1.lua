@@ -1,5 +1,6 @@
 pg = pg or {}
-pg.ship_skin_template_1 = {
+pg.base = pg.base or {}
+pg.base.ship_skin_template_1 = {
 	[100000] = {
 		ship_group = 10000,
 		name = "汎用型ブリ",
@@ -359,12 +360,10 @@ pg.ship_skin_template_1 = {
 		group_index = 0,
 		prefab = "buli_super",
 		painting = "buli_super",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
 		illustrator = -1,
+		air_bullet_skin = "",
 		l2d_voice_calibrate = "",
+		shop_type_id = 0,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -376,10 +375,10 @@ pg.ship_skin_template_1 = {
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "特装型ブリMKIII。Uレアのキャラの限界突破に使用可能。",
 		voice_actor = 72,
-		spine_offset = "",
+		air_bomb_skin = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -451,6 +450,27 @@ pg.ship_skin_template_1 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				188,
+				-638,
+				0
+			},
+			{
+				0.8
+			}
+		},
+		special_effects = {
+			"lihui_buli_super",
+			{
+				130,
+				469,
+				0
+			},
+			{
+				1.5
 			}
 		}
 	},
@@ -10303,6 +10323,113 @@ pg.ship_skin_template_1 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
+		}
+	},
+	[101460] = {
+		ship_group = 10146,
+		name = "ステフェン・ポッター",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 101460,
+		group_index = 0,
+		prefab = "shidifenbote",
+		painting = "shidifenbote",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "フレッチャー級駆逐艦・ステフェン・ポッター（DD-538)",
+		voice_actor = 267,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.226,
+					1.007,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.23,
+					1.007,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.521,
+							2.444,
+							0
+						}
+					}
+				}
+			}
 		}
 	}
 }

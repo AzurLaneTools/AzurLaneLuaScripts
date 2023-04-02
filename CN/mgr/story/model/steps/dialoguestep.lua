@@ -80,6 +80,12 @@ function slot0.GetContentBGAlpha(slot0)
 	return slot0.contentBGAlpha
 end
 
+function slot0.GetSpineExPression(slot0)
+	if slot0.expression then
+		return slot0.expression
+	end
+end
+
 function slot0.GetExPression(slot0)
 	if slot0.expression then
 		return slot0.expression

@@ -511,9 +511,7 @@ function slot0.listNotificationInterests(slot0)
 		GAME.HIDE_Ship_MAIN_SCENE_WORD,
 		GAME.PROPOSE_SHIP_DONE,
 		GAME.USE_ADD_SHIPEXP_ITEM_DONE,
-		EquipmentProxy.EQUIPMENT_ADDED,
 		EquipmentProxy.EQUIPMENT_UPDATED,
-		EquipmentProxy.EQUIPMENT_REMOVED,
 		GAME.WILL_LOGOUT
 	}
 end
@@ -614,7 +612,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.USE_ADD_SHIPEXP_ITEM_DONE then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipModLayer_modSuccess"))
 		slot0.viewComponent:RefreshShipExpItemUsagePage()
-	elseif slot2 == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED or slot2 == EquipmentProxy.EQUIPMENT_REMOVED then
+	elseif slot2 == EquipmentProxy.EQUIPMENT_UPDATED then
 		slot0.viewComponent:equipmentChange()
 	elseif slot2 == GAME.WILL_LOGOUT then
 		slot0.viewComponent:OnWillLogout()

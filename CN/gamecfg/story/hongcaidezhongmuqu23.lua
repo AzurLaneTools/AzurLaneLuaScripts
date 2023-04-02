@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，在斯卡帕湾外发现了铁血总旗舰腓特烈大帝的踪迹。",
+			say = "指挥官，在斯卡帕湾外发现了铁血总旗舰{namecode:440}的踪迹。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "不过突然出现的未知舰队……？难道这就是腓特烈大帝拖延时间的原因么。",
+			say = "不过突然出现的未知舰队……？难道这就是{namecode:440}拖延时间的原因么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,7 +864,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "它正带领着大量敌舰从东南方向您接近，似乎要与正面的腓特烈大帝一同对您进行夹击！",
+			say = "它正带领着大量敌舰从东南方向您接近，似乎要与正面的{namecode:440}一同对您进行夹击！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

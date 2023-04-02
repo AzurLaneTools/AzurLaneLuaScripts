@@ -396,7 +396,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我相信会有这么一天的哦！俾斯麦姐姐！",
+			say = "我相信会有这么一天的哦！{namecode:435}姐姐！",
 			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
@@ -413,7 +413,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是U556啊，逛完会场了？",
+			say = "是{namecode:416}啊，逛完会场了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

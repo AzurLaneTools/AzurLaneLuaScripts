@@ -37,7 +37,13 @@ slot0.UnitType = {
 	FUNNEL_UNIT = 8,
 	UAV_UNIT = 9,
 	SUB_UNIT = 10,
-	CONST_UNIT = 11
+	CONST_UNIT = 11,
+	MINION_UNIT = 12
+}
+slot0.CharacterUnitType = {
+	slot0.UnitType.PLAYER_UNIT,
+	slot0.UnitType.ENEMY_UNIT,
+	slot0.UnitType.MINION_UNIT
 }
 slot0.AircraftUnitType = {
 	slot0.UnitType.AIRCRAFT_UNIT,
@@ -349,7 +355,8 @@ slot0.AIStepType = {
 	RELATIVE_BROWNIAN = 5,
 	HIVE_STAY = 6,
 	HIVE_CIRCLE = 7,
-	RELATIVE_FLEET_MOVE_TO = 8
+	RELATIVE_FLEET_MOVE_TO = 8,
+	MOVE_RELATIVE = 9
 }
 slot0.BossPhaseSwitchType = {
 	NONE = 0,

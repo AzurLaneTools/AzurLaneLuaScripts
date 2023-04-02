@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 499070,
-			say = "鲁普雷希特亲王，记好这个今后会大放异彩的名字哦。",
+			say = "{namecode:484}，记好这个今后会大放异彩的名字哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1

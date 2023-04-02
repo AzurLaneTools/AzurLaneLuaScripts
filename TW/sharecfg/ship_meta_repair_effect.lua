@@ -1727,7 +1727,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1601] = {
 		id = 1601,
-		effect_desc = "",
+		effect_desc = "鑑賞解鎖：登入、回港、圖鑑、任務",
 		effect_attr = {
 			{
 				"durability",
@@ -1750,7 +1750,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1602] = {
 		id = 1602,
-		effect_desc = "",
+		effect_desc = "鑑賞解鎖：主介面1、旗艦開戰、任務完成、技能",
 		effect_attr = {
 			{
 				"durability",
@@ -1773,7 +1773,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1603] = {
 		id = 1603,
-		effect_desc = "",
+		effect_desc = "鑑賞解鎖：主介面2、戰鬥MVP、失敗、郵件",
 		effect_attr = {
 			{
 				"durability",
@@ -1796,7 +1796,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1604] = {
 		id = 1604,
-		effect_desc = "",
+		effect_desc = "鑑賞解鎖：主介面3、觸摸1、委託完成",
 		effect_attr = {
 			{
 				"durability",
@@ -1819,7 +1819,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1605] = {
 		id = 1605,
-		effect_desc = "",
+		effect_desc = "鑑賞解鎖：血量警報",
 		effect_attr = {
 			{
 				"durability",
@@ -2185,6 +2185,121 @@ pg.ship_meta_repair_effect = {
 		},
 		effect_dialog = {}
 	},
+	[2001] = {
+		id = 2001,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				59
+			},
+			{
+				"antiaircraft",
+				6
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	},
+	[2002] = {
+		id = 2002,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				88
+			},
+			{
+				"antiaircraft",
+				9
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	},
+	[2003] = {
+		id = 2003,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				117
+			},
+			{
+				"antiaircraft",
+				11
+			},
+			{
+				"hit",
+				18
+			},
+			{
+				"dodge",
+				12
+			}
+		},
+		effect_dialog = {}
+	},
+	[2004] = {
+		id = 2004,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				147
+			},
+			{
+				"antiaircraft",
+				14
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	},
+	[2005] = {
+		id = 2005,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				175
+			},
+			{
+				"antiaircraft",
+				17
+			},
+			{
+				"hit",
+				27
+			},
+			{
+				"dodge",
+				17
+			}
+		},
+		effect_dialog = {}
+	},
 	all = {
 		101,
 		102,
@@ -2280,6 +2395,11 @@ pg.ship_meta_repair_effect = {
 		1902,
 		1903,
 		1904,
-		1905
+		1905,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005
 	}
 }

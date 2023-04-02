@@ -19,15 +19,14 @@ function slot0.update(slot0, slot1)
 	slot0.friendVO = slot1
 	slot0.nameTF.text = slot1.name
 	slot2 = pg.ship_data_statistics[slot1.icon]
-	slot3 = Ship.New({
-		configId = slot1.icon
-	})
 
-	LoadSpriteAsync("qicon/" .. slot3:getPrefab(), function (slot0)
+	LoadSpriteAsync("qicon/" .. Ship.New({
+		configId = slot1.icon
+	}):getPrefab(), function (slot0)
 		uv0.iconTF.sprite = slot0
 	end)
 
-	slot4 = AttireFrame.attireFrameRes(slot1, isSelf, AttireConst.TYPE_ICON_FRAME, slot1.propose)
+	slot4 = AttireFrame.attireFrameRes(slot1, slot1.id == getProxy(PlayerProxy):getRawData().id, AttireConst.TYPE_ICON_FRAME, slot1.propose)
 
 	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot4, slot4, true, function (slot0)
 		if IsNil(uv0.tf) then

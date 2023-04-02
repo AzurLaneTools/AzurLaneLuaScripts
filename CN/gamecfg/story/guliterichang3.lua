@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "U-37不断加速，在身后留下一串串涟漪与水花。",
+			say = "{namecode:474}不断加速，在身后留下一串串涟漪与水花。",
 			effects = {
 				{
 					active = false,
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408050,
-			say = "U-37，别忘了等会还有其他事要做哦。",
+			say = "{namecode:474}，别忘了等会还有其他事要做哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不会忘的啦！U-37知道自己要干什么哟~",
+			say = "不会忘的啦！{namecode:474}知道自己要干什么哟~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408050,
-			say = "没什么，只是U-37想让梦芽小姐陪她玩一点小游戏。对吧？",
+			say = "没什么，只是{namecode:474}想让梦芽小姐陪她玩一点小游戏。对吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "U-37将梦芽带到一个建有灯塔的小岛上，然后离远了一些。",
+			say = "{namecode:474}将梦芽带到一个建有灯塔的小岛上，然后离远了一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "就在梦芽沉思之际，临近的海面颜色突然有所改变，随后U-37和U-73带着色彩鲜明的「礼物」鱼跃而出——",
+			say = "就在梦芽沉思之际，临近的海面颜色突然有所改变，随后{namecode:474}和{namecode:417}带着色彩鲜明的「礼物」鱼跃而出——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

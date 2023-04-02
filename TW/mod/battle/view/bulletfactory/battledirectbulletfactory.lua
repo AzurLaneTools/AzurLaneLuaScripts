@@ -18,12 +18,10 @@ function slot1.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7 = slot6:GetUniqueID()
 	slot9 = nil
 
-	if slot6:GetUnitType() == uv0.Battle.BattleConst.UnitType.AIRCRAFT_UNIT or slot8 == uv0.Battle.BattleConst.UnitType.AIRFIGHTER_UNIT then
-		slot9 = slot0:GetSceneMediator():GetAircraft(slot7)
-	elseif slot8 == uv0.Battle.BattleConst.UnitType.PLAYER_UNIT then
-		slot9 = slot0:GetSceneMediator():GetCharacter(slot7)
-	elseif slot8 == uv0.Battle.BattleConst.UnitType.ENEMY_UNIT then
-		slot9 = slot0:GetSceneMediator():GetCharacter(slot7)
+	if table.contains(AircraftUnitType, slot6:GetUnitType()) then
+		slot9 = uv0.GetSceneMediator():GetAircraft(slot7)
+	elseif table.contains(CharacterUnitType, slot8) then
+		slot9 = uv0.GetSceneMediator():GetCharacter(slot7)
 	end
 
 	if slot9 then

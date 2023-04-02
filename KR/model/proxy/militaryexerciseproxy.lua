@@ -138,8 +138,8 @@ function slot0.getRivalById(slot0, slot1)
 end
 
 function slot0.getPreRivalById(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.seasonInfo.preRivals) do
-		if slot6.id == slot1 then
+	for slot5, slot6 in pairs(slot0.seasonInfo:GetPreRivals()) do
+		if slot1 == slot5 then
 			return Clone(slot6)
 		end
 	end

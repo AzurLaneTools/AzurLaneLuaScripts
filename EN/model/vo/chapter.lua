@@ -3110,9 +3110,11 @@ function slot0.GetSPOperationItemCacheKey(slot0)
 end
 
 function slot0.GetSPBuffByItem(slot0)
-	for slot4, slot5 in pairs(pg.benefit_buff_template) do
-		if tonumber(slot5.benefit_condition) == slot0 then
-			return slot5.id
+	for slot4, slot5 in ipairs(pg.benefit_buff_template.all) do
+		buffConfig = pg.benefit_buff_template[slot5]
+
+		if tonumber(buffConfig.benefit_condition) == slot0 then
+			return buffConfig.id
 		end
 	end
 end

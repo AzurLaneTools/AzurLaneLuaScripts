@@ -18,7 +18,7 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -54,7 +54,7 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -158,7 +158,7 @@ return {
 			nameColor = "#ffde38",
 			side = 0,
 			bgName = "bg_bsm_5",
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			dir = 1,
 			useBg2 = true,
 			say = "闭嘴！",
@@ -178,7 +178,7 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -195,7 +195,7 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			side = 0,
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
@@ -384,7 +384,7 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -503,7 +503,7 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -520,7 +520,7 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -537,7 +537,7 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -556,7 +556,7 @@ return {
 			actor = 207040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "再次发现目标，确认目标铁血战舰俾斯麦号，请求发动空袭",
+			say = "再次发现目标，确认目标铁血战舰{namecode:435}号，请求发动空袭",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-1",

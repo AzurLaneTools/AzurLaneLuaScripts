@@ -276,6 +276,20 @@ function slot6.AddLabelTag(slot0, slot1)
 	slot2[slot1] = (slot0:GetAttrByName("labelTag")[slot1] or 0) + 1
 end
 
+function slot6.ContainsLabelTag(slot0, slot1)
+	if slot0._labelTagList == nil then
+		return false
+	end
+
+	for slot5, slot6 in ipairs(slot1) do
+		if table.contains(slot0._labelTagList, slot6) then
+			return true
+		end
+	end
+
+	return false
+end
+
 function slot6.SetIFF(slot0, slot1)
 	slot0._IFF = slot1
 end

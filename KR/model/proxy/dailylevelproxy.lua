@@ -27,6 +27,18 @@ function slot0.register(slot0)
 		for slot5, slot6 in ipairs(slot0.quick_expedition_list) do
 			uv0:AddQuickStage(slot6)
 		end
+
+		slot6 = pg.expedition_daily_template.all
+		uv0.dailyList = _.reverse(Clone(slot6))
+
+		for slot6 = #uv0.dailyList, 1, -1 do
+			slot8 = slot2[uv0.dailyList[slot6]].id
+			slot9 = slot2[uv0.dailyList[slot6]].limit_time
+
+			if slot2[uv0.dailyList[slot6]].limit_period and type(slot7) == "table" and pg.TimeMgr:GetInstance():inTime(slot7) and slot9 > (uv0.data[slot8] or 0) then
+				uv0.dailyTip = true
+			end
+		end
 	end)
 end
 
@@ -40,6 +52,14 @@ end
 
 function slot0.clearChaptersDefeatCount(slot0)
 	slot0.chapterCountList = {}
+end
+
+function slot0.ifShowDailyTip(slot0)
+	return slot0.dailyTip
+end
+
+function slot0.setDailyTip(slot0, slot1)
+	slot0.dailyTip = slot1
 end
 
 function slot0.getChapterDefeatCount(slot0, slot1)

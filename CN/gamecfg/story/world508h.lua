@@ -118,7 +118,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "是。铁血VIIB型潜艇，U-47。",
+			say = "是。铁血VIIB型潜艇，{namecode:413}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -55,7 +55,7 @@ function slot0.StartToast(slot0)
 	slot2 = slot1.taskVO
 
 	GetImageSpriteFromAtlasAsync("ui/worldtaskfloatui_atlas", uv0.Type2PictrueName[slot2.config.type], slot0._tf:Find("type_icon"), true)
-	setText(slot0._tf:Find("desc"), setColorStr(shortenString(HXSet.hxLan(slot2.config.name), 12), slot1.isSubmitDone and COLOR_GREEN or COLOR_WHITE))
+	setText(slot0._tf:Find("desc"), setColorStr(shortenString(slot2.config.name, 12), slot1.isSubmitDone and COLOR_GREEN or COLOR_WHITE))
 
 	slot3 = {}
 

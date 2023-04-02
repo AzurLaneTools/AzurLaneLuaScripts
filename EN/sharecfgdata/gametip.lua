@@ -2122,7 +2122,7 @@ _G.pg.base.gametip.exercise_rule_tip = {
 8. You can refresh your opponent lineup <color=#92fc63>5</color> times a day.
 9. Your opponent lineup will also refresh automatically after you finish an Exercise Battle.
 10. Your Exercise Count will refresh at 00:00, 12:00, and 18:00 (server local time) every day.
-11. At the end of the season, all players will have their Military Rank and Current Rank reset. However, <color=#92fc63>all Merits earned will persist between seasons.</color> ]]
+11. When the Exercise season ends, all players' Exercise attempts, rank, and total score will be reset.]]
 }
 
 _G.pg.base.gametip.exercise_award_tip = {
@@ -3900,7 +3900,7 @@ _G.pg.base.gametip.levelScene_chapter_level_limit = {
 }
 
 _G.pg.base.gametip.levelScene_chapter_count_tip = {
-	tip = "Today's Attempts:  "
+	tip = "Attempts Remaining:"
 }
 
 _G.pg.base.gametip.levelScene_tracking_error_retry = {
@@ -8156,6 +8156,10 @@ Marriage requires <color=#92fc63>1</color> Promise Ring (In Depot: <color=#92fc6
 <size=32>Marrying a shipgirl automatically locks her in your dock. You can unlock her manually if so desired.</size>]]
 }
 
+_G.pg.base.gametip.word_propose_switch_tip = {
+	tip = "Toggle complete"
+}
+
 _G.pg.base.gametip.evaluate_too_loog = {
 	tip = "Comment is too long."
 }
@@ -8844,7 +8848,7 @@ _G.pg.base.gametip.word_status_train = {
 }
 
 _G.pg.base.gametip.word_status_challenge = {
-	tip = "In Challenge Mode "
+	tip = "In event sortie"
 }
 
 _G.pg.base.gametip.word_status_world = {
@@ -8853,6 +8857,10 @@ _G.pg.base.gametip.word_status_world = {
 
 _G.pg.base.gametip.word_status_inHardFormation = {
 	tip = "In Hard Mode"
+}
+
+_G.pg.base.gametip.word_status_series_enemy = {
+	tip = "In event sortie"
 }
 
 _G.pg.base.gametip.challenge_rule = {
@@ -10201,19 +10209,19 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Vittorio Veneto, Aquila and more!"
+	tip = "Rate UP for Voroshilov, Kursk and Sevastopol!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Baltimore μ added to standard build pool! "
+	tip = "Bremerton added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Oite and Stremitelny added to the standard build pool!"
+	tip = "Reno, Hardy and others added to the standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Chen Hai added to standard build pool!"
+	tip = "Intrepid and Nautilus added to standard build pool!"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -13826,11 +13834,11 @@ _G.pg.base.gametip.bulin_tip9 = {
 }
 
 _G.pg.base.gametip.bulin_tip_other1 = {
-	tip = "Get a hint? You can only get one every 20 minutes."
+	tip = "Unlock this clue now, bulin? It takes 10 minutes cooldown before another one can be unlocked like this, bulin! "
 }
 
 _G.pg.base.gametip.bulin_tip_other2 = {
-	tip = "Hints are on cooldown."
+	tip = "Clues are on cooldown, bulin!"
 }
 
 _G.pg.base.gametip.bulin_tip_other3 = {
@@ -17917,7 +17925,7 @@ _G.pg.base.gametip.charge_error_disable = {
 }
 
 _G.pg.base.gametip.levelScene_select_sp = {
-	tip = "A High-Efficiency Combat Logisitics Plan has been set."
+	tip = "A High-Efficiency Combat Logistics Plan has been set."
 }
 
 _G.pg.base.gametip.word_adjustFleet = {
@@ -20185,7 +20193,7 @@ _G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
 }
 
 _G.pg.base.gametip.shipmodechange_reject_inactivity = {
-	tip = "This ship is assigned to a Challenge/Contribution-type event fleet. Replace her with a different ship and try again."
+	tip = "One or more ships are currently participating in a Challenge Mode, Joint Operation or Coalition Battle event stage. Please adjust your fleet and try again."
 }
 
 _G.pg.base.gametip.monopoly3thre_tip = {
@@ -20619,6 +20627,66 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 }
 
 _G.pg.base.gametip.cruise_task_help_2302 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battlepass_main_tip_2304 = {
+	tip = "Complete Cruise Missions between 4/1/2023 00:00 – 5/31/2023 23:59 to receive <color=#854747>La Galissonnière META</color> and other rewards!"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2304 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+4/1/2023 00:00 – 5/31/2023 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+La Galissonnière META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for Vauquelin, "Otherworldly Adventure"
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2304 = {
 	tip = {
 		{
 			info = [[
@@ -21635,7 +21703,7 @@ _G.pg.base.gametip.commission_event_tip = {
 · The number of merits received is based on the time required to complete the commission. 
 <color=#92fc63>Every 5 minutes is worth 1 merit.</color>
 · For example: completing a commission that takes 1 hour will award you with 12 Commission Merits.
-· Only commissions initiated and completed during the event period will grant Commission Merits.
+· Only commissions completed during the event period will grant Commission Merits.
 · Canceling a commission will reward no Commission Merits.
 · Commission Merits can be spent on a myriad of items in the associated event tab in the shop.
 · Be aware that some items in the shop pool may only be purchased after you've cleared a particular stage in the Main Campaign.]]
@@ -23355,10 +23423,179 @@ _G.pg.base.gametip.battle_text_yingxiv4_10 = {
 	tip = "The Horseman is <color=#f1f102>weakened</color>! Focus fire!"
 }
 
+_G.pg.base.gametip.series_enemy_mood = {
+	tip = "Low Morale"
+}
+
+_G.pg.base.gametip.series_enemy_mood_error = {
+	tip = "To start a Solo Challenge, all the ships in your fleet must have above 30 Morale."
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip1 = {
+	tip = "Base Rewards"
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip2 = {
+	tip = "Coalition Battle Rewards"
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip3 = {
+	tip = "Clear Rewards"
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip4 = {
+	tip = "High Score"
+}
+
+_G.pg.base.gametip.series_enemy_cost = {
+	tip = "Total Cost:"
+}
+
+_G.pg.base.gametip.series_enemy_SP_count = {
+	tip = "Attempts Remaining:"
+}
+
+_G.pg.base.gametip.series_enemy_SP_error = {
+	tip = "No more attempts available today."
+}
+
+_G.pg.base.gametip.series_enemy_unlock = {
+	tip = "Please clear the previous difficulty first."
+}
+
+_G.pg.base.gametip.series_enemy_storyunlock = {
+	tip = "Until next story chapter unlock"
+}
+
+_G.pg.base.gametip.series_enemy_storyreward = {
+	tip = "Unlocked:"
+}
+
+_G.pg.base.gametip.series_enemy_help = {
+	tip = [[
+Coalition Battle Event: Frostfall
+Event Period: <color=#92fc63>3/23/2023 - 4/5/2023</color>
+
+Overview:
+During the "Frostfall" event, you will form multiple fleets to challenge special event stages, and collect event points to earn great rewards.
+Accumulating a certain number of event points will allow you to collect milestone rewards.
+By tapping the "Sortie" button on the event banner, you will be taken to the event stages.
+
+How to Play:
+1. On the event page, you can toggle between the story content and the combat stages by tapping on the Intel/Combat tabs on the bottom left-hand side of the screen.
+2. On the Combat Prep interface, form a fleet to challenge a special event stage. After clearing one difficulty, you will unlock the subsequent difficulty.
+3. Stages beyond Easy difficulty will feature multiple battles during a single sortie.
+4. While sortieing, you may configure and sortie as many fleets as corresponding to the number of battles in that stage. The number of sortie fleets can be toggled between "Solo Challenge" and "Coalition Battle" on the Combat Prep interface.
+During Solo Challenge, one fleet will fight against all the battles in that stage.
+During Coalition Battle, you will have to configure multiple fleets for each battle, and each fleet will take turns fighting in the corresponding battles.
+5. Completing all the battles in a stage will be considered clearing the stage, and you will earn event points. You will earn additional rewards for clearing a stage through a Coalition Battle.
+6. Easy, Normal, and Hard stages cost Oil, and there is no limit to the number of times they may be attempted. The SP stage may be played once per day. There is no limit to the number of times the EX stage may be attempted, but clearing it will not award event points. The Oil Limit and Auto-Repeat features are available in certain stages.
+7. Accumulate event points to unlock milestone rewards and new story chapters in the Intel mode.
+8. Unlock all story chapters to get a piece of limited gear.
+]]
+}
+
+_G.pg.base.gametip.series_enemy_score = {
+	tip = "Score"
+}
+
+_G.pg.base.gametip.series_enemy_total_score = {
+	tip = "Total Score"
+}
+
 _G.pg.base.gametip.setting_label_private = {
-	tip = "隐私协议"
+	tip = ""
 }
 
 _G.pg.base.gametip.setting_label_licence = {
-	tip = "用户协议"
+	tip = ""
+}
+
+_G.pg.base.gametip.series_enemy_reward = {
+	tip = "Cumulative Pt Rewards"
+}
+
+_G.pg.base.gametip.series_enemy_mode_1 = {
+	tip = "Solo Challenge"
+}
+
+_G.pg.base.gametip.series_enemy_mode_2 = {
+	tip = "Coalition Battle"
+}
+
+_G.pg.base.gametip.series_enemy_fleet_prefix = {
+	tip = "Fleet $1"
+}
+
+_G.pg.base.gametip.series_enemy_team_notenough = {
+	tip = "Cannot start sortie unless all fleets meet the sortie requirements (each fleet must have at least one ship in the Main Fleet and Vanguard)."
+}
+
+_G.pg.base.gametip.series_enemy_empty_commander_main = {
+	tip = "Command Cat"
+}
+
+_G.pg.base.gametip.series_enemy_empty_commander_assistant = {
+	tip = "Staff Cat"
+}
+
+_G.pg.base.gametip.limit_team_character_tips = {
+	tip = "You cannot have same name ships in your Coalition Battle fleets."
+}
+
+_G.pg.base.gametip.caibulin_tip1 = {
+	tip = "Maybe you'll find something in 1-2 of the Main Campaign, bulin?"
+}
+
+_G.pg.base.gametip.caibulin_tip2 = {
+	tip = "The depot? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
+}
+
+_G.pg.base.gametip.caibulin_tip3 = {
+	tip = "Maybe you'll find something in 2-2 of the Main Campaign, bulin?"
+}
+
+_G.pg.base.gametip.caibulin_tip4 = {
+	tip = "The dock? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
+}
+
+_G.pg.base.gametip.caibulin_tip5 = {
+	tip = "Maybe you'll find something in 1-4 of the Main Campaign, bulin?"
+}
+
+_G.pg.base.gametip.caibulin_tip6 = {
+	tip = "The dorms? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
+}
+
+_G.pg.base.gametip.caibulin_tip7 = {
+	tip = "Maybe you'll find something in 2-4 of the Main Campaign, bulin?"
+}
+
+_G.pg.base.gametip.caibulin_tip8 = {
+	tip = "The academy? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
+}
+
+_G.pg.base.gametip.caibulin_tip9 = {
+	tip = "The shop? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
+}
+
+_G.pg.base.gametip.caibulin_tip10 = {
+	tip = "The construction pools? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
+}
+
+_G.pg.base.gametip.caibulin_help = {
+	tip = {
+		{
+			info = [[
+How to Play:
+1. During the event, navigate to certain menus or stages to search for mysterious clues.
+2. If you're having difficulty finding the clue, tap the Clue icon to unlock the next phase of the clue search.
+Note: Clues can only be unlocked this way once every 10 minutes.
+3. Once all the clues have been collected, you will be able to challenge a secret stage. Complete it to obtain a special reward.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.caibulin_tip11 = {
+	tip = "Collect all the clues to unlock a secret stage!"
 }

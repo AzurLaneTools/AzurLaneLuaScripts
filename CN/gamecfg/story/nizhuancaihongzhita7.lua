@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "乌尔里希，没事吧？",
+			say = "{namecode:464}，没事吧？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "易北易北，我也有问题！",
+			say = "{namecode:468}{namecode:468}，我也有问题！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "U-1206有些夸张地伸手指着身后的巨大装置。装置与之前并无区别，只不过中心的漩涡现在正朝着完全相反的方向旋转。",
+			say = "{namecode:476}有些夸张地伸手指着身后的巨大装置。装置与之前并无区别，只不过中心的漩涡现在正朝着完全相反的方向旋转。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "原来如此~易北知道的好多，肯定像好学生那样偷偷做了不少功课吧~",
+			say = "原来如此~{namecode:468}知道的好多，肯定像好学生那样偷偷做了不少功课吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "略~U-1206才不怕区区鲨鱼呢。",
+			say = "略~{namecode:476}才不怕区区鲨鱼呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "U-1206光速躲到了马格德堡身后，冲易北做了个鬼脸。",
+			say = "{namecode:476}光速躲到了{namecode:447}身后，冲{namecode:468}做了个鬼脸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "有些突然，稍微解释一下……乌尔里希。",
+			say = "有些突然，稍微解释一下……{namecode:464}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -780,7 +780,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "呵呵，很好。那就执行任务吧。路线就按照易北说的思路进行探索。",
+			say = "呵呵，很好。那就执行任务吧。路线就按照{namecode:468}说的思路进行探索。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -816,7 +816,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "水下的部分就交给你了，U-1206。",
+			say = "水下的部分就交给你了，{namecode:476}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,7 +833,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "U-1206明白，正在下潜中————",
+			say = "{namecode:476}明白，正在下潜中————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

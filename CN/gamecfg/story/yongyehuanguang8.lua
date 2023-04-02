@@ -32,11 +32,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "希佩尔",
+			actorName = "{namecode:426}",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "欧根，差不多到时间出发了吧，磨磨蹭蹭的在做什么呢？",
+			say = "{namecode:428}，差不多到时间出发了吧，磨磨蹭蹭的在做什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,11 +48,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "别急嘛希佩尔，这么火急火燎可是会生出皱纹的，那就太可惜了~",
+			say = "别急嘛{namecode:426}，这么火急火燎可是会生出皱纹的，那就太可惜了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			bgName = "bg_hms_3",
-			actorName = "希佩尔",
+			actorName = "{namecode:426}",
 			dir = 1,
 			say = "哈？！「幻光」行动，这么重要的作战居然找你当旗舰指挥，我怎么可能不着急啊！",
 			dialogShake = {
@@ -85,11 +85,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嘘。这次的旗舰明明是我们北方的女王，提尔比茨哦。",
+			say = "嘘。这次的旗舰明明是我们北方的女王，{namecode:436}哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -117,11 +117,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "德意志",
+			actorName = "{namecode:429}",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "终于可以起航了么...太慢了，欧根！我已经等的不耐烦啦！",
+			say = "终于可以起航了么...太慢了，{namecode:428}！我已经等的不耐烦啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "格奈森瑙",
+			actorName = "{namecode:434}",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -159,7 +159,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "沙恩霍斯特",
+			actorName = "{namecode:433}",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -175,7 +175,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "斯佩伯爵",
+			actorName = "{namecode:431}",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -191,11 +191,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "提尔比茨",
+			actorName = "{namecode:436}",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "斯佩，我同你一样深知寒冷与孤独的滋味...珍惜这次难得的作战机会，并肩战斗，然后为铁血带来胜利吧！",
+			say = "{namecode:432}，我同你一样深知寒冷与孤独的滋味...珍惜这次难得的作战机会，并肩战斗，然后为铁血带来胜利吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -223,7 +223,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -239,7 +239,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -255,7 +255,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,

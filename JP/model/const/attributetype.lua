@@ -53,13 +53,17 @@ slot0.eliteConditionTip = {
 	antisub = "elite_condition_antisub",
 	level = "elite_condition_level"
 }
-slot0.eliteConditionCompareTip = {
-	[0] = i18n("common_compare_equal"),
-	i18n("common_compare_larger"),
-	i18n("common_compare_not_less_than"),
-	[-2] = i18n("common_compare_not_more_than"),
-	[-1] = i18n("common_compare_smaller")
+slot1 = {
+	[0] = "common_compare_equal",
+	"common_compare_larger",
+	"common_compare_not_less_than",
+	[-1.0] = "common_compare_smaller",
+	[-2.0] = "common_compare_not_more_than"
 }
+
+function slot0.eliteConditionCompareTip(slot0)
+	return i18n(uv0[slot0])
+end
 
 function slot0.EliteCondition2Name(slot0, ...)
 	return i18n(uv0.eliteConditionTip[slot0], ...)

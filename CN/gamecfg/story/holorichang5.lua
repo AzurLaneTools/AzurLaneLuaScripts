@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚加入舰队的孩子……我是铁血的希佩尔海军上将号哦",
+			say = "刚加入舰队的孩子……我是铁血的{namecode:425}号哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，希佩尔，一遇到直球就手足无措了呢。",
+			say = "哎呀，{namecode:426}，一遇到直球就手足无措了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根，你这家伙从哪里冒出来的，不要偷听啊！",
+			say = "{namecode:428}，你这家伙从哪里冒出来的，不要偷听啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你叫白上吹雪是么，如果要和这家伙做朋友的话，还是要小心一点。我家的希佩尔脾气稍微有点差哦~",
+			say = "你叫白上吹雪是么，如果要和这家伙做朋友的话，还是要小心一点。我家的{namecode:426}脾气稍微有点差哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此原来如此，会和欧根之间有这样的对话呢。",
+			say = "原来如此原来如此，会和{namecode:428}之间有这样的对话呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳，总之，你不要听欧根的鬼话。",
+			say = "咳咳，总之，你不要听{namecode:428}的鬼话。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -126,7 +126,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "always",
-		name = "格奈森瑙·META",
+		name = "奥古斯塔·META",
 		painting = "genaisennao",
 		boss_level_id = 61,
 		id = 5,
@@ -155,7 +155,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "stop",
-		name = "沙恩霍斯特·META",
+		name = "格尔林德·META",
 		painting = "shaenhuosite",
 		boss_level_id = 76,
 		id = 6,

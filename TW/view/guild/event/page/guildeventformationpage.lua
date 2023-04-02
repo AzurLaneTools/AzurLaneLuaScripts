@@ -104,7 +104,7 @@ function slot0.UpdateSlot(slot0, slot1, slot2, slot3)
 
 		slot7 = slot0.items[slot1] or DockyardShipItem.New(slot5)
 
-		slot7:update(slot3)
+		slot7:update(GuildAssaultShip.ConverteFromShip(slot3))
 
 		slot7.go.name = "ship"
 

@@ -100,7 +100,7 @@ function slot0.UpdateTips(slot0, slot1)
 		setActive(findTF(slot2.ui, slot10.rank .. "/title/tip"), slot14 and slot14:isFinish() and not slot14:isReceive())
 
 		slot4[slot8][2] = slot3:getAttireFrame(AttireConst.TYPE_ICON_FRAME, pg.task_data_template[slot12].award_display[1][2]) ~= nil and slot17:isOwned()
-		slot4[slot8][1] = HXSet.hxLan(ShipGroup.getDefaultShipConfig(slot10.ship_group).name)
+		slot4[slot8][1] = ShipGroup.getDefaultShipConfig(slot10.ship_group).name
 	end
 
 	slot5 = _.map(slot4, function (slot0)

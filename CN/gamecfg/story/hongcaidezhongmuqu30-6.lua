@@ -64,7 +64,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "沙恩霍斯特·META的炮击在塔的内部引发了一连串爆炸，爆炸产生的巨大尘埃云几乎将塔完全吞没。",
+			say = "{namecode:433}·META的炮击在塔的内部引发了一连串爆炸，爆炸产生的巨大尘埃云几乎将塔完全吞没。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这是现实哦，埃尔宾。我们战胜了无法想象的强敌，然后赢得了胜利。",
+			say = "这是现实哦，{namecode:449}。我们战胜了无法想象的强敌，然后赢得了胜利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "好累……我感觉已经彻底燃尽了……记得把我拖回去，塞德利茨zZZZ",
+			say = "好累……我感觉已经彻底燃尽了……记得把我拖回去，{namecode:460}zZZZ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "没问题，吕佐夫小姐。",
+			say = "没问题，{namecode:461}小姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "接下来的铁血要重新在俾斯麦的领导下前进了，具体的细节去问她吧。",
+			say = "接下来的铁血要重新在{namecode:435}的领导下前进了，具体的细节去问她吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……那就祝你好运了，铁血的腓特烈大帝。",
+			say = "……那就祝你好运了，铁血的{namecode:440}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

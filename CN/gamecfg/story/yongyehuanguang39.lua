@@ -332,7 +332,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "有一手啊，铁血的腓特烈大帝……看样子接下来的局势又要大变了啊…",
+			say = "有一手啊，铁血的{namecode:440}……看样子接下来的局势又要大变了啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

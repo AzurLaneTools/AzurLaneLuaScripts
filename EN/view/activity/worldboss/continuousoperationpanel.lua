@@ -42,7 +42,8 @@ function slot0.didEnter(slot0)
 
 	slot0:UpdateAutoFightMark()
 	slot0:UpdateBattleTimes()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_OVERLAY_FOREVER, slot0._tf, {
+		weight = LayerWeightConst.THIRD_LAYER,
 		groupName = LayerWeightConst.GROUP_COMBAT
 	})
 end
@@ -57,12 +58,6 @@ function slot0.UpdateBattleTimes(slot0)
 end
 
 function slot0.OnEnterBattleResult(slot0)
-	onNextTick(function ()
-		pg.UIMgr.GetInstance():OverlayPanel(uv0._tf, {
-			weight = LayerWeightConst.SECOND_LAYER,
-			groupName = LayerWeightConst.GROUP_COMBAT
-		})
-	end)
 	setActive(slot0.btnOff:Find("small"), false)
 	setActive(slot0.btnOff:Find("common"), true)
 end

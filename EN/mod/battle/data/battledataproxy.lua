@@ -142,6 +142,7 @@ function slot8.InitData(slot0, slot1)
 	slot0._foeShipList = {}
 	slot0._friendlyAircraftList = {}
 	slot0._foeAircraftList = {}
+	slot0._minionShipList = {}
 	slot0._spectreShipList = {}
 	slot0._fleetList = {}
 	slot0._freeShipList = {}
@@ -1069,6 +1070,81 @@ function slot8.UpdateHostileSubmarine(slot0, slot1)
 	end
 
 	slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_HOSTILE_SUBMARINE))
+end
+
+function slot8.SpawnNPC(slot0, slot1, slot2)
+	slot3 = slot0:GenerateUnitID()
+	slot4 = uv0.UnitType.MINION_UNIT
+	slot6 = {}
+
+	for slot10, slot11 in ipairs(uv1.GetMonsterTmpDataFromID(slot1.monsterTemplateID).equipment_list) do
+		table.insert(slot6, {
+			id = slot11
+		})
+	end
+
+	slot7 = uv1.CreateBattleUnitData(slot3, slot4, slot2:GetIFF(), slot1.monsterTemplateID, nil, slot6, slot1.extraInfo, nil, , , , slot1.level)
+
+	slot7:SetMaster(slot2)
+
+	slot8 = nil
+
+	slot7:SetCurrentHP(slot7:GetMaxHP())
+	slot7:SetPosition(Clone(slot2:GetPosition()))
+	slot7:SetAI(slot1.pilotAITemplateID or slot5.pilot_ai_template_id)
+	slot0:setShipUnitBound(slot7)
+
+	if table.contains(TeamType.SubShipType, slot5.type) then
+		slot7:InitOxygen()
+
+		if slot7:GetIFF() ~= uv2.FRIENDLY_CODE then
+			slot0:UpdateHostileSubmarine(true)
+		end
+	end
+
+	uv1.AttachWeather(slot7, slot0._weahter)
+
+	slot0._freeShipList[slot3] = slot7
+	slot0._unitList[slot3] = slot7
+
+	slot0._cldSystem:InitShipCld(slot7)
+	slot7:SummonSickness(uv0.SUMMONING_SICKNESS_DURATION)
+	slot7:SetMoveCast(slot1.moveCast == true)
+
+	slot0._minionShipList[slot3] = slot7
+
+	if slot1.phase then
+		uv3.Battle.BattleUnitPhaseSwitcher.New(slot7):SetTemplateData(slot1.phase)
+	end
+
+	slot0:DispatchEvent(uv3.Event.New(uv4.ADD_UNIT, {
+		type = slot4,
+		unit = slot7,
+		bossData = slot1.bossData,
+		extraInfo = slot1.extraInfo
+	}))
+
+	function slot11(slot0)
+		for slot4, slot5 in ipairs(slot0) do
+			slot6, slot7 = nil
+
+			if type(slot5) == "number" then
+				slot7 = slot5
+				slot6 = 1
+			else
+				slot7 = slot5.ID
+				slot6 = slot5.LV or 1
+			end
+
+			uv1:AddBuff(uv0.Battle.BattleBuffUnit.New(slot7, slot6, uv1))
+		end
+	end
+
+	slot11(slot7:GetTemplate().buff_list)
+	slot11(slot1.buffList or {})
+	slot7:CheckWeaponInitial()
+
+	return slot7
 end
 
 function slot8.EnemyEscape(slot0)

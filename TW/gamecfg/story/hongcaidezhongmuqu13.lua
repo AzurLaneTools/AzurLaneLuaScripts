@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403110,
-			say = "……塞德利茨，你在做什么？",
+			say = "……{namecode:460}，你在做什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402080,
-			say = "欸？！埃尔宾只是巡洋舰哦，依靠炮击就能摧毁那种敌人么……？",
+			say = "欸？！{namecode:449}只是巡洋舰哦，依靠炮击就能摧毁那种敌人么……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "数枚炸弹在塞德利茨周边爆炸，溅起大量水花和浓烟，不过在转瞬之后发动攻击的舰载机就被火炮击落了。",
+			say = "数枚炸弹在{namecode:460}周边爆炸，溅起大量水花和浓烟，不过在转瞬之后发动攻击的舰载机就被火炮击落了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "埃姆登灵活的在海上划出优美的线路，一边躲避一边射击着天上的飞机。",
+			say = "{namecode:448}灵活的在海上划出优美的线路，一边躲避一边射击着天上的飞机。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,7 +711,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "好像在跳舞一样……埃姆登已经彻底习惯这幅身体的作战方式了么？",
+			say = "好像在跳舞一样……{namecode:448}已经彻底习惯这幅身体的作战方式了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

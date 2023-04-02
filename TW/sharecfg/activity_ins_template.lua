@@ -6947,67 +6947,138 @@ pg.activity_ins_template = {
 	[284] = {
 		ship_group = 71801,
 		name = "Кронштадт",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_284",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_284.png",
+		is_active = 0,
 		sculpture = "kalangshitade",
 		id = 284,
 		group_id = 284,
 		order = 19,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2023,
+				2,
+				16
+			},
+			{
+				12,
+				30,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2542,
+			2545
+		}
 	},
 	[285] = {
 		ship_group = 70110,
 		name = "Киев",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_285",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_285.png",
+		is_active = 0,
 		sculpture = "jifu",
 		id = 285,
 		group_id = 285,
 		order = 19,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2023,
+				2,
+				17
+			},
+			{
+				16,
+				22,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2555,
+			2557
+		}
 	},
 	[286] = {
 		ship_group = 70701,
 		name = "Волга",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_286",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_286.png",
+		is_active = 0,
 		sculpture = "fuerjia",
 		id = 286,
 		group_id = 286,
 		order = 19,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2023,
+				2,
+				18
+			},
+			{
+				11,
+				45,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2564,
+			2566
+		}
 	},
 	[287] = {
 		ship_group = 70109,
 		name = "Сообразительный",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_287",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_287.png",
+		is_active = 0,
 		sculpture = "lingmin",
 		id = 287,
 		group_id = 287,
 		order = 19,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2023,
+				2,
+				19
+			},
+			{
+				19,
+				13,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2572,
+			2574,
+			2576
+		}
 	},
 	[288] = {
 		ship_group = 70506,
 		name = "Архангельск",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_288",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_288.png",
+		is_active = 0,
 		sculpture = "aerhangeersike",
 		id = 288,
 		group_id = 288,
 		order = 19,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2023,
+				2,
+				20
+			},
+			{
+				15,
+				54,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			2581,
+			2584
+		}
 	},
 	[289] = {
 		ship_group = 60107,
@@ -7172,6 +7243,84 @@ pg.activity_ins_template = {
 			2639,
 			2643
 		}
+	},
+	[315] = {
+		ship_group = 30129,
+		name = "Hayaizo",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "daofeng_5",
+		id = 315,
+		group_id = 315,
+		order = 20,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[316] = {
+		ship_group = 90113,
+		name = "L'Indomptable",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "buqu_2",
+		id = 316,
+		group_id = 316,
+		order = 20,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[317] = {
+		ship_group = 90701,
+		name = "Joffre",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "xiafei_2",
+		id = 317,
+		group_id = 317,
+		order = 20,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[318] = {
+		ship_group = 30213,
+		name = "Jintuu",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "shentong_4",
+		id = 318,
+		group_id = 318,
+		order = 20,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[319] = {
+		ship_group = 10225,
+		name = "Biloxi",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "biluokexi_6",
+		id = 319,
+		group_id = 319,
+		order = 20,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[320] = {
+		ship_group = 20232,
+		name = "RoyalMaid.E",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "jinqu",
+		id = 320,
+		group_id = 320,
+		order = 20,
+		time_persist = {},
+		npc_discuss_persist = {}
 	},
 	[342] = {
 		ship_group = 1090001,
@@ -7576,6 +7725,12 @@ pg.activity_ins_template = {
 		292,
 		293,
 		294,
+		315,
+		316,
+		317,
+		318,
+		319,
+		320,
 		342,
 		343,
 		344,

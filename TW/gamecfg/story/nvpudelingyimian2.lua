@@ -91,7 +91,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "负责迎宾的似乎是埃吉尔，不过是身着与平时不同的服装，以及与平时不同的姿势——",
+			say = "负责迎宾的似乎是{namecode:480}，不过是身着与平时不同的服装，以及与平时不同的姿势——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘴上说着休息，但趴在沙发上的埃吉尔依旧在盯着这边。",
+			say = "嘴上说着休息，但趴在沙发上的{namecode:480}依旧在盯着这边。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "我就不该听信帕塞瓦尔说的“就当转换心情”……",
+			say = "我就不该听信{namecode:483}说的“就当转换心情”……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "这段屈辱的历史马上就要永远得划上句号，我也要回归平时的埃吉尔了。",
+			say = "这段屈辱的历史马上就要永远得划上句号，我也要回归平时的{namecode:480}了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			actor = 499051,
 			nameColor = "#a9f548",
 			live2d = true,
-			say = "……意外听到了埃吉尔在女仆工作中积累的压力。不过……她调制的饮料，味道真好啊——",
+			say = "……意外听到了{namecode:480}在女仆工作中积累的压力。不过……她调制的饮料，味道真好啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

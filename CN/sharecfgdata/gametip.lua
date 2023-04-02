@@ -1772,7 +1772,7 @@ _G.pg.base.gametip.exercise_rule_tip = {
    8、演习对手可以免费手动更换，每天只能更换<color=#92fc63>5</color>次
    9、挑战后，无论成败，都会自动更换一组对手
    10、演习次数每天00:00、12:00、18:00刷新，刷新时增加<color=#92fc63>5</color>次演习次数，演习次数上限为<color=#92fc63>10</color>次
-   11、赛季结束后，所有玩家军衔和积分重置]]
+   11、赛季结束后，所有玩家演习次数、军衔和积分重置]]
 }
 
 _G.pg.base.gametip.exercise_award_tip = {
@@ -5250,7 +5250,7 @@ _G.pg.base.gametip.intimacy_desc_7_detail = {
 }
 
 _G.pg.base.gametip.intimacy_desc_ring = {
-	tip = "拥有一枚誓约戒指"
+	tip = "拥有一个永恒礼盒"
 }
 
 _G.pg.base.gametip.intimacy_desc_tiara = {
@@ -5266,7 +5266,7 @@ _G.pg.base.gametip.word_propose_cost_tip1 = {
 }
 
 _G.pg.base.gametip.word_propose_cost_tip2 = {
-	tip = "是否消耗<color=#92fc63>1</color>枚誓约之戒兑换为<color=#92fc63>1</color>顶誓约之冠\n<color=#ff5c5c>兑换操作无法撤回，以此誓约的角色无法更名</color>"
+	tip = "是否消耗<color=#92fc63>1</color>个永恒礼盒兑换为<color=#92fc63>1</color>顶誓约之冠\n<color=#ff5c5c>兑换操作无法撤回，以此誓约的角色无法更名</color>"
 }
 
 _G.pg.base.gametip.word_propose_tiara_tip = {
@@ -6084,11 +6084,11 @@ _G.pg.base.gametip.help_build_4 = {
 							 普通舰船：$5%
 
 							  【限时建造】
-							<color=#ffde38>      俾斯麦</color>：2%<color=#92fc63>(up!)</color>
+							<color=#ffde38>      {namecode:435}</color>：2%<color=#92fc63>(up!)</color>
 					<color=#ffde38>        英王乔治五世</color>：0.5%
-						<color=#d797ff>U556</color>：2.5%<color=#92fc63>(up!)</color>
-						<color=#d797ff>U73</color>：2.5%<color=#92fc63>(up!)</color>
-						<color=#d797ff>Z36</color>：2.5%<color=#92fc63>(up!)</color>						<color=#d797ff>回声</color>：5%<color=#92fc63>(up!)</color></size>]]
+						<color=#d797ff>{namecode:416}</color>：2.5%<color=#92fc63>(up!)</color>
+						<color=#d797ff>{namecode:417}</color>：2.5%<color=#92fc63>(up!)</color>
+						<color=#d797ff>{namecode:411}</color>：2.5%<color=#92fc63>(up!)</color>						<color=#d797ff>回声</color>：5%<color=#92fc63>(up!)</color></size>]]
 }
 
 _G.pg.base.gametip.help_build_5 = {
@@ -7732,10 +7732,14 @@ _G.pg.base.gametip.word_rename_time_warning = {
 
 _G.pg.base.gametip.word_propose_cost_tip = {
 	tip = [[
-誓约需要消耗<color=#92fc63>1</color>枚誓约之戒（当前拥有<color=#92fc63>$1</color>枚）
+誓约需要消耗<color=#92fc63>1</color>个永恒礼盒（当前拥有<color=#92fc63>$1</color>枚）
 
 <size=32>*誓约后角色将成为专属舰，可重新命名并获得<color=#92fc63>3%</color>属性加成</size>
 <size=32>*誓约后角色将自动锁定</size>]]
+}
+
+_G.pg.base.gametip.word_propose_switch_tip = {
+	tip = "更改成功"
 }
 
 _G.pg.base.gametip.evaluate_too_loog = {
@@ -8399,7 +8403,7 @@ _G.pg.base.gametip.word_status_train = {
 }
 
 _G.pg.base.gametip.word_status_challenge = {
-	tip = "限界挑战中"
+	tip = "活动编队中"
 }
 
 _G.pg.base.gametip.word_status_world = {
@@ -8408,6 +8412,10 @@ _G.pg.base.gametip.word_status_world = {
 
 _G.pg.base.gametip.word_status_inHardFormation = {
 	tip = "困难编队中"
+}
+
+_G.pg.base.gametip.word_status_series_enemy = {
+	tip = "特别行动中"
 }
 
 _G.pg.base.gametip.challenge_rule = {
@@ -10082,7 +10090,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "维托里奥·维内托、天鹰等角色 建造概率UP!"
+	tip = "库尔斯克、伏罗希洛夫等角色 建造概率UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11454,7 +11462,7 @@ c特定舰船达到120级（获得科技点，解锁对应的全舰队<color=#92
 例：指挥官获得了
 <size=28>拉菲(白鹰) 科技点<color=#92fc63>+1</color>
 长岛(白鹰) 科技点<color=#92fc63>+1</color>
-Z23(<color=#ff5c5c>铁血</color>) 科技点<color=#92fc63>+1</color></size>
+{namecode:408}(<color=#ff5c5c>铁血</color>) 科技点<color=#92fc63>+1</color></size>
 则此时的<color=#92fc63>阵营科技点</color>为
 白鹰阵营科技点 <color=#92fc63>+2</color>
 <color=#ff5c5c>铁血</color>阵营科技点 <color=#92fc63>+1</color>]]
@@ -13640,7 +13648,7 @@ _G.pg.base.gametip.help_chunjie_jiulou = {
 活动说明：
 1.活动期间可以通过<color=#92fc63>「抚顺大冒险Ⅳ」</color>、<color=#92fc63>「绘图日记」</color>、<color=#92fc63>「海天与海圻的画中世界」</color>、<color=#92fc63>「傲梅迎春」</color>获得红包，开启红包可以获得钻石及其他丰厚奖励
 2.红包分为bonus和普通红包，其中有<color=#92fc63>15</color>个bonus红包，其余为普通红包，开启红包时优先开启bonus红包，bonus红包开完后开启普通红包
-3.累计打开<color=#92fc63>15</color>个红包，可获得<color=#92fc63>「U73」限定换装</color>，累计打开<color=#92fc63>25</color>个红包，可获得<color=#92fc63>「抚顺」限定换装</color>]]
+3.累计打开<color=#92fc63>15</color>个红包，可获得<color=#92fc63>「{namecode:417}」限定换装</color>，累计打开<color=#92fc63>25</color>个红包，可获得<color=#92fc63>「抚顺」限定换装</color>]]
 		}
 	}
 }
@@ -13732,7 +13740,7 @@ _G.pg.base.gametip.bulin_tip9 = {
 }
 
 _G.pg.base.gametip.bulin_tip_other1 = {
-	tip = "是否解锁提示？20分钟内只能解锁一个提示"
+	tip = "是否解锁提示？10分钟内只能解锁一个提示"
 }
 
 _G.pg.base.gametip.bulin_tip_other2 = {
@@ -16785,7 +16793,7 @@ _G.pg.base.gametip.help_xinnian2021_feast = {
 活动简介：
 「啾啾雪合战」：参与小游戏获取桸限定换装「迎春的神
 乐舞」
-「啾啾小吃街」：参与小游戏获取限定角色「Z28」
+「啾啾小吃街」：参与小游戏获取限定角色「{namecode:445}」
 「敲钟祈福」：参与小游戏获取奖励「年贺状」
 「换装商店」：购买新年限时换装
 「限时建造」：建造限时角色]]
@@ -16829,7 +16837,7 @@ _G.pg.base.gametip.help_xinnian2021__meishiyemian = {
 叠加<color=#92fc63>7</color>次
 2.在有可用次数的情况下参与新年美食祭并进行<color=#92fc63>游戏结算</color>
 会消耗掉可用次数并获得活动道具，集齐7个活动道具可
-以获得限定角色<color=#92fc63>「Z28」</color>
+以获得限定角色<color=#92fc63>「{namecode:445}」</color>
 3.在没有可用次数的情况下参与新年美食祭不会获得活动
 道具
 4.因为其他原因中途退出小游戏不会消耗可用次数，同时
@@ -19877,7 +19885,7 @@ _G.pg.base.gametip.help_xinnian2022_feast = {
 活动时间：<color=#92fc63>2021.12.29-2022.1.13</color>
 活动简介：
 「啾啾冰壶战」：参与小游戏获取南安普顿限定换装「午后的休闲旋律」
-「烟花工坊」：参与小游戏获取限定角色「Z28」
+「烟花工坊」：参与小游戏获取限定角色「{namecode:445}」
 「绘马祈愿」：参与绘马祈愿获取奖励「年贺状」
 「换装商店」：购买新年限时换装
 「限时建造」：建造限时角色
@@ -20115,7 +20123,7 @@ _G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
 }
 
 _G.pg.base.gametip.shipmodechange_reject_inactivity = {
-	tip = "舰船在限界挑战/共斗活动编成中，请调整编队阵容后重试"
+	tip = "舰船在限界挑战/共斗/连战活动编成中，请调整编队阵容后重试"
 }
 
 _G.pg.base.gametip.monopoly3thre_tip = {
@@ -20682,6 +20690,83 @@ _G.pg.base.gametip.cruise_task_help_2302 = {
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2304 = {
+	tip = "4/1-5/31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「拉·加利索尼埃·META」</color>在内的丰富奖励"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2304 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2023.4.1-2023.5.31)
+
+·<color=#92fc63>开放时间</color>
+    2023.4.1 0点 ~ 2023.5.31 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「拉·加利索尼埃·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·五期</color>等奖励；
+    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>沃克兰换装「异世界的“不速之客”</color>」、<color=#ff5c5c>钻石</color>等奖励；
+    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即5.31 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2304 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+    2023.3.31 0点 ~ 2023.5.31 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "全部重置"
 }
@@ -20938,7 +21023,7 @@ _G.pg.base.gametip.newserver_activity_tip = {
 			info = [[
 <color=#92fc63>·活动任务</color>
 活动任务分为「每日任务」与「历程任务」,「每日任务」于每天0点刷新，「历程任务」只能完成一次，不会刷新；
-完成活动任务可获取「新服庆典Pt」，完成通关系列任务还可额外获得角色「皇家方舟」、「U-47」、「天狼星」。
+完成活动任务可获取「新服庆典Pt」，完成通关系列任务还可额外获得角色「皇家方舟」、「{namecode:413}」、「天狼星」。
 ]]
 		},
 		{
@@ -21355,19 +21440,19 @@ _G.pg.base.gametip.littleEugen_npc = {
 			info = "「芝士奶酪要加糖！」说明："
 		},
 		{
-			info = "1.活动期间，玩家可获得临时npc角色「小欧根」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
+			info = "1.活动期间，玩家可获得临时npc角色「{namecode:458}」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
 		},
 		{
-			info = "2.活动期间，完成活动任务，可获得「芝士蛋糕」奖励，赠送「芝士蛋糕」可累积临时npc角色「小欧根」的友好度。"
+			info = "2.活动期间，完成活动任务，可获得「芝士蛋糕」奖励，赠送「芝士蛋糕」可累积临时npc角色「{namecode:458}」的友好度。"
 		},
 		{
 			info = "3.5月4日为止，每日解锁1个可达成的友好度阶段。"
 		},
 		{
-			info = "4.在活动结束前累计获得10000点友好度，可领取奖励并将临时角色「小欧根」转化为永久角色。"
+			info = "4.在活动结束前累计获得10000点友好度，可领取奖励并将临时角色「{namecode:458}」转化为永久角色。"
 		},
 		{
-			info = "5.在活动结束后，未完成转化的临时角色「小欧根」将离开港区，不返还已经消耗的强化、突破等培养材料。"
+			info = "5.在活动结束后，未完成转化的临时角色「{namecode:458}」将离开港区，不返还已经消耗的强化、突破等培养材料。"
 		},
 		{
 			info = "6.npc角色无法参与大型作战。"
@@ -21538,7 +21623,7 @@ _G.pg.base.gametip.commission_event_tip = {
 1.活动期间，派遣舰队执行军事委托，根据完成的委托时长可获得等比例的「军事委托凭证」奖励
 <color=#92fc63>完成的每5分钟军事委托可获得1个「军事委托凭证」</color>
 例：完成1小时的「日常资源开发I」委托后，可获得12个「军事委托凭证」
-2.仅在活动期间开始并完成的军事委托可获得「军事委托凭证」奖励
+2.仅在活动期间完成的军事委托可获得「军事委托凭证」奖励
 3.中途放弃军事委托无法获得「军事委托凭证」奖励
 4.消耗「军事委托凭证」可在活动商店中兑换包括心智魔方在内的丰富奖励
 5.活动商店中部分道具需要达成解锁条件方可进行兑换]]
@@ -21944,25 +22029,25 @@ _G.pg.base.gametip.random_ship_locked_mode = {
 _G.pg.base.gametip.littleSpee_npc = {
 	tip = {
 		{
-			info = "「“围剿”小斯佩伯爵」说明："
+			info = "「“围剿”{namecode:459}伯爵」说明："
 		},
 		{
-			info = "1.活动期间，玩家可获得临时npc角色「小斯佩」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
+			info = "1.活动期间，玩家可获得临时npc角色「{namecode:459}」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
 		},
 		{
-			info = "2.活动期间，击破普通难度主线第三章及之后章节旗舰，可获得「情报点」奖励，解析「情报点」可累积临时npc角色「小斯佩」的友好度。"
+			info = "2.活动期间，击破普通难度主线第三章及之后章节旗舰，可获得「情报点」奖励，解析「情报点」可累积临时npc角色「{namecode:459}」的友好度。"
 		},
 		{
-			info = "3.上阵「小斯佩」参与战斗，且未被击沉，可获得双倍「情报点」。"
+			info = "3.上阵「{namecode:459}」参与战斗，且未被击沉，可获得双倍「情报点」。"
 		},
 		{
 			info = "4.10月19日为止，每日解锁1个可达成的友好度阶段。"
 		},
 		{
-			info = "5.在活动结束前累计获得1000点友好度，可领取奖励并将临时角色「小斯佩」转化为永久角色。"
+			info = "5.在活动结束前累计获得1000点友好度，可领取奖励并将临时角色「{namecode:459}」转化为永久角色。"
 		},
 		{
-			info = "6.活动结束后，未完成转化的临时角色「小斯佩」将离开港区，不返还已经消耗的强化、突破等培养材料。"
+			info = "6.活动结束后，未完成转化的临时角色「{namecode:459}」将离开港区，不返还已经消耗的强化、突破等培养材料。"
 		},
 		{
 			info = "7.npc角色无法参与大型作战。"
@@ -22772,7 +22857,7 @@ _G.pg.base.gametip.help_chunjie2023 = {
 <color=#92fc63>「画中世界」</color>：参与活动获取限定角色<color=#92fc63>「海天」</color>与<color=#92fc63>「海祈」</color>
 <color=#92fc63>「绘图日记」</color>：参与活动获取限定角色<color=#92fc63>「鞍山」</color>
 <color=#92fc63>「傲梅迎春」</color>：参与活动获取逸仙专属设备<color=#92fc63>「梅之语」</color>
-<color=#92fc63>「啾啾大酒楼」</color>：参与活动开启15个红包获取U73限定换装<color=#92fc63>「早春的热情药剂」</color>，开启25个红包获取抚顺限定换装<color=#92fc63>「“钓”包游戏」</color>
+<color=#92fc63>「啾啾大酒楼」</color>：参与活动开启15个红包获取{namecode:417}限定换装<color=#92fc63>「早春的热情药剂」</color>，开启25个红包获取抚顺限定换装<color=#92fc63>「“钓”包游戏」</color>
 <color=#92fc63>「换装商店」</color>：购买春节限时换装
 <color=#92fc63>「限时建造」</color>：建造限时角色]]
 		}
@@ -23216,10 +23301,167 @@ _G.pg.base.gametip.battle_text_yingxiv4_10 = {
 	tip = "战争骑士陷入了<color=#f1f102>瘫痪状态</color>，舰队可以随意开火"
 }
 
+_G.pg.base.gametip.series_enemy_mood = {
+	tip = "心情不足"
+}
+
+_G.pg.base.gametip.series_enemy_mood_error = {
+	tip = "单队连战模式下，队伍中有舰船心情<=30无法出战 "
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip1 = {
+	tip = "基础通关奖励 "
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip2 = {
+	tip = "多队出击额外奖励 "
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip3 = {
+	tip = "通关奖励 "
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip4 = {
+	tip = "历史最高得分 "
+}
+
+_G.pg.base.gametip.series_enemy_cost = {
+	tip = "总计消耗："
+}
+
+_G.pg.base.gametip.series_enemy_SP_count = {
+	tip = "今日次数："
+}
+
+_G.pg.base.gametip.series_enemy_SP_error = {
+	tip = "今日SP挑战次数不足"
+}
+
+_G.pg.base.gametip.series_enemy_unlock = {
+	tip = "请按照顺序依次推进关卡 "
+}
+
+_G.pg.base.gametip.series_enemy_storyunlock = {
+	tip = "解锁剧情下一阶段"
+}
+
+_G.pg.base.gametip.series_enemy_storyreward = {
+	tip = "已完成阶段："
+}
+
+_G.pg.base.gametip.series_enemy_help = {
+	tip = [[
+活动规则：
+<color=#92fc63>2023.3.23-2023.4.6维护</color>期间开启限时活动「极地风暴」
+1. 本次活分为「作战模式」、「故事模式」，在「作战模式」中通关关卡可获得PT值，逐步解锁「故事模式」中阶段剧情。
+2. 「作战模式」中采用连战玩法，即上阵多只队伍逐一挑战多个小关，全部获胜后整个关卡通关，获得奖励
+3. 部分关卡可通过切换「多队出击」、「单队连战」两种模式，「单队连战」可使用单个队伍挑战所有小关，「多队出击」为不同队伍挑战各个关卡，「多队出击」可获得额外奖励
+4. 「作战模式」中EX关卡不具有任何消耗，EX关卡中获得积分计入排行榜，不会获得任何奖励
+5. 累计PT值可在「作战模式」中领取各色奖励，完成「故事模式」中所有阶段剧情，可获得「限定装备」]]
+}
+
+_G.pg.base.gametip.series_enemy_score = {
+	tip = "得分"
+}
+
+_G.pg.base.gametip.series_enemy_total_score = {
+	tip = "总得分"
+}
+
 _G.pg.base.gametip.setting_label_private = {
 	tip = "隐私协议"
 }
 
 _G.pg.base.gametip.setting_label_licence = {
 	tip = "用户协议"
+}
+
+_G.pg.base.gametip.series_enemy_reward = {
+	tip = "累计奖励"
+}
+
+_G.pg.base.gametip.series_enemy_mode_1 = {
+	tip = "单队连战  "
+}
+
+_G.pg.base.gametip.series_enemy_mode_2 = {
+	tip = "多队出击 "
+}
+
+_G.pg.base.gametip.series_enemy_fleet_prefix = {
+	tip = "队伍$1"
+}
+
+_G.pg.base.gametip.series_enemy_team_notenough = {
+	tip = "存在不满足出战要求的舰队，每支舰队必须至少存在一艘后排主力与一艘前排先锋 "
+}
+
+_G.pg.base.gametip.series_enemy_empty_commander_main = {
+	tip = "暂无司令"
+}
+
+_G.pg.base.gametip.series_enemy_empty_commander_assistant = {
+	tip = "暂无参谋"
+}
+
+_G.pg.base.gametip.limit_team_character_tips = {
+	tip = "※参战的舰队中不可出现同名角色"
+}
+
+_G.pg.base.gametip.caibulin_tip1 = {
+	tip = "从作战中搜寻线索，目标1-2Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip2 = {
+	tip = "仓库……很可疑，是一个适合藏匿线索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip3 = {
+	tip = "从作战中搜寻线索，目标2-2Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip4 = {
+	tip = "船坞……很可疑，是一个适合藏匿线索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip5 = {
+	tip = "从作战中搜寻线索，目标1-4Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip6 = {
+	tip = "后宅……很可疑，是一个适合藏匿线索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip7 = {
+	tip = "从作战中搜寻线索，目标2-4Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip8 = {
+	tip = "学院……很可疑，是一个适合藏匿线索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip9 = {
+	tip = "小卖部……很可疑，是一个适合藏匿线索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_tip10 = {
+	tip = "建造台……很可疑，是一个适合藏匿线索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_help = {
+	tip = {
+		{
+			info = [[
+活动说明：
+1.活动期间，在特定界面或关卡中可收集相应的神器线索
+2.当收集线索遇到困难时，可以点击线索格解锁提示
+注意：10分钟内只能解锁一个提示哦
+3.线索收集完成可以开启特别关卡，挑战特别关卡并取
+得胜利可以获得特殊奖励]]
+		}
+	}
+}
+
+_G.pg.base.gametip.caibulin_tip11 = {
+	tip = "神器线索收集完成即可解锁特别关卡~"
 }

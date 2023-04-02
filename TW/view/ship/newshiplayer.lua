@@ -795,7 +795,7 @@ end
 function slot0.playOpening(slot0, slot1)
 	slot2 = nil
 
-	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. ("star_level_unlock_anim_" .. ((not slot0._shipVO:isRemoulded() or ShipGroup.GetGroupConfig(slot0._shipVO:getGroupId()).trans_skin) and ShipGroup.getDefaultSkin(slot0._shipVO:getGroupId()).id)))) then
+	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/" .. ("star_level_unlock_anim_" .. ((not slot0._shipVO:isRemoulded() or ShipGroup.GetGroupConfig(slot0._shipVO:getGroupId()).trans_skin) and ShipGroup.getDefaultSkin(slot0._shipVO:getGroupId()).id)))) then
 		slot5 = pg.CpkPlayMgr.GetInstance()
 
 		slot5:PlayCpkMovie(function ()
@@ -803,7 +803,7 @@ function slot0.playOpening(slot0, slot1)
 			if uv0 then
 				uv0()
 			end
-		end, "ui", slot3, true, false, {
+		end, "ui/skinunlockanim", slot3, true, false, {
 			weight = slot0:getWeightFromData()
 		})
 	elseif slot1 then

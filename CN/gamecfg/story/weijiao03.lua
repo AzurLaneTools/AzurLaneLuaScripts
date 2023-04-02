@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据情报，斯佩伯爵虽然击沉了数只商船，但是救助了落水的船员，看在这一点的份上，放你一马。",
+			say = "根据情报，{namecode:431}虽然击沉了数只商船，但是救助了落水的船员，看在这一点的份上，放你一马。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "虽然我不介意多个玩具，不过我们现在可没有带着个俘虏面对斯佩伯爵的空间哦？",
+			say = "虽然我不介意多个玩具，不过我们现在可没有带着个俘虏面对{namecode:431}的空间哦？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

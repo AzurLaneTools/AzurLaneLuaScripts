@@ -185,7 +185,7 @@ function slot5(slot0, slot1)
 	SetActive(slot0._exchangeShipPanel:Find("intro_view/Viewport/intro"), slot1.drop.type == DROP_TYPE_SHIP or slot1.drop.type == DROP_TYPE_RESOURCE or slot1.drop.type == DROP_TYPE_ITEM or slot1.drop.type == DROP_TYPE_FURNITURE or slot1.drop.type == DROP_TYPE_STRATEGY or slot1.drop.type == DROP_TYPE_SKIN or slot1.drop.type == DROP_TYPE_SKIN_TIMELIMIT)
 	setActive(slot0.singleItemIntro, slot0.settings.numUpdate == nil)
 	setActive(slot0._countDescTxt, slot3 ~= nil)
-	setText(slot0._exchangeShipPanel:Find("name_mode/name"), HXSet.hxLan(slot1.name or slot1.drop.cfg.name or ""))
+	setText(slot0._exchangeShipPanel:Find("name_mode/name"), slot1.name or slot1.drop.cfg.name or "")
 	setText(slot0._exchangeShipPanel:Find("name_mode/name/name"), getText(slot0._exchangeShipPanel:Find("name_mode/name")))
 
 	slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(uv0.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
@@ -332,7 +332,7 @@ function slot8(slot0, slot1)
 
 	setActive(slot0._countDescTxt, slot0.settings.numUpdate ~= nil)
 	SetActive(slot0.singleItemIntro, slot8 == nil)
-	setScrollText(slot0._sigleItemPanel:Find("name_mode/name_mask/name"), HXSet.hxLan(slot1.name or slot1.drop.cfg.name or ""))
+	setScrollText(slot0._sigleItemPanel:Find("name_mode/name_mask/name"), slot1.name or slot1.drop.cfg.name or "")
 	setParent(slot0._singleItemshipTypeTF, slot0._sigleItemPanel:Find("name_mode"))
 	slot0._singleItemshipTypeTF:SetSiblingIndex(1)
 	setActive(slot0._singleItemshipTypeBgTF, isActive(slot0._singleItemshipTypeTF))
@@ -472,7 +472,7 @@ function slot8(slot0, slot1)
 	if slot1.content and slot1.content ~= "" then
 		setText(slot6, slot1.content)
 	elseif slot1.drop.type == DROP_TYPE_RESOURCE then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot6, slot1.drop.cfg.display)
 	elseif slot1.drop.type == DROP_TYPE_ITEM then
 		slot12 = slot1.drop.cfg.display
 
@@ -480,7 +480,7 @@ function slot8(slot0, slot1)
 			slot12 = string.gsub(slot12, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.extra))
 		end
 
-		setText(slot6, SwitchSpecialChar(HXSet.hxLan(slot12), true))
+		setText(slot6, SwitchSpecialChar(slot12, true))
 	elseif slot1.drop.type == DROP_TYPE_FURNITURE then
 		setText(slot6, slot1.drop.cfg.describe)
 	elseif slot1.drop.type == DROP_TYPE_SHIP then
@@ -502,21 +502,21 @@ function slot8(slot0, slot1)
 			slot12 = string.gsub(slot12, "$" .. slot16, slot17)
 		end
 
-		setText(slot6, HXSet.hxLan(slot12))
+		setText(slot6, slot12)
 
 		if slot1.extendDesc then
 			setText(cloneTplTo(slot6, slot6.parent), slot1.extendDesc)
 		end
 	elseif slot1.drop.type == DROP_TYPE_SKIN or slot1.drop.type == DROP_TYPE_SKIN_TIMELIMIT then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.desc))
+		setText(slot6, slot1.drop.cfg.desc)
 	elseif slot1.drop.type == DROP_TYPE_EQUIPMENT_SKIN then
 		setText(slot6, slot1.drop.cfg.desc .. "\n\n" .. i18n("word_fit") .. ": " .. table.concat(_.map(slot1.drop.cfg.equip_type, function (slot0)
 			return EquipType.Type2Name2(slot0)
 		end), ","))
 	elseif slot1.drop.type == DROP_TYPE_VITEM then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot6, slot1.drop.cfg.display)
 	elseif slot1.drop.type == DROP_TYPE_WORLD_ITEM then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot6, slot1.drop.cfg.display)
 	elseif slot1.drop.type == DROP_TYPE_WORLD_COLLECTION then
 		slot13 = WorldCollectionProxy.GetCollectionType(slot1.drop.id) == WorldCollectionProxy.WorldCollectionType.FILE and "file" or "record"
 
@@ -531,11 +531,11 @@ function slot8(slot0, slot1)
 	elseif slot1.drop.type == DROP_TYPE_LOVE_LETTER then
 		desc = string.gsub(slot1.drop.cfg.display, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.count))
 
-		setText(slot6, SwitchSpecialChar(HXSet.hxLan(desc), true))
+		setText(slot6, SwitchSpecialChar(desc, true))
 	elseif slot1.drop.type == DROP_TYPE_META_PT then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot6, slot1.drop.cfg.display)
 	elseif slot1.drop.type == DROP_TYPE_RYZA_DROP then
-		setText(slot6, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot6, slot1.drop.cfg.display)
 	else
 		assert(false, "can not handle this type>>" .. slot1.drop.type)
 	end

@@ -157,7 +157,7 @@ pg.settings_other_template = {
 		desc = "ONにすると、自分が訪問した友達の寮舎に自分の秘書艦が表示されるようになる"
 	},
 	{
-		default = 1,
+		default = 0,
 		name = "QUICK_CHANGE_EQUIP",
 		type = 0,
 		alignment = 0,
@@ -166,13 +166,22 @@ pg.settings_other_template = {
 		desc = "（ON状態）装備高速変更時に確認画面が表示される"
 	},
 	{
-		default = 1,
+		default = 0,
 		name = "GYRO_ENABLE",
 		type = 0,
 		alignment = 0,
 		id = 15,
 		title = "L2Dジャイロセンサー",
 		desc = "ONに設定すると、一部L2Dアニメーションはジャイロセンサーの動作によって挙動が異なります"
+	},
+	{
+		default = 0,
+		name = "SHIP_NAME_COLOR",
+		type = 0,
+		alignment = 0,
+		id = 16,
+		title = "ケッコン済艦船名特殊表示",
+		desc = "ONにすると、ドックでケッコン済みの艦船の名前の文字色が変更されます"
 	},
 	all = {
 		1,
@@ -189,6 +198,7 @@ pg.settings_other_template = {
 		12,
 		13,
 		14,
-		15
+		15,
+		16
 	}
 }

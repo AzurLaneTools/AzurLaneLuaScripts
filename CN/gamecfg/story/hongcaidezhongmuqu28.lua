@@ -159,7 +159,7 @@ return {
 			bgName = "bg_endingsong_13",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "没错，这就是隐藏在这片海域中的真正秘密————一处实验机关的塞壬主机。",
 			typewriter = {
 				speed = 0.05,
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_endingsong_13",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "我也是花了很久才弄清楚它藏匿的位置，以及破坏其保护装置的手段的。",
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_endingsong_13",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "虽然不能一劳永逸的解决问题——",
 			typewriter = {
 				speed = 0.05,
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_endingsong_13",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "不过，这将会是一个很好的开始，不是么？",
 			typewriter = {
 				speed = 0.05,

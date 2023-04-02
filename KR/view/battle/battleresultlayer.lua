@@ -233,13 +233,15 @@ function slot0.didEnter(slot0)
 	slot1 = rtf(slot0._grade)
 	slot0._gradeUpperLeftPos = slot1.localPosition
 	slot1.localPosition = Vector3(0, 25, 0)
-	slot2 = pg.UIMgr.GetInstance()
 
-	slot2:BlurPanel(slot0._tf, true, {
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, true, {
 		lockGlobalBlur = true,
 		groupName = LayerWeightConst.GROUP_COMBAT
 	})
-	ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCemera(false)
+
+	if slot0.contextData.system ~= SYSTEM_BOSS_RUSH and slot0.contextData.system ~= SYSTEM_BOSS_RUSH_EX and slot0.contextData.system ~= SYSTEM_ACT_BOSS then
+		ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCemera(false)
+	end
 
 	slot0._grade.transform.localScale = Vector3(1.5, 1.5, 0)
 	slot2 = LeanTween.scale(slot0._grade, Vector3(0.88, 0.88, 1), uv0.DURATION_WIN_SCALE)
@@ -354,6 +356,12 @@ end
 
 function slot0.showRewardInfo(slot0)
 	slot0._stateFlag = uv0.STATE_REWARD
+
+	if slot0.contextData.system == SYSTEM_BOSS_RUSH or slot0.contextData.system == SYSTEM_BOSS_RUSH_EX then
+		slot0:emit(BattleResultMediator.ON_BACK_TO_LEVEL_SCENE)
+
+		return
+	end
 
 	SetActive(slot0:findTF("jieuan01/tips", slot0._bg), false)
 	setParent(slot0._tf, slot0.UIMain)
@@ -952,8 +960,6 @@ function slot0.showRightBottomPanel(slot0)
 		if uv0.failTag == true then
 			uv0:emit(BattleResultMediator.PRE_BATTLE_FAIL_EXIT)
 			uv0:emit(BattleResultMediator.OPEN_FAIL_TIP_LAYER)
-		elseif uv0.contextData.system == SYSTEM_DUEL then
-			uv0:emit(BattleResultMediator.ON_BACK_TO_DUEL_SCENE)
 		else
 			uv0:emit(BattleResultMediator.ON_BACK_TO_LEVEL_SCENE)
 		end

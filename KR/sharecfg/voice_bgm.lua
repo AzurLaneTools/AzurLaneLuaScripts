@@ -97,10 +97,10 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "Theme-vichy-church",
+		default_bgm = "login",
 		special_bgm = "",
 		time = "",
-		bgm = "Theme-vichy-church"
+		bgm = "login"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -449,5 +449,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-richang-5"
+	},
+	BossRushKurskScene = {
+		default_bgm = "bgm-cccp3",
+		special_bgm = "battle-deepecho",
+		time = "",
+		bgm = "bgm-cccp3"
 	}
 }

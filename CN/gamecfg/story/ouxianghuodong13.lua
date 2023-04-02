@@ -30,7 +30,7 @@ return {
 			bgName = "bg_ouxianglevel",
 			side = 2,
 			dir = 1,
-			say = "说实话没想到斯佩会来的",
+			say = "说实话没想到{namecode:432}会来的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

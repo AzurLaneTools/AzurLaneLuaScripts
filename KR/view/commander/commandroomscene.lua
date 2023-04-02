@@ -9,6 +9,7 @@ slot0.FLEET_TYPE_HARD_CHAPTER = 3
 slot0.FLEET_TYPE_CHALLENGE = 4
 slot0.FLEET_TYPE_GUILDBOSS = 5
 slot0.FLEET_TYPE_WORLD = 6
+slot0.FLEET_TYPE_BOSSRUSH = 7
 slot0.ON_QUICKLY_TOOL_WINDOW = "CommandRoomScene:ON_QUICKLY_TOOL_WINDOW"
 
 function slot0.getUIName(slot0)
@@ -1016,6 +1017,12 @@ function slot0.willExit(slot0)
 
 	if slot0.mode == CommandRoomScene.MODE_SELECT then
 		getProxy(SettingsProxy):SetCommanderPlaySortData(slot0.sortData)
+	end
+
+	if slot0.bulinTip then
+		slot0.bulinTip:Destroy()
+
+		slot0.bulinTip = nil
 	end
 end
 

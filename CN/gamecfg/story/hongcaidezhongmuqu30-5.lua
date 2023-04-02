@@ -683,7 +683,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "现在开始行动，让我们见识一下余烬的力量吧，沙恩霍斯特！",
+			say = "现在开始行动，让我们见识一下余烬的力量吧，{namecode:433}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "余烬沙恩霍斯特，现在加入战斗————",
+			say = "余烬{namecode:433}，现在加入战斗————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

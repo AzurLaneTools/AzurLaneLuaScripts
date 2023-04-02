@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "是，一支来自实验场β的铁血舰队通过未知方式来到了这里，并提前拉拢了格奈森瑙·META。",
+			say = "是，一支来自实验场β的铁血舰队通过未知方式来到了这里，并提前拉拢了{namecode:434}·META。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "短暂的通讯结束了，沙恩霍斯特似乎犹豫了一下，不过最终还是解除了戒备姿态。",
+			say = "短暂的通讯结束了，{namecode:433}似乎犹豫了一下，不过最终还是解除了戒备姿态。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

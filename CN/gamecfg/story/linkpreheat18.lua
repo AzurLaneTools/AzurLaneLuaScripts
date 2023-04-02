@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23！谢谢你专门跑一趟！",
+			say = "{namecode:408}！谢谢你专门跑一趟！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

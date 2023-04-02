@@ -65,13 +65,10 @@ function slot7.SetTemplate(slot0, slot1, slot2, slot3)
 	slot0:InitCldComponent()
 
 	slot2.armorType = slot0._tmpData.armor_type
+	slot7 = slot3
 
-	slot0:setAttrFromOutBattle(slot2, slot3)
+	slot0:setAttrFromOutBattle(slot2, slot7)
 	uv2.InitDOTAttr(slot0._attr, slot0._tmpData)
-
-	slot7 = slot0._tmpData.type
-
-	uv2.SetCurrent(slot0, "srcShipType", slot7)
 
 	slot0._personality = uv1.GetShipPersonality(2)
 

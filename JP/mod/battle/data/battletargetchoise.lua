@@ -843,3 +843,33 @@ function slot3.TargetGroup(slot0, slot1, slot2)
 
 	return slot5
 end
+
+function slot3.LegalTarget(slot0)
+	slot1 = {}
+	slot2 = nil
+	slot3 = ys.Battle.BattleDataProxy.GetInstance()
+	slot4, slot5, slot6, slot7 = slot3:GetFieldBound()
+	slot9 = slot0:GetIFF()
+
+	for slot13, slot14 in pairs(slot3:GetUnitList()) do
+		if slot14:IsAlive() and slot14:GetIFF() ~= slot9 and slot14:GetPosition().x < slot7 and not slot14:IsSpectre() then
+			slot1[#slot1 + 1] = slot14
+		end
+	end
+
+	return slot1
+end
+
+function slot3.LegalWeaponTarget(slot0)
+	slot1 = {}
+	slot2 = nil
+	slot5 = slot0:GetIFF()
+
+	for slot9, slot10 in pairs(ys.Battle.BattleDataProxy.GetInstance():GetUnitList()) do
+		if slot10:GetIFF() ~= slot5 and not slot10:IsSpectre() then
+			slot1[#slot1 + 1] = slot10
+		end
+	end
+
+	return slot1
+end

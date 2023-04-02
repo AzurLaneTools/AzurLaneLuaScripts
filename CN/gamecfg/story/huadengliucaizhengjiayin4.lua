@@ -380,7 +380,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算了不想这些了……我们去看看埃吉尔说的“会飞的狮子”好了~！",
+			say = "算了不想这些了……我们去看看{namecode:480}说的“会飞的狮子”好了~！",
 			painting = {
 				alpha = 0.3,
 				time = 1

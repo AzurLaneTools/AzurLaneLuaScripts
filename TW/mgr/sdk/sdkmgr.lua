@@ -261,6 +261,10 @@ function slot0.UserEventUpload(slot0, slot1)
 	slot0:Call("UserEventUpload", slot1)
 end
 
+function slot0.ShowSurvey(slot0, slot1, slot2)
+	return slot0:Call("ShowSurvey", slot1, slot2)
+end
+
 function slot0.CheckAiriCanBuy(slot0)
 	if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
 		return slot0:Get("CheckAiriCanBuy")

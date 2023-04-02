@@ -477,12 +477,12 @@ function slot8(slot0, slot1)
 		slot13 = slot1.drop.cfg.display
 
 		if slot1.drop.cfg.type == Item.LOVE_LETTER_TYPE then
-			slot13 = string.gsub(slot13, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.extra))
+			slot13 = HXSet.hxLan(string.gsub(slot13, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.extra)))
 		end
 
 		setText(slot6, SwitchSpecialChar(HXSet.hxLan(slot13), true))
 	elseif slot1.drop.type == DROP_TYPE_FURNITURE then
-		setText(slot6, slot1.drop.cfg.describe)
+		setText(slot6, HXSet.hxLan(slot1.drop.cfg.describe))
 	elseif slot1.drop.type == DROP_TYPE_SHIP then
 		slot14, slot15, slot16 = ShipWordHelper.GetWordAndCV(uv0.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
@@ -664,9 +664,9 @@ function slot9(slot0, slot1)
 			slot10:AddSprite(slot11, GetSpriteFromAtlas(slot7.rawIcon.atlas, slot11))
 			setText(slot8, "")
 
-			slot10.text = string.format("<icon name=%s w=0.7 h=0.7/>%s", slot11, slot7.info or "")
+			slot10.text = HXSet.hxLan(string.format("<icon name=%s w=0.7 h=0.7/>%s", slot11, slot7.info or ""))
 		else
-			setText(slot8, slot7.info and SwitchSpecialChar(slot7.info, true) or "")
+			setText(slot8, HXSet.hxLan(slot7.info and SwitchSpecialChar(slot7.info, true) or ""))
 		end
 
 		setActive(slot10.gameObject, slot7.rawIcon)
@@ -830,7 +830,7 @@ function slot12(slot0, slot1)
 			slot5 = slot3[2]
 			slot6 = slot3[3]
 
-			slot2:Find("mask/title"):GetComponent("ScrollText"):SetText(slot3[1])
+			slot2:Find("mask/title"):GetComponent("ScrollText"):SetText(HXSet.hxLan(slot3[1]))
 			setActive(slot2:Find("skip_btn"), uv1 and slot5[1] ~= "" and slot5[1] ~= "COLLECTSHIP")
 
 			if slot5[1] ~= "" then

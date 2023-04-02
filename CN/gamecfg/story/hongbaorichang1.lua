@@ -637,7 +637,7 @@ return {
 			actor = 404011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可惜没能见识到，啧啧…不过，德意志啊，你如果想要一起玩，就过去呗？",
+			say = "可惜没能见识到，啧啧…不过，{namecode:429}啊，你如果想要一起玩，就过去呗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

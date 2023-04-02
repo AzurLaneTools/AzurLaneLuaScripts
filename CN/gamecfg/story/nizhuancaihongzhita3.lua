@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "阿达尔伯特大概一直在外面做准备运动吧，每次战斗开始前她都这样啦。",
+			say = "{namecode:456}大概一直在外面做准备运动吧，每次战斗开始前她都这样啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "嘿嘿，到时候一直在外面的阿达尔伯特说不定就会遗憾错过咯~",
+			say = "嘿嘿，到时候一直在外面的{namecode:456}说不定就会遗憾错过咯~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "U-1206——人呢？",
+			say = "{namecode:476}——人呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "易北，你也是。",
+			say = "{namecode:468}，你也是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "话音未落，阿达尔伯特亲王一个飞身跳跃来到易北身边，毫不犹豫得捏住了她的脸。",
+			say = "话音未落，{namecode:455}一个飞身跳跃来到{namecode:468}身边，毫不犹豫得捏住了她的脸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海因里希，好吵。",
+			say = "{namecode:454}，好吵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "哟，海因里希。",
+			say = "哟，{namecode:454}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "阿达尔伯特~~！好久不见，你怎么来了啊！",
+			say = "{namecode:456}~~！好久不见，你怎么来了啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海因里希……任务命令书……你完全没看过么。",
+			say = "{namecode:454}……任务命令书……你完全没看过么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "那种东西写上“已阅”就可以丢在一边了吧……反正有彼得在！",
+			say = "那种东西写上“已阅”就可以丢在一边了吧……反正有{namecode:471}在！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只要彼得下达命令，米德加尔特之塔就可以正式启动咯！",
+			say = "只要{namecode:471}下达命令，米德加尔特之塔就可以正式启动咯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "不过彼得已经在会议室里呆了好久，一点消息都没有……",
+			say = "不过{namecode:471}已经在会议室里呆了好久，一点消息都没有……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "毕竟乌尔里希阁下可是一位需要全身心投入认真谨慎应对的人呢。",
+			say = "毕竟{namecode:464}阁下可是一位需要全身心投入认真谨慎应对的人呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "啊……那个总板着脸的乌尔里希也来了么！？",
+			say = "啊……那个总板着脸的{namecode:464}也来了么！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -849,7 +849,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "行动好快——！不愧是阿达尔伯特的姐妹舰。",
+			say = "行动好快——！不愧是{namecode:456}的姐妹舰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "至于海因里希的话，她读完之后大概自己就会过来了，请不用担心。",
+			say = "至于{namecode:454}的话，她读完之后大概自己就会过来了，请不用担心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

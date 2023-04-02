@@ -1870,17 +1870,17 @@ _G.pg.base.gametip.exercise_time_tip = {
 
 _G.pg.base.gametip.exercise_rule_tip = {
 	tip = [[
-1. 매 <color=#92fc63>14</color>일을 한 시즌으로, 시즌 중 지정 계급 달성 시, 계급에 맞는 보상을 수령할 수 있습니다.
- 2. 전투 승리 시 계급에 따라 공훈을 획득할 수 있으며, 패배하더라도 <color=#92fc63>절반</color>의 공훈을 획득합니다.
- 3. 전투 승리 시 포인트를 획득할 수 있으며, 패배할 시 <color=#92fc63>포인트는 차감되지 않습니다.</color>
- 4. 다른 유저의 도전을 받아 패배하여도 포인트는 차감되지 않습니다.
- 5. 포인트가 일정 수치에 도달하면, 계급을 상승시킬 수 있으며, <color=#92fc63>장교 이상</color>계급은 일정 순위를 달성해야 합니다.
- 6. 계급을 1번이라도 달성하기만 한다면, 즉시 계급 보상을 획득할 수 있습니다.
- 7. 획득한 공훈은 공훈 상점에서 과학 기술 상자, 캐릭터 등으로 교환할 수 있습니다.
- 8. 연습전 상대는 무료로 수동 갱신이 가능하며, 매일 <color=#92fc63>5</color>회 갱신할 수 있습니다.
- 9. 도전 후, 승패와 관련 없이 자동으로 상대가 갱신됩니다.
- 10. 연습전 횟수는 매일 00:00, 12:00, 18:00에 갱신되며, 갱신 시 연습전 횟수는 <color=#92fc63>5</color>회로 증가합니다. 연습전은 최대 <color=#92fc63>10</color>회 진행 가능합니다.
- 11. 시즌 종료 후, 모든 유저의 계급과 포인트가 초기화됩니다. ]]
+1. <color=#92fc63>14</color>일마다 한 시즌입니다. 시즌 중 지정 계급에 도달 시 해당 보상을 획득할 수 있습니다.
+2. 전투 승리 시 계급 등급에 따라 공훈을 획득합니다. 패배하더라도 <color=#92fc63>절반</color>의 공훈을 획득할 수 있습니다.
+3. 전투 승리 시, 포인트를 획득합니다. 패배 시 <color=#92fc63>포인트는 차감되지 않습니다</color>.
+4. 도전을 받아 패배할 시 포인트가 차감되지 않습니다.
+5. 포인트가 일정 수치에 달하면 계급이 상승하며, <color=#92fc63>준장 이상</color> 계급은 일정 순위에 도달해야 합니다.
+6. 계급은 1회만 도달해도 계급 보상을 즉시 획득할 수 있습니다.
+7. 획득한 공훈은 공훈 상점에서 과학기술 상자, 캐릭터 등 보상과 교환할 수 있습니다.
+8. 연습전 상대는 무료로 수동 변경이 가능하며, 하루에 최대 <color=#92fc63>5</color>회만 가능합니다.
+9. 도전 후, 승패에 상관없이 상대 목록이 자동 변경됩니다.
+10. 연습전 횟수는 매일 00:00, 12:00, 18:00마다 갱신되며 갱신 시 횟수는 <color=#92fc63>5</color>회 증가됩니다. 연습전 횟수는 최대 <color=#92fc63>10</color>회까지 누적됩니다.
+ 11. 시즌 종료 후, 모든 유저의 연습전 횟수, 계급, 포인트가 초기화됩니다.]]
 }
 
 _G.pg.base.gametip.exercise_award_tip = {
@@ -7738,6 +7738,10 @@ _G.pg.base.gametip.word_propose_cost_tip = {
 <size=32>*서약 후 캐릭터는 자동으로 잠금 상태가 됩니다</size>.]]
 }
 
+_G.pg.base.gametip.word_propose_switch_tip = {
+	tip = "변경 성공"
+}
+
 _G.pg.base.gametip.evaluate_too_loog = {
 	tip = "코멘트가 너무 깁니다."
 }
@@ -8449,7 +8453,7 @@ _G.pg.base.gametip.word_status_train = {
 }
 
 _G.pg.base.gametip.word_status_challenge = {
-	tip = "한계챌린지 "
+	tip = "이벤트 편성 중"
 }
 
 _G.pg.base.gametip.word_status_world = {
@@ -8458,6 +8462,10 @@ _G.pg.base.gametip.word_status_world = {
 
 _G.pg.base.gametip.word_status_inHardFormation = {
 	tip = "어려움 편성 중"
+}
+
+_G.pg.base.gametip.word_status_series_enemy = {
+	tip = "특별 작전 중"
 }
 
 _G.pg.base.gametip.challenge_rule = {
@@ -9809,15 +9817,15 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "누적 200회 건조 시마다 UR 함선 임플래커블 획득 가능(최대 4회)"
+	tip = "쿠르스크, 보로실로프 등 캐릭터 건조 확률 UP!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "볼티모어(μ장비) 건조 추가!"
+	tip = "리슐리외, 알제리 건조 추가!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:192}, 스트례미텔니 건조 추가!"
+	tip = "르 테리블, 잔 다르크 등 캐릭터 건조 추가!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -11703,10 +11711,12 @@ _G.pg.base.gametip.returner_help = {
 이벤트 설명: 
 초대 대상:
 복귀 지휘관：
-2021년 2월 25일~3월25일 사이에 로그인 이력이 없는지휘관
+2023년 3월 9일 이후로 로그인 이력이 없는 지휘관
 신규 지휘관:
-2021년 3월 25일~4월14일 사이에 신규 가입한 지휘관자격에 해당하는 지휘관은 이벤트 기간 동안 로그인 시 특별 이벤트 페이지에서 UID를 입력해 이벤트에 참여할 수 있습니다.
-초대자: 2022년 3월 17일~3월31일 사이에 로그인 한 이력이 있는 지휘관 초대자는 자신의 UID를 사용해 조건을 만족하는 지휘관을 초대해 이벤트에 참여할 수 있습니다.
+2023년 3월 23일~5월 4일 사이에 신규 가입한 지휘관
+자격에 해당하는 지휘관은 이벤트 기간 동안 로그인 시 특별 이벤트 페이지에서 UID를 입력해 이벤트에 참여할 수 있습니다.
+초대자: 2023년 3월 9일~3월 23일 사이에 로그인 한 이력이 있는 지휘관
+초대자는 자신의 UID를 사용해 조건을 만족하는 지휘관을 초대해 이벤트에 참여할 수 있습니다.
 모집 지휘관:
 최대 2명의 지휘관을 초대할 수 있으며 전용 임무를 달성한 후집결 포인트를 받을 수 있습니다. 집결 신호가 발송된 뒤 초대자 전용임무가 개방되며, 임무 달성 후 
 집결 포인트를 받을 수 있습니다. 집결 포인트가 일정 이상 도달하면 풍성한 보상을 받을 수 있습니다. 초대 대상은 초대자의 UID를 입력한 후, 전용 임무를 활성화 할 수 있습니다. 전용 임무를 달상하면 풍성한 보상과 함께 초대자에게 집결포인트를 제공합니다. 항구 간에는 초대를 할 수 있지만 서버 간에는 할 수 없습니다.
@@ -11773,7 +11783,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4. 지휘관은 해당 건조 내 캐릭터 2명을 희망 캐릭터로 \n설정하실 수 있습니다."
 		},
 		{
-			info = "5. 7월 21일 전에 상시건조로 추가된 캐릭터들만 선택하실 \n수 있습니다."
+			info = "5. 1월 18일 전에 상시건조로 추가된 캐릭터들만 선택하실 \n수 있습니다."
 		},
 		{
 			info = "6. 건조 조건이 따로 있는 캐릭터는 희망 캐릭터로 선택하실 \n수 없으며, 희망 건조 캐릭터 리스트에 출현하지 않습니다."
@@ -20318,6 +20328,83 @@ _G.pg.base.gametip.cruise_task_help_2302 = {
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2304 = {
+	tip = "2023.4.8-2023.6.7까지, 투어 임무를 완료하여 <icon name=pt w=0.5 h=0.5/> 누적 시, 「라 갈리소니에르·META」가 포함된 풍부한 보상을 획득할 수 있습니다."
+}
+
+_G.pg.base.gametip.battlepass_main_help_2304 = {
+	tip = {
+		{
+			info = [[
+월드 투어(2023.4.8-2023.6.7)
+
+·<color=#92fc63>개방 기간</color>
+ 2023.4.8 0시 ~ 2023.6.7 23:59:59
+
+·<color=#92fc63>투어 진도 설명</color>
+(1)이벤트 기간 동안, 투어 임무를 통해「투어 PT」를 획득할 수 있습니다.
+(2)투어 임무는 시간에 따라 개방됩니다.
+(3)「투어 PT」를 100 획득할 때마다 투어 진도가 1씩 증가합니다.
+(4)투어 진도 상승 후, 해당 레벨 보상을 획득할 수 있으며, 투어 진도는 최고 100까지 달성할 수 있습니다.
+
+·<color=#92fc63>보상 규칙</color>
+투어 진도 보상은 2가지로 나뉘어집니다:
+(1)기본 투어 보상: <color=#ff5c5c>「라 갈리소니에르·META」</color>, <color=#ff5c5c>성정 큐브</color>, <color=#ff5c5c>고급 지향형 강화 유닛·제5기</color> 등
+ 지정 투어 진도 도달 시, 기본 투어 보상을 즉시 수령할 수 있습니다.
+(2)특허 투어 보상: <color=#ff5c5c>보클랭 「패러렐 어드벤처」</color>, <color=#ff5c5c>다이아</color> 등
+ 「특허 투어 패스」 구매 및 지정 투어 진도 도달 시, 특허 투어 보상을 수령할 수 있습니다.
+ 주의: 「특허 투어 패스」 구매 후, 기본 투어 보상 수령에 영향을 끼치지 않습니다.
+
+·<color=#92fc63>「특허 투어 패스」설명</color>
+(1)「특허 투어 패스」는 「상점」-「특혜 패키지」에서 구매할 수 있으며, 구매 즉시 <color=#ff5c5c>1500</color> 「투어 PT」를 획득하며 특허 투어 보상이 해제됩니다.
+（2）「특허 투어 패스」는 <color=#ff5c5c>이벤트 종료 1시간 전</color> 판매가 중지됩니다(6.7 22:59:59). 구매 시간에 주의해 주세요.
+
+·<color=#92fc63>임무 설명</color>
+투어 임무는 2가지로 나뉘어집니다:
+(1)주간 임무 
+ 투어 임무에 8세트 주간 임무가 존재합니다. 이벤트 시작 후 1주차 임무가 해제되며, 이후 월요일 0시마다 다음 주간 임무가 해제됩니다.
+(2)S.P. 임무
+ S.P. 임무는 특수 임무로, 이벤트 시작 후 모든 임무가 해제됩니다.
+(3)투어 임무는 해제 후 자동으로 접수되며, 임무 완성 조건 만족 시, 자동 완성 및 보상을 획득합니다.
+
+·<color=#92fc63>「투어 임무 완료 쿠폰」설명</color>
+(1)「투어 임무 완료 쿠폰」은 투어 임무 화면에서 사용할 수 있으며, 일정 수량의「투어 임무 완료 쿠폰」을 소비하여 대부분의 투어 임무를 즉시 완료할 수 있습니다.
+(2)「투어 임무 완료 쿠폰」 수량이 부족할 경우, 다이아를 소비해 보충할 수 있습니다.
+(3)각 투어 임무마다 필요한 「투어 임무 완료 쿠폰」 수량은 제공되는 「투어 PT」와 연관이 있으며, 현재 임무 진도와는 무관합니다.
+(4)「투어 임무 완료 쿠폰」은 이번 이벤트 종료 시 사라지지 않습니다.
+
+·<color=#ff5c5c>특별 알림</color>
+(1)이번 월드 투어 이벤트 종료 후, 모든 투어 임무는 진행이 불가하며, 모든 투어 보상을 수령할 수 없습니다. 각 지휘관 여러분께서는 반드시 이벤트 시간을 주의하여 미리 보상을 수령해 주시기 바랍니다.
+(2)투어 진도, [특허 투어 패스]는 이번 월드 투어 이벤트에서만 효력이 있습니다.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2304 = {
+	tip = {
+		{
+			info = [[
+투어 임무 설명
+
+·<color=#92fc63>개방 기간</color>
+ 2023.4.8 0시 ~ 2023.6.7 23:59:59
+
+·<color=#92fc63>투어 임무는 2가지로 나뉘어집니다.</color>
+(1)주간 임무
+ 투어 임무에 8세트 주간 임무가 존재합니다. 이벤트 시작 후 1주차 임무가 해제되며, 이후 월요일 0시마다 다음 주간 임무가 해제됩니다.
+(2)S.P. 임무
+ S.P. 임무는 특수 임무로, 이벤트 시작 후 모든 임무가 해제됩니다.
+(3)투어 임무는 해제 후 자동으로 접수되며, 임무 완성 조건 만족 시, 자동 완성 및 보상을 획득합니다.
+
+·<color=#92fc63>「투어 임무 완료 쿠폰」설명</color>
+(1)「투어 임무 완료 쿠폰」은 투어 임무 화면에서 사용할 수 있으며, 일정 수량의「투어 임무 완료 쿠폰」을 소비하여 주간 투어 임무를 즉시 완료할 수 있습니다.
+(2)「투어 임무 완료 쿠폰」 수량이 부족할 경우, 다이아를 소비해 보충할 수 있습니다.
+(3)각 투어 임무마다 필요한 「투어 임무 완료 쿠폰」 수량은 제공되는 「투어 PT」와 연관이 있으며, 현재 임무 진도와는 무관합니다.
+(4)「투어 임무 완료 쿠폰」은 <color=#92fc63>이번 이벤트 종료 시 사라지지 않습니다.</color>]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "초기화"
 }
@@ -21112,7 +21199,7 @@ _G.pg.base.gametip.commission_event_tip = {
 1. 이벤트 기간 동안, 함대를 파견하여 군사의뢰 진행 시, 의뢰 완료까지 걸린 시간에 따라 「군사의뢰 증빙」 보상을 획득할 수 있습니다.
 <color=#92fc63>완료한 군사의뢰 5분마다 「군사의뢰 증빙」 1개 획득 가능</color>
 예시: 1시간이 소요되는 「일상 자원 개발I」 의뢰 완료 후, 「군사의뢰 증빙」 12개 획득.
-2. 이벤트 기간 동안 시작 및 완료한 군사의뢰에서만 「군사의뢰 증빙」 보상을 획득할 수 있습니다.
+2. 이벤트 기간 동안 및 완료한 군사의뢰에서만 「군사의뢰 증빙」 보상을 획득할 수 있습니다.
 3. 군사의뢰를 중도 포기할 경우 「군사의뢰 증빙」 보상은 획득할 수 없습니다.
 4. 이벤트 상점에서 「군사의뢰 증빙」을 소모하여 성정 큐브가 포함된 풍부한 보상과 교환할 수 있습니다.
 5. 이벤트 상점 내 일부 아이템은 해제 조건을 달성해야 교환이 가능합니다.]]
@@ -22810,4 +22897,169 @@ _G.pg.base.gametip.battle_text_yingxiv4_9 = {
 
 _G.pg.base.gametip.battle_text_yingxiv4_10 = {
 	tip = "전쟁의 기사가 허약해졌습니다! 집중 공격하세요!"
+}
+
+_G.pg.base.gametip.series_enemy_mood = {
+	tip = "감정 부족"
+}
+
+_G.pg.base.gametip.series_enemy_mood_error = {
+	tip = "단독 출격 시, 감정<=30 함선이 존재할 시 출격 불가"
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip1 = {
+	tip = "기본 클리어 보상"
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip2 = {
+	tip = "협동 출격 보상"
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip3 = {
+	tip = "클리어 보상"
+}
+
+_G.pg.base.gametip.series_enemy_reward_tip4 = {
+	tip = "최고 점수:"
+}
+
+_G.pg.base.gametip.series_enemy_cost = {
+	tip = "총 소모:"
+}
+
+_G.pg.base.gametip.series_enemy_SP_count = {
+	tip = "금일 횟수:"
+}
+
+_G.pg.base.gametip.series_enemy_SP_error = {
+	tip = "금일 SP 도전 횟수 부족"
+}
+
+_G.pg.base.gametip.series_enemy_unlock = {
+	tip = "순서대로 스테이지에 도전하세요."
+}
+
+_G.pg.base.gametip.series_enemy_storyunlock = {
+	tip = "스토리 다음 단계 해제"
+}
+
+_G.pg.base.gametip.series_enemy_storyreward = {
+	tip = "해제 완료:"
+}
+
+_G.pg.base.gametip.series_enemy_help = {
+	tip = [[
+이벤트 규칙:
+<color=#92fc63>2023.3.30-2023.4.13 업데이트 전</color>까지 한정 이벤트 「극지 폭풍」이 오픈됩니다.
+1. 이번 이벤트는 「작전 모드」, 「스토리 모드」로 나뉘며, 「작전 모드」 스테이지 클리어시 「스토리 모드」의 단계를 해제할 수 있습니다.
+2. 「작전 모드」에서는 여러 함대를 출격시켜 스테이지에 하나씩 도전할 수 있습니다. 모두 승리 후 스테이지 클리어 시 보상을 획득합니다.
+3. 일부 스테이지에서는 「협동 출격」, 「단독 출격」 모드를 전환할 수 있습니다. 「단독 출격」 시 하나의 함대로 모든 스테이지에 도전하며, 「협동 출격」 시 여러 함대로 각각의 스테이지에 도전합니다. 또한 추가 보상을 획득할 수 있습니다.
+4. 「작전 모드」의 EX 스테이지는 아무런 비용이 없으며, EX 스테이지에서 획득한 포인트는 랭킹에 합산되지만, 어떠한 보상도 획득하지 못합니다.
+5. PT 누적 시 「작전 모드」에서 다양한 보상을 수령할 수 있으며 「스토리 모드」 내 모든 단계의 스토리 완료 시 「한정 장비」를 획득할 수 있습니다.]]
+}
+
+_G.pg.base.gametip.series_enemy_score = {
+	tip = "점수"
+}
+
+_G.pg.base.gametip.series_enemy_total_score = {
+	tip = "총 점수"
+}
+
+_G.pg.base.gametip.setting_label_private = {
+	tip = "개인 정보 보호 계약"
+}
+
+_G.pg.base.gametip.setting_label_licence = {
+	tip = "사용자 프로토콜"
+}
+
+_G.pg.base.gametip.series_enemy_reward = {
+	tip = "누적 보상"
+}
+
+_G.pg.base.gametip.series_enemy_mode_1 = {
+	tip = "단독 출격"
+}
+
+_G.pg.base.gametip.series_enemy_mode_2 = {
+	tip = "협동 출격"
+}
+
+_G.pg.base.gametip.series_enemy_fleet_prefix = {
+	tip = "함대 $1"
+}
+
+_G.pg.base.gametip.series_enemy_team_notenough = {
+	tip = "출격 조건에 부합하지 않는 함대가 있습니다. 각 함대마다 주력 및 선봉함선이 최소 1척씩 존재해야 합니다."
+}
+
+_G.pg.base.gametip.series_enemy_empty_commander_main = {
+	tip = "사령냥 없음"
+}
+
+_G.pg.base.gametip.series_enemy_empty_commander_assistant = {
+	tip = "참모냥 없음"
+}
+
+_G.pg.base.gametip.limit_team_character_tips = {
+	tip = "※참전 중인 함대에 동명의 캐릭터 편성 불가"
+}
+
+_G.pg.base.gametip.caibulin_tip1 = {
+	tip = "작전 중 단서를 수색하자, 목표 1-2 푸링!"
+}
+
+_G.pg.base.gametip.caibulin_tip2 = {
+	tip = "창고가…… 수상해. 단서를 숨기기 좋은 곳이야 푸링!"
+}
+
+_G.pg.base.gametip.caibulin_tip3 = {
+	tip = "작전 중 단서를 수색하자, 목표 2-2 푸링!"
+}
+
+_G.pg.base.gametip.caibulin_tip4 = {
+	tip = "도크가…… 수상해. 단서를 숨기기 좋은 곳이야 푸링!"
+}
+
+_G.pg.base.gametip.caibulin_tip5 = {
+	tip = "작전 중 단서를 수색하자, 목표 1-4 푸링!"
+}
+
+_G.pg.base.gametip.caibulin_tip6 = {
+	tip = "숙소가…… 수상해. 단서를 숨기기 좋은 곳이야 푸링!"
+}
+
+_G.pg.base.gametip.caibulin_tip7 = {
+	tip = "작전 중 단서를 수색하자, 목표 2-4 푸링!"
+}
+
+_G.pg.base.gametip.caibulin_tip8 = {
+	tip = "학교가…… 수상해. 단서를 숨기기 좋은 곳이야 푸링!"
+}
+
+_G.pg.base.gametip.caibulin_tip9 = {
+	tip = "해군매점이…… 수상해. 단서를 숨기기 좋은 곳이야 푸링!"
+}
+
+_G.pg.base.gametip.caibulin_tip10 = {
+	tip = "「건조」가…… 수상해. 단서를 숨기기 좋은 곳이야 푸링!"
+}
+
+_G.pg.base.gametip.caibulin_help = {
+	tip = {
+		{
+			info = [[
+이벤트 설명:
+1. 이벤트 기간 동안, 특정 화면 또는 스테이지에서 신기의 단서를 수집할 수 있습니다.
+2. 단서 수집이 어려울 경우, 단서 슬롯을 터치하여 힌트를 해제할 수 있습니다.
+주의: 20분 내에 1가지 힌트만 해제할 수 있습니다.
+3. 단서 수집 완료 시 특별 스테이지가 오픈되며, 도전하여 승리 시
+특수 보상을 획득할 수 있습니다.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.caibulin_tip11 = {
+	tip = "신기의 단서 수집 완료 시 특별 스테이지가 해제됩니다~"
 }

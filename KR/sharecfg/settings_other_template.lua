@@ -151,6 +151,15 @@ pg.settings_other_template = {
 		title = "L2D 자이로 배경 제어",
 		desc = "기능 설정 후, 일부 L2D 스킨 배경을 자이로 센서로 제어 가능"
 	},
+	{
+		default = 1,
+		name = "SHIP_NAME_COLOR",
+		type = 0,
+		alignment = 0,
+		id = 16,
+		title = "서약 캐릭터명 특수 표시",
+		desc = "기능 설정 후, 도크 등 화면에서 서약한 캐릭터명이 특수한 색으로 표시된다."
+	},
 	all = {
 		1,
 		2,
@@ -166,6 +175,7 @@ pg.settings_other_template = {
 		12,
 		13,
 		14,
-		15
+		15,
+		16
 	}
 }

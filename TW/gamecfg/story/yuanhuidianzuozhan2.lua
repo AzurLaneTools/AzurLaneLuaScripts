@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "经过数日航行后，布吕歇尔与Z16来到了任务书中指定的海域。",
+			say = "经过数日航行后，{namecode:450}与{namecode:442}来到了任务书中指定的海域。",
 			bgm = "bsm-7",
 			flashout = {
 				black = true,
@@ -137,7 +137,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "布吕歇尔径直扑向了摆在休息室的巨大沙发，然后拿出了指令书。",
+			say = "{namecode:450}径直扑向了摆在休息室的巨大沙发，然后拿出了指令书。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 6,
-			say = "棋子和雕刻车间？我还从来没有见过棋子被生产出来的样子呢，布吕歇尔你见过么？",
+			say = "棋子和雕刻车间？我还从来没有见过棋子被生产出来的样子呢，{namecode:450}你见过么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "就在布吕歇尔研究指令书的时候，Z16正在津津有味地巡视着餐饮区。",
+			say = "就在{namecode:450}研究指令书的时候，{namecode:442}正在津津有味地巡视着餐饮区。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "哇！布吕歇尔，我看了一下，这里的菜单还蛮丰富的！",
+			say = "哇！{namecode:450}，我看了一下，这里的菜单还蛮丰富的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "不光是本土菜，鸢尾菜皇家菜、甚至撒丁菜都有哦，布吕歇尔你要不要吃点什么？",
+			say = "不光是本土菜，鸢尾菜皇家菜、甚至撒丁菜都有哦，{namecode:450}你要不要吃点什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401160,
-			say = "布吕歇尔！你有在听么！",
+			say = "{namecode:450}！你有在听么！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "啊哈哈……说的也是。Z16打算吃什么？",
+			say = "啊哈哈……说的也是。{namecode:442}打算吃什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

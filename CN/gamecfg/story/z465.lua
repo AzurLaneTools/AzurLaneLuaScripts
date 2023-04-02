@@ -66,7 +66,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "来到港区以后，齐柏林的酸菜腌制手艺也越来越好了。",
+			say = "来到港区以后，{namecode:438}的酸菜腌制手艺也越来越好了。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -99,7 +99,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "没关系。齐柏林是我重要的朋友，出手帮你乃是理所当然。",
+			say = "没关系。{namecode:438}是我重要的朋友，出手帮你乃是理所当然。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "朋友…吗…呵呵，从没想过会被驱逐舰当做朋友，但是Z46的话…很不可思议的觉得没什么违和感呢",
+			say = "朋友…吗…呵呵，从没想过会被驱逐舰当做朋友，但是{namecode:412}的话…很不可思议的觉得没什么违和感呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "齐柏林也没资格说我吧。不过，为何要改口气？",
+			say = "{namecode:438}也没资格说我吧。不过，为何要改口气？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "Z46？",
+			say = "{namecode:412}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 		{
 			blackBg = true,
 			bgName = "bg_story_school",
-			say = "我挖了一勺齐柏林做的便当——酸菜焗饭，送进了嘴里。",
+			say = "我挖了一勺{namecode:438}做的便当——酸菜焗饭，送进了嘴里。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

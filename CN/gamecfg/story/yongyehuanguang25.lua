@@ -12,7 +12,7 @@ return {
 			actor = 408060,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呜…U-81，我的大鱼刚刚被深水炸弹击中了！",
+			say = "呜…{namecode:414}，我的大鱼刚刚被深水炸弹击中了！",
 			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,

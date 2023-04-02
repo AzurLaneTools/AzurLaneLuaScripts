@@ -159,7 +159,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而是来自铁血的正经系偶像Z23以及来自重樱的冷静系偶像{namecode:6}！",
+			say = "而是来自铁血的正经系偶像{namecode:408}以及来自重樱的冷静系偶像{namecode:6}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

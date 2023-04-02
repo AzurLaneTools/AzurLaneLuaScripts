@@ -54,7 +54,7 @@ function slot0.update(slot0, slot1, slot2)
 		setActive(slot0.newTF, slot1.new ~= 0 or slot1.isSkin)
 		setActive(slot0.nameTF, not slot2)
 
-		slot0.nameTF.text = shortenString(HXSet.hxLan(slot0.equipmentVO.config.name), 5)
+		slot0.nameTF.text = shortenString(slot0.equipmentVO.config.name, 5)
 
 		setActive(slot0.equiped, slot1.shipId)
 
@@ -89,7 +89,7 @@ function slot0.updateSpWeapon(slot0)
 	setActive(slot0.newTF, false)
 	setActive(slot0.nameTF, true)
 
-	slot0.nameTF.text = shortenString(HXSet.hxLan(slot1:GetName()), 5)
+	slot0.nameTF.text = shortenString(slot1:GetName(), 5)
 	slot2 = slot1:GetShipId()
 
 	setActive(slot0.equiped, slot2)

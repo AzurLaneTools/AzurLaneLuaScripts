@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "Hang on, when they did announce this ball? And how come I first about it from you, the hermit who sits indoors and tinkers all day?",
+			say = "Hang on, when did they announce this ball? And how come I first hear about it from you, the hermit who sits indoors and tinkers all day?",
 			painting = {
 				alpha = 0.3,
 				time = 1

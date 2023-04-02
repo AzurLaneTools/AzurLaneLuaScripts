@@ -1226,7 +1226,7 @@ function slot0.GetEventTipWord(slot0)
 
 		if slot8:IsAlive() and slot9 and slot3 < slot9.hint_pri then
 			slot3 = slot9.hint_pri
-			slot2 = HXSet.hxLan(slot9.hint)
+			slot2 = slot9.hint
 		end
 	end
 

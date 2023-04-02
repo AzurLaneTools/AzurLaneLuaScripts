@@ -44,7 +44,7 @@ function slot0.OnInit(slot0)
 
 				assert(slot6, slot4)
 				GetImageSpriteFromAtlasAsync("furnitureicon/" .. slot6.icon, "", slot2:Find("icon/Image"), true)
-				setText(slot2:Find("name/Text"), HXSet.hxLan(slot6.name))
+				setText(slot2:Find("name/Text"), slot6.name)
 				setText(slot2:Find("from/Text"), slot6.gain_by)
 				setText(slot2:Find("date/Text"), uv2.summaryInfoVO.furnitures[slot4] and slot5:getDate() or i18n("summary_page_un_rearch"))
 			elseif uv2.summaryInfoVO.pageType == uv1.PageTypeIconFrame then
@@ -55,7 +55,7 @@ function slot0.OnInit(slot0)
 				PoolMgr.GetInstance():GetPrefab(slot6:getIcon(), slot6:getConfig("id"), true, function (slot0)
 					setParent(slot0, uv0:Find("icon/frame"), false)
 				end)
-				setText(slot2:Find("name/Text"), HXSet.hxLan(slot6:getConfig("name")))
+				setText(slot2:Find("name/Text"), slot6:getConfig("name"))
 				setText(slot2:Find("from/Text"), slot6:getConfig("gain_by"))
 			else
 				assert(false, "logic error")

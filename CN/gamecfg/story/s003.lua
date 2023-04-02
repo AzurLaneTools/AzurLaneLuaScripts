@@ -6,7 +6,7 @@ return {
 			actor = 900007,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "全舰立刻将目标切换至尾舰，尾舰才是俾斯麦！",
+			say = "全舰立刻将目标切换至尾舰，尾舰才是{namecode:435}！",
 			shake = {
 				speed = 2,
 				number = 3

@@ -43,7 +43,7 @@ return {
 			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "Z级驱逐舰Z46，暂时…还没有名字…厉害的姐姐们…来和我认真地玩个游戏吧…",
+			say = "Z级驱逐舰{namecode:412}，暂时…还没有名字…厉害的姐姐们…来和我认真地玩个游戏吧…",
 			shake = {
 				speed = 1,
 				number = 3

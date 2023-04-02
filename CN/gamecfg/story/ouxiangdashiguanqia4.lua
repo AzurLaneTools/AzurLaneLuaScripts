@@ -882,7 +882,7 @@ return {
 			side = 2,
 			hidePaintEquip = true,
 			dir = 1,
-			say = "二位是{namecode:98}…还有Z23…对吧？现在方便吗？",
+			say = "二位是{namecode:98}…还有{namecode:408}…对吧？现在方便吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

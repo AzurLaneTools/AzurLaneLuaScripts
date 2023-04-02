@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "Today is a day off. Rays of light shine through the window, dying the floor with a pleasant golden glow.",
+			say = "Today is a day off. Rays of light shine through the window, dyeing the floor with a pleasant golden glow.",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {

@@ -210,7 +210,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，我们也有“人质”在手里嘛。针对日前“失踪”铁血舰队的搜索正在逐步的缩小范围。这个节骨眼上料腓特烈也不敢把本王怎么样。",
+			say = "而且，我们也有“人质”在手里嘛。针对日前“失踪”铁血舰队的搜索正在逐步的缩小范围。这个节骨眼上料{namecode:441}也不敢把本王怎么样。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！腓特烈现在想方设法把我调离前线，我总觉得有怪。",
+			say = "没错！{namecode:441}现在想方设法把我调离前线，我总觉得有怪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

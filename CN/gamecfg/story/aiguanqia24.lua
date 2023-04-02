@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果、果然不至于这么……对吧？Z23？",
+			say = "果、果然不至于这么……对吧？{namecode:408}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

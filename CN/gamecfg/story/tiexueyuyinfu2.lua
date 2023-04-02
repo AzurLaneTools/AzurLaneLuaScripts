@@ -179,7 +179,7 @@ return {
 			side = 0,
 			actor = 405010,
 			dir = -1,
-			say = "欧根，听从命令。",
+			say = "{namecode:428}，听从命令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 0,
 			actor = 405010,
 			dir = -1,
-			say = "唯独在辩歪理上，我是无法赢过你的，欧根。",
+			say = "唯独在辩歪理上，我是无法赢过你的，{namecode:428}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

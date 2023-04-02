@@ -141,7 +141,7 @@ function slot0.UpdateSkinType(slot0)
 	setActive(slot0.skinMark, slot2)
 
 	if slot2 then
-		slot0.skinDescTxt.text = HXSet.hxLan(Goods.GetFurnitureConfig(slot1).desc)
+		slot0.skinDescTxt.text = Goods.GetFurnitureConfig(slot1).desc
 	end
 end
 
@@ -152,8 +152,8 @@ end
 
 function slot0.UpdateMainInfo(slot0)
 	slot1 = slot0.furniture
-	slot0.nameTxt.text = slot1:getConfig("name")
-	slot0.descTxt.text = slot1:getConfig("describe")
+	slot0.nameTxt.text = HXSet.hxLan(slot1:getConfig("name"))
+	slot0.descTxt.text = HXSet.hxLan(slot1:getConfig("describe"))
 
 	slot0:UpdateIcon()
 	slot0:UpdatePrice()

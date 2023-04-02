@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "埃吉尔与奥古斯特也留在这里与重樱的盟友防御斯卡帕湾，等待我们的归来。",
+			say = "{namecode:480}与{namecode:482}也留在这里与重樱的盟友防御斯卡帕湾，等待我们的归来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "在目送{namecode:91}与{namecode:96}消失在视野之中后，腓特烈大帝也从容走向了「阿瓦隆之门」。",
+			say = "在目送{namecode:91}与{namecode:96}消失在视野之中后，{namecode:440}也从容走向了「阿瓦隆之门」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

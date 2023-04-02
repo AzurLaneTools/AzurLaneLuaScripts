@@ -11,10 +11,13 @@ function slot0.GenerateData(slot0)
 			slot0.pos = slot1.position + BuildVector3(slot2.spine_offset[1])
 			slot3 = slot2.spine_offset[2][1]
 			slot0.scale = Vector3(slot3, slot3, slot3)
-			slot0.bgEffectName = slot2.special_effects[1]
-			slot0.bgEffectPos = slot1.position + BuildVector3(slot2.special_effects[2])
-			slot4 = slot2.special_effects[3][1]
-			slot0.bgEffectScale = Vector3(slot4, slot4, slot4)
+
+			if #slot2.special_effects > 0 then
+				slot0.bgEffectName = slot2.special_effects[1]
+				slot0.bgEffectPos = slot1.position + BuildVector3(slot2.special_effects[2])
+				slot4 = slot2.special_effects[3][1]
+				slot0.bgEffectScale = Vector3(slot4, slot4, slot4)
+			end
 		end,
 		GetShipName = function (slot0)
 			return slot0.ship:getPainting()
@@ -94,14 +97,17 @@ function slot0.Ctor(slot0, slot1, slot2)
 			end, slot4)
 		end,
 		function (slot0)
-			slot1 = uv0._spinePaintingData.bgEffectName
-			slot2 = "ui/" .. slot1
-			slot3 = uv0._loader
+			if uv0._spinePaintingData.bgEffectName ~= nil then
+				slot2 = "ui/" .. slot1
+				slot3 = uv0._loader
 
-			slot3:LoadPrefab(slot2, slot1, function (slot0)
-				uv0(uv1, slot0)
-				uv2()
-			end, slot2)
+				slot3:LoadPrefab(slot2, slot1, function (slot0)
+					uv0(uv1, slot0)
+					uv2()
+				end, slot2)
+			else
+				slot0()
+			end
 		end
 	}, function ()
 		setActive(uv0._spinePaintingData.parent, true)
@@ -116,6 +122,7 @@ end
 function slot0.SetVisible(slot0, slot1)
 	setActive(slot0._spinePaintingData.effectParent, slot1)
 	setActiveViaLayer(slot0._spinePaintingData.effectParent, slot1)
+	setActive(slot0._tf, slot1)
 end
 
 function slot0.DoSpecialTouch(slot0)
@@ -152,14 +159,18 @@ function slot0.SetActionWithCallback(slot0, slot1, slot2, slot3)
 end
 
 function slot0.SetEmptyAction(slot0, slot1)
+	slot0:SetVisible(true)
+
 	for slot5, slot6 in ipairs(slot0.spineAnimList) do
-		ReflectionHelp.RefCallMethod(typeof("Spine.AnimationState"), "SetEmptyAnimation", ReflectionHelp.RefGetField(typeof("SpineAnimUI"), "spineAnimationState", slot6), {
-			typeof("System.Int32"),
-			typeof("System.Single")
-		}, {
-			slot1,
-			0
-		})
+		if ReflectionHelp.RefGetField(typeof("SpineAnimUI"), "spineAnimationState", slot6) then
+			ReflectionHelp.RefCallMethod(typeof("Spine.AnimationState"), "SetEmptyAnimation", slot7, {
+				typeof("System.Int32"),
+				typeof("System.Single")
+			}, {
+				slot1,
+				0
+			})
+		end
 	end
 end
 

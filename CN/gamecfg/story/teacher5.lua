@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"36年Z组 Z23老师\n\n<size=45>五 Z23的烦恼</size>",
+					"36年Z组 {namecode:408}老师\n\n<size=45>五 {namecode:408}的烦恼</size>",
 					1
 				}
 			}
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23是真心想帮助她们的不是吗？只要是出自真心，对方总是能够理解的～",
+			say = "{namecode:408}是真心想帮助她们的不是吗？只要是出自真心，对方总是能够理解的～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

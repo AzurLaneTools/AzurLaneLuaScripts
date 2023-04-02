@@ -126,7 +126,7 @@ return {
 			side = 2,
 			actor = 301470,
 			dir = 1,
-			say = "那个……非常感谢你，欧根亲王小姐。从战斗开始后就一直在保护我和{namecode:207}……",
+			say = "那个……非常感谢你，{namecode:427}小姐。从战斗开始后就一直在保护我和{namecode:207}……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "（……那个奥丁更是连主炮都没有再发射过一次，这些铁血的人是怎么回事啊，一点紧张感都没有么！）",
+			say = "（……那个{namecode:486}更是连主炮都没有再发射过一次，这些铁血的人是怎么回事啊，一点紧张感都没有么！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

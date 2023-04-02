@@ -384,7 +384,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "嗯？{namecode:94}Z1？",
+			say = "嗯？{namecode:94}{namecode:400}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

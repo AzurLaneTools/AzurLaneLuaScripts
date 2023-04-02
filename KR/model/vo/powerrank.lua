@@ -8,6 +8,7 @@ slot0.TYPE_EXTRA_CHAPTER = 6
 slot0.TYPE_ACT_BOSS_BATTLE = 7
 slot0.TYPE_GUILD_BATTLE = 8
 slot0.TYPE_MILITARY_RANK = 9
+slot0.TYPE_BOSSRUSH = 10
 slot0.typeInfo = {
 	{
 		title_word = {
@@ -88,6 +89,15 @@ slot0.typeInfo = {
 			"ui/billboardui_atlas",
 			"rank_icon"
 		}
+	},
+	[10] = {
+		title_word = {
+			5,
+			8,
+			7,
+			4
+		},
+		act_type = ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK
 	}
 }
 

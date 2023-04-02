@@ -196,7 +196,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以暗黑的恶魔为名，能歌善舞，使用着魔眼，甚至能破译密码的新组合，U-110、Z35、Z36喵！",
+			say = "以暗黑的恶魔为名，能歌善舞，使用着魔眼，甚至能破译密码的新组合，{namecode:420}、{namecode:410}、{namecode:411}喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吾乃召唤深渊巨鲨之人，魔眼使Z36！嘎哦——！",
+			say = "吾乃召唤深渊巨鲨之人，魔眼使{namecode:411}！嘎哦——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后是，因为太过沉重的爱所带来的毁灭风暴! {namecode:97}和罗恩的μ兵装实验组合「Verheerender」喵！",
+			say = "然后是，因为太过沉重的爱所带来的毁灭风暴! {namecode:97}和{namecode:439}的μ兵装实验组合「Verheerender」喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

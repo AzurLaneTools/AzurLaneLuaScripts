@@ -186,9 +186,7 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		EquipmentProxy.EQUIPMENT_ADDED,
 		EquipmentProxy.EQUIPMENT_UPDATED,
-		EquipmentProxy.EQUIPMENT_REMOVED,
 		BayProxy.SHIP_EQUIPMENT_ADDED,
 		BayProxy.SHIP_EQUIPMENT_REMOVED,
 		BayProxy.SHIP_UPDATED,
@@ -214,16 +212,9 @@ end
 function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED then
+	if slot1:getName() == EquipmentProxy.EQUIPMENT_UPDATED then
 		slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
 		slot0.viewComponent:setEquipment(slot3)
-
-		if slot0.canUpdate then
-			slot0.viewComponent:setEquipmentUpdate()
-		end
-	elseif slot2 == EquipmentProxy.EQUIPMENT_REMOVED then
-		slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
-		slot0.viewComponent:removeEquipment(slot3)
 
 		if slot0.canUpdate then
 			slot0.viewComponent:setEquipmentUpdate()

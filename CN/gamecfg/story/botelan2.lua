@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对呀！德意志的话，肯定会明白这种深爱妹妹的心情吧～？",
+			say = "对呀！{namecode:429}的话，肯定会明白这种深爱妹妹的心情吧～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……罢了，我承认，我确实挺宠爱斯佩的。",
+			say = "……罢了，我承认，我确实挺宠爱{namecode:432}的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而你竟然试图让我更加喜欢你的妹妹？比斯佩还要喜欢？",
+			say = "而你竟然试图让我更加喜欢你的妹妹？比{namecode:432}还要喜欢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔哇，不愧是德意志，生起气来果然好可怕呜呜…",
+			say = "唔哇，不愧是{namecode:429}，生起气来果然好可怕呜呜…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "德意志也试着想象一下嘛？",
+			say = "{namecode:429}也试着想象一下嘛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…！是、是吧…不过要是有人敢弄哭斯佩，在感慨之前，就会被我撕碎去喂鲨鱼了就是。",
+			say = "…！是、是吧…不过要是有人敢弄哭{namecode:432}，在感慨之前，就会被我撕碎去喂鲨鱼了就是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…不过，这下难办了，要怎样才能拿下德意志呢…",
+			say = "唔…不过，这下难办了，要怎样才能拿下{namecode:429}呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

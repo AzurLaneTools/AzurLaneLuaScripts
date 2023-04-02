@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "今天的铁血演习似乎胡滕也参加了。",
+			say = "今天的铁血演习似乎{namecode:465}也参加了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让大家见识一下我希佩尔的实力，全速前进！",
+			say = "让大家见识一下我{namecode:426}的实力，全速前进！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "喂希佩尔，你冲太前了！稍微跟其他人的步调配合下！",
+			say = "喂{namecode:426}，你冲太前了！稍微跟其他人的步调配合下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "这场演习看起来是由胡滕进行指挥的，腓特烈大帝似乎更多沉浸在了战斗的乐趣上。",
+			say = "这场演习看起来是由{namecode:465}进行指挥的，{namecode:440}似乎更多沉浸在了战斗的乐趣上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就好。说实话我并没有腓特烈那么喜欢战斗……但为了在战场上能把所有伙伴都平安带回来，这些演习是必要的。",
+			say = "那就好。说实话我并没有{namecode:441}那么喜欢战斗……但为了在战场上能把所有伙伴都平安带回来，这些演习是必要的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "胡滕可以安心处理铁血同伴之间的事，之后再返回工作也是可以的。当然——",
+			say = "{namecode:465}可以安心处理铁血同伴之间的事，之后再返回工作也是可以的。当然——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "腓特烈……指挥官已经完全陷入困惑了，要不就先到这里吧……",
+			say = "{namecode:441}……指挥官已经完全陷入困惑了，要不就先到这里吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

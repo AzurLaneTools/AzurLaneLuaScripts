@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23……嗯，我很喜欢。看起来能找到我想找的东西",
+			say = "{namecode:408}……嗯，我很喜欢。看起来能找到我想找的东西",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，帮大忙了。谢谢你,Z23…………！",
+			say = "嗯，帮大忙了。谢谢你,{namecode:408}…………！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，这不是Z23吗。怎么了？在这里做什么呢？",
+			say = "哎呀，这不是{namecode:408}吗。怎么了？在这里做什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z、Z19！？",
+			say = "Z、{namecode:405}！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不、不用……没关系，老师自己就拿得动…Z19去找自己想看的书吧",
+			say = "不、不用……没关系，老师自己就拿得动…{namecode:405}去找自己想看的书吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊……布兰、Z23，别一脸微笑地看着，快来帮帮我啊！？",
+			say = "啊啊啊……布兰、{namecode:408}，别一脸微笑地看着，快来帮帮我啊！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "......有种希佩尔是妹妹欧根才是姐姐的感觉。",
+			say = "......有种{namecode:426}是妹妹{namecode:428}才是姐姐的感觉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈？欧根你在胡说些什么呢！",
+			say = "哈？{namecode:428}你在胡说些什么呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

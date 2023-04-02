@@ -90,7 +90,7 @@ return {
 			actor = 900302,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈，我先介绍一下好了，这几位是刚才我出去探索时遇到的，Z23、标枪、{namecode:6}，以及拉菲。",
+			say = "啊哈哈，我先介绍一下好了，这几位是刚才我出去探索时遇到的，{namecode:408}、标枪、{namecode:6}，以及拉菲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 403070,
 			dir = 1,
-			say = "这种程度的话，只能和罗恩她们五五开啊。",
+			say = "这种程度的话，只能和{namecode:439}她们五五开啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

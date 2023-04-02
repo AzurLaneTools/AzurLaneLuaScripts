@@ -301,7 +301,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "在埃吉尔的邀请下坐在了她的身边。",
+			say = "在{namecode:480}的邀请下坐在了她的身边。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "埃吉尔在尴尬中下意识地挥起毛笔来……不过这样的话——",
+			say = "{namecode:480}在尴尬中下意识地挥起毛笔来……不过这样的话——",
 			painting = {
 				alpha = 0.3,
 				time = 1

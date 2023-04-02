@@ -54,6 +54,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>4년 동안 모항에서 분투해 온 지휘관들에게 바칩니다.</color>\n4주년 한정 이벤트에 참여하여 획득",
 		scene = {}
 	},
+	[107] = {
+		time_limit_type = 0,
+		name = "5주년 기념",
+		gain_by = "",
+		id = 107,
+		time_second = 0,
+		desc = "<color=#ffffff>5년 동안 모항에서 분투해 온 지휘관들에게 바칩니다.</color>\n5주년 한정 이벤트에 참여하여 획득",
+		scene = {}
+	},
 	[201] = {
 		time_limit_type = 0,
 		name = "한계 챌린저 ",
@@ -430,6 +439,7 @@ pg.item_data_frame = {
 		103,
 		104,
 		105,
+		107,
 		201,
 		202,
 		203,

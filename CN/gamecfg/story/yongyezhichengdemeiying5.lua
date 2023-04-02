@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（埃尔宾……小声点……还有台词……）",
+			say = "（{namecode:449}……小声点……还有台词……）",
 			fontsize = 40,
 			typewriter = {
 				speed = 0.05,
@@ -165,7 +165,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "思考埃尔宾刚才的话……",
+					content = "思考{namecode:449}刚才的话……",
 					flag = 2
 				}
 			}
@@ -551,7 +551,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "接过杯子的埃尔宾，一口气喝下了这杯“血液”",
+			say = "接过杯子的{namecode:449}，一口气喝下了这杯“血液”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "伴随着埃尔宾略显生硬的咒语，四周的门一扇接一扇地关上，最终只留下了唯一的出口。",
+			say = "伴随着{namecode:449}略显生硬的咒语，四周的门一扇接一扇地关上，最终只留下了唯一的出口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "接过U-47给的道具——一个金属制的小十字架。",
+			say = "接过{namecode:413}给的道具——一个金属制的小十字架。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

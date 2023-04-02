@@ -44,7 +44,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "…唔…U556还没来——",
+			say = "…唔…{namecode:416}还没来——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不玩了。U110要撤退了。回去要泡个澡——",
+			say = "不玩了。{namecode:420}要撤退了。回去要泡个澡——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "U110也会看。嗯，大的和小的",
+			say = "{namecode:420}也会看。嗯，大的和小的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U110也喜欢大的吗？说起来，女将也经常盯着小天鹅的看呢。",
+			say = "{namecode:420}也喜欢大的吗？说起来，女将也经常盯着小天鹅的看呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唔，不是很懂。希佩尔的话好像是挺喜欢大的",
+			say = "唔，不是很懂。{namecode:426}的话好像是挺喜欢大的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "大斗犬伸出食指，指着半个脑袋已经潜入水中的U110。",
+			say = "大斗犬伸出食指，指着半个脑袋已经潜入水中的{namecode:420}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "话说完了，U110可以回去了吗？",
+			say = "话说完了，{namecode:420}可以回去了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

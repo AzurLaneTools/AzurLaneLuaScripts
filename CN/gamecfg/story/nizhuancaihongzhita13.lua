@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "那个样子，难道是格奈森瑙？！",
+			say = "那个样子，难道是{namecode:434}？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "只是容貌的话确实和格奈森瑙小姐很像，但是气质上差太多了……",
+			say = "只是容貌的话确实和{namecode:434}小姐很像，但是气质上差太多了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "乌尔里希没有再说话，只是示意舰队原地做好战斗准备，然后一个人向前方驶去。",
+			say = "{namecode:464}没有再说话，只是示意舰队原地做好战斗准备，然后一个人向前方驶去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那应该是由我，乌尔里希·冯·胡滕来判断的。",
+			say = "那应该是由我，{namecode:463}来判断的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "格奈森瑙，我以腓特烈大帝的名义命令你，向铁血再次效忠吧。",
+			say = "{namecode:434}，我以{namecode:440}的名义命令你，向铁血再次效忠吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……原来如此，那事情就好办了。腓特烈大帝的命令就是铁血的命令，加入我们吧。",
+			say = "……原来如此，那事情就好办了。{namecode:440}的命令就是铁血的命令，加入我们吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "腓特烈大帝？没听过的名字啊，铁血里真有这号人么？",
+			say = "{namecode:440}？没听过的名字啊，铁血里真有这号人么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "……细看之下，你好像我也认不太清呢。名字叫乌尔里希.冯.胡縢对么？",
+			say = "……细看之下，你好像我也认不太清呢。名字叫{namecode:463}对么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

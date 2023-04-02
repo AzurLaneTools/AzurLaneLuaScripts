@@ -290,17 +290,17 @@ function slot0.getName(slot0)
 	end
 
 	if slot0:isRemoulded() then
-		return HXSet.hxLan(pg.ship_skin_template[slot0:getRemouldSkinId()].name)
+		return pg.ship_skin_template[slot0:getRemouldSkinId()].name
 	end
 
-	return HXSet.hxLan(pg.ship_data_statistics[slot0.configId].name)
+	return pg.ship_data_statistics[slot0.configId].name
 end
 
 function slot0.GetDefaultName(slot0)
 	if slot0:isRemoulded() then
-		return HXSet.hxLan(pg.ship_skin_template[slot0:getRemouldSkinId()].name)
+		return pg.ship_skin_template[slot0:getRemouldSkinId()].name
 	else
-		return HXSet.hxLan(pg.ship_data_statistics[slot0.configId].name)
+		return pg.ship_data_statistics[slot0.configId].name
 	end
 end
 
@@ -449,7 +449,7 @@ function slot0.Ctor(slot0, slot1)
 	if slot1.name and slot1.name ~= "" then
 		slot0.name = slot1.name
 	elseif slot0:isRemoulded() then
-		slot0.name = HXSet.hxLan(pg.ship_skin_template[slot0:getRemouldSkinId()].name)
+		slot0.name = pg.ship_skin_template[slot0:getRemouldSkinId()].name
 	else
 		slot0.name = pg.ship_data_statistics[slot0.configId].name
 	end
@@ -535,7 +535,7 @@ function slot0.updateName(slot0)
 	end
 
 	if slot0:isRemoulded() then
-		slot0.name = HXSet.hxLan(pg.ship_skin_template[slot0:getRemouldSkinId()].name)
+		slot0.name = pg.ship_skin_template[slot0:getRemouldSkinId()].name
 	else
 		slot0.name = pg.ship_data_statistics[slot0.configId].name
 	end
@@ -2315,6 +2315,34 @@ function slot0.IsMatchKey(slot0, slot1)
 	end
 
 	return string.find(string.lower(slot0:GetDefaultName()), string.lower(string.gsub(slot1, "%.", "%%.")))
+end
+
+function slot0.IsOwner(slot0)
+	return tobool(slot0.id)
+end
+
+function slot0.GetUniqueId(slot0)
+	return slot0.id
+end
+
+function slot0.ShowPropose(slot0)
+	if not slot0.propose then
+		return false
+	else
+		slot1 = not HXSet.isHxPropose() or slot0:IsOwner() and slot0:GetUniqueId() == getProxy(PlayerProxy):getRawData():GetProposeShipId()
+
+		return slot1
+	end
+end
+
+function slot0.GetColorName(slot0, slot1)
+	slot1 = slot1 or slot0:getName()
+
+	if PlayerPrefs.GetInt("SHIP_NAME_COLOR", PLATFORM_CODE == PLATFORM_CH and 1 or 0) == 1 and slot0.propose then
+		return setColorStr(slot1, "#FFAACEFF")
+	else
+		return slot1
+	end
 end
 
 return slot0

@@ -1,5 +1,36 @@
 pg = pg or {}
-pg.pay_level_award = {
+pg.pay_level_award = setmetatable({
+	__name = "pay_level_award",
+	all = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22,
+		23,
+		24,
+		25
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.pay_level_award = {
 	{
 		exp = 6,
 		cv_key = "shop1",
@@ -149,32 +180,5 @@ pg.pay_level_award = {
 		cv_key = "shop25",
 		level = 25,
 		dialog = "指揮官、ダイスキにゃ～"
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25
 	}
 }

@@ -44805,7 +44805,7 @@ _G.pg.base.ship_skin_words[405020] = {
 	drop_descrip = "Bismarck-class battleship, Tirpitz.",
 	mail = "More mail for you... Ah, I'm envious.",
 	touch = "Are you cold?",
-	profile = "It's a bit hot... Ah, sorry. I am Tirpitz. Because I was stuck in the north by myself for so long, people suddenly started calling me the \"Lone Queen of the North.\" If you think it's a good nickname, then you do not fully understand... how soulless those words are.",
+	profile = "It's a bit hot... Ah, sorry. I am Tirpitz. Because I was stuck in the north by myself for so long, people suddenly started calling me the \"Lonely Queen of the North.\" If you think it's a good nickname, then you do not fully understand... how soulless those words are.",
 	mission_complete = "Mission rewards... how nice.",
 	feeling4 = "The worst feeling in the world is not knowing whether to continue waiting or to give up hope. Commander, are you someone worth waiting for?",
 	unlock = "I was imprisoned in the north for so long, unable to return home, and now you want me to follow you? ...Very well. It is up to you to show me the world.",
@@ -49090,7 +49090,7 @@ _G.pg.base.ship_skin_words[601040] = {
 	feeling5 = "Um, Commander, please take this...! Libeccio told me that if there ever was something I'd never be able to say... to put it down in a picture book! P-please take a look...!",
 	main = "What do I think of Libeccio? ...She's my precious little sister. She can be a bit of a klutz at times though, ehehe...|The documents I was just working on are over here, and the already-finished ones are here... Ah, it's not that I couldn't find them, I just thought it'd be more efficient to remind myself out loud... S-sorry... *blushes*|Commander, you must be tired... Ahh, just thinking about it makes me nervous...",
 	battle = "As the flagship... I've got to boost everyone's morale... Roar...!",
-	upgrade = "Shelling, torpedoes, and reloading... I must becoming stronger in all aspects...",
+	upgrade = "Shelling, torpedoes, and reloading... I must become stronger in all aspects...",
 	voice_key = 60104,
 	headtouch = "Wh-what's going on...?",
 	feeling2 = "Libeccio, please don't bother the commander in the middle of work hours... Here, I'll make a syllabus of the times when the commander is available. Mm, that should be right... hopefully.",
@@ -49999,6 +49999,40 @@ _G.pg.base.ship_skin_words[603041] = {
 	hp_warning = "",
 	id = 603041,
 	detail = "It's perfectly normal to wear uniforms at school... Can you handle it though, Commander? You look worked up for some reason.",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[603042] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "Oh no... My head's going completely blank...",
+	propose = "",
+	expedition = "Is the commission team bathing after us? Hmm... I can't quite remember...",
+	win_mvp = "The sea breeze is so refreshing... Thank goodness.",
+	home = "Don't let yourself get cold. Keep your shoulders below the water. There, that's great... D-did I sound like Trento just now?",
+	mission = "In a bit... Okay. Missions first, then I'll go back in.",
+	touch2 = "Whew... Wh-what's gotten into you?",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Whew... I'm getting dizzy... I'll rest in the breeze for a moment. You okay, Commander? Step out if it's too hot. See, someone will worry about you...",
+	mail = "You've received a letter. Better check it after this bath.",
+	touch = "Whew... This cool breeze is just what I needed.",
+	profile = "",
+	mission_complete = "Can't you ask someone else to get the mission rewards? Or would you rather do it yourself first, and continue your bath later?",
+	feeling4 = "",
+	unlock = "Whew... I'm getting dizzy... I'll rest in the breeze for a moment. You okay, Commander? Step out if it's too hot. See, someone will worry about you...",
+	feeling5 = "Ugh... I'm sorry for making you worry when this was supposed to be a relaxing vacation for you... Can I make it up to you somehow? We're alone out here, so you can fawn on me all you want... Y-yeah, well, Trento lets you do it all the time!",
+	main = "Didn't I tell you to focus on relaxing today? Come into the water – your work can wait. Whew... That's more like it.|Excited about dinner after this bath? So am I. I'll very eager to see what sort of food they serve here.|Mmph... I'm feeling a bit dizzy... I might have caught a fever, because I feel hot all over... Mmh...",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "*pant*... *pant*... This is much too hot for my liking. Can you handle it, Commander? Are you sure?",
+	vote = "",
+	hp_warning = "",
+	id = 603042,
+	detail = "I know I'm strict with you... Mmh... I just want to say, thank you. Like Veneto always says, it's a good time to be frank with people when you're bathing with them.",
 	couple_encourage = {}
 }
 
@@ -51188,6 +51222,40 @@ _G.pg.base.ship_skin_words[701024] = {
 	hp_warning = "",
 	id = 701024,
 	detail = "Chang Chun styled my hair to complement this dress. Do you think it looks good, Comrade Commander?",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[701025] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "My whole world... is spinning...",
+	propose = "",
+	expedition = "I hope Gromky's team comes back soon... I'm going to melt soon...",
+	win_mvp = "Khorosho. But now my drink has gone warm... I can't drink this!",
+	home = "You wanna join me, Comrade Commander? I'll shuffle over. There. I'll go get some borscht and chocolate mix.",
+	mission = "We'll take a cold bath after the mission? Okay. Be quick.",
+	touch2 = "That's odd... I haven't even cracked open the vodka...",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Uughh... Ooohh... Królik is melting... *gasp*! I'm getting lightheaded... Comrade Commander, fetch me some ice...",
+	mail = "",
+	touch = "I'm getting dizzy again...",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Uughh... Ooohh... Królik is melting... *gasp*! I'm getting lightheaded... Comrade Commander, fetch me some ice...",
+	feeling5 = "",
+	main = "*gulp gulp*... Pfahh! The more I drink, the hotter it gets... Must be because I'm drinking HOT chocolate. Makes sense...|There's many ways to enjoy a sauna? Really, huh... How do you usually do it, Comrade Commander?|Us Northern Parliament girls can handle the cold, but heat, not so much. It's not what we're used to... Between hot and cold, which do you handle best, Comrade Commander?",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "*gulp gulp*... Pfahh! Ahh, I'm coming back to life... Oh, need to give myself a little splash... Urgh, now I spilled my borscht...",
+	vote = "",
+	hp_warning = "",
+	id = 701025,
+	detail = "*gulp gulp*... Pfahh! That cold water hit the spot. Why'd you come here, Comrade Commander? To check on me?",
 	couple_encourage = {}
 }
 
@@ -52666,6 +52734,83 @@ _G.pg.base.ship_skin_words[702061] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[702070] = {
+	feeling1 = "You and I just aren't on the same wavelength, Comrade Commander. I'm sorry.",
+	feeling3 = "I often read books on tactics to gain inspiration for my plans. If you have any interest, Comrade Commander, I could lend you a few. For example, this volume: \"Using Neglect Play to Make Your––\" ...Ermm, sorry. Wrong one...",
+	lose = "I'm sorry, Comrade Commander. Allow me to rectify my mistakes by my hands...",
+	propose = "(whispering) Was my \"Conquer the Commander\" strategy a success? ...O-oh, ignore that! I'm happy you and I seem to feel the same way. Huh? Y-you always knew?! I see... I should've been more straightforward to begin with...",
+	expedition = "Huh? It's already that time? ...Th-thank you for letting me know. I almost forgot that the commission team was coming back...",
+	win_mvp = "As long as your information is ample and your strategy is thorough, there's no chance of failure.",
+	home = "Sort the delivered documents, deal with any and all minor issues, and I'll be all ready when Comrade Commander— Oh. When did you get back?",
+	mission = "The piled-up snow may melt, but your missions won't do the same. Comrade Commander, perhaps we'd best get them done?",
+	touch2 = "D-don't act like you get to touch me whenever you want...",
+	voice_key_2 = -1,
+	skill = "Melt!",
+	drop_descrip = "Kirov-class light cruiser – Voroshilov.",
+	mail = "Comrade Commander, you should check your mail. The sender may not be so patient with us.",
+	touch = "You're going out? Do you wish I wait here, Comrade Commander?",
+	profile = "Kirov-class cruiser of the Northern Parliament, Voroshilov, at your service. Do you already know Kirov? I make the plans, and she carries them out... Oh? You say we give off completely different impressions? Fair; our comrades often say the same.",
+	mission_complete = "Comrade Commander, the mission is complete. According to our plans, the next task is...",
+	feeling4 = "Comrade Commander, how is your mission progress? ...You've finished all of them? What of the commissions? You've arranged them, too? I see. You're doing quite well. (whispering) My plan to get us closer ends in failure again...",
+	unlock = "We finally meet, Comrade Commander. I am Voroshilov, light cruiser of the Northern Parliament. Hm? I don't think I was waiting that long... I mean, it was only a few hours. That's not so bad, is it?",
+	feeling5 = "Comrade Commander, what's the matter? I'm the same as ever, so I don't think there's any reason for you to be extra worried... (whispering) It's okay. I'll keep on waiting until you look my way. My \"Conquer the Commander\" master plan must succeed...",
+	main = "There is a saying about Kirov and me: \"As hot as an inferno, yet as cold as ice.\" O-or... something like that.|Comrade Commander, what time is it? ...Phew, thank you. So I haven't missed it.|Ways to kill time? I like to put ice down and watch it melt... How about you, Comrade Commander?",
+	battle = "I've undergone countless practice drills. I won't fail!",
+	upgrade = "Absolute power is an effective insurance policy for our subsequent missions.",
+	voice_key = 70207,
+	headtouch = "Why would you do that?",
+	feeling2 = "If you don't have any business with me, don't waste time looking for me. We should just do our own jobs and keep an appropriate distance. Wouldn't that be best?",
+	login = "Welcome back, Comrade Commander. I didn't know when you'd return, so I've been standing by here... Is that not part of the secretary's job?",
+	vote = "",
+	hp_warning = "Hang in there... Just a little more...!",
+	id = 702070,
+	detail = "From here to there, and then... Oh, Comrade Commander. I was just devising an emergency escape route from your office. Would you like to look over it? It may come in handy someday.",
+	couple_encourage = {
+		{
+			{
+				70204
+			},
+			1,
+			" With Kirov here, I know this will work out!",
+			0
+		}
+	}
+}
+
+_G.pg.base.ship_skin_words[702071] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "The Sakura Empire girls brought over some dango. You came just in time, Comrade Commander. How about we give them a try?",
+	mission = "A new mission, hm? I'll add it to our to-do list for later.",
+	touch2 = "Should I get a little closer? Well, okay...",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Comrade Commander, is the bath to your liking? I'm glad. Heehee, it's a good thing I trusted that \"Top 10 Dates for Snowy Days\" article and chose this secluded hot spring.",
+	mail = "New mail? Mm, who could possibly be planning to cause Comrade Commander trouble at a time like this?",
+	touch = "I hear you're supposed to hold hands on dates. Comrade Commander, should we...hold hands?",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Comrade Commander, is the bath to your liking? I'm glad. Heehee, it's a good thing I trusted that \"Top 10 Dates for Snowy Days\" article and chose this secluded hot spring.",
+	feeling5 = "Somebody once told me that people are more honest when they're in a hot spring. Heehee, that means this is my chance... Comrade Commander, I've always had feelings for you. I thought that keeping a distance from you would make you more interested in me, but... I suppose when people say \"awkward,\" they're referring to people like me...",
+	main = "The cold wind blowing through, the steamy water... They could be likened to fire and ice, couldn't they? Heehee.|You say I'll get dizzy if I soak for too long? Maybe I'm an exception... After all, I'm used to waiting. But Comrade Commander, don't hesitate to say something if you're not feeling well.|What would I do right now if there was an emergency? Oh, I shouldn't waste this date thinking about such things...",
+	battle = "Don't worry. I've gone through my fair share of emergency battle drills!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "Hm? Is there snow on my head or something?",
+	feeling2 = "",
+	login = "It's cold enough to snow, but the hot spring will warm us up in no time. Let's not dally, Comrade Commander. The hot spring awaits.",
+	vote = "",
+	hp_warning = "",
+	id = 702071,
+	detail = "Gangut and Sevastopol went inside with vodka. I hope they don't seriously plan to have a drinking contest in the hot spring... Comrade Commander, we'd best stop them before it's too late.",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[703010] = {
 	feeling1 = "Use your head before ordering me around. If you can't even do that much, then I won't lift a finger for you.",
 	feeling3 = "Don't like my scoldings? Then do better! You're not about to tell me you actually ENJOY being scolded, I hope.",
@@ -52792,6 +52937,92 @@ _G.pg.base.ship_skin_words[703012] = {
 	hp_warning = "",
 	id = 703012,
 	detail = "Always work at flank speed – the momentum you build up will keep you going. If you ever forget that, I'll remind you as many times as it takes.",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[703020] = {
+	feeling1 = "Stay away from me.",
+	feeling3 = "I'm not so much a lone wolf, I just choose not to get involved with people. I operate on efficiency and ruthlessness, so I steer clear of cowards and weaklings for their sake, not mine.",
+	lose = "Urgh... My hunt can't end in a place like this...!",
+	propose = "...You serious? You want ME, the lone wolf of the tundras? Heheh. Let's see if you have what it takes to tame me.",
+	expedition = "Commission completed. Enjoy the job-well-done party yourself – I'll pass.",
+	win_mvp = "Ahh... The smell of gunpowder and victory. Just what I like.",
+	home = "Oh, you're back... Did you win?",
+	mission = "You need my help with this new mission? Fine, you rest in the meanwhile. I'm not a team player.",
+	touch2 = "What are you trying to do?",
+	voice_key_2 = -1,
+	skill = "I'll rip you to shreds!",
+	drop_descrip = "Heavy cruiser – Kursk.",
+	mail = "Left a letter for you on the desk. I don't care what it's about, so check it yourself.",
+	touch = "Something urgent? I'll do it, if you want.",
+	profile = "I'm Kursk, a hunter from the snowy tundras of the North... That's too brief? Ugh, what a waste of time... I hate socializing. If you want to get along with me, then keep your distance.",
+	mission_complete = "Mission rewards have come in. Go check 'em. Everything that's there, you've earned.",
+	feeling4 = "People say I'm cold, but I just don't feel the need to pay attention to every little shift in other people's moods. Getting caught up in emotions is a waste of everyone's time.",
+	unlock = "You're the boss around here? Good. Don't bother trying to tell me what I can and can't do; I'll prove my worth to you my own way. That's all I wanted to say.",
+	feeling5 = "Even though I've adapted to solitude, I somehow don't feel repulsed when I'm around you. Maybe... Maybe you've rubbed off on me.",
+	main = "Hunters are loners by nature – only helpless prey form groups. I walk a solitary road for that reason.|Tactics? Those are a chore. I follow my gut instincts. Nothing can tamper with that.|Snow, huh... I love when it snows. Makes it easy to cover up my tracks. It's as though it was made for ambushing.",
+	battle = "The hunt is on!",
+	upgrade = "The thrill of gaining power... makes me crave more.",
+	voice_key = 70302,
+	headtouch = "Why are you acting like we're that close? I don't get you people...",
+	feeling2 = "Swords become dull if not sharpened. It's why I still go back to the tundra and hunt like I used to – skills, like swords, need to be maintained.",
+	login = "Morning, boss. I was going to leave you a note before I left, but decided to just tell you in person after all.",
+	vote = "",
+	hp_warning = "The thrill of walking the line between life and death... Give me more, more!",
+	id = 703020,
+	detail = "I'm used to working solo. Even if it doesn't snow here, I can still cover up my tracks... if I want to.",
+	couple_encourage = {
+		{
+			{
+				49901
+			},
+			1,
+			" You smell of danger... Interesting.",
+			0
+		},
+		{
+			{
+				10313,
+				20120
+			},
+			1,
+			" There won't be enough prey to go around with this many hunters.",
+			0
+		}
+	}
+}
+
+_G.pg.base.ship_skin_words[703021] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "Seems I'm still wet behind the ears...",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Where have you been? ...You didn't want to pass out from dizziness? Don't worry about that. Worst case scenario, I'll just carry you back home.",
+	mission = "A new mission just got handed down. Go ahead and take a look – we'll have plenty of time to relax later.",
+	touch2 = "You want to get up close and personal, huh? Heheh.",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "This steamy hot spring... is a rather novel experience. I left a spot for you, so come sit down already – Wait, why haven't you taken your clothes off yet?",
+	mail = "I left your letter in a less humid spot. Don't want your important papers getting wet, do we?",
+	touch = "While I hate rubbing shoulders... I can tolerate you being around.",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "This steamy hot spring... is a rather novel experience. I left a spot for you, so come sit down already – Wait, why haven't you taken your clothes off yet?",
+	feeling5 = "",
+	main = "Seems the Sakura Empire has the most hot spring enthusiasts. Not that I don't want to bathe with them, but as you know... I'd rather be alone.|The hot steam causes the cold air to fog up, impeding visibility and making this an ideal place to set up an ambush... Heh. Don't worry. I'm right here.|How's the temperature? If you want, I can turn up the heat using my rigging.",
+	battle = "There's no reason I cannot go into battle like this. The hunt is on!",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Hmh... The water's nice. What are you waiting for, Commander? Get in.",
+	vote = "",
+	hp_warning = "",
+	id = 703021,
+	detail = "...Am I cold? Not really. If I can handle an ice bath, a hot spring is nothing. You, on the other hand, should be careful of the night breeze.",
 	couple_encourage = {}
 }
 
@@ -53169,6 +53400,100 @@ _G.pg.base.ship_skin_words[705061] = {
 	hp_warning = "",
 	id = 705061,
 	detail = "I'll be taking this treasure, if you don't mind! Heheh! Royal Navy grace with Northern Parliament dexterity is not a combination to be trifled with.",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[705070] = {
+	feeling1 = "You certainly have the qualifications to be a proletariat, but you don't quite understand the revolutionary spirit...",
+	feeling3 = "I don't know what those battle-addled idiots think of you, but if nothing else, you might make for a fine drinking partner. Heh, don't get too carried away; keep on applying yourself.",
+	lose = "As long as I have not sunk, I will continue to stand time and time again! That is the meaning of revolution!",
+	propose = "...Mm? Where am I? Oof, I might've drank too much. Comrade Commander, what's with this ring? You mean I... snatched it from you and put it on my self? I-I really did that?!",
+	expedition = "Transport of goods, especially to battlefields, is a difficult thing. You should be thankful for the efforts of your commission team.",
+	win_mvp = "Ahahaha! All who seek to obstruct the revolution are fated to fall!",
+	home = "In celebration of our comrades' victory... A toast of vodka! Ack! *chokes*... I-I'm fine!",
+	mission = "You have a new mission. Do your best, and keep your eyes on the prize: a celebration full of vodka!",
+	touch2 = "Comrade Commander... What exactly do you think you're doing?",
+	voice_key_2 = -1,
+	skill = "Glory to the revolution!",
+	drop_descrip = "Gangut-class battleship – Sevastopol.",
+	mail = "Comrade Commander, there's mail for you. If you plan to reply, do it promptly. We don't want to make them wait.",
+	touch = "We are two comrades. I will gladly exchange a handshake with you!",
+	profile = "Dreadnought of the Northern Parliament and flagship of the Black Sea Fleet, Sevastopol, has arrived. Hahah, I am the very ironclad willpower of the revolutionary vanguard, always under attack but never falling! Got it?",
+	mission_complete = "Ahahahaha! Another step closer to revolution! M-maybe I'd better tone down the drinking for today...",
+	feeling4 = "*hic*... C'mon, you haven't even finished half your glass yet. Pfft, heheheh... Waiting for me to drink myself under the table, are you? Well, too bad... No matter how much I drink... *hic*... I'm not goin' down...",
+	unlock = "Ahahahaha! So you're the Comrade Commander. I'm the Northern Parliament battleship, Sevastopol. Revolution doesn't happen on tea parties alone, comrade. Think of me as any ordinary young lady, and you'll regret it!",
+	feeling5 = "*hic*... Comrade Commander, I like you. Hell, I love you. If I win this, I'll be your eternal partner and join you in the final battle. Now, I'm not dead-drunk yet. How about you just... accept defeat?",
+	main = "Comrade Commander, join me for a drink! Waaait, you're not telling me you don't know Northern Parliament tradition, are you? ...You don't like vodka? Crappy excuse, sorry. See? We've got wine, too!|Carrier-based aircraft? Let me just say, bring 'em on. We'll see if they can beat Sevastopol!|Social standing matters not when it comes to revolution. Heh, as long as we share the same willpower, we're comrades through and through!",
+	battle = "If you don't want to die, stand aside!",
+	upgrade = "What revolutionary growth. Hahahahaha!",
+	voice_key = 70507,
+	headtouch = "Huh?! H-hands off!",
+	feeling2 = "I could trounce you with ease, but as people with similar goals, I will treat you as an equal. Heh, you should be thankful that you've become an ally of the Northern Parliament instead of sinking beneath our iron billows.",
+	login = "Good morning, Comrade Commander. Come and show us who we will do battle with today!",
+	vote = "",
+	hp_warning = "Urgh...! I'm not even drunk!",
+	id = 705070,
+	detail = "Well met, comrade. Would you like to learn more about my revolyutsiya? Heheh, you hardly have to ask. I know you like the back of my hand, comrade.",
+	couple_encourage = {
+		{
+			{
+				70501
+			},
+			1,
+			" Ooh, I smell vodka...",
+			0
+		},
+		{
+			{
+				70506
+			},
+			1,
+			" Politeness? Pssh, who cares about that?!",
+			0
+		},
+		{
+			{
+				30511,
+				70201
+			},
+			1,
+			" Don't get too full of yourself now~♪",
+			0
+		}
+	}
+}
+
+_G.pg.base.ship_skin_words[705071] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "The commission team is back. Think it's their turn to come in after us?",
+	win_mvp = "",
+	home = "(This hot spring is so comfy... I didn't even realize I was drunk until the Commander arrived.)",
+	mission = "A new mission... Once it's over, how about we celebrate with wine instead of vodka?",
+	touch2 = "I'm soaked? ...Haha, well, yeah? I was bathing in the hot spring, so duh...?",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Phew... This is... Comrade Commander? Fancy meeting you at this time of night. Me? Heh, heheheheh... You wouldn't believe me if I said I got too drunk and went in first, would you?",
+	mail = "",
+	touch = "(The wind feels nice... O-oh, right! I need to put on a cool front so the Commander doesn't notice I'm drunk!) ...Achoo?!",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Phew... This is... Comrade Commander? Fancy meeting you at this time of night. Me? Heh, heheheheh... You wouldn't believe me if I said I got too drunk and went in first, would you?",
+	feeling5 = "",
+	main = "(I-I'd better not tell the Commander... that I wandered over to this hot spring alone after Gangut got me drunk! Urk...!)|Voroshilov? Don't worry about her. I don't know if she gets by through grit alone, but she's the kind to never get dizzy in a hot bath.|The joy of getting out of a hot bath? Umm... How about you go first, comrade? Erm, I'm just feeling a little, y'know...",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Aww, you just got here? Hell, I guess I wouldn't mind going back in with you, Comrade Commander...",
+	vote = "",
+	hp_warning = "",
+	id = 705071,
+	detail = "Come to think of it, when did I even put this on... I-I mean, gotta dress right for a hot spring bath, right?! See? Look, I even tied the sash right!",
 	couple_encourage = {}
 }
 
@@ -55036,6 +55361,40 @@ _G.pg.base.ship_skin_words[901032] = {
 	couple_encourage = {}
 }
 
+_G.pg.base.ship_skin_words[901033] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "Crap! Time for the escape QTE!",
+	propose = "",
+	expedition = "",
+	win_mvp = "Bet they dropped some loot! Better grab everything we can!",
+	home = "Welcome back! What drops did you get? Hero's gonna mock you if you didn't find anything.",
+	mission = "",
+	touch2 = "Whoa! That's not part of a thief's skillset!",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "*crash*! Found another coin! Check it out, Commander! I got all these from smashing pots! ...Breaking the law? Heheh! The one law among thieves is that there are no laws♪",
+	mail = "",
+	touch = "You've naive if you think you can grab me!",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "*crash*! Found another coin! Check it out, Commander! I got all these from smashing pots! ...Breaking the law? Heheh! The one law among thieves is that there are no laws♪",
+	feeling5 = "",
+	main = "I've moved up the thief skill tree! Now I'll probably get more item drops! Heheh♪|That enemy had a stealable item you can't get anywhere else?! You should've said so! There's no way to load saves here!|My new Silent Steps skill makes me undetectable. I can steal anything if I want to now... Heheh.",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Oh, you barged in, just like me? Sounds like you've learned the rules of this world!",
+	vote = "",
+	hp_warning = "",
+	id = 901033,
+	detail = "As I've found out, everyone in this crazy world thinks it's okay to waltz into someone's home, go through their drawers, and break their pots. That's video game logic for you. Ahahah.",
+	couple_encourage = {}
+}
+
 _G.pg.base.ship_skin_words[901110] = {
 	feeling1 = "...... (Le Malin seems to have fallen asleep)",
 	feeling3 = "I, I did say that I was ready to take your orders at any time, but... there's just too much work after all...... Tired... Can't work anymore... Please let me go on leave...",
@@ -56115,6 +56474,40 @@ _G.pg.base.ship_skin_words[907011] = {
 	hp_warning = "",
 	id = 907011,
 	detail = "If I end up being hunted down, I'll fight back with all I've got. That's the best way of ensuring my survival.",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[907012] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "",
+	propose = "",
+	expedition = "The commission team has returned. Shall we take hot springs souvenirs to them as thanks?",
+	win_mvp = "Things seem to have warmed up a bit. Good.",
+	home = "Loath though I am, I shall bare my skin, too. Just as with the Holy See's edicts, the rules of the bathhouse must also be upheld.",
+	mission = "",
+	touch2 = "Heehee. Is a steamy bath not enough to satisfy you?",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Do you feel refreshed? Even without a holy ritual, the Iris would be happy to know that I've managed to soothe you with this bath. Was it not enough? Then... Shall we go back in?",
+	mail = "La Galissonnière was kind enough to deliver your new mail. Would you like me to hold on to it for now?",
+	touch = "Phew... Praise unto the Iris for leading me to this wonderful bath.",
+	profile = "",
+	mission_complete = "",
+	feeling4 = "",
+	unlock = "Do you feel refreshed? Even without a holy ritual, the Iris would be happy to know that I've managed to soothe you with this bath. Was it not enough? Then... Shall we go back in?",
+	feeling5 = "",
+	main = "Don't fret over my wings. The sacred symbols made manifest by the Sacraments are cleansed not with water, but with one's faithful heart.|As long as I am here, you won't commit the great sin of peeping. Though I wish it was thanks to your own restraint instead of my surveillance...|I hear that a hot spring amidst the extreme cold elicits more gratitude than one amidst heat. Perhaps pleasure that takes advantage of one's weaknesses is the most terrifying of all.",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Welcome back. Why don't you cleanse yourself before going to your office?",
+	vote = "",
+	hp_warning = "",
+	id = 907012,
+	detail = "Am I having fun? Yes, I'm quite enjoying this relaxation and the thought of crushing our enemies. What about you? Are you enjoying yourself?",
 	couple_encourage = {}
 }
 
@@ -59912,6 +60305,91 @@ _G.pg.base.ship_skin_words[900353] = {
 	}
 }
 
+_G.pg.base.ship_skin_words[900354] = {
+	feeling1 = "啊，让女孩子落泪可不行啊，指挥官。你该好好反省下自己了！",
+	feeling3 = "不知不觉间，大家也熟络起来了呢~下次想聊什么？舰装技术？还是日常生活？……欸，我来选吗？",
+	lose = "不敢相信，我们居然被敌人压制住了……在找出还击的方法之前，我是不会休息的！",
+	propose = "你的想法，已经全部传达给我了。如果指挥官不嫌弃的话我当然也没问题哦~？既然如此，我也要再向指挥官告白一次才对吧？嘻嘻，这才叫彼此都要多多为了对方着想嘛♡",
+	expedition = "委托队已经在港口了。走吧，你的慰问对她们来说便是最大的鼓励哦~嘻嘻♪",
+	win_mvp = "我们正锐不可当地向着正确的方向航行——哼哼，大家都喜欢这样的感觉吧？",
+	home = "看下刚才的战斗报告吧~谁先说~？你先就好？那我就一边吃着冰激凌一边洗耳恭听咯~",
+	mission = "你接下了这个新任务吗？好，让我们一起解决掉吧。",
+	touch2 = "指挥官，你已经处于“被动”了哦，各种意义上的~",
+	voice_key_2 = -1,
+	skill = "火控系统，瞄准目标！",
+	drop_descrip = "{namecode:201}级战列舰—{namecode:199}，舷号BB-62",
+	mail = "有新的邮件哦。哈哈，果然你很期待有人来信嘛～",
+	touch = "如果是有任务，我当然义不容辞。至于别的请求，可就要额外收点报酬了哦？开玩笑的~",
+	profile = "我是白鹰战列舰，最大最强的BlackDragon—{namecode:199}号。这可不是什么自夸哦，或者说，“世界最强”也不为过呢~只要充分认识我了，关于这个话题的疑虑你很快就会打消的~",
+	mission_complete = "既然重要的任务已经完成了，不如就休息一下吧？凡事都分下轻重缓急，会比较轻松哦？",
+	feeling4 = "嗯？你怎么一脸疲倦的样子……果然是超负荷工作了吧？来，躺这里，这次就让我照顾你吧。嗯哼…就把我的大腿当成你临时的枕头吧~”指挥官就喜欢这样的感觉吧~？",
+	unlock = "白鹰战列舰，最强最大的Black Dragon，{namecode:199}登场！见识下我的力量吧！开玩笑的~指挥官喜欢这样的感觉吗？",
+	feeling5 = "主动一点的{namecode:199}和被动一些的{namecode:199}，指挥官更喜欢哪一种呢？——停~我会在接下来的时间里慢慢确认的，所以不用急着回答~嘻嘻，指挥官就喜欢这种被吊着胃口的感觉吧~？",
+	main = "“{namecode:201}对{namecode:83}”么……确实是一个热门的话题呢。呵呵，人们就是热衷这样的，不是吗？|喜欢的饮料是果汁哦。青苹果汁、橙汁我都推荐，汽水的话也OK。咖啡…感觉不太行？|秘书舰该帮指挥官完成多少工作呢……我个人认为，40%吧。毕竟，如果我做了太多事的话，是不是就有些喧宾夺主了？|这件事……指挥官说的也有道理呢…那么接下来听听我的方案吧？|航空母舰的时代啊……那可不好说。既然航空母舰会发展，谁又说得清战列舰会有什么变化呢~|白鹰的“Big J”，最大最强的“Black Dragon”就是我啦！……唔，是不是有点太浮夸了？",
+	battle = "全员，一级战备！要上了哦！",
+	upgrade = "也许战列舰会过时，但{namecode:201}级可不会哦。",
+	voice_key = 10517,
+	headtouch = "摸完了吗？好，那就乖乖坐下，该轮到我摸了~",
+	feeling2 = "彼此疏远的话会心生顾虑啊，或许像这样……身体上的接触能让你放下心来？哼哼~这样就能更加亲近了不是吗？",
+	login = "欢迎回来。需要帮忙制定工作计划吗？或者，你对此已经胸有成竹了？",
+	vote = "",
+	hp_warning = "不用慌，我已经想出控制局势的办法了。",
+	id = 900354,
+	detail = "装备检查完毕，各系统运转正常，辛苦你了——啊，难道是看着迷了~？我倒是不介意？反正~指挥官就喜欢这样的吧~？嘻嘻~",
+	couple_encourage = {
+		{
+			{
+				19902
+			},
+			1,
+			"口径更大的“{namecode:201}”？不，好像有点不同……",
+			0
+		},
+		{
+			{
+				10702,
+				10703,
+				10705,
+				10706,
+				10707,
+				10708,
+				10709,
+				10711,
+				10717,
+				10738
+			},
+			2,
+			"航空战就拜托你们了。",
+			0
+		},
+		{
+			{
+				1
+			},
+			5,
+			"没有人能够阻挡我们的意志！",
+			3
+		},
+		{
+			{
+				70504,
+				70505
+			},
+			1,
+			"哦？是意料之外的对手呢。有趣~",
+			0
+		},
+		{
+			{
+				10706
+			},
+			1,
+			"白鹰的英雄啊，一直以来辛苦你了！",
+			0
+		}
+	}
+}
+
 _G.pg.base.ship_skin_words[9600010] = {
 	feeling1 = "Ugghh. If this were the olden days, I would've fed you to the sharks or dumped you off on a deserted island.",
 	feeling3 = "Even to this day, lots of people go wild for pirate treasure! I suppose very few can resist the alluring shimmer of gold and silver, eh... Hm? Where do ya find said treasure? Sorry, no hints! If you want treasure, you gotta find it yourself~",
@@ -60158,6 +60636,40 @@ _G.pg.base.ship_skin_words[9702030] = {
 	hp_warning = "Am I being pinned down? ...What a pain in the arse.",
 	id = 9702030,
 	detail = "Even if we may never exterminate all pests, someone still has to do the job. Keeping your room tidy is the same. I'm sure you don't think that cleaning your room is unnecessary simply because it will get dirty again, right?",
+	couple_encourage = {}
+}
+
+_G.pg.base.ship_skin_words[9702040] = {
+	feeling1 = "Looks like your head might belong on the chopping block soon.",
+	feeling3 = "You seriously called me over just to chat, and you don't have any work for me? Okay, you pick a topic then. I'd better not, 'cause it'll just be a gruesome story.",
+	lose = "Like hell I'm gonna accept this humiliating defeat... Your days are numbered! Make no mistakes – I'll be back!",
+	propose = "You really sure? 'Cause if you're ready and willing to go to hell with me, I'll gladly be with you. Burning down anything that stands in our way – I'll do that for you any day of the week.",
+	expedition = "The commission team's brought back goodies. You mind if I smash up their cargo crates? Ahahah! I was just kidding♪",
+	win_mvp = "I put 'em out of their misery. All of 'em.",
+	home = "Making an executioner take care of a guard's job? Ugh, kill me already...",
+	mission = "A new mission? Lemme see... Maaan, it's just sorting paperwork. That's so lame...",
+	touch2 = "You're one of those who's too fun to execute, Commander. Yeah, I'll let you off with a verbal warning this time♪",
+	voice_key_2 = -1,
+	skill = "Burn in hell!",
+	drop_descrip = "I'm La Galissonnière, the shipgirl from hell! I've come for your soul! ...Wow, didn't even flinch. Guess it's true that you don't fear death. Heheh, let's see if I can get a more interesting response out of you next time~♪",
+	mail = "You've got a new letter. I'm curious who sent it...",
+	touch = "Word of advice? Keep your hands off. My weapon, if that wasn't obvious.",
+	profile = "I'm La Galissonnière, the shipgirl from hell! Don't ask questions about hell, or my job as an executioner. The only thing you need to know is that I'm damn handy to have around.",
+	mission_complete = "Mission complete! Fighters get enemies to butcher, while office workers get papers to sort. Right people in the right place, like they say.",
+	feeling4 = "Heard there are some girls in this port who like harassing you... Heheh. I know what you're thinking, but no, I'm not plannin' on taking action. I'm just wondering what exactly they did to get on your nerves of steel♪",
+	unlock = "I'm La Galissonnière, the shipgirl from hell! I've come for your soul! ...Wow, didn't even flinch. Guess it's true that you don't fear death. Heheh, let's see if I can get a more interesting response out of you next time~♪",
+	feeling5 = "We were practically made for each other, so why don't we stay together forever? Working with someone you can trust sure beats roaming the universe alone without a goal, too♪ Promise you won't ditch me one day, Commander?",
+	main = "The most efficient way to solve a problem is to get rid of what's causing it. Isn't that literally what weapons are for?|I leave the planning to the people who are good at it and simply follow their orders. Speaking of, Commander, made your plans for today yet?|You can make mousse cake, AND it tastes pretty okay? ...Guess I don't know you as well as I thought...",
+	battle = "Who wants a peek of hell itself?",
+	upgrade = "Now that I'm stronger, how 'bout letting me see some action?",
+	voice_key = -1,
+	headtouch = "",
+	feeling2 = "Butchering the foes in front of me and passing judgment on criminals – my job is as simple as that. How to put my skills to use, that's for you to figure out.",
+	login = "Commander, mind finding something for me to do, just like usual?",
+	vote = "",
+	hp_warning = "C'mon! Struggle more for me!",
+	id = 9702040,
+	detail = "Here I thought there'd be something fun to do in this world, but apparently there isn't. Oh well, guess I'll treat this as a vacation♪",
 	couple_encourage = {}
 }
 
@@ -66258,6 +66770,40 @@ _G.pg.base.ship_skin_words[499030] = {
 			0
 		}
 	}
+}
+
+_G.pg.base.ship_skin_words[499032] = {
+	feeling1 = "",
+	feeling3 = "",
+	lose = "I guess I got too comfortable...",
+	propose = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Where did you go, Commander? Tiring yourself out now would defeat the whole point of relaxing.",
+	mission = "A mission, huh? ...Let's put it off for now. It'll still be there after we take a break.",
+	touch2 = "W-wait! Don't do that, or else...!",
+	voice_key_2 = -1,
+	skill = "",
+	drop_descrip = "Ah! Changed already? Just wait a minute... No, you don't have to leave. I'm almost done.",
+	mail = "You have new mail. I told them to leave it in your office, so we can check it later.",
+	touch = "You've done well, Commander. It's time to take a break.",
+	profile = "",
+	mission_complete = "Finished your missions already? Then that gives us more time to kick back.",
+	feeling4 = "",
+	unlock = "Ah! Changed already? Just wait a minute... No, you don't have to leave. I'm almost done.",
+	feeling5 = "",
+	main = "Nngh... It's hard to tie this sash tight enough. But if it's too loose...|They didn't let me bring a coffee machine into the bathhouse, but... Heh, I did get to set it up outside. Black, of course.|The mirror? I'd assume it's fogged up from the steam. ...Look at my reflection, you say? What do you... Oh. *blushes*",
+	battle = "",
+	upgrade = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "I wouldn't have minded waiting longer. After all, I know you're not the type to forget a promise.",
+	vote = "",
+	hp_warning = "",
+	id = 499032,
+	detail = "Blücher tried to wear her rigging to the bath, but Eugen and I managed to stop her. Seems like Hipper didn't want to get in with us, though...",
+	couple_encourage = {}
 }
 
 _G.pg.base.ship_skin_words[499040] = {

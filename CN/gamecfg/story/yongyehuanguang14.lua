@@ -15,7 +15,7 @@ return {
 			bgm = "bgm-cccp2",
 			actor = 401360,
 			nameColor = "#ff5c5c",
-			say = "呃…希佩尔,被她们给跑了…",
+			say = "呃…{namecode:426},被她们给跑了…",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -82,7 +82,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼~动力受损的希佩尔应该一段时间动弹不得了，暂时脱离险境~",
+			say = "呼~动力受损的{namecode:426}应该一段时间动弹不得了，暂时脱离险境~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…有点奇怪。铁血主力舰队前进的速度好快，已经快要和希佩尔汇合了...",
+			say = "…有点奇怪。铁血主力舰队前进的速度好快，已经快要和{namecode:426}汇合了...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "英仙座，侦查准确无误么？确定提尔比茨等铁血主力舰都在跟随舰队移动？",
+			say = "英仙座，侦查准确无误么？确定{namecode:436}等铁血主力舰都在跟随舰队移动？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 206060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…？提尔比茨对于侦察机的攻击没有任何回应，位于两侧的沙恩霍斯特和格奈森瑙也是一样。",
+			say = "唔…？{namecode:436}对于侦察机的攻击没有任何回应，位于两侧的{namecode:433}和{namecode:434}也是一样。",
 			flashout = {
 				black = true,
 				dur = 0.5,

@@ -5,6 +5,7 @@ slot0.RECOVER_UP_SIX_HOUR = 6
 slot0.RECOVER_UP_TWELVE_HOUR = 12
 slot0.INIT_POINT = pg.arena_data_rank[1].point
 slot0.ONE_SEASON_TIME = 1209600
+slot0.preRivals = {}
 
 function slot0.Ctor(slot0, slot1)
 	slot0.score = slot1.score or 0
@@ -29,10 +30,12 @@ function slot0.Ctor(slot0, slot1)
 	slot0.rivals = {}
 
 	for slot6, slot7 in ipairs(slot1.target_list) do
-		table.insert(slot0.rivals, Rival.New(slot7))
-	end
+		slot8 = Rival.New(slot7)
 
-	slot0.preRivals = slot0.rivals
+		table.insert(slot0.rivals, slot8)
+
+		uv0.preRivals[slot8.id] = slot8
+	end
 end
 
 function slot0.getFlashCount(slot0)
@@ -64,8 +67,15 @@ function slot0.getRivals(slot0)
 end
 
 function slot0.updateRivals(slot0, slot1)
-	slot0.preRivals = slot0.rivals
+	for slot5, slot6 in pairs(slot0.rivals) do
+		uv0.preRivals[slot6.id] = slot6
+	end
+
 	slot0.rivals = slot1
+end
+
+function slot0.GetPreRivals(slot0)
+	return uv0.preRivals
 end
 
 function slot0.updateFleet(slot0, slot1)

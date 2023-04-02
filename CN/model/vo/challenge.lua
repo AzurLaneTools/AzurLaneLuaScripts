@@ -210,9 +210,9 @@ end
 function slot0.getCurrentChallengeTemplate(slot0)
 	slot1 = slot0.challengeLevel or 1
 
-	for slot5, slot6 in pairs(pg.expedition_challenge_template) do
-		if slot6.index == slot1 then
-			return slot6
+	for slot5, slot6 in ipairs(pg.expedition_challenge_template.all) do
+		if pg.expedition_challenge_template[slot6].index == slot1 then
+			return slot7
 		end
 	end
 end
@@ -242,9 +242,9 @@ end
 function slot0.getMaxLevel(slot0)
 	slot1 = 0
 
-	for slot5, slot6 in pairs(pg.expedition_challenge_template) do
-		if slot6.index and slot6.challenge == slot0 and slot1 < slot6.index then
-			slot1 = slot6.index
+	for slot5, slot6 in ipairs(pg.expedition_challenge_template.all) do
+		if pg.expedition_challenge_template[slot6].index and slot7.challenge == slot0 and slot1 < slot7.index then
+			slot1 = slot7.index
 		end
 	end
 
@@ -266,9 +266,9 @@ function slot0.getFleetStgs(slot0)
 		slot1[slot6] = math.max(slot1[slot6], 0)
 	end
 
-	for slot6, slot7 in pairs(pg.strategy_data_template) do
-		if slot7.type == 1 or slot7.type == 2 then
-			slot1[slot6] = slot1[slot6] or 0
+	for slot6, slot7 in ipairs(pg.strategy_data_template.all) do
+		if pg.strategy_data_template[slot7].type == 1 or slot8.type == 2 then
+			slot1[slot7] = slot1[slot7] or 0
 		end
 	end
 

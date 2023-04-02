@@ -25,7 +25,7 @@ return {
 			bgm = "bsm-5",
 			actor = 408040,
 			nameColor = "#ffde38",
-			say = "俾斯麦大人，俾斯麦大人请等一下！！",
+			say = "{namecode:435}大人，{namecode:435}大人请等一下！！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -65,7 +65,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "是潜艇部队的孩子呀，俾斯麦向你献上晨间的问候",
+			say = "是潜艇部队的孩子呀，{namecode:435}向你献上晨间的问候",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -86,7 +86,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "俾斯麦大人，您昨日的演讲实在太令人兴奋了，我一生都会牢记您的英姿的！！",
+			say = "{namecode:435}大人，您昨日的演讲实在太令人兴奋了，我一生都会牢记您的英姿的！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "俾斯麦大人，俾斯麦大人！请问您能答应我的一个请求吗？",
+			say = "{namecode:435}大人，{namecode:435}大人！请问您能答应我的一个请求吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "如果能得到俾斯麦大人的祝福，我一定会更加努力的！！",
+			say = "如果能得到{namecode:435}大人的祝福，我一定会更加努力的！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "话音刚落，U556一个倒身翻滚潜入了港口的水里，整套动作颇为滑稽",
+			say = "话音刚落，{namecode:416}一个倒身翻滚潜入了港口的水里，整套动作颇为滑稽",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "一向紧绷着神情的俾斯麦突然笑了起来",
+			say = "一向紧绷着神情的{namecode:435}突然笑了起来",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "俾斯麦大人？",
+			say = "{namecode:435}大人？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "姐妹们总是说俾斯麦大人看起来很凶神恶煞的样子，都不敢接触您",
+			say = "姐妹们总是说{namecode:435}大人看起来很凶神恶煞的样子，都不敢接触您",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "其实一点也不会呢~居然肯跟我这艘小小的潜艇聊天，俾斯麦大人对我们很亲切！",
+			say = "其实一点也不会呢~居然肯跟我这艘小小的潜艇聊天，{namecode:435}大人对我们很亲切！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "俾斯麦微低头，思索了一下",
+			say = "{namecode:435}微低头，思索了一下",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "说完，俾斯麦转身离开，U556泡在水面上目送她的离去",
+			say = "说完，{namecode:435}转身离开，{namecode:416}泡在水面上目送她的离去",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "俾斯麦大人说好要来给我们送上祝福的，可是现在马上就要出征了却…",
+			say = "{namecode:435}大人说好要来给我们送上祝福的，可是现在马上就要出征了却…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "俾斯麦大人事务繁多…不会记得这种小事的",
+			say = "{namecode:435}大人事务繁多…不会记得这种小事的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "唔…说得也是，看来只能努力争取战绩…让俾斯麦大人亲自给我佩戴橡叶勋章了！",
+			say = "唔…说得也是，看来只能努力争取战绩…让{namecode:435}大人亲自给我佩戴橡叶勋章了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "潜艇U556，准备出击！",
+			say = "潜艇{namecode:416}，准备出击！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			bgName = "bg_bsm_1",
 			dir = 1,
 			useBg2 = true,
-			say = "海岸边，俾斯麦的专属军乐队排成整齐的队列，演奏着为战士送行的乐曲，目送着U556的出击",
+			say = "海岸边，{namecode:435}的专属军乐队排成整齐的队列，演奏着为战士送行的乐曲，目送着{namecode:416}的出击",
 			effects = {
 				{
 					active = true,
@@ -788,12 +788,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "俾斯麦大人，我就知道您会来的！",
+			say = "{namecode:435}大人，我就知道您会来的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			bgName = "bg_bsm_1",
 			dir = 1,
 			useBg2 = true,
-			say = "俾斯麦稍稍露出微笑",
+			say = "{namecode:435}稍稍露出微笑",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,12 +820,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "俾斯麦大人，俾斯麦大人，我还有个请求请问您能答应吗？",
+			say = "{namecode:435}大人，{namecode:435}大人，我还有个请求请问您能答应吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -837,7 +837,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -854,12 +854,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "我能叫你俾斯麦姐姐吗？",
+			say = "我能叫你{namecode:435}姐姐吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -871,7 +871,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -891,7 +891,7 @@ return {
 			bgName = "bg_bsm_1",
 			dir = 1,
 			useBg2 = true,
-			say = "出乎意料的请求让俾斯麦顿了一下",
+			say = "出乎意料的请求让{namecode:435}顿了一下",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -903,12 +903,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "我虽然有许多妹妹，可是却没有见过姐姐，所以…可以让我叫你俾斯麦姐姐吗！？",
+			say = "我虽然有许多妹妹，可是却没有见过姐姐，所以…可以让我叫你{namecode:435}姐姐吗！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -920,7 +920,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -937,7 +937,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -954,12 +954,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "俾斯麦姐姐！",
+			say = "{namecode:435}姐姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -971,7 +971,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -991,7 +991,7 @@ return {
 			bgName = "bg_bsm_1",
 			dir = 1,
 			useBg2 = true,
-			say = "这是俾斯麦第一次听到这个称呼，脸上甚至突然泛起了红晕",
+			say = "这是{namecode:435}第一次听到这个称呼，脸上甚至突然泛起了红晕",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1003,12 +1003,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "俾斯麦姐姐，在出征前，我有个礼物要送给你！",
+			say = "{namecode:435}姐姐，在出征前，我有个礼物要送给你！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1023,7 +1023,7 @@ return {
 			bgName = "bg_bsm_1",
 			dir = 1,
 			useBg2 = true,
-			say = "U556递过一张有着文字和涂鸦的纸张，俾斯麦接了过来",
+			say = "{namecode:416}递过一张有着文字和涂鸦的纸张，{namecode:435}接了过来",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1035,7 +1035,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -1052,7 +1052,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -1069,12 +1069,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "以水下骑士之名，U556必定会遵守誓言，守护俾斯麦姐姐！",
+			say = "以水下骑士之名，{namecode:416}必定会遵守誓言，守护{namecode:435}姐姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1089,7 +1089,7 @@ return {
 			bgName = "bg_bsm_1",
 			dir = 1,
 			useBg2 = true,
-			say = "俾斯麦露出了微微的笑容",
+			say = "{namecode:435}露出了微微的笑容",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1101,29 +1101,29 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "U-556",
-			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
-			dir = 1,
-			useBg2 = true,
-			say = "啊呀不好，出击的时间被耽搁了…俾斯麦姐姐，我得先出发了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "我们未来一定会再见面的！潜艇U556，出击！",
+			say = "啊呀不好，出击的时间被耽搁了…{namecode:435}姐姐，我得先出发了！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "{namecode:416}",
+			bgName = "bg_bsm_1",
+			nameColor = "#ffde38",
+			dir = 1,
+			useBg2 = true,
+			say = "我们未来一定会再见面的！潜艇{namecode:416}，出击！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1138,7 +1138,7 @@ return {
 			bgName = "bg_bsm_1",
 			dir = 1,
 			useBg2 = true,
-			say = "说完，U556再次一个倒身翻滚潜入了港口的水里，消失了",
+			say = "说完，{namecode:416}再次一个倒身翻滚潜入了港口的水里，消失了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1150,7 +1150,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -1167,7 +1167,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -1184,12 +1184,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "不知道提尔比茨的训练工作进行到哪了…",
+			say = "不知道{namecode:436}的训练工作进行到哪了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1217,19 +1217,19 @@ return {
 					4
 				},
 				{
-					"<size=60>U556都将帮助她的姐姐俾斯麦击退所有飞机和鱼雷的攻击</size>",
+					"<size=60>{namecode:416}都将帮助她的姐姐{namecode:435}击退所有飞机和鱼雷的攻击</size>",
 					6
 				},
 				{
-					"<size=60>无论在任何地方，如果俾斯麦姐姐不幸受伤</size>",
+					"<size=60>无论在任何地方，如果{namecode:435}姐姐不幸受伤</size>",
 					8
 				},
 				{
-					"<size=60>哪怕是用拖，U556也要把她的姐姐拖回港口</size>",
+					"<size=60>哪怕是用拖，{namecode:416}也要把她的姐姐拖回港口</size>",
 					10
 				},
 				{
-					"<size=60>                                                 ——水下骑士U556</size>",
+					"<size=60>                                                 ——水下骑士{namecode:416}</size>",
 					13
 				}
 			}
@@ -1449,7 +1449,7 @@ return {
 			side = 2,
 			soundeffect = "event:/battle/plane",
 			dir = 1,
-			say = "剑鱼818中队出击！目标，俾斯麦！",
+			say = "剑鱼818中队出击！目标，{namecode:435}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

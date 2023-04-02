@@ -670,48 +670,18 @@ function slot0.openBonus(slot0, slot1)
 		setActive(findTF(slot10, "item_tpl/bg"), slot11 ~= Favorite.STATE_LOCK)
 
 		if slot2[slot7] then
-			updateDrop(findTF(slot10, "item_tpl"), {
+			slot12 = {
 				count = 0,
 				type = slot9[1],
 				id = slot9[2]
-			})
+			}
+
+			updateDrop(findTF(slot10, "item_tpl"), slot12)
+
+			slot12.count = slot9[3]
+
 			onButton(slot0, slot10, function ()
-				if uv0[1] == DROP_TYPE_RESOURCE then
-					uv1:emit(uv2.ON_ITEM, id2ItemId(uv0[2]))
-				elseif uv0[1] == DROP_TYPE_ITEM then
-					uv1:emit(uv2.ON_DROP, {
-						type = uv0[1],
-						id = uv0[2],
-						count = uv0[3]
-					})
-				elseif uv0[1] == DROP_TYPE_SHIP then
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						hideNo = true,
-						type = MSGBOX_TYPE_SINGLE_ITEM,
-						drop = {
-							type = uv0[1],
-							id = uv0[2],
-							count = uv0[3]
-						}
-					})
-				elseif uv0[1] == DROP_TYPE_FURNITURE then
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						hideNo = true,
-						content = "",
-						yesText = "text_confirm",
-						type = MSGBOX_TYPE_SINGLE_ITEM,
-						drop = {
-							type = DROP_TYPE_FURNITURE,
-							id = uv0[2],
-							cfg = pg.furniture_data_template[uv0[2]]
-						}
-					})
-				elseif uv0[1] == DROP_TYPE_EQUIP then
-					uv1:emit(uv2.ON_EQUIPMENT, {
-						equipmentId = uv0[2],
-						type = EquipmentInfoMediator.TYPE_DISPLAY
-					})
-				end
+				uv0:emit(uv1.ON_DROP, uv2)
 			end, SFX_PANEL)
 		else
 			GetOrAddComponent(slot10, typeof(Button)).onClick:RemoveAllListeners()
@@ -878,9 +848,9 @@ end
 function slot0.memoryFilter(slot0)
 	slot0.memoryGroups = {}
 
-	for slot4, slot5 in pairs(pg.memory_group) do
-		if slot0.memoryFilterIndex[slot5.type] then
-			table.insert(slot0.memoryGroups, slot5)
+	for slot4, slot5 in ipairs(pg.memory_group.all) do
+		if slot0.memoryFilterIndex[pg.memory_group[slot5].type] then
+			table.insert(slot0.memoryGroups, slot6)
 		end
 	end
 

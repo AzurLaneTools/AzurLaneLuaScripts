@@ -203,7 +203,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在成为“Z46”之前，我首先是那艘在大战中被设计建造、背负了众人期待的“Z46号舰”。",
+			say = "在成为“{namecode:412}”之前，我首先是那艘在大战中被设计建造、背负了众人期待的“{namecode:412}号舰”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

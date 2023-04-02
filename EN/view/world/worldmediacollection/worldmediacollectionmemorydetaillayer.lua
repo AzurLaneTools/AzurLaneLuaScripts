@@ -58,14 +58,14 @@ function slot0.onUpdateMemoryItem(slot0, slot1, slot2)
 		setActive(slot4:Find("normal"), true)
 		setActive(slot4:Find("lock"), false)
 
-		slot4:Find("normal/title"):GetComponent(typeof(Text)).text = HXSet.hxLan(slot3.title)
+		slot4:Find("normal/title"):GetComponent(typeof(Text)).text = slot3.title
 
 		slot0.loader:GetSpriteQuiet("memoryicon/" .. slot3.icon, "", slot4:Find("normal"))
 		setText(slot4:Find("normal/id"), string.format("#%u", slot1 + 1))
 	else
 		setActive(slot4:Find("normal"), false)
 		setActive(slot4:Find("lock"), true)
-		setText(slot4:Find("lock/condition"), HXSet.hxLan(slot3.condition))
+		setText(slot4:Find("lock/condition"), slot3.condition)
 	end
 end
 

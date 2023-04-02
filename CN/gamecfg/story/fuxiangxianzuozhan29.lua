@@ -116,7 +116,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "{namecode:453}",
 			bgName = "bg_fuxiangxian_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
-			say = "突然水面之下出现了数十根机械链臂从四面八方向海因里希亲王缠绕而来。",
+			say = "突然水面之下出现了数十根机械链臂从四面八方向{namecode:453}缠绕而来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
-			actorName = "海因里希亲王",
+			actorName = "{namecode:453}",
 			dir = 1,
 			nameColor = "#a9f548",
 			say = "好险！！这些东西好恶心啊！幕后黑手的某种具现化表现么？",
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			actorName = "海因里希亲王",
+			actorName = "{namecode:453}",
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
 			nameColor = "#a9f548",
@@ -257,7 +257,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海因里希，立刻进行回避。",
+			say = "{namecode:454}，立刻进行回避。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬舰载机在轰炸塞壬构建者，还真是一副令人愉悦的画面，Z24，从黑暗之中潇洒降临！",
+			say = "塞壬舰载机在轰炸塞壬构建者，还真是一副令人愉悦的画面，{namecode:443}，从黑暗之中潇洒降临！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			actor = 401280,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有我哦，海因里希，我们都来支援你了！",
+			say = "还有我哦，{namecode:454}，我们都来支援你了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

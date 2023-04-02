@@ -94,7 +94,7 @@ function slot0.UpdateCvBtn(slot0)
 end
 
 function slot0.UpdateIcon(slot0)
-	setActive(slot0.playIcon, slot0.voice.key == "unlock" and PathMgr.FileExists(PathMgr.getAssetBundle("ui/star_level_unlock_anim_" .. slot0.skin.id)))
+	setActive(slot0.playIcon, slot0.voice.key == "unlock" and PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/star_level_unlock_anim_" .. slot0.skin.id)))
 end
 
 function slot0.L2dHasEvent(slot0)

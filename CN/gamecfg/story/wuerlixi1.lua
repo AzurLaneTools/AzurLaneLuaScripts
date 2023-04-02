@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "——面前这位英姿飒爽的女性是最近莅任港区，并在数天前就任了秘书舰的乌尔里希·冯·胡滕。",
+			say = "——面前这位英姿飒爽的女性是最近莅任港区，并在数天前就任了秘书舰的{namecode:463}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……担任秘书舰的这几天，胡滕除了必要的对话以外几乎不会参与闲聊话题。",
+			say = "……担任秘书舰的这几天，{namecode:465}除了必要的对话以外几乎不会参与闲聊话题。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

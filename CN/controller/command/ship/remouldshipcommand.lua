@@ -195,7 +195,7 @@ function slot0.execute(slot0, slot1)
 
 							uv0.skills[slot11] = slot12
 
-							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", HXSet.hxLan(pg.skill_data_template[slot11].name)))
+							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", pg.skill_data_template[slot11].name))
 
 							if slot2 and slot3 == slot10 then
 								slot2:updateSkillId(slot11)
@@ -250,7 +250,7 @@ function slot0.execute(slot0, slot1)
 						id = uv4.skill_id
 					}
 
-					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", HXSet.hxLan(pg.skill_data_template[uv4.skill_id].name)))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", pg.skill_data_template[uv4.skill_id].name))
 				end
 
 				uv0:updateName()

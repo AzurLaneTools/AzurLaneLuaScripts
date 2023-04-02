@@ -183,7 +183,7 @@ pg.enemy_data_statistics_29 = {
 		dodge = 0,
 		reload_growth = 0,
 		hit = 0,
-		nationality = 99,
+		nationality = 98,
 		durability_growth = 0,
 		antiaircraft = 0,
 		antiaircraft_growth = 0,
@@ -779,7 +779,7 @@ pg.enemy_data_statistics_29 = {
 		durability_growth = 0,
 		antiaircraft = 0,
 		antiaircraft_growth = 0,
-		armor_type = 2,
+		armor_type = 3,
 		world_enhancement = {
 			0,
 			0,
@@ -1495,7 +1495,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90646] = {
 		cannon = 0,
-		name = "進取",
+		name = "企業",
 		type = 2,
 		speed_growth = 0,
 		battle_unit_type = 49,

@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "没错，乌尔里希阁下！我在水下发现了借助残骸隐藏起来的塞壬舰队，前面是个陷阱！",
+			say = "没错，{namecode:464}阁下！我在水下发现了借助残骸隐藏起来的塞壬舰队，前面是个陷阱！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

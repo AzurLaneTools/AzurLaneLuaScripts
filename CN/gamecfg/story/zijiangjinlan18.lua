@@ -725,7 +725,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "在加入了腓特烈大帝的作战之后，{namecode:91}应该已经惹怒了塞壬，接下来她们之间想必无法再继续合作了吧。",
+			say = "在加入了{namecode:440}的作战之后，{namecode:91}应该已经惹怒了塞壬，接下来她们之间想必无法再继续合作了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -793,7 +793,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "皆非，如同腓特烈大帝改变了铁血命运的轨迹一般，她为重樱带来的是命运的改变。",
+			say = "皆非，如同{namecode:440}改变了铁血命运的轨迹一般，她为重樱带来的是命运的改变。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -997,7 +997,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "吾与{namecode:83}会淹没在埃塞克斯级舰载机的海洋中，{namecode:74}则会与欧根亲王以及那个白鹰的萨拉托加手挽手消失在{namecode:96}所见的白光下。",
+			say = "吾与{namecode:83}会淹没在埃塞克斯级舰载机的海洋中，{namecode:74}则会与{namecode:427}以及那个白鹰的萨拉托加手挽手消失在{namecode:96}所见的白光下。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "哇？！U101，你去哪儿啊，这么急？",
+			say = "哇？！{namecode:418}，你去哪儿啊，这么急？",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是你啊，U522，还有重樱的潜艇，你们在聊天吗？",
+			say = "啊，是你啊，{namecode:419}，还有重樱的潜艇，你们在聊天吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

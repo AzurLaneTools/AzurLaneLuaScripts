@@ -317,6 +317,106 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[15005] = {
+		id = 15005,
+		name = "角色用/技能用AI - 库尔斯克小潜艇移动1号",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					Z1 = 20,
+					Z2 = -10,
+					X2 = 25,
+					moveCount = 240,
+					duration = -1,
+					X1 = 5,
+					stopCount = 60
+				}
+			}
+		}
+	},
+	[15006] = {
+		id = 15006,
+		name = "角色用/技能用AI - 库尔斯克小潜艇移动2号",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					Z1 = 10,
+					Z2 = -20,
+					X2 = 25,
+					moveCount = 240,
+					duration = -1,
+					X1 = 5,
+					stopCount = 60
+				}
+			}
+		}
+	},
+	[15007] = {
+		id = 15007,
+		name = "角色用/技能用AI - 库尔斯克小潜艇撤离",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 9,
+				param = {
+					x = -50,
+					z = 0
+				}
+			}
+		}
+	},
+	[15008] = {
+		id = 15008,
+		name = "角色用/技能用AI 演习- 库尔斯克小潜艇移动1号",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					Z1 = 20,
+					Z2 = -10,
+					X2 = 10,
+					moveCount = 240,
+					duration = -1,
+					X1 = -10,
+					stopCount = 60
+				}
+			}
+		}
+	},
+	[15009] = {
+		id = 15009,
+		name = "角色用/技能用AI 演习- 库尔斯克小潜艇移动2号",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					Z1 = 10,
+					Z2 = -20,
+					X2 = 10,
+					moveCount = 240,
+					duration = -1,
+					X1 = -10,
+					stopCount = 60
+				}
+			}
+		}
+	},
 	[20001] = {
 		id = 20001,
 		name = "蛋船固定移动ai-23",
@@ -7740,7 +7840,7 @@ pg.auto_pilot_template = {
 					duration = -1,
 					antiClockWise = false,
 					valve = 1,
-					x = -15
+					x = -35
 				}
 			}
 		}

@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "随着时间的推移，U556秘书舰的工作也完成得越来越出色。",
+			say = "随着时间的推移，{namecode:416}秘书舰的工作也完成得越来越出色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "现在位于演习海域的是…俾斯麦带领铁血舰队…莫非出了什么意外？",
+			say = "现在位于演习海域的是…{namecode:435}带领铁血舰队…莫非出了什么意外？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			},
 			options = {
 				{
-					content = "告诉U556",
+					content = "告诉{namecode:416}",
 					flag = 1
 				}
 			}
@@ -230,7 +230,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "俾斯麦姐姐她们莫非……",
+			say = "{namecode:435}姐姐她们莫非……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我和俾斯麦姐姐约好了，不管发生了什么事都会保护她……指挥官，请下达出击命令吧！",
+			say = "我和{namecode:435}姐姐约好了，不管发生了什么事都会保护她……指挥官，请下达出击命令吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "立即启动应急预案，集结待命中的伙伴同U-556一起赶往演习海域",
+			say = "立即启动应急预案，集结待命中的伙伴同{namecode:416}一起赶往演习海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "俾斯麦姐姐，一定要平安无事啊……",
+			say = "{namecode:435}姐姐，一定要平安无事啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？…俾斯麦姐姐……还有欧根小姐？",
+			say = "欸？…{namecode:435}姐姐……还有{namecode:428}小姐？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官这是？还有U556和各位也在…出什么事了？",
+			say = "指挥官这是？还有{namecode:416}和各位也在…出什么事了？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -539,7 +539,7 @@ return {
 			actor = 405010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "U556，虽然我们是有过那样的约定，不过再艰难的情况，我都可以自己应对，你不必担心我。",
+			say = "{namecode:416}，虽然我们是有过那样的约定，不过再艰难的情况，我都可以自己应对，你不必担心我。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "U556看起来十分失落……",
+			say = "{namecode:416}看起来十分失落……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "俾斯麦，刚才这话说得不太好呢",
+			say = "{namecode:435}，刚才这话说得不太好呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "有点担心U556的情况，跟上去看看吧。",
+			say = "有点担心{namecode:416}的情况，跟上去看看吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

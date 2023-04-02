@@ -302,6 +302,22 @@ pg.share_template = {
 			"/OverlayCamera/Overlay/UIMain/result_panel/frame/Text"
 		}
 	},
+	{
+		description = "#碧蓝航线#",
+		name = "连战活动 - EX分享界面",
+		id = 18,
+		deck = 1,
+		hidden_comps = "",
+		move_comps = "",
+		camera = "OverlayCamera",
+		qrcode_location = {
+			383,
+			120
+		},
+		show_comps = {
+			"UICamera/Canvas/UIMain/PizzahutSharePage(Clone)"
+		}
+	},
 	[5000] = {
 		description = "#碧藍航線#",
 		name = "台服分享活动（改动过唯一id 原id12）",
@@ -336,6 +352,7 @@ pg.share_template = {
 		15,
 		16,
 		17,
+		18,
 		5000
 	}
 }

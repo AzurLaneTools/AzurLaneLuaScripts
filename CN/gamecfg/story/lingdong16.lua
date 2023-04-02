@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "story-5",
 			dir = 1,
-			say = "特攻舰队全员注意，我们已经重创了提尔比茨这匹北方的孤狼，作战目标基本达成",
+			say = "特攻舰队全员注意，我们已经重创了{namecode:436}这匹北方的孤狼，作战目标基本达成",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…居然连汝出手都没能击沉提尔比茨，她的底力真是出人意料呀",
+			say = "不过…居然连汝出手都没能击沉{namecode:436}，她的底力真是出人意料呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -209,7 +209,7 @@ function slot4(slot0, slot1)
 	})
 	slot3.virgin = slot1.virgin
 
-	setScrollText(findTF(slot0, "content/info/name_mask/name"), slot3:getName())
+	setScrollText(findTF(slot0, "content/info/name_mask/name"), slot3:GetColorName())
 	flushShipCard(slot0, slot3)
 	setActive(findTF(slot0, "content/front/new"), slot1.virgin)
 end

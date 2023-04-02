@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "俾斯麦和威尔斯亲王看了眼彼此松了口气的表情――便很快各自转身准备离开了。",
+			say = "{namecode:435}和威尔斯亲王看了眼彼此松了口气的表情――便很快各自转身准备离开了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -303,7 +303,7 @@ return {
 			side = 2,
 			actor = 301050,
 			dir = 1,
-			say = "Z23，你们那边做了什么吗？",
+			say = "{namecode:408}，你们那边做了什么吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

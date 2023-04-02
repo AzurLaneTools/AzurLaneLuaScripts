@@ -374,16 +374,27 @@ function slot0.UpdateSpinePainting(slot0, slot1, slot2, slot3, slot4)
 			slot2.overrideSorting = true
 			slot2.sortingOrder = uv0(uv1, uv2, uv3.sortingOrder) + 1
 
-			if uv4 then
-				uv4()
+			uv3:UpdateSpineExpression(slot0, uv4)
+
+			if uv5 then
+				uv5()
 			end
 		end)
 	end
 
 	if slot3 and slot0.spinePainings[slot2] then
+		slot0:UpdateSpineExpression(slot0.spinePainings[slot2], slot1)
 		slot4()
 	else
 		slot5(slot4)
+	end
+end
+
+function slot0.UpdateSpineExpression(slot0, slot1, slot2)
+	if slot2:GetSpineExPression() then
+		slot1:SetAction(slot3, 1)
+	else
+		slot1:SetEmptyAction(1)
 	end
 end
 
@@ -826,14 +837,18 @@ function slot3(slot0)
 	end
 
 	if slot0:Find("fitter"):GetChild(0) then
-		for slot6 = 0, slot0:GetComponentsInChildren(typeof(Image)).Length - 1 do
-			slot7 = slot2[slot6]
-			slot8 = Color.white
+		if findTF(slot1, "shadow") then
+			setActive(slot2, false)
+		end
 
-			if slot7.material ~= slot7.defaultGraphicMaterial then
-				slot7.material = slot7.defaultGraphicMaterial
+		for slot7 = 0, slot0:GetComponentsInChildren(typeof(Image)).Length - 1 do
+			slot8 = slot3[slot7]
+			slot9 = Color.white
 
-				slot7.material:SetColor("_Color", slot8)
+			if slot8.material ~= slot8.defaultGraphicMaterial then
+				slot8.material = slot8.defaultGraphicMaterial
+
+				slot8.material:SetColor("_Color", slot9)
 			end
 		end
 
@@ -841,7 +856,7 @@ function slot3(slot0)
 		retPaintingPrefab(slot0, slot1.name)
 
 		if slot1:Find("temp_mask") then
-			Destroy(slot3)
+			Destroy(slot4)
 		end
 	end
 end

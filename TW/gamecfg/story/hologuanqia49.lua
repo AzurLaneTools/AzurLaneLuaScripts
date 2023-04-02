@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			side = 2,
 			dir = 1,
-			say = "一直以来并肩战斗的{namecode:158}，{namecode:96}，拉菲，{namecode:6}，标枪，Z23，净化亲",
+			say = "一直以来并肩战斗的{namecode:158}，{namecode:96}，拉菲，{namecode:6}，标枪，{namecode:408}，净化亲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

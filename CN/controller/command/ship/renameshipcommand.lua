@@ -10,9 +10,9 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot7 = slot6:isRemoulded() and HXSet.hxLan(pg.ship_skin_template[slot6:getRemouldSkinId()].name) or pg.ship_data_statistics[slot6.configId].name
+	slot7 = slot6:isRemoulded() and pg.ship_skin_template[slot6:getRemouldSkinId()].name or pg.ship_data_statistics[slot6.configId].name
 
-	if HXSet.hxLan(slot6:getName()) == slot4 then
+	if slot6:getName() == slot4 then
 		slot0:sendNotification(GAME.RENAME_SHIP_DONE, {
 			ship = slot6
 		})
@@ -58,7 +58,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
-		content = i18n("word_rename_time_warning", HXSet.hxLan(slot6:getName()), slot4),
+		content = i18n("word_rename_time_warning", slot6:getName(), slot4),
 		onYes = function ()
 			uv0()
 		end

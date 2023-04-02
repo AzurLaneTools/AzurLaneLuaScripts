@@ -348,7 +348,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好啦~那我们就立马准备出发吧！Z23、{namecode:6}、拉菲！",
+			say = "太好啦~那我们就立马准备出发吧！{namecode:408}、{namecode:6}、拉菲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -616,8 +616,8 @@ function slot0.showTaskWindow(slot0, slot1)
 
 	slot4 = slot0.rtTaskWindow:Find("main_window/right_panel")
 
-	setText(slot4:Find("title/Text"), HXSet.hxLan(slot1.config.name))
-	setText(slot4:Find("content/desc"), HXSet.hxLan(slot1.config.rare_task_text))
+	setText(slot4:Find("title/Text"), slot1.config.name)
+	setText(slot4:Find("content/desc"), slot1.config.rare_task_text)
 	setText(slot4:Find("content/slider_progress/Text"), slot1:getProgress() .. "/" .. slot1:getMaxProgress())
 	setSlider(slot4:Find("content/slider"), 0, slot1:getMaxProgress(), slot1:getProgress())
 

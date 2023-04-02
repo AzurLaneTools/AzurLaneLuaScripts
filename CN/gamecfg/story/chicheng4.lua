@@ -50,7 +50,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我是齐柏林。真难得啊，你竟会来参加这种活动",
+			say = "我是{namecode:438}。真难得啊，你竟会来参加这种活动",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

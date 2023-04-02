@@ -97,7 +97,7 @@ return {
 			bgName = "bg_main_day",
 			actor = 402041,
 			dir = 1,
-			actorName = "莱比锡&佩内洛珀",
+			actorName = "{namecode:424}&佩内洛珀",
 			hideOther = true,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
@@ -253,7 +253,7 @@ return {
 			actor = 402041,
 			side = 0,
 			bgName = "bg_main_day",
-			actorName = "莱比锡&佩内洛珀",
+			actorName = "{namecode:424}&佩内洛珀",
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402041,
-			actorName = "莱比锡&佩内洛珀",
+			actorName = "{namecode:424}&佩内洛珀",
 			hidePaintObj = true,
 			say = "哇啊啊啊啊！",
 			effects = {
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "莱比锡和佩内洛珀都转身离开，四周暂时只剩下了穿着女仆装（？）的大青花鱼。",
+			say = "{namecode:424}和佩内洛珀都转身离开，四周暂时只剩下了穿着女仆装（？）的大青花鱼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

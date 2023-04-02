@@ -41,7 +41,7 @@ return {
 			actor = 408070,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "什么嘛，结果和欧根说的完全不一样......我就说怎么会出现护航编队抛弃运输船撤离的好事。",
+			say = "什么嘛，结果和{namecode:428}说的完全不一样......我就说怎么会出现护航编队抛弃运输船撤离的好事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_underwater",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "发消息给欧根，告诉她计划失败了，狼群还是会按照预定方案对船团进行袭击。",
+			say = "发消息给{namecode:428}，告诉她计划失败了，狼群还是会按照预定方案对船团进行袭击。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 408060,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "真可惜~如果欧根的计划能成功，我们就能一举干掉所有的运输船了！",
+			say = "真可惜~如果{namecode:428}的计划能成功，我们就能一举干掉所有的运输船了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

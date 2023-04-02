@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊！那个是余烬的沙恩霍斯特吧！",
+			say = "啊！那个是余烬的{namecode:433}吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_7",
-			say = "浑身伤痕的沙恩霍斯特仰天漂浮着，舰装，或者曾经属于舰装的某些部分随意的散落在一旁。",
+			say = "浑身伤痕的{namecode:433}仰天漂浮着，舰装，或者曾经属于舰装的某些部分随意的散落在一旁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "U-1206",
+			actorName = "{namecode:476}",
 			say = "喂，能听见么，醒一醒啊——！",
 			typewriter = {
 				speed = 0.05,
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_7",
-			say = "从水面下上浮的U-1206努力的拍打着，不过海面上的人依然毫无回应。",
+			say = "从水面下上浮的{namecode:476}努力的拍打着，不过海面上的人依然毫无回应。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "U-1206",
+			actorName = "{namecode:476}",
 			say = "不行……已经彻底昏过去了。",
 			typewriter = {
 				speed = 0.05,
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "易北",
+			actorName = "{namecode:468}",
 			say = "才分开几小时而已，到底发生了什么事？",
 			typewriter = {
 				speed = 0.05,
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马格德堡",
+			actorName = "{namecode:447}",
 			say = "她可是顷刻间就能毁灭一队代行者的余烬哎……怎么弄成这样了？！",
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "阿达尔伯特亲王",
+			actorName = "{namecode:455}",
 			say = "那只有等她醒过来之后才能知道了……",
 			typewriter = {
 				speed = 0.05,
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "U-1206",
+			actorName = "{namecode:476}",
 			say = "执行拆解作业的代行者冲着这边过来了……难道是想把她也当成残骸拆了？！",
 			typewriter = {
 				speed = 0.05,
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马格德堡",
+			actorName = "{namecode:447}",
 			say = "这样可不好，万幸我们来得还算及时！",
 			typewriter = {
 				speed = 0.05,
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "格奈森瑙！……冷静。",
+			say = "{namecode:434}！……冷静。",
 			effects = {
 				{
 					active = true,
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "U-1206专注于救援作业，其他人趁塞壬还在专心拆解工作时先下手为强。",
+			say = "{namecode:476}专注于救援作业，其他人趁塞壬还在专心拆解工作时先下手为强。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

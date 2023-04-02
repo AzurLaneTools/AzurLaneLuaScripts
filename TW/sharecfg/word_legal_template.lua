@@ -2677,7 +2677,18 @@ function temp()
 		["運"] = {
 			["女"] = {
 				["神"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -3487,6 +3498,9 @@ function temp()
 			["火"] = {
 				this = true
 			}
+		},
+		["屈"] = {
+			this = true
 		}
 	}
 end
@@ -3793,6 +3807,9 @@ function temp()
 			["改"] = {
 				this = true
 			}
+		},
+		["飛"] = {
+			this = true
 		}
 	}
 end

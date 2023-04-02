@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "乌尔里希阁下，一支执行者IV型舰队从侧面过来了。",
+			say = "{namecode:464}阁下，一支执行者IV型舰队从侧面过来了。",
 			bgm = "battle-midgard-hunting",
 			typewriter = {
 				speed = 0.05,
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "格奈森瑙带着沙恩霍斯特与我继续前进，其余人交替掩护断后。",
+			say = "{namecode:434}带着{namecode:433}与我继续前进，其余人交替掩护断后。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

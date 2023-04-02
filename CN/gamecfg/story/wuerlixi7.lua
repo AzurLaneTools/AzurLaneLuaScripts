@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "夜幕已经降临，书桌前的胡滕在昏暗的灯光下沉睡着。",
+			say = "夜幕已经降临，书桌前的{namecode:465}在昏暗的灯光下沉睡着。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "虽然最初有些担心胡滕能否顺利融入港区与同伴正常相处。不够后来发现完全是担心过度了。",
+			say = "虽然最初有些担心{namecode:465}能否顺利融入港区与同伴正常相处。不够后来发现完全是担心过度了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "唉……腓特烈说的不错，对于“毒性”我已经感同身受了。",
+			say = "唉……{namecode:441}说的不错，对于“毒性”我已经感同身受了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "像是什么都没发生过一样，胡滕打开房门，打算就这么离开——",
+			say = "像是什么都没发生过一样，{namecode:465}打开房门，打算就这么离开——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不只是对腓特烈，要是其他伙伴问起来，你也这样回答就好了。",
+			say = "不只是对{namecode:441}，要是其他伙伴问起来，你也这样回答就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

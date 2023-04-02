@@ -203,7 +203,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "U556看起来有点沮丧。",
+			say = "{namecode:416}看起来有点沮丧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "似乎U556并不清楚指挥官和秘书舰在舰队中的作用。从她的印象来看，更像是玩伴一样的存在？",
+			say = "似乎{namecode:416}并不清楚指挥官和秘书舰在舰队中的作用。从她的印象来看，更像是玩伴一样的存在？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "U556似乎明白了工作的重要性。既然如此，这里就顺势交给她一些简单的事情处理吧。",
+			say = "{namecode:416}似乎明白了工作的重要性。既然如此，这里就顺势交给她一些简单的事情处理吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "U556拿了资料，门也不关地跑了出去。",
+			say = "{namecode:416}拿了资料，门也不关地跑了出去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "结果，直到上午的工作时间结束，也没等到U556回来。",
+			say = "结果，直到上午的工作时间结束，也没等到{namecode:416}回来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

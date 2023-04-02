@@ -75,7 +75,7 @@ function slot0.initUI(slot0)
 	onButton(slot0, slot0.confirmBtn, function ()
 		if uv0.curSelectedIndex and uv0.curSelectedIndex ~= 0 then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("tec_target_catchup_select_tip", HXSet.hxLan(ShipGroup.getDefaultShipNameByGroupID(uv0.charIDList[uv0.curSelectedIndex]))),
+				content = i18n("tec_target_catchup_select_tip", ShipGroup.getDefaultShipNameByGroupID(uv0.charIDList[uv0.curSelectedIndex])),
 				onYes = function ()
 					pg.m02:sendNotification(GAME.SELECT_TEC_TARGET_CATCHUP, {
 						tecID = uv0.tecID,
@@ -141,7 +141,7 @@ function slot0.updateCharTpl(slot0, slot1, slot2)
 	slot11 = pg.ship_data_blueprint[slot8].strengthen_item
 
 	setText(slot0:findTF("PrintNum/NumText", slot2), math.max(slot0.configCatchup[slot0.tecID].blueprint_max[slot1] - (slot0.bayProxy:findShipByGroup(slot8) and math.floor(slot0:getShipBluePrintCurExp(slot0.technologyProxy:getBluePrintVOByGroupID(slot8)) / pg.item_data_template[slot11].usage_arg[1]) or 0) - slot0.bagProxy:getItemCountById(slot11), 0))
-	setText(slot0:findTF("NameText", slot2), HXSet.hxLan(ShipGroup.getDefaultShipNameByGroupID(slot8)))
+	setText(slot0:findTF("NameText", slot2), ShipGroup.getDefaultShipNameByGroupID(slot8))
 	setActive(slot0:findTF("LevelText", slot2), slot9)
 	setActive(slot0:findTF("NotGetTag", slot2), not slot9)
 
@@ -161,7 +161,7 @@ function slot0.updateShowPanel(slot0)
 	slot3 = slot1.groupID
 
 	setImageSprite(slot0.showBG, LoadSprite("TecCatchup/selbg" .. slot3, slot3))
-	setText(slot0.nameText, HXSet.hxLan(ShipGroup.getDefaultShipNameByGroupID(slot3)))
+	setText(slot0.nameText, ShipGroup.getDefaultShipNameByGroupID(slot3))
 	setText(slot0.progressText, slot1.printNum .. "/" .. slot0:getMaxNum(slot3))
 
 	slot6 = slot0.state == TechnologyCatchup.STATE_FINISHED_ALL

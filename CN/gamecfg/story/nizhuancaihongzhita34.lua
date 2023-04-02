@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "罗恩与美因茨同时开火了。",
+			say = "{namecode:439}与{namecode:479}同时开火了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 499030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再战斗下去大概要吃亏。罗恩，乌尔里希阁下等人已经撤离完毕了，见好就收，我们也撤吧。",
+			say = "再战斗下去大概要吃亏。{namecode:439}，{namecode:464}阁下等人已经撤离完毕了，见好就收，我们也撤吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_midgard_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同意。阿达尔伯特亲王，伤员优先~",
+			say = "同意。{namecode:455}，伤员优先~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "阿达尔伯特亲王一个华丽的转身，躲开了来袭的弹雨，纵身一跃进入了米德加尔特之塔中心澎湃的洪流中。",
+			say = "{namecode:455}一个华丽的转身，躲开了来袭的弹雨，纵身一跃进入了米德加尔特之塔中心澎湃的洪流中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "紧随其后的是美因茨，她在临行之时还不忘用主炮补了一轮射击。",
+			say = "紧随其后的是{namecode:479}，她在临行之时还不忘用主炮补了一轮射击。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "最后进入的是罗恩，她没有躲闪，而是依靠护盾挡住了袭来的炮弹，她向后仰倒着，借助冲击力划入了漩涡之中。",
+			say = "最后进入的是{namecode:439}，她没有躲闪，而是依靠护盾挡住了袭来的炮弹，她向后仰倒着，借助冲击力划入了漩涡之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "阿达尔伯特，喂你没事吧，快醒一醒！",
+			say = "{namecode:456}，喂你没事吧，快醒一醒！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "罗恩和美因茨也没反应……完了完了，不会转移的时候出问题了吧！",
+			say = "{namecode:439}和{namecode:479}也没反应……完了完了，不会转移的时候出问题了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，罗恩和美因茨醒过来了！",
+			say = "啊，{namecode:439}和{namecode:479}醒过来了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			bgName = "bg_midgard_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来只要阿达尔伯特醒过来就大功告成……",
+			say = "接下来只要{namecode:456}醒过来就大功告成……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			bgName = "bg_midgard_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……谢谢你海因里希。",
+			say = "……谢谢你{namecode:454}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			actorScale = 0.6,
-			say = "在宛若废墟的控制室中疾驰而来的Z46——这是刚刚清醒过来的阿达尔伯特亲王看到的第一个，也是最后一个画面。",
+			say = "在宛若废墟的控制室中疾驰而来的{namecode:412}——这是刚刚清醒过来的{namecode:455}看到的第一个，也是最后一个画面。",
 			effects = {
 				{
 					active = true,
@@ -750,11 +750,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海因里希亲王",
+			actorName = "{namecode:453}",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！不好了！阿达尔伯特又昏过去了！",
+			say = "啊！不好了！{namecode:456}又昏过去了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,11 +766,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿达尔伯特亲王",
+			actorName = "{namecode:455}",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次还真是运动过度……结束之后也和海因里希一样，想办法好好休个假吧…………",
+			say = "这次还真是运动过度……结束之后也和{namecode:454}一样，想办法好好休个假吧…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

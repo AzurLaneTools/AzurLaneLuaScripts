@@ -485,8 +485,8 @@ end
 function slot0.updateMainView(slot0, slot1)
 	slot2 = slot1.shipSkinConfig
 	slot0.showCardId = slot1.goodsVO.id
-	slot0.nameTxt.text = HXSet.hxLan(ShipGroup.getDefaultShipConfig(slot2.ship_group).name)
-	slot0.skinNameTxt.text = SwitchSpecialChar(HXSet.hxLan(slot2.name), true)
+	slot0.nameTxt.text = ShipGroup.getDefaultShipConfig(slot2.ship_group).name
+	slot0.skinNameTxt.text = SwitchSpecialChar(slot2.name, true)
 
 	if slot0.prefabName ~= slot2.prefab then
 		slot0:loadChar(slot4, slot2)
@@ -819,10 +819,10 @@ function slot0.updateBuyBtn(slot0, slot1)
 		onButton(slot0, slot0.buyBtn, function ()
 			if uv0.type == Goods.TYPE_SKIN then
 				if uv1.showCardId == slot0.id then
-					slot2 = i18n("charge_scene_buy_confirm", slot0:GetPrice(), HXSet.hxLan(uv2.name))
+					slot2 = i18n("charge_scene_buy_confirm", slot0:GetPrice(), uv2.name)
 
 					if uv0:isDisCount() and slot0:IsItemDiscountType() then
-						slot2 = i18n("discount_coupon_tip", slot1, slot0:GetDiscountItem().name, HXSet.hxLan(uv2.name))
+						slot2 = i18n("discount_coupon_tip", slot1, slot0:GetDiscountItem().name, uv2.name)
 					end
 
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({

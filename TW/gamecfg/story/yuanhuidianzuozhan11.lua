@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "Z16，你带领前锋舰队佯攻诱敌，尽可能吸引对方的注意力！",
+			say = "{namecode:442}，你带领前锋舰队佯攻诱敌，尽可能吸引对方的注意力！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

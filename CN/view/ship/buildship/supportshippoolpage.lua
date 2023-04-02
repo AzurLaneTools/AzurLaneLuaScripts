@@ -31,7 +31,7 @@ function slot0.Flush(slot0)
 
 	slot4 = slot0.tipSTxt
 
-	slot4:SetText(HXSet.hxLan(slot2.support_tip_ship))
+	slot4:SetText(slot2.support_tip_ship)
 
 	slot4 = slot0:findTF("gallery/item_bg/medal")
 

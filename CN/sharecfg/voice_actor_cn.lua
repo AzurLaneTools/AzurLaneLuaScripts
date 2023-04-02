@@ -1435,5 +1435,13 @@ pg.voice_actor_CN = {
 	{
 		code = 359,
 		actor_name = "进藤天音"
+	},
+	{
+		code = 360,
+		actor_name = "春花兰"
+	},
+	{
+		code = 361,
+		actor_name = "衣川里佳"
 	}
 }

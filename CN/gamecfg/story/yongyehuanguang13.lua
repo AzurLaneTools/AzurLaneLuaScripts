@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哈啊…这是我想说的话才对！居然能和这种状态下的Z36正常交流…",
+			say = "哈啊…这是我想说的话才对！居然能和这种状态下的{namecode:411}正常交流…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			actor = 206060,
 			dir = 1,
-			say = "...你就是希佩尔吧。初次见面...我是皇家所属航空母舰英仙座。铁血舰队，如果你们能放下----",
+			say = "...你就是{namecode:426}吧。初次见面...我是皇家所属航空母舰英仙座。铁血舰队，如果你们能放下----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

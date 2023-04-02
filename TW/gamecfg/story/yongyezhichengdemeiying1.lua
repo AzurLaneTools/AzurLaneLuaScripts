@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "此刻，正戴着眼罩，在塞德利茨的搀扶下于一片未知空间中小心前进着。",
+			say = "此刻，正戴着眼罩，在{namecode:460}的搀扶下于一片未知空间中小心前进着。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "在塞德利茨的介绍中，这式一个误入了吸血鬼城堡的人类想方设法逃离这里的故事。",
+			say = "在{namecode:460}的介绍中，这式一个误入了吸血鬼城堡的人类想方设法逃离这里的故事。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其实……这里原本是以一段追逐战开始的，不过欧根说，既然只是试玩，而且想让指挥官大人轻松一些，就先略过这一部分了。",
+			say = "其实……这里原本是以一段追逐战开始的，不过{namecode:428}说，既然只是试玩，而且想让指挥官大人轻松一些，就先略过这一部分了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404031,
-			say = "对了，这个小通讯器是欧根让我交给您的。",
+			say = "对了，这个小通讯器是{namecode:428}让我交给您的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

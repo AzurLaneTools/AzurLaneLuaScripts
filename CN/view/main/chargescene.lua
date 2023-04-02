@@ -305,7 +305,7 @@ function slot0.displayShipWord(slot0, slot1, slot2, slot3)
 			slot0:playCV(slot5)
 		end
 
-		setText(slot0.chatText, HXSet.hxLan(slot6))
+		setText(slot0.chatText, slot6)
 
 		if CHAT_POP_STR_LEN_SHORT < #slot0.chatText:GetComponent(typeof(Text)).text then
 			slot7.alignment = TextAnchor.MiddleLeft

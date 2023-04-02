@@ -677,9 +677,9 @@ function slot0.showBubble(slot0, slot1)
 
 	if not slot1 then
 		if isActive(slot0.battleBtn) then
-			slot2 = HXSet.hxLan(i18n("sofmapsd_1"))
+			slot2 = i18n("sofmapsd_1")
 		elseif isActive(slot0.getBtn) then
-			slot2 = HXSet.hxLan(i18n("sofmapsd_2"))
+			slot2 = i18n("sofmapsd_2")
 		elseif isActive(slot0.gotBtn) then
 			slot2 = i18n("sofmapsd_4")
 		end

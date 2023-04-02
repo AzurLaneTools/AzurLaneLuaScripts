@@ -62,7 +62,7 @@ function slot0.didEnter(slot0)
 	slot0:EnterAnim()
 	slot0:InitChars()
 
-	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 60037)
+	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 4)
 end
 
 function slot0.InitBuildings(slot0)

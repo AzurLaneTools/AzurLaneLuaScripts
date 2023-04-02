@@ -153,7 +153,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "保护在外围的封印已经在奥丁小姐的一击中灰飞烟灭了……",
+			say = "保护在外围的封印已经在{namecode:486}小姐的一击中灰飞烟灭了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过机关本身还完整，我打算仔细检查一下……那个，欧根亲王阁下……?",
+			say = "不过机关本身还完整，我打算仔细检查一下……那个，{namecode:427}阁下……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，那边的欧根亲王！不要趁机乱动操作台啊，很危险吧！",
+			say = "啊，那边的{namecode:427}！不要趁机乱动操作台啊，很危险吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
 			dir = 1,
-			say = "随着欧根亲王的操作结束，控制台发出了一阵机械启动的震动声，相同的谜之音也再次出现了。",
+			say = "随着{namecode:427}的操作结束，控制台发出了一阵机械启动的震动声，相同的谜之音也再次出现了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "非常感谢，欧根亲王阁下！有了这些护盾，火海就无法阻挡我们的前进了！",
+			say = "非常感谢，{namecode:427}阁下！有了这些护盾，火海就无法阻挡我们的前进了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -231,10 +231,9 @@ function slot0.UpdatePlayer(slot0)
 			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot2, slot2, slot0.preLoadIcon)
 		end
 
-		slot2 = AttireFrame.attireFrameRes(slot1, false, AttireConst.TYPE_ICON_FRAME, slot1.propose)
-		slot3 = PoolMgr.GetInstance()
+		slot2 = AttireFrame.attireFrameRes(slot1, slot1.id == getProxy(PlayerProxy):getRawData().id, AttireConst.TYPE_ICON_FRAME, slot1.propose)
 
-		slot3:GetPrefab("IconFrame/" .. slot2, slot2, true, function (slot0)
+		PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot2, slot2, true, function (slot0)
 			if uv0.icon then
 				slot0.name = uv1
 				findTF(slot0.transform, "icon"):GetComponent(typeof(Image)).raycastTarget = false

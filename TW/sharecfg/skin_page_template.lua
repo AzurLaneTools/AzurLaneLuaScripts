@@ -96,6 +96,12 @@ pg.skin_page_template = {
 		res = "nvpu",
 		english_name = "Maid"
 	},
+	[19] = {
+		id = 19,
+		name = "夢幻童話",
+		res = "tonghua",
+		english_name = "FAIRYTALE"
+	},
 	[20] = {
 		id = 20,
 		name = "休閒家居",
@@ -143,6 +149,7 @@ pg.skin_page_template = {
 		15,
 		16,
 		17,
+		19,
 		20,
 		21,
 		9997,

@@ -57,7 +57,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊! 她来了！U-47，这里这里！",
+			say = "啊! 她来了！{namecode:413}，这里这里！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_nepu1",
 			actor = 408010,
 			dir = 1,
-			actorName = "U-81&U-557",
+			actorName = "{namecode:414}&{namecode:415}",
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "…………？",
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸嘿嘿，U-47你想太多了。不过真被指挥官说中了呢！",
+			say = "欸嘿嘿，{namecode:413}你想太多了。不过真被指挥官说中了呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "U-47先行前进，伏击敌人!",
+			say = "{namecode:413}先行前进，伏击敌人!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "U-47若有所思的缓缓潜入水下。",
+			say = "{namecode:413}若有所思的缓缓潜入水下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "在接受表彰时，U-47的心中只浮现出了一个人的面庞，那就是————",
+			say = "在接受表彰时，{namecode:413}的心中只浮现出了一个人的面庞，那就是————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

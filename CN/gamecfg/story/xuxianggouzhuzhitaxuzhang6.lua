@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "让我看看啊……咦？不是撒丁舰队而是……铁血的欧根和希佩尔？",
+			say = "让我看看啊……咦？不是撒丁舰队而是……铁血的{namecode:428}和{namecode:426}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_tower",
-			say = "与此同时，欧根亲王与希佩尔正在（有些轻松地）与塞壬交战着。",
+			say = "与此同时，{namecode:427}与{namecode:426}正在（有些轻松地）与塞壬交战着。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂！认真一点啊欧根！我们可是来支援的！",
+			say = "喂！认真一点啊{namecode:428}！我们可是来支援的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欧根亲王加入战斗——虽然我想这么说，不过看起来不需要了呢。",
+			say = "{namecode:427}加入战斗——虽然我想这么说，不过看起来不需要了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

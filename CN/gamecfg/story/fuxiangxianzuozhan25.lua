@@ -133,7 +133,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当时我就认定这应该是史特拉塞在遭遇了某些无法解释的异常情况后采取的安全对策。",
+			say = "当时我就认定这应该是{namecode:472}在遭遇了某些无法解释的异常情况后采取的安全对策。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

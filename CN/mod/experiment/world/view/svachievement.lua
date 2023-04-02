@@ -59,7 +59,7 @@ function slot0.Hide(slot0)
 end
 
 function slot0.Setup(slot0, slot1, slot2)
-	setText(slot0.rtDesc, HXSet.hxLan(slot1.config.target_desc))
+	setText(slot0.rtDesc, slot1.config.target_desc)
 
 	slot0.starWorldPos = slot2
 end

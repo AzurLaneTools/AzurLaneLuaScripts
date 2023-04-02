@@ -143,7 +143,7 @@ return {
 			dir = -1,
 			actor = 304060,
 			actorName = "？？？",
-			say = "说到底，小齐柏林也没见过指挥官吧…？",
+			say = "说到底，小{namecode:438}也没见过指挥官吧…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 304060,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "小齐柏林！……别把我丢在这里啦！",
+			say = "小{namecode:438}！……别把我丢在这里啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，现在正是让你们见识一下，铁血第一艘航母·齐柏林伯爵的力量的时……好痛！",
+			say = "哼，现在正是让你们见识一下，铁血第一艘航母·{namecode:437}的力量的时……好痛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "小齐柏林！没事吧？！",
+			say = "小{namecode:438}！没事吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

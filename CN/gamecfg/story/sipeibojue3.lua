@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "斯佩身为秘书舰，应该是清楚的吧。",
+			say = "{namecode:432}身为秘书舰，应该是清楚的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,11 +240,11 @@ return {
 			},
 			options = {
 				{
-					content = "问沙恩霍斯特",
+					content = "问{namecode:433}",
 					flag = 1
 				},
 				{
-					content = "问格奈森瑙",
+					content = "问{namecode:434}",
 					flag = 2
 				}
 			}
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 1,
-			say = "得到了很有沙恩霍斯特小姐风格的回答。",
+			say = "得到了很有{namecode:433}小姐风格的回答。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 2,
-			say = "确实像是格奈森瑙小姐会有的想法。",
+			say = "确实像是{namecode:434}小姐会有的想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那斯佩你呢？你的“愿望”又是什么呢？",
+			say = "那{namecode:432}你呢？你的“愿望”又是什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "……我有事找你！",
 			typewriter = {
 				speed = 0.05,
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "希佩尔突然开门闯了进来。",
+			say = "{namecode:426}突然开门闯了进来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "还问什么事…都是因为你，害我最近状态都不正常了！",
 			typewriter = {
 				speed = 0.05,
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "之前兜风回来的时候还在想，你这家伙终于能干一些了……",
 			typewriter = {
 				speed = 0.05,
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "结果完全没有！就因为你最近太废柴了，才害我一直要帮你擦屁股！",
 			typewriter = {
 				speed = 0.05,
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "作为秘书舰帮忙做事倒是没什么…不过你这样，我就算没在工作的时候，也老是会担心你遇到问题不是吗！",
 			typewriter = {
 				speed = 0.05,
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "你有遇到过像这样满脑子里都是某人的情况吗！？连在梦里都会出现…真是太烦了！",
 			typewriter = {
 				speed = 0.05,
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "希佩尔一番唐突的发言，让人不禁愣住了。",
+			say = "{namecode:426}一番唐突的发言，让人不禁愣住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "啊啊真是的，你说究竟该怎么办才好嘛！",
 			typewriter = {
 				speed = 0.05,
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "哈啊…反正你这家伙迟钝得要死，问你还不如问萤火虫呢……",
 			typewriter = {
 				speed = 0.05,
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "希佩尔激动地说着，又一脸害羞脸红到不行的样子，既然如此——",
+			say = "{namecode:426}激动地说着，又一脸害羞脸红到不行的样子，既然如此——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "……呼。放不下心来跟过来一看，果然是这种展开啊。你们俩可真是一个比一个迟钝啊~",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
-			say = "欧，欧根！你怎么在这里……",
+			actorName = "{namecode:425}",
+			say = "欧，{namecode:428}！你怎么在这里……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "想着要给笨拙的姐姐打打气嘛♪",
 			typewriter = {
 				speed = 0.05,
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "指挥官你知道吗？姐姐之所以那么慌张，是因为她看到明石帮你买的情侣套票了哦。",
 			typewriter = {
 				speed = 0.05,
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "哈啊？！……笨笨笨笨蛋！瞎说什么啊……！",
 			typewriter = {
 				speed = 0.05,
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "买了票那就意味着要用――她可在意你要和谁去用了呢。对吧，姐姐？",
 			typewriter = {
 				speed = 0.05,
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "啰，啰嗦！说到底你又是怎么知道的啊！偷看别人这种事也太恶趣味了吧！",
 			typewriter = {
 				speed = 0.05,
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "呵呵，虽然姐姐自己觉得隐藏得很好…不过，其实早就露馅了哦？指挥官也有想要说的话才对吧？",
 			typewriter = {
 				speed = 0.05,
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "我才…没有…哼、哼！笨蛋指挥官！你…有什么话要对我说吗？！",
 			typewriter = {
 				speed = 0.05,
@@ -460,7 +460,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "我就特别开恩，姑且听一听好了……你，你说吧…",
 			typewriter = {
 				speed = 0.05,
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "回想起上次绕路时看到的，令希佩尔展露笑容的美妙风景…而这情侣票，便是为了启动能够再度领略那片风景的双人旅行而准备的。",
+			say = "回想起上次绕路时看到的，令{namecode:426}展露笑容的美妙风景…而这情侣票，便是为了启动能够再度领略那片风景的双人旅行而准备的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "也许这不足以报答希佩尔一直以来作为秘书舰的努力工作，但是，这份感情绝对没有半分虚假。",
+			say = "也许这不足以报答{namecode:426}一直以来作为秘书舰的努力工作，但是，这份感情绝对没有半分虚假。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			},
 			options = {
 				{
-					content = "把情侣票递给希佩尔",
+					content = "把情侣票递给{namecode:426}",
 					flag = 1
 				}
 			}
@@ -511,7 +511,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "……！真、真的是…要给我的吗…",
 			typewriter = {
 				speed = 0.05,
@@ -528,7 +528,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "真，真没办法！我就好心收下吧，你可要感谢我哦！",
 			typewriter = {
 				speed = 0.05,

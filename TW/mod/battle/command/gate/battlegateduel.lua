@@ -19,40 +19,40 @@ function slot0.Entrance(slot0, slot1)
 	slot6 = getProxy(BayProxy)
 	slot7 = getProxy(FleetProxy)
 	slot8, slot9 = nil
-	rivalVO = getProxy(MilitaryExerciseProxy):getRivalById(slot0.rivalId)
-	slot12 = pg.battle_cost_template[SYSTEM_DUEL].oil_cost > 0
-	slot13 = {}
-	slot14 = 0
+	slot11 = getProxy(MilitaryExerciseProxy):getRivalById(slot0.rivalId)
+	slot13 = pg.battle_cost_template[SYSTEM_DUEL].oil_cost > 0
+	slot14 = {}
 	slot15 = 0
 	slot16 = 0
 	slot17 = 0
+	slot18 = 0
 
-	for slot23, slot24 in ipairs(slot6:getSortShipsByFleet(slot7:getFleetById(slot2))) do
-		slot13[#slot13 + 1] = slot24.id
+	for slot24, slot25 in ipairs(slot6:getSortShipsByFleet(slot7:getFleetById(slot2))) do
+		slot14[#slot14 + 1] = slot25.id
 	end
 
-	slot20 = slot5:getData()
+	slot21 = slot5:getData()
 
-	if slot12 and slot20.oil < slot17 then
+	if slot13 and slot21.oil < slot18 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
 	end
 
-	slot21 = 0
+	slot22 = 0
 
-	for slot25, slot26 in ipairs(rivalVO.mainShips) do
-		slot21 = slot21 + slot26.level
+	for slot26, slot27 in ipairs(slot11.mainShips) do
+		slot22 = slot22 + slot27.level
 	end
 
-	for slot25, slot26 in ipairs(rivalVO.vanguardShips) do
-		slot21 = slot21 + slot26.level
+	for slot26, slot27 in ipairs(slot11.vanguardShips) do
+		slot22 = slot22 + slot27.level
 	end
 
-	RivalLevelVertiry = slot21
+	RivalLevelVertiry = slot22
 
 	slot1.ShipVertify()
-	BeginStageCommand.SendRequest(SYSTEM_DUEL, slot13, {
+	BeginStageCommand.SendRequest(SYSTEM_DUEL, slot14, {
 		slot8
 	}, function (slot0)
 		if uv0 then

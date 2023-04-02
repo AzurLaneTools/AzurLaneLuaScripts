@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "本日的战斗最终以布吕歇尔未曾料及的方式结束了。",
+			say = "本日的战斗最终以{namecode:450}未曾料及的方式结束了。",
 			bgm = "bsm-7",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "原本以为可以在局部产生巨大优势的战列舰编队，如今也被突然出现的乌尔里希·冯·胡滕所压制。",
+			say = "原本以为可以在局部产生巨大优势的战列舰编队，如今也被突然出现的{namecode:463}所压制。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "现在，战线已经推进到了岌岌可危的地步。在布吕歇尔一方的基地与前线海域之间，仅仅只剩一片海域相隔了。",
+			say = "现在，战线已经推进到了岌岌可危的地步。在{namecode:450}一方的基地与前线海域之间，仅仅只剩一片海域相隔了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "如果再输一场，布伦希尔德就可以乘胜拿下两人的大本营——然后一切就彻底结束了。",
+			say = "如果再输一场，{namecode:462}就可以乘胜拿下两人的大本营——然后一切就彻底结束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "我们明明还是有些机会的……结果不仅对方新船迭出，我们这边的俾斯麦大人又停止了数据更新……",
+			say = "我们明明还是有些机会的……结果不仅对方新船迭出，我们这边的{namecode:435}大人又停止了数据更新……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "咦，是这样的吗？我觉得Z2的棋子交流能力还可以哦？",
+			say = "咦，是这样的吗？我觉得{namecode:401}的棋子交流能力还可以哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Z2！我跟你说，今天的早餐特别好吃！",
+			say = "{namecode:401}！我跟你说，今天的早餐特别好吃！",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "Z2？",
+			actorName = "{namecode:401}？",
 			say = "嗯，我在听，然后呢？",
 			typewriter = {
 				speed = 0.05,
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "Z2？",
+			actorName = "{namecode:401}？",
 			say = "嗯，我在听，然后呢？",
 			typewriter = {
 				speed = 0.05,
@@ -432,7 +432,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "Z2？",
+			actorName = "{namecode:401}？",
 			say = "嗯，我在听，然后呢？",
 			typewriter = {
 				speed = 0.05,
@@ -459,7 +459,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 403020,
-			say = "…………Z16，你是笨蛋么？！",
+			say = "…………{namecode:442}，你是笨蛋么？！",
 			effects = {
 				{
 					active = false,
@@ -493,7 +493,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 5,
-			say = "哈啊？！我才不想被布吕歇尔你这么说啊！",
+			say = "哈啊？！我才不想被{namecode:450}你这么说啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "……好冷的笑话哦，Z16。",
+			say = "……好冷的笑话哦，{namecode:442}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

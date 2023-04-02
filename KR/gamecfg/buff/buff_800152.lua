@@ -23,7 +23,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onStartGame"
+				"onAttach"
 			},
 			arg_list = {
 				minWeaponNumber = 1,

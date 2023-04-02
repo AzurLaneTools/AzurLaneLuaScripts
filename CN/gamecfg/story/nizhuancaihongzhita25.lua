@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "乌尔里希阁下，外侧的史特拉塞询问我们约定的时间快到了，是否投入执行方案C的特殊舰队。",
+			say = "{namecode:464}阁下，外侧的{namecode:472}询问我们约定的时间快到了，是否投入执行方案C的特殊舰队。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "告诉我，格奈森瑙，你想要回去确认的真正理由是什么？",
+			say = "告诉我，{namecode:434}，你想要回去确认的真正理由是什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "…………我有些，在意那个沙恩霍斯特的情况。",
+			say = "…………我有些，在意那个{namecode:433}的情况。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "这是格奈森瑙加入舰队之后的第一个请求，同伴的请求怎么能无视呢！",
+			say = "这是{namecode:434}加入舰队之后的第一个请求，同伴的请求怎么能无视呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，其实我也有些在意那位沙恩霍斯特的情况。从刚才的相处来看，她不像是会突然不辞而别的人。",
+			say = "嗯，其实我也有些在意那位{namecode:433}的情况。从刚才的相处来看，她不像是会突然不辞而别的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "U-1206，派艘量产型回去通知一下史特拉塞阁下，三个半小时后正式执行方案C，届时无需等待联络，直接投入特殊舰队即可。",
+			say = "{namecode:476}，派艘量产型回去通知一下{namecode:472}阁下，三个半小时后正式执行方案C，届时无需等待联络，直接投入特殊舰队即可。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

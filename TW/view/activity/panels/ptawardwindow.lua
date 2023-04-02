@@ -55,7 +55,7 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4)
 				setActive(slot2:Find("target/mark"), uv2.resIcon)
 			end
 
-			setText(slot2:Find("target/title"), HXSet.hxLan(uv2.resTitle))
+			setText(slot2:Find("target/title"), uv2.resTitle)
 			updateDrop(slot2:Find("award"), {
 				type = slot3[1],
 				id = slot3[2],
@@ -116,7 +116,7 @@ function slot0.Show(slot0, slot1)
 	slot0:UpdateList(slot2, slot3, slot4, slot8)
 
 	slot0.totalTxt.text = slot5
-	slot0.totalTitleTxt.text = HXSet.hxLan(slot0.cntTitle)
+	slot0.totalTitleTxt.text = slot0.cntTitle
 
 	Canvas.ForceUpdateCanvases()
 	setActive(slot0._tf, true)

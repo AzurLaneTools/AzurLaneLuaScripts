@@ -92,7 +92,7 @@ function slot0.TryShowMonthCardTipPanel(slot0)
 			hideNo = true,
 			type = MSGBOX_TYPE_MONTH_CARD_TIP,
 			title = pg.MsgboxMgr.TITLE_INFORMATION,
-			content = HXSet.hxLan(i18n(slot2 <= slot3 and "trade_card_tips2" or "trade_card_tips3", i18n("trade_card_tips4", slot7.year, slot7.month, slot7.day))),
+			content = i18n(slot2 <= slot3 and "trade_card_tips2" or "trade_card_tips3", i18n("trade_card_tips4", slot7.year, slot7.month, slot7.day)),
 			dateText = i18n("trade_card_tips4", slot5.year, slot5.month, slot5.day),
 			yesText = i18n("trade_card_tips1"),
 			weight = LayerWeightConst.TOP_LAYER,

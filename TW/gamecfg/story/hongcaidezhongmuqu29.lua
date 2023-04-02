@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "这么下去永无止境，腓特烈大帝，你发起了这场作战，接下来肯定有对策吧。",
+			say = "这么下去永无止境，{namecode:440}，你发起了这场作战，接下来肯定有对策吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "你们就是……埃吉尔与奥古斯特？",
+			say = "你们就是……{namecode:480}与{namecode:482}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "埃吉尔开火了。其炮口的爆风振聋发聩，即便有着电场的保护，指挥舰也在气浪中产生了剧烈的摇晃。",
+			say = "{namecode:480}开火了。其炮口的爆风振聋发聩，即便有着电场的保护，指挥舰也在气浪中产生了剧烈的摇晃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

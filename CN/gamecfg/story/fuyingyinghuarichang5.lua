@@ -241,7 +241,7 @@ return {
 			actor = 305052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯哼，新年快乐。真是奇妙的组合啊…嗯？克利夫兰和Z35…你们脸上怎么红红的…？",
+			say = "嗯哼，新年快乐。真是奇妙的组合啊…嗯？克利夫兰和{namecode:410}…你们脸上怎么红红的…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

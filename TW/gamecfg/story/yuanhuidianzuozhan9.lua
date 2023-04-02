@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "晚饭后，就在Z16和布吕歇尔在休息区悠闲地打发时间的时候，通讯器突然响了起来。",
+			say = "晚饭后，就在{namecode:442}和{namecode:450}在休息区悠闲地打发时间的时候，通讯器突然响了起来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "啊！你是白天对面蓝方的指挥官，布伦希尔德？！",
+			say = "啊！你是白天对面蓝方的指挥官，{namecode:462}？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			paintingNoise = true,
-			say = "没错，我是铁血的战士，战列巡洋舰布伦希尔德。",
+			say = "没错，我是铁血的战士，战列巡洋舰{namecode:462}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 404050,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "布吕歇尔、Z16，作为同样肩负责任之人，就让我们在接下来的日子里共勉前进吧。",
+			say = "{namecode:450}、{namecode:442}，作为同样肩负责任之人，就让我们在接下来的日子里共勉前进吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 404050,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "不过我的舰装确实是某个特别计划的产物，还有今天你们见到的齐柏林也是一样的。",
+			say = "不过我的舰装确实是某个特别计划的产物，还有今天你们见到的{namecode:438}也是一样的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 404050,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "实际上也很强哦。我的舰装，还有齐柏林的舰装，都是正在实验中的新一代铁血舰装。",
+			say = "实际上也很强哦。我的舰装，还有{namecode:438}的舰装，都是正在实验中的新一代铁血舰装。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "布伦希尔德也是和我们一样，被俾斯麦大人选来参加这项实验测试的么？",
+			say = "{namecode:462}也是和我们一样，被{namecode:435}大人选来参加这项实验测试的么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 404050,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "俾斯麦阁下……？不，我是被一个暂时还不能向你们透露姓名的阁下要求前来参加此次测试的。",
+			say = "{namecode:435}阁下……？不，我是被一个暂时还不能向你们透露姓名的阁下要求前来参加此次测试的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			paintingNoise = true,
-			say = "不过你们放心，俾斯麦阁下肯定是知情的。在之前的基地里训练的时候，我与她有过一面之缘。",
+			say = "不过你们放心，{namecode:435}阁下肯定是知情的。在之前的基地里训练的时候，我与她有过一面之缘。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			actor = 404050,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "而且那个地方……也算跟俾斯麦阁下有些渊源呢。",
+			say = "而且那个地方……也算跟{namecode:435}阁下有些渊源呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "除了俾斯麦大人之外另外的大人物！听起来好令人在意！",
+			say = "除了{namecode:435}大人之外另外的大人物！听起来好令人在意！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "非常感谢，布伦希尔德，你也好好休息哦！",
+			say = "非常感谢，{namecode:462}，你也好好休息哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

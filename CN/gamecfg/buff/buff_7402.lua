@@ -1,4 +1,34 @@
 return {
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "accuracyRateExtra",
+					number = -0.5
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					attr = "accuracyRateExtra",
+					number = -0.25
+				}
+			}
+		}
+	},
 	init_effect = "",
 	name = "命中下降",
 	time = 0,

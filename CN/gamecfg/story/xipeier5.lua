@@ -61,7 +61,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "就是这么回事，你们怎么想？",
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "……姐姐，你该不会是认真的吧？",
 			typewriter = {
 				speed = 0.05,
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "…静静听着就行了",
 			typewriter = {
 				speed = 0.05,
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "言归正传。…呃，反正就是最近只要和那家伙在一起，我就觉得做什么都状态不对，之前从没遇到过这种事情…",
 			typewriter = {
 				speed = 0.05,
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "在一起就静不下心来，要么就是想不出说什么好，真是的，搞不明白！为什么会被那家伙整得团团转的啊！",
 			typewriter = {
 				speed = 0.05,
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "确实如此呢…不过该怎么办，姐姐你应该已经很清楚了吧？",
 			typewriter = {
 				speed = 0.05,
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "我要是清楚就不会找你们问了！",
 			typewriter = {
 				speed = 0.05,
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "呵呵~不过嘛，我也不是不能理解你的心情。毕竟姐姐是傲娇到骨髓里的搓衣板嘛。",
 			typewriter = {
 				speed = 0.05,
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "关搓衣板什么事啊！",
 			typewriter = {
 				speed = 0.05,
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "哈啊…要是我也像你一样足智多谋就好了，就算面对这种局面也能想出点对策什么的吧。",
 			typewriter = {
 				speed = 0.05,
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "好了，军师大人，你就没什么好主意吗？",
 			typewriter = {
 				speed = 0.05,
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "我想想。对了，这种时候的话，不如反过来，由姐姐主动出击，去诱惑一下指挥官如何？",
 			typewriter = {
 				speed = 0.05,
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "……啊，这方法对姐姐来说还是太勉强了吧~",
 			typewriter = {
 				speed = 0.05,
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "哈啊…真不该问你的…真是没办法！萤火虫！你觉得呢？",
 			typewriter = {
 				speed = 0.05,
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "唔…恋爱中的进退抉择，恐怕没有这么简单呢……",
 			typewriter = {
 				speed = 0.05,
@@ -433,7 +433,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "才，才不是恋爱什么的啊！不过，萤火虫的思路倒是挺不错的，“鼓起勇气冲上去！”挺有萤火虫的风格的…",
 			typewriter = {
 				speed = 0.05,
@@ -460,7 +460,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "倒也不是不行？姐姐就是因为对方的主动这样才陷入如今的烦恼中的吧，呵呵~",
 			typewriter = {
 				speed = 0.05,
@@ -477,7 +477,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "希佩尔海军上将",
+			actorName = "{namecode:425}",
 			say = "好…好！既然这么定了，那我就上了哦！",
 			typewriter = {
 				speed = 0.05,
@@ -520,7 +520,7 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "呵呵…不用担心。结果早就已经揭晓了不是吗？",
 			typewriter = {
 				speed = 0.05,

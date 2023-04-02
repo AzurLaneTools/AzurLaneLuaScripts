@@ -139,7 +139,7 @@ return {
 				},
 				arg_list = {
 					attr = "dodgeRate",
-					number = 0.288
+					number = 2880
 				}
 			},
 			{

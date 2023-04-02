@@ -20,5 +20,12 @@ function slot2.DoDataEffect(slot0, slot1, slot2, slot3)
 end
 
 function slot2.DoSummon(slot0, slot1, slot2)
-	uv0.Battle.BattleDataProxy.GetInstance():SpawnMonster(slot0._spawnData, slot1:GetWaveIndex(), uv1.UnitType.ENEMY_UNIT, slot1:GetIFF())
+	slot3 = uv0.Battle.BattleDataProxy.GetInstance()
+	slot4 = slot1:GetIFF()
+
+	if slot1:GetUnitType() ~= uv1.UnitType.PLAYER_UNIT then
+		slot3:SpawnMonster(slot0._spawnData, slot1:GetWaveIndex(), uv1.UnitType.ENEMY_UNIT, slot4)
+	else
+		slot5 = slot3:SpawnNPC(slot0._spawnData, slot1)
+	end
 end

@@ -45,7 +45,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "Z23",
+			actorName = "{namecode:408}",
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "하지만 이 던전은 매우 복잡해…… 조금씩 길을 찾다보면 얼마나 돌아야 할지 모르겠어.",
@@ -75,7 +75,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "Z23",
+			actorName = "{namecode:408}",
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "아직 전투는 시작도 안 했는데, 벌써 지치면 안 돼, 라피!",

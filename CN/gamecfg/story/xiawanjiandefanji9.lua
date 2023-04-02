@@ -9,7 +9,7 @@ return {
 			actor = 205020,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Z9、Z11…铁血的驱逐舰还剩下6艘么。",
+			say = "{namecode:495}、{namecode:496}…铁血的驱逐舰还剩下6艘么。",
 			dir = 1,
 			bgm = "level02",
 			flashin = {
@@ -65,7 +65,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊卡洛斯发来消息，在舰载机的辅助下，我方战胜了敌方驱逐舰Z13！",
+			say = "伊卡洛斯发来消息，在舰载机的辅助下，我方战胜了敌方驱逐舰{namecode:498}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z13么…铁血驱逐舰还剩下5艘。",
+			say = "{namecode:498}么…铁血驱逐舰还剩下5艘。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，在发来正在和伊卡洛斯共同追击Z19的消息之后就没有再联络了。",
+			say = "嗯，在发来正在和伊卡洛斯共同追击{namecode:405}的消息之后就没有再联络了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊卡洛斯不是在刚对付Z13吗？我总有种不好的预感…",
+			say = "伊卡洛斯不是在刚对付{namecode:498}吗？我总有种不好的预感…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

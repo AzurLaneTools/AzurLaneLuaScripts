@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "沙恩霍斯特的加入彻底扭转了局势。",
+			say = "{namecode:433}的加入彻底扭转了局势。",
 			side = 2,
 			bgName = "bg_midgard_3",
 			dir = 1,
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "好强，比格奈森瑙·META还要强……这就是余烬舰队的威力。",
+			say = "好强，比{namecode:434}·META还要强……这就是余烬舰队的威力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "各舰都有些小擦伤，弹药消耗过半，格奈森瑙的损伤也更加严重了……",
+			say = "各舰都有些小擦伤，弹药消耗过半，{namecode:434}的损伤也更加严重了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "接下来还有一位要感谢的人呢，沙恩霍斯特，多谢出手相助。",
+			say = "接下来还有一位要感谢的人呢，{namecode:433}，多谢出手相助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "格奈森瑙，来加入余烬吧。我们会告诉你力量的奥秘，我们会帮助你完成心中的复仇。",
+			say = "{namecode:434}，来加入余烬吧。我们会告诉你力量的奥秘，我们会帮助你完成心中的复仇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们铁血正按照自己的计划前进，在这个计划中，格奈森瑙·META的存在是不可或缺的。",
+			say = "我们铁血正按照自己的计划前进，在这个计划中，{namecode:434}·META的存在是不可或缺的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "在你们的计划中，格奈森瑙·META又是什么呢？",
+			say = "在你们的计划中，{namecode:434}·META又是什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "或许是被乌尔里希发言中过于荒谬的部分所震撼，沙恩霍斯特竟一时间陷入了沉默。",
+			say = "或许是被{namecode:464}发言中过于荒谬的部分所震撼，{namecode:433}竟一时间陷入了沉默。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……呵，我想起来了，乌尔里希.冯.胡縢从以前开始就是一个这么自大的人。",
+			say = "……呵，我想起来了，{namecode:463}从以前开始就是一个这么自大的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我的遭遇，格奈森瑙的遭遇，你们的遭遇，还有无数我们知晓或不知晓的遭遇，都是织梦者控制下的塞壬在实验中制造的！",
+			say = "我的遭遇，{namecode:434}的遭遇，你们的遭遇，还有无数我们知晓或不知晓的遭遇，都是织梦者控制下的塞壬在实验中制造的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1110,7 +1110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………你在用激将法套我的话？！乌尔里希.冯.胡縢！你还是这么狡猾！！！",
+			say = "…………你在用激将法套我的话？！{namecode:463}！你还是这么狡猾！！！",
 			effects = {
 				{
 					active = true,

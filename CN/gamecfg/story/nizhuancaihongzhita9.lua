@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "只靠量产型机群恐怕控制不住制空权了……乌尔里希阁下，我出击了！",
+			say = "只靠量产型机群恐怕控制不住制空权了……{namecode:464}阁下，我出击了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "我们也该出击了。走吧，马格德堡！",
+			say = "我们也该出击了。走吧，{namecode:447}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "乌尔里希阁下，塞壬潜艇正在从水下包围过来，其中还混有新型潜伏者。",
+			say = "{namecode:464}阁下，塞壬潜艇正在从水下包围过来，其中还混有新型潜伏者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			bgName = "bg_midgard_3",
-			say = "就在乌尔里希暂时陷入沉思之际，塞壬包围网中突然发生了剧烈爆炸。",
+			say = "就在{namecode:464}暂时陷入沉思之际，塞壬包围网中突然发生了剧烈爆炸。",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -340,7 +340,7 @@ return {
 			actor = 403100,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "乌尔里希……刚刚发生的事，你看到了么……？",
+			say = "{namecode:464}……刚刚发生的事，你看到了么……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

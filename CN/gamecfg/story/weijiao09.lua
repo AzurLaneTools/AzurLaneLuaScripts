@@ -45,7 +45,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通知坎伯兰不用过来了，以及通告全军，斯佩伯爵已经沉没了……吧。",
+			say = "通知坎伯兰不用过来了，以及通告全军，{namecode:431}已经沉没了……吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你，斯佩伯爵，我玩的很开心哦，呵呵呵……",
+			say = "谢谢你，{namecode:431}，我玩的很开心哦，呵呵呵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

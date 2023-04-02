@@ -25279,6 +25279,238 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[2033] = {
+		hit_sfx = "",
+		bullet_name = "feiji_leiyun1",
+		orbit_ui_bound = "",
+		type = 1,
+		name = "뇌신의 분노(뇌격)",
+		orbit_combat = "",
+		themeid = 103,
+		desc = "경고: 번개 폭풍 접근 중.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		id = 2033,
+		icon = "96531",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_longjuanfeng",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[2034] = {
+		hit_sfx = "",
+		bullet_name = "feiji_leiyun2",
+		orbit_ui_bound = "",
+		type = 1,
+		name = "뇌신의 분노(전투)",
+		orbit_combat = "",
+		themeid = 103,
+		desc = "경고: 번개 폭풍 접근 중.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_bingqiu",
+		orbit_ui = "",
+		mirror = 0,
+		id = 2034,
+		icon = "96531",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[2035] = {
+		hit_sfx = "",
+		bullet_name = "feiji_leiyun3",
+		orbit_ui_bound = "",
+		type = 1,
+		name = "뇌신의 분노(폭격)",
+		orbit_combat = "",
+		themeid = 103,
+		desc = "경고: 번개 폭풍 접근 중.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_bingqiu",
+		orbit_ui = "",
+		mirror = 0,
+		id = 2035,
+		icon = "96531",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[2036] = {
+		hit_sfx = "",
+		bullet_name = "paodan_bingqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		name = "아이스 캐논볼",
+		orbit_combat = "",
+		themeid = 103,
+		desc = "얼음으로…… 만들어진 포탄이라고!?",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		id = 2036,
+		icon = "96511",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "paodan_bingqiu_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2037] = {
+		hit_sfx = "",
+		bullet_name = "",
+		name = "오로라 날개",
+		type = 1,
+		orbit_combat = "shebei_jiguangzhiyi",
+		themeid = 103,
+		mirror = 0,
+		desc = "오로라가 수놓은 날개. 빛나는 별하늘을 자유롭게 날아봐요.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_jiguangzhiyiui",
+		id = 2037,
+		icon = "96541",
+		miss_sfx = "",
+		rarity = 4,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.23,
+				-1.5,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-26,
+				40
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[2038] = {
+		hit_sfx = "",
+		bullet_name = "",
+		name = "폭풍의 눈",
+		type = 1,
+		orbit_combat = "shebei_fengbaozhiyan",
+		themeid = 103,
+		mirror = 0,
+		desc = "오늘의 일기 예보는——초강력 태풍!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_fengbaozhiyanui",
+		id = 2038,
+		icon = "96542",
+		miss_sfx = "",
+		rarity = 4,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0,
+				4.56,
+				-12.2
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-3,
+				205
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -26022,6 +26254,12 @@ pg.equip_skin_template = {
 		2029,
 		2030,
 		2031,
-		2032
+		2032,
+		2033,
+		2034,
+		2035,
+		2036,
+		2037,
+		2038
 	}
 }

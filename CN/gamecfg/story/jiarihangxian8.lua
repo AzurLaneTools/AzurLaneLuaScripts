@@ -36,7 +36,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次的主题是“姐妹VS姐妹”喵！双方选手分别是女神姐妹花·海咲&凪咲，以及铁血姐妹花·希佩尔&欧根喵！",
+			say = "这次的主题是“姐妹VS姐妹”喵！双方选手分别是女神姐妹花·海咲&凪咲，以及铁血姐妹花·{namecode:426}&{namecode:428}喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "玩笑话就适可而止吧，欧根。做好准备上了！可不要丢了派我们上场的指挥官的脸！",
+			say = "玩笑话就适可而止吧，{namecode:428}。做好准备上了！可不要丢了派我们上场的指挥官的脸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

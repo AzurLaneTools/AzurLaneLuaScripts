@@ -24670,6 +24670,238 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[2033] = {
+		hit_sfx = "",
+		bullet_name = "feiji_leiyun1",
+		orbit_ui_bound = "",
+		type = 1,
+		name = "Thunder's Fury (Torpedo)",
+		orbit_combat = "",
+		themeid = 103,
+		desc = "I am the storm that is approaching.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		id = 2033,
+		icon = "96531",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_longjuanfeng",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[2034] = {
+		hit_sfx = "",
+		bullet_name = "feiji_leiyun2",
+		orbit_ui_bound = "",
+		type = 1,
+		name = "Thunder's Fury (Fighter)",
+		orbit_combat = "",
+		themeid = 103,
+		desc = "I am the storm that is approaching.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_bingqiu",
+		orbit_ui = "",
+		mirror = 0,
+		id = 2034,
+		icon = "96531",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[2035] = {
+		hit_sfx = "",
+		bullet_name = "feiji_leiyun3",
+		orbit_ui_bound = "",
+		type = 1,
+		name = "Thunder's Fury (Bomber)",
+		orbit_combat = "",
+		themeid = 103,
+		desc = "I am the storm that is approaching.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_bingqiu",
+		orbit_ui = "",
+		mirror = 0,
+		id = 2035,
+		icon = "96531",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[2036] = {
+		hit_sfx = "",
+		bullet_name = "paodan_bingqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		name = "Ice Cannonball",
+		orbit_combat = "",
+		themeid = 103,
+		desc = "Not your ordinary snowball fight.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		id = 2036,
+		icon = "96511",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "paodan_bingqiu_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2037] = {
+		hit_sfx = "",
+		bullet_name = "",
+		name = "Aurora Wings",
+		type = 1,
+		orbit_combat = "shebei_jiguangzhiyi",
+		themeid = 103,
+		mirror = 0,
+		desc = "Fly over the bright, starry skies with wings woven from auroras.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_jiguangzhiyiui",
+		id = 2037,
+		icon = "96541",
+		miss_sfx = "",
+		rarity = 4,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.23,
+				-1.5,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-26,
+				40
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[2038] = {
+		hit_sfx = "",
+		bullet_name = "",
+		name = "Eye of the Storm",
+		type = 1,
+		orbit_combat = "shebei_fengbaozhiyan",
+		themeid = 103,
+		mirror = 0,
+		desc = "Strike with all the might of a raging typhoon!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_fengbaozhiyanui",
+		id = 2038,
+		icon = "96542",
+		miss_sfx = "",
+		rarity = 4,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0,
+				4.56,
+				-12.2
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-3,
+				205
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -25395,6 +25627,12 @@ pg.equip_skin_template = {
 		2029,
 		2030,
 		2031,
-		2032
+		2032,
+		2033,
+		2034,
+		2035,
+		2036,
+		2037,
+		2038
 	}
 }

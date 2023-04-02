@@ -74,7 +74,7 @@ return {
 			side = 2,
 			actor = 201320,
 			dir = 1,
-			say = "这样啊…Z2和Z18她们…",
+			say = "这样啊…{namecode:401}和{namecode:404}她们…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "厌战，Z17向你的方向高速冲过去了！",
+			say = "厌战，{namecode:403}向你的方向高速冲过去了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

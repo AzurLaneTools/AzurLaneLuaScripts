@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "罗恩~~~！",
+			say = "{namecode:439}~~~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么啦罗恩，你也忘了什么事么？",
+			say = "怎么啦{namecode:439}，你也忘了什么事么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，突然跑出去了……罗恩她没问题吧……？",
+			say = "啊，突然跑出去了……{namecode:439}她没问题吧……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

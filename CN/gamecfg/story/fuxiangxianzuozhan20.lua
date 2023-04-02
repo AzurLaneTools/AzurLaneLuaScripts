@@ -140,7 +140,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………咦？欧根？！你怎么会在这里？！",
+			say = "………咦？{namecode:428}？！你怎么会在这里？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 402050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欧根，我们按照要求把它拖过来了，现在可以说明究竟发生什么事了吧？",
+			say = "{namecode:428}，我们按照要求把它拖过来了，现在可以说明究竟发生什么事了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "简而言之，我们不是棋子，海因里希也不是棋子，所有人都被耍了。",
+			say = "简而言之，我们不是棋子，{namecode:454}也不是棋子，所有人都被耍了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎、怎么会这样……非常抱歉！我这就跟彼得联系，让她停止接下来的攻击行动！",
+			say = "怎、怎么会这样……非常抱歉！我这就跟{namecode:471}联系，让她停止接下来的攻击行动！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来的攻击行动……？等一下，海因里希，彼得给你的作战命令是什么？",
+			say = "接下来的攻击行动……？等一下，{namecode:454}，{namecode:471}给你的作战命令是什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？原来如此…不过这样的话……海因里希！先不要跟彼得进行联络。",
+			say = "哦？原来如此…不过这样的话……{namecode:454}！先不要跟{namecode:471}进行联络。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家继续动起来~纽伦堡带领舰队在前，海因里希带领舰队在后，营造出继续被追逐假象的继续向重樱舰队方向移动！",
+			say = "大家继续动起来~{namecode:446}带领舰队在前，{namecode:454}带领舰队在后，营造出继续被追逐假象的继续向重樱舰队方向移动！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

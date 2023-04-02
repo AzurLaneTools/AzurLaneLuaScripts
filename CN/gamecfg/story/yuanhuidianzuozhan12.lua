@@ -15,7 +15,7 @@ return {
 			bgm = "story-6",
 			actor = 401160,
 			stopbgm = true,
-			say = "布吕歇尔，能听到么？",
+			say = "{namecode:450}，能听到么？",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			actor = 401160,
 			paintingNoise = true,
-			say = "怎么了，布吕歇尔，还没解决掉对面么？我这边拖延快要到极限了！",
+			say = "怎么了，{namecode:450}，还没解决掉对面么？我这边拖延快要到极限了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			nameColor = "#ff5c5c",
 			bgName = "bg_yuanhuidian",
 			side = 2,
-			actorName = "乌尔里希·冯·胡滕？",
+			actorName = "{namecode:463}？",
 			say = "…………………………",
 			typewriter = {
 				speed = 0.05,
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			actor = 401160,
 			paintingNoise = true,
-			say = "已经没有犹豫的时间了！虽然俾斯麦大人的棋子有些问题，但是数量上还是我们有优势的！",
+			say = "已经没有犹豫的时间了！虽然{namecode:435}大人的棋子有些问题，但是数量上还是我们有优势的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			actor = 401160,
 			paintingNoise = true,
-			say = "上吧，布吕歇尔！",
+			say = "上吧，{namecode:450}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

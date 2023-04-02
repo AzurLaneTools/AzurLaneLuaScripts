@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "…没什么…来吧，突击者、Z19。让你们见识一下电子小说的魅力……",
+			say = "…没什么…来吧，突击者、{namecode:405}。让你们见识一下电子小说的魅力……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

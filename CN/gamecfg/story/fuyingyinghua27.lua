@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，都怪欧根你在宴会阶段就醉倒了，仪式厅里发生了什么我们都没看到",
+			say = "真是的，都怪{namecode:428}你在宴会阶段就醉倒了，仪式厅里发生了什么我们都没看到",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样情报不足的情况空手而归，肯定要被腓特烈给责备的",
+			say = "这样情报不足的情况空手而归，肯定要被{namecode:441}给责备的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是是，欧根亲王大人——",
+			say = "是是是，{namecode:427}大人——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Z2瞄了一眼旁边这艘拖着一船重樱酒的铁血新锐重巡洋舰，发出了一声叹息",
+			say = "{namecode:401}瞄了一眼旁边这艘拖着一船重樱酒的铁血新锐重巡洋舰，发出了一声叹息",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根亲王，请留步",
+			say = "{namecode:427}，请留步",
 			bgm = "xinnong-3",
 			flashout = {
 				black = true,
@@ -403,7 +403,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，{namecode:91}大人这是开口吞象呀，就算我们是盟友关系，之前关于海军的合作也就只有齐柏林伯爵的舰装设计吧？",
+			say = "哎呀，{namecode:91}大人这是开口吞象呀，就算我们是盟友关系，之前关于海军的合作也就只有{namecode:437}的舰装设计吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

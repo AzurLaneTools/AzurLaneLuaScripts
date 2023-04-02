@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "就如腓特烈大帝所说，公海舰队的适应并没有花费太长时间。",
+			say = "就如{namecode:440}所说，公海舰队的适应并没有花费太长时间。",
 			side = 2,
 			bgName = "bg_endingsong_5",
 			dir = 1,
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "腓特烈，我们结束了哦~",
+			say = "{namecode:441}，我们结束了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "不，铁血从未忘记过你们的存在，你们也从未真正离开我们。",
 			typewriter = {
 				speed = 0.05,
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "既然从未离开，又何谈再次加入呢。",
 			typewriter = {
 				speed = 0.05,
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃姆登",
+			actorName = "{namecode:448}",
 			say = "呵呵……真没想到，临终之时无法返回的故土，如今却以这种形式自己找上门来了。",
 			typewriter = {
 				speed = 0.05,
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃姆登",
+			actorName = "{namecode:448}",
 			say = "那就下达命令吧，接下来要让我们做什么？",
 			typewriter = {
 				speed = 0.05,
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "很简单，再次与我踏入战场。战斗，然后取得胜利。",
 			typewriter = {
 				speed = 0.05,
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "腓特烈大帝，这才是你真正的计划么！从这里创造新的舰队，然后带着她们出去以奇制胜？！",
+			say = "{namecode:440}，这才是你真正的计划么！从这里创造新的舰队，然后带着她们出去以奇制胜？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "不然呢，你以为我是一个人来死地坐以待毙的么？",
 			typewriter = {
 				speed = 0.05,
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "公海舰队将会再次驰骋在大洋之上。",
 			typewriter = {
 				speed = 0.05,
@@ -411,7 +411,7 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "不论现在过去还是未来，铁血的同伴之间永远都被共同的命运所绑定。",
 			typewriter = {
 				speed = 0.05,
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "铁血前进的步伐不会被任何人阻挡，任何挡在铁血前方的存在也都将被粉碎。",
 			typewriter = {
 				speed = 0.05,
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "战友们，让我们一同向着未来进发吧",
 			typewriter = {
 				speed = 0.05,
@@ -458,7 +458,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,

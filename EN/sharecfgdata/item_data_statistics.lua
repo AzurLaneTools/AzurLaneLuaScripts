@@ -2245,6 +2245,27 @@ _G.pg.base.item_data_statistics[10011] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[10012] = {
+	display = "T1 Type 93 Pure Oxygen Torpedo Design",
+	name = "T1 Type 93 Pure Oxygen Torpedo Design",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 10012,
+	is_world = 0,
+	icon = "Equips/2600",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[10013] = {
 	display = "T2 533mm Magnetic Torpedo Design",
 	name = "T2 533mm Magnetic Torpedo Design",
@@ -4555,6 +4576,27 @@ _G.pg.base.item_data_statistics[11002] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[11003] = {
+	display = "T2 Type 93 Pure Oxygen Torpedo Design",
+	name = "T2 Type 93 Pure Oxygen Torpedo Design",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11003,
+	is_world = 0,
+	icon = "Equips/2600",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[11004] = {
 	display = "T3 533mm Magnetic Torpedo Design",
 	name = "T3 533mm Magnetic Torpedo Design",
@@ -5263,6 +5305,27 @@ _G.pg.base.item_data_statistics[11041] = {
 	id = 11041,
 	is_world = 0,
 	icon = "Equips/55200",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[11042] = {
+	display = "B-13 Twin 130mm B-2LM Main Gun T3 Design",
+	name = "B-13 Twin 130mm B-2LM Main Gun T3 Design",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11042,
+	is_world = 0,
+	icon = "Equips/85000",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9107,6 +9170,27 @@ _G.pg.base.item_data_statistics[21019] = {
 	id = 21019,
 	is_world = 0,
 	icon = "Props/21019",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21020] = {
+	display = "An item that increases the potential of La Galissonnière META. Used in the META Lab during Somatic Activation.",
+	name = "META Crystal – La Galissonnière",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21020,
+	is_world = 0,
+	icon = "Props/21020",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -15799,6 +15883,95 @@ _G.pg.base.item_data_statistics[30410] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30411] = {
+	display = "Contains 1 random Cruise Mission gear skin.",
+	name = "Random Gear Skin Box",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30411,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	display_icon = {
+		{
+			9,
+			2033,
+			1
+		},
+		{
+			9,
+			2034,
+			1
+		},
+		{
+			9,
+			2035,
+			1
+		},
+		{
+			9,
+			2036,
+			1
+		},
+		{
+			9,
+			2037,
+			1
+		},
+		{
+			9,
+			2038,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30412] = {
+	display = "Use to receive 1 Thunder's Fury (Torpedo), 1 Thunder's Fury (Fighter), and 1 Thunder's Fury (Bomber).",
+	name = "Thunder's Fury",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30412,
+	is_world = 0,
+	icon = "Equips/96531",
+	display_icon = {
+		{
+			9,
+			2033,
+			1
+		},
+		{
+			9,
+			2034,
+			1
+		},
+		{
+			9,
+			2035,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "Contains a random gear skin. ",
 	name = "Gear Skin Development Pack (Late Summer)",
@@ -17879,6 +18052,118 @@ _G.pg.base.item_data_statistics[30519] = {
 		{
 			9,
 			747,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30520] = {
+	display = "Can be opened to receive 1 Medical Supplies gear skin of your choosing.",
+	name = "Selection Gear Skin Box (Medical Supplies)",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30520,
+	is_world = 0,
+	icon = "Props/appearanceboxyiyuanzixuan",
+	display_icon = {
+		{
+			9,
+			280,
+			1
+		},
+		{
+			9,
+			281,
+			1
+		},
+		{
+			9,
+			282,
+			1
+		},
+		{
+			9,
+			283,
+			1
+		},
+		{
+			9,
+			284,
+			1
+		},
+		{
+			9,
+			285,
+			1
+		},
+		{
+			9,
+			286,
+			1
+		},
+		{
+			9,
+			287,
+			1
+		},
+		{
+			9,
+			288,
+			1
+		},
+		{
+			9,
+			289,
+			1
+		},
+		{
+			9,
+			290,
+			1
+		},
+		{
+			9,
+			291,
+			1
+		},
+		{
+			9,
+			292,
+			1
+		},
+		{
+			9,
+			293,
+			1
+		},
+		{
+			9,
+			294,
+			1
+		},
+		{
+			9,
+			295,
+			1
+		},
+		{
+			9,
+			296,
+			1
+		},
+		{
+			9,
+			297,
 			1
 		}
 	},
@@ -23686,6 +23971,63 @@ _G.pg.base.item_data_statistics[40983] = {
 		{
 			2,
 			69978,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40984] = {
+	display = "Contains 1 Random Outfit, 2023 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 2 Special General Blueprints - Series 5, 10 Quick Finishers, and 100 Decor Tokens ",
+	name = "Onsen Souvenir Lucky Bag",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40984,
+	is_world = 0,
+	icon = "Props/fudai79",
+	display_icon = {
+		{
+			2,
+			69979,
 			1
 		},
 		{
@@ -176771,6 +177113,194 @@ _G.pg.base.item_data_statistics[58835] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[58836] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58836,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			11042,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58837] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58837,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			11042,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58838] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58838,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10122,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58839] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58839,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			76,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "EXP is required to level up",
 	name = "Ship EXP",
@@ -182397,6 +182927,111 @@ _G.pg.base.item_data_statistics[59401] = {
 	id = 59401,
 	is_world = 0,
 	icon = "Props/xiaotiancheng_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59402] = {
+	display = "A currency earned during the \"Commission Exchange Plan II\" event. Removed after the event ends.",
+	name = "Commission Merits",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59402,
+	is_world = 0,
+	icon = "Props/commission_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59403] = {
+	display = "A currency earned from completing Cruise Missions during the seasonal campaign (4/1/2023 – 5/31/2023), used to obtain milestone rewards. Will disappear after the campaign season ends.",
+	name = "Progress Point",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59403,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59404] = {
+	display = "",
+	name = "通行证十期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 21,
+	link_id = 7010,
+	id = 59404,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59405] = {
+	display = "\"Frostfall\" event item. Will be removed when the event ends.",
+	name = "Frostfall Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 300001,
+	id = 59405,
+	is_world = 0,
+	icon = "Props/jidifengbao_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59406] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period ends.",
+	name = "Rental Outfit Voucher",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59406,
+	is_world = 0,
+	icon = "Props/skinTicket",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -192279,6 +192914,216 @@ _G.pg.base.item_data_statistics[60305] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[60306] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: S",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60306,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60307] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: u",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60307,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60308] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: p",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60308,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60309] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: e",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60309,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60310] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: r",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60310,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60311] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: B",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60311,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60312] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: u",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60312,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60313] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: l",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60313,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60314] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: i",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60314,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60315] = {
+	display = "\"One Punch! Bulin!\" event item.",
+	name = "Clue: n",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60315,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[69000] = {
 	display = "Damage Rating from Guild battles and is also counted for Guild boss damage total",
 	name = "Damage Rating ",
@@ -193911,6 +194756,36 @@ The available outfits and their rarities are as follows:
 	virtual_type = 0,
 	link_id = 0,
 	id = 69978,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[69979] = {
+	display = [[
+Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems) 
+The available outfits and their rarities are as follows:
+（<color=#92fc64>13.0%</color>）Kursk - Lone Wolf Amid the Steam<color=#92fc63> Live2D</color>;
+（<color=#92fc66>13.0%</color>）Grozny - Bunny in the Banya<color=#92fc63> Live2D</color>;
+（<color=#92fc63>13.0%</color>）Voroshilov - Devoted as the Warm Snow;
+（<color=#92fc67>13.0%</color>）Trieste - Amore Termico;
+（<color=#92fc68>13.0%</color>）Joffre - Sublime Elysium;
+（<color=#92fc69>17.5%</color>）Mainz - The Silkiest Brew;
+（<color=#92fc65>17.5%</color>）Sevastopol - More than a Little Drunk ]],
+	name = "Random Ship skin",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 69979,
 	is_world = 0,
 	icon = "Props/clothIcon",
 	display_icon = {},

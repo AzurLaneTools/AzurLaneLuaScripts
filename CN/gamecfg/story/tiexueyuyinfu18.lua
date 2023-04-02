@@ -121,7 +121,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小心，俾斯麦正在瞄准舰队中心！！",
+			say = "小心，{namecode:435}正在瞄准舰队中心！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "（在能量聚集到俾斯麦周边之后，一场巨大的爆炸打断了这一切)",
+			say = "（在能量聚集到{namecode:435}周边之后，一场巨大的爆炸打断了这一切)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "同时也摧毁了俾斯麦的大半身舰装",
+			say = "同时也摧毁了{namecode:435}的大半身舰装",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "俾斯麦的最后一门主炮朝着皇家舰队的方向射出了最后一发炮弹",
+			say = "{namecode:435}的最后一门主炮朝着皇家舰队的方向射出了最后一发炮弹",
 			flashN = {
 				color = {
 					1,
@@ -673,7 +673,7 @@ return {
 			side = 2,
 			actor = 205050,
 			dir = -1,
-			say = "目标俾斯麦！！",
+			say = "目标{namecode:435}！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_3",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -754,7 +754,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			side = 2,
 			bgName = "bg_bsm_3",
 			nameColor = "#ffde38",
@@ -808,7 +808,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_3",
 			side = 2,
@@ -824,7 +824,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_3",
 			side = 2,
@@ -840,7 +840,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
@@ -885,7 +885,7 @@ return {
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嗯？还有什么问题么，俾斯麦。",
+			say = "嗯？还有什么问题么，{namecode:435}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -896,7 +896,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
@@ -928,7 +928,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
@@ -1008,7 +1008,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
@@ -1024,7 +1024,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
@@ -1040,7 +1040,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
@@ -1056,7 +1056,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
@@ -1120,7 +1120,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
@@ -1136,7 +1136,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
@@ -1152,7 +1152,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
@@ -1168,7 +1168,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
@@ -1265,7 +1265,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_3",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -1307,7 +1307,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_3",
 			side = 2,
@@ -1375,7 +1375,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_3",
 			side = 2,
@@ -1391,7 +1391,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_3",
 			side = 2,
@@ -1407,7 +1407,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_3",
 			side = 2,
@@ -1423,7 +1423,7 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			side = 2,
 			bgName = "bg_bsm_3",
 			nameColor = "#ffde38",

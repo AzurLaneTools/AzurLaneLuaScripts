@@ -334,10 +334,6 @@ slot0.Status2Stg = setmetatable({}, {
 slot0.Buff2Stg = {}
 
 function slot1(slot0, slot1)
-	if slot0 == "all" then
-		return
-	end
-
 	if slot1.buff_id == 0 then
 		return
 	end
@@ -345,8 +341,8 @@ function slot1(slot0, slot1)
 	uv0.Buff2Stg[slot1.buff_id] = slot0
 end
 
-for slot5, slot6 in pairs(pg.strategy_data_template) do
-	slot1(slot5, slot6)
+for slot5, slot6 in ipairs(pg.strategy_data_template.all) do
+	slot1(slot6, pg.strategy_data_template[slot6])
 end
 
 slot0.HpGreen = 3000

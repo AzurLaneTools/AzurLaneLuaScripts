@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好好，是准备要分给孩子们的吗~我给你装一袋哦~——噗！格、格奈森瑙！？",
+			say = "好好，是准备要分给孩子们的吗~我给你装一袋哦~——噗！奥、{namecode:434}！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

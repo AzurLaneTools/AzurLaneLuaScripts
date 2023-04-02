@@ -151,6 +151,15 @@ pg.settings_other_template = {
 		title = "L2D陀螺仪背景控制",
 		desc = "功能开启后，部分L2D换装背景将支持由陀螺仪控制"
 	},
+	{
+		default = 1,
+		name = "SHIP_NAME_COLOR",
+		type = 0,
+		alignment = 0,
+		id = 16,
+		title = "誓约角色名特殊显示",
+		desc = "功能开启后，在船坞等界面，已誓约的角色名将使用特殊颜色显示"
+	},
 	all = {
 		1,
 		2,
@@ -166,6 +175,7 @@ pg.settings_other_template = {
 		12,
 		13,
 		14,
-		15
+		15,
+		16
 	}
 }

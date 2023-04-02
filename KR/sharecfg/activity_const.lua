@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 171
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 4541
+		act_id = 4727
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 4528
+		act_id = 20993
 	},
 	ACTIVITY_BOSS_PT_ID = {
 		act_id = 4676
@@ -811,7 +811,7 @@ pg.activity_const = {
 		act_id = 20872
 	},
 	RETUREN_AWARD_1 = {
-		act_id = 20990
+		act_id = 20994
 	},
 	CATCH_TREASURE_ID = {
 		act_id = 20849

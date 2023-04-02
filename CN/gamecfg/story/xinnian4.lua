@@ -260,7 +260,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈，刚才Z23的表情，啊哈哈哈哈哈哈",
+			say = "啊哈哈哈，刚才{namecode:408}的表情，啊哈哈哈哈哈哈",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就决定是你了，拉菲！Z23、{namecode:6}，抓住拉菲～",
+			say = "就决定是你了，拉菲！{namecode:408}、{namecode:6}，抓住拉菲～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 		{
 			hideOther = true,
 			actorShadow = true,
-			actorName = "{namecode:6} & Z23",
+			actorName = "{namecode:6} & {namecode:408}",
 			side = 0,
 			dir = 1,
 			actor = 301050,

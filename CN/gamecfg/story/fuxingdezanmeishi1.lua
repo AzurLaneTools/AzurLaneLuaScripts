@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "相比之下，我觉得还是铁血的腓特烈大帝更有气度一些。",
+			say = "相比之下，我觉得还是铁血的{namecode:440}更有气度一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "嗯，腓特烈大帝好像没传说中那么可怕！虽然有着一股上位者的威严，但是一直都在微笑，说话举止也很有修养！",
+			say = "嗯，{namecode:440}好像没传说中那么可怕！虽然有着一股上位者的威严，但是一直都在微笑，说话举止也很有修养！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，她是一位和俾斯麦不相上下的优秀外交官与领导者。",
+			say = "没错，她是一位和{namecode:435}不相上下的优秀外交官与领导者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "腓特烈大帝已经返回铁血了么？",
+			say = "{namecode:440}已经返回铁血了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -64,7 +64,7 @@ function slot1(slot0)
 				setActive(slot2:Find("target/mark"), uv2.resIcon)
 			end
 
-			setText(slot2:Find("target/title"), HXSet.hxLan(uv2.resTitle))
+			setText(slot2:Find("target/title"), uv2.resTitle)
 
 			slot6 = slot4:getConfig("award_display")[1]
 
@@ -96,7 +96,7 @@ function slot0.Show(slot0, slot1)
 	uv0(slot0)
 
 	slot0.totalTxt.text = slot0.totalPt
-	slot0.totalTitleTxt.text = HXSet.hxLan(slot0.cntTitle)
+	slot0.totalTitleTxt.text = slot0.cntTitle
 
 	Canvas.ForceUpdateCanvases()
 	setActive(slot0._tf, true)

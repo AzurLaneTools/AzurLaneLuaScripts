@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z2，快一点，都快到午饭时间了啊。",
+			say = "{namecode:401}，快一点，都快到午饭时间了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z2真是可靠啊~撤退路线呢？",
+			say = "{namecode:401}真是可靠啊~撤退路线呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

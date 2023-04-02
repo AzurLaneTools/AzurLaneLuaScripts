@@ -76,7 +76,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "榜眼——Z46！喏，写在这里",
+			say = "榜眼——{namecode:412}！喏，写在这里",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "第二个探花——欧根！",
+			say = "第二个探花——{namecode:428}！",
 			flashout = {
 				black = true,
 				dur = 0.75,

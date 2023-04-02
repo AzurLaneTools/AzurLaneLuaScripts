@@ -198,7 +198,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是欺负我家斯佩我是不会饶过你们的！",
+			say = "要是欺负我家{namecode:432}我是不会饶过你们的！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -256,7 +256,7 @@ return {
 			actor = 301014,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "德意志的心情我能理解！我也希望我家特型驱逐舰能在舞台上最闪耀呢！",
+			say = "{namecode:429}的心情我能理解！我也希望我家特型驱逐舰能在舞台上最闪耀呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

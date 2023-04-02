@@ -531,9 +531,9 @@ end
 
 function slot0.getPassID(slot0)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot2:isEnd() then
-		for slot6, slot7 in pairs(pg.pay_data_display) do
-			if slot7.sub_display and type(slot7.sub_display) == "table" and slot7.sub_display[1] == slot2.id then
-				return slot6
+		for slot6, slot7 in ipairs(pg.pay_data_display.all) do
+			if pg.pay_data_display[slot7].sub_display and type(slot8.sub_display) == "table" and slot8.sub_display[1] == slot2.id then
+				return slot7
 			end
 		end
 	end

@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 900230,
-			say = "…………果然。经过计算可以抗击沙恩霍斯特·META两轮炮击的防御被一轮打破是有原因的。",
+			say = "…………果然。经过计算可以抗击{namecode:433}·META两轮炮击的防御被一轮打破是有原因的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

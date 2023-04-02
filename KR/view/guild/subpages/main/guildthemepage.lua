@@ -246,7 +246,7 @@ function slot0.AppendLog(slot0, slot1, slot2)
 		slot6, slot7 = slot1:getConent()
 
 		if slot1.cmd == GuildLogInfo.CMD_TYPE_GET_SHIP then
-			ChatProxy.InjectPublic(slot4, slot6)
+			ChatProxy.InjectPublic(slot4, slot6, true)
 		else
 			slot4.text = slot6
 		end

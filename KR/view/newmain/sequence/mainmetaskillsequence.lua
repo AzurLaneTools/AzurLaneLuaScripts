@@ -46,7 +46,7 @@ function slot0.GetShipName(slot0, slot1)
 
 	for slot6, slot7 in ipairs(slot1) do
 		slot9 = slot7.metaSkillID
-		slot10 = setColorStr(HXSet.hxLan(slot7.metaShipVO:getName()), COLOR_GREEN)
+		slot10 = setColorStr(slot7.metaShipVO:getName(), COLOR_GREEN)
 		slot2 = slot6 < #slot1 and slot2 .. slot10 .. "、" or slot2 .. slot10 .. "、" .. slot10
 	end
 

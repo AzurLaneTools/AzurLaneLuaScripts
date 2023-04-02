@@ -326,7 +326,7 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "易北",
+			actorName = "{namecode:468}",
 			say = "（东煌……东煌的舰队怎么会在这里？！）",
 			typewriter = {
 				speed = 0.05,
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马格德堡",
+			actorName = "{namecode:447}",
 			say = "（而且导弹驱逐舰是什么啊，使用导弹的驱逐舰么？！）",
 			typewriter = {
 				speed = 0.05,
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "U-1206",
+			actorName = "{namecode:476}",
 			say = "（嘘——！）",
 			typewriter = {
 				speed = 0.05,
@@ -387,8 +387,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
-			say = "铁血所属，特别行动舰队旗舰，腓特烈大帝特使，战列舰乌尔里希·冯·胡滕。",
+			actorName = "{namecode:463}",
+			say = "铁血所属，特别行动舰队旗舰，{namecode:440}特使，战列舰{namecode:463}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "你们是在知道我们是铁血舰队的情况下，选择出手解围的么？",
 			typewriter = {
 				speed = 0.05,
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "原来如此。这是东煌的态度么？",
 			typewriter = {
 				speed = 0.05,
@@ -592,7 +592,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "东煌舰队在这里做什么？",
 			typewriter = {
 				speed = 0.05,
@@ -627,7 +627,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "那我也无可奉告。",
 			typewriter = {
 				speed = 0.05,
@@ -662,7 +662,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "不过——可以给你们一个亲眼见证的机会。要来与我们一同行动么？",
 			typewriter = {
 				speed = 0.05,
@@ -731,7 +731,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "是指目标太大会暴露行踪么？确实如此，刚刚的战斗中量产型也没起到什么作用……",
 			typewriter = {
 				speed = 0.05,
@@ -777,7 +777,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "乌尔里希似乎还想追问什么，不过最终没有出声制止，只是目送着东煌舰队远去了。",
+			say = "{namecode:464}似乎还想追问什么，不过最终没有出声制止，只是目送着东煌舰队远去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1032,7 +1032,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "乌尔里希指了一个介于遭受袭击方向和东煌舰队离开方向之间的位置。",
+			say = "{namecode:464}指了一个介于遭受袭击方向和东煌舰队离开方向之间的位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

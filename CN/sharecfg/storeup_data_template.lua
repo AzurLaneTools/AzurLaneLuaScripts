@@ -1,5 +1,29 @@
 pg = pg or {}
-pg.storeup_data_template = {
+pg.storeup_data_template = setmetatable({
+	__name = "storeup_data_template",
+	all = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.storeup_data_template = {
 	{
 		id = 1,
 		name = "航空先驱",
@@ -531,7 +555,7 @@ pg.storeup_data_template = {
 	},
 	{
 		id = 18,
-		name = "柯尼斯堡级",
+		name = "{namecode:421}级",
 		char_list = {
 			40201,
 			40202,
@@ -559,25 +583,5 @@ pg.storeup_data_template = {
 				50
 			}
 		}
-	},
-	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18
 	}
 }

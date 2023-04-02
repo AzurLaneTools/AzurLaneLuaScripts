@@ -28,7 +28,7 @@ function slot0.flush(slot0)
 
 	if slot0.isGroup then
 		setActive(slot0.group, true)
-		setText(slot0.groupTitle, HXSet.hxLan(slot0.info.title))
+		setText(slot0.groupTitle, slot0.info.title)
 		GetImageSpriteFromAtlasAsync("memoryicon/" .. slot0.info.icon, "", slot0.group)
 
 		slot1 = 0
@@ -43,12 +43,12 @@ function slot0.flush(slot0)
 		setText(slot0.groupCount, slot1 .. "/" .. slot2)
 	elseif slot0.info.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot0.info.story, true) then
 		setActive(slot0.normal, true)
-		setText(slot0.txTitle, HXSet.hxLan(slot0.info.title))
-		setText(slot0.txSubtitle, HXSet.hxLan(slot0.info.subtitle))
+		setText(slot0.txTitle, slot0.info.title)
+		setText(slot0.txSubtitle, slot0.info.subtitle)
 		GetImageSpriteFromAtlasAsync("memoryicon/" .. slot0.info.icon, "", slot0.normal)
 	else
 		setActive(slot0.lock, true)
-		setText(slot0.txCondition, HXSet.hxLan(slot0.info.condition))
+		setText(slot0.txCondition, slot0.info.condition)
 	end
 
 	if slot0.itemIndexTF then

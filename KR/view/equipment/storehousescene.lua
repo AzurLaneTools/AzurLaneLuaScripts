@@ -117,22 +117,23 @@ function slot0.init(slot0)
 end
 
 function slot0.setEquipment(slot0, slot1)
-	slot0.equipmentVOByIds[slot1.id] = slot1
-	slot2 = true
+	slot2 = #slot0.equipmentVOs + 1
 
-	for slot6 = #slot0.equipmentVOs, 1, -1 do
-		if slot0.equipmentVOs[slot6].id == slot1.id and slot1.count <= 0 then
-			slot0.equipmentVOByIds[slot1.id] = nil
+	for slot6, slot7 in ipairs(slot0.equipmentVOs) do
+		if not slot7.shipId and slot7.id == slot1.id then
+			slot2 = slot6
 
-			table.remove(slot0.equipmentVOs, slot6)
-		elseif slot7.id == slot1.id and not slot7.shipId then
-			slot0.equipmentVOs[slot6] = slot1
-			slot2 = false
+			break
 		end
 	end
 
-	if slot2 then
-		table.insert(slot0.equipmentVOs, slot1)
+	if slot1.count > 0 then
+		slot0.equipmentVOs[slot2] = slot1
+		slot0.equipmentVOByIds[slot1.id] = slot1
+	else
+		table.remove(slot0.equipmentVOs, slot2)
+
+		slot0.equipmentVOByIds[slot1.id] = nil
 	end
 end
 
@@ -140,16 +141,6 @@ function slot0.setEquipmentUpdate(slot0)
 	if slot0.contextData.warp == StoreHouseConst.WARP_TO_WEAPON then
 		slot0:filterEquipment()
 		slot0:updateCapacity()
-	end
-end
-
-function slot0.removeEquipment(slot0, slot1)
-	slot0.equipmentVOByIds[slot1] = nil
-
-	for slot5 = #slot0.equipmentVOs, 1, -1 do
-		if slot0.equipmentVOs[slot5].id == slot1 and not slot6.shipId then
-			table.remove(slot0.equipmentVOs, slot5)
-		end
 	end
 end
 
@@ -696,7 +687,7 @@ function slot0.didEnter(slot0)
 		end
 	end
 
-	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 60031, slot0.topItems)
+	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 1, slot0.topItems)
 end
 
 function slot0.isDefaultStatus(slot0)
@@ -1040,11 +1031,7 @@ function slot0.filterEquipment(slot0)
 	end
 
 	if slot0.contextData.sortData then
-		slot5 = slot0.asc
-
-		table.sort(slot0.loadEquipmentVOs, function (slot0, slot1)
-			return uv0.sortFunc(slot0, slot1, uv1, uv2)
-		end)
+		table.sort(slot0.loadEquipmentVOs, CompareFuncs(uv2.sortFunc(slot4, slot0.asc)))
 	end
 
 	if slot0.contextData.qiutBtn then
@@ -1090,11 +1077,7 @@ function slot0.filterEquipSkin(slot0)
 	end
 
 	if slot0.contextData.sortData then
-		slot6 = slot0.asc
-
-		table.sort(slot0.loadEquipmentVOs, function (slot0, slot1)
-			return uv0.sortFunc(slot0, slot1, uv1, uv2)
-		end)
+		table.sort(slot0.loadEquipmentVOs, CompareFuncs(uv1.sortFunc(slot5, slot0.asc)))
 	end
 
 	if slot0.contextData.qiutBtn then
@@ -1127,11 +1110,7 @@ function slot0.filterSpWeapon(slot0)
 	end
 
 	if slot0.contextData.spweaponSortData then
-		slot6 = slot0.asc
-
-		table.sort(slot0.loadEquipmentVOs, function (slot0, slot1)
-			return uv0.sortFunc(slot0, slot1, uv1, uv2)
-		end)
+		table.sort(slot0.loadEquipmentVOs, CompareFuncs(uv1.sortFunc(slot5, slot0.asc)))
 	end
 
 	if slot0.contextData.qiutBtn then
@@ -1209,13 +1188,14 @@ function slot0.initItems(slot0)
 end
 
 function slot0.sortItems(slot0)
-	table.sort(slot0.itemVOs, function (slot0, slot1)
-		if slot0:getConfig("rarity") == slot1:getConfig("rarity") then
-			return slot0.id < slot1.id
-		else
-			return slot3 < slot2
+	table.sort(slot0.itemVOs, CompareFuncs({
+		function (slot0)
+			return -slot0:getConfig("rarity")
+		end,
+		function (slot0)
+			return slot0.id
 		end
-	end)
+	}))
 	slot0.itemRect:SetTotalCount(#slot0.itemVOs, -1)
 	setActive(slot0.listEmptyTF, #slot0.itemVOs <= 0)
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_storehouseui_item"))

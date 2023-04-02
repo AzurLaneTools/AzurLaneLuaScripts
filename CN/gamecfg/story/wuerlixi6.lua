@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "被胡滕扶着坐了起来。",
+			say = "被{namecode:465}扶着坐了起来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "就这么在胡滕的“帮助”之下，享用了一顿丰盛的早饭。",
+			say = "就这么在{namecode:465}的“帮助”之下，享用了一顿丰盛的早饭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "还是第一次尝到胡滕亲手做的菜……意料之外的美味，且量大。",
+			say = "还是第一次尝到{namecode:465}亲手做的菜……意料之外的美味，且量大。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "胡滕收拾了碗筷之后也走了过来，坐在了床边的椅子上。",
+			say = "{namecode:465}收拾了碗筷之后也走了过来，坐在了床边的椅子上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

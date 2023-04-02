@@ -69,7 +69,6 @@ function slot0.init(slot0)
 	slot0.actorPainting = nil
 	slot0.materialFace = slot0._tf:Find("Resource/face"):GetComponent(typeof(Image)).material
 	slot0.materialPaint = slot0._tf:Find("Resource/paint"):GetComponent(typeof(Image)).material
-	slot0.weddingReview = slot0.contextData.review
 	slot0.finishCallback = slot0.contextData.finishCallback
 	slot0.commonTF = GameObject.Find("OverlayCamera/Overlay/UIMain/common")
 	slot0.exchangePanel = slot0._tf:Find("exchange_panel")
@@ -127,212 +126,200 @@ function slot0.didEnter(slot0)
 		setActive(slot0.commonTF, false)
 	end
 
-	if slot0.weddingReview then
+	if slot0.contextData.review then
+		slot0.weddingReview = true
 		slot0.proposeType = slot0.contextData.group:getProposeType()
 		slot0.bgName = Nation.Nation2BG(slot0.contextData.group:getNation()) or Nation.Nation2BG(0)
 
-		setActive(slot0.skipBtn, true)
 		onButton(slot0, slot0.skipBtn, function ()
-			if uv0.tweenList then
-				cancelTweens(uv0.tweenList)
-
-				uv0.tweenList = {}
-			end
-
-			uv0:emit(uv1.ON_CLOSE)
+			uv0:closeView()
 		end, SFX_CANCEL)
-		slot0:setMask(true)
-		slot0:showProposePanel()
 		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+		slot0:doPlay()
 	else
-		onButton(slot0, slot0:findTF("close0"), function ()
-			if uv0.proposeEndFlag then
-				uv0:DisplayRenamePanel()
-			else
-				uv0:emit(uv1.ON_CLOSE)
-			end
-		end, SFX_CANCEL)
-		onButton(slot0, slot0:findTF("close_end"), function ()
-			if uv0.proposeEndFlag then
-				uv0:DisplayRenamePanel()
-			else
-				uv0:emit(uv1.ON_CLOSE)
-			end
-		end, SFX_CANCEL)
-
-		slot1 = slot0.shipVO:getConfigTable().nationality
-		slot0.bgName = Nation.Nation2BG(slot1) or Nation.Nation2BG(0)
-
-		PoolMgr.GetInstance():GetUI("Propose" .. Nation.Nation2Side(slot1) .. "UI", true, function (slot0)
-			if uv0.exited then
-				PoolMgr.GetInstance():ReturnUI(uv1, slot0)
-
-				return
-			end
-
-			uv0.window = tf(slot0)
-
-			setParent(tf(slot0), uv0:findTF("window"))
-
-			uv0.intimacyTF = uv0:findTF("intimacy/icon", uv0.window)
-			uv0.intimacyValueTF = uv0:findTF("intimacy/value", uv0.window)
-			uv0.button = uv0:findTF("button", uv0.window)
-			uv0.intimacyDesc = uv0:findTF("desc", uv0.window)
-			uv0.intimacydescTime = uv0:findTF("descPic/desc_time", uv0.window)
-			uv0.intimacyDescPic = uv0:findTF("descPic", uv0.window)
-			uv0.intimacyBuffDesc = uv0:findTF("desc_buff", uv0.window)
-			uv0._paintingTF = uv0:findTF("paintMask/paint", uv0.window)
-			uv0.intimacyAchieved = uv0:findTF("intimacy/achieved", uv0.window)
-			uv0.intimacyNoAchieved = uv0:findTF("intimacy/no_achieved", uv0.window)
-			uv0.ringAchieved = uv0:findTF("ringCount/achieved", uv0.window)
-			uv0.ringNoAchieved = uv0:findTF("ringCount/no_achieved", uv0.window)
-			uv0.ringValue = uv0:findTF("ringCount/value", uv0.window)
-			uv0.nameTF = uv0:findTF("title1/Text", uv0.window)
-			uv0.shipNameTF = uv0:findTF("title2/Text", uv0.window)
-			uv0.campTF = uv0:findTF("Camp", uv0.window)
-			uv0.doneTF = uv0:findTF("done", uv0.window)
-			uv0.CampSprite = uv0:findTF("CampSprite", uv0.window)
-
-			setActive(uv0.window, true)
-			setText(uv0.nameTF, uv0.player.name)
-			setText(uv0.shipNameTF, uv0.shipVO:getName())
-
-			if uv0.CampSprite then
-				if not getImageSprite(uv0:findTF(Nation.Nation2Print(uv2), uv0.CampSprite)) then
-					warning("找不到印花, shipConfigId: " .. uv0.shipVO.configId)
-					setActive(uv0.campTF, false)
-				else
-					setImageSprite(uv0.campTF, slot1, false)
-					setActive(uv0.campTF, true)
-				end
-			end
-
-			setIntimacyIcon(uv0.intimacyTF, uv0.shipVO:getIntimacyIcon())
-
-			slot1, slot2 = uv0.shipVO:getIntimacyDetail()
-
-			setText(uv0.intimacyValueTF, i18n("propose_intimacy_tip", slot2))
-
-			if slot2 >= 100 then
-				setTextColor(uv0.intimacyValueTF, Color.white)
-			else
-				setTextColor(uv0.intimacyValueTF, Color.New(0.5843137254901961, 0.5215686274509804, 0.40784313725490196))
-			end
-
-			setActive(uv0.button, not uv0.shipVO.propose)
-			setActive(uv0.intimacyAchieved, uv0.shipVO.propose or slot2 >= 100)
-			setActive(uv0.intimacyNoAchieved, slot2 < 100 and not uv0.shipVO.propose)
-			uv0:onUpdateItemCount()
-			setActive(uv0.doneTF, uv0.shipVO.propose)
-
-			uv0.button:GetComponent(typeof(Button)).interactable = not uv0.shipVO.propose and slot1 <= slot2
-			slot4, slot5 = uv0.shipVO:getIntimacyInfo()
-
-			if uv0.shipVO.propose then
-				if uv0.intimacyDescPic then
-					setActive(uv0.intimacyDescPic, true)
-					uv0:onUpdateIntimacydescTime(uv0.shipVO.proposeTime)
-				end
-
-				if uv0.intimacyDesc then
-					setActive(uv0.intimacyDesc, not uv0.intimacyDescPic)
-
-					slot6 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():STimeDescS(uv0.shipVO.proposeTime, "%m/%d/%Y", true))
-
-					if not IsNil(GetComponent(uv0.intimacyDesc, "VerticalText")) then
-						GetComponent(uv0.intimacyDesc, "VerticalText").enabled = true
-						slot6 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():ChieseDescTime(uv0.shipVO.proposeTime, true))
-					end
-
-					setText(uv0.intimacyDesc, slot6)
-				end
-			else
-				if uv0.intimacyDesc and GetComponent(uv0.intimacyDesc, "VerticalText") then
-					GetComponent(uv0.intimacyDesc, "VerticalText").enabled = false
-				end
-
-				if uv0.intimacyDescPic then
-					setActive(uv0.intimacyDescPic, false)
-				end
-
-				if uv0.intimacyDesc then
-					setActive(uv0.intimacyDesc, true)
-					setText(uv0.intimacyDesc, i18n(slot5, uv0.shipVO.name))
-				end
-			end
-
-			setText(uv0.intimacyBuffDesc, "*" .. i18n(slot5 .. "_buff"))
-			uv0:loadChar()
-			pg.UIMgr.GetInstance():BlurPanel(uv0._tf, false, {
-				weight = LayerWeightConst.SECOND_LAYER
-			})
-			onButton(uv0, uv0.button, function ()
-				if uv0 then
-					slot0 = uv1.bagProxy:getItemCountById(uv1:getProposeItemId())
-
-					if uv1.proposeType == "imas" then
-						if slot0 < 1 then
-							uv1:showExchangePanel()
-
-							return
-						end
-
-						slot1, slot2 = ShipStatus.ShipStatusCheck("onPropose", uv1.shipVO)
-
-						if not slot1 then
-							pg.TipsMgr.GetInstance():ShowTips(slot2)
-
-							return
-						end
-
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							content = i18n("word_propose_cost_tip1", slot0),
-							onYes = function ()
-								if uv0.intimacydescTime then
-									uv0:onUpdateIntimacydescTime(pg.TimeMgr.GetInstance():GetServerTime())
-								end
-
-								uv0:setMask(true)
-								uv0:hideWindow()
-								uv0:showProposePanel()
-								setActive(uv0.window, false)
-							end
-						})
-					else
-						if slot0 < 1 then
-							ItemTipPanel.ShowRingBuyTip()
-
-							return
-						end
-
-						slot1, slot2 = ShipStatus.ShipStatusCheck("onPropose", uv1.shipVO)
-
-						if not slot1 then
-							pg.TipsMgr.GetInstance():ShowTips(slot2)
-
-							return
-						end
-
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							content = i18n("word_propose_cost_tip", slot0),
-							onYes = function ()
-								if uv0.intimacydescTime then
-									uv0:onUpdateIntimacydescTime(pg.TimeMgr.GetInstance():GetServerTime())
-								end
-
-								uv0:setMask(true)
-								uv0:hideWindow()
-								uv0:showProposePanel()
-								setActive(uv0.window, false)
-							end
-						})
-					end
-				else
-					uv1:closeView()
-				end
-			end, SFX_PANEL)
-		end)
+		slot0:doMain()
 	end
+end
+
+function slot0.doPlay(slot0)
+	setActive(slot0.skipBtn, slot0.weddingReview)
+	slot0:setMask(true)
+	slot0:showProposePanel()
+end
+
+function slot0.doMain(slot0)
+	onButton(slot0, slot0.skipBtn, function ()
+		uv0:closeView()
+	end, SFX_CANCEL)
+	onButton(slot0, slot0:findTF("close0"), function ()
+		if uv0.proposeEndFlag then
+			uv0:DisplayRenamePanel()
+		else
+			uv0:closeView()
+		end
+	end, SFX_CANCEL)
+	onButton(slot0, slot0:findTF("close_end"), function ()
+		if uv0.proposeEndFlag then
+			uv0:DisplayRenamePanel()
+		else
+			uv0:closeView()
+		end
+	end, SFX_CANCEL)
+
+	slot1 = slot0.shipVO:getConfigTable().nationality
+	slot0.bgName = Nation.Nation2BG(slot1) or Nation.Nation2BG(0)
+
+	PoolMgr.GetInstance():GetUI("Propose" .. Nation.Nation2Side(slot1) .. "UI", true, function (slot0)
+		if uv0.exited then
+			PoolMgr.GetInstance():ReturnUI(uv1, slot0)
+
+			return
+		end
+
+		uv0.window = tf(slot0)
+
+		setParent(tf(slot0), uv0:findTF("window"))
+
+		uv0.intimacyTF = uv0:findTF("intimacy/icon", uv0.window)
+		uv0.intimacyValueTF = uv0:findTF("intimacy/value", uv0.window)
+		uv0.button = uv0:findTF("button", uv0.window)
+		uv0.intimacyDesc = uv0:findTF("desc", uv0.window)
+		uv0.intimacydescTime = uv0:findTF("descPic/desc_time", uv0.window)
+		uv0.intimacyDescPic = uv0:findTF("descPic", uv0.window)
+		uv0.intimacyBuffDesc = uv0:findTF("desc_buff", uv0.window)
+		uv0._paintingTF = uv0:findTF("paintMask/paint", uv0.window)
+		uv0.intimacyAchieved = uv0:findTF("intimacy/achieved", uv0.window)
+		uv0.intimacyNoAchieved = uv0:findTF("intimacy/no_achieved", uv0.window)
+		uv0.ringAchieved = uv0:findTF("ringCount/achieved", uv0.window)
+		uv0.ringNoAchieved = uv0:findTF("ringCount/no_achieved", uv0.window)
+		uv0.ringValue = uv0:findTF("ringCount/value", uv0.window)
+		uv0.nameTF = uv0:findTF("title1/Text", uv0.window)
+		uv0.shipNameTF = uv0:findTF("title2/Text", uv0.window)
+		uv0.campTF = uv0:findTF("Camp", uv0.window)
+		uv0.doneTF = uv0:findTF("done", uv0.window)
+		uv0.CampSprite = uv0:findTF("CampSprite", uv0.window)
+
+		setActive(uv0.window, true)
+		setText(uv0.nameTF, uv0.player.name)
+		setText(uv0.shipNameTF, uv0.shipVO:getName())
+
+		if uv0.CampSprite then
+			if not getImageSprite(uv0:findTF(Nation.Nation2Print(uv2), uv0.CampSprite)) then
+				warning("找不到印花, shipConfigId: " .. uv0.shipVO.configId)
+				setActive(uv0.campTF, false)
+			else
+				setImageSprite(uv0.campTF, slot1, false)
+				setActive(uv0.campTF, true)
+			end
+		end
+
+		setIntimacyIcon(uv0.intimacyTF, uv0.shipVO:getIntimacyIcon())
+
+		slot1, slot2 = uv0.shipVO:getIntimacyDetail()
+
+		setText(uv0.intimacyValueTF, i18n("propose_intimacy_tip", slot2))
+
+		if slot2 >= 100 then
+			setTextColor(uv0.intimacyValueTF, Color.white)
+		else
+			setTextColor(uv0.intimacyValueTF, Color.New(0.5843137254901961, 0.5215686274509804, 0.40784313725490196))
+		end
+
+		setActive(uv0.intimacyAchieved, uv0.shipVO.propose or slot2 >= 100)
+		setActive(uv0.intimacyNoAchieved, slot2 < 100 and not uv0.shipVO.propose)
+		uv0:onUpdateItemCount()
+		setActive(uv0.doneTF, uv0.shipVO.propose)
+
+		slot3, slot4 = uv0.shipVO:getIntimacyInfo()
+
+		if uv0.shipVO.propose then
+			if uv0.intimacyDescPic then
+				setActive(uv0.intimacyDescPic, true)
+				uv0:onUpdateIntimacydescTime(uv0.shipVO.proposeTime)
+			end
+
+			if uv0.intimacyDesc then
+				setActive(uv0.intimacyDesc, not uv0.intimacyDescPic)
+
+				slot5 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():STimeDescS(uv0.shipVO.proposeTime, "%m/%d/%Y", true))
+
+				if not IsNil(GetComponent(uv0.intimacyDesc, "VerticalText")) then
+					GetComponent(uv0.intimacyDesc, "VerticalText").enabled = true
+					slot5 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():ChieseDescTime(uv0.shipVO.proposeTime, true))
+				end
+
+				setText(uv0.intimacyDesc, slot5)
+			end
+		else
+			if uv0.intimacyDesc and GetComponent(uv0.intimacyDesc, "VerticalText") then
+				GetComponent(uv0.intimacyDesc, "VerticalText").enabled = false
+			end
+
+			if uv0.intimacyDescPic then
+				setActive(uv0.intimacyDescPic, false)
+			end
+
+			if uv0.intimacyDesc then
+				setActive(uv0.intimacyDesc, true)
+				setText(uv0.intimacyDesc, i18n(slot4, uv0.shipVO.name))
+			end
+		end
+
+		setText(uv0.intimacyBuffDesc, "*" .. i18n(slot4 .. "_buff"))
+		uv0:loadChar()
+		pg.UIMgr.GetInstance():BlurPanel(uv0._tf, false, {
+			weight = LayerWeightConst.SECOND_LAYER
+		})
+		setActive(uv0.button, not uv0.shipVO:ShowPropose())
+
+		uv0.button:GetComponent(typeof(Button)).interactable = not uv0.shipVO.propose and slot1 <= slot2 or uv0.shipVO.propose and not uv0.shipVO:ShowPropose()
+
+		onButton(uv0, uv0.button, function ()
+			if uv0 then
+				if uv1.bagProxy:getItemCountById(uv1:getProposeItemId()) < 1 then
+					if uv1.proposeType == "imas" then
+						uv1:showExchangePanel()
+					else
+						ItemTipPanel.ShowRingBuyTip()
+					end
+
+					return
+				end
+
+				slot1, slot2 = ShipStatus.ShipStatusCheck("onPropose", uv1.shipVO)
+
+				if not slot1 then
+					pg.TipsMgr.GetInstance():ShowTips(slot2)
+
+					return
+				end
+
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("word_propose_cost_tip" .. (uv1.proposeType == "imas" and "1" or ""), slot0),
+					onYes = function ()
+						if uv0.intimacydescTime then
+							uv0:onUpdateIntimacydescTime(pg.TimeMgr.GetInstance():GetServerTime())
+						end
+
+						uv0:hideWindow()
+						setActive(uv0.window, false)
+						uv0:doPlay()
+					end
+				})
+			elseif uv2 then
+				function uv1.afterRegisterCall()
+					uv0.afterRegisterCall = nil
+
+					pg.TipsMgr.GetInstance():ShowTips(i18n("word_propose_switch_tip"))
+					uv0:closeView()
+				end
+
+				uv1:emit(ProposeMediator.REGISTER_SHIP, uv1.shipVO.id)
+			else
+				uv1:closeView()
+			end
+		end, SFX_PANEL)
+	end)
 end
 
 function slot0.getProposeItemId(slot0)
@@ -364,6 +351,9 @@ function slot0.onUpdateItemCount(slot0)
 		onButton(slot0, slot0.window:Find("ringCount/icon/btn_exchange"), function ()
 			uv0:showExchangePanel()
 		end, SFX_PANEL)
+	else
+		setActive(slot0.window:Find("ringCount/icon/base"), PLATFORM_CODE ~= PLATFORM_CH)
+		setActive(slot0.window:Find("ringCount/icon/hx"), PLATFORM_CODE == PLATFORM_CH)
 	end
 end
 
@@ -1008,7 +998,7 @@ function slot0.showStoryUI(slot0, slot1)
 					slot0:setMask(true)
 					table.insert(uv0.tweenList, LeanTween.delayedCall(0.5, System.Action(function ()
 						if uv0.weddingReview then
-							uv0:close()
+							uv0:closeView()
 						else
 							uv0:initChangeNamePanel()
 							uv0:stampWindow()
@@ -1046,7 +1036,7 @@ function slot0.showStoryUI(slot0, slot1)
 				ShipExpressionHelper.SetExpression(findTF(uv0.targetActorTF, "fitter"):GetChild(0), uv0.paintingName, "propose")
 			end
 
-			setTextEN(uv0.storyContent, uv1)
+			setText(uv0.storyContent, uv1)
 
 			uv0.onWords = true
 
@@ -1179,6 +1169,9 @@ function slot0.showTip(slot0)
 	slot2 = slot0:findTF("tip", slot0.storyTF)
 
 	setText(slot0:findTF("Image_bg/Text", slot2), i18n("achieve_propose_tip", slot1.name))
+	eachChild(slot2:Find("Image_bg/Image"), function (slot0)
+		setActive(slot0, slot0.name == uv0.proposeType)
+	end)
 
 	slot4 = GetOrAddComponent(slot2, typeof(CanvasGroup))
 
@@ -1217,23 +1210,19 @@ function slot0.initChangeNamePanel(slot0)
 		uv0:emit(ProposeMediator.RENAME_SHIP, uv0.shipVO.id, getInputText(findTF(uv0._renamePanel, "frame/name_field")))
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0._renameRevert, function ()
-		setInputText(findTF(uv0._renamePanel, "frame/name_field"), uv0.shipVO:isRemoulded() and HXSet.hxLan(pg.ship_skin_template[uv0.shipVO:getRemouldSkinId()].name) or pg.ship_data_statistics[uv0.shipVO.configId].name)
+		setInputText(findTF(uv0._renamePanel, "frame/name_field"), uv0.shipVO:isRemoulded() and pg.ship_skin_template[uv0.shipVO:getRemouldSkinId()].name or pg.ship_data_statistics[uv0.shipVO.configId].name)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._renameCancelBtn, function ()
-		uv0:close()
+		uv0:closeView()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0._closeBtn, function ()
-		uv0:close()
+		uv0:closeView()
 	end, SFX_CANCEL)
-end
-
-function slot0.close(slot0)
-	slot0:emit(uv0.ON_CLOSE)
 end
 
 function slot0.DisplayRenamePanel(slot0)
 	if slot0.shipVO:IsXIdol() then
-		slot0:close()
+		slot0:closeView()
 	else
 		setParent(slot0._renamePanel, slot0._tf)
 		setActive(slot0._renamePanel, true)

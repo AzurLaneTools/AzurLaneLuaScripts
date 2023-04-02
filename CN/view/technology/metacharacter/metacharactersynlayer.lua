@@ -181,7 +181,7 @@ function slot0.updateTaskTpl(slot0, slot1, slot2)
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
 	updateDropCfg(slot14)
-	setText(slot0:findTF("Info/AwardInfo/NameMask/NameText", slot1), shortenString(HXSet.hxLan(slot14.cfg.name), 6))
+	setText(slot0:findTF("Info/AwardInfo/NameMask/NameText", slot1), shortenString(slot14.cfg.name, 6))
 	setText(slot0:findTF("Info/AwardInfo/SynProgressText", slot1), math.round(slot12 / slot0.curMetaProgressVO.unlockPTNum * 100) .. "%")
 
 	if slot2 < slot0.curMetaProgressVO.metaPtData.level + 1 then

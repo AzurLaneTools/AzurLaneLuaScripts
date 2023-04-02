@@ -208,7 +208,7 @@ function slot0.Resetresolve(slot0)
 			onButton(uv1, slot2:Find("icon/icon_bg"), function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
-			setText(slot2:Find("name_panel/name"), HXSet.hxLan(slot3.cfg.name))
+			setText(slot2:Find("name_panel/name"), slot3.cfg.name)
 			setText(slot2:Find("name_panel/number"), "x " .. slot3.curCount)
 		end
 	end)

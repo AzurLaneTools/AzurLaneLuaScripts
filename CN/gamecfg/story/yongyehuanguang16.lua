@@ -26,7 +26,7 @@ return {
 			actorName = "通讯器",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "电告，包括战列舰提尔比茨号、沙恩霍斯特号、格奈森瑙号、德意志号、斯佩伯爵号在内的铁血主力舰队已经完成集结，现在正在向巴伦支海的方向逼近。",
+			say = "电告，包括战列舰{namecode:436}号、{namecode:433}号、{namecode:434}号、{namecode:429}号、{namecode:431}号在内的铁血主力舰队已经完成集结，现在正在向巴伦支海的方向逼近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵，居然连提尔比茨都出动了？真亏铁血这么快就把主力舰都修好了。",
+			say = "呵，居然连{namecode:436}都出动了？真亏铁血这么快就把主力舰都修好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

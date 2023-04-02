@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "腓特烈，这支舰队真的没问题么？",
+			say = "{namecode:441}，这支舰队真的没问题么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

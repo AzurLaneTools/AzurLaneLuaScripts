@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那请问欧根亲王阁下有什么更高效率的方法么？",
+			say = "那请问{namecode:427}阁下有什么更高效率的方法么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "请大家向着两侧散开，为奥丁的开火留出条通道来。",
+			say = "请大家向着两侧散开，为{namecode:486}的开火留出条通道来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -18,7 +18,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -60,7 +60,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -76,7 +76,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -92,7 +92,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -108,7 +108,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -124,7 +124,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -140,7 +140,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -156,7 +156,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -188,7 +188,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -204,7 +204,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,

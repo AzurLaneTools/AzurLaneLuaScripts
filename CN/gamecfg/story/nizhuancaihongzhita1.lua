@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
-			say = "在一个昏暗的空间中，腓特烈大帝正端坐于桌前。",
+			say = "在一个昏暗的空间中，{namecode:440}正端坐于桌前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "提尔比茨",
+			actorName = "{namecode:436}",
 			say = "……以上便是近期在百慕大海域的行动报告。",
 			typewriter = {
 				speed = 0.05,
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "提尔比茨",
+			actorName = "{namecode:436}",
 			say = "和预料中一样，碧蓝航线已经将主要精力放在了中心区域的探索与稳定上。",
 			typewriter = {
 				speed = 0.05,
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "提尔比茨",
+			actorName = "{namecode:436}",
 			say = "她们只想保住眼前的战果，对于真正值得关注的地方，对于我们的目的均一无所知。",
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "提尔比茨",
+			actorName = "{namecode:436}",
 			say = "那么，本次汇报到此结束。",
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "U-47",
+			actorName = "{namecode:413}",
 			say = "针对仲裁机关的调查没有新的进展，它们好像无声无息的消失了。",
 			typewriter = {
 				speed = 0.05,
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "U-47",
+			actorName = "{namecode:413}",
 			say = "现在还有三个未被调查的可疑区域，补给剩余30%，应该没问题。",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "U-47",
-			say = "U-47，汇报结束。",
+			actorName = "{namecode:413}",
+			say = "{namecode:413}，汇报结束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
-			say = "腓特烈大帝仿佛正站在漆黑的夜空中，正面对着从面前流过的无尽情报之海。",
+			say = "{namecode:440}仿佛正站在漆黑的夜空中，正面对着从面前流过的无尽情报之海。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			say = "舰队已与「米德加尔特之塔」的组件一同秘密抵达指定位置。",
 			typewriter = {
 				speed = 0.05,
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			say = "幻光系统运作正常，附近没有发现任何敌人，海况平静，适合作业。",
 			typewriter = {
 				speed = 0.05,
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "彼得·史特拉塞",
+			actorName = "{namecode:470}",
 			say = "计划随时可以开始，等候您的指令。",
 			typewriter = {
 				speed = 0.05,
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "很好。开始组装工作吧，之后，等待下一步行动命令。",
 			typewriter = {
 				speed = 0.05,
@@ -305,8 +305,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "彼得·史特拉塞",
-			say = "遵命，彼得·史特拉塞通讯结束。",
+			actorName = "{namecode:470}",
+			say = "遵命，{namecode:470}通讯结束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
-			say = "从各地传来的情报汇聚在这小小的办公桌上，而腓特烈大帝正将这些情报转化为决策——就像她此前一直在做的那样。",
+			say = "从各地传来的情报汇聚在这小小的办公桌上，而{namecode:440}正将这些情报转化为决策——就像她此前一直在做的那样。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "终于要到最终阶段了啊，我不过去没问题么？",
 			typewriter = {
 				speed = 0.05,
@@ -368,7 +368,7 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "不能因为资源高度集中一处而在其他部分出现纰漏。",
 			typewriter = {
 				speed = 0.05,
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "如果你那里出问题，我们的行动意义就会大大降低。",
 			typewriter = {
 				speed = 0.05,
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "只是大大降低，而不是全无意义么？",
 			typewriter = {
 				speed = 0.05,
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "你觉得呢？",
 			typewriter = {
 				speed = 0.05,
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "是是是，你说得对~",
 			typewriter = {
 				speed = 0.05,
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "重樱的客人们在这里很满意，而且她们接下来也会实时观看行动进展，没问题吧？",
 			typewriter = {
 				speed = 0.05,
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "没问题。就是数据传输的稳定性我们也不敢保证，这一点交代清楚。",
 			typewriter = {
 				speed = 0.05,
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "那是自然~这种开拓性的行动中会发生什么都不稀奇。",
 			typewriter = {
 				speed = 0.05,
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "仅仅能在第一时间看到对于重樱而言就已经意义非凡了，相信就算发生意外中断的情况她们也不会有所怨言的。",
 			typewriter = {
 				speed = 0.05,
@@ -526,7 +526,7 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "很好。",
 			typewriter = {
 				speed = 0.05,
@@ -544,8 +544,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "欧根亲王",
-			say = "那就祝我们好运咯，欧根亲王通讯结束。",
+			actorName = "{namecode:427}",
+			say = "那就祝我们好运咯，{namecode:427}通讯结束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
-			say = "通讯结束后，腓特烈大帝的脸上少见的出现了一丝阴霾。不过阴云转瞬即逝，自信的笑容又回到了脸上。",
+			say = "通讯结束后，{namecode:440}的脸上少见的出现了一丝阴霾。不过阴云转瞬即逝，自信的笑容又回到了脸上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
-			say = "腓特烈大帝与那两人进行了简单的交谈，但交流被另外一个突然出现的声音打破了。",
+			say = "{namecode:440}与那两人进行了简单的交谈，但交流被另外一个突然出现的声音打破了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actorName = "马可波罗",
-			say = "哟，腓特烈，我来了，非常感谢汝在大展宏图之日能叫上我来一同欣赏~",
+			say = "哟，{namecode:441}，我来了，非常感谢汝在大展宏图之日能叫上我来一同欣赏~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "马可波罗阁下——你的联络从时间上来说是否稍微早了一些？",
 			typewriter = {
 				speed = 0.05,
@@ -705,7 +705,7 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "对的，是早了一些。而且这个频道——是紧急联络用频道。",
 			typewriter = {
 				speed = 0.05,
@@ -740,7 +740,7 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "也没有。",
 			typewriter = {
 				speed = 0.05,
@@ -755,7 +755,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
-			say = "腓特烈大帝看着面前两个已经熄灭的窗口，微不可查地叹了一口气。",
+			say = "{namecode:440}看着面前两个已经熄灭的窗口，微不可查地叹了一口气。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -807,7 +807,7 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "自己参与的事，不想见证一下过程么？",
 			typewriter = {
 				speed = 0.05,
@@ -842,7 +842,7 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "那也祝你好运，我坚定的撒丁盟友，无可置疑的圣座马可波罗阁下。",
 			typewriter = {
 				speed = 0.05,
@@ -899,7 +899,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
-			say = "腓特烈大帝没有发问，两个窗口后的人也没有出声。",
+			say = "{namecode:440}没有发问，两个窗口后的人也没有出声。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,7 +915,7 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "终于走到了这一步……",
 			typewriter = {
 				speed = 0.05,
@@ -932,7 +932,7 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "我已经搭好了舞台，奏响了乐章。",
 			typewriter = {
 				speed = 0.05,
@@ -950,7 +950,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "接下来——让我们的演出开始吧。",
 			typewriter = {
 				speed = 0.05,

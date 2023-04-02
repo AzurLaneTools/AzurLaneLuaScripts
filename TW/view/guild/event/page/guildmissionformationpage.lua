@@ -299,8 +299,8 @@ function slot0.UpdateFleet(slot0, slot1)
 
 	if slot2:IsEliteType() then
 		slot10 = string.format("%s : (<color=%s>%d/%d</color>)", slot2:GetSquadronDisplay(), slot2:GetSquadronTargetCnt() <= slot0:GetTagShipCnt(slot4) and COLOR_GREEN or COLOR_RED, slot6, slot7)
-		slot0.target2Text.text = slot10
-		slot0.target2Text4Effect.text = slot10
+		slot0.target2Text.text = HXSet.hxLan(slot10)
+		slot0.target2Text4Effect.text = HXSet.hxLan(slot10)
 	else
 		slot0.target2Text.text = ""
 		slot0.target2Text4Effect.text = ""

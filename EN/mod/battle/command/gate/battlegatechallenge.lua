@@ -3,24 +3,25 @@ ys.Battle.BattleGateChallenge = slot0
 slot0.__name = "BattleGateChallenge"
 
 function slot0.Entrance(slot0, slot1)
+	slot2 = slot0.mode
 	slot3 = slot0.actId
 	slot4 = getProxy(PlayerProxy)
 	slot5 = getProxy(BayProxy)
+	slot6 = getProxy(ChallengeProxy)
 	slot8 = pg.battle_cost_template[SYSTEM_CHALLENGE].oil_cost > 0
 	slot9 = {}
 	slot10 = 0
 	slot11 = 0
 	slot12 = 0
 	slot13 = 0
-	ships = getProxy(ChallengeProxy):getUserChallengeInfo(slot0.mode):getRegularFleet():getShips(false)
 
-	for slot19, slot20 in ipairs(ships) do
-		slot9[#slot9 + 1] = slot20.id
+	for slot20, slot21 in ipairs(slot6:getUserChallengeInfo(slot2):getRegularFleet():getShips(false)) do
+		slot9[#slot9 + 1] = slot21.id
 	end
 
-	slot16 = slot4:getData()
+	slot17 = slot4:getData()
 
-	if slot8 and slot16.oil < slot13 then
+	if slot8 and slot17.oil < slot13 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
@@ -44,22 +45,22 @@ function slot0.Entrance(slot0, slot1)
 		if uv3.enter_energy_cost > 0 then
 			slot1 = pg.gameset.battle_consume_energy.key_value
 
-			for slot5, slot6 in ipairs(ships) do
+			for slot5, slot6 in ipairs(uv4) do
 				slot6:cosumeEnergy(slot1)
-				uv4:updateShip(slot6)
+				uv5:updateShip(slot6)
 			end
 		end
 
-		slot1 = uv5
+		slot1 = uv6
 
 		slot1:updatePlayer(uv1)
-		uv9:sendNotification(GAME.BEGIN_STAGE_DONE, {
+		uv10:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			prefabFleet = {},
-			stageId = uv6,
+			stageId = uv7,
 			system = SYSTEM_CHALLENGE,
-			actId = uv7,
+			actId = uv8,
 			token = slot0.key,
-			mode = uv8
+			mode = uv9
 		})
 	end, function (slot0)
 		uv0:RequestFailStandardProcess(slot0)

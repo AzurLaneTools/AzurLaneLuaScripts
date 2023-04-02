@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家的姐妹们！与沙恩霍斯特的战斗以我们的胜利而告终！",
+			say = "皇家的姐妹们！与{namecode:433}的战斗以我们的胜利而告终！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我希望在将来，你们中的任何人面对强大于自己数倍的对手时，会像今天沙恩霍斯特一样勇敢作战！",
+			say = "我希望在将来，你们中的任何人面对强大于自己数倍的对手时，会像今天{namecode:433}一样勇敢作战！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "沙恩霍斯特的信号在北海消失了",
+			say = "{namecode:433}的信号在北海消失了",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -165,7 +165,7 @@ return {
 			actorName = "测试者",
 			dir = -1,
 			blackBg = true,
-			say = "——皇家送往北方联合的第二批物资船队在护航舰队追击沙恩霍斯特时，被舰载机击沉了",
+			say = "——皇家送往北方联合的第二批物资船队在护航舰队追击{namecode:433}时，被舰载机击沉了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

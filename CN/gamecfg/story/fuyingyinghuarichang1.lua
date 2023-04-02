@@ -121,7 +121,7 @@ return {
 			actor = 305052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是铁血的腓特烈大帝啊…唔…你这一身…",
+			say = "是铁血的{namecode:440}啊…唔…你这一身…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是重樱的{namecode:74}大人和铁血的腓特烈大帝？",
+			say = "啊，是重樱的{namecode:74}大人和铁血的{namecode:440}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 202071,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸嘿嘿，谢谢夸奖~腓特烈大帝的也…嗯…很厉害！",
+			say = "欸嘿嘿，谢谢夸奖~{namecode:440}的也…嗯…很厉害！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -449,7 +449,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "发生什么事了，海因里希，我这边突然搜索不到目标了！",
+			say = "发生什么事了，{namecode:454}，我这边突然搜索不到目标了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然最后会选择水下逃跑啊，构建者……呵呵。U37，你已经到达伏击位置了吧，准备拦截！",
+			say = "果然最后会选择水下逃跑啊，构建者……呵呵。{namecode:474}，你已经到达伏击位置了吧，准备拦截！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "U37收到，嘿嘿，水下的战斗就交给我吧~！",
+			say = "{namecode:474}收到，嘿嘿，水下的战斗就交给我吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

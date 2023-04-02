@@ -13,7 +13,7 @@ return {
 			actor = 408080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "第二艘补给舰，击沉。U110，天生的猎手。嘎哦—",
+			say = "第二艘补给舰，击沉。{namecode:420}，天生的猎手。嘎哦—",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -150,7 +150,7 @@ return {
 			actor = 408080,
 			withoutActorName = true,
 			nameColor = "#a9f548",
-			say = "一轮机炮子弹在水面掀起水花，U110不情不愿地从水里露出头来。",
+			say = "一轮机炮子弹在水面掀起水花，{namecode:420}不情不愿地从水里露出头来。",
 			actorPosition = {
 				x = 0,
 				y = -1000
@@ -234,7 +234,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "U110，是大鲨鱼，超凶的。",
+			say = "{namecode:420}，是大鲨鱼，超凶的。",
 			action = {
 				{
 					type = "shake",
@@ -260,7 +260,7 @@ return {
 			withoutActorName = true,
 			side = 2,
 			dir = 1,
-			say = "U110抖动着背鳍(?)，做出威胁的样子",
+			say = "{namecode:420}抖动着背鳍(?)，做出威胁的样子",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			withoutActorName = true,
 			side = 2,
 			dir = 1,
-			say = "U110对着大斗犬发出了威胁的咆哮(?)",
+			say = "{namecode:420}对着大斗犬发出了威胁的咆哮(?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "U110不是蒜头脑袋，是鲨鱼—",
+			say = "{namecode:420}不是蒜头脑袋，是鲨鱼—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于看不起鲨鱼的对手，U110，要在这里解决你们！",
+			say = "对于看不起鲨鱼的对手，{namecode:420}，要在这里解决你们！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

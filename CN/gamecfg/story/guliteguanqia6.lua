@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "你是罗恩吧……？",
+			say = "你是{namecode:439}吧……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然但是……罗恩突然从哪里找到的怪兽啊？！",
+			say = "虽然但是……{namecode:439}突然从哪里找到的怪兽啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

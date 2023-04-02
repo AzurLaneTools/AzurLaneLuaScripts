@@ -53,7 +53,16 @@ function slot0.GetTheDay()
 end
 
 function slot0.TransformColor(slot0)
-	return Color.New(tonumber(string.sub(slot0, 1, 2), 16) / 255, tonumber(string.sub(slot0, 3, 4), 16) / 255, tonumber(string.sub(slot0, 5, 6), 16) / 255)
+	slot1 = tonumber(string.sub(slot0, 1, 2), 16)
+	slot2 = tonumber(string.sub(slot0, 3, 4), 16)
+	slot3 = tonumber(string.sub(slot0, 5, 6), 16)
+	slot4 = 255
+
+	if string.len(slot0) > 6 and string.len(slot0) <= 8 then
+		slot4 = tonumber(string.sub(slot0, 7, 8), 16)
+	end
+
+	return Color.New(slot1 / 255, slot2 / 255, slot3 / 255, slot4 / 255)
 end
 
 function slot0.GenerateRandomFanPosition(slot0, slot1, slot2, slot3, slot4, slot5, slot6)

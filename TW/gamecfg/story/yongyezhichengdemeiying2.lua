@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "四周的烛台一个接一个亮起，映入眼帘的是王座前身着纯白色连衣裙的埃姆登与坐在王座侧面的约克。",
+			say = "四周的烛台一个接一个亮起，映入眼帘的是王座前身着纯白色连衣裙的{namecode:448}与坐在王座侧面的{namecode:457}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "摁下欧根送来的通讯器————没有出现任何反应。",
+			say = "摁下{namecode:428}送来的通讯器————没有出现任何反应。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "……好像有些明白欧根所说的“无论发生什么，都请把游戏玩到最后”的意思了。",
+			say = "……好像有些明白{namecode:428}所说的“无论发生什么，都请把游戏玩到最后”的意思了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "来到埃姆登身边，发现王座的另一侧放着一副井字棋。",
+			say = "来到{namecode:448}身边，发现王座的另一侧放着一副井字棋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

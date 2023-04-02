@@ -11,7 +11,7 @@ return {
 			actor = 206060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是…一支由巡洋舰和驱逐舰组成的前锋舰队，正在希佩尔的带领下脱离铁血主力舰队向我们高速驶来…！",
+			say = "这是…一支由巡洋舰和驱逐舰组成的前锋舰队，正在{namecode:426}的带领下脱离铁血主力舰队向我们高速驶来…！",
 			bgm = "bgm-royalnavy",
 			typewriter = {
 				speed = 0.05,

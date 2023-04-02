@@ -182,7 +182,7 @@ return {
 			bgName = "star_level_bg_115",
 			hideOther = true,
 			dir = 1,
-			actorName = "德意志&伊丽莎白",
+			actorName = "{namecode:429}&伊丽莎白",
 			actor = 403043,
 			nameColor = "#a9f548",
 			say = "谁跟她关系好了啦！！",
@@ -252,7 +252,7 @@ return {
 			bgName = "star_level_bg_115",
 			hideOther = true,
 			dir = 1,
-			actorName = "德意志&伊丽莎白",
+			actorName = "{namecode:429}&伊丽莎白",
 			actor = 403043,
 			nameColor = "#a9f548",
 			say = "干嘛！仆从/仆人？",
@@ -309,7 +309,7 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "德意志&伊丽莎白",
+			actorName = "{namecode:429}&伊丽莎白",
 			say = "哇……",
 			subActors = {
 				{
@@ -480,7 +480,7 @@ return {
 			actor = 199011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈，罗恩还是老样子，时不时就会说出让人吓一跳的话呢～",
+			say = "啊哈哈，{namecode:439}还是老样子，时不时就会说出让人吓一跳的话呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

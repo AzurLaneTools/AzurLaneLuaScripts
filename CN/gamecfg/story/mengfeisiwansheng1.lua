@@ -58,7 +58,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愧是格奈森瑙，帮大忙了，谢啦",
+			say = "不愧是{namecode:434}，帮大忙了，谢啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？格奈森瑙也对这种感兴趣吗？有点意外…",
+			say = "欸？{namecode:434}也对这种感兴趣吗？有点意外…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

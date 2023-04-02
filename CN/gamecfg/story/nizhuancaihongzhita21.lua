@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "噢噢，格奈森瑙·META来支援了！这下战斗稳了！",
+			say = "噢噢，{namecode:434}·META来支援了！这下战斗稳了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "前提是敌人舰队数量不变……乌尔里希阁下，塞壬舰队突然改变了部署模式！",
+			say = "前提是敌人舰队数量不变……{namecode:464}阁下，塞壬舰队突然改变了部署模式！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "正在众人有些放松下来的时候，塞壬舰队中的特殊人型全部整齐划一的向着格奈森瑙的方向扑了过去。",
+			say = "正在众人有些放松下来的时候，塞壬舰队中的特殊人型全部整齐划一的向着{namecode:434}的方向扑了过去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "格奈森瑙的炮击是毁灭性的，就连新型人型也不能完全抵挡。",
+			say = "{namecode:434}的炮击是毁灭性的，就连新型人型也不能完全抵挡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "它们发现了格奈森瑙机动性受损的问题……打算用数量强行淹过去！",
+			say = "它们发现了{namecode:434}机动性受损的问题……打算用数量强行淹过去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900319,
-			say = "这里就交给我来清理吧，所有人尽可能后撤——余烬所属沙恩霍斯特，现在加入战斗！",
+			say = "这里就交给我来清理吧，所有人尽可能后撤——余烬所属{namecode:433}，现在加入战斗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

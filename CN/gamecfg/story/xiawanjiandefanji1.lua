@@ -36,7 +36,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唔…Z2，我觉得这已经不是稍微有些超乎想象的问题了。",
+			say = "唔…{namecode:401}，我觉得这已经不是稍微有些超乎想象的问题了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "果然这种情况就连Z18也笑不出来了么。",
+			say = "果然这种情况就连{namecode:404}也笑不出来了么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Z11，Z21，Z22两天前就失去了战斗能力。",
+			say = "{namecode:496}，{namecode:407}，{namecode:497}两天前就失去了战斗能力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "刚刚Z13的埋伏又失败了…情况可能真的有点危险了啊。",
+			say = "刚刚{namecode:498}的埋伏又失败了…情况可能真的有点危险了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哎，Z2，你怎么忽然摸我的头？",
+			say = "哎，{namecode:401}，你怎么忽然摸我的头？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "要是Z1在的话，这种时候应该能给大家打气吧。我不像Z1那么阳光，就只能做这种事了。",
+			say = "要是{namecode:400}在的话，这种时候应该能给大家打气吧。我不像{namecode:400}那么阳光，就只能做这种事了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……谢谢~没事的，这又不是Z2的错，而且我觉得Z2已经做得很好啦~",
+			say = "……谢谢~没事的，这又不是{namecode:401}的错，而且我觉得{namecode:401}已经做得很好啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嗯嗯~既然从Z2那里获得了温暖的能量，我也能继续笑得出来啦！",
+			say = "嗯嗯~既然从{namecode:401}那里获得了温暖的能量，我也能继续笑得出来啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嘿嘿，笑容可是解除恐惧的解药哦~Z2也来笑一个吧~",
+			say = "嘿嘿，笑容可是解除恐惧的解药哦~{namecode:401}也来笑一个吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

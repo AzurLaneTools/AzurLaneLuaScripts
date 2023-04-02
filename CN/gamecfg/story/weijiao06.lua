@@ -90,7 +90,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……那就请前辈先回去接受修理吧，我和姐姐会继续追击斯佩伯爵。",
+			say = "唔……那就请前辈先回去接受修理吧，我和姐姐会继续追击{namecode:431}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可不想轻易把击沉斯佩伯爵的功劳拱手让人呢~",
+			say = "我可不想轻易把击沉{namecode:431}的功劳拱手让人呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

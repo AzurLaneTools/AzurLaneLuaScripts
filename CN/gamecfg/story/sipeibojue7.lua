@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "指挥官只说了这一句话，就回到了德意志身边。",
+			say = "指挥官只说了这一句话，就回到了{namecode:429}身边。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "指挥官，有些坏心眼的阿贾克斯，德意志姐姐，还有铁血的、舰队的大家——",
+			say = "指挥官，有些坏心眼的阿贾克斯，{namecode:429}姐姐，还有铁血的、舰队的大家——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

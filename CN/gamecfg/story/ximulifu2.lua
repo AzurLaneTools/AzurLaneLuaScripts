@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…还好没有迟到…啊，俾、俾斯麦大人！",
+			say = "呼…还好没有迟到…啊，俾、{namecode:435}大人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来了吗，Z23、还有指挥官",
+			say = "来了吗，{namecode:408}、还有指挥官",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 405011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前面就说过了吧，不用这么拘谨，叫我俾斯麦就好，Z23",
+			say = "前面就说过了吧，不用这么拘谨，叫我{namecode:435}就好，{namecode:408}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 401234,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是、是！俾斯麦…小姐！",
+			say = "是、是！{namecode:435}…小姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，还是一如既往地是个认真的孩子啊，Z23",
+			say = "呵呵，还是一如既往地是个认真的孩子啊，{namecode:408}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在铁血舰队的簇拥之下，身着礼服的俾斯麦向这边走来",
+			say = "在铁血舰队的簇拥之下，身着礼服的{namecode:435}向这边走来",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "与平时不同，今天的俾斯麦声音中透露着一股威严",
+			say = "与平时不同，今天的{namecode:435}声音中透露着一股威严",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

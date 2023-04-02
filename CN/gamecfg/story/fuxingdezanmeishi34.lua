@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "腓特烈大帝。铁血海军战列舰，腓特烈大帝。",
+			say = "{namecode:440}。铁血海军战列舰，{namecode:440}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

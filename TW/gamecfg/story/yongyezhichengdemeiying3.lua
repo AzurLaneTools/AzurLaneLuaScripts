@@ -300,7 +300,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "醒来的时候，约克和埃姆登已经不见了，桌上只剩下了一个镶嵌着红宝石的项链。",
+			say = "醒来的时候，{namecode:457}和{namecode:448}已经不见了，桌上只剩下了一个镶嵌着红宝石的项链。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -370,7 +370,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "从与携带的“通讯器”完全不同的方向传来了欧根的声音。",
+			say = "从与携带的“通讯器”完全不同的方向传来了{namecode:428}的声音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "埃姆登的语气突然严肃了起来。",
+			say = "{namecode:448}的语气突然严肃了起来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "要破解的谜面是“不胜的诅咒”，而不是“赢下埃姆登”。",
+			say = "要破解的谜面是“不胜的诅咒”，而不是“赢下{namecode:448}”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			actor = 403111,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对局结束。取得胜利的是……埃姆登。",
+			say = "对局结束。取得胜利的是……{namecode:448}。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -602,7 +602,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对了，在离开之前……约克，把那个东西拿出来吧。",
+			say = "对了，在离开之前……{namecode:457}，把那个东西拿出来吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "接过了约克递来的东西——一个镶嵌着红宝石的项链。",
+			say = "接过了{namecode:457}递来的东西——一个镶嵌着红宝石的项链。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然……海因里希，侦察机发现了前方“塞壬”的伏击舰队，旗舰判定为执行者系列精英，执棋者。",
+			say = "果然……{namecode:454}，侦察机发现了前方“塞壬”的伏击舰队，旗舰判定为执行者系列精英，执棋者。",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "训练场里的敌人果然变得越来越狡猾了……好厉害啊彼得！",
+			say = "训练场里的敌人果然变得越来越狡猾了……好厉害啊{namecode:471}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "这种程度的分析连预测都算不上。不过我与威悉正在应付塞壬机群的反扑，暂时无法为你提供支援。",
+			say = "这种程度的分析连预测都算不上。不过我与{namecode:467}正在应付塞壬机群的反扑，暂时无法为你提供支援。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊~~~我知道了，原来是大海葵啊！对嘛，这个名字又贴切又可爱，彼得~我们干脆把数据库里的名字改成这个好不好！",
+			say = "啊~~~我知道了，原来是大海葵啊！对嘛，这个名字又贴切又可爱，{namecode:471}~我们干脆把数据库里的名字改成这个好不好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "想都别想……彼得·史特拉塞通讯结束。",
+			say = "想都别想……{namecode:470}通讯结束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

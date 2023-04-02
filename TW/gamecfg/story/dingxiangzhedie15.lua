@@ -104,7 +104,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_4",
-			say = "（腓特烈当时确实着重提到了萨默斯岛这个地方……）",
+			say = "（{namecode:441}当时确实着重提到了萨默斯岛这个地方……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

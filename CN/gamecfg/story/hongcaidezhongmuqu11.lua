@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401020,
-			say = "欧根，你是不是对雷达做手脚了。",
+			say = "{namecode:428}，你是不是对雷达做手脚了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "希佩尔姐姐都那么兴致勃勃的进行准备了，不打的话也太扫兴了吧？",
+			say = "{namecode:426}姐姐都那么兴致勃勃的进行准备了，不打的话也太扫兴了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401020,
-			say = "我这就把侦察数据传给希佩尔她们，现在改变主意还来得及，大概。",
+			say = "我这就把侦察数据传给{namecode:426}她们，现在改变主意还来得及，大概。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401020,
-			say = "真没想到能从欧根嘴里听到“干劲”两个字，难道今天就是我Z2的最后一天了么。",
+			say = "真没想到能从{namecode:428}嘴里听到“干劲”两个字，难道今天就是我{namecode:401}的最后一天了么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

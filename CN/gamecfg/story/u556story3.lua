@@ -42,7 +42,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "文件我确确实实交给{namecode:98}小姐了！但是，回来的时候，我见到U81她们在玩……",
+			say = "文件我确确实实交给{namecode:98}小姐了！但是，回来的时候，我见到{namecode:414}她们在玩……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "于是在U556奇怪的道歉兼邀请下，来到了今天U81举办的捉迷藏大会现场---",
+			say = "于是在{namecode:416}奇怪的道歉兼邀请下，来到了今天{namecode:414}举办的捉迷藏大会现场---",
 			effects = {
 				{
 					active = false,
@@ -234,11 +234,11 @@ return {
 					flag = 1
 				},
 				{
-					content = "跟着U81",
+					content = "跟着{namecode:414}",
 					flag = 2
 				},
 				{
-					content = "干脆就藏在U556的背后",
+					content = "干脆就藏在{namecode:416}的背后",
 					flag = 3
 				}
 			}
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "失策了…U556现在是秘书舰啊…",
+			say = "失策了…{namecode:416}现在是秘书舰啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 2,
-			say = "U81是捉迷藏高手，她的藏身之处一定非常隐蔽。",
+			say = "{namecode:414}是捉迷藏高手，她的藏身之处一定非常隐蔽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 3,
-			say = "最危险的地方就是最安全的地方。只要U556出发去寻找其他人，这里就能马上到达起点，从而率先脱离危险。",
+			say = "最危险的地方就是最安全的地方。只要{namecode:416}出发去寻找其他人，这里就能马上到达起点，从而率先脱离危险。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			say = "20、19……",
 			typewriter = {
 				speed = 0.05,
@@ -542,7 +542,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
-			actorName = "U-556",
+			actorName = "{namecode:416}",
 			say = "2、1、0！我来找你们了！",
 			typewriter = {
 				speed = 0.05,
@@ -640,7 +640,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以说，U556只找到了指挥官一个人吗？",
+			say = "所以说，{namecode:416}只找到了指挥官一个人吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，为什么U556只找到了指挥官呢？而且是一下子就找到了~",
+			say = "不过，为什么{namecode:416}只找到了指挥官呢？而且是一下子就找到了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -211,7 +211,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于要抵抗了么！很好，就用你来检验一下我长久以来的训练成果，海因里希亲王，参上！",
+			say = "终于要抵抗了么！很好，就用你来检验一下我长久以来的训练成果，{namecode:453}，参上！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

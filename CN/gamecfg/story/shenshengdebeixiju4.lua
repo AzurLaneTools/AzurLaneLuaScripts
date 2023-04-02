@@ -95,7 +95,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "厌战",
-			say = "…拉斯佩齐亚港外围",
+			say = "…拉{namecode:432}齐亚港外围",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉斯佩齐亚是帝国最深处的军港之一，难道是消灭塞壬舰队之后跑去度假了？",
+			say = "拉{namecode:432}齐亚是帝国最深处的军港之一，难道是消灭塞壬舰队之后跑去度假了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "佐治亚",
-			say = "{namecode:199}稍早前发来的联络表示，其手下的一支舰队在向斯卡帕湾前进之时遭遇到铁血提尔比茨带领舰队的猛烈阻击。",
+			say = "{namecode:199}稍早前发来的联络表示，其手下的一支舰队在向斯卡帕湾前进之时遭遇到铁血{namecode:436}带领舰队的猛烈阻击。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "佐治亚",
-			say = "她本人所在的舰队也遭遇了自称奥古斯特与埃吉尔的两艘未知铁血计划舰的阻拦。",
+			say = "她本人所在的舰队也遭遇了自称{namecode:482}与{namecode:480}的两艘未知铁血计划舰的阻拦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "佐治亚",
-			say = "同时根据{namecode:199}的情报，她发现了铁血前线总指挥乌尔里希·冯·胡腾的行踪。",
+			say = "同时根据{namecode:199}的情报，她发现了铁血前线总指挥{namecode:463}的行踪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "佐治亚",
-			say = "其正带领着包括计划舰罗恩与美因茨在内的舰队主力向我们的方向直扑而来。",
+			say = "其正带领着包括计划舰{namecode:439}与{namecode:479}在内的舰队主力向我们的方向直扑而来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "不过腓特烈大帝的部署总是不走寻常路……",
+			say = "不过{namecode:440}的部署总是不走寻常路……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "佐治亚",
-			say = "乌尔里希·冯·胡滕是一位优秀的指挥者，铁血的计划舰同样不容小觑。",
+			say = "{namecode:463}是一位优秀的指挥者，铁血的计划舰同样不容小觑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "佐治亚",
-			say = "至此，除总旗舰腓特烈大帝之外，铁血在NA海域中的所有已知主力舰均已暴露行踪。",
+			say = "至此，除总旗舰{namecode:440}之外，铁血在NA海域中的所有已知主力舰均已暴露行踪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "相比指挥官您，铁血的乌尔里希·冯·胡滕恐怕更需要担心这件事~",
+			say = "相比指挥官您，铁血的{namecode:463}恐怕更需要担心这件事~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

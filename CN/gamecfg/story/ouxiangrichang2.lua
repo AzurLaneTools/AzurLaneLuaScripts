@@ -116,7 +116,7 @@ return {
 			actor = 900203,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "监测到希佩尔的非正常状况，希佩尔，现在正处于“疲惫”状态。",
+			say = "监测到{namecode:426}的非正常状况，{namecode:426}，现在正处于“疲惫”状态。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			actor = 900205,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈…希佩尔和{namecode:91}，越来越要好了呢",
+			say = "啊哈哈…{namecode:426}和{namecode:91}，越来越要好了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

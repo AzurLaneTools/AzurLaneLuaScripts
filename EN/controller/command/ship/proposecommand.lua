@@ -34,6 +34,12 @@ function slot0.execute(slot0, slot1)
 			end
 
 			getProxy(CollectionProxy).shipGroups[uv0.groupId]:updateMarriedFlag()
+
+			slot3 = getProxy(PlayerProxy)
+			slot4 = slot3:getData()
+
+			slot4:SetProposeShipId(uv5)
+			slot3:updatePlayer(slot4)
 			uv4:sendNotification(GAME.PROPOSE_SHIP_DONE, {
 				ship = uv0
 			})

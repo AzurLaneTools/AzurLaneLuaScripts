@@ -5458,6 +5458,27 @@ _G.pg.base.item_data_statistics[11041] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[11042] = {
+	display = "B-13 2연장 130mm 주포 B-2LM T3 설계도",
+	name = "B-13 2연장 130mm 주포 B-2LM T3 설계도",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11042,
+	is_world = 0,
+	icon = "Equips/85000",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[11043] = {
 	display = "B-38 3연장 152mm 주포 MK5 T3 설계도 ",
 	name = "B-38 3연장 152mm 주포 MK5 T3 설계도 ",
@@ -9318,6 +9339,48 @@ _G.pg.base.item_data_statistics[21018] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21019] = {
+	display = "퀸 엘리자베스·META의 전용 성능 향상 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
+	name = "결정:퀸 엘리자베스·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21019,
+	is_world = 0,
+	icon = "Props/21019",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21020] = {
+	display = "라 갈리소니에르·META의 전용 성능 향상 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
+	name = "결정:라 갈리소니에르·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21020,
+	is_world = 0,
+	icon = "Props/21020",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "함장 화포 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 	name = "결정화 내열강",
@@ -9585,6 +9648,27 @@ _G.pg.base.item_data_statistics[21909] = {
 	id = 21909,
 	is_world = 0,
 	icon = "Props/21909",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21910] = {
+	display = "「비콘·META」 전투 중 수집한 데이터. 퀸 엘리자베스·META의 동기화율을 증가시킬 수 있다.",
+	name = "동기화 수치: 퀸 엘리자베스·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21910,
+	is_world = 0,
+	icon = "Props/21910",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -16069,6 +16153,95 @@ _G.pg.base.item_data_statistics[30410] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30411] = {
+	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
+	name = "장비스킨 상자(월드 투어)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30411,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	display_icon = {
+		{
+			9,
+			2033,
+			1
+		},
+		{
+			9,
+			2034,
+			1
+		},
+		{
+			9,
+			2035,
+			1
+		},
+		{
+			9,
+			2036,
+			1
+		},
+		{
+			9,
+			2037,
+			1
+		},
+		{
+			9,
+			2038,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30412] = {
+	display = "풍운만상(어뢰), 풍운만상(전투), 풍운만상(폭격) 장비스킨을 1개씩 획득 가능",
+	name = "풍운만상",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30412,
+	is_world = 0,
+	icon = "Equips/96531",
+	display_icon = {
+		{
+			9,
+			2033,
+			1
+		},
+		{
+			9,
+			2034,
+			1
+		},
+		{
+			9,
+			2035,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "사용 후 「뜨거운 여름」 테마 장비 스킨 중 임의로 1가지를 선택하여 획득 가능",
 	name = "지향형 장비 스킨 상자(늦여름)",
@@ -18062,6 +18235,118 @@ _G.pg.base.item_data_statistics[30519] = {
 		{
 			9,
 			747,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30520] = {
+	display = "사용 시「쥬쥬 야전 병원」 스타일 장비스킨 중 1가지 선택 획득 가능",
+	name = "지향형 장비스킨 상자(쥬쥬 야전 병원 )",
+	max_num = 0,
+	type = 13,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30520,
+	is_world = 0,
+	icon = "Props/appearanceboxyiyuanzixuan",
+	display_icon = {
+		{
+			9,
+			280,
+			1
+		},
+		{
+			9,
+			281,
+			1
+		},
+		{
+			9,
+			282,
+			1
+		},
+		{
+			9,
+			283,
+			1
+		},
+		{
+			9,
+			284,
+			1
+		},
+		{
+			9,
+			285,
+			1
+		},
+		{
+			9,
+			286,
+			1
+		},
+		{
+			9,
+			287,
+			1
+		},
+		{
+			9,
+			288,
+			1
+		},
+		{
+			9,
+			289,
+			1
+		},
+		{
+			9,
+			290,
+			1
+		},
+		{
+			9,
+			291,
+			1
+		},
+		{
+			9,
+			292,
+			1
+		},
+		{
+			9,
+			293,
+			1
+		},
+		{
+			9,
+			294,
+			1
+		},
+		{
+			9,
+			295,
+			1
+		},
+		{
+			9,
+			296,
+			1
+		},
+		{
+			9,
+			297,
 			1
 		}
 	},
@@ -117411,7 +117696,7 @@ _G.pg.base.item_data_statistics[57897] = {
 }
 
 _G.pg.base.item_data_statistics[57900] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -117458,7 +117743,7 @@ _G.pg.base.item_data_statistics[57900] = {
 }
 
 _G.pg.base.item_data_statistics[57901] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -117505,7 +117790,7 @@ _G.pg.base.item_data_statistics[57901] = {
 }
 
 _G.pg.base.item_data_statistics[57902] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -117552,7 +117837,7 @@ _G.pg.base.item_data_statistics[57902] = {
 }
 
 _G.pg.base.item_data_statistics[57903] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -117599,7 +117884,7 @@ _G.pg.base.item_data_statistics[57903] = {
 }
 
 _G.pg.base.item_data_statistics[57904] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -117646,7 +117931,7 @@ _G.pg.base.item_data_statistics[57904] = {
 }
 
 _G.pg.base.item_data_statistics[57905] = {
-	display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
 	name = "랜덤 설계도",
 	max_num = 0,
 	type = 99,
@@ -176681,6 +176966,194 @@ _G.pg.base.item_data_statistics[58835] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[58836] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58836,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			11042,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58837] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58837,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			11042,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58838] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58838,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10122,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58839] = {
+	display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+	name = "랜덤 설계도",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58839,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			76,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "참가한 캐릭터는 경험치를 획득할 수 있습니다.",
 	name = "경험치",
@@ -182334,6 +182807,216 @@ _G.pg.base.item_data_statistics[59396] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59397] = {
+	display = "아이콘 테두리 이벤트에서 교환 가능. 이벤트 종료 후 사라짐.",
+	name = "훈련PT",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59397,
+	is_world = 0,
+	icon = "Props/xunliandianshu_yv2",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59398] = {
+	display = "「부흥의 찬송가」 복각 이벤트 교환용. 이벤트 종료 후 사라짐",
+	name = "부흥의 증표",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59398,
+	is_world = 0,
+	icon = "Props/yidaliV2_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59399] = {
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59399,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59400] = {
+	display = "「부흥의 찬송가」 한정 복각 이벤트에서 획득. 한정 건조 1회 무료 진행 가능(이벤트 종료 후 사라짐)",
+	name = "1회 건조권",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 4723,
+	id = 59400,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59401] = {
+	display = "「꼬마 책사 성장기」 복각 이벤트 캐릭터 호감도 상승용. 이벤트 종료 후 사라짐",
+	name = "호감도-꼬마 아마기",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59401,
+	is_world = 0,
+	icon = "Props/xiaotiancheng_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59402] = {
+	display = "「의뢰 교환 계획II」 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	name = "군사의뢰 증빙",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59402,
+	is_world = 0,
+	icon = "Props/commission_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59403] = {
+	display = "「월드투어」(2023.4.8~2023.6.7) 참여 시 획득하는 포인트. 누적하여 보상을 수령할 수 있다. 이벤트 종료 후 사라짐.",
+	name = "투어 PT",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59403,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59404] = {
+	display = "不该被看到",
+	name = "通行证十期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 21,
+	link_id = 7010,
+	id = 59404,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59405] = {
+	display = "「극지 폭풍」 이벤트 아이템. 이벤트 종료 후 사라짐",
+	name = "극지 폭풍Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 300001,
+	id = 59405,
+	is_world = 0,
+	icon = "Props/jidifengbao_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59406] = {
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
+	name = "스킨 체험권",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59406,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",
@@ -185524,6 +186207,27 @@ _G.pg.base.item_data_statistics[59845] = {
 		520034,
 		521034
 	}
+}
+
+_G.pg.base.item_data_statistics[59846] = {
+	display = "5주년 출석 이벤트 획득——돛을 올리고 파도를 헤쳐나간지 5년째! 계속해서 푸른 바다를 향하여 전진!",
+	name = "5주년 기념 코인",
+	max_num = 0,
+	type = 1,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59846,
+	is_world = 0,
+	icon = "props/wuzhounian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
 }
 
 _G.pg.base.item_data_statistics[59847] = {
@@ -192181,6 +192885,216 @@ _G.pg.base.item_data_statistics[60305] = {
 	id = 60305,
 	is_world = 0,
 	icon = "props/draw_g",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60306] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「S」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60306,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60307] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「u」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60307,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60308] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「p」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60308,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60309] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「e」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60309,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60310] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「r」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60310,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60311] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「B」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60311,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60312] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「u」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60312,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60313] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「r」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60313,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60314] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「i」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60314,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60315] = {
+	display = "「원 펀치! 푸링!」 이벤트 아이템",
+	name = "단서「n」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60315,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
 	display_icon = {},
 	price = {},
 	index = {},

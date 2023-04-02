@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "埃吉尔与奥古斯特也留在这里与重樱的盟友防御斯卡帕湾，等待我们的归来。",
+			say = "{namecode:480}与{namecode:482}也留在这里与重樱的盟友防御斯卡帕湾，等待我们的归来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然腓特烈大帝是这么说的，不过之后她们就收到调动命令前往了前线。",
+			say = "虽然{namecode:440}是这么说的，不过之后她们就收到调动命令前往了前线。",
 			effects = {
 				{
 					active = false,
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "不过在这个基础上，腓特烈大帝的部署看起来也没有那么不可思议了，不是么？",
+			say = "不过在这个基础上，{namecode:440}的部署看起来也没有那么不可思议了，不是么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

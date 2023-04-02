@@ -39,7 +39,7 @@ function slot0.update(slot0, slot1, slot2)
 	setActive(slot0.newTF, false)
 	setActive(slot0.nameTF, not slot2)
 
-	slot0.nameTF.text = shortenString(HXSet.hxLan(slot0.spWeaponVO:GetName()), 5)
+	slot0.nameTF.text = shortenString(slot0.spWeaponVO:GetName(), 5)
 	slot3 = slot0.spWeaponVO:GetShipId()
 
 	setActive(slot0.equiped, slot3)

@@ -94,7 +94,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海因里希、威悉、Z46。",
+			say = "{namecode:454}、{namecode:467}、{namecode:412}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 406010,
-			actorName = "威悉&Z46",
+			actorName = "{namecode:467}&{namecode:412}",
 			say = "在！\n在。",
 			subActors = {
 				{
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "三小时后么…没问题，不过...海因里希又去哪了？",
+			say = "三小时后么…没问题，不过...{namecode:454}又去哪了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据往昔的经验，当海因里希没有在休息区的时候，通常是独自一人在海域中进行特训的时候。",
+			say = "根据往昔的经验，当{namecode:454}没有在休息区的时候，通常是独自一人在海域中进行特训的时候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我想起来了，是那个她自己称为「海因里希式」的特训么？其实多数时间和玩闹区别不大吧……",
+			say = "我想起来了，是那个她自己称为「{namecode:454}式」的特训么？其实多数时间和玩闹区别不大吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "倒是很有海因里希风格的努力方式。这样好了，你们继续准备，我亲自去通知她。",
+			say = "倒是很有{namecode:454}风格的努力方式。这样好了，你们继续准备，我亲自去通知她。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎~？彼得，你来的正好！能帮我去控制台再刷新出一批浮标来么！",
+			say = "哎~？{namecode:471}，你来的正好！能帮我去控制台再刷新出一批浮标来么！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是！每次看到的时候都觉得真的很帅啊~彼得不觉得么？",
+			say = "可是！每次看到的时候都觉得真的很帅啊~{namecode:471}不觉得么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就是很帅的意思嘛~谢谢啦彼得，接下来是那边的浮标！",
+			say = "那就是很帅的意思嘛~谢谢啦{namecode:471}，接下来是那边的浮标！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海因里希，关于今天的训练———",
+			say = "{namecode:454}，关于今天的训练———",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "P级装甲舰海因里希，全弹发射————哇，好痛！",
+			say = "P级装甲舰{namecode:454}，全弹发射————哇，好痛！",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -716,7 +716,7 @@ return {
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
-			say = "一声呼啸过后，舰载机的训练弹准确“砸”在了正在做发射准备的海因里希亲王头上。",
+			say = "一声呼啸过后，舰载机的训练弹准确“砸”在了正在做发射准备的{namecode:453}头上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，彼得！为什么要突然袭击我啦！",
+			say = "啊，{namecode:471}！为什么要突然袭击我啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			say = "彼得·史特拉塞没有说话，只是默默的指了指怀表。",
+			say = "{namecode:470}没有说话，只是默默的指了指怀表。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来已经这个时间了么……欸，彼得难道是来催我参加训练的吗？",
+			say = "原来已经这个时间了么……欸，{namecode:471}难道是来催我参加训练的吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "糟了糟了，得赶紧去进行准备才行！谢啦，彼得！",
+			say = "糟了糟了，得赶紧去进行准备才行！谢啦，{namecode:471}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -63,19 +63,27 @@ end
 
 function slot0.calcLocalizationUse()
 	if PLATFORM_CODE == PLATFORM_CH then
-		function slot0()
-			return PlayerPrefs.GetInt("localization_use", 0) > 0
+		if PlayerPrefs.HasKey("localization_use") then
+			PlayerPrefs.DeleteKey(slot0)
 		end
 
-		function slot1(slot0)
-			PlayerPrefs.SetInt("localization_use", slot0 and 1 or 0)
-		end
+		slot1 = pg.TimeMgr.GetInstance()
+		slot4 = PlayerPrefs.GetInt("localization_time_1_" .. getProxy(PlayerProxy):getData().id, 0)
 
-		if uv0.codeMode and not slot0() then
+		if uv0.codeMode and not slot1.IsSameDay(slot1, slot4, slot1.GetServerTime(slot1)) then
 			pg.m02:sendNotification(GAME.CHEATER_MARK, {
 				reason = CC_TYPE_99
 			})
-			slot1(true)
+			PlayerPrefs.SetInt(slot3, slot1:GetServerTime())
+		end
+
+		slot6 = PlayerPrefs.GetInt("localization_time_2_" .. slot2, 0)
+
+		if uv0.antiSkinMode and not slot1.IsSameDay(slot1, slot6, slot1.GetServerTime(slot1)) then
+			pg.m02:sendNotification(GAME.CHEATER_MARK, {
+				reason = CC_TYPE_100
+			})
+			PlayerPrefs.SetInt(slot5, slot1:GetServerTime())
 		end
 	end
 end
@@ -96,7 +104,8 @@ function slot0.isHXNation(slot0)
 		[Nation.JP] = true,
 		[Nation.US] = true,
 		[Nation.META] = true,
-		[Nation.CN] = true
+		[Nation.CN] = true,
+		[Nation.DE] = true
 	}
 
 	return uv0.nationHX[slot0]
@@ -219,6 +228,10 @@ function slot0.isHxSkin()
 	return not uv0.antiSkinMode
 end
 
+function slot0.isHxPropose()
+	return not uv0.codeMode and PLATFORM_CODE == PLATFORM_CH and LOCK_PROPOSE_SHIP
+end
+
 slot0.hxPathList = {
 	"live2d",
 	"painting",
@@ -228,7 +241,8 @@ slot0.hxPathList = {
 	"shipmodels",
 	"technologycard",
 	"shipdesignicon",
-	"herohrzicon"
+	"herohrzicon",
+	"skinunlockanim"
 }
 slot0.folderBundle = {
 	"paintingface"

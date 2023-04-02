@@ -432,7 +432,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "吕佐夫小姐，观测结果确认，塞壬舰队的航速慢下来了。",
+			say = "{namecode:461}小姐，观测结果确认，塞壬舰队的航速慢下来了。",
 			effects = {
 				{
 					active = true,
@@ -645,7 +645,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402080,
-			say = "图林根对什么事都不会直接否定呢……",
+			say = "{namecode:466}对什么事都不会直接否定呢……",
 			effects = {
 				{
 					active = true,
@@ -717,7 +717,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "欸，吕佐夫，事前通报，事前通报别忘了啊——————",
+			say = "欸，{namecode:461}，事前通报，事前通报别忘了啊——————",
 			effects = {
 				{
 					active = false,
@@ -758,7 +758,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "唔……好像在进去之后，图林根发了！",
+			say = "唔……好像在进去之后，{namecode:466}发了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1073,7 +1073,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "唔……埃姆登小姐，皇家在前方似乎出动了斯卡帕湾驻防舰队的大半对我们进行拦截。",
+			say = "唔……{namecode:448}小姐，皇家在前方似乎出动了斯卡帕湾驻防舰队的大半对我们进行拦截。",
 			effects = {
 				{
 					active = true,
@@ -1167,7 +1167,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402080,
-			say = "要是打起来就糟糕了哦……别说带回塞壬残骸，埃尔宾都要变成残骸被带回去了……",
+			say = "要是打起来就糟糕了哦……别说带回塞壬残骸，{namecode:449}都要变成残骸被带回去了……",
 			effects = {
 				{
 					active = true,
@@ -1191,7 +1191,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "不要这么消极啦，埃尔宾！",
+			say = "不要这么消极啦，{namecode:449}！",
 			effects = {
 				{
 					active = true,
@@ -1239,7 +1239,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "塞德利茨，给对面回话吧，我们愿意停船。",
+			say = "{namecode:460}，给对面回话吧，我们愿意停船。",
 			effects = {
 				{
 					active = true,
@@ -1758,7 +1758,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感觉睡意又上来了……埃尔宾塞德利茨，之后交给你们了zZZZ",
+			say = "感觉睡意又上来了……{namecode:449}{namecode:460}，之后交给你们了zZZZ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

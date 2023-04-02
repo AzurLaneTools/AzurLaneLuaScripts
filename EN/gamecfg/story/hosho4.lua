@@ -19,7 +19,7 @@ return {
 		{
 			actor = 306031,
 			side = 1,
-			say = "嗯？是Z23呢，找我有事吗？",
+			say = "嗯？是{namecode:408}呢，找我有事吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 		{
 			actor = 306031,
 			side = 1,
-			say = "哎呀，不愧是Z23呢，呵呵，谢谢你的提醒，确实这次有些仓促了，下次会提前好好说明的~",
+			say = "哎呀，不愧是{namecode:408}呢，呵呵，谢谢你的提醒，确实这次有些仓促了，下次会提前好好说明的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 		{
 			actor = 306031,
 			side = 1,
-			say = "说起来……好像还有一件东西借给了沙恩霍斯特，能麻烦你去取一下吗？",
+			say = "说起来……好像还有一件东西借给了{namecode:433}，能麻烦你去取一下吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			BgFade = true,
 			sequence = {
 				{
-					"Z23离开后",
+					"{namecode:408}离开后",
 					2
 				}
 			}

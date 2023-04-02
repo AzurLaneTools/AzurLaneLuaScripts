@@ -72,7 +72,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，欧根，虽说宴会可以适当纵情…你这是不是太放开了一点……",
+			say = "唔，{namecode:428}，虽说宴会可以适当纵情…你这是不是太放开了一点……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，早就听重樱的同伴说过，欧根小姐喝起酒来非常“豪迈”……",
+			say = "呵呵，早就听重樱的同伴说过，{namecode:428}小姐喝起酒来非常“豪迈”……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 403033,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "提尔比茨～在闷头想什么呢～再来喝一杯～",
+			say = "{namecode:436}～在闷头想什么呢～再来喝一杯～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

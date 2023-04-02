@@ -22,7 +22,7 @@ return {
 			side = 2,
 			actorName = "测试者",
 			dir = 1,
-			say = "俾斯麦女士，就算是这样的局面，也不打算使用“那个”吗？",
+			say = "{namecode:435}女士，就算是这样的局面，也不打算使用“那个”吗？",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -182,7 +182,7 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我让欧根提前离开，因为我不知道接下来会发生什么",
+			say = "我让{namecode:428}提前离开，因为我不知道接下来会发生什么",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "bsm-1",
-			say = "俾斯麦用最后一门主炮朝着正在发送信号的测试者开火",
+			say = "{namecode:435}用最后一门主炮朝着正在发送信号的测试者开火",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

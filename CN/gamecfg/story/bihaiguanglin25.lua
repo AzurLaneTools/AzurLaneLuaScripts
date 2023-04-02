@@ -442,7 +442,7 @@ return {
 			actor = 403030,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我一路打下来早就已经精疲力尽了，奥丁也没办法持续作战。",
+			say = "我一路打下来早就已经精疲力尽了，{namecode:486}也没办法持续作战。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "欧根阁下真是大好人！还有奥丁阁下也是，就拜托你们了！",
+			say = "{namecode:428}阁下真是大好人！还有{namecode:486}阁下也是，就拜托你们了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

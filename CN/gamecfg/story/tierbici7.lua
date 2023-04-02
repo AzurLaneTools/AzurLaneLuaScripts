@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "在提尔比茨的邀约下，来到了港区附近的某处高台",
+			say = "在{namecode:436}的邀约下，来到了港区附近的某处高台",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "提尔比茨用手指向了天空",
+			say = "{namecode:436}用手指向了天空",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "提尔比茨的表情，充满了柔和。",
+			say = "{namecode:436}的表情，充满了柔和。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

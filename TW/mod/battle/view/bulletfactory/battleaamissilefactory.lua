@@ -1,15 +1,17 @@
 ys = ys or {}
 slot0 = ys
 slot1 = slot0.Battle.BattleConst.UnitType
+slot2 = slot0.Battle.BattleConst.AircraftUnitType
+slot3 = slot0.Battle.BattleConst.CharacterUnitType
 slot0.Battle.BattleAAMissileFactory = singletonClass("BattleAAMissileFactory", slot0.Battle.BattleBulletFactory)
 slot0.Battle.BattleAAMissileFactory.__name = "BattleAAMissileFactory"
-slot2 = slot0.Battle.BattleAAMissileFactory
+slot4 = slot0.Battle.BattleAAMissileFactory
 
-function slot2.MakeBullet(slot0)
+function slot4.MakeBullet(slot0)
 	return uv0.Battle.BattleTorpedoBullet.New()
 end
 
-function slot2.onBulletHitFunc(slot0, slot1, slot2)
+function slot4.onBulletHitFunc(slot0, slot1, slot2)
 	if slot0:GetBulletData():getTrackingTarget() == -1 then
 		uv0.Battle.BattleCannonBulletFactory.onBulletHitFunc(slot0, slot1, slot2)
 
@@ -20,15 +22,13 @@ function slot2.onBulletHitFunc(slot0, slot1, slot2)
 	slot6 = uv1.GetDataProxy()
 	slot7 = nil
 
-	if slot2 == uv2.AIRCRAFT_UNIT or slot2 == uv2.AIRFIGHTER_UNIT then
+	if table.contains(uv2, slot2) then
 		slot7 = uv1.GetSceneMediator():GetAircraft(slot1):GetUnitData()
-	elseif slot2 == uv2.PLAYER_UNIT then
-		slot7 = uv1.GetSceneMediator():GetCharacter(slot1):GetUnitData()
-	elseif slot2 == uv2.ENEMY_UNIT then
+	elseif table.contains(uv3, slot2) then
 		slot7 = uv1.GetSceneMediator():GetCharacter(slot1):GetUnitData()
 	end
 
-	if not slot7 or not slot4 or slot4 == -1 or slot7:GetUniqueID() ~= slot4:GetUniqueID() then
+	if not slot7 or not slot4 or slot7:GetUniqueID() ~= slot4:GetUniqueID() then
 		return
 	end
 
@@ -46,11 +46,11 @@ function slot2.onBulletHitFunc(slot0, slot1, slot2)
 	end
 end
 
-function slot2.onBulletMissFunc(slot0)
+function slot4.onBulletMissFunc(slot0)
 	uv0.onBulletHitFunc(slot0)
 end
 
-function slot2.MakeModel(slot0, slot1, slot2)
+function slot4.MakeModel(slot0, slot1, slot2)
 	slot3 = slot1:GetBulletData()
 	slot4 = slot3:GetTemplate()
 	slot5 = slot0:GetDataProxy()

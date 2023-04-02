@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499060,
-			say = "乌尔里希阁下，阿瓦隆之门已启动。",
+			say = "{namecode:464}阁下，阿瓦隆之门已启动。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "在这种紧要关头，希望您能认真一点，欧根亲王阁下。",
+			say = "在这种紧要关头，希望您能认真一点，{namecode:427}阁下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403030,
-			say = "嗯？我可是一直很认真哦，乌尔里希阁下。你看我们现在部署在海域中的庞大舰队，如何？",
+			say = "嗯？我可是一直很认真哦，{namecode:464}阁下。你看我们现在部署在海域中的庞大舰队，如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "伴随着欧根亲王的话语，战术地图上凭空出现了大量大小不一的绿点，每个点都代表一艘舰船，或一支量产型舰队。",
+			say = "伴随着{namecode:427}的话语，战术地图上凭空出现了大量大小不一的绿点，每个点都代表一艘舰船，或一支量产型舰队。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403030,
-			say = "我要调整一下部署，之后再联络咯，欧根亲王通讯结束。",
+			say = "我要调整一下部署，之后再联络咯，{namecode:427}通讯结束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "阿达尔伯特亲王、罗恩、U-81，能听到么，现在变更为B方案对白鹰舰队进行阻拦。",
+			say = "{namecode:455}、{namecode:439}、{namecode:414}，能听到么，现在变更为B方案对白鹰舰队进行阻拦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499010,
-			say = "现在已经和美因茨在指定位置等了好半天了，你什么时候带人来？",
+			say = "现在已经和{namecode:479}在指定位置等了好半天了，你什么时候带人来？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

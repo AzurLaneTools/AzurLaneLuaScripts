@@ -9,7 +9,7 @@ return {
 			actor = 403090,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "喂喂喂，彼得你在听么？海因里希即将抵达目标位置！",
+			say = "喂喂喂，{namecode:471}你在听么？{namecode:454}即将抵达目标位置！",
 			dir = 1,
 			bgm = "xinnong-2",
 			typewriter = {
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			actor = 403090,
 			dir = 1,
-			say = "海因里希收到~咦？怎么是威悉呀，彼得呢？",
+			say = "{namecode:454}收到~咦？怎么是{namecode:467}呀，{namecode:471}呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			actor = 406010,
 			dir = 1,
-			say = "彼得正在准备一个一举结束这些异常棋子和量产型“叛乱”的计划，目前作战暂时由我负责指挥。",
+			say = "{namecode:471}正在准备一个一举结束这些异常棋子和量产型“叛乱”的计划，目前作战暂时由我负责指挥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……在这里最缺乏观察力的人不就是你么，海因里希。",
+			say = "……在这里最缺乏观察力的人不就是你么，{namecode:454}。",
 			effects = {
 				{
 					active = true,

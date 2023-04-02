@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "和{namecode:91}说的一样，是一个笑起来有些可怕还会说奇怪话的人…你就是欧根亲王吧。",
+			say = "和{namecode:91}说的一样，是一个笑起来有些可怕还会说奇怪话的人…你就是{namecode:427}吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

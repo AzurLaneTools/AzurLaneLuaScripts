@@ -36,7 +36,7 @@ end
 function slot0.checkPicFileState(slot0)
 	slot1, slot2 = nil
 
-	for slot6, slot7 in pairs(pg.gallery_config.all) do
+	for slot6, slot7 in ipairs(pg.gallery_config.all) do
 		slot0.galleryPicExistStateTable[slot7] = PathMgr.FileExists(PathMgr.getAssetBundle(GalleryConst.PIC_PATH_PREFIX .. pg.gallery_config[slot7].illustration))
 	end
 end
@@ -44,7 +44,7 @@ end
 function slot0.checkMusicFileState(slot0)
 	slot1, slot2 = nil
 
-	for slot6, slot7 in pairs(pg.music_collect_config.all) do
+	for slot6, slot7 in ipairs(pg.music_collect_config.all) do
 		slot0.musicExistStateTable[slot7] = PathMgr.FileExists(PathMgr.getAssetBundle(MusicCollectionConst.MUSIC_SONG_PATH_PREFIX .. pg.music_collect_config[slot7].music .. ".b"))
 	end
 end

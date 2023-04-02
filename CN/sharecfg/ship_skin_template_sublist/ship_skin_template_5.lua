@@ -1,5 +1,6 @@
 pg = pg or {}
-pg.ship_skin_template_5 = {
+pg.base = pg.base or {}
+pg.base.ship_skin_template_5 = {
 	[201099] = {
 		ship_group = 20109,
 		name = "新月.改",
@@ -2672,7 +2673,7 @@ pg.ship_skin_template_5 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "拉菲，Z23，{namecode:6}，还有独角兽也一起！欸嘿嘿，今天我是绝对不会输的！",
+		desc = "拉菲，{namecode:408}，{namecode:6}，还有独角兽也一起！欸嘿嘿，今天我是绝对不会输的！",
 		voice_actor = 23,
 		spine_offset = "",
 		gyro = 0,

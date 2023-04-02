@@ -89,7 +89,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题~咦，彼得呢？",
+			say = "没问题~咦，{namecode:471}呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "史特拉塞说，根据刚才的战斗情况需要提高一下后续训练的难度，然后就独自一人前往控制区了。",
+			say = "{namecode:472}说，根据刚才的战斗情况需要提高一下后续训练的难度，然后就独自一人前往控制区了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还要在这个基础上改的更难么？！……嗯~！你们发现了么，今天浮岛机场升级完毕之后，彼得好像很兴奋啊！",
+			say = "还要在这个基础上改的更难么？！……嗯~！你们发现了么，今天浮岛机场升级完毕之后，{namecode:471}好像很兴奋啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有么？感觉她和往常一样没什么变化，还是那个精确又严格的彼得·史特拉塞。",
+			say = "有么？感觉她和往常一样没什么变化，还是那个精确又严格的{namecode:470}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这句话哪里轮得到你来说教……在这里最缺乏观察力的人不就是你么，海因里希。",
+			say = "这句话哪里轮得到你来说教……在这里最缺乏观察力的人不就是你么，{namecode:454}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "本次演习好好加油哦，海因里希~",
+			say = "本次演习好好加油哦，{namecode:454}~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

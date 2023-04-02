@@ -45,5 +45,5 @@ end
 function slot9.FilterTarget(slot0)
 	return uv0.TargetDiveState(slot0._host, {
 		diveState = uv1.OXY_STATE.DIVE
-	}, uv0.TargetAllFoe(slot0._host))
+	}, uv0.LegalTarget(slot0._host))
 end

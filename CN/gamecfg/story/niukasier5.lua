@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这点要感谢介绍给我的格奈森瑙呢",
+			say = "这点要感谢介绍给我的{namecode:434}呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

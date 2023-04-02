@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "U556把头埋在双腿里，团坐在椅子上。",
+			say = "{namecode:416}把头埋在双腿里，团坐在椅子上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官也知道的吧？我曾经说过，我和俾斯麦大姐有个“约定”。",
+			say = "指挥官也知道的吧？我曾经说过，我和{namecode:435}大姐有个“约定”。",
 			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
@@ -161,7 +161,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而我确还在天天拿着这个约定当借口，不停打扰俾斯麦姐姐……",
+			say = "而我确还在天天拿着这个约定当借口，不停打扰{namecode:435}姐姐……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过没关系，俾斯麦姐姐说过的，不好的习惯只要能够及时改正。接下来我会更加用心对待自己的任务的。当然了，有机会的话，我也要帮上姐姐的忙，为她分担压力",
+			say = "不过没关系，{namecode:435}姐姐说过的，不好的习惯只要能够及时改正。接下来我会更加用心对待自己的任务的。当然了，有机会的话，我也要帮上姐姐的忙，为她分担压力",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "俾斯麦姐姐？！为什么你会在这里？",
+			say = "{namecode:435}姐姐？！为什么你会在这里？",
 			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“原来我也可以是这么简单纯粹的角色”，U556总会给我这种的感觉呢。",
+			say = "“原来我也可以是这么简单纯粹的角色”，{namecode:416}总会给我这种的感觉呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "俾斯麦突然站直了起来，清了清嗓子。",
+			say = "{namecode:435}突然站直了起来，清了清嗓子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			actor = 405010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "U556！令人尊敬的水下骑士啊。",
+			say = "{namecode:416}！令人尊敬的水下骑士啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "U556楞了一下，随即露出了灿烂的笑容。",
+			say = "{namecode:416}楞了一下，随即露出了灿烂的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "嗯！不论在任何地方，不管身处何种险境，我都会保护好俾斯麦姐姐的！",
+			say = "嗯！不论在任何地方，不管身处何种险境，我都会保护好{namecode:435}姐姐的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

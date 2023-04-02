@@ -1,13 +1,31 @@
 pg = pg or {}
 pg.expedition_daily_template = {
+	[101] = {
+		tips = "まだ開放されていないステージです",
+		limit_type = 0,
+		show_with_count = 0,
+		limit_time = 0,
+		insert_daily = 1,
+		title = "乞うご期待",
+		pic = "daily4",
+		des = "まだ開放されていないステージです",
+		limit_period = "",
+		id = 101,
+		sort = "0",
+		weekday = {},
+		expedition_and_lv_limit_list = {}
+	},
 	[201] = {
 		tips = "月・木・日曜日開放！",
 		limit_type = 1,
-		des = "海上通商を担う商船から敵PTボート群を引きつけ、強化パーツ報酬を手に入れろ！",
+		show_with_count = 0,
 		limit_time = 3,
-		id = 201,
+		insert_daily = 0,
 		title = "商船护送",
 		pic = "daily1",
+		des = "海上通商を担う商船から敵PTボート群を引きつけ、強化パーツ報酬を手に入れろ！",
+		limit_period = "",
+		id = 201,
 		sort = "1",
 		weekday = {
 			1,
@@ -68,11 +86,14 @@ pg.expedition_daily_template = {
 	[301] = {
 		tips = "火・金・日曜日開放！",
 		limit_type = 1,
-		des = "海域に跋扈する自爆ボートを掃討し、スキル習熟訓練用の教材を捜索せよ！",
+		show_with_count = 0,
 		limit_time = 3,
-		id = 301,
+		insert_daily = 0,
 		title = "海域突进",
 		pic = "daily2",
+		des = "海域に跋扈する自爆ボートを掃討し、スキル習熟訓練用の教材を捜索せよ！",
+		limit_period = "",
+		id = 301,
 		sort = "2",
 		weekday = {
 			2,
@@ -109,11 +130,14 @@ pg.expedition_daily_template = {
 	[401] = {
 		tips = "水・土・日曜日開放！",
 		limit_type = 1,
-		des = "複数に出現する敵主力艦を撃破し、装備箱を入手せよ！",
+		show_with_count = 0,
 		limit_time = 3,
-		id = 401,
+		insert_daily = 0,
 		title = "斩首行动",
 		pic = "daily3",
+		des = "複数に出現する敵主力艦を撃破し、装備箱を入手せよ！",
+		limit_period = "",
+		id = 401,
 		sort = "3",
 		weekday = {
 			3,
@@ -150,11 +174,14 @@ pg.expedition_daily_template = {
 	[501] = {
 		tips = "毎日開放（毎週2回まで挑戦可能）",
 		limit_type = 2,
-		des = "潜水艦による通商破壊訓練を行い、各種潜水艦装備の設計図を入手する",
+		show_with_count = 0,
 		limit_time = 2,
-		id = 501,
+		insert_daily = 0,
 		title = "通商破壊",
 		pic = "daily5",
+		des = "潜水艦による通商破壊訓練を行い、各種潜水艦装備の設計図を入手する",
+		limit_period = "",
+		id = 501,
 		sort = "4",
 		weekday = {
 			1,
@@ -195,12 +222,15 @@ pg.expedition_daily_template = {
 	[601] = {
 		tips = "战术研修每天开启",
 		limit_type = 1,
-		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
+		show_with_count = 0,
 		limit_time = 3,
-		id = 601,
+		insert_daily = 0,
 		title = "战术研修",
 		pic = "daily6",
-		sort = "6",
+		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
+		limit_period = "",
+		id = 601,
+		sort = "7",
 		weekday = {
 			1,
 			2,
@@ -240,11 +270,14 @@ pg.expedition_daily_template = {
 	[701] = {
 		tips = "毎日開放（毎週2回まで挑戦可能）",
 		limit_type = 2,
-		des = "特殊装備を駆使する演習艦隊との戦闘訓練ステージになります。クリアすると特殊装備及び特殊装備に関連する素材を入手可能",
+		show_with_count = 0,
 		limit_time = 2,
-		id = 701,
+		insert_daily = 0,
 		title = "特殊装備",
 		pic = "daily7",
+		des = "特殊装備を駆使する演習艦隊との戦闘訓練ステージになります。クリアすると特殊装備及び特殊装備に関連する素材を入手可能",
+		limit_period = "",
+		id = 701,
 		sort = "5",
 		weekday = {
 			1,
@@ -267,18 +300,64 @@ pg.expedition_daily_template = {
 		}
 	},
 	[801] = {
-		tips = "まだ開放されていないステージです",
-		limit_type = 0,
-		des = "まだ開放されていないステージです",
-		limit_time = 0,
+		tips = "期間中毎日開催されます",
+		limit_type = 1,
+		show_with_count = 1,
+		limit_time = 1,
+		insert_daily = 0,
+		title = "特殊装備(ｲﾍﾞﾝﾄ)",
+		pic = "daily8",
+		des = "期間限定で開催される特殊装備チャレンジ。クリアすると特殊装備と素材を入手できます",
 		id = 801,
-		title = "乞うご期待",
-		pic = "daily4",
-		sort = "7",
-		weekday = {},
-		expedition_and_lv_limit_list = {}
+		sort = "6",
+		weekday = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		},
+		limit_period = {
+			{
+				{
+					2023,
+					3,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		expedition_and_lv_limit_list = {
+			{
+				7010,
+				30
+			},
+			{
+				7011,
+				70
+			}
+		}
 	},
 	all = {
+		101,
 		201,
 		301,
 		401,

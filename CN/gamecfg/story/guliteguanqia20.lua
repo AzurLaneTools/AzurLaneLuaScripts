@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "爱丁堡",
-			say = "谢谢你梦芽，我这就去找罗恩她们商量！",
+			say = "谢谢你梦芽，我这就去找{namecode:439}她们商量！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

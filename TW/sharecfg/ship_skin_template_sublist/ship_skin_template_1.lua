@@ -1,5 +1,6 @@
 pg = pg or {}
-pg.ship_skin_template_1 = {
+pg.base = pg.base or {}
+pg.base.ship_skin_template_1 = {
 	[100000] = {
 		ship_group = 10000,
 		name = "泛用型布里",
@@ -364,13 +365,11 @@ pg.ship_skin_template_1 = {
 		painting = "buli_super",
 		aircraft_skin = "",
 		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
 		illustrator = -1,
+		shop_type_id = 0,
+		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
 		l2d_animations = "",
-		l2d_voice_calibrate = "",
 		bullet_skin_main = "",
 		skin_type = -1,
 		bg_sp = "",
@@ -380,10 +379,10 @@ pg.ship_skin_template_1 = {
 		l2d_se = "",
 		no_showing = "0",
 		main_UI_FX = "",
-		special_effects = "",
+		shop_id = 0,
 		desc = "特裝型布里MKIII ，可以用於海上傳奇角色的突破",
 		voice_actor = 72,
-		spine_offset = "",
+		air_bomb_skin = "",
 		gyro = 0,
 		rarity_bg = "",
 		time = "",
@@ -455,6 +454,27 @@ pg.ship_skin_template_1 = {
 						}
 					}
 				}
+			}
+		},
+		spine_offset = {
+			{
+				188,
+				-638,
+				0
+			},
+			{
+				0.8
+			}
+		},
+		special_effects = {
+			"lihui_buli_super",
+			{
+				130,
+				469,
+				0
+			},
+			{
+				1.5
 			}
 		}
 	},

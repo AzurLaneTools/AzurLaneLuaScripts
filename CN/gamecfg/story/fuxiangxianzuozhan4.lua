@@ -11,7 +11,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海因里希，听得到吗？",
+			say = "{namecode:454}，听得到吗？",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			actor = 403090,
 			dir = 1,
-			say = "那就拜托你咯，彼得~",
+			say = "那就拜托你咯，{namecode:471}~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

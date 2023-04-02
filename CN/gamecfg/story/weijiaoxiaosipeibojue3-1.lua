@@ -65,7 +65,7 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小斯佩",
+			actorName = "小{namecode:432}",
 			say = "我是不会把甜品交出来的哟。",
 			painting = {
 				alpha = 0.3,
@@ -82,7 +82,7 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小斯佩",
+			actorName = "小{namecode:432}",
 			say = "铁血也不止是啤酒和香肠，明明甜品也很重要……但是很少有人注意到这一点。",
 			painting = {
 				alpha = 0.3,
@@ -99,7 +99,7 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小斯佩",
+			actorName = "小{namecode:432}",
 			say = "……所以我制定了一个计划，一个可以把大海变成甜品的伟大计划！",
 			painting = {
 				alpha = 0.3,
@@ -116,7 +116,7 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小斯佩",
+			actorName = "小{namecode:432}",
 			say = "现在已经进行到最后一步了……",
 			painting = {
 				alpha = 0.3,
@@ -130,7 +130,7 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "小{namecode:432}",
 			expression = 6,
 			side = 2,
 			say = "很快，大海就要被甜品覆盖了……不要阻止我！",
@@ -186,7 +186,7 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小斯佩",
+			actorName = "小{namecode:432}",
 			expression = 1,
 			side = 2,
 			say = "那就放马过来吧。我可是很强的，被打疼了也不许哭哦~",

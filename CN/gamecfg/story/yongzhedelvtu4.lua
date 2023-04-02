@@ -45,7 +45,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "Z23",
+			actorName = "{namecode:408}",
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "但是这个迷宫好复杂……要是一点点探路的话不知道要跑多久。",
@@ -75,7 +75,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "Z23",
+			actorName = "{namecode:408}",
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "不要累啊拉菲，现在连一场战斗都还没开始呢！",

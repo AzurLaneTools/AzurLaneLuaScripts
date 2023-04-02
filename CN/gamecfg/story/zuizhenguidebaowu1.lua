@@ -114,7 +114,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "U110，背鳍太显眼，不公平。",
+			say = "{namecode:420}，背鳍太显眼，不公平。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是U110，今天是郊游的心情。",
+			say = "可是{namecode:420}，今天是郊游的心情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 408040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "跟心情无关啦！这可是俾斯麦姐姐交代的事！",
+			say = "跟心情无关啦！这可是{namecode:435}姐姐交代的事！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 408080,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U110可是大鲨鱼哦，快看，快看。",
+			say = "{namecode:420}可是大鲨鱼哦，快看，快看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 408040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所~以~说，不是狼，只是一种比喻啦比喻！俾斯麦姐姐明明说——不要摆出那种“不知道你在讲什么”的表情！！！",
+			say = "所~以~说，不是狼，只是一种比喻啦比喻！{namecode:435}姐姐明明说——不要摆出那种“不知道你在讲什么”的表情！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U110是大鲨鱼，——大鲨鱼，出击。",
+			say = "{namecode:420}是大鲨鱼，——大鲨鱼，出击。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

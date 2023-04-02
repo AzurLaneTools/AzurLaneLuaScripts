@@ -1,4 +1,4 @@
-slot0 = class("DockyardShipItem")
+slot0 = class("DockyardFriend")
 slot0.DetailType0 = 0
 slot0.DetailType1 = 1
 slot0.DetailType2 = 2
@@ -59,12 +59,10 @@ end
 
 function slot0.flush(slot0)
 	if slot0.shipVO then
-		slot4 = slot0.shipVO
-
-		LoadSpriteAsync("qicon/" .. slot4:getPainting(), function (slot0)
+		LoadSpriteAsync("qicon/" .. slot0.shipVO:getPainting(), function (slot0)
 			uv0.iconTF.sprite = slot0
 		end)
-		setActive(slot0.propose, slot0.shipVO.propose)
+		setActive(slot0.propose, slot0.shipVO:ShowPropose())
 
 		for slot6 = slot0.starsTF.childCount, pg.ship_data_statistics[slot0.shipVO.configId].star - 1 do
 			cloneTplTo(slot0.starTF, slot0.starsTF)

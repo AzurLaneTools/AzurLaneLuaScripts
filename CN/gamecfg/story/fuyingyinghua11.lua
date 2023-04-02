@@ -11,7 +11,7 @@ return {
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			say = "怎么了，重樱新锐巡洋舰只有这点实力么？",
 			bgm = "story-4",
 			typewriter = {
@@ -20,7 +20,7 @@ return {
 			}
 		},
 		{
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			nameColor = "#ff5c5c",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actorName = "{namecode:50}",
-			say = "（肆意释放的力量，毫不掩饰的杀意…欧根亲王这家伙来真的？！）",
+			say = "（肆意释放的力量，毫不掩饰的杀意…{namecode:427}这家伙来真的？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			nameColor = "#ff5c5c",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
@@ -91,7 +91,7 @@ return {
 			}
 		},
 		{
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			nameColor = "#ff5c5c",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			nameColor = "#ff5c5c",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			nameColor = "#ff5c5c",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actorName = "{namecode:50}",
-			say = "不要太过分了，欧根亲王！",
+			say = "不要太过分了，{namecode:427}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			nameColor = "#ff5c5c",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
@@ -238,7 +238,7 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "欧根亲王",
+			actorName = "{namecode:427}",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,

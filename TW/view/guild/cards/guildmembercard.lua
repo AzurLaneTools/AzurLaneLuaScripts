@@ -26,6 +26,9 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0.memberVO = slot1
 
 	slot0:Clear()
+
+	slot3 = pg.ship_data_statistics[slot1.icon]
+
 	LoadSpriteAsync("qicon/" .. Ship.New({
 		configId = slot1.icon,
 		skin_id = slot1.skinId,
@@ -36,9 +39,9 @@ function slot0.Update(slot0, slot1, slot2)
 		end
 	end)
 
-	slot5 = AttireFrame.attireFrameRes(slot1, false, AttireConst.TYPE_ICON_FRAME, slot1.propose)
+	slot5 = AttireFrame.attireFrameRes(slot1, slot1.id == getProxy(PlayerProxy):getRawData().id, AttireConst.TYPE_ICON_FRAME, slot1.propose)
 
-	function slot11(slot0)
+	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot5, slot5, true, function (slot0)
 		if uv0.circle and not uv0.exited then
 			slot0.name = uv1
 			findTF(slot0.transform, "icon"):GetComponent(typeof(Image)).raycastTarget = false
@@ -47,13 +50,11 @@ function slot0.Update(slot0, slot1, slot2)
 		else
 			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. uv1, uv1, slot0)
 		end
-	end
-
-	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot5, slot5, true, slot11)
+	end)
 
 	slot0.dutyTF.sprite = GetSpriteFromAtlas("dutyicon", slot1.duty)
 
-	for slot11 = slot0.starsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1 do
+	for slot11 = slot0.starsTF.childCount, slot3.star - 1 do
 		cloneTplTo(slot0.starTF, slot0.starsTF)
 	end
 

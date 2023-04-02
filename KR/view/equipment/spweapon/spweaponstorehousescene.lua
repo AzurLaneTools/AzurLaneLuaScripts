@@ -362,11 +362,7 @@ function slot0.filterEquipment(slot0)
 		end
 
 		if uv1 then
-			slot1 = uv0.asc
-
-			table.sort(uv0.loadEquipmentVOs, function (slot0, slot1)
-				return uv0.sortFunc(slot0, slot1, uv1, uv2)
-			end)
+			table.sort(uv0.loadEquipmentVOs, CompareFuncs(uv2.sortFunc(uv1, uv0.asc)))
 		end
 
 		if uv0.contextData.qiutBtn then
@@ -389,11 +385,7 @@ function slot0.filterEquipment(slot0)
 		end
 
 		if uv1 then
-			slot1 = uv0.asc
-
-			table.sort(uv0.showCraftList, function (slot0, slot1)
-				return uv0.sortFunc(slot0, slot1, uv1, uv2)
-			end)
+			table.sort(uv0.showCraftList, CompareFuncs(uv2.sortFunc(uv1, uv0.asc)))
 		end
 	end)()
 	slot0:UpdateCraftCount()

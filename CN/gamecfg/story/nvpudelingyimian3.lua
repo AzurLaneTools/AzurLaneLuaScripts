@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			say = "应欧根亲王的邀请，来到了位于顶层的小吧台。",
+			say = "应{namecode:427}的邀请，来到了位于顶层的小吧台。",
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
@@ -243,7 +243,7 @@ return {
 			},
 			options = {
 				{
-					content = "照着欧根的想法就好。",
+					content = "照着{namecode:428}的想法就好。",
 					flag = 1
 				}
 			}
@@ -273,7 +273,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根亲王拿出了事先准备好的一瓶红酒，倒了两小杯。",
+			say = "{namecode:427}拿出了事先准备好的一瓶红酒，倒了两小杯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "轻轻地碰杯后，与欧根一同品尝起这美好的佳酿。",
+			say = "轻轻地碰杯后，与{namecode:428}一同品尝起这美好的佳酿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说起来，好像记得欧根的酒量有一些……",
+			say = "说起来，好像记得{namecode:428}的酒量有一些……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸……俾斯麦也好，我也好，来到这里之后都变了很多呢……",
+			say = "欸……{namecode:435}也好，我也好，来到这里之后都变了很多呢……",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -508,7 +508,7 @@ return {
 			},
 			options = {
 				{
-					content = "把欧根搀扶起来",
+					content = "把{namecode:428}搀扶起来",
 					flag = 1
 				}
 			}
@@ -537,7 +537,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊~我明白了，你是想换个地方继续约会对吧……你直说就好嘛，怎么和希佩尔一样不坦率~",
+			say = "啊~我明白了，你是想换个地方继续约会对吧……你直说就好嘛，怎么和{namecode:426}一样不坦率~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			bgName = "star_level_bg_145",
 			dir = 1,
 			blackBg = true,
-			say = "总之，还是先把这个状态的欧根送回宿舍吧……",
+			say = "总之，还是先把这个状态的{namecode:428}送回宿舍吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "（第一场摄影的模特是U-73小姐，然后拍摄地点就在前面的屋子里……)",
+			say = "（第一场摄影的模特是{namecode:417}小姐，然后拍摄地点就在前面的屋子里……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "U-73小姐，也祝你春节快乐。现在这个场景是……？",
+			say = "{namecode:417}小姐，也祝你春节快乐。现在这个场景是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "U-73小姐，摄影装置调试完毕，你这边也准备好了么？",
+			say = "{namecode:417}小姐，摄影装置调试完毕，你这边也准备好了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

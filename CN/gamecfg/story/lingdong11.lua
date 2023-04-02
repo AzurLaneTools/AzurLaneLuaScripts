@@ -246,7 +246,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的猎物——提尔比茨，只是在做最后的困兽之斗，让我们——",
+			say = "我们的猎物——{namecode:436}，只是在做最后的困兽之斗，让我们——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

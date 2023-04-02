@@ -21,6 +21,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.frame = slot0.content:Find("front/frame")
 	slot0.UIlist = UIItemList.New(slot0.content:Find("front/stars"), slot0.content:Find("front/stars/star_tpl"))
 	slot0.shipState = slot0.content:Find("front/flag")
+	slot0.proposeMark = slot0.content:Find("front/propose")
 	slot0.otherBg = slot0.content:Find("front/bg_other")
 
 	setActive(slot0.propsTr1, false)
@@ -66,49 +67,20 @@ function slot0.flush(slot0)
 			end
 		end)
 		slot0.UIlist:align(slot2:getMaxStar())
-		setScrollText(slot0.nameTxt, slot2:getName())
+		setScrollText(slot0.nameTxt, slot2:GetColorName())
 		slot0:updateProps({})
 		setPaintingPrefabAsync(slot0.paintingTr, slot2:getPainting(), "biandui")
 
 		slot5 = slot0.shipVO:rarity2bgPrint()
-		slot6 = nil
 
-		setRectShipCardFrame(slot0.frame, slot5, slot2.propose and "prop" .. (slot2:isBluePrintShip() and slot5 or slot2:isMetaShip() and "14" or "") or nil)
 		GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. slot5, "", slot0.bgImage)
+
+		slot6, slot7 = slot2:GetFrameAndEffect(true)
+
+		setRectShipCardFrame(slot0.frame, slot5, slot6)
+		setFrameEffect(slot0.otherBg, slot7)
+		setProposeMarkIcon(slot0.proposeMark, slot2)
 		setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", shipType2print(slot0.shipVO:getShipType())))
-
-		slot8 = nil
-		slot9 = false
-
-		if slot2.propose then
-			if slot2:isMetaShip() then
-				slot8 = "duang_meta_jiehun_1"
-			else
-				slot8 = "duang_6_jiehun" .. (slot2:isBluePrintShip() and "_tuzhi" or "") .. "_1"
-			end
-		elseif slot2:isMetaShip() then
-			slot8 = "duang_meta_b" .. slot5
-		elseif slot2:getRarity() == 6 then
-			slot8 = "duang_6_1"
-		end
-
-		if slot8 then
-			eachChild(slot0.otherBg, function (slot0)
-				setActive(slot0, slot0.name == uv0 .. "(Clone)")
-
-				uv1 = uv1 or slot0.name == uv0 .. "(Clone)"
-			end)
-
-			if not slot9 then
-				slot10 = PoolMgr.GetInstance()
-
-				slot10:GetPrefab("effect/" .. slot8, "", true, function (slot0)
-					setParent(slot0, uv0.otherBg)
-				end)
-			end
-		end
-
-		setActive(slot0.otherBg, slot8)
 	elseif slot1 == uv2 then
 		-- Nothing
 	end

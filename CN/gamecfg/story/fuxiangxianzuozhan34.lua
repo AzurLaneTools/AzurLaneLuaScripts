@@ -136,7 +136,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在下铁血所属重巡洋舰，欧根亲王。自从上次华丽的祭典上相遇之后，没想到又能在这里相遇啊~",
+			say = "在下铁血所属重巡洋舰，{namecode:427}。自从上次华丽的祭典上相遇之后，没想到又能在这里相遇啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从刚刚开始就一直在说谜语……什么说不清楚，你又明白什么了啊，请认真解释一下，欧根亲王！",
+			say = "从刚刚开始就一直在说谜语……什么说不清楚，你又明白什么了啊，请认真解释一下，{namecode:427}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

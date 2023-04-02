@@ -317,7 +317,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "斯佩？你在做什么呢？",
+			say = "{namecode:432}？你在做什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了！斯佩，我和你说啊，昨天的演习，皇家的那帮家伙——",
+			say = "对了！{namecode:432}，我和你说啊，昨天的演习，皇家的那帮家伙——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

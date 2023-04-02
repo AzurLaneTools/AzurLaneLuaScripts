@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"德意志的忧郁\n\n<size=45>四　失落</size>",
+					"{namecode:429}的忧郁\n\n<size=45>四　失落</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……德意志今天没来指挥室，有些担心，去看看她吧。",
+			say = "……{namecode:429}今天没来指挥室，有些担心，去看看她吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "德意志的宿舍",
+			say = "{namecode:429}的宿舍",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "德意志一个缩在房间的角落，往日的霸气全无。",
+			say = "{namecode:429}一个缩在房间的角落，往日的霸气全无。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			},
 			options = {
 				{
-					content = "摸摸德意志的头",
+					content = "摸摸{namecode:429}的头",
 					flag = 1
 				}
 			}
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "看来现在说什么德意志都不会听进去了。",
+			say = "看来现在说什么{namecode:429}都不会听进去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

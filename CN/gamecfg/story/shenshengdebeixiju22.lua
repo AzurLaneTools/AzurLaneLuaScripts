@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "另外，俾斯麦级战列舰的服役测试已经通过了最终阶段，预计再过1个月就可以正式服役",
+			say = "另外，{namecode:435}级战列舰的服役测试已经通过了最终阶段，预计再过1个月就可以正式服役",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "等到俾斯麦服役，“欧罗巴大陆第一战舰”的名号就会回到我们手上了",
+			say = "等到{namecode:435}服役，“欧罗巴大陆第一战舰”的名号就会回到我们手上了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "格奈森瑙！",
+			say = "{namecode:434}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

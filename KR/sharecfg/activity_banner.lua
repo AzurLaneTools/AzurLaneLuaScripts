@@ -1,16 +1,19 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4701",
 		id = 1,
-		pic = "temp3",
-		type = 3,
+		pic = "temp1",
+		type = 2,
+		param = {
+			"scene charge",
+			{}
+		},
 		time = {
 			{
 				{
 					2023,
 					3,
-					2
+					23
 				},
 				{
 					0,
@@ -21,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					3,
-					16
+					4,
+					13
 				},
 				{
 					23,
@@ -33,8 +36,40 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4733",
 		id = 2,
-		pic = "temp4",
+		pic = "temp2",
+		type = 3,
+		time = {
+			{
+				{
+					2023,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 3,
+		pic = "temp3",
 		type = 2,
 		param = {
 			"scene get boat",
@@ -48,7 +83,7 @@ pg.activity_banner = {
 				{
 					2023,
 					3,
-					2
+					30
 				},
 				{
 					0,
@@ -59,8 +94,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					3,
-					16
+					4,
+					13
 				},
 				{
 					23,
@@ -71,56 +106,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 3,
-		pic = "temp5",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2023,
-					3,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
+		param = "4731",
 		id = 4,
-		pic = "temp6",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
+		pic = "temp4",
+		type = 3,
 		time = {
 			{
 				{
 					2023,
 					3,
-					2
+					30
 				},
 				{
 					0,
@@ -131,8 +126,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					3,
-					15
+					4,
+					12
 				},
 				{
 					23,
@@ -143,18 +138,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "4737",
 		id = 5,
-		pic = "temp7",
-		type = 2,
-		param = {
-			"scene court yard"
-		},
+		pic = "temp5",
+		type = 3,
 		time = {
 			{
 				{
 					2023,
 					3,
-					2
+					30
 				},
 				{
 					0,
@@ -165,8 +158,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					3,
-					15
+					4,
+					13
 				},
 				{
 					23,
@@ -178,20 +171,18 @@ pg.activity_banner = {
 	},
 	{
 		id = 6,
-		pic = "temp8",
+		pic = "temp6",
 		type = 2,
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2023,
 					3,
-					2
+					23
 				},
 				{
 					0,
@@ -202,8 +193,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					3,
-					15
+					4,
+					12
 				},
 				{
 					23,
@@ -214,15 +205,17 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4687",
 		id = 7,
-		pic = "temp1",
-		type = 3,
+		pic = "temp7",
+		type = 2,
+		param = {
+			"scene court yard"
+		},
 		time = {
 			{
 				{
 					2023,
-					2,
+					3,
 					23
 				},
 				{
@@ -234,8 +227,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					3,
-					22
+					4,
+					12
 				},
 				{
 					23,
@@ -246,16 +239,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4689",
 		id = 8,
-		pic = "temp2",
-		type = 3,
+		pic = "temp8",
+		type = 2,
+		param = {
+			"scene level"
+		},
 		time = {
 			{
 				{
 					2023,
-					2,
-					23
+					3,
+					30
 				},
 				{
 					0,
@@ -266,8 +261,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					3,
-					22
+					4,
+					13
 				},
 				{
 					23,
@@ -287,7 +282,7 @@ pg.activity_banner = {
 				{
 					2023,
 					3,
-					2
+					23
 				},
 				{
 					0,
@@ -298,8 +293,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					3,
-					15
+					4,
+					12
 				},
 				{
 					23,
@@ -333,7 +328,7 @@ pg.activity_banner = {
 				{
 					2023,
 					3,
-					2
+					30
 				},
 				{
 					0,
@@ -344,8 +339,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					3,
-					15
+					4,
+					12
 				},
 				{
 					23,
@@ -356,7 +351,7 @@ pg.activity_banner = {
 		}
 	},
 	[100] = {
-		param = "만두|모두가 좋아하는 전통 음식! <color=#6dd329>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
+		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		time = "stop",
 		type = 10,
 		id = 100,
@@ -374,20 +369,20 @@ pg.activity_banner = {
 		time = "always",
 		type = 13,
 		id = 201,
-		pic = "winter"
+		pic = "spring"
 	},
 	get_id_list_by_type = {
-		[3] = {
+		[2] = {
 			1,
+			3,
+			6,
 			7,
 			8
 		},
-		[2] = {
+		[3] = {
 			2,
-			3,
 			4,
-			5,
-			6
+			5
 		},
 		[9] = {
 			90,

@@ -75,7 +75,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:98}",
 			dir = 1,
-			say = "喵！是欧根喵！看起来有点没精神喵？",
+			say = "喵！是{namecode:428}喵！看起来有点没精神喵？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

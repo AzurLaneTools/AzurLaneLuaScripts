@@ -10,7 +10,7 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3)
 			uv1:UpdateDrop(slot2:Find("award1"), slot3[2])
 			setText(slot2:Find("title/Text"), "PHASE " .. slot1 + 1)
 			setText(slot2:Find("target/Text"), uv2[slot1 + 1])
-			setText(slot2:Find("target/title"), HXSet.hxLan(uv1.resTitle))
+			setText(slot2:Find("target/title"), uv1.resTitle)
 			setActive(slot2:Find("award/mask"), slot1 + 1 <= uv3)
 			setActive(slot2:Find("award1/mask"), slot1 + 1 <= uv3)
 

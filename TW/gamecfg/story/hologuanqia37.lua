@@ -313,7 +313,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23，怎么了，一副愁眉苦脸的样子。",
+			say = "{namecode:408}，怎么了，一副愁眉苦脸的样子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -55,7 +55,7 @@ return {
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "Z46",
+			actorName = "{namecode:412}",
 			say = "很抱歉，今天已经打烊了……诶，指挥官？",
 			typewriter = {
 				speed = 0.05,
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_3",
-			say = "想着稍微看观察一下俾斯麦打烊后的样子，于是叫住了正准备去找俾斯麦的Z46。",
+			say = "想着稍微看观察一下{namecode:435}打烊后的样子，于是叫住了正准备去找{namecode:435}的{namecode:412}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,8 +86,8 @@ return {
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
-			say = "马格德堡，店里新来的猫还有些闹腾，明天也辛苦你照顾一下了。",
+			actorName = "{namecode:435}",
+			say = "{namecode:447}，店里新来的猫还有些闹腾，明天也辛苦你照顾一下了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,8 +103,8 @@ return {
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
-			say = "库存的小麦汁有些不够了么……易北，这个交给你没问题吧？",
+			actorName = "{namecode:435}",
+			say = "库存的小麦汁有些不够了么……{namecode:468}，这个交给你没问题吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,8 +120,8 @@ return {
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
-			say = "然后是……Z46，门口那边打扫得怎么样了————",
+			actorName = "{namecode:435}",
+			say = "然后是……{namecode:412}，门口那边打扫得怎么样了————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_3",
-			say = "跟俾斯麦的目光对上了。",
+			say = "跟{namecode:435}的目光对上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			say = "上次是营业前，这次是打烊后，指挥官最近是学习了游击战法么？",
 			typewriter = {
 				speed = 0.05,
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			say = "不用这么着急，虽然打烊了，但本日的食材还有剩余。",
 			typewriter = {
 				speed = 0.05,
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "乌尔里希·冯·胡滕",
+			actorName = "{namecode:463}",
 			say = "夜间咖啡馆，好像是值得开展的新业务呢。",
 			typewriter = {
 				speed = 0.05,
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			say = "是啊。不过因为经营成本，就先只对指挥官试运营好了~",
 			typewriter = {
 				speed = 0.05,
@@ -229,7 +229,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "俾斯麦",
+			actorName = "{namecode:435}",
 			bgName = "bg_coffeetea_3",
 			hidePaintObj = true,
 			dir = 1,

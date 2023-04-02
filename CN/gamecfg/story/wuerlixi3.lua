@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "胡滕现在会在哪里呢……",
+			say = "{namecode:465}现在会在哪里呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "马马虎虎吧~以乌尔里希的审美而言，推荐的曲目还算不错。",
+			say = "马马虎虎吧~以{namecode:464}的审美而言，推荐的曲目还算不错。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "发现了正与希佩尔、塔林一起聊天的胡滕与一个被围在中间的黑色箱子。",
+			say = "发现了正与{namecode:426}、塔林一起聊天的{namecode:465}与一个被围在中间的黑色箱子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "胡滕从放在身侧的黑盒中，取出了吉他。",
+			say = "{namecode:465}从放在身侧的黑盒中，取出了吉他。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

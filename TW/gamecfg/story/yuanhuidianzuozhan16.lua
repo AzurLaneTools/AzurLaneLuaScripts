@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "“围剿俾斯麦”，接下来终于要轮到这个事件了么……",
+			say = "“围剿{namecode:435}”，接下来终于要轮到这个事件了么……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欧根亲王那边，你不打算告诉她么？",
+			say = "{namecode:427}那边，你不打算告诉她么？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "放心，欧根是聪明人，她会理解的。",
+			say = "放心，{namecode:428}是聪明人，她会理解的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "俾斯麦，成功控制元魔方的概率并不为零。",
+			say = "{namecode:435}，成功控制元魔方的概率并不为零。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "Eisen und Blut über alles，希望我们有能再次相见的一天，腓特烈。",
+			say = "Eisen und Blut über alles，希望我们有能再次相见的一天，{namecode:441}。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			actor = 499020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯。俾斯麦，让我们一同向着未来进发吧——",
+			say = "嗯。{namecode:435}，让我们一同向着未来进发吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"来自鸢尾的天使\n\n<size=45>四　门厅</size>",
+					"來自鳶尾的天使\n\n<size=45>四　門廳</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "鸢尾教国·宴会厅外",
+			say = "鳶尾教國·宴會廳外",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "所以说！这里现在禁止无关者入内！",
+			say = "所以說！這裡現在禁止無關者入內！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801040,
-			say = "我们还是回去吧，鲁莽……",
+			say = "我們還是回去吧，魯莽……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "不！我们难道不是教廷的同伴么！通融一下嘛~布雷泽！",
+			say = "不！我們難道不是教廷的同伴嗎！通融一下嘛~布雷澤！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "现在可不是通融不通融的问题……守在这里是我身为教廷骑士的职责！",
+			say = "現在可不是通融不通融的問題……守在這裡是我身為教廷騎士的職責！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "况且鲁莽，你为什么会突然想进宴会厅啊！",
+			say = "況且魯莽，妳為什麼會突然想進宴會廳啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "嘿嘿嘿，我听说今晚这里会有最棒的甜品……鲁莽想尝一尝！",
+			say = "嘿嘿嘿，我聽說今晚這裡會有最棒的甜點……魯莽想嚐一嘗！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "而且里面看上去好热闹的样子！大家不就是应该聚在一起热热闹闹的嘛！",
+			say = "而且裡面看上去好熱鬧的樣子！大家不就是應該聚在一起熱熱鬧鬧的嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801040,
-			say = "鲁莽，知道你喜欢热闹没错……可是这么重要的外交场合我们还是不要掺和的好。",
+			say = "魯莽，知道妳喜歡熱鬧沒錯……可是這麼重要的外交場合我們還是不要加進去好一點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801040,
-			say = "……甜品的话，我们回头去敦刻尔克小姐那里蹭就是了。",
+			say = "……甜點的話，我們回頭去敦克爾克小姐那裡蹭就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "反正来的都是熟人，有什么关系啦！",
+			say = "反正來的都是熟人，有什麼關係啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "我还想进去跟进取打个招呼呢！",
+			say = "我還想進去跟企業打個招呼呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "倔强也不要这么死板，和我一起努努力说不定就拿下布雷泽了呢！",
+			say = "倔強也不要這麼死板，和我一起努力一下說不定就攻略布雷澤了呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "不行，这件事没有一丝一毫商量的余地！",
+			say = "不行，這件事沒有一絲一毫商量的餘地！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "要想进入宴会厅，就必须先拿出请帖来。鲁莽，我再问一遍，你有请帖么？",
+			say = "要想進入宴會廳，就必須先拿出請帖來。魯莽，我再問一遍，妳有請帖嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "没有！但是我有一颗想要进去的火热之心！",
+			say = "沒有！但是我有一顆想要進去的火熱之心！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "……既然如此，那就没办法了。要想通过这里就得先打倒我这个看门的骑士！",
+			say = "……既然如此，那就沒辦法了。要想通過這裡就得先打倒我這個看門的騎士！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "哇哦！事到如今也只能如此了，鲁莽要勇往直前————！",
+			say = "哇哦！事到如今也只能如此了，魯莽要勇往直前————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………我说几位，这里是在做什么？",
+			say = "…………我說幾位，這裡是在做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "今晚的宴会上好像没有安排类似的节目吧？",
+			say = "今晚的宴會上好像沒有安排類似的節目吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "唔啊…………天使来了！",
+			say = "唔啊…………天使來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "那—我—就—不—打—扰—了——！倔强，我们快走！",
+			say = "那—我—就—不—打—擾—了——！倔強，我們快走！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "霞飞小姐，真是帮大忙了！",
+			say = "霞飛小姐，真是幫大忙了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "不然这件事不与鲁莽大战三百回合怕是收不了场了！",
+			say = "不然這件事不與魯莽大戰三百回合怕是收不了場了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "不让无关人员进去的初衷固然好，不过在这里打起来你是想引发更大的混乱么？",
+			say = "不讓無關人員進去的初衷固然好，不過在這裡打起來妳是想引發更大的混亂嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "欸……这件事我倒是没…………非常抱歉！",
+			say = "欸……這件事我倒是沒…………非常抱歉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "噗……好啦，我也就是说说而已。",
+			say = "噗……好啦，我也就是說說而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家代表团已经到了么？",
+			say = "皇家代表團已經到了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "还没有，按照日程，距离代表团到达宴会厅还有至少一个小时。",
+			say = "還沒有，按照日程，距離代表團到達宴會廳還有至少一個小時。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "一个小时么……我明白了，让我进去吧。",
+			say = "一個小時嗎……我明白了，讓我進去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "是！里面请，霞飞小姐————",
+			say = "是！裡面請，霞飛小姐————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

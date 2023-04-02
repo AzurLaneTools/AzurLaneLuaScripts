@@ -2060,6 +2060,21 @@ pg.activity_ins_ship_group_template = {
 		name = "Hardy",
 		sculpture = "yonggan"
 	},
+	[70207] = {
+		ship_group = 70207,
+		name = "Voroshilov",
+		sculpture = "fuluoxiluofu"
+	},
+	[70507] = {
+		ship_group = 70507,
+		name = "Sevastopol",
+		sculpture = "saiwasituoboer"
+	},
+	[70302] = {
+		ship_group = 70302,
+		name = "Kursk",
+		sculpture = "kuersike"
+	},
 	all = {
 		30701,
 		30702,
@@ -2472,6 +2487,9 @@ pg.activity_ins_ship_group_template = {
 		20514,
 		40116,
 		10602,
-		20116
+		20116,
+		70207,
+		70507,
+		70302
 	}
 }

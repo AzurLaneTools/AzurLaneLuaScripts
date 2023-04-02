@@ -248,7 +248,7 @@ function slot0.didEnter(slot0)
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_CONTENT_ITEMS,
-			content = i18n("techpackage_item_use", HXSet.hxLan(uv0.contextData.shipBluePrintVO:getShipVO():getName()), Item.GetName(DROP_TYPE_ITEM, slot1)),
+			content = i18n("techpackage_item_use", uv0.contextData.shipBluePrintVO:getShipVO():getName(), Item.GetName(DROP_TYPE_ITEM, slot1)),
 			items = {
 				{
 					count = 1,
@@ -1002,7 +1002,7 @@ function slot0.updateModPanel(slot0)
 				})
 			end
 		end, SFX_PANEL)
-		setScrollText(findTF(slot0.itemInfo, "name/Text"), HXSet.hxLan(slot10.cfg.name))
+		setScrollText(findTF(slot0.itemInfo, "name/Text"), slot10.cfg.name)
 
 		slot15 = getProxy(PlayerProxy)
 		slot15 = slot15:getRawData()
@@ -1048,9 +1048,9 @@ function slot0.updateModPanel(slot0)
 			id = slot4.id
 		})
 		onButton(slot0, slot0.itemInfoIcon, function ()
-			ItemTipPanel.ShowItemTipbyID(uv0.id, i18n("title_item_ways", HXSet.hxLan(uv0:getConfig("name"))))
+			ItemTipPanel.ShowItemTipbyID(uv0.id, i18n("title_item_ways", uv0:getConfig("name")))
 		end, SFX_PANEL)
-		setScrollText(findTF(slot0.itemInfo, "name/Text"), HXSet.hxLan(slot4:getConfig("name")))
+		setScrollText(findTF(slot0.itemInfo, "name/Text"), slot4:getConfig("name"))
 		setText(slot0.itemInfoCount, i18n("tec_tip_material_stock") .. ":" .. slot4.count)
 
 		slot10 = slot0.itemInfo
@@ -1224,7 +1224,7 @@ function slot0.updateFittingPanel(slot0)
 				})
 			end
 		end, SFX_PANEL)
-		setScrollText(findTF(slot0.fittingItemInfo, "name/Text"), HXSet.hxLan(slot10.cfg.name))
+		setScrollText(findTF(slot0.fittingItemInfo, "name/Text"), slot10.cfg.name)
 
 		slot15 = getProxy(PlayerProxy)
 		slot15 = slot15:getRawData()
@@ -1270,12 +1270,12 @@ function slot0.updateFittingPanel(slot0)
 			id = slot4.id
 		})
 		onButton(slot0, slot0.fittingItemInfoIcon, function ()
-			ItemTipPanel.ShowItemTipbyID(uv0.id, i18n("title_item_ways", HXSet.hxLan(uv0:getConfig("name"))))
+			ItemTipPanel.ShowItemTipbyID(uv0.id, i18n("title_item_ways", uv0:getConfig("name")))
 		end, SFX_PANEL)
 
 		slot10 = slot0.fittingItemInfo
 
-		setScrollText(slot10:Find("name/Text"), HXSet.hxLan(slot4:getConfig("name")))
+		setScrollText(slot10:Find("name/Text"), slot4:getConfig("name"))
 		setText(slot0.fittingItemInfoCount, i18n("tec_tip_material_stock") .. ":" .. slot4.count)
 
 		slot10 = slot0.fittingItemInfo
@@ -2056,7 +2056,7 @@ function slot0.openPreView(slot0)
 
 			onToggle(slot0, slot0:findTF("stage" .. slot5, slot0.stages), function (slot0)
 				if slot0 then
-					setText(uv0.breakView, HXSet.hxLan(uv1[uv2].breakout_view))
+					setText(uv0.breakView, uv1[uv2].breakout_view)
 					uv0:switchStage(uv2)
 				end
 			end, SFX_PANEL)

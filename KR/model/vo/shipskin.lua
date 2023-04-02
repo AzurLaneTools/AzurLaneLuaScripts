@@ -58,8 +58,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.configId = slot1.id
 	slot0.endTime = slot1.end_time or slot1.time or 0
 	slot0.isNew = true
-	slot0.shipName = ShipGroup.getDefaultShipConfig(slot0:getConfig("ship_group")) and HXSet.hxLan(slot3.name) or ""
-	slot0.skinName = HXSet.hxLan(slot0:getConfig("name"))
+	slot0.shipName = ShipGroup.getDefaultShipConfig(slot0:getConfig("ship_group")) and slot3.name or ""
+	slot0.skinName = slot0:getConfig("name")
 end
 
 function slot0.HasNewFlag(slot0)
@@ -111,7 +111,7 @@ function slot0.IsMatchKey(slot0, slot1)
 		return true
 	end
 
-	return string.find(slot0.shipName, string.gsub(slot1, "%.", "%%.")) or string.find(slot0.skinName, slot1)
+	return string.find(string.lower(slot0.shipName), string.lower(string.gsub(slot1, "%.", "%%."))) or string.find(string.lower(slot0.skinName), slot1)
 end
 
 function slot0.ToShip(slot0)

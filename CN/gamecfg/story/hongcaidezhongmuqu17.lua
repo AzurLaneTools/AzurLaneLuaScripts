@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "佐治亚",
-			say = "不过北方联合舰队在与我们汇合途中遭遇了包含名为奥丁的计划舰在内的铁血舰队阻击，汇合时间推迟。",
+			say = "不过北方联合舰队在与我们汇合途中遭遇了包含名为{namecode:486}的计划舰在内的铁血舰队阻击，汇合时间推迟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "佐治亚",
-			say = "{namecode:199}带领的NA海域舰队打击群也遭遇到了包含名为美因茨的计划舰在内的铁血舰队阻击。",
+			say = "{namecode:199}带领的NA海域舰队打击群也遭遇到了包含名为{namecode:479}的计划舰在内的铁血舰队阻击。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "没错。在此紧要关头，作为总旗舰的腓特烈大帝缺行踪不明，铁血的海外舰队也依然没有任何回援迹象。",
+			say = "没错。在此紧要关头，作为总旗舰的{namecode:440}缺行踪不明，铁血的海外舰队也依然没有任何回援迹象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "毫无疑问，腓特烈大帝是出于某些目的在有计划的拖延时间。",
+			say = "毫无疑问，{namecode:440}是出于某些目的在有计划的拖延时间。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

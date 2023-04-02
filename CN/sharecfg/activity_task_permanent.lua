@@ -1,5 +1,30 @@
 pg = pg or {}
-pg.activity_task_permanent = {
+pg.activity_task_permanent = setmetatable({
+	__name = "activity_task_permanent",
+	all = {
+		6000,
+		6001,
+		6002,
+		6003,
+		6004,
+		6005,
+		6006,
+		6007,
+		6008,
+		6009,
+		6010,
+		6011,
+		6012,
+		6013,
+		6014,
+		6015,
+		6016,
+		6017,
+		6018
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.activity_task_permanent = {
 	[6000] = {
 		gametip = "可获得鲼限定换装「季夏攻势」",
 		banner_route = "permanent_yamashiro",
@@ -279,7 +304,7 @@ pg.activity_task_permanent = {
 		}
 	},
 	[6012] = {
-		gametip = "可获得U73限定换装「理科实验时间！」",
+		gametip = "可获得{namecode:417}限定换装「理科实验时间！」",
 		banner_route = "permanent_u73",
 		gametip_extra = "最快7日获得",
 		over_pt = 0,
@@ -387,13 +412,13 @@ pg.activity_task_permanent = {
 		}
 	},
 	[6016] = {
-		gametip = "可获得Z23限定换装「哲学讲师」",
+		gametip = "可获得{namecode:408}限定换装「哲学讲师」",
 		banner_route = "permanent_z23",
 		gametip_extra = "最快10日获得",
 		over_pt = 0,
 		task_extra = "",
 		id = 6016,
-		activity_name = "36年Z组 Z23老师",
+		activity_name = "36年Z组 {namecode:408}老师",
 		over_task_id = "",
 		eliminate_task_id = {
 			35196,
@@ -447,26 +472,5 @@ pg.activity_task_permanent = {
 			35221,
 			35222
 		}
-	},
-	all = {
-		6000,
-		6001,
-		6002,
-		6003,
-		6004,
-		6005,
-		6006,
-		6007,
-		6008,
-		6009,
-		6010,
-		6011,
-		6012,
-		6013,
-		6014,
-		6015,
-		6016,
-		6017,
-		6018
 	}
 }

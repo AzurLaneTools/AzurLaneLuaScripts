@@ -208,7 +208,7 @@ return {
 			actor = 402060,
 			side = 0,
 			bgName = "bg_midgard_3",
-			actorName = "马格德堡&阿达尔伯特亲王",
+			actorName = "{namecode:447}&{namecode:455}",
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "阿达尔伯特快退下！",
+			say = "{namecode:456}快退下！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "因为及时收到警告，阿达尔伯特亲王在千钧一发之际避开了来自水下的攻击。",
+			say = "因为及时收到警告，{namecode:455}在千钧一发之际避开了来自水下的攻击。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -41,7 +41,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actorName = "万组",
-			say = "是，Z23老师！",
+			say = "是，{namecode:408}老师！",
 			subActors = {
 				{
 					actor = 10500030,
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "是，Z23老师！",
+			say = "是，{namecode:408}老师！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "虽然很感谢Z23你的好意，但是，请让我也去前线吧。",
+			say = "虽然很感谢{namecode:408}你的好意，但是，请让我也去前线吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

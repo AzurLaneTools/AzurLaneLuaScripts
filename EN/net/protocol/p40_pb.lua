@@ -42,6 +42,9 @@ slot2 = {
 	CS_40007_CNT_FIELD = slot0.FieldDescriptor(),
 	SC_40008_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_40008_REWARD_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_40009_RE40004_FIELD = slot0.FieldDescriptor(),
+	SC_40009_SYSTEM_FIELD = slot0.FieldDescriptor(),
+	SC_40009_ARG1_FIELD = slot0.FieldDescriptor(),
 	QUICK_REWARD_DROP_LIST_FIELD = slot0.FieldDescriptor(),
 	DROPPERFORMANCE_ENEMY_ID_FIELD = slot0.FieldDescriptor(),
 	DROPPERFORMANCE_RESOURCE_NUM_FIELD = slot0.FieldDescriptor(),
@@ -57,6 +60,7 @@ slot2 = {
 	SHIP_EXP_SHIP_ID_FIELD = slot0.FieldDescriptor(),
 	SHIP_EXP_EXP_FIELD = slot0.FieldDescriptor(),
 	SHIP_EXP_INTIMACY_FIELD = slot0.FieldDescriptor(),
+	SHIP_EXP_ENERGY_FIELD = slot0.FieldDescriptor(),
 	COMMANDER_EXP_COMMANDER_ID_FIELD = slot0.FieldDescriptor(),
 	COMMANDER_EXP_EXP_FIELD = slot0.FieldDescriptor(),
 	ENEMYINFO_ENEMY_ID_FIELD = slot0.FieldDescriptor(),
@@ -73,6 +77,7 @@ CS_40005 = slot0.Descriptor()
 SC_40006 = slot0.Descriptor()
 CS_40007 = slot0.Descriptor()
 SC_40008 = slot0.Descriptor()
+SC_40009 = slot0.Descriptor()
 QUICK_REWARD = slot0.Descriptor()
 DROPPERFORMANCE = slot0.Descriptor()
 OTHERSHIPID = slot0.Descriptor()
@@ -536,6 +541,45 @@ SC_40008.fields = {
 }
 SC_40008.is_extendable = false
 SC_40008.extensions = {}
+slot2.SC_40009_RE40004_FIELD.name = "re40004"
+slot2.SC_40009_RE40004_FIELD.full_name = "p40.sc_40009.re40004"
+slot2.SC_40009_RE40004_FIELD.number = 1
+slot2.SC_40009_RE40004_FIELD.index = 0
+slot2.SC_40009_RE40004_FIELD.label = 3
+slot2.SC_40009_RE40004_FIELD.has_default_value = false
+slot2.SC_40009_RE40004_FIELD.default_value = {}
+slot2.SC_40009_RE40004_FIELD.message_type = SC_40004
+slot2.SC_40009_RE40004_FIELD.type = 11
+slot2.SC_40009_RE40004_FIELD.cpp_type = 10
+slot2.SC_40009_SYSTEM_FIELD.name = "system"
+slot2.SC_40009_SYSTEM_FIELD.full_name = "p40.sc_40009.system"
+slot2.SC_40009_SYSTEM_FIELD.number = 2
+slot2.SC_40009_SYSTEM_FIELD.index = 1
+slot2.SC_40009_SYSTEM_FIELD.label = 2
+slot2.SC_40009_SYSTEM_FIELD.has_default_value = false
+slot2.SC_40009_SYSTEM_FIELD.default_value = 0
+slot2.SC_40009_SYSTEM_FIELD.type = 13
+slot2.SC_40009_SYSTEM_FIELD.cpp_type = 3
+slot2.SC_40009_ARG1_FIELD.name = "arg1"
+slot2.SC_40009_ARG1_FIELD.full_name = "p40.sc_40009.arg1"
+slot2.SC_40009_ARG1_FIELD.number = 3
+slot2.SC_40009_ARG1_FIELD.index = 2
+slot2.SC_40009_ARG1_FIELD.label = 1
+slot2.SC_40009_ARG1_FIELD.has_default_value = false
+slot2.SC_40009_ARG1_FIELD.default_value = 0
+slot2.SC_40009_ARG1_FIELD.type = 13
+slot2.SC_40009_ARG1_FIELD.cpp_type = 3
+SC_40009.name = "sc_40009"
+SC_40009.full_name = "p40.sc_40009"
+SC_40009.nested_types = {}
+SC_40009.enum_types = {}
+SC_40009.fields = {
+	slot2.SC_40009_RE40004_FIELD,
+	slot2.SC_40009_SYSTEM_FIELD,
+	slot2.SC_40009_ARG1_FIELD
+}
+SC_40009.is_extendable = false
+SC_40009.extensions = {}
 slot2.QUICK_REWARD_DROP_LIST_FIELD.name = "drop_list"
 slot2.QUICK_REWARD_DROP_LIST_FIELD.full_name = "p40.quick_reward.drop_list"
 slot2.QUICK_REWARD_DROP_LIST_FIELD.number = 1
@@ -716,6 +760,15 @@ slot2.SHIP_EXP_INTIMACY_FIELD.has_default_value = false
 slot2.SHIP_EXP_INTIMACY_FIELD.default_value = 0
 slot2.SHIP_EXP_INTIMACY_FIELD.type = 13
 slot2.SHIP_EXP_INTIMACY_FIELD.cpp_type = 3
+slot2.SHIP_EXP_ENERGY_FIELD.name = "energy"
+slot2.SHIP_EXP_ENERGY_FIELD.full_name = "p40.ship_exp.energy"
+slot2.SHIP_EXP_ENERGY_FIELD.number = 4
+slot2.SHIP_EXP_ENERGY_FIELD.index = 3
+slot2.SHIP_EXP_ENERGY_FIELD.label = 2
+slot2.SHIP_EXP_ENERGY_FIELD.has_default_value = false
+slot2.SHIP_EXP_ENERGY_FIELD.default_value = 0
+slot2.SHIP_EXP_ENERGY_FIELD.type = 13
+slot2.SHIP_EXP_ENERGY_FIELD.cpp_type = 3
 SHIP_EXP.name = "ship_exp"
 SHIP_EXP.full_name = "p40.ship_exp"
 SHIP_EXP.nested_types = {}
@@ -723,7 +776,8 @@ SHIP_EXP.enum_types = {}
 SHIP_EXP.fields = {
 	slot2.SHIP_EXP_SHIP_ID_FIELD,
 	slot2.SHIP_EXP_EXP_FIELD,
-	slot2.SHIP_EXP_INTIMACY_FIELD
+	slot2.SHIP_EXP_INTIMACY_FIELD,
+	slot2.SHIP_EXP_ENERGY_FIELD
 }
 SHIP_EXP.is_extendable = false
 SHIP_EXP.extensions = {}
@@ -836,5 +890,6 @@ sc_40002 = slot0.Message(SC_40002)
 sc_40004 = slot0.Message(SC_40004)
 sc_40006 = slot0.Message(SC_40006)
 sc_40008 = slot0.Message(SC_40008)
+sc_40009 = slot0.Message(SC_40009)
 ship_exp = slot0.Message(SHIP_EXP)
 statisticsinfo = slot0.Message(STATISTICSINFO)

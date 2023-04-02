@@ -32,10 +32,9 @@ function slot0.OnShow(slot0)
 	slot2 = slot0.playerVO
 	slot3 = slot0.memberVO
 	slot0.firenameTF.text = slot3.name
-	slot4 = AttireFrame.attireFrameRes(slot3, isSelf, AttireConst.TYPE_ICON_FRAME, slot3.propose)
-	slot5 = PoolMgr.GetInstance()
+	slot4 = AttireFrame.attireFrameRes(slot3, slot3.id == getProxy(PlayerProxy):getRawData().id, AttireConst.TYPE_ICON_FRAME, slot3.propose)
 
-	slot5:GetPrefab("IconFrame/" .. slot4, slot4, true, function (slot0)
+	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot4, slot4, true, function (slot0)
 		if IsNil(uv0._tf) then
 			return
 		end
@@ -49,13 +48,10 @@ function slot0.OnShow(slot0)
 			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. uv1, uv1, slot0)
 		end
 	end)
-
-	slot6 = Ship.New({
+	LoadSpriteAsync("qicon/" .. Ship.New({
 		configId = slot3.icon,
 		skin_id = slot3.skinId
-	})
-
-	LoadSpriteAsync("qicon/" .. slot6:getPainting(), function (slot0)
+	}):getPainting(), function (slot0)
 		if not IsNil(uv0.fireiconTF) then
 			uv0.fireiconTF.sprite = slot0
 		end

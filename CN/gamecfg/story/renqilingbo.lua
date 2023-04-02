@@ -770,7 +770,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			optionFlag = 1,
-			say = "【来信：Z23】诶诶诶诶诶！！真的要用那个吗！！！",
+			say = "【来信：{namecode:408}】诶诶诶诶诶！！真的要用那个吗！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

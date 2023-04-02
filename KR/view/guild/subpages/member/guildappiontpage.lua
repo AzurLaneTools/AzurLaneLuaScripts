@@ -99,10 +99,9 @@ function slot0.OnShow(slot0)
 	end
 
 	slot0.nameTF.text = slot2.name
-	slot11 = AttireFrame.attireFrameRes(slot2, isSelf, AttireConst.TYPE_ICON_FRAME, slot2.propose)
-	slot12 = PoolMgr.GetInstance()
+	slot11 = AttireFrame.attireFrameRes(slot2, slot2.id == getProxy(PlayerProxy):getRawData().id, AttireConst.TYPE_ICON_FRAME, slot2.propose)
 
-	slot12:GetPrefab("IconFrame/" .. slot11, slot11, true, function (slot0)
+	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot11, slot11, true, function (slot0)
 		if IsNil(uv0._tf) then
 			return
 		end
@@ -116,13 +115,10 @@ function slot0.OnShow(slot0)
 			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. uv1, uv1, slot0)
 		end
 	end)
-
-	slot13 = Ship.New({
+	LoadSpriteAsync("qicon/" .. Ship.New({
 		configId = slot2.icon,
 		skin_id = slot2.skinId
-	})
-
-	LoadSpriteAsync("qicon/" .. slot13:getPainting(), function (slot0)
+	}):getPainting(), function (slot0)
 		if not IsNil(uv0.iconTF) then
 			uv0.iconTF.sprite = slot0
 		end

@@ -183,7 +183,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「算了，我的任务完成，接下来是欧根去要去头疼的问题了」",
+			say = "「算了，我的任务完成，接下来是{namecode:428}去要去头疼的问题了」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？谜之音小姐你说什么，欧根亲王阁下要有什么困扰了么？！",
+			say = "哎？谜之音小姐你说什么，{namecode:427}阁下要有什么困扰了么？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

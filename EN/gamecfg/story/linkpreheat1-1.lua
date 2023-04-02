@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不是回话……Z23，刚才那声你听到了吗",
+			say = "虽然不是回话……{namecode:408}，刚才那声你听到了吗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

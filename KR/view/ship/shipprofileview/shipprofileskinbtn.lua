@@ -12,7 +12,7 @@ end
 function slot0.Update(slot0, slot1, slot2, slot3)
 	slot0.shipGroup = slot2
 
-	slot0.sctxt:SetText(HXSet.hxLan(slot1.name))
+	slot0.sctxt:SetText(slot1.name)
 
 	slot0.unlock = slot1.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or slot3 or slot1.skin_type == ShipSkin.SKIN_TYPE_REMAKE and slot0.shipGroup.trans or slot1.skin_type == ShipSkin.SKIN_TYPE_PROPOSE and slot0.shipGroup.married == 1
 

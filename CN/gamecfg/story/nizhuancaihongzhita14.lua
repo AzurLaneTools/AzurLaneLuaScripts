@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在炮火与轰鸣的战场中，乌尔里希·冯·胡滕一边开火，一边冷静地思考着。",
+			say = "在炮火与轰鸣的战场中，{namecode:463}一边开火，一边冷静地思考着。",
 			side = 2,
 			bgName = "bg_midgard_3",
 			dir = 1,
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "细看下来，格奈森瑙行动确实的有不自然之处。",
+			say = "细看下来，{namecode:434}行动确实的有不自然之处。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "可是再次提到腓特烈的时候，火焰又熄灭了……",
+			say = "可是再次提到{namecode:441}的时候，火焰又熄灭了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "乌尔里希像是想到了什么一般，突然停止了炮击，然后打开了舰队广播。",
+			say = "{namecode:464}像是想到了什么一般，突然停止了炮击，然后打开了舰队广播。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里是舰队旗舰乌尔里希·冯·胡滕，舰队立刻停止射击，全员后撤。",
+			say = "这里是舰队旗舰{namecode:463}，舰队立刻停止射击，全员后撤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "指令太跳跃了，稍微解释一下……乌尔里希。",
+			say = "指令太跳跃了，稍微解释一下……{namecode:464}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "无视了震惊的众人，乌尔里希接下来说出了更加令人震惊的话语。",
+			say = "无视了震惊的众人，{namecode:464}接下来说出了更加令人震惊的话语。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "格奈森瑙，来一对一的决斗吧！",
+			say = "{namecode:434}，来一对一的决斗吧！",
 			effects = {
 				{
 					active = true,

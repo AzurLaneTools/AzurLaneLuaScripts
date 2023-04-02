@@ -98,7 +98,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "难道是腓特烈大帝……？",
+					content = "难道是{namecode:440}……？",
 					flag = 2
 				}
 			}
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 499020,
-			say = "初次见面，我是铁血战列舰腓特烈大帝。",
+			say = "初次见面，我是铁血战列舰{namecode:440}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 499020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "我可是腓特烈大帝，做到这种事没什么奇怪吧。",
+			say = "我可是{namecode:440}，做到这种事没什么奇怪吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "当时的U-47是你派来帮助我们的么？",
+			say = "当时的{namecode:413}是你派来帮助我们的么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -998,7 +998,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "（在腓特烈大帝犹如潮水般透露的情报中，有些是已经了解的，有些是存在怀疑的，但更多的是从未听说过的……）",
+			say = "（在{namecode:440}犹如潮水般透露的情报中，有些是已经了解的，有些是存在怀疑的，但更多的是从未听说过的……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1040,7 +1040,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "（可是不知道为什么，面对慷慨呈辞的腓特烈大帝，这一结论似乎变得不再可靠了……）",
+			say = "（可是不知道为什么，面对慷慨呈辞的{namecode:440}，这一结论似乎变得不再可靠了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1196,7 +1196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "通讯器",
-			say = "我是俾斯麦，现在向斯卡帕湾周边所有铁血舰队发出宣告。",
+			say = "我是{namecode:435}，现在向斯卡帕湾周边所有铁血舰队发出宣告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1281,7 +1281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "通讯器",
-			say = "重复。我是俾斯麦，现在向斯卡帕湾周边所有铁血舰队发出宣告————",
+			say = "重复。我是{namecode:435}，现在向斯卡帕湾周边所有铁血舰队发出宣告————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1313,7 +1313,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102160,
-			say = "欧根亲王带领的铁血舰队已经率先响应了“俾斯麦”的呼吁，正式与塞壬交火了！",
+			say = "{namecode:427}带领的铁血舰队已经率先响应了“{namecode:435}”的呼吁，正式与塞壬交火了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1351,7 +1351,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "俾斯麦不是多年前就已经沉没了么？",
+			say = "{namecode:435}不是多年前就已经沉没了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1370,7 +1370,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "铁血的领导权不是早就交给腓特烈大帝了么……？",
+			say = "铁血的领导权不是早就交给{namecode:440}了么……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1509,7 +1509,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "腓特烈大帝，到底是怎么回事……？",
+			say = "{namecode:440}，到底是怎么回事……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1830,7 +1830,7 @@ return {
 			actor = 499020,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "那么祝我们好运吧，腓特烈大帝通话结束。",
+			say = "那么祝我们好运吧，{namecode:440}通话结束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

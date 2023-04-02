@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "终于，腓特烈大帝停止了行动。",
+			say = "终于，{namecode:440}停止了行动。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "铁血战列舰塞德利茨在此向您报到，腓特烈大帝阁下。",
+			say = "铁血战列舰{namecode:460}在此向您报到，{namecode:440}阁下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "变得更加小巧与灵活的巡洋舰约克，以这样全新的姿态向您报道。",
+			say = "变得更加小巧与灵活的巡洋舰{namecode:457}，以这样全新的姿态向您报道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "吕佐夫小姐，现在不是睡大觉的时候吧。",
+			say = "{namecode:461}小姐，现在不是睡大觉的时候吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "唯一的问题就是真的好困……唉，没办法，铁血战列巡洋舰吕佐夫，现在回归入列。",
+			say = "唯一的问题就是真的好困……唉，没办法，铁血战列巡洋舰{namecode:461}，现在回归入列。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "腓特烈，公海舰队……是只有我们了么。",
+			say = "{namecode:441}，公海舰队……是只有我们了么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很遗憾，图林根，是的。",
+			say = "很遗憾，{namecode:466}，是的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "铁血舰队所属，巡洋舰埃尔宾向您报道……不知道为什么选择了我来浪费这种宝贵机会。",
+			say = "铁血舰队所属，巡洋舰{namecode:449}向您报道……不知道为什么选择了我来浪费这种宝贵机会。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…………这个问题我跟腓特烈的回答一样，不承认也不否认。",
+			say = "…………这个问题我跟{namecode:441}的回答一样，不承认也不否认。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不学习腓特烈大帝复活曾经的友人么？",
+			say = "不学习{namecode:440}复活曾经的友人么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403110,
-			say = "埃姆登，你怎么一直不说话，哪里不舒服么？",
+			say = "{namecode:448}，你怎么一直不说话，哪里不舒服么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "埃姆登……嗯，没错，我是埃姆登哦。",
+			say = "{namecode:448}……嗯，没错，我是{namecode:448}哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“东方的天鹅”，德累斯顿级巡洋舰，埃姆登在此向各位致以诚挚问候。",
+			say = "“东方的天鹅”，{namecode:487}级巡洋舰，{namecode:448}在此向各位致以诚挚问候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "但是埃姆登的确在这里，所以我也在这里了哦。",
+			say = "但是{namecode:448}的确在这里，所以我也在这里了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也许临终之前的埃姆登心中最强烈思念的，是那艘她继承名字的东方天鹅吧。",
+			say = "也许临终之前的{namecode:448}心中最强烈思念的，是那艘她继承名字的东方天鹅吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "我的计划里只有埃姆登，仅此而已。",
+			say = "我的计划里只有{namecode:448}，仅此而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -924,7 +924,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "可是我感觉到了违和感。腓特烈大帝，你究竟是什么？",
+			say = "可是我感觉到了违和感。{namecode:440}，你究竟是什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -977,7 +977,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我就是我，腓特烈大帝。",
+			say = "我就是我，{namecode:440}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1065,7 +1065,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "吕佐夫，你已经睡好了么？",
+			say = "{namecode:461}，你已经睡好了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1242,7 +1242,7 @@ return {
 			bgName = "bg_endingsong_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "吕佐夫",
+			actorName = "{namecode:461}",
 			say = "不过更重要的是————伊丽莎白女王？那个伊丽莎白女王级战列舰的伊丽莎白女王么？",
 			typewriter = {
 				speed = 0.05,
@@ -1259,7 +1259,7 @@ return {
 			bgName = "bg_endingsong_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "吕佐夫",
+			actorName = "{namecode:461}",
 			say = "噗…………居然这么小？！",
 			typewriter = {
 				speed = 0.05,
@@ -1293,7 +1293,7 @@ return {
 			bgName = "bg_endingsong_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "吕佐夫",
+			actorName = "{namecode:461}",
 			say = "啊别别别，我没有别的意思，就是有点没办法把你跟那个伊丽莎白女王联系到一起……噗。",
 			typewriter = {
 				speed = 0.05,
@@ -1310,8 +1310,8 @@ return {
 			bgName = "bg_endingsong_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "吕佐夫",
-			say = "毕竟也是战列舰哎……你看图林根和塞德利茨……",
+			actorName = "{namecode:461}",
+			say = "毕竟也是战列舰哎……你看{namecode:466}和{namecode:460}……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1327,8 +1327,8 @@ return {
 			bgName = "bg_endingsong_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "吕佐夫",
-			say = "哪怕是巡洋舰的埃姆登和埃尔宾呢……（偷瞄）。",
+			actorName = "{namecode:461}",
+			say = "哪怕是巡洋舰的{namecode:448}和{namecode:449}呢……（偷瞄）。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1378,7 +1378,7 @@ return {
 			bgName = "bg_endingsong_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "图林根",
+			actorName = "{namecode:466}",
 			say = "非常抱歉，女王陛下。",
 			typewriter = {
 				speed = 0.05,
@@ -1395,7 +1395,7 @@ return {
 			bgName = "bg_endingsong_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "图林根",
+			actorName = "{namecode:466}",
 			say = "您说的有道理，大小确实不是判断胸部价值的唯一标准。",
 			typewriter = {
 				speed = 0.05,
@@ -1412,7 +1412,7 @@ return {
 			bgName = "bg_endingsong_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "图林根",
+			actorName = "{namecode:466}",
 			say = "胸部大小也和是否为战列舰无关。",
 			typewriter = {
 				speed = 0.05,
@@ -1429,8 +1429,8 @@ return {
 			bgName = "bg_endingsong_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "图林根",
-			say = "吕佐夫单纯因为看到胸部过小就对您是否为战列舰提出质疑，这是一种极其不严谨的行为。",
+			actorName = "{namecode:466}",
+			say = "{namecode:461}单纯因为看到胸部过小就对您是否为战列舰提出质疑，这是一种极其不严谨的行为。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1446,8 +1446,8 @@ return {
 			bgName = "bg_endingsong_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "图林根",
-			say = "我在这里向她道歉了。吕佐夫，要不然你也亲自道个歉如何？",
+			actorName = "{namecode:466}",
+			say = "我在这里向她道歉了。{namecode:461}，要不然你也亲自道个歉如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1463,7 +1463,7 @@ return {
 			bgName = "bg_endingsong_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "吕佐夫",
+			actorName = "{namecode:461}",
 			say = "非常抱歉————见到你的胸部那么小，就擅自没有把你当成战列舰————",
 			typewriter = {
 				speed = 0.05,
@@ -1565,7 +1565,7 @@ return {
 			bgName = "bg_endingsong_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "吕佐夫",
+			actorName = "{namecode:461}",
 			say = "……欸？",
 			typewriter = {
 				speed = 0.05,
@@ -1617,7 +1617,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "伊丽莎白女王",
-			say = "腓、腓特烈！差不多该问正事了吧！",
+			say = "腓、{namecode:441}！差不多该问正事了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1633,7 +1633,7 @@ return {
 			bgName = "bg_endingsong_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "这就要结束友好交流环节了么？",
 			typewriter = {
 				speed = 0.05,
@@ -1684,7 +1684,7 @@ return {
 			bgName = "bg_endingsong_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "说的也是。公海舰队的诸位，关于你们在毁灭之前的事，我们想要听到真相。",
 			typewriter = {
 				speed = 0.05,
@@ -1702,7 +1702,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "腓特烈大帝",
+			actorName = "{namecode:440}",
 			say = "告诉我们吧，当时在这里，究竟发生了什么事？",
 			typewriter = {
 				speed = 0.05,

@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……以上，就是由铁血的腓特烈大帝亲自发来的事件报告。",
+			say = "……以上，就是由铁血的{namecode:440}亲自发来的事件报告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……那请问我应该怎么回复腓特烈大帝比较好？",
+			say = "……那请问我应该怎么回复{namecode:440}比较好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

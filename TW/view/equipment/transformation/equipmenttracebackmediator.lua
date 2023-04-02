@@ -31,9 +31,7 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		BagProxy.ITEM_UPDATED,
-		EquipmentProxy.EQUIPMENT_ADDED,
 		EquipmentProxy.EQUIPMENT_UPDATED,
-		EquipmentProxy.EQUIPMENT_REMOVED,
 		GAME.EQUIP_TO_SHIP_DONE,
 		GAME.UNEQUIP_FROM_SHIP_DONE,
 		GAME.TRANSFORM_EQUIPMENT_DONE,
@@ -56,7 +54,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot4:UpdateSort()
 		slot4:UpdateSourceList()
 		slot4:UpdateFormula()
-	elseif slot2 == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED or slot2 == EquipmentProxy.EQUIPMENT_REMOVED then
+	elseif slot2 == EquipmentProxy.EQUIPMENT_UPDATED then
 		if slot0.stopUpdateView then
 			return
 		end
@@ -64,7 +62,7 @@ function slot0.handleNotification(slot0, slot1)
 		if slot0.contextData.sourceEquipmentInstance then
 			slot5 = slot0.contextData.sourceEquipmentInstance
 
-			if (slot2 == EquipmentProxy.EQUIPMENT_REMOVED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED and slot3.count == 0) and slot5.type == DROP_TYPE_EQUIP and EquipmentProxy.SameEquip(slot3, slot5.template) then
+			if slot3.count == 0 and slot5.type == DROP_TYPE_EQUIP and EquipmentProxy.SameEquip(slot3, slot5.template) then
 				slot0.contextData.sourceEquipmentInstance = nil
 			end
 		end

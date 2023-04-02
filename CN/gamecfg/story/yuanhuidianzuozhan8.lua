@@ -42,7 +42,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "锵锵锵——Z16，今天的晚饭来了哦~豪华鸢尾大餐！",
+			say = "锵锵锵——{namecode:442}，今天的晚饭来了哦~豪华鸢尾大餐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "话说，俾斯麦大人她们呢，不需要吃东西么？",
+			say = "话说，{namecode:435}大人她们呢，不需要吃东西么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 8,
-			say = "好、好厉害！布吕歇尔已经完全变成专家了啊……",
+			say = "好、好厉害！{namecode:450}已经完全变成专家了啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "Z16肯定也有想早点出去，早点见到的人吧。",
+			say = "{namecode:442}肯定也有想早点出去，早点见到的人吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1219,5 +1219,555 @@ pg.name_code = {
 		id = 290,
 		name = "Mass-Produced Akagi Class MK 2",
 		code = "Mass-Produced Akagi Class MK 2"
+	},
+	[400] = {
+		id = 400,
+		name = "Z1",
+		code = "Z1"
+	},
+	[401] = {
+		id = 401,
+		name = "Z2",
+		code = "Z2"
+	},
+	[402] = {
+		id = 402,
+		name = "Z5",
+		code = "Z5"
+	},
+	[403] = {
+		id = 403,
+		name = "Z17",
+		code = "Z17"
+	},
+	[404] = {
+		id = 404,
+		name = "Z18",
+		code = "Z18"
+	},
+	[405] = {
+		id = 405,
+		name = "Z19",
+		code = "Z19"
+	},
+	[406] = {
+		id = 406,
+		name = "Z20",
+		code = "Z20"
+	},
+	[407] = {
+		id = 407,
+		name = "Z21",
+		code = "Z21"
+	},
+	[408] = {
+		id = 408,
+		name = "Z23",
+		code = "Z23"
+	},
+	[409] = {
+		id = 409,
+		name = "Z25",
+		code = "Z25"
+	},
+	[410] = {
+		id = 410,
+		name = "Z35",
+		code = "Z35"
+	},
+	[411] = {
+		id = 411,
+		name = "Z36",
+		code = "Z36"
+	},
+	[412] = {
+		id = 412,
+		name = "Z46",
+		code = "Z46"
+	},
+	[413] = {
+		id = 413,
+		name = "U-47",
+		code = "U-47"
+	},
+	[414] = {
+		id = 414,
+		name = "U-81",
+		code = "U-81"
+	},
+	[415] = {
+		id = 415,
+		name = "U-557",
+		code = "U-557"
+	},
+	[416] = {
+		id = 416,
+		name = "U-556",
+		code = "U-556"
+	},
+	[417] = {
+		id = 417,
+		name = "U-73",
+		code = "U-73"
+	},
+	[418] = {
+		id = 418,
+		name = "U-101",
+		code = "U-101"
+	},
+	[419] = {
+		id = 419,
+		name = "U-522",
+		code = "U-522"
+	},
+	[420] = {
+		id = 420,
+		name = "U-110",
+		code = "U-110"
+	},
+	[421] = {
+		id = 421,
+		name = "Königsberg",
+		code = "Königsberg"
+	},
+	[422] = {
+		id = 422,
+		name = "Karlsruhe",
+		code = "Karlsruhe"
+	},
+	[423] = {
+		id = 423,
+		name = "Köln",
+		code = "Köln"
+	},
+	[424] = {
+		id = 424,
+		name = "Leipzig",
+		code = "Leipzig"
+	},
+	[425] = {
+		id = 425,
+		name = "Admiral Hipper",
+		code = "Admiral Hipper"
+	},
+	[426] = {
+		id = 426,
+		name = "Hipper",
+		code = "Hipper"
+	},
+	[427] = {
+		id = 427,
+		name = "Prinz Eugen",
+		code = "Prinz Eugen"
+	},
+	[428] = {
+		id = 428,
+		name = "Eugen",
+		code = "Eugen"
+	},
+	[429] = {
+		id = 429,
+		name = "Deutschland",
+		code = "Deutschland"
+	},
+	[430] = {
+		id = 430,
+		name = "Admiral Graf Spee",
+		code = "Admiral Graf Spee"
+	},
+	[431] = {
+		id = 431,
+		name = "Graf Spee",
+		code = "Graf Spee"
+	},
+	[432] = {
+		id = 432,
+		name = "Spee",
+		code = "Spee"
+	},
+	[433] = {
+		id = 433,
+		name = "Scharnhorst",
+		code = "Scharnhorst"
+	},
+	[434] = {
+		id = 434,
+		name = "Gneisenau",
+		code = "Gneisenau"
+	},
+	[435] = {
+		id = 435,
+		name = "Bismarck",
+		code = "Bismarck"
+	},
+	[436] = {
+		id = 436,
+		name = "Tirpitz",
+		code = "Tirpitz"
+	},
+	[437] = {
+		id = 437,
+		name = "Graf Zeppelin",
+		code = "Graf Zeppelin"
+	},
+	[438] = {
+		id = 438,
+		name = "Zeppelin",
+		code = "Zeppelin"
+	},
+	[439] = {
+		id = 439,
+		name = "Roon",
+		code = "Roon"
+	},
+	[440] = {
+		id = 440,
+		name = "Friedrich der Grosse",
+		code = "Friedrich der Grosse"
+	},
+	[441] = {
+		id = 441,
+		name = "Friedrich",
+		code = "Friedrich"
+	},
+	[442] = {
+		id = 442,
+		name = "Z16",
+		code = "Z16"
+	},
+	[443] = {
+		id = 443,
+		name = "Z24",
+		code = "Z24"
+	},
+	[444] = {
+		id = 444,
+		name = "Z26",
+		code = "Z26"
+	},
+	[445] = {
+		id = 445,
+		name = "Z28",
+		code = "Z28"
+	},
+	[446] = {
+		id = 446,
+		name = "Nürnberg ",
+		code = "Nürnberg "
+	},
+	[447] = {
+		id = 447,
+		name = "Magdeburg",
+		code = "Magdeburg"
+	},
+	[448] = {
+		id = 448,
+		name = "Emden",
+		code = "Emden"
+	},
+	[449] = {
+		id = 449,
+		name = "Elbing",
+		code = "Elbing"
+	},
+	[450] = {
+		id = 450,
+		name = "Blücher",
+		code = "Blücher"
+	},
+	[451] = {
+		id = 451,
+		name = "Admiral Hipper μ",
+		code = "Admiral Hipper μ"
+	},
+	[452] = {
+		id = 452,
+		name = "Roon μ ",
+		code = "Roon μ "
+	},
+	[453] = {
+		id = 453,
+		name = "Prinz Heinrich ",
+		code = "Prinz Heinrich "
+	},
+	[454] = {
+		id = 454,
+		name = "Heinrich ",
+		code = "Heinrich "
+	},
+	[455] = {
+		id = 455,
+		name = "Prinz Adalbert",
+		code = "Prinz Adalbert"
+	},
+	[456] = {
+		id = 456,
+		name = "Adalbert",
+		code = "Adalbert"
+	},
+	[457] = {
+		id = 457,
+		name = "York",
+		code = "York"
+	},
+	[458] = {
+		id = 458,
+		name = "Little Prinz Eugen",
+		code = "Little Prinz Eugen"
+	},
+	[459] = {
+		id = 459,
+		name = "Little Spee",
+		code = "Little Spee"
+	},
+	[460] = {
+		id = 460,
+		name = "Seydlitz",
+		code = "Seydlitz"
+	},
+	[461] = {
+		id = 461,
+		name = "Lützow",
+		code = "Lützow"
+	},
+	[462] = {
+		id = 462,
+		name = "Brünhilde",
+		code = "Brünhilde"
+	},
+	[463] = {
+		id = 463,
+		name = "Ulrich von Hutten",
+		code = "Ulrich von Hutten"
+	},
+	[464] = {
+		id = 464,
+		name = "Hutten",
+		code = "Hutten"
+	},
+	[465] = {
+		id = 465,
+		name = "Hutten",
+		code = "Hutten"
+	},
+	[466] = {
+		id = 466,
+		name = "Thüringen",
+		code = "Thüringen"
+	},
+	[467] = {
+		id = 467,
+		name = "Weser",
+		code = "Weser"
+	},
+	[468] = {
+		id = 468,
+		name = "Elbe",
+		code = "Elbe"
+	},
+	[469] = {
+		id = 469,
+		name = "Zeppy",
+		code = "Zeppy"
+	},
+	[470] = {
+		id = 470,
+		name = "Peter Strasser",
+		code = "Peter Strasser"
+	},
+	[471] = {
+		id = 471,
+		name = "Peter",
+		code = "Peter"
+	},
+	[472] = {
+		id = 472,
+		name = "Strasser",
+		code = "Strasser"
+	},
+	[473] = {
+		id = 473,
+		name = "U-96",
+		code = "U-96"
+	},
+	[474] = {
+		id = 474,
+		name = "U-37",
+		code = "U-37"
+	},
+	[475] = {
+		id = 475,
+		name = "U-410",
+		code = "U-410"
+	},
+	[476] = {
+		id = 476,
+		name = "U-1206",
+		code = "U-1206"
+	},
+	[477] = {
+		id = 477,
+		name = "Gneisenau META",
+		code = "Gneisenau META"
+	},
+	[478] = {
+		id = 478,
+		name = "Scharnhorst META",
+		code = "Scharnhorst META"
+	},
+	[479] = {
+		id = 479,
+		name = "Mainz",
+		code = "Mainz"
+	},
+	[480] = {
+		id = 480,
+		name = "Ägir",
+		code = "Ägir"
+	},
+	[481] = {
+		id = 481,
+		name = "August von Parseval",
+		code = "August von Parseval"
+	},
+	[482] = {
+		id = 482,
+		name = "August",
+		code = "August"
+	},
+	[483] = {
+		id = 483,
+		name = "Parseval",
+		code = "Parseval"
+	},
+	[484] = {
+		id = 484,
+		name = "Prinz Rupprecht",
+		code = "Prinz Rupprecht"
+	},
+	[485] = {
+		id = 485,
+		name = "Rupprecht",
+		code = "Rupprecht"
+	},
+	[486] = {
+		id = 486,
+		name = "Odin",
+		code = "Odin"
+	},
+	[487] = {
+		id = 487,
+		name = "德累斯顿",
+		code = "迪特林德"
+	},
+	[488] = {
+		id = 488,
+		name = "皮劳",
+		code = "宝拉"
+	},
+	[489] = {
+		id = 489,
+		name = "德弗林格尔",
+		code = "多萝泰娅"
+	},
+	[490] = {
+		id = 490,
+		name = "赫尔戈兰",
+		code = "赫娜洛蕾"
+	},
+	[491] = {
+		id = 491,
+		name = "亚德",
+		code = "阿黛尔"
+	},
+	[492] = {
+		id = 492,
+		name = "舍尔海军上将",
+		code = "席勒"
+	},
+	[493] = {
+		id = 493,
+		name = "舍尔",
+		code = "席勒"
+	},
+	[494] = {
+		id = 494,
+		name = "Z47",
+		code = "Z47"
+	},
+	[495] = {
+		id = 495,
+		name = "Z9",
+		code = "Z9"
+	},
+	[496] = {
+		id = 496,
+		name = "Z11",
+		code = "Z11"
+	},
+	[497] = {
+		id = 497,
+		name = "Z12",
+		code = "Z12"
+	},
+	[498] = {
+		id = 498,
+		name = "Z13",
+		code = "Z13"
+	},
+	[499] = {
+		id = 499,
+		name = "Z22",
+		code = "Z22"
+	},
+	[500] = {
+		id = 500,
+		name = "Deutschland-class Production Model",
+		code = "Deutschland-class Production Model"
+	},
+	[501] = {
+		id = 501,
+		name = "Königsberg-class Production Model",
+		code = "Königsberg-class Production Model"
+	},
+	[502] = {
+		id = 502,
+		name = "Admiral Hipper-class Production Model",
+		code = "Admiral Hipper-class Production Model"
+	},
+	[503] = {
+		id = 503,
+		name = "Scharnhorst-class Production Model",
+		code = "Scharnhorst-class Production Model"
+	},
+	[504] = {
+		id = 504,
+		name = "Zeppelin-class Production Model",
+		code = "Zeppelin-class Production Model"
+	},
+	[505] = {
+		id = 505,
+		name = "Mass-Produced Deutschland-classs Mod I",
+		code = "Mass-Produced Deutschland-classs Mod I"
+	},
+	[506] = {
+		id = 506,
+		name = "Mass-Produced Königsberg-class Mod I",
+		code = "Mass-Produced Königsberg-class Mod I"
+	},
+	[507] = {
+		id = 507,
+		name = "Mass-Produced Admiral Hipper-class Mod I",
+		code = "Mass-Produced Admiral Hipper-class Mod I"
+	},
+	[508] = {
+		id = 508,
+		name = "Mass-Produced Scharnhorst-class Mod I",
+		code = "Mass-Produced Scharnhorst-class Mod I"
+	},
+	[509] = {
+		id = 509,
+		name = "Mass-Produced Graf Zeppelin-class Mod I",
+		code = "Mass-Produced Graf Zeppelin-class Mod I"
 	}
 }

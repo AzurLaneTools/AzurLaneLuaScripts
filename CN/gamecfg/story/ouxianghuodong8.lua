@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "希佩尔小姐也拜托了！大家一起努力完成实验任务吧",
+			say = "{namecode:426}小姐也拜托了！大家一起努力完成实验任务吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23，舞台招呼",
+			say = "{namecode:408}，舞台招呼",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“吾之歌声即为弥赛，吾之舞步即为温蒂尼，偶像Z23，将各位的加油都——”",
+			say = "“吾之歌声即为弥赛，吾之舞步即为温蒂尼，偶像{namecode:408}，将各位的加油都——”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			actor = 403070,
 			dir = 1,
-			say = "那啥，这是Z35还是Z36教你的吧",
+			say = "那啥，这是{namecode:410}还是{namecode:411}教你的吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23太紧张了啦！不用管对面那么多的！",
+			say = "{namecode:408}太紧张了啦！不用管对面那么多的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23，没事",
+			say = "{namecode:408}，没事",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

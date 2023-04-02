@@ -297,6 +297,22 @@ pg.share_template = {
 			"/OverlayCamera/Overlay/UIMain/result_panel/frame/Text"
 		}
 	},
+	{
+		description = "#벽람항로#",
+		name = "连战活动 - EX分享界面",
+		id = 18,
+		deck = 1,
+		hidden_comps = "",
+		move_comps = "",
+		camera = "OverlayCamera",
+		qrcode_location = {
+			383,
+			120
+		},
+		show_comps = {
+			"UICamera/Canvas/UIMain/PizzahutSharePage(Clone)"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -314,6 +330,7 @@ pg.share_template = {
 		14,
 		15,
 		16,
-		17
+		17,
+		18
 	}
 }

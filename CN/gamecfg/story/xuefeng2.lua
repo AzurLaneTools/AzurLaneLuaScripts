@@ -78,7 +78,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23酱～这个问题怎么回答啊……",
+			say = "{namecode:408}酱～这个问题怎么回答啊……",
 			flashout = {
 				black = true,
 				dur = 1,

@@ -11,7 +11,7 @@ return {
 			side = 0,
 			bgm = "level02",
 			dir = 1,
-			say = "唔…Z9和Z11一直跟着我们后面，Z17来了，那边的是Z12……Z19还是没到。",
+			say = "唔…{namecode:495}和{namecode:496}一直跟着我们后面，{namecode:403}来了，那边的是{namecode:497}……{namecode:405}还是没到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "撤退命令已经发出去半小时了，Z19还是没来么…",
+			say = "撤退命令已经发出去半小时了，{namecode:405}还是没来么…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

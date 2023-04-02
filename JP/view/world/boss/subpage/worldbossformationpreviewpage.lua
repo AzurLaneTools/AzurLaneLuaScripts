@@ -72,7 +72,7 @@ function slot0.UpdateShip(slot0, slot1, slot2)
 
 	if slot2 then
 		slot6 = UIItemList.New(slot3:Find("stars"), slot3:Find("stars/star_tpl"))
-		slot3:Find("name"):GetComponent(typeof(Text)).text = shortenString(HXSet.hxLan(slot2:getName()), 6)
+		slot3:Find("name"):GetComponent(typeof(Text)).text = shortenString(slot2:getName(), 6)
 		slot3:Find("ship_type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("shiptype", shipType2print(pg.ship_data_statistics[slot2.configId].type))
 		slot10 = slot2:getStar()
 

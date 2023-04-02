@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "乌尔里希阁下，追兵都解决了哦~",
+			say = "{namecode:464}阁下，追兵都解决了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "正好结束激战的格奈森瑙也被我们一起拉过来了。",
+			say = "正好结束激战的{namecode:434}也被我们一起拉过来了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1214,7 +1214,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "从总部发来的紧急消息，港区近海突然侦测到镜面海域反应…需要紧急派遣侦察部队。就拜托Z23了",
+			say = "从总部发来的紧急消息，港区近海突然侦测到镜面海域反应…需要紧急派遣侦察部队。就拜托{namecode:408}了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1246,7 +1246,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哇哇，等等我Z23～标枪也要一起去！",
+			say = "啊哇哇，等等我{namecode:408}～标枪也要一起去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

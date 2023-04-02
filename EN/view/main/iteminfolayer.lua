@@ -99,13 +99,13 @@ function slot0.setItemInfo(slot0, slot1, slot2)
 
 	if slot1.extra then
 		if slot1:getConfig("type") == Item.LOVE_LETTER_TYPE then
-			setText(slot4, HXSet.hxLan(string.gsub(slot1:getConfig("display"), "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.extra))))
+			setText(slot4, string.gsub(slot1:getConfig("display"), "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.extra)))
 		end
 	else
-		setText(slot4, HXSet.hxLan(slot1:getConfig("display")))
+		setText(slot4, slot1:getConfig("display"))
 	end
 
-	setText(slot5, HXSet.hxLan(slot1:getConfig("name")))
+	setText(slot5, slot1:getConfig("name"))
 	SetActive(slot6, false)
 
 	if not IsNil(slot8) then
@@ -177,7 +177,7 @@ function slot0.setItem(slot0, slot1)
 			setActive(slot0.loveRepairBtn, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOVE_LETTER) and not slot5:isEnd() and slot5.data1 > 0 and slot1.extra == 31201)
 			onButton(slot0, slot0.loveRepairBtn, function ()
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = HXSet.hxLan(i18n("loveletter_exchange_confirm")),
+					content = i18n("loveletter_exchange_confirm"),
 					onYes = function ()
 						uv0:emit(ItemInfoMediator.EXCHANGE_LOVE_LETTER_ITEM, uv1.id)
 					end

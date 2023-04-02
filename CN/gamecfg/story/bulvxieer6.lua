@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "——明明已经是晚上了，却还收到了布吕歇尔的约会邀请。",
+			say = "——明明已经是晚上了，却还收到了{namecode:450}的约会邀请。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "满天的星光下，陪布吕歇尔一起在港区的小吃街上闲游。",
+			say = "满天的星光下，陪{namecode:450}一起在港区的小吃街上闲游。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "和布吕歇尔边吃边沿着街道走着，不知不觉已经到了街道的尽头。",
+			say = "和{namecode:450}边吃边沿着街道走着，不知不觉已经到了街道的尽头。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "布吕歇尔突然张开双臂，似乎在等待着什么。",
+			say = "{namecode:450}突然张开双臂，似乎在等待着什么。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			},
 			options = {
 				{
-					content = "抱抱布吕歇尔",
+					content = "抱抱{namecode:450}",
 					flag = 1
 				},
 				{
@@ -358,7 +358,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~有了指挥官的拥抱，布吕歇尔元气完全恢复！",
+			say = "嘿嘿~有了指挥官的拥抱，{namecode:450}元气完全恢复！",
 			painting = {
 				alpha = 0.3,
 				time = 1

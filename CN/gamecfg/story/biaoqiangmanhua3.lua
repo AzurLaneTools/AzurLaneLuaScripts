@@ -306,7 +306,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是Z36也不会写这么中二的文字啦——",
+			say = "就算是{namecode:411}也不会写这么中二的文字啦——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的嘛！？Z46，帮大忙了！",
+			say = "真的嘛！？{namecode:412}，帮大忙了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "首先为了友人的名誉，我可以断言这个不是齐柏林写的。",
+			say = "首先为了友人的名誉，我可以断言这个不是{namecode:438}写的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

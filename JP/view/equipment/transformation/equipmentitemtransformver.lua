@@ -26,7 +26,7 @@ function slot0.update(slot0, slot1)
 		end
 	end
 
-	findTF(slot3, "name"):GetComponent(typeof(Text)).text = shortenString(HXSet.hxLan(slot1.cfg.name), 5)
+	findTF(slot3, "name"):GetComponent(typeof(Text)).text = shortenString(slot1.cfg.name, 5)
 
 	if not IsNil(slot0.mask) then
 		setActive(slot0.mask, slot2.mask)

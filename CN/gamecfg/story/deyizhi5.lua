@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"德意志的忧郁\n\n<size=45>五　真相·上</size>",
+					"{namecode:429}的忧郁\n\n<size=45>五　真相·上</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "格奈森瑙的宿舍",
+			say = "{namecode:434}的宿舍",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "半拉着德意志来到了格奈森瑙的宿舍并说明了情况。",
+			say = "半拉着{namecode:429}来到了{namecode:434}的宿舍并说明了情况。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉，德意志，不过有一点请你相信，大家都是真心为你好的。",
+			say = "抱歉，{namecode:429}，不过有一点请你相信，大家都是真心为你好的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么，欧根，斯佩，提尔比茨，Z1，谢谢你们抽空过来。",
+			say = "那么，{namecode:428}，{namecode:432}，{namecode:436}，{namecode:400}，谢谢你们抽空过来。",
 			subActors = {
 				{
 					actor = 403040,
@@ -208,7 +208,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是因为德意志姐姐的那件事吗？",
+			say = "是因为{namecode:429}姐姐的那件事吗？",
 			subActors = {
 				{
 					actor = 403040,
@@ -233,7 +233,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是的，斯佩你可能不太清楚，我们曾经约定好，尽可能地迁就她的性格，让她能够继续无忧无虑地生活下去。",
+			say = "是的，{namecode:432}你可能不太清楚，我们曾经约定好，尽可能地迁就她的性格，让她能够继续无忧无虑地生活下去。",
 			subActors = {
 				{
 					actor = 403040,
@@ -303,7 +303,7 @@ return {
 			},
 			options = {
 				{
-					content = "抱住想要冲过去的德意志",
+					content = "抱住想要冲过去的{namecode:429}",
 					flag = 1
 				}
 			}
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……被德意志一口咬住了手。",
+			say = "……被{namecode:429}一口咬住了手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

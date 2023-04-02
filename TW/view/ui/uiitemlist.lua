@@ -65,31 +65,10 @@ function slot0.eachActive(slot0, slot1)
 end
 
 function slot0.StaticAlign(slot0, slot1, slot2, slot3)
-	assert(slot2 >= 0)
+	slot4 = UIItemList.New(slot0, slot1)
 
-	for slot8 = slot2, slot0.childCount - 1 do
-		setActive(slot0:GetChild(slot8), false)
-
-		if slot3 then
-			slot3(uv0.EventExcess, slot8, slot9)
-		end
-	end
-
-	for slot8 = slot4, slot2 - 1 do
-		slot9 = cloneTplTo(slot1, slot0)
-
-		if slot3 then
-			slot3(uv0.EventInit, slot8, slot9)
-		end
-	end
-
-	for slot8 = 0, slot2 - 1 do
-		setActive(slot0:GetChild(slot8), true)
-
-		if slot3 then
-			slot3(uv0.EventUpdate, slot8, slot9)
-		end
-	end
+	slot4:make(slot3)
+	slot4:align(slot2)
 end
 
 return slot0

@@ -1163,7 +1163,7 @@ function slot0.updateEliteLimit(slot0)
 				end
 
 				setActive(slot2, true)
-				setText(uv0:findTF("Text", slot2), AttributeType.EliteCondition2Name(slot4, slot7) .. AttributeType.eliteConditionCompareTip[slot5] .. slot6 .. "（" .. uv2[slot4] .. "）")
+				setText(uv0:findTF("Text", slot2), AttributeType.EliteCondition2Name(slot4, slot7) .. AttributeType.eliteConditionCompareTip(slot5) .. slot6 .. "（" .. uv2[slot4] .. "）")
 			end
 		end)
 		slot3:align(#slot0.propetyLimitation)
@@ -1601,11 +1601,11 @@ function slot0.getLegalSPBuffList(slot0)
 	slot1 = {}
 	slot2 = slot0.chapter:getConfig("special_operation_list")
 
-	for slot6, slot7 in pairs(pg.benefit_buff_template) do
-		if slot7.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and table.contains(slot2, slot7.id) then
-			for slot11, slot12 in ipairs(slot0.spOPTicketItems) do
-				if Chapter.GetSPBuffByItem(slot12.configId) == slot7.id then
-					table.insert(slot1, slot7)
+	for slot6, slot7 in ipairs(pg.benefit_buff_template.all) do
+		if pg.benefit_buff_template[slot7].benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and table.contains(slot2, slot8.id) then
+			for slot12, slot13 in ipairs(slot0.spOPTicketItems) do
+				if Chapter.GetSPBuffByItem(slot13.configId) == slot8.id then
+					table.insert(slot1, slot8)
 
 					break
 				end

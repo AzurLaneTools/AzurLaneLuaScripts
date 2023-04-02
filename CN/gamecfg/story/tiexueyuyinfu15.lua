@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "皇家舰队不断的攻击着俾斯麦和塞壬，炮弹和鱼雷激起的水柱冲天而上",
+			say = "皇家舰队不断的攻击着{namecode:435}和塞壬，炮弹和鱼雷激起的水柱冲天而上",
 			flashN = {
 				color = {
 					1,
@@ -664,7 +664,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "周边突然出现不明气象！这片白雾不仅影响了光学影像，舰载机的视野也……目前无法观测到俾斯麦！",
+			say = "周边突然出现不明气象！这片白雾不仅影响了光学影像，舰载机的视野也……目前无法观测到{namecode:435}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -831,7 +831,7 @@ return {
 			side = 2,
 			actor = 205050,
 			dir = -1,
-			say = "俾斯麦，你终究还是…",
+			say = "{namecode:435}，你终究还是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

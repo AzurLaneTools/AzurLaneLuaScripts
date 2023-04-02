@@ -87,11 +87,11 @@ return {
 		{
 			actor = 404010,
 			actorShadow = true,
-			actorName = "沙恩霍斯特&格奈森瑙",
+			actorName = "{namecode:433}&{namecode:434}",
 			side = 0,
 			hideOther = true,
 			nameColor = "#ff0000",
-			say = "碾压敌人！沙恩霍斯特级战列巡洋舰，参战！",
+			say = "碾压敌人！{namecode:433}级战列巡洋舰，参战！",
 			subActors = {
 				{
 					actor = 404020,

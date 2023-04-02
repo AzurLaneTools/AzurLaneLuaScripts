@@ -95,7 +95,7 @@ return {
 			side = 2,
 			actor = 406010,
 			dir = 1,
-			say = "战场结果确认，“重樱舰队”已被击溃。看来作战进展顺利呢，立刻向下一区域移动么，彼得？",
+			say = "战场结果确认，“重樱舰队”已被击溃。看来作战进展顺利呢，立刻向下一区域移动么，{namecode:471}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "彼得！我在频道里听到好大一声叫，发生什么事了？！",
+			say = "{namecode:471}！我在频道里听到好大一声叫，发生什么事了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "现在变更作战计划，海因里希和Z46带领护卫舰队立刻返回。威悉和我负责清理天上的敌机群，并寻找敌方航空母舰的位置。",
+			say = "现在变更作战计划，{namecode:454}和{namecode:412}带领护卫舰队立刻返回。{namecode:467}和我负责清理天上的敌机群，并寻找敌方航空母舰的位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			side = 2,
 			actor = 401460,
 			dir = 1,
-			say = "收到，即将带领舰队返航，Z46通讯结束。",
+			say = "收到，即将带领舰队返航，{namecode:412}通讯结束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "实战么……终于等到实战机会了！小铁，让大家见识一下我们的厉害吧！海因里希通话结束！",
+			say = "实战么……终于等到实战机会了！小铁，让大家见识一下我们的厉害吧！{namecode:454}通话结束！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

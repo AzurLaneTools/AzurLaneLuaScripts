@@ -761,8 +761,6 @@ function slot0.starsAnimation(slot0)
 	end)
 	slot2:SetEndEvent(function (slot0)
 		if uv0._shipVO:getReMetaSpecialItemVO() then
-			setActive(uv0.metaRepeatTF, true)
-
 			GetComponent(uv0.metaRepeatTF, "CanvasGroup").alpha = 1
 			slot3 = uv0
 			slot3 = slot3:managedTween(LeanTween.value, function ()
@@ -781,6 +779,10 @@ function slot0.starsAnimation(slot0)
 					x = slot0
 				})
 			end))
+			setAnchoredPosition(uv0.metaRepeatTF, {
+				x = uv0.metaRepeatTF.rect.width
+			})
+			setActive(uv0.metaRepeatTF, true)
 		else
 			uv0.inAnimating = false
 
@@ -793,7 +795,7 @@ end
 function slot0.playOpening(slot0, slot1)
 	slot2 = nil
 
-	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. ("star_level_unlock_anim_" .. ((not slot0._shipVO:isRemoulded() or ShipGroup.GetGroupConfig(slot0._shipVO:getGroupId()).trans_skin) and ShipGroup.getDefaultSkin(slot0._shipVO:getGroupId()).id)))) then
+	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/" .. ("star_level_unlock_anim_" .. ((not slot0._shipVO:isRemoulded() or ShipGroup.GetGroupConfig(slot0._shipVO:getGroupId()).trans_skin) and ShipGroup.getDefaultSkin(slot0._shipVO:getGroupId()).id)))) then
 		slot5 = pg.CpkPlayMgr.GetInstance()
 
 		slot5:PlayCpkMovie(function ()
@@ -801,7 +803,7 @@ function slot0.playOpening(slot0, slot1)
 			if uv0 then
 				uv0()
 			end
-		end, "ui", slot3, true, false, {
+		end, "ui/skinunlockanim", slot3, true, false, {
 			weight = slot0:getWeightFromData()
 		})
 	elseif slot1 then

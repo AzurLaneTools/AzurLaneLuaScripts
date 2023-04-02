@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（咕噜咕噜）——唔哇！U-1206顺利上浮！",
+			say = "（咕噜咕噜）——唔哇！{namecode:476}顺利上浮！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "易北，心里话说出来了哦。",
+			say = "{namecode:468}，心里话说出来了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "欢迎各位的到来，我是此处的负责人，也是铁血第二舰队旗舰彼得·史特拉塞。",
+			say = "欢迎各位的到来，我是此处的负责人，也是铁血第二舰队旗舰{namecode:470}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "好久不见，彼得~",
+			say = "好久不见，{namecode:471}~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊……等等，我怎么记得资料上写的是……易北，这次舰队真的是你带领的么？",
+			say = "啊……等等，我怎么记得资料上写的是……{namecode:468}，这次舰队真的是你带领的么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "怎么可能，舰队旗舰的是乌尔里希·冯·胡滕阁下哦。",
+			say = "怎么可能，舰队旗舰的是{namecode:463}阁下哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………非常抱歉，乌尔里希阁下，刚才您一直没有发言，我一时间没有注意到。",
+			say = "…………非常抱歉，{namecode:464}阁下，刚才您一直没有发言，我一时间没有注意到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "请不用在意，史特拉塞阁下。本来作为客人，应该由我主动打招呼才对。",
+			say = "请不用在意，{namecode:472}阁下。本来作为客人，应该由我主动打招呼才对。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "正式介绍一下，我是乌尔里希·冯·胡滕，本次作为腓特烈大帝的特使到此，在本次行动中拥有最高指挥权。",
+			say = "正式介绍一下，我是{namecode:463}，本次作为{namecode:440}的特使到此，在本次行动中拥有最高指挥权。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "很好。史特拉塞阁下，在米德加尔特之塔启动之后，幻光系统的伪装功能还能正常生效么？",
+			say = "很好。{namecode:472}阁下，在米德加尔特之塔启动之后，幻光系统的伪装功能还能正常生效么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "史特拉塞阁下，请给出汇合点，之后的事我们去会议室里详谈吧。",
+			say = "{namecode:472}阁下，请给出汇合点，之后的事我们去会议室里详谈吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

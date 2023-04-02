@@ -874,7 +874,7 @@ return {
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "除此之外，铁血舰队总旗舰腓特烈大帝的行踪依然无法确定，有结果的话我会第一时间通知您的。",
+			say = "除此之外，铁血舰队总旗舰{namecode:440}的行踪依然无法确定，有结果的话我会第一时间通知您的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

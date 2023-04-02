@@ -2224,6 +2224,48 @@ _G.pg.base.item_data_statistics[10011] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[10012] = {
+	display = "九三式酸素魚雷T1設計図",
+	name = "九三式酸素魚雷T1設計図",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 10012,
+	is_world = 0,
+	icon = "Equips/2600",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[10013] = {
+	display = "533mm磁気魚雷T2設計図",
+	name = "533mm磁気魚雷T2設計図",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 10013,
+	is_world = 0,
+	icon = "Equips/2700",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[10014] = {
 	display = "533mm四連装魚雷T3設計図",
 	name = "533mm四連装魚雷T3設計図",
@@ -4513,6 +4555,27 @@ _G.pg.base.item_data_statistics[11002] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[11003] = {
+	display = "九三式酸素魚雷T2設計図",
+	name = "九三式酸素魚雷T2設計図",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11003,
+	is_world = 0,
+	icon = "Equips/2600",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[11004] = {
 	display = "533mm磁気魚雷T3設計図",
 	name = "533mm磁気魚雷T3設計図",
@@ -5221,6 +5284,27 @@ _G.pg.base.item_data_statistics[11041] = {
 	id = 11041,
 	is_world = 0,
 	icon = "Equips/55200",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[11042] = {
+	display = "B-13 130mm連装砲B-2LMT3設計図",
+	name = "B-13 130mm連装砲B-2LMT3設計図",
+	max_num = 0,
+	type = 9,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 11042,
+	is_world = 0,
+	icon = "Equips/85000",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -9066,6 +9150,27 @@ _G.pg.base.item_data_statistics[21019] = {
 	id = 21019,
 	is_world = 0,
 	icon = "Props/21019",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21020] = {
+	display = "ラ·ガリソニエール(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	name = "結晶：ラ·ガリソニエール(META)",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21020,
+	is_world = 0,
+	icon = "Props/21020",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -15766,6 +15871,95 @@ _G.pg.base.item_data_statistics[30410] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30411] = {
+	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
+	name = "ランダム装備外装",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30411,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	display_icon = {
+		{
+			9,
+			2033,
+			1
+		},
+		{
+			9,
+			2034,
+			1
+		},
+		{
+			9,
+			2035,
+			1
+		},
+		{
+			9,
+			2036,
+			1
+		},
+		{
+			9,
+			2037,
+			1
+		},
+		{
+			9,
+			2038,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30412] = {
+	display = "サンダーフューリー（攻撃）、サンダーフューリー（戦闘）、サンダーフューリー（爆撃）を1個ずつ入手できます",
+	name = "サンダーフューリー",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30412,
+	is_world = 0,
+	icon = "Equips/96531",
+	display_icon = {
+		{
+			9,
+			2033,
+			1
+		},
+		{
+			9,
+			2034,
+			1
+		},
+		{
+			9,
+			2035,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "使用すると、装備外装（晩夏）から任意の装備外装を1個選択して入手できます",
 	name = "選択装備外装箱（晩夏）",
@@ -17850,6 +18044,121 @@ _G.pg.base.item_data_statistics[30519] = {
 		}
 	},
 	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30520] = {
+	display = "使用すると、装備外装（饅頭野戦病院）から任意の装備外装を1個選択して入手できます",
+	name = "選択装備外装箱（医療施設）",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30520,
+	is_world = 0,
+	icon = "Props/appearanceboxyiyuanzixuan",
+	display_icon = {
+		{
+			9,
+			280,
+			1
+		},
+		{
+			9,
+			281,
+			1
+		},
+		{
+			9,
+			282,
+			1
+		},
+		{
+			9,
+			283,
+			1
+		},
+		{
+			9,
+			284,
+			1
+		},
+		{
+			9,
+			285,
+			1
+		},
+		{
+			9,
+			286,
+			1
+		},
+		{
+			9,
+			287,
+			1
+		},
+		{
+			9,
+			288,
+			1
+		},
+		{
+			9,
+			289,
+			1
+		},
+		{
+			9,
+			290,
+			1
+		},
+		{
+			9,
+			291,
+			1
+		},
+		{
+			9,
+			292,
+			1
+		},
+		{
+			9,
+			293,
+			1
+		},
+		{
+			9,
+			294,
+			1
+		},
+		{
+			9,
+			295,
+			1
+		},
+		{
+			9,
+			296,
+			1
+		},
+		{
+			9,
+			297,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
 	index = {},
 	shiptrans_id = {}
 }
@@ -183999,6 +184308,194 @@ _G.pg.base.item_data_statistics[58835] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[58836] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58836,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			11042,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58837] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58837,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			11042,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58838] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58838,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10122,
+			1
+		},
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[58839] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	drop_oil_max = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 58839,
+	is_world = 0,
+	icon = "Props/55000",
+	display_icon = {
+		{
+			2,
+			10116,
+			1
+		},
+		{
+			2,
+			10117,
+			1
+		},
+		{
+			2,
+			76,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "参加キャラは経験値を獲得できます",
 	name = "経験値",
@@ -189856,6 +190353,111 @@ _G.pg.base.item_data_statistics[59401] = {
 	id = 59401,
 	is_world = 0,
 	icon = "Props/xiaotiancheng_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59402] = {
+	display = "「委託報酬計画」イベントで報酬と交換できるPtになります。イベント終了後に削除されます",
+	name = "軍事委託Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59402,
+	is_world = 0,
+	icon = "Props/commission_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59403] = {
+	display = "キャンペーン「シーズン任務」(2023.4.1~2023.5.31)で累計獲得数報酬を入手するための任務Ptアイテム。キャンペーン終了後に削除されます",
+	name = "進捗Pt",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59403,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59404] = {
+	display = "不该被看到",
+	name = "通行证十期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 21,
+	link_id = 7010,
+	id = 59404,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59405] = {
+	display = "「星霜海嵐」のイベントPtアイテム。イベント終了後に削除される。",
+	name = "「星霜海嵐」Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 300001,
+	id = 59405,
+	is_world = 0,
+	icon = "Props/jidifengbao_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59406] = {
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2023.4.5メンテナンスまで）で削除されます",
+	name = "試着貸出チケット（2023.4.5まで）",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59406,
+	is_world = 0,
+	icon = "Props/skinTicket",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -200350,6 +200952,216 @@ _G.pg.base.item_data_statistics[60305] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[60306] = {
+	display = "「一撃！PURIN！」イベントアイテム",
+	name = "ヒント「S」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60306,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60307] = {
+	display = "「一撃！PURIN！」イベントアイテム",
+	name = "ヒント「u」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60307,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60308] = {
+	display = "「一撃！PURIN！」イベントアイテム",
+	name = "ヒント「p」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60308,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60309] = {
+	display = "「一撃！PURIN！」イベントアイテム",
+	name = "ヒント「e」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60309,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60310] = {
+	display = "「一撃！PURIN！」イベントアイテム",
+	name = "ヒント「r」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60310,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60311] = {
+	display = "「一撃！PURIN！」イベントアイテム",
+	name = "ヒント「B」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60311,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60312] = {
+	display = "「一撃！PURIN！」イベントアイテム",
+	name = "ヒント「u」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60312,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60313] = {
+	display = "「一撃！PURIN！」イベントアイテム",
+	name = "ヒント「r」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60313,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60314] = {
+	display = "「一撃！PURIN！」イベントアイテム",
+	name = "ヒント「i」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60314,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[60315] = {
+	display = "「一撃！PURIN！」イベントアイテム",
+	name = "ヒント「n」",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 1,
+	link_id = 4733,
+	id = 60315,
+	is_world = 0,
+	icon = "Props/chuizisuipian",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[69000] = {
 	display = "大舰队作战伤害数值，仅用于大舰队BOSS伤害结算",
 	name = "伤害值",
@@ -203886,6 +204698,90 @@ _G.pg.base.item_data_statistics[99981] = {
 			1
 		}
 	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[99991] = {
+	display = "作戦履歴「讃える復興の迷路」D1の燃料消費上限不具合の補填",
+	name = "不具合補填",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 99991,
+	is_world = 0,
+	icon = "props/giftbox",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[99992] = {
+	display = "作戦履歴「讃える復興の迷路」D2の燃料消費上限不具合の補填",
+	name = "不具合補填",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 99992,
+	is_world = 0,
+	icon = "props/giftbox",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[99993] = {
+	display = "作戦履歴「讃える復興の迷路」D3の燃料消費上限不具合の補填",
+	name = "不具合補填",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 99993,
+	is_world = 0,
+	icon = "props/giftbox",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[99994] = {
+	display = "作戦履歴「帰路は海色の陰りへと」SP3の燃料消費上限不具合の補填",
+	name = "不具合補填",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 99994,
+	is_world = 0,
+	icon = "props/giftbox",
+	display_icon = {},
 	price = {},
 	index = {},
 	shiptrans_id = {}

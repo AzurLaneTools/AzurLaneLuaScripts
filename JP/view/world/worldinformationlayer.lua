@@ -113,9 +113,9 @@ function slot0.UpdateTaskTpl(slot0, slot1, slot2)
 	slot3 = slot1:Find("base_panel")
 
 	GetImageSpriteFromAtlasAsync("ui/worldtaskfloatui_atlas", pg.WorldToastMgr.Type2PictrueName[slot2.config.type], slot3:Find("type"), true)
-	setText(slot3:Find("extend_show/title/Text"), HXSet.hxLan(slot2.config.name))
-	setText(slot3:Find("base_show/title/Text"), HXSet.hxLan(slot2.config.name))
-	setText(slot3:Find("base_show/desc"), HXSet.hxLan(slot2.config.description))
+	setText(slot3:Find("extend_show/title/Text"), slot2.config.name)
+	setText(slot3:Find("base_show/title/Text"), slot2.config.name)
+	setText(slot3:Find("base_show/desc"), slot2.config.description)
 
 	slot4 = slot3:Find("base_show/IconTpl")
 
@@ -162,7 +162,7 @@ function slot0.UpdateTaskTpl(slot0, slot1, slot2)
 		GetImageSpriteFromAtlasAsync("ui/worldinformationui_atlas", "nobody", slot10:Find("card"), true)
 	end
 
-	setText(slot10:Find("content/desc"), HXSet.hxLan(slot2.config.rare_task_text))
+	setText(slot10:Find("content/desc"), slot2.config.rare_task_text)
 	setText(slot10:Find("content/slider_progress/Text"), slot2:getProgress() .. "/" .. slot2:getMaxProgress())
 	setSlider(slot10:Find("content/slider"), 0, slot2:getMaxProgress(), slot2:getProgress())
 

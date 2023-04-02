@@ -39,26 +39,24 @@ function slot0.execute(slot0, slot1)
 
 	if #slot5 > 0 then
 		for slot13, slot14 in ipairs(slot5) do
-			for slot18 = 1, slot14.count do
-				table.insert(slot8, function (slot0)
-					uv0:sendNotification(GAME.USE_FUDAI_ITEM, {
-						count = 1,
-						id = uv1.id,
-						callback = function (slot0)
-							if slot0 and #slot0 > 0 then
-								uv0 = table.mergeArray(uv0, slot0)
+			table.insert(slot8, function (slot0)
+				uv0:sendNotification(GAME.USE_FUDAI_ITEM, {
+					id = uv1.id,
+					count = uv1.count,
+					callback = function (slot0)
+						if slot0 and #slot0 > 0 then
+							uv0 = table.mergeArray(uv0, slot0)
 
-								uv1:sendNotification(GAME.OPEN_MAIL_ATTACHMENT_DONE, {
-									items = slot0,
-									callback = uv2
-								})
-							else
-								uv2()
-							end
+							uv1:sendNotification(GAME.OPEN_MAIL_ATTACHMENT_DONE, {
+								items = slot0,
+								callback = uv2
+							})
+						else
+							uv2()
 						end
-					})
-				end)
-			end
+					end
+				})
+			end)
 		end
 	end
 

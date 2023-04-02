@@ -55,7 +55,7 @@ return {
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "记得欧根亲王阁下给的操作方法是，唔唔唔……首先摁下这个，然后————",
+			say = "记得{namecode:427}阁下给的操作方法是，唔唔唔……首先摁下这个，然后————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -161,7 +161,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23的同伴…？",
+			say = "{namecode:408}的同伴…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来是U73啊…不对，U73！你趁着中午的时候在教室做什么呢！？咳、咳咳…",
+			say = "原来是{namecode:417}啊…不对，{namecode:417}！你趁着中午的时候在教室做什么呢！？咳、咳咳…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噢，是Z23呀，还有你们，呀吼，中午有好好休息了吗？准备好应付下午的课程了吗～？",
+			say = "噢，是{namecode:408}呀，还有你们，呀吼，中午有好好休息了吗？准备好应付下午的课程了吗～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要不是Z23和奇怪的声响，还能睡得更好…",
+			say = "要不是{namecode:408}和奇怪的声响，还能睡得更好…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以U73你在做什么呀，弄出这么大的声响？",
+			say = "所以{namecode:417}你在做什么呀，弄出这么大的声响？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

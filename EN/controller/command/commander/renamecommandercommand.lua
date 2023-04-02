@@ -16,7 +16,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if HXSet.hxLan(slot6:getName()) == slot4 then
+	if slot6:getName() == slot4 then
 		return
 	end
 

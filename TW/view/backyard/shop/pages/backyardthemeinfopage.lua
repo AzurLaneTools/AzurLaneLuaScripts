@@ -160,7 +160,7 @@ function slot0.OnUpdateCard(slot0, slot1, slot2)
 end
 
 function slot0.UpdateThemeInfo(slot0)
-	slot0.nameTxt.text = slot0.themeVO:getConfig("name")
+	slot0.nameTxt.text = HXSet.hxLan(slot0.themeVO:getConfig("name"))
 	slot0.enNameTxt.text = "FURNITURE"
 	slot0.numberTxt.text = slot0.index < 10 and "0" .. slot0.index or slot0.index
 
@@ -173,7 +173,7 @@ function slot0.UpdateThemeInfo(slot0)
 	end)
 	slot0.icon:SetNativeSize()
 
-	slot0.desc.text = slot1:getConfig("desc")
+	slot0.desc.text = HXSet.hxLan(slot1:getConfig("desc"))
 
 	slot0:UpdatePurchaseBtn()
 end

@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "都到上下午课时间了，茜和罗恩还没回来啊……",
+			say = "都到上下午课时间了，茜和{namecode:439}还没回来啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

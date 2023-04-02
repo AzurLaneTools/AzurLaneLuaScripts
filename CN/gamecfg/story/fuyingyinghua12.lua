@@ -81,7 +81,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听到这么大的动静，我还以为塞壬来攻城了。这是在做什么，欧根？",
+			say = "听到这么大的动静，我还以为塞壬来攻城了。这是在做什么，{namecode:428}？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -130,7 +130,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那真是不胜荣幸，能正面击败大名鼎鼎的欧根亲王阁下。",
+			say = "那真是不胜荣幸，能正面击败大名鼎鼎的{namecode:427}阁下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在你那一招命中之前，欧根一轮齐射就能送你回去大修了。",
+			say = "在你那一招命中之前，{namecode:428}一轮齐射就能送你回去大修了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:50}小姐不用太在意。欧根这个性格，挑拨起来就算她自家亲姐姐都受不了。",
+			say = "{namecode:50}小姐不用太在意。{namecode:428}这个性格，挑拨起来就算她自家亲姐姐都受不了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你刚刚的应对，已经能被写进应对欧根亲王的教科书了。",
+			say = "你刚刚的应对，已经能被写进应对{namecode:427}的教科书了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在都正午了，比预定时间晚到了不少啊欧根，路上玩得开心么？",
+			say = "现在都正午了，比预定时间晚到了不少啊{namecode:428}，路上玩得开心么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "附议…被欧根亲王呼来唤去折腾了一路，我也快饿扁了。",
+			say = "附议…被{namecode:427}呼来唤去折腾了一路，我也快饿扁了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

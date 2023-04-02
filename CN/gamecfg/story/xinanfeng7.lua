@@ -195,7 +195,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "顺着西南风手指的方向看过去，果然看到了西北风拉菲{namecode:6}还有Z23四个人结伴而行。",
+			say = "顺着西南风手指的方向看过去，果然看到了西北风拉菲{namecode:6}还有{namecode:408}四个人结伴而行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

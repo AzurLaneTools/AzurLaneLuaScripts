@@ -153,9 +153,9 @@ function slot0.UpdateMain(slot0, slot1)
 		slot7:Update(slot8, slot2, slot1)
 	end
 
-	slot5 = slot0.skin
-	slot0.nameTxt.text = HXSet.hxLan(slot5:getConfig("name"))
-	slot0.shipnameTxt.text = HXSet.hxLan(slot1:getName())
+	slot4 = slot0.skin
+	slot0.nameTxt.text = slot4:getConfig("name")
+	slot0.shipnameTxt.text = slot1:getName()
 	slot0.loading = true
 
 	parallelAsync({

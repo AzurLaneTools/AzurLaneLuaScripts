@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"来自鸢尾的天使\n\n<size=45>六　宴会</size>",
+					"來自鳶尾的天使\n\n<size=45>六　派對</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 903020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "皇家盟友们，远道而来辛苦了。",
+			say = "皇家盟友們，遠道而來辛苦了。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 903020,
-			say = "我为能在此设宴招待诸位贵宾深感荣幸和愉快。",
+			say = "我為能在此設宴招待諸位貴賓深感榮幸和愉快。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 903020,
-			say = "即便在此时此刻，我们的欧罗巴依然笼罩在一片阴云之下。",
+			say = "即便在此時此刻，我們的歐羅巴依然籠罩在一片陰雲之下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 903020,
-			say = "天空愈是黑暗，光芒就愈是闪耀。",
+			say = "天空愈是黑暗，光芒就愈是閃耀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 903020,
-			say = "我相信，在此黑暗之中，皇家与鸢尾的联盟定能闪耀出更加夺目的光芒！",
+			say = "我相信，在此黑暗之中，皇家與鳶尾的聯盟定能閃耀出更加奪目的光芒！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请大家尽情举杯，享受今夜吧——",
+			say = "請大家盡情舉杯，享受今夜吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
-			say = "讲话结束后，轻快的音乐响了起来。",
+			say = "講話結束後，輕快的音樂響了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不但有古典音乐，还有皇家本岛的民谣呢。",
+			say = "不但有古典音樂，還有皇家本島的民謠呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我认为这是十分贴心的安排。",
+			say = "我認為這是十分貼心的安排。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "熟悉的音乐能让身在异国他乡的人产生亲切感，也能让紧张的精神得到放松。",
+			say = "熟悉的音樂能讓身在異國他鄉的人產生親切感，也能讓緊張的精神得到放鬆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过菜品就基本以鸢尾菜系为主了呢。",
+			say = "不過菜品就基本以鳶尾菜系為主了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "……这有什么不妥么？鸢尾菜制作精致口味细腻，堪称欧罗巴高端菜系的代表。",
+			say = "……這有什麼不妥嗎？鳶尾菜製作精緻口味細膩，堪稱歐羅巴高端菜系的代表。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们的宴会也是以鸢尾菜为主吧？",
+			say = "我們的宴會也是以鳶尾菜為主吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……这些虽然是实情，不过这里毕竟是异国他乡，稍微有点让我作为前女仆长的竞争心上来了呢。",
+			say = "……這些雖然是實情，不過這裡畢竟是異國他鄉，稍微有點讓我作為前女僕長的競爭心上來了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "单论甜品，皇家是绝对不会输给鸢尾的。",
+			say = "單論甜點，皇家是絕對不會輸給鳶尾的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "那就去后厨做你想做的事吧~我觉得鸢尾的盟友们不会介意宴会上多几道菜哦。",
+			say = "那就去後廚做妳想做的事吧~我覺得鳶尾的盟友們不會介意宴會上多幾道菜哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遵命。进取，跟我一起去后厨。接下来轮到我们女仆队大显身手了哟。",
+			say = "遵命。企業，跟我一起去後廚。接下來輪到我們女僕隊大顯身手了喲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "了解，就让我们女仆队为这场宴会再增彩一分吧~",
+			say = "了解，就讓我們女僕隊為這場宴會再增彩一分吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "请问……您就是鸢尾教国的天使，霞飞小姐吧？",
+			say = "請問……您就是鳶尾教國的天使，霞飛小姐吧？",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "初次见面，我是乔治五世级的豪，今天刚刚抵达教国！",
+			say = "初次見面，我是喬治五世級的豪，今天剛剛抵達教國！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "如果不介意的话，请用点心~",
+			say = "如果不介意的話，請用點心~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "这个点心……好香甜的味道。",
+			say = "這個點心……好香甜的味道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "……宴会的菜单上原本有这道菜么？",
+			say = "……宴會的菜單上原本有這道菜嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "呵呵，女仆队的孩子们还不习惯被招待，看到这样的宴会已经坐不住了。",
+			say = "呵呵，女僕隊的孩子們還不習慣被招待，看到這樣的宴會已經坐不住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以我干脆让她们去后厨加了几道甜品，要是您能喜欢就好了。",
+			say = "所以我乾脆讓她們去後廚加了幾道甜點，要是您能喜歡就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "原来如此……这就是皇家女仆队做的甜点么。",
+			say = "原來如此……這就是皇家女僕隊做的甜點嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我不客气了——",
+			say = "我不客氣了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "霞飞小口的吃着盘子中的点心，却在余光中发现了豪笔直射来的目光。",
+			say = "霞飛小口的吃著盤子中的點心，卻在餘光中發現了豪筆直射來的目光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "请问豪小姐……我脸上是粘了什么东西么？",
+			say = "請問豪小姐……我臉上是沾到什麼東西了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "没有没有……抱歉，是我失礼了。",
+			say = "沒有沒有……抱歉，是我失禮了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "只是因为我还是第一次见到天使……不知不觉看入神了。",
+			say = "只是因為我還是第一次見到天使……不知不覺看入神了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到天使，真的存在啊~！",
+			say = "沒想到天使，真的存在啊~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "……您太夸张了，豪小姐。",
+			say = "……您太誇張了，豪小姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "虽然说是天使，其实也不是那么夸张的事。",
+			say = "雖然說是天使，其實也不是那麼誇張的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "天使只是鸢尾教国诸多部门中的一个职能分类，教国中的天使也绝非我一人。",
+			say = "天使只是鳶尾教國諸多部門中的一個職能分類，教國中的天使也絕非我一人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "即便如此……您也真美啊，宛如真正的天使一样…………",
+			say = "即便如此……您也真美啊，宛如真正的天使一樣…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "多谢夸奖……",
+			say = "多謝誇獎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "霞飞背后的翅膀微微抖动了几下，像是在表达愉悦的心情一样。",
+			say = "霞飛背後的翅膀微微抖動了幾下，像是在表達愉悅的心情一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……！您的翅膀，我可以摸摸看么？",
+			say = "……！您的翅膀，我可以摸摸看嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "……通常来说是不可以的。",
+			say = "……通常來說是不可以的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +768,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过你的甜点很好吃……所以为了感谢你的款待，允许你稍微摸一下好了……",
+			say = "不過妳的甜點很好吃……所以為了感謝妳的款待，允許妳稍微摸一下好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "多谢！那我就不客气了~",
+			say = "多謝！那我就不客氣了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,42 +803,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊……这个羽翼的手感。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_115",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 205090,
-			say = "对了，我其实会烤饼干哦，同伴们尝了都赞不绝口的那种~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205090,
-			side = 2,
-			bgName = "star_level_bg_115",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "今天刚刚到这里还没来得及准备，不过明天的话，能否请您到我那里做客呢？",
+			say = "啊……這個羽翼的手感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +821,24 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "我也好亲手烤些饼干给你吃！",
+			say = "對了，我其實會烤餅乾哦，同伴們嚐了都讚不絕口的那種~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205090,
+			side = 2,
+			bgName = "star_level_bg_115",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "今天剛剛到這裡還沒來得及準備，不過明天的話，能否請您到我那裡做客呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +856,25 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "当然，前提是霞飞小姐明天有空的话！",
+			say = "我也能親手烤些餅乾給妳吃！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_115",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 205090,
+			say = "當然，前提是霞飛小姐明天有空的話！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,7 +892,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "明天的话……应该没什么事。",
+			say = "明天的話……應該沒什麼事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -910,7 +910,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "太好了，那我就在公馆静候您的到来了~",
+			say = "太好了，那我就在公館靜候您的到來了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -924,7 +924,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "不远处的另一边——",
+			say = "不遠處的另一邊——",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -958,7 +958,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来就该到霞飞的发言环节了……",
+			say = "接下來就該到霞飛的發言環節了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -976,7 +976,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 903020,
-			say = "不过，去打断这样的交流也太不合时宜了……",
+			say = "不過，去打斷這樣的交流也太不合時宜了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -994,7 +994,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "罢了……还是让后厨继续上菜，让这场宴会按照自己的意志进行下去吧——",
+			say = "罷了……還是讓後廚繼續上菜，讓這場宴會按照自己的意志進行下去吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

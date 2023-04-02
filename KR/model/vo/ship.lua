@@ -51,20 +51,22 @@ function shipType2Battleprint(slot0)
 	return ShipType.Type2BattlePrint(slot0)
 end
 
-function shipRarity2bgPrint(slot0, slot1, slot2, slot3)
-	if slot1 and pg.ship_skin_template[slot1].rarity_bg and slot5 ~= "" then
-		return slot5
+function skinId2bgPrint(slot0)
+	if pg.ship_skin_template[slot0].rarity_bg and slot2 ~= "" then
+		return slot2
+	end
+end
+
+function shipRarity2bgPrint(slot0, slot1, slot2)
+	slot3 = ""
+
+	if slot1 then
+		slot3 = "0"
+	elseif slot2 then
+		slot3 = "1"
 	end
 
-	slot4 = ""
-
-	if slot2 then
-		slot4 = "0"
-	elseif slot3 then
-		slot4 = "1"
-	end
-
-	return slot4 .. ShipRarity.Rarity2Print(slot0)
+	return slot3 .. ShipRarity.Rarity2Print(slot0)
 end
 
 function shipRarity2FrameColor(slot0)
@@ -72,11 +74,11 @@ function shipRarity2FrameColor(slot0)
 end
 
 function slot0.rarity2bgPrint(slot0)
-	return shipRarity2bgPrint(slot0:getRarity(), nil, slot0:isBluePrintShip(), slot0:isMetaShip())
+	return shipRarity2bgPrint(slot0:getRarity(), slot0:isBluePrintShip(), slot0:isMetaShip())
 end
 
 function slot0.rarity2bgPrintForGet(slot0)
-	return shipRarity2bgPrint(slot0:getRarity(), slot0.skinId, slot0:isBluePrintShip(), slot0:isMetaShip())
+	return skinId2bgPrint(slot0.skinId) or slot0:rarity2bgPrint()
 end
 
 function slot0.getShipBgPrint(slot0, slot1)
@@ -293,17 +295,17 @@ function slot0.getName(slot0)
 	end
 
 	if slot0:isRemoulded() then
-		return HXSet.hxLan(pg.ship_skin_template[slot0:getRemouldSkinId()].name)
+		return pg.ship_skin_template[slot0:getRemouldSkinId()].name
 	end
 
-	return HXSet.hxLan(pg.ship_data_statistics[slot0.configId].name)
+	return pg.ship_data_statistics[slot0.configId].name
 end
 
 function slot0.GetDefaultName(slot0)
 	if slot0:isRemoulded() then
-		return HXSet.hxLan(pg.ship_skin_template[slot0:getRemouldSkinId()].name)
+		return pg.ship_skin_template[slot0:getRemouldSkinId()].name
 	else
-		return HXSet.hxLan(pg.ship_data_statistics[slot0.configId].name)
+		return pg.ship_data_statistics[slot0.configId].name
 	end
 end
 
@@ -454,7 +456,7 @@ function slot0.Ctor(slot0, slot1)
 	if slot1.name and slot1.name ~= "" then
 		slot0.name = slot1.name
 	elseif slot0:isRemoulded() then
-		slot0.name = HXSet.hxLan(pg.ship_skin_template[slot0:getRemouldSkinId()].name)
+		slot0.name = pg.ship_skin_template[slot0:getRemouldSkinId()].name
 	else
 		slot0.name = pg.ship_data_statistics[slot0.configId].name
 	end
@@ -540,7 +542,7 @@ function slot0.updateName(slot0)
 	end
 
 	if slot0:isRemoulded() then
-		slot0.name = HXSet.hxLan(pg.ship_skin_template[slot0:getRemouldSkinId()].name)
+		slot0.name = pg.ship_skin_template[slot0:getRemouldSkinId()].name
 	else
 		slot0.name = pg.ship_data_statistics[slot0.configId].name
 	end
@@ -2323,7 +2325,97 @@ function slot0.IsMatchKey(slot0, slot1)
 		return true
 	end
 
-	return string.find(slot0:GetDefaultName(), string.gsub(slot1, "%.", "%%."))
+	return string.find(string.lower(slot0:GetDefaultName()), string.lower(string.gsub(slot1, "%.", "%%.")))
+end
+
+function slot0.IsOwner(slot0)
+	return tobool(slot0.id)
+end
+
+function slot0.GetUniqueId(slot0)
+	return slot0.id
+end
+
+function slot0.ShowPropose(slot0)
+	if not slot0.propose then
+		return false
+	else
+		slot1 = not HXSet.isHxPropose() or slot0:IsOwner() and slot0:GetUniqueId() == getProxy(PlayerProxy):getRawData():GetProposeShipId()
+
+		return slot1
+	end
+end
+
+function slot0.GetColorName(slot0, slot1)
+	slot1 = slot1 or slot0:getName()
+
+	if PlayerPrefs.GetInt("SHIP_NAME_COLOR", PLATFORM_CODE == PLATFORM_CH and 1 or 0) == 1 and slot0.propose then
+		return setColorStr(slot1, "#FFAACEFF")
+	else
+		return slot1
+	end
+end
+
+slot9 = {
+	[false] = {
+		effect = {
+			"duang_meta_jiehun",
+			"duang_meta_%s",
+			"duang_6_jiehun_tuzhi",
+			"duang_6_jiehun",
+			"duang_6"
+		},
+		frame = {
+			"prop14",
+			"prop%s",
+			"prop"
+		}
+	},
+	[true] = {
+		effect = {
+			"duang_meta_jiehun_1",
+			"duang_meta_b%s",
+			"duang_6_jiehun_tuzhi_1",
+			"duang_6_jiehun_1",
+			"duang_6_1"
+		},
+		frame = {
+			"prop14",
+			"prop%s",
+			"prop"
+		}
+	}
+}
+
+function slot0.GetFrameAndEffect(slot0, slot1)
+	slot1 = tobool(slot1)
+	slot2, slot3 = nil
+
+	if slot0:isMetaShip() then
+		slot3 = (not slot0.propose or string.format(uv0[slot1].effect[1])) and string.format(uv0[slot1].effect[2], slot0:rarity2bgPrint())
+
+		if slot0:ShowPropose() then
+			slot2 = string.format(uv0[slot1].frame[1])
+		end
+	elseif slot0:isBluePrintShip() then
+		if slot0.propose then
+			slot3 = string.format(uv0[slot1].effect[3])
+		end
+
+		if slot0:ShowPropose() then
+			slot2 = string.format(uv0[slot1].frame[2], slot0:rarity2bgPrint())
+		end
+	elseif slot0.propose then
+		slot3 = string.format(uv0[slot1].effect[4])
+
+		if slot0:ShowPropose() then
+			slot2 = string.format(uv0[slot1].frame[3])
+		end
+	elseif slot0:getRarity() == 6 then
+		slot3 = string.format(uv0[slot1].effect[5])
+	end
+
+	return slot2, slot3
 end
 
 return slot0

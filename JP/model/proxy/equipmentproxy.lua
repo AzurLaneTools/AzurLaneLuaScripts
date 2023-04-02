@@ -1,5 +1,4 @@
 slot0 = class("EquipmentProxy", import(".NetProxy"))
-slot0.EQUIPMENT_ADDED = "equipment added"
 slot0.EQUIPMENT_UPDATED = "equipment updated"
 slot0.EQUIPMENT_SKIN_UPDATED = "equipment skin updated"
 slot0.SPWEAPONS_UPDATED = "spweapons updated"
@@ -130,17 +129,10 @@ end
 function slot0.addEquipment(slot0, slot1)
 	assert(isa(slot1, Equipment), "should be an instance of Equipment")
 
-	if slot0.data.equipments[slot1.id] == nil then
-		slot0.data.equipments[slot1.id] = slot1:clone()
+	slot1 = slot0.data.equipments[slot1.id] or slot1
+	slot1.count = (slot0.data.equipments[slot1.id] and slot0.data.equipments[slot1.id].count or 0) + slot1.count
 
-		slot0.data.equipments[slot1.id]:display("added")
-		slot0:OnEquipsUpdate(slot1)
-		slot0.facade:sendNotification(uv0.EQUIPMENT_ADDED, slot1:clone())
-	else
-		slot2.count = slot2.count + slot1.count
-
-		slot0:updateEquipment(slot2)
-	end
+	slot0:updateEquipment(slot1)
 end
 
 function slot0.addEquipmentById(slot0, slot1, slot2, slot3)
@@ -156,7 +148,6 @@ end
 
 function slot0.updateEquipment(slot0, slot1)
 	assert(isa(slot1, Equipment), "should be an instance of Equipment")
-	assert(slot0.data.equipments[slot1.id] ~= nil, "equipment should exist: " .. slot1.id)
 
 	slot0.data.equipments[slot1.id] = slot1.count ~= 0 and slot1:clone() or nil
 
@@ -432,7 +423,7 @@ for slot4 = 1, 4 do
 	slot0.EquipmentTransformTreeTemplate[slot4] = {}
 end
 
-for slot4, slot5 in pairs(pg.equip_upgrade_template.all) do
+for slot4, slot5 in ipairs(pg.equip_upgrade_template.all) do
 	slot6 = pg.equip_upgrade_template[slot5]
 	slot0.EquipmentTransformTreeTemplate[slot6.category1] = slot0.EquipmentTransformTreeTemplate[slot6.category1] or {}
 	slot0.EquipmentTransformTreeTemplate[slot6.category1][slot6.category2] = slot6

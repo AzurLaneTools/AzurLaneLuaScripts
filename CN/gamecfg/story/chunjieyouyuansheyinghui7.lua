@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408052,
-			say = "欢迎来到U-73的蒸馏浓缩茶室！要来一杯蒸馏浓缩茶么！",
+			say = "欢迎来到{namecode:417}的蒸馏浓缩茶室！要来一杯蒸馏浓缩茶么！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

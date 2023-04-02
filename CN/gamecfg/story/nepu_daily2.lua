@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们也自我介绍一下…我是Z23，请多指教",
+			say = "我们也自我介绍一下…我是{namecode:408}，请多指教",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哦哦！难道说，包三餐带午睡！？呜哇～神对应！谢谢你Z23！",
+			say = "哦哦！难道说，包三餐带午睡！？呜哇～神对应！谢谢你{namecode:408}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "午睡什么的不需要吧…不过确实帮大忙了。谢谢你，Z23",
+			say = "午睡什么的不需要吧…不过确实帮大忙了。谢谢你，{namecode:408}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

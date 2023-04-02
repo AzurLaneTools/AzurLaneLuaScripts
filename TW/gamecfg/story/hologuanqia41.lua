@@ -207,7 +207,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:158}平时都不来玩，明明游乐园也有的，对吧，Z23？",
+			say = "{namecode:158}平时都不来玩，明明游乐园也有的，对吧，{namecode:408}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

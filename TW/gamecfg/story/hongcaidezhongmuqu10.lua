@@ -1007,7 +1007,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "我没受伤也没什么事，就先去休息一会，后面的事你们跟埃姆登和塞德利茨说吧。",
+			say = "我没受伤也没什么事，就先去休息一会，后面的事你们跟{namecode:448}和{namecode:460}说吧。",
 			effects = {
 				{
 					active = true,
@@ -1905,7 +1905,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "埃尔宾要被再次击沉了……",
+			say = "{namecode:449}要被再次击沉了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1940,7 +1940,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "腓特烈大帝，这算是你对于我们的第一个正式命令么？",
+			say = "{namecode:440}，这算是你对于我们的第一个正式命令么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1993,7 +1993,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "塞德利茨，去叫醒吕佐夫，我们该出发了~",
+			say = "{namecode:460}，去叫醒{namecode:461}，我们该出发了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
