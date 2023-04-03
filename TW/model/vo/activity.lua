@@ -400,9 +400,11 @@ function slot0.readyToAchieve(slot0)
 				return not table.contains(uv0, slot0) and table.contains(uv1, slot0)
 			end)
 
-			if slot0.id == ActivityConst.APRILFOOL_DISCOVERY then
+			if pg.activity_event_picturepuzzle[slot0.id] and slot8.chapter > 0 then
 				slot2 = slot2 or slot0.data1 < 1
-			elseif slot0.id == ActivityConst.APRILFOOL_DISCOVERY_RE then
+			end
+
+			if slot0.id == ActivityConst.APRILFOOL_DISCOVERY_RE then
 				slot2 = slot2 or slot0.data1 < 2
 			end
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE then
