@@ -18052,7 +18052,7 @@ _G.pg.base.item_data_statistics[30520] = {
 	display = "使用すると、装備外装（饅頭野戦病院）から任意の装備外装を1個選択して入手できます",
 	name = "選択装備外装箱（医療施設）",
 	max_num = 0,
-	type = 11,
+	type = 13,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -18155,10 +18155,7 @@ _G.pg.base.item_data_statistics[30520] = {
 			1
 		}
 	},
-	price = {
-		1,
-		7000
-	},
+	price = {},
 	index = {},
 	shiptrans_id = {}
 }
