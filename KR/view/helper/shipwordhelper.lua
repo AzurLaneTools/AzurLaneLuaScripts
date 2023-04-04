@@ -243,29 +243,27 @@ function slot23(slot0, slot1)
 end
 
 function slot0.GetWordAndCV(slot0, slot1, slot2, slot3, slot4)
-	uv0(slot0, slot1)
-
 	slot5, slot6, slot7 = nil
-	slot10, slot11 = uv1(slot0, slot1, {
+	slot10, slot11 = uv0(slot0, slot1, {
 		slot2
 	}, slot4, {
 		false
 	})
 
-	if not uv2(slot10) then
+	if not uv1(slot10) then
 		slot5 = slot10
-		slot6 = uv3(slot0, slot1, slot9)
+		slot6 = uv2(slot0, slot1, slot9)
 	else
-		slot6 = uv3(slot0, slot1, {
+		slot6 = uv2(slot0, slot1, {
 			slot2
 		}, {
 			false
 		})
 
-		if uv4.WORD_TYPE_MAIN == slot1 then
+		if uv3.WORD_TYPE_MAIN == slot1 then
 			slot12 = nil
 			slot13 = {}
-			slot14, slot13 = uv5(slot0, slot4)
+			slot14, slot13 = uv4(slot0, slot4)
 
 			if slot14 then
 				slot9 = {
@@ -283,18 +281,18 @@ function slot0.GetWordAndCV(slot0, slot1, slot2, slot3, slot4)
 				slot14 = slot6[slot1]
 			end
 
-			slot7 = slot13 and slot13[uv6(slot14, slot9)]
+			slot7 = slot13 and slot13[uv5(slot14, slot9)]
 		elseif slot6 then
-			slot5 = uv6(slot6[slot1], slot9)
+			slot5 = uv5(slot6[slot1], slot9)
 		end
 	end
 
 	slot12, slot13 = nil
 
-	if not uv7(slot0, slot1, slot2) then
-		slot12, slot15 = uv8(slot6, slot0, slot1, slot9, not slot8[1])
+	if not uv6(slot0, slot1, slot2) then
+		slot12, slot15 = uv7(slot6, slot0, slot1, slot9, not slot8[1])
 
-		if slot15 and not uv2(slot10) and slot11 then
+		if slot15 and not uv1(slot10) and slot11 then
 			slot13 = slot13 .. "_ex" .. slot11
 		elseif slot13 and slot7 then
 			slot13 = slot13 .. "_ex" .. slot7
@@ -309,7 +307,7 @@ function slot0.GetWordAndCV(slot0, slot1, slot2, slot3, slot4)
 		slot5 = slot5 and HXSet.hxLan(slot5)
 	end
 
-	uv9("cv:", slot13, "cvkey:", slot12, "word:", slot5)
+	uv8("cv:", slot13, "cvkey:", slot12, "word:", slot5)
 
 	return slot12, slot13, slot5
 end
