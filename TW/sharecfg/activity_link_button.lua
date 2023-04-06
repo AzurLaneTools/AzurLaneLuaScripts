@@ -133,31 +133,8 @@ pg.activity_link_button = {
 		pic = "event_minigame",
 		order = 1,
 		time = {
-			"timer",
-			{
-				{
-					2023,
-					4,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			"default",
+			41118
 		},
 		param = {
 			28

@@ -127,7 +127,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "——“46只要，做46自己就好”",
+			say = "——“{namecode:412}只要，做{namecode:412}自己就好”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
