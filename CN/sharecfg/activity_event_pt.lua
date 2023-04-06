@@ -22810,6 +22810,79 @@ pg.activity_event_pt = {
 			0
 		}
 	},
+	[4742] = {
+		convert_resource_type = 0,
+		unlock_story = "",
+		target_buff = "",
+		type = 1,
+		buff_group = "",
+		drop_display = "",
+		end_time = "",
+		pic_list = "",
+		buff_time = "",
+		id_2 = 4742,
+		link_id = 0,
+		pt_list = "",
+		convert_pay = "",
+		pt = 311,
+		id = 4742,
+		target = {
+			100,
+			200,
+			350,
+			500,
+			650,
+			800,
+			1000
+		},
+		drop_client = {
+			{
+				1,
+				1,
+				300
+			},
+			{
+				2,
+				54050,
+				1
+			},
+			{
+				2,
+				54013,
+				2
+			},
+			{
+				2,
+				16013,
+				1
+			},
+			{
+				2,
+				16023,
+				1
+			},
+			{
+				2,
+				16003,
+				1
+			},
+			{
+				4,
+				107991,
+				1
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		}
+	},
 	[1020] = {
 		convert_resource_type = 0,
 		unlock_story = "",
@@ -30003,6 +30076,7 @@ pg.activity_event_pt = {
 		4720,
 		4726,
 		4737,
+		4742,
 		1020,
 		1021,
 		1022,

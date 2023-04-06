@@ -40,7 +40,19 @@ function slot0.Ctor(slot0, slot1, slot2)
 		uv0:onFuncClick()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.recommentBtn, function ()
-		uv0.dispatch(EventConst.EVENT_RECOMMEND, uv0.event)
+		slot0 = getProxy(BayProxy)
+		slot2 = slot0:getDelegationRecommendShipsLV1(uv0.event)
+
+		if #slot0:getDelegationRecommendShips(uv0.event) == 0 and #slot2 > 0 then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("event_recommend_level1"),
+				onYes = function ()
+					uv0.dispatch(EventConst.EVENT_RECOMMEND_LEVEL1, uv0.event)
+				end
+			})
+		else
+			uv0.dispatch(EventConst.EVENT_RECOMMEND, uv0.event)
+		end
 	end)
 	onButton(slot0, slot0.usePrevFormationBtn, function ()
 		uv0:UsePrevFormation()

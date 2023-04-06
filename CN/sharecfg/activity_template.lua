@@ -5289,79 +5289,27 @@ pg.activity_template = {
 	},
 	[4732] = {
 		mark = 20230401,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 23,
 		login_pop = 0,
 		config_id = 4733,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4732,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4733] = {
 		mark = 20230401,
-		id = 4733,
 		title_res_tag = "AprilFool2023",
+		time = "stop",
 		type = 21,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 31,
+		id = 4733,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "AprilFoolDiscovery2023Page",
 			ui_name = "AprilFoolDiscovery2023Page"
@@ -5376,51 +5324,26 @@ pg.activity_template = {
 	},
 	[4734] = {
 		mark = 20230323,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4734,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4735] = {
 		mark = 20230323,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 93,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4735,
 		config_data = {
 			1001,
@@ -5428,33 +5351,6 @@ pg.activity_template = {
 			1003,
 			1004,
 			1005
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			scene = "BossRushKurskScene",
@@ -5575,55 +5471,30 @@ pg.activity_template = {
 	},
 	[4738] = {
 		mark = 20230323,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4738,
 		config_data = {
 			367,
 			368,
 			369
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4739] = {
 		mark = 20230323,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4739,
 		config_data = {
@@ -5637,33 +5508,6 @@ pg.activity_template = {
 			18421,
 			18422,
 			18423
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4741] = {
@@ -5702,6 +5546,94 @@ pg.activity_template = {
 					59,
 					59
 				}
+			}
+		}
+	},
+	[4742] = {
+		mark = 20230406,
+		config_client = "",
+		title_res_tag = "xiaoqiye_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4742,
+		is_show = 31,
+		id = 4742,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "XiaoQiYePtPage",
+			ui_name = "xiaoqiyeptpage"
+		}
+	},
+	[4743] = {
+		mark = 20230406,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4743,
+		config_data = {
+			18424
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				18424
 			}
 		}
 	},
@@ -10246,6 +10178,69 @@ pg.activity_template = {
 			ui_name = "ChocolateWorkshopPermanentPage"
 		}
 	},
+	[6019] = {
+		mark = 20230406,
+		title_res_tag = "i56_permanent",
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		id = 6019,
+		config_data = {
+			{
+				35223,
+				35224
+			},
+			{
+				35225,
+				35226
+			},
+			{
+				35227,
+				35228
+			},
+			{
+				35229,
+				35230
+			},
+			{
+				35231,
+				35232
+			},
+			{
+				35233,
+				35234
+			},
+			{
+				35235,
+				35236
+			}
+		},
+		page_info = {
+			class_name = "I56SkinPage",
+			ui_name = "I56SkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"I56XIAOFU1"
+				},
+				{},
+				{
+					"I56XIAOFU2"
+				},
+				{},
+				{
+					"I56XIAOFU3"
+				},
+				{},
+				{
+					"I56XIAOFU4"
+				}
+			}
+		}
+	},
 	[100001] = {
 		mark = 20190530,
 		time = "stop",
@@ -10545,6 +10540,8 @@ pg.activity_template = {
 		4738,
 		4739,
 		4741,
+		4742,
+		4743,
 		7001,
 		7002,
 		7003,
@@ -10656,6 +10653,7 @@ pg.activity_template = {
 		6016,
 		6017,
 		6018,
+		6019,
 		100001,
 		100002,
 		100003,

@@ -41,6 +41,8 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 
 	setActive(slot0.mask, not slot5 or slot6)
 	setActive(slot0.selloutTag, not slot5)
+	setActive(slot0.limitPassTag, false)
+	removeOnButton(slot0.mask)
 
 	if slot6 then
 		slot7, slot8, slot9 = slot0.goodsVO:CheckArgLimit()
