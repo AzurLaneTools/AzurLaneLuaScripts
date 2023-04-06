@@ -85,7 +85,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "我们单是要让自己的舰装听话就要费不少力。与其他阵营共存的话更需多加留心。要多谢46你的协助。",
+			say = "我们单是要让自己的舰装听话就要费不少力。与其他阵营共存的话更需多加留心。要多谢{namecode:412}你的协助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "既然如此，我也给你一个建议吧。46，你这个说话口气能否改一改？",
+			say = "既然如此，我也给你一个建议吧。{namecode:412}，你这个说话口气能否改一改？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

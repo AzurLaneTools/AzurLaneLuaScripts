@@ -538,7 +538,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "556，怎么了…看起来有点失落的样子",
+			say = "{namecode:416}，怎么了…看起来有点失落的样子",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
