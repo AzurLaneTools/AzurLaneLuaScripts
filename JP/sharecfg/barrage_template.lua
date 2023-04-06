@@ -1,8 +1,4 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "barrage_template", rawget(pg.base, "barrage_template") or {})
-
 pg.barrage_template = setmetatable({
 	__name = "barrage_template",
 	all = {
@@ -17673,6 +17669,8 @@ pg.barrage_template = setmetatable({
 		3059436
 	}
 }, confMT)
+pg.base = pg.base or {}
+pg.base.barrage_template = pg.base.barrage_template or {}
 cs = cs or {}
 cs.barrage_template = {
 	{

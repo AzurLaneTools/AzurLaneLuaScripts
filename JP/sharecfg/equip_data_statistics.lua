@@ -1,8 +1,4 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "equip_data_statistics", rawget(pg.base, "equip_data_statistics") or {})
-
 pg.equip_data_statistics = setmetatable({
 	__name = "equip_data_statistics",
 	all = {
@@ -8143,6 +8139,8 @@ pg.equip_data_statistics = setmetatable({
 		960022
 	}
 }, confMT)
+pg.base = pg.base or {}
+pg.base.equip_data_statistics = pg.base.equip_data_statistics or {}
 cs = cs or {}
 cs.equip_data_statistics = {
 	[2] = {

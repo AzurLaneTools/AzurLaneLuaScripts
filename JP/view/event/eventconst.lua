@@ -7,5 +7,6 @@ return {
 	EVENT_GIVEUP = "event_giveup",
 	EVEN_USE_PREV_FORMATION = "event_use_prev_formation",
 	EVENT_RECOMMEND = "event_recommend",
+	EVENT_RECOMMEND_LEVEL1 = "event_recommend_level1",
 	EVENT_TYPE_NIGHT = 5
 }

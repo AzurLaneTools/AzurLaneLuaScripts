@@ -190461,6 +190461,27 @@ _G.pg.base.item_data_statistics[59406] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59409] = {
+	display = "イベント「駆けろ　幼き翼！」・友好度報酬（累計獲得数）",
+	name = "友好度-リトル・エンタープライズ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59409,
+	is_world = 0,
+	icon = "Props/xiaoqiye_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",

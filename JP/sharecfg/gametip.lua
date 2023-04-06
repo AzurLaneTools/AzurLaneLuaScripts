@@ -1,11 +1,9 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "gametip", rawget(pg.base, "gametip") or {})
-
 pg.gametip = setmetatable({
 	__name = "gametip"
 }, confMT)
+pg.base = pg.base or {}
+pg.base.gametip = pg.base.gametip or {}
 cs = cs or {}
 cs.gametip = {
 	["new_airi_error_code_-1"] = {
@@ -20826,6 +20824,16 @@ cs.gametip = {
 	caibulin_tip11 = {
 		861579,
 		145,
+		true
+	},
+	gametip_xiaoqiye = {
+		861724,
+		2162,
+		true
+	},
+	event_recommend_level1 = {
+		863886,
+		205,
 		true
 	}
 }

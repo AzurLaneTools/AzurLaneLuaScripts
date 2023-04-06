@@ -1,8 +1,4 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "weapon_property", rawget(pg.base, "weapon_property") or {})
-
 pg.weapon_property = setmetatable({
 	__name = "weapon_property",
 	all = {
@@ -34244,6 +34240,8 @@ pg.weapon_property = setmetatable({
 		3059515
 	}
 }, confMT)
+pg.base = pg.base or {}
+pg.base.weapon_property = pg.base.weapon_property or {}
 cs = cs or {}
 cs.weapon_property = {
 	[2] = {

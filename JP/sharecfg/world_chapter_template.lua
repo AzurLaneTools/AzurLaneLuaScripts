@@ -1,8 +1,4 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "world_chapter_template", rawget(pg.base, "world_chapter_template") or {})
-
 pg.world_chapter_template = setmetatable({
 	__name = "world_chapter_template",
 	all = {
@@ -652,6 +648,8 @@ pg.world_chapter_template = setmetatable({
 		440020
 	}
 }, confMT)
+pg.base = pg.base or {}
+pg.base.world_chapter_template = pg.base.world_chapter_template or {}
 cs = cs or {}
 cs.world_chapter_template = {
 	[2000] = {
