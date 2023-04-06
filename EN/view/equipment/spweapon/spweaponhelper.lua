@@ -15,10 +15,11 @@ function slot1(slot0, slot1)
 	end
 
 	setText(slot2.Find(slot2, "name"), slot3)
+	Canvas.ForceUpdateCanvases()
 
 	if not IsNil(slot2.Find(slot2, "value")) then
 		setActive(slot2:Find("value"), slot4)
-		setText(slot2:Find("value"), slot4)
+		changeToScrollText(slot2:Find("value/Text"), slot4)
 	end
 
 	if not IsNil(slot2.Find(slot2, "effect")) then
@@ -103,44 +104,50 @@ function updateSpWeaponInfo(slot0, slot1, slot2)
 	end
 
 	uv1(slot0:Find("attrs"), slot3, slot4)
-	uv2(slot0:Find("part/attr"), {
+
+	slot5 = cloneTplTo(slot3, slot0:Find("part"))
+
+	slot5:SetSiblingIndex(0)
+	uv2(slot5, {
 		value = "",
 		name = i18n("equip_info_23")
 	})
 
-	slot6 = slot0:Find("part/value"):Find("label")
-	slot7 = {}
+	slot7 = slot0:Find("part/value"):Find("label")
 	slot8 = {}
+	slot9 = {}
 
 	if #slot1.part[1] == 0 and #slot1.part[2] == 0 then
-		setmetatable(slot7, {
-			__index = function (slot0, slot1)
-				return true
-			end
-		})
 		setmetatable(slot8, {
 			__index = function (slot0, slot1)
 				return true
 			end
 		})
+		setmetatable(slot9, {
+			__index = function (slot0, slot1)
+				return true
+			end
+		})
 	else
-		for slot12, slot13 in ipairs(slot1.part[1]) do
-			slot7[slot13] = true
+		for slot13, slot14 in ipairs(slot1.part[1]) do
+			slot8[slot14] = true
 		end
 
-		for slot12, slot13 in ipairs(slot1.part[2]) do
-			slot8[slot13] = true
+		for slot13, slot14 in ipairs(slot1.part[2]) do
+			slot9[slot14] = true
 		end
 	end
 
-	for slot12, slot13 in ipairs(ShipType.FilterOverQuZhuType(ShipType.AllShipType)) do
-		slot14 = slot12 <= slot5.childCount and slot5:GetChild(slot12 - 1) or cloneTplTo(slot6, slot5)
+	for slot13, slot14 in ipairs(ShipType.FilterOverQuZhuType(ShipType.AllShipType)) do
+		slot15 = slot13 <= slot6.childCount and slot6:GetChild(slot13 - 1) or cloneTplTo(slot7, slot6)
 
-		GetImageSpriteFromAtlasAsync("shiptype", ShipType.Type2CNLabel(slot13), slot14)
-		setActive(slot14:Find("main"), slot7[slot13] and not slot8[slot13])
-		setActive(slot14:Find("sub"), slot8[slot13] and not slot7[slot13])
-		setImageAlpha(slot14, not slot7[slot13] and not slot8[slot13] and 0.3 or 1)
+		GetImageSpriteFromAtlasAsync("shiptype", ShipType.Type2CNLabel(slot14), slot15)
+		setActive(slot15:Find("main"), slot8[slot14] and not slot9[slot14])
+		setActive(slot15:Find("sub"), slot9[slot14] and not slot8[slot14])
+		setImageAlpha(slot15, not slot8[slot14] and not slot9[slot14] and 0.3 or 1)
 	end
+
+	setActive(slot3, false)
 end
 
 function slot6(slot0)

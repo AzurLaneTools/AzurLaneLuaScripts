@@ -452,6 +452,8 @@ function slot0.UpdateSpWeaponPanel(slot0, slot1)
 			end
 		end
 
+		Canvas.ForceUpdateCanvases()
+
 		slot8 = slot3:Find("cont")
 
 		(function ()
@@ -464,7 +466,7 @@ function slot0.UpdateSpWeaponPanel(slot0, slot1)
 				return
 			end
 
-			setText(slot0:Find("value"), getSkillName(slot1))
+			setScrollText(slot0:Find("value/Text"), getSkillName(slot1))
 		end)()
 		(function ()
 			slot0 = uv0:GetChild(1)
@@ -476,7 +478,7 @@ function slot0.UpdateSpWeaponPanel(slot0, slot1)
 				return
 			end
 
-			setText(slot0:Find("value"), getSkillName(slot1))
+			setScrollText(slot0:Find("value/Text"), getSkillName(slot1))
 		end)()
 		onButton(slot0, slot2, function ()
 			uv0:emit(BaseUI.ON_SPWEAPON, {

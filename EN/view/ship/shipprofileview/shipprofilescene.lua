@@ -223,7 +223,7 @@ function slot0.InitCommon(slot0)
 	slot5 = slot0.shipGroup
 	slot5 = slot5.getShipType
 
-	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", slot5(slot5, slot0.showTrans)), true)
+	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", slot5(slot5, slot0.showTrans)))
 
 	slot0.labelName.text = slot0.shipGroup:getName(slot0.showTrans)
 	slot1 = slot0.shipGroup.shipConfig

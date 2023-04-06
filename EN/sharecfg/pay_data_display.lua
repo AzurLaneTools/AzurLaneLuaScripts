@@ -8338,6 +8338,106 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[2014] = {
+		subject = "Skill Book Pack",
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		limit_arg = 4,
+		name = "Skill Book Pack",
+		name_display = "Skill Book Pack",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2014,
+		money = 299,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "boxSkill",
+		id_str = "com.yostaren.azurlane.pack1",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Buy to receive a large amount of Skill Books.",
+		airijp_id = "com.yostaren.azurlane.pack1",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[139] = {
 		subject = "Black Friday Lucky Bag (2022)",
 		limit_group = 0,
@@ -8747,6 +8847,7 @@ pg.pay_data_display = {
 		136,
 		137,
 		138,
+		2014,
 		139,
 		140,
 		141

@@ -115,6 +115,15 @@ slot1 = {
 				return nil
 			end
 		end
+	},
+	{
+		id = "NG0037",
+		condition = function ()
+			return NewServerCarnivalScene.isShow()
+		end,
+		args = function ()
+			return {}
+		end
 	}
 }
 

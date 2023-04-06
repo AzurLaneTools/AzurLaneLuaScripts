@@ -65,8 +65,7 @@ end
 function slot0.AddFloor(slot0, slot1)
 	slot0:CheckValid()
 
-	slot0.floor = slot0.floor + slot1
-	slot0.floor = math.max(slot0.floor, 0)
+	slot0.floor = math.clamp(slot0.floor + slot1, 0, 999)
 end
 
 function slot0.GetFloor(slot0)

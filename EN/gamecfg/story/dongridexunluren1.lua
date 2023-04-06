@@ -202,11 +202,11 @@ return {
 			actor = 705040,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			actorName = "Sovetskaya Belorussiya",
-			side = 2,
 			say = "Actually, Kuybyshev, it concerns you more than it does us.",
+			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,9 +241,9 @@ return {
 			bgName = "star_level_bg_109",
 			actorName = "Sovetskaya Belorussiya",
 			dir = 1,
+			hidePaintEquip = true,
 			actor = 705040,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			say = "Ah, my apologies. I've said too much already.",
 			painting = {
 				alpha = 0.3,
@@ -270,9 +270,9 @@ return {
 			bgName = "star_level_bg_109",
 			actorName = "Sovetskaya Belorussiya",
 			dir = 1,
+			hidePaintEquip = true,
 			actor = 705040,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			say = "May I offer you this coin as a token of apology, Rossiya?",
 			painting = {
 				alpha = 0.3,
