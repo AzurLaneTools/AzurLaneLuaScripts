@@ -8685,6 +8685,27 @@ _G.pg.base.item_data_statistics[21011] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21012] = {
+	display = "反擊·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	name = "結晶：反擊·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21012,
+	is_world = 0,
+	icon = "Props/21012",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21013] = {
 	display = "特倫托·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
 	name = "結晶：特倫托·META",
@@ -8952,6 +8973,27 @@ _G.pg.base.item_data_statistics[21906] = {
 	id = 21906,
 	is_world = 0,
 	icon = "Props/21906",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[21907] = {
+	display = "於「信標·META」戰鬥中收集的數據，可以提升反擊·META同步率。",
+	name = "同步值：反擊·META",
+	max_num = 0,
+	type = 4,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 21907,
+	is_world = 0,
+	icon = "Props/21907",
 	display_icon = {},
 	price = {},
 	index = {},
@@ -12646,6 +12688,121 @@ _G.pg.base.item_data_statistics[30327] = {
 		{
 			9,
 			437,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30328] = {
+	display = "可以獲得一件隨機的牛仔風格外觀裝備",
+	name = "外觀裝備箱(牛仔)",
+	max_num = 0,
+	type = 11,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 30328,
+	is_world = 0,
+	icon = "Props/appearanceboxniuzai",
+	display_icon = {
+		{
+			9,
+			440,
+			1
+		},
+		{
+			9,
+			441,
+			1
+		},
+		{
+			9,
+			442,
+			1
+		},
+		{
+			9,
+			443,
+			1
+		},
+		{
+			9,
+			444,
+			1
+		},
+		{
+			9,
+			445,
+			1
+		},
+		{
+			9,
+			446,
+			1
+		},
+		{
+			9,
+			447,
+			1
+		},
+		{
+			9,
+			448,
+			1
+		},
+		{
+			9,
+			449,
+			1
+		},
+		{
+			9,
+			450,
+			1
+		},
+		{
+			9,
+			451,
+			1
+		},
+		{
+			9,
+			452,
+			1
+		},
+		{
+			9,
+			453,
+			1
+		},
+		{
+			9,
+			454,
+			1
+		},
+		{
+			9,
+			455,
+			1
+		},
+		{
+			9,
+			456,
+			1
+		},
+		{
+			9,
+			457,
 			1
 		}
 	},
@@ -145755,6 +145912,48 @@ _G.pg.base.item_data_statistics[59231] = {
 	virtual_type = 0,
 	link_id = 0,
 	id = 59231,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59232] = {
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數 ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59232,
+	is_world = 0,
+	icon = "Props/xunliandianshu_m",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59233] = {
+	display = "用於『限時體驗商店』兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59233,
 	is_world = 0,
 	icon = "Props/skinTicket",
 	display_icon = {},

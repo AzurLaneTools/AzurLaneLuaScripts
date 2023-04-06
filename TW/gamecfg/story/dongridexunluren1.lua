@@ -202,11 +202,11 @@ return {
 			actor = 705040,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			actorName = "驯鹿师",
-			side = 2,
 			say = "哦？古比雪夫同志也感兴趣吗？",
+			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,9 +241,9 @@ return {
 			bgName = "star_level_bg_109",
 			actorName = "驯鹿师",
 			dir = 1,
+			hidePaintEquip = true,
 			actor = 705040,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			say = "啊……呃，我是说寻路人小姐……",
 			painting = {
 				alpha = 0.3,
@@ -270,9 +270,9 @@ return {
 			bgName = "star_level_bg_109",
 			actorName = "驯鹿师",
 			dir = 1,
+			hidePaintEquip = true,
 			actor = 705040,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			say = "欸，百密一疏……好吧，纪念币归你了。",
 			painting = {
 				alpha = 0.3,

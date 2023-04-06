@@ -294,7 +294,7 @@ pg.mini_game_hub = {
 		id = 21,
 		reward_need = 7,
 		reborn_times = 1,
-		act_id = 4078,
+		act_id = 41118,
 		signet_reward = {},
 		reward_display = {
 			2,

@@ -13244,181 +13244,181 @@ pg.base.activity_ins_language = {
 		value = "嘿嘿，是吧是吧~下次指揮官也來拍一組嘛~"
 	},
 	ins_315 = {
-		value = ""
+		value = "{namecode:18}迷失在鏡子迷宮裡了！"
 	},
 	ins_discuss_315_1 = {
-		value = ""
+		value = "下次記得跟妳說的方法，摸著一邊的墻壁，大概都能摸出去…"
 	},
 	ins_reply_315_1_1 = {
-		value = ""
+		value = "QAQ，謝謝{namecode:175}妳來接我！"
 	},
 	ins_reply_315_1_2 = {
-		value = ""
+		value = "一點小事，也沒什麼啦…"
 	},
 	ins_discuss_315_2 = {
-		value = ""
+		value = "我印象那個迷宮佈景應該不大…才對"
 	},
 	ins_reply_315_2_1 = {
-		value = ""
+		value = "四面八方都是{namecode:18}，走暈了orz"
 	},
 	ins_discuss_315_3 = {
-		value = ""
+		value = "啊，佈置的迷宮佈景給妳添麻煩了呢，真不好意思……"
 	},
 	ins_reply_315_3_1 = {
-		value = ""
+		value = "啊哈哈，從某種意義上來說，能讓人迷路才證明這個佈景佈置得好啊~"
 	},
 	ins_op_315_1_1 = {
-		value = ""
+		value = "沒事吧？！"
 	},
 	op_reply_315_1_1 = {
-		value = ""
+		value = "在{namecode:175}的幫助下出來了！謝謝你指揮官！"
 	},
 	ins_316 = {
-		value = ""
+		value = "只要躺在這裡什麼都不做就可以演好角色了嗎……"
 	},
 	ins_discuss_316_1 = {
-		value = ""
+		value = "嗯？ 我記得不屈你扮演的是小紅帽，不是睡美人吧…？"
 	},
 	ins_reply_316_1_1 = {
-		value = ""
+		value = "因為惡毒說，要這樣才能找到「柔弱少女」的感覺……"
 	},
 	ins_discuss_316_2 = {
-		value = ""
+		value = "沒錯！而且這是多麼讓人羨慕的練習…總之這正是適應角色的重要一環！"
 	},
 	ins_reply_316_2_1 = {
-		value = ""
+		value = "那…我就繼續加油了！"
 	},
 	ins_discuss_316_3 = {
-		value = ""
+		value = "「小紅帽」還挺努力的呢，我很期待正式的演出哦？"
 	},
 	ins_reply_316_3_1 = {
-		value = ""
+		value = "絕對不會輸給「大灰狼」的！"
 	},
 	ins_reply_316_3_2 = {
-		value = ""
+		value = "哎？小紅帽是這樣的角色嗎？不過這樣好像也挺有趣的…正式的演出，確實很讓人期待呢。"
 	},
 	ins_op_316_1_1 = {
-		value = ""
+		value = "感覺會睡著的樣子"
 	},
 	op_reply_316_1_1 = {
-		value = ""
+		value = "哼…就算床再軟再舒服，我也不會這麼輕易地陷入誘惑的！"
 	},
 	ins_317 = {
-		value = ""
+		value = "美味的紅蘋果，有人要嘗一口嗎？"
 	},
 	ins_discuss_317_1 = {
-		value = ""
+		value = "哇哦！這就是傳說中「一口就能把人放倒」的超級毒蘋果吧！"
 	},
 	ins_reply_317_1_1 = {
-		value = ""
+		value = "啊，已經吃下毒蘋果的白雪公主，莫非已經……"
 	},
 	ins_reply_317_1_2 = {
-		value = ""
+		value = "「設定」中的毒蘋果確實如此，可惜這只是個普通的蘋果呢。"
 	},
 	ins_discuss_317_2 = {
-		value = ""
+		value = "霞飛扮演白雪公主的話，感覺劇本可以換一換了呢"
 	},
 	ins_reply_317_2_1 = {
-		value = ""
+		value = "嗯？換成什麼樣的劇本呢？"
 	},
 	ins_reply_317_2_2 = {
-		value = ""
+		value = "「白雪公主帶著七個小矮人救下了王子，制裁了罪惡的皇后」…之類的"
 	},
 	ins_reply_317_2_3 = {
-		value = ""
+		value = "唔，聽起來好像…還挺不錯的？"
 	},
 	ins_op_317_1_1 = {
-		value = ""
+		value = "吃了會陷入沉睡嗎？"
 	},
 	op_reply_317_1_1 = {
-		value = ""
+		value = "指揮官也想當等待王子拯救的公主嗎？"
 	},
 	ins_318 = {
-		value = ""
+		value = "作為「狼」，要更有耐心，更謹慎才行。"
 	},
 	ins_discuss_318_1 = {
-		value = ""
+		value = "小紅帽，兇多吉少？"
 	},
 	ins_reply_318_1_1 = {
-		value = ""
+		value = "要是真讓我來謀劃，狼大概早就大獲全勝了吧"
 	},
 	ins_discuss_318_2 = {
-		value = ""
+		value = "其實我也想不明白，憑狼的體格，怎麼樣也不可能輸給獵物吧"
 	},
 	ins_reply_318_2_1 = {
-		value = ""
+		value = "啊哈哈～姑且是有點警示意義的童話寓言嘛"
 	},
 	ins_discuss_318_3 = {
-		value = ""
+		value = "「小紅帽」是不會輸給「大灰狼」的！"
 	},
 	ins_reply_318_3_1 = {
-		value = ""
+		value = "充滿鬥爭心的小紅帽，倒是有點意思！"
 	},
 	ins_reply_318_3_2 = {
-		value = ""
+		value = "正式演出一起加油吧，「小紅帽」~"
 	},
 	ins_op_318_1_1 = {
-		value = ""
+		value = "似乎真的會等到睡著的樣子"
 	},
 	op_reply_318_1_1 = {
-		value = ""
+		value = "作為時刻警惕的狼，在達到目的前是不會睡著的"
 	},
 	ins_319 = {
-		value = ""
+		value = "「名字代表什麼？玫瑰換個名稱，亦無損其芬芳」"
 	},
 	ins_discuss_319_1 = {
-		value = ""
+		value = "比洛克西，自己在做演出的練習嗎？"
 	},
 	ins_reply_319_1_1 = {
-		value = ""
+		value = "哈哈，男女主角都能演，真要選擇演哪邊還是挺讓人煩惱的呢~"
 	},
 	ins_discuss_319_2 = {
-		value = ""
+		value = "比洛克西好厲害啊！{namecode:18}光是記一個角色的臺詞就已經……"
 	},
 	ins_reply_319_2_1 = {
-		value = ""
+		value = "試著讓自己真正「成為」那個角色，無論是記臺詞還是扮演，都會順利很多哦？"
 	},
 	ins_reply_319_2_2 = {
-		value = ""
+		value = "聽起來很厲害的樣子…我會試試的！謝謝妳的建議！"
 	},
 	ins_op_319_1_1 = {
-		value = ""
+		value = "似乎需要一個搭檔？"
 	},
 	op_reply_319_1_1 = {
-		value = ""
+		value = "指揮官有興趣和我搭檔嗎？無論男女主角都沒問題哦？呵呵~"
 	},
 	ins_op_319_1_2 = {
-		value = ""
+		value = "期待正式演出"
 	},
 	op_reply_319_1_2 = {
-		value = ""
+		value = "嗯哼，敬請期待，不會讓你失望的~"
 	},
 	ins_320 = {
-		value = ""
+		value = "舞臺的佈景，也是有講究的。"
 	},
 	ins_discuss_320_1 = {
-		value = ""
+		value = "女僕隊的各位，場景佈置辛苦了！"
 	},
 	ins_reply_320_1_1 = {
-		value = ""
+		value = "這是我們分內之事。而且佈置的過程，其實也還蠻有趣的"
 	},
 	ins_discuss_320_2 = {
-		value = ""
+		value = "演出的成功，少不了幕後辛苦的各位工作人員呢"
 	},
 	ins_reply_320_2_1 = {
-		value = ""
+		value = "向默默付出的無名英雄們致謝~"
 	},
 	ins_discuss_320_3 = {
-		value = ""
+		value = "企業無論做什麼都能做得很好呢，無論是女僕工作還是舞臺佈置…"
 	},
 	ins_reply_320_3_1 = {
-		value = ""
+		value = "大家都很厲害，我也就是個…平均水準吧？"
 	},
 	ins_op_320_1_1 = {
-		value = ""
+		value = "幕後工作辛苦了！"
 	},
 	op_reply_320_1_1 = {
-		value = ""
+		value = "主人也在背後默默幫了許多忙吧，您也辛苦了。"
 	},
 	ins_342 = {
 		value = "嗯哼，要放點什麼材料好呢~"

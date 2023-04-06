@@ -119,6 +119,22 @@ function slot0.bindEvent(slot0)
 					end
 				end
 
+				slot1 = {}
+
+				if _.any(uv0.contextData.fleets, function (slot0)
+					return _.any(slot0:GetRawShipIds(), function (slot0)
+						if uv0[getProxy(BayProxy):RawGetShipById(slot0):getGroupId()] then
+							return true
+						end
+
+						uv0[slot1:getGroupId()] = true
+					end)
+				end) then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("guild_event_exist_same_kind_ship"))
+
+					return
+				end
+
 				slot0()
 			end,
 			function (slot0)

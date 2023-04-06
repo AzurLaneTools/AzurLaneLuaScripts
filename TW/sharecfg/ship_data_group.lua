@@ -1604,6 +1604,9 @@ pg.ship_data_group = setmetatable({
 		[970202] = {
 			30011
 		},
+		[970403] = {
+			30012
+		},
 		[970301] = {
 			30013
 		},
@@ -2149,6 +2152,7 @@ pg.ship_data_group = setmetatable({
 		30009,
 		30010,
 		30011,
+		30012,
 		30013,
 		30015,
 		30016
@@ -23560,6 +23564,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9702021
+					}
+				},
+				0
+			}
+		}
+	},
+	[30012] = {
+		type = 4,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30012,
+		code = 30012,
+		group_type = 970403,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：META研究室-資訊同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9704031
 					}
 				},
 				0

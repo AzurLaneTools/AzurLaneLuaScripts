@@ -1020,6 +1020,16 @@ pg.player_resource = {
 		name = "skinTicket47",
 		itemid = 59406
 	},
+	[310] = {
+		id = 310,
+		name = "newserver_pt_230427",
+		itemid = 59408
+	},
+	[311] = {
+		id = 311,
+		name = "xiaoqiye_pt2",
+		itemid = 59409
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1988,6 +1998,12 @@ pg.player_resource = {
 		skinTicket47 = {
 			309
 		},
+		newserver_pt_230427 = {
+			310
+		},
+		xiaoqiye_pt2 = {
+			311
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2407,6 +2423,8 @@ pg.player_resource = {
 		307,
 		308,
 		309,
+		310,
+		311,
 		950,
 		951,
 		952,

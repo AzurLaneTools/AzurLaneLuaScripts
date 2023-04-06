@@ -27,7 +27,10 @@ function slot0.init(slot0)
 		elseif slot0 == "yostarqn" and (PLATFORM == PLATFORM_AIRIJP or PLATFORM == PLATFORM_AIRIUS) then
 			slot2, slot3 = string.match(slot1, "(%d+)(http.*)")
 
-			pg.SdkMgr.GetInstance():ShowSurvey(slot2, slot3)
+			pg.m02:sendNotification(GAME.SURVEY_REQUEST, {
+				surveyIDStr = slot2,
+				surveyUrlStr = slot3
+			})
 		end
 	end)
 

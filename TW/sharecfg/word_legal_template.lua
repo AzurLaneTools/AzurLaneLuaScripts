@@ -3109,7 +3109,18 @@ temp()
 function temp()
 	uv0["反"] = {
 		["擊"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

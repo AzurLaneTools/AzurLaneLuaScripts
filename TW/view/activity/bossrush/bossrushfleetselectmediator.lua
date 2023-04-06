@@ -362,8 +362,8 @@ function slot0.openCommanderPanel(slot0, slot1, slot2)
 				if slot0.type == LevelUIConst.COMMANDER_OP_SHOW_SKILL then
 					uv0.viewComponent:emit(uv1.ON_COMMANDER_SKILL, slot0.skill)
 				elseif slot0.type == LevelUIConst.COMMANDER_OP_ADD then
-					uv0.viewComponent:emit(uv1.ON_SELECT_COMMANDER, uv2, slot0.pos)
 					uv0:closeCommanderPanel()
+					uv0.viewComponent:emit(uv1.ON_SELECT_COMMANDER, uv2, slot0.pos)
 				else
 					uv0:sendNotification(GAME.COMMANDER_FORMATION_OP, {
 						data = {

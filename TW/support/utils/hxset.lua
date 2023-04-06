@@ -68,22 +68,22 @@ function slot0.calcLocalizationUse()
 		end
 
 		slot1 = pg.TimeMgr.GetInstance()
-		slot3 = PlayerPrefs.GetInt("localization_time_1", 0)
+		slot4 = PlayerPrefs.GetInt("localization_time_1_" .. getProxy(PlayerProxy):getData().id, 0)
 
-		if uv0.codeMode and not slot1.IsSameDay(slot1, slot3, slot1.GetServerTime(slot1)) then
+		if uv0.codeMode and not slot1.IsSameDay(slot1, slot4, slot1.GetServerTime(slot1)) then
 			pg.m02:sendNotification(GAME.CHEATER_MARK, {
 				reason = CC_TYPE_99
 			})
-			PlayerPrefs.SetInt(slot2, slot1:GetServerTime())
+			PlayerPrefs.SetInt(slot3, slot1:GetServerTime())
 		end
 
-		slot5 = PlayerPrefs.GetInt("localization_time_2", 0)
+		slot6 = PlayerPrefs.GetInt("localization_time_2_" .. slot2, 0)
 
-		if uv0.antiSkinMode and not slot1.IsSameDay(slot1, slot5, slot1.GetServerTime(slot1)) then
+		if uv0.antiSkinMode and not slot1.IsSameDay(slot1, slot6, slot1.GetServerTime(slot1)) then
 			pg.m02:sendNotification(GAME.CHEATER_MARK, {
 				reason = CC_TYPE_100
 			})
-			PlayerPrefs.SetInt(slot4, slot1:GetServerTime())
+			PlayerPrefs.SetInt(slot5, slot1:GetServerTime())
 		end
 	end
 end
@@ -273,8 +273,6 @@ function slot0.autoHxShift(slot0, slot1)
 		if string.find(slot0, "live2d") then
 			if PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. slot1 .. "_hx")) then
 				return slot0, slot1 .. "_hx"
-			elseif PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. slot1)) then
-				return slot0, slot1
 			elseif pg.l2dhx[slot1] then
 				return slot0, slot1 .. "_hx"
 			end
@@ -297,8 +295,6 @@ function slot0.autoHxShiftPath(slot0, slot1, slot2)
 				end
 			elseif PathMgr.FileExists(PathMgr.getAssetBundle(slot0 .. "_hx")) then
 				return slot0 .. "_hx"
-			elseif PathMgr.FileExists(PathMgr.getAssetBundle(slot0)) then
-				return slot0
 			elseif pg.l2dhx[string.gsub(slot0, "live2d/", "")] then
 				return slot0 .. "_hx"
 			end

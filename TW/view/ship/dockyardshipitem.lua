@@ -42,7 +42,6 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.selectedGo:SetActive(false)
 
 	slot0.hpBar = findTF(slot0.tr, "content/dockyard/blood")
-	slot0.duang6tuzhi = findTF(slot0.tr, "content/duang_6_tuzhi")
 	slot0.expBuff = findTF(slot0.tr, "content/expbuff")
 	slot0.intimacyTF = findTF(slot0.tr, "content/intimacy")
 	slot0.detailType = uv0.DetailType0

@@ -332,12 +332,23 @@ function slot0.register(slot0)
 				slot3:removeChild(slot4)
 			end
 		elseif uv0 == SYSTEM_BOSS_RUSH or uv0 == SYSTEM_BOSS_RUSH_EX then
+			slot3 = ys.Battle.BattleConst.BattleScore.C < uv1.contextData.score
 			slot6 = getProxy(ActivityProxy):getActivityById(uv1.contextData.actId):GetSeriesData()
 			slot7 = slot6:GetStaegLevel() + 1
 			slot8 = slot6:GetExpeditionIds()
 			slot10 = not slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) or slot9.data.autoFlag
 
-			if ys.Battle.BattleConst.BattleScore.C >= uv1.contextData.score or slot7 > #slot8 or not slot10 then
+			if slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
+				if pg.GuildMsgBoxMgr.GetInstance():GetShouldShowBattleTip() and getProxy(GuildProxy):getRawData() and slot12:getWeeklyTask() and slot13.id ~= 0 then
+					slot11:SubmitTask(function (slot0, slot1)
+						if slot1 then
+							uv0:CancelShouldShowBattleTip()
+						end
+					end)
+				end
+			end
+
+			if not slot3 or slot7 > #slot8 or not slot10 then
 				if slot2:GetPrevContext(1):getContextByMediator(BossRushPreCombatMediator) then
 					slot11:removeChild(slot12)
 				end
@@ -576,8 +587,6 @@ function slot0.handleNotification(slot0, slot1)
 end
 
 function slot0.DisplayTotalReward(slot0, slot1)
-	slot2 = getProxy(ChapterProxy)
-
 	LoadContextCommand.LoadLayerOnTopContext(Context.New({
 		mediator = ActivityBossTotalRewardPanelMediator,
 		viewComponent = ActivityBossTotalRewardPanel,
@@ -586,8 +595,8 @@ function slot0.DisplayTotalReward(slot0, slot1)
 				uv0.viewComponent:emit(BaseUI.ON_BACK)
 			end,
 			stopReason = slot1,
-			rewards = slot2:PopActBossRewards(),
-			isAutoFight = slot0.contextData.autoFlag,
+			rewards = getProxy(ChapterProxy):PopActBossRewards(),
+			isAutoFight = getProxy(ContextProxy):getCurrentContext():getContextByMediator(ContinuousOperationMediator) and slot2.data.autoFlag or nil,
 			continuousBattleTimes = slot0.contextData.continuousBattleTimes,
 			totalBattleTimes = slot0.contextData.totalBattleTimes
 		}

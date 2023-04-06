@@ -15,6 +15,8 @@ function slot0.Create(slot0)
 		return ActivityBossActivity.New(slot0)
 	elseif slot1.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
 		return BossRushActivity.New(slot0)
+	elseif slot1.type == ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK then
+		return BossRushRankActivity.New(slot0)
 	else
 		return Activity.New(slot0)
 	end

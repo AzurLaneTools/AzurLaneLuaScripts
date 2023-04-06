@@ -4295,6 +4295,106 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[4860] = {
+		subject = "艦艇教材禮包",
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到信箱，請注意查收。",
+		type = 0,
+		limit_arg = 4,
+		name = "艦艇教材禮包",
+		name_display = "艦艇教材禮包",
+		type_order = 0,
+		extra_gem = 0,
+		id = 4860,
+		money = 100,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "boxSkill",
+		id_str = "com.hkmanjuu.azurlane.libao106",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可獲得大量教材獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.libao106",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	[4900] = {
 		subject = "特許巡遊憑證",
 		limit_group = 0,
@@ -4931,6 +5031,7 @@ pg.pay_data_display = {
 		4857,
 		4858,
 		4859,
+		4860,
 		4900,
 		4901,
 		4902,

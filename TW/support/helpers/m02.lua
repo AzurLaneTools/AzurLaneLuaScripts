@@ -2029,6 +2029,36 @@ function filterSpecChars(slot0)
 
 				slot2 = slot2 + 1
 			end
+		elseif slot6 == 45 or slot6 == 40 or slot6 == 41 then
+			table.insert(slot1, string.char(slot6))
+		elseif slot6 == 194 then
+			if string.byte(slot0, slot5 + 1) == 183 then
+				slot5 = slot5 + 1
+
+				table.insert(slot1, string.char(slot6, slot7))
+
+				slot2 = slot2 + 1
+			end
+		elseif slot6 == 239 then
+			slot8 = string.byte(slot0, slot5 + 2)
+
+			if string.byte(slot0, slot5 + 1) == 188 and (slot8 == 136 or slot8 == 137) then
+				slot5 = slot5 + 2
+
+				table.insert(slot1, string.char(slot6, slot7, slot8))
+
+				slot2 = slot2 + 1
+			end
+		elseif slot6 == 206 or slot6 == 207 then
+			slot7 = string.byte(slot0, slot5 + 1)
+
+			if slot6 == 206 and slot7 >= 177 or slot6 == 207 and slot7 <= 134 then
+				slot5 = slot5 + 1
+
+				table.insert(slot1, string.char(slot6, slot7))
+
+				slot2 = slot2 + 1
+			end
 		elseif slot6 == 227 and PLATFORM_CODE == PLATFORM_JP then
 			slot8 = string.byte(slot0, slot5 + 2)
 
@@ -2735,6 +2765,31 @@ function setRectShipCardFrame(slot0, slot1, slot2)
 	end
 end
 
+function setFrameEffect(slot0, slot1)
+	if slot1 then
+		slot2 = slot1 .. "(Clone)"
+
+		eachChild(slot0, function (slot0)
+			setActive(slot0, slot0.name == uv0)
+
+			uv1 = uv1 or slot0.name == uv0
+		end)
+
+		if not false then
+			LoadAndInstantiateAsync("effect", slot1, function (slot0)
+				if IsNil(uv0) or findTF(uv0, uv1) then
+					Object.Destroy(slot0)
+				else
+					setParent(slot0, uv0)
+					setActive(slot0, true)
+				end
+			end)
+		end
+	end
+
+	setActive(slot0, slot1)
+end
+
 function setProposeMarkIcon(slot0, slot1)
 	slot3 = slot1.propose and not slot1:ShowPropose()
 
@@ -2768,66 +2823,28 @@ function flushShipCard(slot0, slot1)
 	GetImageSpriteFromAtlasAsync("shiptype", shipType2print(slot1:getShipType()), findTF(slot0, "content/info/top/type"))
 	setText(findTF(slot0, "content/dockyard/lv/Text"), defaultValue(slot1.level, 1))
 
-	slot9 = nil
+	slot8 = slot1:getStar()
+	slot9 = slot1:getMaxStar()
+	slot10 = findTF(slot0, "content/front/stars")
 
-	setShipCardFrame(findTF(slot0, "content/front/frame"), slot2, slot1:ShowPropose() and "prop" .. (slot1:isBluePrintShip() and slot2 or slot1:isMetaShip() and "14" or "") or nil)
-	setProposeMarkIcon(slot0:Find("content/dockyard/propose"), slot1)
+	setActive(slot10, true)
 
-	slot10 = slot1:getStar()
-	slot11 = slot1:getMaxStar()
-	slot12 = findTF(slot0, "content/front/stars")
+	slot11 = findTF(slot10, "star_tpl")
+	slot12 = slot10.childCount
 
-	setActive(slot12, true)
+	for slot16 = 1, Ship.CONFIG_MAX_STAR do
+		slot17 = slot12 < slot16 and cloneTplTo(slot11, slot10) or slot10:GetChild(slot16 - 1)
+		GetOrAddComponent(slot17, typeof(LayoutElement)).ignoreLayout = slot9 < slot16
 
-	slot13 = findTF(slot12, "star_tpl")
-	slot14 = slot12.childCount
-
-	for slot18 = 1, Ship.CONFIG_MAX_STAR do
-		slot19 = slot14 < slot18 and cloneTplTo(slot13, slot12) or slot12:GetChild(slot18 - 1)
-		GetOrAddComponent(slot19, typeof(LayoutElement)).ignoreLayout = slot11 < slot18
-
-		setImageAlpha(slot19:Find("star_tpl"), slot18 <= slot10 and 1 or 0)
-		setImageAlpha(slot19:Find("star_empty_tpl"), slot10 < slot18 and slot18 <= slot11 and 1 or 0)
+		setImageAlpha(slot17:Find("star_tpl"), slot16 <= slot8 and 1 or 0)
+		setImageAlpha(slot17:Find("star_empty_tpl"), slot8 < slot16 and slot16 <= slot9 and 1 or 0)
 	end
 
-	slot15 = findTF(slot0, "content/front/bg_other")
-	slot16 = nil
-	slot17 = false
+	slot14, slot15 = slot1.GetFrameAndEffect(slot1)
 
-	if slot1.ShowPropose(slot1) then
-		if slot1.isMetaShip(slot1) then
-			slot16 = "duang_meta_jiehun"
-		else
-			slot16 = "duang_6_jiehun" .. (slot1:isBluePrintShip() and "_tuzhi" or "")
-		end
-	elseif slot1.isMetaShip(slot1) then
-		slot16 = "duang_meta_" .. slot2
-	elseif slot1.getRarity(slot1) == 6 then
-		slot16 = "duang_6"
-	end
-
-	if slot16 then
-		slot18 = slot16 .. "(Clone)"
-
-		eachChild(slot15, function (slot0)
-			setActive(slot0, slot0.name == uv0)
-
-			uv1 = uv1 or slot0.name == uv0
-		end)
-
-		if not slot17 then
-			LoadAndInstantiateAsync("effect", slot16, function (slot0)
-				if IsNil(uv0) or findTF(uv1, uv2) then
-					Object.Destroy(slot0)
-				else
-					setParent(slot0, uv1)
-					setActive(slot0, true)
-				end
-			end)
-		end
-	end
-
-	setActive(slot15, slot16)
+	setShipCardFrame(findTF(slot0, "content/front/frame"), slot2, slot14)
+	setFrameEffect(findTF(slot0, "content/front/bg_other"), slot15)
+	setProposeMarkIcon(slot0.Find(slot0, "content/dockyard/propose"), slot1)
 end
 
 function TweenItemAlphaAndWhite(slot0)

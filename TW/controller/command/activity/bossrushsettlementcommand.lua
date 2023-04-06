@@ -11,27 +11,29 @@ function slot0.execute(slot0, slot1)
 			slot1 = getProxy(ActivityProxy):getActivityById(uv0.actId)
 			slot2 = slot1:GetSeriesData()
 
-			slot1:CleanSeriesData()
+			getProxy(ActivityProxy):SetExtraDataMember(uv0.actId, "seriesData", nil)
 
 			slot3 = PlayerConst.GetTranAwards(uv0, slot0)
 
-			if slot1:PopSettlementData().win then
-				slot1:AddPassSeries(slot4.seriesId)
-				slot1:AddUsedBonus(slot4.seriesId)
+			getProxy(ActivityProxy):SetExtraDataMember(slot1.id, "settlementData", nil)
+
+			if getProxy(ActivityProxy):GetExtraDataMember(uv0.actId, "settlementData").win then
+				slot1:AddPassSeries(slot5.seriesId)
+				slot1:AddUsedBonus(slot5.seriesId)
 			end
 
-			for slot8, slot9 in ipairs(slot4) do
-				table.insertto(slot3, slot9.drops)
-				table.insertto(slot3, slot9.extraDrops)
+			for slot9, slot10 in ipairs(slot5) do
+				table.insertto(slot3, slot10.drops)
+				table.insertto(slot3, slot10.extraDrops)
 			end
 
 			if slot2 then
-				slot2:AddFinalResults(slot4)
+				slot2:AddFinalResults(slot5)
 			end
 
-			slot5 = getProxy(ActivityProxy)
+			slot6 = getProxy(ActivityProxy)
 
-			slot5:updateActivity(slot1)
+			slot6:updateActivity(slot1)
 			seriesAsync({
 				function (slot0)
 					slot1 = {

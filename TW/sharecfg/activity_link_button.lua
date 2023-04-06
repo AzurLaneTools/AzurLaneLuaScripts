@@ -124,6 +124,45 @@ pg.activity_link_button = {
 			"ATELIER_COMPOSITE"
 		}
 	},
+	[1000] = {
+		type = 7,
+		name = "event_minigame",
+		text_pic = "text_event_minigame",
+		id = 1000,
+		group_id = 5,
+		pic = "event_minigame",
+		order = 1,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		param = {
+			28
+		}
+	},
 	[90] = {
 		param = "0",
 		name = "event_series",
@@ -147,7 +186,8 @@ pg.activity_link_button = {
 			10
 		},
 		event_minigame = {
-			20
+			20,
+			1000
 		},
 		event_boss = {
 			30
@@ -179,6 +219,7 @@ pg.activity_link_button = {
 		60,
 		70,
 		80,
+		1000,
 		90
 	}
 }

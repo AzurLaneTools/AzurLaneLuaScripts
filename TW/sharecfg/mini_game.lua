@@ -931,7 +931,6 @@ pg.mini_game = {
 	{
 		view_name = "RopingCowGameView",
 		name = "啾啾牛仔",
-		simple_config_data = "",
 		type = 2,
 		mediator_name = "MiniHubMediator",
 		config_csv_key = "",
@@ -939,7 +938,46 @@ pg.mini_game = {
 		config_csv = "",
 		id = 28,
 		hub_id = 21,
-		request_data = 0
+		request_data = 0,
+		simple_config_data = {
+			drop = {
+				{
+					2,
+					54050,
+					2
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					20012,
+					2
+				}
+			}
+		}
 	},
 	{
 		view_name = "GuessForkGameView",
