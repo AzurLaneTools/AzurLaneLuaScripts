@@ -202,11 +202,11 @@ return {
 			actor = 705040,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			actorName = "ソビエツカヤ・ベラルーシア",
-			side = 2,
 			say = "どちらかというと私たちより、クイビシェフの方が関係があるな",
+			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,9 +241,9 @@ return {
 			bgName = "star_level_bg_109",
 			actorName = "ソビエツカヤ・ベラルーシア",
 			dir = 1,
+			hidePaintEquip = true,
 			actor = 705040,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			say = "あっ。すまない、つい口を滑らせてしまうところだった",
 			painting = {
 				alpha = 0.3,
@@ -270,9 +270,9 @@ return {
 			bgName = "star_level_bg_109",
 			actorName = "ソビエツカヤ・ベラルーシア",
 			dir = 1,
+			hidePaintEquip = true,
 			actor = 705040,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			say = "ロシア、お詫びと言ってはなんだが、このコインを預けよう",
 			painting = {
 				alpha = 0.3,

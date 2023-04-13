@@ -99,6 +99,9 @@ function slot0.flush(slot0)
 	if not slot0.mask2D.enabled then
 		slot0.mask2D.enabled = true
 	end
+
+	setActive(slot0.labelName, false)
+	setActive(slot0.labelName, true)
 end
 
 function slot0.loadImage(slot0, slot1, slot2)

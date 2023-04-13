@@ -190482,6 +190482,27 @@ _G.pg.base.item_data_statistics[59409] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59410] = {
+	display = "海域イベント「燈火のシニエ」累計獲得報酬に使用するイベントPt。イベント終了時に削除される",
+	name = "燈火の刃",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59410,
+	is_world = 0,
+	icon = "Props/fuxu_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",

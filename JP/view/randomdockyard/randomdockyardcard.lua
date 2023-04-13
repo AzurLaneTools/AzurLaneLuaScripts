@@ -8,9 +8,13 @@ function slot0.Ctor(slot0, slot1)
 	slot0.lockTr = findTF(slot0._tf, "content/dockyard/container/lock")
 	slot0.selected = findTF(slot0._tf, "content/front/selected")
 	slot0.existAnim = false
+
+	ClearTweenItemAlphaAndWhite(slot0._go)
 end
 
 function slot0.Update(slot0, slot1, slot2)
+	TweenItemAlphaAndWhite(slot0._go)
+
 	if not slot0.ship or slot0.ship.id ~= slot1.id then
 		slot0.ship = slot1
 
@@ -44,6 +48,7 @@ function slot0.Flush(slot0)
 end
 
 function slot0.Dispose(slot0)
+	ClearTweenItemAlphaAndWhite(slot0._go)
 	slot0:UpdateSelected(false)
 end
 

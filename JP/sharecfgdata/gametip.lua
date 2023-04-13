@@ -22788,7 +22788,7 @@ _G.pg.base.gametip.random_ship_custom_mode_remove_tip2 = {
 }
 
 _G.pg.base.gametip.index_dressed = {
-	tip = "着替実装済"
+	tip = "着替適用済"
 }
 
 _G.pg.base.gametip.random_ship_custom_mode = {
