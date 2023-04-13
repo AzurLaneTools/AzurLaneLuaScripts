@@ -1,6 +1,370 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
+	[303112] = {
+		ship_group = 30311,
+		name = "沙灘狂想曲",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "106",
+		id = 303112,
+		group_index = 2,
+		prefab = "gaoxiong_2",
+		painting = "gaoxiong_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70002,
+		shop_type_id = 6,
+		air_bomb_skin = "",
+		illustrator = 21,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指揮官，一直盯著我看，我會很困擾的……誒？為什麼帶排球？這不是指揮官要求的嗎！？",
+		voice_actor = 8,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand2",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.36,
+					0.18,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.36,
+					0.18,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					-0.23,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.36,
+					0.18,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.43,
+							-0.01,
+							-0.14
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.56,
+							1.72,
+							-1.31
+						}
+					}
+				}
+			}
+		}
+	},
+	[303113] = {
+		ship_group = 30311,
+		name = "春之意",
+		bullet_skin_secondary = "",
+		hand_id = 9,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "102",
+		id = 303113,
+		group_index = 3,
+		prefab = "gaoxiong_3",
+		painting = "gaoxiong_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70042,
+		shop_type_id = 3,
+		air_bomb_skin = "",
+		illustrator = 21,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "練字也是修行的一種，在下就寫了一些……指揮官，你也要一起來嗎？",
+		voice_actor = 8,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.6,
+					0.45,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.6,
+					0.53,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					-0.29,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.59,
+					0.43,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[303114] = {
+		ship_group = 30311,
+		name = "校園浪漫曲",
+		bullet_skin_secondary = "",
+		hand_id = 2,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 303114,
+		group_index = 4,
+		prefab = "gaoxiong_4",
+		painting = "gaoxiong_4",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70072,
+		shop_type_id = 4,
+		air_bomb_skin = "",
+		illustrator = 21,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "呼…校園生活嗎…對在下來說倒是挺新鮮的體驗。頭髮…綁成這樣應該可以吧？你覺得呢，指揮官？",
+		voice_actor = 8,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.82,
+					1.11,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.85,
+					1.13,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.84,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[303115] = {
 		ship_group = 30311,
 		name = "至高焦點",
@@ -9034,336 +9398,6 @@ pg.base.ship_skin_template_11 = {
 						{
 							-0.56,
 							2.16,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[306050] = {
-		ship_group = 30605,
-		name = "{namecode:87}",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 306050,
-		group_index = 0,
-		prefab = "xiangfeng",
-		painting = "xiangfeng",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 24,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "{namecode:87}級航空母艦一番艦—{namecode:87}",
-		voice_actor = 2,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.015,
-					0.461,
-					0
-				}
-			},
-			plane = {
-				{
-					0.484,
-					0.514,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.505,
-							0.432,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.713,
-							0.514,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[306051] = {
-		ship_group = 30605,
-		name = "夜巡的魔女",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 306051,
-		group_index = 1,
-		prefab = "xiangfeng_2",
-		painting = "xiangfeng_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70017,
-		shop_type_id = 8,
-		air_bomb_skin = "",
-		illustrator = 24,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "哇啊啊啊！糖、糖果灑出來了——！！ 為、為什麼都在追吾啊！指揮官，幫吾攔下南瓜啊啊啊——",
-		voice_actor = 2,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.16,
-					0.88,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.16,
-					0.88,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.16,
-					0.88,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.16,
-					0.88,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.21,
-							2.7,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[306059] = {
-		ship_group = 30605,
-		name = "{namecode:87}.改",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 306059,
-		group_index = 9,
-		prefab = "xiangfeng_g",
-		painting = "xiangfeng_g",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 9997,
-		air_bomb_skin = "",
-		illustrator = 24,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指揮官大人，這便是吾成長後的姿態！嘻嘻，心動了嗎？吶、吶，肯定心動了吧~",
-		voice_actor = 2,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.53,
-					0.96,
-					0
-				}
-			},
-			plane = {
-				{
-					0.53,
-					0.96,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.55,
-							2.42,
 							0
 						}
 					}

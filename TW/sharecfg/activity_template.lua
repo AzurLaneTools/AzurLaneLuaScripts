@@ -25201,42 +25201,16 @@ pg.activity_template = {
 	},
 	[41115] = {
 		mark = 20230406,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 41115,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					4,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[41116] = {
 		mark = 20230406,
@@ -25527,6 +25501,535 @@ pg.activity_template = {
 						59,
 						59
 					}
+				}
+			}
+		}
+	},
+	[41125] = {
+		mark = 20230413,
+		id = 41125,
+		title_res_tag = "meixiv3zongye",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 32,
+		config_data = {
+			1330001,
+			1330002,
+			1330003,
+			1330021,
+			1330022,
+			1330023
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AmericanMainPage",
+			ui_name = "AmericanMainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[41126] = {
+		mark = 20230413,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 41126,
+		config_data = {
+			1330004,
+			1330005,
+			1330006,
+			1330024,
+			1330025,
+			1330026,
+			1330041,
+			1330051
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[41127] = {
+		mark = 20230413,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 41127,
+		config_data = {
+			16870,
+			16871,
+			16872,
+			16873,
+			16874,
+			16875,
+			16876,
+			16877,
+			16878,
+			16879,
+			16880,
+			16881,
+			16882,
+			16883,
+			16884,
+			16885,
+			16886
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41128] = {
+		mark = 20230413,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 41128,
+		config_data = {
+			1355001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41129] = {
+		mark = 20230413,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 211,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 41129,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41130] = {
+		mark = 20230413,
+		config_client = "",
+		title_res_tag = "meixiv3pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 41130,
+		is_show = 31,
+		id = 41130,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AmericanPtPage",
+			ui_name = "AmericanPtPage"
+		}
+	},
+	[41131] = {
+		mark = 20230413,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 41131,
+		config_data = {
+			1500,
+			1501,
+			1502,
+			1503,
+			1504,
+			1505,
+			1506,
+			1507,
+			1508,
+			1509,
+			1510,
+			1511,
+			1512,
+			1513,
+			1514,
+			1515,
+			1516,
+			1517,
+			1518,
+			1519,
+			1520,
+			1521,
+			1522
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_meixiv3",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			pt_id = 211,
+			painting = "bulaimodun_pt",
+			outline = {
+				0,
+				0,
+				0,
+				0.8
+			}
+		}
+	},
+	[41132] = {
+		mark = 20230413,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 41132,
+		config_data = {
+			16887
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41133] = {
+		mark = 20230413,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 41133,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41134] = {
+		mark = 20230413,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		id = 41134,
+		config_data = {
+			{
+				31983,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41135] = {
+		mark = 20230406,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 41135,
+		config_data = {
+			16887
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					26
+				},
+				{
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -28380,6 +28883,17 @@ pg.activity_template = {
 		41120,
 		41123,
 		41124,
+		41125,
+		41126,
+		41127,
+		41128,
+		41129,
+		41130,
+		41131,
+		41132,
+		41133,
+		41134,
+		41135,
 		45000,
 		45001,
 		45002,

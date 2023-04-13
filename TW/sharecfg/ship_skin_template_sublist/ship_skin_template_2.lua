@@ -1359,7 +1359,7 @@ pg.base.ship_skin_template_2 = {
 	},
 	[101480] = {
 		ship_group = 10148,
-		name = "英格拉罕 ",
+		name = "英格拉罕",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
@@ -1385,10 +1385,10 @@ pg.base.ship_skin_template_2 = {
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
-		no_showing = "1",
+		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "艾伦·萨姆纳级驱逐舰—英格拉罕，舷号DD-694",
+		desc = "艾倫·M·桑拿級驅逐艦—英格拉罕，舷號DD-694",
 		voice_actor = 282,
 		spine_offset = "",
 		gyro = 0,
@@ -1458,6 +1458,116 @@ pg.base.ship_skin_template_2 = {
 						{
 							0.004,
 							1.783,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101481] = {
+		ship_group = 10148,
+		name = "飲品研究員？",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "145",
+		id = 101481,
+		group_index = 1,
+		prefab = "yinggelahan_2",
+		painting = "yinggelahan_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70586,
+		shop_type_id = 16,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "嗯…可以再加強點甜味…然後再來點這個…——唔？你來了？好，現在開始你就是試喝員一號了，為了做出創造性的飲料，讓我們一起努力吧！",
+		voice_actor = 282,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.112,
+					0.89,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.076,
+					1.081,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.007,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.117,
+							2.402,
 							0
 						}
 					}
@@ -9309,123 +9419,6 @@ pg.base.ship_skin_template_2 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
-		}
-	},
-	[102264] = {
-		ship_group = 10226,
-		name = "閃耀東煌之春",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "152",
-		id = 102264,
-		group_index = 4,
-		prefab = "linuo_5",
-		painting = "linuo_5",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70652,
-		shop_type_id = 3,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指揮官！你看！…嘿嘿，試著弄了點“小把戲”，有沒有很吸引目光？——比起小煙火，這身衣服更吸引目光？…欸？",
-		voice_actor = 231,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.3,
-					1.087,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.034,
-					1.126,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.246,
-					1.168,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.572,
-							2.197,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }

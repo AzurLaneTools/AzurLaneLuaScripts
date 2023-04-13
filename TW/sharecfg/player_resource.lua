@@ -1030,6 +1030,11 @@ pg.player_resource = {
 		name = "xiaoqiye_pt2",
 		itemid = 59409
 	},
+	[312] = {
+		id = 312,
+		name = "fuxu1_pt",
+		itemid = 59410
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2004,6 +2009,9 @@ pg.player_resource = {
 		xiaoqiye_pt2 = {
 			311
 		},
+		fuxu1_pt = {
+			312
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2425,6 +2433,7 @@ pg.player_resource = {
 		309,
 		310,
 		311,
+		312,
 		950,
 		951,
 		952,

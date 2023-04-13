@@ -9677,7 +9677,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "霞飛、不屈、企業 建造機率UP！"
+	tip = "英格拉罕、無畏、雷諾、鸚鵡螺、庫珀、馬布爾黑德 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -21750,4 +21750,8 @@ _G.pg.base.gametip.caibulin_help = {
 
 _G.pg.base.gametip.caibulin_tip11 = {
 	tip = "神器線索收集完成即可解鎖特別關卡~"
+}
+
+_G.pg.base.gametip.event_recommend_level1 = {
+	tip = "無符合推薦規則的角色，是否自動添加處於鎖定狀態且等級為1的角色？"
 }

@@ -83937,7 +83937,7 @@ _G.pg.base.chapter_template[1050011] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 150,
+	best_air_dominance = 0,
 	investigation_ratio = 18,
 	profiles = "告別皇家方舟，光榮在阿卡司塔與熱心的護衛下單獨起航，此時還沒人能料想到，危機正在前方等待著她們……",
 	difficulty = 6,
@@ -83951,7 +83951,7 @@ _G.pg.base.chapter_template[1050011] = {
 	num_3 = 1,
 	avoid_require = 82,
 	unlocklevel = 0,
-	air_dominance = 81,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -84539,7 +84539,7 @@ _G.pg.base.chapter_template[1050012] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 150,
+	best_air_dominance = 0,
 	investigation_ratio = 20,
 	profiles = "因為一時的鬆懈而遭遇襲擊的光榮等人，苦戰後終於勉強脫離了戰鬥，但是，一切才剛剛開始……",
 	difficulty = 7,
@@ -84553,7 +84553,7 @@ _G.pg.base.chapter_template[1050012] = {
 	num_3 = 1,
 	avoid_require = 90,
 	unlocklevel = 0,
-	air_dominance = 100,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -85143,7 +85143,7 @@ _G.pg.base.chapter_template[1050013] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 150,
+	best_air_dominance = 0,
 	investigation_ratio = 22,
 	profiles = "強大的敵人近在眼前，拋棄多餘的想法，讓敵人看看皇家海軍的實力吧！這是光榮的一戰！",
 	difficulty = 8,
@@ -85157,7 +85157,7 @@ _G.pg.base.chapter_template[1050013] = {
 	num_3 = 1,
 	avoid_require = 98,
 	unlocklevel = 0,
-	air_dominance = 120,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -85870,7 +85870,7 @@ _G.pg.base.chapter_template[1070201] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 150,
+	best_air_dominance = 0,
 	investigation_ratio = 15,
 	profiles = "商船沉沒前最後的信號，透露了施佩伯爵的位置，根據信號找到施佩伯爵！解決掉可能出現的對手吧！",
 	difficulty = 6,
@@ -85884,7 +85884,7 @@ _G.pg.base.chapter_template[1070201] = {
 	num_3 = 1,
 	avoid_require = 70,
 	unlocklevel = 0,
-	air_dominance = 81,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -86455,7 +86455,7 @@ _G.pg.base.chapter_template[1070202] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 150,
+	best_air_dominance = 0,
 	investigation_ratio = 18,
 	profiles = "發現施佩伯爵！做好戰鬥準備，不要讓敵人逃掉了！",
 	difficulty = 7,
@@ -86469,7 +86469,7 @@ _G.pg.base.chapter_template[1070202] = {
 	num_3 = 1,
 	avoid_require = 82,
 	unlocklevel = 0,
-	air_dominance = 100,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -87139,7 +87139,7 @@ _G.pg.base.chapter_template[1070203] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 150,
+	best_air_dominance = 0,
 	investigation_ratio = 21,
 	profiles = "埃克塞特受傷離場，然而敵人也已經是強弩之末。無論如何，接下來就是和施佩伯爵的最後戰鬥了",
 	difficulty = 8,
@@ -87153,7 +87153,7 @@ _G.pg.base.chapter_template[1070203] = {
 	num_3 = 1,
 	avoid_require = 94,
 	unlocklevel = 0,
-	air_dominance = 120,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -88745,7 +88745,7 @@ _G.pg.base.chapter_template[1100001] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 195,
+	best_air_dominance = 0,
 	investigation_ratio = 14,
 	profiles = "穿越風暴，與同伴離散，{namecode:96}獨自一人踏上了楓葉飄零的未知海域，這裡就是大家苦苦尋找的“聖域”嗎？",
 	difficulty = 3,
@@ -88759,7 +88759,7 @@ _G.pg.base.chapter_template[1100001] = {
 	num_3 = 1,
 	avoid_require = 66,
 	unlocklevel = 0,
-	air_dominance = 150,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -89290,7 +89290,7 @@ _G.pg.base.chapter_template[1100002] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 270,
+	best_air_dominance = 0,
 	investigation_ratio = 15,
 	profiles = "就在{namecode:96}焦急又茫然地尋找同伴與姐姐之時，突然從前方海域傳來了求救的信號，是陷阱？還是同伴？無論如何，唯有前往一探究竟了",
 	difficulty = 4,
@@ -89304,7 +89304,7 @@ _G.pg.base.chapter_template[1100002] = {
 	num_3 = 1,
 	avoid_require = 70,
 	unlocklevel = 0,
-	air_dominance = 205,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -89891,7 +89891,7 @@ _G.pg.base.chapter_template[1100003] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 355,
+	best_air_dominance = 0,
 	investigation_ratio = 16,
 	profiles = "根據先前收集的情報，這裡毋庸置疑正是傳說中的“聖域”，“她們”究竟在謀劃什麼？彷彿響應著疑惑一般，脫胎換骨的{namecode:79}擋在了{namecode:96}的眼前",
 	difficulty = 5,
@@ -89905,7 +89905,7 @@ _G.pg.base.chapter_template[1100003] = {
 	num_3 = 1,
 	avoid_require = 74,
 	unlocklevel = 0,
-	air_dominance = 270,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -90561,7 +90561,7 @@ _G.pg.base.chapter_template[1100004] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 430,
+	best_air_dominance = 0,
 	investigation_ratio = 15,
 	profiles = "楓葉飄零的島嶼，神社、參道，令人心醉而又懷念的風景之下，隱藏著不為人知的秘密",
 	difficulty = 5,
@@ -90575,7 +90575,7 @@ _G.pg.base.chapter_template[1100004] = {
 	num_3 = 1,
 	avoid_require = 70,
 	unlocklevel = 0,
-	air_dominance = 330,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -91182,7 +91182,7 @@ _G.pg.base.chapter_template[1100005] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 560,
+	best_air_dominance = 0,
 	investigation_ratio = 16,
 	profiles = "「明明已經不想再讓這種事情發生了…明明已經下定決心要變得堅強…但是為什麼…為什麼會變成這樣呢…{namecode:95}姐！」",
 	difficulty = 6,
@@ -91196,7 +91196,7 @@ _G.pg.base.chapter_template[1100005] = {
 	num_3 = 1,
 	avoid_require = 74,
 	unlocklevel = 0,
-	air_dominance = 430,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -91902,7 +91902,7 @@ _G.pg.base.chapter_template[1100006] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 700,
+	best_air_dominance = 0,
 	investigation_ratio = 17,
 	profiles = "一切的真相，似乎都在{namecode:91}與{namecode:92}兩位的手中，帶著決心與覺悟，{namecode:96}向著“聖域”的最深處——",
 	difficulty = 7,
@@ -91916,7 +91916,7 @@ _G.pg.base.chapter_template[1100006] = {
 	num_3 = 1,
 	avoid_require = 78,
 	unlocklevel = 0,
-	air_dominance = 535,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -92619,7 +92619,7 @@ _G.pg.base.chapter_template[1100011] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 690,
+	best_air_dominance = 0,
 	investigation_ratio = 17,
 	profiles = "穿越風暴，與同伴離散，{namecode:96}獨自一人踏上了楓葉飄零的未知海域，這裡就是大家苦苦尋找的“聖域”嗎？",
 	difficulty = 6,
@@ -92633,7 +92633,7 @@ _G.pg.base.chapter_template[1100011] = {
 	num_3 = 1,
 	avoid_require = 78,
 	unlocklevel = 0,
-	air_dominance = 530,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -93207,7 +93207,7 @@ _G.pg.base.chapter_template[1100012] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 790,
+	best_air_dominance = 0,
 	investigation_ratio = 18,
 	profiles = "就在{namecode:96}焦急又茫然地尋找同伴與姐姐之時，突然從前方海域傳來了求救的信號，是陷阱？還是同伴？無論如何，唯有前往一探究竟了",
 	difficulty = 7,
@@ -93221,7 +93221,7 @@ _G.pg.base.chapter_template[1100012] = {
 	num_3 = 1,
 	avoid_require = 82,
 	unlocklevel = 0,
-	air_dominance = 605,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -93850,7 +93850,7 @@ _G.pg.base.chapter_template[1100013] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 885,
+	best_air_dominance = 0,
 	investigation_ratio = 19,
 	profiles = "根據先前收集的情報，這裡毋庸置疑正是傳說中的“聖域”，“她們”究竟在謀劃什麼？彷彿響應著疑惑一般，脫胎換骨的{namecode:79}擋在了{namecode:96}的眼前",
 	difficulty = 8,
@@ -93864,7 +93864,7 @@ _G.pg.base.chapter_template[1100013] = {
 	num_3 = 1,
 	avoid_require = 86,
 	unlocklevel = 0,
-	air_dominance = 680,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -94563,7 +94563,7 @@ _G.pg.base.chapter_template[1100014] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 1055,
+	best_air_dominance = 0,
 	investigation_ratio = 19,
 	profiles = "楓葉飄零的島嶼，神社、參道，令人心醉而又懷念的風景之下，隱藏著不為人知的秘密",
 	difficulty = 8,
@@ -94577,7 +94577,7 @@ _G.pg.base.chapter_template[1100014] = {
 	num_3 = 1,
 	avoid_require = 86,
 	unlocklevel = 0,
-	air_dominance = 810,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -95226,7 +95226,7 @@ _G.pg.base.chapter_template[1100015] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 1255,
+	best_air_dominance = 0,
 	investigation_ratio = 20,
 	profiles = "「明明已經不想再讓這種事情發生了…明明已經下定決心要變得堅強…但是為什麼…為什麼會變成這樣呢…{namecode:95}姐！」",
 	difficulty = 9,
@@ -95240,7 +95240,7 @@ _G.pg.base.chapter_template[1100015] = {
 	num_3 = 1,
 	avoid_require = 90,
 	unlocklevel = 0,
-	air_dominance = 965,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -95988,7 +95988,7 @@ _G.pg.base.chapter_template[1100016] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 1470,
+	best_air_dominance = 0,
 	investigation_ratio = 21,
 	profiles = "一切的真相，似乎都在{namecode:91}與{namecode:92}兩位的手中，帶著決心與覺悟，{namecode:96}向著“聖域”的最深處——",
 	difficulty = 10,
@@ -96002,7 +96002,7 @@ _G.pg.base.chapter_template[1100016] = {
 	num_3 = 1,
 	avoid_require = 94,
 	unlocklevel = 0,
-	air_dominance = 1130,
+	air_dominance = 0,
 	submarine_num = 0,
 	uifx = "",
 	scale = {
@@ -110516,7 +110516,7 @@ _G.pg.base.chapter_template[1150001] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 160,
+	best_air_dominance = 0,
 	investigation_ratio = 0,
 	profiles = "收到的不明信號所指的坐標，竟是已經化為廢墟的塞壬基地，這裡是否還有殘留的情報？",
 	difficulty = 3,
@@ -110530,7 +110530,7 @@ _G.pg.base.chapter_template[1150001] = {
 	num_3 = 1,
 	avoid_require = 0,
 	unlocklevel = 0,
-	air_dominance = 120,
+	air_dominance = 0,
 	submarine_num = 1,
 	uifx = "",
 	scale = {
@@ -111103,7 +111103,7 @@ _G.pg.base.chapter_template[1150002] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 210,
+	best_air_dominance = 0,
 	investigation_ratio = 0,
 	profiles = "特遣分隊的行動已被察覺，資料不詳的新型塞壬正在快速接近中，做好迎戰準備！",
 	difficulty = 4,
@@ -111117,7 +111117,7 @@ _G.pg.base.chapter_template[1150002] = {
 	num_3 = 1,
 	avoid_require = 0,
 	unlocklevel = 0,
-	air_dominance = 160,
+	air_dominance = 0,
 	submarine_num = 1,
 	uifx = "",
 	scale = {
@@ -111751,7 +111751,7 @@ _G.pg.base.chapter_template[1150003] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 260,
+	best_air_dominance = 0,
 	investigation_ratio = 0,
 	profiles = "敵方的新型艦不斷地出現，神秘信號的線索卻依然在雲霧之中…將我們引導到這裡的…究竟是何方神聖？",
 	difficulty = 5,
@@ -111765,7 +111765,7 @@ _G.pg.base.chapter_template[1150003] = {
 	num_3 = 1,
 	avoid_require = 0,
 	unlocklevel = 0,
-	air_dominance = 200,
+	air_dominance = 0,
 	submarine_num = 1,
 	uifx = "",
 	scale = {
@@ -112490,7 +112490,7 @@ _G.pg.base.chapter_template[1150004] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 340,
+	best_air_dominance = 0,
 	investigation_ratio = 0,
 	profiles = "接收到了新的加密電文，時間點不明…無論是不是陷阱，都只能前往一探究竟了",
 	difficulty = 5,
@@ -112504,7 +112504,7 @@ _G.pg.base.chapter_template[1150004] = {
 	num_3 = 1,
 	avoid_require = 0,
 	unlocklevel = 0,
-	air_dominance = 260,
+	air_dominance = 0,
 	submarine_num = 1,
 	uifx = "",
 	scale = {
@@ -113167,7 +113167,7 @@ _G.pg.base.chapter_template[1150005] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 420,
+	best_air_dominance = 0,
 	investigation_ratio = 0,
 	profiles = "敵方火力與規模遠遠超出預期…新型的大型艦出乎意料的難纏，以破釜沉舟的氣勢戰鬥到底吧！",
 	difficulty = 6,
@@ -113181,7 +113181,7 @@ _G.pg.base.chapter_template[1150005] = {
 	num_3 = 1,
 	avoid_require = 0,
 	unlocklevel = 0,
-	air_dominance = 320,
+	air_dominance = 0,
 	submarine_num = 1,
 	uifx = "",
 	scale = {
@@ -113985,7 +113985,7 @@ _G.pg.base.chapter_template[1150006] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 420,
+	best_air_dominance = 0,
 	investigation_ratio = 0,
 	profiles = "越接近發信源的區域，越多的塞壬在此徘徊，對方似乎也在警戒著其他的什麼…先擊敗眼前的2艘大型戰艦吧！",
 	difficulty = 7,
@@ -113999,7 +113999,7 @@ _G.pg.base.chapter_template[1150006] = {
 	num_3 = 1,
 	avoid_require = 0,
 	unlocklevel = 0,
-	air_dominance = 320,
+	air_dominance = 0,
 	submarine_num = 1,
 	uifx = "",
 	scale = {
@@ -114982,7 +114982,7 @@ _G.pg.base.chapter_template[1150011] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 470,
+	best_air_dominance = 0,
 	investigation_ratio = 0,
 	profiles = "收到的不明信號所指的坐標，竟是已經化為廢墟的塞壬基地，這裡是否還有殘留的情報？",
 	difficulty = 6,
@@ -114996,7 +114996,7 @@ _G.pg.base.chapter_template[1150011] = {
 	num_3 = 1,
 	avoid_require = 0,
 	unlocklevel = 0,
-	air_dominance = 360,
+	air_dominance = 0,
 	submarine_num = 1,
 	uifx = "",
 	scale = {
@@ -115610,7 +115610,7 @@ _G.pg.base.chapter_template[1150012] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 520,
+	best_air_dominance = 0,
 	investigation_ratio = 0,
 	profiles = "特遣分隊的行動已被察覺，資料不詳的新型塞壬正在快速接近中，做好迎戰準備！",
 	difficulty = 7,
@@ -115624,7 +115624,7 @@ _G.pg.base.chapter_template[1150012] = {
 	num_3 = 1,
 	avoid_require = 0,
 	unlocklevel = 0,
-	air_dominance = 400,
+	air_dominance = 0,
 	submarine_num = 1,
 	uifx = "",
 	scale = {
@@ -116299,7 +116299,7 @@ _G.pg.base.chapter_template[1150013] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 635,
+	best_air_dominance = 0,
 	investigation_ratio = 0,
 	profiles = "敵方的新型艦不斷地出現，神秘信號的線索卻依然在雲霧之中…將我們引導到這裡的…究竟是何方神聖？",
 	difficulty = 8,
@@ -116313,7 +116313,7 @@ _G.pg.base.chapter_template[1150013] = {
 	num_3 = 1,
 	avoid_require = 0,
 	unlocklevel = 0,
-	air_dominance = 490,
+	air_dominance = 0,
 	submarine_num = 1,
 	uifx = "",
 	scale = {
@@ -117079,7 +117079,7 @@ _G.pg.base.chapter_template[1150014] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 755,
+	best_air_dominance = 0,
 	investigation_ratio = 0,
 	profiles = "接收到了新的加密電文，時間點不明…無論是不是陷阱，都只能前往一探究竟了",
 	difficulty = 8,
@@ -117093,7 +117093,7 @@ _G.pg.base.chapter_template[1150014] = {
 	num_3 = 1,
 	avoid_require = 0,
 	unlocklevel = 0,
-	air_dominance = 580,
+	air_dominance = 0,
 	submarine_num = 1,
 	uifx = "",
 	scale = {
@@ -117797,7 +117797,7 @@ _G.pg.base.chapter_template[1150015] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 885,
+	best_air_dominance = 0,
 	investigation_ratio = 0,
 	profiles = "敵方火力與規模遠遠超出預期…新型的大型艦出乎意料的難纏，以破釜沉舟的氣勢戰鬥到底吧！",
 	difficulty = 9,
@@ -117811,7 +117811,7 @@ _G.pg.base.chapter_template[1150015] = {
 	num_3 = 1,
 	avoid_require = 0,
 	unlocklevel = 0,
-	air_dominance = 680,
+	air_dominance = 0,
 	submarine_num = 1,
 	uifx = "",
 	scale = {
@@ -118656,7 +118656,7 @@ _G.pg.base.chapter_template[1150016] = {
 	collection_team = 0,
 	star_require_3 = 3,
 	num_1 = 1,
-	best_air_dominance = 1470,
+	best_air_dominance = 0,
 	investigation_ratio = 0,
 	profiles = "越接近發信源的區域，越多的塞壬在此徘徊，對方似乎也在警戒著其他的什麼…先擊敗眼前的2艘大型戰艦吧！",
 	difficulty = 10,
@@ -118670,7 +118670,7 @@ _G.pg.base.chapter_template[1150016] = {
 	num_3 = 1,
 	avoid_require = 0,
 	unlocklevel = 0,
-	air_dominance = 1130,
+	air_dominance = 0,
 	submarine_num = 1,
 	uifx = "",
 	scale = {
@@ -206352,11 +206352,7 @@ _G.pg.base.chapter_template[1300024] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {
-		29,
-		39,
-		15
-	},
+	use_oil_limit = {},
 	win_condition = {
 		{
 			1,
@@ -207026,11 +207022,7 @@ _G.pg.base.chapter_template[1300025] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {
-		32,
-		43,
-		16
-	},
+	use_oil_limit = {},
 	win_condition = {
 		{
 			1,
@@ -207747,11 +207739,7 @@ _G.pg.base.chapter_template[1300026] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {
-		35,
-		47,
-		16
-	},
+	use_oil_limit = {},
 	win_condition = {
 		{
 			1,
@@ -219695,7 +219683,7 @@ _G.pg.base.chapter_template[1330001] = {
 	name = "增援",
 	count = 0,
 	pop_pic = "SeaFogPermeates",
-	act_id = 40319,
+	act_id = 41125,
 	pos_y = "0.392708333",
 	is_ai = 1,
 	progress_boss = 50,
@@ -220184,7 +220172,7 @@ _G.pg.base.chapter_template[1330001] = {
 		"sea_meixiv3_normal",
 		45,
 		20,
-		27,
+		-420,
 		103,
 		100,
 		100,
@@ -220245,7 +220233,7 @@ _G.pg.base.chapter_template[1330002] = {
 	name = "迷霧之下",
 	count = 0,
 	pop_pic = "SeaFogPermeates",
-	act_id = 40319,
+	act_id = 41125,
 	pos_y = "0.052083333",
 	is_ai = 1,
 	progress_boss = 34,
@@ -220763,7 +220751,7 @@ _G.pg.base.chapter_template[1330002] = {
 		"sea_meixiv3_normal",
 		45,
 		20,
-		3,
+		-420,
 		68,
 		100,
 		100,
@@ -220823,7 +220811,7 @@ _G.pg.base.chapter_template[1330003] = {
 	name = "來自深淵",
 	count = 0,
 	pop_pic = "SeaFogPermeates",
-	act_id = 40319,
+	act_id = 41125,
 	pos_y = "0.344791667",
 	is_ai = 1,
 	progress_boss = 34,
@@ -221361,7 +221349,7 @@ _G.pg.base.chapter_template[1330003] = {
 		"sea_meixiv3_normal",
 		45,
 		20,
-		-9,
+		-420,
 		-88,
 		100,
 		100,
@@ -221421,7 +221409,7 @@ _G.pg.base.chapter_template[1330004] = {
 	name = "回歸",
 	count = 0,
 	pop_pic = "SeaFogPermeates",
-	act_id = 40320,
+	act_id = 41126,
 	pos_y = "0.227083333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -221996,7 +221984,7 @@ _G.pg.base.chapter_template[1330004] = {
 		"sea_meixiv3_normal",
 		45,
 		20,
-		8,
+		-420,
 		101,
 		100,
 		100,
@@ -222056,7 +222044,7 @@ _G.pg.base.chapter_template[1330005] = {
 	name = "英雄集結",
 	count = 0,
 	pop_pic = "SeaFogPermeates",
-	act_id = 40320,
+	act_id = 41126,
 	pos_y = "0.052083333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -222619,7 +222607,7 @@ _G.pg.base.chapter_template[1330005] = {
 		"sea_meixiv3_normal",
 		45,
 		20,
-		-128,
+		-420,
 		129,
 		100,
 		100,
@@ -222681,7 +222669,7 @@ _G.pg.base.chapter_template[1330006] = {
 	name = "霧淡雲輕",
 	count = 0,
 	pop_pic = "SeaFogPermeates",
-	act_id = 40320,
+	act_id = 41126,
 	pos_y = "0.383333333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -223312,7 +223300,7 @@ _G.pg.base.chapter_template[1330006] = {
 		"sea_meixiv3_normal",
 		45,
 		20,
-		-128,
+		-420,
 		98,
 		100,
 		100,
@@ -223378,7 +223366,7 @@ _G.pg.base.chapter_template[1330021] = {
 	name = "增援",
 	count = 0,
 	pop_pic = "SeaFogPermeates",
-	act_id = 40319,
+	act_id = 41125,
 	pos_y = "0.392708333",
 	is_ai = 1,
 	progress_boss = 34,
@@ -223909,7 +223897,7 @@ _G.pg.base.chapter_template[1330021] = {
 		"sea_meixiv3_hard",
 		45,
 		20,
-		27,
+		-420,
 		103,
 		100,
 		100,
@@ -223970,7 +223958,7 @@ _G.pg.base.chapter_template[1330022] = {
 	name = "迷霧之下",
 	count = 0,
 	pop_pic = "SeaFogPermeates",
-	act_id = 40319,
+	act_id = 41125,
 	pos_y = "0.052083333",
 	is_ai = 1,
 	progress_boss = 34,
@@ -224530,7 +224518,7 @@ _G.pg.base.chapter_template[1330022] = {
 		"sea_meixiv3_hard",
 		45,
 		20,
-		3,
+		-420,
 		68,
 		100,
 		100,
@@ -224590,7 +224578,7 @@ _G.pg.base.chapter_template[1330023] = {
 	name = "來自深淵",
 	count = 0,
 	pop_pic = "SeaFogPermeates",
-	act_id = 40319,
+	act_id = 41125,
 	pos_y = "0.344791667",
 	is_ai = 1,
 	progress_boss = 25,
@@ -225171,7 +225159,7 @@ _G.pg.base.chapter_template[1330023] = {
 		"sea_meixiv3_hard",
 		45,
 		20,
-		-9,
+		-420,
 		-88,
 		100,
 		100,
@@ -225231,7 +225219,7 @@ _G.pg.base.chapter_template[1330024] = {
 	name = "回歸",
 	count = 0,
 	pop_pic = "SeaFogPermeates",
-	act_id = 40320,
+	act_id = 41126,
 	pos_y = "0.380208333",
 	is_ai = 1,
 	progress_boss = 25,
@@ -225436,7 +225424,11 @@ _G.pg.base.chapter_template[1330024] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		29,
+		39,
+		15
+	},
 	win_condition = {
 		{
 			1,
@@ -225848,7 +225840,7 @@ _G.pg.base.chapter_template[1330024] = {
 		"sea_meixiv3_hard",
 		45,
 		20,
-		8,
+		-420,
 		101,
 		100,
 		100,
@@ -225908,7 +225900,7 @@ _G.pg.base.chapter_template[1330025] = {
 	name = "英雄集結",
 	count = 0,
 	pop_pic = "SeaFogPermeates",
-	act_id = 40320,
+	act_id = 41126,
 	pos_y = "0.122916667",
 	is_ai = 1,
 	progress_boss = 20,
@@ -226115,7 +226107,11 @@ _G.pg.base.chapter_template[1330025] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		32,
+		43,
+		16
+	},
 	win_condition = {
 		{
 			1,
@@ -226515,7 +226511,7 @@ _G.pg.base.chapter_template[1330025] = {
 		"sea_meixiv3_hard",
 		45,
 		20,
-		-128,
+		-420,
 		129,
 		100,
 		100,
@@ -226577,7 +226573,7 @@ _G.pg.base.chapter_template[1330026] = {
 	name = "霧淡雲輕",
 	count = 0,
 	pop_pic = "SeaFogPermeates",
-	act_id = 40320,
+	act_id = 41126,
 	pos_y = "0.35625",
 	is_ai = 1,
 	progress_boss = 20,
@@ -226784,7 +226780,11 @@ _G.pg.base.chapter_template[1330026] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		35,
+		47,
+		16
+	},
 	win_condition = {
 		{
 			1,
@@ -227252,7 +227252,7 @@ _G.pg.base.chapter_template[1330026] = {
 		"sea_meixiv3_hard",
 		45,
 		20,
-		-128,
+		-420,
 		98,
 		100,
 		100,
@@ -227318,7 +227318,7 @@ _G.pg.base.chapter_template[1330041] = {
 	name = "星空璀璨",
 	count = 1,
 	pop_pic = "",
-	act_id = 40320,
+	act_id = 41126,
 	pos_y = "0.2979",
 	is_ai = 1,
 	progress_boss = 100,
@@ -227885,7 +227885,7 @@ _G.pg.base.chapter_template[1330041] = {
 		"sea_meixiv3_hard",
 		45,
 		20,
-		-128,
+		-420,
 		98,
 		100,
 		100,
@@ -227920,7 +227920,7 @@ _G.pg.base.chapter_template[1330051] = {
 	name = "微層混合",
 	count = 0,
 	pop_pic = "",
-	act_id = 40320,
+	act_id = 41126,
 	pos_y = "0.2979",
 	is_ai = 0,
 	progress_boss = 100,
@@ -228322,7 +228322,7 @@ _G.pg.base.chapter_template[1330051] = {
 		"sea_meixiv3_hard",
 		45,
 		20,
-		-84,
+		-376,
 		114,
 		100,
 		100,
@@ -237901,11 +237901,7 @@ _G.pg.base.chapter_template[1360024] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {
-		29,
-		39,
-		15
-	},
+	use_oil_limit = {},
 	win_condition = {
 		{
 			1,
@@ -238643,11 +238639,7 @@ _G.pg.base.chapter_template[1360025] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {
-		32,
-		43,
-		16
-	},
+	use_oil_limit = {},
 	win_condition = {
 		{
 			1,
@@ -239703,11 +239695,7 @@ _G.pg.base.chapter_template[1360026] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {
-		35,
-		47,
-		16
-	},
+	use_oil_limit = {},
 	win_condition = {
 		{
 			1,
@@ -275151,11 +275139,7 @@ _G.pg.base.chapter_template[1430005] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {
-		22,
-		32,
-		15
-	},
+	use_oil_limit = {},
 	win_condition = {
 		{
 			1,
@@ -321346,11 +321330,7 @@ _G.pg.base.chapter_template[1520024] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {
-		29,
-		39,
-		15
-	},
+	use_oil_limit = {},
 	win_condition = {
 		{
 			1,
@@ -322204,11 +322184,7 @@ _G.pg.base.chapter_template[1520025] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {
-		32,
-		43,
-		16
-	},
+	use_oil_limit = {},
 	win_condition = {
 		{
 			1,
@@ -323076,11 +323052,7 @@ _G.pg.base.chapter_template[1520026] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {
-		35,
-		47,
-		16
-	},
+	use_oil_limit = {},
 	win_condition = {
 		{
 			1,

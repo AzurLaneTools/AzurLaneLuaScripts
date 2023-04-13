@@ -52,23 +52,6 @@ function slot0.setDailyCounts(slot0, slot1)
 	slot0.dailyCounts = slot1
 end
 
-function slot0.updateShowCenter(slot0)
-	if not slot0.dailyList or #slot0.dailyList == 0 then
-		return
-	end
-
-	slot1 = pg.expedition_daily_template
-
-	for slot5 = 1, #slot0.dailyList do
-		if slot1[slot0.dailyList[slot5]].show_with_count and slot6.show_with_count == 1 and slot6.limit_time - (slot0.dailyCounts and slot0.dailyCounts[slot6.id] or 0) > 0 then
-			slot0.dailyList[slot5] = slot0.dailyList[1]
-			slot0.dailyList[1] = slot0.dailyList[slot5]
-
-			return
-		end
-	end
-end
-
 function slot0.setShips(slot0, slot1)
 	slot0.shipVOs = slot1
 end
@@ -134,23 +117,8 @@ function slot0.initItems(slot0)
 		end
 	end
 
-	if #slot0.dailyList % 2 ~= 1 then
-		table.insert(slot0.dailyList, uv0)
-	end
-
-	table.sort(slot0.dailyList, function (slot0, slot1)
-		return pg.expedition_daily_template[slot1].sort < pg.expedition_daily_template[slot0].sort
-	end)
+	slot0:sortDailyList()
 	slot0:updateShowCenter()
-
-	for slot6, slot7 in pairs(slot0.dailyList) do
-		if table.contains(pg.expedition_daily_template[slot7].weekday, tonumber(slot0:getWeek())) then
-			table.remove(slot0.dailyList, slot6)
-			table.insert(slot0.dailyList, math.ceil(#slot2.all / 2), slot7)
-
-			break
-		end
-	end
 
 	if slot0.contextData.dailyLevelId then
 		slot3 = slot0.contextData.dailyLevelId
@@ -161,6 +129,47 @@ function slot0.initItems(slot0)
 
 	for slot6, slot7 in pairs(slot0.dailyList) do
 		slot0.dailyLevelTFs[slot7] = cloneTplTo(slot0.dailylevelTpl, slot0.content, slot7)
+	end
+end
+
+function slot0.sortDailyList(slot0)
+	if #slot0.dailyList % 2 ~= 1 then
+		table.insert(slot0.dailyList, uv0)
+	end
+
+	table.sort(slot0.dailyList, function (slot0, slot1)
+		return tonumber(pg.expedition_daily_template[slot1].sort) < tonumber(pg.expedition_daily_template[slot0].sort)
+	end)
+end
+
+function slot0.updateShowCenter(slot0)
+	if not slot0.dailyList or #slot0.dailyList == 0 then
+		return
+	end
+
+	slot1 = #slot0.dailyList
+	slot2 = pg.expedition_daily_template
+	slot3 = math.ceil(slot1 / 2)
+	slot4 = nil
+
+	for slot8 = 1, slot1 do
+		if slot2[slot0.dailyList[slot8]].show_with_count and slot9.show_with_count == 1 and slot9.limit_time - (slot0.dailyCounts and slot0.dailyCounts[slot9.id] or 0) > 0 then
+			slot4 = slot4 or slot8
+		end
+	end
+
+	if slot4 then
+		slot5 = slot3 - slot4 < 0 and true or false
+
+		for slot10 = 1, math.abs(slot3 - slot4) do
+			slot11 = nil
+
+			if slot5 then
+				table.insert(slot0.dailyList, table.remove(slot0.dailyList, 1))
+			else
+				table.insert(slot0.dailyList, 1, table.remove(slot0.dailyList, #slot0.dailyList))
+			end
+		end
 	end
 end
 

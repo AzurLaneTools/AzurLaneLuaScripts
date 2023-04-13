@@ -145878,6 +145878,27 @@ _G.pg.base.item_data_statistics[59227] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59229] = {
+	display = "用於『微層混合』復刻活動兌換，活動結束後將會消失",
+	name = "銀翼之徽 ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59229,
+	is_world = 0,
+	icon = "Props/meixiv3_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59230] = {
 	display = "用於『響徹碧海的偶像之歌』活動兌換，活動結束後將會消失",
 	name = "聯動Pt",
