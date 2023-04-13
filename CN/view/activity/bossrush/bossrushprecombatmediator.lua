@@ -36,7 +36,6 @@ function slot0.register(slot0)
 end
 
 function slot0.bindEvent(slot0)
-	uv0.super.bindEvent(slot0)
 	slot0:bind(uv0.ON_CHANGE_FLEET, function (slot0, slot1)
 		uv0:changeFleet(slot1)
 	end)
@@ -50,7 +49,19 @@ function slot0.bindEvent(slot0)
 		uv0:refreshEdit(slot1)
 	end)
 	slot0:bind(uv0.REMOVE_SHIP, function (slot0, slot1, slot2)
-		FormationMediator.removeShipFromFleet(slot2, slot1)
+		(function (slot0, slot1)
+			if not slot0:canRemove(slot1) then
+				slot2, slot3 = slot0:getShipPos(slot1)
+
+				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", slot1:getConfigTable().name, slot0.name, Fleet.C_TEAM_NAME[slot3]))
+
+				return false
+			end
+
+			slot0:removeShip(slot1)
+
+			return true
+		end)(slot2, slot1)
 		uv0:refreshEdit(slot2)
 	end)
 	slot0:bind(uv0.OPEN_SHIP_INFO, function (slot0, slot1, slot2)
@@ -104,6 +115,10 @@ function slot0.bindEvent(slot0)
 			actID = uv0.contextData.actId,
 			fleets = {}
 		})
+	end)
+	slot0:bind(uv0.ON_COMMIT_EDIT, function (slot0, slot1)
+		assert(false)
+		uv0:commitEdit(slot1)
 	end)
 	slot0:bind(uv0.ON_START, function (slot0, slot1)
 		slot2 = uv0.viewComponent
@@ -267,9 +282,22 @@ function slot0.changeFleet(slot0, slot1)
 	slot0.viewComponent:SetFleetStepper()
 end
 
-function slot0.refreshEdit(slot0, slot1)
+function slot0.refreshEdit(slot0)
 	slot0.viewComponent:UpdateFleetView(false)
 	slot0:sendNotification(uv0.ON_FLEET_REFRESHED)
+end
+
+function slot0.commitEdit(slot0)
+	_.each(slot0.contextData.fleets, function (slot0)
+		getProxy(FleetProxy):updateActivityFleet(uv0.contextData.actId, slot0.id, slot0)
+	end)
+	_.each(slot0.contextData.fleets, function (slot0)
+		uv0[slot0.id] = slot0
+	end)
+	slot0:sendNotification(GAME.EDIT_ACTIVITY_FLEET, {
+		actID = slot0.contextData.actId,
+		fleets = {}
+	})
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -277,7 +305,6 @@ function slot0.listNotificationInterests(slot0)
 		GAME.BOSSRUSH_TRACE_DONE,
 		GAME.BEGIN_STAGE_DONE,
 		GAME.BEGIN_STAGE_ERRO,
-		PreCombatMediator.BEGIN_STAGE_PROXY,
 		uv0.CONTINUOUS_OPERATION
 	}
 end
@@ -297,8 +324,6 @@ function slot0.handleNotification(slot0, slot1)
 				end
 			})
 		end
-	elseif slot2 == PreCombatMediator.BEGIN_STAGE_PROXY then
-		slot0.viewComponent:emit(PreCombatMediator.BEGIN_STAGE_PROXY, slot3)
 	elseif slot2 == uv0.CONTINUOUS_OPERATION then
 		slot0.viewComponent:emit(BossRushPreCombatMediator.ON_START, slot3.battleTimes)
 	elseif slot2 == GAME.BOSSRUSH_TRACE_DONE then

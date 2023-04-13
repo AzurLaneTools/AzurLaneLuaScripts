@@ -11,7 +11,7 @@ pg.expedition_daily_template = {
 		des = "该副本暂未开放，敬请期待",
 		limit_period = "",
 		id = 101,
-		sort = "0",
+		sort = "7",
 		weekday = {},
 		expedition_and_lv_limit_list = {}
 	},
@@ -182,7 +182,7 @@ pg.expedition_daily_template = {
 		des = "潜艇编队开始了破交行动，行动成功将获得各种潜艇装备设计图",
 		limit_period = "",
 		id = 501,
-		sort = "4",
+		sort = "5",
 		weekday = {
 			1,
 			2,
@@ -230,7 +230,7 @@ pg.expedition_daily_template = {
 		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
 		limit_period = "",
 		id = 601,
-		sort = "7",
+		sort = "4",
 		weekday = {
 			1,
 			2,
@@ -278,7 +278,7 @@ pg.expedition_daily_template = {
 		des = "与贝尔法斯特进行特殊兵装战斗训练，完成训练可获得特殊兵装或特殊兵装材料",
 		limit_period = "",
 		id = 701,
-		sort = "5",
+		sort = "6",
 		weekday = {
 			1,
 			2,
@@ -309,7 +309,7 @@ pg.expedition_daily_template = {
 		pic = "daily8",
 		des = "限时开启的特殊兵装战斗特别训练，完成训练可获得特殊兵装或特殊兵装材料",
 		id = 801,
-		sort = "6",
+		sort = "7",
 		weekday = {
 			1,
 			2,

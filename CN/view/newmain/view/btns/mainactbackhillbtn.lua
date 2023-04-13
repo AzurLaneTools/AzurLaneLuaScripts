@@ -31,6 +31,8 @@ function slot0.IsShowTip(slot0)
 		return slot0:IsShowTip4CampusFestival2022()
 	elseif slot1 == ActivityConst.MINIGAME_RYZA then
 		return slot0:IsShowTipRyzaLink()
+	elseif slot1 == ActivityConst.ROP_COW_ID then
+		return BackHillTemplate.IsMiniActNeedTip(ActivityConst.ROP_COW_ID)
 	end
 
 	if getProxy(ActivityProxy):getActivityById(slot1) then

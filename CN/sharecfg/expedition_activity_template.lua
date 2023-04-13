@@ -5028,6 +5028,10 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
+				4747,
+				312
+			},
+			{
 				4743,
 				311
 			}
@@ -5038,6 +5042,10 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
+				4747,
+				312
+			},
+			{
 				4743,
 				311
 			}
@@ -5047,6 +5055,10 @@ pg.expedition_activity_template = {
 		id = 1580213,
 		bonus_time = 0,
 		pt_drop_display = {
+			{
+				4747,
+				312
+			},
 			{
 				4743,
 				311
