@@ -109,6 +109,19 @@ function slot0.register(slot0)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("event_recommend_fail"))
 		end
 	end)
+	slot0:bind(EventConst.EVENT_RECOMMEND_LEVEL1, function (slot0, slot1)
+		slot2 = getProxy(EventProxy)
+		slot2.selectedEvent = slot1
+
+		getProxy(EventProxy):fillRecommendShipLV1(slot1)
+		uv0:updateEventList(true, true)
+
+		slot2.selectedEvent = nil
+
+		if not slot1:reachNum() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("event_recommend_fail"))
+		end
+	end)
 	slot0:updateEventList(false)
 end
 

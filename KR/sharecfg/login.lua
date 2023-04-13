@@ -673,37 +673,11 @@ pg.login = {
 	[24] = {
 		id = 24,
 		login_static = "login",
+		date = "stop",
 		op_play = 0,
 		op_time = "",
 		login_cri = "loginbg_230401",
-		bgm = "login-2022401jp",
-		date = {
-			"timer",
-			{
-				{
-					2023,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = "login-2022401jp"
 	},
 	all = {
 		1,

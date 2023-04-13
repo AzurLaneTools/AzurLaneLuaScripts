@@ -42,30 +42,24 @@ function slot0.getSortGoods(slot0)
 		table.insert(slot1, slot6)
 	end
 
-	table.sort(slot1, function (slot0, slot1)
-		slot2 = slot0:canPurchase() and 1 or 0
-		slot3 = slot1:canPurchase() and 1 or 0
-		slot4, slot5 = slot0:CheckTimeLimit()
-		slot6, slot7 = slot1:CheckTimeLimit()
+	table.sort(slot1, CompareFuncs({
+		function (slot0)
+			slot1, slot2 = slot0:CheckArgLimit()
 
-		if slot4 and not slot5 then
-			slot2 = 0.5
-		end
+			return (slot0:canPurchase() or slot2) and 0 or 1
+		end,
+		function (slot0)
+			slot1, slot2 = slot0:CheckTimeLimit()
 
-		if slot6 and not slot7 then
-			slot3 = 0.5
+			return slot1 and slot2 and 0 or 1
+		end,
+		function (slot0)
+			return slot0:getConfig("order")
+		end,
+		function (slot0)
+			return slot0.id
 		end
-
-		if slot2 == slot3 then
-			if slot0:getConfig("order") == slot1:getConfig("order") then
-				return slot0.id < slot1.id
-			else
-				return slot8 < slot9
-			end
-		else
-			return slot3 < slot2
-		end
-	end)
+	}))
 
 	return slot1
 end
