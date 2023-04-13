@@ -183217,6 +183217,27 @@ _G.pg.base.item_data_statistics[59409] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59410] = {
+	display = "A limited event currency earned from the \"The Flame-Touched Dagger\" event. Will disappear after the event period ends.",
+	name = "Flame-Touched Dagger",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59410,
+	is_world = 0,
+	icon = "Props/fuxu_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",

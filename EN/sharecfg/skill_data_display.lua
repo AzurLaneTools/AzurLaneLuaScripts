@@ -2352,6 +2352,7 @@ pg.skill_data_display = setmetatable({
 		800772,
 		800775,
 		800777,
+		902201,
 		1010140,
 		1010143,
 		1010144,
@@ -2437,6 +2438,9 @@ pg.skill_data_display = setmetatable({
 		1010580,
 		1011500,
 		1011501,
+		1011521,
+		1011522,
+		1011523,
 		1011711,
 		1090020,
 		1090042,
@@ -11852,6 +11856,10 @@ pg.base.skill_data_display = {
 		id = 800777,
 		name = "Cinders of Hope - La Galissonnière"
 	},
+	[902201] = {
+		id = 902201,
+		name = "Fantastic Loop"
+	},
 	[1010140] = {
 		id = 1010140,
 		name = "Eagle's Tears+"
@@ -12191,6 +12199,18 @@ pg.base.skill_data_display = {
 	[1011501] = {
 		id = 1011501,
 		name = "Radiant Iris+"
+	},
+	[1011521] = {
+		id = 1011521,
+		name = "Heart of Iris+"
+	},
+	[1011522] = {
+		id = 1011522,
+		name = "Heart of Iris+"
+	},
+	[1011523] = {
+		id = 1011523,
+		name = "Heart of Iris+"
 	},
 	[1011711] = {
 		id = 1011711,

@@ -11,7 +11,7 @@ pg.expedition_daily_template = {
 		des = "This stage is not available yet.",
 		limit_period = "",
 		id = 101,
-		sort = "0",
+		sort = "7",
 		weekday = {},
 		expedition_and_lv_limit_list = {}
 	},
@@ -182,7 +182,7 @@ pg.expedition_daily_template = {
 		des = "Launch an operation to disrupt enemy supply lines with your Submarine Fleet! Success will grant you various Submarine gear blueprints! ",
 		limit_period = "",
 		id = 501,
-		sort = "4",
+		sort = "5",
 		weekday = {
 			1,
 			2,
@@ -230,7 +230,7 @@ pg.expedition_daily_template = {
 		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
 		limit_period = "",
 		id = 601,
-		sort = "7",
+		sort = "4",
 		weekday = {
 			1,
 			2,
@@ -278,7 +278,7 @@ pg.expedition_daily_template = {
 		des = "This stage pits your fleet against another fleet that uses Augment Modules. Complete it to receive Augment Modules or associated materials.",
 		limit_period = "",
 		id = 701,
-		sort = "5",
+		sort = "6",
 		weekday = {
 			1,
 			2,
@@ -309,7 +309,7 @@ pg.expedition_daily_template = {
 		pic = "daily8",
 		des = "A limited-time module development challenge. Clear it to obtain materials for module crafting and upgrading.",
 		id = 801,
-		sort = "6",
+		sort = "7",
 		weekday = {
 			1,
 			2,

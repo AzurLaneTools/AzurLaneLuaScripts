@@ -4805,6 +4805,230 @@ pg.activity_template = {
 			}
 		}
 	},
+	[4744] = {
+		mark = 20230413,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_4744",
+		id = 4744,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "Foch available for a limited time!",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"Common：30%",
+				"<color=#d797ff>Foch</color>：1.4%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[4745] = {
+		mark = 20230413,
+		id = 4745,
+		title_res_tag = "fuxu_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4745,
+		is_show = 41,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "FuxuPtPage",
+			ui_name = "FuxuPtPage"
+		},
+		config_client = {
+			linkActID = 4747
+		}
+	},
+	[4746] = {
+		mark = 20230413,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 312,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 4746,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4747] = {
+		mark = 20230413,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4747,
+		config_data = {
+			1580001,
+			1580002,
+			1580003
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4748] = {
+		mark = 20230413,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4748,
+		config_data = {
+			18426,
+			18427,
+			18428,
+			18429,
+			18430,
+			18431
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		id = 7001,
@@ -26600,6 +26824,11 @@ pg.activity_template = {
 		4741,
 		4742,
 		4743,
+		4744,
+		4745,
+		4746,
+		4747,
+		4748,
 		7001,
 		7002,
 		7003,

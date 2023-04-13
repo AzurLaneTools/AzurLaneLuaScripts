@@ -19247,6 +19247,63 @@ _G.pg.base.shop_template[60395] = {
 	}
 }
 
+_G.pg.base.shop_template[60396] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "120钻石购买限时攻略补给(福煦SP复刻)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60396,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2023,
+				4,
+				13
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				4,
+				26
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[61001] = {
 	is_auto_use = 0,
 	time_second = 0,
@@ -41301,9 +41358,9 @@ _G.pg.base.shop_template[70613] = {
 	time = {
 		{
 			{
-				2022,
-				11,
-				17
+				2023,
+				4,
+				13
 			},
 			{
 				0,
@@ -41313,9 +41370,9 @@ _G.pg.base.shop_template[70613] = {
 		},
 		{
 			{
-				2022,
-				11,
-				30
+				2023,
+				4,
+				26
 			},
 			{
 				23,

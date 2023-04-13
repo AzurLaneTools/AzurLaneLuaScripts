@@ -25,7 +25,7 @@ end
 function slot0.canRemove(slot0, slot1, slot2)
 	slot3, slot4 = slot0:getShipPos(slot1)
 
-	if slot3 > 0 and #(slot0:getTeamByName(slot4) or {}) == 1 and not slot2 then
+	if slot3 and slot3 > 0 and slot4 ~= TeamType.Submarine and #(slot0:getTeamByName(slot4) or {}) == 1 and not slot2 then
 		return false
 	else
 		return true
