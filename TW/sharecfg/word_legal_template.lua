@@ -3239,6 +3239,13 @@ function temp()
 			["座"] = {
 				this = true
 			}
+		},
+		["格"] = {
+			["拉"] = {
+				["罕"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -5774,6 +5781,18 @@ function temp()
 	uv0["風"] = {
 		["雲"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["鸚"] = {
+		["鵡"] = {
+			["螺"] = {
+				this = true
+			}
 		}
 	}
 end

@@ -25219,7 +25219,7 @@ pg.activity_template = {
 		type = 87,
 		login_pop = 0,
 		config_id = 41116,
-		is_show = 30,
+		is_show = 25,
 		id = 41116,
 		config_data = {},
 		time = {
@@ -25395,7 +25395,7 @@ pg.activity_template = {
 		type = 3,
 		login_pop = 0,
 		config_id = 31,
-		is_show = 29,
+		is_show = 24,
 		id = 41123,
 		config_data = {},
 		time = {
@@ -27965,7 +27965,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 32,
+		is_show = 26,
 		config_data = {
 			71,
 			72,
