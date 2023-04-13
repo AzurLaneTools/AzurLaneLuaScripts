@@ -39,7 +39,7 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				projectName = "new",
+				projectName = "heavy",
 				page = 1
 			}
 		},
