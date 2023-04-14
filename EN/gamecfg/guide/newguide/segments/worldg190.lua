@@ -15,7 +15,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "收集到的信标数据可以点击此处查看。",
+				text = "Gather enough coordinates and you’ll unlock a new feature!",
 				mode = 2,
 				posY = 335.5,
 				char = "1",
