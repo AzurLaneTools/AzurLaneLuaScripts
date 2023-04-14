@@ -157140,11 +157140,10 @@ _G.pg.base.chapter_template_loop[1320003] = {
 }
 
 _G.pg.base.chapter_template_loop[1330001] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -157578,17 +157577,20 @@ _G.pg.base.chapter_template_loop[1330001] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1330002] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -158051,17 +158053,20 @@ _G.pg.base.chapter_template_loop[1330002] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1330003] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -158544,17 +158549,20 @@ _G.pg.base.chapter_template_loop[1330003] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1330004] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -159074,17 +159082,20 @@ _G.pg.base.chapter_template_loop[1330004] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1330005] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -159592,17 +159603,20 @@ _G.pg.base.chapter_template_loop[1330005] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1330006] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -160178,17 +160192,20 @@ _G.pg.base.chapter_template_loop[1330006] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1330021] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -160664,17 +160681,20 @@ _G.pg.base.chapter_template_loop[1330021] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1330022] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -161179,17 +161199,20 @@ _G.pg.base.chapter_template_loop[1330022] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1330023] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -161715,17 +161738,20 @@ _G.pg.base.chapter_template_loop[1330023] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1330024] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -162287,17 +162313,20 @@ _G.pg.base.chapter_template_loop[1330024] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1330025] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -162849,17 +162878,20 @@ _G.pg.base.chapter_template_loop[1330025] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1330026] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 1,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 1,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 2,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -163479,6 +163511,10 @@ _G.pg.base.chapter_template_loop[1330026] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
