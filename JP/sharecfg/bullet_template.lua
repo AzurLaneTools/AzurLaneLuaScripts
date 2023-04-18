@@ -1,8 +1,4 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "bullet_template", rawget(pg.base, "bullet_template") or {})
-
 pg.bullet_template = setmetatable({
 	__name = "bullet_template",
 	all = {
@@ -10003,6 +9999,8 @@ pg.bullet_template = setmetatable({
 		3059645
 	}
 }, confMT)
+pg.base = pg.base or {}
+pg.base.bullet_template = pg.base.bullet_template or {}
 cs = cs or {}
 cs.bullet_template = {
 	[100] = {

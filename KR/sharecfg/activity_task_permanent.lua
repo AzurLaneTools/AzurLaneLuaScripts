@@ -20,7 +20,8 @@ pg.activity_task_permanent = setmetatable({
 		6015,
 		6016,
 		6017,
-		6018
+		6018,
+		6019
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -471,6 +472,32 @@ pg.base.activity_task_permanent = {
 			35220,
 			35221,
 			35222
+		}
+	},
+	[6019] = {
+		gametip = "이56 한정 스킨 「외톨이 해바라기 」획득 가능",
+		banner_route = "permanent_i56",
+		gametip_extra = "7일 만에 획득 가능",
+		over_pt = 0,
+		task_extra = "",
+		id = 6019,
+		activity_name = "외톨이 해바라기",
+		over_task_id = "",
+		eliminate_task_id = {
+			35223,
+			35224,
+			35225,
+			35226,
+			35227,
+			35228,
+			35229,
+			35230,
+			35231,
+			35232,
+			35233,
+			35234,
+			35235,
+			35236
 		}
 	}
 }

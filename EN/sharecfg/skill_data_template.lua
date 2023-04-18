@@ -1766,6 +1766,7 @@ pg.skill_data_template = setmetatable({
 		902160,
 		902170,
 		902180,
+		902200,
 		902190,
 		1010140,
 		1010390,
@@ -1790,6 +1791,7 @@ pg.skill_data_template = setmetatable({
 		1011710,
 		1010250,
 		1010670,
+		1011520,
 		1090010,
 		1090020,
 		1090030,
@@ -1798,7 +1800,8 @@ pg.skill_data_template = setmetatable({
 		1090060,
 		1090070,
 		1090080,
-		1090090
+		1090090,
+		1090100
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -108696,6 +108699,20 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[902200] = {
+		desc_get = "",
+		name = "Fantastic Loop",
+		id = 902200,
+		type = 3,
+		max_level = 1,
+		desc = "When this ship or a DD in your Vanguard sinks an enemy: the ship that sunk the enemy fires a special barrage (15s cooldown between activations).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[902190] = {
 		desc_get = "",
 		name = "Bulin, full-charge attack!",
@@ -111479,6 +111496,112 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 			}
 		}
 	},
+	[1011520] = {
+		desc_get = "",
+		name = "Heart of Iris+",
+		id = 1011520,
+		type = 3,
+		max_level = 10,
+		desc = "When the battle starts, increases this ship's and your Iris Libre and Vichya Dominion DDs' FP, TRP, and ACC by $1 and deploys a shield around each of them (including this ship). These shields last until the end of the battle and can block up to $2 of the recipient's max HP in DMG; for each DD in your Vanguard, the shield's max blockable DMG is further increased by $2 of the recipient's max HP.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"1.0%",
+				"4.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.3%"
+				},
+				{
+					"1.3%",
+					"+0.3%"
+				},
+				{
+					"1.6%",
+					"+0.4%"
+				},
+				{
+					"2.0%",
+					"+0.3%"
+				},
+				{
+					"2.3%",
+					"+0.3%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.3%"
+				},
+				{
+					"3.3%",
+					"+0.3%"
+				},
+				{
+					"3.6%",
+					"+0.4%"
+				},
+				{
+					"4.0%"
+				}
+			}
+		}
+	},
 	[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -112719,6 +112842,112 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 				},
 				{
 					"Lv.10"
+				}
+			}
+		}
+	},
+	[1090100] = {
+		desc_get = "",
+		name = "Piercing Shells - Edinburgh",
+		id = 1090100,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's AP Ammo DMG dealt by $1. When this ship hits an enemy with an AP Ammo Main Gun: $2 chance to inflict Armor Break for 6s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15%",
+				"25%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
 				}
 			}
 		}

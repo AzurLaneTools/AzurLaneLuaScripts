@@ -19960,6 +19960,85 @@ _G.pg.base.item_data_statistics[40119] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[40121] = {
+	display = "Buy this pack to receive EXP Pack T2 x 100.",
+	name = "Shipgirl EXP Pack (Campaign)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40121,
+	is_world = 0,
+	icon = "ChargeIcon/boxExp",
+	display_icon = {
+		{
+			2,
+			16502,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40122] = {
+	display = "Buy this pack to receive a large number of Skill Books.",
+	name = "Skill Book Pack (Campaign)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40122,
+	is_world = 0,
+	icon = "ChargeIcon/boxSkill_newserver",
+	display_icon = {
+		{
+			2,
+			16004,
+			1
+		},
+		{
+			2,
+			16014,
+			1
+		},
+		{
+			2,
+			16024,
+			1
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[40124] = {
 	display = [[
 Use this item to instantly unlock any Series 1 PR ship at Development Level 1. Eligible ships:
@@ -20086,6 +20165,43 @@ _G.pg.base.item_data_statistics[40126] = {
 	is_world = 0,
 	icon = "Props/lv_70",
 	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[40127] = {
+	display = "Contains loads of valuable rewards.",
+	name = "Limited Build Supplies (Campaign)",
+	max_num = 0,
+	type = 17,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 40127,
+	is_world = 0,
+	icon = "ChargeIcon/boxBuild_newserver",
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			1,
+			15000
+		}
+	},
 	price = {},
 	index = {},
 	shiptrans_id = {}
@@ -183032,6 +183148,90 @@ _G.pg.base.item_data_statistics[59406] = {
 	id = 59406,
 	is_world = 0,
 	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59407] = {
+	display = "Can be used to build shipgirls in the Campaign pool. Acquired through the Newcomers' Support Campaign.",
+	name = "Newcomers' Build Ticket",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 30861,
+	id = 59407,
+	is_world = 0,
+	icon = "Props/buildTicket_newserver",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59408] = {
+	display = "Newcomers' Support Campaign shop currency. Removed after the campaign ends.",
+	name = "Campaign Pts",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59408,
+	is_world = 0,
+	icon = "Props/newserver_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59409] = {
+	display = "Used in the \"Soar Fledgling Wings!\" event. Will disappear after the event period ends.",
+	name = "Trust - Little Enterprise",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59409,
+	is_world = 0,
+	icon = "Props/xiaoqiye_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59410] = {
+	display = "A limited event currency earned from the \"The Flame-Touched Dagger\" event. Will disappear after the event period ends.",
+	name = "Flame-Touched Dagger",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59410,
+	is_world = 0,
+	icon = "Props/fuxu_pt",
 	display_icon = {},
 	price = {},
 	index = {},

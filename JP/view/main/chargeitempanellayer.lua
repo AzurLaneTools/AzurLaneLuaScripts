@@ -175,7 +175,7 @@ function slot0.updatePanel(slot0)
 	end
 
 	setActive(slot0.detailGem, not slot8 and not slot14)
-	setActive(slot0.detailGold, not isActive(slot0.detailRmb) and not isActive(slot0.detailGem))
+	setActive(slot0.detailGold, not slot8 and not isActive(slot0.detailRmb) and not isActive(slot0.detailGem))
 	setText(slot0.detailPrice, slot7)
 
 	if slot0.extraDesc ~= nil then

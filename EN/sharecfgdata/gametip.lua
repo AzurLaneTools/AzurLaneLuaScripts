@@ -20060,7 +20060,7 @@ _G.pg.base.gametip.build_ticket_description = {
 }
 
 _G.pg.base.gametip.build_ticket_expire_warning = {
-	tip = "Expiring soon: $1"
+	tip = "Expiring: $1"
 }
 
 _G.pg.base.gametip.tip_build_ticket_expired = {
@@ -21050,8 +21050,20 @@ _G.pg.base.gametip.facebook_link_title = {
 	tip = "Facebook Account:$1"
 }
 
+_G.pg.base.gametip.newserver_time = {
+	tip = "$1 day(s) $2 hour(s)"
+}
+
+_G.pg.base.gametip.newserver_soldout = {
+	tip = "This item is sold out."
+}
+
 _G.pg.base.gametip.skill_learn_tip = {
 	tip = "You can quickly finish a class $1 more time(s) today."
+}
+
+_G.pg.base.gametip.newserver_build_tip = {
+	tip = "Only Newcomers' Build Tickets may be used to build from this pool."
 }
 
 _G.pg.base.gametip.build_count_tip = {
@@ -21114,6 +21126,46 @@ _G.pg.base.gametip.techpackage_item_use = {
 
 _G.pg.base.gametip.techpackage_item_use_confirm = {
 	tip = "With all eligible PRs unlocked, you will get:"
+}
+
+_G.pg.base.gametip.new_server_shop_sel_goods_tip = {
+	tip = "You can only exchange for gear once."
+}
+
+_G.pg.base.gametip.new_server_shop_unopen_tip = {
+	tip = "Unavailable"
+}
+
+_G.pg.base.gametip.newserver_activity_tip = {
+	tip = {
+		{
+			info = "- Newcomers' Support Campaign -\n"
+		},
+		{
+			info = "<color=#92fc63>· Availability</color>\nThis campaign lasts from the day you logged in with your newly-created account until 11:59 PM on the 21st day since account creation. You can also see how much longer the campaign is active on the corresponding event banner.\n"
+		},
+		{
+			info = [[
+<color=#92fc63>· Newcomer Missions</color>
+Eligible players can complete special missions to earn Campaign Points. There are two types of missions: daily missions, which update every day at midnight local server time, and one-time missions, which may only be completed once.
+Completing some of these missions yields additional rewards as well, including the shipgirls Ark Royal, U-47, and Sirius.
+]]
+		},
+		{
+			info = [[
+<color=#92fc63>· The Exchange</color>
+The Campaign Points you've earned can be spent in the Exchange on rewards such as the shipgirl Nagato, Build Tickets, and Wisdom Cubes.
+The Exchange's inventory lineup comes in 3 stages that are unlocked in order:
+Stage 1: available from your first login
+Stage 2: available from day 7 since your first login
+Stage 3: available from day 14 since your first login
+You may still exchange for rewards for another 7 days after this campaign formally ends.
+]]
+		},
+		{
+			info = "<color=#92fc63>· Campaign Pool</color>\nThis is a special build pool available only during the campaign. You can spend your Newcomers' Build Tickets to receive shipgirls, and after a total of 40 builds, you will receive the SR shipgirl Enterprise. Please note that this build pool will be unavailable after this point."
+		}
+	}
 }
 
 _G.pg.base.gametip.newserver_shop_timelimit = {
@@ -23598,4 +23650,38 @@ Note: Clues can only be unlocked this way once every 10 minutes.
 
 _G.pg.base.gametip.caibulin_tip11 = {
 	tip = "Collect all the clues to unlock a secret stage!"
+}
+
+_G.pg.base.gametip.gametip_xiaoqiye = {
+	tip = {
+		{
+			info = "- Overview -\nDuring the event, Little Enterprise will provisionally join your fleet. Fight boss fleets to earn Trust. Collect enough Trust to have Little Enterprise permanently join your port!"
+		},
+		{
+			info = [[
+- How to Play -
+· Collect Trust during the event period to have Little Enterprise will permanently join your fleet.
+· Trust can be gathered by defeating the boss fleet of campaign maps starting from Chapter 3 on normal difficulty and event maps (not including War Archive). If Little Enterprise is in the fleet that defeats the boss and she is still afloat, you'll receive double the amount of Trust.
+· The Trust you've collected can be turned in for additional rewards on the event banner.]]
+		},
+		{
+			info = "· You will not be able to give a Promise Ring to Little Enterprise until you have formally recruited her to the fleet. You will also not be able to Retire her or use her as Enhancement or Limit Break material."
+		},
+		{
+			info = "· If Little Enterprise has not been formally recruited by the end of the event, she will leave the port."
+		},
+		{
+			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day up to April 12th."
+		},
+		{
+			info = "· Little Enterprise cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
+		},
+		{
+			info = "· Little Enterprise cannot participate in Guild Bosses until she has been formally recruited."
+		}
+	}
+}
+
+_G.pg.base.gametip.event_recommend_level1 = {
+	tip = "No suitable shipgirls found. Would you like to automatically add a locked Lv. 1 shipgirl?"
 }

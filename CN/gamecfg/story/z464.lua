@@ -116,7 +116,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "46你还在执行秘书舰任务吧？接下来有什么预定吗？",
+			say = "{namecode:412}你还在执行秘书舰任务吧？接下来有什么预定吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "是吗？那你陪我聊一会儿吧。感觉还是46好说话呢。",
+			say = "是吗？那你陪我聊一会儿吧。感觉还是{namecode:412}好说话呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "46将来想做什么？",
+			say = "{namecode:412}将来想做什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

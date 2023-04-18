@@ -11,7 +11,7 @@ pg.expedition_daily_template = {
 		des = "まだ開放されていないステージです",
 		limit_period = "",
 		id = 101,
-		sort = "0",
+		sort = "7",
 		weekday = {},
 		expedition_and_lv_limit_list = {}
 	},
@@ -182,7 +182,7 @@ pg.expedition_daily_template = {
 		des = "潜水艦による通商破壊訓練を行い、各種潜水艦装備の設計図を入手する",
 		limit_period = "",
 		id = 501,
-		sort = "4",
+		sort = "5",
 		weekday = {
 			1,
 			2,
@@ -230,7 +230,7 @@ pg.expedition_daily_template = {
 		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
 		limit_period = "",
 		id = 601,
-		sort = "7",
+		sort = "4",
 		weekday = {
 			1,
 			2,
@@ -278,7 +278,7 @@ pg.expedition_daily_template = {
 		des = "特殊装備を駆使する演習艦隊との戦闘訓練ステージになります。クリアすると特殊装備及び特殊装備に関連する素材を入手可能",
 		limit_period = "",
 		id = 701,
-		sort = "5",
+		sort = "6",
 		weekday = {
 			1,
 			2,
@@ -309,7 +309,7 @@ pg.expedition_daily_template = {
 		pic = "daily8",
 		des = "期間限定で開催される特殊装備チャレンジ。クリアすると特殊装備と素材を入手できます",
 		id = 801,
-		sort = "6",
+		sort = "7",
 		weekday = {
 			1,
 			2,

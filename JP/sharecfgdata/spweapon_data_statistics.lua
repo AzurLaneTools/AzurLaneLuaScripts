@@ -9048,3 +9048,305 @@ _G.pg.base.spweapon_data_statistics[10750] = {
 		}
 	}
 }
+
+_G.pg.base.spweapon_data_statistics[10780] = {
+	tech = 0,
+	name = "ファンタスティック・アーク",
+	value_2_random = 5,
+	type = 2,
+	value_1_random = 10,
+	value_1 = 9,
+	effect_id_display = 902200,
+	level = 1,
+	descrip = "特殊装備コアで製造できる艦船の専用兵装 ",
+	uncraftable = 0,
+	next = 10781,
+	upgrade_id = 101,
+	value_2 = 9,
+	icon = "10780",
+	effect_id = 902200,
+	attribute_2 = "dodge",
+	id = 10780,
+	rarity = 4,
+	unique = 80201,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			1011520
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10781] = {
+	prev = 10780,
+	base = 10780,
+	next = 10782,
+	upgrade_id = 102,
+	id = 10781,
+	value_2 = 10,
+	value_1 = 10,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10782] = {
+	prev = 10781,
+	base = 10780,
+	next = 10783,
+	upgrade_id = 103,
+	id = 10782,
+	value_2 = 10,
+	value_1 = 11,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10783] = {
+	prev = 10782,
+	base = 10780,
+	next = 10784,
+	upgrade_id = 104,
+	id = 10783,
+	value_2 = 11,
+	value_1 = 12,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10784] = {
+	prev = 10783,
+	base = 10780,
+	next = 10785,
+	upgrade_id = 105,
+	id = 10784,
+	value_2 = 11,
+	value_1 = 13,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10785] = {
+	prev = 10784,
+	base = 10780,
+	next = 10786,
+	upgrade_id = 106,
+	id = 10785,
+	value_2 = 12,
+	value_1 = 14,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10786] = {
+	prev = 10785,
+	base = 10780,
+	next = 10787,
+	upgrade_id = 107,
+	id = 10786,
+	value_2 = 13,
+	value_1 = 15,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10787] = {
+	prev = 10786,
+	base = 10780,
+	next = 10788,
+	upgrade_id = 108,
+	id = 10787,
+	value_2 = 14,
+	value_1 = 16,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10788] = {
+	prev = 10787,
+	base = 10780,
+	next = 10789,
+	upgrade_id = 109,
+	id = 10788,
+	value_2 = 15,
+	value_1 = 17,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10789] = {
+	prev = 10788,
+	base = 10780,
+	next = 10790,
+	upgrade_id = 110,
+	id = 10789,
+	value_2 = 16,
+	value_1 = 18,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10790] = {
+	base = 10780,
+	prev = 10789,
+	next = 0,
+	upgrade_id = 111,
+	id = 10790,
+	value_2 = 17,
+	value_1 = 20,
+	level = 11,
+	skill_upgrade = {
+		{
+			11520,
+			1011520
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[10800] = {
+	tech = 0,
+	name = "もう一つ大切なもの",
+	value_2_random = 5,
+	type = 2,
+	value_1_random = 10,
+	value_1 = 9,
+	effect_id_display = 901020,
+	level = 1,
+	descrip = "特殊装備コアで製造できる艦船の専用兵装 ",
+	uncraftable = 0,
+	next = 10801,
+	upgrade_id = 101,
+	value_2 = 9,
+	icon = "10800",
+	effect_id = 901020,
+	attribute_2 = "hit",
+	id = 10800,
+	rarity = 4,
+	unique = 20211,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			1090100
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[10801] = {
+	prev = 10800,
+	base = 10800,
+	next = 10802,
+	upgrade_id = 102,
+	id = 10801,
+	value_2 = 10,
+	value_1 = 10,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[10802] = {
+	prev = 10801,
+	base = 10800,
+	next = 10803,
+	upgrade_id = 103,
+	id = 10802,
+	value_2 = 10,
+	value_1 = 11,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[10803] = {
+	prev = 10802,
+	base = 10800,
+	next = 10804,
+	upgrade_id = 104,
+	id = 10803,
+	value_2 = 11,
+	value_1 = 12,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[10804] = {
+	prev = 10803,
+	base = 10800,
+	next = 10805,
+	upgrade_id = 105,
+	id = 10804,
+	value_2 = 11,
+	value_1 = 13,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[10805] = {
+	prev = 10804,
+	base = 10800,
+	next = 10806,
+	upgrade_id = 106,
+	id = 10805,
+	value_2 = 12,
+	value_1 = 14,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[10806] = {
+	prev = 10805,
+	base = 10800,
+	next = 10807,
+	upgrade_id = 107,
+	id = 10806,
+	value_2 = 13,
+	value_1 = 15,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[10807] = {
+	prev = 10806,
+	base = 10800,
+	next = 10808,
+	upgrade_id = 108,
+	id = 10807,
+	value_2 = 14,
+	value_1 = 16,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[10808] = {
+	prev = 10807,
+	base = 10800,
+	next = 10809,
+	upgrade_id = 109,
+	id = 10808,
+	value_2 = 15,
+	value_1 = 17,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[10809] = {
+	prev = 10808,
+	base = 10800,
+	next = 10810,
+	upgrade_id = 110,
+	id = 10809,
+	value_2 = 16,
+	value_1 = 18,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[10810] = {
+	base = 10800,
+	prev = 10809,
+	next = 0,
+	upgrade_id = 111,
+	id = 10810,
+	value_2 = 17,
+	value_1 = 20,
+	level = 11,
+	skill_upgrade = {
+		{
+			2081,
+			1090100
+		}
+	}
+}

@@ -340,8 +340,8 @@ function slot0.removeActivityFleetCommander(slot0, slot1)
 		for slot10, slot11 in pairs(slot6) do
 			slot12 = false
 
-			for slot17, slot18 in pairs(slot11:getCommanders()) do
-				if slot1 == slot18.id then
+			for slot17, slot18 in pairs(slot11:GetRawCommanderIds()) do
+				if slot1 == slot18 then
 					slot11:updateCommanderByPos(slot17, nil)
 					slot11:updateCommanderSkills()
 					slot0:updateActivityFleet(slot5, slot10, slot11)

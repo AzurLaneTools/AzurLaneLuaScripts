@@ -18,10 +18,25 @@ function slot0.OnFirstFlush(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("build_btn", slot0.bg), function ()
-		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
-			page = BuildShipScene.PAGE_BUILD,
-			projectName = BuildShipScene.PROJECTS.ACTIVITY
-		})
+		slot0, slot1 = nil
+
+		if uv0.activity:getConfig("config_client").linkActID then
+			slot1 = getProxy(ActivityProxy):getActivityById(slot0)
+		end
+
+		if not slot0 then
+			uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
+				page = BuildShipScene.PAGE_BUILD,
+				projectName = BuildShipScene.PROJECTS.ACTIVITY
+			})
+		elseif slot1 and not slot1:isEnd() then
+			uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
+				page = BuildShipScene.PAGE_BUILD,
+				projectName = BuildShipScene.PROJECTS.ACTIVITY
+			})
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
+		end
 	end, SFX_PANEL)
 end
 

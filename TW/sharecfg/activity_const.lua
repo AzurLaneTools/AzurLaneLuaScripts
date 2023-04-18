@@ -799,7 +799,7 @@ pg.activity_const = {
 		act_id = 4067
 	},
 	ROP_COW_ID = {
-		act_id = 4078
+		act_id = 41118
 	},
 	JIUJIU_YOYO_ID = {
 		act_id = 40431

@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			say = "“46有想法也有愿望，是一个人”——并不是毫无自我的纯粹。那么我的颜色，也不是透明",
+			say = "“{namecode:412}有想法也有愿望，是一个人”——并不是毫无自我的纯粹。那么我的颜色，也不是透明",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			}
 		},
 		{
-			say = "“46应该更珍重自己”——只有一时虚名的存在，却确实拥有着值得珍惜的“自己”。",
+			say = "“{namecode:412}应该更珍重自己”——只有一时虚名的存在，却确实拥有着值得珍惜的“自己”。",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -127,7 +127,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "——“46只要，做46自己就好”",
+			say = "——“{namecode:412}只要，做{namecode:412}自己就好”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

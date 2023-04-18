@@ -4,13 +4,20 @@ function slot0.OnInit(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.hearts = UIItemList.New(slot0:findTF("AD/heart"), slot0:findTF("AD/heart/mark"))
-	slot0.helpBtn = slot0:findTF("AD/Image")
+	slot0.helpBtn = slot0:findTF("AD/help_btn")
 
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.gametip_xiaotiancheng.tip
+			helps = pg.gametip.gametip_xiaoqiye.tip
 		})
+	end, SFX_PANEL)
+end
+
+function slot0.OnFirstFlush(slot0)
+	uv0.super.OnFirstFlush(slot0)
+	onButton(slot0, slot0.battleBtn, function ()
+		uv0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
 	end, SFX_PANEL)
 end
 

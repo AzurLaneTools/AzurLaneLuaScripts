@@ -122,28 +122,33 @@ function slot0.register(slot0)
 		slot3 = BossRushSettlementCommand.ConcludeEXP(slot0, slot1, slot2 and slot2:GetBattleStatistics())
 
 		(function ()
-			if not uv0 then
-				return
-			end
-
-			uv0:SetSettlementData(uv1)
-			uv2:updateActivity(uv0)
+			getProxy(ActivityProxy):SetExtraDataMember(uv0.id, "settlementData", uv1)
 		end)()
 	end)
 	slot0:on(24100, function (slot0)
+		(function ()
+			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK) then
+				return
+			end
+
+			slot0:Record(uv0.score)
+			uv1:updateActivity(slot0)
+		end)()
+
 		if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) then
 			return
 		end
 
-		if not slot1:GetSeriesData() then
+		if not slot2:GetSeriesData() then
 			return
 		end
 
-		slot2:AddEXScore(slot0)
-		uv0:updateActivity(slot1)
+		slot3:AddEXScore(slot0)
+		uv0:updateActivity(slot2)
 	end)
 
 	slot0.requestTime = {}
+	slot0.extraDatas = {}
 end
 
 function slot0.getAliveActivityByType(slot0, slot1)
@@ -811,6 +816,19 @@ function slot0.PopBossRushAwards(slot0)
 	slot0.bossrushAwards = nil
 
 	return slot0.bossrushAwards or {}
+end
+
+function slot0.SetExtraDataMember(slot0, slot1, slot2, slot3)
+	slot0.extraDatas[slot1] = slot0.extraDatas[slot1] or {}
+	slot0.extraDatas[slot1][slot2] = slot3
+end
+
+function slot0.GetExtraDataMember(slot0, slot1, slot2)
+	if not slot0.extraDatas[slot1] then
+		return
+	end
+
+	return slot0.extraDatas[slot1][slot2]
 end
 
 return slot0

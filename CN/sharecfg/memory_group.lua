@@ -230,7 +230,8 @@ pg.memory_group = setmetatable({
 		581,
 		582,
 		583,
-		584
+		584,
+		585
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -4682,6 +4683,22 @@ pg.base.memory_group = {
 			2605,
 			2606,
 			2607
+		}
+	},
+	[585] = {
+		icon = "title_chara_liekexingdun",
+		subtype = 0,
+		type = 3,
+		id = 585,
+		title = "献给碧海之歌",
+		memories = {
+			2651,
+			2652,
+			2653,
+			2654,
+			2655,
+			2656,
+			2657
 		}
 	}
 }

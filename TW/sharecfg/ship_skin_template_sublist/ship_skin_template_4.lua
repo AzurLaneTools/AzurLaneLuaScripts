@@ -8134,10 +8134,10 @@ pg.base.ship_skin_template_4 = {
 		air_torpedo_skin = "",
 		l2d_ignore_drag = 0,
 		l2d_se = "",
-		no_showing = "1",
+		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "独角鲸级潜艇鹦鹉螺，舷号SS-168",
+		desc = "獨角鯨級潛艇射水魚，舷號SS-168",
 		voice_actor = 283,
 		spine_offset = "",
 		gyro = 0,
@@ -8148,6 +8148,109 @@ pg.base.ship_skin_template_4 = {
 		show_skin = "stand",
 		ship_l2d_id = "",
 		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.284,
+					0.819,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[108071] = {
+		ship_group = 10807,
+		name = "黑兔休息中",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "145",
+		id = 108071,
+		group_index = 1,
+		prefab = "yingwuluo_2",
+		painting = "yingwuluo_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70587,
+		shop_type_id = 16,
+		air_bomb_skin = "",
+		illustrator = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "呼~站久了還是有點累人呢…哇？！沒想到指揮官也會來這裡…那個，不介意的話，一起…休息一下？",
+		voice_actor = 283,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,

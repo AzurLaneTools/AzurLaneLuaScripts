@@ -1818,6 +1818,15 @@ pg.drop_data_restore = {
 		drop_id = 65035,
 		target_id = 201101
 	},
+	[1148] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 1148,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 307
+	},
 	[1164] = {
 		target_type = 14,
 		type = 1,
@@ -4118,6 +4127,7 @@ pg.drop_data_restore = {
 		1143,
 		1145,
 		1146,
+		1148,
 		1164,
 		5001,
 		5002,

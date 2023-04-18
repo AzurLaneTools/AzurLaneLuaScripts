@@ -93,7 +93,7 @@ return {
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "嘿嘿，管制部队的那班家伙是抓不住幸运的556的",
+			say = "嘿嘿，管制部队的那班家伙是抓不住幸运的{namecode:416}的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "嘻嘻，今天又是556的胜利——",
+			say = "嘻嘻，今天又是{namecode:416}的胜利——",
 			effects = {
 				{
 					active = false,
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "（伟大的水下骑士556，今天也在履行着骑士的誓言！）",
+			say = "（伟大的水下骑士{namecode:416}，今天也在履行着骑士的誓言！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

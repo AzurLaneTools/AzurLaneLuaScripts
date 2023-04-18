@@ -202,11 +202,11 @@ return {
 			actor = 705040,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			actorName = "소비에츠카야 벨로루시아",
-			side = 2,
 			say = "굳이 따지자면 우리보다는 쿠이비셰프 너와 관련이 있을 것 같군.",
+			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,9 +241,9 @@ return {
 			bgName = "star_level_bg_109",
 			actorName = "소비에츠카야 벨로루시아",
 			dir = 1,
+			hidePaintEquip = true,
 			actor = 705040,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			say = "아, 미안. 이거 실언을 할뻔했군.",
 			painting = {
 				alpha = 0.3,
@@ -270,9 +270,9 @@ return {
 			bgName = "star_level_bg_109",
 			actorName = "소비에츠카야 벨로루시아",
 			dir = 1,
+			hidePaintEquip = true,
 			actor = 705040,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			say = "러시아, 사죄의 의미라고 하기는 뭣하지만, 이 동전을 맡기마.",
 			painting = {
 				alpha = 0.3,

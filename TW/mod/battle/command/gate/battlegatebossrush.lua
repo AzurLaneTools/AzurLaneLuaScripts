@@ -80,9 +80,16 @@ function slot0.Exit(slot0, slot1)
 	slot4 = getProxy(BayProxy)
 	slot5 = slot0.statistics._battleScore
 	slot6 = 0
+	slot7 = {}
+	slot8 = {}
 
 	(function ()
-		slot2 = getProxy(ActivityProxy):getActivityById(uv0.actId):GetSeriesData()
+		if not getProxy(ActivityProxy):getActivityById(uv0.actId):GetSeriesData() then
+			uv1 = true
+
+			return
+		end
+
 		slot4 = slot2:GetFleetIds()
 		slot5 = slot4[slot2:GetStaegLevel() + 1]
 		slot6 = slot4[#slot4]
@@ -91,7 +98,7 @@ function slot0.Exit(slot0, slot1)
 			slot5 = slot4[1]
 		end
 
-		slot8 = uv1
+		slot8 = uv2
 		slot8 = slot8:getActivityFleets()[slot0]
 		slot10 = slot8[slot6]
 
@@ -105,10 +112,16 @@ function slot0.Exit(slot0, slot1)
 		end
 	end)()
 
-	slot10 = slot1.GeneralPackage(slot0, {})
-	slot10.commander_id_list = {}
+	if false then
+		slot1:sendNotification(GAME.FINISH_STAGE_ERROR)
 
-	slot1:SendRequest(slot10, function (slot0)
+		return
+	end
+
+	slot11 = slot1.GeneralPackage(slot0, slot7)
+	slot11.commander_id_list = slot8
+
+	slot1:SendRequest(slot11, function (slot0)
 		uv0.statistics.mvpShipID = slot0.mvp
 		slot1 = {
 			system = SYSTEM_BOSS_RUSH,

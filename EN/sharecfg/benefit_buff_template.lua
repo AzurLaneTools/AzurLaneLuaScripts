@@ -74,7 +74,10 @@ pg.benefit_buff_template = setmetatable({
 		70,
 		71,
 		72,
+		101,
+		102,
 		103,
+		104,
 		300001,
 		300002,
 		300003,
@@ -1253,6 +1256,34 @@ pg.base.benefit_buff_template = {
 			0
 		}
 	},
+	[101] = {
+		icon = "Props/newserver_xinshou",
+		name = "Campaign Sortie EXP Bonus",
+		hide = 0,
+		max_time = 0,
+		desc = "If your Commander Level is below 100: you gain 100% more shipgirl EXP and Commander EXP from main story, event, and daily stages.",
+		benefit_effect = "100",
+		id = 101,
+		type_priority = 1,
+		benefit_type = "rookie_battle_exp",
+		benefit_condition = {
+			"lv",
+			"<",
+			100
+		}
+	},
+	[102] = {
+		icon = "Props/newserver_backyard",
+		name = "Campaign Dorm EXP Bonus",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "Your shipgirls gain 50% more EXP from the Dorm.",
+		benefit_effect = "50",
+		id = 102,
+		type_priority = 0,
+		benefit_type = "dorm_exp"
+	},
 	[103] = {
 		icon = "Props/newserver_skill",
 		name = "Campaign Skill Leveling Bonus",
@@ -1264,6 +1295,18 @@ pg.base.benefit_buff_template = {
 		id = 103,
 		type_priority = 0,
 		benefit_type = "skill_learn_time"
+	},
+	[104] = {
+		icon = "Props/newserver_upgrade",
+		name = "Campaign Shipgirl Enhancing Bonus",
+		hide = 0,
+		max_time = 0,
+		benefit_condition = "",
+		desc = "When you Enhance a shipgirl in your Dock, her Enhancement EXP increase by 100% more.",
+		benefit_effect = "100",
+		id = 104,
+		type_priority = 0,
+		benefit_type = "character_strengthen_exp"
 	},
 	[300001] = {
 		icon = "Props/300001",

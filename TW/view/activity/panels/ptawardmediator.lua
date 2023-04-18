@@ -19,7 +19,7 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == nil then
 		-- Nothing
 	elseif slot2 == ActivityProxy.ACTIVITY_ADDED or slot2 == ActivityProxy.ACTIVITY_UPDATED then
-		if slot3:getDataConfig("pt") == slot0.contextData.ptId then
+		if slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF and slot3:getDataConfig("pt") == slot0.contextData.ptId then
 			if slot0.contextData.ptData then
 				slot0.contextData.ptData:Update(slot3)
 			else

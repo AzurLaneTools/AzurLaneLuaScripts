@@ -658,7 +658,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704031] = {
-		breakout_view = "习得技能【破敌之炬·反击】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "習得技能【破敵之炬·反擊】/主炮底座+1/主炮效率提高5%",
 		gold = 1000,
 		breakout_id = 9704032,
 		repair = 0,
@@ -693,7 +693,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704033] = {
-		breakout_view = "【破敌之炬·反击】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【破敵之炬·反擊】升級/主炮底座+1/主炮效率提高15%",
 		gold = 10000,
 		breakout_id = 9704034,
 		repair = 0,
@@ -711,7 +711,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704034] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,

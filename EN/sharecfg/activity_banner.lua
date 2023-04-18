@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4737",
+		param = "4745",
 		id = 1,
 		pic = "temp2",
 		type = 3,
@@ -9,8 +9,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					3,
-					23
+					4,
+					13
 				},
 				{
 					0,
@@ -22,7 +22,7 @@ pg.activity_banner = {
 				{
 					2023,
 					4,
-					6
+					26
 				},
 				{
 					23,
@@ -39,7 +39,7 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				projectName = "new",
+				projectName = "heavy",
 				page = 1
 			}
 		},
@@ -47,8 +47,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					3,
-					23
+					4,
+					13
 				},
 				{
 					0,
@@ -60,7 +60,7 @@ pg.activity_banner = {
 				{
 					2023,
 					4,
-					6
+					26
 				},
 				{
 					23,
@@ -72,20 +72,18 @@ pg.activity_banner = {
 	},
 	{
 		id = 3,
-		pic = "temp5",
+		pic = "temp4",
 		type = 2,
 		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2023,
-					3,
-					23
+					4,
+					13
 				},
 				{
 					0,
@@ -97,7 +95,7 @@ pg.activity_banner = {
 				{
 					2023,
 					4,
-					5
+					26
 				},
 				{
 					23,
@@ -109,52 +107,28 @@ pg.activity_banner = {
 	},
 	{
 		param = "4731",
-		id = 4,
-		pic = "temp4",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 4,
+		pic = "temp5"
 	},
 	{
 		id = 5,
 		pic = "temp6",
 		type = 2,
 		param = {
-			"scene charge",
+			"scene equip",
 			{
-				wrap = 2
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
 			{
 				{
 					2023,
-					3,
-					23
+					4,
+					13
 				},
 				{
 					0,
@@ -166,7 +140,7 @@ pg.activity_banner = {
 				{
 					2023,
 					4,
-					5
+					26
 				},
 				{
 					23,
@@ -211,10 +185,12 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "7010",
 		id = 7,
 		pic = "temp8",
-		type = 3,
+		type = 2,
+		param = {
+			"crusing"
+		},
 		time = {
 			{
 				{
@@ -243,7 +219,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4733",
+		param = "4742",
 		id = 8,
 		pic = "temp1",
 		type = 3,
@@ -252,7 +228,7 @@ pg.activity_banner = {
 				{
 					2023,
 					4,
-					1
+					6
 				},
 				{
 					0,
@@ -264,7 +240,7 @@ pg.activity_banner = {
 				{
 					2023,
 					4,
-					5
+					19
 				},
 				{
 					23,
@@ -276,106 +252,56 @@ pg.activity_banner = {
 	},
 	[90] = {
 		param = "",
-		id = 90,
-		pic = "temp99",
+		time = "stop",
 		type = 9,
-		time = {
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 90,
+		pic = "temp99"
 	},
 	[91] = {
 		param = "",
-		time = "stop",
-		type = 9,
 		id = 91,
-		pic = "temp98"
+		pic = "temp98",
+		type = 9,
+		time = {
+			{
+				{
+					2023,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[95] = {
 		param = "",
-		id = 95,
-		pic = "temp100",
+		time = "stop",
 		type = 11,
-		time = {
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 95,
+		pic = "temp100"
 	},
 	[99] = {
 		param = "",
-		id = 99,
-		pic = "limit_skin",
+		time = "stop",
 		type = 12,
-		time = {
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 99,
+		pic = "limit_skin"
 	},
 	[100] = {
 		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
@@ -402,14 +328,14 @@ pg.activity_banner = {
 		[3] = {
 			1,
 			4,
-			7,
 			8
 		},
 		[2] = {
 			2,
 			3,
 			5,
-			6
+			6,
+			7
 		},
 		[9] = {
 			90,

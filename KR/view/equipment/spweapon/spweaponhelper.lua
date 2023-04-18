@@ -15,10 +15,11 @@ function slot1(slot0, slot1)
 	end
 
 	setText(slot2.Find(slot2, "name"), slot3)
+	Canvas.ForceUpdateCanvases()
 
 	if not IsNil(slot2.Find(slot2, "value")) then
 		setActive(slot2:Find("value"), slot4)
-		setText(slot2:Find("value"), slot4)
+		setScrollText(slot2:Find("value/Text"), slot4)
 	end
 
 	if not IsNil(slot2.Find(slot2, "effect")) then

@@ -10863,7 +10863,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1580001] = {
 		map = 1580001,
-		name = "The Flame-Touched Dagger  || || Chapter SP || S.P.",
+		name = "The Flame-Touched Dagger|| ||Chapter SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -10876,7 +10876,7 @@ pg.base.expedition_data_by_map = {
 		ani_controller = "",
 		cloud_suffix = "",
 		uifx = "",
-		on_activity = 4165,
+		on_activity = 4747,
 		ui_type = 1,
 		bg = "Map_1580001",
 		destory_icon_suffix = "blue",

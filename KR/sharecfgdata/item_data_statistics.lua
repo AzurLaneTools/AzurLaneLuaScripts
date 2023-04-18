@@ -183017,6 +183017,69 @@ _G.pg.base.item_data_statistics[59406] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59407] = {
+	display = "「신규 서버 오픈 축제」 이벤트에서 획득. 신입 건조에서 한정 건조 1회 무료 진행 가능(이벤트 종료 후 사라짐)",
+	name = "신입 단일 건조 티켓",
+	max_num = 0,
+	type = 0,
+	drop_oil_max = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 22,
+	link_id = 8032,
+	id = 59407,
+	is_world = 0,
+	icon = "Props/buildTicket_newserver",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59408] = {
+	display = "「신규 서버 오픈 축제」 이벤트 교환용. 이벤트 종료 후 사라짐.",
+	name = "신규 서버 축제Pt",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59408,
+	is_world = 0,
+	icon = "Props/newserver_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59409] = {
+	display = "「분투하자, 꼬마 엔터프라이즈!」 복각 이벤트 캐릭터 호감도 상승용. 이벤트 종료 후 사라짐",
+	name = "호감도-꼬마 엔터프라이즈",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59409,
+	is_world = 0,
+	icon = "Props/xiaoqiye_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",

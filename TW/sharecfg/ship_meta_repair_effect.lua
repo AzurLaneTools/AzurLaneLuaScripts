@@ -1267,7 +1267,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1201] = {
 		id = 1201,
-		effect_desc = "",
+		effect_desc = "鑑賞解鎖：登入、回港、圖鑑、任務",
 		effect_attr = {
 			{
 				"durability",
@@ -1290,7 +1290,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1202] = {
 		id = 1202,
-		effect_desc = "",
+		effect_desc = "鑑賞解鎖：主介面1、旗艦開戰、任務完成、技能",
 		effect_attr = {
 			{
 				"durability",
@@ -1313,7 +1313,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1203] = {
 		id = 1203,
-		effect_desc = "",
+		effect_desc = "鑑賞解鎖：主介面2、戰鬥MVP、失敗、郵件",
 		effect_attr = {
 			{
 				"durability",
@@ -1336,7 +1336,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1204] = {
 		id = 1204,
-		effect_desc = "",
+		effect_desc = "鑑賞解鎖：主介面3、觸摸1、委託完成",
 		effect_attr = {
 			{
 				"durability",
@@ -1359,7 +1359,7 @@ pg.ship_meta_repair_effect = {
 	},
 	[1205] = {
 		id = 1205,
-		effect_desc = "",
+		effect_desc = "鑑賞解鎖：血量警報",
 		effect_attr = {
 			{
 				"durability",

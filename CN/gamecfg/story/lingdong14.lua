@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "story-5",
 			dir = 1,
-			say = "终于找到你了~提·尔·比·茨~",
+			say = "终于找到你了~阿·尔·芙·莉·达~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

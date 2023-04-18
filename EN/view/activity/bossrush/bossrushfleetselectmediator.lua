@@ -1,7 +1,6 @@
 slot0 = class("BossRushFleetSelectMediator", import("view.base.ContextMediator"))
 slot0.ON_OPEN_DECK = "BossRushFleetSelectMediator:ON_OPEN_DECK"
 slot0.ON_FLEET_SHIPINFO = "BossRushFleetSelectMediator:ON_FLEET_SHIPINFO"
-slot0.BEGIN_STAGE = "BossRushFleetSelectMediator:BEGIN_STAGE"
 slot0.ON_TRACE = "BossRushFleetSelectMediator:ON_TRACE"
 slot0.ON_UPDATE_CUSTOM_FLEET = "BossRushFleetSelectMediator:ON_UPDATE_CUSTOM_FLEET"
 slot0.ON_PRECOMBAT = "BossRushFleetSelectMediator:ON_PRECOMBAT"
@@ -148,12 +147,6 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_ELITE_CLEAR, function (slot0, slot1)
 		uv0.contextData.fleets[slot1.index]:clearFleet()
 		uv0.viewComponent:updateEliteFleets()
-	end)
-	slot0:bind(uv0.BEGIN_STAGE, function (slot0)
-		uv0:sendNotification(GAME.BEGIN_STAGE, {
-			system = uv0.contextData.system,
-			actId = uv0.contextData.actId
-		})
 	end)
 	slot0:bind(uv0.ON_PRECOMBAT, function (slot0)
 		uv0:addSubLayers(Context.New({

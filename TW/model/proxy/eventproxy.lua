@@ -154,6 +154,12 @@ function slot0.fillRecommendShip(slot0, slot1)
 	end
 end
 
+function slot0.fillRecommendShipLV1(slot0, slot1)
+	for slot7, slot8 in ipairs(getProxy(BayProxy):getDelegationRecommendShipsLV1(slot1)) do
+		table.insert(slot1.shipIds, slot8)
+	end
+end
+
 function slot0.checkNightEvent(slot0)
 	return (pg.gameset.night_collection_begin.key_value <= pg.TimeMgr.GetInstance():GetServerHour() and slot1 < 24 or slot1 >= 0 and slot1 < pg.gameset.night_collection_end.key_value) and not _.any(slot0.eventList, function (slot0)
 		slot1 = slot0:GetCountDownTime()

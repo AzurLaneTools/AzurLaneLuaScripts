@@ -85,7 +85,7 @@ function slot0.setSkin(slot0, slot1)
 
 	slot0._shade:GetComponent(typeof(Image)).color = Color.New(0, 0, 0, 1)
 
-	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. ("star_level_unlock_anim_" .. slot1))) then
+	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/" .. ("star_level_unlock_anim_" .. slot1))) then
 		slot0:playOpening(function ()
 			uv0:setSkinPri(uv1)
 		end, slot2)
@@ -463,7 +463,7 @@ function slot0.playOpening(slot0, slot1, slot2)
 		if uv0 then
 			uv0()
 		end
-	end, "ui", slot2, false, false, {
+	end, "ui/skinunlockanim", slot2, false, false, {
 		weight = LayerWeightConst.THIRD_LAYER
 	})
 end

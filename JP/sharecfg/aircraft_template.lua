@@ -1,8 +1,4 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "aircraft_template", rawget(pg.base, "aircraft_template") or {})
-
 pg.aircraft_template = setmetatable({
 	__name = "aircraft_template",
 	all = {
@@ -5387,6 +5383,8 @@ pg.aircraft_template = setmetatable({
 		3059513
 	}
 }, confMT)
+pg.base = pg.base or {}
+pg.base.aircraft_template = pg.base.aircraft_template or {}
 cs = cs or {}
 cs.aircraft_template = {
 	[109] = {

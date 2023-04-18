@@ -1374,6 +1374,123 @@ pg.base.ship_skin_template_5 = {
 			}
 		}
 	},
+	[201032] = {
+		ship_group = 20103,
+		name = "Master·熱心？",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "145",
+		id = 201032,
+		group_index = 2,
+		prefab = "rexin_3",
+		painting = "rexin_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70584,
+		shop_type_id = 16,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "歡迎來到熱心的桌遊小屋，我是為大家提供各種遊戲的熱心~雖然大部分遊戲都是在邊玩邊學就是了呢~",
+		voice_actor = 111,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.225,
+					1.188,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.216,
+					1.181,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.266,
+					1.271,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.543,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201039] = {
 		ship_group = 20103,
 		name = "熱心.改",

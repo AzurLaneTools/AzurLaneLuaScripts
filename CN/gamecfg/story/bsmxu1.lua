@@ -66,7 +66,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "难道556的运气不好吗？在港区的时候大家都说556一定是个幸运的孩子",
+			say = "难道{namecode:416}的运气不好吗？在港区的时候大家都说{namecode:416}一定是个幸运的孩子",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

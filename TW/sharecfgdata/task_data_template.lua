@@ -111481,6 +111481,166 @@ _G.pg.base.task_data_template[16833] = {
 	}
 }
 
+_G.pg.base.task_data_template[16851] = {
+	name = "『美系V3复刻』前哨站zero1",
+	guild_coin_award = 0,
+	award = 92812,
+	type = 26,
+	desc = "迷霧之下——累計獲得S勝5次",
+	count_inherit = 16852,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16851,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[16852] = {
+	name = "『美系V3复刻』前哨站zero2",
+	guild_coin_award = 0,
+	award = 92813,
+	type = 26,
+	desc = "迷霧之下——累計獲得S勝10次",
+	count_inherit = 16853,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16852,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			50
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[16853] = {
+	name = "『美系V3复刻』前哨站zero3",
+	guild_coin_award = 0,
+	award = 92814,
+	type = 26,
+	desc = "迷霧之下——累計獲得S勝15次",
+	count_inherit = 16854,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16853,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[16854] = {
+	name = "『美系V3复刻』前哨站zero4",
+	guild_coin_award = 0,
+	award = 92815,
+	type = 26,
+	desc = "迷霧之下——累計獲得S勝20次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16854,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
 _G.pg.base.task_data_template[16855] = {
 	name = "『美系V3复刻』送矶风JK1",
 	guild_coin_award = 0,
@@ -112014,6 +112174,903 @@ _G.pg.base.task_data_template[16868] = {
 	},
 	scene = {
 		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[16869] = {
+	name = "『美系V3复刻』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 95865,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16869,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			218,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16870] = {
+	name = "『微层混合复刻』-日常建造",
+	guild_coin_award = 0,
+	award = 95600,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16870,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59155,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16871] = {
+	name = "『微层混合复刻』-日常出击",
+	guild_coin_award = 0,
+	award = 95601,
+	type = 36,
+	desc = "艦隊出征，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16871,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59155,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[16872] = {
+	name = "『微层混合复刻』-日常困难本",
+	guild_coin_award = 0,
+	award = 95602,
+	type = 36,
+	desc = "通關1次任意困難關卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16872,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59155,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16873] = {
+	name = "『微层混合复刻』通关A1/C1",
+	guild_coin_award = 0,
+	award = 95603,
+	type = 6,
+	desc = "擊敗A1或C1敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16873,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1330001,
+		1330021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59155,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41125
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16874] = {
+	name = "『微层混合复刻』通关A2/C2",
+	guild_coin_award = 0,
+	award = 95604,
+	type = 6,
+	desc = "擊敗A2或C2敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16874,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1330002,
+		1330022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59155,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41125
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16875] = {
+	name = "『微层混合复刻』通关A3/C3",
+	guild_coin_award = 0,
+	award = 95605,
+	type = 6,
+	desc = "擊敗A3或C3敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16875,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1330003,
+		1330023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59155,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41125
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16876] = {
+	name = "『微层混合复刻』通关B1/D1",
+	guild_coin_award = 0,
+	award = 95606,
+	type = 6,
+	desc = "擊敗B1或D1敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16876,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1330004,
+		1330024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59155,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41126
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16877] = {
+	name = "『微层混合复刻』通关B2/D2",
+	guild_coin_award = 0,
+	award = 95607,
+	type = 6,
+	desc = "擊敗B2或D2敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16877,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1330005,
+		1330025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59155,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41126
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16878] = {
+	name = "『微层混合复刻』通关B3/D3",
+	guild_coin_award = 0,
+	award = 95608,
+	type = 6,
+	desc = "擊敗B3或D3敵方旗艦一次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16878,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1330006,
+		1330026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59155,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41126
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16879] = {
+	name = "『微层混合复刻』通关SP",
+	guild_coin_award = 0,
+	award = 95609,
+	type = 6,
+	desc = "通關SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1330041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16879,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1330025,
+			chapterId = 1330041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16880] = {
+	name = "『微层混合复刻』通关D3",
+	guild_coin_award = 0,
+	award = 95610,
+	type = 6,
+	desc = "通關D3<color=#92fc63>（勳章無法重複獲得）</color>",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1330026",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16880,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			173,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1330012,
+			chapterId = 1330026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16881] = {
+	name = "『微层混合复刻』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 95611,
+	type = 6,
+	desc = "完成A1或C1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "16882",
+	auto_commit = 0,
+	story_id = "",
+	id = 16881,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1330001,
+		1330021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41125
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16882] = {
+	name = "『微层混合复刻』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 95612,
+	type = 6,
+	desc = "完成A2或C2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "16883",
+	auto_commit = 0,
+	story_id = "",
+	id = 16882,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1330002,
+		1330022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41125
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16883] = {
+	name = "『微层混合复刻』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 95613,
+	type = 6,
+	desc = "完成A3或C3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "16884",
+	auto_commit = 0,
+	story_id = "",
+	id = 16883,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1330003,
+		1330023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41125
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16884] = {
+	name = "『微层混合复刻』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 95614,
+	type = 6,
+	desc = "完成B1或D1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "16885",
+	auto_commit = 0,
+	story_id = "",
+	id = 16884,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1330004,
+		1330024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41126
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16885] = {
+	name = "『微层混合复刻』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 95615,
+	type = 6,
+	desc = "完成B2或D2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "16886",
+	auto_commit = 0,
+	story_id = "",
+	id = 16885,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1330005,
+		1330025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41126
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16886] = {
+	name = "『微层混合复刻』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 95616,
+	type = 6,
+	desc = "完成B3或D3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 16886,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1330006,
+		1330026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			41126
+		}
+	}
+}
+
+_G.pg.base.task_data_template[16887] = {
+	name = "『美系V3复刻二阶段』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 95920,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 16887,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			218,
+			2
+		}
 	}
 }
 

@@ -1,8 +1,4 @@
 pg = pg or {}
-pg.base = pg.base or {}
-
-rawset(pg.base, "ship_data_template", rawget(pg.base, "ship_data_template") or {})
-
 pg.ship_data_template = setmetatable({
 	__name = "ship_data_template",
 	all = {
@@ -2667,6 +2663,8 @@ pg.ship_data_template = setmetatable({
 		899034
 	}
 }, confMT)
+pg.base = pg.base or {}
+pg.base.ship_data_template = pg.base.ship_data_template or {}
 cs = cs or {}
 cs.ship_data_template = {
 	[100001] = {

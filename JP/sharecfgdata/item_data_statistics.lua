@@ -18052,7 +18052,7 @@ _G.pg.base.item_data_statistics[30520] = {
 	display = "使用すると、装備外装（饅頭野戦病院）から任意の装備外装を1個選択して入手できます",
 	name = "選択装備外装箱（医療施設）",
 	max_num = 0,
-	type = 11,
+	type = 13,
 	drop_oil_max = 0,
 	rarity = 4,
 	shop_id = -1,
@@ -18155,10 +18155,7 @@ _G.pg.base.item_data_statistics[30520] = {
 			1
 		}
 	},
-	price = {
-		1,
-		7000
-	},
+	price = {},
 	index = {},
 	shiptrans_id = {}
 }
@@ -190458,6 +190455,48 @@ _G.pg.base.item_data_statistics[59406] = {
 	id = 59406,
 	is_world = 0,
 	icon = "Props/skinTicket",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59409] = {
+	display = "イベント「駆けろ　幼き翼！」・友好度報酬（累計獲得数）",
+	name = "友好度-リトル・エンタープライズ",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59409,
+	is_world = 0,
+	icon = "Props/xiaoqiye_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59410] = {
+	display = "海域イベント「燈火のシニエ」累計獲得報酬に使用するイベントPt。イベント終了時に削除される",
+	name = "燈火の刃",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59410,
+	is_world = 0,
+	icon = "Props/fuxu_pt",
 	display_icon = {},
 	price = {},
 	index = {},

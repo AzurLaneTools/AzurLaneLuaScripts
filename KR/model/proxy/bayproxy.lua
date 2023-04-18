@@ -919,6 +919,49 @@ function slot0.getDelegationRecommendShips(slot0, slot1)
 	return slot9
 end
 
+function slot0.getDelegationRecommendShipsLV1(slot0, slot1)
+	slot2 = 6 - #slot1.shipIds
+
+	function slot11(slot0)
+		return slot0.lockState == slot0.LOCK_STATE_UNLOCK and 0 or 1
+	end
+
+	table.sort(_.select(slot0:getShipsByTypes(slot1.template.ship_type), function (slot0)
+		return slot0.level == 1
+	end), CompareFuncs({
+		slot11
+	}))
+
+	slot7 = {}
+
+	for slot11, slot12 in ipairs(Clone(slot1.shipIds)) do
+		slot7[#slot7 + 1] = slot0.data[slot12]:getGroupId()
+	end
+
+	slot8 = {}
+	slot9 = #slot6
+
+	while slot9 > 0 do
+		if slot2 <= 0 then
+			break
+		end
+
+		slot10 = slot6[slot9]
+		slot12 = slot10:getGroupId()
+
+		if not table.contains(slot4, slot10.id) and not table.contains(slot7, slot12) and not table.contains(slot8, slot11) and not slot10:getFlag("inElite") and not slot10:getFlag("inActivity") and ShipStatus.ShipStatusCheck("inEvent", slot10) then
+			table.insert(slot7, slot12)
+			table.insert(slot8, slot11)
+
+			slot2 = slot2 - 1
+		else
+			slot9 = slot9 - 1
+		end
+	end
+
+	return slot8
+end
+
 function slot0.getWorldRecommendShip(slot0, slot1, slot2)
 	slot4 = {}
 

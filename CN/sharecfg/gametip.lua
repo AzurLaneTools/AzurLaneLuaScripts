@@ -20495,5 +20495,15 @@ cs.gametip = {
 		739709,
 		127,
 		true
+	},
+	gametip_xiaoqiye = {
+		739836,
+		1026,
+		true
+	},
+	event_recommend_level1 = {
+		740862,
+		181,
+		true
 	}
 }
