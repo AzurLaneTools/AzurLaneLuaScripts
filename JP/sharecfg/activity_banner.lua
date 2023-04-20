@@ -22,7 +22,7 @@ pg.activity_banner = {
 				{
 					2023,
 					4,
-					26
+					27
 				},
 				{
 					23,
@@ -39,7 +39,7 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				projectName = "new",
+				projectName = "heavy",
 				page = 1
 			}
 		},
@@ -60,7 +60,7 @@ pg.activity_banner = {
 				{
 					2023,
 					4,
-					26
+					27
 				},
 				{
 					23,
@@ -73,22 +73,110 @@ pg.activity_banner = {
 	{
 		id = 3,
 		pic = "temp4",
-		time = "stop",
 		type = 2,
 		param = {
 			"scene skinshop",
 			{}
+		},
+		time = {
+			{
+				{
+					2023,
+					4,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
-		param = "4731",
-		time = "stop",
-		type = 3,
+		param = "4749",
 		id = 4,
-		pic = "temp5"
+		pic = "temp7",
+		type = 3,
+		time = {
+			{
+				{
+					2023,
+					4,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
 		id = 5,
+		pic = "temp5",
+		type = 2,
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = false
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					4,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 6,
 		pic = "temp6",
 		type = 2,
 		param = {
@@ -115,41 +203,7 @@ pg.activity_banner = {
 				{
 					2023,
 					4,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 6,
-		pic = "temp7",
-		type = 2,
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					5
+					27
 				},
 				{
 					23,
@@ -227,10 +281,35 @@ pg.activity_banner = {
 	},
 	[90] = {
 		param = "",
-		time = "stop",
-		type = 9,
 		id = 90,
-		pic = "temp99"
+		pic = "temp99",
+		type = 9,
+		time = {
+			{
+				{
+					2023,
+					4,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[91] = {
 		param = "",

@@ -7,7 +7,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					buff_id = 401,
+					buff_id = 1090104,
 					rant = 100,
 					level = 1,
 					type = 1,
@@ -26,7 +26,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					buff_id = 401,
+					buff_id = 1090104,
 					rant = 200,
 					level = 1,
 					type = 1,
@@ -45,7 +45,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					buff_id = 401,
+					buff_id = 1090104,
 					rant = 300,
 					level = 1,
 					type = 1,
@@ -64,7 +64,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					buff_id = 401,
+					buff_id = 1090104,
 					rant = 400,
 					level = 1,
 					type = 1,
@@ -83,7 +83,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					buff_id = 401,
+					buff_id = 1090104,
 					rant = 500,
 					level = 1,
 					type = 1,
@@ -102,7 +102,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					buff_id = 401,
+					buff_id = 1090104,
 					rant = 600,
 					level = 1,
 					type = 1,
@@ -121,7 +121,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					buff_id = 401,
+					buff_id = 1090104,
 					rant = 700,
 					level = 1,
 					type = 1,
@@ -140,7 +140,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					buff_id = 401,
+					buff_id = 1090104,
 					rant = 800,
 					level = 1,
 					type = 1,
@@ -159,7 +159,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					buff_id = 401,
+					buff_id = 1090104,
 					rant = 900,
 					level = 1,
 					type = 1,
@@ -178,7 +178,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					buff_id = 401,
+					buff_id = 1090104,
 					rant = 1000,
 					level = 1,
 					type = 1,
@@ -205,7 +205,7 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				buff_id = 401,
+				buff_id = 1090104,
 				rant = 100,
 				level = 1,
 				type = 1,

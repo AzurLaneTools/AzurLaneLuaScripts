@@ -10105,11 +10105,11 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「リシュリュー」「アルジェリー」常設実装！"
+	tip = "「ソビエツカヤ·ロシア」常設実装！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ル·テリブル」「ジャンヌ·ダルク」常設実装！"
+	tip = "「タシュケント」「チャパエフ」常設実装！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
