@@ -1,11 +1,26 @@
-slot0 = class("BossRushPreCombatLayer", import("view.battle.PreCombatLayer"))
+slot0 = class("BossRushPreCombatLayer", import("view.base.BaseUI"))
 slot1 = import("view.ship.FormationUI")
 slot2 = {
 	[99.0] = true
 }
+slot0.ObjectiveList = {
+	"battle_preCombatLayer_victory",
+	"battle_preCombatLayer_undefeated",
+	"battle_preCombatLayer_sink_limit",
+	"battle_preCombatLayer_time_hold",
+	"battle_preCombatLayer_time_limit",
+	"battle_preCombatLayer_boss_destruct",
+	"battle_preCombatLayer_damage_before_end",
+	"battle_result_defeat_all_enemys",
+	"battle_preCombatLayer_destory_transport_ship"
+}
 
 function slot0.getUIName(slot0)
 	return "BossRushPreCombatUI"
+end
+
+function slot0.ResUISettings(slot0)
+	return true
 end
 
 function slot0.tempCache(slot0)
@@ -21,8 +36,75 @@ function slot0.init(slot0)
 end
 
 function slot0.CommonInit(slot0)
-	uv0.super.CommonInit(slot0)
+	slot0.eventTriggers = {}
+	slot0._startBtn = slot0:findTF("right/start")
+	slot0._costContainer = slot0:findTF("right/start/cost_container")
+	slot0._popup = slot0._costContainer:Find("popup")
+	slot0._costText = slot0._popup:Find("Text")
+	slot0._moveLayer = slot0:findTF("moveLayer")
+	slot1 = slot0:findTF("middle")
+	slot0._autoToggle = slot0:findTF("auto_toggle")
+	slot0._autoSubToggle = slot0:findTF("sub_toggle_container/sub_toggle")
+	slot0._fleetInfo = slot1:Find("fleet_info")
+	slot0._fleetNameText = slot1:Find("fleet_info/fleet_name/Text")
+	slot0._fleetNumText = slot1:Find("fleet_info/fleet_number")
 
+	setActive(slot0._fleetInfo, slot0.contextData.system ~= SYSTEM_DUEL)
+
+	slot0._mainGS = slot1:Find("gear_score/main/Text")
+	slot0._vanguardGS = slot1:Find("gear_score/vanguard/Text")
+	slot0._subGS = slot1:Find("gear_score/submarine/Text")
+	slot0._bgFleet = slot1:Find("mask/grid_bg")
+	slot0._bgSub = slot1:Find("mask/bg_sub")
+	slot0._gridTFs = {
+		[TeamType.Vanguard] = {},
+		[TeamType.Main] = {},
+		[TeamType.Submarine] = {}
+	}
+	slot0._gridFrame = slot1:Find("mask/GridFrame")
+
+	for slot5 = 1, 3 do
+		slot0._gridTFs[TeamType.Main][slot5] = slot0._gridFrame:Find("main_" .. slot5)
+		slot0._gridTFs[TeamType.Vanguard][slot5] = slot0._gridFrame:Find("vanguard_" .. slot5)
+		slot0._gridTFs[TeamType.Submarine][slot5] = slot0._gridFrame:Find("submarine_" .. slot5)
+	end
+
+	slot0._nextPage = slot0:findTF("middle/nextPage")
+	slot0._prevPage = slot0:findTF("middle/prevPage")
+	slot0._heroContainer = slot1:Find("HeroContainer")
+	slot0._checkBtn = slot1:Find("checkBtn")
+	slot0._blurPanel = slot0:findTF("blur_panel")
+	slot0.topPanel = slot0:findTF("top", slot0._blurPanel)
+	slot0.topPanelBg = slot0:findTF("top_bg", slot0._blurPanel)
+	slot0._backBtn = slot0:findTF("back_btn", slot0.topPanel)
+	slot0._spoilsContainer = slot0:findTF("right/infomation/atlasloot/spoils/items/items_container")
+	slot0._item = slot0:findTF("right/infomation/atlasloot/spoils/items/item_tpl")
+
+	SetActive(slot0._item, false)
+
+	slot0._goals = slot0:findTF("right/infomation/target/goal")
+	slot0._heroInfo = slot0:getTpl("heroInfo")
+	slot0._starTpl = slot0:getTpl("star_tpl")
+
+	setText(findTF(slot0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
+	setText(findTF(slot0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
+	setText(findTF(slot0._tf, "middle/gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
+	setText(findTF(slot0._tf, "right/infomation/target/title/GameObject"), i18n("pre_combat_targets"))
+	setText(findTF(slot0._tf, "right/infomation/atlasloot/atlasloot/title/GameObject"), i18n("pre_combat_atlasloot"))
+	setText(slot0._startBtn:Find("text"), i18n("pre_combat_start"))
+	setText(slot0._startBtn:Find("text_en"), i18n("pre_combat_start_en"))
+
+	slot0._middle = slot0:findTF("middle")
+	slot0._right = slot0:findTF("right")
+
+	setAnchoredPosition(slot0._middle, {
+		x = -840
+	})
+	setAnchoredPosition(slot0._right, {
+		x = 470
+	})
+
+	slot0.guideDesc = slot0:findTF("guideDesc", slot0._middle)
 	slot0._costTip = slot0._startBtn:Find("cost_container/popup/tip")
 	slot0._continuousBtn = slot0:findTF("right/multiple")
 
@@ -71,22 +153,7 @@ function slot0.Register(slot0)
 
 		setImageSprite(findTF(slot2, "type"), slot7, true)
 		setText(findTF(slot2, "frame/lv_contain/lv"), slot1.level)
-
-		if uv0.contextData.system == SYSTEM_SCENARIO or slot8 == SYSTEM_ROUTINE or slot8 == SYSTEM_ACT_BOSS or slot8 == SYSTEM_SUB_ROUTINE then
-			setActive(slot2:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot1:getGroupId()] ~= nil)
-
-			if slot11 then
-				slot15 = tostring(slot11 / 100)
-
-				if slot11 % 100 > 0 then
-					slot15 = slot15 .. "." .. tostring(slot14)
-				end
-
-				setText(slot12:Find("text"), string.format("EXP +%s%%", slot15))
-			end
-		else
-			setActive(slot2:Find("expbuff"), false)
-		end
+		setActive(slot2:Find("expbuff"), false)
 	end)
 
 	slot1 = slot0._formationLogic
@@ -170,10 +237,19 @@ function slot0.Register(slot0)
 	end)
 end
 
+function slot0.SetPlayerInfo(slot0, slot1)
+end
+
 function slot0.SetSubFlag(slot0, slot1)
 	slot0._subUseable = slot1 or false
 
 	slot0:UpdateSubToggle()
+end
+
+function slot0.SetShips(slot0, slot1)
+	slot0._shipVOs = slot1
+
+	slot0._formationLogic:SetShipVOs(slot0._shipVOs)
 end
 
 function slot0.SetStageIds(slot0, slot1)
@@ -309,6 +385,45 @@ end
 
 function slot0.CheckLegalFleet(slot0)
 	assert(false)
+end
+
+function slot0.UpdateFleetView(slot0, slot1)
+	slot0:displayFleetInfo()
+	slot0:updateFleetBg()
+	slot0._formationLogic:UpdateGridVisibility()
+	slot0._formationLogic:ResetGrid(TeamType.Vanguard, false)
+	slot0._formationLogic:ResetGrid(TeamType.Main, false)
+	slot0._formationLogic:ResetGrid(TeamType.Submarine, false)
+	slot0:resetFormationComponent()
+
+	if slot1 then
+		slot0._formationLogic:LoadAllCharacter()
+	else
+		slot0._formationLogic:SetAllCharacterPos()
+	end
+end
+
+function slot0.updateFleetBg(slot0)
+	setActive(slot0._bgFleet, slot0._currentFleetVO:getFleetType() == FleetType.Normal)
+	setActive(slot0._bgSub, slot1 == FleetType.Submarine)
+end
+
+function slot0.resetFormationComponent(slot0)
+	SetActive(slot0._gridTFs.main[1]:Find("flag"), #slot0._currentFleetVO:getTeamByName(TeamType.Main) ~= 0)
+	SetActive(slot0._gridTFs.submarine[1]:Find("flag"), #slot0._currentFleetVO:getTeamByName(TeamType.Submarine) ~= 0)
+end
+
+function slot0.uiStartAnimating(slot0)
+	slot1 = 0
+	slot2 = 0.3
+
+	shiftPanel(slot0._middle, 0, nil, slot2, slot1, true, true)
+	shiftPanel(slot0._right, 0, nil, slot2, slot1, true, true)
+end
+
+function slot0.uiExitAnimating(slot0)
+	shiftPanel(slot0._middle, -840, nil, , , true, true)
+	shiftPanel(slot0._right, 470, nil, , , true, true)
 end
 
 function slot0.didEnter(slot0)

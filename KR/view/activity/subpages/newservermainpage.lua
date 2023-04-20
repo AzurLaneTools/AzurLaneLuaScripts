@@ -32,7 +32,7 @@ end
 function slot0.updateTime(slot0)
 	slot1 = pg.TimeMgr.GetInstance()
 
-	setText(slot0.time, slot1:STimeDescC(slot0.activity:getStartTime(), "%m.%d") .. " - " .. slot1:STimeDescC(slot0.activity.stopTime, "%m.%d %H:%M"))
+	setText(slot0.time, slot1:STimeDescS(slot0.activity:getStartTime(), "%m.%d") .. " - " .. slot1:STimeDescS(slot0.activity.stopTime, "%m.%d %H:%M"))
 end
 
 function slot0.OnUpdateFlush(slot0)

@@ -93,6 +93,11 @@ function slot0.update(slot0, slot1)
 
 	setActive(slot0.nameTF, false)
 	setActive(slot0.nameTF, true)
+
+	if not IsNil(slot0.levelTF) then
+		setActive(slot0.levelTF, false)
+		setActive(slot0.levelTF, true)
+	end
 end
 
 function slot0.updateDetail(slot0, slot1)
