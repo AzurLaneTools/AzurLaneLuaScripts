@@ -46,7 +46,12 @@ function slot0.execute(slot0, slot1)
 		end
 
 		slot9:StartUpGradeSuccess(slot8)
-		pg.TipsMgr.GetInstance():ShowTips(i18n("word_start") .. i18n("word_levelup"))
+
+		if PLATFORM_CODE == PLATFORM_US then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("word_start") .. " " .. i18n("word_levelup"))
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("word_start") .. i18n("word_levelup"))
+		end
 	elseif slot7.effect_args == ShopArgs.EffectGuildFlash then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_shop_flash_success"))
 	elseif slot7.effect_args == ShopArgs.EffectDormFloor then

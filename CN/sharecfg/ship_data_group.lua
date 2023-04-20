@@ -2524,11 +2524,11 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"勋章支援（概率产出）",
+				"勋章商店兑换",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -2576,11 +2576,11 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"勋章支援（概率产出）",
+				"勋章商店兑换",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -22687,6 +22687,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -22794,6 +22805,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -22826,6 +22847,17 @@ pg.base.ship_data_group = {
 				"限时活动：北境序曲",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -22985,6 +23017,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23111,6 +23154,17 @@ pg.base.ship_data_group = {
 				"限时活动：北境序曲",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -23241,6 +23295,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23303,6 +23367,17 @@ pg.base.ship_data_group = {
 				"限时活动：北境序曲",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
