@@ -27636,9 +27636,9 @@ pg.base.memory_template = {
 		mask = "bg/bg_memory",
 		title = "3. 수학, 철학, 심리학",
 		condition = "「푸른 바다에 바치는 노래」임무 3을 개방",
-		story = " 철학",
+		story = "LIEKEXINGDUN3",
 		id = 2653,
-		icon = "「푸른 바다에 바치는 노래」임무 3을 개방",
+		icon = "memory_liekexingdun",
 		is_open = 0
 	},
 	[2654] = {

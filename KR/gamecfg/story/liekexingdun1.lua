@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"렉싱턴 개인 스토리\n\n<size=45>1 1. 오늘의 장난은…</size>",
+					"렉싱턴 개인 스토리\n\n<size=45>1. 오늘의 장난은…</size>",
 					1
 				}
 			}
