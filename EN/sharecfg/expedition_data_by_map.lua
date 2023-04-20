@@ -357,6 +357,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100222,
 		2100231,
 		2100232,
+		2100241,
+		2100242,
+		2100251,
+		2100252,
 		2200000,
 		2200010,
 		2200020,
@@ -366,6 +370,7 @@ pg.expedition_data_by_map = setmetatable({
 		2200060,
 		2200070,
 		2200080,
+		2200090,
 		9920001,
 		9920002,
 		9920011,
@@ -16067,6 +16072,182 @@ pg.base.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100241] = {
+		map = 2100241,
+		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "SHENGYONGQU1",
+		ani_name = "map_1320001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1320001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100251,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100242] = {
+		map = 2100242,
+		name = "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-3",
+		enter_story = "SHENGYONGQU16",
+		ani_name = "map_1320002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1320002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100252,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100251] = {
+		map = 2100251,
+		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "SHENGYONGQU1",
+		ani_name = "map_1320003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1320003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100241,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100252] = {
+		map = 2100252,
+		name = "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-3",
+		enter_story = "SHENGYONGQU16",
+		ani_name = "map_1320004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1320004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100242,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "Strive, Wish, and Strategize || || Chapter SP || S.P.",
@@ -16441,6 +16622,50 @@ pg.base.expedition_data_by_map = {
 		animtor = 1,
 		bind_map = 0,
 		clouds_pos = {}
+	},
+	[2200090] = {
+		map = 2200090,
+		name = "The Way Home in the Night|| ||CHAPTER SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "story-french1",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1310001",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
 	},
 	[9920001] = {
 		map = 9920001,
