@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "I know... I meant AFTER sundown, but can discuss where we'll go before then, right...?",
+			say = "I know... I meant AFTER sundown, but we can discuss where we'll go before then, right...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
