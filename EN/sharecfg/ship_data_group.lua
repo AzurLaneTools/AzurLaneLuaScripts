@@ -2492,11 +2492,11 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Requisition (random chance)",
+				"Medal Shop",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -2509,7 +2509,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -2544,11 +2544,11 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Requisition (random chance)",
+				"Medal Shop",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -2561,7 +2561,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -3141,7 +3141,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -3240,7 +3240,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -3892,7 +3892,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -3934,7 +3934,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -4373,7 +4373,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -4675,7 +4675,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -4797,7 +4797,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -4974,7 +4974,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -5236,7 +5236,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -5368,7 +5368,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -5976,7 +5976,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -6109,7 +6109,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -6235,7 +6235,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -6277,7 +6277,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -6675,7 +6675,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -6741,7 +6741,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -6895,7 +6895,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -6937,7 +6937,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -6979,7 +6979,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -7118,7 +7118,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -7817,7 +7817,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -8140,7 +8140,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -8248,7 +8248,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -8367,7 +8367,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -8476,7 +8476,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -8662,7 +8662,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -8779,7 +8779,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -9232,7 +9232,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -9393,7 +9393,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -9740,7 +9740,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -9793,7 +9793,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -9835,7 +9835,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -9887,7 +9887,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -10577,7 +10577,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -10621,7 +10621,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -11279,7 +11279,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -11321,7 +11321,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -11442,7 +11442,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -12499,7 +12499,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -12593,7 +12593,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -12827,7 +12827,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -13394,7 +13394,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -13681,7 +13681,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -14013,7 +14013,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -14277,7 +14277,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -14451,7 +14451,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -14504,7 +14504,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -14548,7 +14548,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -14599,7 +14599,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -14650,7 +14650,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -15017,7 +15017,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -15059,7 +15059,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -15239,7 +15239,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -15281,7 +15281,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -15366,7 +15366,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -15408,7 +15408,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -15675,7 +15675,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -15869,7 +15869,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -15921,7 +15921,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -17216,7 +17216,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -17301,7 +17301,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -17811,7 +17811,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -18163,7 +18163,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -19305,7 +19305,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -19583,7 +19583,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -19625,7 +19625,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -19709,7 +19709,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -20204,7 +20204,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -20258,7 +20258,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -20435,7 +20435,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -20637,7 +20637,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -21535,7 +21535,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -21923,7 +21923,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -21967,7 +21967,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"Guild shop exchange",
+				"Guild Shop",
 				{
 					"SHOP",
 					{
@@ -22180,7 +22180,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -22521,7 +22521,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -22745,7 +22745,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -22830,7 +22830,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -23930,14 +23930,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Time-Limited Build",
-				{
-					""
-				},
-				0
-			},
-			{
-				"Munition shop exchange",
+				"Merit Shop",
 				{
 					"SHOP",
 					{
@@ -24146,7 +24139,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -24250,6 +24243,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -24347,7 +24350,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Core Data Exchange",
+				"Core Data Shop",
 				{
 					"SHOP",
 					{
@@ -24579,6 +24582,16 @@ pg.base.ship_data_group = {
 				"Event: Skybound Oratorio",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}

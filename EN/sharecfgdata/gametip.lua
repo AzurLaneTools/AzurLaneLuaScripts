@@ -10213,11 +10213,11 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Bremerton added to standard build pool!"
+	tip = "Richelieu and Algérie added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Reno, Hardy and others added to the standard build pool!"
+	tip = "Le Terrible, Jeanne d'Arc, Tartu and others added to the standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {

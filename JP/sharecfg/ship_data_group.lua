@@ -2516,11 +2516,21 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勲章交換",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"特別補給",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
 					}
 				},
 				0
@@ -2529,16 +2539,6 @@ pg.base.ship_data_group = {
 				"常設任務",
 				{
 					""
-				},
-				0
-			},
-			{
-				"特別補給（ランダム出現）",
-				{
-					"SHOP",
-					{
-						warp = "supplies"
-					}
 				},
 				0
 			}
@@ -2568,11 +2568,21 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勲章交換",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"特別補給",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
 					}
 				},
 				0
@@ -2581,16 +2591,6 @@ pg.base.ship_data_group = {
 				"常設任務",
 				{
 					""
-				},
-				0
-			},
-			{
-				"特別補給（ランダム出現）",
-				{
-					"SHOP",
-					{
-						warp = "supplies"
-					}
 				},
 				0
 			}
@@ -23024,6 +23024,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23131,6 +23142,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23163,6 +23184,17 @@ pg.base.ship_data_group = {
 				"イベント：凍絶の北海",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -23322,6 +23354,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23448,6 +23491,17 @@ pg.base.ship_data_group = {
 				"イベント：凍絶の北海",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -23578,6 +23632,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23640,6 +23704,17 @@ pg.base.ship_data_group = {
 				"イベント：凍絶の北海",
 				{
 					""
+				},
+				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}

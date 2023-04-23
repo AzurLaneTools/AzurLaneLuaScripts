@@ -183080,6 +183080,27 @@ _G.pg.base.item_data_statistics[59409] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59410] = {
+	display = "「제노바의 화염」 복각 이벤트 누적 보상. 이벤트 종료 후 사라짐",
+	name = "아이리스의 칼날",
+	max_num = 0,
+	type = 98,
+	drop_oil_max = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	virtual_type = 0,
+	link_id = 0,
+	id = 59410,
+	is_world = 0,
+	icon = "Props/fuxu_pt",
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",

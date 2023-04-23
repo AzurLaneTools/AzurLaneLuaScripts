@@ -19,13 +19,11 @@ return {
 				minTargetNumber = 1,
 				quota = 1,
 				time = 35,
+				nationality = 109,
 				skill_id = 60200,
 				check_target = {
 					"TargetSelf",
-					"TargetShipTag"
-				},
-				ship_tag_list = {
-					"RyzaBoost"
+					"TargetNationality"
 				}
 			}
 		}

@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "The crowds might love it, but I agree with what Sara: there's no soul in it.",
+			say = "The crowds might love it, but I agree with Sara: there's no soul in it.",
 			painting = {
 				alpha = 0.3,
 				time = 1

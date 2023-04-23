@@ -10094,11 +10094,11 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "黎塞留、阿尔及利亚 建造追加！"
+	tip = "苏维埃罗西亚 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "可怖、圣女贞德等角色 建造追加！"
+	tip = "塔什干、恰巴耶夫等角色 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {

@@ -11,7 +11,7 @@ pg.expedition_daily_template = {
 		des = "아직 개방되지 않았습니다. 기대해 주세요.",
 		limit_period = "",
 		id = 101,
-		sort = "0",
+		sort = "7",
 		weekday = {},
 		expedition_and_lv_limit_list = {}
 	},
@@ -182,7 +182,7 @@ pg.expedition_daily_template = {
 		des = "잠수 편대가 통상 파괴 작전을 개시했습니다. 성공 시 각종 잠수함 장비 설계도를 획득합니다.",
 		limit_period = "",
 		id = 501,
-		sort = "4",
+		sort = "5",
 		weekday = {
 			1,
 			2,
@@ -230,7 +230,7 @@ pg.expedition_daily_template = {
 		des = "강력한 적 특수함대가 출현했다! 격파 시 일정 확률로 전술 업그레이드 재료를 얻을 수 있다.",
 		limit_period = "",
 		id = 601,
-		sort = "7",
+		sort = "4",
 		weekday = {
 			1,
 			2,
@@ -278,7 +278,7 @@ pg.expedition_daily_template = {
 		des = "벨파스트와 특수 장비 전투 훈련 진행. 훈련 완료 시 특수 장비 또는 특수 장비 재료 획득 가능",
 		limit_period = "",
 		id = 701,
-		sort = "5",
+		sort = "6",
 		weekday = {
 			1,
 			2,
@@ -309,7 +309,7 @@ pg.expedition_daily_template = {
 		pic = "daily8",
 		des = "기간 한정 오픈되는 특수 장비 전투 특별 훈련. 훈련 완료 시 특수 장비 또는 특수 장비 재료 획득 가능",
 		id = 801,
-		sort = "6",
+		sort = "7",
 		weekday = {
 			1,
 			2,

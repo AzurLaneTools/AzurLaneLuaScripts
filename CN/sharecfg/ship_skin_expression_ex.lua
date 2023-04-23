@@ -10690,7 +10690,7 @@ pg.ship_skin_expression_ex = {
 		main_ex = {
 			{
 				1100,
-				"0|5|2"
+				"|5|2"
 			}
 		},
 		touch = {
@@ -10933,7 +10933,7 @@ pg.ship_skin_expression_ex = {
 		main_ex = {
 			{
 				1100,
-				"1|0|3"
+				"1||3"
 			}
 		},
 		touch = {

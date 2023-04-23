@@ -4807,41 +4807,15 @@ pg.activity_template = {
 	},
 	[4744] = {
 		mark = 20230413,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
 		config_data = "activity_drop_4744",
+		title_res_tag = "",
 		id = 4744,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					4,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 3,
 			bg = "loadingbg/bg_build_3_act",
@@ -4928,7 +4902,7 @@ pg.activity_template = {
 				{
 					2023,
 					5,
-					11
+					10
 				},
 				{
 					23,
@@ -5027,6 +5001,77 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[4749] = {
+		mark = 20230420,
+		config_client = "",
+		title_res_tag = "chuchunskin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 30,
+		id = 4749,
+		config_data = {
+			{
+				18432,
+				18433
+			},
+			{
+				18434,
+				18435
+			},
+			{
+				18436,
+				18437
+			},
+			{
+				18438,
+				18439
+			},
+			{
+				18440,
+				18441
+			},
+			{
+				18442,
+				18443
+			},
+			{
+				18444,
+				18445
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ChuChunSkinPage",
+			ui_name = "ChuChunSkinPage"
 		}
 	},
 	[7001] = {
@@ -26718,6 +26763,119 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30870] = {
+		mark = 20230420,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30870",
+		id = 30870,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "Rate UP for Le Terrible, Richelieu, Algérie and others! ",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 51%",
+				"Common: 30%",
+				"<color=#ffde38>Le Terrible</color>: 2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>Richelieu</color>: 2.0%<color=#92FC63>(up!)</color>",
+				"",
+				"<color=#ffde38>Algérie</color>: 2.0%<color=#92FC63>(up!)</color>",
+				"",
+				"<color=#ffde38>Jeanne d'Arc</color>: 0.5%",
+				"",
+				"<color=#d797ff>Maillé-Brézé</color>: 2.5%<color=#92FC63>(up!)</color>",
+				"",
+				"<color=#d797ff>Vauquelin</color>: 2.5%<color=#92FC63>(up!)</color>",
+				"",
+				"<color=#d797ff>Tartu</color>: 2.5%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>Foch</color>: 1.4%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[30871] = {
+		mark = 20230420,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30871",
+		id = 30871,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "Reno, Hardy and others added to the standard build pool!",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 26%",
+				"Common: 55%"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -26829,6 +26987,7 @@ pg.activity_template = {
 		4746,
 		4747,
 		4748,
+		4749,
 		7001,
 		7002,
 		7003,
@@ -27510,6 +27669,8 @@ pg.activity_template = {
 		30866,
 		30867,
 		30868,
-		30869
+		30869,
+		30870,
+		30871
 	}
 }
