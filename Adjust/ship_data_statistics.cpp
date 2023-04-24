@@ -2,17 +2,46 @@
 #include <iostream>
 #include <sstream>
 #include <string>
+#include <unistd.h>
 #include <vector>
-#define attr "name"
-
 using namespace std;
-void readCN(vector<int> allArray, char *attribute);
-ofstream output_file("out.c");
+
+#define attr "name"
+string currentFileName = __FILE__;
+ofstream output_file;
+
+void readJP(vector<int> &allArray);
 void output(int id, char *attribute, string str);
+void writeCN(vector<int> &allArray, char *attribute);
 int main()
 {
-    string filename = "JP\\sharecfg\\ship_data_statistics.lua";
+
+    int lastSlash = currentFileName.rfind('/');
+    if (lastSlash != string::npos)
+    {
+        currentFileName = currentFileName.substr(lastSlash + 1); // get the filename without the path
+    }
+    int lastDot = currentFileName.rfind('.');
+    if (lastDot != string::npos)
+    {
+        currentFileName = currentFileName.substr(0, lastDot); // remove the file extension
+    }
+    string OutputFileName = "..\\..\\Output\\"+currentFileName;
+    cout << OutputFileName << endl;
+    output_file.open(OutputFileName);
+
     vector<int> allArray;
+
+    // readJP();
+    readJP(allArray);
+    writeCN(allArray, attr);
+    return 0;
+}
+
+void readJP(vector<int> &allArray)
+{
+    string filename = "..\\..\\JP\\sharecfg\\" + currentFileName +".lua";
+
     string line;
     ifstream file(filename);
     if (file.is_open())
@@ -21,15 +50,15 @@ int main()
         {
             if (line.find("all") != string::npos)
             {
-              while (getline(file, line) && !line.empty() )
-              {
-                  if (line.find('}') != std::string::npos )
-                  {
-                      break;
-                  }
-                  stringstream ss(line);
+                while (getline(file, line) && !line.empty())
+                {
+                    if (line.find('}') != std::string::npos)
+                    {
+                        break;
+                    }
+                    stringstream ss(line);
                     if (ss.str() == "}")
-                      break;
+                        break;
                     int value;
                     while (ss >> value)
                     {
@@ -44,21 +73,18 @@ int main()
     else
     {
         cout << "Unable to open file" << endl;
-        return 1;
     }
 
     for (int i = 0; i < allArray.size(); i++)
     {
-        cout << allArray[i] << " ";
+    //    cout << allArray[i] << " ";
     }
     cout << "读取完毕" << endl;
-    readCN(allArray, attr);
-    return 0;
 }
 
-void readCN(vector<int> allArray, char *attribute)
+void writeCN(vector<int> &allArray, char *attribute)
 {
-    string filename = "CN\\sharecfgdata\\ship_data_statistics.lua";
+    string filename = "..\\..\\CN\\sharecfgdata\\"+ currentFileName +".lua";
     string line;
     ifstream file(filename);
     if (file.is_open())
@@ -81,12 +107,10 @@ void readCN(vector<int> allArray, char *attribute)
                             size_t start = line.find("\"") + 1;
                             size_t end = line.find("\"", start);
                             string name = line.substr(start, end - start);
-                             //cout << name << endl;
+                            // cout << name << endl;
                             output(allArray[i], attribute, name);
                             break;
                         }
-
-
                     }
                     break;
                 }
@@ -102,13 +126,18 @@ void readCN(vector<int> allArray, char *attribute)
     else
     {
         cout << "Unable to open file" << endl;
-        //return 0;
+        // return 0;
     }
-  //  return 1;
+    //  return 1;
 }
 
-void output(int id, char*attribute,string str)
+void output(int id, char *attribute, string str)
 {
+    static bool first = true;
+    if (first) {
+        first = false;
+        output_file << "#define ship ";
+    }
     string result = "replaceString(L," + to_string(id) + ",STR(\"" + attribute + "\")" + ",STR(\"" + str + "\"));\\";
     output_file << result << endl;
-    }
+}

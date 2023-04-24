@@ -1,0 +1,28 @@
+{
+  "cmake.cmakePath": "C:\\Users\\LIU-S\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe",
+  "cmake.debugConfig": {
+    //"cwd": "${workspaceFolder}\\build\\bin",
+    "debuggerArgs": [
+      "--working-directory=${workspaceFolder}/build/bin",
+      "-o",
+      "run"],
+      //"MIMode": "lldb",
+      // "lldbPath": "C:\\mingw64\\bin\\lldb.exe",
+      // "miDebuggerPath": "C:\\Program Files\\LLVM\\bin\\lldb.exe",
+  },
+  "clangd.path": "C:\\mingw64\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--compile-commands-dir=build",
+    "--completion-style=bundled",
+    "--fallback-style=microsoft",
+    "--enable-config",
+    "--function-arg-placeholders=false",
+    "--header-insertion-decorators",
+    "--header-insertion=iwyu",
+    "--log=verbose",
+    "--pch-storage=memory",
+    "--pretty",
+    "--ranking-model=heuristics",
+    "-j=99"
+  ]
+}

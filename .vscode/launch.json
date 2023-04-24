@@ -1,0 +1,55 @@
+{
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "(lldb) Launch",
+      "program": "${command:cmake.launchTargetPath}",
+      "args": [],
+      "cwd": "${workspaceFolder}\\build\\bin",
+      "environment": [
+        {
+          // add the directory where our target was built to the PATHs
+          // it gets resolved by CMake Tools:
+          "name": "PATH",
+          "value": "$PATH:${command:cmake.launchTargetDirectory}"
+        }
+      ]
+    },
+    {
+      "name": "(gdb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      // Resolved by CMake Tools:
+      "program": "${command:cmake.launchTargetPath}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [
+        {
+          // add the directory where our target was built to the PATHs
+          // it gets resolved by CMake Tools:
+          "name": "PATH",
+          "value": "$PATH:${command:cmake.launchTargetDirectory}"
+        },
+        {
+          "name": "OTHER_VALUE",
+          "value": "Something something"
+        }
+      ],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
