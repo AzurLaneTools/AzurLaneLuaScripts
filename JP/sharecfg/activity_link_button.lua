@@ -40,7 +40,7 @@ pg.activity_link_button = {
 		param = "0",
 		name = "event_map",
 		type = 0,
-		text_pic = "",
+		text_pic = "text_event_map",
 		id = 10,
 		group_id = 2,
 		pic = "event_map",
@@ -60,7 +60,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			4666
+			4780
 		}
 	},
 	[30] = {

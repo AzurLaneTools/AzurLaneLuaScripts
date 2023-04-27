@@ -25,9 +25,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:UpdateActivity()
 		end
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_AWARDS then
-		if getProxy(ContextProxy):getContextByMediator(ActivityMediator) then
-			return
-		end
+		slot4 = getProxy(ContextProxy):getContextByMediator(ActivityMediator)
 
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 	end

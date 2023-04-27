@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.enemy_data_statistics_36 = {
+	[902] = {
+		cannon = 10,
+		name = "軽巡「Knight」",
+		reload = 150,
+		fog_fx = "",
+		base = 90124,
+		air = 0,
+		battle_unit_type = 2,
+		dodge = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 0,
+		torpedo = 20,
+		durability = 3000,
+		antiaircraft = 150,
+		speed = 15,
+		armor = 0,
+		id = 902,
+		equipment_list = {
+			473011,
+			473012
+		}
+	},
+	[903] = {
+		cannon = 20,
+		name = "重巡「Bishop」",
+		reload = 150,
+		fog_fx = "",
+		base = 90125,
+		air = 0,
+		battle_unit_type = 3,
+		dodge = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 0,
+		torpedo = 20,
+		durability = 4000,
+		antiaircraft = 150,
+		speed = 15,
+		armor = 0,
+		id = 903,
+		equipment_list = {
+			473021,
+			473022,
+			473023
+		}
+	},
 	[904] = {
 		cannon = 30,
 		name = "戦艦「Rook」",
@@ -676,90 +723,6 @@ pg.enemy_data_statistics_36 = {
 		antiaircraft_growth = 0,
 		equipment_list = {
 			201109
-		}
-	},
-	[1000] = {
-		cannon = 3,
-		name = "量産型マハン級",
-		antiaircraft_growth = 666,
-		speed_growth = 0,
-		pilot_ai_template_id = 20005,
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		id = 1000,
-		cannon_growth = 270,
-		reload_growth = 0,
-		dodge_growth = 0,
-		reload = 150,
-		star = 2,
-		hit = 8,
-		antisub_growth = 0,
-		rarity = 1,
-		fog_fx = "",
-		base = 90100,
-		durability = 52,
-		armor_growth = 0,
-		torpedo_growth = 1440,
-		antiaircraft = 8,
-		hit_growth = 120,
-		armor = 0,
-		speed = 15,
-		torpedo = 17,
-		antisub = 0,
-		durability_growth = 1600,
-		luck_growth = 0,
-		battle_unit_type = 20,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			311002,
-			311004,
-			311092
-		}
-	},
-	[1001] = {
-		cannon = 3,
-		name = "量産型カゲロウ級",
-		antiaircraft_growth = 630,
-		speed_growth = 0,
-		pilot_ai_template_id = 20005,
-		air = 0,
-		air_growth = 0,
-		dodge = 0,
-		luck = 0,
-		id = 1001,
-		cannon_growth = 270,
-		reload_growth = 0,
-		dodge_growth = 0,
-		reload = 150,
-		star = 2,
-		hit = 8,
-		antisub_growth = 0,
-		rarity = 1,
-		fog_fx = "",
-		base = 90105,
-		durability = 56,
-		armor_growth = 0,
-		torpedo_growth = 1728,
-		antiaircraft = 8,
-		hit_growth = 120,
-		armor = 0,
-		speed = 15,
-		torpedo = 21,
-		antisub = 0,
-		durability_growth = 1600,
-		luck_growth = 0,
-		battle_unit_type = 20,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			311004,
-			311005,
-			311092
 		}
 	}
 }

@@ -8504,6 +8504,121 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70179] = {
+		id = 70179,
+		name = "DOA联动 EX2 转圈移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 4,
+				param = {
+					z = 55,
+					radius = 8,
+					antiClockWise = true,
+					duration = -1,
+					x = -2
+				}
+			}
+		}
+	},
+	[70180] = {
+		id = 70180,
+		name = "DOA联动 EX2 上方立定",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -15,
+					z = 72
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70181] = {
+		id = 70181,
+		name = "DOA联动 EX2 下方立定",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -15,
+					z = 38
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70182] = {
+		id = 70182,
+		name = "DOA联动 EX2 左侧立定",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -10,
+					z = 55
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70183] = {
+		id = 70183,
+		name = "DOA联动 EX2 右侧立定",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = 5,
+					z = 55
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

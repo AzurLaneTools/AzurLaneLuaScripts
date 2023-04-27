@@ -4,8 +4,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					attr = "injureRatio",
@@ -19,8 +18,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					attr = "injureRatio",
@@ -34,8 +32,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					attr = "injureRatio",
@@ -49,8 +46,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					attr = "injureRatio",
@@ -64,8 +60,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					attr = "injureRatio",
@@ -79,8 +74,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					attr = "injureRatio",
@@ -94,8 +88,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					attr = "injureRatio",
@@ -109,8 +102,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					attr = "injureRatio",
@@ -124,8 +116,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					attr = "injureRatio",
@@ -139,8 +130,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					attr = "injureRatio",
@@ -149,7 +139,7 @@ return {
 			}
 		}
 	},
-	time = 60,
+	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
 	picture = "",
@@ -169,8 +159,7 @@ return {
 		{
 			type = "BattleBuffAddAttr",
 			trigger = {
-				"onAttach",
-				"onRemove"
+				"onAttach"
 			},
 			arg_list = {
 				attr = "injureRatio",

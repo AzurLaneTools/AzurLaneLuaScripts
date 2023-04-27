@@ -175,6 +175,7 @@ pg.furniture_data_template = setmetatable({
 			100045,
 			100046,
 			100047,
+			100048,
 			200001,
 			200002,
 			200003,
@@ -4737,6 +4738,7 @@ pg.furniture_data_template = setmetatable({
 			100045,
 			100046,
 			100047,
+			100048,
 			31101,
 			54104,
 			54105
@@ -7281,7 +7283,8 @@ pg.furniture_data_template = setmetatable({
 		[14] = {
 			214,
 			100019,
-			100037
+			100037,
+			100048
 		},
 		[13] = {
 			100015,
@@ -8178,6 +8181,7 @@ pg.furniture_data_template = setmetatable({
 		100045,
 		100046,
 		100047,
+		100048,
 		200001,
 		200002,
 		200003,
@@ -14795,7 +14799,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		themeId = 0,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 6,
 		icon = "doaxunzhangicon",
 		deblocking = 1,
@@ -20046,6 +20050,56 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100048] = {
+		spine_extra = "",
+		describe = "ただの宝箱とは思わないことだピョ！",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "baoxiangguaiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "饅頭ミミック",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100048,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"baoxiangguai",
+				"normal"
+			},
+			[3] = {
+				{
+					-286,
+					59
+				},
+				"walk"
+			}
 		},
 		interAction_group = {}
 	},

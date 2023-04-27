@@ -1,32 +1,22 @@
 slot0 = class("DoaMainPage", import(".TemplatePage.PreviewTemplatePage"))
 
 function slot0.OnInit(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.btnList = slot0:findTF("btn_list", slot0.bg)
-	slot1 = getProxy(MiniGameProxy)
-	slot2 = getProxy(ActivityProxy)
+	uv0.super.OnInit(slot0)
 
-	onButton(slot0, findTF(slot0.bg, "btnMiniGame"), function ()
-		if uv1:IsActivityNotEnd(uv0:GetHubByGameId(17):getConfig("act_id")) then
-			uv2:emit(ActivityMediator.GO_MINI_GAME, 17)
-		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
-		end
-	end)
+	slot0.charactorTf = slot0:findTF("charactor", slot0.bg)
 end
 
 function slot0.OnFirstFlush(slot0)
 	uv0.super.OnFirstFlush(slot0)
+	onButton(slot0, slot0:findTF("btnMiniGame", slot0.bg), function ()
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.DOALINK_ISLAND)
+	end)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	if not slot0.charactorTf then
-		slot0.charactorTf = findTF(slot0.bg, "charactor")
-	end
+	slot1 = math.random(1, 9)
 
-	slot1 = math.random(1, 7)
-
-	for slot5 = 1, 7 do
+	for slot5 = 1, 9 do
 		setActive(findTF(slot0.charactorTf, "charactor" .. slot5), slot1 == slot5)
 	end
 end

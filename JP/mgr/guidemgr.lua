@@ -834,11 +834,14 @@ function slot0.Finder(slot0)
 
 	return {
 		Search = function (slot0, slot1)
+			slot2 = nil
+			slot2 = (type(slot1.path) ~= "function" or slot1.path()) and slot1.path
+
 			slot0:Clear()
 
-			slot3 = 20
-			slot4 = 0
-			slot5 = slot1.delay or 0
+			slot4 = 20
+			slot5 = 0
+			slot6 = slot1.delay or 0
 			slot0.findUITimer = Timer.New(function ()
 				uv0 = uv0 + uv1
 
@@ -848,18 +851,18 @@ function slot0.Finder(slot0)
 
 				if uv2 < uv0 then
 					if uv3 == 0 then
-						originalPrint("not found ui >>", uv4.path)
+						originalPrint("not found ui >>", uv4)
 						uv5:Clear()
-						uv4.notFound()
+						uv6.notFound()
 
 						return
 					end
 
 					slot0 = nil
 
-					if (uv4.conditionData == nil or uv6(uv4.path, uv4.conditionData)) and uv7(uv4.path, uv4.pathIndex) and go(slot0).activeInHierarchy then
+					if (uv6.conditionData == nil or uv7(uv4, uv6.conditionData)) and uv8(uv4, uv6.pathIndex) and go(slot0).activeInHierarchy then
 						uv5:Clear()
-						uv4.found(slot0)
+						uv6.found(slot0)
 
 						return
 					end
@@ -872,10 +875,12 @@ function slot0.Finder(slot0)
 			slot0.findUITimer.func()
 		end,
 		SearchTimely = function (slot0, slot1)
+			slot2 = nil
+
 			slot0:Clear()
 
-			if uv0(slot1.path, slot1.pathIndex) then
-				slot1.found(slot2)
+			if uv0((type(slot1.path) ~= "function" or slot1.path()) and slot1.path, slot1.pathIndex) then
+				slot1.found(slot3)
 			else
 				slot1.notFound()
 			end

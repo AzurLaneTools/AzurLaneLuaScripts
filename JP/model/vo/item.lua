@@ -2,6 +2,7 @@ slot0 = class("Item", import(".BaseVO"))
 slot0.REVERT_EQUIPMENT_ID = 15007
 slot0.COMMANDER_QUICKLY_TOOL_ID = 20010
 slot0.QUICK_TASK_PASS_TICKET_ID = 15013
+slot0.DOA_SELECT_CHAR_ID = 70144
 slot0.INVISIBLE_TYPE = {
 	[0] = true,
 	[9.0] = true
@@ -161,6 +162,10 @@ end
 
 function slot0.IsMaxCnt(slot0)
 	return slot0:getConfig("max_num") <= slot0.count
+end
+
+function slot0.IsDoaSelectCharItem(slot0)
+	return slot0.id == uv0.DOA_SELECT_CHAR_ID
 end
 
 return slot0

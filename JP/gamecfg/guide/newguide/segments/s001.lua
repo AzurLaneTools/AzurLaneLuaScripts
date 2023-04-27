@@ -51,8 +51,14 @@ return {
 				text = slot0[3]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/toggle_bg/toggles/light/frame",
 				pathIndex = -1,
+				path = function ()
+					if #getProxy(BuildShipProxy):GetPools() > 4 then
+						return "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/mask/bg/toggles/light/frame"
+					else
+						return "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/toggle_bg/bg/toggles/light/frame"
+					end
+				end,
 				triggerType = {
 					2
 				},

@@ -175753,11 +175753,10 @@ _G.pg.base.chapter_template_loop[1440004] = {
 }
 
 _G.pg.base.chapter_template_loop[1450001] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 0,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 0,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 11,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -176266,6 +176265,10 @@ _G.pg.base.chapter_template_loop[1450001] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	wall_prefab = {},
@@ -176273,11 +176276,10 @@ _G.pg.base.chapter_template_loop[1450001] = {
 }
 
 _G.pg.base.chapter_template_loop[1450002] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 0,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 0,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 11,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -176843,17 +176845,20 @@ _G.pg.base.chapter_template_loop[1450002] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1450003] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 0,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 0,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 11,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -177420,17 +177425,20 @@ _G.pg.base.chapter_template_loop[1450003] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
 }
 
 _G.pg.base.chapter_template_loop[1450004] = {
-	special_operation_list = "",
-	friendly_id = 0,
-	is_ai = 0,
-	pop_pic = "",
 	group_num = 2,
+	is_ai = 0,
+	friendly_id = 0,
+	pop_pic = "",
 	model = 11,
 	avoid_ratio = 10,
 	submarine_num = 1,
@@ -178074,8 +178082,581 @@ _G.pg.base.chapter_template_loop[1450004] = {
 		0
 	},
 	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
 	land_based = {},
 	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+_G.pg.base.chapter_template_loop[1450041] = {
+	group_num = 2,
+	is_ai = 0,
+	friendly_id = 0,
+	pop_pic = "",
+	model = 11,
+	avoid_ratio = 10,
+	submarine_num = 1,
+	fightauto = 1,
+	boss_refresh = 7,
+	is_limit_move = 0,
+	investigation_ratio = 6,
+	air_dominance_loop_rate = 80,
+	is_air_attack = 0,
+	is_ambush = 0,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	id = 1450041,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			110
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1484001,
+			15,
+			0
+		},
+		{
+			1484002,
+			20,
+			0
+		},
+		{
+			1484003,
+			30,
+			1
+		},
+		{
+			1484004,
+			15,
+			0
+		},
+		{
+			1484005,
+			60,
+			0
+		},
+		{
+			1484006,
+			40,
+			1
+		},
+		{
+			1484007,
+			15,
+			0
+		},
+		{
+			1484008,
+			60,
+			0
+		},
+		{
+			1484009,
+			40,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {},
+	ai_expedition_list = {
+		1
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1484013
+	},
+	enemy_refresh = {
+		0,
+		1,
+		1,
+		2
+	},
+	elite_refresh = {
+		0
+	},
+	ai_refresh = {
+		0
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			false,
+			0
+		},
+		{
+			5,
+			6,
+			false,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			1
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			1
+		},
+		{
+			5,
+			2,
+			false,
+			0
+		},
+		{
+			5,
+			1,
+			false,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			false,
+			0
+		},
+		{
+			4,
+			6,
+			false,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			false,
+			0
+		},
+		{
+			4,
+			1,
+			false,
+			0
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			false,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			6
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			16
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			6
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			false,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			6
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			6
+		},
+		{
+			2,
+			0,
+			true,
+			0
+		},
+		{
+			1,
+			8,
+			false,
+			0
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			6
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			6
+		},
+		{
+			1,
+			1,
+			true,
+			0
+		},
+		{
+			1,
+			0,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			false,
+			0
+		},
+		{
+			0,
+			7,
+			false,
+			0
+		},
+		{
+			0,
+			6,
+			false,
+			0
+		},
+		{
+			0,
+			5,
+			false,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			8
+		},
+		{
+			0,
+			3,
+			false,
+			0
+		},
+		{
+			0,
+			2,
+			false,
+			0
+		},
+		{
+			0,
+			1,
+			false,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			4,
+			6,
+			"doa_2x2_2",
+			62,
+			-33
+		},
+		{
+			4,
+			1,
+			"doa_2x2_2",
+			46,
+			-33
+		},
+		{
+			3,
+			8,
+			"doa_1x1_1",
+			0,
+			0
+		},
+		{
+			3,
+			0,
+			"doa_1x1_1",
+			0,
+			0
+		},
+		{
+			1,
+			8,
+			"doa_1x1_2",
+			0,
+			0
+		},
+		{
+			1,
+			0,
+			"doa_1x1_2",
+			1,
+			0
+		},
+		{
+			0,
+			6,
+			"doa_3x1_1",
+			104,
+			4
+		},
+		{
+			0,
+			5,
+			"doa_1x1_3",
+			0,
+			25
+		},
+		{
+			0,
+			3,
+			"doa_1x1_3",
+			0,
+			25
+		},
+		{
+			0,
+			0,
+			"doa_3x1_1",
+			104,
+			4
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_doa",
+		45,
+		20,
+		-234,
+		-198,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		9,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {},
+	land_based = {},
+	chapter_strategy = {},
+	wall_prefab = {},
 	alarm_cell = {}
 }
 

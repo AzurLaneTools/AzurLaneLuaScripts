@@ -84,6 +84,11 @@ function slot0.OnFinish(slot0, slot1, slot2)
 				slot0.catchupActTag = true
 			end
 		end)
+		table.sort(slot6, CompareFuncs({
+			function (slot0)
+				return slot0.id == uv0 and 1 or 0
+			end
+		}))
 	end
 
 	slot8 = getProxy(PlayerProxy)

@@ -63,6 +63,12 @@ function slot0.Load(slot0, slot1)
 		slot4:SetAction("normal", 0)
 
 		uv0.spineAnim = slot4
+
+		onNextTick(function ()
+			if uv0.spineAnim then
+				uv0.spineAnim:Resume()
+			end
+		end)
 	end)
 end
 
