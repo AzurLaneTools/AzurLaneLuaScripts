@@ -1864,6 +1864,11 @@ function temp()
 			["佩"] = {
 				this = true
 			}
+		},
+		["歐"] = {
+			["根"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -5034,6 +5039,9 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["娜"] = {
+			this = true
 		}
 	}
 end
@@ -5793,6 +5801,16 @@ function temp()
 			["螺"] = {
 				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["環"] = {
+		this = {
+			this = true
 		}
 	}
 end

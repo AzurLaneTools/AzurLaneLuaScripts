@@ -1275,7 +1275,9 @@ pg.map_event_list = {
 		event_list = {
 			409
 		},
-		event_list_loop = {},
+		event_list_loop = {
+			409
+		},
 		help_pictures = {
 			"helpbg/battle_doa"
 		}

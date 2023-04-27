@@ -37,7 +37,28 @@ function slot0.OnLoaded(slot0)
 	slot0.freeCount = slot0:findTF("gallery/res_items/ticket")
 	slot0.ticketTF = slot0:findTF("Text", slot0.freeCount)
 	slot0.patingTF = slot0:findTF("painting")
-	slot0.poolContainer = slot0:findTF("gallery/toggle_bg/toggles")
+	slot0.poolContainer = slot0:findTF("gallery/toggle_bg/bg/toggles")
+	slot1 = slot0.poolContainer
+	slot0.newTpl = slot1:Find("new")
+	slot0.newPoolTpls = {
+		slot0.newTpl
+	}
+	slot1 = slot0.poolContainer
+	slot0.specialTpl = slot1:Find("special")
+	slot0.specialPoolTpls = {
+		slot0.specialTpl
+	}
+	slot1 = slot0.poolContainer
+	slot0.lightTpl = slot1:Find("light")
+	slot0.lightPoolTpls = {
+		slot0.lightTpl
+	}
+	slot1 = slot0.poolContainer
+	slot0.heavyTpl = slot1:Find("heavy")
+	slot0.heavyPoolTpls = {
+		slot0.heavyTpl
+	}
+	slot0.maskContainer = slot0:findTF("gallery/mask")
 	slot0.buildPoolExchangeTF = slot0:findTF("gallery/exchange_bg")
 	slot0.buildPoolExchangeGetBtn = slot0.buildPoolExchangeTF:Find("get")
 	slot0.buildPoolExchangeTxt = slot0.buildPoolExchangeTF:Find("Text"):GetComponent(typeof(Text))
@@ -48,6 +69,8 @@ function slot0.OnLoaded(slot0)
 	slot0.tipTime = slot0._tf:Find("gallery/bg/time_text")
 	slot0.helpBtn = slot0:findTF("gallery/help_btn")
 	slot0.testBtn = slot0:findTF("gallery/test_btn")
+	slot0.prevArr = slot0:findTF("gallery/prev_arr")
+	slot0.nextArr = slot0:findTF("gallery/next_arr")
 	slot0.activityTimer = {}
 	slot0.freeActTimer = {}
 end
@@ -68,32 +91,152 @@ function slot0.Flush(slot0, slot1, slot2)
 	slot0.pools = underscore.filter(slot1, function (slot0)
 		return tobool(uv1) == (uv0:getBuildPoolActivity(slot0) and slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD or false)
 	end)
-	slot4 = slot0:ActivePool()
+
+	if #slot0.pools > 4 then
+		slot0:AdjustToggleContainer()
+	end
+
+	slot4 = {}
+	slot5 = slot0:ActivePool()
+	slot6 = BuildShipScene.buildShipActPoolId
 
 	slot0:RemoveAllTimer()
 	eachChild(slot0.poolContainer, function (slot0)
 		setActive(slot0, false)
 	end)
 
-	for slot8, slot9 in ipairs(slot0.pools) do
-		setActive(slot0.poolContainer:Find(slot9:GetMark()), true)
+	for slot10, slot11 in ipairs(slot0.pools) do
+		setActive(slot0:GetPoolTpl(slot11:GetMark()), true)
 
-		if slot9:IsActivity() then
-			slot0:AddActivityTimer(slot9)
+		if slot11:IsActivity() then
+			slot0:AddActivityTimer(slot11)
 		end
 
-		slot12 = slot11:Find("frame")
+		slot14 = slot13:Find("frame")
 
-		onToggle(slot0, slot12, function (slot0)
+		onToggle(slot0, slot14, function (slot0)
 			if slot0 then
 				uv0:SwitchPool(uv1)
 			end
 		end, SFX_PANEL)
-		triggerToggle(slot12, slot10 == slot4)
+		triggerToggle(slot14, false)
+
+		slot4[slot11:GetPoolId()] = slot13
 	end
 
+	table.sort(slot0.pools, function (slot0, slot1)
+		if slot0:GetSortCode() == slot1:GetSortCode() then
+			return slot1:GetPoolId() < slot0:GetPoolId()
+		else
+			return slot3 < slot2
+		end
+	end)
+
+	for slot10, slot11 in ipairs(slot0.pools) do
+		slot4[slot11:GetPoolId()]:SetAsFirstSibling()
+	end
+
+	slot7 = slot0:GetActivePool(slot5, slot6)
+	slot9 = slot4[slot7:GetPoolId()]
+
+	triggerToggle(slot9:Find("frame"), true)
+
+	slot5, slot6 = nil
+	slot0.contextData.projectName = nil
+
+	scrollTo(slot0.poolContainer.parent, 0, 1)
 	slot0:RefreshFreeBuildActivity()
 	slot0:UpdateItem(slot0.contextData.itemVO.count)
+	onNextTick(function ()
+		uv0:UpdateArr(#uv0.pools)
+	end)
+end
+
+function slot1(slot0)
+	slot1 = _.select(slot0.pools, function (slot0)
+		return slot0:GetMark() == BuildShipPool.BUILD_POOL_MARK_NEW
+	end)
+
+	table.sort(slot1, function (slot0, slot1)
+		return slot0:GetPoolId() < slot1:GetPoolId()
+	end)
+
+	return slot1[1]
+end
+
+function slot0.GetActivePool(slot0, slot1, slot2)
+	if not slot1 then
+		return nil
+	end
+
+	slot3 = nil
+
+	return slot1 == BuildShipPool.BUILD_POOL_MARK_NEW and (_.detect(slot0.pools, function (slot0)
+		return slot0:GetPoolId() == uv0
+	end) or uv0(slot0)) or _.detect(slot0.pools, function (slot0)
+		return slot0:GetMark() == uv0
+	end) or slot0.pools[1]
+end
+
+function slot0.AdjustToggleContainer(slot0)
+	if not slot0.isInit then
+		slot1 = slot0.poolContainer.parent
+
+		SetParent(slot1, slot0.maskContainer)
+
+		slot2 = 0.85
+		slot1.localScale = Vector3(slot2, slot2, 1)
+		slot1.sizeDelta = slot1.sizeDelta * (1 + 1 - slot2)
+		slot4 = slot0.poolContainer:GetComponent(typeof(HorizontalLayoutGroup))
+		slot4.padding.left = 60
+		slot4.padding.right = 60
+		slot4.padding.top = 0
+		slot0.isInit = true
+	end
+end
+
+function slot0.UpdateArr(slot0, slot1)
+	if slot1 <= 4 then
+		setActive(slot0.prevArr, false)
+		setActive(slot0.nextArr, false)
+
+		return
+	end
+
+	slot2 = getBounds(slot0.maskContainer)
+	slot3 = slot0.poolContainer
+	slot3 = slot3:GetChild(0)
+	slot4 = slot0.poolContainer
+	slot4 = slot4:GetChild(slot0.poolContainer.childCount - 1)
+
+	onScroll(slot0, slot0.poolContainer.parent, function (slot0)
+		slot1 = getBounds(uv0)
+		slot2 = getBounds(uv1)
+
+		setActive(uv2.prevArr, slot0.x > 0.01)
+		setActive(uv2.nextArr, slot0.x < 0.99)
+	end)
+	onButton(slot0, slot0.prevArr, function ()
+		scrollTo(uv0.poolContainer.parent, 0, 1)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.nextArr, function ()
+		scrollTo(uv0.poolContainer.parent, 1, 1)
+	end, SFX_PANEL)
+end
+
+function slot0.GetPoolTpl(slot0, slot1)
+	assert(slot0[slot1 .. "PoolTpls"])
+
+	if #slot0[slot1 .. "PoolTpls"] <= 0 then
+		slot3 = slot0[slot1 .. "Tpl"]
+		slot5 = Object.Instantiate(slot3, slot0.poolContainer).transform
+
+		slot5:SetSiblingIndex(slot3:GetSiblingIndex() + 1)
+
+		return slot5
+	else
+		return table.remove(slot2, 1)
+	end
 end
 
 function slot0.ActivePool(slot0)
@@ -101,6 +244,15 @@ function slot0.ActivePool(slot0)
 		return slot0:IsActivity()
 	end)
 	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD)
+
+	if slot0.contextData.activity and slot0.contextData.activity > 0 then
+		slot0.contextData.projectName = BuildShipPool.BUILD_POOL_MARK_NEW
+
+		if getProxy(ActivityProxy):getActivityById(slot0.contextData.activity) and not slot3:isEnd() then
+			BuildShipScene.buildShipActPoolId = slot3:getConfig("config_id")
+		end
+	end
+
 	slot3 = nil
 	slot3 = (not slot0.contextData.projectName or slot0.contextData.projectName) and (not BuildShipScene.projectName or (BuildShipScene.projectName ~= BuildShipPool.BUILD_POOL_MARK_NEW or slot1 or BuildShipPool.BUILD_POOL_MARK_HEAVY) and BuildShipScene.projectName) and (not slot1 or BuildShipPool.BUILD_POOL_MARK_NEW) and (slot2 and not slot2:isEnd() and (_.detect(slot0.pools, function (slot0)
 		return slot0.id == uv0
@@ -179,9 +331,21 @@ function slot0.SwitchPool(slot0, slot1)
 	end
 
 	slot0:findTF("gallery/bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/BuildShipUI_atlas", "sub_title_" .. slot1:GetMark())
-	slot0:findTF("gallery/bg"):GetComponent(typeof(Image)).sprite = LoadSprite(slot2:getBuildActivityCfgByID(slot1:getConfigTable().id) and slot7.bg or "loadingbg/bg_" .. slot6.icon)
+	slot6 = slot1:getConfigTable()
+	slot7 = nil
 
-	slot0.tipSTxt:SetText(slot7 and slot7.buildship_tip or i18n("buildship_" .. slot4 .. "_tip"))
+	if slot1:IsActivity() then
+		slot7 = LoadSprite(slot2:getBuildActivityCfgByID(slot6.id) and slot8.bg or "loadingbg/bg_" .. slot6.icon)
+
+		slot0.tipSTxt:SetText(slot8 and slot8.buildship_tip or i18n("buildship_" .. slot4 .. "_tip"))
+	else
+		slot7 = LoadSprite("loadingbg/bg_" .. slot6.icon)
+
+		slot0.tipSTxt:SetText(i18n("buildship_" .. slot4 .. "_tip"))
+	end
+
+	slot0:findTF("gallery/bg"):GetComponent(typeof(Image)).sprite = slot7
+
 	setText(slot0:findTF("gallery/item_bg/item/Text"), slot6.number_1)
 	setText(slot0:findTF("gallery/item_bg/gold/Text"), slot6.use_gold)
 	slot0:UpdateBuildPoolExchange(slot1)
@@ -233,6 +397,10 @@ function slot0.SwitchPool(slot0, slot1)
 	end
 
 	BuildShipScene.projectName = slot4
+
+	if slot1:IsActivity() then
+		BuildShipScene.buildShipActPoolId = slot1:GetPoolId()
+	end
 end
 
 function slot0.UpdateBuildPoolPaiting(slot0, slot1)
@@ -251,15 +419,8 @@ function slot0.UpdateBuildPoolPaiting(slot0, slot1)
 	end
 
 	if slot0.painting ~= slot2 then
-		slot3 = pg.UIMgr
-		slot3 = slot3:GetInstance()
-
-		slot3:LoadingOn()
-
 		function slot3()
 			uv0.painting = uv1
-
-			pg.UIMgr:GetInstance():LoadingOff()
 		end
 
 		if slot0.buildPainting then

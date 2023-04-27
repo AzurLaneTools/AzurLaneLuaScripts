@@ -664,9 +664,9 @@ function slot9(slot0, slot1)
 			slot10:AddSprite(slot11, GetSpriteFromAtlas(slot7.rawIcon.atlas, slot11))
 			setText(slot8, "")
 
-			slot10.text = string.format("<icon name=%s w=0.7 h=0.7/>%s", slot11, slot7.info or "")
+			slot10.text = string.format("<icon name=%s w=0.7 h=0.7/>%s", slot11, HXSet.hxLan(slot7.info or ""))
 		else
-			setText(slot8, slot7.info and SwitchSpecialChar(slot7.info, true) or "")
+			setText(slot8, HXSet.hxLan(slot7.info and SwitchSpecialChar(slot7.info, true) or ""))
 		end
 
 		setActive(slot10.gameObject, slot7.rawIcon)

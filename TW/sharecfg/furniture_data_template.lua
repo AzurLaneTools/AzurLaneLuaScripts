@@ -131,6 +131,7 @@ pg.furniture_data_template = setmetatable({
 			100020,
 			100021,
 			100022,
+			100023,
 			200001,
 			200002,
 			200003,
@@ -4005,6 +4006,7 @@ pg.furniture_data_template = setmetatable({
 			100020,
 			100021,
 			100022,
+			100023,
 			54104,
 			54105
 		},
@@ -4734,7 +4736,8 @@ pg.furniture_data_template = setmetatable({
 			100016,
 			100017,
 			100018,
-			100020
+			100020,
+			100023
 		},
 		[2] = {
 			122,
@@ -6901,6 +6904,7 @@ pg.furniture_data_template = setmetatable({
 		100020,
 		100021,
 		100022,
+		100023,
 		200001,
 		200002,
 		200003,
@@ -12791,7 +12795,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		themeId = 0,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 6,
 		icon = "doaxunzhangicon",
 		deblocking = 1,
@@ -15647,6 +15651,56 @@ pg.base.furniture_data_template = {
 		animator = {
 			{
 				"feiqiuqianCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100023] = {
+		spine_extra = "",
+		describe = "來點熱鬧的節慶氛圍吧~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "yanhuadanicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "節慶的煙火",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100023,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yanhuadan",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					"houzhai_yanhua"
+				}
 			}
 		},
 		interAction_group = {}

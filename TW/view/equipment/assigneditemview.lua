@@ -50,8 +50,21 @@ function slot0.OnInit(slot0)
 			return
 		end
 
-		uv0:emit(EquipmentMediator.ON_USE_ITEM, uv0.itemVO.id, uv0.count, uv0.itemVO:getTempCfgTable().usage_arg[uv0.selectedIndex])
-		uv0:Hide()
+		function slot0()
+			uv0:emit(EquipmentMediator.ON_USE_ITEM, uv0.itemVO.id, uv0.count, uv0.itemVO:getTempCfgTable().usage_arg[uv0.selectedIndex])
+			uv0:Hide()
+		end
+
+		if uv0.itemVO:IsDoaSelectCharItem() then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("doa_character_select_confirm", HXSet.hxLan(pg.ship_data_statistics[uv0.displayDrops[uv0.selectedIndex].id].name)),
+				onYes = function ()
+					uv0()
+				end
+			})
+		else
+			slot0()
+		end
 	end, SFX_PANEL)
 end
 
@@ -79,6 +92,10 @@ function slot0.updateValue(slot0)
 	end)
 end
 
+function slot1(slot0)
+	return getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot0].group_type) ~= nil
+end
+
 function slot0.update(slot0, slot1)
 	slot0.count = 1
 	slot0.selectedIndex = nil
@@ -91,6 +108,7 @@ function slot0.update(slot0, slot1)
 			count = slot0[3]
 		}
 	end)
+	slot2 = slot1:getConfig("time_limit") == 1
 
 	slot0.ulist:make(function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
@@ -107,6 +125,12 @@ function slot0.update(slot0, slot1)
 			setScrollText(slot2:Find("name_bg/Text"), uv0.displayDrops[slot1].cfg.name)
 
 			uv0.selectedItem = uv0.selectedItem or slot2
+
+			if uv1 and slot3.type == DROP_TYPE_SHIP and uv2(slot3.id) then
+				setText(slot2:Find("item/tip/Text"), i18n("tech_character_get"))
+			end
+
+			setActive(slot2:Find("item/tip"), slot4)
 		end
 	end)
 	slot0.ulist:align(#slot0.displayDrops)

@@ -103356,6 +103356,56 @@ _G.pg.base.equip_data_statistics[60833] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[60981] = {
+	type = 99,
+	name = "航空攻击展示-露娜I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "航母空袭展示用",
+	id = 60981,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60981
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[60982] = {
+	id = 60982,
+	name = "航空攻击展示-露娜II",
+	base = 60981,
+	weapon_id = {
+		60982
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[60983] = {
+	id = 60983,
+	name = "航空攻击展示-露娜III",
+	base = 60981,
+	weapon_id = {
+		60983
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[61007] = {
 	type = 1,
 	name = "約克镇技能隨機掃射海面LV1",

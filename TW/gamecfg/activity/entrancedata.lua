@@ -303,7 +303,7 @@ return {
 		banner = "doa_medal",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
-			SCENE.DOA_MEDAL_COLLECTION_SCENE
+			SCENE.DOA2_MEDAL_COLLECTION_SCENE
 		},
 		isShow = function ()
 			return getProxy(ActivityProxy):getActivityById(ActivityConst.DOA_MEDAL_ACT_ID) and not slot0:isEnd()

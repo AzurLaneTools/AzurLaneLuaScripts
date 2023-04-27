@@ -183,12 +183,14 @@ function slot4.doBeamDamage(slot0, slot1)
 
 	for slot7, slot8 in pairs(slot1:GetCldUnitList()) do
 		if slot8:IsAlive() then
-			slot0._dataProxy:HandleDamage(slot2, slot8)
+			if slot1:GetBeamExtraParam().mainFilter ~= true or not slot8:IsMainFleetUnit() then
+				slot0._dataProxy:HandleDamage(slot2, slot8)
 
-			slot9, slot10 = uv0.Battle.BattleFXPool.GetInstance():GetFX(slot1:GetFXID())
+				slot9, slot10 = uv0.Battle.BattleFXPool.GetInstance():GetFX(slot1:GetFXID())
 
-			pg.EffectMgr.GetInstance():PlayBattleEffect(slot9, slot10:Add(slot8:GetPosition()), true)
-			uv0.Battle.PlayBattleSFX(slot1:GetSFXID())
+				pg.EffectMgr.GetInstance():PlayBattleEffect(slot9, slot10:Add(slot8:GetPosition()), true)
+				uv0.Battle.PlayBattleSFX(slot1:GetSFXID())
+			end
 		end
 	end
 

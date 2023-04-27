@@ -3722,3 +3722,49 @@ end
 function GetRomanDigit(slot0)
 	return string.char(226, 133, 160 + slot0 - 1)
 end
+
+function quickPlayAnimator(slot0, slot1)
+	slot0:GetComponent(typeof(Animator)):Play(slot1, -1, 0)
+end
+
+function getSurveyUrl(slot0)
+	slot1 = pg.survey_data_template[slot0]
+	slot2 = nil
+
+	if not IsUnityEditor then
+		if PLATFORM_CODE == PLATFORM_CH then
+			if PLATFORM == PLATFORM_ANDROID then
+				if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_BILI then
+					slot2 = slot1.main_url
+				else
+					slot2 = slot1.uo_url
+				end
+			elseif PLATFORM == PLATFORM_IPHONEPLAYER then
+				slot2 = slot1.ios_url
+			end
+		elseif PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+			slot2 = slot1.main_url
+		end
+	end
+
+	slot3 = getProxy(PlayerProxy):getRawData().id
+	slot5 = nil
+	slot12 = {
+		slot3,
+		getProxy(UserProxy):getRawData().arg2 or "",
+		PLATFORM == PLATFORM_ANDROID and 1 or PLATFORM == PLATFORM_IPHONEPLAYER and 2 or 3,
+		getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot6.server or 0] and slot7.name or "",
+		getProxy(PlayerProxy):getRawData().level,
+		slot0 .. "_" .. slot3
+	}
+
+	if slot2 then
+		for slot16, slot17 in ipairs(slot12) do
+			slot11 = string.gsub(slot11, "$" .. slot16, tostring(slot17))
+		end
+	end
+
+	warning(slot11)
+
+	return slot11
+end

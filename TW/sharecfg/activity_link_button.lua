@@ -15,7 +15,7 @@ pg.activity_link_button = {
 				{
 					2023,
 					4,
-					13
+					27
 				},
 				{
 					0,
@@ -26,8 +26,8 @@ pg.activity_link_button = {
 			{
 				{
 					2023,
-					4,
-					27
+					5,
+					11
 				},
 				{
 					23,
@@ -74,7 +74,7 @@ pg.activity_link_button = {
 				{
 					2023,
 					4,
-					13
+					27
 				},
 				{
 					0,
@@ -85,8 +85,8 @@ pg.activity_link_button = {
 			{
 				{
 					2023,
-					4,
-					27
+					5,
+					11
 				},
 				{
 					23,
@@ -107,22 +107,19 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			41028
+			4780
 		}
 	},
 	[30] = {
 		param = "0",
 		name = "event_boss",
-		type = 0,
+		time = "stop",
 		text_pic = "text_event_boss",
+		type = 0,
+		pic = "event_boss",
 		id = 30,
 		group_id = 3,
-		pic = "event_boss",
-		order = 1,
-		time = {
-			"default",
-			41105
-		}
+		order = 1
 	},
 	[40] = {
 		param = "0",

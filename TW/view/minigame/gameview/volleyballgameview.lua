@@ -243,10 +243,7 @@ function slot0.didEnter(slot0)
 				uv0:resumeGame()
 			end,
 			onYes = function ()
-				uv0:exitGame()
-				setActive(uv0.mainUI, true)
-				setActive(uv0.gameUI, false)
-				uv0:clearSpineChars()
+				uv0:endGame()
 			end
 		})
 	end, SFX_PANEL)
@@ -1398,6 +1395,8 @@ function slot0.updateScore(slot0)
 end
 
 function slot0.endGame(slot0)
+	setActive(slot0.winTag, slot0.ourScoreNum ~= slot0.enemyScoreNum)
+	setActive(slot0.loseTag, slot0.ourScoreNum ~= slot0.enemyScoreNum)
 	slot0:setBtnAvailable(false)
 
 	slot0.isInGame = false

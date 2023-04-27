@@ -5,6 +5,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.bg = findTF(slot1, "bg")
 	slot0.countTF = findTF(slot1, "bg/icon_bg/count"):GetComponent(typeof(Text))
 	slot0.nameTF = findTF(slot1, "bg/name"):GetComponent(typeof(Text))
+	slot0.timeLimitTag = findTF(slot1, "bg/timeline")
 
 	ClearTweenItemAlphaAndWhite(slot0.go)
 end
@@ -12,6 +13,7 @@ end
 function slot0.update(slot0, slot1)
 	slot0.itemVO = slot1
 
+	setActive(slot0.timeLimitTag, slot1:getConfig("time_limit") == 1)
 	updateItem(rtf(slot0.bg), slot1)
 	TweenItemAlphaAndWhite(slot0.go)
 

@@ -126,7 +126,7 @@ function slot0.UpdateBuffs(slot0, slot1)
 end
 
 function slot0.UpdateVirtualBuff(slot0, slot1, slot2)
-	LoadImageSpriteAsync(slot2.Image, slot1)
+	LoadImageSpriteAtlasAsync("ui/mainui_atlas", slot2.Image, slot1)
 	onButton(slot0, slot1, function ()
 		uv0:emit(NewMainMediator.GO_SINGLE_ACTIVITY, ActivityConst.DOA_PT_ID)
 	end, SFX_PANEL)

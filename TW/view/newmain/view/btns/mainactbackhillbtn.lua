@@ -39,7 +39,9 @@ function slot0.IsShowTip(slot0)
 		if slot2:getConfig("config_client").scene == SCENE.NEWYEAR_BACKHILL_2023 then
 			return slot0:IsShowTip4NewYear2023()
 		elseif slot3 == SCENE.SPRING_FESTIVAL_BACKHILL_2023 then
-			return SpringFestival2023Scene.IsShowMainTip()
+			return SpringFestival2023Scene.IsShowMainTip(slot2)
+		elseif slot3 == SCENE.DOALINK_ISLAND then
+			return DOALinkIslandScene.IsShowMainTip(slot2)
 		end
 	end
 end

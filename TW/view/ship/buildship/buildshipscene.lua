@@ -194,13 +194,22 @@ function slot0.switchPage(slot0, slot1, slot2)
 		end
 	elseif slot1 == uv0.PAGE_SUPPORT then
 		slot0.supportShipPoolPage:ExecuteAction("ShowOrHide", slot2)
-		slot0.supportShipPoolPage:ExecuteAction("Flush")
+
+		if slot2 then
+			slot0.supportShipPoolPage:ExecuteAction("Flush")
+		end
 	elseif slot1 == uv0.PAGE_BUILD then
 		slot0.poolsPage:ExecuteAction("ShowOrHide", slot2)
-		slot0.poolsPage:ExecuteAction("Flush", slot0.pools, false)
+
+		if slot2 then
+			slot0.poolsPage:ExecuteAction("Flush", slot0.pools, false)
+		end
 	elseif slot1 == uv0.PAGE_NEWSERVER then
 		slot0.poolsPage:ExecuteAction("ShowOrHide", slot2)
-		slot0.poolsPage:ExecuteAction("Flush", slot0.pools, true)
+
+		if slot2 then
+			slot0.poolsPage:ExecuteAction("Flush", slot0.pools, true)
+		end
 	elseif slot1 == uv0.PAGE_PRAY then
 		if slot2 then
 			slot0:emit(BuildShipMediator.OPEN_PRAY_PAGE)

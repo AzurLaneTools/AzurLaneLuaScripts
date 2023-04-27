@@ -2809,7 +2809,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[205016] = {
 		ship_group = 20501,
-		name = "伊丽莎白占坑",
+		name = "SeasideOrders",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
@@ -2838,7 +2838,7 @@ pg.base.ship_skin_template_7 = {
 		no_showing = "0",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "占坑",
+		desc = "真是的，在那裡發什麼呆呢僕從！別忙活了，快到海裡來放鬆下吧！難得我大駕光臨到海邊，可別讓我失望！",
 		voice_actor = 28,
 		spine_offset = "",
 		gyro = 0,

@@ -128163,6 +128163,1397 @@ _G.pg.base.task_data_template[17468] = {
 	}
 }
 
+_G.pg.base.task_data_template[17521] = {
+	name = "小欧根npc临时加入",
+	guild_coin_award = 0,
+	award = 97290,
+	type = 6,
+	desc = "不该看到",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17521,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			403121,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17555] = {
+	name = "小欧根通常任务1",
+	guild_coin_award = 0,
+	award = 97331,
+	type = 6,
+	desc = "艦隊出擊，獲得20次勝利",
+	count_inherit = 17556,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17556",
+	auto_commit = 0,
+	story_id = "",
+	id = 17555,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17556] = {
+	name = "小欧根通常任务2",
+	guild_coin_award = 0,
+	award = 97332,
+	type = 6,
+	desc = "艦隊出擊，獲得40次勝利",
+	count_inherit = 17557,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17557",
+	auto_commit = 0,
+	story_id = "",
+	id = 17556,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17557] = {
+	name = "小欧根通常任务3",
+	guild_coin_award = 0,
+	award = 97333,
+	type = 6,
+	desc = "艦隊出擊，獲得60次勝利",
+	count_inherit = 17558,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17558",
+	auto_commit = 0,
+	story_id = "",
+	id = 17557,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17558] = {
+	name = "小欧根通常任务4",
+	guild_coin_award = 0,
+	award = 97334,
+	type = 6,
+	desc = "艦隊出擊，獲得80次勝利",
+	count_inherit = 17559,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17559",
+	auto_commit = 0,
+	story_id = "",
+	id = 17558,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17559] = {
+	name = "小欧根通常任务5",
+	guild_coin_award = 0,
+	award = 97335,
+	type = 6,
+	desc = "艦隊出擊，獲得100次勝利",
+	count_inherit = 17560,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17560",
+	auto_commit = 0,
+	story_id = "",
+	id = 17559,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17560] = {
+	name = "小欧根通常任务6",
+	guild_coin_award = 0,
+	award = 97336,
+	type = 6,
+	desc = "艦隊出擊，獲得120次勝利",
+	count_inherit = 17561,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17561",
+	auto_commit = 0,
+	story_id = "",
+	id = 17560,
+	target_num = 120,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17561] = {
+	name = "小欧根通常任务7",
+	guild_coin_award = 0,
+	award = 97337,
+	type = 6,
+	desc = "艦隊出擊，獲得140次勝利",
+	count_inherit = 17562,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17562",
+	auto_commit = 0,
+	story_id = "",
+	id = 17561,
+	target_num = 140,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17562] = {
+	name = "小欧根通常任务8",
+	guild_coin_award = 0,
+	award = 97338,
+	type = 6,
+	desc = "艦隊出擊，獲得160次勝利",
+	count_inherit = 17563,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17563",
+	auto_commit = 0,
+	story_id = "",
+	id = 17562,
+	target_num = 160,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17563] = {
+	name = "小欧根通常任务9",
+	guild_coin_award = 0,
+	award = 97339,
+	type = 6,
+	desc = "艦隊出擊，獲得180次勝利",
+	count_inherit = 17564,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17564",
+	auto_commit = 0,
+	story_id = "",
+	id = 17563,
+	target_num = 180,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17564] = {
+	name = "小欧根通常任务10",
+	guild_coin_award = 0,
+	award = 97340,
+	type = 6,
+	desc = "艦隊出擊，獲得200次勝利",
+	count_inherit = 17565,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17565",
+	auto_commit = 0,
+	story_id = "",
+	id = 17564,
+	target_num = 200,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17565] = {
+	name = "小欧根通常任务11",
+	guild_coin_award = 0,
+	award = 97341,
+	type = 6,
+	desc = "艦隊出擊，獲得240次勝利",
+	count_inherit = 17566,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17566",
+	auto_commit = 0,
+	story_id = "",
+	id = 17565,
+	target_num = 240,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17566] = {
+	name = "小欧根通常任务12",
+	guild_coin_award = 0,
+	award = 97342,
+	type = 6,
+	desc = "艦隊出擊，獲得280次勝利",
+	count_inherit = 17567,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17567",
+	auto_commit = 0,
+	story_id = "",
+	id = 17566,
+	target_num = 280,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17567] = {
+	name = "小欧根通常任务13",
+	guild_coin_award = 0,
+	award = 97343,
+	type = 6,
+	desc = "艦隊出擊，獲得320次勝利",
+	count_inherit = 17568,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17568",
+	auto_commit = 0,
+	story_id = "",
+	id = 17567,
+	target_num = 320,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17568] = {
+	name = "小欧根通常任务14",
+	guild_coin_award = 0,
+	award = 97344,
+	type = 6,
+	desc = "艦隊出擊，獲得360次勝利",
+	count_inherit = 17569,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "17569",
+	auto_commit = 0,
+	story_id = "",
+	id = 17568,
+	target_num = 360,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17569] = {
+	name = "小欧根通常任务15",
+	guild_coin_award = 0,
+	award = 97345,
+	type = 6,
+	desc = "艦隊出擊，獲得400次勝利",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17569,
+	target_num = 400,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17570] = {
+	name = "小欧根通常任务16",
+	guild_coin_award = 0,
+	award = 97346,
+	type = 6,
+	desc = "{namecode:458}上陣出擊，獲得20次勝利",
+	count_inherit = 17571,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17571",
+	auto_commit = 0,
+	story_id = "",
+	id = 17570,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17571] = {
+	name = "小欧根通常任务17",
+	guild_coin_award = 0,
+	award = 97347,
+	type = 6,
+	desc = "{namecode:458}上陣出擊，獲得40次勝利",
+	count_inherit = 17572,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17572",
+	auto_commit = 0,
+	story_id = "",
+	id = 17571,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17572] = {
+	name = "小欧根通常任务18",
+	guild_coin_award = 0,
+	award = 97348,
+	type = 6,
+	desc = "{namecode:458}上陣出擊，獲得60次勝利",
+	count_inherit = 17573,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17573",
+	auto_commit = 0,
+	story_id = "",
+	id = 17572,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17573] = {
+	name = "小欧根通常任务19",
+	guild_coin_award = 0,
+	award = 97349,
+	type = 6,
+	desc = "{namecode:458}上陣出擊，獲得80次勝利",
+	count_inherit = 17574,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17574",
+	auto_commit = 0,
+	story_id = "",
+	id = 17573,
+	target_num = 80,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17574] = {
+	name = "小欧根通常任务20",
+	guild_coin_award = 0,
+	award = 97350,
+	type = 6,
+	desc = "{namecode:458}上陣出擊，獲得100次勝利",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17574,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17575] = {
+	name = "小欧根通常任务21",
+	guild_coin_award = 0,
+	award = 97351,
+	type = 6,
+	desc = "{namecode:458}等級達到10",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17576",
+	auto_commit = 0,
+	story_id = "",
+	id = 17575,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17576] = {
+	name = "小欧根通常任务22",
+	guild_coin_award = 0,
+	award = 97352,
+	type = 6,
+	desc = "{namecode:458}等級達到20",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17577",
+	auto_commit = 0,
+	story_id = "",
+	id = 17576,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17577] = {
+	name = "小欧根通常任务23",
+	guild_coin_award = 0,
+	award = 97353,
+	type = 6,
+	desc = "{namecode:458}等級達到30",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17578",
+	auto_commit = 0,
+	story_id = "",
+	id = 17577,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17578] = {
+	name = "小欧根通常任务24",
+	guild_coin_award = 0,
+	award = 97354,
+	type = 6,
+	desc = "{namecode:458}等級達到40",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17579",
+	auto_commit = 0,
+	story_id = "",
+	id = 17578,
+	target_num = 40,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17579] = {
+	name = "小欧根通常任务25",
+	guild_coin_award = 0,
+	award = 97355,
+	type = 6,
+	desc = "{namecode:458}等級達到50",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17580",
+	auto_commit = 0,
+	story_id = "",
+	id = 17579,
+	target_num = 50,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17580] = {
+	name = "小欧根通常任务26",
+	guild_coin_award = 0,
+	award = 97356,
+	type = 6,
+	desc = "{namecode:458}等級達到70",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17581",
+	auto_commit = 0,
+	story_id = "",
+	id = 17580,
+	target_num = 70,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17581] = {
+	name = "小欧根通常任务27",
+	guild_coin_award = 0,
+	award = 97357,
+	type = 6,
+	desc = "{namecode:458}等級達到90",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17582",
+	auto_commit = 0,
+	story_id = "",
+	id = 17581,
+	target_num = 90,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17582] = {
+	name = "小欧根通常任务28",
+	guild_coin_award = 0,
+	award = 97358,
+	type = 6,
+	desc = "{namecode:458}等級達到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17582,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17583] = {
+	name = "小欧根通常任务29",
+	guild_coin_award = 0,
+	award = 97359,
+	type = 6,
+	desc = "{namecode:458}突破到3星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17584",
+	auto_commit = 0,
+	story_id = "",
+	id = 17583,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17584] = {
+	name = "小欧根通常任务30",
+	guild_coin_award = 0,
+	award = 97360,
+	type = 6,
+	desc = "{namecode:458}突破到4星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "17585",
+	auto_commit = 0,
+	story_id = "",
+	id = 17584,
+	target_num = 4,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			1500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17585] = {
+	name = "小欧根通常任务31",
+	guild_coin_award = 0,
+	award = 97361,
+	type = 6,
+	desc = "{namecode:458}突破到5星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "40312",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17585,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			2000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17586] = {
+	name = "小欧根每日任务1",
+	guild_coin_award = 0,
+	award = 97362,
+	type = 36,
+	desc = "艦隊出擊，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17586,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17587] = {
+	name = "小欧根每日任务2",
+	guild_coin_award = 0,
+	award = 97363,
+	type = 36,
+	desc = "通關3次任意困難關卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17587,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			252,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
 _G.pg.base.task_data_template[17620] = {
 	name = "小柴郡通常任务1",
 	guild_coin_award = 0,
@@ -138792,6 +140183,1190 @@ _G.pg.base.task_data_template[18321] = {
 	},
 	scene = {
 		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18472] = {
+	name = "『DOA复刻』通关EX1",
+	guild_coin_award = 0,
+	award = 94434,
+	type = 6,
+	desc = "通关EX1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450051",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18472,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450003,
+			chapterId = 1450052
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18473] = {
+	name = "『DOA复刻』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 94404,
+	type = 6,
+	desc = "開啟20個外觀裝備箱(維納斯假期)",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "30323",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18473,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30521,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18474] = {
+	name = "『DOA复刻』日常建造",
+	guild_coin_award = 0,
+	award = 94409,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18474,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18475] = {
+	name = "『DOA复刻』日常出击",
+	guild_coin_award = 0,
+	award = 94410,
+	type = 36,
+	desc = "艦隊出擊，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18475,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18476] = {
+	name = "『DOA复刻』日常困难本",
+	guild_coin_award = 0,
+	award = 94411,
+	type = 36,
+	desc = "通關1次任意困難關卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18476,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18477] = {
+	name = "『DOA复刻』完成「活动特殊委托」1次",
+	guild_coin_award = 0,
+	award = 94412,
+	type = 6,
+	desc = "完成「活動特殊委託」1次",
+	count_inherit = 0,
+	sub_type = 82,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18477,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		50001,
+		50002,
+		50003,
+		50004,
+		50005,
+		50006,
+		50007,
+		50008,
+		50009,
+		50010,
+		50011,
+		50012,
+		50013,
+		50014
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			200
+		},
+		{
+			8,
+			70128,
+			1
+		}
+	},
+	scene = {
+		"EVENT"
+	}
+}
+
+_G.pg.base.task_data_template[18478] = {
+	name = "『DOA复刻』完成「活动特殊委托」3次（新增）",
+	guild_coin_award = 0,
+	award = 94413,
+	type = 6,
+	desc = "完成「活動特殊委託」3次",
+	count_inherit = 0,
+	sub_type = 82,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18478,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		50001,
+		50002,
+		50003,
+		50004,
+		50005,
+		50006,
+		50007,
+		50008,
+		50009,
+		50010,
+		50011,
+		50012,
+		50013,
+		50014
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			300
+		},
+		{
+			8,
+			70143,
+			1
+		}
+	},
+	scene = {
+		"EVENT"
+	}
+}
+
+_G.pg.base.task_data_template[18479] = {
+	name = "『DOA复刻』累计建造10次",
+	guild_coin_award = 0,
+	award = 94414,
+	type = 6,
+	desc = "建造艦船10次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18479,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			500
+		},
+		{
+			8,
+			70127,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18480] = {
+	name = "『DOA复刻』累计建造20次",
+	guild_coin_award = 0,
+	award = 94415,
+	type = 6,
+	desc = "建造艦船20次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18480,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			500
+		},
+		{
+			8,
+			70141,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18481] = {
+	name = "『DOA复刻』关卡情绪高涨状态下获得60次胜利",
+	guild_coin_award = 0,
+	award = 94416,
+	type = 6,
+	desc = "關卡情緒高漲狀態下獲得60次勝利",
+	count_inherit = 0,
+	sub_type = 13,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18481,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		8761
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70134,
+			1
+		},
+		{
+			5,
+			188,
+			1
+		},
+		{
+			21,
+			10900,
+			1
+		},
+		{
+			2,
+			59420,
+			300
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4773
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18482] = {
+	name = "『DOA复刻』通关SP1",
+	guild_coin_award = 0,
+	award = 94417,
+	type = 6,
+	desc = "通關SP1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450001",
+	next_task = "18483",
+	auto_commit = 0,
+	story_id = "",
+	id = 18482,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			200
+		},
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			70130,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18483] = {
+	name = "『DOA复刻』通关SP2",
+	guild_coin_award = 0,
+	award = 94418,
+	type = 6,
+	desc = "通關SP2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450002",
+	next_task = "18484",
+	auto_commit = 0,
+	story_id = "",
+	id = 18483,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			400
+		},
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			70132,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18484] = {
+	name = "『DOA复刻』通关SP3",
+	guild_coin_award = 0,
+	award = 94419,
+	type = 6,
+	desc = "通關SP3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450003",
+	next_task = "18485",
+	auto_commit = 0,
+	story_id = "",
+	id = 18484,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			600
+		},
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			8,
+			70126,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18485] = {
+	name = "『DOA复刻』通关SP4",
+	guild_coin_award = 0,
+	award = 94420,
+	type = 6,
+	desc = "通關SP4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450004",
+	next_task = "18486",
+	auto_commit = 0,
+	story_id = "",
+	id = 18485,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			800
+		},
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			70136,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18486] = {
+	name = "『DOA复刻』通关VSP",
+	guild_coin_award = 0,
+	award = 94421,
+	type = 6,
+	desc = "通關VSP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18486,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			8,
+			70138,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450002,
+			chapterId = 1450041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18487] = {
+	name = "『DOA复刻』SP1三星",
+	guild_coin_award = 0,
+	award = 94422,
+	type = 6,
+	desc = "完成SP1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450001",
+	next_task = "18488",
+	auto_commit = 0,
+	story_id = "",
+	id = 18487,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30323,
+			1
+		},
+		{
+			8,
+			70131,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18488] = {
+	name = "『DOA复刻』SP2三星",
+	guild_coin_award = 0,
+	award = 94423,
+	type = 6,
+	desc = "完成SP2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450002",
+	next_task = "18489",
+	auto_commit = 0,
+	story_id = "",
+	id = 18488,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30323,
+			1
+		},
+		{
+			8,
+			70135,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18489] = {
+	name = "『DOA复刻』SP3三星",
+	guild_coin_award = 0,
+	award = 94424,
+	type = 6,
+	desc = "完成SP3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450003",
+	next_task = "18490",
+	auto_commit = 0,
+	story_id = "",
+	id = 18489,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30323,
+			1
+		},
+		{
+			8,
+			70129,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18490] = {
+	name = "『DOA复刻』SP4三星",
+	guild_coin_award = 0,
+	award = 94425,
+	type = 6,
+	desc = "完成SP4的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450004",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18490,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30323,
+			1
+		},
+		{
+			8,
+			70137,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450001,
+			chapterId = 1450004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18491] = {
+	name = "『DOA复刻』累计消耗石油",
+	guild_coin_award = 0,
+	award = 94426,
+	type = 6,
+	desc = "累計消耗石油5000",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18491,
+	target_num = 5000,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			21,
+			10820,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18492] = {
+	name = "『DOA复刻』通关EX2",
+	guild_coin_award = 0,
+	award = 94436,
+	type = 6,
+	desc = "通關EX2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1450052",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18492,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15012,
+			50
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1450003,
+			chapterId = 1450052
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18493] = {
+	name = "登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 94441,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18493,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			316,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18494] = {
+	name = "『DOA复刻』通关任务10次",
+	guild_coin_award = 0,
+	award = 94442,
+	type = 6,
+	desc = "通關10次『假日航線』特別作戰關卡",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18494,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1450001,
+		1450002,
+		1450003,
+		1450004,
+		1450041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18495] = {
+	name = "『DOA复刻』通关任务30次",
+	guild_coin_award = 0,
+	award = 94443,
+	type = 6,
+	desc = "通關30次『假日航綫』特別作戰關卡",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18495,
+	target_num = 30,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1450001,
+		1450002,
+		1450003,
+		1450004,
+		1450041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			1500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18496] = {
+	name = "『DOA复刻』通关任务60次",
+	guild_coin_award = 0,
+	award = 94444,
+	type = 6,
+	desc = "通關60次『假日航綫』特別作戰關卡",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18496,
+	target_num = 60,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1450001,
+		1450002,
+		1450003,
+		1450004,
+		1450041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59420,
+			3000
+		}
 	}
 }
 

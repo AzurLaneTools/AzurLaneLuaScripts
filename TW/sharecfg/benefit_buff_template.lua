@@ -658,7 +658,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			40224,
+			4775,
 			0
 		}
 	},
@@ -674,7 +674,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			40224,
+			4775,
 			0
 		}
 	},
@@ -690,7 +690,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			40224,
+			4775,
 			0
 		}
 	},
@@ -706,7 +706,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			40224,
+			4775,
 			0
 		}
 	},
@@ -722,7 +722,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			40224,
+			4775,
 			0
 		}
 	},
@@ -738,7 +738,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"activity",
-			40224,
+			4775,
 			0
 		}
 	},
@@ -754,7 +754,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			40224,
+			4775,
 			0
 		}
 	},
@@ -770,7 +770,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			40224,
+			4775,
 			0
 		}
 	},
@@ -786,7 +786,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			40224,
+			4775,
 			0
 		}
 	},
@@ -802,7 +802,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			40224,
+			4775,
 			0
 		}
 	},
@@ -818,7 +818,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			40224,
+			4775,
 			0
 		}
 	},
@@ -834,7 +834,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"activity",
-			40224,
+			4775,
 			0
 		}
 	},
