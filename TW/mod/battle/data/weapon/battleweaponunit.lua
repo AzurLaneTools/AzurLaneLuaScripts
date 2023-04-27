@@ -841,13 +841,14 @@ function slot9.Clear(slot0)
 			slot10:Destroy()
 		end
 	end
+
+	slot0._currentState = slot0.STATE_DISABLE
 end
 
 function slot9.Dispose(slot0)
 	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 	slot0:RemovePrecastTimer()
 
-	slot0._currentState = slot0.STATE_DISABLE
 	slot0._dataProxy = nil
 end
 

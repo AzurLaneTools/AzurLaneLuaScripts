@@ -8109,7 +8109,7 @@ pg.base.ship_skin_template_11 = {
 	},
 	[305115] = {
 		ship_group = 30511,
-		name = "蓼藍回眸",
+		name = "湛藍回眸",
 		bullet_skin_secondary = "",
 		hand_id = 2,
 		bgm = "",

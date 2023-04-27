@@ -1100,7 +1100,7 @@ pg.activity_template = {
 			}
 		},
 		config_client = {
-			linkPTActID = 4775
+			linkPTActID = 41146
 		}
 	},
 	[4779] = {
