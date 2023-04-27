@@ -106,14 +106,77 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4731",
-		time = "stop",
-		type = 3,
+		param = "4749",
 		id = 4,
-		pic = "temp5"
+		pic = "temp7",
+		type = 3,
+		time = {
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
 		id = 5,
+		pic = "temp5",
+		type = 2,
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = false
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 6,
 		pic = "temp6",
 		type = 2,
 		param = {
@@ -141,40 +204,6 @@ pg.activity_banner = {
 					2023,
 					5,
 					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 6,
-		pic = "temp7",
-		type = 2,
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					5
 				},
 				{
 					23,

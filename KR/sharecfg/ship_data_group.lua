@@ -2516,11 +2516,11 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
+				"훈장 상점 교환",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -2568,11 +2568,11 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"훈장 지원(랜덤 갱신)",
+				"훈장 상점 교환",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						page = 3
+						warp = 8
 					}
 				},
 				0
@@ -23004,6 +23004,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23111,6 +23122,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"군수 상점 교환",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23143,6 +23164,17 @@ pg.base.ship_data_group = {
 				"한정 이벤트: 동절의 북해",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -23302,6 +23334,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23428,6 +23471,17 @@ pg.base.ship_data_group = {
 				"한정 이벤트: 동절의 북해",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -23558,6 +23612,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"군수 상점 교환",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23620,6 +23684,17 @@ pg.base.ship_data_group = {
 				"한정 이벤트: 동절의 북해",
 				{
 					""
+				},
+				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}

@@ -9821,11 +9821,11 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "리슐리외, 알제리 건조 추가!"
+	tip = "소비에츠카야 러시아 건조 추가!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "르 테리블, 잔 다르크 등 캐릭터 건조 추가!"
+	tip = "타슈켄트, 차파예프 등 캐릭터 건조 추가!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {

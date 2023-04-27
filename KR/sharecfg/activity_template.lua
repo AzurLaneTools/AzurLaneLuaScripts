@@ -9026,41 +9026,15 @@ pg.activity_template = {
 	},
 	[4742] = {
 		mark = 20230406,
-		config_client = "",
 		title_res_tag = "xiaoqiye_pt",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 4742,
 		is_show = 31,
+		config_client = "",
 		id = 4742,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					4,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "XiaoQiYePtPage",
 			ui_name = "xiaoqiyeptpage"
@@ -9068,42 +9042,16 @@ pg.activity_template = {
 	},
 	[4743] = {
 		mark = 20230406,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4743,
 		config_data = {
 			18424
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					4,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			npc = {
@@ -9334,6 +9282,77 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[4749] = {
+		mark = 20230420,
+		config_client = "",
+		title_res_tag = "chuchunskin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 30,
+		id = 4749,
+		config_data = {
+			{
+				18432,
+				18433
+			},
+			{
+				18434,
+				18435
+			},
+			{
+				18436,
+				18437
+			},
+			{
+				18438,
+				18439
+			},
+			{
+				18440,
+				18441
+			},
+			{
+				18442,
+				18443
+			},
+			{
+				18444,
+				18445
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ChuChunSkinPage",
+			ui_name = "ChuChunSkinPage"
 		}
 	},
 	[7004] = {
@@ -15451,6 +15470,7 @@ pg.activity_template = {
 		4746,
 		4747,
 		4748,
+		4749,
 		7004,
 		7005,
 		7006,
