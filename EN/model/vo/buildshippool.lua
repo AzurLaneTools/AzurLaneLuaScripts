@@ -21,6 +21,20 @@ function slot0.GetPoolId(slot0)
 	return slot0.configId
 end
 
+function slot0.GetSortCode(slot0)
+	if slot0.mark == uv0.BUILD_POOL_MARK_SPECIAL then
+		return 4
+	elseif slot0.mark == uv0.BUILD_POOL_MARK_LIGHT then
+		return 2
+	elseif slot0.mark == uv0.BUILD_POOL_MARK_HEAVY then
+		return 3
+	elseif slot0.mark == uv0.BUILD_POOL_MARK_NEW then
+		return 1
+	else
+		return 5
+	end
+end
+
 function slot0.IsActivity(slot0)
 	return false
 end

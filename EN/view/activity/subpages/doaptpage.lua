@@ -52,6 +52,9 @@ function slot0.OnInit(slot0)
 	slot0.singleIconParent = slot0:findTF("window/panel/icon", slot0.singleBuffBox)
 	slot0.singleDescContent = slot0:findTF("window/panel/intro_view/Viewport/Content", slot0.singleBuffBox)
 	slot0.singleDescTpl = slot0:findTF("window/panel/intro_view/buff_desc_tpl", slot0.singleBuffBox)
+
+	setText(slot0:findTF("window/top/bg/infomation/title", slot0.singleBuffBox), i18n("words_information"))
+	setText(slot0:findTF("window/sure_btn/pic", slot0.singleBuffBox), i18n("text_confirm"))
 end
 
 function slot0.OnFirstFlush(slot0)
@@ -423,7 +426,9 @@ end
 
 function slot0.showSingleBuffBox(slot0)
 	setActive(slot0.singleBuffBox, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.singleBuffBox)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.singleBuffBox, false, {
+		overlayType = LayerWeightConst.OVERLAY_UI_TOP
+	})
 	removeAllChildren(slot0.singleIconParent)
 
 	slot1 = cloneTplTo(slot0:updateLevelPanel(), slot0.singleIconParent)

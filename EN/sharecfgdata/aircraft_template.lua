@@ -70733,6 +70733,374 @@ _G.pg.base.aircraft_template[160840] = {
 	}
 }
 
+_G.pg.base.aircraft_template[160971] = {
+	attack_power = 2,
+	name = "小可畏技能平行青花鱼Lv1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "qinghuayu",
+	ACC_growth = 0,
+	crash_DMG = 406,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 160971,
+	icon = "qinghuayu",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1385,
+	speed = 60,
+	max_hp = 36,
+	scale = 1,
+	weapon_ID = {
+		160981
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.15,
+			-0.08,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[160972] = {
+	id = 160972,
+	name = "小可畏技能平行青花鱼Lv2",
+	hp_growth = 1621,
+	base = 160971,
+	max_hp = 42,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160982
+	}
+}
+
+_G.pg.base.aircraft_template[160973] = {
+	id = 160973,
+	name = "小可畏技能平行青花鱼Lv3",
+	hp_growth = 1857,
+	base = 160971,
+	max_hp = 48,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160983
+	}
+}
+
+_G.pg.base.aircraft_template[160974] = {
+	id = 160974,
+	name = "小可畏技能平行青花鱼Lv4",
+	hp_growth = 2093,
+	base = 160971,
+	max_hp = 54,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160984
+	}
+}
+
+_G.pg.base.aircraft_template[160975] = {
+	id = 160975,
+	name = "小可畏技能平行青花鱼Lv5",
+	hp_growth = 2329,
+	base = 160971,
+	max_hp = 60,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160985
+	}
+}
+
+_G.pg.base.aircraft_template[160976] = {
+	id = 160976,
+	name = "小可畏技能平行青花鱼Lv6",
+	hp_growth = 2565,
+	base = 160971,
+	max_hp = 66,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160986
+	}
+}
+
+_G.pg.base.aircraft_template[160977] = {
+	id = 160977,
+	name = "小可畏技能平行青花鱼Lv7",
+	hp_growth = 2801,
+	base = 160971,
+	max_hp = 72,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160987
+	}
+}
+
+_G.pg.base.aircraft_template[160978] = {
+	id = 160978,
+	name = "小可畏技能平行青花鱼Lv8",
+	hp_growth = 3037,
+	base = 160971,
+	max_hp = 78,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160988
+	}
+}
+
+_G.pg.base.aircraft_template[160979] = {
+	id = 160979,
+	name = "小可畏技能平行青花鱼Lv9",
+	hp_growth = 3274,
+	base = 160971,
+	max_hp = 84,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160989
+	}
+}
+
+_G.pg.base.aircraft_template[160980] = {
+	id = 160980,
+	name = "小可畏技能平行青花鱼Lv10",
+	hp_growth = 3511,
+	base = 160971,
+	max_hp = 91,
+	spawn_brownian = 1,
+	weapon_ID = {
+		160990
+	}
+}
+
+_G.pg.base.aircraft_template[160991] = {
+	attack_power = 2,
+	name = "小可畏技能集束青花鱼Lv1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "qinghuayu",
+	ACC_growth = 0,
+	crash_DMG = 406,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 2,
+	id = 160991,
+	icon = "qinghuayu",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1385,
+	speed = 60,
+	max_hp = 36,
+	scale = 1,
+	weapon_ID = {
+		161001
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.15,
+			-0.08,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[160992] = {
+	id = 160992,
+	name = "小可畏技能集束青花鱼Lv2",
+	hp_growth = 1621,
+	base = 160991,
+	max_hp = 42,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161002
+	}
+}
+
+_G.pg.base.aircraft_template[160993] = {
+	id = 160993,
+	name = "小可畏技能集束青花鱼Lv3",
+	hp_growth = 1857,
+	base = 160991,
+	max_hp = 48,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161003
+	}
+}
+
+_G.pg.base.aircraft_template[160994] = {
+	id = 160994,
+	name = "小可畏技能集束青花鱼Lv4",
+	hp_growth = 2093,
+	base = 160991,
+	max_hp = 54,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161004
+	}
+}
+
+_G.pg.base.aircraft_template[160995] = {
+	id = 160995,
+	name = "小可畏技能集束青花鱼Lv5",
+	hp_growth = 2329,
+	base = 160991,
+	max_hp = 60,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161005
+	}
+}
+
+_G.pg.base.aircraft_template[160996] = {
+	id = 160996,
+	name = "小可畏技能集束青花鱼Lv6",
+	hp_growth = 2565,
+	base = 160991,
+	max_hp = 66,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161006
+	}
+}
+
+_G.pg.base.aircraft_template[160997] = {
+	id = 160997,
+	name = "小可畏技能集束青花鱼Lv7",
+	hp_growth = 2801,
+	base = 160991,
+	max_hp = 72,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161007
+	}
+}
+
+_G.pg.base.aircraft_template[160998] = {
+	id = 160998,
+	name = "小可畏技能集束青花鱼Lv8",
+	hp_growth = 3037,
+	base = 160991,
+	max_hp = 78,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161008
+	}
+}
+
+_G.pg.base.aircraft_template[160999] = {
+	id = 160999,
+	name = "小可畏技能集束青花鱼Lv9",
+	hp_growth = 3274,
+	base = 160991,
+	max_hp = 84,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161009
+	}
+}
+
+_G.pg.base.aircraft_template[161000] = {
+	id = 161000,
+	name = "小可畏技能集束青花鱼Lv10",
+	hp_growth = 3511,
+	base = 160991,
+	max_hp = 91,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161010
+	}
+}
+
 _G.pg.base.aircraft_template[200101] = {
 	attack_power = 2,
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",

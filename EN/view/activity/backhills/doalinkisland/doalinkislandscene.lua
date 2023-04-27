@@ -59,16 +59,16 @@ function slot0.didEnter(slot0)
 			helps = pg.gametip.doa_main.tip
 		})
 	end)
-	slot0:InitStudents(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and slot1.id, 2, 3)
+	slot0:InitStudents(ActivityConst.MINIGAME_VOLLEYBALL, 2, 3)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "shatanpaiqiu", function ()
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, 17)
 	end)
-
-	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)
-
+	onButton(slot0, slot0._upper:Find("pengpengdong"), function ()
+		pg.m02:sendNotification(GAME.GO_MINI_GAME, 51)
+	end, SFX_PANEL)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "daoyvjianshe", function ()
 		uv0:emit(DOALinkIslandMediator.GO_SCENE, SCENE.ACTIVITY, {
-			id = uv1 and uv1.id
+			id = ActivityConst.DOA_PT_ID
 		})
 	end)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "bujishangdian", function ()
@@ -86,7 +86,7 @@ function slot0.didEnter(slot0)
 		})
 	end)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "jinianzhang", function ()
-		uv0:emit(DOALinkIslandMediator.GO_SCENE, SCENE.DOA_MEDAL_COLLECTION_SCENE)
+		uv0:emit(DOALinkIslandMediator.GO_SCENE, SCENE.DOA2_MEDAL_COLLECTION_SCENE)
 	end)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "tebiezuozhan", function ()
 		slot1, slot2 = getProxy(ChapterProxy):getLastMapForActivity()
@@ -105,17 +105,35 @@ end
 
 function slot0.UpdateView(slot0)
 	slot2 = nil
-	slot5 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and getProxy(MiniGameProxy):GetHubByHubId(slot3:getConfig("config_id"))
 
-	setActive(slot0.upper_shatanpaiqiu:Find("tip"), slot5 and slot5.count > 0 or slot5:getConfig("reward_need") <= slot5.usedtime and slot5.ultimate == 0)
-	slot0.loader:GetSpriteQuiet("ui/DOALinkIslandUI_atlas", tostring(slot5.usedtime or 0), slot0.map_shatanpaiqiu:Find("Digit"), true)
-	setActive(slot0.upper_daoyvjianshe:Find("tip"), slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and slot7:readyToAchieve())
+	setActive(slot0.upper_shatanpaiqiu:Find("tip"), uv0.IsMiniActNeedTip(ActivityConst.MINIGAME_VOLLEYBALL))
+	setActive(slot0.upper_pengpengdong:Find("tip"), uv0.IsMiniActNeedTip(ActivityConst.MINIGAME_PENGPENGDONG))
+	slot0.loader:GetSpriteQuiet("ui/DOALinkIslandUI_atlas", tostring((getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_VOLLEYBALL) and getProxy(MiniGameProxy):GetHubByHubId(slot3:getConfig("config_id"))).usedtime or 0), slot0.map_shatanpaiqiu:Find("Digit"), true)
+
+	slot5 = slot1:getActivityById(ActivityConst.DOA_PT_ID)
+
+	assert(slot5)
+	setActive(slot0.upper_daoyvjianshe:Find("tip"), slot5 and slot5:readyToAchieve())
 	setActive(slot0.upper_jinianzhang:Find("tip"), Activity.isHaveActivableMedal())
 end
 
 function slot0.willExit(slot0)
 	slot0:clearStudents()
 	uv0.super.willExit(slot0)
+end
+
+function slot0.IsShowMainTip(slot0)
+	if slot0 and not slot0:isEnd() then
+		slot2 = getProxy(ActivityProxy)
+
+		return (function ()
+			return uv0:getActivityById(ActivityConst.DOA_PT_ID) and not slot0:isEnd() and slot0:readyToAchieve()
+		end)() or Activity.isHaveActivableMedal() or (function ()
+			return uv0.IsMiniActNeedTip(ActivityConst.MINIGAME_VOLLEYBALL)
+		end)() or (function ()
+			return uv0.IsMiniActNeedTip(ActivityConst.MINIGAME_PENGPENGDONG)
+		end)()
+	end
 end
 
 return slot0

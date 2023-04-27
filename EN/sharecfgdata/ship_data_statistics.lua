@@ -121942,6 +121942,518 @@ _G.pg.base.ship_data_statistics[207124] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[207131] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Little Formidable",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 207130,
+	english_name = "HMS Formidable",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 207131,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1050,
+		0,
+		0,
+		52,
+		76,
+		42,
+		0,
+		31,
+		12,
+		30,
+		75,
+		0
+	},
+	attrs_growth = {
+		26912,
+		0,
+		0,
+		1131,
+		953,
+		291,
+		0,
+		458,
+		309,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.25,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Illustrious-Class",
+		"Armor-CV",
+		"Formidable",
+		"special"
+	}
+}
+
+_G.pg.base.ship_data_statistics[207132] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Little Formidable",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 207130,
+	english_name = "HMS Formidable",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 207132,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1306,
+		0,
+		0,
+		65,
+		95,
+		42,
+		0,
+		31,
+		12,
+		30,
+		75,
+		0
+	},
+	attrs_growth = {
+		26912,
+		0,
+		0,
+		1131,
+		953,
+		291,
+		0,
+		458,
+		309,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.12,
+		1.27,
+		1.17
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Illustrious-Class",
+		"Armor-CV",
+		"Formidable",
+		"special"
+	}
+}
+
+_G.pg.base.ship_data_statistics[207133] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Little Formidable",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 207130,
+	english_name = "HMS Formidable",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 207133,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1819,
+		0,
+		0,
+		91,
+		132,
+		42,
+		0,
+		31,
+		12,
+		30,
+		75,
+		0
+	},
+	attrs_growth = {
+		26912,
+		0,
+		0,
+		1131,
+		953,
+		291,
+		0,
+		458,
+		309,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.3,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Illustrious-Class",
+		"Armor-CV",
+		"Formidable",
+		"special"
+	}
+}
+
+_G.pg.base.ship_data_statistics[207134] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Little Formidable",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 207130,
+	english_name = "HMS Formidable",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 207134,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2587,
+		0,
+		0,
+		129,
+		189,
+		42,
+		0,
+		31,
+		12,
+		30,
+		75,
+		0
+	},
+	attrs_growth = {
+		26912,
+		0,
+		0,
+		1131,
+		953,
+		291,
+		0,
+		458,
+		309,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		3,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.35,
+		1.25
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Illustrious-Class",
+		"Armor-CV",
+		"Formidable",
+		"special"
+	}
+}
+
 _G.pg.base.ship_data_statistics[213011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -337876,6 +338388,1002 @@ _G.pg.base.ship_data_statistics[10600074] = {
 		1.6,
 		1.1,
 		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"DOAXVV"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10600081] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Luna",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 10600080,
+	english_name = "Luna",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 106,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10600081,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1033,
+		0,
+		0,
+		58,
+		69,
+		64,
+		0,
+		32,
+		20,
+		30,
+		88,
+		4
+	},
+	attrs_growth = {
+		27740,
+		0,
+		0,
+		1244,
+		883,
+		446,
+		0,
+		471,
+		421,
+		0,
+		0,
+		43
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"DOAXVV"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10600082] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Luna",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 10600080,
+	english_name = "Luna",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 106,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10600082,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1285,
+		0,
+		0,
+		72,
+		86,
+		64,
+		0,
+		32,
+		20,
+		30,
+		88,
+		5
+	},
+	attrs_growth = {
+		27740,
+		0,
+		0,
+		1244,
+		883,
+		446,
+		0,
+		471,
+		421,
+		0,
+		0,
+		43
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.25,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"DOAXVV"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10600083] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Luna",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 10600080,
+	english_name = "Luna",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 106,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10600083,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1789,
+		0,
+		0,
+		101,
+		120,
+		64,
+		0,
+		32,
+		20,
+		30,
+		88,
+		7
+	},
+	attrs_growth = {
+		27740,
+		0,
+		0,
+		1244,
+		883,
+		446,
+		0,
+		471,
+		421,
+		0,
+		0,
+		43
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.35,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"DOAXVV"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10600084] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Luna",
+	type = 6,
+	oxy_cost = 0,
+	skin_id = 10600080,
+	english_name = "Luna",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 106,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 10600084,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2545,
+		0,
+		0,
+		144,
+		171,
+		64,
+		0,
+		32,
+		20,
+		30,
+		88,
+		10
+	},
+	attrs_growth = {
+		27740,
+		0,
+		0,
+		1244,
+		883,
+		446,
+		0,
+		471,
+		421,
+		0,
+		0,
+		43
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		4,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.4,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"DOAXVV"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10600091] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Tamaki",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 10600090,
+	english_name = "Tamaki",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 106,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 10600091,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1353,
+		77,
+		0,
+		58,
+		0,
+		63,
+		0,
+		23,
+		9,
+		33,
+		87,
+		0
+	},
+	attrs_growth = {
+		37160,
+		967,
+		0,
+		1244,
+		0,
+		437,
+		0,
+		387,
+		244,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"DOAXVV"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10600092] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Tamaki",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 10600090,
+	english_name = "Tamaki",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 106,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 10600092,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1683,
+		96,
+		0,
+		72,
+		0,
+		63,
+		0,
+		23,
+		9,
+		33,
+		87,
+		0
+	},
+	attrs_growth = {
+		37160,
+		967,
+		0,
+		1244,
+		0,
+		437,
+		0,
+		387,
+		244,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"DOAXVV"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10600093] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Tamaki",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 10600090,
+	english_name = "Tamaki",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 106,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 10600093,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2343,
+		134,
+		0,
+		101,
+		0,
+		63,
+		0,
+		23,
+		9,
+		33,
+		87,
+		0
+	},
+	attrs_growth = {
+		37160,
+		967,
+		0,
+		1244,
+		0,
+		437,
+		0,
+		387,
+		244,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"DOAXVV"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10600094] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Tamaki",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 10600090,
+	english_name = "Tamaki",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 106,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 10600094,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3333,
+		192,
+		0,
+		144,
+		0,
+		63,
+		0,
+		23,
+		9,
+		33,
+		87,
+		0
+	},
+	attrs_growth = {
+		37160,
+		967,
+		0,
+		1244,
+		0,
+		437,
+		0,
+		387,
+		244,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		2,
+		1
 	},
 	strategy_list = {},
 	hunting_range = {

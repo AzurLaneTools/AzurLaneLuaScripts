@@ -795,6 +795,9 @@ function slot0.PreloadLevelMainUI(slot0, slot1, slot2)
 	end
 
 	slot3 = nil
+
+	warning(slot1)
+
 	slot4 = getProxy(ChapterProxy)
 
 	table.ParallelIpairsAsync(slot0:GetMapBG(slot4:getMapById(slot1)), function (slot0, slot1, slot2)

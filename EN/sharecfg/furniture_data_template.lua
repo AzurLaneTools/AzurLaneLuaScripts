@@ -153,6 +153,7 @@ pg.furniture_data_template = setmetatable({
 			100035,
 			100036,
 			100037,
+			100038,
 			100042,
 			100044,
 			200001,
@@ -4383,6 +4384,7 @@ pg.furniture_data_template = setmetatable({
 			100035,
 			100036,
 			100037,
+			100038,
 			100042,
 			100044,
 			31101,
@@ -5195,6 +5197,7 @@ pg.furniture_data_template = setmetatable({
 			100033,
 			100035,
 			100036,
+			100038,
 			100044
 		},
 		[2] = {
@@ -7579,6 +7582,7 @@ pg.furniture_data_template = setmetatable({
 		100035,
 		100036,
 		100037,
+		100038,
 		100042,
 		100044,
 		200001,
@@ -13581,7 +13585,7 @@ pg.base.furniture_data_template = {
 		picture = "",
 		is_get_time_note = 0,
 		themeId = 0,
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		describe = "Disco inferno.",
 		tag = 6,
@@ -17869,6 +17873,83 @@ pg.base.furniture_data_template = {
 				},
 				"walk"
 			}
+		},
+		interAction_group = {}
+	},
+	[100038] = {
+		effect = "",
+		name = "Yum-E Combining Machine",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A hi-tech food combiner. Don't stand too close!",
+		themeId = 0,
+		icon = "zongzihechengqiicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100038,
+		can_rotate = 0,
+		size = {
+			4,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zongzihechengqiB",
+				"normal"
+			},
+			{
+				"zongzihechengqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

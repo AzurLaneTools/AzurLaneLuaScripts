@@ -195,7 +195,8 @@ pg.ship_skin_words_extra = setmetatable({
 		206020,
 		702070,
 		703020,
-		705070
+		705070,
+		10600080
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -13060,6 +13061,78 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"C-Comrade Commander... What was the point of that, exactly?"
+			}
+		}
+	},
+	[10600080] = {
+		mail = "",
+		feeling3 = "",
+		lose = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		home = "",
+		unlock = "",
+		feeling2 = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		id = 10600080,
+		touch = "",
+		headtouch = "",
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Good morning, Commander. Let's continue our field work together."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I defeated an enemy horde! ...You can praise me, you know."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Here goooes. Leave it all to Luna... Hop."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander... It's snack time. Want to share a roasted sweet potato with me? Though I do hate to share it..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Bunnies are cute... But what about me? Hippity, hoppity... Am I cute?|Commander, I'm so interested in you and this world... Can we go on a date? Or, I mean... Field work?|Are you taking a break, too? Then... Wanna eat together? Roasted baked potatoes... would taste even better... if I ate them with you!|You'll teach me a good way to roast sweet potatoes, Edinburgh? ...Heheh, if it goes well, I'll treat the Commander.|Information on the Commander? Hmmrgh... What if I traded you this sweet potato, Aoba? ...No?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Are you still working? Then I'll help you. Leave it to me... Hop."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"...You're finished working, so come and eat roasted sweet potato with me, Commander."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Umm, Commander... That tickles..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"This place is full of such interesting things. The vast sea, the shipgirls, the delicious food... And you, Commander. I want to keep researching it all... So may I stay by your side longer?"
 			}
 		}
 	}

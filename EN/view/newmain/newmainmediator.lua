@@ -57,6 +57,9 @@ function slot0.register(slot0)
 	slot0:bind(uv0.SKIP_ACTIVITY_MAP, function (slot0)
 		slot2, slot3 = getProxy(ChapterProxy):getLastMapForActivity()
 
+		warning(slot2)
+		warning(slot2 and slot1:getMapById(slot2):isUnlock())
+
 		if not slot2 or not slot1:getMapById(slot2):isUnlock() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 		else

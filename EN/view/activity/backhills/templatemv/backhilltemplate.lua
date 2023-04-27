@@ -161,13 +161,11 @@ function slot0.AutoFitScreen(slot0)
 end
 
 function slot0.IsMiniActNeedTip(slot0)
-	if not getProxy(ActivityProxy):getActivityById(slot0) or slot1:isEnd() then
-		return
-	end
+	slot1 = getProxy(ActivityProxy):getActivityById(slot0)
 
-	slot2 = slot1 and getProxy(MiniGameProxy):GetHubByHubId(slot1:getConfig("config_id"))
+	assert(slot1)
 
-	return slot2 and slot2.count > 0 or slot2:getConfig("reward_need") <= slot2.usedtime and slot2.ultimate == 0
+	return Activity.IsActivityReady(slot1)
 end
 
 function slot0.Clone2Full(slot0, slot1, slot2)

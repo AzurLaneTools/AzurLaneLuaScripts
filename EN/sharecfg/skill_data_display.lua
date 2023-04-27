@@ -1447,6 +1447,13 @@ pg.skill_data_display = setmetatable({
 		16640,
 		16641,
 		16642,
+		16650,
+		16651,
+		16652,
+		16653,
+		16654,
+		16660,
+		16664,
 		18010,
 		18040,
 		18041,
@@ -2087,6 +2094,32 @@ pg.skill_data_display = setmetatable({
 		106131,
 		106140,
 		106141,
+		106150,
+		106160,
+		106171,
+		106172,
+		106190,
+		106210,
+		106215,
+		106240,
+		106241,
+		106260,
+		106261,
+		106280,
+		106281,
+		106282,
+		106290,
+		106291,
+		106320,
+		106321,
+		106322,
+		106330,
+		106331,
+		106333,
+		106334,
+		106340,
+		106341,
+		106343,
 		107010,
 		107020,
 		107021,
@@ -8236,6 +8269,34 @@ pg.base.skill_data_display = {
 		id = 16642,
 		name = "Revolutionary Composure"
 	},
+	[16650] = {
+		id = 16650,
+		name = "Lumbersome Lessons"
+	},
+	[16651] = {
+		id = 16651,
+		name = "Lesson Grade: C"
+	},
+	[16652] = {
+		id = 16652,
+		name = "Lesson Grade: B"
+	},
+	[16653] = {
+		id = 16653,
+		name = "Lesson Grade: A"
+	},
+	[16654] = {
+		id = 16654,
+		name = "Lesson Grade: S???"
+	},
+	[16660] = {
+		id = 16660,
+		name = "Light Snacktime"
+	},
+	[16664] = {
+		id = 16664,
+		name = "Light Snacktime"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -10795,6 +10856,110 @@ pg.base.skill_data_display = {
 	[106141] = {
 		id = 106141,
 		name = "Hanakagura"
+	},
+	[106150] = {
+		id = 106150,
+		name = "Scholar's Ocean Investigation"
+	},
+	[106160] = {
+		id = 106160,
+		name = "Hunger After Work"
+	},
+	[106171] = {
+		id = 106171,
+		name = "Rose's Thorns+"
+	},
+	[106172] = {
+		id = 106172,
+		name = "Rose's Thorns+"
+	},
+	[106190] = {
+		id = 106190,
+		name = "Hunger After Work+"
+	},
+	[106210] = {
+		id = 106210,
+		name = "Super Mega Explosion+"
+	},
+	[106215] = {
+		id = 106215,
+		name = "Super Mega Explosion+"
+	},
+	[106240] = {
+		id = 106240,
+		name = "Misty Mirror Flower+"
+	},
+	[106241] = {
+		id = 106241,
+		name = "Misty Mirror Flower+"
+	},
+	[106260] = {
+		id = 106260,
+		name = "Venus' Unpredictability+"
+	},
+	[106261] = {
+		id = 106261,
+		name = "Venus' Unpredictability+"
+	},
+	[106280] = {
+		id = 106280,
+		name = "Hanakagura+"
+	},
+	[106281] = {
+		id = 106281,
+		name = "Hanakagura+"
+	},
+	[106282] = {
+		id = 106282,
+		name = "Hanakagura+"
+	},
+	[106290] = {
+		id = 106290,
+		name = "Royal Flush+"
+	},
+	[106291] = {
+		id = 106291,
+		name = "Royal Flush+"
+	},
+	[106320] = {
+		id = 106320,
+		name = "Fitting Time"
+	},
+	[106321] = {
+		id = 106321,
+		name = "Fitting Time"
+	},
+	[106322] = {
+		id = 106322,
+		name = "Fitting Time"
+	},
+	[106330] = {
+		id = 106330,
+		name = "lisianthus Halation"
+	},
+	[106331] = {
+		id = 106331,
+		name = "lisianthus Halation"
+	},
+	[106333] = {
+		id = 106333,
+		name = "lisianthus Halation"
+	},
+	[106334] = {
+		id = 106334,
+		name = "lisianthus Halation"
+	},
+	[106340] = {
+		id = 106340,
+		name = "lisianthus Halation +"
+	},
+	[106341] = {
+		id = 106341,
+		name = "lisianthus Halation +"
+	},
+	[106343] = {
+		id = 106343,
+		name = "lisianthus Halation +"
 	},
 	[107010] = {
 		id = 107010,

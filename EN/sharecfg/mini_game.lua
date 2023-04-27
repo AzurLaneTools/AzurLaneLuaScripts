@@ -1662,6 +1662,57 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		view_name = "DOAPPMiniGameView",
+		name = "Butt Battle",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 51,
+		hub_id = 43,
+		request_data = 0,
+		simple_config_data = {
+			drop = {
+				{
+					2,
+					30323,
+					1
+				},
+				{
+					2,
+					30323,
+					1
+				},
+				{
+					21,
+					10980,
+					1
+				},
+				{
+					2,
+					30323,
+					1
+				},
+				{
+					2,
+					30323,
+					1
+				},
+				{
+					2,
+					30323,
+					1
+				},
+				{
+					21,
+					10960,
+					1
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1712,6 +1763,7 @@ pg.mini_game = {
 		47,
 		48,
 		49,
-		50
+		50,
+		51
 	}
 }

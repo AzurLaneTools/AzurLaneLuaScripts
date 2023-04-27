@@ -11784,5 +11784,78 @@ pg.ship_skin_expression_ex = {
 				"4"
 			}
 		}
+	},
+	luna_doa = {
+		feeling1 = "",
+		feeling3 = "",
+		main_1 = "",
+		main_2 = "",
+		expedition = "",
+		lose = "",
+		home = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		painting = "luna_doa",
+		mail = "",
+		touch = "",
+		main_3 = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"8"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"9"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"4"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"4"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"7|8|4|9|11"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"4"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"8"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"7"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"7"
+			}
+		}
 	}
 }

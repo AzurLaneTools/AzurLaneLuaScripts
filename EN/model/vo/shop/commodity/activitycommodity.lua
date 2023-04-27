@@ -46,6 +46,9 @@ function slot0.CheckTimeLimit(slot0)
 		if getProxy(ActivityProxy):getActivityById(pg.item_data_statistics[slot4].link_id) and not slot6:isEnd() then
 			slot2 = true
 		end
+	elseif slot3 == DROP_TYPE_ITEM and pg.item_data_statistics[slot4].time_limit == 1 then
+		slot1 = true
+		slot2 = true
 	end
 
 	return slot1, slot2

@@ -136,7 +136,7 @@ function slot0.Preload(slot0)
 			for slot12, slot13 in pairs(ys.Battle.BattleUnitDetailView.AircraftForger) do
 				pg.TipsMgr.GetInstance():ShowTips("触发自定义飞机替换>>>" .. slot12 .. "<<<，检查是否测试需要，否则联系程序")
 
-				pg.aircraft_template_data[slot12] = slot13
+				pg.aircraft_template[slot12] = slot13
 			end
 
 			for slot12, slot13 in pairs(ys.Battle.BattleUnitDetailView.WeaponForger) do

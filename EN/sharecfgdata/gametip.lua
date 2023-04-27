@@ -13077,23 +13077,24 @@ After leaving a comment on a post, you may receive a reply after a period of tim
 _G.pg.base.gametip.doa_collection = {
 	tip = {
 		{
-			info = [[
-Event Period:<color=#92fc63>11/26 - 12/9</color>
-1. Participate in the event to collect info about each
-character's likes and interests.
-Collect all <color=#92fc63>14</color> to get a piece of limited furniture,
-<color=#92fc63>"Venus Vacation Statue."</color>]]
+			info = "- Character Likes Overview -"
+		},
+		{
+			info = "You can learn more about the Venus cast by participating in the event and completing tasks.\nBy collecting all 18 character likes you'll receive the Venus Vacation Statue as well as 3 Venus Vacation gear skin boxes. (The Vacation Statue can only be obtained once.)"
+		},
+		{
+			info = "- Unlocking Character Likes -"
 		},
 		{
 			info = [[
-2. You can earn character info through the following methods:
-① Sortie to event stages
-② Complete event missions
-③ Collect Venus Points
-④ Complete Venus Volleyball Scrimmages]]
-		},
-		{
-			info = "3. Event reward pickup lasts until 12/26, 23:59"
+There are a few different ways to unlock character likes, which vary from character to character:
+· Clearing the event stages
+· Completing event missions
+· Amassing enough Venus Points
+· Playing the Volleyball Scrimmage minigame
+· Playing the Butt Battle minigame
+
+Milestone rewards for collecting character likes remain claimable up to May 17th, 11:59 PM. (UTC-7).]]
 		}
 	}
 }
@@ -16535,7 +16536,7 @@ _G.pg.base.gametip.venusvolleyball_help = {
 			info = [[
 Event Rules:
 1. <color=#92fc63>A new match</color> will become available every day until
-<color=#92fc63>12/2</color> at midnight, up to a total of <color=#92fc63>7</color> matches. 
+<color=#92fc63>5/3</color> at midnight, up to a total of <color=#92fc63>7</color> matches. 
 Complete all the matches to earn the limited gear, <color=#92fc63>"Venus Awakening Gem,"</color>as well as
 the following item-<color=#92fc63>"Favorite Food (Monica)"</color>.
 2. Tap to start the game and choose two characters to enter the match.
@@ -16562,7 +16563,7 @@ _G.pg.base.gametip.venusvolleyball_rule_tip = {
 }
 
 _G.pg.base.gametip.venusvolleyball_return_tip = {
-	tip = "Are you sure you want to quit? You will not be able to get match completion rewards. "
+	tip = "Would you like to end the minigame?"
 }
 
 _G.pg.base.gametip.venusvolleyball_suspend_tip = {
@@ -16572,27 +16573,40 @@ _G.pg.base.gametip.venusvolleyball_suspend_tip = {
 _G.pg.base.gametip.doa_main = {
 	tip = {
 		{
-			info = [[
-Event Rules:
-The collab event, "Vacation Lane" will run from <color=#92fc63>11/26 - 12/9</color>.
-1. Clear event stages to earn Venus Points, which can be collected
-to get benchmark rewards or exchanged at the event shop.
-2. Complete 7 matches in the "Volleyball Scrimmage" minigame to earn
-the limited gear, <color=#92fc63>"Venus Awakening Gem."</color>
-Notice: 1 match will become available each day, up to a max of 7.
-3. Collect all 14 pieces of Character Likes to get the limited furniture, <color=#92fc63>"Venus Vacation Statue."</color>
-To see more information, tap "Commemorative Medal" on the event hub.
-4. Tap "Limited Construction" to build ships.
-5. Tap "Outfit Store" to see the new event outfits.
-6. From <color=#92fc63>11/26 - 12/09</color>, a new event commission will become available every day.
-Attempting this commission will not count towards your maximum
-dispatched commission fleet limit.
-Completing the commission will give event rewards.
-Unfulfilled commissions will disappear the next day.
-Completed commissions can be picked up on the next day,
-and you may take another commission on that day.
-Event rewards may picked up through 
-12/16 23:59.]]
+			info = "- Vacation Resort Overview -"
+		},
+		{
+			info = "The Vacation Resort acts as a hub to quickly jump to all features of the Vacation Lane event."
+		},
+		{
+			info = "These include:"
+		},
+		{
+			info = "· Event Stages: \nSpecial stages available during the event period. Clear stages to receive Venus Points."
+		},
+		{
+			info = "· Exchange: \nTurn in your Venus Points for various rewards."
+		},
+		{
+			info = "· Milestone Rewards: \nClaim additional rewards, including the character Nyotengu, for all the Venus Points you've accumulated."
+		},
+		{
+			info = "· Limited Construction: \nTakes you to the event build page."
+		},
+		{
+			info = "· New Outfits: \nSee what hot new outfits are in store."
+		},
+		{
+			info = "· Commemorative Medal: \nComplete different tasks to unlock character likes. Unlock all of them to receive the Venus Vacation Statue."
+		},
+		{
+			info = "· Butt Battle: \nA new minigame. Play over 7 days to receive Luna's Augment Module \"\"Roasted Sweet Potato\"\" and Tamaki's Augment Module \"\"Macaroon\"\"."
+		},
+		{
+			info = "· Volleyball Scrimmage: \nA rerun minigame. Play over 7 days to receive a piece of unique gear, the Venus Awakening Gem."
+		},
+		{
+			info = "Additionally, special commissions will appear during the event period. These exist separately to ordinary commissions, but yield rewards all the time. You can accept these special commissions up until May 17th, 11:59 PM. (UTC-7)."
 		}
 	}
 }
@@ -21539,7 +21553,7 @@ _G.pg.base.gametip.pre_combat_main = {
 }
 
 _G.pg.base.gametip.pre_combat_submarine = {
-	tip = "Sub Fleet"
+	tip = "Submarine"
 }
 
 _G.pg.base.gametip.pre_combat_targets = {
@@ -23684,4 +23698,80 @@ _G.pg.base.gametip.gametip_xiaoqiye = {
 
 _G.pg.base.gametip.event_recommend_level1 = {
 	tip = "No suitable shipgirls found. Would you like to automatically add a locked Lv. 1 shipgirl?"
+}
+
+_G.pg.base.gametip.doa_minigame_Luna = {
+	tip = "Luna"
+}
+
+_G.pg.base.gametip.doa_minigame_Misaki = {
+	tip = "Misaki"
+}
+
+_G.pg.base.gametip.doa_minigame_Marie = {
+	tip = "Marie Rose"
+}
+
+_G.pg.base.gametip.doa_minigame_Tamaki = {
+	tip = "Tamaki"
+}
+
+_G.pg.base.gametip.doa_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/doa_minigame_1",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.gametip_xiaokewei = {
+	tip = {
+		{
+			info = "- Overview -\nDuring the event, Little Formidable will provisionally join your fleet. Fight boss fleets to earn Trust. Collect enough Trust to have Little Formidable permanently join your fleet!"
+		},
+		{
+			info = [[
+- How to Play -
+· Collect Trust during the event period to have Little Formidable will permanently join your fleet.
+· Trust can be gathered by defeating the boss fleet of campaign maps starting from Chapter 3 on normal difficulty and event maps (not including War Archives). If Little Formidable is in the fleet that defeats the boss and she is still afloat, you'll receive double the amount of Trust.
+· The Trust you've collected can be turned in for additional rewards on the event banner.]]
+		},
+		{
+			info = "· You will not be able to give a Promise Ring to Little Formidable until you have formally recruited her to the fleet. You will also not be able to Retire her or use her as Enhancement or Limit Break material."
+		},
+		{
+			info = "· If Little Formidable has not been formally recruited by the end of the event, she will leave the port."
+		},
+		{
+			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day up to May 3rd."
+		},
+		{
+			info = "· Little Formidable cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
+		},
+		{
+			info = "· Little Formidable cannot participate in Guild Bosses until she has been formally recruited."
+		}
+	}
+}
+
+_G.pg.base.gametip.doa_character_select_confirm = {
+	tip = "Using <color=#92fc63>Venus Exchange Ticket</color> to redeem Venus Vacation collab character <color=#92fc63>$1</color>.\nDo you want to continue? "
 }
