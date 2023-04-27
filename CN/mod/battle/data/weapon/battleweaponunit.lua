@@ -842,7 +842,9 @@ function slot9.Clear(slot0)
 		end
 	end
 
-	slot0._currentState = slot0.STATE_DISABLE
+	if slot0._currentState ~= slot0.STATE_OVER_HEAT then
+		slot0._currentState = slot0.STATE_DISABLE
+	end
 end
 
 function slot9.Dispose(slot0)

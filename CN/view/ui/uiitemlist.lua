@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.make(slot0, slot1)
-	assert(slot1 == null or type(slot1) == "function")
+	assert(slot1 == nil or type(slot1) == "function")
 
 	slot0.callback = slot1
 end
