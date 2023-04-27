@@ -5978,6 +5978,106 @@ pg.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {}
 	},
+	[2014] = {
+		subject = "舰艇教材礼包",
+		limit_group = 0,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		limit_arg = 4,
+		name = "舰艇教材礼包(2023春)",
+		name_display = "舰艇教材礼包",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2014,
+		money = 18,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "boxSkill",
+		id_str = "com.bilibili.blhx.libao109",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可获得大量教材奖励",
+		airijp_id = "com.yostarjp.azurlane.package109",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {}
+	},
 	all = {
 		1,
 		2,
@@ -6048,6 +6148,7 @@ pg.pay_data_display = {
 		2010,
 		2011,
 		2012,
-		2013
+		2013,
+		2014
 	}
 }

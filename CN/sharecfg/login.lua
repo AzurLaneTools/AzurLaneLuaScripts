@@ -749,6 +749,41 @@ pg.login = {
 		login_cri = "loginbg_230401",
 		bgm = "login-2022401jp"
 	},
+	[27] = {
+		id = 27,
+		login_static = "login",
+		op_play = 0,
+		op_time = "",
+		login_cri = "",
+		bgm = "doa_guanqia",
+		date = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -769,6 +804,7 @@ pg.login = {
 		21,
 		22,
 		23,
-		24
+		24,
+		27
 	}
 }

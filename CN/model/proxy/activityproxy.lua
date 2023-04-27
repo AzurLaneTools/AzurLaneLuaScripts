@@ -467,6 +467,7 @@ end
 
 function slot0.getBuildActivityCfgByID(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0:getActivitiesByTypes({
+		ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1,
 		ActivityConst.ACTIVITY_TYPE_BUILD,
 		ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD
 	})) do

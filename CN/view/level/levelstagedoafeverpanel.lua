@@ -90,13 +90,18 @@ function slot0.UpdateView(slot0, slot1, slot2)
 					pg.UIMgr.GetInstance():UnOverlayPanel(uv1.banner, uv1._tf)
 					setActive(uv1.banner, false)
 					uv1.viewParent:emit(LevelUIConst.UN_FROZEN)
-					existCall(uv2)
+					uv2()
 				end
 
 				uv0.banner:GetComponent(typeof(DftAniEvent)):SetEndEvent(slot4)
 				onButton(uv0, uv0.banner, slot4)
+
+				return
 			end
-		end
+
+			slot0()
+		end,
+		slot2
 	})
 end
 

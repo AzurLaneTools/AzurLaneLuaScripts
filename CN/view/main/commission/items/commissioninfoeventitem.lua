@@ -196,6 +196,14 @@ function slot0.OnFinishAll(slot0)
 		end
 	end)
 
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT) and not slot3:isEnd() then
+		if getProxy(EventProxy):GetEventByActivityId(slot3.id) and slot4.state == EventInfo.StateFinish then
+			table.insert(slot1, function (slot0)
+				uv0:emit(CommissionInfoMediator.FINISH_EVENT, uv1, uv2, slot0)
+			end)
+		end
+	end
+
 	slot2 = #slot1
 
 	seriesAsync(slot1)

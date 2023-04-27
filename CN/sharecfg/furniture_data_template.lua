@@ -193,6 +193,7 @@ pg.furniture_data_template = setmetatable({
 			100046,
 			100047,
 			100048,
+			100049,
 			200001,
 			200002,
 			200003,
@@ -5066,6 +5067,7 @@ pg.furniture_data_template = setmetatable({
 			100046,
 			100047,
 			100048,
+			100049,
 			31101,
 			54101,
 			54102,
@@ -5978,7 +5980,8 @@ pg.furniture_data_template = setmetatable({
 			100044,
 			100045,
 			100046,
-			100047
+			100047,
+			100049
 		},
 		[2] = {
 			120,
@@ -8721,6 +8724,7 @@ pg.furniture_data_template = setmetatable({
 		100046,
 		100047,
 		100048,
+		100049,
 		200001,
 		200002,
 		200003,
@@ -15928,7 +15932,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		themeId = 0,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 6,
 		icon = "doaxunzhangicon",
 		deblocking = 1,
@@ -21595,6 +21599,89 @@ pg.base.furniture_data_template = {
 				},
 				"walk"
 			}
+		},
+		interAction_group = {}
+	},
+	[100049] = {
+		spine_extra = "",
+		describe = "没有什么是一个爆裂魔法解决不了，如果有，那就再来一个。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "爆裂法杖",
+		themeId = 0,
+		icon = "baoliefazhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100049,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"baoliefazhangB",
+				"normal"
+			},
+			{
+				"baoliefazhangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					},
+					{
+						"tuozhuai2"
+					},
+					{
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
