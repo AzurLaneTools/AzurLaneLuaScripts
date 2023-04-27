@@ -43471,7 +43471,7 @@ pg.ship_skin_expression = {
 		detail = "5"
 	},
 	kewei_younv = {
-		default = "",
+		default = "0",
 		feeling3 = "9",
 		unlock = "",
 		propose = "7",

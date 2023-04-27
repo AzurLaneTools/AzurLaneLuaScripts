@@ -9,10 +9,21 @@ slot0.Battle.BattleSpaceLaserWeaponUnit = slot5
 slot5.__name = "BattleSpaceLaserWeaponUnit"
 
 function slot5.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot6, slot7, slot8 = nil
-	slot9 = 0
+	slot6 = slot0:CreateEmitter(slot3, slot1, slot2)
+	slot0._majorEmitterList[#slot0._majorEmitterList + 1] = slot6
 
-	function slot10(slot0, slot1, slot2, slot3, slot4)
+	return slot6
+end
+
+function slot5.CreateEmitter(slot0, slot1, slot2, slot3)
+	slot4, slot5, slot6 = nil
+	slot7 = 0
+
+	function slot8(slot0, slot1, slot2, slot3, slot4)
+		if uv0._currentState == uv0.STATE_DISABLE then
+			return
+		end
+
 		slot6 = uv0:Spawn(uv0._emitBulletIDList[uv1], slot4, uv2.INTERNAL)
 		uv3 = uv3 + 1
 		slot4 = uv0._tmpData.aim_type == uv4.WeaponAimType.AIM and slot4 or nil
@@ -26,6 +37,10 @@ function slot5.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 			uv0 = uv0 - 1
 
 			if uv0 > 0 then
+				return
+			end
+
+			if uv1._currentState == uv1.STATE_DISABLE then
 				return
 			end
 
@@ -46,7 +61,11 @@ function slot5.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 		return slot6
 	end
 
-	return uv0.super.createMajorEmitter(slot0, slot1, slot2, slot3, function (slot0, slot1, slot2, slot3, slot4)
+	return uv3.Battle[slot1 or uv0.EMITTER_NORMAL].New(function (slot0, slot1, slot2, slot3, slot4)
+		if uv0._currentState == uv0.STATE_DISABLE then
+			return
+		end
+
 		if not uv2.GetBulletTmpDataFromID(uv0._emitBulletIDList[uv1]).extra_param.aim_time or slot6 <= 0 then
 			uv3(slot0, slot1, slot2, slot3, slot4)
 
@@ -81,5 +100,9 @@ function slot5.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 
 		return slot7
 	end, function ()
-	end)
+	end, slot2)
+end
+
+function slot5.SingleFire(slot0, slot1, slot2, slot3, slot4)
+	assert(false, "Not Support only fire for BattleSpaceLaserWeapon")
 end

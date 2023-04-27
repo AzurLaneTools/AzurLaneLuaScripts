@@ -4124,6 +4124,10 @@ pg.expedition_activity_template = {
 			{
 				4751,
 				313
+			},
+			{
+				4773,
+				315
 			}
 		}
 	},
@@ -4134,6 +4138,10 @@ pg.expedition_activity_template = {
 			{
 				4751,
 				313
+			},
+			{
+				4773,
+				315
 			}
 		}
 	},
@@ -4144,6 +4152,10 @@ pg.expedition_activity_template = {
 			{
 				4751,
 				313
+			},
+			{
+				4773,
+				315
 			}
 		}
 	},
@@ -4154,6 +4166,10 @@ pg.expedition_activity_template = {
 			{
 				4751,
 				313
+			},
+			{
+				4773,
+				315
 			}
 		}
 	},
@@ -4164,6 +4180,10 @@ pg.expedition_activity_template = {
 			{
 				4751,
 				313
+			},
+			{
+				4773,
+				315
 			}
 		}
 	},

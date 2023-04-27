@@ -12973,7 +12973,7 @@ _G.pg.base.gametip.music_juus = {
 _G.pg.base.gametip.doa_collection = {
 	tip = {
 		{
-			info = "活动时间：<color=#92fc63>4.27-5.11维护</color>\n1.活动期间，参与活动收集「角色喜好」，收集全部<color=#92fc63>18</color>个\n后可获得限定家具<color=#92fc63>「维纳斯假期纪念像」、「外观装备箱(维纳斯假期)*3」</color>"
+			info = "活动时间：<color=#92fc63>4.27-5.11维护</color>\n1.活动期间，参与活动收集「角色喜好」，收集全部<color=#92fc63>18</color>个后可获得限定家具<color=#92fc63>「维纳斯假期纪念像」、「外观装备箱(维纳斯假期)*3」</color>\n※「维纳斯假期纪念像」无法重复获取"
 		},
 		{
 			info = [[
