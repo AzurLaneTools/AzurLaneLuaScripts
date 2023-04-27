@@ -377,7 +377,7 @@ function slot0.HandleWallDamage(slot0, slot1, slot2)
 
 	if slot2:IsAlive() then
 		if not slot8 then
-			slot2:TriggerBuff(uv3.BuffEffectType.ON_BE_HIT)
+			slot2:TriggerBuff(uv3.BuffEffectType.ON_BE_HIT, {})
 		end
 	else
 		slot0:obituary(slot2, false, slot1)
