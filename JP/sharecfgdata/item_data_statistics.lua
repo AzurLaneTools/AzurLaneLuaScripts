@@ -194631,7 +194631,7 @@ _G.pg.base.item_data_statistics[59410] = {
 }
 
 _G.pg.base.item_data_statistics[59411] = {
-	display = "イベント「小さなレディのマナー講義」・友好度報酬（累計獲得数）",
+	display = "イベント「小さいなレディのマナー講義」・友好度",
 	name = "友好度-リトル・フォーミダブル",
 	max_num = 0,
 	type = 98,
@@ -209829,7 +209829,7 @@ _G.pg.base.item_data_statistics[70143] = {
 }
 
 _G.pg.base.item_data_statistics[70144] = {
-	display = "「マリー・ローズ」「ほのか」「かすみ」「みさき」「なぎさ」「モニカ」から一体選んで入手可能",
+	display = "「マリー・ローズ」「ほのか」「かすみ」「みさき」「なぎさ」「モニカ」から一体選んで入手可能「交換チケット」は5月18日(木)メンテナンスまで使用可能です。",
 	name = "ヴィーナス交換チケット",
 	max_num = 0,
 	type = 13,
