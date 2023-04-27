@@ -21,12 +21,12 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffCastSkill",
 			trigger = {
 				"onLeader"
 			},
 			arg_list = {
-				buff_id = 106241,
+				skill_id = 106241,
 				target = "TargetSelf"
 			}
 		},

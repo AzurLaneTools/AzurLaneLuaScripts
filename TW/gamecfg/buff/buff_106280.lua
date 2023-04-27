@@ -36,7 +36,7 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 106141,
+				skill_id = 106282,
 				target = "TargetSelf"
 			}
 		}

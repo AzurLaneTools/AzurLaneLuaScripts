@@ -823,13 +823,12 @@ pg.activity_template = {
 	},
 	[4773] = {
 		mark = 20230427,
-		title_res_tag = "",
-		page_info = "",
+		id = 4773,
+		title_res_tag = "doa_preview",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 0,
-		id = 4773,
+		is_show = 46,
 		config_data = {
 			1450001,
 			1450002,
@@ -865,6 +864,10 @@ pg.activity_template = {
 					59
 				}
 			}
+		},
+		page_info = {
+			class_name = "DoaMainPage",
+			ui_name = "DoaMainPage"
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
@@ -936,12 +939,13 @@ pg.activity_template = {
 	},
 	[4776] = {
 		mark = 20230427,
-		id = 4776,
-		title_res_tag = "doa_preview",
+		title_res_tag = "",
+		page_info = "",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 46,
+		is_show = 0,
+		id = 4776,
 		config_data = {
 			2049,
 			2050,
@@ -999,10 +1003,6 @@ pg.activity_template = {
 					59
 				}
 			}
-		},
-		page_info = {
-			class_name = "DoaMainPage",
-			ui_name = "DoaMainPage"
 		},
 		config_client = {
 			"commonbg/bg_pt_doa",

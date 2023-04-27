@@ -33641,7 +33641,7 @@ _G.pg.base.ship_skin_words[305115] = {
 	vote = "",
 	hp_warning = "",
 	id = 305115,
-	detail = "“和其他的伙伴相比顏色相異，不過很適合我”……感覺你越來越會說話了？呵呵~",
+	detail = "“和其他的夥伴相比顏色相異，不過很適合我”……感覺你越來越會說話了？呵呵~",
 	couple_encourage = {}
 }
 

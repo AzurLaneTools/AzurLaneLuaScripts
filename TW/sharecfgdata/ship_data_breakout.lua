@@ -32241,7 +32241,7 @@ _G.pg.base.ship_data_breakout[10600074] = {
 }
 
 _G.pg.base.ship_data_breakout[10600081] = {
-	use_gold = 500,
+	use_gold = 1000,
 	breakout_id = 10600082,
 	use_char_num = 1,
 	use_char = 1060008,
@@ -32258,7 +32258,7 @@ _G.pg.base.ship_data_breakout[10600081] = {
 }
 
 _G.pg.base.ship_data_breakout[10600082] = {
-	use_gold = 1500,
+	use_gold = 3000,
 	breakout_id = 10600083,
 	use_char_num = 1,
 	use_char = 1060008,
@@ -32277,7 +32277,7 @@ _G.pg.base.ship_data_breakout[10600082] = {
 }
 
 _G.pg.base.ship_data_breakout[10600083] = {
-	use_gold = 2500,
+	use_gold = 10000,
 	breakout_id = 10600084,
 	use_char_num = 2,
 	use_char = 1060008,

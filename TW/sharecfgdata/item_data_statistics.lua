@@ -161186,7 +161186,7 @@ _G.pg.base.item_data_statistics[70143] = {
 }
 
 _G.pg.base.item_data_statistics[70144] = {
-	display = "<color=#ff5c5c>5.18維護後道具將會刪除。</color>可從「瑪莉蘿絲」、「穗香」、「霞」、「海咲」、「凪咲」與「莫妮卡」中自行選擇一位角色進行兌換。",
+	display = "<color=#ff5c5c>5.18維護後道具將會刪除。</color>可從「瑪莉·蘿絲」、「穗香」、「霞」、「海咲」、「凪咲」與「莫妮卡」中自行選擇一位角色進行兌換。",
 	name = "「假日航線」角色自選",
 	max_num = 0,
 	type = 13,
