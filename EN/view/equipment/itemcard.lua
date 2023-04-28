@@ -13,7 +13,10 @@ end
 function slot0.update(slot0, slot1)
 	slot0.itemVO = slot1
 
-	setActive(slot0.timeLimitTag, slot1:getConfig("time_limit") == 1)
+	if not IsNil(slot0.timeLimitTag) then
+		setActive(slot0.timeLimitTag, slot1:getConfig("time_limit") == 1)
+	end
+
 	updateItem(rtf(slot0.bg), slot1)
 	TweenItemAlphaAndWhite(slot0.go)
 
