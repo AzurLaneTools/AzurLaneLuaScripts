@@ -40,6 +40,10 @@ function slot5.CreateEmitter(slot0, slot1, slot2, slot3)
 				return
 			end
 
+			if uv1._currentState == uv1.STATE_DISABLE then
+				return
+			end
+
 			for slot3, slot4 in ipairs(uv1._majorEmitterList) do
 				if slot4:GetState() ~= slot4.STATE_STOP then
 					return

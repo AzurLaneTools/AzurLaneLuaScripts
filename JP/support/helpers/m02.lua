@@ -882,15 +882,13 @@ function updateItem(slot0, slot1, slot2)
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4, slot5)
 
 	slot6 = findTF(slot0, "icon_bg/icon")
+	slot7 = slot1.icon or slot3.icon
 
-	if slot1.extra then
-		if slot3.type == Item.LOVE_LETTER_TYPE then
-			GetImageSpriteFromAtlasAsync("SquareIcon/" .. ShipGroup.getDefaultSkin(slot1.extra).prefab, "", slot6)
-		end
-	else
-		GetImageSpriteFromAtlasAsync(slot1.icon or slot3.icon, "", slot6)
+	if slot1.extra and slot3.type == Item.LOVE_LETTER_TYPE then
+		slot7 = "SquareIcon/" .. ShipGroup.getDefaultSkin(slot1.extra).prefab
 	end
 
+	GetImageSpriteFromAtlasAsync(slot7, "", slot6)
 	uv0(slot0, false)
 	uv1(slot0, slot3.name, slot2)
 	uv2(slot0, slot3.rarity + 1, slot2)
@@ -2799,7 +2797,7 @@ function setProposeMarkIcon(slot0, slot1)
 	elseif slot3 then
 		slot4 = pg.PoolMgr.GetInstance()
 
-		slot4:GetUI("proposeShipCard", false, function (slot0)
+		slot4:GetUI("proposeShipCard", true, function (slot0)
 			if uv0:Find("proposeShipCard(Clone)") then
 				pg.PoolMgr.GetInstance():ReturnUI("proposeShipCard", slot0)
 			else
