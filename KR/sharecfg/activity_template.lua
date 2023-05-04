@@ -9195,44 +9195,18 @@ pg.activity_template = {
 	},
 	[4747] = {
 		mark = 20230413,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4747,
 		config_data = {
 			1580001,
 			1580002,
 			1580003
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					4,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
@@ -9240,12 +9214,13 @@ pg.activity_template = {
 	},
 	[4748] = {
 		mark = 20230413,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4748,
 		config_data = {
@@ -9255,33 +9230,6 @@ pg.activity_template = {
 			18429,
 			18430,
 			18431
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					4,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4749] = {
@@ -10973,58 +10921,15 @@ pg.activity_template = {
 	},
 	[8040] = {
 		mark = 20230406,
-		config_client = "",
 		title_res_tag = "newserver_main",
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 40,
 		is_show = 43,
+		config_client = "",
 		id = 8040,
 		config_data = {},
-		time = {
-			{
-				"olduser",
-				{
-					{
-						2023,
-						5,
-						5
-					},
-					{
-						0,
-						0,
-						0
-					}
-				}
-			},
-			{
-				"timer",
-				{
-					{
-						2023,
-						4,
-						13
-					},
-					{
-						0,
-						0,
-						0
-					}
-				},
-				{
-					{
-						2023,
-						5,
-						4
-					},
-					{
-						23,
-						59,
-						59
-					}
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewServerLoginPage",
 			ui_name = "NewServerLoginPage"
@@ -11032,60 +10937,17 @@ pg.activity_template = {
 	},
 	[8041] = {
 		mark = 20230406,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 30,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 8041,
 		config_data = {
 			103
-		},
-		time = {
-			{
-				"olduser",
-				{
-					{
-						2023,
-						5,
-						5
-					},
-					{
-						0,
-						0,
-						0
-					}
-				}
-			},
-			{
-				"timer",
-				{
-					{
-						2023,
-						4,
-						13
-					},
-					{
-						0,
-						0,
-						0
-					}
-				},
-				{
-					{
-						2023,
-						5,
-						4
-					},
-					{
-						23,
-						59,
-						59
-					}
-				}
-			}
 		}
 	},
 	[6000] = {
@@ -14810,41 +14672,15 @@ pg.activity_template = {
 	},
 	[20994] = {
 		mark = 20230323,
-		config_client = "",
 		title_res_tag = "huiliu",
+		time = "stop",
 		type = 56,
 		login_pop = 0,
 		config_id = 1,
 		is_show = 29,
+		config_client = "",
 		id = 20994,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					3,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			ui_name = "returnawardpage",
 			ui_name2 = "ReturnAward4RetrunerPage",
