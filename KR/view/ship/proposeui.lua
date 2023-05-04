@@ -240,7 +240,15 @@ function slot0.doMain(slot0)
 
 			if uv0.intimacyDesc then
 				setActive(uv0.intimacyDesc, not uv0.intimacyDescPic)
-				setText(uv0.intimacyDesc, uv0:getProposeText())
+
+				slot5 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():ChieseDescTime(uv0.shipVO.proposeTime, true))
+
+				if not IsNil(GetComponent(uv0.intimacyDesc, "VerticalText")) then
+					GetComponent(uv0.intimacyDesc, "VerticalText").enabled = true
+					slot5 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():ChieseDescTime(uv0.shipVO.proposeTime, true))
+				end
+
+				setText(uv0.intimacyDesc, slot5)
 			end
 		else
 			if uv0.intimacyDesc and GetComponent(uv0.intimacyDesc, "VerticalText") then
@@ -312,35 +320,6 @@ function slot0.doMain(slot0)
 			end
 		end, SFX_PANEL)
 	end)
-end
-
-function slot0.getProposeText(slot0)
-	slot1 = ""
-
-	if PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_CHT then
-		slot1 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():ChieseDescTime(slot0.shipVO.proposeTime, true))
-
-		if not IsNil(GetComponent(slot0.intimacyDesc, "VerticalText")) then
-			GetComponent(slot0.intimacyDesc, "VerticalText").enabled = true
-			slot1 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():ChieseDescTime(slot0.shipVO.proposeTime, true))
-		end
-	elseif PLATFORM_CODE == PLATFORM_KR then
-		slot1 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():STimeDescS(slot0.shipVO.proposeTime, "%Y년%m월%d일", true))
-
-		if not IsNil(GetComponent(slot0.intimacyDesc, "VerticalText")) then
-			GetComponent(slot0.intimacyDesc, "VerticalText").enabled = true
-			slot1 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():STimeDescS(slot0.shipVO.proposeTime, "%Y년%m월%d일"))
-		end
-	else
-		slot1 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():STimeDescS(slot0.shipVO.proposeTime, true))
-
-		if not IsNil(GetComponent(slot0.intimacyDesc, "VerticalText")) then
-			GetComponent(slot0.intimacyDesc, "VerticalText").enabled = true
-			slot1 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():STimeDescS(slot0.shipVO.proposeTime, true))
-		end
-	end
-
-	return slot1
 end
 
 function slot0.getProposeItemId(slot0)
@@ -567,7 +546,15 @@ function slot0.stampWindow(slot0)
 
 	if slot0.intimacyDesc then
 		setActive(slot0.intimacyDesc, not slot0.intimacyDescPic)
-		setText(slot0.intimacyDesc, slot0:getProposeText())
+
+		slot2 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():ChieseDescTime(slot0.shipVO.proposeTime, true))
+
+		if not IsNil(GetComponent(slot0.intimacyDesc, "VerticalText")) then
+			GetComponent(slot0.intimacyDesc, "VerticalText").enabled = true
+			slot2 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():ChieseDescTime(slot0.shipVO.proposeTime, true))
+		end
+
+		setText(slot0.intimacyDesc, slot2)
 
 		slot1 = GetOrAddComponent(slot0.intimacyDesc, typeof(CanvasGroup))
 	end
