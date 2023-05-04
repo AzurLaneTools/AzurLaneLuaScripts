@@ -113,3 +113,7 @@ end
 function slot3.GetBeamInfoID(slot0)
 	return slot0._beamInfoID
 end
+
+function slot3.GetBeamExtraParam(slot0)
+	return slot0._bulletTemp.extra_param
+end

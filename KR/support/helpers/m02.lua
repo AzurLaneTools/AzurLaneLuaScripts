@@ -881,15 +881,13 @@ function updateItem(slot0, slot1, slot2)
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4, slot5)
 
 	slot6 = findTF(slot0, "icon_bg/icon")
+	slot7 = slot1.icon or slot3.icon
 
-	if slot1.extra then
-		if slot3.type == Item.LOVE_LETTER_TYPE then
-			GetImageSpriteFromAtlasAsync("SquareIcon/" .. ShipGroup.getDefaultSkin(slot1.extra).prefab, "", slot6)
-		end
-	else
-		GetImageSpriteFromAtlasAsync(slot1.icon or slot3.icon, "", slot6)
+	if slot1.extra and slot3.type == Item.LOVE_LETTER_TYPE then
+		slot7 = "SquareIcon/" .. ShipGroup.getDefaultSkin(slot1.extra).prefab
 	end
 
+	GetImageSpriteFromAtlasAsync(slot7, "", slot6)
 	uv0(slot0, false)
 	uv1(slot0, slot3.name, slot2)
 	uv2(slot0, slot3.rarity + 1, slot2)
@@ -2823,7 +2821,7 @@ function setProposeMarkIcon(slot0, slot1)
 	elseif slot3 then
 		slot4 = pg.PoolMgr.GetInstance()
 
-		slot4:GetUI("proposeShipCard", false, function (slot0)
+		slot4:GetUI("proposeShipCard", true, function (slot0)
 			if uv0:Find("proposeShipCard(Clone)") then
 				pg.PoolMgr.GetInstance():ReturnUI("proposeShipCard", slot0)
 			else
@@ -3754,4 +3752,50 @@ end
 
 function GetRomanDigit(slot0)
 	return string.char(226, 133, 160 + slot0 - 1)
+end
+
+function quickPlayAnimator(slot0, slot1)
+	slot0:GetComponent(typeof(Animator)):Play(slot1, -1, 0)
+end
+
+function getSurveyUrl(slot0)
+	slot1 = pg.survey_data_template[slot0]
+	slot2 = nil
+
+	if not IsUnityEditor then
+		if PLATFORM_CODE == PLATFORM_CH then
+			if PLATFORM == PLATFORM_ANDROID then
+				if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_BILI then
+					slot2 = slot1.main_url
+				else
+					slot2 = slot1.uo_url
+				end
+			elseif PLATFORM == PLATFORM_IPHONEPLAYER then
+				slot2 = slot1.ios_url
+			end
+		elseif PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+			slot2 = slot1.main_url
+		end
+	end
+
+	slot3 = getProxy(PlayerProxy):getRawData().id
+	slot5 = nil
+	slot12 = {
+		slot3,
+		getProxy(UserProxy):getRawData().arg2 or "",
+		PLATFORM == PLATFORM_ANDROID and 1 or PLATFORM == PLATFORM_IPHONEPLAYER and 2 or 3,
+		getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot6.server or 0] and slot7.name or "",
+		getProxy(PlayerProxy):getRawData().level,
+		slot0 .. "_" .. slot3
+	}
+
+	if slot2 then
+		for slot16, slot17 in ipairs(slot12) do
+			slot11 = string.gsub(slot11, "$" .. slot16, tostring(slot17))
+		end
+	end
+
+	warning(slot11)
+
+	return slot11
 end

@@ -29,7 +29,7 @@ function slot0.Update(slot0, slot1)
 	end
 
 	slot0.furniture = slot1
-	slot0.name.text = HXSet.hxLan(slot1:getConfig("name"))
+	slot0.name.text = shortenString(HXSet.hxLan(slot1:getConfig("name")), 9)
 	slot0.desc.text = HXSet.hxLan(slot1:getConfig("describe"))
 	slot0.comfortable.text = slot1:getConfig("comfortable")
 
@@ -37,25 +37,25 @@ function slot0.Update(slot0, slot1)
 		uv0.icon.sprite = slot0
 	end)
 
-	slot0.countTxt.text = slot1:getConfig("count") > 1 and slot1.count .. "/" .. slot2 or ""
+	slot0.countTxt.text = slot1:getConfig("count") > 1 and slot1.count .. "/" .. slot3 or ""
 
 	setActive(slot0.resGem, slot1:canPurchaseByGem())
 	setActive(slot0.resGold, slot1:canPurchaseByDormMoeny())
 
-	slot6 = slot1:canPurchase()
+	slot7 = slot1:canPurchase()
 
 	if slot0.maskUnOpen then
-		setActive(slot0.maskUnOpen, slot6 and (not slot4 and not slot5 or not slot1:inTime()))
+		setActive(slot0.maskUnOpen, slot7 and (not slot5 and not slot6 or not slot1:inTime()))
 	end
 
 	slot0.resGoldTxt.text = slot1:getPrice(PlayerConst.ResDormMoney)
 	slot0.resGemTxt.text = slot1:getPrice(PlayerConst.ResDiamond)
 
-	setActive(slot0.maskTF, not slot6)
+	setActive(slot0.maskTF, not slot7)
 	setActive(slot0.hotTF, false)
-	setActive(slot0.newTF, slot1:getConfig("new") and slot8 > 0 and slot6)
+	setActive(slot0.newTF, slot1:getConfig("new") and slot9 > 0 and slot7)
 
-	if slot8 and slot8 > 0 or slot7 then
+	if slot9 and slot9 > 0 or slot8 then
 		setAnchoredPosition(slot0.comfortableTF, {
 			y = -32
 		})
@@ -65,10 +65,10 @@ function slot0.Update(slot0, slot1)
 		})
 	end
 
-	slot9, slot10 = slot1:inTime()
+	slot10, slot11 = slot1:inTime()
 
-	if slot1:isTimeLimit() and slot9 then
-		slot0:UpdateCountdown(slot10)
+	if slot1:isTimeLimit() and slot10 then
+		slot0:UpdateCountdown(slot11)
 	else
 		slot0:DestoryTimer()
 

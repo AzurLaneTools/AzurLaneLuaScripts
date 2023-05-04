@@ -245,6 +245,7 @@ ShareCfg = {
 	["ShareCfg.land_based_template"] = true,
 	["ShareCfg.activity_random_award_item"] = true,
 	["ShareCfg.item_lack"] = true,
+	["ShareCfg.survey_data_template"] = true,
 	["ShareCfg.vote_champion"] = true,
 	["ShareCfg.skill_benefit_template"] = true,
 	["ShareCfg.activity_event_worldboss"] = true,

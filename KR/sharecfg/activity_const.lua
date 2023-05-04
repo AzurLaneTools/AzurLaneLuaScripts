@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 171
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 4743
+		act_id = 4751
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -649,7 +649,7 @@ pg.activity_const = {
 		act_id = 20562
 	},
 	DOA_MEDAL_ACT_ID = {
-		act_id = 20610
+		act_id = 4779
 	},
 	MUSIC_FESTIVAL_MEDALCOLLECTION_2020 = {
 		act_id = 758
@@ -661,7 +661,7 @@ pg.activity_const = {
 		act_id = 20597
 	},
 	DOA_COLLECTION_FURNITURE = {
-		act_id = 20610
+		act_id = 4779
 	},
 	ACTIVITY_ID_US_SKIRMISH_RE = {
 		act_id = 20703
@@ -754,10 +754,10 @@ pg.activity_const = {
 		act_id = 20492
 	},
 	DOA_MAP_ACT_ID = {
-		act_id = 20604
+		act_id = 4773
 	},
 	DOA_PT_ID = {
-		act_id = 20606
+		act_id = 4775
 	},
 	ELITE_AWARD_ACTIVITY_ID = {
 		act_id = 20135
@@ -920,5 +920,14 @@ pg.activity_const = {
 	},
 	ACTIVITY_STACK_ID = {
 		act_id = 4637
+	},
+	DOA2_MEDAL_ACT_ID = {
+		act_id = 4779
+	},
+	MINIGAME_VOLLEYBALL = {
+		act_id = 4780
+	},
+	MINIGAME_PENGPENGDONG = {
+		act_id = 4781
 	}
 }

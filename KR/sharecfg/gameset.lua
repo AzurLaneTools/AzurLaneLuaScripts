@@ -335,7 +335,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 308
+		key_value = 315
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1898,7 +1898,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 309
+		key_value = 316
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -1982,11 +1982,7 @@ pg.gameset = {
 	},
 	doa_fever_buff = {
 		key_value = 8761,
-		description = {
-			8765,
-			8767,
-			8769
-		}
+		description = {}
 	},
 	doa_fever_recover = {
 		description = "",
@@ -2548,7 +2544,7 @@ pg.gameset = {
 					5
 				},
 				"bg_main_night",
-				"ryza-3"
+				"doa_main_night"
 			},
 			{
 				{
@@ -2556,7 +2552,7 @@ pg.gameset = {
 					8
 				},
 				"bg_main_twilight",
-				"ryza-13"
+				"doa_main_day"
 			},
 			{
 				{
@@ -2564,7 +2560,7 @@ pg.gameset = {
 					16
 				},
 				"bg_main_day",
-				"ryza-13"
+				"doa_main_day"
 			},
 			{
 				{
@@ -2572,7 +2568,7 @@ pg.gameset = {
 					19
 				},
 				"bg_main_twilight",
-				"ryza-13"
+				"doa_main_day"
 			},
 			{
 				{
@@ -2580,7 +2576,7 @@ pg.gameset = {
 					24
 				},
 				"bg_main_night",
-				"ryza-3"
+				"doa_main_night"
 			}
 		}
 	},

@@ -1,5 +1,82 @@
 pg = pg or {}
 pg.enemy_data_statistics_67 = {
+	[103004] = {
+		cannon = 80,
+		battle_unit_type = 50,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		speed = 30,
+		dodge = 15,
+		id = 103004,
+		cannon_growth = 468,
+		rarity = 3,
+		reload_growth = 0,
+		dodge_growth = 222,
+		armor = 0,
+		star = 4,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		reload = 150,
+		base = 90166,
+		durability = 600,
+		armor_growth = 0,
+		torpedo_growth = 4491,
+		luck_growth = 0,
+		hit_growth = 210,
+		luck = 0,
+		torpedo = 300,
+		durability_growth = 15600,
+		antisub = 0,
+		antiaircraft = 90,
+		antiaircraft_growth = 1638,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			100221,
+			100431
+		}
+	},
+	[103005] = {
+		cannon = 80,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 468,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		rarity = 2,
+		dodge = 15,
+		torpedo = 300,
+		durability_growth = 15600,
+		antiaircraft = 88,
+		reload_growth = 0,
+		dodge_growth = 222,
+		hit_growth = 210,
+		star = 3,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 50,
+		base = 90165,
+		durability = 600,
+		armor_growth = 0,
+		torpedo_growth = 4491,
+		luck_growth = 0,
+		speed = 30,
+		luck = 0,
+		id = 103005,
+		antiaircraft_growth = 1638,
+		antisub = 0,
+		armor = 0,
+		fog_fx = "",
+		equipment_list = {
+			100221,
+			100431
+		}
+	},
 	[103006] = {
 		cannon = 80,
 		battle_unit_type = 50,
@@ -867,166 +944,6 @@ pg.enemy_data_statistics_67 = {
 			313064,
 			313065,
 			313066
-		}
-	},
-	[103026] = {
-		cannon = 0,
-		antiaircraft_growth = 3744,
-		rarity = 4,
-		speed_growth = 0,
-		luck = 0,
-		air = 44,
-		antisub = 0,
-		reload = 150,
-		antiaircraft = 145,
-		hit_growth = 210,
-		dodge_growth = 72,
-		icon = "jiahe",
-		star = 5,
-		antisub_growth = 0,
-		air_growth = 3627,
-		base = 90121,
-		durability = 2000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		id = 103026,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "jiahe",
-		cannon_growth = 0,
-		fog_fx = "",
-		dodge = 5,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 0,
-		durability_growth = 40000,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.861,
-					0.779,
-					0.018
-				}
-			},
-			plane = {
-				{
-					0.861,
-					0.779,
-					0.018
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.99,
-							0.49,
-							0.15
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.86,
-							-0.03
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {
-			313067,
-			313068,
-			313069
-		}
-	},
-	[103028] = {
-		cannon = 180,
-		hit_growth = 210,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 18,
-		dodge = 3,
-		id = 103028,
-		cannon_growth = 2592,
-		rarity = 4,
-		reload_growth = 0,
-		dodge_growth = 48,
-		luck = 0,
-		star = 5,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90220,
-		durability = 3600,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		armor = 0,
-		torpedo = 0,
-		durability_growth = 60000,
-		antisub = 0,
-		antiaircraft = 250,
-		antiaircraft_growth = 3744,
-		bound_bone = {
-			cannon = {
-				{
-					0.82,
-					0.67,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100201,
-			100541,
-			313070
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 2
-			}
 		}
 	}
 }

@@ -125,7 +125,7 @@ function slot0.initTask(slot0)
 		slot8 = pg.task_data_template[slot2[slot6]]
 		slot10 = slot8.sub_type
 
-		if slot8.type == 26 then
+		if slot8.type == Task.TYPE_ACTIVITY or slot9 == Task.TYPE_ACTIVITY_BRANCH then
 			slot0:insertTaskToGroup(slot7, slot8, slot0:getTaskGroup(slot9, slot10))
 		end
 	end

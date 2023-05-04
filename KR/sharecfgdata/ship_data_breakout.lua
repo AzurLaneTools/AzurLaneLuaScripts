@@ -15675,6 +15675,75 @@ _G.pg.base.ship_data_breakout[207124] = {
 	weapon_ids = {}
 }
 
+_G.pg.base.ship_data_breakout[207131] = {
+	use_gold = 500,
+	breakout_id = 207132,
+	use_char_num = 1,
+	use_char = 20713,
+	breakout_view = "뇌격기 탑재량 +1 / 함재기 효율 +2%",
+	level = 10,
+	id = 207131,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		60421,
+		54014
+	}
+}
+
+_G.pg.base.ship_data_breakout[207132] = {
+	use_gold = 1500,
+	breakout_id = 207133,
+	use_char_num = 1,
+	use_char = 20713,
+	breakout_view = "격납고 용량 +1 / 전투기 탑재량 +1 / 함재기 효율 +3%",
+	level = 30,
+	id = 207132,
+	icon = "10001",
+	pre_id = 207131,
+	use_item = {},
+	weapon_ids = {
+		60422,
+		54014,
+		60422,
+		54014
+	}
+}
+
+_G.pg.base.ship_data_breakout[207133] = {
+	use_gold = 2500,
+	breakout_id = 207134,
+	use_char_num = 2,
+	use_char = 20713,
+	breakout_view = "뇌격기 탑재량 +1 / 함재기 효율 +5% / 전투기 슬롯에 폭격기를 장비할 수 있습니다.",
+	level = 70,
+	id = 207133,
+	icon = "10001",
+	pre_id = 207132,
+	use_item = {},
+	weapon_ids = {
+		60423,
+		54015,
+		60423,
+		54015
+	}
+}
+
+_G.pg.base.ship_data_breakout[207134] = {
+	use_gold = 0,
+	breakout_id = 0,
+	use_char_num = 0,
+	use_char = 20713,
+	breakout_view = "없음",
+	level = 0,
+	id = 207134,
+	icon = "10001",
+	pre_id = 207133,
+	use_item = {},
+	weapon_ids = {}
+}
+
 _G.pg.base.ship_data_breakout[213011] = {
 	use_gold = 500,
 	breakout_id = 213012,
@@ -37031,6 +37100,142 @@ _G.pg.base.ship_data_breakout[10600074] = {
 	id = 10600074,
 	icon = "10001",
 	pre_id = 10600073,
+	use_item = {},
+	weapon_ids = {}
+}
+
+_G.pg.base.ship_data_breakout[10600081] = {
+	use_gold = 1000,
+	breakout_id = 10600082,
+	use_char_num = 1,
+	use_char = 1060008,
+	breakout_view = "뇌격기 탑재량 +1 / 뇌격기 효율 +5%",
+	level = 10,
+	id = 10600081,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		60981,
+		54011
+	}
+}
+
+_G.pg.base.ship_data_breakout[10600082] = {
+	use_gold = 3000,
+	breakout_id = 10600083,
+	use_char_num = 1,
+	use_char = 1060008,
+	breakout_view = "격납고 용량 +1 / 뇌격기 탑재량 +1 / 뇌격기 효율 +10%",
+	level = 30,
+	id = 10600082,
+	icon = "10001",
+	pre_id = 10600081,
+	use_item = {},
+	weapon_ids = {
+		60982,
+		54011,
+		60982,
+		54011
+	}
+}
+
+_G.pg.base.ship_data_breakout[10600083] = {
+	use_gold = 10000,
+	breakout_id = 10600084,
+	use_char_num = 2,
+	use_char = 1060008,
+	breakout_view = "함재기 탑재량 +1 / 함재기 효율 +5%",
+	level = 70,
+	id = 10600083,
+	icon = "10001",
+	pre_id = 10600082,
+	use_item = {},
+	weapon_ids = {
+		60983,
+		54012,
+		60983,
+		54012
+	}
+}
+
+_G.pg.base.ship_data_breakout[10600084] = {
+	use_gold = 0,
+	breakout_id = 0,
+	use_char_num = 0,
+	use_char = 1060008,
+	breakout_view = "없음",
+	level = 0,
+	id = 10600084,
+	icon = "10001",
+	pre_id = 10600083,
+	use_item = {},
+	weapon_ids = {}
+}
+
+_G.pg.base.ship_data_breakout[10600091] = {
+	use_gold = 1000,
+	breakout_id = 10600092,
+	use_char_num = 1,
+	use_char = 1060009,
+	breakout_view = "주포 발사 수 +1 / 주포 효율 +5%",
+	level = 10,
+	id = 10600091,
+	icon = "10001",
+	pre_id = 0,
+	use_item = {},
+	weapon_ids = {
+		34100,
+		34100
+	}
+}
+
+_G.pg.base.ship_data_breakout[10600092] = {
+	use_gold = 3000,
+	breakout_id = 10600093,
+	use_char_num = 1,
+	use_char = 1060009,
+	breakout_view = "부포 발사 수 +2 / 주포 효율 +10%",
+	level = 30,
+	id = 10600092,
+	icon = "10001",
+	pre_id = 10600091,
+	use_item = {},
+	weapon_ids = {
+		101,
+		101,
+		101
+	}
+}
+
+_G.pg.base.ship_data_breakout[10600093] = {
+	use_gold = 10000,
+	breakout_id = 10600094,
+	use_char_num = 2,
+	use_char = 1060009,
+	breakout_view = "주포 발사 수 +1 / 주포 효율 +15%",
+	level = 70,
+	id = 10600093,
+	icon = "10001",
+	pre_id = 10600092,
+	use_item = {},
+	weapon_ids = {
+		34100,
+		34100,
+		34100
+	}
+}
+
+_G.pg.base.ship_data_breakout[10600094] = {
+	use_gold = 0,
+	breakout_id = 0,
+	use_char_num = 0,
+	use_char = 1060009,
+	breakout_view = "없음",
+	level = 0,
+	id = 10600094,
+	icon = "10001",
+	pre_id = 10600093,
 	use_item = {},
 	weapon_ids = {}
 }
