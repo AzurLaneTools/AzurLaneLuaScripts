@@ -23087,7 +23087,7 @@ _G.pg.base.gametip.doa_minigame_Luna = {
 }
 
 _G.pg.base.gametip.doa_minigame_Misaki = {
-	tip = "나기사"
+	tip = "미사키"
 }
 
 _G.pg.base.gametip.doa_minigame_Marie = {
