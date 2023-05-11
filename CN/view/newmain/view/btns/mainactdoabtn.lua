@@ -21,7 +21,7 @@ function slot0.IsShowTip(slot0)
 end
 
 function slot0.CustomOnClick(slot0)
-	slot0:emit(NewMainMediator.GO_SCENE, SCENE.DOA_MEDAL_COLLECTION_SCENE)
+	slot0:emit(NewMainMediator.GO_SCENE, SCENE.DOA2_MEDAL_COLLECTION_SCENE)
 end
 
 return slot0
