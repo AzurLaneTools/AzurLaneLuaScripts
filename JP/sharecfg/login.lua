@@ -777,63 +777,12 @@ pg.login = {
 	},
 	[27] = {
 		id = 27,
-		op_play = 1,
 		login_static = "login",
+		date = "stop",
+		op_play = 1,
+		op_time = "stop",
 		login_cri = "",
-		bgm = "doa_guanqia",
-		date = {
-			"timer",
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = "doa_guanqia"
 	},
 	all = {
 		1,

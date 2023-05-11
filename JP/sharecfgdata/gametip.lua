@@ -10105,15 +10105,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「ソビエツカヤ·ロシア」常設実装！"
+	tip = "「ハウ」「ヴァリアント」常設実装！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「タシュケント」「チャパエフ」常設実装！"
+	tip = "「ハーマイオニー」常設実装！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「鎮海」常設実装！"
+	tip = "「パーシュース」「イーグル」常設実装！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -21686,7 +21686,7 @@ _G.pg.base.gametip.littleEugen_npc = {
 			info = "3.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【プリンツ・オイゲンちゃん】を「正式加入」させることができます（友好度が10000必要）。イベント終了時、「正式加入」していない【プリンツ・オイゲンちゃん】は母港からいなくなります。"
 		},
 		{
-			info = "4.友好度報酬は5/4（水）まで毎日1段階ずつ解放されます。"
+			info = "4.友好度報酬は5/17（水）まで毎日1段階ずつ解放されます。"
 		},
 		{
 			info = "5.仮加入状態の【プリンツ・オイゲンちゃん】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
@@ -23862,4 +23862,16 @@ _G.pg.base.gametip.gametip_xiaokewei = {
 
 _G.pg.base.gametip.doa_character_select_confirm = {
 	tip = "<color=#92fc63>ヴィーナス交換チケット</color>を消費し、<color=#92fc63> $1 </color>と交換します。\n続けますか？"
+}
+
+_G.pg.base.gametip.blueprint_combatperformance = {
+	tip = "戦闘性能"
+}
+
+_G.pg.base.gametip.blueprint_shipperformance = {
+	tip = "スキル"
+}
+
+_G.pg.base.gametip.blueprint_researching = {
+	tip = "開発中……"
 }

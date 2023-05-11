@@ -5335,6 +5335,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"コアショップ",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -7197,12 +7207,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"勲章交換（ランダムで出現）",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -9568,6 +9587,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -10758,6 +10787,16 @@ pg.base.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -10978,6 +11017,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11132,12 +11182,21 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -12240,6 +12299,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -12588,6 +12658,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -12824,12 +12905,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -12863,6 +12953,17 @@ pg.base.ship_data_group = {
 				"イベント：極夜照らす幻光",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -12997,6 +13098,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13024,12 +13136,11 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特型艦建造",
+				"特別補給（ランダム出現）",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "special",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -14865,12 +14976,11 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"特別補給（ランダム出現）",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -15300,12 +15410,21 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"勲章交換（ランダムで出現）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0
@@ -15544,6 +15663,16 @@ pg.base.ship_data_group = {
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -16415,20 +16544,29 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"小型艦建造",
+				"イベント：紅染の来訪者",
+				{
+					""
+				},
+				0
+			},
+			{
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
 			},
 			{
-				"イベント：紅染の来訪者",
+				"ショップの大艦隊補給にて入手可能",
 				{
-					""
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			}
@@ -16465,12 +16603,11 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"特別補給（ランダム出現）",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -17746,20 +17883,29 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"大型艦建造",
+				"イベント：墨染まりし鋼の桜",
+				{
+					""
+				},
+				0
+			},
+			{
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
 			},
 			{
-				"イベント：墨染まりし鋼の桜",
+				"勲章交換（ランダムで出現）",
 				{
-					""
+					"SHOP",
+					{
+						warp = 8
+					}
 				},
 				0
 			}
@@ -19509,6 +19655,16 @@ pg.base.ship_data_group = {
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -21667,12 +21823,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -21710,12 +21875,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -24018,6 +24192,16 @@ pg.base.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"ショップの大艦隊補給にて入手可能",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -24850,12 +25034,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"支援要請（ランダムで出現）",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"勲章交換（ランダムで出現）",
+				{
+					"SHOP",
+					{
+						warp = 8
 					}
 				},
 				0

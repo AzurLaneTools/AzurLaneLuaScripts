@@ -18716,6 +18716,19 @@ pg.activity_shop_template = {
 		resource_num = 500,
 		order = 5
 	},
+	[10078] = {
+		limit_args = "",
+		resource_category = 2,
+		activity = 0,
+		num_limit = 1,
+		num = 1,
+		commodity_id = 102211,
+		commodity_type = 4,
+		resource_type = 59900,
+		id = 10078,
+		resource_num = 1200,
+		order = 1
+	},
 	[11001] = {
 		limit_args = "",
 		resource_category = 1,
@@ -19224,6 +19237,7 @@ pg.activity_shop_template = {
 			10059,
 			10073,
 			10074,
+			10078,
 			11006
 		},
 		[7] = {
@@ -21917,6 +21931,7 @@ pg.activity_shop_template = {
 		10075,
 		10076,
 		10077,
+		10078,
 		11001,
 		11002,
 		11003,
