@@ -10213,11 +10213,11 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Richelieu and Algérie added to standard build pool!"
+	tip = "Sovetskaya Rossiya added to standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Le Terrible, Jeanne d'Arc, Tartu and others added to the standard build pool!"
+	tip = "Tashkent, Chapayev and others added to the standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -21589,7 +21589,7 @@ _G.pg.base.gametip.littleEugen_npc = {
 			info = "- How to Play -\n· During the event period, completing the associated missions will reward you with Cake Pts. You can redeem these for Trust by tapping the bottom right button on the Sugary-Sweet Käsekuchen event banner. You will be able to collect rewards for accumulating a certain amount of Trust."
 		},
 		{
-			info = "· You will not be able to give a Promise Ring to Little Prinz Eugen until you have formally recruited her to the fleet. You will also not be able to Retire or use her as Enhancement or Limit Break material."
+			info = "· You will not be able to give a Promise Ring to Little Prinz Eugen until you have formally recruited her to the fleet. You will also not be able to Retire or use her as Enhancement or Limit Break material."
 		},
 		{
 			info = "· If Little Prinz Eugen has not been formally recruited by the end of the event, she will leave the Port."
@@ -23774,4 +23774,16 @@ _G.pg.base.gametip.gametip_xiaokewei = {
 
 _G.pg.base.gametip.doa_character_select_confirm = {
 	tip = "Using <color=#92fc63>Venus Exchange Ticket</color> to redeem Venus Vacation collab character <color=#92fc63>$1</color>.\nDo you want to continue? "
+}
+
+_G.pg.base.gametip.blueprint_combatperformance = {
+	tip = "Performance"
+}
+
+_G.pg.base.gametip.blueprint_shipperformance = {
+	tip = "Skill"
+}
+
+_G.pg.base.gametip.blueprint_researching = {
+	tip = "Developing..."
 }

@@ -930,8 +930,8 @@ function slot0.Resume(slot0)
 	end
 end
 
-function slot0.Puase(slot0)
-	uv0.super.Puase(slot0)
+function slot0.Pause(slot0)
+	uv0.super.Pause(slot0)
 
 	if slot0.typewriterSpeed ~= 0 then
 		slot0.typewriter:setSpeed(100000000)

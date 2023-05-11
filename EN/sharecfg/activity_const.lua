@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 20066
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 4751
+		act_id = 4786
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274

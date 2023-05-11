@@ -5419,7 +5419,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4775,
-		is_show = 45,
+		is_show = 44,
 		id = 4775,
 		config_data = {},
 		time = {
@@ -5628,6 +5628,7 @@ pg.activity_template = {
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		config_client = "",
 		id = 4779,
 		config_data = {
 			70138,
@@ -5675,9 +5676,6 @@ pg.activity_template = {
 					59
 				}
 			}
-		},
-		config_client = {
-			story = "JIARIHANGXIAN1"
 		}
 	},
 	[4780] = {
@@ -5892,6 +5890,304 @@ pg.activity_template = {
 				"<color=#d797ff>Nagisa</color>: 2.5%<color=#92FC63>(up!)</color>",
 				" ",
 				"<color=#d797ff>Monica</color>: 2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[4785] = {
+		mark = 20230511,
+		id = 4785,
+		title_res_tag = "lemars_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 46,
+		config_data = {
+			{
+				18497,
+				18498
+			},
+			{
+				18499,
+				18500
+			},
+			{
+				18501,
+				18502
+			},
+			{
+				18503,
+				18504
+			},
+			{
+				18505,
+				18506
+			},
+			{
+				18507,
+				18508
+			},
+			{
+				18509,
+				18510
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LeMarsSkinPage",
+			ui_name = "LeMarsSkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"HEYAZHIYAN1"
+				},
+				{},
+				{
+					"HEYAZHIYAN2"
+				},
+				{},
+				{
+					"HEYAZHIYAN3"
+				},
+				{},
+				{
+					"HEYAZHIYAN4"
+				}
+			}
+		}
+	},
+	[4786] = {
+		mark = 20230511,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4786,
+		config_data = {
+			18511
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				18511
+			}
+		}
+	},
+	[4787] = {
+		mark = 20230511,
+		id = 4787,
+		title_res_tag = "little_eugen",
+		type = 74,
+		login_pop = 0,
+		config_id = 4787,
+		is_show = 45,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LittleOuGenRePage",
+			ui_name = "LittleOuGenRePage"
+		},
+		config_client = {
+			task_act_id = 4788
+		}
+	},
+	[4788] = {
+		mark = 20230511,
+		title_res_tag = "",
+		page_info = "",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		id = 4788,
+		config_data = {
+			{
+				18512,
+				18513,
+				18514,
+				18515,
+				18516,
+				18517,
+				18518,
+				18519,
+				18520,
+				18521,
+				18522,
+				18523,
+				18524,
+				18525,
+				18526,
+				18527,
+				18528,
+				18529,
+				18530,
+				18531,
+				18532,
+				18533,
+				18534,
+				18535,
+				18536,
+				18537,
+				18538,
+				18539,
+				18540,
+				18541,
+				18542
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			ptActID = {
+				4787
+			}
+		}
+	},
+	[4789] = {
+		mark = 20230511,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4789,
+		config_data = {
+			18543,
+			18544
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -12126,7 +12422,7 @@ pg.activity_template = {
 		id = 30116
 	},
 	[30117] = {
-		mark = 20220915,
+		mark = 20230511,
 		title_res_tag = "",
 		page_info = "",
 		type = 0,
@@ -12140,9 +12436,9 @@ pg.activity_template = {
 			"timer",
 			{
 				{
-					2022,
-					9,
-					16
+					2023,
+					5,
+					12
 				},
 				{
 					0,
@@ -12152,9 +12448,9 @@ pg.activity_template = {
 			},
 			{
 				{
-					2022,
-					9,
-					25
+					2023,
+					5,
+					21
 				},
 				{
 					23,
@@ -27574,7 +27870,7 @@ pg.activity_template = {
 				{
 					2023,
 					6,
-					7
+					8
 				},
 				{
 					23,
@@ -27689,6 +27985,113 @@ pg.activity_template = {
 			id = 2,
 			bg = "loadingbg/bg_build_2_act",
 			buildship_tip = "Reno, Hardy and others added to the standard build pool!",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 26%",
+				"Common: 55%"
+			}
+		}
+	},
+	[30872] = {
+		mark = 20230511,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30872",
+		id = 30872,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "Rate UP for Tashkent, Sovetskaya Rossiya, Grozny and others! ",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 51%",
+				"Common: 30%",
+				"<color=#ffde38>Tashkent</color>: 2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>Sovetskaya Rossiya</color>: 2.0%<color=#92FC63>(up!)</color>",
+				"",
+				"<color=#ffde38>Chapayev</color>: 0.5%",
+				"",
+				"<color=#d797ff>Grozny</color>: 2.5%<color=#92FC63>(up!)</color>",
+				"",
+				"<color=#d797ff>Pamiat' Merkuria</color>: 2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[30873] = {
+		mark = 20230511,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30873",
+		id = 30873,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "Le Terrible, Jeanne d'Arc, Tartu and others added to the standard build pool!",
 			rate_tip = {
 				"<color=#ffde38>Super Rare</color>: 7%",
 				"<color=#d797ff>Elite</color>: 12%",
@@ -27825,6 +28228,11 @@ pg.activity_template = {
 		4781,
 		4782,
 		4783,
+		4785,
+		4786,
+		4787,
+		4788,
+		4789,
 		7001,
 		7002,
 		7003,
@@ -28508,6 +28916,8 @@ pg.activity_template = {
 		30868,
 		30869,
 		30870,
-		30871
+		30871,
+		30872,
+		30873
 	}
 }

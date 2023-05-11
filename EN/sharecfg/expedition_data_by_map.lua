@@ -361,6 +361,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100242,
 		2100251,
 		2100252,
+		2100261,
+		2100262,
+		2100271,
+		2100272,
 		2200000,
 		2200010,
 		2200020,
@@ -16225,6 +16229,182 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 2100242,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100261] = {
+		map = 2100261,
+		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp3",
+		enter_story = "MAOZIHUODONG1",
+		ani_name = "Map_1290001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1290001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100271,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100262] = {
+		map = 2100262,
+		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-3",
+		enter_story = "MAOZIHUODONG15",
+		ani_name = "Map_1290002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1290002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100272,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100271] = {
+		map = 2100271,
+		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp3",
+		enter_story = "MAOZIHUODONG1",
+		ani_name = "Map_1290003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1290003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100261,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100272] = {
+		map = 2100272,
+		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-3",
+		enter_story = "MAOZIHUODONG15",
+		ani_name = "Map_1290004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1290004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100262,
 		clouds_pos = {
 			{
 				332,

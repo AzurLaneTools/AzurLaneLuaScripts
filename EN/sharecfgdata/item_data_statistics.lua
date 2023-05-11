@@ -187232,6 +187232,28 @@ _G.pg.base.item_data_statistics[59421] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59412] = {
+	display = "Used in the \"Sugary-Sweet Käsekuchen\" event. Will disappear after the event period ends.",
+	name = "Cake Pts",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/little_eugen_pt",
+	id = 59412,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",

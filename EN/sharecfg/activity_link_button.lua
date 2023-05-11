@@ -141,6 +141,20 @@ pg.activity_link_button = {
 			"default"
 		}
 	},
+	[100] = {
+		param = "0",
+		name = "event_doa",
+		type = 0,
+		text_pic = "",
+		id = 100,
+		group_id = 10,
+		pic = "event_doa",
+		order = 1,
+		time = {
+			"default",
+			4779
+		}
+	},
 	get_id_list_by_name = {
 		event_all = {
 			1,
@@ -170,6 +184,9 @@ pg.activity_link_button = {
 		},
 		event_series = {
 			90
+		},
+		event_doa = {
+			100
 		}
 	},
 	all = {
@@ -183,6 +200,7 @@ pg.activity_link_button = {
 		60,
 		70,
 		80,
-		90
+		90,
+		100
 	}
 }

@@ -511,6 +511,7 @@ pg.honormedal_goods_list = {
 		goods_rarity = 4,
 		order = 0,
 		goods = {
+			301161,
 			401461,
 			801011,
 			901111
@@ -575,7 +576,10 @@ pg.honormedal_goods_list = {
 			305111,
 			405021,
 			105121,
-			105131
+			105131,
+			305051,
+			105191,
+			905011
 		}
 	},
 	{
@@ -612,6 +616,7 @@ pg.honormedal_goods_list = {
 		goods_rarity = 4,
 		order = 1,
 		goods = {
+			301161,
 			401461,
 			801011,
 			901111
@@ -676,7 +681,10 @@ pg.honormedal_goods_list = {
 			305111,
 			405021,
 			105121,
-			105131
+			105131,
+			305051,
+			105191,
+			905011
 		}
 	},
 	{

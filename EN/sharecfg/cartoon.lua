@@ -1134,6 +1134,36 @@ pg.cartoon = {
 		resource = "189",
 		cartoon_id = 189
 	},
+	{
+		id = 190,
+		mark = 21,
+		resource = "190",
+		cartoon_id = 190
+	},
+	{
+		id = 191,
+		mark = 21,
+		resource = "191",
+		cartoon_id = 191
+	},
+	{
+		id = 192,
+		mark = 21,
+		resource = "192",
+		cartoon_id = 192
+	},
+	{
+		id = 193,
+		mark = 21,
+		resource = "193",
+		cartoon_id = 193
+	},
+	{
+		id = 194,
+		mark = 21,
+		resource = "194",
+		cartoon_id = 194
+	},
 	all = {
 		1,
 		2,
@@ -1323,6 +1353,11 @@ pg.cartoon = {
 		186,
 		187,
 		188,
-		189
+		189,
+		190,
+		191,
+		192,
+		193,
+		194
 	}
 }

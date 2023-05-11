@@ -3138,7 +3138,7 @@ pg.base.ship_skin_template_1 = {
 	},
 	[101161] = {
 		ship_group = 10116,
-		name = "Cutie Pumpkin Pie ",
+		name = "Cutie Pumpkin Pie",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
@@ -3166,7 +3166,7 @@ pg.base.ship_skin_template_1 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "Fighting for love and peace this Halloween night, it's none other than the pumpkin-style Planet Bunny cutie pie, Benson! ",
+		desc = "Fighting for love and peace this Halloween night, it's none other than the pumpkin-style Planet Bunny cutie pie, Benson!",
 		voice_actor = 85,
 		spine_offset = "",
 		gyro = 0,

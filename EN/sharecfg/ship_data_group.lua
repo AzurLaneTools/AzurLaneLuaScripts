@@ -7204,12 +7204,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Heavy Ship Construction",
+				"Medal Shop (when listed)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -10797,6 +10806,16 @@ pg.base.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"Guild Shop",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -11171,12 +11190,21 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Light ship Construction",
+				"Requisition (random chance)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"Guild Shop",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -12881,12 +12909,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Special Construction",
+				"Requisition (random chance)",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"Guild Shop",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -13088,12 +13125,11 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Special Construction",
+				"Merit Shop",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "special",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -14932,12 +14968,11 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Merit Shop",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -15367,12 +15402,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Medal Shop (when listed)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -15597,6 +15641,16 @@ pg.base.ship_data_group = {
 				"Event: Visitors Dyed in Red",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Guild Shop",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
 				},
 				0
 			}
@@ -16474,12 +16528,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Requisition (random chance)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"Guild Shop",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -16517,12 +16580,11 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Merit Shop",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -17812,12 +17874,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Heavy Ship Construction",
+				"Medal Shop (when listed)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -19590,6 +19661,16 @@ pg.base.ship_data_group = {
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"Guild Shop",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -21741,12 +21822,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Requisition (random chance)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"Guild Shop",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -21784,12 +21874,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Light ship Construction",
+				"Requisition (random chance)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"Guild Shop",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -23256,6 +23355,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23703,6 +23812,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -24021,6 +24140,16 @@ pg.base.ship_data_group = {
 					"GETBOAT",
 					{
 						page = 3
+					}
+				},
+				0
+			},
+			{
+				"Guild Shop",
+				{
+					"SHOP",
+					{
+						warp = "guild"
 					}
 				},
 				0
@@ -24856,12 +24985,21 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"Heavy Ship Construction",
+				"Medal Shop (when listed)",
+				{
+					"SHOP",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"Requisition (random chance)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
