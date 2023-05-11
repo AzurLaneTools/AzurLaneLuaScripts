@@ -118203,67 +118203,6 @@ _G.pg.base.equip_data_statistics[85573] = {
 	hidden_skill_id = {}
 }
 
-_G.pg.base.equip_data_statistics[85580] = {
-	tech = 0,
-	name = "试作型三联装240mm主炮",
-	speciality = "锁定",
-	type = 3,
-	descrip = "Project X重巡洋舰预计搭载的试作型240mm口径主炮",
-	ammo = 1,
-	damage = "35 x 6",
-	nationality = 7,
-	rarity = 5,
-	id = 85580,
-	value_3 = 0,
-	torpedo_ammo = 0,
-	value_2 = 45,
-	icon = "85580",
-	attribute_2 = "cannon",
-	property_rate = {},
-	ammo_icon = {
-		2
-	},
-	ammo_info = {
-		{
-			1,
-			1426
-		}
-	},
-	equip_info = {
-		1,
-		2,
-		{
-			3,
-			1426
-		},
-		{
-			4,
-			1214
-		},
-		6,
-		10,
-		11,
-		12
-	},
-	weapon_id = {
-		85580
-	},
-	skill_id = {},
-	hidden_skill_id = {},
-	part_main = {
-		3,
-		18
-	},
-	part_sub = {},
-	equip_parameters = {},
-	label = {
-		"SN",
-		"CA",
-		"MG",
-		"AP"
-	}
-}
-
 _G.pg.base.equip_data_statistics[89140] = {
 	type = 10,
 	name = "熾烈之歌",
