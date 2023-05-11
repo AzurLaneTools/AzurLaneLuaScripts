@@ -1126,6 +1126,11 @@ function temp()
 		},
 		["絲"] = {
 			this = true
+		},
+		["爾"] = {
+			["濱"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -1264,6 +1269,11 @@ function temp()
 		["雷"] = {
 			["默"] = {
 				["頓"] = {
+					this = true
+				}
+			},
+			["斯"] = {
+				["特"] = {
 					this = true
 				}
 			}
@@ -2535,6 +2545,13 @@ function temp()
 		["林"] = {
 			["斯"] = {
 				["頓"] = {
+					this = true
+				}
+			}
+		},
+		["利"] = {
+			["茅"] = {
+				["斯"] = {
 					this = true
 				}
 			}
@@ -4830,6 +4847,19 @@ function temp()
 	uv0["魯"] = {
 		["莽"] = {
 			this = true
+		},
+		["普"] = {
+			["雷"] = {
+				["希"] = {
+					["特"] = {
+						["親"] = {
+							["王"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -5811,6 +5841,20 @@ function temp()
 	uv0["環"] = {
 		this = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["契"] = {
+		["卡"] = {
+			["洛"] = {
+				["夫"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

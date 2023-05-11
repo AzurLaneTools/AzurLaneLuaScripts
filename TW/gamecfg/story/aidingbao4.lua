@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“我”独一无二的价值\n\n<size=45>四　冒冒失失也要向前看</size>",
+					"“我”獨一無二的價值\n\n<size=45>四  冒冒失失也要向前看</size>",
 					1
 				}
 			}
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……到头来还是没搞懂我的独有价值在哪里……",
+			say = "……到頭來還是沒搞懂我的獨有價值在哪裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且还没睡好——诶诶诶！！怎么这个点了？！",
+			say = "而且還沒睡好——欸欸欸！！怎麼這個時間了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈……哈……！糟了，竟然迟到了！",
+			say = "哈……哈……！糟了，竟然遲到了！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，很抱歉迟到了——奇怪？没人在？",
+			say = "指揮官，很抱歉遲到了——奇怪？沒人在？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的时间是……比工作时间还早了几个小时？！怎么会这样……",
+			say = "現在的時間是……比工作時間還早了幾個小時？！怎麼會這樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，一定是起床的时候没戴眼镜所以看错了……呜呜，又粗心了……",
+			say = "啊，一定是起床的時候沒戴眼鏡所以看錯了……嗚嗚，又粗心了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过既然难得早起了，接下来就好好加油努力吧！",
+			say = "不過既然難得早起了，接下來就好好加油努力吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今天也一如既往按时来到指挥室——嗯？爱丁堡已经来了吗？",
+			say = "今天也一如既往按時來到指揮室——嗯？愛丁堡已經來了嗎？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官，早上好。",
+			say = "啊，指揮官，早上好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "地板窗户还有书架桌子已经全部擦得一干二净了！怎么样？",
+			say = "地板窗戶還有書架桌子已經全部擦得一乾二淨了！怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,23 +281,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今天的指挥室确实看上去格外整洁……看来爱丁堡从一大早就开始清扫了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202110,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "至于早起的理由嘛——那全都是因为错以为自己睡过了头……啊不对！",
+			say = "今天的指揮室確實看上去格外整潔……看來愛丁堡從一大早就開始清掃了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,35 +297,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是为了让指挥官能清清爽爽的工作所以偶尔发奋图强了下，啊哈哈……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "虽说稍微说漏了嘴……不过——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "这次确实做得很好，辛苦了。",
+			say = "至於早起的理由嘛——那全都是因為錯以為自己睡過了頭……啊不對！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +313,51 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多谢夸奖——啊，其实我还准备好了红茶哦！工作前来一杯如何？",
+			say = "是為了讓指揮官能清清爽爽的工作所以偶爾發奮圖強了下，啊哈哈……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "雖說稍微說漏了嘴……不過——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "這次確實做得很好，辛苦了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202110,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "多謝誇獎——啊，其實我還準備好了紅茶哦！工作前來一杯如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "看着边哼小调边倒茶的爱丁堡，心情也如同格外整洁的指挥室一般，变得格外清朗起来——",
+			say = "看著邊哼小調邊倒茶的愛丁堡，心情也如同格外整潔的指揮室一般，變得格外清朗起來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

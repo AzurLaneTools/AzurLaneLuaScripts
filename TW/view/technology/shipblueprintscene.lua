@@ -83,6 +83,10 @@ function slot0.init(slot0)
 	slot0.attrDisableBtn = slot0:findTF("property_panel/btns/attr_toggle/disable", slot0.leftPanle)
 	slot0.initPanel = slot0:findTF("property_panel/init_panel", slot0.leftPanle)
 	slot0.propertyPanel = PropertyPanel.New(slot0.initPanel, 32)
+
+	setText(slot0:findTF("property_title1/Text", slot0.initPanel), i18n("blueprint_combatperformance"))
+	setText(slot0:findTF("property_title2/Text", slot0.initPanel), i18n("blueprint_shipperformance"))
+
 	slot0.skillRect = slot0:findTF("property_panel/init_panel/skills_rect", slot0.leftPanle)
 	slot0.skillPanel = slot0:findTF("property_panel/init_panel/skills_rect/skills", slot0.leftPanle)
 	slot0.skillTpl = slot0:findTF("skilltpl", slot0.skillPanel)
@@ -100,6 +104,9 @@ function slot0.init(slot0)
 	slot0.lockBtn = slot0:findTF("lock", slot0.lockPanel)
 	slot0.finishedBtn = slot0:findTF("state_info/finished_btn", slot0.centerPanel)
 	slot0.progressPanel = slot0:findTF("state_info/progress", slot0.centerPanel)
+
+	setText(slot0:findTF("label", slot0.progressPanel), i18n("blueprint_researching"))
+
 	slot0.progressContainer = slot0:findTF("content", slot0.progressPanel)
 	slot0.progressTpl = slot0:findTF("item", slot0.progressContainer)
 	slot0.openCondition = slot0:findTF("state_info/open_condition", slot0.centerPanel)

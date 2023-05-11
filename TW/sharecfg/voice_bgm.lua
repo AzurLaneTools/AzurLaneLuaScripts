@@ -1,10 +1,10 @@
 pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
-		default_bgm = "doa_story1",
+		default_bgm = "main",
 		special_bgm = "",
 		time = "",
-		bgm = "doa_story1"
+		bgm = "main"
 	},
 	HoloLiveLinkLinkSelectScene = {
 		default_bgm = "holo-fff-inst",
@@ -97,16 +97,16 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "doa_guanqia",
+		default_bgm = "login",
 		special_bgm = "",
 		time = "",
-		bgm = "doa_guanqia"
+		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "doa_main_day",
+		default_bgm = "main",
 		special_bgm = "",
 		time = "stop",
-		bgm = "doa_main_day"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -169,10 +169,10 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "doa_guanqia",
+		default_bgm = "main",
 		special_bgm = "",
 		time = "",
-		bgm = "doa_guanqia"
+		bgm = "main"
 	},
 	SkinShopScene = {
 		default_bgm = "main",

@@ -832,6 +832,17 @@ pg.fleet_tech_ship_class = {
 			20232
 		}
 	},
+	[20212] = {
+		shiptype = 2,
+		name = "普利茅斯",
+		nation = 2,
+		id = 20212,
+		t_level_1 = 47,
+		t_level = 9,
+		ships = {
+			29905
+		}
+	},
 	[20301] = {
 		shiptype = 3,
 		name = "倫敦級",
@@ -1940,6 +1951,17 @@ pg.fleet_tech_ship_class = {
 			49904
 		}
 	},
+	[40405] = {
+		shiptype = 4,
+		name = "魯普雷希特親王",
+		nation = 4,
+		id = 40405,
+		t_level_1 = 124,
+		t_level = 9,
+		ships = {
+			49907
+		}
+	},
 	[40501] = {
 		shiptype = 5,
 		name = "俾斯麥級",
@@ -2151,6 +2173,17 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			50207,
 			50208
+		}
+	},
+	[50205] = {
+		shiptype = 2,
+		name = "哈爾濱",
+		nation = 5,
+		id = 50205,
+		t_level_1 = 129,
+		t_level = 7,
+		ships = {
+			59901
 		}
 	},
 	[50601] = {
@@ -2492,6 +2525,17 @@ pg.fleet_tech_ship_class = {
 			70701
 		}
 	},
+	[70702] = {
+		shiptype = 7,
+		name = "契卡洛夫",
+		nation = 7,
+		id = 70702,
+		t_level_1 = 138,
+		t_level = 8,
+		ships = {
+			79901
+		}
+	},
 	[71801] = {
 		shiptype = 18,
 		name = "喀琅施塔得",
@@ -2624,6 +2668,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 7,
 		ships = {
 			80801
+		}
+	},
+	[81801] = {
+		shiptype = 18,
+		name = "布雷斯特",
+		nation = 8,
+		id = 81801,
+		t_level_1 = 138,
+		t_level = 9,
+		ships = {
+			89903
 		}
 	},
 	[90101] = {
@@ -2795,6 +2850,7 @@ pg.fleet_tech_ship_class = {
 		20209,
 		20210,
 		20211,
+		20212,
 		20301,
 		20302,
 		20303,
@@ -2886,6 +2942,7 @@ pg.fleet_tech_ship_class = {
 		40304,
 		40401,
 		40402,
+		40405,
 		40501,
 		40502,
 		40503,
@@ -2904,6 +2961,7 @@ pg.fleet_tech_ship_class = {
 		50202,
 		50203,
 		50204,
+		50205,
 		50601,
 		60101,
 		60102,
@@ -2934,6 +2992,7 @@ pg.fleet_tech_ship_class = {
 		70502,
 		70503,
 		70701,
+		70702,
 		71801,
 		80101,
 		80102,
@@ -2946,6 +3005,7 @@ pg.fleet_tech_ship_class = {
 		80502,
 		80701,
 		80801,
+		81801,
 		90101,
 		90103,
 		90104,

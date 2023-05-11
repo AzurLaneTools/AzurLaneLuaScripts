@@ -6356,6 +6356,138 @@ _G.pg.base.item_data_statistics[13030] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[13031] = {
+	display = "試作型四聯裝152mm主炮設計圖",
+	name = "試作型四聯裝152mm主炮T0設計圖",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/22280",
+	id = 13031,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13032] = {
+	display = "試作型四聯裝330mm主炮Mle1931（超巡用）設計圖",
+	name = "試作型四聯裝330mm主炮Mle1931（超巡用）T0設計圖",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/50360",
+	id = 13032,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13033] = {
+	display = "試作艦載型Su-2設計圖",
+	name = "試作艦載型Su-2T0設計圖",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/85540",
+	id = 13033,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13034] = {
+	display = "試作型VIT-2（VK107）設計圖",
+	name = "試作型VIT-2（VK107）T0設計圖",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/85560",
+	id = 13034,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13035] = {
+	display = "試作型四聯裝30mm機炮設計圖",
+	name = "試作型四聯裝30mm機炮T0設計圖",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/46400",
+	id = 13035,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[13036] = {
+	display = "試作型雙聯裝130 mm主炮Model 1936設計圖",
+	name = "試作型雙聯裝130mm主炮Model1936T0設計圖",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/56100",
+	id = 13036,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[14001] = {
 	display = [[
 使用後可從超稀有科研裝備(I期)的設計圖中任意選擇一張
@@ -34956,6 +35088,312 @@ _G.pg.base.item_data_statistics[42036] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[42040] = {
+	display = "使用後可從第一期、第二期、第三期、第四期、第五期方案艦的最高方案藍圖中任意選擇一張",
+	name = "定向藍圖·五期",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42040",
+	id = 42040,
+	display_icon = {
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42041] = {
+	display = "皇家巡洋「普利茅斯」的設計藍圖。\n<color=#92fc63>獲得「普利茅斯」後，可在「開發船塢」中用於增強「普利茅斯」的能力。</color>",
+	name = "藍圖：普利茅斯",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42041",
+	id = 42041,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42042] = {
+	display = "鐵血戰巡「{namecode:484}」的設計藍圖。\n<color=#92fc63>獲得「{namecode:484}」後，可在「開發船塢」中用於增強「{namecode:484}」的能力。</color>",
+	name = "藍圖：{namecode:484}",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42042",
+	id = 42042,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42043] = {
+	display = "東煌巡洋「{namecode:224}」的設計藍圖。\n<color=#92fc63>獲得「{namecode:224}」後，可在「開發船塢」中用於增強「{namecode:224}」的能力。</color>",
+	name = "藍圖：{namecode:224}",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42043",
+	id = 42043,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42044] = {
+	display = "北聯航母「契卡洛夫」的設計藍圖。\n<color=#92fc63>獲得「契卡洛夫」後，可在「開發船塢」中用於增強「契卡洛夫」的能力。</color>",
+	name = "藍圖：契卡洛夫",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42044",
+	id = 42044,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42045] = {
+	display = "自由鳶尾超巡「布雷斯特」的設計藍圖。\n<color=#92fc63>獲得「布雷斯特」後，可在「開發船塢」中用於增強「布雷斯特」的能力。</color>",
+	name = "藍圖：布雷斯特",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42045",
+	id = 42045,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[42046] = {
+	display = "使用後可從第二期、第三期、第四期、第五期方案艦的決戰方案藍圖中任意選擇一張",
+	name = "高級定向藍圖·五期",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42046",
+	id = 42046,
+	display_icon = {
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[44001] = {
 	display = "$1贈送的情人節禮物",
 	name = "情人節禮物",
@@ -36579,6 +37017,132 @@ _G.pg.base.item_data_statistics[52051] = {
 		{
 			2,
 			15015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52061] = {
+	display = "有機率獲得以下藍圖",
+	name = "未知蓝图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/52001",
+	id = 52061,
+	display_icon = {
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[52062] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知限定装备設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 52062,
+	display_icon = {
+		{
+			2,
+			13036,
+			1
+		},
+		{
+			2,
+			13035,
+			1
+		},
+		{
+			2,
+			13034,
+			1
+		},
+		{
+			2,
+			13033,
+			1
+		},
+		{
+			2,
+			13032,
+			1
+		},
+		{
+			2,
+			13031,
+			1
+		},
+		{
+			2,
+			13024,
+			1
+		},
+		{
+			2,
+			13011,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13009,
+			1
+		},
+		{
+			2,
+			13007,
 			1
 		}
 	},

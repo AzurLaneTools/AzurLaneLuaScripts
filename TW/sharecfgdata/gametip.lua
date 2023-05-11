@@ -9681,11 +9681,11 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "加斯科涅(μ兵裝)、希佩爾將軍(μ兵裝)  建造追加！"
+	tip = "土佐、天城、加賀(戰列)、足柄  建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "應瑞、肇和、佩內洛珀 建造追加！"
+	tip = "花月、長波、那珂、旗風 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -11190,6 +11190,66 @@ _G.pg.base.gametip.blueprint_simulation_confirm_69901 = {
 試作型三聯裝406mm主炮Model1940
 三聯裝152mm主炮Model1934 
 試作型雙聯90mm高角炮Model1939
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_29905 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作型四聯裝152mm主炮
+四聯裝533mm魚雷Mark IX
+雙管20mm厄利孔高射炮
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49907 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作型雙聯裝406mmSKC主炮
+雙聯裝TbtsKC36式150mm主炮
+試作型四聯裝30mm機炮
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_59901 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作型雙聯裝130mm主炮Model1936
+三聯裝533mm魚雷
+37mm防空炮70-K
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_79901 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作艦載型Su-2
+試作艦載型Su-2
+試作型VIT-2 (VK-107)
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作型四聯裝330mm主炮Mle1931（超巡用）
+138.6mm單裝炮Mle1929
+雙聯40mm博福斯對空機炮
 </color></size>]]
 }
 
@@ -21812,4 +21872,16 @@ _G.pg.base.gametip.doa_minigame_help = {
 
 _G.pg.base.gametip.doa_character_select_confirm = {
 	tip = "將消耗<color=#92fc63>「假日航線」角色自選道具</color>兌換角色<color=#92fc63> $1 </color>\n是否確定兌換？"
+}
+
+_G.pg.base.gametip.blueprint_combatperformance = {
+	tip = "作戰性能"
+}
+
+_G.pg.base.gametip.blueprint_shipperformance = {
+	tip = "艦船技能"
+}
+
+_G.pg.base.gametip.blueprint_researching = {
+	tip = "研究進行中..."
 }

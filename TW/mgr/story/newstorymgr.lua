@@ -554,9 +554,10 @@ function slot0.OnEnd(slot0, slot1)
 		end
 	else
 		slot0.state = uv2
+		slot2 = slot0.storyScript:GetBranchCode()
 
 		if slot1 then
-			slot1(true, code)
+			slot1(true, slot2)
 		end
 	end
 end

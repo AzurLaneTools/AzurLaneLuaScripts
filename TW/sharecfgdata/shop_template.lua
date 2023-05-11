@@ -27813,10 +27813,11 @@ _G.pg.base.shop_template[70341] = {
 	desc = "购买皮肤:天城泳装",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 480,
+	order = 1600,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -27827,32 +27828,6 @@ _G.pg.base.shop_template[70341] = {
 	limit_args = {},
 	effect_args = {
 		304051
-	},
-	time = {
-		{
-			{
-				2023,
-				3,
-				2
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2023,
-				3,
-				15
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -27865,10 +27840,11 @@ _G.pg.base.shop_template[70342] = {
 	desc = "购买皮肤:土佐泳装",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 480,
+	order = 1600,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -27879,32 +27855,6 @@ _G.pg.base.shop_template[70342] = {
 	limit_args = {},
 	effect_args = {
 		305081
-	},
-	time = {
-		{
-			{
-				2023,
-				3,
-				2
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2023,
-				3,
-				15
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -27917,10 +27867,11 @@ _G.pg.base.shop_template[70343] = {
 	desc = "购买皮肤:足柄泳装",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 540,
+	order = 1800,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -27931,32 +27882,6 @@ _G.pg.base.shop_template[70343] = {
 	limit_args = {},
 	effect_args = {
 		303092
-	},
-	time = {
-		{
-			{
-				2023,
-				3,
-				2
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2023,
-				3,
-				15
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -27969,10 +27894,11 @@ _G.pg.base.shop_template[70344] = {
 	desc = "购买皮肤:比叡泳装",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 540,
+	order = 1800,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -27983,32 +27909,6 @@ _G.pg.base.shop_template[70344] = {
 	limit_args = {},
 	effect_args = {
 		304023
-	},
-	time = {
-		{
-			{
-				2023,
-				3,
-				2
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2023,
-				3,
-				15
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -28021,10 +27921,11 @@ _G.pg.base.shop_template[70345] = {
 	desc = "购买皮肤:那珂泳装",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 540,
+	order = 1800,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -28035,32 +27936,6 @@ _G.pg.base.shop_template[70345] = {
 	limit_args = {},
 	effect_args = {
 		302141
-	},
-	time = {
-		{
-			{
-				2023,
-				3,
-				2
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2023,
-				3,
-				15
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -28073,10 +27948,11 @@ _G.pg.base.shop_template[70346] = {
 	desc = "购买皮肤:花月皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 540,
+	order = 1800,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -28087,32 +27963,6 @@ _G.pg.base.shop_template[70346] = {
 	limit_args = {},
 	effect_args = {
 		301821
-	},
-	time = {
-		{
-			{
-				2023,
-				3,
-				2
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2023,
-				3,
-				15
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -28125,10 +27975,11 @@ _G.pg.base.shop_template[70347] = {
 	desc = "购买皮肤:卷波泳装",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 540,
+	order = 1800,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -28139,32 +27990,6 @@ _G.pg.base.shop_template[70347] = {
 	limit_args = {},
 	effect_args = {
 		301801
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -28177,10 +28002,11 @@ _G.pg.base.shop_template[70348] = {
 	desc = "购买皮肤:长波泳装",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 540,
+	order = 1800,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -28191,32 +28017,6 @@ _G.pg.base.shop_template[70348] = {
 	limit_args = {},
 	effect_args = {
 		301831
-	},
-	time = {
-		{
-			{
-				2023,
-				3,
-				2
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2023,
-				3,
-				15
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 

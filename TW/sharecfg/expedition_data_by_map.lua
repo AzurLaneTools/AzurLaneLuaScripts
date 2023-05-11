@@ -251,6 +251,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100101,
 		2100110,
 		2100111,
+		2100120,
+		2100121,
+		2100130,
+		2100131,
 		2200000,
 		2200010,
 		2200020,
@@ -11112,6 +11116,182 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 2100101,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100120] = {
+		map = 2100120,
+		name = "蒼紅的迴響·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "TIANCHENGHUODONG1",
+		ani_name = "map_1180001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1180001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100130,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100121] = {
+		map = 2100121,
+		name = "蒼紅的迴響·下篇| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "TIANCHENGHUODONG10",
+		ani_name = "map_1180002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1180002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100131,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100130] = {
+		map = 2100130,
+		name = "蒼紅的迴響·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "TIANCHENGHUODONG1",
+		ani_name = "map_1180011",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1180001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100120,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100131] = {
+		map = 2100131,
+		name = "蒼紅的迴響·下篇| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "TIANCHENGHUODONG10",
+		ani_name = "map_1180012",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1180002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100121,
 		clouds_pos = {
 			{
 				332,

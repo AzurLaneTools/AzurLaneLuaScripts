@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“我”独一无二的价值\n\n<size=45>三　叹息的午后</size>",
+					"“我”獨一無二的價值\n\n<size=45>三  嘆息的午後</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区・中庭",
+			say = "港區・中庭",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——萨福克，我应该强调过好多次水槽要好好清洁了。",
+			say = "——薩福克，我應該強調過好多次水槽要好好清潔了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶诶诶诶！谢菲的检查也太严格了啦——",
+			say = "欸欸欸欸！謝菲的檢查也太嚴格了啦——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,8 +164,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 202080,
-			actorName = "谢菲尔德＆萨福克",
-			say = "（悄悄关上门）",
+			actorName = "謝菲爾德＆薩福克",
+			say = "（悄悄關上門）",
 			subActors = {
 				{
 					actor = 203040,
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等？！你们两个既然都进门了就别默默离开啊？！",
+			say = "等等？！妳們兩個既然都進門了就別默默離開啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "察觉到了不少东西，下意识就——",
+			say = "察覺到了不少東西，下意識就——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜～～只要一会儿就好，听听我的牢骚嘛？",
+			say = "嗚～～只要一下就好，聽聽我的牢騷嘛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……唉。那就快点吧。我还要说教萨福克清扫的事呢。",
+			say = "……唉。那就快點吧。我還要說教薩福克清掃的事呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请，请你慢慢抱怨～",
+			say = "請，請妳慢慢抱怨～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……原来如此。也就是你担心整天笨手笨脚的拖了指挥官的后腿。",
+			say = "……原來如此。也就是妳擔心整天笨手笨腳的拖了指揮官的後腿。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -330,7 +330,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过听起来也就是平常爱丁堡的程度……",
+			say = "不過聽起來也就是平常愛丁堡的程度……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好无情！……呜呜，可是这样下去别说是我了，就连贝法的评价也会受牵连下降的……！",
+			say = "好無情！……嗚嗚，可是這樣下去別說是我了，就連貝法的評價也會受牽連下降的……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这是什么逻辑关系？",
+			say = "……這是什麼邏輯關係？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "意、意思就是说我就像是给贝法暖场的吧？指挥官应该过段时间之后就会让贝法做秘书舰啦！",
+			say = "意、意思就是說我就像是給貝法暖場的吧？指揮官應該過段時間之後就會讓貝法做秘書艦啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……这种事不可能有吧？",
+			say = "……這種事不可能有吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有的、有的！不然指挥官怎么会选笨手笨脚的我去当秘书舰呢！",
+			say = "有的、有的！不然指揮官怎麼會選笨手笨腳的我去當秘書艦呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸……爱丁堡，听好了。",
+			say = "欸……愛丁堡，聽好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官会选你作秘书舰，大概是因为看到了你的独有价值，不存在什么“暖场”一说哦。",
+			say = "指揮官會選妳作秘書艦，大概是因為看到了妳的獨有價值，不存在什麼“暖場”一說哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的独有……价值？",
+			say = "我的獨有……價值？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，概括来说就是——“爱丁堡也有爱丁堡的天赋”。",
+			say = "嗯，概括來說就是——“愛丁堡也有愛丁堡的天賦”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "女仆长也不可能把什么忙都帮不上的人硬塞到女仆队里吧？",
+			say = "女僕長也不可能把什麼忙都幫不上的人硬塞到女僕隊裡吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错没错！就像肯特有力气擅长运动一样，我因为视力好所以经常负责天气预报呢ーー",
+			say = "沒錯沒錯！就像肯特有力氣擅長運動一樣，我因為視力好所以經常負責天氣預報呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨福克可以预报天气吗？",
+			say = "薩福克可以預報天氣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "观察云朵就可以哦？",
+			say = "觀察雲朵就可以哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸……不理解的话就好好想到理解为止吧。走了，萨福克。",
+			say = "欸……不理解的話就好好想到理解為止吧。走了，薩福克。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			actor = 203040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶诶诶！拜托请，请不要说教太长时间……呜呜……",
+			say = "欸欸欸！拜託請，請不要說教太長時間……嗚嗚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "我的独有价值……真会有这样的东西吗……",
+			say = "我的獨有價值……真會有這樣的東西嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

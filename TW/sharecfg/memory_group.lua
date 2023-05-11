@@ -180,7 +180,8 @@ pg.memory_group = setmetatable({
 		568,
 		569,
 		570,
-		571
+		571,
+		573
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3563,6 +3564,22 @@ pg.base.memory_group = {
 			1999,
 			2000,
 			2001
+		}
+	},
+	[573] = {
+		icon = "title_chara_aidingbao",
+		subtype = 0,
+		type = 3,
+		id = 573,
+		title = "“我”獨一無二的價值",
+		memories = {
+			2063,
+			2064,
+			2065,
+			2066,
+			2067,
+			2068,
+			2069
 		}
 	}
 }

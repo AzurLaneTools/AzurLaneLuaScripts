@@ -559,37 +559,11 @@ pg.login = {
 	},
 	[1006] = {
 		id = 1006,
+		date = "stop",
 		op_play = 1,
 		login_static = "login",
 		login_cri = "",
 		bgm = "doa_guanqia",
-		date = {
-			"timer",
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		op_time = {
 			{
 				{

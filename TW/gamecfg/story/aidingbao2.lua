@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“我”独一无二的价值\n\n<size=45>二　失落和笑容</size>",
+					"“我”獨一無二的價值\n\n<size=45>二  失落和笑容</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在处理文件时，将指挥室的清扫工作交给了爱丁堡。",
+			say = "在處理文件時，將指揮室的清掃工作交給了愛丁堡。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "清扫可是女仆的基本技能！就放心交给我吧！",
+			say = "清掃可是女僕的基本技能！就放心交給我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼！小事一桩~这不是不输贝法的潇洒清理干净了嘛~！接下来就只要收拾好清扫用具……",
+			say = "哼哼！小事一樁~這不是不輸貝法的瀟灑清理乾淨了嘛~！接下來就只要收拾好清掃用具……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "哐当！！",
+			say = "哐噹！！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊呀！水桶怎么弄倒了！我怎么就把它放在了这里了啊！……抹布，抹布……啊！",
+			say = "啊呀！水桶怎麼弄倒了！我怎麼就把它放在了這裡了啊！……抹布，抹布……啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚，刚才的失态很抱歉…我去准备红茶，请指挥官稍作休息——",
+			say = "剛，剛才的失態很抱歉…我去準備紅茶，請指揮官稍作休息——",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——啊！指，指挥官，你的头上有虫子！我现在就赶走它，请不要动！",
+			say = "——啊！指，指揮官，你的頭上有蟲子！我現在就趕走它，請不要動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是现在！嘿——呀！",
+			say = "就是現在！嘿——呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀！！对，对不起，我没想敲你的头的……很，很痛吗！？",
+			say = "呀！！對，對不起，我沒想敲你的頭的……很，很痛嗎！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "如此如此，这般这般，今天的小骚乱终于平息了……",
+			say = "如此如此，這般這般，今天的小騷亂終於平息了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜……为什么会变成这样……",
+			say = "嗚嗚……為什麼會變成這樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，真是对不起……我只是想赶走虫子，却敲到了你的头……",
+			say = "指揮官，真是對不起……我只是想趕走蟲子，卻敲到了你的頭……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,23 +327,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "总之，既然事态已经平息了，就尝尝爱丁堡泡的红茶吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202110,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "唉……越来越讨厌只会笨手笨脚的自己了……诶？红茶是我准备的吗？",
+			say = "總之，既然事態已經平息了，就嚐嚐愛丁堡泡的紅茶吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +343,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对，当然是我准备的……你说很好喝？",
+			say = "唉……越來越討厭只會笨手笨腳的自己了……欸？紅茶是我準備的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,21 +359,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶，诶嘿嘿……能让指挥官这么开心，我的一番努力也就值得了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "因失败连连而失落的爱丁堡，终于露出了笑容。",
+			say = "對，當然是我準備的……你說很好喝？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +375,21 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我在准备红茶的时候会施魔法哦，祈祷着“变好喝吧，变好喝吧”这样~",
+			say = "欸，欸嘿嘿……能讓指揮官這麼開心，我的一番努力也就值得了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "因失敗連連而失落的愛丁堡，終於露出了笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +405,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "窍门就在于：在泡茶时想象着他人喝着自己准备的红茶，露出笑容的样子~",
+			say = "我在準備紅茶的時候會施魔法哦，祈禱著“變好喝吧，變好喝吧”這樣~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,21 +421,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，不如实际给你演示一遍吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "将喝完的杯子递给爱丁堡后，她利落地又准备好了一杯。",
+			say = "竅門就在於：在泡茶時想像著他人喝著自己準備的紅茶，露出笑容的樣子~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +437,21 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "变好喝吧，变好喝吧……来指挥官，请享用吧。",
+			say = "呵呵，不如實際為你演示一遍吧？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "將喝完的杯子遞給愛丁堡後，她俐落地又準備好了一杯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +467,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，这一杯我可是使足了力气！想着是指挥官要喝，所以我很用心地祈祷了！",
+			say = "變好喝吧，變好喝吧……來指揮官，請享用吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202110,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "呵呵，這一杯我可是使足了力氣！想著是指揮官要喝，所以我很用心地祈禱了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯？为什么突然笑了起来？是我脸上有什么东西吗？",
+			say = "……嗯？為什麼突然笑了起來？是我臉上有什麼東西嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "爱丁堡不解地歪着头。先前那副失落的表情，早已无影无踪。",
+			say = "愛丁堡不解地歪著頭。先前那副失落的表情，早已無影無蹤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别，别不告诉我嘛～！我可在意了！",
+			say = "別，別不告訴我嘛～！我這下很在意了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "表情真丰富啊——这就是任命爱丁堡为秘书舰后，最初的感想。",
+			say = "表情真豐富啊——這就是任命愛丁堡為秘書艦後，最初的感想。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
