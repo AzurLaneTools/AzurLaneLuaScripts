@@ -1,78 +1,8 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4776",
 		id = 1,
 		pic = "temp1",
-		type = 3,
-		time = {
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 2,
-		pic = "temp2",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
-				activity = 4782,
-				page = 1
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 3,
-		pic = "temp3",
 		type = 2,
 		param = {
 			"scene skinshop",
@@ -82,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					4,
-					27
+					5,
+					11
 				},
 				{
 					0,
@@ -94,8 +24,72 @@ pg.activity_banner = {
 			{
 				{
 					2023,
-					4,
-					30
+					5,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4785",
+		id = 2,
+		pic = "temp2",
+		type = 3,
+		time = {
+			{
+				{
+					2023,
+					5,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "4787",
+		id = 3,
+		pic = "temp4",
+		type = 3,
+		time = {
+			{
+				{
+					2023,
+					5,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					25
 				},
 				{
 					23,
@@ -107,57 +101,16 @@ pg.activity_banner = {
 	},
 	{
 		id = 4,
-		pic = "temp6",
+		pic = "temp3",
 		type = 2,
 		param = {
-			"scene skinshop",
-			{}
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = false
+			}
 		},
 		time = {
-			{
-				{
-					2023,
-					5,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4775",
-		id = 5,
-		pic = "temp4",
-		type = 3,
-		time = {
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2023,
@@ -165,28 +118,6 @@ pg.activity_banner = {
 					11
 				},
 				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 6,
-		pic = "temp5",
-		type = 2,
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2023,
-					5,
-					1
-				},
-				{
 					0,
 					0,
 					0
@@ -196,7 +127,7 @@ pg.activity_banner = {
 				{
 					2023,
 					5,
-					10
+					25
 				},
 				{
 					23,
@@ -207,103 +138,47 @@ pg.activity_banner = {
 		}
 	},
 	{
+		id = 5,
+		pic = "temp5",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene court yard"
+		}
+	},
+	{
+		id = 6,
+		pic = "temp6",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene skinshop",
+			{}
+		}
+	},
+	{
+		param = "4749",
+		time = "stop",
+		type = 3,
 		id = 7,
+		pic = "temp7"
+	},
+	{
+		param = "4750",
+		time = "stop",
+		type = 3,
+		id = 8,
+		pic = "temp8"
+	},
+	{
+		id = 9,
 		pic = "temp9",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene shop",
 			{
 				warp = "shopstreet"
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4749",
-		id = 8,
-		pic = "temp7",
-		type = 3,
-		time = {
-			{
-				{
-					2023,
-					4,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4750",
-		id = 9,
-		pic = "temp8",
-		type = 3,
-		time = {
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -317,7 +192,7 @@ pg.activity_banner = {
 				{
 					2023,
 					5,
-					1
+					11
 				},
 				{
 					0,
@@ -329,7 +204,7 @@ pg.activity_banner = {
 				{
 					2023,
 					5,
-					10
+					17
 				},
 				{
 					23,
@@ -341,35 +216,10 @@ pg.activity_banner = {
 	},
 	[91] = {
 		param = "",
-		id = 91,
-		pic = "temp98",
+		time = "stop",
 		type = 9,
-		time = {
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 91,
+		pic = "temp98"
 	},
 	[95] = {
 		param = "",
@@ -380,35 +230,10 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		id = 99,
-		pic = "limit_skin",
+		time = "stop",
 		type = 12,
-		time = {
-			{
-				{
-					2023,
-					4,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					4,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 99,
+		pic = "limit_skin"
 	},
 	[100] = {
 		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
@@ -432,18 +257,18 @@ pg.activity_banner = {
 		pic = "spring"
 	},
 	get_id_list_by_type = {
-		[3] = {
+		[2] = {
 			1,
+			4,
 			5,
-			8,
+			6,
 			9
 		},
-		[2] = {
+		[3] = {
 			2,
 			3,
-			4,
-			6,
-			7
+			7,
+			8
 		},
 		[9] = {
 			90,

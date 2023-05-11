@@ -10094,15 +10094,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "苏维埃罗西亚 建造追加！"
+	tip = "豪、英勇 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "塔什干、恰巴耶夫等角色 建造追加！"
+	tip = "赫敏 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "镇海 建造追加！"
+	tip = "英仙座、鹰 建造追加！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -21424,7 +21424,7 @@ _G.pg.base.gametip.littleEugen_npc = {
 			info = "2.活动期间，完成活动任务，可获得「芝士蛋糕」奖励，赠送「芝士蛋糕」可累积临时npc角色「{namecode:458}」的友好度。"
 		},
 		{
-			info = "3.5月4日为止，每日解锁1个可达成的友好度阶段。"
+			info = "3.5月17日为止，每日解锁1个可达成的友好度阶段。"
 		},
 		{
 			info = "4.在活动结束前累计获得10000点友好度，可领取奖励并将临时角色「{namecode:458}」转化为永久角色。"
@@ -23552,4 +23552,16 @@ _G.pg.base.gametip.gametip_xiaokewei = {
 
 _G.pg.base.gametip.doa_character_select_confirm = {
 	tip = "将消耗<color=#92fc63>「假日航线」角色自选道具</color>兑换角色<color=#92fc63> $1 </color>\n是否确定兑换？"
+}
+
+_G.pg.base.gametip.blueprint_combatperformance = {
+	tip = "作战性能"
+}
+
+_G.pg.base.gametip.blueprint_shipperformance = {
+	tip = "舰船性能"
+}
+
+_G.pg.base.gametip.blueprint_researching = {
+	tip = "研究进行中..."
 }

@@ -468,8 +468,19 @@ end
 function slot0.getBuildActivityCfgByID(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0:getActivitiesByTypes({
 		ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1,
-		ActivityConst.ACTIVITY_TYPE_BUILD,
 		ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD
+	})) do
+		if not slot7:isEnd() and slot7:getConfig("config_client") and slot8.id == slot1 then
+			return slot8
+		end
+	end
+
+	return nil
+end
+
+function slot0.getNoneActBuildActivityCfgByID(slot0, slot1)
+	for slot6, slot7 in ipairs(slot0:getActivitiesByTypes({
+		ActivityConst.ACTIVITY_TYPE_BUILD
 	})) do
 		if not slot7:isEnd() and slot7:getConfig("config_client") and slot8.id == slot1 then
 			return slot8

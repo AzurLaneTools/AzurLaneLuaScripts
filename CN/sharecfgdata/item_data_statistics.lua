@@ -196118,6 +196118,28 @@ _G.pg.base.item_data_statistics[59421] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59412] = {
+	display = "用于「芝士奶酪要加糖！」复刻活动提升角色好感，活动结束后将会消失",
+	name = "芝士蛋糕",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/little_eugen_pt",
+	id = 59412,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-茳",
 	name = "船模-茳",

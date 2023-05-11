@@ -93,6 +93,10 @@ function slot0.initRadar(slot0, slot1)
 		else
 			table.insert(slot3, slot7 + 1)
 		end
+
+		if findTF(slot9, "Text") and findTF(slot9, "Text"):GetComponent(typeof(Text)) then
+			setText(findTF(slot9, "Text"), i18n("word_attr_" .. slot8))
+		end
 	end
 
 	slot0.drawPolygon:draw(slot2, slot3)
