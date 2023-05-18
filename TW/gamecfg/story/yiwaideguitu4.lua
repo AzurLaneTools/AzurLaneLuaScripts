@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "……頻率正在加大，這是你的身體狀況依然在惡化的表現……",
+			say = "……頻率正在加大，這是妳的身體狀況依然在惡化的表現……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

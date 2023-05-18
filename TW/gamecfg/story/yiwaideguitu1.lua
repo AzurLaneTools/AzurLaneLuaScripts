@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "貝法不是把迎賓工作交給妳了嗎，你怎麼會在這裡？",
+			say = "貝法不是把迎賓工作交給妳了嗎，妳怎麼會在這裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
