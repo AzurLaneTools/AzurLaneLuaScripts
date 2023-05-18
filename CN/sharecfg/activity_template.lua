@@ -9923,60 +9923,17 @@ pg.activity_template = {
 	},
 	[8037] = {
 		mark = 20230427,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 30,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 8037,
 		config_data = {
 			103
-		},
-		time = {
-			{
-				"olduser",
-				{
-					{
-						2023,
-						4,
-						1
-					},
-					{
-						0,
-						0,
-						0
-					}
-				}
-			},
-			{
-				"timer",
-				{
-					{
-						2023,
-						4,
-						27
-					},
-					{
-						0,
-						0,
-						0
-					}
-				},
-				{
-					{
-						2023,
-						5,
-						18
-					},
-					{
-						23,
-						59,
-						59
-					}
-				}
-			}
 		}
 	},
 	[8038] = {
@@ -10045,58 +10002,15 @@ pg.activity_template = {
 	},
 	[8039] = {
 		mark = 20230427,
-		config_client = "",
 		title_res_tag = "newserver_main",
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 40,
 		is_show = 43,
+		config_client = "",
 		id = 8039,
 		config_data = {},
-		time = {
-			{
-				"olduser",
-				{
-					{
-						2023,
-						4,
-						1
-					},
-					{
-						0,
-						0,
-						0
-					}
-				}
-			},
-			{
-				"timer",
-				{
-					{
-						2023,
-						4,
-						27
-					},
-					{
-						0,
-						0,
-						0
-					}
-				},
-				{
-					{
-						2023,
-						5,
-						18
-					},
-					{
-						23,
-						59,
-						59
-					}
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewServerLoginPage",
 			ui_name = "NewServerLoginPage"
