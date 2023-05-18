@@ -9821,15 +9821,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "소비에츠카야 러시아 건조 추가!"
+	tip = "하우、밸리언트 건조 추가!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "타슈켄트, 차파예프 등 캐릭터 건조 추가!"
+	tip = "허마이오니 건조 추가!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "젠하이 건조 추가!"
+	tip = "퍼시어스、이글 건조 추가!"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -21007,7 +21007,7 @@ _G.pg.base.gametip.littleEugen_npc = {
 			info = "2. 이벤트 기간 동안, 이벤트 임무 완성 시, 「치즈 케이크」 보상을 획득하며, 「치즈 케이크」를 임시 선물하여 NPC 캐릭터 「꼬마 프린츠 오이겐」의 호감도를 누적할 수 있습니다."
 		},
 		{
-			info = "3. 5월 11일까지, 매일 호감도 단계가 1단계씩 해제됩니다."
+			info = "3. 5월 24일까지, 매일 호감도 단계가 1단계씩 해제됩니다."
 		},
 		{
 			info = "4. 이벤트 종료 전 10000 호감도를 누적 획득하면 보상을 획득하며 임시 캐릭터 「꼬마 프린츠 오이겐」이 영구 캐릭터로 전환됩니다."
@@ -23157,4 +23157,16 @@ _G.pg.base.gametip.gametip_xiaokewei = {
 
 _G.pg.base.gametip.doa_character_select_confirm = {
 	tip = "<color=#92fc63>「휴일 항로」 캐릭터 임의 선택 아이템</color>을 소모하여 캐릭터 <color=#92fc63> $1 </color>을(를) 교환합니다.\n계속하시겠습니까?"
+}
+
+_G.pg.base.gametip.blueprint_combatperformance = {
+	tip = "전투 성능"
+}
+
+_G.pg.base.gametip.blueprint_shipperformance = {
+	tip = "함선 스킬"
+}
+
+_G.pg.base.gametip.blueprint_researching = {
+	tip = "연구 진행 중..."
 }

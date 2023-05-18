@@ -82,7 +82,9 @@ function slot0.OnInit(slot0)
 		}, 9, "build_ship_quickly_buy_stone")
 	end)
 	onButton(slot0, slot0.helpBtn, function ()
-		uv0.contextData.helpWindow:ExecuteAction("Show", uv0.pool:getConfigTable())
+		slot0 = uv0.pool
+
+		uv0.contextData.helpWindow:ExecuteAction("Show", slot0:getConfigTable(), nil, slot0:IsActivity())
 	end, SFX_CANCEL)
 end
 
@@ -332,19 +334,12 @@ function slot0.SwitchPool(slot0, slot1)
 
 	slot0:findTF("gallery/bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/BuildShipUI_atlas", "sub_title_" .. slot1:GetMark())
 	slot6 = slot1:getConfigTable()
-	slot7 = nil
+	slot7, slot8 = nil
+	slot7 = (not slot1:IsActivity() or slot2:getBuildActivityCfgByID(slot6.id)) and slot2:getNoneActBuildActivityCfgByID(slot6.id)
 
-	if slot1:IsActivity() then
-		slot7 = LoadSprite(slot2:getBuildActivityCfgByID(slot6.id) and slot8.bg or "loadingbg/bg_" .. slot6.icon)
+	slot0.tipSTxt:SetText(slot7 and slot7.buildship_tip or i18n("buildship_" .. slot4 .. "_tip"))
 
-		slot0.tipSTxt:SetText(slot8 and slot8.buildship_tip or i18n("buildship_" .. slot4 .. "_tip"))
-	else
-		slot7 = LoadSprite("loadingbg/bg_" .. slot6.icon)
-
-		slot0.tipSTxt:SetText(i18n("buildship_" .. slot4 .. "_tip"))
-	end
-
-	slot0:findTF("gallery/bg"):GetComponent(typeof(Image)).sprite = slot7
+	slot0:findTF("gallery/bg"):GetComponent(typeof(Image)).sprite = LoadSprite(slot7 and slot7.bg or "loadingbg/bg_" .. slot6.icon)
 
 	setText(slot0:findTF("gallery/item_bg/item/Text"), slot6.number_1)
 	setText(slot0:findTF("gallery/item_bg/gold/Text"), slot6.use_gold)
