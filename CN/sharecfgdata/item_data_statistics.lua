@@ -196140,6 +196140,28 @@ _G.pg.base.item_data_statistics[59412] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59413] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_d",
+	id = 59413,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-茳",
 	name = "船模-茳",
@@ -211389,59 +211411,6 @@ _G.pg.base.item_data_statistics[70143] = {
 	icon = "Props/doa_collect",
 	id = 70143,
 	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {}
-}
-
-_G.pg.base.item_data_statistics[70144] = {
-	display = "<color=#ff5c5c>5.18维护后道具将会删除。</color>可从「玛莉·萝丝」、「穗香」、「霞」、「海咲」、「凪咲」与「莫妮卡」中自行选择一位角色进行兑换。",
-	name = "「假日航线」角色自选",
-	max_num = 0,
-	type = 13,
-	time_limit = 1,
-	rarity = 4,
-	shop_id = -1,
-	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
-	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
-	icon = "Props/70144",
-	id = 70144,
-	display_icon = {
-		{
-			4,
-			10600011,
-			1
-		},
-		{
-			4,
-			10600021,
-			1
-		},
-		{
-			4,
-			10600031,
-			1
-		},
-		{
-			4,
-			10600041,
-			1
-		},
-		{
-			4,
-			10600051,
-			1
-		},
-		{
-			4,
-			10600071,
-			1
-		}
-	},
 	price = {},
 	index = {},
 	shiptrans_id = {}

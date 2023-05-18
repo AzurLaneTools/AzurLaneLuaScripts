@@ -387,6 +387,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「以女王陛下之名，愿祝福之光照耀世间——」</color>\n「湮烬尘墟」活动获取",
 		scene = {}
 	},
+	[325] = {
+		time_limit_type = 0,
+		name = "诺伦回廊",
+		gain_by = "",
+		id = 325,
+		time_second = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂纪念：企业",
@@ -503,6 +512,7 @@ pg.item_data_frame = {
 		322,
 		323,
 		324,
+		325,
 		401,
 		402,
 		404,

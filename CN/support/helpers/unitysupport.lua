@@ -588,6 +588,14 @@ function setImageAlpha(slot0, slot1)
 	slot2.color = slot3
 end
 
+function getImageRaycastTarget(slot0)
+	return GetComponent(slot0, typeof(Image)).raycastTarget
+end
+
+function setImageRaycastTarget(slot0, slot1)
+	GetComponent(slot0, typeof(Image)).raycastTarget = tobool(slot1)
+end
+
 function getCanvasGroupAlpha(slot0)
 	return GetComponent(slot0, typeof(CanvasGroup)).alpha
 end
