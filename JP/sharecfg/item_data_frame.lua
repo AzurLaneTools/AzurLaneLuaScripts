@@ -387,6 +387,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「求められしものは神ではなく、女王陛下の祝福の光ーー」</color>\n「黙示の遺構」に参加した指揮官に贈る",
 		scene = {}
 	},
+	[325] = {
+		time_limit_type = 0,
+		name = "ノルン機環",
+		gain_by = "",
+		id = 325,
+		time_second = 0,
+		desc = "イベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -503,6 +512,7 @@ pg.item_data_frame = {
 		322,
 		323,
 		324,
+		325,
 		401,
 		402,
 		403,

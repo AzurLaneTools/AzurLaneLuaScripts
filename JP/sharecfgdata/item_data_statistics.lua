@@ -194718,6 +194718,28 @@ _G.pg.base.item_data_statistics[59412] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59413] = {
+	display = "「作戦準備・鉄血」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "訓練Pt",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_d",
+	id = 59413,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",
@@ -209845,59 +209867,6 @@ _G.pg.base.item_data_statistics[70143] = {
 	icon = "Props/doa_collect",
 	id = 70143,
 	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {}
-}
-
-_G.pg.base.item_data_statistics[70144] = {
-	display = "「マリー・ローズ」「ほのか」「かすみ」「みさき」「なぎさ」「モニカ」から一体選んで入手可能「交換チケット」は5月18日(木)メンテナンスまで使用可能です。",
-	name = "ヴィーナス交換チケット",
-	max_num = 0,
-	type = 13,
-	time_limit = 1,
-	rarity = 4,
-	shop_id = -1,
-	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
-	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
-	icon = "Props/70144",
-	id = 70144,
-	display_icon = {
-		{
-			4,
-			10600011,
-			1
-		},
-		{
-			4,
-			10600021,
-			1
-		},
-		{
-			4,
-			10600031,
-			1
-		},
-		{
-			4,
-			10600041,
-			1
-		},
-		{
-			4,
-			10600051,
-			1
-		},
-		{
-			4,
-			10600071,
-			1
-		}
-	},
 	price = {},
 	index = {},
 	shiptrans_id = {}

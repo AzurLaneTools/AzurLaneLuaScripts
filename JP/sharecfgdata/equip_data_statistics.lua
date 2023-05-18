@@ -18407,6 +18407,132 @@ _G.pg.base.equip_data_statistics[3891] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[3900] = {
+	type = 10,
+	name = "ワタツミ研究メモ",
+	speciality = "无",
+	tech = 0,
+	value_2 = 5,
+	ammo = 10,
+	nationality = 3,
+	descrip = "誰かが執筆した偽りの神石の研究メモ。――「託宣の夢現」に参加した指揮官に贈る",
+	rarity = 4,
+	attribute_1 = "air",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3900,
+	icon = "3900",
+	value_1 = "10",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60350
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3901] = {
+	id = 3901,
+	value_2 = 6,
+	value_1 = "12",
+	base = 3900,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3902] = {
+	id = 3902,
+	value_2 = 7,
+	value_1 = "14",
+	base = 3900,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3903] = {
+	id = 3903,
+	value_2 = 8,
+	value_1 = "16",
+	base = 3900,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3904] = {
+	id = 3904,
+	value_2 = 9,
+	value_1 = "18",
+	base = 3900,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3905] = {
+	id = 3905,
+	value_2 = 10,
+	value_1 = "20",
+	base = 3900,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3906] = {
+	id = 3906,
+	value_2 = 11,
+	value_1 = "22",
+	base = 3900,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3907] = {
+	id = 3907,
+	value_2 = 12,
+	value_1 = "24",
+	base = 3900,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3908] = {
+	id = 3908,
+	value_2 = 13,
+	value_1 = "26",
+	base = 3900,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3909] = {
+	id = 3909,
+	value_2 = 14,
+	value_1 = "28",
+	base = 3900,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3910] = {
+	id = 3910,
+	value_2 = 15,
+	value_1 = "30",
+	base = 3900,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3911] = {
+	value_2 = 16,
+	anti_siren = 100,
+	base = 3900,
+	id = 3911,
+	value_1 = "32",
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[4000] = {
 	tech = 1,
 	name = "従来型爆雷投射機",
