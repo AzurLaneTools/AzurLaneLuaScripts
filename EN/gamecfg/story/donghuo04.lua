@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Attention! Unknown enemy unit ahead and fast approaching, all ships alert battlestations!",
+			say = "A humanoid Siren is approaching us rapidly! Everyone, prepare for battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "Wow, she’s actually taking the initiative.",
+			say = "Hah, trying to get the jump on us, huh? That ain't gonna work!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "New type of Siren ship... it appears they’re constantly imitating our battle formation.",
+			say = "The new Sirens seem to be mimicking our combat strategies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hmph! Perfect, then let's show them the real fighting style of the Eagle Union!",
+			say = "Perfect! We'll show them just how big the difference is between true Eagle Union technique and their flimsy imitation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

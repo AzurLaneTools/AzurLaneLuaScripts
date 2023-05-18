@@ -300,6 +300,7 @@ pg.skill_data_template = setmetatable({
 		60320,
 		60330,
 		60340,
+		60350,
 		7000,
 		9010,
 		9020,
@@ -1816,6 +1817,7 @@ pg.skill_data_template = setmetatable({
 		1010250,
 		1010670,
 		1011520,
+		1011360,
 		1090010,
 		1090020,
 		1090030,
@@ -1825,7 +1827,8 @@ pg.skill_data_template = setmetatable({
 		1090070,
 		1090080,
 		1090090,
-		1090100
+		1090100,
+		1090110
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -11315,6 +11318,20 @@ pg.base.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		desc = "When equipped by a Northern Parliament ship: increases her LCK by 3.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60350] = {
+		desc_get = "",
+		name = "Watatsumi Research Notes",
+		id = 60350,
+		type = 0,
+		max_level = 0,
+		desc = "The ship with this gear equipped deals 5.0% more DMG against META ships.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -113542,6 +113559,148 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 			}
 		}
 	},
+	[1011360] = {
+		desc_get = "",
+		name = "Lunga Point's Strike+",
+		id = 1011360,
+		type = 3,
+		max_level = 10,
+		desc = "Increases your Sakura Empire DDs' DMG dealt against CLs, CAs, and CBs by $1. Every 5 times this ship fires her Main Guns: fires a $2 special barrage (DMG is based on the skill's level) and decreases this ship's DMG taken by $3 for 3s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.0%"
+				},
+				{
+					"16.0%",
+					"+1.0%"
+				},
+				{
+					"17.0%",
+					"+2.0%"
+				},
+				{
+					"19.0%",
+					"+1.0%"
+				},
+				{
+					"20.0%",
+					"+1.0%"
+				},
+				{
+					"21.0%",
+					"+2.0%"
+				},
+				{
+					"23.0%",
+					"+2.0%"
+				},
+				{
+					"25.0%",
+					"+2.0%"
+				},
+				{
+					"27.0%",
+					"+3.0%"
+				},
+				{
+					"30.0%"
+				}
+			}
+		}
+	},
 	[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -114885,6 +115044,112 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 				{
 					"9.0%",
 					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[1090110] = {
+		desc_get = "",
+		name = "Torpedo Launch - Gneisenau",
+		id = 1090110,
+		type = 1,
+		max_level = 10,
+		desc = "Every $1s: fires 12 acoustic torpedoes forwards (DMG is based on the skill's level). Increases this ship's and your Iron Blood CLs' and DDs' DMG dealt against CVs by $2.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"35",
+				"20"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"35",
+					"-1"
+				},
+				{
+					"34",
+					"-1"
+				},
+				{
+					"33",
+					"-2"
+				},
+				{
+					"31",
+					"-1"
+				},
+				{
+					"30",
+					"-1"
+				},
+				{
+					"29",
+					"-3"
+				},
+				{
+					"26",
+					"-1"
+				},
+				{
+					"25",
+					"-2"
+				},
+				{
+					"23",
+					"-3"
+				},
+				{
+					"20"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
 				},
 				{
 					"10.0%"

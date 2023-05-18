@@ -387,6 +387,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"It is not Divinity we seek, but rather the light of Her Majesty's blessings–\"</color>\nObtained from the \"Revelations of Dust\" event.",
 		scene = {}
 	},
+	[325] = {
+		time_limit_type = 0,
+		name = "Norn's Synthetic Loop",
+		gain_by = "",
+		id = 325,
+		time_second = 0,
+		desc = "Obtained from a limited event.",
+		scene = {}
+	},
 	[406] = {
 		time_limit_type = 0,
 		name = "Hall of Fame: Laffey ",
@@ -476,6 +485,7 @@ pg.item_data_frame = {
 		322,
 		323,
 		324,
+		325,
 		406,
 		411,
 		412,

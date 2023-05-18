@@ -15,19 +15,19 @@ return {
 					2.5
 				},
 				{
-					"<size=51>“But it appears... the future has betrayed us.”</size>",
+					"<size=51>“But... this world's future has betrayed us.”</size>",
 					5
 				},
 				{
-					"<size=51>“No matter the effort, there will always be battles ahead.”</size>",
+					"<size=51>“Even if my wings break, my guns melt, and the steel of my body creaks, this war will not end",
 					7
 				},
 				{
-					"<size=51>“One by one they stand defiant in front of me... and one by one their faces disappear behind me... I can’t remember them anymore.”</size> ",
+					"<size=51>“The faces of the friends who stood beside me disappear one by one... until I can no longer remember them.”</size> ",
 					10
 				},
 				{
-					"<size=51>“——It is time, sisters.”</size>",
+					"<size=51>“...Let us sally forth once more”</size>",
 					12.5
 				},
 				{
@@ -35,7 +35,7 @@ return {
 					13
 				},
 				{
-					"<size=51>“The stars are mesmerizing tonight”</size>",
+					"<size=51>“...The stars are mesmerizing tonight.”</size>",
 					15
 				},
 				{
@@ -51,7 +51,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgm = "story-6",
-			say = "Is this the area indicated by that mysterious signal... It appears that we were still too late.",
+			say = "This is the area indicated by that mysterious signal... Seems like we were too late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			bgName = "bg_story_wing1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "This is too much, everything has completely turned into ruin.",
+			say = "How terrible. Everything's been reduced to rubble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_wing1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Exactly who are these people... to be able to destroy the test field setup by the Sirens...",
+			say = "Who exactly... has the capacity to wipe out a Mirror Sea, the Sirens' testing grounds?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_wing1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Could it be the Sakura Empire?",
+			say = "You reckon the Sakura Empire's \"Reborn Combined Fleet\" is behind this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "From the traces of weapons damage—— This doesn’t look like it was from the Sakura Empire or the Royal Navy... could this be... could this be from our weapons?",
+			say = "Doubt it. The traces left behind point to the Eagle Union's own weapons rather than anything from the Sakura Empire or Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Argh!!! Such a thick fog of war!!!",
+			say = "Damn it! What the hell's the meaning of this?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "No matter, whoever did this, they certainly saved us a lot of trouble. I really have to thank this “Mystery Man”.",
+			say = "...Well, whoever it is, they spared us the trouble of having to mop up the enemy ourselves. I'll make sure to buy 'em a drink if we ever get a chance to meet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Let’s explore the surroundings, see if we can collect any useful intel——",
+			say = "In any case, let's take a look around and see if we can gather any useful intel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

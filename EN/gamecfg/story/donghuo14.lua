@@ -11,7 +11,7 @@ return {
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "The situation is not good... although we sink two new models... but there are still a lot of signals coming towards us.",
+			say = "Shoot... We're rapidly being surrounded by Siren forces! At this rate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...We seem to be completely surrounded.",
+			say = "Wait, we're already completely boxed in!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "When did the Sirens become so subtle in their tactics? To be able to perfectly predict our trajectory and surround us on our operations...",
+			say = "When did the Sirens get so good at reading our moves? I've never seen them coordinating so flawlessly before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Darn...if only South Dakota was here as well, then we could...",
+			say = "Goddamnit... If only South Dakota were here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "No matter what, let’s shoot our way out and carve out a blood-soaked path forward!",
+			say = "Urgh, that doesn't matter right now. We're gonna smash our way out – I sure as hell don't plan on becomin' cannon fodder here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Prepare all cannons, aim together with me at our opponent's flagship—— open fire!",
+			say = "Everyone, take aim at the large Siren battleship straight ahead of us! All guns, open fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

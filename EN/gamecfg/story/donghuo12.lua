@@ -14,7 +14,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "Observer α",
-			say = "“Key Point G” has left the mirror sea area, tracking signal lost.",
+			say = "Code G has escaped from the Mirror Sea area. Her signal has been lost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			actorName = "Observer β",
 			blackBg = true,
-			say = "This is really a troublesome BUG, I completely can’t understand her behavior pattern...",
+			say = "What a troublesome glitch in the system. Her behavioral patterns defy all principles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			actorName = "Observer β",
 			blackBg = true,
-			say = "And she specifically targeted this time singularity.",
+			say = "What‘s more, she keeps targeting this specific timespace, just like us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
-			say = "Perhaps this is the so-called \"Flawless\" at work. No matter what, she will still choose our side in the end... just like before.",
+			say = "But perhaps this is due to us being created from the same \"factor.\" In the end, she will come to choose us once again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
-			say = "After all, what's that human saying?",
+			say = "It is as the humans like to say–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
-			say = "—— “The Strongest people have the loneliest souls”.",
+			say = "\"The strongest people have the loneliest souls.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
-			say = "Hehehe...",
+			say = "Code G... Revel in your strength, now and forevermore. Heehee, hahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

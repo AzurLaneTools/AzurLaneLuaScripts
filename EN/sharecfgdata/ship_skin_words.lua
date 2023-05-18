@@ -796,7 +796,7 @@ _G.pg.base.ship_skin_words[101110] = {
 				4
 			},
 			3,
-			"Justice will previal!",
+			"Justice will prevail!",
 			4
 		}
 	}
@@ -1394,7 +1394,16 @@ _G.pg.base.ship_skin_words[101240] = {
 	hp_warning = "",
 	id = 101240,
 	detail = "Look, Commander, I won't level up just from you staring at me.",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				10125
+			},
+			1,
+			"Look, Hammann! The Commander's flying!",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[101249] = {
@@ -1697,8 +1706,8 @@ _G.pg.base.ship_skin_words[101260] = {
 				10307
 			},
 			1,
-			"... You don't like... to talk... either?",
-			4
+			"Are you... bad at speaking... too?",
+			0
 		}
 	}
 }
@@ -3974,7 +3983,7 @@ _G.pg.base.ship_skin_words[102040] = {
 				10504
 			},
 			1,
-			"C'mon sis, don't look so sad.",
+			"C'mon, sis, brighten up a little.",
 			0
 		},
 		{
@@ -4045,6 +4054,30 @@ _G.pg.base.ship_skin_words[102050] = {
 			3,
 			"Chicky Unit... sounds kind of cute!",
 			4
+		},
+		{
+			{
+				10213
+			},
+			1,
+			"St. Louis, please take the battle a bit more seriously...",
+			0
+		},
+		{
+			{
+				10212
+			},
+			1,
+			"Honolulu, I'm here to back you up!",
+			0
+		},
+		{
+			{
+				10209
+			},
+			1,
+			"Cleveland, we won't lose, right?",
+			0
 		}
 	}
 }
@@ -4906,7 +4939,24 @@ _G.pg.base.ship_skin_words[102120] = {
 	hp_warning = "",
 	id = 102120,
 	detail = "Maintenance? Fine, as long as you don't do anything weird...",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				10213
+			},
+			1,
+			"Louis... Keep poking fun at me and you'll regret it.",
+			0
+		},
+		{
+			{
+				10205
+			},
+			1,
+			"Don't you worry, Helena, I'm here to help!",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[102121] = {
@@ -7103,7 +7153,7 @@ _G.pg.base.ship_skin_words[103070] = {
 				10306
 			},
 			1,
-			"Shut up, Portland...",
+			"Be quiet, Portland...",
 			0
 		},
 		{
@@ -7111,7 +7161,7 @@ _G.pg.base.ship_skin_words[103070] = {
 				10126
 			},
 			1,
-			"... I just have a slow reaction time...",
+			"I just have a slow reaction time...",
 			0
 		},
 		{
@@ -7119,7 +7169,7 @@ _G.pg.base.ship_skin_words[103070] = {
 				10
 			},
 			5,
-			"... We are the Monkey Corps!",
+			"We are the Monkey Corps!",
 			4
 		}
 	}
@@ -7503,7 +7553,7 @@ _G.pg.base.ship_skin_words[103110] = {
 				30702
 			},
 			1,
-			"Ahahahahahaha! Show me what secret plans you have in store to satisfy me with!",
+			"Ahahahahahaha! Show me a grand plan that'll leave me satisfied!",
 			0
 		},
 		{
@@ -8804,8 +8854,8 @@ _G.pg.base.ship_skin_words[105030] = {
 	couple_encourage = {
 		{
 			{
-				30505,
-				10703
+				10703,
+				30505
 			},
 			1,
 			"As an adult, let me protect you!",
@@ -9338,7 +9388,7 @@ _G.pg.base.ship_skin_words[105140] = {
 				10507
 			},
 			1,
-			"Don't just focus on firing. Keep surveying the area!",
+			"I've got your back! Give 'em hell!",
 			0
 		},
 		{
@@ -9346,7 +9396,7 @@ _G.pg.base.ship_skin_words[105140] = {
 				11201
 			},
 			1,
-			"Sorry, I might have to bother you again.",
+			"Sorry for putting you through trouble again.",
 			0
 		},
 		{
@@ -9355,7 +9405,23 @@ _G.pg.base.ship_skin_words[105140] = {
 				11201
 			},
 			2,
-			"Enterprise! Victory is now!",
+			"The game is on, Enterprise!",
+			0
+		},
+		{
+			{
+				10513
+			},
+			1,
+			"You wanna go at this again, Washington?",
+			0
+		},
+		{
+			{
+				10519
+			},
+			1,
+			"Massachusetts, you have to take this battle seriously.",
 			0
 		},
 		{
@@ -11240,7 +11306,7 @@ _G.pg.base.ship_skin_words[107070] = {
 				10303
 			},
 			1,
-			"Hey, aren't you bored? Let's get out of here.",
+			"C'mon, slowpoke, let's go!",
 			0
 		},
 		{
@@ -11249,7 +11315,31 @@ _G.pg.base.ship_skin_words[107070] = {
 				10706
 			},
 			2,
-			"I won't be pulled down this time!",
+			"I'm not getting left in the dust this time!",
+			0
+		},
+		{
+			{
+				10706
+			},
+			1,
+			"Enty, I'm gonna show you what I'm made of!",
+			0
+		},
+		{
+			{
+				10709
+			},
+			1,
+			"No, I didn't bring my notepad!",
+			0
+		},
+		{
+			{
+				30705
+			},
+			1,
+			"Between my big sis and your little sis... Ah, to hell with it!",
 			0
 		},
 		{
@@ -11257,7 +11347,7 @@ _G.pg.base.ship_skin_words[107070] = {
 				8
 			},
 			3,
-			"Just a few? Don't worry about them~",
+			"What's the name again? Never mind.",
 			4
 		}
 	}
@@ -11430,7 +11520,24 @@ _G.pg.base.ship_skin_words[107090] = {
 	hp_warning = "",
 	id = 107090,
 	detail = "What would you like to know, Commander? I'll answer to the best of my abilities.",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				10706
+			},
+			1,
+			"Just you watch, Enterprise! I won't lose to you so easily!",
+			0
+		},
+		{
+			{
+				7
+			},
+			3,
+			"The era of carriers is upon us!",
+			1
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[107091] = {
@@ -12795,7 +12902,24 @@ _G.pg.base.ship_skin_words[108020] = {
 	hp_warning = "Huh? Have they spotted me or something?",
 	id = 108020,
 	detail = "Hohoh, I must've caught your attention~ Let me guess... you like 'em young, don't you, Commander?",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				30707
+			},
+			1,
+			"Ahaha... C'mon, let bygones be bygones, okay~?",
+			0
+		},
+		{
+			{
+				10801
+			},
+			1,
+			"Catshark attack!",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[108021] = {
@@ -13335,7 +13459,7 @@ _G.pg.base.ship_skin_words[112010] = {
 				10706
 			},
 			1,
-			"Enterprise, don't be so rash!",
+			"Enterprise, don't get careless!",
 			0
 		},
 		{
@@ -13343,7 +13467,7 @@ _G.pg.base.ship_skin_words[112010] = {
 				20114
 			},
 			1,
-			"Big sis is here. It's gonna be fine!",
+			"Old Vestal is here. Everything will be fine!",
 			0
 		},
 		{
@@ -13796,7 +13920,24 @@ _G.pg.base.ship_skin_words[201030] = {
 	hp_warning = "",
 	id = 201030,
 	detail = "Um... even though I've been living here, I'm still not used to being watched by you... Am I... weird? Ahaha...",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				20102
+			},
+			1,
+			"Keep at it, Acasta!",
+			0
+		},
+		{
+			{
+				20706
+			},
+			1,
+			"Umm, Miss Glorious, the enemy is over THERE!",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[201031] = {
@@ -17180,7 +17321,57 @@ _G.pg.base.ship_skin_words[202120] = {
 	hp_warning = "Everyone, the main dish has yet to come!",
 	id = 202120,
 	detail = "Is something the matter, master?",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				20221,
+				20208,
+				20222,
+				20221,
+				20218,
+				20219,
+				20303,
+				20304,
+				20220,
+				20110
+			},
+			2,
+			"Royal Maids, let us move!",
+			0
+		},
+		{
+			{
+				20211
+			},
+			1,
+			"Best of luck, my dear sister.",
+			0
+		},
+		{
+			{
+				20501
+			},
+			1,
+			"I shall protect you, Your Majesty.",
+			0
+		},
+		{
+			{
+				10706
+			},
+			1,
+			"With grace now, Lady Enterprise.",
+			0
+		},
+		{
+			{
+				20603
+			},
+			1,
+			"Be mindful of your surroundings, Miss Unicorn.",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[202121] = {
@@ -19622,6 +19813,22 @@ _G.pg.base.ship_skin_words[203010] = {
 			2,
 			"County-class sisters, now is our time!",
 			0
+		},
+		{
+			{
+				20309
+			},
+			1,
+			"Now, now, let's turn that frown upside-down.",
+			0
+		},
+		{
+			{
+				20302
+			},
+			1,
+			"Keep teasing Our Excellency and I will punish you.",
+			0
 		}
 	}
 }
@@ -21234,7 +21441,7 @@ _G.pg.base.ship_skin_words[205030] = {
 				1
 			},
 			5,
-			"Akatsuki team, unleash your full firepower!",
+			"Kaede's Legion, unleash your full firepower!",
 			4
 		}
 	}
@@ -21345,15 +21552,15 @@ _G.pg.base.ship_skin_words[205040] = {
 				20403
 			},
 			1,
-			"Hood, It's not good to hesitate!",
+			"Hood, you must not waver.",
 			0
 		},
 		{
 			{
-				20501
+				20503
 			},
 			1,
-			"It's no good to underestimate your opponents, my sister",
+			"You shouldn't underestimate your opponents, dear sister.",
 			0
 		},
 		{
@@ -21361,7 +21568,7 @@ _G.pg.base.ship_skin_words[205040] = {
 				1
 			},
 			5,
-			"Team Akatsuki? Let's do our best together!",
+			"Kaede's Legion? Let's do our best together!",
 			4
 		}
 	}
@@ -22427,7 +22634,24 @@ _G.pg.base.ship_skin_words[206010] = {
 	hp_warning = "",
 	id = 206010,
 	detail = "Statistics aren't important, it's how you take advantage of them.",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				20217
+			},
+			1,
+			"A fellow duelist?!",
+			0
+		},
+		{
+			{
+				30603
+			},
+			1,
+			"Houshou, there is infinite potential inside you!",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[206019] = {
@@ -23702,7 +23926,7 @@ _G.pg.base.ship_skin_words[207030] = {
 				10703
 			},
 			1,
-			"How's Saratoga doing these days?",
+			"You haven't changed one bit, Miss Saratoga.",
 			0
 		},
 		{
@@ -24636,7 +24860,7 @@ _G.pg.base.ship_skin_words[213010] = {
 				20123
 			},
 			1,
-			"Vampire, please imbibe wine - I mean, blood - with moderation...",
+			"Vampire, please imbibe wine – I mean, blood – with moderation...",
 			0
 		},
 		{
@@ -24857,7 +25081,8 @@ _G.pg.base.ship_skin_words[213040] = {
 				10802
 			},
 			1,
-			"Nobody can pull off pranks better than me!"
+			"Nobody does pranks better than me!",
+			0
 		}
 	}
 }
@@ -25368,7 +25593,42 @@ _G.pg.base.ship_skin_words[301050] = {
 	hp_warning = "I don't want... to be alone...",
 	id = 301050,
 	detail = "I've inspected the communication equipment. It won't cause any more problems...",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				10117,
+				20121,
+				40123
+			},
+			2,
+			"I will protect you all.",
+			0
+		},
+		{
+			{
+				10117
+			},
+			1,
+			"Laffey, I've run out of oxy-cola again...",
+			0
+		},
+		{
+			{
+				10601
+			},
+			1,
+			"Long Island... don't get distracted on the battlefield.",
+			0
+		},
+		{
+			{
+				30605
+			},
+			1,
+			"I'm depending on you for aerial coverage.",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[301051] = {
@@ -26994,7 +27254,16 @@ _G.pg.base.ship_skin_words[301180] = {
 	hp_warning = "",
 	id = 301180,
 	detail = "... Touch me in the wrong way and you will die.",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				31201
+			},
+			1,
+			"Let's salvage parts, shall we?",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[301181] = {
@@ -27659,7 +27928,19 @@ _G.pg.base.ship_skin_words[301260] = {
 	hp_warning = "",
 	id = 301260,
 	detail = "Umm... exactly what do I need to do, to be able to see my sister again?",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				30121,
+				30123,
+				30124,
+				30125
+			},
+			2,
+			"I'll do my best, I promise!",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[301261] = {
@@ -31830,10 +32111,10 @@ _G.pg.base.ship_skin_words[302040] = {
 	couple_encourage = {
 		{
 			{
-				30209
+				30121
 			},
 			1,
-			"{namecode:47} shouldn't always pester {namecode:45}...",
+			"Hatsuharu, be more careful this time~ Hehehe~",
 			0
 		}
 	}
@@ -32601,6 +32882,15 @@ _G.pg.base.ship_skin_words[302120] = {
 	id = 302120,
 	detail = "These bandages? They're not for when I get hurt, they're for wrapping around my fists... You'll struggle to find anyone who can actually injure me.",
 	couple_encourage = {
+		{
+			{
+				30301,
+				30302
+			},
+			2,
+			"Let's go, 5th CruDiv!",
+			0
+		},
 		{
 			{
 				30302
@@ -35690,7 +35980,16 @@ _G.pg.base.ship_skin_words[305010] = {
 	hp_warning = "Gods, please protect us…!",
 	id = 305010,
 	detail = "Milord, shall we have tea together?",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				30502
+			},
+			1,
+			"Yamashiro, try to stick close to me.",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[305011] = {
@@ -37254,7 +37553,7 @@ _G.pg.base.ship_skin_words[305140] = {
 				30505
 			},
 			1,
-			"Lady Nagato, I shall keep you safe from harm!",
+			"Lady Nagato, I shall defend you!",
 			0
 		},
 		{
@@ -37262,7 +37561,7 @@ _G.pg.base.ship_skin_words[305140] = {
 				30702
 			},
 			1,
-			"Kaga, please... don't go too far.",
+			"Kaga, please... don't go overboard.",
 			0
 		},
 		{
@@ -37278,7 +37577,15 @@ _G.pg.base.ship_skin_words[305140] = {
 				39902
 			},
 			1,
-			" If I wait just a little longer for my plan... No, I guess that's not happening...",
+			"If I wait just a little longer for my plan... No, I guess that's not happening...",
+			0
+		},
+		{
+			{
+				30129
+			},
+			1,
+			"Shimakaze! It's go time!",
 			0
 		},
 		{
@@ -39177,7 +39484,19 @@ _G.pg.base.ship_skin_words[307070] = {
 	hp_warning = "For my Commander, I have to win...!",
 	id = 307070,
 	detail = "I belong to you, my Commander, body and soul...",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				30210,
+				30501,
+				30502,
+				30705
+			},
+			1,
+			"I will NOT tolerate any talk of bad luck!",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[307071] = {
@@ -40127,7 +40446,7 @@ _G.pg.base.ship_skin_words[308050] = {
 				30803
 			},
 			1,
-			"Who would I work best with...",
+			"Who works best with 58...",
 			0
 		}
 	}
@@ -42200,7 +42519,32 @@ _G.pg.base.ship_skin_words[401460] = {
 	hp_warning = "What doesn't kill you only makes you stronger.",
 	id = 401460,
 	detail = "Z46 is but a codename, not my actual name. For a ship, something like a name should be unimportant, but...",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				40701
+			},
+			1,
+			"After this battle ends, please teach me to make today's lunch.",
+			0
+		},
+		{
+			{
+				40135
+			},
+			1,
+			"Ill suited as I am for an idol's name... Please do not try to call me something cutesy.",
+			0
+		},
+		{
+			{
+				40123
+			},
+			1,
+			"Do remember, trying too hard can sometimes backfire.",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[401461] = {
@@ -43254,7 +43598,7 @@ _G.pg.base.ship_skin_words[403030] = {
 				10108
 			},
 			2,
-			"You Eagle reporters sure do run fast!",
+			"You Eagle Union reporters sure do run fast!",
 			0
 		},
 		{
@@ -43696,14 +44040,16 @@ _G.pg.base.ship_skin_words[403050] = {
 				20401
 			},
 			1,
-			"Stay away from me..."
+			"Stay away from me...",
+			0
 		},
 		{
 			{
 				20203
 			},
 			1,
-			"You're still a dirty sadist, I see."
+			"You're still a dirty sadist, I see.",
+			0
 		},
 		{
 			{
@@ -43711,7 +44057,8 @@ _G.pg.base.ship_skin_words[403050] = {
 				40402
 			},
 			1,
-			"It's an honor to fight alongside you again."
+			"It's an honor to fight alongside you again.",
+			0
 		}
 	}
 }
@@ -44942,7 +45289,16 @@ _G.pg.base.ship_skin_words[405020] = {
 	hp_warning = "No one would protect those who asked for their own destruction.",
 	id = 405020,
 	detail = "Choose your enemies carefully, Commander.",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				40501
+			},
+			1,
+			"Sorrow is a mask unbefitting your countenance, sister.",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[405021] = {
@@ -53835,7 +54191,15 @@ _G.pg.base.ship_skin_words[801010] = {
 				20704
 			},
 			1,
-			"Let us dedicate this victory to Commander!",
+			"Let us bring victory to the Commander!",
+			0
+		},
+		{
+			{
+				90111
+			},
+			1,
+			"I'm glad we can fight together, my sister!",
 			0
 		}
 	}
@@ -56053,7 +56417,15 @@ _G.pg.base.ship_skin_words[903010] = {
 				40305
 			},
 			1,
-			"Graf Spee) Ease up, we're on the same side now.",
+			"Ease up, we're on the same side now.",
+			0
+		},
+		{
+			{
+				29901
+			},
+			1,
+			"You look a bit like me... but not quite?",
 			0
 		}
 	}
@@ -58159,7 +58531,42 @@ _G.pg.base.ship_skin_words[900243] = {
 	hp_warning = "I don't want... to be alone...",
 	id = 900243,
 	detail = "I've inspected the communication equipment. It won't cause any more problems...",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				10117,
+				20121,
+				40123
+			},
+			2,
+			"I will protect you all.",
+			0
+		},
+		{
+			{
+				10117
+			},
+			1,
+			"Laffey, I've run out of oxy-cola again...",
+			0
+		},
+		{
+			{
+				10601
+			},
+			1,
+			"Long Island... don't get distracted on the battlefield.",
+			0
+		},
+		{
+			{
+				30605
+			},
+			1,
+			"I'm depending on you for aerial coverage.",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[900244] = {
@@ -58193,7 +58600,16 @@ _G.pg.base.ship_skin_words[900244] = {
 	hp_warning = "No one would protect those who asked for their own destruction.",
 	id = 900244,
 	detail = "Choose your enemies carefully, Commander.",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				40501
+			},
+			1,
+			"Sorrow is a mask unbefitting your countenance, sister.",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[900245] = {
@@ -58268,68 +58684,150 @@ _G.pg.base.ship_skin_words[900247] = {
 	feeling1 = "I think I just saw a future in which you were cut down by {namecode:91}, Commander.",
 	feeling3 = "Do I hold a grudge against the First and Second Carrier Divisions? Of course~ For them to leave us behind like that, wouldn’t anyone complain in that situation?",
 	lose = "Hiryuu-senpai may be willing to fight until the bitter end, but... that’s not my style. What a shame~",
-	couple_encourage = "",
+	propose = "The melody of my flute is like a flowing river, requiring an inspiration that usually can only be found atop a mountain. Just being by your side, however, inspires me even more.",
 	expedition = "This is all required to carry out the Circle Five Plan.",
 	win_mvp = "The Glory of the 5th Carrier Divison is here! *giggles*",
 	home = "The girls have returned safely to port, just like the Fifth Carrier Division always does.",
 	mission = "Let me take a look the mission... It’s not the Coral Sea? That’s too bad~",
 	touch2 = "Commander, come and indulge yourself in {namecode:95}'s tenderness.",
-	propose = "The melody of my flute is like a flowing river, requiring an inspiration that usually can only be found atop a mountain. Just being by your side, however, inspires me even more.",
+	voice_key_2 = -1,
 	skill = "This is the privilege of being the elder sister!",
 	drop_descrip = "First ship of the {namecode:95}-class aircraft carriers, {namecode:95}.",
 	mail = "We’ve got mail from HQ, they told us to carry out the Decisive Battle Doctrine. Heh, just kidding~!",
 	touch = "Commander, would you like to hear me play my flute?",
-	voice_key_2 = -1,
 	profile = "",
 	mission_complete = "We’re not going to carry out our plans of attrition warfare? Tch~",
 	feeling4 = "Those senpai are so sly! Just when I was about to overtake them, they went somewhere I could never reach! How unfair!",
+	unlock = "As the flagship of the Fifth Carrier Division, I, Shoukaku, shall do my best to become as good as those esteemed senpai in the First Carrier Division, or something... *giggles* That was on purpose~",
 	feeling5 = "Commander, could you lend me your shoulder? Sometimes, even I want to simply clear my mind and rest. When I get like that, can I depend on you to be by my side?",
 	main = "",
-	unlock = "As the flagship of the Fifth Carrier Division, I, Shoukaku, shall do my best to become as good as those esteemed senpai in the First Carrier Division, or something... *giggles* That was on purpose~",
+	battle = "The perfected aircraft carrier, {namecode:95}, setting sail!",
 	upgrade = "Now, I can protect {namecode:96} better!",
 	voice_key = 30705,
 	headtouch = "",
 	feeling2 = "My sister {namecode:96} and I held on for two years during the darkest of times. If only our senpai could have worked a little bit harder.",
-	battle = "The perfected aircraft carrier, {namecode:95}, setting sail!",
 	login = "Intelligence is said to be a woman’s virtue, but that often puts me at odds with those senpai of mine. How troublesome~",
+	vote = "",
 	hp_warning = "Pump water to the other side! Hurry!",
 	id = 900247,
-	vote = "",
-	detail = "The melody of my flute is a requiem for the dead. Shall I play it for you?"
+	detail = "The melody of my flute is a requiem for the dead. Shall I play it for you?",
+	couple_encourage = {
+		{
+			{
+				30706
+			},
+			1,
+			"Zuikaku, give it your all! I'll cover you!",
+			0
+		},
+		{
+			{
+				30701
+			},
+			1,
+			"Do you see my true power, Akagi?",
+			0
+		},
+		{
+			{
+				30702
+			},
+			1,
+			"This time... I'll prove to you how powerful I really am!",
+			0
+		},
+		{
+			{
+				10702
+			},
+			1,
+			"Heehee~ I won't be able to protect you if you stray too far.",
+			0
+		},
+		{
+			{
+				10703
+			},
+			1,
+			"Where is the Queen of the Docks heading to, hmm? Heehee~",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[900248] = {
 	feeling1 = "Commander, would you like a taste of the anguish I experienced during the Battle of the Marianas?",
 	feeling3 = "My fate always seems to be entertwined with Lexington’s... Ah~ Commander, please don’t tell Sara I said that. I can’t handle that girl.",
 	lose = "Am I going to be sunk... again...?",
-	couple_encourage = "",
+	propose = "E-eh?! Th-this is... I’m not misunderstanding you, right? Then... um, from now on, I’ll be in your care, dar... darling? Waaah! Shoukaku is calling me!",
 	expedition = "If only I had more planes...!",
 	win_mvp = "I am the auspicious crane, after all!",
 	home = "I’ll need you to perform some maintenance on me. Ah, don’t forget about the planes either!",
 	mission = "Is it time for a break? Commander, you should come try some of {namecode:95}’s cooking!",
 	touch2 = "Commander, {namecode:95}’s are larger and softer...",
-	propose = "E-eh?! Th-this is... I’m not misunderstanding you, right? Then... um, from now on, I’ll be in your care, dar... darling? Waaah! Shoukaku is calling me!",
+	voice_key_2 = -1,
 	skill = "As long as Shoukaku is with me~!",
 	drop_descrip = "Second ship of the {namecode:95}-class aircraft carriers, {namecode:96}.",
 	mail = "So? Is it good news or bad news?",
 	touch = "My least favorite food? Turkey, of course.",
-	voice_key_2 = -1,
 	profile = "",
 	mission_complete = "Hmm... Seems like the situation has taken a turn for the better!",
 	feeling4 = "Whenever I feel irritated or lost, training always makes me feel at ease. Yes, I’ll definitely get stronger and catch up to that Grey Ghost one day.",
+	unlock = "I am {namecode:96}, the last elite of the Sakura Empire’s Carrier Divisions. I can only be at my best when I am with my sister {namecode:95}.",
 	feeling5 = "Commander, you make me feel just as if I am with Shoukaku. H-huh? That’s not it! I’m not treating you as my sister!",
 	main = "{namecode:95} is so cute when she’s embarrassed!|Keep fighting until the last arrow is broken! That is what it means to be an elite!|Wait, Grey Ghost, don’t run away just because you won! Let’s have a rematch!",
-	unlock = "I am {namecode:96}, the last elite of the Sakura Empire’s Carrier Divisions. I can only be at my best when I am with my sister {namecode:95}.",
+	battle = "A never-ending swarm of enemies? I’m already used to it.",
 	upgrade = "As a perfected aircraft carrier, I shall not lose to anyone, not even to my seniors or to the Grey Ghost herself.",
 	voice_key = 30706,
 	headtouch = "",
 	feeling2 = "Seniors and juniors... they’re all such a pain.",
-	battle = "A never-ending swarm of enemies? I’m already used to it.",
 	login = "Where are we going today? Pearl Harbor? Or perhaps the Coral Sea?",
+	vote = "",
 	hp_warning = "Shoukaku... Is Shoukaku all right?",
 	id = 900248,
-	vote = "",
-	detail = "That Grey Ghost... I’d like to duel her just once."
+	detail = "That Grey Ghost... I’d like to duel her just once.",
+	couple_encourage = {
+		{
+			{
+				30705
+			},
+			1,
+			"Nothing scares me as long as you're here, sis!",
+			0
+		},
+		{
+			{
+				10204
+			},
+			1,
+			"I don't know why, I just don't like you...",
+			0
+		},
+		{
+			{
+				10702
+			},
+			1,
+			"We're still even! Next time, I'll settle it for good!",
+			0
+		},
+		{
+			{
+				10703
+			},
+			1,
+			"Whoa! When'd Saratoga get here?!",
+			0
+		},
+		{
+			{
+				10706
+			},
+			1,
+			"I can't believe I'm here, fighting alongside the Grey Ghost!",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[900249] = {
@@ -58438,34 +58936,129 @@ _G.pg.base.ship_skin_words[900252] = {
 	feeling1 = "...Commander, you don't seem to have enough courage",
 	feeling3 = "All the lights in the sky are stars, just as all the lights on the seas are enemies... Commander, will there be a day where there's no more fighting?",
 	lose = "I've lost after giving my all. I'm not regretting this...",
-	couple_encourage = "",
+	propose = "I carry with me the hopes and wills of the countless battlefields and goodbyes that I have experienced. Commander, are you prepared to shoulder them all? …I see. Then let us walk together until the end of our lives.",
 	expedition = "I've been on the battlefield for a long time, so I know about the importance of logistics. Commander, let's greet the girls who work hard behind the scenes.",
 	win_mvp = "Commander, tell me. How many more do I have to sink?",
 	home = "It's one battle after another, huh...",
 	mission = "Commander, your missions are not yet completed.  Hurry up and set off!",
 	touch2 = "What the...?!",
-	propose = "I carry with me the hopes and wills of the countless battlefields and goodbyes that I have experienced. Commander, are you prepared to shoulder them all? …I see. Then let us walk together until the end of our lives.",
+	voice_key_2 = -1,
 	skill = "It's over!",
 	drop_descrip = "Yorktown-class aircraft carrier ー Enterprise, Hull Number CV-6!",
 	mail = "Commander, it's a new mail.",
 	touch = "What is it? Sortie time?",
-	voice_key_2 = -1,
 	profile = "I am the Yorktown class aircraft carrier, Enterprise. \"Grey Ghost\" is one of the many nicknames I have. My smoke-covered and bloodstained battle record is a reminder of my mission. I will continue to be victorious until the war ends.",
 	mission_complete = "Commander, the rewards are here.",
 	feeling4 = "There's no meaning in being peerless. As long as you are here, Commander, I can draw upon all of my strength. Let us end this war.",
+	unlock = "Second ship of the Yorktown class, Enterprise, reporting for duty. I will neither sympathize nor hold back with my enemies, and instead, I go all out. Such is my way.",
 	feeling5 = "What do you want to do after the war? --Me? I'll probably stick with you. I feel the safest out of battle when I'm with you. Will you... take me along with you?",
 	main = "",
-	unlock = "Second ship of the Yorktown class, Enterprise, reporting for duty. I will neither sympathize nor hold back with my enemies, and instead, I go all out. Such is my way.",
+	battle = "Venture forth!",
 	upgrade = "I will show you... what lies at the end of power",
 	voice_key = 10706,
 	headtouch = "",
 	feeling2 = "It is my wish to live honestly and sincerely. That's why I'll speak my mind if I have something to say. You too should do the same without holding back.",
-	battle = "Venture forth!",
 	login = "You've come. If it's fighting, I'm ready for it any time.",
+	vote = "",
 	hp_warning = "Interesting...!",
 	id = 900252,
-	vote = "",
-	detail = "Want to look at my medal collection?"
+	detail = "Want to look at my medal collection?",
+	couple_encourage = {
+		{
+			{
+				30701,
+				30702,
+				30704
+			},
+			1,
+			"Teaming up with old rivals doesn't feel so bad.",
+			0
+		},
+		{
+			{
+				10705,
+				10707
+			},
+			2,
+			"You're about to witness true peerlessness!",
+			0
+		},
+		{
+			{
+				10703
+			},
+			1,
+			"You can't help but mess around, huh?",
+			0
+		},
+		{
+			{
+				1
+			},
+			5,
+			"Warriors of the Eagle Union, we fight 'til the end!",
+			3
+		},
+		{
+			{
+				3
+			},
+			5,
+			"Heh, think you can take me on?",
+			3
+		},
+		{
+			{
+				8
+			},
+			3,
+			"We all know each other. Come on, let's go!",
+			4
+		},
+		{
+			{
+				10709
+			},
+			1,
+			"Alright, let me see what you're made of!",
+			0
+		},
+		{
+			{
+				20212
+			},
+			1,
+			"I'm counting on you. Don't fall behind!",
+			0
+		},
+		{
+			{
+				10117,
+				30105,
+				40123,
+				20121
+			},
+			3,
+			"So this is the power of friendship...",
+			0
+		},
+		{
+			{
+				30405
+			},
+			1,
+			"I feel like... if you'd been there, Akagi might have...",
+			0
+		},
+		{
+			{
+				10717
+			},
+			1,
+			"Don't worry, I'm right here.",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[900253] = {
@@ -58927,7 +59520,7 @@ _G.pg.base.ship_skin_words[900260] = {
 				10706
 			},
 			1,
-			"The First Carrier Division is not to be looked down upon!",
+			"The 1st Carrier Division is not to be looked down upon!",
 			0
 		},
 		{
@@ -58943,6 +59536,22 @@ _G.pg.base.ship_skin_words[900260] = {
 			},
 			3,
 			"I did not expect to be fighting alongside you all...",
+			0
+		},
+		{
+			{
+				30204
+			},
+			1,
+			"I owe you for that one time, Nagara.",
+			0
+		},
+		{
+			{
+				30707
+			},
+			1,
+			"Fate dealt you an unfortunate hand.",
 			0
 		}
 	}
@@ -59062,34 +59671,76 @@ _G.pg.base.ship_skin_words[900263] = {
 	feeling1 = "Would you please not act like we're close...",
 	feeling3 = "I'm not very elegant? I'm sorry that I'm not like Hood or the others... No... I'm not talking about my body...",
 	lose = "My damage control isn't functioning?! I've lost control of my steering wheel as well! Why now, at such a critical moment?!",
-	couple_encourage = "",
+	propose = "Finally the day has come! It looks like my efforts were not in vain... Let's go, Commander, I'm prepared for this. Officers, draw swords!",
 	expedition = "Commissions? I suppose I do miss running around on errands... Let's go. We need to welcome back those hard workers!",
 	win_mvp = "Don't be confined by the so-called \"limits\". It is indeed possible to be unsinkable!",
 	home = "Whew, not a bad fight. Let's rest for a while.",
 	mission = "Accept your new mission and then get ready to head out, Commander!",
 	touch2 = "Just so you understand, I'm definitely not that sort of, erm...",
-	propose = "Finally the day has come! It looks like my efforts were not in vain... Let's go, Commander, I'm prepared for this. Officers, draw swords!",
+	voice_key_2 = -1,
 	skill = "Belli dura despicio!",
 	drop_descrip = "Queen Elizabeth-class battleship - Warspite, Hull Number 03!",
 	mail = "You've got mail, Commander!",
 	touch = "Body contact...? I don't hate it...",
-	voice_key_2 = -1,
 	profile = "Elizabeth-class fast battleship, Warspite, reporting in. I hold the record for the longest ranged hit on a moving target. I've come close to being defeated quite a few times, but I managed to cheat death every time. This must be my fate.",
 	mission_complete = "Missions give out rewards once you complete them. Don't forget that!",
 	feeling4 = "How do I put this... I'm considered to be one of the older girls, yet my body is like this... It might be unbecoming of one my age to compete with the younger girls, but I wanted to at least be attractive to you… What is a lady meant to do…",
+	unlock = "Greetings, I'm Warspite. I hold the record for the longest ranged hit on a moving target. Surprised? I'm smaller than you thought? Looks like we need to have a long talk...",
 	feeling5 = "Well, enough of that. I'm Warspite, the one who spites war. Hmph! However, whosoever tries to take the Commander away from me will first have to face my cannons!",
 	main = "Your orders are absolute, Commander. They shall be my highest priority.|This grand old lady can run faster without a skirt. Want to race with me?|If you make fun of me one more time, you'll be eating my 15 inch shells!",
-	unlock = "Greetings, I'm Warspite. I hold the record for the longest ranged hit on a moving target. Surprised? I'm smaller than you thought? Looks like we need to have a long talk...",
+	battle = "I would never let the commander's enemies escape!",
 	upgrade = "Battlefield, I'm coming for you.",
 	voice_key = 20502,
 	headtouch = "",
 	feeling2 = "Commander, want to hear about the history of the Royal Navy? Maybe I should tell you something about the generals who used to accompany me.",
-	battle = "I would never let the commander's enemies escape!",
 	login = "As long as I'm here, we can deal with any enemy, no matter how far they are.",
+	vote = "",
 	hp_warning = "So this is how harsh the battlefield can be.",
 	id = 900263,
-	vote = "",
-	detail = "Don't be blinded by statistics. Victory depends on far more!"
+	detail = "Don't be blinded by statistics. Victory depends on far more!",
+	couple_encourage = {
+		{
+			{
+				10105,
+				10108
+			},
+			1,
+			"Do you want to race this old lady?"
+		},
+		{
+			{
+				10706
+			},
+			1,
+			"Unmatched by any? *Sigh*...",
+			0
+		},
+		{
+			{
+				20403
+			},
+			1,
+			"Elegance does not belong on the battlefield.",
+			0
+		},
+		{
+			{
+				20501
+			},
+			1,
+			"Your Majesty, please look forward to my performance in battle.",
+			0
+		},
+		{
+			{
+				20503,
+				20504
+			},
+			2,
+			"Youngsters, follow me.",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[900264] = {
@@ -59129,7 +59780,7 @@ _G.pg.base.ship_skin_words[900264] = {
 				10703
 			},
 			1,
-			"How's Saratoga doing these days?",
+			"You haven't changed one bit, Miss Saratoga.",
 			0
 		},
 		{
@@ -59311,34 +59962,88 @@ _G.pg.base.ship_skin_words[900268] = {
 	feeling1 = "Pranks? I already stopped pulling them on you~ You're no fun for those",
 	feeling3 = "Commander, what's the greatest difference between me and my big sister? The answer, is my 'color' today!",
 	lose = "Oh dang~ I'll go back for repairs, and then have a good rest while I'm at it~",
-	couple_encourage = "",
+	propose = "Ah, Commander. Please wait for a bit~ The Eagle Union carriers are all gathering~ Eh? This is a once in a lifetime occassion! Despite my appearance I am a veteran. I'm well respected!",
 	expedition = "Commander, my patrol planes told me the girls out for commission have returned~",
 	win_mvp = "Ooh la la~ Big sis is busy, so it's fine that I get to come by once a while~",
 	home = "We~ are back~",
 	mission = "Commander, can't you complete even a mission?",
 	touch2 = "...wha!",
-	propose = "Ah, Commander. Please wait for a bit~ The Eagle Union carriers are all gathering~ Eh? This is a once in a lifetime occassion! Despite my appearance I am a veteran. I'm well respected!",
+	voice_key_2 = -1,
 	skill = "Where are you looking? I'm right over here~",
 	drop_descrip = "Lexington-class aircraft carrier ー Saratoga, Hull Number CV-3!",
 	mail = "You didn't see the mail? --Then should I read it?",
 	touch = "My stature may be small, but I've yet to grow past that fact!",
-	voice_key_2 = -1,
 	profile = "I am aircraft carrier Lexington's little sister, Saratoga! Hmm... I like to play pranks! But you already knew that, Commander~ \nPioneer of aviation tactics? If my sister hadn't passed away so soon, that title would've definitely been hers.",
 	mission_complete = "This is bad, Commander! The mission rewards are missing! --Darn, you caught me.",
 	feeling4 = "Commander, I have something I want to tell you. I'm gonna write it on the back of your hand~ and done... Did you think I'm gonna write 'I like you'? Silly Commander~",
+	unlock = "Hey there, and good day, Commander! I am Lexington...'s little sister, Saratoga~ If there's nothing important, I'm leaving now",
 	feeling5 = "Commander, you dropped something~~ *kiss* ...Hehe, it was my heart?. Here, you can keep it!",
 	main = "Boo! Hehe, did I susprise you?  Commander, you're slow, aren't you?!|Commander, don't confuse me with my big sister!|Eh? Call you 'big bro'? There's no way that's happening~",
-	unlock = "Hey there, and good day, Commander! I am Lexington...'s little sister, Saratoga~ If there's nothing important, I'm leaving now",
+	battle = "Two days ago it was {namecode:90}, yesterday it was {namecode:103}, and today it's you all. Let's go!",
 	upgrade = "Saratoga-chan loves you a lot~!",
 	voice_key = 10703,
 	headtouch = "",
 	feeling2 = "Who should I prank today~?",
-	battle = "Two days ago it was {namecode:90}, yesterday it was {namecode:103}, and today it's you all. Let's go!",
 	login = "Oh my~ Sorry Commander. I didn't mean to launch planes at you on purpose~",
+	vote = "",
 	hp_warning = "Wah! I'm in a pinch!",
 	id = 900268,
-	vote = "",
-	detail = "If you keep on peeping where you shouldn't, even kids will not be talking to you~"
+	detail = "If you keep on peeping where you shouldn't, even kids will not be talking to you~",
+	couple_encourage = {
+		{
+			{
+				10702
+			},
+			1,
+			"The forbidden Double Lexington!",
+			0
+		},
+		{
+			{
+				10705
+			},
+			1,
+			"I'm the lovable Saratoga, not some Old Brother!",
+			0
+		},
+		{
+			{
+				10703,
+				10704,
+				20703
+			},
+			2,
+			"How come YOU'VE all grown so much?!",
+			0
+		},
+		{
+			{
+				10
+			},
+			5,
+			"Let's go! Time to make some headlines!",
+			4
+		},
+		{
+			{
+				1040001,
+				1040002,
+				1040003,
+				1040004
+			},
+			1,
+			"Heheheh~ Can you tell who's the real deal?",
+			0
+		},
+		{
+			{
+				10208
+			},
+			1,
+			"Let's do our best as Virtual Idols, Sandy!",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[900269] = {
@@ -59372,7 +60077,24 @@ _G.pg.base.ship_skin_words[900269] = {
 	hp_warning = "",
 	id = 900269,
 	detail = "What would you like to know, Commander? I'll answer to the best of my abilities.",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				10706
+			},
+			1,
+			"Just you watch, Enterprise! I won't lose to you so easily!",
+			0
+		},
+		{
+			{
+				7
+			},
+			3,
+			"The era of carriers is upon us!",
+			1
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[900270] = {
@@ -59475,34 +60197,81 @@ _G.pg.base.ship_skin_words[900272] = {
 	feeling1 = "Those who refuse to stop marching shall face the path of ruin... Make sure you keep that in mind.",
 	feeling3 = "",
 	lose = "Is this... also a trial from Heaven...?",
-	couple_encourage = "",
+	propose = "As the one who guides Iris Libre, I cannot make an oath solely to you. However, I vow to protect and support you for as long as I live. This, I vow, on the holy name of Iris...",
 	expedition = "I'd like to report that the commissions have been safely completed, and that fleet operations are running smoothly. You've done a good job, Commander.",
 	win_mvp = "May the wandering souls drifting about the battlefield find eternal peace and salvation... Amen...",
 	home = "Mission complete. The fleet has safely returned to the port. Good work, Commander.",
 	mission = "Missions may be called a kind of trial. If you take them on with the proper attitude, there is no need to worry.",
 	touch2 = "If nothing else, your audacity is commendable.",
-	propose = "As the one who guides Iris Libre, I cannot make an oath solely to you. However, I vow to protect and support you for as long as I live. This, I vow, on the holy name of Iris...",
+	voice_key_2 = -1,
 	skill = "Accept your divine judgment!",
 	drop_descrip = "Richelieu-class battleship – Richelieu.",
 	mail = "Letters are blessings from other people.",
 	touch = "Please listen to our prayers closely, Commander.",
-	voice_key_2 = -1,
 	profile = "",
 	mission_complete = "The reward for those who work hard is Heaven's grace. Let us accept it gratefully.",
 	feeling4 = "You've come by again. Haven't you been getting too friendly with me? ...Just kidding. I'm truly grateful to have another person that I can chat casually with. I hope that you feel the same way, too.",
+	unlock = "I am Richelieu, Cardinal of Iris Libre. If you too will fight for freedom and faith, then I shall bring you victory, Commander.",
 	feeling5 = "",
 	main = "",
-	unlock = "I am Richelieu, Cardinal of Iris Libre. If you too will fight for freedom and faith, then I shall bring you victory, Commander.",
+	battle = "All ships, prepare for combat! For liberty and glory! Aux armes, marchons! ",
 	upgrade = "At times, might is needed to guide others on the right path. I give you my thanks.",
 	voice_key = 80501,
 	headtouch = "May Heaven confer upon you its blessings.",
 	feeling2 = "The one you are talking to was once despisingly called many things: the calamity that brought on war, the fearsome Cardinal, and the maniac possessed by religious fervor. I ask of you: when you look at me, what do you see in me?",
-	battle = "All ships, prepare for combat! For liberty and glory! Aux armes, marchons! ",
 	login = "Bonjour, Commander. Please relax and drink this tea while I carry out my morning prayers.",
+	vote = "",
 	hp_warning = "There is... still hope...!",
 	id = 900272,
-	vote = "",
-	detail = "Place your faith in me. Follow my lead. Offer up your prayers. Seek the Lord. Only then will the path of God be opened..."
+	detail = "Place your faith in me. Follow my lead. Offer up your prayers. Seek the Lord. Only then will the path of God be opened...",
+	couple_encourage = {
+		{
+			{
+				80101,
+				80102,
+				80103,
+				80104,
+				80201,
+				80202,
+				80701,
+				80801
+			},
+			5,
+			"As long as we have Heaven's divine protection, we have nothing to fear!",
+			3
+		},
+		{
+			{
+				10703
+			},
+			1,
+			"It seems that we fight together once again.",
+			0
+		},
+		{
+			{
+				90501
+			},
+			1,
+			"Please fight to your heart's content. I have your back.",
+			0
+		},
+		{
+			{
+				90101,
+				90102,
+				90103,
+				90111,
+				90201,
+				90302,
+				90401,
+				90501
+			},
+			5,
+			"Brethren! Assemble under the banner of righteousness!",
+			3
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[900273] = {
@@ -59778,34 +60547,105 @@ _G.pg.base.ship_skin_words[900278] = {
 	feeling1 = "Your wish... is to repeat the errors of the past once more? Very well... I see...",
 	feeling3 = "I should spend more time with the others? Even if I tried to do that, I would not know how to behave, and they would be afraid of me all the same... Hey, what are you doing... why are you taking off my riggings?!",
 	lose = "Ugh... I have failed once again...",
-	couple_encourage = "",
+	propose = "When I cross the river after the war ends, what awaits me is not a searing white light that engulfs everything, but rather, your warm embrace... There is nothing more that I could ask for...",
 	expedition = "The commission fleet has returned... H-Hey, I managed to remember the time. Have you no words of praise for me?",
 	win_mvp = "Impudent fools... why did they have to provoke me?",
 	home = "I have never had to welcome anyone before. Perhaps I shall do so by firing my cannons?",
 	mission = "Is it acceptable to arrange the itinerary in this manner? I do not quite understand how to do it yet...",
 	touch2 = "... H-How uncouth!",
-	propose = "When I cross the river after the war ends, what awaits me is not a searing white light that engulfs everything, but rather, your warm embrace... There is nothing more that I could ask for...",
+	voice_key_2 = -1,
 	skill = "I am called Nagato... Nagato of the Sakura Empire!",
 	drop_descrip = "Nagato-class battleship number one – Nagato.",
 	mail = "What is this piece of paper? \"Mail?\" I see, it's mail. Shall I read it?",
 	touch = "...! N-No one has ever dared to lay hands on me in such a manner...",
-	voice_key_2 = -1,
 	profile = "I am the manifestation of the soul of the Sakura Empire, the pride and glory of her warrior spirit. As a Big Seven, I am also the symbol of an era. Open your eyes and bask in my radiance... You may stop basking now, I'm getting a bit sleepy...",
 	mission_complete = "The mission rewards... Ngh...! Phew... is it acceptable to leave them here?",
 	feeling4 = "I see! I am less intimidating with my riggings taken off. I certainly do feel lighter... but why does it feel like I've lost something... like when I appointed Yamato to take over as flagship?",
+	unlock = "I am called Nagato, flagship of the Sakura Empire's Combined Fleet. Are you the one known as the Commander? I shall bear witness to whether or not you have the ability to unite this world.",
 	feeling5 = "It is enough to be treasured by one person? Since you were the one who brought me out... I shall have you take responsibility... that is, umm, in other words, I command you to... treasure me... if that is acceptable?",
 	main = "",
-	unlock = "I am called Nagato, flagship of the Sakura Empire's Combined Fleet. Are you the one known as the Commander? I shall bear witness to whether or not you have the ability to unite this world.",
+	battle = "Yet another... tragic battle.",
 	upgrade = "I hope... to be able to welcome the day when we can all beat our swords into plowshares...",
 	voice_key = 30505,
 	headtouch = "",
 	feeling2 = "What do you require of me? Hmm? I am not doing anything in particular. After I handed the work to Yamato, there is little to do except fight.",
-	battle = "Yet another... tragic battle.",
 	login = "Welcome ba... oww, I bit my tongue...",
+	vote = "",
 	hp_warning = "The decisive battle is upon us!",
 	id = 900278,
-	vote = "",
-	detail = "Everyone's faces are full of laughter here... I think I am rather fond of this place!"
+	detail = "Everyone's faces are full of laughter here... I think I am rather fond of this place!",
+	couple_encourage = {
+		{
+			{
+				3
+			},
+			5,
+			"Combined Fleet, crush our enemies!",
+			3
+		},
+		{
+			{
+				30501,
+				30502,
+				30506
+			},
+			1,
+			"1st Battleship Division, open fire!",
+			0
+		},
+		{
+			{
+				30506
+			},
+			1,
+			"Mutsu, leave your questions for after the battle!",
+			0
+		},
+		{
+			{
+				30511
+			},
+			1,
+			"Observe closely this battle of mine, Mikasa!",
+			0
+		},
+		{
+			{
+				30701
+			},
+			1,
+			"Akagi, I need your strength as my own!",
+			0
+		},
+		{
+			{
+				20504,
+				20503,
+				10509,
+				10510,
+				10511
+			},
+			1,
+			"Hmph...! I have no reason to envy you for those... things!",
+			0
+		},
+		{
+			{
+				30405
+			},
+			1,
+			"Amagi, you've inconvenienced the Commander...",
+			0
+		},
+		{
+			{
+				30149
+			},
+			1,
+			"Kawakaze, I trust you to lead the way!",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[900279] = {
@@ -59876,33 +60716,10 @@ _G.pg.base.ship_skin_words[900280] = {
 	couple_encourage = {
 		{
 			{
-				30701
+				30405
 			},
 			1,
-			"Sister, please take this seriously.",
-			0
-		},
-		{
-			{
-				10706
-			},
-			1,
-			"The First Carrier Division is not to be looked down upon!",
-			0
-		},
-		{
-			{
-				10209,
-				10501,
-				10502,
-				10704,
-				10705,
-				10706,
-				10707,
-				30701
-			},
-			3,
-			"I did not expect to be fighting alongside you all...",
+			"Amagi, please don't go off to a distant place by yourself again.",
 			0
 		}
 	}
@@ -59979,15 +60796,15 @@ _G.pg.base.ship_skin_words[900282] = {
 				20403
 			},
 			1,
-			"Hood, It's not good to hesitate!",
+			"Hood, you must not waver.",
 			0
 		},
 		{
 			{
-				20501
+				20503
 			},
 			1,
-			"It's no good to underestimate your opponents, my sister",
+			"You shouldn't underestimate your opponents, dear sister.",
 			0
 		},
 		{
@@ -59995,7 +60812,7 @@ _G.pg.base.ship_skin_words[900282] = {
 				1
 			},
 			5,
-			"Team Akatsuki? Let's do our best together!",
+			"Kaede's Legion? Let's do our best together!",
 			4
 		}
 	}
@@ -60172,43 +60989,43 @@ _G.pg.base.ship_skin_words[900350] = {
 }
 
 _G.pg.base.ship_skin_words[900351] = {
-	feeling1 = "啊，让女孩子落泪可不行啊，指挥官。你该好好反省下自己了！",
-	feeling3 = "不知不觉间，大家也熟络起来了呢~下次想聊什么？舰装技术？还是日常生活？……欸，我来选吗？",
-	lose = "不敢相信，我们居然被敌人压制住了……在找出还击的方法之前，我是不会休息的！",
-	propose = "你的想法，已经全部传达给我了。如果指挥官不嫌弃的话我当然也没问题哦~？既然如此，我也要再向指挥官告白一次才对吧？嘻嘻，这才叫彼此都要多多为了对方着想嘛♡",
-	expedition = "委托队已经在港口了。走吧，你的慰问对她们来说便是最大的鼓励哦~嘻嘻♪",
-	win_mvp = "我们正锐不可当地向着正确的方向航行——哼哼，大家都喜欢这样的感觉吧？",
-	home = "看下刚才的战斗报告吧~谁先说~？你先就好？那我就一边吃着冰激凌一边洗耳恭听咯~",
-	mission = "你接下了这个新任务吗？好，让我们一起解决掉吧。",
-	touch2 = "指挥官，你已经处于“被动”了哦，各种意义上的~",
+	feeling1 = "Ah, so you're the kind of person who makes girls cry. Yeah, you'd better feel bad about it.",
+	feeling3 = "Look at that, you're already starting to chat me up. So, what's on your mind today? Something a bit more technical? Small talk about daily life? ...Oh, you want me to choose?",
+	lose = "Unbelievable... I'm actually getting cornered?! ...I'm not gonna be able to sleep 'til I figure out how to set things straight!",
+	propose = "Commander, I can already hear everything you're thinking. As long as you're fine with it, I don't have any objections~ After all, I still owe you a proper confession, don't I? Hehe, don'tcha think that's what mutual love is supposed to look like?",
+	expedition = "Your commission fleet's back. Are your words of praise not the best reward you can give them? Hehe~♪",
+	win_mvp = "Course: steady! Objective: completed! Enemies who can stop us: none! Heheh, don'tcha love it when things go smoothly?",
+	home = "Wanna check the battle results~♪ Yeah? Who do you wanna start with? Oh, you'll do it yourself? I'll listen in while enjoying some ice cream over here.",
+	mission = "Did you already accept this mission? Sounds good, let's take care of it together.",
+	touch2 = "Commander, don'tcha just love being put on the defensive? In more ways than one~♪",
 	voice_key_2 = -1,
-	skill = "火控系统，瞄准目标！",
-	drop_descrip = "{namecode:201}级战列舰—{namecode:199}，舷号BB-62",
-	mail = "有新的邮件哦。哈哈，果然你很期待有人来信嘛～",
-	touch = "如果是有任务，我当然义不容辞。至于别的请求，可就要额外收点报酬了哦？开玩笑的~",
-	profile = "我是白鹰战列舰，最大最强的BlackDragon—{namecode:199}号。这可不是什么自夸哦，或者说，“世界最强”也不为过呢~只要充分认识我了，关于这个话题的疑虑你很快就会打消的~",
-	mission_complete = "既然重要的任务已经完成了，不如就休息一下吧？凡事都分下轻重缓急，会比较轻松哦？",
-	feeling4 = "嗯？你怎么一脸疲倦的样子……果然是超负荷工作了吧？来，躺这里，这次就让我照顾你吧。嗯哼…就把我的大腿当成你临时的枕头吧~”指挥官就喜欢这样的感觉吧~？",
-	unlock = "白鹰战列舰，最强最大的Black Dragon，{namecode:199}登场！见识下我的力量吧！开玩笑的~指挥官喜欢这样的感觉吗？",
-	feeling5 = "主动一点的{namecode:199}和被动一些的{namecode:199}，指挥官更喜欢哪一种呢？——停~我会在接下来的时间里慢慢确认的，所以不用急着回答~嘻嘻，指挥官就喜欢这种被吊着胃口的感觉吧~？",
-	main = "“{namecode:201}对{namecode:83}”么……确实是一个热门的话题呢。呵呵，人们就是热衷这样的，不是吗？|喜欢的饮料是果汁哦。青苹果汁、橙汁我都推荐，汽水的话也OK。咖啡…感觉不太行？|秘书舰该帮指挥官完成多少工作呢……我个人认为，40%吧。毕竟，如果我做了太多事的话，是不是就有些喧宾夺主了？|这件事……指挥官说的也有道理呢…那么接下来听听我的方案吧？|航空母舰的时代啊……那可不好说。既然航空母舰会发展，谁又说得清战列舰会有什么变化呢~|白鹰的“Big J”，最大最强的“Black Dragon”就是我啦！……唔，是不是有点太浮夸了？",
-	battle = "全员，一级战备！要上了哦！",
-	upgrade = "也许战列舰会过时，但{namecode:201}级可不会哦。",
+	skill = "Fire control, I'm counting on you!",
+	drop_descrip = "Iowa-class battleship – New Jersey, Hull Number BB-62.",
+	mail = "You've got new mail. Heh, dont'cha just love the anticipation~?",
+	touch = "I'll take any work-related requests, but anything outside of that... won't come cheap. Just kidding~♪",
+	profile = "I am battleship New Jersey, the indomitable Black Dragon of the Eagle Union. When I say \"indomitable,\" I'm not just tooting my own horn, hehe~♪ If you knew more about me, you'd know exactly what I'm talking about.",
+	mission_complete = "Since we already got the hard stuff out of the way, why not take a little break? It's gonna be pretty easy to prioritize whatever is left~",
+	feeling4 = "My my, look who's all run down today... I knew it, you've been overworking yourself. C'mere, lie down here and let me take care of you. Yeah, my thighs make for a pretty good pillow substitute huh? Don'tcha just love this kind of stuff~?",
+	unlock = "The indomitable Black Dragon of the Eagle Union is none other than me, New Jersey! You're about to witness true power! Haha, just messing~♪ Don'tcha just love flashy introductions?",
+	feeling5 = "Commander, would you prefer I take the lead, or would you rather do it? Hold up~ I'll see for myself when the time is right, so there's no need for you to answer in words. After all, don'tcha just love being toyed with~?",
+	main = "Iowa versus Yamato, huh? A real classic. Don'tcha just love that kind of stuff?|I go for the fruity stuff~ green apple, orange, and soda water. As for coffee... Not my favorite, I guess?|How much stuff should I be doing as your secretary? ...Lemme think, how does 40% sound? If I did everything, wouldn't that make me the commander? Heh.|About that matter... I must admit that you have a point, Commander. How about taking my suggestion next time though?|It's now the age of carriers? ...Dunno about that. If carriers are able to evolve, what's to say that battleships can't also evolve?|They call me Big J or the Black Dragon of the Eagle Union! ...What, got a problem with talking myself up a bit?",
+	battle = "Everyone, Level 1 combat readiness! Set sail!",
+	upgrade = "Some say that the age of battleships is over. They haven't met the Iowa class.",
 	voice_key = 10517,
-	headtouch = "摸完了吗？好，那就乖乖坐下，该轮到我摸了~",
-	feeling2 = "彼此疏远的话会心生顾虑啊，或许像这样……身体上的接触能让你放下心来？哼哼~这样就能更加亲近了不是吗？",
-	login = "欢迎回来。需要帮忙制定工作计划吗？或者，你对此已经胸有成竹了？",
+	headtouch = "Done having your fun yet? Hehe, now it's my turn~♪ Take a seat!",
+	feeling2 = "We'll only get in each other's way if we keep an ambivalent relationship. Say, don'tcha think getting touchy-feely might help break the ice? ...Just kidding~ See, you're already not as nervous~ Hehehe~♪",
+	login = "Glad you made it. Do you already have a plan for what you wanna do? And how do I factor into those plans?",
 	vote = "",
-	hp_warning = "不用慌，我已经想出控制局势的办法了。",
+	hp_warning = "I know just the thing to turn this situation around!",
 	id = 900351,
-	detail = "装备检查完毕，各系统运转正常，辛苦你了——啊，难道是看着迷了~？我倒是不介意？反正~指挥官就喜欢这样的吧~？嘻嘻~",
+	detail = "Thanks for finishing the equipment inspection. All systems nominal! ...Oh my, you seem to be unable to take your eyes off me~ Not that it bothers me though? Besides, don'tcha like this sort of stuff?",
 	couple_encourage = {
 		{
 			{
 				19902
 			},
 			1,
-			"口径更大的“{namecode:201}”？不，好像有点不同……",
+			"A larger-caliber Iowa? No, not quite...",
 			0
 		},
 		{
@@ -60225,7 +61042,7 @@ _G.pg.base.ship_skin_words[900351] = {
 				10738
 			},
 			2,
-			"航空战就拜托你们了。",
+			"As if I'd lose to some carriers!",
 			0
 		},
 		{
@@ -60233,7 +61050,7 @@ _G.pg.base.ship_skin_words[900351] = {
 				1
 			},
 			5,
-			"没有人能够阻挡我们的意志！",
+			"Freedom and firepower: an unstoppable force!",
 			3
 		},
 		{
@@ -60242,7 +61059,7 @@ _G.pg.base.ship_skin_words[900351] = {
 				70505
 			},
 			1,
-			"哦？是意料之外的对手呢。有趣~",
+			"Oh? Finally, a worthy opponent? How interesting~",
 			0
 		},
 		{
@@ -60250,7 +61067,7 @@ _G.pg.base.ship_skin_words[900351] = {
 				10706
 			},
 			1,
-			"白鹰的英雄啊，一直以来辛苦你了！",
+			"We owe a lot to you, Miss Heroine.",
 			0
 		}
 	}
@@ -60427,43 +61244,43 @@ _G.pg.base.ship_skin_words[900353] = {
 }
 
 _G.pg.base.ship_skin_words[900354] = {
-	feeling1 = "啊，让女孩子落泪可不行啊，指挥官。你该好好反省下自己了！",
-	feeling3 = "不知不觉间，大家也熟络起来了呢~下次想聊什么？舰装技术？还是日常生活？……欸，我来选吗？",
-	lose = "不敢相信，我们居然被敌人压制住了……在找出还击的方法之前，我是不会休息的！",
-	propose = "你的想法，已经全部传达给我了。如果指挥官不嫌弃的话我当然也没问题哦~？既然如此，我也要再向指挥官告白一次才对吧？嘻嘻，这才叫彼此都要多多为了对方着想嘛♡",
-	expedition = "委托队已经在港口了。走吧，你的慰问对她们来说便是最大的鼓励哦~嘻嘻♪",
-	win_mvp = "我们正锐不可当地向着正确的方向航行——哼哼，大家都喜欢这样的感觉吧？",
-	home = "看下刚才的战斗报告吧~谁先说~？你先就好？那我就一边吃着冰激凌一边洗耳恭听咯~",
-	mission = "你接下了这个新任务吗？好，让我们一起解决掉吧。",
-	touch2 = "指挥官，你已经处于“被动”了哦，各种意义上的~",
+	feeling1 = "Ah, so you're the kind of person who makes girls cry. Yeah, you'd better feel bad about it.",
+	feeling3 = "Look at that, you're already starting to chat me up. So, what's on your mind today? Something a bit more technical? Small talk about daily life? ...Oh, you want me to choose?",
+	lose = "Unbelievable... I'm actually getting cornered?! ...I'm not gonna be able to sleep 'til I figure out how to set things straight!",
+	propose = "Commander, I can already hear everything you're thinking. As long as you're fine with it, I don't have any objections~ After all, I still owe you a proper confession, don't I? Hehe, don'tcha think that's what mutual love is supposed to look like?",
+	expedition = "Your commission fleet's back. Are your words of praise not the best reward you can give them? Hehe~♪",
+	win_mvp = "Course: steady! Objective: completed! Enemies who can stop us: none! Heheh, don'tcha love it when things go smoothly?",
+	home = "Wanna check the battle results~♪ Yeah? Who do you wanna start with? Oh, you'll do it yourself? I'll listen in while enjoying some ice cream over here.",
+	mission = "Did you already accept this mission? Sounds good, let's take care of it together.",
+	touch2 = "Commander, don'tcha just love being put on the defensive? In more ways than one~♪",
 	voice_key_2 = -1,
-	skill = "火控系统，瞄准目标！",
-	drop_descrip = "{namecode:201}级战列舰—{namecode:199}，舷号BB-62",
-	mail = "有新的邮件哦。哈哈，果然你很期待有人来信嘛～",
-	touch = "如果是有任务，我当然义不容辞。至于别的请求，可就要额外收点报酬了哦？开玩笑的~",
-	profile = "我是白鹰战列舰，最大最强的BlackDragon—{namecode:199}号。这可不是什么自夸哦，或者说，“世界最强”也不为过呢~只要充分认识我了，关于这个话题的疑虑你很快就会打消的~",
-	mission_complete = "既然重要的任务已经完成了，不如就休息一下吧？凡事都分下轻重缓急，会比较轻松哦？",
-	feeling4 = "嗯？你怎么一脸疲倦的样子……果然是超负荷工作了吧？来，躺这里，这次就让我照顾你吧。嗯哼…就把我的大腿当成你临时的枕头吧~”指挥官就喜欢这样的感觉吧~？",
-	unlock = "白鹰战列舰，最强最大的Black Dragon，{namecode:199}登场！见识下我的力量吧！开玩笑的~指挥官喜欢这样的感觉吗？",
-	feeling5 = "主动一点的{namecode:199}和被动一些的{namecode:199}，指挥官更喜欢哪一种呢？——停~我会在接下来的时间里慢慢确认的，所以不用急着回答~嘻嘻，指挥官就喜欢这种被吊着胃口的感觉吧~？",
-	main = "“{namecode:201}对{namecode:83}”么……确实是一个热门的话题呢。呵呵，人们就是热衷这样的，不是吗？|喜欢的饮料是果汁哦。青苹果汁、橙汁我都推荐，汽水的话也OK。咖啡…感觉不太行？|秘书舰该帮指挥官完成多少工作呢……我个人认为，40%吧。毕竟，如果我做了太多事的话，是不是就有些喧宾夺主了？|这件事……指挥官说的也有道理呢…那么接下来听听我的方案吧？|航空母舰的时代啊……那可不好说。既然航空母舰会发展，谁又说得清战列舰会有什么变化呢~|白鹰的“Big J”，最大最强的“Black Dragon”就是我啦！……唔，是不是有点太浮夸了？",
-	battle = "全员，一级战备！要上了哦！",
-	upgrade = "也许战列舰会过时，但{namecode:201}级可不会哦。",
+	skill = "Fire control, I'm counting on you!",
+	drop_descrip = "Iowa-class battleship – New Jersey, Hull Number BB-62.",
+	mail = "You've got new mail. Heh, dont'cha just love the anticipation~?",
+	touch = "I'll take any work-related requests, but anything outside of that... won't come cheap. Just kidding~♪",
+	profile = "I am battleship New Jersey, the indomitable Black Dragon of the Eagle Union. When I say \"indomitable,\" I'm not just tooting my own horn, hehe~♪ If you knew more about me, you'd know exactly what I'm talking about.",
+	mission_complete = "Since we already got the hard stuff out of the way, why not take a little break? It's gonna be pretty easy to prioritize whatever is left~",
+	feeling4 = "My my, look who's all run down today... I knew it, you've been overworking yourself. C'mere, lie down here and let me take care of you. Yeah, my thighs make for a pretty good pillow substitute huh? Don'tcha just love this kind of stuff~?",
+	unlock = "The indomitable Black Dragon of the Eagle Union is none other than me, New Jersey! You're about to witness true power! Haha, just messing~♪ Don'tcha just love flashy introductions?",
+	feeling5 = "Commander, would you prefer I take the lead, or would you rather do it? Hold up~ I'll see for myself when the time is right, so there's no need for you to answer in words. After all, don'tcha just love being toyed with~?",
+	main = "Iowa versus Yamato, huh? A real classic. Don'tcha just love that kind of stuff?|I go for the fruity stuff~ green apple, orange, and soda water. As for coffee... Not my favorite, I guess?|How much stuff should I be doing as your secretary? ...Lemme think, how does 40% sound? If I did everything, wouldn't that make me the commander? Heh.|About that matter... I must admit that you have a point, Commander. How about taking my suggestion next time though?|It's now the age of carriers? ...Dunno about that. If carriers are able to evolve, what's to say that battleships can't also evolve?|They call me Big J or the Black Dragon of the Eagle Union! ...What, got a problem with talking myself up a bit?",
+	battle = "Everyone, Level 1 combat readiness! Set sail!",
+	upgrade = "Some say that the age of battleships is over. They haven't met the Iowa class.",
 	voice_key = 10517,
-	headtouch = "摸完了吗？好，那就乖乖坐下，该轮到我摸了~",
-	feeling2 = "彼此疏远的话会心生顾虑啊，或许像这样……身体上的接触能让你放下心来？哼哼~这样就能更加亲近了不是吗？",
-	login = "欢迎回来。需要帮忙制定工作计划吗？或者，你对此已经胸有成竹了？",
+	headtouch = "Done having your fun yet? Hehe, now it's my turn~♪ Take a seat!",
+	feeling2 = "We'll only get in each other's way if we keep an ambivalent relationship. Say, don'tcha think getting touchy-feely might help break the ice? ...Just kidding~ See, you're already not as nervous~ Hehehe~♪",
+	login = "Glad you made it. Do you already have a plan for what you wanna do? And how do I factor into those plans?",
 	vote = "",
-	hp_warning = "不用慌，我已经想出控制局势的办法了。",
+	hp_warning = "I know just the thing to turn this situation around!",
 	id = 900354,
-	detail = "装备检查完毕，各系统运转正常，辛苦你了——啊，难道是看着迷了~？我倒是不介意？反正~指挥官就喜欢这样的吧~？嘻嘻~",
+	detail = "Thanks for finishing the equipment inspection. All systems nominal! ...Oh my, you seem to be unable to take your eyes off me~ Not that it bothers me though? Besides, don'tcha like this sort of stuff?",
 	couple_encourage = {
 		{
 			{
 				19902
 			},
 			1,
-			"口径更大的“{namecode:201}”？不，好像有点不同……",
+			"A large-caliber Iowa, you say? I'm not sure that's accurate...",
 			0
 		},
 		{
@@ -60480,7 +61297,7 @@ _G.pg.base.ship_skin_words[900354] = {
 				10738
 			},
 			2,
-			"航空战就拜托你们了。",
+			"I'll leave the skies to you.",
 			0
 		},
 		{
@@ -60488,7 +61305,7 @@ _G.pg.base.ship_skin_words[900354] = {
 				1
 			},
 			5,
-			"没有人能够阻挡我们的意志！",
+			"None may stand before our will!",
 			3
 		},
 		{
@@ -60497,7 +61314,7 @@ _G.pg.base.ship_skin_words[900354] = {
 				70505
 			},
 			1,
-			"哦？是意料之外的对手呢。有趣~",
+			"Hm? An unexpected competitor. How interesting~",
 			0
 		},
 		{
@@ -60505,7 +61322,7 @@ _G.pg.base.ship_skin_words[900354] = {
 				10706
 			},
 			1,
-			"白鹰的英雄啊，一直以来辛苦你了！",
+			"We salute you for fighting the good fight, hero of the Eagle Union!",
 			0
 		}
 	}
@@ -65779,7 +66596,27 @@ _G.pg.base.ship_skin_words[399010] = {
 	hp_warning = "A fight with our backs to the wall? ... Exactly what I wanted!",
 	id = 399010,
 	detail = "Milord, w-welcome... I wasn't able to prepare much for your arrival... but would you like some tea?",
-	couple_encourage = {}
+	couple_encourage = {
+		{
+			{
+				299010,
+				299020,
+				399010,
+				399020,
+				499010,
+				899010,
+				199010,
+				199020,
+				399030,
+				399040,
+				499020,
+				999010
+			},
+			1,
+			"Feeble though I may be... I shall give this my all!",
+			0
+		}
+	}
 }
 
 _G.pg.base.ship_skin_words[399011] = {
@@ -66934,7 +67771,7 @@ _G.pg.base.ship_skin_words[299030] = {
 				29901
 			},
 			1,
-			"You'll put people off if you try too hard, y'know!",
+			"Don't try too hard, or you'll put people off!",
 			0
 		},
 		{
@@ -66947,7 +67784,16 @@ _G.pg.base.ship_skin_words[299030] = {
 				30163
 			},
 			1,
-			"Yaaay! Can I fluff you please?",
+			"Yaaay! Can I floof you, please?",
+			0
+		},
+		{
+			{
+				10124,
+				10125
+			},
+			1,
+			"Yaaay! Victory is mine!",
 			0
 		},
 		{
@@ -66968,7 +67814,7 @@ _G.pg.base.ship_skin_words[299030] = {
 				19901
 			},
 			1,
-			"Yaaay, it's time to partyyyy!",
+			"Yaaay! It's time to partyyyy!",
 			0
 		}
 	}

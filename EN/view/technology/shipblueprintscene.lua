@@ -397,6 +397,11 @@ function slot0.switchHide(slot0)
 	setActive(slot0.nameTF, slot1)
 	setActive(slot0.stateInfo, slot1)
 	setActive(slot0.helpBtn, slot1)
+	setActive(slot0.exchangeBtn, slot1)
+	setImageAlpha(slot0.itemUnlockBtn, slot1 and 1 or 0)
+	setImageRaycastTarget(slot0.itemUnlockBtn, slot1)
+	setImageAlpha(slot0.speedupBtn, slot1 and 1 or 0)
+	setImageRaycastTarget(slot0.speedupBtn, slot1)
 end
 
 function slot0.switchState(slot0, slot1, slot2, slot3, slot4)

@@ -12,7 +12,7 @@ return {
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hey, this group of playthings is so fragile, please tell me you have more powerful ships waiting for us?",
+			say = "What, did I break your little toys already? Tell me you brought some tougher opponents for me to smash!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Washington... are you mocking our opponent again? Don’t forget why we’re out here in the first place.",
+			say = "Washington, now's not the time for that. Remember, we haven't finished our mission yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I’ve been trying to track our enemies on radar along the nearby sea area... but aside from the signal I’m getting from the Sirens, nothing else is out there...",
+			say = "I've been running my wide-range scan as far as it'll go, but it's not registering anything other than Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hey! “Mystery Man”!! Can you hear me then show yourself at once? There is a limit to my patience when playing hide and seek.",
+			say = "Heeeey! Whoever you are that defeated the Sirens! Come out already if you can hear me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Radar indicates that... more enemy ships are fast approaching our location...",
+			say = "Wait, hold on... More Sirens are rapidly closing in on us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Sigh, will we never get rid of these annoying pests?",
+			say = "Again? There's just no end to these gadflies, is there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Bring it on, let me use my 16-inch cannon to smash you into iron slags!!!",
+			say = "Bring it on!! My 16-inch cannons are gonna reduce you to steel slag!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

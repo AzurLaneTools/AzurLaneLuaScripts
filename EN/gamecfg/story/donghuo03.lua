@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "There’s no match in our database for Sirens... could this be a new model?",
+			say = "Is this... the new Siren prototype we encountered the other day?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "Interesting, it appears everything’s been destroyed and turned into ruin... and a new Siren has appeared, the plot thickens...",
+			say = "Interesting stuff, huh? An experimental site with a brand new Siren prototype gets completely destroyed. Almost sounds like a conspiracy if you ask me.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "In any case, we should take charge. Find out what is this Siren’s motives are and what she’s trying to do.",
+			say = "Whatever's going on, we have to seize the initiative and reveal the Sirens' objectives – ASAP.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

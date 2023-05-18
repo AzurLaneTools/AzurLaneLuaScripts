@@ -40,7 +40,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "Warning. Warning—— The 5th defense line has been broken—— Warning. Warning",
+			say = "Warning. Warning—— The 5th defensive line has been breached—— Warning. Warning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "Warning. Warning—— Fleet destruction rate exceeds 82%—— Warning. Warning",
+			say = "Warning. Warning—— Destruction of combat-operational units in excess of 82%—— Warning. Warning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "I tried to be gentle to this world, but didn't expect that hurt this world the most...",
+			say = "I wanted this world to be kinder, but in the end, that was my greatest folly... Even this power was no match for Them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "...Now, even if we borrow the power of the ocean, we still have no chance of defeating them...",
+			say = "In that case... For the sake of survival, I must make this world cruel. Cruel enough so that we can adapt, mutate, and survive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "This so-called “evolutionary” process is actually a process of natural selection. The harsher the environment gets, the stronger the survivors become. Until the strongest becomes \"Flawless\".",
+			say = "Under constant selective pressure, we will continue to evolve until finally, a specimen with the power to defeat Them is created.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "Survival of the fittest, natural selection.",
+			say = "Countless lives will be lost in the process, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "Did you see it? This is the tragic ending from your weakness——",
+			say = "Do you see it now? That is the price that must be paid because of human weakness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "Warning. Warning—— Second data center has encountered an accident—— Warning. Warning.",
+			say = "Warning. Warning—— A fire has broken out in the second data center—— Warning. Warning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "Warning. Warning—— Observation system front end has been damaged—— Warning. Warning",
+			say = "Warning. Warning—— Observation system front-end has been irreversibly damaged—— Warning. Warning",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "At least... in the end, we still have a chance to correct the error made in history...",
+			say = "Looks like this is it for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "...Lyn",
+			say = "My dear Zero...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "Reactivate the \"Inquisitor\" plan.",
+			say = "Carry out the plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "The future... no...",
+			say = "The future... No...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "Humanity’s past... is now in your hands.",
+			say = "Humanity's past... is now in your hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "—— Inquisitor.",
+			say = "––Magister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "So, at least for the very end, we should have beautiful fireworks for our curtain call——",
+			say = "Hah... At least, let me enjoy the fireworks to my curtain call––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

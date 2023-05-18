@@ -2475,6 +2475,8 @@ pg.skill_data_display = setmetatable({
 		1011522,
 		1011523,
 		1011711,
+		1011360,
+		1011361,
 		1090020,
 		1090042,
 		1090043,
@@ -2484,7 +2486,9 @@ pg.skill_data_display = setmetatable({
 		1090080,
 		1090090,
 		1090091,
-		1090092
+		1090092,
+		1090110,
+		1090111
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -12381,6 +12385,14 @@ pg.base.skill_data_display = {
 		id = 1011711,
 		name = "Dullahan+"
 	},
+	[1011360] = {
+		id = 1011360,
+		name = "Lunga Point's Strike+"
+	},
+	[1011361] = {
+		id = 1011361,
+		name = "Lunga Point's Strike+"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -12420,5 +12432,13 @@ pg.base.skill_data_display = {
 	[1090092] = {
 		id = 1090092,
 		name = "Fading Memories of Glory - Cavour"
+	},
+	[1090110] = {
+		id = 1090110,
+		name = "Torpedo Launch - Gneisenau"
+	},
+	[1090111] = {
+		id = 1090111,
+		name = "Torpedo Launch - Gneisenau"
 	}
 }

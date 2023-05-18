@@ -14,7 +14,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "\"Commander, there are so many stars tonight... could they all be different civilizations like you said?\"",
+			say = "I wonder... if all the stars in the night sky are the lights of different civilizations, just as you said...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			withoutPainting = true,
 			dir = 1,
 			blackBg = true,
-			say = "\"Could they be just like us? Do they eat food, play, and chit chat like us?\"",
+			say = "Could they be just like us... Laughing and crying together the same way humans do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "\"Yes, we are not alone in this universe after all.\"",
+			say = "That's right. We're not so alone in the universe after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			withoutPainting = true,
 			dir = 1,
 			blackBg = true,
-			say = "\"So, will we meet them? I have so many questions that I want to ask them...\"",
+			say = "...I see. Then, do you think I'll ever get a chance to meet them? There are so many things I'd like to ask.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "\"Yes, one day... we’ll meet them for sure.\"",
+			say = "One day, you will. I'm sure of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "\"You have to believe that humans are inherently enterprising. That is exactly why we gave you this name.\"",
+			say = "Just like the name given to you suggests, we humans will always keep forging ahead, no matter how tough the going gets. That's what it means to be enterprising.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "\"Actually... do you like this name?\"",
+			say = "Speaking of which, I don't think I've ever asked you, but... Enterprise, do you like your name?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "\"I do!\"",
+			say = "Yes, of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "\"Then...\"",
+			say = "Then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "\"Let’s make it a promise~\"",
+			say = "How about we make a promise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "The Memory module reader has been interrupted, trying to restart.",
+			say = "Memory module playback has been interrupted. Attempt to restart?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "…",
+			say = "I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,7 +15,7 @@ return {
 			blackBg = true,
 			actor = 900136,
 			stopbgm = true,
-			say = "“The Creator said to them, I recently saw Calamity fall from the sky, like a flash of lightning.”",
+			say = "“To them, the Great One spake: 'I saw Lucifer fall, like a bolt of lightning descending from the sky.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "Dearmweaver",
-			say = "“All those who followed its rebellion turned into the ugliest of images, but they all still retained their glowing wings.”",
+			say = "“Those who followed in rebellion were warped and twisted, but it is said that their fallen wings were not torn off.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "Dearmweaver",
-			say = "“The Creator cannot bear to see his most beloved work being sullied, to allow them to even glow from the depths of the Underworld.”",
+			say = "“That is because the Great One could not bear to see His most beloved work sullied, and thus allowed them to glow even from the depths of the Underworld.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "Dearmweaver",
-			say = "Humanity really likes to make things interesting...",
+			say = "Humans really do write the quaintest stories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actorName = "Dearmweaver",
 			dir = 1,
 			blackBg = true,
-			say = "But, the terminal currently does not possess the capability of fighting her...",
+			say = "But, Tester and Purifier... Indeed, these lower-level terminals do not have the ability to hold her back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actorName = "Dearmweaver",
 			dir = 1,
 			blackBg = true,
-			say = "Fine... next I will ask you all to take a trip to the “Underworld”...",
+			say = "In that case... I must ask you to descend into the \"Underworld\" to call forth those children.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actorName = "Dearmweaver",
 			dir = 1,
 			blackBg = true,
-			say = "The Tribunal",
+			say = "...My \"Arbiters.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

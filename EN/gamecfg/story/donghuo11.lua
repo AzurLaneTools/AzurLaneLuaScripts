@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "story-8",
 			dir = 1,
-			say = "The situation is not good... although we sink two new models... but there are still a lot of signals coming towards us.",
+			say = "Shoot... We're rapidly being surrounded by Siren forces! At this rate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...We seem to be completely surrounded.",
+			say = "Wait, we're already completely boxed in!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "When did the Sirens become so subtle in their tactics? To be able to perfectly predict our trajectory and surround us on our operations...",
+			say = "When did the Sirens get so good at reading our moves? I've never seen them coordinating so flawlessly before...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -61,7 +61,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Darn...if only South Dakota was here as well, then we could...",
+			say = "Goddamnit... If only South Dakota were here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "No matter what, let’s shoot our way out and carve out a blood-soaked path forward!",
+			say = "Urgh, that doesn't matter right now. We're gonna smash our way out – I sure as hell don't plan on becomin' cannon fodder here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Prepare all cannons, aim together with me at our opponent's flagship—— open fire!",
+			say = "Everyone, take aim at the large Siren battleship straight ahead of us! All guns, open fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "……————",
+			say = "KABOOM–––!!",
 			flash = {
 				delay = 0.3,
 				dur = 0.5,
@@ -128,7 +128,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "！！？？？？",
+			say = "Wh-what just happened?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "What happened...",
+			say = "What in the world was that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "The enemy fleet movement... within the surrounding waters... have completely disappeared.",
+			say = "The signals from the Sirens around us... are disappearing one after another!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "What’s happening... I obviously hit the biggest ship...",
+			say = "What's going on? I only shot at the ship right in front of us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "...a large number of air units were found on our airborne radar... but I can’t identify the model type.",
+			say = "My anti-air radar is going off like crazy! I'm detecting large numbers of unidentified aircraft!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "…You",
+			say = "Um, you guys...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Interesting, it’s been a while since I’ve encountered such a powerful Siren. Come and join me in a proper battle!",
+			say = "A new Siren?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "No one can escape from my MK3 radar, all guns, aim——",
+			say = "NOBODY sneaks up on me! Take this––!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wait!",
+			say = "Wait, Washington! Stop!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "The signal sent by this unit is consistent with the previous encrypted messages, but...",
+			say = "The reading I'm getting from this unit matches the previous encrypted messages, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "(The SG radar is completely unable to locate the unit… could it be malfunctioning?)",
+			say = "(My SG radar isn't picking up anything at all! Is this a malfunction of some sort...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "What the heck, so it turns out that you are the “Mystery Man”, such a sneaky appearance. You could’ve easily been injured by friendly fire.",
+			say = "...Heh, so you're the one who made mincemeat out of the Sirens? You've certainly got style – I dig that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "So, we are Eagle Union’s 16th Task Force, we received the mysterious signal from you and came to investigate—— Please identify yourself.",
+			say = "We're the Eagle Union’s 16th Task Force, and we came here to investigate after picking up your encrypted communication. Now, state your affiliation and intent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "You dare to ignore my question?",
+			say = "You're just gonna ignore my question like that?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 1,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "Tell me... the name of your Commander...",
+			say = "Tell me... the name of your Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Before confirming your identity, we have no obligation to answering your question. And what you asked is the highest of secrets.",
+			say = "Sorry, that's classified information. We're under no obligation to share that information with you until you identify yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			side = 1,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "...is that so (turns around)... then I will confirm it myself.",
+			say = "...So be it. I'll confirm it myself then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "This Siren base was destroyed by you alone? …Who are you...",
+			say = "Were you the one who destroyed the Siren base, alone? Just who are you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(Wait... this cloak?... Could it be!)",
+			say = "(Wait, that cloak, where have I seen it before... Could it be...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "E-Enterprise!",
+			say = "Enterprise?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			side = 1,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "No... you’re mistaken.",
+			say = "...You've got the wrong person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,23 +586,23 @@ return {
 					2
 				},
 				{
-					"<size=51>“Mankind, actually live a humble existence”</size>",
+					"<size=51>“We humans are so small, so fragile.”</size>",
 					4.5
 				},
 				{
-					"<size=51>“But, our small bodies are filled with infinite expectations and ideals.”</size>",
+					"<size=51>“But even these small bodies can harbor vast, boundless dreams.”</size>",
 					7
 				},
 				{
-					"<size=51>“We often put our own expectations and ideals and shape them to our desires, hoping they are eternal and powerful.”</size>",
+					"<size=51>“We work hard, study hard, and keep moving forward so that one day, we can become our ideal selves.”</size>",
 					9
 				},
 				{
-					"<size=51>“Once strong enough, they will replace our  ephemeral physical existence, and become an infinite spiritual sustenance.”</size> ",
+					"<size=51>“And if we cannot become our ideal selves, we entrust our dreams to those who are molded after us, and through them, our pride carries on.”</size> ",
 					12
 				},
 				{
-					"<size=51>“This is also the meaning to your name”</size>",
+					"<size=51>“That, is how humanity remains on the correct path. That, is the meaning of your name.”</size>",
 					14.5
 				}
 			}
@@ -611,15 +611,15 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>“But... one day, if mankind abandons our highest ideals, and embarks on a completely contrary path.”</size>",
+					"<size=51>“But, if one day, humanity casts aside its pride and chooses a path that is the exact opposite of our noble ideals...”</size>",
 					2.5
 				},
 				{
-					"<size=51>“Are you willing… </size>",
+					"<size=51>“Would you be willing....</size>",
 					5
 				},
 				{
-					"<size=51>... To help us correct the wrongdoings of the future?”</size>",
+					"<size=51>To help us correct the wrongdoings of the future?”</size>",
 					7
 				}
 			}

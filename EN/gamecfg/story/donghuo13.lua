@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "The SG radar is picking up something, it located the unknown Siren ship model.",
+			say = "My SG radar is picking up on something! Adding unidentified Siren hull type to the database!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "This is… a courier?",
+			say = "Is this... a transport vessel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "Oh? Do Sirens also have couriers? Hahahaha, this can also be considered a big catch. ",
+			say = "Hmm? Do Sirens also have transports? Ahahaha! How convenient for us then!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -60,7 +60,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Our opponent is trying to flee the battlefield, full speed ahead!",
+			say = "The transport is trying to flee from this area at high speeds!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hey, now that you’ve been found, there’s no chance you’ll escape! All ships maneuver to battle positions and start intercepting the enemy ships! Hehe, it’s about time we get to have a good workout.",
+			say = "Now that we've found it, we can't afford to let this opportunity slip away from us! Helena, have all our forces surround and capture that transport vessel!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hmm... talk about Siren technology... to be able to sail at such speed. It's not enough to rely on our artillery attacks alone...",
+			say = "As expected... That thing's got some crazy speed. We're not going to be able to corral it in with warning shots...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Well, luckily for us. Right before we set sail, I received a new batch of “toys” from Akashi. Hehe, it looks to be quite useful~",
+			say = "Luckily, we just happened to get some new toys from Akashi... Take a look at these influence mines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "A new toy? These are… mines?",
+			say = "Influence mines...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Correct. We can use these mines to block our opponent’s escape route. This way, we can ensure that nothing will slip through our fingers~",
+			say = "That's right. By laying these, we can block off the enemy's escape route and force it into our waiting arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hehe, this is getting more and more interesting! Ok, let’s have ourselves a happy little chase!",
+			say = "Now that sounds more like it! What's a hunt without some excitement?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

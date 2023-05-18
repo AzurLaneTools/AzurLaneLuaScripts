@@ -35,7 +35,7 @@ return {
 			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
-			say = "Congratulations, you have eliminated all of your opponents, you have achieved victory for this round~~",
+			say = "Congratulations~ You've defeated all the enemies, which makes you the winner of this round~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
-			say = "After all, this was “Key Point G” we’re dealing with. They “saved the world”, again~ Hehehe.",
+			say = "As expected of you, Code G. Once again, you've saved the world with hardly a hitch. Heehe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			nameColor = "#D6341DFF",
 			dir = 1,
 			blackBg = true,
-			say = "...Are you being ironic with me?",
+			say = "...Are you mocking me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
-			say = "We would not dare, after all, you are the “key” to our Creator.",
+			say = "We wouldn't dare. After all, you are the connection node to the \"wedge\" of history ordained by the Creator–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
-			say = "After all, we have been molded to your reflect you, \"Flawless\"... more or less... hehehe.",
+			say = "After all, we are all more or less molded from your \"factor.\" To treat our prototype with disrespect would be unbecoming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
-			say = "So, as per our agreement, will you allow us to conduct another round of “game”, what is your choice?",
+			say = "Now, as per our agreement, we shall reset the board and allow you to play another round of this \"game.\" What will your decision be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			nameColor = "#D6341DFF",
 			dir = 1,
 			blackBg = true,
-			say = "No matter how many times... My choice will always be the same...",
+			say = "I will keep going... Now matter how many times it takes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			nameColor = "#D6341DFF",
 			dir = 1,
 			blackBg = true,
-			say = "Until... I find that person ——",
+			say = "Until I find that person––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

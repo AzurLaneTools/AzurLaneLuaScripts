@@ -187254,6 +187254,28 @@ _G.pg.base.item_data_statistics[59412] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59413] = {
+	display = "Used to exchange for a portrait frame. Removed after the event ends.",
+	name = "Training Points",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_d",
+	id = 59413,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",
@@ -202564,59 +202586,6 @@ _G.pg.base.item_data_statistics[70143] = {
 	icon = "Props/doa_collect",
 	id = 70143,
 	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {}
-}
-
-_G.pg.base.item_data_statistics[70144] = {
-	display = "Can be redeemed for one of the following characters: Marie Rose, Honoka, Kasumi, Misaki, Nagisa, or Monica. <color=#ff5c5c>Will be removed after May 17th, 11:59 PM. (UTC-7).</color>",
-	name = "Venus Exchange Ticket",
-	max_num = 0,
-	type = 13,
-	time_limit = 1,
-	rarity = 4,
-	shop_id = -1,
-	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
-	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
-	icon = "Props/70144",
-	id = 70144,
-	display_icon = {
-		{
-			4,
-			10600011,
-			1
-		},
-		{
-			4,
-			10600021,
-			1
-		},
-		{
-			4,
-			10600031,
-			1
-		},
-		{
-			4,
-			10600041,
-			1
-		},
-		{
-			4,
-			10600051,
-			1
-		},
-		{
-			4,
-			10600071,
-			1
-		}
-	},
 	price = {},
 	index = {},
 	shiptrans_id = {}

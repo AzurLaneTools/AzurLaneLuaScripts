@@ -10,7 +10,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "The SG radar has spotted numerous incoming signals. Enemy units increasing!",
+			say = "I'm seeing more enemy readings on my SG radar! Their ranks seem to only be growing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "Didn't expect there to be so many Sirens...",
+			say = "How in the world did so many Sirens make their way here...?!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -44,7 +44,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "It seems they are trying to overwhelm us with sheer numbers.",
+			say = "Looks like they're trying to overwhelm us with sheer numbers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hmm, it seems we'll have a tough fight ahead of us in order to breakthrough these Sirens.",
+			say = "They're not gonna give us an easy opportunity to break through their defensive line either...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "The hell with it, let's sink these Sirens before we run out of ammo. Ready your guns and maintain formation!",
+			say = "To hell with it! Let's send as many of these Sirens as we can to the bottom of the sea before we run out of ammo!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wait, the number of enemies is... suddenly dropping!",
+			say = "Hold on! The enemy readings are rapidly decreasing one after another!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "A large number of air units were spotted on our airborne radar... but I can’t identify the model type!",
+			say = "I see it too! I'm getting a large number of readings from my anti-air radar! ...But, whose planes are those?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

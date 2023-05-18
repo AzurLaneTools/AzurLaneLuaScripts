@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I just received a strange encrypted message... source unknown... trying to decrypt now...",
+			say = "I've just received a strange encrypted communication via friendly channels! I can't determine who it originated from, but... I can decypher it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "You can receive a signal from our allies at this place? Could it be a trap...",
+			say = "A message from our allies, here of all places? Are you sure it's not a trap?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "The encrypted message is full of incomprehensible words... the only confirmed word is “Falling”... Fallen?",
+			say = "I see something about... Falling? Fallen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I can’t make heads or tails of what this means...",
+			say = "What does that even mean...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "First the hide and seek, now comes all these puzzles? This “Mystery Man” sure loves to toy with us.",
+			say = "First, hide and seek, and now, riddles? Looks like our mystery person over here likes to play games.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "Why don’t we just sniff him out with our firepower and give him a good shelling? After that, he will answer all our questions out of the kindness of his “good heart”, hehehe.",
+			say = "My 16-inchers know exactly how to deal with someone who can't give us a straight answer. Isn't that right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...In any case, let’s report our current findings back to HQ. It’s such a headache dealing with these new models.",
+			say = "...Let's not worry about that for now. Why don't we report back on what we've found so far? I'm not too keen on fighting any more of these new enemies...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I’ve already reported back to headquarters immediately after our findings.",
+			say = "Don't worry. I've already contacted HQ.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Miss Helena, you’re as reliable as ever~",
+			say = "Heehee. As reliable as ever, Helena~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Now, let’s continue moving forward towards the source of that signal.",
+			say = "Now then, let's find the source of the signal. You don't have a problem with that, do you, Washington?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
