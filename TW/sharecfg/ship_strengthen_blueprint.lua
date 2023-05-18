@@ -13380,6 +13380,162 @@ pg.ship_strengthen_blueprint = {
 			"主炮效率提高15%"
 		}
 	},
+	[1431] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 31,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "幸運+3",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1431,
+		need_exp = 200,
+		effect_preload = "",
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[1432] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 32,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "幸運+4",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1432,
+		need_exp = 300,
+		effect_preload = "",
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[1433] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 33,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "幸運+5|【斷罪之炎】技能強化為【斷罪之炎 +】",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1433,
+		need_exp = 400,
+		effect_preload = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19300,
+			18300
+		}
+	},
+	[1434] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 34,
+		effect_breakout = 0,
+		need_lv = 70,
+		effect_desc = "幸運+6",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1434,
+		need_exp = 500,
+		effect_preload = "",
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				6
+			}
+		}
+	},
+	[1435] = {
+		effect_equipment_proficiency = "",
+		effect_dialog = "",
+		lv = 35,
+		effect_breakout = 0,
+		need_lv = 100,
+		effect_desc = "幸運+7|【勇鬥的Privateer】技能強化為【勇鬥的Privateer +】",
+		extra_desc = "",
+		effect_skill = "",
+		effect_base = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1435,
+		need_exp = 750,
+		effect_preload = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				7
+			}
+		},
+		change_skill = {
+			19290,
+			18290
+		}
+	},
 	[1501] = {
 		effect_equipment_proficiency = "",
 		effect_skill = "",
@@ -25038,6 +25194,11 @@ pg.ship_strengthen_blueprint = {
 		1428,
 		1429,
 		1430,
+		1431,
+		1432,
+		1433,
+		1434,
+		1435,
 		1501,
 		1502,
 		1503,

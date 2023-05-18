@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"意外的旅途\n\n<size=45>四 抉择</size>",
+					"意外的旅途\n\n<size=45>四 抉擇</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "斯卡帕湾地下设施的某处，君主正像往常一样巡逻着。",
+			say = "斯卡帕灣地下設施的某處，君主正像往常一樣巡邏著。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "与斯卡帕湾外部盛大的庆典装饰相比，设施中的情况就只能用清冷来形容了。",
+			say = "與斯卡帕灣外部盛大的慶典裝飾相比，設施中的情況就只能用清冷來形容了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到庆典活动因为塞壬的袭击终止了……",
+			say = "沒想到慶典活動因為塞壬的襲擊終止了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是难以理解，明明让我去前线战斗就好了。",
+			say = "真是難以理解，明明讓我去前線戰鬥就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为什么要日复一日的在这种地方训练与配合科研工作……",
+			say = "為什麼要日復一日的在這種地方訓練與配合科研工作……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在经过某处设施得时候，君主听到了对话的声音。",
+			say = "在經過某處設施的時候，君主聽到了對話的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "……可我一直忘不了大型作战中大家充满精神的面容……",
+			say = "……可是我一直忘不了大型作戰中大家充滿精神的面容……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "……频率正在加大，这是你的身体状况依然在恶化的表现……",
+			say = "……頻率正在加大，這是你的身體狀況依然在惡化的表現……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么……？",
+			say = "什麼……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然经过厚重的墙壁，声音传到君主耳中时已经难以分辨说话人的身份和对话的全部内容了。",
+			say = "雖然經過厚重的牆壁，聲音傳到君主耳中時已經難以分辨說話人的身份和對話的全部內容了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,38 +214,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "但是她依然立刻明白了正在发生的事。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 299020,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "胡德女士，又来治疗了啊……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "熟悉的场景，熟悉的对话，以及熟悉的人。这已经不是胡德第一次造访此处了。",
+			say = "但是她依然立刻明白了正在發生的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +231,21 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然知道胡德女士因为身体状况恶化需要定期来这里修养。",
+			say = "胡德女士，又來治療了啊……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "熟悉的場景，熟悉的對話，以及熟悉的人。這已經不是胡德第一次造訪此處了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +262,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但没想到，她的情况竟然已经恶化到这种程度了……",
+			say = "雖然知道胡德女士因為身體狀況惡化需要定期來這裡修養。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 299020,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "但沒想到，她的情況竟然已經惡化到這種程度了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "屋内的对话还在继续。",
+			say = "屋內的對話還在繼續。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "……我们有几处未经验证的备选坐标，虽然也有赌一把强行启动的选项……",
+			say = "……我們有幾處未經驗證的備選座標，雖然也有賭一把強行啟動的選項……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "……但是贸然前往风险未知的世界可能会因为事故导致探索队的全灭……",
+			say = "……但是貿然前往風險未知的世界可能會因為事故導致探索隊的全滅……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "……因为自己的事让同伴深入险境，胡德是绝对不会同意这个方案的……",
+			say = "……因為自己的事讓同伴深入險境，胡德是絕對不會同意這個方案的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "……不论如何，我绝对不能允许眼睁睁的看着胡德离开我们……",
+			say = "……不論如何，我絕對不能允許眼睜睜的看著胡德離開我們……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
-			say = "……让我再想想，再想想…………",
+			say = "……讓我再想想，再想想…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵……这不是还有方案么。",
+			say = "呵……這不是還有方案嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愿意因为自己的事让同伴深入险境？",
+			say = "不願意因為自己的事讓同伴深入險境？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对于不曾被外界知晓，也没有被当成同伴的我来说，这不是最适合的工作么？",
+			say = "對於不曾被外界知曉，也沒有被當成同伴的我來說，這不是最適合的工作嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……不论皇家如何对我，我对皇家的感情都不会改变。",
+			say = "……不論皇家如何對我，我對皇家的感情都不會改變。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "畏手畏脚，优柔寡断，成何体统……",
+			say = "畏手畏腳，優柔寡斷，成何體統……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家海军的荣耀，就让我君主来拯救吧……",
+			say = "皇家海軍的榮耀，就讓我君主來拯救吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "屋内的对话还在继续，但是君主像是下定了什么决心一般，转身离去了。",
+			say = "屋內的對話還在繼續，但是君主像是下定了什麼決心一般，轉身離去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

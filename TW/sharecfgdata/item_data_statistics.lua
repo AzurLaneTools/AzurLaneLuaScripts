@@ -150664,6 +150664,28 @@ _G.pg.base.item_data_statistics[59309] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59311] = {
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_yv3",
+	id = 59311,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59318] = {
 	display = "用於『奶油餅乾要夾心！』活動提升角色好感，活動結束後將會消失",
 	name = "奶油餅乾",
@@ -161744,59 +161766,6 @@ _G.pg.base.item_data_statistics[70143] = {
 	icon = "Props/doa_collect",
 	id = 70143,
 	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {}
-}
-
-_G.pg.base.item_data_statistics[70144] = {
-	display = "<color=#ff5c5c>5.18維護後道具將會刪除。</color>可從「瑪莉·蘿絲」、「穗香」、「霞」、「海咲」、「凪咲」與「莫妮卡」中自行選擇一位角色進行兌換。",
-	name = "「假日航線」角色自選",
-	max_num = 0,
-	type = 13,
-	time_limit = 1,
-	rarity = 4,
-	shop_id = -1,
-	replace_item = 0,
-	drop_gold_max = 0,
-	drop_oil_max = 0,
-	link_id = 0,
-	virtual_type = 0,
-	is_world = 0,
-	icon = "Props/70144",
-	id = 70144,
-	display_icon = {
-		{
-			4,
-			10600011,
-			1
-		},
-		{
-			4,
-			10600021,
-			1
-		},
-		{
-			4,
-			10600031,
-			1
-		},
-		{
-			4,
-			10600041,
-			1
-		},
-		{
-			4,
-			10600051,
-			1
-		},
-		{
-			4,
-			10600071,
-			1
-		}
-	},
 	price = {},
 	index = {},
 	shiptrans_id = {}

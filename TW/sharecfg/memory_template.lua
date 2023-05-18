@@ -1678,6 +1678,11 @@ pg.memory_template = setmetatable({
 		2067,
 		2068,
 		2069,
+		2115,
+		2116,
+		2117,
+		2118,
+		2119,
 		2181,
 		2182,
 		2183,
@@ -20217,6 +20222,61 @@ pg.base.memory_template = {
 		story = "AIDINGBAO7",
 		id = 2069,
 		icon = "memory_aidingbao",
+		is_open = 0
+	},
+	[2115] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-德雷克",
+		condition = "對應艦船科研等級達到30級",
+		story = "LUCK29904",
+		id = 2115,
+		icon = "memory_jhdeleike",
+		is_open = 0
+	},
+	[2116] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "慶典",
+		condition = "解鎖「意外的旅途」DAY1",
+		story = "YIWAIDEGUITU1",
+		id = 2116,
+		icon = "memory_YIWAIDEGUITU",
+		is_open = 0
+	},
+	[2117] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "昏沉",
+		condition = "解鎖「意外的旅途」DAY3",
+		story = "YIWAIDEGUITU2",
+		id = 2117,
+		icon = "memory_YIWAIDEGUITU",
+		is_open = 0
+	},
+	[2118] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "泥沼",
+		condition = "解鎖「意外的旅途」DAY5",
+		story = "YIWAIDEGUITU3",
+		id = 2118,
+		icon = "memory_YIWAIDEGUITU",
+		is_open = 0
+	},
+	[2119] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "抉擇",
+		condition = "解鎖「意外的旅途」DAY6",
+		story = "YIWAIDEGUITU4",
+		id = 2119,
+		icon = "memory_YIWAIDEGUITU",
 		is_open = 0
 	},
 	[2181] = {

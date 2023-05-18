@@ -18167,48 +18167,6 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
-	[70144] = {
-		usage = "usage_drop_appointed",
-		display_effect = "",
-		other_resource_cost = "[]",
-		other_item_cost = "[]",
-		id = 70144,
-		compose_number = 0,
-		limit = "[]",
-		target_id = 0,
-		usage_arg = {
-			{
-				4,
-				10600011,
-				1
-			},
-			{
-				4,
-				10600021,
-				1
-			},
-			{
-				4,
-				10600031,
-				1
-			},
-			{
-				4,
-				10600041,
-				1
-			},
-			{
-				4,
-				10600051,
-				1
-			},
-			{
-				4,
-				10600071,
-				1
-			}
-		}
-	},
 	[80002] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -20184,7 +20142,6 @@ pg.item_data_template = {
 		61001,
 		70051,
 		70052,
-		70144,
 		80002,
 		80004,
 		80015,

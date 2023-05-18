@@ -104,6 +104,7 @@ pg.memory_group = setmetatable({
 		211,
 		212,
 		213,
+		216,
 		220,
 		221,
 		227,
@@ -270,7 +271,8 @@ pg.base.memory_group = {
 			1732,
 			1733,
 			1734,
-			1735
+			1735,
+			2115
 		}
 	},
 	[99] = {
@@ -2312,6 +2314,19 @@ pg.base.memory_group = {
 		memories = {
 			2061,
 			2062
+		}
+	},
+	[216] = {
+		icon = "title_event",
+		subtype = 1,
+		type = 2,
+		id = 216,
+		title = "意外的旅途",
+		memories = {
+			2116,
+			2117,
+			2118,
+			2119
 		}
 	},
 	[220] = {

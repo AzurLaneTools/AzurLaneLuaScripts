@@ -60357,6 +60357,44 @@ _G.pg.base.task_data_template[14679] = {
 	}
 }
 
+_G.pg.base.task_data_template[14680] = {
+	name = "『限界挑战11』-积分任务",
+	guild_coin_award = 0,
+	award = 91200,
+	type = 6,
+	desc = "PT",
+	count_inherit = 0,
+	sub_type = 103,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 14680,
+	target_num = 8800,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			14,
+			211,
+			1
+		}
+	}
+}
+
 _G.pg.base.task_data_template[14730] = {
 	name = "『法系复刻活动』-日常建造",
 	guild_coin_award = 0,

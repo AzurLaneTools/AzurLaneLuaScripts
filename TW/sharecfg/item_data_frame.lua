@@ -135,6 +135,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「限界挑戰」獲得（2023.2.16-2023.5.14）",
 		scene = {}
 	},
+	[211] = {
+		time_limit_type = 0,
+		name = "限界的挑戰者XI",
+		gain_by = "",
+		id = 211,
+		time_second = 0,
+		desc = "<color=#ffffff>獻給所有勇於挑戰極限的指揮官們</color>\n通過參與「限界挑戰」獲得（2023.5.18-2023.8.13）",
+		scene = {}
+	},
 	[300] = {
 		time_limit_type = 1,
 		name = "召集者",
@@ -297,6 +306,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff><size=24>「對在極地任務中做出卓越貢獻的同志致以最崇高的敬意，歡迎回家！」</size></color>\n「深度回音」活動獲取",
 		scene = {}
 	},
+	[320] = {
+		time_limit_type = 0,
+		name = "泠誓之庭",
+		gain_by = "泠誓光庭",
+		id = 320,
+		time_second = 0,
+		desc = "<color=#ffffff>「即使歷經時間與戰火的磨損，曾經的誓言依舊如恆星般閃耀」</color>\n「泠誓光庭」活動獲取",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂紀念：企業",
@@ -367,6 +385,7 @@ pg.item_data_frame = {
 		208,
 		209,
 		210,
+		211,
 		300,
 		301,
 		302,
@@ -385,6 +404,7 @@ pg.item_data_frame = {
 		316,
 		317,
 		318,
+		320,
 		401,
 		402,
 		414,

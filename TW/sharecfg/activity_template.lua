@@ -26455,6 +26455,361 @@ pg.activity_template = {
 			17587
 		}
 	},
+	[41160] = {
+		mark = 20230518,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 41160,
+		config_data = {
+			14680
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41161] = {
+		mark = 20230518,
+		title_res_tag = "",
+		page_info = "",
+		type = 24,
+		login_pop = 0,
+		config_id = 41162,
+		is_show = 0,
+		config_client = "",
+		id = 41161,
+		config_data = {
+			11
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			},
+			1,
+			1,
+			{
+				times,
+				13
+			}
+		}
+	},
+	[41162] = {
+		mark = 20230518,
+		title_res_tag = "",
+		page_info = "",
+		type = 37,
+		login_pop = 0,
+		config_id = 11,
+		is_show = 0,
+		config_client = "",
+		id = 41162,
+		config_data = {
+			41160
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41163] = {
+		mark = 20230518,
+		id = 41163,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 15,
+		is_show = 30,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DrakeTecCatchupPage",
+			ui_name = "DrakeTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42022
+		}
+	},
+	[41164] = {
+		mark = 20230518,
+		config_client = "",
+		title_res_tag = "Wuqitianyun",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 31,
+		id = 41164,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DeLeiKeFittingDisplayPage",
+			ui_name = "DeLeiKeFittingDisplayPage"
+		}
+	},
+	[41165] = {
+		mark = 20230518,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 18,
+		is_show = 0,
+		config_client = "",
+		id = 41165,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41166] = {
+		mark = 20230518,
+		config_client = "",
+		title_res_tag = "yingxiV3_frame",
+		type = 87,
+		login_pop = 0,
+		config_id = 41166,
+		is_show = 33,
+		id = 41166,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YingxiV3FramePage",
+			ui_name = "YingxiV3FramePage"
+		}
+	},
+	[41168] = {
+		mark = 20230518,
+		id = 41168,
+		title_res_tag = "yingxiV3_victory",
+		type = 74,
+		login_pop = 0,
+		config_id = 41168,
+		is_show = 32,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YingxiV3VictoryPtPage",
+			ui_name = "YingxiV3VictoryPtPage"
+		},
+		config_client = {
+			story = {
+				{
+					"YIWAIDEGUITU1"
+				},
+				{},
+				{
+					"YIWAIDEGUITU2"
+				},
+				{},
+				{
+					"YIWAIDEGUITU3"
+				},
+				{
+					"YIWAIDEGUITU4"
+				}
+			}
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		time = "stop",
@@ -29333,6 +29688,14 @@ pg.activity_template = {
 		41150,
 		41151,
 		41152,
+		41160,
+		41161,
+		41162,
+		41163,
+		41164,
+		41165,
+		41166,
+		41168,
 		45000,
 		45001,
 		45002,

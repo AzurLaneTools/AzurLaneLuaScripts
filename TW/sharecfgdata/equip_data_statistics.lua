@@ -16198,6 +16198,132 @@ _G.pg.base.equip_data_statistics[3551] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[3560] = {
+	type = 10,
+	name = "破損的演講稿",
+	speciality = "无",
+	tech = 0,
+	value_2 = 6,
+	ammo = 10,
+	nationality = 2,
+	descrip = "一份破損的演講稿，可以從密集的批註上看到精心準備的痕跡",
+	rarity = 4,
+	attribute_1 = "hit",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3560,
+	icon = "3560",
+	value_1 = "10",
+	attribute_2 = "dodge",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		6950
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3561] = {
+	id = 3561,
+	value_2 = 7,
+	value_1 = "11",
+	base = 3560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3562] = {
+	id = 3562,
+	value_2 = 7,
+	value_1 = "12",
+	base = 3560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3563] = {
+	id = 3563,
+	value_2 = 8,
+	value_1 = "13",
+	base = 3560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3564] = {
+	id = 3564,
+	value_2 = 9,
+	value_1 = "14",
+	base = 3560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3565] = {
+	id = 3565,
+	value_2 = 10,
+	value_1 = "15",
+	base = 3560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3566] = {
+	id = 3566,
+	value_2 = 11,
+	value_1 = "16",
+	base = 3560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3567] = {
+	id = 3567,
+	value_2 = 12,
+	value_1 = "17",
+	base = 3560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3568] = {
+	id = 3568,
+	value_2 = 13,
+	value_1 = "18",
+	base = 3560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3569] = {
+	id = 3569,
+	value_2 = 14,
+	value_1 = "19",
+	base = 3560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3570] = {
+	id = 3570,
+	value_2 = 15,
+	value_1 = "20",
+	base = 3560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3571] = {
+	value_2 = 16,
+	anti_siren = 100,
+	base = 3560,
+	id = 3571,
+	value_1 = "21",
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[3680] = {
 	tech = 1,
 	name = "12磅長管炮",
