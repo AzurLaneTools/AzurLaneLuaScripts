@@ -4449,7 +4449,18 @@ function temp()
 						this = true
 					},
 					["6"] = {
-						this = true
+						this = true,
+						[" "] = {
+							M = {
+								E = {
+									T = {
+										A = {
+											this = true
+										}
+									}
+								}
+							}
+						}
 					}
 				},
 				["2"] = {
@@ -7950,6 +7961,17 @@ function temp()
 													}
 												}
 											}
+										},
+										["."] = {
+											M = {
+												E = {
+													T = {
+														A = {
+															this = true
+														}
+													}
+												}
+											}
 										}
 									}
 								}
@@ -9009,6 +9031,15 @@ function temp()
 						this = true
 					}
 				}
+			},
+			m = {
+				a = {
+					k = {
+						i = {
+							this = true
+						}
+					}
+				}
 			}
 		},
 		o = {
@@ -9081,6 +9112,33 @@ function temp()
 						t = {
 							e = {
 								this = true
+							}
+						}
+					}
+				},
+				a = {
+					l = {
+						[" "] = {
+							B = {
+								u = {
+									l = {
+										i = {
+											n = {
+												[" "] = {
+													M = {
+														K = {
+															I = {
+																I = {
+																	this = true
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
 							}
 						}
 					}
@@ -10078,7 +10136,18 @@ function temp()
 						r = {
 							c = {
 								k = {
-									this = true
+									this = true,
+									[" "] = {
+										Z = {
+											w = {
+												e = {
+													i = {
+														this = true
+													}
+												}
+											}
+										}
+									}
 								}
 							}
 						}
@@ -10547,6 +10616,27 @@ function temp()
 											}
 										}
 									}
+								},
+								F = {
+									o = {
+										r = {
+											m = {
+												i = {
+													d = {
+														a = {
+															b = {
+																l = {
+																	e = {
+																		this = true
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
 								}
 							}
 						}
@@ -10696,6 +10786,13 @@ function temp()
 							this = true
 						}
 					}
+				}
+			}
+		},
+		u = {
+			n = {
+				a = {
+					this = true
 				}
 			}
 		}
@@ -11578,6 +11675,23 @@ function temp()
 						}
 					}
 				}
+			},
+			g = {
+				e = {
+					n = {
+						s = {
+							b = {
+								u = {
+									r = {
+										g = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		o = {
@@ -11814,6 +11928,11 @@ function temp()
 					s = {
 						this = true
 					}
+				}
+			},
+			d = {
+				e = {
+					this = true
 				}
 			}
 		},
@@ -12058,7 +12177,26 @@ function temp()
 				s = {
 					o = {
 						n = {
-							this = true
+							this = true,
+							[" "] = {
+								R = {
+									e = {
+										t = {
+											r = {
+												o = {
+													f = {
+														i = {
+															t = {
+																this = true
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -13056,6 +13194,45 @@ function temp()
 					this = true
 				}
 			}
+		},
+		t = {
+			t = {
+				o = {
+					[" "] = {
+						v = {
+							o = {
+								n = {
+									[" "] = {
+										A = {
+											l = {
+												v = {
+													e = {
+														n = {
+															s = {
+																l = {
+																	e = {
+																		b = {
+																			e = {
+																				n = {
+																					this = true
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -13209,7 +13386,18 @@ function temp()
 				t = {
 					a = {
 						l = {
-							this = true
+							this = true,
+							[" "] = {
+								M = {
+									E = {
+										T = {
+											A = {
+												this = true
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}

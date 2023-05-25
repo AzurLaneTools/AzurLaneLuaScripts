@@ -58,6 +58,20 @@ function slot0.initScrollRect(slot0, slot1, slot2, slot3)
 				uv1:confirm(uv0.goods)
 			end
 		end, SFX_PANEL)
+		onButton(uv0, slot1.viewBtn, function ()
+			if not uv0.goods:isChargeType() then
+				return
+			end
+
+			slot0 = uv0.goods:GetSkinProbability()
+			slot1 = getProxy(ShipSkinProxy):GetProbabilitySkins(slot0)
+
+			if #slot0 <= 0 or #slot0 ~= #slot1 then
+				uv1:emit(BaseUI.ON_DROP, uv0.goods:GetSkinProbabilityItem())
+			else
+				uv1:emit(ChargeMediator.VIEW_SKIN_PROBABILITY, uv0.goods.id)
+			end
+		end, SFX_PANEL)
 
 		uv0.chargeCardTable[slot0] = slot1
 	end

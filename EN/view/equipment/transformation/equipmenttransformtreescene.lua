@@ -158,7 +158,7 @@ function slot0.InitPage(slot0)
 end
 
 function slot0.UpdateNations(slot0)
-	slot0.nationToggles = slot0.Clone2Full(slot0.nationToggleGroup, #uv0.GetSortKeys(slot0.env.nationsTree))
+	slot0.nationToggles = CustomIndexLayer.Clone2Full(slot0.nationToggleGroup, #uv0.GetSortKeys(slot0.env.nationsTree))
 
 	for slot5 = 1, #slot0.nationToggles do
 		slot6 = slot0.nationToggles[slot5]
@@ -202,7 +202,7 @@ function slot0.UpdateNations(slot0)
 end
 
 function slot0.UpdateEquipmentTypes(slot0)
-	slot0.equipmentTypeToggles = slot0.Clone2Full(slot0.equipmentTypeToggleGroup, #uv0.GetSortTypes(slot0.env.nationsTree[slot0.contextData.nation]))
+	slot0.equipmentTypeToggles = CustomIndexLayer.Clone2Full(slot0.equipmentTypeToggleGroup, #uv0.GetSortTypes(slot0.env.nationsTree[slot0.contextData.nation]))
 
 	for slot5 = 1, #slot0.equipmentTypeToggles do
 		slot6 = slot0.equipmentTypeToggles[slot5]
@@ -440,29 +440,6 @@ function slot0.willExit(slot0)
 	end
 
 	slot0.loader:Clear()
-end
-
-function slot0.Clone2Full(slot0, slot1)
-	slot2 = {}
-	slot3 = slot0:GetChild(0)
-
-	for slot8 = 0, slot0.childCount - 1 do
-		table.insert(slot2, slot0:GetChild(slot8))
-	end
-
-	for slot8 = slot4, slot1 - 1 do
-		table.insert(slot2, tf(cloneTplTo(slot3, slot0)))
-	end
-
-	for slot8 = 0, slot0.childCount - 1 do
-		setActive(slot0:GetChild(slot8), slot8 < slot1)
-	end
-
-	for slot8 = slot4, slot1 + 1, -1 do
-		table.remove(slot2)
-	end
-
-	return slot2
 end
 
 return slot0

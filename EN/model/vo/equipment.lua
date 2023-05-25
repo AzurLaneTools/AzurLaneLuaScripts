@@ -289,87 +289,86 @@ end
 function slot0.GetWeaponInfo(slot0, slot1, slot2, slot3)
 	slot4 = slot3 and pg.weapon_property[slot2].bullet_ID[1] or slot2
 
-	switch(slot1, {
+	return switch(slot1, {
 		function ()
-			uv0 = {
-				name = i18n("equip_ammo_type_" .. uv1.config[AttributeType.Ammo])
+			return {
+				name = i18n("equip_ammo_type_" .. uv0.config[AttributeType.Ammo])
 			}
 		end,
 		function ()
-			uv0 = {
-				name = pg.weapon_property[uv1].name
+			return {
+				name = pg.weapon_property[uv0].name
 			}
 		end,
 		function ()
-			uv0 = {
+			return {
 				type = AttributeType.Damage,
-				value = pg.weapon_property[uv1].damage
+				value = pg.weapon_property[uv0].damage
 			}
 		end,
 		function ()
-			uv0 = {
+			return {
 				name = i18n("equip_info_6"),
-				value = pg.bullet_template[uv1].velocity
+				value = pg.bullet_template[uv0].velocity
 			}
 		end,
 		function ()
-			uv0 = {
+			return {
 				name = i18n("equip_info_7"),
-				value = pg.bullet_template[uv1].velocity
+				value = pg.bullet_template[uv0].velocity
 			}
 		end,
 		function ()
 			slot0 = pg.bullet_template[uv0].damage_type
-			uv1 = {
+
+			return {
 				name = i18n("equip_info_8"),
 				value = slot0[1] * 100 .. "-" .. slot0[2] * 100 .. "-" .. slot0[3] * 100
 			}
 		end,
 		function ()
-			uv0 = {
+			return {
 				name = i18n("equip_info_9"),
-				value = pg.bullet_template[uv1].hit_type.range
+				value = pg.bullet_template[uv0].hit_type.range
 			}
 		end,
 		function ()
-			uv0 = {
+			return {
 				name = i18n("equip_info_10"),
-				value = pg.weapon_property[uv1].range
+				value = pg.weapon_property[uv0].range
 			}
 		end,
 		function ()
-			uv0 = {
+			return {
 				name = i18n("equip_info_11"),
-				value = pg.weapon_property[uv1].angle
+				value = pg.weapon_property[uv0].angle
 			}
 		end,
 		function ()
-			uv0 = {
+			return {
 				name = i18n("equip_info_12"),
-				value = (pg.bullet_template[uv1].extra_param.randomOffsetX or "0") .. "*" .. (pg.bullet_template[uv1].extra_param.randomOffsetZ or "0")
+				value = (pg.bullet_template[uv0].extra_param.randomOffsetX or "0") .. "*" .. (pg.bullet_template[uv0].extra_param.randomOffsetZ or "0")
 			}
 		end,
 		function ()
-			uv0 = {
+			return {
 				name = i18n("equip_info_13"),
-				value = uv1.config[AttributeType.Speciality]
+				value = uv0.config[AttributeType.Speciality]
 			}
 		end,
 		function ()
-			uv0 = {
+			return {
 				type = AttributeType.CD,
-				value = pg.weapon_property[uv1].reload_max
+				value = pg.weapon_property[uv0].reload_max
 			}
 		end,
 		function ()
-			uv0 = {
+			return {
 				name = i18n("attribute_max_distance_damage"),
-				value = (1 - pg.bullet_template[uv1].hit_type.decay) * 100 .. "%"
+				value = (1 - pg.bullet_template[uv0].hit_type.decay) * 100 .. "%"
 			}
 		end
 	})
-
-	return nil
 end
 
 slot6 = {
@@ -398,53 +397,55 @@ function slot0.GetEquipAttrPageInfo(slot0, slot1)
 end
 
 function slot0.GetEquipAttrInfo(slot0, slot1, slot2)
-	switch(slot1, {
+	return switch(slot1, {
 		function ()
-			uv1 = {
+			return {
 				name = i18n("equip_info_15"),
 				value = pg.weapon_property[uv0].min_range == 0 and slot0.range or slot0.min_range .. "-" .. slot0.range
 			}
 		end,
 		function ()
-			uv0 = {
+			return {
 				name = i18n("equip_info_16"),
-				value = pg.weapon_property[uv1].angle
+				value = pg.weapon_property[uv0].angle
 			}
 		end,
 		function ()
 			slot0 = pg.bullet_template[uv0]
-			uv1 = {
+
+			return {
 				name = i18n("equip_info_17"),
 				value = slot0.range - slot0.range_offset .. "-" .. slot0.range + slot0.range_offset
 			}
 		end,
 		function ()
-			uv1 = {
+			return {
 				name = i18n("equip_info_18"),
 				value = pg.barrage_template[uv0].random_angle and slot0.angle or math.abs(slot0.delta_angle) * slot0.primal_repeat
 			}
 		end,
 		function ()
-			uv0 = {
+			return {
 				name = i18n("attribute_scatter"),
-				value = pg.bullet_template[uv1].extra_param.randomOffsetX
+				value = pg.bullet_template[uv0].extra_param.randomOffsetX
 			}
 		end,
 		function ()
-			uv0 = {
+			return {
 				name = i18n("equip_info_19"),
-				value = Nation.Nation2Name(uv1.config.nationality)
+				value = Nation.Nation2Name(uv0.config.nationality)
 			}
 		end,
 		function ()
-			uv1 = {
+			return {
 				name = i18n("equip_info_20"),
 				value = pg.aircraft_template[uv0.id].speed
 			}
 		end,
 		function ()
 			slot0 = pg.aircraft_template[uv0.id]
-			uv1 = {
+
+			return {
 				name = i18n("equip_info_21"),
 				type = AttributeType.AirDurability,
 				value = {
@@ -454,31 +455,31 @@ function slot0.GetEquipAttrInfo(slot0, slot1, slot2)
 			}
 		end,
 		function ()
-			uv1 = {
+			return {
 				name = i18n("equip_info_22"),
 				value = pg.aircraft_template[uv0.id].dodge_limit
 			}
 		end,
 		function ()
 			if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
-				uv0 = {
+				return {
 					name = i18n("equip_info_28"),
 					type = AttributeType.Corrected,
-					value = EquipmentRarity.Rarity2CorrectedLevel(uv1.config.rarity, uv1.config.level)
+					value = EquipmentRarity.Rarity2CorrectedLevel(uv0.config.rarity, uv0.config.level)
 				}
 			else
-				uv0 = {
+				return {
 					name = i18n("equip_info_28"),
 					type = AttributeType.Corrected,
-					value = pg.weapon_property[uv2].corrected .. "%"
+					value = pg.weapon_property[uv1].corrected .. "%"
 				}
 			end
 		end,
 		function ()
 			if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
-				uv0 = nil
+				return nil
 			else
-				uv0 = {
+				return {
 					name = i18n("equip_info_29"),
 					value = AttributeType.Type2Name(({
 						AttributeType.Cannon,
@@ -486,29 +487,27 @@ function slot0.GetEquipAttrInfo(slot0, slot1, slot2)
 						AttributeType.AntiAircraft,
 						AttributeType.Air,
 						AttributeType.AntiSub
-					})[pg.weapon_property[uv1].attack_attribute])
+					})[pg.weapon_property[uv0].attack_attribute])
 				}
 			end
 		end,
 		function ()
 			if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
-				uv0 = nil
+				return nil
 			else
-				uv0 = {
+				return {
 					name = i18n("equip_info_30"),
-					value = pg.weapon_property[uv1].attack_attribute_ratio .. "%"
+					value = pg.weapon_property[uv0].attack_attribute_ratio .. "%"
 				}
 			end
 		end,
 		function ()
-			uv1 = {
+			return {
 				name = i18n("equip_info_32"),
 				value = math.abs(pg.bullet_template[uv0].extra_param.aim_offset)
 			}
 		end
 	})
-
-	return nil
 end
 
 function slot0.GetGearScore(slot0)

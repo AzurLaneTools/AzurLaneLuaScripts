@@ -2,7 +2,7 @@ slot2 = class("SubCellView", DecorateClass(import(".DynamicCellView"), import(".
 
 function slot2.Ctor(slot0, slot1)
 	uv0.Ctor(slot0, slot1)
-	uv1.Ctor(slot0, slot1)
+	uv1.Ctor(slot0)
 	uv1.InitCellTransform(slot0)
 
 	slot0.tfAmmo = slot0.tf:Find("ammo")

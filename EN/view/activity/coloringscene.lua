@@ -6,7 +6,7 @@ slot4 = 1200
 slot5 = Vector2(49, -436.12)
 
 function slot0.getUIName(slot0)
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and NullConditional(slot1:getConfig("config_client"), "ui") then
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and AcessWithinNull(slot1:getConfig("config_client"), "ui") then
 		return slot2
 	end
 

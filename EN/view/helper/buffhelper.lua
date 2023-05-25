@@ -17,12 +17,24 @@ function slot1(slot0, slot1)
 				end
 			end
 		end
-	elseif slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
+	elseif slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF or slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
 		if slot1 and not slot1:isEnd() then
-			for slot6, slot7 in pairs(slot1.data1KeyValueList[2]) do
-				if pg.activity_event_building[slot6] then
-					table.insert(slot0, ActivityBuff.New(slot1.id, slot8.buff[slot7]))
+			for slot6, slot7 in pairs(slot1:GetBuildingIds()) do
+				if pg.activity_event_building[slot7] then
+					_.each(slot8.buff, function (slot0)
+						if ActivityBuff.New(uv0.id, slot0):isActivate() then
+							table.insert(uv1, slot1)
+						end
+					end)
 				end
+			end
+
+			if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 and slot1:GetSceneBuildingId() > 0 and pg.activity_event_building[slot3] then
+				_.each(slot4.buff, function (slot0)
+					if ActivityBuff.New(uv0.id, slot0):isActivate() then
+						table.insert(uv1, slot1)
+					end
+				end)
 			end
 		end
 	elseif slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF then

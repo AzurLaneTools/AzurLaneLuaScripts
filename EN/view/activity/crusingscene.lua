@@ -68,6 +68,7 @@ function slot0.init(slot0)
 	slot0.btnBack = slot0.rtTop:Find("back")
 	slot0.btnHelp = slot0.rtTop:Find("help")
 	slot0.textDay = slot0.rtTop:Find("day/Text")
+	slot0.chargeTipWindow = ChargeTipWindow.New(slot0._tf, slot0.event)
 	slot0.LTDic = {}
 end
 
@@ -216,6 +217,12 @@ function slot0.willExit(slot0)
 		setParent(slot8.rtLine, slot8._tf, true)
 		slot1:ReturnSpineChar(slot3, go(slot8.rtIcon:Find("model"):GetChild(0)))
 		slot1:ReturnPrefab("crusingmap/" .. slot2, "", go(slot8._tf))
+	end
+
+	if slot0.chargeTipWindow then
+		slot0.chargeTipWindow:Destroy()
+
+		slot0.chargeTipWindow = nil
 	end
 end
 
@@ -537,6 +544,10 @@ function slot0.getPassID(slot0)
 			end
 		end
 	end
+end
+
+function slot0.OnChargeSuccess(slot0, slot1)
+	slot0.chargeTipWindow:ExecuteAction("Show", slot1)
 end
 
 return slot0

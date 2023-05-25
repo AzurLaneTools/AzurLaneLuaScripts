@@ -58,7 +58,8 @@ function slot0.OnLoaded(slot0)
 	slot0.time = slot0:findTF("Text"):GetComponent(typeof(Text))
 
 	setText(slot0:findTF("tpl/mask/tag/sellout_tag"), i18n("word_sell_out"))
-	setText(slot0:findTF("tpl/mask/tag/unexchange_tag"), i18n("meta_shop_unexchange_label"))
+	setText(slot0:findTF("tpl/mask/tag/unexchange_tag"), i18n("meta_shop_exchange_limit"))
+	setText(slot0:findTF("tpl/mask/tag/unexchange_tag/sellout_tag_en"), "LIMIT")
 end
 
 function slot0.OnInit(slot0)
@@ -104,6 +105,7 @@ function slot0.InitCommodities(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
 			slot4 = ActivityGoodsCard.New(slot2)
+			slot4.tagImg.raycastTarget = false
 
 			slot4:update(slot3, nil, uv1, uv2)
 			onButton(uv3, slot4.tr, function ()
@@ -118,6 +120,20 @@ function slot0.InitCommodities(slot0)
 	slot0.uilist:align(#slot0.shop:GetCommodities())
 end
 
+function slot0.TipPurchase(slot0, slot1, slot2, slot3, slot4)
+	slot5, slot6 = slot1:GetTranCntWhenFull(slot2)
+
+	if slot5 > 0 then
+		updateDropCfg(slot6)
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("pt_shop_tran_tip", math.max(slot2 - slot5, 0), slot3, slot5 * slot6.count, slot6.cfg.name),
+			onYes = slot4
+		})
+	else
+		slot4()
+	end
+end
+
 function slot0.OnPurchase(slot0, slot1, slot2)
 	slot4 = slot1:getConfig("commodity_id")
 
@@ -128,6 +144,35 @@ function slot0.OnPurchase(slot0, slot1, slot2)
 	end
 
 	slot0:emit(NewShopsMediator.ON_ACT_SHOPPING, slot0.shop.activityId, 1, slot1.id, slot2)
+end
+
+function slot0.OnClickCommodity(slot0, slot1, slot2)
+	if not slot1:CheckCntLimit() then
+		return
+	end
+
+	if slot3 and not slot1:CheckArgLimit() then
+		slot5, slot6, slot7, slot8 = slot1:CheckArgLimit()
+
+		if slot6 == ShopArgs.LIMIT_ARGS_META_SHIP_EXISTENCE then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("meta_shop_exchange_limit_tip", (ShipGroup.getDefaultShipConfig(slot8) or {}).name or ""))
+		elseif slot6 == ShopArgs.LIMIT_ARGS_SALE_START_TIME then
+			slot9 = {
+				year = slot8[1][1],
+				month = slot8[1][2],
+				day = slot8[1][3],
+				hour = slot8[2][1],
+				min = slot8[2][2],
+				sec = slot8[2][3]
+			}
+
+			pg.TipsMgr.GetInstance():ShowTips(i18n("meta_shop_exchange_limit_2_tip", slot9.year, slot9.month, slot9.day, slot9.hour, slot9.min, slot9.sec))
+		end
+
+		return
+	end
+
+	uv0.super.OnClickCommodity(slot0, slot1, slot2)
 end
 
 function slot0.OnDestroy(slot0)

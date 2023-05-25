@@ -17,6 +17,7 @@ pg.pay_data_display = {
 		limit_type = 1,
 		time = "always",
 		picture = "month",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.passport1",
 		first_pay_double = 0,
 		extra_service = 2,
@@ -58,7 +59,24 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		}
 	},
 	{
 		subject = "Novice sailing supplies",
@@ -77,6 +95,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "boxNewplayer",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond101",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -118,7 +137,19 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				15003,
+				2
+			},
+			{
+				2,
+				20001,
+				2
+			}
+		}
 	},
 	{
 		subject = "60 Gems",
@@ -138,6 +169,7 @@ pg.pay_data_display = {
 		limit_type = 99,
 		time = "always",
 		picture = "1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond1",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -146,7 +178,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "300 Gems",
@@ -166,6 +199,7 @@ pg.pay_data_display = {
 		limit_type = 99,
 		time = "always",
 		picture = "2",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond2",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -174,7 +208,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "980 Gems",
@@ -194,6 +229,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "3",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond3",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -202,7 +238,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "1980 Gems",
@@ -222,6 +259,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "4",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond4",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -230,7 +268,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "3280 Gems",
@@ -250,6 +289,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "5",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond5",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -258,7 +298,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "6480 Gems",
@@ -278,6 +319,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "6",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond6",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -286,7 +328,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[24] = {
 		subject = "2020 Party Dress Lucky Bag",
@@ -304,6 +347,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond138",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -391,7 +435,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40911,
+				1
+			}
+		}
 	},
 	[25] = {
 		subject = "Shougatsu Lucky Bag 2021",
@@ -409,6 +460,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai3",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond142",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -496,7 +548,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40912,
+				1
+			}
+		}
 	},
 	[26] = {
 		subject = "Shougatsu Lucky Bag 2020",
@@ -514,6 +573,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond126",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -601,7 +661,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40908,
+				1
+			}
+		}
 	},
 	[27] = {
 		subject = "Lunar New Year Lucky Bag (2021)",
@@ -619,6 +686,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai4",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond143",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -706,7 +774,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40913,
+				1
+			}
+		}
 	},
 	[28] = {
 		subject = "Lunar New Year Lucky Bag (2020)",
@@ -724,6 +799,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai2",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond128",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -811,7 +887,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40909,
+				1
+			}
+		}
 	},
 	[29] = {
 		subject = "Exquisite Lucky Box 2021 ",
@@ -829,6 +912,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe6_l",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond146",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -916,7 +1000,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40914,
+				1
+			}
+		}
 	},
 	[30] = {
 		subject = "Exquisite Lucky Bag 2020 ",
@@ -934,6 +1025,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe1_l",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond147",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1021,7 +1113,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40910,
+				1
+			}
+		}
 	},
 	[31] = {
 		subject = "New Commanders Support Pack IV ",
@@ -1040,6 +1139,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support4",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond148",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1126,7 +1226,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40015,
+				1
+			}
+		}
 	},
 	[32] = {
 		subject = "2021 Party Dress Lucky Box",
@@ -1144,6 +1251,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe6_l",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond151",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1231,7 +1339,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40915,
+				1
+			}
+		}
 	},
 	[33] = {
 		subject = "2020 Party Dress Lucky Box",
@@ -1249,6 +1364,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond150",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1336,7 +1452,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40911,
+				1
+			}
+		}
 	},
 	[34] = {
 		subject = "Shougatsu Lucky Box 2022 ",
@@ -1354,6 +1477,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai6",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond154",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1441,7 +1565,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40916,
+				1
+			}
+		}
 	},
 	[35] = {
 		subject = "Shougatsu Lucky Bag 2021 ",
@@ -1459,6 +1590,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai3",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond153",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1546,7 +1678,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40912,
+				1
+			}
+		}
 	},
 	[36] = {
 		subject = "Lunar New Year Lucky Bag (2022)",
@@ -1564,6 +1703,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai7",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond156",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1651,7 +1791,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40917,
+				1
+			}
+		}
 	},
 	[37] = {
 		subject = "Lunar New Year Lucky Bag (2021)",
@@ -1669,6 +1816,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai4",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond155",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1756,7 +1904,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40913,
+				1
+			}
+		}
 	},
 	[38] = {
 		subject = "Exquisite Lucky Box 2022 ",
@@ -1774,6 +1929,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe8_l",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond167",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1861,7 +2017,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40919,
+				1
+			}
+		}
 	},
 	[39] = {
 		subject = "Exquisite Lucky Box 2021 ",
@@ -1879,6 +2042,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe6_l",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond168",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1966,7 +2130,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40914,
+				1
+			}
+		}
 	},
 	[42] = {
 		subject = "Party Dress Lucky Box 2021 Rerun",
@@ -1984,6 +2155,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe6_l",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond175",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2071,7 +2243,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40915,
+				1
+			}
+		}
 	},
 	[43] = {
 		subject = "Party Dress Lucky Box 2022",
@@ -2089,6 +2268,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe8_l",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond176",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2176,7 +2356,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40920,
+				1
+			}
+		}
 	},
 	[44] = {
 		subject = "Welcome Back Pack",
@@ -2194,6 +2381,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "support6",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond179",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2321,7 +2509,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40921,
+				1
+			}
+		}
 	},
 	[45] = {
 		subject = "Winter Swimsuit Lucky Bag 2022 A",
@@ -2339,6 +2534,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe10_l",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.luckybag2",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2426,7 +2622,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40922,
+				1
+			}
+		}
 	},
 	[46] = {
 		subject = "Winter Swimsuit Lucky Bag 2022 B",
@@ -2444,6 +2647,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe11_l",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.luckybag3",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2531,7 +2735,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40923,
+				1
+			}
+		}
 	},
 	[47] = {
 		subject = "Shougatsu Lucky Box 2022 Rerun",
@@ -2549,6 +2760,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai6",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.luckybag1",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2636,7 +2848,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40916,
+				1
+			}
+		}
 	},
 	[48] = {
 		subject = "Spring Lucky Bag 2023 A",
@@ -2654,6 +2873,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudaiqp1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.luckybag5",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2741,7 +2961,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40924,
+				1
+			}
+		}
 	},
 	[49] = {
 		subject = "Spring Lucky Bag 2023 B",
@@ -2759,6 +2986,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudaiqp2",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.luckybag7",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2846,7 +3074,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40925,
+				1
+			}
+		}
 	},
 	[50] = {
 		subject = "Lunar New Year Lucky Bag 2022 Rerun",
@@ -2864,6 +3099,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai7",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.luckybag6",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2951,7 +3187,127 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40917,
+				1
+			}
+		}
+	},
+	[51] = {
+		subject = "Swimsuit Lucky Bag 2023",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		type = 1,
+		limit_arg = 1,
+		name = "Swimsuit Lucky Bag 2023",
+		name_display = "Swimsuit Lucky Bag 2023",
+		type_order = 2,
+		extra_gem = 0,
+		id = 51,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihecn6ss_l",
+		skin_inquire_relation = 69926,
+		id_str = "com.yostaren.azurlane.luckybag10",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains items, resources, and a random Summer 2023 swimsuit skin.",
+		airijp_id = "com.yostaren.azurlane.luckybag10",
+		extra_service_item = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					5,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40926,
+				1
+			}
+		}
 	},
 	[1000] = {
 		subject = "Fair Winds Cruise Pass",
@@ -2969,6 +3325,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.passport2",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -3024,7 +3381,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1001] = {
 		subject = "Fair Winds Cruise Pass",
@@ -3042,6 +3400,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.passport3",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -3097,7 +3456,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1002] = {
 		subject = "Fair Winds Cruise Pass",
@@ -3115,6 +3475,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.passport4",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -3170,7 +3531,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1003] = {
 		subject = "Fair Winds Cruise Pass",
@@ -3188,6 +3550,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.passport5",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -3243,7 +3606,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1004] = {
 		subject = "Fair Winds Cruise Pass",
@@ -3261,6 +3625,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.passport6",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -3316,7 +3681,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1005] = {
 		subject = "Fair Winds Cruise Pass",
@@ -3334,6 +3700,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.passport7",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -3389,7 +3756,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1006] = {
 		subject = "Fair Winds Cruise Pass",
@@ -3407,6 +3775,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.passport8",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -3462,7 +3831,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1007] = {
 		subject = "Fair Winds Cruise Pass",
@@ -3480,6 +3850,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.passport10",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -3535,7 +3906,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1008] = {
 		subject = "Fair Winds Cruise Pass",
@@ -3553,6 +3925,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.passport11",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -3608,7 +3981,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1009] = {
 		subject = "Fair Winds Cruise Pass",
@@ -3626,6 +4000,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.passport12",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -3681,7 +4056,83 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
+	},
+	[1010] = {
+		subject = "Fair Winds Cruise Pass",
+		limit_group = 0,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		type = 0,
+		limit_arg = 1,
+		name = "Fair Winds Cruise Pass",
+		name_display = "Fair Winds Cruise Pass",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1010,
+		money = 999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.passport13",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		airijp_id = "com.yostaren.azurlane.passport13",
+		extra_service_item = {
+			{
+				1,
+				4011,
+				1500
+			},
+			{
+				8,
+				59456,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4011,
+				1500
+			}
+		},
+		sub_display = {
+			7011,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
 	},
 	[2001] = {
 		subject = "PR Voucher - Series 1",
@@ -3700,6 +4151,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_display",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond158",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3736,7 +4188,8 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
-		}
+		},
+		drop_item = {}
 	},
 	[2002] = {
 		subject = "Voucher & Blueprint Bundle",
@@ -3755,6 +4208,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_promotion",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond158",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3791,6 +4245,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40016,
+				1
+			}
 		}
 	},
 	[2003] = {
@@ -3810,6 +4271,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_normal",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond159",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3836,6 +4298,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40017,
+				1
+			}
 		}
 	},
 	[2004] = {
@@ -3855,6 +4324,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_promotion",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond160",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3881,6 +4351,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40018,
+				1
+			}
 		}
 	},
 	[2005] = {
@@ -3900,6 +4377,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_display",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond161",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3936,7 +4414,8 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
-		}
+		},
+		drop_item = {}
 	},
 	[2006] = {
 		subject = "PR Voucher & Blueprint Bundle - Series 2",
@@ -3955,6 +4434,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_promotion",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond161",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3991,6 +4471,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40019,
+				1
+			}
 		}
 	},
 	[2007] = {
@@ -4010,6 +4497,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_normal",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond162",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4036,6 +4524,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40020,
+				1
+			}
 		}
 	},
 	[2008] = {
@@ -4055,6 +4550,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_promotion",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond163",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4081,6 +4577,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40021,
+				1
+			}
 		}
 	},
 	[2009] = {
@@ -4100,6 +4603,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "lv_70",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond164",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4156,6 +4660,13 @@ pg.pay_data_display = {
 				"lv_70",
 				70
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40022,
+				1
+			}
 		}
 	},
 	[2010] = {
@@ -4174,6 +4685,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "boxSkill",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond165",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4256,7 +4768,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
 	},
 	[2011] = {
 		subject = "Skill Book Pack",
@@ -4274,6 +4793,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "boxSkill",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond172",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4356,7 +4876,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
 	},
 	[100] = {
 		subject = "Nep's Lucky Bag",
@@ -4374,6 +4901,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "usfudai1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond110",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4456,7 +4984,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[101] = {
 		subject = "Black Friday Lucky Bag",
@@ -4474,6 +5003,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "usfudai2",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond111",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4566,7 +5096,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[102] = {
 		subject = "Christmas Lucky Bag ",
@@ -4584,6 +5115,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond112",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4666,7 +5198,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[103] = {
 		subject = "Heartthrob Pack",
@@ -4684,6 +5217,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai49",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond113",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4756,7 +5290,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[104] = {
 		subject = "Santa's Lucky Sack (Daily)",
@@ -4774,6 +5309,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 99,
 		picture = "fudai50",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond114",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4851,7 +5387,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[105] = {
 		subject = "Shogatsu Lucky Bag ",
@@ -4869,6 +5406,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai51",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond115",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4951,7 +5489,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[106] = {
 		subject = "Lunar New Year Lucky Bag ",
@@ -4969,6 +5508,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai52",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond116",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5056,7 +5596,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[107] = {
 		subject = "Glacier Blast ",
@@ -5074,6 +5615,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai53",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond117",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5156,7 +5698,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[108] = {
 		subject = "Hanami Lucky Bag ",
@@ -5174,6 +5717,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai54",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond118",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5256,7 +5800,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[109] = {
 		subject = "Research Supply (daily) ",
@@ -5274,6 +5819,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 99,
 		picture = "fudai55",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond119",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5351,7 +5897,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[110] = {
 		subject = "Scherzo Lucky Box ",
@@ -5369,6 +5916,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe1_l",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond120",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5451,7 +5999,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[111] = {
 		subject = "1st Anniversary Lucky Bag ",
@@ -5469,6 +6018,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai56",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond121",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5551,7 +6101,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[112] = {
 		subject = "Yukata Lucky Bag",
@@ -5569,6 +6120,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai57",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond122",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5651,7 +6203,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[113] = {
 		subject = "Full Dress Lucky Bag ",
@@ -5669,6 +6222,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai58",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond123",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5751,7 +6305,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[114] = {
 		subject = "Black Friday Lucky Box ",
@@ -5769,6 +6324,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai59",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond124",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5856,7 +6412,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[115] = {
 		subject = "Christmas Lucky Bag ",
@@ -5874,6 +6431,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai60",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond125",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5956,7 +6514,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[116] = {
 		subject = "Shougatsu Lucky Bag (2020)",
@@ -5974,6 +6533,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond126",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -6061,7 +6621,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[117] = {
 		subject = "Shougatsu Lucky Bag (2019)",
@@ -6079,6 +6640,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond127",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -6161,7 +6723,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[118] = {
 		subject = "Lunar New Year Lucky Bag (2020)",
@@ -6179,6 +6742,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai2",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond128",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -6266,7 +6830,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[119] = {
 		subject = "Lunar New Year Lucky Bag (2019)",
@@ -6284,6 +6849,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond129",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -6366,7 +6932,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[120] = {
 		subject = "New Commanders Support Pack I",
@@ -6385,6 +6952,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support1",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond130",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -6451,7 +7019,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[121] = {
 		subject = "New Commanders Support Pack II",
@@ -6470,6 +7039,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support2",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond131",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -6561,7 +7131,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[122] = {
 		subject = "New Commanders Support Pack III",
@@ -6580,6 +7151,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support3",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond132",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -6676,7 +7248,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[123] = {
 		subject = "Crimson Echoes' Lucky Bag",
@@ -6694,6 +7267,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai61",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond133",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -6776,7 +7350,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[124] = {
 		subject = "Night Out Lucky Bag ",
@@ -6794,6 +7369,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe1_l",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond134",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -6881,7 +7457,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[125] = {
 		subject = "Skybound Oratorio Lucky Bag ",
@@ -6899,6 +7476,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai63",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond135",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -6981,7 +7559,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[126] = {
 		subject = "Aurora Noctis Lucky Bag ",
@@ -6999,6 +7578,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai64",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond136",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -7081,7 +7661,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[127] = {
 		subject = "Summer Scherzo Lucky Bag ",
@@ -7099,6 +7680,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai65",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond137",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -7181,7 +7763,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[128] = {
 		subject = "Shining Star Lucky Bag ",
@@ -7199,6 +7782,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai66",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond139",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -7286,7 +7870,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[129] = {
 		subject = "Azur Black Friday Lucky Box ",
@@ -7304,6 +7889,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai67",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond140",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -7391,7 +7977,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[130] = {
 		subject = "Crimson Black Friday Lucky Box ",
@@ -7409,6 +7996,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai68",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond141",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -7496,7 +8084,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[131] = {
 		subject = "Dawn's Rime Lucky Pack",
@@ -7514,6 +8103,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai69",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond144",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -7601,7 +8191,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[132] = {
 		subject = "Daedalian Hymn's Lucky Bag",
@@ -7619,6 +8210,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai70",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond145",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -7706,7 +8298,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[133] = {
 		subject = "Microlayer Medley Lucky Box 2021",
@@ -7724,6 +8317,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai71",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond149",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -7811,7 +8405,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[134] = {
 		subject = "Black Friday Lucky Music Box",
@@ -7829,6 +8424,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai72",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond152",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -7916,7 +8512,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[135] = {
 		subject = "Abyssal Refrain Lucky Pack",
@@ -7934,6 +8531,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai73",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond157",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -8021,7 +8619,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[136] = {
 		subject = "Crimson Offering Lucky Chalice",
@@ -8039,6 +8638,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai74",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond166",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -8126,7 +8726,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[137] = {
 		subject = "Aquilifer's Ballade Lucky Box",
@@ -8144,6 +8745,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai75",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond169",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -8231,7 +8833,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[138] = {
 		subject = "4th Anniversary Lucky Box",
@@ -8249,6 +8852,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai76",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond171",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -8336,7 +8940,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[2014] = {
 		subject = "Skill Book Pack",
@@ -8354,6 +8959,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "boxSkill",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.pack1",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -8436,7 +9042,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
 	},
 	[139] = {
 		subject = "Black Friday Lucky Bag (2022)",
@@ -8454,6 +9067,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai77",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond177",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -8541,7 +9155,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40024,
+				1
+			}
+		}
 	},
 	[140] = {
 		subject = "New Semester Lucky Pack",
@@ -8559,6 +9180,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai78",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.luckybag8",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -8646,7 +9268,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40025,
+				1
+			}
+		}
 	},
 	[141] = {
 		subject = "Onsen Souvenir Lucky Bag",
@@ -8664,6 +9293,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai79",
+		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.luckybag9",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -8751,7 +9381,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				70052,
+				1
+			}
+		}
 	},
 	all = {
 		1,
@@ -8787,6 +9424,7 @@ pg.pay_data_display = {
 		48,
 		49,
 		50,
+		51,
 		1000,
 		1001,
 		1002,
@@ -8797,6 +9435,7 @@ pg.pay_data_display = {
 		1007,
 		1008,
 		1009,
+		1010,
 		2001,
 		2002,
 		2003,

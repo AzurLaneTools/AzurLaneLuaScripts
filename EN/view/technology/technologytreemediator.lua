@@ -43,7 +43,7 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == TechnologyConst.UPDATE_REDPOINT_ON_TOP then
-		slot0.viewComponent:refreshRedPoint(getProxy(TechnologyNationProxy):getShowRedPointTag())
+		slot0.viewComponent:updateRedPoint(getProxy(TechnologyNationProxy):getShowRedPointTag())
 	end
 end
 

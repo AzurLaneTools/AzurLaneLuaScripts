@@ -13,6 +13,7 @@ function slot0.OnInit(slot0)
 		setText(slot2:Find("window_5/ship_name/Text"), slot0.summaryInfoVO.firstProposeName)
 		setText(slot2:Find("window_5/day/Text"), slot0.summaryInfoVO.proposeTime)
 		setText(slot2:Find("window_6/number/Text"), slot0.summaryInfoVO.proposeCount)
+		setText(slot2:Find("window_6/number_2/Text"), slot0.summaryInfoVO.maxIntimacyNum)
 	end
 end
 

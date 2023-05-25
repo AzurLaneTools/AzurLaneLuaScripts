@@ -56,6 +56,14 @@ pg.item_data_chat = {
 		desc = "<color=#ffffff>Welcome back to the Admiralty, Commander. We expect great things from you.</color>\n<color=#A7A7AAFF></color>",
 		scene = {}
 	},
+	[602] = {
+		time_limit_type = 0,
+		name = "Seabreeze Villa",
+		id = 602,
+		time_second = 0,
+		desc = "<color=#ffffff>Set sail for the best deserted island vacation ever!</color>\nAwarded to Commanders who participated in the \"Uncharted Summer\" event.",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -63,6 +71,7 @@ pg.item_data_chat = {
 		103,
 		104,
 		300,
-		301
+		301,
+		602
 	}
 }

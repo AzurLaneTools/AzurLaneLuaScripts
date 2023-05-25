@@ -1,8 +1,9 @@
-slot0 = class("MapBuilder", import("view.base.basesubview"))
+slot0 = class("MapBuilder", import("view.base.BaseSubView"))
 slot0.TYPENORMAL = 1
 slot0.TYPEESCORT = 2
 slot0.TYPESHINANO = 3
 slot0.TYPESKIRMISH = 4
+slot0.TYPEBISMARCK = 5
 
 function slot0.Ctor(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2.event, slot2.contextData)
@@ -42,6 +43,7 @@ function slot0.InvokeParent(slot0, slot1, ...)
 end
 
 function slot0.GetType(slot0)
+	return 0
 end
 
 function slot0.OnLoaded(slot0)
@@ -53,7 +55,7 @@ function slot0.Destroy(slot0)
 		slot0:Hide()
 	end
 
-	uv0.super.Destroy(slot0, go)
+	uv0.super.Destroy(slot0)
 end
 
 function slot0.OnDestroy(slot0)
@@ -104,6 +106,10 @@ function slot0.DeleteTween(slot0, slot1)
 
 		slot0.tweens[slot1] = nil
 	end
+end
+
+function slot0.TryOpenChapter(slot0, slot1)
+	assert(false)
 end
 
 return slot0

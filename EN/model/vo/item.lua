@@ -29,50 +29,20 @@ function itemId2icon(slot0)
 	return pg.item_data_statistics[slot0].icon
 end
 
-function slot0.GetConfig(slot0, slot1)
-	function slot2(slot0)
-		if slot0 then
-			return slot0
-		else
-			Debugger.LogError(string.format("without drop_type_%d config from id_%d", uv0, uv1))
-		end
-	end
-
-	if slot0 == DROP_TYPE_RESOURCE then
-		return slot2(pg.item_data_statistics[id2ItemId(slot1)])
-	elseif slot0 == DROP_TYPE_ITEM or slot0 == DROP_TYPE_VITEM or slot0 == DROP_TYPE_LOVE_LETTER then
-		return slot2(pg.item_data_statistics[slot1])
-	elseif slot0 == DROP_TYPE_EQUIP then
-		return slot2(pg.equip_data_statistics[slot1])
-	elseif slot0 == DROP_TYPE_SHIP then
-		return slot2(pg.ship_data_statistics[slot1])
-	elseif slot0 == DROP_TYPE_FURNITURE then
-		return slot2(pg.furniture_data_template[slot1])
-	elseif slot0 == DROP_TYPE_SKIN or slot0 == DROP_TYPE_SKIN_TIMELIMIT then
-		return slot2(pg.ship_skin_template[slot1])
-	elseif slot0 == DROP_TYPE_EQUIPMENT_SKIN then
-		return slot2(pg.equip_skin_template[slot1])
-	elseif slot0 == DROP_TYPE_WORLD_ITEM then
-		return slot2(pg.world_item_data_template[slot1])
-	elseif slot0 == DROP_TYPE_ICON_FRAME then
-		return slot2(pg.item_data_frame[slot1])
-	elseif slot0 == DROP_TYPE_CHAT_FRAME then
-		return slot2(pg.item_data_chat[slot1])
-	elseif slot0 == DROP_TYPE_SPWEAPON then
-		return slot2(pg.spweapon_data_statistics[slot1])
-	elseif slot0 == DROP_TYPE_RYZA_DROP then
-		return slot2(pg.activity_ryza_item[slot1])
-	end
-end
-
 function slot0.GetIcon(slot0, slot1)
 	assert(slot0 ~= DROP_TYPE_SHIP, "舰船类型不应该用GetIcon, ID:" .. slot1)
 
-	return uv0.GetConfig(slot0, slot1).icon
+	return updateDropCfg({
+		type = slot0,
+		id = slot1
+	}).icon
 end
 
 function slot0.GetName(slot0, slot1)
-	return uv0.GetConfig(slot0, slot1).name
+	return updateDropCfg({
+		type = slot0,
+		id = slot1
+	}).name
 end
 
 function slot0.Ctor(slot0, slot1)
@@ -166,6 +136,30 @@ end
 
 function slot0.IsDoaSelectCharItem(slot0)
 	return slot0.id == uv0.DOA_SELECT_CHAR_ID
+end
+
+function slot0.RawGetConfig(slot0, slot1)
+	return uv0.super.getConfig(slot0, slot1)
+end
+
+function slot0.getConfig(slot0, slot1)
+	if slot1 == "display" then
+		if slot0:RawGetConfig("combination_display") and #slot2 > 0 then
+			return slot0:CombinationDisplay(slot2)
+		else
+			return slot0:RawGetConfig(slot1)
+		end
+	else
+		return slot0:RawGetConfig(slot1)
+	end
+end
+
+function slot0.CombinationDisplay(slot0, slot1)
+	return i18n("skin_gift_desc", table.concat(_.map(slot1, function (slot0)
+		return "\n（<color=#92fc63>" .. string.format("%0.1f", slot0[2] / 100) .. "%%</color>）" .. slot2.shipName .. i18n("random_skin_list_item_desc_label") .. slot2.skinName .. (ShipSkin.New({
+			id = slot0[1]
+		}):IsLive2d() and "（<color=#92fc63>Live 2d</color>）" or "")
+	end), ";"))
 end
 
 return slot0

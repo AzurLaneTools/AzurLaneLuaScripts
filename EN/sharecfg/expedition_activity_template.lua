@@ -6573,6 +6573,176 @@ pg.expedition_activity_template = {
 		pt_drop_display = "",
 		bonus_time = 0
 	},
+	[1720013] = {
+		id = 1720013,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				4853,
+				351
+			}
+		}
+	},
+	[1720113] = {
+		id = 1720113,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				4853,
+				351
+			}
+		}
+	},
+	[1720134] = {
+		id = 1720134,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4853,
+				351
+			}
+		}
+	},
+	[1720213] = {
+		id = 1720213,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				4853,
+				351
+			}
+		}
+	},
+	[1721013] = {
+		id = 1721013,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				4854,
+				351
+			}
+		}
+	},
+	[1721113] = {
+		id = 1721113,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				4854,
+				351
+			}
+		}
+	},
+	[1721213] = {
+		id = 1721213,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				4854,
+				351
+			}
+		}
+	},
+	[1721234] = {
+		id = 1721234,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4854,
+				351
+			}
+		}
+	},
+	[1722013] = {
+		id = 1722013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4853,
+				351
+			}
+		}
+	},
+	[1722113] = {
+		id = 1722113,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4853,
+				351
+			}
+		}
+	},
+	[1722134] = {
+		id = 1722134,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4853,
+				351
+			}
+		}
+	},
+	[1722213] = {
+		id = 1722213,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4853,
+				351
+			}
+		}
+	},
+	[1723013] = {
+		id = 1723013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4854,
+				351
+			}
+		}
+	},
+	[1723113] = {
+		id = 1723113,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4854,
+				351
+			}
+		}
+	},
+	[1723213] = {
+		id = 1723213,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4854,
+				351
+			}
+		}
+	},
+	[1723234] = {
+		id = 1723234,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4854,
+				351
+			}
+		}
+	},
+	[1724013] = {
+		id = 1724013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				4854,
+				351
+			}
+		}
+	},
 	[3000013] = {
 		id = 3000013,
 		bonus_time = 1,
@@ -7524,6 +7694,23 @@ pg.expedition_activity_template = {
 		1719503,
 		1719504,
 		1719505,
+		1720013,
+		1720113,
+		1720134,
+		1720213,
+		1721013,
+		1721113,
+		1721213,
+		1721234,
+		1722013,
+		1722113,
+		1722134,
+		1722213,
+		1723013,
+		1723113,
+		1723213,
+		1723234,
+		1724013,
 		3000013,
 		3000113,
 		3000213,

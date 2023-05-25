@@ -4,7 +4,8 @@ slot0.correspondingClass = {
 	[slot1.TYPENORMAL] = "MapBuilderNormal",
 	[slot1.TYPEESCORT] = "MapBuilderEscort",
 	[slot1.TYPESHINANO] = "MapBuilderShinano",
-	[slot1.TYPESKIRMISH] = "MapBuilderSkirmish"
+	[slot1.TYPESKIRMISH] = "MapBuilderSkirmish",
+	[slot1.TYPEBISMARCK] = "MapBuilderBismarck"
 }
 slot2 = 0.5
 
@@ -248,7 +249,6 @@ function slot0.initUI(slot0)
 
 	slot0.helpPage = slot0:findTF("help_page", slot0.topPanel)
 	slot0.helpImage = slot0:findTF("icon", slot0.helpPage)
-	slot0.helpBtn = slot0:findTF("help_button", slot0.bottomStage)
 
 	setActive(slot0.helpPage, false)
 
@@ -1014,6 +1014,10 @@ function slot0.RefreshMapBG(slot0)
 	slot0:SwitchMapBG(slot0.contextData.map, slot0.lastMapIdx, true)
 end
 
+slot3 = 1
+slot4 = 2
+slot5 = 3
+
 function slot0.updateCouldAnimator(slot0, slot1, slot2)
 	if slot1 then
 		function slot3(slot0)
@@ -1028,19 +1032,25 @@ function slot0.updateCouldAnimator(slot0, slot1, slot2)
 
 			if uv0.contextData.map:getConfig("ani_controller") and #slot3 > 0 then
 				for slot7, slot8 in ipairs(slot3) do
-					if slot8[1] == 1 then
+					if slot8[1] == uv1 then
 						slot9 = slot8[2][1]
 
 						if not IsNil(slot0:Find(slot8[2][2])) and not getProxy(ChapterProxy):getChapterById(slot9, true):isClear() then
 							setActive(slot11, false)
 						end
-					elseif slot8[1] == 2 then
+					elseif slot8[1] == uv2 then
 						slot9 = slot8[2][1]
 
 						if not IsNil(slot0:Find(slot8[2][2])) and not getProxy(ChapterProxy):getChapterById(slot9, true):isClear() then
 							setActive(slot11, true)
 
 							break
+						end
+					elseif slot8[1] == uv3 then
+						slot9 = slot8[2][1]
+
+						if not IsNil(slot0:Find(slot8[2][2])) and not getProxy(ChapterProxy):getChapterById(slot9, true):isClear() then
+							setActive(slot11, true)
 						end
 					end
 				end
@@ -1099,30 +1109,18 @@ function slot0.updateActivityBtns(slot0)
 	slot6 = slot0.contextData.map:getConfig("type")
 
 	if getProxy(ActivityProxy):GetEarliestActByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot8:isEnd() and not slot1 and not slot0.contextData.map:isSkirmish() and not slot0.contextData.map:isEscort() then
-		if not (function ()
-			if #_.select(pg.activity_link_button.get_id_list_by_name.event_map or {}, function (slot0)
-				return pg.TimeMgr.GetInstance():inTime(uv0[slot0].time)
-			end) > 0 then
-				table.sort(slot3, function (slot0, slot1)
-					return uv0[slot0].order < uv0[slot1].order
-				end)
+		slot11 = setmetatable({}, MainActMapBtn)
+		slot11.image = slot0.activityBtn:Find("Image"):GetComponent(typeof(Image))
+		slot11.subImage = slot0.activityBtn:Find("sub_Image"):GetComponent(typeof(Image))
+		slot11.tipTr = slot0.activityBtn:Find("Tip"):GetComponent(typeof(Image))
+		slot11.tipTxt = slot0.activityBtn:Find("Tip/Text"):GetComponent(typeof(Text))
 
-				return slot1[slot3[1]]
-			end
-
-			return nil
-		end)() then
-			slot10 = false
-		else
-			setImageSprite(slot0.activityBtn:Find("Image"), LoadSprite("LinkButton/" .. slot12.pic, ""), true)
-
-			slot15 = setActive
-			slot16 = slot0.activityBtn:Find("sub_Image")
-			slot17 = slot12.text_pic ~= nil and slot14 ~= ""
-
-			slot15(slot16, slot17)
-			setImageSprite(slot0.activityBtn:Find("sub_Image"), LoadSprite("LinkButton/" .. slot12.text_pic, ""), true)
-			setActive(slot0.activityBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
+		if slot11:InShowTime() then
+			slot11:InitTipImage()
+			slot11:InitSubImage()
+			slot11:InitImage(function ()
+			end)
+			slot11:OnInit()
 		end
 	end
 
@@ -1423,7 +1421,7 @@ function slot0.registerActBtn(slot0)
 			return
 		end
 
-		slot2, slot3 = uv1(uv0.contextData.map, Map.ACT_EXTRA, PlayerPrefs.HasKey("ex_mapId") and PlayerPrefs.GetInt("ex_mapId") or 0):isUnlock()
+		slot2, slot3 = uv1(uv0.contextData.map, Map.ACT_EXTRA, PlayerPrefs.HasKey("ex_mapId") and PlayerPrefs.GetInt("ex_mapId", 0) or 0):isUnlock()
 
 		if slot2 then
 			uv0:setMap(slot1.id)
@@ -1454,23 +1452,25 @@ function slot0.initMapBtn(slot0, slot1, slot2)
 			return
 		end
 
-		if getProxy(ChapterProxy):getMapById(uv0.contextData.mapIdx + uv1) then
-			if slot1:getMapType() == Map.ELITE and not slot1:isEliteEnabled() then
-				slot0 = slot1:getBindMap().id
-
-				pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_unusable"))
-			end
-
-			slot3, slot4 = slot1:isUnlock()
-
-			if not slot3 then
-				pg.TipsMgr.GetInstance():ShowTips(slot4)
-
-				return
-			end
-
-			uv0:setMap(slot0)
+		if not getProxy(ChapterProxy):getMapById(uv0.contextData.mapIdx + uv1) then
+			return
 		end
+
+		if slot1:getMapType() == Map.ELITE and not slot1:isEliteEnabled() then
+			slot0 = slot1:getBindMap().id
+
+			pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_unusable"))
+		end
+
+		slot3, slot4 = slot1:isUnlock()
+
+		if not slot3 then
+			pg.TipsMgr.GetInstance():ShowTips(slot4)
+
+			return
+		end
+
+		uv0:setMap(slot0)
 	end, SFX_PANEL)
 end
 
@@ -1559,6 +1559,8 @@ function slot0.JudgeMapBuilderType(slot0)
 
 	if slot0.contextData.map:getConfig("ui_type") == uv0.TYPESHINANO then
 		slot2 = uv0.TYPESHINANO
+	elseif slot1:getConfig("ui_type") == uv0.TYPEBISMARCK then
+		slot2 = uv0.TYPEBISMARCK
 	elseif slot1:isNormalMap() then
 		slot2 = uv0.TYPENORMAL
 	elseif slot1:isSkirmish() then
@@ -1756,7 +1758,7 @@ function slot0.DisplaySPAnim(slot0, slot1, slot2, slot3)
 
 		uv0:frozen()
 		uv1:SetActive(true)
-		pg.UIMgr.GetInstance():OverlayPanel(tf(uv1), false, {
+		pg.UIMgr.GetInstance():OverlayPanel(tf(uv1), {
 			groupName = LayerWeightConst.GROUP_LEVELUI
 		})
 
@@ -2146,9 +2148,9 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 						slot1 = {}
 
 						if uv1:getConfig("bg") and #slot2 > 0 then
-							table.insert(slot1, {
+							slot1[1] = {
 								BG = slot2
-							})
+							}
 						end
 
 						uv0:SwitchBG(slot1, slot0)
@@ -2313,13 +2315,13 @@ function slot0.SwitchBG(slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot3 = {
+slot6 = {
 	1520001,
 	1520002,
 	1520011,
 	1520012
 }
-slot4 = {
+slot7 = {
 	{
 		1420008,
 		"map_1420008",
@@ -2333,7 +2335,7 @@ slot4 = {
 		"map_1420011"
 	}
 }
-slot5 = {
+slot8 = {
 	1420001,
 	1420011
 }
@@ -2381,7 +2383,7 @@ function slot0.GetMapBG(slot0, slot1, slot2)
 		uv0[slot5],
 		uv0[slot5 + 1]
 	}, function (slot0)
-		return getProxy(ChapterProxy):getMapById(slot0, true)
+		return getProxy(ChapterProxy):getMapById(slot0)
 	end), function (slot0)
 		return slot0:isAllChaptersClear()
 	end) then
@@ -2448,7 +2450,7 @@ function slot0.GetMapElement(slot0, slot1)
 
 	if slot1:getConfig("ani_controller") and #slot3 > 0 then
 		for slot7, slot8 in ipairs(slot3) do
-			if string.find(slot8[2][2], "^map_") and slot8[1] == 2 and not getProxy(ChapterProxy):getChapterById(slot8[2][1], true):isClear() then
+			if string.find(slot8[2][2], "^map_") and slot8[1] == uv0 and not getProxy(ChapterProxy):getChapterById(slot8[2][1], true):isClear() then
 				slot2 = slot9
 
 				break
@@ -2456,9 +2458,12 @@ function slot0.GetMapElement(slot0, slot1)
 		end
 	end
 
+	slot5, slot6 = slot0:GetMapAnimator(slot1)
+
 	return {
 		BG = slot2,
-		Animator = slot0:GetMapAnimator(slot1)
+		AnimatorController = slot6,
+		Animator = slot5
 	}
 end
 
@@ -2466,7 +2471,7 @@ function slot0.GetMapAnimator(slot0, slot1)
 	slot2 = slot1:getConfig("ani_name")
 
 	if slot1:getConfig("animtor") == 1 and slot2 and #slot2 > 0 then
-		return slot2
+		return slot2, slot1:getConfig("ani_controller")
 	end
 end
 
@@ -2478,7 +2483,7 @@ function slot0.PlayMapTransition(slot0, slot1, slot2, slot3, slot4)
 		uv0:frozen()
 		existCall(uv1, uv2)
 		uv2:SetActive(true)
-		pg.UIMgr.GetInstance():OverlayPanel(tf(uv2), false, {
+		pg.UIMgr.GetInstance():OverlayPanel(tf(uv2), {
 			groupName = LayerWeightConst.GROUP_LEVELUI
 		})
 
@@ -2845,7 +2850,7 @@ function slot0.doPlayAnim(slot0, slot1, slot2, slot3)
 
 		uv0:frozen()
 		uv1:SetActive(true)
-		pg.UIMgr.GetInstance():OverlayPanel(tf(uv1), false, {
+		pg.UIMgr.GetInstance():OverlayPanel(tf(uv1), {
 			groupName = LayerWeightConst.GROUP_LEVELUI
 		})
 

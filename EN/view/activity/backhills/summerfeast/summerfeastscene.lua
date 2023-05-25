@@ -106,7 +106,7 @@ function slot0.init(slot0)
 	slot0.shouce_bg = slot1:Find("bg")
 	slot1 = slot0.shouce
 	slot0.layout_shouce = slot1:Find("yinhuace/go/layout")
-	slot0.group_get = slot0:Clone2Full(slot0.layout_shouce, 14)
+	slot0.group_get = CustomIndexLayer.Clone2Full(slot0.layout_shouce, 14)
 	slot1 = slot0.shouce
 	slot0.btn_receive = slot1:Find("yinhuace/receive")
 	slot1 = slot0.shouce
@@ -425,21 +425,6 @@ function slot0.clearStudents(slot0)
 	end
 
 	slot0.academyStudents = {}
-end
-
-function slot0.Clone2Full(slot0, slot1, slot2)
-	slot3 = {}
-	slot4 = slot1:GetChild(0)
-
-	for slot9 = 0, slot1.childCount - 1 do
-		table.insert(slot3, slot1:GetChild(slot9))
-	end
-
-	for slot9 = slot5, slot2 - 1 do
-		table.insert(slot3, tf(cloneTplTo(slot4, slot1)))
-	end
-
-	return slot3
 end
 
 function slot0.TryPlayStory(slot0)

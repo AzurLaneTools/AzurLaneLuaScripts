@@ -149,7 +149,7 @@ function slot0.Exit(slot0, slot1)
 			statistics = uv3.statistics,
 			score = uv8,
 			drops = slot3,
-			commanderExps = uv2.GenerateCommanderExp(slot0, uv5:getActiveChapter().fleet),
+			commanderExps = uv2.GenerateCommanderExp(slot0, uv5:getActiveChapter().fleet, uv0:GetSubmarineFleet()),
 			result = slot0.result,
 			extraDrops = slot4,
 			exitCallback = uv3.exitCallback
@@ -159,11 +159,31 @@ function slot0.Exit(slot0, slot1)
 		slot6 = uv5:getActiveChapter()
 
 		slot6:writeDrops(slot3)
-
-		slot7 = uv5:getLastUnlockMap().id
-
 		uv5:updateChapter(slot6)
 
+		if PlayerConst.CanDropItem(slot3) then
+			slot7 = {}
+
+			for slot11, slot12 in ipairs(slot3) do
+				table.insert(slot7, slot12)
+			end
+
+			for slot11, slot12 in ipairs(slot4) do
+				slot12.riraty = true
+
+				table.insert(slot7, slot12)
+			end
+
+			if getProxy(ChapterProxy):getActiveChapter(true) then
+				if slot8:isLoop() then
+					getProxy(ChapterProxy):AddExtendChapterDataArray(slot8.id, "TotalDrops", slot7)
+				end
+
+				slot8:writeDrops(slot7)
+			end
+		end
+
+		slot7 = uv5:getLastUnlockMap().id
 		slot8 = uv5:getLastUnlockMap().id
 
 		if Map.lastMap and slot8 ~= slot7 and slot7 < slot8 then

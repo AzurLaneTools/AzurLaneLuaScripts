@@ -25,10 +25,10 @@ function slot0.execute(slot0, slot1)
 			uv0:GetGuildShop(slot0)
 		end,
 		function (slot0)
-			uv0:GetMetaShops(slot0)
+			uv0:GetMedalShops(slot0)
 		end,
 		function (slot0)
-			uv0:GetMedalShops(slot0)
+			uv0:GetMetaShops(slot0)
 		end
 	}, function ()
 		if uv0 then

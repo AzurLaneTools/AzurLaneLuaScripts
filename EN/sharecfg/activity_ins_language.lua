@@ -4044,7 +4044,49 @@ pg.activity_ins_language = setmetatable({
 		"ins_discuss_369_3",
 		"ins_reply_369_3_1",
 		"ins_op_369_1_1",
-		"op_reply_369_1_1"
+		"op_reply_369_1_1",
+		"ins_370",
+		"ins_discuss_370_1",
+		"ins_reply_370_1_1",
+		"ins_reply_370_1_2",
+		"ins_discuss_370_2",
+		"ins_reply_370_2_1",
+		"ins_discuss_370_3",
+		"ins_reply_370_3_1",
+		"ins_reply_370_3_2",
+		"ins_op_370_1_1",
+		"op_reply_370_1_1",
+		"ins_371",
+		"ins_discuss_371_1",
+		"ins_reply_371_1_1",
+		"ins_discuss_371_2",
+		"ins_reply_371_2_1",
+		"ins_reply_371_2_2",
+		"ins_reply_371_2_3",
+		"ins_discuss_371_3",
+		"ins_reply_371_3_1",
+		"ins_op_371_1_1",
+		"op_reply_371_1_1",
+		"ins_372",
+		"ins_discuss_372_1",
+		"ins_reply_372_1_1",
+		"ins_reply_372_1_2",
+		"ins_reply_372_1_3",
+		"ins_reply_372_1_4",
+		"ins_discuss_372_2",
+		"ins_reply_372_2_1",
+		"ins_op_372_1_1",
+		"op_reply_372_1_1",
+		"ins_373",
+		"ins_discuss_373_1",
+		"ins_reply_373_1_1",
+		"ins_discuss_373_2",
+		"ins_reply_373_2_1",
+		"ins_reply_373_2_2",
+		"ins_reply_373_2_3",
+		"ins_reply_373_2_4",
+		"ins_op_373_1_1",
+		"op_reply_373_1_1"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16077,105 +16119,231 @@ pg.base.activity_ins_language = {
 		value = "You can't be a Hero without having a keen sense for treasure~"
 	},
 	ins_367 = {
-		value = ""
+		value = "Seize the day. Make snowmen before the snow melts."
 	},
 	ins_discuss_367_1 = {
-		value = ""
+		value = "I love snowmen! And snowcats too. That's what you're making, right?"
 	},
 	ins_reply_367_1_1 = {
-		value = ""
+		value = "Mhm, I worked pretty hard on it. Looks nice, doesn't it?"
 	},
 	ins_reply_367_1_2 = {
-		value = ""
+		value = "Oh, definitely! I thought you missed my reply for a minute there."
 	},
 	ins_reply_367_1_3 = {
-		value = ""
+		value = "We should have a snowball fight too, before spring sets in."
 	},
 	ins_reply_367_2_1 = {
-		value = ""
+		value = "Sign me up!"
 	},
 	ins_reply_367_2_2 = {
-		value = ""
+		value = "Just don't use my snowman for target practice, thanks..."
 	},
 	ins_discuss_367_3 = {
-		value = ""
+		value = "It's getting warmer. Your little guy won't last for long."
 	},
 	ins_reply_367_3_1 = {
-		value = ""
+		value = "I know. Watching snow melt little by little is enjoyable, though."
 	},
 	ins_op_367_1_1 = {
-		value = ""
+		value = "Cute!"
 	},
 	op_reply_367_1_1 = {
-		value = ""
+		value = "Thanks. You could make a lovely snowman too if you put effort into it, Commander. Give it a try sometime."
 	},
 	ins_368 = {
-		value = ""
+		value = "Hmm. This works decently as camouflage."
 	},
 	ins_discuss_368_1 = {
-		value = ""
+		value = "Disguising as a roadside mascot to spy on people... Not a bad idea."
 	},
 	ins_reply_368_1_1 = {
-		value = ""
+		value = "She looks so warm and fluffy. Makes me wanna run up and hug her!"
 	},
 	ins_reply_368_1_2 = {
-		value = ""
+		value = "Yeah... Those aren't exactly the reactions I was going for..."
 	},
 	ins_discuss_368_2 = {
-		value = ""
+		value = "What are you doing dressed as a snowman?"
 	},
 	ins_reply_368_2_1 = {
-		value = ""
+		value = "Blending in. Two snowmen side by side ought to look perfectly normal."
 	},
 	ins_discuss_368_3 = {
-		value = ""
+		value = "Kinda cute. Isn't it cold in there, though?"
 	},
 	ins_reply_368_3_1 = {
-		value = ""
+		value = "Maybe if you're not me. I'm built different."
 	},
 	ins_discuss_368_4 = {
-		value = ""
+		value = "How nice of you to keep my snowman company. Now you're snowbuddies."
 	},
 	ins_reply_368_4_1 = {
-		value = ""
+		value = "Oh, so you built it. Good to know."
 	},
 	ins_op_368_1_1 = {
-		value = ""
+		value = "All I see are two snowmen..."
 	},
 	op_reply_368_1_1 = {
-		value = ""
+		value = "Good. My prey won't know I'm here until it's too late."
 	},
 	ins_369 = {
-		value = ""
+		value = "Spring is here, comrades! Let's celebrate with lots and lots of vodka!"
 	},
 	ins_discuss_369_1 = {
-		value = ""
+		value = "Couldn't have said it better myself! Today we're gonna chug 'til we hit the floor!"
 	},
 	ins_reply_369_1_1 = {
-		value = ""
+		value = "Is that a challenge? I'm gonna outdrink you this time!"
 	},
 	ins_reply_369_1_2 = {
-		value = ""
+		value = "Them's fighting words. May the best drinker win!"
 	},
 	ins_discuss_369_2 = {
-		value = ""
+		value = "Seems the more people drink, the louder they get..."
 	},
 	ins_reply_369_2_1 = {
-		value = ""
+		value = "Her poor liver... You think she's okay?"
 	},
 	ins_reply_369_2_2 = {
-		value = ""
+		value = "I saw her stumbling a lot, but she'll be fine. By now, she's probably preparing for her next battle."
 	},
 	ins_discuss_369_3 = {
-		value = ""
+		value = "My poor snowman..."
 	},
 	ins_reply_369_3_1 = {
-		value = ""
+		value = "The question is, was it spring that melted it, or was it Sevastopol's warm spirit?"
 	},
 	ins_op_369_1_1 = {
-		value = ""
+		value = "You sure you haven't had too much?"
 	},
 	op_reply_369_1_1 = {
+		value = "Too much? I'm not a baby, Comrade Commander! I can hold my liquor juuuuust fine!"
+	},
+	ins_370 = {
+		value = ""
+	},
+	ins_discuss_370_1 = {
+		value = ""
+	},
+	ins_reply_370_1_1 = {
+		value = ""
+	},
+	ins_reply_370_1_2 = {
+		value = ""
+	},
+	ins_discuss_370_2 = {
+		value = ""
+	},
+	ins_reply_370_2_1 = {
+		value = ""
+	},
+	ins_discuss_370_3 = {
+		value = ""
+	},
+	ins_reply_370_3_1 = {
+		value = ""
+	},
+	ins_reply_370_3_2 = {
+		value = ""
+	},
+	ins_op_370_1_1 = {
+		value = ""
+	},
+	op_reply_370_1_1 = {
+		value = ""
+	},
+	ins_371 = {
+		value = ""
+	},
+	ins_discuss_371_1 = {
+		value = ""
+	},
+	ins_reply_371_1_1 = {
+		value = ""
+	},
+	ins_discuss_371_2 = {
+		value = ""
+	},
+	ins_reply_371_2_1 = {
+		value = ""
+	},
+	ins_reply_371_2_2 = {
+		value = ""
+	},
+	ins_reply_371_2_3 = {
+		value = ""
+	},
+	ins_discuss_371_3 = {
+		value = ""
+	},
+	ins_reply_371_3_1 = {
+		value = ""
+	},
+	ins_op_371_1_1 = {
+		value = ""
+	},
+	op_reply_371_1_1 = {
+		value = ""
+	},
+	ins_372 = {
+		value = ""
+	},
+	ins_discuss_372_1 = {
+		value = ""
+	},
+	ins_reply_372_1_1 = {
+		value = ""
+	},
+	ins_reply_372_1_2 = {
+		value = ""
+	},
+	ins_reply_372_1_3 = {
+		value = ""
+	},
+	ins_reply_372_1_4 = {
+		value = ""
+	},
+	ins_discuss_372_2 = {
+		value = ""
+	},
+	ins_reply_372_2_1 = {
+		value = ""
+	},
+	ins_op_372_1_1 = {
+		value = ""
+	},
+	op_reply_372_1_1 = {
+		value = ""
+	},
+	ins_373 = {
+		value = ""
+	},
+	ins_discuss_373_1 = {
+		value = ""
+	},
+	ins_reply_373_1_1 = {
+		value = ""
+	},
+	ins_discuss_373_2 = {
+		value = ""
+	},
+	ins_reply_373_2_1 = {
+		value = ""
+	},
+	ins_reply_373_2_2 = {
+		value = ""
+	},
+	ins_reply_373_2_3 = {
+		value = ""
+	},
+	ins_reply_373_2_4 = {
+		value = ""
+	},
+	ins_op_373_1_1 = {
+		value = ""
+	},
+	op_reply_373_1_1 = {
 		value = ""
 	}
 }

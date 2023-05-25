@@ -257,12 +257,19 @@ function slot0.execute(slot0, slot1)
 			}))
 		end
 	elseif DROP_TYPE_USE_ACTIVITY_DROP < slot2.dropType then
-		if slot2.dropType == DROP_TYPE_RYZA_DROP and getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot2.dropType] and slot3.activity_id) and not slot4:isEnd() then
-			slot4:AddItem(AtelierMaterial.New({
-				configId = slot2.id,
-				count = slot2.count
-			}))
-			getProxy(ActivityProxy):updateActivity(slot4)
+		slot3 = getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot2.dropType].activity_id)
+
+		if slot2.dropType == DROP_TYPE_RYZA_DROP then
+			if slot3 and not slot3:isEnd() then
+				slot3:AddItem(AtelierMaterial.New({
+					configId = slot2.id,
+					count = slot2.count
+				}))
+				getProxy(ActivityProxy):updateActivity(slot3)
+			end
+		elseif slot3 and not slot3:isEnd() then
+			slot3:addVitemNumber(slot2.id, slot2.count)
+			getProxy(ActivityProxy):updateActivity(slot3)
 		end
 	else
 		print("can not handle this type>>" .. slot2.dropType)

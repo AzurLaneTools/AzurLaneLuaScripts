@@ -18,10 +18,11 @@ slot0.TYPES = {
 	ACT_RETURN = 16,
 	COMMANDER = 10,
 	RYZA_TASK = 21,
+	ISLAND = 22,
 	EVENT = 15,
-	BUILD = 4,
 	SERVER = 12,
 	BLUEPRINT = 14,
+	BUILD = 4,
 	ACT_NEWBIE = 17,
 	VOTE_OREDER = 18,
 	ATTIRE = 6,
@@ -131,6 +132,9 @@ function slot0.BindConditions(slot0)
 	end)
 	slot0:BindCondition(uv0.TYPES.RYZA_TASK, function ()
 		return getProxy(ActivityTaskProxy):getActTaskTip(ActivityConst.RYZA_TASK)
+	end)
+	slot0:BindCondition(uv0.TYPES.ISLAND, function ()
+		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND))
 	end)
 end
 

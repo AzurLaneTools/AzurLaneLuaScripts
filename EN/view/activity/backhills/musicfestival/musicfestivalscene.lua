@@ -29,7 +29,7 @@ function slot0.init(slot0)
 
 	setActive(slot0._modeltip, false)
 
-	slot0.graphPath = GraphPath.New("GameCfg/BackHillGraphs/MusicFestivalGraph")
+	slot0.graphPath = GraphPath.New(import("GameCfg/BackHillGraphs/MusicFestivalGraph"))
 	slot0._loadingRequest = {}
 	slot0._ReturnRequest = {}
 	slot1 = "ouxiangxiaoditu"
@@ -283,21 +283,6 @@ function slot0.clearStudents(slot0)
 	end
 
 	slot0.academyStudents = {}
-end
-
-function slot0.Clone2Full(slot0, slot1, slot2)
-	slot3 = {}
-	slot4 = slot1:GetChild(0)
-
-	for slot9 = 0, slot1.childCount - 1 do
-		table.insert(slot3, slot1:GetChild(slot9))
-	end
-
-	for slot9 = slot5, slot2 - 1 do
-		table.insert(slot3, tf(cloneTplTo(slot4, slot1)))
-	end
-
-	return slot3
 end
 
 function slot0.TryPlayStory(slot0)

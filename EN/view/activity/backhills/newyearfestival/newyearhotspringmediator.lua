@@ -6,10 +6,11 @@ slot0.OPEN_CHUANWU = "NewYearHotSpringMediator:Open chuanwu"
 function slot0.register(slot0)
 	slot0:bind(uv0.UNLOCK_SLOT, function (slot0, slot1)
 		slot2 = uv0.activity
+		slot2, slot3 = slot2:GetUpgradeCost()
 
 		MsgboxMediator.ShowMsgBox({
 			type = MSGBOX_TYPE_NORMAL,
-			content = i18n("hotspring_expand", slot2:getConfig("config_data")[1][2]),
+			content = i18n("hotspring_expand", slot3),
 			contextSprites = {
 				{
 					name = "wenquanbi",
@@ -17,15 +18,15 @@ function slot0.register(slot0)
 				}
 			},
 			onYes = function ()
-				if uv0.activity.data2 < uv1 then
+				if uv0.activity:GetCoins() < uv1 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("hotspring_tip2"))
 
 					return
 				end
 
 				uv0:sendNotification(GAME.ACTIVITY_OPERATION, {
-					cmd = 1,
-					activity_id = uv2
+					activity_id = uv2,
+					cmd = SpringActivity.OPERATION_UNLOCK
 				})
 			end
 		})
@@ -57,7 +58,7 @@ function slot0.OnSelShips(slot0, slot1, slot2)
 		mediator = DockyardMediator,
 		data = {
 			callbackQuit = true,
-			selectedMax = slot0.activity.data1,
+			selectedMax = slot0.activity:GetSlotCount(),
 			quitTeam = slot2 ~= nil,
 			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
 				isActivityNpc = true
@@ -72,7 +73,7 @@ function slot0.OnSelShips(slot0, slot1, slot2)
 			onSelected = function (slot0, slot1)
 				uv0:OnSelected(uv1, slot0, slot1)
 			end,
-			priorEquipUpShipIDList = _.filter(slot0.activity.data1_list, function (slot0)
+			priorEquipUpShipIDList = _.filter(slot0.activity:GetShipIds(), function (slot0)
 				return slot0 > 0
 			end),
 			leftTopWithFrameInfo = i18n("backyard_longpress_ship_tip"),
@@ -87,7 +88,7 @@ function slot0.GetSelectedShipIds(slot0, slot1)
 	slot2 = slot1 and slot1.id or -1
 	slot3 = {}
 
-	for slot7, slot8 in ipairs(slot0.activity.data1_list) do
+	for slot7, slot8 in ipairs(slot0.activity:GetShipIds()) do
 		if slot8 > 0 and getProxy(BayProxy):RawGetShipById(slot8) and slot9.id ~= slot2 then
 			table.insert(slot3, slot9.id)
 		end
@@ -106,17 +107,18 @@ end
 
 function slot0.OnSelected(slot0, slot1, slot2, slot3)
 	slot5 = slot0.activity
-	slot4 = Clone(slot5:getData1List())
+	slot4 = Clone(slot5:GetShipIds())
+	slot7 = slot0.activity
 
-	_.each(_.range(10), function (slot0)
+	_.each(_.range(slot7:GetSlotCount()), function (slot0)
 		uv0[slot0] = uv0[slot0] or 0
 	end)
 
 	if slot2 == nil or #slot2 == 0 then
 		if slot4[slot1] > 0 then
 			slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
-				cmd = 2,
 				activity_id = slot0.activity.id,
+				cmd = SpringActivity.OPERATION_SETSHIP,
 				kvargs1 = {
 					{
 						value = 0,
@@ -160,7 +162,7 @@ function slot0.OnSelected(slot0, slot1, slot2, slot3)
 	end
 
 	slot7 = slot0.activity
-	slot7 = slot7:getData1List()
+	slot7 = slot7:GetShipIds()
 
 	table.Foreach(slot4, function (slot0, slot1)
 		if (uv0[slot0] or 0) ~= slot1 then
@@ -173,8 +175,8 @@ function slot0.OnSelected(slot0, slot1, slot2, slot3)
 
 	if #{} > 0 then
 		slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
-			cmd = 2,
 			activity_id = slot0.activity.id,
+			cmd = SpringActivity.OPERATION_SETSHIP,
 			kvargs1 = slot6
 		})
 	end

@@ -199,6 +199,10 @@ function slot5.AddBlink(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 		return nil
 	end
 
+	if not slot0._unitData:GetExposed() then
+		return nil
+	end
+
 	slot8 = nil
 
 	return SpineAnim.CharBlink(slot0._go, slot1, slot2, slot3, slot7 or 0.18, slot4 or 0.1, slot5 or 0.1, slot6 or false)
@@ -209,6 +213,10 @@ function slot5.RemoveBlink(slot0, slot1)
 end
 
 function slot5.AddShaderColor(slot0, slot1)
+	if not slot0._unitData:GetExposed() then
+		return
+	end
+
 	SpineAnim.AddShaderColor(slot0._go, slot1 or Color.New(0, 0, 0, 0))
 end
 
@@ -538,6 +546,7 @@ function slot5.updateComponentVisible(slot0)
 	SetActive(slot0._arrowBarTf, slot4)
 	SetActive(slot0._HPBarTf, slot4)
 	SetActive(slot0._FXAttachPoint, slot4)
+	SetActive(slot0._hpPopContainerTF, slot4)
 end
 
 function slot5.updateComponentDiveInvisible(slot0)
@@ -836,8 +845,6 @@ function slot5.AddModel(slot0, slot1)
 	slot0._animator = slot0:GetTf():GetComponent(typeof(SpineAnim))
 
 	if slot0._animator then
-		slot0._animator.autoCalcComplex = true
-
 		slot0._animator:Start()
 	end
 

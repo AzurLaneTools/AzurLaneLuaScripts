@@ -1172,4 +1172,20 @@ function slot0.PopActBossRewards(slot0)
 	return slot0.actBossItems or {}
 end
 
+function slot0.WriteBackOnExitBattleResult(slot0)
+	if slot0:getActiveChapter() then
+		if slot1:existOni() then
+			slot1:clearSubmarineFleet()
+			slot0:updateChapter(slot1)
+		elseif slot1:isPlayingWithBombEnemy() then
+			slot1.fleets = {
+				slot1.fleet
+			}
+			slot1.findex = 1
+
+			slot0:updateChapter(slot1)
+		end
+	end
+end
+
 return slot0

@@ -8619,6 +8619,131 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70184] = {
+		id = 70184,
+		name = "2023俾斯麦Z活动 后撤步",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 0.5,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -0.5,
+					z = 0
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					x = -10,
+					z = 50
+				}
+			},
+			{
+				index = 4,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70185] = {
+		id = 70185,
+		name = "2023俾斯麦Z活动 革律翁水平追踪移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 8,
+				param = {
+					X = -30,
+					duration = 1,
+					offsetZ = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 8,
+				param = {
+					X = -30,
+					duration = 3.5,
+					offsetZ = 0
+				}
+			},
+			{
+				index = 3,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 3.5
+				}
+			}
+		}
+	},
+	[70186] = {
+		id = 70186,
+		name = "2023俾斯麦Z活动 革律翁回中心",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -20,
+					z = 38
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70188] = {
+		id = 70188,
+		name = "2023俾斯麦Z活动 回初始地点",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -10,
+					z = 50
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

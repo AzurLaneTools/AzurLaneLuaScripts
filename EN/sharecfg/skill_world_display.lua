@@ -2818,6 +2818,137 @@ When the HP of a CV or CVL in your fleet falls below 20.0% as a result of DMG ta
 			}
 		}
 	},
+	[800790] = {
+		desc_get = "",
+		id = 800790,
+		desc = "[Operation Siren]\nWhen called in as Submarine Support in Operation Siren, AP consumption is decreased by $1. When the battle starts, if there are any other SSs in your fleet: increases this boat's TRP by $2. When this boat resurfaces: fires a $3 torpedo barrage (DMG is based on the skill's level) and this boat recovers 500 HP.",
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.8%"
+				},
+				{
+					"5.3%",
+					"+0.8%"
+				},
+				{
+					"6.1%",
+					"+0.9%"
+				},
+				{
+					"7.0%",
+					"+0.8%"
+				},
+				{
+					"7.8%",
+					"+0.8%"
+				},
+				{
+					"8.6%",
+					"+0.9%"
+				},
+				{
+					"9.5%",
+					"+0.8%"
+				},
+				{
+					"10.3%",
+					"+0.8%"
+				},
+				{
+					"11.1%",
+					"+0.9%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[800121] = {
 		desc_get = "",
 		id = 800121,
@@ -2916,6 +3047,20 @@ When the HP of a CV or CVL in your fleet falls below 20.0% as a result of DMG ta
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[800811] = {
+		desc_get = "",
+		id = 800811,
+		desc = "[Operation Siren]\nFires a special barrage immediately after entering the battle. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[800812] = {
+		desc_get = "",
+		id = 800812,
+		desc = "[Operation Siren]\nFires a special barrage immediately after entering the battle. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		3631,
 		4161,
@@ -2944,6 +3089,7 @@ When the HP of a CV or CVL in your fleet falls below 20.0% as a result of DMG ta
 		19510,
 		105010,
 		105020,
+		800790,
 		800121,
 		800122,
 		800451,
@@ -2957,6 +3103,8 @@ When the HP of a CV or CVL in your fleet falls below 20.0% as a result of DMG ta
 		800701,
 		800702,
 		800771,
-		800772
+		800772,
+		800811,
+		800812
 	}
 }

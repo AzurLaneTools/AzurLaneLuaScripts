@@ -1769,5 +1769,45 @@ pg.name_code = {
 		id = 509,
 		name = "Mass-Produced Graf Zeppelin-class Mod I",
 		code = "Mass-Produced Graf Zeppelin-class Mod I"
+	},
+	[510] = {
+		id = 510,
+		name = "Otto von Alvensleben",
+		code = "Otto von Alvensleben"
+	},
+	[511] = {
+		id = 511,
+		name = "Otto",
+		code = "Otto"
+	},
+	[512] = {
+		id = 512,
+		name = "Alvensleben",
+		code = "Alvensleben"
+	},
+	[513] = {
+		id = 513,
+		name = "Alvensleben",
+		code = "Alvensleben"
+	},
+	[514] = {
+		id = 514,
+		name = "Bismarck Zwei",
+		code = "Bismarck Zwei"
+	},
+	[515] = {
+		id = 515,
+		name = "U-556 META",
+		code = "U-556 META"
+	},
+	[516] = {
+		id = 516,
+		name = "Regensburg",
+		code = "Regensburg"
+	},
+	[517] = {
+		id = 517,
+		name = "U-556 META?",
+		code = "U-556 META?"
 	}
 }

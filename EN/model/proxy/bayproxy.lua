@@ -120,10 +120,15 @@ function slot0.recoverAllShipEnergy(slot0)
 	slot2 = pg.energy_template[4].upper_bound
 	slot3 = {}
 	slot4 = getProxy(ActivityProxy)
+	slot4 = slot4:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING)
+	slot7 = getProxy(ActivityProxy)
+	slot8 = slot7
+	slot9 = ActivityConst.ACTIVITY_TYPE_HOTSPRING_2
 
-	table.Foreach(slot4:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING), function (slot0, slot1)
+	table.insertto(slot4, slot7.getActivitiesByType(slot8, slot9))
+	table.Foreach(slot4, function (slot0, slot1)
 		if slot1 and not slot1:isEnd() then
-			slot2 = slot1:getConfig("config_data")[1][4]
+			slot2 = slot1:GetEnergyRecoverAddition()
 
 			_.each(slot1:getData1List(), function (slot0)
 				uv0[slot0] = (uv0[slot0] or 0) + uv1

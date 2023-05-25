@@ -1,4 +1,13 @@
 slot0 = class("TechnologyTreeScene", import("..base.BaseUI"))
+slot0.NationTrige = {
+	All = 0,
+	Meta = 2,
+	Other = 1
+}
+slot0.TypeTrige = {
+	All = 0,
+	Other = 1
+}
 
 function slot0.getUIName(slot0)
 	return "TechnologyTreeUI"
@@ -7,15 +16,16 @@ end
 function slot0.init(slot0)
 	slot0:initData()
 	slot0:findUI()
+	slot0:initNationToggleUIList()
+	slot0:initTecClassUIList()
 end
 
 function slot0.didEnter(slot0)
-	slot0:updateNationItemList()
-	slot0:updateTypeItemList()
+	slot0:initTypeToggleUIList()
 	slot0:updateTecItemList()
 	slot0:addBtnListener()
 	setText(slot0.pointNumText, slot0.point)
-	slot0:refreshRedPoint(getProxy(TechnologyNationProxy):getShowRedPointTag())
+	slot0:updateRedPoint(getProxy(TechnologyNationProxy):getShowRedPointTag())
 
 	if not PlayerPrefs.HasKey("first_comein_technologytree") then
 		triggerButton(slot0.helpBtn)
@@ -24,7 +34,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.refreshRedPoint(slot0, slot1)
+function slot0.updateRedPoint(slot0, slot1)
 	setActive(slot0.redPointImg, slot1)
 end
 
@@ -41,25 +51,37 @@ function slot0.willExit(slot0)
 end
 
 function slot0.initData(slot0)
+	TechnologyConst.CreateMetaClassConfig()
+
 	slot0.nationToggleList = {}
 	slot0.typeToggleList = {}
 	slot0.nationSelectedList = {}
 	slot0.typeSelectedList = {}
 	slot0.nationSelectedCount = 0
 	slot0.typeSelectedCount = 0
+	slot0.lastNationTrige = nil
+	slot0.lastTypeTrige = nil
 	slot0.countInEveryRow = 5
 	slot0.collectionProxy = getProxy(CollectionProxy)
+	slot0.nationProxy = getProxy(TechnologyNationProxy)
+	slot0.curClassIDList = nil
 	slot0.groupIDGotList = {}
 
 	for slot5, slot6 in pairs(slot0.collectionProxy.shipGroups) do
 		slot0.groupIDGotList[#slot0.groupIDGotList + 1] = slot6.id
 	end
 
-	slot0.point = getProxy(TechnologyNationProxy):getPoint()
+	slot0.point = slot0.nationProxy:getPoint()
 	slot0.expanded = {}
 end
 
 function slot0.findUI(slot0)
+	slot0.nationAllToggle = nil
+	slot0.nationAllToggleCom = nil
+	slot0.nationMetaToggle = slot0:findTF("Adapt/Left/MetaToggle")
+	slot0.nationMetaToggleCom = GetComponent(slot0.nationMetaToggle, "Toggle")
+	slot0.typeAllToggle = nil
+	slot0.typeAllToggleCom = nil
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.adapt = slot0:findTF("adapt", slot0.blurPanel)
 	slot0.backBtn = slot0:findTF("top/back", slot0.adapt)
@@ -88,7 +110,7 @@ end
 
 function slot0.addBtnListener(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:emit(uv1.ON_BACK)
+		uv0:closeView()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.additionDetailBtn, function ()
 		uv0:emit(TechnologyConst.OPEN_ALL_BUFF_DETAIL)
@@ -106,125 +128,6 @@ function slot0.addBtnListener(slot0)
 			uv0:emit(TechnologyConst.CLOSE_TECHNOLOGY_NATION_LAYER)
 		end
 	end, SFX_PANEL)
-
-	slot5 = SFX_PANEL
-
-	onToggle(slot0, slot0.nationAllToggle, function (slot0)
-		if slot0 == true then
-			uv0.nationSelectedCount = 0
-			uv0.nationSelectedList = {}
-			uv0.nationAllToggleCom.interactable = false
-
-			for slot4, slot5 in ipairs(uv0.nationToggleList) do
-				triggerToggle(slot5, false)
-			end
-
-			uv0:updateTecItemList()
-		else
-			uv0.nationAllToggleCom.interactable = true
-		end
-	end, slot5)
-
-	function slot4(slot0)
-		if slot0 == true then
-			uv0.typeSelectedCount = 0
-			uv0.typeSelectedList = {}
-			uv0.typeAllToggleCom.interactable = false
-
-			for slot4, slot5 in ipairs(uv0.typeToggleList) do
-				triggerToggle(slot5, false)
-			end
-
-			uv0:updateTecItemList()
-		else
-			uv0.typeAllToggleCom.interactable = true
-		end
-	end
-
-	onToggle(slot0, slot0.typeAllToggle, slot4)
-
-	for slot4, slot5 in ipairs(slot0.nationToggleList) do
-		onToggle(slot0, slot5, function (slot0)
-			if slot0 == true then
-				uv0.nationSelectedCount = uv0.nationSelectedCount + 1
-
-				if uv0.nationSelectedCount == #uv0.nationToggleList then
-					triggerToggle(uv0.nationAllToggle, true)
-					onNextTick(function ()
-						setActive(uv0:findTF("UnSelectedImg", uv1), true)
-					end)
-
-					return
-				end
-
-				table.insert(uv0.nationSelectedList, TechnologyConst.NationOrder[uv2])
-
-				if uv0.nationAllToggleCom.isOn == true then
-					triggerToggle(uv0.nationAllToggle, false)
-				end
-
-				uv0:updateTecItemList()
-			elseif uv0.nationAllToggleCom.isOn == false then
-				uv0.nationSelectedCount = uv0.nationSelectedCount - 1
-
-				if uv0.nationSelectedCount == 0 then
-					triggerToggle(uv0.nationAllToggle, true)
-
-					return
-				end
-
-				if table.indexof(uv0.nationSelectedList, TechnologyConst.NationOrder[uv2], 1) then
-					table.remove(uv0.nationSelectedList, slot1)
-				end
-
-				uv0:updateTecItemList()
-			end
-		end, SFX_PANEL)
-	end
-
-	for slot4, slot5 in ipairs(slot0.typeToggleList) do
-		onToggle(slot0, slot5, function (slot0)
-			if slot0 == true then
-				uv0.typeSelectedCount = uv0.typeSelectedCount + 1
-
-				if uv0.typeSelectedCount == #uv0.typeToggleList then
-					triggerToggle(uv0.typeAllToggle, true)
-					onNextTick(function ()
-						setActive(uv0:findTF("UnSelectedImg", uv1), true)
-					end)
-
-					return
-				end
-
-				for slot4, slot5 in ipairs(TechnologyConst.TypeOrder[uv2]) do
-					table.insert(uv0.typeSelectedList, slot5)
-				end
-
-				if uv0.typeAllToggleCom.isOn == true then
-					triggerToggle(uv0.typeAllToggle, false)
-				end
-
-				uv0:updateTecItemList()
-			elseif uv0.typeAllToggleCom.isOn == false then
-				uv0.typeSelectedCount = uv0.typeSelectedCount - 1
-
-				if uv0.typeSelectedCount == 0 then
-					triggerToggle(uv0.typeAllToggle, true)
-
-					return
-				end
-
-				for slot4, slot5 in ipairs(TechnologyConst.TypeOrder[uv2]) do
-					if table.indexof(uv0.typeSelectedList, slot5, 1) then
-						table.remove(uv0.typeSelectedList, slot6)
-					end
-				end
-
-				uv0:updateTecItemList()
-			end
-		end, SFX_PANEL)
-	end
-
 	onButton(slot0, slot0.helpBtn, function ()
 		if pg.gametip.help_technologytree then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -236,7 +139,19 @@ function slot0.addBtnListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updateNationItemList(slot0)
+function slot0.initNationToggleUIList(slot0)
+	slot0.nationAllToggle = nil
+	slot0.nationAllToggleCom = nil
+	slot0.nationMetaToggle = slot0:findTF("Adapt/Left/MetaToggle")
+	slot0.nationMetaToggleCom = GetComponent(slot0.nationMetaToggle, "Toggle")
+
+	setActive(slot0.nationMetaToggle, not LOCK_TEC_META)
+
+	if LOCK_TEC_META then
+		slot1 = slot0:findTF("Adapt/Left/Scroll View")
+		slot1.offsetMin = Vector2.New(slot1.offsetMin.x, 0)
+	end
+
 	slot1 = UIItemList.New(slot0.leftContainer, slot0.selectNationItem)
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -245,24 +160,114 @@ function slot0.updateNationItemList(slot0)
 
 			if slot1 == 0 then
 				uv0.nationAllToggle = slot2
-
-				triggerToggle(slot2, true)
-
 				uv0.nationAllToggleCom = GetComponent(slot2, "Toggle")
 				uv0.nationAllToggleCom.interactable = false
-			else
-				triggerToggle(slot2, false)
 
+				triggerToggle(slot2, true)
+			else
 				uv0.nationToggleList[slot1] = slot2
+
+				triggerToggle(slot2, false)
 			end
 
 			setActive(slot2, true)
 		end
 	end)
 	slot1:align(#TechnologyConst.NationResName)
+	onToggle(slot0, slot0.nationAllToggle, function (slot0)
+		uv0.lastNationTrige = uv1.NationTrige.All
+
+		if slot0 == true then
+			uv0.nationAllToggleCom.interactable = false
+			uv0.nationSelectedCount = 0
+			uv0.nationSelectedList = {}
+
+			uv0:updateTecItemList()
+			uv0:updateNationToggleUIList()
+		else
+			uv0.nationAllToggleCom.interactable = true
+		end
+	end, SFX_PANEL)
+
+	function slot5(slot0)
+		uv0.lastNationTrige = uv1.NationTrige.Meta
+
+		if slot0 == true then
+			uv0.nationMetaToggleCom.interactable = false
+			uv0.nationSelectedCount = 0
+			uv0.nationSelectedList = {}
+
+			uv0:updateTecItemList(true)
+			uv0:updateNationToggleUIList()
+		else
+			uv0.nationMetaToggleCom.interactable = true
+		end
+	end
+
+	slot6 = SFX_PANEL
+
+	onToggle(slot0, slot0.nationMetaToggle, slot5, slot6)
+
+	for slot5, slot6 in ipairs(slot0.nationToggleList) do
+		onToggle(slot0, slot6, function (slot0)
+			uv0.lastNationTrige = uv1.NationTrige.Other
+
+			if slot0 == true then
+				uv0.nationSelectedCount = uv0.nationSelectedCount + 1
+
+				table.insert(uv0.nationSelectedList, TechnologyConst.NationOrder[uv2])
+
+				if uv0.nationSelectedCount < #uv0.nationToggleList then
+					uv0:updateNationToggleUIList()
+					uv0:updateTecItemList()
+				elseif uv0.nationSelectedCount == #uv0.nationToggleList then
+					uv0:updateNationToggleUIList()
+				end
+			elseif uv0.nationSelectedCount > 0 then
+				uv0.nationSelectedCount = uv0.nationSelectedCount - 1
+
+				if table.indexof(uv0.nationSelectedList, TechnologyConst.NationOrder[uv2], 1) then
+					table.remove(uv0.nationSelectedList, slot1)
+				end
+
+				if uv0.nationSelectedCount > 0 then
+					uv0:updateNationToggleUIList()
+					uv0:updateTecItemList()
+				elseif uv0.nationSelectedCount == 0 then
+					uv0:updateNationToggleUIList()
+				end
+			end
+		end, SFX_PANEL)
+	end
 end
 
-function slot0.updateTypeItemList(slot0)
+function slot0.updateNationToggleUIList(slot0)
+	if slot0.lastNationTrige == uv0.NationTrige.All then
+		_.each(slot0.nationToggleList, function (slot0)
+			triggerToggle(slot0, false)
+			onNextTick(function ()
+				setActive(uv0:findTF("UnSelectedImg", uv1), true)
+			end)
+		end)
+		triggerToggle(slot0.nationMetaToggle, false)
+	elseif slot0.lastNationTrige == uv0.NationTrige.Meta then
+		triggerToggle(slot0.nationAllToggle, false)
+		_.each(slot0.nationToggleList, function (slot0)
+			triggerToggle(slot0, false)
+		end)
+	elseif slot0.lastNationTrige == uv0.NationTrige.Other then
+		if slot0.nationSelectedCount <= 0 or slot0.nationSelectedCount >= #slot0.nationToggleList then
+			triggerToggle(slot0.nationAllToggle, true)
+		else
+			triggerToggle(slot0.nationAllToggle, false)
+			triggerToggle(slot0.nationMetaToggle, false)
+		end
+	end
+end
+
+function slot0.initTypeToggleUIList(slot0)
+	slot0.typeAllToggle = nil
+	slot0.typeAllToggleCom = nil
 	slot1 = UIItemList.New(slot0.bottomContainer, slot0.selectTypeItem)
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -271,87 +276,168 @@ function slot0.updateTypeItemList(slot0)
 
 			if slot1 + 1 == #TechnologyConst.TypeResName then
 				uv0.typeAllToggle = slot2
-
-				triggerToggle(slot2, true)
-
 				uv0.typeAllToggleCom = GetComponent(slot2, "Toggle")
 				uv0.typeAllToggleCom.interactable = false
-			else
-				triggerToggle(slot2, false)
 
-				uv0.typeToggleList[slot1 + 1] = slot2
+				triggerToggle(slot2, true)
+			else
+				uv0.typeToggleList[slot1] = slot2
+
+				triggerToggle(slot2, false)
 			end
 
 			setActive(slot2, true)
 		end
 	end)
 	slot1:align(#TechnologyConst.TypeResName)
+
+	function slot5(slot0)
+		uv0.lastTypeTrige = uv1.TypeTrige.All
+
+		if slot0 == true then
+			uv0.typeAllToggleCom.interactable = false
+			uv0.typeSelectedCount = 0
+			uv0.typeSelectedList = {}
+
+			uv0:updateTecItemList()
+			uv0:updateTypeToggleUIList()
+		else
+			uv0.typeAllToggleCom.interactable = true
+		end
+	end
+
+	onToggle(slot0, slot0.typeAllToggle, slot5)
+
+	for slot5, slot6 in ipairs(slot0.typeToggleList) do
+		onToggle(slot0, slot6, function (slot0)
+			uv0.lastTypeTrige = uv1.TypeTrige.Other
+
+			if slot0 == true then
+				uv0.typeSelectedCount = uv0.typeSelectedCount + 1
+
+				for slot4, slot5 in ipairs(TechnologyConst.TypeOrder[uv2]) do
+					table.insert(uv0.typeSelectedList, slot5)
+				end
+
+				if uv0.typeSelectedCount < #uv0.typeToggleList then
+					uv0:updateTypeToggleUIList()
+					uv0:updateTecItemList()
+				elseif uv0.typeSelectedCount == #uv0.typeToggleList then
+					uv0:updateTypeToggleUIList()
+				end
+			elseif uv0.typeSelectedCount > 0 then
+				uv0.typeSelectedCount = uv0.typeSelectedCount - 1
+
+				for slot4, slot5 in ipairs(TechnologyConst.TypeOrder[uv2]) do
+					if table.indexof(uv0.typeSelectedList, slot5, 1) then
+						table.remove(uv0.typeSelectedList, slot6)
+					end
+				end
+
+				if uv0.typeSelectedCount > 0 then
+					uv0:updateTypeToggleUIList()
+					uv0:updateTecItemList()
+				elseif uv0.typeSelectedCount == 0 then
+					uv0:updateTypeToggleUIList()
+				end
+			end
+		end, SFX_PANEL)
+	end
+end
+
+function slot0.updateTypeToggleUIList(slot0)
+	if slot0.lastTypeTrige == uv0.TypeTrige.All then
+		_.each(slot0.typeToggleList, function (slot0)
+			triggerToggle(slot0, false)
+			onNextTick(function ()
+				setActive(uv0:findTF("UnSelectedImg", uv1), true)
+			end)
+		end)
+	elseif slot0.lastTypeTrige == uv0.TypeTrige.Other then
+		if slot0.typeSelectedCount <= 0 or slot0.typeSelectedCount >= #slot0.typeToggleList then
+			triggerToggle(slot0.typeAllToggle, true)
+		else
+			triggerToggle(slot0.typeAllToggle, false)
+		end
+	end
+end
+
+function slot0.onClassItemUpdate(slot0, slot1, slot2)
+	slot5 = slot0:findTF("Level/LevelImg", slot2)
+	slot6 = slot0:findTF("Level/TypeTextImg", slot2)
+	slot8 = slot0:findTF("ArrowBtn", slot0:findTF("ClickBtn", slot2))
+	slot9 = slot0:getClassConfigForShow(slot1 + 1)
+	slot12 = slot9.shiptype
+	slot13 = slot9.t_level
+	slot14 = slot9.ships
+
+	setText(slot0:findTF("Name/NameText", slot2), slot9.name)
+	setImageSprite(slot0:findTF("CampBG", slot2), slot0:isMetaOn() and GetSpriteFromAtlas("TecNation", "bg_nation_meta", true) or GetSpriteFromAtlas("TecNation", "bg_nation_" .. slot9.nation, true))
+
+	if slot15 then
+		setActive(slot5, false)
+		setActive(slot6, false)
+	else
+		setImageSprite(slot5, GetSpriteFromAtlas("TecClassLevelIcon", "T" .. slot13, true), true)
+		setImageSprite(slot6, GetSpriteFromAtlas("ShipType", "ch_title_" .. slot12, true), true)
+		setActive(slot5, true)
+		setActive(slot6, true)
+	end
+
+	setLocalRotation(slot0:findTF("ClickBtn/ArrowBtn", slot2), {
+		z = 180
+	})
+
+	GetComponent(slot2, "LayoutElement").preferredHeight = slot0.rowHeight
+
+	slot0:updateShipItemList(slot14, slot0:findTF("ShipScrollView/Viewport/ShipContainer", slot2))
+	setActive(slot7, #slot14 > 5)
+	onButton(slot0, slot7, function ()
+		if uv0.rowHeight < uv0.expanded[uv1] then
+			uv0.expanded[uv1] = uv0.rowHeight
+		else
+			uv0.expanded[uv1] = uv2.rect.height
+		end
+
+		uv0.rightLSC:ScrollTo(uv0.rightLSC:HeadIndexToValue(uv1) - 0.0001)
+	end, SFX_PANEL)
+
+	slot0.expanded[slot1] = defaultValue(slot0.expanded[slot1], slot0.rowHeight)
+	GetComponent(slot2, "LayoutElement").preferredHeight = slot0.expanded[slot1]
+	slot19 = slot0:findTF("ClickBtn/ArrowBtn", slot2)
+
+	if slot0.rowHeight < slot0.expanded[slot1] then
+		setLocalRotation(slot19, {
+			z = 0
+		})
+	else
+		setLocalRotation(slot19, {
+			z = 180
+		})
+	end
+end
+
+function slot0.onClassItemReturn(slot0, slot1, slot2)
+	slot0.expanded[slot1] = defaultValue(slot0.expanded[slot1], slot0.rowHeight)
+
+	if slot0.rowHeight < slot0.expanded[slot1] then
+		-- Nothing
+	end
+end
+
+function slot0.initTecClassUIList(slot0)
+	function slot0.rightLSC.onUpdateItem(slot0, slot1)
+		uv0:onClassItemUpdate(slot0, slot1)
+	end
+
+	function slot0.rightLSC.onReturnItem(slot0, slot1)
+		uv0:onClassItemReturn(slot0, slot1)
+	end
 end
 
 function slot0.updateTecItemList(slot0)
 	slot0.expanded = {}
-	slot1 = nil
-	slot1 = (#slot0.nationSelectedList ~= 0 or #slot0.typeSelectedList ~= 0 or TechnologyConst.GetOrderClassList()) and _.select(TechnologyConst.GetOrderClassList(), function (slot0)
-		if table.indexof(#uv0.nationSelectedList == 0 and TechnologyConst.NationOrder or uv0.nationSelectedList, pg.fleet_tech_ship_class[slot0].nation, 1) then
-			if #uv0.typeSelectedList == 0 then
-				return true
-			else
-				return table.indexof(uv0.typeSelectedList, pg.fleet_tech_ship_class[slot0].shiptype, 1)
-			end
-		else
-			return false
-		end
-	end)
-
-	function slot0.rightLSC.onUpdateItem(slot0, slot1)
-		slot6 = uv0:findTF("ClickBtn", slot1)
-		slot7 = uv0:findTF("ArrowBtn", slot6)
-		slot8 = uv1[slot0 + 1]
-
-		setText(uv0:findTF("Name/NameText", slot1), pg.fleet_tech_ship_class[slot8].name)
-		setImageSprite(uv0:findTF("CampBG", slot1), GetSpriteFromAtlas("TecNation", "bg_nation_" .. pg.fleet_tech_ship_class[slot8].nation, true))
-		setImageSprite(uv0:findTF("Level/TypeTextImg", slot1), GetSpriteFromAtlas("ShipType", "ch_title_" .. pg.fleet_tech_ship_class[slot8].shiptype, true), true)
-		setImageSprite(uv0:findTF("Level/LevelImg", slot1), GetSpriteFromAtlas("TecClassLevelIcon", "T" .. pg.fleet_tech_ship_class[slot8].t_level, true), true)
-		setLocalRotation(uv0:findTF("ClickBtn/ArrowBtn", slot1), {
-			z = 180
-		})
-
-		GetComponent(slot1, "LayoutElement").preferredHeight = uv0.rowHeight
-
-		uv0:updateShipItemList(slot8, uv0:findTF("ShipScrollView/Viewport/ShipContainer", slot1))
-		setActive(slot6, #pg.fleet_tech_ship_class[slot8].ships > 5)
-		onButton(uv0, slot6, function ()
-			if uv0.rowHeight < uv0.expanded[uv1] then
-				uv0.expanded[uv1] = uv0.rowHeight
-			else
-				uv0.expanded[uv1] = uv2.rect.height
-			end
-
-			uv0.rightLSC:ScrollTo(uv0.rightLSC:HeadIndexToValue(uv1) - 0.0001)
-		end, SFX_PANEL)
-
-		uv0.expanded[slot0] = defaultValue(uv0.expanded[slot0], uv0.rowHeight)
-		GetComponent(slot1, "LayoutElement").preferredHeight = uv0.expanded[slot0]
-		slot15 = uv0:findTF("ClickBtn/ArrowBtn", slot1)
-
-		if uv0.rowHeight < uv0.expanded[slot0] then
-			setLocalRotation(slot15, {
-				z = 0
-			})
-		else
-			setLocalRotation(slot15, {
-				z = 180
-			})
-		end
-	end
-
-	function slot0.rightLSC.onReturnItem(slot0, slot1)
-		uv0.expanded[slot0] = defaultValue(uv0.expanded[slot0], uv0.rowHeight)
-
-		if uv0.rowHeight < uv0.expanded[slot0] then
-			-- Nothing
-		end
-	end
+	slot1 = slot0:getClassIDListForShow()
 
 	if slot0.rightLSC.totalCount ~= 0 then
 		slot0.rightLSC:SetTotalCount(0)
@@ -370,9 +456,9 @@ function slot0.updateTecItemList(slot0)
 end
 
 function slot0.updateShipItemList(slot0, slot1, slot2)
-	slot4 = UIItemList.New(slot2, slot0.headItem)
+	slot3 = UIItemList.New(slot2, slot0.headItem)
 
-	slot4:make(function (slot0, slot1, slot2)
+	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = uv0:findTF("BaseImg/CharImg", slot2)
 			slot5 = uv0
@@ -489,7 +575,47 @@ function slot0.updateShipItemList(slot0, slot1, slot2)
 			setActive(slot2, true)
 		end
 	end)
-	slot4:align(#pg.fleet_tech_ship_class[slot1].ships)
+	slot3:align(#slot1)
+end
+
+function slot0.getClassIDListForShow(slot0, slot1, slot2)
+	slot1 = slot1 or slot0.nationSelectedList
+	slot2 = slot2 or slot0.typeSelectedList
+
+	if not slot0:isMetaOn() then
+		slot4 = TechnologyConst.GetOrderClassList()
+		slot5 = nil
+		slot5 = #slot1 == 0 and #slot2 == 0 and slot4 or _.select(slot4, function (slot0)
+			if table.contains(uv0, pg.fleet_tech_ship_class[slot0].nation) then
+				if #uv1.typeSelectedList == 0 then
+					return true
+				else
+					return table.contains(uv1.typeSelectedList, pg.fleet_tech_ship_class[slot0].shiptype)
+				end
+			else
+				return false
+			end
+		end)
+		slot0.curClassIDList = slot5
+
+		return slot5
+	else
+		slot0.curMetaClassIDList = TechnologyConst.GetOrderMetaClassList(slot2)
+
+		return slot0.curMetaClassIDList
+	end
+end
+
+function slot0.getClassConfigForShow(slot0, slot1)
+	if not slot0:isMetaOn() then
+		return pg.fleet_tech_ship_class[slot0.curClassIDList[slot1]]
+	else
+		return TechnologyConst.GetMetaClassConfig(slot0.curMetaClassIDList[slot1], slot0.typeSelectedList)
+	end
+end
+
+function slot0.isMetaOn(slot0)
+	return slot0.nationMetaToggleCom.isOn
 end
 
 return slot0

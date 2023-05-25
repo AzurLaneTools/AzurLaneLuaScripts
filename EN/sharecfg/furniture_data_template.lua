@@ -119,6 +119,8 @@ pg.furniture_data_template = setmetatable({
 			241,
 			242,
 			243,
+			245,
+			248,
 			100002,
 			100003,
 			100004,
@@ -154,8 +156,7 @@ pg.furniture_data_template = setmetatable({
 			100036,
 			100037,
 			100038,
-			100042,
-			100044,
+			100039,
 			200001,
 			200002,
 			200003,
@@ -2569,6 +2570,65 @@ pg.furniture_data_template = setmetatable({
 			99302,
 			99303,
 			99304
+		},
+		[100] = {
+			300001,
+			300002,
+			300101,
+			300102,
+			300103,
+			300104,
+			300105,
+			300106,
+			300109,
+			300111,
+			300113,
+			300114,
+			300115,
+			300116,
+			300117,
+			300118,
+			300119,
+			300120,
+			300121,
+			300122,
+			300124,
+			300125,
+			300127,
+			300128,
+			300129,
+			300130,
+			300131,
+			300132,
+			300133,
+			300134,
+			300201,
+			300202
+		},
+		[101] = {
+			301001,
+			301002,
+			301101,
+			301102,
+			301103,
+			301104,
+			301105,
+			301106,
+			301107,
+			301108,
+			301109,
+			301110,
+			301111,
+			301112,
+			301113,
+			301114,
+			301115,
+			301116,
+			301117,
+			301118,
+			301119,
+			301120,
+			301123
 		}
 	},
 	get_id_list_by_tag = {
@@ -4088,7 +4148,53 @@ pg.furniture_data_template = setmetatable({
 			99121,
 			99123,
 			99124,
-			99126
+			99126,
+			300101,
+			300102,
+			300103,
+			300104,
+			300105,
+			300106,
+			300109,
+			300111,
+			300113,
+			300114,
+			300115,
+			300116,
+			300117,
+			300118,
+			300119,
+			300120,
+			300121,
+			300122,
+			300124,
+			300125,
+			300127,
+			300128,
+			300129,
+			300130,
+			300131,
+			301101,
+			301102,
+			301103,
+			301104,
+			301105,
+			301106,
+			301107,
+			301108,
+			301109,
+			301110,
+			301111,
+			301112,
+			301113,
+			301114,
+			301115,
+			301116,
+			301117,
+			301118,
+			301119,
+			301120,
+			301123
 		},
 		{
 			1108,
@@ -4233,7 +4339,9 @@ pg.furniture_data_template = setmetatable({
 			99201,
 			99202,
 			99203,
-			99204
+			99204,
+			300201,
+			300202
 		},
 		[6] = {
 			1,
@@ -4350,6 +4458,8 @@ pg.furniture_data_template = setmetatable({
 			241,
 			242,
 			243,
+			245,
+			248,
 			100002,
 			100003,
 			100004,
@@ -4385,8 +4495,7 @@ pg.furniture_data_template = setmetatable({
 			100036,
 			100037,
 			100038,
-			100042,
-			100044,
+			100039,
 			31101,
 			54104,
 			54105
@@ -4537,7 +4646,10 @@ pg.furniture_data_template = setmetatable({
 			96117,
 			97131,
 			98142,
-			99128
+			99128,
+			300132,
+			300133,
+			300134
 		},
 		[4] = {
 			1001,
@@ -4618,7 +4730,9 @@ pg.furniture_data_template = setmetatable({
 			96001,
 			97001,
 			98001,
-			99001
+			99001,
+			300001,
+			301001
 		},
 		[3] = {
 			1002,
@@ -4700,7 +4814,9 @@ pg.furniture_data_template = setmetatable({
 			96002,
 			97002,
 			98002,
-			99002
+			99002,
+			300002,
+			301002
 		},
 		[5] = {
 			1301,
@@ -5074,7 +5190,9 @@ pg.furniture_data_template = setmetatable({
 			96002,
 			97002,
 			98002,
-			99002
+			99002,
+			300002,
+			301002
 		},
 		[7] = {
 			1,
@@ -5173,6 +5291,8 @@ pg.furniture_data_template = setmetatable({
 			239,
 			241,
 			243,
+			245,
+			248,
 			100002,
 			100004,
 			100005,
@@ -5198,7 +5318,7 @@ pg.furniture_data_template = setmetatable({
 			100035,
 			100036,
 			100038,
-			100044
+			100039
 		},
 		[2] = {
 			120,
@@ -6711,7 +6831,51 @@ pg.furniture_data_template = setmetatable({
 			99123,
 			99124,
 			99126,
-			99128
+			99128,
+			300101,
+			300102,
+			300103,
+			300104,
+			300105,
+			300106,
+			300111,
+			300113,
+			300114,
+			300115,
+			300116,
+			300117,
+			300118,
+			300119,
+			300120,
+			300121,
+			300122,
+			300124,
+			300125,
+			300127,
+			300128,
+			300129,
+			300130,
+			300131,
+			301101,
+			301102,
+			301103,
+			301104,
+			301106,
+			301107,
+			301108,
+			301109,
+			301110,
+			301111,
+			301112,
+			301113,
+			301114,
+			301115,
+			301116,
+			301117,
+			301118,
+			301119,
+			301120,
+			301123
 		},
 		[11] = {
 			131,
@@ -6725,7 +6889,6 @@ pg.furniture_data_template = setmetatable({
 			100022,
 			100030,
 			100034,
-			100042,
 			30123,
 			35128,
 			37121,
@@ -6749,7 +6912,8 @@ pg.furniture_data_template = setmetatable({
 			84186,
 			90104,
 			90117,
-			94119
+			94119,
+			301105
 		},
 		[14] = {
 			214,
@@ -6763,7 +6927,10 @@ pg.furniture_data_template = setmetatable({
 			81132,
 			84174,
 			86122,
-			89126
+			89126,
+			300132,
+			300133,
+			300134
 		},
 		[4] = {
 			1001,
@@ -6844,7 +7011,9 @@ pg.furniture_data_template = setmetatable({
 			96001,
 			97001,
 			98001,
-			99001
+			99001,
+			300001,
+			301001
 		},
 		[5] = {
 			1101,
@@ -6971,7 +7140,8 @@ pg.furniture_data_template = setmetatable({
 			95120,
 			97128,
 			98105,
-			98138
+			98138,
+			300109
 		},
 		[3] = {
 			1108,
@@ -7117,7 +7287,9 @@ pg.furniture_data_template = setmetatable({
 			99201,
 			99202,
 			99203,
-			99204
+			99204,
+			300201,
+			300202
 		},
 		[6] = {
 			1301,
@@ -7548,6 +7720,8 @@ pg.furniture_data_template = setmetatable({
 		241,
 		242,
 		243,
+		245,
+		248,
 		100002,
 		100003,
 		100004,
@@ -7583,8 +7757,7 @@ pg.furniture_data_template = setmetatable({
 		100036,
 		100037,
 		100038,
-		100042,
-		100044,
+		100039,
 		200001,
 		200002,
 		200003,
@@ -9835,7 +10008,62 @@ pg.furniture_data_template = setmetatable({
 		99301,
 		99302,
 		99303,
-		99304
+		99304,
+		300001,
+		300002,
+		300101,
+		300102,
+		300103,
+		300104,
+		300105,
+		300106,
+		300109,
+		300111,
+		300113,
+		300114,
+		300115,
+		300116,
+		300117,
+		300118,
+		300119,
+		300120,
+		300121,
+		300122,
+		300124,
+		300125,
+		300127,
+		300128,
+		300129,
+		300130,
+		300131,
+		300132,
+		300133,
+		300134,
+		300201,
+		300202,
+		301001,
+		301002,
+		301101,
+		301102,
+		301103,
+		301104,
+		301105,
+		301106,
+		301107,
+		301108,
+		301109,
+		301110,
+		301111,
+		301112,
+		301113,
+		301114,
+		301115,
+		301116,
+		301117,
+		301118,
+		301119,
+		301120,
+		301123
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -15426,6 +15654,92 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[245] = {
+		effect = "",
+		name = "Trailblazer's Compass",
+		gain_by = "Uncharted Summer",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A mysterious golden compass retrieved from Seabreeze Island's ruins by a Tempesta girl. According to her, this is the TRUE treasure...? –Awarded to Commanders who participated in the \"Uncharted Summer\" event.",
+		tag = 6,
+		icon = "haidaoxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 245,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"haidaoxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[248] = {
+		effect = "",
+		name = "Hourglass of Nothingness",
+		gain_by = "Confluence of Nothingness",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It compels you to stop and stare until the sand runs out, at which point everything repeats itself again. Awarded to Commanders who participated in the \"Confluence of Nothingness\" event.",
+		tag = 6,
+		icon = "bisimaizxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 248,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"bisimaizxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -17953,11 +18267,11 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
-	[100042] = {
+	[100039] = {
 		effect = "",
-		name = "",
+		name = "Manjuu Electric Fan",
 		gain_by = "",
-		type = 11,
+		type = 7,
 		dir = 0,
 		dorm_id = 0,
 		picture = "",
@@ -17965,9 +18279,9 @@ pg.base.furniture_data_template = {
 		deblocking = 1,
 		count = 1,
 		is_3d_obj = 0,
-		describe = "",
+		describe = "It's time to d-d-d-d-duel, peep!",
 		themeId = 0,
-		icon = "feixingsaozhouicon",
+		icon = "jiujiufengshanicon",
 		spine_extra = "",
 		level = 1,
 		advice = 0,
@@ -17977,11 +18291,11 @@ pg.base.furniture_data_template = {
 		spine_action_replace = "",
 		belong = 1,
 		canputon = 0,
-		id = 100042,
+		id = 100039,
 		can_rotate = 0,
 		size = {
-			1,
-			1
+			8,
+			6
 		},
 		offset = {},
 		canputonGrid = {},
@@ -17990,12 +18304,12 @@ pg.base.furniture_data_template = {
 		},
 		spine = {
 			{
-				"feixingsaozhou",
-				"normal",
-				nil,
-				true
+				"jiujiufengshanB",
+				"normal"
 			},
-			{},
+			{
+				"jiujiufengshanT"
+			},
 			{
 				{
 					0,
@@ -18004,6 +18318,9 @@ pg.base.furniture_data_template = {
 				{
 					{
 						"sit"
+					},
+					{
+						"tuozhuai2"
 					}
 				},
 				{
@@ -18011,7 +18328,7 @@ pg.base.furniture_data_template = {
 					1
 				},
 				{
-					1
+					0
 				}
 			},
 			{},
@@ -18022,92 +18339,11 @@ pg.base.furniture_data_template = {
 			{
 				1,
 				1
-			},
-			0.5
-		},
-		followBone = {
-			"char",
-			1
-		},
-		interAction_group = {}
-	},
-	[100044] = {
-		effect = "",
-		name = "火堆",
-		gain_by = "",
-		type = 7,
-		dir = 0,
-		dorm_id = 0,
-		picture = "",
-		is_get_time_note = 0,
-		deblocking = 1,
-		count = 1,
-		is_3d_obj = 0,
-		describe = "稍微…休息一下啾……",
-		themeId = 0,
-		icon = "jiujiuyinghuoicon",
-		spine_extra = "",
-		level = 1,
-		advice = 0,
-		rarity = 4,
-		tag = 6,
-		comfortable = 0,
-		spine_action_replace = "",
-		belong = 1,
-		canputon = 0,
-		id = 100044,
-		can_rotate = 0,
-		size = {
-			5,
-			5
-		},
-		offset = {},
-		canputonGrid = {},
-		can_trigger = {
-			0
-		},
-		spine = {
-			{
-				"jiujiuyinghuoB",
-				"normal"
-			},
-			{
-				"jiujiuyinghuoT"
-			},
-			{
-				{
-					0,
-					0
-				},
-				{
-					{
-						"sit2",
-						0,
-						"sit"
-					}
-				},
-				{
-					nil,
-					nil,
-					{
-						"sit1",
-						"sit"
-					},
-					"sit"
-				},
-				{
-					1
-				}
-			},
-			{},
-			{
-				0,
-				0
 			}
 		},
 		followBone = {
 			"char",
-			-1
+			1
 		},
 		interAction_group = {}
 	},
@@ -115792,6 +116028,2622 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[300001] = {
+		icon = "dibanjdicon",
+		name = "Deserted Island Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 100,
+		picture = "jd/dibanjd",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "An untouched plot of land, ripe for development.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 300001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300002] = {
+		icon = "qiangbijdicon",
+		name = "Deserted Island Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 100,
+		picture = "jd/qiangbijd",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "Need wood? Just go out there and get chopping.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 300002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300101] = {
+		effect = "",
+		name = "Deserted Island Hammock",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "jd/diaochuangjd",
+		is_get_time_note = 0,
+		themeId = 100,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A cozy spot for a nap.",
+		tag = 1,
+		icon = "diaochuangjdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300101,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					52.1,
+					-30.5
+				},
+				{
+					1,
+					1
+				},
+				"jd/diaochuangjd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300102] = {
+		effect = "",
+		name = "Deserted Island Workbench",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/gongzuotaijd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Comes with a handy 3x3 grid for arranging crafting materials.",
+		tag = 1,
+		icon = "gongzuotaijdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300102,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300103] = {
+		effect = "",
+		name = "Deserted Island Bushes",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/guanmucongjd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Well-pruned, or just a wonder of evolution?",
+		tag = 1,
+		icon = "guanmucongjdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300103,
+		can_rotate = 0,
+		size = {
+			1,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300104] = {
+		effect = "",
+		name = "Deserted Island Spitroast",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/kaoroujd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "We're eating good tonight!",
+		tag = 1,
+		icon = "kaoroujdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300104,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300105] = {
+		effect = "",
+		name = "Deserted Island Grilled Fish",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/kaoyujd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Crispy on the outside, juicy on the inside.",
+		tag = 1,
+		icon = "kaoyujdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300105,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300106] = {
+		effect = "",
+		name = "Deserted Island Hanging Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/ludengjd",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "Gas-powered, like they used to be in the olden days.",
+		tag = 1,
+		icon = "ludengjdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300106,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300109] = {
+		effect = "",
+		name = "Deserted Island Plank Path",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/mubanlujd",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Walking the plank doesn't seem so scary anymore.",
+		tag = 1,
+		icon = "mubanlujdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300109,
+		can_rotate = 0,
+		size = {
+			2,
+			12
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300111] = {
+		effect = "",
+		name = "Deserted Island Lumber Stack",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/mucaiduijd",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Don't bring it up within earshot of Formidable.",
+		tag = 1,
+		icon = "mucaiduijdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300111,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300113] = {
+		effect = "",
+		name = "Deserted Island Wood Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/muzhuojd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Simple, but gets the job done.",
+		tag = 1,
+		icon = "muzhuojdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		id = 300113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300114] = {
+		effect = "",
+		name = "Deserted Island Swing",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "jd/qiuqianjd",
+		is_get_time_note = 0,
+		themeId = 100,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Careful not to swing too high, or you might get launched into orbit.",
+		tag = 1,
+		icon = "qiuqianjdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300114,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					8.1,
+					-31.6
+				},
+				{
+					1,
+					1
+				},
+				"jd/qiuqianjd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300115] = {
+		effect = "",
+		name = "Deserted Island Barbecue",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/shaokaojiajd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Mmm, barbecue...",
+		tag = 1,
+		icon = "shaokaojiajdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300115,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300116] = {
+		effect = "",
+		name = "Deserted Island Stone Wall 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/shitouweiqiang1jd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Seems you weren't the first to settle this island.",
+		tag = 1,
+		icon = "shitouweiqiang1jdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300116,
+		can_rotate = 0,
+		size = {
+			1,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300117] = {
+		effect = "",
+		name = "Deserted Island Stone Wall 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/shitouweiqiang2jd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's seen better days.",
+		tag = 1,
+		icon = "shitouweiqiang2jdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300117,
+		can_rotate = 0,
+		size = {
+			10,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300118] = {
+		effect = "",
+		name = "Deserted Island Pond",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "jd/shuichijd",
+		is_get_time_note = 0,
+		themeId = 100,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A small reservoir home to a couple of fish.",
+		tag = 1,
+		icon = "shuichijdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300118,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					76.4,
+					-60.3
+				},
+				{
+					1,
+					1
+				},
+				"jd/shuichijd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300119] = {
+		effect = "",
+		name = "Deserted Island Treehouse",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/shuwujd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The childhood dream so many of us had, yet so few of us made real.",
+		tag = 1,
+		icon = "shuwujdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300119,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300120] = {
+		effect = "",
+		name = "Deserted Island Stump",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/shuzhuangjd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It works as a makeshift table.",
+		tag = 1,
+		icon = "shuzhuangjdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		id = 300120,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {
+			0,
+			18.72
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300121] = {
+		effect = "",
+		name = "Deserted Island Fence 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/weilan1jd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Establishes a line between you and the wilderness.",
+		tag = 1,
+		icon = "weilan1jdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300121,
+		can_rotate = 0,
+		size = {
+			1,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300122] = {
+		effect = "",
+		name = "Deserted Island Fence 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/weilan2jd",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Establishes a line between you and the wilderness.",
+		tag = 1,
+		icon = "weilan2jdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300122,
+		can_rotate = 0,
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300124] = {
+		effect = "",
+		name = "Deserted Island Stump Stool 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "jd/yuandeng1jd",
+		is_get_time_note = 0,
+		themeId = 100,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Big brother to Stumpy, the smaller of the two.",
+		tag = 1,
+		icon = "yuandeng1jdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300124,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-3.8,
+					48
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300125] = {
+		effect = "",
+		name = "Deserted Island Stump Stool 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "jd/yuandeng2jd",
+		is_get_time_note = 0,
+		themeId = 100,
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Little brother to Stumpus, the bigger of the two.",
+		tag = 1,
+		icon = "yuandeng2jdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300125,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-3.8,
+					40.6
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300127] = {
+		effect = "",
+		name = "Deserted Island Log Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "jd/yuanmuzhuangjd",
+		is_get_time_note = 0,
+		themeId = 100,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The place you want to be for ghost stories around the campfire.",
+		tag = 1,
+		icon = "yuanmuzhuangjdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300127,
+		can_rotate = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-12.1,
+					38
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300128] = {
+		effect = "",
+		name = "Deserted Island Cooking Furnace",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/zaotaijd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Who wants hot pot?",
+		tag = 1,
+		icon = "zaotaijdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300128,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300129] = {
+		effect = "",
+		name = "Deserted Island Tent",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "jd/zhangpengjd",
+		is_get_time_note = 0,
+		themeId = 100,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A literal, but not invalid, interpretation of big tent policies.",
+		tag = 1,
+		icon = "zhangpengjdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300129,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					3.7,
+					-19.3
+				},
+				{
+					-1,
+					1
+				},
+				"jd/zhangpengjd_using",
+				0,
+				{
+					{
+						-55.6,
+						-7.2
+					},
+					{
+						145,
+						145
+					},
+					"jd/zhangpengjd_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300130] = {
+		effect = "",
+		name = "Deserted Island Folding Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "jd/zhedieyijd",
+		is_get_time_note = 0,
+		themeId = 100,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Easy to move around and even easier to doze off in.",
+		tag = 1,
+		icon = "zhedieyijdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300130,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					19.1,
+					24.3
+				},
+				{
+					1,
+					1
+				},
+				"jd/zhedieyijd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300131] = {
+		effect = "",
+		name = "Deserted Island Signpost",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/zhishipaijd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It will prove invaluable as the camp grows in size.",
+		tag = 1,
+		icon = "zhishipaijdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300131,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300132] = {
+		effect = "",
+		name = "Deserted Island Crate",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "What's inside? It's-a-supplies.",
+		tag = 7,
+		icon = "muxiangjdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		comfortable = 4,
+		belong = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 300132,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"muxiangjdB",
+				"normal"
+			},
+			{
+				"muxiangjdT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance1",
+						"muxiangjdCharControl",
+						"dance"
+					},
+					{
+						"dance2",
+						"muxiangjdCharControl",
+						"dance"
+					},
+					{
+						"dance3",
+						"muxiangjdCharControl",
+						"dance"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"muxiangjdCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[300133] = {
+		effect = "",
+		name = "Deserted Island Dining Table",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "This manjuu can hardly wait for din-dins.",
+		tag = 7,
+		icon = "shangcaizhuojdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		comfortable = 4,
+		belong = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 300133,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shangcaizhuojdB",
+				"normal"
+			},
+			{
+				"shangcaizhuojdT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						"shangcaizhuojdCharControl",
+						"sit"
+					},
+					{
+						"sit2",
+						"shangcaizhuojdCharControl",
+						"sit"
+					},
+					{
+						"sit3",
+						"shangcaizhuojdCharControl",
+						"sit"
+					},
+					{
+						"sit4",
+						"shangcaizhuojdCharControl",
+						"sit"
+					},
+					{
+						"sit5",
+						"shangcaizhuojdCharControl",
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"shangcaizhuojdCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[300134] = {
+		effect = "",
+		name = "Deserted Island Stone Pot",
+		gain_by = "",
+		type = 13,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "If you toss something in it, does that make you a tosspot?",
+		tag = 7,
+		icon = "shiguojdicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		comfortable = 4,
+		belong = 1,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 300134,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shiguojd",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance1",
+						"shiguojdCharControl",
+						"dance"
+					},
+					{
+						"dance2",
+						"shiguojdCharControl",
+						"dance"
+					},
+					{
+						"dance3",
+						"shiguojdCharControl",
+						"dance"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"shiguojdCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[300201] = {
+		effect = "",
+		name = "Deserted Island Coffeemaker",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/hujd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "You don't need electricity to make a good cuppa joe.",
+		tag = 2,
+		icon = "hujdicon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300201,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300202] = {
+		effect = "",
+		name = "Deserted Island Cup of Coffee",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 100,
+		is_get_time_note = 0,
+		picture = "jd/kafeibeijd",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Is that... milk? Blasphemy!",
+		tag = 2,
+		icon = "kafeibeijdicon",
+		spine_extra = "",
+		level = 2,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 300202,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[301001] = {
+		icon = "dibanzyicon",
+		name = "Manor Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 101,
+		picture = "zy/dibanzy",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "The snaking river hisses gently.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 301001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[301002] = {
+		icon = "qiangbizyicon",
+		name = "Manor Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		themeId = 101,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "The forest beyond is dark, but beautiful.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 301002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbizy",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[301101] = {
+		effect = "",
+		name = "Manor Bench",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "zy/changyizy",
+		is_get_time_note = 0,
+		themeId = 101,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A regular bench embellished with flowers.",
+		tag = 1,
+		icon = "changyizyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301101,
+		can_rotate = 0,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					22.4,
+					20.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[301102] = {
+		effect = "",
+		name = "Manor Flower Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "This king-sized bed smells as floral as it looks.",
+		themeId = 101,
+		icon = "chuangzyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301102,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuangzyB",
+				"normal"
+			},
+			{
+				"chuangzyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[301103] = {
+		effect = "",
+		name = "Manor Hut",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "zy/fangzizy",
+		is_get_time_note = 0,
+		themeId = 101,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Flowers bloom on its roof, as though the hut has been enchanted with magic.",
+		tag = 1,
+		icon = "fangzizyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301103,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					19.1,
+					-167
+				},
+				{
+					1,
+					1
+				},
+				"zy/fangzizy_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[301104] = {
+		effect = "",
+		name = "Manor Canvas",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Paint me like one of your Iris girls.",
+		themeId = 101,
+		icon = "huabanzyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301104,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huabanzy",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[301105] = {
+		effect = "",
+		name = "Manor Flower Carriage",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "The best means of conveyance during a parade.",
+		themeId = 101,
+		icon = "huachezyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301105,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huachezyB",
+				"normal"
+			},
+			{
+				"huachezyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[301106] = {
+		effect = "",
+		name = "Manor Flower Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 101,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A lamp so well-crafted, you might be fooled into thinking it's a real, glowing plant.",
+		tag = 1,
+		icon = "huadengzyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301106,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huadengzy",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[301107] = {
+		effect = "",
+		name = "Manor Greenhouse",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 101,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "This is where the magic happens.",
+		tag = 1,
+		icon = "huapengzyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301107,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huapengzy",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[301108] = {
+		effect = "",
+		name = "Manor Flower Garden",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 101,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Remember to water your lilies.",
+		tag = 1,
+		icon = "huatianzyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301108,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huatianzy",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[301109] = {
+		effect = "",
+		name = "Manor Wood Bridge",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 101,
+		is_get_time_note = 0,
+		picture = "zy/qiaozy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "While comparatively small, it's big enough to span the narrow river.",
+		tag = 1,
+		icon = "qiaozyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301109,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[301110] = {
+		effect = "",
+		name = "Manor Swing",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Petals scatter as you go back and forth.",
+		themeId = 101,
+		icon = "qiuqianzyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301110,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiuqianzyB",
+				"normal"
+			},
+			{
+				"qiuqianzyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[301111] = {
+		effect = "",
+		name = "Manor Well",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 101,
+		is_get_time_note = 0,
+		picture = "zy/shujingzy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "An ordinary well. Sadly, it hides no secrets.",
+		tag = 1,
+		icon = "shujingzyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301111,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[301112] = {
+		effect = "",
+		name = "Manor Harp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Music, too, has a color.",
+		themeId = 101,
+		icon = "shuqingzyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301112,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shuqinzy",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[301113] = {
+		effect = "",
+		name = "Manor Dressing Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "zy/shuzhuangtaizy",
+		is_get_time_note = 0,
+		themeId = 101,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Everything you need to out-pretty even the flowers.",
+		tag = 1,
+		icon = "shuzhuangtaizyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301113,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					23.9,
+					-53.4
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[301114] = {
+		effect = "",
+		name = "Manor Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "zy/shuzhuozy",
+		is_get_time_note = 0,
+		themeId = 101,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Reading in fresh air is so much better for you.",
+		tag = 1,
+		icon = "shuzhuozyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301114,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-40.8,
+					4.5
+				},
+				{
+					1,
+					1
+				},
+				"zy/shuzhuozy_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[301115] = {
+		effect = "",
+		name = "Manor Pavilion",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 101,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A modest pavilion that is beloved by many a vine.",
+		tag = 1,
+		icon = "tingzizyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301115,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tingzizy",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[301116] = {
+		effect = "",
+		name = "Manor Candle Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 101,
+		is_get_time_note = 0,
+		picture = "zy/xiaodengzy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Looks like a candle at a distance, but it's actually a lamp powered by electricity.",
+		tag = 1,
+		icon = "xiaodengzyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301116,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[301117] = {
+		effect = "",
+		name = "Manor Mailbox",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 101,
+		is_get_time_note = 0,
+		picture = "zy/youxiangzy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It doesn't get more simple than this.",
+		tag = 1,
+		icon = "youxiangzyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301117,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[301118] = {
+		effect = "",
+		name = "Manor Bathtub",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Ah, aren't floral baths just so romantic?",
+		themeId = 101,
+		icon = "yuchizyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301118,
+		can_rotate = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuchizyB",
+				"normal"
+			},
+			{
+				"yuchizyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					20.3,
+					158.9
+				},
+				{
+					229,
+					296
+				},
+				"zy/yuchizy_mask"
+			},
+			{
+				-9.5,
+				-161
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[301119] = {
+		effect = "",
+		name = "Manor Grandfather Clock",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 101,
+		is_get_time_note = 0,
+		picture = "zy/zhongzy",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Tick, tock, tick, tock... Time is passing.",
+		tag = 1,
+		icon = "zhongzyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301119,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[301120] = {
+		effect = "",
+		name = "Manor Blossom Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 101,
+		is_get_time_note = 0,
+		picture = "zy/hualanzy",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "Here we see a vignette of strife as the flowers compete for space.",
+		tag = 1,
+		icon = "hualanzyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301120,
+		can_rotate = 0,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[301123] = {
+		effect = "",
+		name = "Blooming Moment",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 101,
+		count = 4,
+		is_3d_obj = 0,
+		describe = "The whisper of a blooming flower... Can you hear it?",
+		tag = 1,
+		icon = "kaihuazyicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 301123,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"kaihuazy",
+				"normal"
+			}
 		},
 		interAction_group = {}
 	}

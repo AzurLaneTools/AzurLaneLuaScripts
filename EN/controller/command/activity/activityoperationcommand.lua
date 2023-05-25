@@ -35,6 +35,8 @@ function slot0.execute(slot0, slot1)
 				return
 			end
 		end
+	elseif slot4 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 and slot2.cmd == 2 and not slot3:CanRequest() then
+		return
 	end
 
 	print(slot2.activity_id, slot2.cmd, slot2.arg1, slot2.arg2)
@@ -52,6 +54,7 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			slot1 = PlayerConst.GetTranAwards(uv0, slot0)
 
+			getProxy(ActivityTaskProxy):checkAutoSubmit()
 			uv1:performance(uv0, slot0, uv1:updateActivityData(uv0, slot0, uv2, slot1), slot1)
 		else
 			originalPrint("activity op ret code: " .. slot0.result)
@@ -371,12 +374,35 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		if not table.contains(slot3.data1_list, slot2.number[1]) then
 			table.insert(slot3.data1_list, slot2.number[1])
 		end
-	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
-		slot9 = slot3.data1KeyValueList[2][slot1.arg1] or 1
-		slot3.data1KeyValueList[2][slot1.arg1] = slot9 + 1
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF or slot5 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
+		if slot1.cmd == 1 then
+			slot9 = slot3:GetBuildingLevel(slot1.arg1)
 
-		if slot9 < #pg.activity_event_building[slot1.arg1].buff then
-			slot3.data1KeyValueList[1][slot10] = math.max((slot3.data1KeyValueList[1][slot8.material_id] or 0) - slot8.material[slot9], 0)
+			slot3:SetBuildingLevel(slot1.arg1, slot9 + 1)
+
+			if slot9 < #pg.activity_event_building[slot1.arg1].buff then
+				_.each(slot8.material[slot9], function (slot0)
+					slot2 = slot0[2]
+					slot3 = slot0[3]
+					slot4 = nil
+
+					if slot0[1] == DROP_TYPE_VITEM then
+						assert(AcessWithinNull(pg.item_data_statistics[slot2], "link_id") == uv0.id)
+
+						slot4 = uv0
+					elseif DROP_TYPE_USE_ACTIVITY_DROP < slot1 then
+						slot4 = getProxy(ActivityProxy):getActivityById(AcessWithinNull(pg.activity_drop_type[slot1], "activity_id"))
+					end
+
+					slot4.data1KeyValueList[1][slot2] = math.max(0, (slot4.data1KeyValueList[1][slot2] or 0) - slot3)
+
+					if DROP_TYPE_USE_ACTIVITY_DROP < slot1 then
+						getProxy(ActivityProxy):updateActivity(slot4)
+					end
+				end)
+			end
+		elseif slot1.cmd == 2 and slot5 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
+			slot3:RecordLastRequestTime()
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_EXPEDITION then
 		if slot1.cmd == 0 then
@@ -450,19 +476,14 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			slot3.data2 = 1
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_HOTSPRING then
-		if slot1.cmd == 1 then
-			slot3.data1 = slot3.data1 + 1
-			slot8 = slot3:getData1List()
-			slot8[slot3.data1] = 0
-
-			slot3:setDataList(slot8)
-
-			slot3.data2 = math.max(0, slot3.data2 - slot3:getConfig("config_data")[1][2])
-		elseif slot1.cmd == 2 then
-			table.Foreach(slot1.kvargs1, function (slot0, slot1)
-				uv0[slot1.key] = slot1.value
-			end)
-			slot3:setDataList(slot3:getData1List())
+		if slot1.cmd == SpringActivity.OPERATION_UNLOCK then
+			slot3:AddSlotCount()
+		elseif slot1.cmd == SpringActivity.OPERATION_SETSHIP then
+			slot3:SetShipIds(slot1.kvargs1)
+		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_HOTSPRING_2 then
+		if slot1.cmd == Spring2Activity.OPERATION_SETSHIP then
+			slot3:SetShipIds(slot1.kvargs1)
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_FIREWORK and slot1.cmd == 1 then
 		slot3.data1 = slot3.data1 - 1
@@ -558,8 +579,10 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
 				end
 			end
-		elseif uv0 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("building_complete_tip"))
+		elseif uv0 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF or uv0 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
+			if uv6.cmd == 1 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("building_complete_tip"))
+			end
 		elseif uv0 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
 			if uv6.cmd == 3 then
 				slot0 = uv1:getSpecialData("month_sign_awards") or {}

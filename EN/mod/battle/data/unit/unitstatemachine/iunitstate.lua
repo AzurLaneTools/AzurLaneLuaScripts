@@ -89,3 +89,11 @@ end
 function slot0.Battle.IUnitState.CacheWeapon(slot0)
 	assert(false, slot0.__name .. ".CacheWeapon: this function must be override!")
 end
+
+function slot0.Battle.IUnitState.FreshActionKeyOffset(slot0, slot1)
+	assert(false, slot0.__name .. ".FreshActionKeyOffset: this function must be override!")
+end
+
+function slot0.Battle.IUnitState.GetActionName(slot0, slot1)
+	assert(false, slot0.__name .. ".GetActionName: this function must be override!")
+end

@@ -197,7 +197,11 @@ pg.ship_skin_words_extra = setmetatable({
 		703020,
 		705070,
 		10600080,
-		10600090
+		10600090,
+		405050,
+		402100,
+		406030,
+		401990
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -13206,6 +13210,299 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Heehee♥ A lot's happened since I came here, and I didn't expect I'd stick around THIS long. But... when I'm with you, gazing at the gorgeous horizon... time just starts to fly."
+			}
+		}
+	},
+	[405050] = {
+		unlock = "",
+		feeling3 = "",
+		feeling5 = "",
+		main = "",
+		feeling4 = "",
+		upgrade = "",
+		mission_complete = "",
+		mission = "",
+		feeling2 = "",
+		profile = "",
+		id = 405050,
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"What will it be today – tea or coffee? Heehee. Only you could have me as a handmaid, so allow me to serve you for... Hm? This isn't what you had in mind?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"All who oppose us have been eliminated. Awaiting your next order, Commander."
+			}
+		},
+		lose = {
+			{
+				1100,
+				"Commander, take everyone and retreat, now. We cannot eke out a victory here."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander. There's much to reflect on, but for now, enjoy a well-earned break."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"At long last, I, Bismarck, have returned to the battlefield!!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"The leader of Iron Blood, allowing the Commander to pet her... I mustn't be seen like this."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Once we wrap up here, why don't we go someplace nice? As a refresher, you know... Asking for a date? D-does it come across like that? I see... If you want, you're free to think of it like one..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Sometimes, I envy Blücher. If only I could be as open and honest about my feelings as her... But maybe you don't want me to be like her?|I'm planning to set some time aside just for U-556... Hm? The U-boats are all playing hide-and-seek tomorrow? That's, well... I'll find time for her some other day.|I've read that listening to the same music can put two people in the same mood... Why don't we give that a try, Commander?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"What do you mean by this?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The commission team has returned in one piece. Let's go welcome them back. They're waiting to see you."
+			}
+		},
+		mail = {
+			{
+				1100,
+				"New mail, hmm? Do you think someone's thinking of you from afar?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"How am I supposed to respond to this...?"
+			}
+		},
+		skill = {
+			{
+				1100,
+				"I, battleship Bismarck, shall forge a brighter future!"
+			}
+		}
+	},
+	[402100] = {
+		mail = "",
+		feeling3 = "",
+		feeling4 = "",
+		main = "",
+		feeling1 = "",
+		upgrade = "",
+		home = "",
+		unlock = "",
+		feeling2 = "",
+		headtouch = "",
+		skill = "",
+		profile = "",
+		id = 402100,
+		lose = "",
+		login = {
+			{
+				1100,
+				"(Roooar!) I've been waiting. I already know how dutiful you are. Go on; get to your next job."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"(Roooar!) This elation, this sense of fulfillment... Is this the feeling of a victory wrought by the Commander?!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Good. Draw out even more of my power!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I don't need your help. Relying on you any more would soil the name of Regensburg– stop trying to help without my permission already!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"(Roooar...) What? Did you get spooked by the smaller riggings again? Hmph. Regina, you ought to know that your appearance is meant to symbolize the might of a superior being...|Looks like my piggy bank is full again. Hmph, don't underestimate savings. Every little bit counts, and every penny saved is a penny earned!|(Someday, I will find the Commander's weakness and prove my superiority... Until then, I'll have to cope with this!)"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"(Roooar...) Regina? You've... taken a liking to the Commander?!"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The commission team is here. It's time to do your job."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Missions? Hmph, I'll help you. It'll make me stronger, too."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"(So many mission rewards... Commander, just how far have you surpassed me?!)"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Kh...! This frustrates me to no end, but...!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"(If the Commander gave me an order right now, I'd obey without protest... Rgh, what shame! I ought to be able to crush the Commander between my fingers at a given moment, but I'm like a mere servant!)"
+			}
+		}
+	},
+	[406030] = {
+		unlock = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		feeling1 = "",
+		mission = "",
+		feeling2 = "",
+		profile = "",
+		skill = "",
+		battle = "",
+		id = 406030,
+		lose = "",
+		feeling4 = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"*yawn*... Hm? We're late? Isn't that your fault, naughty Commander? Heheh~♪"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"...I don't remember asking you to pat me on the head, you know?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"A congratulatory present? Aww, were you looking forward to getting something? Hmm? Did I say I'd cook for you? I dunnooo..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Umm......"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Heehee~♪ I've gotten lots of reactions on the photos of our date! Wanna see, Commander?|Where are your documents? I dunno~♪ Unlike Elbe, I'm a good girl, so I'd never play pranks.|Commander, you look troubled. It's okay. I might just help out a little, if you ask nicely, that is~♪"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Hrmph... Are you comparing me to Elbe?"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"I was ready to make you write a letter of apology if you neglected me any longer, but... I suppose I'll let you off this time."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You're so very naughty, Commander~♪"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"What might I do if you don't pay attention to me~? Aww, you don't have to worry so much. Have I EVER done anything to cause trouble for you? Heehee~♪"
+			}
+		}
+	},
+	[401990] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		profile = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 401990,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Well, well, if it isn't you. Are you gonna try to impress me with your hustle again?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"A table of contents... Not a bad idea. I can sort them according to their listed order, and... W-wait, my labels are all wrong?|Being the secretary's easy! Whatever problems come our way, you solve them... Come again? Oh, I'm not saying my hands are free, not at all!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Wh-what are you driving at?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I already know there's no beating you..."
 			}
 		}
 	}

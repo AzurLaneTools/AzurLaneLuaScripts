@@ -22,10 +22,6 @@ function slot0.PrepareBase(slot0, slot1)
 	slot0:ResetCanvasOrder()
 end
 
-function slot0.SetActive(slot0, slot1)
-	setActive(slot0.go, slot1)
-end
-
 function slot0.DestroyGO(slot0)
 	if slot0.loader then
 		slot0.loader:ClearRequests()

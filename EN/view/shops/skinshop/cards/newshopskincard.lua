@@ -15,6 +15,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0._opriceTxt = slot0._priceTF:Find("originalprice"):GetComponent(typeof(Text))
 	slot0.tagImg = slot0._tf:Find("frame/content/top/tag_activity"):GetComponent(typeof(Image))
 	slot0.tagEnImg = slot0.tagImg.gameObject.transform:Find("Image"):GetComponent(typeof(Image))
+	slot0.txt = slot0._tf:Find("frame/content/top/Text"):GetComponent(typeof(Text))
+	slot0.txt.text = ""
 	slot0.discountTag = slot0._tf:Find("frame/content/top/tag_discount")
 	slot0.discountTagOffTxt = slot0.discountTag:Find("Text"):GetComponent(typeof(Text))
 	slot0.timelimitTag = slot0._tf:Find("frame/content/top/tag_timelimit")

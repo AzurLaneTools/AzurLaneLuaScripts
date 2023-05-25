@@ -1,6 +1,7 @@
 MetaCharacterConst = {}
 slot0 = MetaCharacterConst
 slot0.Meta_Type_Act_PT = 1
+slot0.Meta_Type_Build = 2
 slot0.Meta_Type_Pass = 3
 slot0.REPAIR_ATTRS = {
 	AttributeType.Cannon,
@@ -165,7 +166,7 @@ function slot0.isMetaSynRedTag(slot0)
 		return false
 	end
 
-	if getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot0):isPassType() then
+	if getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot0):isPassType() or slot3:isBuildType() then
 		return false
 	end
 
@@ -191,7 +192,7 @@ function slot0.isMetaMainSceneRedTag(slot0)
 		return false
 	end
 
-	if getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot0):isPassType() then
+	if getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot0):isPassType() or slot2:isBuildType() then
 		return false
 	end
 

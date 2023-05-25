@@ -46,7 +46,7 @@ return {
 		{
 			type = "BattleBuffAddBuff",
 			trigger = {
-				"onUpdate"
+				"onStartGame"
 			},
 			arg_list = {
 				buff_id = 16003,

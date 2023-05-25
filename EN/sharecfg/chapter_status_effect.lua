@@ -252,6 +252,36 @@ pg.chapter_status_effect = {
 		id = 54,
 		camera_focus = ""
 	},
+	[55] = {
+		strategy = 200394,
+		id = 55,
+		camera_focus = ""
+	},
+	[56] = {
+		strategy = 200396,
+		id = 56,
+		camera_focus = ""
+	},
+	[57] = {
+		strategy = 200401,
+		id = 57,
+		camera_focus = ""
+	},
+	[58] = {
+		strategy = 200406,
+		id = 58,
+		camera_focus = ""
+	},
+	[59] = {
+		strategy = 200411,
+		id = 59,
+		camera_focus = ""
+	},
+	[60] = {
+		strategy = 200416,
+		id = 60,
+		camera_focus = ""
+	},
 	all = {
 		1,
 		2,
@@ -300,6 +330,12 @@ pg.chapter_status_effect = {
 		51,
 		52,
 		53,
-		54
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60
 	}
 }

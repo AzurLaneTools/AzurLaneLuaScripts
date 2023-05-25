@@ -390,10 +390,10 @@ pg.item_data_frame = {
 	[325] = {
 		time_limit_type = 0,
 		name = "Norn's Synthetic Loop",
-		gain_by = "",
+		gain_by = "Confluence of Nothingness",
 		id = 325,
 		time_second = 0,
-		desc = "Obtained from a limited event.",
+		desc = "<color=#ffffff>\"On the prophesied day, fall into raging flames and billowing waves––\"</color>\nAwarded to Commanders who participated in the \"Confluence of Nothingness\" event.",
 		scene = {}
 	},
 	[406] = {
@@ -439,6 +439,15 @@ pg.item_data_frame = {
 		id = 601,
 		time_second = 0,
 		desc = "<color=#ffffff>I scream, you scream, we all scream for ice cream.</color>\nObtained from the \"Manjuu Ice Cream\" event.",
+		scene = {}
+	},
+	[602] = {
+		time_limit_type = 0,
+		name = "Summer and Seabreeze",
+		gain_by = "",
+		id = 602,
+		time_second = 0,
+		desc = "<color=#ffffff>Set sail for the best deserted island vacation ever!</color>\nAwarded to Commanders who participated in the \"Uncharted Summer\" event.",
 		scene = {}
 	},
 	all = {
@@ -490,6 +499,7 @@ pg.item_data_frame = {
 		411,
 		412,
 		501,
-		601
+		601,
+		602
 	}
 }

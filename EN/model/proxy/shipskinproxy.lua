@@ -465,4 +465,50 @@ function slot0.GetOwnSkins(slot0)
 	return slot1
 end
 
+function slot0.GetProbabilitySkins(slot0, slot1)
+	slot2 = {}
+
+	function slot3(slot0)
+		slot0:updateBuyCount(getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot2:isExpireType() and 1 or 0)
+	end
+
+	function slot4(slot0)
+		uv0(Goods.Create({
+			shop_id = slot0
+		}, Goods.TYPE_SKIN))
+
+		slot2, slot3 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot0].time)
+
+		if slot2 then
+			table.insert(uv1, slot1)
+		end
+	end
+
+	slot6 = {}
+
+	for slot10, slot11 in ipairs(getProxy(ShipSkinProxy):GetAllSkins()) do
+		if slot11:getConfig("genre") ~= ShopArgs.SkinShopTimeLimit then
+			slot6[slot11:getSkinId()] = slot11.id
+		end
+	end
+
+	for slot10, slot11 in ipairs(slot1) do
+		if slot6[slot11[1]] then
+			slot4(slot13)
+		end
+	end
+
+	return slot2
+end
+
+function slot0.GetSkinProbabilitys(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot1) do
+		slot2[slot7[1]] = slot7[2]
+	end
+
+	return slot2
+end
+
 return slot0

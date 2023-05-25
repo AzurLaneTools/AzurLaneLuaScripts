@@ -70,4 +70,28 @@ function slot0.getUserChallengeInfo(slot0, slot1)
 	return slot0._userChallengeList[slot1]
 end
 
+function slot0.WriteBackOnExitBattleResult(slot0, slot1, slot2)
+	slot3 = slot0:getUserChallengeInfo(slot2)
+
+	if slot1 < ys.Battle.BattleConst.BattleScore.S then
+		slot0:sendNotification(GAME.CHALLENGE2_RESET, {
+			mode = slot2
+		})
+	else
+		slot4 = slot3:IsFinish()
+
+		slot3:updateLevelForward()
+
+		if slot3:getMode() == ChallengeProxy.MODE_INFINITE and slot4 then
+			slot3:setInfiniteDungeonIDListByLevel()
+		end
+	end
+
+	slot4 = slot0:getChallengeInfo()
+
+	if not slot0:userSeaonExpire(slot3:getMode()) then
+		slot4:checkRecord(slot3)
+	end
+end
+
 return slot0

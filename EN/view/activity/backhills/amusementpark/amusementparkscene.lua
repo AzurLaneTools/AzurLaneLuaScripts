@@ -4,6 +4,12 @@ slot0.edge2area = {
 	default = "map_middle",
 	["1_1"] = "map_top"
 }
+slot0.Buildings = {
+	[9.0] = "xuanzhuanmuma",
+	[10.0] = "guoshanche",
+	[12.0] = "haidaochuan",
+	[11.0] = "tiaolouji"
+}
 
 function slot0.init(slot0)
 	slot0.top = slot0:findTF("Top")
@@ -34,11 +40,6 @@ function slot0.init(slot0)
 	setActive(slot0.map_huiyichengbao, PLATFORM_CODE == PLATFORM_CH)
 	setActive(slot0.upper_huiyichengbao, PLATFORM_CODE == PLATFORM_CH)
 	slot0:RegisterDataResponse()
-
-	slot0.upgradePanel = BuildingUpgradPanel.New(slot0)
-
-	slot0.upgradePanel:Load()
-	slot0.upgradePanel.buffer:Hide()
 
 	slot0.loader = AutoLoader.New()
 end
@@ -119,43 +120,59 @@ function slot0.RegisterDataResponse(slot0)
 end
 
 function slot0.didEnter(slot0)
-	onButton(slot0, slot0.top:Find("Back"), function ()
+	slot3 = slot0.top
+
+	onButton(slot0, slot3:Find("Back"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end)
-	onButton(slot0, slot0.top:Find("Home"), function ()
+
+	slot3 = slot0.top
+
+	onButton(slot0, slot3:Find("Home"), function ()
 		uv0:emit(uv1.ON_HOME)
 	end)
-	onButton(slot0, slot0.top:Find("Help"), function ()
+
+	slot3 = slot0.top
+
+	onButton(slot0, slot3:Find("Help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.amusementpark_help.tip
 		})
 	end)
-	onButton(slot0, slot0.top:Find("Invitation"), function ()
+
+	slot3 = slot0.top
+
+	onButton(slot0, slot3:Find("Invitation"), function ()
 		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CLIENT_DISPLAY) and not slot0:isEnd() then
 			uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.ACTIVITY, {
 				id = slot0.id
 			})
 		end
 	end)
-	slot0:InitFacilityCross(slot0._map, slot0._upper, "jiujiuduihuanwu", function ()
+
+	slot4 = slot0._upper
+	slot5 = "jiujiuduihuanwu"
+
+	slot0:InitFacilityCross(slot0._map, slot4, slot5, function ()
 		uv0:emit(AmusementParkMediator.GO_SUBLAYER, Context.New({
 			mediator = AmusementParkShopMediator,
 			viewComponent = AmusementParkShopPage
 		}))
 	end)
-	slot0:InitFacilityCross(slot0._map, slot0._upper, "xuanzhuanmuma", function ()
-		uv0.upgradePanel:Set(uv0.activity, 9)
-	end)
-	slot0:InitFacilityCross(slot0._map, slot0._upper, "guoshanche", function ()
-		uv0.upgradePanel:Set(uv0.activity, 10)
-	end)
-	slot0:InitFacilityCross(slot0._map, slot0._upper, "tiaolouji", function ()
-		uv0.upgradePanel:Set(uv0.activity, 11)
-	end)
-	slot0:InitFacilityCross(slot0._map, slot0._upper, "haidaochuan", function ()
-		uv0.upgradePanel:Set(uv0.activity, 12)
-	end)
+
+	for slot4, slot5 in pairs(slot0.Buildings) do
+		slot0:InitFacilityCross(slot0._map, slot0._upper, slot5, function ()
+			uv0:emit(BackHillMediatorTemplate.GO_SUBLAYER, Context.New({
+				mediator = BuildingUpgradeMediator,
+				viewComponent = BuildingUpgradeLayer,
+				data = {
+					buildingID = uv1
+				}
+			}))
+		end)
+	end
+
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "dangaobaoweizhan", function ()
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, 23)
 	end)
@@ -187,48 +204,19 @@ function slot0.UpdateActivity(slot0, slot1)
 	slot0.Respones.materialCount = slot1.data1KeyValueList[1][next(slot1.data1KeyValueList[1])] or 0
 
 	slot0:UpdateView()
-
-	if slot0.upgradePanel and slot0.upgradePanel:IsShowing() then
-		slot0.upgradePanel:Set(slot1)
-	end
 end
 
 function slot0.UpdateView(slot0)
 	slot1 = nil
-
-	function slot3(slot0)
-		if not uv0.activity then
-			return
-		end
-
-		slot1 = uv0.activity.data1KeyValueList[2][slot0] or 1
-
-		if not pg.activity_event_building[slot0] or slot1 >= #slot2.buff then
-			return
-		end
-
-		return slot2.material[slot1] <= (uv0.activity.data1KeyValueList[1][slot2.material_id] or 0)
-	end
-
-	slot0.Respones.xuanzhuanmumaTip = slot3(9)
-	slot0.Respones.guoshancheTip = slot3(10)
-	slot0.Respones.tiaoloujiTip = slot3(11)
-	slot0.Respones.haidaochuanTip = slot3(12)
+	slot0.Respones.xuanzhuanmumaTip = slot0:UpdateBuildingTip(slot0.activity, 9)
+	slot0.Respones.guoshancheTip = slot0:UpdateBuildingTip(slot0.activity, 10)
+	slot0.Respones.tiaoloujiTip = slot0:UpdateBuildingTip(slot0.activity, 11)
+	slot0.Respones.haidaochuanTip = slot0:UpdateBuildingTip(slot0.activity, 12)
 	slot0.Respones.dangaobaoweizhanTip = getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME):getConfig("config_id")).count > 0
 
-	slot0:UpdateHubData(slot6)
+	slot0:UpdateHubData(slot5)
 
 	slot0.Respones.jiujiuduihuanwuTip = AmusementParkShopPage.GetActivityShopTip()
-end
-
-function slot0.onBackPressed(slot0)
-	if slot0.upgradePanel and slot0.upgradePanel:IsShowing() then
-		slot0.upgradePanel:Hide()
-
-		return
-	end
-
-	uv0.super.onBackPressed(slot0)
 end
 
 function slot0.UpdateHubData(slot0, slot1)

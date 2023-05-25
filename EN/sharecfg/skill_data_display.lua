@@ -1454,6 +1454,33 @@ pg.skill_data_display = setmetatable({
 		16654,
 		16660,
 		16664,
+		16670,
+		16671,
+		16680,
+		16681,
+		16682,
+		16683,
+		16691,
+		16701,
+		16702,
+		16711,
+		16713,
+		16714,
+		16721,
+		16722,
+		16730,
+		16731,
+		16732,
+		16740,
+		16741,
+		16750,
+		16753,
+		16760,
+		16761,
+		16762,
+		16770,
+		16780,
+		16781,
 		18010,
 		18040,
 		18041,
@@ -1973,6 +2000,11 @@ pg.skill_data_display = setmetatable({
 		29982,
 		29983,
 		29984,
+		30003,
+		30013,
+		30021,
+		30022,
+		30023,
 		39000,
 		39001,
 		39002,
@@ -2385,6 +2417,16 @@ pg.skill_data_display = setmetatable({
 		800772,
 		800775,
 		800777,
+		800780,
+		800781,
+		800790,
+		800791,
+		800803,
+		800807,
+		800809,
+		800820,
+		800821,
+		800830,
 		902201,
 		1010140,
 		1010143,
@@ -2448,6 +2490,12 @@ pg.skill_data_display = setmetatable({
 		200354,
 		200359,
 		200383,
+		200434,
+		200455,
+		200456,
+		200457,
+		200458,
+		200459,
 		1011540,
 		1011541,
 		1090010,
@@ -8301,6 +8349,114 @@ pg.base.skill_data_display = {
 		id = 16664,
 		name = "Light Snacktime"
 	},
+	[16670] = {
+		id = 16670,
+		name = "Making a Splash!"
+	},
+	[16671] = {
+		id = 16671,
+		name = "Making a Splash!"
+	},
+	[16680] = {
+		id = 16680,
+		name = "Slip and Slide!"
+	},
+	[16681] = {
+		id = 16681,
+		name = "Slip and Slide!"
+	},
+	[16682] = {
+		id = 16682,
+		name = "Slip and Slide!"
+	},
+	[16683] = {
+		id = 16683,
+		name = "Slip and Slide!"
+	},
+	[16691] = {
+		id = 16691,
+		name = "Big Seven - Nelson"
+	},
+	[16701] = {
+		id = 16701,
+		name = "Nelson's Pennant of Victory"
+	},
+	[16702] = {
+		id = 16702,
+		name = "Close Engagement"
+	},
+	[16711] = {
+		id = 16711,
+		name = "Regina, the Iron Empress"
+	},
+	[16713] = {
+		id = 16713,
+		name = "Regina, the Iron Empress"
+	},
+	[16714] = {
+		id = 16714,
+		name = "Regina, the Iron Empress"
+	},
+	[16721] = {
+		id = 16721,
+		name = "Scarlet Supernova Fortress"
+	},
+	[16722] = {
+		id = 16722,
+		name = "Scarlet Supernova Fortress+"
+	},
+	[16730] = {
+		id = 16730,
+		name = "A Good Girl's Caprice"
+	},
+	[16731] = {
+		id = 16731,
+		name = "A Good Girl's Caprice"
+	},
+	[16732] = {
+		id = 16732,
+		name = "A Good Girl's Caprice"
+	},
+	[16740] = {
+		id = 16740,
+		name = "Naughty, Naughty"
+	},
+	[16741] = {
+		id = 16741,
+		name = "Naughty, Naughty"
+	},
+	[16750] = {
+		id = 16750,
+		name = "Calamitous Voidflame"
+	},
+	[16753] = {
+		id = 16753,
+		name = "Calamitous Voidflame"
+	},
+	[16760] = {
+		id = 16760,
+		name = "Geryon, the Ruin-Eater"
+	},
+	[16761] = {
+		id = 16761,
+		name = "Synchro-Link"
+	},
+	[16762] = {
+		id = 16762,
+		name = "Synchro-Release"
+	},
+	[16770] = {
+		id = 16770,
+		name = "Reborn Temple of Iron"
+	},
+	[16780] = {
+		id = 16780,
+		name = "Reborn Temple of Iron"
+	},
+	[16781] = {
+		id = 16781,
+		name = "Reborn Temple of Iron"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -10377,6 +10533,26 @@ pg.base.skill_data_display = {
 		id = 29984,
 		name = "All Out Assault II"
 	},
+	[30003] = {
+		id = 30003,
+		name = "All Out Assault I"
+	},
+	[30013] = {
+		id = 30013,
+		name = "All Out Assault II"
+	},
+	[30021] = {
+		id = 30021,
+		name = "All Out Assault I"
+	},
+	[30022] = {
+		id = 30022,
+		name = "All Out Assault II"
+	},
+	[30023] = {
+		id = 30023,
+		name = "All Out Assault II+"
+	},
 	[39000] = {
 		id = 39000,
 		name = "Optimize I"
@@ -12025,6 +12201,46 @@ pg.base.skill_data_display = {
 		id = 800777,
 		name = "Cinders of Hope - La Galissonnière"
 	},
+	[800780] = {
+		id = 800780,
+		name = "Beyond the Lost Vales"
+	},
+	[800781] = {
+		id = 800781,
+		name = "Beyond the Lost Vales"
+	},
+	[800790] = {
+		id = 800790,
+		name = "Free-Spirited Parzival"
+	},
+	[800791] = {
+		id = 800791,
+		name = "Free-Spirited Parzival"
+	},
+	[800803] = {
+		id = 800803,
+		name = "Grail of Kept Promises"
+	},
+	[800807] = {
+		id = 800807,
+		name = "Grail of Kept Promises"
+	},
+	[800809] = {
+		id = 800809,
+		name = "Parzival's Protection"
+	},
+	[800820] = {
+		id = 800820,
+		name = "Structural Tuning: Overload"
+	},
+	[800821] = {
+		id = 800821,
+		name = "Structural Tuning: Overload"
+	},
+	[800830] = {
+		id = 800830,
+		name = "Structural Tuning: Activation"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -12276,6 +12492,30 @@ pg.base.skill_data_display = {
 	[200383] = {
 		id = 200383,
 		name = "Cloud-Parting, Mountain-Splitting Strike of Great Magnificence"
+	},
+	[200434] = {
+		id = 200434,
+		name = "Framework of Logic –Support"
+	},
+	[200455] = {
+		id = 200455,
+		name = "Seething Chains"
+	},
+	[200456] = {
+		id = 200456,
+		name = "IX-XV Support Protocol Engaged"
+	},
+	[200457] = {
+		id = 200457,
+		name = "IX-XV Support Protocol Engaged"
+	},
+	[200458] = {
+		id = 200458,
+		name = "IX-XV Support Protocol Engaged"
+	},
+	[200459] = {
+		id = 200459,
+		name = "IX-XV Support Protocol Engaged"
 	},
 	[1011540] = {
 		id = 1011540,

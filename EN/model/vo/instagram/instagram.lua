@@ -154,7 +154,7 @@ function slot0.GetImage(slot0)
 end
 
 function slot0.GetContent(slot0)
-	return slot0.text
+	return HXSet.hxLan(slot0.text)
 end
 
 function slot0.GetLikeCnt(slot0)

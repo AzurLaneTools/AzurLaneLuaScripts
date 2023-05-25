@@ -7807,6 +7807,10 @@ _G.pg.base.gametip.ship_remould_warning_205124 = {
 	tip = "<color=#92fc63>The Warrior's Prowess</color> will be used to complete the retrofit.\nWould you like to continue? "
 }
 
+_G.pg.base.gametip.ship_remould_warning_205154 = {
+	tip = "Completing the retrofit will upgrade this ship's <color=#92fc63>Big Seven</color> skill into\n<color=#92fc63>Big Seven - Nelson</color>."
+}
+
 _G.pg.base.gametip.ship_remould_warning_206134 = {
 	tip = [[
 Completing the retrofit will have the following effects:
@@ -10209,7 +10213,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Voroshilov, Kursk and Sevastopol!"
+	tip = "Build 200 times to get an extra Bismarck Zwei! (Max: 4)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -12013,7 +12017,7 @@ Event Information:
  a. Active Commander 
  b. Returning or new Commander
 2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: 
-- Logged in at least once at any point between July 28th, 2022 and before the maintenance on August 18th, 2022.
+- Logged in at least once at any point between May 11th, 2023 and before the maintenance on May 25th, 2023.
 3. Players who do not meet this criterion are categorized as Returning or new Commanders and are eligible for their own set of objectives and rewards.
 4. If you are unsure whether you are an Active Commander or a Returning or new Commander, please view the information in the Returnee Missions banner. 
 5. An Active Commander's objective is to receive Returnee Points from up to 2 other players who participate in and complete Returnee Missions. Once an Active Commander has collected enough points, they can claim various nice rewards from the event banner.
@@ -12072,7 +12076,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4. You may choose two ships on which to focus your wishes."
 		},
 		{
-			info = "5. Only ships added to the normal building pool prior to March 25th can hear your wishes."
+			info = "5. Only ships added to the normal building pool prior to March 23rd can hear your wishes."
 		},
 		{
 			info = "6. Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
@@ -14443,15 +14447,14 @@ _G.pg.base.gametip.towerclimbing_gametip = {
 	tip = {
 		{
 			info = [[
-Minigame Instructions:
-1. Use the Left, Right, and Jump buttons to control Saratoga and get her to higher Floors.
-2. Watch your Health - falling from platforms, touching traps, or being caught by Angry Manjuus will deplete your Health. The game ends when you have 0 Health.
-Minigame Rules:
-During the event, you will earn one Credit every day,up to a maximum of seven (7) Credits.
-1. Playing Manjuu Misadventures while you have any number of Credits remaining will consume 1 Credit and reward you with 1 Check-in. Get 7 Check-Ins to earn an “Early Summer Invitation (2020).”
-2. Credits can be seen on the right side of the Manjuu Plaza event page, and Check-In progress can be viewed by tapping the “Invitation” button on the Manjuu Plaza event page.
-3. You will not earn Check-Ins for playing Manjuu Misadventures with no Credits remaining.
-4. Exiting the minigame for any reason while it is in progress will not consume a Credit, but no rewards will be given.]]
+Manjuu Misadventures
+In the Manjuu Misadventures minigame, control your character to climb as high up as you can.
+If you have any Adventure Passes, you'll automatically use them upon completing a game round, and earn Adventure Coins.
+
+How to Play
+- Use the arrow icons and the jump button to control the chibi Saratoga, and guide her up the platforms.
+- Running into a trap, thorns, or the Manjuu at the bottom of the screen will deplete 1 life. The game will end when you run out of lives.
+- Climb more floors to earn a higher score!]]
 		}
 	}
 }
@@ -18031,7 +18034,7 @@ _G.pg.base.gametip.story_autoplay_setting_2 = {
 }
 
 _G.pg.base.gametip.meta_shop_exchange_limit = {
-	tip = ""
+	tip = "Not in Dock"
 }
 
 _G.pg.base.gametip.meta_shop_unexchange_label = {
@@ -18751,30 +18754,30 @@ _G.pg.base.gametip.salvage_tips = {
 	tip = {
 		{
 			info = [[
-- Minigame Info
+- Minigame Overview -
 The Manjuu Salvaging Crew minigame is played by tapping objects on the screen to latch on to them with your salvage ship's hook. Retrieving treasure will give you points, while interfering with the submarines in the water will lose you points.
 
-- Rules
+- Rules -
 Tap on objects on the screen to retrieve them. Earn points by retrieving treasure from below the surface while avoiding the submarines patrolling the area.
 
 The table of objects you can retrieve and the amount of points you gain or lose from them is as follows: 
-Pocket watch: +15 seconds to the timer
-Treasure chest: +600 points
-Pearl: +500 points
-Diving Manjuu: +400 points
-Gold bar: +300 points
-Butterflyfish: +200 points
-Seashell: +200 points
-Shark: +250 points
-Turtle: +180 points
-Clownfish: +150 points
-Rock: +50 points
+· Pocket watch: +15 seconds to the timer
+· Treasure chest: +600 points
+· Pearl: +500 points
+· Diving Manjuu: +400 points
+· Gold bar: +300 points
+· Butterflyfish: +200 points
+· Seashell: +200 points
+· Shark: +250 points
+· Turtle: +180 points
+· Clownfish: +150 points
+· Rock: +50 points
 
-I-13: -150 points
-I-19: -100 points
-I-26: -80 points
-I-168: -50 points
-Torpedo: -50 points
+· I-13: -150 points
+· I-19: -100 points
+· I-26: -80 points
+· I-168: -50 points
+· Torpedo: -50 points
 
 The minigame ends when the timer reaches 0, or when you tap the Return button.]]
 		}
@@ -20718,6 +20721,66 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2306 = {
+	tip = "Complete Cruise Missions between 6/1-7/31 to receive <color=#854748>Vestal META</color> and other rewards!"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2306 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+6/1 00:00 – 7/31 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Vestal META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for Kaga(BB), "Snowsilk Fox Dance"
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2306 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "Reset"
 }
@@ -22522,6 +22585,22 @@ _G.pg.base.gametip.ryza_task_tag_develop = {
 	tip = "Res."
 }
 
+_G.pg.base.gametip.ryza_task_tag_adventure = {
+	tip = "Expedition"
+}
+
+_G.pg.base.gametip.ryza_task_tag_build = {
+	tip = "Facilities"
+}
+
+_G.pg.base.gametip.ryza_task_tag_create = {
+	tip = "Crafting"
+}
+
+_G.pg.base.gametip.ryza_task_tag_daily = {
+	tip = "Dailies"
+}
+
 _G.pg.base.gametip.ryza_task_detail_content = {
 	tip = "Description"
 }
@@ -22783,19 +22862,15 @@ _G.pg.base.gametip.hotspring_help = {
 	tip = {
 		{
 			info = [[
-- Open-Air Onsen Overview -
-Event lasts between <color=#92fc63>December 22nd, 2022 to January 4th, 2023</color>
+- Open-Air Bath Overview -
+Event lasts between <color=#92fc63>May 25th to June 21st</color>.
 
-Placing your shipgirls in the Open-Air Onsen allows them to recover Morale at a faster rate than normal.
-This hot spring starts out with a few slots already available. You can purchase expansions to get more slots using Onsen Resort Coins, which are obtainable through completing event missions.
-Expanding the hot spring also gives you Onsen Souvenir Vouchers which can be exchanged for items in the Souvenir Shop.
+Placing your shipgirls in the Open-Air Bath allows them to recover Morale at a faster rate than normal.
+This feature unlocks after you clear all the associated daily missions unlocked up to May 29th.
+The items you need to complete the missions can be made at the Crafting Station.
 
 - Details -
-· New event missions will unlock every day up to December 28th. Completing these rewards you with Onsen Resort Coins.
-· The Expand button on the Open-Air Onsen menu can be used to develop the hot spring, adding more slots for your shipgirls to rest.
-· Developing the hot spring rewards you with Onsen Souvenir Vouchers which you can exchange for items in the Souvenir Shop.
-· Shipgirls can be added to or removed from the hot spring by tapping the Bathe button or the Manage Guests button on the top right of the screen.
-· You can also tap and hold the shipgirls in the hot spring to change their bathing slots.]]
+You can add or remove shipgirls from the bath by tapping the button in the top right corner of the screen, or by selecting and holding the spots your shipgirls are sat in.]]
 		}
 	}
 }
@@ -23489,6 +23564,46 @@ _G.pg.base.gametip.battle_text_yingxiv4_10 = {
 	tip = "The Horseman is <color=#f1f102>weakened</color>! Focus fire!"
 }
 
+_G.pg.base.gametip.battle_text_bisimaiz_1 = {
+	tip = "Current Corrosion Level: <color=#92fc63>0</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_2 = {
+	tip = "Current Corrosion Level: <color=#f1f102>1</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_3 = {
+	tip = "Current Corrosion Level: <color=#f1f102>2</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_4 = {
+	tip = "Current Corrosion Level: <color=#ffc038>3</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_5 = {
+	tip = "Current Corrosion Level: <color=#ffc038>4</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_6 = {
+	tip = "Current Corrosion Level: <color=#ff5c5c>5</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_7 = {
+	tip = "The Corrosion has been purged. Current Corrosion Level: <color=#92fc63>0</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_8 = {
+	tip = "[<color=#ffc038>Synchro-Link</color>] - Thanks to his improved defense, Geryon will <color=#f1f102>tank a portion of all damage</color> Bismarck takes."
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_9 = {
+	tip = "[<color=#ffc038>Synchro-Release</color>] - Geryon's defense have <color=#f1f102>dropped dramatically</color>! Focus on dealing as much damage as fast as possible!"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_10 = {
+	tip = "Geryon's combat powers are dropping– Wait, I'm detecting intense <color=#ffc038>META energy fluctuations</color>...?!"
+}
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "Low Morale"
 }
@@ -23786,4 +23901,449 @@ _G.pg.base.gametip.blueprint_shipperformance = {
 
 _G.pg.base.gametip.blueprint_researching = {
 	tip = "Developing..."
+}
+
+_G.pg.base.gametip.sculpture_drawline_tip = {
+	tip = "Trace the dotted line to follow the design!"
+}
+
+_G.pg.base.gametip.sculpture_drawline_done = {
+	tip = "You followed the design, and assembled all the different parts!"
+}
+
+_G.pg.base.gametip.sculpture_drawline_exit = {
+	tip = "If you quit now, progress won't be saved.(You can try again without spending extra materials)"
+}
+
+_G.pg.base.gametip.sculpture_puzzle_tip = {
+	tip = "Drag the parts around the area indicated by the dotted lines to combine them!"
+}
+
+_G.pg.base.gametip.sculpture_gratitude_tip = {
+	tip = "Drag to deliver the gifts to the shipgirls!"
+}
+
+_G.pg.base.gametip.sculpture_close_tip = {
+	tip = "Tap to go back"
+}
+
+_G.pg.base.gametip.gift_act_help = {
+	tip = {
+		{
+			info = [[
+- Manjuu Papercraft Overview -
+Use the materials you collect on Seabreeze Island and craft them into gifts for your shipgirls!
+Give the gifts to your shipgirls to get rewards such as Adventure Coins in return.
+
+- How to Play -
+1. Select the shipgirl you'd like to give a gift to, and follow the instructions on the screen to craft the gift.
+2. Once you've finished the gift, drag it onto the shipgirl to deliver it. Doing so will grant you rewards such as Adventure Coins.
+3. You can only give one gift to the same ship.
+4. Shiny Gemstones can be obtained by converting Unprocessed Ore at the Crafting Station.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.gift_act_drawline_help = {
+	tip = {
+		{
+			info = [[
+- Manjuu Papercraft Overview -
+Use the materials you collect on Seabreeze Island and craft them into gifts for your shipgirls!
+Give the gifts to your shipgirls to get rewards such as Adventure Coins in return.
+
+- How to Play -
+1. Select the shipgirl you'd like to give a gift to, and follow the instructions on the screen to craft the gift.
+2. Once you've finished the gift, drag it onto the shipgirl to deliver it. Doing so will grant you rewards such as Adventure Coins.
+3. You can only give one gift to the same ship.
+4. Shiny Gemstones can be obtained by converting Unprocessed Ore at the Crafting Station.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.gift_act_tips = {
+	tip = "Insufficient $1"
+}
+
+_G.pg.base.gametip.expedition_award_tip = {
+	tip = "The Expedition Squad brought some stuff back while you were gone!"
+}
+
+_G.pg.base.gametip.island_act_tips1 = {
+	tip = "Tap to go back"
+}
+
+_G.pg.base.gametip.haidaojudian_help = {
+	tip = {
+		{
+			info = [[
+- Event Overview - 
+Uncharted Summer is an event filled with activities centered around Seabreeze Island. Explore the island, gather Adventure Coins, and earn various rewards!
+This event is split up into 2 parts – the Adventure Map, and your Base Camp.
+Adventure Map – explore the island and play minigames to get Adventure Coins, which can be traded for rewards in the shop.
+Base Camp – use the resources you found on the island to expand your camp and craft items to receive rewards and open up new areas to explore.
+
+- Base Camp Details -
+Your Base Camp has various icons which can take you to more specific camp features.
+It can also be leveled up, providing buffs to your whole fleet for the duration of the event.
+To increase your camp's level, use your Crafting Station to make items to upgrade your buildings using the materials you found while exploring.
+After you've upgraded your buildings sufficiently, the camp will level up on its own. You can check your current Base Camp level at the Mission Board.
+
+- Specific Functions -
+1. The Crafting Station
+Here you can use the materials found while exploring or brought back by the Expedition Squad to create exclusive furniture and items used around your Base Camp.
+Upgrading your Crafting Station gives you access to a wider range of items to craft.
+
+2. The Expedition Squad
+Once a day, your Expedition Squad will automatically collect materials for you.
+The amount of materials the squad brings back is dependent on your Expedition Squad's level as well as the level of certain other buildings.
+
+3. Manjuu Papercraft
+Here you can create gifts for your shipgirls using the materials you've gathered and the items you've made at the Crafting Station.
+The shipgirls will reciprocate your gift and give you rewards such as materials and Adventure Coins.
+
+4. The Mission Board
+The Mission Board has a list of missions you can complete, earning you Adventure Coins and other rewards for your efforts.
+You can also check the Records to see how far into the story you are and how much of the island you've explored. As you fill in the pages, you'll get hints showing you where to find hidden treasure chests on the Adventure Map.
+
+5. The Dining Area and Living Quarters
+Upgrading these buildings will raise your Base Camp level in addition to increasing the number of rewards your Expedition Squad can bring back.
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.haidaojudian_building_tip = {
+	tip = "Insufficient materials to upgrade your Base Camp."
+}
+
+_G.pg.base.gametip.workbench_help = {
+	tip = {
+		{
+			info = [[
+- Crafting Station Overview -
+You can use the Crafting Station to turn all the materials brought back by you and your Expedition Squad into exclusive furniture and items used around your Base Camp.
+
+- How to Use -
+1. Select a crafting recipe. If you have the materials needed, they'll be used to create a new item.2. Certain recipes create items needed to upgrade the buildings in your Base Camp.3. You can check what and how many resources you have in the Storage.4. You can tap a material on the recipe screen to learn where or how to acquire it.
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.workbench_need_materials = {
+	tip = "Materials Needed"
+}
+
+_G.pg.base.gametip.workbench_tips1 = {
+	tip = "You can't craft any more"
+}
+
+_G.pg.base.gametip.workbench_tips2 = {
+	tip = "Insufficient crafting materials"
+}
+
+_G.pg.base.gametip.workbench_tips3 = {
+	tip = "You can't craft any more of this item."
+}
+
+_G.pg.base.gametip.workbench_tips4 = {
+	tip = "Unlocks at Crafting Station Lv. $1."
+}
+
+_G.pg.base.gametip.workbench_tips5 = {
+	tip = "-You don't have any item to craft-"
+}
+
+_G.pg.base.gametip.workbench_tips6 = {
+	tip = "Max Level"
+}
+
+_G.pg.base.gametip.workbench_tips7 = {
+	tip = "Materials"
+}
+
+_G.pg.base.gametip.workbench_tips8 = {
+	tip = "Quantity"
+}
+
+_G.pg.base.gametip.workbench_tips9 = {
+	tip = "Materials Needed"
+}
+
+_G.pg.base.gametip.workbench_tips10 = {
+	tip = "Display craftable only"
+}
+
+_G.pg.base.gametip.island_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/island_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help5",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help6",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help7",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.islandnode_tips1 = {
+	tip = "Next Refresh"
+}
+
+_G.pg.base.gametip.islandnode_tips2 = {
+	tip = "TIPS"
+}
+
+_G.pg.base.gametip.islandnode_tips3 = {
+	tip = "You can only choose once!"
+}
+
+_G.pg.base.gametip.islandnode_tips4 = {
+	tip = "We've got a lucky winner!"
+}
+
+_G.pg.base.gametip.islandnode_tips5 = {
+	tip = "Unlucky... Better luck next time!"
+}
+
+_G.pg.base.gametip.islandnode_tips6 = {
+	tip = "There are no flowers to harvest yet."
+}
+
+_G.pg.base.gametip.islandnode_tips7 = {
+	tip = "$1 cared for the flowers while you were gone!"
+}
+
+_G.pg.base.gametip.islandnode_tips8 = {
+	tip = "Unlock by leveling up your buildings and raising your Base Camp level."
+}
+
+_G.pg.base.gametip.islandnode_tips9 = {
+	tip = "Level up your Base Camp to unlock the next part of the story!"
+}
+
+_G.pg.base.gametip.islandshop_tips1 = {
+	tip = "Time Left to Claim"
+}
+
+_G.pg.base.gametip.islandshop_tips2 = {
+	tip = "Limited"
+}
+
+_G.pg.base.gametip.islandshop_tips3 = {
+	tip = "Cost"
+}
+
+_G.pg.base.gametip.islandshop_tips4 = {
+	tip = "Insufficient $1"
+}
+
+_G.pg.base.gametip.haidaojudian_upgrade_limit = {
+	tip = "You can't upgrade this building right now. Try a different one!"
+}
+
+_G.pg.base.gametip.chargetip_monthcard_1 = {
+	tip = "Trade License purchased! You received the following items:"
+}
+
+_G.pg.base.gametip.chargetip_monthcard_2 = {
+	tip = "Your Trade License daily rewards were sent to your mailbox."
+}
+
+_G.pg.base.gametip.chargetip_crusing = {
+	tip = "Cruise Pass Purchased"
+}
+
+_G.pg.base.gametip.chargetip_giftpackage = {
+	tip = "Purchase complete! The items were sent to your mailbox."
+}
+
+_G.pg.base.gametip.package_view_1 = {
+	tip = "Trade License purchased! You received the following:"
+}
+
+_G.pg.base.gametip.package_view_2 = {
+	tip = "Daily rewards available during the duration of the Trade License"
+}
+
+_G.pg.base.gametip.package_view_3 = {
+	tip = "Cruise Pass Purchased"
+}
+
+_G.pg.base.gametip.package_view_4 = {
+	tip = "Acquired:"
+}
+
+_G.pg.base.gametip.probabilityskinshop_tip = {
+	tip = "If you receive a duplicate skin, it will be converted into a corresponding sum of Gems."
+}
+
+_G.pg.base.gametip.skin_gift_desc = {
+	tip = "You will obtain one of the following random skins (duplicate skins will be converted into a corresponding sum of Gems).\nThe available skins and their rarities are as follows: \n$1"
+}
+
+_G.pg.base.gametip.springtask_tip = {
+	tip = "Craft the required items at the Base Camp to finish construction on the Open-Air Bath!\nAfter the Open-Air Bath is open for business, you'll be able to use it to recover Morale faster for your fleet! (All missions unlocked 5/29)"
+}
+
+_G.pg.base.gametip.island_build_desc = {
+	tip = "Upgrade your buildings to level up your Base Camp."
+}
+
+_G.pg.base.gametip.island_history_desc = {
+	tip = "Unlock hidden treasure chests by completely exploring an area!"
+}
+
+_G.pg.base.gametip.island_build_level = {
+	tip = "Base Camp"
+}
+
+_G.pg.base.gametip.island_game_limit_help = {
+	tip = "You'll gain $1 Adventure Pass(es) every day at midnight."
+}
+
+_G.pg.base.gametip.island_game_limit_num = {
+	tip = "Owned: $1"
+}
+
+_G.pg.base.gametip.ore_minigame_help = {
+	tip = {
+		{
+			info = [[
+- Minigame Overview -
+Help Akashi carry ore from the top side of the screen to the bottom and rack up as many points as you can.
+
+- How to Play -
+1. Use the control stick on the bottom left side of the screen to move Akashi around.
+2. Reach the top side of the screen, approach the ore on the ground, and tap the Move button to carry the ore.
+· You can pick up more than one ore, but only up to a certain weight. Once you hit this threshold, you can't carry more.
+· When you become over-encumbered with ore, your movement speed drops.
+3. Once you reach the ramp on the bottom side of the screen, you can drop off the ore. Doing so will give you points.
+4. Colliding with any of the manjuus passing through the middle of the screen makes you lose all the ore you're carrying.
+5. The minigame ends either when the timer hits 0 or when you exit it.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.meta_shop_exchange_limit_2 = {
+	tip = "Locked"
+}
+
+_G.pg.base.gametip.meta_shop_tip = {
+	tip = "You may only purchase as many as needed for Max Limit Break."
+}
+
+_G.pg.base.gametip.pt_shop_tran_tip = {
+	tip = "You can only have as many $2 as needed to fully Limit Break this ship.\nThe excess $2 will be converted into $3 $4. Continue?"
+}
+
+_G.pg.base.gametip.urdraw_tip = {
+	tip = "You have unclaimed cumulative construction rewards."
+}
+
+_G.pg.base.gametip.urdraw_complement = {
+	tip = "Total constructions: <color=#92fc63>$1</color>\nTime remaining: <color=#ff5c5c>$2</color>"
+}
+
+_G.pg.base.gametip.meta_class_t_level_1 = {
+	tip = "Ashen Might"
+}
+
+_G.pg.base.gametip.meta_class_t_level_2 = {
+	tip = "Framework of Logic"
+}
+
+_G.pg.base.gametip.meta_class_t_level_3 = {
+	tip = "Cinders of Hope"
+}
+
+_G.pg.base.gametip.meta_class_t_level_4 = {
+	tip = "Flickering Light"
+}
+
+_G.pg.base.gametip.meta_shop_exchange_limit_tip = {
+	tip = "You do not have $1 in your dock."
+}
+
+_G.pg.base.gametip.meta_shop_exchange_limit_2_tip = {
+	tip = "You may purchase this in $1 year(s), $2 month(s), $3 day(s), $4 minute(s) and $5 second(s)."
+}
+
+_G.pg.base.gametip.charge_tip_crusing_label = {
+	tip = "You obtained:"
+}
+
+_G.pg.base.gametip.mktea_1 = {
+	tip = "Thecraftingofafineteabeginswithcarefulselectionandharvesting."
+}
+
+_G.pg.base.gametip.mktea_2 = {
+	tip = "Spreadoutthetealeaves,steamthemtoextractthemoisture,andletthemsoften."
+}
+
+_G.pg.base.gametip.mktea_3 = {
+	tip = "Inordertomaintainthetea'sfragrance,theprocessoffixationisanessentialstep."
+}
+
+_G.pg.base.gametip.mktea_4 = {
+	tip = "Placetheprocessedtealeavesinacoolplace,andspreadthemthinlytoreabsorbmoisture.Aftercooling,sieveofftheteapowder,andwinnowoutanydebris."
+}
+
+_G.pg.base.gametip.mktea_5 = {
+	tip = "Lastisthepan-firingprocess,wherethearomaandshapeofthetealeavesarefriedtoanoptimalstate.Theresultisasmooth,brightgreenleaf."
+}
+
+_G.pg.base.gametip.random_skin_list_item_desc_label = {
+	tip = "Skin"
 }

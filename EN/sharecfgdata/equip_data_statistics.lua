@@ -4637,6 +4637,56 @@ _G.pg.base.equip_data_statistics[470] = {
 	}
 }
 
+_G.pg.base.equip_data_statistics[471] = {
+	tech = 1,
+	name = "革律翁用双联装副炮",
+	speciality = "Lock",
+	type = 1,
+	rarity = 1,
+	ammo = 1,
+	damage = "18 x 4",
+	nationality = 4,
+	descrip = "Default gear",
+	id = 471,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		471
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"DD",
+		"MG",
+		"AP"
+	}
+}
+
 _G.pg.base.equip_data_statistics[500] = {
 	type = 10,
 	name = "Beaver Squad Tag",
@@ -6156,7 +6206,8 @@ _G.pg.base.equip_data_statistics[720] = {
 	equip_parameters = {},
 	label = {
 		"KMS",
-		"DEV"
+		"DEV",
+		"ParzivalU556"
 	}
 }
 
@@ -7232,7 +7283,8 @@ _G.pg.base.equip_data_statistics[880] = {
 	equip_parameters = {},
 	label = {
 		"HMS",
-		"DEV"
+		"DEV",
+		"NPOV"
 	}
 }
 
@@ -121941,6 +121993,59 @@ _G.pg.base.equip_data_statistics[79992] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[80001] = {
+	type = 1,
+	name = "All Out Assault I",
+	speciality = "N/A",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 80001,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60991
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[80002] = {
+	id = 80002,
+	name = "All Out Assault II",
+	base = 80001,
+	weapon_id = {
+		60992
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[85000] = {
 	tech = 1,
 	name = "B-13 Twin 130mm B-2LM Main Gun",
@@ -143369,6 +143474,112 @@ _G.pg.base.equip_data_statistics[170052] = {
 	base = 170051,
 	weapon_id = {
 		60972
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[170061] = {
+	type = 1,
+	name = "All Out Assault I",
+	speciality = "N/A",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 170061,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170061
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[170062] = {
+	id = 170062,
+	name = "All Out Assault II",
+	base = 170061,
+	weapon_id = {
+		170062
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[170071] = {
+	type = 1,
+	name = "All Out Assault I",
+	speciality = "N/A",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 170071,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170071
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[170072] = {
+	id = 170072,
+	name = "All Out Assault II",
+	base = 170071,
+	weapon_id = {
+		170072
 	},
 	hidden_skill_id = {}
 }

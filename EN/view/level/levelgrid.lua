@@ -298,29 +298,28 @@ end
 slot2 = 640
 
 function slot0.initDrag(slot0)
-	slot1 = pg.UIMgr.GetInstance().UIMain.transform
-	slot3 = slot1.rect.height
-	slot5 = slot0.contextData.chapterVO
-	slot6 = slot5.theme
-	slot7 = slot3 * 0.5 / math.tan(math.deg2Rad * slot6.fov * 0.5)
-	slot8 = math.deg2Rad * slot6.angle
-	slot10 = Vector3(slot6.offsetx, slot6.offsety, slot6.offsetz) + uv0.MapDefaultPos
-	slot4 = Vector2.one * math.clamp((slot7 - Vector3.Dot(Vector3(0, -math.sin(slot8), -math.cos(slot8)), slot10)) / slot7, 0, 1)
-	slot12 = slot0.plane
-	slot13 = slot12:Find("display").anchoredPosition
-	slot14 = uv1 - slot10.x - slot13.x
-	slot15 = uv0.MapDefaultPos.y - slot10.y - slot13.y
-	slot16, slot17, slot18, slot19 = slot5:getDragExtend()
-	slot0.leftBound = slot14 - slot17
-	slot0.rightBound = slot14 + slot16
-	slot0.topBound = slot15 + slot19
-	slot0.bottomBound = slot15 - slot18
-	slot0._tf.sizeDelta = Vector2(slot1.rect.width * 2, slot3 * 2)
+	slot1, slot2, slot3 = getSizeRate()
+	slot4 = slot0.contextData.chapterVO
+	slot5 = slot4.theme
+	slot6 = slot3 * 0.5 / math.tan(math.deg2Rad * slot5.fov * 0.5)
+	slot7 = math.deg2Rad * slot5.angle
+	slot9 = Vector3(slot5.offsetx, slot5.offsety, slot5.offsetz) + uv0.MapDefaultPos
+	slot1 = slot1 * math.clamp((slot6 - Vector3.Dot(Vector3(0, -math.sin(slot7), -math.cos(slot7)), slot9)) / slot6, 0, 1)
+	slot11 = slot0.plane
+	slot12 = slot11:Find("display").anchoredPosition
+	slot13 = uv1 - slot9.x - slot12.x
+	slot14 = uv0.MapDefaultPos.y - slot9.y - slot12.y
+	slot15, slot16, slot17, slot18 = slot4:getDragExtend()
+	slot0.leftBound = slot13 - slot16
+	slot0.rightBound = slot13 + slot15
+	slot0.topBound = slot14 + slot18
+	slot0.bottomBound = slot14 - slot17
+	slot0._tf.sizeDelta = Vector2(slot2 * 2, slot3 * 2)
 	slot0.dragTrigger = GetOrAddComponent(slot0._tf, "EventTriggerListener")
 	slot0.dragTrigger.enabled = true
-	slot20 = slot0.dragTrigger
+	slot19 = slot0.dragTrigger
 
-	slot20:AddDragFunc(function (slot0, slot1)
+	slot19:AddDragFunc(function (slot0, slot1)
 		slot2 = uv0._tf.anchoredPosition
 		slot2.x = math.clamp(slot2.x + slot1.delta.x * uv1.x, uv0.leftBound, uv0.rightBound)
 		slot2.y = math.clamp(slot2.y + slot1.delta.y * uv1.y / math.cos(uv2), uv0.bottomBound, uv0.topBound)
@@ -1546,9 +1545,9 @@ function slot0.updateQuadCells(slot0, slot1, ...)
 	slot0:updateQuadBase()
 
 	if slot1 == ChapterConst.QuadStateTeleportSub then
-		slot0:UpdateQuadStateTeleportSub(...)
+		slot0:UpdateQuadStateTeleportSub()
 	elseif slot1 == ChapterConst.QuadStateMissileStrike then
-		slot0:UpdateQuadStateMissileStrike(...)
+		slot0:UpdateQuadStateMissileStrike()
 	elseif slot1 == ChapterConst.QuadStateNormal then
 		slot0:UpdateQuadStateNormal()
 	elseif slot1 == ChapterConst.QuadStateStrategy then

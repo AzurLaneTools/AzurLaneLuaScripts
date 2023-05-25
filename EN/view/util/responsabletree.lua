@@ -38,7 +38,10 @@ return {
 
 			slot0.Response(slot0, slot0, {
 				slot1
-			}, slot6)
+			}, {
+				slot3,
+				slot6
+			})
 		end
 	end,
 	Response = function (slot0, slot1, slot2, slot3)
@@ -101,14 +104,31 @@ return {
 			slot4[slot9] = slot12
 		end
 
-		slot1.listener(unpack(slot4, 1, slot5))
+		if slot1.settings and slot1.settings.useOldRef then
+			slot6 = table.shallowCopy(slot4)
+
+			for slot10, slot11 in ipairs(slot1.keys) do
+				if table.equal(string.split(slot11, ".") or {}, slot2) then
+					slot6[slot10] = slot3[1]
+
+					break
+				end
+			end
+
+			slot1.listener(slot5, slot4, slot6, slot3[2])
+		else
+			slot1.listener(unpack(slot4, 1, slot5))
+		end
 	end,
 	PropertyChange = function (slot0, slot1)
 		uv0 = 0
 
 		slot0.Response(slot0, slot0, {
 			slot1
-		}, 0)
+		}, {
+			slot0[slot1],
+			uv1.DATA_UPDATE
+		})
 	end,
 	CreateShell = function (slot0, slot1)
 		if type(slot0) ~= "table" or slot0.class == uv0 then

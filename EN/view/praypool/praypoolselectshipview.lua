@@ -233,16 +233,6 @@ end
 function slot0.updateShipList(slot0, slot1)
 	slot2 = slot0.prayProxy:getSelectedShipIDList()
 
-	table.sort(slot1, function (slot0, slot1)
-		slot3 = getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot1].group_type)
-
-		if not getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot0].group_type) and slot3 then
-			return true
-		else
-			return false
-		end
-	end)
-
 	function slot0.shipListSC.onUpdateItem(slot0, slot1)
 		slot2 = uv0[slot0 + 1]
 
@@ -309,8 +299,17 @@ function slot0.updateShipList(slot0, slot1)
 end
 
 function slot0.orderIDListByRarity(slot0, slot1)
+	slot2 = getProxy(CollectionProxy)
+
 	table.sort(slot1, function (slot0, slot1)
-		return pg.ship_data_statistics[slot1].rarity < pg.ship_data_statistics[slot0].rarity
+		slot2 = pg.ship_data_statistics[slot0].rarity
+		slot3 = pg.ship_data_statistics[slot1].rarity
+
+		if (uv0:getShipGroup(pg.ship_data_template[slot0].group_type) and 1 or 0) == (uv0:getShipGroup(pg.ship_data_template[slot1].group_type) and 1 or 0) then
+			return slot3 < slot2
+		else
+			return slot4 < slot5
+		end
 	end)
 end
 

@@ -1,12 +1,12 @@
 slot0 = class("NewSkinShopScene", import("view.base.BaseUI"))
 slot0.MODE_OVERVIEW = 1
 slot0.MODE_EXPERIENCE = 2
-slot1 = -1
 slot2 = -2
 slot3 = -3
 slot4 = 9999
 slot5 = 9997
 slot6 = 9998
+slot0.PAGE_ALL = -1
 slot0.optionsPath = {
 	"overlay/blur_panel/adapt/top/option"
 }
@@ -273,19 +273,8 @@ function slot0.SetUp(slot0)
 	slot1 = slot0.contextData.mode or uv0.MODE_OVERVIEW
 	slot2 = slot0:GetAllCommodity()
 	slot0.cgGroup.blocksRaycasts = false
-	slot0.title.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", ({
-		"huanzhuangshagndian",
-		"title_01"
-	})[slot1])
 
-	slot0.title:SetNativeSize()
-
-	slot0.titleEn.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", ({
-		"huanzhuangshagndian_en",
-		"title_en_01"
-	})[slot1])
-
-	slot0.titleEn:SetNativeSize()
+	slot0:UpdateTitle(slot1)
 	setActive(slot0.rollingCircleMaskTr, slot1 == uv0.MODE_OVERVIEW)
 
 	if slot1 == uv0.MODE_EXPERIENCE then
@@ -306,6 +295,22 @@ function slot0.SetUp(slot0)
 		uv0.commodities = uv1
 		uv0.cgGroup.blocksRaycasts = true
 	end)
+end
+
+function slot0.UpdateTitle(slot0, slot1)
+	slot0.title.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", ({
+		"huanzhuangshagndian",
+		"title_01"
+	})[slot1])
+
+	slot0.title:SetNativeSize()
+
+	slot0.titleEn.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", ({
+		"huanzhuangshagndian_en",
+		"title_en_01"
+	})[slot1])
+
+	slot0.titleEn:SetNativeSize()
 end
 
 function slot7(slot0)
