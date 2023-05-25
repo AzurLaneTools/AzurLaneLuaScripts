@@ -10,7 +10,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "轰——————————！",
+			say = "轟——————————！",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-richard",
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "呵呵，那个“我”也是假的哦。真正的我在你的右手边，猜猜看哪个是真的？",
+			say = "呵呵，那個“我”也是假的哦。真正的我在你的右手邊，猜猜看哪個是真的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			say = "轰——————————！",
+			say = "轟——————————！",
 			side = 2,
 			bgName = "bg_camelot_6",
 			dir = 1,
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "很遗憾，猜错了哦。",
+			say = "很遺憾，猜錯了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "在君主的视野中，远方的无数少女轮廊似乎在逐渐瓦解，仿佛变为了风暴、海啸，或者某种巨大结构的组成部分。",
+			say = "在君主的視野中，遠方的無數少女輪廊似乎在逐漸瓦解，彷彿變為了風暴、海嘯，或者某種巨大結構的組成部分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个……难道是你的本质么！",
+			say = "那個……難道是妳的本質嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "你在说什么我不明白哦~",
+			say = "妳在說什麼我不明白哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "突然，水面出现了一个金色的漩涡，金光照亮了海面，也驱散了夜空。",
+			say = "突然，水面出現了一個金色的漩渦，金光照亮了海面，也驅散了夜空。",
 			effects = {
 				{
 					active = true,
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "更重要的是，三层环带掀起的巨浪将好人理查德与她的无数分身一并击退了。",
+			say = "更重要的是，三層環帶掀起的巨浪將好人理察與她的無數分身一併擊退了。",
 			effects = {
 				{
 					active = false,
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "什么人？！",
+			say = "什麼人？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你是什么人，在对本王的臣民做什么？！",
+			say = "妳是什麼人，在對本王的臣民做什麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "伊丽莎白女王？",
+			say = "伊莉莎白女王？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "正是本王！你个木头脑子！乱跑的事之后再跟你算账。",
+			say = "正是本王！妳個木頭腦子！亂跑的事之後再跟妳算賬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "咦？居然还带了朋友来观光啊。",
+			say = "咦？居然還帶了朋友來觀光啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#696969",
-			say = "这下可要好好招待一番了呢~",
+			say = "這下可要好好招待一番了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "伴随着好人理查德的话语，一道黑色的风暴出现了，天空在重新被黑暗占领。",
+			say = "伴隨著好人理察的話語，一道黑色的風暴出現了，天空正再重新被黑暗佔領。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，卡美洛之庭正在遭受未知的强烈干扰，坐标稳定器正在失灵，功率也在急速下降。",
+			say = "陛下，卡美洛之庭正在遭受未知的強烈干擾，座標穩定器正在失靈，功率也在急速下降。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "卡美洛之庭正在遭受干扰？！啧……君主你这是惹到了个什么麻烦的家伙啊。",
+			say = "卡美洛之庭正在遭受干擾？！嘖……君主妳這是惹到了個什麼麻煩的傢伙啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "第一次任务就遇到了个不得了的对手欸……",
+			say = "第一次任務就遇到了個不得了的對手欸……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遭受干扰……诶诶欸？！我们难道回不去了么？！",
+			say = "遭受干擾……欸欸欸？！我們難道回不去了嗎 ？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那倒不会，不过重新设定坐标将会花费大量时间。",
+			say = "那倒不會，不過重新設定座標將會花費大量時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好人理查德想把我们所有人都困在这里……！",
+			say = "好人理察想把我們所有人都困在這裡……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "伊丽莎白女王，对于本次擅自行动带来的后果，我愿意一人承担。",
+			say = "伊莉莎白女王，對於本次擅自行動帶來的後果，我願意一人承擔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里就交给我来殿后，你们快走吧！",
+			say = "這裡就交給我來殿後，妳們快走吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈啊？那本王为什么要大费周折过来接你一趟啊？！",
+			say = "哈啊？那本王為什麼要大費周折過來接妳一趟啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是气死我了……你还愣着干什么！给我快点进来！",
+			say = "真是氣死我了……妳還愣著幹什麼！給我快點進來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有可是！贝法，别管什么坐标了！不管去哪里都比这里好！",
+			say = "沒有可是！貝法，別管什麼座標了！不管去哪裡都比這裡好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "紧急启动卡美洛之庭，这地方本王一秒钟都不想多待了。",
+			say = "緊急啟動卡美洛之庭，這地方本王一秒鐘都不想多待了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "巨大的环带再次运作，耀眼的金色光芒之后，卡美洛之庭消失了。",
+			say = "巨大的環帶再次運作，耀眼的金色光芒之後，卡美洛之庭消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

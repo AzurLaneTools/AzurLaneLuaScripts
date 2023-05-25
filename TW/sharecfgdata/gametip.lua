@@ -7275,6 +7275,10 @@ _G.pg.base.gametip.ship_remould_warning_205124 = {
 	tip = "此次改造操作將消耗<color=#A9F548>戰士的心得</color>\n是否確認繼續操作？"
 }
 
+_G.pg.base.gametip.ship_remould_warning_206134 = {
+	tip = "此次改造操作後<color=#92fc63>【所有戰鬥機+1】</color>，\n<color=#92fc63>【支援空母】</color>技能\n將升級為<color=#92fc63>【獨角獸的應援】</color>是否確認繼續操作？"
+}
+
 _G.pg.base.gametip.ship_remould_warning_301534 = {
 	tip = "此次改造操作後<color=#92fc63>【霞光之絆】</color>技能\n將升級為<color=#92fc63>【霞光之絆·改】</color>"
 }
@@ -9677,7 +9681,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "英格拉罕、無畏、雷諾、鸚鵡螺、庫珀、馬布爾黑德 建造機率UP！"
+	tip = "前衛、不撓、復仇 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11527,7 +11531,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4.指揮官可以從中選擇2名角色作為祈願角色"
 		},
 		{
-			info = "5.可選名單僅包含7月14日前常駐加入對應建造的角色"
+			info = "5.可選名單僅包含3月23日前常駐加入對應建造的角色"
 		},
 		{
 			info = "6.有建造解鎖條件的角色無法被選為祈願角色，\n不會在祈願建造中出現。 "
@@ -13848,27 +13852,11 @@ _G.pg.base.gametip.towerclimbing_gametip = {
 	tip = {
 		{
 			info = [[
-小游戏玩法：
-1.玩家点击左、右和跳跃按钮，控制萨拉托加向上跳跃，
-每上升一个台阶层数加1
-2.玩家需要注意右侧的生命值，从平台边缘坠落、触碰到
-陷阱或者被生气啾追上都会扣除生命值，生命值耗尽游戏
-结束
-3.玩家在任意关卡内到达10、20、30、40、50层时，可以
-获得收集品，收集品会显示在收集手册中，完成每本收集
-手册都可以获得奖励
-活动规则：
-活动期间每日可获得一次可用次数，可用次数最多可以叠
-加7次
-1.在有可用次数的情况下参与啾啾大冒险会消耗掉可用次
-数并获得签到次数，集齐7次签到次数可以获得
-「三周年邀请函」
-2.可用次数可以在庆典广场页面右侧看到，签到进度可以
-通过点击庆典广场页面「邀请函」按钮查看
-3.在没有可用次数的情况下进行啾啾大冒险不会获得签到
-次数
-4.因为其他原因中途退出小游戏不会消耗可用次数，同时
-也不会获得任何奖励]]
+小遊戲玩法：
+1.指揮官通過點擊畫面上的左、右和跳躍按鈕，控制薩拉托加向上跳躍。每上升一個台階則層數加1
+2.指揮官需要注意右側的生命值，從平台邊緣墜落、觸碰到陷阱或者被生氣啾追上都會扣除生命值，生命值耗盡遊戲結束
+3.使用遊戲內退出按鈕退出時，會進行結算。因為其他原因中途退出小遊戲不會消耗可用次數，同時也不會獲得任何獎勵
+4.持有「探險許可證」的情況下游玩「啾啾大冒險」會獲取探險幣獎勵]]
 		}
 	}
 }
@@ -17866,11 +17854,9 @@ _G.pg.base.gametip.salvage_tips = {
 	tip = {
 		{
 			info = [[
-活動規則：
-1.<color=#92fc63>9月29日</color>為止每日0點開放<color=#92fc63>1</color>場新的遊戲，總計<color=#92fc63>7</color>場，可累計。完成遊戲可以獲得「二週年邀請函」在內的豐富獎勵。 
 遊戲規則：
-1.螢幕內會出現不同的打撈物，點擊螢幕可伸出抓鉤進行打撈。部分打撈物可獲得積分，部分打撈物會扣取積分。 
-2.打撈物積分表：
+1.螢幕內會出現不同的打撈物，點擊螢幕可伸出抓鉤進行打撈。部分打撈物可獲得積分，部分打撈物會扣取積分。
+2.打撈物積分錶：
 懷錶：20秒遊戲時間
 寶箱：600分
 珍珠：500分
@@ -17887,7 +17873,7 @@ _G.pg.base.gametip.salvage_tips = {
 伊26：-80分
 伊168：-50分
 魚雷：-50分
-3.遊戲時間歸零或點擊遊戲內退出按鈕均視為遊戲完成。因為其他原因中途退出遊戲則視為未完成。]]
+3.遊戲時間歸零或點擊遊戲內退出按鈕均視為遊戲完成。因為其他原因中途退出遊戲則視為未完成。 ]]
 		}
 	}
 }
@@ -19702,6 +19688,83 @@ _G.pg.base.gametip.cruise_task_help_2212 = {
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2302 = {
+	tip = "2023.6.1-2023.7.31期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可獲取<color=#854747>「謝菲爾德·META」</color>在內的豐富獎勵"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2302 = {
+	tip = {
+		{
+			info = [[
+世界巡遊(2023.6.1-2023.7.31)
+
+·<color=#92fc63>開放時間</color>
+ 2023.6.1 0點 ~ 2023.7.31 23:59:59
+
+·<color=#92fc63>巡游進度說明</color>
+（1）活動期間，指揮官通過完成巡遊任務，可獲取「巡遊點數」。
+（2）巡遊任務隨時間開放解鎖。
+（3）每獲取100點「巡遊點數」即可增加1巡游進度
+（4）巡游進度提升後可以獲取相應等級的獎勵，巡游進度最高可達100。
+
+·<color=#92fc63>獎勵規則</color>
+巡游進度獎勵分為兩種：
+（1）基礎巡遊獎勵：包含<color=#ff5c5c>「謝菲爾德·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·五期</color>等獎勵；
+ 當巡遊達到指定進度時，指揮官可以直接領取相應的基礎巡遊獎勵。
+（2）特許巡遊獎勵：包含<color=#ff5c5c>夕暮換裝「海邊嬉戲時間</color>」、<color=#ff5c5c>鑽石</color>等獎勵；
+ 購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。
+ 注：購買「特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。
+
+·<color=#92fc63>「特許巡遊憑證」說明</color>
+（1）「特許巡遊憑證」可於「商店」-「優惠禮包」中購買，購買後可立刻獲得<color=#ff5c5c>1500點</color>「巡遊點數」同時解鎖特許巡遊獎勵。
+（2）「特許巡遊憑證」將於<color=#ff5c5c>活動結束前一小時</color>停止販賣(即7.31 22:59:59停止)，請指揮官注意購買時間。
+
+·<color=#92fc63>任務說明</color>
+巡遊任務分為兩種：
+（1）每週任務 
+ 巡遊任務中共有8組每週任務。自活動開始後解鎖第一周任務，之後每週一的0點解鎖下一組每週任務
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後將自動接取，滿足任務完成條件時，會自動完成並獲取對應獎勵。
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成大部分巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的完成券數量固定，與當前任務進度無關
+（4）「巡遊任務快速完成券」不會隨本期活動結束而消失
+
+·<color=#ff5c5c>特別提示</color>
+（1）在本期世界巡遊活動結束後，所有巡遊任務將會無法繼續完成，所有巡遊獎勵將會無法繼續領取，請各位指揮官務必注意活動結束時間，提前領取獎勵。
+（2）巡游進度、[特許巡遊憑證]僅對本期世界巡遊活動生效]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2302 = {
+	tip = {
+		{
+			info = [[
+巡遊任務說明
+
+·<color=#92fc63>開放時間</color>
+ 2023.6.1 0點 ~ 2023.7.31 23:59:59
+
+·<color=#92fc63>巡遊任務分為兩種</color>
+（1）每週任務
+ 巡遊任務中共有8組每週任務。自活動開始後解鎖第一周任務，之後每週一的0點解鎖下一組每週任務。
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後將自動接取，滿足任務完成條件時，會自動完成並獲取對應獎勵
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成每週巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的「巡遊任務快速完成券」數量和其提供的「巡遊點數」相關，與當前任務進度無關
+（4）「巡遊任務快速完成券」<color=#92fc63>不會隨本期活動結束而消失</color>]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "全部重置"
 }
@@ -21037,6 +21100,22 @@ _G.pg.base.gametip.ryza_task_tag_develop = {
 	tip = "研究"
 }
 
+_G.pg.base.gametip.ryza_task_tag_adventure = {
+	tip = "探險"
+}
+
+_G.pg.base.gametip.ryza_task_tag_build = {
+	tip = "建設"
+}
+
+_G.pg.base.gametip.ryza_task_tag_create = {
+	tip = "製造"
+}
+
+_G.pg.base.gametip.ryza_task_tag_daily = {
+	tip = "每日"
+}
+
 _G.pg.base.gametip.ryza_task_detail_content = {
 	tip = "內容"
 }
@@ -21162,6 +21241,10 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 	}
 }
 
+_G.pg.base.gametip.hotspring_buff = {
+	tip = "露天溫泉|入浴艦船心情回复速度加快"
+}
+
 _G.pg.base.gametip.random_ship_custom_mode_empty = {
 	tip = "當前秘書艦列表為空，點擊編輯按鈕可添加角色"
 }
@@ -21232,6 +21315,91 @@ _G.pg.base.gametip.random_ship_custom_mode_add_title = {
 
 _G.pg.base.gametip.random_ship_custom_mode_remove_title = {
 	tip = "移除角色"
+}
+
+_G.pg.base.gametip.hotspring_shop_enter1 = {
+	tip = "歡迎光臨明石兌換屋！今天想要兌換什麼獎品喵？"
+}
+
+_G.pg.base.gametip.hotspring_shop_enter2 = {
+	tip = "歡迎光臨喵！獎品都在這裡，只要有溫泉券就能帶走喵~"
+}
+
+_G.pg.base.gametip.hotspring_shop_insufficient = {
+	tip = "兌換卷不夠了喵~想要獎品的話，就來幫明石經營溫泉店喵~"
+}
+
+_G.pg.base.gametip.hotspring_shop_success1 = {
+	tip = "多謝惠顧喵~"
+}
+
+_G.pg.base.gametip.hotspring_shop_success2 = {
+	tip = "指揮官眼光不錯喵~"
+}
+
+_G.pg.base.gametip.hotspring_shop_finish = {
+	tip = "不愧是指揮官，所有獎品都兌換完了，完美清倉喵！"
+}
+
+_G.pg.base.gametip.hotspring_shop_end = {
+	tip = "溫泉經營活動已經結束了喵~不過獎品兌換服務依舊繼續提供喵~"
+}
+
+_G.pg.base.gametip.hotspring_shop_touch1 = {
+	tip = "明石可不是能兌換的獎品喵？"
+}
+
+_G.pg.base.gametip.hotspring_shop_touch2 = {
+	tip = "再、再怎麼請求，獎品也不能白送的喵！"
+}
+
+_G.pg.base.gametip.hotspring_shop_touch3 = {
+	tip = "指揮官該不會是在拿明石當消遣喵！？"
+}
+
+_G.pg.base.gametip.hotspring_shop_exchanged = {
+	tip = "這個獎品已經兌換過了喵~指揮官不能太貪心喵~"
+}
+
+_G.pg.base.gametip.hotspring_shop_exchange = {
+	tip = "是否花費$1個 <icon name=Props/wenquanjuan w=0.7 h=0.7/> 兌換$2個$3？"
+}
+
+_G.pg.base.gametip.hotspring_tip1 = {
+	tip = "溫泉可以提高入浴角色的心情回復速度"
+}
+
+_G.pg.base.gametip.hotspring_tip2 = {
+	tip = "溫泉幣不足~"
+}
+
+_G.pg.base.gametip.hotspring_help = {
+	tip = {
+		{
+			info = [[
+活動規則：
+<color=#92fc63>5.25-6.15維護</color>期間開啟限時活動「露天溫泉」
+1.指揮官可以邀請艦船泡溫泉，溫泉可以提高入浴艦船的心情回復速度
+2.長按入浴艦船可拖動調整入浴位置]]
+		}
+	}
+}
+
+_G.pg.base.gametip.hotspring_expand = {
+	tip = "是否消耗$1溫泉幣<icon name=wenquanbi w=0.7 h=0.7/>擴展溫泉"
+}
+
+_G.pg.base.gametip.hotspring_shop_help = {
+	tip = {
+		{
+			info = [[
+活動時間：2023.5.25-2023.6.15維護
+活動規則：
+1.活動期間，幫助明石經營露天溫泉館獲得報酬「溫泉券」
+2.「溫泉券」可兌換限定家具「啾啾溫泉館」在內的豐厚獎勵
+3.擴建溫泉獲得的「溫泉券」可完全兌換所有獎勵]]
+		}
+	}
 }
 
 _G.pg.base.gametip.beach_guard_chaijun = {
@@ -21764,6 +21932,38 @@ _G.pg.base.gametip.setting_label_licence = {
 	tip = "使用者協議"
 }
 
+_G.pg.base.gametip.series_enemy_reward = {
+	tip = "累計獎勵"
+}
+
+_G.pg.base.gametip.series_enemy_mode_1 = {
+	tip = "單隊連戰?"
+}
+
+_G.pg.base.gametip.series_enemy_mode_2 = {
+	tip = "多隊出擊"
+}
+
+_G.pg.base.gametip.series_enemy_fleet_prefix = {
+	tip = "隊伍$1"
+}
+
+_G.pg.base.gametip.series_enemy_team_notenough = {
+	tip = "存在不滿足出戰要求的艦隊，每支艦隊必須至少存在一艘後排主力與一艘前排先鋒"
+}
+
+_G.pg.base.gametip.series_enemy_empty_commander_main = {
+	tip = "暫無司令"
+}
+
+_G.pg.base.gametip.series_enemy_empty_commander_assistant = {
+	tip = "暫無參謀"
+}
+
+_G.pg.base.gametip.limit_team_character_tips = {
+	tip = "※參戰的艦隊中不可出現同名角色"
+}
+
 _G.pg.base.gametip.caibulin_tip1 = {
 	tip = "從作戰中搜尋線索，目標1-2Burin！"
 }
@@ -21884,4 +22084,424 @@ _G.pg.base.gametip.blueprint_shipperformance = {
 
 _G.pg.base.gametip.blueprint_researching = {
 	tip = "研究進行中..."
+}
+
+_G.pg.base.gametip.sculpture_drawline_tip = {
+	tip = "*沿虛線裁剪設計圖"
+}
+
+_G.pg.base.gametip.sculpture_drawline_done = {
+	tip = "一番忙碌後，所有部件都按照設計圖製作完了！"
+}
+
+_G.pg.base.gametip.sculpture_drawline_exit = {
+	tip = "中途退出進度不保存，是否退出？\n退出後再次進入不消耗額外材料"
+}
+
+_G.pg.base.gametip.sculpture_puzzle_tip = {
+	tip = "*點擊部件進行選中，將部件拖動至虛線區域內進行拼接"
+}
+
+_G.pg.base.gametip.sculpture_gratitude_tip = {
+	tip = "*拖動禮物贈送給艦船"
+}
+
+_G.pg.base.gametip.sculpture_close_tip = {
+	tip = "*點擊空白關閉"
+}
+
+_G.pg.base.gametip.gift_act_help = {
+	tip = {
+		{
+			info = [[
+活動簡介：
+<color=#92fc63>5.25-6.15維護</color>期間開啟限時活動「禮物製作」
+活動規則：
+1.活動期間指揮官消耗「紅寶石」、「黃寶石」可以開啟角色禮物製作。
+2.「紅寶石」、「黃寶石」可以通過海島製作台製作獲取。
+3.完成禮物製作並贈送給角色可以獲得角色的回禮~]]
+		}
+	}
+}
+
+_G.pg.base.gametip.gift_act_drawline_help = {
+	tip = {
+		{
+			info = [[
+活動簡介：
+<color=#92fc63>5.25-6.15維護</color>期間開啟限時活動「禮物製作」
+活動規則：
+1.活動期間指揮官消耗「紅寶石」、「黃寶石」可以開啟角色禮物製作。
+2.「紅寶石」、「黃寶石」可以通過海島製作台製作獲取。
+3.完成禮物製作並贈送給角色可以獲得角色的回禮~]]
+		}
+	}
+}
+
+_G.pg.base.gametip.gift_act_tips = {
+	tip = "$1不足"
+}
+
+_G.pg.base.gametip.expedition_award_tip = {
+	tip = "指揮官不在的這段期間探險隊帶回來了一些材料："
+}
+
+_G.pg.base.gametip.island_act_tips1 = {
+	tip = "點擊空白處關閉跳窗"
+}
+
+_G.pg.base.gametip.haidaojudian_help = {
+	tip = {
+		{
+			info = [[
+活動簡介：
+<color=#92fc63>5.25-6.15維護</color>期間開啟限時活動「海風與夏日的無人島」
+活動規則：
+1.活動期間「啾啾探險隊」每天會從無人島上帶回一些材料，材料可以用於升級據點建築和在製作台製作各種道具，指揮官要記得每天收取哦~
+2.消耗「粗糙木料」可以將據點建築升級至lv.2；「優選木料」可以將據點建築升級至lv.4，「優選木料」可以在海島製作台加工獲取；建築等級提高，建築BUFF加成也會增加~
+3.每提升4次建築等級，海島據點的等級也會提升，提供的BUFF加成也會相應增加。
+4.可升級的建築共有四種：
+海島製作台
+啾啾探險隊
+生活區
+用餐區
+5.活動期間可以通過「禮物製作」活動製作禮物贈送給角色，贈送角色禮物後，指揮官也會收到對應角色的回禮~
+6.活動期間指揮官可以通過「前往冒險」入口進入無人島，完成無人島事件可以獲取「探險幣」等獎勵，「探險幣」可以在神秘商店兌換獎勵。
+7.指揮官可以在「委託板」處查看海島任務、部分海島區域的探索進度和海島據點的建設情況和增益BUFF。 ]]
+		}
+	}
+}
+
+_G.pg.base.gametip.haidaojudian_building_tip = {
+	tip = "建築升級所需材料不足"
+}
+
+_G.pg.base.gametip.workbench_help = {
+	tip = {
+		{
+			info = [[
+活動簡介：
+<color=#92fc63>5.25-6.15維護</color>期間開啟限時活動「海島製作台」
+活動規則：
+1.活動期間指揮官可以在無人島上獲取材料，用以在海島製作台處製作各種道具。
+2.部分活動道具有製作等級限制，需要指揮官提升「海島製作台」等級才能解鎖。
+3.指揮官可以在「倉庫」界面查看已獲得的活動道具。
+4.當製作過程中缺少材料時，指揮官可以點擊材料圖標查看獲取途徑。 ]]
+		}
+	}
+}
+
+_G.pg.base.gametip.workbench_need_materials = {
+	tip = "消耗材料"
+}
+
+_G.pg.base.gametip.workbench_tips1 = {
+	tip = "製作次數已用完"
+}
+
+_G.pg.base.gametip.workbench_tips2 = {
+	tip = "材料不足"
+}
+
+_G.pg.base.gametip.workbench_tips3 = {
+	tip = "當前已達到最大可製作數量"
+}
+
+_G.pg.base.gametip.workbench_tips4 = {
+	tip = "海島製作台Lv.$1解鎖"
+}
+
+_G.pg.base.gametip.workbench_tips5 = {
+	tip = "- 暫無可製作清單 -"
+}
+
+_G.pg.base.gametip.workbench_tips6 = {
+	tip = "已達最大等級"
+}
+
+_G.pg.base.gametip.workbench_tips7 = {
+	tip = "素材"
+}
+
+_G.pg.base.gametip.workbench_tips8 = {
+	tip = "製作數量"
+}
+
+_G.pg.base.gametip.workbench_tips9 = {
+	tip = "所需材料"
+}
+
+_G.pg.base.gametip.workbench_tips10 = {
+	tip = "僅顯示可製造"
+}
+
+_G.pg.base.gametip.island_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/island_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help5",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help6",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help7",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.islandnode_tips1 = {
+	tip = "更新時間"
+}
+
+_G.pg.base.gametip.islandnode_tips2 = {
+	tip = "提示"
+}
+
+_G.pg.base.gametip.islandnode_tips3 = {
+	tip = "*只能選擇一次哦"
+}
+
+_G.pg.base.gametip.islandnode_tips4 = {
+	tip = "Bingo~恭喜你猜對囉！"
+}
+
+_G.pg.base.gametip.islandnode_tips5 = {
+	tip = "好可惜，沒能猜對呢……下次一定能猜對！"
+}
+
+_G.pg.base.gametip.islandnode_tips6 = {
+	tip = "指揮官現在還不能收穫哦~"
+}
+
+_G.pg.base.gametip.islandnode_tips7 = {
+	tip = "指揮官不在的這段期間，$1幫忙照顧了田地"
+}
+
+_G.pg.base.gametip.islandnode_tips8 = {
+	tip = "事件未解鎖，指揮官可以通過升級海島據點、推進主線事件來解鎖"
+}
+
+_G.pg.base.gametip.islandnode_tips9 = {
+	tip = "請指揮官提高海島據點等級以解鎖更多後續主線事件~！"
+}
+
+_G.pg.base.gametip.islandshop_tips1 = {
+	tip = "兌換剩餘時間"
+}
+
+_G.pg.base.gametip.islandshop_tips2 = {
+	tip = "限購"
+}
+
+_G.pg.base.gametip.islandshop_tips3 = {
+	tip = "消耗"
+}
+
+_G.pg.base.gametip.islandshop_tips4 = {
+	tip = "$1不足"
+}
+
+_G.pg.base.gametip.haidaojudian_upgrade_limit = {
+	tip = "當前建築暫時不能繼續升級，指揮官先去升級其他建築吧~"
+}
+
+_G.pg.base.gametip.chargetip_monthcard_1 = {
+	tip = "貿易許可證購買成功，恭喜獲得"
+}
+
+_G.pg.base.gametip.chargetip_monthcard_2 = {
+	tip = "貿易許可證每日獎勵已通過郵件發放"
+}
+
+_G.pg.base.gametip.chargetip_crusing = {
+	tip = "特許巡遊憑證已解鎖"
+}
+
+_G.pg.base.gametip.chargetip_giftpackage = {
+	tip = "購買成功！放入郵箱中"
+}
+
+_G.pg.base.gametip.package_view_1 = {
+	tip = "貿易許可證購買成功，已獲取"
+}
+
+_G.pg.base.gametip.package_view_2 = {
+	tip = "貿易許可證期間每日可通過郵件領取獎勵"
+}
+
+_G.pg.base.gametip.package_view_3 = {
+	tip = "特許巡遊憑證已解鎖"
+}
+
+_G.pg.base.gametip.package_view_4 = {
+	tip = "已獲取："
+}
+
+_G.pg.base.gametip.probabilityskinshop_tip = {
+	tip = "如果改換裝已擁有，則會轉化為等價的鑽石"
+}
+
+_G.pg.base.gametip.skin_gift_desc = {
+	tip = "從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) \n包含的換裝和機率如下：\n $1"
+}
+
+_G.pg.base.gametip.springtask_tip = {
+	tip = "完成無人島偵察後，眾人發現了一處修建溫泉浴場的理想場所。不過要完成建設，還缺少一些必要材料……\n每日0點解鎖1個溫泉建設任務，全部完成後即可解鎖露天溫泉功能！"
+}
+
+_G.pg.base.gametip.springtask_help = {
+	tip = ""
+}
+
+_G.pg.base.gametip.island_build_desc = {
+	tip = "*升級據點建築可以提高據點等級"
+}
+
+_G.pg.base.gametip.island_history_desc = {
+	tip = "*探索完當前區域所有節點可解鎖隱藏寶藏的線索！"
+}
+
+_G.pg.base.gametip.island_build_level = {
+	tip = "據點等級"
+}
+
+_G.pg.base.gametip.island_game_limit_help = {
+	tip = "每日0點後進入無人島可獲得$1張許可證"
+}
+
+_G.pg.base.gametip.island_game_limit_num = {
+	tip = "擁有:$1"
+}
+
+_G.pg.base.gametip.ore_minigame_help = {
+	tip = {
+		{
+			info = [[
+活动简介：
+1.指挥官需要帮助茗把矿石搬运到运输地点，搬运途中需要躲避受到惊扰的动物
+2.搬运的矿石越多茗的移动速度会越慢,且每次搬运的矿石重量有上限，超过上限将无法拾取矿石
+3.游戏时间归零或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。
+4.持有「探险许可证」的情况下游玩「啾啾搬运工」会获取探险币奖励]]
+		}
+	}
+}
+
+_G.pg.base.gametip.meta_shop_exchange_limit_2 = {
+	tip = "尚未解鎖"
+}
+
+_G.pg.base.gametip.meta_shop_tip = {
+	tip = "結晶商品可兌換次數隨已獲得結晶數量變化"
+}
+
+_G.pg.base.gametip.pt_shop_tran_tip = {
+	tip = "由於<color=#92fc63>「$2」</color>已達到獲取上限，最終將獲得$1個<color=#92fc63>「$2」</color>，剩餘<color=#92fc63>「$2」</color>將會轉換為$3個<color=#92fc63>「$4」</color>，是否確認兌換？"
+}
+
+_G.pg.base.gametip.urdraw_tip = {
+	tip = "當前存在尚未領取的累計建造獎勵，請及時領取"
+}
+
+_G.pg.base.gametip.urdraw_complement = {
+	tip = "當前累計建造：<color=#92fc63>$1</color>\n剩餘時間：<color=#ff5c5c>$2</color>"
+}
+
+_G.pg.base.gametip.meta_class_t_level_1 = {
+	tip = "破敵之炬"
+}
+
+_G.pg.base.gametip.meta_class_t_level_2 = {
+	tip = "構造之理"
+}
+
+_G.pg.base.gametip.meta_class_t_level_3 = {
+	tip = "逐光之焰"
+}
+
+_G.pg.base.gametip.meta_class_t_level_4 = {
+	tip = "搖曳之火"
+}
+
+_G.pg.base.gametip.meta_shop_exchange_limit_tip = {
+	tip = "尚未獲得角色$1"
+}
+
+_G.pg.base.gametip.meta_shop_exchange_limit_2_tip = {
+	tip = "該道具於$1年$2月$3日$4時$5分$6秒後可購買"
+}
+
+_G.pg.base.gametip.charge_tip_crusing_label = {
+	tip = "恭喜獲得"
+}
+
+_G.pg.base.gametip.mktea_1 = {
+	tip = "從採摘開始的精挑細選，是一盞好茶的基礎。"
+}
+
+_G.pg.base.gametip.mktea_2 = {
+	tip = "攤放茶葉，蒸掉茶葉裡的水分，讓葉質變軟。"
+}
+
+_G.pg.base.gametip.mktea_3 = {
+	tip = "為了保持茶的香韻，殺青是必不可少的一步。"
+}
+
+_G.pg.base.gametip.mktea_4 = {
+	tip = "將殺青後的茶葉放置於陰涼處，進行薄攤回潮。待涼後篩去其茶末、簸去碎片。"
+}
+
+_G.pg.base.gametip.mktea_5 = {
+	tip = "最後是輝鍋，將茶葉的香氣和形態炒至最理想的狀態，使其色澤綠潤，葉片扁平光滑。"
+}
+
+_G.pg.base.gametip.random_skin_list_item_desc_label = {
+	tip = "换装 "
 }

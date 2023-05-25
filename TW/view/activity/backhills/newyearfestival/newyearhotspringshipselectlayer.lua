@@ -51,9 +51,9 @@ function slot0.UpdateSlots(slot0)
 	slot1 = slot0.activity
 
 	slot0:CleanCards()
-	_.each(_.range(1, 10), function (slot0)
-		slot1 = uv0.data1_list[slot0] or 0
-		slot2 = math.clamp(slot0 - uv0.data1, 0, 2)
+	_.each(_.range(1, slot1:GetTotalSlotCount()), function (slot0)
+		slot1 = uv0:GetShipIds()[slot0] or 0
+		slot2 = math.clamp(slot0 - uv0:GetSlotCount(), 0, 2)
 		slot3 = slot1 > 0 and getProxy(BayProxy):RawGetShipById(slot1)
 
 		uv1:AddCard(slot0, slot2, slot3)
@@ -88,7 +88,7 @@ function slot0.AddCard(slot0, slot1, slot2, slot3)
 		end)
 		FormationCard.New(go(slot4)):update(slot3)
 
-		slot8 = slot3:getRecoverEnergyPoint() + slot0.activity:getConfig("config_data")[1][4]
+		slot8 = slot3:getRecoverEnergyPoint() + slot0.activity:GetEnergyRecoverAddition()
 
 		if slot3.state == Ship.STATE_REST or slot3.state == Ship.STATE_TRAIN then
 			if slot3.state == Ship.STATE_TRAIN then

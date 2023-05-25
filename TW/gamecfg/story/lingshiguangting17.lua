@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "君主小姐，贵安。",
+			say = "君主小姐，貴安。",
 			bgm = "hunhe-level",
 			flashin = {
 				delay = 1,
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "贵安，胡德女士。又来休养身体了么？",
+			say = "貴安，胡德女士。又來休養身體了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只是稍微休养一阵罢了。和之前一样，身体没有什么大碍哦。",
+			say = "只是稍微休養一陣罷了。和之前一樣，身體沒有什麼大礙哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "君主小姐近来可好？",
+			say = "君主小姐近來可好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "............…………",
+			say = "........................",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看你的表情应该是有很多话想说呢，我们找个地方坐下慢慢聊吧~",
+			say = "看妳的表情應該是有很多話想說呢，我們找個地方坐下慢慢聊吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "胡德女士，我的心中充满了困惑。",
+			say = "胡德女士，我的心中充滿了困惑。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "自诞生以来我一直都在这里进行着训练，日复一日重复着相同的事情。",
+			say = "自誕生以來我一直都在這裡進行著訓練，日復一日重複著相同的事情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样的我究竟有什么存在的意义呢？",
+			say = "這樣的我究竟有什麼存在的意義呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "每天我都会进行剑术的练习，可我手中的剑究竟是为了什么而挥动的呢？",
+			say = "每天我都會進行劍術的練習，可我手中的劍究竟是為了什麼而揮動的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在这一成不变的日子里我无法找到答案……",
+			say = "在這一成不變的日子裡我無法找到答案……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "虽然给人的第一印象十分冰冷，不过在熟识之后就会发现，君主其实十分健谈。",
+			say = "雖然給人的第一印象十分冰冷，不過在熟識之後就會發現，君主其實十分健談。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "这已经不是君主第一次向胡德抒发内心的烦闷了。",
+			say = "這已經不是君主第一次向胡德抒發內心的煩悶了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "大多数时间，胡德都只是在静静倾听着，并没有急于肯定或否定任何事。",
+			say = "大多數時間，胡德都只是在靜靜傾聽著，並沒有急於肯定或否定任何事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉啊，明明你是来休养的，我却只顾着说自己的事......",
+			say = "抱歉啊，明明妳是來休養的，我卻只顧著說自己的事......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "会感到困惑，就是你存在的证明。而存在，一定伴随着意义哦。",
+			say = "會感到困惑，就是妳存在的證明。而存在，一定伴隨著意義哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "君主小姐只是还需要一点时间来寻找而已。",
+			say = "君主小姐只是還需要一點時間來尋找而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但愿如此吧……那么我就不打扰你休息了，谢谢你听我说了这些。",
+			say = "但願如此吧……那麼我就不打擾妳休息了，謝謝妳聽我說了這些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然只是暂时的，不过我也要一个人独自在这里待一阵了。",
+			say = "雖然只是暫時的，不過我也要一個人獨自在這裡待一陣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要是你明天也能来找我聊天的话，可就帮了大忙了哦~",
+			say = "要是妳明天也來能找我聊天的話，可就幫了大忙了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "看着露出温柔笑容的胡德，君主感觉内心的阴云渐渐消散了——",
+			say = "看著露出溫柔笑容的胡德，君主感覺內心的陰雲漸漸消散了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

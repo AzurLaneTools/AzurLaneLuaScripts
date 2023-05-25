@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "训练设施内，君主刚刚完成了一组高强度训练。",
+			say = "訓練設施內，君主剛剛完成了一組高強度訓練。",
 			effects = {
 				{
 					active = false,
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "炮击训练结束，进行装备检查……",
+			say = "炮擊訓練結束，進行裝備檢查……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "舰装无异常，精准度和威力都一如既往，可以进行下一项训练了。",
+			say = "艦裝無異常，精準度和威力都和一如既往，可以進行下一項訓練了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来应该是剑术的练习......",
+			say = "接下來應該是劍術的練習......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "君主每一次出剑都会伴随着这样一声低吼。",
+			say = "君主每一次出劍都會伴隨著這樣一聲低吼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,24 +149,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这一举动并没有什么特别的意义，也许她认为这样能够让场地内不那么死气沉沉吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 299020,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "......已经是这个时间了啊。",
+			say = "這一舉動並沒有什麼特別的意義，也許她認為這樣能夠讓場地內不那麼死氣沉沉吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "训练结束，该去补给了。",
+			say = "......已經是這個時間了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "............…………",
+			say = "訓練結束，該去補給了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "开炮、挥剑、开炮、挥剑......又是毫无意义的一天。",
+			say = "........................",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就连KGV都能在海面上自由驰骋着，我却什么都做不了……",
+			say = "開炮、揮劍、開炮、揮劍......又是毫無意義的一天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不曾有期待也不曾有祝福……这就是皇家的结论么。",
+			say = "就連KGV都能在海面上自由馳騁著，我卻什麼都做不了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然如此，为何要呼唤我前来……",
+			say = "不曾有期待也不曾有祝福……這就是皇家的結論麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +268,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我存在于此的意义究竟是什么……！",
+			say = "既然如此，為何要呼喚我前來……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 299020,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "我存在於此的意義究竟是什麼……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

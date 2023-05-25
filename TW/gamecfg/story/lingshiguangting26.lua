@@ -15,7 +15,7 @@ return {
 			actor = 900326,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "各位再坚持一下……我们马上就到斯卡帕湾了！",
+			say = "各位再堅持一下……我們馬上就到斯卡帕灣了！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐姐，你现在的状态……",
+			say = "姐姐，妳現在的狀態……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "恐怕已经突破了临界点，META化已经彻底不可逆了吧。",
+			say = "恐怕已經突破了臨界點，META化已經徹底不可逆了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "多亏姐姐打开的缺口，我们这小部分人才能撤回来……",
+			say = "多虧姐姐打開的缺口，我們這小部分人才能撤回來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论你变成什么样子，你永远都是我姐姐！",
+			say = "不論妳變成什麼樣子，妳永遠都是我姐姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "好了，不说这些了。跟陛下的舰队联络上了么？",
+			say = "好了，不說這些了。跟陛下的艦隊聯絡上了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还没收到任何回复……",
+			say = "還沒收到任何回復……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "前卫究竟在做什么…！正常来说她肯定会带着陛下先撤回来吧……",
+			say = "前衛究竟在做什麼…！正常來說她肯定會帶著陛下先撤回來吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是姐姐……我们收到的命令是在斯卡帕湾修整完毕后前往内陆避难所，不许擅自返回……",
+			say = "可是姐姐……我們收到的命令是在斯卡帕灣修整完畢後前往內陸避難所，不許擅自返回……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "谁的命令？陛下的么？",
+			say = "誰的命令？陛下的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "那就没有任何听从的价值。不要阻拦我，妹妹……",
+			say = "那就沒有任何聽從的價值。不要阻攔我，妹妹……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，姐姐你误会了，我要跟你一起回去。",
+			say = "不，姐姐妳誤會了，我要跟妳一起回去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "绝对不行！你现在伤的太严重了。",
+			say = "絕對不行！妳現在傷的太嚴重了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我感觉，我可能也差不多到临界值了哦……",
+			say = "我感覺，我可能也差不多到臨界值了哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "两个人总比一个人好，不是么？",
+			say = "兩個人總比一個人好，不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论前方会发生什么事，都让我们一同去面对吧——",
+			say = "不論前方會發生什麼事，都讓我們一同去面對吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

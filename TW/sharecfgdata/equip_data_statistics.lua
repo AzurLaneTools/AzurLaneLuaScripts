@@ -5833,7 +5833,8 @@ _G.pg.base.equip_data_statistics[720] = {
 	equip_parameters = {},
 	label = {
 		"KMS",
-		"DEV"
+		"DEV",
+		"ParzivalU556"
 	}
 }
 
@@ -6909,7 +6910,8 @@ _G.pg.base.equip_data_statistics[880] = {
 	equip_parameters = {},
 	label = {
 		"HMS",
-		"DEV"
+		"DEV",
+		"NPOV"
 	}
 }
 
@@ -16322,6 +16324,149 @@ _G.pg.base.equip_data_statistics[3571] = {
 	id = 3571,
 	value_1 = "21",
 	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3580] = {
+	type = 10,
+	name = "海軍部火控台",
+	speciality = "无",
+	tech = 0,
+	value_2 = 20,
+	ammo = 10,
+	nationality = 2,
+	descrip = "用於生成射擊參數的皇家海軍火控設備",
+	rarity = 6,
+	attribute_1 = "hit",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3580,
+	icon = "3580",
+	value_1 = "24",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		6265
+	},
+	hidden_skill_id = {
+		9709
+	},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {
+		4,
+		5,
+		10,
+		13
+	},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3581] = {
+	id = 3581,
+	value_2 = 22,
+	value_1 = "26",
+	base = 3580
+}
+
+_G.pg.base.equip_data_statistics[3582] = {
+	id = 3582,
+	value_2 = 24,
+	value_1 = "28",
+	base = 3580
+}
+
+_G.pg.base.equip_data_statistics[3583] = {
+	id = 3583,
+	value_2 = 26,
+	value_1 = "30",
+	base = 3580
+}
+
+_G.pg.base.equip_data_statistics[3584] = {
+	id = 3584,
+	value_2 = 28,
+	value_1 = "32",
+	base = 3580
+}
+
+_G.pg.base.equip_data_statistics[3585] = {
+	id = 3585,
+	value_2 = 30,
+	value_1 = "35",
+	base = 3580
+}
+
+_G.pg.base.equip_data_statistics[3586] = {
+	id = 3586,
+	value_2 = 32,
+	value_1 = "38",
+	base = 3580
+}
+
+_G.pg.base.equip_data_statistics[3587] = {
+	id = 3587,
+	value_2 = 34,
+	value_1 = "41",
+	base = 3580
+}
+
+_G.pg.base.equip_data_statistics[3588] = {
+	id = 3588,
+	value_2 = 36,
+	value_1 = "45",
+	base = 3580
+}
+
+_G.pg.base.equip_data_statistics[3589] = {
+	id = 3589,
+	value_2 = 38,
+	value_1 = "49",
+	base = 3580
+}
+
+_G.pg.base.equip_data_statistics[3590] = {
+	id = 3590,
+	value_2 = 40,
+	value_1 = "53",
+	base = 3580
+}
+
+_G.pg.base.equip_data_statistics[3591] = {
+	value_2 = 42,
+	anti_siren = 100,
+	base = 3580,
+	id = 3591,
+	value_1 = "57"
+}
+
+_G.pg.base.equip_data_statistics[3592] = {
+	value_2 = 44,
+	anti_siren = 200,
+	base = 3580,
+	id = 3592,
+	value_1 = "61"
+}
+
+_G.pg.base.equip_data_statistics[3593] = {
+	value_2 = 46,
+	anti_siren = 300,
+	base = 3580,
+	id = 3593,
+	value_1 = "65"
 }
 
 _G.pg.base.equip_data_statistics[3680] = {
@@ -114389,6 +114534,59 @@ _G.pg.base.equip_data_statistics[79832] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[79851] = {
+	type = 1,
+	name = "专属弹幕-贾维斯I",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 79851,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		60801
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[79852] = {
+	id = 79852,
+	name = "专属弹幕-贾维斯II",
+	base = 79851,
+	weapon_id = {
+		60802
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[79861] = {
 	type = 1,
 	name = "專屬彈幕-小柴郡I",
@@ -133330,6 +133528,59 @@ _G.pg.base.equip_data_statistics[100000] = {
 	part_sub = {},
 	equip_parameters = {},
 	label = {}
+}
+
+_G.pg.base.equip_data_statistics[170011] = {
+	type = 1,
+	name = "专属弹幕-谢菲尔德METAI",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 170011,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170011
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[170012] = {
+	id = 170012,
+	name = "专属弹幕-谢菲尔德METAII",
+	base = 170011,
+	weapon_id = {
+		170012
+	},
+	hidden_skill_id = {}
 }
 
 _G.pg.base.equip_data_statistics[594017] = {

@@ -461,5 +461,125 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "doa_minigame"
+	},
+	AnniversaryIsland2023Scene = {
+		default_bgm = "theme-SeaAndSun-soft",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-SeaAndSun-soft"
+	},
+	SixthAnniversaryIslandScene = {
+		default_bgm = "theme-SeaAndSun-image",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-SeaAndSun-image"
+	},
+	OreMiniGameView = {
+		default_bgm = "story-richang-3",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-3"
+	},
+	IslandCatchTreasureGameView = {
+		default_bgm = "story-richang-5",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-5"
+	},
+	IslandTowerClimbingGameView = {
+		default_bgm = "story-richang-6",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-6"
+	},
+	AnniversaryIslandComposite2023Scene = {
+		default_bgm = "main-SeaAndSun",
+		special_bgm = "",
+		time = "",
+		bgm = "main-SeaAndSun"
+	},
+	IslandTaskScene = {
+		default_bgm = "main-SeaAndSun",
+		special_bgm = "",
+		time = "",
+		bgm = "main-SeaAndSun"
+	},
+	AnniversaryIslandSpringTask2023Scene = {
+		default_bgm = "main-SeaAndSun",
+		special_bgm = "",
+		time = "",
+		bgm = "main-SeaAndSun"
+	},
+	AnniversaryIslandHotSpringScene = {
+		default_bgm = "bar-soft",
+		special_bgm = "",
+		time = "",
+		bgm = "bar-soft"
+	},
+	IslandQTEMiniGameLayer = {
+		default_bgm = "story-richang-3",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-3"
+	},
+	IslandFlowerFieldLayer = {
+		default_bgm = "story-richang-3",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-3"
+	},
+	DexiV5MainPage = {
+		default_bgm = "theme-bismark-reborn",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-bismark-reborn"
+	},
+	DexiV5PtPage = {
+		default_bgm = "theme-bismark-reborn",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-bismark-reborn"
+	},
+	IslandMainPage = {
+		default_bgm = "main-SeaAndSun",
+		special_bgm = "",
+		time = "",
+		bgm = "main-SeaAndSun"
+	},
+	MakeTeaPtPage = {
+		default_bgm = "theme-yixian-soft-loop",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-yixian-soft-loop"
+	},
+	SkinGuide1Page = {
+		default_bgm = "theme-warmwinter-daily",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-warmwinter-daily"
+	},
+	ReturnAwardPage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-starsea-core"
+	},
+	AnniversarySixInvitationPage = {
+		default_bgm = "theme-partydress",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-partydress"
+	},
+	AnniversarySixLoginPage = {
+		default_bgm = "theme-partydress",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-partydress"
+	},
+	RyzaPtPage = {
+		default_bgm = "ryza-4",
+		special_bgm = "",
+		time = "",
+		bgm = "ryza-4"
 	}
 }

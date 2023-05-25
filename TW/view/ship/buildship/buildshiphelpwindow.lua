@@ -75,7 +75,7 @@ function slot0.OnShow(slot0, slot1, slot2)
 
 		if (slot12 > slot5 or slot0.tipListTF:GetChild(slot12 - 1)) and cloneTplTo(slot0.tipListTpl, slot0.tipListTF) then
 			setActive(slot13, true)
-			setText(slot13, slot8[slot12])
+			setText(slot13, HXSet.hxLan(slot8[slot12]))
 		end
 	end
 end

@@ -215,17 +215,19 @@ function slot1.ChieseDescTime(slot0, slot1, slot2)
 	return NumberToChinese(slot5[1], false) .. "年" .. NumberToChinese(slot5[2], true) .. "月" .. NumberToChinese(slot5[3], true) .. "日"
 end
 
-function slot1.GetNextTime(slot0, slot1, slot2, slot3, slot4)
-	slot4 = slot4 or uv0
-	slot6 = slot1 * uv1 + slot2 * 60 + slot3
+function slot1.GetTimeToNextTime(slot0, slot1, slot2, slot3)
+	slot2 = slot2 or uv0
+	slot3 = slot3 or 0
 
-	return math.floor((slot0:GetServerTime() - (slot0._sAnchorTime + slot6)) / slot4 + 1) * slot4 + slot0._sAnchorTime + slot6
+	return math.floor(((slot1 or slot0:GetServerTime()) - (slot0._sAnchorTime + slot3)) / slot2 + 1) * slot2 + slot0._sAnchorTime + slot3
+end
+
+function slot1.GetNextTime(slot0, slot1, slot2, slot3, slot4)
+	return slot0:GetTimeToNextTime(nil, slot4, slot1 * uv0 + slot2 * 60 + slot3)
 end
 
 function slot1.GetNextTimeByTimeStamp(slot0, slot1)
-	slot2 = uv0
-
-	return math.floor((slot1 - slot0._sAnchorTime) / slot2) * slot2 + slot0._sAnchorTime
+	return slot0:GetTimeToNextTime(slot1) - uv0
 end
 
 function slot1.GetNextWeekTime(slot0, slot1, slot2, slot3, slot4)

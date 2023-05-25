@@ -48,6 +48,14 @@ pg.item_data_chat = {
 		desc = "指揮部歡迎您的歸來，期待您今後的活躍，指揮官\n<color=#A7A7AAFF>有效期30天</color>",
 		scene = {}
 	},
+	[602] = {
+		time_limit_type = 0,
+		name = "綠野的餘響",
+		id = 602,
+		time_second = 0,
+		desc = "獻給所有參與海島活動的港區指揮官們\n<color=#A7A7AAFF>通過參與海島限定活動獲取</color>",
+		scene = {}
+	},
 	[1001] = {
 		time_limit_type = 0,
 		name = "開服紀念",
@@ -63,6 +71,7 @@ pg.item_data_chat = {
 		103,
 		300,
 		301,
+		602,
 		1001
 	}
 }

@@ -13,16 +13,15 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.Flush(slot0, slot1)
-	slot2 = slot0.activity == nil
 	slot0.activity = slot1
 
 	if slot0:OnDataSetting() then
-		slot0.activity = nil
-
 		return
 	end
 
-	if slot2 then
+	if defaultValue(slot0.isFirst, true) then
+		slot0.isFirst = false
+
 		slot0:OnFirstFlush()
 	end
 
@@ -33,6 +32,14 @@ function slot0.ShowOrHide(slot0, slot1)
 	SetActive(slot0._go, slot1)
 
 	if slot1 then
+		slot2 = {}
+
+		slot0._event:emit(ActivityMainScene.GET_PAGE_BGM, slot0.__cname, slot2)
+
+		if slot2.bgm then
+			pg.BgmMgr.GetInstance():Push(ActivityMainScene.__cname, slot2.bgm)
+		end
+
 		slot0:OnShowFlush()
 	else
 		slot0:OnHideFlush()

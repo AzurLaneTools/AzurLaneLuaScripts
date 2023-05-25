@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么样怎么样~我精心烤制的仰望星空派味道不错吧？",
+			say = "怎麼樣怎麼樣~我精心烤製的仰望星空派味道不錯吧？",
 			bgm = "theme-partydress",
 			flashin = {
 				delay = 1,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "……嗯，用传统工艺制作的仰望星空派果然很厉害，原汁原味的保留了鱼的味道……",
+			say = "……嗯，用傳統工藝製作的仰望星空派果然很厲害，原汁原味的保留了魚的味道……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也就是真难吃的意思呢，同感。",
+			say = "也就是真難吃的意思呢，同感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂喂喂！这可是我花了好久的功夫才做出来的菜啊！",
+			say = "喂喂喂！這可是我花了好久的功夫才做出來的菜啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "花费的时间多又不代表一定好吃。",
+			say = "花費的時間多又不代表一定好吃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……早知道不邀请你过来了。而且前卫大人不是表示很厉害么！",
+			say = "……早知道不邀請妳過來了。而且前衛大人不是表示很厲害嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "那是前卫大人的优雅与矜持，要不然你自己尝尝如何？",
+			say = "那是前衛大人的優雅與矜持，要不然妳自己嚐嚐如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "尝尝就尝尝，这次可是我的自信之作——————",
+			say = "嚐嚐就嚐嚐，這次可是我的自信之作——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个味道和刺激………………咳、咳咳咳！",
+			say = "這個味道和刺激………………咳、咳咳咳！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐姐————你之前吃的时候不是说做的很不错么！这个味道也太恐怖了欸！",
+			say = "姐姐————妳之前吃的時候不是說做的很不錯嗎！這個味道也太恐怖了欸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为仰望星空派的古法还原来说确实十分成功，我只是实话实说而已。",
+			say = "作為仰望星空派的古法還原來說確實十分成功，我只是實話實說而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——备受打击。",
+			say = "——備受打擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我会负责把仰望星空全部吃完的（无感情的咀嚼）。",
+			say = "我會負責把仰望星空全部吃完的（無感情的咀嚼）。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "除此之外，我还准备了一些千层面，不知道前卫大人是否有兴趣再品尝一下（继续无感情的咀嚼）。",
+			say = "除此之外，我還準備了一些千層麵，不知道前衛大人是否有興趣再品嚐一下（繼續無感情的咀嚼）。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "千层面？！撒丁的千层面么？！我要吃！",
+			say = "千層麵？！薩丁的千層麵嗎？！我要吃！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

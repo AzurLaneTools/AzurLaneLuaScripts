@@ -1,6 +1,7 @@
 slot0 = class("ActivityMainScene", import("..base.BaseUI"))
 slot0.LOCK_ACT_MAIN = "ActivityMainScene:LOCK_ACT_MAIN"
 slot0.UPDATE_ACTIVITY = "ActivityMainScene:UPDATE_ACTIVITY"
+slot0.GET_PAGE_BGM = "ActivityMainScene.GET_PAGE_BGM"
 
 function slot0.preload(slot0, slot1)
 	slot1()
@@ -8,6 +9,9 @@ end
 
 function slot0.getUIName(slot0)
 	return "ActivityMainUI"
+end
+
+function slot0.PlayBGM(slot0)
 end
 
 function slot0.onBackPressed(slot0)
@@ -73,6 +77,9 @@ function slot0.didEnter(slot0)
 	end)
 	slot0:bind(uv0.UPDATE_ACTIVITY, function (slot0, slot1)
 		uv0:updateActivity(slot1)
+	end)
+	slot0:bind(uv0.GET_PAGE_BGM, function (slot0, slot1, slot2)
+		slot2.bgm = uv0:getBGM(slot1) or uv0:getBGM()
 	end)
 end
 

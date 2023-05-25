@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "众人打开设施厚重的大门，见到了此行的目标。",
+			say = "眾人打開設施厚重的大門，見到了此行的目標。",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "陛下，抱歉我们来迟了。",
+			say = "陛下，抱歉我們來遲了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是前卫啊，还把君主也找来了。",
+			say = "是前衛啊，還把君主也找來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好！本王就知道你是不会置失踪的本王于不顾的！",
+			say = "很好！本王就知道妳是不會置失蹤的本王於不顧的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下您没事吧，有不舒服的地方么，我来给您检查一下？",
+			say = "陛下您沒事吧，有不舒服的地方嗎，我來給您檢查一下？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用了贾维斯，本王没事。",
+			say = "不用了傑維斯，本王沒事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，这里不安全，请随我们尽快离开。",
+			say = "陛下，這裡不安全，請隨我們盡快離開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "倒也不用着急。除了无法从内部打开之外，这里还算挺安全的。",
+			say = "倒也不用著急。除了無法從內部打開之外，這裡還算挺安全的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "空间宽敞，装潢品味不错，休闲设施也一应俱全。",
+			say = "空間寬敞，裝潢品味不錯，休閒設施也一應俱全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们一路奔波过来辛苦了，暂时休息一下吧。这里的茶水和点心也很不错哦。",
+			say = "妳們一路奔波過來辛苦了，暫時休息一下吧。這裡的茶水和點心也很不錯哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "陛下……？这里可是在塞壬镜面海域的正中心啊！",
+			say = "陛下……？這裡可是在塞壬鏡面海域的正中心啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心休息，本王有数。",
+			say = "放心休息，本王有數。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对了，不少人是第一次见海王星和柴郡吧？事到如今也瞒不下去了，你们就趁机好好交流一下。",
+			say = "對了，不少人是第一次見海王星和柴郡吧？事到如今也瞞不下去了，妳們就趁機好好交流一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前卫和君主跟本王来书房，本王有话要说。",
+			say = "前衛和君主跟本王來書房，本王有話要說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "…………事情居然是这样……君主，你做的太过了！",
+			say = "…………事情居然是這樣……君主，妳做的太過了！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉……将伊丽莎白女王和诸位卷进来并非我的本意。",
+			say = "抱歉……將伊莉莎白女王和諸位捲進來並非我的本意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "不论你的本意为何！你有作为骑士的自觉么？！",
+			say = "不論妳的本意為何！妳有作為騎士的自覺嗎？！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我是皇家的骑士，我要做有利于皇家的事。",
+			say = "我是皇家的騎士，我要做有利於皇家的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再优柔寡断下去，我们就真的要永远失去胡德女士了啊！",
+			say = "再優柔寡斷下去，我們就真的要永遠失去胡德女士了啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "……那也不能成为你擅自鲁莽行动的理由！你知道纪律与服从的含义么？！",
+			say = "……那也不能成為妳擅自魯莽行動的理由！妳知道紀律與服從的含義麼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "万一这次行动非但没有找到目标，反而让卡美洛之庭受损的话……！",
+			say = "萬一這次行動非但沒有找到目標，反而讓卡美洛之庭受損的話……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好了……现在不是吵架的时候。",
+			say = "好了……現在不是吵架的時候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "截止目前，除了被意外击晕的谢菲和擅自行动而负伤的君主之外，我们没有其他损失。",
+			say = "截止目前，除了被意外擊暈的謝菲和擅自行動而負傷的君主之外，我們沒有其他損失。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为前卫的正确判断，此行还与两名META产生了友好联系。",
+			say = "因為前衛的正確判斷，此行還與兩名META產生了友好聯繫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在本王不想再继续追究这些事了。",
+			say = "現在本王不想再繼續追究這些事了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "君主，本王需要更多关于好人理查德的情报。在本王到达之前，你跟她之间发生了什么？",
+			say = "君主，本王需要更多關於好人理察的情報。在本王到達之前，妳跟她之間發生了什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我很难用语言描述……她好像一直试图干涉我的思维，有些声音甚至直接从我的脑海中出现了……",
+			say = "我很難用語言描述……她好像一直試圖干涉我的思維，有些聲音甚至直接從我的腦海中出現了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她还一直在劝说我成为META，然后还……试图攻击我心理的弱点。",
+			say = "她還一直在勸說我成為META，然後還……試圖攻擊我心理的弱點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然看起来是她在战斗中受到的伤害比较大，但是不知为何，我感觉如果再继续下去的话，输的人会是我。",
+			say = "雖然看起來是她在戰鬥中受到的傷害比較大，但是不知為何，我感覺如果再繼續下去的話，輸的人會是我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总而言之，是一个既疯狂又难缠的对手……",
+			say = "總而言之，是一個既瘋狂又難纏的對手……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "唔……居然能让你都觉得这么难缠，看来确实是强敌。",
+			say = "唔……居然能讓妳都覺得這麼難纏，看來確實是強敵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然如此……本王也感觉到了一股难以名状的恐怖。",
+			say = "果然如此……本王也感覺到了一股難以名狀的恐怖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为人工奇异点核心设备，卡美洛之庭可不是能被轻易干涉的存在。",
+			say = "作為人工奇異點核心設備，卡美洛之庭可不是能被輕易干涉的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直就像她比我们更熟悉这套装置的运行逻辑……然后拥有比人工奇异点更强大的力量一样……",
+			say = "簡直就像她比我們更熟悉這套裝置的運行邏輯……然後擁有比人工奇異點更強大的力量一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然希望她不会追过来，不过大概这只是本王的一厢情愿罢了。",
+			say = "雖然希望她不會追過來，不過大概這只是本王的一廂情願罷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要是战斗不可避免的话……也算因祸得福，谢菲醒来之后肯定能带增援过来。",
+			say = "要是戰鬥不可避免的話……也算因禍得福，謝菲醒來之後肯定能帶增援過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好了，你们先去外面让大家做好离开准备，本王喝完手头的茶就出去。",
+			say = "好了，妳們先去外面讓大家做好離開準備，本王喝完手上的茶就出去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "在所有人都离开之后——",
+			say = "在所有人都離開之後——",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -786,7 +786,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感谢情报交换，我会善用的。那么本王要回去了，你也多保重。",
+			say = "感謝情報交換，我會善用的。那麼本王要回去了，妳也多保重。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			bgName = "star_level_bg_115",
 			dir = 1,
 			blackBg = true,
-			say = "伊丽莎白望着后方紧闭的卧室门，留下了这样的话语——",
+			say = "伊莉莎白望著後方緊閉的臥室門，留下了這樣的話語——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

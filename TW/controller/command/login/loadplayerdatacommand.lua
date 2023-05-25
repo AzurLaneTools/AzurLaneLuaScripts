@@ -186,6 +186,10 @@ function slot0.execute(slot0, slot1)
 
 	slot5:registerProxy(RefluxProxy.New())
 
+	slot5 = slot0.facade
+
+	slot5:registerProxy(IslandProxy.New())
+
 	slot5 = pg.ConnectionMgr.GetInstance()
 
 	slot5:setPacketIdx(1)

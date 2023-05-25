@@ -12,7 +12,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "刚刚带着舰队过去的是净化者？",
+			say = "剛剛帶著艦隊過去的是淨化者？",
 			bgm = "battle-boss-camelot",
 			flashin = {
 				delay = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "它跟你们说什么了？",
+			say = "它跟你們說什麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 205130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她说要去迎击那些突然出现的敌人，还说要我们先走，塞壬将对我们停火。",
+			say = "她說要去迎擊那些突然出現的敵人，還說要我們先走，塞壬將對我們停火。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 205130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "然后还提到了一下BUG什么的。",
+			say = "然後還提到了一下BUG什麼的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，现在的事态也超出了塞壬实验场的设定范围啊……",
+			say = "原來如此，現在的事態也超出了塞壬實驗場的設定範圍啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……风暴又加强了。",
+			say = "……風暴又加強了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们听净化者的，不要浪费时间，全速笔直穿过去！",
+			say = "我們聽淨化者的，不要浪費時間，全速筆直穿過去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要进入卡美洛之庭就是我们的胜利！",
+			say = "只要進入卡美洛之庭就是我們的勝利！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下，黑色风暴开始……分裂了？海面上生成了无数小龙卷，我们的航线被挡住了！",
+			say = "陛下，黑色風暴開始……分裂了？海面上生成了無數小龍捲，我們的航線被擋住了！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊……新花样还真是多。",
+			say = "哈啊……新花樣還真是多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 205130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，这里交给我来殿后。距离卡美洛之庭不远了，请您尽快撤离。",
+			say = "陛下，這裡交給我來殿後。距離卡美洛之庭不遠了，請您盡快撤離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我劝你还是别动这个心思比较好。",
+			say = "我勸妳還是別動這個心思比較好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊丽莎白女王既然亲自来了，目的就是要亲自把所有人都带回去。",
+			say = "伊莉莎白女王既然親自來了，目的就是要親自把所有人都帶回去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是留下你在这里，她怎么可能撤离。",
+			say = "要是留下妳在這裡，她怎麼可能撤離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 205130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为陛下牺牲也是骑士应该做的！",
+			say = "為陛下犧牲也是騎士應該做的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是明显我们的伊丽莎白女王不喜欢这个，你应该比我更清楚吧？",
+			say = "但是明顯我們的伊莉莎白女王不喜歡這個，妳應該比我更清楚吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来有些人已经学以致用了，本王很欣慰！",
+			say = "看來有些人已經學以致用了，本王很欣慰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！本王要把你们所有人一个不漏的平安带回去！",
+			say = "沒錯！本王要把妳們所有人一個不漏的平安帶回去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "黑色风暴的性质本王已经推测的差不多了。",
+			say = "黑色風暴的性質本王已經推測的差不多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "君主、海王星、柴郡，你们三个在前方开路，吸引风暴的注意。",
+			say = "君主、海王星、柴郡，妳們三個在前方開路，吸引風暴的注意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其他人向着卡美洛之庭全速前进。",
+			say = "其他人向著卡美洛之庭全速前進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "待我们安全通行之后，你们直接穿过风暴与我们汇合。",
+			say = "待我們安全通行之後，你們直接穿過風暴與我們匯合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心，你们是计划舰，那些风暴一时半会伤不到你们的！",
+			say = "放心，妳們是計劃艦，那些風暴一時半會傷不到妳們的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼呼，真没想到第一次执行任务就遇到这么大的场面！",
+			say = "呼呼呼，真沒想到第一次執行任務就遇到這麼大的場面！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_camelot_9",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊~能这么快就加入实战还得感谢一下擅自行动的某人呢。",
+			say = "是啊~能這麼快就加入實戰還得感謝一下擅自行動的某人呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这是皇家计划舰的第一次合作任务，让我们一同优雅的完成吧~",
+			say = "這是皇家計劃艦的第一次合作任務，讓我們一同優雅的完成吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

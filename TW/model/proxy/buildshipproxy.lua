@@ -69,6 +69,12 @@ function slot0.GetPools(slot0)
 	return slot1
 end
 
+function slot0.GetPoolsWithoutNewServer(slot0)
+	return _.select(slot0:GetPools(), function (slot0)
+		return slot0.mark ~= BuildShipPool.BUILD_POOL_MARK_NEW
+	end)
+end
+
 function slot0.setBuildShipState(slot0)
 	slot0:removeBuildTimer()
 

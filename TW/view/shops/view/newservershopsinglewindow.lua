@@ -16,7 +16,7 @@ function slot0.InitWindow(slot0, slot1, slot2)
 	end, SFX_CANCEL)
 	updateDrop(slot0.itemTF, slot3)
 
-	slot4, slot5 = GetOwnedpropCount(slot3)
+	slot4, slot5 = GetOwnedDropCount(slot3)
 
 	setActive(slot0.itemOwnTF.parent, slot5)
 	setText(slot0.itemOwnTF, slot4)
@@ -33,7 +33,7 @@ function slot0.InitWindow(slot0, slot1, slot2)
 		SetActive(slot7:Find("locked"), not slot8)
 	end
 
-	slot0.descTF.text = slot3.desc
+	slot0.descTF.text = slot3.desc or slot3.cfg.desc
 	slot0.nameTF.text = slot3.cfg.name
 end
 

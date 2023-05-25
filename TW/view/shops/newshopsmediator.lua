@@ -151,6 +151,7 @@ function slot0.register(slot0)
 			data = slot4
 		}))
 	end)
+	slot0.viewComponent:SetShops(slot0.contextData.shops)
 	slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getRawData())
 	slot0.viewComponent:UpdateItems(getProxy(BagProxy):getRawData())
 end

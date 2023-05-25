@@ -17,6 +17,7 @@ pg.pay_data_display = {
 		limit_type = 1,
 		time = "always",
 		picture = "month",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.passport1",
 		first_pay_double = 0,
 		extra_service = 2,
@@ -42,7 +43,24 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		}
 	},
 	{
 		subject = "新手起航補給",
@@ -61,6 +79,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "boxNewplayer",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.diamond101",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -97,7 +116,19 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				15003,
+				2
+			},
+			{
+				2,
+				20001,
+				2
+			}
+		}
 	},
 	{
 		subject = "鑽石*60",
@@ -117,6 +148,7 @@ pg.pay_data_display = {
 		limit_type = 99,
 		time = "always",
 		picture = "1",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.diamond1",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -125,7 +157,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "鑽石*300",
@@ -145,6 +178,7 @@ pg.pay_data_display = {
 		limit_type = 99,
 		time = "always",
 		picture = "2",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.diamond02",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -153,7 +187,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "鑽石*980",
@@ -173,6 +208,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "3",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.diamond3",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -181,7 +217,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "鑽石*1980",
@@ -201,6 +238,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "4",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.diamond4",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -209,7 +247,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "鑽石*3280",
@@ -229,6 +268,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "5",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.diamond5",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -237,7 +277,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "鑽石*6480",
@@ -257,6 +298,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "6",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.diamond6",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -265,7 +307,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[16] = {
 		subject = "新年福袋2020",
@@ -283,6 +326,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai1",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package1",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -365,7 +409,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40908,
+				1
+			}
+		}
 	},
 	[18] = {
 		subject = "春節福袋2020",
@@ -383,6 +434,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai2",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package2",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -465,7 +517,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40909,
+				1
+			}
+		}
 	},
 	[20] = {
 		subject = "新晉指揮官支援包·I ",
@@ -484,6 +543,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support1",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.libao1",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -550,7 +610,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40012,
+				1
+			}
+		}
 	},
 	[21] = {
 		subject = "新晉指揮官支援包·II ",
@@ -569,6 +636,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support2",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.libao2",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -660,7 +728,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40013,
+				1
+			}
+		}
 	},
 	[22] = {
 		subject = "新晉指揮官支援包·III ",
@@ -679,6 +754,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support3",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.libao3",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -775,7 +851,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40014,
+				1
+			}
+		}
 	},
 	[23] = {
 		subject = "福袋",
@@ -793,6 +876,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package3",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -880,7 +964,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40910,
+				1
+			}
+		}
 	},
 	[44] = {
 		subject = "回歸禮包",
@@ -898,6 +989,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "support5",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.libao4",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1025,7 +1117,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40921,
+				1
+			}
+		}
 	},
 	[4001] = {
 		subject = "GP限時補給 ",
@@ -1043,6 +1142,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "TWAndroid_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.anzhuolibao1",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1103,7 +1203,14 @@ pg.pay_data_display = {
 			2,
 			3
 		},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40984,
+				1
+			}
+		}
 	},
 	[4002] = {
 		subject = "福袋",
@@ -1121,6 +1228,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package4",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1203,7 +1311,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4003] = {
 		subject = "福袋",
@@ -1221,6 +1330,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe1_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package5",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1303,7 +1413,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4004] = {
 		subject = "福袋",
@@ -1321,6 +1432,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai3",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package6",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1408,7 +1520,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4005] = {
 		subject = "福袋",
@@ -1426,6 +1539,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai3",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package7",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1513,7 +1627,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4006] = {
 		subject = "2021春節福袋·I",
@@ -1531,6 +1646,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai4",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package8",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1618,7 +1734,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4007] = {
 		subject = "2021春節福袋·II",
@@ -1636,6 +1753,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package9",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1723,7 +1841,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4008] = {
 		subject = "福袋",
@@ -1741,6 +1860,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package10",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1828,7 +1948,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4009] = {
 		subject = "福袋",
@@ -1846,6 +1967,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package11",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1933,7 +2055,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4010] = {
 		subject = "福袋",
@@ -1951,6 +2074,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package12",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2038,7 +2162,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4011] = {
 		subject = "福袋",
@@ -2056,6 +2181,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package13",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2143,7 +2269,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4012] = {
 		subject = "限時補給禮包",
@@ -2161,6 +2288,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "TWAndroid_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.tehuilibao1",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2248,7 +2376,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4013] = {
 		subject = "福袋",
@@ -2266,6 +2395,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai6",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package14",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2353,7 +2483,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4014] = {
 		subject = "福袋",
@@ -2371,6 +2502,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai3",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package15",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2458,7 +2590,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4015] = {
 		subject = "福袋",
@@ -2476,6 +2609,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai7",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package16",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2563,7 +2697,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4016] = {
 		subject = "福袋",
@@ -2581,6 +2716,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai4",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package17",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2668,7 +2804,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4017] = {
 		subject = "福袋",
@@ -2686,6 +2823,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package18",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2773,7 +2911,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4018] = {
 		subject = "福袋",
@@ -2791,6 +2930,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package19",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2878,7 +3018,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4019] = {
 		subject = "福袋",
@@ -2896,6 +3037,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe8_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package20",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2983,7 +3125,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4020] = {
 		subject = "福袋",
@@ -3001,6 +3144,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package21",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3088,7 +3232,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4021] = {
 		subject = "福袋",
@@ -3106,6 +3251,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package22",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3193,7 +3339,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4022] = {
 		subject = "福袋",
@@ -3211,6 +3358,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe9_l",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package23",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3298,7 +3446,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4023] = {
 		subject = "福袋",
@@ -3316,6 +3465,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai6",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package24",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3403,7 +3553,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4024] = {
 		subject = "福袋",
@@ -3421,6 +3572,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai6",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package25",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3508,7 +3660,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4025] = {
 		subject = "福袋",
@@ -3526,6 +3679,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudaiqp1_tw",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package26",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3613,7 +3767,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4026] = {
 		subject = "福袋",
@@ -3631,6 +3786,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai7",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.package27",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3718,7 +3874,8 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4850] = {
 		subject = "最高方案研發禮包（一期）",
@@ -3737,6 +3894,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_display",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.keyan",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3773,7 +3931,8 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
-		}
+		},
+		drop_item = {}
 	},
 	[4851] = {
 		subject = "最高方案研發禮包（一期）高級版",
@@ -3792,6 +3951,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_promotion",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.keyan1",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3828,6 +3988,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40016,
+				1
+			}
 		}
 	},
 	[4852] = {
@@ -3847,6 +4014,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_normal",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.keyan2",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3873,6 +4041,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40017,
+				1
+			}
 		}
 	},
 	[4853] = {
@@ -3892,6 +4067,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_promotion",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.keyan3",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3918,6 +4094,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40018,
+				1
+			}
 		}
 	},
 	[4854] = {
@@ -3937,6 +4120,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_display",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.keyan",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3973,7 +4157,8 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
-		}
+		},
+		drop_item = {}
 	},
 	[4855] = {
 		subject = "最高方案研發禮包（二期）高級版",
@@ -3992,6 +4177,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_promotion",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.keyan4",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4028,6 +4214,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40019,
+				1
+			}
 		}
 	},
 	[4856] = {
@@ -4047,6 +4240,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_normal",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.keyan5",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4073,6 +4267,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40020,
+				1
+			}
 		}
 	},
 	[4857] = {
@@ -4092,6 +4293,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_promotion",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.keyan6",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4118,6 +4320,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40021,
+				1
+			}
 		}
 	},
 	[4858] = {
@@ -4137,6 +4346,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "lv_70",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.libao104",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4193,6 +4403,13 @@ pg.pay_data_display = {
 				"lv_70",
 				70
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40022,
+				1
+			}
 		}
 	},
 	[4859] = {
@@ -4211,6 +4428,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "boxSkill",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.libao105",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4293,7 +4511,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
 	},
 	[4860] = {
 		subject = "艦艇教材禮包",
@@ -4311,6 +4536,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "boxSkill",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.libao106",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4393,7 +4619,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
 	},
 	[4900] = {
 		subject = "特許巡遊憑證",
@@ -4411,6 +4644,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.battlepass1",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4466,7 +4700,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4901] = {
 		subject = "特許巡遊憑證",
@@ -4484,6 +4719,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.battlepass2",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4539,7 +4775,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4902] = {
 		subject = "特許巡遊憑證",
@@ -4557,6 +4794,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.battlepass3",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4612,7 +4850,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4903] = {
 		subject = "特許巡遊憑證",
@@ -4630,6 +4869,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.battlepass4",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4685,7 +4925,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4904] = {
 		subject = "特許巡遊憑證",
@@ -4703,6 +4944,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.battlepass5",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4758,7 +5000,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4905] = {
 		subject = "特許巡遊憑證",
@@ -4776,6 +5019,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.battlepass6",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4831,7 +5075,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4906] = {
 		subject = "特許巡遊憑證",
@@ -4849,6 +5094,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.battlepass7",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4904,7 +5150,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[4907] = {
 		subject = "特許巡遊憑證",
@@ -4922,6 +5169,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.battlepass8",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4977,7 +5225,83 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
+	},
+	[4908] = {
+		subject = "特許巡遊憑證",
+		limit_group = 0,
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		type = 0,
+		limit_arg = 1,
+		name = "特許巡遊憑證（九期）",
+		name_display = "特許巡遊憑證",
+		type_order = 4,
+		extra_gem = 0,
+		id = 4908,
+		money = 330,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.battlepass9",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵·夕暮限定換裝和其他獎勵",
+		airijp_id = "com.hkmanjuu.azurlane.battlepass9",
+		extra_service_item = {
+			{
+				1,
+				4009,
+				1500
+			},
+			{
+				8,
+				59299,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4009,
+				1500
+			}
+		},
+		sub_display = {
+			45908,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
 	},
 	all = {
 		1,
@@ -5039,6 +5363,7 @@ pg.pay_data_display = {
 		4904,
 		4905,
 		4906,
-		4907
+		4907,
+		4908
 	}
 }

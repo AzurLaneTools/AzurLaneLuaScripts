@@ -167,6 +167,16 @@ pg.task_meta_data_template = setmetatable({
 		100063,
 		100064,
 		100065,
+		100071,
+		100072,
+		100073,
+		100074,
+		100075,
+		100081,
+		100082,
+		100083,
+		100084,
+		100085,
 		200001,
 		200002,
 		200003,
@@ -190,7 +200,15 @@ pg.task_meta_data_template = setmetatable({
 		200061,
 		200062,
 		200063,
-		200064
+		200064,
+		200071,
+		200072,
+		200073,
+		200074,
+		200081,
+		200082,
+		200083,
+		200084
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1398,7 +1416,7 @@ pg.base.task_meta_data_template = {
 	[100041] = {
 		target_id_2 = "970203",
 		sub_type = 180,
-		desc = "使用谢菲尔德.META获得1次胜利",
+		desc = "使用謝菲爾德.META獲得1次勝利",
 		id = 100041,
 		target_num = 1,
 		target_id = "0"
@@ -1406,7 +1424,7 @@ pg.base.task_meta_data_template = {
 	[100042] = {
 		target_id_2 = "970203",
 		sub_type = 180,
-		desc = "使用谢菲尔德.META击破等级>30的敌方1次",
+		desc = "使用謝菲爾德.META擊破等級>30的敵方1次",
 		id = 100042,
 		target_num = 1,
 		target_id = "30"
@@ -1414,7 +1432,7 @@ pg.base.task_meta_data_template = {
 	[100043] = {
 		target_id_2 = "970203",
 		sub_type = 180,
-		desc = "使用谢菲尔德.META击破等级>55的敌方1次",
+		desc = "使用謝菲爾德.META擊破等級>55的敵方1次",
 		id = 100043,
 		target_num = 1,
 		target_id = "55"
@@ -1422,7 +1440,7 @@ pg.base.task_meta_data_template = {
 	[100044] = {
 		target_id_2 = "970203",
 		sub_type = 180,
-		desc = "使用谢菲尔德.META击破等级>80的敌方1次",
+		desc = "使用謝菲爾德.META擊破等級>80的敵方1次",
 		id = 100044,
 		target_num = 1,
 		target_id = "80"
@@ -1430,7 +1448,7 @@ pg.base.task_meta_data_template = {
 	[100045] = {
 		target_id_2 = "970203",
 		sub_type = 180,
-		desc = "使用谢菲尔德.META击破等级>100的敌方1次",
+		desc = "使用謝菲爾德.META擊破等級>100的敵方1次",
 		id = 100045,
 		target_num = 1,
 		target_id = "100"
@@ -1512,6 +1530,86 @@ pg.base.task_meta_data_template = {
 		sub_type = 180,
 		desc = "使用拉·加利索尼埃.META击破等级>100的敌方1次",
 		id = 100065,
+		target_num = 1,
+		target_id = "100"
+	},
+	[100071] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "使用U-556.META获得1次胜利",
+		id = 100071,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100072] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "使用U-556.META击破等级>30的敌方1次",
+		id = 100072,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100073] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "使用U-556.META击破等级>55的敌方1次",
+		id = 100073,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100074] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "使用U-556.META击破等级>80的敌方1次",
+		id = 100074,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100075] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "使用U-556.META击破等级>100的敌方1次",
+		id = 100075,
+		target_num = 1,
+		target_id = "100"
+	},
+	[100081] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "使用女灶神.META获得1次胜利",
+		id = 100081,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100082] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "使用女灶神.META击破等级>30的敌方1次",
+		id = 100082,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100083] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "使用女灶神.META击破等级>55的敌方1次",
+		id = 100083,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100084] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "使用女灶神.META击破等级>80的敌方1次",
+		id = 100084,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100085] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "使用女灶神.META击破等级>100的敌方1次",
+		id = 100085,
 		target_num = 1,
 		target_id = "100"
 	},
@@ -1614,7 +1712,7 @@ pg.base.task_meta_data_template = {
 	[200041] = {
 		target_id_2 = "970203",
 		sub_type = 302,
-		desc = "大型作战内使用谢菲尔德.META获得1次胜利",
+		desc = "大型作戰內使用謝菲爾德.META獲得1次勝利",
 		id = 200041,
 		target_num = 1,
 		target_id = "0"
@@ -1622,7 +1720,7 @@ pg.base.task_meta_data_template = {
 	[200042] = {
 		target_id_2 = "970203",
 		sub_type = 302,
-		desc = "大型作战内使用谢菲尔德.META击破等级>70的敌方1次",
+		desc = "大型作戰內使用謝菲爾德.META擊破等級>70的敵方1次",
 		id = 200042,
 		target_num = 1,
 		target_id = "70"
@@ -1630,7 +1728,7 @@ pg.base.task_meta_data_template = {
 	[200043] = {
 		target_id_2 = "970203",
 		sub_type = 302,
-		desc = "大型作战内使用谢菲尔德.META击破等级>90的敌方1次",
+		desc = "大型作戰內使用謝菲爾德.META擊破等級>90的敵方1次",
 		id = 200043,
 		target_num = 1,
 		target_id = "90"
@@ -1638,7 +1736,7 @@ pg.base.task_meta_data_template = {
 	[200044] = {
 		target_id_2 = "970203",
 		sub_type = 302,
-		desc = "大型作战内使用谢菲尔德.META击破等级>100的敌方1次",
+		desc = "大型作戰內使用謝菲爾德.META擊破等級>100的敵方1次",
 		id = 200044,
 		target_num = 1,
 		target_id = "100"
@@ -1704,6 +1802,70 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用拉·加利索尼埃.META击破等级>100的敌方1次",
 		id = 200064,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200071] = {
+		target_id_2 = "970801",
+		sub_type = 302,
+		desc = "大型作战内使用U-556.META获得1次胜利",
+		id = 200071,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200072] = {
+		target_id_2 = "970801",
+		sub_type = 302,
+		desc = "大型作战内使用U-556.META击破等级>70的敌方1次",
+		id = 200072,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200073] = {
+		target_id_2 = "970801",
+		sub_type = 302,
+		desc = "大型作战内使用U-556.META击破等级>90的敌方1次",
+		id = 200073,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200074] = {
+		target_id_2 = "970801",
+		sub_type = 302,
+		desc = "大型作战内使用U-556.META击破等级>100的敌方1次",
+		id = 200074,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200081] = {
+		target_id_2 = "971201",
+		sub_type = 302,
+		desc = "大型作战内使用女灶神.META获得1次胜利",
+		id = 200081,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200082] = {
+		target_id_2 = "971201",
+		sub_type = 302,
+		desc = "大型作战内使用女灶神.META击破等级>70的敌方1次",
+		id = 200082,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200083] = {
+		target_id_2 = "971201",
+		sub_type = 302,
+		desc = "大型作战内使用女灶神.META击破等级>90的敌方1次",
+		id = 200083,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200084] = {
+		target_id_2 = "971201",
+		sub_type = 302,
+		desc = "大型作战内使用女灶神.META击破等级>100的敌方1次",
+		id = 200084,
 		target_num = 1,
 		target_id = "100"
 	}

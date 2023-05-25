@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_3",
 			dir = 1,
-			say = "？？？？·卡美洛之庭",
+			say = "？？？?·卡美洛之庭",
 			effects = {
 				{
 					active = true,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "我们还在卡美洛之庭中……但是，外面的环境彻底改变了？！",
+			say = "我們還在卡美洛之庭中……但是，外面的環境徹底改變了？！",
 			effects = {
 				{
 					active = false,
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "……居然真的成功了。我也只是之前听陛下解释过操作原理而已……",
+			say = "……居然真的成功了。我也只是之前聽陛下解釋過操作原理而已……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_3",
-			say = "金光过后，众人发现自己跟随卡美洛之庭转移到了一处全新的区域。",
+			say = "金光過後，眾人發現自己跟隨卡美洛之庭轉移到了一處全新的區域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "蔚蓝的天空、郁郁葱葱的草地、一望无垠的森林和远处连绵的丘陵……",
+			say = "蔚藍的天空、鬱鬱蔥蔥的草地、一望無垠的森林和遠處連綿的丘陵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "感觉身心都被治愈了……",
+			say = "感覺身心都被治癒了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "外侧那些看起来十分夸张的圆环也改变位置了哦。",
+			say = "外側那些看起來十分誇張的圓環也改變位置了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "那一部分我也不清楚，只听陛下说过好像跟坐标定位有关……",
+			say = "那一部分我也不清楚，只聽陛下說過好像跟座標定位有關……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "来吧，我们去附近探索一下。有一半概率陛下就在这里！",
+			say = "來吧，我們去附近探索一下。有一半機率陛下就在這裡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205110,
-			say = "这个森林……已经堪称原始森林了吧。不挠小姐，侦察机有什么发现么？",
+			say = "這個森林……已經堪稱原始森林了吧。不撓小姐，偵察機有什麼發現嗎？",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "森林的面积广阔又繁茂，空中搜索有点困难……",
+			say = "森林的面積廣闊又繁茂，空中搜索有點困難……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过我没有看到任何城市或者小镇，倒不如说……几乎没看到人类活动的痕迹。",
+			say = "不過我沒有看到任何城市或者小鎮，倒不如說……幾乎沒看到人類活動的痕跡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "我们究竟跑到什么地方来了啊……",
+			say = "我們究竟跑到什麼地方來了啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "这个我无法回答你。我只是操作机器来到了坐标记录的位置而已。",
+			say = "這個我無法回答妳。我只是操作機器來到了座標紀錄的位置而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "那个坐标里有表示时间的部分么？",
+			say = "那個座標裡有表示時間的部分嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "也许有，不过很遗憾，陛下没有教给我阅读的方法。",
+			say = "也許有，不過很遺憾，陛下沒有教給我閱讀的方法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸~你说来看看，也许我能解出来呢。",
+			say = "欸~妳說來看看，也許我能解出來呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "有一个数字好像是负四百六十三亿多，你有什么头绪么？",
+			say = "有一個數字好像是負四百六十三億多，妳有什麼頭緒嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "公元四百六十三亿年之前…………？",
+			say = "公元四百六十三億年之前…………？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "虽然我不是相关领域的专家，但我觉得你说的完全不对。",
+			say = "雖然我不是相關領域的專家，但我覺得妳說的完全不對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "…………诶嘿，那我就完全没有思路了！我继续去搜索啦~你加油哦。",
+			say = "…………欸嘿，那我就完全沒有思路了！我繼續去搜索啦~妳加油哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "抱歉，我也不打算闷头解读。毕竟只要找到陛下，一切疑问就迎刃而解了。",
+			say = "抱歉，我也不打算埋頭解讀。畢竟只要找到陛下，一切疑問就迎刃而解了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "有发现了！在我们前方大约一小时路程有一座小城堡！",
+			say = "有發現了！在我們前方大約一小時路程有一座小城堡！",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不远不近的距离……不过总算有线索了。",
+			say = "不遠不近的距離……不過總算有線索了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "这座城堡是附近唯一明显的标志物，如果陛下来了肯定会去那里的！",
+			say = "這座城堡是附近唯一明顯的標的物，如果陛下來了肯定會去那裡的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "很好。我在前面开路，大家跟我来。",
+			say = "很好。我在前面開路，大家跟我來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_3",
-			say = "前卫拔出佩剑斩断前方的藤蔓，小心翼翼地踏入了丛林。",
+			say = "前衛拔出佩劍斬斷前方的藤蔓，小心翼翼地踏入了叢林。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "林中漫步啊……贾维斯，你带除虫药了么！",
+			say = "林中漫步啊……傑維斯，妳帶除蟲藥了嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常抱歉，不挠小姐，我的医疗箱里并不包含除虫这一项。",
+			say = "非常抱歉，不撓小姐，我的醫療箱裡並不包含除蟲這一項。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			actor = 207120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "欸——好吧，那就勉强打起干劲来，出发咯~",
+			say = "欸——好吧，那就勉強打起幹勁來，出發囉~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

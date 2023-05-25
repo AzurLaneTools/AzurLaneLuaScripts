@@ -15,7 +15,7 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "感谢大家来接我，容我稍作收整便和各位一起离开~",
+			say = "感謝大家來接我，容我稍作收整便和各位一起離開~",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "今天是胡德离开的日子。女仆队、骑士团，熙攘的人群让死寂的环境也热闹了起来。",
+			say = "今天是胡德離開的日子。女僕隊、騎士團，熙攘的人群讓死寂的環境也熱鬧了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她们应该以为这里只是普通的疗养所吧……或者，她们真的了解胡德的病情么……",
+			say = "她們應該以為這裡只是普通的療養所吧……或者，她們真的了解胡德的病情嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，这些也与仍要留在这里的我无关了。",
+			say = "不過，這些也與仍要留在這裡的我無關了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在地下的设施中，君主正通过监控设备看着逐渐远去的人群。",
+			say = "在地下的設施中，君主正通過監控設備看著逐漸遠去的人群。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……该去训练了。",
+			say = "……該去訓練了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "（护送终于结束了……杂志已经提前委托女仆队的孩子送到了房间……）",
+			say = "（護送終於結束了……雜誌已經提前委託女僕隊的孩子送到了房間……）",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "（只要再站一会岗，就可以回去休息了>~<!）",
+			say = "（只要再站下會崗，就可以回去休息了>~<!）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个是……伊丽莎白女王的近卫骑士前卫？",
+			say = "那個是……伊莉莎白女王的近衛騎士前衛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前卫在这里，也就说明那个伊丽莎白女王也过来了吧……明明就没有出现在刚才迎接胡德的人群里。",
+			say = "前衛在這裡，也就說明那個伊莉莎白女王也過來了吧……明明就沒有出現在剛才迎接胡德的人群裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是冷漠啊……就像对待我一样。",
+			say = "真是冷漠啊……就像對待我一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过这倒是个机会，如果能击败前卫的话……",
+			say = "不過這倒是個機會，如果能擊敗前衛的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "打扰了，前卫小姐。",
+			say = "打擾了，前衛小姐。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "你是……计划舰君主？请问有什么事么？",
+			say = "妳是……計劃艦君主？請問有什麼事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "附近有一处不错的演习场，虽然有些唐突，不过你有意愿与我切磋一下么？",
+			say = "附近有一處不錯的演習場，雖然有些唐突，不過妳有意願與我切磋一下麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "（切磋……大老远跑过来还要演习也太麻烦了……先随便应付一下以后再补上吧。）",
+			say = "（切磋……大老遠跑過來還要演習也太麻煩了……先隨便應付一下以後再補上吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "抱歉，这个恐怕不行。如您所见，我现在正于此处执勤中，恕我无法擅离职守。",
+			say = "抱歉，這個恐怕不行。如您所見，我現在正於此處執勤中，恕我無法擅離職守。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果日后有机会的话，请务必与我交手！",
+			say = "如果日後有機會的話，請務必與我交手！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样啊……我明白了。那就不打扰了，告辞。",
+			say = "這樣啊……我明白了。那就不打擾了，告辭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（社交辞令……果然现在的我连与其交手的资格都没有么……）",
+			say = "（社交辭令……果然現在的我連與其交手的資格都沒有嗎……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

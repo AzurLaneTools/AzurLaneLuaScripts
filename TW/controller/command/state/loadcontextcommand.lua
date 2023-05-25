@@ -25,7 +25,7 @@ function slot0.loadNext(slot0)
 		end
 
 		if uv0.queue[1].type == LOAD_TYPE_SCENE then
-			slot0:loadScene(slot1.context, slot1.prevContext, slot2)
+			slot0:loadScene(slot1.context, slot1.prevContext, slot1.isBack, slot2)
 		elseif slot1.type == LOAD_TYPE_LAYER then
 			slot0:loadLayer(slot1.context, slot1.parentContext, slot2)
 		else
@@ -34,14 +34,14 @@ function slot0.loadNext(slot0)
 	end
 end
 
-function slot0.loadScene(slot0, slot1, slot2, slot3)
+function slot0.loadScene(slot0, slot1, slot2, slot3, slot4)
 	assert(isa(slot1, Context), "should be an instance of Context")
 
-	slot5 = pg.SceneMgr.GetInstance()
-	slot6, slot7 = nil
-	slot8 = {}
-	slot9 = slot2
-	slot2 = slot2 or getProxy(ContextProxy):getCurrentContext()
+	slot5 = getProxy(ContextProxy)
+	slot6 = pg.SceneMgr.GetInstance()
+	slot7, slot8 = nil
+	slot9 = {}
+	slot10 = slot3 and slot2 or nil
 
 	seriesAsync({
 		function (slot0)

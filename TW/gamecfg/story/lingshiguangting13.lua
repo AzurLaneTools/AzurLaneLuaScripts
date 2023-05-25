@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在净化者的带领下，众人在重重封锁线的间隙中顺利前进着。",
+			say = "在淨化者的帶領下，眾人在重重封鎖線的間隙中順利前進著。",
 			side = 2,
 			bgName = "bg_camelot_7",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205110,
-			say = "净化者真的有在老老实实带我们穿过塞壬的封锁线哎……",
+			say = "淨化者真的有在老老實實帶我們穿過塞壬的封鎖線哎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬带着我们躲塞壬，太怪了……",
+			say = "塞壬帶著我們躲塞壬，太怪了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道这里的塞壬正在打内战么？",
+			say = "難道這裡的塞壬正在打內戰嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205110,
-			say = "看起来也不太像……",
+			say = "看起來也不太像……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别问我，我好累，我不想思考了……",
+			say = "別問我，我好累，我不想思考了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "怎么样，这里的防御设置不错吧！",
+			say = "怎麼樣，這裡的防禦設置不錯吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "完全符合理事会的标准，堪称天罗地网插翅难飞！",
+			say = "完全符合理事會的標準，堪稱天羅地網插翅難飛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "然而你还是带我们混进来了。",
+			say = "然而妳還是帶我們混進來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "那不是肯定的？我设置的防御，那自然知道怎么绕开它~负责本次行动的最佳人选哦。",
+			say = "那不是肯定的？我設置的防禦，那自然知道怎麼繞開它~負責本次行動的最佳人選哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "等救援结束之后，你们就赶紧带人速速回你们的总部去，再也别过来了。",
+			say = "等救援結束之後，妳們就趕緊帶人速速回妳們的總部去，再也別過來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "记得回去的时候也尽量别发生战斗！不然我这边要处理的麻烦事又要变多了……",
+			say = "記得回去的時候也盡量別發生戰鬥！不然我這邊要處理的麻煩事又要變多了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 900233,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "呜呜呜呜呃呃呃……",
+			say = "嗚嗚嗚嗚呃呃呃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

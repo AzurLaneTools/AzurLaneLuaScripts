@@ -15,8 +15,6 @@ slot0.NORMAL_MAP = {
 	slot0.EVENT,
 	slot0.ACTIVITY_EASY,
 	slot0.ACTIVITY_HARD,
-	slot0.SHAM,
-	slot0.GUILD_BOSS,
 	slot0.ACT_EXTRA
 }
 

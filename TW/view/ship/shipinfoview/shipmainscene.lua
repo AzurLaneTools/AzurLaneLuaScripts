@@ -838,7 +838,10 @@ function slot0.switchToPage(slot0, slot1, slot2)
 			}
 
 			shiftPanel(uv0.fashionContainer, slot2[2], 0, uv1, 0):setFrom(slot2[1])
-			uv0.shipFashionView:ActionInvoke("UpdateFashion")
+
+			if slot1 then
+				uv0.shipFashionView:ActionInvoke("UpdateFashion")
+			end
 		elseif slot0 == ShipViewConst.PAGE.INTENSIFY then
 			if slot1 then
 				uv0:emit(ShipMainMediator.OPEN_INTENSIFY)

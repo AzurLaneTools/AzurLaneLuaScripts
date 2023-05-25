@@ -17,15 +17,13 @@ function slot0.Update(slot0)
 	slot2 = slot0.info.flag == ChapterConst.CellFlagTriggerActive and slot1.trait ~= ChapterConst.TraitLurk
 
 	if IsNil(slot0.go) then
-		slot5 = slot0.chapter
-
 		slot0:PrepareBase("story_" .. slot0.line.row .. "_" .. slot0.line.column .. "_" .. slot1.attachmentId .. "_upper")
 
-		if pg.map_event_template[slot1.attachmentId].icon and #slot8 > 0 then
-			slot9 = slot8 .. "_1shangceng"
-			slot12 = slot0:GetLoader()
+		if pg.map_event_template[slot1.attachmentId].icon and #slot7 > 0 then
+			slot8 = slot7 .. "_1shangceng"
+			slot11 = slot0:GetLoader()
 
-			slot12:GetPrefab("ui/" .. slot9, slot9, function (slot0)
+			slot11:GetPrefab("ui/" .. slot8, slot8, function (slot0)
 				tf(slot0):SetParent(uv0.tf, false)
 				uv0:ResetCanvasOrder()
 			end)

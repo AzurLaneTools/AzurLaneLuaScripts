@@ -13,13 +13,17 @@ pg.shop_furniture_relation = setmetatable({
 		},
 		[200004] = {
 			70671
+		},
+		[200005] = {
+			70700
 		}
 	},
 	all = {
 		70626,
 		70633,
 		70629,
-		70671
+		70671,
+		70700
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -76,6 +80,21 @@ pg.base.shop_furniture_relation = {
 			[2] = {
 				-10,
 				-41
+			}
+		}
+	},
+	[70700] = {
+		fur_id = 200005,
+		id = 70700,
+		desc = "{namecode:427}——沉醉於夜",
+		scale = {
+			0.65,
+			0.75
+		},
+		position = {
+			[2] = {
+				30,
+				-50
 			}
 		}
 	}

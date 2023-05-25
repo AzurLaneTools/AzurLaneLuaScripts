@@ -168,21 +168,6 @@ function slot0.IsMiniActNeedTip(slot0)
 	return Activity.IsActivityReady(slot1)
 end
 
-function slot0.Clone2Full(slot0, slot1, slot2)
-	slot3 = {}
-	slot4 = slot1:GetChild(0)
-
-	for slot9 = 0, slot1.childCount - 1 do
-		table.insert(slot3, slot1:GetChild(slot9))
-	end
-
-	for slot9 = slot5, slot2 - 1 do
-		table.insert(slot3, tf(cloneTplTo(slot4, slot1)))
-	end
-
-	return slot3
-end
-
 function slot0.UpdateActivity(slot0, slot1)
 end
 
@@ -243,16 +228,37 @@ end
 
 function slot0.UpdateBuildingTip(slot0, slot1, slot2)
 	if not slot1 then
-		return
+		return false
 	end
 
-	slot3 = slot1.data1KeyValueList[2][slot2] or 1
+	slot3 = slot1:GetBuildingLevel(slot2)
 
 	if not pg.activity_event_building[slot2] or slot3 >= #slot4.buff then
-		return
+		return false
 	end
 
-	return slot4.material[slot3] <= (slot1.data1KeyValueList[1][slot4.material_id] or 0)
+	return _.all(slot4.material[slot3], function (slot0)
+		slot2 = slot0[2]
+		slot3 = slot0[3]
+		slot4 = nil
+
+		if slot0[1] == DROP_TYPE_VITEM then
+			assert(AcessWithinNull(pg.item_data_statistics[slot2], "link_id") == uv0.id)
+
+			slot4 = uv0
+		elseif DROP_TYPE_USE_ACTIVITY_DROP < slot1 then
+			slot5 = AcessWithinNull(pg.activity_drop_type[slot1], "activity_id")
+
+			assert(slot5)
+
+			slot4 = getProxy(ActivityProxy):getActivityById(slot5)
+		end
+
+		return slot3 <= (slot4.data1KeyValueList[1][slot2] or 0)
+	end)
+end
+
+function slot0.UpdateView(slot0)
 end
 
 return slot0

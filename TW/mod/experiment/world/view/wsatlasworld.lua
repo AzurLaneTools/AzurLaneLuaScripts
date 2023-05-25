@@ -133,11 +133,10 @@ function slot0.LoadScene(slot0, slot1)
 		slot3 = uv0.tfEntity
 		slot3 = slot3:Find("map_scene/mask_layer")
 		uv0.addSprite = slot3:GetComponent("SpriteRenderer").material
-		slot3 = uv0.tfEntity
-		slot3 = slot3:Find("Plane")
-		uv0.dragTrigger = slot3:GetComponent("EventTriggerListener")
-		slot2 = uv0.tfCamera.localEulerAngles.x / 180 * math.pi
-		slot3 = Vector2(0.2, 0.2) * uv0.frontDistance / uv0.baseDistance
+		slot3 = Vector2(1, 1 / math.sin(uv0.tfCamera.localEulerAngles.x / 180 * math.pi)) * uv0.frontDistance / UnityEngine.Screen.height * 2
+		slot5 = uv0.tfEntity
+		slot5 = slot5:Find("Plane")
+		uv0.dragTrigger = slot5:GetComponent("EventTriggerListener")
 		slot4 = uv0.dragTrigger
 
 		slot4:AddDragFunc(function (slot0, slot1)
@@ -151,7 +150,7 @@ function slot0.LoadScene(slot0, slot1)
 				uv0:UpdateSelect()
 			end
 
-			uv0.tfCamera.localPosition = uv0.tfCamera.localPosition - Vector3(uv1.x * slot1.delta.x, 0, uv1.y * slot1.delta.y / math.sin(uv2))
+			uv0.tfCamera.localPosition = uv0.tfCamera.localPosition + Vector3(uv1.x * slot1.delta.x, 0, uv1.y * slot1.delta.y)
 
 			if CAMERA_MOVE_OPEN then
 				slot3 = uv0.tfSpriteScene:InverseTransformPoint(uv0.transform:TransformPoint(uv0.tfCamera.localPosition))
@@ -159,7 +158,7 @@ function slot0.LoadScene(slot0, slot1)
 				slot5 = math.rad(uv0.tfEntity.localEulerAngles.y)
 				slot3 = slot3 - Vector3(slot3.y / -math.tan(slot4) * math.sin(slot5), slot3.y, slot3.y / -math.tan(slot4) * math.cos(slot5))
 
-				warning(Vector2(slot3.x, slot3.z) * PIXEL_PER_UNIT + uv3.spriteBaseSize / 2)
+				warning(Vector2(slot3.x, slot3.z) * PIXEL_PER_UNIT + uv2.spriteBaseSize / 2)
 			end
 		end)
 

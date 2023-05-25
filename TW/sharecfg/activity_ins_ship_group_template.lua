@@ -2075,6 +2075,21 @@ pg.activity_ins_ship_group_template = {
 		name = "Kursk",
 		sculpture = "kuersike"
 	},
+	[40210] = {
+		ship_group = 40210,
+		name = "Regensburg",
+		sculpture = "leigensibao"
+	},
+	[40603] = {
+		ship_group = 40603,
+		name = "Jade",
+		sculpture = "yade"
+	},
+	[40199] = {
+		ship_group = 40199,
+		name = "Alvensleben",
+		sculpture = "aotuo"
+	},
 	all = {
 		30701,
 		30702,
@@ -2490,6 +2505,9 @@ pg.activity_ins_ship_group_template = {
 		20116,
 		70207,
 		70507,
-		70302
+		70302,
+		40210,
+		40603,
+		40199
 	}
 }

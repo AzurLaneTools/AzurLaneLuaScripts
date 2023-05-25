@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"女仆的另一面\n\n<size=45>摇摆不定的女仆</size>",
+					"女僕的另一面\n\n<size=45>搖擺不定的女僕</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "来到了皇家女仆店内那个熟悉的包厢。",
+			say = "來到了皇家女僕店內那個熟悉的包廂。",
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "就在这里消解今日工作的疲劳吧。听说前卫也参加了女仆体验，不知道她怎样了……嗯？",
+			say = "就在這裡消解今日工作的疲勞吧。聽說前衛也參加了女僕體驗，不知道她怎樣了……嗯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "和前卫的目光对上了。",
+			say = "和前衛的目光對上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为什么你会在这……不对不对，现在应该说台词对吧……",
+			say = "為什麼你會在這……不對不對，現在應該說台詞對吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			live2d = "touch",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“欢、欢迎回来，主人……”",
+			say = "“歡、歡迎回來，主人……”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,11 +132,11 @@ return {
 			},
 			options = {
 				{
-					content = "不用这么勉强……",
+					content = "不用這麼勉強……",
 					flag = 1
 				},
 				{
-					content = "有模有样！",
+					content = "有模有樣！",
 					flag = 2
 				}
 			}
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "果然你也是这么觉得的么？",
+			say = "果然你也是這麼覺得的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "多谢夸奖，以及，希望你不是在挖苦我取乐！",
+			say = "多謝誇獎，以及，希望你不是在挖苦我取樂！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸，让我扮演女仆什么的陛下也太恶趣味了……",
+			say = "欸，讓我扮演女僕什麼的陛下也太惡趣味了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本来想着找个没什么人的地方休息一下，结果你正好在这个时候来了……",
+			say = "本來想著找個沒什麼人的地方休息一下，結果你正好在這個時候來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说吧，要点些什么？我这就去下单。",
+			say = "說吧，要點些什麼？我這就去下單。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			},
 			options = {
 				{
-					content = "不继续休息一会么？",
+					content = "不繼續休息一下嗎？",
 					flag = 1
 				}
 			}
@@ -241,7 +241,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那可不行~要是让人知道了堂堂近卫骑士在指挥官的包厢偷懒可就大事不妙了。",
+			say = "那可不行~要是讓人知道了堂堂近衛騎士在指揮官的包廂偷懶可就大事不妙了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再说了，把你的点单拿回来之后我不就能光明正大在这里休息了么~",
+			say = "再說了，把你的點單拿回來之後我不就能光明正大在這裡休息了嗎~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果你没法决定的话，我就帮你点了。一份司康饼，一杯橙汁，怎么样？",
+			say = "如果你沒辦法決定的話，我就幫你點了。一份司康餅，一杯柳橙汁，怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,11 +286,11 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "點頭",
 					flag = 3
 				},
 				{
-					content = "摇头",
+					content = "搖頭",
 					flag = 4
 				}
 			}
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "哼哼，有眼光~我们的店里不光是红茶，橙汁的味道也很不错哦。",
+			say = "哼哼，有眼光~我們的店裡不光是紅茶，柳橙汁的味道也很不錯哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "你在这里稍候片刻，等东西做好了我再送过来。",
+			say = "你在這裡稍候片刻，等東西做好了我再送過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			optionFlag = 4,
 			nameColor = "#a9f548",
-			say = "那就还是红茶……？",
+			say = "那就還是紅茶……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			},
 			options = {
 				{
-					content = "继续摇头",
+					content = "繼續搖頭",
 					flag = 1
 				}
 			}
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "……我懂了。“主人想要的是一份古法制作的仰望星空派。”",
+			say = "……我懂了。 “主人想要的是一份古法製作的仰望星空派。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“主人请在这里稍候片刻，等东西做好了我就给您送过来！“",
+			say = "“主人請在這裡稍候片刻，等東西做好了我就給您送過來！”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			live2d = "main2",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让您久等了，这是为您准备的餐品，请您慢用~",
+			say = "讓您久等了，這是為您準備的餐品，請您慢用~",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -432,7 +432,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，忘了把营业模式切换回来了……那你慢用，我在沙发上休息会~",
+			say = "啊，忘了把營業模式切換回來了……那你慢用，我在沙發上休息一下~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			},
 			options = {
 				{
-					content = "女仆体验感觉如何？",
+					content = "女僕體驗感覺如何？",
 					flag = 1
 				}
 			}
@@ -455,7 +455,7 @@ return {
 			live2d = "detail",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不适应……！女仆工作不但没有能释放能量的地方，反而会成倍积攒压力！",
+			say = "不適應……！女僕工作不但沒有能釋放能量的地方，反而會成倍累積壓力！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "女仆队的孩子可真厉害，长时间维持那个状态我可是受不了……",
+			say = "女僕隊的孩子可真厲害，長時間維持那個狀態我可是受不了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			live2d = "main5",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈啊……已经积攒几天压力了。指挥官，明天你会让我出击的吧？",
+			say = "哈啊……已經累積幾天壓力了。指揮官，明天你會讓我出擊的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 					flag = 5
 				},
 				{
-					content = "请再做一阵女仆的工作！",
+					content = "請再做一陣女僕的工作！",
 					flag = 6
 				}
 			}
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			optionFlag = 5,
 			nameColor = "#a9f548",
-			say = "太好了，你还是懂我的！",
+			say = "太好了，你還是懂我的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			optionFlag = 5,
 			nameColor = "#a9f548",
-			say = "等明天出了海就把这些不快感通通发泄出去♪~",
+			say = "等明天出了海就把這些不快感通通發洩出去♪~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			optionFlag = 6,
 			nameColor = "#a9f548",
-			say = "开、开什么玩笑？！",
+			say = "開、開什麼玩笑？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			optionFlag = 6,
 			nameColor = "#a9f548",
-			say = "不过……你要是真这么想看我演女仆，只是偶尔的话……",
+			say = "不過……你要是真這麼想看我演女僕，只是偶爾的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			optionFlag = 6,
 			nameColor = "#a9f548",
-			say = "……也许也不是不行！",
+			say = "……也許也不是不行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "好了，我要继续休息了。指挥官也请好好享受这来之不易的休憩时光哦~",
+			say = "好了，我要繼續休息了。指揮官也請好好享受這來之不易的休憩時光哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

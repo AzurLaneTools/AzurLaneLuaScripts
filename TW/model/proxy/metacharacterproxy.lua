@@ -148,16 +148,6 @@ function slot0.isHaveVaildMetaProgressVO(slot0)
 	return false
 end
 
-function slot0.isHaveBuildMetaProgressVO(slot0)
-	for slot5, slot6 in ipairs(slot0:getMetaProgressVOList()) do
-		if slot6:isPassType() and slot6:isInAct() then
-			return true
-		end
-	end
-
-	return false
-end
-
 function slot0.setMetaTacticsInfo(slot0, slot1)
 	slot0.metaTacticsInfoTable = slot0.metaTacticsInfoTable or {}
 	slot2 = slot1.ship_id

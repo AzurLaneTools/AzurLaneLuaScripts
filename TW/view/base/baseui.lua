@@ -57,25 +57,25 @@ function slot0.getLayerWeight(slot0)
 	return LayerWeightConst.BASE_LAYER
 end
 
-function slot0.getBGM(slot0)
-	slot1 = pg.voice_bgm[slot0.__cname]
+function slot0.getBGM(slot0, slot1)
+	slot2 = pg.voice_bgm[slot1 or slot0.__cname]
 
 	if pg.CriMgr.GetInstance():IsDefaultBGM() then
-		return slot1 and slot1.default_bgm or nil
-	elseif slot1 then
-		slot3 = slot1.time
+		return slot2 and slot2.default_bgm or nil
+	elseif slot2 then
+		slot4 = slot2.time
 
-		if slot1.special_bgm and type(slot2) == "string" and #slot2 > 0 and slot3 and type(slot3) == "table" then
-			slot4 = slot1.time
-			slot6 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot4[2])
+		if slot2.special_bgm and type(slot3) == "string" and #slot3 > 0 and slot4 and type(slot4) == "table" then
+			slot5 = slot2.time
+			slot7 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot5[2])
 
-			if pg.TimeMgr.GetInstance():parseTimeFromConfig(slot4[1]) <= pg.TimeMgr.GetInstance():GetServerTime() and slot7 <= slot6 then
-				return slot2
+			if pg.TimeMgr.GetInstance():parseTimeFromConfig(slot5[1]) <= pg.TimeMgr.GetInstance():GetServerTime() and slot8 <= slot7 then
+				return slot3
 			else
-				return slot1.bgm
+				return slot2.bgm
 			end
 		else
-			return slot1 and slot1.bgm or nil
+			return slot2 and slot2.bgm or nil
 		end
 	else
 		return nil
@@ -121,19 +121,18 @@ function slot0.load(slot0)
 			PoolMgr.GetInstance():AddTempCache(uv3)
 		end
 
-		uv2:PlayBGM()
 		uv2:onUILoaded(uv0)
 	end)
 end
 
 function slot0.PlayBGM(slot0)
 	if slot0:getBGM() then
-		playBGM(slot1)
+		pg.BgmMgr.GetInstance():Push(slot0.__cname, slot1)
 	end
 end
 
 function slot0.SwitchToDefaultBGM(slot0)
-	playBGM(slot0:getBGM() or (not pg.CriMgr.GetInstance():IsDefaultBGM() or pg.voice_bgm.NewMainScene.default_bgm) and pg.voice_bgm.NewMainScene.bgm)
+	pg.BgmMgr.GetInstance():Push(slot0.__cname, slot0:getBGM() or (not pg.CriMgr.GetInstance():IsDefaultBGM() or pg.voice_bgm.NewMainScene.default_bgm) and pg.voice_bgm.NewMainScene.bgm)
 end
 
 function slot0.isLoaded(slot0)
@@ -266,6 +265,7 @@ end
 
 function slot0.enter(slot0)
 	slot0:quickExit()
+	slot0:PlayBGM()
 
 	function slot1()
 		uv0:emit(uv1.DID_ENTER)
@@ -340,6 +340,13 @@ function slot0.exit(slot0)
 	function slot1()
 		uv0:willExit()
 		uv0:ShowOrHideResUI(false)
+
+		if uv0.contextData.isLayer then
+			pg.BgmMgr.GetInstance():Pop(uv0.__cname)
+		else
+			pg.BgmMgr.GetInstance():Clear()
+		end
+
 		uv0:detach()
 		pg.GuideMgr.GetInstance():onSceneExit({
 			view = uv0.__cname

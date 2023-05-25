@@ -1751,6 +1751,99 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		view_name = "OreMiniGameView",
+		name = "六周年搬矿石小游戏",
+		simple_config_data = "",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 52,
+		hub_id = 44,
+		request_data = 0
+	},
+	{
+		view_name = "IslandCatchTreasureGameView",
+		name = "(海岛)打捞团小游戏",
+		simple_config_data = "",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 53,
+		hub_id = 44,
+		request_data = 0
+	},
+	{
+		view_name = "IslandTowerClimbingGameView",
+		name = "(海岛)啾啾大冒险",
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 54,
+		hub_id = 44,
+		request_data = 0,
+		simple_config_data = {
+			{
+				{
+					10,
+					20,
+					30,
+					40,
+					50
+				},
+				{
+					{
+						14,
+						104,
+						1
+					}
+				}
+			},
+			{
+				{
+					10,
+					20,
+					30,
+					40,
+					50
+				},
+				{
+					{
+						2,
+						59789,
+						1
+					}
+				}
+			},
+			{
+				{
+					10,
+					20,
+					30,
+					40,
+					50
+				},
+				{
+					{
+						2,
+						59790,
+						1
+					},
+					{
+						15,
+						103,
+						1
+					}
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1802,6 +1895,9 @@ pg.mini_game = {
 		48,
 		49,
 		50,
-		51
+		51,
+		52,
+		53,
+		54
 	}
 }

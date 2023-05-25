@@ -67,7 +67,7 @@ function slot0.init(slot0)
 
 	slot0.btn_load = slot0.plate:Find("btn_load")
 	slot0.ballSelectPanel = slot0.plate:Find("panel/layout")
-	slot0.ballSelects = slot0:Clone2Full(slot0.ballSelectPanel, 3)
+	slot0.ballSelects = CustomIndexLayer.Clone2Full(slot0.ballSelectPanel, 3)
 	slot0.ballSelectStatus = {
 		0,
 		0,
@@ -75,7 +75,7 @@ function slot0.init(slot0)
 	}
 	slot0.lastSelectedBall = nil
 	slot0.ballStoragePanel = slot0.storage:Find("house/layout")
-	slot0.ballStorages = slot0:Clone2Full(slot0.ballStoragePanel, 6)
+	slot0.ballStorages = CustomIndexLayer.Clone2Full(slot0.ballStoragePanel, 6)
 	slot0.screen_mask = slot0:findTF("mask")
 	slot0.btn_next = slot0:findTF("Button")
 	slot0.btn_next_text = slot0.btn_next:Find("Image")
@@ -596,21 +596,6 @@ function slot0.UdpateSelectedBall(slot0, slot1)
 	setActive(slot0.ballSelects[slot1]:Find("selected"), true)
 
 	slot0.lastSelectedBall = slot1
-end
-
-function slot0.Clone2Full(slot0, slot1, slot2)
-	slot3 = {}
-	slot4 = slot1:GetChild(0)
-
-	for slot9 = 0, slot1.childCount - 1 do
-		table.insert(slot3, slot1:GetChild(slot9))
-	end
-
-	for slot9 = slot5, slot2 - 1 do
-		table.insert(slot3, tf(cloneTplTo(slot4, slot1)))
-	end
-
-	return slot3
 end
 
 function slot0.EnterDispenseView(slot0)

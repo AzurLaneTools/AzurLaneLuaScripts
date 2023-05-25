@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？？·林中城堡 圆桌大厅中",
+			say = "？？？？ ·林中城堡 圓桌大廳中",
 			side = 2,
 			bgName = "bg_camelot_14",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "老姐，怎么你也转到这个地方了啊……",
+			say = "老姐，怎麼妳也轉到這個地方了啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "不知不觉吧。",
+			say = "不知不覺吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "明明早就决定把骑士的身份与誓言放在一边了，当初为什么会修这么一个圆桌大厅呢……",
+			say = "明明早就決定把騎士的身份與誓言放在一邊了，當初為什麼會修這麼一個圓桌大廳呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "是啊，为什么呢……也许我们作为骑士的本心是隐藏不住的吧。",
+			say = "是啊，為什麼呢……也許我們作為騎士的本心是隱藏不住的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "也许吧……",
+			say = "也許吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "啊，老姐！快看大海的方向，有一阵金光落下去了！",
+			say = "啊，老姐！快看大海的方向，有一陣金光落下去了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "哦？前卫她们这么快就把事办完了？",
+			say = "哦？前衛她們這麼快就把事辦完了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "欸，糟糕……光顾着回忆过去，东西还完全没收拾呢……",
+			say = "欸，糟糕……光顧著回憶過去，東西還完全沒收拾呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "好像也没什么需要带走的吧？",
+			say = "好像也沒什麼需要帶走的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "有啊，当然有的！我们的特质草药“茶”啊！",
+			say = "有啊，當然有的！我們的特質草藥“茶”啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "你没看到刚才不挠喝了之后奇怪的表情么……这么好的东西肯定要给所有人都尝尝！",
+			say = "妳沒看到剛才不撓喝了之後奇怪的表情嗎……這麼好的東西肯定要給所有人都嚐嚐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "呵呵……说的也是。那就让她们稍微等一会好了。",
+			say = "呵呵……說的也是。那就讓她們稍微等一下好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "……这次又怎么了？",
+			say = "……這次又怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "从圆环里出来的人不是前卫她们。",
+			say = "從圓環裡出來的人不是前衛她們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "最前面的是谢菲尔德，旁边的厌战，然后再后面的是独角兽么？",
+			say = "最前面的是謝菲爾德，旁邊的厭戰，然後再後面的是獨角獸嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "怎么今天客人这么多，一个两个都找到我们这里来了……",
+			say = "怎麼今天客人這麼多，一個兩個都找到我們這裡來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "嘿嘿，感觉事情要变有趣了。",
+			say = "嘿嘿，感覺事情要變有趣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			actor = 900327,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "时隔多年，再次履行誓言的时刻已到————老姐，让我们披挂上阵吧！",
+			say = "時隔多年，再次履行誓言的時刻已到————老姐，讓我們披掛上陣吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

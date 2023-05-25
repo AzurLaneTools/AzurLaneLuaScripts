@@ -54,8 +54,8 @@ function slot0.FindUI(slot0)
 	slot0.progressText = slot0:findTF("middle/board/progress")
 	slot0.taskScroll = slot0:findTF("middle/board/Scroll View")
 	slot0.taskScrollBar = slot0:findTF("middle/board/Scrollbar")
-	slot0.taskListItems = slot0:Clone2Full(slot0.taskScroll:Find("Content"), #slot0.taskGroup)
-	slot0.medalListItems = slot0:Clone2Full(slot0:findTF("middle/console/grid"), 9)
+	slot0.taskListItems = CustomIndexLayer.Clone2Full(slot0.taskScroll:Find("Content"), #slot0.taskGroup)
+	slot0.medalListItems = CustomIndexLayer.Clone2Full(slot0:findTF("middle/console/grid"), 9)
 	slot4 = Image
 	slot0.medalImg = slot0:findTF("middle/console/slot"):GetComponent(typeof(slot4))
 	slot0.medalGet = slot0:findTF("middle/console/get")
@@ -199,21 +199,6 @@ function slot0.PlayStory(slot0, slot1)
 	else
 		slot1()
 	end
-end
-
-function slot0.Clone2Full(slot0, slot1, slot2)
-	slot3 = {}
-	slot4 = slot1:GetChild(0)
-
-	for slot9 = 0, slot1.childCount - 1 do
-		table.insert(slot3, slot1:GetChild(slot9))
-	end
-
-	for slot9 = slot5, slot2 - 1 do
-		table.insert(slot3, tf(cloneTplTo(slot4, slot1)))
-	end
-
-	return slot3
 end
 
 function slot0.IsTip()

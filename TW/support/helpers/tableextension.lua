@@ -278,3 +278,13 @@ end
 function table.unpackParams(slot0)
 	return unpack(slot0, 1, slot0.len)
 end
+
+function table.map(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0) do
+		slot2[slot6] = slot1(slot7)
+	end
+
+	return slot2
+end

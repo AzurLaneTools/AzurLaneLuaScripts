@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？？·？？？？",
+			say = "？？？？ ·？？？？",
 			side = 2,
 			bgName = "bg_camelot_6",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "空气中充斥着毁灭与死亡的气息……",
+			say = "空氣中充斥著毀滅與死亡的氣息……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵，看来中奖了啊……META总是不会离这两样东西太远的。",
+			say = "呵，看來中獎了啊……META總是不會離這兩樣東西太遠的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "柴郡、海王星，你们觉得我们存在的意义是什么？",
+			say = "柴郡、海王星，妳們覺得我們存在的意義是什麼？",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天一上来又是这么严肃的话题欸……",
+			say = "今天一上來又是這麼嚴肅的話題欸……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "同为计划舰，我想了解你们的想法。",
+			say = "同為計劃艦，我想了解妳們的想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299030,
-			say = "好好吃好好睡，服从命令听指挥，如果能遇到一见钟情的亲爱的就更好了？",
+			say = "好好吃好好睡，服從命令聽指揮，如果能遇到一見鍾情的親愛的就更好了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "服从命令……哪怕这个命令是让我们永无止境的与外界隔绝下去么？",
+			say = "服從命令……哪怕這個命令是讓我們永無止境的與外界隔絕下去嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你的心情我也不是不能理解，不过陛下肯定有她的用意哦。",
+			say = "妳的心情我也不是不能理解，不過陛下肯定有她的用意哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们的存在大概是某种皇家阵营的底牌之类的？陛下大概不想轻易暴露吧。",
+			say = "我們的存在大概是某種皇家陣營的底牌之類的？陛下大概不想輕易暴露吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299030,
-			say = "没错没错~你可以把现在的闲暇时光想象成出征前的漫长假期，在辛苦的战斗来临前，不好好养精蓄锐可不行！",
+			say = "沒錯沒錯~妳可以把現在的閒暇時光想像成出征前的漫長假期，在辛苦的戰鬥來臨前，不好好養精蓄銳可不行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "养精蓄锐……是指这永无止境的训练科目么。",
+			say = "養精蓄銳……是指這永無止境的訓練科目嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "将精心打造的利刃放在仓库中可并非它们被打造出来的本意。",
+			say = "將精心打造的利刃放在倉庫中可並非它們被打造出來的本意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还是那个伊丽莎白女王觉得，我们只要封闭在这里不接触外界，就算对于皇家做出贡献了呢？！",
+			say = "還是那個伊莉莎白女王覺得，我們只要封閉在這裡不接觸外界，就算對於皇家做出貢獻了呢？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我对于皇家的意义与价值，将在这次行动中得以证明。",
+			say = "我對於皇家的意義與價值，將在這次行動中得以證明。",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "皇家舰队的荣耀，这一次就交由我来守护吧。",
+			say = "皇家艦隊的榮耀，這一次就交由我來守護吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？？·林中城堡",
+			say = "？？？？ ·林中城堡",
 			side = 2,
 			bgName = "bg_camelot_8",
 			dir = 1,
@@ -36,7 +36,7 @@ return {
 			bgName = "bg_camelot_8",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "大姐姐，我来找你们玩了哦。",
+			say = "大姐姐，我來找妳們玩了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_camelot_8",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "大姐姐们，跑掉了呢……",
+			say = "大姐姐們，跑掉了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_camelot_8",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "故意来这里兜了一圈么……",
+			say = "故意來這裡兜了一圈嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_camelot_8",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "这下麻烦了，踪迹在这里断掉，没办法继续追了……",
+			say = "這下麻煩了，蹤跡在這裡斷掉，沒辦法繼續追了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_camelot_8",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "嗯~我不讨厌挑战。这件事我记下了。",
+			say = "嗯~我不討厭挑戰。這件事我記住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_camelot_8",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "你们已经引起了我的注意，如果不好好躲起来的话————",
+			say = "妳們已經引起了我的注意，如果不好好躲起來的話————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "呵呵呵，就让我们在某一天再相见吧~大姐姐们~",
+			say = "呵呵呵，就讓我們在某一天再相見吧~大姐姐們~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

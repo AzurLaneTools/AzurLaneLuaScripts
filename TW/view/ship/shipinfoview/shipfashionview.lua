@@ -35,12 +35,7 @@ function slot0.InitFashion(slot0)
 	slot0.onSelected = false
 	slot0.isShareSkinFlag = false
 
-	onToggle(slot0, slot0.shareBtn, function (slot0)
-		uv0.fashionGroup = false
-		uv0.isShareSkinFlag = slot0
-
-		uv0:UpdateFashion()
-	end, SFX_PANEL)
+	slot0:RegisterShareToggle()
 	slot0:bind(ShipMainMediator.ON_NEXTSHIP_PREPARE, function (slot0, slot1)
 		if uv0.isShareSkinFlag and slot1 and #uv0:GetShareSkins(slot1) <= 0 then
 			uv0.isShareSkinFlag = false
@@ -315,9 +310,27 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 			return
 		end
 
-		triggerToggle(uv0.shareBtn, false)
+		uv0:SilentTriggerToggleFalse()
 		uv0:emit(ShipViewConst.SWITCH_TO_PAGE, ShipViewConst.PAGE.DETAIL)
 	end)
+end
+
+function slot0.SilentTriggerToggleFalse(slot0)
+	slot0.fashionGroup = false
+	slot0.isShareSkinFlag = false
+
+	removeOnToggle(slot0.shareBtn)
+	triggerToggle(slot0.shareBtn, false)
+	slot0:RegisterShareToggle()
+end
+
+function slot0.RegisterShareToggle(slot0)
+	onToggle(slot0, slot0.shareBtn, function (slot0)
+		uv0.fashionGroup = false
+		uv0.isShareSkinFlag = slot0
+
+		uv0:UpdateFashion()
+	end, SFX_PANEL)
 end
 
 function slot0.OnDestroy(slot0)

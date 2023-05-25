@@ -26,7 +26,7 @@ function slot0.OnDestroy(slot0)
 	slot0.onGo = nil
 	slot0.onCancel = nil
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTF)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
 function slot0.setCBFunc(slot0, slot1, slot2, slot3)

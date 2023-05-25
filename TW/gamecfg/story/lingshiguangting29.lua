@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actorName = "复仇",
+			actorName = "復仇",
 			side = 2,
 			bgName = "bg_camelot_11",
 			dir = 1,
@@ -15,7 +15,7 @@ return {
 			bgm = "battle-boss-camelot",
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "陛下，您还好么！",
+			say = "陛下，您還好嗎！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,8 +40,8 @@ return {
 			bgName = "bg_camelot_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "本王刚刚是……",
+			actorName = "伊莉莎白女王",
+			say = "本王剛剛是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			bgName = "bg_camelot_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "复仇",
-			say = "陛下在看到天上的黑色风暴之后，就陷入了沉思。",
+			actorName = "復仇",
+			say = "陛下在看到天上的黑色風暴之後，就陷入了沉思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,8 +74,8 @@ return {
 			bgName = "bg_camelot_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "复仇",
-			say = "为了避免打扰到您思考，我们也减慢了一些航行速度。",
+			actorName = "復仇",
+			say = "為了避免打擾到您思考，我們也減慢了一些航行速度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,8 +91,8 @@ return {
 			bgName = "bg_camelot_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "哦对，本王现在正在撤离途中……黑色风暴的面积变得更大了。",
+			actorName = "伊莉莎白女王",
+			say = "哦對，本王現在正在撤離途中……黑色風暴的面積變得更大了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,8 +108,8 @@ return {
 			bgName = "bg_camelot_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "司战女神",
-			say = "没错，陛下。而且在您思考的时候出现了新的情况。",
+			actorName = "司戰女神",
+			say = "沒錯，陛下。而且在您思考的時候出現了新的情況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,8 +125,8 @@ return {
 			bgName = "bg_camelot_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "司战女神",
-			say = "在黑色漩涡附近凭空出现了众多未知的敌人，前卫大人和不挠小姐已经去前方开路了。",
+			actorName = "司戰女神",
+			say = "在黑色漩渦附近憑空出現了眾多未知的敵人，前衛大人和不撓小姐已經去前方開路了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,8 +142,8 @@ return {
 			bgName = "bg_camelot_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "司战女神",
-			say = "那些敌人的身上好像笼罩着某种烟雾一样，我们无法确定其外形和类别。",
+			actorName = "司戰女神",
+			say = "那些敵人的身上好像籠罩著某種煙霧一樣，我們無法特定其外形和類別。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,8 +159,8 @@ return {
 			bgName = "bg_camelot_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "司战女神",
-			say = "与此同时，塞壬舰队也向我们跟未知敌人双方发动了攻击，目前海域内战局混乱。",
+			actorName = "司戰女神",
+			say = "與此同時，塞壬艦隊也向我們跟未知敵人雙方發動了攻擊，目前海域內戰局混亂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,8 +176,8 @@ return {
 			bgName = "bg_camelot_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "司战女神",
-			say = "陛下，出于保险起见，我们是不是稍微绕一下路比较好？",
+			actorName = "司戰女神",
+			say = "陛下，出於保險起見，我們是不是稍微繞一下路比較好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,8 +193,8 @@ return {
 			bgName = "bg_camelot_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "不，就这么从塞壬舰队中间穿过去。",
+			actorName = "伊莉莎白女王",
+			say = "不，就這麼從塞壬艦隊中間穿過去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,8 +210,8 @@ return {
 			bgName = "bg_camelot_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "我们虽然会遭受攻击，不过塞壬不是真打，不会有事的。",
+			actorName = "伊莉莎白女王",
+			say = "我們雖然會遭受攻擊，不過塞壬不是真打，不會有事的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,8 +227,8 @@ return {
 			bgName = "bg_camelot_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "倒是那些未知敌人让我有种非常不好的感觉……",
+			actorName = "伊莉莎白女王",
+			say = "倒是那些未知敵人讓我有種非常不好的感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,8 +244,8 @@ return {
 			bgName = "bg_camelot_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "传本王命令，让所有人务必不要与那些敌人贴身，尽量远程解决！",
+			actorName = "伊莉莎白女王",
+			say = "傳本王命令，讓所有人務必不要與那些敵人貼身，盡量遠程解決！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,8 +262,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "复仇",
-			say = "遵命。那么陛下请注意，我们接下来就要加速了！",
+			actorName = "復仇",
+			say = "遵命。那麼陛下請注意，我們接下來就要加速了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

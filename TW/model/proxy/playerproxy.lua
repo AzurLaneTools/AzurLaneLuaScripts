@@ -1,6 +1,6 @@
 slot0 = class("PlayerProxy", import(".NetProxy"))
-slot0.UPDATED = "player updated"
-slot0.RESOURCE_UPDATED = "RESOURCE_UPDATED"
+slot0.UPDATED = "PlayerProxy.UPDATED"
+slot0.RESOURCE_UPDATED = "PlayerProxy.RESOURCE_UPDATED"
 
 function slot0.register(slot0)
 	slot0._flags = {}

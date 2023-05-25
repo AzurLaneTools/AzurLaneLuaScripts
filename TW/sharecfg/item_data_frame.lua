@@ -360,6 +360,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>在炎炎夏日中感受片刻的清涼！ </color>\n通過參與「啾啾冰淇淋」活動獲取",
 		scene = {}
 	},
+	[602] = {
+		time_limit_type = 0,
+		name = "海風與夏日之證",
+		gain_by = "",
+		id = 602,
+		time_second = 0,
+		desc = "<color=#ffffff>盡情享受無人島上的美好風光吧~！ </color>\n通過參與海島限定活動獲取",
+		scene = {}
+	},
 	[1001] = {
 		time_limit_type = 0,
 		name = "開服紀念",
@@ -410,6 +419,7 @@ pg.item_data_frame = {
 		414,
 		501,
 		601,
+		602,
 		1001
 	}
 }

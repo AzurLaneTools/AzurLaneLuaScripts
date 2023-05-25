@@ -81,8 +81,8 @@ function slot0.SetActivity(slot0, slot1)
 		return
 	end
 
-	table.Foreach(slot2.data1_list, function (slot0, slot1)
-		if slot1 > 0 and (uv0.data1_list[slot0] or 0) == 0 then
+	table.Foreach(slot2:GetShipIds(), function (slot0, slot1)
+		if slot1 > 0 and (uv0:GetShipIds()[slot0] or 0) == 0 then
 			uv1.slotShipPos[slot0] = Clone(uv1.slotOriginalPos[slot0])
 		end
 	end)
@@ -101,9 +101,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf:Find("Top/Manage"), function ()
 		uv0:emit(NewYearHotSpringMediator.OPEN_INFO)
 	end, SFX_PANEL)
-
-	slot1 = string.split(i18n("hotspring_buff"), "|")
-
+	assert(string.split(i18n("hotspring_buff"), "|"))
 	onButton(slot0, slot0._tf:Find("Top/Buff"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideIconBG = true,
@@ -139,7 +137,7 @@ function slot0.didEnter(slot0)
 
 	slot0.timer:Start()
 	onNextTick(function ()
-		if uv0.activity.data1 + 1 <= #uv0.slotTFs then
+		if uv0.activity:GetSlotCount() + 1 <= #uv0.slotTFs then
 			slot1 = uv0.scrollRect.rect.width
 			slot3 = uv0.scrollRect:Find("Pool")
 
@@ -167,7 +165,7 @@ function slot0.InitSlots(slot0)
 			uv0:emit(NewYearHotSpringMediator.UNLOCK_SLOT, uv0.activity.id)
 		end, SFX_PANEL)
 		onButton(uv0, slot1:Find("Enter"), function ()
-			slot0 = uv0.activity.data1_list[uv1] or 0
+			slot0 = uv0.activity:GetShipIds()[uv1] or 0
 
 			uv0:emit(NewYearHotSpringMediator.OPEN_CHUANWU, uv1, slot0 > 0 and getProxy(BayProxy):RawGetShipById(slot0))
 		end, SFX_PANEL)
@@ -252,7 +250,7 @@ end
 
 function slot0.UpdateView(slot0)
 	slot0:UpdateSlots()
-	setText(slot0.top:Find("Ticket/Text"), slot0.activity.data2)
+	setText(slot0.top:Find("Ticket/Text"), slot0.activity:GetCoins())
 end
 
 function slot0.UpdateSlots(slot0)
@@ -267,10 +265,10 @@ function slot0.RectContainsRect(slot0, slot1)
 end
 
 function slot0.UpdateSlot(slot0, slot1, slot2)
-	setActive(slot2:Find("Lock"), math.clamp(slot1 - slot0.activity.data1, 0, 2) == 2)
+	setActive(slot2:Find("Lock"), math.clamp(slot1 - slot0.activity:GetSlotCount(), 0, 2) == 2)
 	setActive(slot2:Find("Usable"), slot3 == 1)
 
-	slot4 = slot0.activity.data1_list[slot1] or 0
+	slot4 = slot0.activity:GetShipIds()[slot1] or 0
 	slot5 = slot3 == 0
 	slot6 = slot4 > 0 and getProxy(BayProxy):RawGetShipById(slot4)
 

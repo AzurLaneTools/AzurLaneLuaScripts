@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "这次出现的又是不同的风景呢……",
+			say = "這次出現的又是不同的風景呢……",
 			effects = {
 				{
 					active = false,
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205110,
-			say = "之前是原始森林，现在是钢筋混凝土的森林。",
+			say = "之前是原始森林，現在是鋼筋混凝土的森林。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202310,
-			say = "同样是都市，不过比我们的都市夸张多了……",
+			say = "同樣是都市，不過比我們的都市誇張多了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次终于有来到其他世界的实感了。",
+			say = "這次終於有來到其他世界的實感了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，前卫，仪器上好像多了个坐标哦？",
+			say = "啊，前衛，儀器上好像多了個座標哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "嗯？我看看……这次移动我选择的是已有坐标中的另一个，理论上不应该出现新坐标……",
+			say = "嗯？我看看……這次移動我選擇的是已有座標中的另一個，理論上不應該出現新座標……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "难道有除了我们之外的人还在用卡美洛之庭么。",
+			say = "難道有除了我們之外的人還在用卡美洛之庭嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "欸……卡美洛之庭不是一直只有我们在用么？",
+			say = "欸……卡美洛之庭不是一直只有我們在用嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "这就是我之前说的复杂的部分了，如果你想听我可以试着解释。",
+			say = "這就是我之前說的複雜的部分了，如果你想听我可以試著解釋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "不，我不想听……还是按照惯例侦察一下周围环境吧~",
+			say = "不，我不想聽……還是按照慣例偵察一下周圍環境吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "我注意到天上有没见过的飞机在飞，让舰载机侦察的时候小心一点。",
+			say = "我注意到天上有沒見過的飛機在飛，讓艦載機偵察的時候小心一點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "这里的科技水平也许大幅超过我们的想象，现在情况不明，不要暴露。",
+			say = "這裡的科技水平也許大幅超過我們的想像，現在情況不明，不要暴露。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "你的谨慎是对的，前卫，我发现了……非常难以解释的场景。",
+			say = "妳的謹慎是對的，前衛，我發現了……非常難以解釋的場景。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "努力解释一下？",
+			say = "努力解釋一下？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我目击到了整齐停在都市码头上的塞壬舰队……",
+			say = "我目擊到了整齊停在都市碼頭上的塞壬艦隊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "塞壬已经占领了这里？！",
+			say = "塞壬已經佔領了這裡？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "看起来更像是在和平相处哦……我在附近还发现了塞壬舰队和货船队并行的场景。",
+			say = "看起來更像是在和平相處哦……我在附近還發現了塞壬艦隊和貨船隊並行的場景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205110,
-			say = "某些势力仿制了塞壬量产型的可能性呢？",
+			say = "某些勢力仿製了塞壬量產型的可能性呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "无法排除。这里的科技程度明显比我们要高，不过塞壬的型号看起来很老旧，大概比I型还要老哟……",
+			say = "無法排除。這裡的科技程度明顯比我們要高，不過塞壬的型號看起來很老舊，大概比I型還要老唷……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "还有什么发现么，有找到陛下么？",
+			say = "還有什麼發現嗎，有找到陛下嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "唔……如果陛下去了都市中的话，恐怕很难找到。",
+			say = "唔……如果陛下去了都市中的話，恐怕很難找到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "不过等等…………飞向远海方向的舰载机突然失去联络了！",
+			say = "不過等等…………飛向遠海方向的艦載機突然失去聯絡了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202310,
-			say = "被敌人袭击了么？",
+			say = "被敵人襲擊了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "在失联之前没有遭受袭击，更像是进入镜面海域导致的信号中断！",
+			say = "在失聯之前沒有遭受襲擊，更像是進入鏡面海域導致的訊號中斷！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "我刚才就在想为什么卡美洛之庭这么大张旗鼓的落地都没有在都市中引起慌乱。",
+			say = "我剛才就在想為什麼卡美洛之庭這麼大張旗鼓的落地都沒有在都市中引起慌亂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "看来可能我们正好落在了镜面海域的边缘位置。",
+			say = "看來可能我們正好落在了鏡面海域的邊緣位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "这么说……那些停在码头的塞壬果然还是真的塞壬？",
+			say = "這麼說……那些停在碼頭的塞壬果然還是真的塞壬？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			actor = 205130,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯。和平相处的都市也许只是表象，这片海域中还有隐藏起来的秘密——",
+			say = "嗯。和平相處的都市也許只是表象，這片海域裡還有隱藏起來的秘密——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

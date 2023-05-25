@@ -5,6 +5,16 @@ slot0.edge2area = {
 	default = "_middle",
 	["5_6"] = "_bottom"
 }
+slot0.Buildings = {
+	nil,
+	nil,
+	nil,
+	nil,
+	"shudian",
+	"youxidian",
+	"moxingdian",
+	"kafeiting"
+}
 
 function slot0.init(slot0)
 	slot0.loader = AutoLoader.New()
@@ -34,11 +44,6 @@ function slot0.init(slot0)
 	}
 	slot0._shipTpl = slot0._map:Find("ship")
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.AkibaGraph"))
-	slot0.upgradePanel = BuildingUpgradPanel.New(slot0)
-
-	slot0.upgradePanel:Load()
-	slot0.upgradePanel.buffer:Hide()
-
 	slot0.usableTxt = slot0.top:Find("usable_count/text"):GetComponent(typeof(Text))
 	slot0.materialTxt = slot0.top:Find("material/text"):GetComponent(typeof(Text))
 
@@ -132,7 +137,10 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0:findTF("top/return_btn"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end)
-	onButton(slot0, slot0.top:Find("daka_count"), function ()
+
+	slot3 = slot0.top
+
+	onButton(slot0, slot3:Find("daka_count"), function ()
 		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CLIENT_DISPLAY) and not slot0:isEnd() then
 			uv0:emit(ThirdAnniversarySquareMediator.GO_SCENE, SCENE.ACTIVITY, {
 				id = slot0.id
@@ -142,24 +150,30 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0:findTF("top/return_main_btn"), function ()
 		uv0:emit(uv1.ON_HOME)
 	end)
-	onButton(slot0, slot0:findTF("top/help_btn"), function ()
+
+	slot5 = "top/help_btn"
+
+	function slot4()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.qingdianguangchang_help.tip
 		})
-	end)
-	slot0:InitFacilityCross(slot0._map, slot0._upper, "shudian", function ()
-		uv0.upgradePanel:Set(uv0.activity, 5)
-	end)
-	slot0:InitFacilityCross(slot0._map, slot0._upper, "youxidian", function ()
-		uv0.upgradePanel:Set(uv0.activity, 6)
-	end)
-	slot0:InitFacilityCross(slot0._map, slot0._upper, "moxingdian", function ()
-		uv0.upgradePanel:Set(uv0.activity, 7)
-	end)
-	slot0:InitFacilityCross(slot0._map, slot0._upper, "kafeiting", function ()
-		uv0.upgradePanel:Set(uv0.activity, 8)
-	end)
+	end
+
+	onButton(slot0, slot0:findTF(slot5), slot4)
+
+	for slot4, slot5 in pairs(slot0.Buildings) do
+		slot0:InitFacilityCross(slot0._map, slot0._upper, slot5, function ()
+			uv0:emit(BackHillMediatorTemplate.GO_SUBLAYER, Context.New({
+				mediator = BuildingUpgradeMediator,
+				viewComponent = BuildingUpgradeLayer,
+				data = {
+					buildingID = uv1
+				}
+			}))
+		end)
+	end
+
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "jiejiting", function ()
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, 14)
 	end)
@@ -191,57 +205,23 @@ function slot0.UpdateActivity(slot0, slot1)
 	slot0.Respones.materialCount = slot1.data1KeyValueList[1][next(slot1.data1KeyValueList[1])] or 0
 
 	slot0:UpdateView()
-
-	if slot0.upgradePanel and slot0.upgradePanel:IsShowing() then
-		slot0.upgradePanel:Set(slot1)
-	end
 end
 
 function slot0.UpdateView(slot0)
-	function slot2(slot0)
-		if not uv0.activity then
-			return
-		end
-
-		slot1 = uv0.activity.data1KeyValueList[2][slot0] or 1
-
-		if not pg.activity_event_building[slot0] or slot1 >= #slot2.buff then
-			return
-		end
-
-		return slot2.material[slot1] <= (uv0.activity.data1KeyValueList[1][slot2.material_id] or 0)
-	end
-
-	slot3 = {
-		"shudian",
-		"youxidian",
-		"moxingdian",
-		"kafeiting"
-	}
-	slot0.Respones.shudianTip = slot2(5)
-	slot0.Respones.youxidianTip = slot2(6)
-	slot0.Respones.moxingdianTip = slot2(7)
-	slot0.Respones.kafeitingTip = slot2(8)
+	slot0.Respones.shudianTip = slot0:UpdateBuildingTip(slot0.activity, 5)
+	slot0.Respones.youxidianTip = slot0:UpdateBuildingTip(slot0.activity, 6)
+	slot0.Respones.moxingdianTip = slot0:UpdateBuildingTip(slot0.activity, 7)
+	slot0.Respones.kafeitingTip = slot0:UpdateBuildingTip(slot0.activity, 8)
 	slot0.Respones.shujvhuiguTip = false
 	slot0.Respones.jiejitingTip = getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME):getConfig("config_id")).count > 0
 
-	slot0:UpdateHubData(slot6)
+	slot0:UpdateHubData(slot4)
 
 	if not slot0.InitStudentBegin then
-		slot0:InitStudents(slot4.id, 3, 4)
+		slot0:InitStudents(slot2.id, 3, 4)
 
 		slot0.InitStudentBegin = true
 	end
-end
-
-function slot0.onBackPressed(slot0)
-	if slot0.upgradePanel and slot0.upgradePanel:IsShowing() then
-		slot0.upgradePanel:Hide()
-
-		return
-	end
-
-	uv0.super.onBackPressed(slot0)
 end
 
 function slot0.UpdateHubData(slot0, slot1)

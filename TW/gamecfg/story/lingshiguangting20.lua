@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "君主站在床前，静静凝望着面前被仪器包围的胡德。",
+			say = "君主站在床前，靜靜凝望著面前被儀器包圍的胡德。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "黑暗中没有传来任何声音。",
+			say = "黑暗中沒有傳來任何聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "面前的胡德已无法像往日般露出温柔的笑容，也无法像往日般做出回应了。",
+			say = "面前的胡德已無法像往日般露出溫柔的笑容，也無法像往日般做出回應了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "回忆起往事的君主不由自主向胡德的脸庞伸出了手。",
+			say = "回憶起往事的君主不由自主向胡德的臉龐伸出了手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "然后在意识到自己这一举动的瞬间如触电般将半空中的手收了回来。",
+			say = "然後在意識到自己這一舉動的瞬間如觸電般將半空中的手收了回來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "胡德对于自己身旁发生的事一无所知，只是静静的沉睡着。",
+			say = "胡德對於自己身旁發生的事一無所知，只是靜靜的沉睡著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……抱歉，胡德女士，原谅我接下来的独断专行。",
+			say = "……抱歉，胡德女士，原諒我接下來的獨斷專行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但，这是能够拯救你的唯一可行方案了。",
+			say = "但，這是能夠拯救妳的唯一可行方案了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果要受到责罚……也请等您康复之后，亲口对我下达吧——",
+			say = "如果要受到責罰……也請等您康復之後，親口對我下達吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

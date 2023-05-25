@@ -16,7 +16,7 @@ return {
 			actor = 207120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "绿色的山丘，银色的城堡，蔚蓝的海面，金色的天空……",
+			say = "綠色的山丘，銀色的城堡，蔚藍的海面，金色的天空……",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直就像画中世界一样……",
+			say = "簡直就像畫中世界一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诸位负责守护阿瓦隆之门已经有段时间了，不过实际进来还是第一次吧。",
+			say = "諸位負責守護阿瓦隆之門已經有段時間了，不過實際進來還是第一次吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欢迎来到阿瓦隆之门内部空间的核心区域——卡美洛之庭。",
+			say = "歡迎來到阿瓦隆之門內部空間的核心區域——卡美洛之庭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "卡美洛之庭……确如其名的美丽庭院，这里完全是按照传说中的感觉来做的呢。",
+			say = "卡美洛之庭……確如其名的美麗庭院，這裡完全是按照傳說中的感覺來做的呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205110,
-			say = "不过这么设计应该需要巨大的花费吧，有什么特殊的含义么？",
+			say = "不過這麼設計應該需要巨大的花費吧，有什麼特殊的含義嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "是否有特殊含义我不是很清楚，不过陛下做的事一定是有意义的。",
+			say = "是否有特殊含義我不是很清楚，不過陛下做的事一定是有意義的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "况且你们看，这样的美景本身就是一件珍贵的艺术品了。",
+			say = "況且妳們看，這樣的美景本身就是一件珍貴的藝術品了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "微风轻拂，光照和煦，空气中的花香沁人心脾想让人一直住在这里——",
+			say = "微風輕拂，光照和煦，空氣中的花香沁人心脾想讓人一直住在這裡——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "像铁血一样毫无美感的用机械结构进行堆砌也许同样能实现功能，不过那样就很无趣了吧。",
+			say = "像鐵血一樣毫無美感的用機械結構進行堆砌也許同樣能實現功能，不過那樣就很無趣了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "雅努斯",
-			say = "这里的水，凉凉的，好舒服。",
+			say = "這裡的水，涼涼的，好舒服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,8 +233,8 @@ return {
 			bgName = "bg_camelot_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "贾维斯",
-			say = "雅努斯，小心别掉下去了哦？",
+			actorName = "傑維斯",
+			say = "雅努斯，小心別掉下去了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,8 +284,8 @@ return {
 			bgName = "bg_camelot_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "贾维斯",
-			say = "周围城墙倒是很坚固，不过摸上去不像石头，更像冰冷的金属……",
+			actorName = "傑維斯",
+			say = "周圍城牆倒是很堅固，不過摸上去不像石頭，更像冰冷的金屬……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,8 +301,8 @@ return {
 			bgName = "bg_camelot_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "前卫",
-			say = "没错，你们的观察力很好。",
+			actorName = "前衛",
+			say = "沒錯，妳們的觀察力很好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,8 +318,8 @@ return {
 			bgName = "bg_camelot_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "前卫",
-			say = "这里的景色虽然优美，不过毕竟是在奇异点之内，眼睛见到的未必就是真实的。",
+			actorName = "前衛",
+			say = "這裡的景色雖然優美，不過畢竟是在奇異點之內，眼睛見到的未必就是真實的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,8 +335,8 @@ return {
 			bgName = "bg_camelot_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "前卫",
-			say = "请各位务必不要离开道路，以免发生难以预测的危险。",
+			actorName = "前衛",
+			say = "請各位務必不要離開道路，以免發生難以預測的危險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202310,
-			say = "……陛下就是迷失在这里了么？",
+			say = "……陛下就是迷失在這裡了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "自然不是。没有人比陛下更熟悉这里的结构了。",
+			say = "自然不是。沒有人比陛下更熟悉這裡的結構了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "陛下是利用城堡中庭的移动装置去了更远的地方。",
+			say = "陛下是利用城堡中庭的移動裝置去了更遠的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			actor = 205130,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "时间宝贵，不要留恋眼前的美景，继续前进吧。",
+			say = "時間寶貴，不要留戀眼前的美景，繼續前進吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

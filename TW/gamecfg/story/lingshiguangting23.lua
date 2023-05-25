@@ -10,7 +10,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "轰——————————！",
+			say = "轟——————————！",
 			dir = 1,
 			bgm = "bgm-royalnavy",
 			flashin = {
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "胜负已分！本次演习的胜利者为前卫大人~",
+			say = "勝負已分！本次演習的勝利者為前衛大人~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "哼哼~试图弹飞我武器的思路还不错，不过脚下的动作还是太慢了哦。",
+			say = "哼哼~試圖彈飛我武器的思路還不錯，不過腳下的動作還是太慢了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是我的武艺还不够精湛……感谢您在百忙之中应邀前来指导。",
+			say = "是我的武藝還不夠精湛……感謝您在百忙之中應邀前來指導。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "不用客气，我们都是陛下的骑士，相互帮助是应该的。",
+			say = "不用客氣，我們都是陛下的騎士，相互幫助是應該的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "骑士团的整体战斗力提高了，对陛下也更有帮助。",
+			say = "騎士團的整體戰鬥力提高了，對陛下也更有幫助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前卫大人，刚刚您反制声望的攻击，一举逆转局势的那招是怎么做到的呀！",
+			say = "前衛大人，剛剛您反制聲望的攻擊，一舉逆轉局勢的那招是怎麼做到的呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过你要是想学的话，也不是不能教你哦？",
+			say = "不過你要是想學的話，也不是不能教妳哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202310,
-			say = "真的么！我想学！请务必教教我！",
+			say = "真的麼！我想學！請務必教教我！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也想学！学会了之后说不定我也能在跟姐姐的对决里赢上几分了~",
+			say = "我也想學！學會了之後說不定我也能在跟姐姐的對決裡贏上幾分了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能一起教教我么？我想继续提高武艺，早日成为独当一面的骑士。",
+			say = "能一起教教我嗎？我想繼續提高武藝，早日成為獨當一面的騎士。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "大家都这么好学啊~没问题哦————不过得下次，今天是不行了。",
+			say = "大家都這麼好學啊~沒問題哦————不過得下次，今天是不行了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,42 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下之后有前往上院演讲的安排，我要护送陛下过去。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 205130,
-			say = "还有声望，在我看来你已经是独当一面的骑士了哦，只不过相比我还有些差距就是了~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205130,
-			side = 2,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "继续加油训练吧~平时多流汗，战时少流血。",
+			say = "陛下之後有前往上院演講的安排，我要護送陛下過去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +320,42 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "每天在训练场上的努力，都会变成战场上的胜机哦~",
+			say = "還有聲望，在我看來妳已經是獨當一面的騎士了哦，只不過相比我還有些差距就是了~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205130,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "繼續加油訓練吧~平時多流汗，戰時少流血。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 205130,
+			say = "每天在訓練場上的努力，都會變成戰場上的勝機哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

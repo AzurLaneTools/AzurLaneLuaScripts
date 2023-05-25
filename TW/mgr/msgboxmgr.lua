@@ -305,7 +305,7 @@ function slot8(slot0, slot1)
 	setActive(findTF(slot0._sigleItemPanel, "icon_bg/own"), false)
 	setActive(findTF(slot0._sigleItemPanel, "icon_bg/timelimit"), slot1.drop.type == DROP_TYPE_SKIN_TIMELIMIT)
 
-	slot2, slot3 = GetOwnedpropCount(slot1.drop)
+	slot2, slot3 = GetOwnedDropCount(slot1.drop)
 
 	setActive(findTF(slot0._sigleItemPanel, "icon_bg/own"), slot3 and slot1.showOwned)
 	setText(findTF(slot0._sigleItemPanel, "icon_bg/own/Text"), slot2)
@@ -341,25 +341,24 @@ function slot8(slot0, slot1)
 	slot11 = false
 
 	if slot1.drop.type == DROP_TYPE_ITEM then
-		slot12 = {}
+		slot12 = tobool(getProxy(TechnologyProxy):getItemCanUnlockBluePrint(slot1.drop.id)) and "tech" or slot1.drop.cfg.type
+		slot13 = {}
 
-		for slot16, slot17 in ipairs({
+		for slot17, slot18 in ipairs({
 			true,
 			11,
 			13,
 			16,
 			17
 		}) do
-			slot12[slot17] = function (slot0)
-				uv0 = slot0
+			slot13[slot18] = function (slot0)
+				return slot0
 			end
 		end
 
-		slot13 = tobool(getProxy(TechnologyProxy):getItemCanUnlockBluePrint(slot1.drop.id)) and "tech" or slot1.drop.cfg.type
-
-		switch(slot13, slot12, function ()
-			uv0 = false
-		end, slot13)
+		slot11 = switch(slot12, slot13, function ()
+			return false
+		end, slot12)
 	end
 
 	setActive(slot10, tobool(slot11))
@@ -474,13 +473,15 @@ function slot8(slot0, slot1)
 	elseif slot1.drop.type == DROP_TYPE_RESOURCE then
 		setText(slot6, slot1.drop.cfg.display)
 	elseif slot1.drop.type == DROP_TYPE_ITEM then
-		slot12 = slot1.drop.cfg.display
+		slot13 = Item.New({
+			id = slot1.drop.cfg.id
+		}):getConfig("display")
 
 		if slot1.drop.cfg.type == Item.LOVE_LETTER_TYPE then
-			slot12 = string.gsub(slot12, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.extra))
+			slot13 = string.gsub(slot13, "$1", ShipGroup.getDefaultShipNameByGroupID(slot1.drop.extra))
 		end
 
-		setText(slot6, SwitchSpecialChar(slot12, true))
+		setText(slot6, SwitchSpecialChar(slot13, true))
 	elseif slot1.drop.type == DROP_TYPE_FURNITURE then
 		setText(slot6, slot1.drop.cfg.describe)
 	elseif slot1.drop.type == DROP_TYPE_SHIP then
@@ -534,7 +535,7 @@ function slot8(slot0, slot1)
 		setText(slot6, SwitchSpecialChar(desc, true))
 	elseif slot1.drop.type == DROP_TYPE_META_PT then
 		setText(slot6, slot1.drop.cfg.display)
-	elseif slot1.drop.type == DROP_TYPE_RYZA_DROP then
+	elseif DROP_TYPE_USE_ACTIVITY_DROP < slot1.drop.type then
 		setText(slot6, slot1.drop.cfg.display)
 	else
 		assert(false, "can not handle this type>>" .. slot1.drop.type)

@@ -2,6 +2,7 @@ slot0 = class("BaseMiniGameMediator", import("..base.ContextMediator"))
 slot0.MINI_GAME_SUCCESS = "BaseMiniGameMediator:MINI_GAME_SUCCESS"
 slot0.MINI_GAME_FAILURE = "BaseMiniGameMediator:MINI_GAME_FAILURE"
 slot0.MINI_GAME_OPERATOR = "BaseMiniGameMediator:MINI_GAME_OPERATOR"
+slot0.OPEN_SUB_LAYER = "BaseMiniGameMediator:OPEN_SUB_LAYER"
 
 function slot0.register(slot0)
 	slot0.miniGameId = slot0.contextData.miniGameId
@@ -27,6 +28,9 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(BaseMiniGameMediator.MINI_GAME_OPERATOR, function (slot0, ...)
 		uv0:OnMiniGameOPeration(...)
+	end)
+	slot0:bind(BaseMiniGameMediator.OPEN_SUB_LAYER, function (slot0, slot1)
+		uv0:addSubLayers(Context.New(slot1))
 	end)
 end
 

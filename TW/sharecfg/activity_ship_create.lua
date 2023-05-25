@@ -2,7 +2,7 @@ pg = pg or {}
 pg.activity_ship_create = {
 	{
 		id = 1,
-		activity_id = 40804,
+		activity_id = 41182,
 		pickup_num = 2,
 		create_id = 7,
 		pickup_list = {
@@ -17,11 +17,9 @@ pg.activity_ship_create = {
 			101131,
 			101141,
 			101151,
-			101161,
 			101171,
 			101241,
 			101251,
-			101271,
 			101331,
 			101351,
 			101361,
@@ -34,17 +32,16 @@ pg.activity_ship_create = {
 			102021,
 			102031,
 			102041,
-			102051,
 			102061,
 			102071,
 			102081,
-			102091,
 			102131,
 			102141,
 			102151,
 			102181,
 			102191,
 			102201,
+			102241,
 			102251,
 			201011,
 			201021,
@@ -82,6 +79,7 @@ pg.activity_ship_create = {
 			202231,
 			202241,
 			202261,
+			202291,
 			301011,
 			301051,
 			301161,
@@ -107,6 +105,7 @@ pg.activity_ship_create = {
 			302011,
 			302041,
 			302101,
+			302111,
 			401011,
 			401181,
 			401191,
@@ -122,8 +121,15 @@ pg.activity_ship_create = {
 			502011,
 			502021,
 			502031,
+			502041,
+			502051,
 			702011,
-			801031
+			801011,
+			801021,
+			801031,
+			801041,
+			901011,
+			901111
 		},
 		ratio_display = {
 			250,
@@ -134,7 +140,7 @@ pg.activity_ship_create = {
 	},
 	{
 		id = 2,
-		activity_id = 40804,
+		activity_id = 41182,
 		pickup_num = 2,
 		create_id = 8,
 		pickup_list = {
@@ -155,6 +161,7 @@ pg.activity_ship_create = {
 			105101,
 			105121,
 			105131,
+			105191,
 			203011,
 			203021,
 			203031,
@@ -187,7 +194,11 @@ pg.activity_ship_create = {
 			403011,
 			403031,
 			403051,
-			405021
+			403071,
+			405021,
+			904011,
+			905011,
+			905031
 		},
 		ratio_display = {
 			250,
@@ -198,7 +209,7 @@ pg.activity_ship_create = {
 	},
 	{
 		id = 3,
-		activity_id = 40804,
+		activity_id = 41182,
 		pickup_num = 2,
 		create_id = 6,
 		pickup_list = {
@@ -240,6 +251,7 @@ pg.activity_ship_create = {
 			307061,
 			307071,
 			307091,
+			307101,
 			308011,
 			308021,
 			308031,
@@ -254,7 +266,8 @@ pg.activity_ship_create = {
 			408021,
 			408031,
 			408061,
-			408071
+			408071,
+			808011
 		},
 		ratio_display = {
 			250,

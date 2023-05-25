@@ -328,6 +328,8 @@ function slot0.switchShip(slot0, slot1, slot2, slot3)
 		end
 	end
 
+	assert(slot8 and slot10)
+
 	if slot7 == slot9 and slot8 ~= slot10 then
 		slot0[slot9][slot10] = slot0[slot7][slot8]
 		slot0[slot7][slot8] = slot0[slot9][slot10]

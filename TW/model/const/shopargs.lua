@@ -39,6 +39,9 @@ slot0.ShopEscort = 6
 slot0.ShopFragment = 7
 slot0.ShopMedal = 8
 slot0.DORM_FLOOR_ID = 19
+slot0.LIMIT_ARGS_META_SHIP_EXISTENCE = 1
+slot0.LIMIT_ARGS_SALE_START_TIME = 2
+slot0.LIMIT_ARGS_TRAN_ITEM_WHEN_FULL = 3
 
 function slot0.getOilByLevel(slot0)
 	return 500 + slot0 * 3

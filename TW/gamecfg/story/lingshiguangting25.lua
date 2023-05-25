@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前卫大人，前来汇合的净化者到了。",
+			say = "前衛大人，前來匯合的淨化者到了。",
 			bgm = "battle-boss-camelot",
 			flashin = {
 				delay = 1,
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哟，皇家舰队，来的很准时嘛。",
+			say = "喲，皇家艦隊，來的很準時嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你来得好慢，我们已经等你好久了哦……",
+			say = "妳來得好慢，我們已經等你好久了哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "哈？！事先说明，是你们来早了，可不是我迟到啊！",
+			say = "哈？！事先說明，是妳們來早了，可不是我遲到啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "不过你们按照事先嘱咐没有鲁莽行事倒是不错，要是你们的企业能有你们五分之一听劝就好了……",
+			say = "不過妳們按照事先囑咐沒有魯莽行事倒是不錯，要是妳們的企業能有妳們五分之一聽勸就好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "现在是隐秘行动，要是大闹一场引起理事会过度警惕的话，那接下来的收拾可就麻烦了……",
+			say = "現在是隱秘行動，要是大鬧一場引起理事會過度警惕的話，那接下來的收拾可就麻煩了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说重点……",
+			say = "說重點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "准备工作我都做好了哦！你们把武器收起来，安静跟着我一起潇洒把任务完成就好了！",
+			say = "準備工作我都做好了哦！妳們把武器收起來，安靜跟著我一起瀟灑把任務完成就好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "净化者，你是不是跟上次我见你的时候相比有点变化过大了……",
+			say = "淨化者，妳是不是跟上次我見妳的時候相比有點變化過大了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "啊……？指我刚升级的主武器么？",
+			say = "啊……？指我剛升級的主武器嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不……是指你的性格。",
+			say = "不……是指妳的性格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "这个啊……观察者建议我们多学习一下人类的思维情感，所以我最近可是自学了很多哦。",
+			say = "這個啊……觀察者建議我們多學習一下人類的思維情感，所以我最近可是自學了很多哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "果然能看出变化了？",
+			say = "果然能看出變化了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……那你都是在哪学的？安蒂克丝没有什么接触一般人的机会吧。",
+			say = "……那妳都是在哪學的？安蒂克絲沒有什麼接觸一般人的機會吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "影视啊，漫画啊，游戏啊，SNS啊~就算不直接接触人类，想要学习的方式还有很多吧。",
+			say = "影視啊，漫畫啊，遊戲啊，SNS啊~就算不直接接觸人類，想要學習的方式還有很多吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "好了，言归正传。陛下还在等我们，我们该出发了。",
+			say = "好了，言歸正傳。陛下還在等我們，我們該出發了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "陛下遇险这件事是我的失职……身为近卫骑士，我却没能提前洞察到理事会的动向。",
+			say = "陛下遇險這件事是我的失職……身為近衛騎士，我卻沒能提前洞察到理事會的動向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "接下来的路就拜托你了，让我们一同接陛下回来吧！",
+			say = "接下來的路就拜託你了，讓我們一同接陛下回來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

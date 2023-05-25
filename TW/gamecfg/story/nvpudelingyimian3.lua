@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"女仆的另一面\n\n<size=45>夜景下迷离的女仆</size>",
+					"女僕的另一面\n\n<size=45>夜景下迷離的女僕</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "应{namecode:427}的邀请，来到了位于顶层的小吧台。",
+			say = "應歐根親王的邀請，來到了位於頂層的小吧台。",
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "准时赴约了呢，指挥官。",
+			say = "準時赴約了呢，指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Guten Abend~怎么样？景色不错吧？",
+			say = "Guten Abend~怎麼樣？景色不錯吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然了，我指的是窗外的夜景哦。",
+			say = "當然了，我指的是窗外的夜景哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么，指挥官想要点什么呢？",
+			say = "那麼，指揮官想要點什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			},
 			options = {
 				{
-					content = "想要点什么是指……",
+					content = "想要點什麼是指……",
 					flag = 1
 				}
 			}
@@ -130,7 +130,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如你所见，我现在是只属于你一人的“女仆”哦~",
+			say = "如你所見，我現在是只屬於你一人的“女僕”哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			live2d = "detail",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "身为女仆，自然要说些应景的话才行。",
+			say = "身為女僕，自然要說些應景的話才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "莫非是这身“女仆装”不够明显么？",
+			say = "莫非是這身“女僕裝”不夠明顯嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			live2d = "warcry",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还是说，指挥官光顾着窗外的夜景，而忘了把目光放在面前的人身上了？",
+			say = "還是說，指揮官光顧著窗外的夜景，而忘了把目光放在面前的人身上了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果是这样的话，我可是会伤心的哦？",
+			say = "如果是這樣的話，我可是會傷心的哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈，开个玩笑而已。我知道你不是那种在约会时还会分心的人。",
+			say = "哈哈，開個玩笑而已。我知道你不是那種在約會時還會分心的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再来一次好了——“我的主人”，请问您想要点些什么呢？红酒的话，要不要试试我推荐的？",
+			say = "再來一次好了——“Meine Herrin”，請問您想要點些什麼呢？紅酒的話，要不要試試我推薦的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			},
 			options = {
 				{
-					content = "照着{namecode:428}的想法就好。",
+					content = "照著歐根的想法就好。",
 					flag = 1
 				}
 			}
@@ -255,7 +255,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就恭敬不如从命了。",
+			say = "那就恭敬不如從命了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:427}拿出了事先准备好的一瓶红酒，倒了两小杯。",
+			say = "歐根親王拿出了事先準備好的一瓶紅酒，倒了兩小杯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,59 +290,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Prost！为了指挥官，为这美好的夜晚~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 403035,
-			side = 2,
-			bgName = "star_level_bg_145",
-			live2d = true,
-			withoutActorName = true,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "轻轻地碰杯后，与{namecode:428}一同品尝起这美好的佳酿。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 403035,
-			side = 2,
-			bgName = "star_level_bg_145",
-			live2d = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "虽然不如能一饮而尽的啤酒般爽快，但在这样的夜晚里，也许正需要一些值得回味的东西来细细品尝呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 403035,
-			side = 2,
-			bgName = "star_level_bg_145",
-			live2d = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "那么，让我们再来一杯吧？",
+			say = "Prost！為了指揮官，為這美好的夜晚~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +308,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说起来，好像记得{namecode:428}的酒量有一些……",
+			say = "輕輕地碰杯後，與歐根一同品嚐起這美好的佳釀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +325,59 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，你的担心都写在脸上了哦？",
+			say = "雖然不如能一飲而盡的啤酒般爽快，但在這樣的夜晚裡，也許正需要一些值得回味的東西來細細品嚐呢。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403035,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "那麼，讓我們再來一杯吧？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403035,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			withoutActorName = true,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "說起來，好像記得歐根的酒量有一些……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403035,
+			side = 2,
+			bgName = "star_level_bg_145",
+			live2d = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "哎呀，你的擔心都寫在臉上了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			live2d = "mvp",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心，这种程度的话完全没问题。若是因为多余的担心而扰了正兴起的雅致，那才是得不偿失呢。",
+			say = "放心，這種程度的話完全沒問題。若是因為多餘的擔心而擾了正興起的雅緻，那才是得不償失呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让我们继续吧~",
+			say = "讓我們繼續吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸……{namecode:435}也好，我也好，来到这里之后都变了很多呢……",
+			say = "欸……俾斯麥也好，我也好，來到這里之後都變了很多呢……",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -462,7 +462,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这一切都怪你……一旦适应了这种内心被填满的感觉……",
+			say = "這一切都怪你……一旦適應了這種內心被填滿的感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一旦品尝过满足的滋味，很多事情就再也回不去了……你可要负起责任来哦，我的主人♡",
+			say = "一旦品嚐過滿足的滋味，很多事情就再也回不去了……你可要負起責任來哦，Meine Herrin♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然完全喝醉了……时间也不早了，再这样下去可不行。",
+			say = "果然完全喝醉了……時間也不早了，再這樣下去可不行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			},
 			options = {
 				{
-					content = "把{namecode:428}搀扶起来",
+					content = "把歐根攙扶起來",
 					flag = 1
 				}
 			}
@@ -520,7 +520,7 @@ return {
 			live2d = "mvp",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？这就要走了么？我们不是才刚刚开始——",
+			say = "欸？這就要走了嗎？我們不是才剛剛開始——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊~我明白了，你是想换个地方继续约会对吧……你直说就好嘛，怎么和{namecode:426}一样不坦率~",
+			say = "啊~我明白了，你是想換個地方繼續約會對吧……你直說就好嘛，怎麼和希佩爾一樣不坦率~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			bgName = "star_level_bg_145",
 			dir = 1,
 			blackBg = true,
-			say = "总之，还是先把这个状态的{namecode:428}送回宿舍吧……",
+			say = "總之，還是先把這個狀態的歐根送回宿舍吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

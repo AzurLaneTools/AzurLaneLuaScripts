@@ -35,6 +35,7 @@ end
 function slot0.OnFirstFlush(slot0)
 	slot0.usedCnt = slot0.activity:getData1()
 	slot0.unlockCnt = pg.TimeMgr.GetInstance():DiffDay(slot0.activity:getStartTime(), pg.TimeMgr.GetInstance():GetServerTime()) + 1
+	slot0.unlockCnt = slot0.unlockCnt * tonumber(slot0.activity:getConfig("config_id"))
 	slot0.unlockCnt = slot0.totalCnt < slot0.unlockCnt and slot0.totalCnt or slot0.unlockCnt
 	slot0.remainCnt = slot0.totalCnt <= slot0.usedCnt and 0 or slot0.unlockCnt - slot0.usedCnt
 	slot1 = 1
@@ -126,6 +127,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 
 	slot0.unlockCnt = pg.TimeMgr.GetInstance():DiffDay(slot0.activity:getStartTime(), pg.TimeMgr.GetInstance():GetServerTime()) + 1
+	slot0.unlockCnt = slot0.unlockCnt * tonumber(slot0.activity:getConfig("config_id"))
 	slot0.unlockCnt = slot0.totalCnt < slot0.unlockCnt and slot0.totalCnt or slot0.unlockCnt
 	slot0.remainCnt = slot0.totalCnt <= slot0.usedCnt and 0 or slot0.unlockCnt - slot0.usedCnt
 

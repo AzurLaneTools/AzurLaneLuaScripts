@@ -1217,6 +1217,11 @@ function temp()
 			["斯"] = {
 				this = true
 			}
+		},
+		["維"] = {
+			["斯"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -2532,7 +2537,12 @@ function temp()
 		},
 		["角"] = {
 			["獸"] = {
-				this = true
+				this = true,
+				["."] = {
+					["改"] = {
+						this = true
+					}
+				}
 			}
 		}
 	}
@@ -2874,6 +2884,17 @@ function temp()
 							["兵"] = {
 								["裝"] = {
 									[")"] = {
+										this = true
+									}
+								}
+							}
+						}
+					},
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
 										this = true
 									}
 								}
@@ -3540,6 +3561,9 @@ function temp()
 			}
 		},
 		["屈"] = {
+			this = true
+		},
+		["撓"] = {
 			this = true
 		}
 	}
@@ -5855,6 +5879,40 @@ function temp()
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["司"] = {
+		["戰"] = {
+			["女"] = {
+				["神"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["前"] = {
+		["衛"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["復"] = {
+		["仇"] = {
+			this = true
 		}
 	}
 end

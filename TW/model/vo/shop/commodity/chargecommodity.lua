@@ -119,4 +119,64 @@ function slot0.getSameGroupTecShipGift(slot0)
 	return slot1
 end
 
+function slot0.CanViewSkinProbability(slot0)
+	if not slot0:getConfig("skin_inquire_relation") or slot1 <= 0 then
+		return false
+	end
+
+	if pg.gameset.package_view_display.key_value == 0 then
+		return false
+	end
+
+	return true
+end
+
+function slot0.GetSkinProbability(slot0)
+	slot1 = {}
+
+	if slot0:CanViewSkinProbability() then
+		slot1 = pg.item_data_statistics[slot0:getConfig("skin_inquire_relation")].combination_display
+	end
+
+	return slot1
+end
+
+function slot0.GetSkinProbabilityItem(slot0)
+	if not slot0:CanViewSkinProbability() then
+		return nil
+	end
+
+	return {
+		count = 1,
+		type = DROP_TYPE_ITEM,
+		id = slot0:getConfig("skin_inquire_relation")
+	}
+end
+
+function slot0.GetDropItem(slot0)
+	if #slot0:getConfig("drop_item") > 0 then
+		return slot1[1]
+	else
+		assert(false, "should exist drop item")
+	end
+end
+
+function slot0.GetLimitDesc(slot0)
+	slot2 = slot0.buyCount or 0
+
+	if slot0:getLimitCount() > 0 then
+		return i18n("charge_limit_all", slot1 - slot2, slot1)
+	end
+
+	if slot0:getConfig("group_limit") > 0 then
+		if (slot0:getConfig("group_type") or 0) == 1 then
+			return i18n("charge_limit_daily", slot3 - slot0.groupCount, slot3)
+		elseif slot4 == 2 then
+			return i18n("charge_limit_weekly", slot3 - slot0.groupCount, slot3)
+		end
+	end
+
+	return ""
+end
+
 return slot0

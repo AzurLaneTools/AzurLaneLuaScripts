@@ -800,3 +800,10 @@ function addSlip(slot0, slot1, slot2, slot3, slot4)
 		end
 	end)
 end
+
+function getSizeRate()
+	slot0 = pg.UIMgr.GetInstance().LevelMain.transform.rect
+	slot1 = UnityEngine.Screen
+
+	return Vector2.New(slot0.width / slot1.width, slot0.height / slot1.height), slot0.width, slot0.height
+end

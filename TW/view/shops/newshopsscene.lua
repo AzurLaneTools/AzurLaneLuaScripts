@@ -5,25 +5,11 @@ slot0.TYPE_MILITARY_SHOP = 3
 slot0.TYPE_SHAM_SHOP = 4
 slot0.TYPE_FRAGMENT = 5
 slot0.TYPE_GUILD = 6
-slot0.TYPE_META = 7
-slot0.TYPE_MEDAL = 8
+slot0.TYPE_MEDAL = 7
+slot0.TYPE_META = 8
 
 function slot0.getUIName(slot0)
 	return "NewShopsUI"
-end
-
-function slot0.preload(slot0, slot1)
-	slot2 = {}
-
-	table.insert(slot2, function (slot0)
-		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
-			callback = function (slot0)
-				uv0:SetShops(slot0)
-				uv1()
-			end
-		})
-	end)
-	parallelAsync(slot2, slot1)
 end
 
 function slot0.init(slot0)

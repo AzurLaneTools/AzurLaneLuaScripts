@@ -108,7 +108,7 @@ end
 
 function slot1.Update(slot0, slot1)
 	slot0.float.pivot = Vector2(0.5, 0.5)
-	slot0.float.localPosition = Vector2(0, 0)
+	slot0.float.anchoredPosition = Vector2(0, 0)
 
 	setText(slot0.sceneParent.chapterName, string.split(slot1:getConfig("name"), "||")[1])
 	slot0.sceneParent.loader:GetSpriteQuiet("chapterno", "chapter" .. slot1:getMapTitleNumber(), slot0.sceneParent.chapterNoTitle, true)
@@ -121,6 +121,10 @@ function slot1.UpdateButtons(slot0)
 end
 
 function slot1.UpdateMapItems(slot0)
+	if not slot0:isShowing() then
+		return
+	end
+
 	uv0.super.UpdateMapItems(slot0)
 
 	slot2 = getProxy(ChapterProxy)
@@ -129,7 +133,7 @@ function slot1.UpdateMapItems(slot0)
 
 	slot3 = {}
 
-	for slot7, slot8 in ipairs(slot0.data:getChapters()) do
+	for slot7, slot8 in pairs(slot0.data:getChapters()) do
 		if (slot8:isUnlock() or slot8:activeAlways()) and slot8:isValid() and (not slot8:ifNeedHide() or slot2:GetJustClearChapters(slot8.id)) then
 			table.insert(slot3, slot8)
 		end
@@ -169,18 +173,19 @@ function slot1.UpdateMapItems(slot0)
 					slot1 = 0
 
 					for slot5, slot6 in pairs(uv0) do
-						if slot6:ifNeedHide() and uv1:GetJustClearChapters(slot6.id) then
+						if slot6:ifNeedHide() and uv1:GetJustClearChapters(slot6.id) and uv2.chapterTFsById[slot6.id] then
 							slot1 = slot1 + 1
+							slot7 = uv2.chapterTFsById[slot6.id]
 
-							setActive(uv2.chapterTFsById[slot6.id], true)
+							setActive(slot7, true)
 
-							slot7 = uv2
+							slot8 = uv2
 
-							slot7:PlayChapterItemAnimationBackward(uv2.chapterTFsById[slot6.id], slot6, function ()
+							slot8:PlayChapterItemAnimationBackward(slot7, slot6, function ()
 								uv0 = uv0 - 1
 
-								setActive(uv1.chapterTFsById[uv2.id], false)
-								uv3:RecordJustClearChapters(uv2.id, nil)
+								setActive(uv1, false)
+								uv2:RecordJustClearChapters(uv3.id, nil)
 
 								if uv0 <= 0 then
 									uv4()
@@ -188,7 +193,7 @@ function slot1.UpdateMapItems(slot0)
 							end)
 
 							uv3[slot6.id] = true
-						else
+						elseif uv2.chapterTFsById[slot6.id] then
 							setActive(uv2.chapterTFsById[slot6.id], false)
 						end
 					end

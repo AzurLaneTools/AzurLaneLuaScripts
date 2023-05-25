@@ -60,7 +60,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.willExit(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTF)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
 function slot0.setCallback(slot0, slot1)

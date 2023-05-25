@@ -81,7 +81,15 @@ pg.ship_meta_breakout = setmetatable({
 		9707031,
 		9707032,
 		9707033,
-		9707034
+		9707034,
+		9708011,
+		9708012,
+		9708013,
+		9708014,
+		9712011,
+		9712012,
+		9712013,
+		9712014
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -339,7 +347,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702031] = {
-		breakout_view = "习得技能【破敌之炬·谢菲尔德】/主炮效率提高5%",
+		breakout_view = "習得技能【破敵之炬·謝菲爾德】/主炮效率提高5%",
 		gold = 500,
 		breakout_id = 9702032,
 		repair = 0,
@@ -355,7 +363,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702032] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		breakout_view = "魚雷底座+1/魚雷預裝填+1/魚雷效率提高10%",
 		gold = 1500,
 		breakout_id = 9702033,
 		repair = 0,
@@ -372,7 +380,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702033] = {
-		breakout_view = "【破敌之炬·谢菲尔德】升级/主炮效率提高15%",
+		breakout_view = "【破敵之炬·謝菲爾德】升級/主炮效率提高15%",
 		gold = 2500,
 		breakout_id = 9702034,
 		repair = 0,
@@ -388,7 +396,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702034] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,
@@ -1401,6 +1409,127 @@ pg.base.ship_meta_breakout = {
 		id = 9707034,
 		item1 = 21004,
 		pre_id = 9707033,
+		weapon_ids = {}
+	},
+	[9708011] = {
+		breakout_view = "习得技能【摇曳之火·{namecode:416}】/鱼雷效率提高5%",
+		gold = 1000,
+		breakout_id = 9708012,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9708011,
+		item1 = 21021,
+		pre_id = 0,
+		weapon_ids = {
+			170071
+		}
+	},
+	[9708012] = {
+		breakout_view = "鱼雷底座+1/狩猎范围升级",
+		gold = 3000,
+		breakout_id = 9708013,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9708012,
+		item1 = 21021,
+		pre_id = 9708011,
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[9708013] = {
+		breakout_view = "【摇曳之火·{namecode:416}】升级/鱼雷效率提高10%",
+		gold = 10000,
+		breakout_id = 9708014,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9708013,
+		item1 = 21021,
+		pre_id = 9708012,
+		weapon_ids = {
+			170072
+		}
+	},
+	[9708014] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9708014,
+		item1 = 21021,
+		pre_id = 9708013,
+		weapon_ids = {}
+	},
+	[9712011] = {
+		breakout_view = "习得技能【构造之理·女灶神】/团队策略-紧急维修次数+1/防空炮效率提高3%",
+		gold = 500,
+		breakout_id = 9712012,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9712011,
+		item1 = 21022,
+		pre_id = 0,
+		weapon_ids = {}
+	},
+	[9712012] = {
+		breakout_view = "队伍携带弹药量+1/防空炮底座+1/防空炮效率提高5%",
+		gold = 1500,
+		breakout_id = 9712013,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9712012,
+		item1 = 21022,
+		pre_id = 9712011,
+		weapon_ids = {}
+	},
+	[9712013] = {
+		breakout_view = "【构造之理·女灶神】升级/团队策略-紧急维修次数+1/防空炮效率提高7%",
+		gold = 2500,
+		breakout_id = 9712014,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9712013,
+		item1 = 21022,
+		pre_id = 9712012,
+		weapon_ids = {}
+	},
+	[9712014] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9712014,
+		item1 = 21022,
+		pre_id = 9712013,
 		weapon_ids = {}
 	}
 }

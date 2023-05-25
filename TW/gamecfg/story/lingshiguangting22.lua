@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？？·林中城堡",
+			say = "？？？？ ·林中城堡",
 			side = 2,
 			bgName = "bg_camelot_8",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "于是——我们的小小城堡又恢复了平静。",
+			say = "於是——我們的小小城堡又恢復了平靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "……不过内心的喧嚣好像没那么容易呢。",
+			say = "……不過內心的喧囂好像沒那麼容易呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "真没想到来找我们的是前卫，居然还是在寻找失踪陛下的途中……",
+			say = "真沒想到來找我們的是前衛，居然還是在尋找失蹤陛下的途中……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "命运就是这样充满巧合的东西，不是么？",
+			say = "命運就是這樣充滿巧合的東西，不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "真是……命运就是这种不讲逻辑的东西啊。",
+			say = "真是……命運就是這種不講邏輯的東西啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "老姐，我们接下来做点什么？今天的预定完全被打乱了啊……",
+			say = "老姐，我們接下來做點什麼？今天的預定完全被打亂了啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "在她们办完事来找我们之前不知道要过多久。",
+			say = "在她們辦完事來找我們之前不知道要過多久。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "等我们走了之后，再回到这里不知道又要过多久……",
+			say = "等我們走了之後，再回到這裡不知道又要過多久……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "去巡视一下吧。",
+			say = "去巡視一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "再仔细看看我们这么多年来创造的小小家园。",
+			say = "再仔細看看我們這麼多年來創造的小小家園。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 900326,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "在投入战斗之前，再享受片刻的宁静吧……",
+			say = "在投入戰鬥之前，再享受片刻的寧靜吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

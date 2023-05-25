@@ -17,7 +17,8 @@ _G.pg.base.item_data_statistics[1] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[2] = {
@@ -39,7 +40,8 @@ _G.pg.base.item_data_statistics[2] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[3] = {
@@ -61,7 +63,8 @@ _G.pg.base.item_data_statistics[3] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[4] = {
@@ -83,7 +86,8 @@ _G.pg.base.item_data_statistics[4] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[5] = {
@@ -105,7 +109,8 @@ _G.pg.base.item_data_statistics[5] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[6] = {
@@ -127,7 +132,8 @@ _G.pg.base.item_data_statistics[6] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[7] = {
@@ -149,7 +155,8 @@ _G.pg.base.item_data_statistics[7] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[8] = {
@@ -171,7 +178,8 @@ _G.pg.base.item_data_statistics[8] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[9] = {
@@ -193,7 +201,8 @@ _G.pg.base.item_data_statistics[9] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10] = {
@@ -215,7 +224,8 @@ _G.pg.base.item_data_statistics[10] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11] = {
@@ -237,7 +247,8 @@ _G.pg.base.item_data_statistics[11] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[12] = {
@@ -259,7 +270,8 @@ _G.pg.base.item_data_statistics[12] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13] = {
@@ -281,7 +293,8 @@ _G.pg.base.item_data_statistics[13] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[14] = {
@@ -303,7 +316,8 @@ _G.pg.base.item_data_statistics[14] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15] = {
@@ -325,7 +339,8 @@ _G.pg.base.item_data_statistics[15] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16] = {
@@ -347,7 +362,8 @@ _G.pg.base.item_data_statistics[16] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17] = {
@@ -369,7 +385,8 @@ _G.pg.base.item_data_statistics[17] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18] = {
@@ -391,7 +408,8 @@ _G.pg.base.item_data_statistics[18] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[19] = {
@@ -413,7 +431,8 @@ _G.pg.base.item_data_statistics[19] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[20] = {
@@ -435,7 +454,8 @@ _G.pg.base.item_data_statistics[20] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21] = {
@@ -457,7 +477,8 @@ _G.pg.base.item_data_statistics[21] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[22] = {
@@ -479,7 +500,8 @@ _G.pg.base.item_data_statistics[22] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[23] = {
@@ -501,7 +523,8 @@ _G.pg.base.item_data_statistics[23] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[24] = {
@@ -523,7 +546,8 @@ _G.pg.base.item_data_statistics[24] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[25] = {
@@ -545,7 +569,8 @@ _G.pg.base.item_data_statistics[25] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[26] = {
@@ -567,7 +592,8 @@ _G.pg.base.item_data_statistics[26] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[27] = {
@@ -589,7 +615,8 @@ _G.pg.base.item_data_statistics[27] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[28] = {
@@ -611,7 +638,8 @@ _G.pg.base.item_data_statistics[28] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[29] = {
@@ -633,7 +661,8 @@ _G.pg.base.item_data_statistics[29] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30] = {
@@ -655,7 +684,8 @@ _G.pg.base.item_data_statistics[30] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[31] = {
@@ -677,7 +707,8 @@ _G.pg.base.item_data_statistics[31] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[32] = {
@@ -699,7 +730,8 @@ _G.pg.base.item_data_statistics[32] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[33] = {
@@ -721,7 +753,8 @@ _G.pg.base.item_data_statistics[33] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[34] = {
@@ -743,7 +776,8 @@ _G.pg.base.item_data_statistics[34] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[35] = {
@@ -765,7 +799,8 @@ _G.pg.base.item_data_statistics[35] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[36] = {
@@ -787,7 +822,8 @@ _G.pg.base.item_data_statistics[36] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[37] = {
@@ -809,7 +845,8 @@ _G.pg.base.item_data_statistics[37] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[38] = {
@@ -831,7 +868,8 @@ _G.pg.base.item_data_statistics[38] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[39] = {
@@ -853,7 +891,8 @@ _G.pg.base.item_data_statistics[39] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40] = {
@@ -875,7 +914,8 @@ _G.pg.base.item_data_statistics[40] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41] = {
@@ -897,7 +937,8 @@ _G.pg.base.item_data_statistics[41] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42] = {
@@ -919,7 +960,8 @@ _G.pg.base.item_data_statistics[42] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[43] = {
@@ -941,7 +983,8 @@ _G.pg.base.item_data_statistics[43] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[44] = {
@@ -963,7 +1006,8 @@ _G.pg.base.item_data_statistics[44] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[45] = {
@@ -985,7 +1029,8 @@ _G.pg.base.item_data_statistics[45] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[46] = {
@@ -1007,7 +1052,8 @@ _G.pg.base.item_data_statistics[46] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[47] = {
@@ -1029,7 +1075,8 @@ _G.pg.base.item_data_statistics[47] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[48] = {
@@ -1051,7 +1098,8 @@ _G.pg.base.item_data_statistics[48] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[49] = {
@@ -1073,7 +1121,8 @@ _G.pg.base.item_data_statistics[49] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[50] = {
@@ -1095,7 +1144,8 @@ _G.pg.base.item_data_statistics[50] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[51] = {
@@ -1117,7 +1167,8 @@ _G.pg.base.item_data_statistics[51] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52] = {
@@ -1139,7 +1190,8 @@ _G.pg.base.item_data_statistics[52] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53] = {
@@ -1161,7 +1213,8 @@ _G.pg.base.item_data_statistics[53] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54] = {
@@ -1183,7 +1236,8 @@ _G.pg.base.item_data_statistics[54] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55] = {
@@ -1205,7 +1259,8 @@ _G.pg.base.item_data_statistics[55] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56] = {
@@ -1227,7 +1282,8 @@ _G.pg.base.item_data_statistics[56] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57] = {
@@ -1249,7 +1305,8 @@ _G.pg.base.item_data_statistics[57] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58] = {
@@ -1271,7 +1328,8 @@ _G.pg.base.item_data_statistics[58] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59] = {
@@ -1293,7 +1351,8 @@ _G.pg.base.item_data_statistics[59] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60] = {
@@ -1315,7 +1374,8 @@ _G.pg.base.item_data_statistics[60] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[61] = {
@@ -1337,7 +1397,8 @@ _G.pg.base.item_data_statistics[61] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[62] = {
@@ -1359,7 +1420,8 @@ _G.pg.base.item_data_statistics[62] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[63] = {
@@ -1381,7 +1443,8 @@ _G.pg.base.item_data_statistics[63] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[64] = {
@@ -1403,7 +1466,8 @@ _G.pg.base.item_data_statistics[64] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[65] = {
@@ -1425,7 +1489,8 @@ _G.pg.base.item_data_statistics[65] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[66] = {
@@ -1447,7 +1512,8 @@ _G.pg.base.item_data_statistics[66] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[67] = {
@@ -1469,7 +1535,8 @@ _G.pg.base.item_data_statistics[67] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[68] = {
@@ -1491,7 +1558,8 @@ _G.pg.base.item_data_statistics[68] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70] = {
@@ -1513,7 +1581,8 @@ _G.pg.base.item_data_statistics[70] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[71] = {
@@ -1535,7 +1604,8 @@ _G.pg.base.item_data_statistics[71] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[73] = {
@@ -1557,7 +1627,8 @@ _G.pg.base.item_data_statistics[73] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[74] = {
@@ -1579,7 +1650,8 @@ _G.pg.base.item_data_statistics[74] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[75] = {
@@ -1601,7 +1673,8 @@ _G.pg.base.item_data_statistics[75] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[76] = {
@@ -1623,7 +1696,8 @@ _G.pg.base.item_data_statistics[76] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[77] = {
@@ -1645,7 +1719,8 @@ _G.pg.base.item_data_statistics[77] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[78] = {
@@ -1667,7 +1742,8 @@ _G.pg.base.item_data_statistics[78] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[79] = {
@@ -1689,7 +1765,8 @@ _G.pg.base.item_data_statistics[79] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80] = {
@@ -1711,7 +1788,8 @@ _G.pg.base.item_data_statistics[80] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[81] = {
@@ -1733,7 +1811,8 @@ _G.pg.base.item_data_statistics[81] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[82] = {
@@ -1755,7 +1834,8 @@ _G.pg.base.item_data_statistics[82] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[83] = {
@@ -1777,7 +1857,8 @@ _G.pg.base.item_data_statistics[83] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[1001] = {
@@ -1799,7 +1880,8 @@ _G.pg.base.item_data_statistics[1001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[1004] = {
@@ -1821,7 +1903,8 @@ _G.pg.base.item_data_statistics[1004] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[1005] = {
@@ -1843,7 +1926,8 @@ _G.pg.base.item_data_statistics[1005] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[1006] = {
@@ -1865,7 +1949,8 @@ _G.pg.base.item_data_statistics[1006] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[1008] = {
@@ -1887,7 +1972,8 @@ _G.pg.base.item_data_statistics[1008] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[1009] = {
@@ -1909,7 +1995,8 @@ _G.pg.base.item_data_statistics[1009] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[1010] = {
@@ -1931,7 +2018,8 @@ _G.pg.base.item_data_statistics[1010] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[1011] = {
@@ -1953,7 +2041,8 @@ _G.pg.base.item_data_statistics[1011] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[1012] = {
@@ -1975,7 +2064,8 @@ _G.pg.base.item_data_statistics[1012] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[1013] = {
@@ -1997,7 +2087,8 @@ _G.pg.base.item_data_statistics[1013] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[1014] = {
@@ -2019,7 +2110,8 @@ _G.pg.base.item_data_statistics[1014] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10000] = {
@@ -2041,7 +2133,8 @@ _G.pg.base.item_data_statistics[10000] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10001] = {
@@ -2063,7 +2156,8 @@ _G.pg.base.item_data_statistics[10001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10002] = {
@@ -2085,7 +2179,8 @@ _G.pg.base.item_data_statistics[10002] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10003] = {
@@ -2107,7 +2202,8 @@ _G.pg.base.item_data_statistics[10003] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10004] = {
@@ -2129,7 +2225,8 @@ _G.pg.base.item_data_statistics[10004] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10005] = {
@@ -2151,7 +2248,8 @@ _G.pg.base.item_data_statistics[10005] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10006] = {
@@ -2173,7 +2271,8 @@ _G.pg.base.item_data_statistics[10006] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10007] = {
@@ -2195,7 +2294,8 @@ _G.pg.base.item_data_statistics[10007] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10008] = {
@@ -2217,7 +2317,8 @@ _G.pg.base.item_data_statistics[10008] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10009] = {
@@ -2239,7 +2340,8 @@ _G.pg.base.item_data_statistics[10009] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10010] = {
@@ -2261,7 +2363,8 @@ _G.pg.base.item_data_statistics[10010] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10011] = {
@@ -2283,7 +2386,8 @@ _G.pg.base.item_data_statistics[10011] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10012] = {
@@ -2305,7 +2409,8 @@ _G.pg.base.item_data_statistics[10012] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10013] = {
@@ -2327,7 +2432,8 @@ _G.pg.base.item_data_statistics[10013] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10014] = {
@@ -2349,7 +2455,8 @@ _G.pg.base.item_data_statistics[10014] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10015] = {
@@ -2371,7 +2478,8 @@ _G.pg.base.item_data_statistics[10015] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10016] = {
@@ -2393,7 +2501,8 @@ _G.pg.base.item_data_statistics[10016] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10017] = {
@@ -2415,7 +2524,8 @@ _G.pg.base.item_data_statistics[10017] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10018] = {
@@ -2437,7 +2547,8 @@ _G.pg.base.item_data_statistics[10018] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10019] = {
@@ -2459,7 +2570,8 @@ _G.pg.base.item_data_statistics[10019] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10021] = {
@@ -2481,7 +2593,8 @@ _G.pg.base.item_data_statistics[10021] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10022] = {
@@ -2503,7 +2616,8 @@ _G.pg.base.item_data_statistics[10022] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10024] = {
@@ -2525,7 +2639,8 @@ _G.pg.base.item_data_statistics[10024] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10025] = {
@@ -2547,7 +2662,8 @@ _G.pg.base.item_data_statistics[10025] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10026] = {
@@ -2569,7 +2685,8 @@ _G.pg.base.item_data_statistics[10026] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10027] = {
@@ -2591,7 +2708,8 @@ _G.pg.base.item_data_statistics[10027] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10028] = {
@@ -2613,7 +2731,8 @@ _G.pg.base.item_data_statistics[10028] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10029] = {
@@ -2635,7 +2754,8 @@ _G.pg.base.item_data_statistics[10029] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10030] = {
@@ -2657,7 +2777,8 @@ _G.pg.base.item_data_statistics[10030] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10031] = {
@@ -2679,7 +2800,8 @@ _G.pg.base.item_data_statistics[10031] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10032] = {
@@ -2701,7 +2823,8 @@ _G.pg.base.item_data_statistics[10032] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10033] = {
@@ -2723,7 +2846,8 @@ _G.pg.base.item_data_statistics[10033] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10034] = {
@@ -2745,7 +2869,8 @@ _G.pg.base.item_data_statistics[10034] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10035] = {
@@ -2767,7 +2892,8 @@ _G.pg.base.item_data_statistics[10035] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10036] = {
@@ -2789,7 +2915,8 @@ _G.pg.base.item_data_statistics[10036] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10037] = {
@@ -2811,7 +2938,8 @@ _G.pg.base.item_data_statistics[10037] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10038] = {
@@ -2833,7 +2961,8 @@ _G.pg.base.item_data_statistics[10038] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10039] = {
@@ -2855,7 +2984,8 @@ _G.pg.base.item_data_statistics[10039] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10040] = {
@@ -2877,7 +3007,8 @@ _G.pg.base.item_data_statistics[10040] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10041] = {
@@ -2899,7 +3030,8 @@ _G.pg.base.item_data_statistics[10041] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10042] = {
@@ -2921,7 +3053,8 @@ _G.pg.base.item_data_statistics[10042] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10043] = {
@@ -2943,7 +3076,8 @@ _G.pg.base.item_data_statistics[10043] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10044] = {
@@ -2965,7 +3099,8 @@ _G.pg.base.item_data_statistics[10044] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10045] = {
@@ -2987,7 +3122,8 @@ _G.pg.base.item_data_statistics[10045] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10046] = {
@@ -3009,7 +3145,8 @@ _G.pg.base.item_data_statistics[10046] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10047] = {
@@ -3031,7 +3168,8 @@ _G.pg.base.item_data_statistics[10047] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10048] = {
@@ -3053,7 +3191,8 @@ _G.pg.base.item_data_statistics[10048] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10049] = {
@@ -3075,7 +3214,8 @@ _G.pg.base.item_data_statistics[10049] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10050] = {
@@ -3097,7 +3237,8 @@ _G.pg.base.item_data_statistics[10050] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10051] = {
@@ -3119,7 +3260,8 @@ _G.pg.base.item_data_statistics[10051] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10052] = {
@@ -3141,7 +3283,8 @@ _G.pg.base.item_data_statistics[10052] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10053] = {
@@ -3163,7 +3306,8 @@ _G.pg.base.item_data_statistics[10053] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10054] = {
@@ -3185,7 +3329,8 @@ _G.pg.base.item_data_statistics[10054] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10055] = {
@@ -3207,7 +3352,8 @@ _G.pg.base.item_data_statistics[10055] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10056] = {
@@ -3229,7 +3375,8 @@ _G.pg.base.item_data_statistics[10056] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10057] = {
@@ -3251,7 +3398,8 @@ _G.pg.base.item_data_statistics[10057] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10059] = {
@@ -3273,7 +3421,8 @@ _G.pg.base.item_data_statistics[10059] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10060] = {
@@ -3295,7 +3444,8 @@ _G.pg.base.item_data_statistics[10060] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10062] = {
@@ -3317,7 +3467,8 @@ _G.pg.base.item_data_statistics[10062] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10063] = {
@@ -3339,7 +3490,8 @@ _G.pg.base.item_data_statistics[10063] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10064] = {
@@ -3361,7 +3513,8 @@ _G.pg.base.item_data_statistics[10064] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10065] = {
@@ -3383,7 +3536,8 @@ _G.pg.base.item_data_statistics[10065] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10066] = {
@@ -3405,7 +3559,8 @@ _G.pg.base.item_data_statistics[10066] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10067] = {
@@ -3427,7 +3582,8 @@ _G.pg.base.item_data_statistics[10067] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10068] = {
@@ -3449,7 +3605,8 @@ _G.pg.base.item_data_statistics[10068] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10069] = {
@@ -3471,7 +3628,8 @@ _G.pg.base.item_data_statistics[10069] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10070] = {
@@ -3493,7 +3651,8 @@ _G.pg.base.item_data_statistics[10070] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10071] = {
@@ -3515,7 +3674,8 @@ _G.pg.base.item_data_statistics[10071] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10072] = {
@@ -3537,7 +3697,8 @@ _G.pg.base.item_data_statistics[10072] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10073] = {
@@ -3559,7 +3720,8 @@ _G.pg.base.item_data_statistics[10073] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10074] = {
@@ -3581,7 +3743,8 @@ _G.pg.base.item_data_statistics[10074] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10075] = {
@@ -3603,7 +3766,8 @@ _G.pg.base.item_data_statistics[10075] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10076] = {
@@ -3625,7 +3789,8 @@ _G.pg.base.item_data_statistics[10076] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10077] = {
@@ -3647,7 +3812,8 @@ _G.pg.base.item_data_statistics[10077] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10078] = {
@@ -3669,7 +3835,8 @@ _G.pg.base.item_data_statistics[10078] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10079] = {
@@ -3691,7 +3858,8 @@ _G.pg.base.item_data_statistics[10079] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10080] = {
@@ -3713,7 +3881,8 @@ _G.pg.base.item_data_statistics[10080] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10081] = {
@@ -3735,7 +3904,8 @@ _G.pg.base.item_data_statistics[10081] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10082] = {
@@ -3757,7 +3927,8 @@ _G.pg.base.item_data_statistics[10082] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10083] = {
@@ -3779,7 +3950,8 @@ _G.pg.base.item_data_statistics[10083] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10084] = {
@@ -3801,7 +3973,8 @@ _G.pg.base.item_data_statistics[10084] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10085] = {
@@ -3823,7 +3996,8 @@ _G.pg.base.item_data_statistics[10085] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10086] = {
@@ -3845,7 +4019,8 @@ _G.pg.base.item_data_statistics[10086] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10087] = {
@@ -3867,7 +4042,8 @@ _G.pg.base.item_data_statistics[10087] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10088] = {
@@ -3889,7 +4065,8 @@ _G.pg.base.item_data_statistics[10088] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10089] = {
@@ -3911,7 +4088,8 @@ _G.pg.base.item_data_statistics[10089] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10090] = {
@@ -3933,7 +4111,8 @@ _G.pg.base.item_data_statistics[10090] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10091] = {
@@ -3955,7 +4134,8 @@ _G.pg.base.item_data_statistics[10091] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10092] = {
@@ -3977,7 +4157,8 @@ _G.pg.base.item_data_statistics[10092] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10093] = {
@@ -3999,7 +4180,8 @@ _G.pg.base.item_data_statistics[10093] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10094] = {
@@ -4021,7 +4203,8 @@ _G.pg.base.item_data_statistics[10094] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10095] = {
@@ -4043,7 +4226,8 @@ _G.pg.base.item_data_statistics[10095] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10096] = {
@@ -4065,7 +4249,8 @@ _G.pg.base.item_data_statistics[10096] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10097] = {
@@ -4087,7 +4272,8 @@ _G.pg.base.item_data_statistics[10097] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10098] = {
@@ -4109,7 +4295,8 @@ _G.pg.base.item_data_statistics[10098] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10099] = {
@@ -4131,7 +4318,8 @@ _G.pg.base.item_data_statistics[10099] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10100] = {
@@ -4153,7 +4341,8 @@ _G.pg.base.item_data_statistics[10100] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10101] = {
@@ -4175,7 +4364,8 @@ _G.pg.base.item_data_statistics[10101] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10102] = {
@@ -4197,7 +4387,8 @@ _G.pg.base.item_data_statistics[10102] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10103] = {
@@ -4219,7 +4410,8 @@ _G.pg.base.item_data_statistics[10103] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10104] = {
@@ -4241,7 +4433,8 @@ _G.pg.base.item_data_statistics[10104] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10105] = {
@@ -4263,7 +4456,8 @@ _G.pg.base.item_data_statistics[10105] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10106] = {
@@ -4285,7 +4479,8 @@ _G.pg.base.item_data_statistics[10106] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10107] = {
@@ -4307,7 +4502,8 @@ _G.pg.base.item_data_statistics[10107] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10108] = {
@@ -4329,7 +4525,8 @@ _G.pg.base.item_data_statistics[10108] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10109] = {
@@ -4351,7 +4548,8 @@ _G.pg.base.item_data_statistics[10109] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10110] = {
@@ -4373,7 +4571,8 @@ _G.pg.base.item_data_statistics[10110] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10111] = {
@@ -4395,7 +4594,8 @@ _G.pg.base.item_data_statistics[10111] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10113] = {
@@ -4417,7 +4617,8 @@ _G.pg.base.item_data_statistics[10113] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10114] = {
@@ -4439,7 +4640,8 @@ _G.pg.base.item_data_statistics[10114] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10116] = {
@@ -4461,7 +4663,8 @@ _G.pg.base.item_data_statistics[10116] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10117] = {
@@ -4483,7 +4686,8 @@ _G.pg.base.item_data_statistics[10117] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10118] = {
@@ -4505,7 +4709,8 @@ _G.pg.base.item_data_statistics[10118] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10119] = {
@@ -4527,7 +4732,8 @@ _G.pg.base.item_data_statistics[10119] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10120] = {
@@ -4549,7 +4755,8 @@ _G.pg.base.item_data_statistics[10120] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10121] = {
@@ -4571,7 +4778,8 @@ _G.pg.base.item_data_statistics[10121] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10122] = {
@@ -4593,7 +4801,8 @@ _G.pg.base.item_data_statistics[10122] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10123] = {
@@ -4615,7 +4824,8 @@ _G.pg.base.item_data_statistics[10123] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10124] = {
@@ -4637,7 +4847,8 @@ _G.pg.base.item_data_statistics[10124] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[10125] = {
@@ -4659,7 +4870,8 @@ _G.pg.base.item_data_statistics[10125] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11000] = {
@@ -4681,7 +4893,8 @@ _G.pg.base.item_data_statistics[11000] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11001] = {
@@ -4703,7 +4916,8 @@ _G.pg.base.item_data_statistics[11001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11002] = {
@@ -4725,7 +4939,8 @@ _G.pg.base.item_data_statistics[11002] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11003] = {
@@ -4747,7 +4962,8 @@ _G.pg.base.item_data_statistics[11003] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11004] = {
@@ -4769,7 +4985,8 @@ _G.pg.base.item_data_statistics[11004] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11005] = {
@@ -4791,7 +5008,8 @@ _G.pg.base.item_data_statistics[11005] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11006] = {
@@ -4813,7 +5031,8 @@ _G.pg.base.item_data_statistics[11006] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11009] = {
@@ -4835,7 +5054,8 @@ _G.pg.base.item_data_statistics[11009] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11010] = {
@@ -4857,7 +5077,8 @@ _G.pg.base.item_data_statistics[11010] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11011] = {
@@ -4879,7 +5100,8 @@ _G.pg.base.item_data_statistics[11011] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11012] = {
@@ -4901,7 +5123,8 @@ _G.pg.base.item_data_statistics[11012] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11013] = {
@@ -4923,7 +5146,8 @@ _G.pg.base.item_data_statistics[11013] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11014] = {
@@ -4945,7 +5169,8 @@ _G.pg.base.item_data_statistics[11014] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11015] = {
@@ -4967,7 +5192,8 @@ _G.pg.base.item_data_statistics[11015] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11016] = {
@@ -4989,7 +5215,8 @@ _G.pg.base.item_data_statistics[11016] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11017] = {
@@ -5011,7 +5238,8 @@ _G.pg.base.item_data_statistics[11017] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11018] = {
@@ -5033,7 +5261,8 @@ _G.pg.base.item_data_statistics[11018] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11019] = {
@@ -5055,7 +5284,8 @@ _G.pg.base.item_data_statistics[11019] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11021] = {
@@ -5077,7 +5307,8 @@ _G.pg.base.item_data_statistics[11021] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11023] = {
@@ -5099,7 +5330,8 @@ _G.pg.base.item_data_statistics[11023] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11024] = {
@@ -5121,7 +5353,8 @@ _G.pg.base.item_data_statistics[11024] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11025] = {
@@ -5143,7 +5376,8 @@ _G.pg.base.item_data_statistics[11025] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11026] = {
@@ -5165,7 +5399,8 @@ _G.pg.base.item_data_statistics[11026] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11027] = {
@@ -5187,7 +5422,8 @@ _G.pg.base.item_data_statistics[11027] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11028] = {
@@ -5209,7 +5445,8 @@ _G.pg.base.item_data_statistics[11028] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11029] = {
@@ -5231,7 +5468,8 @@ _G.pg.base.item_data_statistics[11029] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11030] = {
@@ -5253,7 +5491,8 @@ _G.pg.base.item_data_statistics[11030] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11031] = {
@@ -5275,7 +5514,8 @@ _G.pg.base.item_data_statistics[11031] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11032] = {
@@ -5297,7 +5537,8 @@ _G.pg.base.item_data_statistics[11032] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11033] = {
@@ -5319,7 +5560,8 @@ _G.pg.base.item_data_statistics[11033] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11034] = {
@@ -5341,7 +5583,8 @@ _G.pg.base.item_data_statistics[11034] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11035] = {
@@ -5363,7 +5606,8 @@ _G.pg.base.item_data_statistics[11035] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11036] = {
@@ -5385,7 +5629,8 @@ _G.pg.base.item_data_statistics[11036] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11037] = {
@@ -5407,7 +5652,8 @@ _G.pg.base.item_data_statistics[11037] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11038] = {
@@ -5429,7 +5675,8 @@ _G.pg.base.item_data_statistics[11038] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11039] = {
@@ -5451,7 +5698,8 @@ _G.pg.base.item_data_statistics[11039] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11040] = {
@@ -5473,7 +5721,8 @@ _G.pg.base.item_data_statistics[11040] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11041] = {
@@ -5495,7 +5744,8 @@ _G.pg.base.item_data_statistics[11041] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11043] = {
@@ -5517,7 +5767,8 @@ _G.pg.base.item_data_statistics[11043] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11046] = {
@@ -5539,7 +5790,8 @@ _G.pg.base.item_data_statistics[11046] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11047] = {
@@ -5561,7 +5813,8 @@ _G.pg.base.item_data_statistics[11047] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11048] = {
@@ -5583,7 +5836,8 @@ _G.pg.base.item_data_statistics[11048] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11049] = {
@@ -5605,7 +5859,8 @@ _G.pg.base.item_data_statistics[11049] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11050] = {
@@ -5627,7 +5882,31 @@ _G.pg.base.item_data_statistics[11050] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[11051] = {
+	display = "海大黃蜂T0設計圖",
+	name = "海大黃蜂T0設計圖",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/27320",
+	id = 11051,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[11052] = {
@@ -5649,7 +5928,8 @@ _G.pg.base.item_data_statistics[11052] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[12003] = {
@@ -5671,7 +5951,8 @@ _G.pg.base.item_data_statistics[12003] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13000] = {
@@ -5693,7 +5974,8 @@ _G.pg.base.item_data_statistics[13000] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13001] = {
@@ -5715,7 +5997,8 @@ _G.pg.base.item_data_statistics[13001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13002] = {
@@ -5737,7 +6020,8 @@ _G.pg.base.item_data_statistics[13002] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13003] = {
@@ -5759,7 +6043,8 @@ _G.pg.base.item_data_statistics[13003] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13004] = {
@@ -5781,7 +6066,8 @@ _G.pg.base.item_data_statistics[13004] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13005] = {
@@ -5803,7 +6089,8 @@ _G.pg.base.item_data_statistics[13005] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13006] = {
@@ -5825,7 +6112,8 @@ _G.pg.base.item_data_statistics[13006] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13007] = {
@@ -5847,7 +6135,8 @@ _G.pg.base.item_data_statistics[13007] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13008] = {
@@ -5869,7 +6158,8 @@ _G.pg.base.item_data_statistics[13008] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13009] = {
@@ -5891,7 +6181,8 @@ _G.pg.base.item_data_statistics[13009] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13010] = {
@@ -5913,7 +6204,8 @@ _G.pg.base.item_data_statistics[13010] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13011] = {
@@ -5935,7 +6227,8 @@ _G.pg.base.item_data_statistics[13011] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13012] = {
@@ -5957,7 +6250,8 @@ _G.pg.base.item_data_statistics[13012] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13013] = {
@@ -5979,7 +6273,8 @@ _G.pg.base.item_data_statistics[13013] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13014] = {
@@ -6001,7 +6296,8 @@ _G.pg.base.item_data_statistics[13014] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13015] = {
@@ -6023,7 +6319,8 @@ _G.pg.base.item_data_statistics[13015] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13016] = {
@@ -6045,7 +6342,8 @@ _G.pg.base.item_data_statistics[13016] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13017] = {
@@ -6067,7 +6365,8 @@ _G.pg.base.item_data_statistics[13017] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13018] = {
@@ -6089,7 +6388,8 @@ _G.pg.base.item_data_statistics[13018] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13019] = {
@@ -6111,7 +6411,8 @@ _G.pg.base.item_data_statistics[13019] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13020] = {
@@ -6133,7 +6434,8 @@ _G.pg.base.item_data_statistics[13020] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13021] = {
@@ -6155,7 +6457,8 @@ _G.pg.base.item_data_statistics[13021] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13022] = {
@@ -6177,7 +6480,8 @@ _G.pg.base.item_data_statistics[13022] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13023] = {
@@ -6199,7 +6503,8 @@ _G.pg.base.item_data_statistics[13023] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13024] = {
@@ -6221,7 +6526,8 @@ _G.pg.base.item_data_statistics[13024] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13025] = {
@@ -6243,7 +6549,8 @@ _G.pg.base.item_data_statistics[13025] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13026] = {
@@ -6265,7 +6572,8 @@ _G.pg.base.item_data_statistics[13026] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13027] = {
@@ -6287,7 +6595,8 @@ _G.pg.base.item_data_statistics[13027] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13028] = {
@@ -6309,7 +6618,8 @@ _G.pg.base.item_data_statistics[13028] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13029] = {
@@ -6331,7 +6641,8 @@ _G.pg.base.item_data_statistics[13029] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13030] = {
@@ -6353,7 +6664,8 @@ _G.pg.base.item_data_statistics[13030] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13031] = {
@@ -6375,7 +6687,8 @@ _G.pg.base.item_data_statistics[13031] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13032] = {
@@ -6397,7 +6710,8 @@ _G.pg.base.item_data_statistics[13032] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13033] = {
@@ -6419,7 +6733,8 @@ _G.pg.base.item_data_statistics[13033] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13034] = {
@@ -6441,7 +6756,8 @@ _G.pg.base.item_data_statistics[13034] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13035] = {
@@ -6463,7 +6779,8 @@ _G.pg.base.item_data_statistics[13035] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[13036] = {
@@ -6485,7 +6802,8 @@ _G.pg.base.item_data_statistics[13036] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[14001] = {
@@ -6546,7 +6864,8 @@ _G.pg.base.item_data_statistics[14001] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[14002] = {
@@ -6601,7 +6920,8 @@ _G.pg.base.item_data_statistics[14002] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[14003] = {
@@ -6657,7 +6977,8 @@ _G.pg.base.item_data_statistics[14003] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[14004] = {
@@ -6713,7 +7034,8 @@ _G.pg.base.item_data_statistics[14004] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15001] = {
@@ -6735,7 +7057,8 @@ _G.pg.base.item_data_statistics[15001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15002] = {
@@ -6757,7 +7080,8 @@ _G.pg.base.item_data_statistics[15002] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15003] = {
@@ -6779,7 +7103,8 @@ _G.pg.base.item_data_statistics[15003] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15004] = {
@@ -6801,7 +7126,8 @@ _G.pg.base.item_data_statistics[15004] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15005] = {
@@ -6823,7 +7149,8 @@ _G.pg.base.item_data_statistics[15005] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15006] = {
@@ -6845,7 +7172,8 @@ _G.pg.base.item_data_statistics[15006] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15008] = {
@@ -6867,7 +7195,8 @@ _G.pg.base.item_data_statistics[15008] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15009] = {
@@ -6889,7 +7218,8 @@ _G.pg.base.item_data_statistics[15009] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15010] = {
@@ -6911,7 +7241,8 @@ _G.pg.base.item_data_statistics[15010] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15011] = {
@@ -6933,7 +7264,8 @@ _G.pg.base.item_data_statistics[15011] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15012] = {
@@ -6955,7 +7287,8 @@ _G.pg.base.item_data_statistics[15012] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15013] = {
@@ -6977,7 +7310,8 @@ _G.pg.base.item_data_statistics[15013] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15014] = {
@@ -6999,7 +7333,8 @@ _G.pg.base.item_data_statistics[15014] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15015] = {
@@ -7021,7 +7356,8 @@ _G.pg.base.item_data_statistics[15015] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15016] = {
@@ -7043,7 +7379,8 @@ _G.pg.base.item_data_statistics[15016] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15017] = {
@@ -7065,7 +7402,8 @@ _G.pg.base.item_data_statistics[15017] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15020] = {
@@ -7087,7 +7425,8 @@ _G.pg.base.item_data_statistics[15020] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[15021] = {
@@ -7109,7 +7448,8 @@ _G.pg.base.item_data_statistics[15021] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16001] = {
@@ -7131,7 +7471,8 @@ _G.pg.base.item_data_statistics[16001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16002] = {
@@ -7153,7 +7494,8 @@ _G.pg.base.item_data_statistics[16002] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16003] = {
@@ -7175,7 +7517,8 @@ _G.pg.base.item_data_statistics[16003] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16004] = {
@@ -7197,7 +7540,8 @@ _G.pg.base.item_data_statistics[16004] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16011] = {
@@ -7219,7 +7563,8 @@ _G.pg.base.item_data_statistics[16011] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16012] = {
@@ -7241,7 +7586,8 @@ _G.pg.base.item_data_statistics[16012] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16013] = {
@@ -7263,7 +7609,8 @@ _G.pg.base.item_data_statistics[16013] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16014] = {
@@ -7285,7 +7632,8 @@ _G.pg.base.item_data_statistics[16014] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16021] = {
@@ -7307,7 +7655,8 @@ _G.pg.base.item_data_statistics[16021] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16022] = {
@@ -7329,7 +7678,8 @@ _G.pg.base.item_data_statistics[16022] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16023] = {
@@ -7351,7 +7701,8 @@ _G.pg.base.item_data_statistics[16023] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16024] = {
@@ -7373,7 +7724,8 @@ _G.pg.base.item_data_statistics[16024] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16501] = {
@@ -7395,7 +7747,8 @@ _G.pg.base.item_data_statistics[16501] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[16502] = {
@@ -7417,7 +7770,8 @@ _G.pg.base.item_data_statistics[16502] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17001] = {
@@ -7439,7 +7793,8 @@ _G.pg.base.item_data_statistics[17001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17002] = {
@@ -7461,7 +7816,8 @@ _G.pg.base.item_data_statistics[17002] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17003] = {
@@ -7483,7 +7839,8 @@ _G.pg.base.item_data_statistics[17003] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17004] = {
@@ -7505,7 +7862,8 @@ _G.pg.base.item_data_statistics[17004] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17011] = {
@@ -7527,7 +7885,8 @@ _G.pg.base.item_data_statistics[17011] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17012] = {
@@ -7549,7 +7908,8 @@ _G.pg.base.item_data_statistics[17012] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17013] = {
@@ -7571,7 +7931,8 @@ _G.pg.base.item_data_statistics[17013] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17014] = {
@@ -7593,7 +7954,8 @@ _G.pg.base.item_data_statistics[17014] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17021] = {
@@ -7615,7 +7977,8 @@ _G.pg.base.item_data_statistics[17021] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17022] = {
@@ -7637,7 +8000,8 @@ _G.pg.base.item_data_statistics[17022] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17023] = {
@@ -7659,7 +8023,8 @@ _G.pg.base.item_data_statistics[17023] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17024] = {
@@ -7681,7 +8046,8 @@ _G.pg.base.item_data_statistics[17024] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17031] = {
@@ -7703,7 +8069,8 @@ _G.pg.base.item_data_statistics[17031] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17032] = {
@@ -7725,7 +8092,8 @@ _G.pg.base.item_data_statistics[17032] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17033] = {
@@ -7747,7 +8115,8 @@ _G.pg.base.item_data_statistics[17033] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17034] = {
@@ -7769,7 +8138,8 @@ _G.pg.base.item_data_statistics[17034] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17041] = {
@@ -7791,7 +8161,8 @@ _G.pg.base.item_data_statistics[17041] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17042] = {
@@ -7813,7 +8184,8 @@ _G.pg.base.item_data_statistics[17042] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17043] = {
@@ -7835,7 +8207,8 @@ _G.pg.base.item_data_statistics[17043] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17044] = {
@@ -7857,7 +8230,8 @@ _G.pg.base.item_data_statistics[17044] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17990] = {
@@ -7879,7 +8253,8 @@ _G.pg.base.item_data_statistics[17990] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[17991] = {
@@ -7901,7 +8276,8 @@ _G.pg.base.item_data_statistics[17991] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18000] = {
@@ -7923,7 +8299,8 @@ _G.pg.base.item_data_statistics[18000] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18001] = {
@@ -7945,7 +8322,8 @@ _G.pg.base.item_data_statistics[18001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18002] = {
@@ -7967,7 +8345,8 @@ _G.pg.base.item_data_statistics[18002] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18003] = {
@@ -7989,7 +8368,8 @@ _G.pg.base.item_data_statistics[18003] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18011] = {
@@ -8011,7 +8391,8 @@ _G.pg.base.item_data_statistics[18011] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18012] = {
@@ -8033,7 +8414,8 @@ _G.pg.base.item_data_statistics[18012] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18013] = {
@@ -8055,7 +8437,8 @@ _G.pg.base.item_data_statistics[18013] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18021] = {
@@ -8077,7 +8460,8 @@ _G.pg.base.item_data_statistics[18021] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18022] = {
@@ -8099,7 +8483,8 @@ _G.pg.base.item_data_statistics[18022] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18023] = {
@@ -8121,7 +8506,8 @@ _G.pg.base.item_data_statistics[18023] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18031] = {
@@ -8143,7 +8529,8 @@ _G.pg.base.item_data_statistics[18031] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18032] = {
@@ -8165,7 +8552,8 @@ _G.pg.base.item_data_statistics[18032] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18033] = {
@@ -8187,7 +8575,8 @@ _G.pg.base.item_data_statistics[18033] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18101] = {
@@ -8209,7 +8598,8 @@ _G.pg.base.item_data_statistics[18101] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18102] = {
@@ -8231,7 +8621,8 @@ _G.pg.base.item_data_statistics[18102] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18103] = {
@@ -8253,7 +8644,8 @@ _G.pg.base.item_data_statistics[18103] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18104] = {
@@ -8275,7 +8667,8 @@ _G.pg.base.item_data_statistics[18104] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18105] = {
@@ -8297,7 +8690,8 @@ _G.pg.base.item_data_statistics[18105] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18106] = {
@@ -8319,7 +8713,8 @@ _G.pg.base.item_data_statistics[18106] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18107] = {
@@ -8341,7 +8736,8 @@ _G.pg.base.item_data_statistics[18107] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18108] = {
@@ -8363,7 +8759,8 @@ _G.pg.base.item_data_statistics[18108] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18109] = {
@@ -8385,7 +8782,8 @@ _G.pg.base.item_data_statistics[18109] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18110] = {
@@ -8407,7 +8805,8 @@ _G.pg.base.item_data_statistics[18110] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18111] = {
@@ -8429,7 +8828,8 @@ _G.pg.base.item_data_statistics[18111] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18112] = {
@@ -8451,7 +8851,8 @@ _G.pg.base.item_data_statistics[18112] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18113] = {
@@ -8473,7 +8874,8 @@ _G.pg.base.item_data_statistics[18113] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18114] = {
@@ -8495,7 +8897,8 @@ _G.pg.base.item_data_statistics[18114] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18115] = {
@@ -8517,7 +8920,8 @@ _G.pg.base.item_data_statistics[18115] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18116] = {
@@ -8539,7 +8943,8 @@ _G.pg.base.item_data_statistics[18116] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18117] = {
@@ -8561,7 +8966,8 @@ _G.pg.base.item_data_statistics[18117] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18118] = {
@@ -8583,7 +8989,8 @@ _G.pg.base.item_data_statistics[18118] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18119] = {
@@ -8605,7 +9012,8 @@ _G.pg.base.item_data_statistics[18119] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18120] = {
@@ -8627,7 +9035,8 @@ _G.pg.base.item_data_statistics[18120] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18121] = {
@@ -8649,7 +9058,8 @@ _G.pg.base.item_data_statistics[18121] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18122] = {
@@ -8671,7 +9081,8 @@ _G.pg.base.item_data_statistics[18122] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18123] = {
@@ -8693,7 +9104,8 @@ _G.pg.base.item_data_statistics[18123] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18124] = {
@@ -8715,7 +9127,8 @@ _G.pg.base.item_data_statistics[18124] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18125] = {
@@ -8737,7 +9150,8 @@ _G.pg.base.item_data_statistics[18125] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18126] = {
@@ -8759,7 +9173,8 @@ _G.pg.base.item_data_statistics[18126] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[18127] = {
@@ -8781,7 +9196,8 @@ _G.pg.base.item_data_statistics[18127] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[20001] = {
@@ -8806,7 +9222,8 @@ _G.pg.base.item_data_statistics[20001] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[20010] = {
@@ -8828,7 +9245,8 @@ _G.pg.base.item_data_statistics[20010] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[20011] = {
@@ -8853,7 +9271,8 @@ _G.pg.base.item_data_statistics[20011] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[20012] = {
@@ -8878,7 +9297,8 @@ _G.pg.base.item_data_statistics[20012] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[20013] = {
@@ -8903,7 +9323,8 @@ _G.pg.base.item_data_statistics[20013] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[20101] = {
@@ -8928,7 +9349,8 @@ _G.pg.base.item_data_statistics[20101] = {
 		2
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[20102] = {
@@ -8953,7 +9375,8 @@ _G.pg.base.item_data_statistics[20102] = {
 		2
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[20103] = {
@@ -8978,7 +9401,8 @@ _G.pg.base.item_data_statistics[20103] = {
 		2
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21001] = {
@@ -9000,7 +9424,8 @@ _G.pg.base.item_data_statistics[21001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21002] = {
@@ -9022,7 +9447,8 @@ _G.pg.base.item_data_statistics[21002] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21003] = {
@@ -9044,7 +9470,8 @@ _G.pg.base.item_data_statistics[21003] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21004] = {
@@ -9066,7 +9493,8 @@ _G.pg.base.item_data_statistics[21004] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21005] = {
@@ -9088,7 +9516,8 @@ _G.pg.base.item_data_statistics[21005] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21006] = {
@@ -9110,7 +9539,8 @@ _G.pg.base.item_data_statistics[21006] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21007] = {
@@ -9132,7 +9562,8 @@ _G.pg.base.item_data_statistics[21007] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21008] = {
@@ -9154,7 +9585,8 @@ _G.pg.base.item_data_statistics[21008] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21009] = {
@@ -9176,7 +9608,8 @@ _G.pg.base.item_data_statistics[21009] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21010] = {
@@ -9198,7 +9631,8 @@ _G.pg.base.item_data_statistics[21010] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21011] = {
@@ -9220,7 +9654,8 @@ _G.pg.base.item_data_statistics[21011] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21012] = {
@@ -9242,7 +9677,8 @@ _G.pg.base.item_data_statistics[21012] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21013] = {
@@ -9264,7 +9700,8 @@ _G.pg.base.item_data_statistics[21013] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21015] = {
@@ -9286,7 +9723,8 @@ _G.pg.base.item_data_statistics[21015] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21016] = {
@@ -9308,7 +9746,31 @@ _G.pg.base.item_data_statistics[21016] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[21018] = {
+	display = "謝菲爾德·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	name = "結晶：謝菲爾德·META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21018",
+	id = 21018,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21101] = {
@@ -9330,7 +9792,8 @@ _G.pg.base.item_data_statistics[21101] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21111] = {
@@ -9352,7 +9815,8 @@ _G.pg.base.item_data_statistics[21111] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21121] = {
@@ -9374,7 +9838,8 @@ _G.pg.base.item_data_statistics[21121] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21131] = {
@@ -9396,7 +9861,8 @@ _G.pg.base.item_data_statistics[21131] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21901] = {
@@ -9418,7 +9884,8 @@ _G.pg.base.item_data_statistics[21901] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21902] = {
@@ -9440,7 +9907,8 @@ _G.pg.base.item_data_statistics[21902] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21903] = {
@@ -9462,7 +9930,8 @@ _G.pg.base.item_data_statistics[21903] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21904] = {
@@ -9484,7 +9953,8 @@ _G.pg.base.item_data_statistics[21904] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21905] = {
@@ -9506,7 +9976,8 @@ _G.pg.base.item_data_statistics[21905] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21906] = {
@@ -9528,7 +9999,8 @@ _G.pg.base.item_data_statistics[21906] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[21907] = {
@@ -9550,7 +10022,8 @@ _G.pg.base.item_data_statistics[21907] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30001] = {
@@ -9575,7 +10048,8 @@ _G.pg.base.item_data_statistics[30001] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30011] = {
@@ -9600,7 +10074,8 @@ _G.pg.base.item_data_statistics[30011] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30012] = {
@@ -9629,7 +10104,8 @@ _G.pg.base.item_data_statistics[30012] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30013] = {
@@ -9654,7 +10130,8 @@ _G.pg.base.item_data_statistics[30013] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30014] = {
@@ -9679,7 +10156,8 @@ _G.pg.base.item_data_statistics[30014] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30015] = {
@@ -9704,7 +10182,8 @@ _G.pg.base.item_data_statistics[30015] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30021] = {
@@ -9729,7 +10208,8 @@ _G.pg.base.item_data_statistics[30021] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30022] = {
@@ -9758,7 +10238,8 @@ _G.pg.base.item_data_statistics[30022] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30023] = {
@@ -9783,7 +10264,8 @@ _G.pg.base.item_data_statistics[30023] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30024] = {
@@ -9808,7 +10290,8 @@ _G.pg.base.item_data_statistics[30024] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30025] = {
@@ -9833,7 +10316,8 @@ _G.pg.base.item_data_statistics[30025] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30031] = {
@@ -9858,7 +10342,8 @@ _G.pg.base.item_data_statistics[30031] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30032] = {
@@ -9887,7 +10372,8 @@ _G.pg.base.item_data_statistics[30032] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30033] = {
@@ -9912,7 +10398,8 @@ _G.pg.base.item_data_statistics[30033] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30034] = {
@@ -9937,7 +10424,8 @@ _G.pg.base.item_data_statistics[30034] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30035] = {
@@ -9962,7 +10450,8 @@ _G.pg.base.item_data_statistics[30035] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30041] = {
@@ -9987,7 +10476,8 @@ _G.pg.base.item_data_statistics[30041] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30042] = {
@@ -10016,7 +10506,8 @@ _G.pg.base.item_data_statistics[30042] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30043] = {
@@ -10041,7 +10532,8 @@ _G.pg.base.item_data_statistics[30043] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30044] = {
@@ -10066,7 +10558,8 @@ _G.pg.base.item_data_statistics[30044] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30045] = {
@@ -10091,7 +10584,8 @@ _G.pg.base.item_data_statistics[30045] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30103] = {
@@ -10116,7 +10610,8 @@ _G.pg.base.item_data_statistics[30103] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30104] = {
@@ -10138,7 +10633,8 @@ _G.pg.base.item_data_statistics[30104] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30112] = {
@@ -10186,7 +10682,8 @@ _G.pg.base.item_data_statistics[30112] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30113] = {
@@ -10234,7 +10731,8 @@ _G.pg.base.item_data_statistics[30113] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30114] = {
@@ -10282,7 +10780,8 @@ _G.pg.base.item_data_statistics[30114] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30121] = {
@@ -10310,7 +10809,8 @@ _G.pg.base.item_data_statistics[30121] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30132] = {
@@ -10353,7 +10853,8 @@ _G.pg.base.item_data_statistics[30132] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30133] = {
@@ -10396,7 +10897,8 @@ _G.pg.base.item_data_statistics[30133] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30202] = {
@@ -10529,7 +11031,8 @@ _G.pg.base.item_data_statistics[30202] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30203] = {
@@ -10587,7 +11090,8 @@ _G.pg.base.item_data_statistics[30203] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30301] = {
@@ -10612,7 +11116,8 @@ _G.pg.base.item_data_statistics[30301] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30302] = {
@@ -10637,7 +11142,8 @@ _G.pg.base.item_data_statistics[30302] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30303] = {
@@ -10738,7 +11244,8 @@ _G.pg.base.item_data_statistics[30303] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30304] = {
@@ -10849,7 +11356,8 @@ _G.pg.base.item_data_statistics[30304] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30305] = {
@@ -10960,7 +11468,8 @@ _G.pg.base.item_data_statistics[30305] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30306] = {
@@ -11091,7 +11600,8 @@ _G.pg.base.item_data_statistics[30306] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30307] = {
@@ -11207,7 +11717,8 @@ _G.pg.base.item_data_statistics[30307] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30308] = {
@@ -11323,7 +11834,8 @@ _G.pg.base.item_data_statistics[30308] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30309] = {
@@ -11454,7 +11966,8 @@ _G.pg.base.item_data_statistics[30309] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30310] = {
@@ -11570,7 +12083,8 @@ _G.pg.base.item_data_statistics[30310] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30311] = {
@@ -11686,7 +12200,8 @@ _G.pg.base.item_data_statistics[30311] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30312] = {
@@ -11797,7 +12312,8 @@ _G.pg.base.item_data_statistics[30312] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30314] = {
@@ -11913,7 +12429,8 @@ _G.pg.base.item_data_statistics[30314] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30315] = {
@@ -12029,7 +12546,8 @@ _G.pg.base.item_data_statistics[30315] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30317] = {
@@ -12145,7 +12663,8 @@ _G.pg.base.item_data_statistics[30317] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30318] = {
@@ -12261,7 +12780,8 @@ _G.pg.base.item_data_statistics[30318] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30319] = {
@@ -12377,7 +12897,8 @@ _G.pg.base.item_data_statistics[30319] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30320] = {
@@ -12493,7 +13014,8 @@ _G.pg.base.item_data_statistics[30320] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30321] = {
@@ -12609,7 +13131,8 @@ _G.pg.base.item_data_statistics[30321] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30322] = {
@@ -12725,7 +13248,8 @@ _G.pg.base.item_data_statistics[30322] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30323] = {
@@ -12841,7 +13365,8 @@ _G.pg.base.item_data_statistics[30323] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30324] = {
@@ -12957,7 +13482,8 @@ _G.pg.base.item_data_statistics[30324] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30325] = {
@@ -13073,7 +13599,8 @@ _G.pg.base.item_data_statistics[30325] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30326] = {
@@ -13189,7 +13716,8 @@ _G.pg.base.item_data_statistics[30326] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30327] = {
@@ -13305,7 +13833,8 @@ _G.pg.base.item_data_statistics[30327] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30328] = {
@@ -13421,7 +13950,8 @@ _G.pg.base.item_data_statistics[30328] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30329] = {
@@ -13537,7 +14067,8 @@ _G.pg.base.item_data_statistics[30329] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30330] = {
@@ -13653,7 +14184,8 @@ _G.pg.base.item_data_statistics[30330] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30331] = {
@@ -13769,7 +14301,8 @@ _G.pg.base.item_data_statistics[30331] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30332] = {
@@ -13885,7 +14418,125 @@ _G.pg.base.item_data_statistics[30332] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30334] = {
+	display = "可以獲得一件隨機的東煌時尚風格外觀裝備",
+	name = "外觀裝備箱(東煌時尚)",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdonghuangshishang",
+	id = 30334,
+	display_icon = {
+		{
+			9,
+			560,
+			1
+		},
+		{
+			9,
+			561,
+			1
+		},
+		{
+			9,
+			562,
+			1
+		},
+		{
+			9,
+			563,
+			1
+		},
+		{
+			9,
+			564,
+			1
+		},
+		{
+			9,
+			565,
+			1
+		},
+		{
+			9,
+			566,
+			1
+		},
+		{
+			9,
+			567,
+			1
+		},
+		{
+			9,
+			568,
+			1
+		},
+		{
+			9,
+			569,
+			1
+		},
+		{
+			9,
+			570,
+			1
+		},
+		{
+			9,
+			571,
+			1
+		},
+		{
+			9,
+			572,
+			1
+		},
+		{
+			9,
+			573,
+			1
+		},
+		{
+			9,
+			574,
+			1
+		},
+		{
+			9,
+			575,
+			1
+		},
+		{
+			9,
+			576,
+			1
+		},
+		{
+			9,
+			577,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30335] = {
@@ -14001,7 +14652,8 @@ _G.pg.base.item_data_statistics[30335] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30340] = {
@@ -14117,7 +14769,8 @@ _G.pg.base.item_data_statistics[30340] = {
 		7000
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30341] = {
@@ -14230,7 +14883,125 @@ _G.pg.base.item_data_statistics[30341] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30345] = {
+	display = "可以獲得一件隨機的海島冒險風格外觀裝備",
+	name = "外觀裝備箱(海島冒險)",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhaidaomaoxian",
+	id = 30345,
+	display_icon = {
+		{
+			9,
+			750,
+			1
+		},
+		{
+			9,
+			751,
+			1
+		},
+		{
+			9,
+			752,
+			1
+		},
+		{
+			9,
+			753,
+			1
+		},
+		{
+			9,
+			754,
+			1
+		},
+		{
+			9,
+			755,
+			1
+		},
+		{
+			9,
+			756,
+			1
+		},
+		{
+			9,
+			757,
+			1
+		},
+		{
+			9,
+			758,
+			1
+		},
+		{
+			9,
+			759,
+			1
+		},
+		{
+			9,
+			760,
+			1
+		},
+		{
+			9,
+			761,
+			1
+		},
+		{
+			9,
+			762,
+			1
+		},
+		{
+			9,
+			763,
+			1
+		},
+		{
+			9,
+			764,
+			1
+		},
+		{
+			9,
+			765,
+			1
+		},
+		{
+			9,
+			766,
+			1
+		},
+		{
+			9,
+			767,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30401] = {
@@ -14273,7 +15044,8 @@ _G.pg.base.item_data_statistics[30401] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30402] = {
@@ -14316,7 +15088,8 @@ _G.pg.base.item_data_statistics[30402] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30403] = {
@@ -14359,7 +15132,8 @@ _G.pg.base.item_data_statistics[30403] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30404] = {
@@ -14402,7 +15176,8 @@ _G.pg.base.item_data_statistics[30404] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30405] = {
@@ -14445,7 +15220,8 @@ _G.pg.base.item_data_statistics[30405] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30406] = {
@@ -14488,7 +15264,8 @@ _G.pg.base.item_data_statistics[30406] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30407] = {
@@ -14541,7 +15318,8 @@ _G.pg.base.item_data_statistics[30407] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30408] = {
@@ -14579,7 +15357,8 @@ _G.pg.base.item_data_statistics[30408] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30409] = {
@@ -14622,7 +15401,52 @@ _G.pg.base.item_data_statistics[30409] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30410] = {
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	name = "外觀裝備箱(世界巡遊)",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30410,
+	display_icon = {
+		{
+			9,
+			2029,
+			1
+		},
+		{
+			9,
+			2030,
+			1
+		},
+		{
+			9,
+			2031,
+			1
+		},
+		{
+			9,
+			2032,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30501] = {
@@ -14735,7 +15559,8 @@ _G.pg.base.item_data_statistics[30501] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30502] = {
@@ -14843,7 +15668,8 @@ _G.pg.base.item_data_statistics[30502] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30503] = {
@@ -14946,7 +15772,122 @@ _G.pg.base.item_data_statistics[30503] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30504] = {
+	display = "使用后可从「东煌时尚」主题外观装备中任意选择一种获得1个",
+	name = "定向外观装备箱(东煌时尚)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdonghuangshishangzixuan",
+	id = 30504,
+	display_icon = {
+		{
+			9,
+			560,
+			1
+		},
+		{
+			9,
+			561,
+			1
+		},
+		{
+			9,
+			562,
+			1
+		},
+		{
+			9,
+			563,
+			1
+		},
+		{
+			9,
+			564,
+			1
+		},
+		{
+			9,
+			565,
+			1
+		},
+		{
+			9,
+			566,
+			1
+		},
+		{
+			9,
+			567,
+			1
+		},
+		{
+			9,
+			568,
+			1
+		},
+		{
+			9,
+			569,
+			1
+		},
+		{
+			9,
+			570,
+			1
+		},
+		{
+			9,
+			571,
+			1
+		},
+		{
+			9,
+			572,
+			1
+		},
+		{
+			9,
+			573,
+			1
+		},
+		{
+			9,
+			574,
+			1
+		},
+		{
+			9,
+			575,
+			1
+		},
+		{
+			9,
+			576,
+			1
+		},
+		{
+			9,
+			577,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30505] = {
@@ -15059,7 +16000,8 @@ _G.pg.base.item_data_statistics[30505] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30506] = {
@@ -15172,7 +16114,8 @@ _G.pg.base.item_data_statistics[30506] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30508] = {
@@ -15285,7 +16228,8 @@ _G.pg.base.item_data_statistics[30508] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30511] = {
@@ -15398,7 +16342,8 @@ _G.pg.base.item_data_statistics[30511] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30513] = {
@@ -15511,7 +16456,8 @@ _G.pg.base.item_data_statistics[30513] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30514] = {
@@ -15624,7 +16570,122 @@ _G.pg.base.item_data_statistics[30514] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30518] = {
+	display = "使用後可從「鳶尾印象」主題外觀裝備中任意選擇一種獲得1個",
+	name = "定向外觀裝備箱(鳶尾)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxfaxizixuan",
+	id = 30518,
+	display_icon = {
+		{
+			9,
+			260,
+			1
+		},
+		{
+			9,
+			261,
+			1
+		},
+		{
+			9,
+			262,
+			1
+		},
+		{
+			9,
+			263,
+			1
+		},
+		{
+			9,
+			264,
+			1
+		},
+		{
+			9,
+			265,
+			1
+		},
+		{
+			9,
+			266,
+			1
+		},
+		{
+			9,
+			267,
+			1
+		},
+		{
+			9,
+			268,
+			1
+		},
+		{
+			9,
+			269,
+			1
+		},
+		{
+			9,
+			270,
+			1
+		},
+		{
+			9,
+			271,
+			1
+		},
+		{
+			9,
+			272,
+			1
+		},
+		{
+			9,
+			273,
+			1
+		},
+		{
+			9,
+			274,
+			1
+		},
+		{
+			9,
+			275,
+			1
+		},
+		{
+			9,
+			276,
+			1
+		},
+		{
+			9,
+			277,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30521] = {
@@ -15737,7 +16798,122 @@ _G.pg.base.item_data_statistics[30521] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30522] = {
+	display = "使用後可從「海島冒險」主題外觀裝備中任意選擇一種獲得1個",
+	name = "定向外觀裝備箱(海島冒險)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhaidaomaoxianzixuan",
+	id = 30522,
+	display_icon = {
+		{
+			9,
+			750,
+			1
+		},
+		{
+			9,
+			751,
+			1
+		},
+		{
+			9,
+			752,
+			1
+		},
+		{
+			9,
+			753,
+			1
+		},
+		{
+			9,
+			754,
+			1
+		},
+		{
+			9,
+			755,
+			1
+		},
+		{
+			9,
+			756,
+			1
+		},
+		{
+			9,
+			757,
+			1
+		},
+		{
+			9,
+			758,
+			1
+		},
+		{
+			9,
+			759,
+			1
+		},
+		{
+			9,
+			760,
+			1
+		},
+		{
+			9,
+			761,
+			1
+		},
+		{
+			9,
+			762,
+			1
+		},
+		{
+			9,
+			763,
+			1
+		},
+		{
+			9,
+			764,
+			1
+		},
+		{
+			9,
+			765,
+			1
+		},
+		{
+			9,
+			766,
+			1
+		},
+		{
+			9,
+			767,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30900] = {
@@ -15785,7 +16961,8 @@ _G.pg.base.item_data_statistics[30900] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30911] = {
@@ -15828,7 +17005,8 @@ _G.pg.base.item_data_statistics[30911] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30912] = {
@@ -15881,7 +17059,8 @@ _G.pg.base.item_data_statistics[30912] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30913] = {
@@ -15934,7 +17113,8 @@ _G.pg.base.item_data_statistics[30913] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30914] = {
@@ -15977,7 +17157,8 @@ _G.pg.base.item_data_statistics[30914] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[30915] = {
@@ -16020,7 +17201,8 @@ _G.pg.base.item_data_statistics[30915] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40000] = {
@@ -16073,7 +17255,8 @@ _G.pg.base.item_data_statistics[40000] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40003] = {
@@ -16101,7 +17284,8 @@ _G.pg.base.item_data_statistics[40003] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40004] = {
@@ -16139,7 +17323,8 @@ _G.pg.base.item_data_statistics[40004] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40005] = {
@@ -16187,7 +17372,8 @@ _G.pg.base.item_data_statistics[40005] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40006] = {
@@ -16235,7 +17421,8 @@ _G.pg.base.item_data_statistics[40006] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40007] = {
@@ -16298,7 +17485,8 @@ _G.pg.base.item_data_statistics[40007] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40008] = {
@@ -16361,7 +17549,8 @@ _G.pg.base.item_data_statistics[40008] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40009] = {
@@ -16404,7 +17593,8 @@ _G.pg.base.item_data_statistics[40009] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40011] = {
@@ -16467,7 +17657,8 @@ _G.pg.base.item_data_statistics[40011] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40012] = {
@@ -16530,7 +17721,8 @@ _G.pg.base.item_data_statistics[40012] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40013] = {
@@ -16618,7 +17810,8 @@ _G.pg.base.item_data_statistics[40013] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40014] = {
@@ -16706,7 +17899,8 @@ _G.pg.base.item_data_statistics[40014] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40016] = {
@@ -16739,7 +17933,8 @@ _G.pg.base.item_data_statistics[40016] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40017] = {
@@ -16767,7 +17962,8 @@ _G.pg.base.item_data_statistics[40017] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40018] = {
@@ -16795,7 +17991,8 @@ _G.pg.base.item_data_statistics[40018] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40019] = {
@@ -16828,7 +18025,8 @@ _G.pg.base.item_data_statistics[40019] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40020] = {
@@ -16856,7 +18054,8 @@ _G.pg.base.item_data_statistics[40020] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40021] = {
@@ -16884,7 +18083,8 @@ _G.pg.base.item_data_statistics[40021] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40022] = {
@@ -17072,7 +18272,8 @@ _G.pg.base.item_data_statistics[40022] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40023] = {
@@ -17125,7 +18326,8 @@ _G.pg.base.item_data_statistics[40023] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40100] = {
@@ -17153,7 +18355,8 @@ _G.pg.base.item_data_statistics[40100] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40101] = {
@@ -17191,7 +18394,8 @@ _G.pg.base.item_data_statistics[40101] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40102] = {
@@ -17219,7 +18423,8 @@ _G.pg.base.item_data_statistics[40102] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40103] = {
@@ -17252,7 +18457,8 @@ _G.pg.base.item_data_statistics[40103] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40104] = {
@@ -17290,7 +18496,8 @@ _G.pg.base.item_data_statistics[40104] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40105] = {
@@ -17318,7 +18525,8 @@ _G.pg.base.item_data_statistics[40105] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40106] = {
@@ -17351,7 +18559,8 @@ _G.pg.base.item_data_statistics[40106] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40107] = {
@@ -17379,7 +18588,8 @@ _G.pg.base.item_data_statistics[40107] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40108] = {
@@ -17417,7 +18627,8 @@ _G.pg.base.item_data_statistics[40108] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40109] = {
@@ -17445,7 +18656,8 @@ _G.pg.base.item_data_statistics[40109] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40110] = {
@@ -17483,7 +18695,8 @@ _G.pg.base.item_data_statistics[40110] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40111] = {
@@ -17511,7 +18724,8 @@ _G.pg.base.item_data_statistics[40111] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40112] = {
@@ -17549,7 +18763,8 @@ _G.pg.base.item_data_statistics[40112] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40113] = {
@@ -17577,7 +18792,8 @@ _G.pg.base.item_data_statistics[40113] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40114] = {
@@ -17615,7 +18831,8 @@ _G.pg.base.item_data_statistics[40114] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40115] = {
@@ -17643,7 +18860,8 @@ _G.pg.base.item_data_statistics[40115] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40116] = {
@@ -17681,7 +18899,8 @@ _G.pg.base.item_data_statistics[40116] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40117] = {
@@ -17709,7 +18928,8 @@ _G.pg.base.item_data_statistics[40117] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40118] = {
@@ -17747,7 +18967,8 @@ _G.pg.base.item_data_statistics[40118] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40119] = {
@@ -17775,7 +18996,8 @@ _G.pg.base.item_data_statistics[40119] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40124] = {
@@ -17830,7 +19052,8 @@ _G.pg.base.item_data_statistics[40124] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40125] = {
@@ -17885,7 +19108,8 @@ _G.pg.base.item_data_statistics[40125] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40126] = {
@@ -17907,7 +19131,8 @@ _G.pg.base.item_data_statistics[40126] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40128] = {
@@ -17945,7 +19170,8 @@ _G.pg.base.item_data_statistics[40128] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40129] = {
@@ -18013,7 +19239,8 @@ _G.pg.base.item_data_statistics[40129] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40701] = {
@@ -18046,7 +19273,8 @@ _G.pg.base.item_data_statistics[40701] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40702] = {
@@ -18079,7 +19307,8 @@ _G.pg.base.item_data_statistics[40702] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40703] = {
@@ -18112,7 +19341,8 @@ _G.pg.base.item_data_statistics[40703] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40704] = {
@@ -18145,7 +19375,8 @@ _G.pg.base.item_data_statistics[40704] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40705] = {
@@ -18183,7 +19414,8 @@ _G.pg.base.item_data_statistics[40705] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40706] = {
@@ -18221,7 +19453,8 @@ _G.pg.base.item_data_statistics[40706] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40707] = {
@@ -18254,7 +19487,8 @@ _G.pg.base.item_data_statistics[40707] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40708] = {
@@ -18287,7 +19521,8 @@ _G.pg.base.item_data_statistics[40708] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40709] = {
@@ -18320,7 +19555,8 @@ _G.pg.base.item_data_statistics[40709] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40710] = {
@@ -18353,7 +19589,8 @@ _G.pg.base.item_data_statistics[40710] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40711] = {
@@ -18386,7 +19623,8 @@ _G.pg.base.item_data_statistics[40711] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40712] = {
@@ -18419,7 +19657,8 @@ _G.pg.base.item_data_statistics[40712] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40713] = {
@@ -18452,7 +19691,8 @@ _G.pg.base.item_data_statistics[40713] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40714] = {
@@ -18485,7 +19725,8 @@ _G.pg.base.item_data_statistics[40714] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40715] = {
@@ -18518,7 +19759,8 @@ _G.pg.base.item_data_statistics[40715] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40716] = {
@@ -18551,7 +19793,8 @@ _G.pg.base.item_data_statistics[40716] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40717] = {
@@ -18584,7 +19827,8 @@ _G.pg.base.item_data_statistics[40717] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40718] = {
@@ -18617,7 +19861,8 @@ _G.pg.base.item_data_statistics[40718] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40719] = {
@@ -18650,7 +19895,8 @@ _G.pg.base.item_data_statistics[40719] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40720] = {
@@ -18683,7 +19929,8 @@ _G.pg.base.item_data_statistics[40720] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40721] = {
@@ -18716,7 +19963,8 @@ _G.pg.base.item_data_statistics[40721] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40722] = {
@@ -18749,7 +19997,8 @@ _G.pg.base.item_data_statistics[40722] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40723] = {
@@ -18782,7 +20031,8 @@ _G.pg.base.item_data_statistics[40723] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40724] = {
@@ -18815,7 +20065,8 @@ _G.pg.base.item_data_statistics[40724] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40725] = {
@@ -18848,7 +20099,8 @@ _G.pg.base.item_data_statistics[40725] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40726] = {
@@ -18881,7 +20133,8 @@ _G.pg.base.item_data_statistics[40726] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40727] = {
@@ -18914,7 +20167,8 @@ _G.pg.base.item_data_statistics[40727] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40728] = {
@@ -18947,7 +20201,8 @@ _G.pg.base.item_data_statistics[40728] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40908] = {
@@ -19000,7 +20255,8 @@ _G.pg.base.item_data_statistics[40908] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40909] = {
@@ -19053,7 +20309,8 @@ _G.pg.base.item_data_statistics[40909] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40910] = {
@@ -19111,7 +20368,8 @@ _G.pg.base.item_data_statistics[40910] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40918] = {
@@ -19139,7 +20397,8 @@ _G.pg.base.item_data_statistics[40918] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40921] = {
@@ -19237,7 +20496,8 @@ _G.pg.base.item_data_statistics[40921] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40930] = {
@@ -19290,7 +20550,8 @@ _G.pg.base.item_data_statistics[40930] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40931] = {
@@ -19343,7 +20604,8 @@ _G.pg.base.item_data_statistics[40931] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40932] = {
@@ -19401,7 +20663,8 @@ _G.pg.base.item_data_statistics[40932] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40933] = {
@@ -19459,7 +20722,8 @@ _G.pg.base.item_data_statistics[40933] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40934] = {
@@ -19517,7 +20781,8 @@ _G.pg.base.item_data_statistics[40934] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40935] = {
@@ -19575,7 +20840,8 @@ _G.pg.base.item_data_statistics[40935] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40936] = {
@@ -19633,7 +20899,8 @@ _G.pg.base.item_data_statistics[40936] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40937] = {
@@ -19691,7 +20958,8 @@ _G.pg.base.item_data_statistics[40937] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40938] = {
@@ -19749,7 +21017,8 @@ _G.pg.base.item_data_statistics[40938] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40939] = {
@@ -19807,7 +21076,8 @@ _G.pg.base.item_data_statistics[40939] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[40940] = {
@@ -19855,7 +21125,8 @@ _G.pg.base.item_data_statistics[40940] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41201] = {
@@ -19877,7 +21148,8 @@ _G.pg.base.item_data_statistics[41201] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41202] = {
@@ -19899,7 +21171,8 @@ _G.pg.base.item_data_statistics[41202] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41203] = {
@@ -19921,7 +21194,8 @@ _G.pg.base.item_data_statistics[41203] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41204] = {
@@ -19943,7 +21217,8 @@ _G.pg.base.item_data_statistics[41204] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41205] = {
@@ -19965,7 +21240,8 @@ _G.pg.base.item_data_statistics[41205] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41206] = {
@@ -19987,7 +21263,8 @@ _G.pg.base.item_data_statistics[41206] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41207] = {
@@ -20009,7 +21286,8 @@ _G.pg.base.item_data_statistics[41207] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41208] = {
@@ -20031,7 +21309,8 @@ _G.pg.base.item_data_statistics[41208] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41209] = {
@@ -20053,7 +21332,8 @@ _G.pg.base.item_data_statistics[41209] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41210] = {
@@ -20075,7 +21355,8 @@ _G.pg.base.item_data_statistics[41210] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41211] = {
@@ -20097,7 +21378,8 @@ _G.pg.base.item_data_statistics[41211] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41212] = {
@@ -20119,7 +21401,8 @@ _G.pg.base.item_data_statistics[41212] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41213] = {
@@ -20141,7 +21424,8 @@ _G.pg.base.item_data_statistics[41213] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41214] = {
@@ -20163,7 +21447,8 @@ _G.pg.base.item_data_statistics[41214] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41215] = {
@@ -20185,7 +21470,8 @@ _G.pg.base.item_data_statistics[41215] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41216] = {
@@ -20207,7 +21493,8 @@ _G.pg.base.item_data_statistics[41216] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41217] = {
@@ -20229,7 +21516,8 @@ _G.pg.base.item_data_statistics[41217] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41218] = {
@@ -20251,7 +21539,8 @@ _G.pg.base.item_data_statistics[41218] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41219] = {
@@ -20273,7 +21562,8 @@ _G.pg.base.item_data_statistics[41219] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41220] = {
@@ -20295,7 +21585,8 @@ _G.pg.base.item_data_statistics[41220] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41221] = {
@@ -20317,7 +21608,8 @@ _G.pg.base.item_data_statistics[41221] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41222] = {
@@ -20339,7 +21631,8 @@ _G.pg.base.item_data_statistics[41222] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41223] = {
@@ -20361,7 +21654,8 @@ _G.pg.base.item_data_statistics[41223] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41224] = {
@@ -20383,7 +21677,8 @@ _G.pg.base.item_data_statistics[41224] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41225] = {
@@ -20405,7 +21700,8 @@ _G.pg.base.item_data_statistics[41225] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41226] = {
@@ -20427,7 +21723,8 @@ _G.pg.base.item_data_statistics[41226] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41227] = {
@@ -20449,7 +21746,8 @@ _G.pg.base.item_data_statistics[41227] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41228] = {
@@ -20471,7 +21769,8 @@ _G.pg.base.item_data_statistics[41228] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41229] = {
@@ -20493,7 +21792,8 @@ _G.pg.base.item_data_statistics[41229] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41230] = {
@@ -20515,7 +21815,8 @@ _G.pg.base.item_data_statistics[41230] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41231] = {
@@ -20537,7 +21838,8 @@ _G.pg.base.item_data_statistics[41231] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41232] = {
@@ -20559,7 +21861,8 @@ _G.pg.base.item_data_statistics[41232] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41233] = {
@@ -20581,7 +21884,8 @@ _G.pg.base.item_data_statistics[41233] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41234] = {
@@ -20603,7 +21907,8 @@ _G.pg.base.item_data_statistics[41234] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41235] = {
@@ -20625,7 +21930,8 @@ _G.pg.base.item_data_statistics[41235] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41236] = {
@@ -20647,7 +21953,8 @@ _G.pg.base.item_data_statistics[41236] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41237] = {
@@ -20669,7 +21976,8 @@ _G.pg.base.item_data_statistics[41237] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41238] = {
@@ -20691,7 +21999,8 @@ _G.pg.base.item_data_statistics[41238] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41239] = {
@@ -20713,7 +22022,8 @@ _G.pg.base.item_data_statistics[41239] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41240] = {
@@ -20735,7 +22045,8 @@ _G.pg.base.item_data_statistics[41240] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41241] = {
@@ -20757,7 +22068,8 @@ _G.pg.base.item_data_statistics[41241] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41242] = {
@@ -20779,7 +22091,8 @@ _G.pg.base.item_data_statistics[41242] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41243] = {
@@ -20801,7 +22114,8 @@ _G.pg.base.item_data_statistics[41243] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41244] = {
@@ -20823,7 +22137,8 @@ _G.pg.base.item_data_statistics[41244] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41245] = {
@@ -20845,7 +22160,8 @@ _G.pg.base.item_data_statistics[41245] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41246] = {
@@ -20867,7 +22183,8 @@ _G.pg.base.item_data_statistics[41246] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41247] = {
@@ -20889,7 +22206,8 @@ _G.pg.base.item_data_statistics[41247] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41248] = {
@@ -20911,7 +22229,8 @@ _G.pg.base.item_data_statistics[41248] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41249] = {
@@ -20933,7 +22252,8 @@ _G.pg.base.item_data_statistics[41249] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41250] = {
@@ -20955,7 +22275,8 @@ _G.pg.base.item_data_statistics[41250] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41251] = {
@@ -20977,7 +22298,8 @@ _G.pg.base.item_data_statistics[41251] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41252] = {
@@ -20999,7 +22321,8 @@ _G.pg.base.item_data_statistics[41252] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41253] = {
@@ -21021,7 +22344,8 @@ _G.pg.base.item_data_statistics[41253] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41254] = {
@@ -21043,7 +22367,8 @@ _G.pg.base.item_data_statistics[41254] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41255] = {
@@ -21065,7 +22390,8 @@ _G.pg.base.item_data_statistics[41255] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41256] = {
@@ -21087,7 +22413,8 @@ _G.pg.base.item_data_statistics[41256] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41257] = {
@@ -21109,7 +22436,8 @@ _G.pg.base.item_data_statistics[41257] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41258] = {
@@ -21131,7 +22459,8 @@ _G.pg.base.item_data_statistics[41258] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41259] = {
@@ -21153,7 +22482,8 @@ _G.pg.base.item_data_statistics[41259] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41260] = {
@@ -21175,7 +22505,8 @@ _G.pg.base.item_data_statistics[41260] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41261] = {
@@ -21197,7 +22528,8 @@ _G.pg.base.item_data_statistics[41261] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41262] = {
@@ -21219,7 +22551,8 @@ _G.pg.base.item_data_statistics[41262] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41263] = {
@@ -21241,7 +22574,8 @@ _G.pg.base.item_data_statistics[41263] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41264] = {
@@ -21263,7 +22597,8 @@ _G.pg.base.item_data_statistics[41264] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41265] = {
@@ -21285,7 +22620,8 @@ _G.pg.base.item_data_statistics[41265] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41266] = {
@@ -21307,7 +22643,8 @@ _G.pg.base.item_data_statistics[41266] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41267] = {
@@ -21329,7 +22666,8 @@ _G.pg.base.item_data_statistics[41267] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41268] = {
@@ -21351,7 +22689,8 @@ _G.pg.base.item_data_statistics[41268] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41269] = {
@@ -21373,7 +22712,8 @@ _G.pg.base.item_data_statistics[41269] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41270] = {
@@ -21395,7 +22735,8 @@ _G.pg.base.item_data_statistics[41270] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41271] = {
@@ -21417,7 +22758,8 @@ _G.pg.base.item_data_statistics[41271] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41272] = {
@@ -21439,7 +22781,8 @@ _G.pg.base.item_data_statistics[41272] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41273] = {
@@ -21461,7 +22804,8 @@ _G.pg.base.item_data_statistics[41273] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41274] = {
@@ -21483,7 +22827,8 @@ _G.pg.base.item_data_statistics[41274] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41275] = {
@@ -21505,7 +22850,8 @@ _G.pg.base.item_data_statistics[41275] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41276] = {
@@ -21527,7 +22873,8 @@ _G.pg.base.item_data_statistics[41276] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41277] = {
@@ -21549,7 +22896,8 @@ _G.pg.base.item_data_statistics[41277] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41278] = {
@@ -21571,7 +22919,8 @@ _G.pg.base.item_data_statistics[41278] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41279] = {
@@ -21593,7 +22942,8 @@ _G.pg.base.item_data_statistics[41279] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41280] = {
@@ -21615,7 +22965,8 @@ _G.pg.base.item_data_statistics[41280] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41281] = {
@@ -21637,7 +22988,8 @@ _G.pg.base.item_data_statistics[41281] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41282] = {
@@ -21659,7 +23011,8 @@ _G.pg.base.item_data_statistics[41282] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41283] = {
@@ -21681,7 +23034,8 @@ _G.pg.base.item_data_statistics[41283] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41284] = {
@@ -21703,7 +23057,8 @@ _G.pg.base.item_data_statistics[41284] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41285] = {
@@ -21725,7 +23080,8 @@ _G.pg.base.item_data_statistics[41285] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41286] = {
@@ -21747,7 +23103,8 @@ _G.pg.base.item_data_statistics[41286] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41287] = {
@@ -21769,7 +23126,8 @@ _G.pg.base.item_data_statistics[41287] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41288] = {
@@ -21791,7 +23149,8 @@ _G.pg.base.item_data_statistics[41288] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41289] = {
@@ -21813,7 +23172,8 @@ _G.pg.base.item_data_statistics[41289] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41290] = {
@@ -21835,7 +23195,8 @@ _G.pg.base.item_data_statistics[41290] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41291] = {
@@ -21857,7 +23218,8 @@ _G.pg.base.item_data_statistics[41291] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41292] = {
@@ -21879,7 +23241,8 @@ _G.pg.base.item_data_statistics[41292] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41293] = {
@@ -21901,7 +23264,8 @@ _G.pg.base.item_data_statistics[41293] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41294] = {
@@ -21923,7 +23287,8 @@ _G.pg.base.item_data_statistics[41294] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41295] = {
@@ -21945,7 +23310,8 @@ _G.pg.base.item_data_statistics[41295] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41296] = {
@@ -21967,7 +23333,8 @@ _G.pg.base.item_data_statistics[41296] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41297] = {
@@ -21989,7 +23356,8 @@ _G.pg.base.item_data_statistics[41297] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41298] = {
@@ -22011,7 +23379,8 @@ _G.pg.base.item_data_statistics[41298] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41299] = {
@@ -22033,7 +23402,8 @@ _G.pg.base.item_data_statistics[41299] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41300] = {
@@ -22055,7 +23425,8 @@ _G.pg.base.item_data_statistics[41300] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41301] = {
@@ -22077,7 +23448,8 @@ _G.pg.base.item_data_statistics[41301] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41302] = {
@@ -22099,7 +23471,8 @@ _G.pg.base.item_data_statistics[41302] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41303] = {
@@ -22121,7 +23494,8 @@ _G.pg.base.item_data_statistics[41303] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41304] = {
@@ -22143,7 +23517,8 @@ _G.pg.base.item_data_statistics[41304] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41305] = {
@@ -22165,7 +23540,8 @@ _G.pg.base.item_data_statistics[41305] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41306] = {
@@ -22187,7 +23563,8 @@ _G.pg.base.item_data_statistics[41306] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41307] = {
@@ -22209,7 +23586,8 @@ _G.pg.base.item_data_statistics[41307] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41308] = {
@@ -22231,7 +23609,8 @@ _G.pg.base.item_data_statistics[41308] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41309] = {
@@ -22253,7 +23632,8 @@ _G.pg.base.item_data_statistics[41309] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41310] = {
@@ -22275,7 +23655,8 @@ _G.pg.base.item_data_statistics[41310] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41311] = {
@@ -22297,7 +23678,8 @@ _G.pg.base.item_data_statistics[41311] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41312] = {
@@ -22319,7 +23701,8 @@ _G.pg.base.item_data_statistics[41312] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41313] = {
@@ -22341,7 +23724,8 @@ _G.pg.base.item_data_statistics[41313] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41314] = {
@@ -22363,7 +23747,8 @@ _G.pg.base.item_data_statistics[41314] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41315] = {
@@ -22385,7 +23770,8 @@ _G.pg.base.item_data_statistics[41315] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41316] = {
@@ -22407,7 +23793,8 @@ _G.pg.base.item_data_statistics[41316] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41317] = {
@@ -22429,7 +23816,8 @@ _G.pg.base.item_data_statistics[41317] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41318] = {
@@ -22451,7 +23839,8 @@ _G.pg.base.item_data_statistics[41318] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41319] = {
@@ -22473,7 +23862,8 @@ _G.pg.base.item_data_statistics[41319] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41320] = {
@@ -22495,7 +23885,8 @@ _G.pg.base.item_data_statistics[41320] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41321] = {
@@ -22517,7 +23908,8 @@ _G.pg.base.item_data_statistics[41321] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41322] = {
@@ -22539,7 +23931,8 @@ _G.pg.base.item_data_statistics[41322] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41323] = {
@@ -22561,7 +23954,8 @@ _G.pg.base.item_data_statistics[41323] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41324] = {
@@ -22583,7 +23977,8 @@ _G.pg.base.item_data_statistics[41324] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41325] = {
@@ -22605,7 +24000,8 @@ _G.pg.base.item_data_statistics[41325] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41326] = {
@@ -22627,7 +24023,8 @@ _G.pg.base.item_data_statistics[41326] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41327] = {
@@ -22649,7 +24046,8 @@ _G.pg.base.item_data_statistics[41327] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41328] = {
@@ -22671,7 +24069,8 @@ _G.pg.base.item_data_statistics[41328] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41329] = {
@@ -22693,7 +24092,8 @@ _G.pg.base.item_data_statistics[41329] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41330] = {
@@ -22715,7 +24115,8 @@ _G.pg.base.item_data_statistics[41330] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41331] = {
@@ -22737,7 +24138,8 @@ _G.pg.base.item_data_statistics[41331] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41332] = {
@@ -22759,7 +24161,8 @@ _G.pg.base.item_data_statistics[41332] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41333] = {
@@ -22781,7 +24184,8 @@ _G.pg.base.item_data_statistics[41333] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41334] = {
@@ -22803,7 +24207,8 @@ _G.pg.base.item_data_statistics[41334] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41335] = {
@@ -22825,7 +24230,8 @@ _G.pg.base.item_data_statistics[41335] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41336] = {
@@ -22847,7 +24253,8 @@ _G.pg.base.item_data_statistics[41336] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41337] = {
@@ -22869,7 +24276,8 @@ _G.pg.base.item_data_statistics[41337] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41338] = {
@@ -22891,7 +24299,8 @@ _G.pg.base.item_data_statistics[41338] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41339] = {
@@ -22913,7 +24322,8 @@ _G.pg.base.item_data_statistics[41339] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41340] = {
@@ -22935,7 +24345,8 @@ _G.pg.base.item_data_statistics[41340] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41341] = {
@@ -22957,7 +24368,8 @@ _G.pg.base.item_data_statistics[41341] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41342] = {
@@ -22979,7 +24391,8 @@ _G.pg.base.item_data_statistics[41342] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41343] = {
@@ -23001,7 +24414,8 @@ _G.pg.base.item_data_statistics[41343] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41344] = {
@@ -23023,7 +24437,8 @@ _G.pg.base.item_data_statistics[41344] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41345] = {
@@ -23045,7 +24460,8 @@ _G.pg.base.item_data_statistics[41345] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41346] = {
@@ -23067,7 +24483,8 @@ _G.pg.base.item_data_statistics[41346] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41347] = {
@@ -23089,7 +24506,8 @@ _G.pg.base.item_data_statistics[41347] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41348] = {
@@ -23111,7 +24529,8 @@ _G.pg.base.item_data_statistics[41348] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41349] = {
@@ -23133,7 +24552,8 @@ _G.pg.base.item_data_statistics[41349] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41350] = {
@@ -23155,7 +24575,8 @@ _G.pg.base.item_data_statistics[41350] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41351] = {
@@ -23177,7 +24598,8 @@ _G.pg.base.item_data_statistics[41351] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41352] = {
@@ -23199,7 +24621,8 @@ _G.pg.base.item_data_statistics[41352] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41353] = {
@@ -23221,7 +24644,8 @@ _G.pg.base.item_data_statistics[41353] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41354] = {
@@ -23243,7 +24667,8 @@ _G.pg.base.item_data_statistics[41354] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41355] = {
@@ -23265,7 +24690,8 @@ _G.pg.base.item_data_statistics[41355] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41356] = {
@@ -23287,7 +24713,8 @@ _G.pg.base.item_data_statistics[41356] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41357] = {
@@ -23309,7 +24736,8 @@ _G.pg.base.item_data_statistics[41357] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41358] = {
@@ -23331,7 +24759,8 @@ _G.pg.base.item_data_statistics[41358] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41359] = {
@@ -23353,7 +24782,8 @@ _G.pg.base.item_data_statistics[41359] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41360] = {
@@ -23375,7 +24805,8 @@ _G.pg.base.item_data_statistics[41360] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41361] = {
@@ -23397,7 +24828,8 @@ _G.pg.base.item_data_statistics[41361] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41362] = {
@@ -23419,7 +24851,8 @@ _G.pg.base.item_data_statistics[41362] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41363] = {
@@ -23441,7 +24874,8 @@ _G.pg.base.item_data_statistics[41363] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41364] = {
@@ -23463,7 +24897,8 @@ _G.pg.base.item_data_statistics[41364] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41365] = {
@@ -23485,7 +24920,8 @@ _G.pg.base.item_data_statistics[41365] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41366] = {
@@ -23507,7 +24943,8 @@ _G.pg.base.item_data_statistics[41366] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41367] = {
@@ -23529,7 +24966,8 @@ _G.pg.base.item_data_statistics[41367] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41368] = {
@@ -23551,7 +24989,8 @@ _G.pg.base.item_data_statistics[41368] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41369] = {
@@ -23573,7 +25012,8 @@ _G.pg.base.item_data_statistics[41369] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41370] = {
@@ -23595,7 +25035,8 @@ _G.pg.base.item_data_statistics[41370] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41371] = {
@@ -23617,7 +25058,8 @@ _G.pg.base.item_data_statistics[41371] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41372] = {
@@ -23639,7 +25081,8 @@ _G.pg.base.item_data_statistics[41372] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41373] = {
@@ -23661,7 +25104,8 @@ _G.pg.base.item_data_statistics[41373] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41374] = {
@@ -23683,7 +25127,8 @@ _G.pg.base.item_data_statistics[41374] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41375] = {
@@ -23705,7 +25150,8 @@ _G.pg.base.item_data_statistics[41375] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41376] = {
@@ -23727,7 +25173,8 @@ _G.pg.base.item_data_statistics[41376] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41377] = {
@@ -23749,7 +25196,8 @@ _G.pg.base.item_data_statistics[41377] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41378] = {
@@ -23771,7 +25219,8 @@ _G.pg.base.item_data_statistics[41378] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41379] = {
@@ -23793,7 +25242,8 @@ _G.pg.base.item_data_statistics[41379] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41380] = {
@@ -23815,7 +25265,8 @@ _G.pg.base.item_data_statistics[41380] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41381] = {
@@ -23837,7 +25288,8 @@ _G.pg.base.item_data_statistics[41381] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41382] = {
@@ -23859,7 +25311,8 @@ _G.pg.base.item_data_statistics[41382] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41383] = {
@@ -23881,7 +25334,8 @@ _G.pg.base.item_data_statistics[41383] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41384] = {
@@ -23903,7 +25357,8 @@ _G.pg.base.item_data_statistics[41384] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41385] = {
@@ -23925,7 +25380,8 @@ _G.pg.base.item_data_statistics[41385] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41386] = {
@@ -23947,7 +25403,8 @@ _G.pg.base.item_data_statistics[41386] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41387] = {
@@ -23969,7 +25426,8 @@ _G.pg.base.item_data_statistics[41387] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41388] = {
@@ -23991,7 +25449,8 @@ _G.pg.base.item_data_statistics[41388] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41389] = {
@@ -24013,7 +25472,8 @@ _G.pg.base.item_data_statistics[41389] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41390] = {
@@ -24035,7 +25495,8 @@ _G.pg.base.item_data_statistics[41390] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41391] = {
@@ -24057,7 +25518,8 @@ _G.pg.base.item_data_statistics[41391] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41392] = {
@@ -24079,7 +25541,8 @@ _G.pg.base.item_data_statistics[41392] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41393] = {
@@ -24101,7 +25564,8 @@ _G.pg.base.item_data_statistics[41393] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41394] = {
@@ -24123,7 +25587,8 @@ _G.pg.base.item_data_statistics[41394] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41395] = {
@@ -24145,7 +25610,8 @@ _G.pg.base.item_data_statistics[41395] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41396] = {
@@ -24167,7 +25633,8 @@ _G.pg.base.item_data_statistics[41396] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41397] = {
@@ -24189,7 +25656,8 @@ _G.pg.base.item_data_statistics[41397] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41398] = {
@@ -24211,7 +25679,8 @@ _G.pg.base.item_data_statistics[41398] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41399] = {
@@ -24233,7 +25702,8 @@ _G.pg.base.item_data_statistics[41399] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41400] = {
@@ -24255,7 +25725,8 @@ _G.pg.base.item_data_statistics[41400] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41401] = {
@@ -24277,7 +25748,8 @@ _G.pg.base.item_data_statistics[41401] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41402] = {
@@ -24299,7 +25771,8 @@ _G.pg.base.item_data_statistics[41402] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41403] = {
@@ -24321,7 +25794,8 @@ _G.pg.base.item_data_statistics[41403] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41404] = {
@@ -24343,7 +25817,8 @@ _G.pg.base.item_data_statistics[41404] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41405] = {
@@ -24365,7 +25840,8 @@ _G.pg.base.item_data_statistics[41405] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41406] = {
@@ -24387,7 +25863,8 @@ _G.pg.base.item_data_statistics[41406] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41407] = {
@@ -24409,7 +25886,8 @@ _G.pg.base.item_data_statistics[41407] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41408] = {
@@ -24431,7 +25909,8 @@ _G.pg.base.item_data_statistics[41408] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41409] = {
@@ -24453,7 +25932,8 @@ _G.pg.base.item_data_statistics[41409] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41410] = {
@@ -24475,7 +25955,8 @@ _G.pg.base.item_data_statistics[41410] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41411] = {
@@ -24497,7 +25978,8 @@ _G.pg.base.item_data_statistics[41411] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41412] = {
@@ -24519,7 +26001,8 @@ _G.pg.base.item_data_statistics[41412] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41413] = {
@@ -24541,7 +26024,8 @@ _G.pg.base.item_data_statistics[41413] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41414] = {
@@ -24563,7 +26047,8 @@ _G.pg.base.item_data_statistics[41414] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41415] = {
@@ -24585,7 +26070,8 @@ _G.pg.base.item_data_statistics[41415] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41416] = {
@@ -24607,7 +26093,8 @@ _G.pg.base.item_data_statistics[41416] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41417] = {
@@ -24629,7 +26116,8 @@ _G.pg.base.item_data_statistics[41417] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41418] = {
@@ -24651,7 +26139,8 @@ _G.pg.base.item_data_statistics[41418] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41419] = {
@@ -24673,7 +26162,8 @@ _G.pg.base.item_data_statistics[41419] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41420] = {
@@ -24695,7 +26185,8 @@ _G.pg.base.item_data_statistics[41420] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41421] = {
@@ -24717,7 +26208,8 @@ _G.pg.base.item_data_statistics[41421] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41422] = {
@@ -24739,7 +26231,8 @@ _G.pg.base.item_data_statistics[41422] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41423] = {
@@ -24761,7 +26254,8 @@ _G.pg.base.item_data_statistics[41423] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41424] = {
@@ -24783,7 +26277,8 @@ _G.pg.base.item_data_statistics[41424] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41425] = {
@@ -24805,7 +26300,8 @@ _G.pg.base.item_data_statistics[41425] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41426] = {
@@ -24827,7 +26323,8 @@ _G.pg.base.item_data_statistics[41426] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41427] = {
@@ -24849,7 +26346,8 @@ _G.pg.base.item_data_statistics[41427] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41428] = {
@@ -24871,7 +26369,8 @@ _G.pg.base.item_data_statistics[41428] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41429] = {
@@ -24893,7 +26392,8 @@ _G.pg.base.item_data_statistics[41429] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41430] = {
@@ -24915,7 +26415,8 @@ _G.pg.base.item_data_statistics[41430] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41431] = {
@@ -24937,7 +26438,8 @@ _G.pg.base.item_data_statistics[41431] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41432] = {
@@ -24959,7 +26461,8 @@ _G.pg.base.item_data_statistics[41432] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41433] = {
@@ -24981,7 +26484,8 @@ _G.pg.base.item_data_statistics[41433] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41434] = {
@@ -25003,7 +26507,8 @@ _G.pg.base.item_data_statistics[41434] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41435] = {
@@ -25025,7 +26530,8 @@ _G.pg.base.item_data_statistics[41435] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41436] = {
@@ -25047,7 +26553,8 @@ _G.pg.base.item_data_statistics[41436] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41437] = {
@@ -25069,7 +26576,8 @@ _G.pg.base.item_data_statistics[41437] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41438] = {
@@ -25091,7 +26599,8 @@ _G.pg.base.item_data_statistics[41438] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41439] = {
@@ -25113,7 +26622,8 @@ _G.pg.base.item_data_statistics[41439] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41440] = {
@@ -25135,7 +26645,8 @@ _G.pg.base.item_data_statistics[41440] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41441] = {
@@ -25157,7 +26668,8 @@ _G.pg.base.item_data_statistics[41441] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41442] = {
@@ -25179,7 +26691,8 @@ _G.pg.base.item_data_statistics[41442] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41443] = {
@@ -25201,7 +26714,8 @@ _G.pg.base.item_data_statistics[41443] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41444] = {
@@ -25223,7 +26737,8 @@ _G.pg.base.item_data_statistics[41444] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41445] = {
@@ -25245,7 +26760,8 @@ _G.pg.base.item_data_statistics[41445] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41446] = {
@@ -25267,7 +26783,8 @@ _G.pg.base.item_data_statistics[41446] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41447] = {
@@ -25289,7 +26806,8 @@ _G.pg.base.item_data_statistics[41447] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41448] = {
@@ -25311,7 +26829,8 @@ _G.pg.base.item_data_statistics[41448] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41449] = {
@@ -25333,7 +26852,8 @@ _G.pg.base.item_data_statistics[41449] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41450] = {
@@ -25355,7 +26875,8 @@ _G.pg.base.item_data_statistics[41450] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41451] = {
@@ -25377,7 +26898,8 @@ _G.pg.base.item_data_statistics[41451] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41452] = {
@@ -25399,7 +26921,8 @@ _G.pg.base.item_data_statistics[41452] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41453] = {
@@ -25421,7 +26944,8 @@ _G.pg.base.item_data_statistics[41453] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41454] = {
@@ -25443,7 +26967,8 @@ _G.pg.base.item_data_statistics[41454] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41455] = {
@@ -25465,7 +26990,8 @@ _G.pg.base.item_data_statistics[41455] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41456] = {
@@ -25487,7 +27013,8 @@ _G.pg.base.item_data_statistics[41456] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41457] = {
@@ -25509,7 +27036,8 @@ _G.pg.base.item_data_statistics[41457] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41458] = {
@@ -25531,7 +27059,8 @@ _G.pg.base.item_data_statistics[41458] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41459] = {
@@ -25553,7 +27082,8 @@ _G.pg.base.item_data_statistics[41459] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41460] = {
@@ -25575,7 +27105,8 @@ _G.pg.base.item_data_statistics[41460] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41461] = {
@@ -25597,7 +27128,8 @@ _G.pg.base.item_data_statistics[41461] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41462] = {
@@ -25619,7 +27151,8 @@ _G.pg.base.item_data_statistics[41462] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41463] = {
@@ -25641,7 +27174,8 @@ _G.pg.base.item_data_statistics[41463] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41464] = {
@@ -25663,7 +27197,8 @@ _G.pg.base.item_data_statistics[41464] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41465] = {
@@ -25685,7 +27220,8 @@ _G.pg.base.item_data_statistics[41465] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41466] = {
@@ -25707,7 +27243,8 @@ _G.pg.base.item_data_statistics[41466] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41467] = {
@@ -25729,7 +27266,8 @@ _G.pg.base.item_data_statistics[41467] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41468] = {
@@ -25751,7 +27289,8 @@ _G.pg.base.item_data_statistics[41468] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41469] = {
@@ -25773,7 +27312,8 @@ _G.pg.base.item_data_statistics[41469] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41470] = {
@@ -25795,7 +27335,8 @@ _G.pg.base.item_data_statistics[41470] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41471] = {
@@ -25817,7 +27358,8 @@ _G.pg.base.item_data_statistics[41471] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41472] = {
@@ -25839,7 +27381,8 @@ _G.pg.base.item_data_statistics[41472] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41473] = {
@@ -25861,7 +27404,8 @@ _G.pg.base.item_data_statistics[41473] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41474] = {
@@ -25883,7 +27427,8 @@ _G.pg.base.item_data_statistics[41474] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41475] = {
@@ -25905,7 +27450,8 @@ _G.pg.base.item_data_statistics[41475] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41476] = {
@@ -25927,7 +27473,8 @@ _G.pg.base.item_data_statistics[41476] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41477] = {
@@ -25949,7 +27496,8 @@ _G.pg.base.item_data_statistics[41477] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41478] = {
@@ -25971,7 +27519,8 @@ _G.pg.base.item_data_statistics[41478] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41479] = {
@@ -25993,7 +27542,8 @@ _G.pg.base.item_data_statistics[41479] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41480] = {
@@ -26015,7 +27565,8 @@ _G.pg.base.item_data_statistics[41480] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41481] = {
@@ -26037,7 +27588,8 @@ _G.pg.base.item_data_statistics[41481] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41498] = {
@@ -26059,7 +27611,8 @@ _G.pg.base.item_data_statistics[41498] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41499] = {
@@ -26081,7 +27634,8 @@ _G.pg.base.item_data_statistics[41499] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41500] = {
@@ -26103,7 +27657,8 @@ _G.pg.base.item_data_statistics[41500] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41501] = {
@@ -26125,7 +27680,8 @@ _G.pg.base.item_data_statistics[41501] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41502] = {
@@ -26147,7 +27703,8 @@ _G.pg.base.item_data_statistics[41502] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41503] = {
@@ -26169,7 +27726,8 @@ _G.pg.base.item_data_statistics[41503] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41601] = {
@@ -26191,7 +27749,8 @@ _G.pg.base.item_data_statistics[41601] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41602] = {
@@ -26213,7 +27772,8 @@ _G.pg.base.item_data_statistics[41602] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41603] = {
@@ -26235,7 +27795,8 @@ _G.pg.base.item_data_statistics[41603] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41604] = {
@@ -26257,7 +27818,8 @@ _G.pg.base.item_data_statistics[41604] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41605] = {
@@ -26279,7 +27841,8 @@ _G.pg.base.item_data_statistics[41605] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41606] = {
@@ -26301,7 +27864,8 @@ _G.pg.base.item_data_statistics[41606] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41607] = {
@@ -26323,7 +27887,8 @@ _G.pg.base.item_data_statistics[41607] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41608] = {
@@ -26345,7 +27910,8 @@ _G.pg.base.item_data_statistics[41608] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41609] = {
@@ -26367,7 +27933,8 @@ _G.pg.base.item_data_statistics[41609] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41610] = {
@@ -26389,7 +27956,8 @@ _G.pg.base.item_data_statistics[41610] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41611] = {
@@ -26411,7 +27979,8 @@ _G.pg.base.item_data_statistics[41611] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41612] = {
@@ -26433,7 +28002,8 @@ _G.pg.base.item_data_statistics[41612] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41613] = {
@@ -26455,7 +28025,8 @@ _G.pg.base.item_data_statistics[41613] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41614] = {
@@ -26477,7 +28048,8 @@ _G.pg.base.item_data_statistics[41614] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41615] = {
@@ -26499,7 +28071,8 @@ _G.pg.base.item_data_statistics[41615] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41616] = {
@@ -26521,7 +28094,8 @@ _G.pg.base.item_data_statistics[41616] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41617] = {
@@ -26543,7 +28117,8 @@ _G.pg.base.item_data_statistics[41617] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41618] = {
@@ -26565,7 +28140,8 @@ _G.pg.base.item_data_statistics[41618] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41619] = {
@@ -26587,7 +28163,8 @@ _G.pg.base.item_data_statistics[41619] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41620] = {
@@ -26609,7 +28186,8 @@ _G.pg.base.item_data_statistics[41620] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41621] = {
@@ -26631,7 +28209,8 @@ _G.pg.base.item_data_statistics[41621] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41622] = {
@@ -26653,7 +28232,8 @@ _G.pg.base.item_data_statistics[41622] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41623] = {
@@ -26675,7 +28255,8 @@ _G.pg.base.item_data_statistics[41623] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41624] = {
@@ -26697,7 +28278,8 @@ _G.pg.base.item_data_statistics[41624] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41625] = {
@@ -26719,7 +28301,8 @@ _G.pg.base.item_data_statistics[41625] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41626] = {
@@ -26741,7 +28324,8 @@ _G.pg.base.item_data_statistics[41626] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41627] = {
@@ -26763,7 +28347,8 @@ _G.pg.base.item_data_statistics[41627] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41628] = {
@@ -26785,7 +28370,8 @@ _G.pg.base.item_data_statistics[41628] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41629] = {
@@ -26807,7 +28393,8 @@ _G.pg.base.item_data_statistics[41629] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41630] = {
@@ -26829,7 +28416,8 @@ _G.pg.base.item_data_statistics[41630] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41631] = {
@@ -26851,7 +28439,8 @@ _G.pg.base.item_data_statistics[41631] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41632] = {
@@ -26873,7 +28462,8 @@ _G.pg.base.item_data_statistics[41632] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41633] = {
@@ -26895,7 +28485,8 @@ _G.pg.base.item_data_statistics[41633] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41634] = {
@@ -26917,7 +28508,8 @@ _G.pg.base.item_data_statistics[41634] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41635] = {
@@ -26939,7 +28531,8 @@ _G.pg.base.item_data_statistics[41635] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41636] = {
@@ -26961,7 +28554,8 @@ _G.pg.base.item_data_statistics[41636] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41637] = {
@@ -26983,7 +28577,8 @@ _G.pg.base.item_data_statistics[41637] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41638] = {
@@ -27005,7 +28600,8 @@ _G.pg.base.item_data_statistics[41638] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41639] = {
@@ -27027,7 +28623,8 @@ _G.pg.base.item_data_statistics[41639] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41640] = {
@@ -27049,7 +28646,8 @@ _G.pg.base.item_data_statistics[41640] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41641] = {
@@ -27071,7 +28669,8 @@ _G.pg.base.item_data_statistics[41641] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41642] = {
@@ -27093,7 +28692,8 @@ _G.pg.base.item_data_statistics[41642] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41643] = {
@@ -27115,7 +28715,8 @@ _G.pg.base.item_data_statistics[41643] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41644] = {
@@ -27137,7 +28738,8 @@ _G.pg.base.item_data_statistics[41644] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41645] = {
@@ -27159,7 +28761,8 @@ _G.pg.base.item_data_statistics[41645] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41646] = {
@@ -27181,7 +28784,8 @@ _G.pg.base.item_data_statistics[41646] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41647] = {
@@ -27203,7 +28807,8 @@ _G.pg.base.item_data_statistics[41647] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41648] = {
@@ -27225,7 +28830,8 @@ _G.pg.base.item_data_statistics[41648] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41649] = {
@@ -27247,7 +28853,8 @@ _G.pg.base.item_data_statistics[41649] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41650] = {
@@ -27269,7 +28876,8 @@ _G.pg.base.item_data_statistics[41650] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41651] = {
@@ -27291,7 +28899,8 @@ _G.pg.base.item_data_statistics[41651] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41652] = {
@@ -27313,7 +28922,8 @@ _G.pg.base.item_data_statistics[41652] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41653] = {
@@ -27335,7 +28945,8 @@ _G.pg.base.item_data_statistics[41653] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41654] = {
@@ -27357,7 +28968,8 @@ _G.pg.base.item_data_statistics[41654] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41655] = {
@@ -27379,7 +28991,8 @@ _G.pg.base.item_data_statistics[41655] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41656] = {
@@ -27401,7 +29014,8 @@ _G.pg.base.item_data_statistics[41656] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41657] = {
@@ -27423,7 +29037,8 @@ _G.pg.base.item_data_statistics[41657] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41658] = {
@@ -27445,7 +29060,8 @@ _G.pg.base.item_data_statistics[41658] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41659] = {
@@ -27467,7 +29083,8 @@ _G.pg.base.item_data_statistics[41659] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41660] = {
@@ -27489,7 +29106,8 @@ _G.pg.base.item_data_statistics[41660] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41661] = {
@@ -27511,7 +29129,8 @@ _G.pg.base.item_data_statistics[41661] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41662] = {
@@ -27533,7 +29152,8 @@ _G.pg.base.item_data_statistics[41662] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41663] = {
@@ -27555,7 +29175,8 @@ _G.pg.base.item_data_statistics[41663] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41664] = {
@@ -27577,7 +29198,8 @@ _G.pg.base.item_data_statistics[41664] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41665] = {
@@ -27599,7 +29221,8 @@ _G.pg.base.item_data_statistics[41665] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41666] = {
@@ -27621,7 +29244,8 @@ _G.pg.base.item_data_statistics[41666] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41667] = {
@@ -27643,7 +29267,8 @@ _G.pg.base.item_data_statistics[41667] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41668] = {
@@ -27665,7 +29290,8 @@ _G.pg.base.item_data_statistics[41668] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41669] = {
@@ -27687,7 +29313,8 @@ _G.pg.base.item_data_statistics[41669] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41670] = {
@@ -27709,7 +29336,8 @@ _G.pg.base.item_data_statistics[41670] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41671] = {
@@ -27731,7 +29359,8 @@ _G.pg.base.item_data_statistics[41671] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41672] = {
@@ -27753,7 +29382,8 @@ _G.pg.base.item_data_statistics[41672] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41673] = {
@@ -27775,7 +29405,8 @@ _G.pg.base.item_data_statistics[41673] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41674] = {
@@ -27797,7 +29428,8 @@ _G.pg.base.item_data_statistics[41674] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41675] = {
@@ -27819,7 +29451,8 @@ _G.pg.base.item_data_statistics[41675] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41676] = {
@@ -27841,7 +29474,8 @@ _G.pg.base.item_data_statistics[41676] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41677] = {
@@ -27863,7 +29497,8 @@ _G.pg.base.item_data_statistics[41677] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41678] = {
@@ -27885,7 +29520,8 @@ _G.pg.base.item_data_statistics[41678] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41679] = {
@@ -27907,7 +29543,8 @@ _G.pg.base.item_data_statistics[41679] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41680] = {
@@ -27929,7 +29566,8 @@ _G.pg.base.item_data_statistics[41680] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41681] = {
@@ -27951,7 +29589,8 @@ _G.pg.base.item_data_statistics[41681] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41682] = {
@@ -27973,7 +29612,8 @@ _G.pg.base.item_data_statistics[41682] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41683] = {
@@ -27995,7 +29635,8 @@ _G.pg.base.item_data_statistics[41683] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41684] = {
@@ -28017,7 +29658,8 @@ _G.pg.base.item_data_statistics[41684] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41685] = {
@@ -28039,7 +29681,8 @@ _G.pg.base.item_data_statistics[41685] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41686] = {
@@ -28061,7 +29704,8 @@ _G.pg.base.item_data_statistics[41686] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41687] = {
@@ -28083,7 +29727,8 @@ _G.pg.base.item_data_statistics[41687] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41688] = {
@@ -28105,7 +29750,8 @@ _G.pg.base.item_data_statistics[41688] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41689] = {
@@ -28127,7 +29773,8 @@ _G.pg.base.item_data_statistics[41689] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41690] = {
@@ -28149,7 +29796,8 @@ _G.pg.base.item_data_statistics[41690] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41691] = {
@@ -28171,7 +29819,8 @@ _G.pg.base.item_data_statistics[41691] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41692] = {
@@ -28193,7 +29842,8 @@ _G.pg.base.item_data_statistics[41692] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41693] = {
@@ -28215,7 +29865,8 @@ _G.pg.base.item_data_statistics[41693] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41694] = {
@@ -28237,7 +29888,8 @@ _G.pg.base.item_data_statistics[41694] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41695] = {
@@ -28259,7 +29911,8 @@ _G.pg.base.item_data_statistics[41695] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41696] = {
@@ -28281,7 +29934,8 @@ _G.pg.base.item_data_statistics[41696] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41697] = {
@@ -28303,7 +29957,8 @@ _G.pg.base.item_data_statistics[41697] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41698] = {
@@ -28325,7 +29980,8 @@ _G.pg.base.item_data_statistics[41698] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41699] = {
@@ -28347,7 +30003,8 @@ _G.pg.base.item_data_statistics[41699] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41700] = {
@@ -28369,7 +30026,8 @@ _G.pg.base.item_data_statistics[41700] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41701] = {
@@ -28391,7 +30049,8 @@ _G.pg.base.item_data_statistics[41701] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41702] = {
@@ -28413,7 +30072,8 @@ _G.pg.base.item_data_statistics[41702] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41703] = {
@@ -28435,7 +30095,8 @@ _G.pg.base.item_data_statistics[41703] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41704] = {
@@ -28457,7 +30118,8 @@ _G.pg.base.item_data_statistics[41704] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41705] = {
@@ -28479,7 +30141,8 @@ _G.pg.base.item_data_statistics[41705] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41706] = {
@@ -28501,7 +30164,8 @@ _G.pg.base.item_data_statistics[41706] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41707] = {
@@ -28523,7 +30187,8 @@ _G.pg.base.item_data_statistics[41707] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41708] = {
@@ -28545,7 +30210,8 @@ _G.pg.base.item_data_statistics[41708] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41709] = {
@@ -28567,7 +30233,8 @@ _G.pg.base.item_data_statistics[41709] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41710] = {
@@ -28589,7 +30256,8 @@ _G.pg.base.item_data_statistics[41710] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41711] = {
@@ -28611,7 +30279,8 @@ _G.pg.base.item_data_statistics[41711] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41712] = {
@@ -28633,7 +30302,8 @@ _G.pg.base.item_data_statistics[41712] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41713] = {
@@ -28655,7 +30325,8 @@ _G.pg.base.item_data_statistics[41713] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41714] = {
@@ -28677,7 +30348,8 @@ _G.pg.base.item_data_statistics[41714] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41715] = {
@@ -28699,7 +30371,8 @@ _G.pg.base.item_data_statistics[41715] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41716] = {
@@ -28721,7 +30394,8 @@ _G.pg.base.item_data_statistics[41716] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41717] = {
@@ -28743,7 +30417,8 @@ _G.pg.base.item_data_statistics[41717] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41718] = {
@@ -28765,7 +30440,8 @@ _G.pg.base.item_data_statistics[41718] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41719] = {
@@ -28787,7 +30463,8 @@ _G.pg.base.item_data_statistics[41719] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41720] = {
@@ -28809,7 +30486,8 @@ _G.pg.base.item_data_statistics[41720] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41721] = {
@@ -28831,7 +30509,8 @@ _G.pg.base.item_data_statistics[41721] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41722] = {
@@ -28853,7 +30532,8 @@ _G.pg.base.item_data_statistics[41722] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41723] = {
@@ -28875,7 +30555,8 @@ _G.pg.base.item_data_statistics[41723] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41724] = {
@@ -28897,7 +30578,8 @@ _G.pg.base.item_data_statistics[41724] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41725] = {
@@ -28919,7 +30601,8 @@ _G.pg.base.item_data_statistics[41725] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41726] = {
@@ -28941,7 +30624,8 @@ _G.pg.base.item_data_statistics[41726] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41727] = {
@@ -28963,7 +30647,8 @@ _G.pg.base.item_data_statistics[41727] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41728] = {
@@ -28985,7 +30670,8 @@ _G.pg.base.item_data_statistics[41728] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41729] = {
@@ -29007,7 +30693,8 @@ _G.pg.base.item_data_statistics[41729] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41730] = {
@@ -29029,7 +30716,8 @@ _G.pg.base.item_data_statistics[41730] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41731] = {
@@ -29051,7 +30739,8 @@ _G.pg.base.item_data_statistics[41731] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41732] = {
@@ -29073,7 +30762,8 @@ _G.pg.base.item_data_statistics[41732] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41733] = {
@@ -29095,7 +30785,8 @@ _G.pg.base.item_data_statistics[41733] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41734] = {
@@ -29117,7 +30808,8 @@ _G.pg.base.item_data_statistics[41734] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41735] = {
@@ -29139,7 +30831,8 @@ _G.pg.base.item_data_statistics[41735] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41736] = {
@@ -29161,7 +30854,8 @@ _G.pg.base.item_data_statistics[41736] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41737] = {
@@ -29183,7 +30877,8 @@ _G.pg.base.item_data_statistics[41737] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41738] = {
@@ -29205,7 +30900,8 @@ _G.pg.base.item_data_statistics[41738] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41739] = {
@@ -29227,7 +30923,8 @@ _G.pg.base.item_data_statistics[41739] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41740] = {
@@ -29249,7 +30946,8 @@ _G.pg.base.item_data_statistics[41740] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41741] = {
@@ -29271,7 +30969,8 @@ _G.pg.base.item_data_statistics[41741] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41742] = {
@@ -29293,7 +30992,8 @@ _G.pg.base.item_data_statistics[41742] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41743] = {
@@ -29315,7 +31015,8 @@ _G.pg.base.item_data_statistics[41743] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41744] = {
@@ -29337,7 +31038,8 @@ _G.pg.base.item_data_statistics[41744] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41745] = {
@@ -29359,7 +31061,8 @@ _G.pg.base.item_data_statistics[41745] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41746] = {
@@ -29381,7 +31084,8 @@ _G.pg.base.item_data_statistics[41746] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41747] = {
@@ -29403,7 +31107,8 @@ _G.pg.base.item_data_statistics[41747] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41748] = {
@@ -29425,7 +31130,8 @@ _G.pg.base.item_data_statistics[41748] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41749] = {
@@ -29447,7 +31153,8 @@ _G.pg.base.item_data_statistics[41749] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41750] = {
@@ -29469,7 +31176,8 @@ _G.pg.base.item_data_statistics[41750] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41751] = {
@@ -29491,7 +31199,8 @@ _G.pg.base.item_data_statistics[41751] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41752] = {
@@ -29513,7 +31222,8 @@ _G.pg.base.item_data_statistics[41752] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41753] = {
@@ -29535,7 +31245,8 @@ _G.pg.base.item_data_statistics[41753] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41754] = {
@@ -29557,7 +31268,8 @@ _G.pg.base.item_data_statistics[41754] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41755] = {
@@ -29579,7 +31291,8 @@ _G.pg.base.item_data_statistics[41755] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41756] = {
@@ -29601,7 +31314,8 @@ _G.pg.base.item_data_statistics[41756] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41757] = {
@@ -29623,7 +31337,8 @@ _G.pg.base.item_data_statistics[41757] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41758] = {
@@ -29645,7 +31360,8 @@ _G.pg.base.item_data_statistics[41758] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41759] = {
@@ -29667,7 +31383,8 @@ _G.pg.base.item_data_statistics[41759] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41760] = {
@@ -29689,7 +31406,8 @@ _G.pg.base.item_data_statistics[41760] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41761] = {
@@ -29711,7 +31429,8 @@ _G.pg.base.item_data_statistics[41761] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41762] = {
@@ -29733,7 +31452,8 @@ _G.pg.base.item_data_statistics[41762] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41763] = {
@@ -29755,7 +31475,8 @@ _G.pg.base.item_data_statistics[41763] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41764] = {
@@ -29777,7 +31498,8 @@ _G.pg.base.item_data_statistics[41764] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41765] = {
@@ -29799,7 +31521,8 @@ _G.pg.base.item_data_statistics[41765] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41766] = {
@@ -29821,7 +31544,8 @@ _G.pg.base.item_data_statistics[41766] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41767] = {
@@ -29843,7 +31567,8 @@ _G.pg.base.item_data_statistics[41767] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41768] = {
@@ -29865,7 +31590,8 @@ _G.pg.base.item_data_statistics[41768] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41769] = {
@@ -29887,7 +31613,8 @@ _G.pg.base.item_data_statistics[41769] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41770] = {
@@ -29909,7 +31636,8 @@ _G.pg.base.item_data_statistics[41770] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41771] = {
@@ -29931,7 +31659,8 @@ _G.pg.base.item_data_statistics[41771] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41772] = {
@@ -29953,7 +31682,8 @@ _G.pg.base.item_data_statistics[41772] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41773] = {
@@ -29975,7 +31705,8 @@ _G.pg.base.item_data_statistics[41773] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41774] = {
@@ -29997,7 +31728,8 @@ _G.pg.base.item_data_statistics[41774] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41775] = {
@@ -30019,7 +31751,8 @@ _G.pg.base.item_data_statistics[41775] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41776] = {
@@ -30041,7 +31774,8 @@ _G.pg.base.item_data_statistics[41776] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41777] = {
@@ -30063,7 +31797,8 @@ _G.pg.base.item_data_statistics[41777] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41778] = {
@@ -30085,7 +31820,8 @@ _G.pg.base.item_data_statistics[41778] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41779] = {
@@ -30107,7 +31843,8 @@ _G.pg.base.item_data_statistics[41779] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41780] = {
@@ -30129,7 +31866,8 @@ _G.pg.base.item_data_statistics[41780] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41781] = {
@@ -30151,7 +31889,8 @@ _G.pg.base.item_data_statistics[41781] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41782] = {
@@ -30173,7 +31912,8 @@ _G.pg.base.item_data_statistics[41782] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41783] = {
@@ -30195,7 +31935,8 @@ _G.pg.base.item_data_statistics[41783] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41784] = {
@@ -30217,7 +31958,8 @@ _G.pg.base.item_data_statistics[41784] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41785] = {
@@ -30239,7 +31981,8 @@ _G.pg.base.item_data_statistics[41785] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41786] = {
@@ -30261,7 +32004,8 @@ _G.pg.base.item_data_statistics[41786] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41787] = {
@@ -30283,7 +32027,8 @@ _G.pg.base.item_data_statistics[41787] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41788] = {
@@ -30305,7 +32050,8 @@ _G.pg.base.item_data_statistics[41788] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41789] = {
@@ -30327,7 +32073,8 @@ _G.pg.base.item_data_statistics[41789] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41790] = {
@@ -30349,7 +32096,8 @@ _G.pg.base.item_data_statistics[41790] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41791] = {
@@ -30371,7 +32119,8 @@ _G.pg.base.item_data_statistics[41791] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41792] = {
@@ -30393,7 +32142,8 @@ _G.pg.base.item_data_statistics[41792] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41793] = {
@@ -30415,7 +32165,8 @@ _G.pg.base.item_data_statistics[41793] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41794] = {
@@ -30437,7 +32188,8 @@ _G.pg.base.item_data_statistics[41794] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41795] = {
@@ -30459,7 +32211,8 @@ _G.pg.base.item_data_statistics[41795] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41796] = {
@@ -30481,7 +32234,8 @@ _G.pg.base.item_data_statistics[41796] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41797] = {
@@ -30503,7 +32257,8 @@ _G.pg.base.item_data_statistics[41797] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41798] = {
@@ -30525,7 +32280,8 @@ _G.pg.base.item_data_statistics[41798] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41799] = {
@@ -30547,7 +32303,8 @@ _G.pg.base.item_data_statistics[41799] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41800] = {
@@ -30569,7 +32326,8 @@ _G.pg.base.item_data_statistics[41800] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41801] = {
@@ -30591,7 +32349,8 @@ _G.pg.base.item_data_statistics[41801] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41802] = {
@@ -30613,7 +32372,8 @@ _G.pg.base.item_data_statistics[41802] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41803] = {
@@ -30635,7 +32395,8 @@ _G.pg.base.item_data_statistics[41803] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41804] = {
@@ -30657,7 +32418,8 @@ _G.pg.base.item_data_statistics[41804] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41805] = {
@@ -30679,7 +32441,8 @@ _G.pg.base.item_data_statistics[41805] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41806] = {
@@ -30701,7 +32464,8 @@ _G.pg.base.item_data_statistics[41806] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41807] = {
@@ -30723,7 +32487,8 @@ _G.pg.base.item_data_statistics[41807] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41808] = {
@@ -30745,7 +32510,8 @@ _G.pg.base.item_data_statistics[41808] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41809] = {
@@ -30767,7 +32533,8 @@ _G.pg.base.item_data_statistics[41809] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41810] = {
@@ -30789,7 +32556,8 @@ _G.pg.base.item_data_statistics[41810] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41811] = {
@@ -30811,7 +32579,8 @@ _G.pg.base.item_data_statistics[41811] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41812] = {
@@ -30833,7 +32602,8 @@ _G.pg.base.item_data_statistics[41812] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41813] = {
@@ -30855,7 +32625,8 @@ _G.pg.base.item_data_statistics[41813] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41814] = {
@@ -30877,7 +32648,8 @@ _G.pg.base.item_data_statistics[41814] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41815] = {
@@ -30899,7 +32671,8 @@ _G.pg.base.item_data_statistics[41815] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41816] = {
@@ -30921,7 +32694,8 @@ _G.pg.base.item_data_statistics[41816] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41817] = {
@@ -30943,7 +32717,8 @@ _G.pg.base.item_data_statistics[41817] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41818] = {
@@ -30965,7 +32740,8 @@ _G.pg.base.item_data_statistics[41818] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41819] = {
@@ -30987,7 +32763,8 @@ _G.pg.base.item_data_statistics[41819] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41820] = {
@@ -31009,7 +32786,8 @@ _G.pg.base.item_data_statistics[41820] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41821] = {
@@ -31031,7 +32809,8 @@ _G.pg.base.item_data_statistics[41821] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41822] = {
@@ -31053,7 +32832,8 @@ _G.pg.base.item_data_statistics[41822] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41823] = {
@@ -31075,7 +32855,8 @@ _G.pg.base.item_data_statistics[41823] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41824] = {
@@ -31097,7 +32878,8 @@ _G.pg.base.item_data_statistics[41824] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41825] = {
@@ -31119,7 +32901,8 @@ _G.pg.base.item_data_statistics[41825] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41826] = {
@@ -31141,7 +32924,8 @@ _G.pg.base.item_data_statistics[41826] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41827] = {
@@ -31163,7 +32947,8 @@ _G.pg.base.item_data_statistics[41827] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41828] = {
@@ -31185,7 +32970,8 @@ _G.pg.base.item_data_statistics[41828] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41829] = {
@@ -31207,7 +32993,8 @@ _G.pg.base.item_data_statistics[41829] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41830] = {
@@ -31229,7 +33016,8 @@ _G.pg.base.item_data_statistics[41830] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41831] = {
@@ -31251,7 +33039,8 @@ _G.pg.base.item_data_statistics[41831] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41832] = {
@@ -31273,7 +33062,8 @@ _G.pg.base.item_data_statistics[41832] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41833] = {
@@ -31295,7 +33085,8 @@ _G.pg.base.item_data_statistics[41833] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41834] = {
@@ -31317,7 +33108,8 @@ _G.pg.base.item_data_statistics[41834] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41835] = {
@@ -31339,7 +33131,8 @@ _G.pg.base.item_data_statistics[41835] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41836] = {
@@ -31361,7 +33154,8 @@ _G.pg.base.item_data_statistics[41836] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41837] = {
@@ -31383,7 +33177,8 @@ _G.pg.base.item_data_statistics[41837] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41838] = {
@@ -31405,7 +33200,8 @@ _G.pg.base.item_data_statistics[41838] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41839] = {
@@ -31427,7 +33223,8 @@ _G.pg.base.item_data_statistics[41839] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41840] = {
@@ -31449,7 +33246,8 @@ _G.pg.base.item_data_statistics[41840] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41841] = {
@@ -31471,7 +33269,8 @@ _G.pg.base.item_data_statistics[41841] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41842] = {
@@ -31493,7 +33292,8 @@ _G.pg.base.item_data_statistics[41842] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41843] = {
@@ -31515,7 +33315,8 @@ _G.pg.base.item_data_statistics[41843] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41844] = {
@@ -31537,7 +33338,8 @@ _G.pg.base.item_data_statistics[41844] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41845] = {
@@ -31559,7 +33361,8 @@ _G.pg.base.item_data_statistics[41845] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41846] = {
@@ -31581,7 +33384,8 @@ _G.pg.base.item_data_statistics[41846] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41847] = {
@@ -31603,7 +33407,8 @@ _G.pg.base.item_data_statistics[41847] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41848] = {
@@ -31625,7 +33430,8 @@ _G.pg.base.item_data_statistics[41848] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41849] = {
@@ -31647,7 +33453,8 @@ _G.pg.base.item_data_statistics[41849] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41850] = {
@@ -31669,7 +33476,8 @@ _G.pg.base.item_data_statistics[41850] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41851] = {
@@ -31691,7 +33499,8 @@ _G.pg.base.item_data_statistics[41851] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41852] = {
@@ -31713,7 +33522,8 @@ _G.pg.base.item_data_statistics[41852] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41853] = {
@@ -31735,7 +33545,8 @@ _G.pg.base.item_data_statistics[41853] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41854] = {
@@ -31757,7 +33568,8 @@ _G.pg.base.item_data_statistics[41854] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41855] = {
@@ -31779,7 +33591,8 @@ _G.pg.base.item_data_statistics[41855] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41856] = {
@@ -31801,7 +33614,8 @@ _G.pg.base.item_data_statistics[41856] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41857] = {
@@ -31823,7 +33637,8 @@ _G.pg.base.item_data_statistics[41857] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41858] = {
@@ -31845,7 +33660,8 @@ _G.pg.base.item_data_statistics[41858] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41859] = {
@@ -31867,7 +33683,8 @@ _G.pg.base.item_data_statistics[41859] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41860] = {
@@ -31889,7 +33706,8 @@ _G.pg.base.item_data_statistics[41860] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41861] = {
@@ -31911,7 +33729,8 @@ _G.pg.base.item_data_statistics[41861] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41862] = {
@@ -31933,7 +33752,8 @@ _G.pg.base.item_data_statistics[41862] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41863] = {
@@ -31955,7 +33775,8 @@ _G.pg.base.item_data_statistics[41863] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41864] = {
@@ -31977,7 +33798,8 @@ _G.pg.base.item_data_statistics[41864] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41865] = {
@@ -31999,7 +33821,8 @@ _G.pg.base.item_data_statistics[41865] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41866] = {
@@ -32021,7 +33844,8 @@ _G.pg.base.item_data_statistics[41866] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41867] = {
@@ -32043,7 +33867,8 @@ _G.pg.base.item_data_statistics[41867] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41868] = {
@@ -32065,7 +33890,8 @@ _G.pg.base.item_data_statistics[41868] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41869] = {
@@ -32087,7 +33913,8 @@ _G.pg.base.item_data_statistics[41869] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41870] = {
@@ -32109,7 +33936,8 @@ _G.pg.base.item_data_statistics[41870] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41871] = {
@@ -32131,7 +33959,8 @@ _G.pg.base.item_data_statistics[41871] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41872] = {
@@ -32153,7 +33982,8 @@ _G.pg.base.item_data_statistics[41872] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41873] = {
@@ -32175,7 +34005,8 @@ _G.pg.base.item_data_statistics[41873] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41874] = {
@@ -32197,7 +34028,8 @@ _G.pg.base.item_data_statistics[41874] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41875] = {
@@ -32219,7 +34051,8 @@ _G.pg.base.item_data_statistics[41875] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41876] = {
@@ -32241,7 +34074,8 @@ _G.pg.base.item_data_statistics[41876] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41877] = {
@@ -32263,7 +34097,8 @@ _G.pg.base.item_data_statistics[41877] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41878] = {
@@ -32285,7 +34120,8 @@ _G.pg.base.item_data_statistics[41878] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41879] = {
@@ -32307,7 +34143,8 @@ _G.pg.base.item_data_statistics[41879] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41880] = {
@@ -32329,7 +34166,8 @@ _G.pg.base.item_data_statistics[41880] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41881] = {
@@ -32351,7 +34189,8 @@ _G.pg.base.item_data_statistics[41881] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41882] = {
@@ -32373,7 +34212,8 @@ _G.pg.base.item_data_statistics[41882] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41883] = {
@@ -32395,7 +34235,8 @@ _G.pg.base.item_data_statistics[41883] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41884] = {
@@ -32417,7 +34258,8 @@ _G.pg.base.item_data_statistics[41884] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41885] = {
@@ -32439,7 +34281,8 @@ _G.pg.base.item_data_statistics[41885] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41886] = {
@@ -32461,7 +34304,8 @@ _G.pg.base.item_data_statistics[41886] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41887] = {
@@ -32483,7 +34327,8 @@ _G.pg.base.item_data_statistics[41887] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41888] = {
@@ -32505,7 +34350,8 @@ _G.pg.base.item_data_statistics[41888] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41889] = {
@@ -32527,7 +34373,8 @@ _G.pg.base.item_data_statistics[41889] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41890] = {
@@ -32549,7 +34396,8 @@ _G.pg.base.item_data_statistics[41890] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41891] = {
@@ -32571,7 +34419,8 @@ _G.pg.base.item_data_statistics[41891] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41892] = {
@@ -32593,7 +34442,8 @@ _G.pg.base.item_data_statistics[41892] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41893] = {
@@ -32615,7 +34465,8 @@ _G.pg.base.item_data_statistics[41893] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41894] = {
@@ -32637,7 +34488,8 @@ _G.pg.base.item_data_statistics[41894] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41895] = {
@@ -32659,7 +34511,8 @@ _G.pg.base.item_data_statistics[41895] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41896] = {
@@ -32681,7 +34534,8 @@ _G.pg.base.item_data_statistics[41896] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41897] = {
@@ -32703,7 +34557,8 @@ _G.pg.base.item_data_statistics[41897] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41898] = {
@@ -32725,7 +34580,8 @@ _G.pg.base.item_data_statistics[41898] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41899] = {
@@ -32747,7 +34603,8 @@ _G.pg.base.item_data_statistics[41899] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41900] = {
@@ -32769,7 +34626,8 @@ _G.pg.base.item_data_statistics[41900] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41901] = {
@@ -32791,7 +34649,8 @@ _G.pg.base.item_data_statistics[41901] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41902] = {
@@ -32813,7 +34672,8 @@ _G.pg.base.item_data_statistics[41902] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41903] = {
@@ -32835,7 +34695,8 @@ _G.pg.base.item_data_statistics[41903] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41904] = {
@@ -32857,7 +34718,8 @@ _G.pg.base.item_data_statistics[41904] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41905] = {
@@ -32879,7 +34741,8 @@ _G.pg.base.item_data_statistics[41905] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41906] = {
@@ -32901,7 +34764,8 @@ _G.pg.base.item_data_statistics[41906] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41907] = {
@@ -32923,7 +34787,8 @@ _G.pg.base.item_data_statistics[41907] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41908] = {
@@ -32945,7 +34810,8 @@ _G.pg.base.item_data_statistics[41908] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41909] = {
@@ -32967,7 +34833,8 @@ _G.pg.base.item_data_statistics[41909] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41910] = {
@@ -32989,7 +34856,8 @@ _G.pg.base.item_data_statistics[41910] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41911] = {
@@ -33011,7 +34879,8 @@ _G.pg.base.item_data_statistics[41911] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41912] = {
@@ -33033,7 +34902,8 @@ _G.pg.base.item_data_statistics[41912] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41913] = {
@@ -33055,7 +34925,8 @@ _G.pg.base.item_data_statistics[41913] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41914] = {
@@ -33077,7 +34948,8 @@ _G.pg.base.item_data_statistics[41914] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41915] = {
@@ -33099,7 +34971,8 @@ _G.pg.base.item_data_statistics[41915] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41916] = {
@@ -33121,7 +34994,8 @@ _G.pg.base.item_data_statistics[41916] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41917] = {
@@ -33143,7 +35017,8 @@ _G.pg.base.item_data_statistics[41917] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41918] = {
@@ -33165,7 +35040,8 @@ _G.pg.base.item_data_statistics[41918] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41919] = {
@@ -33187,7 +35063,8 @@ _G.pg.base.item_data_statistics[41919] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41921] = {
@@ -33209,7 +35086,8 @@ _G.pg.base.item_data_statistics[41921] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41922] = {
@@ -33231,7 +35109,8 @@ _G.pg.base.item_data_statistics[41922] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41923] = {
@@ -33253,7 +35132,8 @@ _G.pg.base.item_data_statistics[41923] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41924] = {
@@ -33275,7 +35155,8 @@ _G.pg.base.item_data_statistics[41924] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41925] = {
@@ -33297,7 +35178,8 @@ _G.pg.base.item_data_statistics[41925] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41926] = {
@@ -33319,7 +35201,8 @@ _G.pg.base.item_data_statistics[41926] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41927] = {
@@ -33341,7 +35224,8 @@ _G.pg.base.item_data_statistics[41927] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41928] = {
@@ -33363,7 +35247,8 @@ _G.pg.base.item_data_statistics[41928] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41929] = {
@@ -33385,7 +35270,8 @@ _G.pg.base.item_data_statistics[41929] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41930] = {
@@ -33407,7 +35293,8 @@ _G.pg.base.item_data_statistics[41930] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41931] = {
@@ -33429,7 +35316,8 @@ _G.pg.base.item_data_statistics[41931] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41932] = {
@@ -33451,7 +35339,8 @@ _G.pg.base.item_data_statistics[41932] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41933] = {
@@ -33473,7 +35362,8 @@ _G.pg.base.item_data_statistics[41933] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41934] = {
@@ -33495,7 +35385,8 @@ _G.pg.base.item_data_statistics[41934] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41935] = {
@@ -33517,7 +35408,8 @@ _G.pg.base.item_data_statistics[41935] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41936] = {
@@ -33539,7 +35431,8 @@ _G.pg.base.item_data_statistics[41936] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41937] = {
@@ -33561,7 +35454,8 @@ _G.pg.base.item_data_statistics[41937] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41938] = {
@@ -33583,7 +35477,8 @@ _G.pg.base.item_data_statistics[41938] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41939] = {
@@ -33605,7 +35500,8 @@ _G.pg.base.item_data_statistics[41939] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41940] = {
@@ -33627,7 +35523,8 @@ _G.pg.base.item_data_statistics[41940] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41941] = {
@@ -33649,7 +35546,8 @@ _G.pg.base.item_data_statistics[41941] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41942] = {
@@ -33671,7 +35569,8 @@ _G.pg.base.item_data_statistics[41942] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41943] = {
@@ -33693,7 +35592,8 @@ _G.pg.base.item_data_statistics[41943] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41944] = {
@@ -33715,7 +35615,8 @@ _G.pg.base.item_data_statistics[41944] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41945] = {
@@ -33737,7 +35638,8 @@ _G.pg.base.item_data_statistics[41945] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41946] = {
@@ -33759,7 +35661,8 @@ _G.pg.base.item_data_statistics[41946] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41947] = {
@@ -33781,7 +35684,8 @@ _G.pg.base.item_data_statistics[41947] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41948] = {
@@ -33803,7 +35707,8 @@ _G.pg.base.item_data_statistics[41948] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41949] = {
@@ -33825,7 +35730,8 @@ _G.pg.base.item_data_statistics[41949] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41950] = {
@@ -33847,7 +35753,8 @@ _G.pg.base.item_data_statistics[41950] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41951] = {
@@ -33869,7 +35776,8 @@ _G.pg.base.item_data_statistics[41951] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41952] = {
@@ -33891,7 +35799,8 @@ _G.pg.base.item_data_statistics[41952] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41953] = {
@@ -33913,7 +35822,8 @@ _G.pg.base.item_data_statistics[41953] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41954] = {
@@ -33935,7 +35845,8 @@ _G.pg.base.item_data_statistics[41954] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41955] = {
@@ -33957,7 +35868,8 @@ _G.pg.base.item_data_statistics[41955] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41956] = {
@@ -33979,7 +35891,8 @@ _G.pg.base.item_data_statistics[41956] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41957] = {
@@ -34001,7 +35914,8 @@ _G.pg.base.item_data_statistics[41957] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41958] = {
@@ -34023,7 +35937,8 @@ _G.pg.base.item_data_statistics[41958] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41959] = {
@@ -34045,7 +35960,8 @@ _G.pg.base.item_data_statistics[41959] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41960] = {
@@ -34067,7 +35983,8 @@ _G.pg.base.item_data_statistics[41960] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[41961] = {
@@ -34089,7 +36006,8 @@ _G.pg.base.item_data_statistics[41961] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42000] = {
@@ -34142,7 +36060,8 @@ _G.pg.base.item_data_statistics[42000] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42001] = {
@@ -34167,7 +36086,8 @@ _G.pg.base.item_data_statistics[42001] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42002] = {
@@ -34192,7 +36112,8 @@ _G.pg.base.item_data_statistics[42002] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42003] = {
@@ -34217,7 +36138,8 @@ _G.pg.base.item_data_statistics[42003] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42004] = {
@@ -34242,7 +36164,8 @@ _G.pg.base.item_data_statistics[42004] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42005] = {
@@ -34267,7 +36190,8 @@ _G.pg.base.item_data_statistics[42005] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42006] = {
@@ -34292,7 +36216,8 @@ _G.pg.base.item_data_statistics[42006] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42010] = {
@@ -34365,7 +36290,8 @@ _G.pg.base.item_data_statistics[42010] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42011] = {
@@ -34390,7 +36316,8 @@ _G.pg.base.item_data_statistics[42011] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42012] = {
@@ -34415,7 +36342,8 @@ _G.pg.base.item_data_statistics[42012] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42013] = {
@@ -34440,7 +36368,8 @@ _G.pg.base.item_data_statistics[42013] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42014] = {
@@ -34465,7 +36394,8 @@ _G.pg.base.item_data_statistics[42014] = {
 		20
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42015] = {
@@ -34490,7 +36420,8 @@ _G.pg.base.item_data_statistics[42015] = {
 		20
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42016] = {
@@ -34515,7 +36446,8 @@ _G.pg.base.item_data_statistics[42016] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42017] = {
@@ -34548,7 +36480,8 @@ _G.pg.base.item_data_statistics[42017] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42020] = {
@@ -34641,7 +36574,8 @@ _G.pg.base.item_data_statistics[42020] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42021] = {
@@ -34666,7 +36600,8 @@ _G.pg.base.item_data_statistics[42021] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42022] = {
@@ -34691,7 +36626,8 @@ _G.pg.base.item_data_statistics[42022] = {
 		20
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42023] = {
@@ -34716,7 +36652,8 @@ _G.pg.base.item_data_statistics[42023] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42024] = {
@@ -34741,7 +36678,8 @@ _G.pg.base.item_data_statistics[42024] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42025] = {
@@ -34766,7 +36704,8 @@ _G.pg.base.item_data_statistics[42025] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42026] = {
@@ -34804,7 +36743,8 @@ _G.pg.base.item_data_statistics[42026] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42030] = {
@@ -34912,7 +36852,8 @@ _G.pg.base.item_data_statistics[42030] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42031] = {
@@ -34937,7 +36878,8 @@ _G.pg.base.item_data_statistics[42031] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42032] = {
@@ -34962,7 +36904,8 @@ _G.pg.base.item_data_statistics[42032] = {
 		20
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42033] = {
@@ -34987,7 +36930,8 @@ _G.pg.base.item_data_statistics[42033] = {
 		20
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42034] = {
@@ -35012,7 +36956,8 @@ _G.pg.base.item_data_statistics[42034] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42035] = {
@@ -35037,7 +36982,8 @@ _G.pg.base.item_data_statistics[42035] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42036] = {
@@ -35085,7 +37031,8 @@ _G.pg.base.item_data_statistics[42036] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42040] = {
@@ -35208,7 +37155,8 @@ _G.pg.base.item_data_statistics[42040] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42041] = {
@@ -35233,7 +37181,8 @@ _G.pg.base.item_data_statistics[42041] = {
 		20
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42042] = {
@@ -35258,7 +37207,8 @@ _G.pg.base.item_data_statistics[42042] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42043] = {
@@ -35283,7 +37233,8 @@ _G.pg.base.item_data_statistics[42043] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42044] = {
@@ -35308,7 +37259,8 @@ _G.pg.base.item_data_statistics[42044] = {
 		5
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42045] = {
@@ -35333,7 +37285,8 @@ _G.pg.base.item_data_statistics[42045] = {
 		20
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[42046] = {
@@ -35391,7 +37344,8 @@ _G.pg.base.item_data_statistics[42046] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[44001] = {
@@ -35413,7 +37367,8 @@ _G.pg.base.item_data_statistics[44001] = {
 	id = 44001,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[50001] = {
@@ -35438,7 +37393,8 @@ _G.pg.base.item_data_statistics[50001] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[50002] = {
@@ -35463,7 +37419,8 @@ _G.pg.base.item_data_statistics[50002] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[50003] = {
@@ -35488,7 +37445,8 @@ _G.pg.base.item_data_statistics[50003] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[50004] = {
@@ -35513,7 +37471,8 @@ _G.pg.base.item_data_statistics[50004] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[50005] = {
@@ -35538,7 +37497,8 @@ _G.pg.base.item_data_statistics[50005] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[50006] = {
@@ -35563,7 +37523,8 @@ _G.pg.base.item_data_statistics[50006] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[51001] = {
@@ -35596,7 +37557,8 @@ _G.pg.base.item_data_statistics[51001] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[51002] = {
@@ -35629,7 +37591,8 @@ _G.pg.base.item_data_statistics[51002] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[51003] = {
@@ -35662,7 +37625,8 @@ _G.pg.base.item_data_statistics[51003] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[51004] = {
@@ -35695,7 +37659,8 @@ _G.pg.base.item_data_statistics[51004] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[51005] = {
@@ -35728,7 +37693,8 @@ _G.pg.base.item_data_statistics[51005] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[51006] = {
@@ -35761,7 +37727,8 @@ _G.pg.base.item_data_statistics[51006] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[51007] = {
@@ -35794,7 +37761,8 @@ _G.pg.base.item_data_statistics[51007] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[51008] = {
@@ -35827,7 +37795,8 @@ _G.pg.base.item_data_statistics[51008] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[51009] = {
@@ -35860,7 +37829,8 @@ _G.pg.base.item_data_statistics[51009] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[51010] = {
@@ -35893,7 +37863,8 @@ _G.pg.base.item_data_statistics[51010] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52001] = {
@@ -35946,7 +37917,8 @@ _G.pg.base.item_data_statistics[52001] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52002] = {
@@ -36024,7 +37996,8 @@ _G.pg.base.item_data_statistics[52002] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52003] = {
@@ -36172,7 +38145,8 @@ _G.pg.base.item_data_statistics[52003] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52004] = {
@@ -36194,7 +38168,8 @@ _G.pg.base.item_data_statistics[52004] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52011] = {
@@ -36247,7 +38222,8 @@ _G.pg.base.item_data_statistics[52011] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52012] = {
@@ -36325,7 +38301,8 @@ _G.pg.base.item_data_statistics[52012] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52021] = {
@@ -36373,7 +38350,8 @@ _G.pg.base.item_data_statistics[52021] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52022] = {
@@ -36451,7 +38429,8 @@ _G.pg.base.item_data_statistics[52022] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52031] = {
@@ -36499,7 +38478,8 @@ _G.pg.base.item_data_statistics[52031] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52032] = {
@@ -36577,7 +38557,8 @@ _G.pg.base.item_data_statistics[52032] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52033] = {
@@ -36725,7 +38706,8 @@ _G.pg.base.item_data_statistics[52033] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52040] = {
@@ -36808,7 +38790,8 @@ _G.pg.base.item_data_statistics[52040] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52041] = {
@@ -36951,7 +38934,8 @@ _G.pg.base.item_data_statistics[52041] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52050] = {
@@ -36984,7 +38968,8 @@ _G.pg.base.item_data_statistics[52050] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52051] = {
@@ -37022,7 +39007,8 @@ _G.pg.base.item_data_statistics[52051] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52061] = {
@@ -37070,7 +39056,8 @@ _G.pg.base.item_data_statistics[52061] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[52062] = {
@@ -37148,7 +39135,8 @@ _G.pg.base.item_data_statistics[52062] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53000] = {
@@ -37211,7 +39199,8 @@ _G.pg.base.item_data_statistics[53000] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53010] = {
@@ -37274,7 +39263,8 @@ _G.pg.base.item_data_statistics[53010] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53011] = {
@@ -37337,7 +39327,8 @@ _G.pg.base.item_data_statistics[53011] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53020] = {
@@ -37420,7 +39411,8 @@ _G.pg.base.item_data_statistics[53020] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53021] = {
@@ -37503,7 +39495,8 @@ _G.pg.base.item_data_statistics[53021] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53022] = {
@@ -37586,7 +39579,8 @@ _G.pg.base.item_data_statistics[53022] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53030] = {
@@ -37669,7 +39663,8 @@ _G.pg.base.item_data_statistics[53030] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53031] = {
@@ -37752,7 +39747,8 @@ _G.pg.base.item_data_statistics[53031] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53032] = {
@@ -37835,7 +39831,8 @@ _G.pg.base.item_data_statistics[53032] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53033] = {
@@ -37918,7 +39915,8 @@ _G.pg.base.item_data_statistics[53033] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53040] = {
@@ -38056,7 +40054,8 @@ _G.pg.base.item_data_statistics[53040] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53041] = {
@@ -38194,7 +40193,8 @@ _G.pg.base.item_data_statistics[53041] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53042] = {
@@ -38332,7 +40332,8 @@ _G.pg.base.item_data_statistics[53042] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53043] = {
@@ -38470,7 +40471,8 @@ _G.pg.base.item_data_statistics[53043] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53044] = {
@@ -38598,7 +40600,8 @@ _G.pg.base.item_data_statistics[53044] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53050] = {
@@ -38726,7 +40729,8 @@ _G.pg.base.item_data_statistics[53050] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53051] = {
@@ -38854,7 +40858,8 @@ _G.pg.base.item_data_statistics[53051] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53052] = {
@@ -38982,7 +40987,8 @@ _G.pg.base.item_data_statistics[53052] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53053] = {
@@ -39110,7 +41116,8 @@ _G.pg.base.item_data_statistics[53053] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53054] = {
@@ -39238,7 +41245,8 @@ _G.pg.base.item_data_statistics[53054] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53055] = {
@@ -39366,7 +41374,8 @@ _G.pg.base.item_data_statistics[53055] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53060] = {
@@ -39504,7 +41513,8 @@ _G.pg.base.item_data_statistics[53060] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53061] = {
@@ -39642,7 +41652,8 @@ _G.pg.base.item_data_statistics[53061] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53062] = {
@@ -39780,7 +41791,8 @@ _G.pg.base.item_data_statistics[53062] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53063] = {
@@ -39918,7 +41930,8 @@ _G.pg.base.item_data_statistics[53063] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53064] = {
@@ -40056,7 +42069,8 @@ _G.pg.base.item_data_statistics[53064] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53065] = {
@@ -40194,7 +42208,8 @@ _G.pg.base.item_data_statistics[53065] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53066] = {
@@ -40332,7 +42347,8 @@ _G.pg.base.item_data_statistics[53066] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53070] = {
@@ -40485,7 +42501,8 @@ _G.pg.base.item_data_statistics[53070] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53071] = {
@@ -40638,7 +42655,8 @@ _G.pg.base.item_data_statistics[53071] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53072] = {
@@ -40791,7 +42809,8 @@ _G.pg.base.item_data_statistics[53072] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53073] = {
@@ -40944,7 +42963,8 @@ _G.pg.base.item_data_statistics[53073] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53074] = {
@@ -41097,7 +43117,8 @@ _G.pg.base.item_data_statistics[53074] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53075] = {
@@ -41250,7 +43271,8 @@ _G.pg.base.item_data_statistics[53075] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53076] = {
@@ -41403,7 +43425,8 @@ _G.pg.base.item_data_statistics[53076] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53077] = {
@@ -41506,7 +43529,8 @@ _G.pg.base.item_data_statistics[53077] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53080] = {
@@ -41554,7 +43578,8 @@ _G.pg.base.item_data_statistics[53080] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53081] = {
@@ -41602,7 +43627,8 @@ _G.pg.base.item_data_statistics[53081] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53082] = {
@@ -41650,7 +43676,8 @@ _G.pg.base.item_data_statistics[53082] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53083] = {
@@ -41698,7 +43725,8 @@ _G.pg.base.item_data_statistics[53083] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53084] = {
@@ -41746,7 +43774,8 @@ _G.pg.base.item_data_statistics[53084] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53085] = {
@@ -41794,7 +43823,8 @@ _G.pg.base.item_data_statistics[53085] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53086] = {
@@ -41842,7 +43872,8 @@ _G.pg.base.item_data_statistics[53086] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53087] = {
@@ -41890,7 +43921,8 @@ _G.pg.base.item_data_statistics[53087] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53088] = {
@@ -41938,7 +43970,8 @@ _G.pg.base.item_data_statistics[53088] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53090] = {
@@ -41986,7 +44019,8 @@ _G.pg.base.item_data_statistics[53090] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53091] = {
@@ -42034,7 +44068,8 @@ _G.pg.base.item_data_statistics[53091] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53092] = {
@@ -42082,7 +44117,8 @@ _G.pg.base.item_data_statistics[53092] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53093] = {
@@ -42130,7 +44166,8 @@ _G.pg.base.item_data_statistics[53093] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53094] = {
@@ -42178,7 +44215,8 @@ _G.pg.base.item_data_statistics[53094] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53095] = {
@@ -42226,7 +44264,8 @@ _G.pg.base.item_data_statistics[53095] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53096] = {
@@ -42274,7 +44313,8 @@ _G.pg.base.item_data_statistics[53096] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53097] = {
@@ -42322,7 +44362,8 @@ _G.pg.base.item_data_statistics[53097] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53098] = {
@@ -42370,7 +44411,8 @@ _G.pg.base.item_data_statistics[53098] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53099] = {
@@ -42418,7 +44460,8 @@ _G.pg.base.item_data_statistics[53099] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53990] = {
@@ -42496,7 +44539,8 @@ _G.pg.base.item_data_statistics[53990] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53991] = {
@@ -42629,7 +44673,8 @@ _G.pg.base.item_data_statistics[53991] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53992] = {
@@ -42727,7 +44772,8 @@ _G.pg.base.item_data_statistics[53992] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53993] = {
@@ -42760,7 +44806,8 @@ _G.pg.base.item_data_statistics[53993] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53994] = {
@@ -42803,7 +44850,8 @@ _G.pg.base.item_data_statistics[53994] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[53995] = {
@@ -42856,7 +44904,8 @@ _G.pg.base.item_data_statistics[53995] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54001] = {
@@ -42894,7 +44943,8 @@ _G.pg.base.item_data_statistics[54001] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54002] = {
@@ -42947,7 +44997,8 @@ _G.pg.base.item_data_statistics[54002] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54003] = {
@@ -43015,7 +45066,8 @@ _G.pg.base.item_data_statistics[54003] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54004] = {
@@ -43037,7 +45089,8 @@ _G.pg.base.item_data_statistics[54004] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54005] = {
@@ -43059,7 +45112,8 @@ _G.pg.base.item_data_statistics[54005] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54006] = {
@@ -43081,7 +45135,8 @@ _G.pg.base.item_data_statistics[54006] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54007] = {
@@ -43103,7 +45158,8 @@ _G.pg.base.item_data_statistics[54007] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54011] = {
@@ -43151,7 +45207,8 @@ _G.pg.base.item_data_statistics[54011] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54012] = {
@@ -43224,7 +45281,8 @@ _G.pg.base.item_data_statistics[54012] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54013] = {
@@ -43322,7 +45380,8 @@ _G.pg.base.item_data_statistics[54013] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54014] = {
@@ -43370,7 +45429,8 @@ _G.pg.base.item_data_statistics[54014] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54015] = {
@@ -43418,7 +45478,8 @@ _G.pg.base.item_data_statistics[54015] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54016] = {
@@ -43466,7 +45527,8 @@ _G.pg.base.item_data_statistics[54016] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54017] = {
@@ -43539,7 +45601,8 @@ _G.pg.base.item_data_statistics[54017] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54018] = {
@@ -43587,7 +45650,8 @@ _G.pg.base.item_data_statistics[54018] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54021] = {
@@ -43633,7 +45697,8 @@ _G.pg.base.item_data_statistics[54021] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54022] = {
@@ -43699,7 +45764,8 @@ _G.pg.base.item_data_statistics[54022] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54023] = {
@@ -43785,7 +45851,8 @@ _G.pg.base.item_data_statistics[54023] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54024] = {
@@ -43891,7 +45958,8 @@ _G.pg.base.item_data_statistics[54024] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54025] = {
@@ -44017,7 +46085,8 @@ _G.pg.base.item_data_statistics[54025] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54031] = {
@@ -44042,7 +46111,8 @@ _G.pg.base.item_data_statistics[54031] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54032] = {
@@ -44067,7 +46137,8 @@ _G.pg.base.item_data_statistics[54032] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54033] = {
@@ -44092,7 +46163,8 @@ _G.pg.base.item_data_statistics[54033] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54034] = {
@@ -44117,7 +46189,8 @@ _G.pg.base.item_data_statistics[54034] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54035] = {
@@ -44142,7 +46215,8 @@ _G.pg.base.item_data_statistics[54035] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54039] = {
@@ -44167,7 +46241,8 @@ _G.pg.base.item_data_statistics[54039] = {
 		100
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54041] = {
@@ -44200,7 +46275,8 @@ _G.pg.base.item_data_statistics[54041] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54042] = {
@@ -44233,7 +46309,8 @@ _G.pg.base.item_data_statistics[54042] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54043] = {
@@ -44266,7 +46343,8 @@ _G.pg.base.item_data_statistics[54043] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54044] = {
@@ -44299,7 +46377,8 @@ _G.pg.base.item_data_statistics[54044] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54045] = {
@@ -44337,7 +46416,8 @@ _G.pg.base.item_data_statistics[54045] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54046] = {
@@ -44375,7 +46455,8 @@ _G.pg.base.item_data_statistics[54046] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54047] = {
@@ -44413,7 +46494,8 @@ _G.pg.base.item_data_statistics[54047] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54048] = {
@@ -44451,7 +46533,8 @@ _G.pg.base.item_data_statistics[54048] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54049] = {
@@ -44473,7 +46556,8 @@ _G.pg.base.item_data_statistics[54049] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54050] = {
@@ -44495,7 +46579,8 @@ _G.pg.base.item_data_statistics[54050] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54051] = {
@@ -44517,7 +46602,8 @@ _G.pg.base.item_data_statistics[54051] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54100] = {
@@ -44550,7 +46636,8 @@ _G.pg.base.item_data_statistics[54100] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54101] = {
@@ -44588,7 +46675,8 @@ _G.pg.base.item_data_statistics[54101] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54102] = {
@@ -44626,7 +46714,8 @@ _G.pg.base.item_data_statistics[54102] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54103] = {
@@ -44664,7 +46753,8 @@ _G.pg.base.item_data_statistics[54103] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54104] = {
@@ -44702,7 +46792,8 @@ _G.pg.base.item_data_statistics[54104] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54105] = {
@@ -44740,7 +46831,8 @@ _G.pg.base.item_data_statistics[54105] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54106] = {
@@ -44778,7 +46870,8 @@ _G.pg.base.item_data_statistics[54106] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54107] = {
@@ -44816,7 +46909,8 @@ _G.pg.base.item_data_statistics[54107] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[54108] = {
@@ -44854,7 +46948,8 @@ _G.pg.base.item_data_statistics[54108] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55001] = {
@@ -44876,7 +46971,8 @@ _G.pg.base.item_data_statistics[55001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55002] = {
@@ -44898,7 +46994,8 @@ _G.pg.base.item_data_statistics[55002] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55003] = {
@@ -44920,7 +47017,8 @@ _G.pg.base.item_data_statistics[55003] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55004] = {
@@ -44968,7 +47066,8 @@ _G.pg.base.item_data_statistics[55004] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55005] = {
@@ -45016,7 +47115,8 @@ _G.pg.base.item_data_statistics[55005] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55006] = {
@@ -45064,7 +47164,8 @@ _G.pg.base.item_data_statistics[55006] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55007] = {
@@ -45112,7 +47213,8 @@ _G.pg.base.item_data_statistics[55007] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55008] = {
@@ -45165,7 +47267,8 @@ _G.pg.base.item_data_statistics[55008] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55009] = {
@@ -45213,7 +47316,8 @@ _G.pg.base.item_data_statistics[55009] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55010] = {
@@ -45261,7 +47365,8 @@ _G.pg.base.item_data_statistics[55010] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55011] = {
@@ -45309,7 +47414,8 @@ _G.pg.base.item_data_statistics[55011] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55012] = {
@@ -45357,7 +47463,8 @@ _G.pg.base.item_data_statistics[55012] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55013] = {
@@ -45405,7 +47512,8 @@ _G.pg.base.item_data_statistics[55013] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55014] = {
@@ -45453,7 +47561,8 @@ _G.pg.base.item_data_statistics[55014] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55015] = {
@@ -45501,7 +47610,8 @@ _G.pg.base.item_data_statistics[55015] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55016] = {
@@ -45549,7 +47659,8 @@ _G.pg.base.item_data_statistics[55016] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55017] = {
@@ -45597,7 +47708,8 @@ _G.pg.base.item_data_statistics[55017] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55018] = {
@@ -45645,7 +47757,8 @@ _G.pg.base.item_data_statistics[55018] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55019] = {
@@ -45693,7 +47806,8 @@ _G.pg.base.item_data_statistics[55019] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55020] = {
@@ -45741,7 +47855,8 @@ _G.pg.base.item_data_statistics[55020] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55021] = {
@@ -45789,7 +47904,8 @@ _G.pg.base.item_data_statistics[55021] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55022] = {
@@ -45837,7 +47953,8 @@ _G.pg.base.item_data_statistics[55022] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55023] = {
@@ -45885,7 +48002,8 @@ _G.pg.base.item_data_statistics[55023] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55024] = {
@@ -45933,7 +48051,8 @@ _G.pg.base.item_data_statistics[55024] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55025] = {
@@ -45981,7 +48100,8 @@ _G.pg.base.item_data_statistics[55025] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55026] = {
@@ -46034,7 +48154,8 @@ _G.pg.base.item_data_statistics[55026] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55027] = {
@@ -46082,7 +48203,8 @@ _G.pg.base.item_data_statistics[55027] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55028] = {
@@ -46130,7 +48252,8 @@ _G.pg.base.item_data_statistics[55028] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55029] = {
@@ -46178,7 +48301,8 @@ _G.pg.base.item_data_statistics[55029] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55030] = {
@@ -46226,7 +48350,8 @@ _G.pg.base.item_data_statistics[55030] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55031] = {
@@ -46274,7 +48399,8 @@ _G.pg.base.item_data_statistics[55031] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55032] = {
@@ -46322,7 +48448,8 @@ _G.pg.base.item_data_statistics[55032] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55033] = {
@@ -46370,7 +48497,8 @@ _G.pg.base.item_data_statistics[55033] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55034] = {
@@ -46418,7 +48546,8 @@ _G.pg.base.item_data_statistics[55034] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55035] = {
@@ -46466,7 +48595,8 @@ _G.pg.base.item_data_statistics[55035] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55036] = {
@@ -46514,7 +48644,8 @@ _G.pg.base.item_data_statistics[55036] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55037] = {
@@ -46562,7 +48693,8 @@ _G.pg.base.item_data_statistics[55037] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55038] = {
@@ -46610,7 +48742,8 @@ _G.pg.base.item_data_statistics[55038] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55039] = {
@@ -46658,7 +48791,8 @@ _G.pg.base.item_data_statistics[55039] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55040] = {
@@ -46706,7 +48840,8 @@ _G.pg.base.item_data_statistics[55040] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55041] = {
@@ -46754,7 +48889,8 @@ _G.pg.base.item_data_statistics[55041] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55042] = {
@@ -46802,7 +48938,8 @@ _G.pg.base.item_data_statistics[55042] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55043] = {
@@ -46850,7 +48987,8 @@ _G.pg.base.item_data_statistics[55043] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55044] = {
@@ -46898,7 +49036,8 @@ _G.pg.base.item_data_statistics[55044] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55045] = {
@@ -46946,7 +49085,8 @@ _G.pg.base.item_data_statistics[55045] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55046] = {
@@ -46994,7 +49134,8 @@ _G.pg.base.item_data_statistics[55046] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55047] = {
@@ -47042,7 +49183,8 @@ _G.pg.base.item_data_statistics[55047] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55048] = {
@@ -47090,7 +49232,8 @@ _G.pg.base.item_data_statistics[55048] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55049] = {
@@ -47138,7 +49281,8 @@ _G.pg.base.item_data_statistics[55049] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55050] = {
@@ -47186,7 +49330,8 @@ _G.pg.base.item_data_statistics[55050] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55051] = {
@@ -47234,7 +49379,8 @@ _G.pg.base.item_data_statistics[55051] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55052] = {
@@ -47282,7 +49428,8 @@ _G.pg.base.item_data_statistics[55052] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55053] = {
@@ -47330,7 +49477,8 @@ _G.pg.base.item_data_statistics[55053] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55054] = {
@@ -47378,7 +49526,8 @@ _G.pg.base.item_data_statistics[55054] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55055] = {
@@ -47426,7 +49575,8 @@ _G.pg.base.item_data_statistics[55055] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55056] = {
@@ -47474,7 +49624,8 @@ _G.pg.base.item_data_statistics[55056] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55501] = {
@@ -47496,7 +49647,8 @@ _G.pg.base.item_data_statistics[55501] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55502] = {
@@ -47518,7 +49670,8 @@ _G.pg.base.item_data_statistics[55502] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55503] = {
@@ -47540,7 +49693,8 @@ _G.pg.base.item_data_statistics[55503] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55504] = {
@@ -47588,7 +49742,8 @@ _G.pg.base.item_data_statistics[55504] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55505] = {
@@ -47636,7 +49791,8 @@ _G.pg.base.item_data_statistics[55505] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55506] = {
@@ -47684,7 +49840,8 @@ _G.pg.base.item_data_statistics[55506] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55507] = {
@@ -47732,7 +49889,8 @@ _G.pg.base.item_data_statistics[55507] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55508] = {
@@ -47780,7 +49938,8 @@ _G.pg.base.item_data_statistics[55508] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55509] = {
@@ -47828,7 +49987,8 @@ _G.pg.base.item_data_statistics[55509] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55510] = {
@@ -47876,7 +50036,8 @@ _G.pg.base.item_data_statistics[55510] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55511] = {
@@ -47924,7 +50085,8 @@ _G.pg.base.item_data_statistics[55511] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55512] = {
@@ -47972,7 +50134,8 @@ _G.pg.base.item_data_statistics[55512] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55513] = {
@@ -48020,7 +50183,8 @@ _G.pg.base.item_data_statistics[55513] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55514] = {
@@ -48068,7 +50232,8 @@ _G.pg.base.item_data_statistics[55514] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55515] = {
@@ -48116,7 +50281,8 @@ _G.pg.base.item_data_statistics[55515] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55516] = {
@@ -48164,7 +50330,8 @@ _G.pg.base.item_data_statistics[55516] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55517] = {
@@ -48207,7 +50374,8 @@ _G.pg.base.item_data_statistics[55517] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55518] = {
@@ -48250,7 +50418,8 @@ _G.pg.base.item_data_statistics[55518] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55519] = {
@@ -48293,7 +50462,8 @@ _G.pg.base.item_data_statistics[55519] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55520] = {
@@ -48336,7 +50506,8 @@ _G.pg.base.item_data_statistics[55520] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55521] = {
@@ -48379,7 +50550,8 @@ _G.pg.base.item_data_statistics[55521] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55522] = {
@@ -48422,7 +50594,8 @@ _G.pg.base.item_data_statistics[55522] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55523] = {
@@ -48465,7 +50638,8 @@ _G.pg.base.item_data_statistics[55523] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55524] = {
@@ -48508,7 +50682,8 @@ _G.pg.base.item_data_statistics[55524] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55525] = {
@@ -48551,7 +50726,8 @@ _G.pg.base.item_data_statistics[55525] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55526] = {
@@ -48599,7 +50775,8 @@ _G.pg.base.item_data_statistics[55526] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55527] = {
@@ -48642,7 +50819,8 @@ _G.pg.base.item_data_statistics[55527] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55528] = {
@@ -48685,7 +50863,8 @@ _G.pg.base.item_data_statistics[55528] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55529] = {
@@ -48728,7 +50907,8 @@ _G.pg.base.item_data_statistics[55529] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55530] = {
@@ -48771,7 +50951,8 @@ _G.pg.base.item_data_statistics[55530] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55531] = {
@@ -48814,7 +50995,8 @@ _G.pg.base.item_data_statistics[55531] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55532] = {
@@ -48857,7 +51039,8 @@ _G.pg.base.item_data_statistics[55532] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55533] = {
@@ -48900,7 +51083,8 @@ _G.pg.base.item_data_statistics[55533] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55534] = {
@@ -48943,7 +51127,8 @@ _G.pg.base.item_data_statistics[55534] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55535] = {
@@ -48986,7 +51171,8 @@ _G.pg.base.item_data_statistics[55535] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55536] = {
@@ -49029,7 +51215,8 @@ _G.pg.base.item_data_statistics[55536] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55537] = {
@@ -49072,7 +51259,8 @@ _G.pg.base.item_data_statistics[55537] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55538] = {
@@ -49115,7 +51303,8 @@ _G.pg.base.item_data_statistics[55538] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55539] = {
@@ -49158,7 +51347,8 @@ _G.pg.base.item_data_statistics[55539] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55540] = {
@@ -49201,7 +51391,8 @@ _G.pg.base.item_data_statistics[55540] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55541] = {
@@ -49244,7 +51435,8 @@ _G.pg.base.item_data_statistics[55541] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55542] = {
@@ -49287,7 +51479,8 @@ _G.pg.base.item_data_statistics[55542] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55543] = {
@@ -49330,7 +51523,8 @@ _G.pg.base.item_data_statistics[55543] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55544] = {
@@ -49373,7 +51567,8 @@ _G.pg.base.item_data_statistics[55544] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55545] = {
@@ -49416,7 +51611,8 @@ _G.pg.base.item_data_statistics[55545] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55546] = {
@@ -49459,7 +51655,8 @@ _G.pg.base.item_data_statistics[55546] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55547] = {
@@ -49502,7 +51699,8 @@ _G.pg.base.item_data_statistics[55547] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55548] = {
@@ -49545,7 +51743,8 @@ _G.pg.base.item_data_statistics[55548] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55549] = {
@@ -49588,7 +51787,8 @@ _G.pg.base.item_data_statistics[55549] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55550] = {
@@ -49631,7 +51831,8 @@ _G.pg.base.item_data_statistics[55550] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55551] = {
@@ -49674,7 +51875,8 @@ _G.pg.base.item_data_statistics[55551] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55552] = {
@@ -49717,7 +51919,8 @@ _G.pg.base.item_data_statistics[55552] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55553] = {
@@ -49760,7 +51963,8 @@ _G.pg.base.item_data_statistics[55553] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55554] = {
@@ -49803,7 +52007,8 @@ _G.pg.base.item_data_statistics[55554] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55555] = {
@@ -49846,7 +52051,8 @@ _G.pg.base.item_data_statistics[55555] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[55556] = {
@@ -49889,7 +52095,8 @@ _G.pg.base.item_data_statistics[55556] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56000] = {
@@ -49911,7 +52118,8 @@ _G.pg.base.item_data_statistics[56000] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56001] = {
@@ -49959,7 +52167,8 @@ _G.pg.base.item_data_statistics[56001] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56002] = {
@@ -50027,7 +52236,8 @@ _G.pg.base.item_data_statistics[56002] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56003] = {
@@ -50105,7 +52315,8 @@ _G.pg.base.item_data_statistics[56003] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56004] = {
@@ -50213,7 +52424,8 @@ _G.pg.base.item_data_statistics[56004] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56005] = {
@@ -50341,7 +52553,8 @@ _G.pg.base.item_data_statistics[56005] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56006] = {
@@ -50479,7 +52692,8 @@ _G.pg.base.item_data_statistics[56006] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56007] = {
@@ -50622,7 +52836,8 @@ _G.pg.base.item_data_statistics[56007] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56008] = {
@@ -50770,7 +52985,8 @@ _G.pg.base.item_data_statistics[56008] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56009] = {
@@ -50923,7 +53139,8 @@ _G.pg.base.item_data_statistics[56009] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56010] = {
@@ -51076,7 +53293,8 @@ _G.pg.base.item_data_statistics[56010] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56011] = {
@@ -51229,7 +53447,8 @@ _G.pg.base.item_data_statistics[56011] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56012] = {
@@ -51387,7 +53606,8 @@ _G.pg.base.item_data_statistics[56012] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56013] = {
@@ -51535,7 +53755,8 @@ _G.pg.base.item_data_statistics[56013] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56014] = {
@@ -51683,7 +53904,8 @@ _G.pg.base.item_data_statistics[56014] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56015] = {
@@ -51831,7 +54053,8 @@ _G.pg.base.item_data_statistics[56015] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56016] = {
@@ -51984,7 +54207,8 @@ _G.pg.base.item_data_statistics[56016] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56017] = {
@@ -52137,7 +54361,8 @@ _G.pg.base.item_data_statistics[56017] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56018] = {
@@ -52285,7 +54510,8 @@ _G.pg.base.item_data_statistics[56018] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56019] = {
@@ -52433,7 +54659,8 @@ _G.pg.base.item_data_statistics[56019] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56020] = {
@@ -52586,7 +54813,8 @@ _G.pg.base.item_data_statistics[56020] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56021] = {
@@ -52734,7 +54962,8 @@ _G.pg.base.item_data_statistics[56021] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56022] = {
@@ -52882,7 +55111,8 @@ _G.pg.base.item_data_statistics[56022] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56023] = {
@@ -53030,7 +55260,8 @@ _G.pg.base.item_data_statistics[56023] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56024] = {
@@ -53188,7 +55419,8 @@ _G.pg.base.item_data_statistics[56024] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56025] = {
@@ -53336,7 +55568,8 @@ _G.pg.base.item_data_statistics[56025] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56026] = {
@@ -53484,7 +55717,8 @@ _G.pg.base.item_data_statistics[56026] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56027] = {
@@ -53637,7 +55871,8 @@ _G.pg.base.item_data_statistics[56027] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56028] = {
@@ -53790,7 +56025,8 @@ _G.pg.base.item_data_statistics[56028] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56029] = {
@@ -53943,7 +56179,8 @@ _G.pg.base.item_data_statistics[56029] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56030] = {
@@ -54096,7 +56333,8 @@ _G.pg.base.item_data_statistics[56030] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56031] = {
@@ -54244,7 +56482,8 @@ _G.pg.base.item_data_statistics[56031] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56032] = {
@@ -54402,7 +56641,8 @@ _G.pg.base.item_data_statistics[56032] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56033] = {
@@ -54550,7 +56790,8 @@ _G.pg.base.item_data_statistics[56033] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56034] = {
@@ -54698,7 +56939,8 @@ _G.pg.base.item_data_statistics[56034] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56035] = {
@@ -54851,7 +57093,8 @@ _G.pg.base.item_data_statistics[56035] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56036] = {
@@ -55004,7 +57247,8 @@ _G.pg.base.item_data_statistics[56036] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56037] = {
@@ -55152,7 +57396,8 @@ _G.pg.base.item_data_statistics[56037] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56038] = {
@@ -55300,7 +57545,8 @@ _G.pg.base.item_data_statistics[56038] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56039] = {
@@ -55453,7 +57699,8 @@ _G.pg.base.item_data_statistics[56039] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56040] = {
@@ -55606,7 +57853,8 @@ _G.pg.base.item_data_statistics[56040] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56041] = {
@@ -55754,7 +58002,8 @@ _G.pg.base.item_data_statistics[56041] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56042] = {
@@ -55907,7 +58156,8 @@ _G.pg.base.item_data_statistics[56042] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56043] = {
@@ -56055,7 +58305,8 @@ _G.pg.base.item_data_statistics[56043] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56044] = {
@@ -56208,7 +58459,8 @@ _G.pg.base.item_data_statistics[56044] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56045] = {
@@ -56356,7 +58608,8 @@ _G.pg.base.item_data_statistics[56045] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56046] = {
@@ -56504,7 +58757,8 @@ _G.pg.base.item_data_statistics[56046] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56047] = {
@@ -56652,7 +58906,8 @@ _G.pg.base.item_data_statistics[56047] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56048] = {
@@ -56805,7 +59060,8 @@ _G.pg.base.item_data_statistics[56048] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56049] = {
@@ -56953,7 +59209,8 @@ _G.pg.base.item_data_statistics[56049] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56050] = {
@@ -57101,7 +59358,8 @@ _G.pg.base.item_data_statistics[56050] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56051] = {
@@ -57249,7 +59507,8 @@ _G.pg.base.item_data_statistics[56051] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56052] = {
@@ -57402,7 +59661,8 @@ _G.pg.base.item_data_statistics[56052] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56053] = {
@@ -57550,7 +59810,8 @@ _G.pg.base.item_data_statistics[56053] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56054] = {
@@ -57698,7 +59959,8 @@ _G.pg.base.item_data_statistics[56054] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56055] = {
@@ -57846,7 +60108,8 @@ _G.pg.base.item_data_statistics[56055] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56056] = {
@@ -57999,7 +60262,8 @@ _G.pg.base.item_data_statistics[56056] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56500] = {
@@ -58021,7 +60285,8 @@ _G.pg.base.item_data_statistics[56500] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56501] = {
@@ -58043,7 +60308,8 @@ _G.pg.base.item_data_statistics[56501] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[56502] = {
@@ -58065,7 +60331,8 @@ _G.pg.base.item_data_statistics[56502] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57001] = {
@@ -58113,7 +60380,8 @@ _G.pg.base.item_data_statistics[57001] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57002] = {
@@ -58161,7 +60429,8 @@ _G.pg.base.item_data_statistics[57002] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57003] = {
@@ -58209,7 +60478,8 @@ _G.pg.base.item_data_statistics[57003] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57011] = {
@@ -58257,7 +60527,8 @@ _G.pg.base.item_data_statistics[57011] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57012] = {
@@ -58305,7 +60576,8 @@ _G.pg.base.item_data_statistics[57012] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57013] = {
@@ -58348,7 +60620,8 @@ _G.pg.base.item_data_statistics[57013] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57021] = {
@@ -58370,7 +60643,8 @@ _G.pg.base.item_data_statistics[57021] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57022] = {
@@ -58508,7 +60782,8 @@ _G.pg.base.item_data_statistics[57022] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57023] = {
@@ -58656,7 +60931,8 @@ _G.pg.base.item_data_statistics[57023] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57031] = {
@@ -58704,7 +60980,8 @@ _G.pg.base.item_data_statistics[57031] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57032] = {
@@ -58752,7 +61029,8 @@ _G.pg.base.item_data_statistics[57032] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57033] = {
@@ -58800,7 +61078,8 @@ _G.pg.base.item_data_statistics[57033] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57034] = {
@@ -58848,7 +61127,8 @@ _G.pg.base.item_data_statistics[57034] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57035] = {
@@ -58896,7 +61176,8 @@ _G.pg.base.item_data_statistics[57035] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57036] = {
@@ -58944,7 +61225,8 @@ _G.pg.base.item_data_statistics[57036] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57037] = {
@@ -58992,7 +61274,8 @@ _G.pg.base.item_data_statistics[57037] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57038] = {
@@ -59040,7 +61323,8 @@ _G.pg.base.item_data_statistics[57038] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57041] = {
@@ -59088,7 +61372,8 @@ _G.pg.base.item_data_statistics[57041] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57042] = {
@@ -59136,7 +61421,8 @@ _G.pg.base.item_data_statistics[57042] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57043] = {
@@ -59184,7 +61470,8 @@ _G.pg.base.item_data_statistics[57043] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57044] = {
@@ -59232,7 +61519,8 @@ _G.pg.base.item_data_statistics[57044] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57045] = {
@@ -59280,7 +61568,8 @@ _G.pg.base.item_data_statistics[57045] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57046] = {
@@ -59328,7 +61617,8 @@ _G.pg.base.item_data_statistics[57046] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57047] = {
@@ -59376,7 +61666,8 @@ _G.pg.base.item_data_statistics[57047] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57048] = {
@@ -59424,7 +61715,8 @@ _G.pg.base.item_data_statistics[57048] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57051] = {
@@ -59472,7 +61764,8 @@ _G.pg.base.item_data_statistics[57051] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57052] = {
@@ -59520,7 +61813,8 @@ _G.pg.base.item_data_statistics[57052] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57053] = {
@@ -59568,7 +61862,8 @@ _G.pg.base.item_data_statistics[57053] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57054] = {
@@ -59616,7 +61911,8 @@ _G.pg.base.item_data_statistics[57054] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57055] = {
@@ -59669,7 +61965,8 @@ _G.pg.base.item_data_statistics[57055] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57056] = {
@@ -59722,7 +62019,8 @@ _G.pg.base.item_data_statistics[57056] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57057] = {
@@ -59775,7 +62073,8 @@ _G.pg.base.item_data_statistics[57057] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57058] = {
@@ -59828,7 +62127,8 @@ _G.pg.base.item_data_statistics[57058] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57061] = {
@@ -59951,7 +62251,8 @@ _G.pg.base.item_data_statistics[57061] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57062] = {
@@ -60074,7 +62375,8 @@ _G.pg.base.item_data_statistics[57062] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57063] = {
@@ -60197,7 +62499,8 @@ _G.pg.base.item_data_statistics[57063] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57064] = {
@@ -60325,7 +62628,8 @@ _G.pg.base.item_data_statistics[57064] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57065] = {
@@ -60453,7 +62757,8 @@ _G.pg.base.item_data_statistics[57065] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57066] = {
@@ -60586,7 +62891,8 @@ _G.pg.base.item_data_statistics[57066] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57067] = {
@@ -60719,7 +63025,8 @@ _G.pg.base.item_data_statistics[57067] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57068] = {
@@ -60862,7 +63169,8 @@ _G.pg.base.item_data_statistics[57068] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57071] = {
@@ -60985,7 +63293,8 @@ _G.pg.base.item_data_statistics[57071] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57072] = {
@@ -61108,7 +63417,8 @@ _G.pg.base.item_data_statistics[57072] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57073] = {
@@ -61231,7 +63541,8 @@ _G.pg.base.item_data_statistics[57073] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57074] = {
@@ -61364,7 +63675,8 @@ _G.pg.base.item_data_statistics[57074] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57075] = {
@@ -61497,7 +63809,8 @@ _G.pg.base.item_data_statistics[57075] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57076] = {
@@ -61635,7 +63948,8 @@ _G.pg.base.item_data_statistics[57076] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57077] = {
@@ -61778,7 +64092,8 @@ _G.pg.base.item_data_statistics[57077] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57078] = {
@@ -61931,7 +64246,8 @@ _G.pg.base.item_data_statistics[57078] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57111] = {
@@ -61979,7 +64295,8 @@ _G.pg.base.item_data_statistics[57111] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57112] = {
@@ -62027,7 +64344,8 @@ _G.pg.base.item_data_statistics[57112] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57113] = {
@@ -62075,7 +64393,8 @@ _G.pg.base.item_data_statistics[57113] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57114] = {
@@ -62118,7 +64437,8 @@ _G.pg.base.item_data_statistics[57114] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57115] = {
@@ -62161,7 +64481,8 @@ _G.pg.base.item_data_statistics[57115] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57116] = {
@@ -62204,7 +64525,8 @@ _G.pg.base.item_data_statistics[57116] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57121] = {
@@ -62252,7 +64574,8 @@ _G.pg.base.item_data_statistics[57121] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57122] = {
@@ -62300,7 +64623,8 @@ _G.pg.base.item_data_statistics[57122] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57123] = {
@@ -62348,7 +64672,8 @@ _G.pg.base.item_data_statistics[57123] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57124] = {
@@ -62386,7 +64711,8 @@ _G.pg.base.item_data_statistics[57124] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57125] = {
@@ -62424,7 +64750,8 @@ _G.pg.base.item_data_statistics[57125] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57126] = {
@@ -62462,7 +64789,8 @@ _G.pg.base.item_data_statistics[57126] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57131] = {
@@ -62595,7 +64923,8 @@ _G.pg.base.item_data_statistics[57131] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57132] = {
@@ -62728,7 +65057,8 @@ _G.pg.base.item_data_statistics[57132] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57133] = {
@@ -62871,7 +65201,8 @@ _G.pg.base.item_data_statistics[57133] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57134] = {
@@ -63004,7 +65335,8 @@ _G.pg.base.item_data_statistics[57134] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57135] = {
@@ -63137,7 +65469,8 @@ _G.pg.base.item_data_statistics[57135] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57136] = {
@@ -63280,7 +65613,8 @@ _G.pg.base.item_data_statistics[57136] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57141] = {
@@ -63328,7 +65662,8 @@ _G.pg.base.item_data_statistics[57141] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57142] = {
@@ -63376,7 +65711,8 @@ _G.pg.base.item_data_statistics[57142] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57143] = {
@@ -63424,7 +65760,8 @@ _G.pg.base.item_data_statistics[57143] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57144] = {
@@ -63472,7 +65809,8 @@ _G.pg.base.item_data_statistics[57144] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57145] = {
@@ -63520,7 +65858,8 @@ _G.pg.base.item_data_statistics[57145] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57146] = {
@@ -63568,7 +65907,8 @@ _G.pg.base.item_data_statistics[57146] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57151] = {
@@ -63611,7 +65951,8 @@ _G.pg.base.item_data_statistics[57151] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57152] = {
@@ -63654,7 +65995,8 @@ _G.pg.base.item_data_statistics[57152] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57153] = {
@@ -63697,7 +66039,8 @@ _G.pg.base.item_data_statistics[57153] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57154] = {
@@ -63735,7 +66078,8 @@ _G.pg.base.item_data_statistics[57154] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57155] = {
@@ -63773,7 +66117,8 @@ _G.pg.base.item_data_statistics[57155] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57156] = {
@@ -63811,7 +66156,8 @@ _G.pg.base.item_data_statistics[57156] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57161] = {
@@ -63944,7 +66290,8 @@ _G.pg.base.item_data_statistics[57161] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57162] = {
@@ -64077,7 +66424,8 @@ _G.pg.base.item_data_statistics[57162] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57163] = {
@@ -64220,7 +66568,8 @@ _G.pg.base.item_data_statistics[57163] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57164] = {
@@ -64358,7 +66707,8 @@ _G.pg.base.item_data_statistics[57164] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57165] = {
@@ -64496,7 +66846,8 @@ _G.pg.base.item_data_statistics[57165] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57166] = {
@@ -64639,7 +66990,8 @@ _G.pg.base.item_data_statistics[57166] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57171] = {
@@ -64687,7 +67039,8 @@ _G.pg.base.item_data_statistics[57171] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57172] = {
@@ -64735,7 +67088,8 @@ _G.pg.base.item_data_statistics[57172] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57173] = {
@@ -64783,7 +67137,8 @@ _G.pg.base.item_data_statistics[57173] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57174] = {
@@ -64826,7 +67181,8 @@ _G.pg.base.item_data_statistics[57174] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57175] = {
@@ -64869,7 +67225,8 @@ _G.pg.base.item_data_statistics[57175] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57176] = {
@@ -64912,7 +67269,8 @@ _G.pg.base.item_data_statistics[57176] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57177] = {
@@ -65045,7 +67403,8 @@ _G.pg.base.item_data_statistics[57177] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57178] = {
@@ -65183,7 +67542,8 @@ _G.pg.base.item_data_statistics[57178] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57179] = {
@@ -65321,7 +67681,8 @@ _G.pg.base.item_data_statistics[57179] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57181] = {
@@ -65369,7 +67730,8 @@ _G.pg.base.item_data_statistics[57181] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57182] = {
@@ -65417,7 +67779,8 @@ _G.pg.base.item_data_statistics[57182] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57183] = {
@@ -65465,7 +67828,8 @@ _G.pg.base.item_data_statistics[57183] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57184] = {
@@ -65513,7 +67877,8 @@ _G.pg.base.item_data_statistics[57184] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57185] = {
@@ -65561,7 +67926,8 @@ _G.pg.base.item_data_statistics[57185] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57186] = {
@@ -65609,7 +67975,8 @@ _G.pg.base.item_data_statistics[57186] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57191] = {
@@ -65657,7 +68024,8 @@ _G.pg.base.item_data_statistics[57191] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57192] = {
@@ -65705,7 +68073,8 @@ _G.pg.base.item_data_statistics[57192] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57193] = {
@@ -65753,7 +68122,8 @@ _G.pg.base.item_data_statistics[57193] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57194] = {
@@ -65801,7 +68171,8 @@ _G.pg.base.item_data_statistics[57194] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57195] = {
@@ -65849,7 +68220,8 @@ _G.pg.base.item_data_statistics[57195] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57196] = {
@@ -65897,7 +68269,8 @@ _G.pg.base.item_data_statistics[57196] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57201] = {
@@ -66030,7 +68403,8 @@ _G.pg.base.item_data_statistics[57201] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57202] = {
@@ -66163,7 +68537,8 @@ _G.pg.base.item_data_statistics[57202] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57203] = {
@@ -66301,7 +68676,8 @@ _G.pg.base.item_data_statistics[57203] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57204] = {
@@ -66439,7 +68815,8 @@ _G.pg.base.item_data_statistics[57204] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57205] = {
@@ -66577,7 +68954,8 @@ _G.pg.base.item_data_statistics[57205] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57206] = {
@@ -66715,7 +69093,8 @@ _G.pg.base.item_data_statistics[57206] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57211] = {
@@ -66763,7 +69142,8 @@ _G.pg.base.item_data_statistics[57211] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57212] = {
@@ -66811,7 +69191,8 @@ _G.pg.base.item_data_statistics[57212] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57213] = {
@@ -66859,7 +69240,8 @@ _G.pg.base.item_data_statistics[57213] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57214] = {
@@ -66907,7 +69289,8 @@ _G.pg.base.item_data_statistics[57214] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57215] = {
@@ -66955,7 +69338,8 @@ _G.pg.base.item_data_statistics[57215] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57216] = {
@@ -67003,7 +69387,8 @@ _G.pg.base.item_data_statistics[57216] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57221] = {
@@ -67046,7 +69431,8 @@ _G.pg.base.item_data_statistics[57221] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57222] = {
@@ -67089,7 +69475,8 @@ _G.pg.base.item_data_statistics[57222] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57223] = {
@@ -67132,7 +69519,8 @@ _G.pg.base.item_data_statistics[57223] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57224] = {
@@ -67175,7 +69563,8 @@ _G.pg.base.item_data_statistics[57224] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57225] = {
@@ -67218,7 +69607,8 @@ _G.pg.base.item_data_statistics[57225] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57226] = {
@@ -67256,7 +69646,8 @@ _G.pg.base.item_data_statistics[57226] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57231] = {
@@ -67389,7 +69780,8 @@ _G.pg.base.item_data_statistics[57231] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57232] = {
@@ -67522,7 +69914,8 @@ _G.pg.base.item_data_statistics[57232] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57233] = {
@@ -67660,7 +70053,8 @@ _G.pg.base.item_data_statistics[57233] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57234] = {
@@ -67803,7 +70197,8 @@ _G.pg.base.item_data_statistics[57234] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57235] = {
@@ -67946,7 +70341,8 @@ _G.pg.base.item_data_statistics[57235] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57236] = {
@@ -68089,7 +70485,8 @@ _G.pg.base.item_data_statistics[57236] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57241] = {
@@ -68137,7 +70534,8 @@ _G.pg.base.item_data_statistics[57241] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57242] = {
@@ -68185,7 +70583,8 @@ _G.pg.base.item_data_statistics[57242] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57243] = {
@@ -68233,7 +70632,8 @@ _G.pg.base.item_data_statistics[57243] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57244] = {
@@ -68281,7 +70681,8 @@ _G.pg.base.item_data_statistics[57244] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57245] = {
@@ -68324,7 +70725,8 @@ _G.pg.base.item_data_statistics[57245] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57246] = {
@@ -68367,7 +70769,8 @@ _G.pg.base.item_data_statistics[57246] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57247] = {
@@ -68500,7 +70903,8 @@ _G.pg.base.item_data_statistics[57247] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57248] = {
@@ -68633,7 +71037,8 @@ _G.pg.base.item_data_statistics[57248] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57249] = {
@@ -68766,7 +71171,8 @@ _G.pg.base.item_data_statistics[57249] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57251] = {
@@ -68814,7 +71220,8 @@ _G.pg.base.item_data_statistics[57251] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57252] = {
@@ -68862,7 +71269,8 @@ _G.pg.base.item_data_statistics[57252] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57253] = {
@@ -68910,7 +71318,8 @@ _G.pg.base.item_data_statistics[57253] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57254] = {
@@ -68958,7 +71367,8 @@ _G.pg.base.item_data_statistics[57254] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57255] = {
@@ -69006,7 +71416,8 @@ _G.pg.base.item_data_statistics[57255] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57256] = {
@@ -69054,7 +71465,8 @@ _G.pg.base.item_data_statistics[57256] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57257] = {
@@ -69102,7 +71514,8 @@ _G.pg.base.item_data_statistics[57257] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57258] = {
@@ -69145,7 +71558,8 @@ _G.pg.base.item_data_statistics[57258] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57259] = {
@@ -69278,7 +71692,8 @@ _G.pg.base.item_data_statistics[57259] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57260] = {
@@ -69411,7 +71826,8 @@ _G.pg.base.item_data_statistics[57260] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57261] = {
@@ -69544,7 +71960,8 @@ _G.pg.base.item_data_statistics[57261] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57262] = {
@@ -69677,7 +72094,8 @@ _G.pg.base.item_data_statistics[57262] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57263] = {
@@ -69775,7 +72193,8 @@ _G.pg.base.item_data_statistics[57263] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57271] = {
@@ -69823,7 +72242,8 @@ _G.pg.base.item_data_statistics[57271] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57272] = {
@@ -69871,7 +72291,8 @@ _G.pg.base.item_data_statistics[57272] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57273] = {
@@ -69919,7 +72340,8 @@ _G.pg.base.item_data_statistics[57273] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57274] = {
@@ -69967,7 +72389,8 @@ _G.pg.base.item_data_statistics[57274] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57275] = {
@@ -70015,7 +72438,8 @@ _G.pg.base.item_data_statistics[57275] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57276] = {
@@ -70063,7 +72487,8 @@ _G.pg.base.item_data_statistics[57276] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57281] = {
@@ -70111,7 +72536,8 @@ _G.pg.base.item_data_statistics[57281] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57282] = {
@@ -70159,7 +72585,8 @@ _G.pg.base.item_data_statistics[57282] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57283] = {
@@ -70207,7 +72634,8 @@ _G.pg.base.item_data_statistics[57283] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57284] = {
@@ -70255,7 +72683,8 @@ _G.pg.base.item_data_statistics[57284] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57285] = {
@@ -70303,7 +72732,8 @@ _G.pg.base.item_data_statistics[57285] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57286] = {
@@ -70351,7 +72781,8 @@ _G.pg.base.item_data_statistics[57286] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57291] = {
@@ -70484,7 +72915,8 @@ _G.pg.base.item_data_statistics[57291] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57292] = {
@@ -70617,7 +73049,8 @@ _G.pg.base.item_data_statistics[57292] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57293] = {
@@ -70755,7 +73188,8 @@ _G.pg.base.item_data_statistics[57293] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57294] = {
@@ -70893,7 +73327,8 @@ _G.pg.base.item_data_statistics[57294] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57295] = {
@@ -71031,7 +73466,8 @@ _G.pg.base.item_data_statistics[57295] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57296] = {
@@ -71169,7 +73605,8 @@ _G.pg.base.item_data_statistics[57296] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57301] = {
@@ -71217,7 +73654,8 @@ _G.pg.base.item_data_statistics[57301] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57302] = {
@@ -71265,7 +73703,8 @@ _G.pg.base.item_data_statistics[57302] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57303] = {
@@ -71313,7 +73752,8 @@ _G.pg.base.item_data_statistics[57303] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57304] = {
@@ -71361,7 +73801,8 @@ _G.pg.base.item_data_statistics[57304] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57305] = {
@@ -71409,7 +73850,8 @@ _G.pg.base.item_data_statistics[57305] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57306] = {
@@ -71457,7 +73899,8 @@ _G.pg.base.item_data_statistics[57306] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57311] = {
@@ -71500,7 +73943,8 @@ _G.pg.base.item_data_statistics[57311] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57312] = {
@@ -71543,7 +73987,8 @@ _G.pg.base.item_data_statistics[57312] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57313] = {
@@ -71586,7 +74031,8 @@ _G.pg.base.item_data_statistics[57313] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57314] = {
@@ -71629,7 +74075,8 @@ _G.pg.base.item_data_statistics[57314] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57315] = {
@@ -71672,7 +74119,8 @@ _G.pg.base.item_data_statistics[57315] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57316] = {
@@ -71710,7 +74158,8 @@ _G.pg.base.item_data_statistics[57316] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57321] = {
@@ -71843,7 +74292,8 @@ _G.pg.base.item_data_statistics[57321] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57322] = {
@@ -71976,7 +74426,8 @@ _G.pg.base.item_data_statistics[57322] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57323] = {
@@ -72114,7 +74565,8 @@ _G.pg.base.item_data_statistics[57323] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57324] = {
@@ -72252,7 +74704,8 @@ _G.pg.base.item_data_statistics[57324] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57325] = {
@@ -72395,7 +74848,8 @@ _G.pg.base.item_data_statistics[57325] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57326] = {
@@ -72543,7 +74997,8 @@ _G.pg.base.item_data_statistics[57326] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57331] = {
@@ -72591,7 +75046,8 @@ _G.pg.base.item_data_statistics[57331] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57332] = {
@@ -72639,7 +75095,8 @@ _G.pg.base.item_data_statistics[57332] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57333] = {
@@ -72687,7 +75144,8 @@ _G.pg.base.item_data_statistics[57333] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57334] = {
@@ -72735,7 +75193,8 @@ _G.pg.base.item_data_statistics[57334] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57335] = {
@@ -72783,7 +75242,8 @@ _G.pg.base.item_data_statistics[57335] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57336] = {
@@ -72831,7 +75291,8 @@ _G.pg.base.item_data_statistics[57336] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57341] = {
@@ -72879,7 +75340,8 @@ _G.pg.base.item_data_statistics[57341] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57342] = {
@@ -72927,7 +75389,8 @@ _G.pg.base.item_data_statistics[57342] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57343] = {
@@ -72975,7 +75438,8 @@ _G.pg.base.item_data_statistics[57343] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57344] = {
@@ -73023,7 +75487,8 @@ _G.pg.base.item_data_statistics[57344] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57345] = {
@@ -73071,7 +75536,8 @@ _G.pg.base.item_data_statistics[57345] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57346] = {
@@ -73119,7 +75585,8 @@ _G.pg.base.item_data_statistics[57346] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57351] = {
@@ -73252,7 +75719,8 @@ _G.pg.base.item_data_statistics[57351] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57352] = {
@@ -73385,7 +75853,8 @@ _G.pg.base.item_data_statistics[57352] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57353] = {
@@ -73518,7 +75987,8 @@ _G.pg.base.item_data_statistics[57353] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57354] = {
@@ -73656,7 +76126,8 @@ _G.pg.base.item_data_statistics[57354] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57355] = {
@@ -73794,7 +76265,8 @@ _G.pg.base.item_data_statistics[57355] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57356] = {
@@ -73932,7 +76404,8 @@ _G.pg.base.item_data_statistics[57356] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57361] = {
@@ -73980,7 +76453,8 @@ _G.pg.base.item_data_statistics[57361] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57362] = {
@@ -74028,7 +76502,8 @@ _G.pg.base.item_data_statistics[57362] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57363] = {
@@ -74076,7 +76551,8 @@ _G.pg.base.item_data_statistics[57363] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57364] = {
@@ -74124,7 +76600,8 @@ _G.pg.base.item_data_statistics[57364] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57365] = {
@@ -74172,7 +76649,8 @@ _G.pg.base.item_data_statistics[57365] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57366] = {
@@ -74220,7 +76698,8 @@ _G.pg.base.item_data_statistics[57366] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57371] = {
@@ -74263,7 +76742,8 @@ _G.pg.base.item_data_statistics[57371] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57372] = {
@@ -74306,7 +76786,8 @@ _G.pg.base.item_data_statistics[57372] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57373] = {
@@ -74349,7 +76830,8 @@ _G.pg.base.item_data_statistics[57373] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57374] = {
@@ -74392,7 +76874,8 @@ _G.pg.base.item_data_statistics[57374] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57375] = {
@@ -74435,7 +76918,8 @@ _G.pg.base.item_data_statistics[57375] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57376] = {
@@ -74478,7 +76962,8 @@ _G.pg.base.item_data_statistics[57376] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57381] = {
@@ -74611,7 +77096,8 @@ _G.pg.base.item_data_statistics[57381] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57382] = {
@@ -74744,7 +77230,8 @@ _G.pg.base.item_data_statistics[57382] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57383] = {
@@ -74877,7 +77364,8 @@ _G.pg.base.item_data_statistics[57383] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57384] = {
@@ -75015,7 +77503,8 @@ _G.pg.base.item_data_statistics[57384] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57385] = {
@@ -75158,7 +77647,8 @@ _G.pg.base.item_data_statistics[57385] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57386] = {
@@ -75306,7 +77796,8 @@ _G.pg.base.item_data_statistics[57386] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57391] = {
@@ -75354,7 +77845,8 @@ _G.pg.base.item_data_statistics[57391] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57392] = {
@@ -75402,7 +77894,8 @@ _G.pg.base.item_data_statistics[57392] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57393] = {
@@ -75450,7 +77943,8 @@ _G.pg.base.item_data_statistics[57393] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57394] = {
@@ -75498,7 +77992,8 @@ _G.pg.base.item_data_statistics[57394] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57395] = {
@@ -75541,7 +78036,8 @@ _G.pg.base.item_data_statistics[57395] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57396] = {
@@ -75584,7 +78080,8 @@ _G.pg.base.item_data_statistics[57396] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57397] = {
@@ -75717,7 +78214,8 @@ _G.pg.base.item_data_statistics[57397] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57398] = {
@@ -75850,7 +78348,8 @@ _G.pg.base.item_data_statistics[57398] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57399] = {
@@ -75983,7 +78482,8 @@ _G.pg.base.item_data_statistics[57399] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57401] = {
@@ -76031,7 +78531,8 @@ _G.pg.base.item_data_statistics[57401] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57402] = {
@@ -76079,7 +78580,8 @@ _G.pg.base.item_data_statistics[57402] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57403] = {
@@ -76127,7 +78629,8 @@ _G.pg.base.item_data_statistics[57403] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57404] = {
@@ -76175,7 +78678,8 @@ _G.pg.base.item_data_statistics[57404] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57405] = {
@@ -76223,7 +78727,8 @@ _G.pg.base.item_data_statistics[57405] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57406] = {
@@ -76271,7 +78776,8 @@ _G.pg.base.item_data_statistics[57406] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57411] = {
@@ -76319,7 +78825,8 @@ _G.pg.base.item_data_statistics[57411] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57412] = {
@@ -76367,7 +78874,8 @@ _G.pg.base.item_data_statistics[57412] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57413] = {
@@ -76415,7 +78923,8 @@ _G.pg.base.item_data_statistics[57413] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57414] = {
@@ -76463,7 +78972,8 @@ _G.pg.base.item_data_statistics[57414] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57415] = {
@@ -76511,7 +79021,8 @@ _G.pg.base.item_data_statistics[57415] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57416] = {
@@ -76559,7 +79070,8 @@ _G.pg.base.item_data_statistics[57416] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57421] = {
@@ -76692,7 +79204,8 @@ _G.pg.base.item_data_statistics[57421] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57422] = {
@@ -76825,7 +79338,8 @@ _G.pg.base.item_data_statistics[57422] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57423] = {
@@ -76963,7 +79477,8 @@ _G.pg.base.item_data_statistics[57423] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57424] = {
@@ -77096,7 +79611,8 @@ _G.pg.base.item_data_statistics[57424] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57425] = {
@@ -77234,7 +79750,8 @@ _G.pg.base.item_data_statistics[57425] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57426] = {
@@ -77372,7 +79889,8 @@ _G.pg.base.item_data_statistics[57426] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57431] = {
@@ -77420,7 +79938,8 @@ _G.pg.base.item_data_statistics[57431] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57432] = {
@@ -77468,7 +79987,8 @@ _G.pg.base.item_data_statistics[57432] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57433] = {
@@ -77516,7 +80036,8 @@ _G.pg.base.item_data_statistics[57433] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57434] = {
@@ -77564,7 +80085,8 @@ _G.pg.base.item_data_statistics[57434] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57435] = {
@@ -77612,7 +80134,8 @@ _G.pg.base.item_data_statistics[57435] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57436] = {
@@ -77660,7 +80183,8 @@ _G.pg.base.item_data_statistics[57436] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57441] = {
@@ -77703,7 +80227,8 @@ _G.pg.base.item_data_statistics[57441] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57442] = {
@@ -77746,7 +80271,8 @@ _G.pg.base.item_data_statistics[57442] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57443] = {
@@ -77789,7 +80315,8 @@ _G.pg.base.item_data_statistics[57443] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57444] = {
@@ -77832,7 +80359,8 @@ _G.pg.base.item_data_statistics[57444] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57445] = {
@@ -77875,7 +80403,8 @@ _G.pg.base.item_data_statistics[57445] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57446] = {
@@ -77918,7 +80447,8 @@ _G.pg.base.item_data_statistics[57446] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57451] = {
@@ -78051,7 +80581,8 @@ _G.pg.base.item_data_statistics[57451] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57452] = {
@@ -78184,7 +80715,8 @@ _G.pg.base.item_data_statistics[57452] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57453] = {
@@ -78322,7 +80854,8 @@ _G.pg.base.item_data_statistics[57453] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57454] = {
@@ -78455,7 +80988,8 @@ _G.pg.base.item_data_statistics[57454] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57455] = {
@@ -78593,7 +81127,8 @@ _G.pg.base.item_data_statistics[57455] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57456] = {
@@ -78736,7 +81271,8 @@ _G.pg.base.item_data_statistics[57456] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57461] = {
@@ -78784,7 +81320,8 @@ _G.pg.base.item_data_statistics[57461] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57462] = {
@@ -78832,7 +81369,8 @@ _G.pg.base.item_data_statistics[57462] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57463] = {
@@ -78880,7 +81418,8 @@ _G.pg.base.item_data_statistics[57463] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57471] = {
@@ -78928,7 +81467,8 @@ _G.pg.base.item_data_statistics[57471] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57472] = {
@@ -78976,7 +81516,8 @@ _G.pg.base.item_data_statistics[57472] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57473] = {
@@ -79024,7 +81565,8 @@ _G.pg.base.item_data_statistics[57473] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57474] = {
@@ -79072,7 +81614,8 @@ _G.pg.base.item_data_statistics[57474] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57475] = {
@@ -79120,7 +81663,8 @@ _G.pg.base.item_data_statistics[57475] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57476] = {
@@ -79168,7 +81712,8 @@ _G.pg.base.item_data_statistics[57476] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57477] = {
@@ -79216,7 +81761,8 @@ _G.pg.base.item_data_statistics[57477] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57478] = {
@@ -79259,7 +81805,8 @@ _G.pg.base.item_data_statistics[57478] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57479] = {
@@ -79392,7 +81939,8 @@ _G.pg.base.item_data_statistics[57479] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57480] = {
@@ -79525,7 +82073,8 @@ _G.pg.base.item_data_statistics[57480] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57481] = {
@@ -79658,7 +82207,8 @@ _G.pg.base.item_data_statistics[57481] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57482] = {
@@ -79791,7 +82341,8 @@ _G.pg.base.item_data_statistics[57482] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57483] = {
@@ -79904,7 +82455,8 @@ _G.pg.base.item_data_statistics[57483] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57491] = {
@@ -79952,7 +82504,8 @@ _G.pg.base.item_data_statistics[57491] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57492] = {
@@ -80000,7 +82553,8 @@ _G.pg.base.item_data_statistics[57492] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57493] = {
@@ -80048,7 +82602,8 @@ _G.pg.base.item_data_statistics[57493] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57494] = {
@@ -80096,7 +82651,8 @@ _G.pg.base.item_data_statistics[57494] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57495] = {
@@ -80144,7 +82700,8 @@ _G.pg.base.item_data_statistics[57495] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57496] = {
@@ -80187,7 +82744,8 @@ _G.pg.base.item_data_statistics[57496] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57497] = {
@@ -80320,7 +82878,8 @@ _G.pg.base.item_data_statistics[57497] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57498] = {
@@ -80453,7 +83012,8 @@ _G.pg.base.item_data_statistics[57498] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57499] = {
@@ -80586,7 +83146,8 @@ _G.pg.base.item_data_statistics[57499] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57501] = {
@@ -80634,7 +83195,8 @@ _G.pg.base.item_data_statistics[57501] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57502] = {
@@ -80682,7 +83244,8 @@ _G.pg.base.item_data_statistics[57502] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57503] = {
@@ -80730,7 +83293,8 @@ _G.pg.base.item_data_statistics[57503] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57504] = {
@@ -80778,7 +83342,8 @@ _G.pg.base.item_data_statistics[57504] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57505] = {
@@ -80826,7 +83391,8 @@ _G.pg.base.item_data_statistics[57505] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57506] = {
@@ -80874,7 +83440,8 @@ _G.pg.base.item_data_statistics[57506] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57511] = {
@@ -80922,7 +83489,8 @@ _G.pg.base.item_data_statistics[57511] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57512] = {
@@ -80970,7 +83538,8 @@ _G.pg.base.item_data_statistics[57512] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57513] = {
@@ -81018,7 +83587,8 @@ _G.pg.base.item_data_statistics[57513] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57514] = {
@@ -81066,7 +83636,8 @@ _G.pg.base.item_data_statistics[57514] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57515] = {
@@ -81114,7 +83685,8 @@ _G.pg.base.item_data_statistics[57515] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57516] = {
@@ -81162,7 +83734,8 @@ _G.pg.base.item_data_statistics[57516] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57521] = {
@@ -81295,7 +83868,8 @@ _G.pg.base.item_data_statistics[57521] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57522] = {
@@ -81428,7 +84002,8 @@ _G.pg.base.item_data_statistics[57522] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57523] = {
@@ -81566,7 +84141,8 @@ _G.pg.base.item_data_statistics[57523] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57524] = {
@@ -81699,7 +84275,8 @@ _G.pg.base.item_data_statistics[57524] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57525] = {
@@ -81837,7 +84414,8 @@ _G.pg.base.item_data_statistics[57525] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57526] = {
@@ -81975,7 +84553,8 @@ _G.pg.base.item_data_statistics[57526] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57531] = {
@@ -82023,7 +84602,8 @@ _G.pg.base.item_data_statistics[57531] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57532] = {
@@ -82071,7 +84651,8 @@ _G.pg.base.item_data_statistics[57532] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57533] = {
@@ -82119,7 +84700,8 @@ _G.pg.base.item_data_statistics[57533] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57534] = {
@@ -82167,7 +84749,8 @@ _G.pg.base.item_data_statistics[57534] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57535] = {
@@ -82215,7 +84798,8 @@ _G.pg.base.item_data_statistics[57535] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57536] = {
@@ -82263,7 +84847,8 @@ _G.pg.base.item_data_statistics[57536] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57541] = {
@@ -82306,7 +84891,8 @@ _G.pg.base.item_data_statistics[57541] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57542] = {
@@ -82349,7 +84935,8 @@ _G.pg.base.item_data_statistics[57542] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57543] = {
@@ -82392,7 +84979,8 @@ _G.pg.base.item_data_statistics[57543] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57544] = {
@@ -82435,7 +85023,8 @@ _G.pg.base.item_data_statistics[57544] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57545] = {
@@ -82478,7 +85067,8 @@ _G.pg.base.item_data_statistics[57545] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57546] = {
@@ -82521,7 +85111,8 @@ _G.pg.base.item_data_statistics[57546] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57551] = {
@@ -82654,7 +85245,8 @@ _G.pg.base.item_data_statistics[57551] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57552] = {
@@ -82787,7 +85379,8 @@ _G.pg.base.item_data_statistics[57552] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57553] = {
@@ -82925,7 +85518,8 @@ _G.pg.base.item_data_statistics[57553] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57554] = {
@@ -83058,7 +85652,8 @@ _G.pg.base.item_data_statistics[57554] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57555] = {
@@ -83196,7 +85791,8 @@ _G.pg.base.item_data_statistics[57555] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57556] = {
@@ -83334,7 +85930,8 @@ _G.pg.base.item_data_statistics[57556] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57560] = {
@@ -83382,7 +85979,8 @@ _G.pg.base.item_data_statistics[57560] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57561] = {
@@ -83430,7 +86028,8 @@ _G.pg.base.item_data_statistics[57561] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57562] = {
@@ -83478,7 +86077,8 @@ _G.pg.base.item_data_statistics[57562] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57563] = {
@@ -83526,7 +86126,8 @@ _G.pg.base.item_data_statistics[57563] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57564] = {
@@ -83574,7 +86175,8 @@ _G.pg.base.item_data_statistics[57564] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57565] = {
@@ -83622,7 +86224,8 @@ _G.pg.base.item_data_statistics[57565] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57566] = {
@@ -83665,7 +86268,8 @@ _G.pg.base.item_data_statistics[57566] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57567] = {
@@ -83798,7 +86402,8 @@ _G.pg.base.item_data_statistics[57567] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57568] = {
@@ -83931,7 +86536,8 @@ _G.pg.base.item_data_statistics[57568] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57569] = {
@@ -84064,7 +86670,8 @@ _G.pg.base.item_data_statistics[57569] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57590] = {
@@ -84112,7 +86719,8 @@ _G.pg.base.item_data_statistics[57590] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57591] = {
@@ -84160,7 +86768,8 @@ _G.pg.base.item_data_statistics[57591] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57592] = {
@@ -84208,7 +86817,8 @@ _G.pg.base.item_data_statistics[57592] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57593] = {
@@ -84256,7 +86866,8 @@ _G.pg.base.item_data_statistics[57593] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57594] = {
@@ -84304,7 +86915,8 @@ _G.pg.base.item_data_statistics[57594] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57595] = {
@@ -84352,7 +86964,8 @@ _G.pg.base.item_data_statistics[57595] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57596] = {
@@ -84400,7 +87013,8 @@ _G.pg.base.item_data_statistics[57596] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57597] = {
@@ -84448,7 +87062,8 @@ _G.pg.base.item_data_statistics[57597] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57598] = {
@@ -84496,7 +87111,8 @@ _G.pg.base.item_data_statistics[57598] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57599] = {
@@ -84544,7 +87160,8 @@ _G.pg.base.item_data_statistics[57599] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57600] = {
@@ -84592,7 +87209,8 @@ _G.pg.base.item_data_statistics[57600] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57601] = {
@@ -84640,7 +87258,8 @@ _G.pg.base.item_data_statistics[57601] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57602] = {
@@ -84773,7 +87392,8 @@ _G.pg.base.item_data_statistics[57602] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57603] = {
@@ -84906,7 +87526,8 @@ _G.pg.base.item_data_statistics[57603] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57604] = {
@@ -85039,7 +87660,8 @@ _G.pg.base.item_data_statistics[57604] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57605] = {
@@ -85172,7 +87794,8 @@ _G.pg.base.item_data_statistics[57605] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57606] = {
@@ -85305,7 +87928,8 @@ _G.pg.base.item_data_statistics[57606] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57607] = {
@@ -85438,7 +88062,8 @@ _G.pg.base.item_data_statistics[57607] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57608] = {
@@ -85486,7 +88111,8 @@ _G.pg.base.item_data_statistics[57608] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57609] = {
@@ -85534,7 +88160,8 @@ _G.pg.base.item_data_statistics[57609] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57610] = {
@@ -85582,7 +88209,8 @@ _G.pg.base.item_data_statistics[57610] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57611] = {
@@ -85630,7 +88258,8 @@ _G.pg.base.item_data_statistics[57611] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57612] = {
@@ -85678,7 +88307,8 @@ _G.pg.base.item_data_statistics[57612] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57613] = {
@@ -85726,7 +88356,8 @@ _G.pg.base.item_data_statistics[57613] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57614] = {
@@ -85769,7 +88400,8 @@ _G.pg.base.item_data_statistics[57614] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57615] = {
@@ -85812,7 +88444,8 @@ _G.pg.base.item_data_statistics[57615] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57616] = {
@@ -85855,7 +88488,8 @@ _G.pg.base.item_data_statistics[57616] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57617] = {
@@ -85898,7 +88532,8 @@ _G.pg.base.item_data_statistics[57617] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57618] = {
@@ -85941,7 +88576,8 @@ _G.pg.base.item_data_statistics[57618] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57619] = {
@@ -85984,7 +88620,8 @@ _G.pg.base.item_data_statistics[57619] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57620] = {
@@ -86117,7 +88754,8 @@ _G.pg.base.item_data_statistics[57620] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57621] = {
@@ -86250,7 +88888,8 @@ _G.pg.base.item_data_statistics[57621] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57622] = {
@@ -86383,7 +89022,8 @@ _G.pg.base.item_data_statistics[57622] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57623] = {
@@ -86516,7 +89156,8 @@ _G.pg.base.item_data_statistics[57623] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57624] = {
@@ -86649,7 +89290,8 @@ _G.pg.base.item_data_statistics[57624] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57625] = {
@@ -86782,7 +89424,8 @@ _G.pg.base.item_data_statistics[57625] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57630] = {
@@ -86830,7 +89473,8 @@ _G.pg.base.item_data_statistics[57630] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57631] = {
@@ -86878,7 +89522,8 @@ _G.pg.base.item_data_statistics[57631] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57632] = {
@@ -86926,7 +89571,8 @@ _G.pg.base.item_data_statistics[57632] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57633] = {
@@ -86974,7 +89620,8 @@ _G.pg.base.item_data_statistics[57633] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57634] = {
@@ -87022,7 +89669,8 @@ _G.pg.base.item_data_statistics[57634] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57635] = {
@@ -87070,7 +89718,8 @@ _G.pg.base.item_data_statistics[57635] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57636] = {
@@ -87118,7 +89767,8 @@ _G.pg.base.item_data_statistics[57636] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57637] = {
@@ -87166,7 +89816,8 @@ _G.pg.base.item_data_statistics[57637] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57638] = {
@@ -87214,7 +89865,8 @@ _G.pg.base.item_data_statistics[57638] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57639] = {
@@ -87262,7 +89914,8 @@ _G.pg.base.item_data_statistics[57639] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57640] = {
@@ -87310,7 +89963,8 @@ _G.pg.base.item_data_statistics[57640] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57641] = {
@@ -87358,7 +90012,8 @@ _G.pg.base.item_data_statistics[57641] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57642] = {
@@ -87491,7 +90146,8 @@ _G.pg.base.item_data_statistics[57642] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57643] = {
@@ -87624,7 +90280,8 @@ _G.pg.base.item_data_statistics[57643] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57644] = {
@@ -87757,7 +90414,8 @@ _G.pg.base.item_data_statistics[57644] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57645] = {
@@ -87890,7 +90548,8 @@ _G.pg.base.item_data_statistics[57645] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57646] = {
@@ -88023,7 +90682,8 @@ _G.pg.base.item_data_statistics[57646] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57647] = {
@@ -88161,7 +90821,8 @@ _G.pg.base.item_data_statistics[57647] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57648] = {
@@ -88209,7 +90870,8 @@ _G.pg.base.item_data_statistics[57648] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57649] = {
@@ -88257,7 +90919,8 @@ _G.pg.base.item_data_statistics[57649] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57650] = {
@@ -88305,7 +90968,8 @@ _G.pg.base.item_data_statistics[57650] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57651] = {
@@ -88353,7 +91017,8 @@ _G.pg.base.item_data_statistics[57651] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57652] = {
@@ -88401,7 +91066,8 @@ _G.pg.base.item_data_statistics[57652] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57653] = {
@@ -88449,7 +91115,8 @@ _G.pg.base.item_data_statistics[57653] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57654] = {
@@ -88492,7 +91159,8 @@ _G.pg.base.item_data_statistics[57654] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57655] = {
@@ -88535,7 +91203,8 @@ _G.pg.base.item_data_statistics[57655] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57656] = {
@@ -88578,7 +91247,8 @@ _G.pg.base.item_data_statistics[57656] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57657] = {
@@ -88621,7 +91291,8 @@ _G.pg.base.item_data_statistics[57657] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57658] = {
@@ -88664,7 +91335,8 @@ _G.pg.base.item_data_statistics[57658] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57659] = {
@@ -88707,7 +91379,8 @@ _G.pg.base.item_data_statistics[57659] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57660] = {
@@ -88840,7 +91513,8 @@ _G.pg.base.item_data_statistics[57660] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57661] = {
@@ -88973,7 +91647,8 @@ _G.pg.base.item_data_statistics[57661] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57662] = {
@@ -89106,7 +91781,8 @@ _G.pg.base.item_data_statistics[57662] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57663] = {
@@ -89239,7 +91915,8 @@ _G.pg.base.item_data_statistics[57663] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57664] = {
@@ -89372,7 +92049,8 @@ _G.pg.base.item_data_statistics[57664] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57665] = {
@@ -89510,7 +92188,8 @@ _G.pg.base.item_data_statistics[57665] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57670] = {
@@ -89558,7 +92237,8 @@ _G.pg.base.item_data_statistics[57670] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57671] = {
@@ -89606,7 +92286,8 @@ _G.pg.base.item_data_statistics[57671] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57672] = {
@@ -89654,7 +92335,8 @@ _G.pg.base.item_data_statistics[57672] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57673] = {
@@ -89702,7 +92384,8 @@ _G.pg.base.item_data_statistics[57673] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57674] = {
@@ -89750,7 +92433,8 @@ _G.pg.base.item_data_statistics[57674] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57675] = {
@@ -89798,7 +92482,8 @@ _G.pg.base.item_data_statistics[57675] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57676] = {
@@ -89846,7 +92531,8 @@ _G.pg.base.item_data_statistics[57676] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57677] = {
@@ -89894,7 +92580,8 @@ _G.pg.base.item_data_statistics[57677] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57678] = {
@@ -89942,7 +92629,8 @@ _G.pg.base.item_data_statistics[57678] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57679] = {
@@ -89990,7 +92678,8 @@ _G.pg.base.item_data_statistics[57679] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57680] = {
@@ -90038,7 +92727,8 @@ _G.pg.base.item_data_statistics[57680] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57681] = {
@@ -90086,7 +92776,8 @@ _G.pg.base.item_data_statistics[57681] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57682] = {
@@ -90219,7 +92910,8 @@ _G.pg.base.item_data_statistics[57682] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57683] = {
@@ -90352,7 +93044,8 @@ _G.pg.base.item_data_statistics[57683] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57684] = {
@@ -90485,7 +93178,8 @@ _G.pg.base.item_data_statistics[57684] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57685] = {
@@ -90613,7 +93307,8 @@ _G.pg.base.item_data_statistics[57685] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57686] = {
@@ -90741,7 +93436,8 @@ _G.pg.base.item_data_statistics[57686] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57687] = {
@@ -90869,7 +93565,8 @@ _G.pg.base.item_data_statistics[57687] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57688] = {
@@ -90917,7 +93614,8 @@ _G.pg.base.item_data_statistics[57688] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57689] = {
@@ -90965,7 +93663,8 @@ _G.pg.base.item_data_statistics[57689] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57690] = {
@@ -91013,7 +93712,8 @@ _G.pg.base.item_data_statistics[57690] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57691] = {
@@ -91061,7 +93761,8 @@ _G.pg.base.item_data_statistics[57691] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57692] = {
@@ -91109,7 +93810,8 @@ _G.pg.base.item_data_statistics[57692] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57693] = {
@@ -91157,7 +93859,8 @@ _G.pg.base.item_data_statistics[57693] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57694] = {
@@ -91200,7 +93903,8 @@ _G.pg.base.item_data_statistics[57694] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57695] = {
@@ -91243,7 +93947,8 @@ _G.pg.base.item_data_statistics[57695] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57696] = {
@@ -91286,7 +93991,8 @@ _G.pg.base.item_data_statistics[57696] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57697] = {
@@ -91329,7 +94035,8 @@ _G.pg.base.item_data_statistics[57697] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57698] = {
@@ -91372,7 +94079,8 @@ _G.pg.base.item_data_statistics[57698] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57699] = {
@@ -91415,7 +94123,8 @@ _G.pg.base.item_data_statistics[57699] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57700] = {
@@ -91548,7 +94257,8 @@ _G.pg.base.item_data_statistics[57700] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57701] = {
@@ -91681,7 +94391,8 @@ _G.pg.base.item_data_statistics[57701] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57702] = {
@@ -91814,7 +94525,8 @@ _G.pg.base.item_data_statistics[57702] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57703] = {
@@ -91942,7 +94654,8 @@ _G.pg.base.item_data_statistics[57703] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57704] = {
@@ -92070,7 +94783,8 @@ _G.pg.base.item_data_statistics[57704] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57705] = {
@@ -92198,7 +94912,8 @@ _G.pg.base.item_data_statistics[57705] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57707] = {
@@ -92246,7 +94961,8 @@ _G.pg.base.item_data_statistics[57707] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57708] = {
@@ -92294,7 +95010,8 @@ _G.pg.base.item_data_statistics[57708] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57709] = {
@@ -92342,7 +95059,8 @@ _G.pg.base.item_data_statistics[57709] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57710] = {
@@ -92390,7 +95108,8 @@ _G.pg.base.item_data_statistics[57710] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57711] = {
@@ -92438,7 +95157,8 @@ _G.pg.base.item_data_statistics[57711] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57712] = {
@@ -92486,7 +95206,8 @@ _G.pg.base.item_data_statistics[57712] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57713] = {
@@ -92534,7 +95255,8 @@ _G.pg.base.item_data_statistics[57713] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57714] = {
@@ -92582,7 +95304,8 @@ _G.pg.base.item_data_statistics[57714] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57715] = {
@@ -92625,7 +95348,8 @@ _G.pg.base.item_data_statistics[57715] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57716] = {
@@ -92758,7 +95482,8 @@ _G.pg.base.item_data_statistics[57716] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57717] = {
@@ -92891,7 +95616,8 @@ _G.pg.base.item_data_statistics[57717] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57718] = {
@@ -93024,7 +95750,8 @@ _G.pg.base.item_data_statistics[57718] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57720] = {
@@ -93072,7 +95799,8 @@ _G.pg.base.item_data_statistics[57720] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57721] = {
@@ -93120,7 +95848,8 @@ _G.pg.base.item_data_statistics[57721] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57722] = {
@@ -93168,7 +95897,8 @@ _G.pg.base.item_data_statistics[57722] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57723] = {
@@ -93216,7 +95946,8 @@ _G.pg.base.item_data_statistics[57723] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57724] = {
@@ -93264,7 +95995,8 @@ _G.pg.base.item_data_statistics[57724] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57725] = {
@@ -93312,7 +96044,8 @@ _G.pg.base.item_data_statistics[57725] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57726] = {
@@ -93360,7 +96093,8 @@ _G.pg.base.item_data_statistics[57726] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57727] = {
@@ -93408,7 +96142,8 @@ _G.pg.base.item_data_statistics[57727] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57728] = {
@@ -93456,7 +96191,8 @@ _G.pg.base.item_data_statistics[57728] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57729] = {
@@ -93504,7 +96240,8 @@ _G.pg.base.item_data_statistics[57729] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57730] = {
@@ -93547,7 +96284,8 @@ _G.pg.base.item_data_statistics[57730] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57731] = {
@@ -93590,7 +96328,8 @@ _G.pg.base.item_data_statistics[57731] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57732] = {
@@ -93723,7 +96462,8 @@ _G.pg.base.item_data_statistics[57732] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57733] = {
@@ -93856,7 +96596,8 @@ _G.pg.base.item_data_statistics[57733] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57734] = {
@@ -93989,7 +96730,8 @@ _G.pg.base.item_data_statistics[57734] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57735] = {
@@ -94122,7 +96864,8 @@ _G.pg.base.item_data_statistics[57735] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57736] = {
@@ -94255,7 +96998,8 @@ _G.pg.base.item_data_statistics[57736] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57737] = {
@@ -94388,7 +97132,8 @@ _G.pg.base.item_data_statistics[57737] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57738] = {
@@ -94501,7 +97246,8 @@ _G.pg.base.item_data_statistics[57738] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57740] = {
@@ -94549,7 +97295,8 @@ _G.pg.base.item_data_statistics[57740] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57741] = {
@@ -94597,7 +97344,8 @@ _G.pg.base.item_data_statistics[57741] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57742] = {
@@ -94645,7 +97393,8 @@ _G.pg.base.item_data_statistics[57742] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57743] = {
@@ -94693,7 +97442,8 @@ _G.pg.base.item_data_statistics[57743] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57744] = {
@@ -94741,7 +97491,8 @@ _G.pg.base.item_data_statistics[57744] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57745] = {
@@ -94789,7 +97540,8 @@ _G.pg.base.item_data_statistics[57745] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57746] = {
@@ -94837,7 +97589,8 @@ _G.pg.base.item_data_statistics[57746] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57747] = {
@@ -94885,7 +97638,8 @@ _G.pg.base.item_data_statistics[57747] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57748] = {
@@ -94933,7 +97687,8 @@ _G.pg.base.item_data_statistics[57748] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57749] = {
@@ -94981,7 +97736,8 @@ _G.pg.base.item_data_statistics[57749] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57750] = {
@@ -95029,7 +97785,8 @@ _G.pg.base.item_data_statistics[57750] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57751] = {
@@ -95072,7 +97829,8 @@ _G.pg.base.item_data_statistics[57751] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57752] = {
@@ -95115,7 +97873,8 @@ _G.pg.base.item_data_statistics[57752] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57753] = {
@@ -95158,7 +97917,8 @@ _G.pg.base.item_data_statistics[57753] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57754] = {
@@ -95291,7 +98051,8 @@ _G.pg.base.item_data_statistics[57754] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57755] = {
@@ -95424,7 +98185,8 @@ _G.pg.base.item_data_statistics[57755] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57756] = {
@@ -95557,7 +98319,8 @@ _G.pg.base.item_data_statistics[57756] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57757] = {
@@ -95690,7 +98453,8 @@ _G.pg.base.item_data_statistics[57757] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57758] = {
@@ -95823,7 +98587,8 @@ _G.pg.base.item_data_statistics[57758] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57759] = {
@@ -95956,7 +98721,8 @@ _G.pg.base.item_data_statistics[57759] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57760] = {
@@ -96089,7 +98855,8 @@ _G.pg.base.item_data_statistics[57760] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57762] = {
@@ -96142,7 +98909,8 @@ _G.pg.base.item_data_statistics[57762] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57763] = {
@@ -96190,7 +98958,8 @@ _G.pg.base.item_data_statistics[57763] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57764] = {
@@ -96238,7 +99007,8 @@ _G.pg.base.item_data_statistics[57764] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57765] = {
@@ -96286,7 +99056,8 @@ _G.pg.base.item_data_statistics[57765] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57766] = {
@@ -96334,7 +99105,8 @@ _G.pg.base.item_data_statistics[57766] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57767] = {
@@ -96382,7 +99154,8 @@ _G.pg.base.item_data_statistics[57767] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57768] = {
@@ -96430,7 +99203,8 @@ _G.pg.base.item_data_statistics[57768] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57770] = {
@@ -96478,7 +99252,8 @@ _G.pg.base.item_data_statistics[57770] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57771] = {
@@ -96526,7 +99301,8 @@ _G.pg.base.item_data_statistics[57771] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57772] = {
@@ -96574,7 +99350,8 @@ _G.pg.base.item_data_statistics[57772] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57773] = {
@@ -96622,7 +99399,8 @@ _G.pg.base.item_data_statistics[57773] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57774] = {
@@ -96670,7 +99448,8 @@ _G.pg.base.item_data_statistics[57774] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57775] = {
@@ -96718,7 +99497,8 @@ _G.pg.base.item_data_statistics[57775] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57776] = {
@@ -96766,7 +99546,8 @@ _G.pg.base.item_data_statistics[57776] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57777] = {
@@ -96814,7 +99595,8 @@ _G.pg.base.item_data_statistics[57777] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57778] = {
@@ -96862,7 +99644,8 @@ _G.pg.base.item_data_statistics[57778] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57779] = {
@@ -96910,7 +99693,8 @@ _G.pg.base.item_data_statistics[57779] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57780] = {
@@ -96958,7 +99742,8 @@ _G.pg.base.item_data_statistics[57780] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57781] = {
@@ -97006,7 +99791,8 @@ _G.pg.base.item_data_statistics[57781] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57782] = {
@@ -97139,7 +99925,8 @@ _G.pg.base.item_data_statistics[57782] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57783] = {
@@ -97272,7 +100059,8 @@ _G.pg.base.item_data_statistics[57783] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57784] = {
@@ -97405,7 +100193,8 @@ _G.pg.base.item_data_statistics[57784] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57785] = {
@@ -97538,7 +100327,8 @@ _G.pg.base.item_data_statistics[57785] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57786] = {
@@ -97671,7 +100461,8 @@ _G.pg.base.item_data_statistics[57786] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57787] = {
@@ -97809,7 +100600,8 @@ _G.pg.base.item_data_statistics[57787] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57788] = {
@@ -97857,7 +100649,8 @@ _G.pg.base.item_data_statistics[57788] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57789] = {
@@ -97905,7 +100698,8 @@ _G.pg.base.item_data_statistics[57789] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57790] = {
@@ -97953,7 +100747,8 @@ _G.pg.base.item_data_statistics[57790] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57791] = {
@@ -98001,7 +100796,8 @@ _G.pg.base.item_data_statistics[57791] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57792] = {
@@ -98049,7 +100845,8 @@ _G.pg.base.item_data_statistics[57792] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57793] = {
@@ -98097,7 +100894,8 @@ _G.pg.base.item_data_statistics[57793] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57794] = {
@@ -98140,7 +100938,8 @@ _G.pg.base.item_data_statistics[57794] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57795] = {
@@ -98183,7 +100982,8 @@ _G.pg.base.item_data_statistics[57795] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57796] = {
@@ -98226,7 +101026,8 @@ _G.pg.base.item_data_statistics[57796] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57797] = {
@@ -98269,7 +101070,8 @@ _G.pg.base.item_data_statistics[57797] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57798] = {
@@ -98312,7 +101114,8 @@ _G.pg.base.item_data_statistics[57798] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57799] = {
@@ -98355,7 +101158,8 @@ _G.pg.base.item_data_statistics[57799] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57800] = {
@@ -98483,7 +101287,8 @@ _G.pg.base.item_data_statistics[57800] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57801] = {
@@ -98611,7 +101416,8 @@ _G.pg.base.item_data_statistics[57801] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57802] = {
@@ -98739,7 +101545,8 @@ _G.pg.base.item_data_statistics[57802] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57803] = {
@@ -98867,7 +101674,8 @@ _G.pg.base.item_data_statistics[57803] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57804] = {
@@ -98995,7 +101803,8 @@ _G.pg.base.item_data_statistics[57804] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57805] = {
@@ -99128,7 +101937,8 @@ _G.pg.base.item_data_statistics[57805] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57806] = {
@@ -99176,7 +101986,8 @@ _G.pg.base.item_data_statistics[57806] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57807] = {
@@ -99219,7 +102030,8 @@ _G.pg.base.item_data_statistics[57807] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57808] = {
@@ -99352,7 +102164,8 @@ _G.pg.base.item_data_statistics[57808] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57810] = {
@@ -99400,7 +102213,8 @@ _G.pg.base.item_data_statistics[57810] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57811] = {
@@ -99448,7 +102262,8 @@ _G.pg.base.item_data_statistics[57811] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57812] = {
@@ -99496,7 +102311,8 @@ _G.pg.base.item_data_statistics[57812] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57813] = {
@@ -99544,7 +102360,8 @@ _G.pg.base.item_data_statistics[57813] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57814] = {
@@ -99592,7 +102409,8 @@ _G.pg.base.item_data_statistics[57814] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57815] = {
@@ -99640,7 +102458,8 @@ _G.pg.base.item_data_statistics[57815] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57816] = {
@@ -99688,7 +102507,8 @@ _G.pg.base.item_data_statistics[57816] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57817] = {
@@ -99736,7 +102556,8 @@ _G.pg.base.item_data_statistics[57817] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57818] = {
@@ -99784,7 +102605,8 @@ _G.pg.base.item_data_statistics[57818] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57819] = {
@@ -99832,7 +102654,8 @@ _G.pg.base.item_data_statistics[57819] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57820] = {
@@ -99880,7 +102703,8 @@ _G.pg.base.item_data_statistics[57820] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57821] = {
@@ -99928,7 +102752,8 @@ _G.pg.base.item_data_statistics[57821] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57822] = {
@@ -100061,7 +102886,8 @@ _G.pg.base.item_data_statistics[57822] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57823] = {
@@ -100194,7 +103020,8 @@ _G.pg.base.item_data_statistics[57823] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57824] = {
@@ -100327,7 +103154,8 @@ _G.pg.base.item_data_statistics[57824] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57825] = {
@@ -100460,7 +103288,8 @@ _G.pg.base.item_data_statistics[57825] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57826] = {
@@ -100593,7 +103422,8 @@ _G.pg.base.item_data_statistics[57826] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57827] = {
@@ -100731,7 +103561,8 @@ _G.pg.base.item_data_statistics[57827] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57828] = {
@@ -100779,7 +103610,8 @@ _G.pg.base.item_data_statistics[57828] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57829] = {
@@ -100827,7 +103659,8 @@ _G.pg.base.item_data_statistics[57829] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57830] = {
@@ -100875,7 +103708,8 @@ _G.pg.base.item_data_statistics[57830] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57831] = {
@@ -100923,7 +103757,8 @@ _G.pg.base.item_data_statistics[57831] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57832] = {
@@ -100971,7 +103806,8 @@ _G.pg.base.item_data_statistics[57832] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57833] = {
@@ -101019,7 +103855,8 @@ _G.pg.base.item_data_statistics[57833] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57834] = {
@@ -101067,7 +103904,8 @@ _G.pg.base.item_data_statistics[57834] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57835] = {
@@ -101110,7 +103948,8 @@ _G.pg.base.item_data_statistics[57835] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57836] = {
@@ -101153,7 +103992,8 @@ _G.pg.base.item_data_statistics[57836] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57837] = {
@@ -101196,7 +104036,8 @@ _G.pg.base.item_data_statistics[57837] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57838] = {
@@ -101239,7 +104080,8 @@ _G.pg.base.item_data_statistics[57838] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57839] = {
@@ -101282,7 +104124,8 @@ _G.pg.base.item_data_statistics[57839] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57840] = {
@@ -101410,7 +104253,8 @@ _G.pg.base.item_data_statistics[57840] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57841] = {
@@ -101538,7 +104382,8 @@ _G.pg.base.item_data_statistics[57841] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57842] = {
@@ -101666,7 +104511,8 @@ _G.pg.base.item_data_statistics[57842] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57843] = {
@@ -101794,7 +104640,8 @@ _G.pg.base.item_data_statistics[57843] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57844] = {
@@ -101922,7 +104769,8 @@ _G.pg.base.item_data_statistics[57844] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57845] = {
@@ -102055,7 +104903,8 @@ _G.pg.base.item_data_statistics[57845] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57846] = {
@@ -102103,7 +104952,8 @@ _G.pg.base.item_data_statistics[57846] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57847] = {
@@ -102146,7 +104996,8 @@ _G.pg.base.item_data_statistics[57847] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57848] = {
@@ -102279,7 +105130,8 @@ _G.pg.base.item_data_statistics[57848] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57850] = {
@@ -102327,7 +105179,8 @@ _G.pg.base.item_data_statistics[57850] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57851] = {
@@ -102375,7 +105228,8 @@ _G.pg.base.item_data_statistics[57851] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57852] = {
@@ -102423,7 +105277,8 @@ _G.pg.base.item_data_statistics[57852] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57853] = {
@@ -102471,7 +105326,8 @@ _G.pg.base.item_data_statistics[57853] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57854] = {
@@ -102519,7 +105375,8 @@ _G.pg.base.item_data_statistics[57854] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57855] = {
@@ -102567,7 +105424,8 @@ _G.pg.base.item_data_statistics[57855] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57856] = {
@@ -102615,7 +105473,8 @@ _G.pg.base.item_data_statistics[57856] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57857] = {
@@ -102663,7 +105522,8 @@ _G.pg.base.item_data_statistics[57857] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57858] = {
@@ -102711,7 +105571,8 @@ _G.pg.base.item_data_statistics[57858] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57859] = {
@@ -102759,7 +105620,8 @@ _G.pg.base.item_data_statistics[57859] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57860] = {
@@ -102807,7 +105669,8 @@ _G.pg.base.item_data_statistics[57860] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57861] = {
@@ -102855,7 +105718,8 @@ _G.pg.base.item_data_statistics[57861] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57862] = {
@@ -102988,7 +105852,8 @@ _G.pg.base.item_data_statistics[57862] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57863] = {
@@ -103121,7 +105986,8 @@ _G.pg.base.item_data_statistics[57863] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57864] = {
@@ -103254,7 +106120,8 @@ _G.pg.base.item_data_statistics[57864] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57865] = {
@@ -103387,7 +106254,8 @@ _G.pg.base.item_data_statistics[57865] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57866] = {
@@ -103520,7 +106388,8 @@ _G.pg.base.item_data_statistics[57866] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57867] = {
@@ -103658,7 +106527,8 @@ _G.pg.base.item_data_statistics[57867] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57868] = {
@@ -103706,7 +106576,8 @@ _G.pg.base.item_data_statistics[57868] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57869] = {
@@ -103754,7 +106625,8 @@ _G.pg.base.item_data_statistics[57869] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57870] = {
@@ -103802,7 +106674,8 @@ _G.pg.base.item_data_statistics[57870] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57871] = {
@@ -103850,7 +106723,8 @@ _G.pg.base.item_data_statistics[57871] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57872] = {
@@ -103898,7 +106772,8 @@ _G.pg.base.item_data_statistics[57872] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57873] = {
@@ -103946,7 +106821,8 @@ _G.pg.base.item_data_statistics[57873] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57874] = {
@@ -103994,7 +106870,8 @@ _G.pg.base.item_data_statistics[57874] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57875] = {
@@ -104037,7 +106914,8 @@ _G.pg.base.item_data_statistics[57875] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57876] = {
@@ -104080,7 +106958,8 @@ _G.pg.base.item_data_statistics[57876] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57877] = {
@@ -104123,7 +107002,8 @@ _G.pg.base.item_data_statistics[57877] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57878] = {
@@ -104166,7 +107046,8 @@ _G.pg.base.item_data_statistics[57878] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57879] = {
@@ -104209,7 +107090,8 @@ _G.pg.base.item_data_statistics[57879] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57880] = {
@@ -104342,7 +107224,8 @@ _G.pg.base.item_data_statistics[57880] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57881] = {
@@ -104475,7 +107358,8 @@ _G.pg.base.item_data_statistics[57881] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57882] = {
@@ -104608,7 +107492,8 @@ _G.pg.base.item_data_statistics[57882] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57883] = {
@@ -104741,7 +107626,8 @@ _G.pg.base.item_data_statistics[57883] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57884] = {
@@ -104874,7 +107760,8 @@ _G.pg.base.item_data_statistics[57884] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57885] = {
@@ -105012,7 +107899,8 @@ _G.pg.base.item_data_statistics[57885] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57886] = {
@@ -105060,7 +107948,8 @@ _G.pg.base.item_data_statistics[57886] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57887] = {
@@ -105103,7 +107992,8 @@ _G.pg.base.item_data_statistics[57887] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57888] = {
@@ -105241,7 +108131,8 @@ _G.pg.base.item_data_statistics[57888] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57889] = {
@@ -105289,7 +108180,8 @@ _G.pg.base.item_data_statistics[57889] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57890] = {
@@ -105337,7 +108229,8 @@ _G.pg.base.item_data_statistics[57890] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57891] = {
@@ -105385,7 +108278,8 @@ _G.pg.base.item_data_statistics[57891] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57892] = {
@@ -105433,7 +108327,8 @@ _G.pg.base.item_data_statistics[57892] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57893] = {
@@ -105481,7 +108376,8 @@ _G.pg.base.item_data_statistics[57893] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57894] = {
@@ -105524,7 +108420,8 @@ _G.pg.base.item_data_statistics[57894] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57895] = {
@@ -105657,7 +108554,8 @@ _G.pg.base.item_data_statistics[57895] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57896] = {
@@ -105790,7 +108688,8 @@ _G.pg.base.item_data_statistics[57896] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57897] = {
@@ -105923,7 +108822,8 @@ _G.pg.base.item_data_statistics[57897] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57900] = {
@@ -105971,7 +108871,8 @@ _G.pg.base.item_data_statistics[57900] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57901] = {
@@ -106019,7 +108920,8 @@ _G.pg.base.item_data_statistics[57901] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57902] = {
@@ -106067,7 +108969,8 @@ _G.pg.base.item_data_statistics[57902] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57903] = {
@@ -106115,7 +109018,8 @@ _G.pg.base.item_data_statistics[57903] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57904] = {
@@ -106163,7 +109067,8 @@ _G.pg.base.item_data_statistics[57904] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57905] = {
@@ -106211,7 +109116,8 @@ _G.pg.base.item_data_statistics[57905] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57906] = {
@@ -106259,7 +109165,8 @@ _G.pg.base.item_data_statistics[57906] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57907] = {
@@ -106307,7 +109214,8 @@ _G.pg.base.item_data_statistics[57907] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57908] = {
@@ -106355,7 +109263,8 @@ _G.pg.base.item_data_statistics[57908] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57909] = {
@@ -106403,7 +109312,8 @@ _G.pg.base.item_data_statistics[57909] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57910] = {
@@ -106451,7 +109361,8 @@ _G.pg.base.item_data_statistics[57910] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57911] = {
@@ -106499,7 +109410,8 @@ _G.pg.base.item_data_statistics[57911] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57912] = {
@@ -106632,7 +109544,8 @@ _G.pg.base.item_data_statistics[57912] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57913] = {
@@ -106765,7 +109678,8 @@ _G.pg.base.item_data_statistics[57913] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57914] = {
@@ -106898,7 +109812,8 @@ _G.pg.base.item_data_statistics[57914] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57915] = {
@@ -107031,7 +109946,8 @@ _G.pg.base.item_data_statistics[57915] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57916] = {
@@ -107164,7 +110080,8 @@ _G.pg.base.item_data_statistics[57916] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57917] = {
@@ -107302,7 +110219,8 @@ _G.pg.base.item_data_statistics[57917] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57918] = {
@@ -107350,7 +110268,8 @@ _G.pg.base.item_data_statistics[57918] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57919] = {
@@ -107398,7 +110317,8 @@ _G.pg.base.item_data_statistics[57919] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57920] = {
@@ -107446,7 +110366,8 @@ _G.pg.base.item_data_statistics[57920] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57921] = {
@@ -107494,7 +110415,8 @@ _G.pg.base.item_data_statistics[57921] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57922] = {
@@ -107542,7 +110464,8 @@ _G.pg.base.item_data_statistics[57922] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57923] = {
@@ -107590,7 +110513,8 @@ _G.pg.base.item_data_statistics[57923] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57924] = {
@@ -107638,7 +110562,8 @@ _G.pg.base.item_data_statistics[57924] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57925] = {
@@ -107681,7 +110606,8 @@ _G.pg.base.item_data_statistics[57925] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57926] = {
@@ -107724,7 +110650,8 @@ _G.pg.base.item_data_statistics[57926] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57927] = {
@@ -107767,7 +110694,8 @@ _G.pg.base.item_data_statistics[57927] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57928] = {
@@ -107810,7 +110738,8 @@ _G.pg.base.item_data_statistics[57928] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57929] = {
@@ -107853,7 +110782,8 @@ _G.pg.base.item_data_statistics[57929] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57930] = {
@@ -107986,7 +110916,8 @@ _G.pg.base.item_data_statistics[57930] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57931] = {
@@ -108119,7 +111050,8 @@ _G.pg.base.item_data_statistics[57931] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57932] = {
@@ -108252,7 +111184,8 @@ _G.pg.base.item_data_statistics[57932] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57933] = {
@@ -108385,7 +111318,8 @@ _G.pg.base.item_data_statistics[57933] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57934] = {
@@ -108518,7 +111452,8 @@ _G.pg.base.item_data_statistics[57934] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57935] = {
@@ -108656,7 +111591,8 @@ _G.pg.base.item_data_statistics[57935] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57936] = {
@@ -108704,7 +111640,8 @@ _G.pg.base.item_data_statistics[57936] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57937] = {
@@ -108747,7 +111684,8 @@ _G.pg.base.item_data_statistics[57937] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57938] = {
@@ -108885,7 +111823,8 @@ _G.pg.base.item_data_statistics[57938] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57941] = {
@@ -108933,7 +111872,8 @@ _G.pg.base.item_data_statistics[57941] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57942] = {
@@ -108981,7 +111921,8 @@ _G.pg.base.item_data_statistics[57942] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57943] = {
@@ -109029,7 +111970,8 @@ _G.pg.base.item_data_statistics[57943] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57944] = {
@@ -109077,7 +112019,8 @@ _G.pg.base.item_data_statistics[57944] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57945] = {
@@ -109125,7 +112068,8 @@ _G.pg.base.item_data_statistics[57945] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57946] = {
@@ -109168,7 +112112,8 @@ _G.pg.base.item_data_statistics[57946] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57947] = {
@@ -109301,7 +112246,8 @@ _G.pg.base.item_data_statistics[57947] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57948] = {
@@ -109434,7 +112380,8 @@ _G.pg.base.item_data_statistics[57948] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57949] = {
@@ -109567,7 +112514,8 @@ _G.pg.base.item_data_statistics[57949] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57950] = {
@@ -109615,7 +112563,8 @@ _G.pg.base.item_data_statistics[57950] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57951] = {
@@ -109663,7 +112612,8 @@ _G.pg.base.item_data_statistics[57951] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57952] = {
@@ -109711,7 +112661,8 @@ _G.pg.base.item_data_statistics[57952] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57953] = {
@@ -109759,7 +112710,8 @@ _G.pg.base.item_data_statistics[57953] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57954] = {
@@ -109807,7 +112759,8 @@ _G.pg.base.item_data_statistics[57954] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57955] = {
@@ -109855,7 +112808,8 @@ _G.pg.base.item_data_statistics[57955] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57956] = {
@@ -109903,7 +112857,8 @@ _G.pg.base.item_data_statistics[57956] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57957] = {
@@ -109951,7 +112906,8 @@ _G.pg.base.item_data_statistics[57957] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57958] = {
@@ -109999,7 +112955,8 @@ _G.pg.base.item_data_statistics[57958] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57959] = {
@@ -110047,7 +113004,8 @@ _G.pg.base.item_data_statistics[57959] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57960] = {
@@ -110095,7 +113053,8 @@ _G.pg.base.item_data_statistics[57960] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57961] = {
@@ -110143,7 +113102,8 @@ _G.pg.base.item_data_statistics[57961] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57962] = {
@@ -110276,7 +113236,8 @@ _G.pg.base.item_data_statistics[57962] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57963] = {
@@ -110409,7 +113370,8 @@ _G.pg.base.item_data_statistics[57963] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57964] = {
@@ -110542,7 +113504,8 @@ _G.pg.base.item_data_statistics[57964] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57965] = {
@@ -110675,7 +113638,8 @@ _G.pg.base.item_data_statistics[57965] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57966] = {
@@ -110808,7 +113772,8 @@ _G.pg.base.item_data_statistics[57966] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57967] = {
@@ -110946,7 +113911,8 @@ _G.pg.base.item_data_statistics[57967] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57968] = {
@@ -110994,7 +113960,8 @@ _G.pg.base.item_data_statistics[57968] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57969] = {
@@ -111042,7 +114009,8 @@ _G.pg.base.item_data_statistics[57969] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57970] = {
@@ -111090,7 +114058,8 @@ _G.pg.base.item_data_statistics[57970] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57971] = {
@@ -111138,7 +114107,8 @@ _G.pg.base.item_data_statistics[57971] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57972] = {
@@ -111186,7 +114156,8 @@ _G.pg.base.item_data_statistics[57972] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57973] = {
@@ -111234,7 +114205,8 @@ _G.pg.base.item_data_statistics[57973] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57974] = {
@@ -111282,7 +114254,8 @@ _G.pg.base.item_data_statistics[57974] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57975] = {
@@ -111325,7 +114298,8 @@ _G.pg.base.item_data_statistics[57975] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57976] = {
@@ -111368,7 +114342,8 @@ _G.pg.base.item_data_statistics[57976] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57977] = {
@@ -111411,7 +114386,8 @@ _G.pg.base.item_data_statistics[57977] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57978] = {
@@ -111454,7 +114430,8 @@ _G.pg.base.item_data_statistics[57978] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57979] = {
@@ -111497,7 +114474,8 @@ _G.pg.base.item_data_statistics[57979] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57980] = {
@@ -111630,7 +114608,8 @@ _G.pg.base.item_data_statistics[57980] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57981] = {
@@ -111763,7 +114742,8 @@ _G.pg.base.item_data_statistics[57981] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57982] = {
@@ -111896,7 +114876,8 @@ _G.pg.base.item_data_statistics[57982] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57983] = {
@@ -112029,7 +115010,8 @@ _G.pg.base.item_data_statistics[57983] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57984] = {
@@ -112162,7 +115144,8 @@ _G.pg.base.item_data_statistics[57984] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57985] = {
@@ -112300,7 +115283,8 @@ _G.pg.base.item_data_statistics[57985] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57986] = {
@@ -112348,7 +115332,8 @@ _G.pg.base.item_data_statistics[57986] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57987] = {
@@ -112391,7 +115376,8 @@ _G.pg.base.item_data_statistics[57987] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57988] = {
@@ -112529,7 +115515,8 @@ _G.pg.base.item_data_statistics[57988] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57989] = {
@@ -112577,7 +115564,8 @@ _G.pg.base.item_data_statistics[57989] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57990] = {
@@ -112625,7 +115613,8 @@ _G.pg.base.item_data_statistics[57990] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57991] = {
@@ -112673,7 +115662,8 @@ _G.pg.base.item_data_statistics[57991] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57992] = {
@@ -112721,7 +115711,8 @@ _G.pg.base.item_data_statistics[57992] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57993] = {
@@ -112769,7 +115760,8 @@ _G.pg.base.item_data_statistics[57993] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57994] = {
@@ -112817,7 +115809,8 @@ _G.pg.base.item_data_statistics[57994] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57995] = {
@@ -112865,7 +115858,8 @@ _G.pg.base.item_data_statistics[57995] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57996] = {
@@ -112913,7 +115907,8 @@ _G.pg.base.item_data_statistics[57996] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57997] = {
@@ -112961,7 +115956,8 @@ _G.pg.base.item_data_statistics[57997] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57998] = {
@@ -113009,7 +116005,8 @@ _G.pg.base.item_data_statistics[57998] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[57999] = {
@@ -113057,7 +116054,8 @@ _G.pg.base.item_data_statistics[57999] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58000] = {
@@ -113105,7 +116103,8 @@ _G.pg.base.item_data_statistics[58000] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58001] = {
@@ -113238,7 +116237,8 @@ _G.pg.base.item_data_statistics[58001] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58002] = {
@@ -113371,7 +116371,8 @@ _G.pg.base.item_data_statistics[58002] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58003] = {
@@ -113504,7 +116505,8 @@ _G.pg.base.item_data_statistics[58003] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58004] = {
@@ -113637,7 +116639,8 @@ _G.pg.base.item_data_statistics[58004] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58005] = {
@@ -113770,7 +116773,8 @@ _G.pg.base.item_data_statistics[58005] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58006] = {
@@ -113908,7 +116912,8 @@ _G.pg.base.item_data_statistics[58006] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58007] = {
@@ -113956,7 +116961,8 @@ _G.pg.base.item_data_statistics[58007] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58008] = {
@@ -114004,7 +117010,8 @@ _G.pg.base.item_data_statistics[58008] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58009] = {
@@ -114052,7 +117059,8 @@ _G.pg.base.item_data_statistics[58009] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58010] = {
@@ -114100,7 +117108,8 @@ _G.pg.base.item_data_statistics[58010] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58011] = {
@@ -114148,7 +117157,8 @@ _G.pg.base.item_data_statistics[58011] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58012] = {
@@ -114196,7 +117206,8 @@ _G.pg.base.item_data_statistics[58012] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58013] = {
@@ -114244,7 +117255,8 @@ _G.pg.base.item_data_statistics[58013] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58014] = {
@@ -114287,7 +117299,8 @@ _G.pg.base.item_data_statistics[58014] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58015] = {
@@ -114330,7 +117343,8 @@ _G.pg.base.item_data_statistics[58015] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58016] = {
@@ -114373,7 +117387,8 @@ _G.pg.base.item_data_statistics[58016] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58017] = {
@@ -114416,7 +117431,8 @@ _G.pg.base.item_data_statistics[58017] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58018] = {
@@ -114459,7 +117475,8 @@ _G.pg.base.item_data_statistics[58018] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58019] = {
@@ -114592,7 +117609,8 @@ _G.pg.base.item_data_statistics[58019] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58020] = {
@@ -114725,7 +117743,8 @@ _G.pg.base.item_data_statistics[58020] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58021] = {
@@ -114858,7 +117877,8 @@ _G.pg.base.item_data_statistics[58021] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58022] = {
@@ -114991,7 +118011,8 @@ _G.pg.base.item_data_statistics[58022] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58023] = {
@@ -115124,7 +118145,8 @@ _G.pg.base.item_data_statistics[58023] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58024] = {
@@ -115262,7 +118284,8 @@ _G.pg.base.item_data_statistics[58024] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58025] = {
@@ -115310,7 +118333,8 @@ _G.pg.base.item_data_statistics[58025] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58026] = {
@@ -115353,7 +118377,8 @@ _G.pg.base.item_data_statistics[58026] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58027] = {
@@ -115491,7 +118516,8 @@ _G.pg.base.item_data_statistics[58027] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58028] = {
@@ -115539,7 +118565,8 @@ _G.pg.base.item_data_statistics[58028] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58029] = {
@@ -115587,7 +118614,8 @@ _G.pg.base.item_data_statistics[58029] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58030] = {
@@ -115635,7 +118663,8 @@ _G.pg.base.item_data_statistics[58030] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58031] = {
@@ -115683,7 +118712,8 @@ _G.pg.base.item_data_statistics[58031] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58032] = {
@@ -115731,7 +118761,8 @@ _G.pg.base.item_data_statistics[58032] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58033] = {
@@ -115774,7 +118805,8 @@ _G.pg.base.item_data_statistics[58033] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58034] = {
@@ -115907,7 +118939,8 @@ _G.pg.base.item_data_statistics[58034] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58035] = {
@@ -116040,7 +119073,8 @@ _G.pg.base.item_data_statistics[58035] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58036] = {
@@ -116173,7 +119207,8 @@ _G.pg.base.item_data_statistics[58036] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58040] = {
@@ -116221,7 +119256,8 @@ _G.pg.base.item_data_statistics[58040] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58041] = {
@@ -116269,7 +119305,8 @@ _G.pg.base.item_data_statistics[58041] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58042] = {
@@ -116317,7 +119354,8 @@ _G.pg.base.item_data_statistics[58042] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58043] = {
@@ -116365,7 +119403,8 @@ _G.pg.base.item_data_statistics[58043] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58044] = {
@@ -116413,7 +119452,8 @@ _G.pg.base.item_data_statistics[58044] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58045] = {
@@ -116461,7 +119501,8 @@ _G.pg.base.item_data_statistics[58045] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58046] = {
@@ -116509,7 +119550,8 @@ _G.pg.base.item_data_statistics[58046] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58047] = {
@@ -116557,7 +119599,8 @@ _G.pg.base.item_data_statistics[58047] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58048] = {
@@ -116605,7 +119648,8 @@ _G.pg.base.item_data_statistics[58048] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58049] = {
@@ -116653,7 +119697,8 @@ _G.pg.base.item_data_statistics[58049] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58050] = {
@@ -116696,7 +119741,8 @@ _G.pg.base.item_data_statistics[58050] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58051] = {
@@ -116739,7 +119785,8 @@ _G.pg.base.item_data_statistics[58051] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58052] = {
@@ -116872,7 +119919,8 @@ _G.pg.base.item_data_statistics[58052] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58053] = {
@@ -117005,7 +120053,8 @@ _G.pg.base.item_data_statistics[58053] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58054] = {
@@ -117138,7 +120187,8 @@ _G.pg.base.item_data_statistics[58054] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58055] = {
@@ -117271,7 +120321,8 @@ _G.pg.base.item_data_statistics[58055] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58056] = {
@@ -117404,7 +120455,8 @@ _G.pg.base.item_data_statistics[58056] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58057] = {
@@ -117537,7 +120589,8 @@ _G.pg.base.item_data_statistics[58057] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58058] = {
@@ -117650,7 +120703,8 @@ _G.pg.base.item_data_statistics[58058] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58060] = {
@@ -117698,7 +120752,8 @@ _G.pg.base.item_data_statistics[58060] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58061] = {
@@ -117746,7 +120801,8 @@ _G.pg.base.item_data_statistics[58061] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58062] = {
@@ -117794,7 +120850,8 @@ _G.pg.base.item_data_statistics[58062] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58063] = {
@@ -117842,7 +120899,8 @@ _G.pg.base.item_data_statistics[58063] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58064] = {
@@ -117890,7 +120948,8 @@ _G.pg.base.item_data_statistics[58064] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58065] = {
@@ -117938,7 +120997,8 @@ _G.pg.base.item_data_statistics[58065] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58066] = {
@@ -117986,7 +121046,8 @@ _G.pg.base.item_data_statistics[58066] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58067] = {
@@ -118034,7 +121095,8 @@ _G.pg.base.item_data_statistics[58067] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58068] = {
@@ -118077,7 +121139,8 @@ _G.pg.base.item_data_statistics[58068] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58069] = {
@@ -118120,7 +121183,8 @@ _G.pg.base.item_data_statistics[58069] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58070] = {
@@ -118253,7 +121317,8 @@ _G.pg.base.item_data_statistics[58070] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58071] = {
@@ -118386,7 +121451,8 @@ _G.pg.base.item_data_statistics[58071] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58072] = {
@@ -118519,7 +121585,8 @@ _G.pg.base.item_data_statistics[58072] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58073] = {
@@ -118657,7 +121724,8 @@ _G.pg.base.item_data_statistics[58073] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58074] = {
@@ -118795,7 +121863,8 @@ _G.pg.base.item_data_statistics[58074] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58075] = {
@@ -118908,7 +121977,8 @@ _G.pg.base.item_data_statistics[58075] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58076] = {
@@ -118956,7 +122026,8 @@ _G.pg.base.item_data_statistics[58076] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58077] = {
@@ -119004,7 +122075,8 @@ _G.pg.base.item_data_statistics[58077] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58078] = {
@@ -119052,7 +122124,8 @@ _G.pg.base.item_data_statistics[58078] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58079] = {
@@ -119100,7 +122173,8 @@ _G.pg.base.item_data_statistics[58079] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58080] = {
@@ -119148,7 +122222,8 @@ _G.pg.base.item_data_statistics[58080] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58081] = {
@@ -119196,7 +122271,8 @@ _G.pg.base.item_data_statistics[58081] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58082] = {
@@ -119244,7 +122320,8 @@ _G.pg.base.item_data_statistics[58082] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58083] = {
@@ -119292,7 +122369,8 @@ _G.pg.base.item_data_statistics[58083] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58084] = {
@@ -119340,7 +122418,8 @@ _G.pg.base.item_data_statistics[58084] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58085] = {
@@ -119388,7 +122467,8 @@ _G.pg.base.item_data_statistics[58085] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58086] = {
@@ -119436,7 +122516,8 @@ _G.pg.base.item_data_statistics[58086] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58087] = {
@@ -119484,7 +122565,8 @@ _G.pg.base.item_data_statistics[58087] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58088] = {
@@ -119617,7 +122699,8 @@ _G.pg.base.item_data_statistics[58088] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58089] = {
@@ -119750,7 +122833,8 @@ _G.pg.base.item_data_statistics[58089] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58090] = {
@@ -119883,7 +122967,8 @@ _G.pg.base.item_data_statistics[58090] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58091] = {
@@ -120016,7 +123101,8 @@ _G.pg.base.item_data_statistics[58091] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58092] = {
@@ -120149,7 +123235,8 @@ _G.pg.base.item_data_statistics[58092] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58093] = {
@@ -120287,7 +123374,8 @@ _G.pg.base.item_data_statistics[58093] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58094] = {
@@ -120335,7 +123423,8 @@ _G.pg.base.item_data_statistics[58094] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58095] = {
@@ -120383,7 +123472,8 @@ _G.pg.base.item_data_statistics[58095] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58096] = {
@@ -120431,7 +123521,8 @@ _G.pg.base.item_data_statistics[58096] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58097] = {
@@ -120479,7 +123570,8 @@ _G.pg.base.item_data_statistics[58097] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58098] = {
@@ -120527,7 +123619,8 @@ _G.pg.base.item_data_statistics[58098] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58099] = {
@@ -120575,7 +123668,8 @@ _G.pg.base.item_data_statistics[58099] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58100] = {
@@ -120623,7 +123717,8 @@ _G.pg.base.item_data_statistics[58100] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58101] = {
@@ -120666,7 +123761,8 @@ _G.pg.base.item_data_statistics[58101] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58102] = {
@@ -120709,7 +123805,8 @@ _G.pg.base.item_data_statistics[58102] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58103] = {
@@ -120752,7 +123849,8 @@ _G.pg.base.item_data_statistics[58103] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58104] = {
@@ -120795,7 +123893,8 @@ _G.pg.base.item_data_statistics[58104] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58105] = {
@@ -120838,7 +123937,8 @@ _G.pg.base.item_data_statistics[58105] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58106] = {
@@ -120971,7 +124071,8 @@ _G.pg.base.item_data_statistics[58106] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58107] = {
@@ -121104,7 +124205,8 @@ _G.pg.base.item_data_statistics[58107] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58108] = {
@@ -121237,7 +124339,8 @@ _G.pg.base.item_data_statistics[58108] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58109] = {
@@ -121370,7 +124473,8 @@ _G.pg.base.item_data_statistics[58109] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58110] = {
@@ -121503,7 +124607,8 @@ _G.pg.base.item_data_statistics[58110] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58111] = {
@@ -121641,7 +124746,8 @@ _G.pg.base.item_data_statistics[58111] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58112] = {
@@ -121689,7 +124795,8 @@ _G.pg.base.item_data_statistics[58112] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58113] = {
@@ -121732,7 +124839,8 @@ _G.pg.base.item_data_statistics[58113] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58114] = {
@@ -121870,7 +124978,8 @@ _G.pg.base.item_data_statistics[58114] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58120] = {
@@ -121918,7 +125027,8 @@ _G.pg.base.item_data_statistics[58120] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58121] = {
@@ -121966,7 +125076,8 @@ _G.pg.base.item_data_statistics[58121] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58122] = {
@@ -122014,7 +125125,8 @@ _G.pg.base.item_data_statistics[58122] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58123] = {
@@ -122062,7 +125174,8 @@ _G.pg.base.item_data_statistics[58123] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58124] = {
@@ -122110,7 +125223,8 @@ _G.pg.base.item_data_statistics[58124] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58125] = {
@@ -122158,7 +125272,8 @@ _G.pg.base.item_data_statistics[58125] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58126] = {
@@ -122206,7 +125321,8 @@ _G.pg.base.item_data_statistics[58126] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58127] = {
@@ -122254,7 +125370,8 @@ _G.pg.base.item_data_statistics[58127] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58128] = {
@@ -122302,7 +125419,8 @@ _G.pg.base.item_data_statistics[58128] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58129] = {
@@ -122350,7 +125468,8 @@ _G.pg.base.item_data_statistics[58129] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58130] = {
@@ -122398,7 +125517,8 @@ _G.pg.base.item_data_statistics[58130] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58131] = {
@@ -122446,7 +125566,8 @@ _G.pg.base.item_data_statistics[58131] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58132] = {
@@ -122579,7 +125700,8 @@ _G.pg.base.item_data_statistics[58132] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58133] = {
@@ -122712,7 +125834,8 @@ _G.pg.base.item_data_statistics[58133] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58134] = {
@@ -122845,7 +125968,8 @@ _G.pg.base.item_data_statistics[58134] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58135] = {
@@ -122978,7 +126102,8 @@ _G.pg.base.item_data_statistics[58135] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58136] = {
@@ -123111,7 +126236,8 @@ _G.pg.base.item_data_statistics[58136] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58137] = {
@@ -123249,7 +126375,8 @@ _G.pg.base.item_data_statistics[58137] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58138] = {
@@ -123297,7 +126424,8 @@ _G.pg.base.item_data_statistics[58138] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58139] = {
@@ -123345,7 +126473,8 @@ _G.pg.base.item_data_statistics[58139] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58140] = {
@@ -123393,7 +126522,8 @@ _G.pg.base.item_data_statistics[58140] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58141] = {
@@ -123441,7 +126571,8 @@ _G.pg.base.item_data_statistics[58141] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58142] = {
@@ -123489,7 +126620,8 @@ _G.pg.base.item_data_statistics[58142] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58143] = {
@@ -123537,7 +126669,8 @@ _G.pg.base.item_data_statistics[58143] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58144] = {
@@ -123585,7 +126718,8 @@ _G.pg.base.item_data_statistics[58144] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58145] = {
@@ -123628,7 +126762,8 @@ _G.pg.base.item_data_statistics[58145] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58146] = {
@@ -123671,7 +126806,8 @@ _G.pg.base.item_data_statistics[58146] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58147] = {
@@ -123714,7 +126850,8 @@ _G.pg.base.item_data_statistics[58147] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58148] = {
@@ -123757,7 +126894,8 @@ _G.pg.base.item_data_statistics[58148] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58149] = {
@@ -123800,7 +126938,8 @@ _G.pg.base.item_data_statistics[58149] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58150] = {
@@ -123933,7 +127072,8 @@ _G.pg.base.item_data_statistics[58150] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58151] = {
@@ -124066,7 +127206,8 @@ _G.pg.base.item_data_statistics[58151] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58152] = {
@@ -124199,7 +127340,8 @@ _G.pg.base.item_data_statistics[58152] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58153] = {
@@ -124332,7 +127474,8 @@ _G.pg.base.item_data_statistics[58153] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58154] = {
@@ -124465,7 +127608,8 @@ _G.pg.base.item_data_statistics[58154] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58155] = {
@@ -124603,7 +127747,8 @@ _G.pg.base.item_data_statistics[58155] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58156] = {
@@ -124651,7 +127796,8 @@ _G.pg.base.item_data_statistics[58156] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58157] = {
@@ -124694,7 +127840,8 @@ _G.pg.base.item_data_statistics[58157] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58158] = {
@@ -124832,7 +127979,8 @@ _G.pg.base.item_data_statistics[58158] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58160] = {
@@ -124880,7 +128028,8 @@ _G.pg.base.item_data_statistics[58160] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58161] = {
@@ -124928,7 +128077,8 @@ _G.pg.base.item_data_statistics[58161] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58162] = {
@@ -124976,7 +128126,8 @@ _G.pg.base.item_data_statistics[58162] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58163] = {
@@ -125024,7 +128175,8 @@ _G.pg.base.item_data_statistics[58163] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58164] = {
@@ -125072,7 +128224,8 @@ _G.pg.base.item_data_statistics[58164] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58165] = {
@@ -125120,7 +128273,8 @@ _G.pg.base.item_data_statistics[58165] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58166] = {
@@ -125168,7 +128322,8 @@ _G.pg.base.item_data_statistics[58166] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58167] = {
@@ -125216,7 +128371,8 @@ _G.pg.base.item_data_statistics[58167] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58168] = {
@@ -125264,7 +128420,8 @@ _G.pg.base.item_data_statistics[58168] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58169] = {
@@ -125312,7 +128469,8 @@ _G.pg.base.item_data_statistics[58169] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58170] = {
@@ -125360,7 +128518,8 @@ _G.pg.base.item_data_statistics[58170] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58171] = {
@@ -125408,7 +128567,8 @@ _G.pg.base.item_data_statistics[58171] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58172] = {
@@ -125541,7 +128701,8 @@ _G.pg.base.item_data_statistics[58172] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58173] = {
@@ -125674,7 +128835,8 @@ _G.pg.base.item_data_statistics[58173] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58174] = {
@@ -125807,7 +128969,8 @@ _G.pg.base.item_data_statistics[58174] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58175] = {
@@ -125940,7 +129103,8 @@ _G.pg.base.item_data_statistics[58175] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58176] = {
@@ -126073,7 +129237,8 @@ _G.pg.base.item_data_statistics[58176] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58177] = {
@@ -126211,7 +129376,8 @@ _G.pg.base.item_data_statistics[58177] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58178] = {
@@ -126259,7 +129425,8 @@ _G.pg.base.item_data_statistics[58178] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58179] = {
@@ -126307,7 +129474,8 @@ _G.pg.base.item_data_statistics[58179] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58180] = {
@@ -126355,7 +129523,8 @@ _G.pg.base.item_data_statistics[58180] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58181] = {
@@ -126403,7 +129572,8 @@ _G.pg.base.item_data_statistics[58181] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58182] = {
@@ -126451,7 +129621,8 @@ _G.pg.base.item_data_statistics[58182] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58183] = {
@@ -126499,7 +129670,8 @@ _G.pg.base.item_data_statistics[58183] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58184] = {
@@ -126547,7 +129719,8 @@ _G.pg.base.item_data_statistics[58184] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58185] = {
@@ -126590,7 +129763,8 @@ _G.pg.base.item_data_statistics[58185] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58186] = {
@@ -126633,7 +129807,8 @@ _G.pg.base.item_data_statistics[58186] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58187] = {
@@ -126676,7 +129851,8 @@ _G.pg.base.item_data_statistics[58187] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58188] = {
@@ -126719,7 +129895,8 @@ _G.pg.base.item_data_statistics[58188] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58189] = {
@@ -126762,7 +129939,8 @@ _G.pg.base.item_data_statistics[58189] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58190] = {
@@ -126895,7 +130073,8 @@ _G.pg.base.item_data_statistics[58190] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58191] = {
@@ -127028,7 +130207,8 @@ _G.pg.base.item_data_statistics[58191] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58192] = {
@@ -127161,7 +130341,8 @@ _G.pg.base.item_data_statistics[58192] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58193] = {
@@ -127294,7 +130475,8 @@ _G.pg.base.item_data_statistics[58193] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58194] = {
@@ -127427,7 +130609,8 @@ _G.pg.base.item_data_statistics[58194] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58195] = {
@@ -127565,7 +130748,8 @@ _G.pg.base.item_data_statistics[58195] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58196] = {
@@ -127613,7 +130797,8 @@ _G.pg.base.item_data_statistics[58196] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58197] = {
@@ -127656,7 +130841,8 @@ _G.pg.base.item_data_statistics[58197] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58198] = {
@@ -127794,7 +130980,8 @@ _G.pg.base.item_data_statistics[58198] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58200] = {
@@ -127842,7 +131029,8 @@ _G.pg.base.item_data_statistics[58200] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58201] = {
@@ -127890,7 +131078,8 @@ _G.pg.base.item_data_statistics[58201] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58202] = {
@@ -127938,7 +131127,8 @@ _G.pg.base.item_data_statistics[58202] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58203] = {
@@ -127986,7 +131176,8 @@ _G.pg.base.item_data_statistics[58203] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58204] = {
@@ -128034,7 +131225,8 @@ _G.pg.base.item_data_statistics[58204] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58205] = {
@@ -128082,7 +131274,8 @@ _G.pg.base.item_data_statistics[58205] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58206] = {
@@ -128130,7 +131323,8 @@ _G.pg.base.item_data_statistics[58206] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58207] = {
@@ -128178,7 +131372,8 @@ _G.pg.base.item_data_statistics[58207] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58208] = {
@@ -128226,7 +131421,8 @@ _G.pg.base.item_data_statistics[58208] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58209] = {
@@ -128274,7 +131470,8 @@ _G.pg.base.item_data_statistics[58209] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58210] = {
@@ -128322,7 +131519,8 @@ _G.pg.base.item_data_statistics[58210] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58211] = {
@@ -128370,7 +131568,8 @@ _G.pg.base.item_data_statistics[58211] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58212] = {
@@ -128503,7 +131702,8 @@ _G.pg.base.item_data_statistics[58212] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58213] = {
@@ -128636,7 +131836,8 @@ _G.pg.base.item_data_statistics[58213] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58214] = {
@@ -128769,7 +131970,8 @@ _G.pg.base.item_data_statistics[58214] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58215] = {
@@ -128902,7 +132104,8 @@ _G.pg.base.item_data_statistics[58215] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58216] = {
@@ -129035,7 +132238,8 @@ _G.pg.base.item_data_statistics[58216] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58217] = {
@@ -129173,7 +132377,8 @@ _G.pg.base.item_data_statistics[58217] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58218] = {
@@ -129221,7 +132426,8 @@ _G.pg.base.item_data_statistics[58218] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58219] = {
@@ -129269,7 +132475,8 @@ _G.pg.base.item_data_statistics[58219] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58220] = {
@@ -129317,7 +132524,8 @@ _G.pg.base.item_data_statistics[58220] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58221] = {
@@ -129365,7 +132573,8 @@ _G.pg.base.item_data_statistics[58221] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58222] = {
@@ -129413,7 +132622,8 @@ _G.pg.base.item_data_statistics[58222] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58223] = {
@@ -129461,7 +132671,8 @@ _G.pg.base.item_data_statistics[58223] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58224] = {
@@ -129509,7 +132720,8 @@ _G.pg.base.item_data_statistics[58224] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58225] = {
@@ -129552,7 +132764,8 @@ _G.pg.base.item_data_statistics[58225] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58226] = {
@@ -129595,7 +132808,8 @@ _G.pg.base.item_data_statistics[58226] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58227] = {
@@ -129638,7 +132852,8 @@ _G.pg.base.item_data_statistics[58227] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58228] = {
@@ -129681,7 +132896,8 @@ _G.pg.base.item_data_statistics[58228] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58229] = {
@@ -129724,7 +132940,8 @@ _G.pg.base.item_data_statistics[58229] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58230] = {
@@ -129857,7 +133074,8 @@ _G.pg.base.item_data_statistics[58230] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58231] = {
@@ -129990,7 +133208,8 @@ _G.pg.base.item_data_statistics[58231] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58232] = {
@@ -130123,7 +133342,8 @@ _G.pg.base.item_data_statistics[58232] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58233] = {
@@ -130256,7 +133476,8 @@ _G.pg.base.item_data_statistics[58233] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58234] = {
@@ -130389,7 +133610,8 @@ _G.pg.base.item_data_statistics[58234] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58235] = {
@@ -130527,7 +133749,8 @@ _G.pg.base.item_data_statistics[58235] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58236] = {
@@ -130575,7 +133798,8 @@ _G.pg.base.item_data_statistics[58236] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58237] = {
@@ -130618,7 +133842,8 @@ _G.pg.base.item_data_statistics[58237] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58238] = {
@@ -130756,7 +133981,8 @@ _G.pg.base.item_data_statistics[58238] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58240] = {
@@ -130804,7 +134030,8 @@ _G.pg.base.item_data_statistics[58240] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58241] = {
@@ -130852,7 +134079,8 @@ _G.pg.base.item_data_statistics[58241] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58242] = {
@@ -130900,7 +134128,8 @@ _G.pg.base.item_data_statistics[58242] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58243] = {
@@ -130948,7 +134177,8 @@ _G.pg.base.item_data_statistics[58243] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58244] = {
@@ -130996,7 +134226,8 @@ _G.pg.base.item_data_statistics[58244] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58245] = {
@@ -131044,7 +134275,8 @@ _G.pg.base.item_data_statistics[58245] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58246] = {
@@ -131092,7 +134324,8 @@ _G.pg.base.item_data_statistics[58246] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58247] = {
@@ -131140,7 +134373,8 @@ _G.pg.base.item_data_statistics[58247] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58248] = {
@@ -131183,7 +134417,8 @@ _G.pg.base.item_data_statistics[58248] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58249] = {
@@ -131226,7 +134461,8 @@ _G.pg.base.item_data_statistics[58249] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58250] = {
@@ -131359,7 +134595,8 @@ _G.pg.base.item_data_statistics[58250] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58251] = {
@@ -131492,7 +134729,8 @@ _G.pg.base.item_data_statistics[58251] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58252] = {
@@ -131625,7 +134863,8 @@ _G.pg.base.item_data_statistics[58252] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58253] = {
@@ -131763,7 +135002,8 @@ _G.pg.base.item_data_statistics[58253] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58254] = {
@@ -131901,7 +135141,8 @@ _G.pg.base.item_data_statistics[58254] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58255] = {
@@ -132014,7 +135255,8 @@ _G.pg.base.item_data_statistics[58255] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58260] = {
@@ -132062,7 +135304,8 @@ _G.pg.base.item_data_statistics[58260] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58261] = {
@@ -132110,7 +135353,8 @@ _G.pg.base.item_data_statistics[58261] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58262] = {
@@ -132158,7 +135402,8 @@ _G.pg.base.item_data_statistics[58262] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58263] = {
@@ -132206,7 +135451,8 @@ _G.pg.base.item_data_statistics[58263] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58264] = {
@@ -132254,7 +135500,8 @@ _G.pg.base.item_data_statistics[58264] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58265] = {
@@ -132302,7 +135549,8 @@ _G.pg.base.item_data_statistics[58265] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58266] = {
@@ -132350,7 +135598,8 @@ _G.pg.base.item_data_statistics[58266] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58267] = {
@@ -132398,7 +135647,8 @@ _G.pg.base.item_data_statistics[58267] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58268] = {
@@ -132446,7 +135696,8 @@ _G.pg.base.item_data_statistics[58268] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58269] = {
@@ -132494,7 +135745,8 @@ _G.pg.base.item_data_statistics[58269] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58270] = {
@@ -132542,7 +135794,8 @@ _G.pg.base.item_data_statistics[58270] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58271] = {
@@ -132590,7 +135843,8 @@ _G.pg.base.item_data_statistics[58271] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58272] = {
@@ -132723,7 +135977,8 @@ _G.pg.base.item_data_statistics[58272] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58273] = {
@@ -132856,7 +136111,8 @@ _G.pg.base.item_data_statistics[58273] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58274] = {
@@ -132989,7 +136245,8 @@ _G.pg.base.item_data_statistics[58274] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58275] = {
@@ -133122,7 +136379,8 @@ _G.pg.base.item_data_statistics[58275] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58276] = {
@@ -133255,7 +136513,8 @@ _G.pg.base.item_data_statistics[58276] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58277] = {
@@ -133393,7 +136652,8 @@ _G.pg.base.item_data_statistics[58277] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58278] = {
@@ -133441,7 +136701,8 @@ _G.pg.base.item_data_statistics[58278] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58279] = {
@@ -133489,7 +136750,8 @@ _G.pg.base.item_data_statistics[58279] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58280] = {
@@ -133537,7 +136799,8 @@ _G.pg.base.item_data_statistics[58280] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58281] = {
@@ -133585,7 +136848,8 @@ _G.pg.base.item_data_statistics[58281] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58282] = {
@@ -133633,7 +136897,8 @@ _G.pg.base.item_data_statistics[58282] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58283] = {
@@ -133681,7 +136946,8 @@ _G.pg.base.item_data_statistics[58283] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58284] = {
@@ -133729,7 +136995,8 @@ _G.pg.base.item_data_statistics[58284] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58285] = {
@@ -133772,7 +137039,8 @@ _G.pg.base.item_data_statistics[58285] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58286] = {
@@ -133815,7 +137083,8 @@ _G.pg.base.item_data_statistics[58286] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58287] = {
@@ -133858,7 +137127,8 @@ _G.pg.base.item_data_statistics[58287] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58288] = {
@@ -133901,7 +137171,8 @@ _G.pg.base.item_data_statistics[58288] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58289] = {
@@ -133944,7 +137215,8 @@ _G.pg.base.item_data_statistics[58289] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58290] = {
@@ -134077,7 +137349,8 @@ _G.pg.base.item_data_statistics[58290] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58291] = {
@@ -134210,7 +137483,8 @@ _G.pg.base.item_data_statistics[58291] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58292] = {
@@ -134343,7 +137617,8 @@ _G.pg.base.item_data_statistics[58292] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58293] = {
@@ -134476,7 +137751,8 @@ _G.pg.base.item_data_statistics[58293] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58294] = {
@@ -134609,7 +137885,8 @@ _G.pg.base.item_data_statistics[58294] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58295] = {
@@ -134747,7 +138024,8 @@ _G.pg.base.item_data_statistics[58295] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58296] = {
@@ -134795,7 +138073,8 @@ _G.pg.base.item_data_statistics[58296] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58297] = {
@@ -134838,7 +138117,8 @@ _G.pg.base.item_data_statistics[58297] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58298] = {
@@ -134976,7 +138256,8 @@ _G.pg.base.item_data_statistics[58298] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58300] = {
@@ -135024,7 +138305,8 @@ _G.pg.base.item_data_statistics[58300] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58301] = {
@@ -135072,7 +138354,8 @@ _G.pg.base.item_data_statistics[58301] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58302] = {
@@ -135120,7 +138403,8 @@ _G.pg.base.item_data_statistics[58302] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58303] = {
@@ -135168,7 +138452,8 @@ _G.pg.base.item_data_statistics[58303] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58304] = {
@@ -135216,7 +138501,8 @@ _G.pg.base.item_data_statistics[58304] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58305] = {
@@ -135259,7 +138545,8 @@ _G.pg.base.item_data_statistics[58305] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58306] = {
@@ -135392,7 +138679,8 @@ _G.pg.base.item_data_statistics[58306] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58307] = {
@@ -135525,7 +138813,8 @@ _G.pg.base.item_data_statistics[58307] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58308] = {
@@ -135658,7 +138947,8 @@ _G.pg.base.item_data_statistics[58308] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58400] = {
@@ -135706,7 +138996,8 @@ _G.pg.base.item_data_statistics[58400] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58401] = {
@@ -135754,7 +139045,8 @@ _G.pg.base.item_data_statistics[58401] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58402] = {
@@ -135802,7 +139094,8 @@ _G.pg.base.item_data_statistics[58402] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58403] = {
@@ -135850,7 +139143,8 @@ _G.pg.base.item_data_statistics[58403] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58404] = {
@@ -135898,7 +139192,8 @@ _G.pg.base.item_data_statistics[58404] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58405] = {
@@ -135946,7 +139241,8 @@ _G.pg.base.item_data_statistics[58405] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58406] = {
@@ -135994,7 +139290,8 @@ _G.pg.base.item_data_statistics[58406] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58407] = {
@@ -136042,7 +139339,8 @@ _G.pg.base.item_data_statistics[58407] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58408] = {
@@ -136085,7 +139383,8 @@ _G.pg.base.item_data_statistics[58408] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58409] = {
@@ -136128,7 +139427,8 @@ _G.pg.base.item_data_statistics[58409] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58410] = {
@@ -136261,7 +139561,8 @@ _G.pg.base.item_data_statistics[58410] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58411] = {
@@ -136394,7 +139695,8 @@ _G.pg.base.item_data_statistics[58411] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58412] = {
@@ -136527,7 +139829,8 @@ _G.pg.base.item_data_statistics[58412] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58413] = {
@@ -136665,7 +139968,8 @@ _G.pg.base.item_data_statistics[58413] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58414] = {
@@ -136803,7 +140107,8 @@ _G.pg.base.item_data_statistics[58414] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58415] = {
@@ -136916,7 +140221,8 @@ _G.pg.base.item_data_statistics[58415] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58420] = {
@@ -136964,7 +140270,8 @@ _G.pg.base.item_data_statistics[58420] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58421] = {
@@ -137012,7 +140319,8 @@ _G.pg.base.item_data_statistics[58421] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58422] = {
@@ -137060,7 +140368,8 @@ _G.pg.base.item_data_statistics[58422] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58423] = {
@@ -137108,7 +140417,8 @@ _G.pg.base.item_data_statistics[58423] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58424] = {
@@ -137156,7 +140466,8 @@ _G.pg.base.item_data_statistics[58424] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58425] = {
@@ -137204,7 +140515,8 @@ _G.pg.base.item_data_statistics[58425] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58426] = {
@@ -137252,7 +140564,8 @@ _G.pg.base.item_data_statistics[58426] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58427] = {
@@ -137300,7 +140613,8 @@ _G.pg.base.item_data_statistics[58427] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58428] = {
@@ -137348,7 +140662,8 @@ _G.pg.base.item_data_statistics[58428] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58429] = {
@@ -137396,7 +140711,8 @@ _G.pg.base.item_data_statistics[58429] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58430] = {
@@ -137444,7 +140760,8 @@ _G.pg.base.item_data_statistics[58430] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58431] = {
@@ -137492,7 +140809,8 @@ _G.pg.base.item_data_statistics[58431] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58432] = {
@@ -137625,7 +140943,8 @@ _G.pg.base.item_data_statistics[58432] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58433] = {
@@ -137758,7 +141077,8 @@ _G.pg.base.item_data_statistics[58433] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58434] = {
@@ -137891,7 +141211,8 @@ _G.pg.base.item_data_statistics[58434] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58435] = {
@@ -138024,7 +141345,8 @@ _G.pg.base.item_data_statistics[58435] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58436] = {
@@ -138157,7 +141479,8 @@ _G.pg.base.item_data_statistics[58436] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58437] = {
@@ -138295,7 +141618,8 @@ _G.pg.base.item_data_statistics[58437] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58438] = {
@@ -138343,7 +141667,8 @@ _G.pg.base.item_data_statistics[58438] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58439] = {
@@ -138391,7 +141716,8 @@ _G.pg.base.item_data_statistics[58439] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58440] = {
@@ -138439,7 +141765,8 @@ _G.pg.base.item_data_statistics[58440] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58441] = {
@@ -138487,7 +141814,8 @@ _G.pg.base.item_data_statistics[58441] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58442] = {
@@ -138535,7 +141863,8 @@ _G.pg.base.item_data_statistics[58442] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58443] = {
@@ -138583,7 +141912,8 @@ _G.pg.base.item_data_statistics[58443] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58444] = {
@@ -138631,7 +141961,8 @@ _G.pg.base.item_data_statistics[58444] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58445] = {
@@ -138674,7 +142005,8 @@ _G.pg.base.item_data_statistics[58445] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58446] = {
@@ -138717,7 +142049,8 @@ _G.pg.base.item_data_statistics[58446] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58447] = {
@@ -138760,7 +142093,8 @@ _G.pg.base.item_data_statistics[58447] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58448] = {
@@ -138803,7 +142137,8 @@ _G.pg.base.item_data_statistics[58448] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58449] = {
@@ -138846,7 +142181,8 @@ _G.pg.base.item_data_statistics[58449] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58450] = {
@@ -138979,7 +142315,8 @@ _G.pg.base.item_data_statistics[58450] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58451] = {
@@ -139112,7 +142449,8 @@ _G.pg.base.item_data_statistics[58451] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58452] = {
@@ -139245,7 +142583,8 @@ _G.pg.base.item_data_statistics[58452] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58453] = {
@@ -139378,7 +142717,8 @@ _G.pg.base.item_data_statistics[58453] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58454] = {
@@ -139511,7 +142851,8 @@ _G.pg.base.item_data_statistics[58454] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58455] = {
@@ -139649,7 +142990,8 @@ _G.pg.base.item_data_statistics[58455] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58456] = {
@@ -139697,7 +143039,8 @@ _G.pg.base.item_data_statistics[58456] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58457] = {
@@ -139740,7 +143083,8 @@ _G.pg.base.item_data_statistics[58457] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58458] = {
@@ -139878,7 +143222,8 @@ _G.pg.base.item_data_statistics[58458] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58459] = {
@@ -139926,7 +143271,8 @@ _G.pg.base.item_data_statistics[58459] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58460] = {
@@ -139974,7 +143320,8 @@ _G.pg.base.item_data_statistics[58460] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58461] = {
@@ -140022,7 +143369,8 @@ _G.pg.base.item_data_statistics[58461] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58470] = {
@@ -140070,7 +143418,8 @@ _G.pg.base.item_data_statistics[58470] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58471] = {
@@ -140118,7 +143467,8 @@ _G.pg.base.item_data_statistics[58471] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58472] = {
@@ -140166,7 +143516,8 @@ _G.pg.base.item_data_statistics[58472] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58473] = {
@@ -140214,7 +143565,8 @@ _G.pg.base.item_data_statistics[58473] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58474] = {
@@ -140262,7 +143614,8 @@ _G.pg.base.item_data_statistics[58474] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58475] = {
@@ -140310,7 +143663,8 @@ _G.pg.base.item_data_statistics[58475] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58476] = {
@@ -140358,7 +143712,8 @@ _G.pg.base.item_data_statistics[58476] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58477] = {
@@ -140406,7 +143761,8 @@ _G.pg.base.item_data_statistics[58477] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58478] = {
@@ -140454,7 +143810,8 @@ _G.pg.base.item_data_statistics[58478] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58479] = {
@@ -140502,7 +143859,8 @@ _G.pg.base.item_data_statistics[58479] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58480] = {
@@ -140550,7 +143908,8 @@ _G.pg.base.item_data_statistics[58480] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58481] = {
@@ -140598,7 +143957,8 @@ _G.pg.base.item_data_statistics[58481] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58482] = {
@@ -140731,7 +144091,8 @@ _G.pg.base.item_data_statistics[58482] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58483] = {
@@ -140864,7 +144225,8 @@ _G.pg.base.item_data_statistics[58483] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58484] = {
@@ -140997,7 +144359,8 @@ _G.pg.base.item_data_statistics[58484] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58485] = {
@@ -141130,7 +144493,8 @@ _G.pg.base.item_data_statistics[58485] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58486] = {
@@ -141263,7 +144627,8 @@ _G.pg.base.item_data_statistics[58486] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58487] = {
@@ -141401,7 +144766,8 @@ _G.pg.base.item_data_statistics[58487] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58488] = {
@@ -141449,7 +144815,8 @@ _G.pg.base.item_data_statistics[58488] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58489] = {
@@ -141497,7 +144864,8 @@ _G.pg.base.item_data_statistics[58489] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58490] = {
@@ -141545,7 +144913,8 @@ _G.pg.base.item_data_statistics[58490] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58491] = {
@@ -141593,7 +144962,8 @@ _G.pg.base.item_data_statistics[58491] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58492] = {
@@ -141641,7 +145011,8 @@ _G.pg.base.item_data_statistics[58492] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58493] = {
@@ -141689,7 +145060,8 @@ _G.pg.base.item_data_statistics[58493] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58494] = {
@@ -141737,7 +145109,8 @@ _G.pg.base.item_data_statistics[58494] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58495] = {
@@ -141780,7 +145153,8 @@ _G.pg.base.item_data_statistics[58495] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58496] = {
@@ -141823,7 +145197,8 @@ _G.pg.base.item_data_statistics[58496] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58497] = {
@@ -141866,7 +145241,8 @@ _G.pg.base.item_data_statistics[58497] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58498] = {
@@ -141909,7 +145285,8 @@ _G.pg.base.item_data_statistics[58498] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58499] = {
@@ -141952,7 +145329,8 @@ _G.pg.base.item_data_statistics[58499] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58500] = {
@@ -142085,7 +145463,8 @@ _G.pg.base.item_data_statistics[58500] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58501] = {
@@ -142218,7 +145597,8 @@ _G.pg.base.item_data_statistics[58501] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58502] = {
@@ -142351,7 +145731,8 @@ _G.pg.base.item_data_statistics[58502] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58503] = {
@@ -142484,7 +145865,8 @@ _G.pg.base.item_data_statistics[58503] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58504] = {
@@ -142617,7 +145999,8 @@ _G.pg.base.item_data_statistics[58504] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58505] = {
@@ -142755,7 +146138,8 @@ _G.pg.base.item_data_statistics[58505] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58506] = {
@@ -142803,7 +146187,8 @@ _G.pg.base.item_data_statistics[58506] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58507] = {
@@ -142846,7 +146231,8 @@ _G.pg.base.item_data_statistics[58507] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58508] = {
@@ -142984,7 +146370,8 @@ _G.pg.base.item_data_statistics[58508] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58510] = {
@@ -143032,7 +146419,8 @@ _G.pg.base.item_data_statistics[58510] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58511] = {
@@ -143080,7 +146468,8 @@ _G.pg.base.item_data_statistics[58511] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58512] = {
@@ -143128,7 +146517,8 @@ _G.pg.base.item_data_statistics[58512] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58513] = {
@@ -143176,7 +146566,8 @@ _G.pg.base.item_data_statistics[58513] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58514] = {
@@ -143224,7 +146615,8 @@ _G.pg.base.item_data_statistics[58514] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58515] = {
@@ -143272,7 +146664,8 @@ _G.pg.base.item_data_statistics[58515] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58516] = {
@@ -143320,7 +146713,8 @@ _G.pg.base.item_data_statistics[58516] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58517] = {
@@ -143368,7 +146762,8 @@ _G.pg.base.item_data_statistics[58517] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58518] = {
@@ -143411,7 +146806,8 @@ _G.pg.base.item_data_statistics[58518] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58519] = {
@@ -143454,7 +146850,8 @@ _G.pg.base.item_data_statistics[58519] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58520] = {
@@ -143587,7 +146984,8 @@ _G.pg.base.item_data_statistics[58520] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58521] = {
@@ -143720,7 +147118,8 @@ _G.pg.base.item_data_statistics[58521] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58522] = {
@@ -143853,7 +147252,8 @@ _G.pg.base.item_data_statistics[58522] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58523] = {
@@ -143991,7 +147391,8 @@ _G.pg.base.item_data_statistics[58523] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58524] = {
@@ -144129,7 +147530,3009 @@ _G.pg.base.item_data_statistics[58524] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58570] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58570,
+	display_icon = {
+		{
+			2,
+			2,
+			1
+		},
+		{
+			2,
+			7,
+			1
+		},
+		{
+			2,
+			21,
+			1
+		},
+		{
+			2,
+			12,
+			1
+		},
+		{
+			2,
+			10040,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58571] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58571,
+	display_icon = {
+		{
+			2,
+			42,
+			1
+		},
+		{
+			2,
+			67,
+			1
+		},
+		{
+			2,
+			22,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		},
+		{
+			2,
+			10050,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58572] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58572,
+	display_icon = {
+		{
+			2,
+			3,
+			1
+		},
+		{
+			2,
+			31,
+			1
+		},
+		{
+			2,
+			10045,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10005,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58573] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58573,
+	display_icon = {
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10046,
+			1
+		},
+		{
+			2,
+			10038,
+			1
+		},
+		{
+			2,
+			10039,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58574] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58574,
+	display_icon = {
+		{
+			2,
+			10031,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10032,
+			1
+		},
+		{
+			2,
+			10049,
+			1
+		},
+		{
+			2,
+			10048,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58575] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58575,
+	display_icon = {
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			10037,
+			1
+		},
+		{
+			2,
+			10041,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58576] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58576,
+	display_icon = {
+		{
+			2,
+			2,
+			1
+		},
+		{
+			2,
+			7,
+			1
+		},
+		{
+			2,
+			21,
+			1
+		},
+		{
+			2,
+			12,
+			1
+		},
+		{
+			2,
+			10040,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58577] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58577,
+	display_icon = {
+		{
+			2,
+			42,
+			1
+		},
+		{
+			2,
+			67,
+			1
+		},
+		{
+			2,
+			22,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		},
+		{
+			2,
+			10050,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58578] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58578,
+	display_icon = {
+		{
+			2,
+			3,
+			1
+		},
+		{
+			2,
+			31,
+			1
+		},
+		{
+			2,
+			10045,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10005,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58579] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58579,
+	display_icon = {
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10046,
+			1
+		},
+		{
+			2,
+			10038,
+			1
+		},
+		{
+			2,
+			10039,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58580] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58580,
+	display_icon = {
+		{
+			2,
+			10031,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10032,
+			1
+		},
+		{
+			2,
+			10049,
+			1
+		},
+		{
+			2,
+			10048,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58581] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58581,
+	display_icon = {
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			10037,
+			1
+		},
+		{
+			2,
+			10041,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58582] = {
+	display = "當前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58582,
+	display_icon = {
+		{
+			4,
+			213011,
+			1
+		},
+		{
+			4,
+			105041,
+			1
+		},
+		{
+			4,
+			101251,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			306051,
+			1
+		},
+		{
+			4,
+			203041,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			202011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58583] = {
+	display = "當前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58583,
+	display_icon = {
+		{
+			4,
+			107051,
+			1
+		},
+		{
+			4,
+			107031,
+			1
+		},
+		{
+			4,
+			101251,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			306051,
+			1
+		},
+		{
+			4,
+			203041,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			202011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58584] = {
+	display = "當前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58584,
+	display_icon = {
+		{
+			4,
+			203071,
+			1
+		},
+		{
+			4,
+			203011,
+			1
+		},
+		{
+			4,
+			101251,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			306051,
+			1
+		},
+		{
+			4,
+			203041,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			202011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58585] = {
+	display = "當前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58585,
+	display_icon = {
+		{
+			4,
+			201141,
+			1
+		},
+		{
+			4,
+			205011,
+			1
+		},
+		{
+			4,
+			101251,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			306051,
+			1
+		},
+		{
+			4,
+			203041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101151,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58586] = {
+	display = "當前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58586,
+	display_icon = {
+		{
+			4,
+			206031,
+			1
+		},
+		{
+			4,
+			107071,
+			1
+		},
+		{
+			4,
+			101251,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			306051,
+			1
+		},
+		{
+			4,
+			203041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101151,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58587] = {
+	display = "當前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58587,
+	display_icon = {
+		{
+			4,
+			201341,
+			1
+		},
+		{
+			4,
+			204011,
+			1
+		},
+		{
+			4,
+			213021,
+			1
+		},
+		{
+			4,
+			101251,
+			1
+		},
+		{
+			4,
+			102041,
+			1
+		},
+		{
+			4,
+			203021,
+			1
+		},
+		{
+			4,
+			306051,
+			1
+		},
+		{
+			4,
+			203041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101151,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58588] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58588,
+	display_icon = {
+		{
+			2,
+			10007,
+			1
+		},
+		{
+			2,
+			10025,
+			1
+		},
+		{
+			2,
+			10042,
+			1
+		},
+		{
+			2,
+			10021,
+			1
+		},
+		{
+			2,
+			10040,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58589] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58589,
+	display_icon = {
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			10110,
+			1
+		},
+		{
+			2,
+			10051,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		},
+		{
+			2,
+			11017,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58590] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58590,
+	display_icon = {
+		{
+			2,
+			10005,
+			1
+		},
+		{
+			2,
+			10000,
+			1
+		},
+		{
+			2,
+			10045,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			11002,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58591] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58591,
+	display_icon = {
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10046,
+			1
+		},
+		{
+			2,
+			10038,
+			1
+		},
+		{
+			2,
+			11012,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58592] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58592,
+	display_icon = {
+		{
+			2,
+			10031,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10032,
+			1
+		},
+		{
+			2,
+			10049,
+			1
+		},
+		{
+			2,
+			11051,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58593] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58593,
+	display_icon = {
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			10037,
+			1
+		},
+		{
+			2,
+			13000,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58594] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58594,
+	display_icon = {
+		{
+			2,
+			10007,
+			1
+		},
+		{
+			2,
+			10025,
+			1
+		},
+		{
+			2,
+			10042,
+			1
+		},
+		{
+			2,
+			10021,
+			1
+		},
+		{
+			2,
+			10040,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58595] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58595,
+	display_icon = {
+		{
+			2,
+			10047,
+			1
+		},
+		{
+			2,
+			10110,
+			1
+		},
+		{
+			2,
+			10051,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58596] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58596,
+	display_icon = {
+		{
+			2,
+			10005,
+			1
+		},
+		{
+			2,
+			10000,
+			1
+		},
+		{
+			2,
+			10045,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58597] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58597,
+	display_icon = {
+		{
+			2,
+			10009,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10046,
+			1
+		},
+		{
+			2,
+			10038,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58598] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58598,
+	display_icon = {
+		{
+			2,
+			10031,
+			1
+		},
+		{
+			2,
+			10001,
+			1
+		},
+		{
+			2,
+			10032,
+			1
+		},
+		{
+			2,
+			10049,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58599] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58599,
+	display_icon = {
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			10037,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58600] = {
+	display = "當前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58600,
+	display_icon = {
+		{
+			4,
+			213011,
+			1
+		},
+		{
+			4,
+			105041,
+			1
+		},
+		{
+			4,
+			202141,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			203051,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			202011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58601] = {
+	display = "當前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58601,
+	display_icon = {
+		{
+			4,
+			107051,
+			1
+		},
+		{
+			4,
+			107031,
+			1
+		},
+		{
+			4,
+			202141,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			203051,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			202011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58602] = {
+	display = "當前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58602,
+	display_icon = {
+		{
+			4,
+			203071,
+			1
+		},
+		{
+			4,
+			203011,
+			1
+		},
+		{
+			4,
+			202141,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			203051,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			102021,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			201101,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			202011,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			105021,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58603] = {
+	display = "當前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58603,
+	display_icon = {
+		{
+			4,
+			201141,
+			1
+		},
+		{
+			4,
+			205011,
+			1
+		},
+		{
+			4,
+			202141,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			203051,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101151,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58604] = {
+	display = "當前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58604,
+	display_icon = {
+		{
+			4,
+			206031,
+			1
+		},
+		{
+			4,
+			107071,
+			1
+		},
+		{
+			4,
+			202141,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			203051,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101151,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58605] = {
+	display = "當前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58605,
+	display_icon = {
+		{
+			4,
+			201341,
+			1
+		},
+		{
+			4,
+			204011,
+			1
+		},
+		{
+			4,
+			213021,
+			1
+		},
+		{
+			4,
+			202141,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			203051,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101151,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58606] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58606,
+	display_icon = {
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			10037,
+			1
+		},
+		{
+			2,
+			13000,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58607] = {
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58607,
+	display_icon = {
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			10037,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58608] = {
+	display = "當前關卡有機率獲得以下角色",
+	name = "未知角色",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/54000",
+	id = 58608,
+	display_icon = {
+		{
+			4,
+			201341,
+			1
+		},
+		{
+			4,
+			204011,
+			1
+		},
+		{
+			4,
+			213021,
+			1
+		},
+		{
+			4,
+			202141,
+			1
+		},
+		{
+			4,
+			101051,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			203051,
+			1
+		},
+		{
+			4,
+			101241,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101151,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			101061,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			201061,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			103011,
+			1
+		},
+		{
+			4,
+			201081,
+			1
+		},
+		{
+			4,
+			103021,
+			1
+		},
+		{
+			4,
+			106021,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58609] = {
@@ -144177,7 +150580,8 @@ _G.pg.base.item_data_statistics[58609] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58610] = {
@@ -144225,7 +150629,8 @@ _G.pg.base.item_data_statistics[58610] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58611] = {
@@ -144273,7 +150678,8 @@ _G.pg.base.item_data_statistics[58611] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58722] = {
@@ -144321,7 +150727,8 @@ _G.pg.base.item_data_statistics[58722] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58723] = {
@@ -144369,7 +150776,8 @@ _G.pg.base.item_data_statistics[58723] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58724] = {
@@ -144417,7 +150825,8 @@ _G.pg.base.item_data_statistics[58724] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58725] = {
@@ -144465,7 +150874,8 @@ _G.pg.base.item_data_statistics[58725] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58726] = {
@@ -144513,7 +150923,8 @@ _G.pg.base.item_data_statistics[58726] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58727] = {
@@ -144561,7 +150972,8 @@ _G.pg.base.item_data_statistics[58727] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58728] = {
@@ -144609,7 +151021,8 @@ _G.pg.base.item_data_statistics[58728] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58729] = {
@@ -144657,7 +151070,8 @@ _G.pg.base.item_data_statistics[58729] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58730] = {
@@ -144705,7 +151119,8 @@ _G.pg.base.item_data_statistics[58730] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58731] = {
@@ -144753,7 +151168,8 @@ _G.pg.base.item_data_statistics[58731] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58732] = {
@@ -144796,7 +151212,8 @@ _G.pg.base.item_data_statistics[58732] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58733] = {
@@ -144839,7 +151256,8 @@ _G.pg.base.item_data_statistics[58733] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58734] = {
@@ -144972,7 +151390,8 @@ _G.pg.base.item_data_statistics[58734] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58735] = {
@@ -145105,7 +151524,8 @@ _G.pg.base.item_data_statistics[58735] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58736] = {
@@ -145238,7 +151658,8 @@ _G.pg.base.item_data_statistics[58736] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58737] = {
@@ -145371,7 +151792,8 @@ _G.pg.base.item_data_statistics[58737] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58738] = {
@@ -145509,7 +151931,8 @@ _G.pg.base.item_data_statistics[58738] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58739] = {
@@ -145647,7 +152070,8 @@ _G.pg.base.item_data_statistics[58739] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58740] = {
@@ -145695,7 +152119,8 @@ _G.pg.base.item_data_statistics[58740] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58741] = {
@@ -145743,7 +152168,8 @@ _G.pg.base.item_data_statistics[58741] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58742] = {
@@ -145791,7 +152217,8 @@ _G.pg.base.item_data_statistics[58742] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58743] = {
@@ -145839,7 +152266,8 @@ _G.pg.base.item_data_statistics[58743] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58744] = {
@@ -145887,7 +152315,8 @@ _G.pg.base.item_data_statistics[58744] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58745] = {
@@ -145930,7 +152359,8 @@ _G.pg.base.item_data_statistics[58745] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58746] = {
@@ -145973,7 +152403,8 @@ _G.pg.base.item_data_statistics[58746] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58747] = {
@@ -146016,7 +152447,8 @@ _G.pg.base.item_data_statistics[58747] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58748] = {
@@ -146059,7 +152491,8 @@ _G.pg.base.item_data_statistics[58748] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58749] = {
@@ -146102,7 +152535,8 @@ _G.pg.base.item_data_statistics[58749] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58750] = {
@@ -146215,7 +152649,8 @@ _G.pg.base.item_data_statistics[58750] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58751] = {
@@ -146353,7 +152788,8 @@ _G.pg.base.item_data_statistics[58751] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58752] = {
@@ -146491,7 +152927,8 @@ _G.pg.base.item_data_statistics[58752] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58753] = {
@@ -146629,7 +153066,8 @@ _G.pg.base.item_data_statistics[58753] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[58754] = {
@@ -146767,7 +153205,8 @@ _G.pg.base.item_data_statistics[58754] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59000] = {
@@ -146789,7 +153228,8 @@ _G.pg.base.item_data_statistics[59000] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59001] = {
@@ -146811,7 +153251,8 @@ _G.pg.base.item_data_statistics[59001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59002] = {
@@ -146833,7 +153274,8 @@ _G.pg.base.item_data_statistics[59002] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59003] = {
@@ -146855,7 +153297,8 @@ _G.pg.base.item_data_statistics[59003] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59004] = {
@@ -146877,7 +153320,8 @@ _G.pg.base.item_data_statistics[59004] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59005] = {
@@ -146899,7 +153343,8 @@ _G.pg.base.item_data_statistics[59005] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59006] = {
@@ -146921,7 +153366,8 @@ _G.pg.base.item_data_statistics[59006] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59008] = {
@@ -146943,7 +153389,8 @@ _G.pg.base.item_data_statistics[59008] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59009] = {
@@ -146965,7 +153412,8 @@ _G.pg.base.item_data_statistics[59009] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59010] = {
@@ -146987,7 +153435,8 @@ _G.pg.base.item_data_statistics[59010] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59011] = {
@@ -147009,7 +153458,8 @@ _G.pg.base.item_data_statistics[59011] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59012] = {
@@ -147031,7 +153481,8 @@ _G.pg.base.item_data_statistics[59012] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59100] = {
@@ -147053,7 +153504,8 @@ _G.pg.base.item_data_statistics[59100] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59101] = {
@@ -147075,7 +153527,8 @@ _G.pg.base.item_data_statistics[59101] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59102] = {
@@ -147097,7 +153550,8 @@ _G.pg.base.item_data_statistics[59102] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59103] = {
@@ -147119,7 +153573,8 @@ _G.pg.base.item_data_statistics[59103] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59104] = {
@@ -147141,7 +153596,8 @@ _G.pg.base.item_data_statistics[59104] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59106] = {
@@ -147163,7 +153619,8 @@ _G.pg.base.item_data_statistics[59106] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59107] = {
@@ -147185,7 +153642,8 @@ _G.pg.base.item_data_statistics[59107] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59108] = {
@@ -147207,7 +153665,8 @@ _G.pg.base.item_data_statistics[59108] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59109] = {
@@ -147229,7 +153688,8 @@ _G.pg.base.item_data_statistics[59109] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59111] = {
@@ -147251,7 +153711,8 @@ _G.pg.base.item_data_statistics[59111] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59112] = {
@@ -147273,7 +153734,8 @@ _G.pg.base.item_data_statistics[59112] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59113] = {
@@ -147295,7 +153757,8 @@ _G.pg.base.item_data_statistics[59113] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59114] = {
@@ -147317,7 +153780,8 @@ _G.pg.base.item_data_statistics[59114] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59115] = {
@@ -147339,7 +153803,8 @@ _G.pg.base.item_data_statistics[59115] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59116] = {
@@ -147361,7 +153826,8 @@ _G.pg.base.item_data_statistics[59116] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59117] = {
@@ -147383,7 +153849,8 @@ _G.pg.base.item_data_statistics[59117] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59118] = {
@@ -147405,7 +153872,8 @@ _G.pg.base.item_data_statistics[59118] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59119] = {
@@ -147427,7 +153895,8 @@ _G.pg.base.item_data_statistics[59119] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59120] = {
@@ -147449,7 +153918,8 @@ _G.pg.base.item_data_statistics[59120] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59121] = {
@@ -147471,7 +153941,8 @@ _G.pg.base.item_data_statistics[59121] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59122] = {
@@ -147493,7 +153964,8 @@ _G.pg.base.item_data_statistics[59122] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59123] = {
@@ -147515,7 +153987,8 @@ _G.pg.base.item_data_statistics[59123] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59124] = {
@@ -147537,7 +154010,8 @@ _G.pg.base.item_data_statistics[59124] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59128] = {
@@ -147559,7 +154033,8 @@ _G.pg.base.item_data_statistics[59128] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59129] = {
@@ -147581,7 +154056,8 @@ _G.pg.base.item_data_statistics[59129] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59130] = {
@@ -147603,7 +154079,8 @@ _G.pg.base.item_data_statistics[59130] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59133] = {
@@ -147625,7 +154102,8 @@ _G.pg.base.item_data_statistics[59133] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59134] = {
@@ -147647,7 +154125,8 @@ _G.pg.base.item_data_statistics[59134] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59135] = {
@@ -147669,7 +154148,8 @@ _G.pg.base.item_data_statistics[59135] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59136] = {
@@ -147691,7 +154171,8 @@ _G.pg.base.item_data_statistics[59136] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59137] = {
@@ -147713,7 +154194,8 @@ _G.pg.base.item_data_statistics[59137] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59138] = {
@@ -147735,7 +154217,8 @@ _G.pg.base.item_data_statistics[59138] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59140] = {
@@ -147757,7 +154240,8 @@ _G.pg.base.item_data_statistics[59140] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59141] = {
@@ -147779,7 +154263,8 @@ _G.pg.base.item_data_statistics[59141] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59142] = {
@@ -147801,7 +154286,8 @@ _G.pg.base.item_data_statistics[59142] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59143] = {
@@ -147823,7 +154309,8 @@ _G.pg.base.item_data_statistics[59143] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59146] = {
@@ -147845,7 +154332,8 @@ _G.pg.base.item_data_statistics[59146] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59147] = {
@@ -147867,7 +154355,8 @@ _G.pg.base.item_data_statistics[59147] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59148] = {
@@ -147889,7 +154378,8 @@ _G.pg.base.item_data_statistics[59148] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59149] = {
@@ -147911,7 +154401,8 @@ _G.pg.base.item_data_statistics[59149] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59150] = {
@@ -147933,7 +154424,8 @@ _G.pg.base.item_data_statistics[59150] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59151] = {
@@ -147955,7 +154447,8 @@ _G.pg.base.item_data_statistics[59151] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59152] = {
@@ -147977,7 +154470,8 @@ _G.pg.base.item_data_statistics[59152] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59153] = {
@@ -147999,7 +154493,8 @@ _G.pg.base.item_data_statistics[59153] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59154] = {
@@ -148021,7 +154516,8 @@ _G.pg.base.item_data_statistics[59154] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59155] = {
@@ -148043,7 +154539,8 @@ _G.pg.base.item_data_statistics[59155] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59156] = {
@@ -148065,7 +154562,8 @@ _G.pg.base.item_data_statistics[59156] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59157] = {
@@ -148087,7 +154585,8 @@ _G.pg.base.item_data_statistics[59157] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59158] = {
@@ -148109,7 +154608,8 @@ _G.pg.base.item_data_statistics[59158] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59159] = {
@@ -148131,7 +154631,8 @@ _G.pg.base.item_data_statistics[59159] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59160] = {
@@ -148153,7 +154654,8 @@ _G.pg.base.item_data_statistics[59160] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59163] = {
@@ -148175,7 +154677,8 @@ _G.pg.base.item_data_statistics[59163] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59165] = {
@@ -148197,7 +154700,8 @@ _G.pg.base.item_data_statistics[59165] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59168] = {
@@ -148219,7 +154723,8 @@ _G.pg.base.item_data_statistics[59168] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59169] = {
@@ -148241,7 +154746,8 @@ _G.pg.base.item_data_statistics[59169] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59170] = {
@@ -148263,7 +154769,8 @@ _G.pg.base.item_data_statistics[59170] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59171] = {
@@ -148285,7 +154792,8 @@ _G.pg.base.item_data_statistics[59171] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59172] = {
@@ -148307,7 +154815,8 @@ _G.pg.base.item_data_statistics[59172] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59173] = {
@@ -148329,7 +154838,8 @@ _G.pg.base.item_data_statistics[59173] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59174] = {
@@ -148351,7 +154861,8 @@ _G.pg.base.item_data_statistics[59174] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59175] = {
@@ -148373,7 +154884,8 @@ _G.pg.base.item_data_statistics[59175] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59181] = {
@@ -148395,7 +154907,8 @@ _G.pg.base.item_data_statistics[59181] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59182] = {
@@ -148417,7 +154930,8 @@ _G.pg.base.item_data_statistics[59182] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59180] = {
@@ -148439,7 +154953,8 @@ _G.pg.base.item_data_statistics[59180] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59183] = {
@@ -148461,7 +154976,8 @@ _G.pg.base.item_data_statistics[59183] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59184] = {
@@ -148483,7 +154999,8 @@ _G.pg.base.item_data_statistics[59184] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59185] = {
@@ -148505,7 +155022,8 @@ _G.pg.base.item_data_statistics[59185] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59186] = {
@@ -148527,7 +155045,8 @@ _G.pg.base.item_data_statistics[59186] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59187] = {
@@ -148549,7 +155068,8 @@ _G.pg.base.item_data_statistics[59187] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59188] = {
@@ -148571,7 +155091,8 @@ _G.pg.base.item_data_statistics[59188] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59189] = {
@@ -148593,7 +155114,8 @@ _G.pg.base.item_data_statistics[59189] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59190] = {
@@ -148615,7 +155137,8 @@ _G.pg.base.item_data_statistics[59190] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59192] = {
@@ -148637,7 +155160,8 @@ _G.pg.base.item_data_statistics[59192] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59193] = {
@@ -148659,7 +155183,8 @@ _G.pg.base.item_data_statistics[59193] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59194] = {
@@ -148681,7 +155206,8 @@ _G.pg.base.item_data_statistics[59194] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59191] = {
@@ -148703,7 +155229,8 @@ _G.pg.base.item_data_statistics[59191] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59195] = {
@@ -148725,7 +155252,8 @@ _G.pg.base.item_data_statistics[59195] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59196] = {
@@ -148747,7 +155275,8 @@ _G.pg.base.item_data_statistics[59196] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59197] = {
@@ -148769,7 +155298,8 @@ _G.pg.base.item_data_statistics[59197] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59198] = {
@@ -148791,7 +155321,8 @@ _G.pg.base.item_data_statistics[59198] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59199] = {
@@ -148813,7 +155344,8 @@ _G.pg.base.item_data_statistics[59199] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59200] = {
@@ -148835,7 +155367,8 @@ _G.pg.base.item_data_statistics[59200] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59201] = {
@@ -148857,7 +155390,8 @@ _G.pg.base.item_data_statistics[59201] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59202] = {
@@ -148879,7 +155413,8 @@ _G.pg.base.item_data_statistics[59202] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59203] = {
@@ -148901,7 +155436,8 @@ _G.pg.base.item_data_statistics[59203] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59204] = {
@@ -148923,7 +155459,8 @@ _G.pg.base.item_data_statistics[59204] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59205] = {
@@ -148945,7 +155482,8 @@ _G.pg.base.item_data_statistics[59205] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59206] = {
@@ -148967,7 +155505,8 @@ _G.pg.base.item_data_statistics[59206] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59207] = {
@@ -148989,7 +155528,8 @@ _G.pg.base.item_data_statistics[59207] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59208] = {
@@ -149011,7 +155551,8 @@ _G.pg.base.item_data_statistics[59208] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59209] = {
@@ -149033,7 +155574,8 @@ _G.pg.base.item_data_statistics[59209] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59210] = {
@@ -149055,7 +155597,8 @@ _G.pg.base.item_data_statistics[59210] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59211] = {
@@ -149077,7 +155620,8 @@ _G.pg.base.item_data_statistics[59211] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59212] = {
@@ -149099,7 +155643,8 @@ _G.pg.base.item_data_statistics[59212] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59213] = {
@@ -149121,7 +155666,8 @@ _G.pg.base.item_data_statistics[59213] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59214] = {
@@ -149143,7 +155689,8 @@ _G.pg.base.item_data_statistics[59214] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59215] = {
@@ -149165,7 +155712,8 @@ _G.pg.base.item_data_statistics[59215] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59216] = {
@@ -149187,7 +155735,8 @@ _G.pg.base.item_data_statistics[59216] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59217] = {
@@ -149209,7 +155758,8 @@ _G.pg.base.item_data_statistics[59217] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59218] = {
@@ -149231,7 +155781,8 @@ _G.pg.base.item_data_statistics[59218] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59219] = {
@@ -149253,7 +155804,8 @@ _G.pg.base.item_data_statistics[59219] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59220] = {
@@ -149275,7 +155827,8 @@ _G.pg.base.item_data_statistics[59220] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59221] = {
@@ -149297,7 +155850,8 @@ _G.pg.base.item_data_statistics[59221] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59222] = {
@@ -149319,7 +155873,8 @@ _G.pg.base.item_data_statistics[59222] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59223] = {
@@ -149341,7 +155896,8 @@ _G.pg.base.item_data_statistics[59223] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59224] = {
@@ -149363,7 +155919,8 @@ _G.pg.base.item_data_statistics[59224] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59225] = {
@@ -149385,7 +155942,8 @@ _G.pg.base.item_data_statistics[59225] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59226] = {
@@ -149407,7 +155965,8 @@ _G.pg.base.item_data_statistics[59226] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59227] = {
@@ -149429,7 +155988,8 @@ _G.pg.base.item_data_statistics[59227] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59229] = {
@@ -149451,7 +156011,8 @@ _G.pg.base.item_data_statistics[59229] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59230] = {
@@ -149473,7 +156034,8 @@ _G.pg.base.item_data_statistics[59230] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59231] = {
@@ -149495,7 +156057,8 @@ _G.pg.base.item_data_statistics[59231] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59232] = {
@@ -149517,7 +156080,8 @@ _G.pg.base.item_data_statistics[59232] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59233] = {
@@ -149539,7 +156103,8 @@ _G.pg.base.item_data_statistics[59233] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59234] = {
@@ -149561,7 +156126,8 @@ _G.pg.base.item_data_statistics[59234] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59235] = {
@@ -149583,7 +156149,8 @@ _G.pg.base.item_data_statistics[59235] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59237] = {
@@ -149605,7 +156172,8 @@ _G.pg.base.item_data_statistics[59237] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59238] = {
@@ -149627,7 +156195,8 @@ _G.pg.base.item_data_statistics[59238] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59239] = {
@@ -149649,7 +156218,8 @@ _G.pg.base.item_data_statistics[59239] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59240] = {
@@ -149671,7 +156241,8 @@ _G.pg.base.item_data_statistics[59240] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59241] = {
@@ -149693,7 +156264,8 @@ _G.pg.base.item_data_statistics[59241] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59242] = {
@@ -149715,7 +156287,8 @@ _G.pg.base.item_data_statistics[59242] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59243] = {
@@ -149737,7 +156310,8 @@ _G.pg.base.item_data_statistics[59243] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59245] = {
@@ -149759,7 +156333,8 @@ _G.pg.base.item_data_statistics[59245] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59246] = {
@@ -149781,7 +156356,8 @@ _G.pg.base.item_data_statistics[59246] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59247] = {
@@ -149803,7 +156379,8 @@ _G.pg.base.item_data_statistics[59247] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59249] = {
@@ -149825,7 +156402,8 @@ _G.pg.base.item_data_statistics[59249] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59250] = {
@@ -149847,7 +156425,8 @@ _G.pg.base.item_data_statistics[59250] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59251] = {
@@ -149869,7 +156448,8 @@ _G.pg.base.item_data_statistics[59251] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59252] = {
@@ -149891,7 +156471,8 @@ _G.pg.base.item_data_statistics[59252] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59253] = {
@@ -149913,7 +156494,8 @@ _G.pg.base.item_data_statistics[59253] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59254] = {
@@ -149935,7 +156517,8 @@ _G.pg.base.item_data_statistics[59254] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59255] = {
@@ -149957,7 +156540,8 @@ _G.pg.base.item_data_statistics[59255] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59256] = {
@@ -149979,7 +156563,8 @@ _G.pg.base.item_data_statistics[59256] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59257] = {
@@ -150001,7 +156586,8 @@ _G.pg.base.item_data_statistics[59257] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59258] = {
@@ -150023,7 +156609,8 @@ _G.pg.base.item_data_statistics[59258] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59259] = {
@@ -150045,7 +156632,8 @@ _G.pg.base.item_data_statistics[59259] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59260] = {
@@ -150067,7 +156655,8 @@ _G.pg.base.item_data_statistics[59260] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59261] = {
@@ -150089,7 +156678,8 @@ _G.pg.base.item_data_statistics[59261] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59263] = {
@@ -150111,7 +156701,8 @@ _G.pg.base.item_data_statistics[59263] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59264] = {
@@ -150133,7 +156724,8 @@ _G.pg.base.item_data_statistics[59264] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59265] = {
@@ -150155,7 +156747,8 @@ _G.pg.base.item_data_statistics[59265] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59266] = {
@@ -150177,7 +156770,8 @@ _G.pg.base.item_data_statistics[59266] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59267] = {
@@ -150199,7 +156793,8 @@ _G.pg.base.item_data_statistics[59267] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59268] = {
@@ -150221,7 +156816,8 @@ _G.pg.base.item_data_statistics[59268] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59269] = {
@@ -150243,7 +156839,8 @@ _G.pg.base.item_data_statistics[59269] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59270] = {
@@ -150265,7 +156862,8 @@ _G.pg.base.item_data_statistics[59270] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59275] = {
@@ -150287,7 +156885,8 @@ _G.pg.base.item_data_statistics[59275] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59276] = {
@@ -150309,7 +156908,8 @@ _G.pg.base.item_data_statistics[59276] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59277] = {
@@ -150331,7 +156931,8 @@ _G.pg.base.item_data_statistics[59277] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59279] = {
@@ -150353,7 +156954,8 @@ _G.pg.base.item_data_statistics[59279] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59280] = {
@@ -150375,7 +156977,8 @@ _G.pg.base.item_data_statistics[59280] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59282] = {
@@ -150397,7 +157000,8 @@ _G.pg.base.item_data_statistics[59282] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59290] = {
@@ -150419,7 +157023,8 @@ _G.pg.base.item_data_statistics[59290] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59293] = {
@@ -150441,7 +157046,8 @@ _G.pg.base.item_data_statistics[59293] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59294] = {
@@ -150463,7 +157069,8 @@ _G.pg.base.item_data_statistics[59294] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59295] = {
@@ -150485,7 +157092,8 @@ _G.pg.base.item_data_statistics[59295] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59296] = {
@@ -150507,7 +157115,8 @@ _G.pg.base.item_data_statistics[59296] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59297] = {
@@ -150529,7 +157138,54 @@ _G.pg.base.item_data_statistics[59297] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59298] = {
+	display = "參與「世界巡遊」(2023.2.1~2023.3.31)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
+	name = "巡遊點數",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59298,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59299] = {
+	display = "不该被看到",
+	name = "通行证九期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7009,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59299,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59301] = {
@@ -150551,7 +157207,8 @@ _G.pg.base.item_data_statistics[59301] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59302] = {
@@ -150573,7 +157230,8 @@ _G.pg.base.item_data_statistics[59302] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59303] = {
@@ -150595,7 +157253,8 @@ _G.pg.base.item_data_statistics[59303] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59304] = {
@@ -150617,7 +157276,8 @@ _G.pg.base.item_data_statistics[59304] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59308] = {
@@ -150639,7 +157299,8 @@ _G.pg.base.item_data_statistics[59308] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59309] = {
@@ -150661,7 +157322,8 @@ _G.pg.base.item_data_statistics[59309] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59311] = {
@@ -150683,7 +157345,54 @@ _G.pg.base.item_data_statistics[59311] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59316] = {
+	display = "用於「泠誓光庭」活動兌換，活動結束後將會消失",
+	name = "誓言之星",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/qianwei_pt",
+	id = 59316,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59317] = {
+	display = "用於『限時體驗商店』兌換角色限時換裝",
+	name = "換裝體驗券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59317,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59318] = {
@@ -150705,7 +157414,8 @@ _G.pg.base.item_data_statistics[59318] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59319] = {
@@ -150727,7 +157437,8 @@ _G.pg.base.item_data_statistics[59319] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59320] = {
@@ -150749,7 +157460,8 @@ _G.pg.base.item_data_statistics[59320] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59323] = {
@@ -150771,7 +157483,8 @@ _G.pg.base.item_data_statistics[59323] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59324] = {
@@ -150793,7 +157506,8 @@ _G.pg.base.item_data_statistics[59324] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59325] = {
@@ -150815,7 +157529,8 @@ _G.pg.base.item_data_statistics[59325] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59332] = {
@@ -150837,7 +157552,8 @@ _G.pg.base.item_data_statistics[59332] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59334] = {
@@ -150859,7 +157575,8 @@ _G.pg.base.item_data_statistics[59334] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59338] = {
@@ -150881,7 +157598,8 @@ _G.pg.base.item_data_statistics[59338] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59339] = {
@@ -150903,7 +157621,8 @@ _G.pg.base.item_data_statistics[59339] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59340] = {
@@ -150925,7 +157644,8 @@ _G.pg.base.item_data_statistics[59340] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59341] = {
@@ -150947,7 +157667,8 @@ _G.pg.base.item_data_statistics[59341] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59342] = {
@@ -150969,7 +157690,8 @@ _G.pg.base.item_data_statistics[59342] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59343] = {
@@ -150991,7 +157713,8 @@ _G.pg.base.item_data_statistics[59343] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59349] = {
@@ -151013,7 +157736,8 @@ _G.pg.base.item_data_statistics[59349] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59350] = {
@@ -151035,7 +157759,8 @@ _G.pg.base.item_data_statistics[59350] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59351] = {
@@ -151057,7 +157782,8 @@ _G.pg.base.item_data_statistics[59351] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59355] = {
@@ -151083,7 +157809,8 @@ _G.pg.base.item_data_statistics[59355] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59363] = {
@@ -151105,7 +157832,8 @@ _G.pg.base.item_data_statistics[59363] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59364] = {
@@ -151127,7 +157855,8 @@ _G.pg.base.item_data_statistics[59364] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59365] = {
@@ -151149,7 +157878,8 @@ _G.pg.base.item_data_statistics[59365] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59390] = {
@@ -151171,7 +157901,8 @@ _G.pg.base.item_data_statistics[59390] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59420] = {
@@ -151193,7 +157924,8 @@ _G.pg.base.item_data_statistics[59420] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59421] = {
@@ -151215,7 +157947,77 @@ _G.pg.base.item_data_statistics[59421] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59450] = {
+	display = "用於無人島「神秘商店」活動獎勵兌換，活動結束後將會消失",
+	name = "探險幣",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/liuzhounianhaidao_pt",
+	id = 59450,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59451] = {
+	display = "「海風與夏日的無人島」活動中的探險許可證，消耗許可證遊玩「啾啾搬運工」、「啾啾打撈團」、「啾啾大冒險」後，可獲取探險幣。",
+	name = "探險許可證",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/tanxianxukezheng",
+	id = 59451,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59457] = {
+	display = "海島上出產的酸酸甜甜的水果，含有豐富的維他命，可以用來滋養渴求美味的胃。",
+	name = "海島特產",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/island_invitation_pt",
+	id = 59457,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59601] = {
@@ -151237,7 +158039,8 @@ _G.pg.base.item_data_statistics[59601] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59602] = {
@@ -151259,7 +158062,8 @@ _G.pg.base.item_data_statistics[59602] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59603] = {
@@ -151281,7 +158085,8 @@ _G.pg.base.item_data_statistics[59603] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59604] = {
@@ -151303,7 +158108,8 @@ _G.pg.base.item_data_statistics[59604] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59605] = {
@@ -151325,7 +158131,8 @@ _G.pg.base.item_data_statistics[59605] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59606] = {
@@ -151347,7 +158154,8 @@ _G.pg.base.item_data_statistics[59606] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59607] = {
@@ -151369,7 +158177,8 @@ _G.pg.base.item_data_statistics[59607] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59608] = {
@@ -151391,7 +158200,8 @@ _G.pg.base.item_data_statistics[59608] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59609] = {
@@ -151413,7 +158223,8 @@ _G.pg.base.item_data_statistics[59609] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59610] = {
@@ -151435,7 +158246,8 @@ _G.pg.base.item_data_statistics[59610] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59611] = {
@@ -151457,7 +158269,8 @@ _G.pg.base.item_data_statistics[59611] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59612] = {
@@ -151479,7 +158292,8 @@ _G.pg.base.item_data_statistics[59612] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59613] = {
@@ -151501,7 +158315,8 @@ _G.pg.base.item_data_statistics[59613] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59614] = {
@@ -151523,7 +158338,8 @@ _G.pg.base.item_data_statistics[59614] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59615] = {
@@ -151545,7 +158361,8 @@ _G.pg.base.item_data_statistics[59615] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59616] = {
@@ -151567,7 +158384,8 @@ _G.pg.base.item_data_statistics[59616] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59621] = {
@@ -151589,7 +158407,8 @@ _G.pg.base.item_data_statistics[59621] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59622] = {
@@ -151611,7 +158430,8 @@ _G.pg.base.item_data_statistics[59622] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59623] = {
@@ -151633,7 +158453,8 @@ _G.pg.base.item_data_statistics[59623] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59624] = {
@@ -151655,7 +158476,8 @@ _G.pg.base.item_data_statistics[59624] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59625] = {
@@ -151677,7 +158499,8 @@ _G.pg.base.item_data_statistics[59625] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59626] = {
@@ -151699,7 +158522,8 @@ _G.pg.base.item_data_statistics[59626] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59627] = {
@@ -151721,7 +158545,8 @@ _G.pg.base.item_data_statistics[59627] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59628] = {
@@ -151743,7 +158568,8 @@ _G.pg.base.item_data_statistics[59628] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59629] = {
@@ -151765,7 +158591,8 @@ _G.pg.base.item_data_statistics[59629] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59630] = {
@@ -151787,7 +158614,8 @@ _G.pg.base.item_data_statistics[59630] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59631] = {
@@ -151809,7 +158637,8 @@ _G.pg.base.item_data_statistics[59631] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59632] = {
@@ -151831,7 +158660,8 @@ _G.pg.base.item_data_statistics[59632] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59633] = {
@@ -151853,7 +158683,8 @@ _G.pg.base.item_data_statistics[59633] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59634] = {
@@ -151875,7 +158706,8 @@ _G.pg.base.item_data_statistics[59634] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59701] = {
@@ -151897,7 +158729,8 @@ _G.pg.base.item_data_statistics[59701] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59702] = {
@@ -151919,7 +158752,8 @@ _G.pg.base.item_data_statistics[59702] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59703] = {
@@ -151941,7 +158775,8 @@ _G.pg.base.item_data_statistics[59703] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59704] = {
@@ -151963,7 +158798,8 @@ _G.pg.base.item_data_statistics[59704] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59705] = {
@@ -151985,7 +158821,8 @@ _G.pg.base.item_data_statistics[59705] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59706] = {
@@ -152007,7 +158844,8 @@ _G.pg.base.item_data_statistics[59706] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59707] = {
@@ -152029,7 +158867,8 @@ _G.pg.base.item_data_statistics[59707] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59708] = {
@@ -152051,7 +158890,8 @@ _G.pg.base.item_data_statistics[59708] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59709] = {
@@ -152073,7 +158913,8 @@ _G.pg.base.item_data_statistics[59709] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59710] = {
@@ -152095,7 +158936,8 @@ _G.pg.base.item_data_statistics[59710] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59711] = {
@@ -152117,7 +158959,8 @@ _G.pg.base.item_data_statistics[59711] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59712] = {
@@ -152139,7 +158982,8 @@ _G.pg.base.item_data_statistics[59712] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59713] = {
@@ -152161,7 +159005,8 @@ _G.pg.base.item_data_statistics[59713] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59714] = {
@@ -152183,7 +159028,8 @@ _G.pg.base.item_data_statistics[59714] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59715] = {
@@ -152205,7 +159051,8 @@ _G.pg.base.item_data_statistics[59715] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59716] = {
@@ -152227,7 +159074,8 @@ _G.pg.base.item_data_statistics[59716] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59717] = {
@@ -152249,7 +159097,8 @@ _G.pg.base.item_data_statistics[59717] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59718] = {
@@ -152271,7 +159120,8 @@ _G.pg.base.item_data_statistics[59718] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59719] = {
@@ -152293,7 +159143,8 @@ _G.pg.base.item_data_statistics[59719] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59720] = {
@@ -152315,7 +159166,8 @@ _G.pg.base.item_data_statistics[59720] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59721] = {
@@ -152337,7 +159189,8 @@ _G.pg.base.item_data_statistics[59721] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59722] = {
@@ -152359,7 +159212,8 @@ _G.pg.base.item_data_statistics[59722] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59723] = {
@@ -152381,7 +159235,8 @@ _G.pg.base.item_data_statistics[59723] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59724] = {
@@ -152403,7 +159258,8 @@ _G.pg.base.item_data_statistics[59724] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59725] = {
@@ -152425,7 +159281,8 @@ _G.pg.base.item_data_statistics[59725] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59726] = {
@@ -152447,7 +159304,8 @@ _G.pg.base.item_data_statistics[59726] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59727] = {
@@ -152469,7 +159327,8 @@ _G.pg.base.item_data_statistics[59727] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59728] = {
@@ -152491,7 +159350,8 @@ _G.pg.base.item_data_statistics[59728] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59729] = {
@@ -152513,7 +159373,8 @@ _G.pg.base.item_data_statistics[59729] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59730] = {
@@ -152535,7 +159396,8 @@ _G.pg.base.item_data_statistics[59730] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59731] = {
@@ -152557,7 +159419,8 @@ _G.pg.base.item_data_statistics[59731] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59732] = {
@@ -152579,7 +159442,8 @@ _G.pg.base.item_data_statistics[59732] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59733] = {
@@ -152601,7 +159465,8 @@ _G.pg.base.item_data_statistics[59733] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59734] = {
@@ -152623,7 +159488,8 @@ _G.pg.base.item_data_statistics[59734] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59735] = {
@@ -152645,7 +159511,8 @@ _G.pg.base.item_data_statistics[59735] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59736] = {
@@ -152667,7 +159534,8 @@ _G.pg.base.item_data_statistics[59736] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59737] = {
@@ -152689,7 +159557,8 @@ _G.pg.base.item_data_statistics[59737] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59738] = {
@@ -152711,7 +159580,8 @@ _G.pg.base.item_data_statistics[59738] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59739] = {
@@ -152733,7 +159603,8 @@ _G.pg.base.item_data_statistics[59739] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59740] = {
@@ -152755,7 +159626,8 @@ _G.pg.base.item_data_statistics[59740] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59741] = {
@@ -152777,7 +159649,8 @@ _G.pg.base.item_data_statistics[59741] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59742] = {
@@ -152799,7 +159672,8 @@ _G.pg.base.item_data_statistics[59742] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59743] = {
@@ -152821,7 +159695,8 @@ _G.pg.base.item_data_statistics[59743] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59744] = {
@@ -152843,7 +159718,8 @@ _G.pg.base.item_data_statistics[59744] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59745] = {
@@ -152865,7 +159741,8 @@ _G.pg.base.item_data_statistics[59745] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59746] = {
@@ -152887,7 +159764,8 @@ _G.pg.base.item_data_statistics[59746] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59747] = {
@@ -152909,7 +159787,8 @@ _G.pg.base.item_data_statistics[59747] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59748] = {
@@ -152931,7 +159810,8 @@ _G.pg.base.item_data_statistics[59748] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59749] = {
@@ -152955,7 +159835,8 @@ _G.pg.base.item_data_statistics[59749] = {
 	index = {},
 	shiptrans_id = {
 		102174
-	}
+	},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59761] = {
@@ -152977,7 +159858,8 @@ _G.pg.base.item_data_statistics[59761] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59762] = {
@@ -153001,7 +159883,8 @@ _G.pg.base.item_data_statistics[59762] = {
 	index = {},
 	shiptrans_id = {
 		205124
-	}
+	},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59763] = {
@@ -153023,7 +159906,8 @@ _G.pg.base.item_data_statistics[59763] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59764] = {
@@ -153045,7 +159929,8 @@ _G.pg.base.item_data_statistics[59764] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59765] = {
@@ -153067,7 +159952,8 @@ _G.pg.base.item_data_statistics[59765] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59766] = {
@@ -153089,7 +159975,8 @@ _G.pg.base.item_data_statistics[59766] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59767] = {
@@ -153111,7 +159998,8 @@ _G.pg.base.item_data_statistics[59767] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59768] = {
@@ -153133,7 +160021,8 @@ _G.pg.base.item_data_statistics[59768] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59769] = {
@@ -153155,7 +160044,8 @@ _G.pg.base.item_data_statistics[59769] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59770] = {
@@ -153177,7 +160067,8 @@ _G.pg.base.item_data_statistics[59770] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59771] = {
@@ -153199,7 +160090,8 @@ _G.pg.base.item_data_statistics[59771] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59772] = {
@@ -153221,7 +160113,8 @@ _G.pg.base.item_data_statistics[59772] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59773] = {
@@ -153243,7 +160136,8 @@ _G.pg.base.item_data_statistics[59773] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59774] = {
@@ -153265,7 +160159,8 @@ _G.pg.base.item_data_statistics[59774] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59775] = {
@@ -153287,7 +160182,8 @@ _G.pg.base.item_data_statistics[59775] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59776] = {
@@ -153309,7 +160205,8 @@ _G.pg.base.item_data_statistics[59776] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59777] = {
@@ -153331,7 +160228,8 @@ _G.pg.base.item_data_statistics[59777] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59778] = {
@@ -153353,7 +160251,8 @@ _G.pg.base.item_data_statistics[59778] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59779] = {
@@ -153375,7 +160274,8 @@ _G.pg.base.item_data_statistics[59779] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59780] = {
@@ -153397,7 +160297,8 @@ _G.pg.base.item_data_statistics[59780] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59781] = {
@@ -153419,7 +160320,8 @@ _G.pg.base.item_data_statistics[59781] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59782] = {
@@ -153441,7 +160343,8 @@ _G.pg.base.item_data_statistics[59782] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59784] = {
@@ -153463,7 +160366,8 @@ _G.pg.base.item_data_statistics[59784] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59785] = {
@@ -153485,7 +160389,8 @@ _G.pg.base.item_data_statistics[59785] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59786] = {
@@ -153507,7 +160412,8 @@ _G.pg.base.item_data_statistics[59786] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59788] = {
@@ -153529,7 +160435,8 @@ _G.pg.base.item_data_statistics[59788] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59791] = {
@@ -153551,7 +160458,8 @@ _G.pg.base.item_data_statistics[59791] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59792] = {
@@ -153573,7 +160481,8 @@ _G.pg.base.item_data_statistics[59792] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59793] = {
@@ -153595,7 +160504,8 @@ _G.pg.base.item_data_statistics[59793] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59794] = {
@@ -153617,7 +160527,8 @@ _G.pg.base.item_data_statistics[59794] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59795] = {
@@ -153639,7 +160550,8 @@ _G.pg.base.item_data_statistics[59795] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59796] = {
@@ -153661,7 +160573,8 @@ _G.pg.base.item_data_statistics[59796] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59797] = {
@@ -153683,7 +160596,8 @@ _G.pg.base.item_data_statistics[59797] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59801] = {
@@ -153705,7 +160619,8 @@ _G.pg.base.item_data_statistics[59801] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59802] = {
@@ -153727,7 +160642,8 @@ _G.pg.base.item_data_statistics[59802] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59803] = {
@@ -153749,7 +160665,8 @@ _G.pg.base.item_data_statistics[59803] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59804] = {
@@ -153771,7 +160688,8 @@ _G.pg.base.item_data_statistics[59804] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59805] = {
@@ -153793,7 +160711,8 @@ _G.pg.base.item_data_statistics[59805] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59806] = {
@@ -153815,7 +160734,8 @@ _G.pg.base.item_data_statistics[59806] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59807] = {
@@ -153837,7 +160757,8 @@ _G.pg.base.item_data_statistics[59807] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59808] = {
@@ -153859,7 +160780,8 @@ _G.pg.base.item_data_statistics[59808] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59809] = {
@@ -153881,7 +160803,8 @@ _G.pg.base.item_data_statistics[59809] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59810] = {
@@ -153903,7 +160826,8 @@ _G.pg.base.item_data_statistics[59810] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59811] = {
@@ -153925,7 +160849,8 @@ _G.pg.base.item_data_statistics[59811] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59812] = {
@@ -153947,7 +160872,8 @@ _G.pg.base.item_data_statistics[59812] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59813] = {
@@ -153969,7 +160895,8 @@ _G.pg.base.item_data_statistics[59813] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59814] = {
@@ -153991,7 +160918,8 @@ _G.pg.base.item_data_statistics[59814] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59815] = {
@@ -154013,7 +160941,8 @@ _G.pg.base.item_data_statistics[59815] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59816] = {
@@ -154035,7 +160964,8 @@ _G.pg.base.item_data_statistics[59816] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59821] = {
@@ -154057,7 +160987,8 @@ _G.pg.base.item_data_statistics[59821] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59822] = {
@@ -154079,7 +161010,8 @@ _G.pg.base.item_data_statistics[59822] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59823] = {
@@ -154101,7 +161033,8 @@ _G.pg.base.item_data_statistics[59823] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59824] = {
@@ -154123,7 +161056,8 @@ _G.pg.base.item_data_statistics[59824] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59831] = {
@@ -154145,7 +161079,8 @@ _G.pg.base.item_data_statistics[59831] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59832] = {
@@ -154167,7 +161102,8 @@ _G.pg.base.item_data_statistics[59832] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59833] = {
@@ -154189,7 +161125,8 @@ _G.pg.base.item_data_statistics[59833] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59834] = {
@@ -154211,7 +161148,8 @@ _G.pg.base.item_data_statistics[59834] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59835] = {
@@ -154233,7 +161171,8 @@ _G.pg.base.item_data_statistics[59835] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59836] = {
@@ -154255,7 +161194,8 @@ _G.pg.base.item_data_statistics[59836] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59837] = {
@@ -154277,7 +161217,8 @@ _G.pg.base.item_data_statistics[59837] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59838] = {
@@ -154299,7 +161240,8 @@ _G.pg.base.item_data_statistics[59838] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59839] = {
@@ -154321,7 +161263,8 @@ _G.pg.base.item_data_statistics[59839] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59841] = {
@@ -154343,7 +161286,8 @@ _G.pg.base.item_data_statistics[59841] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59842] = {
@@ -154365,7 +161309,8 @@ _G.pg.base.item_data_statistics[59842] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59843] = {
@@ -154389,7 +161334,8 @@ _G.pg.base.item_data_statistics[59843] = {
 	index = {},
 	shiptrans_id = {
 		301874
-	}
+	},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59844] = {
@@ -154414,7 +161360,8 @@ _G.pg.base.item_data_statistics[59844] = {
 	shiptrans_id = {
 		520014,
 		521014
-	}
+	},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59845] = {
@@ -154439,7 +161386,8 @@ _G.pg.base.item_data_statistics[59845] = {
 	shiptrans_id = {
 		520034,
 		521034
-	}
+	},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59847] = {
@@ -154461,7 +161409,8 @@ _G.pg.base.item_data_statistics[59847] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59848] = {
@@ -154483,7 +161432,8 @@ _G.pg.base.item_data_statistics[59848] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59900] = {
@@ -154505,7 +161455,8 @@ _G.pg.base.item_data_statistics[59900] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59901] = {
@@ -154527,7 +161478,8 @@ _G.pg.base.item_data_statistics[59901] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59902] = {
@@ -154549,7 +161501,8 @@ _G.pg.base.item_data_statistics[59902] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59926] = {
@@ -154571,7 +161524,8 @@ _G.pg.base.item_data_statistics[59926] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59938] = {
@@ -154593,7 +161547,8 @@ _G.pg.base.item_data_statistics[59938] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59939] = {
@@ -154615,7 +161570,8 @@ _G.pg.base.item_data_statistics[59939] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59940] = {
@@ -154673,7 +161629,8 @@ _G.pg.base.item_data_statistics[59940] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59941] = {
@@ -154706,7 +161663,8 @@ _G.pg.base.item_data_statistics[59941] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59942] = {
@@ -154739,7 +161697,8 @@ _G.pg.base.item_data_statistics[59942] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59943] = {
@@ -154772,7 +161731,8 @@ _G.pg.base.item_data_statistics[59943] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59944] = {
@@ -154805,7 +161765,8 @@ _G.pg.base.item_data_statistics[59944] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59945] = {
@@ -154838,7 +161799,8 @@ _G.pg.base.item_data_statistics[59945] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59946] = {
@@ -154871,7 +161833,8 @@ _G.pg.base.item_data_statistics[59946] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59947] = {
@@ -154904,7 +161867,8 @@ _G.pg.base.item_data_statistics[59947] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59948] = {
@@ -154926,7 +161890,8 @@ _G.pg.base.item_data_statistics[59948] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59949] = {
@@ -154948,7 +161913,8 @@ _G.pg.base.item_data_statistics[59949] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59950] = {
@@ -154970,7 +161936,8 @@ _G.pg.base.item_data_statistics[59950] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59951] = {
@@ -154992,7 +161959,8 @@ _G.pg.base.item_data_statistics[59951] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59952] = {
@@ -155014,7 +161982,8 @@ _G.pg.base.item_data_statistics[59952] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59953] = {
@@ -155036,7 +162005,8 @@ _G.pg.base.item_data_statistics[59953] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59954] = {
@@ -155058,7 +162028,8 @@ _G.pg.base.item_data_statistics[59954] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59960] = {
@@ -155080,7 +162051,8 @@ _G.pg.base.item_data_statistics[59960] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59961] = {
@@ -155102,7 +162074,8 @@ _G.pg.base.item_data_statistics[59961] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59962] = {
@@ -155124,7 +162097,8 @@ _G.pg.base.item_data_statistics[59962] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59963] = {
@@ -155146,7 +162120,8 @@ _G.pg.base.item_data_statistics[59963] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59964] = {
@@ -155168,7 +162143,8 @@ _G.pg.base.item_data_statistics[59964] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59965] = {
@@ -155190,7 +162166,8 @@ _G.pg.base.item_data_statistics[59965] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59966] = {
@@ -155212,7 +162189,8 @@ _G.pg.base.item_data_statistics[59966] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59967] = {
@@ -155234,7 +162212,8 @@ _G.pg.base.item_data_statistics[59967] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59968] = {
@@ -155256,7 +162235,8 @@ _G.pg.base.item_data_statistics[59968] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59969] = {
@@ -155278,7 +162258,8 @@ _G.pg.base.item_data_statistics[59969] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59970] = {
@@ -155300,7 +162281,8 @@ _G.pg.base.item_data_statistics[59970] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59971] = {
@@ -155322,7 +162304,8 @@ _G.pg.base.item_data_statistics[59971] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59972] = {
@@ -155344,7 +162327,8 @@ _G.pg.base.item_data_statistics[59972] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59973] = {
@@ -155366,7 +162350,8 @@ _G.pg.base.item_data_statistics[59973] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59974] = {
@@ -155388,7 +162373,8 @@ _G.pg.base.item_data_statistics[59974] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59975] = {
@@ -155410,7 +162396,8 @@ _G.pg.base.item_data_statistics[59975] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59976] = {
@@ -155432,7 +162419,8 @@ _G.pg.base.item_data_statistics[59976] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59977] = {
@@ -155454,7 +162442,8 @@ _G.pg.base.item_data_statistics[59977] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59978] = {
@@ -155476,7 +162465,8 @@ _G.pg.base.item_data_statistics[59978] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59979] = {
@@ -155498,7 +162488,8 @@ _G.pg.base.item_data_statistics[59979] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59981] = {
@@ -155520,7 +162511,8 @@ _G.pg.base.item_data_statistics[59981] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59982] = {
@@ -155542,7 +162534,8 @@ _G.pg.base.item_data_statistics[59982] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59983] = {
@@ -155564,7 +162557,8 @@ _G.pg.base.item_data_statistics[59983] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59984] = {
@@ -155586,7 +162580,8 @@ _G.pg.base.item_data_statistics[59984] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59985] = {
@@ -155608,7 +162603,8 @@ _G.pg.base.item_data_statistics[59985] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59986] = {
@@ -155630,7 +162626,8 @@ _G.pg.base.item_data_statistics[59986] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59987] = {
@@ -155652,7 +162649,8 @@ _G.pg.base.item_data_statistics[59987] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[59988] = {
@@ -155674,7 +162672,8 @@ _G.pg.base.item_data_statistics[59988] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60011] = {
@@ -155696,7 +162695,8 @@ _G.pg.base.item_data_statistics[60011] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60012] = {
@@ -155718,7 +162718,8 @@ _G.pg.base.item_data_statistics[60012] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60021] = {
@@ -155740,7 +162741,8 @@ _G.pg.base.item_data_statistics[60021] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60022] = {
@@ -155762,7 +162764,8 @@ _G.pg.base.item_data_statistics[60022] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60023] = {
@@ -155784,7 +162787,8 @@ _G.pg.base.item_data_statistics[60023] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60030] = {
@@ -155806,7 +162810,8 @@ _G.pg.base.item_data_statistics[60030] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60031] = {
@@ -155828,7 +162833,8 @@ _G.pg.base.item_data_statistics[60031] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60032] = {
@@ -155850,7 +162856,8 @@ _G.pg.base.item_data_statistics[60032] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60033] = {
@@ -155872,7 +162879,8 @@ _G.pg.base.item_data_statistics[60033] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60034] = {
@@ -155894,7 +162902,8 @@ _G.pg.base.item_data_statistics[60034] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60035] = {
@@ -155916,7 +162925,8 @@ _G.pg.base.item_data_statistics[60035] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60036] = {
@@ -155938,7 +162948,8 @@ _G.pg.base.item_data_statistics[60036] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60037] = {
@@ -155960,7 +162971,8 @@ _G.pg.base.item_data_statistics[60037] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60038] = {
@@ -155982,7 +162994,8 @@ _G.pg.base.item_data_statistics[60038] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[61001] = {
@@ -156004,7 +163017,8 @@ _G.pg.base.item_data_statistics[61001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60057] = {
@@ -156026,7 +163040,8 @@ _G.pg.base.item_data_statistics[60057] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60058] = {
@@ -156048,7 +163063,8 @@ _G.pg.base.item_data_statistics[60058] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60105] = {
@@ -156070,7 +163086,8 @@ _G.pg.base.item_data_statistics[60105] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60106] = {
@@ -156103,7 +163120,8 @@ _G.pg.base.item_data_statistics[60106] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60107] = {
@@ -156136,7 +163154,8 @@ _G.pg.base.item_data_statistics[60107] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60108] = {
@@ -156169,7 +163188,8 @@ _G.pg.base.item_data_statistics[60108] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60109] = {
@@ -156202,7 +163222,8 @@ _G.pg.base.item_data_statistics[60109] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60110] = {
@@ -156235,7 +163256,8 @@ _G.pg.base.item_data_statistics[60110] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60111] = {
@@ -156268,7 +163290,8 @@ _G.pg.base.item_data_statistics[60111] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60112] = {
@@ -156301,7 +163324,8 @@ _G.pg.base.item_data_statistics[60112] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60113] = {
@@ -156323,7 +163347,8 @@ _G.pg.base.item_data_statistics[60113] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60114] = {
@@ -156345,7 +163370,8 @@ _G.pg.base.item_data_statistics[60114] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60115] = {
@@ -156367,7 +163393,8 @@ _G.pg.base.item_data_statistics[60115] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60116] = {
@@ -156389,7 +163416,8 @@ _G.pg.base.item_data_statistics[60116] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60117] = {
@@ -156411,7 +163439,8 @@ _G.pg.base.item_data_statistics[60117] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60118] = {
@@ -156433,7 +163462,8 @@ _G.pg.base.item_data_statistics[60118] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60119] = {
@@ -156455,7 +163485,8 @@ _G.pg.base.item_data_statistics[60119] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60129] = {
@@ -156477,7 +163508,8 @@ _G.pg.base.item_data_statistics[60129] = {
 	id = 60129,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60130] = {
@@ -156510,7 +163542,8 @@ _G.pg.base.item_data_statistics[60130] = {
 		}
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60131] = {
@@ -156543,7 +163576,8 @@ _G.pg.base.item_data_statistics[60131] = {
 		}
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60132] = {
@@ -156576,7 +163610,8 @@ _G.pg.base.item_data_statistics[60132] = {
 		}
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60133] = {
@@ -156609,7 +163644,8 @@ _G.pg.base.item_data_statistics[60133] = {
 		}
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60134] = {
@@ -156642,7 +163678,8 @@ _G.pg.base.item_data_statistics[60134] = {
 		}
 	},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60135] = {
@@ -156664,7 +163701,8 @@ _G.pg.base.item_data_statistics[60135] = {
 	id = 60135,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60136] = {
@@ -156686,7 +163724,8 @@ _G.pg.base.item_data_statistics[60136] = {
 	id = 60136,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60137] = {
@@ -156708,7 +163747,8 @@ _G.pg.base.item_data_statistics[60137] = {
 	id = 60137,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60138] = {
@@ -156730,7 +163770,8 @@ _G.pg.base.item_data_statistics[60138] = {
 	id = 60138,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60139] = {
@@ -156752,7 +163793,8 @@ _G.pg.base.item_data_statistics[60139] = {
 	id = 60139,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60140] = {
@@ -156774,7 +163816,8 @@ _G.pg.base.item_data_statistics[60140] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60141] = {
@@ -156796,7 +163839,8 @@ _G.pg.base.item_data_statistics[60141] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60142] = {
@@ -156818,7 +163862,8 @@ _G.pg.base.item_data_statistics[60142] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60143] = {
@@ -156840,7 +163885,8 @@ _G.pg.base.item_data_statistics[60143] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60144] = {
@@ -156862,7 +163908,8 @@ _G.pg.base.item_data_statistics[60144] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60145] = {
@@ -156884,7 +163931,8 @@ _G.pg.base.item_data_statistics[60145] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60146] = {
@@ -156906,7 +163954,8 @@ _G.pg.base.item_data_statistics[60146] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60147] = {
@@ -156928,7 +163977,8 @@ _G.pg.base.item_data_statistics[60147] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60148] = {
@@ -156950,7 +164000,8 @@ _G.pg.base.item_data_statistics[60148] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60149] = {
@@ -157013,7 +164064,8 @@ _G.pg.base.item_data_statistics[60149] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60150] = {
@@ -157046,7 +164098,8 @@ _G.pg.base.item_data_statistics[60150] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60151] = {
@@ -157079,7 +164132,8 @@ _G.pg.base.item_data_statistics[60151] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60152] = {
@@ -157112,7 +164166,8 @@ _G.pg.base.item_data_statistics[60152] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60153] = {
@@ -157145,7 +164200,8 @@ _G.pg.base.item_data_statistics[60153] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60154] = {
@@ -157178,7 +164234,8 @@ _G.pg.base.item_data_statistics[60154] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60155] = {
@@ -157211,7 +164268,8 @@ _G.pg.base.item_data_statistics[60155] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60156] = {
@@ -157244,7 +164302,8 @@ _G.pg.base.item_data_statistics[60156] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60157] = {
@@ -157277,7 +164336,8 @@ _G.pg.base.item_data_statistics[60157] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60158] = {
@@ -157299,7 +164359,8 @@ _G.pg.base.item_data_statistics[60158] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60159] = {
@@ -157321,7 +164382,8 @@ _G.pg.base.item_data_statistics[60159] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60160] = {
@@ -157343,7 +164405,8 @@ _G.pg.base.item_data_statistics[60160] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60161] = {
@@ -157365,7 +164428,8 @@ _G.pg.base.item_data_statistics[60161] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60162] = {
@@ -157387,7 +164451,8 @@ _G.pg.base.item_data_statistics[60162] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60163] = {
@@ -157409,7 +164474,8 @@ _G.pg.base.item_data_statistics[60163] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60164] = {
@@ -157431,7 +164497,8 @@ _G.pg.base.item_data_statistics[60164] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60165] = {
@@ -157453,7 +164520,8 @@ _G.pg.base.item_data_statistics[60165] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60199] = {
@@ -157475,7 +164543,8 @@ _G.pg.base.item_data_statistics[60199] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60200] = {
@@ -157497,7 +164566,8 @@ _G.pg.base.item_data_statistics[60200] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60201] = {
@@ -157519,7 +164589,8 @@ _G.pg.base.item_data_statistics[60201] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60202] = {
@@ -157541,7 +164612,8 @@ _G.pg.base.item_data_statistics[60202] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60203] = {
@@ -157563,7 +164635,8 @@ _G.pg.base.item_data_statistics[60203] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60204] = {
@@ -157585,7 +164658,8 @@ _G.pg.base.item_data_statistics[60204] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60205] = {
@@ -157607,7 +164681,8 @@ _G.pg.base.item_data_statistics[60205] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60206] = {
@@ -157629,7 +164704,8 @@ _G.pg.base.item_data_statistics[60206] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60207] = {
@@ -157651,7 +164727,8 @@ _G.pg.base.item_data_statistics[60207] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60208] = {
@@ -157673,7 +164750,8 @@ _G.pg.base.item_data_statistics[60208] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60209] = {
@@ -157695,7 +164773,8 @@ _G.pg.base.item_data_statistics[60209] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60210] = {
@@ -157717,7 +164796,8 @@ _G.pg.base.item_data_statistics[60210] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60211] = {
@@ -157739,7 +164819,8 @@ _G.pg.base.item_data_statistics[60211] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60212] = {
@@ -157761,7 +164842,8 @@ _G.pg.base.item_data_statistics[60212] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60213] = {
@@ -157783,7 +164865,8 @@ _G.pg.base.item_data_statistics[60213] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60214] = {
@@ -157805,7 +164888,8 @@ _G.pg.base.item_data_statistics[60214] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60215] = {
@@ -157827,7 +164911,8 @@ _G.pg.base.item_data_statistics[60215] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60216] = {
@@ -157849,7 +164934,8 @@ _G.pg.base.item_data_statistics[60216] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60217] = {
@@ -157871,7 +164957,8 @@ _G.pg.base.item_data_statistics[60217] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60218] = {
@@ -157893,7 +164980,8 @@ _G.pg.base.item_data_statistics[60218] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60219] = {
@@ -157915,7 +165003,8 @@ _G.pg.base.item_data_statistics[60219] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60220] = {
@@ -157937,7 +165026,8 @@ _G.pg.base.item_data_statistics[60220] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60221] = {
@@ -157959,7 +165049,8 @@ _G.pg.base.item_data_statistics[60221] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60222] = {
@@ -157981,7 +165072,8 @@ _G.pg.base.item_data_statistics[60222] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60223] = {
@@ -158003,7 +165095,8 @@ _G.pg.base.item_data_statistics[60223] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60224] = {
@@ -158025,7 +165118,8 @@ _G.pg.base.item_data_statistics[60224] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60225] = {
@@ -158047,7 +165141,8 @@ _G.pg.base.item_data_statistics[60225] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60226] = {
@@ -158069,7 +165164,8 @@ _G.pg.base.item_data_statistics[60226] = {
 	id = 60226,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60227] = {
@@ -158091,7 +165187,8 @@ _G.pg.base.item_data_statistics[60227] = {
 	id = 60227,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60228] = {
@@ -158113,7 +165210,8 @@ _G.pg.base.item_data_statistics[60228] = {
 	id = 60228,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60229] = {
@@ -158135,7 +165233,8 @@ _G.pg.base.item_data_statistics[60229] = {
 	id = 60229,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60230] = {
@@ -158157,7 +165256,8 @@ _G.pg.base.item_data_statistics[60230] = {
 	id = 60230,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60231] = {
@@ -158179,7 +165279,8 @@ _G.pg.base.item_data_statistics[60231] = {
 	id = 60231,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60232] = {
@@ -158201,7 +165302,8 @@ _G.pg.base.item_data_statistics[60232] = {
 	id = 60232,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60233] = {
@@ -158223,7 +165325,8 @@ _G.pg.base.item_data_statistics[60233] = {
 	id = 60233,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60234] = {
@@ -158245,7 +165348,8 @@ _G.pg.base.item_data_statistics[60234] = {
 	id = 60234,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60235] = {
@@ -158267,7 +165371,8 @@ _G.pg.base.item_data_statistics[60235] = {
 	id = 60235,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60236] = {
@@ -158289,7 +165394,8 @@ _G.pg.base.item_data_statistics[60236] = {
 	id = 60236,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60237] = {
@@ -158311,7 +165417,8 @@ _G.pg.base.item_data_statistics[60237] = {
 	id = 60237,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60238] = {
@@ -158333,7 +165440,8 @@ _G.pg.base.item_data_statistics[60238] = {
 	id = 60238,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60239] = {
@@ -158355,7 +165463,8 @@ _G.pg.base.item_data_statistics[60239] = {
 	id = 60239,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60240] = {
@@ -158377,7 +165486,8 @@ _G.pg.base.item_data_statistics[60240] = {
 	id = 60240,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60241] = {
@@ -158399,7 +165509,8 @@ _G.pg.base.item_data_statistics[60241] = {
 	id = 60241,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60242] = {
@@ -158421,7 +165532,8 @@ _G.pg.base.item_data_statistics[60242] = {
 	id = 60242,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60243] = {
@@ -158443,7 +165555,8 @@ _G.pg.base.item_data_statistics[60243] = {
 	id = 60243,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60260] = {
@@ -158465,7 +165578,8 @@ _G.pg.base.item_data_statistics[60260] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60261] = {
@@ -158487,7 +165601,8 @@ _G.pg.base.item_data_statistics[60261] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60262] = {
@@ -158509,7 +165624,8 @@ _G.pg.base.item_data_statistics[60262] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60263] = {
@@ -158531,7 +165647,8 @@ _G.pg.base.item_data_statistics[60263] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60264] = {
@@ -158553,7 +165670,8 @@ _G.pg.base.item_data_statistics[60264] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60265] = {
@@ -158575,7 +165693,8 @@ _G.pg.base.item_data_statistics[60265] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60266] = {
@@ -158597,7 +165716,8 @@ _G.pg.base.item_data_statistics[60266] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60267] = {
@@ -158619,7 +165739,8 @@ _G.pg.base.item_data_statistics[60267] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60268] = {
@@ -158641,7 +165762,8 @@ _G.pg.base.item_data_statistics[60268] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60283] = {
@@ -158663,7 +165785,8 @@ _G.pg.base.item_data_statistics[60283] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60284] = {
@@ -158685,7 +165808,8 @@ _G.pg.base.item_data_statistics[60284] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60290] = {
@@ -158707,7 +165831,8 @@ _G.pg.base.item_data_statistics[60290] = {
 	id = 60290,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60291] = {
@@ -158729,7 +165854,8 @@ _G.pg.base.item_data_statistics[60291] = {
 	id = 60291,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60292] = {
@@ -158751,7 +165877,8 @@ _G.pg.base.item_data_statistics[60292] = {
 	id = 60292,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60293] = {
@@ -158773,7 +165900,8 @@ _G.pg.base.item_data_statistics[60293] = {
 	id = 60293,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60294] = {
@@ -158795,7 +165923,8 @@ _G.pg.base.item_data_statistics[60294] = {
 	id = 60294,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60295] = {
@@ -158817,7 +165946,8 @@ _G.pg.base.item_data_statistics[60295] = {
 	id = 60295,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60296] = {
@@ -158839,7 +165969,8 @@ _G.pg.base.item_data_statistics[60296] = {
 	id = 60296,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60297] = {
@@ -158861,7 +165992,8 @@ _G.pg.base.item_data_statistics[60297] = {
 	id = 60297,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60298] = {
@@ -158883,7 +166015,8 @@ _G.pg.base.item_data_statistics[60298] = {
 	id = 60298,
 	display_icon = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60299] = {
@@ -158905,7 +166038,8 @@ _G.pg.base.item_data_statistics[60299] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60300] = {
@@ -158927,7 +166061,8 @@ _G.pg.base.item_data_statistics[60300] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60301] = {
@@ -158949,7 +166084,8 @@ _G.pg.base.item_data_statistics[60301] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60302] = {
@@ -158971,7 +166107,8 @@ _G.pg.base.item_data_statistics[60302] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60303] = {
@@ -158993,7 +166130,8 @@ _G.pg.base.item_data_statistics[60303] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60304] = {
@@ -159015,7 +166153,8 @@ _G.pg.base.item_data_statistics[60304] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60305] = {
@@ -159037,7 +166176,8 @@ _G.pg.base.item_data_statistics[60305] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60306] = {
@@ -159059,7 +166199,8 @@ _G.pg.base.item_data_statistics[60306] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60307] = {
@@ -159081,7 +166222,8 @@ _G.pg.base.item_data_statistics[60307] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60308] = {
@@ -159103,7 +166245,8 @@ _G.pg.base.item_data_statistics[60308] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60309] = {
@@ -159125,7 +166268,8 @@ _G.pg.base.item_data_statistics[60309] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60310] = {
@@ -159147,7 +166291,8 @@ _G.pg.base.item_data_statistics[60310] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60311] = {
@@ -159169,7 +166314,8 @@ _G.pg.base.item_data_statistics[60311] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60312] = {
@@ -159191,7 +166337,8 @@ _G.pg.base.item_data_statistics[60312] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60313] = {
@@ -159213,7 +166360,8 @@ _G.pg.base.item_data_statistics[60313] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60314] = {
@@ -159235,7 +166383,8 @@ _G.pg.base.item_data_statistics[60314] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[60315] = {
@@ -159257,7 +166406,215 @@ _G.pg.base.item_data_statistics[60315] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60316] = {
+	display = "使用後可以邀請一名特定對象參加宴會（獲得指定角色）",
+	name = "慶典邀請函",
+	max_num = 0,
+	type = 21,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60316,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60317] = {
+	display = "由{namecode:97}贈與的，作為宴會邀約的回禮",
+	name = "{namecode:97}的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60317,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60318] = {
+	display = "由{namecode:161}贈與的，作為宴會邀約的回禮",
+	name = "{namecode:161}的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60318,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60319] = {
+	display = "由華盛頓贈與的，作為宴會邀約的回禮",
+	name = "華盛頓的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60319,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60320] = {
+	display = "由恰巴耶夫贈與的，作為宴會邀約的回禮",
+	name = "恰巴耶夫的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60320,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60321] = {
+	display = "由光輝贈與的，作為宴會邀約的回禮",
+	name = "光輝的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60321,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60322] = {
+	display = "由{namecode:437}贈與的，作為宴會邀約的回禮",
+	name = "{namecode:437}的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60322,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60323] = {
+	display = "由波拉贈與的，作為宴會邀約的回禮",
+	name = "波拉的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60323,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60324] = {
+	display = "由惡毒贈與的，作為宴會邀約的回禮",
+	name = "惡毒的回禮",
+	max_num = 0,
+	type = 1,
+	time_limit = 0,
+	rarity = 9,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	id = 60324,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69001] = {
@@ -159309,7 +166666,8 @@ _G.pg.base.item_data_statistics[69001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69908] = {
@@ -159347,7 +166705,8 @@ _G.pg.base.item_data_statistics[69908] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69909] = {
@@ -159389,7 +166748,8 @@ _G.pg.base.item_data_statistics[69909] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69910] = {
@@ -159425,7 +166785,8 @@ _G.pg.base.item_data_statistics[69910] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69911] = {
@@ -159447,7 +166808,8 @@ _G.pg.base.item_data_statistics[69911] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69930] = {
@@ -159480,7 +166842,8 @@ _G.pg.base.item_data_statistics[69930] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69931] = {
@@ -159513,7 +166876,8 @@ _G.pg.base.item_data_statistics[69931] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69932] = {
@@ -159550,7 +166914,8 @@ _G.pg.base.item_data_statistics[69932] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69933] = {
@@ -159583,7 +166948,8 @@ _G.pg.base.item_data_statistics[69933] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69934] = {
@@ -159622,7 +166988,8 @@ _G.pg.base.item_data_statistics[69934] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69935] = {
@@ -159658,7 +167025,8 @@ _G.pg.base.item_data_statistics[69935] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69936] = {
@@ -159696,7 +167064,8 @@ _G.pg.base.item_data_statistics[69936] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69937] = {
@@ -159737,7 +167106,8 @@ _G.pg.base.item_data_statistics[69937] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69938] = {
@@ -159769,7 +167139,8 @@ _G.pg.base.item_data_statistics[69938] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[69939] = {
@@ -159800,7 +167171,8 @@ _G.pg.base.item_data_statistics[69939] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70024] = {
@@ -159822,7 +167194,8 @@ _G.pg.base.item_data_statistics[70024] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70025] = {
@@ -159844,7 +167217,8 @@ _G.pg.base.item_data_statistics[70025] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70026] = {
@@ -159866,7 +167240,8 @@ _G.pg.base.item_data_statistics[70026] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70027] = {
@@ -159888,7 +167263,8 @@ _G.pg.base.item_data_statistics[70027] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70028] = {
@@ -159910,7 +167286,8 @@ _G.pg.base.item_data_statistics[70028] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70029] = {
@@ -159932,7 +167309,8 @@ _G.pg.base.item_data_statistics[70029] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70030] = {
@@ -159954,7 +167332,8 @@ _G.pg.base.item_data_statistics[70030] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70031] = {
@@ -159976,7 +167355,8 @@ _G.pg.base.item_data_statistics[70031] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70032] = {
@@ -159998,7 +167378,8 @@ _G.pg.base.item_data_statistics[70032] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70033] = {
@@ -160020,7 +167401,8 @@ _G.pg.base.item_data_statistics[70033] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70034] = {
@@ -160042,7 +167424,8 @@ _G.pg.base.item_data_statistics[70034] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70035] = {
@@ -160064,7 +167447,8 @@ _G.pg.base.item_data_statistics[70035] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70036] = {
@@ -160086,7 +167470,8 @@ _G.pg.base.item_data_statistics[70036] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70037] = {
@@ -160108,7 +167493,8 @@ _G.pg.base.item_data_statistics[70037] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70038] = {
@@ -160130,7 +167516,8 @@ _G.pg.base.item_data_statistics[70038] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70050] = {
@@ -160152,7 +167539,8 @@ _G.pg.base.item_data_statistics[70050] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70051] = {
@@ -160195,7 +167583,8 @@ _G.pg.base.item_data_statistics[70051] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70052] = {
@@ -160228,7 +167617,8 @@ _G.pg.base.item_data_statistics[70052] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70053] = {
@@ -160250,7 +167640,8 @@ _G.pg.base.item_data_statistics[70053] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70054] = {
@@ -160272,7 +167663,8 @@ _G.pg.base.item_data_statistics[70054] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70055] = {
@@ -160294,7 +167686,8 @@ _G.pg.base.item_data_statistics[70055] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70056] = {
@@ -160316,7 +167709,8 @@ _G.pg.base.item_data_statistics[70056] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70057] = {
@@ -160338,7 +167732,8 @@ _G.pg.base.item_data_statistics[70057] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70058] = {
@@ -160360,7 +167755,8 @@ _G.pg.base.item_data_statistics[70058] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70059] = {
@@ -160382,7 +167778,8 @@ _G.pg.base.item_data_statistics[70059] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70060] = {
@@ -160404,7 +167801,8 @@ _G.pg.base.item_data_statistics[70060] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70061] = {
@@ -160426,7 +167824,8 @@ _G.pg.base.item_data_statistics[70061] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70062] = {
@@ -160448,7 +167847,8 @@ _G.pg.base.item_data_statistics[70062] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70063] = {
@@ -160470,7 +167870,8 @@ _G.pg.base.item_data_statistics[70063] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70064] = {
@@ -160492,7 +167893,8 @@ _G.pg.base.item_data_statistics[70064] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70065] = {
@@ -160514,7 +167916,8 @@ _G.pg.base.item_data_statistics[70065] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70066] = {
@@ -160536,7 +167939,8 @@ _G.pg.base.item_data_statistics[70066] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70067] = {
@@ -160558,7 +167962,8 @@ _G.pg.base.item_data_statistics[70067] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70068] = {
@@ -160580,7 +167985,8 @@ _G.pg.base.item_data_statistics[70068] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70069] = {
@@ -160602,7 +168008,8 @@ _G.pg.base.item_data_statistics[70069] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70070] = {
@@ -160624,7 +168031,8 @@ _G.pg.base.item_data_statistics[70070] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70071] = {
@@ -160646,7 +168054,8 @@ _G.pg.base.item_data_statistics[70071] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70072] = {
@@ -160668,7 +168077,8 @@ _G.pg.base.item_data_statistics[70072] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70073] = {
@@ -160690,7 +168100,8 @@ _G.pg.base.item_data_statistics[70073] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70074] = {
@@ -160712,7 +168123,8 @@ _G.pg.base.item_data_statistics[70074] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70075] = {
@@ -160734,7 +168146,8 @@ _G.pg.base.item_data_statistics[70075] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70076] = {
@@ -160756,7 +168169,8 @@ _G.pg.base.item_data_statistics[70076] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70077] = {
@@ -160778,7 +168192,8 @@ _G.pg.base.item_data_statistics[70077] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70078] = {
@@ -160800,7 +168215,8 @@ _G.pg.base.item_data_statistics[70078] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70079] = {
@@ -160822,7 +168238,8 @@ _G.pg.base.item_data_statistics[70079] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70080] = {
@@ -160844,7 +168261,8 @@ _G.pg.base.item_data_statistics[70080] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70081] = {
@@ -160866,7 +168284,8 @@ _G.pg.base.item_data_statistics[70081] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70082] = {
@@ -160888,7 +168307,8 @@ _G.pg.base.item_data_statistics[70082] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70083] = {
@@ -160910,7 +168330,8 @@ _G.pg.base.item_data_statistics[70083] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70084] = {
@@ -160932,7 +168353,8 @@ _G.pg.base.item_data_statistics[70084] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70085] = {
@@ -160954,7 +168376,8 @@ _G.pg.base.item_data_statistics[70085] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70086] = {
@@ -160976,7 +168399,8 @@ _G.pg.base.item_data_statistics[70086] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70087] = {
@@ -160998,7 +168422,8 @@ _G.pg.base.item_data_statistics[70087] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70088] = {
@@ -161020,7 +168445,8 @@ _G.pg.base.item_data_statistics[70088] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70089] = {
@@ -161042,7 +168468,8 @@ _G.pg.base.item_data_statistics[70089] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70090] = {
@@ -161064,7 +168491,8 @@ _G.pg.base.item_data_statistics[70090] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70091] = {
@@ -161086,7 +168514,8 @@ _G.pg.base.item_data_statistics[70091] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70092] = {
@@ -161108,7 +168537,8 @@ _G.pg.base.item_data_statistics[70092] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70093] = {
@@ -161130,7 +168560,8 @@ _G.pg.base.item_data_statistics[70093] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70094] = {
@@ -161152,7 +168583,8 @@ _G.pg.base.item_data_statistics[70094] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70095] = {
@@ -161174,7 +168606,8 @@ _G.pg.base.item_data_statistics[70095] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70096] = {
@@ -161196,7 +168629,8 @@ _G.pg.base.item_data_statistics[70096] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70097] = {
@@ -161218,7 +168652,8 @@ _G.pg.base.item_data_statistics[70097] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70098] = {
@@ -161240,7 +168675,8 @@ _G.pg.base.item_data_statistics[70098] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70099] = {
@@ -161262,7 +168698,8 @@ _G.pg.base.item_data_statistics[70099] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70100] = {
@@ -161284,7 +168721,8 @@ _G.pg.base.item_data_statistics[70100] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70101] = {
@@ -161306,7 +168744,8 @@ _G.pg.base.item_data_statistics[70101] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70102] = {
@@ -161328,7 +168767,8 @@ _G.pg.base.item_data_statistics[70102] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70103] = {
@@ -161350,7 +168790,8 @@ _G.pg.base.item_data_statistics[70103] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70104] = {
@@ -161372,7 +168813,8 @@ _G.pg.base.item_data_statistics[70104] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70126] = {
@@ -161394,7 +168836,8 @@ _G.pg.base.item_data_statistics[70126] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70127] = {
@@ -161416,7 +168859,8 @@ _G.pg.base.item_data_statistics[70127] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70128] = {
@@ -161438,7 +168882,8 @@ _G.pg.base.item_data_statistics[70128] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70129] = {
@@ -161460,7 +168905,8 @@ _G.pg.base.item_data_statistics[70129] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70130] = {
@@ -161482,7 +168928,8 @@ _G.pg.base.item_data_statistics[70130] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70131] = {
@@ -161504,7 +168951,8 @@ _G.pg.base.item_data_statistics[70131] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70132] = {
@@ -161526,7 +168974,8 @@ _G.pg.base.item_data_statistics[70132] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70133] = {
@@ -161548,7 +168997,8 @@ _G.pg.base.item_data_statistics[70133] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70134] = {
@@ -161570,7 +169020,8 @@ _G.pg.base.item_data_statistics[70134] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70135] = {
@@ -161592,7 +169043,8 @@ _G.pg.base.item_data_statistics[70135] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70136] = {
@@ -161614,7 +169066,8 @@ _G.pg.base.item_data_statistics[70136] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70137] = {
@@ -161636,7 +169089,8 @@ _G.pg.base.item_data_statistics[70137] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70138] = {
@@ -161658,7 +169112,8 @@ _G.pg.base.item_data_statistics[70138] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70139] = {
@@ -161680,7 +169135,8 @@ _G.pg.base.item_data_statistics[70139] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70140] = {
@@ -161702,7 +169158,8 @@ _G.pg.base.item_data_statistics[70140] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70141] = {
@@ -161724,7 +169181,8 @@ _G.pg.base.item_data_statistics[70141] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70142] = {
@@ -161746,7 +169204,8 @@ _G.pg.base.item_data_statistics[70142] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[70143] = {
@@ -161768,7 +169227,8 @@ _G.pg.base.item_data_statistics[70143] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80000] = {
@@ -161790,7 +169250,8 @@ _G.pg.base.item_data_statistics[80000] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80001] = {
@@ -161812,7 +169273,8 @@ _G.pg.base.item_data_statistics[80001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80005] = {
@@ -161834,7 +169296,8 @@ _G.pg.base.item_data_statistics[80005] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80002] = {
@@ -161856,7 +169319,8 @@ _G.pg.base.item_data_statistics[80002] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80003] = {
@@ -161878,7 +169342,8 @@ _G.pg.base.item_data_statistics[80003] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80004] = {
@@ -161991,7 +169456,8 @@ _G.pg.base.item_data_statistics[80004] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80010] = {
@@ -162013,7 +169479,8 @@ _G.pg.base.item_data_statistics[80010] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80013] = {
@@ -162035,7 +169502,8 @@ _G.pg.base.item_data_statistics[80013] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80014] = {
@@ -162057,7 +169525,8 @@ _G.pg.base.item_data_statistics[80014] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80015] = {
@@ -162170,7 +169639,8 @@ _G.pg.base.item_data_statistics[80015] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80018] = {
@@ -162283,7 +169753,8 @@ _G.pg.base.item_data_statistics[80018] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80019] = {
@@ -162396,7 +169867,8 @@ _G.pg.base.item_data_statistics[80019] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80030] = {
@@ -162418,7 +169890,8 @@ _G.pg.base.item_data_statistics[80030] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80031] = {
@@ -162440,7 +169913,8 @@ _G.pg.base.item_data_statistics[80031] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80032] = {
@@ -162462,7 +169936,8 @@ _G.pg.base.item_data_statistics[80032] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[80033] = {
@@ -162575,7 +170050,8 @@ _G.pg.base.item_data_statistics[80033] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[81000] = {
@@ -162633,7 +170109,8 @@ _G.pg.base.item_data_statistics[81000] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[81001] = {
@@ -162691,7 +170168,8 @@ _G.pg.base.item_data_statistics[81001] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[81002] = {
@@ -162749,7 +170227,8 @@ _G.pg.base.item_data_statistics[81002] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[81003] = {
@@ -162807,7 +170286,8 @@ _G.pg.base.item_data_statistics[81003] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[81004] = {
@@ -162865,7 +170345,8 @@ _G.pg.base.item_data_statistics[81004] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[81005] = {
@@ -162923,7 +170404,8 @@ _G.pg.base.item_data_statistics[81005] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[81006] = {
@@ -162981,7 +170463,8 @@ _G.pg.base.item_data_statistics[81006] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[86000] = {
@@ -163018,7 +170501,8 @@ _G.pg.base.item_data_statistics[86000] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[86001] = {
@@ -163062,7 +170546,8 @@ _G.pg.base.item_data_statistics[86001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[86002] = {
@@ -163107,7 +170592,8 @@ _G.pg.base.item_data_statistics[86002] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[86003] = {
@@ -163139,7 +170625,8 @@ _G.pg.base.item_data_statistics[86003] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[86004] = {
@@ -163175,7 +170662,8 @@ _G.pg.base.item_data_statistics[86004] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[86005] = {
@@ -163218,7 +170706,8 @@ _G.pg.base.item_data_statistics[86005] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[86006] = {
@@ -163260,7 +170749,8 @@ _G.pg.base.item_data_statistics[86006] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[89001] = {
@@ -163282,7 +170772,8 @@ _G.pg.base.item_data_statistics[89001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[100000] = {
@@ -163304,7 +170795,8 @@ _G.pg.base.item_data_statistics[100000] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[110000] = {
@@ -163326,7 +170818,8 @@ _G.pg.base.item_data_statistics[110000] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[110001] = {
@@ -163348,7 +170841,8 @@ _G.pg.base.item_data_statistics[110001] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[110002] = {
@@ -163370,7 +170864,8 @@ _G.pg.base.item_data_statistics[110002] = {
 	display_icon = {},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[150000] = {
@@ -163413,7 +170908,8 @@ _G.pg.base.item_data_statistics[150000] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[150001] = {
@@ -163466,7 +170962,8 @@ _G.pg.base.item_data_statistics[150001] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[150002] = {
@@ -163519,7 +171016,8 @@ _G.pg.base.item_data_statistics[150002] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[150003] = {
@@ -163562,7 +171060,8 @@ _G.pg.base.item_data_statistics[150003] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 _G.pg.base.item_data_statistics[150004] = {
@@ -163605,5 +171104,6 @@ _G.pg.base.item_data_statistics[150004] = {
 	},
 	price = {},
 	index = {},
-	shiptrans_id = {}
+	shiptrans_id = {},
+	combination_display = {}
 }

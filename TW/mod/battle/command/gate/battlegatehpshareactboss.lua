@@ -164,15 +164,15 @@ function slot0.Exit(slot0, slot1)
 		uv2.statistics.mvpShipID = slot0.mvp
 		slot1, slot2 = uv1:GeneralLoot(slot0)
 
-		uv1.GeneralPlayerCosume(SYSTEM_HP_SHARE_ACT_BOSS, ys.Battle.BattleConst.BattleScore.C < uv4, uv6, slot0.player_exp)
-		uv7:AddStage(uv2.stageId)
-		getProxy(ActivityProxy):updateActivity(uv7)
+		uv1.GeneralPlayerCosume(SYSTEM_HP_SHARE_ACT_BOSS, ys.Battle.BattleConst.BattleScore.C < uv4, uv7, slot0.player_exp)
+		uv8:AddStage(uv2.stageId)
+		getProxy(ActivityProxy):updateActivity(uv8)
 		uv1:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = SYSTEM_HP_SHARE_ACT_BOSS,
 			statistics = uv2.statistics,
 			score = uv4,
 			drops = slot1,
-			commanderExps = uv1.GenerateCommanderExp(slot0, uv5),
+			commanderExps = uv1.GenerateCommanderExp(slot0, uv5, uv6[uv2.mainFleetId + 10]),
 			result = slot0.result,
 			extraDrops = slot2
 		})

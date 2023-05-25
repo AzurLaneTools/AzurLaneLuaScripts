@@ -9,6 +9,7 @@ slot0.OPEN_CHARGE_ITEM_PANEL = "ChargeMediator:OPEN_CHARGE_ITEM_PANEL"
 slot0.OPEN_CHARGE_ITEM_BOX = "ChargeMediator:OPEN_CHARGE_ITEM_BOX"
 slot0.OPEN_CHARGE_BIRTHDAY = "ChargeMediator:OPEN_CHARGE_BIRTHDAY"
 slot0.OPEN_USER_AGREE = "ChargeMediator:OPEN_USER_AGREE"
+slot0.VIEW_SKIN_PROBABILITY = "ChargeMediator:VIEW_SKIN_PROBABILITY"
 slot0.OPEN_TEC_SHIP_GIFT_SELL_LAYER = "ChargeMediator:OPEN_TEC_SHIP_GIFT_SELL_LAYER"
 
 function slot0.register(slot0)
@@ -20,6 +21,13 @@ function slot0.register(slot0)
 	slot3 = slot0.viewComponent
 
 	slot3:checkFreeGiftTag()
+	slot0:bind(uv0.VIEW_SKIN_PROBABILITY, function (slot0, slot1)
+		uv0.contextData.wrap = ChargeScene.TYPE_GIFT
+
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.PROBABILITY_SKINSHOP, {
+			commodityId = slot1
+		})
+	end)
 	slot0:bind(uv0.GET_CHARGE_LIST, function (slot0)
 		uv0:sendNotification(GAME.GET_CHARGE_LIST)
 	end)
@@ -187,6 +195,9 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateNoRes(slot3 and slot3.noRes or nil)
 	elseif slot2 == GAME.CHARGE_SUCCESS then
 		slot0.viewComponent:checkBuyDone("damonds")
+		slot0.viewComponent:OnChargeSuccess(Goods.Create({
+			shop_id = slot3.shopId
+		}, Goods.TYPE_CHARGE))
 	end
 end
 

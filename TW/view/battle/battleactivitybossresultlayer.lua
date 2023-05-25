@@ -85,7 +85,7 @@ function slot0.showRightBottomPanel(slot0)
 		end
 
 		if uv1 == SYSTEM_HP_SHARE_ACT_BOSS and not uv2 then
-			uv0:emit(BattleResultMediator.DIRECT_EXIT)
+			pg.m02:sendNotification(GAME.GO_BACK)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noTicket"))
 
 			return
@@ -114,12 +114,14 @@ function slot0.showRightBottomPanel(slot0)
 		end
 
 		if uv1 == SYSTEM_ACT_BOSS and uv2 and uv5 then
-			uv0:emit(GAME.ACT_BOSS_EXCHANGE_TICKET, uv6)
+			pg.m02:sendNotification(GAME.ACT_BOSS_EXCHANGE_TICKET, {
+				stageId = uv6
+			})
 
 			return
 		end
 
-		uv0:emit(BattleResultMediator.REENTER_STAGE)
+		uv0:emit(NewBattleResultMediator.REENTER_STAGE)
 	end)
 end
 
@@ -129,11 +131,7 @@ function slot0.PassMsgbox(slot0, slot1, slot2)
 		param = slot2
 	}
 
-	slot0:emit(BattleResultMediator.DIRECT_EXIT)
-end
-
-function slot0.OnActBossExchangeTicket(slot0)
-	slot0:emit(BattleResultMediator.REENTER_STAGE)
+	pg.m02:sendNotification(GAME.GO_BACK)
 end
 
 function slot0.HideConfirmPanel(slot0)

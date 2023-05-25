@@ -151,6 +151,15 @@ pg.settings_other_template = {
 		title = "L2D陀螺儀背景控制",
 		desc = "功能開啟後，部分L2D換裝背景將支援由陀螺儀控制"
 	},
+	[17] = {
+		default = 0,
+		name = "BATTLERESULT_SKIP_DISPAY_PAINTING",
+		type = 0,
+		alignment = 0,
+		id = 17,
+		title = "跳過結算角色展示",
+		desc = "功能開啟後，將不展示戰鬥結算立繪過場"
+	},
 	all = {
 		1,
 		2,
@@ -166,6 +175,7 @@ pg.settings_other_template = {
 		12,
 		13,
 		14,
-		15
+		15,
+		17
 	}
 }

@@ -34,7 +34,7 @@ function slot0.execute(slot0, slot1)
 					},
 					callback = uv3
 				})
-			elseif uv0 == ActivityConst.ACTIVITY_TYPE_TASK_RYZA then
+			else
 				slot1 = PlayerConst.addTranDrop(slot0.award_list)
 				slot2 = {}
 
@@ -42,21 +42,24 @@ function slot0.execute(slot0, slot1)
 					slot8 = pg.task_data_template[uv1.task_ids[slot6]]
 					slot9 = slot8.award_display
 					slot11 = slot8.sub_type
-					slot12 = tonumber(slot8.target_id_2)
-					slot13 = slot8.target_num
-					slot14 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)
+					slot12 = tonumber(slot8.target_id)
+					slot13 = tonumber(slot8.target_id_2)
+					slot14 = slot8.target_num
 
-					if slot8.type == 6 and slot11 == 1006 then
-						slot14:subItemCount(slot12, slot13)
-					elseif slot10 == 16 and slot11 == 1006 then
-						slot14:subItemCount(slot12, slot13)
+					if slot8.type == 6 then
+						slot15 = getProxy(ActivityProxy):getActivityById(uv1.act_id)
+
+						assert(slot15)
+
+						if not table.contains(slot15:GetFinishedTaskIds(), slot7) then
+							table.insert(slot16, slot7)
+							getProxy(ActivityProxy):updateActivity(slot15)
+						end
 					end
 
-					if slot10 == 16 and slot11 == 1006 then
-						-- Nothing
-					elseif not table.contains(getProxy(ActivityProxy):getActivityById(uv1.act_id).data1_list or {}, slot7) then
-						table.insert(slot16, slot7)
-						getProxy(ActivityProxy):updateActivity(slot15)
+					if slot10 == 6 and slot11 == 1006 and pg.activity_drop_type[slot12] and getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot12].activity_id) then
+						slot16:subVitemNumber(slot13, slot14)
+						getProxy(ActivityProxy):updateActivity(slot16)
 					end
 				end
 
@@ -73,6 +76,8 @@ function slot0.execute(slot0, slot1)
 					callback = uv3
 				})
 			end
+		else
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
 end

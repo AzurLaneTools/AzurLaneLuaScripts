@@ -16,7 +16,7 @@ return {
 			actor = 207120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大家快看……大厅的地板上躺着一个人欸！",
+			say = "大家快看……大廳的地板上躺著一個人欸！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205110,
-			say = "那个难道是……谢菲尔德小姐？！",
+			say = "那個難道是……謝菲爾德小姐？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "在华丽装饰的大厅中心，摆放着一台外形颇具科技感的大型装置。",
+			say = "在華麗裝飾的大廳中心，擺放著一台外形頗具科技感的大型裝置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "三个半圆形的框架组成了类似门的结构，在门的前方是由一系列复杂仪表盘组成的操作台。",
+			say = "三個半圓形的框架組成了類似門的結構，在門的前方是由一系列複雜儀表盤組成的操作台。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "谢菲尔德就倒在装置前的地板上。",
+			say = "謝菲爾德就倒在裝置前的地板上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "骑士团警戒四周，袭击者也许还在附近！",
+			say = "騎士團警戒四周，襲擊者也許還在附近！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hideOther = true,
 			side = 0,
 			bgName = "bg_camelot_1",
-			actorName = "复仇&司战女神",
+			actorName = "復仇&司戰女神",
 			dir = 1,
 			actor = 205110,
 			nameColor = "#a9f548",
@@ -159,7 +159,7 @@ return {
 			actor = 207120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "谢菲尔德小姐，你还好么——",
+			say = "謝菲爾德小姐，妳還好嗎——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "不挠小姐，请不要贸然移动她，先让我检查一下。",
+			say = "不撓小姐，請不要貿然移動她，先讓我檢查一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "贾维斯阻止了想要搬运谢菲尔德的不挠，来到近处仔细检查了起来。",
+			say = "傑維斯阻止了想要搬運謝菲爾德的不撓，來到近處仔細檢查了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "谢菲没事吧……？",
+			say = "謝菲沒事吧……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "嗯……看起来像是因为剧烈冲击导致的暂时性昏迷，没有发现战斗的痕迹也没有任何外伤，应该没有大碍。",
+			say = "嗯……看起來像是因為劇烈衝擊導致的暫時性昏迷，沒有發現戰鬥的痕跡也沒有任何外傷，應該沒有大礙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "设备上的这个残留痕迹……难道是因为能量输出不畅引发的爆炸么。",
+			say = "設備上的這個殘留痕跡……難道是因為能量輸出不順引發的爆炸嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "大家解除警戒，谢菲尔德的昏迷应该不是外部袭击者造成的。",
+			say = "大家解除警戒，謝菲爾德的昏迷應該不是外部襲擊者造成的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "好危险的设备！这个就是能前往其他……“世界”？的装置？",
+			say = "好危險的設備！這個就是能前往其他……“世界”？的裝置？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "没错。根据使用记录，设备之中已经存有两个不同坐标了。",
+			say = "沒錯。根據使用紀錄，設備之中已經存有兩個不同座標了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "难道陛下在找什么东西么……",
+			say = "難道陛下在找什麼東西嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样的话，我们去最新的坐标那边就能找到陛下了吧？",
+			say = "這樣的話，我們去最新的座標那邊就能找到陛下了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "很遗憾，事情没有这么简单……卡美洛之庭在同一时间可能以复数的形式存在于多个世界中。",
+			say = "很遺憾，事情沒有這麼簡單……卡美洛之庭在同一時間可能以複數的形式存在於多個世界中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "所以并不会记录使用坐标的先后顺序，也没有意义。",
+			say = "所以並不會紀錄使用座標的先後順序，也沒有意義。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "完全没懂……",
+			say = "完全沒懂……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要解释起来就复杂了。不过不论如何，二分之一概率，试试运气吧。",
+			say = "要解釋起來就複雜了。不過不論如何，二分之一機率，試試運氣吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前卫大人，谢菲看来一时半会醒不过来，我要留在这里照顾她。",
+			say = "前衛大人，謝菲看來一時半會醒不過來，我要留在這裡照顧她。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "贾维斯……就让我留在这里照顾她吧，守护他人这件事，我还是很擅长的.......",
+			say = "傑維斯……就讓我留在這裡照顧她吧，守護他人這件事，我還是很擅長的.......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也好。确实不好把受伤的同伴一个人丢在这里。谢菲醒过来之后也可以告诉我们发生了什么事。",
+			say = "也好。確實不好把受傷的同伴一個人丟在這裡。謝菲醒過來之後也可以告訴我們發生了什麼事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就拜托了，雅努斯。",
+			say = "那就拜託了，雅努斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			actor = 205130,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "其他人向我靠近，站在地板的圆形花纹之内，我们出发！",
+			say = "其他人向我靠近，站在地板的圓形花紋之內，我們出發！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
