@@ -119,11 +119,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "…………诱敌作战辛苦了。",
 			painting = {
 				alpha = 0.3,
@@ -155,7 +155,7 @@ return {
 			nameColor = "#ffa500",
 			bgName = "bg_zhuiluo_2",
 			side = 2,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "我这边结束了，各方汇报战况。",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			paintingNoise = true,
 			dir = 1,
-			actorname = "獒·META",
+			actorName = "獒·META",
 			actor = 900192,
 			nameColor = "#ffa500",
 			say = "……没想到这么胡来的计划真能成功。",
@@ -293,11 +293,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "……差不多了，让我们见见猎物吧。",
 			painting = {
 				alpha = 0.3,
@@ -310,11 +310,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "我们又见面了，赫米忒。",
 			painting = {
 				alpha = 0.3,
@@ -361,11 +361,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "盘算的话……比如，现在去激活你的一个备份，会发生什么事？",
 			painting = {
 				alpha = 0.3,
@@ -429,11 +429,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "我知道你在想什么。",
 			painting = {
 				alpha = 0.3,
@@ -446,11 +446,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "“没有零进行授权，这种事怎么可能”。",
 			painting = {
 				alpha = 0.3,
@@ -463,11 +463,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "如果我有一个「造物主」本人的紧急识别码呢？",
 			painting = {
 				alpha = 0.3,
@@ -502,11 +502,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "……曾经有一次，安洁有拿给我炫耀过。",
 			painting = {
 				alpha = 0.3,
@@ -519,11 +519,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "我回忆起来了。",
 			painting = {
 				alpha = 0.3,
@@ -621,11 +621,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "如果是在修改了主机中的数据后，再激活的呢？",
 			painting = {
 				alpha = 0.3,
@@ -666,11 +666,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "明明你已经猜到了。",
 			painting = {
 				alpha = 0.3,
@@ -689,11 +689,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "就算现在自爆也没用。",
 			painting = {
 				alpha = 0.3,
@@ -706,11 +706,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "这片空间的信号屏蔽是专门针对你准备的。",
 			painting = {
 				alpha = 0.3,
@@ -723,11 +723,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "你应该也发现了吧，你与主机的联系已经被彻底切断了。",
 			painting = {
 				alpha = 0.3,
@@ -757,11 +757,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "曾经，在那段时期。",
 			painting = {
 				alpha = 0.3,
@@ -774,11 +774,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "……作为配合安蒂克丝测试的一环。",
 			painting = {
 				alpha = 0.3,
@@ -808,11 +808,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "我对安蒂克丝的设备没有兴趣。",
 			painting = {
 				alpha = 0.3,
@@ -825,11 +825,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "直到不久前，我的想法改变了。",
 			painting = {
 				alpha = 0.3,
@@ -859,11 +859,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "就是这样。",
 			painting = {
 				alpha = 0.3,
@@ -876,11 +876,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "很快，我就能追踪到你的主机坐标，你输了。",
 			painting = {
 				alpha = 0.3,
@@ -903,11 +903,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "……嗯？这个感觉是……",
 			painting = {
 				alpha = 0.3,
@@ -938,11 +938,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "企业·META",
+			actorName = "企业·META",
 			say = "什么？！",
 			painting = {
 				alpha = 0.3,

@@ -75,6 +75,8 @@ function slot0.didEnter(slot0)
 		uv0:closeView()
 	end, SOUND_BACK)
 	onToggle(slot0, slot0.btnBuild, function (slot0)
+		uv0:clearTagBtn()
+		setActive(findTF(uv0.btnBuild, "bg"), not slot0)
 		setActive(findTF(uv0.btnBuild, "bg_selected"), slot0)
 
 		if slot0 then
@@ -82,6 +84,8 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_CONFIRM)
 	onToggle(slot0, slot0.btnTask, function (slot0)
+		uv0:clearTagBtn()
+		setActive(findTF(uv0.btnTask, "bg"), not slot0)
 		setActive(findTF(uv0.btnTask, "bg_selected"), slot0)
 
 		if slot0 then
@@ -89,6 +93,8 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_CONFIRM)
 	onToggle(slot0, slot0.btnHistory, function (slot0)
+		uv0:clearTagBtn()
+		setActive(findTF(uv0.btnHistory, "bg"), not slot0)
 		setActive(findTF(uv0.btnHistory, "bg_selected"), slot0)
 
 		if slot0 then
@@ -109,6 +115,15 @@ function slot0.didEnter(slot0)
 		uv0:openSubmitPanel(slot1)
 	end)
 	triggerToggle(slot0.btnTask, true)
+end
+
+function slot0.clearTagBtn(slot0)
+	setActive(findTF(slot0.btnBuild, "bg"), true)
+	setActive(findTF(slot0.btnBuild, "bg_selected"), false)
+	setActive(findTF(slot0.btnTask, "bg"), true)
+	setActive(findTF(slot0.btnTask, "bg_selected"), false)
+	setActive(findTF(slot0.btnHistory, "bg"), true)
+	setActive(findTF(slot0.btnHistory, "bg_selected"), false)
 end
 
 function slot0.showPage(slot0, slot1)

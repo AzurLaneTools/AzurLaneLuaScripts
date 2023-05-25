@@ -118,7 +118,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.gotTf = findTF(slot0.historyPage, "got")
 	slot0.finalAward = findTF(slot0.historyPage, "finalAward")
 
-	slot0:updateUI()
+	slot0:initPageUI()
 	slot0:selectedPage(1)
 end
 
@@ -131,13 +131,15 @@ function slot0.selectedPage(slot0, slot1)
 	slot0:updateMap(slot1)
 end
 
-function slot0.updateUI(slot0)
+function slot0.initPageUI(slot0)
 	for slot4 = 1, uv0 do
 		slot5 = slot0.startIndex + slot4
 
 		setText(findTF(slot0.pageItemTfs[slot4], "num"), tostring(slot5))
 		setActive(findTF(slot0.pageItemTfs[slot4], "lock"), slot5 > #slot0.mapDataList)
 		setActive(slot0.pageItemTfs[slot4], slot5 <= #slot0.mapDataList)
+		setActive(findTF(slot0.pageItemTfs[slot4], "selected"), false)
+		setText(findTF(slot0.pageItemTfs[slot4], "num"), setColorStr(slot5, "#c57053"))
 	end
 end
 

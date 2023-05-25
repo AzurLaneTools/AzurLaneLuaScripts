@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "看起來是正在圍觀她們釣魚的活動……也不知道它們能不能看得懂。",
+			say = "看起來是正在圍觀她們釣魚的活動……也不知道牠們能不能看得懂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
