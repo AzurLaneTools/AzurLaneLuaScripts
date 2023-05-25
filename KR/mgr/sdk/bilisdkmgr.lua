@@ -263,7 +263,7 @@ return {
 		end
 	end,
 	ShowPrivate = function ()
-		if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_UNION then
+		if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_UNION or IsUnityEditor then
 			pg.UserAgreementMgr.GetInstance():ShowForBiliPrivate()
 		elseif slot0 == PACKAGE_TYPE_SHAJOY then
 			Application.OpenURL("https://game.bilibili.com/uosdk_privacy/h5?game_id=209&privacyProtocol=1")
@@ -272,7 +272,7 @@ return {
 		end
 	end,
 	ShowLicence = function ()
-		if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_UNION then
+		if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_UNION or IsUnityEditor then
 			pg.UserAgreementMgr.GetInstance():ShowForBiliLicence()
 		elseif slot0 == PACKAGE_TYPE_SHAJOY then
 			Application.OpenURL("https://game.bilibili.com/uosdk_privacy/h5?game_id=209&userProtocol=1")

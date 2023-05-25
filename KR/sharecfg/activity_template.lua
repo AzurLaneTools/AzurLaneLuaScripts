@@ -9843,7 +9843,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 46,
+		is_show = 36,
 		config_data = {
 			{
 				18497,
@@ -9978,7 +9978,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4787,
-		is_show = 45,
+		is_show = 35,
 		config_data = {},
 		time = {
 			"timer",
@@ -10130,6 +10130,314 @@ pg.activity_template = {
 					23,
 					59,
 					59
+				}
+			}
+		}
+	},
+	[4790] = {
+		mark = 20230518,
+		config_client = "",
+		title_res_tag = "dexiV3_frame_re",
+		type = 87,
+		login_pop = 0,
+		config_id = 9,
+		is_show = 40,
+		id = 4790,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "BisimaiFramePage",
+			ui_name = "BisimaiFramePage"
+		}
+	},
+	[4791] = {
+		mark = 20230518,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 24,
+		is_show = 0,
+		config_client = "",
+		id = 4791,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4792] = {
+		mark = 20230518,
+		id = 4792,
+		title_res_tag = "bisimai_story",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 39,
+		config_data = {
+			{
+				18545,
+				18546
+			},
+			{
+				18547,
+				18548
+			},
+			{
+				18549,
+				18550
+			},
+			{
+				18551,
+				18552
+			},
+			{
+				18553,
+				18554
+			},
+			{
+				18555,
+				18556
+			},
+			{
+				18557,
+				18558
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "BisimaiStoryActPage",
+			ui_name = "BisimaiStoryActPage"
+		},
+		config_client = {
+			story = {
+				{
+					"ZHIZHEYUZHIZHU1"
+				},
+				{
+					"ZHIZHEYUZHIZHU2"
+				},
+				{
+					"ZHIZHEYUZHIZHU3"
+				},
+				{
+					"ZHIZHEYUZHIZHU4"
+				},
+				{
+					"ZHIZHEYUZHIZHU5"
+				},
+				{
+					"ZHIZHEYUZHIZHU6"
+				},
+				{
+					"ZHIZHEYUZHIZHU7"
+				}
+			}
+		}
+	},
+	[4793] = {
+		mark = 20230518,
+		id = 4793,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 21,
+		is_show = 37,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AijierTecCatchupPage",
+			ui_name = "AijierTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42033
+		}
+	},
+	[4794] = {
+		mark = 20230518,
+		id = 4794,
+		title_res_tag = "royal_fortune",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 38,
+		config_data = {
+			{
+				18559,
+				18560
+			},
+			{
+				18561,
+				18562
+			},
+			{
+				18563,
+				18564
+			},
+			{
+				18565,
+				18566
+			},
+			{
+				18567,
+				18568
+			},
+			{
+				18569,
+				18570
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "RoyalFortunePage",
+			ui_name = "RoyalFortunePage"
+		},
+		config_client = {
+			story = {
+				{
+					"WANSHENGYEDEQIYU1"
+				},
+				{
+					"WANSHENGYEDEQIYU2"
+				},
+				{
+					"WANSHENGYEDEQIYU3"
+				},
+				{
+					"WANSHENGYEDEQIYU4"
+				},
+				{
+					"WANSHENGYEDEQIYU5"
+				},
+				{
+					"WANSHENGYEDEQIYU6"
 				}
 			}
 		}
@@ -16159,6 +16467,11 @@ pg.activity_template = {
 		4787,
 		4788,
 		4789,
+		4790,
+		4791,
+		4792,
+		4793,
+		4794,
 		7004,
 		7005,
 		7006,

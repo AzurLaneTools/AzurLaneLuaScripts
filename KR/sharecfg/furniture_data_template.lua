@@ -168,6 +168,7 @@ pg.furniture_data_template = setmetatable({
 			100046,
 			100047,
 			100048,
+			100049,
 			200001,
 			200002,
 			200003,
@@ -4713,6 +4714,7 @@ pg.furniture_data_template = setmetatable({
 			100046,
 			100047,
 			100048,
+			100049,
 			54104,
 			54105
 		},
@@ -5572,7 +5574,8 @@ pg.furniture_data_template = setmetatable({
 			100044,
 			100045,
 			100046,
-			100047
+			100047,
+			100049
 		},
 		[2] = {
 			120,
@@ -8127,6 +8130,7 @@ pg.furniture_data_template = setmetatable({
 		100046,
 		100047,
 		100048,
+		100049,
 		200001,
 		200002,
 		200003,
@@ -19550,6 +19554,89 @@ pg.base.furniture_data_template = {
 				},
 				"walk"
 			}
+		},
+		interAction_group = {}
+	},
+	[100049] = {
+		spine_extra = "",
+		describe = "폭발 마법으로 해결할 수 없는 것은 없습니다, 만약 있다면 하나 더 주세요.",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "폭발 마법 지팡이",
+		themeId = 0,
+		icon = "baoliefazhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100049,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"baoliefazhangB",
+				"normal"
+			},
+			{
+				"baoliefazhangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					},
+					{
+						"tuozhuai2"
+					},
+					{
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},

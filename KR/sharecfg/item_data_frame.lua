@@ -387,6 +387,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「여왕 폐하의 이름으로, 축복의 빛이 세간에 퍼지길——」</color>\n「잿빛 폐허」 이벤트 획득",
 		scene = {}
 	},
+	[325] = {
+		time_limit_type = 0,
+		name = "노른회랑",
+		gain_by = "",
+		id = 325,
+		time_second = 0,
+		desc = "추후 이벤트를 통해 획득 가능",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "전당 기념: 엔터프라이즈",
@@ -476,6 +485,7 @@ pg.item_data_frame = {
 		322,
 		323,
 		324,
+		325,
 		401,
 		402,
 		413,

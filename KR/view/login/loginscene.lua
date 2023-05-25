@@ -55,7 +55,9 @@ function slot0.init(slot0)
 	slot0.version:GetComponent("Text").text = "ver " .. BundleWizard.Inst:GetGroupMgr("DEFAULT_RES").CurrentVersion:ToString()
 	slot0.bgLay = slot0:findTF("bg_lay")
 	slot0.accountBtn = slot0:findTF("bg_lay/buttons/account_button")
-	slot0.repairBtn = slot0:findTF("repair_button")
+	slot0.repairBtn = slot0:findTF("btns/repair_button")
+	slot0.privateBtn = slot0:findTF("btns/private_btn")
+	slot0.licenceBtn = slot0:findTF("btns/Licence_btn")
 	slot0.chInfo = slot0:findTF("background/info")
 
 	setActive(slot0.chInfo, PLATFORM_CODE == PLATFORM_CH)
@@ -524,6 +526,24 @@ function slot0.didEnter(slot0)
 	slot0:playExtraVoice()
 
 	slot0.initFinished = true
+
+	slot0:InitPrivateAndLicence()
+end
+
+function slot0.InitPrivateAndLicence(slot0)
+	slot1 = PLATFORM_CODE == PLATFORM_CH or IsUnityEditor
+
+	setActive(slot0.privateBtn, slot1)
+	setActive(slot0.licenceBtn, slot1)
+
+	if slot1 then
+		onButton(slot0, slot0.privateBtn, function ()
+			pg.SdkMgr.GetInstance():ShowPrivate()
+		end, SFX_PANEL)
+		onButton(slot0, slot0.licenceBtn, function ()
+			pg.SdkMgr.GetInstance():ShowLicence()
+		end, SFX_PANEL)
+	end
 end
 
 function slot0.playExtraVoice(slot0)

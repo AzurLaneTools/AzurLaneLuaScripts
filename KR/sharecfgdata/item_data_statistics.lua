@@ -187162,6 +187162,28 @@ _G.pg.base.item_data_statistics[59412] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[59413] = {
+	display = "아이콘 테두리 이벤트에서 교환 가능. 이벤트 종료 후 사라짐.",
+	name = "훈련PT",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_d",
+	id = 59413,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",
