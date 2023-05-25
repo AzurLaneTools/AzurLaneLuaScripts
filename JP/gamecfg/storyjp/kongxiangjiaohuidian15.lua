@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "「赤の海」がさっきよりも広がっていること以外に変化なし…か",
+			say = "「赤い海」がさっきよりも広がっていること以外に変化なし…か",
 			painting = {
 				alpha = 0.3,
 				time = 1

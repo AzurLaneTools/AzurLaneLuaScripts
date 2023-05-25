@@ -1111,7 +1111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感謝する。…各艦、このまま進みU-566を追うわよ！",
+			say = "感謝する。…各艦、このまま進みU-556を追うわよ！",
 			painting = {
 				alpha = 0.3,
 				time = 1

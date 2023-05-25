@@ -8492,7 +8492,7 @@ pg.base.skill_data_display = {
 	},
 	[16691] = {
 		id = 16691,
-		name = "BIG SEVEN・ネルソン"
+		name = "BIG SEVEN・ネルソン"
 	},
 	[16701] = {
 		id = 16701,

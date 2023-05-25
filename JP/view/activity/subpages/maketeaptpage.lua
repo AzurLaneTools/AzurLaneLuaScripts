@@ -84,7 +84,7 @@ function slot0.initMv(slot0)
 				return
 			end
 
-			if uv0.mvIndex ~= uv1 then
+			if uv0.mvIndex ~= uv1 and not uv0.isLoading then
 				uv0.mvIndex = uv1
 
 				uv0:pageChange()

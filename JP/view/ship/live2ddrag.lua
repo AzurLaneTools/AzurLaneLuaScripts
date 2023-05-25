@@ -148,7 +148,7 @@ function slot0.getParameter(slot0)
 end
 
 function slot0.parameToTarget(slot0)
-	if slot0.parameterValue == slot0.parameterTargetValue then
+	if slot0.parameterValue ~= slot0.parameterTargetValue then
 		return true
 	end
 
@@ -211,7 +211,7 @@ function slot0.updateReactValue(slot0)
 	end
 
 	if slot0.parameterValue ~= slot0.parameterTargetValue then
-		print("id:" .. slot0.id .. " " .. slot0.drawAbleName .. " 数值" .. slot0.parameterValue)
+		-- Nothing
 	end
 
 	slot0.parameterValue, slot0.parameterSmooth = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
@@ -288,7 +288,7 @@ function slot0.updateDrag(slot0)
 	end
 
 	if slot0.parameterValue ~= slot0.parameterTargetValue then
-		print("id:" .. slot0.id .. " " .. slot0.drawAbleName .. " 数值" .. slot0.parameterValue)
+		-- Nothing
 	end
 
 	slot0.parameterValue, slot0.parameterSmooth = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.smooth)
@@ -345,12 +345,8 @@ function slot0.updateTrigger(slot0)
 
 	if slot0.actionTrigger.type == Live2D.DRAG_TIME_ACTION then
 		if slot0.active then
-			print("当前拖动数值 ：" .. math.abs(slot0.parameterValue - slot0.actionTrigger.num))
-
 			if math.abs(slot0.parameterValue - slot0.actionTrigger.num) < math.abs(slot0.actionTrigger.num) * 0.25 then
 				slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
-
-				print("当前计时:" .. slot0.triggerActionTime)
 
 				if slot0.actionTrigger.time < slot0.triggerActionTime and not slot0.live2dAction then
 					slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
@@ -378,8 +374,6 @@ function slot0.updateTrigger(slot0)
 			return
 		end
 
-		print("激活action_list ，开始检测按下时间")
-
 		slot1 = nil
 
 		if slot0.actionTrigger.action then
@@ -389,7 +383,6 @@ function slot0.updateTrigger(slot0)
 		end
 
 		if slot1 <= Time.time - slot0.mouseInputDownTime then
-			print("时间检测通过，开始执行动作")
 			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
 
 			slot0.mouseInputDownTime = Time.time

@@ -471,7 +471,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xiangting_0",
-			say = "ウルリッヒの時と同じく相手が怪我しないように、ゲリュオンに耳元で咆哮するようを発させた。",
+			say = "ウルリッヒの時と同じく相手が怪我しないように、ゲリュオンに耳元で咆哮するよう指示した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

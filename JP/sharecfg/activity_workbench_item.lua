@@ -8,9 +8,7 @@ pg.activity_workbench_item = {
 		icon = "workbench_item_1",
 		get_access = {
 			"入手方法：冒険マップ",
-			islandNodes = {
-				0
-			}
+			islandNodes = {}
 		}
 	},
 	{
@@ -78,7 +76,24 @@ pg.activity_workbench_item = {
 		get_access = {
 			"入手方法：冒険ノート",
 			taskid = {
-				0
+				18750,
+				18751,
+				18752,
+				18753,
+				18754,
+				18755,
+				18756,
+				18757,
+				18758,
+				18759,
+				18760,
+				18761,
+				18762,
+				18763,
+				18764,
+				18765,
+				18766,
+				18771
 			}
 		}
 	},
@@ -90,7 +105,7 @@ pg.activity_workbench_item = {
 		icon = "workbench_item_9",
 		get_access = {
 			"入手方法：クラフト",
-			recipeid = 9
+			recipeid = 5
 		}
 	},
 	[10] = {
@@ -101,7 +116,7 @@ pg.activity_workbench_item = {
 		icon = "workbench_item_10",
 		get_access = {
 			"入手方法：クラフト",
-			recipeid = 8
+			recipeid = 6
 		}
 	},
 	[11] = {
@@ -112,7 +127,7 @@ pg.activity_workbench_item = {
 		icon = "workbench_item_11",
 		get_access = {
 			"入手方法：クラフト",
-			recipeid = 6
+			recipeid = 7
 		}
 	},
 	[12] = {
@@ -123,7 +138,7 @@ pg.activity_workbench_item = {
 		icon = "workbench_item_12",
 		get_access = {
 			"入手方法：クラフト",
-			recipeid = 5
+			recipeid = 8
 		}
 	},
 	[13] = {
@@ -134,7 +149,7 @@ pg.activity_workbench_item = {
 		icon = "workbench_item_13",
 		get_access = {
 			"入手方法：クラフト",
-			recipeid = 7
+			recipeid = 9
 		}
 	},
 	all = {

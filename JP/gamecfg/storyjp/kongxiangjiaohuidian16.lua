@@ -147,7 +147,7 @@ return {
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "とちらかというと私たちの元いた世界の街に近いかもね",
+			say = "どちらかというと私たちの元いた世界の街に近いかもね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
