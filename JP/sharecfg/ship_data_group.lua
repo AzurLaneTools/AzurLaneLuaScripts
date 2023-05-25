@@ -21003,7 +21003,9 @@ pg.base.ship_data_group = {
 		code = 250,
 		group_type = 40501,
 		trans_type = 0,
-		share_group_id = {},
+		share_group_id = {
+			40505
+		},
 		property_hexagon = {
 			"S",
 			"E",
