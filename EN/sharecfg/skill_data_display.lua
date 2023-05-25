@@ -12495,7 +12495,7 @@ pg.base.skill_data_display = {
 	},
 	[200434] = {
 		id = 200434,
-		name = "Framework of Logic –Support"
+		name = "Framework of Logic – Support"
 	},
 	[200455] = {
 		id = 200455,

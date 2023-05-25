@@ -18034,7 +18034,7 @@ _G.pg.base.gametip.story_autoplay_setting_2 = {
 }
 
 _G.pg.base.gametip.meta_shop_exchange_limit = {
-	tip = "Not in Dock"
+	tip = "Unobtained"
 }
 
 _G.pg.base.gametip.meta_shop_unexchange_label = {
@@ -18761,7 +18761,7 @@ The Manjuu Salvaging Crew minigame is played by tapping objects on the screen to
 Tap on objects on the screen to retrieve them. Earn points by retrieving treasure from below the surface while avoiding the submarines patrolling the area.
 
 The table of objects you can retrieve and the amount of points you gain or lose from them is as follows: 
-· Pocket watch: +15 seconds to the timer
+· Pocket watch: +20 seconds to the timer
 · Treasure chest: +600 points
 · Pearl: +500 points
 · Diving Manjuu: +400 points
@@ -20735,7 +20735,7 @@ Cruise Missions Seasonal Campaign
 - Overview -
 "Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
 Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
-Vestal META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for Kaga(BB), "Snowsilk Fox Dance"
+Vestal META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for Kaga, "Snowsilk Fox Dance"
 
 - How to Play -
 · Two types of missions will be released at the same time at the start of the campaign season:
@@ -24052,7 +24052,7 @@ _G.pg.base.gametip.workbench_tips4 = {
 }
 
 _G.pg.base.gametip.workbench_tips5 = {
-	tip = "-You don't have any item to craft-"
+	tip = "-You don't have any craftable item-"
 }
 
 _G.pg.base.gametip.workbench_tips6 = {
@@ -24285,7 +24285,7 @@ _G.pg.base.gametip.meta_shop_tip = {
 }
 
 _G.pg.base.gametip.pt_shop_tran_tip = {
-	tip = "You can only have as many $2 as needed to fully Limit Break this ship.\nThe excess $2 will be converted into $3 $4. Continue?"
+	tip = "You can only have as many <color=#92fc63>$2</color> as needed to fully Limit Break this ship.\nThe excess <color=#92fc63>$2</color> will be converted into $3 <color=#92fc63>$4</color>. Continue?"
 }
 
 _G.pg.base.gametip.urdraw_tip = {
@@ -24313,11 +24313,11 @@ _G.pg.base.gametip.meta_class_t_level_4 = {
 }
 
 _G.pg.base.gametip.meta_shop_exchange_limit_tip = {
-	tip = "You do not have $1 in your dock."
+	tip = "You have not obtained $1 yet."
 }
 
 _G.pg.base.gametip.meta_shop_exchange_limit_2_tip = {
-	tip = "You may purchase this in $1 year(s), $2 month(s), $3 day(s), $4 minute(s) and $5 second(s)."
+	tip = "You may purchase this in $1 year(s), $2 month(s), $3 day(s), $4 hour(s), $5 minute(s) and $6 second(s)."
 }
 
 _G.pg.base.gametip.charge_tip_crusing_label = {
@@ -24325,23 +24325,23 @@ _G.pg.base.gametip.charge_tip_crusing_label = {
 }
 
 _G.pg.base.gametip.mktea_1 = {
-	tip = "Thecraftingofafineteabeginswithcarefulselectionandharvesting."
+	tip = "The crafting of a fine tea begins with careful selection and harvesting."
 }
 
 _G.pg.base.gametip.mktea_2 = {
-	tip = "Spreadoutthetealeaves,steamthemtoextractthemoisture,andletthemsoften."
+	tip = "Spread out the tea leaves, steam them to extract the moisture, and let them soften."
 }
 
 _G.pg.base.gametip.mktea_3 = {
-	tip = "Inordertomaintainthetea'sfragrance,theprocessoffixationisanessentialstep."
+	tip = "In order to maintain the tea's fragrance, the process of fixation is an essential step."
 }
 
 _G.pg.base.gametip.mktea_4 = {
-	tip = "Placetheprocessedtealeavesinacoolplace,andspreadthemthinlytoreabsorbmoisture.Aftercooling,sieveofftheteapowder,andwinnowoutanydebris."
+	tip = "Place the processed tea leaves in a cool place, and spread them thinly to reabsorb moisture. After cooling, sieve off the tea powder, and winnow out any debris."
 }
 
 _G.pg.base.gametip.mktea_5 = {
-	tip = "Lastisthepan-firingprocess,wherethearomaandshapeofthetealeavesarefriedtoanoptimalstate.Theresultisasmooth,brightgreenleaf."
+	tip = "Last is the pan-firing process, where the aroma and shape of the tea leaves are fried to an optimal state. The result is a smooth, bright green leaf."
 }
 
 _G.pg.base.gametip.random_skin_list_item_desc_label = {

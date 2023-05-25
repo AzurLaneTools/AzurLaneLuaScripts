@@ -194639,7 +194639,7 @@ _G.pg.base.item_data_statistics[59450] = {
 }
 
 _G.pg.base.item_data_statistics[59451] = {
-	display = "Allows you to play minigames (both new and rerun) on Seabreeze Island. Automatically exchanged into Adventure Coins upon successful play attempt.\nOne Adventure Pass will be granted every day at server reset.",
+	display = "Allows you to play minigames (both new and rerun) on Seabreeze Island. Automatically exchanged into Adventure Coins upon successful play attempt.",
 	name = "Adventure Pass",
 	max_num = 0,
 	type = 98,
@@ -205809,7 +205809,7 @@ _G.pg.base.item_data_statistics[60316] = {
 }
 
 _G.pg.base.item_data_statistics[60317] = {
-	display = "A card fromTaihou. It reads: \"Winter gives way to spring, and spring gives way to an early summer this year, it seems. Let us enjoy the sunshine to its fullest, Commander.\"",
+	display = "A card from Taihou. It reads: \"Winter gives way to spring, and spring gives way to an early summer this year, it seems. Let us enjoy the sunshine to its fullest, Commander.\"",
 	name = "Taihou's Gift (Early Summer 2023)",
 	max_num = 0,
 	type = 1,
@@ -205948,7 +205948,7 @@ _G.pg.base.item_data_statistics[60322] = {
 
 _G.pg.base.item_data_statistics[60323] = {
 	display = "A card from Pola . It reads: \"Winter gives way to spring, and spring gives way to an early summer this year, it seems. Let us enjoy the sunshine to its fullest, Commander.\"",
-	name = "Pola 's Gift (Early Summer 2023)",
+	name = "Pola's Gift (Early Summer 2023)",
 	max_num = 0,
 	type = 1,
 	time_limit = 0,
@@ -206865,7 +206865,6 @@ The available outfits and their rarities are as follows:
 (<color=#92fc63>8.0%</color>) Taihou - Seaside Daydreams (<color=#92fc63>Live2D</color>);
 (<color=#92fc63>8.0%</color>) Anchorage - Dolphins and Swim Lessons (<color=#92fc63>Live2D</color>);
 (<color=#92fc63>8.0%</color>) Bismarck Zwei - Crystal-Clear Holiday;
-(<color=#92fc63>8.0%</color>) Royal Fortune - Eyes on the Prize;
 (<color=#92fc63>8.0%</color>) Royal Fortune - Eyes on the Prize;
 (<color=#92fc63>11.0%</color>) Otto von Alvensleben - Hunter Becomes Hunted;
 (<color=#92fc63>11.0%</color>) Sakawa - Icy Indulgence;

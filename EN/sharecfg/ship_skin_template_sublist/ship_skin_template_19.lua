@@ -718,7 +718,7 @@ pg.base.ship_skin_template_19 = {
 	},
 	[900355] = {
 		ship_group = 900355,
-		name = "No description",
+		name = "Arbiter: The Hermit IX",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",

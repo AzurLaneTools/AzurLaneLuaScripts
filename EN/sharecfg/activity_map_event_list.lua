@@ -1207,7 +1207,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1306] = {
-		node_name = "Who Fell Into the Lake?",
+		node_name = "Encounter in the Rain",
 		event_id = 2401,
 		id = 1306,
 		type = 3,

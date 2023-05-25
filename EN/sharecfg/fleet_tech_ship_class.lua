@@ -3076,7 +3076,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970201] = {
 		shiptype = 2,
-		name = "Helena META ",
+		name = "Helena META",
 		nation = 97,
 		id = 970201,
 		t_level_1 = 2,
@@ -3241,7 +3241,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970701] = {
 		shiptype = 7,
-		name = "Hiryu META",
+		name = "Hiryuu META",
 		nation = 97,
 		id = 970701,
 		t_level_1 = 9,
@@ -3252,7 +3252,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970702] = {
 		shiptype = 7,
-		name = "Royal META",
+		name = "Ark Royal META",
 		nation = 97,
 		id = 970702,
 		t_level_1 = 10,

@@ -8,9 +8,7 @@ pg.activity_workbench_item = {
 		icon = "workbench_item_1",
 		get_access = {
 			"Obtained Through: Adventure Map",
-			islandNodes = {
-				0
-			}
+			islandNodes = {}
 		}
 	},
 	{

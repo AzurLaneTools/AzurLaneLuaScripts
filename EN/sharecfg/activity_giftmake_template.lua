@@ -213,7 +213,7 @@ pg.activity_giftmake_template = {
 	{
 		reward = 900028,
 		describe = "Akashi has been a great help, making sure everything runs smoothly on the business side of things. She deserves a fancy... nay, a lavish gift.\nYou know exactly what will make her eyes pop.",
-		thankwords = "Nya?! This treasure chest looks stupidly expensive, nya... Even if it was empty, the jewels decorations alone would fetch a good price, nya.\nWhile I won't give you the gems back... I will give you this as a sign of my gratitude, nya~",
+		thankwords = "Nya?! This treasure chest looks stupidly expensive, nya... Even if it was empty, the jewel decorations alone would fetch a good price, nya.\nWhile I won't give you the gems back... I will give you this as a sign of my gratitude, nya~",
 		resources = "mingshi",
 		id = 7,
 		reward_describe = "Akashi's Return Gift",

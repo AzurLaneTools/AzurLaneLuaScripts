@@ -2274,7 +2274,7 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 	},
 	[200432] = {
 		buff_id = 200432,
-		name = "Framework of Logic –Support",
+		name = "Framework of Logic – Support",
 		type = 10,
 		iconSize = "",
 		id = 200432,
@@ -2284,7 +2284,7 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 	},
 	[200433] = {
 		buff_id = 200432,
-		name = "Framework of Logic –Support",
+		name = "Framework of Logic – Support",
 		type = 10,
 		iconSize = "",
 		id = 200433,
@@ -2294,7 +2294,7 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 	},
 	[200434] = {
 		buff_id = 200432,
-		name = "Framework of Logic –Support",
+		name = "Framework of Logic – Support",
 		type = 10,
 		iconSize = "",
 		id = 200434,
