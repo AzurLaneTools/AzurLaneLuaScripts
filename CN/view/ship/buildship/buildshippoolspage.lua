@@ -279,9 +279,9 @@ function slot0.UpdateTicket(slot0)
 		slot3 = {
 			type = DROP_TYPE_VITEM,
 			id = slot2:getConfig("config_client")[1],
-			count = slot2.data1
+			count = slot2.data1,
+			cfg = updateDropCfg(slot3)
 		}
-		slot3.cfg = Item.GetConfig(slot3.type, slot3.id)
 
 		setActive(slot0.freeCount:Find("tip"), slot2.stopTime - pg.TimeMgr.GetInstance():GetServerTime() < 259200 and slot3.count > 0)
 		LoadImageSpriteAtlasAsync(slot3.cfg.icon, "", slot0.freeCount:Find("icon"))

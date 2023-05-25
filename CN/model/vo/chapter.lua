@@ -2668,8 +2668,8 @@ function slot0.CheckChapterLose(slot0)
 			slot2 = slot2 or not _.any(slot0.fleets, function (slot0)
 				return slot0:getFleetType() == FleetType.Normal and slot0:isValid()
 			end)
-		elseif slot8.type == 2 then
-			slot3 = (slot2 or slot0.BaseHP <= 0) and ChapterConst.ReasonDefeatDefense
+		elseif slot8.type == 2 and (slot2 or slot0.BaseHP <= 0) then
+			slot3 = ChapterConst.ReasonDefeatDefense or slot3
 		end
 
 		if slot2 then

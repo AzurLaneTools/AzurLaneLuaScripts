@@ -403,6 +403,10 @@ function slot1.UnblurCamera(slot0, slot1, slot2)
 	end
 end
 
+function slot1.GetStaticRtt(slot0, slot1)
+	return ReflectionHelp.RefGetField(typeof("UnityStandardAssets.ImageEffects.BlurOptimized"), "staticRtt", slot0.cameraBlurs[slot1][uv0.OptimizedBlur])
+end
+
 function slot1.SetMainCamBlurTexture(slot0, slot1)
 	slot2 = slot0.mainCamera:GetComponent(typeof(Camera))
 	slot3 = ReflectionHelp.RefCallStaticMethod(typeof("UnityEngine.RenderTexture"), "GetTemporary", {

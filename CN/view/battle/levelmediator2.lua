@@ -1394,7 +1394,7 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 		slot1 = uv0:getEliteFleetList()[uv1]
 
 		if uv2 then
-			slot2 = table.indexof(slot1, uv2.id)
+			assert(table.indexof(slot1, uv2.id))
 
 			if slot0[1] then
 				slot1[slot2] = slot0[1]

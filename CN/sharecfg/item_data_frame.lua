@@ -63,6 +63,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>献给所有五年间持续奋斗在港区的指挥官们</color>\n通过参与五周年限定活动获取",
 		scene = {}
 	},
+	[108] = {
+		time_limit_type = 0,
+		name = "六周年纪念",
+		gain_by = "",
+		id = 108,
+		time_second = 0,
+		desc = "<color=#ffffff>献给所有六年间持续奋斗在港区的指挥官们</color>\n通过参与六周年限定活动获取",
+		scene = {}
+	},
 	[201] = {
 		time_limit_type = 0,
 		name = "限界的挑战者",
@@ -390,10 +399,10 @@ pg.item_data_frame = {
 	[325] = {
 		time_limit_type = 0,
 		name = "诺伦回廊",
-		gain_by = "",
+		gain_by = "空相交汇点",
 		id = 325,
 		time_second = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「在那预言之日，中庭将坠于烈焰与怒涛——」</color>\n「空相交汇点」活动获取",
 		scene = {}
 	},
 	[401] = {
@@ -468,6 +477,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>在炎炎夏日中感受片刻的清凉！</color>\n通过参与「啾啾冰淇淋」活动获取",
 		scene = {}
 	},
+	[602] = {
+		time_limit_type = 0,
+		name = "海风与夏日之证",
+		gain_by = "",
+		id = 602,
+		time_second = 0,
+		desc = "<color=#ffffff>尽情享受无人岛上的美好风光吧~！</color>\n通过参与六周年限定活动获取",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -476,6 +494,7 @@ pg.item_data_frame = {
 		104,
 		105,
 		107,
+		108,
 		201,
 		202,
 		203,
@@ -520,6 +539,7 @@ pg.item_data_frame = {
 		406,
 		407,
 		501,
-		601
+		601,
+		602
 	}
 }

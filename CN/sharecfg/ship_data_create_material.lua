@@ -208,7 +208,7 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 10,
 		icon = "build_4",
-		exchange_ship_id = 207071,
+		exchange_ship_id = 405051,
 		rate_tip = {
 			"<color=#ff5e39>海上传奇舰船</color>：1.2%",
 			"<color=#ffde38>超稀有舰船</color>：7%",
@@ -216,13 +216,13 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>稀有舰船</color>：51%",
 			"普通舰船：28.8%",
 			" ",
-			"<color=#ff5e39>怨仇</color>：1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>{namecode:514}</color>：1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>斯库拉</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:516}</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>皇家橡树</color>：0.5%",
+			"<color=#ffde38>{namecode:510}</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>百眼巨人</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>{namecode:515}</color>：0.5%"
 		}
 	},
 	{

@@ -48,6 +48,14 @@ pg.item_data_chat = {
 		desc = "献给所有五年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与五周年限定活动获取</color>",
 		scene = {}
 	},
+	[106] = {
+		time_limit_type = 0,
+		name = "六周年纪念",
+		id = 106,
+		time_second = 0,
+		desc = "献给所有六年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与六周年限定活动获取</color>",
+		scene = {}
+	},
 	[300] = {
 		time_limit_type = 1,
 		name = "召集者",
@@ -64,6 +72,14 @@ pg.item_data_chat = {
 		desc = "<color=#ffffff>指挥部欢迎您的归来，期待您今后的活跃</color>\n<color=#A7A7AAFF>有效期30天</color>",
 		scene = {}
 	},
+	[602] = {
+		time_limit_type = 0,
+		name = "绿野的余响",
+		id = 602,
+		time_second = 0,
+		desc = "献给所有六年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与六周年限定活动获取</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -71,7 +87,9 @@ pg.item_data_chat = {
 		103,
 		104,
 		105,
+		106,
 		300,
-		301
+		301,
+		602
 	}
 }

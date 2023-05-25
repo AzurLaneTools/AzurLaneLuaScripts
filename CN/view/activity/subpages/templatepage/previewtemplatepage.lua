@@ -7,6 +7,9 @@ end
 
 function slot0.OnFirstFlush(slot0)
 	slot0:initBtn()
+	eachChild(slot0.btnList, function (slot0)
+		uv0.btnFuncList[slot0.name](slot0)
+	end)
 end
 
 function slot0.initBtn(slot0)
@@ -20,7 +23,7 @@ function slot0.initBtn(slot0)
 
 	slot2 = slot0.activity
 	slot2 = slot2:getConfig("config_client")
-	slot3 = {
+	slot0.btnFuncList = {
 		task = function (slot0)
 			onButton(uv0, slot0, function ()
 				if uv0.taskLinkActID and uv1(uv0.taskLinkActID) then
@@ -90,27 +93,17 @@ function slot0.initBtn(slot0)
 			end)
 		end,
 		memory = function (slot0)
-			onButton(uv0, slot0, function ()
-			end)
 		end,
 		activity = function (slot0)
-			onButton(uv0, slot0, function ()
-			end)
 		end,
 		mountain = function (slot0)
-			onButton(uv0, slot0, function ()
-			end)
 		end,
 		skinshop = function (slot0)
 			onButton(uv0, slot0, function ()
-				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
+				uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
 			end)
 		end
 	}
-
-	eachChild(slot0.btnList, function (slot0)
-		uv0[slot0.name](slot0)
-	end)
 end
 
 return slot0

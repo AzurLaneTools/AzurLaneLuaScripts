@@ -335,7 +335,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 315
+		key_value = 351
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1911,7 +1911,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 316
+		key_value = 352
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2405,6 +2405,11 @@ pg.gameset = {
 					4,
 					100011,
 					1
+				},
+				{
+					2,
+					21000,
+					8
 				}
 			},
 			{
@@ -2713,5 +2718,9 @@ pg.gameset = {
 	series_enemy_multiple_limit = {
 		description = "",
 		key_value = 5
+	},
+	package_view_display = {
+		description = "",
+		key_value = 1
 	}
 }

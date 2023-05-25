@@ -29,18 +29,18 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		BattleResultMediator.ON_ENTER_BATTLE_RESULT,
-		BattleResultMediator.ON_COMPLETE_BATTLE_RESULT
+		NewBattleResultMediator.ON_ENTER_BATTLE_RESULT,
+		NewBattleResultMediator.ON_COMPLETE_BATTLE_RESULT
 	}
 end
 
 function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == BattleResultMediator.ON_ENTER_BATTLE_RESULT then
+	if slot1:getName() == NewBattleResultMediator.ON_ENTER_BATTLE_RESULT then
 		slot0:sendNotification(BattleResultMediator.SET_SKIP_FLAG, true)
 		slot0.viewComponent:OnEnterBattleResult()
-	elseif slot2 == BattleResultMediator.ON_COMPLETE_BATTLE_RESULT then
+	elseif slot2 == NewBattleResultMediator.ON_COMPLETE_BATTLE_RESULT then
 		slot0.viewComponent:AnimatingSlider()
 	end
 end

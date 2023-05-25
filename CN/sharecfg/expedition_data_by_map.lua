@@ -331,6 +331,12 @@ pg.expedition_data_by_map = setmetatable({
 		1710012,
 		1710025,
 		1710026,
+		1720001,
+		1720002,
+		1720011,
+		1720012,
+		1720025,
+		1720026,
 		2100000,
 		2100001,
 		2100010,
@@ -14976,6 +14982,442 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 1710012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1720001] = {
+		map = 1720001,
+		name = "空相交汇点·上行篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "main-arbitrationsystem-theme",
+		enter_story = "KONGXIANGJIAOHUIDIAN1",
+		ani_name = "Map_1720001",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4853,
+		ui_type = 5,
+		bg = "Map_1720005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1720011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1720003,
+					"red"
+				}
+			},
+			{
+				3,
+				{
+					1720003,
+					"blue"
+				}
+			},
+			{
+				2,
+				{
+					1720001,
+					"map_1720001"
+				}
+			},
+			{
+				2,
+				{
+					1720002,
+					"map_1720002"
+				}
+			},
+			{
+				2,
+				{
+					1720007,
+					"map_1720003"
+				}
+			},
+			{
+				2,
+				{
+					1720003,
+					"map_1720004"
+				}
+			}
+		}
+	},
+	[1720002] = {
+		map = 1720002,
+		name = "空相交汇点·下行篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-thedevilXV-control",
+		enter_story = "KONGXIANGJIAOHUIDIAN19",
+		ani_name = "Map_1720002",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4853,
+		ui_type = 5,
+		bg = "Map_1720009",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1720012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1720006,
+					"yuanhuan"
+				}
+			},
+			{
+				3,
+				{
+					1720006,
+					"yuanhuan_none"
+				}
+			},
+			{
+				1,
+				{
+					1720008,
+					"build_light_red"
+				}
+			},
+			{
+				2,
+				{
+					1720004,
+					"map_1720006"
+				}
+			},
+			{
+				2,
+				{
+					1720005,
+					"map_1720007"
+				}
+			},
+			{
+				2,
+				{
+					1720008,
+					"map_1720008"
+				}
+			}
+		}
+	},
+	[1720011] = {
+		map = 1720011,
+		name = "空相交汇点·上行篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "main-arbitrationsystem-theme",
+		enter_story = "KONGXIANGJIAOHUIDIAN1",
+		ani_name = "Map_1720001",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4853,
+		ui_type = 5,
+		bg = "Map_1720005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1720001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1720023,
+					"red"
+				}
+			},
+			{
+				3,
+				{
+					1720023,
+					"blue"
+				}
+			},
+			{
+				2,
+				{
+					1720021,
+					"map_1720001"
+				}
+			},
+			{
+				2,
+				{
+					1720022,
+					"map_1720002"
+				}
+			},
+			{
+				2,
+				{
+					1720027,
+					"map_1720003"
+				}
+			},
+			{
+				2,
+				{
+					1720023,
+					"map_1720004"
+				}
+			}
+		}
+	},
+	[1720012] = {
+		map = 1720012,
+		name = "空相交汇点·下行篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-thedevilXV-control",
+		enter_story = "KONGXIANGJIAOHUIDIAN19",
+		ani_name = "Map_1720002",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4853,
+		ui_type = 5,
+		bg = "Map_1720009",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1720002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1720026,
+					"yuanhuan"
+				}
+			},
+			{
+				3,
+				{
+					1720026,
+					"yuanhuan_none"
+				}
+			},
+			{
+				1,
+				{
+					1720028,
+					"build_light_red"
+				}
+			},
+			{
+				2,
+				{
+					1720024,
+					"map_1720006"
+				}
+			},
+			{
+				2,
+				{
+					1720025,
+					"map_1720007"
+				}
+			},
+			{
+				2,
+				{
+					1720028,
+					"map_1720008"
+				}
+			}
+		}
+	},
+	[1720025] = {
+		map = 1720025,
+		name = "空相交汇点·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-arbitrator-tower",
+		enter_story = "",
+		ani_name = "Map_1720003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4853,
+		ui_type = 5,
+		bg = "Map_1720011",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1720012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1720026] = {
+		map = 1720026,
+		name = "空相交汇点·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-arbitrator-tower",
+		enter_story = "",
+		ani_name = "Map_1720004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4853,
+		ui_type = 5,
+		bg = "Map_1720012",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1720012,
 		clouds_pos = {
 			{
 				332,

@@ -78,6 +78,38 @@ pg.benefit_buff_template = setmetatable({
 		102,
 		103,
 		104,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		121,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137,
+		138,
+		139,
+		140,
+		141,
 		300001,
 		300002,
 		300003,
@@ -1307,6 +1339,614 @@ pg.base.benefit_buff_template = {
 		id = 104,
 		type_priority = 0,
 		benefit_type = "character_strengthen_exp"
+	},
+	[110] = {
+		icon = "Props/xinshou",
+		name = "舰娘经验加成1",
+		hide = 1,
+		max_time = 0,
+		desc = "关卡中角色经验获取提高2%",
+		benefit_effect = "2",
+		id = 110,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				1
+			}
+		}
+	},
+	[111] = {
+		icon = "Props/xinshou",
+		name = "舰娘经验加成2",
+		hide = 1,
+		max_time = 0,
+		desc = "关卡中角色经验获取提高3%",
+		benefit_effect = "3",
+		id = 111,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				2
+			}
+		}
+	},
+	[112] = {
+		icon = "Props/xinshou",
+		name = "舰娘经验加成3",
+		hide = 1,
+		max_time = 0,
+		desc = "关卡中角色经验获取提高4%",
+		benefit_effect = "4",
+		id = 112,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				3
+			}
+		}
+	},
+	[113] = {
+		icon = "Props/xinshou",
+		name = "舰娘经验加成4",
+		hide = 1,
+		max_time = 0,
+		desc = "关卡中角色经验获取提高5%",
+		benefit_effect = "5",
+		id = 113,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				4
+			}
+		}
+	},
+	[114] = {
+		icon = "Props/buff_minigame_11",
+		name = "战斗伤害加成1",
+		hide = 1,
+		max_time = 0,
+		desc = "关卡中造成的伤害提高2%",
+		benefit_effect = "502",
+		id = 114,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				1
+			}
+		}
+	},
+	[115] = {
+		icon = "Props/buff_minigame_11",
+		name = "战斗伤害加成2",
+		hide = 1,
+		max_time = 0,
+		desc = "关卡中造成的伤害提高3%",
+		benefit_effect = "504",
+		id = 115,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				2
+			}
+		}
+	},
+	[116] = {
+		icon = "Props/buff_minigame_11",
+		name = "战斗伤害加成3",
+		hide = 1,
+		max_time = 0,
+		desc = "关卡中造成的伤害提高4%",
+		benefit_effect = "506",
+		id = 116,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				3
+			}
+		}
+	},
+	[117] = {
+		icon = "Props/buff_minigame_11",
+		name = "战斗伤害加成4",
+		hide = 1,
+		max_time = 0,
+		desc = "关卡中造成的伤害提高5%",
+		benefit_effect = "508",
+		id = 117,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				4
+			}
+		}
+	},
+	[118] = {
+		icon = "Props/buff_minigame_10",
+		name = "战术学院学习时间缩短1",
+		hide = 1,
+		max_time = 0,
+		desc = "战术学院技能学习时间减少2%",
+		benefit_effect = "200",
+		id = 118,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				1
+			}
+		}
+	},
+	[119] = {
+		icon = "Props/buff_minigame_10",
+		name = "战术学院学习时间缩短2",
+		hide = 1,
+		max_time = 0,
+		desc = "战术学院技能学习时间减少3%",
+		benefit_effect = "300",
+		id = 119,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				2
+			}
+		}
+	},
+	[120] = {
+		icon = "Props/buff_minigame_10",
+		name = "战术学院学习时间缩短3",
+		hide = 1,
+		max_time = 0,
+		desc = "战术学院技能学习时间减少4%",
+		benefit_effect = "400",
+		id = 120,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				3
+			}
+		}
+	},
+	[121] = {
+		icon = "Props/buff_minigame_10",
+		name = "战术学院学习时间缩短4",
+		hide = 1,
+		max_time = 0,
+		desc = "战术学院技能学习时间减少5%",
+		benefit_effect = "500",
+		id = 121,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				4
+			}
+		}
+	},
+	[122] = {
+		icon = "Props/buff_minigame_12",
+		name = "后宅经验加成1",
+		hide = 1,
+		max_time = 0,
+		desc = "后宅经验加成提高2%",
+		benefit_effect = "2",
+		id = 122,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				1
+			}
+		}
+	},
+	[123] = {
+		icon = "Props/buff_minigame_12",
+		name = "后宅经验加成2",
+		hide = 1,
+		max_time = 0,
+		desc = "后宅经验加成提高3%",
+		benefit_effect = "3",
+		id = 123,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				2
+			}
+		}
+	},
+	[124] = {
+		icon = "Props/buff_minigame_12",
+		name = "后宅经验加成3",
+		hide = 1,
+		max_time = 0,
+		desc = "后宅经验加成提高4%",
+		benefit_effect = "4",
+		id = 124,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				3
+			}
+		}
+	},
+	[125] = {
+		icon = "Props/buff_minigame_12",
+		name = "后宅经验加成4",
+		hide = 1,
+		max_time = 0,
+		desc = "后宅经验加成提高5%",
+		benefit_effect = "5",
+		id = 125,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				4
+			}
+		}
+	},
+	[126] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.1",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+0/探险队每日获取材料+0%",
+		benefit_effect = "0",
+		id = 126,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				23,
+				1
+			}
+		}
+	},
+	[127] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.2",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+1/探险队每日获取材料+10%",
+		benefit_effect = "10",
+		id = 127,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				23,
+				2
+			}
+		}
+	},
+	[128] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.3",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+2/探险队每日获取材料+20%",
+		benefit_effect = "20",
+		id = 128,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				23,
+				3
+			}
+		}
+	},
+	[129] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.4",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+3/探险队每日获取材料+30%",
+		benefit_effect = "30",
+		id = 129,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				23,
+				4
+			}
+		}
+	},
+	[130] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.1",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+0/探险队每日获取材料+0%",
+		benefit_effect = "0",
+		id = 130,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				24,
+				1
+			}
+		}
+	},
+	[131] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.2",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+1/探险队每日获取材料+10%",
+		benefit_effect = "10",
+		id = 131,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				24,
+				2
+			}
+		}
+	},
+	[132] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.3",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+2/探险队每日获取材料+20%",
+		benefit_effect = "20",
+		id = 132,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				24,
+				3
+			}
+		}
+	},
+	[133] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.4",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+3/探险队每日获取材料+30%",
+		benefit_effect = "30",
+		id = 133,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				24,
+				4
+			}
+		}
+	},
+	[134] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.1",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+0/探险队每日获取材料+0%",
+		benefit_effect = "0",
+		id = 134,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				25,
+				1
+			}
+		}
+	},
+	[135] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.2",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+1/探险队每日获取材料+10%",
+		benefit_effect = "10",
+		id = 135,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				25,
+				2
+			}
+		}
+	},
+	[136] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.3",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+2/探险队每日获取材料+20%",
+		benefit_effect = "20",
+		id = 136,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				25,
+				3
+			}
+		}
+	},
+	[137] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.4",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+3/探险队每日获取材料+30%",
+		benefit_effect = "30",
+		id = 137,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				25,
+				4
+			}
+		}
+	},
+	[138] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.1",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+0/探险队每日获取材料+0%",
+		benefit_effect = "0",
+		id = 138,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				26,
+				1
+			}
+		}
+	},
+	[139] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.2",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+1/探险队每日获取材料+10%",
+		benefit_effect = "10",
+		id = 139,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				26,
+				2
+			}
+		}
+	},
+	[140] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.3",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+2/探险队每日获取材料+20%",
+		benefit_effect = "20",
+		id = 140,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				26,
+				3
+			}
+		}
+	},
+	[141] = {
+		icon = "Props/xinshou",
+		name = "海岛内建筑lv.4",
+		hide = 1,
+		max_time = 0,
+		desc = "据点建设进度+3/探险队每日获取材料+30%",
+		benefit_effect = "30",
+		id = 141,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				26,
+				4
+			}
+		}
 	},
 	[300001] = {
 		icon = "Props/300001",

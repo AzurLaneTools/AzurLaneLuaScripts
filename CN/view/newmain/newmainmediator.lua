@@ -15,12 +15,8 @@ slot0.SKIP_INS = "NewMainMediator:SKIP_INS"
 slot0.SKIP_LOTTERY = "NewMainMediator:SKIP_LOTTERY"
 slot0.GO_SINGLE_ACTIVITY = "NewMainMediator:GO_SINGLE_ACTIVITY"
 slot0.REFRESH_VIEW = "NewMainMediator:REFRESH_VIEW"
-slot0.SKIP_DELEGATION = "NewMainMediator:SKIP_DELEGATION"
 
 function slot0.register(slot0)
-	slot0:bind(uv0.SKIP_DELEGATION, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.RYZA_TASK)
-	end)
 	slot0:bind(uv0.GO_SINGLE_ACTIVITY, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			mediator = ActivitySingleMediator,

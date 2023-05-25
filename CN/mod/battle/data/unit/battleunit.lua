@@ -117,10 +117,6 @@ function slot9.UpdatePhaseSwitcher(slot0)
 	end
 end
 
-function slot9.StateChange(slot0, slot1, slot2)
-	slot0._unitState:ChangeState(slot1, slot2)
-end
-
 function slot9.SetInterruptSickness(slot0, slot1)
 	slot0._isSickness = slot1
 end
@@ -354,6 +350,10 @@ function slot9.GetWeaponBoundBone(slot0)
 	return slot0._tmpData.bound_bone
 end
 
+function slot9.ActionKeyOffsetUseable(slot0)
+	return true
+end
+
 function slot9.RemoveRemoteBoundBone(slot0, slot1)
 	slot0._remoteBoundBone[slot1] = nil
 end
@@ -467,30 +467,6 @@ end
 
 function slot9.GetDeadFX(slot0)
 	return slot0._deadFX
-end
-
-function slot9.UpdateAction(slot0)
-	slot1 = slot0:GetSpeed().x * slot0._IFF
-
-	if slot0._oxyState and slot0._oxyState:GetCurrentDiveState() == uv0.OXY_STATE.DIVE then
-		if slot1 >= 0 then
-			slot0._unitState:ChangeState(uv1.STATE_DIVE)
-		else
-			slot0._unitState:ChangeState(uv1.STATE_DIVELEFT)
-		end
-	elseif slot1 >= 0 then
-		slot0._unitState:ChangeState(uv1.STATE_MOVE)
-	else
-		slot0._unitState:ChangeState(uv1.STATE_MOVELEFT)
-	end
-end
-
-function slot9.GetCurrentState(slot0)
-	return slot0._unitState:GetCurrentStateName()
-end
-
-function slot9.NeedWeaponCache(slot0)
-	return slot0._unitState:NeedWeaponCache()
 end
 
 function slot9.SetEquipment(slot0, slot1)
@@ -1104,6 +1080,44 @@ function slot9.GetPhaseSwitcher(slot0)
 	return slot0._phaseSwitcher
 end
 
+function slot9.StateChange(slot0, slot1, slot2)
+	slot0._unitState:ChangeState(slot1, slot2)
+end
+
+function slot9.UpdateAction(slot0)
+	slot1 = slot0:GetSpeed().x * slot0._IFF
+
+	if slot0._oxyState and slot0._oxyState:GetCurrentDiveState() == uv0.OXY_STATE.DIVE then
+		if slot1 >= 0 then
+			slot0._unitState:ChangeState(uv1.STATE_DIVE)
+		else
+			slot0._unitState:ChangeState(uv1.STATE_DIVELEFT)
+		end
+	elseif slot1 >= 0 then
+		slot0._unitState:ChangeState(uv1.STATE_MOVE)
+	else
+		slot0._unitState:ChangeState(uv1.STATE_MOVELEFT)
+	end
+end
+
+function slot9.SetActionKeyOffset(slot0, slot1)
+	slot0._actionKeyOffset = slot1
+
+	slot0._unitState:FreshActionKeyOffset()
+end
+
+function slot9.GetActionKeyOffset(slot0)
+	return slot0._actionKeyOffset
+end
+
+function slot9.GetCurrentState(slot0)
+	return slot0._unitState:GetCurrentStateName()
+end
+
+function slot9.NeedWeaponCache(slot0)
+	return slot0._unitState:NeedWeaponCache()
+end
+
 function slot9.CharacterActionTriggerCallback(slot0)
 	slot0._unitState:OnActionTrigger()
 end
@@ -1556,6 +1570,10 @@ end
 
 function slot9.GetAntiSubState(slot0)
 	return slot0._antiSubVigilanceState
+end
+
+function slot9.UpdateBlindInvisibleBySpectre(slot0)
+	slot0:SetBlindInvisible(slot0:IsSpectre())
 end
 
 function slot9.SetBlindInvisible(slot0, slot1)

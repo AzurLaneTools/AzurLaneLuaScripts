@@ -3,10 +3,10 @@ slot1 = "superburin"
 
 function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
-	slot0.items = uv0.Clone2Full(slot0:findTF("AD/list1"), 5)
+	slot0.items = CustomIndexLayer.Clone2Full(slot0:findTF("AD/list1"), 5)
 	slot5 = slot0:findTF("AD/list2")
 
-	table.insertto(slot0.items, uv0.Clone2Full(slot5, 5))
+	table.insertto(slot0.items, CustomIndexLayer.Clone2Full(slot5, 5))
 
 	slot0.selectIndex = 0
 	slot0.btnHelp = slot0.bg:Find("help_btn")
@@ -16,8 +16,8 @@ function slot0.OnInit(slot0)
 	slot0.leftTime = slot0.slider:Find("time")
 	slot0.loader = AutoLoader.New()
 
-	for slot5 = 1, #uv1 do
-		slot0.loader:GetSprite("ui/activityuipage/aprilfooldiscovery2023page_atlas", string.sub(uv1, slot5, slot5), slot0.items[slot5]:Find("character"))
+	for slot5 = 1, #uv0 do
+		slot0.loader:GetSprite("ui/activityuipage/aprilfooldiscovery2023page_atlas", string.sub(uv0, slot5, slot5), slot0.items[slot5]:Find("character"))
 	end
 
 	slot0._funcsLink = {}

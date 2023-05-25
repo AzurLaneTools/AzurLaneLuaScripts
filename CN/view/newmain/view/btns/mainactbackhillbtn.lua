@@ -42,6 +42,8 @@ function slot0.IsShowTip(slot0)
 			return SpringFestival2023Scene.IsShowMainTip(slot2)
 		elseif slot3 == SCENE.DOALINK_ISLAND then
 			return DOALinkIslandScene.IsShowMainTip(slot2)
+		elseif slot3 == SCENE.ANNIVERSARY_ISLAND_BACKHILL_2023 then
+			return AnniversaryIsland2023Scene.IsShowMainTip(slot2)
 		end
 	end
 end

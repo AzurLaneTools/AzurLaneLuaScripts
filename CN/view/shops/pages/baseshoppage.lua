@@ -83,7 +83,12 @@ end
 
 function slot0.UpdateCommodity(slot0, slot1, slot2)
 	slot0:SetShop(slot1)
-	slot0:OnUpdateCommodity(slot1:GetCommodityById(slot2))
+
+	if DROP_TYPE_SHIP == slot1:GetCommodityById(slot2):getConfig("commodity_type") then
+		slot0:OnUpdateAll()
+	else
+		slot0:OnUpdateCommodity(slot3)
+	end
 
 	slot4, slot5, slot6 = nil
 
@@ -114,10 +119,7 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 
 		if slot0:getConfig("commodity_type") == 4 or uv0.shop.type == ShopArgs.ShopActivity then
 			table.insert(slot3, function (slot0)
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("pt_reconfirm", uv0 or "??"),
-					onYes = slot0
-				})
+				uv0:TipPurchase(uv1, uv2, uv3, slot0)
 			end)
 		else
 			table.insert(slot3, function (slot0)
@@ -150,6 +152,13 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 			uv0(uv1, uv2)
 		end)
 	end)
+end
+
+function slot0.TipPurchase(slot0, slot1, slot2, slot3, slot4)
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		content = i18n("pt_reconfirm", slot3 or "??"),
+		onYes = slot4
+	})
 end
 
 function slot0.getSpecialRule(slot0, slot1)

@@ -22,5 +22,6 @@ pg.l2dhx = {
 	bulaimodun_4 = {},
 	bisimai_2 = {},
 	aijier_3 = {},
-	z23 = {}
+	z23 = {},
+	ankeleiqi_2 = {}
 }

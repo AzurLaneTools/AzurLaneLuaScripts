@@ -156,3 +156,18 @@ function mergeSort(slot0, slot1)
 		end
 	end)(1, #slot0)
 end
+
+function LineLine(slot0, slot1, slot2, slot3)
+	slot4 = false
+	slot5, slot6 = nil
+
+	if (slot3.y - slot2.y) * (slot1.x - slot0.x) - (slot3.x - slot2.x) * (slot1.y - slot0.y) ~= 0 then
+		slot6 = ((slot1.x - slot0.x) * (slot0.y - slot2.y) - (slot1.y - slot0.y) * (slot0.x - slot2.x)) / slot7
+
+		if ((slot3.x - slot2.x) * (slot0.y - slot2.y) - (slot3.y - slot2.y) * (slot0.x - slot2.x)) / slot7 >= 0 and slot5 <= 1 and slot6 >= 0 and slot6 <= 1 then
+			slot4 = true
+		end
+	end
+
+	return slot4, slot5, slot6
+end

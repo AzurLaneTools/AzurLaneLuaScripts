@@ -1305,6 +1305,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["输"] = {
+			["金"] = {
+				this = true
+			}
 		}
 	}
 end

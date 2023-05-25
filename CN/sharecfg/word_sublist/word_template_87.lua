@@ -690,6 +690,11 @@ function temp()
 			["槍"] = {
 				this = true
 			}
+		},
+		["模"] = {
+			["型"] = {
+				this = true
+			}
 		}
 	}
 end

@@ -17,6 +17,7 @@ pg.pay_data_display = {
 		limit_type = 1,
 		time = "always",
 		picture = "month",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi102",
 		first_pay_double = 0,
 		extra_service = 2,
@@ -58,7 +59,24 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		}
 	},
 	{
 		subject = "新手起航补给",
@@ -77,6 +95,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "boxNewplayer",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi101",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -113,7 +132,19 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				15003,
+				2
+			},
+			{
+				2,
+				20001,
+				2
+			}
+		}
 	},
 	{
 		subject = "钻石*60",
@@ -133,6 +164,7 @@ pg.pay_data_display = {
 		limit_type = 99,
 		time = "always",
 		picture = "1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi1",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -141,7 +173,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "钻石*300",
@@ -161,6 +194,7 @@ pg.pay_data_display = {
 		limit_type = 99,
 		time = "always",
 		picture = "2",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi2",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -169,7 +203,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "钻石*980",
@@ -189,6 +224,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "3",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi3",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -197,7 +233,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "钻石*1980",
@@ -217,6 +254,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "4",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi4",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -225,7 +263,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "钻石*3280",
@@ -245,6 +284,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "5",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi5",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -253,7 +293,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "钻石*6480",
@@ -273,6 +314,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "6",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi6",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -281,7 +323,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "新年福袋",
@@ -299,6 +342,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi103",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -381,7 +425,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40901,
+				1
+			}
+		}
 	},
 	[11] = {
 		subject = "国庆福袋",
@@ -399,6 +450,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi108",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -481,7 +533,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40902,
+				1
+			}
+		}
 	},
 	[12] = {
 		subject = "2019新年福袋",
@@ -499,6 +558,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi109",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -581,7 +641,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40903,
+				1
+			}
+		}
 	},
 	[13] = {
 		subject = "2019春节福袋",
@@ -599,6 +666,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi110",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -681,7 +749,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40904,
+				1
+			}
+		}
 	},
 	[14] = {
 		subject = "二周年礼盒",
@@ -699,6 +774,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe2_l",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi111",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -781,7 +857,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40905,
+				1
+			}
+		}
 	},
 	[15] = {
 		subject = "2019国庆礼盒",
@@ -799,6 +882,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe1_l",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi113",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -881,7 +965,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40906,
+				1
+			}
+		}
 	},
 	[16] = {
 		subject = "新年福袋2020",
@@ -899,6 +990,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi118",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -986,7 +1078,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40908,
+				1
+			}
+		}
 	},
 	[17] = {
 		subject = "新年福袋复刻(2019)",
@@ -1004,6 +1103,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi119",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1086,7 +1186,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40903,
+				1
+			}
+		}
 	},
 	[18] = {
 		subject = "春节福袋2020",
@@ -1104,6 +1211,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai2",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi120",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1191,7 +1299,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40909,
+				1
+			}
+		}
 	},
 	[19] = {
 		subject = "春节福袋复刻(2019)",
@@ -1209,6 +1324,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi121",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1291,7 +1407,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40904,
+				1
+			}
+		}
 	},
 	[20] = {
 		subject = "新晋指挥官支援包·I ",
@@ -1310,6 +1433,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao101",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1376,7 +1500,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40012,
+				1
+			}
+		}
 	},
 	[21] = {
 		subject = "新晋指挥官支援包·II ",
@@ -1395,6 +1526,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support2",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao102",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1486,7 +1618,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40013,
+				1
+			}
+		}
 	},
 	[22] = {
 		subject = "新晋指挥官支援包·III ",
@@ -1505,6 +1644,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support3",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao103",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1601,7 +1741,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40014,
+				1
+			}
+		}
 	},
 	[23] = {
 		subject = "三周年礼盒",
@@ -1619,6 +1766,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe4_l",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi122",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1706,7 +1854,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40910,
+				1
+			}
+		}
 	},
 	[24] = {
 		subject = "2020国庆礼盒",
@@ -1724,6 +1879,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi123",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1811,7 +1967,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40911,
+				1
+			}
+		}
 	},
 	[25] = {
 		subject = "新年福袋2021",
@@ -1829,6 +1992,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai3",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi124",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1916,7 +2080,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40912,
+				1
+			}
+		}
 	},
 	[26] = {
 		subject = "新年福袋复刻(2020)",
@@ -1934,6 +2105,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi125",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2021,7 +2193,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40908,
+				1
+			}
+		}
 	},
 	[27] = {
 		subject = "春节福袋2021",
@@ -2039,6 +2218,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai4",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi126",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2126,7 +2306,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40913,
+				1
+			}
+		}
 	},
 	[28] = {
 		subject = "春节福袋复刻(2020)",
@@ -2144,6 +2331,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai2",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi127",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2231,7 +2419,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40909,
+				1
+			}
+		}
 	},
 	[29] = {
 		subject = "四周年礼盒",
@@ -2249,6 +2444,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe5_l",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi128",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2336,7 +2532,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40914,
+				1
+			}
+		}
 	},
 	[30] = {
 		subject = "三周年礼盒复刻",
@@ -2354,6 +2557,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe4_l",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi129",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2441,7 +2645,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40910,
+				1
+			}
+		}
 	},
 	[31] = {
 		subject = "大型作战攻略支援包",
@@ -2460,6 +2671,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support4",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi130",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2546,7 +2758,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40015,
+				1
+			}
+		}
 	},
 	[32] = {
 		subject = "2021国庆礼盒",
@@ -2564,6 +2783,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe6_l",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi131",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2651,7 +2871,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40915,
+				1
+			}
+		}
 	},
 	[33] = {
 		subject = "国庆礼盒复刻(2020)",
@@ -2669,6 +2896,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi132",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2756,7 +2984,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40911,
+				1
+			}
+		}
 	},
 	[34] = {
 		subject = "新年福袋2022",
@@ -2774,6 +3009,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai6",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi133",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2861,7 +3097,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40916,
+				1
+			}
+		}
 	},
 	[35] = {
 		subject = "新年福袋复刻(2021)",
@@ -2879,6 +3122,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai3",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi134",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2966,7 +3210,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40912,
+				1
+			}
+		}
 	},
 	[36] = {
 		subject = "春节福袋2022",
@@ -2984,6 +3235,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai7",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi135",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3071,7 +3323,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40917,
+				1
+			}
+		}
 	},
 	[37] = {
 		subject = "春节福袋复刻(2021)",
@@ -3089,6 +3348,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai4",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi136",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3176,7 +3436,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40913,
+				1
+			}
+		}
 	},
 	[38] = {
 		subject = "五周年礼盒",
@@ -3194,6 +3461,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe7_l",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi137",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3281,7 +3549,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40919,
+				1
+			}
+		}
 	},
 	[39] = {
 		subject = "四周年礼盒复刻",
@@ -3299,6 +3574,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe5_l",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi138",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3386,7 +3662,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40914,
+				1
+			}
+		}
 	},
 	[40] = {
 		subject = "金秋庆典礼盒",
@@ -3404,6 +3687,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe8_l",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi139",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3491,7 +3775,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40920,
+				1
+			}
+		}
 	},
 	[41] = {
 		subject = "金秋庆典礼盒（2021）",
@@ -3509,6 +3800,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe6_l",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi140",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3596,7 +3888,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40915,
+				1
+			}
+		}
 	},
 	[44] = {
 		subject = "回归礼包",
@@ -3614,6 +3913,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "support6",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi141",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3741,7 +4041,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40921,
+				1
+			}
+		}
 	},
 	[45] = {
 		subject = "2023泳装礼盒·I",
@@ -3759,6 +4066,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe10_l",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi142",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3846,7 +4154,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40922,
+				1
+			}
+		}
 	},
 	[46] = {
 		subject = "2023泳装礼盒·II",
@@ -3864,6 +4179,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe11_l",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi143",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3951,7 +4267,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40923,
+				1
+			}
+		}
 	},
 	[47] = {
 		subject = "新年福袋2022",
@@ -3969,6 +4292,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai6",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi144",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4056,7 +4380,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40916,
+				1
+			}
+		}
 	},
 	[48] = {
 		subject = "2023年春节福袋·I",
@@ -4074,6 +4405,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudaiqp1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi145",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4161,7 +4493,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40924,
+				1
+			}
+		}
 	},
 	[49] = {
 		subject = "2023年春节福袋·II",
@@ -4179,6 +4518,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudaiqp2",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi146",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4266,7 +4606,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40925,
+				1
+			}
+		}
 	},
 	[50] = {
 		subject = "春节福袋复刻(2022)",
@@ -4284,6 +4631,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai7",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi147",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4371,7 +4719,127 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40917,
+				1
+			}
+		}
+	},
+	[51] = {
+		subject = "六周年泳装礼盒",
+		limit_group = 0,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		limit_arg = 1,
+		name = "六周年泳装礼盒",
+		name_display = "六周年泳装礼盒",
+		type_order = 2,
+		extra_gem = 0,
+		id = 51,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihecn6ss_l",
+		skin_inquire_relation = 69926,
+		id_str = "com.bilibili.blhx.zuanshi148",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond140",
+		extra_service_item = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					5,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40926,
+				1
+			}
+		}
 	},
 	[1000] = {
 		subject = "特许巡游凭证",
@@ -4389,6 +4857,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.battlepass1",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4444,7 +4913,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1001] = {
 		subject = "特许巡游凭证",
@@ -4462,6 +4932,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.battlepass2",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4517,7 +4988,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1002] = {
 		subject = "特许巡游凭证",
@@ -4535,6 +5007,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.battlepass3",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4590,7 +5063,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1003] = {
 		subject = "特许巡游凭证",
@@ -4608,6 +5082,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.battlepass4",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4663,7 +5138,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1004] = {
 		subject = "特许巡游凭证",
@@ -4681,6 +5157,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.battlepass5",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4736,7 +5213,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1005] = {
 		subject = "特许巡游凭证",
@@ -4754,6 +5232,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.battlepass6",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4809,7 +5288,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1006] = {
 		subject = "特许巡游凭证",
@@ -4827,6 +5307,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.battlepass7",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4882,7 +5363,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1007] = {
 		subject = "特许巡游凭证",
@@ -4900,6 +5382,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.battlepass8",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4955,7 +5438,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1008] = {
 		subject = "特许巡游凭证",
@@ -4973,6 +5457,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.battlepass9",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -5028,7 +5513,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1009] = {
 		subject = "特许巡游凭证",
@@ -5046,6 +5532,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.battlepass10",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -5101,7 +5588,83 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
+	},
+	[1010] = {
+		subject = "特许巡游凭证",
+		limit_group = 0,
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		type = 0,
+		limit_arg = 1,
+		name = "特许巡游凭证(2023.6)",
+		name_display = "特许巡游凭证",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1010,
+		money = 68,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.battlepass11",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·鸾限定换装和其他奖励",
+		airijp_id = "com.yostarjp.azurlane.seasonpass11",
+		extra_service_item = {
+			{
+				1,
+				4011,
+				1500
+			},
+			{
+				8,
+				59456,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4011,
+				1500
+			}
+		},
+		sub_display = {
+			7011,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
 	},
 	[2001] = {
 		subject = "最高方案研发礼包(一期)",
@@ -5120,6 +5683,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_display",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.keyan",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5156,7 +5720,8 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
-		}
+		},
+		drop_item = {}
 	},
 	[2002] = {
 		subject = "最高方案研发礼包(一期)高级版",
@@ -5175,6 +5740,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_promotion",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.keyan1",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5211,6 +5777,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40016,
+				1
+			}
 		}
 	},
 	[2003] = {
@@ -5230,6 +5803,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_normal",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.keyan2",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5256,6 +5830,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40017,
+				1
+			}
 		}
 	},
 	[2004] = {
@@ -5275,6 +5856,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_promotion",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.keyan3",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5301,6 +5883,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40018,
+				1
+			}
 		}
 	},
 	[2005] = {
@@ -5320,6 +5909,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_display",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.keyan",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5356,7 +5946,8 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
-		}
+		},
+		drop_item = {}
 	},
 	[2006] = {
 		subject = "最高方案研发礼包(二期)高级版",
@@ -5375,6 +5966,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_promotion",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.keyan4",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5411,6 +6003,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40019,
+				1
+			}
 		}
 	},
 	[2007] = {
@@ -5430,6 +6029,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_normal",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.keyan5",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5456,6 +6056,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40020,
+				1
+			}
 		}
 	},
 	[2008] = {
@@ -5475,6 +6082,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_promotion",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.keyan6",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5501,6 +6109,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40021,
+				1
+			}
 		}
 	},
 	[2009] = {
@@ -5520,6 +6135,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "lv_70",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao104",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5576,6 +6192,13 @@ pg.pay_data_display = {
 				"lv_70",
 				70
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40022,
+				1
+			}
 		}
 	},
 	[2010] = {
@@ -5594,6 +6217,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "boxSkill",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao105",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5676,7 +6300,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
 	},
 	[2011] = {
 		subject = "舰艇教材礼包",
@@ -5694,6 +6325,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "boxSkill",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao106",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5776,7 +6408,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
 	},
 	[2012] = {
 		subject = "冬至礼包1",
@@ -5794,6 +6433,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "dongzhi1",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao107",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5876,7 +6516,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40981,
+				1
+			}
+		}
 	},
 	[2013] = {
 		subject = "冬至礼包2",
@@ -5894,6 +6541,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "dongzhi2",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao108",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5976,7 +6624,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40983,
+				1
+			}
+		}
 	},
 	[2014] = {
 		subject = "舰艇教材礼包",
@@ -5994,6 +6649,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "boxSkill",
+		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao109",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -6076,7 +6732,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
 	},
 	all = {
 		1,
@@ -6126,6 +6789,7 @@ pg.pay_data_display = {
 		48,
 		49,
 		50,
+		51,
 		1000,
 		1001,
 		1002,
@@ -6136,6 +6800,7 @@ pg.pay_data_display = {
 		1007,
 		1008,
 		1009,
+		1010,
 		2001,
 		2002,
 		2003,

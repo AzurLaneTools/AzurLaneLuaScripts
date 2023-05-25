@@ -42,13 +42,23 @@ function slot0.isActivate(slot0)
 				slot1 = true
 			end
 		else
-			if slot0:getConfig("benefit_condition")[1] == "lv" then
-				slot1 = uv0(getProxy(PlayerProxy):getRawData().level, slot4[2], slot4[3])
-			end
+			slot1 = (function ()
+				if uv0:getConfig("benefit_condition")[1] == "lv" then
+					return uv1(getProxy(PlayerProxy):getRawData().level, slot0[2], slot0[3])
+				elseif slot0[1] == "activity" then
+					if slot0[3] == 0 then
+						return true
+					end
 
-			if slot4 == "" or slot4[1] == "activity" then
-				slot1 = true
-			end
+					if uv2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF or uv2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
+						return (uv2.data1KeyValueList[2][slot0[3][1]] or 1) == slot0[3][2]
+					end
+				end
+
+				if slot0 == "" then
+					return true
+				end
+			end)() or false
 		end
 	end
 

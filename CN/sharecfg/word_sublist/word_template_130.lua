@@ -11165,6 +11165,11 @@ function temp()
 					}
 				}
 			}
+		},
+		["帮"] = {
+			["挂"] = {
+				this = true
+			}
 		}
 	}
 end

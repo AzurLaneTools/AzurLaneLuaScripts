@@ -174,9 +174,9 @@ function slot0.UpdateView(slot0)
 	(function ()
 		slot0 = uv0.data1KeyValueList[2][17] or 1
 		slot1 = uv0.data1KeyValueList[2][18] or 1
-		slot3 = uv0.data1KeyValueList[1][pg.activity_event_building[17].material_id] or 0
-		uv1.Respones.royalmaidTip = slot0 < #slot2.buff and slot2.material[slot0] <= slot3 and slot0 <= slot1
-		uv1.Respones.ironbloodmaidTip = slot1 < slot4 and slot2.material[slot1] <= slot3 and slot1 <= slot0
+		slot4 = uv0.data1KeyValueList[1][pg.activity_event_building[17].material[1][1][2]] or 0
+		uv1.Respones.royalmaidTip = slot0 < #slot2.buff and slot2.material[slot0][1][3] <= slot4 and slot0 <= slot1
+		uv1.Respones.ironbloodmaidTip = slot1 < slot5 and slot2.material[slot1][1][3] <= slot4 and slot1 <= slot0
 	end)()
 
 	slot0.Respones.materialCount = slot1.data1KeyValueList[1][next(slot1.data1KeyValueList[1])] or 0

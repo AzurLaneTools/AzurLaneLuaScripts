@@ -430,7 +430,6 @@ function slot0.SetMinionAttr(slot0, slot1)
 	slot6.velocity = ys.Battle.BattleFormulas.ConvertShipSpeed(slot6.velocity)
 	slot6.baseVelocity = slot6.velocity
 	slot6.bulletSpeedRatio = 0
-	slot6.id = "minion_" .. tostring(slot4.id)
 	slot6.repressReduce = 1
 	slot6.healingRate = 1
 	slot6.comboTag = "combo_" .. slot6.battleUID

@@ -355,6 +355,8 @@ function slot0.ClearRequest(slot0, slot1, slot2)
 					print("AutoLoader Unload Spine: " .. slot3.name .. " ;")
 				elseif isa(slot3, uv3) then
 					print("AutoLoader Unload Atlas: " .. slot3.path .. " ;")
+				elseif isa(slot3, uv4) then
+					print("AutoLoader Unload Bundle: " .. slot3.path .. " ;")
 				else
 					print("AutoLoader Unload Path: " .. slot3.path .. " Name: " .. slot3.name .. " ;")
 				end

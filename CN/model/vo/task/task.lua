@@ -96,6 +96,10 @@ function slot0.getProgress(slot0)
 	return slot1 or 0
 end
 
+function slot0.getTargetNumber(slot0)
+	return slot0:getConfig("target_num")
+end
+
 function slot0.isReceive(slot0)
 	return slot0.submitTime > 0
 end

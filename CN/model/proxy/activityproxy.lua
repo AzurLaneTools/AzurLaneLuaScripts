@@ -423,6 +423,9 @@ function slot0.updateActivity(slot0, slot1)
 	slot0.data[slot1.id] = slot1
 
 	slot0.facade:sendNotification(uv0.ACTIVITY_UPDATED, slot1:clone())
+	slot0.facade:sendNotification(GAME.SYN_GRAFTING_ACTIVITY, {
+		id = slot1.id
+	})
 end
 
 function slot0.addActivity(slot0, slot1)
@@ -841,6 +844,18 @@ function slot0.GetExtraDataMember(slot0, slot1, slot2)
 	end
 
 	return slot0.extraDatas[slot1][slot2]
+end
+
+function slot0.GetTaskActivities(slot0)
+	table.Foreach(Activity.GetType2Class(), function (slot0, slot1)
+		if not isa(slot1, ITaskActivity) then
+			return
+		end
+
+		table.insertto(uv0, uv1:getActivitiesByType(slot0))
+	end)
+
+	return {}
 end
 
 return slot0

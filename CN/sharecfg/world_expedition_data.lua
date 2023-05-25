@@ -129306,6 +129306,10 @@ pg.world_expedition_data = {
 						17991
 					},
 					{
+						2,
+						21000
+					},
+					{
 						12,
 						103
 					},
@@ -129376,7 +129380,7 @@ pg.world_expedition_data = {
 			},
 			{
 				0,
-				1003617
+				1003618
 			}
 		},
 		phase_drop_display = {
@@ -129497,6 +129501,11 @@ pg.world_expedition_data = {
 						2,
 						17991,
 						1
+					},
+					{
+						2,
+						21000,
+						10
 					},
 					{
 						12,
@@ -132059,6 +132068,10 @@ pg.world_expedition_data = {
 						30914
 					},
 					{
+						2,
+						21000
+					},
+					{
 						12,
 						103
 					},
@@ -132109,7 +132122,7 @@ pg.world_expedition_data = {
 		phase_drop = {
 			{
 				7500,
-				1003609
+				1003619
 			},
 			{
 				5000,
@@ -132121,7 +132134,7 @@ pg.world_expedition_data = {
 			},
 			{
 				0,
-				1003612
+				1003620
 			}
 		},
 		phase_drop_display = {
@@ -132137,6 +132150,11 @@ pg.world_expedition_data = {
 						2,
 						54018,
 						4
+					},
+					{
+						2,
+						21000,
+						5
 					},
 					{
 						12,
@@ -132207,6 +132225,11 @@ pg.world_expedition_data = {
 						2,
 						30914,
 						1
+					},
+					{
+						2,
+						21000,
+						5
 					},
 					{
 						12,

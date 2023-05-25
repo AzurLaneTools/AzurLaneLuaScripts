@@ -90,8 +90,8 @@ function slot0.updateStatistics(slot0)
 		slot0:GetComponent("Image").color = Color.New(0, 0, 0)
 
 		if not IsNil(findTF(slot0, "layers")) then
-			for slot7 = 0, slot2.childCount - 1 do
-				slot2:GetChild(slot7):GetComponent("Image").color = Color.New(0, 0, 0)
+			for slot7 = 1, slot2:GetComponentsInChildren(typeof(Image)).Length do
+				slot3[slot7 - 1].color = Color.New(0, 0, 0)
 			end
 		end
 

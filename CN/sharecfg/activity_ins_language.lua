@@ -4044,7 +4044,49 @@ pg.activity_ins_language = setmetatable({
 		"ins_discuss_369_3",
 		"ins_reply_369_3_1",
 		"ins_op_369_1_1",
-		"op_reply_369_1_1"
+		"op_reply_369_1_1",
+		"ins_370",
+		"ins_discuss_370_1",
+		"ins_reply_370_1_1",
+		"ins_reply_370_1_2",
+		"ins_discuss_370_2",
+		"ins_reply_370_2_1",
+		"ins_discuss_370_3",
+		"ins_reply_370_3_1",
+		"ins_reply_370_3_2",
+		"ins_op_370_1_1",
+		"op_reply_370_1_1",
+		"ins_371",
+		"ins_discuss_371_1",
+		"ins_reply_371_1_1",
+		"ins_discuss_371_2",
+		"ins_reply_371_2_1",
+		"ins_reply_371_2_2",
+		"ins_reply_371_2_3",
+		"ins_discuss_371_3",
+		"ins_reply_371_3_1",
+		"ins_op_371_1_1",
+		"op_reply_371_1_1",
+		"ins_372",
+		"ins_discuss_372_1",
+		"ins_reply_372_1_1",
+		"ins_reply_372_1_2",
+		"ins_reply_372_1_3",
+		"ins_reply_372_1_4",
+		"ins_discuss_372_2",
+		"ins_reply_372_2_1",
+		"ins_op_372_1_1",
+		"op_reply_372_1_1",
+		"ins_373",
+		"ins_discuss_373_1",
+		"ins_reply_373_1_1",
+		"ins_discuss_373_2",
+		"ins_reply_373_2_1",
+		"ins_reply_373_2_2",
+		"ins_reply_373_2_3",
+		"ins_reply_373_2_4",
+		"ins_op_373_1_1",
+		"op_reply_373_1_1"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16077,105 +16119,231 @@ pg.base.activity_ins_language = {
 		value = "凭借勇者对宝箱的嗅觉哦~"
 	},
 	ins_367 = {
-		value = ""
+		value = "趁冬天结束前，堆一个雪人。"
 	},
 	ins_discuss_367_1 = {
-		value = ""
+		value = "哇！是雪人！……嗯？雪喵？"
 	},
 	ins_reply_367_1_1 = {
-		value = ""
+		value = "嗯，稍微做了一些设计上的构思……应该还不错吧？"
 	},
 	ins_reply_367_1_2 = {
-		value = ""
+		value = "回得好慢！"
 	},
 	ins_reply_367_1_3 = {
-		value = ""
+		value = "趁最后一场雪结束之前，来打雪仗吧！"
 	},
 	ins_reply_367_2_1 = {
-		value = ""
+		value = "要打雪仗吗？算我一个！"
 	},
 	ins_reply_367_2_2 = {
-		value = ""
+		value = "请对我的雪人手下留情……"
 	},
 	ins_discuss_367_3 = {
-		value = ""
+		value = "天气逐渐暖了，雪人也坚持不了太久了呢。"
 	},
 	ins_reply_367_3_1 = {
-		value = ""
+		value = "看着雪慢慢融化，也挺有意思的。"
 	},
 	ins_op_367_1_1 = {
-		value = ""
+		value = "很可爱！"
 	},
 	op_reply_367_1_1 = {
-		value = ""
+		value = "只要有耐心，谁都能堆出漂亮的雪人的，指挥官也可以试试？"
 	},
 	ins_368 = {
-		value = ""
+		value = "嗯哼，伪装效果还不错。"
 	},
 	ins_discuss_368_1 = {
-		value = ""
+		value = "伪装成路边的吉祥物摆设从而进行侦察吗，想法还可以！"
 	},
 	ins_reply_368_1_1 = {
-		value = ""
+		value = "看起来暖洋洋的，让人好想上去抱一下呢~"
 	},
 	ins_reply_368_1_2 = {
-		value = ""
+		value = "嗯……和我想要的效果貌似有一些出入呢……"
 	},
 	ins_discuss_368_2 = {
-		value = ""
+		value = "唔，为什么是雪人？"
 	},
 	ins_reply_368_2_1 = {
-		value = ""
+		value = "这边刚好有个雪人，凑在一起显得比较自然……"
 	},
 	ins_discuss_368_3 = {
-		value = ""
+		value = "可爱…不过，不会热吗？"
 	},
 	ins_reply_368_3_1 = {
-		value = ""
+		value = "对我来说，这点热根本不算什么！"
 	},
 	ins_discuss_368_4 = {
-		value = ""
+		value = "和我的雪人正好凑成一对了呢，真不错。"
 	},
 	ins_reply_368_4_1 = {
-		value = ""
+		value = "原来这个雪人是你堆的啊！"
 	},
 	ins_op_368_1_1 = {
-		value = ""
+		value = "从远处看，确实和场景融合在一起了。"
 	},
 	op_reply_368_1_1 = {
-		value = ""
+		value = "没错，要的就是这样的效果。"
 	},
 	ins_369 = {
-		value = ""
+		value = "就用这瓶伏特加庆祝春天的到来吧，同志们！"
 	},
 	ins_discuss_369_1 = {
-		value = ""
+		value = "说得好，同志！今天可要喝个痛快！"
 	},
 	ins_reply_369_1_1 = {
-		value = ""
+		value = "哼哼，这回一定要喝过你！"
 	},
 	ins_reply_369_1_2 = {
-		value = ""
+		value = "哈哈哈，随时奉陪！"
 	},
 	ins_discuss_369_2 = {
-		value = ""
+		value = "还真是闹腾啊。"
 	},
 	ins_reply_369_2_1 = {
-		value = ""
+		value = "塞瓦斯托波尔她没事吧？"
 	},
 	ins_reply_369_2_2 = {
-		value = ""
+		value = "应该没事，看她摇摇晃晃地回去了，现在大概…在为第二轮战斗做准备？"
 	},
 	ins_discuss_369_3 = {
-		value = ""
+		value = "果然开始融化了呢"
 	},
 	ins_reply_369_3_1 = {
-		value = ""
+		value = "可以说是被塞瓦斯托波尔的热情融化的？呵呵~"
 	},
 	ins_op_369_1_1 = {
-		value = ""
+		value = "没事吧……？"
 	},
 	op_reply_369_1_1 = {
+		value = "指挥官同志，你这小看人的说法是怎么回事！我当然好得很！"
+	},
+	ins_370 = {
+		value = ""
+	},
+	ins_discuss_370_1 = {
+		value = ""
+	},
+	ins_reply_370_1_1 = {
+		value = ""
+	},
+	ins_reply_370_1_2 = {
+		value = ""
+	},
+	ins_discuss_370_2 = {
+		value = ""
+	},
+	ins_reply_370_2_1 = {
+		value = ""
+	},
+	ins_discuss_370_3 = {
+		value = ""
+	},
+	ins_reply_370_3_1 = {
+		value = ""
+	},
+	ins_reply_370_3_2 = {
+		value = ""
+	},
+	ins_op_370_1_1 = {
+		value = ""
+	},
+	op_reply_370_1_1 = {
+		value = ""
+	},
+	ins_371 = {
+		value = ""
+	},
+	ins_discuss_371_1 = {
+		value = ""
+	},
+	ins_reply_371_1_1 = {
+		value = ""
+	},
+	ins_discuss_371_2 = {
+		value = ""
+	},
+	ins_reply_371_2_1 = {
+		value = ""
+	},
+	ins_reply_371_2_2 = {
+		value = ""
+	},
+	ins_reply_371_2_3 = {
+		value = ""
+	},
+	ins_discuss_371_3 = {
+		value = ""
+	},
+	ins_reply_371_3_1 = {
+		value = ""
+	},
+	ins_op_371_1_1 = {
+		value = ""
+	},
+	op_reply_371_1_1 = {
+		value = ""
+	},
+	ins_372 = {
+		value = ""
+	},
+	ins_discuss_372_1 = {
+		value = ""
+	},
+	ins_reply_372_1_1 = {
+		value = ""
+	},
+	ins_reply_372_1_2 = {
+		value = ""
+	},
+	ins_reply_372_1_3 = {
+		value = ""
+	},
+	ins_reply_372_1_4 = {
+		value = ""
+	},
+	ins_discuss_372_2 = {
+		value = ""
+	},
+	ins_reply_372_2_1 = {
+		value = ""
+	},
+	ins_op_372_1_1 = {
+		value = ""
+	},
+	op_reply_372_1_1 = {
+		value = ""
+	},
+	ins_373 = {
+		value = ""
+	},
+	ins_discuss_373_1 = {
+		value = ""
+	},
+	ins_reply_373_1_1 = {
+		value = ""
+	},
+	ins_discuss_373_2 = {
+		value = ""
+	},
+	ins_reply_373_2_1 = {
+		value = ""
+	},
+	ins_reply_373_2_2 = {
+		value = ""
+	},
+	ins_reply_373_2_3 = {
+		value = ""
+	},
+	ins_reply_373_2_4 = {
+		value = ""
+	},
+	ins_op_373_1_1 = {
+		value = ""
+	},
+	op_reply_373_1_1 = {
 		value = ""
 	}
 }

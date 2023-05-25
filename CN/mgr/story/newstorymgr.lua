@@ -260,6 +260,22 @@ function slot0.AutoPlay(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:Play(slot1, slot3, slot4, slot5)
 end
 
+function slot0.ForceAutoPlay(slot0, slot1, slot2, slot3, slot4)
+	slot0.autoPlayFlag = true
+
+	slot0:Play(slot1, function (slot0, slot1)
+		uv0(slot0, slot1, uv1.isAutoPlay)
+	end, slot3, slot4)
+end
+
+function slot0.ForceManualPlay(slot0, slot1, slot2, slot3, slot4)
+	slot0.banPlayFlag = true
+
+	slot0:Play(slot1, function (slot0, slot1)
+		uv0(slot0, slot1, uv1.isAutoPlay)
+	end, slot3, slot4)
+end
+
 function slot0.SeriesPlay(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 
@@ -359,12 +375,6 @@ function slot0.RegistSkipBtn(slot0)
 			return
 		end
 
-		if uv0.storyScript:GetAutoPlayFlag() then
-			uv0.storyScript:StopAutoPlay()
-			uv0.currPlayer:InterruptAutoPlay()
-			uv0:UpdateAutoBtn()
-		end
-
 		if uv0:IsReView() or uv0.storyScript:IsPlayed() or not uv0.storyScript:ShowSkipTip() then
 			uv1()
 
@@ -416,6 +426,9 @@ function slot0.RegistAutoBtn(slot0)
 
 		slot0.autoPlayFlag = false
 	end
+
+	slot0.banPlayFlag = false
+	slot0.isAutoPlay = slot1
 end
 
 function slot0.RegistRecordBtn(slot0)
@@ -500,16 +513,20 @@ function slot0.UpdateAutoBtn(slot0)
 
 	setActive(slot0.autoBtn:Find("sel"), slot1)
 	setActive(slot0.autoBtn:Find("unsel"), not slot1)
+
+	slot0.isAutoPlay = slot1
 end
 
 function slot0.Clear(slot0)
 	slot0.recordPanel:Hide()
 
 	slot0.autoPlayFlag = false
+	slot0.banPlayFlag = false
 
 	removeOnButton(slot0._go)
 	removeOnButton(slot0.skipBtn)
 	removeOnButton(slot0.recordBtn)
+	removeOnButton(slot0.autoBtn)
 
 	if isActive(slot0._go) then
 		pg.DelegateInfo.Dispose(slot0)
@@ -597,6 +614,10 @@ function slot0.IsPausing(slot0)
 end
 
 function slot0.IsAutoPlay(slot0)
+	if slot0.banPlayFlag then
+		return false
+	end
+
 	return getProxy(SettingsProxy):GetStoryAutoPlayFlag() or slot0.autoPlayFlag == true
 end
 

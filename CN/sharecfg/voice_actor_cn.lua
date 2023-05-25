@@ -1443,5 +1443,21 @@ pg.voice_actor_CN = {
 	{
 		code = 361,
 		actor_name = "衣川里佳"
+	},
+	{
+		code = 362,
+		actor_name = "冰青"
+	},
+	{
+		code = 363,
+		actor_name = "爱原亚里沙"
+	},
+	{
+		code = 364,
+		actor_name = "春野杏"
+	},
+	{
+		code = 365,
+		actor_name = "香月遥"
 	}
 }

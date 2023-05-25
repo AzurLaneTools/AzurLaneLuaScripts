@@ -89,6 +89,7 @@ function slot0.Flush(slot0, slot1)
 		slot0:FlushPainting(slot1)
 	else
 		slot0:FlushBG(slot1)
+		slot0:FlushPainting(slot1)
 	end
 
 	slot0:FlushPrice(slot1)
@@ -333,7 +334,7 @@ function slot0.FlushPainting(slot0, slot1)
 		slot2 = uv2
 	end
 
-	if slot0.paintingState and slot0.paintingState.state == slot2 and slot0.paintingState.id == slot1.id and slot0.paintingState.showBg == slot0.isToggleShowBg then
+	if slot0.paintingState and slot0.paintingState.state == slot2 and slot0.paintingState.id == slot1.id and slot0.paintingState.showBg == slot0.isToggleShowBg and slot0.paintingState.purchaseFlag == slot1.buyCount then
 		return
 	end
 
@@ -350,7 +351,8 @@ function slot0.FlushPainting(slot0, slot1)
 	slot0.paintingState = {
 		state = slot2,
 		id = slot1.id,
-		showBg = slot0.isToggleShowBg
+		showBg = slot0.isToggleShowBg,
+		purchaseFlag = slot1.buyCount
 	}
 end
 
@@ -400,6 +402,8 @@ function slot0.LoadMeshPainting(slot0, slot1, slot2)
 		if uv2.paintingState and uv2.paintingState.id ~= uv4.id then
 			uv2:ClearMeshPainting()
 		end
+
+		uv2:CheckShowShopHx(slot0.transform:Find("shop_hx"), uv4)
 	end)
 end
 
@@ -407,7 +411,10 @@ function slot0.ClearMeshPainting(slot0)
 	slot1 = slot0.paintingTF:Find("fitter")
 
 	if slot0.paintingName and slot1.childCount > 0 then
-		PoolMgr.GetInstance():ReturnPainting(slot0.paintingName, slot1:GetChild(0).gameObject)
+		slot2 = slot1:GetChild(0).gameObject
+
+		slot0:RevertShopHx(slot2.transform:Find("shop_hx"))
+		PoolMgr.GetInstance():ReturnPainting(slot0.paintingName, slot2)
 	end
 
 	slot0.paintingName = nil
@@ -437,12 +444,18 @@ function slot0.LoadL2dPainting(slot0, slot1)
 			uv0:ClearL2dPainting()
 		end
 
+		slot1 = slot0._tf:Find("Drawables/shop_hx")
+
+		uv0:CheckShowShopHxForL2d(slot0, uv1)
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 end
 
 function slot0.ClearL2dPainting(slot0)
 	if slot0.live2dChar then
+		slot1 = slot0.live2dChar._tf:Find("Drawables/shop_hx")
+
+		slot0:RevertShopHxForL2d(slot0.live2dChar)
 		slot0.live2dChar:Dispose()
 
 		slot0.live2dChar = nil
@@ -469,15 +482,55 @@ function slot0.LoadSpinePainting(slot0, slot1)
 			uv0:ClearSpinePainting()
 		end
 
+		uv0:CheckShowShopHx(slot0._tf:Find("shop_hx"), uv1)
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 end
 
 function slot0.ClearSpinePainting(slot0)
 	if slot0.spinePainting then
+		slot1 = slot0.spinePainting._tf:Find("shop_hx")
+
+		slot0:RevertShopHx(slot0.shopHx)
 		slot0.spinePainting:Dispose()
 
 		slot0.spinePainting = nil
+	end
+end
+
+function slot0.CheckShowShopHxForL2d(slot0, slot1, slot2)
+	if PLATFORM_CODE ~= PLATFORM_CH then
+		return
+	end
+
+	if not HXSet.isHx() then
+		return
+	end
+
+	slot1:changeParamaterValue("shophx", slot2.buyCount <= 0 and 1 or 0)
+end
+
+function slot0.RevertShopHxForL2d(slot0, slot1)
+	slot1:changeParamaterValue("shophx", 0)
+end
+
+function slot0.CheckShowShopHx(slot0, slot1, slot2)
+	if PLATFORM_CODE ~= PLATFORM_CH then
+		return
+	end
+
+	if not HXSet.isHx() then
+		return
+	end
+
+	if not IsNil(slot1) and slot2.buyCount <= 0 then
+		setActive(slot1, true)
+	end
+end
+
+function slot0.RevertShopHx(slot0, slot1)
+	if not IsNil(slot1) then
+		setActive(slot1, false)
 	end
 end
 

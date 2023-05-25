@@ -1939,6 +1939,17 @@ pg.fleet_tech_ship_class = {
 			40116
 		}
 	},
+	[40107] = {
+		shiptype = 1,
+		name = "1937J型",
+		nation = 4,
+		id = 40107,
+		t_level_1 = 118,
+		t_level = 6,
+		ships = {
+			40199
+		}
+	},
 	[40201] = {
 		shiptype = 2,
 		name = "柯尼斯堡级",
@@ -1983,7 +1994,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 119,
 		t_level = 6,
 		ships = {
-			40206
+			40206,
+			40210
 		}
 	},
 	[40205] = {
@@ -2179,6 +2191,17 @@ pg.fleet_tech_ship_class = {
 			40504
 		}
 	},
+	[40505] = {
+		shiptype = 5,
+		name = "俾斯麦Zwei",
+		nation = 4,
+		id = 40505,
+		t_level_1 = 1,
+		t_level = 9,
+		ships = {
+			40505
+		}
+	},
 	[40601] = {
 		shiptype = 6,
 		name = "威悉",
@@ -2198,7 +2221,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 125,
 		t_level = 4,
 		ships = {
-			40602
+			40602,
+			40603
 		}
 	},
 	[40701] = {
@@ -3028,6 +3052,248 @@ pg.fleet_tech_ship_class = {
 			90701
 		}
 	},
+	[970101] = {
+		shiptype = 1,
+		name = "猎人·META",
+		nation = 97,
+		id = 970101,
+		t_level_1 = 1,
+		t_level = 3,
+		ships = {
+			970101
+		}
+	},
+	[970102] = {
+		shiptype = 1,
+		name = "命运女神·META",
+		nation = 97,
+		id = 970102,
+		t_level_1 = 2,
+		t_level = 3,
+		ships = {
+			970102
+		}
+	},
+	[970201] = {
+		shiptype = 2,
+		name = "海伦娜·META",
+		nation = 97,
+		id = 970201,
+		t_level_1 = 2,
+		t_level = 1,
+		ships = {
+			970201
+		}
+	},
+	[970202] = {
+		shiptype = 2,
+		name = "孟菲斯·META",
+		nation = 97,
+		id = 970202,
+		t_level_1 = 1,
+		t_level = 2,
+		ships = {
+			970202
+		}
+	},
+	[970203] = {
+		shiptype = 2,
+		name = "谢菲尔德·META",
+		nation = 97,
+		id = 970203,
+		t_level_1 = 1,
+		t_level = 1,
+		ships = {
+			970203
+		}
+	},
+	[970204] = {
+		shiptype = 2,
+		name = "拉·加利索尼埃·META",
+		nation = 97,
+		id = 970204,
+		t_level_1 = 3,
+		t_level = 3,
+		ships = {
+			970204
+		}
+	},
+	[970301] = {
+		shiptype = 3,
+		name = "特伦托·META",
+		nation = 97,
+		id = 970301,
+		t_level_1 = 1,
+		t_level = 4,
+		ships = {
+			970301
+		}
+	},
+	[970401] = {
+		shiptype = 4,
+		name = "格奈森瑙·META",
+		nation = 97,
+		id = 970401,
+		t_level_1 = 4,
+		t_level = 3,
+		ships = {
+			970401
+		}
+	},
+	[970402] = {
+		shiptype = 4,
+		name = "沙恩霍斯特·META",
+		nation = 97,
+		id = 970402,
+		t_level_1 = 3,
+		t_level = 1,
+		ships = {
+			970402
+		}
+	},
+	[970403] = {
+		shiptype = 4,
+		name = "反击·META",
+		nation = 97,
+		id = 970403,
+		t_level_1 = 4,
+		t_level = 1,
+		ships = {
+			970403
+		}
+	},
+	[970404] = {
+		shiptype = 4,
+		name = "声望·META",
+		nation = 97,
+		id = 970404,
+		t_level_1 = 5,
+		t_level = 1,
+		ships = {
+			970404
+		}
+	},
+	[970501] = {
+		shiptype = 5,
+		name = "扶桑·META",
+		nation = 97,
+		id = 970501,
+		t_level_1 = 6,
+		t_level = 1,
+		ships = {
+			970501
+		}
+	},
+	[970502] = {
+		shiptype = 5,
+		name = "山城·META",
+		nation = 97,
+		id = 970502,
+		t_level_1 = 2,
+		t_level = 4,
+		ships = {
+			970502
+		}
+	},
+	[970503] = {
+		shiptype = 5,
+		name = "亚利桑那·META",
+		nation = 97,
+		id = 970503,
+		t_level_1 = 2,
+		t_level = 2,
+		ships = {
+			970503
+		}
+	},
+	[970504] = {
+		shiptype = 5,
+		name = "伊丽莎白女王·META",
+		nation = 97,
+		id = 970504,
+		t_level_1 = 5,
+		t_level = 3,
+		ships = {
+			970504
+		}
+	},
+	[970601] = {
+		shiptype = 6,
+		name = "飞鹰·META",
+		nation = 97,
+		id = 970601,
+		t_level_1 = 7,
+		t_level = 1,
+		ships = {
+			970601
+		}
+	},
+	[970602] = {
+		shiptype = 6,
+		name = "隼鹰·META",
+		nation = 97,
+		id = 970602,
+		t_level_1 = 8,
+		t_level = 1,
+		ships = {
+			970602
+		}
+	},
+	[970701] = {
+		shiptype = 7,
+		name = "飞龙·META",
+		nation = 97,
+		id = 970701,
+		t_level_1 = 9,
+		t_level = 1,
+		ships = {
+			970701
+		}
+	},
+	[970702] = {
+		shiptype = 7,
+		name = "皇家方舟·META",
+		nation = 97,
+		id = 970702,
+		t_level_1 = 10,
+		t_level = 1,
+		ships = {
+			970702
+		}
+	},
+	[970703] = {
+		shiptype = 7,
+		name = "苍龙·META",
+		nation = 97,
+		id = 970703,
+		t_level_1 = 3,
+		t_level = 4,
+		ships = {
+			970703
+		}
+	},
+	[970801] = {
+		shiptype = 8,
+		name = "U-556·META",
+		nation = 97,
+		id = 970801,
+		t_level_1 = 4,
+		t_level = 4,
+		ships = {
+			970801
+		}
+	},
+	[971201] = {
+		shiptype = 12,
+		name = "女灶神·META",
+		nation = 97,
+		id = 971201,
+		t_level_1 = 3,
+		t_level = 2,
+		ships = {
+			971201
+		}
+	},
 	all = {
 		10101,
 		10102,
@@ -3185,6 +3451,7 @@ pg.fleet_tech_ship_class = {
 		40104,
 		40105,
 		40106,
+		40107,
 		40201,
 		40202,
 		40203,
@@ -3206,6 +3473,7 @@ pg.fleet_tech_ship_class = {
 		40502,
 		40503,
 		40504,
+		40505,
 		40601,
 		40602,
 		40701,
@@ -3279,6 +3547,28 @@ pg.fleet_tech_ship_class = {
 		90302,
 		90401,
 		90501,
-		90701
+		90701,
+		970101,
+		970102,
+		970201,
+		970202,
+		970203,
+		970204,
+		970301,
+		970401,
+		970402,
+		970403,
+		970404,
+		970501,
+		970502,
+		970503,
+		970504,
+		970601,
+		970602,
+		970701,
+		970702,
+		970703,
+		970801,
+		971201
 	}
 }

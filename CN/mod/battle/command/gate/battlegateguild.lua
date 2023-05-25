@@ -89,14 +89,14 @@ function slot0.Exit(slot0, slot1)
 		uv0.statistics.mvpShipID = uv1
 		slot1, slot2 = uv2:GeneralLoot(slot0)
 
-		uv5.GeneralPlayerCosume(SYSTEM_GUILD, ys.Battle.BattleConst.BattleScore.C < uv3, uv6, slot0.player_exp, exFlag)
-		uv5.UpdateGuildBossMission()
+		uv6.GeneralPlayerCosume(SYSTEM_GUILD, ys.Battle.BattleConst.BattleScore.C < uv3, uv7, slot0.player_exp, exFlag)
+		uv6.UpdateGuildBossMission()
 		uv2:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = SYSTEM_GUILD,
 			statistics = uv0.statistics,
 			score = uv3,
 			drops = slot1,
-			commanderExps = uv2.GenerateCommanderExp(slot0, uv4),
+			commanderExps = uv2.GenerateCommanderExp(slot0, uv4, uv5:GetSubFleet()),
 			result = slot0.result,
 			extraDrops = slot2
 		})

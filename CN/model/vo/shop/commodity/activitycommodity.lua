@@ -23,16 +23,61 @@ function slot0.CheckArgLimit(slot0)
 		slot9 = slot7[2]
 		slot10 = slot7[3]
 
-		if slot7[1] == 1 then
+		if (slot7[1] == ShopArgs.LIMIT_ARGS_META_SHIP_EXISTENCE or slot8 == ShopArgs.LIMIT_ARGS_TRAN_ITEM_WHEN_FULL) and (slot10 or 1) == 1 then
 			if not (getProxy(BayProxy):getMetaShipByGroupId(slot9) ~= nil) then
-				return slot2, slot8, i18n("meta_shop_exchange_limit")
+				return slot2, slot8, i18n("meta_shop_exchange_limit"), slot9
+			end
+		elseif slot8 == ShopArgs.LIMIT_ARGS_SALE_START_TIME then
+			if not pg.TimeMgr.GetInstance():passTime(slot9) then
+				return slot2, slot8, i18n("meta_shop_exchange_limit_2"), slot9
 			end
 		elseif slot8 == "pass" and not (getProxy(ChapterProxy):getChapterById(slot9) and slot11:isClear()) then
-			return slot2, slot8, slot10
+			return slot2, slot8, slot10, slot9
 		end
 	end
 
 	return slot2
+end
+
+function slot1(slot0, slot1)
+	if getProxy(BayProxy):getMetaShipByGroupId(slot1) then
+		slot4 = slot2:getMetaCharacter():getSpecialMaterialInfoToMaxStar()
+		slot5 = getProxy(BagProxy):getItemCountById(slot4.itemID)
+
+		print(slot4, slot5)
+
+		return math.max(slot4.count - slot5, 0)
+	else
+		return slot0:getConfig("num_limit") - slot0.buyCount
+	end
+
+	return 0
+end
+
+function slot0.GetTranCntWhenFull(slot0, slot1)
+	slot3 = 0
+	slot4 = nil
+
+	if slot0:getConfig("limit_args") and slot2 ~= "" then
+		if #slot2 ~= 0 then
+			for slot8, slot9 in ipairs(slot2) do
+				slot11 = slot9[2]
+				slot12 = slot9[3]
+				slot13 = slot9[4]
+
+				if slot9[1] == ShopArgs.LIMIT_ARGS_TRAN_ITEM_WHEN_FULL and uv0(slot0, slot11) - slot1 < 0 then
+					slot3 = math.abs(slot15)
+					slot4 = {
+						type = slot13[1],
+						id = slot13[2],
+						count = slot13[3]
+					}
+				end
+			end
+		end
+	end
+
+	return slot3, slot4
 end
 
 function slot0.CheckTimeLimit(slot0)
@@ -88,18 +133,20 @@ function slot0.GetPurchasableCnt(slot0)
 		return getProxy(ShipSkinProxy):hasSkin(slot2) and 0 or 1
 	elseif slot1 == DROP_TYPE_FURNITURE then
 		return math.min(pg.furniture_data_template[slot2].count - getProxy(DormProxy):getRawData():GetOwnFurnitrueCount(slot2), slot0:getConfig("num_limit") - slot0.buyCount)
-	elseif slot0:getConfig("limit_args") and slot3 ~= "" and #slot3 > 0 and slot3[1] == 1 then
-		slot5 = slot3[3]
+	else
+		slot4 = nil
 
-		if getProxy(BayProxy):getMetaShipByGroupId(slot3[2]) then
-			slot8 = slot6:getMetaCharacter():getSpecialMaterialInfoToMaxStar()
+		if type(slot0:getConfig("limit_args")) == "table" then
+			slot4 = _.detect(slot3, function (slot0)
+				return slot0[1] == ShopArgs.LIMIT_ARGS_META_SHIP_EXISTENCE
+			end)
+		end
 
-			return math.max(slot8.count - getProxy(BagProxy):getItemCountById(slot8.itemID), 0)
+		if slot4 then
+			return uv0(slot0, slot4[2])
 		else
 			return slot0:getConfig("num_limit") - slot0.buyCount
 		end
-	else
-		return slot0:getConfig("num_limit") - slot0.buyCount
 	end
 end
 

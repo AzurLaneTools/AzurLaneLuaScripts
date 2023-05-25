@@ -20,6 +20,7 @@ function slot0.Ctor(slot0, slot1)
 
 	setActive(slot0.sellEndTag, false)
 
+	slot0.unexchangeTag = slot0.tr:Find("mask/tag/unexchange_tag")
 	slot0.countTF = findTF(slot0.tr, "item/consume/contain/Text"):GetComponent(typeof(Text))
 	slot0.discountTF = findTF(slot0.tr, "item/discount")
 
@@ -32,6 +33,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.limitCountTF = findTF(slot0.tr, "item/count_contain/count"):GetComponent(typeof(Text))
 	slot0.limitCountLabelTF = findTF(slot0.tr, "item/count_contain/label"):GetComponent(typeof(Text))
 	slot0.limitCountLabelTF.text = i18n("activity_shop_exchange_count")
+	slot0.tagImg = slot0.tr:Find("mask/tag"):GetComponent(typeof(Image))
 	slot0.limitPassTag = slot0.tr:Find("mask/tag/pass_tag")
 end
 
@@ -56,7 +58,25 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 			onButton(slot0, slot0.mask, function ()
 				pg.TipsMgr.GetInstance():ShowTips(i18n("eventshop_unlock_hint", uv0))
 			end, SFX_PANEL)
+		elseif slot8 == 1 or slot8 == 2 then
+			setText(slot0.unexchangeTag, slot9)
+
+			slot10 = ""
+
+			if slot8 == 1 then
+				slot10 = "LIMIT"
+			end
+
+			if slot8 == 2 then
+				slot10 = "LOCK"
+			end
+
+			setText(slot0.unexchangeTag:Find("sellout_tag_en"), slot10)
 		end
+	end
+
+	if slot0.unexchangeTag then
+		setActive(slot0.unexchangeTag, slot6)
 	end
 
 	updateDrop(slot0.itemTF, {
@@ -81,34 +101,24 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
-	slot10 = ""
+	slot0.resIconTF.sprite = GetSpriteFromAtlas(Item.GetIcon(slot1:getConfig("resource_category"), slot1:getConfig("resource_type")), "")
 	slot0.countTF.text = slot1:getConfig("resource_num")
 
-	if string.match(slot7 == DROP_TYPE_SKIN and (pg.ship_skin_template[slot8].name or "??") or slot9.cfg.name or "??", "(%d+)") then
+	if string.match(Item.GetName(slot7, slot8) or "??", "(%d+)") then
 		setText(slot0.nameTxt, shortenString(slot10, 5))
 	else
 		setText(slot0.nameTxt, shortenString(slot10, 6))
 	end
 
-	slot11 = nil
-
-	if slot1:getConfig("resource_category") == DROP_TYPE_RESOURCE then
-		slot11 = GetSpriteFromAtlas(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon, "")
-	elseif slot12 == DROP_TYPE_ITEM then
-		slot11 = GetSpriteFromAtlas(pg.item_data_statistics[slot1:getConfig("resource_type")].icon, "")
-	end
-
-	slot0.resIconTF.sprite = slot11
-
 	if slot1:getConfig("num_limit") == 0 then
 		slot0.limitCountTF.text = i18n("common_no_limit")
 	else
-		slot0.limitCountTF.text = math.max(slot1:GetPurchasableCnt(), 0) .. "/" .. slot13
+		slot0.limitCountTF.text = math.max(slot1:GetPurchasableCnt(), 0) .. "/" .. slot11
 	end
 
-	slot14 = uv0.Color[slot2] or uv0.DefaultColor
-	slot0.limitCountTF.color = slot3 or Color.New(unpack(slot14))
-	slot0.limitCountLabelTF.color = slot3 or Color.New(unpack(slot14))
+	slot12 = uv0.Color[slot2] or uv0.DefaultColor
+	slot0.limitCountTF.color = slot3 or Color.New(unpack(slot12))
+	slot0.limitCountLabelTF.color = slot3 or Color.New(unpack(slot12))
 	slot4 = slot4 or Color.New(0, 0, 0, 1)
 
 	if GetComponent(slot0.limitCountTF, typeof(Outline)) then

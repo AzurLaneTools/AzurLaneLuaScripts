@@ -346,27 +346,4 @@ function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.Clone2Full(slot0, slot1)
-	slot2 = {}
-	slot3 = slot0:GetChild(0)
-
-	for slot8 = 0, slot0.childCount - 1 do
-		table.insert(slot2, slot0:GetChild(slot8))
-	end
-
-	for slot8 = slot4, slot1 - 1 do
-		table.insert(slot2, tf(cloneTplTo(slot3, slot0)))
-	end
-
-	for slot8 = 0, slot0.childCount - 1 do
-		setActive(slot0:GetChild(slot8), slot8 < slot1)
-	end
-
-	for slot8 = slot4, slot1 + 1, -1 do
-		table.remove(slot2)
-	end
-
-	return slot2
-end
-
 return slot0

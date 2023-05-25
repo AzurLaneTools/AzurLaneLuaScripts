@@ -3,9 +3,15 @@ slot0.STATE_LOADING = 0
 slot0.STATE_INITED = 1
 slot0.STATE_DISPOSE = 2
 slot1 = nil
-slot0.DRAG_EVENT_ACTION = 1
-slot0.DRAG_Click_ACTION = 2
-slot2 = {
+slot2 = 5
+slot3 = 3
+slot4 = 0.3
+slot0.DRAG_TIME_ACTION = 1
+slot0.DRAG_CLICK_ACTION = 2
+slot0.DRAG_DOWN_ACTION = 3
+slot0.EVENT_ACTION_APPLY = "event action apply"
+slot0.EVENT_ACTION_ABLE = "event action able"
+slot5 = {
 	CubismParameterBlendMode.Override,
 	CubismParameterBlendMode.Additive,
 	CubismParameterBlendMode.Multiply
@@ -20,6 +26,7 @@ function slot0.GenerateData(slot0)
 			slot0.gyro = slot0:GetShipSkinConfig().gyro or 0
 			slot0.shipL2dId = slot0:GetShipSkinConfig().ship_l2d_id
 			slot0.position = slot1.position + BuildVector3(slot0:GetShipSkinConfig().live2d_offset)
+			slot0.l2dDragRate = slot0:GetShipSkinConfig().l2d_drag_rate
 		end,
 		GetShipName = function (slot0)
 			return slot0.ship:getPainting()
@@ -43,7 +50,7 @@ function slot0.GenerateData(slot0)
 	return slot1
 end
 
-function slot3(slot0)
+function slot6(slot0)
 	slot1 = slot0.live2dData:GetShipSkinConfig()
 	slot3 = slot1.lip_smoothing
 
@@ -56,7 +63,7 @@ function slot3(slot0)
 	end
 end
 
-function slot4(slot0)
+function slot7(slot0)
 	if slot0.live2dData:GetShipSkinConfig().l2d_para_range ~= nil and type(slot2) == "table" then
 		for slot6, slot7 in pairs(slot2) do
 			slot0.liveCom:SetParaRange(slot6, slot7)
@@ -64,12 +71,20 @@ function slot4(slot0)
 	end
 end
 
-function slot5(slot0, slot1, slot2)
+function slot8(slot0, slot1)
 	if slot0.enablePlayActions and #slot0.enablePlayActions > 0 and not table.contains(slot0.enablePlayActions, slot1) then
-		return
+		return false
 	end
 
 	if slot0.ignorePlayActions and #slot0.ignorePlayActions > 0 and table.contains(slot0.ignorePlayActions, slot1) then
+		return false
+	end
+
+	return true
+end
+
+function slot9(slot0, slot1, slot2)
+	if not uv0(slot0, slot1) then
 		return
 	end
 
@@ -81,79 +96,97 @@ function slot5(slot0, slot1, slot2)
 		slot1 = "main_3"
 	end
 
-	if not slot0.live2dAction or slot2 then
-		slot4 = uv0.action2Drags[slot1]
-
-		if uv0.action2Id[slot1] then
-			slot0.liveCom:SetAction(slot3)
-			slot0:live2dActionChange(true)
-		elseif slot4 then
-			slot0.liveCom:SetAction(slot4)
-			slot0:live2dActionChange(true)
-		end
+	if (not slot0.isPlaying or slot2) and uv1.action2Id[slot1] then
+		slot0.liveCom:SetAction(slot3)
+		slot0:live2dActionChange(true)
 	end
 end
 
-function slot6(slot0, slot1)
+function slot10(slot0, slot1)
 	slot0.liveCom:SetCenterPart("Drawables/TouchHead", Vector3.zero)
 
 	slot0.liveCom.DampingTime = 0.3
 end
 
-function slot7(slot0, slot1, slot2)
-	if slot1 == Live2D.DRAG_EVENT_ACTION then
-		slot4 = slot2.callback
+function slot11(slot0, slot1, slot2)
+	if slot1 == Live2D.EVENT_ACTION_APPLY then
+		uv0(slot0, slot2.action, slot2.focus or false)
+		slot0:applyActiveData(slot2.activeData)
 
-		uv0(slot0, slot2.action, false)
-		slot0:applyActiveData(slot2.active)
+		if slot2.callback then
+			slot4()
+		end
+	elseif slot1 == Live2D.EVENT_ACTION_ABLE then
+		if slot2.ableFlag then
+			slot0.enablePlayActions = {
+				"none action apply"
+			}
+		else
+			slot0.enablePlayActions = {}
+		end
+
+		if slot2.callback then
+			slot2.callback()
+		end
 	end
 end
 
-function slot8(slot0)
+function slot12(slot0)
 	if not slot0._l2dCharEnable then
 		return
 	end
 
 	slot1 = false
+	slot2 = ReflectionHelp.RefGetField(typeof(Live2dChar), "reactPos", slot0.liveCom)
 
-	for slot5 = 1, #slot0.drags do
-		if (slot0.drags[slot5]:getParameterValue() or slot0.drags[slot5].active) and slot0.drags[slot5].ignoreReact then
+	for slot6 = 1, #slot0.drags do
+		slot0.drags[slot6]:stepParameter()
+
+		slot8 = slot0.drags[slot6]:getParameter()
+
+		if (slot0.drags[slot6]:parameToTarget() or slot0.drags[slot6].active) and slot0.drags[slot6].ignoreReact then
 			slot1 = true
 		end
 
-		if slot6 then
-			slot0.liveCom:ChangeParameterData(slot0.drags[slot5].parameterCom, slot6)
+		if slot8 then
+			slot0.liveCom:ChangeParameterData(slot0.drags[slot6].parameterCom, slot8)
 		end
+
+		slot0.drags[slot6]:changeReactValue(slot2)
 	end
 
 	if slot1 ~= slot0.ignoreReact then
-		slot0.ignoreReact = slot1
-
-		slot0.liveCom:IgonreReactPos(slot0.ignoreReact)
+		slot0:setReactPos(slot1)
 	end
 end
 
-function slot9(slot0)
+function slot13(slot0)
 	slot0.drags = {}
 	slot0.dragParts = {}
-	slot0._l2dCharEnable = true
-	slot0._shopPreView = slot0.live2dData.shopPreView
 
 	for slot4 = 1, #uv0.assistantTouchParts do
 		table.insert(slot0.dragParts, uv0.assistantTouchParts[slot4])
 	end
+
+	slot0._l2dCharEnable = true
+	slot0._shopPreView = slot0.live2dData.shopPreView
 
 	for slot4, slot5 in ipairs(slot0.live2dData.shipL2dId) do
 		if pg.ship_l2d[slot5] and slot0:getDragEnable(slot6) then
 			if slot0.liveCom:GetCubismParameter(slot6.parameter) then
 				slot9 = Live2dDrag.New(slot6)
 
-				slot9:setParameterCom(slot8, function (slot0, slot1)
+				slot9:setParameterCom(slot8)
+				slot9:setEventCallback(function (slot0, slot1)
 					uv0(uv1, slot0, slot1)
 				end)
+				print(slot9.parameterName)
 				slot0.liveCom:AddParameterValue(slot9.parameterName, slot9.startValue, uv2[slot6.mode])
 				table.insert(slot0.drags, slot9)
-				table.insert(slot0.dragParts, slot9.drawAbleName)
+
+				if not table.contains(slot0.dragParts, slot9.drawAbleName) then
+					table.insert(slot0.dragParts, slot9.drawAbleName)
+				end
 			else
 				print(slot6.parameter .. "找不到这个参数")
 			end
@@ -166,8 +199,17 @@ function slot9(slot0)
 			return
 		end
 
-		if #uv0.drags > 0 and uv0.liveCom:GetDragPart() > 0 and uv0.liveCom:GetDragPart() - #uv1.assistantTouchParts > 0 and uv0.drags[slot0] then
-			uv0.drags[slot0]:startDrag(uv0.live2dAction)
+		if #uv0.drags > 0 and uv0.liveCom:GetDragPart() > 0 then
+			slot0 = uv0.liveCom:GetDragPart()
+			slot1 = uv0.dragParts[slot0]
+
+			if slot0 > 0 and slot1 then
+				for slot5, slot6 in ipairs(uv0.drags) do
+					if slot6.drawAbleName == slot1 then
+						slot6:startDrag()
+					end
+				end
+			end
 		end
 	end), System.Action(function ()
 		if not uv0._l2dCharEnable then
@@ -175,13 +217,16 @@ function slot9(slot0)
 		end
 
 		if uv0.drags and #uv0.drags > 0 then
-			for slot3 = 1, #uv0.drags do
-				uv0.drags[slot3]:stopDrag()
+			if uv0.liveCom:GetDragPart() > 0 then
+				slot1 = uv0.dragParts[slot0]
+			end
+
+			for slot4 = 1, #uv0.drags do
+				uv0.drags[slot4]:stopDrag()
 			end
 		end
 	end))
 
-	slot0.ignoreReact = false
 	slot0.timer = Timer.New(function ()
 		uv0(uv1)
 	end, 0.03333333333333333, -1)
@@ -189,7 +234,7 @@ function slot9(slot0)
 	slot0.timer:Start()
 end
 
-function slot10(slot0, slot1)
+function slot14(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 
@@ -239,15 +284,21 @@ function slot10(slot0, slot1)
 		slot0:changeParamaterValue("Paramring", 0)
 	end
 
-	uv1(slot0)
-	uv2(slot0)
-	uv3(slot0)
-
-	if slot0.live2dData.shipL2dId and #slot0.live2dData.shipL2dId > 0 then
-		uv4(slot0)
+	if slot0.live2dData.l2dDragRate and #slot0.live2dData.l2dDragRate > 0 then
+		slot0.liveCom.DragRateX = slot0.live2dData.l2dDragRate[1] * uv1
+		slot0.liveCom.DragRateY = slot0.live2dData.l2dDragRate[2] * uv2
+		slot0.liveCom.DampingTime = slot0.live2dData.l2dDragRate[3] * uv3
 	end
 
-	slot0.state = uv5.STATE_INITED
+	uv4(slot0)
+	uv5(slot0)
+	uv6(slot0)
+
+	if slot0.live2dData.shipL2dId and #slot0.live2dData.shipL2dId > 0 then
+		uv7(slot0)
+	end
+
+	slot0.state = uv8.STATE_INITED
 
 	if slot0.delayChangeParamater and #slot0.delayChangeParamater > 0 then
 		for slot6 = 1, #slot0.delayChangeParamater do
@@ -261,7 +312,8 @@ function slot10(slot0, slot1)
 
 	slot0.enablePlayActions = {}
 	slot0.ignorePlayActions = {}
-	slot0.idleIndex = 0
+
+	slot0:changeIdleIndex(0)
 end
 
 function slot0.Ctor(slot0, slot1, slot2)
@@ -294,13 +346,11 @@ function slot0.SetVisible(slot0, slot1)
 
 		onDelayTick(function ()
 			if not uv0._readlyToStop then
-				uv0.liveCom:IgonreReactPos(false)
+				uv0:setReactPos(false)
 			end
 		end, 1)
 	else
-		slot2 = slot0.liveCom
-
-		slot2:IgonreReactPos(true)
+		slot0:setReactPos(true)
 		slot0:Reset()
 		uv0(slot0, "idle", true)
 
@@ -315,8 +365,20 @@ function slot0.SetVisible(slot0, slot1)
 end
 
 function slot0.IgonreReactPos(slot0, slot1)
+	slot0:setReactPos(slot1)
+end
+
+function slot0.setReactPos(slot0, slot1)
 	if slot0.liveCom then
+		print("目光跟随flag当前 .." .. tostring(slot1))
+
+		slot0.ignoreReact = slot1
+
 		slot0.liveCom:IgonreReactPos(slot1)
+
+		if slot1 then
+			ReflectionHelp.RefSetField(typeof(Live2dChar), "inDrag", slot0.liveCom, false)
+		end
 	end
 end
 
@@ -379,6 +441,7 @@ end
 function slot0.applyActiveData(slot0, slot1)
 	slot3 = slot1.ignore
 	slot4 = slot1.idle
+	slot5 = nil
 
 	if slot1.enable and #slot2 >= 0 then
 		slot0.enablePlayActions = slot2
@@ -397,10 +460,16 @@ function slot0.changeIdleIndex(slot0, slot1)
 	slot0.idleIndex = slot1
 
 	slot0._animator:SetInteger("idle", slot1)
+
+	if slot0.drags then
+		for slot5 = 1, #slot0.drags do
+			slot0.drags[slot5]:setIdleIndex(slot1)
+		end
+	end
 end
 
 function slot0.live2dActionChange(slot0, slot1)
-	slot0.live2dAction = slot1
+	slot0.isPlaying = slot1
 
 	if slot0.drags and #slot0.drags > 0 then
 		for slot5 = 1, #slot0.drags do

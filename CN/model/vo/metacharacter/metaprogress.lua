@@ -191,10 +191,14 @@ function slot0.isPassType(slot0)
 	return slot0.metaType == MetaCharacterConst.Meta_Type_Pass
 end
 
+function slot0.isBuildType(slot0)
+	return slot0.metaType == MetaCharacterConst.Meta_Type_Build
+end
+
 function slot0.isInAct(slot0)
 	if slot0:isPtType() then
 		return WorldBossConst.IsCurrBoss(slot0.id)
-	elseif slot0:isPassType() then
+	elseif slot0:isPassType() or slot0:isBuildType() then
 		return getProxy(ActivityProxy):getActivityById(slot0:getConfig("activity_id")) and not slot2:isEnd()
 	end
 end
@@ -219,7 +223,7 @@ function slot0.isShow(slot0)
 	elseif slot1 then
 		if slot0:isPtType() and slot4 then
 			return true
-		elseif slot0:isPassType() then
+		elseif slot0:isPassType() or slot0:isBuildType() then
 			return true
 		else
 			return false
@@ -259,7 +263,7 @@ function slot0.setDataBeforeGet(slot0)
 		end
 	end
 
-	if slot0:isPassType() and not slot0.timeConfig and getProxy(ActivityProxy):getActivityById(slot0:getConfig("activity_id")) then
+	if (slot0:isPassType() or slot0:isBuildType()) and not slot0.timeConfig and getProxy(ActivityProxy):getActivityById(slot0:getConfig("activity_id")) then
 		slot0.timeConfig = {
 			slot2:getConfig("time")[2],
 			slot2:getConfig("time")[3]
