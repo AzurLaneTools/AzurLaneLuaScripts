@@ -24317,7 +24317,7 @@ _G.pg.base.gametip.meta_shop_exchange_limit_tip = {
 }
 
 _G.pg.base.gametip.meta_shop_exchange_limit_2_tip = {
-	tip = "You may purchase this in $1 year(s), $2 month(s), $3 day(s), $4 hour(s), $5 minute(s) and $6 second(s)."
+	tip = "You may purchase this after $1/$2/$3 $4H $5M $6S"
 }
 
 _G.pg.base.gametip.charge_tip_crusing_label = {
@@ -24325,23 +24325,23 @@ _G.pg.base.gametip.charge_tip_crusing_label = {
 }
 
 _G.pg.base.gametip.mktea_1 = {
-	tip = "The crafting of a fine tea begins with careful selection and harvesting."
+	tip = "The crafting of a fine tea begins with careful selection and harvesting."
 }
 
 _G.pg.base.gametip.mktea_2 = {
-	tip = "Spread out the tea leaves, steam them to extract the moisture, and let them soften."
+	tip = "Spread out the tea leaves, steam them to extract the moisture, and let them soften."
 }
 
 _G.pg.base.gametip.mktea_3 = {
-	tip = "In order to maintain the tea's fragrance, the process of fixation is an essential step."
+	tip = "In order to maintain the tea's fragrance, the process of fixation is an essential step."
 }
 
 _G.pg.base.gametip.mktea_4 = {
-	tip = "Place the processed tea leaves in a cool place, and spread them thinly to reabsorb moisture. After cooling, sieve off the tea powder, and winnow out any debris."
+	tip = "Place the processed tea leaves in a cool place, and spread them thinly to reabsorb moisture. After cooling, sieve off the tea powder, and winnow out any debris."
 }
 
 _G.pg.base.gametip.mktea_5 = {
-	tip = "Last is the pan-firing process, where the aroma and shape of the tea leaves are fried to an optimal state. The result is a smooth, bright green leaf."
+	tip = "Last is the pan-firing process, where the aroma and shape of the tea leaves are fried to an optimal state. The result is a smooth, bright green leaf."
 }
 
 _G.pg.base.gametip.random_skin_list_item_desc_label = {

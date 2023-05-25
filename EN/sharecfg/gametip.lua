@@ -21753,41 +21753,41 @@ cs.gametip = {
 	},
 	meta_shop_exchange_limit_2_tip = {
 		826125,
-		198,
+		143,
 		true
 	},
 	charge_tip_crusing_label = {
-		826323,
+		826268,
 		101,
 		true
 	},
 	mktea_1 = {
-		826424,
-		155,
+		826369,
+		144,
 		true
 	},
 	mktea_2 = {
-		826579,
-		169,
+		826513,
+		155,
 		true
 	},
 	mktea_3 = {
-		826748,
-		173,
+		826668,
+		159,
 		true
 	},
 	mktea_4 = {
-		826921,
-		260,
+		826827,
+		233,
 		true
 	},
 	mktea_5 = {
-		827181,
-		249,
+		827060,
+		222,
 		true
 	},
 	random_skin_list_item_desc_label = {
-		827430,
+		827282,
 		100,
 		true
 	}

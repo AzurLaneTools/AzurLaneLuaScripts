@@ -103,7 +103,7 @@ function slot0.OnCharge(slot0, slot1)
 		name = slot2:getConfig("name_display"),
 		tipExtra = i18n("charge_title_getitem"),
 		extraItems = slot3,
-		price = slot2:getConfig("money"),
+		price = usMoneyFormat(slot2:getConfig("money")),
 		isLocalPrice = slot2:IsLocalPrice(),
 		tagType = slot2:getConfig("tag"),
 		descExtra = slot2:getConfig("descrip_extra"),
