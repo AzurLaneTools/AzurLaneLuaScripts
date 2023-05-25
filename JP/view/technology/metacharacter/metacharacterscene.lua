@@ -111,8 +111,8 @@ function slot0.findUI(slot0)
 	slot3 = slot0:findTF("TipText2", slot0.storyInfoPanel)
 	slot0.storyNameText = slot0:findTF("StroyNameText", slot0.storyInfoPanel)
 	slot0.getShipBtn = slot0:findTF("FinishBtn", slot1)
-	slot0.buildPanel = slot0:findTF("BuildPanel", slot0.hidePanel)
-	slot0.buildBtn = slot0:findTF("BuildBtn", slot0.buildPanel)
+	slot0.goGetPanel = slot0:findTF("GoGetPanel", slot0.hidePanel)
+	slot0.goGetBtn = slot0:findTF("GoGetBtn", slot0.goGetPanel)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot4 = slot0:findTF("adapt", slot0.blurPanel)
 	slot0.backBtn = slot0:findTF("top/back", slot4)
@@ -149,8 +149,18 @@ function slot0.addListener(slot0)
 	onButton(slot0, slot0.indexBtn, function ()
 		uv0:openIndexLayer()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.buildBtn, function ()
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CRUSING)
+	onButton(slot0, slot0.goGetBtn, function ()
+		slot0 = uv0:getCurMetaProgressVO()
+		slot2 = slot0:isBuildType()
+
+		if slot0:isPassType() then
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CRUSING)
+		elseif slot2 then
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.GETBOAT, {
+				page = BuildShipScene.PAGE_BUILD,
+				projectName = BuildShipScene.PROJECTS.ACTIVITY
+			})
+		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.ptPreviewBtn, function ()
 		uv0:emit(MetaCharacterMediator.OPEN_PT_PREVIEW_LAYER, uv0:getCurMetaProgressVO())
@@ -315,6 +325,12 @@ function slot0.updateBannerTF(slot0, slot1, slot2, slot3)
 		setScrollText(slot11, slot10)
 		setActive(slot11, true)
 
+		slot11 = slot0:findTF("Empty/PassType/ShipNameMask/ShipNameText", slot5)
+
+		setText(slot11, slot10)
+		setScrollText(slot11, slot10)
+		setActive(slot11, true)
+
 		slot11 = slot0:findTF("Active/ActType/ShipNameMask/ShipNameText", slot5)
 
 		setText(slot11, slot10)
@@ -322,6 +338,12 @@ function slot0.updateBannerTF(slot0, slot1, slot2, slot3)
 		setActive(slot11, true)
 
 		slot11 = slot0:findTF("Active/BuildType/ShipNameMask/ShipNameText", slot5)
+
+		setText(slot11, slot10)
+		setScrollText(slot11, slot10)
+		setActive(slot11, true)
+
+		slot11 = slot0:findTF("Active/PassType/ShipNameMask/ShipNameText", slot5)
 
 		setText(slot11, slot10)
 		setScrollText(slot11, slot10)
@@ -342,71 +364,75 @@ function slot0.updateBannerTF(slot0, slot1, slot2, slot3)
 
 		slot10 = slot1:isPtType()
 		slot11 = slot1:isPassType()
+		slot12 = slot1:isBuildType()
 
 		if not slot9 then
-			slot12 = slot0:findTF("Empty/ActType", slot5)
-			slot13 = slot0:findTF("Empty/BuildType", slot5)
+			slot13 = slot0:findTF("Empty/ActType", slot5)
+			slot14 = slot0:findTF("Empty/BuildType", slot5)
+			slot15 = slot0:findTF("Empty/PassType", slot5)
 
-			setActive(slot12, slot10)
-			setActive(slot13, slot11)
+			setActive(slot13, slot10)
+			setActive(slot14, slot12)
+			setActive(slot15, slot11)
 
-			slot14, slot15 = slot1:getBannerPathAndName()
+			slot16, slot17 = slot1:getBannerPathAndName()
+			slot18 = LoadSprite(slot16, slot17)
 
-			setImageSprite(slot12, LoadSprite(slot14, slot15))
-			setImageSprite(slot13, LoadSprite(slot14, slot15))
+			setImageSprite(slot13, slot18)
+			setImageSprite(slot14, slot18)
+			setImageSprite(slot15, slot18)
 
 			if slot10 then
-				setText(slot0:findTF("NumText", slot12), string.format("%d", slot1:getSynRate() * 100) .. "%")
+				setText(slot0:findTF("NumText", slot13), string.format("%d", slot1:getSynRate() * 100) .. "%")
 
-				slot18 = slot0:findTF("Slider", slot12)
+				slot21 = slot0:findTF("Slider", slot13)
 
-				setSlider(slot18, 0, 1, slot1:getSynRate())
-				setActive(slot18, false)
+				setSlider(slot21, 0, 1, slot1:getSynRate())
+				setActive(slot21, false)
 			end
 
-			slot17 = Ship.New({
+			slot20 = Ship.New({
 				configId = pg.ship_strengthen_meta[slot1.configId].ship_id
 			})
-			slot19 = slot17:getStar()
-			slot22 = UIItemList.New(slot0:findTF("Empty/Stars", slot5), slot0:findTF("Empty/StarTpl", slot5))
+			slot22 = slot20:getStar()
+			slot25 = UIItemList.New(slot0:findTF("Empty/Stars", slot5), slot0:findTF("Empty/StarTpl", slot5))
 
-			slot22:make(function (slot0, slot1, slot2)
+			slot25:make(function (slot0, slot1, slot2)
 				if slot0 == UIItemList.EventUpdate then
 					setActive(uv0:findTF("On", slot2), slot1 + 1 <= uv1)
 				end
 			end)
-			slot22:align(slot17:getMaxStar())
+			slot25:align(slot20:getMaxStar())
 		else
-			slot13 = slot0:findTF("Active/BuildType", slot5)
-
 			setActive(slot0:findTF("Active/ActType", slot5), slot10)
-			setActive(slot13, slot11)
+			setActive(slot0:findTF("Active/BuildType", slot5), slot12)
+			setActive(slot0:findTF("Active/PassType", slot5), slot11)
 
-			slot14, slot15 = slot1:getBannerPathAndName()
+			slot16, slot17 = slot1:getBannerPathAndName()
+			slot18 = LoadSprite(slot16, slot17)
 
-			setImageSprite(slot0:findTF("Active", slot5), LoadSprite(slot14, slot15))
-			setImageSprite(slot13, LoadSprite(slot14, slot15))
+			setImageSprite(slot0:findTF("Active", slot5), LoadSprite(slot16, slot17))
 
-			slot17 = slot1:getShip():getMetaCharacter()
+			slot20 = slot1:getShip():getMetaCharacter()
 
 			if slot10 then
-				setText(slot0:findTF("NumText", slot12), string.format("%d", slot17:getRepairRate() * 100) .. "%")
+				setText(slot0:findTF("NumText", slot13), string.format("%d", slot20:getRepairRate() * 100) .. "%")
 
-				slot20 = slot0:findTF("Slider", slot12)
+				slot23 = slot0:findTF("Slider", slot13)
 
-				setSlider(slot20, 0, 1, slot17:getRepairRate())
-				setActive(slot20, false)
+				setSlider(slot23, 0, 1, slot20:getRepairRate())
+				setActive(slot23, false)
 			end
 
-			slot19 = slot16:getStar()
-			slot22 = UIItemList.New(slot0:findTF("Active/Stars", slot5), slot0:findTF("Active/StarTpl", slot5))
+			slot22 = slot19:getStar()
+			slot25 = UIItemList.New(slot0:findTF("Active/Stars", slot5), slot0:findTF("Active/StarTpl", slot5))
 
-			slot22:make(function (slot0, slot1, slot2)
+			slot25:make(function (slot0, slot1, slot2)
 				if slot0 == UIItemList.EventUpdate then
 					setActive(uv0:findTF("On", slot2), slot1 + 1 <= uv1)
 				end
 			end)
-			slot22:align(slot16:getMaxStar())
+			slot25:align(slot19:getMaxStar())
 		end
 	end
 
@@ -518,14 +544,12 @@ function slot0.updateMain(slot0, slot1)
 
 	setActive(slot0.menuPanel, slot3)
 	setActive(slot0.ptPanel, not slot3)
-	setActive(slot0.buildPanel, not slot3)
+	setActive(slot0.goGetPanel, not slot3)
 	slot0:updateActTimePanel()
 
 	if not slot3 then
-		slot4 = slot2:isPtType()
-
-		setActive(slot0.ptPanel, slot4)
-		setActive(slot0.buildPanel, slot2:isPassType())
+		setActive(slot0.ptPanel, slot2:isPtType())
+		setActive(slot0.goGetPanel, slot2:isPassType() or slot2:isBuildType())
 
 		if slot4 then
 			slot0:updatePTPanel(slot1)
@@ -927,21 +951,27 @@ end
 
 function slot0.getMetaProgressListForShow(slot0)
 	slot1 = {}
-	slot3, slot4 = nil
+	slot3, slot4, slot5 = nil
 
-	for slot8, slot9 in ipairs(slot0.metaCharacterProxy:getMetaProgressVOList()) do
-		slot11 = MetaCharacterConst.filteMetaByRarity(slot9, slot0.indexDatas.rarityIndex)
-		slot12 = MetaCharacterConst.filteMetaExtra(slot9, slot0.indexDatas.extraIndex)
+	for slot9, slot10 in ipairs(slot0.metaCharacterProxy:getMetaProgressVOList()) do
+		slot12 = MetaCharacterConst.filteMetaByRarity(slot10, slot0.indexDatas.rarityIndex)
+		slot13 = MetaCharacterConst.filteMetaExtra(slot10, slot0.indexDatas.extraIndex)
 
-		if MetaCharacterConst.filteMetaByType(slot9, slot0.indexDatas.typeIndex) and slot11 and slot12 and slot9:isShow() then
-			if slot9:isPtType() and slot9:isInAct() then
-				slot3 = slot9
-			elseif slot9:isPassType() and slot9:isInAct() then
-				slot4 = slot9
+		if MetaCharacterConst.filteMetaByType(slot10, slot0.indexDatas.typeIndex) and slot12 and slot13 and slot10:isShow() then
+			if slot10:isPtType() and slot10:isInAct() then
+				slot3 = slot10
+			elseif slot10:isPassType() and slot10:isInAct() then
+				slot4 = slot10
+			elseif slot10:isBuildType() and slot10:isInAct() then
+				slot5 = slot10
 			else
-				table.insert(slot1, slot9)
+				table.insert(slot1, slot10)
 			end
 		end
+	end
+
+	if slot5 then
+		table.insert(slot1, 1, slot5)
 	end
 
 	if slot4 then

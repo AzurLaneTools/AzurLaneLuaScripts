@@ -5,7 +5,7 @@ function slot0.OnInit(slot0)
 	slot0.btn = slot0:findTF("battle_btn", slot0.bg)
 	slot0.tip = slot0:findTF("help", slot0.bg)
 	slot0.mainAward = slot0:findTF("award", slot0.bg)
-	slot0.subAwards = slot0:Clone2Full(slot0:findTF("list", slot0.bg), 7)
+	slot0.subAwards = CustomIndexLayer.Clone2Full(slot0:findTF("list", slot0.bg), 7)
 	slot0.step = slot0:findTF("receivetimes", slot0.bg)
 	slot0.score = slot0:findTF("highscore", slot0.bg)
 end
@@ -81,21 +81,6 @@ function slot0.OnUpdateFlush(slot0)
 
 	setText(slot0.step, slot1.data2)
 	setText(slot0.score, slot1.data1_list[1])
-end
-
-function slot0.Clone2Full(slot0, slot1, slot2)
-	slot3 = {}
-	slot4 = slot1:GetChild(0)
-
-	for slot9 = 0, slot1.childCount - 1 do
-		table.insert(slot3, slot1:GetChild(slot9))
-	end
-
-	for slot9 = slot5, slot2 - 1 do
-		table.insert(slot3, tf(cloneTplTo(slot4, slot1)))
-	end
-
-	return slot3
 end
 
 return slot0

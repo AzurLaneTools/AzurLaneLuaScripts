@@ -183,6 +183,15 @@ pg.settings_other_template = {
 		title = "ケッコン済艦船名特殊表示",
 		desc = "ONにすると、ドックでケッコン済みの艦船の名前の文字色が変更されます"
 	},
+	{
+		default = 0,
+		name = "BATTLERESULT_SKIP_DISPAY_PAINTING",
+		type = 0,
+		alignment = 0,
+		id = 17,
+		title = "戦闘結果演出簡略化",
+		desc = "ONにすると、戦闘結果画面の一部演出がスキップされます"
+	},
 	all = {
 		1,
 		2,
@@ -199,6 +208,7 @@ pg.settings_other_template = {
 		13,
 		14,
 		15,
-		16
+		16,
+		17
 	}
 }

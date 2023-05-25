@@ -51,7 +51,7 @@ function slot0.UpdateEggCell(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	if slot7 then
-		StaticEggCellView.RefreshEnemyTplIcons(slot0, slot3, slot1)
+		EnemyCellView.RefreshEnemyTplIcons(slot0, slot3, slot1)
 	end
 
 	slot0:SetActive(slot7)
@@ -65,45 +65,7 @@ function slot0.UpdateEggCell(slot0, slot1, slot2, slot3, slot4)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_ENEMY)
 	end
 
-	uv0.RefreshEnemyTplIcons(slot0, slot3, slot1, slot2)
 	existCall(slot4)
-end
-
-function slot0.RefreshEnemyTplIcons(slot0, slot1, slot2, slot3)
-	slot4 = slot0.tfBufficons
-	slot5 = {}
-
-	if slot1.icon_type == 1 then
-		if ChapterConst.EnemySize[slot1.type] == 1 or not ChapterConst.EnemySize[slot7] then
-			table.insert(slot5, "xiao")
-		elseif ChapterConst.EnemySize[slot7] == 2 then
-			table.insert(slot5, "zhong")
-		elseif ChapterConst.EnemySize[slot7] == 3 then
-			table.insert(slot5, "da")
-		end
-	end
-
-	if slot1.bufficon and #slot1.bufficon > 0 then
-		table.insertto(slot5, slot1.bufficon)
-	end
-
-	slot11 = slot3.row
-
-	function slot10(slot0)
-		return slot0 == ChapterConst.FlagWeatherFog
-	end
-
-	_.each(_.filter(slot2:GetWeather(slot11, slot3.column), slot10), function (slot0)
-		table.insert(uv0, pg.weather_data_template[slot0].buff_icon)
-	end)
-	setActive(slot4, true)
-	LevelGrid.AlignListContainer(slot4, #slot5)
-
-	for slot10, slot11 in ipairs(slot5) do
-		if #slot11 > 0 then
-			slot0:GetLoader():GetSpriteQuiet("ui/share/ship_gizmos_atlas", slot11, slot4:GetChild(slot10 - 1))
-		end
-	end
 end
 
 return slot0

@@ -368,6 +368,11 @@ function slot2.updateComponentDiveInvisible(slot0)
 	SetActive(slot0._HPBarTf, true)
 end
 
+function slot2.updateComponentVisible(slot0)
+	uv0.super.updateComponentVisible(slot0)
+	SetActive(slot0._HPBarTf, true)
+end
+
 function slot2.initBarrierBar(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv0.BARRIER_STATE_CHANGE, slot0.onBarrierStateChange)
 end

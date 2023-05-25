@@ -1,4 +1,4 @@
-MusicFestivalGraph = {
+return {
 	Points = {
 		{
 			x = -563.4262,

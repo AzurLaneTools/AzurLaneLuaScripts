@@ -11,11 +11,11 @@ end
 function slot1.onInitGame(slot0, slot1, slot2)
 	slot3 = uv0.Battle.BattleDataProxy.GetInstance():GetBGMList()
 
-	playBGM(slot3[math.random(#slot3)])
+	pg.BgmMgr.GetInstance():Push(BattleScene.__cname, slot3[math.random(#slot3)])
 end
 
 function slot1.onTrigger(slot0)
 	slot1 = uv0.Battle.BattleDataProxy.GetInstance():GetBGMList(true)
 
-	playBGM(slot1[math.random(#slot1)])
+	pg.BgmMgr.GetInstance():Push(BattleScene.__cname, slot1[math.random(#slot1)])
 end

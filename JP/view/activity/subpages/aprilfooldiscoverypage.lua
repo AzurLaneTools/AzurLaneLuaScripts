@@ -4,7 +4,7 @@ function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.bgName = nil
 	slot0.itemList = slot0:findTF("AD/list")
-	slot0.items = uv0.Clone2Full(slot0.itemList, 9)
+	slot0.items = CustomIndexLayer.Clone2Full(slot0.itemList, 9)
 	slot0.selectIndex = 0
 	slot0.btnHelp = slot0.bg:Find("help_btn")
 	slot0.btnBattle = slot0.bg:Find("battle_btn")
@@ -196,21 +196,6 @@ function slot0.OnDestroy(slot0)
 	slot0.loader:Clear()
 	slot0:RemoveCDTimer()
 	uv0.super.OnDestroy(slot0)
-end
-
-function slot0.Clone2Full(slot0, slot1)
-	slot2 = {}
-	slot3 = slot0:GetChild(0)
-
-	for slot8 = 0, slot0.childCount - 1 do
-		table.insert(slot2, slot0:GetChild(slot8))
-	end
-
-	for slot8 = slot4, slot1 - 1 do
-		table.insert(slot2, tf(cloneTplTo(slot3, slot0)))
-	end
-
-	return slot2
 end
 
 return slot0

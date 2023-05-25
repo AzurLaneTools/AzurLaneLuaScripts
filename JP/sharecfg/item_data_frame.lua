@@ -63,6 +63,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Fifth　Anniversary！</color>\n　五周年記念イベントで開放可能",
 		scene = {}
 	},
+	[108] = {
+		time_limit_type = 0,
+		name = "六周年纪念",
+		gain_by = "",
+		id = 108,
+		time_second = 0,
+		desc = "<color=#ffffff>献给所有六年间持续奋斗在港区的指挥官们</color>\n通过参与六周年限定活动获取",
+		scene = {}
+	},
 	[201] = {
 		time_limit_type = 0,
 		name = "チャレンジャー",
@@ -390,10 +399,10 @@ pg.item_data_frame = {
 	[325] = {
 		time_limit_type = 0,
 		name = "ノルン機環",
-		gain_by = "",
+		gain_by = "覆天せし万象の塵",
 		id = 325,
 		time_second = 0,
-		desc = "イベントで入手可能",
+		desc = "<color=#ffffff>「予言の日、炎と波の中に落ちよ——」</color>\n「覆天せし万象の塵」に参加した指揮官に贈る",
 		scene = {}
 	},
 	[401] = {
@@ -468,6 +477,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>暑い夏に涼しき瞬間のアイスチャット！</color>\n「饅頭アイス」イベント参加で入手可能",
 		scene = {}
 	},
+	[602] = {
+		time_limit_type = 0,
+		name = "潮風と夏の日々",
+		gain_by = "",
+		id = 602,
+		time_second = 0,
+		desc = "<color=#ffffff>無人島でのバケーションを楽しもう~！</color>\nイベント「潮風と夏の無人島」に参加した指揮官に贈る",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -476,6 +494,7 @@ pg.item_data_frame = {
 		104,
 		105,
 		107,
+		108,
 		201,
 		202,
 		203,
@@ -520,6 +539,7 @@ pg.item_data_frame = {
 		409,
 		410,
 		501,
-		601
+		601,
+		602
 	}
 }

@@ -28,7 +28,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 		MainActTraingCampBtn.New(slot0.linkBtnTop:Find("layout"), slot2),
 		MainActRefluxBtn.New(slot0.linkBtnTop:Find("layout"), slot2),
 		MainActNewServerBtn.New(slot0.linkBtnTop:Find("layout"), slot2),
-		MainActDelegationBtn.New(slot0.eventPanel, slot2)
+		MainActDelegationBtn.New(slot0.eventPanel, slot2),
+		MainIslandActDelegationBtn.New(slot0.eventPanel, slot2)
 	}
 
 	if pg.SdkMgr.GetInstance():CheckAudit() then

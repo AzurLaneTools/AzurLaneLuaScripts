@@ -13,7 +13,7 @@ pg.activity_const = {
 		act_id = 122
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 4528
+		act_id = 4875
 	},
 	ACT_NPC_SHIP_ID = {
 		act_id = 4786
@@ -917,5 +917,11 @@ pg.activity_const = {
 	},
 	MINIGAME_PENGPENGDONG = {
 		act_id = 4781
+	},
+	ISLAND_TASK_ID = {
+		act_id = 4867
+	},
+	ISLAND_GAME_ID = {
+		act_id = 4869
 	}
 }

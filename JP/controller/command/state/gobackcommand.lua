@@ -20,6 +20,7 @@ function slot0.execute(slot0, slot1)
 
 		slot6:extendData(slot2)
 		slot0:sendNotification(GAME.LOAD_SCENE, {
+			isBack = true,
 			prevContext = slot5,
 			context = slot6
 		})

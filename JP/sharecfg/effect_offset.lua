@@ -1627,5 +1627,27 @@ pg.effect_offset = {
 			1.5,
 			0
 		}
+	},
+	zaoshen_alter_buff = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
+	leigensitebao_suoding = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			-0.5,
+			0
+		}
 	}
 }

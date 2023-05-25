@@ -175,13 +175,6 @@ end
 
 function slot0.OnShowFlush(slot0)
 	slot0:UpdateSpineIdle(slot0.ptData:GetLevelProgress())
-	playBGM("ryza-4")
-end
-
-function slot0.OnHideFlush(slot0)
-	slot1 = ""
-
-	playBGM((not pg.CriMgr.GetInstance():IsDefaultBGM() or pg.voice_bgm.ActivityMainScene.default_bgm) and pg.voice_bgm.ActivityMainScene.bgm)
 end
 
 return slot0

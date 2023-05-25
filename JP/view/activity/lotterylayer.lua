@@ -254,7 +254,7 @@ function slot0.updateMainItems(slot0, slot1)
 
 			updateDrop(slot8, slot10)
 			setActive(slot8:Find("mask"), slot10.surplus <= 0)
-			setText(slot8:Find("icon_bg/surplus"), "X" .. slot10.surplus or "")
+			setText(slot8:Find("icon_bg/surplus"), "X" .. (slot10.surplus or ""))
 			onButton(slot0, slot8, function ()
 				uv0:emit(uv1.ON_DROP, uv2)
 			end, SFX_PANEL)

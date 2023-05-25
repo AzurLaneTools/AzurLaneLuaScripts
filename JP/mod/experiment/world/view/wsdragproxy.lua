@@ -128,29 +128,27 @@ function slot0.UpdateMap(slot0, slot1)
 end
 
 function slot0.UpdateDrag(slot0)
-	slot1 = pg.UIMgr.GetInstance().UIMain.transform
-	slot2 = slot1.rect.width
-	slot3 = slot1.rect.height
-	slot4 = Vector2.New(slot2 / UnityEngine.Screen.width, slot3 / UnityEngine.Screen.height)
-	slot5 = slot0.map.theme
-	slot6 = slot2 * 0.5 / math.tan(math.pi / 180 * slot5.fov)
-	slot4.x = slot4.x * math.clamp((slot6 - (Vector3(0, slot5.offsety, slot5.offsetz) + WorldConst.DefaultMapOffset).magnitude) / slot6, 0, 1)
+	slot1, slot2, slot3 = getSizeRate()
+	slot4 = slot0.map.theme
+	slot5 = slot3 * 0.5 / math.tan(math.deg2Rad * slot4.fov * 0.5)
+	slot6 = math.deg2Rad * slot4.angle
+	slot1 = slot1 * math.clamp((slot5 - Vector3.Dot(Vector3(0, -math.sin(slot6), -math.cos(slot6)), Vector3(slot4.offsetx, slot4.offsety, slot4.offsetz) + WorldConst.DefaultMapOffset)) / slot5, 0, 1)
 	slot0.leftExtend, slot0.rightExtend, slot0.topExtend, slot0.bottomExtend = slot0:GetDragExtend(slot2, slot3)
 	slot0.transform.sizeDelta = Vector2(slot2 + math.max(slot0.leftExtend, slot0.rightExtend) * 2, slot3 + math.max(slot0.topExtend, slot0.bottomExtend) * 2)
-	slot8 = slot0.dragTrigger
+	slot10 = slot0.dragTrigger
 
-	slot8:RemoveDragFunc()
+	slot10:RemoveDragFunc()
 
-	slot8 = slot0.dragTrigger
+	slot10 = slot0.dragTrigger
 
-	slot8:AddDragFunc(function (slot0, slot1)
+	slot10:AddDragFunc(function (slot0, slot1)
 		if uv0.onDragFunction then
 			uv0.onDragFunction()
 		end
 
 		slot2 = uv0.transform.localPosition
 		slot2.x = math.clamp(slot2.x + slot1.delta.x * uv1.x, -uv0.rightExtend, uv0.leftExtend)
-		slot2.y = math.clamp(slot2.y + slot1.delta.y * uv1.y, -uv0.topExtend, uv0.bottomExtend)
+		slot2.y = math.clamp(slot2.y + slot1.delta.y * uv1.y / math.cos(uv2), -uv0.topExtend, uv0.bottomExtend)
 		uv0.transform.localPosition = slot2
 	end)
 end

@@ -108,15 +108,16 @@ function slot0.openPanel(slot0)
 	Canvas.ForceUpdateCanvases()
 
 	slot1 = 400
+	slot2 = slot0.panelTF.sizeDelta.x
 	slot5 = slot0:managedTween(LeanTween.value, nil, go(slot0.panelTF), System.Action_float(function (slot0)
 		setAnchoredPosition(uv0.panelTF, {
 			x = slot0
 		})
-	end), 400, -slot0.panelTF.sizeDelta.x, uv0)
+	end), 400, 0, uv0)
 
 	slot5:setOnComplete(System.Action(function ()
 		setAnchoredPosition(uv0.panelTF, {
-			x = -uv1
+			x = 0
 		})
 	end))
 end
@@ -125,11 +126,12 @@ function slot0.closePanel(slot0)
 	slot0:cleanManagedTween(true)
 
 	slot1 = 400
+	slot2 = slot0.panelTF.sizeDelta.x
 	slot5 = slot0:managedTween(LeanTween.value, nil, go(slot0.panelTF), System.Action_float(function (slot0)
 		setAnchoredPosition(uv0.panelTF, {
 			x = slot0
 		})
-	end), -slot0.panelTF.sizeDelta.x, 400, uv0)
+	end), 0, 400, uv0)
 
 	slot5:setOnComplete(System.Action(function ()
 		setAnchoredPosition(uv0.panelTF, {

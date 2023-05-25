@@ -4044,7 +4044,49 @@ pg.activity_ins_language = setmetatable({
 		"ins_discuss_369_3",
 		"ins_reply_369_3_1",
 		"ins_op_369_1_1",
-		"op_reply_369_1_1"
+		"op_reply_369_1_1",
+		"ins_370",
+		"ins_discuss_370_1",
+		"ins_reply_370_1_1",
+		"ins_reply_370_1_2",
+		"ins_discuss_370_2",
+		"ins_reply_370_2_1",
+		"ins_discuss_370_3",
+		"ins_reply_370_3_1",
+		"ins_reply_370_3_2",
+		"ins_op_370_1_1",
+		"op_reply_370_1_1",
+		"ins_371",
+		"ins_discuss_371_1",
+		"ins_reply_371_1_1",
+		"ins_discuss_371_2",
+		"ins_reply_371_2_1",
+		"ins_reply_371_2_2",
+		"ins_reply_371_2_3",
+		"ins_discuss_371_3",
+		"ins_reply_371_3_1",
+		"ins_op_371_1_1",
+		"op_reply_371_1_1",
+		"ins_372",
+		"ins_discuss_372_1",
+		"ins_reply_372_1_1",
+		"ins_reply_372_1_2",
+		"ins_reply_372_1_3",
+		"ins_reply_372_1_4",
+		"ins_discuss_372_2",
+		"ins_reply_372_2_1",
+		"ins_op_372_1_1",
+		"op_reply_372_1_1",
+		"ins_373",
+		"ins_discuss_373_1",
+		"ins_reply_373_1_1",
+		"ins_discuss_373_2",
+		"ins_reply_373_2_1",
+		"ins_reply_373_2_2",
+		"ins_reply_373_2_3",
+		"ins_reply_373_2_4",
+		"ins_op_373_1_1",
+		"op_reply_373_1_1"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16077,105 +16119,231 @@ pg.base.activity_ins_language = {
 		value = "宝箱を見逃さない勇者の「勘」ってやつよ～"
 	},
 	ins_367 = {
-		value = ""
+		value = "冬が過ぎる前に、雪だるまを作るわ"
 	},
 	ins_discuss_367_1 = {
-		value = ""
+		value = "わぁ！雪だるまだ！…ん？にゃんにゃん？"
 	},
 	ins_reply_367_1_1 = {
-		value = ""
+		value = "ええ、少し見た目にこだわってみたわ。…これはこれでなかなかいい感じでしょう？"
 	},
 	ins_reply_367_1_2 = {
-		value = ""
+		value = "わ！雪玉ちゃんのコメントを見落としてるのかと思ってた！"
 	},
 	ins_reply_367_1_3 = {
-		value = ""
+		value = "今期はもう雪が降らないかもね。今のうちに雪合戦でもしない？"
 	},
 	ins_reply_367_2_1 = {
-		value = ""
+		value = "雪合戦？わたしも混ぜて！"
 	},
 	ins_reply_367_2_2 = {
-		value = ""
+		value = "私の雪だるまを的にしないように頼むわ……"
 	},
 	ins_discuss_367_3 = {
-		value = ""
+		value = "だんだん暖かくなってきたから、こいつは長くは持たんぞ"
 	},
 	ins_reply_367_3_1 = {
-		value = ""
+		value = "ええ。でも雪がゆっくり融けていくのを眺めるのもまた一興よ"
 	},
 	ins_op_367_1_1 = {
-		value = ""
+		value = "かわいいね！"
 	},
 	op_reply_367_1_1 = {
-		value = ""
+		value = "根気よくやれば誰でも素敵な雪だるまを作れるわ。同志指揮官も試してみたら？"
 	},
 	ins_368 = {
-		value = ""
+		value = "ふむ、そこそこのカモフラージュ、といったところか"
 	},
 	ins_discuss_368_1 = {
-		value = ""
+		value = "道端のマスコットになりきって偵察か…いい発想ね！"
 	},
 	ins_reply_368_1_1 = {
-		value = ""
+		value = "ふわふわしてて暖かそう…抱きつきたくなりますね～"
 	},
 	ins_reply_368_1_2 = {
-		value = ""
+		value = "むっ…狙っていた反応と少し違うな……"
 	},
 	ins_discuss_368_2 = {
-		value = ""
+		value = "どうして雪だるまに？"
 	},
 	ins_reply_368_2_1 = {
-		value = ""
+		value = "ああ、ちょうど隣に雪だるまがいてな。こうすれば違和感はないはずだが…"
 	},
 	ins_discuss_368_3 = {
-		value = ""
+		value = "かわいい…でもぬいぐるみの中は暑くないの？"
 	},
 	ins_reply_368_3_1 = {
-		value = ""
+		value = "なに、私にとってはどうってことないさ"
 	},
 	ins_discuss_368_4 = {
-		value = ""
+		value = "私の雪だるまとお揃いね。ふふん"
 	},
 	ins_reply_368_4_1 = {
-		value = ""
+		value = "雪だるまを作ったのはお前だったか"
 	},
 	ins_op_368_1_1 = {
-		value = ""
+		value = "うまく溶け込んでいる！"
 	},
 	op_reply_368_1_1 = {
-		value = ""
+		value = "そうだ。それが狙いだ"
 	},
 	ins_369 = {
-		value = ""
+		value = "春の訪れを祝って、このヴォッカで乾杯しよう！同志たち！"
 	},
 	ins_discuss_369_1 = {
-		value = ""
+		value = "セヴァストポリ、よくぞ言った！今日は気が済むまで飲むぞ！"
 	},
 	ins_reply_369_1_1 = {
-		value = ""
+		value = "ふ、ふふふふ……今度は負けないわよ…！"
 	},
 	ins_reply_369_1_2 = {
-		value = ""
+		value = "はははは！最後まで付き合ってやる！"
 	},
 	ins_discuss_369_2 = {
-		value = ""
+		value = "まったく、せわしないやつらだ"
 	},
 	ins_reply_369_2_1 = {
-		value = ""
+		value = "セヴァストポリ、大丈夫かな？"
 	},
 	ins_reply_369_2_2 = {
-		value = ""
+		value = "ふらふらしながら帰るのを見たが多分大丈夫だ。今頃は…来たる次の「戦い」にでも備えているだろう"
 	},
 	ins_discuss_369_3 = {
-		value = ""
+		value = "やっぱり融けたわね……"
 	},
 	ins_reply_369_3_1 = {
-		value = ""
+		value = "セヴァストポリの熱さに融かされちゃった、といったところでしょうか？ふふ"
 	},
 	ins_op_369_1_1 = {
-		value = ""
+		value = "だ、大丈夫か…？"
 	},
 	op_reply_369_1_1 = {
+		value = "同志指揮官、何よその小馬鹿にした言い方！この通りと～～～～～～っても元気よ！"
+	},
+	ins_370 = {
+		value = ""
+	},
+	ins_discuss_370_1 = {
+		value = ""
+	},
+	ins_reply_370_1_1 = {
+		value = ""
+	},
+	ins_reply_370_1_2 = {
+		value = ""
+	},
+	ins_discuss_370_2 = {
+		value = ""
+	},
+	ins_reply_370_2_1 = {
+		value = ""
+	},
+	ins_discuss_370_3 = {
+		value = ""
+	},
+	ins_reply_370_3_1 = {
+		value = ""
+	},
+	ins_reply_370_3_2 = {
+		value = ""
+	},
+	ins_op_370_1_1 = {
+		value = ""
+	},
+	op_reply_370_1_1 = {
+		value = ""
+	},
+	ins_371 = {
+		value = ""
+	},
+	ins_discuss_371_1 = {
+		value = ""
+	},
+	ins_reply_371_1_1 = {
+		value = ""
+	},
+	ins_discuss_371_2 = {
+		value = ""
+	},
+	ins_reply_371_2_1 = {
+		value = ""
+	},
+	ins_reply_371_2_2 = {
+		value = ""
+	},
+	ins_reply_371_2_3 = {
+		value = ""
+	},
+	ins_discuss_371_3 = {
+		value = ""
+	},
+	ins_reply_371_3_1 = {
+		value = ""
+	},
+	ins_op_371_1_1 = {
+		value = ""
+	},
+	op_reply_371_1_1 = {
+		value = ""
+	},
+	ins_372 = {
+		value = ""
+	},
+	ins_discuss_372_1 = {
+		value = ""
+	},
+	ins_reply_372_1_1 = {
+		value = ""
+	},
+	ins_reply_372_1_2 = {
+		value = ""
+	},
+	ins_reply_372_1_3 = {
+		value = ""
+	},
+	ins_reply_372_1_4 = {
+		value = ""
+	},
+	ins_discuss_372_2 = {
+		value = ""
+	},
+	ins_reply_372_2_1 = {
+		value = ""
+	},
+	ins_op_372_1_1 = {
+		value = ""
+	},
+	op_reply_372_1_1 = {
+		value = ""
+	},
+	ins_373 = {
+		value = ""
+	},
+	ins_discuss_373_1 = {
+		value = ""
+	},
+	ins_reply_373_1_1 = {
+		value = ""
+	},
+	ins_discuss_373_2 = {
+		value = ""
+	},
+	ins_reply_373_2_1 = {
+		value = ""
+	},
+	ins_reply_373_2_2 = {
+		value = ""
+	},
+	ins_reply_373_2_3 = {
+		value = ""
+	},
+	ins_reply_373_2_4 = {
+		value = ""
+	},
+	ins_op_373_1_1 = {
+		value = ""
+	},
+	op_reply_373_1_1 = {
 		value = ""
 	}
 }

@@ -1,6 +1,208 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_14 = {
+	[408041] = {
+		ship_group = 40804,
+		name = "ハッピーナイト",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 408041,
+		group_index = 1,
+		prefab = "U556_2",
+		painting = "U556_2",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "U-556、華麗にへんしん！へへへ、今日はパーティーを思いっきり楽しんじゃうぞー！指揮官も一緒に来てね！",
+		voice_actor = 38,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.84,
+					0.58,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.8,
+					0.09,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.18,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408050] = {
+		ship_group = 40805,
+		name = "U-73",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 408050,
+		group_index = 0,
+		prefab = "U73",
+		painting = "U73",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "鉄血ⅦB型潜水艦U-73",
+		voice_actor = 200,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.84,
+					0.58,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.8,
+					0.09,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[408051] = {
 		ship_group = 40805,
 		name = "理科実験タイム！",
@@ -22,6 +224,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -122,6 +325,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -224,6 +428,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -324,6 +529,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -426,6 +632,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -526,6 +733,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -626,6 +834,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -728,6 +937,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1101",
 		voice_actor_2 = -1,
@@ -830,6 +1040,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -932,6 +1143,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
@@ -1034,6 +1246,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1101",
 		voice_actor_2 = -1,
@@ -1136,6 +1349,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -1236,6 +1450,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -1338,6 +1553,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -1440,6 +1656,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -1540,6 +1757,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -1642,6 +1860,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -1742,6 +1961,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
@@ -1844,6 +2064,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -1944,6 +2165,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
@@ -2046,6 +2268,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 4,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -2162,6 +2385,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
@@ -2278,6 +2502,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -2392,6 +2617,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -2508,6 +2734,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 2,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -2622,6 +2849,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -2736,6 +2964,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -2852,6 +3081,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -2966,6 +3196,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -3082,6 +3313,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1101",
 		voice_actor_2 = -1,
@@ -3198,6 +3430,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 2,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -3312,6 +3545,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -3424,6 +3658,7 @@ pg.base.ship_skin_template_14 = {
 		illustrator = 1,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -3559,6 +3794,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -3671,6 +3907,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -3788,6 +4025,124 @@ pg.base.ship_skin_template_14 = {
 			}
 		}
 	},
+	[502012] = {
+		ship_group = 50201,
+		name = "清茶馥郁",
+		bullet_skin_secondary = "",
+		hand_id = 9,
+		bgm = "theme-yixian-soft-loop",
+		illustrator2 = -1,
+		bg = "157",
+		id = 502012,
+		group_index = 2,
+		prefab = "yixian_3",
+		painting = "yixian_3",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = 21,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "お忙しい中お誘いに応じてくださって、大変光栄に存じます…そんなにかしこまらななくてもいい、ですか？ふふ、ちょうどお茶も淹れたところですし、逸仙の隣にお座りくださいませ",
+		voice_actor = 74,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.01,
+					1.06,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.01,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.03,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.01,
+					1.07,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.35,
+							2.28,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[502018] = {
 		ship_group = 50201,
 		name = "鳳冠霞帔",
@@ -3809,6 +4164,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -3923,6 +4279,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 2,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -4037,6 +4394,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -4164,6 +4522,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -4279,6 +4638,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -4391,6 +4751,7 @@ pg.base.ship_skin_template_14 = {
 		illustrator = 5,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -4527,6 +4888,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -4642,6 +5004,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -4758,6 +5121,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -4872,6 +5236,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 2,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -4986,6 +5351,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -5113,6 +5479,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -5229,6 +5596,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -5341,6 +5709,7 @@ pg.base.ship_skin_template_14 = {
 		illustrator = 5,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -5477,6 +5846,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -5591,6 +5961,7 @@ pg.base.ship_skin_template_14 = {
 		illustrator = 5,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -5737,6 +6108,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -5851,6 +6223,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 2,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -5965,6 +6338,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -6079,6 +6453,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
@@ -6193,6 +6568,7 @@ pg.base.ship_skin_template_14 = {
 		illustrator = 21,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1101",
 		voice_actor_2 = -1,
@@ -6328,6 +6704,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -6442,6 +6819,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
@@ -6556,6 +6934,7 @@ pg.base.ship_skin_template_14 = {
 		illustrator = 21,
 		lip_smoothing = 0,
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1101",
 		voice_actor_2 = -1,
@@ -6702,6 +7081,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -6816,6 +7196,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -6932,6 +7313,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -7046,6 +7428,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -7162,6 +7545,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -7276,6 +7660,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
@@ -7392,6 +7777,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -7508,6 +7894,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -7620,6 +8007,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
@@ -7758,6 +8146,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -7870,6 +8259,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -7984,6 +8374,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -8098,6 +8489,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -8212,6 +8604,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -8326,6 +8719,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -8442,6 +8836,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -8556,6 +8951,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
@@ -8672,6 +9068,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -8786,6 +9183,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -8902,6 +9300,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -9016,6 +9415,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -9132,6 +9532,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -9246,6 +9647,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -9362,6 +9764,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -9476,6 +9879,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -9592,6 +9996,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -9706,6 +10111,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -9822,6 +10228,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -9936,6 +10343,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1101",
 		voice_actor_2 = -1,
@@ -10052,6 +10460,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -10166,6 +10575,7 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
+		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
@@ -10254,236 +10664,6 @@ pg.base.ship_skin_template_14 = {
 						{
 							-0.526,
 							2.461,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[602020] = {
-		ship_group = 60202,
-		name = "ジュゼッペ・ガリバルディ",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 602020,
-		group_index = 0,
-		prefab = "zhusaipei",
-		painting = "zhusaipei",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "ドゥーカ・デッリ・アブルッツィ級軽巡洋艦-ジュゼッペ・ガリバルディ",
-		voice_actor = 286,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					1.08,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.15,
-					1.07,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.11,
-					1.31,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.81,
-							2.09,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[602021] = {
-		ship_group = 60202,
-		name = "黒羽のノービルメンテ",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "159",
-		id = 602021,
-		group_index = 1,
-		prefab = "zhusaipei_2",
-		painting = "zhusaipei_2",
-		shop_id = 70717,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 21,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "悪いスワンのオディールよー。あたしの王子様はどこにいるのかしらー。…って指揮官じゃない。今のセリフはともかく、いい感じに決まってたでしょ",
-		voice_actor = 286,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.004,
-					0.957,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.016,
-					0.966,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					-0.025,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.999,
-					1.001,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.908,
-							1.813,
 							0
 						}
 					}

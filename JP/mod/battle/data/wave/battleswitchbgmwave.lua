@@ -16,6 +16,6 @@ end
 
 function slot1.DoWave(slot0)
 	uv0.super.DoWave(slot0)
-	playBGM(slot0._bgmName)
+	pg.BgmMgr.GetInstance():Push(BattleScene.__cname, slot0._bgmName)
 	slot0:doPass()
 end

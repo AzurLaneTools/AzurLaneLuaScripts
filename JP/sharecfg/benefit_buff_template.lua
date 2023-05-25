@@ -78,6 +78,38 @@ pg.benefit_buff_template = setmetatable({
 		102,
 		103,
 		104,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		121,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137,
+		138,
+		139,
+		140,
+		141,
 		300001,
 		300002,
 		300003,
@@ -1307,6 +1339,614 @@ pg.base.benefit_buff_template = {
 		id = 104,
 		type_priority = 0,
 		benefit_type = "character_strengthen_exp"
+	},
+	[110] = {
+		icon = "Props/xinshou",
+		name = "艦船経験値向上Ⅰ",
+		hide = 1,
+		max_time = 0,
+		desc = "ステージで、味方キャラが入手する経験値が2%アップ",
+		benefit_effect = "2",
+		id = 110,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				1
+			}
+		}
+	},
+	[111] = {
+		icon = "Props/xinshou",
+		name = "艦船経験値向上Ⅱ",
+		hide = 1,
+		max_time = 0,
+		desc = "ステージで、味方キャラが入手する経験値が3%アップ",
+		benefit_effect = "3",
+		id = 111,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				2
+			}
+		}
+	},
+	[112] = {
+		icon = "Props/xinshou",
+		name = "艦船経験値向上Ⅲ",
+		hide = 1,
+		max_time = 0,
+		desc = "ステージで、味方キャラが入手する経験値が4%アップ",
+		benefit_effect = "4",
+		id = 112,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				3
+			}
+		}
+	},
+	[113] = {
+		icon = "Props/xinshou",
+		name = "艦船経験値向上Ⅳ",
+		hide = 1,
+		max_time = 0,
+		desc = "ステージで、味方キャラが入手する経験値が5%アップ",
+		benefit_effect = "5",
+		id = 113,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				4
+			}
+		}
+	},
+	[114] = {
+		icon = "Props/buff_minigame_11",
+		name = "与ダメージ増加Ⅰ",
+		hide = 1,
+		max_time = 0,
+		desc = "ステージの戦闘で、味方キャラが与えるダメージが2%アップ",
+		benefit_effect = "502",
+		id = 114,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				1
+			}
+		}
+	},
+	[115] = {
+		icon = "Props/buff_minigame_11",
+		name = "与ダメージ増加Ⅱ",
+		hide = 1,
+		max_time = 0,
+		desc = "ステージの戦闘で、味方キャラが与えるダメージが3%アップ",
+		benefit_effect = "504",
+		id = 115,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				2
+			}
+		}
+	},
+	[116] = {
+		icon = "Props/buff_minigame_11",
+		name = "与ダメージ増加Ⅲ",
+		hide = 1,
+		max_time = 0,
+		desc = "ステージの戦闘で、味方キャラが与えるダメージが4%アップ",
+		benefit_effect = "506",
+		id = 116,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				3
+			}
+		}
+	},
+	[117] = {
+		icon = "Props/buff_minigame_11",
+		name = "与ダメージ増加Ⅳ",
+		hide = 1,
+		max_time = 0,
+		desc = "ステージの戦闘で、味方キャラが与えるダメージが5%アップ",
+		benefit_effect = "508",
+		id = 117,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				4
+			}
+		}
+	},
+	[118] = {
+		icon = "Props/buff_minigame_10",
+		name = "スキル強化時間短縮Ⅰ",
+		hide = 1,
+		max_time = 0,
+		desc = "戦術教室でのスキル強化所要時間が2%短縮",
+		benefit_effect = "200",
+		id = 118,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				1
+			}
+		}
+	},
+	[119] = {
+		icon = "Props/buff_minigame_10",
+		name = "スキル強化時間短縮Ⅱ",
+		hide = 1,
+		max_time = 0,
+		desc = "戦術教室でのスキル強化所要時間が3%短縮",
+		benefit_effect = "300",
+		id = 119,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				2
+			}
+		}
+	},
+	[120] = {
+		icon = "Props/buff_minigame_10",
+		name = "スキル強化時間短縮Ⅲ",
+		hide = 1,
+		max_time = 0,
+		desc = "戦術教室でのスキル強化所要時間が4%短縮",
+		benefit_effect = "400",
+		id = 120,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				3
+			}
+		}
+	},
+	[121] = {
+		icon = "Props/buff_minigame_10",
+		name = "スキル強化時間短縮Ⅳ",
+		hide = 1,
+		max_time = 0,
+		desc = "戦術教室でのスキル強化所要時間が5%短縮",
+		benefit_effect = "500",
+		id = 121,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				4
+			}
+		}
+	},
+	[122] = {
+		icon = "Props/buff_minigame_12",
+		name = "寮舎経験値向上Ⅰ",
+		hide = 1,
+		max_time = 0,
+		desc = "寮舎での経験値入手量が2%アップ",
+		benefit_effect = "2",
+		id = 122,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				1
+			}
+		}
+	},
+	[123] = {
+		icon = "Props/buff_minigame_12",
+		name = "寮舎経験値向上Ⅱ",
+		hide = 1,
+		max_time = 0,
+		desc = "寮舎での経験値入手量が3%アップ",
+		benefit_effect = "3",
+		id = 123,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				2
+			}
+		}
+	},
+	[124] = {
+		icon = "Props/buff_minigame_12",
+		name = "寮舎経験値向上Ⅲ",
+		hide = 1,
+		max_time = 0,
+		desc = "寮舎での経験値入手量が4%アップ",
+		benefit_effect = "4",
+		id = 124,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				3
+			}
+		}
+	},
+	[125] = {
+		icon = "Props/buff_minigame_12",
+		name = "寮舎経験値向上Ⅳ",
+		hide = 1,
+		max_time = 0,
+		desc = "寮舎での経験値入手量が5%アップ",
+		benefit_effect = "5",
+		id = 125,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				4
+			}
+		}
+	},
+	[126] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.1",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+0/饅頭探検隊デイリー報酬+0%",
+		benefit_effect = "0",
+		id = 126,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				23,
+				1
+			}
+		}
+	},
+	[127] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.2",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+1/饅頭探検隊デイリー報酬+10%",
+		benefit_effect = "10",
+		id = 127,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				23,
+				2
+			}
+		}
+	},
+	[128] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.3",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+2/饅頭探検隊デイリー報酬+20%",
+		benefit_effect = "20",
+		id = 128,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				23,
+				3
+			}
+		}
+	},
+	[129] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.4",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+3/饅頭探検隊デイリー報酬+30%",
+		benefit_effect = "30",
+		id = 129,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				23,
+				4
+			}
+		}
+	},
+	[130] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.1",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+0/饅頭探検隊デイリー報酬+0%",
+		benefit_effect = "0",
+		id = 130,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				24,
+				1
+			}
+		}
+	},
+	[131] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.2",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+1/饅頭探検隊デイリー報酬+10%",
+		benefit_effect = "10",
+		id = 131,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				24,
+				2
+			}
+		}
+	},
+	[132] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.3",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+2/饅頭探検隊デイリー報酬+20%",
+		benefit_effect = "20",
+		id = 132,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				24,
+				3
+			}
+		}
+	},
+	[133] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.4",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+3/饅頭探検隊デイリー報酬+30%",
+		benefit_effect = "30",
+		id = 133,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				24,
+				4
+			}
+		}
+	},
+	[134] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.1",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+0/饅頭探検隊デイリー報酬+0%",
+		benefit_effect = "0",
+		id = 134,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				25,
+				1
+			}
+		}
+	},
+	[135] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.2",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+1/饅頭探検隊デイリー報酬+10%",
+		benefit_effect = "10",
+		id = 135,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				25,
+				2
+			}
+		}
+	},
+	[136] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.3",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+2/饅頭探検隊デイリー報酬+20%",
+		benefit_effect = "20",
+		id = 136,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				25,
+				3
+			}
+		}
+	},
+	[137] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.4",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+3/饅頭探検隊デイリー報酬+30%",
+		benefit_effect = "30",
+		id = 137,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				25,
+				4
+			}
+		}
+	},
+	[138] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.1",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+0/饅頭探検隊デイリー報酬+0%",
+		benefit_effect = "0",
+		id = 138,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				26,
+				1
+			}
+		}
+	},
+	[139] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.2",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+1/饅頭探検隊デイリー報酬+10%",
+		benefit_effect = "10",
+		id = 139,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				26,
+				2
+			}
+		}
+	},
+	[140] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.3",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+2/饅頭探検隊デイリー報酬+20%",
+		benefit_effect = "20",
+		id = 140,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				26,
+				3
+			}
+		}
+	},
+	[141] = {
+		icon = "Props/xinshou",
+		name = "無人島拠点施設lv.4",
+		hide = 1,
+		max_time = 0,
+		desc = "拠点施設進捗+3/饅頭探検隊デイリー報酬+30%",
+		benefit_effect = "30",
+		id = 141,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				26,
+				4
+			}
+		}
 	},
 	[300001] = {
 		icon = "Props/300001",

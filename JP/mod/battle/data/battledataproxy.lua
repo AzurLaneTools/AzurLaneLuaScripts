@@ -1455,6 +1455,23 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 	return slot10
 end
 
+function slot8.SwitchSpectreUnit(slot0, slot1)
+	slot2 = slot1:GetUniqueID()
+
+	if slot1:IsSpectre() then
+		slot0._foeShipList[slot2] = nil
+		slot0._spectreShipList[slot2] = slot1
+
+		slot0._cldSystem:DeleteShipCld(slot1)
+	else
+		slot0._spectreShipList[slot2] = nil
+		slot0._foeShipList[slot2] = slot1
+
+		slot1:ActiveCldBox()
+		slot0._cldSystem:InitShipCld(slot1)
+	end
+end
+
 function slot8.GetUnitList(slot0)
 	return slot0._unitList
 end

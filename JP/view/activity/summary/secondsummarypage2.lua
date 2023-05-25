@@ -23,7 +23,7 @@ function slot0.OnInit(slot0)
 	setText(slot3:Find("chapter_name/Text"), "「" .. slot0.summaryInfoVO.chapterName .. "」")
 
 	if slot0.summaryInfoVO.worldProgressTask > 0 then
-		setText(slot3:Find("world_name/Text"), "  " .. i18n("five_shujuhuigu1", "\n「" .. pg.world_task_data[slot0.summaryInfoVO.worldProgressTask].name .. "」"))
+		setText(slot3:Find("world_name/Text"), "「" .. pg.world_task_data[slot0.summaryInfoVO.worldProgressTask].name .. "」")
 	else
 		setText(slot3:Find("world_name/Text"), i18n("five_shujuhuigu"))
 	end

@@ -61,7 +61,8 @@ function slot0.listNotificationInterests(slot0)
 		ActivityProxy.ACTIVITY_UPDATED,
 		GAME.CRUSING_CMD_DONE,
 		uv0.UNFROZEN_MAP_UPDATE,
-		PlayerProxy.UPDATED
+		PlayerProxy.UPDATED,
+		GAME.CHARGE_SUCCESS
 	}
 end
 
@@ -83,6 +84,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateMapWay()
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot3)
+	elseif slot2 == GAME.CHARGE_SUCCESS then
+		slot0.viewComponent:OnChargeSuccess(Goods.Create({
+			shop_id = slot3.shopId
+		}, Goods.TYPE_CHARGE))
 	end
 end
 

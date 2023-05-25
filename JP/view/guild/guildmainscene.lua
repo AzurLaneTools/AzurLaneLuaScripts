@@ -209,13 +209,15 @@ function slot0.EnterOrExitPreView(slot0)
 end
 
 function slot0.UpdateBg(slot0)
-	slot1 = slot0.guildVO
+	if slot0.bgName ~= slot0.guildVO:getBgName() then
+		GetSpriteFromAtlasAsync(slot1, "", function (slot0)
+			if not IsNil(uv0._tf) then
+				setImageSprite(uv0._bg, slot0, false)
+			end
+		end)
 
-	GetSpriteFromAtlasAsync(slot1:getBgName(), "", function (slot0)
-		if not IsNil(uv0._tf) then
-			setImageSprite(uv0._bg, slot0, false)
-		end
-	end)
+		slot0.bgName = slot1
+	end
 end
 
 function slot0.UpdateNotices(slot0, slot1)
@@ -256,8 +258,6 @@ function slot0.initTheme(slot0)
 		slot0.themePage:ExecuteAction("Update", slot0.guildVO, slot0.playerVO, slot0.chatMsgs)
 
 		slot0.faction = slot1
-
-		slot0:UpdateBg()
 	else
 		slot0.themePage:ActionInvoke("Update", slot0.guildVO, slot0.playerVO, slot0.chatMsgs)
 	end
@@ -339,6 +339,8 @@ function slot0.openPage(slot0, slot1)
 	elseif slot1 == uv3 then
 		slot0:emit(GuildMainMediator.OPEN_BATTLE)
 	end
+
+	slot0:UpdateBg()
 
 	slot0.contextData.page = slot1
 end

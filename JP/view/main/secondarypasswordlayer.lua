@@ -16,7 +16,7 @@ function slot0.init(slot0)
 	slot0.textTitleEn = slot0:findTF("title/title_en", slot0.informBg):GetComponent(typeof(Text))
 	slot0.inputpanel = slot0:findTF("inputpanel", slot0.window)
 	slot0.containerbtn = slot0:findTF("btns", slot0.inputpanel)
-	slot0.btngroup = slot0:Clone2Full(slot0.containerbtn, 10)
+	slot0.btngroup = CustomIndexLayer.Clone2Full(slot0.containerbtn, 10)
 
 	_.each(slot0.btngroup, function (slot0)
 		slot1 = (slot0:GetSiblingIndex() + 1) % 10
@@ -35,8 +35,8 @@ function slot0.init(slot0)
 	slot0.setLine1Grid = slot0:findTF("line1/input/grid", slot0.setView)
 	slot0.setLine2Grid = slot0:findTF("line2/input/grid", slot0.setView)
 
-	slot0:Clone2Full(slot0.setLine1Grid, 6)
-	slot0:Clone2Full(slot0.setLine2Grid, 6)
+	CustomIndexLayer.Clone2Full(slot0.setLine1Grid, 6)
+	CustomIndexLayer.Clone2Full(slot0.setLine2Grid, 6)
 
 	for slot5 = 0, slot0.setLine1Grid.childCount - 1 do
 		table.insert(slot0.setDigitGroup, slot0.setLine1Grid:GetChild(slot5))
@@ -52,7 +52,7 @@ function slot0.init(slot0)
 	slot0.inputDigitGroup = {}
 	slot0.inputLineGrid = slot0:findTF("line1/input/grid", slot0.inputView)
 
-	slot0:Clone2Full(slot0.inputLineGrid, 6)
+	CustomIndexLayer.Clone2Full(slot0.inputLineGrid, 6)
 
 	for slot6 = 0, slot0.inputLineGrid.childCount - 1 do
 		table.insert(slot0.inputDigitGroup, slot0.inputLineGrid:GetChild(slot6))
@@ -385,21 +385,6 @@ end
 
 function slot0.UpdateSetView(slot0)
 	setActive(slot0.tipseterror, not slot0.inputnone)
-end
-
-function slot0.Clone2Full(slot0, slot1, slot2)
-	slot3 = {}
-	slot4 = slot1:GetChild(0)
-
-	for slot9 = 0, slot1.childCount - 1 do
-		table.insert(slot3, slot1:GetChild(slot9))
-	end
-
-	for slot9 = slot5, slot2 - 1 do
-		table.insert(slot3, tf(cloneTplTo(slot4, slot1)))
-	end
-
-	return slot3
 end
 
 function slot0.SetInputPos(slot0, slot1)

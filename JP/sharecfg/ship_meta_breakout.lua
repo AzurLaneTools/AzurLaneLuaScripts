@@ -81,7 +81,15 @@ pg.ship_meta_breakout = setmetatable({
 		9707031,
 		9707032,
 		9707033,
-		9707034
+		9707034,
+		9708011,
+		9708012,
+		9708013,
+		9708014,
+		9712011,
+		9712012,
+		9712013,
+		9712014
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1401,6 +1409,127 @@ pg.base.ship_meta_breakout = {
 		id = 9707034,
 		item1 = 21004,
 		pre_id = 9707033,
+		weapon_ids = {}
+	},
+	[9708011] = {
+		breakout_view = "【揺灯の力-U-556(META)】習得/魚雷補正+5%",
+		gold = 1000,
+		breakout_id = 9708012,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9708011,
+		item1 = 21021,
+		pre_id = 0,
+		weapon_ids = {
+			170071
+		}
+	},
+	[9708012] = {
+		breakout_view = "魚雷装填数+1/支援範囲拡大",
+		gold = 3000,
+		breakout_id = 9708013,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9708012,
+		item1 = 21021,
+		pre_id = 9708011,
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[9708013] = {
+		breakout_view = "【揺灯の力-U-556(META)】強化/魚雷補正+10%",
+		gold = 10000,
+		breakout_id = 9708014,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9708013,
+		item1 = 21021,
+		pre_id = 9708012,
+		weapon_ids = {
+			170072
+		}
+	},
+	[9708014] = {
+		breakout_view = "なし",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9708014,
+		item1 = 21021,
+		pre_id = 9708013,
+		weapon_ids = {}
+	},
+	[9712011] = {
+		breakout_view = "【構造の理-ヴェスタル(META)】習得/緊急補修回数+1/対空補正+3%",
+		gold = 500,
+		breakout_id = 9712012,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9712011,
+		item1 = 21022,
+		pre_id = 0,
+		weapon_ids = {}
+	},
+	[9712012] = {
+		breakout_view = "弾薬上限+1/対空火器砲座+1/対空補正+5%",
+		gold = 1500,
+		breakout_id = 9712013,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9712012,
+		item1 = 21022,
+		pre_id = 9712011,
+		weapon_ids = {}
+	},
+	[9712013] = {
+		breakout_view = "【構造の理-ヴェスタル(META)】強化/緊急補修回数+1/対空補正+7%",
+		gold = 2500,
+		breakout_id = 9712014,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9712013,
+		item1 = 21022,
+		pre_id = 9712012,
+		weapon_ids = {}
+	},
+	[9712014] = {
+		breakout_view = "なし",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9712014,
+		item1 = 21022,
+		pre_id = 9712013,
 		weapon_ids = {}
 	}
 }

@@ -73,102 +73,58 @@ function slot0.shipGroupFilter(slot0)
 end
 
 function slot0.nationPointFilter(slot0)
-	slot0.nationToPoint = {
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0
-	}
-	slot0.nationToPointLog = {
-		{
-			{},
-			{},
-			{}
-		},
-		{
-			{},
-			{},
-			{}
-		},
-		{
-			{},
-			{},
-			{}
-		},
-		{
-			{},
-			{},
-			{}
-		},
-		{
-			{},
-			{},
-			{}
-		},
-		{
-			{},
-			{},
-			{}
-		},
-		{
-			{},
-			{},
-			{}
-		},
-		{
-			{},
-			{},
-			{}
-		},
-		{
+	slot0.nationToPoint = {}
+	slot0.nationToPointLog = {}
+	slot0.nationToPointLog2 = {}
+
+	for slot5, slot6 in ipairs({
+		Nation.US,
+		Nation.EN,
+		Nation.JP,
+		Nation.DE,
+		Nation.CN,
+		Nation.ITA,
+		Nation.SN,
+		Nation.FF,
+		Nation.MNF,
+		Nation.FR,
+		Nation.META
+	}) do
+		slot0.nationToPoint[slot6] = 0
+		slot0.nationToPointLog[slot6] = {
 			{},
 			{},
 			{}
 		}
-	}
-	slot0.nationToPointLog2 = {
-		{},
-		{},
-		{},
-		{},
-		{},
-		{},
-		{},
-		{},
-		{}
-	}
+		slot0.nationToPointLog2[slot6] = {}
+	end
 
-	for slot4, slot5 in ipairs(slot0.groupListInCount) do
-		if slot5:getNation() ~= tonumber(string.sub(tostring(slot5.id), 1, 1)) then
-			table.insert(slot0.nationToPointLog2[slot6], slot5)
+	for slot5, slot6 in ipairs(slot0.groupListInCount) do
+		if slot6:getNation() ~= tonumber(string.sub(tostring(slot6.id), 1, 1)) then
+			table.insert(slot0.nationToPointLog2[slot7], slot6)
 		end
 
-		if not slot5.maxLV or slot5.maxLV < TechnologyConst.SHIP_LEVEL_FOR_BUFF then
-			slot0.nationToPoint[slot6] = slot0.nationToPoint[slot6] + pg.fleet_tech_ship_template[slot7].pt_get
+		if not slot6.maxLV or slot6.maxLV < TechnologyConst.SHIP_LEVEL_FOR_BUFF then
+			slot0.nationToPoint[slot7] = slot0.nationToPoint[slot7] + pg.fleet_tech_ship_template[slot8].pt_get
 
-			table.insert(slot0.nationToPointLog[slot6][1], slot7)
+			table.insert(slot0.nationToPointLog[slot7][1], slot8)
 		else
-			slot0.nationToPoint[slot6] = slot0.nationToPoint[slot6] + pg.fleet_tech_ship_template[slot7].pt_get + pg.fleet_tech_ship_template[slot7].pt_level
+			slot0.nationToPoint[slot7] = slot0.nationToPoint[slot7] + pg.fleet_tech_ship_template[slot8].pt_get + pg.fleet_tech_ship_template[slot8].pt_level
 
-			table.insert(slot0.nationToPointLog[slot6][2], slot7)
+			table.insert(slot0.nationToPointLog[slot7][2], slot8)
 		end
 
-		if pg.fleet_tech_ship_template[slot7].max_star <= slot5.star then
-			slot0.nationToPoint[slot6] = slot0.nationToPoint[slot6] + pg.fleet_tech_ship_template[slot7].pt_upgrage
+		if pg.fleet_tech_ship_template[slot8].max_star <= slot6.star then
+			slot0.nationToPoint[slot7] = slot0.nationToPoint[slot7] + pg.fleet_tech_ship_template[slot8].pt_upgrage
 
-			table.insert(slot0.nationToPointLog[slot6][3], slot7)
+			table.insert(slot0.nationToPointLog[slot7][3], slot8)
 		end
 	end
 
 	slot0.point = 0
 
-	for slot4, slot5 in ipairs(slot0.nationToPoint) do
-		slot0.point = slot0.point + slot5
+	for slot5, slot6 in pairs(slot0.nationToPoint) do
+		slot0.point = slot0.point + slot6
 	end
 end
 
@@ -428,7 +384,7 @@ function slot0.getShipMaxAddition(slot0, slot1, slot2)
 end
 
 function slot0.printNationPointLog(slot0)
-	for slot4, slot5 in ipairs(slot0.nationToPointLog) do
+	for slot4, slot5 in pairs(slot0.nationToPointLog) do
 		slot9 = "----------------"
 
 		print("----------------" .. slot4 .. slot9)
@@ -446,7 +402,7 @@ function slot0.printNationPointLog(slot0)
 
 	print("----------------Filte----------------")
 
-	for slot4, slot5 in ipairs(slot0.nationToPointLog2) do
+	for slot4, slot5 in pairs(slot0.nationToPointLog2) do
 		slot6 = slot4 .. " :"
 
 		for slot10, slot11 in ipairs(slot5) do

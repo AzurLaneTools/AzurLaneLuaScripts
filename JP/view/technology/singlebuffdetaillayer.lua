@@ -91,8 +91,15 @@ function slot0.updateDetail(slot0)
 	end)
 	setImageSprite(slot0.baseImg, GetSpriteFromAtlas("shipraritybaseicon", "base_" .. slot0.rarity))
 	setImageSprite(slot0.typeTextImg, GetSpriteFromAtlas("ShipType", "ch_title_" .. slot0.shipType), true)
-	setImageSprite(slot0.levelImg, GetSpriteFromAtlas("TecClassLevelIcon", "T" .. slot0.classLevel), true)
 	setText(slot0.nameText, ShipGroup.getDefaultShipNameByGroupID(slot0.groupID))
+
+	if ShipGroup.IsMetaGroup(slot0.groupID) then
+		setActive(slot0.levelImg, false)
+	else
+		setImageSprite(slot0.levelImg, GetSpriteFromAtlas("TecClassLevelIcon", "T" .. slot0.classLevel), true)
+		setActive(slot0.levelImg, true)
+	end
+
 	setText(slot0.pointNumGetText, "+" .. pg.fleet_tech_ship_template[slot0.groupID].pt_get)
 	setText(slot0.pointNumCompleteText, "+" .. pg.fleet_tech_ship_template[slot0.groupID].pt_level)
 	setText(slot0.allStarPointText, "+" .. pg.fleet_tech_ship_template[slot0.groupID].pt_upgrage)

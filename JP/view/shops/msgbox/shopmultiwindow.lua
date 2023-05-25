@@ -73,14 +73,14 @@ function slot0.InitWindow(slot0, slot1, slot2)
 	updateDrop(slot0.topItem, slot3)
 	updateDrop(slot0.bottomItem, slot3)
 
-	slot10, slot11 = GetOwnedpropCount(slot3)
+	slot10, slot11 = GetOwnedDropCount(slot3)
 
 	setActive(slot0.ownerTF.parent, slot11)
 	setText(slot0.ownerTF, slot10)
 	setText(slot0.ownerLabelTF, i18n("word_own1"))
 
 	slot0.nameTF.text = slot3.cfg.name
-	slot0.descTF.text = slot3.desc
+	slot0.descTF.text = slot3.desc or slot3.cfg.desc
 
 	onButton(slot0, slot0.confirmBtn, function ()
 		if uv0 then

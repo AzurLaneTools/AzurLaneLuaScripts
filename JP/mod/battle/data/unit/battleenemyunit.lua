@@ -108,7 +108,9 @@ function slot8.IsShowHPBar(slot0)
 end
 
 function slot8.IsSpectre(slot0)
-	return slot0._tmpData.battle_unit_type <= uv0.SPECTRE_UNIT_TYPE
+	slot1 = nil
+
+	return ((slot0:GetAttr()[uv0.Battle.BattleBuffSetBattleUnitType.ATTR_KEY] == nil or slot0:GetAttrByName(slot2)) and slot0._tmpData.battle_unit_type) <= uv1.SPECTRE_UNIT_TYPE
 end
 
 function slot8.InitCldComponent(slot0)

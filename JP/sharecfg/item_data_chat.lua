@@ -48,6 +48,14 @@ pg.item_data_chat = {
 		desc = "Fifth　Anniversary！\n<color=#A7A7AAFF>五周年記念イベントで開放可能</color>",
 		scene = {}
 	},
+	[106] = {
+		time_limit_type = 0,
+		name = "六周年纪念",
+		id = 106,
+		time_second = 0,
+		desc = "献给所有六年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与六周年限定活动获取</color>",
+		scene = {}
+	},
 	[300] = {
 		time_limit_type = 1,
 		name = "カリスマ指揮官",
@@ -64,6 +72,14 @@ pg.item_data_chat = {
 		desc = "カムバックミッションで\n<color=#A7A7AAFF>開放可能（30日限定）</color>",
 		scene = {}
 	},
+	[602] = {
+		time_limit_type = 0,
+		name = "潮風と夏の別荘地",
+		id = 602,
+		time_second = 0,
+		desc = "<color=#ffffff>無人島でのバケーションを楽しもう~！</color>\nイベント「潮風と夏の無人島」に参加した指揮官に贈る",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -71,7 +87,9 @@ pg.item_data_chat = {
 		103,
 		104,
 		105,
+		106,
 		300,
-		301
+		301,
+		602
 	}
 }

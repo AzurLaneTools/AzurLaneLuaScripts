@@ -31,7 +31,7 @@ end
 function slot0.Hide(slot0)
 	slot0:clear()
 	setActive(slot0._tf, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTF)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
 function slot0.setCBFunc(slot0, slot1, slot2)

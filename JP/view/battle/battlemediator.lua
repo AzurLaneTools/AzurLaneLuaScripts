@@ -1169,8 +1169,8 @@ function slot0.handleNotification(slot0, slot1)
 			end
 
 			slot0:addSubLayers(Context.New({
-				mediator = BattleResultMediator,
-				viewComponent = slot7,
+				mediator = NewBattleResultMediator,
+				viewComponent = NewBattleResultScene,
 				data = {
 					system = slot6,
 					rivalId = slot0.contextData.rivalId,

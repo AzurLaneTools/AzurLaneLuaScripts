@@ -167,6 +167,16 @@ pg.task_meta_data_template = setmetatable({
 		100063,
 		100064,
 		100065,
+		100071,
+		100072,
+		100073,
+		100074,
+		100075,
+		100081,
+		100082,
+		100083,
+		100084,
+		100085,
 		200001,
 		200002,
 		200003,
@@ -190,7 +200,15 @@ pg.task_meta_data_template = setmetatable({
 		200061,
 		200062,
 		200063,
-		200064
+		200064,
+		200071,
+		200072,
+		200073,
+		200074,
+		200081,
+		200082,
+		200083,
+		200084
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1515,6 +1533,86 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100071] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "U-556(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 100071,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100072] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "U-556(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 100072,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100073] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "U-556(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 100073,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100074] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "U-556(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 100074,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100075] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "U-556(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 100075,
+		target_num = 1,
+		target_id = "100"
+	},
+	[100081] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "ヴェスタル(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 100081,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100082] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "ヴェスタル(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 100082,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100083] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "ヴェスタル(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 100083,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100084] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "ヴェスタル(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 100084,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100085] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "ヴェスタル(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 100085,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1704,6 +1802,70 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊でLv100+の敵を撃破",
 		id = 200064,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200071] = {
+		target_id_2 = "970801",
+		sub_type = 302,
+		desc = "セイレーン作戦でU-556(META)を含めた艦隊で1回勝利する",
+		id = 200071,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200072] = {
+		target_id_2 = "970801",
+		sub_type = 302,
+		desc = "セイレーン作戦でU-556(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 200072,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200073] = {
+		target_id_2 = "970801",
+		sub_type = 302,
+		desc = "セイレーン作戦でU-556(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 200073,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200074] = {
+		target_id_2 = "970801",
+		sub_type = 302,
+		desc = "セイレーン作戦でU-556(META)を含めた艦隊でLv100+の敵を撃破",
+		id = 200074,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200081] = {
+		target_id_2 = "971201",
+		sub_type = 302,
+		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊で1回勝利する",
+		id = 200081,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200082] = {
+		target_id_2 = "971201",
+		sub_type = 302,
+		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 200082,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200083] = {
+		target_id_2 = "971201",
+		sub_type = 302,
+		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 200083,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200084] = {
+		target_id_2 = "971201",
+		sub_type = 302,
+		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊でLv100+の敵を撃破",
+		id = 200084,
 		target_num = 1,
 		target_id = "100"
 	}

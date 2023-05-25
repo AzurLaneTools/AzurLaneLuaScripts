@@ -137,7 +137,12 @@ slot0.ActionLoop = {
 	swim_attack_left = false,
 	xiaqian = false,
 	skill_start = false,
-	skill_end = false
+	skill_end = false,
+	attack_unequip = false,
+	attack_unequip_left = false,
+	dead_unequip = false,
+	move_unequip = true,
+	move_unequip_left = true
 }
 slot0.CldType = {
 	BULLET = "bullet",

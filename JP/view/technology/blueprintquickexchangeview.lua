@@ -162,9 +162,12 @@ function slot0.UpdateBlueprint(slot0, slot1)
 	for slot7, slot8 in ipairs(pg.gameset.general_blueprint_list.description) do
 		if slot3:getItemCountById(slot8) > 0 then
 			slot10 = nil
-			slot14 = slot8
+			slot14 = DROP_TYPE_ITEM
 
-			for slot14, slot15 in ipairs(Item.GetConfig(DROP_TYPE_ITEM, slot14).display_icon) do
+			for slot14, slot15 in ipairs(updateDropCfg({
+				type = slot14,
+				id = slot8
+			}).display_icon) do
 				if slot15[1] == DROP_TYPE_ITEM and slot15[2] == slot2.id then
 					slot10 = {
 						index = slot14,

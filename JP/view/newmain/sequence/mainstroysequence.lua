@@ -9,6 +9,7 @@ function slot0.Execute(slot0, slot1)
 	slot0:CollectPuzzlaStories(slot2)
 	slot0:CollectIdolStories(slot2)
 	slot0:CollectDOAStories(slot2)
+	slot0:CollectActivityStage(slot2)
 	slot0:Play(slot2, slot1)
 end
 
@@ -84,6 +85,16 @@ end
 function slot0.CollectDOAStories(slot0, slot1)
 	if getProxy(ActivityProxy):getActivityById(ActivityConst.DOA_COLLECTION_FURNITURE) and not slot2:isEnd() and slot2:getConfig("config_client").story ~= nil then
 		table.insert(slot1, slot2:getConfig("config_client").story)
+	end
+end
+
+function slot0.CollectActivityStage(slot0, slot1)
+	slot5 = ActivityConst.ACTIVITY_TYPE_ZPROJECT
+
+	for slot5, slot6 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot5)) do
+		if slot6 and not slot6:isEnd() and slot6:getConfig("config_client").story ~= nil then
+			table.insert(slot1, slot6:getConfig("config_client").story)
+		end
 	end
 end
 

@@ -151,7 +151,7 @@ function slot0.Show(slot0)
 end
 
 function slot0.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTF)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	setActive(slot0._tf, false)
 
 	if slot0.settingChangedCB then

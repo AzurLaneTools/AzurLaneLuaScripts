@@ -7757,6 +7757,10 @@ _G.pg.base.gametip.ship_remould_warning_205124 = {
 	tip = "近代化改修は<color=#92fc63>戦士の心得</color>を消費します。\n続けますか？"
 }
 
+_G.pg.base.gametip.ship_remould_warning_205154 = {
+	tip = "改造（近代化改修）すると、スキル<color=#92fc63>【BIG SEVEN】</color>が\n<color=#92fc63>【BIG SEVEN·ネルソン】に強化されます</color>"
+}
+
 _G.pg.base.gametip.ship_remould_warning_206134 = {
 	tip = [[
 改造すると<color=#92fc63>【戦闘機機数+1】</color>
@@ -10101,7 +10105,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「クルスク」「ヴォロシーロフ」などの出現率UP！"
+	tip = "期間限定建造を累計200回行うと「ビスマルクZwei」を確定で入手可能！（最大4隻まで）"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11992,7 +11996,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = [[
 2.同建造で出現する艦船から2種類を選び「ピックアッ
 プ状態」（出現率がUPする状態）にできます
-<color=#FF5C5C>（※2022年7月14日まで常設建造した艦しか出現し
+<color=#FF5C5C>（※2023年3月22日まで常設建造した艦しか出現し
 ません）</color>]]
 		},
 		{
@@ -14621,30 +14625,13 @@ _G.pg.base.gametip.towerclimbing_gametip = {
 		{
 			info = [[
 ■概要
-「饅頭大冒険」とは、移動とジャンプでできるだけ高い
-階層を目指すミニゲームになります。
-「ゲーム回数」を所持している状態でゲームをクリアす
-ると、「ゲーム回数」が1回消費され、「特別招待状」
-の入手進捗が1つ進行します。
-「ゲーム回数」が7回消費されると、イベントバナーの
-「特別招待状」でアイテム「初夏招待状2020」を入手
-できます。
+「饅頭大冒険」とは、移動とジャンプでできるだけ高い階層を目指すミニゲームになります。
+「ゲーム回数」を所持している状態でゲームをクリアすると、「ゲーム回数」が1回消費され、「探検コイン」を入手できます。
+
 ■ゲームルール
-・画面下部の矢印キーとジャンプボタンで、SDサラト
-ガを操作して上の階層に移動します。
-・棘や罠にぶつかったり、画面下部の饅頭に触れたりす
-ると、ライフが1個減ります。ライフが０になるとゲー
-ム終了（クリア）になります。
-・到達する階層数によって得点（スコア）が記録されま
-す。ハイスコアを目指しましょう！
-■注意
-・「ゲーム回数」を所持していなくてもミニゲームを遊
-べますが、「特別招待状」の入手進捗を進行させること
-はできません。
-・「ゲーム回数」はイベント期間中、1日1回自動で付与
-されます。
-・イベントバナー「特別招待状」はイベント一覧か、祝
-祭広場右上の「招待状」から遷移できます。]]
+・画面下部の矢印キーとジャンプボタンで、SDサラトガを操作して上の階層に移動します。
+・棘や罠にぶつかったり、画面下部の饅頭に触れたりすると、ライフが1個減ります。ライフが０になるとゲーム終了（クリア）になります。
+・到達する階層数によって得点（スコア）が記録されます。ハイスコアを目指しましょう！]]
 		}
 	}
 }
@@ -18158,11 +18145,11 @@ _G.pg.base.gametip.story_autoplay_setting_2 = {
 }
 
 _G.pg.base.gametip.meta_shop_exchange_limit = {
-	tip = "尚未获得舰船"
+	tip = "未所持"
 }
 
 _G.pg.base.gametip.meta_shop_unexchange_label = {
-	tip = "尚未获得舰船"
+	tip = "未所持"
 }
 
 _G.pg.base.gametip.daily_level_quick_battle_label2 = {
@@ -18873,7 +18860,6 @@ _G.pg.base.gametip.salvage_tips = {
 			info = [[
 ■遊び方
 「サルベージ」とは、画面をタップすることでフックを投下し、色んなアイテムを引き上げて得点を稼ぐゲームになります。
-ミニゲームを7日間プレイすると、SSR艦船と交換できる「四周年の招待状」を入手出来ます。
 
 ■ルール
 ・ゲームが開始すると、画面内で色んなサルベージ対象が出現します。アイテムやキャラをタップして引き上げると、得点が増減します
@@ -20941,6 +20927,72 @@ _G.pg.base.gametip.cruise_task_help_2304 = {
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2306 = {
+	tip = "<size=23> 2023.6.1-2023.7.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「ヴェスタル(META)」</color>などを入手可能！</size>"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2306 = {
+	tip = {
+		{
+			info = [[
+■キャンペーン開催期間
+ 2023.6.1（木）0:00～2023.7.31（月）23:59
+
+■概要
+「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。
+また、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。
+通常報酬からは艦船「ヴェスタル(META)」、SP報酬からは航空母艦「加賀」の限定着せ替え「狐舞皚々」を入手できます。
+
+■遊び方
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+　①週次開放任務
+　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ
+　②全期間任務
+　最初から全開放される任務。全1グループ
+・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。
+・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。
+　①通常報酬
+　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります
+　②SP報酬
+　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。
+・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。
+
+■Tips
+・プレイスタイル
+　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。
+
+・クルーズパス
+　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。
+
+・任務のスキップ（オススメしません）
+　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+　ダイヤを消費しますので、オススメしません厖
+　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2306 = {
+	tip = {
+		{
+			info = [[
+■シーズン任務について
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+　①週次開放任務
+　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ
+　②全期間任務
+　最初から全開放される任務。全1グループ
+
+・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+
+・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+　ダイヤを消費しますので、オススメしません……
+　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "リセット"
 }
@@ -22609,6 +22661,22 @@ _G.pg.base.gametip.ryza_task_tag_develop = {
 	tip = "研究"
 }
 
+_G.pg.base.gametip.ryza_task_tag_adventure = {
+	tip = "探検"
+}
+
+_G.pg.base.gametip.ryza_task_tag_build = {
+	tip = "施設拡張"
+}
+
+_G.pg.base.gametip.ryza_task_tag_create = {
+	tip = "クラフト"
+}
+
+_G.pg.base.gametip.ryza_task_tag_daily = {
+	tip = "デイリー"
+}
+
 _G.pg.base.gametip.ryza_task_detail_content = {
 	tip = "内容"
 }
@@ -22871,19 +22939,16 @@ _G.pg.base.gametip.hotspring_help = {
 		{
 			info = [[
 裏山温泉について
-開催期間<color=#92fc63>2022.12.22-2023.1.5メンテナンスまで</color>
+開催期間<color=#92fc63>2023.5.25-2023.6.21メンテナンスまで</color>
 
 裏山温泉とは
 裏山温泉とは、艦船を「温泉枠」に配置することで、艦船のコンディション回復速度を上昇させるシステムです。
-「温泉枠」は限定イベント完成で得られる「裏山温泉コイン」消費で拡張できます。
-また、「温泉枠」を拡張すると「温泉売店」で報酬アイテムと交換できます。
+5.29まで毎日開放される任務をすべてクリアすると、裏山温泉機能が開放されます。
+開放任務に必要なアイテムは、裏山拠点の「クラフト」で作ることができます。
 
 遊び方
-1.2022年12月28日まで毎日開放される限定任務をクリアすると、アイテム「裏山温泉コイン」を入手できます
-2.温泉画面で枠拡張ボタンをタップすると、艦船を配置できる「温泉枠」を拡張できます
-3.「温泉枠」を拡張すると、「温泉売店」で報酬を交換できる「温泉売店引換券」を入手可能です
-4.「温泉枠」をタップするか、右上のボタンをタップすることで艦船を温泉枠に配置・配置解除できます
-5.また、温泉枠にいる艦船を長押しすることで配置枠を変更できます]]
+「温泉枠」をタップするか、右上のボタンをタップすることで艦船を温泉枠に配置・配置解除できます
+また、温泉枠にいる艦船を長押しすることで配置枠を変更できます]]
 		}
 	}
 }
@@ -23576,6 +23641,46 @@ _G.pg.base.gametip.battle_text_yingxiv4_10 = {
 	tip = "騎士の動きが弱っている、火力を集中せよ！"
 }
 
+_G.pg.base.gametip.battle_text_bisimaiz_1 = {
+	tip = "現在の侵食レベル：<color=#92fc63>0</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_2 = {
+	tip = "現在の侵食レベル：<color=#f1f102>1</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_3 = {
+	tip = "現在の侵食レベル：<color=#f1f102>2</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_4 = {
+	tip = "現在の侵食レベル：<color=#ffc038>3</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_5 = {
+	tip = "現在の侵食レベル：<color=#ffc038>4</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_6 = {
+	tip = "現在の侵食レベル：<color=#ff5c5c>5</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_7 = {
+	tip = "侵食が浄化されました。現在の侵食レベル：<color=#92fc63>0</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_8 = {
+	tip = "「<color=#ffc038>シンクロナイズ接続</color>」-自律型艤装の防御が大幅アップし、さらに<color=#f1f102>ダメージを一部身代わり</color>する"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_9 = {
+	tip = "「<color=#ffc038>シンクロナイズ解離</color>」-自律型艤装の防御が<color=#f1f102>大幅にダウン</color>している！攻撃を集中しよう！"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_10 = {
+	tip = "自律艤装「ゲリュオン」の戦力低下を確認――<color=#ffc038>リュウコツ波動</color>が観測されている…？！"
+}
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "戦意低下"
 }
@@ -23874,4 +23979,481 @@ _G.pg.base.gametip.blueprint_shipperformance = {
 
 _G.pg.base.gametip.blueprint_researching = {
 	tip = "開発中……"
+}
+
+_G.pg.base.gametip.sculpture_drawline_tip = {
+	tip = "点線を指でなぞって設計図を作ろう！"
+}
+
+_G.pg.base.gametip.sculpture_drawline_done = {
+	tip = "設計通りにお土産のパーツを組み合わせられました！"
+}
+
+_G.pg.base.gametip.sculpture_drawline_exit = {
+	tip = "製作を中止すると、製作進捗がリセットされます。製作を中止しますか？\n（製作を再開するときに素材は消費されません）"
+}
+
+_G.pg.base.gametip.sculpture_puzzle_tip = {
+	tip = "お土産のパーツを点線に囲まれたエリアまでドラッグして組み合わせよう！"
+}
+
+_G.pg.base.gametip.sculpture_gratitude_tip = {
+	tip = "お土産を艦船にドラッグしてプレゼントしよう！"
+}
+
+_G.pg.base.gametip.sculpture_close_tip = {
+	tip = "画面タップで戻る"
+}
+
+_G.pg.base.gametip.gift_act_help = {
+	tip = {
+		{
+			info = [[
+「饅頭手芸」とは：
+饅頭手芸では、冒険マップや「クラフト」で入手する素材を消費し、艦船たちに贈るお土産を作ることができます。
+お土産を艦船に贈ると、「探検コイン」などの報酬を入手することができます。
+
+遊び方：
+1.プレゼントしたい艦船を選択し、画面のヒント通りに操作し、お土産を作ることができます。
+2.完成したお土産をドラッグで艦船に贈ることができます。艦船にプレゼントすると、返礼として「探検コイン」などのアイテムを入手できます。
+3.同じ艦船に1回しかプレゼントできません。
+4.「輝く宝石」は、「饅頭探検隊」に入手できる「クラフト用鉱石」を「クラフト」で消費することで生成できます。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.gift_act_drawline_help = {
+	tip = {
+		{
+			info = [[
+「饅頭手芸」とは：
+饅頭手芸では、冒険マップや「クラフト」で入手する素材を消費し、艦船たちに贈るお土産を作ることができます。
+お土産を艦船に贈ると、「探検コイン」などの報酬を入手することができます。
+
+遊び方：
+1.プレゼントしたい艦船を選択し、画面のヒント通りに操作し、お土産を作ることができます。
+2.完成したお土産をドラッグで艦船に贈ることができます。艦船にプレゼントすると、返礼として「探検コイン」などのアイテムを入手できます。
+3.同じ艦船に1回しかプレゼントできません。
+4.「輝く宝石」は、「饅頭探検隊」に入手できる「クラフト用鉱石」を「クラフト」で消費することで生成できます。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.gift_act_tips = {
+	tip = "$1が不足しています"
+}
+
+_G.pg.base.gametip.expedition_award_tip = {
+	tip = "指揮官がいない間、饅頭探検隊が遺跡を冒険してきた！"
+}
+
+_G.pg.base.gametip.island_act_tips1 = {
+	tip = "画面をタップして戻る"
+}
+
+_G.pg.base.gametip.haidaojudian_help = {
+	tip = {
+		{
+			info = [[
+イベント概要：
+ 「潮風と夏の無人島」イベントとは「無人島」を探検し「探検コイン」を集め、様々な報酬を入手できるイベントになります。
+ 「潮風と夏の無人島」は、「冒険マップ」と「裏山拠点」の2つのパートに分かれています。
+ 「無人島」でマップ探検し、様々なイベントやミニゲームをプレイすることで、「探検コイン」を入手し「ショップ」で報酬と交換することができます。
+ 「裏山拠点」では「無人島」で獲得した素材を使い、拠点の拡張したりアイテムを製作（クラフト）したりすることで「無人島」で探検するエリアを開放し、様々な報酬を得ることができます。
+
+「裏山拠点」について：
+「裏山拠点」ではアイコンをタップすることで、更に様々な機能に遷移できます。
+さらに「裏山拠点」にはレベルが存在し、レベルを上げるとイベント期間中に艦隊全体に強化効果を付与できます。
+レベルを上げるには、冒険マップや「クラフト」で集めた素材を消費し、各施設を「拡張」する必要があります。
+各施設を一通り拡張すると、拠点レベルは自動で上昇します。（現在の拠点レベルについては「冒険任務」で確認できます）
+
+各種機能について：
+①クラフト
+　無人島の冒険マップや「饅頭探検隊」、実績任務で入手した素材を消費し、限定家具やほかの機能に使用する素材アイテムなど、様々なアイテムを生成することができます。
+　「クラフト」を拡張すれば、生成できるアイテムの種類が増えます。
+
+②饅頭探検隊
+　毎日一度だけ、「饅頭探検隊」から自動で素材アイテムを入手できます。
+　「饅頭探検隊」で入手できるアイテムの数は、「饅頭探検隊」とその他の施設を拡張することで増やすことができます。
+
+③饅頭手芸
+　饅頭手芸では、冒険マップや「クラフト」で入手する素材を消費し、艦船たちに贈るお土産を作ることができます。
+　お土産を作って艦船に贈ると、返礼として「探検コイン」などの報酬を入手することができます。
+
+④冒険任務
+　実績任務を確認することができます。任務を達成すると、「探検コイン」などの報酬を入手することができます。
+　また、「冒険進捗」では現在のストーリー進捗と探検進行度を確認することができます。ページを埋めると、冒険マップでの隠し宝箱のヒントも表示されます。
+
+⑤饅頭給食隊、饅頭補給隊
+　「拡張」を行うと拠点レベルを上げられるほか、「饅頭探検隊」で入手できるアイテムも増やせることができます。
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.haidaojudian_building_tip = {
+	tip = "施設拡張に必要な素材が不足しています"
+}
+
+_G.pg.base.gametip.workbench_help = {
+	tip = {
+		{
+			info = [[
+概要：
+「クラフト」では、無人島の冒険マップや「饅頭探検隊」、実績任務で入手した素材を消費し、
+限定家具やほかの機能に使用する素材アイテムなど、様々なアイテムを生成することができます。
+
+遊び方
+1.レシピを選択し、素材を消費することでアイテムを生成できます。
+2.一部レシピは「クラフト」右下のボタンをタップして、施設を拡張することで開放されます。
+3.所持している素材は「倉庫」で確認できます。またレシピ画面の素材アイテムアイコンをタップすると、素材の入手方法を確認できます。
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.workbench_need_materials = {
+	tip = "素材消費"
+}
+
+_G.pg.base.gametip.workbench_tips1 = {
+	tip = "クラフト回数が不足しています"
+}
+
+_G.pg.base.gametip.workbench_tips2 = {
+	tip = "クラフト素材が不足しています"
+}
+
+_G.pg.base.gametip.workbench_tips3 = {
+	tip = "これ以上クラフトできません"
+}
+
+_G.pg.base.gametip.workbench_tips4 = {
+	tip = "クラフトLv.$1で開放"
+}
+
+_G.pg.base.gametip.workbench_tips5 = {
+	tip = "-制作できるアイテムがありません-"
+}
+
+_G.pg.base.gametip.workbench_tips6 = {
+	tip = "これ以上施設を拡張できません"
+}
+
+_G.pg.base.gametip.workbench_tips7 = {
+	tip = "素材"
+}
+
+_G.pg.base.gametip.workbench_tips8 = {
+	tip = "製作数量"
+}
+
+_G.pg.base.gametip.workbench_tips9 = {
+	tip = "必要素材"
+}
+
+_G.pg.base.gametip.workbench_tips10 = {
+	tip = "製作可能なレシピのみ表示"
+}
+
+_G.pg.base.gametip.island_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/island_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help5",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help6",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help7",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.islandnode_tips1 = {
+	tip = "リセットまで"
+}
+
+_G.pg.base.gametip.islandnode_tips2 = {
+	tip = "TIPS"
+}
+
+_G.pg.base.gametip.islandnode_tips3 = {
+	tip = "選べるのは一回だけ！"
+}
+
+_G.pg.base.gametip.islandnode_tips4 = {
+	tip = "正解おめでとうピョ！"
+}
+
+_G.pg.base.gametip.islandnode_tips5 = {
+	tip = "不正解ピョ…次はきっと正解できるピョ！"
+}
+
+_G.pg.base.gametip.islandnode_tips6 = {
+	tip = "花畑はまだ収穫できません"
+}
+
+_G.pg.base.gametip.islandnode_tips7 = {
+	tip = "指揮官がいない間、$1は花畑はの世話をした！"
+}
+
+_G.pg.base.gametip.islandnode_tips8 = {
+	tip = "裏山拠点の施設を拡張し、拠点レベルを上げると開放されます"
+}
+
+_G.pg.base.gametip.islandnode_tips9 = {
+	tip = "裏山拠点を拡張し拠点レベルを上げ、ストーリーを開放しよう"
+}
+
+_G.pg.base.gametip.islandshop_tips1 = {
+	tip = "残り交換可能期間"
+}
+
+_G.pg.base.gametip.islandshop_tips2 = {
+	tip = "限定"
+}
+
+_G.pg.base.gametip.islandshop_tips3 = {
+	tip = "消費"
+}
+
+_G.pg.base.gametip.islandshop_tips4 = {
+	tip = "$1不足"
+}
+
+_G.pg.base.gametip.haidaojudian_upgrade_limit = {
+	tip = "この施設は現在拡張できません。他の施設から拡張しましょう！"
+}
+
+_G.pg.base.gametip.chargetip_monthcard_1 = {
+	tip = "貿易許可証を購入しました！アイテムを入手しました："
+}
+
+_G.pg.base.gametip.chargetip_monthcard_2 = {
+	tip = "貿易許可証のデイリー報酬はメールボックスに送られました"
+}
+
+_G.pg.base.gametip.chargetip_crusing = {
+	tip = "シーズン任務・SP報酬を開放しました！"
+}
+
+_G.pg.base.gametip.chargetip_giftpackage = {
+	tip = "購入に成功しました！アイテムはメールボックスに送られました"
+}
+
+_G.pg.base.gametip.package_view_1 = {
+	tip = "貿易許可証購入成功！下記を入手しました"
+}
+
+_G.pg.base.gametip.package_view_2 = {
+	tip = "貿易許可証有効期間内は毎日報酬を入手可能"
+}
+
+_G.pg.base.gametip.package_view_3 = {
+	tip = "クルーズパス購入済み"
+}
+
+_G.pg.base.gametip.package_view_4 = {
+	tip = "入手済："
+}
+
+_G.pg.base.gametip.probabilityskinshop_tip = {
+	tip = "すでに当該着せ替えを所持している場合、自動でダイヤに変換されます"
+}
+
+_G.pg.base.gametip.skin_gift_desc = {
+	tip = "下記着せ替えからランダムな1着を入手します（すでに所持している場合、自動でダイヤに変換されます）\n出現する着せ替えと出現率は下記になります：\n$1"
+}
+
+_G.pg.base.gametip.springtask_tip = {
+	tip = "裏山拠点の「クラフト」で必要なアイテムを作り、温泉施設を完成しよう！\n温泉施設を完成すると、配置するコンディション回復速度をUPさせる温泉機能が利用可能！（5/29全任務開放）"
+}
+
+_G.pg.base.gametip.springtask_help = {
+	tip = {
+		{
+			info = "                                         游戏规则\n"
+		},
+		{
+			info = "1.活动期间每天0:00:00增加一次可获得【圣地亚哥之星】\n的次数；"
+		},
+		{
+			info = "2.获得【圣地亚哥之星】的次数可以累积，总计7次，即\n便前一天没有完成，也可以累积；"
+		},
+		{
+			info = "3.连线两个相同的角色头像进行消除；"
+		},
+		{
+			info = "4.连接两个头像之间的连线拐弯不能超过两个；"
+		},
+		{
+			info = "5.消除所有的角色头像后，如果拥有可获得【圣地亚哥之\n星】的次数，可获得【圣地亚哥之星】并消耗一次次数；"
+		},
+		{
+			info = "6.参与活动7天可收集18颗【圣地亚哥之星】，并获得圣\n地亚哥专属改造道具【闪耀的麦克风】；"
+		},
+		{
+			info = "7.目前拥有【闪耀的麦克风】或者目前拥有【圣地亚哥改\n】的玩家，会获得纪念品【圣地亚哥纪念之星】；"
+		}
+	}
+}
+
+_G.pg.base.gametip.island_build_desc = {
+	tip = "施設を拡張すると、拠点LvをUPさせることができます"
+}
+
+_G.pg.base.gametip.island_history_desc = {
+	tip = "探検が最後まで進捗すると、隠し宝箱のヒントが出現！"
+}
+
+_G.pg.base.gametip.island_build_level = {
+	tip = "拠点Lv"
+}
+
+_G.pg.base.gametip.island_game_limit_help = {
+	tip = "毎日0時にミニゲーム回数が$1回加算"
+}
+
+_G.pg.base.gametip.island_game_limit_num = {
+	tip = "所持数:$1"
+}
+
+_G.pg.base.gametip.ore_minigame_help = {
+	tip = {
+		{
+			info = [[
+概要：
+「饅頭採鉱戦」とは、明石を操作し画面上部の鉱石を下部に運び、ハイスコアを狙うミニゲームになります
+
+遊び方：
+1.画面左下のコントローラーで明石を移動させることができます。
+2.明石を画面上部に採鉱饅頭たちが落とした鉱石に近づけ、右下の「運搬」ボタンをタップすると、鉱石を持ち上げられます。
+　 鉱石を持っている状態でも新たに鉱石を持ち上げられますが、一定の重量を超えると鉱石を同時に持つことができません。
+　さらに、持っている鉱石が一定の重量を超えると、移動速度が低下します。
+3.鉱石を持っている明石を画面下部のタラップに移動すると、鉱石を下ろすことができます。鉱石を下ろすと、スコアを入手できます。
+4.鉱石を持っている状態で通過する饅頭とぶつかると、持っている鉱石が全て失われます。
+5.残り時間が0になるか、ゲームを終了すると、ゲームクリアになります。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.meta_shop_exchange_limit_2 = {
+	tip = "未開放"
+}
+
+_G.pg.base.gametip.meta_shop_tip = {
+	tip = "限界突破MAX分まで交換可能です"
+}
+
+_G.pg.base.gametip.pt_shop_tran_tip = {
+	tip = "「$2」は艦船限定突破MAX分までしか入手できません。\n「$2」を$1個入手し、さらに残りの「$2」を「$4」$3個に変換しますか？"
+}
+
+_G.pg.base.gametip.urdraw_tip = {
+	tip = "まだ受け取っていない累計建造数報酬があります"
+}
+
+_G.pg.base.gametip.urdraw_complement = {
+	tip = "累計建造回数：<color=#92fc63>$1</color>\n残り入手可能時間：<color=#ff5c5c>$2</color>"
+}
+
+_G.pg.base.gametip.meta_class_t_level_1 = {
+	tip = "炬火の力"
+}
+
+_G.pg.base.gametip.meta_class_t_level_2 = {
+	tip = "構造の理"
+}
+
+_G.pg.base.gametip.meta_class_t_level_3 = {
+	tip = "焔追の灰"
+}
+
+_G.pg.base.gametip.meta_class_t_level_4 = {
+	tip = "揺灯の力"
+}
+
+_G.pg.base.gametip.meta_shop_exchange_limit_tip = {
+	tip = "艦船$1はまだ入手していません"
+}
+
+_G.pg.base.gametip.meta_shop_exchange_limit_2_tip = {
+	tip = "$1年$2月$3日$4分$5秒後に交換できるようになります"
+}
+
+_G.pg.base.gametip.charge_tip_crusing_label = {
+	tip = "入手しました"
+}
+
+_G.pg.base.gametip.mktea_1 = {
+	tip = "茶葉の摘採（てきさい）のこだわりこそ、良いお茶を作る下地になりましょう"
+}
+
+_G.pg.base.gametip.mktea_2 = {
+	tip = "茶葉を広げて、水分を蒸発させ、柔らかくしましょう"
+}
+
+_G.pg.base.gametip.mktea_3 = {
+	tip = "茶の香りを保つために、殺青は欠かせないステップです"
+}
+
+_G.pg.base.gametip.mktea_4 = {
+	tip = "殺青後の茶葉を涼しい場所に置き、薄く広げて水分を戻します。冷めたら形の整わない葉の欠片をふるい落とします"
+}
+
+_G.pg.base.gametip.mktea_5 = {
+	tip = "釜で炒って茶葉の香りと形状を最適な状態に仕上げ、色合いを緑潤にし、葉が平らで滑らかになるようにします"
+}
+
+_G.pg.base.gametip.random_skin_list_item_desc_label = {
+	tip = "着せ替え"
 }

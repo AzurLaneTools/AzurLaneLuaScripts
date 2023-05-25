@@ -236,7 +236,7 @@ function slot0.UpdateEquipItem(slot0, slot1, slot2)
 		if uv0.ptMax then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_upgrade"))
 
-			return true
+			return
 		end
 
 		seriesAsync({
