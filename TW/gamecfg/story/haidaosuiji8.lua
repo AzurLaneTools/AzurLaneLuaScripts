@@ -4,9 +4,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#A9F548FF",
-			stopbgm = true,
 			side = 2,
-			bgm = "main-SeaAndSun",
 			say = "眼前巨大的鳥巢吸引了視線，宛如遮天蔽日的雲。",
 			typewriter = {
 				speed = 0.05,

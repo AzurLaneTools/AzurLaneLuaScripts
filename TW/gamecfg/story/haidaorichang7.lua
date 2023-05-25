@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海風與夏日的無人島\n\n<size=45>临时据点</size>",
+					"海風與夏日的無人島\n\n<size=45>臨時據點</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "黃昏時分再回到登錄點時，這裡已經有了一頂成型的帳篷。",
+			say = "黃昏時分再回到登陸點時，這裡已經有了一頂成型的帳篷。",
 			bgmDelay = 2,
 			bgm = "theme-SeaAndSun-soft",
 			flashout = {

@@ -1422,10 +1422,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "格奈森瑙·META1",
+			actorName = "{namecode:477}",
 			bgName = "bg_bsmre_cg1",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			nameColor = "#ffa500",
 			say = "她现在应该与余烬一同行动才是，这个影像究竟是……",
 			typewriter = {
 				speed = 0.05,
@@ -1532,7 +1532,7 @@ return {
 			actorName = "{namecode:477}",
 			bgName = "bg_bsmre_cg2",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			nameColor = "#ffa500",
 			say = "{namecode:96}，躲到我的身后来……！",
 			typewriter = {
 				speed = 0.05,

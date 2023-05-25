@@ -3366,12 +3366,17 @@ end
 function changeToScrollText(slot0, slot1)
 	assert(GetComponent(slot0, typeof(Text)), "without component<Text>")
 
-	if slot0.childCount == 0 then
-		slot3 = cloneTplTo(slot0, slot0)
+	if not slot0.Find(slot0, "subText") then
+		slot3 = cloneTplTo(slot0, slot0, "subText")
+
+		eachChild(slot0, function (slot0)
+			setActive(slot0, slot0 == uv0)
+		end)
+
 		slot0.GetComponent(slot0, typeof(Text)).enabled = false
 	end
 
-	setScrollText(slot0.GetChild(slot0, 0), slot1)
+	setScrollText(slot3, slot1)
 end
 
 slot22, slot23, slot24, slot25 = nil

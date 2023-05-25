@@ -1,5 +1,25 @@
 pg = pg or {}
 pg.furniture_shop_template = {
+	[120] = {
+		not_for_sale = 0,
+		gem_price = 450,
+		time = "always",
+		dorm_icon_price = 150,
+		id = 120,
+		new = 0,
+		discount = 0,
+		discount_time = ""
+	},
+	[121] = {
+		not_for_sale = 0,
+		gem_price = 450,
+		time = "always",
+		dorm_icon_price = 150,
+		id = 121,
+		new = 0,
+		discount = 0,
+		discount_time = ""
+	},
 	[122] = {
 		not_for_sale = 0,
 		gem_price = 450,
@@ -48191,6 +48211,8 @@ pg.furniture_shop_template = {
 		}
 	},
 	all = {
+		120,
+		121,
 		122,
 		123,
 		223,

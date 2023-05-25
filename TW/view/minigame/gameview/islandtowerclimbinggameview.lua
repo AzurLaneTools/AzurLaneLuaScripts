@@ -50,7 +50,22 @@ function slot0.Start(slot0)
 	slot0.controller = TowerClimbingController.New()
 
 	slot0.controller.view:SetUI(slot0._go)
-	slot0.controller:SetCallBack(function (slot0, slot1, slot2)
+	slot0.controller:SetCallBack(function (slot0, slot1, slot2, slot3)
+		slot4 = uv0:GetMGData():GetRuntimeData("elements") or {}
+
+		for slot8 = 1, slot3 do
+			if slot8 > #slot4 then
+				table.insert(slot4, 0)
+			end
+		end
+
+		if slot4[slot3] <= slot0 then
+			slot4[slot3] = slot0
+
+			uv0:StoreDataToServer(slot4)
+			uv0:updateHighScore()
+		end
+
 		if uv0:getGameTimes() and uv0:getGameTimes() > 0 then
 			uv0.sendSuccessFlag = true
 
@@ -61,10 +76,21 @@ function slot0.Start(slot0)
 	slot0.controller:SetUp(slot0:PackData())
 end
 
+function slot0.updateHighScore(slot0)
+	slot1 = slot0:GetMGData():GetRuntimeData("elements") or {}
+
+	if slot0.controller then
+		-- Nothing
+	end
+
+	slot0.controller:updateHighScore(slot1)
+end
+
 function slot0.OnSendMiniGameOPDone(slot0, slot1)
 	slot0.itemNums = getProxy(MiniGameProxy):GetHubByHubId(slot0.hub_id).count or 0
 
 	setText(findTF(slot0._tf, "overview/item/num"), slot0.itemNums)
+	slot0:updateHighScore()
 end
 
 function slot0.getGameTimes(slot0)
@@ -86,7 +112,7 @@ function slot0.GetAwardScores()
 end
 
 function slot0.PackData(slot0)
-	slot4, slot5, slot6 = uv0.GetTowerClimbingPageAndScore(slot0:GetMGData():GetRuntimeData("kvpElements"))
+	slot4, slot5, slot6 = uv0.GetTowerClimbingPageAndScore(slot0:GetMGData():GetRuntimeData("elements"))
 
 	print(slot4, "-", slot5)
 

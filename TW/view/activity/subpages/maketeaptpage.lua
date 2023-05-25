@@ -22,6 +22,10 @@ function slot0.initMv(slot0)
 
 	slot0.mvContent = findTF(slot0._tf, "AD/mvPage/movie/view/content")
 	slot0.movieWord = findTF(slot0._tf, "AD/mvPage/movie/movieWord")
+	slot0.descClose = findTF(slot0._tf, "AD/mvPage/descClose")
+
+	setText(slot0.descClose, i18n("island_act_tips1"))
+
 	slot0.mvIndex = 1
 
 	slot0:pageUpdate()
@@ -80,7 +84,11 @@ function slot0.initMv(slot0)
 		slot5 = slot4
 
 		onButton(slot0, findTF(slot0.mvTf, "page/" .. slot4), function ()
-			if uv0.mvIndex ~= uv1 then
+			if uv0.nday < 6 then
+				return
+			end
+
+			if uv0.mvIndex ~= uv1 and not uv0.isLoading then
 				uv0.mvIndex = uv1
 
 				uv0:pageChange()

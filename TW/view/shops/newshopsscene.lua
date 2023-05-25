@@ -164,6 +164,7 @@ function slot0.ActiveDefaultShop(slot0)
 		"sham",
 		"fragment",
 		"guild",
+		"medal",
 		"meta"
 	}
 

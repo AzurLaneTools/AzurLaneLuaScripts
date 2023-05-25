@@ -20141,129 +20141,124 @@ cs.gametip = {
 		311,
 		true
 	},
-	springtask_help = {
-		703808,
-		79,
-		true
-	},
 	island_build_desc = {
-		703887,
+		703808,
 		124,
 		true
 	},
 	island_history_desc = {
-		704011,
+		703932,
 		151,
 		true
 	},
 	island_build_level = {
-		704162,
+		704083,
 		94,
 		true
 	},
 	island_game_limit_help = {
-		704256,
+		704177,
 		138,
 		true
 	},
 	island_game_limit_num = {
-		704394,
+		704315,
 		94,
 		true
 	},
 	ore_minigame_help = {
-		704488,
-		579,
+		704409,
+		585,
 		true
 	},
 	meta_shop_exchange_limit_2 = {
-		705067,
+		704994,
 		102,
 		true
 	},
 	meta_shop_tip = {
-		705169,
+		705096,
 		135,
 		true
 	},
 	pt_shop_tran_tip = {
-		705304,
+		705231,
 		309,
 		true
 	},
 	urdraw_tip = {
-		705613,
+		705540,
 		138,
 		true
 	},
 	urdraw_complement = {
-		705751,
+		705678,
 		169,
 		true
 	},
 	meta_class_t_level_1 = {
-		705920,
+		705847,
 		96,
 		true
 	},
 	meta_class_t_level_2 = {
-		706016,
+		705943,
 		96,
 		true
 	},
 	meta_class_t_level_3 = {
-		706112,
+		706039,
 		96,
 		true
 	},
 	meta_class_t_level_4 = {
-		706208,
+		706135,
 		96,
 		true
 	},
 	meta_shop_exchange_limit_tip = {
-		706304,
+		706231,
 		112,
 		true
 	},
 	meta_shop_exchange_limit_2_tip = {
-		706416,
+		706343,
 		149,
 		true
 	},
 	charge_tip_crusing_label = {
-		706565,
+		706492,
 		100,
 		true
 	},
 	mktea_1 = {
-		706665,
+		706592,
 		132,
 		true
 	},
 	mktea_2 = {
-		706797,
+		706724,
 		132,
 		true
 	},
 	mktea_3 = {
-		706929,
+		706856,
 		132,
 		true
 	},
 	mktea_4 = {
-		707061,
+		706988,
 		177,
 		true
 	},
 	mktea_5 = {
-		707238,
+		707165,
 		186,
 		true
 	},
 	random_skin_list_item_desc_label = {
-		707424,
-		103,
+		707351,
+		102,
 		true
 	}
 }

@@ -9365,7 +9365,6 @@ pg.base.ship_skin_template_20 = {
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		ship_l2d_id = "",
 		tag = {
 			1,
 			2
@@ -9458,6 +9457,10 @@ pg.base.ship_skin_template_20 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
+		},
+		ship_l2d_id = {
+			1990311,
+			1990312
 		}
 	},
 	[399050] = {

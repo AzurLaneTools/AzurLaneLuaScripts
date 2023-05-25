@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海風與夏日的無人島\n\n<size=45>海龟栖息地</size>",
+					"海風與夏日的無人島\n\n<size=45>海龜棲息地</size>",
 					1
 				}
 			}
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "……躺在它們中央一塊平整的礁石上，正沉浸於夢鄉中的拉菲。",
+			say = "……躺在牠們中央一塊平整的礁石上，正沉浸於夢鄉中的拉菲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不過這裡同時也是它們的家園……不要太打擾到它們哦。",
+			say = "不過這裡同時也是牠們的家園……不要太打擾到牠們哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1

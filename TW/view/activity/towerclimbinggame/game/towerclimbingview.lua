@@ -223,10 +223,10 @@ function slot0.ResetParams(slot0)
 	slot0.hrzOffse = 0
 end
 
-function slot0.OnEndGame(slot0, slot1, slot2)
+function slot0.OnEndGame(slot0, slot1, slot2, slot3)
 	slot0:ResetParams()
 	removeOnButton(slot0.jumpBtn)
-	slot0:ShowResultPanel(slot1, slot2)
+	slot0:ShowResultPanel(slot1, slot2, slot3)
 end
 
 function slot0.OnExitGame(slot0)
@@ -249,16 +249,25 @@ function slot0.ShowQuitPanel(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.ShowResultPanel(slot0, slot1, slot2)
+function slot0.ShowResultPanel(slot0, slot1, slot2, slot3)
 	slot0:ActivePanel(slot0.resultPanel, true)
 
 	slot0.resultPanelScoreTxt.text = slot1
-	slot0.resultPanelHScoreTxt.text = slot2
+
+	if slot0.highScores and slot3 <= #slot0.highScores then
+		slot0.resultPanelHScoreTxt.text = slot0.highScores[slot3]
+	else
+		slot0.resultPanelHScoreTxt.text = slot2
+	end
 
 	onButton(slot0, slot0.resultPanelEndBtn, function ()
 		uv0:ActivePanel(uv0.resultPanel, false)
 		uv0.controller:ExitGame()
 	end, SFX_PANEL)
+end
+
+function slot0.SetHighScore(slot0, slot1)
+	slot0.highScores = slot1
 end
 
 function slot0.ActivePanel(slot0, slot1, slot2)

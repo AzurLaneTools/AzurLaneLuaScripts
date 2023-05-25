@@ -3886,7 +3886,7 @@ pg.base.ship_skin_template_19 = {
 	},
 	[900326] = {
 		ship_group = 900326,
-		name = "反擊·META",
+		name = "聲望·META",
 		bullet_skin_secondary = "",
 		hand_id = 0,
 		bgm = "",
@@ -4015,7 +4015,7 @@ pg.base.ship_skin_template_19 = {
 	},
 	[900327] = {
 		ship_group = 900327,
-		name = "聲望·META",
+		name = "反擊·META",
 		bullet_skin_secondary = "",
 		hand_id = 0,
 		bgm = "",

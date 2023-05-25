@@ -179,15 +179,21 @@ function slot0.EndGame(slot0)
 
 	slot1 = slot0.map:GetPlayer()
 
-	slot0.view:OnEndGame(slot1.score, slot1.mapScore)
+	slot0.view:OnEndGame(slot1.score, slot1.mapScore, slot0.map.id)
 
 	if slot0.OnGameEndCallBack then
-		slot0.OnGameEndCallBack(slot1.score, slot1.higestscore, slot1.pageIndex)
+		slot0.OnGameEndCallBack(slot1.score, slot1.higestscore, slot1.pageIndex, slot0.map.id)
 	end
 
 	if slot0.OnOverMapScore and slot1:IsOverMapScore() then
 		slot0.OnOverMapScore(slot0.map.id, slot1.score)
 	end
+end
+
+function slot0.updateHighScore(slot0, slot1)
+	slot0.highScores = slot1
+
+	slot0.view:SetHighScore(slot1)
 end
 
 function slot0.ExitGame(slot0)

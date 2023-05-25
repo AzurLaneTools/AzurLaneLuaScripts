@@ -1129,7 +1129,7 @@ pg.activity_template = {
 		config_client = {
 			scene = "anniversary island 2023",
 			lv4Story = "HAIDAORICHANG26",
-			lv3Story = "HAIDAORICHANG16",
+			lv3Story = "HAIDAORICHANG15",
 			lv2Story = "HAIDAORICHANG8",
 			ships = {
 				"xinzexi_3",
@@ -1592,7 +1592,6 @@ pg.activity_template = {
 				18704,
 				18705,
 				18706,
-				18707,
 				18708,
 				18709,
 				18710,
@@ -1619,10 +1618,10 @@ pg.activity_template = {
 						4
 					},
 					benefit = {
-						300081,
-						300086,
-						300091,
-						300096
+						110,
+						114,
+						118,
+						122
 					}
 				},
 				{
@@ -1631,10 +1630,10 @@ pg.activity_template = {
 						8
 					},
 					benefit = {
-						300082,
-						300087,
-						300092,
-						300097
+						111,
+						115,
+						119,
+						123
 					}
 				},
 				{
@@ -1643,10 +1642,10 @@ pg.activity_template = {
 						12
 					},
 					benefit = {
-						300083,
-						300088,
-						300093,
-						300098
+						112,
+						116,
+						120,
+						124
 					}
 				},
 				{
@@ -1655,10 +1654,10 @@ pg.activity_template = {
 						16
 					},
 					benefit = {
-						300084,
-						300089,
-						300094,
-						300099
+						113,
+						117,
+						121,
+						125
 					}
 				}
 			}
@@ -1666,62 +1665,32 @@ pg.activity_template = {
 	},
 	[4868] = {
 		mark = 20230525,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 30,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4868,
 		config_data = {
-			300081,
-			300082,
-			300083,
-			300084,
-			300085,
-			300086,
-			300087,
-			300088,
-			300089,
-			300090,
-			300091,
-			300092,
-			300093,
-			300094,
-			300095,
-			300096,
-			300097,
-			300098,
-			300099,
-			300100
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					5,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					6,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120,
+			121,
+			122,
+			123,
+			124,
+			125
 		}
 	},
 	[4869] = {
@@ -27590,42 +27559,16 @@ pg.activity_template = {
 	},
 	[41165] = {
 		mark = 20230518,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 18,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 41165,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					5,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[41166] = {
 		mark = 20230518,
@@ -27776,7 +27719,8 @@ pg.activity_template = {
 			ui_name = "YingxiV3MainPage"
 		},
 		config_client = {
-			entrance_bg = "activitybanner/temp10"
+			entrance_bg = "activitybanner/temp10",
+			story = "HAIDAORICHANG1"
 		}
 	},
 	[41171] = {
@@ -28015,7 +27959,7 @@ pg.activity_template = {
 			ui_name = "YingxiV3PtPage"
 		},
 		config_client = {
-			linkActID = 4401
+			linkActID = 41170
 		}
 	},
 	[41176] = {

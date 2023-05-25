@@ -747,6 +747,15 @@ function slot0.ResetContinuousOperationAutoSub(slot0)
 	PlayerPrefs.Save()
 end
 
+function slot0.SetWorkbenchDailyTip(slot0)
+	PlayerPrefs.SetInt("WorkbenchDailyTip" .. getProxy(PlayerProxy):getRawData().id, GetZeroTime())
+	PlayerPrefs.Save()
+end
+
+function slot0.IsTipWorkbenchDaily(slot0)
+	return PlayerPrefs.GetInt("WorkbenchDailyTip" .. getProxy(PlayerProxy):getRawData().id, 0) < pg.TimeMgr.GetInstance():GetServerTime()
+end
+
 function slot0.Reset(slot0)
 	slot0:resetEquipSceneIndex()
 	slot0:resetActivityLayerIndex()

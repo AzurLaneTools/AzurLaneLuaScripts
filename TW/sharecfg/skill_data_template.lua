@@ -141,6 +141,7 @@ pg.skill_data_template = setmetatable({
 		6240,
 		6250,
 		6260,
+		6265,
 		6270,
 		6280,
 		6290,
@@ -8877,6 +8878,20 @@ pg.base.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		desc = "第一輪主炮準備時間縮短15%",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6265] = {
+		desc_get = "",
+		name = "精確鎖定·改",
+		id = 6265,
+		type = 0,
+		max_level = 0,
+		desc = "第一輪主炮準備時間縮短15%，自身装备的主炮散布范围降低2點",
 		system_transform = {},
 		world_death_mark = {
 			1

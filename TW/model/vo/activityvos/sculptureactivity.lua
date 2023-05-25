@@ -71,4 +71,24 @@ function slot0.GetAwardDesc(slot0, slot1)
 	return slot0:getDataConfig(slot1, "reward_describe") or ""
 end
 
+function slot0.EnoughResToOpen(slot0, slot1, slot2)
+	slot3, slot4 = slot0:_GetComsume(slot1)
+
+	return slot4 < slot2:getVitemNumber(slot3)
+end
+
+function slot0.readyToAchieve(slot0)
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_VIRTUAL_BAG) or slot1:isEnd() then
+		return false
+	end
+
+	for slot6, slot7 in ipairs(slot0:getConfig("config_data")) do
+		if slot0:GetSculptureState(slot7) == uv0.STATE_NIL and slot0:EnoughResToOpen(slot7, slot1) then
+			return true
+		end
+	end
+
+	return false
+end
+
 return slot0

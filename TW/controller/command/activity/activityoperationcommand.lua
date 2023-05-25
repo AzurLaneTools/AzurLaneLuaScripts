@@ -52,6 +52,7 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			slot1 = PlayerConst.GetTranAwards(uv0, slot0)
 
+			getProxy(ActivityTaskProxy):checkAutoSubmit()
 			uv1:performance(uv0, slot0, uv1:updateActivityData(uv0, slot0, uv2, slot1), slot1)
 		else
 			originalPrint("activity op ret code: " .. slot0.result)

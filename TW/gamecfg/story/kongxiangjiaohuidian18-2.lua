@@ -166,10 +166,16 @@ return {
 			}
 		},
 		{
+			actor = 900287,
+			nameColor = "#ff5c5c",
 			side = 2,
 			actorName = "仲裁者·赫米忒·IX",
-			nameColor = "#ff5c5c",
+			dir = 1,
 			say = "……………………",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

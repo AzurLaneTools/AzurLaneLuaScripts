@@ -122,9 +122,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.UpdateActivity(slot0, slot1)
-	if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
-		slot0:UpdateView()
-	end
+	slot0:UpdateView()
 end
 
 function slot0.RegisterDataResponse(slot0)
@@ -217,7 +215,8 @@ function slot0.RegisterDataResponse(slot0)
 
 	slot2 = {
 		"taskboard",
-		"bigmap"
+		"bigmap",
+		"giftmake"
 	}
 
 	table.insertto(slot2, slot1)
@@ -288,11 +287,15 @@ function slot0.UpdateView(slot0)
 		slot0.Respones[slot6 .. "Tip"] = slot0:UpdateBuildingTip(slot1, slot5)
 	end
 
+	slot0.Respones.craftTip = slot0.Respones.craftTip or getProxy(SettingsProxy):IsTipWorkbenchDaily()
 	slot0.Respones.bigmapTip = tobool((function ()
 		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND))
 	end)())
 	slot0.Respones.taskboardTip = tobool((function ()
 		return getProxy(ActivityTaskProxy):getActTaskTip(ActivityConst.ISLAND_TASK_ID)
+	end)())
+	slot0.Respones.giftmakeTip = tobool((function ()
+		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SCULPTURE))
 	end)())
 end
 
@@ -319,10 +322,16 @@ function slot0.IsShowMainTip(slot0)
 					return true
 				end
 			end
+
+			if getProxy(SettingsProxy):IsTipWorkbenchDaily() then
+				return true
+			end
 		end)() or (function ()
 			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING_2))
 		end)() or (function ()
 			return getProxy(ActivityTaskProxy):getActTaskTip(ActivityConst.ISLAND_TASK_ID)
+		end)() or (function ()
+			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SCULPTURE))
 		end)()
 	end
 end

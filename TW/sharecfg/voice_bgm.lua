@@ -528,6 +528,12 @@ pg.voice_bgm = {
 		time = "",
 		bgm = "story-richang-3"
 	},
+	SculptureScene = {
+		default_bgm = "main-SeaAndSun",
+		special_bgm = "",
+		time = "",
+		bgm = "main-SeaAndSun"
+	},
 	DexiV5MainPage = {
 		default_bgm = "theme-bismark-reborn",
 		special_bgm = "",

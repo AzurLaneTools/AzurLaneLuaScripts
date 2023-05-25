@@ -6153,7 +6153,6 @@ pg.base.ship_skin_template_13 = {
 		time = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		ship_l2d_id = "",
 		tag = {
 			1,
 			2
@@ -6268,6 +6267,10 @@ pg.base.ship_skin_template_13 = {
 				-5,
 				5
 			}
+		},
+		ship_l2d_id = {
+			4021011,
+			4021012
 		}
 	},
 	[403010] = {

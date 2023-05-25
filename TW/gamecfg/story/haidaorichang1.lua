@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "接過曼非遞過來的信。信封沉甸甸的，還用帶著海盜紋樣的火漆封了口。",
+			say = "接過曼非斯遞過來的信。信封沉甸甸的，還用帶著海盜紋樣的火漆封了口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

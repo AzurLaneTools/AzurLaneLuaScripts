@@ -152,7 +152,9 @@ function slot0.getNotificationHandleDic(slot0)
 			end
 		end,
 		[uv0.DISPLAY_NODES] = function (slot0, slot1)
-			slot0.viewComponent:focusList(slot1:getBody() or {}, LeanTweenType.easeInOutSine)
+			if slot1:getBody() and #slot2 > 0 and not slot0.viewComponent:focusList(slot2, LeanTweenType.easeInOutSine) then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("islandnode_tips8"))
+			end
 		end,
 		[uv0.DISPLAY_SHOP] = function (slot0, slot1)
 			slot0:addSubLayers(Context.New({

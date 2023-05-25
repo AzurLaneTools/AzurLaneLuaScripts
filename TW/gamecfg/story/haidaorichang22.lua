@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海風與夏日的無人島\n\n<size=45>遗迹探险</size>",
+					"海風與夏日的無人島\n\n<size=45>遺跡探險</size>",
 					1
 				}
 			}

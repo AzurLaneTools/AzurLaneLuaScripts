@@ -237,7 +237,7 @@ pg.activity_map_event_data = {
 	[1201] = {
 		id = 1201,
 		type = 3,
-		story = "",
+		story = "HAIDAOSUIJI1",
 		params = {
 			"Qgame1"
 		}
@@ -245,7 +245,7 @@ pg.activity_map_event_data = {
 	[1202] = {
 		id = 1202,
 		type = 3,
-		story = "",
+		story = "HAIDAOSUIJI2",
 		params = {
 			"Qgame2"
 		}
@@ -253,7 +253,7 @@ pg.activity_map_event_data = {
 	[1203] = {
 		id = 1203,
 		type = 3,
-		story = "",
+		story = "HAIDAOSUIJI3",
 		params = {
 			"Qgame3"
 		}
@@ -261,7 +261,7 @@ pg.activity_map_event_data = {
 	[1204] = {
 		id = 1204,
 		type = 3,
-		story = "",
+		story = "HAIDAOSUIJI4",
 		params = {
 			"Qgame4"
 		}
@@ -269,7 +269,7 @@ pg.activity_map_event_data = {
 	[1205] = {
 		id = 1205,
 		type = 3,
-		story = "",
+		story = "HAIDAOSUIJI5",
 		params = {
 			"Qgame5"
 		}

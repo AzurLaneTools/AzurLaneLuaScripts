@@ -315,8 +315,27 @@ function slot0.triggerEvent(slot0, slot1)
 		id = slot1.eventId
 	}):getConfig("type"), {
 		[3] = function ()
-			uv0:emit(SixthAnniversaryIslandMediator.OPEN_QTE_GAME, uv1:getConfig("params")[1], function (slot0)
-				uv0:emit(SixthAnniversaryIslandMediator.TRIGGER_NODE_EVENT, uv1.id, slot0 or 0)
+			slot0 = {}
+
+			if uv0:getConfig("story") and slot1 ~= "" then
+				table.insert(slot0, function (slot0)
+					if uv0.isAutoPlayStory then
+						pg.NewStoryMgr.GetInstance():ForceAutoPlay(uv1, slot0)
+					else
+						pg.NewStoryMgr.GetInstance():ForceManualPlay(uv1, slot0)
+					end
+				end)
+				table.insert(slot0, function (slot0, slot1, slot2, slot3)
+					uv0.isAutoPlayStory = slot3
+
+					slot0(slot2)
+				end)
+			end
+
+			seriesAsync(slot0, function (slot0)
+				uv0:emit(SixthAnniversaryIslandMediator.OPEN_QTE_GAME, uv1:getConfig("params")[1], function (slot0)
+					uv0:emit(SixthAnniversaryIslandMediator.TRIGGER_NODE_EVENT, uv1.id, slot0 or 0)
+				end)
 			end)
 		end
 	}, function ()

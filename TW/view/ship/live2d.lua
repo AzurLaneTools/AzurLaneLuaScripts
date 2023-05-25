@@ -144,7 +144,7 @@ function slot12(slot0)
 
 		slot8 = slot0.drags[slot6]:getParameter()
 
-		if (not slot0.drags[slot6]:parameToTarget() or slot0.drags[slot6].active) and slot0.drags[slot6].ignoreReact then
+		if (slot0.drags[slot6]:parameToTarget() or slot0.drags[slot6].active) and slot0.drags[slot6].ignoreReact then
 			slot1 = true
 		end
 
@@ -373,6 +373,12 @@ function slot0.setReactPos(slot0, slot1)
 		slot0.ignoreReact = slot1
 
 		slot0.liveCom:IgonreReactPos(slot1)
+
+		if slot1 then
+			ReflectionHelp.RefSetField(typeof(Live2dChar), "inDrag", slot0.liveCom, false)
+		end
+
+		ReflectionHelp.RefSetField(typeof(Live2dChar), "reactPos", slot0.liveCom, Vector3(0, 0, 0))
 	end
 end
 

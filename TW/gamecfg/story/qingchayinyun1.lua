@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=45>清茶氤氳</size>",
+					"清茶氤氳",
 					1
 				}
 			}

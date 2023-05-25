@@ -4,9 +4,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#A9F548FF",
-			stopbgm = true,
 			side = 2,
-			bgm = "main-SeaAndSun",
 			say = "晴朗的無人島上難得下起雨來。雨越下越大，這樣下去衣服會被淋濕的……",
 			typewriter = {
 				speed = 0.05,

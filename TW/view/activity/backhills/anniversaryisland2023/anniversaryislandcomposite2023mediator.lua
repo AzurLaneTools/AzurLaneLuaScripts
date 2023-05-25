@@ -34,6 +34,7 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
+	getProxy(SettingsProxy):SetWorkbenchDailyTip()
 end
 
 function slot0.listNotificationInterests(slot0)

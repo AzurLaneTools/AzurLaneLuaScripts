@@ -58,6 +58,10 @@ function slot0.addActList(slot0, slot1, slot2)
 end
 
 function slot0.checkAutoSubmit(slot0)
+	if not slot0.actTasks or #slot0.actTasks == 0 then
+		return
+	end
+
 	for slot4 = 1, #slot0.actTasks do
 		slot5 = slot0.actTasks[slot4].actId
 		slot7 = {}
@@ -159,7 +163,7 @@ function slot0.getActTaskTip(slot0, slot1)
 	slot3 = 0
 
 	for slot7, slot8 in ipairs(slot2) do
-		if not slot8:isCircle() and not slot8:isOver() and slot8:isFinish() then
+		if not slot8:isCircle() and not slot8:isOver() and slot8:isFinish() and not slot8.autoCommit then
 			slot3 = slot3 + 1
 		end
 	end

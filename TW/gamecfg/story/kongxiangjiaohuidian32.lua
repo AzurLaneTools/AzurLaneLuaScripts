@@ -927,7 +927,7 @@ return {
 			bgName = "bg_bsmre_13",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
+			nameColor = "#A9F548FF",
 			actor = 405050,
 			say = "情况不妙……是么？",
 			painting = {

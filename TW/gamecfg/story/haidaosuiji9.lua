@@ -4,9 +4,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#A9F548FF",
-			stopbgm = true,
 			side = 2,
-			bgm = "main-SeaAndSun",
 			say = "在島上探險時迷失了道路，不知走到了森林深處的哪片角落。",
 			typewriter = {
 				speed = 0.05,

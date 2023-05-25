@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海風與夏日的無人島\n\n<size=45>波光粼粼的游泳课</size>",
+					"海風與夏日的無人島\n\n<size=45>波光粼粼的游泳課</size>",
 					1
 				}
 			}
@@ -20,7 +20,6 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			say = "碼頭近海。淺水清澈得能照出水底的倒影，閃亮的陽光破碎在粼粼波光之上。",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
@@ -50,7 +49,6 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			say = "此時此刻，這裡正在進行著一場別開生面的游泳課。",
 			typewriter = {
 				speed = 0.05,
@@ -61,7 +59,6 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			say = "……與其說是游泳課，不如說是“約會”更為妥當。",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +69,7 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "嘿咻……老師，這樣的話，安克拉治做得對嗎？",
@@ -89,7 +86,7 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "游得還可以嘛？嘿嘿~",
@@ -106,7 +103,7 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "因為是第一次，下水……安克拉治有點怕。",
@@ -123,7 +120,7 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "但是老師在身邊，所以不可怕，嗯！",
@@ -140,7 +137,7 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "而且，老師教安克拉治，也很……溫柔。安克拉治喜歡~",
@@ -157,7 +154,7 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = "mission_complete",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "只要有老師在身邊，安克拉治，什麼都能做到~！",
@@ -171,11 +168,18 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = true,
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
+			dir = 1,
 			say = "安克拉治的臉上露出燦爛的笑容，向著我所在的方向靠近——",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +199,7 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = "headtouch",
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
@@ -213,7 +217,7 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
@@ -231,7 +235,7 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = "main2",
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
@@ -249,7 +253,7 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = true,
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
@@ -267,7 +271,7 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = true,
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
@@ -285,7 +289,7 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "老師，再靠近安克拉治一點——",
@@ -299,44 +303,18 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = "main3",
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
+			dir = 1,
 			say = "似乎是為了與我貼得更近一些，安克拉治調轉了方向——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_106",
-			hidePaintObj = true,
-			say = "——結果似乎是因為沒能控制好力度，差點滑進水中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_106",
-			hidePaintObj = true,
-			say = "伸手扶住了安克拉治。濕漉漉的肌膚連同身體的溫暖一同從手心傳遞到腦海裡。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_106",
-			hidePaintObj = true,
-			say = "不知是運動後的餘韻還是其他的原因，安克拉治的臉上也泛起了些許的紅暈。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +324,61 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = true,
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "——結果似乎是因為沒能控制好力度，差點滑進水中。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 199031,
+			side = 2,
+			bgName = "star_level_bg_106",
+			live2d = true,
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "伸手扶住了安克拉治。濕漉漉的肌膚連同身體的溫暖一同從手心傳遞到腦海裡。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 199031,
+			side = 2,
+			bgName = "star_level_bg_106",
+			live2d = true,
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "不知是運動後的餘韻還是其他的原因，安克拉治的臉上也泛起了些許的紅暈。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 199031,
+			side = 2,
+			bgName = "star_level_bg_106",
+			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "老師，嗚……安克拉治，差點又沉下去……",
@@ -363,7 +395,7 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "還要，接著向老師學習才行……!",
@@ -380,7 +412,7 @@ return {
 			actor = 199031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
+			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "而且，也喜歡老師教安克拉治時的感覺~！安克拉治，再來——",

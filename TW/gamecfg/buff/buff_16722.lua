@@ -16,7 +16,7 @@ return {
 	color = "red",
 	picture = "",
 	desc = "",
-	stack = 12,
+	stack = 10,
 	id = 16722,
 	icon = 16722,
 	last_effect = "",
@@ -39,7 +39,7 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				countTarget = 12,
+				countTarget = 10,
 				countType = 16720
 			}
 		},

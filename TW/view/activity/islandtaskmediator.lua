@@ -20,6 +20,7 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.TASK_GO, function (slot0, slot1)
+		uv0.viewComponent:closeView()
 		uv0:sendNotification(GAME.ISLAND_TASK_GO, {
 			taskVO = slot1.taskVO
 		})

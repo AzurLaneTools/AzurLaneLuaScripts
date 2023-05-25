@@ -245,6 +245,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			paintingNoise = true,
 			dir = 1,
+			actorname = "獒·META",
 			actor = 900192,
 			nameColor = "#ffa500",
 			say = "……没想到这么胡来的计划真能成功。",

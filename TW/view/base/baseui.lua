@@ -131,6 +131,18 @@ function slot0.PlayBGM(slot0)
 	end
 end
 
+function slot0.StopBgm(slot0)
+	if not slot0.contextData then
+		return
+	end
+
+	if slot0.contextData.isLayer then
+		pg.BgmMgr.GetInstance():Pop(slot0.__cname)
+	else
+		pg.BgmMgr.GetInstance():Clear()
+	end
+end
+
 function slot0.SwitchToDefaultBGM(slot0)
 	pg.BgmMgr.GetInstance():Push(slot0.__cname, slot0:getBGM() or (not pg.CriMgr.GetInstance():IsDefaultBGM() or pg.voice_bgm.NewMainScene.default_bgm) and pg.voice_bgm.NewMainScene.bgm)
 end
@@ -335,18 +347,12 @@ end
 function slot0.exit(slot0)
 	slot0.exited = true
 
+	slot0:StopBgm()
 	pg.DelegateInfo.Dispose(slot0)
 
 	function slot1()
 		uv0:willExit()
 		uv0:ShowOrHideResUI(false)
-
-		if uv0.contextData.isLayer then
-			pg.BgmMgr.GetInstance():Pop(uv0.__cname)
-		else
-			pg.BgmMgr.GetInstance():Clear()
-		end
-
 		uv0:detach()
 		pg.GuideMgr.GetInstance():onSceneExit({
 			view = uv0.__cname
