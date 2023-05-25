@@ -468,7 +468,7 @@ function slot0.didEnter(slot0)
 
 	slot1 = {}
 
-	if slot0.contextData.nodeIds then
+	if slot0.contextData.nodeIds and #slot0.contextData.nodeIds > 0 then
 		table.insert(slot1, function (slot0)
 			if not uv0:focusList(uv0.contextData.nodeIds) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("islandnode_tips8"))

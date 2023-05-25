@@ -22,6 +22,10 @@ function slot0.initMv(slot0)
 
 	slot0.mvContent = findTF(slot0._tf, "AD/mvPage/movie/view/content")
 	slot0.movieWord = findTF(slot0._tf, "AD/mvPage/movie/movieWord")
+	slot0.descClose = findTF(slot0._tf, "AD/mvPage/descClose")
+
+	setText(slot0.descClose, i18n("island_act_tips1"))
+
 	slot0.mvIndex = 1
 
 	slot0:pageUpdate()

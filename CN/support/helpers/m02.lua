@@ -1632,10 +1632,10 @@ function GetOwnedDropCount(slot0)
 				return getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot0.type].activity_id):GetItemById(slot0.id) and slot1.count or 0
 			end,
 			[DROP_TYPE_ICON_FRAME] = function (slot0)
-				return getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_ICON_FRAME, slot0.id) and (not slot1:expiredType() or not not exist:isExpired()) and 1 or 0
+				return getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_ICON_FRAME, slot0.id) and (not slot1:expiredType() or not not slot1:isExpired()) and 1 or 0
 			end,
 			[DROP_TYPE_CHAT_FRAME] = function (slot0)
-				return getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_CHAT_FRAME, slot0.id) and (not slot1:expiredType() or not not exist:isExpired()) and 1 or 0
+				return getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_CHAT_FRAME, slot0.id) and (not slot1:expiredType() or not not slot1:isExpired()) and 1 or 0
 			end
 		}
 
