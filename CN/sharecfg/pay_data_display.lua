@@ -4729,12 +4729,12 @@ pg.pay_data_display = {
 		}
 	},
 	[51] = {
-		subject = "六周年泳装礼盒",
+		subject = "春节福袋复刻(2022)",
 		limit_group = 0,
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
 		limit_arg = 1,
-		name = "六周年泳装礼盒",
+		name = "春节福袋复刻(2022)",
 		name_display = "六周年泳装礼盒",
 		type_order = 2,
 		extra_gem = 0,
@@ -4745,7 +4745,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		picture = "lihecn6ss_l",
 		skin_inquire_relation = 69926,
-		id_str = "com.bilibili.blhx.zuanshi148",
+		id_str = "com.bilibili.blhx.zuanshi147",
 		first_pay_double = 0,
 		extra_service = 3,
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",

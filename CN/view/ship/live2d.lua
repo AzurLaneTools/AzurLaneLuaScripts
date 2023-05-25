@@ -370,8 +370,6 @@ end
 
 function slot0.setReactPos(slot0, slot1)
 	if slot0.liveCom then
-		print("目光跟随flag当前 .." .. tostring(slot1))
-
 		slot0.ignoreReact = slot1
 
 		slot0.liveCom:IgonreReactPos(slot1)
@@ -379,6 +377,8 @@ function slot0.setReactPos(slot0, slot1)
 		if slot1 then
 			ReflectionHelp.RefSetField(typeof(Live2dChar), "inDrag", slot0.liveCom, false)
 		end
+
+		ReflectionHelp.RefSetField(typeof(Live2dChar), "reactPos", slot0.liveCom, Vector3(0, 0, 0))
 	end
 end
 

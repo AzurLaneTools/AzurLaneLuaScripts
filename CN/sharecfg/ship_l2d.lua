@@ -1928,7 +1928,7 @@ pg.ship_l2d = {
 	},
 	[1051722] = {
 		draw_able_name = "TouchDrag2",
-		offset_x = 15,
+		offset_x = 150,
 		gyro_y = 0,
 		action_trigger_active = "",
 		drag_direct = 1,

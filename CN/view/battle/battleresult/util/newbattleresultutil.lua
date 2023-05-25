@@ -226,7 +226,7 @@ function slot0.GetShipExpOffset(slot0, slot1)
 			slot3 = slot3 + getExpByRarityFromLv1(slot2, slot7)
 		end
 
-		return slot3 + slot1:getExp()
+		return slot3 + slot1:getExp() - slot0:getExp()
 	else
 		return math.ceil(slot1:getExp() - slot0:getExp())
 	end
