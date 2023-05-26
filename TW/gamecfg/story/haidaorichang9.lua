@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>海邊的白日夢</size>",
+					"海風與夏日的無人島\n\n<size=45>海邊的白日夢</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "据点，金色的沙滩旁。阳光徐徐洒下，沙滩上窈窕的身影显得更加瞩目。",
+			say = "據點，金色的沙灘旁。陽光徐徐灑下，沙灘上窈窕的身影顯得更加矚目。",
 			bgmDelay = 2,
 			bgm = "theme-warmwinter-daily",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "思绪只是稍稍从她的身上游离，便被她的话语给重新唤回——",
+			say = "思緒只是稍稍從她的身上游離，便被她的話語給重新喚回——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			live2d = "main2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天的阳光很不错呢，正是适合{namecode:97}与指挥官大人一起出游的好时节。",
+			say = "今天的陽光很不錯呢，正是適合大鳳與指揮官大人一起出遊的好時節。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "——此刻的我，正在被{namecode:97}拉着，在这片无人的海滩上与她幽会。",
+			say = "——此刻的我，正在被大鳳拉著，在這片無人的海灘上與她幽會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能像现在这样和指挥官大人一起在沙滩上小歇，真是一件幸事呢。",
+			say = "能像現在這樣和指揮官大人一起在沙灘上小歇，真是一件幸事呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……啊咧？指挥官的视线……呵呵，在{namecode:97}的泳装上流连呢~",
+			say = "……啊咧？指揮官的視線……呵呵，在大鳳的泳裝上流連呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系的哦。不如说，这正是{namecode:97}在期望的事情。",
+			say = "沒關係的哦。不如說，這正是大鳳在期望的事情。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这身泳装，已经把指挥官的视线给全部抓住了，对吧~",
+			say = "這身泳裝，已經把指揮官的視線給全部抓住了，對吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "被识破的指挥官又开始四处张望~难道是想求助么？",
+			say = "被識破的指揮官又開始四處張望~難道是想求助嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可惜……现在的沙滩上，除了您和{namecode:97}，可再也没有第三个人了~",
+			say = "可惜……現在的沙灘上，除了您和大鳳，再也沒有第三個人了哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟——",
+			say = "畢竟——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在这片沙滩可是{namecode:97}的包场时间哦？",
+			say = "現在這片沙灘可是大鳳的包場時間哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:97}凑近了我的耳边，带点戏谑地轻声说着——",
+			say = "大鳳湊近了我的耳邊，帶點戲謔地輕聲說著——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "换句话说，现在的指挥官大人……",
+			say = "換句話說，現在的指揮官大人……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……没办法从{namecode:97}的手里逃脱了呢。",
+			say = "……沒辦法從大鳳的手裡逃脫了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			live2d = "touch",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~看您不知所措的表情，让人还想多捉弄一下呢。",
+			say = "呵呵~看您不知所措的表情，讓人還想多捉弄一下呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，指挥官大人只是在一旁看着的话，可没办法和{namecode:97}的关系更进一步哦？",
+			say = "不過，指揮官大人只是在一旁看著的話，可沒辦法和大鳳的關係更進一步哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来吧，指挥官大人。就在此刻，请陪在爱您的{namecode:97}身边~",
+			say = "來吧，指揮官大人。就在此刻，請陪在愛您的大鳳的身邊哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "刚准备做些什么来应对{namecode:97}的攻势，却被有些强硬的{namecode:97}给拉住了。",
+			say = "剛準備做些什麼來應對大鳳的攻勢，卻被有些強硬的大鳳給拉住了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			live2d = "touch2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "什么都不用做，一切都交给{namecode:97}就好了。",
+			say = "什麼都不用做，一切都交給大鳳就好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不管是指挥官想做的事情，还是指挥官的精神以及身体。",
+			say = "不管是指揮官想做的事情，還是指揮官的精神以及身體。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在，请您闭上眼睛——",
+			say = "現在，請您閉上眼睛——",
 			painting = {
 				alpha = 0.3,
 				time = 1

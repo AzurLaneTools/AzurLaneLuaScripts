@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "這就是我之前說的複雜的部分了，如果你想听我可以試著解釋。",
+			say = "這就是我之前說的複雜的部分了，如果妳想聽我可以試著解釋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

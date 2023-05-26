@@ -174,9 +174,10 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			actor = 401991,
 			nameColor = "#A9F548FF",
+			actor = 401991,
 			dir = 1,
+			actorName = "奧托·馮·阿爾文斯萊本",
 			say = "喂——！！所以說妳早就知道這裡有這種東西的嗎？",
 			painting = {
 				alpha = 0.3,
@@ -215,8 +216,9 @@ return {
 		},
 		{
 			actor = 401991,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
+			actorName = "奧托·馮·阿爾文斯萊本",
 			dir = 1,
 			say = "那妳怎麼不早說——！！！",
 			painting = {
@@ -269,9 +271,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 401991,
 			nameColor = "#A9F548FF",
+			actor = 401991,
 			dir = 1,
+			actorName = "奧托·馮·阿爾文斯萊本",
 			say = "嘖……纏得更緊了——不要一本正經地在旁邊觀察，先過來把我放下來再說！！！！",
 			painting = {
 				alpha = 0.3,
