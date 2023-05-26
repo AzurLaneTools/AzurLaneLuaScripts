@@ -319,7 +319,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "雷根斯堡把手指点了过来，阻止了我的回答。",
+			say = "{namecode:516}把手指点了过来，阻止了我的回答。",
 			painting = {
 				alpha = 0.3,
 				time = 1
