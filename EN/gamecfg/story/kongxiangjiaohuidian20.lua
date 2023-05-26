@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
 			stopbgm = true,
-			say = "米德加尔特之塔中心的光柱闪烁着。",
+			say = "Mirror Sea - ω phase",
 			bgmDelay = 2,
 			bgm = "theme-bismark-reborn",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "随着装置的启动，众人再次完成了转移。",
+			say = "The gate vibrated as it came to life once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "但转移的目的地却并非众人所期望的空中都市。",
+			say = "Contrary to Ulrich's expectations, however, it was not the city in the sky that awaited on the other end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "居然没有前往主机之中……？",
+			say = "We didn't get to the city or the mainframe, huh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样一来先前用主机作为诱饵的假设就不成立了……",
+			say = "My assumptions from before were a bit optimistic after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "大家快看、海域中的“红区”与“蓝区”反转了……！",
+			say = "Hey, see that around us? The red and blue zones in the sea have swapped places!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "不光如此，就连米德加尔特的光芒也……",
+			say = "And that's not all. The Tower of Midgard seems to be receiving that beam of light instead of emitting it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "众人环顾四周，眼前的景色有了巨大变化。",
+			say = "Everyone started surveying their surroundings. Indeed, everything around them had changed drastically.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "不止是空中的都市消失了，就连天空、水面还有米德加尔特之塔的光芒都发生了倒转。",
+			say = "The city in the sky was gone without a trace, and the celestial bodies were back in their proper places.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "但毫无疑问的是，她们依然被困在这个神秘的空间之中。",
+			say = "And, from somewhere up on high, a pillar of light beamed endlessly into the heart of the Tower of Midgard, as if everything had been inverted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "和之前一样，我们的位置依然正好处于红色与蓝色水面的分界处。",
+			say = "Seems like we were thrown back out between the red and blue zones, just like before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "麻烦的是水面反转了，想要回到米德加尔特之塔就必须穿越“红区”。",
+			say = "Except this time, we'd have to cross the red zone to get back to the tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "{namecode:435}阁下，我认为有必要采集一下这片海域的海水样本。",
+			say = "Bismarck, I believe we should confirm the properties of the water before we proceed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……而且最好多收集几个位置。",
+			say = "I agree. It would be ideal to collect samples from a few locations to assess how dangerous it is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "{namecode:491}，能操纵舰载机办到么？",
+			say = "Jade, is it possible to do that using your aircraft?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我试一下，{namecode:435}大人。",
+			say = "It should be. I'll give it a try, at least.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "悬挂着采集容器的舰载机向在众人的注视中腾空而起，又轻巧地贴向了海面。",
+			say = "Everyone kept their eyes on Jade's plane as it skimmed delicately over the surface of the foreboding water with a container in tow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "哇哦…好熟练！舰载机居然也能做这种事么！",
+			say = "What the hell? You can even do THAT with your aircraft?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			actor = 406030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "惊讶到了吧~这可是坚持练习的好孩子才有的技巧哦~",
+			say = "What can I say? Good girls practice their technique~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "一段时间后————",
+			say = "Some time later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "{namecode:464}微微抬起手中的样本，借助着远处米德加尔特之塔的巨大光柱，仔细端详着。",
+			say = "Ulrich rocked the test tubes containing water samples from both the red and blue zones, analyzing them through the light coming from the Tower of Midgard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "全部都是……无色透明的澄清液体。",
+			say = "Clear and colorless. There's nothing unusual about either of 'em.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "不论是从“红区”中收集而来的，还是从“蓝区”中收集而来的……",
+			say = "They're both regular saltwater.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的哎！可是……这也太奇怪了吧？",
+			say = "Wait, what? Then how come one looks red and the other doesn't?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "……基于现状，只能有一个解释了。",
+			say = "Based on what I've seen, I have reason to believe that this Mirror Sea has multiple \"states.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "不论是“红区”还是“蓝区”，水的颜色区分只是表象。",
+			say = "Think about it. The column of light, the sea changing whenever we use the gate, and the sky and sea being reversed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "导致这一切的，是涉及到这个空间的、更加本质的某种“规则”。",
+			say = "What causes all of these phenomena are basically sets of \"rules\" imposed by the Mirror Sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许只有在这片海域中的时候，那些海水才会呈现出不同的两种状态。简单的取样是徒劳的。",
+			say = "In other words, the water here has no inherent properties other than what the current set of rules dictates.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "所以在取样后，我们只能得到纯净“海水”。",
+			say = "...Which is why I have two ordinary test tubes of sea water in my hands now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就像有一个巨大的投影装置把颜色打在了水面上……所以我们捞出来的水才是没有颜色的？",
+			say = "Lemme get this straight... This place is basically \"projecting\" colors onto the sea?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "可以这么简单理解。",
+			say = "That's a simplified way of understanding it. Except instead of projecting a color, the Mirror Sea is capable of projecting properties.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那这也太奇怪了……要实现这种规模的投影，这个装置本身得有多巨大啊。",
+			say = "Woah, that's pretty crazy... How big of a projector would you need to do something on that scale?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是我们并没有见到类似的东西。",
+			say = "But I guess the more important question is, are these properties you're referring to dangerous?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，之前{namecode:434}小姐也说过吧，那些红色的水中有META化侵蚀的气息。",
+			say = "If I remember properly, Gneisenau said something about the red area seeming to be dangerous?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "没错……不过我并没有从这些从红色区域收集的样本上感受到类似的气息。",
+			say = "Yes, I did feel META corruption coming from the red zone... But nothing from these test tubes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "这种情况我也是第一次见……",
+			say = "It certainly lends credence to your theory, but I can't say I've seen anything like this before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "……或许是能赋予信息的投影。",
+			say = "It wouldn't surprise me if this Mirror Sea is projecting information onto its surrounding environment, but it's still just a theory at this point.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "赋予信息的投影……？",
+			say = "That's pretty crazy, but it does sound like something the Sirens would be able to pull off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -660,7 +660,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在只有一点不成熟的想法，还需要收集更多证据。",
+			say = "Take it with a grain of salt for now. We'll need to gather more evidence before we can make any sort of conclusive claims.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那接下来——只能继续前进下去了吧？",
+			say = "Then, uh, the only thing we can do is move forward, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "嗯，再次向着米德加尔特之塔前进吧。",
+			say = "Yes. Besides, we can't just sit around here forever doing nothing. We have to return to the Tower of Midgard one way or another.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -713,7 +713,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "等、等等{namecode:435}大人！侦测到了奇怪的信号，来源是……我们的后方？！",
+			say = "Uh oh, Bismarck! I'm detecting some enemy signals from right behind us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "……敌袭确认，鉴别型号为塞壬IV型，数量为海量！",
+			say = "They appear to be the same type as the ones we encountered when we first got here! And it's a whole army of them!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "想把我们逼进去的意思么……看来它们也知道“红区”的危险性。",
+			say = "Awfully convenient timing. Almost as if they're trying to force us into the red zone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,7 +786,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反正我们也是打算过去的，就不劳烦它们来送了~",
+			say = "If we're gonna have to fight them anyway, we might as well engage them on our own terms!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -804,7 +804,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "嗯，不要跟塞壬打无意义的消耗战。",
+			say = "Agreed. Our resources are limited, so we should avoid fighting battles of attrition.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -821,7 +821,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们笔直前进，以最快的速度穿越“红区”。",
+			say = "Let's head straight for the tower. We should be far away enough to avoid the bulk of their fleet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -839,7 +839,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "在这期间，我和革律翁会全力保护大家的安全，不用担心。",
+			say = "Geryon and I will do what we can to keep everyone safe, but do act quickly and decisively.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -856,7 +856,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "时间紧迫，我们出发！",
+			say = "Time is of the essence! Let's get going!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			stopbgm = true,
-			say = "战场上的空气依旧灼热而刺鼻。",
+			say = "The air wafting above the ocean was still hot and rancid, irritating the nostrils.",
 			bgmDelay = 2,
 			bgm = "theme-bismark-reborn",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "{namecode:436}，此刻正静静倒在不远处的水面上。",
+			say = "Bismarck rose to her feet and slowly looked around her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,10 +39,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*悲伤地低吼*██▌",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "革律翁撑开双翼，强大的气流扑灭了四周残骸上的火焰。",
+			say = "Geryon rumbled with a hint of mechanical sorrow, whipping up a gale with its steel wings to clear the surrounding smoke and flame.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "它在{namecode:435}的脚边停下，注视着眼前倒下的人影。",
+			say = "There, in front of him, lay a lifeless phantasm in the image of Bismarck's sister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:436}。",
+			say = "Tirpitz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "{namecode:435}弯腰接近，却被革律翁阻挡了一下。",
+			say = "One of the dragon rigging's three heads brushed up against her hand, as if telling her to snap out of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "我知道的，这些都只是幻象而已……",
+			say = "Don't worry. I know none of this is real.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "但……",
+			say = "I know it isn't, but still...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "革律翁退了半步，双翼展开，再次飞向高空。",
+			say = "Bismarck took a deep breath, before turning around and mounting her rigging. Geryon's wings flapped and his engines fired, and the two gradually rose from the water's surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "……你是对的，让我们专注于真正应该做的事吧。",
+			say = "...Let's do what we came here for.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "革律翁，向着边界前进，吹散海雾！",
+			say = "Clear the mist and show us the way forward!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,10 +199,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*兴奋地咆哮*██▌",
+			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "高墙般的海雾，在巨龙的振翅所形成的的风暴前退却了。",
+			say = "The wall of black mist along the outer border of the nightmare receded before the dragon's storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……未知的飞行器没有出现，但，果然有路可通。",
+			say = "I don't see the aircraft from before, but there indeed is a path forward...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "{namecode:435}顺着革律翁开辟的道路在海雾中前进着。",
+			say = "Bismarck followed through the path into the mist opened by Geryon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "海域的边界仿佛会随着她的探索不断延展，其规模远超想象。",
+			say = "The deeper she went in, the more the boundaries of the sea seemed to expand, seemingly reaching a scale of unfathomable proportions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "终于，前方出现了一道光。",
+			say = "After what felt like ages, a light finally appeared in front of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,10 +288,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*兴奋地低吼*██▌",
+			say = "ROOAAR...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "革律翁发出一阵低吼，向着光芒的方向加速飞去。",
+			say = "Sensing the significance of this discovery through his owner's excitement, Geryon let out a low growl and accelerated in the direction of the light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？你发现的难道是……某种通道么？！",
+			say = "This must be the way to the hourglass' throat!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "没有一丝迟疑，{namecode:435}也向着光芒冲了过去。",
+			say = "Without a hint of hesitation, Bismarck rushed directly through the light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "{namecode:435}与革律翁一同消失在了光芒之中——",
+			say = "–Not only in the nightmare, but also in reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

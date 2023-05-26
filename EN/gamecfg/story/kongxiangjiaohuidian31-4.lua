@@ -11,7 +11,7 @@ return {
 			bgName = "bg_bsmre_10",
 			nameColor = "#A9F548FF",
 			bgm = "story-bismark-determination",
-			say = "赫米忒加速向着空中的都市飞去。",
+			say = "With Bismarck and U-556 riding atop it, Geryon flew up towards the upside-down city.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_10",
-			say = "但一个巨大的身影在后方紧追不舍。",
+			say = "The tremendous momentum behind its ascent kicked up a scarlet spindrift big enough to blot out the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,10 +56,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "哇哦哦————我——上——天——了——",
+			say = "We're flyiiiiing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,21 +72,21 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "革律翁，咬住它。",
+			say = "Don't lose sight of that Arbiter, Geryon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "革律翁",
+			actorName = "Geryon",
 			side = 2,
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*极其猛烈的咆哮*██▌██▌██▌██▌",
+			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,12 +105,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "Arbiter: The Hermit IX?",
 			bgName = "bg_bsmre_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = ">目标强度超出预期，正在更改为预设方案G。",
+			say = "<Detecting values greatly exceeding predictions. Switching to combat sequence G.>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,12 +128,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "Arbiter: The Hermit IX?",
 			bgName = "bg_bsmre_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = ">已取得「代行者XV系统」指挥授权。",
+			say = "<Command privileges over Type-XV Enforcers acquired.>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,12 +145,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "Arbiter: The Hermit IX?",
 			bgName = "bg_bsmre_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = ">正在激活。",
+			say = "<All units, initiate activation sequence.>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,10 +162,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "不好了，{namecode:435}姐姐！新的敌人出现了！",
+			say = "Lord Bismarck! We have incoming Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,10 +178,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "根据之前女灶神小姐给到的资料，确认为迪贝路下属的两种代行者！",
+			say = "They look like The Devil's Enforcers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,10 +189,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "而且数量有好多！它们早就在这里等我们了！",
+			say = "There's so many of them... Don't tell me they were waiting for us this whole time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,10 +200,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "（终于派出自己的直属部队了么，迪贝路。）",
+			say = "(Exactly what we were both aiming for.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,10 +211,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "（这样下去就算我瘫痪掉赫米忒的管理机，也肯定无法逃出包围网。）",
+			say = "(Now that she's gained control of the mainframe, destroying The Hermit's vessel won't help us. She can isolate and take us out one at a time to gain control over the Mirror Sea.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,10 +222,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "（果然是个陷阱。）",
+			say = "(But, to do that, she has to split up computing resources among not just her own Enforcers, but The Hermit's as well.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,10 +233,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "（……只能相信女灶神和她背后的势力了。）",
+			say = "(So until they get everything under control, her anti-hacking defenses are at their weakest.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,10 +244,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "{namecode:416}，不要分心。只要击败管理机一切就结束了！",
+			say = "Don't be afraid, U-556. This will all be over once we defeat that Arbiter vessel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,10 +255,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "好的，{namecode:435}姐姐，我明白了！",
+			say = "Okay! I believe in you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg12",
-			say = "赫米忒悬浮在半空中的身体闪烁着不详的光芒，似乎正在酝酿最后一击。",
+			say = "Hovering in the air, The Hermit's body gave off an ill-boding light",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,12 +281,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "Arbiter: The Hermit IX?",
 			bgName = "bg_bsmre_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = ">局部清理指令已被批准，蓄能中。",
+			say = "<Initiating local purging process. Gathering energy.>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,21 +298,21 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "革律翁，解除安全协议Nr.4、Nr.6、Nr.8、Nr.9。",
+			say = "Disable safety limiter number 4, 6, 8, and 9!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "革律翁",
+			actorName = "Geryon",
 			side = 2,
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*迄今为止最为猛烈的咆哮*██▌██▌██▌██▌██▌██▌",
+			say = "ROOOOOOAAAAAARRRR!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,11 +330,11 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "去吧。",
+			say = "Unleash everything you have with this one attack, Geryon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg12",
-			say = "革律翁怒吼着冲向赫米特。",
+			say = "Heeding her order, the dragon roared with all three of its mouths.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg12",
-			say = "此刻，它的全身都爆发出发光的纹路。",
+			say = "Streaks of light then appeared all across its steel body.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,10 +368,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "安蒂克丝，曾经的我没有屈从于你们为我安排的命运。",
+			say = "(Thank you, my Parzival. You are my pride and joy.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,10 +379,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "这一次，也不会。",
+			say = "Listen, fiends! I am Bismarck! I reject the past and the future you've forced upon me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,21 +390,21 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "这幅身体，这份力量，就是我的觉悟。",
+			say = " This body, this power, and this burning resolve will not be martyred to your darkness!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			side = 2,
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "————真理必胜「Wahrheit siegreich Zurückkehren」",
+			say = "Truth can only be found within my range!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
-			say = "巨龙口中喷射而出的光柱比以往更加炽热。",
+			say = "Everything came down to these final, ultimate attacks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "耀眼的龙息几乎让海面都沸腾起来。",
+			say = "A blinding beam of energy shot forth, their intensity bringing the sea to a boil.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "赫米忒的装甲层正在融化。",
+			say = "It struck the Arbiter directly, cutting through its armor like a hot knife through butter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "即便有迪贝路的强化，面对这种级别的损伤也无能为力。",
+			say = "Even with The Devil's entire arsenal of support enhancing the vessel, it could not block this attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "战斗，结束了————",
+			say = "The battle was over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

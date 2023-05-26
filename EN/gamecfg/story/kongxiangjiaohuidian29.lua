@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_9",
 			stopbgm = true,
-			say = "{namecode:435}和女灶神顺着原路，回到了米德加尔特之塔的控制室。",
+			say = "Some time later, in the Tower of Midgard's control center...",
 			bgmDelay = 2,
 			bgm = "battle-thedevilXV-control",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "人……凭空出现了？！",
+			say = "...The hell?! Who are you?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "抱歉，吓到你了。",
+			say = "Forgive me, you couldn't have anticipated my arrival.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "初次见面，{namecode:463}，我是女灶神。",
+			say = "I am Vestal – though not the Vestal you know. Well met, Ulrich von Hutten.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "这位就是之前我们在海域中追寻的未知META。",
+			say = "She's the unknown META we were searching for before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "先跟我出去吧，我跟你们说明一下刚才进入幻象之后发生的事。",
+			say = "Ulrich, gather everyone. I'll explain what we're going to do next.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "难以置信……但是这样就能解释通很多事了。",
+			say = "The Devil wants The Hermit's power, so she called us here and crippled the mainframe using her corruption...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "只用消灭一个管理机怎么听都要比同时和两个仲裁机关交战要安心的多……",
+			say = "And to get out of here, we'll need Helena META to hack the mainframe for a while?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "但是迪贝路跑来干扰也是有可能的。",
+			say = "Seems the Arbiters are so despicable they've started fighting each other.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "不来也是有可能的！",
+			say = "Hey, just be happy we didn't have to duke it out with one of the kingpins.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "它折腾这么一大圈是为了达成自己的目的吧。",
+			say = "In fact, it doesn't seem like either of the two have plans on annihilating us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果要消灭我们早就该来了！",
+			say = "As much as I don't like the idea of running with our tails between our legs, I'll do anything to get out of this place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "迪贝路本体确实有可能正在专心与赫米忒的主机进行对抗而无暇他顾。",
+			say = "Yes, and since The Devil's attention is on seizing control of the Mirror Sea, she should leave us alone for the most part.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "但不代表它不会对我们造成威胁。",
+			say = "That said, I don't think we can just walk out. Her aircraft will still pose a threat to us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "迪贝路是支援型仲裁机关，其主要能力是……",
+			say = "Especially so, considering her arsenal of support aircraft is the most advanced out of any Arbiter – or Siren, period.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "一时半会说不清，一会路上我把资料分享给你们。",
+			say = "The Commander must have warned you about their capabilities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "嗯，这样最好。在战斗前关于敌人的任何资料都是有意义的。",
+			say = "Yeah. The information you provided will be useful, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "另外……外面的侵蚀程度为什么会变得这么严重？",
+			say = "The Devil must know we're here, seeing how far the red sea has expanded...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "在我离开期间，有人启动米德加尔特之塔了么？",
+			say = "Our window of time to get out of here shrinks with every passing minute.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "没有。我们没有进行任何操作，米德加尔特之塔也没有运行过。",
+			say = "Speaking of which, Bismarck, the sea didn't expand while you were gone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "但是红色区域在您进入幻象调查后就一直在快速扩散！",
+			say = "The gate didn't activate a single time. It was only just before you got back that the red sea grew.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "也许是当污染达到临界点后的自发性扩散……",
+			say = "Either The Devil is trying to put pressure on us, or the corruption has reached critical mass.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "我们的时间确实不多了。",
+			say = "Which means our time is running out. We need to get moving immediately.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "必须要在迪贝路彻底取得空间控制权前瘫痪掉管理机。",
+			say = "We must defeat The Hermit's vessel before The Devil gains full control over the mainframe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "要是管理机的权限全部被迪贝路夺取的话，瘫痪它就没有意义了。",
+			say = "If we take too long... we will be trapped in here forever.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "参数我已经调整好了，让革律翁开路，我们出发吧。",
+			say = "Now, let's access the database in the control center. It should take us to the hourglass' throat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "革律翁，为大家引路。",
+			say = "One quick thing before we do that. Could you examine this one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_9",
-			say = "革律翁展开双翼，但就在它进入幻境之前，女灶神又开口叫住了它。",
+			say = "Bismarck held U-556's hand and led her to Vestal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "等等，再稍等一下。",
+			say = "Ah. U-556, yes? You told me about her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "这个孩子的情况是……？",
+			say = "(I sense the corrosion eating away her hull... But wait, it's not past the point of no return...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_9",
-			say = "女灶神在{namecode:416}的身边蹲下，端详了一番之后向{namecode:435}投去询问的眼神。",
+			say = "Vestal felt a little confused seeing such a bright smile on a body so clearly tarnished by the corruption.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:416}她……在我们刚来到这里的时候，被META化侵蚀冲击引起了旧伤复发，大概。",
+			say = "She suffered damage to her hull long ago, and the red sea's corrosion suddenly reopened and aggravated her old wounds.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "然后变成了这样。我虽然设法让其恢复了理智，但外貌就……",
+			say = "I entered her vision and managed to cleanse the external corruption, but she's still in this form...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -618,7 +618,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "原来如此……",
+			say = "I see...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "放心。还处在可逆阶段呢。",
+			say = "Luckily, her condition is still reversible. I should be able to cleanse the internal corruption as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "这个我能处理，交给我吧。",
+			say = "Just give me a minute, please.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "真的么？！",
+			say = "...Thank you so much.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "嗯。不过在处理完成之后一段时间内要绝对避免战斗，记好了哦。",
+			say = "Please, it's nothing. One important thing, though – she still needs to abstain from fighting for a while after I've treated her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -713,7 +713,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "好的，没问题。",
+			say = "Alright.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,9 +729,9 @@ return {
 			bgName = "bg_bsmre_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "……等等！",
+			say = "Hey, hold on a sec!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -755,12 +755,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_9",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "女灶神姐姐，你对于META很了解，对吧！",
+			say = "Vestal, you know more than anyone else here about METAmorphosis, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,7 +778,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "可以这么说。",
+			say = "I... suppose so.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,12 +792,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_9",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "现在大家还没有脱离危机，正是最需要战斗力的时候。",
+			say = "Okay, then listen. We're still in danger and need as many of us fighting as possible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -811,12 +811,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_9",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "我可是海上骑士，负有保护{namecode:435}姐姐和大家的安全的职责！",
+			say = "I'm the Parzival of the Seas, and I'm duty-bound to protect Lord Bismarck as well as all my other friends!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -832,9 +832,9 @@ return {
 			bgName = "bg_bsmre_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "所以我不能变成没有战斗力的拖油瓶！",
+			say = "If you cure me now and I'm forbidden from fighting, I'll only be dead weight!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -848,12 +848,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_9",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "能不能只帮我做一下应急处理之类的？",
+			say = "So, could you just... put a bandaid on, but let me stay like this for a while longer?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -867,12 +867,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_9",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "我不想就这样躲在大家身后！",
+			say = "You can fully cure me after this is all over!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -889,7 +889,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "会有一定风险。",
+			say = "Are you sure you want to do that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -907,7 +907,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "…………但是我明白你的觉悟了。",
+			say = "(Even if she's willing to take a risk, there's a lot at stake here...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -925,7 +925,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "我会对你做一些应急处理，以便你能投入接下来的战斗。",
+			say = "(Worse comes to worst, she might lose herself again...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -943,7 +943,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "但是应急处理是有极限的，",
+			say = "Okay. I'll do what I can, but if you push yourself too far, there's no going back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -961,7 +961,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "在战斗中，当我说停下的时候，你必须要停下来，明白么？",
+			say = "You need to promise that if Bismarck or I order you to stop fighting, you will do so at once. Is that clear?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -977,9 +977,9 @@ return {
 			bgName = "bg_bsmre_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "明白！谢谢女灶神姐姐！",
+			say = "Yeah! Promise!",
 			painting = {
 				alpha = 0.3,
 				time = 1

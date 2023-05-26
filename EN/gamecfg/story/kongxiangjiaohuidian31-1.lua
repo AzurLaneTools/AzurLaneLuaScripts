@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "theme-thedevilXV",
 			bgmDelay = 2,
-			say = "革律翁的双翼掀起风暴，咆哮着冲向水面的敌人。",
+			say = "Geryon roared as Bismarck led the ships into battle, launching a fierce attack on the Arbiter vessel.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,7 +29,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "然而，代行者舰队并没有如预期般陷入混乱，反倒是组织起了更加猛烈的防空火力。",
+			say = "However, the vessel and its Enforcers did not descend into chaos, instead exhibiting greater synergy as they intensified their defensive fire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			actor = 9704010,
 			dir = 1,
-			say = "那些代行者的状态……和之前不一样了。",
+			say = "It's not just the vessel that's stronger! The Enforcers are on a whole other level, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "革律翁，回到舰队中来！",
+			say = "Nobody overextend! Advance slowly and steadily!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			actor = 9704010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我来掩护！",
+			say = "I'll provide covering fire!",
 			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
@@ -125,9 +125,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*愤怒地咆哮*██▌",
+			say = "ROOOAAAR!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "女灶神小姐，那些敌人怎么会……突然变成这种样子？",
+			say = "Regina, back off! Bah... These Sirens are even nastier than normal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			actor = 9712010,
 			dir = 1,
-			say = "我没有确切的证据。",
+			say = "The Devil has supercharged not only The Hermit's vessel, but these Enforcers as well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "不过也许和迪贝路的代行者一样，它们也受到了赫米忒管理机变化的影响。",
+			say = "I fear there's no hope for us anymore...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:435}大人，我的舰载机损失惨重！",
+			say = "I've lost quite a few aircraft, but you don't see me throwing in the towel already.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			actor = 406030,
 			dir = 1,
-			say = "第一波派出去的飞机几乎无一返回。",
+			say = "Good girls fight the good fight, no matter the odds.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			actor = 406030,
 			dir = 1,
-			say = "现在舰载机光是防御舰队上空就很吃力了，我没法组织第二波进攻。",
+			say = "I know it's tempting to give up, but if there's even a sliver of a chance we can make it out of here alive, I'll pursue it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那些混在敌方舰队中的迪贝路悬浮飞行器，得想办法处理一下才行！",
+			say = "You heard her, Vestal! We're all in this together!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			actor = 9712010,
 			dir = 1,
-			say = "我知道方法，但，需要一个极其擅长电子战的人来实施。",
+			say = "You're... No, you're right. We still have a shot at victory, risky as it may be.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……啊哈哈，看来只能硬碰硬了。",
+			say = "Risky? What do you mean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不要忘记我们的目标，{namecode:96}小姐。",
+			say = "I think I know. It requires someone skilled in electronic warfare, and someone who can bust that vessel open.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "瘫痪赫米忒的管理机是吧，我记得呢！",
+			say = "Sure, but we have to get through the Enforcers first!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但是那个管理机一直缩在后面不出来，如果不先突破防空火力网的话！",
+			say = "Even if they were standing still, we've still got to dodge their attacks! We can barely land a hit on them!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "用和之前一样的战术。",
+			say = "Remember how we fought the last vessel and just repeat what you did.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:464}来指挥舰队拖延时间。",
+			say = "Ulrich, you're in charge. Keep the Enforcers occupied and buy me some time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "我去瘫痪赫米忒的管理机。",
+			say = "While they're distracted, I'll get in close.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "{namecode:435}，实话实说，你的……",
+			say = "Are you sure we should do this, Bismarck?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			actor = 9712010,
 			dir = 1,
-			say = "革律翁这一舰装的技术很特殊，仲裁机关也会对你相当有兴趣才对。",
+			say = "We can pull it off if we coordinate well enough...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			actor = 9712010,
 			dir = 1,
-			say = "万一这是一个诱捕你的陷阱呢？",
+			say = "But what if this is exactly what the Sirens want us to do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "那这次事件中的陷阱也太多了一点。",
+			say = "You can't think like that, Vestal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "一路上的经历让我们出现了太多猜测、疑虑与对于未知的恐惧。",
+			say = "Before you can make a decision, you need to overcome your fears and doubts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但是，世界也不是光靠阴谋与诡计推动的。",
+			say = "The old me would try to carry the weight of the world, unwaveringly following the path she believed in, even if she had to do it alone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "既然看到了胜利的机会，就不能坐视其白白流逝。",
+			say = "Not anymore. I trust my comrades with my life. With them by my side, I am stronger than ever.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "其中的风险，就由我来承受吧。",
+			say = "It's not great leaders that forge the future, but rather those who believe in them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			side = 2,
 			actor = 9712010,
 			dir = 1,
-			say = "……我明白了。虽然我并非战斗型，不过会尽可能为你们提供支援的。",
+			say = "I... Okay. I trust you, Bismarck. We stand behind you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "那么后方就交给你了，女灶神小姐。",
+			say = "Thank you. I'm counting on you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,8 +608,8 @@ return {
 			nameColor = "#ffa500",
 			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "{namecode:435}姐姐，让我跟你一起去吧！",
+			actorName = "U-556 META?",
+			say = "Let me come with you, Lord Bismarck!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -635,8 +635,8 @@ return {
 			nameColor = "#ffa500",
 			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "这一次我绝对不会离开你了！",
+			actorName = "U-556 META?",
+			say = "I won't let anything get between us again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……好，我们出发！",
+			say = "...Okay. Let's go!",
 			painting = {
 				alpha = 0.3,
 				time = 1

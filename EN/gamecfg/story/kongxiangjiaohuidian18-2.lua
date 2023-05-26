@@ -203,7 +203,7 @@ return {
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			dir = 1,
-			say = "Why would it do that, though? Does it want to bomb the Tower?",
+			say = "Why would it do that, though? Does it want to bomb the tower?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "Regardless, the risk is too great to let it near the Tower.",
+			say = "Regardless, the risk is too great to let it near the tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1

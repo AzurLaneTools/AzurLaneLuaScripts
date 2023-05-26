@@ -614,7 +614,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_2",
-			say = "She looked around and saw she was on the Tower's outer ring.",
+			say = "She looked around and saw she was on the tower's outer ring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

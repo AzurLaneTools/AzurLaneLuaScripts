@@ -24345,5 +24345,5 @@ _G.pg.base.gametip.mktea_5 = {
 }
 
 _G.pg.base.gametip.random_skin_list_item_desc_label = {
-	tip = "Skin"
+	tip = " - "
 }

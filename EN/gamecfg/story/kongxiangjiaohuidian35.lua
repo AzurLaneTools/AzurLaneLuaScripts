@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_14",
 			stopbgm = true,
-			say = "？？？·？？？",
+			say = "Somewhere, in an unknown location...",
 			bgmDelay = 2,
 			bgm = "theme-thetowerXVI",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_14",
-			say = "黑色衣装的少女正在控制台前操作着什么。",
+			say = "A young girl dressed in black stood in front of a control device, making changes of some sort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_14",
-			say = "她的身后传来脚步声，另一个人走了进来。",
+			say = "Then, she heard footsteps from behind her. Someone entered the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "迪贝路，在忙呢？",
+			say = "Devil, got a moment?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "看来我来得不是时候？",
+			say = "Didn't catch you at a bad time, did I?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "托瓦，没想到来的会是你。",
+			say = "Oh, it's you. Surprised to see you here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "这句话应该是我问你才对。",
+			say = "I'M the one who's surprised.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "你这段时间都去了哪里？",
+			say = "Where have you been? I couldn't trace you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "在赫米忒这里做什么？",
+			say = "What are you doing inside Hermit?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真麻烦……",
+			say = "Ugh, give me a break...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反正你的目的也跟我差不多吧。",
+			say = "Look, we have a lot in common, don't we?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这件事我放手，可以吧？",
+			say = "So tell you what. I'll give up peacefully. Happy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "就算这件事算了，之前你去我那里大闹一场的账还没算清楚呢。",
+			say = "I'll let you off the hook this time, but you still have to repay me for breaking my lens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还不是因为你自己家里先进了老鼠。",
+			say = "Oh, for... That's your fault for letting rats inside.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "那些是龙猫。",
+			say = "They're chinchillas.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么都好了……",
+			say = "Same difference.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我还有急事，接下来能不能让彼此执行各自的任务，互不干涉呢？",
+			say = "I've got important stuff to do, so let's just pretend we didn't see each other. Deal?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "那就要取决于你对于接下来这个问题的回答了。",
+			say = "That depends on your answer to this next question.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "————你的后援，是谁？",
+			say = "Who's that behind you?",
 			painting = {
 				alpha = 0.3,
 				time = 1

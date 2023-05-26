@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
 			stopbgm = true,
-			say = "？？？·米德加尔特之塔-连接通道",
+			say = "Mirror Sea - ω phase",
 			bgmDelay = 2,
 			bgm = "theme-bismark-reborn",
 			flashin = {
@@ -33,9 +33,9 @@ return {
 			bgName = "bg_bsmre_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "{namecode:435}姐姐，我们不去参加搜索么？",
+			say = "Lord Bismarck, wouldn't it be smart to patrol the area?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "嗯。参加搜索的人已经足够多，而且革律翁也去了。",
+			say = "No need. I'll have my hands full with touching up Regensburg's rigging.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在这期间我想梳理一下思路，也想听一听你的看法。",
+			say = "In the meantime, I want to discuss the Mirror Sea's structure with someone. Will you stay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,12 +84,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "如果有我能帮上忙的地方的话~",
+			say = "Of course! I'd do anything if it helps you out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……首先，你觉得这片海域，或者说这片空间像什么？",
+			say = "Heheh. Alright, then I'd like you to tell me what you think this place is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,12 +120,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "唔……像什么么…………？",
+			say = "What it is? Uhhhh... Hmmmm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "没关系，仅凭直觉，想到什么说什么。",
+			say = "Don't think too hard. Just tell me the first thing that comes to mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,9 +159,9 @@ return {
 			bgName = "bg_bsmre_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "仅凭直觉的话……沙漏！",
+			say = "In that case... A loop? Maybe an hourglass?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,12 +175,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "{namecode:435}姐姐，有没有觉得这里就像沙漏一样！",
+			say = "Yeah, I think it's like an hourglass!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "沙漏？",
+			say = "An hourglass?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,12 +211,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "嗯！一个超级超级巨大的沙漏！",
+			say = "A really, reeeally big one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,12 +240,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "我们每次移动后的整个空间，都只是沙漏的一小层切片而已！",
+			say = "Like, you know how at first, everything was red other than the area around the Tower?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,9 +261,9 @@ return {
 			bgName = "bg_bsmre_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "而且是一个沙子会变色的沙漏！",
+			say = "And every time we used the gate, we ended up in the same place, but the red sea was getting closer...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,12 +277,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "中间的米德加尔特之塔就像沙子流动的通道。",
+			say = "Then, when we used it again after seeing the upside-down city, the red and blue were reversed!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,12 +296,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "我们顺着蓝光走，蓝色的海水也顺着蓝光走。",
+			say = "So I think the Tower is the middle of the hourglass, and the gate is the passage of time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,12 +315,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "所以蓝色的水越来越少，红色的水越来越多！",
+			say = "The sea starts out blue, then gradually becomes red...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,9 +346,9 @@ return {
 			bgName = "bg_bsmre_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "然后然后！之前有都市的地方就像沙漏的中心点一样",
+			say = "And when it's all turned red, the hourglass is flipped, turning red sea back into blue sea...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,12 +362,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "所以相对于我们来说才是倒挂在天上的！！",
+			say = "I've got it! If the red sea is sand, then us passing through the gate is what lets it fall through!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,12 +391,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "然后我们跨过了中心点来到了沙漏的另一侧的时候，颜色就都变了！",
+			say = "I mean, look at the Tower. Its light beam has changed from blue to red. I think that indicates what's on the other side of the hourglass!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,9 +412,9 @@ return {
 			bgName = "bg_bsmre_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "因为这是会变色的沙漏，蓝色的沙子经过中心点后就变成了红色！",
+			say = "And maybe the reason we saw the upside-down city is because we were standing on top of the sand!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "米德加尔特之塔的光芒和它周围的水面颜色确实总是保持一致的……",
+			say = "This Mirror Sea is an hourglass, and the red sea represents sand falling down...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "沙子顺着米德加尔特之塔进行移动，然后经过中心点后发生了变色……",
+			say = "Using the gate only transports us through time, not space, during which sand falls down, expanding the red sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "等等……",
+			say = "Hang on, that reminds me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来，我们刚来这里的时候，海域里完全没有“红区”哦。",
+			say = "Yeah, we were looking for Ulrich when we first arrived, and there was no red sea here at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "是这样么……？",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊对，{namecode:464}阁下一直在梦游的状态，不记得也正常。",
+			say = "Oh, uh, you were sleepwalking at the time, so it's natural you wouldn't remember it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，我们紧随你而来之后，海域中肯定没有任何的“红区”。",
+			say = "While I can't be 100% sure, I think Jade was the first to observe the red sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "梦…………我依稀记得，我好像在梦里启动过一次米德加尔特之塔。",
+			say = "(All I did remember from my episode is going through the gate and heading straight for the control center... No, wait, there's one more thing.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "…………当时，塔的中间没有发光，海域里也没有那些巨大的立方体。",
+			say = "Those giant cubes. I don't remember them being there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？立方体的话，我跟{namecode:434}·META小姐来的时候就有了哦。",
+			say = "Huh? That's weird. Gneisenau and I definitely saw them when we first got here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "也就是说{namecode:464}阁下在梦里启动了一次米德加尔特之塔，然后在外面的现实世界出现了巨大立方体……？",
+			say = "If what Ulrich said is true, and the cubes aren't based on some kind of timetable, we must've done something to cause them to appear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,7 +631,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（{namecode:464}来的时候，海域中并不存在红色的部分，也没有那些方块。）",
+			say = "(Ulrich said that when she first arrived, there was no sign of the red sea, or those floating cubes.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:464}在梦里启动了塔，之后，通过米德加尔特之塔的{namecode:96}等人发现了方块，但是还没有发现红色。）",
+			say = "(After Ulrich activated the tower, Zuikaku and Gneisenau came through and saw the floating cubes, but not the red sea.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（我们来的时候已经出现了红色，而且随着每次启动米德加尔特之塔都会让红色面积大幅扩散一次。）",
+			say = "(By the time I arrived, the red sea was already present, and with each activation of the tower, the red area grew more and more.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,7 +689,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（且红色水域中存在META化侵蚀的气息……）",
+			say = "(When we saw the upside-down city, that must've been when all the \"sand\" had passed through one phase.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（等等……神秘敌人是从红色海水中最先出现的。）",
+			say = "(Then, there's the corrosion effect of the red sea, the METAmorphosis phenomenon, and the unknown enemies that appear from the red waters...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -725,7 +725,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（而塞壬在与其进行战斗。）",
+			say = "(But if we assume that this Mirror Sea houses a Siren Arbiter's mainframe, why would those things be here? Unless...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -743,7 +743,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（假设这里就是仲裁机关的主机，难道说…………？！）",
+			say = "...Oh my god!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -764,9 +764,9 @@ return {
 			bgName = "bg_bsmre_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "{namecode:435}姐姐？你的脸色突然变得好差。",
+			say = "What's wrong, Lord Bismarck? You look pale!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -780,12 +780,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "……是想到了什么吗？",
+			say = "I think my guess might be wrong after all...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯…………我刚刚有了一个非常不好的猜测。",
+			say = "Ugh... Sorry, I didn't mean to make you worry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -820,7 +820,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "……在控制室里，或许会有我需要的证据。",
+			say = "I'm working with a number of assumptions here, but it's best if we act quickly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们先进去吧——",
+			say = "Come with me, U-556. We're going back to the control center.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -881,12 +881,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_cg10",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "{namecode:435}姐姐，你快看！！",
+			say = "Wh-what is that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -900,7 +900,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg10",
-			say = "进入控制室后二人立刻发现，本已经被{namecode:464}打碎的“画面”拼合出了全新的影像。",
+			say = "In place of the previous vision of Friedrich, the dome in the central control room displayed a new, rather ill-boding image.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -910,12 +910,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_bsmre_cg10",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "怎么会这样……整支铁血舰队都？！",
+			say = "All of Iron Blood has been defeated?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -929,7 +929,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg10",
-			say = "这一次，画面中展现着铁血舰队的惨像，就连{namecode:436}也倒在燃烧的残骸与漫天的灰烬中。",
+			say = "Heaps of wreckages floating in a burning sea. Among them were the girls of Iron Blood, including Bismarck's sister, Tirpitz.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -942,7 +942,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………不要动摇，只是捏造的幻象而已。",
+			say = "Calm down. It's not real.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -960,7 +960,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "和之前的没有区别。",
+			say = "(My corrosion sensor is responding, though. This place really does connect to the throat of the hourglass.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -972,10 +972,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_bsmre_cg10",
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP BEEP!",
 			soundeffect = "event:/battle/button",
 			typewriter = {
 				speed = 0.05,
@@ -991,7 +991,7 @@ return {
 			actor = 9704010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "{namecode:435}大人……很遗憾，我们没有任何收获。",
+			say = "Bismarck, we've finished surveying the nearby waters. There seems to be nothing of note here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1010,7 +1010,7 @@ return {
 			actor = 9704010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "{namecode:464}阁下还在搜寻，不过我觉得，那个未知的META似乎已经离开了。",
+			say = "The other META's trail also seems to have vanished, I'm afraid.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1024,9 +1024,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_bsmre_cg10",
-			actorName = "革律翁",
+			actorName = "Geryon",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*附和地低吼*██▌",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1046,7 +1046,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下结论还太早了！只要能找到那个META的话，也许事情还有转机！",
+			say = "Don't draw conclusions just yet, Gneisenau. We're bound to find a lead on her if we keep looking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1069,7 +1069,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "{namecode:464}，我理解你的心情，但那不是我们的首要任务。",
+			say = "I admire your drive, but pursuing a wild goose chase will only squander our finite resources.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1086,7 +1086,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然海域中有这样一个强大的META存在，我们迟早会遇到的。",
+			say = "If the META is here, we'll run into her sooner or later. If she's already left, we'll gain nothing by searching for her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1105,7 +1105,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我明白了，搜索任务结束。我们这就回来。",
+			say = "...Alright. We'll head back to the Tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1122,7 +1122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，集结点更改，大家不用来控制室了，直接去出发区集合吧。",
+			say = "Meet me at the gate. I have a theory I'd like to prove.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1138,9 +1138,9 @@ return {
 			bgName = "bg_bsmre_cg10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "嘿嘿~{namecode:435}姐姐，我帮上忙了么？",
+			say = "Are you sure about this, Lord Bismarck?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1185,7 +1185,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "嗯，你刚刚提出的假设非常有趣。",
+			say = "It'll be fine. The corruption in the control center is dormant for now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1202,42 +1202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你看，现在米德加尔特之塔的中心正闪烁着红光。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_bsmre_cg10",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 405050,
-			say = "如果你的假设是正确的，整个空间就像一个更高维度的巨型装置一样。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 405050,
-			side = 2,
-			bgName = "bg_bsmre_cg10",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "那么接下来在移动后，如果“红区”扩大，就可以说明我们在向距离中心更远的地方移动。",
+			say = "Now, as for my theory... Use your communicator to relay a message to everyone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1255,7 +1220,42 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "如果“红区”减少，说明我们在向距离中心更近的地方移动。",
+			say = "\"I strongly believe this Mirror Sea is structured like an hourglass.\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 405050,
+			side = 2,
+			bgName = "bg_bsmre_cg10",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "\"We are going to test if the gate advances the passage of time and makes the red sea, symbolizing sand, expand or not.\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_bsmre_cg10",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 405050,
+			say = "\"If the red sea does not expand, or if it thins out, that means we're on the top side of the hourglass.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1271,9 +1271,9 @@ return {
 			bgName = "bg_bsmre_cg10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "我们的最终目标是要去中心的那座城市里么？",
+			say = "Ah! So once all the sand is gone, we can safely investigate the city at the hourglass' throat!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1290,7 +1290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我原本以为是会是这样的……不过看上去没有这么简单。",
+			say = "I've not made my mind on that just yet. We'd need to find a way to get there, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1308,7 +1308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "真正的危险……或许还在迷雾的更深处等待着我们。",
+			say = "As I was saying... \"Conversely, if the red sea does expand, that means we are on the bottom side.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1325,7 +1325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "走吧，我们该前往出发区了。",
+			say = "\"We must find a way out of this place as soon as possible, before the corruption bears down on us.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			stopbgm = true,
-			say = "铁血浮岛要塞群·A1浮岛-办公区",
+			say = "Floating Fortress - Area A1",
 			bgmDelay = 2,
 			bgm = "story-midgard",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "这样就算告一段落了。",
+			say = "Whew... It's good to be home again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……不知道伊丽莎白那边的问题解决了没有。",
+			say = "I wonder if Queen Elizabeth solved her Singularity issue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "联系一下她好了。",
+			say = "Might as well call her and ask.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "{namecode:435}打开通讯频道。",
+			say = "Bismarck opened up a communication channel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "但在按下呼叫键之后，回应她的只有杂音。",
+			say = "She called up the queen, but the only thing on the other end was white noise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……嗯？",
+			say = "Huh? That's strange...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "{namecode:435}又分别试着呼叫本土司令部与驻扎在博览会会场的{namecode:427}。",
+			say = "Confused, she then attempted to get in touch with her comrades on the Iron Blood mainland, as well as those attending the World Expo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "通讯器中依然只有杂音。",
+			say = "But, again, the only thing she heard was white noise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "外部通讯依然没有恢复……？有些奇怪……",
+			say = "Is the Mirror Sea's jamming field still active? That's really odd...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "{namecode:435}大人，我这边的检查结束了。",
+			say = "Bismarck, I've finished my inspection.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "情况怎么样？",
+			say = "How are the others holding up?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 402100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……位于医疗室中的同伴们依然在昏睡中。",
+			say = "Just fine. They're all still sleeping like babies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……除此之外还有其他异常么？",
+			say = "...Anything else that's wrong with them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			actor = 402100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有，医疗检查结果显示没有任何异常状况。",
+			say = "There's nothing wrong with them, medically speaking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			actor = 402100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就像……普通地睡着了而已。",
+			say = "They're just sleeping. That's all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "我明白了，继续保持观察。",
+			say = "Very well. Continue monitoring them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			actor = 402100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遵命，{namecode:516}通讯结束。",
+			say = "As you say.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "从办公区的窗外望去，米德加尔特之塔的光芒逐渐减弱。",
+			say = "Bismarck gazed through the window in her office. The Tower of Midgard's light was fading.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "这是装置正在被关闭的证明。",
+			say = "They had promptly shut off the gate and deactivated the facility as soon as they got back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "事件的所有影响……也应该随之消失才对。",
+			say = "It's supposed to be over. Everything should be back to normal, and yet...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……看来必须要摧毁它了么。",
+			say = "Destroying the Tower of Midgard really is the only way, it seems.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "{namecode:435}凝视着陷入沉寂的米德加尔特之塔，良久。",
+			say = "She observed the silent tower whilst weighing its pros and cons in her head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "……………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "…………{namecode:464}，能听到么？",
+			say = "Ulrich, do you hear me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没问题，阁下有什么事？",
+			say = "Loud and clear. What's up?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "米德加尔特之塔检查怎么样了？",
+			say = "Are you done inspecting the tower?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正在进行中，彻底检查还没有结束。",
+			say = "Still working on it. It's gonna take a lot of time if you want me to be thorough.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过只看初步结论的话，它看上去已经恢复如初了。",
+			say = "But, from what I can tell so far, it's back to working as normal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			actorName = "{namecode:464}&{namecode:435}",
 			actor = 405030,
 			nameColor = "#A9F548FF",
-			say = "{namecode:435}阁下——\n{namecode:464}——",
+			say = "– Bismarck... – Ulrich...",
 			subActors = {
 				{
 					actor = 405010,
@@ -532,7 +532,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "…………看来我们想说的是同一件事。",
+			say = "Ahah. We both had the same thought, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真的要炸么？",
+			say = "...Are we really going to destroy it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……炸吧。",
+			say = "...Yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "米德加尔特之塔的使命已经结束了，换成{namecode:441}也会做相同的决定的……",
+			say = "It has served its purpose. If Friedrich were here, she would agree that destroying it is the correct move.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "不过……再从米德加尔特之塔中读取一次数据，然后检查一下项目的所有资料，",
+			say = "But before we do so, download the logs saved on it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -623,7 +623,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "确认完整并进行备份后……再进行爆破拆除。",
+			say = "Make backups of all the project files on it as well. Once that's done, demolish it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我明白了，立刻着手进行。",
+			say = "Got it. I'm on it.",
 			painting = {
 				alpha = 0.3,
 				time = 1

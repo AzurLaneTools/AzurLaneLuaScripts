@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "(I can't put anyone else at risk... This is my duty as the wielder of the Zwei rigging!",
+			say = "(I can't put anyone else at risk... This is my duty as the wielder of the Zwei rigging!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "This might be a long shot, Jade, but can see if you can find U-556?",
+			say = "This might be a long shot, Jade, but can you see if you can find U-556?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "To the northwest. It's a straight line for the Tower.",
+			say = "To the northwest. It's a straight line for the tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "Full speed ahead to the Tower!",
+			say = "Full speed ahead to the tower!",
 			painting = {
 				alpha = 0.3,
 				time = 1

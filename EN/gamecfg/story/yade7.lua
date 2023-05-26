@@ -279,7 +279,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "blackbg",
+			bgName = "star_level_bg_1100",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
@@ -316,7 +316,7 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "blackbg",
+			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -334,7 +334,7 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			bgName = "blackbg",
+			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -352,7 +352,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "blackbg",
+			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -370,7 +370,7 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "blackbg",
+			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -388,7 +388,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "blackbg",
+			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -406,7 +406,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "blackbg",
+			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -424,7 +424,7 @@ return {
 		{
 			actor = 406030,
 			side = 2,
-			bgName = "blackbg",
+			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -441,7 +441,7 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "blackbg",
+			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -457,11 +457,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			stopbgm = true,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			bgmDelay = 2,
 			say = "Port - Commander's Office The next day...",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

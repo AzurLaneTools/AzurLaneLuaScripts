@@ -920,7 +920,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "I know you're about to say, but give up on that notion. There's no reversing METAmorphosis.",
+			say = "I know what you're about to say, but give up on that notion. There's no reversing METAmorphosis.",
 			painting = {
 				alpha = 0.3,
 				time = 1

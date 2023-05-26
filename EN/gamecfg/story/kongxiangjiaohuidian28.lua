@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			stopbgm = true,
-			say = "光芒消散后，新的幻象出现在{namecode:435}眼前。",
+			say = "After the blinding light faded, a new illusion appeared in front of Bismarck.",
 			bgmDelay = 2,
 			bgm = "story-bismark-determination",
 			flashout = {
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "远处的海面上传来战斗的炮火声，一支舰队正在敌阵中穿行。",
+			say = "This time, a group of shipgirls were breaching the enemy line to the peal of roaring cannons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			actor = 404030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "战况不妙，{namecode:441}阁下，我已经失去了和{namecode:466}与{namecode:447}的联络。",
+			say = "I've lost contact with Thüringen's squadron, Lady Friedrich! Things are looking dire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			actor = 404030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "战线维持不了多长时间了。",
+			say = "We won't last much longer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "时间还没到，继续战斗。",
+			say = "The time isn't right. You must keep fighting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "敌人又围上来了哦！",
+			say = "They're surrounding us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "迎击。",
+			say = "Intercept them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,8 +133,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "仲裁者·赫米忒·IX",
-			say = "……还以为你们多少会有些准备呢，真是浪费时间。",
+			actorName = "Arbiter: The Hermit IX",
+			say = "Here I thought you'd at least come prepared. What a joke.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,8 +150,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "仲裁者·赫米忒·IX",
-			say = "消失吧。",
+			actorName = "Arbiter: The Hermit IX",
+			say = "Disappear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "{namecode:440}和公海舰队的身影被接连不断的炮火吞没。",
+			say = "One by one, the members of Friedrich's fleet were engulfed by continuous, overwhelming artillery fire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "你在沉思，动摇了么？",
+			say = "Have you been shaken by this vision?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "我只是在想……幻象的场景与我之前看到的相同，但时间早了一些。",
+			say = "No, I'm thinking... About how all these visions seem to be connected.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这种幻象，真的是“制作”出来的么？",
+			say = "...Were these visions truly fabricated, or are they based on reality?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "最初，它们只是塞壬存储信息的一种方式。",
+			say = "It's not impossible. Originally, these visions were just a way for Sirens to store information.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "其中的内容有些来自于主机的模拟，有些则是实验场中实际事件的记录。",
+			say = "Some of their contents are from simulations run by the mainframe, while others are records from actual events in the experimental field.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "后来……就跟镜面海域一样，塞壬把所有能利用的科技都兵器化了，也就诞生了这样迷惑人心的幻境。",
+			say = "Later on, the Sirens would go on to weaponize these visions just as they did with all technology at their disposal, much like the Mirror Seas.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是，不能绝对肯定幻象中的场景不是真实发生过的？",
+			say = "Or... They could be things that happened in other branches.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "没想到你会从这个角度进行提问。",
+			say = "A keen observation. I didn't expect you to ask me a question from this angle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "如果我回答，“是”呢？",
+			say = "What if I were to tell you, \"yes\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "……那我们还是不要纠结于这个问题了。",
+			say = "...All the more reason not to dwell on it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你觉得幻象中场景时间的提前意味着什么？",
+			say = "Getting back on topic... Assuming these visions are all connected through temporal continuity, I suspect that we're seeing them in the reverse order.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "时间提前，是否意味着我们在空间中相对位置上的靠前？",
+			say = "So, if my theory about traveling through concepts is correct, following these visions should lead us to their source.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "嗯……也许我们已经找到逆向前进的方法了。",
+			say = "Indeed. We might already know the way to move backwards.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "对了，之前你说的黑色飞行器在哪里？",
+			say = "You mentioned something earlier about a black aircraft beyond the mist, yes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "也许我能辨认出它们的来源。",
+			say = "I think I have an idea of where to find it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "稍等……革律翁，驱散海雾！",
+			say = "If I remember right, it should be... this way. Let's go, Geryon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,18 +472,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "革律翁飞上天空，贴着海雾的边缘滑翔，它的动作似乎比之前更加轻盈灵活。",
+			say = "Bismarck engaged her engines and followed the vision's foggy boundary line.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "革律翁",
+			actorName = "Geryon",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*愤怒地咆哮*██▌",
+			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
-			say = "狂风卷散了雾气，也将黑色的飞行器暴露了出来。",
+			say = "Geryon flapped its wings to create another blast of wind, its movements seemingly smoother and more flexible than before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "与此前不同，这些飞行器在察觉到暴露的瞬间，就全部四散而逃了。",
+			say = "The obscuring veil parted to reveal multiple jet-black Siren aircraft. The instant they spotted Bismarck, they scattered and began to flee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "被察觉到意图了。革律翁，追！",
+			say = "You're not getting away this time! Geryon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,7 +550,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "……等等，不用了。我已经知道那些飞行器的主人是谁了……",
+			say = "...There's no need for that. I already know who those planes belong to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "那是…………仲裁者·迪贝路·XV的舰载机。",
+			say = "They belong to an Arbiter... Arbiter: The Devil XV.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +586,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "……仲裁者·迪贝路？不是赫米忒么？！",
+			say = "The Devil? Not The Hermit?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "我们在面对两个仲裁机关？！",
+			say = "We're dealing with not one, but TWO Arbiters now?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "我、我还需要更多的情报……",
+			say = "I'm afraid we'll need to gather more intel...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "幻象构成的道路一定有尽头，我们快走！",
+			say = "First, though, the way out of the vision is open. Let's get out of here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -653,7 +653,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_8",
-			say = "再次穿越光芒后，米德加尔特之塔与倒悬在空中的都市出现了。",
+			say = "After passing through the light again, Bismarck once again found herself in front of the Tower of Midgard and the inverted city in the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们从幻象……走出来了？",
+			say = "...This isn't where we're supposed to be. I must've taken a wrong turn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？我…………的感觉有点奇怪。",
+			say = "Are we still dreaming? This doesn't feel real to me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "没错，我们已经回归现实了。",
+			say = "We're not. I can confidently say that this is reality.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,7 +740,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "我一开始就是以物质的方式进去的，而你不是，所以出来之后才有如此差别。",
+			say = "(But why did we end up here? Outside interference? Or is the corruption affecting Bismarck's hull?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -758,7 +758,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "不用在意，回去就好了。",
+			say = "Don't worry about your allies. We'll meet up with them soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -776,7 +776,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "果然……这里是赫米忒主机空间的核心区域。",
+			say = "...There it is. This place is where The Hermit's mainframe is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -794,7 +794,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "那座天上的都市就是赫米忒的主机。",
+			say = "There's no mistaking it. The Mirror Sea, the upside-down city, and that massive tower...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -814,7 +814,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但如果是这样的话……",
+			say = "That's it... We must've been sent here by someone who wants the mainframe destroyed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,7 +831,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "嗯，毫无疑问，赫米忒的主机空间在遭受攻击。",
+			say = "Perhaps so. One thing is for sure – your presence here has made attacking the mainframe much easier.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -849,7 +849,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "……等等，我跟基地的联络恢复了。",
+			say = "...Oh! I've regained connection! I can talk with my allies again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -867,7 +867,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "也许是这里还没有完全封锁……我这就呼叫后援！",
+			say = "That must mean The Tower XVI still hasn't gained full control of this place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -881,7 +881,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_8",
-			say = "女灶神如释重负地摁下了通讯器的按钮——",
+			say = "After breathing a sigh of relief, Vestal punched a number and a code into her communicator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -895,7 +895,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "能听到么，海伦娜！",
+			say = "Helena, can you hear me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -914,7 +914,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "女灶神，终于和你恢复联络了。",
+			say = "Vestal! Thank goodness you're alive.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -933,7 +933,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "你在哪里，现在情况怎么样？",
+			say = "Where are you right now? What's your status?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -951,7 +951,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "我大概在赫米忒的某个主机空间里……情况有些棘手。",
+			say = "The good news is, I'm in the Mirror Sea that houses The Hermit's mainframe. As for the bad news... matters have gotten complicated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -968,7 +968,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "现在β的{namecode:435}正在与我一同行动，还遭遇了迪贝路的舰载机……",
+			say = "Bismarck is here, and we spotted aircraft belonging to The Devil.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -987,7 +987,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "什么？",
+			say = "\"The Devil\" as in Arbiter XV, correct?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1005,7 +1005,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "嗯！这件事跟迪贝路也有关系。",
+			say = "Yes. I don't know why she's here, but it's a very bad sign.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1022,7 +1022,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "我也不知道通讯什么时候会再次中断……总之先把资料发给你。",
+			say = "I'll send you all the intel I've gathered now while I still can. There's no telling how long this connection will remain stable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1040,7 +1040,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9702010,
-			say = "了解，保持镇定，正在接收资料。",
+			say = "Deep breaths, Vestal. Let me just... There, I got your intel.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1059,7 +1059,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "…………………………嗯？",
+			say = "Hmm? Now, that's an interesting quandary.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1078,7 +1078,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "……………………有些奇怪。",
+			say = "There's a whole Iron Blood fleet out there? How'd they get in?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1097,7 +1097,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "……正在将整合后的资料传给你。",
+			say = "Hang on, I'll send you some data of my own. It'll help you out of the situation you're in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1115,7 +1115,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "嗯，我已经开始接收了。",
+			say = "*huff*... *puff*... Okay. I received your data.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1132,7 +1132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "等等……哎？迪贝路是怎么知道余烬的行动的？！",
+			say = "Wait, how is that possible? ...The Devil already has full knowledge of the Ashes' movements?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1161,7 +1161,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "不清楚，但这是整合情报后得出的唯一答案。",
+			say = "We don't know for sure, but we have to work under the assumption that she does.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1180,7 +1180,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "我已经开始安排救援行动了，但……",
+			say = "We've already sent a rescue team after you, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1199,7 +1199,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "很遗憾，现阶段从外部入侵到你们的位置是不可能的。",
+			say = "I'm afraid the place you're stuck in is impossible to infiltrate from the outside.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1217,7 +1217,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9702010,
-			say = "海域中，大致在主机附近的区域会有一台赫米忒的管理机。",
+			say = "The only way I can help you is by hacking the Mirror Sea to your benefit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1236,7 +1236,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "让其陷入瘫痪状态，而且要快，这个通讯可能已经被迪贝路发现了。",
+			say = "The Hermit has a vessel stationed near her mainframe. Find and destroy it as soon as you can.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1255,7 +1255,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "之后就交给我。",
+			say = "In the meantime, I'll do whatever I can.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1272,7 +1272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "好，我明白了。",
+			say = "...Okay. I'm on it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1291,7 +1291,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "……抱歉，没想到事情会变得这么复杂，是我的安排失误。",
+			say = "I'm sorry about all this. I shouldn't have sent you there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1309,7 +1309,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "没关系啦，女灶神通讯结束。",
+			say = "Don't apologize. I'll be okay.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1328,7 +1328,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚刚和你通讯的是？",
+			say = "Who was that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1363,7 +1363,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "我们的后援，可靠的海伦娜。",
+			say = "Helena, our \"ol' reliable.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1381,7 +1381,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "我知道你有很多问题，长话短说。",
+			say = "I'm sure you have many questions, but let me cut to the chase.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1399,7 +1399,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "首先，你们的{namecode:440}没事。",
+			say = "First and foremost, Friedrich is alive and well. She and the Ashes are currently engaging The Hermit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1417,7 +1417,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "她确实在与赫米忒进行交战，但这是一个和余烬一起精心策划的行动。",
+			say = "While she was away, another Arbiter, The Devil, infiltrated her mainframe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1435,7 +1435,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "真正处于危险中的是赫米忒，在她被余烬牵制的同时，此处的主机空间被迪贝路乘虚而入了。",
+			say = "As for why she'd do that, I cannot say. All I know is, she's causing damage to The Hermit while the latter is pinned down by the Ashes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1455,7 +1455,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "被……迪贝路乘虚而入？",
+			say = "Causing damage to her?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1474,7 +1474,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "塞壬彼此之间也会发生冲突么？",
+			say = "Are you saying there's infighting between the Arbiters?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1491,7 +1491,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "不会有常规意义上的“冲突”，但如果涉及到某些特别实验的话，塞壬之间确实会彼此战斗。",
+			say = "No, not infighting. All the Arbiters are Zero's subprograms. They would never turn on each other in the conventional sense.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1509,7 +1509,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "只不过仲裁机关级别之间的“冲突”，我们也是第一次见……",
+			say = "But that may change if there's a special experiment involved. In any case, this is the first time we've ever witnessed something resembling conflict between Arbiter programs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1528,7 +1528,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里是赫米忒的主机空间，也就是说只要摧毁这里，就能彻底消灭它？",
+			say = "Whatever her reason, it works in our favor. Won't we be rid of The Hermit for good if her mainframe is destroyed?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1546,7 +1546,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "怎么可能，要是这么容易的话，它们早就被全部摧毁了。",
+			say = "If only it were that simple. Should that be the case, the Arbiters would've been wiped out long ago.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1563,7 +1563,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "这里只是赫米忒的主机空间之一，仅摧毁这里距离打倒它还有很远的距离。",
+			say = "This is but one of many mainframes, and we have no way of knowing how many she has, or where they are hidden.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1581,7 +1581,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "不过……如果只是想要获取某些信息，或者篡改某些信息的话，入侵主机空间就是最划算的方法了。",
+			say = "However... If you're only interested in obtaining or tampering with certain pieces of information, invading the mainframe certainly is the most efficient method.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1599,7 +1599,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "海伦娜推测这就是迪贝路的目的。",
+			say = "At least, that's what Helena suspects.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1619,7 +1619,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "噩梦，还有海域中不断扩散的META化侵蚀，这些都是迪贝路的进攻手段么？",
+			say = "Then, is The Devil behind all of this? The nightmares, the weaponization of hull corrosion, and the vision of Friedrich we saw just before?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1637,7 +1637,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "那些奇怪的幻象是赫米忒的能力，也许代表着迪贝路已经开始取得主机空间的控制权了。",
+			say = "Actually, some of those things are parts of The Hermit's arsenal, which may signify that The Devil has begun to gain control of the mainframe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1655,7 +1655,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "至于利用META化侵蚀，目前这种现象在塞壬之中我们只观测到了与迪贝路有关。",
+			say = "As for the use of META corruption, this has only been observed in relation to The Devil.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1672,7 +1672,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "或许是因为迪贝路现在特殊的状态导致的……",
+			say = "Maybe that has something to do with The Devil's current condition...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1690,7 +1690,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "我们内部都没达成统一意见，所以也没法告诉你更多。",
+			say = "But that's speculation, and even we can't say for sure one way or the other.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1707,7 +1707,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "总而言之，迪贝路的状态很危险，不是我们现在的舰队能对付的。",
+			say = "Ultimately, her presence here isn't entirely beneficial to us. If we were to bump heads with her, we stand no chance of winning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1725,7 +1725,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "但如果只是赫米忒的管理机的话，我们还有取胜的可能。",
+			say = "Her vessels are a different story, though. We can defeat those if we work together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1744,7 +1744,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，我们在来的路上和管理机交过手，并一度认为已经将其消灭。",
+			say = "That much I already know. We ran into one of The Hermit's vessels earlier and took care of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1764,7 +1764,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来它最后的消失其实是撤退重整了啊。",
+			say = "But, since she only sent a vessel, she mustn't be too alarmed by us being here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1782,7 +1782,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "等等……管理机之前被你们打伤了么？！",
+			say = "Pardon? You fought one of The Hermit's vessels?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1811,7 +1811,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是，会有什么问题么？",
+			say = "Yeah. Is that a problem?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1829,7 +1829,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "倒也没什么，就是一会战斗的难度要提高了……",
+			say = "Well, no... Like you said, it just means she doesn't consider you a serious threat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1846,7 +1846,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "走吧，当务之急是把你们所有人都带回来。",
+			say = "At any rate, it's time we reunited with your allies. Let's get moving.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1866,7 +1866,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最后还有一件事，关于我的状态——",
+			say = "Alright. By the way, what you said about my rigging earlier...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1884,7 +1884,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "安心，我会替你保守秘密的。",
+			say = "I know. I won't tell them about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1

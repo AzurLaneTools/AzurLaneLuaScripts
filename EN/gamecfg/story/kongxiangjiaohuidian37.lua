@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			stopbgm = true,
-			say = "房间之中，回响着祷告者的细语。",
+			say = "A woman's voice echoed across the chamber of a cathedral.",
 			bgmDelay = 2,
 			bgm = "theme-threat-typeV",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「听，人们正彼此商量着。」",
+			say = "\"Listen! Everyone has gathered at the same place.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「他们要拿砖当石头，又要拿柏油当泥灰。」",
+			say = "\"There are those from Sardegna, who would pick up stone and mortar, some who would become lost.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「他们要建造一座城，又要建造一座塔。」",
+			say = "\"There are those from the Royal Navy, who would erect a white castle; and those from the Iron Blood, who would build a tower to reach the heavens.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「城市恢弘，塔顶通天。」",
+			say = "\"O, Awe-inspiring Avalon, Magnificent Midgard!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「他们要团结在一起，还要扬名天下。」",
+			say = "\"This is why they gather – to spread their own glory!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "————神啊。",
+			say = "O, Heavenly Father–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "————您能允许这些事么？",
+			say = "Will you not cast your judgment upon these sinners?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_501",
-			say = "细语声停了下来，祈祷似乎结束了。",
+			say = "Shortly afterwards...",
 			effects = {
 				{
 					active = false,
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "……结束了么？",
+			say = "...Um, are you done yet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "结束了。你看到了什么？",
+			say = "Yes, of course. So, what did you see?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "摇曳的烛光……星盘的空相……逆位的塔……",
+			say = "A flickering candle. An upside-down tower. And, stars without a reflection...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "都是……不错的意象呢……！",
+			say = "Well, that makes no freakin' sense! Is that supposed to be some kind of prophecy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "走吧，是时候去揭开帐幕了。",
+			say = "So, let me tell you what I saw instead...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "啊哈哈哈哈哈哈哈——————",
+			say = "Splendrous victory! Ahahahahahahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1

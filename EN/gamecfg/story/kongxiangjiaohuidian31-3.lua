@@ -10,7 +10,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			bgm = "story-bismark-determination",
-			say = "轰————————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "Arbiter: The Hermit IX?",
 			dir = 1,
-			say = ">目标强度超出预期，正在更改为预设方案F。",
+			say = "<Detecting values greatly exceeding predictions. Switching to combat sequence F.>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,9 +76,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "Arbiter: The Hermit IX?",
 			dir = 1,
-			say = ">机关系统IX=XV连协支援接入-「迪贝路引擎」，输入功率5%。",
+			say = "<External resources accessed. The Devil main engine output: 5%.>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,9 +92,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "Arbiter: The Hermit IX?",
 			dir = 1,
-			say = ">调整为空间机动模式。",
+			say = "<Gravity manipulator deployed. Switching to XYZ navigation mode.>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 401990,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "居……居然还能变强啊。",
+			say = "Uhh, does anyone else feel kinda weightless?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			dir = 1,
-			say = "不对，管理机更改为飞行模式了。",
+			say = "It's not just us, the change in gravity has messed with the red sea as well!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "糟糕，敌人想要逃跑……目标是那座倒悬在天上的城市么？！",
+			say = "My Regina can adapt to that! Do not let that Arbiter vessel get away!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			actor = 406030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "舰载机无法突破敌方火力网，来不及去拦截了！",
+			say = "Don't know if they'll be there in time or not, but I'll scramble my planes anyway!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "可恶，我这边也一样……！不想想办法的话，就要让它逃脱了！",
+			say = "Same! We're done for if we don't stop her!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "……想逃么。",
+			say = "(This must be the gamble Vestal was talking about.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "{namecode:416}，想做世界上第一个……飞上天的潜艇么？",
+			say = "U-556, do you want to be the world's first flying submarine?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,8 +224,8 @@ return {
 			nameColor = "#ffa500",
 			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "欸……？！想！",
+			actorName = "U-556 META?",
+			say = "Uhh... Yeah, that sounds sweet!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "上浮来我身边。",
+			say = "Then get up here, quickly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "革律翁，解除安全协议Nr.5。",
+			say = "Disable safety limiter number 5. Hourglass, you'll make a nice power source for this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "尽情飞吧————",
+			say = "Geryon! Take to the skies!",
 			painting = {
 				alpha = 0.3,
 				time = 1

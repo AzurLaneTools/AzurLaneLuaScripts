@@ -12,7 +12,7 @@ return {
 			bgm = "theme-bismark-reborn",
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "轰————————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashin = {
 				delay = 1,
@@ -71,7 +71,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "{namecode:435}与革律翁一前一后护卫着众人在红色的水面上快速移动着。",
+			say = "The girls sailed forward as quickly as possible while moving in a tight formation, Bismarck and Geryon acting as sword and shield for the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "似乎是发现一行人并没有受到“红区”的影响而失去战斗力。",
+			say = "Despite the palpable danger of the red zone, the group was able to traverse through it without losing combat effectiveness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "塞壬在损失了一部分追击舰队后，就停止了攻势。",
+			say = "After losing a significant chunk of their pursuing forces, the Sirens began to fade from sight, signaling an end to the offensive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "呼……多谢啦，革律翁~",
+			say = "My, my. Autonomous riggings sure look frightening, but aren't you the goodest boy ever~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,10 +117,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_bsmre_6",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*愉快地轻哼*██▌",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "革律翁抖落双翼上的灰烬，返回了{namecode:435}的身边。",
+			say = "Bismarck's rigging cocked its three heads, unable to understand what Jade meant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "辛苦了，革律翁…………嗯？",
+			say = "A rigging's personality depends on its wielder... Hm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "革律翁凝视着{namecode:435}，似乎在传递着什么信息。",
+			say = "Sensing something, Bismarck quietly placed her hand on her rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "你也感受到了么，混在海域中的那一丝不同寻常的气息。",
+			say = "(Traces of META activity...?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "革律翁微微低下头，像是在表示赞同。",
+			say = "Communicating with her rigging was fairly simple, as it was like her second half. She quickly noticed a response from her beacon tracker.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "不同寻常的气息……？{namecode:435}大人，您有了什么发现么？",
+			say = "Is something the matter, Bismarck?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "嗯。在这片海域活动的，不止有我们。",
+			say = "Looks like we're not the only ones out here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至少还有另一个META曾在此战斗过。",
+			say = "Another META ship has been active here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "哎？！",
+			say = "What?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "众人本能地将目光投向了{namecode:434}·META。",
+			say = "Everyone instinctively turned their eyes towards Gneisenau.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "……应该指的是，除了我…………之外的吧。",
+			say = "Please, there's no way it's me. Surely you don't think Bismarck would bring up this subject as a joke?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈，说的也是……",
+			say = "No, you're right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过你这方面的感觉不是一向很准么，没察觉到么？",
+			say = "Wouldn't you have sensed something, though? You're a META yourself, and you keep talking about your instincts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "整片海域都是META化侵蚀的气息，我没分辨出来其中混入的不同。",
+			say = "Unfortunately, this entire sector seems to have traces of META corruption as far as I'm concerned, so I'm the least useful person here in that regard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "况且……我又不是你们的META信标记录仪。",
+			say = "Besides, we all have our own unique signals, so I have no way of recognizing someone I don't know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "既然有这么方便的仪器，用那个测一测如何？",
+			say = "You have those fancy beacon trackers, don't you? I reckon you'll have better luck using those than asking me for help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……很遗憾。",
+			say = "...Uhh, about that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "因为集结得很突然，我们谁都没带这个……",
+			say = "This was kind of an emergency operation, and META beacon trackers don't exactly come cheap...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "等等……那{namecode:435}大人是怎么……？",
+			say = "Come to think of it, Bismarck, how'd you find this META in the first place?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "是依靠革律翁完成的。它已经确认完毕了——并没有发现与其相符的记录。",
+			say = "I installed a beacon tracker on Geryon before we departed. I've already cross-checked the signal with our database.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可以认定，这个META对于我们来说是完全未知的。",
+			say = "Whoever it is, I can safely say we've never encountered them before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "咦？！确认完毕是指……革律翁本身还有拥有信标记录仪的功能么？！",
+			say = "Huh? You baked a beacon tracker into Geryon on top of all the insane stuff he already can do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "没错。因为是专门针对META的特化舰装，信标记录仪自然是必备功能之一。",
+			say = "Well, it's not that inconceivable. Geryon was specifically designed with combatting META corruption in mind, so a beacon tracker would naturally be part of his core functions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "太厉害了…………再次直观认识到了我的雷吉纳和革律翁的差距。",
+			say = "Argh... I'm so JEALOUS... But also so impressed at the same time!! Write that down, Regina!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "未知的META……",
+			say = "An unknown quantity, huh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "这样也许，之前的黑色冲击也能解释了。",
+			say = "Think she might be connected with that unknown entity we faced earlier?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？！怎么说……难道{namecode:434}小姐有办法做出那种冲击么？",
+			say = "Huh? Can you create those black shockwaves as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不能。",
+			say = "No, that's not what I meant.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "我只是…………见到过。",
+			say = "It's just... I think I saw something like it before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "在META化的同伴，怀着必死的决心战斗到最后一刻时……",
+			say = "I once had a friend who was undergoing METAmorphosis... She was determined to fight until her final breath.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……抱歉，勾起你不好的回忆了。",
+			say = "Oh... Sorry, I didn't mean to bring back tragic memories.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………没事。但是，我们刚刚经历了多次冲击。",
+			say = "It's alright. Few can put up a fight against that kind of power.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -687,7 +687,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "也就说明，如果存在这个正在战斗的META的话，战斗力也许相当的强。",
+			say = "In any case, if these energy traces are still fresh, the person behind it should still be nearby. And, expect her to wield tremendous power.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "相当强的META，难道会是余烬？",
+			say = "Strong, by META standards? Think it might be one of the Ashes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……余烬的话，确实存在这么强的人。",
+			say = "One of the Ashes could certainly fit the bill.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,7 +740,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "而且在战斗的时候也不会在意像我们这种“附带损伤”。",
+			say = "Unlike us, they don't care about collateral damage. They would have no issue with razing the whole tower should it stand in their way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -758,7 +758,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "……如果是余烬的话，或许还有交涉的可能！",
+			say = "(If she's anything like Scharnhorst, there's a good chance we can negotiate with her.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -776,7 +776,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "既然明确知道要对抗仲裁机关，将如此强大的战斗力拉过来也许能逆转局面。",
+			say = "(Should worse come to worst and we're forced to fight an Arbiter, she could be the ace up our sleeve.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -794,7 +794,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "而且……如果的是余烬的话，也许能打听到{namecode:441}的消息……",
+			say = "(Hell, maybe she even knows where Friedrich's gone off to.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -811,7 +811,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那些幻象自然也就————",
+			say = "(I know what I saw in that hallucination wasn't real, but I still want to know...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -829,7 +829,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -846,7 +846,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（冲击不是来自于某个元魔方装置，而是某个强大的META在海域中战斗……？）",
+			say = "In hindsight, it makes sense. We probably weren't the unknown enemy's intended targets.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -864,7 +864,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（那红色海水中的侵蚀气息来源又是哪里呢……）",
+			say = "Whoever this META is, we should look for her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -881,7 +881,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……必须找到这个META才行！",
+			say = "I'll do it. Just give me the order.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -899,7 +899,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "{namecode:435}阁下，立刻下令展开搜索吧！",
+			say = "If she's from the Ashes, she should sympathize with the situation we're in!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -921,7 +921,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？啊……好的。",
+			say = "Hm? Ah, yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -939,7 +939,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不论其最终是敌人还是盟友，至少我们不能放任这样一个不稳定因素在我们周围游荡。",
+			say = "Whether she ultimately ends up being a friend or a foe, this is a lead we at least should pursue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -957,7 +957,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不过，要等到了安全区域之后再说——首先前往米德加尔特之塔的控制室吧。",
+			say = "But first, we need to make sure we're in a safe area – head for the Tower of Midgard's control room!",
 			painting = {
 				alpha = 0.3,
 				time = 1

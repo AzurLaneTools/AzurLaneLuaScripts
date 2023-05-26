@@ -214,7 +214,7 @@ return {
 			bgName = "bg_bsmre_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Not only are they extremely dangerous, they can continue posing a serious threat even without a command unit!",
+			say = "Not only are they extremely dangerous, but they can also continue posing a serious threat even without a command unit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

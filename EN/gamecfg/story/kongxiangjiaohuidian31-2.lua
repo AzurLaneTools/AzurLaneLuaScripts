@@ -10,7 +10,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgm = "story-bismark-determination",
-			say = "在{namecode:464}的指挥下，众人将代行者舰队与管理机分隔开来。",
+			say = "Under Ulrich's command, the girls fought hard and managed to lure the Enforcers away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,7 +19,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "{namecode:435}则在革律翁与{namecode:416}的掩护下快速突进着。",
+			say = "Meanwhile, Bismarck – and U-556, sat on top of Geryon – charged straight towards the Arbiter vessel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,9 +29,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "Arbiter: The Hermit IX?",
 			dir = 1,
-			say = ">指令已确认，开始执行预设案A。",
+			say = "<Orders received. Executing combat sequence A.>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,8 +47,8 @@ return {
 			nameColor = "#ffa500",
 			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "{namecode:435}姐姐，赫米忒开始进攻了！",
+			actorName = "U-556 META?",
+			say = "Look out! It's going to attack us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "革律翁！",
+			say = "Geryon, block it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "革律翁收拢双翼，组成护盾抵挡住了来袭的攻击。",
+			say = "Her giant rigging swerved to the side and absorbed the incoming shells with its armor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,9 +87,9 @@ return {
 			actor = 9708010,
 			nameColor = "#ffa500",
 			side = 2,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
-			say = "漂亮，{namecode:435}姐姐~！",
+			say = "Whoooa! That was amazing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,9 +103,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "Arbiter: The Hermit IX?",
 			dir = 1,
-			say = ">目标强度超出预期，正在更改为预设方案B。",
+			say = "<Target displays higher capabilities than estimated. Switching to combat sequence B.>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,9 +119,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "Arbiter: The Hermit IX?",
 			dir = 1,
-			say = ">机关系统IX=XV连协支援机制，输入功率20%——",
+			say = "<IX-XV support protocol engaged. Power output: 20%.>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,8 +134,8 @@ return {
 		{
 			nameColor = "#ffa500",
 			side = 2,
-			actorName = "革律翁",
-			say = "▁▂▃▄▅▆▇███*愤怒地咆哮*██▌",
+			actorName = "Geryon",
+			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "双翼再次展开，强大的气流裹挟着巨浪冲向敌人。",
+			say = "Without even flinching at the next incoming volley, Bismarck engaged her engines and kicked up massive waves as she pursued the vessel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,9 +171,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "Arbiter: The Hermit IX?",
 			dir = 1,
-			say = ">…………",
+			say = "<......>",
 			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
@@ -227,9 +227,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "Arbiter: The Hermit IX?",
 			dir = 1,
-			say = ">更正，输入功率调整为70%。",
+			say = "<Deploying submersibles. Increasing protocol power output to 70%.>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,8 +245,8 @@ return {
 			nameColor = "#ffa500",
 			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "呜啊，姐姐，敌人好像突然变得好危险……！",
+			actorName = "U-556 META?",
+			say = "Lord Bismarck! Please let me fight, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:416}，水下的敌人就交给你了。",
+			say = "Damn, she's deployed mini-subs!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "在我给你下一个指令之前，不要上浮。",
+			say = "U-556, listen! Go underwater and don't resurface until I tell you to!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "去吧！",
+			say = "Got it? Then go, my Parzival of the Seas!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,9 +317,9 @@ return {
 			actor = 9708010,
 			nameColor = "#ffa500",
 			side = 2,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
-			say = "好的，{namecode:435}姐姐！",
+			say = "Understood! Submerging now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,8 +335,8 @@ return {
 			nameColor = "#ffa500",
 			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "你在水面上一定要小心！",
+			actorName = "U-556 META?",
+			say = "Be careful, now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "{namecode:416}·META钻入水下，下一秒，革律翁便以肉眼难以捕捉的速度，向赫米特冲去。",
+			say = "After confirming U-556 was safely under the surface, Bismarck charged ahead at unbelievable speed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "……革律翁，解除安全协议Nr.1。",
+			say = "Modulating Cube output, shifting power into rigging framework–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "主炮发射！",
+			say = "Disable safety limiter number one! Remove inhibitor from the Cube energizer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "革律翁的主炮对准目标并在同时激发，火炮的烟气遮蔽了视野。",
+			say = "Geryon began firing main cannon shells at the Arbiter vessel from point-blank range.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "赫米忒向后一个闪身躲避，炮弹在她身后的位置落水爆炸。",
+			say = "It dodged the first shell with a backstep, and the second hit the water behind it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "紧接着，炮火的烟尘中此时透出一个明亮的红点，一道炽热的光柱撕开烟幕。",
+			say = "But the third, accompanied by a concentrated beam of energy, landed a direct hit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "赫米忒躲闪不及，只能用舰装阻挡。",
+			say = "Piercing an Arbiter's armor with one hit from a conventional shipgirl weaponry is exceedingly improbable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "光柱所行之处，空气灼烧。",
+			say = "But multiple hits? A lot more likely. Bismarck's plan was to pound the vessel with shell after shell, and scorch it with lasers, even if it damages her own rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "海面之上，水汽蒸腾。",
+			say = "The sky turned red from the fire of her cannons, and the sea steamed from the immense heat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "但被强化后的赫米忒管理机，似乎依然并无大碍。",
+			say = "And yet, despite all that, her cannon fire could not penetrate the vessel's strengthened core.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,25 +453,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "Arbiter: The Hermit IX?",
 			dir = 1,
-			say = ">目标强度超出预期，正在更改为预设方案C。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900355,
-			nameColor = "#ff5c5c",
-			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
-			dir = 1,
-			say = ">机关系统IX=XV连协支援机制，输入功率100%.",
+			say = "<Detecting values greatly exceeding predictions. Switching to combat sequence C.>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,9 +469,25 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "Arbiter: The Hermit IX?",
 			dir = 1,
-			say = ">机关系统IX=XV连协支援接入-「迪贝路处理核心」，输入功率3%。",
+			say = "<Increasing protocol power output to 100%.>",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900355,
+			nameColor = "#ff5c5c",
+			side = 2,
+			actorName = "Arbiter: The Hermit IX?",
+			dir = 1,
+			say = "<External resources accessed. Devil central processor output: 3%.>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "呵呵，我曾去地狱徘徊了一圈……",
+			say = "(Friedrich... The High Seas Fleet... I consider this second life a gift from you.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "现在，是时候使用这份从地狱中带来的力量了！",
+			say = "I'm done playing games with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "革律翁，解除安全协议Nr.2、Nr.3、Nr.7",
+			say = "Disable safety limiters number 2, 3, and 7! Engage tri-layered hull superimposition!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -547,10 +547,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "▁▂▃▄▅▆▇███*极其猛烈的咆哮*██▌██▌██▌██▌",
+			say = "ROOOOOOAAAAAARRRR!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "让我们开始狩猎吧——",
+			say = "You will taste Iron Blood's fury!",
 			painting = {
 				alpha = 0.3,
 				time = 1

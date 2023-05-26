@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_7",
 			stopbgm = true,
-			say = "米德加尔特之塔中心的光柱闪烁着。",
+			say = "Mirror Sea - ω phase",
 			bgmDelay = 2,
 			bgm = "battle-thedevilXV-control",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_7",
-			say = "随着装置的启动，众人再次完成了转移。",
+			say = "The Tower of Midgard glowed brightly, and the party once again stepped through the gate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "{namecode:435}大人，红色的区域再一次扩散了。",
+			say = "Bismarck, the red zone is even bigger this time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "我们距离米德加尔特之塔的距离也更远了，感觉和之前正好相反呢。",
+			say = "It even looks like we were dropped off farther away from the tower than before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,9 +79,9 @@ return {
 			bgName = "bg_bsmre_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "这就意味着，我们在向着远离中心的位置移动……",
+			say = "Does that mean we've basically moved backwards?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,12 +95,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_7",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "没错吧，{namecode:435}姐姐！",
+			say = "It's as if the sand falling from the top keeps pushing us farther and farther away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "看来是这样的。",
+			say = "Going off our working theory, yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "远离中心是指……？",
+			say = "So basically, the corrupting stuff is raining from the sky?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实，我们刚刚有了一个关于我们现在现状的推测，不过还需要更多的证据。",
+			say = "Not literally, but expect to see it manifest in the form of that black mist from before, or perhaps that unknown enemy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,10 +164,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_bsmre_7",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*警戒地低吼*██▌",
+			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "哼，来了么……",
+			say = "Speak of the devil.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，我也看到了！",
+			say = "Yeah, my aircraft have spotted something too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那些看上去很诡异的敌人正从“红区”中向我们接近！",
+			say = "A swarm of indiscernable blobs are pouring out of the Tower! They're heading straight for us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次是从前方过来的么……",
+			say = "First they went for the Tower, now they're coming out of it... What a bother.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "塞壬是想把我们赶进去，这些东西是想把我们赶出来。",
+			say = "Karma must be mad at me for being such a good girl all the time~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "真是在受夹板气！",
+			say = "What shall we do, Bismarck? Run for our lives?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（“红区”面积扩大之后，这些奇怪的敌人也出现了么……）",
+			say = "(These things seem to be able to materialize hull-corroding attacks. I don't want to push my luck with them twice.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（这倒是一个进一步检验其性质的好机会。）",
+			say = "(On the other hand, the corrosion here isn't as bad as I expected... Depending on how we fight them, may be able to gather some valuable data.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "{namecode:464}，接下来的作战交由你来指挥。",
+			say = "Ulrich, take command. Bombard them to slow them down.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没问题，你是要？",
+			say = "And what are you planning to do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "稍微做点调查。革律翁！",
+			say = "I have a theory I'd like to test. With me, Geryon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,10 +373,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_bsmre_7",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*兴奋地低吼*██▌",
+			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_7",
-			say = "革律翁飞向高空，暂时离开了众人的视野。",
+			say = "Geryon's thrusters roared to life, and Bismarck broke formation to charge straight ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_7",
-			say = "{namecode:435}则脱离众人的编队，向着未知敌人的方向加速驶去。",
+			say = "Right into the mass of the writhing, amorphous foes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？！{namecode:435}大人这是要……？",
+			say = "Bismarck?! Wh-what is she thinking?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "革律翁拥有抵抗，消解，甚至逆转META化侵蚀的能力。",
+			say = "She's the only one here who can neutralize their hull-corroding attacks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "{namecode:435}阁下应该是打算凭此来近距离分析那些敌人的性质吧……",
+			say = "Most likely, she intends on using this opportunity to analyze exactly what those enemies are, up close and personal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "让阁下专心于她的任务，所有人听我指令，准备作战！",
+			say = "Everyone! Give her the space she needs! Don't let those enemies overwhelm Bismarck!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_7",
-			say = "巨龙咆哮着俯冲而下，吸引了大多数敌人的注意力。",
+			say = "Although the colossal size of Bismarck's rigging made her an easy target, she managed to approach the enemies without taking much damage at all thanks to her fleet's covering fire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_7",
-			say = "趁此机会，{namecode:435}径直冲向了离她最近的那个“状若人形”的目标。",
+			say = "Without a moment to hesitate, she engaged anti-hull-corruption measures and closed in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "即便在这个距离下……依然看不清具体的样貌么。",
+			say = "Even this close, I can't make out any details...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_7",
-			say = "不可名状——这是{namecode:435}在极近距离下面对这些敌人时，第一个从心中浮现出的词。",
+			say = "Their very being seemed to defy description.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			bgName = "bg_bsmre_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过……就让我来揭开你们的真面目吧！",
+			say = "Then let's see how you respond to THIS!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_7",
-			say = "{namecode:435}伸出手，向着敌人迎面伸去。",
+			say = "She stretched her hand out, palm aimed straight at the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_7",
-			say = "然而，在接触到那涌动黑影的瞬间，黑色的气息就如同被狂风吹拂的烟气一般消散了。",
+			say = "It responded almost like a parasite that had found a new host, emerging from its old one. It turned into a single string of mist before Bismarck absorbed it with her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_7",
-			say = "手上没有任何触感，它们仿佛是不可触摸的虚无之物。",
+			say = "It felt like nothing in her hand – like grasping smoke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……察觉到我的意图了么。",
+			say = "...Just as I thought. The sand isn't so tough.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "革律翁，吞噬！",
+			say = "Geryon, can you keep going?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,10 +633,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_bsmre_7",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*警戒地低吼*██▌",
+			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			bgName = "bg_bsmre_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "…………？你觉得不要吞比较好？",
+			say = "Good boy. If you're worried about me, don't be.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有这么危险么？",
+			say = "I know to stop before I reach my limit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,10 +682,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_bsmre_7",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*赞同地低吼*██▌",
+			say = "ROOOAAAR...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			bgName = "bg_bsmre_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……我明白了。任务转变，大闹一场，配合{namecode:464}把敌人全部消灭吧！",
+			say = "(Simply shooting them should work if this is all they're made of. Time for the others to shine.)",
 			painting = {
 				alpha = 0.3,
 				time = 1

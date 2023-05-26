@@ -716,7 +716,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Of course! They're to the northeast. Interestingly, there signs of battle intensify closer to the Tower.",
+			say = "Of course! They're to the northeast. Interestingly,the signs of battle intensify closer to the tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1

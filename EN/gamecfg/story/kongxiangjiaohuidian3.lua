@@ -1346,7 +1346,7 @@ return {
 			actor = 402100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "At the Tower? You've already figured out where they went?",
+			say = "At the tower? You've already figured out where they went?",
 			painting = {
 				alpha = 0.3,
 				time = 1

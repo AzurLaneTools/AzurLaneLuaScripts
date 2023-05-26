@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_11",
 			stopbgm = true,
-			say = "海域中的异变，几乎是在赫米忒的管理机被瘫痪的同时出现的。",
+			say = "The Mirror Sea began to change immediately following the destruction of The Hermit's vessel.",
 			bgmDelay = 2,
 			bgm = "theme-arbitrator-tower",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_11",
-			say = "震动传遍了整个空间，一个巨大的金属圆环缓缓从水面下浮起。",
+			say = "Massive metallic rings suddenly emerged from the red sea, surrounding the Tower of Midgard from all sides.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_11",
-			say = "正在倒悬都市中的{namecode:435}Z可以很清晰地看到，隆起的环与海域中的巨型立方体群紧密结合在了一起。",
+			say = "Meanwhile, in the sky, Bismarck began descending back down and saw the ring fuse itself to the big cubes floating above the surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_11",
-			say = "将米德加尔特之塔包裹在了正中央。",
+			say = "In only a matter of moments, the ring and the cubes had merged into one single structure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			bgName = "bg_bsmre_11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呼……这就是我们的外援么……",
+			say = "I assume this is the work of that friend Vestal spoke about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还真是夸张啊……",
+			say = "She wields powers far beyond what I imagined...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_11",
-			say = "{namecode:435}倒在水面上，不远处的革律翁也开始浮现出黑色气息。",
+			say = "Immediately upon landing, Bismarck was hit with an overpowering sense of dizziness that brought her to her knees.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 9708010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "{namecode:435}姐姐，你没事吧！",
+			say = "Lord Bismarck! Are you okay?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不要靠近我！",
+			say = "Stay back!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			actor = 9708010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "没事的……姐姐，你看。",
+			say = "But... Lord Bismarck... Look at me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_11",
-			say = "与革律翁的状态相同，红黑色的气息也萦绕在{namecode:416}身旁。",
+			say = "U-556 came closer, despite Bismarck's clear order. Black mist was coiling around the little girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_bsmre_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "……哎嘿，好像用力过猛了。",
+			say = "Umm... Looks like I got a bit too excited...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………代行者舰队围过来了，还能战斗么。",
+			say = "There are still Enforcers around... can you fight?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_bsmre_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "能！",
+			say = "Sure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_bsmre_11",
 			actor = 9705030,
 			nameColor = "#a020f0",
-			say = "……还没到那种时候呢！",
+			say = "...No. This isn't the time for that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_bsmre_11",
 			actor = 9705030,
 			nameColor = "#a020f0",
-			say = "诸位辛苦了，我是女灶神的同伴亚利桑那。",
+			say = "I am battleship Arizona. One of Vestal's friends.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_bsmre_11",
 			actor = 9705030,
 			nameColor = "#a020f0",
-			say = "接下来就交给我来处理吧。",
+			say = "Allow me to handle this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "圆环的边缘出现了耀眼的光芒，在转瞬间覆盖了整个空间。",
+			say = "The giant ring encasing the Tower of Midgard began glowing, rapidly increasing in intensity until everything was dyed a blinding white.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "然后，光芒消散了————",
+			say = "Little by little, the light dimmed until it was possible to see again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 402100,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "到底发生了什么事…？海域中的污染转瞬间就消失了……",
+			say = "What was that?! The red sea is completely gone!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			actor = 406030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所有敌方单位的反应也一起全都不见了啊？！",
+			say = "The Sirens all went up in smoke too...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			actor = 406030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且……",
+			say = "And that's not all...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			actor = 401990,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？！！{namecode:435}大人和{namecode:416}，你们是什么时候下来的？",
+			say = "Bismarck! U-556! Are you alright?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_bsmre_13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……欸？",
+			say = "Where... am I...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "众人惊讶地发现，侵蚀消失了。",
+			say = "Indeed, the red sea had disappeared entirely, as though by magic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "整片海域，连同倒悬在空中的都市都已经变为了正常状态。",
+			say = "As was the noxious air signifying the presence of corruption.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "位于都市之中的{namecode:435}与{namecode:416}也几乎是在转瞬间回到了众人身边。",
+			say = "U-556 and Bismarck regained their footing and listened to the META girls' conversation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			bgName = "bg_bsmre_13",
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "开，什么玩笑………",
+			say = "Arizona... You...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "你怎么能主动——",
+			say = "You used the tower? Why?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -547,7 +547,7 @@ return {
 			bgName = "bg_bsmre_13",
 			actor = 9705030,
 			nameColor = "#a020f0",
-			say = "嘘，这是解决现状唯一的办法。",
+			say = "It was the only way to resolve the situation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "海伦娜呢？！",
+			say = "And Helena? Where is she?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			actor = 9705030,
 			nameColor = "#a020f0",
-			say = "海伦娜她现在无法脱身。",
+			say = "She... has her hands full right now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			bgName = "bg_bsmre_13",
 			actor = 9705030,
 			nameColor = "#a020f0",
-			say = "比起这个，旁边那两个人才是你现在最需要关注的吧。",
+			say = "Never mind her. Shouldn't you tend to those two?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			bgName = "bg_bsmre_13",
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "……旁边？",
+			say = "Tend to– Oh my god...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "受到提醒的女灶神看向刚刚从倒悬都市中返回的{namecode:435}与{namecode:416}。",
+			say = "Vestal regained her bearings and turned her attention to Bismarck and U-556.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "红黑色气息已经将二人彻底覆盖了。",
+			say = "The black mist had all but completely enveloped them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			bgName = "bg_bsmre_13",
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "……啊？！",
+			say = "You've been exposed to extreme amounts of corrosion!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "啊？！！！！！！！",
+			say = "What happened?! What did you do?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,7 +702,7 @@ return {
 			bgName = "bg_bsmre_13",
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "你们两个不要命了！！！！！",
+			say = "...You disabled your limiters, didn't you?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "其他人都退开！！！！",
+			say = "Why would you do that?! You nearly got yourself killed!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -743,7 +743,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_13",
-			say = "惊慌失措的女灶神几乎是以飞行般的速度飞奔到二人身边。",
+			say = "Visibly shocked by the state they were in, Vestal rushed to their side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			bgName = "bg_bsmre_13",
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "喂，保持住意识！还能说话么？",
+			say = "You have to stay awake! Can you talk?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -789,7 +789,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不用管我……",
+			say = "Don't worry about me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -807,7 +807,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "我已经把……限制都加回去了，",
+			say = "I took measures against the corrosion... It'll be fine...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -825,7 +825,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "应该……过一会就好了。",
+			say = "My rigging will absorb it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -843,7 +843,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "去帮……{namecode:416}净化，拜托了。",
+			say = "Focus on U-556... She's the one who needs help...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -860,7 +860,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "……{namecode:416}是么，好的。",
+			say = "...If you say so. I'll take care of her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -877,7 +877,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "{namecode:416}，能听到我的声音么？",
+			say = "U-556? Can you hear me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -894,7 +894,7 @@ return {
 			actor = 9708010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……好黑啊，{namecode:435}姐姐……你在哪里？",
+			say = "It's so dark... Lord Bismarck... where are you...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -911,7 +911,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "……………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -929,7 +929,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "情况不妙……是么？",
+			say = "Is it... too late... for her...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "…………………………",
+			say = "...No, it is not.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +963,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "…………还、有救。",
+			say = "She can still be saved.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1004,7 +1004,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg13",
-			say = "女灶神轻轻地蹲在{namecode:416}身旁，手中凭空出现了一个蓝色立方体。",
+			say = "Vestal kneeled by U-556's side and opened her hand, manifesting a cube which glowed with a soft blue light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1014,7 +1014,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg13",
-			say = "与此同时，一个又一个，十数个蓝色立方体在她的身旁接连出现。",
+			say = "Dozens more appeared shortly after, forming a loose circle that slowly swirled around her and U-556.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1024,7 +1024,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg13",
-			say = "立方体群旋转着，似乎吸收着{namecode:416}身上溢出的黑色气息。",
+			say = "Little by little, the cubes absorbed the black mist enveloping U-556.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1034,7 +1034,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg13",
-			say = "{namecode:416}的表情逐渐舒缓下来，但漂浮的蓝色立方体颜色却在缓慢加深。",
+			say = "After being treated for a while, the pained look on her face eased while the black deposits gradually discolored the cubes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1071,7 +1071,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg14",
-			say = "（咔嚓————）",
+			say = "CRACK...",
 			soundeffect = "event:/ui/glassbroken",
 			typewriter = {
 				speed = 0.05,
@@ -1082,7 +1082,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg14",
-			say = "转瞬间，女灶神手中的立方体变为了刺眼的红色，随即碎裂了。",
+			say = "The cube in Vestal's hand first turned a red color, then crumbled to pieces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1092,7 +1092,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg14",
-			say = "一向从容不迫的女灶神也咬紧了牙关，露出痛苦的表情。",
+			say = "Her facial muscles contorted with pain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1100,11 +1100,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "女灶神",
+			actorName = "Vestal",
 			bgName = "bg_bsmre_cg14",
 			hidePaintObj = true,
 			nameColor = "#a020f0",
-			say = "咳、咳咳…咳咳………！！",
+			say = "*cough, cough*! Urgh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1117,11 +1117,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:96}",
+			actorName = "Zuikaku",
 			bgName = "bg_bsmre_cg14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "女灶神小姐，你没事吧！",
+			say = "Vestal! Are you alright?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1129,11 +1129,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "女灶神",
+			actorName = "Vestal",
 			bgName = "bg_bsmre_cg14",
 			hidePaintObj = true,
 			nameColor = "#a020f0",
-			say = "咳……没事……就是需要休息一下。",
+			say = "I'll be fine... I just need to rest for a while...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1141,11 +1141,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "女灶神",
+			actorName = "Vestal",
 			bgName = "bg_bsmre_cg14",
 			hidePaintObj = true,
 			nameColor = "#a020f0",
-			say = "（……这样一来，我们就两不相欠了。）",
+			say = "(Now we're square, and can part ways without debts to settle...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1155,7 +1155,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "谢绝了{namecode:96}的搀扶，女灶神将{namecode:416}从水中扶起。",
+			say = "Zuikaku offered Vestal a hand, but she politely shook her head and stood up on her own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1182,7 +1182,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "此时的{namecode:416}已经褪去了META的痕迹，完全恢复到了平时的状态。",
+			say = "The next time eyes turned on U-556 again, she had reverted to her regular appearance. All external signs of the corrosion were gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1196,7 +1196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "……呼。",
+			say = "Nngh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1214,7 +1214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "变……回来了？",
+			say = "She's finally back to normal!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1242,7 +1242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "{namecode:416}！",
+			say = "U-556!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1276,7 +1276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "唔……不要突然抱过来啊，身上湿漉漉的……",
+			say = "Whoa, hey! I'm soaking wet right now! Hugging me just feels icky!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1300,7 +1300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "真是的，她的身体才刚刚恢复，轻一点。",
+			say = "Give her some space. She needs to recover.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1318,7 +1318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "啊啊，抱歉抱歉！",
+			say = "Right. My bad...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1336,7 +1336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "之前真的担心死我了，还以为你再也变不回来了！",
+			say = "You had me worried sick, you know... I thought you'd never be the same again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1354,7 +1354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "嘿嘿，最后不是没事了嘛~",
+			say = "Well, now I am, so it's all good!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1374,7 +1374,7 @@ return {
 			actor = 9705030,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "看来事件已经圆满解决了呢。",
+			say = "Seems everything turned out fine in the end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1394,7 +1394,7 @@ return {
 			actor = 9705030,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "那么，善后就交给你了。相关资料已发送，请确认。",
+			say = "I sent you the data. I trust you to take care of the aftermath.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1412,7 +1412,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "……资料已确认，我明白了。",
+			say = "Yes... It's all here. I'll take care of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1431,7 +1431,7 @@ return {
 			actor = 9705030,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "亚利桑那离线。",
+			say = "Then this is farewell. Until next time...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1449,7 +1449,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1466,7 +1466,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "看来我们可以回去了？",
+			say = "So, this is it? It's over?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1484,7 +1484,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "嗯，我已经得到了资料。",
+			say = "Yes. I got what I was looking for.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1501,7 +1501,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "你们只要再启动米德加尔特之塔，就可以回去了。",
+			say = "All you need to do now is activate the Tower of Midgard's gate one last time, and you should be sent back home.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1519,7 +1519,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "不过，你……居然真的已经恢复了。",
+			say = "...I still cannot believe the corrosion can be purged.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1537,7 +1537,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "……原来如此。",
+			say = "Although, I suppose doing so requires a sacrifice. It still has to go somewhere.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1554,7 +1554,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "代价是，革律翁一段时间内无法战斗了，是么？",
+			say = "While your hull remains intact, the same cannot be said for those merged with it... Geryon will be out of commission for quite some time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1572,7 +1572,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "嘘。接下来你打算去哪里？",
+			say = "I suppose so. What do you plan to do next?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1590,7 +1590,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "跟我一起回去——应该不可能吧。",
+			say = "I'm guessing you're not thinking about coming with us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1608,7 +1608,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "嗯，我在这里还有要做的事。",
+			say = "Unfortunately, no. I have other things I must do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1626,7 +1626,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "你们回去之后，必须摧毁这个名为米德加尔特之塔的人工奇异点。",
+			say = "Truth be told, I must ask you for a favor. Once you're back home, please see to it the Tower of Midgard in your world is destroyed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1643,7 +1643,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "正是它的存在才导致了这次事件的发生。",
+			say = "It was the reason why this whole near-disaster happened in the first place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1661,7 +1661,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……摧毁？",
+			say = "Destroy it? Are you serious?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1679,7 +1679,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "你知道铁血为了修建米德加尔特之塔花费了多少资源么？",
+			say = "Do you know the ungodly amount of resources we poured into it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1697,7 +1697,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "知道。",
+			say = "Yes, I do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1714,7 +1714,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "而且我也知道做出这种决定有多么困难……",
+			say = "I also know this is an extremely hard decision to make, but it must be done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1732,7 +1732,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "可是，它的坐标已经被标记了，单纯的关闭没有用的。",
+			say = "The Tower of Midgard's exact location is already out there now. Simply closing the gate won't prevent future incidents.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1750,7 +1750,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "如果不摧毁的话，终有一天，天空与大海都被侵蚀的景象会经由米德加尔特之塔到达你们的世界。",
+			say = "Leave it intact, and one day, the corrosion will come flooding through the gate and spread through your whole world.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1768,7 +1768,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "你想看到这样的事情发生么？",
+			say = "If you don't want that to happen, you must destroy it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1786,7 +1786,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……我明白了。米德加尔特之塔将会被拆毁，我保证。",
+			say = "...Very well. I swear the Tower of Midgard will be destroyed as soon as possible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1804,7 +1804,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "很好。此处不宜久留，你们快出发吧。",
+			say = "Good. You should get moving now, while the Arbiters have their eyes on me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1818,7 +1818,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "海域的中心，已经恢复正常的米德加尔特之塔闪烁着蓝色的光芒。",
+			say = "At the Mirror Sea's heart, the open gate shone with a bright blue light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1845,7 +1845,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "巨大的装置缓缓启动，光芒逐渐在众人的脚下聚集。",
+			say = "The massive machine rumbled and roared, presenting the girls with a way home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1859,7 +1859,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "谢谢你，女灶神姐姐！",
+			say = "Vestal, thank you for everythiiing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1873,7 +1873,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "在{namecode:416}的呼喊声中，{namecode:435}一行人的身影从海域中消失了。",
+			say = "With a final goodbye from U-556, the Iron Blood girls' long excursion was finally over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1887,7 +1887,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "我们会再见面的。",
+			say = "I'm sure our paths will cross again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1901,7 +1901,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "女灶神注视着众人的离开，不一会儿，耳边便传来了通讯器的响声。",
+			say = "A while after Vestal watched the group disappear in the light, the communicator in her hand started beeping.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1915,7 +1915,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "……我还在想你什么时候才会打过来。",
+			say = "...I wondered when you were going to call me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1933,7 +1933,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "……接下来你打算做什么？",
+			say = "...So, tell me, The Tower XVI...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1951,7 +1951,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "——仲裁者·托瓦·XVI。",
+			say = "What will you do now?",
 			painting = {
 				alpha = 0.3,
 				time = 1

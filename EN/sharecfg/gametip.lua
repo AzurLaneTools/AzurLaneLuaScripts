@@ -21788,7 +21788,7 @@ cs.gametip = {
 	},
 	random_skin_list_item_desc_label = {
 		827282,
-		100,
+		99,
 		true
 	}
 }

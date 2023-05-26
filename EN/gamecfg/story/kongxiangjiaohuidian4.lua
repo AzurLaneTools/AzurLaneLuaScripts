@@ -1560,7 +1560,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg2",
 			hidePaintObj = true,
-			say = "The shockwave knocked out both Zuikaku and Gneisenau before propagating through the Tower, and then across the sea.",
+			say = "The shockwave knocked out both Zuikaku and Gneisenau before propagating through the tower, and then across the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
