@@ -9,6 +9,7 @@ slot2 = {
 	"yincha"
 }
 slot3 = "ui/activityuipage/maketeaptpage_atlas"
+slot4 = nil
 
 function slot0.OnInit(slot0)
 	uv0.super.OnInit(slot0)
@@ -36,47 +37,93 @@ function slot0.initMv(slot0)
 	slot0.btnRepeat = findTF(slot0.mvTf, "movie/btnRepeat")
 
 	onButton(slot0, slot0.btnPlay, function ()
-		if uv0.mvManaCpkUI and not uv0.mvCompleteFlag then
+		if uv0 and Time.realtimeSinceStartup - uv0 < 1 then
+			return
+		end
+
+		uv0 = Time.realtimeSinceStartup
+
+		if uv1.mvManaCpkUI and not uv1.mvCompleteFlag then
 			print("恢复播放")
-			uv0.mvManaCpkUI:Pause(false)
-			uv0:onPlayerStart()
+			uv1.mvManaCpkUI:Pause(false)
+			uv1:onPlayerStart()
 		end
 	end)
 	onButton(slot0, slot0.btnStop, function ()
-		if uv0.mvManaCpkUI and not uv0.mvCompleteFlag then
+		if uv0 and Time.realtimeSinceStartup - uv0 < 1 then
+			return
+		end
+
+		uv0 = Time.realtimeSinceStartup
+
+		if uv1.mvManaCpkUI and not uv1.mvCompleteFlag then
 			print("暂停播放")
-			uv0.mvManaCpkUI:Pause(true)
-			uv0:onPlayerStop()
+			uv1.mvManaCpkUI:Pause(true)
+			uv1:onPlayerStop()
 		end
 	end)
 	onButton(slot0, slot0.btnRepeat, function ()
-		if uv0.mvManaCpkUI and uv0.mvCompleteFlag then
+		if uv0 and Time.realtimeSinceStartup - uv0 < 1 then
+			return
+		end
+
+		uv0 = Time.realtimeSinceStartup
+
+		if uv0 and Time.realtimeSinceStartup - uv0 < 1 then
+			return
+		end
+
+		uv0 = Time.realtimeSinceStartup
+
+		if uv1.mvManaCpkUI and uv1.mvCompleteFlag then
 			print("重新播放")
-			uv0:loadMv()
+			uv1:loadMv()
 		end
 	end)
 	onButton(slot0, slot0.mvBottom, function ()
-		if uv0.playHandle then
-			uv0.playHandle()
-
-			uv0.playHandle = nil
+		if uv0 and Time.realtimeSinceStartup - uv0 < 1 then
+			return
 		end
 
-		uv0:displayWindow(false)
-		uv0:clearMovie()
+		uv0 = Time.realtimeSinceStartup
+
+		if uv1.isLoading then
+			return
+		end
+
+		if uv1.playHandle then
+			uv1.playHandle()
+
+			uv1.playHandle = nil
+		end
+
+		uv1:displayWindow(false)
+		uv1:clearMovie()
 	end)
 	onButton(slot0, findTF(slot0.mvTf, "left"), function ()
-		if uv0.mvIndex > 1 and not uv0.isLoading then
-			uv0.mvIndex = uv0.mvIndex - 1
+		if uv0 and Time.realtimeSinceStartup - uv0 < 1 then
+			return
+		end
 
-			uv0:pageChange()
+		uv0 = Time.realtimeSinceStartup
+
+		if uv1.mvIndex > 1 and not uv1.isLoading then
+			uv1.mvIndex = uv1.mvIndex - 1
+
+			uv1:pageChange()
 		end
 	end)
 	onButton(slot0, findTF(slot0.mvTf, "right"), function ()
-		if uv0.mvIndex < uv0.showItemNum and not uv0.isLoading then
-			uv0.mvIndex = uv0.mvIndex + 1
+		if uv0 and Time.realtimeSinceStartup - uv0 < 1 then
+			return
+		end
 
-			uv0:pageChange()
+		uv0 = Time.realtimeSinceStartup
+
+		if uv1.mvIndex < uv1.showItemNum and not uv1.isLoading then
+			uv1.mvIndex = uv1.mvIndex + 1
+
+			uv1:pageChange()
 		end
 	end)
 
@@ -84,14 +131,20 @@ function slot0.initMv(slot0)
 		slot5 = slot4
 
 		onButton(slot0, findTF(slot0.mvTf, "page/" .. slot4), function ()
-			if uv0.nday < 6 then
+			if uv0 and Time.realtimeSinceStartup - uv0 < 1 then
 				return
 			end
 
-			if uv0.mvIndex ~= uv1 and not uv0.isLoading then
-				uv0.mvIndex = uv1
+			uv0 = Time.realtimeSinceStartup
 
-				uv0:pageChange()
+			if uv1.nday < 6 then
+				return
+			end
+
+			if uv1.mvIndex ~= uv2 and not uv1.isLoading then
+				uv1.mvIndex = uv2
+
+				uv1:pageChange()
 			end
 		end)
 		setActive(findTF(slot0.mvTf, "page/" .. slot4), slot4 <= slot0.showItemNum)
@@ -190,6 +243,10 @@ end
 
 function slot0.displayWindow(slot0, slot1)
 	if not slot1 and not slot0.blurFlag then
+		return
+	end
+
+	if slot0.isLoading then
 		return
 	end
 

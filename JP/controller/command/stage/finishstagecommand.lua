@@ -179,8 +179,8 @@ function slot0.GeneralLoot(slot0, slot1)
 		end
 	end
 
-	slot4(slot1.drop_info, slot2)
-	slot4(slot1.extra_drop_info, slot3)
+	slot4(PlayerConst.addTranDrop(slot1.drop_info), slot2)
+	slot4(PlayerConst.addTranDrop(slot1.extra_drop_info), slot3)
 
 	return slot2, slot3
 end

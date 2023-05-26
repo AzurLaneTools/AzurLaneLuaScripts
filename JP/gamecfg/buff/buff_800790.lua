@@ -41,22 +41,6 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onSubmarineRaid"
-			},
-			arg_list = {
-				skill_id = 800790,
-				minTargetNumber = 2,
-				check_target = {
-					"TargetShipTypeFriendly"
-				},
-				ship_type_list = {
-					8
-				}
-			}
-		},
-		{
-			type = "BattleBuffCastSkill",
-			trigger = {
 				"onSubmarineFloat"
 			},
 			arg_list = {

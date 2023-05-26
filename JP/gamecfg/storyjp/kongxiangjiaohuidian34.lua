@@ -119,11 +119,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "………陽動ご苦労だった",
 			painting = {
 				alpha = 0.3,
@@ -155,7 +155,7 @@ return {
 			nameColor = "#ffa500",
 			bgName = "bg_zhuiluo_2",
 			side = 2,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "こっちは終わった。各艦状況を報告しろ",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			paintingNoise = true,
 			dir = 1,
-			actorname = "高雄(META)",
+			actorName = "高雄(META)",
 			actor = 900192,
 			nameColor = "#ffa500",
 			say = "こんな無茶な作戦がよく通ったな",
@@ -293,11 +293,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "そろそろやつの様子を見に行く",
 			painting = {
 				alpha = 0.3,
@@ -310,11 +310,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "また会ったな。ハーミット",
 			painting = {
 				alpha = 0.3,
@@ -361,11 +361,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "大したことじゃない。お前のスペアボディが一体起動したらどうなるか、確かめたいだけだ",
 			painting = {
 				alpha = 0.3,
@@ -429,11 +429,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "余裕ぶっているようだな",
 			painting = {
 				alpha = 0.3,
@@ -446,11 +446,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "所詮「零の許可がなければ、そんな事できるはずがない」とか考えているんだろう",
 			painting = {
 				alpha = 0.3,
@@ -463,11 +463,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "もしこっちに「創造主」さまの緊急識別コードがあったらどうなる？",
 			painting = {
 				alpha = 0.3,
@@ -502,11 +502,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "……アンジュがそれを1回だけ見せびらかしてきたことがある",
 			painting = {
 				alpha = 0.3,
@@ -519,11 +519,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "それを思い出した",
 			painting = {
 				alpha = 0.3,
@@ -621,11 +621,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "お前の「主機」をいじってからそうさせてもらう",
 			painting = {
 				alpha = 0.3,
@@ -666,11 +666,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "いちいちヒトみたいな反応をするな。お前はとっくにどうなるかを計算で分かっているはず",
 			painting = {
 				alpha = 0.3,
@@ -689,11 +689,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "ふん。自爆しても無駄だ",
 			painting = {
 				alpha = 0.3,
@@ -706,11 +706,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "この空間はお前を封じるためのものだ",
 			painting = {
 				alpha = 0.3,
@@ -723,11 +723,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "もう「主機」との接続が切断されていることに気づいているだろう？",
 			painting = {
 				alpha = 0.3,
@@ -757,11 +757,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "アンチエックス――お前たちのテストに、アンジュの要請で付き合っていた",
 			painting = {
 				alpha = 0.3,
@@ -774,11 +774,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "………その時だ",
 			painting = {
 				alpha = 0.3,
@@ -808,11 +808,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "お前らアンチエックスの設備に興味はない――",
 			painting = {
 				alpha = 0.3,
@@ -825,11 +825,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "そういう時期もあったが、気が変わった",
 			painting = {
 				alpha = 0.3,
@@ -859,11 +859,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "そういうことだ。お前の負けだ、ハーミット",
 			painting = {
 				alpha = 0.3,
@@ -876,11 +876,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "もうすぐ「主機」の場所を見つけて、そうすれば―――",
 			painting = {
 				alpha = 0.3,
@@ -903,11 +903,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "……！？これは……",
 			painting = {
 				alpha = 0.3,
@@ -938,11 +938,11 @@ return {
 		},
 		{
 			actor = 900135,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
+			bgName = "bg_zhuiluo_2",
+			side = 2,
 			dir = 1,
-			actorname = "エンタープライズ(META)",
+			actorName = "エンタープライズ(META)",
 			say = "なっ！？",
 			painting = {
 				alpha = 0.3,
