@@ -45,10 +45,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "Shoukaku?",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "Remember what I said? About keeping your promise?",
 			typewriter = {
 				speed = 0.05,
@@ -56,10 +57,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "Shoukaku?",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "And then I died, just like that.",
 			typewriter = {
 				speed = 0.05,
@@ -111,10 +113,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "Shoukaku?",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "Real? Are you sure?",
 			typewriter = {
 				speed = 0.05,
@@ -122,10 +125,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "Shoukaku?",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "Are you sure your memory is correct?",
 			typewriter = {
 				speed = 0.05,
@@ -133,10 +137,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "Shoukaku?",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "Actually, never mind. Come closer, will you?",
 			typewriter = {
 				speed = 0.05,
@@ -161,10 +166,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "Shoukaku?",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "Come to me, Zuikaku... I've missed you~",
 			typewriter = {
 				speed = 0.05,
@@ -206,10 +212,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#ff5c5c",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "Shoukaku?",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#ff5c5c",
 			say = "Oh, how I wish you'd listen to your sister... Heehee...",
 			typewriter = {
 				speed = 0.05,

@@ -295,7 +295,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "What are those...?! Geryon, get closer! Blow away that fog!",
+			say = "What is that...?! Geryon, get closer! Blow away that fog!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "Geryon let loose a piercing roar, the shockwave blowing away the black fog just enough to expose what lay below – countless jet-black aircraft, with red cores that glistened like sinister eyes.",
+			say = "Geryon let loose a piercing roar, the shockwave blowing away the black fog just enough to expose what lay below – a jet-black aircraft, with a red core that glistened like a sinister eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "The red eyes fixed on her seemed to glare harshly, and patterns of light soon appeared one after another across the mangled wreckages of the mass-produced ships.",
+			say = "The red eye fixed on her seemed to glare harshly, and patterns of light soon appeared one after another across the mangled wreckages of the mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Are those strange planes... controlling these Siren husks?",
+			say = "Is that strange plane... controlling these Siren husks?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "Setting secondary guns to automatic fire. Geryon, use your main battery to take out those command units!",
+			say = "Setting secondary guns to automatic fire. Geryon, use your main battery to take out that command unit!",
 			painting = {
 				alpha = 0.3,
 				time = 1

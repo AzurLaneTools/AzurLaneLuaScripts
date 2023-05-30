@@ -20819,7 +20819,7 @@ Event Rules:
 }
 
 _G.pg.base.gametip.eventshop_time_hint = {
-	tip = "Available in exchange shop till $1"
+	tip = "Available till $1"
 }
 
 _G.pg.base.gametip.purchase_backyard_theme_desc_for_onekey = {

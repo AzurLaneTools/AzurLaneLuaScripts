@@ -69,12 +69,6 @@ function slot0.initMv(slot0)
 
 		uv0 = Time.realtimeSinceStartup
 
-		if uv0 and Time.realtimeSinceStartup - uv0 < 1 then
-			return
-		end
-
-		uv0 = Time.realtimeSinceStartup
-
 		if uv1.mvManaCpkUI and uv1.mvCompleteFlag then
 			print("重新播放")
 			uv1:loadMv()
@@ -325,7 +319,7 @@ function slot0.loadMv(slot0)
 		setActive(uv0.btnPlay, false)
 		setActive(uv0.btnStop, true)
 		setActive(uv0.btnRepeat, false)
-		setText(uv0.movieWord, SwitchSpecialChar(i18n("mktea_" .. uv0.mvIndex)))
+		setText(uv0.movieWord, i18n("mktea_" .. uv0.mvIndex))
 
 		if uv0.isLoading == false then
 			uv0:clearMovie()

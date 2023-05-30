@@ -1290,7 +1290,7 @@ pg.base.benefit_buff_template = {
 	},
 	[101] = {
 		icon = "Props/newserver_xinshou",
-		name = "Campaign Sortie EXP Bonus",
+		name = "EXP Bonus",
 		hide = 0,
 		max_time = 0,
 		desc = "If your Commander Level is below 100: you gain 100% more shipgirl EXP and Commander EXP from main story, event, and daily stages.",
