@@ -45,10 +45,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "{namecode:95}？",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "“...约定......守护............永远...”",
 			typewriter = {
 				speed = 0.05,
@@ -56,10 +57,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "{namecode:95}？",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "还记得么，我就是在这里牺牲自己救了你一命哦。",
 			typewriter = {
 				speed = 0.05,
@@ -111,10 +113,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "{namecode:95}？",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "真的是这样么？",
 			typewriter = {
 				speed = 0.05,
@@ -122,10 +125,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "{namecode:95}？",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "记忆中的事，就是事情的“真实”么？",
 			typewriter = {
 				speed = 0.05,
@@ -133,10 +137,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "{namecode:95}？",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "{namecode:96}，跟我走吧。",
 			typewriter = {
 				speed = 0.05,
@@ -161,10 +166,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "{namecode:95}？",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "来我身边，{namecode:96}。",
 			typewriter = {
 				speed = 0.05,
@@ -206,10 +212,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#ff5c5c",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "{namecode:95}？",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#ff5c5c",
 			say = "{namecode:96}，为什么你不听话呢……",
 			typewriter = {
 				speed = 0.05,
