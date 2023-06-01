@@ -27678,7 +27678,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 41,
+		is_show = 42,
 		config_data = {
 			1650001,
 			1650002,
@@ -27925,7 +27925,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 41175,
-		is_show = 40,
+		is_show = 41,
 		config_data = {},
 		time = {
 			"timer",
@@ -28283,7 +28283,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 39,
+		is_show = 40,
 		config_data = {
 			{
 				17719,
@@ -28455,7 +28455,7 @@ pg.activity_template = {
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 45,
+		is_show = 42,
 		id = 41186,
 		config_data = {},
 		time = {

@@ -5450,6 +5450,10 @@ pg.expedition_activity_template = {
 			{
 				41170,
 				260
+			},
+			{
+				41187,
+				355
 			}
 		}
 	},
@@ -5544,6 +5548,10 @@ pg.expedition_activity_template = {
 			{
 				41170,
 				260
+			},
+			{
+				41187,
+				355
 			}
 		}
 	},

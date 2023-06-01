@@ -114,7 +114,7 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 
 		print("开始播放动作： " .. slot5)
 
-		if slot4.idle and slot4.idle == slot0.idleIndex then
+		if slot4.idle and slot4.idle == slot0.idleIndex and not slot4.repeatFlag then
 			print("拖拽后的待机动画和当前动画相同 不允许执行")
 
 			return

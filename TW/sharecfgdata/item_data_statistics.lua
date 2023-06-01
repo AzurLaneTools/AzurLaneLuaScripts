@@ -20514,7 +20514,7 @@ _G.pg.base.item_data_statistics[40927] = {
 	link_id = 0,
 	virtual_type = 0,
 	is_world = 0,
-	icon = "Props/lihecn6lf_l",
+	icon = "Props/lihejp6lf",
 	id = 40927,
 	display_icon = {
 		{
