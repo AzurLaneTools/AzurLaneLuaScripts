@@ -4729,7 +4729,7 @@ pg.pay_data_display = {
 		}
 	},
 	[51] = {
-		subject = "春节福袋复刻(2022)",
+		subject = "六周年泳装礼盒",
 		limit_group = 0,
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
