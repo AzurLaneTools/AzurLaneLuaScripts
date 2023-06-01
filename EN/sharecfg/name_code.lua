@@ -1220,6 +1220,11 @@ pg.name_code = {
 		name = "Mass-Produced Akagi Class MK 2",
 		code = "Mass-Produced Akagi Class MK 2"
 	},
+	[291] = {
+		id = 291,
+		name = "Taihou-chan",
+		code = "Taihou-chan"
+	},
 	[400] = {
 		id = 400,
 		name = "Z1",

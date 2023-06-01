@@ -24330,7 +24330,7 @@ _G.pg.base.item_data_statistics[40925] = {
 }
 
 _G.pg.base.item_data_statistics[40926] = {
-	display = "Contains one random Summer 2023 dress skin, 2x Special General Blueprint - Series 5, 2023 Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	display = "Contains one random Summer 2023 swimsuit skin, 2x Special General Blueprint - Series 5, 2023 Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
 	name = "Swimsuit Lucky Bag 2023",
 	max_num = 0,
 	type = 17,
@@ -24343,12 +24343,71 @@ _G.pg.base.item_data_statistics[40926] = {
 	link_id = 0,
 	virtual_type = 0,
 	is_world = 0,
-	icon = "Props/lihecn6ss",
+	icon = "Props/liheus6lf",
 	id = 40926,
 	display_icon = {
 		{
 			2,
 			69926,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40927] = {
+	display = "Contains one random Summer 2023 dress skin, 2x Special General Blueprint - Series 5, 2023 Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	name = "Exquisite Lucky Box 2023",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lihecn6lf",
+	id = 40927,
+	display_icon = {
+		{
+			2,
+			69927,
 			1
 		},
 		{
@@ -194799,6 +194858,29 @@ _G.pg.base.item_data_statistics[59457] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59458] = {
+	display = "\"Passionate Confession Practice\" event currency, used to raise Trust during the corresponding event. Will be removed when the event ends.",
+	name = "Practice Love Letter",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/little_taihou_pt",
+	id = 59458,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 	name = "Kawakaze Ship Model",
@@ -206938,6 +207020,58 @@ The available outfits and their rarities are as follows:
 	}
 }
 
+_G.pg.base.item_data_statistics[69927] = {
+	display = "不会被看到",
+	name = "Random Skin",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69927,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			304052,
+			1200
+		},
+		{
+			131172,
+			1200
+		},
+		{
+			207036,
+			1600
+		},
+		{
+			403094,
+			1600
+		},
+		{
+			702034,
+			1600
+		},
+		{
+			236030,
+			1400
+		},
+		{
+			331056,
+			1400
+		}
+	}
+}
+
 _G.pg.base.item_data_statistics[69951] = {
 	display = [[
 This lucky bag contains a random Nep Ship skin (If you draw an already owned ship skin, you will be refunded 80% of the gem cost) 
@@ -211410,6 +211544,29 @@ _G.pg.base.item_data_statistics[99974] = {
 	is_world = 0,
 	icon = "Props/54003",
 	id = 99974,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[99995] = {
+	display = "Compensation for rewards that were not properly granted while clearing HT6 in the \"Confluence of Nothingness\" event.",
+	name = "\"Confluence of Nothingness\" Compensation",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/giftbox",
+	id = 99995,
 	display_icon = {},
 	price = {},
 	index = {},

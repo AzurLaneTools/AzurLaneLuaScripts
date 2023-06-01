@@ -114,7 +114,7 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 
 		print("开始播放动作： " .. slot5)
 
-		if slot4.idle and slot4.idle == slot0.idleIndex then
+		if slot4.idle and slot4.idle == slot0.idleIndex and not slot4.repeatFlag then
 			print("拖拽后的待机动画和当前动画相同 不允许执行")
 
 			return
@@ -413,20 +413,16 @@ function slot0.isActionTriggerAble(slot0)
 	return true
 end
 
-function slot0.setIdleIndex(slot0, slot1)
-	slot0.idleIndex = slot1
-end
+function slot0.updateStateData(slot0, slot1)
+	slot0.idleIndex = slot1.idleIndex
+	slot0.live2dAction = slot1.isPlaying
 
-function slot0.live2dActionChange(slot0, slot1)
-	slot0.live2dAction = slot1
-
-	slot0:updateTriggerAction()
-end
-
-function slot0.updateTriggerAction(slot0)
 	if not slot0.live2dAction and slot0.isTriggerAtion then
 		slot0.isTriggerAtion = false
 	end
+end
+
+function slot0.updateTriggerAction(slot0)
 end
 
 function slot0.dispose(slot0)

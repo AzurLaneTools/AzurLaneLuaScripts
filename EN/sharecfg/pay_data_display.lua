@@ -3309,6 +3309,232 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[52] = {
+		subject = "Exquisite Lucky Box 2023",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		type = 1,
+		limit_arg = 1,
+		name = "Exquisite Lucky Box 2023",
+		name_display = "Exquisite Lucky Box 2023",
+		type_order = 2,
+		extra_gem = 0,
+		id = 52,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "liheus6lf_l",
+		skin_inquire_relation = 69927,
+		id_str = "com.yostaren.azurlane.luckybag11",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		airijp_id = "com.yostaren.azurlane.luckybag11",
+		extra_service_item = {
+			{
+				2,
+				69927,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69927,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40927,
+				1
+			}
+		}
+	},
+	[53] = {
+		subject = "Exquisite Lucky Box 2022 Rerun",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		type = 1,
+		limit_arg = 1,
+		name = "Exquisite Lucky Box 2022 Rerun",
+		name_display = "Exquisite Lucky Box 2022 Rerun",
+		type_order = 2,
+		extra_gem = 0,
+		id = 53,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe8_l",
+		skin_inquire_relation = 69919,
+		id_str = "com.yostaren.azurlane.luckybag12",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies.",
+		airijp_id = "com.yostaren.azurlane.luckybag12",
+		extra_service_item = {
+			{
+				2,
+				69919,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69919,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40919,
+				1
+			}
+		}
+	},
 	[1000] = {
 		subject = "Fair Winds Cruise Pass",
 		limit_group = 0,
@@ -9425,6 +9651,8 @@ pg.pay_data_display = {
 		49,
 		50,
 		51,
+		52,
+		53,
 		1000,
 		1001,
 		1002,

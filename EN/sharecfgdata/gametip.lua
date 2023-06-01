@@ -14018,6 +14018,10 @@ _G.pg.base.gametip.index_spweapon = {
 	tip = "Unique Module"
 }
 
+_G.pg.base.gametip.index_marry = {
+	tip = "Oathed"
+}
+
 _G.pg.base.gametip.decodegame_gametip = {
 	tip = {
 		{
@@ -24346,4 +24350,56 @@ _G.pg.base.gametip.mktea_5 = {
 
 _G.pg.base.gametip.random_skin_list_item_desc_label = {
 	tip = " - "
+}
+
+_G.pg.base.gametip.notice_input_desc = {
+	tip = "Input chat message"
+}
+
+_G.pg.base.gametip.notice_label_send = {
+	tip = "Send"
+}
+
+_G.pg.base.gametip.notice_label_room = {
+	tip = "Receive"
+}
+
+_G.pg.base.gametip.notice_label_recv = {
+	tip = "Chat Room"
+}
+
+_G.pg.base.gametip.notice_label_tip = {
+	tip = "You cannot enter as this chat room is full."
+}
+
+_G.pg.base.gametip.littleTaihou_npc = {
+	tip = {
+		{
+			info = "- Overview -\nDuring the event, Taihou-chan will provisionally join your fleet. Complete missions during the event to earn Practice Love Letters, which can be redeemed for Trust. Collect enough Trust to have Taihou-chan permanently join your fleet!"
+		},
+		{
+			info = "- How to Play -\n· During the event period, you can earn Practice Love Letters by defeating the boss fleet in stages at or after Chapter 3 of the Campaign, or in event stages (excluding War Archives). You will be able to unlock rewards by reaching certain Trust milestones."
+		},
+		{
+			info = "· When you defeat the boss of a stage that drops Practice Love Letters, you will earn twice as many Practice Love Letters if Taihou-chan is still afloat in one of the fleets at that time."
+		},
+		{
+			info = " You can redeem Practice Love Letters for Trust by tapping the bottom right button on the Passionate Confession Practice event banner. You will be able to collect rewards for accumulating a certain amount of Trust."
+		},
+		{
+			info = "· You will not be able to give a Promise Ring to Taihou-chan until you have formally recruited her to the fleet. You will also not be able to Retire or use her as Enhancement or Limit Break material."
+		},
+		{
+			info = "· If Taihou-chan has not been formally recruited by the end of the event, she will leave the Port."
+		},
+		{
+			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day until June 7th."
+		},
+		{
+			info = "· Taihou-chan cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
+		},
+		{
+			info = "· Taihou-chan cannot participate in Guild Bosses until she has been formally recruited."
+		}
+	}
 }

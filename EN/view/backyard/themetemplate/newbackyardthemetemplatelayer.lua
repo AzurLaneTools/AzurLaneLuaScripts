@@ -229,7 +229,7 @@ function slot0.AddCollectionThemeTemplate(slot0, slot1)
 	slot0.collectionThemeTemplate[slot1.id] = slot1
 
 	if slot0.pageType and slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION then
-		slot0.listPage:ExecuteAction("AddCollectionThemeTemplate", templateId)
+		slot0.listPage:ExecuteAction("AddCollectionThemeTemplate", slot1.id)
 	end
 end
 

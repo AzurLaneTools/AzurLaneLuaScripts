@@ -325,140 +325,146 @@ function slot0.onUIAvalible(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
-	return {
-		ActivityProxy.ACTIVITY_ADDED,
-		ActivityProxy.ACTIVITY_UPDATED,
-		ActivityProxy.ACTIVITY_DELETED,
-		ActivityProxy.ACTIVITY_OPERATION_DONE,
-		ActivityProxy.ACTIVITY_SHOW_AWARDS,
-		ActivityProxy.ACTIVITY_SHOW_BB_RESULT,
-		ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT,
-		ActivityProxy.ACTIVITY_SHOW_SHAKE_BEADS_RESULT,
-		GAME.COLORING_ACHIEVE_DONE,
-		GAME.SUBMIT_TASK_DONE,
-		GAME.ACT_NEW_PT_DONE,
-		GAME.BEGIN_STAGE_DONE,
-		GAME.RETURN_AWARD_OP_DONE,
-		VoteProxy.VOTE_ORDER_BOOK_DELETE,
-		VoteProxy.VOTE_ORDER_BOOK_UPDATE,
-		GAME.REMOVE_LAYERS,
-		GAME.SEND_MINI_GAME_OP_DONE,
-		GAME.MONOPOLY_AWARD_DONE,
-		GAME.ACTIVITY_PERMANENT_START_DONE,
-		GAME.ACTIVITY_PERMANENT_FINISH_DONE,
-		GAME.MEMORYBOOK_UNLOCK_AWARD_DONE,
-		GAME.LOAD_LAYERS
-	}
-end
-
-function slot0.handleNotification(slot0, slot1)
-	slot3 = slot1:getBody()
-
-	if slot1:getName() == ActivityProxy.ACTIVITY_ADDED or slot2 == ActivityProxy.ACTIVITY_UPDATED then
-		if slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_LOTTERY then
-			return
-		end
-
-		slot0.viewComponent:updateActivity(slot3)
-
-		if ActivityConst.AOERLIANG_TASK_ID == slot3.id then
-			slot0.viewComponent:update_task_list_auto_aoerliang(slot3)
-		end
-	elseif slot2 == ActivityProxy.ACTIVITY_DELETED then
-		slot0.viewComponent:removeActivity(slot3)
-	elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_DONE then
-		if ActivityConst.AOERLIANG_TASK_ID == slot3 then
-			return
-		end
-
-		if ActivityConst.HOLOLIVE_MORNING_ID == slot3 then
-			slot4 = slot0.viewComponent.pageDic[ActivityConst.HOLOLIVE_MORNING_ID]
-		end
-
-		slot0:showNextActivity()
-	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_AWARDS then
-		slot4 = slot3.awards
-
-		if slot0.nextDisplayAwards and #slot0.nextDisplayAwards > 0 then
-			for slot8 = 1, #slot0.nextDisplayAwards do
-				table.insert(slot4, slot0.nextDisplayAwards[slot8])
+function slot0.getNotificationHandleDic(slot0)
+	uv0.handleDic = uv0.handleDic or {
+		[ActivityProxy.ACTIVITY_ADDED] = function (slot0, slot1)
+			if slot1:getBody():getConfig("type") == ActivityConst.ACTIVITY_TYPE_LOTTERY then
+				return
 			end
-		end
 
-		slot0.nextDisplayAwards = {}
+			slot0.viewComponent:updateActivity(slot2)
 
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot4, slot3.callback)
-	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_BB_RESULT then
-		slot0.viewComponent:emit(ActivityMediator.ON_BOBING_RESULT, slot3)
-	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT then
-		slot0.viewComponent.pageDic[slot3.activityID]:showLotteryAwardResult(slot3.awards, slot3.number, slot3.callback)
-	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_SHAKE_BEADS_RESULT then
-		slot0.viewComponent:emit(ActivityMediator.ON_SHAKE_BEADS_RESULT, slot3)
-	elseif slot2 == GAME.COLORING_ACHIEVE_DONE then
-		slot4 = slot0.viewComponent
+			if ActivityConst.AOERLIANG_TASK_ID == slot2.id then
+				slot0.viewComponent:update_task_list_auto_aoerliang(slot2)
+			end
+		end,
+		[ActivityProxy.ACTIVITY_UPDATED] = function (...)
+			uv0.handleDic[ActivityProxy.ACTIVITY_ADDED](...)
+		end,
+		[ActivityProxy.ACTIVITY_DELETED] = function (slot0, slot1)
+			slot0.viewComponent:removeActivity(slot1:getBody())
+		end,
+		[ActivityProxy.ACTIVITY_OPERATION_DONE] = function (slot0, slot1)
+			if ActivityConst.AOERLIANG_TASK_ID == slot1:getBody() then
+				return
+			end
 
-		slot4:playBonusAnim(function ()
-			slot0 = uv0.viewComponent
+			if ActivityConst.HOLOLIVE_MORNING_ID == slot2 then
+				slot3 = slot0.viewComponent.pageDic[ActivityConst.HOLOLIVE_MORNING_ID]
+			end
 
-			slot0:emit(BaseUI.ON_ACHIEVE, uv1.drops, function ()
-				uv0.viewComponent:flush_coloring()
-			end)
-		end)
-	elseif slot2 == GAME.SUBMIT_TASK_DONE then
-		slot4 = slot0.viewComponent
+			slot0:showNextActivity()
+		end,
+		[ActivityProxy.ACTIVITY_SHOW_AWARDS] = function (slot0, slot1)
+			slot3 = slot1:getBody().awards
 
-		slot4:emit(BaseUI.ON_ACHIEVE, slot3, function ()
-			uv0.viewComponent:updateTaskLayers()
-		end)
-	elseif slot2 == GAME.ACT_NEW_PT_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
-	elseif slot2 == GAME.BEGIN_STAGE_DONE then
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
-	elseif slot2 == GAME.RETURN_AWARD_OP_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
-	elseif slot2 == VoteProxy.VOTE_ORDER_BOOK_DELETE or slot2 == VoteProxy.VOTE_ORDER_BOOK_UPDATE then
-		slot4 = slot0.viewComponent.pageDic or {}
-
-		if slot4[ActivityConst.VOTE_ORDER_BOOK_PHASE_1] or slot4[ActivityConst.VOTE_ORDER_BOOK_PHASE_2] or slot4[ActivityConst.VOTE_ORDER_BOOK_PHASE_3] or slot4[ActivityConst.VOTE_ORDER_BOOK_PHASE_4] or slot4[ActivityConst.VOTE_ORDER_BOOK_PHASE_5] or slot4[ActivityConst.VOTE_ORDER_BOOK_PHASE_6] or slot4[ActivityConst.VOTE_ORDER_BOOK_PHASE_7] or slot4[ActivityConst.VOTE_ORDER_BOOK_PHASE_8] then
-			slot5:UpdateOrderBookBtn(slot3)
-		end
-	elseif slot2 == GAME.REMOVE_LAYERS then
-		if slot3.context.mediator == VoteFameHallMediator then
-			slot0.viewComponent:updateEntrances()
-		end
-
-		slot0.viewComponent:removeLayers()
-	elseif slot2 == GAME.MONOPOLY_AWARD_DONE then
-		if slot0.viewComponent.pageDic[slot0.viewComponent.activity.id] and slot4.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY and slot4.onAward then
-			slot4:onAward(slot3.awards, slot3.callback)
-		else
-			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
-		end
-	elseif slot2 == GAME.SEND_MINI_GAME_OP_DONE then
-		seriesAsync({
-			function (slot0)
-				if #uv0.awards > 0 then
-					if uv1.viewComponent then
-						uv1.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1, slot0)
-					else
-						uv1:emit(BaseUI.ON_ACHIEVE, slot1, slot0)
-					end
-				else
-					slot0()
+			if slot0.nextDisplayAwards and #slot0.nextDisplayAwards > 0 then
+				for slot7 = 1, #slot0.nextDisplayAwards do
+					table.insert(slot3, slot0.nextDisplayAwards[slot7])
 				end
 			end
-		}, function ()
-		end)
-	elseif slot2 == GAME.ACTIVITY_PERMANENT_START_DONE then
-		slot0.viewComponent:verifyTabs(slot3.id)
-	elseif slot2 == GAME.ACTIVITY_PERMANENT_FINISH_DONE then
-		slot0.viewComponent:emit(ActivityMediator.ACTIVITY_PERMANENT, slot3.activity_id)
-	elseif slot2 == GAME.MEMORYBOOK_UNLOCK_AWARD_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
-	elseif slot2 == GAME.LOAD_LAYERS then
-		slot0.viewComponent:loadLayers()
-	end
+
+			slot0.nextDisplayAwards = {}
+
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, slot2.callback)
+		end,
+		[ActivityProxy.ACTIVITY_SHOW_BB_RESULT] = function (slot0, slot1)
+			slot0.viewComponent:emit(ActivityMediator.ON_BOBING_RESULT, slot1:getBody())
+		end,
+		[ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+
+			slot0.viewComponent.pageDic[slot2.activityID]:showLotteryAwardResult(slot2.awards, slot2.number, slot2.callback)
+		end,
+		[ActivityProxy.ACTIVITY_SHOW_SHAKE_BEADS_RESULT] = function (slot0, slot1)
+			slot0.viewComponent:emit(ActivityMediator.ON_SHAKE_BEADS_RESULT, slot1:getBody())
+		end,
+		[GAME.COLORING_ACHIEVE_DONE] = function (slot0, slot1)
+			slot0.viewComponent:playBonusAnim(function ()
+				uv1.viewComponent:emit(BaseUI.ON_ACHIEVE, uv0:getBody().drops, function ()
+					uv0.viewComponent:flush_coloring()
+				end)
+			end)
+		end,
+		[GAME.SUBMIT_TASK_DONE] = function (slot0, slot1)
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody(), function ()
+				uv0.viewComponent:updateTaskLayers()
+			end)
+		end,
+		[GAME.ACT_NEW_PT_DONE] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot2.awards, slot2.callback)
+		end,
+		[GAME.BEGIN_STAGE_DONE] = function (slot0, slot1)
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot1:getBody())
+		end,
+		[GAME.RETURN_AWARD_OP_DONE] = function (slot0, slot1)
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards)
+		end,
+		[VoteProxy.VOTE_ORDER_BOOK_DELETE] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+			slot3 = slot0.viewComponent.pageDic or {}
+
+			if slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_1] or slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_2] or slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_3] or slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_4] or slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_5] or slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_6] or slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_7] or slot3[ActivityConst.VOTE_ORDER_BOOK_PHASE_8] then
+				slot4:UpdateOrderBookBtn(slot2)
+			end
+		end,
+		[VoteProxy.VOTE_ORDER_BOOK_UPDATE] = function (...)
+			uv0.handleDic[VoteProxy.VOTE_ORDER_BOOK_DELETE](...)
+		end,
+		[GAME.REMOVE_LAYERS] = function (slot0, slot1)
+			if slot1:getBody().context.mediator == VoteFameHallMediator then
+				slot0.viewComponent:updateEntrances()
+			end
+
+			slot0.viewComponent:removeLayers()
+		end,
+		[GAME.MONOPOLY_AWARD_DONE] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+
+			if slot0.viewComponent.pageDic[slot0.viewComponent.activity.id] and slot3.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY and slot3.onAward then
+				slot3:onAward(slot2.awards, slot2.callback)
+			else
+				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot2.awards, slot2.callback)
+			end
+		end,
+		[GAME.SEND_MINI_GAME_OP_DONE] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+
+			seriesAsync({
+				function (slot0)
+					if #uv0.awards > 0 then
+						if uv1.viewComponent then
+							uv1.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1, slot0)
+						else
+							uv1:emit(BaseUI.ON_ACHIEVE, slot1, slot0)
+						end
+					else
+						slot0()
+					end
+				end
+			}, function ()
+			end)
+		end,
+		[GAME.ACTIVITY_PERMANENT_START_DONE] = function (slot0, slot1)
+			slot0.viewComponent:verifyTabs(slot1:getBody().id)
+		end,
+		[GAME.ACTIVITY_PERMANENT_FINISH_DONE] = function (slot0, slot1)
+			slot0.viewComponent:emit(ActivityMediator.ACTIVITY_PERMANENT, slot1:getBody().activity_id)
+		end,
+		[GAME.MEMORYBOOK_UNLOCK_AWARD_DONE] = function (slot0, slot1)
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards)
+		end,
+		[GAME.LOAD_LAYERS] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+
+			slot0.viewComponent:loadLayers()
+		end
+	}
+	uv0.elseFunc = nil
+
+	return uv0.handleDic, uv0.elseFunc
 end
 
 function slot0.showNextActivity(slot0)

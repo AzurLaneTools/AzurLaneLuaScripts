@@ -8980,6 +8980,17 @@ function temp()
 								["μ"] = {
 									this = true
 								}
+							},
+							["-"] = {
+								c = {
+									h = {
+										a = {
+											n = {
+												this = true
+											}
+										}
+									}
+								}
 							}
 						}
 					}
@@ -12188,6 +12199,27 @@ function temp()
 														i = {
 															t = {
 																this = true
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								},
+								["("] = {
+									R = {
+										e = {
+											t = {
+												r = {
+													o = {
+														f = {
+															i = {
+																t = {
+																	[")"] = {
+																		this = true
+																	}
+																}
 															}
 														}
 													}

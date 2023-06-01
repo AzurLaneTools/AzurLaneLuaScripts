@@ -560,6 +560,40 @@ pg.login = {
 			}
 		}
 	},
+	[28] = {
+		id = 28,
+		date = "stop",
+		op_play = 1,
+		login_static = "login",
+		login_cri = "",
+		bgm = "story-musicanniversary-gorgeous",
+		op_time = {
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -576,6 +610,7 @@ pg.login = {
 		18,
 		24,
 		25,
-		27
+		27,
+		28
 	}
 }

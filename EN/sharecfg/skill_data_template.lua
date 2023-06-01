@@ -991,6 +991,8 @@ pg.skill_data_template = setmetatable({
 		16760,
 		16770,
 		16780,
+		16790,
+		16800,
 		18010,
 		18040,
 		18050,
@@ -78851,6 +78853,164 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 		},
 		desc_get_add = {},
 		desc_add = {}
+	},
+	[16790] = {
+		desc_get = "",
+		name = "Taihou-chan's Talisman of Hardening",
+		id = 16790,
+		type = 2,
+		max_level = 10,
+		desc = "Decreases this ship's DMG taken by $1. Whenever your Flagship takes DMG: increases this ship's AVI by $2 until the battle ends (can be stacked up to 3 times).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"1.5%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[16800] = {
+		desc_get = "",
+		name = "Taihou-chan's Mischief",
+		id = 16800,
+		type = 1,
+		max_level = 10,
+		desc = "Every 20s: launches a recon squadron consisting of Saiun aircraft which increase your Main Fleet's DMG dealt by 10.0% for 8s; after this, every 1s: launches 1 additional random Reppuu, Suisei, or Ryusei aircraft that launches a $1 special airstrike (this effect ends when either 6 total planes have been launched, or a Ryusei has been launched; special airstrike DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
 	},
 	[18010] = {
 		desc_get = "",

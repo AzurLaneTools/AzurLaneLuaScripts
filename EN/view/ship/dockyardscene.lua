@@ -366,7 +366,7 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 	slot3.isLoading = false
 
 	slot3:updateIntimacyEnergy(slot0.contextData.energyDisplay or slot0.sortIndex == ShipIndexConst.SortEnergy)
-	slot3:updateIntimacy(slot0.sortIndex == ShipIndexConst.SortIntimacy and slot0.contextData.mode ~= DockyardScene.MODE_UPGRADE)
+	slot3:updateIntimacy((slot0.sortIndex == ShipIndexConst.SortIntimacy or slot0.extraIndex == ShipIndexConst.ExtraMarry) and slot0.contextData.mode ~= DockyardScene.MODE_UPGRADE)
 end
 
 function slot0.onReturnItem(slot0, slot1, slot2)

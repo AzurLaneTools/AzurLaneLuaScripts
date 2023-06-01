@@ -1481,6 +1481,7 @@ pg.skill_data_display = setmetatable({
 		16770,
 		16780,
 		16781,
+		16792,
 		18010,
 		18040,
 		18041,
@@ -8456,6 +8457,10 @@ pg.base.skill_data_display = {
 	[16781] = {
 		id = 16781,
 		name = "Reborn Temple of Iron"
+	},
+	[16792] = {
+		id = 16792,
+		name = "Taihou-chan's Talisman of Hardening"
 	},
 	[18010] = {
 		id = 18010,
