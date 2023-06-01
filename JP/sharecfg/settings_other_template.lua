@@ -189,8 +189,8 @@ pg.settings_other_template = {
 		type = 0,
 		alignment = 0,
 		id = 17,
-		title = "戦闘結果演出簡略化",
-		desc = "ONにすると、戦闘結果画面の一部演出がスキップされます"
+		title = "戦闘結果演出リッチ化",
+		desc = "ONにすると、戦闘結果画面の一部演出がリッチ化されます"
 	},
 	all = {
 		1,

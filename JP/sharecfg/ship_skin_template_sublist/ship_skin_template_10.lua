@@ -9659,9 +9659,7 @@ pg.base.ship_skin_template_10 = {
 		air_bomb_skin = "",
 		shop_type_id = 7,
 		illustrator = -1,
-		l2d_voice_calibrate = "",
 		lip_smoothing = 0,
-		l2d_animations = "",
 		bullet_skin_main = "",
 		spine_action_offset = "",
 		skin_type = 0,
@@ -9676,20 +9674,18 @@ pg.base.ship_skin_template_10 = {
 		desc = "はむっ…あ。指揮官様、宴会の途中なのにどうしてここに？主賓がこっそり抜け出しては会場を仕切る子が困りましょう…ふふふ、ダメ、というわけではございませんよ？",
 		voice_actor = 104,
 		spine_offset = "",
-		gyro = 0,
+		gyro = 1,
 		rarity_bg = "",
 		time = "",
-		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		ship_l2d_id = "",
 		tag = {
 			1,
 			2
 		},
 		live2d_offset = {
-			0,
-			0,
+			80.5,
+			-72,
 			0
 		},
 		fx_container = {
@@ -9758,6 +9754,40 @@ pg.base.ship_skin_template_10 = {
 					}
 				}
 			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-15,
+				15
+			},
+			ParamAngleY = {
+				-15,
+				15
+			}
+		},
+		ship_l2d_id = {
+			3040521,
+			3040522,
+			3040523,
+			3040524
 		}
 	},
 	[304060] = {
