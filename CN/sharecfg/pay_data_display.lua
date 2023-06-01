@@ -4734,7 +4734,7 @@ pg.pay_data_display = {
 		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
 		type = 1,
 		limit_arg = 1,
-		name = "春节福袋复刻(2022)",
+		name = "六周年泳装礼盒",
 		name_display = "六周年泳装礼盒",
 		type_order = 2,
 		extra_gem = 0,
@@ -4745,7 +4745,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		picture = "lihecn6ss_l",
 		skin_inquire_relation = 69926,
-		id_str = "com.bilibili.blhx.zuanshi147",
+		id_str = "com.bilibili.blhx.zuanshi151",
 		first_pay_double = 0,
 		extra_service = 3,
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
@@ -4837,6 +4837,232 @@ pg.pay_data_display = {
 			{
 				2,
 				40926,
+				1
+			}
+		}
+	},
+	[52] = {
+		subject = "六周年礼盒",
+		limit_group = 0,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		limit_arg = 1,
+		name = "六周年礼盒",
+		name_display = "六周年礼盒",
+		type_order = 2,
+		extra_gem = 0,
+		id = 52,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihecn6lf_l",
+		skin_inquire_relation = 69927,
+		id_str = "com.bilibili.blhx.zuanshi152",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond141",
+		extra_service_item = {
+			{
+				2,
+				69927,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69927,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40927,
+				1
+			}
+		}
+	},
+	[53] = {
+		subject = "五周年礼盒复刻",
+		limit_group = 0,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		limit_arg = 1,
+		name = "五周年礼盒复刻",
+		name_display = "五周年礼盒复刻",
+		type_order = 2,
+		extra_gem = 0,
+		id = 53,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe7_l",
+		skin_inquire_relation = 69919,
+		id_str = "com.bilibili.blhx.zuanshi153",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond142",
+		extra_service_item = {
+			{
+				2,
+				69919,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69919,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40919,
 				1
 			}
 		}
@@ -5597,7 +5823,7 @@ pg.pay_data_display = {
 		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
 		type = 0,
 		limit_arg = 1,
-		name = "特许巡游凭证",
+		name = "特许巡游凭证(2023.6)",
 		name_display = "特许巡游凭证",
 		type_order = 4,
 		extra_gem = 0,
@@ -5608,7 +5834,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass1",
+		id_str = "com.bilibili.blhx.battlepass12",
 		first_pay_double = 0,
 		extra_service = 4,
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·鸾限定换装和其他奖励",
@@ -6790,6 +7016,8 @@ pg.pay_data_display = {
 		49,
 		50,
 		51,
+		52,
+		53,
 		1000,
 		1001,
 		1002,

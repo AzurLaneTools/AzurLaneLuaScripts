@@ -1,237 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
-	[201105] = {
-		ship_group = 20110,
-		name = "皇家应援曲",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "112",
-		id = 201105,
-		group_index = 5,
-		prefab = "xiaotiane_6",
-		painting = "xiaotiane_6",
-		shop_id = 70339,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 13,
-		illustrator = 17,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指、指挥官？那个……咱被选为了皇家的啦啦队代表，要在运动会上给大家加油，所以现在咱正在练习啦啦操…请不要这样一直盯着看…很让人害羞的，呜…",
-		voice_actor = 46,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.297,
-					1.207,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.286,
-					1.199,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.323,
-							2.219,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201109] = {
-		ship_group = 20110,
-		name = "小天鹅.改",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 201109,
-		group_index = 9,
-		prefab = "xiaotiane_g",
-		painting = "xiaotiane_g",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9997,
-		illustrator = 17,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "这身衣服还是有些紧……是、是这样吗？我明白了，为了皇家料理，小天鹅我会加倍努力的！",
-		voice_actor = 46,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.98,
-					0.63,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.34,
-					0.06,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.98,
-					0.63,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.309,
-							0.832,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.269,
-							2.82,
-							-0.52
-						}
-					}
-				}
-			}
-		}
-	},
 	[201110] = {
 		ship_group = 20111,
 		name = "狐提",
@@ -11136,6 +10905,355 @@ pg.base.ship_skin_template_5 = {
 						{
 							-0.35,
 							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202170] = {
+		ship_group = 20217,
+		name = "牙买加",
+		bullet_skin_secondary = "",
+		hand_id = 16,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202170,
+		group_index = 0,
+		prefab = "yamaijia",
+		painting = "yamaijia",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 6,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "斐济级轻巡洋舰—牙买加，舷号44",
+		voice_actor = 93,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.07,
+					0.68,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.06,
+					0.66,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.15,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.1,
+					0.76,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.22,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202171] = {
+		ship_group = 20217,
+		name = "地下行者",
+		bullet_skin_secondary = "",
+		hand_id = 16,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "105",
+		id = 202171,
+		group_index = 1,
+		prefab = "yamaijia_2",
+		painting = "yamaijia_2",
+		shop_id = 70144,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9,
+		illustrator = 6,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "嗨，boss…你说摩托车？哦，这是我一点点自己从{namecode:98}小姐那里买零件组装成的，是不是很酷？",
+		voice_actor = 93,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.26,
+					1.42,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.23,
+					1.53,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.2,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.26,
+					1.46,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.71,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202172] = {
+		ship_group = 20217,
+		name = "Highway·Star",
+		bullet_skin_secondary = "",
+		hand_id = 16,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "118",
+		id = 202172,
+		group_index = 2,
+		prefab = "yamaijia_3",
+		painting = "yamaijia_3",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9,
+		illustrator = 6,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "boss，看，这是{namecode:98}送给我的新车，说是让我做新产品的“代言人”……代言人，呵呵，听起来很帅啊",
+		voice_actor = 93,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.816,
+					1.118,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.822,
+					1.139,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.021,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.798,
+					1.188,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.468,
+							2.24,
 							0
 						}
 					}

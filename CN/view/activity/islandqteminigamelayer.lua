@@ -171,6 +171,20 @@ function slot0.didEnter(slot0)
 			onButton(uv0, slot10:Find("btn_back"), function ()
 				uv0:closeView()
 			end, SFX_CANCEL)
+
+			if IsUnityEditor and not uv0.handle then
+				uv0.handle = UpdateBeat:CreateListener(function (slot0)
+					if Input.GetKeyUp(KeyCode.F) and slot0.rtGame:Find("btn_l"):GetComponent(typeof(Button)).interactable then
+						triggerButton(slot0.rtGame:Find("btn_l"))
+					end
+
+					if Input.GetKeyUp(KeyCode.J) and slot0.rtGame:Find("btn_r"):GetComponent(typeof(Button)).interactable then
+						triggerButton(slot0.rtGame:Find("btn_r"))
+					end
+				end, uv0)
+
+				UpdateBeat:AddListener(uv0.handle)
+			end
 		end,
 		Qgame3 = function ()
 			slot0 = 0.5
@@ -462,6 +476,12 @@ end
 
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+
+	if slot0.handle then
+		UpdateBeat:RemoveListener(slot0.handle)
+
+		slot0.handle = nil
+	end
 end
 
 return slot0

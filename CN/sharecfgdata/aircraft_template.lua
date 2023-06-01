@@ -71101,6 +71101,578 @@ _G.pg.base.aircraft_template[161000] = {
 	}
 }
 
+_G.pg.base.aircraft_template[161151] = {
+	attack_power = 2,
+	name = "小大凤技能鱼雷机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "liuxing",
+	ACC_growth = 0,
+	crash_DMG = 188,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 161151,
+	icon = "liuxing",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1605,
+	speed = 52,
+	max_hp = 42,
+	scale = 1,
+	weapon_ID = {
+		161161
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.26,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[161152] = {
+	id = 161152,
+	name = "小大凤技能鱼雷机Lv2",
+	hp_growth = 1846,
+	base = 161151,
+	max_hp = 48,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161162
+	}
+}
+
+_G.pg.base.aircraft_template[161153] = {
+	id = 161153,
+	name = "小大凤技能鱼雷机Lv3",
+	hp_growth = 2087,
+	base = 161151,
+	max_hp = 54,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161163
+	}
+}
+
+_G.pg.base.aircraft_template[161154] = {
+	id = 161154,
+	name = "小大凤技能鱼雷机Lv4",
+	hp_growth = 2327,
+	base = 161151,
+	max_hp = 61,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161164
+	}
+}
+
+_G.pg.base.aircraft_template[161155] = {
+	id = 161155,
+	name = "小大凤技能鱼雷机Lv5",
+	hp_growth = 2568,
+	base = 161151,
+	max_hp = 67,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161165
+	}
+}
+
+_G.pg.base.aircraft_template[161156] = {
+	id = 161156,
+	name = "小大凤技能鱼雷机Lv6",
+	hp_growth = 2809,
+	base = 161151,
+	max_hp = 73,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161166
+	}
+}
+
+_G.pg.base.aircraft_template[161157] = {
+	id = 161157,
+	name = "小大凤技能鱼雷机Lv7",
+	hp_growth = 3050,
+	base = 161151,
+	max_hp = 79,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161167
+	}
+}
+
+_G.pg.base.aircraft_template[161158] = {
+	id = 161158,
+	name = "小大凤技能鱼雷机Lv8",
+	hp_growth = 3290,
+	base = 161151,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161168
+	}
+}
+
+_G.pg.base.aircraft_template[161159] = {
+	id = 161159,
+	name = "小大凤技能鱼雷机Lv9",
+	hp_growth = 3531,
+	base = 161151,
+	max_hp = 92,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161169
+	}
+}
+
+_G.pg.base.aircraft_template[161160] = {
+	id = 161160,
+	name = "小大凤技能鱼雷机Lv10",
+	hp_growth = 3772,
+	base = 161151,
+	max_hp = 98,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161170
+	}
+}
+
+_G.pg.base.aircraft_template[161171] = {
+	attack_power = 2,
+	name = "小大凤技能烈风Lv1",
+	type = 1,
+	accuracy = 23,
+	model_ID = "liefeng",
+	ACC_growth = 0,
+	crash_DMG = 162,
+	dodge = 0.309,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 161171,
+	icon = "liefeng",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 9.5,
+	hp_growth = 1404,
+	speed = 60,
+	max_hp = 37,
+	scale = 1,
+	weapon_ID = {
+		59521,
+		161181
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.51,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[161172] = {
+	id = 161172,
+	name = "小大凤技能烈风Lv2",
+	hp_growth = 1615,
+	base = 161171,
+	max_hp = 42,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59522,
+		161182
+	}
+}
+
+_G.pg.base.aircraft_template[161173] = {
+	id = 161173,
+	name = "小大凤技能烈风Lv3",
+	hp_growth = 1826,
+	base = 161171,
+	max_hp = 47,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59523,
+		161183
+	}
+}
+
+_G.pg.base.aircraft_template[161174] = {
+	id = 161174,
+	name = "小大凤技能烈风Lv4",
+	hp_growth = 2036,
+	base = 161171,
+	max_hp = 53,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59524,
+		161184
+	}
+}
+
+_G.pg.base.aircraft_template[161175] = {
+	id = 161175,
+	name = "小大凤技能烈风Lv5",
+	hp_growth = 2247,
+	base = 161171,
+	max_hp = 58,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59525,
+		161185
+	}
+}
+
+_G.pg.base.aircraft_template[161176] = {
+	id = 161176,
+	name = "小大凤技能烈风Lv6",
+	hp_growth = 2458,
+	base = 161171,
+	max_hp = 64,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59526,
+		161186
+	}
+}
+
+_G.pg.base.aircraft_template[161177] = {
+	id = 161177,
+	name = "小大凤技能烈风Lv7",
+	hp_growth = 2669,
+	base = 161171,
+	max_hp = 69,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59527,
+		161187
+	}
+}
+
+_G.pg.base.aircraft_template[161178] = {
+	id = 161178,
+	name = "小大凤技能烈风Lv8",
+	hp_growth = 2879,
+	base = 161171,
+	max_hp = 75,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59528,
+		161188
+	}
+}
+
+_G.pg.base.aircraft_template[161179] = {
+	id = 161179,
+	name = "小大凤技能烈风Lv9",
+	hp_growth = 3090,
+	base = 161171,
+	max_hp = 80,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59529,
+		161189
+	}
+}
+
+_G.pg.base.aircraft_template[161180] = {
+	id = 161180,
+	name = "小大凤技能烈风Lv10",
+	hp_growth = 3301,
+	base = 161171,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59530,
+		161190
+	}
+}
+
+_G.pg.base.aircraft_template[161191] = {
+	attack_power = 2,
+	name = "小大凤技能彗星Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "huixing",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 3.33,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 161191,
+	icon = "huixing",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 1,
+	hp_growth = 1605,
+	speed = 48,
+	max_hp = 42,
+	scale = 1,
+	weapon_ID = {
+		50041,
+		161201
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[161192] = {
+	id = 161192,
+	name = "小大凤技能彗星Lv2",
+	hp_growth = 1846,
+	base = 161191,
+	max_hp = 48,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50042,
+		161202
+	}
+}
+
+_G.pg.base.aircraft_template[161193] = {
+	id = 161193,
+	name = "小大凤技能彗星Lv3",
+	hp_growth = 2087,
+	base = 161191,
+	max_hp = 54,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50043,
+		161203
+	}
+}
+
+_G.pg.base.aircraft_template[161194] = {
+	id = 161194,
+	name = "小大凤技能彗星Lv4",
+	hp_growth = 2327,
+	base = 161191,
+	max_hp = 61,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50044,
+		161204
+	}
+}
+
+_G.pg.base.aircraft_template[161195] = {
+	id = 161195,
+	name = "小大凤技能彗星Lv5",
+	hp_growth = 2568,
+	base = 161191,
+	max_hp = 67,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50045,
+		161205
+	}
+}
+
+_G.pg.base.aircraft_template[161196] = {
+	id = 161196,
+	name = "小大凤技能彗星Lv6",
+	hp_growth = 2809,
+	base = 161191,
+	max_hp = 73,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50046,
+		161206
+	}
+}
+
+_G.pg.base.aircraft_template[161197] = {
+	id = 161197,
+	name = "小大凤技能彗星Lv7",
+	hp_growth = 3050,
+	base = 161191,
+	max_hp = 79,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50047,
+		161207
+	}
+}
+
+_G.pg.base.aircraft_template[161198] = {
+	id = 161198,
+	name = "小大凤技能彗星Lv8",
+	hp_growth = 3290,
+	base = 161191,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50048,
+		161208
+	}
+}
+
+_G.pg.base.aircraft_template[161199] = {
+	id = 161199,
+	name = "小大凤技能彗星Lv9",
+	hp_growth = 3531,
+	base = 161191,
+	max_hp = 92,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50049,
+		161209
+	}
+}
+
+_G.pg.base.aircraft_template[161200] = {
+	id = 161200,
+	name = "小大凤技能彗星Lv10",
+	hp_growth = 3772,
+	base = 161191,
+	max_hp = 98,
+	spawn_brownian = 1,
+	weapon_ID = {
+		50050,
+		161210
+	}
+}
+
 _G.pg.base.aircraft_template[200101] = {
 	attack_power = 2,
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",

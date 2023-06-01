@@ -312,12 +312,9 @@ end
 
 function slot0.GetVirtualShip(slot0)
 	slot1 = slot0:GetShipSkinId()
-	slot3 = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot1].ship_group)
+	slot2 = pg.ship_skin_template[slot1].ship_group
 
-	assert(slot3)
-
-	return Ship.New({
-		configId = slot3.id,
+	return StoryShip.New({
 		skin_id = slot1
 	})
 end

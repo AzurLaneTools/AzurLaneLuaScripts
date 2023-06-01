@@ -161,13 +161,13 @@ pg.settings_other_template = {
 		desc = "功能开启后，在船坞等界面，已誓约的角色名将使用特殊颜色显示"
 	},
 	{
-		default = 0,
-		name = "BATTLERESULT_SKIP_DISPAY_PAINTING",
+		default = 1,
+		name = "BATTLERESULT_DISPAY_PAINTING",
 		type = 0,
 		alignment = 0,
 		id = 17,
-		title = "跳过结算角色展示",
-		desc = "功能开启后，将不展示战斗结算立绘过场"
+		title = "展示结算角色",
+		desc = "功能开启后，将展示战斗结算立绘过场"
 	},
 	all = {
 		1,

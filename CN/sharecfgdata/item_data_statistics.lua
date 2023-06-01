@@ -25524,6 +25524,65 @@ _G.pg.base.item_data_statistics[40926] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[40927] = {
+	display = "购买礼包可获得随机换装*1，钻石*2023，心智单元*50，心智魔方*20，高级定向蓝图五期*2，快速完成工具*10，家具币*100",
+	name = "六周年礼盒",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lihecn6lf",
+	id = 40927,
+	display_icon = {
+		{
+			2,
+			69927,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[41001] = {
 	display = "{namecode:98}赠送的情人节礼物",
 	name = "情人节礼物",
@@ -203929,6 +203988,29 @@ _G.pg.base.item_data_statistics[59457] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59458] = {
+	display = "用于「热烈的告白练习」活动提升角色好感，活动结束后将会消失",
+	name = "练习情书",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/little_taihou_pt",
+	id = 59458,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-茳",
 	name = "船模-茳",
@@ -216955,6 +217037,58 @@ _G.pg.base.item_data_statistics[69926] = {
 	}
 }
 
+_G.pg.base.item_data_statistics[69927] = {
+	display = "不会被看到",
+	name = "随机六周年换装",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69927,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			304052,
+			1200
+		},
+		{
+			131172,
+			1200
+		},
+		{
+			207036,
+			1600
+		},
+		{
+			403094,
+			1600
+		},
+		{
+			702034,
+			1600
+		},
+		{
+			236030,
+			1400
+		},
+		{
+			331056,
+			1400
+		}
+	}
+}
+
 _G.pg.base.item_data_statistics[70000] = {
 	display = "可用于解锁「港区回忆手账」No.1",
 	name = "「港区回忆」No.1",
@@ -220237,6 +220371,29 @@ _G.pg.base.item_data_statistics[99994] = {
 	is_world = 0,
 	icon = "props/giftbox",
 	id = 99994,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[99995] = {
+	display = "领取后可获得作战档案-「空相交汇点HT6」中未正常获得的额外通关奖励",
+	name = "空相交汇点HT6额外奖励补偿",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/giftbox",
+	id = 99995,
 	display_icon = {},
 	price = {},
 	index = {},

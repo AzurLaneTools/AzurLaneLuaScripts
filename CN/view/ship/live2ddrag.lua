@@ -413,20 +413,16 @@ function slot0.isActionTriggerAble(slot0)
 	return true
 end
 
-function slot0.setIdleIndex(slot0, slot1)
-	slot0.idleIndex = slot1
-end
+function slot0.updateStateData(slot0, slot1)
+	slot0.idleIndex = slot1.idleIndex
+	slot0.live2dAction = slot1.isPlaying
 
-function slot0.live2dActionChange(slot0, slot1)
-	slot0.live2dAction = slot1
-
-	slot0:updateTriggerAction()
-end
-
-function slot0.updateTriggerAction(slot0)
 	if not slot0.live2dAction and slot0.isTriggerAtion then
 		slot0.isTriggerAtion = false
 	end
+end
+
+function slot0.updateTriggerAction(slot0)
 end
 
 function slot0.dispose(slot0)

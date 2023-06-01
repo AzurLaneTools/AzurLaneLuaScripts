@@ -45,7 +45,11 @@ function slot0.getSortGoods(slot0)
 	end
 
 	table.sort(slot1, function (slot0, slot1)
-		return slot1:getConfig("ensure") < slot0:getConfig("ensure")
+		if (slot0:getConfig("order") or 0) == (slot1:getConfig("order") or 0) then
+			return slot0.id < slot1.id
+		else
+			return slot3 < slot2
+		end
 	end)
 
 	return slot1

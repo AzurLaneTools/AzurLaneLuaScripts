@@ -287,7 +287,7 @@ function slot0.UpdateView(slot0)
 		slot0.Respones[slot6 .. "Tip"] = slot0:UpdateBuildingTip(slot1, slot5)
 	end
 
-	slot0.Respones.craftTip = slot0.Respones.craftTip or getProxy(SettingsProxy):IsTipWorkbenchDaily()
+	slot0.Respones.craftTip = slot0.Respones.craftTip or getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORKBENCH):HasAvaliableFormula() and getProxy(SettingsProxy):IsTipWorkbenchDaily()
 	slot0.Respones.bigmapTip = tobool((function ()
 		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND))
 	end)())
@@ -323,11 +323,9 @@ function slot0.IsShowMainTip(slot0)
 				end
 			end
 
-			if getProxy(SettingsProxy):IsTipWorkbenchDaily() then
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORKBENCH):HasAvaliableFormula() and getProxy(SettingsProxy):IsTipWorkbenchDaily() then
 				return true
 			end
-		end)() or (function ()
-			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING_2))
 		end)() or (function ()
 			return getProxy(ActivityTaskProxy):getActTaskTip(ActivityConst.ISLAND_TASK_ID)
 		end)() or (function ()

@@ -8,9 +8,9 @@ end
 
 function slot0.OnCheckAllAccountState(slot0)
 	if PLATFORM_CODE == PLATFORM_JP then
-		slot0:GetPanel(SettingsAccountJPPanle):checkAllAccountState(code)
+		slot0:GetPanel(SettingsAccountJPPanle):checkAllAccountState()
 	elseif PLATFORM_CODE == PLATFORM_US then
-		slot0:GetPanel(SettingsAccountUSPanle):checkAllAccountState_US(code)
+		slot0:GetPanel(SettingsAccountUSPanle):checkAllAccountState_US()
 	end
 end
 

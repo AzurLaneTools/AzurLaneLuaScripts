@@ -853,7 +853,16 @@ function temp()
 		["德"] = {
 			["莉"] = {
 				["亚"] = {
-					this = true
+					this = true,
+					Z = {
+						w = {
+							e = {
+								i = {
+									this = true
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -871,6 +880,25 @@ function temp()
 													this = true
 												}
 											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["莉"] = {
+			["薇"] = {
+				["娅"] = {
+					["·"] = {
+						["冯"] = {
+							["·"] = {
+								["阿"] = {
+									["诺"] = {
+										["德"] = {
+											this = true
 										}
 									}
 								}
@@ -1372,6 +1400,19 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["可"] = {
+			["畏"] = {
+				this = true
+			}
+		},
+		["大"] = {
+			["凤"] = {
+				this = true
+			}
+		},
+		["鹩"] = {
+			this = true
 		}
 	}
 end
@@ -1797,6 +1838,11 @@ function temp()
 						}
 					}
 				}
+			}
+		},
+		["黛"] = {
+			["尔"] = {
+				this = true
 			}
 		}
 	}
@@ -2450,7 +2496,18 @@ function temp()
 	uv0["女"] = {
 		["灶"] = {
 			["神"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["将"] = {
@@ -3316,7 +3373,12 @@ function temp()
 	uv0["纳"] = {
 		["尔"] = {
 			["逊"] = {
-				this = true
+				this = true,
+				["."] = {
+					["改"] = {
+						this = true
+					}
+				}
 			}
 		}
 	}
@@ -5657,6 +5719,9 @@ function temp()
 		},
 		["西"] = {
 			this = true
+		},
+		["娜"] = {
+			this = true
 		}
 	}
 end
@@ -6754,7 +6819,18 @@ function temp()
 					this = true
 				},
 				["洛"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -6831,6 +6907,28 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["瑞"] = {
+		["吉"] = {
+			["娜"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["环"] = {
+		this = {
+			this = true
 		}
 	}
 end

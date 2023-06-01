@@ -1459,5 +1459,13 @@ pg.voice_actor_CN = {
 	{
 		code = 365,
 		actor_name = "香月遥"
+	},
+	{
+		code = 366,
+		actor_name = "村雨"
+	},
+	{
+		code = 367,
+		actor_name = "秦紫翼"
 	}
 }

@@ -115,7 +115,7 @@ function slot0.InitMainView(slot0, slot1)
 end
 
 function slot0.PlayEnterAnimation(slot0, slot1)
-	if not (PlayerPrefs.GetInt(BATTLERESULT_SKIP_DISPAY_PAINTING, 0) <= 0) then
+	if not getProxy(SettingsProxy):IsDisplayResultPainting() then
 		slot1()
 		Object.Destroy(slot0.rawImage.gameObject)
 
@@ -223,7 +223,7 @@ function slot5(slot0, slot1)
 
 		uv1.metaExpView:Reset()
 		uv1.metaExpView:Load()
-		uv1.metaExpView:setData(expInfoList, function ()
+		uv1.metaExpView:setData(getProxy(MetaCharacterProxy):getLastMetaSkillExpInfoList(), function ()
 			if uv0 then
 				setActive(uv0, true)
 			end

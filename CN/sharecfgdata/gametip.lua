@@ -13927,6 +13927,10 @@ _G.pg.base.gametip.index_spweapon = {
 	tip = "专属兵装"
 }
 
+_G.pg.base.gametip.index_marry = {
+	tip = "已誓约"
+}
+
 _G.pg.base.gametip.decodegame_gametip = {
 	tip = {
 		{
@@ -24095,4 +24099,56 @@ _G.pg.base.gametip.mktea_5 = {
 
 _G.pg.base.gametip.random_skin_list_item_desc_label = {
 	tip = "换装 "
+}
+
+_G.pg.base.gametip.notice_input_desc = {
+	tip = "最多输入40字......"
+}
+
+_G.pg.base.gametip.notice_label_send = {
+	tip = "发送消息"
+}
+
+_G.pg.base.gametip.notice_label_room = {
+	tip = "接收消息"
+}
+
+_G.pg.base.gametip.notice_label_recv = {
+	tip = "聊天室房间"
+}
+
+_G.pg.base.gametip.notice_label_tip = {
+	tip = "聊天人数达到上限,则不能进入该房间"
+}
+
+_G.pg.base.gametip.littleTaihou_npc = {
+	tip = {
+		{
+			info = "「热烈的告白练习」说明："
+		},
+		{
+			info = "1.活动期间，玩家可获得临时NPC角色「小鹩」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
+		},
+		{
+			info = "2.活动期间，击破普通难度主线第三章及之后章节或活动地图旗舰，可获得「练习情书」，累计「练习情书」可提升临时NPC角色「小鹩」的友好度。（不包括大型作战）"
+		},
+		{
+			info = "3.上阵「小鹩」参与战斗，且未被击沉，可获得双倍「练习情书」。"
+		},
+		{
+			info = "4.6月7日为止，每日解锁1个可达成的友好度阶段。"
+		},
+		{
+			info = "5.在活动结束前累计获得1000「练习情书」，达成7个友好度阶段，可领取奖励并将临时角色「小鹩」转化为永久角色。"
+		},
+		{
+			info = "6.活动结束后，未完成转化的临时角色「小鹩」将离开港区，不返还已经消耗的强化、突破等培养材料。"
+		},
+		{
+			info = "7.NPC角色无法参与大型作战。"
+		},
+		{
+			info = "8.NPC角色无法参与大舰队作战中的事件派遣、攻坚队和首领战。"
+		}
+	}
 }

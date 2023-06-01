@@ -93,7 +93,7 @@ function slot0.DoEnter(slot0, slot1)
 	slot0.timer = Timer.New(function ()
 		uv0 = uv0 - 1
 
-		if count == 3 then
+		if uv0 == 3 then
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_STEP_PILE_COUNTDOWN)
 		end
 

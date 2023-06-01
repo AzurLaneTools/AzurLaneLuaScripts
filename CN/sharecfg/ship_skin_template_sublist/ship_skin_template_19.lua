@@ -1,1037 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_19 = {
-	[900356] = {
-		ship_group = 900356,
-		name = "仲裁者·托瓦·XVI",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 900356,
-		group_index = 0,
-		prefab = "tower",
-		painting = "tower",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "仲裁者·托瓦·XVI",
-		voice_actor = -1,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.7,
-					1.23,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.65,
-					1.23,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.69,
-							2.05,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[9600010] = {
-		ship_group = 960001,
-		name = "皇家财富号",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 9600010,
-		group_index = 0,
-		prefab = "huangjiacaifu",
-		painting = "huangjiacaifu",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "海盗船—皇家财富号",
-		voice_actor = 346,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.32,
-					0.97,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.2,
-					0.83,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.8,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.2,
-					1.4,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.8,
-							1.49,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[9600011] = {
-		ship_group = 960001,
-		name = "邪神（?）的“美餐”",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "156",
-		id = 9600011,
-		group_index = 1,
-		prefab = "huangjiacaifu_2",
-		painting = "huangjiacaifu_2",
-		shop_id = 70767,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 8,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "让我看看今天的美餐有什么~嗯，几块蛋糕，一些点心，还有一位自己送上门来的——东张西望什么呢，说的就是指挥官你！呵呵呵~吓到了吗？",
-		voice_actor = 346,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.21,
-					0.79,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.2,
-					0.83,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.79,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.22,
-					0.96,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.85,
-							1.67,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[9600012] = {
-		ship_group = 960001,
-		name = "海边的约定",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "168",
-		id = 9600012,
-		group_index = 2,
-		prefab = "huangjiacaifu_3",
-		painting = "huangjiacaifu_3",
-		illustrator = -1,
-		air_bullet_skin = "",
-		l2d_voice_calibrate = "",
-		shop_type_id = 6,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70851,
-		desc = "“只要不偷指挥官的珍宝，指挥官就陪我一整天”——没想到到你会提出这样的交易～行吧，无论是约定还是成规，都好好遵守才算是独当一面的海盗。今天一整天指挥官都要陪我哦♪",
-		voice_actor = 346,
-		air_bomb_skin = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2,
-			6
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.21,
-					0.79,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.2,
-					0.83,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.79,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.22,
-					0.96,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.85,
-							1.67,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			{
-				-89,
-				-831,
-				0
-			},
-			{
-				0.55
-			}
-		},
-		special_effects = {
-			"lihui_huangjiacaifu_3",
-			{
-				1309,
-				21,
-				0
-			},
-			{
-				1.1
-			}
-		}
-	},
-	[9701010] = {
-		ship_group = 970101,
-		name = "猎人·META",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 9701010,
-		group_index = 0,
-		prefab = "lieren_alter",
-		painting = "lieren_alter",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指挥官，你好，我是猎人。正如你所见，我是一名“猎人”，正在寻找我的“猎物”。这里就是我的新据点么？",
-		voice_actor = 170,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.58,
-					1.25,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.19,
-					0.02,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.6,
-					1.23,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.33,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[9701020] = {
-		ship_group = 970102,
-		name = "命运女神·META",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 9701020,
-		group_index = 0,
-		prefab = "mingyunnvshen_alter",
-		painting = "mingyunnvshen_alter",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "您好，指挥官。我是命运女神。……请不用在意我身上的这些，只是一些…对力量必要的限制而已。",
-		voice_actor = 75,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.593,
-					1.214,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.548,
-					1.582,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.276,
-							2.33,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[9702010] = {
-		ship_group = 970201,
-		name = "海伦娜·META",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 9702010,
-		group_index = 0,
-		prefab = "hailunna_alter",
-		painting = "hailunna_alter",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "你是在找海伦娜吗？我可以把我的力量借给你——不过，你要答应，对我不能隐瞒任何东西哦。",
-		voice_actor = 34,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.266,
-					1.151,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.301,
-					1.144,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0.003,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.596,
-							2.323,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
-	[9702020] = {
-		ship_group = 970202,
-		name = "孟菲斯·META",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 9702020,
-		group_index = 0,
-		prefab = "mengfeisi_alter",
-		painting = "mengfeisi_alter",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "我是孟菲斯。指挥官，您可能对我感到陌生，但是我知道你……请放心，我不是什么奇怪的人，希望你能够相信我。接下来我会好好辅佐你，为你护航的。",
-		voice_actor = 159,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.1,
-					0.998,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.15,
-					1.013,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.2,
-					1.022,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.323,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[9702030] = {
-		ship_group = 970203,
-		name = "谢菲尔德·META",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 9702030,
-		group_index = 0,
-		prefab = "xiefeierde_alter",
-		painting = "xiefeierde_alter",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "您就是指挥官……也就是主人是吧。嗯，我明白了。我是谢菲尔德，我习惯了将枪口对准每一只害虫——希望您不会介意刚刚的行为。",
-		voice_actor = 88,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.1,
-					0.998,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.15,
-					1.013,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.2,
-					1.022,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.323,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[9702040] = {
 		ship_group = 970204,
 		name = "拉·加利索尼埃·META ",
@@ -10474,6 +9443,1171 @@ pg.base.ship_skin_template_19 = {
 						{
 							-0.47,
 							2.531,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10700030] = {
+		ship_group = 1070003,
+		name = "水濑伊织",
+		bullet_skin_secondary = "",
+		hand_id = 0,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 10700030,
+		group_index = 0,
+		prefab = "yizhi",
+		painting = "yizhi",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "你好~！我叫水濑伊织！很高兴见到你~！…欸？不用勉强自己…？等下，你这是什么意思啦！",
+		voice_actor = 89,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.677,
+					1.007,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.032,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.665,
+					1.001,
+					0
+				}
+			},
+			plane = {
+				{
+					1.682,
+					0.999,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.34,
+							2.662,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10700031] = {
+		ship_group = 1070003,
+		name = "黄昏的小秘密",
+		bullet_skin_secondary = "",
+		hand_id = 0,
+		bgm = "idom-MainBGM",
+		illustrator2 = -1,
+		bg = "142",
+		id = 10700031,
+		group_index = 1,
+		prefab = "yizhi_2",
+		painting = "yizhi_2",
+		shop_id = 70574,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 10,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 4,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "荡秋千和吹泡泡…虽然多少感觉有点幼稚，不过偶尔尝试一下也不错就是了。",
+		voice_actor = 89,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.701,
+					1.007,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.009,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.681,
+					1.001,
+					0
+				}
+			},
+			plane = {
+				{
+					1.684,
+					1.008,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.641,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10700040] = {
+		ship_group = 1070004,
+		name = "三浦 梓",
+		bullet_skin_secondary = "",
+		hand_id = 0,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 10700040,
+		group_index = 0,
+		prefab = "zi",
+		painting = "zi",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "初次见面，我叫三浦梓~呃，港区…还有…舰船？那个~请问…这里究竟是什么地方？",
+		voice_actor = 58,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.24,
+					1.005,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.21,
+					0.999,
+					0
+				}
+			},
+			plane = {
+				{
+					1.234,
+					0.999,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.586,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10700041] = {
+		ship_group = 1070004,
+		name = "盛夏的休憩之所",
+		bullet_skin_secondary = "",
+		hand_id = 0,
+		bgm = "idom-MainBGM",
+		illustrator2 = -1,
+		bg = "142",
+		id = 10700041,
+		group_index = 1,
+		prefab = "zi_2",
+		painting = "zi_2",
+		shop_id = 70575,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 10,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "坐在走廊边，倾听风铃的声音，感觉盛夏的暑气都消散了许多呢。指挥官也坐下一起休息会吧？",
+		voice_actor = 58,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.21,
+					1.005,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.03,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.2,
+					0.999,
+					0
+				}
+			},
+			plane = {
+				{
+					1.204,
+					1.014,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.526,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10700050] = {
+		ship_group = 1070005,
+		name = "秋月律子",
+		bullet_skin_secondary = "",
+		hand_id = 0,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 10700050,
+		group_index = 0,
+		prefab = "lvzi",
+		painting = "lvzi",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "初次见面，我是秋月律子。突然来到这里的时候还有点手足无措来着…咳，总之…之后这段时间，还请多关照吧！",
+		voice_actor = 281,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.316,
+					1.012,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.033,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.322,
+					1,
+					0
+				}
+			},
+			plane = {
+				{
+					1.355,
+					1.016,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.607,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10700051] = {
+		ship_group = 1070005,
+		name = "盛夏时光·乒乓对决",
+		bullet_skin_secondary = "",
+		hand_id = 0,
+		bgm = "idom-MainBGM",
+		illustrator2 = -1,
+		bg = "142",
+		id = 10700051,
+		group_index = 1,
+		prefab = "lvzi_2",
+		painting = "lvzi_2",
+		shop_id = 70576,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 10,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 4,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "欸，乒乓球比赛？偏偏挑这么大热天的时候…算了，偶尔来点这样的运动也挺好的。如果我赢了的话，你就要请客买冰淇淋哦！",
+		voice_actor = 281,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.296,
+					1.012,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.305,
+					1,
+					0
+				}
+			},
+			plane = {
+				{
+					1.26,
+					0.999,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.457,
+							2.572,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10700060] = {
+		ship_group = 1070006,
+		name = "双海亚美",
+		bullet_skin_secondary = "",
+		hand_id = 0,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 10700060,
+		group_index = 0,
+		prefab = "yamei",
+		painting = "yamei",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "嗯哼哼~我是偶像双海亚美哦~！这里挺热闹的嘛，看起来很适合恶作剧的呀~今后多多关照啦，指挥官！",
+		voice_actor = 72,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.017,
+					1.013,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.019,
+					1.013,
+					0
+				}
+			},
+			plane = {
+				{
+					1.028,
+					1.008,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.475,
+							2.547,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10700061] = {
+		ship_group = 1070006,
+		name = "大太鼓、夏之华",
+		bullet_skin_secondary = "",
+		hand_id = 0,
+		bgm = "idom-MainBGM",
+		illustrator2 = -1,
+		bg = "114",
+		id = 10700061,
+		group_index = 1,
+		prefab = "yamei_2",
+		painting = "yamei_2",
+		shop_id = 70577,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 10,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 4,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "说到夏天就是祭典！说起祭典的话就是双海亚美！亚美的光芒可不输冉冉升起的烟花哟，指挥官可要看好了♪",
+		voice_actor = 72,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.013,
+					1.013,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.025,
+					1.013,
+					0
+				}
+			},
+			plane = {
+				{
+					1.01,
+					0.999,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.475,
+							2.562,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10700070] = {
+		ship_group = 1070007,
+		name = "双海真美",
+		bullet_skin_secondary = "",
+		hand_id = 0,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 10700070,
+		group_index = 0,
+		prefab = "zhenmei",
+		painting = "zhenmei",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "嗯哼哼~♪我是偶像双海真美！在这里也要让大家感受到真美的性感！请多指教，指挥官！",
+		voice_actor = 72,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.225,
+					0.997,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.155,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.256,
+					1.005,
+					0
+				}
+			},
+			plane = {
+				{
+					1.261,
+					0.995,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.565,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10700071] = {
+		ship_group = 1070007,
+		name = "性感嘉年华！",
+		bullet_skin_secondary = "",
+		hand_id = 0,
+		bgm = "idom-MainBGM",
+		illustrator2 = -1,
+		bg = "114",
+		id = 10700071,
+		group_index = 1,
+		prefab = "zhenmei_2",
+		painting = "zhenmei_2",
+		shop_id = 70578,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 10,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 4,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "哦哦——！好大的烟花升上去了……！欸，指挥官在看哪里啊？啊~难道说…迷恋在真美穿上浴衣后的身姿里了~？",
+		voice_actor = 72,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.26,
+					0.992,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.125,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.236,
+					1.005,
+					0
+				}
+			},
+			plane = {
+				{
+					1.251,
+					0.995,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.6,
 							0
 						}
 					}

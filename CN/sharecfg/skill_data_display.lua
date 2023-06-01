@@ -1503,6 +1503,7 @@ pg.skill_data_display = setmetatable({
 		16770,
 		16780,
 		16781,
+		16792,
 		18010,
 		18040,
 		18041,
@@ -8584,6 +8585,10 @@ pg.base.skill_data_display = {
 	[16781] = {
 		id = 16781,
 		name = "讴歌真理之耀"
+	},
+	[16792] = {
+		id = 16792,
+		name = "{namecode:291}的护卫之甲"
 	},
 	[18010] = {
 		id = 18010,
