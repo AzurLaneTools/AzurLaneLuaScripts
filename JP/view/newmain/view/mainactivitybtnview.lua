@@ -6,6 +6,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0._go = slot1.gameObject
 	slot0.initPos = nil
+	slot0.isInit = nil
 	slot3 = slot1:Find("actBtn")
 	slot0.linkBtnTop = slot0._tf.parent:Find("link_top")
 	slot4 = slot0._tf.parent
@@ -84,6 +85,12 @@ function slot0.OnRemoveLayer(slot0, slot1)
 end
 
 function slot0.Init(slot0)
+	slot0:Flush()
+
+	slot0.isInit = true
+end
+
+function slot0.Flush(slot0)
 	slot1 = {}
 	slot2 = {}
 
@@ -125,7 +132,11 @@ function slot0.Init(slot0)
 end
 
 function slot0.Refresh(slot0)
-	slot0:Init()
+	if not slot0.isInit then
+		return
+	end
+
+	slot0:Flush()
 
 	for slot4, slot5 in ipairs(slot0.specailBtns) do
 		if slot5:InShowTime() then

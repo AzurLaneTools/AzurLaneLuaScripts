@@ -45,10 +45,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "翔鶴？",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "「約束……守って…………永遠に……」",
 			typewriter = {
 				speed = 0.05,
@@ -56,10 +57,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "翔鶴？",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "と、瑞鶴とそう話してたら、ポックリと逝っちゃったのね。私",
 			typewriter = {
 				speed = 0.05,
@@ -111,10 +113,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "翔鶴？",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "本当にそう？",
 			typewriter = {
 				speed = 0.05,
@@ -122,10 +125,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "翔鶴？",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "あなたの記憶は本当に正しいのかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -133,10 +137,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "翔鶴？",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "まあそんなのはいいとして…瑞鶴、こっちにいらっしゃい？",
 			typewriter = {
 				speed = 0.05,
@@ -161,10 +166,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "翔鶴？",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#A9F548FF",
 			say = "こっちにいらっしゃい？悪いようにはしないわ",
 			typewriter = {
 				speed = 0.05,
@@ -206,10 +212,11 @@ return {
 			}
 		},
 		{
+			actor = 900043,
+			nameColor = "#ff5c5c",
+			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "翔鶴？",
-			bgName = "bg_story_tiancheng7",
-			nameColor = "#ff5c5c",
 			say = "……なんで言うことを聞いてくれないのかしら……フフフ",
 			typewriter = {
 				speed = 0.05,

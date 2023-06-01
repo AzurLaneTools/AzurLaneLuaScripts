@@ -69,7 +69,7 @@ pg.item_data_chat = {
 		name = "潮風と夏の別荘地",
 		id = 602,
 		time_second = 0,
-		desc = "<color=#ffffff>無人島でのバケーションを楽しもう~！</color>\nイベント「潮風と夏の無人島」に参加した指揮官に贈る",
+		desc = "<size=28><color=#ffffff>無人島でのバケーションを楽しもう~！</color>イベント「潮風と夏の無人島」に参加した指揮官に贈る</size>",
 		scene = {}
 	},
 	all = {

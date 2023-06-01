@@ -184,8 +184,8 @@ pg.settings_other_template = {
 		desc = "ONにすると、ドックでケッコン済みの艦船の名前の文字色が変更されます"
 	},
 	{
-		default = 0,
-		name = "BATTLERESULT_SKIP_DISPAY_PAINTING",
+		default = 1,
+		name = "BATTLERESULT_DISPAY_PAINTING",
 		type = 0,
 		alignment = 0,
 		id = 17,

@@ -4853,7 +4853,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		picture = "lihecn6ss_l",
 		skin_inquire_relation = 69926,
-		id_str = "com.bilibili.blhx.zuanshi148",
+		id_str = "com.bilibili.blhx.zuanshi151",
 		first_pay_double = 0,
 		extra_service = 3,
 		descrip = "アイテム・資源とランダムな夏の水着2023シリーズの着せ替え衣装を入手可能",
@@ -4945,6 +4945,232 @@ pg.pay_data_display = {
 			{
 				2,
 				40926,
+				1
+			}
+		}
+	},
+	[52] = {
+		subject = "福袋(夏2023)",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		limit_arg = 1,
+		name = "福袋(夏2023)",
+		name_display = "福袋(夏2023)",
+		type_order = 2,
+		extra_gem = 0,
+		id = 52,
+		money = 3800,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihecn6lf_l",
+		skin_inquire_relation = 69927,
+		id_str = "com.bilibili.blhx.zuanshi152",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "アイテム・資源とランダムなドレス（夏2023）シリーズの着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond141",
+		extra_service_item = {
+			{
+				2,
+				69927,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69927,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40927,
+				1
+			}
+		}
+	},
+	[53] = {
+		subject = "福袋(夏2022) (復刻)",
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		limit_arg = 1,
+		name = "福袋(夏2022) (復刻)",
+		name_display = "福袋(夏2022) (復刻)",
+		type_order = 2,
+		extra_gem = 0,
+		id = 53,
+		money = 3800,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe7_l",
+		skin_inquire_relation = 69919,
+		id_str = "com.bilibili.blhx.zuanshi153",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "アイテム・資源とランダムなドレス（夏2022）シリーズの着せ替え衣装を入手可能",
+		airijp_id = "com.yostarjp.azurlane.diamond142",
+		extra_service_item = {
+			{
+				2,
+				69919,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69919,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40919,
 				1
 			}
 		}
@@ -5716,7 +5942,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass11",
+		id_str = "com.bilibili.blhx.battlepass12",
 		first_pay_double = 0,
 		extra_service = 4,
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
@@ -6683,6 +6909,8 @@ pg.pay_data_display = {
 		49,
 		50,
 		51,
+		52,
+		53,
 		1000,
 		1001,
 		1002,

@@ -24845,6 +24845,65 @@ _G.pg.base.item_data_statistics[40926] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[40927] = {
+	display = "ランダムな（ドレス夏2023シリーズ）の着せ替え衣装、上級指向型強化ユニット・五期目×2、ダイヤ×2023、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	name = "福袋(夏2023)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lihecn6lf",
+	id = 40927,
+	display_icon = {
+		{
+			2,
+			69927,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[41001] = {
 	display = "明石からのバレンタインプレゼント",
 	name = "バレンタインプレゼント",
@@ -202462,6 +202521,29 @@ _G.pg.base.item_data_statistics[59457] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59458] = {
+	display = "「熱烈の告白演習」で入手できるイベントPt。イベント画面の「受取」をタップすると信頼度に変換できます",
+	name = "大鳳のらぶれたー",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/little_taihou_pt",
+	id = 59458,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",
@@ -215365,6 +215447,58 @@ _G.pg.base.item_data_statistics[69926] = {
 	}
 }
 
+_G.pg.base.item_data_statistics[69927] = {
+	display = "不会被看到",
+	name = "ランダム2023夏ドレス衣装",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69927,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			304052,
+			1200
+		},
+		{
+			131172,
+			1200
+		},
+		{
+			207036,
+			1600
+		},
+		{
+			403094,
+			1600
+		},
+		{
+			702034,
+			1600
+		},
+		{
+			236030,
+			1400
+		},
+		{
+			331056,
+			1400
+		}
+	}
+}
+
 _G.pg.base.item_data_statistics[70000] = {
 	display = "「AIメモリアル」No.1開放用",
 	name = "「AIメモリアル」No.1",
@@ -218761,6 +218895,29 @@ _G.pg.base.item_data_statistics[99994] = {
 	is_world = 0,
 	icon = "props/giftbox",
 	id = 99994,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[99995] = {
+	display = "「覆天せし万象の塵」で正常に付与されなかったHT6クリア時報酬の補填",
+	name = "「覆天せし万象の塵」補填",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/giftbox",
+	id = 99995,
 	display_icon = {},
 	price = {},
 	index = {},

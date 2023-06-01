@@ -69,12 +69,6 @@ function slot0.initMv(slot0)
 
 		uv0 = Time.realtimeSinceStartup
 
-		if uv0 and Time.realtimeSinceStartup - uv0 < 1 then
-			return
-		end
-
-		uv0 = Time.realtimeSinceStartup
-
 		if uv1.mvManaCpkUI and uv1.mvCompleteFlag then
 			print("重新播放")
 			uv1:loadMv()

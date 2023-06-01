@@ -75,8 +75,7 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_CLEAR_BOSS_FLEET_INVAILD_SHIP, function (slot0)
 		uv0:sendNotification(GAME.GUILD_UPDATE_BOSS_FORMATION, {
 			force = true,
-			editFleet = uv0.contextData.editBossFleet,
-			callback = callback
+			editFleet = uv0.contextData.editBossFleet
 		})
 	end)
 	slot0:bind(uv0.ON_UPDATE_BOSS_FLEET, function (slot0)

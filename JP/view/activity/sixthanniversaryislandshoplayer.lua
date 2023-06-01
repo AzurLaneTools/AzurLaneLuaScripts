@@ -10,6 +10,12 @@ function slot0.setShop(slot0, slot1)
 	slot0.activity = getProxy(ActivityProxy):getActivityById(slot1.activityId)
 end
 
+function slot0.setPlayer(slot0, slot1)
+	slot0.player = slot1
+
+	setText(slot0.rtRes:Find("Text"), slot0.player:getResById(350) or 0)
+end
+
 function slot0.init(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
@@ -21,6 +27,7 @@ function slot0.init(slot0)
 	setText(slot1:Find("time/Text"), i18n("islandshop_tips1"))
 
 	slot0.rtTime = slot1:Find("time/Text_2")
+	slot0.rtRes = slot1:Find("tpl")
 	slot2 = slot0._tf
 	slot2 = slot2:Find("main/view/content")
 	slot0.goodsItemList = UIItemList.New(slot2, slot2:Find("goods"))

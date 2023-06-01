@@ -31,7 +31,7 @@ function slot0.didEnter(slot0)
 
 	slot2 = slot0.taskPage
 
-	slot2:ExecuteAction("Update", slot0.guild, slot0.isAdmin, force)
+	slot2:ExecuteAction("Update", slot0.guild, slot0.isAdmin)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,

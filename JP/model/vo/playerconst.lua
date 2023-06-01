@@ -143,7 +143,7 @@ function slot0.addTranDrop(slot0, slot1)
 
 				return nil, slot1
 			end
-		elseif slot0.type == DROP_TYPE_SHIP and Ship.isMetaShipByConfigID(slot0.id) then
+		elseif slot0.type == DROP_TYPE_SHIP and Ship.isMetaShipByConfigID(slot0.id) and Player.isMetaShipNeedToTrans(slot0.id) then
 			if table.indexof(uv1, slot0.id, 1) then
 				table.remove(uv1, slot1)
 			else

@@ -35,7 +35,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "Z23记得和谐",
+			actorName = "Z23",
 			nameColor = "#A9F548FF",
 			say = "あるはずがないでしょう…常識的に考えて",
 			typewriter = {

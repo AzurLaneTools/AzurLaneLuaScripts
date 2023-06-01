@@ -53,7 +53,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "Z23记得和谐",
+			actorName = "Z23",
 			nameColor = "#A9F548FF",
 			say = "野生動物が生活している痕跡は見当たりませんし、もう長い間荒れていたと思いますよ。指揮官、どうします？",
 			typewriter = {

@@ -16,7 +16,7 @@ pg.activity_const = {
 		act_id = 4875
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 4786
+		act_id = 4885
 	},
 	ANNIVERSARY_TASK_LIST_ID = {
 		act_id = 10122
@@ -923,5 +923,11 @@ pg.activity_const = {
 	},
 	ISLAND_GAME_ID = {
 		act_id = 4869
+	},
+	SIX_SIGN_ACT_ID = {
+		act_id = 4870
+	},
+	ACTIVITY_TYPE_RETURN_AWARD_ID6 = {
+		act_id = 4876
 	}
 }

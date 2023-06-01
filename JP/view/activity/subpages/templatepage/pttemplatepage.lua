@@ -91,19 +91,23 @@ function slot0.OnUpdateFlush(slot0)
 		pg.NewStoryMgr.GetInstance():Play(slot2[slot1][1])
 	end
 
-	slot3, slot4, slot5 = slot0.ptData:GetLevelProgress()
-	slot6, slot7, slot8 = slot0.ptData:GetResProgress()
+	if slot0.step then
+		slot3, slot4, slot5 = slot0.ptData:GetLevelProgress()
 
-	setText(slot0.step, slot3 .. "/" .. slot4)
-	setText(slot0.progress, (slot8 >= 1 and setColorStr(slot6, COLOR_GREEN) or slot6) .. "/" .. slot7)
-	setSlider(slot0.slider, 0, 1, slot8)
+		setText(slot0.step, slot3 .. "/" .. slot4)
+	end
 
-	slot9 = slot0.ptData:CanGetAward()
-	slot10 = slot0.ptData:CanGetNextAward()
+	slot3, slot4, slot5 = slot0.ptData:GetResProgress()
 
-	setActive(slot0.battleBtn, slot0.ptData:CanGetMorePt() and not slot9 and slot10)
-	setActive(slot0.getBtn, slot9)
-	setActive(slot0.gotBtn, not slot10)
+	setText(slot0.progress, (slot5 >= 1 and setColorStr(slot3, COLOR_GREEN) or slot3) .. "/" .. slot4)
+	setSlider(slot0.slider, 0, 1, slot5)
+
+	slot6 = slot0.ptData:CanGetAward()
+	slot7 = slot0.ptData:CanGetNextAward()
+
+	setActive(slot0.battleBtn, slot0.ptData:CanGetMorePt() and not slot6 and slot7)
+	setActive(slot0.getBtn, slot6)
+	setActive(slot0.gotBtn, not slot7)
 	updateDrop(slot0.awardTF, slot0.ptData:GetAward())
 	onButton(slot0, slot0.awardTF, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
