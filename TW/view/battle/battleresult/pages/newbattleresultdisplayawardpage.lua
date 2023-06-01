@@ -30,21 +30,44 @@ function slot0.ShowShips(slot0, slot1, slot2)
 	slot4 = slot4:getNewShip(true)
 	slot5 = {}
 
-	for slot9 = math.max(1, #slot4 - #_.filter(slot1, function (slot0)
+	_.each(slot4, function (slot0)
+		if slot0:isMetaShip() then
+			table.insert(uv0, slot0.configId)
+		end
+	end)
+	_.each(slot1, function (slot0)
+		if Ship.isMetaShipByConfigID(slot0.configId or slot0.id) then
+			if table.indexof(uv0, slot1) then
+				table.remove(uv0, slot2)
+			else
+				if getProxy(BayProxy):getMetaTransItemMap(Ship.New({
+					configId = slot1
+				}).configId) then
+					slot3:setReMetaSpecialItemVO(slot4)
+				end
+
+				table.insert(uv1, slot3)
+			end
+		end
+	end)
+
+	slot6 = {}
+
+	for slot10 = math.max(1, #slot4 - #_.filter(slot1, function (slot0)
 		return slot0.type == DROP_TYPE_SHIP
 	end) + 1), #slot4 do
-		slot10 = slot4[slot9]
+		slot11 = slot4[slot10]
 
-		if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot10.virgin or ShipRarity.Purple <= slot10:getRarity() then
-			slot12 = slot0.contextData.system == SYSTEM_SCENARIO and slot0.contextData.autoSkipFlag
+		if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or slot11.virgin or ShipRarity.Purple <= slot11:getRarity() then
+			slot13 = slot0.contextData.system == SYSTEM_SCENARIO and slot0.contextData.autoSkipFlag
 
-			table.insert(slot5, function (slot0)
+			table.insert(slot6, function (slot0)
 				uv2:emit(NewBattleResultMediator.GET_NEW_SHIP, uv1, slot0, uv0 and not uv1.virgin and 3 or nil)
 			end)
 		end
 	end
 
-	seriesAsync(slot5, slot2)
+	seriesAsync(slot6, slot2)
 end
 
 function slot0.ShowAwards(slot0, slot1, slot2, slot3)

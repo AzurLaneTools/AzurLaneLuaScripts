@@ -126,7 +126,7 @@ function slot0.CreateBlock(slot0)
 	slot2 = uv0(slot0.nextBlockIndex, slot0.id)
 
 	return {
-		id = i,
+		id = slot0.nextBlockIndex,
 		type = slot2[1],
 		width = slot2[2],
 		position = uv1(slot2[2], slot1),

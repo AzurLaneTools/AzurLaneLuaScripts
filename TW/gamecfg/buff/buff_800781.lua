@@ -18,7 +18,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.04
 				}
 			}
@@ -43,7 +43,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.046
 				}
 			}
@@ -68,7 +68,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.052
 				}
 			}
@@ -93,7 +93,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.06
 				}
 			}
@@ -118,7 +118,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.066
 				}
 			}
@@ -143,7 +143,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.072
 				}
 			}
@@ -168,7 +168,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.08
 				}
 			}
@@ -193,7 +193,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.086
 				}
 			}
@@ -218,7 +218,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.092
 				}
 			}
@@ -243,7 +243,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
+					attr = "damageToArmorRateEnhance_1",
 					number = 0.1
 				}
 			}
@@ -284,7 +284,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_2",
+				attr = "damageToArmorRateEnhance_1",
 				number = 0.04
 			}
 		}

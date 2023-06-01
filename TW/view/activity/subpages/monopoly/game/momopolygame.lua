@@ -384,7 +384,7 @@ function slot14(slot0, slot1)
 	slot6.pivot = Vector2(0.5, 0)
 	slot6.anchoredPosition = Vector2(0, 0)
 
-	onButton(self, slot4, function ()
+	onButton(nil, slot4, function ()
 		uv0.char:Touch()
 	end)
 

@@ -107,6 +107,7 @@ pg.memory_group = setmetatable({
 		216,
 		217,
 		218,
+		219,
 		220,
 		221,
 		227,
@@ -2388,6 +2389,19 @@ pg.base.memory_group = {
 			2164,
 			2165,
 			2166
+		}
+	},
+	[219] = {
+		icon = "title_event",
+		subtype = 3,
+		type = 2,
+		id = 219,
+		title = "合雅之宴",
+		memories = {
+			2167,
+			2168,
+			2169,
+			2170
 		}
 	},
 	[220] = {

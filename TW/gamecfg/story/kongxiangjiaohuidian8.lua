@@ -141,7 +141,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "炮火将残骸再次撕碎，化作灰烬被{namecode:150}吹散，不见踪迹。",
+			say = "炮火将残骸再次撕碎，化作灰烬被海风吹散，不见踪迹。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

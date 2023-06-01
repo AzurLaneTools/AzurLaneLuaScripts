@@ -1884,6 +1884,11 @@ function temp()
 			["根"] = {
 				this = true
 			}
+		},
+		["大"] = {
+			["鳳"] = {
+				this = true
+			}
 		}
 	}
 end

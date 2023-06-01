@@ -2621,5 +2621,9 @@ pg.gameset = {
 			90,
 			14
 		}
+	},
+	package_view_display = {
+		description = "",
+		key_value = 1
 	}
 }

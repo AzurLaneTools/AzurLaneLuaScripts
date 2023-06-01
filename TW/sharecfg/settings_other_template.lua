@@ -153,12 +153,12 @@ pg.settings_other_template = {
 	},
 	[17] = {
 		default = 0,
-		name = "BATTLERESULT_SKIP_DISPAY_PAINTING",
+		name = "BATTLERESULT_DISPAY_PAINTING",
 		type = 0,
 		alignment = 0,
 		id = 17,
-		title = "跳過結算角色展示",
-		desc = "功能開啟後，將不展示戰鬥結算立繪過場"
+		title = "展示結算角色",
+		desc = "功能開啟後，將展示戰鬥結算立繪過場"
 	},
 	all = {
 		1,

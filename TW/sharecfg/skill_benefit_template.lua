@@ -3387,11 +3387,9 @@ pg.skill_benefit_template = {
 		id = 80079001,
 		lv = 1,
 		skill_group = 0,
-		limit = {
-			1
-		},
+		limit = {},
 		effect = {
-			2,
+			0,
 			1
 		},
 		world_extra_effect = {
@@ -3405,11 +3403,9 @@ pg.skill_benefit_template = {
 		id = 80079002,
 		lv = 2,
 		skill_group = 0,
-		limit = {
-			1
-		},
+		limit = {},
 		effect = {
-			2,
+			0,
 			1
 		},
 		world_extra_effect = {
@@ -3423,11 +3419,9 @@ pg.skill_benefit_template = {
 		id = 80079003,
 		lv = 3,
 		skill_group = 0,
-		limit = {
-			1
-		},
+		limit = {},
 		effect = {
-			2,
+			0,
 			1
 		},
 		world_extra_effect = {
@@ -3441,11 +3435,9 @@ pg.skill_benefit_template = {
 		id = 80079004,
 		lv = 4,
 		skill_group = 0,
-		limit = {
-			1
-		},
+		limit = {},
 		effect = {
-			2,
+			0,
 			1
 		},
 		world_extra_effect = {
@@ -3459,11 +3451,9 @@ pg.skill_benefit_template = {
 		id = 80079005,
 		lv = 5,
 		skill_group = 0,
-		limit = {
-			1
-		},
+		limit = {},
 		effect = {
-			2,
+			0,
 			1
 		},
 		world_extra_effect = {
@@ -3477,11 +3467,9 @@ pg.skill_benefit_template = {
 		id = 80079006,
 		lv = 6,
 		skill_group = 0,
-		limit = {
-			1
-		},
+		limit = {},
 		effect = {
-			2,
+			0,
 			1
 		},
 		world_extra_effect = {
@@ -3495,11 +3483,9 @@ pg.skill_benefit_template = {
 		id = 80079007,
 		lv = 7,
 		skill_group = 0,
-		limit = {
-			1
-		},
+		limit = {},
 		effect = {
-			2,
+			0,
 			1
 		},
 		world_extra_effect = {
@@ -3513,11 +3499,9 @@ pg.skill_benefit_template = {
 		id = 80079008,
 		lv = 8,
 		skill_group = 0,
-		limit = {
-			1
-		},
+		limit = {},
 		effect = {
-			2,
+			0,
 			1
 		},
 		world_extra_effect = {
@@ -3531,11 +3515,9 @@ pg.skill_benefit_template = {
 		id = 80079009,
 		lv = 9,
 		skill_group = 0,
-		limit = {
-			1
-		},
+		limit = {},
 		effect = {
-			2,
+			0,
 			1
 		},
 		world_extra_effect = {
@@ -3549,11 +3531,9 @@ pg.skill_benefit_template = {
 		id = 80079010,
 		lv = 10,
 		skill_group = 0,
-		limit = {
-			1
-		},
+		limit = {},
 		effect = {
-			2,
+			0,
 			1
 		},
 		world_extra_effect = {

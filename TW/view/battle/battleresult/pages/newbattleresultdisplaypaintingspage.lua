@@ -322,14 +322,16 @@ function slot0.OnDestroy(slot0)
 		slot0:Hide()
 	end
 
-	slot1 = slot0.displayShips
+	slot1 = slot0.displayShips or {}
+	slot2 = ipairs
+	slot3 = slot0.slots or {}
 
-	for slot5, slot6 in ipairs(slot0.slots) do
-		if paintingTr and slot6:Find("mask/painting") and slot7:Find("fillter").childCount > 0 then
+	for slot5, slot6 in slot2(slot3) do
+		if slot6 and slot6:Find("mask/painting") and slot1[slot5] and slot7:Find("fitter").childCount > 0 then
 			retPaintingPrefab(slot7, slot1[slot5]:getPainting())
 		end
 
-		if LeanTween.isTweening(slot6.gameObject) then
+		if slot6 and LeanTween.isTweening(slot6.gameObject) then
 			LeanTween.cancel(slot6.gameObject)
 		end
 	end

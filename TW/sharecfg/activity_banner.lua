@@ -1,8 +1,109 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "45908",
 		id = 1,
+		pic = "temp13",
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "41183",
+		id = 2,
+		pic = "temp14",
+		type = 3,
+		time = {
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "41187",
+		id = 3,
+		pic = "temp11",
+		type = 3,
+		time = {
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "45908",
+		id = 4,
 		pic = "temp2",
 		type = 3,
 		time = {
@@ -34,7 +135,7 @@ pg.activity_banner = {
 	},
 	{
 		param = "41170",
-		id = 2,
+		id = 5,
 		pic = "temp3",
 		type = 3,
 		time = {
@@ -65,7 +166,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 3,
+		id = 6,
 		pic = "temp6",
 		type = 2,
 		param = {
@@ -103,7 +204,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 4,
+		id = 7,
 		pic = "temp7",
 		type = 2,
 		param = {
@@ -138,7 +239,7 @@ pg.activity_banner = {
 	},
 	{
 		param = "4871",
-		id = 5,
+		id = 8,
 		pic = "temp1",
 		type = 3,
 		time = {
@@ -170,7 +271,7 @@ pg.activity_banner = {
 	},
 	{
 		param = "41180",
-		id = 6,
+		id = 9,
 		pic = "temp15",
 		type = 3,
 		time = {
@@ -202,7 +303,7 @@ pg.activity_banner = {
 	},
 	{
 		param = "4874",
-		id = 7,
+		id = 10,
 		pic = "temp8",
 		type = 3,
 		time = {
@@ -233,7 +334,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 8,
+		id = 11,
 		pic = "temp9",
 		type = 2,
 		param = {
@@ -270,145 +371,8 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 9,
-		pic = "temp14",
-		type = 2,
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2023,
-					5,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					6,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 10,
-		pic = "temp11",
-		type = 2,
-		param = {
-			"scene shop"
-		},
-		time = {
-			{
-				{
-					2023,
-					5,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					6,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 11,
-		pic = "temp13",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					5,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					6,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "45907",
-		id = 12,
-		pic = "temp12",
-		type = 3,
-		time = {
-			{
-				{
-					2023,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
 		param = "",
-		id = 13,
+		id = 12,
 		pic = "temp99",
 		type = 9,
 		time = {
@@ -442,12 +406,12 @@ pg.activity_banner = {
 		param = "",
 		time = "stop",
 		type = 9,
-		id = 14,
+		id = 13,
 		pic = "temp98"
 	},
 	{
 		param = "",
-		id = 15,
+		id = 14,
 		pic = "limit_skin",
 		type = 12,
 		time = {
@@ -478,7 +442,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 16,
+		id = 15,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -487,7 +451,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 17,
+		id = 16,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -496,7 +460,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 18,
+		id = 17,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -511,8 +475,17 @@ pg.activity_banner = {
 		param = "40341",
 		time = "stop",
 		type = 3,
-		id = 19,
+		id = 18,
 		pic = ""
+	},
+	{
+		id = 19,
+		pic = "",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene skinshop"
+		}
 	},
 	{
 		id = 20,
@@ -520,7 +493,10 @@ pg.activity_banner = {
 		time = "stop",
 		type = 2,
 		param = {
-			"scene skinshop"
+			"scene charge",
+			{
+				wrap = 2
+			}
 		}
 	},
 	{
@@ -553,9 +529,9 @@ pg.activity_banner = {
 		time = "stop",
 		type = 2,
 		param = {
-			"scene charge",
+			"scene get boat",
 			{
-				wrap = 2
+				projectName = "new"
 			}
 		}
 	},
@@ -567,7 +543,7 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				projectName = "new"
+				page = BuildShipScene.PAGE_PRAY
 			}
 		}
 	},
@@ -579,24 +555,12 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				page = BuildShipScene.PAGE_PRAY
-			}
-		}
-	},
-	{
-		id = 26,
-		pic = "",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene get boat",
-			{
 				projectName = "light"
 			}
 		}
 	},
 	{
-		id = 27,
+		id = 26,
 		pic = "",
 		time = "stop",
 		type = 2,
@@ -609,11 +573,11 @@ pg.activity_banner = {
 		param = "桂花糕|用相傳從月宮裡摘下來的桂花製成的糕點，香甜可口！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		time = "stop",
 		type = 10,
-		id = 28,
+		id = 27,
 		pic = "guihuagao"
 	},
 	{
-		id = 29,
+		id = 28,
 		pic = "temp1",
 		time = "stop",
 		type = 2,
@@ -626,11 +590,11 @@ pg.activity_banner = {
 		param = "",
 		time = "stop",
 		type = 8,
-		id = 30,
+		id = 29,
 		pic = "temp2"
 	},
 	{
-		id = 31,
+		id = 30,
 		pic = "temp3",
 		time = "stop",
 		type = 2,
@@ -642,7 +606,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 32,
+		id = 31,
 		pic = "temp4",
 		time = "stop",
 		type = 2,
@@ -655,7 +619,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 33,
+		id = 32,
 		pic = "temp5",
 		time = "stop",
 		type = 2,
@@ -668,18 +632,18 @@ pg.activity_banner = {
 		param = "愛心巧克力|濃濃的愛意和巧克力更般配哦~<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		time = "stop",
 		type = 10,
-		id = 34,
+		id = 33,
 		pic = "chocolate"
 	},
 	{
 		param = "粽子|端午節當然要吃粽子啦！ <color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		time = "stop",
 		type = 10,
-		id = 35,
+		id = 34,
 		pic = "zongzi"
 	},
 	{
-		id = 36,
+		id = 35,
 		pic = "temp6",
 		time = "stop",
 		type = 2,
@@ -694,12 +658,12 @@ pg.activity_banner = {
 		param = "鏡餅|要開了才能吃哦？<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		time = "stop",
 		type = 10,
-		id = 37,
+		id = 36,
 		pic = "jingbing"
 	},
 	{
 		param = "拐杖糖|據說最原始的拐杖糖是白色的呢。<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
-		id = 38,
+		id = 37,
 		pic = "christmas",
 		type = 10,
 		time = {
@@ -733,7 +697,7 @@ pg.activity_banner = {
 		param = "餃子|廣受歡迎的傳統特色食物！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
 		time = "stop",
 		type = 10,
-		id = 39,
+		id = 38,
 		pic = "dumpling"
 	},
 	[201] = {
@@ -758,25 +722,15 @@ pg.activity_banner = {
 		pic = "springfes"
 	},
 	get_id_list_by_type = {
-		[3] = {
+		[2] = {
 			1,
-			2,
-			5,
 			6,
 			7,
-			12,
-			19
-		},
-		[2] = {
-			3,
-			4,
-			8,
-			9,
-			10,
 			11,
+			15,
 			16,
 			17,
-			18,
+			19,
 			20,
 			21,
 			22,
@@ -784,30 +738,39 @@ pg.activity_banner = {
 			24,
 			25,
 			26,
-			27,
-			29,
+			28,
+			30,
 			31,
 			32,
-			33,
-			36
+			35
+		},
+		[3] = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			9,
+			10,
+			18
 		},
 		[9] = {
-			13,
-			14
+			12,
+			13
 		},
 		[12] = {
-			15
+			14
 		},
 		[10] = {
-			28,
+			27,
+			33,
 			34,
-			35,
+			36,
 			37,
-			38,
-			39
+			38
 		},
 		[8] = {
-			30
+			29
 		},
 		[13] = {
 			201,
@@ -854,7 +817,6 @@ pg.activity_banner = {
 		36,
 		37,
 		38,
-		39,
 		201,
 		202,
 		203

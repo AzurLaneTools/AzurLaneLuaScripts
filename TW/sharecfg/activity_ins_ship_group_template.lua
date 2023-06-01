@@ -263,7 +263,7 @@ pg.activity_ins_ship_group_template = {
 	[30105] = {
 		ship_group = 30105,
 		name = "AYANAMIN",
-		sculpture = "lingbo_13"
+		sculpture = "lingbo"
 	},
 	[30101] = {
 		ship_group = 30101,

@@ -136,6 +136,8 @@ end
 function slot0.GetDefaultValue(slot0, slot1)
 	if slot1.id == 1 then
 		return pg.PushNotificationMgr.GetInstance():isEnableShipName()
+	elseif slot1.id == 17 then
+		return getProxy(SettingsProxy):IsDisplayResultPainting()
 	elseif slot1.type == 0 then
 		return PlayerPrefs.GetInt(_G[slot1.name], slot1.default or 0) > 0
 	elseif slot1.type == 1 then

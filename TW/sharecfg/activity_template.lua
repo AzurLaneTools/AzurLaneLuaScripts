@@ -1419,7 +1419,7 @@ pg.activity_template = {
 		type = 14,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 38,
+		is_show = 40,
 		id = 4866,
 		config_data = {
 			2104,
@@ -28276,6 +28276,308 @@ pg.activity_template = {
 			}
 		}
 	},
+	[41183] = {
+		mark = 20230601,
+		id = 41183,
+		title_res_tag = "lemars_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 39,
+		config_data = {
+			{
+				17719,
+				17720
+			},
+			{
+				17721,
+				17722
+			},
+			{
+				17723,
+				17724
+			},
+			{
+				17725,
+				17726
+			},
+			{
+				17727,
+				17728
+			},
+			{
+				17729,
+				17730
+			},
+			{
+				17731,
+				17732
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LeMarsSkinPage",
+			ui_name = "LeMarsSkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"HEYAZHIYAN1"
+				},
+				{},
+				{
+					"HEYAZHIYAN2"
+				},
+				{},
+				{
+					"HEYAZHIYAN3"
+				},
+				{},
+				{
+					"HEYAZHIYAN4"
+				}
+			}
+		}
+	},
+	[41184] = {
+		mark = 20220601,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 41184,
+		config_data = {
+			17718
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[41185] = {
+		mark = 20220601,
+		config_client = "",
+		title_res_tag = "2022days_login",
+		type = 3,
+		login_pop = 0,
+		config_id = 35,
+		is_show = 20,
+		id = 41185,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "For2022DaysLoginPage",
+			ui_name = "For2022DaysLoginPage"
+		}
+	},
+	[41186] = {
+		mark = 20230601,
+		config_client = "",
+		title_res_tag = "liuzhounianhuizong",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 45,
+		id = 41186,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SixAnniversaryPage",
+			ui_name = "SixAnniversaryPage"
+		}
+	},
+	[41187] = {
+		mark = 20230601,
+		config_client = "",
+		title_res_tag = "xiaodafeng_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 41187,
+		is_show = 40,
+		id = 41187,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LittleDaihoPage",
+			ui_name = "LittleDaihoPage"
+		}
+	},
+	[41188] = {
+		mark = 20230601,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 41188,
+		config_data = {
+			18884
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				18884
+			}
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		time = "stop",
@@ -31271,6 +31573,12 @@ pg.activity_template = {
 		41180,
 		41181,
 		41182,
+		41183,
+		41184,
+		41185,
+		41186,
+		41187,
+		41188,
 		45000,
 		45001,
 		45002,

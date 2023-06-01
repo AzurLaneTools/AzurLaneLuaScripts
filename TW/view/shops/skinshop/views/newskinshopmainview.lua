@@ -439,22 +439,18 @@ function slot0.LoadL2dPainting(slot0, slot1)
 
 	slot0.live2dChar = Live2D.New(slot5, function (slot0)
 		slot0:IgonreReactPos(true)
+		uv0:CheckShowShopHxForL2d(slot0, uv1)
 
 		if uv0.paintingState and uv0.paintingState.id ~= uv1.id then
 			uv0:ClearL2dPainting()
 		end
 
-		slot1 = slot0._tf:Find("Drawables/shop_hx")
-
-		uv0:CheckShowShopHxForL2d(slot0, uv1)
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 end
 
 function slot0.ClearL2dPainting(slot0)
 	if slot0.live2dChar then
-		slot1 = slot0.live2dChar._tf:Find("Drawables/shop_hx")
-
 		slot0:RevertShopHxForL2d(slot0.live2dChar)
 		slot0.live2dChar:Dispose()
 

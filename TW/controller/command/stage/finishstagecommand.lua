@@ -174,13 +174,11 @@ function slot0.GeneralLoot(slot0, slot1)
 			if slot7.type == DROP_TYPE_SHIP then
 				slot7.virgin = getProxy(CollectionProxy) and slot9.shipGroups[pg.ship_data_template[slot7.id].group_type] == nil
 			end
-
-			uv0:sendNotification(GAME.ADD_ITEM, slot7)
 		end
 	end
 
-	slot4(slot1.drop_info, slot2)
-	slot4(slot1.extra_drop_info, slot3)
+	slot4(PlayerConst.addTranDrop(slot1.drop_info), slot2)
+	slot4(PlayerConst.addTranDrop(slot1.extra_drop_info), slot3)
 
 	return slot2, slot3
 end

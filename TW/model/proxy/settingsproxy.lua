@@ -756,6 +756,20 @@ function slot0.IsTipWorkbenchDaily(slot0)
 	return PlayerPrefs.GetInt("WorkbenchDailyTip" .. getProxy(PlayerProxy):getRawData().id, 0) < pg.TimeMgr.GetInstance():GetServerTime()
 end
 
+function slot0.IsDisplayResultPainting(slot0)
+	slot2 = false
+
+	if PlayerPrefs.HasKey(BATTLERESULT_SKIP_DISPAY_PAINTING) then
+		PlayerPrefs.DeleteKey(BATTLERESULT_SKIP_DISPAY_PAINTING)
+		PlayerPrefs.SetInt(BATTLERESULT_DISPAY_PAINTING, PlayerPrefs.GetInt(BATTLERESULT_SKIP_DISPAY_PAINTING) <= 0 and 1 or 0)
+		PlayerPrefs.Save()
+	else
+		slot2 = PlayerPrefs.GetInt(BATTLERESULT_DISPAY_PAINTING, 0) >= 1
+	end
+
+	return slot2
+end
+
 function slot0.Reset(slot0)
 	slot0:resetEquipSceneIndex()
 	slot0:resetActivityLayerIndex()

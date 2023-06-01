@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 171
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 41149
+		act_id = 41188
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -941,5 +941,11 @@ pg.activity_const = {
 	},
 	ISLAND_GAME_ID = {
 		act_id = 4869
+	},
+	SIX_SIGN_ACT_ID = {
+		act_id = 4870
+	},
+	ACTIVITY_TYPE_RETURN_AWARD_ID6 = {
+		act_id = 4876
 	}
 }

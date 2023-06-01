@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"合雅之宴\n\n<size=45>二　记录者</size>",
+					"合雅之宴\n\n<size=45>二　紀錄者</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "东煌风园林的某处——",
+			say = "東煌風園林的某處——",
 			side = 2,
 			bgName = "star_level_bg_152",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "{namecode:103}小姐，请看镜头——嗯，拍好了。",
+			say = "千歲小姐，請看鏡頭——嗯，拍好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "唔……这照片也不能说是不好看，不过似乎缺少一点“眼前一亮”的感觉……",
+			say = "唔……這照片也不能說是不好看，不過似乎缺少一點“眼前一亮”的感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306082,
-			say = "要想拍出好看的照片也是一门复杂的学问呢……呀————！",
+			say = "要想拍出好看的照片也是一門複雜的學問呢……呀————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,56 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "{namecode:103}打算起身稍微活动身体，长发却不小心挂到了矮木的树枝上。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "star_level_bg_152",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 506011,
-			say = "这可不妙……{namecode:103}小姐，你先别动，这里就交给我吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 306082,
-			side = 2,
-			bgName = "star_level_bg_152",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "……呼，嗯，头发就拜托你了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_152",
-			say = "只费了一小番功夫，镇海便顺利地将{namecode:103}挂在树枝上的头发取了下来。",
+			say = "千歲打算起身稍微活動身體，長髮卻不小心掛到了矮木的樹枝上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +125,56 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "好了~{namecode:103}小姐的头发保养得非常好呢，万幸没有受到影响。",
+			say = "這可不妙……千歲小姐，妳先別動，這裡就交給我吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 306082,
+			side = 2,
+			bgName = "star_level_bg_152",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "……呼，嗯，頭髮就拜託妳了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_152",
+			say = "只費了一小番功夫，鎮海便順利地將千歲掛在樹枝上的頭髮取了下來。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "star_level_bg_152",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 506011,
+			say = "好了~千歲小姐的頭髮保養得非常好呢，萬幸沒有受到影響。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306082,
-			say = "头发的话，都是{namecode:104}每天帮我打理的。",
+			say = "頭髮的話，都是千代田每天幫我整理的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "拍照也是她提议的。",
+			say = "拍照也是她提議的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306082,
-			say = "说着什么“姐姐这么漂亮的头发和衣服，不留点纪念就太可惜了”什么之类的……",
+			say = "說著什麼“姐姐這麼漂亮的頭髮和衣服，不留點紀念就太可惜了”什麼之類的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "你和妹妹的关系很好呢，下次也拉她来一起拍照如何？",
+			say = "妳和妹妹的關係很好呢，下次也拉她來一起拍照如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "哼哼，我好像恰好有一些灵感了，{namecode:103}小姐能配合我一下么？",
+			say = "哼哼，我好像恰好有一些靈感了，千歲小姐能配合我一下嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306082,
-			say = "可以哦，需要我做些什么？",
+			say = "可以哦，需要我做些什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "请将您的头发搭在旁边的树枝上~",
+			say = "請將您的頭髮搭在旁邊的樹枝上~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306082,
-			say = "欸？！不、不是刚刚才取下来么……！",
+			say = "欸？！不、不是剛剛才取下來嗎……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "啊~请放心，只是搭上去，不是缠上去，不会对你的头发产生任何影响的。",
+			say = "啊~請放心，只是搭上去，不是纏上去，不會對妳的頭髮產生任何影響的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306082,
-			say = "那、那好吧……你，你可要轻点哦？",
+			say = "那、那好吧……妳，妳可要輕點哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "——————那么，这一张就叫做“喜上梢头”好了。",
+			say = "——————那麼，這一張就叫做“喜上梢頭”好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "{namecode:103}离开后，镇海来到了园林中另一处热闹的地方——",
+			say = "千歲離開後，鎮海來到了園林中另一處熱鬧的地方——",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502040,
-			say = "动作稍微柔和一点，不要太用力。",
+			say = "動作稍微柔和一點，不要太用力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102293,
-			say = "纸破了......呜，我果然还是不行……",
+			say = "紙破了......嗚，我果然還是不行……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用心急哦，{namecode:197}小姐只是暂时还没适应这种感觉而已。",
+			say = "不用心急哦，波夕小姐只是暫時還沒適應這種感覺而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502040,
-			say = "你看这一张虽然纸破了，不过上面的字不是很好吗？下次只要再轻一点就好了。",
+			say = "妳看這一張雖然紙破了，不過上面的字不是很好嗎？下次只要再輕一點就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好、好的！我再试一次......",
+			say = "好、好的！我再試一次......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "{namecode:197}再次摊开一张宣纸，如临大敌一般郑重的用毛笔在砚台中蘸上墨水。",
+			say = "波夕再次攤開一張宣紙，如臨大敵一般鄭重的用毛筆在硯台中蘸上墨水。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502040,
-			say = "放轻松一点拉，你可以做到的{namecode:197}小姐！",
+			say = "放輕鬆一點拉，妳可以做到的波夕小姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502040,
-			say = "嘿嘿，这张看起来很棒哦！我就说你能做到的~",
+			say = "嘿嘿，這張看起來很棒哦！我就說你能做到的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			actor = 506011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呵呵，这一张就叫做“苦尽甘来”好了。",
+			say = "呵呵，這一張就叫做“苦盡甘來”好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1080,6 +1080,11 @@ pg.player_resource = {
 		name = "island_invitation_pt",
 		itemid = 59457
 	},
+	[355] = {
+		id = 355,
+		name = "xiaodafeng_youhao_pt",
+		itemid = 59458
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2089,6 +2094,9 @@ pg.player_resource = {
 		island_invitation_pt = {
 			354
 		},
+		xiaodafeng_youhao_pt = {
+			355
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2523,6 +2531,7 @@ pg.player_resource = {
 		352,
 		353,
 		354,
+		355,
 		950,
 		951,
 		952,

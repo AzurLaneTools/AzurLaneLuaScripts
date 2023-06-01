@@ -13431,6 +13431,10 @@ _G.pg.base.gametip.index_spweapon = {
 	tip = "專屬兵裝"
 }
 
+_G.pg.base.gametip.index_marry = {
+	tip = "已誓約"
+}
+
 _G.pg.base.gametip.decodegame_gametip = {
 	tip = {
 		{
@@ -22500,4 +22504,56 @@ _G.pg.base.gametip.mktea_5 = {
 
 _G.pg.base.gametip.random_skin_list_item_desc_label = {
 	tip = "換裝"
+}
+
+_G.pg.base.gametip.notice_input_desc = {
+	tip = "最多輸入40字......"
+}
+
+_G.pg.base.gametip.notice_label_send = {
+	tip = "發送消息"
+}
+
+_G.pg.base.gametip.notice_label_room = {
+	tip = "接收消息"
+}
+
+_G.pg.base.gametip.notice_label_recv = {
+	tip = "聊天室房間"
+}
+
+_G.pg.base.gametip.notice_label_tip = {
+	tip = "聊天人數達到上限,則不能進入該房間"
+}
+
+_G.pg.base.gametip.littleTaihou_npc = {
+	tip = {
+		{
+			info = "「熱烈的告白練習」說明："
+		},
+		{
+			info = "1.活動期間，玩家可獲得臨時npc角色「小大鳳」，臨時角色不可誓約、不可退役、不可被選為強化突破材料。"
+		},
+		{
+			info = "2.活動期間，擊破普通難度主線第三章及之後章節或活動地圖旗艦，可增加臨時npc角色「小大鳳」的友好度。 （不包括大型作戰）"
+		},
+		{
+			info = "3.上陣「小大鳳」參與戰鬥，且未被擊沉，可增加雙倍友好度。 "
+		},
+		{
+			info = "4.6月7日為止，每日解鎖1個可達成的友好度階段。"
+		},
+		{
+			info = "5.在活動結束前累計獲得1000點友好度，可領取獎勵並將臨時角色「小大鳳」轉化為永久角色。 "
+		},
+		{
+			info = "6.活動結束後，未完成轉化的臨時角色「小大鳳」將離開港區，不返還已經消耗的強化、突破等培養材料。"
+		},
+		{
+			info = "7.npc角色無法參與大型作戰。"
+		},
+		{
+			info = "8.npc角色無法參與大艦隊作戰中的事件派遣、攻堅隊和首領戰。"
+		}
+	}
 }

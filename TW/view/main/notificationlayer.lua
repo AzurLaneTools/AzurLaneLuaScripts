@@ -47,6 +47,9 @@ function slot0.init(slot0)
 	slot0.prefabWorldBoss = slot1:Find("popo_worldboss").gameObject
 	slot0.prefabWorldBossArchives = slot1:Find("popo_worldboss_archives").gameObject
 	slot0.input = slot0.frame:Find("contain/ListContainer/inputbg/input"):GetComponent("InputField")
+
+	setText(slot0.frame:Find("contain/ListContainer/inputbg/input/Placeholder"), i18n("notice_input_desc"))
+
 	slot0.send = slot0.frame:Find("send")
 	slot0.channelSend = slot0.frame:Find("channel_send")
 	slot0.channelSendPop = slot0.frame:Find("channel_pop")
@@ -65,6 +68,14 @@ function slot0.init(slot0)
 	slot0.roomBtn = slot0.contain:Find("top/room")
 	slot0.typeBtns = slot0.contain:Find("top/type")
 	slot0.inputTF = slot0:findTF("frame/bg/InputField", slot0.changeRoomPanel):GetComponent(typeof(InputField))
+
+	setText(findTF(slot0.changeRoomPanel, "frame/bg/label_send"), i18n("notice_label_send"))
+	setText(findTF(slot0.changeRoomPanel, "frame/bg/label_recv"), i18n("notice_label_recv"))
+	setText(findTF(slot0.changeRoomPanel, "frame/bg/label_room"), i18n("notice_label_room"))
+	setText(findTF(slot0.changeRoomPanel, "frame/bg/label_tip"), i18n("notice_label_tip"))
+	setText(findTF(slot0.changeRoomPanel, "frame/cancel/Image"), i18n("word_cancel"))
+	setText(findTF(slot0.changeRoomPanel, "frame/confirm/Image"), i18n("word_ok"))
+
 	slot0.resource = slot0:findTF("resource")
 	slot0.typeTpl = slot0:findTF("type_tpl", slot0.resource)
 	slot0.normalSprite = slot0:findTF("normal", slot0.resource):GetComponent(typeof(Image)).sprite
