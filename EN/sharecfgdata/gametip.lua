@@ -11980,7 +11980,7 @@ _G.pg.base.gametip.limit_skin_time_overtime = {
 }
 
 _G.pg.base.gametip.limit_skin_time_before_maintenance = {
-	tip = "Until $1/$2 Maint"
+	tip = "Until $1/$2 "
 }
 
 _G.pg.base.gametip.award_window_pt_title = {
