@@ -3881,6 +3881,22 @@ function getSurveyUrl(slot0)
 	return slot11
 end
 
+function GetMoneySymbol()
+	if PLATFORM_CH == PLATFORM_CODE then
+		return "￥"
+	elseif PLATFORM_JP == PLATFORM_CODE then
+		return "￥"
+	elseif PLATFORM_KR == PLATFORM_CODE then
+		return "₩"
+	elseif PLATFORM_US == PLATFORM_CODE then
+		return "$"
+	elseif PLATFORM_CHT == PLATFORM_CODE then
+		return "TWD"
+	end
+
+	return ""
+end
+
 function FilterVarchar(slot0)
 	assert(type(slot0) == "string" or type(slot0) == "table")
 
