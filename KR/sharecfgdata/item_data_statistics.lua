@@ -9818,6 +9818,28 @@ _G.pg.base.item_data_statistics[21020] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[21022] = {
+	display = "베스탈·META 전용 성능 상승 장치. 「META 연구실」-「에너지 활성화」에서 사용 가능.",
+	name = "결정: 베스탈·META",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21022",
+	id = 21022,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "함장 화포 성능을 상승시켜주는 희귀 재료. 「META 연구실」-「함장 강화」에서 사용 가능.",
 	name = "결정화 내열강",
@@ -16783,6 +16805,49 @@ _G.pg.base.item_data_statistics[30412] = {
 	shiptrans_id = {}
 }
 
+_G.pg.base.item_data_statistics[30413] = {
+	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
+	name = "장비스킨 상자(월드 투어)",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30413,
+	display_icon = {
+		{
+			9,
+			2039,
+			1
+		},
+		{
+			9,
+			2040,
+			1
+		},
+		{
+			9,
+			2041,
+			1
+		},
+		{
+			9,
+			2042,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "사용 후 「뜨거운 여름」 테마 장비 스킨 중 임의로 1가지를 선택하여 획득 가능",
 	name = "지향형 장비 스킨 상자(늦여름)",
@@ -19020,6 +19085,119 @@ _G.pg.base.item_data_statistics[30521] = {
 		{
 			9,
 			357,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[30523] = {
+	display = "사용 시 「사쿠라 엠파이어 유니크」 테마 장비스킨 중 1가지 선택하여 획득 가능",
+	name = "지향형 장비 스킨 상자(사쿠라 엠파이어 유니크)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchongyingzixuan",
+	id = 30523,
+	display_icon = {
+		{
+			9,
+			300,
+			1
+		},
+		{
+			9,
+			301,
+			1
+		},
+		{
+			9,
+			302,
+			1
+		},
+		{
+			9,
+			303,
+			1
+		},
+		{
+			9,
+			304,
+			1
+		},
+		{
+			9,
+			305,
+			1
+		},
+		{
+			9,
+			306,
+			1
+		},
+		{
+			9,
+			307,
+			1
+		},
+		{
+			9,
+			308,
+			1
+		},
+		{
+			9,
+			309,
+			1
+		},
+		{
+			9,
+			310,
+			1
+		},
+		{
+			9,
+			311,
+			1
+		},
+		{
+			9,
+			312,
+			1
+		},
+		{
+			9,
+			313,
+			1
+		},
+		{
+			9,
+			314,
+			1
+		},
+		{
+			9,
+			315,
+			1
+		},
+		{
+			9,
+			316,
+			1
+		},
+		{
+			9,
+			317,
 			1
 		}
 	},
@@ -187178,6 +187356,50 @@ _G.pg.base.item_data_statistics[59413] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_d",
 	id = 59413,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59455] = {
+	display = "「월드투어」(2023.6.8~2023.8.7) 참여 시 획득하는 포인트. 누적하여 보상을 수령할 수 있다. 이벤트 종료 후 사라짐.",
+	name = "투어 PT",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59455,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {}
+}
+
+_G.pg.base.item_data_statistics[59456] = {
+	display = "不该被看到",
+	name = "通行证十一期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7011,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59456,
 	display_icon = {},
 	price = {},
 	index = {},

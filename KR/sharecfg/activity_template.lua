@@ -10972,6 +10972,88 @@ pg.activity_template = {
 			}
 		}
 	},
+	[7011] = {
+		mark = 20230525,
+		id = 7011,
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_data = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					6,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage11"
+		},
+		config_client = {
+			map_name = "map_202306",
+			spine_name = "chess_jiahe",
+			tips = {
+				"battlepass_main_tip_2306",
+				"battlepass_main_help_2306",
+				"cruise_task_help_2306"
+			},
+			equip_skin = {
+				{
+					9,
+					2039,
+					1
+				},
+				{
+					9,
+					2040,
+					1
+				},
+				{
+					9,
+					2041,
+					1
+				},
+				{
+					9,
+					2042,
+					1
+				}
+			}
+		}
+	},
 	[8009] = {
 		mark = 20220414,
 		config_client = "",
@@ -16479,6 +16561,7 @@ pg.activity_template = {
 		7008,
 		7009,
 		7010,
+		7011,
 		8009,
 		8010,
 		8019,

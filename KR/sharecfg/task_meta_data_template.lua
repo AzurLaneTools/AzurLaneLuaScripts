@@ -167,6 +167,11 @@ pg.task_meta_data_template = setmetatable({
 		100063,
 		100064,
 		100065,
+		100081,
+		100082,
+		100083,
+		100084,
+		100085,
 		200001,
 		200002,
 		200003,
@@ -190,7 +195,11 @@ pg.task_meta_data_template = setmetatable({
 		200061,
 		200062,
 		200063,
-		200064
+		200064,
+		200081,
+		200082,
+		200083,
+		200084
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1515,6 +1524,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100081] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "베스탈·META를 사용해 승리 1회",
+		id = 100081,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100082] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "베스탈·META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 100082,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100083] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "베스탈·META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 100083,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100084] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "베스탈·META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 100084,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100085] = {
+		target_id_2 = "971201",
+		sub_type = 180,
+		desc = "베스탈·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 100085,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1704,6 +1753,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "대형 작전에서 라 갈리소니에르·META를 사용해 100 이상 레벨의 적 1회 격파",
 		id = 200064,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200081] = {
+		target_id_2 = "971201",
+		sub_type = 302,
+		desc = "베스탈·META를 사용해 1회 승리",
+		id = 200081,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200082] = {
+		target_id_2 = "971201",
+		sub_type = 302,
+		desc = "베스탈·META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 200082,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200083] = {
+		target_id_2 = "971201",
+		sub_type = 302,
+		desc = "베스탈·META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 200083,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200084] = {
+		target_id_2 = "971201",
+		sub_type = 302,
+		desc = "베스탈·META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 200084,
 		target_num = 1,
 		target_id = "100"
 	}

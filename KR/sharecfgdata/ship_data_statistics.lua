@@ -329841,6 +329841,518 @@ _G.pg.base.ship_data_statistics[9707034] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[9712011] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "베스탈·META",
+	type = 12,
+	oxy_cost = 0,
+	skin_id = 9712010,
+	english_name = "Vestal.META",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9712011,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		771,
+		36,
+		0,
+		28,
+		0,
+		62,
+		0,
+		28,
+		5,
+		16,
+		78,
+		0
+	},
+	attrs_growth = {
+		14379,
+		495,
+		0,
+		386,
+		0,
+		431,
+		0,
+		398,
+		268,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		104,
+		104,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.85,
+		0.85
+	},
+	strategy_list = {
+		{
+			4,
+			1
+		}
+	},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+_G.pg.base.ship_data_statistics[9712012] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "베스탈·META",
+	type = 12,
+	oxy_cost = 0,
+	skin_id = 9712010,
+	english_name = "Vestal.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9712012,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		959,
+		45,
+		0,
+		35,
+		0,
+		62,
+		0,
+		28,
+		5,
+		16,
+		78,
+		0
+	},
+	attrs_growth = {
+		14379,
+		495,
+		0,
+		386,
+		0,
+		431,
+		0,
+		398,
+		268,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		104,
+		104,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.88,
+		0.88
+	},
+	strategy_list = {
+		{
+			4,
+			2
+		}
+	},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+_G.pg.base.ship_data_statistics[9712013] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "베스탈·META",
+	type = 12,
+	oxy_cost = 0,
+	skin_id = 9712010,
+	english_name = "Vestal.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 1,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9712013,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1335,
+		63,
+		0,
+		49,
+		0,
+		62,
+		0,
+		28,
+		5,
+		16,
+		78,
+		0
+	},
+	attrs_growth = {
+		14379,
+		495,
+		0,
+		386,
+		0,
+		431,
+		0,
+		398,
+		268,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		104,
+		104,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.93,
+		0.93
+	},
+	strategy_list = {
+		{
+			4,
+			2
+		}
+	},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+_G.pg.base.ship_data_statistics[9712014] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "베스탈·META",
+	type = 12,
+	oxy_cost = 0,
+	skin_id = 9712010,
+	english_name = "Vestal.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 1,
+	is_character = 1,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9712014,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1899,
+		90,
+		0,
+		70,
+		0,
+		62,
+		0,
+		28,
+		5,
+		16,
+		78,
+		0
+	},
+	attrs_growth = {
+		14379,
+		495,
+		0,
+		386,
+		0,
+		431,
+		0,
+		398,
+		268,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		104,
+		104,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1,
+		1
+	},
+	strategy_list = {
+		{
+			4,
+			3
+		}
+	},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
 _G.pg.base.ship_data_statistics[10100011] = {
 	raid_distance = 0,
 	oxy_max = 0,

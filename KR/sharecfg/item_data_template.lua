@@ -5010,6 +5010,17 @@ pg.item_data_template = {
 		compose_number = 0,
 		target_id = 0
 	},
+	[21022] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 21022,
+		compose_number = 0,
+		target_id = 0
+	},
 	[21101] = {
 		other_resource_cost = "[]",
 		display_effect = "",
@@ -6464,6 +6475,17 @@ pg.item_data_template = {
 		other_item_cost = "[]",
 		usage_arg = "30412",
 		id = 30412,
+		compose_number = 0,
+		target_id = 0
+	},
+	[30413] = {
+		other_resource_cost = "[]",
+		display_effect = "",
+		limit = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "30413",
+		id = 30413,
 		compose_number = 0,
 		target_id = 0
 	},
@@ -8488,6 +8510,108 @@ pg.item_data_template = {
 			{
 				9,
 				357,
+				1
+			}
+		}
+	},
+	[30523] = {
+		usage = "usage_drop_appointed",
+		display_effect = "",
+		other_resource_cost = "[]",
+		other_item_cost = "[]",
+		id = 30523,
+		compose_number = 0,
+		limit = "[]",
+		target_id = 0,
+		usage_arg = {
+			{
+				9,
+				300,
+				1
+			},
+			{
+				9,
+				301,
+				1
+			},
+			{
+				9,
+				302,
+				1
+			},
+			{
+				9,
+				303,
+				1
+			},
+			{
+				9,
+				304,
+				1
+			},
+			{
+				9,
+				305,
+				1
+			},
+			{
+				9,
+				306,
+				1
+			},
+			{
+				9,
+				307,
+				1
+			},
+			{
+				9,
+				308,
+				1
+			},
+			{
+				9,
+				309,
+				1
+			},
+			{
+				9,
+				310,
+				1
+			},
+			{
+				9,
+				311,
+				1
+			},
+			{
+				9,
+				312,
+				1
+			},
+			{
+				9,
+				313,
+				1
+			},
+			{
+				9,
+				314,
+				1
+			},
+			{
+				9,
+				315,
+				1
+			},
+			{
+				9,
+				316,
+				1
+			},
+			{
+				9,
+				317,
 				1
 			}
 		}
@@ -25951,6 +26075,7 @@ pg.item_data_template = {
 		21018,
 		21019,
 		21020,
+		21022,
 		21101,
 		21111,
 		21121,
@@ -26055,6 +26180,7 @@ pg.item_data_template = {
 		30410,
 		30411,
 		30412,
+		30413,
 		30501,
 		30502,
 		30503,
@@ -26075,6 +26201,7 @@ pg.item_data_template = {
 		30519,
 		30520,
 		30521,
+		30523,
 		30900,
 		30911,
 		30912,
