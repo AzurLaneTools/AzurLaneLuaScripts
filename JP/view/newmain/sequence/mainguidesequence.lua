@@ -124,6 +124,15 @@ slot1 = {
 		args = function ()
 			return {}
 		end
+	},
+	{
+		id = "NG0038",
+		condition = function ()
+			return getProxy(PlayerProxy):getRawData().level >= 30
+		end,
+		args = function ()
+			return {}
+		end
 	}
 }
 

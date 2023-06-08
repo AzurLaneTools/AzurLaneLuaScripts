@@ -2406,6 +2406,7 @@ pg.memory_template = setmetatable({
 		2765,
 		2766,
 		2767,
+		2781,
 		10000,
 		10001,
 		10002,
@@ -28933,6 +28934,17 @@ pg.base.memory_template = {
 		story = "YADE7",
 		id = 2767,
 		icon = "memory_yade",
+		is_open = 0
+	},
+	[2781] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "飛仙にあやかりて",
+		condition = "イベント「天女の如く」任務クリア",
+		story = "PIANRUOFEIXIAN1",
+		id = 2781,
+		icon = "memory_pianruofeixian",
 		is_open = 0
 	},
 	[10000] = {

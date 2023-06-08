@@ -58,7 +58,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "コアショップ",
+		name = "コアショップ（モンスリー）で交換",
 		story_id = "",
 		id = 8,
 		mediator = "ShamShop",
@@ -152,6 +152,22 @@ pg.open_systems_limited = {
 		mediator = "WorldMediaCollectionRecordMediator",
 		level = 60
 	},
+	[21] = {
+		scene = "MAINUI",
+		name = "ゲームロビー",
+		story_id = "",
+		id = 21,
+		mediator = "GameHallMediator",
+		level = 30
+	},
+	[22] = {
+		scene = "MAINUI",
+		name = "コアショップ（所持上限）で交換",
+		story_id = "",
+		id = 22,
+		mediator = "QuotaShop",
+		level = 10
+	},
 	all = {
 		1,
 		2,
@@ -171,6 +187,8 @@ pg.open_systems_limited = {
 		17,
 		18,
 		19,
-		20
+		20,
+		21,
+		22
 	}
 }

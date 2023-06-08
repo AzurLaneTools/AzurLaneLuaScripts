@@ -154,7 +154,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "シャルンホルスト(META)",
 		painting = "shaenhuosite",
 		boss_level_id = 76,
@@ -297,12 +297,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "クイーン・エリザベス(META)",
 		painting = "yilishabainvwang",
 		boss_level_id = 136,
 		id = 10,
 		meta_id = 970504,
+		item_id = 100000,
 		description = {
 			{
 				"「クイーン・エリザベス」象限展開",
@@ -313,32 +314,6 @@ pg.world_joint_boss_template = {
 				"META親和性",
 				2,
 				"自身の「META以外の艦船」に与えるダメージが上昇するが、「META」から受けるダメージも上昇する。"
-			}
-		},
-		state = {
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					6,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -354,6 +329,64 @@ pg.world_joint_boss_template = {
 			0.9
 		}
 	},
+	{
+		item_id = 100000,
+		name = "アルジェリー(META)",
+		painting = "aerjiliya",
+		boss_level_id = 151,
+		id = 11,
+		meta_id = 970302,
+		description = {
+			{
+				"ピラー・オブ・シン",
+				3,
+				"戦闘開始時、「ピラー・オブ・シン」を召喚する。「ピラー・オブ・シン」はアルジェリー(META)が受けるダメージを30％軽減する。\n「ピラー・オブ・シン」がダメージを受ける場合、代わりにアルジェリー(META)がそのダメージの25％を受ける。"
+			},
+			{
+				"エクスパーゲイト・フレイム",
+				1,
+				"アルジェリー(META)の攻撃が命中した敵を持続時間が短く、固定炎上ダメージが高い特殊炎上「エクスパ―ゲイト・フレイム」状態にする。\nまた、戦闘中9秒毎に、耐久が一番低い敵を「エクスパーゲイト・フレイム」状態にする。この効果は主力艦隊の発見ゲージ効果を無視する"
+			}
+		},
+		state = {
+			{
+				{
+					2023,
+					6,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-7,
+			685,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			659,
+			684.2,
+			0.9,
+			0.9
+		}
+	},
 	all = {
 		1,
 		2,
@@ -364,6 +397,7 @@ pg.world_joint_boss_template = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }

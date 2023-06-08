@@ -51,7 +51,11 @@ function slot0.LoadChallengeRes(slot0, slot1)
 	slot2 = ResourceMgr.Inst
 
 	slot2:getAssetAsync("BattleResultItems/Challenge", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if uv0.exited then
+		if uv0.exited or IsNil(slot0) then
+			if uv1 then
+				uv1()
+			end
+
 			return
 		end
 

@@ -177,7 +177,11 @@ end
 
 function slot2.ActiveBot(slot0, slot1)
 	slot0._weaponCommand:ActiveBot(slot1, true)
-	slot0._uiMediator:EnableJoystick(not slot1)
+	slot0:EnableJoystick(not slot1)
+end
+
+function slot2.EnableJoystick(slot0, slot1)
+	slot0._uiMediator:EnableJoystick(slot1)
 end
 
 function slot2.IsBotActive(slot0)

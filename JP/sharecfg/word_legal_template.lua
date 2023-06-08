@@ -398,7 +398,20 @@ function temp()
 				["ェ"] = {
 					["リ"] = {
 						["ー"] = {
-							this = true
+							this = true,
+							["("] = {
+								M = {
+									E = {
+										T = {
+											A = {
+												[")"] = {
+													this = true
+												}
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}

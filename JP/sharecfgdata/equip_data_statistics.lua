@@ -28111,6 +28111,178 @@ _G.pg.base.equip_data_statistics[13067] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[13080] = {
+	tech = 0,
+	name = "三連装203mm主砲Mk14",
+	speciality = "追尾",
+	type = 3,
+	descrip = "说明未填写",
+	ammo = 1,
+	damage = "29 x 6",
+	nationality = 1,
+	rarity = 4,
+	id = 13080,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 25,
+	icon = "13080",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			1,
+			1401
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1401
+		},
+		{
+			4,
+			1214
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		13080
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"CA",
+		"MG",
+		"AP"
+	}
+}
+
+_G.pg.base.equip_data_statistics[13081] = {
+	id = 13081,
+	damage = "31 x 6",
+	base = 13080,
+	weapon_id = {
+		13081
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13082] = {
+	id = 13082,
+	damage = "33 x 6",
+	base = 13080,
+	weapon_id = {
+		13082
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13083] = {
+	id = 13083,
+	damage = "35 x 6",
+	base = 13080,
+	weapon_id = {
+		13083
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13084] = {
+	id = 13084,
+	damage = "37 x 6",
+	base = 13080,
+	weapon_id = {
+		13084
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13085] = {
+	id = 13085,
+	damage = "39 x 6",
+	base = 13080,
+	weapon_id = {
+		13085
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13086] = {
+	id = 13086,
+	damage = "41 x 6",
+	base = 13080,
+	weapon_id = {
+		13086
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13087] = {
+	id = 13087,
+	damage = "43 x 6",
+	base = 13080,
+	weapon_id = {
+		13087
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13088] = {
+	id = 13088,
+	damage = "45 x 6",
+	base = 13080,
+	weapon_id = {
+		13088
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13089] = {
+	id = 13089,
+	damage = "47 x 6",
+	base = 13080,
+	weapon_id = {
+		13089
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13090] = {
+	id = 13090,
+	damage = "49 x 6",
+	base = 13080,
+	weapon_id = {
+		13090
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[13091] = {
+	id = 13091,
+	anti_siren = 100,
+	damage = "49 x 6",
+	base = 13080,
+	weapon_id = {
+		13091
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[13100] = {
 	tech = 1,
 	name = "203mm三連装砲改",
@@ -32948,6 +33120,212 @@ _G.pg.base.equip_data_statistics[15253] = {
 	base = 15240,
 	weapon_id = {
 		15253
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15300] = {
+	tech = 0,
+	name = "533mm魚雷Mark35（四連射）",
+	speciality = "雷撃",
+	type = 5,
+	descrip = "说明未填写",
+	ammo = 4,
+	damage = "77 x 4",
+	nationality = 1,
+	rarity = 5,
+	id = 15300,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 45,
+	icon = "15300",
+	attribute_2 = "torpedo",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			3,
+			1838
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1838
+		},
+		{
+			4,
+			1420
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		15300
+	},
+	skill_id = {
+		60360
+	},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"ST",
+		"TP",
+		"QUAD",
+		"SGS"
+	}
+}
+
+_G.pg.base.equip_data_statistics[15301] = {
+	id = 15301,
+	damage = "84 x 4",
+	base = 15300,
+	weapon_id = {
+		15301
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15302] = {
+	id = 15302,
+	damage = "92 x 4",
+	base = 15300,
+	weapon_id = {
+		15302
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15303] = {
+	id = 15303,
+	damage = "99 x 4",
+	base = 15300,
+	weapon_id = {
+		15303
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15304] = {
+	id = 15304,
+	damage = "107 x 4",
+	base = 15300,
+	weapon_id = {
+		15304
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15305] = {
+	id = 15305,
+	damage = "114 x 4",
+	base = 15300,
+	weapon_id = {
+		15305
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15306] = {
+	id = 15306,
+	damage = "122 x 4",
+	base = 15300,
+	weapon_id = {
+		15306
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15307] = {
+	id = 15307,
+	damage = "129 x 4",
+	base = 15300,
+	weapon_id = {
+		15307
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15308] = {
+	id = 15308,
+	damage = "137 x 4",
+	base = 15300,
+	weapon_id = {
+		15308
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15309] = {
+	id = 15309,
+	damage = "144 x 4",
+	base = 15300,
+	weapon_id = {
+		15309
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15310] = {
+	id = 15310,
+	damage = "152 x 4",
+	base = 15300,
+	weapon_id = {
+		15310
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15311] = {
+	id = 15311,
+	anti_siren = 100,
+	damage = "152 x 4",
+	base = 15300,
+	weapon_id = {
+		15311
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15312] = {
+	id = 15312,
+	anti_siren = 200,
+	damage = "152 x 4",
+	base = 15300,
+	weapon_id = {
+		15312
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[15313] = {
+	id = 15313,
+	anti_siren = 300,
+	damage = "152 x 4",
+	base = 15300,
+	weapon_id = {
+		15313
 	},
 	hidden_skill_id = {}
 }
@@ -49660,7 +50038,7 @@ _G.pg.base.equip_data_statistics[22280] = {
 	type = 2,
 	descrip = "说明未填写",
 	ammo = 1,
-	damage = "12 x 4",
+	damage = "17 x 4",
 	nationality = 2,
 	rarity = 6,
 	id = 22280,
@@ -49717,7 +50095,7 @@ _G.pg.base.equip_data_statistics[22280] = {
 
 _G.pg.base.equip_data_statistics[22281] = {
 	id = 22281,
-	damage = "13 x 4",
+	damage = "18 x 4",
 	base = 22280,
 	weapon_id = {
 		22281
@@ -49727,7 +50105,7 @@ _G.pg.base.equip_data_statistics[22281] = {
 
 _G.pg.base.equip_data_statistics[22282] = {
 	id = 22282,
-	damage = "14 x 4",
+	damage = "19 x 4",
 	base = 22280,
 	weapon_id = {
 		22282
@@ -49737,7 +50115,7 @@ _G.pg.base.equip_data_statistics[22282] = {
 
 _G.pg.base.equip_data_statistics[22283] = {
 	id = 22283,
-	damage = "15 x 4",
+	damage = "20 x 4",
 	base = 22280,
 	weapon_id = {
 		22283
@@ -49747,7 +50125,7 @@ _G.pg.base.equip_data_statistics[22283] = {
 
 _G.pg.base.equip_data_statistics[22284] = {
 	id = 22284,
-	damage = "16 x 4",
+	damage = "21 x 4",
 	base = 22280,
 	weapon_id = {
 		22284
@@ -49757,7 +50135,7 @@ _G.pg.base.equip_data_statistics[22284] = {
 
 _G.pg.base.equip_data_statistics[22285] = {
 	id = 22285,
-	damage = "17 x 4",
+	damage = "22 x 4",
 	base = 22280,
 	weapon_id = {
 		22285
@@ -49767,7 +50145,7 @@ _G.pg.base.equip_data_statistics[22285] = {
 
 _G.pg.base.equip_data_statistics[22286] = {
 	id = 22286,
-	damage = "18 x 4",
+	damage = "23 x 4",
 	base = 22280,
 	weapon_id = {
 		22286
@@ -49777,7 +50155,7 @@ _G.pg.base.equip_data_statistics[22286] = {
 
 _G.pg.base.equip_data_statistics[22287] = {
 	id = 22287,
-	damage = "19 x 4",
+	damage = "24 x 4",
 	base = 22280,
 	weapon_id = {
 		22287
@@ -49787,7 +50165,7 @@ _G.pg.base.equip_data_statistics[22287] = {
 
 _G.pg.base.equip_data_statistics[22288] = {
 	id = 22288,
-	damage = "21 x 4",
+	damage = "26 x 4",
 	base = 22280,
 	weapon_id = {
 		22288
@@ -49797,7 +50175,7 @@ _G.pg.base.equip_data_statistics[22288] = {
 
 _G.pg.base.equip_data_statistics[22289] = {
 	id = 22289,
-	damage = "23 x 4",
+	damage = "28 x 4",
 	base = 22280,
 	weapon_id = {
 		22289
@@ -49807,7 +50185,7 @@ _G.pg.base.equip_data_statistics[22289] = {
 
 _G.pg.base.equip_data_statistics[22290] = {
 	id = 22290,
-	damage = "25 x 4",
+	damage = "30 x 4",
 	base = 22280,
 	weapon_id = {
 		22290
@@ -49818,7 +50196,7 @@ _G.pg.base.equip_data_statistics[22290] = {
 _G.pg.base.equip_data_statistics[22291] = {
 	id = 22291,
 	anti_siren = 100,
-	damage = "25 x 4",
+	damage = "30 x 4",
 	base = 22280,
 	weapon_id = {
 		22291
@@ -49829,7 +50207,7 @@ _G.pg.base.equip_data_statistics[22291] = {
 _G.pg.base.equip_data_statistics[22292] = {
 	id = 22292,
 	anti_siren = 200,
-	damage = "25 x 4",
+	damage = "30 x 4",
 	base = 22280,
 	weapon_id = {
 		22292
@@ -49840,7 +50218,7 @@ _G.pg.base.equip_data_statistics[22292] = {
 _G.pg.base.equip_data_statistics[22293] = {
 	id = 22293,
 	anti_siren = 300,
-	damage = "25 x 4",
+	damage = "30 x 4",
 	base = 22280,
 	weapon_id = {
 		22293
@@ -53162,7 +53540,8 @@ _G.pg.base.equip_data_statistics[25000] = {
 		"HMS",
 		"ST",
 		"TP",
-		"TRI"
+		"TRI",
+		"SGS"
 	}
 }
 
@@ -53302,7 +53681,8 @@ _G.pg.base.equip_data_statistics[25020] = {
 		"HMS",
 		"ST",
 		"TP",
-		"QUAD"
+		"QUAD",
+		"SGS"
 	}
 }
 
@@ -53483,7 +53863,8 @@ _G.pg.base.equip_data_statistics[25040] = {
 		"HMS",
 		"ST",
 		"TP",
-		"QUINT"
+		"QUINT",
+		"SGS"
 	}
 }
 
@@ -56574,6 +56955,185 @@ _G.pg.base.equip_data_statistics[26371] = {
 	base = 26360,
 	weapon_id = {
 		26371
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26380] = {
+	tech = 0,
+	name = "20mmエリコン連装高角砲Mk.V",
+	speciality = "近距離",
+	type = 6,
+	descrip = "说明未填写",
+	ammo = 5,
+	damage = "24/轮",
+	nationality = 2,
+	rarity = 4,
+	id = 26380,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 25,
+	icon = "26380",
+	attribute_2 = "antiaircraft",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		1,
+		2,
+		6,
+		10
+	},
+	weapon_id = {
+		26380
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"ST",
+		"AA"
+	}
+}
+
+_G.pg.base.equip_data_statistics[26381] = {
+	id = 26381,
+	damage = "26/轮",
+	base = 26380,
+	weapon_id = {
+		26381
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26382] = {
+	id = 26382,
+	damage = "28/轮",
+	base = 26380,
+	weapon_id = {
+		26382
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26383] = {
+	id = 26383,
+	damage = "30/轮",
+	base = 26380,
+	weapon_id = {
+		26383
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26384] = {
+	id = 26384,
+	damage = "32/轮",
+	base = 26380,
+	weapon_id = {
+		26384
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26385] = {
+	id = 26385,
+	damage = "34/轮",
+	base = 26380,
+	weapon_id = {
+		26385
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26386] = {
+	id = 26386,
+	damage = "36/轮",
+	base = 26380,
+	weapon_id = {
+		26386
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26387] = {
+	id = 26387,
+	damage = "36/轮",
+	base = 26380,
+	weapon_id = {
+		26387
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26388] = {
+	id = 26388,
+	damage = "38/轮",
+	base = 26380,
+	weapon_id = {
+		26388
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26389] = {
+	id = 26389,
+	damage = "38/轮",
+	base = 26380,
+	weapon_id = {
+		26389
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26390] = {
+	id = 26390,
+	damage = "40/轮",
+	base = 26380,
+	weapon_id = {
+		26390
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[26391] = {
+	id = 26391,
+	anti_siren = 100,
+	damage = "40/轮",
+	base = 26380,
+	weapon_id = {
+		26391
 	},
 	hidden_skill_id = {}
 }
@@ -67367,6 +67927,210 @@ _G.pg.base.equip_data_statistics[31071] = {
 	base = 31060,
 	weapon_id = {
 		31071
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31080] = {
+	attribute_3 = "antiaircraft",
+	name = "100mm二連装九八式高角砲改",
+	speciality = "追尾",
+	type = 1,
+	tech = 0,
+	ammo = 2,
+	damage = "4 x 4",
+	nationality = 3,
+	descrip = "说明未填写",
+	rarity = 6,
+	value_3 = 40,
+	id = 31080,
+	value_2 = 25,
+	icon = "31080",
+	torpedo_ammo = 0,
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			1211
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1211
+		},
+		{
+			4,
+			1001
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		31080
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"DD",
+		"MG",
+		"HE"
+	}
+}
+
+_G.pg.base.equip_data_statistics[31081] = {
+	id = 31081,
+	base = 31080,
+	weapon_id = {
+		31081
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31082] = {
+	id = 31082,
+	damage = "7 x 4",
+	base = 31080,
+	weapon_id = {
+		31082
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31083] = {
+	id = 31083,
+	damage = "7 x 4",
+	base = 31080,
+	weapon_id = {
+		31083
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31084] = {
+	id = 31084,
+	damage = "8 x 4",
+	base = 31080,
+	weapon_id = {
+		31084
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31085] = {
+	id = 31085,
+	damage = "9 x 4",
+	base = 31080,
+	weapon_id = {
+		31085
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31086] = {
+	id = 31086,
+	damage = "9 x 4",
+	base = 31080,
+	weapon_id = {
+		31086
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31087] = {
+	id = 31087,
+	damage = "10 x 4",
+	base = 31080,
+	weapon_id = {
+		31087
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31088] = {
+	id = 31088,
+	damage = "10 x 4",
+	base = 31080,
+	weapon_id = {
+		31088
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31089] = {
+	id = 31089,
+	damage = "11 x 4",
+	base = 31080,
+	weapon_id = {
+		31089
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31090] = {
+	id = 31090,
+	damage = "12 x 4",
+	base = 31080,
+	weapon_id = {
+		31090
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31091] = {
+	id = 31091,
+	anti_siren = 100,
+	damage = "12 x 4",
+	base = 31080,
+	weapon_id = {
+		31091
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31092] = {
+	id = 31092,
+	anti_siren = 200,
+	damage = "12 x 4",
+	base = 31080,
+	weapon_id = {
+		31092
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[31093] = {
+	id = 31093,
+	anti_siren = 300,
+	damage = "12 x 4",
+	base = 31080,
+	weapon_id = {
+		31093
 	},
 	hidden_skill_id = {}
 }
@@ -102858,6 +103622,423 @@ _G.pg.base.equip_data_statistics[47173] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[47180] = {
+	rarity = 5,
+	name = "試作型FW-190 A-6/R6（艦載機型）",
+	speciality = "航空",
+	type = 7,
+	tech = 0,
+	ammo = 5,
+	nationality = 4,
+	descrip = "Wfr.Gr.21ロケット弾を搭載したFW-190戦闘機の艦載機型",
+	id = 47180,
+	torpedo_ammo = 0,
+	value_3 = 0,
+	value_2 = 45,
+	icon = "47180",
+	attribute_2 = "air",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			59040
+		},
+		{
+			6,
+			59440
+		},
+		{
+			6,
+			59900
+		},
+		{
+			5,
+			59920
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		47180
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"CV",
+		"FT",
+		"HERK"
+	}
+}
+
+_G.pg.base.equip_data_statistics[47181] = {
+	id = 47181,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59041
+		},
+		{
+			6,
+			59441
+		},
+		{
+			6,
+			59901
+		},
+		{
+			5,
+			59921
+		}
+	},
+	weapon_id = {
+		47181
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47182] = {
+	id = 47182,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59042
+		},
+		{
+			6,
+			59442
+		},
+		{
+			6,
+			59902
+		},
+		{
+			5,
+			59922
+		}
+	},
+	weapon_id = {
+		47182
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47183] = {
+	id = 47183,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59043
+		},
+		{
+			6,
+			59443
+		},
+		{
+			6,
+			59903
+		},
+		{
+			5,
+			59923
+		}
+	},
+	weapon_id = {
+		47183
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47184] = {
+	id = 47184,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59044
+		},
+		{
+			6,
+			59444
+		},
+		{
+			6,
+			59904
+		},
+		{
+			5,
+			59924
+		}
+	},
+	weapon_id = {
+		47184
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47185] = {
+	id = 47185,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59045
+		},
+		{
+			6,
+			59445
+		},
+		{
+			6,
+			59905
+		},
+		{
+			5,
+			59925
+		}
+	},
+	weapon_id = {
+		47185
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47186] = {
+	id = 47186,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59046
+		},
+		{
+			6,
+			59446
+		},
+		{
+			6,
+			59906
+		},
+		{
+			5,
+			59926
+		}
+	},
+	weapon_id = {
+		47186
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47187] = {
+	id = 47187,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59047
+		},
+		{
+			6,
+			59447
+		},
+		{
+			6,
+			59907
+		},
+		{
+			5,
+			59927
+		}
+	},
+	weapon_id = {
+		47187
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47188] = {
+	id = 47188,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59048
+		},
+		{
+			6,
+			59448
+		},
+		{
+			6,
+			59908
+		},
+		{
+			5,
+			59928
+		}
+	},
+	weapon_id = {
+		47188
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47189] = {
+	id = 47189,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59049
+		},
+		{
+			6,
+			59449
+		},
+		{
+			6,
+			59909
+		},
+		{
+			5,
+			59929
+		}
+	},
+	weapon_id = {
+		47189
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47190] = {
+	id = 47190,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59050
+		},
+		{
+			6,
+			59450
+		},
+		{
+			6,
+			59910
+		},
+		{
+			5,
+			59930
+		}
+	},
+	weapon_id = {
+		47190
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47191] = {
+	id = 47191,
+	anti_siren = 100,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59051
+		},
+		{
+			6,
+			59451
+		},
+		{
+			6,
+			59911
+		},
+		{
+			5,
+			59931
+		}
+	},
+	weapon_id = {
+		47191
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47192] = {
+	id = 47192,
+	anti_siren = 200,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59052
+		},
+		{
+			6,
+			59452
+		},
+		{
+			6,
+			59912
+		},
+		{
+			5,
+			59932
+		}
+	},
+	weapon_id = {
+		47192
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[47193] = {
+	id = 47193,
+	anti_siren = 300,
+	base = 47180,
+	ammo_info = {
+		{
+			6,
+			59053
+		},
+		{
+			6,
+			59453
+		},
+		{
+			6,
+			59913
+		},
+		{
+			5,
+			59933
+		}
+	},
+	weapon_id = {
+		47193
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[48000] = {
 	rarity = 3,
 	name = "Ar-195",
@@ -119890,6 +121071,59 @@ _G.pg.base.equip_data_statistics[80002] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[80011] = {
+	type = 1,
+	name = "专属弹幕-阿尔及利亚.METAI",
+	speciality = "无",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 80011,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170091
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[80012] = {
+	id = 80012,
+	name = "专属弹幕-阿尔及利亚.METAII",
+	base = 80011,
+	weapon_id = {
+		170092
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[85000] = {
 	tech = 1,
 	name = "B-13 130mm連装砲B-2LM",
@@ -122478,7 +123712,7 @@ _G.pg.base.equip_data_statistics[85460] = {
 	type = 2,
 	descrip = "優秀な射程を持つ北方連合開発の三連装主砲。",
 	ammo = 1,
-	damage = "16 x 3",
+	damage = "21 x 3",
 	nationality = 7,
 	rarity = 3,
 	id = 85460,
@@ -122544,7 +123778,7 @@ _G.pg.base.equip_data_statistics[85461] = {
 
 _G.pg.base.equip_data_statistics[85462] = {
 	id = 85462,
-	damage = "17 x 3",
+	damage = "22 x 3",
 	base = 85460,
 	weapon_id = {
 		85462
@@ -122554,7 +123788,7 @@ _G.pg.base.equip_data_statistics[85462] = {
 
 _G.pg.base.equip_data_statistics[85463] = {
 	id = 85463,
-	damage = "18 x 3",
+	damage = "23 x 3",
 	base = 85460,
 	weapon_id = {
 		85463
@@ -122564,7 +123798,7 @@ _G.pg.base.equip_data_statistics[85463] = {
 
 _G.pg.base.equip_data_statistics[85464] = {
 	id = 85464,
-	damage = "19 x 3",
+	damage = "24 x 3",
 	base = 85460,
 	weapon_id = {
 		85464
@@ -122574,7 +123808,7 @@ _G.pg.base.equip_data_statistics[85464] = {
 
 _G.pg.base.equip_data_statistics[85465] = {
 	id = 85465,
-	damage = "20 x 3",
+	damage = "25 x 3",
 	base = 85460,
 	weapon_id = {
 		85465
@@ -122584,7 +123818,7 @@ _G.pg.base.equip_data_statistics[85465] = {
 
 _G.pg.base.equip_data_statistics[85466] = {
 	id = 85466,
-	damage = "21 x 3",
+	damage = "26 x 3",
 	base = 85460,
 	weapon_id = {
 		85466
@@ -122599,7 +123833,7 @@ _G.pg.base.equip_data_statistics[85480] = {
 	type = 2,
 	descrip = "優秀な射程を持つ北方連合開発の三連装主砲。",
 	ammo = 1,
-	damage = "17 x 3",
+	damage = "23 x 3",
 	nationality = 7,
 	rarity = 4,
 	id = 85480,
@@ -122665,7 +123899,7 @@ _G.pg.base.equip_data_statistics[85481] = {
 
 _G.pg.base.equip_data_statistics[85482] = {
 	id = 85482,
-	damage = "19 x 3",
+	damage = "25 x 3",
 	base = 85480,
 	weapon_id = {
 		85482
@@ -122675,7 +123909,7 @@ _G.pg.base.equip_data_statistics[85482] = {
 
 _G.pg.base.equip_data_statistics[85483] = {
 	id = 85483,
-	damage = "20 x 3",
+	damage = "26 x 3",
 	base = 85480,
 	weapon_id = {
 		85483
@@ -122685,7 +123919,7 @@ _G.pg.base.equip_data_statistics[85483] = {
 
 _G.pg.base.equip_data_statistics[85484] = {
 	id = 85484,
-	damage = "21 x 3",
+	damage = "27 x 3",
 	base = 85480,
 	weapon_id = {
 		85484
@@ -122695,7 +123929,7 @@ _G.pg.base.equip_data_statistics[85484] = {
 
 _G.pg.base.equip_data_statistics[85485] = {
 	id = 85485,
-	damage = "22 x 3",
+	damage = "28 x 3",
 	base = 85480,
 	weapon_id = {
 		85485
@@ -122705,7 +123939,7 @@ _G.pg.base.equip_data_statistics[85485] = {
 
 _G.pg.base.equip_data_statistics[85486] = {
 	id = 85486,
-	damage = "23 x 3",
+	damage = "29 x 3",
 	base = 85480,
 	weapon_id = {
 		85486
@@ -122715,7 +123949,7 @@ _G.pg.base.equip_data_statistics[85486] = {
 
 _G.pg.base.equip_data_statistics[85487] = {
 	id = 85487,
-	damage = "24 x 3",
+	damage = "30 x 3",
 	base = 85480,
 	weapon_id = {
 		85487
@@ -122725,7 +123959,7 @@ _G.pg.base.equip_data_statistics[85487] = {
 
 _G.pg.base.equip_data_statistics[85488] = {
 	id = 85488,
-	damage = "25 x 3",
+	damage = "31 x 3",
 	base = 85480,
 	weapon_id = {
 		85488
@@ -122735,7 +123969,7 @@ _G.pg.base.equip_data_statistics[85488] = {
 
 _G.pg.base.equip_data_statistics[85489] = {
 	id = 85489,
-	damage = "26 x 3",
+	damage = "32 x 3",
 	base = 85480,
 	weapon_id = {
 		85489
@@ -122745,7 +123979,7 @@ _G.pg.base.equip_data_statistics[85489] = {
 
 _G.pg.base.equip_data_statistics[85490] = {
 	id = 85490,
-	damage = "27 x 3",
+	damage = "33 x 3",
 	base = 85480,
 	weapon_id = {
 		85490

@@ -48,6 +48,10 @@ function slot0.SetUp(slot0, slot1)
 end
 
 function slot0.RegisterEvent(slot0, slot1)
+	if slot0.exited then
+		return
+	end
+
 	onButton(slot0, slot0._tf, slot1, SFX_PANEL)
 
 	if slot0.contextData.autoSkipFlag then
@@ -127,7 +131,11 @@ function slot0.LoadEffects(slot0, slot1)
 	slot2 = ResourceMgr.Inst
 
 	slot2:getAssetAsync("BattleResultItems/ResultEffect", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if uv0.exited then
+		if uv0.exited or IsNil(slot0) then
+			if uv1 then
+				uv1()
+			end
+
 			return
 		end
 
@@ -186,7 +194,11 @@ function slot0.LoadBG(slot0, slot1)
 	slot3 = ResourceMgr.Inst
 
 	slot3:getAssetAsync("BattleResultItems/" .. NewBattleResultUtil.Score2Bg(slot0.contextData.score), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if uv0.exited then
+		if uv0.exited or IsNil(slot0) then
+			if uv1 then
+				uv1()
+			end
+
 			return
 		end
 

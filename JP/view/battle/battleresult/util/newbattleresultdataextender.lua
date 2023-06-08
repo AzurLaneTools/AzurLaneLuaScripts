@@ -135,6 +135,15 @@ function slot6(slot0)
 end
 
 function slot7(slot0)
+	slot1 = {}
+
+	table.insertto(slot1, getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getFleetById(FleetProxy.CHALLENGE_FLEET_ID)))
+	table.insertto(slot1, getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getFleetById(FleetProxy.CHALLENGE_SUB_FLEET_ID)))
+
+	return slot1
+end
+
+function slot8(slot0)
 	return getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getFleetById(slot0.mainFleetId))
 end
 
@@ -154,8 +163,12 @@ function slot0.GetNewMainShips(slot0)
 	elseif slot1 == SYSTEM_BOSS_RUSH or slot1 == SYSTEM_BOSS_RUSH_EX then
 		slot2 = uv5(slot0)
 	elseif slot1 ~= SYSTEM_DODGEM and slot1 ~= SYSTEM_SUBMARINE_RUN and slot1 ~= SYSTEM_REWARD_PERFORM and slot1 ~= SYSTEM_AIRFIGHT then
-		if slot1 ~= SYSTEM_CHALLENGE then
+		if slot1 == SYSTEM_CHALLENGE then
+			-- Nothing
+		elseif slot1 == SYSTEM_LIMIT_CHALLENGE then
 			slot2 = uv6(slot0)
+		else
+			slot2 = uv7(slot0)
 		end
 	end
 

@@ -22,6 +22,10 @@ function slot2.GetDirection(slot0)
 	return slot0._currentStep:GetDirection(slot0._target:GetPosition())
 end
 
+function slot2.GetTarget(slot0)
+	return slot0._target
+end
+
 function slot2.InputWeaponStateChange(slot0)
 end
 
@@ -76,6 +80,10 @@ function slot2.generateList(slot0)
 			slot6 = uv1.Battle.AutoPilotHiveRelativeStay.New(slot7, slot0)
 		elseif slot9 == uv0.HIVE_CIRCLE then
 			slot6 = uv1.Battle.AutoPilotHiveRelativeCircle.New(slot7, slot0)
+		elseif slot9 == uv0.MINION_STAY then
+			slot6 = uv1.Battle.AutoPilotMinionRelativeStay.New(slot7, slot0)
+		elseif slot9 == uv0.MINION_CIRCLE then
+			slot6 = uv1.Battle.AutoPilotMinionRelativeCircle.New(slot7, slot0)
 		end
 
 		slot6:SetParameter(slot10, slot8)

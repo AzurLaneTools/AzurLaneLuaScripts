@@ -112,15 +112,14 @@ pg.activity_banner = {
 		pic = "temp3",
 		type = 2,
 		param = {
-			"scene skinshop",
-			{}
+			"equip transform"
 		},
 		time = {
 			{
 				{
 					2023,
 					6,
-					1
+					8
 				},
 				{
 					0,
@@ -132,7 +131,7 @@ pg.activity_banner = {
 				{
 					2023,
 					6,
-					14
+					21
 				},
 				{
 					23,
@@ -143,7 +142,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4883",
+		param = "4888",
 		id = 5,
 		pic = "temp5",
 		type = 3,
@@ -152,7 +151,7 @@ pg.activity_banner = {
 				{
 					2023,
 					6,
-					1
+					8
 				},
 				{
 					0,
@@ -164,7 +163,7 @@ pg.activity_banner = {
 				{
 					2023,
 					6,
-					15
+					21
 				},
 				{
 					23,
@@ -175,16 +174,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4884",
 		id = 6,
 		pic = "temp7",
-		type = 3,
+		type = 2,
+		param = {
+			"scene level"
+		},
 		time = {
 			{
 				{
 					2023,
 					6,
-					1
+					8
 				},
 				{
 					0,
@@ -196,7 +197,7 @@ pg.activity_banner = {
 				{
 					2023,
 					6,
-					15
+					21
 				},
 				{
 					23,
@@ -207,16 +208,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4871",
 		id = 7,
 		pic = "temp4",
-		type = 3,
+		type = 2,
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
 		time = {
 			{
 				{
 					2023,
-					5,
-					25
+					6,
+					8
 				},
 				{
 					0,
@@ -391,14 +397,14 @@ pg.activity_banner = {
 			1,
 			3,
 			4,
+			6,
+			7,
 			8,
 			9
 		},
 		[3] = {
 			2,
-			5,
-			6,
-			7
+			5
 		},
 		[9] = {
 			90,

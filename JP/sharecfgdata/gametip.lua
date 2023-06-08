@@ -1289,14 +1289,6 @@ _G.pg.base.gametip.common_no_item_1 = {
 	tip = "アイテムが不足しています！"
 }
 
-_G.pg.base.gametip.common_use_item_sos_max = {
-	tip = "これ以上は受信できません"
-}
-
-_G.pg.base.gametip.common_use_item_sos_used = {
-	tip = "救助信号受信数+$1"
-}
-
 _G.pg.base.gametip.common_no_x = {
 	tip = "<color=#92fc63>$1</color>が不足しています！"
 }
@@ -3909,22 +3901,6 @@ _G.pg.base.gametip.levelScene_destroy_torpedo = {
 	tip = "機雷を排除しました"
 }
 
-_G.pg.base.gametip.levelScene_sub_refresh_count_not_enough = {
-	tip = "救助信号を受信していません"
-}
-
-_G.pg.base.gametip.levelScene_jump_to_sub_confirm = {
-	tip = "発信源探知完了、「$1」($2章)海域に向かいますか？"
-}
-
-_G.pg.base.gametip.levelScene_signal_help_tip = {
-	tip = "救助信号について"
-}
-
-_G.pg.base.gametip.levelScene_search_area = {
-	tip = "【受信範囲：$1章海域】"
-}
-
 _G.pg.base.gametip.levelScene_new_chapter_coming = {
 	tip = "新章開放"
 }
@@ -4025,10 +4001,6 @@ _G.pg.base.gametip.levelScene_select_SP_OP_reminder = {
 
 _G.pg.base.gametip.tack_tickets_max_warning = {
 	tip = "<color=#ffde38>データキー</color>の所持回数は上限になっています。任務報酬のデータキーは<color=#ff5c5c>$1</color>しか入手できません。任務報酬を受け取りますか？"
-}
-
-_G.pg.base.gametip.error_refresh_sub_chapter = {
-	tip = "これ以上救援任務を展開できません"
 }
 
 _G.pg.base.gametip.world_battle_count = {
@@ -4313,7 +4285,7 @@ _G.pg.base.gametip.world_instruction_submarine_8 = {
 }
 
 _G.pg.base.gametip.world_instruction_submarine_9 = {
-	tip = "潜水支援は行動力消費が"
+	tip = "自動攻略モードで、潜水支援の行動力が\nの場合に自動で召喚します"
 }
 
 _G.pg.base.gametip.world_instruction_submarine_10 = {
@@ -4484,8 +4456,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2023.3.9-2023.6.8</color>
-META戦・クイーン·エリザベス(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
+<color=#92fc63>2023.6.8-2023.8.31</color>
+META戦・アルジェリー(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
 ■META戦について
@@ -4789,6 +4761,26 @@ _G.pg.base.gametip.buy_item_quest = {
 
 _G.pg.base.gametip.refresh_shopStreet_question = {
 	tip = "<color=#92fc63>$2</color>の$1で商品リストを更新しますか？\n\n<size=22>( 本日は既に<size=25><color=#ff5c5c>$3</color></size> 回購入しました)</size>"
+}
+
+_G.pg.base.gametip.quota_shop_title = {
+	tip = "「コアショップ（所持上限）」"
+}
+
+_G.pg.base.gametip.quota_shop_description = {
+	tip = "消費しアイテム（所持数上限あり）と交換可能。"
+}
+
+_G.pg.base.gametip.quota_shop_owned = {
+	tip = "所持上限"
+}
+
+_G.pg.base.gametip.quota_shop_good_limit = {
+	tip = "上限到達"
+}
+
+_G.pg.base.gametip.quota_shop_limit_error = {
+	tip = "すでに所持数上限に達しているためこれ以上入手できません"
 }
 
 _G.pg.base.gametip.event_start_success = {
@@ -8650,6 +8642,10 @@ _G.pg.base.gametip.destroy_inHardFormation_tip = {
 	tip = "<color=#92fc63>ﾊｰﾄﾞ編成中</color>"
 }
 
+_G.pg.base.gametip.destroy_equip_rarity_tip = {
+	tip = "装備を廃棄するには<color=#92fc63>$1</color>を入力してください"
+}
+
 _G.pg.base.gametip.ship_quick_change_noequip = {
 	tip = "変更する装備は存在ありません"
 }
@@ -8796,10 +8792,6 @@ _G.pg.base.gametip.word_status_rest = {
 
 _G.pg.base.gametip.word_status_train = {
 	tip = "<size=24>訓練中</size>"
-}
-
-_G.pg.base.gametip.word_status_challenge = {
-	tip = "<size=24>ｲﾍﾞﾝﾄ出撃</size>"
 }
 
 _G.pg.base.gametip.word_status_world = {
@@ -9465,38 +9457,6 @@ _G.pg.base.gametip.anniversary_task_title_13 = {
 
 _G.pg.base.gametip.anniversary_task_title_14 = {
 	tip = "あなたは、支配されない自我を持つ「ニンゲン」に相応しい――"
-}
-
-_G.pg.base.gametip.help_sos = {
-	tip = {
-		{
-			info = [[
-救助信号について
-・各海域からの救助信号をランダムで受信することがあります。なお、ゲームにログインしていない時でも受信します
-・章の最深部（X-4）までクリアしないと、当該海域の救助信号を探知することができません
-
-発信源探知について
-・発信源探知ボタンをタップことで、信号の発信源海域を特定できます
-・発信源海域特定後、救援任務（海域）に出撃できます
-・救援任務（海域）は救助信号を探知することで、各章毎に一つまで出現します
- （救援任務は、「3章」「4章」…の形で出現します）
-・救援任務（海域）は12時間以内にクリアできなかった場合、海域から消滅し、出撃できなくなります
-
-探知感度
-・探知感度とは、探知できる海域範囲に影響を与えるものです
-・探知感度が1の場合、第三章海域の救援任務のみ出現します
-・探知感度が1上がるたびに、受信できる範囲が広がり、より奥の海域の救援任務も出現するようになります
-・現在出撃可能な最深部の救援任務海域をS評価でクリアした場合、探知感度が1上昇します
-・探知感度は最大8まで上がります。探知感度が高ければ高いほど、救援任務で出現する報酬が良くなることがあります
-
-戦闘遭遇
-・救援任務には敵の潜水艦が出現します。前衛艦隊に対潜装備を装備した駆逐艦や軽巡洋艦を配置させてから海域に出撃しましょう]]
-		}
-	}
-}
-
-_G.pg.base.gametip.sos_lock = {
-	tip = "救援海域は開放されていません"
 }
 
 _G.pg.base.gametip.charge_scene_buy_confirm = {
@@ -10909,6 +10869,10 @@ _G.pg.base.gametip.school_title_xueyuan = {
 
 _G.pg.base.gametip.school_title_shoucang = {
 	tip = "展示室"
+}
+
+_G.pg.base.gametip.school_title_xiaoyouxiting = {
+	tip = "ゲームロビー"
 }
 
 _G.pg.base.gametip.tag_level_fighting = {
@@ -17636,7 +17600,7 @@ _G.pg.base.gametip.meta_help = {
 ・解析Ptを一定数貯めると、「META艦船」を入手できます。
 ・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することが出来ます。
 
-※<color=#92fc63>2023.3.9-2023.6.8</color>クイーン·エリザベス(META) META戦開放期間は「クイーン·エリザベス・META」の解析Ptを入手できます。
+※<color=#92fc63>2023.6.8-2023.8.31</color>アルジェリー(META) META戦開放期間は「アルジェリー・META」の解析Ptを入手できます。
  解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。
 
 ■「META」艦船の艤装強化について
@@ -18170,26 +18134,6 @@ _G.pg.base.gametip.dailyLevel_quickfinish = {
 
 _G.pg.base.gametip.daily_level_quick_battle_label3 = {
 	tip = "一括挑戦"
-}
-
-_G.pg.base.gametip.LevelSignal = {
-	tip = "救助信号"
-}
-
-_G.pg.base.gametip.LevelSignal_go = {
-	tip = "出撃"
-}
-
-_G.pg.base.gametip.LevelSignal_search = {
-	tip = "信号探知"
-}
-
-_G.pg.base.gametip.LevelSignal_times = {
-	tip = "探知可能回数："
-}
-
-_G.pg.base.gametip.LevelSignal_intensity = {
-	tip = "探知感度："
 }
 
 _G.pg.base.gametip.backyard_longpress_ship_tip = {
@@ -20370,10 +20314,6 @@ _G.pg.base.gametip.shipmodechange_reject_1stfleet_only = {
 
 _G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
 	tip = "前衛・主力に艦船が1隻しか編成されていません。別の艦に変更してから再度お試しください"
-}
-
-_G.pg.base.gametip.shipmodechange_reject_inactivity = {
-	tip = "チャレンジ/共闘イベントに編成されています。別の艦に変更してから再度お試しください"
 }
 
 _G.pg.base.gametip.monopoly3thre_tip = {
@@ -23805,6 +23745,60 @@ _G.pg.base.gametip.limit_team_character_tips = {
 	tip = "※元の名前が同じ艦船は複数の艦隊に編成できません"
 }
 
+_G.pg.base.gametip.game_room_help = {
+	tip = {
+		{
+			info = [[
+■ゲームロビーとは：
+ゲームロビーとは、ミニゲームを遊べる機能です。
+ミニゲームをプレイする際、「ゲームコイン」を消費すると、クリア時に「報酬交換チケット」を入手できます。
+「報酬交換チケット」は「ショップ」で一部の復刻アイテムと交換できます。
+
+ゲームコインを消費しなくても、ミニゲームをプレイできます。
+
+■ゲームコインについて
+「ゲームコイン」とは、ミニゲームをクリアした時に、「報酬交換チケット」に変換できるアイテムです。
+ミニゲームのスタート画面で、消費する「ゲームコイン」数を選択できます
+「ゲームコイン」は毎週、ゲームロビーにいる明石から10枚入手できるほか、ミニゲームの開始画面で資金から交換できます。
+「ゲームコイン」は最大40枚まで所持できます。
+
+■報酬交換チケットについて
+「報酬交換チケット」とは、「ショップ」の「チケット」で報酬と交換できるアイテムです。
+「報酬交換チケット」は、ゲームロビーのミニゲームをプレイ時「ゲームコイン」を消費することで入手できます。
+ミニゲームで入手できるチケットの数は消費ゲームコインの数に応じて変動します。また、そのミニゲームのスコアによっても多少変動します。
+「報酬交換チケット」は最大50000まで所持でき、また一ヶ月の入手可能上限は10000までとなります。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.game_cannot_go = {
+	tip = "現在プレイできません"
+}
+
+_G.pg.base.gametip.game_ticket_notenough = {
+	tip = "報酬交換チケットが不足しています。ミニゲームロビーに戻りますか？"
+}
+
+_G.pg.base.gametip.game_ticket_max_all = {
+	tip = "チケットが所持上限に達しているため、上限分を超えた報酬交換チケットを入手できません。ゲームをプレイしますか？"
+}
+
+_G.pg.base.gametip.game_ticket_max_month = {
+	tip = "今月の入手可能チケット数が上限に達しているため、上限分を超えた報酬交換チケットを入手できません。ゲームをプレイしますか？"
+}
+
+_G.pg.base.gametip.game_icon_notenough = {
+	tip = "コインが不足しています。資金を消費しコインを購入しますか？"
+}
+
+_G.pg.base.gametip.game_goldbyicon = {
+	tip = "資金$1を消費し、コイン$2枚を購入しますか？"
+}
+
+_G.pg.base.gametip.game_icon_max = {
+	tip = "コインが所持上限に達しているため、上限分を超えたゲームコインを入手できません。コインを入手しますか？"
+}
+
 _G.pg.base.gametip.caibulin_tip1 = {
 	tip = "通常海域の1-2に何かがあるプリン？"
 }
@@ -24274,6 +24268,10 @@ _G.pg.base.gametip.islandshop_tips4 = {
 	tip = "$1不足"
 }
 
+_G.pg.base.gametip.island_shop_limit_error = {
+	tip = "すでに所持数上限に到達しているため、これ以上は入手できません"
+}
+
 _G.pg.base.gametip.haidaojudian_upgrade_limit = {
 	tip = "この施設は現在拡張できません。他の施設から拡張しましょう！"
 }
@@ -24480,4 +24478,60 @@ _G.pg.base.gametip.littleTaihou_npc = {
 			info = "7.仮加入状態の【大鳳ちゃん】は大艦隊作戦には参加できません。"
 		}
 	}
+}
+
+_G.pg.base.gametip.disassemble_selected = {
+	tip = "選択済"
+}
+
+_G.pg.base.gametip.disassemble_available = {
+	tip = "入手可能"
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_challenge = {
+	tip = "限界チャレンジ艦隊"
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_challenge_sub = {
+	tip = "限界チャレンジ艦隊"
+}
+
+_G.pg.base.gametip.word_status_activity = {
+	tip = "イベントに出撃中です"
+}
+
+_G.pg.base.gametip.word_status_challenge = {
+	tip = "<size=24>ｲﾍﾞﾝﾄ出撃</size>"
+}
+
+_G.pg.base.gametip.shipmodechange_reject_inactivity = {
+	tip = "チャレンジ/共闘イベントに編成されています。別の艦に変更してから再度お試しください"
+}
+
+_G.pg.base.gametip.shipmodechange_reject_inchallenge = {
+	tip = "艦船は限界チャレンジ艦隊に編成されています。編成を変えて再度お試しください"
+}
+
+_G.pg.base.gametip.battle_result_total_time = {
+	tip = "クリア時間："
+}
+
+_G.pg.base.gametip.charge_game_room_coin_tip = {
+	tip = "資金を<color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color>消費し、<color=$3>$4 × $2</color>を購入しますか？"
+}
+
+_G.pg.base.gametip.game_room_shooting_tip = {
+	tip = "スコア:"
+}
+
+_G.pg.base.gametip.mini_game_shop_ticked_not_enough = {
+	tip = "報酬交換チケットが不足しています。ミニゲームロビーに戻りますか？"
+}
+
+_G.pg.base.gametip.game_ticket_current_month = {
+	tip = "今月入手可能"
+}
+
+_G.pg.base.gametip.game_icon_max_full = {
+	tip = "当前游戏币到达上限,无法继续领取"
 }

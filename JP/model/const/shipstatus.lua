@@ -14,7 +14,8 @@ slot0.flagList = {
 	"inWorld",
 	"isActivityNpc",
 	"inGuildEvent",
-	"inGuildBossEvent"
+	"inGuildBossEvent",
+	"inChallenge"
 }
 
 function slot0.checkShipFlag(slot0, slot1, slot2)
@@ -35,17 +36,23 @@ function slot0.ShipStatusToTag(slot0, slot1)
 			i18n("word_status_inFight")
 		}
 	elseif uv0.checkShipFlag(slot0, slot1, "inFleet") then
-		if math.fmod(slot0:getFleetId(), 10) >= 1 and slot2 <= 6 then
+		slot3 = getProxy(FleetProxy):GetRegularFleetByShip(slot0)
+
+		assert(slot3)
+
+		slot4 = slot3.id
+
+		if slot3:isRegularFleet() then
 			return {
 				"ui/dockyardui_atlas",
-				"biandui0" .. slot2,
+				"biandui0" .. math.fmod(slot4, 10),
 				""
 			}
 		else
 			return {
 				"shipstatus",
 				"red",
-				Fleet.DEFAULT_NAME_FOR_DOCKYARD[slot0:getFleetId()]
+				Fleet.DEFAULT_NAME_FOR_DOCKYARD[slot4]
 			}
 		end
 	elseif uv0.checkShipFlag(slot0, slot1, "inElite") then
@@ -55,6 +62,12 @@ function slot0.ShipStatusToTag(slot0, slot1)
 			i18n("word_status_inHardFormation")
 		}
 	elseif uv0.checkShipFlag(slot0, slot1, "inActivity") then
+		return {
+			"shipstatus",
+			"red",
+			i18n("word_status_activity")
+		}
+	elseif uv0.checkShipFlag(slot0, slot1, "inChallenge") then
 		return {
 			"shipstatus",
 			"red",
@@ -131,6 +144,7 @@ slot0.FILTER_SHIPS_FLAGS_1 = {
 	inGuildEvent = true,
 	inEvent = true,
 	inBackyard = false,
+	inChallenge = true,
 	isActivityNpc = true,
 	inWorld = true,
 	inAdmiral = true
@@ -149,6 +163,7 @@ slot0.FILTER_SHIPS_FLAGS_2 = {
 	inBackyard = true,
 	inGuildBossEvent = true,
 	isActivityNpc = true,
+	inChallenge = true,
 	inWorld = true,
 	inAdmiral = true
 }
@@ -164,14 +179,15 @@ slot0.FILTER_SHIPS_FLAGS_3 = {
 	inGuildEvent = true,
 	inEvent = true,
 	inBackyard = false,
+	inChallenge = true,
 	isActivityNpc = true,
 	inWorld = true,
 	inAdmiral = false
 }
 slot0.FILTER_SHIPS_FLAGS_4 = {
 	inExercise = true,
+	inChallenge = true,
 	inChapter = true,
-	inClass = true,
 	inFleet = true,
 	inPvP = true,
 	inActivity = true,
@@ -180,52 +196,57 @@ slot0.FILTER_SHIPS_FLAGS_4 = {
 	inGuildEvent = true,
 	inEvent = true,
 	inBackyard = true,
-	inGuildBossEvent = true,
+	inClass = true,
 	isActivityNpc = true,
+	inGuildBossEvent = true,
 	inWorld = true,
 	inAdmiral = true
 }
 slot0.TAG_HIDE_ALL = {
 	inExercise = true,
+	inChallenge = true,
 	inChapter = true,
-	inClass = true,
 	inFleet = true,
 	inPvP = true,
 	inActivity = true,
 	inTactics = true,
 	inElite = true,
-	inBackyard = true,
+	inClass = true,
 	inEvent = true,
+	inBackyard = true,
 	isActivityNpc = true,
 	inWorld = true,
 	inAdmiral = true
 }
 slot0.TAG_HIDE_BASE = {
 	inExercise = true,
+	inChallenge = false,
 	inChapter = false,
-	inClass = false,
 	inFleet = false,
 	inPvP = false,
 	inActivity = false,
 	inTactics = false,
 	inElite = true,
-	inBackyard = false,
+	inClass = false,
 	inEvent = false,
+	inBackyard = false,
 	isActivityNpc = false,
 	inWorld = false,
 	inAdmiral = false
 }
 slot0.TAG_HIDE_ACTIVITY_BOSS = {
-	inClass = true,
+	inChallenge = true,
 	inChapter = true,
-	inBackyard = true,
-	inFleet = true,
 	inPvP = true,
+	inFleet = true,
+	inClass = true,
+	inBackyard = true,
 	inTactics = true,
 	inAdmiral = true
 }
 slot0.TAG_HIDE_BACKYARD = {
 	inExercise = false,
+	inChallenge = true,
 	inChapter = true,
 	inEvent = true,
 	inPvP = true,
@@ -235,26 +256,29 @@ slot0.TAG_HIDE_BACKYARD = {
 slot0.TAG_HIDE_PVP = {
 	inExercise = false,
 	inChapter = true,
-	inPvP = true,
+	inChallenge = true,
 	inFleet = true,
 	inClass = true,
 	inActivity = true,
 	inTactics = true,
-	inBackyard = true
+	inBackyard = true,
+	inPvP = true
 }
 slot0.TAG_HIDE_DEFENSE = {
 	inExercise = false,
 	inChapter = true,
-	inClass = true,
+	inChallenge = true,
 	inFleet = true,
-	inPvP = true,
+	inClass = true,
 	inActivity = true,
 	inTactics = true,
 	inBackyard = true,
+	inPvP = true,
 	inEvent = true
 }
 slot0.TAG_HIDE_LEVEL = {
 	inBackyard = true,
+	inChallenge = true,
 	inFleet = true,
 	inClass = true,
 	inActivity = true,
@@ -263,23 +287,27 @@ slot0.TAG_HIDE_LEVEL = {
 }
 slot0.TAG_HIDE_NORMAL = {
 	inExercise = false,
-	inClass = true,
+	inChallenge = true,
 	inPvP = true,
+	inClass = true,
 	inActivity = true,
 	inTactics = true,
 	inBackyard = true
 }
 slot0.TAG_HIDE_CHALLENGE = {
-	inBackyard = true,
-	inEvent = true,
+	inPvP = true,
+	inChapter = true,
 	inFleet = true,
 	inClass = true,
 	inActivity = true,
 	inTactics = true,
+	inBackyard = true,
+	inEvent = false,
 	inAdmiral = true
 }
 slot0.TAG_HIDE_EVENT = {
 	inExercise = false,
+	inChallenge = true,
 	inClass = true,
 	inActivity = true,
 	inTactics = true,
@@ -288,36 +316,40 @@ slot0.TAG_HIDE_EVENT = {
 slot0.TAG_HIDE_TACTICES = {
 	inExercise = false,
 	inChapter = true,
-	inClass = true,
+	inChallenge = true,
 	inFleet = true,
-	inPvP = true,
+	inClass = true,
 	inActivity = true,
 	inTactics = true,
 	inBackyard = true,
+	inPvP = true,
 	inEvent = true
 }
 slot0.TAG_HIDE_ADMIRAL = {
 	inExercise = false,
 	inChapter = true,
-	inClass = true,
+	inChallenge = true,
 	inFleet = true,
-	inPvP = true,
+	inClass = true,
 	inActivity = true,
 	inTactics = true,
 	inBackyard = true,
+	inPvP = true,
 	inEvent = true
 }
 slot0.TAG_HIDE_FORMATION = {
 	inExercise = false,
-	inClass = true,
+	inChallenge = true,
 	inPvP = true,
+	inClass = true,
 	inActivity = true,
 	inTactics = true,
 	inBackyard = true
 }
 slot0.TAG_HIDE_WORLD = {
-	inFleet = true,
-	inActivity = true
+	inActivity = true,
+	inChallenge = true,
+	inFleet = true
 }
 slot0.TAG_HIDE_DESTROY = {
 	inElite = false
@@ -344,6 +376,10 @@ slot1 = {
 		inElite = 0
 	},
 	inActivity = {
+		isActivityNpc = 0,
+		inEvent = 0
+	},
+	inChallenge = {
 		isActivityNpc = 0,
 		inEvent = 0
 	},
@@ -378,7 +414,7 @@ slot1 = {
 	},
 	onDestroy = {
 		inExercise = 1,
-		inChapter = 0,
+		inChallenge = 0,
 		inClass = 0,
 		inFleet = 1,
 		inPvP = 1,
@@ -387,6 +423,7 @@ slot1 = {
 		inBackyard = 1,
 		inGuildEvent = 0,
 		inEvent = 0,
+		inChapter = 0,
 		inGuildBossEvent = 1,
 		isActivityNpc = 0,
 		inWorld = 0,
@@ -394,12 +431,13 @@ slot1 = {
 	},
 	onTeamChange = {
 		inExercise = 1,
+		inChallenge = 0,
 		inChapter = 0,
-		inPvP = 1,
 		inFleet = 1,
-		inGuildBossEvent = 1,
+		inPvP = 1,
 		inActivity = 0,
-		inWorld = 1
+		inWorld = 1,
+		inGuildBossEvent = 1
 	}
 }
 slot2 = {
@@ -414,6 +452,9 @@ slot2 = {
 	},
 	inActivity = {
 		tips_block = "shipmodechange_reject_inactivity"
+	},
+	inChallenge = {
+		tips_block = "shipmodechange_reject_inchallenge"
 	},
 	inPvP = {
 		tips_block = "word_shipState_fight"
@@ -512,7 +553,7 @@ function slot0.ChangeStatusCheckBox(slot0, slot1, slot2)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("shipchange_alert_infleet"),
 			onYes = function ()
-				if getProxy(FleetProxy):getFleetByShip(uv0):canRemove(uv0) then
+				if getProxy(FleetProxy):GetRegularFleetByShip(uv0):canRemove(uv0) then
 					slot0:removeShip(uv0)
 					pg.m02:sendNotification(GAME.UPDATE_FLEET, {
 						callback = uv1,
@@ -529,7 +570,7 @@ function slot0.ChangeStatusCheckBox(slot0, slot1, slot2)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("shipchange_alert_inpvp"),
 			onYes = function ()
-				if getProxy(FleetProxy):getFleetByShip(uv0):canRemove(uv0) then
+				if getProxy(FleetProxy):getFleetById(FleetProxy.PVP_FLEET_ID):canRemove(uv0) then
 					slot0:removeShip(uv0)
 					pg.m02:sendNotification(GAME.UPDATE_FLEET, {
 						callback = uv1,

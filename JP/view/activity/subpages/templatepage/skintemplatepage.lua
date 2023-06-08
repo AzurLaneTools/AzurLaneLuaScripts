@@ -71,6 +71,16 @@ end
 function slot0.OnUpdateFlush(slot0)
 	slot0.nday = slot0.activity.data3
 
+	slot0:PlayStory()
+
+	if slot0.dayTF then
+		setText(slot0.dayTF, tostring(slot0.nday))
+	end
+
+	slot0.uilist:align(#slot0.taskGroup[slot0.nday])
+end
+
+function slot0.PlayStory(slot0)
 	if checkExist(slot0.activity:getConfig("config_client").story, {
 		slot0.nday
 	}, {
@@ -78,12 +88,6 @@ function slot0.OnUpdateFlush(slot0)
 	}) then
 		pg.NewStoryMgr.GetInstance():Play(slot1[slot0.nday][1])
 	end
-
-	if slot0.dayTF then
-		setText(slot0.dayTF, tostring(slot0.nday))
-	end
-
-	slot0.uilist:align(#slot0.taskGroup[slot0.nday])
 end
 
 function slot0.OnDestroy(slot0)

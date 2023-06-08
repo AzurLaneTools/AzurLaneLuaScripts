@@ -172,10 +172,10 @@ pg.expedition_daily_template = {
 		}
 	},
 	[501] = {
-		tips = "毎日開放（毎週2回まで挑戦可能）",
+		tips = "毎日開放（毎週4回まで）",
 		limit_type = 2,
 		show_with_count = 0,
-		limit_time = 2,
+		limit_time = 4,
 		insert_daily = 0,
 		title = "通商破壊",
 		pic = "daily5",
