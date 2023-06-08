@@ -18,7 +18,6 @@ function slot0.Ctor(slot0, slot1, slot2)
 		[CourtYardConst.OBJ_TYPE_COMMOM] = CourtYardFurnitureFactory.New()
 	}
 	slot0.descPage = CourtYardFurnitureDescPage.New(slot0)
-	slot0.playTheLutePage = CourtyardPlayTheLutePage.New(slot0)
 end
 
 function slot0.OnInit(slot0)
@@ -75,10 +74,6 @@ function slot0.AddListeners(slot0)
 	slot0:AddListener(CourtYardEvent.EXIT_ARCH, slot0.OnExitArch)
 	slot0:AddListener(CourtYardEvent.REMOVE_ILLEGALITY_ITEM, slot0.OnRemoveIllegalityItem)
 	slot0:AddListener(CourtYardEvent.OPEN_LAYER, slot0.OnOpenLayer)
-	slot0:AddListener(CourtYardEvent.FURNITURE_PLAY_MUSICALINSTRUMENTS, slot0.OnPlayMusicalInstruments)
-	slot0:AddListener(CourtYardEvent.FURNITURE_STOP_PLAY_MUSICALINSTRUMENTS, slot0.OnStopPlayMusicalInstruments)
-	slot0:AddListener(CourtYardEvent.FURNITURE_MUTE_ALL, slot0.OnMuteAll)
-	slot0:AddListener(CourtYardEvent.BACK_PRESSED, slot0.OnBackPressed)
 end
 
 function slot0.RemoveListeners(slot0)
@@ -118,10 +113,6 @@ function slot0.RemoveListeners(slot0)
 	slot0:RemoveListener(CourtYardEvent.EXIT_ARCH, slot0.OnExitArch)
 	slot0:RemoveListener(CourtYardEvent.REMOVE_ILLEGALITY_ITEM, slot0.OnRemoveIllegalityItem)
 	slot0:RemoveListener(CourtYardEvent.OPEN_LAYER, slot0.OnOpenLayer)
-	slot0:RemoveListener(CourtYardEvent.FURNITURE_PLAY_MUSICALINSTRUMENTS, slot0.OnPlayMusicalInstruments)
-	slot0:RemoveListener(CourtYardEvent.FURNITURE_STOP_PLAY_MUSICALINSTRUMENTS, slot0.OnStopPlayMusicalInstruments)
-	slot0:RemoveListener(CourtYardEvent.FURNITURE_MUTE_ALL, slot0.OnMuteAll)
-	slot0:RemoveListener(CourtYardEvent.BACK_PRESSED, slot0.OnBackPressed)
 end
 
 function slot0.OnInited(slot0)
@@ -493,31 +484,6 @@ end
 function slot0.OnItemStopMusic(slot0, slot1, slot2)
 	if slot2 == 2 then
 		slot0.bgmAgent:Reset()
-	elseif slot2 == 1 then
-		slot0.soundAgent:Stop()
-	end
-end
-
-function slot0.OnMuteAll(slot0)
-	slot0.bgmAgent:Clear()
-	slot0.soundAgent:Clear()
-end
-
-function slot0.OnPlayMusicalInstruments(slot0, slot1)
-	if slot0.descPage and slot0.descPage:GetLoaded() and slot0.descPage:isShowing() then
-		slot0.descPage:Close()
-	end
-
-	if slot1:GetType() == Furniture.TYPE_LUTE then
-		slot0.playTheLutePage:ExecuteAction("Show", slot1)
-	end
-end
-
-function slot0.OnStopPlayMusicalInstruments(slot0, slot1)
-	slot0.bgmAgent:Reset()
-
-	if slot0.descPage and slot0.descPage:GetLoaded() then
-		slot0.descPage:ExecuteAction("Show", slot1)
 	end
 end
 
@@ -527,22 +493,6 @@ end
 
 function slot0.OnRemoveEffect(slot0, slot1)
 	slot0.effectAgent:DisableEffect(slot1)
-end
-
-function slot0.OnBackPressed(slot0)
-	if slot0.playTheLutePage and slot0.playTheLutePage:GetLoaded() and slot0.playTheLutePage:isShowing() then
-		slot0.playTheLutePage:Hide()
-
-		return
-	end
-
-	if slot0.descPage and slot0.descPage:GetLoaded() and slot0.descPage:isShowing() then
-		slot0.descPage:Close()
-
-		return
-	end
-
-	slot0:Emit("Quit")
 end
 
 function slot0.UpdateSelectedPosition(slot0, slot1)
@@ -653,10 +603,6 @@ function slot0.OnDispose(slot0)
 	slot0.descPage:Destroy()
 
 	slot0.descPage = nil
-
-	slot0.playTheLutePage:Destroy()
-
-	slot0.playTheLutePage = nil
 
 	if not IsNil(slot0._go) then
 		Object.Destroy(slot0._go)

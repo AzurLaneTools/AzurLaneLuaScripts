@@ -28,8 +28,6 @@ function slot0.Execute(slot0)
 		if slot0:CheckBossRushSystem(slot1) then
 			slot0:ResultRushBossSystem(slot1)
 		end
-	elseif slot2 == SYSTEM_LIMIT_CHALLENGE then
-		slot0:ExitLimitChallengeSystem(slot1)
 	else
 		slot0:ExitCommonSystem(slot1)
 	end
@@ -70,11 +68,11 @@ function slot0.ExitScenarioSystem(slot0, slot1)
 		getProxy(ChapterProxy):StopAutoFight()
 	end
 
-	if getProxy(ContextProxy):getContextByMediator(LevelMediator2) and slot3:getContextByMediator(ChapterPreCombatMediator) then
+	if getProxy(ContextProxy):getContextByMediator(LevelMediator2):getContextByMediator(ChapterPreCombatMediator) then
 		slot3:removeChild(slot4)
 	end
 
-	if ys.Battle.BattleConst.BattleScore.C < slot1.score then
+	if slot1.score > 1 then
 		slot0:ShowExtraChapterActSocre(slot1)
 	end
 
@@ -171,17 +169,9 @@ function slot0.ExitRushBossSystem(slot0, slot1, slot2)
 	pg.m02:sendNotification(GAME.GO_BACK)
 end
 
-function slot0.ExitLimitChallengeSystem(slot0, slot1)
-	if getProxy(ContextProxy):getContextByMediator(LimitChallengeMediator) and slot3:getContextByMediator(LimitChallengePreCombatMediator) then
-		slot3:removeChild(slot4)
-	end
-
-	pg.m02:sendNotification(GAME.GO_BACK)
-end
-
 function slot0.ExitCommonSystem(slot0, slot1)
-	if getProxy(ContextProxy):getContextByMediator(LevelMediator2) and slot3:getContextByMediator(PreCombatMediator) then
-		slot3:removeChild(slot4)
+	if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
+		slot3:removeChild(slot3:getContextByMediator(PreCombatMediator))
 	end
 
 	pg.m02:sendNotification(GAME.GO_BACK)
@@ -318,8 +308,6 @@ function slot0.CheckActBossSystem(slot0, slot1)
 
 	uv2()
 
-	slot6 = getProxy(ContextProxy)
-
 	if getProxy(ContextProxy):getCurrentContext():getContextByMediator(ContinuousOperationMediator) and not slot7.data.autoFlag then
 		uv1(slot1)
 
@@ -362,9 +350,6 @@ end
 function slot0.CheckBossRushSystem(slot0, slot1)
 	slot3 = ys.Battle.BattleConst.BattleScore.C < slot1.score
 	slot6 = getProxy(ActivityProxy):getActivityById(slot1.actId):GetSeriesData()
-
-	assert(slot6)
-
 	slot7 = slot6:GetStaegLevel() + 1
 	slot8 = slot6:GetExpeditionIds()
 

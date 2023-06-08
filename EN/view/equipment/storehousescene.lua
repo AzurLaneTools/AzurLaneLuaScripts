@@ -113,7 +113,6 @@ function slot0.init(slot0)
 	slot0.destroyConfirmView = DestroyConfirmView.New(slot0.topItems, slot0.event)
 	slot0.assignedItemView = AssignedItemView.New(slot0.topItems, slot0.event)
 	slot0.blueprintAssignedItemView = BlueprintAssignedItemView.New(slot0.topItems, slot0.event)
-	slot0.equipDestroyConfirmWindow = EquipDestoryConfirmWindow.New(slot0.topItems, slot0.event)
 	slot0.isEquipingOn = false
 end
 
@@ -631,31 +630,27 @@ function slot0.didEnter(slot0)
 		triggerButton(uv0.BatchDisposeBtn)
 	end, SFX_CANCEL)
 	onButton(slot0, findTF(slot0.selectPanel, "confirm_button"), function ()
-		slot0 = {}
-
-		if underscore.any(uv0.selectedIds, function (slot0)
-			return uv0.equipmentVOByIds[slot0[1]].config.rarity >= 4 or slot1.level > 1
-		end) then
-			table.insert(slot0, function (slot0)
-				uv0.equipDestroyConfirmWindow:Load()
-				uv0.equipDestroyConfirmWindow:ActionInvoke("Show", underscore.map(uv0.selectedIds, function (slot0)
-					return setmetatable({
-						count = slot0[2]
-					}, {
-						__index = uv0.equipmentVOByIds[slot0[1]]
-					})
-				end), slot0)
-			end)
-		end
-
-		seriesAsync(slot0, function ()
+		function slot0()
 			uv0.destroyConfirmView:Load()
 			uv0.destroyConfirmView:ActionInvoke("Show")
 			uv0.destroyConfirmView:ActionInvoke("DisplayDestroyBonus", uv0.selectedIds)
 			uv0.destroyConfirmView:ActionInvoke("SetConfirmBtnCB", function ()
 				uv0:unselecteAllEquips()
 			end)
-		end)
+		end
+
+		slot1 = uv0
+
+		if not _.all(slot1:hasEliteEquips(uv0.selectedIds, uv0.equipmentVOByIds), function (slot0)
+			return slot0 == ""
+		end) then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("destroy_eliteequipment_tip", string.gsub(table.concat(slot1, ""), "$1", slot1[1] == "" and "" or ",")),
+				onYes = slot0
+			})
+		else
+			slot0()
+		end
 	end, SFX_CONFIRM)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
 		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
@@ -714,11 +709,37 @@ function slot0.onBackPressed(slot0)
 		slot0.assignedItemView:Hide()
 	elseif slot0.blueprintAssignedItemView:isShowing() then
 		slot0.blueprintAssignedItemView:Hide()
-	elseif slot0.equipDestroyConfirmWindow:isShowing() then
-		slot0.equipDestroyConfirmWindow:Hide()
 	else
 		triggerButton(slot0.backBtn)
 	end
+end
+
+function slot0.hasEliteEquips(slot0, slot1, slot2)
+	function slot4(slot0, slot1)
+		if not _.include(uv0, slot0) then
+			uv0[slot1] = slot0
+		end
+	end
+
+	_.each(slot1, function (slot0)
+		slot1 = slot0[1]
+		slot2 = uv0[slot1]
+
+		assert(slot2, "equipment can not be nil" .. slot1)
+
+		if slot2.config.level > 1 then
+			uv1(i18n("destroy_high_intensify_tip"), 2)
+		end
+
+		if slot2.config.rarity >= 4 then
+			uv1(i18n("destroy_high_rarity_tip"), 1)
+		end
+	end)
+
+	return {
+		"",
+		""
+	}
 end
 
 function slot0.updateCapacity(slot0)
@@ -1336,9 +1357,7 @@ function slot0.selectEquip(slot0, slot1, slot2)
 				return
 			end
 
-			slot8 = slot0:selectCount()
-
-			if slot0.selectedMax > 0 and slot0.selectedMax < slot8 + slot2 then
+			if slot0.selectedMax < slot0:selectCount() + slot2 then
 				slot2 = slot0.selectedMax - slot8
 			end
 
@@ -1469,7 +1488,6 @@ function slot0.willExit(slot0)
 	slot0.destroyConfirmView:Destroy()
 	slot0.assignedItemView:Destroy()
 	slot0.blueprintAssignedItemView:Destroy()
-	slot0.equipDestroyConfirmWindow:Destroy()
 end
 
 return slot0

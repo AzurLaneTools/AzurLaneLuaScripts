@@ -21,7 +21,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setShips(slot0.ships)
 
 	slot2 = getProxy(FleetProxy)
-	slot3 = slot2:GetRegularFleets()
+	slot3 = slot2:getData()
 
 	if slot2.EdittingFleet ~= nil then
 		slot3[slot2.EdittingFleet.id] = slot2.EdittingFleet
@@ -67,7 +67,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ON_CHANGE_FLEET, function (slot0, slot1)
 		uv0.commitEdit(function ()
-			uv0.viewComponent:SetFleets(uv1:GetRegularFleets())
+			uv0.viewComponent:SetFleets(uv1:getData())
 			uv0.viewComponent:SetCurrentFleetID(uv2)
 			uv0.viewComponent:UpdateFleetView(true)
 		end)
@@ -193,7 +193,7 @@ end
 function slot0.refreshEdit(slot0, slot1)
 	slot2 = getProxy(FleetProxy)
 	slot2.EdittingFleet = slot1
-	slot3 = slot2:GetRegularFleets()
+	slot3 = slot2:getData()
 	slot3[slot1.id] = slot1
 
 	slot0.viewComponent:SetFleets(slot3)
@@ -229,6 +229,7 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		FleetProxy.FLEET_UPDATED,
 		FleetProxy.FLEET_RENAMED,
+		FleetProxy.FLEET_COMMIT,
 		GAME.UPDATE_FLEET_DONE,
 		PlayerProxy.UPDATED,
 		CommanderProxy.PREFAB_FLEET_UPDATE,
@@ -240,10 +241,10 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == FleetProxy.FLEET_UPDATED then
-		slot0.viewComponent:SetFleets(getProxy(FleetProxy):GetRegularFleets())
+		slot0.viewComponent:SetFleets(getProxy(FleetProxy):getData())
 	elseif slot2 == FleetProxy.FLEET_RENAMED then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationMediator_changeNameSuccess"))
-		slot0.viewComponent:SetFleets(getProxy(FleetProxy):GetRegularFleets())
+		slot0.viewComponent:SetFleets(getProxy(FleetProxy):getData())
 		slot0.viewComponent:UpdateFleetView(true)
 		slot0.viewComponent:DisplayRenamePanel(false)
 	elseif slot2 == CommanderProxy.PREFAB_FLEET_UPDATE then
@@ -258,7 +259,7 @@ function slot0.checkChangeShip(slot0, slot1, slot2)
 	slot5 = getProxy(BayProxy):getRawData()
 	slot6 = slot2.configId
 
-	if not (getProxy(FleetProxy):GetRegularFleetByShip(slot2) and slot7.id == slot0.id) and (not slot1 or not slot1:isSameKind(slot2)) then
+	if not (getProxy(FleetProxy):getFleetByShip(slot2) and slot7.id == slot0.id) and (not slot1 or not slot1:isSameKind(slot2)) then
 		for slot12, slot13 in ipairs(slot0.ships) do
 			if slot5[slot13]:isSameKind(slot2) then
 				return false, i18n("ship_formationMediator_changeNameError_sameShip")
@@ -306,7 +307,7 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3)
 			return false, slot5
 		end
 
-		if uv3:GetRegularFleetByShip(slot0) ~= nil and slot6.id ~= uv1.id then
+		if uv3:getFleetByShip(slot0) ~= nil and slot6.id ~= uv1.id and slot6.id ~= FleetProxy.PVP_FLEET_ID then
 			if uv2 == nil and not slot6:canRemove(slot0) then
 				slot7, slot8 = slot6:getShipPos(slot0)
 
@@ -332,7 +333,7 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		if not uv1:GetRegularFleetByShip(slot3) or slot4.id == uv2.id then
+		if not uv1:getFleetByShip(slot3) or slot4.id == uv2.id or slot4.id == FleetProxy.PVP_FLEET_ID then
 			slot1()
 
 			return
@@ -356,7 +357,7 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3)
 
 		slot3 = uv3:getShipPos(uv1)
 
-		if uv4:GetRegularFleetByShip(slot1) == nil then
+		if uv4:getFleetByShip(slot1) == nil or slot2.id == FleetProxy.PVP_FLEET_ID then
 			if uv1 == nil then
 				uv3:insertShip(slot1, nil, uv5)
 			else

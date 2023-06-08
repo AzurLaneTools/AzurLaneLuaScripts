@@ -3129,17 +3129,6 @@ pg.fleet_tech_ship_class = {
 			970301
 		}
 	},
-	[970302] = {
-		shiptype = 3,
-		name = "Algérie META.",
-		nation = 97,
-		id = 970302,
-		t_level_1 = 1,
-		t_level = 3,
-		ships = {
-			970302
-		}
-	},
 	[970401] = {
 		shiptype = 4,
 		name = "Gneisenau META",
@@ -3566,7 +3555,6 @@ pg.fleet_tech_ship_class = {
 		970203,
 		970204,
 		970301,
-		970302,
 		970401,
 		970402,
 		970403,

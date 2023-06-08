@@ -14,29 +14,17 @@ function slot0.OnMiniGameOPeration(slot0, slot1, slot2)
 end
 
 function slot0.OnMiniGameSuccess(slot0, slot1)
-	if slot0.gameRoomData then
-		if slot0.gameRoonCoinCount and slot0.gameRoonCoinCount == 0 then
-			return
-		end
-
-		slot0:sendNotification(GAME.GAME_ROOM_SUCCESS, {
-			roomId = slot0.gameRoomData.id,
-			times = slot0.gameRoonCoinCount or 1,
-			score = slot1
-		})
-	else
-		if slot0.miniGameProxy:GetHubByGameId(slot0.miniGameId).count <= 0 then
-			return
-		end
-
-		slot0:sendNotification(GAME.SEND_MINI_GAME_OP, {
-			hubid = slot2.id,
-			cmd = MiniGameOPCommand.CMD_COMPLETE,
-			args1 = {
-				slot1
-			}
-		})
+	if slot0.miniGameProxy:GetHubByGameId(slot0.miniGameId).count <= 0 then
+		return
 	end
+
+	slot0:sendNotification(GAME.SEND_MINI_GAME_OP, {
+		hubid = slot2.id,
+		cmd = MiniGameOPCommand.CMD_COMPLETE,
+		args1 = {
+			slot1
+		}
+	})
 end
 
 function slot0.OnMiniGameFailure(slot0, slot1)

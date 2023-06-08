@@ -209,13 +209,7 @@ function slot9.UpdateHP(slot0, slot1, slot2)
 			slot0:TriggerBuff(uv0.BuffEffectType.ON_BEFORE_FATAL_DAMAGE, {})
 		end
 
-		if slot14 ~= -slot15.damage then
-			slot16 = {
-				absorb = slot14 - slot1
-			}
-
-			slot0:TriggerBuff(uv0.BuffEffectType.ON_SHIELD_ABSORB, slot15)
-		end
+		slot1 = -slot15.damage
 
 		if uv1.IsInvincible(slot0) then
 			return
@@ -1072,16 +1066,6 @@ function slot9.DispatchSkillFloat(slot0, slot1, slot2, slot3)
 	}))
 end
 
-function slot9.DispatchCastClock(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot0:DispatchEvent(uv0.Event.New(uv1.ADD_BUFF_CLOCK, {
-		isActive = slot1,
-		buffEffect = slot2,
-		iconType = slot3,
-		interrupt = slot4,
-		reverse = slot5
-	}))
-end
-
 function slot9.SetAI(slot0, slot1)
 	slot0._move:CancelFormationCtrl()
 
@@ -1262,7 +1246,7 @@ function slot9.IsShowHPBar(slot0)
 end
 
 function slot9.IsAlive(slot0)
-	return slot0._aliveState and slot0:GetCurrentHP() > 0
+	return slot0._aliveState and slot0._currentHP > 0
 end
 
 function slot9.SetMainFleetUnit(slot0)
@@ -1313,13 +1297,6 @@ function slot9.GetFleetVO(slot0)
 end
 
 function slot9.SetFormationIndex(slot0, slot1)
-end
-
-function slot9.SetMaster(slot0)
-end
-
-function slot9.GetMaster(slot0)
-	return nil
 end
 
 function slot9.IsSpectre(slot0)

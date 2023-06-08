@@ -164,7 +164,7 @@ function slot0.getWeightFromData(slot0)
 end
 
 function slot0.isLayer(slot0)
-	return slot0.contextData ~= nil and slot0.contextData.isLayer and not slot0.contextData.isSubView
+	return slot0.contextData ~= nil and slot0.contextData.isLayer
 end
 
 function slot0.addToLayerMgr(slot0)

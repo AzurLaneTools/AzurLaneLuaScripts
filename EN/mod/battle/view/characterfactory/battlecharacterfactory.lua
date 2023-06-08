@@ -153,10 +153,6 @@ function slot2.MakeCastClock(slot0, slot1)
 	slot1:AddCastClock(slot0:GetSceneMediator():InstantiateCharacterComponent("CastClockContainer/castClock"))
 end
 
-function slot2.MakeBuffClock(slot0, slot1)
-	slot1:AddBuffClock(slot0:GetSceneMediator():InstantiateCharacterComponent("CastClockContainer/buffClock"))
-end
-
 function slot2.MakeBarrierClock(slot0, slot1)
 	slot1:AddBarrierClock(slot0:GetSceneMediator():InstantiateCharacterComponent("CastClockContainer/shieldClock"))
 end

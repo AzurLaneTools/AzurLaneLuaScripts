@@ -24,7 +24,7 @@ end
 
 function slot0.SetUp(slot0, slot1, slot2)
 	slot0.model:NetData(slot1)
-	slot0.view:OnEnterGame(slot1)
+	slot0.view:OnEnterGame()
 
 	slot0.gameEndCb = slot2
 end
@@ -36,10 +36,6 @@ function slot0.StartGame(slot0)
 
 			uv0:OnInitGame()
 			uv0.view:DoCurtain(slot0)
-
-			if uv0.gameStateCallback then
-				uv0.gameStateCallback(false)
-			end
 		end,
 		function (slot0)
 			uv0:OnPrepare(slot0)
@@ -52,10 +48,6 @@ function slot0.StartGame(slot0)
 	})
 end
 
-function slot0.setGameStartCallback(slot0, slot1)
-	slot0.gameStateCallback = slot1
-end
-
 function slot0.ExitGame(slot0)
 	slot0.locked = false
 	slot0.shakePositions = {}
@@ -63,10 +55,6 @@ function slot0.ExitGame(slot0)
 
 	for slot4, slot5 in ipairs(slot0.model.items) do
 		slot0.view:OnRemovePile(slot5)
-	end
-
-	if slot0.gameStateCallback then
-		slot0.gameStateCallback(true)
 	end
 
 	slot0.model:Clear()

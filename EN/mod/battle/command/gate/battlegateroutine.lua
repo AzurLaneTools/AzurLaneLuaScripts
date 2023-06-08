@@ -85,13 +85,17 @@ function slot0.Exit(slot0, slot1)
 	slot6 = slot8:getEndCost().oil
 
 	slot1:SendRequest(slot1.GeneralPackage(slot0, slot4:getShipsByFleet(slot8)), function (slot0)
-		uv0.addShipsExp(slot0.ship_exp_list, uv1.statistics, true)
+		if uv0.end_sink_cost > 0 then
+			uv1.DeadShipEnergyCosume(uv2, uv3)
+		end
 
-		uv1.statistics.mvpShipID = slot0.mvp
-		slot1, slot2 = uv0:GeneralLoot(slot0)
-		slot3 = ys.Battle.BattleConst.BattleScore.C < uv2
+		uv1.addShipsExp(slot0.ship_exp_list, uv2.statistics, true)
 
-		uv0.GeneralPlayerCosume(SYSTEM_ROUTINE, slot3, uv3, slot0.player_exp, exFlag)
+		uv2.statistics.mvpShipID = slot0.mvp
+		slot1, slot2 = uv1:GeneralLoot(slot0)
+		slot3 = ys.Battle.BattleConst.BattleScore.C < uv4
+
+		uv1.GeneralPlayerCosume(SYSTEM_ROUTINE, slot3, uv5, slot0.player_exp, exFlag)
 
 		slot4 = getProxy(DailyLevelProxy)
 
@@ -99,14 +103,14 @@ function slot0.Exit(slot0, slot1)
 			slot4.data[slot4.dailyLevelId] = (slot4.data[slot4.dailyLevelId] or 0) + 1
 		end
 
-		if uv2 == ys.Battle.BattleConst.BattleScore.S then
-			slot4:AddQuickStage(uv1.stageId)
+		if uv4 == ys.Battle.BattleConst.BattleScore.S then
+			slot4:AddQuickStage(uv2.stageId)
 		end
 
-		uv0:sendNotification(GAME.FINISH_STAGE_DONE, {
+		uv1:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = SYSTEM_ROUTINE,
-			statistics = uv1.statistics,
-			score = uv2,
+			statistics = uv2.statistics,
+			score = uv4,
 			drops = slot1,
 			commanderExps = {},
 			result = slot0.result,

@@ -137,25 +137,29 @@ function slot0.Exit(slot0, slot1)
 	slot1:SendRequest(slot8, function (slot0)
 		slot1, slot2 = uv0:GeneralLoot(slot0)
 
-		uv0.addShipsExp(slot0.ship_exp_list, uv1.statistics, accumulate)
+		if uv1.end_sink_cost > 0 then
+			uv0.DeadShipEnergyCosume(uv2, uv3)
+		end
+
+		uv0.addShipsExp(slot0.ship_exp_list, uv2.statistics, accumulate)
 
 		slot4 = nowWorld():GetBossProxy()
-		slot5 = slot4:GetBossById(uv1.bossId)
+		slot5 = slot4:GetBossById(uv2.bossId)
 
 		slot4:ClearRank(slot5.id)
-		slot4:UpdateHighestDamage(uv2)
+		slot4:UpdateHighestDamage(uv4)
 
-		uv1.statistics.mvpShipID = slot0.mvp
+		uv2.statistics.mvpShipID = slot0.mvp
 
 		uv0:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = SYSTEM_WORLD_BOSS,
-			statistics = uv1.statistics,
-			score = uv3,
+			statistics = uv2.statistics,
+			score = uv5,
 			drops = slot1,
 			commanderExps = {},
 			result = slot0.result,
 			extraDrops = slot2,
-			bossId = uv1.bossId,
+			bossId = uv2.bossId,
 			name = slot5:GetName()
 		})
 		slot4:UnlockCacheBoss()

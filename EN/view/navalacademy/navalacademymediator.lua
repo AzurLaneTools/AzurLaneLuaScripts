@@ -6,7 +6,6 @@ slot0.ON_OPEN_OILRESFIELD = "NavalAcademyMediator:ON_OPEN_OILRESFIELD"
 slot0.ON_OPEN_GOLDRESFIELD = "NavalAcademyMediator:ON_OPEN_GOLDRESFIELD"
 slot0.ON_OPEN_SUPPLYSHOP = "NavalAcademyMediator:ON_OPEN_SUPPLYSHOP"
 slot0.ON_OPEN_TACTICROOM = "NavalAcademyMediator:ON_OPEN_TACTICROOM"
-slot0.ON_OPEN_MINIGAMEHALL = "NavalAcademyMediator:ON_OPEN_MINIGAMEHALL"
 slot0.UPGRADE_FIELD = "NavalAcademyMediator:UPGRADE_FIELD"
 slot0.GO_SCENE = "NavalAcademyMediator:GO_SCENE"
 slot0.OPEN_ACTIVITY_PANEL = "NavalAcademyMediator:OPEN_ACTIVITY_PANEL"
@@ -87,9 +86,6 @@ function slot0.register(slot0)
 		})
 
 		uv0.contextData.shipToLesson = nil
-	end)
-	slot0:bind(uv0.ON_OPEN_MINIGAMEHALL, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.GAME_HALL)
 	end)
 
 	slot1 = getProxy(NavalAcademyProxy)

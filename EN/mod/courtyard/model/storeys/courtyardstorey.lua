@@ -499,15 +499,6 @@ function slot0.CheckFurnitureTouchBG(slot0, slot1)
 	end
 end
 
-function slot0.PlayMusicalInstruments(slot0, slot1)
-	slot0:MuteAll()
-	slot0:DispatchEvent(CourtYardEvent.FURNITURE_PLAY_MUSICALINSTRUMENTS, slot0.furnitures[slot1])
-end
-
-function slot0.StopPlayMusicalInstruments(slot0, slot1)
-	slot0:DispatchEvent(CourtYardEvent.FURNITURE_STOP_PLAY_MUSICALINSTRUMENTS, slot0.furnitures[slot1])
-end
-
 function slot0.PlayFurnitureVoice(slot0, slot1)
 	if #_.select(slot0.furnitures[slot1].musicDatas, function (slot0)
 		return slot0.voiceType == 1
@@ -530,19 +521,6 @@ function slot0.PlayFurnitureBg(slot0, slot1)
 	if slot2:GetMusicData() then
 		slot0:DispatchEvent(CourtYardEvent.ON_ITEM_PLAY_MUSIC, slot4.voice, slot4.voiceType)
 	end
-end
-
-function slot0.MuteAll(slot0)
-	for slot4, slot5 in pairs(slot0.furnitures) do
-		if slot5:GetMusicData() then
-			slot7 = slot5:GetMusicData()
-
-			slot0:DispatchEvent(CourtYardEvent.ON_ITEM_STOP_MUSIC, slot7.voice, slot7.voiceType)
-			slot5:ChangeState(CourtYardFurniture.STATE_STOP_MUSIC)
-		end
-	end
-
-	slot0:DispatchEvent(CourtYardEvent.FURNITURE_MUTE_ALL)
 end
 
 function slot0.StopPrevFurnitureVoice(slot0)

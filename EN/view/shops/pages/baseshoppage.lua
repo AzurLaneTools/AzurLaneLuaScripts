@@ -114,7 +114,7 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 
 	slot4 = nil
 
-	((slot3.type ~= DROP_TYPE_EQUIPMENT_SKIN or slot0.contextData.singleWindowForESkin) and (slot1:getConfig("num_limit") ~= 1 and slot1:getConfig("commodity_type") ~= 4 and (not isa(slot1, QuotaCommodity) or slot1:GetLimitGoodCount() ~= 1) or slot0.contextData.singleWindow) and slot0.contextData.multiWindow):ExecuteAction("Open", slot1, function (slot0, slot1, slot2)
+	((slot3.type ~= DROP_TYPE_EQUIPMENT_SKIN or slot0.contextData.singleWindowForESkin) and (slot1:getConfig("num_limit") ~= 1 and slot1:getConfig("commodity_type") ~= 4 or slot0.contextData.singleWindow) and slot0.contextData.multiWindow):ExecuteAction("Open", slot1, function (slot0, slot1, slot2)
 		slot3 = {}
 
 		if slot0:getConfig("commodity_type") == 4 or uv0.shop.type == ShopArgs.ShopActivity then

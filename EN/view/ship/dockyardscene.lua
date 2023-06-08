@@ -88,13 +88,8 @@ function slot0.init(slot0)
 	slot0.selectPanel = slot0.blurPanel:Find("select_panel")
 	slot0.bottomTipsText = slot0.selectPanel:Find("tip")
 	slot0.bottomTipsWithFrameText = slot0.selectPanel:Find("tipwithframe/Text")
-
-	setText(slot0.selectPanel:Find("bottom_info/bg_input/selected"), i18n("disassemble_selected") .. ":")
-
 	slot0.awardTF = slot0.selectPanel:Find("bottom_info/bg_award")
-
-	setText(slot0.awardTF:Find("label"), i18n("disassemble_available") .. ":")
-
+	slot0.awardLabelTF = slot0.selectPanel:Find("bottom_info/bg_award_label")
 	slot0.modAttrsTF = slot0.selectPanel:Find("bottom_info/bg_mod")
 	slot0.viewEquipmentBtn = slot0.selectPanel:Find("view_equipments")
 	slot0.tipPanel = slot0.blurPanel:Find("TipPanel")
@@ -122,7 +117,7 @@ function slot0.init(slot0)
 		[uv0.MODE_DESTROY] = function ()
 			uv0.selecteEnabled = true
 			uv0.blacklist = {}
-			uv0.destroyResList = UIItemList.New(uv0.awardTF:Find("res_list"), uv0.awardTF:Find("res_list/res"))
+			uv0.destroyResList = UIItemList.New(uv0.awardTF, uv0.awardTF:Find("res"))
 		end,
 		[uv0.MODE_MOD] = function ()
 			uv0.selecteEnabled = true
@@ -141,6 +136,8 @@ function slot0.init(slot0)
 
 	setActive(slot0.settingBtn, slot2)
 	setActive(slot0.selectPanel:Find("quick_select"), slot2)
+
+	slot0.destroyConfirmWindow = ShipDestoryConfirmWindow.New(slot0._tf, slot0.event)
 
 	if slot0.contextData.priorEquipUpShipIDList and slot0.contextData.priorMode then
 		setActive(slot0.tipPanel, true)
@@ -234,49 +231,6 @@ function slot0.init(slot0)
 		setActive(slot0.selectPanel:Find("quick_select"), false)
 		setActive(slot0.settingBtn, false)
 	end
-
-	slot0.destroyPage = ShipDestroyPage.New(slot0._tf, slot0.event)
-	slot4 = slot0.destroyPage
-
-	slot4:SetCardClickCallBack(function (slot0)
-		uv0.blacklist[slot0.shipVO:getGroupId()] = true
-
-		if table.indexof(uv0.selectedIds, slot0.shipVO.id) and slot1 > 0 then
-			table.remove(uv0.selectedIds, slot1)
-		end
-
-		uv0:updateDestroyRes()
-		uv0:updateSelected()
-	end)
-
-	slot4 = slot0.destroyPage
-
-	slot4:SetConfirmCallBack(function ()
-		slot0 = {}
-		slot1, slot2 = uv0:checkDestroyGold()
-
-		if not slot2 then
-			table.insert(slot0, function (slot0)
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("oil_max_tip_title") .. i18n("resource_max_tip_retire_1"),
-					onYes = slot0
-				})
-			end)
-		end
-
-		slot3 = underscore.map(uv0.selectedIds, function (slot0)
-			return uv0.shipVOsById[slot0]
-		end)
-
-		table.insert(slot0, function (slot0)
-			uv0:checkDestroyShips(uv1, slot0)
-		end)
-		seriesAsync(slot0, function ()
-			uv0:emit(DockyardMediator.ON_DESTROY_SHIPS, uv0.selectedIds)
-		end)
-	end)
-
-	slot0.destroyConfirmWindow = ShipDestoryConfirmWindow.New(slot0._tf, slot0.event)
 end
 
 function slot0.isDefaultStatus(slot0)
@@ -349,8 +303,6 @@ function slot0.onInitItem(slot0, slot1)
 	end
 
 	slot0.scrollItems[slot1] = slot2
-
-	return slot2
 end
 
 function slot0.showEnergyDesc(slot0, slot1, slot2)
@@ -378,7 +330,12 @@ function slot0.showEnergyDesc(slot0, slot1, slot2)
 end
 
 function slot0.onUpdateItem(slot0, slot1, slot2)
-	slot3 = slot0.scrollItems[slot2] or slot0:onInitItem(slot2)
+	if not slot0.scrollItems[slot2] then
+		slot0:onInitItem(slot2)
+
+		slot3 = slot0.scrollItems[slot2]
+	end
+
 	slot4 = slot0.shipVOs[slot1 + 1]
 
 	if slot0.contextData.selectFriend then
@@ -968,13 +925,23 @@ function slot0.didEnter(slot0)
 			slot0 = {}
 
 			if uv0.contextData.destroyCheck then
-				slot1 = underscore.map(uv0.selectedIds, function (slot0)
+				slot2, slot3 = ShipCalcHelper.GetEliteAndHightLevelShips(underscore.map(uv0.selectedIds, function (slot0)
 					return uv0.shipVOsById[slot0]
-				end)
+				end))
 
-				table.insert(slot0, function (slot0)
-					uv0:checkDestroyShips(uv1, slot0)
-				end)
+				if #slot2 > 0 or #slot3 > 0 then
+					table.insert(slot0, function (slot0)
+						uv0.destroyConfirmWindow:ExecuteAction("Show", uv1, uv2, false, slot0)
+					end)
+				end
+
+				if #underscore.filter(slot1, function (slot0)
+					return slot0:getFlag("inElite")
+				end) > 0 then
+					table.insert(slot0, function (slot0)
+						uv0.destroyConfirmWindow:ExecuteAction("ShowEliteTag", uv1, slot0)
+					end)
+				end
 			end
 
 			seriesAsync(slot0, function ()
@@ -1108,30 +1075,29 @@ function slot0.didEnter(slot0)
 		slot10 = 0
 		slot11 = false
 		slot12 = false
-		slot13 = 0
-		slot14 = 0
 
-		for slot18, slot19 in ipairs(uv0.selectedIds) do
-			slot21, slot22 = uv0.shipVOsById[slot19]:calReturnRes()
-			slot13 = slot13 + slot21
-			slot14 = slot14 + slot22
-		end
+		for slot16 = 1, uv0.selectedMax - #uv0.selectedIds do
+			if slot6[slot16] then
+				slot17 = 0
+				slot18 = 0
 
-		for slot18, slot19 in ipairs(slot6) do
-			if uv0.selectedMax > 0 and uv0.selectedMax <= #uv0.selectedIds then
-				break
+				for slot22, slot23 in ipairs(uv0.selectedIds) do
+					slot25, slot26 = uv0.shipVOsById[slot23]:calReturnRes()
+					slot17 = slot17 + slot25
+					slot18 = slot18 + slot26
+				end
+
+				slot19, slot20 = slot6[slot16]:calReturnRes()
+				slot11 = uv0.player:OilMax(slot18 + slot20)
+
+				if uv0.player:GoldMax(slot17 + slot19) then
+					break
+				end
+
+				slot10 = slot10 + 1
+
+				uv0:selectShip(slot6[slot16], true)
 			end
-
-			slot20, slot21 = slot19:calReturnRes()
-			slot11 = uv0.player:OilMax(slot14 + slot21)
-
-			if uv0.player:GoldMax(slot13 + slot20) then
-				break
-			end
-
-			slot10 = slot10 + 1
-
-			uv0:selectShip(slot19, true)
 		end
 
 		if slot10 == 0 then
@@ -1289,13 +1255,13 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	if slot0.destroyPage:isShowing() then
+	if slot0.destroyPage and slot0.destroyPage:GetLoaded() and slot0.destroyPage:isShowing() then
 		slot0.destroyPage:Hide()
 
 		return
 	end
 
-	if slot0.settingPanel:isShowing() then
+	if slot0.settingPanel and slot0.settingPanel:isShowing() then
 		slot0.settingPanel:Hide()
 
 		return
@@ -1494,6 +1460,7 @@ function slot0.updateItemDetailType(slot0)
 end
 
 function slot0.closeDestroyMode(slot0)
+	setActive(slot0.awardLabelTF, false)
 	setActive(slot0.awardTF, false)
 	setActive(slot0.bottomTipsText, true)
 end
@@ -1503,6 +1470,7 @@ function slot0.updateDestroyRes(slot0)
 		slot0:closeDestroyMode()
 	else
 		setActive(slot0.awardTF, true)
+		setActive(slot0.awardLabelTF, true)
 		setActive(slot0.bottomTipsText, false)
 	end
 
@@ -1620,6 +1588,7 @@ end
 
 function slot0.willExit(slot0)
 	slot0:closeDestroyMode()
+	slot0:closeDestroyPanel()
 	slot0:closeModAttr()
 	slot0:ClearShipsBlackBlock()
 
@@ -1629,10 +1598,6 @@ function slot0.willExit(slot0)
 
 	if slot0.settingPanel then
 		slot0.settingPanel:Destroy()
-	end
-
-	if slot0.destroyPage then
-		slot0.destroyPage:Destroy()
 	end
 
 	if slot0.destroyConfirmWindow then
@@ -1745,37 +1710,73 @@ function slot0.quickExitFunc(slot0)
 end
 
 function slot0.displayDestroyPanel(slot0)
-	slot0.destroyPage:ExecuteAction("Show")
-	slot0.destroyPage:ActionInvoke("Refresh", slot0.selectedIds, slot0.shipVOsById)
+	if not slot0.destroyPage then
+		slot0.destroyPage = ShipDestoryPage.New(slot0._tf, slot0.event)
+		slot1 = slot0.destroyPage
+
+		slot1:SetCardClickCallBack(function (slot0)
+			uv0.blacklist[slot0.shipVO:getGroupId()] = true
+
+			if table.indexof(uv0.selectedIds, slot0.shipVO.id) and slot1 > 0 then
+				table.remove(uv0.selectedIds, slot1)
+			end
+
+			uv0:updateDestroyRes()
+			uv0:updateSelected()
+		end)
+
+		slot1 = slot0.destroyPage
+
+		slot1:SetConfirmCallBack(function ()
+			slot0 = {}
+			slot1, slot2 = uv0:checkDestroyGold()
+
+			if not slot2 then
+				table.insert(slot0, function (slot0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("oil_max_tip_title") .. i18n("resource_max_tip_retire_1"),
+						onYes = slot0
+					})
+				end)
+			end
+
+			slot4, slot5 = ShipCalcHelper.GetEliteAndHightLevelShips(underscore.map(uv0.selectedIds, function (slot0)
+				return uv0.shipVOsById[slot0]
+			end))
+
+			if #slot4 > 0 or #slot5 > 0 then
+				table.insert(slot0, function (slot0)
+					slot1, slot2, slot3, slot4 = ShipCalcHelper.CalcDestoryRes(uv0)
+
+					uv1.destroyConfirmWindow:ExecuteAction("Show", uv2, uv3, slot4, slot0)
+				end)
+			end
+
+			if #underscore.filter(slot3, function (slot0)
+				return slot0:getFlag("inElite")
+			end) > 0 then
+				table.insert(slot0, function (slot0)
+					uv0.destroyConfirmWindow:ExecuteAction("ShowEliteTag", uv1, slot0)
+				end)
+			end
+
+			seriesAsync(slot0, function ()
+				uv0:emit(DockyardMediator.ON_DESTROY_SHIPS, uv0.selectedIds)
+			end)
+		end)
+	end
+
+	if slot0.destroyPage and not slot0.destroyPage:GetLoaded() then
+		slot0.destroyPage:ExecuteAction("Refresh", slot0.selectedIds, slot0.shipVOsById)
+	elseif slot0.destroyPage then
+		slot0.destroyPage:Refresh(slot0.selectedIds, slot0.shipVOsById)
+	end
 end
 
 function slot0.closeDestroyPanel(slot0)
-	if slot0.destroyPage:isShowing() then
+	if slot0.destroyPage and slot0.destroyPage:GetLoaded() and slot0.destroyPage:isShowing() then
 		slot0.destroyPage:Hide()
 	end
-end
-
-function slot0.checkDestroyShips(slot0, slot1, slot2)
-	slot3 = {}
-	slot4, slot5 = ShipCalcHelper.GetEliteAndHightLevelShips(slot1)
-
-	if #slot4 > 0 or #slot5 > 0 then
-		table.insert(slot3, function (slot0)
-			slot1, slot2, slot3, slot4 = ShipCalcHelper.CalcDestoryRes(uv0)
-
-			uv1.destroyConfirmWindow:ExecuteAction("Show", uv2, uv3, slot4, slot0)
-		end)
-	end
-
-	if #underscore.filter(slot1, function (slot0)
-		return slot0:getFlag("inElite")
-	end) > 0 then
-		table.insert(slot3, function (slot0)
-			uv0.destroyConfirmWindow:ExecuteAction("ShowEliteTag", uv1, slot0)
-		end)
-	end
-
-	seriesAsync(slot3, slot2)
 end
 
 return slot0

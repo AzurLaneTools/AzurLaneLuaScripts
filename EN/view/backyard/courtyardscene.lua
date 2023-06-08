@@ -153,11 +153,7 @@ function slot0.onBackPressed(slot0)
 		end
 	end
 
-	if _courtyard then
-		_courtyard:GetController():OnBackPressed()
-	else
-		uv0.super.onBackPressed(slot0)
-	end
+	uv0.super.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)

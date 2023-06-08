@@ -95,15 +95,6 @@ function slot1.CameraPosToUICameraByRef(slot0)
 	slot0.z = 0
 end
 
-function slot1.UIPosToScenePos(slot0, slot1)
-	slot2 = pg.CameraFixMgr.GetInstance()
-	slot7 = uv0._uiCamera:ScreenToWorldPoint(Vector2(slot2:GetCurrentWidth() / 1920 * slot0.x, slot2:GetCurrentHeight() / 1080 * slot0.y))
-	slot9 = (slot7.y - uv4) / uv5 + uv6
-	slot10 = math.tan(30 * Mathf.Deg2Rad)
-
-	slot1:Set((slot7.x - uv1) / uv2 + uv3, 0, slot9 / slot10 + slot9 * slot10 * 0.5)
-end
-
 function slot1.AppendMapFactor(slot0, slot1)
 	if uv0.MapSpeedFacotrList[slot0] ~= nil then
 		uv0.RemoveMapFactor(slot0)

@@ -64,9 +64,11 @@ function slot0.onBackPressed(slot0)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n("tips_summergame_exit"),
 		onYes = function ()
-			uv0.countTime = 0
+			if uv0.snackResultView then
+				uv0.snackResultView:Destroy()
+			end
 
-			uv0.timer:Start()
+			uv0:emit(uv1.ON_BACK_PRESSED)
 		end,
 		onNo = function ()
 			uv0.timer:Start()

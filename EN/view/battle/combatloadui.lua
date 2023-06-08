@@ -232,29 +232,6 @@ function slot0.Preload(slot0)
 
 				uv0.addCommanderBuffRes(slot15:buildBattleBuffList())
 			end
-		elseif slot0.contextData.system == SYSTEM_LIMIT_CHALLENGE then
-			slot7 = getProxy(FleetProxy)
-			slot9 = slot7:getFleetById(FleetProxy.CHALLENGE_SUB_FLEET_ID)
-
-			if slot7:getFleetById(FleetProxy.CHALLENGE_FLEET_ID) then
-				for slot14, slot15 in ipairs(slot8:GetRawShipIds()) do
-					table.insert(slot3, slot2:getShipById(slot15))
-				end
-
-				uv0.addCommanderBuffRes(slot8:buildBattleBuffList())
-			end
-
-			if slot9 then
-				for slot14, slot15 in ipairs(slot9:GetRawShipIds()) do
-					table.insert(slot3, slot2:getShipById(slot15))
-				end
-
-				uv0.addCommanderBuffRes(slot9:buildBattleBuffList())
-			end
-
-			if AcessWithinNull(pg.expedition_constellation_challenge_template[LimitChallengeConst.GetChallengeIDByStageID(slot0.contextData.stageId)], "buff_id") then
-				uv0.addEnemyBuffRes(slot11)
-			end
 		elseif slot0.contextData.system == SYSTEM_GUILD then
 			for slot13, slot14 in ipairs(getProxy(GuildProxy):getRawData():GetActiveEvent():GetBossMission():GetMainFleet():GetShips()) do
 				if slot14 and slot14.ship then
@@ -576,16 +553,6 @@ function slot0.addChapterAuraRes(slot0)
 
 	for slot5, slot6 in ipairs(slot0) do
 		for slot11, slot12 in ipairs(ys.Battle.BattleDataFunction.GetResFromBuff(slot6.id, slot6.level, {})) do
-			slot1:AddPreloadResource(slot12)
-		end
-	end
-end
-
-function slot0.addEnemyBuffRes(slot0)
-	slot1 = ys.Battle.BattleResourceManager.GetInstance()
-
-	for slot5, slot6 in ipairs(slot0) do
-		for slot11, slot12 in ipairs(ys.Battle.BattleDataFunction.GetResFromBuff(slot6.ID, slot6.LV, {})) do
 			slot1:AddPreloadResource(slot12)
 		end
 	end

@@ -172,10 +172,10 @@ pg.expedition_daily_template = {
 		}
 	},
 	[501] = {
-		tips = "4 times per week",
+		tips = "Supply Line Disruption is open every day, and can be played a maximum of 2 times weekly. ",
 		limit_type = 2,
 		show_with_count = 0,
-		limit_time = 4,
+		limit_time = 2,
 		insert_daily = 0,
 		title = "Supply Line Disruption ",
 		pic = "daily5",

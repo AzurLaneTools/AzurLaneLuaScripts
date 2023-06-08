@@ -248,6 +248,14 @@ function slot0.getBluePrintChangeSkillList(slot0)
 	return pg.ship_data_blueprint[slot0.id].change_skill
 end
 
+function slot0.GetSkin(slot0, slot1)
+	if not slot1 then
+		return uv0.getDefaultSkin(slot0.id)
+	else
+		return uv0.getModSkin(slot0.id)
+	end
+end
+
 function slot0.GetNationTxt(slot0)
 	slot1 = slot0.shipConfig.nationality
 

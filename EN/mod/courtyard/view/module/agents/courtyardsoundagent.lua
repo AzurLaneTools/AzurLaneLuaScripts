@@ -20,10 +20,6 @@ function slot0.Stop(slot0)
 	slot0.curVoiceKey = nil
 end
 
-function slot0.Clear(slot0)
-	slot0:Stop()
-end
-
 function slot0.Dispose(slot0)
 	slot0:Stop()
 end

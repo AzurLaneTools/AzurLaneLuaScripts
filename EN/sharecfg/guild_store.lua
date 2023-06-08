@@ -12,7 +12,6 @@ pg.guild_store = {
 		goods_type = 1,
 		id = 1,
 		goods_icon = "Props/15008",
-		order = 0,
 		goods = {
 			15008
 		}
@@ -29,7 +28,6 @@ pg.guild_store = {
 		goods_type = 1,
 		id = 2,
 		goods_icon = "Props/20011",
-		order = 0,
 		goods = {
 			20011
 		}
@@ -46,7 +44,6 @@ pg.guild_store = {
 		goods_type = 1,
 		id = 3,
 		goods_icon = "Props/20012",
-		order = 0,
 		goods = {
 			20012
 		}
@@ -63,7 +60,6 @@ pg.guild_store = {
 		goods_type = 1,
 		id = 4,
 		goods_icon = "Props/20013",
-		order = 0,
 		goods = {
 			20013
 		}
@@ -80,7 +76,6 @@ pg.guild_store = {
 		goods_type = 1,
 		id = 5,
 		goods_icon = "Props/huangjialiaoli",
-		order = 0,
 		goods = {
 			50005
 		}
@@ -97,7 +92,6 @@ pg.guild_store = {
 		goods_type = 1,
 		id = 6,
 		goods_icon = "Props/manhanquanxi",
-		order = 0,
 		goods = {
 			50006
 		}
@@ -114,7 +108,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 101,
 		goods_icon = "Props/54002",
-		order = 0,
 		goods = {
 			16002,
 			16012,
@@ -133,7 +126,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 102,
 		goods_icon = "Props/54003",
-		order = 0,
 		goods = {
 			16003,
 			16013,
@@ -152,7 +144,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 111,
 		goods_icon = "Props/54012",
-		order = 0,
 		goods = {
 			17002,
 			17012,
@@ -173,7 +164,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 112,
 		goods_icon = "Props/54013",
-		order = 0,
 		goods = {
 			17003,
 			17013,
@@ -194,7 +184,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 113,
 		goods_icon = "Props/54014",
-		order = 1,
 		goods = {
 			17004,
 			17014,
@@ -215,7 +204,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 121,
 		goods_icon = "Props/54032",
-		order = 0,
 		goods = {
 			18002,
 			18012,
@@ -235,7 +223,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 122,
 		goods_icon = "Props/54033",
-		order = 0,
 		goods = {
 			18003,
 			18013,
@@ -255,7 +242,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 131,
 		goods_icon = "Props/30003",
-		order = 0,
 		goods = {
 			30013,
 			30023,
@@ -275,7 +261,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 132,
 		goods_icon = "Props/30004",
-		order = 0,
 		goods = {
 			30014,
 			30024,
@@ -295,7 +280,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 201,
 		goods_icon = "Props/54000",
-		order = 4,
 		goods = {
 			102051,
 			102091,
@@ -338,7 +322,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 202,
 		goods_icon = "Props/54000",
-		order = 3,
 		goods = {
 			101091,
 			102041,
@@ -361,7 +344,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 203,
 		goods_icon = "Props/54000",
-		order = 2,
 		goods = {
 			101161,
 			101271,
@@ -396,7 +378,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 301,
 		goods_icon = "Props/52001",
-		order = 0,
 		goods = {
 			42001,
 			42002,
@@ -418,7 +399,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 302,
 		goods_icon = "Props/52001",
-		order = 0,
 		goods = {
 			42011,
 			42012,
@@ -438,7 +418,6 @@ pg.guild_store = {
 		goods_type = 2,
 		id = 303,
 		goods_icon = "Props/52001",
-		order = 0,
 		goods = {
 			42021,
 			42023,

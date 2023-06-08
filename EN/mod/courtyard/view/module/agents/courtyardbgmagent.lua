@@ -96,16 +96,6 @@ function slot0.PlayVoice(slot0, slot1, slot2)
 	slot0.playName = slot1
 end
 
-function slot0.Clear(slot0)
-	slot0:RemoveTimer()
-
-	slot0.recoders = {}
-	slot0.playName = nil
-	slot0.waitForStop = false
-
-	pg.CriMgr.GetInstance():StopBGM()
-end
-
 function slot0.Dispose(slot0)
 	slot0.recoders = nil
 

@@ -45,13 +45,9 @@ end
 
 function slot1.notifyObservers(slot0, slot1)
 	if slot0.observerMap[slot1:getName()] ~= nil then
-		for slot7, slot8 in pairs(table.shallowCopy(slot2)) do
-			if table.contains(slot2, slot8) then
-				slot8:notifyObserver(slot1)
-			end
+		for slot6, slot7 in pairs(slot2) do
+			slot7:notifyObserver(slot1)
 		end
-
-		slot3 = nil
 	end
 end
 

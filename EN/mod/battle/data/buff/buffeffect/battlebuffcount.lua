@@ -17,22 +17,9 @@ function slot3.SetArgs(slot0, slot1, slot2)
 	slot0._index = slot3.index
 	slot0._maxHPRatio = slot3.maxHPRatio or 0
 	slot0._casterMaxHPRatio = slot3.casterMaxHPRatio or 0
-	slot0._clock = slot0._tempData.arg_list.clock
-	slot0._interrupt = slot0._tempData.arg_list.interrupt
-	slot0._iconType = slot0._tempData.arg_list.iconType or 1
 	slot0._gunnerBonus = slot3.gunnerBonus
 
 	slot0:ResetCount()
-
-	if slot0._clock then
-		slot1:DispatchCastClock(true, slot0, slot0._iconType, slot0._interrupt)
-	end
-end
-
-function slot3.onRemove(slot0, slot1, slot2)
-	if slot0._clock then
-		slot1:DispatchCastClock(false, slot0, nil, slot0._interrupt and slot0._count < slot0._countTarget)
-	end
 end
 
 function slot3.onTrigger(slot0, slot1, slot2)
@@ -51,19 +38,6 @@ function slot3.onFire(slot0, slot1, slot2, slot3)
 	slot0._count = slot0._count + 1
 
 	slot0:checkModCount(slot1)
-end
-
-function slot3.onUpdate(slot0, slot1, slot2, slot3)
-	slot0._count = slot3.timeStamp - (slot0._lastTriggerTime or slot2:GetBuffStartTime())
-
-	if slot0._countTarget <= slot0._count then
-		slot0._lastTriggerTime = slot4
-
-		slot0:ResetCount()
-		slot1:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_BATTLE_BUFF_COUNT, {
-			buffFX = slot0
-		})
-	end
 end
 
 function slot3.onTakeDamage(slot0, slot1, slot2, slot3)
@@ -149,10 +123,6 @@ end
 
 function slot3.GetCountType(slot0)
 	return slot0._countType
-end
-
-function slot3.GetCountProgress(slot0)
-	return slot0._count / slot0._countTarget
 end
 
 function slot3.ResetCount(slot0)

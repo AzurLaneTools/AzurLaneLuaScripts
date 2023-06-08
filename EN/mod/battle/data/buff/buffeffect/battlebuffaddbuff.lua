@@ -27,10 +27,10 @@ function slot3.SetArgs(slot0, slot1, slot2)
 end
 
 function slot3.onUpdate(slot0, slot1, slot2, slot3)
-	if slot0._nextEffectTime <= slot3.timeStamp then
+	if slot0._nextEffectTime <= slot3 then
 		slot0:attachBuff(slot0._buff_id, slot0._level, slot1)
 
-		slot0._nextEffectTime = slot4 + slot0._time
+		slot0._nextEffectTime = slot3 + slot0._time
 	end
 end
 

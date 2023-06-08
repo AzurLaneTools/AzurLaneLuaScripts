@@ -21,7 +21,7 @@ function slot0.Battle.BattleBuffHOT.onStack(slot0, slot1, slot2)
 end
 
 function slot0.Battle.BattleBuffHOT.onUpdate(slot0, slot1, slot2, slot3)
-	if slot0._nextEffectTime <= slot3.timeStamp then
+	if slot0._nextEffectTime <= slot3 then
 		slot1:UpdateHP(slot0:CalcNumber(slot1, slot2), {
 			isMiss = false,
 			isCri = false,

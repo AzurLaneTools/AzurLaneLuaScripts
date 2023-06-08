@@ -4,10 +4,6 @@ slot1 = slot0.Battle.BattleConst
 slot2 = slot0.Battle.BattleFormulas
 slot0.Battle.BattleDataFunction = slot0.Battle.BattleDataFunction or {}
 slot3 = slot0.Battle.BattleDataFunction
-slot4 = pg.puzzle_card_template
-slot5 = pg.puzzle_ship_template
-slot6 = pg.puzzle_combat_template
-slot7 = pg.puzzle_card_affix
 
 function slot3.GetDungeonTmpDataByID(slot0)
 	return require("GameCfg.dungeon." .. slot0)
@@ -399,28 +395,4 @@ function slot3.GetLimitAttributeRange(slot0, slot1)
 	end
 
 	return slot1
-end
-
-function slot3.GetPuzzleCardDataTemplate(slot0)
-	assert(uv0[slot0] ~= nil, ">>puzzle_card_template<< 找不到卡牌配置：" .. slot0)
-
-	return uv0[slot0]
-end
-
-function slot3.GetPuzzleShipDataTemplate(slot0)
-	assert(uv0[slot0] ~= nil, ">>puzzle_ship_template<< 找不到卡牌舰船配置：" .. slot0)
-
-	return uv0[slot0]
-end
-
-function slot3.GetPuzzleDungeonTemplate(slot0)
-	assert(uv0[slot0] ~= nil, ">>puzzle_combat_template<< 找不到卡牌关卡配置：" .. slot0)
-
-	return uv0[slot0]
-end
-
-function slot3.GetPuzzleCardAffixDataTemplate(slot0)
-	assert(uv0[slot0] ~= nil, ">>puzzle_card_affix<< 找不到卡牌关卡配置：" .. slot0)
-
-	return uv0[slot0]
 end

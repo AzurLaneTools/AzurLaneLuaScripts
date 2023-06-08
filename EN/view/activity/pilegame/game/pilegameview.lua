@@ -45,10 +45,7 @@ function slot0.SetUI(slot0, slot1)
 	slot0.bgMgr = PileGameBgMgr.New(slot0._tf:Find("AD/bgs"))
 end
 
-function slot0.OnEnterGame(slot0, slot1)
-	slot0.viewData = slot1
-	slot0.gameHelpTip = slot0.viewData.tip and slot0.viewData.tip or nil
-
+function slot0.OnEnterGame(slot0)
 	setActive(slot0.overviewPanel, true)
 	setActive(slot0.bg, false)
 	onButton(slot0, slot0.startBtn, function ()
@@ -57,7 +54,7 @@ function slot0.OnEnterGame(slot0, slot1)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = uv0.gameHelpTip or pg.gametip.pile_game_notice.tip
+			helps = pg.gametip.pile_game_notice.tip
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()

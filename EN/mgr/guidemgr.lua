@@ -625,13 +625,11 @@ end
 
 function slot0.SetHighLightLine(slot0, slot1)
 	slot2 = slot0._tf:InverseTransformPoint(slot1.position)
-	slot3 = cloneTplTo(findTF(slot0._signRes, "wShowArea"), slot0._tf)
-	slot4 = 15
-	slot3.sizeDelta = Vector2(slot1.sizeDelta.x + slot4, slot1.sizeDelta.y + slot4)
-	slot3.pivot = slot1.pivot
-	slot3.localPosition = Vector3(slot2.x, slot2.y, 0) + Vector3((slot1.pivot.x - 0.5) * slot4, (slot1.pivot.y - 0.5) * slot4, 0)
-
-	return slot3
+	slot0.highLightLine = cloneTplTo(findTF(slot0._signRes, "wShowArea"), slot0._tf)
+	slot3 = 15
+	slot0.highLightLine.sizeDelta = Vector2(slot1.sizeDelta.x + slot3, slot1.sizeDelta.y + slot3)
+	slot0.highLightLine.pivot = slot1.pivot
+	slot0.highLightLine.localPosition = Vector3(slot2.x, slot2.y, 0) + Vector3((slot1.pivot.x - 0.5) * slot3, (slot1.pivot.y - 0.5) * slot3, 0)
 end
 
 function slot0.updateUIStyle(slot0, slot1, slot2, slot3)
@@ -639,11 +637,9 @@ function slot0.updateUIStyle(slot0, slot1, slot2, slot3)
 
 	SetActive(slot0.guiderTF, slot1.style)
 
-	slot0.highLightLines = {}
-
 	function slot4(slot0)
 		if uv0.style.ui.lineMode then
-			table.insert(uv1.highLightLines, uv1:SetHighLightLine(slot0))
+			uv1:SetHighLightLine(slot0)
 		else
 			uv1.cloneTarget = uv1:cloneGO(go(slot0), uv1._tf, uv0.style.ui)
 		end
@@ -651,24 +647,10 @@ function slot0.updateUIStyle(slot0, slot1, slot2, slot3)
 
 	function slot5()
 		onButton(uv0, uv0._go, function ()
-			if uv0.style and uv0.style.scene then
-				uv1:finishCurrEvent(uv0, uv2)
-				pg.m02:sendNotification(GAME.GO_SCENE, SCENE[uv0.style.scene])
-			elseif uv0.style.trigger then
-				uv1.finder:Search({
-					path = uv0.style.trigger.path,
-					delay = uv0.style.trigger.delay,
-					pathIndex = uv0.style.trigger.pathIndex,
-					found = function (slot0)
-						triggerButton(slot0)
-						uv0:finishCurrEvent(uv1, uv2)
-					end,
-					notFound = function ()
-						uv0:endGuider()
-					end
-				})
-			else
-				uv1:finishCurrEvent(uv0, uv2)
+			uv0:finishCurrEvent(uv1, uv2)
+
+			if uv1.style and uv1.style.scene then
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE[uv1.style.scene])
 			end
 		end, SFX_PANEL)
 		setButtonEnabled(uv0._go, uv3)
@@ -698,23 +680,8 @@ function slot0.updateUIStyle(slot0, slot1, slot2, slot3)
 						delay = uv1.delay,
 						pathIndex = uv1.pathIndex,
 						found = function (slot0)
-							slot1, slot2 = nil
-
-							if uv0.style.lineMode then
-								slot2 = uv1:SetHighLightLine(slot0)
-							else
-								slot1 = uv1:cloneGO(go(slot0), uv1._tf, uv2)
-							end
-
-							if slot1 then
-								table.insert(uv1.uisetGos, slot1)
-							end
-
-							if slot2 then
-								table.insert(uv1.highLightLines, slot2)
-							end
-
-							uv3()
+							table.insert(uv0.uisetGos, uv0:cloneGO(go(slot0), uv0._tf, uv1))
+							uv2()
 						end,
 						notFound = function ()
 							uv0:endGuider()
@@ -1170,12 +1137,10 @@ function slot0.finishCurrEvent(slot0, slot1, slot2)
 		slot0.findUITimer = nil
 	end
 
-	if slot0.highLightLines then
-		for slot6, slot7 in ipairs(slot0.highLightLines) do
-			Destroy(slot7)
-		end
+	if slot0.highLightLine then
+		Destroy(slot0.highLightLine)
 
-		slot0.highLightLines = {}
+		slot0.highLightLine = nil
 	end
 
 	if slot2 then

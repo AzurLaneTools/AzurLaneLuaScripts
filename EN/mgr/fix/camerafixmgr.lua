@@ -204,14 +204,6 @@ function slot0.GetBattleUIRatio(slot0)
 	return slot0.targetRatio
 end
 
-function slot0.GetCurrentWidth(slot0)
-	return slot0.currentWidth
-end
-
-function slot0.GetCurrentHeight(slot0)
-	return slot0.currentHeight
-end
-
 function slot0.Clear(slot0)
 	if slot0.handle then
 		LateUpdateBeat:RemoveListener(slot0.handle)

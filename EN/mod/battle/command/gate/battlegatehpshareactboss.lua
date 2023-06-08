@@ -155,20 +155,24 @@ function slot0.Exit(slot0, slot1)
 	slot19.enemy_info = slot20
 
 	slot1:SendRequest(slot19, function (slot0)
-		uv0.addShipsExp(slot0.ship_exp_list, uv1.statistics, true)
+		if uv0.end_sink_cost > 0 then
+			uv1.DeadShipEnergyCosume(uv2, uv3)
+		end
 
-		uv1.statistics.mvpShipID = slot0.mvp
-		slot1, slot2 = uv0:GeneralLoot(slot0)
+		uv1.addShipsExp(slot0.ship_exp_list, uv2.statistics, true)
 
-		uv0.GeneralPlayerCosume(SYSTEM_HP_SHARE_ACT_BOSS, ys.Battle.BattleConst.BattleScore.C < uv2, uv5, slot0.player_exp)
-		uv6:AddStage(uv1.stageId)
-		getProxy(ActivityProxy):updateActivity(uv6)
-		uv0:sendNotification(GAME.FINISH_STAGE_DONE, {
+		uv2.statistics.mvpShipID = slot0.mvp
+		slot1, slot2 = uv1:GeneralLoot(slot0)
+
+		uv1.GeneralPlayerCosume(SYSTEM_HP_SHARE_ACT_BOSS, ys.Battle.BattleConst.BattleScore.C < uv4, uv7, slot0.player_exp)
+		uv8:AddStage(uv2.stageId)
+		getProxy(ActivityProxy):updateActivity(uv8)
+		uv1:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = SYSTEM_HP_SHARE_ACT_BOSS,
-			statistics = uv1.statistics,
-			score = uv2,
+			statistics = uv2.statistics,
+			score = uv4,
 			drops = slot1,
-			commanderExps = uv0.GenerateCommanderExp(slot0, uv3, uv4[uv1.mainFleetId + 10]),
+			commanderExps = uv1.GenerateCommanderExp(slot0, uv5, uv6[uv2.mainFleetId + 10]),
 			result = slot0.result,
 			extraDrops = slot2
 		})

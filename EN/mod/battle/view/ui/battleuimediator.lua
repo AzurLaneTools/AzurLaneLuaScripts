@@ -742,14 +742,3 @@ function slot6.Dispose(slot0)
 
 	uv0.super.Dispose(slot0)
 end
-
-function slot6.onUpdateFleetBuff(slot0)
-end
-
-function slot6.onBlockCommonButton(slot0, slot1)
-	slot0:EnableComponent(slot1.Data.flag)
-end
-
-function slot6.onLongPressBulletTime(slot0, slot1)
-	slot0._state:ScaleTimer(slot1.Data.timeScale)
-end

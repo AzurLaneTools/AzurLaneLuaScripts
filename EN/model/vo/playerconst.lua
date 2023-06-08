@@ -142,8 +142,6 @@ function slot0.addTranDrop(slot0, slot1)
 				end
 
 				return nil, slot1
-			elseif slot2 == 1 and slot1:getConfig("link_id") == ActivityConst.LINLK_DUNHUANG_ACT then
-				return nil, slot1
 			end
 		elseif slot0.type == DROP_TYPE_SHIP and Ship.isMetaShipByConfigID(slot0.id) and Player.isMetaShipNeedToTrans(slot0.id) then
 			if table.indexof(uv1, slot0.id, 1) then
@@ -330,7 +328,7 @@ function slot0.ConsumeResForShopping(slot0, slot1)
 		slot3:consume({
 			[id2res(slot0.id)] = slot2
 		})
-		getProxy(PlayerProxy):updatePlayer(slot3)
+		playerProxy:updatePlayer(slot3)
 	elseif slot0.type == DROP_TYPE_ITEM then
 		getProxy(BagProxy):removeItemById(slot0.id, slot2)
 	else

@@ -207,56 +207,19 @@ function slot3.TargetHighestHP(slot0, slot1, slot2)
 	}
 end
 
-function slot3.TargetLowestHPRatio(slot0, slot1, slot2)
-	slot1 = slot1 or {}
-	slot3 = nil
-	slot4 = slot2 or uv0.TargetEntityUnit()
-	slot5 = 1
-
-	for slot9, slot10 in pairs(slot4) do
-		slot11 = slot10:GetHPRate()
-
-		if slot10:IsAlive() and slot11 < slot5 and slot11 > 0 then
-			slot3 = slot10
-			slot5 = slot11
-		end
-	end
-
-	return {
-		slot3
-	}
-end
-
-function slot3.TargetLowestHP(slot0, slot1, slot2)
-	slot1 = slot1 or {}
-	slot3 = nil
-	slot4 = slot2 or uv0.TargetEntityUnit()
-	slot5 = 9999999999.0
-
-	for slot9, slot10 in pairs(slot4) do
-		slot11 = slot10:GetCurrentHP()
-
-		if slot10:IsAlive() and slot11 < slot5 and slot11 > 0 then
-			slot3 = slot10
-			slot5 = slot11
-		end
-	end
-
-	return {
-		slot3
-	}
-end
-
 function slot3.TargetHighestHPRatio(slot0, slot1, slot2)
 	slot1 = slot1 or {}
 	slot3 = nil
-	slot4 = slot2 or uv0.TargetEntityUnit()
-	slot5 = 0
 
-	for slot9, slot10 in pairs(slot4) do
-		if slot10:IsAlive() and slot5 < slot10:GetHPRate() then
-			slot3 = slot10
-			slot5 = slot10:GetHPRate()
+	if slot0 then
+		slot4 = slot2 or uv0.TargetEntityUnit()
+		slot5 = 0
+
+		for slot9, slot10 in pairs(slot4) do
+			if slot10:IsAlive() and slot5 < slot10:GetHPRate() then
+				slot3 = slot10
+				slot5 = slot10:GetHPRate()
+			end
 		end
 	end
 
@@ -676,57 +639,53 @@ function slot3.TargetAllHarmTorpedoBullet(slot0)
 end
 
 function slot3.TargetFleetIndex(slot0, slot1)
-	slot2 = nil
-	slot3 = ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF((not slot0 or slot0:GetIFF()) and uv0.FRIENDLY_CODE)
-	slot4 = TeamType.TeamPos
-	slot5 = slot1.fleetPos
-	slot6 = {}
-	slot7 = slot3:GetUnitList()
-	slot8 = slot3:GetScoutList()
+	slot2 = ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF())
+	slot3 = TeamType.TeamPos
+	slot4 = slot1.fleetPos
+	slot5 = {}
+	slot7 = slot2:GetScoutList()
+	slot8 = slot0:GetUniqueID()
+	slot9 = slot1.exceptCaster
 
-	if slot1.exceptCaster then
-		slot10 = slot0:GetUniqueID()
-	end
-
-	for slot13, slot14 in ipairs(slot7) do
+	for slot13, slot14 in ipairs(slot2:GetUnitList()) do
 		slot15 = slot14:GetUniqueID()
 
-		if slot9 and slot15 == casterID then
+		if slot9 and slot15 == slot8 then
 			-- Nothing
-		elseif slot14 == slot3:GetFlagShip() then
-			if slot5 == slot4.FLAG_SHIP then
-				table.insert(slot6, slot14)
+		elseif slot14 == slot2:GetFlagShip() then
+			if slot4 == slot3.FLAG_SHIP then
+				table.insert(slot5, slot14)
 			end
-		elseif slot14 == slot8[1] then
-			if slot5 == slot4.LEADER then
-				table.insert(slot6, slot14)
+		elseif slot14 == slot7[1] then
+			if slot4 == slot3.LEADER then
+				table.insert(slot5, slot14)
 			end
-		elseif #slot8 == 3 and slot14 == slot8[2] then
-			if slot5 == slot4.CENTER then
-				table.insert(slot6, slot14)
+		elseif #slot7 == 3 and slot14 == slot7[2] then
+			if slot4 == slot3.CENTER then
+				table.insert(slot5, slot14)
 			end
-		elseif slot14 == slot8[#slot8] then
-			if slot5 == slot4.REAR then
-				table.insert(slot6, slot14)
+		elseif slot14 == slot7[#slot7] then
+			if slot4 == slot3.REAR then
+				table.insert(slot5, slot14)
 			end
-		elseif slot5 == slot4.CONSORT then
-			table.insert(slot6, slot14)
+		elseif slot4 == slot3.CONSORT then
+			table.insert(slot5, slot14)
 		end
 	end
 
-	slot10 = slot3:GetSubList()
+	slot10 = slot2:GetSubList()
 
-	for slot14, slot15 in ipairs(slot7) do
+	for slot14, slot15 in ipairs(slot6) do
 		if slot14 == 1 then
-			if slot5 == slot4.SUB_LEADER then
-				table.insert(slot6, slot15)
+			if slot4 == slot3.SUB_LEADER then
+				table.insert(slot5, slot15)
 			end
-		elseif slot5 == slot4.SUB_CONSORT then
-			table.insert(slot6, slot15)
+		elseif slot4 == slot3.SUB_CONSORT then
+			table.insert(slot5, slot15)
 		end
 	end
 
-	return slot6
+	return slot5
 end
 
 function slot3.TargetPlayerVanguardFleet(slot0, slot1, slot2)

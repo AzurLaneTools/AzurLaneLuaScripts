@@ -121,7 +121,6 @@ pg.furniture_data_template = setmetatable({
 			243,
 			245,
 			248,
-			251,
 			100002,
 			100003,
 			100004,
@@ -4461,7 +4460,6 @@ pg.furniture_data_template = setmetatable({
 			243,
 			245,
 			248,
-			251,
 			100002,
 			100003,
 			100004,
@@ -6922,9 +6920,6 @@ pg.furniture_data_template = setmetatable({
 			100019,
 			100037
 		},
-		[15] = {
-			251
-		},
 		[13] = {
 			100015,
 			100032,
@@ -7727,7 +7722,6 @@ pg.furniture_data_template = setmetatable({
 		243,
 		245,
 		248,
-		251,
 		100002,
 		100003,
 		100004,
@@ -15742,59 +15736,6 @@ pg.base.furniture_data_template = {
 			{
 				"bisimaizxunzhang",
 				"normal"
-			}
-		},
-		interAction_group = {}
-	},
-	[251] = {
-		effect = "",
-		name = "Antique Pipa",
-		gain_by = "",
-		type = 15,
-		dir = 0,
-		dorm_id = 0,
-		picture = "",
-		is_get_time_note = 0,
-		themeId = 0,
-		count = 1,
-		is_3d_obj = 0,
-		describe = "Its tones soar, just as the elegant apsaras who plucks its strings.",
-		tag = 6,
-		icon = "dunhuangpipaicon",
-		spine_extra = "",
-		level = 1,
-		advice = 0,
-		rarity = 4,
-		deblocking = 1,
-		comfortable = 0,
-		spine_action_replace = "",
-		belong = 1,
-		canputon = 0,
-		id = 251,
-		can_rotate = 0,
-		size = {
-			2,
-			2
-		},
-		offset = {},
-		canputonGrid = {},
-		can_trigger = {
-			2,
-			{
-				"theme-haitian-soft-loop"
-			},
-			{
-				"action"
-			}
-		},
-		spine = {
-			{
-				"dunhuangpipa",
-				"normal",
-				{
-					"action",
-					true
-				}
 			}
 		},
 		interAction_group = {}

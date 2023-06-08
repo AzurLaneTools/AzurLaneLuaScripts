@@ -29,14 +29,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._check_weapon = slot3.check_weapon
 	slot0._check_spweapon = slot3.check_spweapon
 	slot0._time = slot3.time or 0
-	slot4 = pg.TimeMgr.GetInstance():GetCombatTime()
-
-	if slot3.initialCD then
-		slot0._nextEffectTime = slot4
-	else
-		slot0._nextEffectTime = slot4 + slot0._time
-	end
-
+	slot0._nextEffectTime = pg.TimeMgr.GetInstance():GetCombatTime() + slot0._time
 	slot0._minTargetNumber = slot3.minTargetNumber or 0
 	slot0._maxTargetNumber = slot3.maxTargetNumber or 10000
 	slot0._minWeaponNumber = slot3.minWeaponNumber or 0

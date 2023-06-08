@@ -217,8 +217,6 @@ function slot0.init(slot0)
 	slot0.galleryPanelContainer = slot0:findTF("main/GalleryContainer")
 	slot0.musicPanelContainer = slot0:findTF("main/MusicContainer")
 	slot0.mangaPanelContainer = slot0:findTF("main/MangaContainer")
-
-	slot0:initIndexPanel()
 end
 
 function slot0.didEnter(slot0)
@@ -343,6 +341,7 @@ function slot0.didEnter(slot0)
 		end)
 	end
 
+	slot0:initIndexPanel()
 	slot0:calFavoriteRate()
 
 	slot4 = pg.UIMgr.GetInstance()

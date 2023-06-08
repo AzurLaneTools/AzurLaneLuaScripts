@@ -13,8 +13,6 @@ slot0.TYPE_FRAGMENT = 12
 slot0.TYPE_WORLD = 13
 slot0.TYPE_FRAGMENT_NORMAL = 14
 slot0.TYPE_NEW_SERVER = 15
-slot0.TYPE_MINI_GAME = 16
-slot0.TYPE_QUOTA = 17
 slot0.GEM = 0
 slot0.GIFT_BOX = 1
 slot0.MONTH_CARD = 2
@@ -40,7 +38,7 @@ end
 function slot0.Create(slot0, slot1)
 	slot2 = nil
 
-	return (slot1 ~= uv0.TYPE_CHARGE or ChargeCommodity.New(slot0, slot1)) and (slot1 ~= uv0.TYPE_ACTIVITY and slot1 ~= uv0.TYPE_SHAM_BATTLE and slot1 ~= uv0.TYPE_FRAGMENT and slot1 ~= uv0.TYPE_FRAGMENT_NORMAL and slot1 ~= uv0.TYPE_ESCORT or ActivityCommodity.New(slot0, slot1)) and (slot1 ~= uv0.TYPE_ACTIVITY_EXTRA or ActivityExtraCommodity.New(slot0, slot1)) and (slot1 ~= uv0.TYPE_MINI_GAME or MiniGameGoods.New(slot0, slot1)) and (slot1 ~= uv0.TYPE_QUOTA or QuotaCommodity.New(slot0, slot1)) and CommonCommodity.New(slot0, slot1)
+	return (slot1 ~= uv0.TYPE_CHARGE or ChargeCommodity.New(slot0, slot1)) and (slot1 ~= uv0.TYPE_ACTIVITY and slot1 ~= uv0.TYPE_SHAM_BATTLE and slot1 ~= uv0.TYPE_FRAGMENT and slot1 ~= uv0.TYPE_FRAGMENT_NORMAL and slot1 ~= uv0.TYPE_ESCORT or ActivityCommodity.New(slot0, slot1)) and (slot1 ~= uv0.TYPE_ACTIVITY_EXTRA or ActivityExtraCommodity.New(slot0, slot1)) and CommonCommodity.New(slot0, slot1)
 end
 
 function slot0.ExistFurniture(slot0)

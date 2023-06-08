@@ -1100,6 +1100,10 @@ function slot0.isAvaiable(slot0)
 	return true
 end
 
+function slot0.getFleetId(slot0)
+	return getProxy(FleetProxy):getFleetByShip(slot0) and slot2.id
+end
+
 slot0.PROPERTIES = {
 	AttributeType.Durability,
 	AttributeType.Cannon,

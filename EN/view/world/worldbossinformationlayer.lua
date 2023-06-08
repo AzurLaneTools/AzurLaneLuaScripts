@@ -228,7 +228,7 @@ function slot0.GetDungeonBossData(slot0, slot1)
 			end
 		end)
 	end)
-	assert(nil, "Cant Find Boss Data in Dungeon: " .. (slot2 or "NIL"))
+	assert(nil, "Cant Find Boss Data in Dungeon: " .. slot2 or "NIL")
 
 	return slot5
 end

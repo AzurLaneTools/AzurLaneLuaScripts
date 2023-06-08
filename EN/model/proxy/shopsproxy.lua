@@ -14,7 +14,6 @@ slot0.FRAGMENT_SHOP_UPDATED = "ShopsProxy:FRAGMENT_SHOP_UPDATED"
 slot0.ACTIVITY_SHOP_GOODS_UPDATED = "ShopsProxy:ACTIVITY_SHOP_GOODS_UPDATED"
 slot0.META_SHOP_GOODS_UPDATED = "ShopsProxy:META_SHOP_GOODS_UPDATED"
 slot0.MEDAL_SHOP_UPDATED = "ShopsProxy:MEDAL_SHOP_UPDATED"
-slot0.QUOTA_SHOP_UPDATED = "ShopsProxy:QUOTA_SHOP_UPDATED"
 
 function slot0.register(slot0)
 	slot0.shopStreet = nil
@@ -22,7 +21,6 @@ function slot0.register(slot0)
 	slot0.guildShop = nil
 	slot0.refreshChargeList = false
 	slot0.metaShop = nil
-	slot0.miniShop = nil
 
 	slot0:on(22102, function (slot0)
 		getProxy(ShopsProxy):setShopStreet(ShoppingStreet.New(slot0.street))
@@ -75,14 +73,6 @@ end
 
 function slot0.updateMeritorousShop(slot0, slot1)
 	slot0.meritorousShop = slot1
-end
-
-function slot0.getMiniShop(slot0)
-	return Clone(slot0.miniShop)
-end
-
-function slot0.setMiniShop(slot0, slot1)
-	slot0.miniShop = slot1
 end
 
 function slot0.setNormalList(slot0, slot1)
@@ -376,23 +366,6 @@ end
 
 function slot0.GetMedalShop(slot0)
 	return slot0.medalShop
-end
-
-function slot0.setQuotaShop(slot0, slot1)
-	slot0.quotaShop = slot1
-end
-
-function slot0.getQuotaShop(slot0)
-	return slot0.quotaShop
-end
-
-function slot0.updateQuotaShop(slot0, slot1, slot2)
-	slot0.quotaShop = slot1
-
-	slot0:sendNotification(uv0.QUOTA_SHOP_UPDATED, {
-		shop = slot0.quotaShop,
-		reset = slot2
-	})
 end
 
 function slot0.remove(slot0)

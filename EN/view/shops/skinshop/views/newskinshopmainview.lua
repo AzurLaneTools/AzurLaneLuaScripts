@@ -877,8 +877,6 @@ function slot0.ReturnChar(slot0)
 end
 
 function slot0.Dispose(slot0)
-	slot0.exited = true
-
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:ClearSwitchBgAnim()
 

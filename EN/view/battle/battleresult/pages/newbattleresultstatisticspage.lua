@@ -141,17 +141,14 @@ function slot0.PlayEnterAnimation(slot0, slot1)
 	})
 
 	slot0.mask.localPosition = slot0:GetPaintingPosition()
+	slot5 = slot0.animation
 
-	if slot0.animation then
-		slot5 = slot0.animation
+	slot5:Play(slot0.resultPaintingData, function ()
+		uv0.rawImage.texture = nil
 
-		slot5:Play(slot0.resultPaintingData, function ()
-			uv0.rawImage.texture = nil
-
-			Object.Destroy(uv0.rawImage.gameObject)
-			uv1()
-		end)
-	end
+		Object.Destroy(uv0.rawImage.gameObject)
+		uv1()
+	end)
 end
 
 function slot0.LoadBG(slot0, slot1)
@@ -166,11 +163,7 @@ function slot0.LoadBG(slot0, slot1)
 		slot4 = ResourceMgr.Inst
 
 		slot4:getAssetAsync("BattleResultItems/" .. NewBattleResultUtil.Score2Bg(slot0.contextData.score), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			if uv0.exited or IsNil(slot0) then
-				if uv1 then
-					uv1()
-				end
-
+			if uv0.exited then
 				return
 			end
 
@@ -247,7 +240,7 @@ function slot0.UpdateMetaBtn(slot0)
 		slot3 = ResourceMgr.Inst
 
 		slot3:getAssetAsync("BattleResultItems/MetaBtn", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			if uv0.exited or IsNil(slot0) then
+			if uv0.exited then
 				return
 			end
 
@@ -338,7 +331,7 @@ function slot7(slot0, slot1)
 		slot3 = ResourceMgr.Inst
 
 		slot3:getAssetAsync("BattleResultItems/MVP", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			if uv0.exited or IsNil(slot0) then
+			if uv0.exited then
 				return
 			end
 
@@ -350,7 +343,7 @@ function slot7(slot0, slot1)
 		slot4 = ResourceMgr.Inst
 
 		slot4:getAssetAsync("BattleResultItems/MVPBG", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			if uv0.exited or IsNil(slot0) then
+			if uv0.exited then
 				return
 			end
 
@@ -367,7 +360,7 @@ function slot8(slot0, slot1)
 		slot3 = ResourceMgr.Inst
 
 		slot3:getAssetAsync("BattleResultItems/LevelUp", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			if uv0.exited or IsNil(slot0) then
+			if uv0.exited then
 				return
 			end
 
@@ -381,7 +374,7 @@ function slot9(slot0, slot1)
 		slot3 = ResourceMgr.Inst
 
 		slot3:getAssetAsync("ui/zhandoujiesuan_xingxing", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			if uv0.exited or IsNil(slot0) then
+			if uv0.exited then
 				return
 			end
 
@@ -465,17 +458,15 @@ function slot0.LoadShipTpls(slot0, slot1, slot2, slot3)
 			slot1 = uv0 == #uv1
 
 			ResourceMgr.Inst:getAssetAsync("BattleResultItems/Ship", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-				if uv0.exited or IsNil(slot0) then
-					uv1()
-
+				if uv0.exited then
 					return
 				end
 
 				slot1 = Object.Instantiate(slot0, uv0.shipContainer).transform
 				slot1:GetComponent(typeof(CanvasGroup)).alpha = 0
 
-				table.insert(uv2, slot1)
-				uv1()
+				table.insert(uv1, slot1)
+				uv2()
 			end), slot1, slot1)
 		end)
 	end
@@ -542,16 +533,14 @@ end
 
 function slot0.RecordPainting(slot0, slot1)
 	onNextTick(function ()
-		if not IsNil(uv0.resultPaintingTr:Find("fitter"):GetChild(0)) then
-			uv0.resultPaintingData = {
-				position = Vector2(slot0.position.x, slot0.position.y),
-				pivot = rtf(slot0).pivot,
-				scale = Vector2(slot0.localScale.x, slot0.localScale.y)
-			}
+		slot0 = uv0.resultPaintingTr:Find("fitter"):GetChild(0)
+		uv0.resultPaintingData = {
+			position = Vector2(slot0.position.x, slot0.position.y),
+			pivot = slot0.pivot,
+			scale = Vector2(slot0.localScale.x, slot0.localScale.y)
+		}
 
-			SetParent(slot0, uv0.paintingTr:Find("painting/fitter"), true)
-		end
-
+		SetParent(slot0, uv0.paintingTr:Find("painting/fitter"), true)
 		uv1()
 	end)
 end
@@ -560,9 +549,7 @@ function slot0.UpdateFailedPainting(slot0, slot1)
 	slot2 = slot0.contextData.oldMainShips
 
 	ResourceMgr.Inst:getAssetAsync("BattleResultItems/FailedPainting", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if uv0.exited or IsNil(slot0) then
-			uv1()
-
+		if uv0.exited then
 			return
 		end
 
@@ -710,9 +697,7 @@ function slot0.LoadCommanderTpls(slot0, slot1, slot2)
 			slot1 = uv0 == uv1
 
 			ResourceMgr.Inst:getAssetAsync("BattleResultItems/Commander", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-				if uv0.exited or IsNil(slot0) then
-					uv1()
-
+				if uv0.exited then
 					return
 				end
 
@@ -764,26 +749,20 @@ function slot0.OnDestroy(slot0)
 		LeanTween.cancel(slot0.bottomPanel.gameObject)
 	end
 
-	if slot0.surfaceShipTpls then
-		for slot4, slot5 in ipairs(slot0.surfaceShipTpls) do
-			if LeanTween.isTweening(slot5.gameObject) then
-				LeanTween.cancel(slot5.gameObject)
-			end
+	for slot4, slot5 in ipairs(slot0.surfaceShipTpls) do
+		if LeanTween.isTweening(slot5.gameObject) then
+			LeanTween.cancel(slot5.gameObject)
 		end
 	end
 
-	if slot0.subShipTpls then
-		for slot4, slot5 in ipairs(slot0.subShipTpls) do
-			if LeanTween.isTweening(slot5.gameObject) then
-				LeanTween.cancel(slot5.gameObject)
-			end
+	for slot4, slot5 in ipairs(slot0.subShipTpls) do
+		if LeanTween.isTweening(slot5.gameObject) then
+			LeanTween.cancel(slot5.gameObject)
 		end
 	end
 
-	if slot0.numeberAnimations then
-		for slot4, slot5 in ipairs(slot0.numeberAnimations) do
-			slot5:Dispose()
-		end
+	for slot4, slot5 in ipairs(slot0.numeberAnimations) do
+		slot5:Dispose()
 	end
 
 	if slot0.playerAniamtion then

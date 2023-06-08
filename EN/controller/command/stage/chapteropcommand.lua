@@ -79,6 +79,18 @@ function slot0.execute(slot0, slot1)
 								getProxy(DailyLevelProxy):EliteCountPlus()
 							end
 
+							if slot2:getPlayType() == ChapterConst.TypeMainSub and (uv1.win or not slot2:isValid()) then
+								slot2:retreat(uv1.win)
+								slot2:clearSubChapter()
+								slot1:updateChapter(slot2, ChapterConst.DirtyMapItems)
+								uv0:sendNotification(GAME.CHAPTER_OP_DONE, {
+									type = uv1.type,
+									win = uv1.win
+								})
+
+								return
+							end
+
 							if slot4 and #slot4 > 0 then
 								getProxy(ChapterProxy):AddExtendChapterDataArray(uv0.chapter.id, "ResultDrops", slot4)
 

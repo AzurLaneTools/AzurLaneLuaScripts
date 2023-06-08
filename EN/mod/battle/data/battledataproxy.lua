@@ -548,7 +548,7 @@ function slot8.GetFleetBoundByIFF(slot0, slot1)
 end
 
 function slot8.ShiftFleetBound(slot0, slot1, slot2)
-	slot1:SetAutobotBound(slot0:GetFleetBoundByIFF(slot2))
+	slot1:SetBound(slot0:GetFleetBoundByIFF(slot2))
 
 	slot3, slot4, slot5, slot6, slot7, slot8 = slot0:GetUnitBoundByIFF(slot2)
 
@@ -570,9 +570,8 @@ function slot8.GetFleetByIFF(slot0, slot1)
 		slot2 = uv0.Battle.BattleFleetVO.New(slot1)
 		slot0._fleetList[slot1] = slot2
 
-		slot2:SetAutobotBound(slot0:GetFleetBoundByIFF(slot1))
+		slot2:SetBound(slot0:GetFleetBoundByIFF(slot1))
 		slot2:SetTotalBound(slot0:GetTotalBounds())
-		slot2:SetUnitBound(slot0._currentStageData.totalArea, slot0._currentStageData.playerArea)
 		slot2:SetExposeLine(slot0._expeditionTmp.horizon_line[slot1], slot0._expeditionTmp.expose_line[slot1])
 		slot2:CalcSubmarineBaseLine(slot0._battleInitData.battleType)
 	end
@@ -1034,19 +1033,18 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 		end
 	end
 
-	slot19 = slot0._battleInitData.AffixBuffList or {}
+	slot18 = slot0._battleInitData.AffixBuffList or {}
 
 	slot15(slot11:GetTemplate().buff_list)
-	slot15(slot0._battleInitData.ExtraBuffList or {})
 	slot15(slot1.buffList or {})
 
 	if slot1.affix then
-		slot15(slot19)
+		slot15(slot18)
 	end
 
 	if slot1.summonWaveIndex then
-		slot0._waveSummonList[slot20] = slot0._waveSummonList[slot20] or {}
-		slot0._waveSummonList[slot20][slot11] = true
+		slot0._waveSummonList[slot19] = slot0._waveSummonList[slot19] or {}
+		slot0._waveSummonList[slot19][slot11] = true
 	end
 
 	slot11:CheckWeaponInitial()
@@ -1062,8 +1060,6 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 			aimBias = slot11:GetAimBias()
 		}))
 	end
-
-	return slot11
 end
 
 function slot8.UpdateHostileSubmarine(slot0, slot1)

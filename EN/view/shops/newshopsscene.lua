@@ -2,37 +2,11 @@ slot0 = class("NewShopsScene", import("..base.BaseUI"))
 slot0.TYPE_ACTIVITY = 1
 slot0.TYPE_SHOP_STREET = 2
 slot0.TYPE_MILITARY_SHOP = 3
-slot0.TYPE_QUOTA = 4
-slot0.TYPE_SHAM_SHOP = 5
-slot0.TYPE_FRAGMENT = 6
-slot0.TYPE_GUILD = 7
-slot0.TYPE_MEDAL = 8
-slot0.TYPE_META = 9
-slot0.TYPE_MINI_GAME = 10
-slot0.TYPE2NAME = {
-	[slot0.TYPE_ACTIVITY] = "activity",
-	[slot0.TYPE_SHOP_STREET] = "street",
-	[slot0.TYPE_MILITARY_SHOP] = "military",
-	[slot0.TYPE_QUOTA] = "quota",
-	[slot0.TYPE_SHAM_SHOP] = "sham",
-	[slot0.TYPE_FRAGMENT] = "fragment",
-	[slot0.TYPE_GUILD] = "guild",
-	[slot0.TYPE_META] = "meta",
-	[slot0.TYPE_MEDAL] = "medal",
-	[slot0.TYPE_MINI_GAME] = "minigame"
-}
-slot1 = {
-	"activity",
-	"shopstreet",
-	"supplies",
-	"quota",
-	"sham",
-	"fragment",
-	"guild",
-	"medal",
-	"meta",
-	"minigame"
-}
+slot0.TYPE_SHAM_SHOP = 4
+slot0.TYPE_FRAGMENT = 5
+slot0.TYPE_GUILD = 6
+slot0.TYPE_MEDAL = 7
+slot0.TYPE_META = 8
 
 function slot0.getUIName(slot0)
 	return "NewShopsUI"
@@ -58,9 +32,7 @@ function slot0.init(slot0)
 		[uv0.TYPE_SHAM_SHOP] = ShamShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
 		[uv0.TYPE_FRAGMENT] = FragmentShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
 		[uv0.TYPE_META] = MetaShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
-		[uv0.TYPE_MEDAL] = MedalShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
-		[uv0.TYPE_QUOTA] = QuotaShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData),
-		[uv0.TYPE_MINI_GAME] = MiniGameShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData)
+		[uv0.TYPE_MEDAL] = MedalShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData)
 	}
 	slot0.contextData.singleWindow = ShopSingleWindow.New(slot0._tf, slot0.event)
 	slot0.contextData.multiWindow = ShopMultiWindow.New(slot0._tf, slot0.event)
@@ -185,45 +157,56 @@ function slot0.InitEntrances(slot0)
 end
 
 function slot0.ActiveDefaultShop(slot0)
+	slot1 = {
+		"activity",
+		"shopstreet",
+		"supplies",
+		"sham",
+		"fragment",
+		"guild",
+		"medal",
+		"meta"
+	}
+
 	if type(slot0.contextData.warp or slot0.contextData.activeShop or uv0.TYPE_ACTIVITY) == "string" then
-		slot1 = defaultValue(table.indexof(uv1, slot1), uv0.TYPE_ACTIVITY)
+		slot2 = defaultValue(table.indexof(slot1, slot2), uv0.TYPE_ACTIVITY)
 	end
 
-	slot2 = slot0.contextData.index or 1
+	slot3 = slot0.contextData.index or 1
 
-	if slot1 == uv0.TYPE_ACTIVITY and slot0.contextData.actId then
-		slot3 = ipairs
-		slot4 = slot0.shops[slot1] or {}
+	if slot2 == uv0.TYPE_ACTIVITY and slot0.contextData.actId then
+		slot4 = ipairs
+		slot5 = slot0.shops[slot2] or {}
 
-		for slot6, slot7 in slot3(slot4) do
-			if slot7.activityId == slot0.contextData.actId then
-				slot2 = slot6
+		for slot7, slot8 in slot4(slot5) do
+			if slot8.activityId == slot0.contextData.actId then
+				slot3 = slot7
 
 				break
 			end
 		end
 	end
 
-	slot3 = nil
+	slot4 = nil
 
-	if slot0.shops[slot1] then
-		slot4, slot5 = slot0.pages[slot1]:CanOpen(nil, slot0.player)
+	if slot0.shops[slot2] then
+		slot5, slot6 = slot0.pages[slot2]:CanOpen(nil, slot0.player)
 
-		if slot4 then
-			slot3 = slot0.toggleContainer:Find(slot1 .. "-" .. slot2)
+		if slot5 then
+			slot4 = slot0.toggleContainer:Find(slot2 .. "-" .. slot3)
 		else
-			pg.TipsMgr.GetInstance():ShowTips(slot5)
+			pg.TipsMgr.GetInstance():ShowTips(slot6)
 		end
 	end
 
-	if slot3 then
-		triggerButton(slot3)
+	if slot4 then
+		triggerButton(slot4)
 	else
 		triggerButton(slot0.toggleContainer:Find(uv0.TYPE_SHOP_STREET .. "-1"))
 	end
 end
 
-slot2 = 5
+slot1 = 5
 
 function slot0.AddScrollrect(slot0, slot1)
 	function slot2(slot0, slot1)
@@ -289,9 +272,9 @@ function slot0.UpdateEntrance(slot0, slot1, slot2)
 	end)
 	slot3:SetAsFirstSibling()
 
-	slot4 = uv0.TYPE2NAME[slot1]
+	slot4 = slot1
 
-	if slot1 == uv0.TYPE_ACTIVITY and slot0.shops[slot1][slot2]:IsEventShop() then
+	if slot1 == 1 and slot0.shops[slot1][slot2]:IsEventShop() then
 		slot4 = slot4 .. "_event"
 	end
 

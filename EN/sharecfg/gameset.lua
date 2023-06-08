@@ -182,11 +182,7 @@ pg.gameset = {
 	},
 	equip_select_limit = {
 		description = "",
-		key_value = 0
-	},
-	ship_select_limit = {
-		description = "",
-		key_value = 0
+		key_value = 40
 	},
 	exchange_character_id = {
 		description = "",
@@ -1999,11 +1995,7 @@ pg.gameset = {
 	},
 	doa_fever_buff = {
 		key_value = 8761,
-		description = {
-			8765,
-			8767,
-			8769
-		}
+		description = {}
 	},
 	doa_fever_recover = {
 		description = "",
@@ -2726,45 +2718,8 @@ pg.gameset = {
 		description = "",
 		key_value = 5
 	},
-	game_room_remax = {
-		description = "",
-		key_value = 50000
-	},
-	game_coin_week = {
-		description = "",
-		key_value = 10
-	},
-	game_coin_max = {
-		description = "",
-		key_value = 40
-	},
-	game_ticket_month = {
-		description = "",
-		key_value = 10000
-	},
 	package_view_display = {
 		description = "",
 		key_value = 1
-	},
-	game_coin_initial = {
-		description = "",
-		key_value = 10
-	},
-	game_coin_gold = {
-		key_value = 0,
-		description = {
-			{
-				0,
-				800
-			},
-			{
-				5,
-				1200
-			},
-			{
-				10,
-				2000
-			}
-		}
 	}
 }

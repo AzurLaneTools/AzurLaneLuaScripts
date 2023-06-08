@@ -90,10 +90,9 @@ end
 function slot2.onUpdate(slot0, slot1, slot2, slot3)
 	slot4 = slot1:GetPosition()
 	slot5 = slot1:GetTemplate().scale * 0.02
-	slot6 = slot3.timeStamp
 
 	if slot0._centerPosFun then
-		slot0._currentTimeCount = slot6 - slot0._startTime
+		slot0._currentTimeCount = slot3 - slot0._startTime
 		slot4 = slot0._centerPosFun(slot0._currentTimeCount):Mul(slot5):Add(slot4)
 	end
 

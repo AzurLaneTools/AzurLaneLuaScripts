@@ -170,7 +170,7 @@ function slot0.markFleet(slot0)
 	assert(slot0.contextData.fleetType)
 
 	if CommandRoomScene.FLEET_TYPE_COMMON == slot0.contextData.fleetType then
-		for slot8, slot9 in pairs(slot3:GetRegularFleets()) do
+		for slot8, slot9 in pairs(slot3:getData()) do
 			for slot13, slot14 in pairs(slot9:getCommanders()) do
 				slot2[slot14.id].sub = slot9:isSubmarineFleet()
 				slot2[slot14.id].fleetId = slot9.id % 10
@@ -260,22 +260,6 @@ function slot0.markFleet(slot0)
 				slot2[slot15.id].sub = slot10
 				slot2[slot15.id].fleetId = slot9.id
 				slot2[slot15.id].inFleet = true
-			end
-		end
-	elseif CommandRoomScene.FLEET_TYPE_LIMIT_CHALLENGE == slot0.contextData.fleetType then
-		for slot8, slot9 in pairs(_.map({
-			FleetProxy.CHALLENGE_FLEET_ID,
-			FleetProxy.CHALLENGE_SUB_FLEET_ID
-		}, function (slot0)
-			return uv0:getFleetById(slot0)
-		end)) do
-			slot10 = slot9:isSubmarineFleet()
-			slot11 = slot9.id
-
-			for slot15, slot16 in pairs(slot9:getCommanders()) do
-				slot2[slot16.id].sub = slot10
-				slot2[slot16.id].fleetId = slot11
-				slot2[slot16.id].inFleet = true
 			end
 		end
 	end

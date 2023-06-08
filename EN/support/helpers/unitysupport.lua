@@ -465,9 +465,7 @@ function limitedParallelAsync(slot0, slot1, slot2)
 end
 
 function setImageSprite(slot0, slot1, slot2)
-	if IsNil(slot0) then
-		assert(false)
-
+	if IsNil(slot0) or IsNil(slot1) then
 		return
 	end
 

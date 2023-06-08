@@ -16,10 +16,6 @@ slot0.REFRESH_MEDAL_SHOP = "NewShopsMediator:REFRESH_MEDAL_SHOP"
 slot0.ON_GUILD_PURCHASE = "NewShopsMediator:ON_GUILD_PURCHASE"
 slot0.ON_META_SHOP = "NewShopsMediator:ON_META_SHOP"
 slot0.ON_ESKIN_PREVIEW = "NewShopsMediator:ON_ESKIN_PREVIEW"
-slot0.ON_QUOTA_SHOPPING = "NewShopsMediator:ON_QUOTA_SHOPPING"
-slot0.ON_MINI_GAME_SHOP_BUY = "NewShopsMediator:ON_MINI_GAME_SHOP_BUY"
-slot0.ON_MINI_GAME_SHOP_FLUSH = "NewShopsMediator:ON_MINI_GAME_SHOP_FLUSH"
-slot0.MINI_GAME_SHOP_BUY_DONE = "NewShopsMediator:MINI_GAME_SHOP_BUY_DONE"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.ON_META_SHOP, function (slot0, slot1, slot2, slot3, slot4)
@@ -35,12 +31,6 @@ function slot0.register(slot0)
 			goodsId = slot1,
 			selectedId = slot2
 		})
-	end)
-	slot0:bind(uv0.ON_MINI_GAME_SHOP_BUY, function (slot0, slot1, slot2)
-		uv0:sendNotification(GAME.MINI_GAME_SHOP_BUY, slot1)
-	end)
-	slot0:bind(uv0.ON_MINI_GAME_SHOP_FLUSH, function (slot0, slot1, slot2)
-		uv0:sendNotification(GAME.MINI_GAME_SHOP_FLUSH, slot1)
 	end)
 	slot0:bind(uv0.ON_MEDAL_SHOPPING, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.ON_MEDAL_SHOP_PURCHASE, {
@@ -162,12 +152,6 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0.viewComponent:SetShops(slot0.contextData.shops)
-	slot0:bind(uv0.ON_QUOTA_SHOPPING, function (slot0, slot1, slot2)
-		uv0:sendNotification(GAME.QUOTA_SHOPPING, {
-			id = slot1,
-			count = slot2
-		})
-	end)
 	slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getRawData())
 	slot0.viewComponent:UpdateItems(getProxy(BagProxy):getRawData())
 end
@@ -193,10 +177,7 @@ function slot0.listNotificationInterests(slot0)
 		ShopsProxy.GUILD_SHOP_UPDATED,
 		ShopsProxy.MEDAL_SHOP_UPDATED,
 		GAME.ON_META_SHOPPING_DONE,
-		ShopsProxy.META_SHOP_GOODS_UPDATED,
-		ShopsProxy.QUOTA_SHOP_UPDATED,
-		GAME.QUOTA_SHOPPING_DONE,
-		GAME.MINI_GAME_SHOP_BUY_DONE
+		ShopsProxy.META_SHOP_GOODS_UPDATED
 	}
 end
 
@@ -274,14 +255,6 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_MEDAL, slot3)
 	elseif slot2 == GAME.ON_META_SHOPPING_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
-	elseif slot2 == ShopsProxy.QUOTA_SHOP_UPDATED then
-		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_QUOTA, slot3.shop)
-	elseif slot2 == GAME.QUOTA_SHOPPING_DONE then
-		slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_QUOTA_SHOP, getProxy(ShopsProxy):getQuotaShop(), slot3.id)
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
-	elseif slot2 == GAME.MINI_GAME_SHOP_BUY_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.list)
-		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_MINI_GAME, getProxy(ShopsProxy):getMiniShop())
 	end
 end
 

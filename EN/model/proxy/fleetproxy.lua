@@ -3,18 +3,15 @@ slot0.FLEET_ADDED = "fleet added"
 slot0.FLEET_UPDATED = "fleet updated"
 slot0.FLEET_RENAMED = "fleet renamed"
 slot0.PVP_FLEET_ID = 101
-slot0.CHALLENGE_FLEET_ID = 102
-slot0.CHALLENGE_SUB_FLEET_ID = 103
 
 function slot0.register(slot0)
-	slot0.extraFleets = {}
 	slot0.activityFleetData = {}
 
 	slot0:on(12101, function (slot0)
 		uv0.data = {}
 
 		for slot4, slot5 in ipairs(slot0.group_list) do
-			slot6 = uv1.CreateFleet(slot5)
+			slot6 = Fleet.New(slot5)
 
 			slot6:display("loaded")
 
@@ -23,7 +20,7 @@ function slot0.register(slot0)
 
 		for slot4 = 1, FormationUI.MAX_FLEET_NUM do
 			if not uv0.data[slot4] then
-				uv0.data[slot4] = uv1.CreateFleet({
+				uv0.data[slot4] = Fleet.New({
 					name = "",
 					id = slot4,
 					ship_list = {},
@@ -32,29 +29,13 @@ function slot0.register(slot0)
 			end
 		end
 
-		slot4 = ""
-
-		for slot4, slot5 in pairs({
-			[uv1.PVP_FLEET_ID] = "",
-			[uv1.CHALLENGE_FLEET_ID] = "",
-			[uv1.CHALLENGE_SUB_FLEET_ID] = slot4
-		}) do
-			if not uv0.data[slot4] then
-				uv0.data[slot4] = uv1.CreateFleet({
-					id = slot4,
-					name = slot5,
-					ship_list = {},
-					commanders = {}
-				})
-			end
-		end
-
-		for slot4, slot5 in ipairs({
-			uv1.CHALLENGE_FLEET_ID,
-			uv1.CHALLENGE_SUB_FLEET_ID
-		}) do
-			uv0.extraFleets[slot5] = uv0.data[slot5]
-			uv0.data[slot5] = nil
+		if not uv0.data[uv1.PVP_FLEET_ID] then
+			uv0.data[uv1.PVP_FLEET_ID] = Fleet.New({
+				name = "",
+				id = uv1.PVP_FLEET_ID,
+				ship_list = {},
+				commanders = {}
+			})
 		end
 
 		if LOCK_SUBMARINE then
@@ -67,33 +48,14 @@ function slot0.register(slot0)
 
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inFleet")
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inPvP")
-		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inChallenge")
 	end)
 	slot0:on(12106, function (slot0)
-		if uv1.data[uv0.CreateFleet(slot0.group).id] then
-			uv1:updateFleet(slot1)
+		if uv0.data[Fleet.New(slot0.group).id] then
+			uv0:updateFleet(slot1)
 		else
-			uv1:addFleet(slot1)
+			uv0:addFleet(slot1)
 		end
 	end)
-end
-
-function slot0.CreateFleet(slot0)
-	slot2 = TypedFleet.New(slot0)
-
-	if Fleet.REGULAR_FLEET_ID <= slot0.id and slot1 < Fleet.REGULAR_FLEET_ID + Fleet.REGULAR_FLEET_NUMS then
-		if slot1 == Fleet.REGULAR_FLEET_ID then
-			slot2:SetSaveLastShip(true)
-		end
-	elseif Fleet.SUBMARINE_FLEET_ID <= slot1 and slot1 < Fleet.SUBMARINE_FLEET_ID + Fleet.SUBMARINE_FLEET_NUMS then
-		slot2:SetFleetType(FleetType.Submarine)
-	elseif slot1 == FleetProxy.CHALLENGE_FLEET_ID then
-		-- Nothing
-	elseif slot1 == FleetProxy.CHALLENGE_SUB_FLEET_ID then
-		slot2:SetFleetType(FleetType.Submarine)
-	end
-
-	return slot2
 end
 
 function slot0.addFleet(slot0, slot1)
@@ -110,22 +72,13 @@ end
 
 function slot0.updateFleet(slot0, slot1)
 	assert(isa(slot1, Fleet), "should be an instance of Fleet")
+	assert(slot0.data[slot1.id] ~= nil, "fleet should exist")
 
-	if slot0.data[slot1.id] ~= nil then
-		slot0.data[slot1.id] = slot1:clone()
+	slot0.data[slot1.id] = slot1:clone()
 
-		slot0.data[slot1.id]:display("updated")
-		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inFleet")
-		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inPvP")
-	elseif slot0.extraFleets[slot1.id] ~= nil then
-		slot0.extraFleets[slot1.id] = slot1
-
-		slot0.extraFleets[slot1.id]:display("updated")
-		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inChallenge")
-	else
-		assert(false, "fleet should exist")
-	end
-
+	slot0.data[slot1.id]:display("updated")
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inFleet")
+	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inPvP")
 	slot0.facade:sendNotification(uv0.FLEET_UPDATED, slot1.id)
 end
 
@@ -192,10 +145,6 @@ function slot0.getFleetById(slot0, slot1)
 		return slot0.data[slot1]:clone()
 	end
 
-	if slot0.extraFleets[slot1] then
-		return slot0.extraFleets[slot1]
-	end
-
 	return nil
 end
 
@@ -203,7 +152,7 @@ function slot0.getAllShipIds(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.data) do
-		if not slot1 or slot7:isRegularFleet() then
+		if not slot1 or slot7.id ~= uv0.PVP_FLEET_ID then
 			for slot11, slot12 in ipairs(slot7.ships) do
 				table.insert(slot2, slot12)
 			end
@@ -223,18 +172,6 @@ function slot0.getFirstFleetShipCount(slot0)
 	return slot1
 end
 
-function slot0.GetRegularFleets(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in pairs(slot0.data) do
-		if slot6:isRegularFleet() then
-			slot1[slot5] = Clone(slot6)
-		end
-	end
-
-	return slot1
-end
-
 function slot0.inPvPFleet(slot0, slot1)
 	if slot0.data[FleetProxy.PVP_FLEET_ID]:containShip(slot1) then
 		return true
@@ -243,13 +180,13 @@ function slot0.inPvPFleet(slot0, slot1)
 	return false
 end
 
-function slot0.GetRegularFleetByShip(slot0, slot1)
+function slot0.getFleetByShip(slot0, slot1)
 	slot5 = Ship
 
 	assert(isa(slot1, slot5), "should be an instance of Ship")
 
 	for slot5, slot6 in pairs(slot0.data) do
-		if slot6:isRegularFleet() and slot6:containShip(slot1) then
+		if slot6:containShip(slot1) then
 			return slot6:clone()
 		end
 	end
@@ -270,10 +207,8 @@ function slot0.getCommandersInFleet(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data) do
-		if slot6:isRegularFleet() then
-			for slot10, slot11 in pairs(slot6:getCommanders()) do
-				table.insert(slot1, slot11.id)
-			end
+		for slot10, slot11 in pairs(slot6:getCommanders()) do
+			table.insert(slot1, slot11.id)
 		end
 	end
 
@@ -284,24 +219,6 @@ function slot0.getCommanders(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data) do
-		if slot6:isRegularFleet() then
-			for slot10, slot11 in pairs(slot6:getCommanders()) do
-				table.insert(slot1, {
-					fleetId = slot6.id,
-					pos = slot10,
-					commanderId = slot11.id
-				})
-			end
-		end
-	end
-
-	return slot1
-end
-
-function slot0.GetExtraCommanders(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in pairs(slot0.extraFleets) do
 		for slot10, slot11 in pairs(slot6:getCommanders()) do
 			table.insert(slot1, {
 				fleetId = slot6.id,
@@ -369,7 +286,7 @@ function slot0.addActivityFleet(slot0, slot1, slot2)
 
 	while slot7 > slot9 do
 		if slot3[slot9 + 1] == nil then
-			slot3[slot9] = uv0.CreateFleet({
+			slot3[slot9] = Fleet.New({
 				id = slot9,
 				ship_list = {}
 			})
@@ -380,7 +297,7 @@ function slot0.addActivityFleet(slot0, slot1, slot2)
 
 	while slot8 > slot9 do
 		if slot3[Fleet.SUBMARINE_FLEET_ID + slot9] == nil then
-			slot3[slot10] = uv0.CreateFleet({
+			slot3[slot10] = Fleet.New({
 				id = slot10,
 				ship_list = {}
 			})

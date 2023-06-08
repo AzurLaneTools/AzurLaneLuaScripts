@@ -24,6 +24,7 @@ slot0.GO_ACT_SHOP = "LevelMediator2:GO_ACT_SHOP"
 slot0.ON_SWITCH_NORMAL_MAP = "LevelMediator2:ON_SWITCH_NORMAL_MAP"
 slot0.NOTICE_AUTOBOT_ENABLED = "LevelMediator2:NOTICE_AUTOBOT_ENABLED"
 slot0.ON_EXTRA_RANK = "LevelMediator2:ON_EXTRA_RANK"
+slot0.ON_REFRESH_SUB_CHAPTER = "LevelMediator2:ON_REFRESH_SUB_CHAPTER"
 slot0.ON_STRATEGYING_CHAPTER = "LevelMediator2:ON_STRATEGYING_CHAPTER"
 slot0.ON_SELECT_COMMANDER = "LevelMediator2:ON_SELECT_COMMANDER"
 slot0.ON_SELECT_ELITE_COMMANDER = "LevelMediator2:ON_SELECT_ELITE_COMMANDER"
@@ -152,7 +153,7 @@ function slot0.register(slot0)
 		end
 	end)
 	slot0:bind(uv0.CLICK_CHALLENGE_BTN, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.LIMIT_CHALLENGE)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.CHALLENGE_MAIN_SCENE)
 	end)
 	slot0:bind(uv0.ON_DAILY_LEVEL, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DAILYLEVEL)
@@ -338,6 +339,9 @@ function slot0.register(slot0)
 			page = PowerRank.TYPE_EXTRA_CHAPTER
 		})
 	end)
+	slot0:bind(uv0.ON_REFRESH_SUB_CHAPTER, function (slot0, slot1)
+		uv0:sendNotification(GAME.SUB_CHAPTER_REFRESH, slot1)
+	end)
 	slot0:bind(uv0.ON_STRATEGYING_CHAPTER, function (slot0)
 		slot1 = getProxy(ChapterProxy)
 		slot2 = slot1:getActiveChapter()
@@ -466,7 +470,11 @@ function slot0.register(slot0)
 	end
 
 	slot0.viewComponent:setEliteQuota(getProxy(DailyLevelProxy).eliteCount, pg.gameset.elite_quota.key_value)
-	getProxy(ChapterProxy):updateActiveChapterShips()
+
+	slot10 = getProxy(ChapterProxy)
+
+	slot10:updateActiveChapterShips()
+	slot0.viewComponent:updateSubInfo(slot10.subRefreshCount, slot10.subProgress)
 	slot0.viewComponent:setSpecialOperationTickets(getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET))
 end
 
@@ -1055,6 +1063,27 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot2 == ActivityProxy.ACTIVITY_UPDATED then
 			if slot3 and slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_RANK then
 				slot0.viewComponent:updatePtActivity(slot3)
+			end
+		elseif slot2 == GAME.SUB_CHAPTER_REFRESH_DONE then
+			slot4 = slot3
+			slot5 = nil
+			slot5 = coroutine.create(function ()
+				slot0 = getProxy(ChapterProxy)
+
+				uv0.viewComponent:updateSubInfo(slot0.subRefreshCount, slot0.subProgress)
+				uv0.viewComponent:PlaySubRefreshAnimation(uv1:getConfig("map"))
+			end)
+
+			(function ()
+				if uv0 and coroutine.status(uv0) == "suspended" then
+					slot0, slot1 = coroutine.resume(uv0)
+
+					assert(slot0, debug.traceback(uv0, slot1))
+				end
+			end)()
+		elseif slot2 == GAME.SUB_CHAPTER_FETCH_DONE then
+			if not slot0.contextData.chapterVO and slot0.contextData.map then
+				slot0.viewComponent:updateMapItems()
 			end
 		elseif slot2 == GAME.GET_REMASTER_TICKETS_DONE then
 			slot4 = slot0.viewComponent

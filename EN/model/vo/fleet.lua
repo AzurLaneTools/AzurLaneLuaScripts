@@ -13,9 +13,7 @@ slot0.DEFAULT_NAME = {
 	i18n("ship_formationUI_fleetName6"),
 	[11] = i18n("ship_formationUI_fleetName11"),
 	[12] = i18n("ship_formationUI_fleetName12"),
-	[101] = i18n("ship_formationUI_exercise_fleetName"),
-	[102] = i18n("ship_formationUI_fleetName_challenge"),
-	[103] = i18n("ship_formationUI_fleetName_challenge_sub")
+	[101] = i18n("ship_formationUI_exercise_fleetName")
 }
 slot0.DEFAULT_NAME_FOR_DOCKYARD = {
 	i18n("ship_formationUI_fleetName1"),
@@ -26,9 +24,7 @@ slot0.DEFAULT_NAME_FOR_DOCKYARD = {
 	i18n("ship_formationUI_fleetName6"),
 	[11] = i18n("ship_formationUI_fleetName1"),
 	[12] = i18n("ship_formationUI_fleetName2"),
-	[101] = i18n("ship_formationUI_exercise_fleetName"),
-	[102] = i18n("ship_formationUI_fleetName_challenge"),
-	[103] = i18n("ship_formationUI_fleetName_challenge_sub")
+	[101] = i18n("ship_formationUI_exercise_fleetName")
 }
 slot0.DEFAULT_NAME_BOSS_ACT = {
 	i18n("ship_formationUI_fleetName_easy"),
@@ -840,10 +836,6 @@ function slot0.ExistActNpcShip(slot0)
 	end
 
 	return false
-end
-
-function slot0.GetName(slot0)
-	return slot0.name == "" and uv0.DEFAULT_NAME[slot0.id] or slot0.name
 end
 
 return slot0

@@ -64,6 +64,7 @@ function slot0.register(slot0)
 
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inChapter")
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
+		uv0:AddSubInfoTimer()
 	end)
 	slot0:on(13105, function (slot0)
 		if uv0:getActiveChapter() then
@@ -164,6 +165,9 @@ function slot0.register(slot0)
 
 	slot0.timers = {}
 	slot0.escortChallengeTimes = 0
+	slot0.subNextReqTime = 0
+	slot0.subRefreshCount = 0
+	slot0.subProgress = 1
 	slot0.chaptersExtend = {}
 
 	slot0:buildMaps()
@@ -332,6 +336,38 @@ function slot0.remove(slot0)
 	end
 
 	slot0.timers = nil
+
+	slot0:StopSubInfoTimer()
+end
+
+function slot0.AddSubInfoTimer(slot0)
+	slot0:StopSubInfoTimer()
+
+	slot2 = pg.TimeMgr.GetInstance()
+
+	function slot2()
+		if not LOCK_SUBMARINE then
+			uv0:sendNotification(GAME.SUB_CHAPTER_FETCH)
+		end
+	end
+
+	if slot0.subNextReqTime - slot2:GetServerTime() > 0 then
+		slot0.subInfoTimer = Timer.New(slot2, slot1, 1)
+
+		slot0.subInfoTimer:Start()
+	else
+		slot2()
+	end
+end
+
+function slot0.StopSubInfoTimer(slot0)
+	if not slot0.subInfoTimer then
+		return
+	end
+
+	slot0.subInfoTimer:Stop()
+
+	slot0.subInfoTimer = nil
 end
 
 function slot0.GetRawChapterById(slot0, slot1)

@@ -44,17 +44,7 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	slot6 = {}
-
-	if slot5 then
-		table.insert(slot6, function (slot0)
-			slot1 = pg.SecondaryPWDMgr
-
-			slot1:LimitedOperation(slot1.RESOLVE_EQUIPMENT, uv0, slot0)
-		end)
-	end
-
-	seriesAsync(slot6, function ()
+	function slot6()
 		slot0 = pg.ConnectionMgr.GetInstance()
 
 		slot0:Send(14008, {
@@ -113,10 +103,6 @@ function slot0.execute(slot0, slot1)
 					uv1:sendNotification(GAME.ADD_ITEM, slot10)
 				end
 
-				if not LOCK_QUOTA_SHOP then
-					getProxy(ShopsProxy):updateQuotaShop(QuotaShop.New())
-				end
-
 				uv1:sendNotification(GAME.DESTROY_EQUIPMENTS_DONE, slot3)
 
 				return
@@ -124,7 +110,15 @@ function slot0.execute(slot0, slot1)
 
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("equipment_destroyEquipments", slot0.result))
 		end)
-	end)
+	end
+
+	if slot5 then
+		slot7 = pg.SecondaryPWDMgr
+
+		slot7:LimitedOperation(slot7.RESOLVE_EQUIPMENT, slot5, slot6)
+	else
+		slot6()
+	end
 end
 
 return slot0

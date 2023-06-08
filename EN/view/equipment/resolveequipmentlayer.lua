@@ -43,8 +43,6 @@ function slot0.init(slot0)
 
 	setActive(slot0.destroyConfirm, false)
 	setActive(slot0.destroyBonusItem, false)
-
-	slot0.equipDestroyConfirmWindow = EquipDestoryConfirmWindow.New(slot0._tf, slot0.event)
 end
 
 function slot0.didEnter(slot0)
@@ -56,29 +54,7 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.okBtn, function ()
-		slot0 = {}
-
-		if underscore.any(uv0.selectedIds, function (slot0)
-			return uv0.equipmentVOByIds[slot0[1]].config.rarity >= 4 or slot1.level > 1
-		end) then
-			table.insert(slot0, function (slot0)
-				slot1 = uv0.equipDestroyConfirmWindow
-
-				slot1:Load()
-
-				slot1 = uv0.equipDestroyConfirmWindow
-
-				slot1:ActionInvoke("Show", underscore.map(uv0.selectedIds, function (slot0)
-					return setmetatable({
-						count = slot0[2]
-					}, {
-						__index = uv0.equipmentVOByIds[slot0[1]]
-					})
-				end), slot0)
-			end)
-		end
-
-		seriesAsync(slot0, function ()
+		function slot0()
 			if #uv0.selectedIds <= 0 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("err_resloveequip_nochoice"))
 
@@ -88,7 +64,20 @@ function slot0.didEnter(slot0)
 			setActive(uv0.mainPanel, false)
 			setActive(uv0.destroyConfirm, true)
 			uv0:displayDestroyBonus()
-		end)
+		end
+
+		slot1 = uv0
+
+		if not _.all(slot1:hasEliteEquips(uv0.selectedIds, uv0.equipmentVOByIds), function (slot0)
+			return slot0 == ""
+		end) then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("destroy_eliteequipment_tip", string.gsub(table.concat(slot1, ""), "$1", slot1[1] == "" and "" or ",")),
+				onYes = slot0
+			})
+		else
+			slot0()
+		end
 	end, SFX_CONFIRM)
 	onButton(slot0, findTF(slot0.destroyConfirm, "actions/cancel_button"), function ()
 		setActive(uv0.destroyConfirm, false)
@@ -125,11 +114,11 @@ function slot0.onBackPressed(slot0)
 
 	if isActive(slot0.destroyConfirm) then
 		triggerButton(findTF(slot0.destroyConfirm, "actions/cancel_button"))
-	elseif slot0.equipDestroyConfirmWindow:isShowing() then
-		slot0.equipDestroyConfirmWindow:Hide()
-	else
-		triggerButton(slot0.cancelBtn)
+
+		return
 	end
+
+	triggerButton(slot0.cancelBtn)
 end
 
 function slot0.selectedLowRarityEquipment(slot0)
@@ -241,6 +230,34 @@ function slot0.displayDestroyBonus(slot0)
 			end
 		end, SFX_PANEL)
 	end
+end
+
+function slot0.hasEliteEquips(slot0, slot1, slot2)
+	function slot4(slot0, slot1)
+		if not _.include(uv0, slot0) then
+			uv0[slot1] = slot0
+		end
+	end
+
+	_.each(slot1, function (slot0)
+		slot1 = slot0[1]
+		slot2 = uv0[slot1]
+
+		assert(slot2, "equipment can not be nil" .. slot1)
+
+		if slot2.config.level > 1 then
+			uv1(i18n("destroy_high_intensify_tip"), 2)
+		end
+
+		if slot2.config.rarity >= 4 then
+			uv1(i18n("destroy_high_rarity_tip"), 1)
+		end
+	end)
+
+	return {
+		"",
+		""
+	}
 end
 
 function slot0.initEquipments(slot0)
@@ -408,7 +425,6 @@ function slot0.checkDestroyGold(slot0, slot1, slot2)
 end
 
 function slot0.willExit(slot0)
-	slot0.equipDestroyConfirmWindow:Destroy()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 end
 

@@ -9,8 +9,6 @@ slot0.HIDE_ALL_BUTTONS = "BattleMediator:HIDE_ALL_BUTTONS"
 slot0.ON_CHAT = "BattleMediator:ON_CHAT"
 slot0.CLOSE_CHAT = "BattleMediator:CLOSE_CHAT"
 slot0.ON_AUTO = "BattleMediator:ON_AUTO"
-slot0.ON_PUZZLE_RELIC = "BattleMediator.ON_PUZZLE_RELIC"
-slot0.ON_PUZZLE_CARD = "BattleMediator.ON_PUZZLE_CARD"
 
 function slot0.register(slot0)
 	slot1 = pg.BrightnessMgr.GetInstance()
@@ -34,8 +32,7 @@ function slot0.register(slot0)
 			system = uv1,
 			statistics = slot1,
 			actId = uv0.contextData.actId,
-			mode = uv0.contextData.mode,
-			puzzleCombatID = uv0.contextData.puzzleCombatID
+			mode = uv0.contextData.mode
 		})
 	end)
 	slot0:bind(uv0.ON_AUTO, function (slot0, slot1)
@@ -926,74 +923,6 @@ function slot0.GenBattleData(slot0)
 		end
 
 		slot0.viewComponent:setFleet(slot15, slot16, slot17)
-	elseif slot2 == SYSTEM_LIMIT_CHALLENGE then
-		slot1.ExtraBuffList = AcessWithinNull(pg.expedition_constellation_challenge_template[LimitChallengeConst.GetChallengeIDByStageID(slot0.contextData.stageId)], "buff_id")
-		slot10 = getProxy(FleetProxy)
-		slot11 = slot10:getFleetById(FleetProxy.CHALLENGE_FLEET_ID)
-		slot12 = slot10:getFleetById(FleetProxy.CHALLENGE_SUB_FLEET_ID)
-		slot0.mainShips = {}
-		slot13 = {}
-		slot14 = {}
-		slot15 = {}
-
-		function slot16(slot0, slot1, slot2, slot3)
-			if table.contains(uv0, slot0) then
-				BattleVertify.cloneShipVertiry = true
-			end
-
-			uv0[#uv0 + 1] = slot0
-			slot4 = uv1:getShipById(slot0)
-
-			table.insert(uv4.mainShips, slot4)
-			table.insert(slot3, slot4)
-			table.insert(slot2, uv2(uv3, slot4, slot1))
-		end
-
-		slot17 = _.values(slot11:getCommanders())
-		slot1.CommanderList = slot11:buildBattleBuffList()
-		slot19 = slot11:getTeamByName(TeamType.Vanguard)
-
-		for slot23, slot24 in ipairs(slot11:getTeamByName(TeamType.Main)) do
-			slot16(slot24, slot17, slot1.MainUnitList, slot13)
-		end
-
-		for slot23, slot24 in ipairs(slot19) do
-			slot16(slot24, slot17, slot1.VanguardUnitList, slot14)
-		end
-
-		slot20 = _.values(slot12:getCommanders())
-		slot1.SubCommanderList = slot12:buildBattleBuffList()
-
-		for slot25, slot26 in ipairs(slot12:getTeamByName(TeamType.Submarine)) do
-			slot16(slot26, slot20, slot1.SubUnitList, slot15)
-		end
-
-		slot23 = getProxy(PlayerProxy):getRawData()
-		slot25 = slot3.oil_cost > 0
-
-		function slot26(slot0, slot1)
-			slot2 = 0
-
-			if uv0 then
-				slot3 = slot0:getStartCost().oil
-				slot2 = slot0:getEndCost().oil
-
-				if slot1 > 0 then
-					slot2 = math.clamp(slot1 - slot3, 0, slot4)
-				end
-			end
-
-			return slot2
-		end
-
-		slot24 = 0 + slot26(slot11, 0) + slot26(slot12, 0)
-
-		if slot12:isLegalToFight() == true and slot24 <= slot23.oil then
-			slot1.SubFlag = 1
-			slot1.TotalSubAmmo = 1
-		end
-
-		slot0.viewComponent:setFleet(slot13, slot14, slot15)
 	elseif slot0.contextData.mainFleetId then
 		slot6 = slot2 == SYSTEM_DUEL
 		slot8, slot9 = nil
@@ -1207,7 +1136,6 @@ function slot0.listNotificationInterests(slot0)
 		GAME.END_GUIDE,
 		GAME.START_GUIDE,
 		GAME.PAUSE_BATTLE,
-		GAME.RESUME_BATTLE,
 		uv0.CLOSE_CHAT,
 		GAME.QUIT_BATTLE,
 		uv0.HIDE_ALL_BUTTONS
@@ -1248,7 +1176,7 @@ function slot0.handleNotification(slot0, slot1)
 					rivalId = slot0.contextData.rivalId,
 					mainFleetId = slot0.contextData.mainFleetId,
 					stageId = slot0.contextData.stageId,
-					oldMainShips = slot0.mainShips or {},
+					oldMainShips = slot0.mainShips,
 					oldPlayer = slot0.player,
 					oldRank = slot0.oldRank,
 					statistics = slot3.statistics,
@@ -1282,8 +1210,6 @@ function slot0.handleNotification(slot0, slot1)
 		if not slot4:IsPause() then
 			slot0:onPauseBtn()
 		end
-	elseif slot2 == GAME.RESUME_BATTLE then
-		slot4:Resume()
 	elseif slot2 == GAME.FINISH_STAGE_ERROR then
 		gcAll(true)
 
@@ -1301,8 +1227,8 @@ function slot0.handleNotification(slot0, slot1)
 				-- Nothing
 			elseif slot5 == SYSTEM_SCENARIO then
 				slot8:removeChild(slot8:getContextByMediator(ChapterPreCombatMediator))
-			elseif slot5 ~= SYSTEM_PERFORM and slot5 ~= SYSTEM_SIMULATION and slot8:getContextByMediator(PreCombatMediator) then
-				slot8:removeChild(slot11)
+			elseif slot5 ~= SYSTEM_PERFORM and slot5 ~= SYSTEM_SIMULATION then
+				slot8:removeChild(slot8:getContextByMediator(PreCombatMediator))
 			end
 		elseif slot10 and slot10:getContextByMediator(PreCombatMediator) then
 			slot10:removeChild(slot11)

@@ -101,12 +101,9 @@ function slot0.uiStartAnimating(slot0)
 end
 
 function slot0.uiExitAnimating(slot0)
-	slot1 = 0
-	slot2 = 0.3
-
-	shiftPanel(slot0._middle, -840, nil, slot2, slot1, true, true)
-	shiftPanel(slot0._right, 470, nil, slot2, slot1, true, true)
-	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, slot2, slot1, true, true, nil, )
+	shiftPanel(slot0._middle, -840, nil, dur, delay, true, true)
+	shiftPanel(slot0._right, 470, nil, dur, delay, true, true)
+	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, dur, delay, true, true, nil, )
 end
 
 function slot0.didEnter(slot0)
@@ -302,7 +299,12 @@ function slot0.updateStageView(slot0, slot1)
 	slot5 = slot2.sink_limit
 	slot6 = Clone(slot2.award_display)
 	slot7 = slot0.chapter.fleet.line
-	slot8 = slot0.chapter:getStageCell(slot7.row, slot7.column)
+
+	if slot0.chapter:getStageCell(slot7.row, slot7.column).attachment == ChapterConst.AttachBoss and slot0.chapter:getStageExtraAwards() then
+		for slot13 = #slot9, 1, -1 do
+			table.insert(slot6, 1, slot9[slot13])
+		end
+	end
 
 	if checkExist(pg.expedition_activity_template[slot1], {
 		"pt_drop_display"

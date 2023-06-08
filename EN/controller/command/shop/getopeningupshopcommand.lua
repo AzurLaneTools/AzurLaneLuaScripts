@@ -29,12 +29,6 @@ function slot0.execute(slot0, slot1)
 		end,
 		function (slot0)
 			uv0:GetMetaShops(slot0)
-		end,
-		function (slot0)
-			uv0:GetMiniShops(slot0)
-		end,
-		function (slot0)
-			uv0:GetQuotaShop(slot0)
 		end
 	}, function ()
 		if uv0 then
@@ -247,62 +241,6 @@ function slot0.GetMedalShops(slot0, slot1)
 			table.insert(uv0.shopList[NewShopsScene.TYPE_MEDAL], slot1)
 		end
 
-		slot0()
-	end)
-	seriesAsync(slot2, slot1)
-end
-
-function slot0.GetMiniShops(slot0, slot1)
-	slot2 = {}
-
-	if not slot0.shopsProxy:getMiniShop() then
-		table.insert(slot2, function (slot0)
-			uv0:sendNotification(GAME.GET_MINI_GAME_SHOP, {
-				callback = slot0
-			})
-		end)
-	else
-		table.insert(slot2, function (slot0)
-			if uv0:checkShopFlash() then
-				uv1:sendNotification(GAME.MINI_GAME_SHOP_FLUSH, {
-					callback = slot0
-				})
-			else
-				slot0(uv0)
-			end
-		end)
-	end
-
-	table.insert(slot2, function (slot0, slot1)
-		uv0.shopList[NewShopsScene.TYPE_MINI_GAME] = {}
-
-		table.insert(uv0.shopList[NewShopsScene.TYPE_MINI_GAME], slot1)
-		slot0()
-	end)
-	seriesAsync(slot2, slot1)
-end
-
-function slot0.GetQuotaShop(slot0, slot1)
-	if LOCK_QUOTA_SHOP then
-		slot1()
-
-		return
-	end
-
-	slot2 = {}
-
-	if not slot0.shopsProxy:getQuotaShop() then
-		slot0.shopsProxy:setQuotaShop(QuotaShop.New())
-	else
-		table.insert(slot2, function (slot0)
-			slot0(uv0)
-		end)
-	end
-
-	table.insert(slot2, function (slot0)
-		uv0.shopList[NewShopsScene.TYPE_QUOTA] = {}
-
-		table.insert(uv0.shopList[NewShopsScene.TYPE_QUOTA], uv1)
 		slot0()
 	end)
 	seriesAsync(slot2, slot1)

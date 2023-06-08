@@ -465,20 +465,37 @@ end
 
 function slot1.PlayChapterItemAnimation(slot0, slot1, slot2, slot3)
 	slot4 = findTF(slot1, "main")
-	slot6 = findTF(slot4, "circle")
-	slot7 = findTF(slot4, "info/bk")
+	slot5 = findTF(slot1, "sub")
 
-	LeanTween.cancel(go(slot6))
+	if slot2:getPlayType() == ChapterConst.TypeMainSub then
+		slot5:GetComponent("Animator").enabled = true
+		slot7 = slot5:GetComponent("DftAniEvent")
 
-	slot6.localScale = Vector3.zero
-	slot8 = LeanTween.scale(slot6, Vector3.one, 0.3)
+		slot7:SetEndEvent(function (slot0)
+			uv0.enabled = false
 
-	slot0:RecordTween(slot8:setDelay(0.3).uniqueId)
+			if uv1 then
+				uv1()
+			end
+		end)
+
+		return
+	end
+
+	slot7 = findTF(slot4, "circle")
+	slot8 = findTF(slot4, "info/bk")
+
 	LeanTween.cancel(go(slot7))
-	setAnchoredPosition(slot7, {
+
+	slot7.localScale = Vector3.zero
+	slot9 = LeanTween.scale(slot7, Vector3.one, 0.3)
+
+	slot0:RecordTween(slot9:setDelay(0.3).uniqueId)
+	LeanTween.cancel(go(slot8))
+	setAnchoredPosition(slot8, {
 		x = -1 * slot4:Find("info").rect.width
 	})
-	shiftPanel(slot7, 0, nil, 0.4, 0.4, true, true, nil, function ()
+	shiftPanel(slot8, 0, nil, 0.4, 0.4, true, true, nil, function ()
 		if uv0:isTriesLimit() then
 			setActive(findTF(uv1, "triesLimit"), true)
 		end
@@ -491,31 +508,38 @@ end
 
 function slot1.PlayChapterItemAnimationBackward(slot0, slot1, slot2, slot3)
 	slot4 = findTF(slot1, "main")
-	slot6 = findTF(slot4, "circle")
-	slot7 = findTF(slot4, "info/bk")
 
-	LeanTween.cancel(go(slot6))
-
-	slot6.localScale = Vector3.one
-
-	slot0:RecordTween(LeanTween.scale(go(slot6), Vector3.zero, 0.3):setDelay(0.3).uniqueId)
-
-	slot0.chaptersInBackAnimating[slot2.id] = true
-
-	LeanTween.cancel(go(slot7))
-	setAnchoredPosition(slot7, {
-		x = 0
-	})
-	shiftPanel(slot7, -1 * slot4:Find("info").rect.width, nil, 0.4, 0.4, true, true, nil, function ()
-		uv0.chaptersInBackAnimating[uv1.id] = nil
-
-		if uv2 then
-			uv2()
+	if slot2:getPlayType() == ChapterConst.TypeMainSub then
+		if slot3 then
+			slot3()
 		end
-	end)
+	else
+		slot6 = findTF(slot4, "circle")
+		slot7 = findTF(slot4, "info/bk")
 
-	if slot2:isTriesLimit() then
-		setActive(findTF(slot4, "triesLimit"), false)
+		LeanTween.cancel(go(slot6))
+
+		slot6.localScale = Vector3.one
+
+		slot0:RecordTween(LeanTween.scale(go(slot6), Vector3.zero, 0.3):setDelay(0.3).uniqueId)
+
+		slot0.chaptersInBackAnimating[slot2.id] = true
+
+		LeanTween.cancel(go(slot7))
+		setAnchoredPosition(slot7, {
+			x = 0
+		})
+		shiftPanel(slot7, -1 * slot4:Find("info").rect.width, nil, 0.4, 0.4, true, true, nil, function ()
+			uv0.chaptersInBackAnimating[uv1.id] = nil
+
+			if uv2 then
+				uv2()
+			end
+		end)
+
+		if slot2:isTriesLimit() then
+			setActive(findTF(slot4, "triesLimit"), false)
+		end
 	end
 end
 

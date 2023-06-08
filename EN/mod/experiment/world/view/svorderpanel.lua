@@ -39,9 +39,7 @@ function slot0.OnInit(slot0)
 	slot3:Setup(true)
 
 	slot0.rtMsgbox = slot1:Find("Msgbox")
-	slot4 = slot0.rtMsgbox
 
-	setText(slot4:Find("window/top/bg/infomation/title"), i18n("title_info"))
 	setActive(slot0.rtMsgbox, false)
 
 	slot5 = slot0.rtMsgbox
@@ -384,7 +382,7 @@ end
 
 function slot0.HideMsgbox(slot0)
 	setActive(slot0.rtMsgbox, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtMsgbox, slot0._tf)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtMsgbox)
 end
 
 function slot0.DisplayAutoSetting(slot0, slot1)

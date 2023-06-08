@@ -145,7 +145,6 @@ pg.memory_group = setmetatable({
 		245,
 		246,
 		247,
-		248,
 		501,
 		502,
 		503,
@@ -3311,16 +3310,6 @@ pg.base.memory_group = {
 		title = "Pristine Leaves, Rich Warmth",
 		memories = {
 			2751
-		}
-	},
-	[248] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
-		id = 248,
-		title = "Like a Soaring Apsaras",
-		memories = {
-			2781
 		}
 	},
 	[501] = {

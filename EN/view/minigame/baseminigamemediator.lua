@@ -3,25 +3,23 @@ slot0.MINI_GAME_SUCCESS = "BaseMiniGameMediator:MINI_GAME_SUCCESS"
 slot0.MINI_GAME_FAILURE = "BaseMiniGameMediator:MINI_GAME_FAILURE"
 slot0.MINI_GAME_OPERATOR = "BaseMiniGameMediator:MINI_GAME_OPERATOR"
 slot0.OPEN_SUB_LAYER = "BaseMiniGameMediator:OPEN_SUB_LAYER"
-slot0.MINI_GAME_COIN = "BaseMiniGameMediator:MINI_GAME_COIN"
-slot0.COIN_WINDOW_CHANGE = "BaseMiniGameMediator:COIN_WINDOW_CHANGE"
 
 function slot0.register(slot0)
 	slot0.miniGameId = slot0.contextData.miniGameId
 	slot0.miniGameProxy = getProxy(MiniGameProxy)
+	slot1 = slot0.miniGameProxy
+	slot2 = slot0.miniGameProxy
+	slot3 = slot0.viewComponent
 
-	slot0.viewComponent:SetMGData(slot0.miniGameProxy:GetMiniGameData(slot0.miniGameId))
-	slot0.viewComponent:SetMGHubData(slot0.miniGameProxy:GetHubByGameId(slot0.miniGameId))
-	slot0.miniGameProxy:RequestInitData(slot0.miniGameId)
+	slot3:SetMGData(slot2:GetMiniGameData(slot0.miniGameId))
 
-	slot0.gameRoomId = pg.mini_game[slot0.miniGameId].game_room
+	slot3 = slot0.viewComponent
 
-	if slot0.gameRoomId and slot0.gameRoomId > 0 then
-		slot0.gameRoomData = pg.game_room_template[slot0.gameRoomId]
+	slot3:SetMGHubData(slot1:GetHubByGameId(slot0.miniGameId))
 
-		slot0.viewComponent:setGameRoomData(slot0.gameRoomData)
-	end
+	slot3 = slot0.miniGameProxy
 
+	slot3:RequestInitData(slot0.miniGameId)
 	slot0:bind(BaseMiniGameMediator.MINI_GAME_SUCCESS, function (slot0, ...)
 		uv0:OnMiniGameSuccess(...)
 	end)
@@ -34,27 +32,6 @@ function slot0.register(slot0)
 	slot0:bind(BaseMiniGameMediator.OPEN_SUB_LAYER, function (slot0, slot1)
 		uv0:addSubLayers(Context.New(slot1))
 	end)
-	slot0:bind(BaseMiniGameMediator.MINI_GAME_COIN, function (slot0, ...)
-		uv0:loadCoinLayer()
-	end)
-	slot0:bind(BaseMiniGameMediator.COIN_WINDOW_CHANGE, function (slot0, slot1)
-		uv0:sendNotification(GameRoomCoinMediator.CHANGE_VISIBLE, slot1)
-	end)
-end
-
-function slot0.onUIAvalible(slot0)
-	if slot0.gameRoomData then
-		slot0:loadCoinLayer()
-	end
-end
-
-function slot0.loadCoinLayer(slot0)
-	slot0.viewComponent:setCoinLayer()
-	slot0:addSubLayers(Context.New({
-		mediator = GameRoomCoinMediator,
-		viewComponent = GameRoomCoinLayer,
-		data = slot0.gameRoomData
-	}))
 end
 
 function slot0.OnMiniGameOPeration(slot0, ...)
@@ -71,9 +48,7 @@ function slot0.listNotificationInterests(slot0)
 		MiniGameProxy.ON_HUB_DATA_UPDATE,
 		GAME.SEND_MINI_GAME_OP_DONE,
 		GAME.MODIFY_MINI_GAME_DATA_DONE,
-		GAME.ON_APPLICATION_PAUSE,
-		GAME.GAME_COIN_COUNT_CHANGE,
-		GAME.GAME_ROOM_AWARD_DONE
+		GAME.ON_APPLICATION_PAUSE
 	}
 end
 
@@ -101,10 +76,6 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:OnModifyMiniGameDataDone(slot3)
 	elseif slot2 == GAME.ON_APPLICATION_PAUSE then
 		slot0.viewComponent:OnApplicationPaused(slot3)
-	elseif slot2 == GAME.GAME_COIN_COUNT_CHANGE then
-		slot0.gameRoonCoinCount = slot3
-	elseif slot2 == GAME.GAME_ROOM_AWARD_DONE and #slot3 > 0 then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3)
 	end
 end
 

@@ -3,6 +3,17 @@ slot1 = import("view.ship.FormationUI")
 slot2 = {
 	[99.0] = true
 }
+slot0.ObjectiveList = {
+	"battle_preCombatLayer_victory",
+	"battle_preCombatLayer_undefeated",
+	"battle_preCombatLayer_sink_limit",
+	"battle_preCombatLayer_time_hold",
+	"battle_preCombatLayer_time_limit",
+	"battle_preCombatLayer_boss_destruct",
+	"battle_preCombatLayer_damage_before_end",
+	"battle_result_defeat_all_enemys",
+	"battle_preCombatLayer_destory_transport_ship"
+}
 
 function slot0.getUIName(slot0)
 	return "BossRushPreCombatUI"
@@ -270,16 +281,16 @@ function slot0.SetStageIds(slot0, slot1)
 		function slot5(slot0, slot1)
 			if type(slot0) == "table" then
 				setActive(slot1, true)
-				setWidgetText(slot1, i18n(PreCombatLayer.ObjectiveList[slot0[1]], slot0[2]))
+				setWidgetText(slot1, i18n(uv0.ObjectiveList[slot0[1]], slot0[2]))
 			else
 				setActive(slot1, false)
 			end
 		end
 
 		slot6 = {
-			findTF(uv1._goals, "goal_tpl"),
-			findTF(uv1._goals, "goal_sink"),
-			findTF(uv1._goals, "goal_time")
+			findTF(uv2._goals, "goal_tpl"),
+			findTF(uv2._goals, "goal_sink"),
+			findTF(uv2._goals, "goal_time")
 		}
 		slot8 = 1
 
