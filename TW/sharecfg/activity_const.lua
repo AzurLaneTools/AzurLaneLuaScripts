@@ -947,5 +947,8 @@ pg.activity_const = {
 	},
 	ACTIVITY_TYPE_RETURN_AWARD_ID6 = {
 		act_id = 4876
+	},
+	LINLK_DUNHUANG_ACT = {
+		act_id = 4889
 	}
 }

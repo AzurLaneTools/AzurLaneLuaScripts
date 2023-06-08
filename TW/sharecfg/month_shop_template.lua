@@ -80,7 +80,9 @@ pg.month_shop_template = {
 			11011,
 			11013,
 			11014,
-			11015
+			11015,
+			11017,
+			11018
 		},
 		blueprint_shop_limit_goods = {
 			11009,
@@ -199,7 +201,9 @@ pg.month_shop_template = {
 			11011,
 			11013,
 			11014,
-			11015
+			11015,
+			11017,
+			11018
 		},
 		blueprint_shop_limit_goods = {
 			11009,
@@ -318,7 +322,9 @@ pg.month_shop_template = {
 			11011,
 			11013,
 			11014,
-			11015
+			11015,
+			11017,
+			11018
 		},
 		blueprint_shop_limit_goods = {
 			11009,
@@ -437,7 +443,9 @@ pg.month_shop_template = {
 			11011,
 			11013,
 			11014,
-			11015
+			11015,
+			11017,
+			11018
 		},
 		blueprint_shop_limit_goods = {
 			11009,
@@ -556,7 +564,9 @@ pg.month_shop_template = {
 			11011,
 			11013,
 			11014,
-			11015
+			11015,
+			11017,
+			11018
 		},
 		blueprint_shop_limit_goods = {
 			11009,
@@ -675,7 +685,9 @@ pg.month_shop_template = {
 			11011,
 			11013,
 			11014,
-			11015
+			11015,
+			11017,
+			11018
 		},
 		blueprint_shop_limit_goods = {
 			11009,
@@ -794,7 +806,9 @@ pg.month_shop_template = {
 			11011,
 			11013,
 			11014,
-			11015
+			11015,
+			11017,
+			11018
 		},
 		blueprint_shop_limit_goods = {
 			11009,
@@ -913,7 +927,9 @@ pg.month_shop_template = {
 			11011,
 			11013,
 			11014,
-			11015
+			11015,
+			11017,
+			11018
 		},
 		blueprint_shop_limit_goods = {
 			11009,
@@ -1032,7 +1048,9 @@ pg.month_shop_template = {
 			11011,
 			11013,
 			11014,
-			11015
+			11015,
+			11017,
+			11018
 		},
 		blueprint_shop_limit_goods = {
 			11009,
@@ -1151,7 +1169,9 @@ pg.month_shop_template = {
 			11011,
 			11013,
 			11014,
-			11015
+			11015,
+			11017,
+			11018
 		},
 		blueprint_shop_limit_goods = {
 			11009,
@@ -1270,7 +1290,9 @@ pg.month_shop_template = {
 			11011,
 			11013,
 			11014,
-			11015
+			11015,
+			11017,
+			11018
 		},
 		blueprint_shop_limit_goods = {
 			11009,
@@ -1389,7 +1411,9 @@ pg.month_shop_template = {
 			11011,
 			11013,
 			11014,
-			11015
+			11015,
+			11017,
+			11018
 		},
 		blueprint_shop_limit_goods = {
 			11009,

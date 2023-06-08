@@ -666,6 +666,20 @@ function slot0.getEquipsInShips(slot0, slot1, slot2)
 	return slot4
 end
 
+function slot0.GetEquipCountInShips(slot0, slot1)
+	slot2 = 0
+
+	for slot6, slot7 in pairs(slot0.data) do
+		for slot11, slot12 in pairs(slot7.equipments) do
+			if slot12 and slot12.id == slot1 then
+				slot2 = slot2 + 1
+			end
+		end
+	end
+
+	return slot2
+end
+
 function slot0.GetEquipsInShipsRaw(slot0)
 	function slot1(slot0, slot1, slot2)
 		slot3 = CreateShell(slot0)

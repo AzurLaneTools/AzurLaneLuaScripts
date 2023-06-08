@@ -1,6 +1,122 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
+	[303128] = {
+		ship_group = 30312,
+		name = "白花的誓言",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 303128,
+		group_index = 8,
+		prefab = "aidang_h",
+		painting = "aidang_h",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 9998,
+		air_bomb_skin = "",
+		illustrator = 21,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指揮官，呵呵，從今天起是不是該要叫親愛的了呢…？來，牽起我的手吧……在這種時候，我還是希望由親·愛·的來主動呢~",
+		voice_actor = 9,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.33,
+					0.71,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.33,
+					0.66,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.34,
+					0.72,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[303130] = {
 		ship_group = 30313,
 		name = "{namecode:68}",
@@ -9586,108 +9702,6 @@ pg.base.ship_skin_template_11 = {
 						{
 							-0.55,
 							2.32,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[306090] = {
-		ship_group = 30609,
-		name = "千代田",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 306090,
-		group_index = 0,
-		prefab = "qiandaitian",
-		painting = "qiandaitian",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "{namecode:88}級輕型航空母艦—{namecode:104}",
-		voice_actor = 244,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.513,
-					1.148,
-					0
-				}
-			},
-			plane = {
-				{
-					1.572,
-					1.175,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.52,
-							2.27,
 							0
 						}
 					}

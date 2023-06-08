@@ -115,6 +115,7 @@ pg.furniture_data_template = setmetatable({
 			236,
 			239,
 			245,
+			251,
 			100002,
 			100003,
 			100004,
@@ -4103,6 +4104,7 @@ pg.furniture_data_template = setmetatable({
 			235,
 			239,
 			245,
+			251,
 			100002,
 			100003,
 			100004,
@@ -6358,6 +6360,9 @@ pg.furniture_data_template = setmetatable({
 			214,
 			100019
 		},
+		[15] = {
+			251
+		},
 		[13] = {
 			100015,
 			78116,
@@ -7075,6 +7080,7 @@ pg.furniture_data_template = setmetatable({
 		236,
 		239,
 		245,
+		251,
 		100002,
 		100003,
 		100004,
@@ -14598,6 +14604,56 @@ pg.base.furniture_data_template = {
 			{
 				"haidaoxunzhang",
 				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[251] = {
+		spine_extra = "",
+		describe = "翩若飛仙，餘音繞樑",
+		gain_by = "",
+		type = 15,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "dunhuangpipaicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "古韻琵琶",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 251,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"bgm-theme-haitian-soft-loop"
+			}
+		},
+		spine = {
+			{
+				"dunhuangpipa",
+				"normal",
+				{
+					"action",
+					true
+				}
 			}
 		},
 		interAction_group = {}

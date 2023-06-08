@@ -1,6 +1,227 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
+	[10800011] = {
+		ship_group = 1080001,
+		name = "晴空的車站",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "ssss-az-story",
+		illustrator2 = -1,
+		bg = "112",
+		id = 10800011,
+		group_index = 1,
+		prefab = "baoduoliuhua_2",
+		painting = "baoduoliuhua_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70616,
+		shop_type_id = 9,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "電車還沒來啊……嗯？真巧。指揮官要去哪？",
+		voice_actor = 293,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.97,
+					0.89,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.95,
+					0.95,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.515,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10800020] = {
+		ship_group = 1080002,
+		name = "新條茜",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 10800020,
+		group_index = 0,
+		prefab = "qian",
+		painting = "qian",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "你好，我是新條茜。這個艦裝很有機械感，非常的酷呢。要是再有點怪獸，那就完美了呢……",
+		voice_actor = 108,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.47,
+					2.25,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.28,
+					2.25,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.33,
+							2.57,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10800021] = {
 		ship_group = 1080002,
 		name = "兩人獨處的休息日",
@@ -8175,6 +8396,115 @@ pg.base.ship_skin_template_20 = {
 			}
 		}
 	},
+	[899028] = {
+		ship_group = 89902,
+		name = "久遠讚頌",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 899028,
+		group_index = 8,
+		prefab = "xiangbin_h",
+		painting = "xiangbin_h",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 9998,
+		air_bomb_skin = "",
+		illustrator = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "頌揚之歌獻予尊崇鳶尾，鳴奏之樂凝為清澈祈禱。賜福所求並非禮拜之儀，永存羈絆方乃人之偉業——",
+		voice_actor = 64,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.306,
+					1.494,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.274,
+					1.637,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.436,
+							2.45,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[199030] = {
 		ship_group = 19903,
 		name = "安克拉治",
@@ -9717,6 +10047,115 @@ pg.base.ship_skin_template_20 = {
 						{
 							-0.82,
 							1.82,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[599018] = {
+		ship_group = 59901,
+		name = "牡丹紅",
+		bullet_skin_secondary = "",
+		hand_id = 9,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 599018,
+		group_index = 8,
+		prefab = "haerbin_h",
+		painting = "haerbin_h",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 9998,
+		air_bomb_skin = "",
+		illustrator = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = 355,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "讓你久等了，指揮官。你覺得得這身還行嗎？穿成這樣有些難為情啊……不過，你覺得合適就好。",
+		voice_actor = 336,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.306,
+					1.494,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.274,
+					1.637,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.436,
+							2.45,
 							-0.16
 						}
 					}

@@ -199,6 +199,22 @@ function table.ParallelIpairsAsync(slot0, slot1, slot2)
 	slot8()
 end
 
+function table.Find(slot0, slot1)
+	for slot5, slot6 in pairs(slot0) do
+		if slot1(slot5, slot6) then
+			return slot6, slot5
+		end
+	end
+end
+
+function table.Checkout(slot0, slot1)
+	for slot5, slot6 in pairs(slot0) do
+		if slot1(slot5, slot6) ~= nil then
+			return slot7
+		end
+	end
+end
+
 function table.getCount(slot0)
 	slot1 = 0
 

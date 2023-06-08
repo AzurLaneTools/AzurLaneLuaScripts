@@ -1,6 +1,124 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_10 = {
+	[301801] = {
+		ship_group = 30180,
+		name = "元氣RUN TIME！",
+		bullet_skin_secondary = "",
+		hand_id = 6,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 301801,
+		group_index = 1,
+		prefab = "juanbo_2",
+		painting = "juanbo_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70347,
+		shop_type_id = 4,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "好的，這樣就萬無一失了！體力滿滿，精神百分百，{namecode:162}，出發囉！",
+		voice_actor = 165,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.122,
+					1.134,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.128,
+					1.15,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.004,
+					0.018,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.156,
+					1.18,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.39,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301810] = {
 		ship_group = 30181,
 		name = "{namecode:180}",
@@ -9940,122 +10058,6 @@ pg.base.ship_skin_template_10 = {
 						{
 							-0.34,
 							2.48,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[303128] = {
-		ship_group = 30312,
-		name = "白花的誓言",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 303128,
-		group_index = 8,
-		prefab = "aidang_h",
-		painting = "aidang_h",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 9998,
-		air_bomb_skin = "",
-		illustrator = 21,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指揮官，呵呵，從今天起是不是該要叫親愛的了呢…？來，牽起我的手吧……在這種時候，我還是希望由親·愛·的來主動呢~",
-		voice_actor = 9,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.33,
-					0.71,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.33,
-					0.66,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.34,
-					0.72,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.5,
-							2.46,
 							0
 						}
 					}

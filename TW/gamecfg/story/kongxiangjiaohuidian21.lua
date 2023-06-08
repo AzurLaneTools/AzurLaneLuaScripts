@@ -794,7 +794,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "而且……如果的是余烬的话，也许能打听到{namecode:441}的消息……",
+			say = "而且……如果是余烬的话，也许能打听到{namecode:441}的消息……",
 			painting = {
 				alpha = 0.3,
 				time = 1

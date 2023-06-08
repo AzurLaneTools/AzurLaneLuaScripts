@@ -959,14 +959,6 @@ _G.pg.base.gametip.common_no_item_1 = {
 	tip = "道具不足"
 }
 
-_G.pg.base.gametip.common_use_item_sos_max = {
-	tip = "信號已滿"
-}
-
-_G.pg.base.gametip.common_use_item_sos_used = {
-	tip = "信號次數+$1"
-}
-
 _G.pg.base.gametip.common_no_x = {
 	tip = "<color=#A9F548>$1</color>不夠啦！"
 }
@@ -3547,22 +3539,6 @@ _G.pg.base.gametip.levelScene_destroy_torpedo = {
 	tip = "成功拆除水雷"
 }
 
-_G.pg.base.gametip.levelScene_sub_refresh_count_not_enough = {
-	tip = "還沒有收到過求救信號…"
-}
-
-_G.pg.base.gametip.levelScene_jump_to_sub_confirm = {
-	tip = "搜尋完畢，信號源來自：$1海域（第$2章），是否前往？"
-}
-
-_G.pg.base.gametip.levelScene_signal_help_tip = {
-	tip = "信號提示"
-}
-
-_G.pg.base.gametip.levelScene_search_area = {
-	tip = "【搜尋範圍：$1章海域】"
-}
-
 _G.pg.base.gametip.levelScene_new_chapter_coming = {
 	tip = "新章開放："
 }
@@ -3661,10 +3637,6 @@ _G.pg.base.gametip.levelScene_select_SP_OP_reminder = {
 
 _G.pg.base.gametip.tack_tickets_max_warning = {
 	tip = "所持<color=#ffff00>檔案密鑰</color>數量達到上限，完成任務後只能獲得<color=#D6341DFF>$1</color>份<color=#ffff00>檔案密鑰</color>，是否確認領取？"
-}
-
-_G.pg.base.gametip.error_refresh_sub_chapter = {
-	tip = "未搜尋到新的求救信號"
 }
 
 _G.pg.base.gametip.world_battle_count = {
@@ -4422,6 +4394,26 @@ _G.pg.base.gametip.buy_item_quest = {
 
 _G.pg.base.gametip.refresh_shopStreet_question = {
 	tip = "是否花費$1<color=#A9F548>$2</color>更新商品列表\n\n <size=22>（今日已經購買<size=25><color=#FF0000>$3</color></size>次）</size>"
+}
+
+_G.pg.base.gametip.quota_shop_title = {
+	tip = "「核心兑换·限定」"
+}
+
+_G.pg.base.gametip.quota_shop_description = {
+	tip = "可兑换部分活动限定奖励，兑换不可超过<color=#fd8a62>持有上限</color>"
+}
+
+_G.pg.base.gametip.quota_shop_owned = {
+	tip = "持有上限"
+}
+
+_G.pg.base.gametip.quota_shop_good_limit = {
+	tip = "已达上限"
+}
+
+_G.pg.base.gametip.quota_shop_limit_error = {
+	tip = "该道具已经达到持有上限，无法兑换"
 }
 
 _G.pg.base.gametip.event_start_success = {
@@ -8168,7 +8160,7 @@ _G.pg.base.gametip.destroy_high_level_tip = {
 }
 
 _G.pg.base.gametip.destroy_eliteequipment_tip = {
-	tip = "拆解裝備中有$1的裝備\n是否確認?"
+	tip = "拆解裝備中有$1的裝備"
 }
 
 _G.pg.base.gametip.destroy_high_intensify_tip = {
@@ -8177,6 +8169,10 @@ _G.pg.base.gametip.destroy_high_intensify_tip = {
 
 _G.pg.base.gametip.destroy_inHardFormation_tip = {
 	tip = "<color=#92fc63>困難編隊中</color>"
+}
+
+_G.pg.base.gametip.destroy_equip_rarity_tip = {
+	tip = "請輸入<color=#92fc63>$1</color>進行確認"
 }
 
 _G.pg.base.gametip.ship_quick_change_noequip = {
@@ -8325,10 +8321,6 @@ _G.pg.base.gametip.word_status_rest = {
 
 _G.pg.base.gametip.word_status_train = {
 	tip = "訓練中"
-}
-
-_G.pg.base.gametip.word_status_challenge = {
-	tip = "特殊挑戰中"
 }
 
 _G.pg.base.gametip.word_status_world = {
@@ -9033,44 +9025,6 @@ _G.pg.base.gametip.anniversary_task_title_13 = {
 
 _G.pg.base.gametip.anniversary_task_title_14 = {
 	tip = "很榮幸能與你相遇。很期待，我們在下一個蟬鳴之時，可以再見"
-}
-
-_G.pg.base.gametip.help_sos = {
-	tip = {
-		{
-			info = "海域救援說明"
-		},
-		{
-			info = [[
-
-
-海域救援次數
-·我們的艦隊可進行的海域救援次數會不定時地增加
-·指揮官在離港期間，港區仍會籌備海域救援，可進行的海域救援次數正常增加
-
-搜索訊號
-·我們可以消耗一次海域救援次數，對指定章節的海域進行訊號搜索
-·搜索完成後會開啟該章節的救援行動，救援行動會持續12小時
-·如果無法在限定時間內完成救援，我們將會丟失訊號來源，導致無法行動。
-·一個章節內最多同時只能出現一個海域救援行動
-·在增強訊號之前，我們只能搜索到來自第三章海域的訊號
-
-訊號強度
-·訊號接收器的強度一共分為8檔，在初始狀態下我們的訊號強度為1檔。
-·訊號強度每增強1檔，可進行的海域救援次數上限增加1次，可搜索的海域也能增加1章
-·指揮官需要先通關該章節的所有關卡後才能在對應章節搜索到海域救援行動
-·訊號強度等級越高，完成救援可獲得的獎勵會變得越豐厚
-·以S評價完成當前可搜索的最高章節的救援行動時，訊號強度會增強1檔
- ·訊號強度決定了指揮官可進行的海域救援次數上限，不同的訊號強度對應不同的海域救援次數上限數量
-
-戰鬥遭遇
-·在救援過程中會遭遇到敵方的潛艇部隊，請指揮官務必為出擊的艦隊配備反潛設備]]
-		}
-	}
-}
-
-_G.pg.base.gametip.sos_lock = {
-	tip = "救援關卡尚未開放"
 }
 
 _G.pg.base.gametip.charge_scene_buy_confirm = {
@@ -10429,6 +10383,10 @@ _G.pg.base.gametip.school_title_xueyuan = {
 
 _G.pg.base.gametip.school_title_shoucang = {
 	tip = "收藏室"
+}
+
+_G.pg.base.gametip.school_title_xiaoyouxiting = {
+	tip = "小游戏厅"
 }
 
 _G.pg.base.gametip.tag_level_fighting = {
@@ -17243,26 +17201,6 @@ _G.pg.base.gametip.daily_level_quick_battle_label3 = {
 	tip = "快速挑戰"
 }
 
-_G.pg.base.gametip.LevelSignal = {
-	tip = "海域救援"
-}
-
-_G.pg.base.gametip.LevelSignal_go = {
-	tip = "前往"
-}
-
-_G.pg.base.gametip.LevelSignal_search = {
-	tip = "搜索訊號"
-}
-
-_G.pg.base.gametip.LevelSignal_times = {
-	tip = "可進行海域救援的次數："
-}
-
-_G.pg.base.gametip.LevelSignal_intensity = {
-	tip = "訊號強度："
-}
-
 _G.pg.base.gametip.backyard_longpress_ship_tip = {
 	tip = "※長按可以跳轉至角色養成介面"
 }
@@ -19199,10 +19137,6 @@ _G.pg.base.gametip.shipmodechange_reject_1stfleet_only = {
 
 _G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
 	tip = "艦船為大世界艦隊先鋒/主力艦隊的唯一角色，請調整編隊陣容後重試"
-}
-
-_G.pg.base.gametip.shipmodechange_reject_inactivity = {
-	tip = "艦船在限界挑戰/共鬥活動編成中，請調整編隊陣容後重試 "
 }
 
 _G.pg.base.gametip.monopoly3thre_tip = {
@@ -21968,6 +21902,47 @@ _G.pg.base.gametip.limit_team_character_tips = {
 	tip = "※參戰的艦隊中不可出現同名角色"
 }
 
+_G.pg.base.gametip.game_room_help = {
+	tip = {
+		{
+			info = [[
+游戏屋功能说明：
+1.使用「游戏币」进行游戏可获取「游戏奖券」，使用的游戏币数量越多，奖卷获取倍率越高，最多一次可使用5枚游戏币。每月最多获得10000奖券，奖卷持有上限为50000
+2.每周可从游戏室中免费获取10枚游戏币，游戏币持有上限为40枚，当游戏币不足时，指挥官可以使用物资兑换游戏币。
+3.使用啾啾奖券可以在奖卷商店中兑换不同商品，商品存在兑换次数，商品列表会在后续持续更新。
+4.活动结束的小游戏会在后续逐步加入游戏列表，部分小游戏可能暂时不会进入游戏室，还望指挥官谅解。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.game_cannot_go = {
+	tip = "本游戏目前不在开放时间内"
+}
+
+_G.pg.base.gametip.game_ticket_notenough = {
+	tip = "游戏奖券数量不足，是否前往游戏屋获取？"
+}
+
+_G.pg.base.gametip.game_ticket_max_all = {
+	tip = "当前游戏奖券持有数量即将达到上限，继续游玩可能会有部分奖券无法获得，是否继续游玩"
+}
+
+_G.pg.base.gametip.game_ticket_max_month = {
+	tip = "本月可获取游戏奖券数量即将达到上限，继续游玩可能会有部分奖券无法获得，是否继续游玩？"
+}
+
+_G.pg.base.gametip.game_icon_notenough = {
+	tip = "当前游戏币不足（），是否消耗物资兑换X枚游戏币？"
+}
+
+_G.pg.base.gametip.game_goldbyicon = {
+	tip = "是否消耗$1物资兑换$2游戏币 "
+}
+
+_G.pg.base.gametip.game_icon_max = {
+	tip = "当前游戏币即将到达上限，领取后超出上限的部分将会消失，是否继续领取？"
+}
+
 _G.pg.base.gametip.caibulin_tip1 = {
 	tip = "從作戰中搜尋線索，目標1-2Burin！"
 }
@@ -22556,4 +22531,44 @@ _G.pg.base.gametip.littleTaihou_npc = {
 			info = "8.npc角色無法參與大艦隊作戰中的事件派遣、攻堅隊和首領戰。"
 		}
 	}
+}
+
+_G.pg.base.gametip.disassemble_selected = {
+	tip = "已选中"
+}
+
+_G.pg.base.gametip.disassemble_available = {
+	tip = "可获得"
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_challenge = {
+	tip = "限界挑战舰队"
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_challenge_sub = {
+	tip = "限界挑战舰队"
+}
+
+_G.pg.base.gametip.word_status_activity = {
+	tip = "活动编队中"
+}
+
+_G.pg.base.gametip.word_status_challenge = {
+	tip = "特殊挑戰中"
+}
+
+_G.pg.base.gametip.shipmodechange_reject_inactivity = {
+	tip = "艦船在限界挑戰/共鬥活動編成中，請調整編隊陣容後重試 "
+}
+
+_G.pg.base.gametip.shipmodechange_reject_inchallenge = {
+	tip = "舰船在限界挑战编成中，请调整编队阵容后重试"
+}
+
+_G.pg.base.gametip.battle_result_total_time = {
+	tip = "通关时间："
+}
+
+_G.pg.base.gametip.game_room_shooting_tip = {
+	tip = "当前积分："
 }

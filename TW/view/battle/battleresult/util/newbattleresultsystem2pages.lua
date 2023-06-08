@@ -35,6 +35,7 @@ return {
 		NewActivityBossResultStatisticsPage
 	},
 	[SYSTEM_WORLD_BOSS] = {
+		NewBattleResultDisplayAwardPage,
 		NewWorldBossResultStatisticsPage
 	},
 	[SYSTEM_REWARD_PERFORM] = {
@@ -56,5 +57,11 @@ return {
 		NewBattleResultDisplayAwardPage,
 		NewBattleResultDisplayPaintingsPage,
 		NewDuelResultStatisticsPage
+	},
+	[SYSTEM_LIMIT_CHALLENGE] = {
+		NewLimitChallengeResultGradePage,
+		NewBattleResultDisplayAwardPage,
+		NewBattleResultDisplayPaintingsPage,
+		NewBattleResultStatisticsPage
 	}
 }

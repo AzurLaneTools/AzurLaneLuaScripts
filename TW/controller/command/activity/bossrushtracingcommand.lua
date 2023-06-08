@@ -87,15 +87,15 @@ function slot0.execute(slot0, slot1)
 		arg_list2 = slot11
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
-			getProxy(ActivityProxy):SetExtraDataMember(uv0, "seriesData", uv1)
+			getProxy(ActivityProxy):getActivityById(uv0):SetSeriesData(uv1)
 
 			if uv2 > 0 then
-				slot1 = getProxy(PlayerProxy):getRawData()
+				slot2 = getProxy(PlayerProxy):getRawData()
 
-				slot1:consume({
+				slot2:consume({
 					oil = uv2
 				})
-				getProxy(PlayerProxy):updatePlayer(slot1)
+				getProxy(PlayerProxy):updatePlayer(slot2)
 			end
 
 			(function ()

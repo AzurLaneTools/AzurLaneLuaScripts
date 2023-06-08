@@ -59813,6 +59813,63 @@ _G.pg.base.shop_template[200207] = {
 	}
 }
 
+_G.pg.base.shop_template[200208] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "980钻石购买限时礼包-比翼双飞",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 3,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 200208,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40100
+	},
+	time = {
+		{
+			{
+				2023,
+				6,
+				8
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				6,
+				14
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[100000] = {
 	is_auto_use = 0,
 	time_second = 0,

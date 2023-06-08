@@ -11691,7 +11691,7 @@ _G.pg.base.task_data_template[5194] = {
 	type = 5,
 	desc = "完成1次求救信號",
 	count_inherit = 0,
-	sub_type = 21,
+	sub_type = 19,
 	target_id_2 = "",
 	story_icon = "xukufu",
 	is_head = 0,
@@ -11703,9 +11703,10 @@ _G.pg.base.task_data_template[5194] = {
 	level = 1,
 	ryza_icon = "",
 	priority_type = 0,
+	story_id = "XUKUFU4",
 	next_task = "5195",
 	auto_commit = 0,
-	story_id = "XUKUFU4",
+	scene = "",
 	id = 5194,
 	target_num = 1,
 	fix_task = 0,
@@ -11727,9 +11728,6 @@ _G.pg.base.task_data_template[5194] = {
 			1,
 			100
 		}
-	},
-	scene = {
-		"LEVEL"
 	}
 }
 
@@ -13192,7 +13190,7 @@ _G.pg.base.task_data_template[5244] = {
 	type = 5,
 	desc = "完成1次求救信號關卡 ",
 	count_inherit = 0,
-	sub_type = 21,
+	sub_type = 19,
 	target_id_2 = "",
 	story_icon = "daqinghuayu",
 	is_head = 0,
@@ -13204,9 +13202,10 @@ _G.pg.base.task_data_template[5244] = {
 	level = 1,
 	ryza_icon = "",
 	priority_type = 0,
+	story_id = "DAQINGHUAYU4",
 	next_task = "5245",
 	auto_commit = 0,
-	story_id = "DAQINGHUAYU4",
+	scene = "",
 	id = 5244,
 	target_num = 1,
 	fix_task = 0,
@@ -13228,9 +13227,6 @@ _G.pg.base.task_data_template[5244] = {
 			1,
 			100
 		}
-	},
-	scene = {
-		"LEVEL"
 	}
 }
 
@@ -19461,7 +19457,7 @@ _G.pg.base.task_data_template[5464] = {
 	type = 5,
 	desc = "完成1次求救信號關卡",
 	count_inherit = 0,
-	sub_type = 21,
+	sub_type = 19,
 	target_id_2 = "",
 	story_icon = "u556",
 	is_head = 0,
@@ -19473,9 +19469,10 @@ _G.pg.base.task_data_template[5464] = {
 	level = 1,
 	ryza_icon = "",
 	priority_type = 0,
+	story_id = "U556STORY4",
 	next_task = "5465",
 	auto_commit = 0,
-	story_id = "U556STORY4",
+	scene = "",
 	id = 5464,
 	target_num = 1,
 	fix_task = 0,
@@ -19497,9 +19494,6 @@ _G.pg.base.task_data_template[5464] = {
 			1,
 			100
 		}
-	},
-	scene = {
-		"LEVEL"
 	}
 }
 
@@ -19770,7 +19764,7 @@ _G.pg.base.task_data_template[5474] = {
 	type = 5,
 	desc = "完成1次求救信號關卡",
 	count_inherit = 0,
-	sub_type = 21,
+	sub_type = 19,
 	target_id_2 = "",
 	story_icon = "jiqi",
 	is_head = 0,
@@ -19782,9 +19776,10 @@ _G.pg.base.task_data_template[5474] = {
 	level = 1,
 	ryza_icon = "",
 	priority_type = 0,
+	story_id = "JIQI4",
 	next_task = "5475",
 	auto_commit = 0,
-	story_id = "JIQI4",
+	scene = "",
 	id = 5474,
 	target_num = 1,
 	fix_task = 0,
@@ -19806,9 +19801,6 @@ _G.pg.base.task_data_template[5474] = {
 			1,
 			100
 		}
-	},
-	scene = {
-		"LEVEL"
 	}
 }
 
@@ -24549,7 +24541,7 @@ _G.pg.base.task_data_template[5634] = {
 	type = 5,
 	desc = "完成1次求救訊號關卡 ",
 	count_inherit = 0,
-	sub_type = 21,
+	sub_type = 19,
 	target_id_2 = "",
 	story_icon = "u47",
 	is_head = 0,
@@ -24561,23 +24553,15 @@ _G.pg.base.task_data_template[5634] = {
 	level = 1,
 	ryza_icon = "",
 	priority_type = 0,
+	story_id = "U474",
+	target_id = "40802",
 	next_task = "5635",
 	auto_commit = 0,
-	story_id = "U474",
+	scene = "",
 	id = 5634,
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 1,
-	target_id = {
-		305,
-		405,
-		505,
-		605,
-		705,
-		805,
-		905,
-		1005
-	},
 	open_need = {},
 	award_display = {
 		{
@@ -24585,9 +24569,6 @@ _G.pg.base.task_data_template[5634] = {
 			1,
 			100
 		}
-	},
-	scene = {
-		"LEVEL"
 	}
 }
 
@@ -146516,6 +146497,464 @@ _G.pg.base.task_data_template[18884] = {
 			4,
 			307131,
 			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18891] = {
+	name = "海天皮肤活动1",
+	guild_coin_award = 0,
+	award = 99901,
+	type = 26,
+	desc = "艦隊出擊，以S評價通關10次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 18891,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			251,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[18892] = {
+	name = "海天皮肤活动2",
+	guild_coin_award = 0,
+	award = 99902,
+	type = 26,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18892,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18893] = {
+	name = "海天皮肤活动3",
+	guild_coin_award = 0,
+	award = 99903,
+	type = 26,
+	desc = "完成軍事委託2次",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18893,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18894] = {
+	name = "海天皮肤活动4",
+	guild_coin_award = 0,
+	award = 99904,
+	type = 26,
+	desc = "進行2次演習",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18894,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18895] = {
+	name = "海天皮肤活动5",
+	guild_coin_award = 0,
+	award = 99905,
+	type = 26,
+	desc = "完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18895,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18896] = {
+	name = "海天皮肤活动6",
+	guild_coin_award = 0,
+	award = 99906,
+	type = 26,
+	desc = "艦船退役2次",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18896,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18897] = {
+	name = "海天皮肤活动7",
+	guild_coin_award = 0,
+	award = 99907,
+	type = 26,
+	desc = "進行戰術訓練2次",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18897,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18898] = {
+	name = "海天皮肤活动8",
+	guild_coin_award = 0,
+	award = 99908,
+	type = 26,
+	desc = "艦船強化5次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18898,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18899] = {
+	name = "海天皮肤活动9",
+	guild_coin_award = 0,
+	award = 99909,
+	type = 26,
+	desc = "擊沉任意敵人20艘",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18899,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18900] = {
+	name = "海天皮肤活动10",
+	guild_coin_award = 0,
+	award = 99910,
+	type = 26,
+	desc = "後宅補充食物5次",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18900,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18901] = {
+	name = "海天皮肤活动11",
+	guild_coin_award = 0,
+	award = 99911,
+	type = 26,
+	desc = "打開任意科技箱1個",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18901,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[18902] = {
+	name = "海天皮肤活动12",
+	guild_coin_award = 0,
+	award = 99912,
+	type = 26,
+	desc = "建造艦船2次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 18902,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			2
 		}
 	}
 }

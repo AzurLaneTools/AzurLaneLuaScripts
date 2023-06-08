@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "沒想到這座荒涼的島會在短的時間內變成這副模樣！",
+			say = "沒想到這座荒涼的島會在這麽短的時間內變成這副模樣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "伴隨著突然吹刮起的清凜的海風，她的身影消失在大海當中。",
+			say = "伴隨著突然吹起的清凜的海風，她的身影消失在大海當中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

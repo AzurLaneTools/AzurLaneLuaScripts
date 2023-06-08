@@ -1957,6 +1957,137 @@ pg.activity_template = {
 			ui_name = "AnniversarySixInvitationPage"
 		}
 	},
+	[4888] = {
+		mark = 20230608,
+		id = 4888,
+		title_res_tag = "dunhuang",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 40,
+		config_data = {
+			{
+				18891,
+				18892
+			},
+			{
+				18893,
+				18894
+			},
+			{
+				18895,
+				18896
+			},
+			{
+				18897,
+				18898
+			},
+			{
+				18899,
+				18900
+			},
+			{
+				18901,
+				18902
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					6,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LinkDunhuangPage",
+			ui_name = "LinkDunhuangPage"
+		},
+		config_client = {
+			link_act = 4889,
+			story = {
+				{},
+				{},
+				{},
+				{},
+				{},
+				{
+					"PIANRUOFEIXIAN1"
+				}
+			}
+		}
+	},
+	[4889] = {
+		mark = 20230608,
+		title_res_tag = "",
+		page_info = "",
+		type = 21,
+		login_pop = 0,
+		config_id = 99913,
+		is_show = 0,
+		config_client = "",
+		id = 4889,
+		config_data = {
+			60401,
+			60402,
+			60403,
+			60404,
+			60405,
+			60406,
+			60407,
+			60408,
+			60409,
+			60410,
+			60411,
+			60412
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					6,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[8009] = {
 		mark = 20220414,
 		config_client = "",
@@ -30713,6 +30844,8 @@ pg.activity_template = {
 		4871,
 		4872,
 		4874,
+		4888,
+		4889,
 		8009,
 		8010,
 		8019,

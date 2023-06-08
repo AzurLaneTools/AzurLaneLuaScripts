@@ -1,6 +1,122 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
+	[203100] = {
+		ship_group = 20310,
+		name = "小柴郡",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 203100,
+		group_index = 0,
+		prefab = "chaijun_younv",
+		painting = "chaijun_younv",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "重巡洋艦—小柴郡",
+		voice_actor = 30,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.64,
+					1.079,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.73,
+					1.106,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.74,
+					1.177,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.13,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[204010] = {
 		ship_group = 20401,
 		name = "聲望",
@@ -9841,108 +9957,6 @@ pg.base.ship_skin_template_7 = {
 							-0.56,
 							2.15,
 							-1.24
-						}
-					}
-				}
-			}
-		}
-	},
-	[207040] = {
-		ship_group = 20704,
-		name = "勝利",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 207040,
-		group_index = 0,
-		prefab = "shengli",
-		painting = "shengli",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "光輝級航空母艦—勝利，舷號38",
-		voice_actor = 94,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1,
-					1.39,
-					0
-				}
-			},
-			plane = {
-				{
-					1.12,
-					1.44,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.27,
-							-1.47
 						}
 					}
 				}

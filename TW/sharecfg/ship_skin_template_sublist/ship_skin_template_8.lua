@@ -1,6 +1,108 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
+	[207040] = {
+		ship_group = 20704,
+		name = "勝利",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 207040,
+		group_index = 0,
+		prefab = "shengli",
+		painting = "shengli",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "光輝級航空母艦—勝利，舷號38",
+		voice_actor = 94,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1,
+					1.39,
+					0
+				}
+			},
+			plane = {
+				{
+					1.12,
+					1.44,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.27,
+							-1.47
+						}
+					}
+				}
+			}
+		}
+	},
 	[207041] = {
 		ship_group = 20704,
 		name = "女神的休息日",
@@ -9691,124 +9793,6 @@ pg.base.ship_skin_template_8 = {
 						{
 							-0.52,
 							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301232] = {
-		ship_group = 30123,
-		name = "暖陽與午睡時光",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "103",
-		id = 301232,
-		group_index = 2,
-		prefab = "ruoye_3",
-		painting = "ruoye_3",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70681,
-		shop_type_id = 4,
-		air_bomb_skin = "",
-		illustrator = 27,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "嗯嗯~噢~發現指揮官一枚！嘿嘿，這裡還有位置哦，來一起享受午後的陽光吧！",
-		voice_actor = 115,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.05,
-					1.07,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.91,
-					1.07,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.97,
-					1.01,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.23,
 							0
 						}
 					}

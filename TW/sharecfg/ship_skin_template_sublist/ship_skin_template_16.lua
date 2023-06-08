@@ -1,6 +1,242 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_16 = {
+	[702031] = {
+		ship_group = 70203,
+		name = "拘束的白騎兵",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "130",
+		id = 702031,
+		group_index = 1,
+		prefab = "qiabayefu_2",
+		painting = "qiabayefu_2",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70321,
+		shop_type_id = 12,
+		air_bomb_skin = "",
+		illustrator = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "指揮官，這究竟是要做什麼？難道…我做錯了什麼嗎…？這應該…只是單純的演習吧？",
+		voice_actor = 223,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.953,
+					0.92,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.961,
+					0.95,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.016,
+					0.032,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.942,
+					0.95,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.486,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[702032] = {
+		ship_group = 70203,
+		name = "白騎兵的假日",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "109",
+		id = 702032,
+		group_index = 2,
+		prefab = "qiabayefu_3",
+		painting = "qiabayefu_3",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 70514,
+		shop_type_id = 20,
+		air_bomb_skin = "",
+		illustrator = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "呼…啊，指揮官，沒能出門迎接真是不好意思。…放鬆點，不用那麼拘謹，我知道你不會做什麼奇怪的事情的，呵呵~",
+		voice_actor = 223,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.008,
+					0.995,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.005,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.001,
+					1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.486,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[702033] = {
 		ship_group = 70203,
 		name = "夏夜青藍",
@@ -9778,257 +10014,6 @@ pg.base.ship_skin_template_16 = {
 					}
 				}
 			}
-		}
-	},
-	[904010] = {
-		ship_group = 90401,
-		name = "敦克爾克",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 904010,
-		group_index = 0,
-		prefab = "dunkeerke",
-		painting = "dunkeerke",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "敦克爾克級戰鬥巡洋艦—敦克爾克",
-		voice_actor = 127,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.31,
-					1.12,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.22,
-					1.03,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.06,
-					0.05,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.24,
-					1.07,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.26,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[904011] = {
-		ship_group = 90401,
-		name = "“甜蜜”夏日",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "106",
-		id = 904011,
-		group_index = 1,
-		prefab = "Dunkeerke_2",
-		painting = "Dunkeerke_2",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 70086,
-		shop_type_id = 6,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "久違的夏天…真是不錯呢。陽光、沙灘和大海…還有大家的笑容。機會難得，要一起吃點甜甜圈嗎，指揮官？",
-		voice_actor = 127,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			-30,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.08,
-					1.2,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.99,
-					0.98,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.141,
-					0.019,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.143,
-					1.121,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.26,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			propose = 2.5
 		}
 	}
 }

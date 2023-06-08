@@ -517,7 +517,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "綠雲般的清茶被遞到眼前。輕輕嗅了一口，一股清新的味道鋪面而來。",
+			say = "綠雲般的清茶被遞到眼前。輕輕嗅了一口，一股清新的味道撲面而來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看起來不錯……既然如此，對與逸仙期待的最好回答，恐怕就是將其一飲而盡。",
+			say = "看起來不錯……既然如此，對于逸仙期待的最好回答，恐怕就是將其一飲而盡。",
 			painting = {
 				alpha = 0.3,
 				time = 1

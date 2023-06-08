@@ -264,7 +264,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:4}曾经和我说，黑巧克力是成熟的象征与大人的选择。",
+			say = "{namecode:443}曾经和我说，黑巧克力是成熟的象征与大人的选择。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -35,6 +35,7 @@ function slot2.SetArgs(slot0, slot1, slot2)
 end
 
 function slot2.onUpdate(slot0, slot1, slot2, slot3)
+	slot4 = slot3.timeStamp
 	slot0._centerPos = slot1:GetPosition()
 end
 

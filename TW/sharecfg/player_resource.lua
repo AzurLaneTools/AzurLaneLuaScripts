@@ -50,6 +50,16 @@ pg.player_resource = {
 		name = "expField",
 		itemid = 0
 	},
+	{
+		id = 11,
+		name = "gamecoin",
+		itemid = 59015
+	},
+	{
+		id = 12,
+		name = "gameticket",
+		itemid = 59016
+	},
 	[14] = {
 		id = 14,
 		name = "freeGem",
@@ -1265,6 +1275,11 @@ pg.player_resource = {
 		name = "synchronize_yilishabai",
 		itemid = 21910
 	},
+	[3012] = {
+		id = 3012,
+		name = "synchronize_aerjiliya",
+		itemid = 21911
+	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -1475,6 +1490,12 @@ pg.player_resource = {
 		},
 		expField = {
 			10
+		},
+		gamecoin = {
+			11
+		},
+		gameticket = {
+			12
 		},
 		freeGem = {
 			14
@@ -2205,6 +2226,9 @@ pg.player_resource = {
 		synchronize_yilishabai = {
 			3011
 		},
+		synchronize_aerjiliya = {
+			3012
+		},
 		twhongran_pt = {
 			3106
 		},
@@ -2325,6 +2349,8 @@ pg.player_resource = {
 		8,
 		9,
 		10,
+		11,
+		12,
 		14,
 		101,
 		102,
@@ -2568,6 +2594,7 @@ pg.player_resource = {
 		3009,
 		3010,
 		3011,
+		3012,
 		3106,
 		3137,
 		4001,

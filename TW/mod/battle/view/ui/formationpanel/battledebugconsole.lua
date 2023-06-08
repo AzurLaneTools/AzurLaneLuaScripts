@@ -18,7 +18,7 @@ function slot3.Ctor(slot0, slot1, slot2)
 
 	slot0:initComponent()
 
-	if slot0._dataProxy:GetInitData().battleType == SYSTEM_DEBUG then
+	if slot0._dataProxy:GetInitData().battleType == SYSTEM_DEBUG or slot0._dataProxy:GetInitData().battleType == SYSTEM_CARDPUZZLE then
 		slot0:initData()
 		slot0:initDebug()
 	else

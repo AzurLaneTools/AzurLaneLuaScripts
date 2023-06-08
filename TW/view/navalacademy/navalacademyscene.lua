@@ -44,7 +44,8 @@ function slot0.init(slot0)
 		FountainBuiding.New(slot0),
 		TacticRoomBuilding.New(slot0),
 		CommanderBuilding.New(slot0),
-		SupplyShopBuilding.New(slot0)
+		SupplyShopBuilding.New(slot0),
+		MinigameHallBuilding.New(slot0)
 	}
 	slot0.shipsView = NavalAcademyShipsView.New(slot0)
 	slot0.resPage = ResourcePage.New(slot0._tf, slot0.event)

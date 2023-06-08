@@ -41,6 +41,7 @@ slot0.FINISH_ACTIVITY_PERMANENT = "ActivityMediator.FINISH_ACTIVITY_PERMANENT"
 slot0.ON_SHAKE_BEADS_RESULT = "on shake beads result"
 slot0.GO_PERFORM_COMBAT = "ActivityMediator.GO_PERFORM_COMBAT"
 slot0.ON_AWARD_WINDOW = "ActivityMediator:ON_AWARD_WINDOW"
+slot0.GO_CARDPUZZLE_COMBAT = "ActivityMediator.GO_CARDPUZZLE_COMBAT"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -314,6 +315,12 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.NEXT_DISPLAY_AWARD, function (slot0, slot1, slot2)
 		uv0.nextDisplayAwards = slot1
+	end)
+	slot0:bind(uv0.GO_CARDPUZZLE_COMBAT, function (slot0, slot1)
+		uv0:sendNotification(GAME.BEGIN_STAGE, {
+			system = SYSTEM_CARDPUZZLE,
+			combatID = slot1
+		})
 	end)
 	slot0.viewComponent:setActivities(getProxy(ActivityProxy):getPanelActivities())
 

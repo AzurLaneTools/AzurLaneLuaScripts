@@ -807,7 +807,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "我已经把……限制都加回去了，",
+			say = "我已经把……限制都加回去了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

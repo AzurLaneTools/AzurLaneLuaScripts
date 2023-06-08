@@ -11,7 +11,7 @@ function slot0.execute(slot0, slot1)
 			slot1 = getProxy(ActivityProxy):getActivityById(uv0.actId)
 			slot2 = slot1:GetSeriesData()
 
-			getProxy(ActivityProxy):SetExtraDataMember(uv0.actId, "seriesData", nil)
+			slot1:SetSeriesData(nil)
 
 			slot3 = PlayerConst.GetTranAwards(uv0, slot0)
 

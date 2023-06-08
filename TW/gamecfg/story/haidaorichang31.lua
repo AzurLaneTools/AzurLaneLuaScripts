@@ -531,7 +531,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "伴隨著Z23的動作，又一條咬鉤的海域被提出了水面。",
+			say = "伴隨著Z23的動作，又一條咬鉤的海魚被提出了水面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

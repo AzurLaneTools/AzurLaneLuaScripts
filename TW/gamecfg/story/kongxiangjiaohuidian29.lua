@@ -943,7 +943,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "但是应急处理是有极限的，",
+			say = "但是应急处理是有极限的。",
 			painting = {
 				alpha = 0.3,
 				time = 1

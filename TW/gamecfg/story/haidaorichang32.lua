@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "島上原本就盛開著許多鮮花，就算從移栽也不需要多長的時間！",
+			say = "島上原本就盛開著許多鮮花，就算移栽過來也不需要多長的時間！",
 			painting = {
 				alpha = 0.3,
 				time = 1

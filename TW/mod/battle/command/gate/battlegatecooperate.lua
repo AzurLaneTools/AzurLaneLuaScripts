@@ -120,20 +120,16 @@ function slot0.Exit(slot0, slot1)
 	slot16 = client
 
 	slot16:SendRequest(slot13, function (slot0)
-		if uv0.end_sink_cost > 0 then
-			client.DeadShipEnergyCosume(uv1, uv2)
-		end
+		client.addShipsExp(slot0.ship_exp_list, uv0.statistics)
 
-		client.addShipsExp(slot0.ship_exp_list, uv1.statistics)
-
-		uv1.statistics.mvpShipID = slot0.mvp
+		uv0.statistics.mvpShipID = slot0.mvp
 		slot1, slot2 = client:GeneralLoot(slot0)
 
-		uv4.GeneralPlayerCosume(SYSTEM_HP_SHARE_ACT_BOSS, ys.Battle.BattleConst.BattleScore.C < uv3, uv5, slot0.player_exp)
+		uv2.GeneralPlayerCosume(SYSTEM_HP_SHARE_ACT_BOSS, ys.Battle.BattleConst.BattleScore.C < uv1, uv3, slot0.player_exp)
 		client:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = SYSTEM_HP_SHARE_ACT_BOSS,
-			statistics = uv1.statistics,
-			score = uv3,
+			statistics = uv0.statistics,
+			score = uv1,
 			drops = slot1,
 			commanderExps = {},
 			result = slot0.result,

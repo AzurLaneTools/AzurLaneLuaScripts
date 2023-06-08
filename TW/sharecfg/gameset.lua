@@ -182,7 +182,11 @@ pg.gameset = {
 	},
 	equip_select_limit = {
 		description = "",
-		key_value = 40
+		key_value = 0
+	},
+	ship_select_limit = {
+		description = "",
+		key_value = 0
 	},
 	exchange_character_id = {
 		description = "",
@@ -1999,7 +2003,11 @@ pg.gameset = {
 	},
 	doa_fever_buff = {
 		key_value = 8761,
-		description = {}
+		description = {
+			8765,
+			8767,
+			8769
+		}
 	},
 	doa_fever_recover = {
 		description = "",

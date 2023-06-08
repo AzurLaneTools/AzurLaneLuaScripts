@@ -6509,6 +6509,122 @@ pg.base.ship_skin_template_6 = {
 			}
 		}
 	},
+	[202278] = {
+		ship_group = 20227,
+		name = "晨曦的誓言",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202278,
+		group_index = 8,
+		prefab = "hemin_h",
+		painting = "hemin_h",
+		aircraft_skin = "",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 9998,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "能與您攜手走到這一步，實在是太好了。願這美好的晨曦，能夠作為我們一直相伴的見證……指揮官，我愛您。",
+		voice_actor = 242,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.531,
+					1.406,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.487,
+					1.441,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.088,
+					-0.009,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.47,
+					1.388,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.185,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202280] = {
 		ship_group = 20228,
 		name = "黛朵(μ兵裝)",
@@ -10020,122 +10136,6 @@ pg.base.ship_skin_template_6 = {
 						{
 							-0.523,
 							2.313,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[203100] = {
-		ship_group = 20310,
-		name = "小柴郡",
-		bullet_skin_secondary = "",
-		hand_id = 5,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 203100,
-		group_index = 0,
-		prefab = "chaijun_younv",
-		painting = "chaijun_younv",
-		aircraft_skin = "",
-		air_bullet_skin = "",
-		shop_id = 0,
-		shop_type_id = 0,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "重巡洋艦—小柴郡",
-		voice_actor = 30,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.64,
-					1.079,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.73,
-					1.106,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.74,
-					1.177,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.13,
 							0
 						}
 					}

@@ -177,6 +177,11 @@ pg.task_meta_data_template = setmetatable({
 		100083,
 		100084,
 		100085,
+		100091,
+		100092,
+		100093,
+		100094,
+		100095,
 		200001,
 		200002,
 		200003,
@@ -208,7 +213,11 @@ pg.task_meta_data_template = setmetatable({
 		200081,
 		200082,
 		200083,
-		200084
+		200084,
+		200091,
+		200092,
+		200093,
+		200094
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1613,6 +1622,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100091] = {
+		target_id_2 = "970302",
+		sub_type = 180,
+		desc = "使用阿尔及利亚·META获得1次胜利",
+		id = 100091,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100092] = {
+		target_id_2 = "970302",
+		sub_type = 180,
+		desc = "使用阿尔及利亚·META击破等级＞30的敌方1次",
+		id = 100092,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100093] = {
+		target_id_2 = "970302",
+		sub_type = 180,
+		desc = "使用阿尔及利亚·META击破等级＞55的敌方1次",
+		id = 100093,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100094] = {
+		target_id_2 = "970302",
+		sub_type = 180,
+		desc = "使用阿尔及利亚·META击破等级＞80的敌方1次",
+		id = 100094,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100095] = {
+		target_id_2 = "970302",
+		sub_type = 180,
+		desc = "使用阿尔及利亚·META击破等级＞100的敌方1次",
+		id = 100095,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1866,6 +1915,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用女灶神.META击破等级>100的敌方1次",
 		id = 200084,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200091] = {
+		target_id_2 = "970302",
+		sub_type = 320,
+		desc = "大型作战内使用阿尔及利亚·META获得1次胜利",
+		id = 200091,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200092] = {
+		target_id_2 = "970302",
+		sub_type = 320,
+		desc = "大型作战内使用阿尔及利亚·META击破等级＞70的敌方1次",
+		id = 200092,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200093] = {
+		target_id_2 = "970302",
+		sub_type = 320,
+		desc = "大型作战内使用阿尔及利亚·META击破等级＞90的敌方1次",
+		id = 200093,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200094] = {
+		target_id_2 = "970302",
+		sub_type = 320,
+		desc = "大型作战内使用阿尔及利亚·META击破等级＞100的敌方1次",
+		id = 200094,
 		target_num = 1,
 		target_id = "100"
 	}
