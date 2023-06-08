@@ -1964,7 +1964,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 40,
+		is_show = 41,
 		config_data = {
 			{
 				18891,

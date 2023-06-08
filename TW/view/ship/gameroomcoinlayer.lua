@@ -18,17 +18,31 @@ function slot0.didEnter(slot0)
 	slot0.maxCoin = slot0.contextData.coin_max
 
 	onButton(slot0, findTF(slot0.window, "add"), function ()
+		if uv0.lockCount then
+			return
+		end
+
 		uv0.curCount = uv0.curCount + 1
 
 		uv0:updateCount()
 	end)
 	onButton(slot0, findTF(slot0.window, "sub"), function ()
+		if uv0.lockCount then
+			return
+		end
+
 		uv0.curCount = uv0.curCount - 1
 
 		uv0:updateCount()
 	end)
 
-	slot0.curCount = 1
+	if getProxy(GameRoomProxy):lastMonthlyTicket() == 0 or slot2:lastTicketMax() == 0 then
+		slot0.curCount = 0
+		slot0.lockCount = true
+	else
+		slot0.curCount = 1
+		slot0.lockCount = false
+	end
 
 	slot0:updateUI()
 end

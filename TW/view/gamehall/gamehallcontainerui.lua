@@ -13,6 +13,14 @@ slot7 = {
 }
 
 function slot0.Ctor(slot0, slot1)
+	uv0 = {
+		Screen.width - uv1,
+		0
+	}
+	uv2 = {
+		0,
+		0
+	}
 	slot0.container = slot1
 	slot0.content = findTF(slot0.container, "content")
 	slot0.pos = findTF(slot0.content, "pos")
@@ -28,13 +36,13 @@ function slot0.Ctor(slot0, slot1)
 		end
 	end
 
-	if uv0 > #slot4 then
-		uv0 = #slot4
+	if uv3 > #slot4 then
+		uv3 = #slot4
 	end
 
 	slot5 = {}
 
-	for slot9 = 1, uv0 do
+	for slot9 = 1, uv3 do
 		slot10 = 1
 		slot12 = PoolMgr.GetInstance()
 
@@ -55,7 +63,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.coinChar = nil
 	slot6 = PoolMgr.GetInstance()
 
-	slot6:GetSpineChar(uv2, true, function (slot0)
+	slot6:GetSpineChar(uv5, true, function (slot0)
 		uv0.coinChar = tf(slot0)
 
 		tf(slot0):GetComponent(typeof(SpineAnimUI)):SetAction("stand", 0)

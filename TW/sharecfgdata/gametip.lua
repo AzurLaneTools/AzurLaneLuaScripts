@@ -22534,11 +22534,11 @@ _G.pg.base.gametip.littleTaihou_npc = {
 }
 
 _G.pg.base.gametip.disassemble_selected = {
-	tip = "已选中"
+	tip = "已選中"
 }
 
 _G.pg.base.gametip.disassemble_available = {
-	tip = "可获得"
+	tip = "可獲得"
 }
 
 _G.pg.base.gametip.ship_formationUI_fleetName_challenge = {
@@ -22571,4 +22571,12 @@ _G.pg.base.gametip.battle_result_total_time = {
 
 _G.pg.base.gametip.game_room_shooting_tip = {
 	tip = "当前积分："
+}
+
+_G.pg.base.gametip.mini_game_shop_ticked_not_enough = {
+	tip = "游戏奖券数量不足，是否前往游戏屋获取？"
+}
+
+_G.pg.base.gametip.game_ticket_current_month = {
+	tip = "本月上限"
 }

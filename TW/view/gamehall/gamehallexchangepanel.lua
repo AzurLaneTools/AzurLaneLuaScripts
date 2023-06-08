@@ -50,6 +50,10 @@ function slot0.Ctor(slot0, slot1, slot2)
 
 		uv0:coinCountChange()
 	end)
+	setText(findTF(slot0._tf, "window/btnConfirm/pic"), i18n("word_ok"))
+	setText(findTF(slot0._tf, "window/btnCancel/pic"), i18n("word_cancel"))
+	setText(findTF(slot0._tf, "top/bg/infomation/title"), i18n("title_info"))
+	setActive(findTF(slot0._tf, "top/bg/infomation/title_en"), PLATFORM_CODE ~= PLATFORM_US)
 end
 
 function slot0.exchangeCoin(slot0)
@@ -120,12 +124,30 @@ function slot0.updateUI(slot0)
 end
 
 function slot0.setVisible(slot0, slot1)
+	if slot1 then
+		slot0.bulrFlag = true
+
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	else
+		slot0.bulrFlag = false
+
+		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	end
+
 	setActive(slot0._tf, slot1)
 	slot0:updateUI()
 end
 
 function slot0.getVisible(slot0)
 	return isActive(slot0._tf)
+end
+
+function slot0.dispose(slot0)
+	if slot0.bulrFlag == true then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+
+		slot0.bulrFlag = false
+	end
 end
 
 return slot0

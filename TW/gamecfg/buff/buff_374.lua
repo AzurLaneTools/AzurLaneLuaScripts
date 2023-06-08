@@ -32,8 +32,8 @@ return {
 				skill_id = 365,
 				check_weapon = true,
 				label = {
-					"HMS",
-					"TP"
+					"TP",
+					"SGS"
 				}
 			}
 		},
@@ -48,8 +48,8 @@ return {
 				maxWeaponNumber = 0,
 				check_weapon = true,
 				label = {
-					"HMS",
-					"TP"
+					"TP",
+					"SGS"
 				}
 			}
 		}

@@ -1,7 +1,7 @@
 slot0 = class("NewBattleResultDataExtender")
 
 function slot0.NeedCloseCamera(slot0)
-	return slot0 ~= SYSTEM_BOSS_RUSH and slot0 ~= SYSTEM_BOSS_RUSH_EX and slot0 ~= SYSTEM_ACT_BOSS
+	return slot0 ~= SYSTEM_BOSS_RUSH and slot0 ~= SYSTEM_BOSS_RUSH_EX and slot0 ~= SYSTEM_ACT_BOSS and slot0 ~= SYSTEM_WORLD_BOSS
 end
 
 function slot0.NeedVibrate(slot0)

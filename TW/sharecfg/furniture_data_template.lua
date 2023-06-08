@@ -14615,7 +14615,7 @@ pg.base.furniture_data_template = {
 		type = 15,
 		dir = 0,
 		dorm_id = 0,
-		rarity = 0,
+		rarity = 4,
 		is_get_time_note = 0,
 		belong = 1,
 		themeId = 0,
@@ -14643,7 +14643,10 @@ pg.base.furniture_data_template = {
 		can_trigger = {
 			2,
 			{
-				"bgm-theme-haitian-soft-loop"
+				"theme-haitian-soft-loop"
+			},
+			{
+				"action"
 			}
 		},
 		spine = {

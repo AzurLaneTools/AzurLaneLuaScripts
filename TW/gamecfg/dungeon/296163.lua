@@ -82,10 +82,11 @@ return {
 									addWeapon = {}
 								},
 								{
+									switchType = 1,
+									switchTo = 2,
 									index = 1,
 									switchParam = 3.5,
-									switchTo = 2,
-									switchType = 1,
+									setAI = 70195,
 									addWeapon = {
 										2973004
 									},
@@ -147,10 +148,11 @@ return {
 									}
 								},
 								{
+									switchType = 1,
+									switchTo = 7,
 									index = 6,
 									switchParam = 2,
-									switchTo = 7,
-									switchType = 1,
+									setAI = 75016,
 									addWeapon = {},
 									removeWeapon = {
 										2973009,
@@ -182,10 +184,11 @@ return {
 									}
 								},
 								{
+									switchType = 1,
+									switchTo = 10,
 									index = 9,
 									switchParam = 3.5,
-									switchTo = 10,
-									switchType = 1,
+									setAI = 10001,
 									addWeapon = {
 										2973004
 									},
@@ -212,10 +215,11 @@ return {
 									removeWeapon = {}
 								},
 								{
+									switchType = 1,
+									switchTo = 21,
 									index = 12,
 									switchParam = 2,
-									switchTo = 21,
-									switchType = 1,
+									setAI = 75016,
 									addWeapon = {},
 									removeWeapon = {}
 								},

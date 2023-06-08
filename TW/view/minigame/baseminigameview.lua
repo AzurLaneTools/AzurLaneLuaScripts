@@ -78,6 +78,8 @@ function slot0.setCoinLayer(slot0)
 		return
 	end
 
+	slot0:checkTicktRemind()
+
 	slot0.coinLayer = true
 end
 
@@ -86,7 +88,26 @@ function slot0.openCoinLayer(slot0, slot1)
 		return
 	end
 
+	if slot1 then
+		slot0:checkTicktRemind()
+	end
+
 	slot0:emit(BaseMiniGameMediator.COIN_WINDOW_CHANGE, slot1)
+end
+
+function slot0.checkTicktRemind(slot0)
+	if getProxy(GameRoomProxy):ticketMaxTip() and not GameRoomProxy.ticket_remind then
+		GameRoomProxy.ticket_remind = true
+
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = slot1,
+			onYes = function ()
+			end,
+			onNo = function ()
+				uv0:closeView()
+			end
+		})
+	end
 end
 
 function slot0.OnGetAwardDone(slot0, slot1)

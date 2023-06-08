@@ -1824,6 +1824,7 @@ pg.memory_template = setmetatable({
 		2743,
 		2744,
 		2751,
+		2781,
 		10011,
 		10012,
 		10013,
@@ -21906,6 +21907,17 @@ pg.base.memory_template = {
 		story = "QINGCHAYINYUN1",
 		id = 2751,
 		icon = "memory_qingchayinyun",
+		is_open = 0
+	},
+	[2781] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "翩若飛仙 ",
+		condition = "完成「翩若飛仙」任務",
+		story = "PIANRUOFEIXIAN1",
+		id = 2781,
+		icon = "memory_pianruofeixian",
 		is_open = 0
 	},
 	[10011] = {

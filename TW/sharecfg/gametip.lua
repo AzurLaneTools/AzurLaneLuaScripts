@@ -20340,5 +20340,15 @@ cs.gametip = {
 		709761,
 		101,
 		true
+	},
+	mini_game_shop_ticked_not_enough = {
+		709862,
+		154,
+		true
+	},
+	game_ticket_current_month = {
+		710016,
+		101,
+		true
 	}
 }

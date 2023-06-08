@@ -128,7 +128,7 @@ slot1 = {
 	{
 		id = "NG0038",
 		condition = function ()
-			return getProxy(PlayerProxy):getRawData().level >= 30
+			return getProxy(PlayerProxy):getRawData().level >= 30 and PLATFORM_CODE ~= PLATFORM_CHT
 		end,
 		args = function ()
 			return {}

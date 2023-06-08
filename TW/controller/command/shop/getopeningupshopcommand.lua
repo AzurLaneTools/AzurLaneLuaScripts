@@ -253,6 +253,14 @@ function slot0.GetMedalShops(slot0, slot1)
 end
 
 function slot0.GetMiniShops(slot0, slot1)
+	if PLATFORM_CODE == PLATFORM_CHT then
+		if slot1 then
+			slot1()
+		end
+
+		return
+	end
+
 	slot2 = {}
 
 	if not slot0.shopsProxy:getMiniShop() then

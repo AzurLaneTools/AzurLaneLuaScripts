@@ -17,7 +17,22 @@ function slot0.didEnter(slot0)
 	slot0.freeCoinTf = findTF(slot1, "content/top/free")
 
 	onButton(slot0, slot0.freeCoinTf, function ()
-		uv0:emit(GameHallMediator.GET_WEEKLY_COIN)
+		slot3 = pg.gameset.game_coin_initial.key_value
+
+		if pg.gameset.game_coin_max.key_value - getProxy(GameRoomProxy):getCoin() == 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("game_icon_max_full"))
+		elseif slot2 < slot3 then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("game_icon_max"),
+				onYes = function ()
+					uv0:emit(GameHallMediator.GET_WEEKLY_COIN)
+				end,
+				onNo = function ()
+				end
+			})
+		else
+			uv0:emit(GameHallMediator.GET_WEEKLY_COIN)
+		end
 	end, SFX_CONFIRM)
 
 	slot0.listPanelTf = findTF(slot0._tf, "ad/listPanel")
@@ -61,6 +76,7 @@ function slot0.initTopUI(slot0)
 		if uv0.listPanel:getVisible() then
 			uv0.listPanel:setVisible(false)
 			uv0:changeTitle(false)
+			pg.SystemGuideMgr.GetInstance():Play(uv0)
 
 			return
 		end
@@ -134,19 +150,30 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
+	if slot0.exchangePanel:getVisible() then
+		slot0.exchangePanel:setVisible(false)
+
+		return
+	end
+
 	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 
 function slot0.willExit(slot0)
-	if isActive(slot0.listPanelTf) then
-		GameHallScene.open_with_list = true
-	end
-
 	if slot0.timer then
 		slot0.timer:Stop()
 
 		slot0.timer = nil
 	end
+
+	if slot0.listPanel:getVisible() then
+		GameHallScene.open_with_list = true
+
+		return
+	end
+
+	slot0.exchangePanel:dispose()
+	slot0.listPanel:dispose()
 end
 
 return slot0

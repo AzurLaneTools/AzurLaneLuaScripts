@@ -19,7 +19,7 @@ function slot0.OnLoaded(slot0)
 
 	slot0.mothMaxTF = slot0:findTF("mothMax")
 
-	setText(slot0.mothMaxTF, i18n("game_ticket_max_mothly") .. getProxy(GameRoomProxy):getMonthlyTicket() .. "/" .. pg.gameset.game_ticket_month.key_value)
+	setText(slot0.mothMaxTF, i18n("game_ticket_current_month") .. getProxy(GameRoomProxy):getMonthlyTicket() .. "/" .. pg.gameset.game_ticket_month.key_value)
 end
 
 function slot0.OnInit(slot0)

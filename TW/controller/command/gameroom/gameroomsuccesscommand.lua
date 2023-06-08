@@ -2,12 +2,21 @@ slot0 = class("GameRoomSuccessCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot6 = pg.ConnectionMgr.GetInstance()
+	slot3 = slot2.roomId
+	slot4 = slot2.times
+	slot5 = slot2.score
+	slot6 = getProxy(GameRoomProxy):lastMonthlyTicket()
 
-	slot6:Send(26126, {
-		roomid = slot2.roomId,
-		times = slot2.times,
-		score = slot2.score
+	if getProxy(GameRoomProxy):lastTicketMax() == 0 or slot6 == 0 then
+		return
+	end
+
+	slot8 = pg.ConnectionMgr.GetInstance()
+
+	slot8:Send(26126, {
+		roomid = slot3,
+		times = slot4,
+		score = slot5
 	}, 26127, function (slot0)
 		if slot0.result == 0 then
 			getProxy(GameRoomProxy):storeGameScore(uv0, uv1)
@@ -19,10 +28,14 @@ function slot0.execute(slot0, slot1)
 				slot3 = slot4
 			end
 
+			if getProxy(GameRoomProxy):lastTicketMax() < slot3 then
+				slot3 = slot5
+			end
+
 			getProxy(GameRoomProxy):setMonthlyTicket(slot3)
 
 			if slot3 > pg.gameset.game_room_remax.key_value - getProxy(GameRoomProxy):getTicket() then
-				slot2[1].count = slot7
+				slot2[1].count = slot8
 			end
 
 			if slot2[1].count ~= 0 then

@@ -779,7 +779,9 @@ function slot0.LoadAsset(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 		uv0:getAssetAsync(slot1, slot2, slot4, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if uv0.callbacks[uv1] then
-				for slot6 = 1, #uv0.callbacks[uv1] do
+				slot1 = uv0.callbacks[uv1]
+
+				while next(slot1) do
 					table.remove(slot1)(slot0)
 				end
 
@@ -798,7 +800,19 @@ function slot0.PrintPools(slot0)
 		slot1 = slot1 .. "\n" .. slot5
 	end
 
-	originalPrint(slot1)
+	warning(slot1)
+end
+
+function slot0.PrintObjPack(slot0)
+	slot1 = ""
+
+	for slot5, slot6 in pairs(slot0.pools_pack) do
+		for slot10, slot11 in pairs(slot6.items) do
+			slot1 = slot1 .. "\n" .. slot5 .. " " .. slot10
+		end
+	end
+
+	warning(slot1)
 end
 
 return slot0

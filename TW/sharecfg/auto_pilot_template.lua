@@ -8752,10 +8752,10 @@ pg.auto_pilot_template = {
 			{
 				index = 1,
 				to = 2,
-				type = 10,
+				type = 1,
 				param = {
-					x = -10,
-					z = 0
+					x = -20,
+					z = 50
 				}
 			},
 			{
@@ -8776,10 +8776,10 @@ pg.auto_pilot_template = {
 			{
 				index = 1,
 				to = 2,
-				type = 10,
+				type = 1,
 				param = {
-					x = 10,
-					z = 0
+					x = 0,
+					z = 50
 				}
 			},
 			{
@@ -8800,10 +8800,10 @@ pg.auto_pilot_template = {
 			{
 				index = 1,
 				to = 2,
-				type = 10,
+				type = 1,
 				param = {
-					x = 0,
-					z = 10
+					x = -10,
+					z = 60
 				}
 			},
 			{
@@ -8824,10 +8824,10 @@ pg.auto_pilot_template = {
 			{
 				index = 1,
 				to = 2,
-				type = 10,
+				type = 1,
 				param = {
-					x = 0,
-					z = -10
+					x = -10,
+					z = 40
 				}
 			},
 			{
@@ -8848,11 +8848,13 @@ pg.auto_pilot_template = {
 			{
 				index = 1,
 				to = 1,
-				type = 11,
+				type = 4,
 				param = {
-					antiClockWise = false,
+					z = 50,
 					radius = 10,
-					duration = 120
+					antiClockWise = false,
+					duration = 120,
+					x = -10
 				}
 			}
 		}
@@ -8865,11 +8867,13 @@ pg.auto_pilot_template = {
 			{
 				index = 1,
 				to = 1,
-				type = 11,
+				type = 4,
 				param = {
-					antiClockWise = true,
+					z = 50,
 					radius = 10,
-					duration = 120
+					antiClockWise = true,
+					duration = 120,
+					x = -10
 				}
 			}
 		}

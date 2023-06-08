@@ -2598,7 +2598,7 @@ pg.base.memory_group = {
 		subtype = 3,
 		type = 2,
 		id = 248,
-		title = "翩若飞仙",
+		title = "翩若飛仙",
 		memories = {
 			2781
 		}

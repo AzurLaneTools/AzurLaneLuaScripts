@@ -1,6 +1,7 @@
 slot0 = class("GameRoomProxy", import(".NetProxy"))
 slot0.coin_res_id = 11
 slot0.ticket_res_id = 12
+slot0.ticket_remind = false
 
 function slot0.register(slot0)
 	slot0.data = {}
@@ -74,9 +75,9 @@ function slot0.lastTicketMax(slot0)
 end
 
 function slot0.ticketMaxTip(slot0)
-	if slot0:lastMonthlyTicket() == 0 then
+	if slot0:lastMonthlyTicket() <= 200 then
 		return i18n("game_ticket_max_month")
-	elseif slot0:lastTicketMax() == 0 then
+	elseif slot0:lastTicketMax() <= 200 then
 		return i18n("game_ticket_max_all")
 	end
 
