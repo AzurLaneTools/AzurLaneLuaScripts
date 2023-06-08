@@ -1,457 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
-	[201103] = {
-		ship_group = 20110,
-		name = "Winter Date",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "101",
-		id = 201103,
-		group_index = 3,
-		prefab = "xiaotiane_5",
-		painting = "xiaotiane_5",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 2,
-		illustrator = 17,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Aww... it took me a while to get changed... Commander, did I keep you waiting long? Hehe... th-that's good. Let's get going, then~",
-		voice_actor = 46,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.01,
-					1.6,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.17,
-					0.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.01,
-					1.58,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.38,
-							2.2,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201104] = {
-		ship_group = 20110,
-		name = "An Offer To Be Maid",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "104",
-		id = 201104,
-		group_index = 4,
-		prefab = "xiaotiane_4",
-		painting = "xiaotiane_4",
-		shop_id = 70172,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 17,
-		illustrator = 17,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "M-Master... good evening... C-Commander, don't stare at me so intently... *Whimper*... Saratoga told me that this is part of marketing yourself as an idol...",
-		voice_actor = 46,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.877,
-					1.001,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.021,
-					0.08,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.011,
-					0.932,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.323,
-							2.219,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201105] = {
-		ship_group = 20110,
-		name = "Royal Fanfare",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "112",
-		id = 201105,
-		group_index = 5,
-		prefab = "xiaotiane_6",
-		painting = "xiaotiane_6",
-		shop_id = 70339,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 13,
-		illustrator = 17,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "C-Commander? Erm... They picked me to be a cheerleader for the Royal Navy team at the sports thing, so I'm practicin' my cheers... D-don't stare at me like that... I'm shy enough... Already...",
-		voice_actor = 46,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.297,
-					1.207,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.286,
-					1.199,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.323,
-							2.219,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201109] = {
-		ship_group = 20110,
-		name = "Cygnet (Retrofit)",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 201109,
-		group_index = 9,
-		prefab = "xiaotiane_g",
-		painting = "xiaotiane_g",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9997,
-		illustrator = 17,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "This outfit is a little tight... Yes, really? I understand. I've got to work harder for the Royal Navy!",
-		voice_actor = 46,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.98,
-					0.63,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.34,
-					0.06,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.98,
-					0.63,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.309,
-							0.832,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.269,
-							2.82,
-							-0.52
-						}
-					}
-				}
-			}
-		}
-	},
 	[201110] = {
 		ship_group = 20111,
 		name = "Foxhound",
@@ -11010,6 +10559,585 @@ pg.base.ship_skin_template_5 = {
 						{
 							-0.47,
 							2.353,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202160] = {
+		ship_group = 20216,
+		name = "Fiji",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202160,
+		group_index = 0,
+		prefab = "feiji",
+		painting = "feiji",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 6,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Fiji-class light cruiser – Fiji.",
+		voice_actor = 97,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.13,
+					0.8,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.13,
+					0.78,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.14,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.18,
+					0.7,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.36,
+							2.38,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202161] = {
+		ship_group = 20216,
+		name = "Trendy and Vogue?",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202161,
+		group_index = 1,
+		prefab = "feiji_2",
+		painting = "feiji_2",
+		shop_id = 70195,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9,
+		illustrator = 6,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Did I keep you waiting, Commander? Ahaha... A girl's gotta take her time before stepping out onto the streets, remember? Come on, take my hand, and let's get going! Hehe~",
+		voice_actor = 97,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.014,
+					1.013,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.935,
+					1.009,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.026,
+					0.077,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.93,
+					1.024,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.35,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202170] = {
+		ship_group = 20217,
+		name = "Jamaica",
+		bullet_skin_secondary = "",
+		hand_id = 16,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202170,
+		group_index = 0,
+		prefab = "yamaijia",
+		painting = "yamaijia",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 6,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Fiji-class light cruiser – Jamaica.",
+		voice_actor = 93,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.07,
+					0.68,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.06,
+					0.66,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.15,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.1,
+					0.76,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.22,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202171] = {
+		ship_group = 20217,
+		name = "Dark Bolt",
+		bullet_skin_secondary = "",
+		hand_id = 16,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "105",
+		id = 202171,
+		group_index = 1,
+		prefab = "yamaijia_2",
+		painting = "yamaijia_2",
+		shop_id = 70144,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9,
+		illustrator = 6,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Hey Boss, you talkin' about my sweet bike? Heh, I made it myself by scrounging up parts from Akashi's place. Pretty cool, huh?",
+		voice_actor = 93,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.26,
+					1.42,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.23,
+					1.53,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.2,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.26,
+					1.46,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.71,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202172] = {
+		ship_group = 20217,
+		name = "Highway Star",
+		bullet_skin_secondary = "",
+		hand_id = 16,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "118",
+		id = 202172,
+		group_index = 2,
+		prefab = "yamaijia_3",
+		painting = "yamaijia_3",
+		shop_id = 70247,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9,
+		illustrator = 6,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Look, Boss, this is the new bike that Akashi sent me. She said she wanted me to be her brand ambassador... Doesn't that job sound badass?",
+		voice_actor = 93,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.816,
+					1.118,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.822,
+					1.139,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.021,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.798,
+					1.188,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.468,
+							2.24,
 							0
 						}
 					}

@@ -21,24 +21,6 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if slot8.usage == ItemUsage.SOS then
-		if not getProxy(ChapterProxy):getChapterById(304) or not slot12:isClear() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("sos_lock"))
-
-			return
-		end
-
-		if slot4 > math.min(slot11.subProgress, #_.filter(pg.expedition_data_by_map.all, function (slot0)
-			return type(pg.expedition_data_by_map[slot0].drop_by_map_display) == "table" and #slot1 > 0
-		end)) - slot11.subRefreshCount - #_.filter(_.values(slot11:getRawData()), function (slot0)
-			return slot0:getPlayType() == ChapterConst.TypeMainSub and slot0:isValid()
-		end) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_use_item_sos_max"))
-
-			return
-		end
-	end
-
 	if (slot8.usage == ItemUsage.GUILD_DONATE or slot8.usage == ItemUsage.GUILD_OPERATION) and not getProxy(GuildProxy):getRawData() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("not_exist_guild_use_item"))
 
@@ -66,11 +48,6 @@ function slot0.execute(slot0, slot1)
 				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
 			elseif uv3.usage == ItemUsage.DORM_LV_UP then
 				uv4:sendNotification(GAME.EXTEND_BACKYARD_AREA)
-			elseif uv3.usage == ItemUsage.SOS then
-				slot2 = getProxy(ChapterProxy)
-				slot2.subRefreshCount = slot2.subRefreshCount + uv2
-
-				pg.TipsMgr.GetInstance():ShowTips(i18n("common_use_item_sos_used", uv2))
 			elseif uv3.usage == ItemUsage.GUILD_DONATE then
 				if getProxy(GuildProxy):getRawData() then
 					slot2:AddExtraDonateCnt(uv2)

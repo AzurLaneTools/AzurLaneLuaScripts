@@ -49,19 +49,22 @@ function slot0.InitWindow(slot0, slot1, slot2)
 		type = slot1:getConfig("commodity_type"),
 		count = slot1:getConfig("num")
 	}
-	slot4, slot5 = slot1:CheckTimeLimit()
 
-	setActive(slot0.timeLimitTF, slot4)
+	if isa(slot1, ActivityCommodity) then
+		slot4, slot5 = slot1:CheckTimeLimit()
 
-	if slot4 and slot5 then
-		setText(slot0:findTF("Text", slot0.timeLimitTF), i18n("eventshop_time_hint", pg.TimeMgr.GetInstance():STimeDescC(getProxy(ActivityProxy):getActivityById(pg.item_data_statistics[slot3.id].link_id).stopTime, "%m.%d")))
+		setActive(slot0.timeLimitTF, slot4)
+
+		if slot4 and slot5 then
+			setText(slot0:findTF("Text", slot0.timeLimitTF), i18n("eventshop_time_hint", pg.TimeMgr.GetInstance():STimeDescC(getProxy(ActivityProxy):getActivityById(pg.item_data_statistics[slot3.id].link_id).stopTime, "%m.%d")))
+		end
 	end
 
-	slot6, slot7 = getPlayerOwn(slot1:getConfig("resource_category"), slot1:getConfig("resource_type"))
-	slot8 = math.max(math.floor(slot7 / slot1:getConfig("resource_num")), 1)
+	slot4, slot5 = getPlayerOwn(slot1:getConfig("resource_category"), slot1:getConfig("resource_type"))
+	slot6 = math.max(math.floor(slot5 / slot1:getConfig("resource_num")), 1)
 
-	if slot1:getConfig("num_limit") ~= 0 then
-		slot8 = math.min(slot8, math.max(0, slot1:GetPurchasableCnt()))
+	if slot1:getConfig("num_limit") ~= 0 or isa(slot1, QuotaCommodity) then
+		slot6 = math.min(slot6, math.max(0, slot1:GetPurchasableCnt()))
 	end
 
 	(function (slot0)
@@ -73,10 +76,10 @@ function slot0.InitWindow(slot0, slot1, slot2)
 	updateDrop(slot0.topItem, slot3)
 	updateDrop(slot0.bottomItem, slot3)
 
-	slot10, slot11 = GetOwnedDropCount(slot3)
+	slot8, slot9 = GetOwnedDropCount(slot3)
 
-	setActive(slot0.ownerTF.parent, slot11)
-	setText(slot0.ownerTF, slot10)
+	setActive(slot0.ownerTF.parent, slot9)
+	setText(slot0.ownerTF, slot8)
 	setText(slot0.ownerLabelTF, i18n("word_own1"))
 
 	slot0.nameTF.text = slot3.cfg.name

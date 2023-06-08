@@ -195,7 +195,7 @@ function slot8.SetSubAidData(slot0, slot1, slot2)
 	end
 end
 
-function slot8.SetBound(slot0, slot1, slot2, slot3, slot4)
+function slot8.SetAutobotBound(slot0, slot1, slot2, slot3, slot4)
 	slot0._upperBound = slot1
 	slot0._lowerBound = slot2
 	slot0._leftBound = slot3
@@ -207,6 +207,21 @@ function slot8.SetTotalBound(slot0, slot1, slot2, slot3, slot4)
 	slot0._totalLowerBound = slot2
 	slot0._totalLeftBound = slot3
 	slot0._totalRightBound = slot4
+end
+
+function slot8.SetUnitBound(slot0, slot1, slot2)
+	slot0._fleetUnitBound = uv0.Battle.BattleFleetBound.New(slot0._IFF)
+
+	slot0._fleetUnitBound:ConfigAreaData(slot1, slot2)
+	slot0._fleetUnitBound:SwtichCommon()
+end
+
+function slot8.UpdateScoutUnitBound(slot0)
+	slot1 = slot0._fleetUnitBound:GetBound()
+
+	for slot5, slot6 in ipairs(slot0._scoutList) do
+		slot6:SetBound(slot1)
+	end
 end
 
 function slot8.CalcSubmarineBaseLine(slot0, slot1)
@@ -377,6 +392,10 @@ function slot8.GetSubBench(slot0)
 	return slot0._manualSubBench
 end
 
+function slot8.GetUnitBound(slot0)
+	return slot0._fleetUnitBound
+end
+
 function slot8.GetMotion(slot0)
 	return slot0._motionVO
 end
@@ -439,6 +458,10 @@ end
 
 function slot8.GetFleetBound(slot0)
 	return slot0._upperBound, slot0._lowerBound, slot0._leftBound, slot0._rightBound
+end
+
+function slot8.GetFleetUnitBound(slot0)
+	return slot0._totalUpperBound, slot0._totalLowerBound
 end
 
 function slot8.GetFleetExposeLine(slot0)

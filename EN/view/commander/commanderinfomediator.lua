@@ -186,6 +186,25 @@ function slot0.register(slot0)
 							callback = uv3
 						})
 					end
+				elseif _.detect(uv3:GetExtraCommanders(), function (slot0)
+					return uv0.id == slot0.commanderId
+				end) then
+					slot6 = i18n("commander_material_is_in_fleet_tip")
+
+					function slot7()
+						uv0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
+							commanderId = 0,
+							fleetId = uv1.fleetId,
+							pos = uv1.pos,
+							callback = function ()
+								uv0 = uv1:getCommanders()
+
+								if uv2 then
+									uv2()
+								end
+							end
+						})
+					end
 				end
 
 				if slot6 and slot7 then
@@ -237,7 +256,7 @@ function slot0.setCommander(slot0)
 end
 
 function slot0.markFleet(slot0, slot1)
-	for slot7, slot8 in pairs(getProxy(FleetProxy):getData()) do
+	for slot7, slot8 in pairs(getProxy(FleetProxy):GetRegularFleets()) do
 		for slot12, slot13 in pairs(slot8:getCommanders()) do
 			if slot13.id == slot1.id then
 				slot14 = slot8.id

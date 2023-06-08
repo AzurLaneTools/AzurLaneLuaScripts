@@ -104,30 +104,26 @@ function slot0.Exit(slot0, slot1)
 	end
 
 	slot1:SendRequest(slot1.GeneralPackage(slot0, slot5), function (slot0)
-		if uv0.end_sink_cost > 0 then
-			uv1.DeadShipEnergyCosume(uv2, uv3)
-		end
+		uv0.addShipsExp(slot0.ship_exp_list, uv1.statistics, true)
 
-		uv1.addShipsExp(slot0.ship_exp_list, uv2.statistics, true)
+		uv1.statistics.mvpShipID = slot0.mvp
+		slot2, slot3 = uv0:GeneralLoot(slot0)
+		slot4 = ys.Battle.BattleConst.BattleScore.C < uv4
 
-		uv2.statistics.mvpShipID = slot0.mvp
-		slot2, slot3 = uv1:GeneralLoot(slot0)
-		slot4 = ys.Battle.BattleConst.BattleScore.C < uv6
+		uv0.GeneralPlayerCosume(SYSTEM_WORLD, slot4, uv5, slot0.player_exp, exFlag)
 
-		uv1.GeneralPlayerCosume(SYSTEM_WORLD, slot4, uv7, slot0.player_exp, exFlag)
+		uv1.hpDropInfo = slot0.hp_drop_info
 
-		uv2.hpDropInfo = slot0.hp_drop_info
-
-		uv1:sendNotification(GAME.FINISH_STAGE_DONE, {
+		uv0:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = SYSTEM_WORLD,
-			statistics = uv2.statistics,
-			score = uv6,
+			statistics = uv1.statistics,
+			score = uv4,
 			drops = slot2,
-			commanderExps = uv1.GenerateCommanderExp(slot0, uv4, uv5:GetSubmarineFleet()),
+			commanderExps = uv0.GenerateCommanderExp(slot0, uv2, uv3:GetSubmarineFleet()),
 			result = slot0.result,
 			extraDrops = slot3
 		})
-		uv5:WriteBack(slot4, uv2)
+		uv3:WriteBack(slot4, uv1)
 	end)
 end
 

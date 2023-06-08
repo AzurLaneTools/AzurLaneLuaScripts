@@ -56,6 +56,14 @@ slot2 = {
 	inPvP = function ()
 		return getProxy(FleetProxy):getFleetById(FleetProxy.PVP_FLEET_ID) and slot1:getShipIds() or {}
 	end,
+	inChallenge = function ()
+		slot0 = getProxy(FleetProxy)
+		slot3 = slot0:getFleetById(FleetProxy.CHALLENGE_FLEET_ID):getShipIds()
+
+		table.insertto(slot3, slot0:getFleetById(FleetProxy.CHALLENGE_SUB_FLEET_ID):getShipIds())
+
+		return slot3
+	end,
 	inExercise = function ()
 		return getProxy(MilitaryExerciseProxy):getExerciseFleet():getShipIds()
 	end,

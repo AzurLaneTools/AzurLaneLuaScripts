@@ -118,7 +118,9 @@ function slot3.Update(slot0, slot1, slot2)
 	if slot0:IsTimeToRemove(slot2) then
 		slot0:Remove(slot2)
 	else
-		slot0:onTrigger(uv0.ON_UPDATE, slot1, slot2)
+		slot0:onTrigger(uv0.ON_UPDATE, slot1, {
+			timeStamp = slot2
+		})
 	end
 end
 
@@ -221,7 +223,9 @@ function slot3.onTrigger(slot0, slot1, slot2, slot3)
 end
 
 function slot3.SetRemoveTime(slot0)
-	slot0._RemoveTime = pg.TimeMgr.GetInstance():GetCombatTime() + slot0._time
+	slot1 = pg.TimeMgr.GetInstance():GetCombatTime()
+	slot0._buffStartTimeStamp = slot1
+	slot0._RemoveTime = slot1 + slot0._time
 	slot0._cancelTime = nil
 end
 
@@ -235,6 +239,14 @@ function slot3.IsTimeToRemove(slot0, slot1)
 	else
 		return slot0._RemoveTime <= slot1
 	end
+end
+
+function slot3.GetBuffLifeTime(slot0)
+	return slot0._time
+end
+
+function slot3.GetBuffStartTime(slot0)
+	return slot0._buffStartTimeStamp
 end
 
 function slot3.Interrupt(slot0)

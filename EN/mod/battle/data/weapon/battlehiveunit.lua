@@ -70,10 +70,10 @@ function slot3.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 	end, nil)
 end
 
-function slot3.SingleFire(slot0, slot1, slot2)
+function slot3.SingleFire(slot0, slot1, slot2, slot3)
 	slot0._tempEmitterList = {}
 
-	function slot3(slot0, slot1, slot2, slot3, slot4)
+	function slot4(slot0, slot1, slot2, slot3, slot4)
 		slot5, slot6 = uv0:SpwanAircraft(slot2)
 
 		uv1.Battle.BattleVariable.AddExempt(slot5:GetSpeedExemptKey(), slot5:GetIFF(), uv2.SPEED_FACTOR_FOCUS_CHARACTER)
@@ -84,7 +84,7 @@ function slot3.SingleFire(slot0, slot1, slot2)
 		end
 	end
 
-	function slot4()
+	function slot5()
 		for slot3, slot4 in ipairs(uv0._tempEmitterList) do
 			if slot4:GetState() ~= slot4.STATE_STOP then
 				return
@@ -96,18 +96,22 @@ function slot3.SingleFire(slot0, slot1, slot2)
 		end
 
 		uv0._tempEmitterList = nil
+
+		if uv1 then
+			uv1()
+		end
 	end
 
 	slot2 = slot2 or uv2.EMITTER_SHOTGUN
 
-	for slot8, slot9 in ipairs(slot0._tmpData.barrage_ID) do
-		slot0._tempEmitterList[#slot0._tempEmitterList + 1] = uv0.Battle[slot2].New(slot3, slot4, slot9)
+	for slot9, slot10 in ipairs(slot0._tmpData.barrage_ID) do
+		slot0._tempEmitterList[#slot0._tempEmitterList + 1] = uv0.Battle[slot2].New(slot4, slot5, slot10)
 	end
 
-	for slot8, slot9 in ipairs(slot0._tempEmitterList) do
-		slot9:Ready()
-		slot9:Fire(slot1, slot0:GetDirection(), slot0:GetAttackAngle())
-		slot9:SetTimeScale(false)
+	for slot9, slot10 in ipairs(slot0._tempEmitterList) do
+		slot10:Ready()
+		slot10:Fire(slot1, slot0:GetDirection(), slot0:GetAttackAngle())
+		slot10:SetTimeScale(false)
 	end
 
 	slot0._host:CloakExpose(slot0._tmpData.expose)

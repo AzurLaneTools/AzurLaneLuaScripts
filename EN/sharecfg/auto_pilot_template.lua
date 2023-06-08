@@ -8485,7 +8485,7 @@ pg.auto_pilot_template = {
 	},
 	[70178] = {
 		id = 70178,
-		name = "黑伊丽莎白 亚空间人形移动方式",
+		name = "黑伊丽莎白 人形移动方式",
 		default = 1,
 		list = {
 			{
@@ -8732,6 +8732,501 @@ pg.auto_pilot_template = {
 				param = {
 					x = -10,
 					z = 50
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70189] = {
+		id = 70189,
+		name = "2023黑阿尔及利亚 石柱1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -20,
+					z = 50
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70190] = {
+		id = 70190,
+		name = "2023黑阿尔及利亚 石柱2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = 0,
+					z = 50
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70191] = {
+		id = 70191,
+		name = "2023黑阿尔及利亚 石柱3",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -10,
+					z = 60
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70192] = {
+		id = 70192,
+		name = "2023黑阿尔及利亚 石柱4",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -10,
+					z = 40
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70193] = {
+		id = 70193,
+		name = "2023黑阿尔及利亚 石柱5",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 4,
+				param = {
+					z = 50,
+					radius = 10,
+					antiClockWise = false,
+					duration = 120,
+					x = -10
+				}
+			}
+		}
+	},
+	[70194] = {
+		id = 70194,
+		name = "2023黑阿尔及利亚 石柱6",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 4,
+				param = {
+					z = 50,
+					radius = 10,
+					antiClockWise = true,
+					duration = 120,
+					x = -10
+				}
+			}
+		}
+	},
+	[70195] = {
+		id = 70195,
+		name = "2023黑阿尔及利亚 开幕移动方式",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 3,
+				param = {
+					Z1 = 35,
+					Z2 = 75,
+					X2 = -5,
+					moveCount = 240,
+					duration = 3.7,
+					X1 = -20,
+					stopCount = 90
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 1.5
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 3,
+				param = {
+					Z1 = 35,
+					Z2 = 75,
+					X2 = -5,
+					moveCount = 240,
+					duration = 1,
+					X1 = -20,
+					stopCount = 90
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 0,
+				param = {
+					duration = 1.5
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 3,
+				param = {
+					Z1 = 35,
+					Z2 = 75,
+					X2 = -5,
+					moveCount = 240,
+					duration = 1.5,
+					X1 = -20,
+					stopCount = 90
+				}
+			},
+			{
+				index = 6,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70196] = {
+		id = 70196,
+		name = "2023黑阿尔及利亚 石柱1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -10,
+					z = 35
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70197] = {
+		id = 70197,
+		name = "2023黑阿尔及利亚 石柱2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -10,
+					z = 65
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70198] = {
+		id = 70198,
+		name = "2023黑阿尔及利亚 石柱3",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = 2,
+					z = 25
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70199] = {
+		id = 70199,
+		name = "2023黑阿尔及利亚 石柱4",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = 2,
+					z = 75
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70200] = {
+		id = 70200,
+		name = "2023黑阿尔及利亚 石柱1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -5,
+					z = 35
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70201] = {
+		id = 70201,
+		name = "2023黑阿尔及利亚 石柱2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -5,
+					z = 65
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70202] = {
+		id = 70202,
+		name = "2023黑阿尔及利亚 石柱3",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -5,
+					z = 22
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70203] = {
+		id = 70203,
+		name = "2023黑阿尔及利亚 石柱4",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -5,
+					z = 78
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70204] = {
+		id = 70204,
+		name = "2023黑阿尔及利亚 石柱1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -2,
+					z = 42
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70205] = {
+		id = 70205,
+		name = "2023黑阿尔及利亚 石柱2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -2,
+					z = 58
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70206] = {
+		id = 70206,
+		name = "2023黑阿尔及利亚 石柱3",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -10,
+					z = 32
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70207] = {
+		id = 70207,
+		name = "2023黑阿尔及利亚 石柱4",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -10,
+					z = 68
 				}
 			},
 			{
@@ -9271,13 +9766,13 @@ pg.auto_pilot_template = {
 		}
 	},
 	[75016] = {
-		id = 70117,
+		id = 75016,
 		name = "回中心点偏下",
 		default = 1,
 		list = {
 			{
 				index = 1,
-				to = 1,
+				to = 2,
 				type = 1,
 				param = {
 					x = -10,
@@ -11815,6 +12310,97 @@ pg.auto_pilot_template = {
 					duration = -1,
 					X1 = -10,
 					stopCount = 90
+				}
+			}
+		}
+	},
+	[200000] = {
+		id = 200000,
+		name = "回到中点",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -10,
+					z = 55
+				}
+			}
+		}
+	},
+	[200001] = {
+		id = 200001,
+		name = "回到起始点上",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -10,
+					z = 70
+				}
+			},
+			{
+				index = 2,
+				to = 2,
+				type = 4,
+				param = {
+					z = 55,
+					radius = 15,
+					antiClockWise = false,
+					duration = -1,
+					x = -10
+				}
+			}
+		}
+	},
+	[200002] = {
+		id = 200002,
+		name = "回到起始点下",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -10,
+					z = 40
+				}
+			},
+			{
+				index = 2,
+				to = 2,
+				type = 4,
+				param = {
+					z = 55,
+					radius = 15,
+					antiClockWise = false,
+					duration = -1,
+					x = -10
+				}
+			}
+		}
+	},
+	[200003] = {
+		id = 200003,
+		name = "转圈小范围 逆时针",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 4,
+				param = {
+					z = 55,
+					radius = 15,
+					antiClockWise = false,
+					duration = -1,
+					x = -10
 				}
 			}
 		}

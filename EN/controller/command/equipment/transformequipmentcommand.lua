@@ -256,7 +256,7 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 			equip = uv4,
 			newEquip = uv2
 		})
-		uv5.LoadLayer(Context.New({
+		LoadContextCommand.LoadLayerOnTopContext(Context.New({
 			mediator = EquipmentTransformInfoMediator,
 			viewComponent = EquipmentTransformInfoLayer,
 			data = {
@@ -322,13 +322,6 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 			end
 		}), true)
 	end)
-end
-
-function slot0.LoadLayer(slot0)
-	pg.m02:sendNotification(GAME.LOAD_LAYERS, {
-		parentContext = getProxy(ContextProxy):getCurrentContext(),
-		context = slot0
-	})
 end
 
 return slot0

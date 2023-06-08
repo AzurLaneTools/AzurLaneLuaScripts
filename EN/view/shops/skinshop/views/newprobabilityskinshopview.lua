@@ -61,7 +61,7 @@ function slot0.UpdateCommodity(slot0, slot1)
 	slot3:SetNativeSize()
 
 	slot0.nameTxt.text = slot1:getConfig("name_display")
-	slot0.priceTxt.text = "$" .. usMoneyFormat(slot1:getConfig("money"))
+	slot0.priceTxt.text = GetMoneySymbol() .. slot1:getConfig("money")
 	slot0.limitTxt.text = slot1:GetLimitDesc()
 	slot0.descTxt.text = slot1:getConfig("descrip")
 	slot0.tag.sprite = LoadSprite("chargeTag", uv0(slot1:getConfig("tag")))

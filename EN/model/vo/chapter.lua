@@ -683,10 +683,6 @@ function slot0.getAmbushDodge(slot0, slot1)
 end
 
 function slot0.isValid(slot0)
-	if slot0:getPlayType() == ChapterConst.TypeMainSub then
-		return slot0.active or slot0.expireTime and pg.TimeMgr.GetInstance():GetServerTime() < slot0.expireTime
-	end
-
 	return true
 end
 
@@ -725,11 +721,7 @@ function slot0.isPlayerLVUnlock(slot0)
 end
 
 function slot0.isClear(slot0)
-	if slot0:getPlayType() == ChapterConst.TypeMainSub then
-		return true
-	else
-		return slot0.progress >= 100
-	end
+	return slot0.progress >= 100
 end
 
 function slot0.ifNeedHide(slot0)
@@ -2223,15 +2215,6 @@ function slot0.getStageId(slot0, slot1, slot2)
 end
 
 function slot0.getStageExtraAwards(slot0)
-	if slot0:getPlayType() == ChapterConst.TypeMainSub then
-		slot1 = _.filter(pg.expedition_data_by_map.all, function (slot0)
-			return type(pg.expedition_data_by_map[slot0].drop_by_map_display) == "table" and #slot1 > 0
-		end)
-
-		if pg.expedition_data_by_map[slot1[math.min(#slot1, slot0.awardIndex)]] then
-			return slot2.drop_by_map_display[table.indexof(slot1, slot0:getConfig("map"))]
-		end
-	end
 end
 
 function slot0.GetExtraCostRate(slot0)
@@ -2409,13 +2392,6 @@ function slot0.writeBack(slot0, slot1, slot2)
 			slot0.defeatEnemies = slot0.defeatEnemies + 1
 		end
 
-		if slot0:getPlayType() == ChapterConst.TypeMainSub and slot6 == ChapterConst.AttachBoss and slot2.statistics._battleScore == ys.Battle.BattleConst.BattleScore.S then
-			slot11 = getProxy(ChapterProxy)
-			slot11.subProgress = math.max(slot11.subProgress, table.indexof(_.filter(pg.expedition_data_by_map.all, function (slot0)
-				return type(pg.expedition_data_by_map[slot0].drop_by_map_display) == "table" and #slot1 > 0
-			end), slot0:getConfig("map")) + 1)
-		end
-
 		getProxy(ChapterProxy):RecordLastDefeatedEnemy(slot0.id, {
 			score = slot2.statistics._battleScore,
 			line = {
@@ -2503,13 +2479,6 @@ function slot0.UpdateProgressAfterSkipBattle(slot0)
 
 		slot1.defeatEnemies = slot1.defeatEnemies + 1
 		slot0.defeatEnemies = slot0.defeatEnemies + 1
-	end
-
-	if slot0:getPlayType() == ChapterConst.TypeMainSub and slot3 == ChapterConst.AttachBoss then
-		slot8 = getProxy(ChapterProxy)
-		slot8.subProgress = math.max(slot8.subProgress, table.indexof(_.filter(pg.expedition_data_by_map.all, function (slot0)
-			return type(pg.expedition_data_by_map[slot0].drop_by_map_display) == "table" and #slot1 > 0
-		end), slot0:getConfig("map")) + 1)
 	end
 
 	getProxy(ChapterProxy):RecordLastDefeatedEnemy(slot0.id, {

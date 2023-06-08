@@ -132,34 +132,28 @@ function slot0.Exit(slot0, slot1)
 	slot9:writeBack(ys.Battle.BattleConst.BattleScore.C < slot5, slot0)
 	slot4:updateChapter(slot9)
 	slot1:SendRequest(slot1.GeneralPackage(slot0, slot8), function (slot0)
-		slot1 = uv0:getPlayType() == ChapterConst.TypeExtra
+		uv1.addShipsExp(slot0.ship_exp_list, uv2.statistics, true)
 
-		if uv1.end_sink_cost > 0 and not slot1 then
-			uv2.DeadShipEnergyCosume(uv3, uv4)
-		end
+		uv2.statistics.mvpShipID = slot0.mvp
+		slot3, slot4 = uv1:GeneralLoot(slot0)
 
-		uv2.addShipsExp(slot0.ship_exp_list, uv3.statistics, true)
-
-		uv3.statistics.mvpShipID = slot0.mvp
-		slot3, slot4 = uv2:GeneralLoot(slot0)
-
-		uv2.GeneralPlayerCosume(SYSTEM_SCENARIO, uv6, uv7, slot0.player_exp, slot1)
-		uv2:sendNotification(GAME.FINISH_STAGE_DONE, {
+		uv1.GeneralPlayerCosume(SYSTEM_SCENARIO, uv4, uv5, slot0.player_exp, uv0:getPlayType() == ChapterConst.TypeExtra)
+		uv1:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = SYSTEM_SCENARIO,
-			statistics = uv3.statistics,
-			score = uv8,
+			statistics = uv2.statistics,
+			score = uv6,
 			drops = slot3,
-			commanderExps = uv2.GenerateCommanderExp(slot0, uv5:getActiveChapter().fleet, uv0:GetSubmarineFleet()),
+			commanderExps = uv1.GenerateCommanderExp(slot0, uv3:getActiveChapter().fleet, uv0:GetSubmarineFleet()),
 			result = slot0.result,
 			extraDrops = slot4,
-			exitCallback = uv3.exitCallback
+			exitCallback = uv2.exitCallback
 		})
-		uv5:updateActiveChapterShips()
+		uv3:updateActiveChapterShips()
 
-		slot6 = uv5:getActiveChapter()
+		slot6 = uv3:getActiveChapter()
 
 		slot6:writeDrops(slot3)
-		uv5:updateChapter(slot6)
+		uv3:updateChapter(slot6)
 
 		if PlayerConst.CanDropItem(slot3) then
 			slot7 = {}
@@ -183,8 +177,8 @@ function slot0.Exit(slot0, slot1)
 			end
 		end
 
-		slot7 = uv5:getLastUnlockMap().id
-		slot8 = uv5:getLastUnlockMap().id
+		slot7 = uv3:getLastUnlockMap().id
+		slot8 = uv3:getLastUnlockMap().id
 
 		if Map.lastMap and slot8 ~= slot7 and slot7 < slot8 then
 			Map.autoNextPage = true

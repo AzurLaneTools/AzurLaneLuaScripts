@@ -116,9 +116,9 @@ function slot0.bindEvent(slot0)
 			fleets = {}
 		})
 	end)
-	slot0:bind(uv0.ON_COMMIT_EDIT, function (slot0, slot1)
+	slot0:bind(uv0.ON_COMMIT_EDIT, function (slot0)
 		assert(false)
-		uv0:commitEdit(slot1)
+		uv0:commitEdit()
 	end)
 	slot0:bind(uv0.ON_START, function (slot0, slot1)
 		slot2 = uv0.viewComponent
@@ -282,7 +282,7 @@ function slot0.changeFleet(slot0, slot1)
 	slot0.viewComponent:SetFleetStepper()
 end
 
-function slot0.refreshEdit(slot0)
+function slot0.refreshEdit(slot0, slot1)
 	slot0.viewComponent:UpdateFleetView(false)
 	slot0:sendNotification(uv0.ON_FLEET_REFRESHED)
 end

@@ -154,7 +154,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "Scharnhorst META",
 		painting = "shaenhuosite",
 		boss_level_id = 76,
@@ -322,12 +322,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "Queen Elizabeth META",
 		painting = "yilishabainvwang",
 		boss_level_id = 136,
 		id = 10,
 		meta_id = 970504,
+		item_id = 100000,
 		description = {
 			{
 				"Dominion Expansion",
@@ -338,32 +339,6 @@ pg.world_joint_boss_template = {
 				"META Affinity",
 				2,
 				"This ship takes more DMG from your META ships, but also deals more DMG to your non-META ships."
-			}
-		},
-		state = {
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					6,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -379,6 +354,64 @@ pg.world_joint_boss_template = {
 			0.9
 		}
 	},
+	{
+		item_id = 100000,
+		name = "Algérie META",
+		painting = "aerjiliya",
+		boss_level_id = 151,
+		id = 11,
+		meta_id = 970302,
+		description = {
+			{
+				"Pillar of Sin",
+				3,
+				"When the battle starts: summons 4 [Pillars of Sin] that reduces DMG taken by Algérie META by 40.0%.\nWhen any [Pillar of Sin] takes DMG: <color=#92fc63>20.0% of that DMG is instead redirected to Algérie META</color>."
+			},
+			{
+				"Expurgating Flame",
+				1,
+				"Algérie META's attacks inflict a special [Expurgating Flame] <color=#92fc63>Burn</color> status that deals high fixed DMG over a short duration.\nAdditionally, every 8s: inflicts [Expurgating Flame] on the target with <color=#92fc63>the lowest HP percentage</color>. This effect ignores the Main Fleet's Detection status."
+			}
+		},
+		state = {
+			{
+				{
+					2023,
+					6,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-7,
+			685,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			659,
+			684.2,
+			0.9,
+			0.9
+		}
+	},
 	all = {
 		1,
 		2,
@@ -389,6 +422,7 @@ pg.world_joint_boss_template = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }

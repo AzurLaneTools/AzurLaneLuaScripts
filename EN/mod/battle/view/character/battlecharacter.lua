@@ -9,6 +9,7 @@ slot0.Battle.BattleCharacter = slot5
 slot5.__name = "BattleCharacter"
 slot6 = Vector2(-1200, -1200)
 slot7 = Vector3.New(0.3, -1.8, 0)
+slot5.AIM_OFFSET = Vector3.New(0, -3.5, 0)
 
 function slot5.Ctor(slot0)
 	uv0.super.Ctor(slot0)
@@ -194,6 +195,18 @@ function slot5.RemoveWaveFX(slot0)
 	slot0:RemoveFX(slot0._waveFX)
 end
 
+function slot5.onAddBuffClock(slot0, slot1)
+	if slot1.Data.isActive then
+		if not slot0._buffClock then
+			slot0._factory:MakeBuffClock(slot0)
+		end
+
+		slot0._buffClock:Casting(slot2)
+	else
+		slot0._buffClock:Interrupt(slot2)
+	end
+end
+
 function slot5.AddBlink(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	if slot0._unitData:GetDiveInvisible() then
 		return nil
@@ -276,6 +289,7 @@ function slot5.AddUnitEvent(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE, slot0.onChangeSize)
 	slot0._unitData:RegisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON, slot0.onNewWeapon)
 	slot0._unitData:RegisterEventListener(slot0, uv0.HIDE_WAVE_FX, slot0.RemoveWaveFX)
+	slot0._unitData:RegisterEventListener(slot0, uv0.ADD_BUFF_CLOCK, slot0.onAddBuffClock)
 
 	slot5 = slot0.onUpdateScore
 
@@ -312,6 +326,7 @@ function slot5.RemoveUnitEvent(slot0)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.HOST_AIMBIAS)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.UPDATE_AIMBIAS_LOCK)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.INIT_AIMBIAS)
+	slot0._unitData:UnregisterEventListener(slot0, uv0.ADD_BUFF_CLOCK)
 	slot0._unitData:UnregisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE)
 
 	slot4 = uv1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON
@@ -341,6 +356,7 @@ function slot5.Update(slot0)
 	slot0:UpdateHpBar()
 	slot0:updateSomkeFX()
 	slot0:UpdateAimBiasBar()
+	slot0:UpdateBuffClock()
 end
 
 function slot5.RegisterWeaponListener(slot0, slot1)
@@ -780,6 +796,12 @@ function slot5.Dispose(slot0)
 		slot0._aimBiarBar = nil
 	end
 
+	if slot0._buffClock then
+		slot0._buffClock:Dispose()
+
+		slot0._buffClock = nil
+	end
+
 	slot0._voicePlaybackInfo = nil
 	slot0._popGO = nil
 	slot0._popTF = nil
@@ -933,6 +955,14 @@ function slot5.AddCastClock(slot0, slot1)
 	slot0:UpdateCastClockPosition()
 end
 
+function slot5.AddBuffClock(slot0, slot1)
+	slot2 = slot1.transform
+
+	SetActive(slot2, false)
+
+	slot0._buffClock = uv0.Battle.BattleBuffClock.New(slot2)
+end
+
 function slot5.AddBarrierClock(slot0, slot1)
 	slot2 = slot1.transform
 
@@ -994,6 +1024,13 @@ end
 function slot5.UpdateAimBiasBar(slot0)
 	if slot0._aimBiarBar then
 		slot0._aimBiarBar:UpdateAimBiasProgress()
+	end
+end
+
+function slot5.UpdateBuffClock(slot0)
+	if slot0._buffClock and slot0._buffClock:IsActive() then
+		slot0._buffClock:UpdateCastClockPosition(slot0._referenceVector)
+		slot0._buffClock:UpdateCastClock()
 	end
 end
 

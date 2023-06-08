@@ -57,5 +57,11 @@ return {
 		NewBattleResultDisplayAwardPage,
 		NewBattleResultDisplayPaintingsPage,
 		NewDuelResultStatisticsPage
+	},
+	[SYSTEM_LIMIT_CHALLENGE] = {
+		NewLimitChallengeResultGradePage,
+		NewBattleResultDisplayAwardPage,
+		NewBattleResultDisplayPaintingsPage,
+		NewBattleResultStatisticsPage
 	}
 }

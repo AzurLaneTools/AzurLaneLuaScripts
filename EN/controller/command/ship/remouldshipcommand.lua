@@ -86,7 +86,7 @@ function slot0.execute(slot0, slot1)
 	slot19 = {}
 
 	if slot18 then
-		if slot11:getFlag("inFleet") and not getProxy(FleetProxy):getFleetByShip(slot11):canRemove(slot11) then
+		if slot11:getFlag("inFleet") and not getProxy(FleetProxy):GetRegularFleetByShip(slot11):canRemove(slot11) then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				yesText = "text_forward",
 				content = i18n("shipmodechange_reject_1stfleet_only"),

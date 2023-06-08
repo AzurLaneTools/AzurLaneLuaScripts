@@ -38,6 +38,12 @@ function slot0.addChild(slot0, slot1)
 	table.insert(slot0.children, slot1)
 end
 
+function slot0.addChilds(slot0, slot1)
+	_.each(slot1, function (slot0)
+		uv0:addChild(slot0)
+	end)
+end
+
 function slot0.removeChild(slot0, slot1)
 	slot5 = Context
 
@@ -53,13 +59,30 @@ function slot0.removeChild(slot0, slot1)
 end
 
 function slot0.retriveLastChild(slot0)
-	slot1 = slot0
-
-	while #slot1.children > 0 do
-		slot1 = slot1.children[#slot1.children]
+	for slot4 = #slot0.children, 1, -1 do
+		if not slot0.children[slot4].data.isSubView then
+			return slot0.children[slot4]:retriveLastChild()
+		end
 	end
 
-	return slot1
+	return slot0
+end
+
+function slot0.GetHierarchy(slot0)
+	slot1 = {
+		slot0
+	}
+	slot2 = {}
+
+	while #slot1 > 0 do
+		for slot7, slot8 in ipairs(table.remove(slot1, 1).children) do
+			table.insert(slot1, slot8)
+		end
+
+		table.insert(slot2, slot3)
+	end
+
+	return slot2
 end
 
 function slot0.getContextByMediator(slot0, slot1)

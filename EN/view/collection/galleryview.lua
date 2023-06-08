@@ -563,87 +563,90 @@ function slot0.cardUpdate(slot0, slot1, slot2)
 		if slot18 then
 			setActive(slot5, GalleryConst.GetBGFuncTag())
 			setActive(slot6, false)
+			setImageColor(slot5, GalleryConst.IsInBGIDList(slot16) and Color.New(0.37, 0.61, 1, 1) or Color.New(1, 1, 1, 1))
 			onButton(slot0, slot5, function ()
-				if strColor == green then
-					if GalleryConst.RemoveBGID(uv0) then
-						strColor = white
+				if uv0 == uv1 then
+					if GalleryConst.RemoveBGID(uv2) then
+						uv0 = uv3
 
-						setImageColor(uv1, strColor)
+						setImageColor(uv4, uv0)
 					end
-				elseif strColor == white and GalleryConst.AddBGID(uv0) then
-					strColor = green
+				elseif uv0 == uv3 and GalleryConst.AddBGID(uv2) then
+					uv0 = uv1
 
-					setImageColor(uv1, strColor)
+					setImageColor(uv4, uv0)
 				end
 			end, SFX_PANEL)
-		else
-			setActive(slot5, false)
 
-			if slot0.manager.state == DownloadState.None or slot19 == DownloadState.CheckFailure then
-				slot0.manager:CheckD()
+			return
+		end
+
+		setActive(slot5, false)
+
+		if slot0.manager.state == DownloadState.None or slot19 == DownloadState.CheckFailure then
+			slot0.manager:CheckD()
+		end
+
+		if slot0.manager:CheckF(GalleryConst.PIC_PATH_PREFIX .. slot13.illustration) == DownloadState.None or slot22 == DownloadState.CheckToUpdate or slot22 == DownloadState.UpdateFailure then
+			setActive(slot6, true)
+			setActive(slot7, true)
+			setActive(slot8, false)
+			setActive(slot9, false)
+			setActive(slot10, false)
+			setActive(slot11, false)
+			table.removebyvalue(slot0.downloadCheckIDList, slot16, true)
+
+			if #slot0.downloadCheckIDList == 0 and slot0.downloadCheckTimer then
+				slot0.downloadCheckTimer:Stop()
+
+				slot0.downloadCheckTimer = nil
 			end
 
-			if slot0.manager:CheckF(GalleryConst.PIC_PATH_PREFIX .. slot13.illustration) == DownloadState.None or slot22 == DownloadState.CheckToUpdate or slot22 == DownloadState.UpdateFailure then
-				setActive(slot6, true)
-				setActive(slot7, true)
-				setActive(slot8, false)
-				setActive(slot9, false)
-				setActive(slot10, false)
-				setActive(slot11, false)
-				table.removebyvalue(slot0.downloadCheckIDList, slot16, true)
+			onButton(slot0, slot7, function ()
+				function slot0()
+					setActive(uv0, true)
+					setActive(uv1, false)
+					setActive(uv2, false)
+					setActive(uv3, false)
+					setActive(uv4, false)
+					setActive(uv5, true)
+					VersionMgr.Inst:RequestUIForUpdateF("GALLERY_PIC", uv6, false)
 
-				if #slot0.downloadCheckIDList == 0 and slot0.downloadCheckTimer then
-					slot0.downloadCheckTimer:Stop()
-
-					slot0.downloadCheckTimer = nil
-				end
-
-				onButton(slot0, slot7, function ()
-					function slot0()
-						setActive(uv0, true)
-						setActive(uv1, false)
-						setActive(uv2, false)
-						setActive(uv3, false)
-						setActive(uv4, false)
-						setActive(uv5, true)
-						VersionMgr.Inst:RequestUIForUpdateF("GALLERY_PIC", uv6, false)
-
-						if not table.contains(uv7.downloadCheckIDList, uv8) then
-							table.insert(uv7.downloadCheckIDList, uv8)
-						end
-
-						uv7:tryStartDownloadCheckTimer()
+					if not table.contains(uv7.downloadCheckIDList, uv8) then
+						table.insert(uv7.downloadCheckIDList, uv8)
 					end
 
-					if Application.internetReachability == UnityEngine.NetworkReachability.ReachableViaCarrierDataNetwork then
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							content = i18n("res_wifi_tip"),
-							onYes = slot0
-						})
-					else
-						slot0()
-					end
-				end, SFX_PANEL)
-			elseif slot22 == DownloadState.Updating then
-				setActive(slot6, true)
-				setActive(slot7, false)
-				setActive(slot8, false)
-				setActive(slot9, false)
-				setActive(slot10, false)
-				setActive(slot11, true)
-			elseif PathMgr.FileExists(PathMgr.getAssetBundle(slot21)) then
-				slot0.appreciateProxy:updatePicFileExistStateTable(slot16, true)
-				table.removebyvalue(slot0.downloadCheckIDList, slot16, true)
-
-				if #slot0.downloadCheckIDList == 0 and slot0.downloadCheckTimer then
-					slot0.downloadCheckTimer:Stop()
-
-					slot0.downloadCheckTimer = nil
+					uv7:tryStartDownloadCheckTimer()
 				end
 
-				setActive(slot5, true)
-				setActive(slot6, false)
+				if Application.internetReachability == UnityEngine.NetworkReachability.ReachableViaCarrierDataNetwork then
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("res_wifi_tip"),
+						onYes = slot0
+					})
+				else
+					slot0()
+				end
+			end, SFX_PANEL)
+		elseif slot22 == DownloadState.Updating then
+			setActive(slot6, true)
+			setActive(slot7, false)
+			setActive(slot8, false)
+			setActive(slot9, false)
+			setActive(slot10, false)
+			setActive(slot11, true)
+		elseif PathMgr.FileExists(PathMgr.getAssetBundle(slot21)) then
+			slot0.appreciateProxy:updatePicFileExistStateTable(slot16, true)
+			table.removebyvalue(slot0.downloadCheckIDList, slot16, true)
+
+			if #slot0.downloadCheckIDList == 0 and slot0.downloadCheckTimer then
+				slot0.downloadCheckTimer:Stop()
+
+				slot0.downloadCheckTimer = nil
 			end
+
+			setActive(slot5, true)
+			setActive(slot6, false)
 		end
 	elseif slot17 == GalleryConst.CardStates.Unlockable then
 		setActive(slot5, false)

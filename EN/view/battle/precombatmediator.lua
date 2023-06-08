@@ -296,7 +296,6 @@ function slot0.commitEdit(slot0, slot1)
 				if uv0.id == FleetProxy.PVP_FLEET_ID then
 					uv1:commitEdittingFleet()
 					uv2:changeFleet(FleetProxy.PVP_FLEET_ID)
-					uv2.viewComponent:swtichToPreviewMode()
 				else
 					uv1:commitEdittingFleet(uv3)
 					uv2:changeFleet(1)
