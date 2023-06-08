@@ -13,7 +13,7 @@ function slot0.execute(slot0, slot1)
 		slot7 = slot7 + slot6.price * slot15
 	end
 
-	if getProxy(GameRoomProxy):getTicket() <= slot7 then
+	if getProxy(GameRoomProxy):getTicket() < slot7 then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("game_ticket_notenough"),
 			onYes = function ()

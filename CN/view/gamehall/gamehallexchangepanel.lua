@@ -124,12 +124,30 @@ function slot0.updateUI(slot0)
 end
 
 function slot0.setVisible(slot0, slot1)
+	if slot1 then
+		slot0.bulrFlag = true
+
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	else
+		slot0.bulrFlag = false
+
+		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	end
+
 	setActive(slot0._tf, slot1)
 	slot0:updateUI()
 end
 
 function slot0.getVisible(slot0)
 	return isActive(slot0._tf)
+end
+
+function slot0.dispose(slot0)
+	if slot0.bulrFlag == true then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+
+		slot0.bulrFlag = false
+	end
 end
 
 return slot0

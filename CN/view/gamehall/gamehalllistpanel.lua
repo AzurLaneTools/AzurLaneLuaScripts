@@ -67,4 +67,7 @@ function slot0.getVisible(slot0)
 	return isActive(slot0._tf)
 end
 
+function slot0.dispose(slot0)
+end
+
 return slot0
