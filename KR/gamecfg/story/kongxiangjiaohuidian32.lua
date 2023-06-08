@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_11",
 			stopbgm = true,
-			say = "海域中的异变，几乎是在赫米忒的管理机被瘫痪的同时出现的。",
+			say = "해역은 허밋의 관리기가 마비되는 것과 동시에 변화했다.",
 			bgmDelay = 2,
 			bgm = "theme-arbitrator-tower",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_11",
-			say = "震动传遍了整个空间，一个巨大的金属圆环缓缓从水面下浮起。",
+			say = "진동이 공간 전체에 퍼치더니, 거대한 금속 고리가 수면 아래에서 천천히 떠올랐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_11",
-			say = "正在倒悬都市中的{namecode:435}Z可以很清晰地看到，隆起的环与海域中的巨型立方体群紧密结合在了一起。",
+			say = "거꾸로 떠 있는 도시에서 비스마르크 Z는 융기된 고리가 해역의 거대한 큐브와 연결되어 있는 것을 확인할 수 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_11",
-			say = "将米德加尔特之塔包裹在了正中央。",
+			say = "정중앙에 미드가르드 탑을 감싸고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			bgName = "bg_bsmre_11",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呼……这就是我们的外援么……",
+			say = "휴… 우리의 지원군인 건가….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还真是夸张啊……",
+			say = "너무 과장된 거 아니야…?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_11",
-			say = "{namecode:435}倒在水面上，不远处的革律翁也开始浮现出黑色气息。",
+			say = "비스마르크가 물 위에 쓰러지자 멀지 않은 곳에 있던 게리온의 몸에도 검은 기운이 감돌기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 9708010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "{namecode:435}姐姐，你没事吧！",
+			say = "비스마르크 언니, 괜찮아!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不要靠近我！",
+			say = "가까이 오지 마!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			actor = 9708010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "没事的……姐姐，你看。",
+			say = "괜찮아… 언니, 이거 봐.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_11",
-			say = "与革律翁的状态相同，红黑色的气息也萦绕在{namecode:416}身旁。",
+			say = "게리온의 상태와 마찬가지로 검붉은 기운이 U-556의 곁을 맴돌았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_bsmre_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "……哎嘿，好像用力过猛了。",
+			say = "…참, 너무 무리했나봐.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………代行者舰队围过来了，还能战斗么。",
+			say = "...대행자 함대가 에워싸고 있는데, 아직 싸울 수 있겠어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_bsmre_11",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "能！",
+			say = "응!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_bsmre_11",
 			actor = 9705030,
 			nameColor = "#a020f0",
-			say = "……还没到那种时候呢！",
+			say = "...아직 아니에요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_bsmre_11",
 			actor = 9705030,
 			nameColor = "#a020f0",
-			say = "诸位辛苦了，我是女灶神的同伴亚利桑那。",
+			say = "여러분 수고하셨습니다. 전 베스탈의 동료 애리조나입니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_bsmre_11",
 			actor = 9705030,
 			nameColor = "#a020f0",
-			say = "接下来就交给我来处理吧。",
+			say = "이제부턴 저에게 맡겨주세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "圆环的边缘出现了耀眼的光芒，在转瞬间覆盖了整个空间。",
+			say = "고리의 가장자리에서 눈부신 빛이 나타나더니 순식간에 공간을 뒤덮었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "然后，光芒消散了————",
+			say = "그리고, 빛이 사라졌다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 402100,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "到底发生了什么事…？海域中的污染转瞬间就消失了……",
+			say = "대체 무슨 일이 일어난 거지…? 해역 속 오염이 순식간에 사라졌어….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			actor = 406030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所有敌方单位的反应也一起全都不见了啊？！",
+			say = "적 유닛의 반응도 모두 사라졌어요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			actor = 406030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且……",
+			say = "게다가….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			actor = 401990,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？！！{namecode:435}大人和{namecode:416}，你们是什么时候下来的？",
+			say = "에?! 비스마르크 님과 U-556, 언제 내려온 거야!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_bsmre_13",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……欸？",
+			say = "…에?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "众人惊讶地发现，侵蚀消失了。",
+			say = "침식이 사라진 걸 발견하고 모두가 놀랐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "整片海域，连同倒悬在空中的都市都已经变为了正常状态。",
+			say = "해역 전체, 그리고 하늘에 거꾸로 떠 있는 도시까지 모두 정상으로 돌아왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "位于都市之中的{namecode:435}与{namecode:416}也几乎是在转瞬间回到了众人身边。",
+			say = "도시 한가운데 있던 비스마르크와 U-556도 거의 순식간에 모두의 곁으로 돌아왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			bgName = "bg_bsmre_13",
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "开，什么玩笑………",
+			say = "말, 말도 안돼….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "你怎么能主动——",
+			say = "당신이 어떻게…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -547,7 +547,7 @@ return {
 			bgName = "bg_bsmre_13",
 			actor = 9705030,
 			nameColor = "#a020f0",
-			say = "嘘，这是解决现状唯一的办法。",
+			say = "쉿, 지금 상황을 해결할 수 있는 유일한 방법이었어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "海伦娜呢？！",
+			say = "헬레나는요!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			actor = 9705030,
 			nameColor = "#a020f0",
-			say = "海伦娜她现在无法脱身。",
+			say = "헬레나는 지금 너무 바빠서 올 수 없었어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			bgName = "bg_bsmre_13",
 			actor = 9705030,
 			nameColor = "#a020f0",
-			say = "比起这个，旁边那两个人才是你现在最需要关注的吧。",
+			say = "그것보다 지금 가장 신경 써야 할 건 옆에 누워있는 두 함선 아닐까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			bgName = "bg_bsmre_13",
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "……旁边？",
+			say = "...옆에?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "受到提醒的女灶神看向刚刚从倒悬都市中返回的{namecode:435}与{namecode:416}。",
+			say = "정신을 차린 베스탈이 하늘 도시에서 막 돌아온 비스마르크와 U-556을 바라보았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "红黑色气息已经将二人彻底覆盖了。",
+			say = "검붉은 기운이 그 둘을 완전히 뒤덮고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			bgName = "bg_bsmre_13",
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "……啊？！",
+			say = "…에!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "啊？！！！！！！！",
+			say = "어?!!!!!!!!!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,7 +702,7 @@ return {
 			bgName = "bg_bsmre_13",
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "你们两个不要命了！！！！！",
+			say = "죽고 싶어 환장한 거예요?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "其他人都退开！！！！",
+			say = "모두 물러나세요!!!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -743,7 +743,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_13",
-			say = "惊慌失措的女灶神几乎是以飞行般的速度飞奔到二人身边。",
+			say = "당황한 베스탈이 거의 날아갈 듯한 속도로 두 사람 곁으로 달려갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			bgName = "bg_bsmre_13",
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "喂，保持住意识！还能说话么？",
+			say = "이봐, 정신 차려봐요! 말할 수 있겠어요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -789,7 +789,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不用管我……",
+			say = "난 신경쓰지 않아도 돼….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -807,7 +807,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "我已经把……限制都加回去了，",
+			say = "난 이미… 손을 써놨어. 침식은 진행되지 않을 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -825,7 +825,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "应该……过一会就好了。",
+			say = "아마… 조금 있으면 괜찮아질 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -843,7 +843,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "去帮……{namecode:416}净化，拜托了。",
+			say = "가서 U-556을 정화해줘, 부탁할게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -860,7 +860,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "……{namecode:416}是么，好的。",
+			say = "...U-556이요? 알겠어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -877,7 +877,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "{namecode:416}，能听到我的声音么？",
+			say = "U-556, 제 목소리 들려요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -894,7 +894,7 @@ return {
 			actor = 9708010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……好黑啊，{namecode:435}姐姐……你在哪里？",
+			say = "…아무 것도 안보여, 비스마르크 언니… 어디야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -929,7 +929,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "情况不妙……是么？",
+			say = "상황이 좋지… 않은 거지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +963,7 @@ return {
 			actor = 9712010,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "…………还、有救。",
+			say = "…… 아직, 늦지 않았어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1004,7 +1004,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg13",
-			say = "女灶神轻轻地蹲在{namecode:416}身旁，手中凭空出现了一个蓝色立方体。",
+			say = "U-556 옆에 살며시 앉아 있던 베스탈의 손에 갑자기 파란 큐브가 나타났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1014,7 +1014,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg13",
-			say = "与此同时，一个又一个，十数个蓝色立方体在她的身旁接连出现。",
+			say = "그와 동시에 하나 둘, 열 몇개의 파란 큐브가 그녀의 옆에 연달아 나타났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1024,7 +1024,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg13",
-			say = "立方体群旋转着，似乎吸收着{namecode:416}身上溢出的黑色气息。",
+			say = "큐브는 회전하며 U-556의 몸에서 흘러나오는 검은 기운을 흡수하는 듯 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1034,7 +1034,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg13",
-			say = "{namecode:416}的表情逐渐舒缓下来，但漂浮的蓝色立方体颜色却在缓慢加深。",
+			say = "U-556의 표정은 점차 평온해졌고, 공중에 떠있는 파란 큐브의 색은 점점 짙어지고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1071,7 +1071,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg14",
-			say = "（咔嚓————）",
+			say = "(쩌저적———)",
 			soundeffect = "event:/ui/glassbroken",
 			typewriter = {
 				speed = 0.05,
@@ -1082,7 +1082,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg14",
-			say = "转瞬间，女灶神手中的立方体变为了刺眼的红色，随即碎裂了。",
+			say = "순간 베스탈의 손에 있던 큐브가 붉은색으로 변하더니 산산조각 났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1092,7 +1092,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg14",
-			say = "一向从容不迫的女灶神也咬紧了牙关，露出痛苦的表情。",
+			say = "언제나 침착하던 베스탈도 이를 악물고 괴로운 표정을 짓고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1100,11 +1100,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "女灶神",
+			actorName = "베스탈",
 			bgName = "bg_bsmre_cg14",
 			hidePaintObj = true,
 			nameColor = "#a020f0",
-			say = "咳、咳咳…咳咳………！！",
+			say = "콜록, 콜록… 콜록, 콜록...!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1117,11 +1117,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "女灶神小姐，你没事吧！",
+			say = "베스탈 양, 괜찮아!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1129,11 +1129,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "女灶神",
+			actorName = "베스탈",
 			bgName = "bg_bsmre_cg14",
 			hidePaintObj = true,
 			nameColor = "#a020f0",
-			say = "咳……没事……就是需要休息一下。",
+			say = "콜록… 괜찮아요…. 그냥 좀 쉬면 돼요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1141,11 +1141,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "女灶神",
+			actorName = "베스탈",
 			bgName = "bg_bsmre_cg14",
 			hidePaintObj = true,
 			nameColor = "#a020f0",
-			say = "（……这样一来，我们就两不相欠了。）",
+			say = "(…이제 서로 빚진 건 없는 거예요.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1155,7 +1155,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "谢绝了{namecode:96}的搀扶，女灶神将{namecode:416}从水中扶起。",
+			say = "즈이카쿠의 부축을 거절한 베스탈이 U-556을 물에서 일으켜 세웠다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1182,7 +1182,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "此时的{namecode:416}已经褪去了META的痕迹，完全恢复到了平时的状态。",
+			say = "META의 흔적이 사라진 U-556은 원래 상태로 돌아와 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1196,7 +1196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "……呼。",
+			say = "…후.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1214,7 +1214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "变……回来了？",
+			say = "돌… 돌아왔네요!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1242,7 +1242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "{namecode:416}！",
+			say = "U-556！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1276,7 +1276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "唔……不要突然抱过来啊，身上湿漉漉的……",
+			say = "윽… 갑자기 달려들면 어떡해. 몸이 아직 축축하단 말이야….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1300,7 +1300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "真是的，她的身体才刚刚恢复，轻一点。",
+			say = "정말이지. 아직 몸이 완전히 회복되지 않았을 테니, 모두 조심하라고.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1318,7 +1318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "啊啊，抱歉抱歉！",
+			say = "아앗, 미안, 미안!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1336,7 +1336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "之前真的担心死我了，还以为你再也变不回来了！",
+			say = "얼마나 걱정했는 줄 알아? 다시는 돌아오지 못하는 줄 알았잖아!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1354,7 +1354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "嘿嘿，最后不是没事了嘛~",
+			say = "헤헤, 결국 아무 일도 없었잖아~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1374,7 +1374,7 @@ return {
 			actor = 9705030,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "看来事件已经圆满解决了呢。",
+			say = "잘 해결된 것 같네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1394,7 +1394,7 @@ return {
 			actor = 9705030,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "那么，善后就交给你了。相关资料已发送，请确认。",
+			say = "그럼 뒷수습을 부탁할게요. 관련 자료는 이미 보내드렸으니, 확인해주세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1412,7 +1412,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "……资料已确认，我明白了。",
+			say = "…확인 완료. 알겠어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1431,7 +1431,7 @@ return {
 			actor = 9705030,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "亚利桑那离线。",
+			say = "그럼 애리조나 오프라인.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1466,7 +1466,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "看来我们可以回去了？",
+			say = "이제 돌아갈 수 있을 것 같은데?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1484,7 +1484,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "嗯，我已经得到了资料。",
+			say = "네, 이미 자료를 획득했습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1501,7 +1501,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "你们只要再启动米德加尔特之塔，就可以回去了。",
+			say = "다시 한번 미드가르드 탑을 작동시키기만 한다면 돌아갈 수 있을 거예요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1519,7 +1519,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "不过，你……居然真的已经恢复了。",
+			say = "정말… 회복되었네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1537,7 +1537,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "……原来如此。",
+			say = "…그렇군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1554,7 +1554,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "代价是，革律翁一段时间内无法战斗了，是么？",
+			say = "이번 사건의 대가로 게리온은 한동안 싸울 수 없겠죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1572,7 +1572,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "嘘。接下来你打算去哪里？",
+			say = "쉿. 이제 어디로 갈 생각이야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1590,7 +1590,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "跟我一起回去——应该不可能吧。",
+			say = "나와 함께 돌아가는 건—— 불가능하겠지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1608,7 +1608,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "嗯，我在这里还有要做的事。",
+			say = "네, 전 이곳에서 아직 해야 할 일이 남아있거든요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1626,7 +1626,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "你们回去之后，必须摧毁这个名为米德加尔特之塔的人工奇异点。",
+			say = "돌아가면 반드시 이 미드가르드 탑이라는 인공 특이점을 파괴해야 해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1643,7 +1643,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "正是它的存在才导致了这次事件的发生。",
+			say = "그 존재 때문에 이번 사건이 발생한 거니까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1661,7 +1661,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……摧毁？",
+			say = "...파괴?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1679,7 +1679,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "你知道铁血为了修建米德加尔特之塔花费了多少资源么？",
+			say = "메탈 블러드가 이 미드가르드 탑을 건설하기 위해 얼마나 많은 자원을 썼는지 알아?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1697,7 +1697,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "知道。",
+			say = "알고 있어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1714,7 +1714,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "而且我也知道做出这种决定有多么困难……",
+			say = "그리고 이런 결정을 내리는 게 얼마나 어려운지도 알고 있습니다….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1732,7 +1732,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "可是，它的坐标已经被标记了，单纯的关闭没有用的。",
+			say = "하지만 좌표가 이미 기록된 이상, 단순히 종료하는 것만으론 소용없어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1750,7 +1750,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "如果不摧毁的话，终有一天，天空与大海都被侵蚀的景象会经由米德加尔特之塔到达你们的世界。",
+			say = "파괴하지 않으면 조금 전 하늘과 바다가 전부 침식되어 버린 상황이 언젠간 미드가르드 탑을 통해 당신들의 세계에도 도달할 거예요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1768,7 +1768,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "你想看到这样的事情发生么？",
+			say = "그런 일이 일어나길 바라는 건 아니겠죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1786,7 +1786,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……我明白了。米德加尔特之塔将会被拆毁，我保证。",
+			say = "...알겠어. 미드가르드 탑을 철거하겠다고 약속할게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1804,7 +1804,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "很好。此处不宜久留，你们快出发吧。",
+			say = "좋아요. 여긴 오래 머물 곳이 아니니 어서 출발하세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1818,7 +1818,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "海域的中心，已经恢复正常的米德加尔特之塔闪烁着蓝色的光芒。",
+			say = "해역 한가운데, 정상으로 돌아온 미드가르드 탑은 푸른 빛이 반짝이고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1845,7 +1845,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "巨大的装置缓缓启动，光芒逐渐在众人的脚下聚集。",
+			say = "거대한 장치가 천천히 작동되더니 빛이 점차 모두의 발 아래로 모여들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1859,7 +1859,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "谢谢你，女灶神姐姐！",
+			say = "고마워, 베스탈 언니!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1873,7 +1873,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "在{namecode:416}的呼喊声中，{namecode:435}一行人的身影从海域中消失了。",
+			say = "U-556의 함성 소리와 함께 비스마르크 일행의 모습이 바다에서 사라졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1887,7 +1887,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "我们会再见面的。",
+			say = "다시 만날 수 있을 거예요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1901,7 +1901,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_13",
-			say = "女灶神注视着众人的离开，不一会儿，耳边便传来了通讯器的响声。",
+			say = "베스탈은 모두가 떠나는 것을 지켜보았고, 곧이어 귓가에 통신기 소리가 들려왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1915,7 +1915,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "……我还在想你什么时候才会打过来。",
+			say = "...언제 연락이 올지 궁금했어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1933,7 +1933,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "……接下来你打算做什么？",
+			say = "...다음엔 무엇을 할 예정인가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1951,7 +1951,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "——仲裁者·托瓦·XVI。",
+			say = "——아비터·토바·XVI.",
 			painting = {
 				alpha = 0.3,
 				time = 1

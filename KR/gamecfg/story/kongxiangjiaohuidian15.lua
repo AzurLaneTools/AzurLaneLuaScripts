@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "在闪烁的光芒中，米德加尔特之塔启动了。",
+			say = "반짝이는 빛 속에서 미드가르드 탑이 작동됐다.",
 			bgm = "story-midgard",
 			flashin = {
 				delay = 1,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_5",
 			hidePaintObj = true,
-			say = "然而————",
+			say = "하지만———",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "依然没能出去啊……",
+			say = "아직도 못 나갔네….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_5",
 			hidePaintObj = true,
-			say = "众人环顾四周，眼前的景色虽然相比之前有些许变化，但毫无疑问的是，她们依然被困在这个神秘的空间之中。",
+			say = "모두가 주위를 둘러보니, 눈앞의 풍경은 이전과 조금은 달라졌지만 의심할 여지없이 그들은 여전히 신비한 공간에 갇혀 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "之前推测的一样，“红区”的面积再次扩展了。",
+			say = "앞서 추측했던 대로 '레드 존'의 면적이 또다시 넓어졌다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来每次利用米德加尔特之塔移动，都会把我们送到“蓝区”与“红区”的交界处。",
+			say = "미드가르드 탑을 사용할 때마다 '블루 존'과 '레드 존'의 교차점으로 전송되는 것 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "但是天上的那个……",
+			say = "그런데 하늘에 있는 저건…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "那个是…………一座城市吧。",
+			say = "저건… 도시 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_5",
 			hidePaintObj = true,
-			say = "没有日月照耀的天空上，一座高楼林立的城市正以倒悬的姿态呈现在众人的眼前。",
+			say = "해와 달이 없는 하늘에 고층 빌딩이 즐비한 도시가 거꾸로 매달려 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_5",
 			hidePaintObj = true,
-			say = "两条螺旋形的“公路”穿行其中，绕着整座城市盘旋而上。",
+			say = "두 개의 나선형 '도로'가 그 곳을 가로질러 도시 전체를 빙 둘러싸고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_5",
 			hidePaintObj = true,
-			say = "这种布局，与众人记忆中的任何一座城市都对不上。",
+			say = "아무리 봐도 많은 사람들의 기억 속 그 어떤 도시와도 일치하지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "简直像海市蜃楼一样……",
+			say = "그야말로 신기루같아….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "但那可是真真正正存在于此的！",
+			say = "하지만 실제로 존재하고 있어요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "我现在雷达上现在全是它的回波，根本都没法正常工作了！",
+			say = "지금 레이더에 온통 저 물체의 전파만 잡혀서 함재기가 정상적으로 작동하지 않고 있어요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "……嗯，最高的那个建筑物难道是……",
+			say = "…응, 가장 높은 저 건물은 설마...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "{namecode:464}大人，您发现什么了么？",
+			say = "울리히 님, 뭔가 발견하신 겁니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "我有一些在意的东西。",
+			say = "신경 쓰이는 게 좀 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里太远了，我需要更近一些观察。",
+			say = "여기는 너무 멀어서 좀 더 가까이서 관찰해 봐야겠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然如此，我们就先坐电梯前往一号塔台的最顶层吧",
+			say = "그렇다면 엘리베이터를 타고 1번 관제탑의 맨 꼭대기 층으로 가자.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "那里是米德加尔特之塔的最高处，看得更清楚。",
+			say = "거긴 미드가르드 탑의 가장 높은 곳이니까 더 잘 보일 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "稍等，{namecode:435}大人，侦察机有了发现！",
+			say = "잠시만요, 비스마르크 님. 정찰기가 무언가를 발견했습니다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在远方“红区”中发现了塞壬舰队的活动痕迹，但是情况有些奇怪。",
+			say = "먼 곳의 '레드 존'에서 세이렌 함대의 활동 흔적이 발견됐지만 상황이 조금 이상해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "那些塞壬好像在和什么别的东西交战……？",
+			say = "세이렌이 뭔가 다른 물체와 싸우고 있는 것 같은데요…?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别的什么东西？",
+			say = "뭔가 다른 물체?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "侦察机镜头看不清楚……我无法辨认出它们的型号，甚至无法看清它们的外结构。",
+			say = "정찰기 렌즈로 잘 보이지 않아요…. 어떤 모델인지, 심지어 외부 구조도 제대로 확인되지 않고 있습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "简直就像被一团有实体的雾气包裹着的某些……东西一样。",
+			say = "마치 실체가 있는 안개에 싸여진... 어떤 물체 같아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "抱歉，我找不出更贴切的形容词了。",
+			say = "죄송하지만 더 적절한 단어를 찾을 수 없습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "听上去有些令人费解……能拍些照片回来么？",
+			say = "좀 난해하게 들리는데… 혹시 사진을 좀 찍어볼 수 있어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "我试试，但也许会变得更模糊哦……",
+			say = "한번 해볼게요, 하지만 더 흐릿하게 찍힐지도 모르겠어요….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "像雾气一样无法看清外形，听上去不就是鬼影嘛！感觉好恐怖……",
+			say = "안개처럼 겉모습이 잘 안 보인다니, 귀신같이 들리잖아! 너무 무서운데….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（无法被辨识的“存在”……伊丽莎白确实说过，在摆脱理查德追击的时候遭遇过类似的东西。）",
+			say = "(획안할 수 없는 '존재'… 엘리자베스가 리처드의 추격을 벗어날 때 비슷한 일을 당했다고 말했어.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "{namecode:435}大人，是不是近距离侦察一下比较好？",
+			say = "비스마르크 님, 가까이서 정찰하는 게 좋지 않을까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，确实有必要仔细调查一下……",
+			say = "응, 확실히 꼼꼼히 조사할 필요가 있어 보여….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,9 +597,9 @@ return {
 			bgName = "bg_bsmre_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556·META？",
 			side = 2,
-			say = "这样一来，{namecode:435}姐姐，要不要让大家分头行动？",
+			say = "그러면 비스마르크 언니, 찢어져서 따로 움직이는 건 어때?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "嗯，我也想到了一个需要去控制室里验证的事。",
+			say = "그래, 마침 나도 관제실에서 확인해야 할 일이 하나 생각났거든.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样好了，{namecode:464}和{namecode:434}·META、{namecode:96}一组，前往一号塔台最高处收集天空中倒悬都市的情报。",
+			say = "그럼 이렇게 하자. 울리히와 그나이제나우·META, 즈이카쿠가 한 조로 1번 관제탑 가장 높은 곳으로 가서 하늘에 떠 있는 도시에 대한 정보를 수집하고,",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "没问题。",
+			say = "알겠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "{namecode:516}、{namecode:513}、{namecode:491}一组，负责收集海域中与塞壬交战的未知势力的情报。",
+			say = "레겐스부르크, 알벤슬레벤, 야드가 한 조로 해역에서 세이렌과 교전 중인 미지의 세력에 대한 정보를 수집한다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -687,7 +687,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "记住，保持安全距离。不要靠得过近，也不要参与交火",
+			say = "안전 거리를 유지하는 것 명심하도록. 너무 가까이 가지도 말고, 교전에 참여해서도 안돼.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "就让塞壬跟它们相互消耗，我们隔岸观火就好。",
+			say = "세이렌과 그들이 싸우는 걸 멀리서 지켜보면서 강 건너 불구경만 하면 돼.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命。",
+			say = "분부대로 하겠습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,7 +740,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "{namecode:416}就跟我一起前往控制室吧。",
+			say = "U-556은 나와 함께 관제실로 가자.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -757,7 +757,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所有人通讯频道保持畅通，开始行动。",
+			say = "통신 채널 한번 더 확인하고, 작전을 시작하자.",
 			painting = {
 				alpha = 0.3,
 				time = 1

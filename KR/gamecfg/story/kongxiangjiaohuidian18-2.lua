@@ -10,7 +10,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			bgm = "theme-thehermitIX",
-			say = "轰————————————！",
+			say = "쾅———————!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			actor = 401990,
 			dir = 1,
-			say = "哼哼哼，它又打歪了！",
+			say = "홍홍홍, 또 안맞았지롱!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "就算是仲裁机关的棋子，战术也还是这么单纯！",
+			say = "아무리 중재 기관의 장기말이라고 해도 전술은 별 거 없네!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "性能再强大的兵器，没有优秀的指挥也只能发挥到这种水平么。",
+			say = "성능이 막강한 병기라도 훌륭한 지휘관이 없다면 겨우 이정도밖에 안되는 건가.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 406030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不对…………好像不太对，它的目标可能一开始就是米德加尔特之塔！",
+			say = "아니… 뭔가 이상해요. 저 자식의 목표는 처음부터 미드가르드 탑일지도 몰라요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			actor = 406030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "水面上，它不是一直在向着米德加尔特之塔的位置移动么！",
+			say = "수면 위에서 계속 미드가르드 탑을 향해 이동하고 있는 것 같지 않나요!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			actor = 406030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "天空的舰载机群也是，根本不理会我的纠缠，全力向着装置的方向移动，恐怕是想进行轰炸！",
+			say = "하늘의 함재기군도 내 공격은 아랑곳하지 않고 전속력으로 장치 쪽으로 움직이고 있어요. 아무래도 폭격을 가하려는 것 같아요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			actor = 900287,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX",
+			actorName = "아비터·허밋·IX",
 			dir = 1,
 			say = "……………………",
 			painting = {
@@ -187,7 +187,7 @@ return {
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			dir = 1,
-			say = "怪不得，我也感觉到问题了！",
+			say = "어쩐지 나도 이상하다고 생각했어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			dir = 1,
-			say = "可是为什么……？如果只是阻碍我们逃跑的话，光锁死控制还不够么？",
+			say = "그런데 왜…? 우리가 도망치는 걸 막고 싶은 거라면, 컨트롤 패널만 잠궈도 충분하지 않나?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			dir = 1,
-			say = "况且作为人工奇异点的米德加尔特之塔也没这么容易被摧毁吧！",
+			say = "더구나 인공 특이점의 미드가르드 탑은 그렇게 쉽게 파괴되지 않을 텐데!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯，理论上是的，但是我们不能赌。",
+			say = "응, 이론상으로는 그렇지만 도박을 할 순 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "或许米德加尔特之塔真的是我们脱离的关键……",
+			say = "어쩌면 미드가르드 탑이 정말 우리의 탈출 열쇠일지도 모르니까….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "不论如何，敌人想做的事就是我们必须阻止的。",
+			say = "어찌 되었든 적이 목표를 달성하지 못하게 막는 것이 우리가 해야할 일.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:516}、{namecode:513}、{namecode:491}，你们配合{namecode:96}小姐进行对空作战。",
+			say = "레겐스부르크, 알벤슬레벤, 야드. 너희들은 즈이카쿠 양과 협동해서 대공 작전을 펼친다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "{namecode:464}和{namecode:434}跟我来，我们一起破坏掉它！",
+			say = "울리히와 그나이제나우는 나와 함께 저것을 파괴한다!",
 			painting = {
 				alpha = 0.3,
 				time = 1

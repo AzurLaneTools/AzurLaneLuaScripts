@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "theme-thedevilXV",
 			bgmDelay = 2,
-			say = "革律翁的双翼掀起风暴，咆哮着冲向水面的敌人。",
+			say = "게리온의 두 날개가 폭풍을 일으키며 수면에 있는 적을 향해 포효했다.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,7 +29,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "然而，代行者舰队并没有如预期般陷入混乱，反倒是组织起了更加猛烈的防空火力。",
+			say = "하지만 대행자 함대는 예상대로 혼란에 빠지기보다는 오히려 더 강력한 방공 화력을 편성했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			actor = 9704010,
 			dir = 1,
-			say = "那些代行者的状态……和之前不一样了。",
+			say = "대행자의 상태가… 이전과 달라졌어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "革律翁，回到舰队中来！",
+			say = "게리온, 함대로 돌아와!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			actor = 9704010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我来掩护！",
+			say = "제가 엄호할게요!",
 			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
@@ -125,9 +125,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "게리온",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*愤怒地咆哮*██▌",
+			say = "▁▂▃▄▅▆▇███*분노의 포효*██▌",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "女灶神小姐，那些敌人怎么会……突然变成这种样子？",
+			say = "베스탈 양, 적들이 어떻게… 갑자기 이렇게 변한 거지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			actor = 9712010,
 			dir = 1,
-			say = "我没有确切的证据。",
+			say = "확실한 증거는 없어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "不过也许和迪贝路的代行者一样，它们也受到了赫米忒管理机变化的影响。",
+			say = "하지만 디벨로의 대행자처럼 허밋 관리기 변화의 영향을 받았을지도 몰라요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:435}大人，我的舰载机损失惨重！",
+			say = "비스마르크 님, 제 함재기가 큰 피해를 입었습니다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			actor = 406030,
 			dir = 1,
-			say = "第一波派出去的飞机几乎无一返回。",
+			say = "첫 번째로 파견 보낸 비행체들도 돌아오지 않았습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			actor = 406030,
 			dir = 1,
-			say = "现在舰载机光是防御舰队上空就很吃力了，我没法组织第二波进攻。",
+			say = "지금 함재기로는 함대 상공을 방어하는 것만으로도 벅차서 두 번째 공격은 불가능할 것 같아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那些混在敌方舰队中的迪贝路悬浮飞行器，得想办法处理一下才行！",
+			say = "적 함대에 섞여 있는 디벨로의 부유 비행체를 처리할 방법을 찾아야 합니다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			actor = 9712010,
 			dir = 1,
-			say = "我知道方法，但，需要一个极其擅长电子战的人来实施。",
+			say = "방법은 있지만, 전자전에 능숙한 함선이 필요해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……啊哈哈，看来只能硬碰硬了。",
+			say = "…아하하, 정면으로 부딪힐 수밖에 없겠네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不要忘记我们的目标，{namecode:96}小姐。",
+			say = "우리의 목표를 잊지 마, 즈이카쿠 양.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "瘫痪赫米忒的管理机是吧，我记得呢！",
+			say = "허밋의 관리기를 마비시키는 거 맞지!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但是那个管理机一直缩在后面不出来，如果不先突破防空火力网的话！",
+			say = "그런데 관리기는 계속 뒤에 숨어서 앞으로 나오지 않고 있어. 만약 먼저 방공 화력망을 뚫지 않는 이상!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "用和之前一样的战术。",
+			say = "전과 같은 전술을 사용해야겠군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:464}来指挥舰队拖延时间。",
+			say = "울리히는 함대를 지휘하고 시간을 끌어줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "我去瘫痪赫米忒的管理机。",
+			say = "내가 허밋의 관리기를 마비시킬게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "{namecode:435}，实话实说，你的……",
+			say = "비스마르크, 사실 당신의…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			actor = 9712010,
 			dir = 1,
-			say = "革律翁这一舰装的技术很特殊，仲裁机关也会对你相当有兴趣才对。",
+			say = "게리온 의장의 기술은 매우 특수해요. 중재 기관도 당신에게 상당한 관심을 가질 겁니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			actor = 9712010,
 			dir = 1,
-			say = "万一这是一个诱捕你的陷阱呢？",
+			say = "만약 이것이 당신을 유인하는 함정이라면요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "那这次事件中的陷阱也太多了一点。",
+			say = "그럼 이번 사건에 함정이 너무 많은 거 아니야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "一路上的经历让我们出现了太多猜测、疑虑与对于未知的恐惧。",
+			say = "여기까지 오면서 겪었던 경험은 우리로 하여금 너무 많은 추측과 의심, 미지에 대한 두려움을 불러일으켰어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但是，世界也不是光靠阴谋与诡计推动的。",
+			say = "하지만 세상에 음모와 계략만 있는 건 아니지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "既然看到了胜利的机会，就不能坐视其白白流逝。",
+			say = "승리의 기회를 본 이상 가만히 앉아있을 수만은 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "其中的风险，就由我来承受吧。",
+			say = "위험은 내가 감수할게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			side = 2,
 			actor = 9712010,
 			dir = 1,
-			say = "……我明白了。虽然我并非战斗型，不过会尽可能为你们提供支援的。",
+			say = "...알겠어요. 전 비록 전투형은 아니지만 최대한 지원해 드리겠습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "那么后方就交给你了，女灶神小姐。",
+			say = "그럼 후방은 당신에게 맡길게, 베스탈 양.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,8 +608,8 @@ return {
 			nameColor = "#ffa500",
 			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "{namecode:435}姐姐，让我跟你一起去吧！",
+			actorName = "U-556·META？",
+			say = "비스마르크 언니, 나도 같이 갈게!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -635,8 +635,8 @@ return {
 			nameColor = "#ffa500",
 			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "这一次我绝对不会离开你了！",
+			actorName = "U-556·META？",
+			say = "이번엔 절대 언니를 떠나지 않을 거야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……好，我们出发！",
+			say = "…좋아, 그럼 출발하자!",
 			painting = {
 				alpha = 0.3,
 				time = 1

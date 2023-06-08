@@ -19935,7 +19935,7 @@ _G.pg.base.item_data_statistics[30522] = {
 
 _G.pg.base.item_data_statistics[30523] = {
 	display = "사용 시 「사쿠라 엠파이어 유니크」 테마 장비스킨 중 1가지 선택하여 획득 가능",
-	name = "지향형 장비 스킨 상자(사쿠라 엠파이어 유니크)",
+	name = "지향형 장비 스킨 상자(사쿠라 엠파이어)",
 	max_num = 0,
 	type = 13,
 	time_limit = 0,

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_7",
 			stopbgm = true,
-			say = "？？？·米德加尔特之塔-周边海域",
+			say = "???·미드가르드 탑-주변 해역",
 			bgmDelay = 2,
 			bgm = "battle-thedevilXV-control",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "{namecode:435}阁下，敌人退去了。",
+			say = "비스마르크 각하, 적이 도망쳤어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "您得到想要的结果了么？",
+			say = "원하는 결과는 얻었어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "很遗憾，我的意图被察觉了。",
+			say = "아쉽지만, 내 의도를 눈치챈 것 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不过也不能说一无所获。",
+			say = "그렇다고 아무 것도 얻지 못한 건 아니야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我认为，这些敌人跟塞壬有着本质上的区别。",
+			say = "이번 적은 세이렌과 근본적으로 달라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "或许只是因为我们认知里的敌人大多是塞壬，所以它们才会在我们眼中呈现出那种轮廓。",
+			say = "어쩌면 우리가 알고 있는 적은 대부분 세이렌이기 때문에 우리 눈에 그들이 그렇게 보이는 걸지도 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "无法看清细节，或许是因为它们的存在已经超越了我们的认知范畴。",
+			say = "우리가 그들을 볼 수 없는 것은 그들의 존재가 우리의 인지 범위를 초월했기 때문일 수도 있다는 소리지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也或许是在我们面前的这些敌人，只是某种存在的不准确投影。",
+			say = "그것도 아니라면 이 적들은 단순히 어떤 존재의 불확실한 투영일지도?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "……不论是哪一种情况，对于我们来说都太过于危险了。",
+			say = "...어느 쪽이든 우리에겐 너무 위험해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "投影……？你之前好像也提到了关于投影的事吧。",
+			say = "투영…? 전에도 이에 대해 언급을 한 적 있는 것 같은데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "没错，之前的那个不成熟的想法，现在已经基本成型了。",
+			say = "맞아. 이전에 생각했던 가설이 지금은 어느 정도 구체화되었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许，我们正处于一个巨大的“沙漏”里——",
+			say = "아마, 우린 지금 거대한 '모래시계' 안에 있는 것 같아——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "有点超乎常理…………但是又符合我对于塞壬装置的想象。",
+			say = "비정상적이긴하지만… 세이렌 장치에 대한 내 상상과도 맞아떨어져.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就像镜面海域一样，它们就是喜欢这样将整片空间藏起来，让人无法洞悉全貌。",
+			say = "거울 해역처럼, 전모를 확인할 수 없도록 공간 전체를 숨기는 걸 좋아하는 거지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那，区域的变色意味着什么呢？",
+			say = "그럼, 구역의 색이 바뀌는 건 뭘 의미하는 건데?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这一点，我已经在刚刚的战斗中确认过了。",
+			say = "그건, 조금 전 전투에서 이미 확인했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "基本可以认定，变色代表着污染，或者说META化侵蚀。",
+			say = "기본적으로 색이 변하는 건 오염 또는 META화 침식을 의미한다고 볼 수 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种污染，源自{namecode:464}在噩梦中的第一次启动，并随着我们在米德加尔特之塔中的穿梭不断扩散。",
+			say = "이 오염은 울리히의 악몽 속 첫 작동에서 비롯되었고 미드가르드 탑을 오가면서 계속 퍼지게 된 거지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "当海域中的污染到达一定程度后，那些未知敌人就会出现。",
+			say = "해역의 오염이 일정 수준에 도달하면 수수께끼의 적들이 나타나게 되는 거고.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，所以塞壬才会与那些未知敌人战斗！那些未知敌人对于这里来说也是入侵者！",
+			say = "아, 그래서 세이렌이 그들과 싸우고 있었던 거구나! 수수께끼의 적 역시 이곳의 침입자라고 볼 수 있을 테니까 말이야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "这样的话……那个量产型赫米忒比起我们更优先攻击米德加尔特之塔也能解释了。",
+			say = "그렇다면… 그 양산형 허밋이 우리보다 먼저 미드가르드 탑을 공격한 것도 설명이 되네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "它想要摧毁这个污染扩散的管道。",
+			say = "오염을 확산시키는 파이프라인을 파괴하려는 거였어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等……如果这里真的是仲裁机关的主机，那岂不是说明，有一个未知的敌人正在对仲裁机关的主机发动攻击？！",
+			say = "잠깐… 이곳이 정말 중재 기관의 본체가 맞다면, 수수께끼의 적이 중재 기관의 본체를 향해 공격을 가하고 있다는 뜻이야!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "没错，为此还利用了我们。",
+			say = "맞아, 그걸 위해 우릴 이용하기도 한 거고.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们一开始对于这里是陷阱的判断是正确的，但，这里不是仲裁机关的陷阱。",
+			say = "이곳이 함정이라는 우리의 첫 판단이 맞았어. 하지만, 중재 기관의 함정은 아니었던 거지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "——仲裁机关本身也是目标。",
+			say = "중재 기관 자체도 목표 중 하나야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这太惊人了……那，那个未知的的META呢？",
+			say = "이건 정말 놀라운데… 그럼, 그 수수께끼 META는?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老实说我不清楚。META只是一个性质，并不是一个阵营。",
+			say = "솔직히 잘 모르겠어. META는 성질일 뿐 진영이 아니야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "同为META，其行动目标可能千差万别彼此冲突……",
+			say = "같은 META라도, 목표가 천차만별인데다 서로 충돌할 수도 있는 법이니까….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不过既然能被我们追踪到，不是幕后黑手的可能性就很高。",
+			say = "하지만 우리가 추적할 수 있는 걸로 보아, 아무래도 배후가 아닐 가능성이 높아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许是和我们一样被引诱来的，或许是来阻止幕后黑手的……",
+			say = "우리처럼 유인된 것일 수도 있고, 배후를 막으려는 것일 수도 있고….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "等等，{namecode:435}阁下……噩梦最开始是从我们的浮岛要塞开始的，也就是说……",
+			say = "잠깐, 비스마르크 각하… 악몽의 시작은 우리의 부유섬 요새였어, 그렇다는 건…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "这个有能力对仲裁机关发动攻击的未知敌人，正隐藏在我们的世界？！",
+			say = "중재 기관을 공격할만한 힘을 가진 수수께끼의 적이 우리 세계에 숨어 있다는 건가!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恐怕如此……至少是能对我们的世界产生足够大的影响。",
+			say = "그런 것 같아…. 적어도 우리 세계에 충분히 큰 영향을 미칠 수 있는 존재지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我有种非常不好的感觉……我觉得我们应该争分夺秒地赶回去。",
+			say = "예감이 좋지 않아…. 아무래도 서둘러 돌아가는 게 좋겠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你的意思是？",
+			say = "...무슨 뜻이야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "………………那边还有{namecode:428}，紧急情况下她可以获得铁血舰队的指挥权。",
+			say = "…그쪽엔 유사시 메탈 블러드 함대의 지휘를 맡을 수 있는 오이겐도 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -725,7 +725,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我们确实需要尽快回去。",
+			say = "…물론 가능한 한 빨리 돌아가야겠지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -743,7 +743,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "可是{namecode:435}大人，按照您的说法，继续启动米德加尔特之塔会导致污染的进一步扩散。",
+			say = "하지만 비스마르크 님. 당신의 말대로라면, 미드가르드 탑을 계속 작동하는 건 오염을 더 확산시키게 됩니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -761,7 +761,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "我们还要继续使用它么？",
+			say = "계속 그걸 사용하는 건가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,7 +778,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不能再启动米德加尔特之塔了。",
+			say = "미드가르드 탑은 더 이상 작동할 수 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,7 +796,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不论设计这一切的是谁，对方明显在利用我们启动米德加尔特之塔的行为稳步推进计划。",
+			say = "이 모든 것의 설계자가 누군진 모르겠지만, 우리가 미드가르드 탑을 작동하는 걸 이용해서 자신의 계획을 이루려는 건 확실해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -813,95 +813,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果整片海域都变为“红区”，会发生什么实在难以预料。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_bsmre_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 405050,
-			say = "但是，我们应该保持移动。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 405050,
-			side = 2,
-			bgName = "bg_bsmre_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "一路上，米德加尔特之塔只能让我们向一个方向前进，让我们产生了这里只有一条路的错觉。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_bsmre_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 405050,
-			say = "但是……我刚刚在战斗中的时候让革律翁探查了一下。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 405050,
-			side = 2,
-			bgName = "bg_bsmre_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "在这里没有监测到那个META留下的痕迹。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_bsmre_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 405050,
-			say = "也就是说那个未知的META没有跟我们走同一条道路。",
+			say = "만약 해역 전체가 '레드 존'으로 변한다면, 어떻게 될지 알 수 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -919,7 +831,95 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "将这条路找出来，就是我们接下来要做的事。",
+			say = "하지만 우린 계속 움직여야 해.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 405050,
+			side = 2,
+			bgName = "bg_bsmre_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "지금까지 미드가르드 탑이 우릴 한 방향으로만 전송해서 이곳에 길이 하나밖에 없다는 착각을 불러일으켰지만.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_bsmre_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 405050,
+			say = "…아까 전투 중에 게리온을 시켜 조사한 결과,",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 405050,
+			side = 2,
+			bgName = "bg_bsmre_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "이곳은 META가 남긴 흔적이 감지되지 않았어.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_bsmre_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 405050,
+			say = "수수께끼의 META는 우리와 같은 길을 통해 오지 않았다는 뜻이지.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_bsmre_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 405050,
+			say = "그 길을 찾는 게 우리가  해야 할 일이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -937,7 +937,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "可是，海域里只有一个改不了坐标的米德加尔特之塔呀……",
+			say = "그런데 이곳엔 좌표를 바꿀 수 없는 미드가르드 탑 하나뿐이잖아요….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -954,7 +954,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许……另一条路的入口在控制室中。",
+			say = "어쩌면... 다른 길의 입구는 관제실에 있을지도 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -968,7 +968,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_7",
-			say = "{namecode:435}回忆起了在{namecode:464}的噩梦中看到的迷雾，以及迷雾散开时转瞬即逝的光芒。",
+			say = "비스마르크는 울리히의 악몽에서 보았던 안개, 그리고 안개가 걷히면서 순식간에 스쳐지나갔던 빛을 떠올렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -982,7 +982,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "我始终觉得有一个奇怪的点。",
+			say = "계속 이상하다고 생각했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -999,42 +999,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噩梦都是无形的，为什么只有控制室里的那个拥有具体的影像，可以反复对每一个看到的人播放？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_bsmre_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 405050,
-			say = "只有那里的影像，给我有不一样的感觉……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 405050,
-			side = 2,
-			bgName = "bg_bsmre_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "也许，就和这片空间展现出的种种类似投影的奇妙性质一样。",
+			say = "악몽은 무형인데, 왜 관제실의 그 영상은 모든 함선에게 똑같이 보이는 걸까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1052,7 +1017,42 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "那个影像本身，也是某种通道的投影……",
+			say = "관제실의 그 영상만 뭔가 다른 느낌이야….",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 405050,
+			side = 2,
+			bgName = "bg_bsmre_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "어쩌면 이 공간에서 보여지는 여러 가지 투영과 같은 특별한 성질을 가지고 있을지도 몰라.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_bsmre_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 405050,
+			say = "그 영상 자체도, 어떤 통로의 투영인 거지….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1070,7 +1070,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "我们再去调查一下吧。",
+			say = "다시 한번 가서 조사해보자.",
 			painting = {
 				alpha = 0.3,
 				time = 1

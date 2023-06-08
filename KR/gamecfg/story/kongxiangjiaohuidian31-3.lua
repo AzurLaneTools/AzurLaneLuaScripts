@@ -10,7 +10,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			bgm = "story-bismark-determination",
-			say = "轰————————————！",
+			say = "꽝—————!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "아비터·허밋·IX？",
 			dir = 1,
-			say = ">目标强度超出预期，正在更改为预设方案F。",
+			say = ">목표물이 예상보다 강하다. 계획 F로 변경.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,9 +76,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "아비터·허밋·IX？",
 			dir = 1,
-			say = ">机关系统IX=XV连协支援接入-「迪贝路引擎」，输入功率5%。",
+			say = ">기관 시스템 IX=XV 연계 지원 접속 - '디벨로 엔진', 출력 5% 입력.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,9 +92,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "아비터·허밋·IX？",
 			dir = 1,
-			say = ">调整为空间机动模式。",
+			say = ">공간 기동 모드로 조정한다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 401990,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "居……居然还能变强啊。",
+			say = "지금보다 더… 강해질 수 있다니.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			dir = 1,
-			say = "不对，管理机更改为飞行模式了。",
+			say = "아니, 관리기가 비행 모드로 변경됐어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "糟糕，敌人想要逃跑……目标是那座倒悬在天上的城市么？！",
+			say = "이런, 적이 도망치려는 것 같아…. 설마 하늘에 거꾸로 매달려 있는 저 도시인 건가?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			actor = 406030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "舰载机无法突破敌方火力网，来不及去拦截了！",
+			say = "함재기가 적의 화력망을 뚫을 수 없어서 요격할 기회가 없어요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "可恶，我这边也一样……！不想想办法的话，就要让它逃脱了！",
+			say = "젠장, 나도 마찬가지야…! 방법을 생각해내지 않으면 도망가버리겠어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "……想逃么。",
+			say = ">…도망가려는 건가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "{namecode:416}，想做世界上第一个……飞上天的潜艇么？",
+			say = "U-556, 세계 최초로… 하늘을 나는 잠수함이 되고 싶지 않아?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,8 +224,8 @@ return {
 			nameColor = "#ffa500",
 			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "欸……？！想！",
+			actorName = "U-556·META？",
+			say = "에…?! 하고 싶어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "上浮来我身边。",
+			say = "내 옆으로 올라와.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "革律翁，解除安全协议Nr.5。",
+			say = "게리온, 보안 프로토콜 Nr.5 해제.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "尽情飞吧————",
+			say = "마음껏 날아봐———",
 			painting = {
 				alpha = 0.3,
 				time = 1

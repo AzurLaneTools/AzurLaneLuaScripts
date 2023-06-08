@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			stopbgm = true,
-			say = "深红的天空之下是黑色的海面。",
+			say = "검붉은 하늘 아래 검은 바다.",
 			bgmDelay = 2,
 			bgm = "theme-bismark-reborn",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "仍在燃烧的残骸互相碰撞、坍塌。",
+			say = "여전히 불타고 있던 잔해들이 서로 부딪치며 무너진다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这里是………",
+			say = "여긴…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "啊，我回想起来了……",
+			say = "아, 생각났다…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "这里是我的狩猎场，也是我的坟墓……",
+			say = "이곳은 나의 사냥터이자 무덤…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "轰————————————！",
+			say = "쾅——————!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -141,7 +141,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "炮火将残骸再次撕碎，化作灰烬被海风吹散，不见踪迹。",
+			say = "포격은 잔해를 다시 한번 갈기갈기 찢었고, 잿더미로 변해 바닷바람에 흔적도 없이 사라진다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "这是她的第多少个日夜，这是她毁灭的第多少个敌人……已经不重要了。",
+			say = "이것이 며칠째인지, 그녀가 파괴한 몇 번째 적인지는… 더 이상 중요하지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "在漫无边际的海面上游荡，将目之所及的东西尽数毁灭，似乎就是她现在存在的唯一意义。",
+			say = "끝없이 펼쳐진 바다 위를 떠돌며 눈에 보이는 모든 것을 파괴하는 것이 지금 그녀가 존재하는 유일한 의미인 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "没错……这就是我存在的唯一意义。",
+			say = "맞아… 그게 내 존재의 유일한 의미야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我不需要思考也不需要感受，只需要接连不断地消灭敌人就好……",
+			say = "생각할 필요도, 느낄 필요도 없이 끊임없이 적을 제거하기만 하면 돼….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "{namecode:434}在水面上一刻不停地疾驰着，仿佛一旦停下，脚下冰冷的海水就要将她淹没。",
+			say = "그나이제나우는 한순간이라도 멈춰 서면 발밑의 차가운 바닷물이 그녀를 집어삼키기라도 하는 듯 한시도 쉬지 않고 질주했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "就在这时，她的耳边传来鱼雷报警。",
+			say = "바로 그때, 그녀의 귓가에 어뢰 경보가 울린다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "脚下漆黑的水中，有什么东西正在向她高速接近。",
+			say = "발밑의 칠흑 같이 어두운 물속에서 무언가가 그녀를 향해 빠른 속도로 접근하고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……呵，新的增援又上来了么。",
+			say = "…하, 새로운 지원군이 또 온 건가.",
 			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
@@ -294,7 +294,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "雕虫小技———什么？！",
+			say = "고작 이런 걸로——— 뭐지!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "{namecode:434}直接轰碎了袭来的鱼雷，可是紧接着一个身影从水中窜出，径直向着{namecode:434}的方向撞了过来。",
+			say = "그나이제나우는 날아오는 어뢰를 그대로 부숴버렸고, 곧이어 물속에서 한 형체가 튀어나와 그나이제나우를 곧장 들이받았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,8 +326,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			actorName = "{namecode:515}？",
-			say = "————————！",
+			actorName = "U-556·META？",
+			say = "———————!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你、你是，{namecode:416}？！",
+			say = "다, 당신은, U-556?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "意料之外的画面让{namecode:434}在袭击者面前失去了冷静。",
+			say = "예상치 못한 광경에 그나이제나우는 습격자를 앞에 두고 냉정함을 잃었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "她本能地进行回避，却依然向后踉跄出一段距离。",
+			say = "그녀는 본능적으로 피했지만 여전히 비틀거리며 뒤로 밀려났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你不是早就跟{namecode:435}大人一起…………",
+			say = "당신은 비스마르크 님과 진작에 함께…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "为什么会出现在这里？！又……为什么会变成这副模样？",
+			say = "왜 이곳에 있는 거죠?! 또… 왜 이런 모습으로…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这样岂不是……跟我一样……成为了被诅咒的人……",
+			say = "나처럼… 저주받은 함선이 되어버린 건가요….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,8 +442,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			actorName = "{namecode:515}？",
-			say = "得赶快……赶过去才行……",
+			actorName = "U-556·META？",
+			say = "어서… 서둘러야 해….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "{namecode:416}没有理会{namecode:434}的呼唤，袭击落空后的她此时已经再次钻入水中，向着远处的光芒驶去。",
+			say = "공격에 실패한 U-556은 그나이제나우의 부름에도 아랑곳하지 않고 다시 물속으로 뛰어 들어 먼 곳의 빛을 향해 달려갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "等等……这究竟是怎么回事…………",
+			say = "잠깐… 대체 어떻게 된 거지….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "那个光芒是…………米德加尔特之塔发出的光芒？",
+			say = "저 빛은… 미드가르드 탑에서 나오는 빛?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "对了……我想起来了…………",
+			say = "맞다… 생각났어….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我已经找回了应当守护的人……岂能沉浸在这些无聊的幻象中！",
+			say = "내가 지켜야 할 사람을 되찾았는데… 이런 지루한 환상에 젖어 있을 순 없어!",
 			soundeffect = "event:/ui/glassbroken",
 			painting = {
 				alpha = 0.3,
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "……没想到连我也会受到噩梦的影响。",
+			say = "...나까지 악몽에 빠질 줄이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "难道和之前从控制室中传出的冲击有关……",
+			say = "설마 앞서 통제실에서 흘러나온 충격과 관련이 있는 걸까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "对了，{namecode:464}，{namecode:96}和控制室……",
+			say = "맞아, 울리히, 즈이카쿠 그리고 관제실….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_2",
-			say = "{namecode:434}环顾四周，发现自己已经来到了米德加尔特之塔的外环结构上。",
+			say = "그나이제나우는 주위를 둘러보다가 자신이 이미 미드가르드 탑의 외곽 구조물에 도착했다는 사실을 깨달았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_2",
-			say = "而在不远处，有一个似乎仍然沉浸在噩梦中的身影。",
+			say = "그리고 멀지 않은 곳에서 아직도 악몽에 시달리고 있는 듯한 함선을 발견한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "…………希望爆炸的余波能让她清醒过来。",
+			say = "…폭발의 여파가 그녀를 깨울 수 있길.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "呵，之后还是随身带点演习弹好了……",
+			say = "후, 앞으론 연습탄을 좀 가지고 다녀야겠어….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_2",
-			say = "轰————————————！",
+			say = "쾅——————!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,

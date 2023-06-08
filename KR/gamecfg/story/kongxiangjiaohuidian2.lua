@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "海浪声阵阵。",
+			say = "간간히 파도 소리가 들린다.",
 			bgm = "bsm-6",
 			flashin = {
 				delay = 1,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "朦胧中，她睁开双眼。",
+			say = "몽롱한 가운데 그녀는 두 눈을 떴다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "……这是？",
+			say = "...이건?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "不远处，米德加尔特之塔正发出幽幽光芒。",
+			say = "멀지 않은 곳에서 미드가르드 탑이 은은한 빛을 발하고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "（米德加尔特之塔开始充能了？）",
+			say = "(미드가르드 탑이 충전되기 시작한 건가?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "举目四顾，周围没有其他人的踪影，整片海域望不到尽头。",
+			say = "고개를 들어 사방을 둘러보지만 주변엔 아무도 없고, 눈 앞의 바다는 끝이 보이지 않는다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "（之前的我应该是在浮岛要塞才对……）",
+			say = "(난 분명 부유섬 요새에 있었는데…)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "这里是梦境么，还是某种模拟场景……？",
+			say = "꿈인가, 아니면 어떤 시뮬레이션 장면인 걸까…?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "记忆一片混乱，连日的噩梦令她心神难安。",
+			say = "기억은 혼란스럽고, 연일 계속되는 악몽은 그녀의 마음을 불안하게 한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "现实和梦境的界限似乎正在消失。",
+			say = "현실과 꿈의 경계가 허물어지고 있는 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "可她俯下身子，海水没过她的指尖。",
+			say = "그녀가 몸을 굽혀 손을 뻗어 보았지만 바닷물은 그녀의 손끝을 넘지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "那种真实的触感，又是任何现有手段都无法模拟的冰冷现实。",
+			say = "그 리얼한 감촉은 어떤 방법으로도 흉내낼 수 없는 차가운 현실이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "荧光在她的眼中闪烁，像某种呼唤。",
+			say = "빛이 마치 어떤 부름처럼 그녀의 눈 앞에서 반짝이고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "而她选择回应那个呼唤。",
+			say = "그녀는 그 부름에 응답하기로 한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "短暂的眩晕之后，海面被米德加尔特之塔散发的光辉点亮了。",
+			say = "짧은 현기증 뒤, 바다는 미드가르드 탑에서 발산하는 빛에 의해 환하게 밝혀졌다.",
 			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "天空和水面仿佛倒转了一般，海面呈现出比星空更加梦幻的质感。",
+			say = "하늘과 수면이 마치 뒤바뀐 듯 바다는 별이 가득한 하늘보다 더 환상적인 생동감을 보여준다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "位置改变了……但，环境没有变……",
+			say = "위치는 바뀌었지만... 환경은 변하지 않았어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "果然是梦么……",
+			say = "역시 꿈인가….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "她的视线穿过海面中升起的那些造型奇特的方块。",
+			say = "그녀의 시선은 바다에서 솟아오르는 특이한 모양의 블록을 통과한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "此刻，米德加尔特之塔正以一种前所未见的状态运转着。",
+			say = "그 시각, 미드가르드 탑은 전례 없는 상태로 작동되고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "远处蓝色的光柱直冲天际，宛如指引迷途者的灯塔。",
+			say = "저 멀리 푸른 빛줄기가 마치 길 잃은 자를 인도하는 등대처럼 하늘 높이 솟아 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "她凝视着那束光，像是下定了某种决心一般，朝着它的方向驶去。",
+			say = "그녀는 마치 어떤 결심이라도 한 듯 빛을 응시하며 그것을 향해 달려갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

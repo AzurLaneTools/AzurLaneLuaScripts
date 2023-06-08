@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_battle_night",
 			stopbgm = true,
-			say = "大洋中的某处。",
+			say = "해역의 어딘가.",
 			bgmDelay = 2,
 			bgm = "theme-irisangel",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_battle_night",
-			say = "月光洒向海面，一个人影在月色中穿行。",
+			say = "달빛이 바다 위로 쏟아지고 한 그림자가 달빛 속을 누비고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_battle_night",
-			say = "忽然，她的速度慢了下来。",
+			say = "갑자기 그녀의 속도가 느려졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			actorName = "？？？",
 			bgName = "bg_battle_night",
 			nameColor = "#A9F548FF",
-			say = "你已经进入维希教廷领海，请表明来意。",
+			say = "이곳은 비시아 성좌의 영해입니다. 목적을 밝히세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "阿尔及利亚，别藏了。",
+			say = "알제리, 다 봤거든?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903020,
-			say = "什么啊，原来你早都发现我了。",
+			say = "뭐야, 진작부터 날 발견했던 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "是你身手生疏了。",
+			say = "네 기술이 부족한 탓이지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903020,
-			say = "哦？这么自信的话要不要来比比看？",
+			say = "오호라? 그렇게 자신 있으면 한번 겨뤄보는 건 어때?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "别——我认输。",
+			say = "앗—— 항복할게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903020,
-			say = "……嗯？等等、你受伤了？！",
+			say = "…에? 잠깐, 다쳤네?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小伤而已，回基地休整一下就好。",
+			say = "그냥 작은 상처야. 기지로 돌아가서 좀 쉬면 돼.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "教廷的情况还好么？",
+			say = "성좌의 상황은 어때?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903020,
-			say = "该怎么说呢……暗流涌动？",
+			say = "뭐랄까… 암류가 솟구쳐 오르고 있다고나 해야 할까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "那我回来的还不算晚……",
+			say = "그럼 늦지 않게 돌아온 것 같네….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "克莱蒙梭大人在你来之前有什么交代么？",
+			say = "네가 오기 전에 클레망소 님께서 무슨 말 없었어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倒是有。",
+			say = "있었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903020,
-			say = "不过我们还是先回基地吧，得先处理一下你的伤才行。",
+			say = "일단 기지로 돌아가서, 네 상처부터 치료하자.",
 			painting = {
 				alpha = 0.3,
 				time = 1

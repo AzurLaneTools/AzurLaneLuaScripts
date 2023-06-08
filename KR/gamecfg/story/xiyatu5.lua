@@ -199,7 +199,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "그렇다는 건 서프라이즈를 준비할 수 있는 사람이 있어야 한다는 거네요?",
+			say = "그렇다는 건 서프라이즈를 준비할 수 있는 사람이 있어야 한다는 거네?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

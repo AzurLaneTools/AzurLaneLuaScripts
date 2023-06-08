@@ -3799,7 +3799,7 @@ pg.backyard_theme_template = {
 	},
 	[100] = {
 		Cfg_1 = 5,
-		name = "무인도 모험",
+		name = "쥬쥬 무인도",
 		hot = 1,
 		is_view = 1,
 		id = 100,

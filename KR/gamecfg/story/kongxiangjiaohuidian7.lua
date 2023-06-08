@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "战斗早已结束，海面上遍布着塞壬IV型的残骸。",
+			say = "전투는 오래 전에 끝났고, 바다에는 세이렌 IV형의 잔해가 널려 있다.",
 			bgm = "theme-bismark-reborn",
 			flashin = {
 				delay = 1,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_2",
 			hidePaintObj = true,
-			say = "在{namecode:435}展现出全新的力量后，原本危险的战斗就变为了单方面的碾压。",
+			say = "비스마르크가 새로운 힘을 보여주자 위험했던 전투는 일방적인 싸움으로 변했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_2",
 			hidePaintObj = true,
-			say = "本来应该是一场辉煌的胜利，不过众人的心已经全然不在这上面了。",
+			say = "본래 눈부신 승리가 됐어야할 상황에서 모두의 마음은 오히려 반대였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "刚刚究竟发生了什么事……",
+			say = "방금 대체 무슨 일이 일어났던 거지….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "为什么{namecode:416}会突然……陷入那种状态？",
+			say = "왜 U-556이 갑자기… 그런 모습으로 변해 버린 걸까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "{namecode:416}原本有伤……",
+			say = "U-556은 원래부터 부상을 입은 상태였어….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "正如各位所知，在与皇家的遭遇战后，沉入水下的我被{namecode:416}救出了重围。",
+			say = "모두 알다시피 U-556가 포위망을 뚫고 로열과의 전투 후 물속으로 가라앉았던 날 구조했지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在这期间，她受到了水下塞壬舰队的追击，并在近距离接受了元魔方的影响。",
+			say = "그 기간 동안, 수중 세이렌 함대의 추격을 받았고 가까운 곳에서 메타 큐브의 치료를 받았어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "虽然没有我那么严重，不过也是和我一起休养至今的。",
+			say = "나만큼 심각한 건 아니었지만 나와 함께 지금까지 요양 중이었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………也许她刚才发生的异常事件，会与此有关。",
+			say = "...어쩌면 방금 그녀에게 일어난 일이 그것과 관련이 있을지도….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "…………难道是旧伤复发？",
+			say = "…오랜 상처가 재발한 걸까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不好说……明明临行前所有检查都显示无异常……她又一再坚持我才……",
+			say = "글쎄… 분명 출발 전 모든 검사에서 이상이 없다고 나왔는데… U-556가 계속 고집하는 바람에 내가….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "……她会发生异常是因为使用了新型舰装么？",
+			say = "…설마 새로운 의장을 사용해서 그런 건 아니겠죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不，并没有那样的计划，她只是单纯的养伤而已。",
+			say = "아니야. 그녀는 단순히 상처를 치료했을 뿐, 새로운 의장을 장착하진 않았어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "或许正因为如此，如果换上之后也许就不会有问题了……",
+			say = "어쩌면 그런 이유에서일지도 모르지. 만약 새로운 의장을 장착했다면 문제가 없었을지도 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等……",
+			say = "잠깐...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_2",
 			hidePaintObj = true,
-			say = "{namecode:435}的脑海中又回想起{namecode:416}的向她伸出的手。",
+			say = "비스마르크는 U-556이 그녀를 향해 내밀었던 손을 떠올렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_2",
 			hidePaintObj = true,
-			say = "黑色的气息逐渐吞没她的脸庞，那种迸发而出的冲击却令{namecode:435}感到似曾相识。",
+			say = "검은 기운이 서서히 그녀의 얼굴을 집어삼킨, 그 갑작스러운 충격은 비스마르크로 하여금 옛 기억을 떠올리게 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（…………刚刚的气息，和强行分离元魔方时遭受的冲击感觉类似……）",
+			say = "(…아까 그 기운, 강제로 큐브를 분리했을 때의 충격과 비슷해…)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,42 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（难道……海域中存在某个以元魔方为核心的装置？）",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_bsmre_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 405050,
-			say = "（在与塞壬的激战中没有第一时间察觉到，而引起了{namecode:416}的旧伤复发……）",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 405050,
-			side = 2,
-			bgName = "bg_bsmre_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "（如果是这样的话……依靠革律翁，接下来的战斗多少能提前应对一下。）",
+			say = "(혹시… 이곳에 메타 큐브를 핵심으로 하는 어떤 장치가 존재하는 건가.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（然后只要把{namecode:416}尽快找回来，还能处理……！）",
+			say = "(세이렌과의 격전 중에 미처 눈치채지 못한 U-556의 오래된 부상을 재발시킨 거라면…)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +372,42 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:491}，侦察结果如何，找到她了么？",
+			say = "(그럼… 게리온에 의지하면 다음 전투는 미리 대비할 수 있을 거야.)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_bsmre_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 405050,
+			say = "(U-556만 최대한 빨리 찾을 수 있다면, 해결할 수 있어…!)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 405050,
+			side = 2,
+			bgName = "bg_bsmre_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "야드, 정찰 결과는 어때, 찾았어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "还没有……但，有了一些其他发现！",
+			say = "아직이요… 하지만, 다른 걸 발견했습니다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "海域中又出现了一些塞壬IV舰队，似乎正在追击什么目标！",
+			say = "바다에 또 다른 세이렌 IV 함대가 나타났고, 어떤 목표물을 쫓고 있는 것 같아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "方向呢？！",
+			say = "어느쪽이야?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "东北方向，向着米德加尔特之塔的位置笔直前进！",
+			say = "북동쪽입니다. 미드가르드 탑을 향해 곧장 직진하면 돼요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "好，我们也跟上。",
+			say = "자, 우리도 따라가자.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "调整航向，全速向着米德加尔特之塔前进！",
+			say = "항로를 조정하고 전속력으로 미드가르드 탑을 향해 전진!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "在这片时间与地点均未知的海域内，明亮的米德加尔特之塔，成为了此地唯一的导航信标。",
+			say = "시간과 장소를 알 수 없는 해역, 밝은 미드가르드 탑은 이곳의 유일한 항법 비콘이 되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好漂亮……这里的水，就像银河一样闪亮！",
+			say = "예쁘다… 이곳의 물은 마치 은하수처럼 반짝반짝 빛이 나네!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那些巨型立方体也令人在意……",
+			say = "저 거대한 큐브들도 신경 쓰이는데….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，抱歉！现在不是看风景的时候！",
+			say = "앗, 미안! 지금은 풍경을 감상하고 있을 때가 아니지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我看看我们现在应该是…………咦？",
+			say = "어디 보자, 지금 우리는… 에?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们是跟着{namecode:464}阁下通过了米德加尔特之塔……没错吧？",
+			say = "울리히 각하를 따라 미드가르드 탑을 통과한 거…맞지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "没错。",
+			say = "맞습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那为什么……米德加尔特之塔会在我们的远方？！",
+			say = "그럼 왜… 미드가르드 탑이 저 멀리 있는 건데?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "铁血的人工奇异点是这么设计的么？通过之后会把人传送到远方之类的……？",
+			say = "메탈 블러드의 인공 특이점은 이렇게 설계된 건가? 통과 후에 함선을 멀리 전송한다던가…?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "至少我在上次使用的时候距离装置并不远。",
+			say = "적어도 제가 지난번에 사용했을 때는 장치와 그리 멀지 않았어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这么说，难道是升级后新增的功能，扩大了传送范围之类的……",
+			say = "그렇다면 업그레이드 된 기능으로 전송 범위를 넓힌 건가….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "{namecode:96}，你注意到了么？",
+			say = "즈이카쿠, 눈치챘나요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "天上没有月亮，星空也和我们熟悉的不一样。",
+			say = "하늘에 달이 없어요. 우리가 알던 하늘이 아닌 것 같아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……真的！明明群星闪烁，却一个熟悉的星座都没看到……？！",
+			say = "...정말이네! 분명 별은 반짝이는데 익숙한 별자리 하나 안보이잖아…!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到你会注意到这种事！",
+			say = "네가 이런 걸 다 알아차리다니!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……以前有过一段时间，只有一个人的时候，会盯着发呆。",
+			say = "...예전에 혼자 있을 때 종종 멍하니 쳐다봤거든요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "所以，要小心。这里也许不只是某个世界的塞壬实验场，或者某个镜面海域这么简单。",
+			say = "그러니까 조심하세요. 이곳은 단순히 어떤 세계의 세이렌 실험장, 또는 어떤 거울 해역이 아닐지도 모릅니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "听起来就很危险……{namecode:464}阁下深夜来这里做什么？",
+			say = "듣기만 해도 위험한데… 울리히 각하께선 밤늦게 여긴 무슨 일로 오신 거지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "等找到她之后，你可以直接问她。",
+			say = "그녀를 찾은 후에, 직접 물어봅시다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "走吧。",
+			say = "가요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，我们立刻去追上{namecode:464}阁下问个清楚！",
+			say = "응, 지금 당장 울리히 각하를 뒤쫓아가서 확실하게 물어봐야겠어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……对，要我用侦察机首先侦察一下她的位置对吧……",
+			say = "아차. 내가 정찰기로 그녀의 위치부터 먼저 확인해야 하는구나….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈，请稍等片刻哦！",
+			say = "아하하, 잠깐만!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "？？？·米德加尔特之塔周边海域",
+			say = "???·미드가르드 탑 주변 해역",
 			bgm = "story-midgard",
 			typewriter = {
 				speed = 0.05,
@@ -501,7 +501,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "利用侦察机，在空旷的海域中寻找到{namecode:464}的位置并没有花费很长时间。",
+			say = "정찰기를 이용해 넓은 바다에서 울리히의 위치를 찾는 데는 오랜 시간이 걸리지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "不过——",
+			say = "하지만——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "…………就快要，到了。",
+			say = "…곧, 도착이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:464}阁下，终于找到你了！",
+			say = "울리히 각하, 드디어 만났네요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你还好么！",
+			say = "괜찮으십니까!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………{namecode:464}阁下？",
+			say = "………울리히 각하?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "{namecode:96}仔细端详着眼前的{namecode:463}。",
+			say = "즈이카쿠는 눈앞의 울리히 폰 후텐을 자세히 바라보았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "她眼神涣散，口中喃喃自语，但是思想却好像已经游离到了这副躯体之外。",
+			say = "그녀는 마치 영혼이 이미 몸 밖을 빠져나간 듯 허망한 눈빛으로 중얼중얼 혼잣말을 늘어놓았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "清醒一点，{namecode:464}阁下！",
+			say = "정신 차리세요, 울리히 각하!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "{namecode:96}伸出手，试图拉住自顾自前进的{namecode:464}，不过被{namecode:434}·META阻止了。",
+			say = "즈이카쿠가 손을 내밀어 앞을 향하는 울리히를 붙잡으려다가 그만 그나이제나우·META에 의해 저지당한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "谨慎。她也许还深陷于噩梦之中，贸然打扰的话不知道会发生什么。",
+			say = "조심하세요. 아직 악몽에 빠져 있을지도 모릅니다. 섣불리 방해했다간 무슨 일이 일어날지도 몰라요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "深陷在噩梦中……？那现在岂不是就像梦游一样……",
+			say = "악몽에 빠졌다고…? 그럼 지금 몽유병 상태란 소리야…?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……梦游……等等，我想起来了！",
+			say = "흐음... 몽유병이라… 잠깐, 생각났다!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之前{namecode:91}前辈和{namecode:92}前辈也遭遇到过类似的情况！",
+			say = "전에 아카기 선배와 카가 선배가 비슷한 상황을 겪었던 적 있는 것 같아!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "什么时候，在哪里？",
+			say = "언제, 어디서요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -764,7 +764,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之前在进攻NA海域的中心区域的时候，{namecode:91}前辈的舰队进入了一片海雾中。",
+			say = "저번에 NA 해역의 중심부를 공격했을 때 아카기 선배의 함대가 바다 안개 속으로 들어갔어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之后海雾中的人都做了一个噩梦，{namecode:92}前辈还差点对我们开火！",
+			say = "그들 모두가 악몽을 꿨고, 아카기 선배는 하마터면 우릴 공격할 뻔 했거든!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,7 +798,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……还好你刚刚阻止我了！",
+			say = "…조금 전 네가 날 제지해서 다행이야, 고마워!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -815,7 +815,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "果然会如此……不用客气。",
+			say = "역시… 천만에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -833,7 +833,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "之前事件的元凶是谁？",
+			say = "그럼 저번 사건의 주범은 누구였나요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -850,7 +850,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当时我们只在海雾中看到了一个模糊的身影，没有立刻分辨出是谁。",
+			say = "당시 안개 속에서 흐릿한 형체만 보았을 뿐 누군진 알아내지 못했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -867,7 +867,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过在事后复盘时，结合资料，我们认为当日发动噩梦攻击的人是塞壬的仲裁机关，仲裁者·赫米忒·IX。",
+			say = "하지만 그 일이 일어난 뒤에 자료를 종합해본 결과, 그날 악몽 공격을 발동한 건 세이렌의 중재 기관, 아비터·허밋·IX인 것 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -885,7 +885,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "…………哼，仲裁机关。",
+			say = "…흐응, 중재 기관이라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -902,7 +902,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你知道赫米忒的事么？",
+			say = "허밋을 알고 있어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -919,7 +919,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不知道……但是之前和其他仲裁机关打过交道。",
+			say = "모르지만… 전에 다른 중재 기관과 접촉한 적이 있습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -937,7 +937,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "它们还欠着我许多呢……",
+			say = "그들은 저한테 많은 신세까지 졌는 걸요….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -955,7 +955,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "你们当时是怎么唤醒陷入噩梦中的人的？",
+			say = "그럼 그때 악몽에 빠진 함선을 어떻게 깨웠나요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -972,7 +972,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔…………对其发动攻击！当然，是非致命性的！",
+			say = "흐음… 공격을 가했지! 물론, 치명적이지 않은 공격으로 말이야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -989,7 +989,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后保险起见，最好在清醒之后脱离会产生噩梦的环境，如果能驱离导致噩梦的元凶就更好了。",
+			say = "그리고 깨어난 뒤에는 안전을 위해 악몽을 일으킨 환경에서 한시라도 빨리 벗어나는 게 좋아. 만약 악몽을 일으킨 주범을 쫓아낼 수 있다면 더더욱 좋고.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1007,7 +1007,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "……驱离？不，应该是消灭。",
+			say = "…쫓아낸다구요? 아니, 제거해야죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1024,7 +1024,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸…………有自信是好事，但我们这次的任务，归根结底还是救人哦！",
+			say = "에… 자신 있는 건 좋지만, 이번 임무의 최종 목표는 결국 구조라고!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1042,7 +1042,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "……好吧。",
+			say = "…알겠어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1059,7 +1059,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你带非致命性武器了么？",
+			say = "치명적이지 않은 무기를 가지고 있어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1077,7 +1077,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "我不带那些东西。",
+			say = "저한테 그런 건 없습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1094,7 +1094,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………行，那就由我来唤醒{namecode:464}阁下————欸，人呢？！",
+			say = "……그래, 그럼 울리히 각하를 깨우는 건 나에게 맡겨—— 에, 어디간 거지!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1116,7 +1116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "刚刚在你努力回忆的时候，她已经进入米德加尔特之塔内部了。",
+			say = "방금 당신이 열심히 회상하고 있을 때, 그녀는 이미 미드가르드 탑 내부로 들어갔어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1133,7 +1133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好快！我们快追上去！",
+			say = "빠르네! 우리도 어서 쫓아가자!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1148,7 +1148,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "？？？·米德加尔特之塔内部",
+			say = "???·미드가르드 탑 내부",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1176,7 +1176,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "{namecode:464}在如同迷宫般的内部结构中快速穿行着，光是跟上她，就让{namecode:96}和{namecode:434}·META费劲了力气。",
+			say = "울리히는 미로 같은 내부 구조를 빠르게 헤쳐나갔다. 즈이카쿠와 그나이제나우·META는 그녀를 따라가는 것만으로도 힘이 들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1189,7 +1189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:464}阁下……是在梦游吧？为什么能够行动得如此迅速！",
+			say = "울리히 각하… 몽유병 상태인 거 맞아? 어떻게 저렇게 빨리 움직일 수 있지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1206,7 +1206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且这里是怎么回事啊！结构和进来之前完全不一样了吧！",
+			say = "그리고 여긴 대체 뭐야!? 들어오기 전과 구조가 완전히 달라졌잖아!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1223,7 +1223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………人工奇异点连通两个世界，两个世界的米德加尔特之塔从概念上来讲不是同一个么？！",
+			say = "...인공 특이점으로 연결된 두 세계의 미드가르드 탑은 개념적으로 동일한 거 아니였어!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1241,7 +1241,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "至少我也是这么听到的……但现在，内部结构改变了。",
+			say = "저도 그렇게 들었는데… 지금은, 내부 구조가 완전히 달라졌네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1259,7 +1259,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "…………能让噩梦缠身的{namecode:464}在陌生的环境中穿梭自如。",
+			say = "……악몽에 빠진 울리히가 낯선 환경에서 이렇게 빠른 속도로 전진할 수 있다니.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1276,7 +1276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "也许那个幕后黑手就潜伏在我们附近。",
+			say = "어쩌면 그 배후가 우리 근처에 숨어 있을지도 모릅니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1294,7 +1294,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "看来必须得尽快让{namecode:464}清醒过来了，哪怕让她受一点伤……",
+			say = "울리히가 조금 다치더라도 최대한 빨리 정신을 차리게 해야할 것 같습니다…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1311,7 +1311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，{namecode:464}阁下在前面的区域停下来了！",
+			say = "잠깐, 울리히 각하께서 갑자기 멈추셨어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1328,7 +1328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个是…………？",
+			say = "저건…?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1362,7 +1362,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg1",
 			hidePaintObj = true,
-			say = "二人跟随{namecode:464}来到了一个大厅内，大厅之中有一个半球形悬空投影屏。",
+			say = "두 사람은 울리히를 따라 반구형 프로젝터 스크린이 있는 홀 안으로 들어섰다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1373,7 +1373,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg1",
 			hidePaintObj = true,
-			say = "{namecode:464}怔怔地站在屏幕前，明明陷入了噩梦之中，却又像看到了画面中的内容一样。",
+			say = "악몽에 빠진 울리히는 마치 스크린 속 내용을 보듯 멍하니 스크린 앞에 서 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1381,11 +1381,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………{namecode:441}。",
+			say = "...프리드리히.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1393,11 +1393,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………？！{namecode:434}，你看到了么，屏幕里的内容是铁血的{namecode:440}？！",
+			say = "…!? 그나이제나우, 봤어? 스크린 속 저건 메탈 블러드의 프리드리히 데어 그로세야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1410,11 +1410,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那是什么……她受伤了么？！",
+			say = "그런데 저건… 프리드리히가 다쳤잖아?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1422,11 +1422,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:477}",
+			actorName = "그나이제나우·META",
 			bgName = "bg_bsmre_cg1",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "她现在应该与余烬一同行动才是，这个影像究竟是……",
+			say = "그녀는 지금 잔불과 함께 있어야 맞아요. 이 영상은 대체….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1434,11 +1434,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "………………我…………来了。",
+			say = "………나…… 왔어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1446,11 +1446,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "………………我…………来晚了。",
+			say = "………내가…… 너무 늦었지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1458,11 +1458,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………可恶。",
+			say = "……젠장.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1498,7 +1498,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg2",
 			hidePaintObj = true,
-			say = "{namecode:464}猛然间用手锤向半空中的屏幕。",
+			say = "울리히는 갑자기 허공에 떠있는 스크린을 주먹으로 내리쳤다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1509,7 +1509,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg2",
 			hidePaintObj = true,
-			say = "随即，一道黑色的冲击自球体中心出现。",
+			say = "곧이어 홀의 중앙에서 강렬한 충격이 나타났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1517,11 +1517,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "冷静！{namecode:464}阁下……！什么…………！",
+			say = "진정하세요! 울리히 각하…! 뭐지…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1529,11 +1529,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:477}",
+			actorName = "그나이제나우·META",
 			bgName = "bg_bsmre_cg2",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "{namecode:96}，躲到我的身后来……！",
+			say = "즈이카쿠, 제 뒤로 숨으세요…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1560,7 +1560,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg2",
 			hidePaintObj = true,
-			say = "在击昏了{namecode:96}与{namecode:434}·META后，冲击离开了米德加尔特之塔，向着远方的海域扩散而去。",
+			say = "그것은 즈이카쿠와 그나이제나우·META를 기절시킨 뒤, 미드가르드 탑을 떠나 먼 바다로 퍼져나갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

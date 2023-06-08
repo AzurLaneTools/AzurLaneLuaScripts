@@ -6,7 +6,7 @@ return {
 	fadeType = 2,
 	scripts = {
 		{
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			side = 2,
 			bgName = "bg_bsmre_cg3",
 			nameColor = "#A9F548FF",
@@ -14,7 +14,7 @@ return {
 			bgm = "story-midgard",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "{namecode:435}姐姐小心，有敌人接近了！",
+			say = "비스마르크 언니, 조심해! 적이 접근하고 있어!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -34,7 +34,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg3",
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "쾅—————!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg3",
 			hidePaintObj = true,
-			say = "几乎与{namecode:416}的警告同时，一轮猛烈的炮火从远方袭来。",
+			say = "U-556의 경고와 거의 동시에, 먼 곳에서 맹렬한 포격이 쏟아졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg3",
 			hidePaintObj = true,
-			say = "不过因为开火距离过远的原因，这轮炮击并没有对一行人造成实质性损伤。",
+			say = "하지만 발포 거리가 너무 멀어 그들에게 실질적인 피해는 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,11 +104,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:516}",
+			actorName = "레겐스부르크",
 			bgName = "bg_bsmre_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "威力不小……若是被直接命中的话，可不是开玩笑的。",
+			say = "위력이 만만치 않아…. 만약 명중했다면 웃을 일이 아니라고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,11 +116,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:516}",
+			actorName = "레겐스부르크",
 			bgName = "bg_bsmre_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "敌人从哪里来的？！",
+			say = "적은 어디서 온 거지?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,11 +128,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:491}",
+			actorName = "야드",
 			bgName = "bg_bsmre_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "天上什么都没有发现……{namecode:416}，敌人是来自水下么？",
+			say = "하늘에선 아무것도 발견하지 못했어요…. U-556, 물속에서 온 적인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,64 +140,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			bgName = "bg_bsmre_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对的对的！水下有超级超级多的塞壬量产型！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			dialogShake = {
-				speed = 0.08,
-				x = 15,
-				number = 2
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:416}",
-			bgName = "bg_bsmre_cg3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "不光是潜艇，还有一些其他型号也都藏在水里！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:491}",
-			bgName = "bg_bsmre_cg3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "…………敌方舰队已确认，正在源源不断浮出水面，然后从四面八方向我们袭来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:491}",
-			bgName = "bg_bsmre_cg3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "识别类型为，塞壬IV型……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:510}",
-			bgName = "bg_bsmre_cg3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "IV型？！就是之前{namecode:464}阁下在奇异点里遇到的那种特殊型号么？！",
+			say = "맞아, 맞아! 물속에 세이렌 양산형이 잔뜩 있어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,11 +157,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:510}",
+			actorName = "U-556",
 			bgName = "bg_bsmre_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "听说装备精良，作战能力极强，而且打掉指挥节点也没用……",
+			say = "잠수함뿐만 아니라 다른 모델도 모두 물속에 숨어 있어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,11 +169,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:510}",
+			actorName = "야드",
 			bgName = "bg_bsmre_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没想到会在这里遇到……而且有这么多？！",
+			say = "...적 함대 발견. 끝도 없이 수면 위로 떠오르고, 사방에서 우릴 향해 돌진하고 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,11 +181,64 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:510}",
+			actorName = "야드",
 			bgName = "bg_bsmre_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这可不妙，非常相当不妙……",
+			say = "확인 결과, 세이렌 IV형이에요….",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "오토 폰 알벤슬레벤",
+			bgName = "bg_bsmre_cg3",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "IV형?! 전에 울리히 각하가 특이점에서 만났던 그런 특이 모델인 건가?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			side = 2,
+			actorName = "오토 폰 알벤슬레벤",
+			bgName = "bg_bsmre_cg3",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "뛰어난 장비와 전투력에, 지휘 유닛을 쓰러트려도 소용없다고 했었는데….",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "오토 폰 알벤슬레벤",
+			bgName = "bg_bsmre_cg3",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "여기서 만날 줄이야… 게다가 이렇게나 많이?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "오토 폰 알벤슬레벤",
+			bgName = "bg_bsmre_cg3",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "상황이 좋지 않아, 매우 좋지 않아….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg3",
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "쾅—————!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg3",
 			hidePaintObj = true,
-			actorName = "{namecode:516}",
-			say = "第二轮攻击来了，散开！",
+			actorName = "레겐스부르크",
+			say = "2차 공격이다, 모두 흩어져!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:510}",
+			actorName = "오토 폰 알벤슬레벤",
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -353,7 +353,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:491}",
+			actorName = "야드",
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -365,11 +365,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:516}",
+			actorName = "레겐스부르크",
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "………………………………？",
+			say = "………………………………?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
-			say = "耳边的爆炸声此起彼伏，但意料之中的冲击没有到来。",
+			say = "귓가에 폭발음이 들렸지만 예상했던 충격은 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,11 +388,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "休想得逞……革律翁，防御姿态！",
+			say = "꿈도 꾸지 마…. 게리온, 방어 태세를 취해라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,11 +400,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "게리온",
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*猛烈的咆哮*██▌",
+			say = "▁▂▃▄▅▆▇███*맹렬한 포효*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
-			say = "塞壬IV型的特制炮轰击着巨龙的双翼，却无法对其产生任何损伤。",
+			say = "세이렌 IV형의 특수포가 거대한 용의 날개를 강타했지만 아무런 피해도 입히지 못했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,11 +440,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嚯嚯嚯，粉碎敌人吧，革律翁！",
+			say = "후후후, 적을 분쇄해버려, 게리온!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,11 +452,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:516}",
+			actorName = "레겐스부르크",
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「革律翁」……？{namecode:435}大人，这舰装究竟是……",
+			say = "'게리온'…? 비스마르크 님, 이 의장은 대체….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,11 +464,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不是只有你会为舰装取名哦。",
+			say = "너만 의장의 이름을 붙여주는 건 아니거든.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,11 +476,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:516}",
+			actorName = "레겐스부르크",
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不、不光是名字的问题…………您刚刚使用的舰装，跟我的雷吉纳有本质上的不同！",
+			say = "이, 이름뿐만이 아니라… 조금 전 사용하신 의장은 제 레지나와는 본질적으로 다른데요?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,11 +488,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好眼光，我也不是白白休养了这么久的。",
+			say = "안목이 좋네. 나도 오랜 시간 쉬고만 있던 건 아니라고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "쾅—————!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -554,7 +554,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
-			say = "察觉到异常的塞壬舰队发动了第三轮攻击。",
+			say = "이상을 눈치챈 세이렌 함대가 3차 공격을 감행한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
-			say = "不过密集的炮火依然被悬浮于半空中的巨龙所阻挡，无法抵达水面上的目标。",
+			say = "하지만 밀집된 포격은 여전히 공중에 떠 있는 거대한 용에 의해 차단되어 수면 위 목표물에 도달할 수 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg4",
 			hidePaintObj = true,
-			say = "此时此刻，原本应当被炮火覆盖为死亡地带的区域，竟在革律翁双翼的庇护下，变为了一处悠闲的烟花观景台。",
+			say = "이 순간 포격으로 뒤덮여야 할 지역이 게리온의 양 날개의 보호 아래 여유롭게 불꽃놀이를 즐길 수 있는 전망대로 변신했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "这还真是…………令人震惊。",
+			say = "정말… 충격적이네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "我从来没有见过这种舰装…………真是太壮观了。",
+			say = "이런 의장은 처음 봐요…. 정말 장관이네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,7 +631,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "何止壮观，简直，太酷了！！！！",
+			say = "어디 장관뿐이겠어!? 정말! 너무 멋지잖아!!!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，多谢夸奖。",
+			say = "후후, 칭찬 고마워.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			bgName = "bg_bsmre_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "原理解释起来有些复杂，你们可以将它理解成下一代铁血舰装的原型就好。",
+			say = "원리는 설명하기가 좀 복잡하니 차세대 메탈 블러드 의장의 원형이라고 이해하면 쉬울 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,7 +703,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为有许多尚未解决的技术障碍，所以目前还没有推广的计划。",
+			say = "아직 해결되지 않은 기술적 문제가 많아서 출시 계획은 없지만 말이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼，这才是{namecode:435}姐姐现在的真正实力！",
+			say = "후후후, 이게 바로 비스마르크 언니의 진짜 실력이지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,7 +738,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "过了这么久，终于可以向大家炫耀了！",
+			say = "이렇게 오랜 시간이 흐른 뒤에야 드디어 모두에게 자랑할 수 있게 되었네!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -756,7 +756,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "{namecode:416}！原来你早就知道了么？！",
+			say = "U-556! 넌, 알고 있었구나?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -784,7 +784,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "哼哼~当然啦~",
+			say = "홍홍~ 당연하지~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "只不过姐姐要我保密，身为海上骑士的我，当然要严格遵守秘密啦！",
+			say = "하지만 언니가 비밀로 해달랬거든. 바다의 기사로서 비밀은 당연히 지켜야 하는 법!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家也要对{namecode:435}姐姐的真正实力保密哦！",
+			say = "너희들도 비스마르크 언니의 진짜 실력은 비밀로 해줘야 해!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -846,7 +846,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拜托各位了。",
+			say = "모두들, 부탁할게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -864,7 +864,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "既然这是您本人要求的话……那是自然。",
+			say = "비스마르크 님의 부탁이라면… 당연하죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -882,7 +882,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "哼哼哼，接下来就是反击时刻！",
+			say = "홍홍홍, 그럼 다음은 반격의 순간!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -910,7 +910,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "{namecode:435}姐姐，让我们一同…………",
+			say = "비스마르크 언니, 우리 함께…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -925,7 +925,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_2",
 			hidePaintObj = true,
-			say = "欢呼着加速接近{namecode:435}的{namecode:416}突然动作慢了下来。",
+			say = "환호하며 비스마르크에게 다가가던 U-556의 움직임이 갑자기 느려졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -936,7 +936,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_2",
 			hidePaintObj = true,
-			say = "随之而来的是痛苦的呻吟。",
+			say = "뒤따라 들리는 건 고통의 신음소리였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -949,7 +949,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:416}？！发生什么事了？！",
+			say = "U-556?! 무슨 일이야?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -969,7 +969,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_2",
 			hidePaintObj = true,
-			say = "一股黑色的气息从水中窜出，很快便开始在{namecode:416}的身上蔓延。",
+			say = "검은 기운이 물속에서 튀어나오더니 곧 U-556의 몸에 퍼지기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_2",
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "쾅—————!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -1034,7 +1034,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "{namecode:435}大人，新的攻击来了！",
+			say = "비스마르크 님, 새로운 공격이에요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1062,7 +1062,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啧……革律翁，优先进行防御！",
+			say = "쯧… 게리온, 방어가 우선이야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1074,11 +1074,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "게리온",
 			bgName = "bg_bsmre_2",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*猛烈的咆哮*██▌",
+			say = "▁▂▃▄▅▆▇███*맹렬한 포효*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1110,11 +1110,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}？",
+			actorName = "U-556？",
 			bgName = "bg_bsmre_cg5",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "……{namecode:435}姐姐……不用……管我……",
+			say = "...비스마르크 언니… 난… 신경 쓰지 마….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1127,11 +1127,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}？",
+			actorName = "U-556？",
 			bgName = "bg_bsmre_cg5",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "先保护……大家……",
+			say = "일단 모두를… 보호….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1142,7 +1142,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg5",
 			hidePaintObj = true,
-			say = "在黑色的气息彻底吞没了她身体前，{namecode:416}痛苦地向前伸出手。",
+			say = "검은 기운이 그녀의 몸을 완전히 삼키기 전, U-556는 앞을 향해 고통스럽게 손을 내밀었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1153,7 +1153,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg5",
 			hidePaintObj = true,
-			say = "随后她便潜入水中，在众人的注视下消失不见了。",
+			say = "그녀는 결국 물속으로 끌려갔고 모두가 지켜보는 가운데 사라졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1164,7 +1164,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg5",
 			hidePaintObj = true,
-			say = "{namecode:435}回首想要抓住，却还是晚了一步。",
+			say = "비스마르크는 뒤돌아 잡으려 했지만 역시나 한발 늦었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

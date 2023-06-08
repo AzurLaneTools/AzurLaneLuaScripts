@@ -133,7 +133,7 @@ return {
 			},
 			options = {
 				{
-					content = "시애틀.",
+					content = "맛있네.",
 					flag = 1
 				}
 			}

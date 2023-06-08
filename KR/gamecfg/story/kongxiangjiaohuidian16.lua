@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "？？？·米德加尔特之塔-一号塔台",
+			say = "???·미드가르드 탑-1번 관제탑",
 			bgm = "deepblue-image",
 			flashin = {
 				delay = 1,
@@ -30,11 +30,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哇哦……这里就是整个米德加尔特之塔的最高点！",
+			say = "우와… 여기가 바로 미드가르드 탑에서 가장 높은 곳이구나!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,11 +42,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我还从来没来过这里呢！风景真好啊~",
+			say = "처음 와보는 거야! 경치가 정말 좋네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,11 +54,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟米德加尔特之塔不是观光景点。",
+			say = "아무래도 미드가르드 탑은 관광지가 아니니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,11 +66,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "除了战时从这里调度飞行器之外，也就维护的时候会有人来这里看一下了。",
+			say = "전시에 이곳에서 항공기를 파견하는 걸 제외하면 정비가 필요할 때나 누군가 이곳을 찾을 테니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,11 +78,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳……现在也算是用到战时侦察上了嘛！",
+			say = "콜록… 지금도 전시 정찰 때문에 이곳에 온 셈이지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,11 +95,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "从这里更能直观感受到都市的压迫感了，感觉每条街道都看得清清楚楚的……",
+			say = "이곳에 있으니까 도시의 압박감이 더욱 직관적으로 느껴지는 것 같아. 게다가 모든 거리가 한 눈에 들어오는 것 같기도 하고….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,11 +107,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "刚才你说有在意的点，现在能确认了么？",
+			say = "아까 신경 쓰인다고 했던 건, 확인됐어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,11 +119,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "差不多。",
+			say = "거의.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,11 +131,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "建筑群本身我依然没有印象，不过与塞壬常见的建筑风格不同。",
+			say = "건축군 자체는 기억 나지 않지만, 세이렌에서 흔히 볼 수 있는 건축물과는 확연히 다른 느낌이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,11 +143,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "确实，反而更像是我们的风格呢……",
+			say = "확실히 오히려 우리 쪽 건물같긴 하네….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,11 +155,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是，中间的高塔看着眼熟么？",
+			say = "그런데 가운데 있는 저 높은 탑, 낯익지 않아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,11 +167,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "中间的高塔……啊，只有它跟周围建筑的风格不一样！",
+			say = "가운데 높은 탑이라면… 앗, 저 주변 건물만 스타일이 달라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,11 +184,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看上去简直就像……",
+			say = "저건…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,11 +196,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们在消灭构建者的过程中，在其主机空间里见到的那个塔。",
+			say = "우리가 컴파일러를 제거하는 과정 중에 본체 공간에서 만났던 바로 그 탑이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,11 +208,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没错没错！难道说这里也是某个塞壬的主机空间么！？",
+			say = "맞아, 맞아! 설마 이곳 역시 세이렌의 어떤 본체 공간인 건가!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,11 +220,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也许。",
+			say = "그럴지도.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,11 +232,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过这里和构建者的主机空间差别好大……",
+			say = "하지만 이곳은 컴파일러의 본체 공간과는 매우 큰 차이가 있어 보이는데….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,11 +244,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:96}",
+			actorName = "즈이카쿠",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "该不会是赫米忒的主机……？啊哈哈哈……",
+			say = "설마 허밋의 본체는 아니겠지…? 아하하하….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,11 +256,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "无法判断，毕竟我们中没人亲眼见过仲裁机关主机的样子。",
+			say = "알 수 없지. 우리 중 그 누구도 중재 기관의 본체가 어떤 모습인지 본 적 없으니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,11 +268,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且……不符合逻辑。",
+			say = "게다가… 논리에 맞지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,11 +280,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "作为塞壬能够死而复生的根源，其主机应该是被严密保护和隐藏起来的。",
+			say = "세이렌이 죽었다가 다시 살아날 수 있는 근원인 만큼 본체는 빈틈없이 보호되고 숨겨져 있어야 맞아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,11 +292,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "用自己的主机作为陷阱，太奇怪了。",
+			say = "자신의 본체를 함정으로 사용하는 건 너무 이상해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,11 +304,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:477}",
+			actorName = "그나이제나우·META",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "但是，塞壬主机同时也是塞壬防御最强的地方。",
+			say = "하지만 세이렌의 본체는 세이렌의 방어가 가장 강한 곳이기도 해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,11 +316,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "故意用破绽诱敌深入，然后以绝对的力量将其消灭么。",
+			say = "일부러 함정을 만들어 적을 깊숙이 유인한 뒤 절대적인 힘으로 제거한다는 소리야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,11 +328,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "确实有这种战术，但是……我看不出我们有让仲裁机关用主机作诱饵设圈套的价值。",
+			say = "확실히 그런 전술이 있긴 하지만… 중재 기관이 본체를 미끼로 삼을 만한 가치가 있는진 모르겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,11 +340,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:477}",
+			actorName = "그나이제나우·META",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "但如果真的是仲裁机关主机的话，我们的麻烦就大了。",
+			say = "그렇지만 정말 중재 기관의 본체라면, 큰일이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,11 +352,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:477}",
+			actorName = "그나이제나우·META",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "每次使用米德加尔特之塔，空间内部都在发生改变。",
+			say = "미드가르드 탑을 사용할 때마다 공간 내부가 바뀌고 있어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,11 +364,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:477}",
+			actorName = "그나이제나우·META",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "海域中的“红区”逐渐增多，“蓝区”逐渐减少。",
+			say = "해역의 '레드 존'이 점차 증가하고 '블루 존'이 점차 감소하고 있죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,11 +376,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:477}",
+			actorName = "그나이제나우·META",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "现在“蓝区”所剩无几，然后空中出现了这座倒悬的都市。",
+			say = "'블루 존'이 얼마 남지 않은 상황에서, 갑자기 하늘에 거꾸로 떠 있는 도시가 나타났어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,11 +388,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:477}",
+			actorName = "그나이제나우·META",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "那下一次呢？会不会是蓝区彻底消失，而我们进入了都市之中。",
+			say = "그럼 다음은 어떨까요? '블루 존'이 완전히 사라지고 나서, 우리가 도시로 들어가게 되는 건 아닐까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,11 +400,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………如果是这样就不太妙了。",
+			say = "…그렇다면 곤란한데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,11 +412,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们的舰队规模尚不及消灭构建者时联合舰队的一成，更不要说对手是更高阶的塞壬仲裁者。",
+			say = "우리의 함대 규모는 컴파일러를 소멸시켰을 당시 연합 함대의 10%도 안 돼. 게다가 이번 상대는 그보다 더 상위 유닛인 세이렌 중재자야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,11 +424,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "侦察结束，我们回去跟{namecode:435}阁下商量一下。",
+			say = "정찰이 끝났으니 돌아가서 비스마르크 각하와 상의해 보자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

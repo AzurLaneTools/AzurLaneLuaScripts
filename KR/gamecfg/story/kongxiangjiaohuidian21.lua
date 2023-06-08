@@ -12,7 +12,7 @@ return {
 			bgm = "theme-bismark-reborn",
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "轰————————————！",
+			say = "쾅————!",
 			soundeffect = "event:/battle/boom2",
 			flashin = {
 				delay = 1,
@@ -71,7 +71,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "{namecode:435}与革律翁一前一后护卫着众人在红色的水面上快速移动着。",
+			say = "비스마르크와 게리온은 붉은 물 위에서 모두를 엄호하며 빠르게 움직이고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "似乎是发现一行人并没有受到“红区”的影响而失去战斗力。",
+			say = "'레드 존'의 영향을 받지 않고 전투력을 잃지 않은 그들을 발견한듯하다,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "塞壬在损失了一部分追击舰队后，就停止了攻势。",
+			say = "세이렌은 일부 추격 함대를 잃고선, 더 이상 공격해오지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "呼……多谢啦，革律翁~",
+			say = "휴우… 고마워요, 게리온~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,10 +117,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "게리온",
 			bgName = "bg_bsmre_6",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*愉快地轻哼*██▌",
+			say = "▁▂▃▄▅▆▇███*즐거운 콧노래*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "革律翁抖落双翼上的灰烬，返回了{namecode:435}的身边。",
+			say = "게리온은 양 날개에 묻은 재를 털곤 비스마르크 곁으로 돌아갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "辛苦了，革律翁…………嗯？",
+			say = "수고했어, 게리온… 응?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "革律翁凝视着{namecode:435}，似乎在传递着什么信息。",
+			say = "게리온은 어떤 메시지를 전달하려는 듯 비스마르크를 바라보았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "你也感受到了么，混在海域中的那一丝不同寻常的气息。",
+			say = "너도 바다에 섞여 있는 심상치 않은 기운을 느꼈니?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "革律翁微微低下头，像是在表示赞同。",
+			say = "게리온은 동의하듯 고개를 살짝 숙였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "不同寻常的气息……？{namecode:435}大人，您有了什么发现么？",
+			say = "심상치 않은 기운…? 비스마르크 님, 뭔가를 발견하신 겁니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "嗯。在这片海域活动的，不止有我们。",
+			say = "응. 지금 이 해역엔 우리만 있는 게 아니야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至少还有另一个META曾在此战斗过。",
+			say = "적어도 다른 META가 여기서 싸운 적이 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "哎？！",
+			say = "에!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "众人本能地将目光投向了{namecode:434}·META。",
+			say = "모두의 시선이 본능적으로 그나이제나우·META를 향했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "……应该指的是，除了我…………之外的吧。",
+			say = "…저 말고… 다른 META겠죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈，说的也是……",
+			say = "아하하, 그렇긴 해….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过你这方面的感觉不是一向很准么，没察觉到么？",
+			say = "하지만 META와 관련된 일이라면 언제나 잘 맞췄잖아, 이번엔 아무런 느낌도 못 받은 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "整片海域都是META化侵蚀的气息，我没分辨出来其中混入的不同。",
+			say = "해역 전체가 META화 침식의 기운으로 가득 차서, 구분하기 어렵네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "况且……我又不是你们的META信标记录仪。",
+			say = "게다가… 전 당신들의 META 비콘 기록 장치가 아닙니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "既然有这么方便的仪器，用那个测一测如何？",
+			say = "그렇게 편리한 기계가 있는데, 한번 측정해보는 건 어때요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……很遗憾。",
+			say = "…아쉽지만.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "因为集结得很突然，我们谁都没带这个……",
+			say = "갑자기 집결하는 바람에, 아무도 챙겨오지 못했어….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "等等……那{namecode:435}大人是怎么……？",
+			say = "잠깐… 그럼 비스마르크 님은 어떻게…?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "是依靠革律翁完成的。它已经确认完毕了——并没有发现与其相符的记录。",
+			say = "게리온 덕분이야. 게리온이 이미 확인을 끝냈어. 그것과 일치하는 기록은 발견되지 않았대.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可以认定，这个META对于我们来说是完全未知的。",
+			say = "한번도 만난 적 없는 META라고 확실할 수 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "咦？！确认完毕是指……革律翁本身还有拥有信标记录仪的功能么？！",
+			say = "에?! 확인을 끝냈다니… 게리온에 비콘 기록 장치가 탑재되어 있는 건가요!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "没错。因为是专门针对META的特化舰装，信标记录仪自然是必备功能之一。",
+			say = "응. META에 특화된 의장이기 때문에 비콘 기록 장치는 당연히 필수 기능 중 하나지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "太厉害了…………再次直观认识到了我的雷吉纳和革律翁的差距。",
+			say = "대단해요…. 제 레지나와 게리온의 차이를 다시 한번 실감하게 되네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "未知的META……",
+			say = "미지의 META….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "这样也许，之前的黑色冲击也能解释了。",
+			say = "그렇다면 이전에 검은 충격도 설명이 돼요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？！怎么说……难道{namecode:434}小姐有办法做出那种冲击么？",
+			say = "에?! 그렇다면… 혹시 그나이제나우 양도 그런 공격이 가능한 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不能。",
+			say = "아니요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "我只是…………见到过。",
+			say = "그냥… 본 적 있거든요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "在META化的同伴，怀着必死的决心战斗到最后一刻时……",
+			say = "META화 동료가 죽기 직전까지 싸웠을 때…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……抱歉，勾起你不好的回忆了。",
+			say = "...나쁜 기억을 생각나게 해서 미안.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………没事。但是，我们刚刚经历了多次冲击。",
+			say = "…괜찮아요. 하지만 우린 여러 번의 충격을 경험했죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -687,7 +687,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "也就说明，如果存在这个正在战斗的META的话，战斗力也许相当的强。",
+			say = "그렇다는 건 만약 전투 중인 META가 있다면, 전투력이 상당이 강할 수도 있다는 얘기예요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "相当强的META，难道会是余烬？",
+			say = "상당히 강한 META라, 혹시 잔불일까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……余烬的话，确实存在这么强的人。",
+			say = "...잔불이라면, 확실히 그만한 인물이 존재하긴 해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,7 +740,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "而且在战斗的时候也不会在意像我们这种“附带损伤”。",
+			say = "게다가 전투 중 우리처럼 '부수적인 피해'를 신경 쓰지 않죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -758,7 +758,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "……如果是余烬的话，或许还有交涉的可能！",
+			say = "…잔불이라면, 교섭할 가능성이 있을지도!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -776,7 +776,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "既然明确知道要对抗仲裁机关，将如此强大的战斗力拉过来也许能逆转局面。",
+			say = "중재 기관에 맞서 싸워야하는 것이 명백해진 지금, 이렇게 막강한 전투력을 끌어올 수 있다면 상황을 역전시킬 수 있을지도 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -794,7 +794,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "而且……如果的是余烬的话，也许能打听到{namecode:441}的消息……",
+			say = "그리고… 잔불이라면, 프리드리히의 소식을 알아낼 수 있을지도….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -811,7 +811,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那些幻象自然也就————",
+			say = "그 환상들도 당연히———",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -846,7 +846,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（冲击不是来自于某个元魔方装置，而是某个强大的META在海域中战斗……？）",
+			say = "(충격이 메타 큐브 장치로 인한 것이 아니라, 강력한 META가 해역에서 전투 중이기 때문이라고…?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -864,7 +864,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（那红色海水中的侵蚀气息来源又是哪里呢……）",
+			say = "(그럼 붉은 바닷물 속 침식의 기운은 대체 어디서 온 걸까…)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -881,7 +881,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……必须找到这个META才行！",
+			say = "...이 META를 찾아내야만 해!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -899,7 +899,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "{namecode:435}阁下，立刻下令展开搜索吧！",
+			say = "비스마르크 각하, 즉시 수색 명령을 내려줘!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -921,7 +921,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？啊……好的。",
+			say = "…어? 아… 그래.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -939,7 +939,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不论其最终是敌人还是盟友，至少我们不能放任这样一个不稳定因素在我们周围游荡。",
+			say = "적이든 동료든 이런 불안한 요소가 우리 주변을 맴돌게 내버려둘 순 없지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -957,7 +957,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不过，要等到了安全区域之后再说——首先前往米德加尔特之塔的控制室吧。",
+			say = "일단 안전 구역에 도착한 뒤에 다시 얘기하자. 먼저 미드가르드 탑의 관제실로 가야해.",
 			painting = {
 				alpha = 0.3,
 				time = 1

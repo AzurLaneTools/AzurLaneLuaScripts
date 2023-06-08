@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			stopbgm = true,
-			say = "铁血浮岛要塞群·A1浮岛-办公区",
+			say = "메탈 블러드 부유섬 요새군·A1 부유섬-사무실",
 			bgmDelay = 2,
 			bgm = "story-midgard",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "这样就算告一段落了。",
+			say = "일단락된 셈이네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……不知道伊丽莎白那边的问题解决了没有。",
+			say = "...엘리자베스 쪽 문제는 해결됐는지 모르겠군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "联系一下她好了。",
+			say = "한번 연락해 볼까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "{namecode:435}打开通讯频道。",
+			say = "비스마르크가 통신 채널을 열었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "但在按下呼叫键之后，回应她的只有杂音。",
+			say = "하지만 호출 버튼을 누른 뒤 들려오는 건 잡음뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……嗯？",
+			say = "…뭐지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "{namecode:435}又分别试着呼叫本土司令部与驻扎在博览会会场的{namecode:427}。",
+			say = "비스마르크는 본토 사령부와 박람회장에 주둔하고 있는 프린츠 오이겐을 각각 호출했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "通讯器中依然只有杂音。",
+			say = "통신기에는 여전히 잡음만 들려왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "外部通讯依然没有恢复……？有些奇怪……",
+			say = "외부 통신은 아직 복구되지 않은 건가…? 좀 이상한데….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "{namecode:435}大人，我这边的检查结束了。",
+			say = "비스마르크 님, 이쪽 검사는 끝났습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "情况怎么样？",
+			say = "상황이 어때?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 402100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……位于医疗室中的同伴们依然在昏睡中。",
+			say = "...의료실에 있던 동료들은 여전히 혼수상태에 빠져 있어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……除此之外还有其他异常么？",
+			say = "...그 밖에 또 다른 이상은 없나?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			actor = 402100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有，医疗检查结果显示没有任何异常状况。",
+			say = "없습니다. 의료 검사 결과 어떤 이상도 발견되지 않았습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			actor = 402100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就像……普通地睡着了而已。",
+			say = "그냥… 잠든 것 같아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "我明白了，继续保持观察。",
+			say = "네, 계속 지켜보겠습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			actor = 402100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遵命，{namecode:516}通讯结束。",
+			say = "알겠습니다. 레겐스버그 통신 종료.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "从办公区的窗外望去，米德加尔特之塔的光芒逐渐减弱。",
+			say = "사무실 창밖을 보니 미드가르드 탑의 빛이 점점 약해지고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "这是装置正在被关闭的证明。",
+			say = "장치가 종료되고 있다는 증거다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "事件的所有影响……也应该随之消失才对。",
+			say = "사건의 모든 파장도… 함께 사라져야 해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……看来必须要摧毁它了么。",
+			say = "…아무래도 반드시 파괴해야할 것 같군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "{namecode:435}凝视着陷入沉寂的米德加尔特之塔，良久。",
+			say = "비스마르크는 잠잠해진 미드가르드 탑을 한참 동안 응시했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "…………{namecode:464}，能听到么？",
+			say = "울리히, 들려?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没问题，阁下有什么事？",
+			say = "네. 각하, 무슨 일이야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "米德加尔特之塔检查怎么样了？",
+			say = "미드가르드 탑의 검사는 어떻게 됐어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正在进行中，彻底检查还没有结束。",
+			say = "아직 진행 중이야. 정밀 검사가 아직 끝나지 않았어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过只看初步结论的话，它看上去已经恢复如初了。",
+			say = "지금 상황으로 보면, 회복된 것처럼 보여.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			actorName = "{namecode:464}&{namecode:435}",
 			actor = 405030,
 			nameColor = "#A9F548FF",
-			say = "{namecode:435}阁下——\n{namecode:464}——",
+			say = "비스마르크 각하—— 울리히——",
 			subActors = {
 				{
 					actor = 405010,
@@ -532,7 +532,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "…………看来我们想说的是同一件事。",
+			say = "…같은 얘기를 하려던 것 같네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真的要炸么？",
+			say = "…정말 폭파할 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……炸吧。",
+			say = "…응.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "米德加尔特之塔的使命已经结束了，换成{namecode:441}也会做相同的决定的……",
+			say = "미드가르드 탑의 사명은 끝났어. 프리드리히였어도 같은 결정을 내렸을 거야….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "不过……再从米德加尔特之塔中读取一次数据，然后检查一下项目的所有资料，",
+			say = "하지만… 미드가르드 탑에서 데이터를 한 번 더 읽어보고, 프로젝트의 모든 자료를 검사한 뒤,",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -623,7 +623,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "确认完整并进行备份后……再进行爆破拆除。",
+			say = "상태를 확인하고 백업 후… 폭파를 진행해줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我明白了，立刻着手进行。",
+			say = "알겠어, 바로 진행할게.",
 			painting = {
 				alpha = 0.3,
 				time = 1

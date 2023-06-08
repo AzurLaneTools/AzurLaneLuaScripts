@@ -10,7 +10,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgm = "story-bismark-determination",
-			say = "在{namecode:464}的指挥下，众人将代行者舰队与管理机分隔开来。",
+			say = "울리히의 지휘 하에 모두가 대행자 함대와 관리기를 분리했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,7 +19,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "{namecode:435}则在革律翁与{namecode:416}的掩护下快速突进着。",
+			say = "비스마르크는 게리온과 U-556의 엄호를 받으며 빠르게 전진했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,9 +29,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "아비터·허밋·IX？",
 			dir = 1,
-			say = ">指令已确认，开始执行预设案A。",
+			say = ">명령 확인 완료. 미리 설정된 계획 A를 실행한다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,8 +47,8 @@ return {
 			nameColor = "#ffa500",
 			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "{namecode:435}姐姐，赫米忒开始进攻了！",
+			actorName = "U-556·META？",
+			say = "비스마르크 언니, 허밋이 공격을 시작했어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "革律翁！",
+			say = "게리온!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "革律翁收拢双翼，组成护盾抵挡住了来袭的攻击。",
+			say = "게리온은 날개를 접고 방패를 만들어 모든 공격을 막아냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,9 +87,9 @@ return {
 			actor = 9708010,
 			nameColor = "#ffa500",
 			side = 2,
-			actorName = "{namecode:515}？",
+			actorName = "U-556·META？",
 			dir = 1,
-			say = "漂亮，{namecode:435}姐姐~！",
+			say = "나이스샷, 비스마르크 언니~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,9 +103,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "아비터·허밋·IX？",
 			dir = 1,
-			say = ">目标强度超出预期，正在更改为预设方案B。",
+			say = ">목표물이 예상보다 강하다. 계획 B로 변경한다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,9 +119,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "아비터·허밋·IX？",
 			dir = 1,
-			say = ">机关系统IX=XV连协支援机制，输入功率20%——",
+			say = ">기관 시스템 IX=XV 연계 지원 메커니즘, 출력 20% 입력——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,8 +134,8 @@ return {
 		{
 			nameColor = "#ffa500",
 			side = 2,
-			actorName = "革律翁",
-			say = "▁▂▃▄▅▆▇███*愤怒地咆哮*██▌",
+			actorName = "게리온",
+			say = "▁▂▃▄▅▆▇███*분노의 포효*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "双翼再次展开，强大的气流裹挟着巨浪冲向敌人。",
+			say = "양 날개가 다시 펼쳐지고 강한 기류가 거센 파도와 함께 적을 향해 돌진했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "아비터·허밋·IX？",
 			dir = 1,
 			say = ">…………",
 			soundeffect = "event:/battle/boom2",
@@ -227,9 +227,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "아비터·허밋·IX？",
 			dir = 1,
-			say = ">更正，输入功率调整为70%。",
+			say = ">수정. 출력을  70%로 변경한다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,8 +245,8 @@ return {
 			nameColor = "#ffa500",
 			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "呜啊，姐姐，敌人好像突然变得好危险……！",
+			actorName = "U-556·META？",
+			say = "으악, 언니. 적이 갑자기 너무 위험해 보이는데…!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:416}，水下的敌人就交给你了。",
+			say = "U-556, 수중의 적은 너한테 맡길게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "在我给你下一个指令之前，不要上浮。",
+			say = "다음 명령을 내리기 전까진, 수면 위로 올라오지마.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "去吧！",
+			say = "가라!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,9 +317,9 @@ return {
 			actor = 9708010,
 			nameColor = "#ffa500",
 			side = 2,
-			actorName = "{namecode:515}？",
+			actorName = "U-556·META？",
 			dir = 1,
-			say = "好的，{namecode:435}姐姐！",
+			say = "알겠어, 비스마르크 언니!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,8 +335,8 @@ return {
 			nameColor = "#ffa500",
 			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "你在水面上一定要小心！",
+			actorName = "U-556·META？",
+			say = "언니도 조심해!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "{namecode:416}·META钻入水下，下一秒，革律翁便以肉眼难以捕捉的速度，向赫米特冲去。",
+			say = "U-556·META가 물속으로 들어가자마자 게리온은 육안으로 확인할 수 없을 정도의 빠른 속도로 허밋을 향해 돌진했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "……革律翁，解除安全协议Nr.1。",
+			say = "…게리온, 보안 프로토콜 Nr.1 해제.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "主炮发射！",
+			say = "주포 발사!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "革律翁的主炮对准目标并在同时激发，火炮的烟气遮蔽了视野。",
+			say = "게리온의 주포는 목표물을 향해 동시에 발사됐고, 포에서 나오는 연기가 시야를 가렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "赫米忒向后一个闪身躲避，炮弹在她身后的位置落水爆炸。",
+			say = "허밋은 뒤로 몸을 돌려 피했고, 포탄은 그녀의 뒤편에 있는 물에 빠져 폭발했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "紧接着，炮火的烟尘中此时透出一个明亮的红点，一道炽热的光柱撕开烟幕。",
+			say = "곧이어 포화의 연기와 먼지 속에서 밝은 붉은 반점이 나타났고, 뜨거운 빛줄기가 연막을 찢었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "赫米忒躲闪不及，只能用舰装阻挡。",
+			say = "허밋은 미처 피하지 못하고 의장으로 막을 수밖에 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "光柱所行之处，空气灼烧。",
+			say = "빛줄기가 닿는 곳마다 공기가 타올랐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "海面之上，水汽蒸腾。",
+			say = "수면 위로 수증기가 일어난다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "但被强化后的赫米忒管理机，似乎依然并无大碍。",
+			say = "하지만 강화된 허밋의 관리기는 여전히 큰 문제가 없어 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,25 +453,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "아비터·허밋·IX？",
 			dir = 1,
-			say = ">目标强度超出预期，正在更改为预设方案C。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900355,
-			nameColor = "#ff5c5c",
-			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
-			dir = 1,
-			say = ">机关系统IX=XV连协支援机制，输入功率100%.",
+			say = ">목표물이 예상보다 강하다. 계획 C로 변경.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,9 +469,25 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "아비터·허밋·IX？",
 			dir = 1,
-			say = ">机关系统IX=XV连协支援接入-「迪贝路处理核心」，输入功率3%。",
+			say = ">기관 시스템 IX=XV 연계 지원 메커니즘, 입력 전력 100%.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900355,
+			nameColor = "#ff5c5c",
+			side = 2,
+			actorName = "아비터·허밋·IX？",
+			dir = 1,
+			say = ">기관시스템IX=XV연계지원접속 - 디베이로 처리 코어, 입력전력 3%.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "呵呵，我曾去地狱徘徊了一圈……",
+			say = "허허, 지옥에 가서 한 바퀴 배회한 적이 있는데…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "现在，是时候使用这份从地狱中带来的力量了！",
+			say = "이제, 지옥에서 가져온 이 힘을 사용할 때야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "革律翁，解除安全协议Nr.2、Nr.3、Nr.7",
+			say = "게리온, 보안협정 Nr.2, Nr.3, Nr.7 해지",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -547,10 +547,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "게리온",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "▁▂▃▄▅▆▇███*极其猛烈的咆哮*██▌██▌██▌██▌",
+			say = "▂▅▆▇██*매우 맹렬한 포효*███▌██▌█▌███▌",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "让我们开始狩猎吧——",
+			say = "사냥을 시작하자——",
 			painting = {
 				alpha = 0.3,
 				time = 1

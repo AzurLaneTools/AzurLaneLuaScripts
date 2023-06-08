@@ -11,7 +11,7 @@ return {
 			bgName = "bg_bsmre_10",
 			nameColor = "#A9F548FF",
 			bgm = "story-bismark-determination",
-			say = "赫米忒加速向着空中的都市飞去。",
+			say = "허밋은 속력을 내 하늘 도시를 향해 날아갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_10",
-			say = "但一个巨大的身影在后方紧追不舍。",
+			say = "하지만 거대한 그림자가 뒤에서 바싹 따라붙었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,10 +56,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:515}？",
+			actorName = "U-556·META？",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "哇哦哦————我——上——天——了——",
+			say = "우오아아악—— 내가- 하늘을- 날-다-니——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,21 +72,21 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "革律翁，咬住它。",
+			say = ">게리온, 물어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "革律翁",
+			actorName = "게리온",
 			side = 2,
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*极其猛烈的咆哮*██▌██▌██▌██▌",
+			say = "▁▂▃▄▅▆▇███*매우 맹렬한 포효*██▌██▌██▌██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,12 +105,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "아비터·허밋·IX？",
 			bgName = "bg_bsmre_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = ">目标强度超出预期，正在更改为预设方案G。",
+			say = ">목표물이 예상보다 강하다. 계획 G로 변경.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,12 +128,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "아비터·허밋·IX？",
 			bgName = "bg_bsmre_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = ">已取得「代行者XV系统」指挥授权。",
+			say = ">'대행자 XV 시스템' 지휘 권한 획득 완료.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,12 +145,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "아비터·허밋·IX？",
 			bgName = "bg_bsmre_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = ">正在激活。",
+			say = ">활성화 중.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,10 +162,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:515}？",
+			actorName = "U-556·META？",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "不好了，{namecode:435}姐姐！新的敌人出现了！",
+			say = "큰일 났어, 비스마르크 언니! 새로운 적이 나타났어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,10 +178,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:515}？",
+			actorName = "U-556·META？",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "根据之前女灶神小姐给到的资料，确认为迪贝路下属的两种代行者！",
+			say = "이전에 베스탈 양이 준 정보에 따르면, 디벨로 산하의 두 대행자로 확인 돼!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,10 +189,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:515}？",
+			actorName = "U-556·META？",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "而且数量有好多！它们早就在这里等我们了！",
+			say = "게다가 엄청 많아! 이곳에서 우릴 기다리고 있었던 것 같아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,10 +200,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "（终于派出自己的直属部队了么，迪贝路。）",
+			say = "(드디어 직속 부대를 보낸 건가, 디벨로)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,10 +211,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "（这样下去就算我瘫痪掉赫米忒的管理机，也肯定无法逃出包围网。）",
+			say = "(이러다간 내가 허밋의 관리기를 마비시켜도 포위망을 벗어날 수 없을 거야.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,10 +222,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "（果然是个陷阱。）",
+			say = "(역시 함정이었어.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,10 +233,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "（……只能相信女灶神和她背后的势力了。）",
+			say = "(…베스탈과 그녀의 배후 세력을 믿을 수밖에.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,10 +244,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "{namecode:416}，不要分心。只要击败管理机一切就结束了！",
+			say = "U-556, 한눈팔지 마. 관리기만 쓰러트리면 모든 게 끝이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,10 +255,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:515}？",
+			actorName = "U-556·META？",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "好的，{namecode:435}姐姐，我明白了！",
+			say = "응, 비스마르크 언니. 알겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg12",
-			say = "赫米忒悬浮在半空中的身体闪烁着不详的光芒，似乎正在酝酿最后一击。",
+			say = "허공에 떠 있는 허밋의 몸은 최후의 일격을 준비하고 있는 듯 불길한 빛을 내뿜고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,12 +281,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "仲裁者·赫米忒·IX？",
+			actorName = "아비터·허밋·IX？",
 			bgName = "bg_bsmre_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = ">局部清理指令已被批准，蓄能中。",
+			say = ">부분 청소 명령 승인 완료. 저장 중입니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,21 +298,21 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "革律翁，解除安全协议Nr.4、Nr.6、Nr.8、Nr.9。",
+			say = "게리온, 보안 프로토콜 Nr.4, Nr.6, Nr.8, Nr.9 해제.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "革律翁",
+			actorName = "게리온",
 			side = 2,
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*迄今为止最为猛烈的咆哮*██▌██▌██▌██▌██▌██▌",
+			say = "▁▂▃▄▅▆▇███*지금껏 가장 맹렬한 포효*██▌██▌██▌██▌██▌██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,11 +330,11 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			side = 2,
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "去吧。",
+			say = "가자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg12",
-			say = "革律翁怒吼着冲向赫米特。",
+			say = "게리온은 포효하며 허밋를 향해 돌진했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg12",
-			say = "此刻，它的全身都爆发出发光的纹路。",
+			say = "그 순간 온몸에서 빛나는 무늬가 터져 나왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,10 +368,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "安蒂克丝，曾经的我没有屈从于你们为我安排的命运。",
+			say = "안티오코스, 과거의 난 당신들이 날 위해 준비한 운명에 굴복하지 않았죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,10 +379,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "这一次，也不会。",
+			say = "하지만 이번에도, 그럴 일은 없어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,21 +390,21 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "这幅身体，这份力量，就是我的觉悟。",
+			say = "이 몸과 힘이 바로 나의 깨달음이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			side = 2,
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "————真理必胜「Wahrheit siegreich Zurückkehren」",
+			say = "진리는 반드시 승리한다———'Wahrheit wird triumphieren'",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
-			say = "巨龙口中喷射而出的光柱比以往更加炽热。",
+			say = "거대한 용의 입에서 뿜어져 나오는 광선은 그 어느 때보다 훨씬 뜨거웠다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "耀眼的龙息几乎让海面都沸腾起来。",
+			say = "눈부신 용의 숨결은 바다를 들끓게 만들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "赫米忒的装甲层正在融化。",
+			say = "허밋의 장갑층이 녹아내리고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "即便有迪贝路的强化，面对这种级别的损伤也无能为力。",
+			say = "디벨로의 강화가 있어도 이 정도 피해 앞에선 어쩔 수 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "战斗，结束了————",
+			say = "전투는, 끝이 났다———",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

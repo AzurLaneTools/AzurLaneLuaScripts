@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			stopbgm = true,
-			say = "战场上的空气依旧灼热而刺鼻。",
+			say = "전쟁터의 공기는 여전히 뜨겁고 코를 찌른다.",
 			bgmDelay = 2,
 			bgm = "theme-bismark-reborn",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "{namecode:436}，此刻正静静倒在不远处的水面上。",
+			say = "티르피츠가 멀지 않은 수면에 조용히 쓰러져 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,10 +39,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "게리온",
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*悲伤地低吼*██▌",
+			say = "▁▂▃▄▅▆▇███*슬퍼하며 작게 소리 낸다.*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "革律翁撑开双翼，强大的气流扑灭了四周残骸上的火焰。",
+			say = "게리온이 날개를 펼치자 강한 기류가 사방의 잔해를 뒤덮고 있는 화염을 진압시켰다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "它在{namecode:435}的脚边停下，注视着眼前倒下的人影。",
+			say = "비스마르크는 발치에 멈춰 서서 눈앞에 쓰러져 있는 티르피츠를 쳐다보고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:436}。",
+			say = "...티르피츠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "{namecode:435}弯腰接近，却被革律翁阻挡了一下。",
+			say = "비스마르크는 허리를 굽혀 가까이 다가가려고 했지만 게리온에게 제지 당한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "我知道的，这些都只是幻象而已……",
+			say = "환영일 뿐이라는 거 알아….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "但……",
+			say = "하지만…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "革律翁退了半步，双翼展开，再次飞向高空。",
+			say = "게리온은 반 발짝 물러서서 날개를 펴고 다시 하늘 높이 날아올랐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "……你是对的，让我们专注于真正应该做的事吧。",
+			say = "…네가 옳았어. 우리가 정말로 해야 할 일에 집중할게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "革律翁，向着边界前进，吹散海雾！",
+			say = "게리온, 경계를 향해 전진한 뒤 바다 안개를 날려버려!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,10 +199,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "게리온",
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*兴奋地咆哮*██▌",
+			say = "▁▂▃▄▅▆▇███*흥분한듯 포효한다.*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "高墙般的海雾，在巨龙的振翅所形成的的风暴前退却了。",
+			say = "거대한 용의 날갯짓으로 일어난 폭풍에 높은 담벼락 같던 안개가 사라졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……未知的飞行器没有出现，但，果然有路可通。",
+			say = "…알 수 없는 비행체는 나타나지 않았지만, 역시 길은 있었군.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "{namecode:435}顺着革律翁开辟的道路在海雾中前进着。",
+			say = "비스마르크는 게리온이 뚫은 길을 따라 바다 안개 속을 전진하고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "海域的边界仿佛会随着她的探索不断延展，其规模远超想象。",
+			say = "하지만 해역의 끝은 마치 비스마르크의 전진에 따라 계속해서 확장되는 것처럼 상상을 초월할 정도로 넓었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "终于，前方出现了一道光。",
+			say = "마침내, 전방에 한 줄기 빛이 나타났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,10 +288,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "게리온",
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*兴奋地低吼*██▌",
+			say = "▁▂▃▄▅▆▇███*흥분한듯 작게 소리 낸다.*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "革律翁发出一阵低吼，向着光芒的方向加速飞去。",
+			say = "게리온은 작게 소리내더니, 빛이 있는 쪽으로 빠르게 날아갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？你发现的难道是……某种通道么？！",
+			say = "어라? 혹시… 어떤 통로를 발견한 거야?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "没有一丝迟疑，{namecode:435}也向着光芒冲了过去。",
+			say = "비스마르크도 망설임 없이 빛을 향해 달려갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "{namecode:435}与革律翁一同消失在了光芒之中——",
+			say = "비스마르크는 게리온과 함께 빛 속으로 사라졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

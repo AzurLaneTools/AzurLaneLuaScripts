@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "theme-thehermitIX",
 			bgmDelay = 2,
-			say = "？？？·米德加尔特之塔-周边海域",
+			say = "???·미드가르드 탑-주변 해역",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "抱歉我来晚了，战况如何？",
+			say = "늦어서 미안. 상황은 어때?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "压力很大，但还算能应付。",
+			say = "부담이 크긴 하지만 그런대로 대처할 수 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			actor = 405030,
 			dir = 1,
-			say = "作战表现来看，这个赫米忒也许只是量产机。",
+			say = "지금까지 볼 때 이 허밋은 양산형에 불과할지도 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			actor = 405030,
 			dir = 1,
-			say = "其显现出了多项棋子的特征，战斗力也没有很夸张。",
+			say = "다수의 장기말에서 나타났던 특징이 확인되었어. 게다가 전투력도 생각보다 강하지 않아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			actor = 405030,
 			dir = 1,
-			say = "——至少让我们撑到你调查结束了。",
+			say = "적어도 네 조사가 끝날 때까지만이라도 버텨볼게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			actor = 405030,
 			dir = 1,
-			say = "但是，我们的首要目标是安全返回，也许应该想办法脱离战斗。",
+			say = "하지만 우리의 1차 목표는 안전하게 돌아가는 것이니까, 전투에서 벗어날 방법을 생각해 봐야 할지도 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "这一点恐怕做不到。来的时候我观察过了，米德加尔特之塔的控制面板已经被锁死了。",
+			say = "그건 불가능할 거야. 오면서 관찰했는데, 미드가르드 탑의 컨트롤 패널은 잠겨 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "和这个赫米忒的量产机出现大概是在同一时间。",
+			say = "허밋의 양산기가 등장한 시점과 거의 같은 시기에 잠긴 것 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那么就只能奋力迎战了！",
+			say = "그렇다면 열심히 싸울 수밖에 없겠군!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "只是量产型机体，{namecode:91}前辈既然能消灭掉，我们也不会输的！",
+			say = "양산형 기체일 뿐이야. 아카기 선배가 제거할 수 있다면, 우리도 지지 않아!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "{namecode:91}也……？不，现在不是在意这个的时候。",
+			say = "아카기도…? 아니, 지금은 그런 걸 신경 쓸 때가 아니지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "保持间隔，稳步推进。",
+			say = "간격을 유지하고 안정적으로 전진해보자.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "全员准备接敌——",
+			say = "전원 전투 준비——",
 			painting = {
 				alpha = 0.3,
 				time = 1

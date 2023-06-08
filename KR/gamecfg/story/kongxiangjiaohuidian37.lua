@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			stopbgm = true,
-			say = "房间之中，回响着祷告者的细语。",
+			say = "방 안, 기도자의 속삭임이 울려 퍼진다.",
 			bgmDelay = 2,
 			bgm = "theme-threat-typeV",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「听，人们正彼此商量着。」",
+			say = "\"들어보세요. 모두가 이야기를 나누고 있습니다.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「他们要拿砖当石头，又要拿柏油当泥灰。」",
+			say = "\"그들은 벽돌을 돌로 삼을 것이고, 아스팔트를 진흙으로 삼을 것입니다.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「他们要建造一座城，又要建造一座塔。」",
+			say = "\"그들은 도시를 세우고, 탑을 쌓을 것입니다.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「城市恢弘，塔顶通天。」",
+			say = "\"넓은 도시와, 하늘 높이 솟아오른 탑.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「他们要团结在一起，还要扬名天下。」",
+			say = "\"그들은 단결하고, 세상에 이름을 떨칠 것입니다.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "————神啊。",
+			say = "———신이시여.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "————您能允许这些事么？",
+			say = "———허락해 주실 수 있나요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_501",
-			say = "细语声停了下来，祈祷似乎结束了。",
+			say = "속삭이는 소리가 멈추고, 기도가 끝난 것 같다.",
 			effects = {
 				{
 					active = false,
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "……结束了么？",
+			say = "...끝났나요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "结束了。你看到了什么？",
+			say = "응. 뭐라도 봤어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "摇曳的烛光……星盘的空相……逆位的塔……",
+			say = "흔들리는 촛불… 아스트롤라베의 오엽각… 그리고 역위의 탑…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "都是……不错的意象呢……！",
+			say = "모두… 나쁘지 않은 이미지네…!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "走吧，是时候去揭开帐幕了。",
+			say = "가자, 이제 장막을 열 때가 됐어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "啊哈哈哈哈哈哈哈——————",
+			say = "아하하하하하하하———",
 			painting = {
 				alpha = 0.3,
 				time = 1

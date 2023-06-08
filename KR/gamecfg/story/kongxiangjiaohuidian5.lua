@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "光芒消散后，{namecode:435}一行人发现自己来到了一片开阔水域中。",
+			say = "빛이 사라진 뒤, 비스마르크 일행은 자신들이 탁 트인 미지의 해역에 도착한 걸 발견한다.",
 			bgm = "main-arbitrationsystem-theme",
 			flashin = {
 				delay = 1,
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "这样就算，移动成功了么？",
+			say = "이동에 성공한 건가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "跳进漩涡里的时候真是吓人，还好有惊无险。",
+			say = "소용돌이 속으로 뛰어들 땐 진짜 무서웠어, 그래도 위험 상황이 발생하지 않아서 다행이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太神奇了，我还是第一次用人工奇异点。",
+			say = "너무 신기하네요! 인공 특이점을 사용해보는 건 이번이 처음이거든요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "这个水，这个天，还有空气都感觉不一样！",
+			say = "물, 하늘 그리고 공기마저 느낌이 달라!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "这就是神奇的人工奇异点穿越！",
+			say = "이게 바로 신기한 인공 특이점을 통과한 기분인 건가!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "不太对……",
+			say = "이상해….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "穿过人工奇异点之后，我们应该以装置的位置为基础向外探索。",
+			say = "인공 특이점을 통과한 후 장치의 위치를 기반으로 외부를 탐색해야 하니까,",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "距离米德加尔特之塔基座的位置不该太远才对。",
+			say = "미드가르드 탑과 너무 멀지 않은 곳에 전송되어야 정상이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "但是现在，我们只能依稀看到在远方闪耀的光柱。",
+			say = "하지만 지금은 저 멀리 반짝이는 빛줄기만 어렴풋이 보이고 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "距离实在是太远了……",
+			say = "거리가 너무 멀어….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "{namecode:464}阁下之前在对米德加尔特之塔进行升级，会不会与此有关？",
+			say = "울리히 각하께서 이전에 미드가르드 탑을 업그레이드한 것과 관련이 있지 않을까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "距离太远的话，不论是撤离还是增援都会变得困难，{namecode:464}应该很清楚这样改动的危险性。",
+			say = "거리가 너무 멀면 철수나 지원이 어려워질 수 있다는 위험성을 울리히가 몰랐을 리 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "确实如此……看来只能等找到{namecode:464}阁下之后向她询问清楚了。",
+			say = "그렇네요…. 울리히 각하를 찾은 후에 확실하게 물어볼 수밖에 없을 것 같습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "（等等……也许和那个模糊的坐标有关。）",
+			say = "(잠깐… 어쩌면 그 모호한 좌표와 관련이 있을지도 몰라.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "（传送到远方这个结果或许是幕后黑手想要的……但其目的究竟是……）",
+			say = "(탑과 먼 곳으로 전송되는 결과가 바로 범인이 원하던 것일지도 모르지만… 대체 무슨 목적으로…)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "{namecode:435}大人，我的侦察机看到了奇怪的东西。",
+			say = "비스마르크 님, 제 정찰기가 이상한 물체를 발견했습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "米德加尔特之塔周围，此刻正围绕着一圈巨型立方体，立方体的附近还有正在运作的未知建筑群。",
+			say = "현재 미드가르드 탑 주변으로 거대한 큐브가 둘러싸여 있습니다. 큐브의 근처에는 작동 중인 미지의 건물도 함께 발견되었습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "……我从来没听说过米德加尔特之塔周边还有这些设施。",
+			say = "미드가르드 탑 주변에 이런 시설이 있다는 얘기는 들어본 적이 없어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "这些该不会是……巨石阵！",
+			say = "설마… 마법진은 아니겠지!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "这种布局，确实好像某种仪式场地。",
+			say = "확실히 일종의 의식 장소처럼 보여.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "还有一件事……这片海域似乎存在“边缘”，边缘之外的水面是红色的……感觉离远一点最好。",
+			say = "그리고 하나 더… 이 해역엔 '끝'이 있는 것 같아요. 끝을 벗어난 수면은 붉은 색이죠…. 아무래도 멀리 떨어지는 것이 좋을 것 같아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "一处海域的海水有……两种颜色？好奇妙！",
+			say = "한 해역의 바닷물이… 두 가지 색이라고? 신기하네!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "……这里的天空也与我们熟悉的不同哦。",
+			say = "…이곳의 하늘도 우리가 알고 있는 것과 다르답니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "我没有看到太阳或者月亮，星空也和记录中的星图对不上。",
+			say = "태양이나 달은 보이지 않고, 별하늘도 기록된 성도와 달라요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "哇哦…………难道说，我们现在是在外星球上？！",
+			say = "우와… 설마 외계 행성에 도착한 건 아닐까!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "我突然感觉……好像有点，喘不上气……",
+			say = "갑자기… 숨이 가빠지는 것 같아….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "我也……",
+			say = "나도 그래….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "那你们是怎么一口气说了这么多话才感觉到的……",
+			say = "단숨에 그렇게 많은 말을 하니까 숨이 차죠….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "这里的空气成分似乎是正常的哦，有问题的只有天空而已。",
+			say = "이곳의 공기 성분은 정상인 것 같습니다, 이상한 건 하늘뿐이에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "……恐怕又是某个独特的镜面海域吧。",
+			say = "...아마도 또 어떤 특별한 거울 해역인 것 같네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "塞壬在镜面海域中做出天文奇观不是第一次，这次虽然……夸张了些，但也不用大惊小怪。",
+			say = "세이렌이 거울 해역에서 천문학적으로 기이한 광경을 연출한 건 이번이 처음은 아니지만, 확실히… 좀 더 이상해. 그렇다고 크게 놀랄 필요도 없지만.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "{namecode:435}大人，接下来我们应该从哪里着手调查？",
+			say = "비스마르크 님, 이제 어디서부터 조사를 시작해야 할까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "嗯……{namecode:491}，空中有什么发现么？",
+			say = "흐음… 야드, 공중에서 뭔가 발견됐어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还在搜索中，目前没有发现。",
+			say = "아직 확인 중입니다. 아직까진 아무 것도 발견되지 않았습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "海域空旷视野良好，如果她们三人没有进入那些立方体周边的设施里，应该很快就能找到了。",
+			say = "해역이 광활해 시야도 양호합니다. 만약 세 사람이 큐브 주변 시설에 들어가지만 않았다면, 금방 찾을 수 있을 거예요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "敌人呢？",
+			say = "적은?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "也没有发现任何可疑目标。",
+			say = "수상한 목표물도 발견되지 않았습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -733,7 +733,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "既然如此，在{namecode:491}进行海域侦察的同时，我们向着水中的巨型立方体建筑群前进吧。",
+			say = "그렇다면 야드가 해역 정찰을 하는 동안, 우린 물속의 거대한 큐브 시설로 이동해 보자.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -751,7 +751,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "虽然我也很在意边缘水域的情况，不过立方体周边的设施更加异常。",
+			say = "해역 끝의 상황도 신경 쓰이지만, 큐브 주변 시설이 더 수상해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -769,7 +769,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "也许{namecode:464}已经进去调查了。",
+			say = "울리히가 이미 조사를 위해 저 안으로 들어갔을지도 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,7 +786,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:416}，水下的侦查与护卫就交给你了，如果有异常情况立刻报告。",
+			say = "U-556, 수중 정찰과 엄호를 부탁해. 만약 이상 상황을 발견하면 즉시 보고해줘.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -804,7 +804,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "了解，各位的护卫就交给我吧，海上骑士开始下潜——",
+			say = "알았어. 여러분의 엄호는 나한테 맡겨! 그럼 바다 기사 잠수 시작——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -832,7 +832,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "真是可靠的骑士呢，那我们也出发吧~",
+			say = "든든한 기사님이네. 그럼 우리도 출발해볼까~",
 			painting = {
 				alpha = 0.3,
 				time = 1

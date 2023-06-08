@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tiancheng7",
 			stopbgm = true,
-			say = "重樱离岛·圣域",
+			say = "사쿠라 엠파이어 섬·성역",
 			bgmDelay = 2,
 			bgm = "story-4",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里是………圣域？我怎么会到这里来……？",
+			say = "여긴… 성역? 내가 어떻게 여기에 온 거지…?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,8 +49,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tiancheng7",
 			side = 2,
-			actorName = "{namecode:95}？",
-			say = "“...约定......守护............永远...”",
+			actorName = "쇼카쿠?",
+			say = "\"...약속… 수호… 영원히…\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,8 +61,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tiancheng7",
 			side = 2,
-			actorName = "{namecode:95}？",
-			say = "还记得么，我就是在这里牺牲自己救了你一命哦。",
+			actorName = "쇼카쿠?",
+			say = "바로 이곳에서 나 자신을 희생해 당신의 목숨을 구한 거 기억나나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:95}姐……？",
+			say = "쇼카쿠 언니?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不……不对，当时牺牲自己救了我的是……{namecode:95}姐的棋子！",
+			say = "아… 아니야, 그때 자신을 희생해서 날 구해줬던 건… 쇼카쿠  언니의 장기말이였어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,8 +117,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tiancheng7",
 			side = 2,
-			actorName = "{namecode:95}？",
-			say = "真的是这样么？",
+			actorName = "쇼카쿠?",
+			say = "정말 그럴까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,8 +129,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tiancheng7",
 			side = 2,
-			actorName = "{namecode:95}？",
-			say = "记忆中的事，就是事情的“真实”么？",
+			actorName = "쇼카쿠?",
+			say = "기억은 정말 '진실'일까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,8 +141,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tiancheng7",
 			side = 2,
-			actorName = "{namecode:95}？",
-			say = "{namecode:96}，跟我走吧。",
+			actorName = "쇼카쿠?",
+			say = "즈이카쿠, 나와 함께 가요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:95}姐……不对，你是谁？",
+			say = "쇼카쿠 언니... 아니, 넌 대체 누구지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,8 +170,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tiancheng7",
 			side = 2,
-			actorName = "{namecode:95}？",
-			say = "来我身边，{namecode:96}。",
+			actorName = "쇼카쿠?",
+			say = "옆으로 오세요, 즈이카쿠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊…………噩梦。",
+			say = "아… 악몽이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "害得前辈们和{namecode:464}阁下都深陷其中的……大致就是这种东西吧。",
+			say = "선배님들과 울리히 각하까지 당했다는 게… 대충 이런 거겠지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,8 +216,8 @@ return {
 			nameColor = "#ff5c5c",
 			bgName = "bg_story_tiancheng7",
 			side = 2,
-			actorName = "{namecode:95}？",
-			say = "{namecode:96}，为什么你不听话呢……",
+			actorName = "쇼카쿠?",
+			say = "즈이카쿠, 왜 말을 안 들어요…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			say = "哀叹之间，{namecode:95}的身影化作没有形状的黑色流丝，向着四面八方扩散开来。",
+			say = "비탄에 잠긴 사이 쇼카쿠의 모습은 형체 없는 검은 실루엣으로 변해 사방으로 퍼져 나갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "冒充姐姐的人，不可饶恕啊……",
+			say = "언니인 척 행세하는 놈은 용서할 수 없어….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——斩！",
+			say = "촤악!",
 			soundeffect = "event:/battle/plane",
 			painting = {
 				alpha = 0.3,
@@ -277,7 +277,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			say = "舰载机腾空而起，将黑色的气息撕裂。",
+			say = "함재기가 하늘 높이 치솟더니 검은 기운을 갈기갈기 찢었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			say = "但随即，更多的身影出现了——",
+			say = "그러나 곧 더 많은 그림자가 나타났다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……果然就算看破了，也没那么容易轻易出去。",
+			say = "...역시 악몽인 걸 눈치채도 쉽게 빠져나갈 순 없네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "想用无穷无尽的敌人消灭我的意志么？",
+			say = "끝없는 적들로 나의 의지를 무너뜨리고 싶은 건가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~对于我的意志来说，现在可是本土作战的状态哦。入侵者，放马过来吧！",
+			say = "허허~ 지금의 내 의지라면, 본토 작전 상태라고. 침입자, 어서 덤벼!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			say = "{namecode:96}说了些轻松的话来为自己打气，然后做好了苦战的准备——",
+			say = "즈이카쿠는 가벼운 말로 자신을 응원하며 힘든 싸움을 맞이할 각오를 다졌다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			bgm = "main-newyear",
 			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "海浪阵阵。",
+			say = "파도가 간간히 일고 있다.",
 			soundeffect = "event:/ui/fengling",
 			typewriter = {
 				speed = 0.05,
@@ -392,7 +392,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			say = "暗色的天空下，有着鲜明色彩的鸟居映入眼帘。",
+			say = "어두운 하늘 아래 선명한 색채의 도리이가 눈에 들어온다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸，等等…………这里是另一个噩梦么？",
+			say = "어, 잠깐만… 여긴 또 다른 악몽인가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:96}，冷静下来，先理清楚现状！",
+			say = "…즈이카쿠, 진정하고 먼저 상황부터 정리해보자!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就在不久前，我见到了噩梦中的假{namecode:95}姐，然后被无穷无尽的黑影包围。",
+			say = "조금 전 악몽 속에서 가짜 쇼카쿠 언니를 만났고, 끝없는 검은 그림자에 둘러싸였어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后听到了……风铃的声音？之后就来到了这里……",
+			say = "그러다가… 갑자기 풍령 소리가 들리더니 이곳에 오게 됐어….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这片空间究竟是……",
+			say = "이 공간은 대체…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			say = "风铃的余音似乎仍然飘散在空中，若隐若现。",
+			say = "풍령 소리가 여전히 희미하게 들려오는 것 같다.",
 			soundeffect = "event:/ui/fengling",
 			typewriter = {
 				speed = 0.05,
@@ -498,7 +498,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			say = "向着鸟居延伸的远方凝望时，似乎有一个模糊的身影。",
+			say = "도리이가 펼쳐진 먼 곳을 바라보니 희미한 모습이 보인다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			say = "与出现在上一个梦中的身影不同。不知为何，看到那个身影时，{namecode:96}的心底升起一股莫名的安心感。",
+			say = "조금 전 꿈에 나왔던 모습과는 다른 모습을 보자 즈이카쿠는 왠지 모르게 마음속에서 안도감이 피어올랐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请等一等，您是……！",
+			say = "잠깐, 넌…!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
-			say = "在爆炸的巨响中，向前伸出的手定格在了半空中。",
+			say = "폭발하는 굉음 속에서 앞으로 내민 손이 허공에 멈춰있다.",
 			soundeffect = "event:/ui/baozha1",
 			typewriter = {
 				speed = 0.05,
@@ -577,7 +577,7 @@ return {
 			actor = 9704010,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "{namecode:96}，怎么突然停下了？",
+			say = "즈이카쿠, 왜 갑자기 멈춘 거예요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "距离米德加尔特之塔的出发区还有一段路呢。",
+			say = "미드가르드 탑의 출발 구역까진 아직 한참 남았습니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……稍微回忆了一下之前的噩梦，和被你“叫醒”的瞬间。",
+			say = "아… 조금 전 악몽과 네가 날 '깨운' 순간을 회상하고 있었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "当时我也没有更好的办法了，况且从结果来说你也没有受伤。",
+			say = "더 좋은 방법이 생각나지 않았어요. 그리고 결과적으론 다치지도 않았고요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，我没有抱怨你的意思啦！只是感觉在梦里……算啦，不是什么重要的事。",
+			say = "앗, 널 원망하려는 뜻이 아니였어! 그냥 꿈에서… 아니다, 별로 중요한 일도 아니니까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,7 +671,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "时间紧迫，我们快跟上去吧！",
+			say = "시간이 얼마 남지 않았으니, 어서 쫓아가자!",
 			painting = {
 				alpha = 0.3,
 				time = 1

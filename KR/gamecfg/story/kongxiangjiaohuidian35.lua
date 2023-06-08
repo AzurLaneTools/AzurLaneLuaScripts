@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_14",
 			stopbgm = true,
-			say = "？？？·？？？",
+			say = "???·???",
 			bgmDelay = 2,
 			bgm = "theme-thetowerXVI",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_14",
-			say = "黑色衣装的少女正在控制台前操作着什么。",
+			say = "검은색 옷을 입은 소녀가 조작판 앞에서 무언가를 조작하고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_14",
-			say = "她的身后传来脚步声，另一个人走了进来。",
+			say = "그녀의 뒤에서 발자국 소리가 들려오더니 곧 다른 함선이 들어왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "迪贝路，在忙呢？",
+			say = "디벨로, 바빠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "看来我来得不是时候？",
+			say = "내가 때를 잘못 맞춰 왔나 보네?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "托瓦，没想到来的会是你。",
+			say = "토바, 네가 올 줄은 몰랐는데.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "这句话应该是我问你才对。",
+			say = "내가 물어볼 말인 것 같은데?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "你这段时间都去了哪里？",
+			say = "그동안 어디 있었던 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "在赫米忒这里做什么？",
+			say = "허밋의 본체 안에서 뭐하고 있는 거지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真麻烦……",
+			say = "정말 귀찮게 구네….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反正你的目的也跟我差不多吧。",
+			say = "어쨌든 네 목적도 나와 비슷하잖아?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这件事我放手，可以吧？",
+			say = "이번 일에서 손 뗄게, 됐지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "就算这件事算了，之前你去我那里大闹一场的账还没算清楚呢。",
+			say = "이번 일은 그렇다쳐도, 전에 네가 내 쪽에서 한바탕 소란을 피운 건 어떻게 할 건데?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还不是因为你自己家里先进了老鼠。",
+			say = "네 집에 쥐 한 마리가 들어가서 그런거 아니야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "那些是龙猫。",
+			say = "친칠라거든.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么都好了……",
+			say = "어쨌든…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我还有急事，接下来能不能让彼此执行各自的任务，互不干涉呢？",
+			say = "난 급한 일이 있어서 말이지. 이제 각자 임무를 수행하고 서로 간섭하지 않는 거 어때?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "那就要取决于你对于接下来这个问题的回答了。",
+			say = "내가 다음에 물어볼 질문에 대한 대답을 들어보고 생각해 볼게.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "————你的后援，是谁？",
+			say = "널 도와주고 있는 건 누구지?",
 			painting = {
 				alpha = 0.3,
 				time = 1

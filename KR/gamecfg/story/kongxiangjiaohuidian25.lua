@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_7",
 			stopbgm = true,
-			say = "？？？·米德加尔特之塔-连接通道",
+			say = "???·미드가르드 탑-연결 통로",
 			bgmDelay = 2,
 			bgm = "battle-thedevilXV-control",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "前面就是控制室了，{namecode:464}跟我一起来，我需要你的协助。",
+			say = "바로 앞이 관제실이야. 울리히, 같이 들어가자. 네 도움이 필요해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "其他人请在我们调查期间，保护好米德加尔特之塔和控制室的安全，指挥由{namecode:434}·META负责。",
+			say = "다른 인원은 우리가 조사할 동안, 미드가르드 탑의 관제실을 안전하게 지켜줘. 지휘는 그나이제나우·META가 담당한다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "……由我来负责指挥？",
+			say = "…제가 지휘를 맡는다고요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我明白了，放心交给我吧。",
+			say = "알겠어요. 걱정 말고 맡겨주세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg11",
-			say = "？？？·米德加尔特之塔-控制室",
+			say = "???·미드가르드 탑-관제실",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg11",
-			say = "屏幕上，依然展示着铁血舰队覆灭时的景象。",
+			say = "스크린에는 여전히 메탈 블러드 함대가 전멸했을 때의 장면이 그대로 나오고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,10 +136,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "原来如此，所以你把其他人都支开了啊。",
+			say = "이래서 모두를 관제실에 못 들어오게 했던 거구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,10 +147,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "虽然只是虚构的影像，但总归不是什么值得让大家看的东西。",
+			say = "비록 가상의 영상이긴하지만, 어쨌든 보여줄 만한 영상은 아니잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,10 +158,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "……赞同。就算理性知道是假的，感性产生的动摇也没那么容易被克服。",
+			say = "…동감해, 허구라는 걸 알면서도 감정의 동요는 내 마음대로 되는 게 아니니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,10 +169,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "你说的另一个出口，就在这影像之中么？",
+			say = "또 다른 출구가 바로 이 영상 속에 있다는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,10 +180,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "也许。",
+			say = "내 예상이 맞다면.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,10 +191,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "之前我在听你描述的时候，发现了一个也许连你自己都忽略了的细节。",
+			say = "전에 네 설명을 들으면서, 너 자신조차도 간과한 부분을 발견했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,10 +202,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "你的噩梦，发生了变化",
+			say = "네 악몽, 바뀌었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,10 +213,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "最初，是黑太阳。在进入空间时，变成了开启米德加尔特之塔。",
+			say = "처음에는 검은 태양이었어. 공간에 들어올 때 미드가르드 탑으로 변했지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,10 +224,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "而在进入控制室后，又变成了{namecode:441}的沉没——",
+			say = "그리고 관제실에 들어서자 프리드리히의 침몰로 변했고——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,10 +235,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "也就是之前显示在控制室屏幕中的那个影像。",
+			say = "즉, 관제실 화면에 보여졌던 그 영상이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,10 +246,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "好像，确实是这样……我只是一概把它们当成噩梦来处理了。",
+			say = "그런 것, 같아…. 그냥 전부 악몽으로 생각했거든.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,10 +257,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "之后，也就是赫米忒的量产机来袭前，我在控制室内调查的就是那个影像。",
+			say = "그런 다음, 그러니까 허밋의 양산기가 습격해오기 전, 내가 관제실에서 조사한 게 바로 그 영상이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,10 +268,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "我用相同的方法，再次进入了相同的“噩梦”中，而且在其中发现了某些东西。",
+			say = "같은 방법으로 같은 '악몽' 속으로 다시 들어갔고 그 속에서 무언가 발견했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,10 +279,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "利用屏幕上的影像重复进入了噩梦……？也就是说！",
+			say = "화면의 영상을 통해 다시 악몽에 들어갔다고…? 그렇다는 건!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,10 +295,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "没错，那根本不是什么“噩梦”，而是一个被设计好的、可以重复进入的稳定空间。",
+			say = "맞아, 그건 '악몽'이 아니라 반복해서 들어갈 수 있도록 설계된 공간인 거지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,10 +306,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "如果海域中存在其他通道的话，，也许会隐藏在里面……",
+			say = "만약 해역에 다른 통로가 존재한다면, 이 안에 숨겨져 있을 거야….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,10 +317,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "接下来我会用相同方式，对这个影像背后的空间进行调查。",
+			say = "이번에도 또 똑같은 방식으로 이 영상 속 공간에 대해 조사할 생각이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,10 +328,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "在这期间我没有办法关注外面的事。在你看上去我应该就像睡着了一样？",
+			say = "그동안 난 외부의 일을 신경쓸 수 없어. 아마 너한텐 내가 그냥 잠든 것처럼 보이겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,10 +339,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "如果敌人的进攻过于猛烈，或者我在里面呆了超过五个小时，就叫醒我。",
+			say = "적의 공격이 너무 맹렬하거나 내가 다섯 시간 이상 그곳에서 나오지 않으면 날 깨워줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,10 +350,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "我明白了。一路顺风，注意安全。",
+			say = "알겠어. 조심히 잘 다녀와.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_cg11",
-			say = "{namecode:435}伸手触碰画面，眼前的景色如同水面般泛起涟漪。",
+			say = "비스마르크가 손을 뻗어 화면을 터치하자 눈앞의 풍경이 수면처럼 잔잔하게 일렁였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "转瞬间，现实与梦境的界限再次消失了。",
+			say = "한순간, 현실과 꿈의 경계가 다시 사라졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

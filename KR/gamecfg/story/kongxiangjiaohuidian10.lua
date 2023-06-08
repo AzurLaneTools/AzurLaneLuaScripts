@@ -15,7 +15,7 @@ return {
 			actor = 405030,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "请让我与你同行。",
+			say = "나도 함께할 수 있게 해줘.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -48,7 +48,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "不行，你要留在这里。",
+			say = "안 돼, 넌 이곳에 남아야 해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "可是……",
+			say = "그렇지만…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "我已经决定了，你不必再提。",
+			say = "난 이미 결정했으니, 다시 얘기할 필요 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "专心准备作战吧……{namecode:464}。",
+			say = "전투 준비에 집중해… 울리히.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "一片火海之中，{namecode:464}的脑海中浮现出了离别当日的情景。",
+			say = "화염으로 뒤덮인 바다, 울리히는 이별의 그날을 떠올린다.",
 			bgm = "theme-bismark-reborn",
 			typewriter = {
 				speed = 0.05,
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "那个回忆中英姿飒爽的{namecode:440}，如今正孤零零倒在海面燃烧的残骸中。",
+			say = "기억 속 늠름한 모습의 프리드리히는 지금 바다 위 타오르는 잔해 속에 홀로 외롭게 쓰러져 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "不可一世的{namecode:440}，也会踏入绝境啊……",
+			say = "무적의 프리드리히도 궁지에 몰리다니….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "没有敌人、没有战友，只余下毁灭的烈火与断钢——正像是末路之地该有的样子。",
+			say = "적도, 전우도 없이, 파멸의 불길과 부러진 강철만 있을 뿐——  마치 종말의 모습 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "呵……真是讽刺，你寄予厚望的公海舰队呢？",
+			say = "후… 아이러니하네, 네가 그토록 기대하던 공해 함대는 어디 있지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "就是因为我不在你身边，才会发生这种事情啊……",
+			say = "내가 옆에 없어서 이런 일이 생긴 거라고…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "{namecode:441}，是谁把你打成这样的……",
+			say = "프리드리히, 대체 누가 널 이렇게 만든 거야…?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "还活着的话，就起来告诉我啊！",
+			say = "아직 살아 있다면, 어서 일어나서 대답해!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "回应{namecode:464}质问的，只有钢铁蜷曲时的刺耳啸叫。",
+			say = "울리히의 질문에 돌아온 건 강철의 삐걱거리는 날카로운 외침뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "所以说……当时带我一起走就是了……",
+			say = "그러니까…그때 나를 데리고 갔어야지….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "我留在没有你的铁血，又有什么意义呢……",
+			say = "너 없는 메탈 블러드가 내게 무슨 의미가 있겠어….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "哐当……哐当，由远及近。",
+			say = "탁… 탁… 먼곳에서 점점 가까워지고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "似乎有什么人正在接近这里。",
+			say = "누군가 이쪽으로 접근하고 있는 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "…………这就是困住了你内心的梦魇么，{namecode:464}。",
+			say = "…이게 네 마음을 사로잡은 악몽이야? 울리히.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "{namecode:435}…………你在铁血最需要你的时候抛弃了我们。",
+			say = "비스마르크… 넌 메탈 블러드가 널 가장 필요로 할 때 우릴 버렸어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "事到如今，你又跳出来做什么？",
+			say = "이제와서 갑자기 왜 또 나타난 거지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "看看周围吧，都已经到了这个份上了，你还要来命令我么？！",
+			say = "주위를 둘러봐! 이 지경이 되었는데도 내게 명령할 셈이야!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "我是{namecode:441}的部下，不是你的！",
+			say = "나는 프리드리히의 부하지, 네 부하가 아니야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "我知道。",
+			say = "알고 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "铁血能从绝境中逆转出来，多亏了{namecode:441}！",
+			say = "메탈 블러드가 사경을 헤쳐나갈 수 있었던 것은 프리드리히 덕분이라고!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "是她殚精竭虑，用尽一切手段，才让铁血摆脱了由你亲手带在铁血身上的塞壬枷锁！",
+			say = "그녀가 온갖 수단을 다 동원한 덕분에 메탈 블러드는 비로소 네가 메탈 블러드에 채운 세이렌의 족쇄를 벗어날 수 있었어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "在这期间你……什么都没有做！",
+			say = "그동안 넌… 아무것도 하지 않았지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "我知道。",
+			say = "알고 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "你知道……？",
+			say = "알고 있다고…?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "那你凭什么可以以一副理所应当的样子接管{namecode:441}辛辛苦苦所做的一切？！",
+			say = "그럼 어떻게 아무렇지도 않게 프리드리히가 고생으로 일군 모든 것들을 한순간에 가져갈 수 있는 거지!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "别人可以心平气和的接受你，我，不行！",
+			say = "다른 사람은 널 받아들일 수 있을지도 모르겠지만, 난, 아니야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,7 +689,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "我知道。",
+			say = "알고 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,7 +731,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "……我话都说到这个份上了，为什么你还不生气？",
+			say = "…내가 이렇게까지 말했는데 화도 안 나!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "来回击我啊！……铁血的现任领导者难道是一个懦夫么！",
+			say = "어서 반박해봐!… 메탈 블러드의 현 지도자께서 사실은 겁쟁이었던 거야!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -773,7 +773,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "你说的都是事实，我无话可说。",
+			say = "네 말은 모두 사실이니까. 내게 다른 할 말은 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,7 +796,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "而且，我非常感谢你能够把这些讲出来。",
+			say = "그리고 네가 이렇게 말해줘서 정말 고마워.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -814,7 +814,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "但是此刻，就这样沉沦在敌人的陷阱中，让敌人称心如意可不行。",
+			say = "하지만 지금 이렇게 적의 함정에 빠진 채 적이 원하는 대로 상황이 흘러가게 지켜보고 있을 수만은 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -832,7 +832,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "革律翁，展现你的力量，粉碎这虚伪的幻境吧！",
+			say = "게리온, 너의 힘을 보여줘. 이 거짓된 환상을 깨부수자!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -866,11 +866,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "게리온",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*猛烈的咆哮*██▌",
+			say = "▁▂▃▄▅▆▇███*맹렬한 포효*██▌",
 			soundeffect = "event:/ui/glassbroken",
 			typewriter = {
 				speed = 0.05,
@@ -923,11 +923,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "……………………果然，那些都是幻象而已。",
+			say = "…………역시, 환상이었던 건가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -935,11 +935,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你意识到了？",
+			say = "알고 있었어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -947,11 +947,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "从中途开始吧………………",
+			say = "중간쯤 깨달은 것 같아….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -959,11 +959,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "但是…………",
+			say = "하지만…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -971,11 +971,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "我真的，好想跟{namecode:441}一起走啊…………",
+			say = "난 정말이지, 프리드리히랑 같이 가고 싶었어….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,11 +983,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我知道。",
+			say = "알고 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -995,11 +995,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "…………刚刚我说的话，不是真心的。",
+			say = "…방금 내가 한 말은 진심이 아니었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1007,11 +1007,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我也知道。",
+			say = "알고 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,11 +1019,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在我不在的时候，你们承受了非同寻常的压力……为此，我心怀感激。",
+			say = "내가 없는 동안 엄청난 압박을 받으며 고생한 거 알아…. 그것에 대해 매우 고맙게 생각하고 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1031,11 +1031,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "感激你们在我重伤昏迷期间，不惜代价守护住了铁血。",
+			say = "내가 중상을 입고 혼수상태에 빠져 있는 동안 메탈 블러드를 지켜줘서 고마워.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1043,11 +1043,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "守护住了我们的容身之处……",
+			say = "우리의 집을 지켜주었어….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1055,11 +1055,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也因此，现在我们有了一个前往光明未来的机会。",
+			say = "그렇기 때문에 지금 우리가 더 밝은 미래로 갈 수 있는 기회가 생긴 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1067,11 +1067,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只是听几句抱怨不算什么，我都做好迎接更猛烈愤怒的准备了。",
+			say = "원망 몇 마디 듣는 건 아무 것도 아니야. 더 격한 분노를 맞이할 준비도 되어있거든.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1079,11 +1079,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "…………再怎么说我也不会对你开火的。",
+			say = "…아무리 그래도 널 공격하진 않을 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1091,11 +1091,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "这一点计算失误了哦，{namecode:435}阁下。",
+			say = "네 계산이 빗나갔어, 비스마르크 각하.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1103,11 +1103,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵……倒确实是有点小小的失算了。",
+			say = "후후… 작은 실수를 하고 말았네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1115,11 +1115,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "休息时间差不多该结束了，现在感觉如何？",
+			say = "쉬는 시간이 거의 끝나가는데 지금 기분이 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1127,11 +1127,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "很难受……就算此刻，脑海中也依然有一个狂躁的声音在吠叫。",
+			say = "괴로워…. 지금 이 순간에도 머릿속에는 미쳐 날뛰는 목소리가 울부짖고 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1139,11 +1139,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "这种状态……就是META化么？",
+			say = "이런 상태가 설마… META화인 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1151,11 +1151,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "准确来说是META化的过程中。",
+			say = "정확히는 META화의 과정이라고 볼 수 있지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1163,11 +1163,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我理解这是怎样的感受，被排山倒海的负面情感所裹挟，连坚守自我都是奢望。",
+			say = "어떤 기분인지 이해해. 말로 형용할 수 없는 온갖 부정적인 감정에 사로잡혀 스스로를 지키는 것조차 욕심같이 느껴지지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1175,11 +1175,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "然而你依然保持着自我意识，将损害限制在了可控范围内，真的了不起。",
+			say = "그런데도 여전히 의식을 유지한 채 피해를 통제 가능한 수준으로 제한하고 있다니, 정말 대단한걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1187,11 +1187,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "울리히 폰 후텐",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "有什么彻底的解决办法么……这样下去我只会成为行动的累赘。",
+			say = "확실한 해결책이라도 있을까…? 계속 이러다간 결국 모두의 짐만 될 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1199,11 +1199,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "自然有，不用担心。",
+			say = "물론이지, 그러니까 걱정하지 않아도 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1211,11 +1211,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然我可能不是那么称职的领袖，但是既然我回来了——",
+			say = "내가 그렇게 유능한 리더는 아닐지 모르겠지만, 내가 돌아온 이상——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1223,11 +1223,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "剩下的就交给我吧——",
+			say = "나머진 내게 맡겨줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
