@@ -89,7 +89,11 @@ pg.ship_meta_breakout = setmetatable({
 		9712011,
 		9712012,
 		9712013,
-		9712014
+		9712014,
+		9703021,
+		9703022,
+		9703023,
+		9703024
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1530,6 +1534,69 @@ pg.base.ship_meta_breakout = {
 		id = 9712014,
 		item1 = 21022,
 		pre_id = 9712013,
+		weapon_ids = {}
+	},
+	[9703021] = {
+		breakout_view = "Unlock Cinders of Hope – Algérie/Torpedo efficiency +5%",
+		gold = 500,
+		breakout_id = 9703022,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9703021,
+		item1 = 21023,
+		pre_id = 0,
+		weapon_ids = {
+			80011
+		}
+	},
+	[9703022] = {
+		breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		gold = 1500,
+		breakout_id = 9703023,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9703022,
+		item1 = 21023,
+		pre_id = 9703021,
+		weapon_ids = {
+			105,
+			105
+		}
+	},
+	[9703023] = {
+		breakout_view = "Improve Hope – Algérie/Torpedo efficiency +15%",
+		gold = 2500,
+		breakout_id = 9703024,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9703023,
+		item1 = 21023,
+		pre_id = 9703022,
+		weapon_ids = {
+			80012
+		}
+	},
+	[9703024] = {
+		breakout_view = "N/A",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9703024,
+		item1 = 21023,
+		pre_id = 9703023,
 		weapon_ids = {}
 	}
 }

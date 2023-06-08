@@ -41,7 +41,7 @@ function slot0.isUnlock(slot0)
 		elseif not getProxy(ActivityProxy):getActivityById(slot0:getConfig("on_activity")) or slot2:isEnd() then
 			return false, i18n("common_activity_end")
 		else
-			slot3, slot4 = slot0:isAnyChapterUnlocked(true)
+			slot3, slot4 = slot0:isAnyChapterUnlocked()
 
 			if slot3 then
 				return true
@@ -54,7 +54,7 @@ function slot0.isUnlock(slot0)
 			end
 		end
 	elseif slot0:getMapType() == Map.SCENARIO then
-		if slot0:isAnyChapterUnlocked(false, true) then
+		if slot0:isAnyChapterUnlocked(false) then
 			return true
 		else
 			return false, i18n("battle_levelScene_lock")
@@ -159,26 +159,26 @@ function slot0.isEliteEnabled(slot0)
 	return slot1:isAllChaptersClear() and slot1:isAllChaptersAchieve()
 end
 
-function slot0.isAnyChapterUnlocked(slot0, slot1, slot2)
-	slot3 = false
-	slot7 = true
+function slot0.isAnyChapterUnlocked(slot0, slot1)
+	slot2 = false
+	slot6 = true
 
-	for slot7, slot8 in ipairs(slot0:getChapters(slot7)) do
-		if (not slot2 or slot8:getPlayType() ~= ChapterConst.TypeMainSub) and slot8:isUnlock() then
-			if not slot1 or slot8:inActTime() then
+	for slot6, slot7 in ipairs(slot0:getChapters(slot6)) do
+		if slot7:isUnlock() then
+			if not slot1 or slot7:inActTime() then
 				return true
 			else
-				slot3 = true
+				slot2 = true
 			end
 		end
 	end
 
-	return false, slot3
+	return false, slot2
 end
 
-function slot0.isAnyChapterClear(slot0, slot1)
+function slot0.isAnyChapterClear(slot0)
 	return underscore.any(slot0:getChapters(true), function (slot0)
-		return (not uv0 or slot0:getPlayType() ~= ChapterConst.TypeMainSub) and slot0:isClear()
+		return slot0:isClear()
 	end)
 end
 
@@ -211,7 +211,7 @@ function slot0.getLastUnlockChapterName(slot0)
 	slot5 = true
 
 	for slot5, slot6 in ipairs(slot0:getChapters(slot5)) do
-		if slot6:getPlayType() == ChapterConst.TypeMainSub or not slot6:isUnlock() then
+		if not slot6:isUnlock() then
 			break
 		end
 

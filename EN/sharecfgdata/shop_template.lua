@@ -19976,6 +19976,63 @@ _G.pg.base.shop_template[60404] = {
 	}
 }
 
+_G.pg.base.shop_template[60405] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "980钻石购买限时礼包-比翼双飞（6周年庆第三弹）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 3,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60405,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40100
+	},
+	time = {
+		{
+			{
+				2022,
+				6,
+				8
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				6,
+				14
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[61001] = {
 	is_auto_use = 0,
 	time_second = 0,
@@ -20311,7 +20368,7 @@ _G.pg.base.shop_template[61014] = {
 	resource_type = 14,
 	type = 2,
 	genre = "gem_shop",
-	desc = "60钻石购买100心智单元（1~5次）",
+	desc = "180钻石购买300心智单元（1~5次）",
 	group_limit = 15,
 	group_buy_count = 1,
 	tag = 0,
@@ -20344,7 +20401,7 @@ _G.pg.base.shop_template[61015] = {
 	resource_type = 14,
 	type = 2,
 	genre = "gem_shop",
-	desc = "120钻石购买100心智单元（6~10次）",
+	desc = "360钻石购买300心智单元（6~10次）",
 	group_limit = 15,
 	group_buy_count = 1,
 	tag = 0,
@@ -20377,7 +20434,7 @@ _G.pg.base.shop_template[61016] = {
 	resource_type = 14,
 	type = 2,
 	genre = "gem_shop",
-	desc = "200钻石购买100心智单元（11~15次）",
+	desc = "600钻石购买300心智单元（11~15次）",
 	group_limit = 15,
 	group_buy_count = 1,
 	tag = 0,
@@ -38646,7 +38703,7 @@ _G.pg.base.shop_template[70553] = {
 	desc = "购买皮肤:威悉礼服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
 	order = 150,
@@ -38673,7 +38730,7 @@ _G.pg.base.shop_template[70554] = {
 	desc = "购买皮肤:可畏礼服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
 	order = 150,
@@ -38700,7 +38757,7 @@ _G.pg.base.shop_template[70555] = {
 	desc = "购买皮肤:赫敏礼服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
 	order = 150,
@@ -38727,7 +38784,7 @@ _G.pg.base.shop_template[70556] = {
 	desc = "购买皮肤:蒙彼利埃礼服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
 	order = 150,
@@ -38754,7 +38811,7 @@ _G.pg.base.shop_template[70557] = {
 	desc = "购买皮肤:胡德礼服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
 	order = 150,
@@ -38781,7 +38838,7 @@ _G.pg.base.shop_template[70558] = {
 	desc = "购买皮肤:黑太子礼服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
 	order = 150,
@@ -38808,7 +38865,7 @@ _G.pg.base.shop_template[70559] = {
 	desc = "购买皮肤:英勇礼服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
 	order = 150,
@@ -38835,7 +38892,7 @@ _G.pg.base.shop_template[70560] = {
 	desc = "购买皮肤:长波礼服",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
 	order = 150,

@@ -50,6 +50,10 @@ function slot0.OnInit(slot0)
 		}
 	end
 
+	if not getProxy(ActivityProxy):getActivityById(ActivityConst.SIX_SIGN_ACT_ID) or not slot2:isShow() then
+		table.insert(slot0.hideIndex, 4)
+	end
+
 	slot0:findUI()
 end
 

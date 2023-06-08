@@ -1292,14 +1292,6 @@ _G.pg.base.gametip.common_no_item_1 = {
 	tip = "Not enough items"
 }
 
-_G.pg.base.gametip.common_use_item_sos_max = {
-	tip = "You cannot receive any more Signals."
-}
-
-_G.pg.base.gametip.common_use_item_sos_used = {
-	tip = "Number of Distress Signals +$1"
-}
-
 _G.pg.base.gametip.common_no_x = {
 	tip = "You don't have enough <color=#92fc63>$1</color>!"
 }
@@ -3911,22 +3903,6 @@ _G.pg.base.gametip.levelScene_destroy_torpedo = {
 	tip = "Successfully defused naval mine. "
 }
 
-_G.pg.base.gametip.levelScene_sub_refresh_count_not_enough = {
-	tip = "You are not receiving any Distress Signals."
-}
-
-_G.pg.base.gametip.levelScene_jump_to_sub_confirm = {
-	tip = "Signal source located. Would you like to head to \"$1\" in Chapter $2?"
-}
-
-_G.pg.base.gametip.levelScene_signal_help_tip = {
-	tip = "About Distress Signals"
-}
-
-_G.pg.base.gametip.levelScene_search_area = {
-	tip = "[Signal Range: up to Chapter $1]"
-}
-
 _G.pg.base.gametip.levelScene_new_chapter_coming = {
 	tip = "New Chapter(s): "
 }
@@ -4031,10 +4007,6 @@ Morale drain and Affection gain are also increased by 100%. ]]
 
 _G.pg.base.gametip.tack_tickets_max_warning = {
 	tip = "You already have the maximum amount of <color=#ffde38>Data Keys</color>. You will receive <color=#ff5c5c>$1</color> Data Key(s) if you proceed. Would you still like to collect these rewards? "
-}
-
-_G.pg.base.gametip.error_refresh_sub_chapter = {
-	tip = "You cannot initiate any more Rescue Missions. "
 }
 
 _G.pg.base.gametip.world_battle_count = {
@@ -4507,9 +4479,9 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>3/9/23 to 6/8/23</color>, challenge Queen Elizabeth META
+From <color=#92fc63>30/8/23 to 6/8/23</color>, challenge Algérie META META
 to earn Sync Points. Sync Points can be used
-to obtain the limited character, <color=#92fc63>Queen Elizabeth META</color> as well
+to obtain the limited character, <color=#92fc63>Algérie META META</color> as well
 as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
@@ -4845,6 +4817,26 @@ _G.pg.base.gametip.buy_item_quest = {
 
 _G.pg.base.gametip.refresh_shopStreet_question = {
 	tip = "Spend $1 <color=#92fc63>$2</color> to refresh the list of items in the shop?\n\n<size=30>(Bought <size=30><color=#FF0000>$3</color></size> times today)</size>"
+}
+
+_G.pg.base.gametip.quota_shop_title = {
+	tip = "Core Shop (Ltd.)"
+}
+
+_G.pg.base.gametip.quota_shop_description = {
+	tip = "Core Data can be used to exchange for certain event items, up to a limit."
+}
+
+_G.pg.base.gametip.quota_shop_owned = {
+	tip = "Limit"
+}
+
+_G.pg.base.gametip.quota_shop_good_limit = {
+	tip = "Limit Reached"
+}
+
+_G.pg.base.gametip.quota_shop_limit_error = {
+	tip = "Unable to exchange; you cannot hold any more of this item."
 }
 
 _G.pg.base.gametip.event_start_success = {
@@ -8692,7 +8684,7 @@ _G.pg.base.gametip.destroy_high_level_tip = {
 }
 
 _G.pg.base.gametip.destroy_eliteequipment_tip = {
-	tip = "You are about to destroy $1 gear.\nAre you sure you want to continue?"
+	tip = "You've selected gear of $1 rarity. Continue?"
 }
 
 _G.pg.base.gametip.destroy_high_intensify_tip = {
@@ -8701,6 +8693,10 @@ _G.pg.base.gametip.destroy_high_intensify_tip = {
 
 _G.pg.base.gametip.destroy_inHardFormation_tip = {
 	tip = "<color=#92fc63>In Hard Mode</color>"
+}
+
+_G.pg.base.gametip.destroy_equip_rarity_tip = {
+	tip = "Please enter the following into the box below: <color=#92fc63>$1</color>"
 }
 
 _G.pg.base.gametip.ship_quick_change_noequip = {
@@ -8849,10 +8845,6 @@ _G.pg.base.gametip.word_status_rest = {
 
 _G.pg.base.gametip.word_status_train = {
 	tip = "Training"
-}
-
-_G.pg.base.gametip.word_status_challenge = {
-	tip = "In event sortie"
 }
 
 _G.pg.base.gametip.word_status_world = {
@@ -9577,37 +9569,6 @@ _G.pg.base.gametip.anniversary_task_title_13 = {
 
 _G.pg.base.gametip.anniversary_task_title_14 = {
 	tip = "I can't wait until I can see you once more. When the birds resume their song once more..."
-}
-
-_G.pg.base.gametip.help_sos = {
-	tip = {
-		{
-			info = [[
-About SOS Signals
--SOS Signals are received at random. You can receive them even if not logged in to the game.
--You must first clear the final stage (X-4) of a Chapter before you can receive SOS Signals from that chapter.
-
-About the Search Function
--Tap on the Search button search for the location the SOS Signal came from.
--Once you've located the signal's source, you can initiate a Rescue Mission.
--Rescue Missions correspond to different Chapters, and only one Rescue Mission can be active per chapter.
--Rescue Missions must be cleared within 12 hours, after which they will disappear.
-
-Signal Strength
--Signal Strength affects the range that Rescue Missions can appear in.
--At a Signal Strength of 1, Rescue Missions will only appear in Chapter 3.
--As Signal Strength increases, Rescue Missions will be able to appear in higher and higher Chapters.
--Signal Strength will increase by 1 every time you complete the furthest unlocked Rescue Mission with an S rating.
--The maximum Signal Strength possible is 8. The higher the Signal Strength, the better the potential rewards.
-
-Combat Encounters
--Enemy submarines will appear in Rescue Missions. Use DDs or CLs equipped with ASW equipment to counter them.]]
-		}
-	}
-}
-
-_G.pg.base.gametip.sos_lock = {
-	tip = "救援海域は開放されていません "
 }
 
 _G.pg.base.gametip.charge_scene_buy_confirm = {
@@ -11026,6 +10987,10 @@ _G.pg.base.gametip.school_title_xueyuan = {
 
 _G.pg.base.gametip.school_title_shoucang = {
 	tip = "Medallion "
+}
+
+_G.pg.base.gametip.school_title_xiaoyouxiting = {
+	tip = "Arcade"
 }
 
 _G.pg.base.gametip.tag_level_fighting = {
@@ -18061,26 +18026,6 @@ _G.pg.base.gametip.daily_level_quick_battle_label3 = {
 	tip = "Quick\nBattle "
 }
 
-_G.pg.base.gametip.LevelSignal = {
-	tip = "SOS Signal"
-}
-
-_G.pg.base.gametip.LevelSignal_go = {
-	tip = "Confirm"
-}
-
-_G.pg.base.gametip.LevelSignal_search = {
-	tip = "Search"
-}
-
-_G.pg.base.gametip.LevelSignal_times = {
-	tip = "Search Attempts"
-}
-
-_G.pg.base.gametip.LevelSignal_intensity = {
-	tip = "Signal Strength"
-}
-
 _G.pg.base.gametip.backyard_longpress_ship_tip = {
 	tip = "<size=27>Tap and hold to view detailed character information.</size>"
 }
@@ -20211,10 +20156,6 @@ _G.pg.base.gametip.shipmodechange_reject_1stfleet_only = {
 
 _G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
 	tip = "You cannot leave this fleet without at least 1 Vanguard/Main Fleet ship. Edit your fleet formation and try again."
-}
-
-_G.pg.base.gametip.shipmodechange_reject_inactivity = {
-	tip = "One or more ships are currently participating in a Challenge Mode, Joint Operation or Coalition Battle event stage. Please adjust your fleet and try again."
 }
 
 _G.pg.base.gametip.monopoly3thre_tip = {
@@ -23728,6 +23669,56 @@ _G.pg.base.gametip.limit_team_character_tips = {
 	tip = "You cannot have same name ships in your Coalition Battle fleets."
 }
 
+_G.pg.base.gametip.game_room_help = {
+	tip = [[
+- About the Arcade -
+In the Arcade, you'll be able to play certain minigames. Minigames will be gradually added in the future, and some minigames may not be made available for the time being.
+When playing minigames, using Credits will allow you to earn Game Tickets at the end of the minigame.
+Game Tickets may be exchanged for certain rerun items at the Prize Shop.
+
+You may play minigames without spending Credits.
+
+- About Credits -
+Credits can be used to allow you to earn Game Tickets at the end of a minigame.
+When starting a minigame, you can choose the number of Credits you'd like to use at the start screen.
+Every week, you can obtain 10 Credits from Akashi in the Arcade. Additional Credits can be purchased with Coins.
+You can hold a maximum of 40 Credits.
+
+- About Game Tickets -
+Game Tickets can be used at the Prize Shop to exchange for rewards. The rewards available at the Prize Shop will be continuously updated in the future.
+Game Tickets can be obtained through spending Credits on playing minigames.
+The number of Game Tickets earned depends on the number of Credits used, as well as your minigame score.
+You can hold a maximum of 50,000 Game Tickets, and you may earn a maximum of 10,000 Game Tickets per month.]]
+}
+
+_G.pg.base.gametip.game_cannot_go = {
+	tip = "This game is currently unavailable."
+}
+
+_G.pg.base.gametip.game_ticket_notenough = {
+	tip = "You don't have enough Game Tickets. Return to the Arcade?"
+}
+
+_G.pg.base.gametip.game_ticket_max_all = {
+	tip = "You've reached the maximum number of Game Tickets, and will not be able to earn any more. Continue playing the minigame?"
+}
+
+_G.pg.base.gametip.game_ticket_max_month = {
+	tip = "You've reached your monthly limit of Game Tickets, and will not be able to earn any more. Continue playing the minigame?"
+}
+
+_G.pg.base.gametip.game_icon_notenough = {
+	tip = "You don't have enough Credits. Buy more with Coins?"
+}
+
+_G.pg.base.gametip.game_goldbyicon = {
+	tip = "Would you like to spend $1 Coins to buy $2 Credits?"
+}
+
+_G.pg.base.gametip.game_icon_max = {
+	tip = "You've reached the maximum number of Credits, and will not be able to hold any more than this amount. Continue?"
+}
+
 _G.pg.base.gametip.caibulin_tip1 = {
 	tip = "Maybe you'll find something in 1-2 of the Main Campaign, bulin?"
 }
@@ -24193,6 +24184,10 @@ _G.pg.base.gametip.islandshop_tips4 = {
 	tip = "Insufficient $1"
 }
 
+_G.pg.base.gametip.island_shop_limit_error = {
+	tip = "Unable to exchange; you cannot hold any more of this item."
+}
+
 _G.pg.base.gametip.haidaojudian_upgrade_limit = {
 	tip = "You can't upgrade this building right now. Try a different one!"
 }
@@ -24402,4 +24397,48 @@ _G.pg.base.gametip.littleTaihou_npc = {
 			info = "· Taihou-chan cannot participate in Guild Bosses until she has been formally recruited."
 		}
 	}
+}
+
+_G.pg.base.gametip.disassemble_selected = {
+	tip = "Selected"
+}
+
+_G.pg.base.gametip.disassemble_available = {
+	tip = "Obtainable"
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_challenge = {
+	tip = "Challenge Fleet"
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_challenge_sub = {
+	tip = "Challenge Fleet"
+}
+
+_G.pg.base.gametip.word_status_activity = {
+	tip = "In Event"
+}
+
+_G.pg.base.gametip.word_status_challenge = {
+	tip = "In Challenge"
+}
+
+_G.pg.base.gametip.shipmodechange_reject_inactivity = {
+	tip = "A ship has already been added to an event fleet. Please check your formation and try again."
+}
+
+_G.pg.base.gametip.shipmodechange_reject_inchallenge = {
+	tip = "A ship has already been added to a challenge fleet. Please check your formation and try again."
+}
+
+_G.pg.base.gametip.battle_result_total_time = {
+	tip = "Clear Time:"
+}
+
+_G.pg.base.gametip.charge_game_room_coin_tip = {
+	tip = "Spend <color=#92fc63><icon name=gold w=0.7 h=0.7/>$1</color> to purchase <color=$3>$4 $2</color>?"
+}
+
+_G.pg.base.gametip.game_room_shooting_tip = {
+	tip = "当前积分："
 }

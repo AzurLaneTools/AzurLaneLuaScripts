@@ -22,22 +22,22 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffCastSkill",
-			trigger = {
-				"onAllInStrikeSteady"
-			},
-			arg_list = {
-				skill_id = 106150,
-				target = "TargetSelf"
-			}
-		},
-		{
 			type = "BattleBuffAddBuff",
 			trigger = {
 				"onStartGame"
 			},
 			arg_list = {
 				buff_id = 106151,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAllInStrikeSteady"
+			},
+			arg_list = {
+				buff_id = 106152,
 				target = "TargetSelf"
 			}
 		}

@@ -177,6 +177,11 @@ pg.task_meta_data_template = setmetatable({
 		100083,
 		100084,
 		100085,
+		100091,
+		100092,
+		100093,
+		100094,
+		100095,
 		200001,
 		200002,
 		200003,
@@ -208,7 +213,11 @@ pg.task_meta_data_template = setmetatable({
 		200081,
 		200082,
 		200083,
-		200084
+		200084,
+		200091,
+		200092,
+		200093,
+		200094
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1613,6 +1622,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100091] = {
+		target_id_2 = "970302",
+		sub_type = 180,
+		desc = "Win 1 battle with Algérie META. in your fleet.",
+		id = 100091,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100092] = {
+		target_id_2 = "970302",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Algérie META. in your fleet.",
+		id = 100092,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100093] = {
+		target_id_2 = "970302",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Algérie META. in your fleet.",
+		id = 100093,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100094] = {
+		target_id_2 = "970302",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Algérie META. in your fleet.",
+		id = 100094,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100095] = {
+		target_id_2 = "970302",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Algérie META. in your fleet.",
+		id = 100095,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1866,6 +1915,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Vestal META in your fleet.",
 		id = 200084,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200091] = {
+		target_id_2 = "970302",
+		sub_type = 320,
+		desc = "Win 1 Operation Siren battle with Algérie META. in your fleet.",
+		id = 200091,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200092] = {
+		target_id_2 = "970302",
+		sub_type = 320,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Algérie META. in your fleet.",
+		id = 200092,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200093] = {
+		target_id_2 = "970302",
+		sub_type = 320,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Algérie META. in your fleet.",
+		id = 200093,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200094] = {
+		target_id_2 = "970302",
+		sub_type = 320,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Algérie META. in your fleet.",
+		id = 200094,
 		target_num = 1,
 		target_id = "100"
 	}

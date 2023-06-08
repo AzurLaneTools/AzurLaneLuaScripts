@@ -87,27 +87,23 @@ function slot0.Exit(slot0, slot1)
 	}
 
 	slot1:SendRequest(slot13, function (slot0)
-		if uv0.end_sink_cost > 0 then
-			uv1.DeadShipEnergyCosume(uv2, uv3)
-		end
+		uv0.addShipsExp(slot0.ship_exp_list, uv1.statistics)
 
-		uv1.addShipsExp(slot0.ship_exp_list, uv2.statistics)
+		uv1.statistics.mvpShipID = slot0.mvp
+		slot1, slot2 = uv0:GeneralLoot(slot0)
 
-		uv2.statistics.mvpShipID = slot0.mvp
-		slot1, slot2 = uv1:GeneralLoot(slot0)
-
-		uv1.GeneralPlayerCosume(SYSTEM_CHALLENGE, ys.Battle.BattleConst.BattleScore.C < uv4, uv5, slot0.player_exp, exFlag)
-		uv1:sendNotification(GAME.FINISH_STAGE_DONE, {
+		uv0.GeneralPlayerCosume(SYSTEM_CHALLENGE, ys.Battle.BattleConst.BattleScore.C < uv2, uv3, slot0.player_exp, exFlag)
+		uv0:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = SYSTEM_CHALLENGE,
-			statistics = uv2.statistics,
-			score = uv4,
+			statistics = uv1.statistics,
+			score = uv2,
 			drops = slot1,
 			commanderExps = {},
 			result = slot0.result,
 			extraDrops = slot2
 		})
 
-		slot5 = uv6
+		slot5 = uv4
 
 		function slot6(slot0)
 			if uv0.statistics[slot0] then

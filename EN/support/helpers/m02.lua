@@ -891,7 +891,6 @@ function updateEquipment(slot0, slot1, slot2)
 	slot2 = slot2 or {}
 
 	assert(slot1, "equipmentVo can not be nil.")
-	assert(isa(slot1, Equipment), "equipmentVO is not Equipment.")
 
 	slot3 = EquipmentRarity.Rarity2Print(slot1.config.rarity)
 
@@ -1640,7 +1639,13 @@ function GetOwnedDropCount(slot0)
 				return getProxy(BagProxy):getItemCountById(slot0.id), true
 			end,
 			[DROP_TYPE_EQUIP] = function (slot0)
-				return getProxy(EquipmentProxy):getEquipmentById(slot0.id) and slot1.count or 0
+				slot1 = pg.equip_data_template[slot0.id].group
+
+				assert(pg.equip_data_template.get_id_list_by_group[slot1], "equip groupId not exist")
+
+				return underscore.reduce(pg.equip_data_template.get_id_list_by_group[slot1], 0, function (slot0, slot1)
+					return slot0 + (getProxy(EquipmentProxy):getEquipmentById(slot1) and slot2.count or 0) + getProxy(BayProxy):GetEquipCountInShips(slot1)
+				end)
 			end,
 			[DROP_TYPE_SHIP] = function (slot0)
 				return getProxy(BayProxy):getConfigShipCount(slot0.id)
@@ -1815,10 +1820,10 @@ end
 function openDockyardClear()
 	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 		blockLock = true,
-		selectedMax = 10,
 		skipSelect = true,
 		mode = DockyardScene.MODE_DESTROY,
 		leftTopInfo = i18n("word_destroy"),
+		selectedMax = getGameset("ship_select_limit")[1],
 		onShip = ShipStatus.canDestroyShip,
 		ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
 			isActivityNpc = true
@@ -3346,18 +3351,6 @@ function checkBirthFormat(slot0)
 	return true
 end
 
-slot21 = xpcall
-
-function TryCall(slot0, slot1, ...)
-	uv0(slot0, function (slot0)
-		errorMsg("Error Handler", slot0)
-
-		if uv0 then
-			uv0(slot0)
-		end
-	end, ...)
-end
-
 function isHalfBodyLive2D(slot0)
 	return _.any({
 		"biaoqiang",
@@ -3420,9 +3413,9 @@ function changeToScrollText(slot0, slot1)
 	setScrollText(slot3, slot1)
 end
 
-slot22, slot23, slot24, slot25 = nil
+slot21, slot22, slot23, slot24 = nil
 
-function slot22(slot0, slot1, slot2)
+function slot21(slot0, slot1, slot2)
 	slot3 = slot0.Find(slot0, "base")
 	slot4, slot5, slot6 = Equipment.GetInfoTrans(slot1, slot2)
 
@@ -3457,7 +3450,7 @@ function slot22(slot0, slot1, slot2)
 	end
 end
 
-function slot23(slot0, slot1, slot2, slot3)
+function slot22(slot0, slot1, slot2, slot3)
 	uv0(slot0, slot2, slot3)
 
 	if not slot2.sub or #slot2.sub == 0 then
@@ -3467,12 +3460,12 @@ function slot23(slot0, slot1, slot2, slot3)
 	uv1(slot0.Find(slot0, "subs"), slot1, slot2.sub, slot3)
 end
 
-function slot24(slot0, slot1, slot2, slot3)
+function slot23(slot0, slot1, slot2, slot3)
 	removeAllChildren(slot0)
 	uv0(slot0, slot1, slot2, slot3)
 end
 
-function slot25(slot0, slot1, slot2, slot3)
+function slot24(slot0, slot1, slot2, slot3)
 	for slot7, slot8 in ipairs(slot2) do
 		uv0(cloneTplTo(slot1, slot0), slot1, slot8, slot3)
 	end
@@ -3792,7 +3785,7 @@ function setIntimacyIcon(slot0, slot1, slot2)
 	return slot4
 end
 
-slot26 = nil
+slot25 = nil
 
 function nowWorld()
 	uv0 = uv0 or getProxy(WorldProxy)
@@ -3823,7 +3816,7 @@ function parseTimeConfig(slot0)
 	end
 end
 
-slot27 = {
+slot26 = {
 	__add = function (slot0, slot1)
 		return NewPos(slot0.x + slot1.x, slot0.y + slot1.y)
 	end,
@@ -3864,7 +3857,7 @@ function NewPos(slot0, slot1)
 	return slot2
 end
 
-slot28 = nil
+slot27 = nil
 
 function Timekeeping()
 	warning(Time.realtimeSinceStartup - (uv0 or Time.realtimeSinceStartup), Time.realtimeSinceStartup)
@@ -3922,6 +3915,22 @@ function getSurveyUrl(slot0)
 	return slot11
 end
 
+function GetMoneySymbol()
+	if PLATFORM_CH == PLATFORM_CODE then
+		return "￥"
+	elseif PLATFORM_JP == PLATFORM_CODE then
+		return "￥"
+	elseif PLATFORM_KR == PLATFORM_CODE then
+		return "₩"
+	elseif PLATFORM_US == PLATFORM_CODE then
+		return "$"
+	elseif PLATFORM_CHT == PLATFORM_CODE then
+		return "TWD"
+	end
+
+	return ""
+end
+
 function FilterVarchar(slot0)
 	assert(type(slot0) == "string" or type(slot0) == "table")
 
@@ -3952,4 +3961,15 @@ function fillSurveyUrl(slot0)
 	warning(slot9)
 
 	return slot9
+end
+
+function getGameset(slot0)
+	slot1 = pg.gameset[slot0]
+
+	assert(slot1)
+
+	return {
+		slot1.key_value,
+		slot1.description
+	}
 end

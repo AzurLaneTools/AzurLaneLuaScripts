@@ -378,22 +378,62 @@ end
 function slot0.remove(slot0)
 end
 
-function slot0.addSubLayers(slot0, slot1, slot2, slot3)
+function slot0.addSubLayers(slot0, slot1, slot2, slot3, slot4)
 	assert(isa(slot1, Context), "should be an instance of Context")
 
-	slot6 = getProxy(ContextProxy):getCurrentContext():getContextByMediator(slot0.class)
+	slot5 = slot0:GetContext()
 
 	if slot2 then
-		while slot6.parent do
-			slot6 = slot6.parent
+		while slot5.parent do
+			slot5 = slot5.parent
+		end
+	elseif not slot1.data.isSubView then
+		while slot5.data.isSubView do
+			slot5 = slot5.parent
 		end
 	end
 
-	slot0:sendNotification(GAME.LOAD_LAYERS, {
-		parentContext = slot6,
+	slot6 = {
+		parentContext = slot5,
 		context = slot1,
 		callback = slot3
-	})
+	}
+
+	if slot4 then
+		slot6 = table.merge(slot6, slot4) or slot6
+	end
+
+	slot0:sendNotification(GAME.LOAD_LAYERS, slot6)
+end
+
+function slot0.switchLayersOnParent(slot0, slot1, slot2)
+	assert(isa(slot1, Context), "should be an instance of Context")
+
+	slot4 = slot0:GetContext().parent
+
+	if not slot1.data.isSubView then
+		while slot4.data.isSubView do
+			slot4 = slot4.parent
+		end
+	end
+
+	slot5 = {
+		parentContext = slot4,
+		context = slot1,
+		removeContexts = {
+			slot3
+		}
+	}
+
+	if slot2 then
+		slot5 = table.merge(slot5, slot2) or slot5
+	end
+
+	slot0:sendNotification(GAME.LOAD_LAYERS, slot5)
+end
+
+function slot0.GetContext(slot0)
+	return getProxy(ContextProxy):getCurrentContext():getContextByMediator(slot0.class)
 end
 
 function slot0.blockEvents(slot0)

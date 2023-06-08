@@ -1845,7 +1845,7 @@ pg.ship_l2d = {
 		offset_x = 0,
 		gyro_y = 0,
 		action_trigger_active = "",
-		drag_direct = 1,
+		drag_direct = 2,
 		start_value = 0,
 		ship_skin_id = 199031,
 		ignore_react = 1,
@@ -1865,8 +1865,8 @@ pg.ship_l2d = {
 		range_abs = 0,
 		offset_y = 15,
 		range = {
-			0,
-			10
+			-10,
+			0
 		}
 	},
 	[1990312] = {
@@ -1883,7 +1883,7 @@ pg.ship_l2d = {
 		gyro_x = 0,
 		react_pos_y = 0,
 		action_trigger = "",
-		revert = 10,
+		revert = 1,
 		ignore_action = 0,
 		react_pos_x = 0,
 		parameter = "touch_drag2",
@@ -1896,6 +1896,40 @@ pg.ship_l2d = {
 		range = {
 			0,
 			10
+		}
+	},
+	[1990313] = {
+		draw_able_name = "TouchDrag3",
+		offset_x = 15,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 1,
+		start_value = 0,
+		ship_skin_id = 199031,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		revert = 1,
+		ignore_action = 0,
+		react_pos_x = 0,
+		parameter = "touch_drag3",
+		shop_action = 0,
+		gyro_z = 0,
+		smooth = 150,
+		id = 1990313,
+		range_abs = 0,
+		offset_y = 0,
+		range = {
+			0,
+			10
+		},
+		action_trigger = {
+			action = "touch_drag3",
+			num = 10,
+			time = 0.1,
+			type = 2
 		}
 	},
 	[1051721] = {
@@ -2245,7 +2279,7 @@ pg.ship_l2d = {
 		revert = 200,
 		ignore_action = 0,
 		react_pos_x = 0,
-		parameter = "beijX",
+		parameter = "beijingX",
 		shop_action = 1,
 		gyro_z = 0,
 		smooth = 200,
@@ -2274,7 +2308,7 @@ pg.ship_l2d = {
 		revert = 200,
 		ignore_action = 0,
 		react_pos_x = 0,
-		parameter = "beijY",
+		parameter = "beijingY",
 		shop_action = 1,
 		gyro_z = 0,
 		smooth = 200,
@@ -2347,6 +2381,7 @@ pg.ship_l2d = {
 		4021012,
 		1990311,
 		1990312,
+		1990313,
 		1051721,
 		1051722,
 		1051723,

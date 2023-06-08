@@ -86,7 +86,7 @@ function slot0.BindEvent(slot0)
 
 	slot0:bind(uv0.ON_RANK, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
-			index = BillboardLayer.PAGE_BOSS_BATTLE
+			index = PowerRank.TYPE_ACT_BOSS_BATTLE
 		})
 	end)
 	slot0:bind(ActivityMediator.EVENT_PT_OPERATION, function (slot0, slot1)

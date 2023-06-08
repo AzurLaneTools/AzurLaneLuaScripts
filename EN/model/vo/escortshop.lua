@@ -31,8 +31,12 @@ end
 function slot0.isOpen(slot0)
 	slot1 = false
 
-	if slot0:bindConfigTable()[slot0.id] and TimeMgr:STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").month == slot0.id then
-		slot1 = slot2.time[1] <= slot4.day and slot4.day <= slot2.time[2]
+	if slot0:bindConfigTable()[slot0.id] then
+		slot3 = pg.TimeMgr.GetInstance()
+
+		if slot3:STimeDescS(slot3:GetServerTime(), "*t").month == slot0.id then
+			slot1 = slot2.time[1] <= slot4.day and slot4.day <= slot2.time[2]
+		end
 	end
 
 	return slot1

@@ -75,18 +75,6 @@ function slot0.getTacticsStateForShow(slot0)
 end
 
 function slot0.printInfo(slot0)
-	if IsUnityEditor then
-		print("---------------------------------------------------------------")
-		print("shipID", slot0.shipID)
-		print("curDayExp", slot0.curDayExp)
-		print("curSkillID", slot0.curSkillID)
-
-		for slot4, slot5 in pairs(slot0.skillExpInfoTable) do
-			print("skillID", slot4, "skillExp", slot5)
-		end
-
-		print("---------------------------------------------------------------")
-	end
 end
 
 return slot0

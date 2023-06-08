@@ -1649,5 +1649,16 @@ pg.effect_offset = {
 			-0.5,
 			0
 		}
+	},
+	aierjiliya_buff = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			1.5,
+			0,
+			4
+		}
 	}
 }

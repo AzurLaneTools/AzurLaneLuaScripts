@@ -106,6 +106,10 @@ function slot0.IsType(slot0, slot1)
 	return slot0.config.type == slot1
 end
 
+function slot0.IsMusicalInstruments(slot0)
+	return slot0:IsType(Furniture.TYPE_LUTE)
+end
+
 function slot0.RawGetOffset(slot0)
 	slot1 = slot0.config.offset
 
@@ -203,6 +207,14 @@ function slot0.GetGametipType(slot0)
 		i18n("word_floorpaper"),
 		i18n("word_mat"),
 		i18n("word_wall"),
+		i18n("word_collection"),
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
 		i18n("word_collection")
 	})[slot0:GetType()]
 end

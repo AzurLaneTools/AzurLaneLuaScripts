@@ -194,6 +194,14 @@ function slot0.PlayFurnitureVoice(slot0, slot1)
 	slot0.storey:PlayFurnitureVoice(slot1)
 end
 
+function slot0.PlayMusicalInstruments(slot0, slot1)
+	slot0.storey:PlayMusicalInstruments(slot1)
+end
+
+function slot0.StopPlayMusicalInstruments(slot0, slot1)
+	slot0.storey:StopPlayMusicalInstruments(slot1)
+end
+
 function slot0.PlayFurnitureBg(slot0, slot1)
 	slot0.storey:PlayFurnitureBg(slot1)
 end
@@ -340,6 +348,12 @@ function slot0.OnOpenLayerOrCloseLayer(slot0, slot1, slot2)
 	end
 
 	slot0.storey:DispatchEvent(CourtYardEvent.OPEN_LAYER, slot1)
+end
+
+function slot0.OnBackPressed(slot0)
+	if slot0.storey then
+		slot0.storey:DispatchEvent(CourtYardEvent.BACK_PRESSED)
+	end
 end
 
 function slot0.Dispose(slot0)

@@ -5,14 +5,9 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.window = slot0:findTF("window")
-	slot0.bg = slot0:findTF("window/content")
 	slot0.closeBtn = slot0:findTF("window/top/btnBack")
 
-	if PLATFORM_CODE == PLATFORM_US then
-		setActive(slot0:findTF("window/top/bg/infomation/title_en"), false)
-	end
-
+	setActive(slot0:findTF("window/top/bg/infomation/title_en"), PLATFORM_CODE ~= PLATFORM_US)
 	setText(slot0:findTF("window/top/bg/infomation/title"), i18n("title_info"))
 
 	slot0.cancelBtn = slot0:findTF("window/cancel_btn")
@@ -21,14 +16,12 @@ function slot0.OnLoaded(slot0)
 	setText(findTF(slot0.confirmBtn, "pic"), i18n("destroy_confirm_access"))
 	setText(findTF(slot0.cancelBtn, "pic"), i18n("destroy_confirm_cancel"))
 
-	slot0.shipList = UIItemList.New(slot0:findTF("window/content/ships"), slot0:findTF("window/content/ships/itemtpl"))
-	slot0.grid = slot0.shipList.container:GetComponent(typeof(GridLayoutGroup))
-	slot0.title = slot0:findTF("window/content/Text"):GetComponent(typeof(Text))
+	slot0.title = slot0:findTF("window/content/Text")
 	slot0.label = slot0:findTF("window/content/desc/label")
 
 	setText(slot0.label, i18n("destory_ship_before_tip"))
 
-	slot0.urLabel = slot0:findTF("window/content/desc/label1"):GetComponent(typeof(Text))
+	slot0.urLabel = slot0:findTF("window/content/desc/label1")
 	slot0.urInput = slot0:findTF("window/content/desc/InputField")
 	slot0.urOverflowLabel = slot0:findTF("window/content/desc/label2")
 
@@ -43,7 +36,10 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.confirmBtn, function ()
 		uv0:Confirm()
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf, function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("bg"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
@@ -86,37 +82,28 @@ end
 
 function slot0.ShowEliteTag(slot0, slot1, slot2)
 	slot0:SetCallBack(slot2)
-
-	slot0.title.text = i18n("destroy_eliteship_tip", i18n("destroy_inHardFormation_tip"))
-
+	setText(slot0.title, i18n("destroy_eliteship_tip", i18n("destroy_inHardFormation_tip")))
 	setActive(slot0.urOverflowLabel, false)
-	setActive(slot0.urLabel.gameObject, false)
+	setActive(slot0.urLabel, false)
 	setActive(slot0.urInput, false)
 
-	if #slot1 <= 5 then
-		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 350)
-		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 630)
+	if #slot1 > 5 then
+		slot3 = slot0._tf:Find("window/content/ships/content")
+		slot0.shipList = UIItemList.New(slot3, slot3:Find("IconTpl"))
+
+		setActive(slot0._tf:Find("window/content/ships"), true)
+		setActive(slot0._tf:Find("window/content/ships_single"), false)
 	else
-		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 460)
-		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 735)
+		slot3 = slot0._tf:Find("window/content/ships_single")
+		slot0.shipList = UIItemList.New(slot3, slot3:Find("IconTpl"))
+
+		setActive(slot0._tf:Find("window/content/ships"), false)
+		setActive(slot0._tf:Find("window/content/ships_single"), true)
 	end
 
-	setAnchoredPosition(slot0.window, {
-		x = 0,
-		y = 0
-	})
-
-	slot0.grid.constraintCount = 5
-
-	setAnchoredPosition(slot0.shipList.container, {
-		x = 140
-	})
 	slot0.shipList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
-
-			updateShip(slot2, slot3)
-			setText(slot2:Find("icon_bg/level/Text"), "Lv." .. slot3.level)
+			updateShip(slot2, uv0[slot1 + 1])
 		end
 	end)
 	slot0.shipList:align(#slot1)
@@ -126,86 +113,62 @@ end
 
 function slot0.Updatelayout(slot0)
 	slot2 = slot0.highLevelShips
-	slot3 = ""
+	slot3 = {}
 
 	if #slot0.eliteShips > 0 then
-		slot3 = i18n("destroy_high_rarity_tip")
+		table.insert(slot3, i18n("destroy_high_rarity_tip"))
 	end
 
 	if #slot2 > 0 then
-		slot4 = i18n("destroy_high_level_tip", "")
-		slot3 = slot3 == "" and slot4 or slot3 .. "、" .. slot4
+		table.insert(slot3, i18n("destroy_high_level_tip", ""))
 	end
 
-	slot0.title.text = i18n("destroy_eliteship_tip", slot3)
+	setText(slot0.title, i18n("destroy_eliteship_tip", table.concat(slot3, "、")))
 
 	if _.any(slot1, function (slot0)
 		return ShipRarity.SSR <= slot0:getConfig("rarity")
 	end) and not slot0.key then
 		slot0.key = math.random(100000, 999999)
-		slot0.urLabel.text = i18n("destroy_ur_rarity_tip", slot0.key)
+
+		setText(slot0.urLabel, i18n("destroy_ur_rarity_tip", slot0.key))
 	else
-		slot0.urLabel.text = ""
+		setText(slot0.urLabel, "")
 	end
 
 	setActive(slot0.urOverflowLabel, slot4 and slot0.overflow)
-	setActive(slot0.urLabel.gameObject, slot4)
+	setActive(slot0.urLabel, slot4)
 	setActive(slot0.urInput, slot4)
-
-	if #slot1 + #slot2 <= 5 and not slot4 then
-		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 290)
-		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 565)
-	elseif slot6 <= 5 and slot4 then
-		slot7 = slot5 and 40 or 0
-		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 415 + slot7)
-		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 720 + slot7)
-	elseif slot6 > 5 and not slot4 then
-		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 406)
-		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 670)
-	elseif slot6 > 5 and slot4 then
-		slot7 = slot5 and 40 or 0
-		slot0.bg.sizeDelta = Vector2(slot0.bg.sizeDelta.x, 537 + slot7)
-		slot0.window.sizeDelta = Vector2(slot0.window.sizeDelta.x, 793 + slot7)
-	end
-
-	setAnchoredPosition(slot0.window, {
-		x = 0,
-		y = 0
-	})
-
-	if slot6 > 10 and slot6 <= 12 then
-		slot0.grid.constraintCount = 6
-
-		setAnchoredPosition(slot0.shipList.container, {
-			x = 74
-		})
-	else
-		slot0.grid.constraintCount = 5
-
-		setAnchoredPosition(slot0.shipList.container, {
-			x = 140
-		})
-	end
 end
 
 function slot0.UpdateShips(slot0)
-	slot2 = slot0.highLevelShips
-	slot3 = {}
+	slot3 = table.mergeArray(slot0.highLevelShips, slot0.eliteShips)
 
-	for slot7, slot8 in ipairs(slot0.eliteShips) do
-		table.insert(slot3, slot8)
-	end
+	mergeSort(slot3, CompareFuncs({
+		function (slot0)
+			return -slot0.level
+		end,
+		function (slot0)
+			return -slot0:getRarity()
+		end
+	}, true))
 
-	for slot7, slot8 in ipairs(slot2) do
-		table.insert(slot3, slot8)
+	if #slot3 > 5 then
+		slot4 = slot0._tf:Find("window/content/ships/content")
+		slot0.shipList = UIItemList.New(slot4, slot4:Find("IconTpl"))
+
+		setActive(slot0._tf:Find("window/content/ships"), true)
+		setActive(slot0._tf:Find("window/content/ships_single"), false)
+	else
+		slot4 = slot0._tf:Find("window/content/ships_single")
+		slot0.shipList = UIItemList.New(slot4, slot4:Find("IconTpl"))
+
+		setActive(slot0._tf:Find("window/content/ships"), false)
+		setActive(slot0._tf:Find("window/content/ships_single"), true)
 	end
 
 	slot0.shipList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
-
-			updateShip(slot2, slot3)
-			setText(slot2:Find("icon_bg/level/Text"), "Lv." .. slot3.level)
+			updateShip(slot2, uv0[slot1 + 1])
 		end
 	end)
 	slot0.shipList:align(#slot3)
