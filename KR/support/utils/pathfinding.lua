@@ -1,5 +1,5 @@
-PathFinding = class("PathFinding")
-slot0 = PathFinding
+slot0 = class("PathFinding")
+PathFinding = slot0
 slot0.PrioNormal = 1
 slot0.PrioObstacle = 1000
 slot0.PrioForbidden = 1000000

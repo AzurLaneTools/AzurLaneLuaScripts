@@ -86,6 +86,7 @@ function slot0.init(slot0)
 	slot0.giftToggle = slot0:findTF("toggle_list/gift_toggle", slot0.viewContainer)
 	slot0.diamondToggle = slot0:findTF("toggle_list/diamond_toggle", slot0.viewContainer)
 	slot0.giftTip = slot0:findTF("tip", slot0.giftToggle)
+	slot0.chargeTipWindow = ChargeTipWindow.New(slot0._tf, slot0.event)
 
 	setText(slot0:findTF("light/title", slot0.diamondToggle), i18n("shop_diamond_title"))
 	setText(slot0:findTF("dark/title", slot0.diamondToggle), i18n("shop_diamond_title"))
@@ -166,8 +167,18 @@ function slot0.didEnter(slot0)
 	slot0:jpUIEnter()
 end
 
+function slot0.OnChargeSuccess(slot0, slot1)
+	slot0.chargeTipWindow:ExecuteAction("Show", slot1)
+end
+
 function slot0.willExit(slot0)
 	slot0:unBlurView()
+
+	if slot0.chargeTipWindow then
+		slot0.chargeTipWindow:Destroy()
+
+		slot0.chargeTipWindow = nil
+	end
 
 	if slot0.heartsTimer then
 		slot0.heartsTimer:Stop()

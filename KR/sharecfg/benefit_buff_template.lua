@@ -75,6 +75,38 @@ pg.benefit_buff_template = setmetatable({
 		71,
 		72,
 		103,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		121,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137,
+		138,
+		139,
+		140,
+		141,
 		300001,
 		300002,
 		300003,
@@ -1264,6 +1296,614 @@ pg.base.benefit_buff_template = {
 		id = 103,
 		type_priority = 0,
 		benefit_type = "skill_learn_time"
+	},
+	[110] = {
+		icon = "Props/xinshou",
+		name = "함선 경험치 보너스1",
+		hide = 1,
+		max_time = 0,
+		desc = "스테이지 내 캐릭터 획득 경험치 2% 증가",
+		benefit_effect = "2",
+		id = 110,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				1
+			}
+		}
+	},
+	[111] = {
+		icon = "Props/xinshou",
+		name = "함선 경험치 보너스2",
+		hide = 1,
+		max_time = 0,
+		desc = "스테이지 내 캐릭터 획득 경험치 3% 증가",
+		benefit_effect = "3",
+		id = 111,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				2
+			}
+		}
+	},
+	[112] = {
+		icon = "Props/xinshou",
+		name = "함선 경험치 보너스3",
+		hide = 1,
+		max_time = 0,
+		desc = "스테이지 내 캐릭터 획득 경험치 4% 증가",
+		benefit_effect = "4",
+		id = 112,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				3
+			}
+		}
+	},
+	[113] = {
+		icon = "Props/xinshou",
+		name = "함선 경험치 보너스4",
+		hide = 1,
+		max_time = 0,
+		desc = "스테이지 내 캐릭터 획득 경험치 5% 증가",
+		benefit_effect = "5",
+		id = 113,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				4
+			}
+		}
+	},
+	[114] = {
+		icon = "Props/buff_minigame_11",
+		name = "전투 대미지 보너스1",
+		hide = 1,
+		max_time = 0,
+		desc = "스테이지 내 입히는 대미지 2% 증가",
+		benefit_effect = "502",
+		id = 114,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				1
+			}
+		}
+	},
+	[115] = {
+		icon = "Props/buff_minigame_11",
+		name = "전투 대미지 보너스2",
+		hide = 1,
+		max_time = 0,
+		desc = "스테이지 내 입히는 대미지 3% 증가",
+		benefit_effect = "504",
+		id = 115,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				2
+			}
+		}
+	},
+	[116] = {
+		icon = "Props/buff_minigame_11",
+		name = "전투 대미지 보너스3",
+		hide = 1,
+		max_time = 0,
+		desc = "스테이지 내 입히는 대미지 4% 증가",
+		benefit_effect = "506",
+		id = 116,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				3
+			}
+		}
+	},
+	[117] = {
+		icon = "Props/buff_minigame_11",
+		name = "전투 대미지 보너스4",
+		hide = 1,
+		max_time = 0,
+		desc = "스테이지 내 입히는 대미지 5% 증가",
+		benefit_effect = "508",
+		id = 117,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				4
+			}
+		}
+	},
+	[118] = {
+		icon = "Props/buff_minigame_10",
+		name = "전술학원 스킬 강화 시간 단축1",
+		hide = 1,
+		max_time = 0,
+		desc = "전술학원 내 스킬 강화 시간 2% 단축",
+		benefit_effect = "200",
+		id = 118,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				1
+			}
+		}
+	},
+	[119] = {
+		icon = "Props/buff_minigame_10",
+		name = "전술학원 스킬 강화 시간 단축2",
+		hide = 1,
+		max_time = 0,
+		desc = "전술학원 내 스킬 강화 시간 3% 단축",
+		benefit_effect = "300",
+		id = 119,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				2
+			}
+		}
+	},
+	[120] = {
+		icon = "Props/buff_minigame_10",
+		name = "전술학원 스킬 강화 시간 단축3",
+		hide = 1,
+		max_time = 0,
+		desc = "전술학원 내 스킬 강화 시간 4% 단축",
+		benefit_effect = "400",
+		id = 120,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				3
+			}
+		}
+	},
+	[121] = {
+		icon = "Props/buff_minigame_10",
+		name = "전술학원 스킬 강화 시간 단축4",
+		hide = 1,
+		max_time = 0,
+		desc = "전술학원 내 스킬 강화 시간 5% 단축",
+		benefit_effect = "500",
+		id = 121,
+		type_priority = 0,
+		benefit_type = "skill_learncost_up",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				4
+			}
+		}
+	},
+	[122] = {
+		icon = "Props/buff_minigame_12",
+		name = "숙소 경험치 보너스1",
+		hide = 1,
+		max_time = 0,
+		desc = "숙소 경험치 보너스 2% 증가",
+		benefit_effect = "2",
+		id = 122,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				1
+			}
+		}
+	},
+	[123] = {
+		icon = "Props/buff_minigame_12",
+		name = "숙소 경험치 보너스2",
+		hide = 1,
+		max_time = 0,
+		desc = "숙소 경험치 보너스 3% 증가",
+		benefit_effect = "3",
+		id = 123,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				2
+			}
+		}
+	},
+	[124] = {
+		icon = "Props/buff_minigame_12",
+		name = "숙소 경험치 보너스3",
+		hide = 1,
+		max_time = 0,
+		desc = "숙소 경험치 보너스 4% 증가",
+		benefit_effect = "4",
+		id = 124,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				3
+			}
+		}
+	},
+	[125] = {
+		icon = "Props/buff_minigame_12",
+		name = "숙소 경험치 보너스4",
+		hide = 1,
+		max_time = 0,
+		desc = "숙소 경험치 보너스 5% 증가",
+		benefit_effect = "5",
+		id = 125,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				27,
+				4
+			}
+		}
+	},
+	[126] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.1",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+0/탐험대 일일 획득 재료+0%",
+		benefit_effect = "0",
+		id = 126,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				23,
+				1
+			}
+		}
+	},
+	[127] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.2",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+1/탐험대 일일 획득 재료+10%",
+		benefit_effect = "10",
+		id = 127,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				23,
+				2
+			}
+		}
+	},
+	[128] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.3",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+2/탐험대 일일 획득 재료+20%",
+		benefit_effect = "20",
+		id = 128,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				23,
+				3
+			}
+		}
+	},
+	[129] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.4",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+3/탐험대 일일 획득 재료+30%",
+		benefit_effect = "30",
+		id = 129,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				23,
+				4
+			}
+		}
+	},
+	[130] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.1",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+0/탐험대 일일 획득 재료+0%",
+		benefit_effect = "0",
+		id = 130,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				24,
+				1
+			}
+		}
+	},
+	[131] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.2",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+1/탐험대 일일 획득 재료+10%",
+		benefit_effect = "10",
+		id = 131,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				24,
+				2
+			}
+		}
+	},
+	[132] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.3",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+2/탐험대 일일 획득 재료+20%",
+		benefit_effect = "20",
+		id = 132,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				24,
+				3
+			}
+		}
+	},
+	[133] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.4",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+3/탐험대 일일 획득 재료+30%",
+		benefit_effect = "30",
+		id = 133,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				24,
+				4
+			}
+		}
+	},
+	[134] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.1",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+0/탐험대 일일 획득 재료+0%",
+		benefit_effect = "0",
+		id = 134,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				25,
+				1
+			}
+		}
+	},
+	[135] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.2",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+1/탐험대 일일 획득 재료+10%",
+		benefit_effect = "10",
+		id = 135,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				25,
+				2
+			}
+		}
+	},
+	[136] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.3",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+2/탐험대 일일 획득 재료+20%",
+		benefit_effect = "20",
+		id = 136,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				25,
+				3
+			}
+		}
+	},
+	[137] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.4",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+3/탐험대 일일 획득 재료+30%",
+		benefit_effect = "30",
+		id = 137,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				25,
+				4
+			}
+		}
+	},
+	[138] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.1",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+0/탐험대 일일 획득 재료+0%",
+		benefit_effect = "0",
+		id = 138,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				26,
+				1
+			}
+		}
+	},
+	[139] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.2",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+1/탐험대 일일 획득 재료+10%",
+		benefit_effect = "10",
+		id = 139,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				26,
+				2
+			}
+		}
+	},
+	[140] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.3",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+2/탐험대 일일 획득 재료+20%",
+		benefit_effect = "20",
+		id = 140,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				26,
+				3
+			}
+		}
+	},
+	[141] = {
+		icon = "Props/xinshou",
+		name = "무인도 내 건물 lv.4",
+		hide = 1,
+		max_time = 0,
+		desc = "거점 건설 진도+3/탐험대 일일 획득 재료+30%",
+		benefit_effect = "30",
+		id = 141,
+		type_priority = 0,
+		benefit_type = "build_buff",
+		benefit_condition = {
+			"activity",
+			4850,
+			{
+				26,
+				4
+			}
+		}
 	},
 	[300001] = {
 		icon = "Props/300001",

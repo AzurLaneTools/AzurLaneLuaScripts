@@ -35,8 +35,15 @@ function slot8.SetTemplate(slot0, slot1, slot2)
 	slot0:InitCldComponent()
 end
 
+function slot8.IsShowHPBar(slot0)
+	return false
+end
+
 function slot8.GetMaster(slot0)
 	return slot0._master
+end
+
+function slot8.DispatchVoice(slot0)
 end
 
 function slot8.Retreat(slot0)

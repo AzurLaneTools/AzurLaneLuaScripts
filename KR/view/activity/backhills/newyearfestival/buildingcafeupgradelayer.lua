@@ -12,39 +12,42 @@ function slot0.Set(slot0, slot1, slot2)
 
 	slot0.contextData.buildingID = slot2
 	slot5 = slot1.data1KeyValueList[2][slot2] or 1
-	slot8 = #slot3.buff <= slot5
-	slot9 = slot8 or slot3.material[slot5] <= (slot1.data1KeyValueList[1][slot3.material_id] or 0)
-	slot12 = slot1.data1KeyValueList[2][uv0[3 - table.indexof(uv0, slot2)]] or 1
-	slot13 = slot5 <= slot12
-	slot14 = slot5 + slot12
+
+	assert(#slot3.material[slot5] == 1)
+
+	slot9 = #slot3.buff <= slot5
+	slot10 = slot9 or slot6[1][3] <= (slot1.data1KeyValueList[1][slot6[1][2]] or 0)
+	slot13 = slot1.data1KeyValueList[2][uv0[3 - table.indexof(uv0, slot2)]] or 1
+	slot14 = slot5 <= slot13
+	slot15 = slot5 + slot13
 
 	setText(slot0:findTF("window/top/name"), slot3.name)
 	setText(slot0:findTF("window/top/name/lv"), "Lv." .. slot5)
 	setScrollText(slot0:findTF("window/frame/describe/text"), slot3.desc)
 	setText(slot0:findTF("window/frame/content/title/lv/current"), "Lv." .. slot5)
-	setActive(slot0:findTF("window/frame/content/title/lv/next"), not slot8)
+	setActive(slot0:findTF("window/frame/content/title/lv/next"), not slot9)
 
-	if not slot8 then
+	if not slot9 then
 		setText(slot0:findTF("window/frame/content/title/lv/next"), "Lv." .. slot5 + 1)
 	end
 
-	slot15 = slot3.buff[slot5]
-	slot16 = pg.benefit_buff_template[slot15]
+	slot16 = slot3.buff[slot5]
+	slot17 = pg.benefit_buff_template[slot16]
 
-	assert(slot16, "Can't Find benefit_buff_template Config ID: " .. slot15)
-	setText(slot0:findTF("window/frame/content/preview/current"), slot16.desc)
-	setActive(slot0:findTF("window/frame/content/preview/arrow"), not slot8)
-	setActive(slot0:findTF("window/frame/content/preview/next"), not slot8)
+	assert(slot17, "Can't Find benefit_buff_template Config ID: " .. slot16)
+	setText(slot0:findTF("window/frame/content/preview/current"), slot17.desc)
+	setActive(slot0:findTF("window/frame/content/preview/arrow"), not slot9)
+	setActive(slot0:findTF("window/frame/content/preview/next"), not slot9)
 
-	if not slot8 then
-		slot17 = slot3.buff[slot5 + 1]
-		slot16 = pg.benefit_buff_template[slot17]
+	if not slot9 then
+		slot18 = slot3.buff[slot5 + 1]
+		slot17 = pg.benefit_buff_template[slot18]
 
-		assert(slot16, "Can't Find benefit_buff_template Config ID: " .. slot17)
-		setText(slot0:findTF("window/frame/content/preview/next"), slot16.desc)
+		assert(slot17, "Can't Find benefit_buff_template Config ID: " .. slot18)
+		setText(slot0:findTF("window/frame/content/preview/next"), slot17.desc)
 	end
 
-	slot0.loader:GetSprite(pg.item_data_statistics[slot6].icon, "", slot0:findTF("window/frame/costback/icon"))
+	slot0.loader:GetSprite(pg.item_data_statistics[slot7].icon, "", slot0:findTF("window/frame/costback/icon"))
 	setText(slot0:findTF("window/frame/costback/cost"), slot3.material[slot5] or 0)
 	onButton(slot0, slot0.btnUpgrade, function ()
 		if not uv0 then
@@ -72,8 +75,8 @@ function slot0.Set(slot0, slot1, slot2)
 			end
 		})
 	end)
-	setGray(slot0.btnUpgrade, slot8 or not slot13)
-	setButtonEnabled(slot0.btnUpgrade, not slot8)
+	setGray(slot0.btnUpgrade, slot9 or not slot14)
+	setButtonEnabled(slot0.btnUpgrade, not slot9)
 end
 
 return slot0

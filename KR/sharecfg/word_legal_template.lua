@@ -4297,7 +4297,18 @@ function temp()
 						this = true
 					},
 					["6"] = {
-						this = true
+						this = true,
+						["·"] = {
+							M = {
+								E = {
+									T = {
+										A = {
+											this = true
+										}
+									}
+								}
+							}
+						}
 					}
 				},
 				["2"] = {
@@ -5915,7 +5926,18 @@ function temp()
 		},
 		["스"] = {
 			["탈"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["저"] = {
@@ -6650,6 +6672,25 @@ function temp()
 		},
 		["딘"] = {
 			this = true
+		},
+		["토"] = {
+			[" "] = {
+				["폰"] = {
+					[" "] = {
+						["알"] = {
+							["벤"] = {
+								["슬"] = {
+									["레"] = {
+										["벤"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -7237,6 +7278,15 @@ function temp()
 				["슈"] = {
 					["피"] = {
 						this = true
+					}
+				},
+				["포"] = {
+					["미"] = {
+						["더"] = {
+							["블"] = {
+								this = true
+							}
+						}
 					}
 				}
 			}
@@ -8239,6 +8289,17 @@ function temp()
 					}
 				}
 			}
+		},
+		["겐"] = {
+			["스"] = {
+				["부"] = {
+					["르"] = {
+						["크"] = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -8454,6 +8515,11 @@ function temp()
 			["투"] = {
 				this = true
 			}
+		},
+		["마"] = {
+			["키"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -8652,7 +8718,18 @@ function temp()
 			["마"] = {
 				["르"] = {
 					["크"] = {
-						this = true
+						this = true,
+						[" "] = {
+							Z = {
+								w = {
+									e = {
+										i = {
+											this = true
+										}
+									}
+								}
+							}
+						}
 					}
 				}
 			}
@@ -9241,7 +9318,12 @@ temp()
 function temp()
 	uv0["넬"] = {
 		["슨"] = {
-			this = true
+			this = true,
+			["·"] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -9811,6 +9893,9 @@ function temp()
 					}
 				}
 			}
+		},
+		["드"] = {
+			this = true
 		}
 	}
 end
@@ -10625,6 +10710,9 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["나"] = {
+			this = true
 		}
 	}
 end

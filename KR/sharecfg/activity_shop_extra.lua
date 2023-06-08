@@ -2610,7 +2610,7 @@ pg.activity_shop_extra = {
 		commodity_type = 7,
 		activity = 7011,
 		commodity_id = 307026,
-		order = 201,
+		order = 202,
 		id = 101,
 		num = 1,
 		num_limit = 1,
@@ -2637,6 +2637,43 @@ pg.activity_shop_extra = {
 					2023,
 					8,
 					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[102] = {
+		commodity_id = 502012,
+		activity = 4871,
+		scene = "",
+		num = 1,
+		num_limit = 1,
+		end_by_maintenance = 1,
+		commodity_type = 7,
+		id = 102,
+		order = 201,
+		time = {
+			{
+				{
+					2023,
+					6,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					29
 				},
 				{
 					23,
@@ -2717,7 +2754,8 @@ pg.activity_shop_extra = {
 			98,
 			99,
 			100,
-			101
+			101,
+			102
 		}
 	},
 	all = {
@@ -2790,6 +2828,7 @@ pg.activity_shop_extra = {
 		98,
 		99,
 		100,
-		101
+		101,
+		102
 	}
 }

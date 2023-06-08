@@ -1,6 +1,7 @@
 MetaCharacterConst = {}
 slot0 = MetaCharacterConst
 slot0.Meta_Type_Act_PT = 1
+slot0.Meta_Type_Build = 2
 slot0.Meta_Type_Pass = 3
 slot0.REPAIR_ATTRS = {
 	AttributeType.Cannon,
@@ -165,7 +166,7 @@ function slot0.isMetaSynRedTag(slot0)
 		return false
 	end
 
-	if getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot0):isPassType() then
+	if getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot0):isPassType() or slot3:isBuildType() then
 		return false
 	end
 
@@ -191,7 +192,7 @@ function slot0.isMetaMainSceneRedTag(slot0)
 		return false
 	end
 
-	if getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot0):isPassType() then
+	if getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot0):isPassType() or slot2:isBuildType() then
 		return false
 	end
 
@@ -259,9 +260,9 @@ function slot0.getTacticsSkillIDListByShipConfigID(slot0)
 end
 
 function slot0.getMetaSkillTacticsConfig(slot0, slot1)
-	for slot5, slot6 in ipairs(pg.ship_meta_skilltask.all) do
-		if pg.ship_meta_skilltask[slot6].skill_ID == slot0 and slot7.level == slot1 then
-			return slot7
+	for slot5, slot6 in ipairs(pg.ship_meta_skilltask) do
+		if slot6.skill_ID == slot0 and slot6.level == slot1 then
+			return slot6
 		end
 	end
 end
@@ -289,8 +290,8 @@ function slot0.addReMetaTransItem(slot0, slot1)
 end
 
 function slot0.isMetaTaskSkillID(slot0)
-	for slot4, slot5 in ipairs(pg.ship_meta_skilltask.all) do
-		if pg.ship_meta_skilltask[slot5].skill_ID == slot0 then
+	for slot4, slot5 in ipairs(pg.ship_meta_skilltask) do
+		if slot5.skill_ID == slot0 then
 			return true
 		end
 	end

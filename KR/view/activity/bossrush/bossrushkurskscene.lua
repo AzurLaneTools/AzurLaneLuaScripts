@@ -17,8 +17,8 @@ function slot0.ResUISettings(slot0)
 	return true
 end
 
-function slot0.Ctor(slot0, ...)
-	uv0.super.Ctor(slot0, ...)
+function slot0.Ctor(slot0)
+	uv0.super.Ctor(slot0)
 
 	slot0.loader = AutoLoader.New()
 end

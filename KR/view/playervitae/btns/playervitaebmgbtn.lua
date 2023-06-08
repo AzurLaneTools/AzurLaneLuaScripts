@@ -21,7 +21,7 @@ function slot0.OnSwitch(slot0, slot1)
 
 	slot2 = nil
 
-	playBGM((not slot1 or slot0.ship:GetSkinBgm()) and "main")
+	pg.BgmMgr.GetInstance():Push(PlayerVitaeScene.__cname, (not slot1 or slot0.ship:GetSkinBgm()) and "main")
 
 	return true
 end

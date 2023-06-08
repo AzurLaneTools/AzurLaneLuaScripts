@@ -6,6 +6,7 @@ function slot0.Ctor(slot0)
 		MainForcePlayerNameModificationSequence.New(),
 		MainStroySequence.New(),
 		MainRequestActDataSequence.New(),
+		MainUrShipReFetchSequence.New(),
 		MainUrgencySceneSequence.New(),
 		MainEquipmentChangeSequence.New(),
 		MainServerNoticeSequence.New(),

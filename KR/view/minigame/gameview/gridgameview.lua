@@ -2561,7 +2561,7 @@ function slot0.openMenuUI(slot0)
 	if slot0.bgm ~= (slot0:getBGM() or (not pg.CriMgr.GetInstance():IsDefaultBGM() or pg.voice_bgm.NewMainScene.default_bgm) and pg.voice_bgm.NewMainScene.bgm) then
 		slot0.bgm = slot1
 
-		playBGM(slot1)
+		pg.BgmMgr.GetInstance():Push(slot0.__cname, slot1)
 	end
 end
 
@@ -2582,7 +2582,7 @@ function slot0.readyStart(slot0)
 	if uv1 and slot0.bgm ~= uv1 then
 		slot0.bgm = uv1
 
-		playBGM(uv1)
+		pg.BgmMgr.GetInstance():Push(slot0.__cname, uv1)
 	end
 end
 

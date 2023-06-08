@@ -28,7 +28,7 @@ function slot0.__call(slot0)
 					uv2(slot0)
 				end)
 			end, function (...)
-				traceback(...)
+				debug.traceback(...)
 				pg.UIMgr.GetInstance():LoadingOff()
 			end)
 		end,

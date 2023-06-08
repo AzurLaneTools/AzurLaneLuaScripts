@@ -64,6 +64,14 @@ pg.item_data_chat = {
 		desc = "<color=#ffffff>X작전 첫 회 완료 시 획득할 수 있습니다.</color><color=#A7A7AAFF>유효기간 30일</color>",
 		scene = {}
 	},
+	[602] = {
+		time_limit_type = 0,
+		name = "푸른 들판의 잔음",
+		id = 602,
+		time_second = 0,
+		desc = "<color=#ffffff>무인도의 멋진 풍경을 만끽해 보세요~!</color>\n한정 이벤트「바닷바람과 여름날의 무인도」를 통해 획득",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -72,6 +80,7 @@ pg.item_data_chat = {
 		104,
 		105,
 		300,
-		301
+		301,
+		602
 	}
 }

@@ -1419,5 +1419,21 @@ pg.voice_actor_CN = {
 	[361] = {
 		code = 361,
 		actor_name = "Rika Kinugawa"
+	},
+	[362] = {
+		code = 362,
+		actor_name = "Hyosei"
+	},
+	[363] = {
+		code = 363,
+		actor_name = "Arisa Aihara"
+	},
+	[364] = {
+		code = 364,
+		actor_name = "Anzu Haruno"
+	},
+	[365] = {
+		code = 365,
+		actor_name = "Haruka Kouduki"
 	}
 }

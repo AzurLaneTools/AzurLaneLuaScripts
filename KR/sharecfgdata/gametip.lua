@@ -7196,7 +7196,7 @@ _G.pg.base.gametip.common_food = {
 }
 
 _G.pg.base.gametip.common_no_limit = {
-	tip = "제한 없음"
+	tip = "∞"
 }
 
 _G.pg.base.gametip.common_proficiency = {
@@ -7391,6 +7391,10 @@ _G.pg.base.gametip.ship_remould_warning_203124 = {
 
 _G.pg.base.gametip.ship_remould_warning_205124 = {
 	tip = "근대화 개수는 <color=#92fc63>전사의 마음가짐</color>을 소비합니다.\n진행하시겠습니까?"
+}
+
+_G.pg.base.gametip.ship_remould_warning_205154 = {
+	tip = "이번 개조 작업 후, <color=#92fc63>[BIG SEVEN]</color> 스킬은\n<color=#92fc63>[BIG SEVEN·넬슨]</color>으로 업그레이드됩니다."
 }
 
 _G.pg.base.gametip.ship_remould_warning_206134 = {
@@ -9817,7 +9821,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "쿠르스크, 보로실로프 등 캐릭터 건조 확률 UP!"
+	tip = "건조 200회 누적할 때마다 UR함선 {namecode:514} 획득 가능(최대 4회)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -14161,23 +14165,11 @@ _G.pg.base.gametip.towerclimbing_gametip = {
 	tip = {
 		{
 			info = [[
-미니게임 설명:
-1. 화면의 좌우측과 점프 버튼으로 새러토가를 조종하여 위를 
-향해 올라갑니다. 한 계단을 오를 때마다 1층씩 더해집니다.
-2. 우측의 생명력에 주의하세요. 낙하하거나 함정에 빠지거나 
-화난 쥬쥬와 부딪히면 생명력이 차감되며, 모두 소진될 시
-게임 오버.
-이벤트 기간 동안 매일 사용 가능 횟수 1회 획득. 사용 가능 
-횟수는 최대 7회 저장
-1. 사용 가능 횟수가 있을 경우, 쥬쥬대모험에 참가하면 횟수를 
-차감 하며 출석 횟수를 얻습니다. 출석 횟수 7회가 되면
-「특별 초대장」을 획득 가능
-2. 사용 가능 횟수는 축제광장 우측에서 볼 수 있으며, 출석 
-진도는 축제광장의 「초대장」 버튼을 통해 확인 가능
-3. 사용 가능 횟수가 없는 상황에서 쥬쥬대모험 진행 시 출석 
-횟수를 획득하지 않습니다.
-4. 기타 원인으로 인하여 미니게임 도중 퇴장할 경우 사용 가능 
-횟수를 소모하지 않으며,어떠한 보상도 획득할 수 없습니다.]]
+미니 게임 플레이 방법:
+1. 지휘관은 화면의 왼쪽, 오른쪽, 점프 버튼을 클릭하여 새러토가가 점프하는 것을 컨트롤한다. 한 계단을 올라갈 때마다 층수가 1씩 증가한다.
+2. 지휘관은 오른쪽에 있는 HP를 주의해야 하며, 계단의 가장자리에서 떨어지거나 함정에 부딪히거나 화가 난 쥬쥬에게 쫓기면 HP가 차감된다. HP가 모두 소진되면 게임이 종료된다.
+3. 게임 내 나가기 버튼을 사용하여 나갈 경우, 결산이 진행된다. 기타 사유로 인해 미니 게임이 중간에 종료된 경우, 사용 가능 횟수가 소모되지 않으며 어떠한 보상도 획득할 수 없다.
+4. '탐험 허가증'을 소지한 상태에서 '쥬쥬 대모험' 플레이 시 탐험 코인을 획득할 수 있다.]]
 		}
 	}
 }
@@ -17709,11 +17701,11 @@ _G.pg.base.gametip.story_autoplay_setting_2 = {
 }
 
 _G.pg.base.gametip.meta_shop_exchange_limit = {
-	tip = "미획득 함선"
+	tip = "보유 중인 캐릭터가 아닙니다."
 }
 
 _G.pg.base.gametip.meta_shop_unexchange_label = {
-	tip = "미획득 함선"
+	tip = "아직 함선을 획득하지 못함"
 }
 
 _G.pg.base.gametip.daily_level_quick_battle_label2 = {
@@ -18374,33 +18366,7 @@ _G.pg.base.gametip.activity_event_building = {
 }
 
 _G.pg.base.gametip.salvage_tips = {
-	tip = {
-		{
-			info = [[
-이벤트 규칙:
-1. <color=#92fc63>9월 30일</color>까지 매일 0시마다 게임이 <color=#92fc63>1</color>회씩 총 <color=#92fc63>7</color>회 오픈되며, 누적 가능합니다. 게임 완료 후 「축제 초대장」에 포함된 풍부한 보상을 획득할 수 있습니다.
-게임 규칙:
-1. 화면에 여러 인양물이 나타납니다. 화면을 터치하여 고리로 인양할 수 있습니다. 인양물 중일부는 득점, 일부는 감점됩니다.
-2. 인양물 점수표:
-회중시계: 게임 시간 20초
-상자: 600점
-진주: 500점
-잠수쥬: 400점
-금괴: 300점
-나비고기: 200점
-조개껍데기: 200점
-상어: 200점
-바다거북: 180점
-흰동가리: 150점
-돌: 50점
-I13: -150점
-I19: -100점
-I26: -80점
-I168: -50점
-어뢰: -50점
-3. 게임 시간을 모두 소모하거나 게임 내 퇴장 버튼을 터치하면 게임을 완료한 것으로 간주됩니다. 기타 원인으로 인하여 중도 퇴장 시 게임을 미완료한 것으로 간주됩니다.]]
-		}
-	}
+	tip = "\n4. '탐험 허가증'을 소지한 상태에서 '쥬쥬 인양단' 플레이 시 탐험 코인을 획득할 수 있다."
 }
 
 _G.pg.base.gametip.tips_shakebeads = {
@@ -18519,7 +18485,7 @@ _G.pg.base.gametip.class_label_goldfield = {
 }
 
 _G.pg.base.gametip.class_res_maxlevel_tip = {
-	tip = "최대 레벨 도달"
+	tip = "이미 최대 레벨입니다."
 }
 
 _G.pg.base.gametip.ship_exp_item_title = {
@@ -22012,6 +21978,22 @@ _G.pg.base.gametip.ryza_task_tag_develop = {
 	tip = "연구"
 }
 
+_G.pg.base.gametip.ryza_task_tag_adventure = {
+	tip = "탐험"
+}
+
+_G.pg.base.gametip.ryza_task_tag_build = {
+	tip = "건설"
+}
+
+_G.pg.base.gametip.ryza_task_tag_create = {
+	tip = "제조"
+}
+
+_G.pg.base.gametip.ryza_task_tag_daily = {
+	tip = "데일리"
+}
+
 _G.pg.base.gametip.ryza_task_detail_content = {
 	tip = "내용"
 }
@@ -22273,13 +22255,10 @@ _G.pg.base.gametip.hotspring_help = {
 	tip = {
 		{
 			info = [[
-이벤트 규칙:
-<color=#92fc63>2022.12.29-2023.1.12 업데이트 전</color>까지 한정 이벤트 「노천 온천관」이 오픈됩니다.
-1. 2023년 1월 4일까지 매일 0시마다 새로운 임무가 해제되며, 임무 완료 시 「온천 코인」이 포함된 보상을 획득할 수 있습니다.
-2. 「온천 코인」은 온천 확장에 사용되며, 매번 확장 시 온천 코인*100이 소모됩니다.
-3. 아카시를 도와 온천 확장 시 「온천 티켓」을 보상으로 획득합니다. 「온천 티켓」은 「온천 상점」에서 다양한 보상과 교환할 수 있습니다.
-4. 함선 소녀를 온천에 초대할 수 있으며, 온천에 입욕한 함선 소녀는 기분 회복 속도가 상승합니다.
-5. 입욕한 함선 소녀를 길게 터치하면 드래그하여 위치를 조정할 수 있습니다.]]
+이벤트 설명:
+<color=#92fc63>6.8-6.29 점검 </color>기간 한정 이벤트 '노천 온천' 오픈.
+1. 지휘관은 온천에 함선을 초대할 수 있으며 온천은 입욕 함선의 기분 회복 속도를 높일 수 있다.
+2.입욕 함선을 길게 누른 후 드래그하여 입욕 위치를 조정할 수 있다.]]
 		}
 	}
 }
@@ -22961,6 +22940,46 @@ _G.pg.base.gametip.battle_text_yingxiv4_10 = {
 	tip = "전쟁의 기사가 허약해졌습니다! 집중 공격하세요!"
 }
 
+_G.pg.base.gametip.battle_text_bisimaiz_1 = {
+	tip = "현재 공간 침식 등급: <color=#92fc63>0</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_2 = {
+	tip = "현재 공간 침식 등급: <color=#f1f102>1</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_3 = {
+	tip = "현재 공간 침식 등급: <color=#f1f102>2</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_4 = {
+	tip = "현재 공간 침식 등급: <color=#ffc038>3</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_5 = {
+	tip = "현재 공간 침식 등급: <color=#ffc038>4</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_6 = {
+	tip = "현재 공간 침식 등급: <color=#ff5c5c>5</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_7 = {
+	tip = "게리온 정화 성공. 현재 공간 침식 등급이<color=#92fc63>0</color>로 변경되었습니다."
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_8 = {
+	tip = "「<color=#ffc038>장착결합</color>」 -게리온 <color=#f1f102>고급 방어</color>보유 및 비스마르크를 대신해 일부 데미지 부담"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_9 = {
+	tip = "「<color=#92fc63>의장분리</color>」 -게리온의 <color=#f1f102>방어력 대폭 하락</color>, 어서 무찌르세요!"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_10 = {
+	tip = "게리온 격파 완료——잠깐, 강렬한 <color=#ffc038>META</color>화 흐름이 감지됩니다!"
+}
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "감정 부족"
 }
@@ -23246,4 +23265,420 @@ _G.pg.base.gametip.blueprint_shipperformance = {
 
 _G.pg.base.gametip.blueprint_researching = {
 	tip = "연구 진행 중..."
+}
+
+_G.pg.base.gametip.sculpture_drawline_tip = {
+	tip = "* 점선을 따라 설계도 오리기"
+}
+
+_G.pg.base.gametip.sculpture_drawline_done = {
+	tip = "바쁜 작업 후, 설계도에 따라 모든 부품이 제작되었습니다!"
+}
+
+_G.pg.base.gametip.sculpture_drawline_exit = {
+	tip = "진행 도중 종료 시 진행도가 저장되지 않습니다. 그래도 종료하시겠습니까?\n종료 후 재입장 시 추가 재료 소모는 없습니다."
+}
+
+_G.pg.base.gametip.sculpture_puzzle_tip = {
+	tip = "* 부품을 클릭하여 선택하고 점선 영역으로 드래그하여 접합합니다."
+}
+
+_G.pg.base.gametip.sculpture_gratitude_tip = {
+	tip = "* 선물을 드래그하여 함선에게 선물합니다."
+}
+
+_G.pg.base.gametip.sculpture_close_tip = {
+	tip = "* 빈 곳을 클릭하면 종료됩니다."
+}
+
+_G.pg.base.gametip.gift_act_help = {
+	tip = {
+		{
+			info = [[
+이벤트 설명:
+<color=#92fc63>6.8-6.29 점검 </color>기간 한정 이벤트 '선물 만들기' 오픈.
+이벤트 규칙:
+1. 이벤트 기간 동안 지휘관은 '루비', '토파즈'를 사용해 캐릭터 선물 만들기를 진행할 수 있습니다.
+2. '루비', '토파즈'는 무인도 제작대를 통해 획득할 수 있습니다.
+3. 선물 만들기를 완료하고 캐릭터에게 선물하면 캐릭터의 답례 선물을 받을 수 있답니다~]]
+		}
+	}
+}
+
+_G.pg.base.gametip.gift_act_drawline_help = {
+	tip = {
+		{
+			info = [[
+이벤트 설명:
+<color=#92fc63>6.8-6.29 점검 </color>기간 한정 이벤트 '선물 만들기' 오픈.
+이벤트 규칙:
+1. 이벤트 기간 동안 지휘관은 '루비', '토파즈'를 사용해 캐릭터 선물 만들기를 진행할 수 있습니다.
+2. '루비', '토파즈'는 무인도 제작대를 통해 획득할 수 있습니다.
+3. 선물 만들기를 완료하고 캐릭터에게 선물하면 캐릭터의 답례 선물을 받을 수 있답니다~]]
+		}
+	}
+}
+
+_G.pg.base.gametip.gift_act_tips = {
+	tip = "$1부족"
+}
+
+_G.pg.base.gametip.expedition_award_tip = {
+	tip = "지휘관의 부재 기간 동안, 탐험대가 획득한 몇가지 재료입니다:"
+}
+
+_G.pg.base.gametip.island_act_tips1 = {
+	tip = "빈 곳을 클릭해 팝업 닫기"
+}
+
+_G.pg.base.gametip.haidaojudian_help = {
+	tip = {
+		{
+			info = [[
+이벤트 설명:
+<color=#92fc63>6.8-6.29 점검 </color>기간 한정 이벤트 '바닷바람과 여름날의 무인도' 오픈.
+이벤트 규칙:
+1. 이벤트 기간 동안 , '쥬쥬 탐험대'는 매일 무인도에서 일부 재료를 가져옵니다. 재료는 거점 건물을 업그레이드하고 제작대에서 다양한 소품을 만드는 데 사용할 수 있습니다. 매일매일 수령하는 걸 잊지 마세요~
+2 . '초급 목재'를 사용하면 거점 건물을 lv.2로 업그레이드할 수 있습니다. '고급 목재'는 거점 건물을 lv.4로 업그레이드할 수 있으며, '고급 목재'는 섬 제작대에서 제작 및 획득할 수 있습니다. 건물 레벨이 증가하면, 건물 버프도 증가됩니다~
+3. 건물 레벨이 4번 상승할 때마다 무인도 거점의 레벨도 상승하며, 제공되는 버프 효과도 그만큼 증가합니다. 
+4. 업그레이드할 수 있는 건물 유형은 4가지입니다.
+무인도 제작대
+쥬쥬 탐험대
+생활 구역
+식사 구역
+5. 이벤트 기간 동안 '선물 만들기'를 통해 선물을 만들고 캐릭터에게 선물할 수 있습니다. 캐릭터에게 선물을 주면 지휘관도 해당 캐릭터의 답례 선물을 받을 수 있답니다~
+6. 이벤트 기간 동안 지휘관은 '모험 바로가기' 입구를 통해 무인도에 입장할 수 있습니다. 무인도 이벤트 완료 후, '모험 코인'과 같은 보상을 획득할 수 있습니다. 보상은 신비한 상점에서 교환할 수 있습니다.
+7. 지휘관은 '의뢰 게시판'에서 무인도 퀘스트, 일부 섬 지역의 탐색 진행 상황, 무인도 거점의 건설 상태와 버프 효과를 확인할 수 있습니다.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.haidaojudian_building_tip = {
+	tip = "건물 업그레이드에 필요한 자재 부족"
+}
+
+_G.pg.base.gametip.workbench_help = {
+	tip = {
+		{
+			info = [[
+이벤트 설명:
+<color=#92fc63>6.8-6.29 점검 </color>기간 한정 이벤트 '무인도 제작대' 오픈.
+이벤트 규칙:
+1. 이벤트 기간 동안 지휘관은 무인도에서 재료를 획득할 수 있으며, 이를 사용해 무인도 제작대에서 다양한 아이템을 제작할 수 있습니다.
+2.일부 이벤트 아이템은 제작 레벨 제한이 존재하며, 지휘관이 '무인도 제작대'의 레벨을 업그레이드를 해야만 잠금 해제가 가능합니다.
+3.지휘관은 '창고' 화면에서 획득한 이벤트 아이템을 확인할 수 있습니다.
+4. 제작 과정에서 재료가 부족할 경우, 지휘관은 재료 아이콘을 클릭해 획득 경로를 확인할 수 있습니다.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.workbench_need_materials = {
+	tip = "소모 재료"
+}
+
+_G.pg.base.gametip.workbench_tips1 = {
+	tip = "제작 횟수가 이미 소진되었습니다."
+}
+
+_G.pg.base.gametip.workbench_tips2 = {
+	tip = "재료 부족"
+}
+
+_G.pg.base.gametip.workbench_tips3 = {
+	tip = "최대 생산 수량에 도달했습니다."
+}
+
+_G.pg.base.gametip.workbench_tips4 = {
+	tip = "무인도 제작대 Lv. $1 잠금 해제"
+}
+
+_G.pg.base.gametip.workbench_tips5 = {
+	tip = "- 아직 제작 가능한 목록이 없습니다 -"
+}
+
+_G.pg.base.gametip.workbench_tips6 = {
+	tip = "이미 최대 레벨입니다."
+}
+
+_G.pg.base.gametip.workbench_tips7 = {
+	tip = "재료"
+}
+
+_G.pg.base.gametip.workbench_tips8 = {
+	tip = "제작 수량"
+}
+
+_G.pg.base.gametip.workbench_tips9 = {
+	tip = "필요 재료"
+}
+
+_G.pg.base.gametip.workbench_tips10 = {
+	tip = "제작 가능한 것만 보기"
+}
+
+_G.pg.base.gametip.island_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/island_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help5",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help6",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/island_help7",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.islandnode_tips1 = {
+	tip = "새로 고침 시간"
+}
+
+_G.pg.base.gametip.islandnode_tips2 = {
+	tip = "알림"
+}
+
+_G.pg.base.gametip.islandnode_tips3 = {
+	tip = "* 한 번만 선택할 수 있습니다."
+}
+
+_G.pg.base.gametip.islandnode_tips4 = {
+	tip = "빙고~ 축하합니다! 정답입니다!"
+}
+
+_G.pg.base.gametip.islandnode_tips5 = {
+	tip = "아쉽네요, 오답입니다… 다음에 다시 도전해 보세요!"
+}
+
+_G.pg.base.gametip.islandnode_tips6 = {
+	tip = "지휘관은 아직 수확할 수 없답니다~"
+}
+
+_G.pg.base.gametip.islandnode_tips7 = {
+	tip = "지휘관이 자리를 비운 사이 $1가(이) 밭을 돌봤습니다."
+}
+
+_G.pg.base.gametip.islandnode_tips8 = {
+	tip = "사건 미해결. 지휘관은 무인도 거점을 업그레이드하고, 메인 스토리 클리어를 통해 해결하세요."
+}
+
+_G.pg.base.gametip.islandnode_tips9 = {
+	tip = "지휘관은 후속 메인 에피소드 잠금 해제를 위해 섬 거점 레벨을 올려주세요~!"
+}
+
+_G.pg.base.gametip.islandshop_tips1 = {
+	tip = "남은 교환 시간"
+}
+
+_G.pg.base.gametip.islandshop_tips2 = {
+	tip = "구매 제한"
+}
+
+_G.pg.base.gametip.islandshop_tips3 = {
+	tip = "소모"
+}
+
+_G.pg.base.gametip.islandshop_tips4 = {
+	tip = "$1부족"
+}
+
+_G.pg.base.gametip.haidaojudian_upgrade_limit = {
+	tip = "이 건물은 당분간 업그레이드할 수 없습니다. 지휘관은 먼저 다른 건물을 업그레이드해주세요~"
+}
+
+_G.pg.base.gametip.chargetip_monthcard_1 = {
+	tip = "무역 허가증 구매 성공, 축하합니다."
+}
+
+_G.pg.base.gametip.chargetip_monthcard_2 = {
+	tip = "무역 허가증의 일일 보상이 우편으로 발송되었습니다."
+}
+
+_G.pg.base.gametip.chargetip_crusing = {
+	tip = "특허 투어 패스 잠금 해제"
+}
+
+_G.pg.base.gametip.chargetip_giftpackage = {
+	tip = "구매 성공! 우편함에서 확인하세요."
+}
+
+_G.pg.base.gametip.package_view_1 = {
+	tip = "무역 허가증 구매 성공, 이미 획득하셨습니다."
+}
+
+_G.pg.base.gametip.package_view_2 = {
+	tip = "무역 허가증 기간 동안 매일 우편으로 보상을 획득할 수 있습니다."
+}
+
+_G.pg.base.gametip.package_view_3 = {
+	tip = "특허 투어 패스 잠금 해제"
+}
+
+_G.pg.base.gametip.package_view_4 = {
+	tip = "획득 완료:"
+}
+
+_G.pg.base.gametip.probabilityskinshop_tip = {
+	tip = "해당 스킨을 이미 보유 중일 경우. 다이아로 획득하게 됩니다."
+}
+
+_G.pg.base.gametip.skin_gift_desc = {
+	tip = "아래 스킨 중 랜덤으로 1개의 스킨을 획득합니다.(이미 해당 스킨을 보유 중일 경우, 다이아로 획득하게 됩니다.)\n포함된 스킨과 확률은 아래와 같습니다:\n$1"
+}
+
+_G.pg.base.gametip.springtask_tip = {
+	tip = "무인도 정찰을 마친 뒤, 온천장 건설에 이상적인 장소를 발견했지만 건설을 완료하기 위해 필요한 재료가 부족합니다...\n매일 0시 온천 건설 퀘스트가 1개 잠금 해제 됩니다. 모두 완료하면 노천 온천 기능을 해제할 수 있습니다!"
+}
+
+_G.pg.base.gametip.island_build_desc = {
+	tip = "* 거점 건물을 업그레이드하면 거점 레벨을 올릴 수 있습니다."
+}
+
+_G.pg.base.gametip.island_history_desc = {
+	tip = "* 현재 지역의 모든 노드를 탐색 완료하면 숨겨진 보물에 대한 단서를 잠금 해제할 수 있습니다!"
+}
+
+_G.pg.base.gametip.island_build_level = {
+	tip = "거점 레벨"
+}
+
+_G.pg.base.gametip.island_game_limit_help = {
+	tip = "매일 0시 이후 무인도에 진입 시 $1장의 허가증을 획득할 수 있습니다."
+}
+
+_G.pg.base.gametip.island_game_limit_num = {
+	tip = "보유 중: $1"
+}
+
+_G.pg.base.gametip.ore_minigame_help = {
+	tip = {
+		{
+			info = [[
+이벤트 설명:
+1. 지휘관은 광석을 지정된 장소까지 운반하는 것을 도와줘야 하며, 운반 도중에 동물의 방해를 받지 않도록 주의해야 한다.
+2. 운반하는 광석이 많을수록 이동 속도가 느려지고 1회 운반 가능한 광석의 무게는 제한되어 있으며, 최대 운반 가능 무게 초과 시 광석을 채집할 수 없다.
+3. 게임 시간이 0으로 재설정되거나 게임 내 종료 버튼을 클릭하면 게임 완료로 간주한다. 기타 사유로 인해 도중에 게임 종료 시 미완료로 간주된다.
+4. '탐험 허가증'을 소지한 상태에서 '쥬쥬 짐꾼' 플레이 시 탐험 코인을 획득할 수 있다.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.meta_shop_exchange_limit_2 = {
+	tip = "아직 잠금 해제되지 않았습니다."
+}
+
+_G.pg.base.gametip.meta_shop_tip = {
+	tip = "결정 상품의 교환 가능 횟수는 이미 획득한 결정 개수에 따라 변화합니다."
+}
+
+_G.pg.base.gametip.pt_shop_tran_tip = {
+	tip = "$2' 아이템은 더 이상 획득할 수 없습니다. '$2' $1개와, 나머지 '$2' 아이템은 '$4' $3개로 전환됩니다. 교환하시겠습니까?"
+}
+
+_G.pg.base.gametip.urdraw_tip = {
+	tip = "현재 수령하지 않은 누적 건설 보상이 존재합니다. 어서 수령해 주세요."
+}
+
+_G.pg.base.gametip.urdraw_complement = {
+	tip = "현재 누적 건설: <color=#92fc63>$1</color>\n남은 시간: <color=#ff5c5c>$2</color>"
+}
+
+_G.pg.base.gametip.meta_class_t_level_1 = {
+	tip = "적의 횃불"
+}
+
+_G.pg.base.gametip.meta_class_t_level_2 = {
+	tip = "구조의 원리"
+}
+
+_G.pg.base.gametip.meta_class_t_level_3 = {
+	tip = "빛을 쫓는 불꽃"
+}
+
+_G.pg.base.gametip.meta_class_t_level_4 = {
+	tip = "흔들리는 불"
+}
+
+_G.pg.base.gametip.meta_shop_exchange_limit_tip = {
+	tip = "아직 $1 캐릭터를 획득하지 못했습니다."
+}
+
+_G.pg.base.gametip.meta_shop_exchange_limit_2_tip = {
+	tip = "이 아이템은 $1년 $2월 $3일 $4시 $5분 $6초 후 구매 가능합니다."
+}
+
+_G.pg.base.gametip.charge_tip_crusing_label = {
+	tip = "획득을 축하합니다."
+}
+
+_G.pg.base.gametip.mktea_1 = {
+	tip = "채엽부터 신중하게 고르는 것이 좋은 차를 만드는 밑바탕입니다."
+}
+
+_G.pg.base.gametip.mktea_2 = {
+	tip = "찻잎을 펴서 찻잎의 수분을 증발시키고 잎을 부드럽게 합니다."
+}
+
+_G.pg.base.gametip.mktea_3 = {
+	tip = "차의 향기를 유지하기 위해 살청은 빼놓을 수 없는 단계입니다."
+}
+
+_G.pg.base.gametip.mktea_4 = {
+	tip = "살청된 찻잎을 서늘한 곳에 놓고 얇게 펴서 다시 습기를 머금게 합니다. 식으면 가루를 제거하고 부스러기를 걸러냅니다."
+}
+
+_G.pg.base.gametip.mktea_5 = {
+	tip = "마지막으로 녹색을 띄고, 잎이 평평하고 매끄러워지도록 찻잎을 가마솥에 볶아 향과 모양을 최적의 상태로 만듭니다."
+}
+
+_G.pg.base.gametip.random_skin_list_item_desc_label = {
+	tip = " 스킨"
 }

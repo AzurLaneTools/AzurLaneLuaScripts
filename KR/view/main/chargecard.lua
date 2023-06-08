@@ -28,6 +28,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.limitText = slot0.tr:Find("real_tpl/LimitText")
 	slot0.countDown = slot0.tr:Find("real_tpl/countDown")
 	slot0.countDownTm = slot0.countDown:Find("Text")
+	slot0.viewBtn = slot0.tr:Find("real_tpl/view")
 	slot0.timeLeftTag = slot0.tr:Find("real_tpl/time_left")
 	slot0.dayLeftTag = slot0.tr:Find("real_tpl/time_left/day")
 	slot0.hourLeftTag = slot0.tr:Find("real_tpl/time_left/hour")
@@ -64,6 +65,10 @@ function slot0.update(slot0, slot1, slot2, slot3)
 	setActive(slot0.icon, slot1:isChargeType())
 	setActive(slot0.contain, true)
 	setActive(slot0.countDown, false)
+
+	if slot0.viewBtn then
+		setActive(slot0.viewBtn, slot1:isChargeType() and slot1:CanViewSkinProbability())
+	end
 
 	if slot1:isChargeType() then
 		slot0:updateCharge(slot1, slot2, slot3)
@@ -203,7 +208,7 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 	end
 
 	slot0.resCount.text = "x" .. slot1:getConfig("gem")
-	slot0.price.text = numberFormat(slot1:getConfig("money"), ",")
+	slot0.price.text = slot1:getConfig("money")
 
 	if PLATFORM_CODE == PLATFORM_CHT and slot1:IsLocalPrice() then
 		setActive(slot0.rmb, false)

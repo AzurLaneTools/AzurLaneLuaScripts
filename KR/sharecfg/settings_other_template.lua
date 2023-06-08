@@ -160,6 +160,15 @@ pg.settings_other_template = {
 		title = "서약 캐릭터명 특수 표시",
 		desc = "기능 설정 후, 도크 등 화면에서 서약한 캐릭터명이 특수한 색으로 표시된다."
 	},
+	{
+		default = 0,
+		name = "BATTLERESULT_SKIP_DISPAY_PAINTING",
+		type = 0,
+		alignment = 0,
+		id = 17,
+		title = "캐릭터 결산 화면 건너뛰기",
+		desc = "해당 기능 활성화 시, 전투 결산 화면이 나타나지 않습니다."
+	},
 	all = {
 		1,
 		2,
@@ -176,6 +185,7 @@ pg.settings_other_template = {
 		13,
 		14,
 		15,
-		16
+		16,
+		17
 	}
 }

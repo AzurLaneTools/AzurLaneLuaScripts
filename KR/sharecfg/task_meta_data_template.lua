@@ -167,6 +167,11 @@ pg.task_meta_data_template = setmetatable({
 		100063,
 		100064,
 		100065,
+		100071,
+		100072,
+		100073,
+		100074,
+		100075,
 		100081,
 		100082,
 		100083,
@@ -196,6 +201,10 @@ pg.task_meta_data_template = setmetatable({
 		200062,
 		200063,
 		200064,
+		200071,
+		200072,
+		200073,
+		200074,
 		200081,
 		200082,
 		200083,
@@ -1524,6 +1533,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100071] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "U-556.META를 사용해 승리 1회",
+		id = 100071,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100072] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "U-556.META를 사용해 30 이상 레벨의 적 1회 격파",
+		id = 100072,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100073] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "U-556.META를 사용해 55 이상 레벨의 적 1회 격파",
+		id = 100073,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100074] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "U-556.META를 사용해 80 이상 레벨의 적 1회 격파",
+		id = 100074,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100075] = {
+		target_id_2 = "970801",
+		sub_type = 180,
+		desc = "U-556.META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 100075,
+		target_num = 1,
+		target_id = "100"
+	},
 	[100081] = {
 		target_id_2 = "971201",
 		sub_type = 180,
@@ -1753,6 +1802,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "대형 작전에서 라 갈리소니에르·META를 사용해 100 이상 레벨의 적 1회 격파",
 		id = 200064,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200071] = {
+		target_id_2 = "970801",
+		sub_type = 302,
+		desc = "U-556.META를 사용해 1회 승리",
+		id = 200071,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200072] = {
+		target_id_2 = "970801",
+		sub_type = 302,
+		desc = "U-556.META를 사용해 70 이상 레벨의 적 1회 격파",
+		id = 200072,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200073] = {
+		target_id_2 = "970801",
+		sub_type = 302,
+		desc = "U-556.META를 사용해 90 이상 레벨의 적 1회 격파",
+		id = 200073,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200074] = {
+		target_id_2 = "970801",
+		sub_type = 302,
+		desc = "U-556.META를 사용해 100 이상 레벨의 적 1회 격파",
+		id = 200074,
 		target_num = 1,
 		target_id = "100"
 	},

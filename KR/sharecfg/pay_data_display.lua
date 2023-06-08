@@ -17,6 +17,7 @@ pg.pay_data_display = {
 		limit_type = 1,
 		time = "always",
 		picture = "month",
+		skin_inquire_relation = 0,
 		id_str = "alkrmonthly",
 		first_pay_double = 0,
 		extra_service = 2,
@@ -42,7 +43,24 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		}
 	},
 	{
 		subject = "신규 지원 팩",
@@ -61,6 +79,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "box1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift1",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -97,7 +116,19 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				15003,
+				2
+			},
+			{
+				2,
+				20001,
+				2
+			}
+		}
 	},
 	{
 		subject = "다이아 한 숟갈",
@@ -117,6 +148,7 @@ pg.pay_data_display = {
 		limit_type = 99,
 		time = "always",
 		picture = "1",
+		skin_inquire_relation = 0,
 		id_str = "alkrdiamond1",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -125,7 +157,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "다이아 한 줌",
@@ -145,6 +178,7 @@ pg.pay_data_display = {
 		limit_type = 99,
 		time = "always",
 		picture = "2",
+		skin_inquire_relation = 0,
 		id_str = "alkrdiamond2",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -153,7 +187,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "다이아 한 보따리",
@@ -173,6 +208,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "3",
+		skin_inquire_relation = 0,
 		id_str = "alkrdiamond3",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -181,7 +217,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "다이아 작은 상자",
@@ -201,6 +238,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "4",
+		skin_inquire_relation = 0,
 		id_str = "alkrdiamond4",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -209,7 +247,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "다이아 큰 상자",
@@ -229,6 +268,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "5",
+		skin_inquire_relation = 0,
 		id_str = "alkrdiamond5",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -237,7 +277,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	{
 		subject = "다이아 무역선",
@@ -257,6 +298,7 @@ pg.pay_data_display = {
 		limit_type = 0,
 		time = "always",
 		picture = "6",
+		skin_inquire_relation = 0,
 		id_str = "alkrdiamond6",
 		first_pay_double = 1,
 		extra_service = 0,
@@ -265,7 +307,8 @@ pg.pay_data_display = {
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[11] = {
 		subject = "아카시 패키지",
@@ -283,6 +326,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift2",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -365,7 +409,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40902,
+				1
+			}
+		}
 	},
 	[12] = {
 		subject = "2019년 복주머니",
@@ -383,6 +434,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift3",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -465,7 +517,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40903,
+				1
+			}
+		}
 	},
 	[13] = {
 		subject = "복주머니",
@@ -483,6 +542,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift4",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -565,7 +625,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40904,
+				1
+			}
+		}
 	},
 	[14] = {
 		subject = "랜덤 스페셜 스킨",
@@ -583,6 +650,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe1_l",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift5",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -665,7 +733,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40905,
+				1
+			}
+		}
 	},
 	[15] = {
 		subject = "2019 가을 스킨 패키지 ",
@@ -683,6 +758,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe1_l",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift6",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -765,7 +841,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40906,
+				1
+			}
+		}
 	},
 	[16] = {
 		subject = "신년 패키지(2020)",
@@ -783,6 +866,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift7",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -870,7 +954,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40908,
+				1
+			}
+		}
 	},
 	[17] = {
 		subject = "신년 패키지(2019)",
@@ -888,6 +979,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift9",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -970,7 +1062,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40903,
+				1
+			}
+		}
 	},
 	[18] = {
 		subject = "복주머니(2020)",
@@ -988,6 +1087,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai2",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift8",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1075,7 +1175,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40909,
+				1
+			}
+		}
 	},
 	[19] = {
 		subject = "복주머니(2019)",
@@ -1093,6 +1200,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift10",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1175,7 +1283,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40904,
+				1
+			}
+		}
 	},
 	[20] = {
 		subject = "신입 지휘관 지원 패키지·I",
@@ -1194,6 +1309,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift11",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1260,7 +1376,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40012,
+				1
+			}
+		}
 	},
 	[21] = {
 		subject = "신입 지휘관 지원 패키지·II",
@@ -1279,6 +1402,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support2",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift12",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1370,7 +1494,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40013,
+				1
+			}
+		}
 	},
 	[22] = {
 		subject = "신입 지휘관 지원 패키지·III",
@@ -1389,6 +1520,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support3",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift13",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1485,7 +1617,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40014,
+				1
+			}
+		}
 	},
 	[23] = {
 		subject = "연회복 패키지 ",
@@ -1503,6 +1642,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe1_l",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift14",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1590,7 +1730,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40910,
+				1
+			}
+		}
 	},
 	[24] = {
 		subject = "2020 가을 연회복 패키지",
@@ -1608,6 +1755,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift15",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1695,7 +1843,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40911,
+				1
+			}
+		}
 	},
 	[25] = {
 		subject = "신년 패키지(2021)",
@@ -1713,6 +1868,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai3",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift16",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1800,7 +1956,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40912,
+				1
+			}
+		}
 	},
 	[26] = {
 		subject = "신년 패키지 복각(2020)",
@@ -1818,6 +1981,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift17",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -1905,7 +2069,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40908,
+				1
+			}
+		}
 	},
 	[27] = {
 		subject = "복주머니(2021)",
@@ -1923,6 +2094,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai4",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift18",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2010,7 +2182,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40913,
+				1
+			}
+		}
 	},
 	[28] = {
 		subject = "복주머니(2020)",
@@ -2028,6 +2207,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai2",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift8",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2115,7 +2295,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40909,
+				1
+			}
+		}
 	},
 	[29] = {
 		subject = "연회복 패키지(2021)",
@@ -2133,6 +2320,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe6_l",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift19",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2220,7 +2408,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40914,
+				1
+			}
+		}
 	},
 	[30] = {
 		subject = "연회복 패키지 복각(2020)",
@@ -2238,6 +2433,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe1_l",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift20",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2325,7 +2521,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40910,
+				1
+			}
+		}
 	},
 	[31] = {
 		subject = "대형 작전 공략 지원팩",
@@ -2344,6 +2547,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "support4",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift21",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2430,7 +2634,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40015,
+				1
+			}
+		}
 	},
 	[32] = {
 		subject = "2021 가을 연회복 패키지",
@@ -2448,6 +2659,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe6_l",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift22",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2535,7 +2747,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40915,
+				1
+			}
+		}
 	},
 	[33] = {
 		subject = "2020 가을 연회복 패키지 복각",
@@ -2553,6 +2772,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe3_l",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift23",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2640,7 +2860,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40911,
+				1
+			}
+		}
 	},
 	[34] = {
 		subject = "신년 패키지(2022)",
@@ -2658,6 +2885,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai6",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift26",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2745,7 +2973,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40916,
+				1
+			}
+		}
 	},
 	[35] = {
 		subject = "신년 패키지 복각(2021)",
@@ -2763,6 +2998,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai3",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift27",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2850,7 +3086,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40912,
+				1
+			}
+		}
 	},
 	[36] = {
 		subject = "복주머니2022",
@@ -2868,6 +3111,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai7",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift28",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -2955,7 +3199,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40917,
+				1
+			}
+		}
 	},
 	[37] = {
 		subject = "복주머니 복각(2021)",
@@ -2973,6 +3224,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai4",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift29",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3060,7 +3312,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40913,
+				1
+			}
+		}
 	},
 	[38] = {
 		subject = "연회복 패키지(2022)",
@@ -3078,6 +3337,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe8_l",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift41",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3165,7 +3425,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40919,
+				1
+			}
+		}
 	},
 	[39] = {
 		subject = "연회복 패키지 복각(2021)",
@@ -3183,6 +3450,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe6_l",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift42",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3270,7 +3538,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40914,
+				1
+			}
+		}
 	},
 	[40] = {
 		subject = "가을 연회복 패키지(2022)",
@@ -3288,6 +3563,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe8_l",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift45",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3375,7 +3651,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40920,
+				1
+			}
+		}
 	},
 	[41] = {
 		subject = "가을 연회복 패키지(2021)",
@@ -3393,6 +3676,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe6_l",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift46",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3480,7 +3764,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40915,
+				1
+			}
+		}
 	},
 	[44] = {
 		subject = "복귀 패키지",
@@ -3498,6 +3789,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "support6",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift48",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3625,7 +3917,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40921,
+				1
+			}
+		}
 	},
 	[45] = {
 		subject = "2023 수영복 패키지·I",
@@ -3643,6 +3942,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe10_l",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift50",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3730,7 +4030,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40922,
+				1
+			}
+		}
 	},
 	[46] = {
 		subject = "2023 수영복 패키지·II",
@@ -3748,6 +4055,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe11_l",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift51",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3835,7 +4143,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40923,
+				1
+			}
+		}
 	},
 	[47] = {
 		subject = "연회복 패키지 복각(2022)",
@@ -3853,6 +4168,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai6",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift52",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -3940,7 +4256,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40916,
+				1
+			}
+		}
 	},
 	[48] = {
 		subject = "2023 춘절 복주머니·I",
@@ -3958,6 +4281,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudaiqp1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift53",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4045,7 +4369,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40924,
+				1
+			}
+		}
 	},
 	[49] = {
 		subject = "2023 춘절 복주머니·II",
@@ -4063,6 +4394,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudaiqp2",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift54",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4150,7 +4482,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40925,
+				1
+			}
+		}
 	},
 	[50] = {
 		subject = "복주머니 복각(2022)",
@@ -4168,6 +4507,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai7",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift55",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -4255,7 +4595,127 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40917,
+				1
+			}
+		}
+	},
+	[51] = {
+		subject = "여름 수영복 패키지",
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
+		type = 1,
+		limit_arg = 1,
+		name = "여름 수영복 패키지",
+		name_display = "여름 수영복 패키지",
+		type_order = 2,
+		extra_gem = 0,
+		id = 51,
+		money = 36300,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihecn6ss_l",
+		skin_inquire_relation = 69926,
+		id_str = "alkrgift59",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "캐릭터 스킨*1, 다이아*2023, 기타 대량의 보상 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.diamond140",
+		extra_service_item = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					28
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40926,
+				1
+			}
+		}
 	},
 	[1000] = {
 		subject = "특허 투어 패스",
@@ -4273,6 +4733,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift24",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4328,7 +4789,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1001] = {
 		subject = "특허 투어 패스",
@@ -4346,6 +4808,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift25",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4401,7 +4864,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1002] = {
 		subject = "특허 투어 패스",
@@ -4419,6 +4883,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift30",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4474,7 +4939,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1003] = {
 		subject = "특허 투어 패스",
@@ -4492,6 +4958,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift31",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4547,7 +5014,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1004] = {
 		subject = "특허 투어 패스",
@@ -4565,6 +5033,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift40",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4620,7 +5089,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1005] = {
 		subject = "특허 투어 패스",
@@ -4638,6 +5108,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift43",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4693,7 +5164,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1006] = {
 		subject = "특허 투어 패스",
@@ -4711,6 +5183,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift47",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4766,7 +5239,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1007] = {
 		subject = "특허 투어 패스",
@@ -4784,6 +5258,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift49",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4839,7 +5314,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1008] = {
 		subject = "특허 투어 패스",
@@ -4857,6 +5333,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift56",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4912,7 +5389,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1009] = {
 		subject = "특허 투어 패스",
@@ -4930,6 +5408,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift57",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -4985,7 +5464,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[1010] = {
 		subject = "특허 투어 패스",
@@ -5003,6 +5483,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "battlepass_1",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift62",
 		first_pay_double = 0,
 		extra_service = 4,
@@ -5058,7 +5539,8 @@ pg.pay_data_display = {
 			1500
 		},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {}
 	},
 	[2001] = {
 		subject = "PR함 개발 패키지(제1기)",
@@ -5077,6 +5559,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_display",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift32",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5113,7 +5596,8 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
-		}
+		},
+		drop_item = {}
 	},
 	[2002] = {
 		subject = "PR함 개발 패키지(제1기)-고급",
@@ -5132,6 +5616,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_promotion",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift33",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5168,6 +5653,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40016,
+				1
+			}
 		}
 	},
 	[2003] = {
@@ -5187,6 +5679,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_normal",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift32",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5213,6 +5706,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40017,
+				1
+			}
 		}
 	},
 	[2004] = {
@@ -5232,6 +5732,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech1_promotion",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift34",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5258,6 +5759,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40018,
+				1
+			}
 		}
 	},
 	[2005] = {
@@ -5277,6 +5785,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_display",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift35",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5313,7 +5822,8 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
-		}
+		},
+		drop_item = {}
 	},
 	[2006] = {
 		subject = "PR함 개발 패키지(제2기)-고급",
@@ -5332,6 +5842,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_promotion",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift36",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5368,6 +5879,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40019,
+				1
+			}
 		}
 	},
 	[2007] = {
@@ -5387,6 +5905,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_normal",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift35",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5413,6 +5932,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40020,
+				1
+			}
 		}
 	},
 	[2008] = {
@@ -5432,6 +5958,7 @@ pg.pay_data_display = {
 		limit_type = 3,
 		time = "always",
 		picture = "tech2_promotion",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift37",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5458,6 +5985,13 @@ pg.pay_data_display = {
 				"level",
 				30
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40021,
+				1
+			}
 		}
 	},
 	[2009] = {
@@ -5477,6 +6011,7 @@ pg.pay_data_display = {
 		limit_type = 2,
 		time = "always",
 		picture = "lv_70",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift38",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5533,6 +6068,13 @@ pg.pay_data_display = {
 				"lv_70",
 				70
 			}
+		},
+		drop_item = {
+			{
+				2,
+				40022,
+				1
+			}
 		}
 	},
 	[2010] = {
@@ -5551,6 +6093,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "boxSkill",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift39",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5633,7 +6176,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
 	},
 	[2011] = {
 		subject = "스킬 교본 패키지",
@@ -5651,6 +6201,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "boxSkill",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift44",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5733,7 +6284,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
 	},
 	[2014] = {
 		subject = "스킬 교본 패키지",
@@ -5751,6 +6309,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "boxSkill",
+		skin_inquire_relation = 0,
 		id_str = "alkrgift58",
 		first_pay_double = 0,
 		extra_service = 3,
@@ -5833,7 +6392,14 @@ pg.pay_data_display = {
 		},
 		sub_display = {},
 		ignorePlatform = {},
-		limit_args = {}
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
 	},
 	all = {
 		1,
@@ -5882,6 +6448,7 @@ pg.pay_data_display = {
 		48,
 		49,
 		50,
+		51,
 		1000,
 		1001,
 		1002,

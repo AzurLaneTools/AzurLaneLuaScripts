@@ -1,7 +1,7 @@
 slot0 = class("MainActDelegationBtn", import(".MainBaseSpcailActBtn"))
 
 function slot0.InShowTime(slot0)
-	return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_RYZA) and not slot1:isEnd()
+	return getProxy(ActivityProxy):getActivityById(ActivityConst.RYZA_TASK) and not slot1:isEnd()
 end
 
 function slot0.GetUIName(slot0)
@@ -9,7 +9,7 @@ function slot0.GetUIName(slot0)
 end
 
 function slot0.OnClick(slot0)
-	slot0.event:emit(NewMainMediator.SKIP_DELEGATION)
+	slot0.event:emit(NewMainMediator.GO_SCENE, SCENE.RYZA_TASK)
 end
 
 function slot0.OnInit(slot0)

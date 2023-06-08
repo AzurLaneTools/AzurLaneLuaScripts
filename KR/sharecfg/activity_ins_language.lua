@@ -4044,7 +4044,49 @@ pg.activity_ins_language = setmetatable({
 		"ins_discuss_369_3",
 		"ins_reply_369_3_1",
 		"ins_op_369_1_1",
-		"op_reply_369_1_1"
+		"op_reply_369_1_1",
+		"ins_370",
+		"ins_discuss_370_1",
+		"ins_reply_370_1_1",
+		"ins_reply_370_1_2",
+		"ins_discuss_370_2",
+		"ins_reply_370_2_1",
+		"ins_discuss_370_3",
+		"ins_reply_370_3_1",
+		"ins_reply_370_3_2",
+		"ins_op_370_1_1",
+		"op_reply_370_1_1",
+		"ins_371",
+		"ins_discuss_371_1",
+		"ins_reply_371_1_1",
+		"ins_discuss_371_2",
+		"ins_reply_371_2_1",
+		"ins_reply_371_2_2",
+		"ins_reply_371_2_3",
+		"ins_discuss_371_3",
+		"ins_reply_371_3_1",
+		"ins_op_371_1_1",
+		"op_reply_371_1_1",
+		"ins_372",
+		"ins_discuss_372_1",
+		"ins_reply_372_1_1",
+		"ins_reply_372_1_2",
+		"ins_reply_372_1_3",
+		"ins_reply_372_1_4",
+		"ins_discuss_372_2",
+		"ins_reply_372_2_1",
+		"ins_op_372_1_1",
+		"op_reply_372_1_1",
+		"ins_373",
+		"ins_discuss_373_1",
+		"ins_reply_373_1_1",
+		"ins_discuss_373_2",
+		"ins_reply_373_2_1",
+		"ins_reply_373_2_2",
+		"ins_reply_373_2_3",
+		"ins_reply_373_2_4",
+		"ins_op_373_1_1",
+		"op_reply_373_1_1"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16077,105 +16119,231 @@ pg.base.activity_ins_language = {
 		value = "히어로의 보물 상자에 대한 후각 덕분이지~"
 	},
 	ins_367 = {
-		value = ""
+		value = "겨울이 끝나기 전에 눈사람 만들기."
 	},
 	ins_discuss_367_1 = {
-		value = ""
+		value = "와! 눈사람이다!……아? 눈고양인가?"
 	},
 	ins_reply_367_1_1 = {
-		value = ""
+		value = "음, 디자인적인 구상을 조금 해봤는데… 괜찮지 않아?"
 	},
 	ins_reply_367_1_2 = {
-		value = ""
+		value = "댓글 답장이 너무 느려!"
 	},
 	ins_reply_367_1_3 = {
-		value = ""
+		value = "마지막 눈이 다 없어지기 전에 눈싸움 하자!"
 	},
 	ins_reply_367_2_1 = {
-		value = ""
+		value = "눈싸움할 거야? 나도 껴줘!"
 	},
 	ins_reply_367_2_2 = {
-		value = ""
+		value = "내 눈사람을 연습 대상으로 삼지는 말아줘……"
 	},
 	ins_discuss_367_3 = {
-		value = ""
+		value = "날씨가 점점 따뜻해지니, 눈사람도 오래 버틸 수는 없겠어."
 	},
 	ins_reply_367_3_1 = {
-		value = ""
+		value = "천천히 눈이 녹는 걸 보는 것도 꽤 재밌더라고."
 	},
 	ins_op_367_1_1 = {
-		value = ""
+		value = "귀엽다!"
 	},
 	op_reply_367_1_1 = {
-		value = ""
+		value = "인내심만 있으면 누구라도 멋진 눈사람을 만들 수 있다고. 지휘관 동지도 해볼래?"
 	},
 	ins_368 = {
-		value = ""
+		value = "으흠, 위장 효과가 나쁘지 않군."
 	},
 	ins_discuss_368_1 = {
-		value = ""
+		value = "길가에 세워진 마스코트로 위장해 정찰한다는 건가, 좋은 생각인걸!"
 	},
 	ins_reply_368_1_1 = {
-		value = ""
+		value = "따스해 보이는게, 한 번 안아보고 싶네요~"
 	},
 	ins_reply_368_1_2 = {
-		value = ""
+		value = "음…… 내가 원하던 반응이랑은 좀 다른데……"
 	},
 	ins_discuss_368_2 = {
-		value = ""
+		value = "음, 왜 눈사람이야?"
 	},
 	ins_reply_368_2_1 = {
-		value = ""
+		value = "이쪽에 마침 눈사람이 있어서, 같이 있으면 자연스러워 보일 것 같아서……"
 	},
 	ins_discuss_368_3 = {
-		value = ""
+		value = "귀여워… 그런데, 덥지 않아?"
 	},
 	ins_reply_368_3_1 = {
-		value = ""
+		value = "나에게 이정도 더위는 아무것도 아니야!"
 	},
 	ins_discuss_368_4 = {
-		value = ""
+		value = "내 눈사람이랑 딱 맞는 한 쌍이네. 좋아 좋아."
 	},
 	ins_reply_368_4_1 = {
-		value = ""
+		value = "이 눈사람이 네가 만든 것이었군!"
 	},
 	ins_op_368_1_1 = {
-		value = ""
+		value = "멀리서 봤을 때, 확실히 배경에 잘 녹아들었어."
 	},
 	op_reply_368_1_1 = {
-		value = ""
+		value = "그렇지, 바로 그런 효과를 원한 거야."
 	},
 	ins_369 = {
-		value = ""
+		value = "이 보드카로 봄을 맞이한 것을 축하하자, 동지들!"
 	},
 	ins_discuss_369_1 = {
-		value = ""
+		value = "좋았어, 동지! 오늘은 통쾌하게 마셔보자고!"
 	},
 	ins_reply_369_1_1 = {
-		value = ""
+		value = "후훗, 이번엔 너보다 더 많이 마셔주겠어!"
 	},
 	ins_reply_369_1_2 = {
-		value = ""
+		value = "하하핫, 언제든 상대해 줄게!"
 	},
 	ins_discuss_369_2 = {
-		value = ""
+		value = "정말 소란스럽군."
 	},
 	ins_reply_369_2_1 = {
-		value = ""
+		value = "세바스토폴 괜찮은 거지?"
 	},
 	ins_reply_369_2_2 = {
-		value = ""
+		value = "괜찮을 거야. 비틀거리며 돌아가는 걸 보니 지금은 아마… 2라운드 전투를 준비하려나?"
 	},
 	ins_discuss_369_3 = {
-		value = ""
+		value = "내 불쌍한 눈사람이..."
 	},
 	ins_reply_369_3_1 = {
-		value = ""
+		value = "세바스토폴의 열정의 녹았다고 해도 될까요? 후훗~"
 	},
 	ins_op_369_1_1 = {
-		value = ""
+		value = "괜찮지……?"
 	},
 	op_reply_369_1_1 = {
+		value = "지휘관 동지, 그 얕보는 듯한 말투는 뭐야!? 난 당연히 멀쩡하다고!"
+	},
+	ins_370 = {
+		value = ""
+	},
+	ins_discuss_370_1 = {
+		value = ""
+	},
+	ins_reply_370_1_1 = {
+		value = ""
+	},
+	ins_reply_370_1_2 = {
+		value = ""
+	},
+	ins_discuss_370_2 = {
+		value = ""
+	},
+	ins_reply_370_2_1 = {
+		value = ""
+	},
+	ins_discuss_370_3 = {
+		value = ""
+	},
+	ins_reply_370_3_1 = {
+		value = ""
+	},
+	ins_reply_370_3_2 = {
+		value = ""
+	},
+	ins_op_370_1_1 = {
+		value = ""
+	},
+	op_reply_370_1_1 = {
+		value = ""
+	},
+	ins_371 = {
+		value = ""
+	},
+	ins_discuss_371_1 = {
+		value = ""
+	},
+	ins_reply_371_1_1 = {
+		value = ""
+	},
+	ins_discuss_371_2 = {
+		value = ""
+	},
+	ins_reply_371_2_1 = {
+		value = ""
+	},
+	ins_reply_371_2_2 = {
+		value = ""
+	},
+	ins_reply_371_2_3 = {
+		value = ""
+	},
+	ins_discuss_371_3 = {
+		value = ""
+	},
+	ins_reply_371_3_1 = {
+		value = ""
+	},
+	ins_op_371_1_1 = {
+		value = ""
+	},
+	op_reply_371_1_1 = {
+		value = ""
+	},
+	ins_372 = {
+		value = ""
+	},
+	ins_discuss_372_1 = {
+		value = ""
+	},
+	ins_reply_372_1_1 = {
+		value = ""
+	},
+	ins_reply_372_1_2 = {
+		value = ""
+	},
+	ins_reply_372_1_3 = {
+		value = ""
+	},
+	ins_reply_372_1_4 = {
+		value = ""
+	},
+	ins_discuss_372_2 = {
+		value = ""
+	},
+	ins_reply_372_2_1 = {
+		value = ""
+	},
+	ins_op_372_1_1 = {
+		value = ""
+	},
+	op_reply_372_1_1 = {
+		value = ""
+	},
+	ins_373 = {
+		value = ""
+	},
+	ins_discuss_373_1 = {
+		value = ""
+	},
+	ins_reply_373_1_1 = {
+		value = ""
+	},
+	ins_discuss_373_2 = {
+		value = ""
+	},
+	ins_reply_373_2_1 = {
+		value = ""
+	},
+	ins_reply_373_2_2 = {
+		value = ""
+	},
+	ins_reply_373_2_3 = {
+		value = ""
+	},
+	ins_reply_373_2_4 = {
+		value = ""
+	},
+	ins_op_373_1_1 = {
+		value = ""
+	},
+	op_reply_373_1_1 = {
 		value = ""
 	}
 }

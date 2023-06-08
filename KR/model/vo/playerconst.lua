@@ -143,7 +143,7 @@ function slot0.addTranDrop(slot0, slot1)
 
 				return nil, slot1
 			end
-		elseif slot0.type == DROP_TYPE_SHIP and Ship.isMetaShipByConfigID(slot0.id) then
+		elseif slot0.type == DROP_TYPE_SHIP and Ship.isMetaShipByConfigID(slot0.id) and Player.isMetaShipNeedToTrans(slot0.id) then
 			if table.indexof(uv1, slot0.id, 1) then
 				table.remove(uv1, slot1)
 			else
@@ -404,6 +404,33 @@ function slot0.MergeTechnologyAward(slot0)
 	end
 
 	return slot1
+end
+
+function slot0.CanDropItem(slot0)
+	slot1 = slot0
+
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.UTAWARERU_ACTIVITY_PT_ID) and not slot3:isEnd() then
+		slot4 = slot3:getConfig("config_client").pt_id
+
+		if _.detect(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
+			return slot0:getConfig("config_id") == uv0
+		end):getData1() >= 1500 then
+			slot5 = slot5 - 1500
+			slot1 = _.filter(slot1, function (slot0)
+				return slot0.dropType ~= DROP_TYPE_RESOURCE or slot0.id ~= uv0
+			end)
+
+			if _.detect(slot1, function (slot0)
+				return slot0.dropType == DROP_TYPE_RESOURCE and slot0.id == uv0
+			end) and slot5 < slot6.count then
+				slot6.count = slot6.count - slot5
+
+				table.insert(slot1, slot6)
+			end
+		end
+	end
+
+	return table.getCount(PlayerConst.BonusItemMarker(slot1)) > 0
 end
 
 return slot0

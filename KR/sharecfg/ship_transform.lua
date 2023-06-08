@@ -12,8 +12,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -29,8 +29,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -46,8 +46,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -63,8 +63,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -80,8 +80,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -97,8 +97,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -114,8 +114,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -131,8 +131,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -148,8 +148,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -165,8 +165,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -182,8 +182,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -199,8 +199,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -216,8 +216,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -233,8 +233,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -250,8 +250,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -267,8 +267,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -284,8 +284,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -301,8 +301,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -318,8 +318,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -335,8 +335,25 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
+				21000,
+				10
+			}
+		}
+	},
+	[970801] = {
+		id = 970801,
+		exclusive_item = {
+			{
+				2,
+				21021,
 				1
+			}
+		},
+		common_item = {
+			{
+				2,
+				21000,
+				10
 			}
 		}
 	},
@@ -352,8 +369,8 @@ pg.ship_transform = {
 		common_item = {
 			{
 				2,
-				59001,
-				1
+				21000,
+				10
 			}
 		}
 	},
@@ -378,6 +395,7 @@ pg.ship_transform = {
 		970203,
 		970504,
 		970204,
+		970801,
 		971201
 	}
 }

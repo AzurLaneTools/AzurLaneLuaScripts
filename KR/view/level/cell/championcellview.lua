@@ -34,7 +34,7 @@ function slot2.UpdateChampionCell(slot0, slot1, slot2, slot3)
 	slot0.tfShadow.localEulerAngles = Vector3(slot1.theme.angle, 0, 0)
 
 	if slot4 then
-		StaticEggCellView.RefreshEnemyTplIcons(slot0, slot2:getConfigTable(), slot1)
+		uv0.RefreshEnemyTplIcons(slot0, slot2:getConfigTable(), slot1)
 	end
 
 	slot0:SetActive(slot4)

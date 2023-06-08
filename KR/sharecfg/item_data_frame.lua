@@ -389,11 +389,11 @@ pg.item_data_frame = {
 	},
 	[325] = {
 		time_limit_type = 0,
-		name = "노른회랑",
-		gain_by = "",
+		name = "노른 회랑",
+		gain_by = "오엽각 교차점",
 		id = 325,
 		time_second = 0,
-		desc = "추후 이벤트를 통해 획득 가능",
+		desc = "<color=#ffffff>「예언의 날, 중정은 화염과 노도에 떨어질 것이다-」</color>\n「오엽각 교차점」이벤트에서 획득",
 		scene = {}
 	},
 	[401] = {
@@ -439,6 +439,15 @@ pg.item_data_frame = {
 		id = 601,
 		time_second = 0,
 		desc = "<color=#ffffff>무더운 여름날 잠깐의 시원함을 느껴봐!</color>\n「쥬쥬 아이스크림」 이벤트에 참여하여 획득",
+		scene = {}
+	},
+	[602] = {
+		time_limit_type = 0,
+		name = "바닷바람과 여름날의 증거",
+		gain_by = "",
+		id = 602,
+		time_second = 0,
+		desc = "<color=#ffffff>무인도의 멋진 풍경을 만끽해 보세요~!</color>\n한정 이벤트「바닷바람과 여름날의 무인도」를 통해 획득",
 		scene = {}
 	},
 	all = {
@@ -490,6 +499,7 @@ pg.item_data_frame = {
 		402,
 		413,
 		501,
-		601
+		601,
+		602
 	}
 }

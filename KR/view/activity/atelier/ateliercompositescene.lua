@@ -97,7 +97,7 @@ function slot0.didEnter(slot0)
 	slot0.contextData.filterType = uv0.FilterAll
 
 	table.Foreach(slot0.formulaFilterButtons, function (slot0, slot1)
-		onButton(uv0, slot1, function (slot0)
+		onButton(uv0, slot1, function ()
 			if uv0.contextData.filterType == uv1.FilterAll then
 				uv0.contextData.filterType = bit.lshift(1, uv2 - 1)
 			else
@@ -1294,7 +1294,7 @@ function slot0.ShowCompositeConfirmWindow(slot0)
 
 	slot0:UpdateRyzaDrop(slot0.layerCompositeConfirm:Find("Window/Icon"), slot10)
 
-	slot13 = Item.GetConfig(slot10.type, slot10.id).name
+	slot13 = updateDropCfg(slot10).name
 
 	setActive(slot0.layerCompositeConfirm:Find("Window/Counters"), slot5)
 

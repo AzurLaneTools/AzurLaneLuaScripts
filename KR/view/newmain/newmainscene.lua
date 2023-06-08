@@ -49,7 +49,7 @@ function slot0.PlayBgm(slot0, slot1)
 	end
 
 	if slot2 or uv0.super.getBGM(slot0) then
-		playBGM(slot2)
+		pg.BgmMgr.GetInstance():Push(slot0.__cname, slot2)
 	end
 end
 

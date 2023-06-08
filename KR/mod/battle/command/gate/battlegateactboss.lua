@@ -148,9 +148,9 @@ function slot0.Exit(slot0, slot1)
 		uv2.statistics.mvpShipID = slot0.mvp
 		slot1, slot2 = uv1:GeneralLoot(slot0)
 		slot3 = ys.Battle.BattleConst.BattleScore.C < uv4
-		slot4 = uv1.GenerateCommanderExp(slot0, uv5)
+		slot4 = uv1.GenerateCommanderExp(slot0, uv5, uv6[uv2.mainFleetId + 10])
 
-		uv1.GeneralPlayerCosume(SYSTEM_ACT_BOSS, slot3, uv6, slot0.player_exp)
+		uv1.GeneralPlayerCosume(SYSTEM_ACT_BOSS, slot3, uv7, slot0.player_exp)
 
 		slot5 = nil
 
@@ -164,7 +164,7 @@ function slot0.Exit(slot0, slot1)
 			})
 		end
 
-		uv1:sendNotification(GAME.FINISH_STAGE_DONE, {
+		slot6 = {
 			system = SYSTEM_ACT_BOSS,
 			statistics = uv2.statistics,
 			score = uv4,
@@ -173,7 +173,27 @@ function slot0.Exit(slot0, slot1)
 			result = slot0.result,
 			extraDrops = slot2,
 			isLastBonus = slot5
-		})
+		}
+
+		if PlayerConst.CanDropItem(slot1) then
+			slot7 = {}
+
+			for slot11, slot12 in ipairs(slot1) do
+				table.insert(slot7, slot12)
+			end
+
+			for slot11, slot12 in ipairs(slot2) do
+				slot12.riraty = true
+
+				table.insert(slot7, slot12)
+			end
+
+			if getProxy(ContextProxy):getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
+				getProxy(ChapterProxy):AddActBossRewards(slot7)
+			end
+		end
+
+		uv1:sendNotification(GAME.FINISH_STAGE_DONE, slot6)
 	end)
 end
 

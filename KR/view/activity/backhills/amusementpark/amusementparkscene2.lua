@@ -44,11 +44,6 @@ function slot0.init(slot0)
 
 	slot0:RegisterDataResponse()
 
-	slot0.upgradePanel = BuildingUpgradPanel.New(slot0)
-
-	slot0.upgradePanel:Load()
-	slot0.upgradePanel.buffer:Hide()
-
 	slot0.loader = AutoLoader.New()
 end
 
@@ -158,7 +153,13 @@ function slot0.didEnter(slot0)
 
 	for slot4, slot5 in pairs(slot0.Buildings) do
 		slot0:InitFacilityCross(slot0._map, slot0._upper, slot5, function ()
-			uv0.upgradePanel:Set(uv0.activity, uv1)
+			uv0:emit(BackHillMediatorTemplate.GO_SUBLAYER, Context.New({
+				mediator = BuildingUpgradeMediator,
+				viewComponent = BuildingUpgradeLayer,
+				data = {
+					buildingID = uv1
+				}
+			}))
 		end)
 	end
 
@@ -184,10 +185,6 @@ function slot0.UpdateActivity(slot0, slot1)
 	slot0.Respones.materialCount = slot1.data1KeyValueList[1][next(slot1.data1KeyValueList[1])] or 0
 
 	slot0:UpdateView()
-
-	if slot0.upgradePanel and slot0.upgradePanel:IsShowing() then
-		slot0.upgradePanel:Set(slot1)
-	end
 end
 
 function slot0.UpdateView(slot0)
@@ -200,16 +197,6 @@ function slot0.UpdateView(slot0)
 	slot0.Respones.jiujiudalaotuanTip = getProxy(MiniGameProxy):GetHubByHubId(uv0).count > 0
 
 	slot0:UpdateHubData(slot3)
-end
-
-function slot0.onBackPressed(slot0)
-	if slot0.upgradePanel and slot0.upgradePanel:IsShowing() then
-		slot0.upgradePanel:Hide()
-
-		return
-	end
-
-	uv0.super.onBackPressed(slot0)
 end
 
 function slot0.UpdateHubData(slot0, slot1)

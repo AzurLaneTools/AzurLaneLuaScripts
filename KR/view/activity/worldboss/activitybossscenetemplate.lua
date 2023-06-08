@@ -25,9 +25,8 @@ function slot0.init(slot0)
 	slot0.digitsmall = slot0.progressDigit:Find("small")
 	slot0.left = slot0:findTF("left", slot0.mainTF)
 	slot0.rankTF = slot0:findTF("rank", slot0.left)
-	slot5 = "layout"
-	slot4 = 3
-	slot0.rankList = slot0:Clone2Full(slot0.rankTF:Find(slot5), slot4)
+	slot4 = "layout"
+	slot0.rankList = CustomIndexLayer.Clone2Full(slot0.rankTF:Find(slot4), 3)
 
 	for slot4, slot5 in ipairs(slot0.rankList) do
 		setActive(slot5, false)
@@ -499,21 +498,6 @@ function slot0.UpdateDropItems(slot0)
 			uv0:emit(uv1.ON_DROP, uv2)
 		end, SFX_PANEL)
 	end
-end
-
-function slot0.Clone2Full(slot0, slot1, slot2)
-	slot3 = {}
-	slot4 = slot1:GetChild(0)
-
-	for slot9 = 0, slot1.childCount - 1 do
-		table.insert(slot3, slot1:GetChild(slot9))
-	end
-
-	for slot9 = slot5, slot2 - 1 do
-		table.insert(slot3, tf(cloneTplTo(slot4, slot1)))
-	end
-
-	return slot3
 end
 
 function slot0.willExit(slot0)

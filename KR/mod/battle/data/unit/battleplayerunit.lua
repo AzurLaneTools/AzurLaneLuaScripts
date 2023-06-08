@@ -46,6 +46,10 @@ function slot7.GetDefaultSkinID(slot0)
 	return slot0._tmpData.skin_id
 end
 
+function slot7.ActionKeyOffsetUseable(slot0)
+	return slot0._skinData.spine_action_offset
+end
+
 function slot7.GetShipName(slot0)
 	return slot0._shipName or slot0._tmpData.name
 end

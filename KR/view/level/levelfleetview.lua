@@ -66,7 +66,7 @@ function slot0.Hide(slot0)
 
 	slot0.spItemID = nil
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTF)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
 function slot0.setOpenCommanderTag(slot0, slot1)

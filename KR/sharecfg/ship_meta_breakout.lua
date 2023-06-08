@@ -82,6 +82,10 @@ pg.ship_meta_breakout = setmetatable({
 		9707032,
 		9707033,
 		9707034,
+		9708011,
+		9708012,
+		9708013,
+		9708014,
 		9712011,
 		9712012,
 		9712013,
@@ -1405,6 +1409,71 @@ pg.base.ship_meta_breakout = {
 		id = 9707034,
 		item1 = 21004,
 		pre_id = 9707033,
+		weapon_ids = {}
+	},
+	[9708011] = {
+		breakout_view = "스킬 [일렁이는 불꽃·{namecode:416}] 습득/어뢰 효율 +5%",
+		gold = 1000,
+		breakout_id = 9708012,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9708011,
+		item1 = 21021,
+		pre_id = 0,
+		weapon_ids = {
+			170071
+		}
+	},
+	[9708012] = {
+		breakout_view = "어뢰 발사 수 +1 / 지원 범위 확대",
+		gold = 3000,
+		breakout_id = 9708013,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9708012,
+		item1 = 21021,
+		pre_id = 9708011,
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[9708013] = {
+		breakout_view = "[일렁이는 불꽃·{namecode:416}] 레벨업/어뢰 효율 +10%",
+		gold = 10000,
+		breakout_id = 9708014,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9708013,
+		item1 = 21021,
+		pre_id = 9708012,
+		weapon_ids = {
+			170072
+		}
+	},
+	[9708014] = {
+		breakout_view = "없음",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9708014,
+		item1 = 21021,
+		pre_id = 9708013,
 		weapon_ids = {}
 	},
 	[9712011] = {

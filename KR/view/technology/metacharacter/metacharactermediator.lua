@@ -149,7 +149,7 @@ function slot0.handleNotification(slot0, slot1)
 
 		slot4:updateDataAfterAddShip()
 
-		if slot4:isPassType() then
+		if slot4:isPassType() or slot4:isBuildType() then
 			slot0.viewComponent:refreshBannerTF()
 			slot0.viewComponent:updateMain()
 		end

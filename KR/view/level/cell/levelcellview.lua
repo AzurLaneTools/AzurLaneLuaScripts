@@ -1,7 +1,13 @@
 slot0 = class("LevelCellView")
 
 function slot0.Ctor(slot0)
+	slot0.go = nil
+	slot0.tf = nil
 	slot0.orderTable = {}
+end
+
+function slot0.SetActive(slot0, slot1)
+	setActive(slot0.go, slot1)
 end
 
 function slot0.GetOrder(slot0)
@@ -72,6 +78,7 @@ end
 
 function slot0.RecordCanvasOrder(slot0, slot1)
 	for slot6 = 0, tf(slot1):GetComponents(typeof(Renderer)).Length - 1 do
+		slot7 = slot2[slot6]
 		slot0.orderTable[slot2[slot6]] = slot2[slot6].sortingOrder
 	end
 

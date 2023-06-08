@@ -39,6 +39,10 @@ end
 function slot0.bindConfigTable(slot0)
 end
 
+function slot0.GetConfigID(slot0)
+	return slot0.configId
+end
+
 function slot0.getConfigTable(slot0)
 	slot1 = slot0:bindConfigTable()
 

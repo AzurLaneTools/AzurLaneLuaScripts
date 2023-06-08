@@ -25,10 +25,6 @@ function slot0.bindConfigTable(slot0)
 	return pg.activity_ryza_item
 end
 
-function slot0.GetConfigID(slot0)
-	return slot0.configId
-end
-
 function slot0.GetName(slot0)
 	return slot0:getConfig("name")
 end
@@ -87,6 +83,18 @@ end
 
 function slot0.IsNormal(slot0)
 	return slot0:GetType() == uv0.TYPE.NORMAL or slot1 == uv0.TYPE.MOD or slot1 == uv0.TYPE.SAIREN
+end
+
+function slot0.UpdateRyzaItem(slot0, slot1, slot2)
+	slot2 = slot2 or {}
+	slot3 = ItemRarity.Rarity2Print(slot1:GetRarity())
+
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot3))
+	setFrame(findTF(slot0, "icon_bg/frame"), slot3)
+	GetImageSpriteFromAtlasAsync(slot1:GetIconPath(), "", findTF(slot0, "icon_bg/icon"))
+	setIconStars(slot0, false)
+	setIconName(slot0, slot1:GetName(), slot2)
+	setIconColorful(slot0, slot1:GetRarity(), slot2)
 end
 
 return slot0
