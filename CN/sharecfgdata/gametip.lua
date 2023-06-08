@@ -10862,7 +10862,7 @@ _G.pg.base.gametip.school_title_shoucang = {
 }
 
 _G.pg.base.gametip.school_title_xiaoyouxiting = {
-	tip = "小游戏厅"
+	tip = "游戏屋"
 }
 
 _G.pg.base.gametip.tag_level_fighting = {
@@ -24169,7 +24169,7 @@ _G.pg.base.gametip.battle_result_total_time = {
 }
 
 _G.pg.base.gametip.charge_game_room_coin_tip = {
-	tip = "是否消耗<color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color>物资兑换<color=$3>$2</color>个$4"
+	tip = "是否消耗<color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color>物资兑换<icon name=res_coin w=0.5 h=0.5/><color=$3>$2</color>个$4"
 }
 
 _G.pg.base.gametip.game_room_shooting_tip = {
