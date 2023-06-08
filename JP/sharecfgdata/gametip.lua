@@ -479,7 +479,7 @@ _G.pg.base.gametip.word_ok = {
 }
 
 _G.pg.base.gametip.word_preview = {
-	tip = "プレビュー"
+	tip = "予想"
 }
 
 _G.pg.base.gametip.word_rarity = {
@@ -24517,7 +24517,7 @@ _G.pg.base.gametip.battle_result_total_time = {
 }
 
 _G.pg.base.gametip.charge_game_room_coin_tip = {
-	tip = "資金を<color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color>消費し、<color=$3>$4 × $2</color>を購入しますか？"
+	tip = "資金を<color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color>消費し、<icon name=res_coin w=0.5 h=0.5/><color=$3>$4 × $2</color>を購入しますか？"
 }
 
 _G.pg.base.gametip.game_room_shooting_tip = {
@@ -24533,5 +24533,5 @@ _G.pg.base.gametip.game_ticket_current_month = {
 }
 
 _G.pg.base.gametip.game_icon_max_full = {
-	tip = "当前游戏币到达上限,无法继续领取"
+	tip = "すでに所持数上限に到達しているため、これ以上は入手できません"
 }

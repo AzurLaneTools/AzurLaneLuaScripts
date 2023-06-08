@@ -1,6 +1,7 @@
 slot0 = class("GameRoomProxy", import(".NetProxy"))
 slot0.coin_res_id = 11
 slot0.ticket_res_id = 12
+slot0.ticket_remind = false
 
 function slot0.register(slot0)
 	slot0.data = {}

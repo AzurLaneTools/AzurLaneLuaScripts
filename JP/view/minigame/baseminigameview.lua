@@ -83,8 +83,6 @@ function slot0.setCoinLayer(slot0)
 	slot0.coinLayer = true
 end
 
-slot0.ticket_remind = false
-
 function slot0.openCoinLayer(slot0, slot1)
 	if not slot0.coinLayer then
 		return
@@ -98,8 +96,8 @@ function slot0.openCoinLayer(slot0, slot1)
 end
 
 function slot0.checkTicktRemind(slot0)
-	if getProxy(GameRoomProxy):ticketMaxTip() and not BaseMiniGameView.ticket_remind then
-		BaseMiniGameView.ticket_remind = true
+	if getProxy(GameRoomProxy):ticketMaxTip() and not GameRoomProxy.ticket_remind then
+		GameRoomProxy.ticket_remind = true
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = slot1,

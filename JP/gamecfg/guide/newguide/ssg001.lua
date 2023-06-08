@@ -78,7 +78,7 @@ return {
 		{
 			id = "NG0039",
 			condition = function (slot0)
-				return true
+				return PLATFORM_CODE ~= PLATFORM_CHT
 			end,
 			args = function ()
 				return {}
@@ -87,7 +87,7 @@ return {
 		{
 			id = "NG0040",
 			condition = function (slot0)
-				return true
+				return PLATFORM_CODE ~= PLATFORM_CHT
 			end,
 			args = function ()
 				return {}

@@ -163,6 +163,7 @@ function slot0.init(slot0)
 	slot0.preViewer = slot0:findTF("preview")
 	slot0.preViewerFrame = slot0:findTF("preview/frame")
 
+	setText(slot0:findTF("bg/title/Image", slot0.preViewerFrame), i18n("word_preview"))
 	setActive(slot0.preViewer, false)
 
 	slot0.sea = slot0:findTF("sea", slot0.preViewerFrame)
@@ -180,6 +181,9 @@ function slot0.init(slot0)
 	slot0.breakView = slot0:findTF("content/Text", slot0.preViewerFrame)
 	slot0.previewAttrPanel = slot0:findTF("preview/attrs_panel/attr_panel")
 	slot0.previewAttrContainer = slot0:findTF("content", slot0.previewAttrPanel)
+
+	setText(slot0:findTF("preview/attrs_panel/Text"), i18n("meta_energy_preview_tip"))
+
 	slot0.helpBtn = slot0:findTF("helpBtn", slot0.top)
 	slot0.exchangeBtn = slot0:findTF("exchangeBtn", slot0.top)
 	slot0.itemUnlockBtn = slot0:findTF("itemUnlockBtn", slot0.top)

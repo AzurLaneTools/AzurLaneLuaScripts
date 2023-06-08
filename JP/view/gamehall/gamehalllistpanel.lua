@@ -49,8 +49,8 @@ end
 function slot0.setVisible(slot0, slot1)
 	setActive(slot0._tf, slot1)
 
-	if slot1 and getProxy(GameRoomProxy):ticketMaxTip() and not uv0 then
-		uv0 = true
+	if slot1 and getProxy(GameRoomProxy):ticketMaxTip() and not GameRoomProxy.ticket_remind then
+		GameRoomProxy.ticket_remind = true
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = slot2,

@@ -291,8 +291,6 @@ function slot0.resultFinish(slot0)
 	for slot6 = 1, #slot0.tempConfig.score_level do
 		if slot1[slot6] <= slot0.score then
 			slot2 = slot6
-
-			break
 		end
 	end
 

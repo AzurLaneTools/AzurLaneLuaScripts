@@ -17,10 +17,9 @@ function slot0.didEnter(slot0)
 	slot0.freeCoinTf = findTF(slot1, "content/top/free")
 
 	onButton(slot0, slot0.freeCoinTf, function ()
-		slot2 = pg.gameset.game_coin_max.key_value - getProxy(GameRoomProxy):getCoin()
 		slot3 = pg.gameset.game_coin_initial.key_value
 
-		if 1 == 0 then
+		if pg.gameset.game_coin_max.key_value - getProxy(GameRoomProxy):getCoin() == 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("game_icon_max_full"))
 		elseif slot2 < slot3 then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
