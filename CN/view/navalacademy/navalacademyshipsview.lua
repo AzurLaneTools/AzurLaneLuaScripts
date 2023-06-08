@@ -76,7 +76,7 @@ function slot0.sortStudents(slot0)
 		return slot1.anchoredPosition.y < slot0.anchoredPosition.y
 	end)
 
-	slot2 = 6
+	slot2 = 7
 
 	for slot6, slot7 in ipairs(slot1) do
 		slot7:SetSiblingIndex(slot2)

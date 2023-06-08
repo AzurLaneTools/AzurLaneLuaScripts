@@ -558,6 +558,25 @@ function slot0.readyToAchieve(slot0)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_HOTSPRING_2] = function (slot0)
 			return Spring2Activity.readyToAchieve(slot0)
+		end,
+		[ActivityConst.ACTIVITY_TYPE_CARD_PUZZLE] = function (slot0)
+			slot1 = #slot0.data2_list
+
+			if #slot0:getData1List() == #slot0:getConfig("config_data")[2] then
+				return false
+			end
+
+			return (function ()
+				for slot3, slot4 in ipairs(uv0) do
+					if not table.contains(uv1, slot4[1]) and slot4[1] <= uv2 then
+						return true
+					end
+				end
+
+				return false
+			end)() or (function ()
+				return PlayerPrefs.GetInt("DAY_TIP_" .. uv0.id .. "_" .. getProxy(PlayerProxy):getData().id .. "_" .. uv0:getDayIndex()) == 0
+			end)()
 		end
 	}
 

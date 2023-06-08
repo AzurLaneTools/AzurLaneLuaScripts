@@ -154,7 +154,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "格尔林德·META",
 		painting = "shaenhuosite",
 		boss_level_id = 76,
@@ -297,12 +297,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "伊丽莎白女王·META",
 		painting = "yilishabainvwang",
 		boss_level_id = 136,
 		id = 10,
 		meta_id = 970504,
+		item_id = 100000,
 		description = {
 			{
 				"「伊丽莎白」象限展开",
@@ -313,32 +314,6 @@ pg.world_joint_boss_template = {
 				"META亲和性",
 				2,
 				"自身对非META角色造成的伤害提高，同时受到来自META角色的更多伤害。"
-			}
-		},
-		state = {
-			{
-				{
-					2023,
-					3,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					6,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -354,6 +329,64 @@ pg.world_joint_boss_template = {
 			0.9
 		}
 	},
+	{
+		item_id = 100000,
+		name = "阿尔及利亚·META",
+		painting = "aerjiliya",
+		boss_level_id = 151,
+		id = 11,
+		meta_id = 970302,
+		description = {
+			{
+				"堕天之柱",
+				3,
+				"战斗开始时召唤四根「堕天之柱」，并使得自身受到的伤害降低30%。\n当任意堕天之柱受到攻击时，自身会<color=#92fc63>代替其承受25%的伤害</color>。\n堕天之柱的血量极高。"
+			},
+			{
+				"涤罪之焰",
+				1,
+				"自身在战斗中的部分攻击会令被命中单位受到名为涤罪之焰的<color=#92fc63>特殊点燃效果</color>影响，该点燃单次持续时间较短，但固定伤害较高。\n同时，固定每隔9秒自身便会对<color=#92fc63>当前耐久值最低的敌方单位</color>施加涤罪之焰，目标选择无视后排隐匿。"
+			}
+		},
+		state = {
+			{
+				{
+					2023,
+					6,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-7,
+			685,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			659,
+			684.2,
+			0.9,
+			0.9
+		}
+	},
 	all = {
 		1,
 		2,
@@ -364,6 +397,7 @@ pg.world_joint_boss_template = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }

@@ -1290,7 +1290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我原本以为是会是这样的……不过看上去没有这么简单。",
+			say = "我原本以为会是这样的……不过看上去没有这么简单。",
 			painting = {
 				alpha = 0.3,
 				time = 1

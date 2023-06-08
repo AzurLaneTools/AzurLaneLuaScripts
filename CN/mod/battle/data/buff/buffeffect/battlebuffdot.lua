@@ -50,15 +50,15 @@ function slot4.onStack(slot0, slot1, slot2)
 end
 
 function slot4.onUpdate(slot0, slot1, slot2, slot3)
-	if slot0._nextEffectTime <= slot3 then
-		slot4 = slot0:CalcNumber(slot1, slot2)
+	if slot0._nextEffectTime <= slot3.timeStamp then
+		slot5 = slot0:CalcNumber(slot1, slot2)
 
-		slot1:UpdateHP(-slot4, {
+		slot1:UpdateHP(-slot5, {
 			isMiss = false,
 			isCri = false,
 			isHeal = false
 		})
-		uv0.Battle.BattleDataProxy.GetInstance():DamageStatistics(nil, slot1:GetAttrByName("id"), slot4)
+		uv0.Battle.BattleDataProxy.GetInstance():DamageStatistics(nil, slot1:GetAttrByName("id"), slot5)
 
 		if slot1:IsAlive() then
 			slot0._nextEffectTime = slot0._nextEffectTime + slot0._time

@@ -2008,7 +2008,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90600] = {
 		cannon = 0,
-		name = "格奈森瑙·META",
+		name = "奥古斯塔·META",
 		type = 4,
 		speed_growth = 0,
 		battle_unit_type = 49,

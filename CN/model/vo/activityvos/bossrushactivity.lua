@@ -1,5 +1,9 @@
 slot0 = class("BossRushActivity", import("model.vo.Activity"))
 
+function slot0.SetSeriesData(slot0, slot1)
+	getProxy(ActivityProxy):SetExtraDataMember(slot0.id, "seriesData", slot1)
+end
+
 function slot0.GetSeriesData(slot0)
 	return getProxy(ActivityProxy):GetExtraDataMember(slot0.id, "seriesData")
 end

@@ -172,10 +172,10 @@ pg.expedition_daily_template = {
 		}
 	},
 	[501] = {
-		tips = "破交作战每天开启，每周上限两次",
+		tips = "破交作战每天开启，每周上限四次",
 		limit_type = 2,
 		show_with_count = 0,
-		limit_time = 2,
+		limit_time = 4,
 		insert_daily = 0,
 		title = "破交作战",
 		pic = "daily5",

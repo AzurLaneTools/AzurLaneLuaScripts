@@ -37,8 +37,8 @@ function slot0.register(slot0)
 	slot0:bind(uv0.OPEN_DESTROY, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			blockLock = true,
-			selectedMax = 10,
 			mode = DockyardScene.MODE_DESTROY,
+			selectedMax = getGameset("ship_select_limit")[1],
 			leftTopInfo = i18n("word_destroy"),
 			onShip = ShipStatus.canDestroyShip,
 			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({

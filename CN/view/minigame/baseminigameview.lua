@@ -28,6 +28,14 @@ function slot0.GetMGHubData(slot0)
 	return slot0.mg_hubData
 end
 
+function slot0.setGameRoomData(slot0, slot1)
+	slot0.gameRoomData = slot1
+end
+
+function slot0.getGameRoomData(slot0)
+	return slot0.gameRoomData or nil
+end
+
 function slot0.SendSuccess(slot0, ...)
 	slot0:emit(BaseMiniGameMediator.MINI_GAME_SUCCESS, ...)
 end
@@ -57,6 +65,28 @@ function slot0.OnSendMiniGameOPDone(slot0, slot1)
 end
 
 function slot0.OnModifyMiniGameDataDone(slot0, slot1)
+end
+
+function slot0.loadCoinLayer(slot0)
+	if not slot0.coinLayer then
+		slot0:emit(BaseMiniGameMediator.MINI_GAME_COIN)
+	end
+end
+
+function slot0.setCoinLayer(slot0)
+	if slot0.coinLayer then
+		return
+	end
+
+	slot0.coinLayer = true
+end
+
+function slot0.openCoinLayer(slot0, slot1)
+	if not slot0.coinLayer then
+		return
+	end
+
+	slot0:emit(BaseMiniGameMediator.COIN_WINDOW_CHANGE, slot1)
 end
 
 function slot0.OnGetAwardDone(slot0, slot1)

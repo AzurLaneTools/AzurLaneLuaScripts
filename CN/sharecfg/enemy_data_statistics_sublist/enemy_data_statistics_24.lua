@@ -2131,7 +2131,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90623] = {
 		cannon = 0,
-		name = "沙恩霍斯特·META",
+		name = "格尔林德·META",
 		type = 4,
 		speed_growth = 0,
 		battle_unit_type = 49,

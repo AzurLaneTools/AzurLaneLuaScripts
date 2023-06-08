@@ -14,6 +14,10 @@ function slot1.SetArgs(slot0, slot1, slot2)
 end
 
 function slot1.onBulletCreate(slot0, slot1, slot2, slot3)
+	if not slot0:equipIndexRequire(slot3.equipIndex) then
+		return
+	end
+
 	if slot3._bullet:GetType() == slot0._bulletType then
 		slot0:overrideBullet(slot4)
 	end

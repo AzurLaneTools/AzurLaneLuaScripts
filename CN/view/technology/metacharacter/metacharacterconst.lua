@@ -260,9 +260,9 @@ function slot0.getTacticsSkillIDListByShipConfigID(slot0)
 end
 
 function slot0.getMetaSkillTacticsConfig(slot0, slot1)
-	for slot5, slot6 in ipairs(pg.ship_meta_skilltask) do
-		if slot6.skill_ID == slot0 and slot6.level == slot1 then
-			return slot6
+	for slot5, slot6 in ipairs(pg.ship_meta_skilltask.all) do
+		if pg.ship_meta_skilltask[slot6].skill_ID == slot0 and slot7.level == slot1 then
+			return slot7
 		end
 	end
 end
@@ -290,8 +290,8 @@ function slot0.addReMetaTransItem(slot0, slot1)
 end
 
 function slot0.isMetaTaskSkillID(slot0)
-	for slot4, slot5 in ipairs(pg.ship_meta_skilltask) do
-		if slot5.skill_ID == slot0 then
+	for slot4, slot5 in ipairs(pg.ship_meta_skilltask.all) do
+		if pg.ship_meta_skilltask[slot5].skill_ID == slot0 then
 			return true
 		end
 	end

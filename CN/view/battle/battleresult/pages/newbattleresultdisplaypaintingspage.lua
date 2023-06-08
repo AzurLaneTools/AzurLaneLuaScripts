@@ -187,7 +187,9 @@ end
 
 function slot0.EffectSlots(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.slots) do
-		setActive(slot6:Find("effect"), slot1)
+		if not IsNil(slot6) then
+			setActive(slot6:Find("effect"), slot1)
+		end
 	end
 end
 

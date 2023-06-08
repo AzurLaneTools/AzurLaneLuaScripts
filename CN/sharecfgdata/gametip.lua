@@ -946,14 +946,6 @@ _G.pg.base.gametip.common_no_item_1 = {
 	tip = "道具不足"
 }
 
-_G.pg.base.gametip.common_use_item_sos_max = {
-	tip = "信号已满"
-}
-
-_G.pg.base.gametip.common_use_item_sos_used = {
-	tip = "信号次数+$1"
-}
-
 _G.pg.base.gametip.common_no_x = {
 	tip = "<color=#92fc63>$1</color>不够啦！"
 }
@@ -3555,22 +3547,6 @@ _G.pg.base.gametip.levelScene_destroy_torpedo = {
 	tip = "成功拆除水雷"
 }
 
-_G.pg.base.gametip.levelScene_sub_refresh_count_not_enough = {
-	tip = "还没有收到过求救信号…"
-}
-
-_G.pg.base.gametip.levelScene_jump_to_sub_confirm = {
-	tip = "搜索完毕，信号源来自：$1海域(第$2章)，是否前往？"
-}
-
-_G.pg.base.gametip.levelScene_signal_help_tip = {
-	tip = "信号提示"
-}
-
-_G.pg.base.gametip.levelScene_search_area = {
-	tip = "【搜索范围：$1章海域】"
-}
-
 _G.pg.base.gametip.levelScene_new_chapter_coming = {
 	tip = "新章开放："
 }
@@ -3675,10 +3651,6 @@ _G.pg.base.gametip.levelScene_select_SP_OP_reminder = {
 
 _G.pg.base.gametip.tack_tickets_max_warning = {
 	tip = "所持<color=#ffde38>档案密钥</color>数量达到上限，完成任务后只能获得<color=#ff5c5c>$1</color>份<color=#ffde38>档案密钥</color>，是否确认领取？"
-}
-
-_G.pg.base.gametip.error_refresh_sub_chapter = {
-	tip = "未搜索到新的求救信号"
 }
 
 _G.pg.base.gametip.world_battle_count = {
@@ -4134,7 +4106,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2023.3.9-2023.6.8</color>期间限时开放「伊丽莎白女王·META」的挑战，在此期间指挥官可挑战「伊丽莎白女王·META」累计其同步值获取<color=#92fc63>「伊丽莎白女王·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2023.6.8-2023.8.31</color>期间限时开放「阿尔及利亚·META」的挑战，在此期间指挥官可挑战「阿尔及利亚·META」累计其同步值获取<color=#92fc63>「阿尔及利亚·META」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -4163,7 +4135,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标·META挑战的进行，从第31天开始，即2023.4.9~2023.6.8期间，舰队挑战「伊丽莎白女王·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。
+随着信标·META挑战的进行，从第31天开始，即2023.7.9~2023.8.31期间，舰队挑战「阿尔及利亚·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。
 ※此支援只会在指挥官自己发现的信标·META战斗中出现，每次挑战均会触发。]]
 		}
 	}
@@ -4436,6 +4408,26 @@ _G.pg.base.gametip.buy_item_quest = {
 
 _G.pg.base.gametip.refresh_shopStreet_question = {
 	tip = "是否花费$1<color=#92fc63>$2</color>刷新商品列表\n\n <size=22>( 今日已经购买 <size=25><color=#ff5c5c>$3</color></size> 次 )</size>"
+}
+
+_G.pg.base.gametip.quota_shop_title = {
+	tip = "「核心兑换·限定」"
+}
+
+_G.pg.base.gametip.quota_shop_description = {
+	tip = "可兑换部分活动限定奖励，兑换不可超过<color=#fd8a62>持有上限</color>"
+}
+
+_G.pg.base.gametip.quota_shop_owned = {
+	tip = "持有上限"
+}
+
+_G.pg.base.gametip.quota_shop_good_limit = {
+	tip = "已达上限"
+}
+
+_G.pg.base.gametip.quota_shop_limit_error = {
+	tip = "该道具已经达到持有上限，无法兑换"
 }
 
 _G.pg.base.gametip.event_start_success = {
@@ -8251,7 +8243,7 @@ _G.pg.base.gametip.destroy_high_level_tip = {
 }
 
 _G.pg.base.gametip.destroy_eliteequipment_tip = {
-	tip = "拆解装备中有$1的装备\n是否确认?"
+	tip = "拆解装备中有$1的装备"
 }
 
 _G.pg.base.gametip.destroy_high_intensify_tip = {
@@ -8260,6 +8252,10 @@ _G.pg.base.gametip.destroy_high_intensify_tip = {
 
 _G.pg.base.gametip.destroy_inHardFormation_tip = {
 	tip = "<color=#92fc63>困难编队中</color>"
+}
+
+_G.pg.base.gametip.destroy_equip_rarity_tip = {
+	tip = "请输入<color=#92fc63>$1</color>进行确认"
 }
 
 _G.pg.base.gametip.ship_quick_change_noequip = {
@@ -8404,10 +8400,6 @@ _G.pg.base.gametip.word_status_rest = {
 
 _G.pg.base.gametip.word_status_train = {
 	tip = "训练中"
-}
-
-_G.pg.base.gametip.word_status_challenge = {
-	tip = "活动编队中"
 }
 
 _G.pg.base.gametip.word_status_world = {
@@ -9446,44 +9438,6 @@ _G.pg.base.gametip.anniversary_task_title_13 = {
 
 _G.pg.base.gametip.anniversary_task_title_14 = {
 	tip = "很荣幸能与你相遇。很期待，我们在下一个蝉鸣之时，可以再见"
-}
-
-_G.pg.base.gametip.help_sos = {
-	tip = {
-		{
-			info = "海域救援说明"
-		},
-		{
-			info = [[
-
-
-海域救援次数
-·我们的舰队可进行的海域救援次数会不定时地增加
-·指挥官在离港期间，港区仍会筹备海域救援，可进行的海域救援次数正常增加
-
-搜索信号
-·我们可以消耗一次海域救援次数，对指定章节的海域进行信号搜索
-·搜索完成后会开启该章节的救援行动，救援行动会持续12小时
-·如果无法在限定时间内完成救援，我们将会丢失信号来源，导致无法行动。
-·一个章节内最多同时只能出现一个海域救援行动
-·在增强信号之前，我们只能搜索到来自第三章海域的信息
-
-信号强度
-·信号接收器的强度一共分为8档，在初始状态下我们的信号强度为1档。
-·信号强度每增强1档，可进行的海域救援次数上限增加1次，可搜索的海域也能增加1章
-·指挥官需要先通关该章节的所有关卡后才能在对应章节搜索到海域救援行动
-·信号强度等级越高，完成救援可获得的奖励会变得越丰厚
-·以S评价完成当前可搜索的最高章节的救援行动时，信号强度会增强1档
-·信号强度决定了指挥官可进行的海域救援次数上限，不同的信号强度对应不同的海域救援次数上限数量
-
-战斗遭遇
-·在救援过程中会遭遇到敌方的潜艇部队，请指挥官务必为出击的舰队配备反潜设备]]
-		}
-	}
-}
-
-_G.pg.base.gametip.sos_lock = {
-	tip = "救援关卡尚未开放"
 }
 
 _G.pg.base.gametip.charge_scene_buy_confirm = {
@@ -10905,6 +10859,10 @@ _G.pg.base.gametip.school_title_xueyuan = {
 
 _G.pg.base.gametip.school_title_shoucang = {
 	tip = "收藏室"
+}
+
+_G.pg.base.gametip.school_title_xiaoyouxiting = {
+	tip = "小游戏厅"
 }
 
 _G.pg.base.gametip.tag_level_fighting = {
@@ -17547,9 +17505,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2023.3.9-2023.6.8</color>期间限时开放「伊丽莎白女王·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「伊丽莎白女王·META」角色</color>
+·<color=#92fc63>2023.6.8-2023.8.31</color>期间限时开放「阿尔及利亚·META」的「资讯同步」，通过「信标·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「阿尔及利亚·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「伊丽莎白女王·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「阿尔及利亚·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -18072,26 +18030,6 @@ _G.pg.base.gametip.dailyLevel_quickfinish = {
 
 _G.pg.base.gametip.daily_level_quick_battle_label3 = {
 	tip = "快速挑战"
-}
-
-_G.pg.base.gametip.LevelSignal = {
-	tip = "海域救援"
-}
-
-_G.pg.base.gametip.LevelSignal_go = {
-	tip = "前往"
-}
-
-_G.pg.base.gametip.LevelSignal_search = {
-	tip = "搜索信号"
-}
-
-_G.pg.base.gametip.LevelSignal_times = {
-	tip = "可进行海域救援的次数："
-}
-
-_G.pg.base.gametip.LevelSignal_intensity = {
-	tip = "信号强度："
 }
 
 _G.pg.base.gametip.backyard_longpress_ship_tip = {
@@ -20087,10 +20025,6 @@ _G.pg.base.gametip.shipmodechange_reject_1stfleet_only = {
 
 _G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
 	tip = "舰船为大世界舰队先锋/主力舰队的唯一角色，请调整编队阵容后重试"
-}
-
-_G.pg.base.gametip.shipmodechange_reject_inactivity = {
-	tip = "舰船在限界挑战/共斗/连战活动编成中，请调整编队阵容后重试"
 }
 
 _G.pg.base.gametip.monopoly3thre_tip = {
@@ -23387,7 +23321,7 @@ _G.pg.base.gametip.battle_text_bisimaiz_7 = {
 }
 
 _G.pg.base.gametip.battle_text_bisimaiz_8 = {
-	tip = "「<color=#ffc038>嵌载结合</color>」-革律翁拥有<color=#f1f102>高额防御</color>并替俾斯麦承受部分伤害"
+	tip = "「<color=#ffc038>嵌载结合</color>」-革律翁拥有<color=#f1f102>高额防御</color>并替{namecode:435}承受部分伤害"
 }
 
 _G.pg.base.gametip.battle_text_bisimaiz_9 = {
@@ -23503,6 +23437,47 @@ _G.pg.base.gametip.series_enemy_empty_commander_assistant = {
 
 _G.pg.base.gametip.limit_team_character_tips = {
 	tip = "※参战的舰队中不可出现同名角色"
+}
+
+_G.pg.base.gametip.game_room_help = {
+	tip = {
+		{
+			info = [[
+游戏屋功能说明：
+1.使用「游戏币」进行游戏可获取「游戏奖券」，使用的游戏币数量越多，奖卷获取倍率越高，最多一次可使用5枚游戏币。每月最多获得10000奖券，奖卷持有上限为50000
+2.每周可从游戏室中免费获取10枚游戏币，游戏币持有上限为40枚，当游戏币不足时，指挥官可以使用物资兑换游戏币。
+3.使用啾啾奖券可以在奖卷商店中兑换不同商品，商品存在兑换次数，商品列表会在后续持续更新。
+4.活动结束的小游戏会在后续逐步加入游戏列表，部分小游戏可能暂时不会进入游戏室，还望指挥官谅解。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.game_cannot_go = {
+	tip = "本游戏目前不在开放时间内"
+}
+
+_G.pg.base.gametip.game_ticket_notenough = {
+	tip = "游戏奖券数量不足，是否前往游戏屋获取？"
+}
+
+_G.pg.base.gametip.game_ticket_max_all = {
+	tip = "当前游戏奖券持有数量即将达到上限，继续游玩可能会有部分奖券无法获得，是否继续游玩"
+}
+
+_G.pg.base.gametip.game_ticket_max_month = {
+	tip = "本月可获取游戏奖券数量即将达到上限，继续游玩可能会有部分奖券无法获得，是否继续游玩？"
+}
+
+_G.pg.base.gametip.game_icon_notenough = {
+	tip = "当前游戏币不足（），是否消耗物资兑换X枚游戏币？"
+}
+
+_G.pg.base.gametip.game_goldbyicon = {
+	tip = "是否消耗$1物资兑换$2游戏币 "
+}
+
+_G.pg.base.gametip.game_icon_max = {
+	tip = "当前游戏币即将到达上限，领取后超出上限的部分将会消失，是否继续领取？"
 }
 
 _G.pg.base.gametip.caibulin_tip1 = {
@@ -23948,6 +23923,10 @@ _G.pg.base.gametip.islandshop_tips4 = {
 	tip = "$1不足"
 }
 
+_G.pg.base.gametip.island_shop_limit_error = {
+	tip = "该道具已经达到持有上限，无法兑换"
+}
+
 _G.pg.base.gametip.haidaojudian_upgrade_limit = {
 	tip = "当前建筑暂时不能继续升级，指挥官先去升级其他建筑吧~"
 }
@@ -24151,4 +24130,60 @@ _G.pg.base.gametip.littleTaihou_npc = {
 			info = "8.NPC角色无法参与大舰队作战中的事件派遣、攻坚队和首领战。"
 		}
 	}
+}
+
+_G.pg.base.gametip.disassemble_selected = {
+	tip = "已选中"
+}
+
+_G.pg.base.gametip.disassemble_available = {
+	tip = "可获得"
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_challenge = {
+	tip = "限界挑战舰队"
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_challenge_sub = {
+	tip = "限界挑战舰队"
+}
+
+_G.pg.base.gametip.word_status_activity = {
+	tip = "活动编队中"
+}
+
+_G.pg.base.gametip.word_status_challenge = {
+	tip = "限界挑战编队中"
+}
+
+_G.pg.base.gametip.shipmodechange_reject_inactivity = {
+	tip = "舰船在共斗/连战活动编成中，请调整编队阵容后重试"
+}
+
+_G.pg.base.gametip.shipmodechange_reject_inchallenge = {
+	tip = "舰船在限界挑战编成中，请调整编队阵容后重试"
+}
+
+_G.pg.base.gametip.battle_result_total_time = {
+	tip = "通关时间："
+}
+
+_G.pg.base.gametip.charge_game_room_coin_tip = {
+	tip = "是否消耗<color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color>物资兑换<color=$3>$2</color>个$4"
+}
+
+_G.pg.base.gametip.game_room_shooting_tip = {
+	tip = "当前积分："
+}
+
+_G.pg.base.gametip.mini_game_shop_ticked_not_enough = {
+	tip = "游戏奖券数量不足，是否前往游戏屋获取？"
+}
+
+_G.pg.base.gametip.game_ticket_current_month = {
+	tip = "本月上限"
+}
+
+_G.pg.base.gametip.game_icon_max_full = {
+	tip = "当前游戏币到达上限,无法继续领取"
 }

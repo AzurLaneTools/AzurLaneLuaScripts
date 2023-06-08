@@ -531,7 +531,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "伴随着{namecode:408}的动作，又一条咬钩的海域被提出了水面。",
+			say = "伴随着{namecode:408}的动作，又一条咬钩的海鱼被提出了水面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实，我们刚刚有了一个关于我们现在现状的推测，不过还需要更多的证据。",
+			say = "其实，我们刚刚有了一个关于我们现状的推测，不过还需要更多的证据。",
 			painting = {
 				alpha = 0.3,
 				time = 1

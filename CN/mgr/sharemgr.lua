@@ -21,6 +21,7 @@ slot1.TypeIcecream = 16
 slot1.TypeValentineQte = 17
 slot1.TypeBossRushEX = 18
 slot1.TypeTWCelebrationShare = 5000
+slot1.TypeCardTower = 17
 slot1.PANEL_TYPE_BLACK = 1
 slot1.PANEL_TYPE_PINK = 2
 slot1.ANCHORS_TYPE = {

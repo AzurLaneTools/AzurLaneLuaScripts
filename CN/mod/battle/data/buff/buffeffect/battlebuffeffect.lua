@@ -130,8 +130,8 @@ function slot3.onBuffRemoved(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function slot3.onUpdate(slot0, slot1, slot2)
-	slot0:onTrigger(slot1, slot2)
+function slot3.onUpdate(slot0, slot1, slot2, slot3)
+	slot0:onTrigger(slot1, slot2, slot3)
 end
 
 function slot3.onStack(slot0, slot1, slot2)
@@ -545,6 +545,10 @@ function slot3.onTakeDamage(slot0, slot1, slot2, slot3)
 end
 
 function slot3.onTakeHealing(slot0, slot1, slot2, slot3)
+	slot0:onTrigger(slot1, slot2, slot3)
+end
+
+function slot3.onShieldAbsorb(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 

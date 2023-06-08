@@ -220,6 +220,26 @@ pg.equip_upgrade_data = {
 			}
 		}
 	},
+	[13080] = {
+		coin_consume = 900,
+		id = 13080,
+		upgrade_from = 13060,
+		target_id = 13080,
+		material_consume = {
+			{
+				18102,
+				30
+			},
+			{
+				18111,
+				40
+			},
+			{
+				18108,
+				50
+			}
+		}
+	},
 	[13140] = {
 		coin_consume = 450,
 		id = 13140,
@@ -537,6 +557,26 @@ pg.equip_upgrade_data = {
 			{
 				18114,
 				30
+			}
+		}
+	},
+	[15300] = {
+		coin_consume = 1500,
+		id = 15300,
+		upgrade_from = 15220,
+		target_id = 15300,
+		material_consume = {
+			{
+				18119,
+				3
+			},
+			{
+				18109,
+				15
+			},
+			{
+				18114,
+				12
 			}
 		}
 	},
@@ -1760,6 +1800,26 @@ pg.equip_upgrade_data = {
 			}
 		}
 	},
+	[26380] = {
+		coin_consume = 500,
+		id = 26380,
+		upgrade_from = 26360,
+		target_id = 26380,
+		material_consume = {
+			{
+				18105,
+				24
+			},
+			{
+				18102,
+				18
+			},
+			{
+				18113,
+				9
+			}
+		}
+	},
 	[26440] = {
 		coin_consume = 400,
 		id = 26440,
@@ -2217,6 +2277,26 @@ pg.equip_upgrade_data = {
 			{
 				18108,
 				15
+			}
+		}
+	},
+	[31080] = {
+		coin_consume = 10000,
+		id = 31080,
+		upgrade_from = 31040,
+		target_id = 31080,
+		material_consume = {
+			{
+				18118,
+				9
+			},
+			{
+				18112,
+				64
+			},
+			{
+				18109,
+				54
 			}
 		}
 	},
@@ -3840,6 +3920,26 @@ pg.equip_upgrade_data = {
 			}
 		}
 	},
+	[47180] = {
+		coin_consume = 1500,
+		id = 47180,
+		upgrade_from = 47080,
+		target_id = 47180,
+		material_consume = {
+			{
+				18125,
+				4
+			},
+			{
+				18123,
+				2
+			},
+			{
+				18116,
+				24
+			}
+		}
+	},
 	[48000] = {
 		coin_consume = 50,
 		id = 48000,
@@ -4212,6 +4312,7 @@ pg.equip_upgrade_data = {
 		12160,
 		12200,
 		13060,
+		13080,
 		13140,
 		13160,
 		14160,
@@ -4228,6 +4329,7 @@ pg.equip_upgrade_data = {
 		15221,
 		15240,
 		15241,
+		15300,
 		15060,
 		15140,
 		15160,
@@ -4289,6 +4391,7 @@ pg.equip_upgrade_data = {
 		26240,
 		26340,
 		26360,
+		26380,
 		26440,
 		26460,
 		26540,
@@ -4312,6 +4415,7 @@ pg.equip_upgrade_data = {
 		29200,
 		31040,
 		31060,
+		31080,
 		31160,
 		31180,
 		31240,
@@ -4393,6 +4497,7 @@ pg.equip_upgrade_data = {
 		47040,
 		47080,
 		47140,
+		47180,
 		48000,
 		48020,
 		48040,

@@ -207,10 +207,6 @@ function slot0.initUI(slot0)
 	slot0.activityBtn = slot0:findTF("event_btns/activity_btn", slot0.rightChapter)
 	slot0.ptTotal = slot0:findTF("event_btns/pt_text", slot0.rightChapter)
 	slot0.ticketTxt = slot0:findTF("event_btns/tickets/Text", slot0.rightChapter)
-	slot0.signalBtn = slot0:findTF("btn_signal", slot0.rightChapter)
-
-	setActive(slot0.signalBtn, false)
-
 	slot0.remasterAwardBtn = slot0:findTF("btn_remaster_award", slot0.rightChapter)
 	slot0.btnNext = slot0:findTF("btn_next", slot0.rightChapter)
 	slot0.btnNextCol = slot0:findTF("btn_next/next_image", slot0.rightChapter)
@@ -511,13 +507,6 @@ function slot0.didEnter(slot0)
 		getProxy(ChapterProxy):setRemasterTip(false)
 		uv0:updateRemasterBtnTip()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.signalBtn, function ()
-		if uv0:isfrozen() then
-			return
-		end
-
-		uv0:displaySignalPanel()
-	end, SFX_PANEL)
 	onButton(slot0, slot0.entranceLayer:Find("enters/enter_main"), function ()
 		if uv0:isfrozen() then
 			return
@@ -550,16 +539,6 @@ function slot0.didEnter(slot0)
 			end
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0.entranceLayer:Find("enters/right_panel/btn_signal"), function ()
-		if uv0:isfrozen() then
-			return
-		end
-
-		uv0:displaySignalPanel()
-	end, SFX_PANEL)
-	setActive(slot0.entranceLayer:Find("enters/right_panel/btn_signal"), checkExist(getProxy(ChapterProxy):getChapterById(304), {
-		"isClear"
-	}))
 	onButton(slot0, slot0.entranceLayer:Find("btns/btn_remaster"), function ()
 		if uv0:isfrozen() then
 			return
@@ -715,12 +694,6 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	if slot0.levelSignalView then
-		slot0:hideSignalPanel()
-
-		return
-	end
-
 	if slot0.levelStrategyView then
 		slot0:hideStrategyInfo()
 
@@ -837,18 +810,6 @@ function slot0.setEliteQuota(slot0, slot1, slot2)
 	slot5.text = slot3 .. "/" .. slot2
 end
 
-function slot0.updateSubInfo(slot0, slot1, slot2)
-	slot0.subRefreshCount = slot1
-	slot0.subProgress = slot2
-
-	setText(slot0.signalBtn:Find("nums"), slot0.subRefreshCount)
-	setText(slot0.entranceLayer:Find("enters/right_panel/btn_signal/nums"), slot0.subRefreshCount)
-
-	if slot0.levelSignalView then
-		slot0.levelSignalView:ActionInvoke("set", slot0.subRefreshCount, slot0.subProgress)
-	end
-end
-
 function slot0.updateLastFleet(slot0, slot1)
 	slot0.lastFleetIndex = slot1
 end
@@ -867,14 +828,8 @@ end
 function slot0.updateChapterVO(slot0, slot1, slot2)
 	slot3 = slot1:getConfig("map")
 
-	if not slot0.contextData.chapterVO then
-		if slot0.contextData.mapIdx == slot3 and bit.band(slot2, ChapterConst.DirtyMapItems) > 0 then
-			slot0:updateMapItems()
-		end
-
-		if slot0.levelSignalView then
-			slot0.levelSignalView:ActionInvoke("flush")
-		end
+	if not slot0.contextData.chapterVO and slot0.contextData.mapIdx == slot3 and bit.band(slot2, ChapterConst.DirtyMapItems) > 0 then
+		slot0:updateMapItems()
 	end
 
 	if slot0.contextData.chapterVO and slot0.contextData.chapterVO.id == slot1.id and slot1.active then
@@ -1122,16 +1077,15 @@ function slot0.updateActivityBtns(slot0)
 	end
 
 	setActive(slot0.activityBtn, slot10)
-	setActive(slot0.signalBtn, getProxy(ChapterProxy):getChapterById(304):isClear() and (slot6 == Map.SCENARIO or slot6 == Map.ELITE))
 	slot0:updateRemasterInfo()
 
 	if slot1 and slot2 then
-		setActive(slot0.actExtraBtn, underscore.any(slot11:getMapsByActivities(), function (slot0)
+		setActive(slot0.actExtraBtn, underscore.any(getProxy(ChapterProxy):getMapsByActivities(), function (slot0)
 			return slot0:isActExtra()
 		end) and not slot3 and slot6 ~= Map.ACT_EXTRA)
 
 		if isActive(slot0.actExtraBtn) then
-			if underscore.all(underscore.filter(slot13, function (slot0)
+			if underscore.all(underscore.filter(slot11, function (slot0)
 				return slot0:getMapType() == Map.ACTIVITY_EASY or slot1 == Map.ACTIVITY_HARD
 			end), function (slot0)
 				return slot0:isAllChaptersClear()
@@ -1144,12 +1098,12 @@ function slot0.updateActivityBtns(slot0)
 			setActive(slot0.actExtraBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 		end
 
-		slot16 = ChapterConst.IsAtelierMap(slot0.contextData.map)
+		slot14 = ChapterConst.IsAtelierMap(slot0.contextData.map)
 
 		setActive(slot0.actEliteBtn, checkExist(slot0.contextData.map:getBindMap(), {
 			"isHardMap"
-		}) and slot6 ~= Map.ACTIVITY_HARD and not slot16)
-		setActive(slot0.actRyzaBtn, slot15 and slot6 ~= Map.ACTIVITY_HARD and slot16)
+		}) and slot6 ~= Map.ACTIVITY_HARD and not slot14)
+		setActive(slot0.actRyzaBtn, slot13 and slot6 ~= Map.ACTIVITY_HARD and slot14)
 		setActive(slot0.actNormalBtn, slot6 ~= Map.ACTIVITY_EASY)
 		setActive(slot0.actExtraRank, slot6 == Map.ACT_EXTRA)
 		setActive(slot0.actExchangeShopBtn, not slot3 and slot2 and not ActivityConst.HIDE_PT_PANELS)
@@ -1702,49 +1656,6 @@ function slot0.tryPlayMapStory(slot0)
 			end
 		end
 	})
-end
-
-function slot0.displaySignalPanel(slot0)
-	slot0.levelSignalView = LevelSignalView.New(slot0.topPanel, slot0.event, slot0.contextData)
-	slot1 = slot0.levelSignalView
-
-	slot1:Load()
-
-	slot1 = slot0.levelSignalView
-
-	slot1:ActionInvoke("set", slot0.subRefreshCount, slot0.subProgress)
-
-	slot4 = slot0.levelSignalView
-
-	slot4:ActionInvoke("setCBFunc", function (slot0)
-		uv0:emit(LevelMediator2.ON_REFRESH_SUB_CHAPTER, slot0)
-	end, function (slot0)
-		uv0:hideSignalPanel()
-
-		if slot0.active then
-			if uv0.contextData.entranceStatus then
-				slot1 = uv0
-
-				slot1:ShowSelectedMap(slot0:getConfig("map"), function ()
-					uv0:switchToChapter(uv1)
-				end)
-			else
-				uv0:switchToChapter(slot0)
-			end
-		elseif uv0.contextData.mapIdx ~= slot0:getConfig("map") then
-			uv0:ShowSelectedMap(slot0:getConfig("map"))
-		end
-	end, function ()
-		uv0:hideSignalPanel()
-	end)
-end
-
-function slot0.hideSignalPanel(slot0)
-	if slot0.levelSignalView then
-		slot0.levelSignalView:Destroy()
-
-		slot0.levelSignalView = nil
-	end
 end
 
 function slot0.DisplaySPAnim(slot0, slot1, slot2, slot3)
@@ -3208,16 +3119,6 @@ function slot0.destroySignalSearch(slot0)
 	end
 end
 
-function slot0.PlaySubRefreshAnimation(slot0, slot1, slot2)
-	if not slot0.levelSignalView then
-		existCall(slot2)
-
-		return
-	end
-
-	slot0.levelSignalView:ActionInvoke("PlaySubRefreshAnimation", slot1, slot2)
-end
-
 function slot0.doPlayCommander(slot0, slot1, slot2)
 	slot0:frozen()
 	setActive(slot0.commanderTinkle, true)
@@ -3585,7 +3486,6 @@ function slot0.willExit(slot0)
 	slot0:destroyFleetEdit()
 	slot0:destroyCommanderPanel()
 	slot0:DestroyLevelStageView()
-	slot0:hideSignalPanel()
 	slot0:hideRepairWindow()
 	slot0:hideStrategyInfo()
 	slot0:hideRemasterPanel()
