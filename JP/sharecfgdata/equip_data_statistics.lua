@@ -56964,9 +56964,9 @@ _G.pg.base.equip_data_statistics[26380] = {
 	name = "20mmエリコン連装高角砲Mk.V",
 	speciality = "近距離",
 	type = 6,
-	descrip = "说明未填写",
+	descrip = "0",
 	ammo = 5,
-	damage = "24/轮",
+	damage = "24/回",
 	nationality = 2,
 	rarity = 4,
 	id = 26380,
@@ -57029,7 +57029,7 @@ _G.pg.base.equip_data_statistics[26380] = {
 
 _G.pg.base.equip_data_statistics[26381] = {
 	id = 26381,
-	damage = "26/轮",
+	damage = "26/回",
 	base = 26380,
 	weapon_id = {
 		26381
@@ -57039,7 +57039,7 @@ _G.pg.base.equip_data_statistics[26381] = {
 
 _G.pg.base.equip_data_statistics[26382] = {
 	id = 26382,
-	damage = "28/轮",
+	damage = "28/回",
 	base = 26380,
 	weapon_id = {
 		26382
@@ -57049,7 +57049,7 @@ _G.pg.base.equip_data_statistics[26382] = {
 
 _G.pg.base.equip_data_statistics[26383] = {
 	id = 26383,
-	damage = "30/轮",
+	damage = "30/回",
 	base = 26380,
 	weapon_id = {
 		26383
@@ -57059,7 +57059,7 @@ _G.pg.base.equip_data_statistics[26383] = {
 
 _G.pg.base.equip_data_statistics[26384] = {
 	id = 26384,
-	damage = "32/轮",
+	damage = "32/回",
 	base = 26380,
 	weapon_id = {
 		26384
@@ -57069,7 +57069,7 @@ _G.pg.base.equip_data_statistics[26384] = {
 
 _G.pg.base.equip_data_statistics[26385] = {
 	id = 26385,
-	damage = "34/轮",
+	damage = "34/回",
 	base = 26380,
 	weapon_id = {
 		26385
@@ -57079,7 +57079,7 @@ _G.pg.base.equip_data_statistics[26385] = {
 
 _G.pg.base.equip_data_statistics[26386] = {
 	id = 26386,
-	damage = "36/轮",
+	damage = "36/回",
 	base = 26380,
 	weapon_id = {
 		26386
@@ -57089,7 +57089,7 @@ _G.pg.base.equip_data_statistics[26386] = {
 
 _G.pg.base.equip_data_statistics[26387] = {
 	id = 26387,
-	damage = "36/轮",
+	damage = "36/回",
 	base = 26380,
 	weapon_id = {
 		26387
@@ -57099,7 +57099,7 @@ _G.pg.base.equip_data_statistics[26387] = {
 
 _G.pg.base.equip_data_statistics[26388] = {
 	id = 26388,
-	damage = "38/轮",
+	damage = "38/回",
 	base = 26380,
 	weapon_id = {
 		26388
@@ -57109,7 +57109,7 @@ _G.pg.base.equip_data_statistics[26388] = {
 
 _G.pg.base.equip_data_statistics[26389] = {
 	id = 26389,
-	damage = "38/轮",
+	damage = "38/回",
 	base = 26380,
 	weapon_id = {
 		26389
@@ -57119,7 +57119,7 @@ _G.pg.base.equip_data_statistics[26389] = {
 
 _G.pg.base.equip_data_statistics[26390] = {
 	id = 26390,
-	damage = "40/轮",
+	damage = "40/回",
 	base = 26380,
 	weapon_id = {
 		26390
@@ -57130,7 +57130,7 @@ _G.pg.base.equip_data_statistics[26390] = {
 _G.pg.base.equip_data_statistics[26391] = {
 	id = 26391,
 	anti_siren = 100,
-	damage = "40/轮",
+	damage = "40/回",
 	base = 26380,
 	weapon_id = {
 		26391
