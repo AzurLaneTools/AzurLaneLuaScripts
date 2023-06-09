@@ -11689,7 +11689,7 @@ _G.pg.base.task_data_template[5194] = {
 	guild_coin_award = 0,
 	award = 5152,
 	type = 5,
-	desc = "完成1次求救信號",
+	desc = "速科夫上陣完成一次破交作戰",
 	count_inherit = 0,
 	sub_type = 19,
 	target_id_2 = "",
@@ -11704,6 +11704,7 @@ _G.pg.base.task_data_template[5194] = {
 	ryza_icon = "",
 	priority_type = 0,
 	story_id = "XUKUFU4",
+	target_id = "80801",
 	next_task = "5195",
 	auto_commit = 0,
 	scene = "",
@@ -11711,16 +11712,6 @@ _G.pg.base.task_data_template[5194] = {
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 1,
-	target_id = {
-		305,
-		405,
-		505,
-		605,
-		705,
-		805,
-		905,
-		1005
-	},
 	open_need = {},
 	award_display = {
 		{
@@ -13188,7 +13179,7 @@ _G.pg.base.task_data_template[5244] = {
 	guild_coin_award = 0,
 	award = 5187,
 	type = 5,
-	desc = "完成1次求救信號關卡 ",
+	desc = "大青花魚上陣完成一次破交作戰 ",
 	count_inherit = 0,
 	sub_type = 19,
 	target_id_2 = "",
@@ -13203,6 +13194,7 @@ _G.pg.base.task_data_template[5244] = {
 	ryza_icon = "",
 	priority_type = 0,
 	story_id = "DAQINGHUAYU4",
+	target_id = "10802",
 	next_task = "5245",
 	auto_commit = 0,
 	scene = "",
@@ -13210,16 +13202,6 @@ _G.pg.base.task_data_template[5244] = {
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 1,
-	target_id = {
-		305,
-		405,
-		505,
-		605,
-		705,
-		805,
-		905,
-		1005
-	},
 	open_need = {},
 	award_display = {
 		{
@@ -19455,7 +19437,7 @@ _G.pg.base.task_data_template[5464] = {
 	guild_coin_award = 0,
 	award = 5341,
 	type = 5,
-	desc = "完成1次求救信號關卡",
+	desc = "U-556上陣完成一次破交作戰",
 	count_inherit = 0,
 	sub_type = 19,
 	target_id_2 = "",
@@ -19470,6 +19452,7 @@ _G.pg.base.task_data_template[5464] = {
 	ryza_icon = "",
 	priority_type = 0,
 	story_id = "U556STORY4",
+	target_id = "40804",
 	next_task = "5465",
 	auto_commit = 0,
 	scene = "",
@@ -19477,16 +19460,6 @@ _G.pg.base.task_data_template[5464] = {
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 1,
-	target_id = {
-		305,
-		405,
-		505,
-		605,
-		705,
-		805,
-		905,
-		1005
-	},
 	open_need = {},
 	award_display = {
 		{
@@ -19762,7 +19735,7 @@ _G.pg.base.task_data_template[5474] = {
 	guild_coin_award = 0,
 	award = 5348,
 	type = 5,
-	desc = "完成1次求救信號關卡",
+	desc = "棘鰭上陣完成一次破交作戰",
 	count_inherit = 0,
 	sub_type = 19,
 	target_id_2 = "",
@@ -19777,6 +19750,7 @@ _G.pg.base.task_data_template[5474] = {
 	ryza_icon = "",
 	priority_type = 0,
 	story_id = "JIQI4",
+	target_id = "10803",
 	next_task = "5475",
 	auto_commit = 0,
 	scene = "",
@@ -19784,16 +19758,6 @@ _G.pg.base.task_data_template[5474] = {
 	target_num = 1,
 	fix_task = 0,
 	added_tip = 1,
-	target_id = {
-		305,
-		405,
-		505,
-		605,
-		705,
-		805,
-		905,
-		1005
-	},
 	open_need = {},
 	award_display = {
 		{
@@ -24539,7 +24503,7 @@ _G.pg.base.task_data_template[5634] = {
 	guild_coin_award = 0,
 	award = 5460,
 	type = 5,
-	desc = "完成1次求救訊號關卡 ",
+	desc = "U-47上陣完成一次破交作戰",
 	count_inherit = 0,
 	sub_type = 19,
 	target_id_2 = "",

@@ -5174,7 +5174,7 @@ _G.pg.base.gametip.intimacy_desc_7_buff = {
 
 _G.pg.base.gametip.intimacy_desc_propose = {
 	tip = [[
-愛為引路之燈，情乃係心之線
+愛為引路之燈，情乃繫心之線
 期盼對方之笑容，祈願對方之期盼
 相互尊重、相互信任、相互照看，直至永遠
 至此，命運結而為一，誓約成立
@@ -5203,7 +5203,7 @@ _G.pg.base.gametip.intimacy_desc_5_detail = {
 
 _G.pg.base.gametip.intimacy_desc_6_detail = {
 	tip = [[
-愛為引路之燈，情乃係心之線
+愛為引路之燈，情乃繫心之線
 期盼對方之笑容，祈願對方之期盼
 相互尊重、相互信任、相互守望，直至永遠
 至此，命運結而為一，契約成立
@@ -5212,7 +5212,7 @@ _G.pg.base.gametip.intimacy_desc_6_detail = {
 
 _G.pg.base.gametip.intimacy_desc_7_detail = {
 	tip = [[
-愛為引路之燈，情乃係心之線
+愛為引路之燈，情乃繫心之線
 期盼對方之笑容，祈願對方之期盼
 相互尊重、相互信任、相互守望，直至永遠
 至此，命運結而為一，契約成立
@@ -11257,7 +11257,7 @@ _G.pg.base.gametip.number_0 = {
 
 _G.pg.base.gametip.intimacy_desc_propose_vertical = {
 	tip = [[
-愛為引路之燈，情乃系心之線
+愛為引路之燈，情乃繫心之線
 期盼對方之笑容，祈願對方之期盼
 相互尊重、相互信任、相互守望，直至永遠
 至此，命運結而為一，誓約成立
