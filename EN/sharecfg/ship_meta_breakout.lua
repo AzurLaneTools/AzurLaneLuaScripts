@@ -1538,7 +1538,7 @@ pg.base.ship_meta_breakout = {
 	},
 	[9703021] = {
 		breakout_view = "Unlock Cinders of Hope – Algérie/Main Gun efficiency +5%",
-		gold = 500,
+		gold = 1000,
 		breakout_id = 9703022,
 		repair = 0,
 		item2 = 21001,
@@ -1554,7 +1554,7 @@ pg.base.ship_meta_breakout = {
 	},
 	[9703022] = {
 		breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-		gold = 1500,
+		gold = 3000,
 		breakout_id = 9703023,
 		repair = 0,
 		item2 = 21001,
@@ -1571,7 +1571,7 @@ pg.base.ship_meta_breakout = {
 	},
 	[9703023] = {
 		breakout_view = "Improve Cinders of Hope – Algérie/Torpedo efficiency +15%",
-		gold = 2500,
+		gold = 10000,
 		breakout_id = 9703024,
 		repair = 0,
 		item2 = 21001,
