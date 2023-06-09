@@ -1538,7 +1538,7 @@ pg.base.ship_meta_breakout = {
 	},
 	[9703021] = {
 		breakout_view = "【焔追の灰】スキル習得/主砲補正+5%",
-		gold = 500,
+		gold = 1000,
 		breakout_id = 9703022,
 		repair = 0,
 		item2 = 21001,
@@ -1554,7 +1554,7 @@ pg.base.ship_meta_breakout = {
 	},
 	[9703022] = {
 		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
-		gold = 1500,
+		gold = 3000,
 		breakout_id = 9703023,
 		repair = 0,
 		item2 = 21001,
@@ -1571,7 +1571,7 @@ pg.base.ship_meta_breakout = {
 	},
 	[9703023] = {
 		breakout_view = "【焔追の灰】スキル強化/魚雷補正+15%",
-		gold = 2500,
+		gold = 10000,
 		breakout_id = 9703024,
 		repair = 0,
 		item2 = 21001,

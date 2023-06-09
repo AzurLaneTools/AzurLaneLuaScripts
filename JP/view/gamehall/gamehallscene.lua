@@ -42,7 +42,8 @@ function slot0.didEnter(slot0)
 
 	GameHallScene.open_with_list = false
 	slot0.exchangePanelTf = findTF(slot0._tf, "ad/exchangePanel")
-	slot0.exchangePanel = GameHallExchangePanel.New(slot0.exchangePanelTf, slot0)
+	slot0.parentTf = findTF(slot0._tf, "ad")
+	slot0.exchangePanel = GameHallExchangePanel.New(slot0.exchangePanelTf, slot0.parentTf, slot0)
 
 	slot0:openExchangePanel(false)
 	slot0:changeTitle(false)
@@ -168,8 +169,6 @@ function slot0.willExit(slot0)
 
 	if slot0.listPanel:getVisible() then
 		GameHallScene.open_with_list = true
-
-		return
 	end
 
 	slot0.exchangePanel:dispose()

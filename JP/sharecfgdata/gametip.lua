@@ -24517,7 +24517,7 @@ _G.pg.base.gametip.battle_result_total_time = {
 }
 
 _G.pg.base.gametip.charge_game_room_coin_tip = {
-	tip = "資金を<color=#92fc63><icon name=res_gold w=0.5 h=0.5/>$1</color>消費し、<icon name=res_coin w=0.5 h=0.5/><color=$3>$4 × $2</color>を購入しますか？"
+	tip = "資金を<color=#92fc63><icon name=res_gold w=0.4 h=0.4/>$1</color>消費し、<color=$3>$4 <icon name=res_coin w=0.4 h=0.4/>× $2</color>を購入しますか？"
 }
 
 _G.pg.base.gametip.game_room_shooting_tip = {
