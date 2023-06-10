@@ -533,7 +533,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "CG 화면",
+			actorName = "베네토",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -657,7 +657,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "...이게 전부 다 당신이 계획한 일인가요?",
+			say = "...이게 전부 다 당신이 계획한 일인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

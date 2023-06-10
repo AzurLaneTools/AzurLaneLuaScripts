@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "놀다가 지쳐서 쉬러 온 건가요?",
+			say = "놀다가 지쳐서 쉬러 온 건가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "사양말고 마음껏 쉬세요. 석양과 해변은 무료니까요.",
+			say = "사양말고 마음껏 쉬어. 석양과 해변은 무료니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "또 가야 할 시간인가요?",
+			say = "또 가야 할 시간인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "그래서 이번엔 대체 어떻게 된 건데요? 정말 단순한 보물찾기에 불과했던 건가요?",
+			say = "그래서 이번엔 대체 어떻게 된 건데? 정말 단순한 보물찾기에 불과했던 건가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "이 중에서 어떤 게 우리가 보물 지도를 통해 찾길 바랐던 물건이죠?",
+			say = "이 중에서 어떤 게 우리가 보물 지도를 통해 찾길 바랐던 물건이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,15 +536,15 @@ return {
 			},
 			options = {
 				{
-					content = "보고싶을 거예요.",
+					content = "보고싶을 거야.",
 					flag = 1
 				},
 				{
-					content = "그래도 또 만날 수 있겠죠?",
+					content = "그래도 또 만날 수 있겠지?",
 					flag = 2
 				},
 				{
-					content = "내일 바로 나타나는 건 아니겠죠?",
+					content = "내일 바로 나타나는 건 아니지?",
 					flag = 3
 				}
 			}

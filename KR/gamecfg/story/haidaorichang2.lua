@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "역시 변화무쌍한 바다네요. 하지만 우리의 양산형은 이런 것쯤은 견딜 수 있을 거예요.",
+			say = "역시 변화무쌍한 바다네. 하지만 우리의 양산형은 이런 것쯤은 견딜 수 있을 것이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…상황이 좋지 않아요. 지휘관, 네비게이션 시스템이 작동하지 않고, 통신에도 문제가 생겼습니다.",
+			say = "…상황이 좋지 않아요. 지휘관, 네비게이션 시스템이 작동하지 않고, 통신에도 문제가 생겼어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "나쁜 소식이 잇따르네요…. 그렇지만 암초에 부딪혔다는 건 근처에 섬이 있을지도 모른다는 것을 의미해요.",
+			say = "나쁜 소식이 잇따랐다…. 그렇지만 암초에 부딪혔다는 건 근처에 섬이 있을지도 모른다는 것을 의미했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이건 설마 말로만 듣던… 폭풍이 몰아칠 때만 나타난다는 해적 보물섬!?",
+			say = "이건 설마 말로만 듣던… 폭풍이 몰아칠 때만 나타난다는 해적 보물섬이에요!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "당분간은 그럴 수밖에 없겠네요…. 전원 배를 버리고 섬으로 피신!",
+			say = "당분간은 그럴 수밖에 없겠네…. 전원 배를 버리고 섬으로 피신!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "아무래도 모항의 지원이 도착하기 전까진 이 섬에서 시간을 보내야 할 것 같아요.",
+			say = "아무래도 모항의 지원이 도착하기 전까진 이 섬에서 시간을 보내야 할 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "어쨌든, 다들 무사하니까 다행이에요~!",
+			say = "어쨌든, 다들 무사하니까 다행이네~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "흥흥, 보물찾기 모험단이 탐험 도중 무인도에 발이 묶여 어쩔 수 없이 섬에서 생존을 위해 고군분투하게 되는데——",
+			say = "흥흥, 보물찾기 모험단이 탐험 도중 무인도에 발이 묶여 어쩔 수 없이 섬에서 생존을 위해 고군분투하게 되는 것은——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "유사한 소설에서도 흔히 볼 수 있는 설정이네요.",
+			say = "유사한 소설에서도 흔히 볼 수 있는 설정이에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "섬을 전체적으로 한번 정찰한 뒤 필요한 자원을 수집하는 게 일반적이죠.",
+			say = "섬을 전체적으로 한번 정찰한 뒤 필요한 자원을 수집하는 게 일반적이에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "아야나미의 이상한 지식이 유용하게 쓰일 날이 올줄은 상상도 못했어요….",
+			say = "아야나미의 이상한 지식이 유용하게 쓰일 날이 올줄은 상상도 못했네….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "저도 찬성이에요. 여기서 밤을 보내려면 정찰, 물자 수집, 임시 거점 구축이 매우 중요해요.",
+			say = "나도 찬성. 여기서 밤을 보내려면 정찰, 물자 수집, 임시 거점 구축이 매우 중요한다는 말이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "찢어져서 거점 구축에 필요한 재료를 수집하고 섬을 정찰한 뒤 저녁 무렵 다시 이곳에서 모이는 거 어때요?",
+			say = "찢어져서 거점 구축에 필요한 재료를 수집하고 섬을 정찰한 뒤 저녁 무렵 다시 이곳에서 모이는 거 어때?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "최근에 계속 모항에만 있다가 오랜만에 야외 소풍이라니, 좋은 기회네요~!",
+			say = "최근에 계속 모항에만 있다가 오랜만에 야외 소풍이라니, 좋은 기회네~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "비록 무인도에 고립됐지만, 모두 무인도 생존에 관심이 많은 것 같으니, 당연히 막을 이유는 없겠네요.",
+			say = "비록 무인도에 고립됐지만, 모두 무인도 생존에 관심이 많은 것 같으니, 당연히 막을 이유는 없겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "저도 쓸만한 재료가 있는지 같이 찾아볼게요——",
+			say = "나도 쓸만한 재료가 있는지 같이 찾아볼게——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

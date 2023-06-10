@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "하, 하지만 장치는 있었어요!",
+			say = "하, 하지만 장치도 있었는데!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "우리 모두 몇 번이나 놀랐잖아요!",
+			say = "우리 모두 몇 번이나 놀랐잖아!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "혹시 눈치채셨나요…. 원래 이곳은 길이 하나밖에 없지 않았어요. 단지 다른 길이 전부 막혀있을 뿐이죠.",
+			say = "혹시 눈치채셨나요…. 원래 이곳은 길이 하나밖에 없지 않았어요. 단지 다른 길이 전부 막혀있을 뿐이에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "어서 속도를 내야겠어요!",
+			say = "어서 속도를 내야겠어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "잠, 잠깐! 그 시에서 흉악한 바다 요괴가 보물을 지키고 있다고 했잖아요!",
+			say = "잠, 잠깐! 그 시에서 흉악한 바다 요괴가 보물을 지키고 있다고 했잖아!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "하지만 여기까지 오는 길에 위험한 일은 없었어요…. 그냥 놀래키려고 가짜로 지어낸 말 아닐까요?",
+			say = "하지만 여기까지 오는 길에 위험한 일은 없었어…. 그냥 놀래키려고 가짜로 지어낸 말 아닐까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "에… 문이 열린 것 같아요….",
+			say = "에… 문이 열린 것 같은데….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "에, 에? 이렇게 평범하게 열렸다구요?!",
+			say = "에, 에? 이렇게 평범하게 열렸다구?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이게 바로 말로만 듣던—— '허장성세'!?",
+			say = "이게 바로 말로만 듣던—— '허장성세'이에요!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -730,7 +730,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "응? 당신이 설마 이 유적의 최종 Boss인 건가요? 보물을 지키는 흉악한 바다 요괴?",
+			say = "응? 당신이 설마 이 유적의 최종 Boss, 보물을 지키는 흉악한 바다 요괴이에요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -967,7 +967,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "역시 지휘관… 우리보다 한 발 앞서다니….",
+			say = "역시 지휘관… 우리보다 한 발 앞서다니요….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1043,7 +1043,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "오는 길이요…?",
+			say = "오는 길의 장치와 함정…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1136,7 +1136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "지휘관, 우린 이제 부자야!",
+			say = "지휘관님, 우린 이제 부자가 되겠네요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1161,7 +1161,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "그건 너무 과장된 것 같은데… 동굴 속 광석보다 눈앞의 당신들의 웃음이 더욱 값진 보물이라고 생각해요.",
+			say = "그건 너무 과장된 것 같은데… 동굴 속 광석보다 눈앞의 당신들의 웃음이 더욱 값진 보물이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1261,7 +1261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그럼 다들 정리를 끝내고 올라가보자구요~",
+			say = "그럼 다들 정리를 끝내고 올라가보자~",
 			painting = {
 				alpha = 0.3,
 				time = 1

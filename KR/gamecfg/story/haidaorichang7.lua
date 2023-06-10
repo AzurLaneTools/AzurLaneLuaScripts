@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이제 오늘 밤은 걱정 안해도 되겠네요~",
+			say = "이제 오늘 밤은 걱정 안해도 되겠네~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "생선과 버섯은 좀 더 구워야 먹을 수 있답니다~ 아무튼 오늘 모두 고생 많았어요.",
+			say = "생선과 버섯은 좀 더 구워야 먹을 수 있을 거야~ 아무튼 오늘 모두 고생 했었다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "잘됐네요. 그럼 이제 걱정 없이 눈앞의 해변 바베큐 파티를 즐겨봅시다——",
+			say = "잘됐네. 그럼 이제 걱정 없이 눈앞의 해변 바베큐 파티를 즐겨보자——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

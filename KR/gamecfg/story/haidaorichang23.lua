@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "휴~ 베개 밑에 있던 신비로운 쪽지 말이 맞았어요!",
+			say = "휴~ 베개 밑에 있던 신비로운 쪽지 말이 맞았군!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "여긴 정말… 진짜 유적이에요!",
+			say = "여긴… 진짜 유적이네!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이럴 경우 이상한 냄비나 폭약 덩어리 같은 게 있는지 찾아봐야 하는데…",
+			say = "이럴 경우 이상한 냄비나 폭약 덩어리 같은 게 있는지 찾아봐야 하는데요…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그럼 일단 수상한 입구가 있는지 한번 주변을 살펴볼까요~?",
+			say = "그럼 일단 수상한 입구가 있는지 한번 주변을 살펴볼까~?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "남겨진 함정 장치가 있을지도 모르니…",
+			say = "남겨진 함정 장치가 있을지도 몰라요…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "함정이야….",
+			say = "함정….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Z23! 괜찮아요…!?",
+			say = "Z23! 괜찮아…!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "괜찮아요… 그냥 깜짝 놀랐을 뿐이에요.",
+			say = "괜찮아… 그냥 깜짝 놀랐을 뿐.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "눈에 띄지 않는 길가의 돌이 함정 촉발기일줄은 몰랐네요….",
+			say = "눈에 띄지 않는 길가의 돌이 함정 촉발기일줄은 몰랐네….",
 			painting = {
 				alpha = 0.3,
 				time = 1

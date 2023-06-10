@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "여기에 쉼터 하나를 만들까요…?",
+			say = "여기에 쉼터 하나를 만들까…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "자연은 모두 함께 조화롭게 살아가야 가장 완벽하죠.",
+			say = "당연하지. 자연과 함께 조화롭게 살아가야 가장 완벽하는 일이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "단지… 이곳 해변까지 쓸려온 저 쓰레기들을 보고있자니 역시 눈에 거슬리네요.",
+			say = "단지… 이곳 해변까지 쓸려온 저 쓰레기들을 보고있자니 역시 눈에 거슬리네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "바다거북이들을 위해서라도 이 쓰레기들은 잘 치워줘야겠어요.",
+			say = "바다거북이들을 위해서라도 이 쓰레기들은 잘 치워줘야지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

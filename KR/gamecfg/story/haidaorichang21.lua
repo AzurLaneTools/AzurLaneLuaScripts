@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "…이곳의 향기 때문인지 몸이 점점 따뜻해지는 것 같아요.",
+			say = "…이곳의 향기 때문인지 몸이 점점 따뜻해지는 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "...뭔가 큰 사건에 휘말려 있는 것 같군요.",
+			say = "...뭔가 큰 사건에 휘말려 있는 것 같군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,11 +607,11 @@ return {
 			},
 			options = {
 				{
-					content = "돌아가봐야겠어요!",
+					content = "돌아가봐야겠다!",
 					flag = 1
 				},
 				{
-					content = "다 같이 온천에 몸을 담가볼까요?",
+					content = "다 같이 온천에 몸을 담가볼까?",
 					flag = 2
 				}
 			}

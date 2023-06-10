@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "에, 지휘관도 여기 낚시하러 온 건가요?",
+			say = "에, 지휘관도 여기 낚시하러 온 거예요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "초카이",
+			actorName = "푸가",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -435,7 +435,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "초카이",
+			actorName = "푸가",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -461,7 +461,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "아무래도 오늘 저녁 식사할 땐 바닷새를 위한 특별 구역을 만들어놔야겠네요——",
+			say = "아무래도 오늘 저녁 식사할 땐 바닷새를 위한 특별 구역을 만들어놔야겠네——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

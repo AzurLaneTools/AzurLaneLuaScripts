@@ -175,7 +175,7 @@ return {
 			},
 			options = {
 				{
-					content = "야드도 고생 많았어요.",
+					content = "야드도 고생 많았구만.",
 					flag = 1
 				}
 			}

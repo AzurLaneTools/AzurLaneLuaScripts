@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
-			say = "고마워요~",
+			say = "고마워~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,11 +246,11 @@ return {
 			},
 			options = {
 				{
-					content = "그럴싸하네요——",
+					content = "그럴싸하네——",
 					flag = 1
 				},
 				{
-					content = "자연 경관도 보존할 수 있다면요——",
+					content = "자연 경관도 보존할 수 있다면——",
 					flag = 2
 				}
 			}
@@ -445,7 +445,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "CG 화면",
+			actorName = "베네토",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

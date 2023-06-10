@@ -313,7 +313,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "네, 모항의 휴양지로 개발된다면 정말 좋은 선택일 것 같네요.",
+			say = "응, 모항의 휴양지로 개발된다면 정말 좋은 선택일 것 같네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,11 +388,11 @@ return {
 			},
 			options = {
 				{
-					content = "맛있는 버섯이 있을지도 모르겠네요.",
+					content = "맛있는 버섯이 있을지도 모르네.",
 					flag = 1
 				},
 				{
-					content = "독버섯일지도 몰라요.",
+					content = "독버섯일지도 몰라.",
 					flag = 2
 				}
 			},

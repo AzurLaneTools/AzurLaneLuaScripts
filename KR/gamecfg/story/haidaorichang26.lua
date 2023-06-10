@@ -480,7 +480,7 @@ return {
 			},
 			options = {
 				{
-					content = "좋은 생각이네요!",
+					content = "좋은 생각이네!",
 					flag = 1
 				},
 				{

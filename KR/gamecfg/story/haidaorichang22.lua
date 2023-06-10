@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "드디어 이 유적을 탐험할 때가 되었습니다.",
+			say = "드디어 이 유적을 탐험할 때가 되었어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "어쩌면 로열 포춘 양의 보물지도에 표시된 보물이 여기에 있을지도 몰라요….",
+			say = "어쩌면 로열 포춘 양의 보물지도에 표시된 보물이 여기에 있을지도 몰라….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "어서 가서 확인해볼까요!?",
+			say = "어서 가서 확인해볼까!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "어쩐지 갑자기 엄청난 열정을 보여서 의아했어요. 알고보니 당신이 뒤에서 부추겼던거군요.",
+			say = "어쩐지 갑자기 엄청난 열정을 보여주더니, 알고보니 당신이 뒤에서 부추겼던거군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "그나저나… 며칠동안 안보이던데, 갑자기 또 어디서 튀어나온 거죠?",
+			say = "그나저나… 며칠동안 안보이던데, 갑자기 또 어디서 튀어나오는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "뭔가 의심스러운데요….",
+			say = "뭔가 의심스러운데….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "그건… 그렇네요.",
+			say = "그건… 그렇네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "위험하진 않겠죠?",
+			say = "위험하진 않겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "그곳에 미리 도착해서 그들에게 서프라이즈를 해주자는 얘긴가요…?",
+			say = "그곳에 미리 도착해서 그들에게 서프라이즈를 해주자는 얘긴가…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

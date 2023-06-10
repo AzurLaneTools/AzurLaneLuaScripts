@@ -148,7 +148,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "\"거봐요, 내가 무슨 행동을 할지 모르잖아요\"라니… 쯧, 인정 안하긴….",
+			say = "\"거봐, 내가 무슨 행동을 할지 모르잖아\"라니… 쯧, 인정 안하긴….",
 			painting = {
 				alpha = 0.3,
 				time = 1

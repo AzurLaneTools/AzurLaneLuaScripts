@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "포근한 날씨네요…. 주위의 푸른 하늘과 바다가 너무 예뻐서 바다 속으로 녹아들 것만 같아요~",
+			say = "포근한 날씨네…. 주위의 푸른 하늘과 바다가 너무 예뻐서 바다 속으로 녹아들 것만 같아~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "여러분, 선박 위 창고에서 아이스크림을 가져왔답니다?",
+			say = "여러분, 선박 위 창고에서 아이스크림을 가져왔어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그런데 그 전설의 보물은… 대체 어디에 있는 걸까요?",
+			say = "그런데 그 전설의 보물은… 대체 어디에 있는 걸까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "곧 도착할지도 몰라요. 보물이 언제든지 나타날 수도 있답니다!",
+			say = "곧 도착할지도 몰라. 보물이 언제든지 나타날 수 있을 거야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,11 +324,11 @@ return {
 			},
 			options = {
 				{
-					content = "할로윈에 찾아온 해적 아가씨요?",
+					content = "할로윈에 찾아온 해적 아가씨?",
 					flag = 1
 				},
 				{
-					content = "갑자기 나타난 수상한 인물이요?",
+					content = "갑자기 나타난 수상한 인물?",
 					flag = 2
 				}
 			}
@@ -508,7 +508,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "로열 포춘의 정체와 시를 생각해보면, 그렇게 추측할 수밖에 없겠네요.",
+			say = "로열 포춘의 정체와 시를 생각해보면, 그렇게 추측할 수밖에 없겠네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "깊은 바다 속에 숨겨진 보물이라니… 지휘관, 이 보물지도, 어디서 난 거예요?",
+			say = "깊은 바다 속에 숨겨진 보물이라니요… 지휘관, 이 보물지도, 어디서 난 거예요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그렇군요, 그럼 지휘관, 우린 먼저 돌아가보겠습니다.",
+			say = "그렇군요, 그럼 지휘관, 우린 먼저 돌아가볼게요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "좋아요. 보물찾기 모험을 시작해봅시다——",
+			say = "보물찾기 모험이 이렇게 시작되었다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -839,7 +839,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "해적 아가씨가 보내온 메시지라면 해적이 모아둔 각종 금화나 보석 같은 보물이 아닐까요…?",
+			say = "해적 아가씨가 보내온 메시지라면 해적이 모아둔 각종 금화나 보석 같은 보물이 아닐까…?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -910,7 +910,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…해적이 왜 그런 걸 보물처럼 숨겨놓겠어요?",
+			say = "…해적이 왜 그런 걸 보물처럼 숨겨놓겠어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -944,7 +944,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "제가 생각하기엔… 말랑말랑과 다이아몬드는 너무 반대되는 것 같아요.",
+			say = "제가 생각하기엔… 말랑말랑과 다이아몬드는 너무 반대되는 것 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -978,7 +978,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "판타지 소설에서는 모든 것이 가능하잖아요.",
+			say = "판타지 소설에서는 모든 것이 가능한 거 아니에요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -995,7 +995,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "에?! 에?? 아무리봐도 여기가 판타지 소설 속 세계는 아니거든요?!",
+			say = "에?! 에?? 아무리봐도 여기가 판타지 소설 속 세계는 아니거든?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1033,11 +1033,11 @@ return {
 			},
 			options = {
 				{
-					content = "맞아요.",
+					content = "맞아.",
 					flag = 1
 				},
 				{
-					content = "글쎄요.",
+					content = "글쎄.",
 					flag = 2
 				}
 			}
@@ -1050,7 +1050,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "봐요! 정말이지… 그만 좀 놀리라구요.",
+			say = "거봐! 진짜… 그만 좀 놀리라구.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1122,7 +1122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "우린 그걸… 아이스크림이라고 불러요….",
+			say = "우린 그걸… 아이스크림이라고 불러….",
 			painting = {
 				alpha = 0.3,
 				time = 1

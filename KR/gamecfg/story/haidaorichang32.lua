@@ -375,7 +375,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "그런데 도대체 왜… 채소밭을 갑자기 꽃밭으로 변경한 거예요?",
+			say = "그런데 도대체 왜… 채소밭을 갑자기 꽃밭으로 변경한 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "그랬군요.",
+			say = "그랬군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "예전에 섬을 탐사할 때도 야생화가 자라는 걸 보았지만, 이렇게 종류가 많은 줄은 몰랐어요….",
+			say = "예전에 섬을 탐사할 때도 야생화가 자라는 걸 보았지만, 이렇게 종류가 많은 줄은 몰랐어….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "모아서 이렇게 보니 정말 찬란한 광경이네요.",
+			say = "모아서 이렇게 보니 정말 찬란한 광경이네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

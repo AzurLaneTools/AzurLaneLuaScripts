@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "에? 지휘관도 화산을 조사하러 온건가요?",
+			say = "에? 지휘관도 화산을 조사하러 온 거예요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "역시 신경 쓰인단 말이지, 화산이 분포된 지역이라니….",
+			say = "역시 신경 쓰인단 말이에요, 화산이 분포된 지역이….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "다이아몬드 곡괭이가 있었으면 좋았을 텐데….",
+			say = "다이아몬드 곡괭이가 있었으면 좋았을 텐데요….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,11 +126,11 @@ return {
 			},
 			options = {
 				{
-					content = "곡괭이로 돌을 채집할 건가요?",
+					content = "곡괭이로 돌을 채집할 건가?",
 					flag = 1
 				},
 				{
-					content = "일단은 제작대가 있어야 될 것 같은데요?",
+					content = "일단은 제작대가 있어야 될 것 같은데?",
 					flag = 2
 				}
 			}
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "목재를 모으는 일은 이미 재블린에게 부탁했답니다.",
+			say = "목재를 모으는 일은 이미 재블린에게 부탁했어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "흑요석은 확실히 예쁜 보석이죠. 이 화산은 과거 폭발한 적이 있다는 뜻이겠네요.",
+			say = "흑요석은 확실히 예쁜 보석이지. 이 화산은 과거 폭발한 적이 있다는 뜻이겠네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "그럼 흑요석 말고도 다른 보석이 있을지도 모르겠어요.",
+			say = "그럼 흑요석 말고도 다른 보석이 있을지도 모르겠네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

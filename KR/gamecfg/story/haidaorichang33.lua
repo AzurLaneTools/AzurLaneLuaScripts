@@ -79,7 +79,7 @@ return {
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "어딜 도망가는 거예요, 받아라-!",
+			say = "어딜 도망가는 거야, 받아라-!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "가볍게 피하고~ 날 명중 시키려면 좀 더 열심히 조준해야할걸요~?",
+			say = "가볍게 피하고~ 날 명중 시키려면 좀 더 열심히 조준해야할걸~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "비밀의 무기 '쌍발총'을 사용해야겠다!",
+			say = "비밀의 무기 '쌍발총'을 사용해야겠네요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "히잉, 한 판 붙자는 거야? 절대 봐주지 않을 거예요!",
+			say = "히잉, 한 판 할래? 절대 봐주지 않을 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "오늘 축하 파티가 있다는 건 어떻게 알았죠?",
+			say = "오늘 축하 파티가 있다는 건 어떻게 알았지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "요 며칠 혼자서 또 무얼 하고 다닌 거죠?",
+			say = "요 며칠 혼자서 또 무엇을 하고 있지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

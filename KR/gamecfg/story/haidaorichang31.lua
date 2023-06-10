@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "상황이 좋지 않아….",
+			say = "상황이 좋지 않네요….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "정말 고마워, 푸가.",
+			say = "정말 고마워요, 푸가.",
 			painting = {
 				alpha = 0.3,
 				time = 1

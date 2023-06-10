@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "...설령 정말 괴물이 있다고해도, 후부키를 이기는 건 쉬운 일이 아니잖아요?",
+			say = "...설령 정말 괴물이 있다고해도, 후부키를 이기는 건 쉬운 일이 아니잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "최악의 경우, 전투가 일어난다고해도 소리로 곧장 알 수 있을 거예요.",
+			say = "최악의 경우, 전투가 일어난다고해도 소리로 곧장 알 수 있을 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "섬에 천연 온천이 있을 줄은 몰랐는데, 확실히 온천관을 짓기에 안성맞춤이겠네요.",
+			say = "섬에 천연 온천이 있을 줄은 몰랐는데, 확실히 온천관을 짓기에 안성맞춤이겠네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

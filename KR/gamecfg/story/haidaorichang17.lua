@@ -244,11 +244,11 @@ return {
 			},
 			options = {
 				{
-					content = "수영복이 예쁘네요.",
+					content = "수영복이 예쁘네.",
 					flag = 1
 				},
 				{
-					content = "수영복이 좀… 너무 섹시한 거 아닌가요?",
+					content = "수영복이 좀… 너무 섹시한 거 아냐?",
 					flag = 2
 				}
 			}

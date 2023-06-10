@@ -431,7 +431,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "디저트가 엄청 맛있네요. 달콤한 맛이 마음에 쏙 들어요.",
+			say = "디저트가 엄청 맛있고 달콤한 맛이 마음에 쏙 들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "마사지도 너무 편안해서 온 몸이 풀리는 것 같아요.",
+			say = "마사지도 너무 편안해서 온 몸이 풀리는 것 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "…향기로운 냄새와 따뜻한 손길에 의식이 점점 흐려지는 것 같았다.",
+			say = "…근데 왠지 모르지만, 향기로운 냄새와 따뜻한 손길에 의식이 점점 흐려지는 것 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

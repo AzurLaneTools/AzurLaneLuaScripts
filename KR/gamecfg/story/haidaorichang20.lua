@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "채소밭으로 개척한다면 좋은 선택일 것 같아요.",
+			say = "채소밭으로 개척한다면 좋은 선택일 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

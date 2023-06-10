@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "설마 로열 포춘의 보물지도… 정말 뭔가 어마무시한 게 숨겨져있는 걸까요?",
+			say = "설마 로열 포춘의 보물지도… 정말 뭔가 어마무시한 게 숨겨져있는 걸까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,11 +159,11 @@ return {
 			},
 			options = {
 				{
-					content = "항구를 건설하기 적합한 곳인 것 같네요.",
+					content = "항구를 건설하기 적합한 곳인 것 같네.",
 					flag = 1
 				},
 				{
-					content = "비밀 공방을 건설하기 적합한 곳 같네요!",
+					content = "비밀 공방을 건설하기 적합한 곳인 것 같네!",
 					flag = 2
 				}
 			}
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "사실 그런 뜻이 아니였어요….",
+			say = "사실 그런 뜻이 아니였어….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "예상치 못한 사고로 이곳에 고립된지 얼마 되지도 않았는데, Z23은 벌써 여기까지 생각했네요.",
+			say = "예상치 못한 사고로 이곳에 고립된지 얼마 되지도 않았는데, Z23은 벌써 여기까지 생각했네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "좋아요. 물자를 모으는 건 중요하니까요. 겸사겸사 섬도 익힐 수 있고요.",
+			say = "좋아. 물자를 모으는 건 중요하니까. 겸사겸사 섬도 익힐 수 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

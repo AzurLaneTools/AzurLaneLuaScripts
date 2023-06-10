@@ -99,7 +99,7 @@ return {
 			},
 			options = {
 				{
-					content = "정말 미안해요….",
+					content = "미안….",
 					flag = 1
 				}
 			},
@@ -198,7 +198,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "…'황금섬 요트 경기'요?",
+			say = "…'황금섬 요트 경기'?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
-			say = "엔터프라이즈는 다음 경기죠? 그리고 저기…",
+			say = "엔터프라이즈는 다음 경기지? 그리고 저기…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
-			say = "하나즈키와 어디서 나타난지 모를 로열 포춘 양도 보이는데, 그녀들도 경기에 참가하는 건가요?",
+			say = "하나즈키와 어디서 나타난지 모를 로열 포춘 양도 보이는데, 그녀들도 경기에 참가하는 건가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

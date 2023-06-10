@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "조개 구이와 미역 구이도 도전해볼만 하답니다!",
+			say = "조개 구이와 미역 구이도 도전해볼 만하는 거예요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -756,11 +756,11 @@ return {
 			},
 			options = {
 				{
-					content = "섬의 바닷바람과 햇살을 즐겨봅시다~!",
+					content = "섬의 바닷바람과 햇살을 즐겨봐라~!",
 					flag = 1
 				},
 				{
-					content = "섬에서 매일 매일 즐거운 파티를 즐겨봅시다~!",
+					content = "섬에서 매일 매일 즐거운 파티를 즐겨봐라~!",
 					flag = 2
 				}
 			}

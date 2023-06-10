@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"바닷바람과 여름날의 무인도\n\n<size=45>4 초카이의 선물</size>",
+					"바닷바람과 여름날의 무인도\n\n<size=45>4 바닷새의 선물</size>",
 					1
 				}
 			}
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "...이 근처에서 재료를 찾다가 우연히 오게 됐어요.",
+			say = "...이 근처에서 재료를 찾다가 우연히 오게 됐을 뿐이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "이런 곳에서 자면 감기에 걸릴지도 몰라요, 라피.",
+			say = "이런 곳에서 자면 감기에 걸릴지도 몰라, 라피.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "그래서 라피는 무엇 때문에 여기에 온 거예요?",
+			say = "그래서 라피는 무엇 때문에 여기에 온 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "싱싱한 생선 요리라면 저녁 식사로 제격이긴하지만…",
+			say = "싱싱한 생선 요리라면 저녁 식사로 제격이긴 한데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "라피는 오자마자 잠들어서 잘 모르겠지만, 아무리 주위를 둘러봐도 물고기는 안보이는 것 같아요.",
+			say = "라피는 오자마자 잠들어서 잘 모를 수도 있지만, 아무리 주위를 둘러봐도 물고기는 안보이는 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

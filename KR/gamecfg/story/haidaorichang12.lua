@@ -279,7 +279,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "…역시 제 착각이였네요!!!",
+			say = "…역시 내 착각이였네!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "고춧가루만 들어간 게 아니라 강황가루도 들어간 건가요….",
+			say = "고춧가루만 들어간 게 아니라 강황가루도 들어간 건가….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "아무래도... 좀 쉬어야 할 것 같아요….",
+			say = "아무래도... 좀 쉬어야 할 것 같아….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "…응? 아무 맛이 안 나는데요?",
+			say = "…응? 아무 맛이 안 나는데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "겉보기엔 멀쩡한 식재료처럼 보이는데, 왜 입안에선… 아무 맛도 나지 않는 거죠…?",
+			say = "겉보기엔 멀쩡한 식재료처럼 보이는데, 왜 입안에선… 아무 맛도 나지 않는 거지…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "앗, 지휘관이 고른 이 디저트는 시리우스 별로 만든 거야~",
+			say = "앗, 지휘관이 고른 이 디저트는 시리우스로 만든 거야~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "아무래도... 좀 쉬어야 할 것 같아요….",
+			say = "아무래도... 좀 쉬어야 할 것 같아….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
