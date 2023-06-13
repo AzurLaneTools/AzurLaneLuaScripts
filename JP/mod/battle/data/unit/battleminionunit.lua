@@ -21,7 +21,9 @@ end
 
 function slot8.SetMaster(slot0, slot1)
 	slot0._master = slot1
+end
 
+function slot8.InheritMasterAttr(slot0)
 	uv0.SetMinionAttr(slot0)
 	uv0.InitDOTAttr(slot0._attr, slot0._tmpData)
 	slot0:setStandardLabelTag()
