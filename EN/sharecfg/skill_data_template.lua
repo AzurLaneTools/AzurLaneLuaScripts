@@ -118552,7 +118552,7 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 		id = 1090140,
 		type = 1,
 		max_level = 10,
-		desc = "Every $1: fires a $2 supporting barrage using CA-caliber guns, and launches a $3 special airstrike (barrage and airstrike DMG are both based on the skill's level).",
+		desc = "Every $1s: fires a $2 supporting barrage using CA-caliber guns, and launches a $3 special airstrike (barrage and airstrike DMG are both based on the skill's level).",
 		system_transform = {},
 		world_death_mark = {
 			1
