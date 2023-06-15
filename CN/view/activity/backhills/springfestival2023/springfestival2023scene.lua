@@ -304,7 +304,7 @@ function slot0.CheckTip(slot0)
 	end)
 end
 
-function slot0.IsShowMainTip()
+function slot0.IsShowMainTip(slot0)
 	return _.any({
 		"xiaoyouxi",
 		"huituriji",

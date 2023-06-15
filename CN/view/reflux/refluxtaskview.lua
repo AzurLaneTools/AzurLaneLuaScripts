@@ -112,31 +112,30 @@ end
 function slot0.updateTask(slot0, slot1, slot2)
 	slot3 = slot0:findTF("Go", slot1)
 	slot7 = slot0:findTF("Get", slot1)
-	slot12 = slot0:findTF("Btn", gotText)
 
 	setActive(slot3, slot2:getTaskStatus() == 0)
-	setActive(slot7, slot13 == 1)
-	setActive(slot0:findTF("Got", slot1), slot13 == 2)
+	setActive(slot7, slot12 == 1)
+	setActive(slot0:findTF("Got", slot1), slot12 == 2)
 	setImageSprite(slot0:findTF("DayImg", slot1), slot0.daySpriteList[slot0:getTaskUnlockSignCount(slot2)])
 	setActive(slot0:findTF("Lock", slot1), not slot0:isTaskUnlocked(slot2))
 	setText(slot0:findTF("DescText", slot1), slot2:getConfig("desc"))
 
-	slot18 = slot2:getProgress()
-	slot19 = slot2:getConfig("target_num")
+	slot17 = slot2:getProgress()
+	slot18 = slot2:getConfig("target_num")
 
-	setSlider(slot5, 0, slot19, slot18)
-	setText(slot0:findTF("Text", slot0:findTF("Progress", slot3)), slot18 .. "/" .. slot19)
-	setSlider(slot9, 0, slot19, slot18)
-	setText(slot0:findTF("Text", slot0:findTF("Progress", slot7)), slot18 .. "/" .. slot19)
+	setSlider(slot5, 0, slot18, slot17)
+	setText(slot0:findTF("Text", slot0:findTF("Progress", slot3)), slot17 .. "/" .. slot18)
+	setSlider(slot9, 0, slot18, slot17)
+	setText(slot0:findTF("Text", slot0:findTF("Progress", slot7)), slot17 .. "/" .. slot18)
 
-	slot22 = UIItemList.New(slot0:findTF("Drops", slot1), slot0.itemTpl)
+	slot21 = UIItemList.New(slot0:findTF("Drops", slot1), slot0.itemTpl)
 
-	slot22:make(function (slot0, slot1, slot2)
+	slot21:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv1:updateItem(slot2, uv0[slot1 + 1])
 		end
 	end)
-	slot22:align(#slot0:getTaskAwardForShow(slot2))
+	slot21:align(#slot0:getTaskAwardForShow(slot2))
 	onButton(slot0, slot0:findTF("Btn", slot3), function ()
 		pg.m02:sendNotification(GAME.TASK_GO, {
 			taskVO = uv0

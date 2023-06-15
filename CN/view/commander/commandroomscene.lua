@@ -38,7 +38,7 @@ end
 function slot0.setReserveBoxCnt(slot0, slot1)
 	slot0.reserveBoxCnt = slot1
 
-	slot0:updateReserveBtn(slot0)
+	slot0:updateReserveBtn()
 	slot0.reservePanel:ActionInvoke("Update", slot0.reserveBoxCnt, slot0.playerVO)
 end
 
@@ -98,13 +98,13 @@ function slot0.init(slot0)
 		nationData = {},
 		rarityData = {}
 	}
-	slot0.onCommander = slot0.contextData.onCommander or function (slot0)
+	slot0.onCommander = slot0.contextData.onCommander or function (slot0, slot1, slot2, slot3)
 		return true
 	end
 	slot0.onSelected = slot0.contextData.onSelected or function (slot0, slot1)
 		slot1()
 	end
-	slot0.onQuit = slot0.contextData.onQuit or function ()
+	slot0.onQuit = slot0.contextData.onQuit or function (slot0)
 	end
 
 	setActive(slot0.selctedPanel, slot0.mode == uv0.MODE_SELECT)
@@ -412,7 +412,7 @@ function slot0.didEnter(slot0)
 	CommandRoomScene.commanderId = nil
 
 	slot0:initCommandersPanel()
-	triggerButton(slot0.ascBtn, true)
+	triggerButton(slot0.ascBtn)
 	slot0:updateGold()
 	slot0:UpdateHomeTip()
 end

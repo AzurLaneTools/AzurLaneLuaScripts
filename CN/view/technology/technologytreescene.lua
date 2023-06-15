@@ -197,7 +197,7 @@ function slot0.initNationToggleUIList(slot0)
 			uv0.nationSelectedCount = 0
 			uv0.nationSelectedList = {}
 
-			uv0:updateTecItemList(true)
+			uv0:updateTecItemList()
 			uv0:updateNationToggleUIList()
 		else
 			uv0.nationMetaToggleCom.interactable = true
@@ -372,14 +372,14 @@ function slot0.onClassItemUpdate(slot0, slot1, slot2)
 	slot14 = slot9.ships
 
 	setText(slot0:findTF("Name/NameText", slot2), slot9.name)
-	setImageSprite(slot0:findTF("CampBG", slot2), slot0:isMetaOn() and GetSpriteFromAtlas("TecNation", "bg_nation_meta", true) or GetSpriteFromAtlas("TecNation", "bg_nation_" .. slot9.nation, true))
+	setImageSprite(slot0:findTF("CampBG", slot2), slot0:isMetaOn() and GetSpriteFromAtlas("TecNation", "bg_nation_meta") or GetSpriteFromAtlas("TecNation", "bg_nation_" .. slot9.nation))
 
 	if slot15 then
 		setActive(slot5, false)
 		setActive(slot6, false)
 	else
-		setImageSprite(slot5, GetSpriteFromAtlas("TecClassLevelIcon", "T" .. slot13, true), true)
-		setImageSprite(slot6, GetSpriteFromAtlas("ShipType", "ch_title_" .. slot12, true), true)
+		setImageSprite(slot5, GetSpriteFromAtlas("TecClassLevelIcon", "T" .. slot13), true)
+		setImageSprite(slot6, GetSpriteFromAtlas("ShipType", "ch_title_" .. slot12), true)
 		setActive(slot5, true)
 		setActive(slot6, true)
 	end
@@ -497,8 +497,8 @@ function slot0.updateShipItemList(slot0, slot1, slot2)
 			end)
 
 			if table.indexof(uv0.groupIDGotList, slot26, 1) then
-				setImageSprite(slot13, GetSpriteFromAtlas("ui/technologytreeui_atlas", "label_" .. pg.fleet_tech_ship_template[slot26].add_get_shiptype[1], true))
-				setImageSprite(slot14, GetSpriteFromAtlas("attricon", pg.attribute_info_by_type[pg.fleet_tech_ship_template[slot26].add_get_attr].name, true))
+				setImageSprite(slot13, GetSpriteFromAtlas("ui/technologytreeui_atlas", "label_" .. pg.fleet_tech_ship_template[slot26].add_get_shiptype[1]))
+				setImageSprite(slot14, GetSpriteFromAtlas("attricon", pg.attribute_info_by_type[pg.fleet_tech_ship_template[slot26].add_get_attr].name))
 				setText(slot15, "+" .. pg.fleet_tech_ship_template[slot26].add_get_value)
 				setActive(slot12, true)
 
@@ -518,8 +518,8 @@ function slot0.updateShipItemList(slot0, slot1, slot2)
 						setText(slot11, "+" .. pg.fleet_tech_ship_template[slot26].pt_get)
 					end
 				else
-					setImageSprite(slot18, GetSpriteFromAtlas("ui/technologytreeui_atlas", "label_" .. pg.fleet_tech_ship_template[slot26].add_level_shiptype[1], true))
-					setImageSprite(slot19, GetSpriteFromAtlas("attricon", pg.attribute_info_by_type[pg.fleet_tech_ship_template[slot26].add_level_attr].name, true))
+					setImageSprite(slot18, GetSpriteFromAtlas("ui/technologytreeui_atlas", "label_" .. pg.fleet_tech_ship_template[slot26].add_level_shiptype[1]))
+					setImageSprite(slot19, GetSpriteFromAtlas("attricon", pg.attribute_info_by_type[pg.fleet_tech_ship_template[slot26].add_level_attr].name))
 					setText(slot20, "+" .. pg.fleet_tech_ship_template[slot26].add_level_value)
 					setActive(slot17, true)
 

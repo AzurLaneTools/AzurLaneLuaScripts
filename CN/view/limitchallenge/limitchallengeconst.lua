@@ -5,8 +5,10 @@ slot0.REQ_CHALLENGE_INFO = "LimitChallengeConst.REQ_CHALLENGE_INFO"
 slot0.REQ_CHALLENGE_INFO_DONE = "LimitChallengeConst.REQ_CHALLENGE_INFO_DONE"
 slot0.GET_CHALLENGE_AWARD = "LimitChallengeConst.GET_CHALLENGE_AWARD"
 slot0.GET_CHALLENGE_AWARD_DONE = "LimitChallengeConst.GET_CHALLENGE_AWARD_DONE"
+slot0.UPDATE_PASS_TIME = "LimitChallengeConst.UPDATE_PASS_TIME"
 
 function slot0.RequestInfo()
+	pg.m02:sendNotification(LimitChallengeConst.REQ_CHALLENGE_INFO)
 end
 
 function slot0.GetNextMonthTS()

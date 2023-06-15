@@ -486,6 +486,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>尽情享受无人岛上的美好风光吧~！</color>\n通过参与六周年限定活动获取",
 		scene = {}
 	},
+	[10001] = {
+		time_limit_type = 0,
+		name = "限界的挑战者·双子座",
+		gain_by = "",
+		id = 10001,
+		time_second = 0,
+		desc = "<color=#ffffff>结晶之中闪烁着双子座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.06.15-23.06.30）",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -540,6 +549,7 @@ pg.item_data_frame = {
 		407,
 		501,
 		601,
-		602
+		602,
+		10001
 	}
 }

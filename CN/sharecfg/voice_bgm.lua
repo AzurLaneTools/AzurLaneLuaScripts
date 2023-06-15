@@ -599,5 +599,17 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "theme-haitian-soft-loop"
+	},
+	LimitChallengeScene = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-starsea-core"
+	},
+	LimitChallengePreCombatLayer = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-starsea-core"
 	}
 }

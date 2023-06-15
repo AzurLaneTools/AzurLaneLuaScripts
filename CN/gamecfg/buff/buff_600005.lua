@@ -22,24 +22,14 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffCount",
-			trigger = {
-				"onStack"
-			},
-			arg_list = {
-				countTarget = 1,
-				countType = 600004
-			}
-		},
-		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddBuff",
 			trigger = {
 				"onBattleBuffCount"
 			},
 			arg_list = {
+				buff_id = 600000,
 				target = "TargetSelf",
-				skill_id = 600005,
-				countType = 600004
+				countType = 600000
 			}
 		}
 	}

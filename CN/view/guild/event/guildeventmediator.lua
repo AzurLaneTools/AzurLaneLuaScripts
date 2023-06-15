@@ -112,9 +112,9 @@ function slot0.register(slot0)
 			shipIds = slot2
 		})
 	end)
-	slot0:bind(uv0.ON_SELECT_MISSION_SHIP, function (slot0, slot1, slot2, slot3, slot4)
+	slot0:bind(uv0.ON_SELECT_MISSION_SHIP, function (slot0, slot1, slot2, slot3)
 		uv0.viewComponent:emit(uv1.ON_GET_FORMATION, function ()
-			uv0:OnSelectMissionShips(uv1, uv2, uv3, uv4)
+			uv0:OnSelectMissionShips(uv1, uv2, uv3)
 		end)
 	end)
 	slot0:bind(uv0.REFRESH_MISSION, function (slot0, slot1, slot2)
@@ -601,24 +601,24 @@ function slot0.OnCheckMissionShip(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.OnSelectMissionShips(slot0, slot1, slot2, slot3, slot4)
+function slot0.OnSelectMissionShips(slot0, slot1, slot2, slot3)
 	if not slot0.contextData.missionShips then
 		slot0.contextData.missionShips = Clone(slot3)
 	end
 
-	slot5 = getProxy(GuildProxy):getData()
+	slot4 = getProxy(GuildProxy):getData()
 
 	_.each(slot3, function (slot0)
 		table.insert(uv0, slot0)
 	end)
-	_.each(slot5:GetActiveEvent():GetJoinShips(), function (slot0)
+	_.each(slot4:GetActiveEvent():GetJoinShips(), function (slot0)
 		table.insert(uv0, slot0)
 	end)
 	slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 		selectedMin = 1,
 		selectedMax = 1,
 		quitTeam = slot3[slot2],
-		ignoredIds = _.map(slot5:getMemberById(getProxy(PlayerProxy):getRawData().id):GetAssaultFleet():GetShipIds(), function (slot0)
+		ignoredIds = _.map(slot4:getMemberById(getProxy(PlayerProxy):getRawData().id):GetAssaultFleet():GetShipIds(), function (slot0)
 			return GuildAssaultFleet.GetRealId(slot0)
 		end),
 		onShip = function (slot0)

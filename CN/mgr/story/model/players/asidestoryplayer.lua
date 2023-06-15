@@ -10,7 +10,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.dataTxt = slot0:findTF("aside_sign_date", slot0.asidePanel)
 end
 
-function slot0.OnReset(slot0, slot1)
+function slot0.OnReset(slot0, slot1, slot2)
 	setActive(slot0.asidePanel, true)
 	setActive(slot0.curtain, true)
 	setActive(slot0.hrzList.container, false)

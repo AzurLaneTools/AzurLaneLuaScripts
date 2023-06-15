@@ -104,7 +104,7 @@ function slot0.SwitchToPage(slot0, slot1)
 
 	slot0.type = slot1
 
-	slot0:UpdateSlots(slot1)
+	slot0:UpdateSlots()
 
 	if slot1 == Ship.STATE_TRAIN then
 		slot0.descTxt.text = i18n("backyard_traning_tip")

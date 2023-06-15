@@ -180,7 +180,7 @@ function slot0.UpdatePageFooter(slot0, slot1, slot2)
 	end, function ()
 		uv0:SwitchPhase(uv1)
 		setActive(uv2:Find("tip"), uv0:isPhaseTip(uv1))
-	end, SFX_PANEL)
+	end)
 end
 
 function slot0.OnSwitch(slot0, slot1, slot2, slot3)

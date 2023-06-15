@@ -18713,7 +18713,13 @@ pg.base.furniture_data_template = {
 	},
 	[251] = {
 		spine_extra = "",
-		describe = "翩若飞仙，余音绕梁",
+		describe = [[
+翩若飞仙，余音绕梁
+
+
+
+
+<color=#fcae33>具有演奏功能</color>]],
 		gain_by = "",
 		type = 15,
 		dir = 0,

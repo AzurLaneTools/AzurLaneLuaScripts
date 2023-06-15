@@ -15,8 +15,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.defeatCount = slot1.defeat_count or 0
 	slot0.passCount = slot1.pass_count or 0
 	slot0.todayDefeatCount = slot1.today_defeat_count or 0
-	slot0.expireTime = slot1.active_time
-	slot0.awardIndex = slot1.index or 0
 	slot0.theme = ChapterTheme.New(slot0:getConfig("theme"))
 	slot2 = {
 		defaultValue(slot1.kill_boss_count, 0),
@@ -460,11 +458,6 @@ function slot0.retreat(slot0, slot1)
 	slot0.cellAttachments = {}
 	slot0.round = 0
 	slot0.airDominanceStatus = nil
-end
-
-function slot0.clearSubChapter(slot0)
-	slot0.expireTime = nil
-	slot0.awardIndex = nil
 end
 
 function slot0.existLoop(slot0)
@@ -1753,7 +1746,7 @@ function slot0.RemoveChampion(slot0, slot1)
 end
 
 function slot0.considerAsObstacle(slot0, slot1, slot2, slot3)
-	if not slot0:getChapterCell(slot2, slot3) or not slot4:IsWalkable(slot1) then
+	if not slot0:getChapterCell(slot2, slot3) or not slot4:IsWalkable() then
 		return true
 	end
 

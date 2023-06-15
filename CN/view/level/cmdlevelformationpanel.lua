@@ -33,19 +33,19 @@ function slot0.attach(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.playAnim(slot0, slot1, slot2)
+function slot0.playAnim(slot0, slot1)
 	slot0.animtion:Play(slot1)
 end
 
 function slot0.open(slot0)
-	slot0:playAnim("cmdopen", callback)
+	slot0:playAnim("cmdopen")
 	setActive(slot0._go, true)
 	setParent(slot0._go, pg.UIMgr.GetInstance().OverlayMain)
 	slot0._tf:SetAsLastSibling()
 end
 
 function slot0.close(slot0)
-	slot0:playAnim("cmdclose", callback)
+	slot0:playAnim("cmdclose")
 	setActive(slot0._go, false)
 end
 

@@ -55,7 +55,7 @@ slot0.TECH_NATION_ATTRS = {
 }
 
 function slot0.GetNationSpriteByIndex(slot0)
-	return GetSpriteFromAtlas(uv0.AtlasName, uv0.NationResName[slot0] .. "01", true), GetSpriteFromAtlas(uv0.AtlasName, uv0.NationResName[slot0] .. "02", true)
+	return GetSpriteFromAtlas(uv0.AtlasName, uv0.NationResName[slot0] .. "01"), GetSpriteFromAtlas(uv0.AtlasName, uv0.NationResName[slot0] .. "02")
 end
 
 slot0.TypeOrder = {
@@ -100,7 +100,7 @@ slot0.TypeResName = {
 }
 
 function slot0.GetTypeSpriteByIndex(slot0)
-	return GetSpriteFromAtlas(uv0.AtlasName, uv0.TypeResName[slot0] .. "01", true), GetSpriteFromAtlas(uv0.AtlasName, uv0.TypeResName[slot0] .. "02", true)
+	return GetSpriteFromAtlas(uv0.AtlasName, uv0.TypeResName[slot0] .. "01"), GetSpriteFromAtlas(uv0.AtlasName, uv0.TypeResName[slot0] .. "02")
 end
 
 function slot0.ClassToGroupIDList()
@@ -145,6 +145,10 @@ function slot0.CreateMetaClassConfig()
 	end
 
 	for slot3, slot4 in ipairs(pg.fleet_tech_ship_class.all) do
+		if slot4 == 970101 then
+			print("---")
+		end
+
 		if pg.fleet_tech_ship_class[slot4].nation == Nation.META then
 			if uv0.MetaClassConfig == nil then
 				uv0.MetaClassConfig = {}
@@ -158,12 +162,39 @@ function slot0.CreateMetaClassConfig()
 				uv0.MetaClassConfig[slot8].ships = {}
 			end
 
+			slot9 = i18n(slot8)
+
+			if uv0.MetaClassConfig[slot8].ships[slot5.t_level_1] == nil then
+				uv0.MetaClassConfig[slot8].ships[slot10] = {}
+			end
+
+			if uv0.MetaClassConfig[slot8].indexList == nil then
+				uv0.MetaClassConfig[slot8].indexList = {}
+			end
+
+			if not table.contains(uv0.MetaClassConfig[slot8].indexList, slot10) then
+				table.insert(uv0.MetaClassConfig[slot8].indexList, slot10)
+			end
+
 			slot11 = uv0.MetaClassConfig[slot8]
 			slot11.id = slot8
-			slot11.name = i18n(slot8)
+			slot11.name = slot9
 			slot11.nation = slot6
-			slot11.ships[slot5.t_level_1] = slot5.ships[1]
+
+			table.insert(slot11.ships[slot10], slot5.ships[1])
 		end
+	end
+
+	for slot3, slot4 in pairs(uv0.MetaClassConfig) do
+		slot6 = {}
+
+		for slot10, slot11 in ipairs(slot4.indexList) do
+			_.each(slot4.ships[slot11], function (slot0)
+				table.insert(uv0, slot0)
+			end)
+		end
+
+		slot4.ships = slot6
 	end
 end
 

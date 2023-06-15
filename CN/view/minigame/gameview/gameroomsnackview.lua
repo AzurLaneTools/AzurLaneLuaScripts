@@ -59,7 +59,7 @@ function slot0.updateSelectedList(slot0, slot1)
 		setActive(slot0:findTF("Empty", slot6), not slot10)
 
 		if slot10 then
-			setImageSprite(slot9, GetSpriteFromAtlas("ui/newyearsnackui_atlas", "snack_" .. slot10, true))
+			setImageSprite(slot9, GetSpriteFromAtlas("ui/newyearsnackui_atlas", "snack_" .. slot10))
 		end
 	end
 end
@@ -68,7 +68,7 @@ function slot0.updateSnackList(slot0, slot1)
 	for slot5 = 1, uv0.Snack_Num do
 		slot6 = slot0.snackContainer:GetChild(slot5 - 1)
 
-		setImageSprite(slot0:findTF("SnackImg", slot6), GetSpriteFromAtlas("ui/newyearsnackui_atlas", "snack_" .. slot1[slot5], true))
+		setImageSprite(slot0:findTF("SnackImg", slot6), GetSpriteFromAtlas("ui/newyearsnackui_atlas", "snack_" .. slot1[slot5]))
 		setActive(slot0:findTF("SelectedTag", slot6), false)
 
 		slot0.snackTFList[slot5] = slot6
@@ -83,7 +83,7 @@ function slot0.updateSelectedOrderTag(slot0, slot1)
 		if slot1 then
 			setActive(slot7, false)
 		else
-			setImageSprite(slot7, GetSpriteFromAtlas("ui/newyearsnackui_atlas", "order_" .. table.indexof(slot0.selectedIDList, slot5, 1), true))
+			setImageSprite(slot7, GetSpriteFromAtlas("ui/newyearsnackui_atlas", "order_" .. table.indexof(slot0.selectedIDList, slot5, 1)))
 		end
 	end
 end
