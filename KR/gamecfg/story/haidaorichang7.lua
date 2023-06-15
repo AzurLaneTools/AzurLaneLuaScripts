@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "생선과 버섯은 좀 더 구워야 먹을 수 있을 거야~ 아무튼 오늘 모두 고생 했었다.",
+			say = "생선과 버섯은 좀 더 구워야 먹을 수 있을 거야~ 아무튼 오늘 모두 고생 했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1

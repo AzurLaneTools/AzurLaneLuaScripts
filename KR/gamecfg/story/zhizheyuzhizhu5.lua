@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "메탈 블러드는 어떤 게 먼저인지 확실하지 않지만, 함선과 마인드 큐브가 같은 시기에 나타났을지도 모른다고 생각하고 있어.",
+			say = "메탈 블러드는 어떤 게 먼저인지 확실하지 않지만, 함선과 성정 큐브가 같은 시기에 나타났을지도 모른다고 생각하고 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "메타 큐브라고 불리는 META화 마인드 큐브는 메탈 블러드가 세이렌과 거래해서 얻어낸 물건이고...",
+			say = "메타 큐브라고 불리는 META화 성정 큐브는 메탈 블러드가 세이렌과 거래해서 얻어낸 물건이고...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "신석, 마인드 큐브 기술도 역시 갑자기 나타났잖아….",
+			say = "신석, 성정 큐브 기술도 역시 갑자기 나타났잖아….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "비스마르크 각하의 치료 기록에서는…",
+			say = "비스마르크의 치료 기록에서는…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "침식된 META화 마인드 큐브는 임계점을 돌파한다고 해서 모두 손상되는 것은 아니며, 일부는 짧은 시간 동안 기이한 특성을 보이기도 한다….",
+			say = "침식된 META화 성정 큐브는 임계점을 돌파한다고 해서 모두 손상되는 것은 아니며, 일부는 짧은 시간 동안 기이한 특성을 보이기도 한다….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "마치 마인드 큐브 내부에서 어떤 방해를 하고 있는 것 같아….",
+			say = "마치 성정 큐브 내부에서 어떤 방해를 하고 있는 것 같아….",
 			painting = {
 				alpha = 0.3,
 				time = 1

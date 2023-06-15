@@ -10,7 +10,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgm = "story-bismark-determination",
-			say = "울리히의 지휘 하에 모두가 대행자 함대와 관리기를 분리했다.",
+			say = "울리히의 지휘 하에 모두가 인포서 함대와 관리기를 분리했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 9708010,
 			dir = 1,
 			actorName = "U-556·META？",
-			say = "으악, 언니. 적이 갑자기 너무 위험해 보이는데…!?",
+			say = "으악, 언니. 갑자기 너무 위험해 보이는데…!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "게리온, 보안협정 Nr.2, Nr.3, Nr.7 해지",
+			say = "게리온, 보안협정 Nr.2, Nr.3, Nr.7 해제",
 			painting = {
 				alpha = 0.3,
 				time = 1

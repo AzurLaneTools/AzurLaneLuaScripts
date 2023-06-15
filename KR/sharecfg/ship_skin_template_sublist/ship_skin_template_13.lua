@@ -1,643 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_13 = {
-	[403033] = {
-		ship_group = 40303,
-		name = "Wein Kornblume",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "115",
-		id = 403033,
-		group_index = 3,
-		prefab = "ougen_4",
-		painting = "ougen_4",
-		shop_id = 70236,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 7,
-		illustrator = 30,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "…응? 뭐야, 지휘관이잖아. 안 취했어… 혹시, 내가 취한 틈을 노려서 뭔가 하려고 했던거야? 히히…",
-		voice_actor = 21,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand2",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.358,
-					1.22,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.358,
-					1.22,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.008,
-					0.005,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.344,
-					1.131,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.32,
-							2.35,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[403034] = {
-		ship_group = 40303,
-		name = "Final Lap",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "132",
-		id = 403034,
-		group_index = 4,
-		prefab = "ougen_5",
-		painting = "ougen_5",
-		shop_id = 70614,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 14,
-		illustrator = -1,
-		lip_smoothing = 0,
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Viel Glück~ 지휘관, 재밌게 즐기고 있어? 내 응원을 오직 널 위한 거야~ 후훗~",
-		voice_actor = 21,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			1,
-			4
-		},
-		live2d_offset = {
-			70,
-			160,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.47,
-					1.25,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.42,
-					1.27,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.344,
-					1.4,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.72,
-							2.38,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		}
-	},
-	[403035] = {
-		ship_group = 40303,
-		name = "이 밤에 취해라",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "145",
-		id = 403035,
-		group_index = 5,
-		prefab = "ougen_6",
-		painting = "ougen_6",
-		shop_id = 70700,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 17,
-		illustrator = -1,
-		lip_smoothing = 0,
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Guten Abend~ 어때? 여기 경치, 나쁘지 않지? 후후훗, 야경 말하는 건데?",
-		voice_actor = 21,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			-35,
-			80,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.47,
-					1.25,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.42,
-					1.27,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.344,
-					1.4,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.53,
-							2.38,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		},
-		l2d_para_range = {
-			ParamEyeBallX = {
-				-0.7,
-				0.7
-			},
-			ParamEyeBallY = {
-				-0.7,
-				0.7
-			}
-		},
-		ship_l2d_id = {
-			206
-		}
-	},
-	[403038] = {
-		ship_group = 40303,
-		name = "운명의 교향곡",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 403038,
-		group_index = 8,
-		prefab = "ougen_h",
-		painting = "ougen_h",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9998,
-		illustrator = 30,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "당신과 만난 게 운명이라면, 이 운명에 감사해야겠지…앞으로도 기대할게, 우후훗",
-		voice_actor = 21,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.46,
-					0.81,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.46,
-					0.81,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.117,
-					0.094,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.46,
-					0.81,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.32,
-							2.35,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[403040] = {
-		ship_group = 40304,
-		name = "도이칠란트",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 403040,
-		group_index = 0,
-		prefab = "deyizhi",
-		painting = "deyizhi",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 31,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "도이칠란트급 초갑순양함 - 도이칠란트",
-		voice_actor = 28,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.97,
-					1.03,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.97,
-					1.03,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.07,
-					0.11,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.97,
-					1.03,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.77,
-							0.6,
-							-0.76
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.08,
-							2.63,
-							-1.93
-						}
-					}
-				}
-			}
-		}
-	},
 	[403041] = {
 		ship_group = 40304,
 		name = "칠흑의 마희",
@@ -2375,6 +1738,123 @@ pg.base.ship_skin_template_13 = {
 		ship_l2d_id = "",
 		tag = {
 			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.52,
+					1.1,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.52,
+					1.003,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.38,
+					1.41,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.507,
+							2.567,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[403094] = {
+		ship_group = 40309,
+		name = "하인리히 온스테이지",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "159",
+		id = 403094,
+		group_index = 4,
+		prefab = "haiyinlixi_4",
+		painting = "haiyinlixi_4",
+		shop_id = 70857,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = "",
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "자! 그럼 하인리히가 한 곡 부를게! 재즈 스타일에 어른스러운 분위기가 물씬 풍기는 미스 하인리히, 좀 두근거렸어? 아하핫!",
+		voice_actor = 255,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
 		},
 		live2d_offset = {
 			0,
@@ -10758,6 +10238,515 @@ pg.base.ship_skin_template_13 = {
 						{
 							-0.755,
 							2.025,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408100] = {
+		ship_group = 40810,
+		name = "U-37",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 408100,
+		group_index = 0,
+		prefab = "U37",
+		painting = "U37",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "메탈 블러드 IXA형 잠수함 U-37 ",
+		voice_actor = 256,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.319,
+					1.023,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.008,
+					0.016,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.534,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408101] = {
+		ship_group = 40810,
+		name = "물거품처럼 노래하는 정월",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "101",
+		id = 408101,
+		group_index = 1,
+		prefab = "U37_2",
+		painting = "U37_2",
+		shop_id = 70469,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 2,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "그럼~ 이어서 U-37이 바치는 노래 한 곡을 들어줘! ... 음, 지휘관, 왜 아직도 그렇게 멍한 모습인 거야? 내가 어렵게 사쿠라 엠파이어 동료한테 엄청난 걸 배워왔다고~ 진지하게 들어, 시작할게——",
+		voice_actor = 256,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.039,
+					1.031,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408110] = {
+		ship_group = 40811,
+		name = "U-410",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 408110,
+		group_index = 0,
+		prefab = "U410",
+		painting = "U410",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "메탈 블러드 VIIC형 잠수함U-410",
+		voice_actor = 261,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.327,
+					0.001,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.536,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.409,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408111] = {
+		ship_group = 40811,
+		name = "봄을 비추는 매화",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "144",
+		id = 408111,
+		group_index = 1,
+		prefab = "U410_2",
+		painting = "U410_2",
+		shop_id = 70501,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관~ 춘절 준비는 잘 돼가? 세뱃돈은 준비했어? 만두는 먹은 거야?... 춘절에 대해 잘 안다고? 후후, 미리 공부 좀 했지~",
+		voice_actor = 261,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.304,
+					0.061,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.435,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.523,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408120] = {
+		ship_group = 40812,
+		name = "U-1206",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 408120,
+		group_index = 0,
+		prefab = "u1206",
+		painting = "u1206",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "메탈 블러드 VIIC형 잠수함 U-1206",
+		voice_actor = 300,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.08,
+					0.21,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.38,
+					0.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.26,
 							0
 						}
 					}

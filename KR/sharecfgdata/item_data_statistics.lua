@@ -24694,6 +24694,65 @@ _G.pg.base.item_data_statistics[40926] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[40927] = {
+	display = "패키지 구매 시 랜덤 스킨*1, 다이아*2023, 성정 유닛*50, 성정 큐브*20, 고급 지향형 강화 유닛-제5기*2, 고속 건조재*10, 가구 코인*100 획득 가능",
+	name = "연회복 패키지(2023)",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/lihecn6lf",
+	id = 40927,
+	display_icon = {
+		{
+			2,
+			69927,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[40941] = {
 	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2020, 성정 유닛*50, 상급 지향형 강화 유닛-제2기*2, 성정 큐브*20, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥! ",
 	name = "아카시 패키지(2020) ",
@@ -194711,6 +194770,29 @@ _G.pg.base.item_data_statistics[59457] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59458] = {
+	display = "뜨거운 고백 연습' 이벤트에서 캐릭터 호감도를 높이는 데 사용되며, 이벤트 종료 후 사라진다.",
+	name = "연애 편지 연습",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/little_taihou_pt",
+	id = 59458,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",
@@ -206916,6 +206998,58 @@ _G.pg.base.item_data_statistics[69926] = {
 		{
 			202092,
 			950
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[69927] = {
+	display = "不会被看到",
+	name = "랜덤 신년 스킨(2023) ",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69927,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			304052,
+			1200
+		},
+		{
+			131172,
+			1200
+		},
+		{
+			207036,
+			1600
+		},
+		{
+			403094,
+			1600
+		},
+		{
+			702034,
+			1600
+		},
+		{
+			236030,
+			1400
+		},
+		{
+			331056,
+			1400
 		}
 	}
 }

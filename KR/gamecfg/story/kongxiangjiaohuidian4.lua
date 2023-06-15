@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "울리히 각하, 드디어 만났네요!",
+			say = "울리히 폰 후텐, 드디어 만났네!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "괜찮으십니까!?",
+			say = "괜찮아!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………울리히 각하?",
+			say = "………울리히?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "정신 차리세요, 울리히 각하!",
+			say = "정신 차려, 울리히!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1189,7 +1189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "울리히 각하… 몽유병 상태인 거 맞아? 어떻게 저렇게 빨리 움직일 수 있지!",
+			say = "울리히… 몽유병 상태인 거 맞아? 어떻게 저렇게 빨리 움직일 수 있지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1311,7 +1311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "잠깐, 울리히 각하께서 갑자기 멈추셨어!",
+			say = "잠깐, 울리히가 갑자기 멈췄어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1521,7 +1521,7 @@ return {
 			bgName = "bg_bsmre_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "진정하세요! 울리히 각하…! 뭐지…!",
+			say = "진정해! 울리히…! 뭐지…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "홍홍홍, 그렇다고 볼 수 있지~",
+			say = "흥흥, 그렇다고 볼 수 있지~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -717,7 +717,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "다음에 또 만나요, 바람을 타고 온 메신저———",
+			say = "다음에 또 만나, 바람을 타고 온 메신저———",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

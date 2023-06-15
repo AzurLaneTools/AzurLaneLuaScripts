@@ -62,7 +62,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "쇼카쿠?",
-			say = "바로 이곳에서 나 자신을 희생해 당신의 목숨을 구한 거 기억나나요?",
+			say = "이곳에서 내가 너를 구하기 위해 희생한거 기억나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "쇼카쿠?",
-			say = "정말 그럴까요?",
+			say = "정말 그럴까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "쇼카쿠?",
-			say = "기억은 정말 '진실'일까요?",
+			say = "기억은 정말 '진실'일까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "쇼카쿠?",
-			say = "즈이카쿠, 나와 함께 가요.",
+			say = "즈이카쿠, 나와 함께 가자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "쇼카쿠?",
-			say = "옆으로 오세요, 즈이카쿠.",
+			say = "옆으로 와, 즈이카쿠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			actorName = "쇼카쿠?",
-			say = "즈이카쿠, 왜 말을 안 들어요…?",
+			say = "즈이카쿠, 왜 말을 안 들어…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

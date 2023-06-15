@@ -146,7 +146,10 @@ function slot0.Fold(slot0, slot1, slot2)
 	else
 		LeanTween.cancel(slot0._tf.gameObject)
 		LeanTween.cancel(slot0._bgTf.gameObject)
-		slot0:AdjustPosition(slot0.ship)
+
+		if slot0.ship then
+			slot0:AdjustPosition(slot0.ship)
+		end
 
 		slot0.chatTf.anchoredPosition = slot0.chatPos
 	end

@@ -540,7 +540,7 @@ return {
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…조용히 하세요!",
+			say = "…즈이카쿠!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

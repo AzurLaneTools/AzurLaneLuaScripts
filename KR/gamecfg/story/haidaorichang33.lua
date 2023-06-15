@@ -96,7 +96,7 @@ return {
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "홍홍, 정확히 명중!",
+			say = "흥흥, 정확히 명중!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "홍홍, 왜? 나보고 놀란 거야?",
+			say = "흥흥, 왜? 나보고 놀란 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1

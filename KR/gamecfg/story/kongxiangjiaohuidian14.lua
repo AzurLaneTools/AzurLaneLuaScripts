@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "전장의 한복판에는 이제 U-556과 비스마르크, 그리고 여전히 작동 중인 소수의 대행자만 남아 있다.",
+			say = "전장의 한복판에는 이제 U-556과 비스마르크, 그리고 여전히 작동 중인 소수의 인포서만 남아 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1411,7 +1411,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "다행이야! 비록 약간의 우여곡절이 있었지만, 모두 마침내 성공적으로 합류했어요.",
+			say = "다행이야! 비록 약간의 우여곡절이 있었지만, 모두 마침내 성공적으로 합류했어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1428,7 +1428,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "남은 일은… 이제 하나뿐이네요.",
+			say = "남은 일은… 이제 하나뿐이네.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "네, 계속 지켜보겠습니다.",
+			say = "그래, 계속 지켜보도록.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "네. 각하, 무슨 일이야?",
+			say = "응, 무슨 일이야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			actorName = "{namecode:464}&{namecode:435}",
 			actor = 405030,
 			nameColor = "#A9F548FF",
-			say = "비스마르크 각하—— 울리히——",
+			say = "비스마르크—— 울리히——",
 			subActors = {
 				{
 					actor = 405010,

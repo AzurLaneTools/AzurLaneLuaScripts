@@ -784,7 +784,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "홍홍~ 당연하지~",
+			say = "흐흥~ 당연하지~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -882,7 +882,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "홍홍홍, 그럼 다음은 반격의 순간!",
+			say = "에헤헷, 그럼 다음은 반격의 순간!",
 			painting = {
 				alpha = 0.3,
 				time = 1

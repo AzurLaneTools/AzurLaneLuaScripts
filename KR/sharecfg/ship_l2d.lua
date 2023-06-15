@@ -1191,6 +1191,7 @@ pg.ship_l2d = {
 		},
 		action_trigger_active = {
 			idle = 0,
+			repeatFlag = true,
 			enable = {},
 			ignore = {
 				"touch_idle"
@@ -2161,6 +2162,130 @@ pg.ship_l2d = {
 			10
 		}
 	},
+	[3040521] = {
+		draw_able_name = "TouchDrag1",
+		offset_x = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 1,
+		start_value = 0,
+		ship_skin_id = 304052,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		revert = 100,
+		ignore_action = 0,
+		react_pos_x = 0,
+		parameter = "touch_drag1",
+		shop_action = 0,
+		gyro_z = 0,
+		smooth = 100,
+		id = 3040521,
+		range_abs = 1,
+		offset_y = 100,
+		range = {
+			0,
+			1
+		},
+		action_trigger = {
+			type = 3,
+			action_list = {
+				{
+					action = "touch_idle1",
+					time = 1
+				}
+			}
+		}
+	},
+	[3040522] = {
+		draw_able_name = "TouchDrag2",
+		offset_x = 200,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		start_value = 0,
+		ship_skin_id = 304052,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		action_trigger = "",
+		revert = 100,
+		ignore_action = 0,
+		react_pos_x = 0,
+		parameter = "touch_drag2",
+		shop_action = 0,
+		gyro_z = 0,
+		smooth = 100,
+		id = 3040522,
+		range_abs = 1,
+		offset_y = 0,
+		range = {
+			0,
+			1
+		}
+	},
+	[3040523] = {
+		draw_able_name = "",
+		offset_x = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		start_value = 0,
+		ship_skin_id = 304052,
+		ignore_react = 0,
+		mode = 1,
+		gyro = 1,
+		gyro_x = 1,
+		react_pos_y = 0,
+		action_trigger = "",
+		revert = 200,
+		ignore_action = 0,
+		react_pos_x = 0,
+		parameter = "beijX",
+		shop_action = 1,
+		gyro_z = 0,
+		smooth = 200,
+		id = 3040523,
+		range_abs = 0,
+		offset_y = 0,
+		range = {
+			-15,
+			15
+		}
+	},
+	[3040524] = {
+		draw_able_name = "",
+		offset_x = 0,
+		gyro_y = 1,
+		action_trigger_active = "",
+		drag_direct = 0,
+		start_value = 0,
+		ship_skin_id = 304052,
+		ignore_react = 0,
+		mode = 1,
+		gyro = 1,
+		gyro_x = 0,
+		react_pos_y = 0,
+		action_trigger = "",
+		revert = 200,
+		ignore_action = 0,
+		react_pos_x = 0,
+		parameter = "beijY",
+		shop_action = 1,
+		gyro_z = 0,
+		smooth = 200,
+		id = 3040524,
+		range_abs = 0,
+		offset_y = 0,
+		range = {
+			-15,
+			15
+		}
+	},
 	all = {
 		101,
 		102,
@@ -2229,6 +2354,10 @@ pg.ship_l2d = {
 		1051725,
 		1051726,
 		1051727,
-		1051728
+		1051728,
+		3040521,
+		3040522,
+		3040523,
+		3040524
 	}
 }

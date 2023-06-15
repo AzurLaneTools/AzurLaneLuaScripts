@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이건……. 메탈 블러드의 울리히 폰 후텐 각하!?",
+			say = "이건……. 메탈 블러드의 울리히 폰 후텐!?",
 			painting = {
 				alpha = 0.3,
 				time = 1

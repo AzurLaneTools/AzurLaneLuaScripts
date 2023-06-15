@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "비스마르크 각하, 적이 도망쳤어.",
+			say = "비스마르크, 적이 도망쳤어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "잠깐, 비스마르크 각하… 악몽의 시작은 우리의 부유섬 요새였어, 그렇다는 건…",
+			say = "잠깐, 비스마르크… 악몽의 시작은 우리의 부유섬 요새였어, 그렇다는 건…",
 			painting = {
 				alpha = 0.3,
 				time = 1

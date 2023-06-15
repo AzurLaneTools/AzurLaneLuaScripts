@@ -9749,6 +9749,66 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[375] = {
+		ship_group = 20603,
+		name = "UnicornI72",
+		sculpture = "dujiaoshou",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 375,
+		id = 375,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[376] = {
+		ship_group = 40309,
+		name = "Eisen_Fight",
+		sculpture = "haiyinlixi",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 376,
+		id = 376,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[377] = {
+		ship_group = 30105,
+		name = "AYANAMIN",
+		sculpture = "lingbo",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 377,
+		id = 377,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[378] = {
+		ship_group = 30405,
+		name = "Amagi",
+		sculpture = "tiancheng",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 378,
+		id = 378,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[379] = {
+		ship_group = 70203,
+		name = "Chapaev",
+		sculpture = "qiabayefu",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 379,
+		id = 379,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -10120,6 +10180,11 @@ pg.activity_ins_template = {
 		370,
 		371,
 		372,
-		373
+		373,
+		375,
+		376,
+		377,
+		378,
+		379
 	}
 }

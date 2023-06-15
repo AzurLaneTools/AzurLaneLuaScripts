@@ -100,7 +100,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "적이 또 몰려오고 있습니다!",
+			say = "적이 또 몰려오고 있어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "그건... 아비터·디벨로·XV의 함재기에요.",
+			say = "그건... 아비터·데빌·XV의 함재기에요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +586,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "아비터·디벨로? 허밋이 아니고?!",
+			say = "아비터·데빌? 허밋이 아니고?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -968,7 +968,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "현재 비스마르크β는 저와 함께 움직이고 있어요. 게다가 디벨로의 함재기도 만났죠….",
+			say = "현재 비스마르크β는 저와 함께 움직이고 있어요. 게다가 데빌의 함재기도 만났죠….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1005,7 +1005,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "흐음! 디벨로와도 관련 있는 일이라니.",
+			say = "으음! 데빌과도 관련 있는 일이라니.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1132,7 +1132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "잠깐… 에? 디벨로는 어떻게 잔불의 행동을 알았을까요?!",
+			say = "잠깐… 에? 데빌은 어떻게 잔불의 행동을 알았을까요?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1236,7 +1236,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "빠르게 그걸 마비시켜. 이 통신 채널은 이미 디벨로에게 발각됐을 확률이 높아.",
+			say = "빠르게 그걸 마비시켜. 이 통신 채널은 이미 데빌에게 발각됐을 확률이 높아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1435,7 +1435,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "진짜 위험에 처한 건 허밋. 잔불에 붙잡혀있는 동안, 본체 공간은 디벨로에 의해 공격 당하고 있으니까요.",
+			say = "진짜 위험에 처한 건 허밋. 잔불에 붙잡혀있는 동안, 본체 공간은 데빌에게 공격 당하고 있으니까요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1455,7 +1455,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "디벨로가 허밋을 공격해…?",
+			say = "데빌이 허밋을 공격해…?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1599,7 +1599,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "헬레나는 이것이 디벨로의 목적이라고 추측하고 있어요.",
+			say = "헬레나는 이것이 데빌의 목적이라고 추측하고 있어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1619,7 +1619,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "악몽, 그리고 바다에 계속해서 확산되고 있는 META화 침식, 이게 다 디벨로의 공격 수단인건가?",
+			say = "악몽, 그리고 바다에 계속해서 확산되고 있는 META화 침식, 이게 다 데빌의 공격 수단인건가?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1637,7 +1637,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "그 이상한 환상은 허밋의 능력이에요. 아마도 디벨로가 이미 본체 공간을 컨트롤하고 있을지도 모르겠네요.",
+			say = "그 이상한 환상은 허밋의 능력이에요. 아마도 데빌이 이미 본체 공간을 컨트롤하고 있을지도 모르겠네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1655,7 +1655,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "META화 침식을 이용한 공격이라면, 우린 지금까지 세이렌 중 디벨로만 이러한 공격 방식을 가지고 있다는 걸 발견했어요.",
+			say = "META화 침식을 이용한 공격이라면, 우린 지금까지 세이렌 중 데빌만 이러한 공격 방식을 가지고 있다는 걸 발견했어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1672,7 +1672,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "현재 디벨로의 특별한 상태 때문인지 모르겠지만요….",
+			say = "현재 데빌의 특별한 상태 때문인지 모르겠지만요….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1707,7 +1707,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "어쨌든 디벨로의 상태는 매우 위험해요. 현재 우리 함대가 상대할 수 있는 상황이 아닙니다.",
+			say = "어쨌든 데빌의 상태는 매우 위험해요. 현재 우리 함대가 상대할 수 있는 상황이 아닙니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1

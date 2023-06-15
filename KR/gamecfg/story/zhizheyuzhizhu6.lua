@@ -712,7 +712,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그럼 어디 한번 생각해 보자……. 울리히 각하를 노린 공격이라면, 일단 그녀부터——",
+			say = "그럼 어디 한번 생각해 보자……. 울리히를 노린 공격이라면, 일단 그녀부터——",
 			painting = {
 				alpha = 0.3,
 				time = 1

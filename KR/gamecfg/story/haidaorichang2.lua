@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "지휘관, 인근 해역에 갑자기 천둥과 폭풍이 발생했어요!",
+			say = "지휘관님, 인근 해역에 갑자기 천둥과 폭풍이 발생했어요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "지휘관, 배에 계속 있다간 침몰할 위험이 있어요…. 우선 저 섬으로 피신하는 게 좋을 것 같습니다!",
+			say = "지휘관님, 배에 계속 있다간 침몰할 위험이 있어요…. 우선 저 섬으로 피신하는 게 좋을 것 같습니다!",
 			painting = {
 				alpha = 0.3,
 				time = 1

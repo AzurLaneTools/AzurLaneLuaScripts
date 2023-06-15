@@ -62,7 +62,7 @@ return {
 			side = 2,
 			actor = 401990,
 			dir = 1,
-			say = "홍홍홍, 또 안맞았지롱!",
+			say = "흥흥, 또 안맞았지롱!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "레겐스부르크, 알벤슬레벤, 야드. 너희들은 즈이카쿠 양과 협동해서 대공 작전을 펼친다.",
+			say = "레겐스부르크, 알벤슬레벤, 야드, 너희들은 즈이카쿠 양과 협동해서 대공 작전을 펼쳐.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "울리히와 그나이제나우는 나와 함께 저것을 파괴한다!",
+			say = "울리히와 그나이제나우는 나와 함께 그거를 파괴하자!",
 			painting = {
 				alpha = 0.3,
 				time = 1

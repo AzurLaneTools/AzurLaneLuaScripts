@@ -643,7 +643,7 @@ return {
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "오홍홍~ 도망치지 않고 나한테 직접 도전하는 건가~",
+			say = "흐흥~ 도망치지 않고 나한테 직접 도전하는 건가~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

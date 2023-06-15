@@ -38,14 +38,14 @@ function slot0.GetExpBuffs(slot0)
 	return slot1
 end
 
-function slot0.GetShipBuffs()
-	slot0 = nil
+function slot0.GetShipBuffs(slot0)
+	slot1 = nil
 
-	if system == SYSTEM_SCENARIO or system == SYSTEM_ROUTINE or system == SYSTEM_ACT_BOSS or system == SYSTEM_HP_SHARE_ACT_BOSS or system == SYSTEM_SUB_ROUTINE or system == SYSTEM_WORLD then
-		slot0 = getProxy(ActivityProxy):getBuffShipList()
+	if slot0 == SYSTEM_SCENARIO or slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_ACT_BOSS or slot0 == SYSTEM_HP_SHARE_ACT_BOSS or slot0 == SYSTEM_SUB_ROUTINE or slot0 == SYSTEM_WORLD then
+		slot1 = getProxy(ActivityProxy):getBuffShipList()
 	end
 
-	return slot0
+	return slot1
 end
 
 function slot1()

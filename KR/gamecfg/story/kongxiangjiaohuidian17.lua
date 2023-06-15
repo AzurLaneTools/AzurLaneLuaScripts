@@ -379,7 +379,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그러고보니 울리히가 꿈속에서 빛의 부름을 받은 것 같다고 언급한 것이 떠올랐다.",
+			say = "그러고보니 울리히가 꿈속에서 빛의 부름을 받은 것 같다고 얘기했었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -618,7 +618,7 @@ return {
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "큰일 났어, 비스마르크 님! 어서 일어나봐!",
+			say = "큰일 났어, 비스마르크 언니! 어서 일어나봐!",
 			painting = {
 				alpha = 0.3,
 				time = 1

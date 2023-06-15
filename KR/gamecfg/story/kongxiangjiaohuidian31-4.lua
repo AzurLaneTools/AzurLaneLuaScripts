@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = ">'대행자 XV 시스템' 지휘 권한 획득 완료.",
+			say = ">'인포서 XV 시스템' 지휘 권한 획득 완료.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			actorName = "U-556·META？",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "이전에 베스탈 양이 준 정보에 따르면, 디벨로 산하의 두 대행자로 확인 돼!",
+			say = "이전에 베스탈 양이 준 정보에 따르면, 데빌의 두 인포서로 확인 돼!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actorName = "U-556·META？",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#ffa500",
-			say = "게다가 엄청 많아! 이곳에서 우릴 기다리고 있었던 것 같아!",
+			say = "그리고 수량이 엄청 많아! 이곳에서 우릴 기다리고 있었던 것 같아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "(드디어 직속 부대를 보낸 건가, 디벨로)",
+			say = "(드디어 직속 부대를 보낸 건가, 데빌)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "안티오코스, 과거의 난 당신들이 날 위해 준비한 운명에 굴복하지 않았죠.",
+			say = "안티엑스, 과거의 난 너희들이 날 위해 준비한 운명에 굴복하지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "하지만 이번에도, 그럴 일은 없어요.",
+			say = "이번에도, 그럴 일은 없어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			actorName = "비스마르크Zwei",
 			bgName = "bg_bsmre_cg12",
 			nameColor = "#A9F548FF",
-			say = "이 몸과 힘이 바로 나의 깨달음이에요.",
+			say = "이 몸과 힘이 바로 나의 각오다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "디벨로의 강화가 있어도 이 정도 피해 앞에선 어쩔 수 없었다.",
+			say = "데빌의 강화가 있어도 이 정도 피해 앞에선 어쩔 수 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

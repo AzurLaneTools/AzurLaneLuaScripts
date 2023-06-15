@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "후후, 지휘관… 아무 말도 안할 거야?",
+			say = "후후, 지휘관님… 기다리겠습니다~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "광물 채집 시설과 목재 채집 시설도 이미 자리 잡았습니다.",
+			say = "광물 채집 시설과 목재 채집 시설도 이미 준비되었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "현재 매일 2시간씩 가동되고 있으며, 산업 관광지 방식으로 운영 중이에요.",
+			say = "현재 매일 2시간씩 가동되고 있고, 산업 관광지 방식으로 운영 중이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "당연하지! 홍홍홍, 그건 바로——— 역시 이 자리에선 일단 말하지 않는 게 좋겠어.",
+			say = "당연하지! 흥흥, 그건 바로——— 역시 이 자리에선 일단 말하지 않는 게 좋겠어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "홍홍홍~ 역시 센스쟁이야! 이럴 땐 축하 파티가 빠질 수 없지!",
+			say = "오호~ 역시 센스쟁이야! 이럴 땐 축하 파티가 빠질 수 없지!",
 			painting = {
 				alpha = 0.3,
 				time = 1

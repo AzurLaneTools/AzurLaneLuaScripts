@@ -163,7 +163,7 @@ return {
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "지휘관님, 이것도 한번 드셔보세요. 오늘 제가 가장 자신있게 선보이는 메뉴랍니다~",
+			say = "주인님, 이것도 한번 드셔보세요. 오늘 제가 가장 자신있게 선보이는 메뉴랍니다~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

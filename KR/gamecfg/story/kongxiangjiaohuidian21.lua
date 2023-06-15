@@ -899,7 +899,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "비스마르크 각하, 즉시 수색 명령을 내려줘!",
+			say = "비스마르크, 즉시 수색 명령을 내려줘!",
 			painting = {
 				alpha = 0.3,
 				time = 1

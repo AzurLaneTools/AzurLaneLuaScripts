@@ -468,11 +468,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "소비에츠키 소유즈",
+			actorName = "소비에츠카야 러시아",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "하루 만에 근사한 거점을 만들어내다니, 역시 대단한걸요~",
+			say = "하루 만에 근사한 거점을 만들어내다니, 역시 대단하네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

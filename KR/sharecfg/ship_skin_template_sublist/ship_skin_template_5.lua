@@ -1,240 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
-	[201120] = {
-		ship_group = 20112,
-		name = "포춘",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 201120,
-		group_index = 0,
-		prefab = "mingyunnvshen",
-		painting = "mingyunnvshen",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 0,
-		illustrator = 13,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "F급 구축함·포춘 (H70)",
-		voice_actor = 75,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.129,
-					0.726,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.651,
-					0.537,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.129,
-					0.726,
-					0
-				},
-				{
-					0.703,
-					0.514,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.655,
-							0.35,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.456,
-							0.371,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201121] = {
-		ship_group = 20112,
-		name = "하늘 아래 운명의 명주실",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 201121,
-		group_index = 1,
-		prefab = "mingyunnvshen_2",
-		painting = "mingyunnvshen_2",
-		shop_id = 70604,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 7,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "1101",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "날씨가 좋으니까, 뭘 해도 잘 풀릴 것 같아요. 모두들 아름다운 하루를 보내길 바래요… 앗! 이 아이가 넘어졌네요? … 괜찮아요?",
-		voice_actor = 75,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.12,
-					1.11,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.19,
-					1.55,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.55,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[201129] = {
 		ship_group = 20112,
 		name = "포춘·改",
@@ -11132,6 +10898,351 @@ pg.base.ship_skin_template_5 = {
 						{
 							-0.36,
 							2.38,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202191] = {
+		ship_group = 20219,
+		name = "무궁화가 핀 풍경",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202191,
+		group_index = 1,
+		prefab = "niukasier_2",
+		painting = "niukasier_2",
+		shop_id = 70107,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9999,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "이 옷, 살짝 눈에 띄는 거 같습니다만……예, 당신만 좋아해 주신다면 그것만으로 기쁘게 생각합니다. ",
+		voice_actor = 150,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.2,
+					0.52,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.2,
+					0.53,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.21,
+					0.51,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.22,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202199] = {
+		ship_group = 20219,
+		name = "뉴캐슬·改",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202199,
+		group_index = 9,
+		prefab = "niukasier_g",
+		painting = "niukasier_g",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 9997,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "이게 새로운 제복이군요. 어떠세요, 만족하시나요? ……후훗, 그 기뻐하시는 모습을 보니, 저도 조금 흥분해 버렸어요. ",
+		voice_actor = 150,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.256,
+					0.914,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.238,
+					0.887,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.13,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.264,
+					0.914,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.383,
+							2.486,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202210] = {
+		ship_group = 20221,
+		name = "퀴라소 ",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 202210,
+		group_index = 0,
+		prefab = "kulasuo",
+		painting = "kulasuo",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "세레스급 경순양함 - 퀴라소 (HMS Curacoa) ",
+		voice_actor = 171,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.972,
+					0.746,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.972,
+					0.756,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.962,
+					0.746,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.492,
+							2.245,
 							0
 						}
 					}

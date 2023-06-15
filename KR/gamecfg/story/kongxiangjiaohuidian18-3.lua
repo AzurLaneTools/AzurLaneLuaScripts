@@ -216,7 +216,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그나이제나우, 새로 생긴 것들은 너에게 맡긴다….",
+			say = "그나이제나우, 새로 생긴 것들은 너에게 맡길게….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "잠깐, 비스마르크 각하. 미드가르드 탑을 계속 작동하면 중재 기관의 본체가 있는 곳으로 전송될지도 몰라.",
+			say = "잠깐, 비스마르크. 미드가르드 탑을 계속 작동하면 중재 기관의 본체가 있는 곳으로 전송될지도 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1

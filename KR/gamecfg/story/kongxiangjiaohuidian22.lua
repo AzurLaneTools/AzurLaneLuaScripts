@@ -449,7 +449,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "모래가 미드가르드 탑에 따라 움직이다가 중심점을 지나면서 색이 변한다….",
+			say = "모래가 미드가르드 탑에 따라 움직이다가 중심점을 지나면서 색이 변했어….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "아, 네. 울리히 각하께서는 계속 잠든 상태였으니, 기억 나지 않는 게 정상입니다.",
+			say = "아, 울리히는 계속 잠든 상태였으니, 기억 나지 않는 것도 어쩔 수 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "우리가 당신을 뒤쫓아왔을 때, 바다에는 '레드 존'이 없었어요.",
+			say = "우리가 당신을 뒤쫓아왔을 때, 바다에는 '레드 존'이 없었어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "에? 큐브라면, 저와 그나이제나우·META 양이 이곳에 처음 왔을 때부터 있었는데요?",
+			say = "에? 큐브라면, 나와 그나이제나우·META 양이 이곳에 처음 왔을 때부터 있었는데?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "(울리히가 꿈속에서 탑을 작동시키자 미드가르드 탑의 즈이카쿠 일행이 큐브를 발견했고, 당시 레드 존은 발견되지 않았어.)",
+			say = "(울리히가 꿈속에서 탑을 작동시키고, 미드가르드 탑을 통과하는 즈이카쿠 일행이 큐브를 발견했지만, 레드 존은 발견되지 않았어.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,7 +689,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "(붉은 바닷물에는 META화 침식의 기운이 존재한다...)",
+			say = "(그리고 붉은 바닷물에는 META화 침식의 기운이 존재하고 있어...)",
 			painting = {
 				alpha = 0.3,
 				time = 1

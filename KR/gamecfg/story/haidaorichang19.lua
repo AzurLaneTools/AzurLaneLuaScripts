@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701030,
-			say = "소유즈, 이것 좀 보세요….",
+			say = "러시아, 이것 좀 봐봐….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "지도에는 표시되어 있지 않은데, 여기 갈림길이 있어요.",
+			say = "지도에는 표시되어 있지 않은데, 여기 갈림길이 있네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "간이 지도를 더 정확하게 만드는 것도 우리의 임무 중 하나겠죠.",
+			say = "간이 지도를 더 정확하게 만드는 것도 우리의 임무 중 하나지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "흐음… 자, 빈칸을 채웠어요.",
+			say = "흐음… 자, 빈칸 채우 완료.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "맞아요. 필요한 자원을 모으기 위해 이곳에 조사를 온 건 수많은 목적 중 하나일 뿐이에요.",
+			say = "맞아. 필요한 자원을 모으기 위해 이곳에 조사를 온 건 수많은 목적 중 하나일 뿐이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "더 중요한 건 이 숲의 생태 구조를 파악하고 건설 가능한 지역, 채집 가능한 지역 및 보호해야 할 지역을 지정하는 것입니다.",
+			say = "더 중요한 건 이 숲의 생태 구조를 파악하고 건설 가능한 지역, 채집 가능한 지역 및 보호해야 할 지역을 지정하는 것이야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "그리고… 숨겨진 위험을 철저히 제거해야 해요.",
+			say = "그리고… 숨겨진 위험을 철저히 제거해야 돼.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "정신 차리세요. 이미 기본적인 조사가 한번 이루어졌지만, 누락된 부분이 있을지도 모르거든요.",
+			say = "정신 차려. 이미 기본적인 조사가 한번 이루어졌지만, 누락된 부분이 있을지도 모르거든.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "항상 경계해야 해요. 곳곳에 많은 위협이 도사리고 있을지도 몰라요.",
+			say = "항상 경계해야 돼. 곳곳에 많은 위협이 도사리고 있을지도 몰라.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "숲에서 활동하는 각종 독벌레, 독사와 같은 작은 생물들은 정찰기로 발견할 수 없어요.",
+			say = "숲에서 활동하는 각종 독벌레, 독사와 같은 작은 생물들은 정찰기로 발견할 수 없잖아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "——발을 휘감아서 목표물을 사냥하는 덩굴을 조심하라고 했어요.",
+			say = "——발을 휘감아서 목표물을 사냥하는 덩굴을 조심하라고 했잖아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "소브라디텔듸가 지금 밟은 것처럼 말이죠.",
+			say = "소브라디텔듸가 지금 밟은 것처럼 말이지..",
 			painting = {
 				alpha = 0.3,
 				time = 1

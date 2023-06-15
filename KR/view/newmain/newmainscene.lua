@@ -21,7 +21,7 @@ end
 function slot0.ResUISettings(slot0)
 	return {
 		showType = PlayerResUI.TYPE_ALL,
-		anim = not slot0.isInit,
+		anim = not slot0.resAnimFlag,
 		weight = LayerWeightConst.BASE_LAYER + 1
 	}
 end
@@ -53,11 +53,21 @@ function slot0.PlayBgm(slot0, slot1)
 	end
 end
 
+function slot0.ShowOrHideResUI(slot0, slot1)
+	if not slot0.isInit then
+		return
+	end
+
+	uv0.super.ShowOrHideResUI(slot0, slot1)
+end
+
 function slot0.init(slot0)
 	slot0:Register()
 
 	slot0.mainCG = GetOrAddComponent(slot0:findTF("main"), typeof(CanvasGroup))
 	slot0.mainCG.alpha = 0
+	slot0.isInit = false
+	slot0.resAnimFlag = false
 	slot0.panels = {
 		MainTopPanel.New(slot0:findTF("main/frame/top"), slot0.event, slot0.contextData),
 		MainRightPanel.New(slot0:findTF("main/frame/right"), slot0.event, slot0.contextData),
@@ -92,11 +102,6 @@ function slot0.Register(slot0)
 end
 
 function slot0.didEnter(slot0)
-	if slot0.isInit then
-		return
-	end
-
-	slot0.isInit = true
 	slot0.mainCG.blocksRaycasts = false
 	slot1 = nil
 
@@ -105,9 +110,18 @@ function slot0.didEnter(slot0)
 			uv0.awakeSequenceView:Execute(slot0)
 		end,
 		function (slot0)
-			uv0 = uv1:GetFlagShip()
+			uv0.isInit = true
+			uv1 = uv0:GetFlagShip()
 
-			uv1.bgView:Init(uv0)
+			uv0.bannerView:Init()
+			uv0.actBtnView:Init()
+			uv0:PlayEnterAnimation(slot0)
+			uv0:ShowOrHideResUI(true)
+
+			uv0.resAnimFlag = true
+		end,
+		function (slot0)
+			uv0.bgView:Init(uv1)
 			onNextTick(slot0)
 		end,
 		function (slot0)
@@ -120,13 +134,10 @@ function slot0.didEnter(slot0)
 			uv0.paintingView:Init(uv1, true)
 			uv0.effectView:Init(uv1)
 			uv0.chatRoomView:Init()
-			uv0.bannerView:Init()
-			uv0.actBtnView:Init()
 			uv0.buffView:Init()
 			onNextTick(slot0)
 		end,
 		function (slot0)
-			uv0:PlayEnterAnimation()
 			uv0:BlurView()
 			uv0.sequenceView:Execute(slot0)
 		end
@@ -135,13 +146,14 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.PlayEnterAnimation(slot0)
+function slot0.PlayEnterAnimation(slot0, slot1)
 	slot0.adpterView:Init()
 	slot0:_FoldPanels(true, 0)
 
 	slot0.mainCG.alpha = 1
 
 	slot0:_FoldPanels(false, 0.5)
+	onDelayTick(slot1, 0.51)
 end
 
 function slot0.BlurView(slot0)

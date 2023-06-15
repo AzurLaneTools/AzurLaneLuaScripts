@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "저건 카펫이 아니라… 부서진 마인드 큐브?!",
+			say = "저건 카펫이 아니라… 부서진 성정 큐브?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xiangting_0",
-			say = "수많은 부서진 마인드 큐브가 소녀의 곁에 널부러져 있어 멀리서 보면 마치 영롱한 카펫 같았다.",
+			say = "수많은 부서진 성정 큐브가 소녀의 곁에 널부러져 있어 멀리서 보면 마치 영롱한 카펫 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xiangting_0",
-			say = "혼잣말을 하던 소녀는 갑자기 미친듯이 두 손으로 마인드 큐브의 조각을 뒤졌다.",
+			say = "혼잣말을 하던 소녀는 갑자기 미친듯이 두 손으로 성정 큐브의 조각을 뒤졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "악몽 속 환상이라기보다는… 악몽에 갇힌 사람 같았다.",
+			say = "이 상태는 악몽 속 환상이라는 게보다… 악몽에 갇힌 사람이라고 더 적절해",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -789,7 +789,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "당신의 마인드 큐브는 심각하게 침식되었어요.",
+			say = "당신의 성정 큐브는 심각하게 침식되었어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -825,7 +825,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "하지만 당신은 마인드 큐브가 손상되는 것을 방지하기 위해 이러한 침식을 주기적으로 외부에 전가하고 있죠.",
+			say = "하지만 당신은 성정 큐브가 손상되는 것을 방지하기 위해 이러한 침식을 주기적으로 외부에 전가하고 있죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1

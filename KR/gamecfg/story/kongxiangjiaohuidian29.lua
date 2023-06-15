@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "하지만 디벨로가 방해하러 올지도 모르죠.",
+			say = "하지만 데빌이 방해하러 올지도 모르죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "디벨로의 본체는 허밋의 본체와 싸우는 데 전념하고 있을 가능성이 높아요.",
+			say = "데빌의 본체는 허밋의 본체와 싸우는 데 전념하고 있을 가능성이 높아요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "디벨로는 지원형 중재기관으로 주요 능력은…",
+			say = "데빌은 지원형 중재기관으로 주요 능력은…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "디벨로가 공간 통제권을 완전히 손에 넣기 전에, 관리기를 마비시켜야 합니다.",
+			say = "데빌이 공간 통제권을 완전히 손에 넣기 전에, 관리기를 마비시켜야 합니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "관리기의 권한을 모두 디벨로에게 빼앗긴다면, 마비시키는 건 의미가 없어요.",
+			say = "관리기의 권한을 모두 데빌에게 빼앗긴다면, 마비시키는 건 의미가 없게 되죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -834,7 +834,7 @@ return {
 			dir = 1,
 			actorName = "U-556·META？",
 			side = 2,
-			say = "그러니까 아직은 전투력이 없는 트롤이 될 순 없어!",
+			say = "그러니까 아직은 싸울 수 없는 짐덩이가 될 순 없어!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_11",
-			say = "거꾸로 떠 있는 도시에서 비스마르크 Z는 융기된 고리가 해역의 거대한 큐브와 연결되어 있는 것을 확인할 수 있었다.",
+			say = "거꾸로 떠 있는 도시에서 비스마르크는 융기된 고리가 해역의 거대한 큐브와 연결되어 있는 것을 확인할 수 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "...대행자 함대가 에워싸고 있는데, 아직 싸울 수 있겠어?",
+			say = "...인포서 함대가 모이고 있는데, 아직 싸울 수 있겠어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,7 +702,7 @@ return {
 			bgName = "bg_bsmre_13",
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "죽고 싶어 환장한 거예요?!",
+			say = "당신 둘이 죽고 싶어요?!!!!!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1951,7 +1951,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "——아비터·토바·XVI.",
+			say = "——아비터·타워·XVI.",
 			painting = {
 				alpha = 0.3,
 				time = 1

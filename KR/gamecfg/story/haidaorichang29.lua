@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "홍홍홍, 곧 있으면 정상에 도착이야~",
+			say = "흥흥, 곧 있으면 정상에 도착이야~",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "비스마르크 각하는 이걸 통해 가까이에서 적의 성질을 분석하려는 생각인 거야….",
+			say = "비스마르크는 이걸 통해 가까이에서 적의 성질을 분석하려는 생각인 거야….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "각하가 그녀의 임무에 전념할 수 있도록 모두 내 명령에 따라 전투를 준비해!",
+			say = "비스마르크가 그녀의 임무에 전념할 수 있도록 모두 내 명령에 따라 전투를 준비해!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			actorName = "게리온",
 			bgName = "bg_bsmre_7",
 			nameColor = "#ffa500",
-			say = "▂▅▆▇████*경계하듯 작게 소리 낸다.*▌█",
+			say = "▁▂▃▄▅▆▇███*찬성하듯 작게 소리 낸다.*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			bgName = "bg_bsmre_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "...알겠어. 작전 변경이다. 한바탕 소란을 피워보자고. 모두 울리히를 도와 모든 적을 제거해!",
+			say = "...알겠어. 작전 변경. 한바탕 소란을 피워보자고. 모두 울리히를 도와 모든 적을 제거하자!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -39,7 +39,7 @@ function slot0.Adjustion(slot0)
 end
 
 function slot1(slot0)
-	if PlayerPrefs.GetInt(BATTLERESULT_SKIP_DISPAY_PAINTING, 0) <= 0 then
+	if getProxy(SettingsProxy):IsDisplayResultPainting() then
 		return
 	end
 

@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "후후~ 거의 다 왔어, 지휘관~",
+			say = "후후~ 거의 다 왔어요, 지휘관님~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "지휘관, 지금 몸 상태 어때?",
+			say = "지휘관님, 지금 몸 상태 어때요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "히히, 옷 안 갈아입을 거야?",
+			say = "히히, 옷 안 갈아입어요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "이제 온천에 들어가야지~?",
+			say = "이제 온천에 들어가야 하잖아요~?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "설마 아카기가 도와주길 기다리는 거야?",
+			say = "설마 아카기가 도와드릴 기다리는 거예요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "…치, 건축 자재를 채집하러 간 거 아니였어?",
+			say = "…치, 건축 재료를 채집하러 간 거 아니였어?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "당신을 독차지할 생각이었는데… 쯧, 아쉽게 됐군.",
+			say = "지휘관님을 독차지할 생각이었는데…후, 아쉽네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "목격한 바와 같아. 그래서 지휘관, 이제 어떻게 할거야?",
+			say = "보시다시피 지휘관님, 그래서 이제 어떻게 하시겠어요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,7 +625,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "정말 미안… 다음엔 절대 방해받지 않는 시간에 초대해줄게~",
+			say = "정말 미안해요… 다음엔 절대 방해받지 않는 시간에 초대해 줄게요~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "지휘관이 그렇다면, 가끔은… 이렇게 다같이 놀아도 나쁘지 않지.",
+			say = "지휘관님이 그렇다면, 가끔은… 이렇게 다같이 놀아도 나쁘지 않죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "후배님들, 설마 지휘관의 호의를 저버릴 생각은 아니겠지?",
+			say = "후배들, 설마 지휘관의 호의를 저버릴 생각은 아니겠지?",
 			painting = {
 				alpha = 0.3,
 				time = 1

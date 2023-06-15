@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "이게 바로 META화예요.",
+			say = "이게 바로 META화야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "겉모습과 의장은 물론이고 우리의 마음까지 바꿔놓죠.",
+			say = "겉모습과 의장은 물론이고 우리의 마음까지 바꿔놓지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "비스마르크 각하, 전투 상황에 변화가 생겼어. U-556에게 문제가 생긴 것 같아.",
+			say = "비스마르크, 전투 상황에 변화가 생겼어. U-556에게 문제가 생긴 것 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "갑자기 나타난 저건, 대행자 함대 맞지?",
+			say = "갑자기 나타난 저건, 인포서 함대 맞지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "대행자…?!",
+			say = "인포서…?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "앗! 저 모델은 제가 알아요. 대행자 IX 'Exploration', 허밋의 대행자예요!",
+			say = "앗! 저 모델은 내가 알아. 대행자 IX 'Exploration', 허밋의 인포서!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "허밋, 중재 기관의 대행자라….",
+			say = "허밋, 중재 기관의 인포서….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "비스마르크 님, U-556은 이미 대행자에게 포위되었습니다! 그녀 혼자 이렇게 많은 적을 상대할 순 없을 거예요!",
+			say = "비스마르크 님, U-556은 이미 인포서에게 포위되었습니다! 그녀는 혼자 이렇게 많은 적을 상대할 순 없을 거예요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1180,7 +1180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "그 후 스스로 목표물을 선택해 행동하고, 둘이 있는 곳에서 최대한 먼 곳까지 적을 유인한다.",
+			say = "그 후 스스로 목표물을 선택해 행동하고, 둘이 있는 곳에서 최대한 먼 곳까지 적을 유인해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1198,7 +1198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "명심해. 작전의 목표는 적의 주의를 끄는 것. 비스마르크 각하께서 임무를 완수하기 전까지 반드시 그녀를 위해 충분한 시간과 공간을 확보해야 한다.",
+			say = "명심해. 작전의 목표는 적의 주의를 끄는 것. 비스마르크가 임무를 완수하기 전까지 반드시 그녀를 위해 충분한 시간과 공간을 확보해야 돼.",
 			painting = {
 				alpha = 0.3,
 				time = 1

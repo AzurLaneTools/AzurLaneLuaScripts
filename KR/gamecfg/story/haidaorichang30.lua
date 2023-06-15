@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "어서와~ 약속대로 왔네? 지휘관.",
+			say = "어서오세요~ 약속대로 오셨네요? 지휘관님.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "에… 원래 오늘의 온천은 지휘관만을 위한 것이였는데,",
+			say = "… 원래 오늘의 온천은 지휘관님만을 위한 것이였는데,",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "아쉽게도 항상 눈치 없는 사람들 때문에, 이번에도… 계획이 수포로 돌아갔어.",
+			say = "아쉽게도 항상 눈치 없는 사람들 때문에, 이번에도… 모든 사람을 초대하게 되었어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "쯧… 모처럼 단둘이 있을 수 있는 기회였는데 또 눈치 없는 아이들 때문에 망쳐버렸지 뭐야.",
+			say = "… 모처럼 단둘이 있을 수 있는 기회였는데 또 눈치 없는 아이들 때문에 망쳐버렸어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "어쩔 수 없지. 지휘관, 옷 갈아입고나와. 온천 구경을 시켜줄게.",
+			say = "어쩔 수 없죠, 지휘관님. 먼저 옷을 갈아입으세요, 그다음에 온천 구경을 모실게요.",
 			painting = {
 				alpha = 0.3,
 				time = 1

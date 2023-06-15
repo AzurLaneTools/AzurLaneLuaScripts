@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "\"들어보세요. 모두가 이야기를 나누고 있습니다.\"",
+			say = "\"들어주소서. 그들이 서로에게 말하고 있습니다.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "\"그들은 벽돌을 돌로 삼을 것이고, 아스팔트를 진흙으로 삼을 것입니다.\"",
+			say = "\"이에 벽돌로 돌을 대신하며, 역청으로 진흙을 대신할려 합니다.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "\"그들은 도시를 세우고, 탑을 쌓을 것입니다.\"",
+			say = "\"그들은 도시와 탑을 건설할 것입니다.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "\"넓은 도시와, 하늘 높이 솟아오른 탑.\"",
+			say = "\"거대한 도시와, 하늘에 닿을 듯한 탑.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "———허락해 주실 수 있나요?",
+			say = "———당신께서는 이런 일을 허용하실 수 있으십니까?",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -139,7 +139,7 @@ _G.pg.base.world_event_data[3] = {
 
 _G.pg.base.world_event_data[20] = {
 	visuality = 0,
-	name = "特殊剧情触发",
+	name = "특별 스토리 오픈 ",
 	compass_index = 3,
 	expedition_icon = 0,
 	enemyicon = 0,
@@ -37423,7 +37423,7 @@ _G.pg.base.world_event_data[25210] = {
 
 _G.pg.base.world_event_data[26000] = {
 	visuality = 0,
-	name = "特殊剧情触发",
+	name = "특별 스토리 오픈 ",
 	compass_index = 0,
 	expedition_icon = 0,
 	enemyicon = 0,
@@ -37824,7 +37824,7 @@ _G.pg.base.world_event_data[26040] = {
 
 _G.pg.base.world_event_data[26050] = {
 	visuality = 0,
-	name = "特殊剧情触发",
+	name = "특별 스토리 오픈 ",
 	compass_index = 3,
 	expedition_icon = 0,
 	enemyicon = 0,
@@ -37868,7 +37868,7 @@ _G.pg.base.world_event_data[26050] = {
 
 _G.pg.base.world_event_data[26051] = {
 	visuality = 0,
-	name = "特殊剧情触发",
+	name = "특별 스토리 오픈 ",
 	compass_index = 3,
 	expedition_icon = 0,
 	enemyicon = 0,
@@ -37915,7 +37915,7 @@ _G.pg.base.world_event_data[26051] = {
 
 _G.pg.base.world_event_data[26100] = {
 	visuality = 0,
-	name = "特殊剧情触发",
+	name = "특별 스토리 오픈 ",
 	compass_index = 0,
 	expedition_icon = 0,
 	enemyicon = 0,
@@ -37956,7 +37956,7 @@ _G.pg.base.world_event_data[26100] = {
 
 _G.pg.base.world_event_data[26110] = {
 	visuality = 0,
-	name = "特殊剧情触发",
+	name = "특별 스토리 오픈 ",
 	compass_index = 3,
 	expedition_icon = 0,
 	enemyicon = 0,
@@ -38002,7 +38002,7 @@ _G.pg.base.world_event_data[26110] = {
 
 _G.pg.base.world_event_data[26120] = {
 	visuality = 0,
-	name = "特殊剧情触发",
+	name = "특별 스토리 오픈 ",
 	compass_index = 3,
 	expedition_icon = 0,
 	enemyicon = 0,

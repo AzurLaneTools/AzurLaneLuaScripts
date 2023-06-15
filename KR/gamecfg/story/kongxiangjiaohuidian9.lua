@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "에?! 난, 난 괜찮아요!",
+			say = "에?! 난, 난 괜찮아!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "저, 당신, 당신은 비스마르크 각하 맞죠!?",
+			say = "당신, 당신은 비스마르크 맞지!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그런데, 그… 그 의장은 대체 뭐죠!?",
+			say = "그런데, 그… 그 의장은 대체 뭐지!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이것이야말로 힘을 회복한 당신의 진정한 실력인 건가요!?",
+			say = "이것이야말로 힘을 회복한 당신의 진정한 실력인 건가!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "다행이네요, 그럼 걱정하지 않아도 되겠어요….",
+			say = "다행이네, 그럼 걱정하지 않아도 되겠어….",
 			painting = {
 				alpha = 0.3,
 				time = 1

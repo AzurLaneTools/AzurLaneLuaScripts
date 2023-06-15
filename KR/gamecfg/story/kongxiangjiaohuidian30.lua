@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "베스탈의 말에 의하면… 디벨로가 이미 모든 통제권을 손에 넣었다면 허밋의 관리기를 마비시키는 것은 더 이상 의미가 없어.",
+			say = "베스탈의 말에 의하면… 데빌이 이미 모든 통제권을 손에 넣었다면 허밋의 관리기를 마비시키는 것은 더 이상 의미가 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "이젠 디벨로의 본체와 싸워 이기는 수밖에 없는 거지?",
+			say = "이젠 데빌의 본체와 싸워 이기는 수밖에 없는 거지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "soo 정찰기가 허밋의 관리기를 발견했어. 미드가르드 방향이야, 우리와 멀지 않아.",
+			say = "내 정찰기가 허밋의 관리기를 발견했어. 미드가르드 방향이야, 우리와 멀지 않아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "세이렌은 META화할 수 없고, 너희도 디벨로의 케이스만 본 거 맞지?",
+			say = "세이렌은 META화할 수 없고, 너희도 데빌의 케이스만 본 거 맞지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "아까 디벨로의 상태에 대해 내부적으로 합의가 이루어지지 않았다고 했었잖아.",
+			say = "아까 데빌의 상태에 대해 내부적으로 합의가 이루어지지 않았다고 했었잖아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "…흐음, 디벨로가 여전히 정상이라고 보는 쪽이죠.",
+			say = "…흐음, 데빌이 여전히 정상이라고 보는 쪽이죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a020f0",
-			say = "양산형 기체라도 디벨로의 지원이 있다면, 상대하기 어려울 거예요….",
+			say = "양산형 기체라도 데빌의 지원이 있다면, 상대하기 어려울 거예요….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,7 +648,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "디벨로가 완전한 통제권을 손에 넣은 게 아니라 그렇게 보이기 위해 행동하는 거라면?",
+			say = "데빌이 완전한 통제권을 손에 넣은 게 아니라 그렇게 보이기 위해 행동하는 거라면?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -745,7 +745,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9712010,
-			say = "디벨로는 교활하고, 속임수를 사용하는 전술을 좋아해요….",
+			say = "데빌은 교활하고, 속임수를 사용하는 전술을 좋아해요….",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "지휘관도 숲에 가볼 생각인가요?",
+			say = "지휘관님도 숲에 가볼 생각인가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "후후~ 지휘관, 이만큼이면 오늘 밤은 문제 없겠죠!?",
+			say = "후후~ 지휘관님, 이만큼이면 오늘 밤은 문제 없겠죠!?",
 			painting = {
 				alpha = 0.3,
 				time = 1

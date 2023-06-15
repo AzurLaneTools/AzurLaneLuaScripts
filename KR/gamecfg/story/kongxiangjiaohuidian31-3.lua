@@ -78,7 +78,7 @@ return {
 			side = 2,
 			actorName = "아비터·허밋·IX？",
 			dir = 1,
-			say = ">기관 시스템 IX=XV 연계 지원 접속 - '디벨로 엔진', 출력 5% 입력.",
+			say = ">기관 시스템 IX=XV 연계 지원 접속 - '데빌 엔진', 출력 5% 입력.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -149,12 +149,6 @@ function slot0.Exit(slot0, slot1)
 		slot4:ClearRank(slot5.id)
 		slot4:UpdateHighestDamage(uv4)
 
-		slot7 = pg.m02
-
-		slot7:sendNotification(GAME.WORLD_BOSS_BATTLE_QUIT, {
-			id = uv2.bossId
-		})
-
 		uv2.statistics.mvpShipID = slot0.mvp
 
 		uv0:sendNotification(GAME.FINISH_STAGE_DONE, {

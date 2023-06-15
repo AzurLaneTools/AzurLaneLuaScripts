@@ -1,116 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103072] = {
-		ship_group = 10307,
-		name = "라이트 오브 서클 시티",
-		bullet_skin_secondary = "",
-		hand_id = 7,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "135",
-		id = 103072,
-		group_index = 2,
-		prefab = "bolisi_3",
-		painting = "bolisi_3",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 7,
-		illustrator = 10,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "아, 지휘관, 좋은 저녁이야. 스테이크 한 입 먹을래? 와인이랑 잘 어울려.",
-		voice_actor = 7,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.832,
-					1.24,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.721,
-					1.286,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.807,
-					1.157,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.566,
-							2.406,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[103080] = {
 		ship_group = 10308,
 		name = "아스토리아",
@@ -10835,6 +10725,212 @@ pg.base.ship_skin_template_3 = {
 						{
 							-0.14,
 							0.832,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107061] = {
+		ship_group = 10706,
+		name = "루돌프 마스터",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "100",
+		id = 107061,
+		group_index = 1,
+		prefab = "qiye_2",
+		painting = "qiye_2",
+		shop_id = 70025,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 1,
+		illustrator = 8,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관! 메리 크리스마스! 오늘의 난 산타클로스다. 그러니까, 자기 전에 제대로 양말을 난로쪽에 걸어두는 편이 좋을 거야. ",
+		voice_actor = 31,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.01,
+					1.38,
+					0
+				}
+			},
+			plane = {
+				{
+					1.01,
+					1.38,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.17,
+							2.91,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107062] = {
+		ship_group = 10706,
+		name = "블루밍 피어니 ",
+		bullet_skin_secondary = "",
+		hand_id = 9,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "102",
+		id = 107062,
+		group_index = 2,
+		prefab = "qiye_3",
+		painting = "qiye_3",
+		shop_id = 70149,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = 8,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "이것이 이스트 글림의 옷…… 생각했던 것보다 착용감이 좋군. 특제 의장궁도 있는 건가? 재밌군, 어디까지 꿰뚫을 수 있나 시험해 볼까! ",
+		voice_actor = 31,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.01,
+					1.38,
+					0
+				}
+			},
+			plane = {
+				{
+					1.01,
+					1.38,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.551,
+							2.421,
 							0
 						}
 					}

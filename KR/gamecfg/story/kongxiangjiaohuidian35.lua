@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "디벨로, 바빠?",
+			say = "데빌, 바빠?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "토바, 네가 올 줄은 몰랐는데.",
+			say = "타워, 네가 올 줄은 몰랐는데.",
 			painting = {
 				alpha = 0.3,
 				time = 1

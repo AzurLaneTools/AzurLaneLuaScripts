@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "그녀의 함장은 심하게 파손됐지만 눈빛은 여전히 빛났다.",
+			say = "그녀의 의장은 심하게 파손됐지만 눈빛은 여전히 빛났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			actor = 9704020,
 			nameColor = "#ffa500",
-			say = "어디 그뿐이야!? 심지어 자신의 본체와 통신할 수조차 없습니다!",
+			say = "그 이상이지! 자신의 본체와 통신조차 할 수 없는 상태다!",
 			painting = {
 				alpha = 0.3,
 				time = 1

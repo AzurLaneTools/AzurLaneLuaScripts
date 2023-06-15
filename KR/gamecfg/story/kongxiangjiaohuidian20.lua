@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "비스마르크 각하, 이 해역의 샘플을 채집할 필요가 있을 것 같아.",
+			say = "비스마르크, 이 해역의 샘플을 채집할 필요가 있을 것 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -821,7 +821,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "우린 가장 빠른 속도로 곧장 '레드 존'으로 향한다.",
+			say = "그냥 직진하고 가장 빠른 속도로 '레드 존'을 건너,",
 			painting = {
 				alpha = 0.3,
 				time = 1

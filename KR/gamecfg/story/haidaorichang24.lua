@@ -923,7 +923,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그리고 지휘관님, 왜 당신이 여기에 있는 거죠…!?",
+			say = "그리고 지휘관님, 왜 지휘관님이 여기에 있는 거죠…!?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1028,7 +1028,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "지휘관이 위험에 빠질까봐 먼저 들어오겠다고 한건데… 오는 길의 장치와 함정은 모두 둘이 미리 처리해준 건가요?",
+			say = "지휘관님이 위험에 빠질까봐 먼저 들어오겠다고 한건데… 오는 길의 장치와 함정은 모두 둘이 미리 처리해준 건가요?",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -1,212 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
-	[107061] = {
-		ship_group = 10706,
-		name = "루돌프 마스터",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "100",
-		id = 107061,
-		group_index = 1,
-		prefab = "qiye_2",
-		painting = "qiye_2",
-		shop_id = 70025,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 1,
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "지휘관! 메리 크리스마스! 오늘의 난 산타클로스다. 그러니까, 자기 전에 제대로 양말을 난로쪽에 걸어두는 편이 좋을 거야. ",
-		voice_actor = 31,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.01,
-					1.38,
-					0
-				}
-			},
-			plane = {
-				{
-					1.01,
-					1.38,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.17,
-							2.91,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[107062] = {
-		ship_group = 10706,
-		name = "블루밍 피어니 ",
-		bullet_skin_secondary = "",
-		hand_id = 9,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "102",
-		id = 107062,
-		group_index = 2,
-		prefab = "qiye_3",
-		painting = "qiye_3",
-		shop_id = 70149,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 3,
-		illustrator = 8,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "이것이 이스트 글림의 옷…… 생각했던 것보다 착용감이 좋군. 특제 의장궁도 있는 건가? 재밌군, 어디까지 꿰뚫을 수 있나 시험해 볼까! ",
-		voice_actor = 31,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.01,
-					1.38,
-					0
-				}
-			},
-			plane = {
-				{
-					1.01,
-					1.38,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.551,
-							2.421,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[107063] = {
 		ship_group = 10706,
 		name = "Anniversary Drive!",
@@ -6883,6 +6677,135 @@ pg.base.ship_skin_template_4 = {
 			}
 		}
 	},
+	[131172] = {
+		ship_group = 10117,
+		name = "레이지 데이타임",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 131172,
+		group_index = 12,
+		prefab = "lafei_12",
+		painting = "lafei_12",
+		illustrator = -1,
+		air_bullet_skin = "",
+		l2d_voice_calibrate = "",
+		shop_type_id = 7,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = "",
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70855,
+		desc = "아, 지휘관? 라피, 일부러 여기서 지휘관 기다린 거 아니야…. 응, 딱히 안 기다렸어. 그래도 지휘관, 왔으니까 라피랑 같이 있어줘….",
+		voice_actor = 35,
+		air_bomb_skin = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.25,
+					0.8,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.2,
+					1.45,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.43,
+							2.34,
+							-0.13
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-69,
+				-316,
+				0
+			},
+			{
+				0.92
+			}
+		},
+		special_effects = {
+			"lihui_lafei_12",
+			{
+				-78,
+				528,
+				0
+			},
+			{
+				1.4
+			}
+		}
+	},
 	[137030] = {
 		ship_group = 10703,
 		name = "컵라면 대사?",
@@ -10124,6 +10047,240 @@ pg.base.ship_skin_template_4 = {
 						{
 							-0.38,
 							2.28,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201120] = {
+		ship_group = 20112,
+		name = "포춘",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 201120,
+		group_index = 0,
+		prefab = "mingyunnvshen",
+		painting = "mingyunnvshen",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = 13,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "F급 구축함·포춘 (H70)",
+		voice_actor = 75,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.129,
+					0.726,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.651,
+					0.537,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.129,
+					0.726,
+					0
+				},
+				{
+					0.703,
+					0.514,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.655,
+							0.35,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.456,
+							0.371,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201121] = {
+		ship_group = 20112,
+		name = "하늘 아래 운명의 명주실",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 201121,
+		group_index = 1,
+		prefab = "mingyunnvshen_2",
+		painting = "mingyunnvshen_2",
+		shop_id = 70604,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 7,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "날씨가 좋으니까, 뭘 해도 잘 풀릴 것 같아요. 모두들 아름다운 하루를 보내길 바래요… 앗! 이 아이가 넘어졌네요? … 괜찮아요?",
+		voice_actor = 75,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.12,
+					1.11,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.19,
+					1.55,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.55,
 							0
 						}
 					}

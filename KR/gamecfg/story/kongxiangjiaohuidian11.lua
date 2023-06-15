@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "제 영광입니다. 당신을 위해 일하겠습니다. 비스마르크 각하.",
+			say = "물론이지, 비스마르크.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1060,7 +1060,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그런 생각하지 마세요, 비스마르크 각하!",
+			say = "아니야, 비스마르크!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1077,7 +1077,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "그 동안 공짜로 먹고 자고, 귀찮게 굴었으니 이젠 은혜를 조금이나마 갚을 때가 된 거죠!",
+			say = "그 동안 공짜로 먹고 자고, 귀찮게 굴었으니 이젠 은혜를 조금이나마 갚을 때가 된 거지!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1094,7 +1094,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이번 여행은 저도 끝까지 함께하겠습니다!",
+			say = "이번 여행은 저도 끝까지 함께 할게!",
 			painting = {
 				alpha = 0.3,
 				time = 1

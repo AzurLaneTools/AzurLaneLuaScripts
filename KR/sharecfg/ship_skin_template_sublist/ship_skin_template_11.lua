@@ -1,554 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
-	[305051] = {
-		ship_group = 30505,
-		name = "여우의 휴식",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "111",
-		id = 305051,
-		group_index = 1,
-		prefab = "changmen_2",
-		painting = "changmen_2",
-		shop_id = 70166,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 20,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "후, 오늘 지휘관을 초대할 것이니, 너희가 이 몸을 아름답게 꾸며주거라. 이 몸은, 후암...... 조금 졸립구나...... 왜 그리 시끄러운가? ......!? 지, 지휘관, 그대가 언제 거기에!",
-		voice_actor = 11,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.593,
-					0.988,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.571,
-					0.711,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.394,
-							2.446,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[305052] = {
-		ship_group = 30505,
-		name = "여우의 빛나는 후리소데",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "126",
-		id = 305052,
-		group_index = 2,
-		prefab = "changmen_3",
-		painting = "changmen_3",
-		shop_id = 70287,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 2,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "잘 왔다. 그대가 있으니 지루한 달맞이도 다소 흥미로워지겠지.——오늘은 여기서 푹 쉬어라.",
-		voice_actor = 11,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.593,
-					0.988,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.571,
-					0.711,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.394,
-							2.446,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[305053] = {
-		ship_group = 30505,
-		name = "여우의 여가 시간",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "142",
-		id = 305053,
-		group_index = 3,
-		prefab = "changmen_4",
-		painting = "changmen_4",
-		shop_id = 70523,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 20,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "밤샘 파티가 무엇인가? 평소에는 자주 무츠랑 같이 잤어도, 다른 사람이랑은 처음인데... 음... 조금 긴장되는군...",
-		voice_actor = 11,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.479,
-					0.988,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.479,
-					0.995,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.394,
-							2.446,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[305054] = {
-		ship_group = 30505,
-		name = "여우의 연회복",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "155",
-		id = 305054,
-		group_index = 4,
-		prefab = "changmen_5",
-		painting = "changmen_5",
-		shop_id = 70755,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 7,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "축제에 걸맞는 화려한 의상이기는 하다만, 내 평상복과 비교하면 너무도 다른 느낌이로구나…. 무츠나 대선배네도 칭찬해 줄 거라고? 그대가 그렇게까지 말하니 내 믿어주도록 하지…. 후후후.",
-		voice_actor = 11,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.151,
-					1.053,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.237,
-					1.312,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.755,
-							1.709,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[305058] = {
-		ship_group = 30505,
-		name = "여우의 백장속 ",
-		bullet_skin_secondary = "",
-		hand_id = 6,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 305058,
-		group_index = 8,
-		prefab = "changmen_h",
-		painting = "changmen_h",
-		shop_id = 0,
-		air_bullet_skin = "",
-		air_bomb_skin = "",
-		shop_type_id = 9998,
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "이렇게 소중한 사람을 기다리는 것도 제법 즐거운 일이구나… 후, 후후…… ",
-		voice_actor = 11,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.558,
-					1.444,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.145,
-					0.084,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.535,
-					1.375,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.394,
-							2.446,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[305060] = {
 		ship_group = 30506,
 		name = "무츠 ",
@@ -9515,6 +8967,107 @@ pg.base.ship_skin_template_11 = {
 			}
 		}
 	},
+	[307130] = {
+		ship_group = 30713,
+		name = "꼬마 다이호",
+		bullet_skin_secondary = "",
+		hand_id = 6,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 307130,
+		group_index = 0,
+		prefab = "dafeng_younv",
+		painting = "dafeng_younv",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "다이호급 항공모함 - 다이호",
+		voice_actor = -1,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.84,
+					0.97,
+					0
+				}
+			},
+			plane = {
+				{
+					0.83,
+					0.91,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[308010] = {
 		ship_group = 30801,
 		name = "이19",
@@ -10313,6 +9866,517 @@ pg.base.ship_skin_template_11 = {
 				{
 					0.7,
 					0.25,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[308040] = {
+		ship_group = 30804,
+		name = "이25 ",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 308040,
+		group_index = 0,
+		prefab = "I25",
+		painting = "I25",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "순잠 을형 잠수함 이25 ",
+		voice_actor = 121,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.9,
+					0.15,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.209,
+					0.03,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.42,
+							2.388,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[308041] = {
+		ship_group = 30804,
+		name = "토끼와 산호초",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 308041,
+		group_index = 1,
+		prefab = "I25_2",
+		painting = "I25_2",
+		shop_id = 70205,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 4,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관님, 안녕하세요. 이 옷이요...? 오늘은 수업 들으러 가야해서 입었어요. 지휘관님, 수업 참관 한번 해 보실래요?",
+		voice_actor = 121,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.02,
+					0.44,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.04,
+					0.666,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[308042] = {
+		ship_group = 30804,
+		name = "식혜의 신춘 축하",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "144",
+		id = 308042,
+		group_index = 2,
+		prefab = "I25_3",
+		painting = "I25_3",
+		shop_id = 70498,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 3,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관님 춘절 잘 보내셨나요! 여기 식혜가 있는데 드셔보실래요? 아, 도수는 낮지만 그래도 너무 많이 드시면 안 되는 거 아시죠?",
+		voice_actor = 121,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.266,
+					0.999,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.154,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.403,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[308050] = {
+		ship_group = 30805,
+		name = "이56 ",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 308050,
+		group_index = 0,
+		prefab = "I56",
+		painting = "I56",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 0,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "순잠 을형 改 2형 잠수함 이56 ",
+		voice_actor = 16,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.87,
+					0.319,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.088,
+					0.236,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.329,
+							2.323,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[308051] = {
+		ship_group = 30805,
+		name = "외톨이 해바라기",
+		bullet_skin_secondary = "",
+		hand_id = 14,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "103",
+		id = 308051,
+		group_index = 1,
+		prefab = "I56_2",
+		painting = "I56_2",
+		shop_id = 0,
+		air_bullet_skin = "",
+		air_bomb_skin = "",
+		shop_type_id = 4,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "학교는 정말 좋은 곳이에요. 조용히 이 구석에 누워있으면 아무도 말을 걸어오지 않으니까요...",
+		voice_actor = 16,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.108,
+					0.082,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.236,
+					-0.27,
 					0
 				}
 			}

@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "자, 이건 지휘관님꺼~",
+			say = "자, 이건 지휘관님꺼에요~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "지휘관, 실례하겠습니다~",
+			say = "지휘관님, 실례하겠습니다~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -944,7 +944,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "제가 생각하기엔… 말랑말랑과 다이아몬드는 너무 반대되는 것 같아.",
+			say = "내가 생각하기엔… 말랑말랑과 다이아몬드는 너무 반대되는 것 같아.",
 			painting = {
 				alpha = 0.3,
 				time = 1

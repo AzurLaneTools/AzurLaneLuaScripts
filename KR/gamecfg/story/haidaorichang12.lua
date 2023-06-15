@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "앗, 지휘관이 고른 이 디저트는 시리우스로 만든 거야~",
+			say = "앗, 지휘관이 고른 이 디저트는 시리우스가 만든 거야~",
 			painting = {
 				alpha = 0.3,
 				time = 1

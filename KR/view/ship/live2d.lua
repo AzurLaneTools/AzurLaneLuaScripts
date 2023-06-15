@@ -460,20 +460,24 @@ function slot0.changeIdleIndex(slot0, slot1)
 	slot0.idleIndex = slot1
 
 	slot0._animator:SetInteger("idle", slot1)
-
-	if slot0.drags then
-		for slot5 = 1, #slot0.drags do
-			slot0.drags[slot5]:setIdleIndex(slot1)
-		end
-	end
+	slot0:updateDragsSateData()
 end
 
 function slot0.live2dActionChange(slot0, slot1)
 	slot0.isPlaying = slot1
 
-	if slot0.drags and #slot0.drags > 0 then
+	slot0:updateDragsSateData()
+end
+
+function slot0.updateDragsSateData(slot0)
+	slot1 = {
+		idleIndex = slot0.idleIndex,
+		isPlaying = slot0.isPlaying
+	}
+
+	if slot0.drags then
 		for slot5 = 1, #slot0.drags do
-			slot0.drags[slot5]:live2dActionChange(slot1)
+			slot0.drags[slot5]:updateStateData(slot1)
 		end
 	end
 end

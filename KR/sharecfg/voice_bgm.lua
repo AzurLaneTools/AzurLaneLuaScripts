@@ -97,10 +97,10 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "story-musicanniversary-gorgeous",
 		special_bgm = "",
 		time = "",
-		bgm = "login"
+		bgm = "story-musicanniversary-gorgeous"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -587,5 +587,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "ryza-4"
+	},
+	KelifulanSkinPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		time = "",
+		bgm = "story-musicanniversary-gorgeous"
 	}
 }

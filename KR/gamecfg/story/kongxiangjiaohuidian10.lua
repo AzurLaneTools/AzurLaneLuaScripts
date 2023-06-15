@@ -1095,7 +1095,7 @@ return {
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "네 계산이 빗나갔어, 비스마르크 각하.",
+			say = "네 계산이 빗나갔어, 비스마르크.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
