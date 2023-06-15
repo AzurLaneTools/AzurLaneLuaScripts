@@ -19,7 +19,7 @@ function slot0.register(slot0)
 	end)
 	slot0.viewComponent:setPlayerInfo(getProxy(PlayerProxy):getData())
 	slot0.viewComponent:setSubFlag(#getProxy(ChallengeProxy):getUserChallengeInfo(slot0.contextData.mode):getSubmarineFleet():getShipsByTeam(TeamType.Submarine, false) > 0)
-	slot0.viewComponent:updateChallenge(slot3, reload)
+	slot0.viewComponent:updateChallenge(slot3)
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -48,13 +48,7 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
-	elseif slot2 == ChallengeProxy.CHALLENGE_UPDATED then
-		slot0:display(false)
 	end
-end
-
-function slot0.display(slot0, slot1)
-	slot0.viewComponent:updateChallenge(challenge, slot1)
 end
 
 function slot0.onAutoBtn(slot0, slot1)

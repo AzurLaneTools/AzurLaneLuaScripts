@@ -53,7 +53,7 @@ function slot0.init(slot0)
 	slot0.buildPage:setActive(false)
 	slot0.historyPage:setActive(false)
 
-	slot0.submitPanel = findTF(findTF(slot0._tf, "pop", findTF(slot1, "pages/buildPage"), slot0), "submitPanel")
+	slot0.submitPanel = findTF(findTF(slot0._tf, "pop"), "submitPanel")
 
 	setActive(slot0.submitPanel, false)
 

@@ -102,8 +102,12 @@ function slot0.OnDestroy(slot0)
 end
 
 function slot0.CheckFinalAward(slot0)
-	if #slot0.activityProxy:getActivityById(slot0.linkActId).data1_list == #slot0.puzzleIDList and slot1.data1 == 0 then
-		slot0:FetchFinalAward()
+	if #slot0.activityProxy:getActivityById(slot0.linkActId).data1_list == #slot0.puzzleIDList then
+		if slot1.data1 == 0 then
+			slot0:FetchFinalAward()
+		else
+			slot0:OnFetchFinalAwardDone()
+		end
 	end
 end
 
@@ -112,6 +116,9 @@ function slot0.FetchFinalAward(slot0)
 		cmd = 1,
 		activity_id = slot0.linkActId
 	})
+end
+
+function slot0.OnFetchFinalAwardDone(slot0)
 end
 
 return slot0

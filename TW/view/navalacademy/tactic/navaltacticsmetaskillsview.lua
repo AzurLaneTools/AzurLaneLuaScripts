@@ -101,14 +101,14 @@ function slot0.updateSkillTF(slot0, slot1, slot2)
 	slot13 = slot0:findTF("Tag/learing", slot3)
 	slot14 = slot0:findTF("Tag/unlockable", slot3)
 	slot15 = slot0.metaShipVO:getMetaSkillLevelBySkillID(slot2)
+	slot16 = getSkillConfig(slot2)
+	slot17 = slot2 == slot0.metaTacticsInfo.curSkillID
 
-	setImageSprite(slot0:findTF("icon", slot4), LoadSprite("skillicon/" .. getSkillConfig(slot2).icon))
-	setText(slot0:findTF("descView/Viewport/desc", slot4), getSkillDesc(slot2, isUnlocked and slot15 or 1))
+	setImageSprite(slot0:findTF("icon", slot4), LoadSprite("skillicon/" .. slot16.icon))
+	setText(slot0:findTF("descView/Viewport/desc", slot4), getSkillDesc(slot2, slot15 > 0 and slot15 or 1))
 	setText(slot0:findTF("name_contain/name", slot4), getSkillName(slot16.id))
 	setText(slot0:findTF("name_contain/level_contain/Text", slot4), slot15)
 
-	slot17 = slot2 == slot0.metaTacticsInfo.curSkillID
-	slot18 = slot15 > 0
 	slot19 = slot0.metaTacticsInfo:getSkillExp(slot2)
 
 	if not (pg.skill_data_template[slot2].max_level <= slot15) then

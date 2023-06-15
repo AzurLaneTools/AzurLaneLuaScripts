@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“惊喜”\n\n<size=45>六　夏日雪世界</size>",
+					"夏日里的“驚喜”\n\n<size=45>六 夏日雪世界</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·室内泳池 翌日",
+			say = "港區·室內泳池 翌日",
 			side = 2,
 			bgName = "bg_story_houshandong",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "看来昨天爱斯基摩人的宣传效果非常好，一路上看到了很多前往室内泳池一探究竟的人。",
+			say = "看來昨天愛斯基摩的宣傳效果非常好，一路上看到了很多前往室內泳池一探究竟的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "嗯？隔着门就能听到泳池传出的阵阵笑声，看来爱斯基摩人准备了一个不错的惊喜嘛。",
+			say = "嗯？隔著門就能聽到泳池傳出的陣陣笑聲，看來愛斯基摩準備了一個不錯的驚喜嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "三、二、一、开门-----！",
+			say = "三、二、一、開門-----！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是，我为大家献上的超大~超好玩的惊喜——怎么样！？一起尽情的玩吧~",
+			say = "這就是，我為大家獻上的超大~超好玩的驚喜——怎麼樣！？一起盡情的玩吧~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在夏日中造出了人工雪景，这个惊喜真厉害，让我想到了北方联合的冬天......",
+			say = "在夏日中造出了人工雪景，這個驚喜真厲害，讓我想到了北方聯合的冬天......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是雪、是雪耶！哇~本森姐姐，快看！夏天居然有这么多雪！来打雪仗吧~！",
+			say = "這是雪、是雪耶！哇~班森姐姐，快看！夏天居然有這麼多雪！來打雪仗吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "No~打雪仗的事先稍后，我们先来堆一个超大的兔兔雪人吧！",
+			say = "No~打雪仗的事先稍後，我們先來堆一個超大的兔兔雪人吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~~我也来帮忙！",
+			say = "好~~我也來幫忙！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "进入室内，迎面吹来了佛冬季降临般的阵阵冷风。",
+			say = "進入室內，迎面吹來了佛冬季降臨般的陣陣冷風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "泳池里的水都不见了，不对，甚至泳池本身都不见了。",
+			say = "泳池裡的水都不見了，不對，甚至泳池本身都不見了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "取而代之的是雪白色.......整个室内泳池被积雪所覆盖，甚至还堆起来了几座冰屋。",
+			say = "取而代之的是雪白色.......整個室內泳池被積雪所覆蓋，甚至還堆起來了幾座冰屋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿~怎么样啊！指挥官，吓了一跳吧？果然被吓了一跳吧！",
+			say = "嘿嘿~怎麼樣啊！指揮官，嚇了一跳吧？果然被嚇了一跳吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			},
 			options = {
 				{
-					content = "称赞爱斯基摩人",
+					content = "稱讚愛斯基摩",
 					flag = 1
 				}
 			}
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎嘿嘿，这就是之前在吃雪糕的时候想到的主意。既然夏天那么热，把天气变成冬天不就好了~",
+			say = "哎嘿嘿，這就是之前在吃冰淇淋的時候想到的主意。既然夏天那麼熱，把天氣變成冬天不就好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以你看~我在室内泳池做好保温的准备，再从明石那里借来了造雪机……一个冰雪世界就完成！",
+			say = "所以妳看~我在室內泳池做好保溫的準備，再從明石那裡借來了造雪機……一個冰雪世界就完成！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "真是厉害的行动力......不过，果然明石也参与了......",
+			say = "真是厲害的行動力......不過，果然明石也參與了......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明石的冰雪小卖部限时开业了喵~",
+			say = "明石的冰雪販賣部限時開業了喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家玩累了的话可以来冰雪小屋坐一坐，享受热乎乎的小吃和热饮喵！",
+			say = "大家玩累了的話可以來冰雪小屋坐一坐，享受熱呼呼的小吃和熱飲喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "真是个充满生意头脑的人啊......",
+			say = "真是個充滿生意頭腦的人啊......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "一个雪球从泳池中飞了出来，可惜准头差了点、",
+			say = "一個雪球從泳池中飛了出來，可惜準頭差了點、",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可惜~差一点击中目标！",
+			say = "可惜~差一點擊中目標！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，爱斯基摩人，不要光看着嘛，夏天也能打雪仗真的非常有意思！",
+			say = "指揮官，愛斯基摩，不要光看著嘛，夏天也能打雪仗真的非常有意思！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们正好要开第二局了！来一起玩嘛！",
+			say = "我們正好要開第二局了！來一起玩嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，等等我们！来了来了~",
+			say = "哎，等等我們！來了來了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "走吧，指挥官。今天一整天，都要好好享受一下冰雪世界的快乐哦~！",
+			say = "走吧，指揮官。今天一整天，都要好好享受一下冰雪世界的快樂哦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

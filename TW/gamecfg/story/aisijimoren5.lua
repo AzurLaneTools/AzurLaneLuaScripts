@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“惊喜”\n\n<size=45>五　宣传也很重要！</size>",
+					"夏日里的“驚喜”\n\n<size=45>五 宣傳也很重要！</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·学院广场",
+			say = "港區·學院廣場",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家还在为炎炎的夏日困扰么~想要寻找避暑的好去处么~",
+			say = "大家還在為炎炎的夏日困擾嗎~想要尋找避暑的好去處嗎~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明天，就在港区的室内泳池，有我为大家准备了一个夏日惊喜！",
+			say = "明天，就在港區的室內泳池，有我為大家準備了一個夏日驚喜！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一个超大~超好玩的惊喜~！大家有空一定记得要来玩哦——！！！",
+			say = "一個超大~超好玩的驚喜~！大家有空一定記得要來玩哦——！！！",
 			effects = {
 				{
 					active = true,
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "一大早就看见爱斯基摩人在广场上卖力的宣传着，元气满满的声音吸引了港区的很多人。",
+			say = "一大早就看見愛斯基摩在廣場上賣力的宣傳著，元氣滿滿的聲音吸引了港區的很多人。",
 			effects = {
 				{
 					active = false,
@@ -129,7 +129,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官早上好~给，明天活动的宣传单~！",
+			say = "指揮官早上好~給，明天活動的宣傳單~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "居然还认真的准备了手绘的宣传单……？！",
+			say = "居然還認真的準備了手繪的宣傳單……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次多亏了指挥官的帮忙，明天是休息日，指挥官也请一定来玩哦~",
+			say = "這次多虧了指揮官的幫忙，明天是休息日，指揮官也請一定來玩哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "终于可以见到爱斯基摩人准备了这么久的神秘惊喜的成果了么------",
+			say = "終於可以見到愛斯基摩準備了這麼久的神秘驚喜的成果了麼------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			},
 			options = {
 				{
-					content = "答应一定会去",
+					content = "答應一定會去",
 					flag = 1
 				}
 			}
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就约好了哦~！",
+			say = "那就約好了哦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶~在室内泳池举行的惊喜活动？",
+			say = "欸~在室內泳池舉行的驚喜活動？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我就奇怪为什么昨天泳池突然封闭了一天……果然和爱斯基摩人有关！",
+			say = "我就奇怪為什麼昨天泳池突然封閉了一天……果然和愛斯基摩有關！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前的预感成真，果然超有趣的事发生了！",
+			say = "之前的預感成真，果然超有趣的事發生了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……难道是游泳比赛之类的么，要回去准备泳装了。",
+			say = "唔……難道是游泳比賽之類的嗎，要回去準備泳裝了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，泳装？不需要啦！反而应该多穿一点才行哦！",
+			say = "哎，泳裝？不需要啦！反而應該多穿一點才行哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "泳池...水塘...比较有爱斯基摩人氛围的...难道说是钓鱼大会？！",
+			say = "泳池...水塘...比較有愛斯基摩氛圍的...難道說是釣魚大會？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……坐在满是鱼的泳池边上，本可爱文静的美少女在认真钓鱼的样子……",
+			say = "……坐在滿是魚的泳池邊上，本可愛文靜的美少女在認真釣魚的樣子……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "OK~我现在就去准备钓鱼工具！",
+			say = "OK~我現在就去準備釣魚工具！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，也不是啦！主要的工作我都准备全部好了~！",
+			say = "欸，也不是啦！主要的工作我都準備全部好了~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其他的注意事项都写在传单上，大家记得仔细阅读哦！",
+			say = "其他的注意事項都寫在傳單上，大家記得仔細閱讀哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "传单背面确实写着几行字------",
+			say = "傳單背面確實寫著幾行字------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "「明日全天，在港区室内体育馆为大家准备了特别惊喜，欢迎港区的大家来玩！」",
+			say = "「明日全天，在港區室內體育館為大家準備了特別驚喜，歡迎港區的大家來玩！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "「请做好一定程度的防寒对策哦！」",
+			say = "「請做好一定程度的防寒對策哦！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "star_level_bg_113",
 			dir = 1,
 			blackBg = true,
-			say = "......防寒对策？",
+			say = "......防寒對策？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

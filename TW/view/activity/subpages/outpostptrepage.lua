@@ -19,10 +19,13 @@ function slot0.OnInit(slot0)
 
 	setActive(slot0.displayBtn:Find("Image1"), not slot5)
 	setActive(slot0.displayBtn:Find("Image2"), slot5)
+
+	slot6 = nil
+
 	onButton(slot0, slot0.displayBtn, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
 			page = "activity",
-			targetId = targetId
+			targetId = uv1
 		})
 	end)
 end

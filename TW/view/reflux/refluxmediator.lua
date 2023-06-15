@@ -1,7 +1,6 @@
 slot0 = class("RefluxMediator", import("..base.ContextMediator"))
 slot0.OnTaskSubmit = "RefluxMediator.OnTaskSubmit"
 slot0.OnTaskGo = "RefluxMediator.OnTaskGo"
-slot0.OnBattlePhaseForward = "RefluxMediator.OnBattlePhaseForward"
 slot0.OPEN_CHARGE_ITEM_PANEL = "RefluxMediator:OPEN_CHARGE_ITEM_PANEL"
 slot0.OPEN_CHARGE_ITEM_BOX = "RefluxMediator:OPEN_CHARGE_ITEM_BOX"
 slot0.OPEN_CHARGE_BIRTHDAY = "RefluxMediator:OPEN_CHARGE_BIRTHDAY"
@@ -13,13 +12,6 @@ function slot0.register(slot0)
 	slot0:bind(uv0.OnTaskGo, function (slot0, slot1)
 		uv0:sendNotification(GAME.TASK_GO, {
 			taskVO = slot1
-		})
-	end)
-	slot0:bind(uv0.OnBattlePhaseForward, function (slot0, slot1)
-		uv0:sendNotification(GAME.ACTIVITY_OPERATION, {
-			cmd = 2,
-			activity_id = activity.id,
-			arg1 = slot1
 		})
 	end)
 	slot0:bind(uv0.OPEN_CHARGE_ITEM_PANEL, function (slot0, slot1)
@@ -118,20 +110,6 @@ function slot0.isCanUpdateView(slot0, slot1)
 		return true
 	else
 		return false
-	end
-end
-
-function slot0.DispatchAutoOpertation(slot0)
-	if getProxy(ActivityProxy):findRefluxAutoActivity() == 1 then
-		slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
-			cmd = 1,
-			activity_id = slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX).id
-		})
-		slot0.viewComponent:TriggerTab(RefluxScene.TabSign)
-	elseif slot0.viewComponent:GetTab() == nil then
-		slot0.viewComponent:TriggerTab(slot0.contextData.tab or RefluxScene.TabSign)
-	else
-		slot0.viewComponent:UpdateTab()
 	end
 end
 

@@ -20984,10 +20984,11 @@ _G.pg.base.shop_template[70175] = {
 	desc = "购买皮肤：拉菲coco",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 570,
+	order = 1900,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -20998,32 +20999,6 @@ _G.pg.base.shop_template[70175] = {
 	limit_args = {},
 	effect_args = {
 		101174
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -21036,10 +21011,11 @@ _G.pg.base.shop_template[70176] = {
 	desc = "购买皮肤：标枪coco",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 570,
+	order = 1900,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -21050,32 +21026,6 @@ _G.pg.base.shop_template[70176] = {
 	limit_args = {},
 	effect_args = {
 		201213
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -21088,10 +21038,11 @@ _G.pg.base.shop_template[70177] = {
 	desc = "购买皮肤：凌波coco",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 570,
+	order = 1900,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -21102,32 +21053,6 @@ _G.pg.base.shop_template[70177] = {
 	limit_args = {},
 	effect_args = {
 		301055
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -21140,10 +21065,11 @@ _G.pg.base.shop_template[70178] = {
 	desc = "购买皮肤：Z23coco",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 570,
+	order = 1900,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -21154,32 +21080,6 @@ _G.pg.base.shop_template[70178] = {
 	limit_args = {},
 	effect_args = {
 		401233
-	},
-	time = {
-		{
-			{
-				2022,
-				9,
-				15
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2022,
-				10,
-				12
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -28906,8 +28806,8 @@ _G.pg.base.shop_template[70382] = {
 		{
 			{
 				2023,
-				3,
-				2
+				6,
+				15
 			},
 			{
 				0,
@@ -28918,8 +28818,8 @@ _G.pg.base.shop_template[70382] = {
 		{
 			{
 				2023,
-				3,
-				15
+				6,
+				28
 			},
 			{
 				23,
@@ -35666,8 +35566,8 @@ _G.pg.base.shop_template[70518] = {
 		{
 			{
 				2023,
-				3,
-				2
+				6,
+				15
 			},
 			{
 				0,
@@ -35678,8 +35578,8 @@ _G.pg.base.shop_template[70518] = {
 		{
 			{
 				2023,
-				3,
-				15
+				6,
+				28
 			},
 			{
 				23,
@@ -35769,8 +35669,8 @@ _G.pg.base.shop_template[70520] = {
 	time = {
 		{
 			{
-				2022,
-				9,
+				2023,
+				6,
 				15
 			},
 			{
@@ -35781,9 +35681,9 @@ _G.pg.base.shop_template[70520] = {
 		},
 		{
 			{
-				2022,
-				10,
-				12
+				2023,
+				6,
+				28
 			},
 			{
 				23,
@@ -35953,8 +35853,8 @@ _G.pg.base.shop_template[70524] = {
 		{
 			{
 				2023,
-				3,
-				2
+				6,
+				15
 			},
 			{
 				0,
@@ -35965,8 +35865,8 @@ _G.pg.base.shop_template[70524] = {
 		{
 			{
 				2023,
-				3,
-				15
+				6,
+				28
 			},
 			{
 				23,
@@ -59860,6 +59760,63 @@ _G.pg.base.shop_template[200208] = {
 				2023,
 				6,
 				14
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[200209] = {
+	is_auto_use = 1,
+	time_second = 0,
+	resource_type = 14,
+	type = 2,
+	genre = "gift_package",
+	desc = "120钻石购买限时攻略补给（23峡湾间的反击复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 200209,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2023,
+				6,
+				15
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				6,
+				28
 			},
 			{
 				23,

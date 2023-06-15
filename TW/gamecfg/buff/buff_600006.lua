@@ -25,6 +25,16 @@ return {
 			arg_list = {
 				tag = "shuangzi"
 			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "huifu1"
+			}
 		}
 	}
 }

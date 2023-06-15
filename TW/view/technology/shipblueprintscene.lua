@@ -183,6 +183,7 @@ function slot0.init(slot0)
 	slot0.previewAttrContainer = slot0:findTF("content", slot0.previewAttrPanel)
 
 	setText(slot0:findTF("preview/attrs_panel/Text"), i18n("meta_energy_preview_tip"))
+	setText(slot0:findTF("preview/attrs_panel/desc"), i18n("meta_energy_preview_title"))
 
 	slot0.helpBtn = slot0:findTF("helpBtn", slot0.top)
 	slot0.exchangeBtn = slot0:findTF("exchangeBtn", slot0.top)
@@ -1609,8 +1610,6 @@ function slot0.updateAdvanceTF(slot0, slot1, slot2, slot3)
 				setActive(slot15, true)
 				setText(slot15:Find("Text"), slot5[slot13][3])
 			end
-		else
-			setActive(empty_tpl, true)
 		end
 	end
 

@@ -372,9 +372,9 @@ function slot0.getSkills(slot0)
 end
 
 function slot0.getFleetType(slot0)
-	if id == uv0.MAIN_FLEET_ID then
+	if slot0.id == uv0.MAIN_FLEET_ID then
 		return FleetType.Normal
-	elseif id == uv0.SUB_FLEET_ID then
+	elseif slot0.id == uv0.SUB_FLEET_ID then
 		return FleetType.Submarine
 	end
 

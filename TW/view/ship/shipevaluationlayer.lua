@@ -133,7 +133,7 @@ function slot0.flushShip(slot0)
 	end
 
 	if not GetSpriteFromAtlas("shiptype", shipType2print(slot0.shipGroup:getShipType(slot0.showTrans))) then
-		warning("找不到船形, shipConfigId: " .. shipVO.configId)
+		warning("找不到船形, shipConfigId: " .. slot1.id)
 	end
 
 	slot0.iconType.sprite = slot4

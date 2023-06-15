@@ -1,5 +1,5 @@
-PageUtil = class("PageUtil")
-slot0 = PageUtil
+slot0 = class("PageUtil")
+PageUtil = slot0
 
 function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	pg.DelegateInfo.New(slot0)

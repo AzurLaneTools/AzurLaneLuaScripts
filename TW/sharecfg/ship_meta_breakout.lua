@@ -1538,7 +1538,7 @@ pg.base.ship_meta_breakout = {
 	},
 	[9703021] = {
 		breakout_view = "习得技能【逐光之焰·阿尔及利亚】/主炮效率提高5%",
-		gold = 500,
+		gold = 1000,
 		breakout_id = 9703022,
 		repair = 0,
 		item2 = 21001,
@@ -1554,7 +1554,7 @@ pg.base.ship_meta_breakout = {
 	},
 	[9703022] = {
 		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
-		gold = 1500,
+		gold = 3000,
 		breakout_id = 9703023,
 		repair = 0,
 		item2 = 21001,
@@ -1571,7 +1571,7 @@ pg.base.ship_meta_breakout = {
 	},
 	[9703023] = {
 		breakout_view = "【逐光之焰·阿尔及利亚】升级/鱼雷效率提高15%",
-		gold = 2500,
+		gold = 10000,
 		breakout_id = 9703024,
 		repair = 0,
 		item2 = 21001,

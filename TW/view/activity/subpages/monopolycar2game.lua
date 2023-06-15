@@ -488,7 +488,7 @@ function slot0.checkStep(slot0, slot1)
 
 			seriesAsync({
 				function (slot0)
-					uv1:moveCharWithPaths(uv0, #uv0 > 3 and stateRun or stateJump, slot0)
+					uv0:moveCharWithPaths(uv1, nil, slot0)
 				end,
 				function (slot0)
 					uv0:checkEffect(slot0)

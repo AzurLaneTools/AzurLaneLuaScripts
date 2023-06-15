@@ -76,7 +76,7 @@ function slot0.BuildAIAction(slot0, slot1)
 
 	for slot7, slot8 in ipairs(slot1.ai_act_list) do
 		slot9 = {}
-		slot9 = (slot8.type ~= WorldMapAttachment.TypeFleet or slot0:BuildFleetAction(slot8)) and (slot8.type ~= WorldMapAttachment.TypeTrap or slot0:BuildTrapAction(slot8)) and slot0:BuildAttachmentAction(slot8, slot2)
+		slot9 = (slot8.type ~= WorldMapAttachment.TypeFleet or slot0:BuildFleetAction(slot8)) and (slot8.type ~= WorldMapAttachment.TypeTrap or slot0:BuildTrapAction(slot8)) and slot0:BuildAttachmentAction(slot8)
 		slot9[#slot9].shipUpdates = slot3:NetBuildShipUpdate(slot8.ship_update)
 		slot9[#slot9].fleetAttachUpdates = slot3:NetBuildFleetAttachUpdate(slot8.pos_list)
 		slot2 = table.mergeArray(slot2, slot9)

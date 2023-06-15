@@ -11,7 +11,7 @@ end
 
 function slot2(slot0)
 	if getProxy(PlayerProxy) then
-		return pg.NewStoryMgr.GetInstance():IsPlayed(slot0, noAgain)
+		return pg.NewStoryMgr.GetInstance():IsPlayed(slot0)
 	end
 
 	return false
@@ -182,5 +182,5 @@ function slot0.PlayCommander(slot0)
 end
 
 function slot0.PlayGuildAssaultFleet(slot0, slot1)
-	slot0:PlayByGuideId("GNG001", {}, callback)
+	slot0:PlayByGuideId("GNG001", {}, slot1)
 end

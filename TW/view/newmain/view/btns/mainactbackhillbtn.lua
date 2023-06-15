@@ -90,7 +90,7 @@ function slot0.IsShowTip4FifthAnniversary(slot0)
 end
 
 function slot0.IsShowTip4MusicFestival2(slot0)
-	slot2 = getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID_2)
+	assert(getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID_2))
 
 	return (function ()
 		return uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and not slot0:isEnd() and slot0:readyToAchieve()

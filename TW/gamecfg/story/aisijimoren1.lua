@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“惊喜”\n\n<size=45>一　极地的爱斯基摩人？</size>",
+					"夏日里的“驚喜”\n\n<size=45>一 極地的愛斯基摩？</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日的港区",
+			say = "某日的港區",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“璀璨的星空中挂着一轮明亮的圆月，下面是无尽的冰川。”",
+			say = "“璀璨的星空中掛著一輪明亮的圓月，下面是無盡的冰川。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“凌冽的寒风裹挟着冰粒，在空气中滑出阵阵凄惨的哀嚎。”",
+			say = "“凌冽的寒風裹挾著冰粒，在空氣中滑出陣陣淒慘的哀嚎。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“一片纯白中有一位少女，身穿大衣，手捏一柄鱼叉，静静地凝视着前方...”",
+			say = "“一片純白中有一位少女，身穿大衣，手捏一柄魚叉，靜靜地凝視著前方...”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，然后呢，然后发生什么事了！（吞口水）",
+			say = "嗯嗯，然後呢，然後發生什麼事了！（吞口水）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“只见她小心翼翼的向前移动着，两只高大威猛的猎犬也心领神会的从不同方向接近着猎物。”",
+			say = "“只見她小心翼翼的向前移動著，兩隻高大威猛的獵犬也心領神會的從不同方向接近著獵物。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“然后只听见“啪”的一声，少女将手中的标枪扔了出去！终于，今天也可以饱餐一顿了...”",
+			say = "“然後只聽見“啪”的一聲，少女將手中的標槍扔了出去！終於，今天也可以飽餐一頓了...”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哦...听起来好帅啊。",
+			say = "哇哦...聽起來好帥啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，说到爱斯基摩人，听起来就是这种感觉吧！",
+			say = "嘿嘿嘿，說到愛斯基摩，聽起來就是這種感覺吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "常年生活在极地冰川的冷酷猎手，会不会是一个可怕的孩子...",
+			say = "常年生活在極地冰川的冷酷獵手，會不會是一個可怕的孩子...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？本森姐姐也没有见过爱斯基摩人么！",
+			say = "咦？班森姐姐也沒有見過愛斯基摩嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还没有哦！不过~根据我在兔兔星的情报网，她很快就要轮值指挥官的秘书舰了哦~",
+			say = "還沒有哦！不過~根據我在兔兔星的情報網，她很快就要輪值指揮官的秘書艦了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 101370,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样这话，很快就能在指挥室里见到了，会是一个什么样的同伴呢...",
+			say = "這樣這話，很快就能在指揮室裡見到了，會是一個什麼樣的同伴呢...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗷呜~嗷呜~",
+			say = "嗷嗚~嗷嗚~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦...？树的后面发出了一阵阵嚎叫声？！",
+			say = "咦...？樹的後面發出了一陣陣嚎叫聲？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又传出来一阵鼓声...！",
+			say = "又傳出來一陣鼓聲...！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说，你们对爱斯基摩人很好奇？哼哼~那就让我来满足你们的愿望吧！",
+			say = "聽說，妳們對愛斯基摩很好奇？哼哼~那就讓我來滿足妳們的願望吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "锵锵锵锵~我就是皇家部族级驱逐舰，爱斯基摩人，从今天开始担任港区秘书舰的工作，请多指教啦~",
+			say = "鏘鏘鏘鏘~我就是皇家部族級驅逐艦，愛斯基摩，從今天開始擔任港區秘書艦的工作，請多指教啦~",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -407,7 +407,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "自称爱斯基摩人的少女从树后面出现了！",
+			say = "自稱愛斯基摩的少女從樹後面出現了！",
 			effects = {
 				{
 					active = false,
@@ -429,7 +429,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "身上没有鱼叉...也没有跟着凶猛的猎犬...太好了，是一个普通的可爱美少女！",
+			say = "身上沒有魚叉...也沒有跟著兇猛的獵犬...太好了，是一個普通的可愛美少女！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 101370,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过穿着极地风格的厚大衣还带着全套的雪地装备，好帅啊。",
+			say = "不過穿著極地風格的厚大衣還帶著全套的雪地裝備，好帥啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿~刚才的故事很有趣，很遗憾和大家猜想中的不一样呢。",
+			say = "嘿嘿~剛才的故事很有趣，很遺憾和大家猜想中的不一樣呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪里哪里，不是可怕的同伴真是太好了！我是本森，旁边的两位是贝利和科尔克，我们都是兔兔星人哦~",
+			say = "哪裡哪裡，不是可怕的同伴真是太好了！我是班森，旁邊的兩位是貝利和科爾克，我們都是兔兔星人哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，兔兔星人么...？感觉很有趣的样子！我现在还要赶去指挥官那里报道，兔兔星的事以后有机会请务必详细说给我听听！",
+			say = "哎，兔兔星人嗎...？感覺很有趣的樣子！我現在還要趕去指揮官那裡報到，兔兔星的事以後有機會請務必詳細說給我聽聽！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题哦~！",
+			say = "沒問題哦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "和名称印象不同，是个十分精力旺盛的人啊。哼哼，感觉很快就会有有趣的事发生了~",
+			say = "和名稱印象不同，是個十分精力旺盛的人啊。哼哼，感覺很快就會有有趣的事發生了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

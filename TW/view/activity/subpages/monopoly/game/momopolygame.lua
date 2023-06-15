@@ -19,7 +19,7 @@ slot8 = nil
 
 function slot8()
 	return {
-		onActionUpdated = function ()
+		onActionUpdated = function (slot0, slot1)
 		end,
 		currState = nil,
 		ChangeState = function (slot0, slot1, slot2)
@@ -42,11 +42,11 @@ end
 
 function slot9(slot0)
 	return {
-		onMove = function ()
+		onMove = function (slot0, slot1)
 		end,
-		onJump = function ()
+		onJump = function (slot0, slot1)
 		end,
-		onUpdatePos = function ()
+		onUpdatePos = function (slot0)
 		end,
 		ship = Ship.New({
 			configId = slot0,

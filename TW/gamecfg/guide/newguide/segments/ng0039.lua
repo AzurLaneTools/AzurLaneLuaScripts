@@ -88,6 +88,10 @@ return {
 				path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/topPanel/btnBack",
 				triggerType = {
 					1
+				},
+				fingerPos = {
+					posY = 0,
+					posX = -173.8
 				}
 			}
 		}

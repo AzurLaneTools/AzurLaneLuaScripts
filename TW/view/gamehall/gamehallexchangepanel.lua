@@ -1,15 +1,16 @@
 slot0 = class("GameHallExchangePanel")
 
-function slot0.Ctor(slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0._tf = slot1
-	slot0._event = slot2
-	slot3 = pg.player_resource[GameRoomProxy.coin_res_id].itemid
-	slot0.itemCfg = pg.item_data_statistics[slot3]
+	slot0._parentTf = slot2
+	slot0._event = slot3
+	slot4 = pg.player_resource[GameRoomProxy.coin_res_id].itemid
+	slot0.itemCfg = pg.item_data_statistics[slot4]
 	slot0.coinMax = pg.gameset.game_coin_max.key_value
 	slot0.gameCoinGold = pg.gameset.game_coin_gold.description
 
 	updateDrop(findTF(slot0._tf, "window/single_item_panel/iconPos/icon"), {
-		id = slot3,
+		id = slot4,
 		type = DROP_TYPE_ITEM
 	})
 	setText(findTF(slot0._tf, "window/single_item_panel/name_mode/name_mask/name"), slot0.itemCfg.name)
@@ -131,7 +132,7 @@ function slot0.setVisible(slot0, slot1)
 	else
 		slot0.bulrFlag = false
 
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	end
 
 	setActive(slot0._tf, slot1)
@@ -144,7 +145,7 @@ end
 
 function slot0.dispose(slot0)
 	if slot0.bulrFlag == true then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 
 		slot0.bulrFlag = false
 	end

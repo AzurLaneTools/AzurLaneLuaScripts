@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"翩若飞仙",
+					"翩若飛仙",
 					1
 				}
 			}

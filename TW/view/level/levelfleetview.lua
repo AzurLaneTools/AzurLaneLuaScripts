@@ -813,7 +813,7 @@ function slot0.UpdateEliteInvestigation(slot0)
 		slot1 = math.max(slot1, Fleet.New({
 			ship_list = slot6,
 			commanders = slot7
-		}) and math.floor(slot8:getInvestSums(true)) or 0)
+		}) and math.floor(slot8:getInvestSums()) or 0)
 	end
 
 	slot0:UpdateInvestigationComparision(slot1, slot0.chapter:getConfig("avoid_require"))

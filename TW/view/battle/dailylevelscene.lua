@@ -44,7 +44,7 @@ function slot0.init(slot0)
 	slot0:initItems()
 end
 
-function slot0.getWeek(slot0)
+function slot0.getWeek()
 	return pg.TimeMgr.GetInstance():GetServerWeek()
 end
 
@@ -385,16 +385,11 @@ function slot0.displayStageList(slot0, slot1)
 	end)) do
 		slot9 = slot8[1]
 		slot0.stageTFs[slot9] = cloneTplTo(slot0.stageTpl, slot0.stageContain)
-		slot11 = {
+
+		slot0:updateStage({
 			id = slot9,
 			level = slot8[2]
-		}
-
-		if slot1 == CHALLENGE_CARD_ID then
-			slot0:updateChallenge(slot11)
-		else
-			slot0:updateStage(slot11)
-		end
+		})
 	end
 end
 

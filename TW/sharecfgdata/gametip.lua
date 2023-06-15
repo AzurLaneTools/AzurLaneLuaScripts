@@ -10386,7 +10386,7 @@ _G.pg.base.gametip.school_title_shoucang = {
 }
 
 _G.pg.base.gametip.school_title_xiaoyouxiting = {
-	tip = "小游戏厅"
+	tip = "游戏屋"
 }
 
 _G.pg.base.gametip.tag_level_fighting = {
@@ -22550,7 +22550,7 @@ _G.pg.base.gametip.ship_formationUI_fleetName_challenge_sub = {
 }
 
 _G.pg.base.gametip.word_status_activity = {
-	tip = "活动编队中"
+	tip = "活動編隊中"
 }
 
 _G.pg.base.gametip.word_status_challenge = {
@@ -22579,4 +22579,8 @@ _G.pg.base.gametip.mini_game_shop_ticked_not_enough = {
 
 _G.pg.base.gametip.game_ticket_current_month = {
 	tip = "本月上限"
+}
+
+_G.pg.base.gametip.pre_combat_consume = {
+	tip = "消耗："
 }

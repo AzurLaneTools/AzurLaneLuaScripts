@@ -899,7 +899,7 @@ function slot0.skip(slot0)
 		end,
 		function (slot0)
 			uv0:displayShips()
-			uv0:showRightBottomPanel(slot0)
+			uv0:showRightBottomPanel()
 		end
 	})
 end

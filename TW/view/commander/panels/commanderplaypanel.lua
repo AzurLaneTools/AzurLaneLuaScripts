@@ -71,7 +71,7 @@ function slot0.update(slot0, slot1, slot2)
 	slot0.detailPage = slot2
 
 	assert(slot2)
-	slot0:updateMatrtials(slot0.parent.contextData.materialIds or {}, skill)
+	slot0:updateMatrtials(slot0.parent.contextData.materialIds or {})
 
 	if slot0.isOpenDescPage then
 		slot0:UpdateDescPage()

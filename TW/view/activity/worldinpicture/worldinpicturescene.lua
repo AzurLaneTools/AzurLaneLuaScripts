@@ -24,7 +24,7 @@ end
 
 function slot0.OnOpenCell(slot0, slot1, slot2, slot3)
 	slot0:CloseSelector(slot1, slot2)
-	slot0:HideBox(slot1, slot2, slot3)
+	slot0:HideBox(slot1, slot2)
 
 	slot0.inAniming = true
 

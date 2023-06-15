@@ -66,7 +66,7 @@ function slot0.didEnter(slot0)
 
 		for slot4, slot5 in pairs(uv0.rtFleets) do
 			for slot9 = 1, #uv0.contextData.fleets[slot4] do
-				uv0:updateCommanderBtn(slot5:GetChild(slot9 - 1), slot4, slot9)
+				uv0:updateCommanderBtn(slot5:GetChild(slot9 - 1))
 			end
 		end
 	end

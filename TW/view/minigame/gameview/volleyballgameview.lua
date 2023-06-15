@@ -444,7 +444,7 @@ function slot0.openSelectWindow(slot0)
 
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv3)
 
-			if isActive(uv0:findTF("selected", uv4), true) then
+			if isActive(uv0:findTF("selected", uv4)) then
 				setActive(uv0:findTF("selected", uv4), false)
 
 				if uv0.selectSDIndex1 and uv0.selectSDIndex1 == uv2 then

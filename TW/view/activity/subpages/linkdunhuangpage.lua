@@ -32,11 +32,21 @@ function slot0.DoPieceAnimation(slot0, slot1, slot2, slot3, slot4)
 		slot0.animations[slot1] = nil
 	end
 
-	slot0.animations[slot1] = true
+	slot5 = pg.UIMgr.GetInstance()
 
-	LeanTween.value(slot1.gameObject, 1, 0, 1):setOnUpdate(System.Action_float(function (slot0)
+	slot5:LoadingOn(false)
+
+	slot0.animations[slot1] = true
+	slot5 = LeanTween.value(slot1.gameObject, 1, 0, 1)
+	slot5 = slot5:setOnUpdate(System.Action_float(function (slot0)
 		setFillAmount(uv0, slot0)
-	end)):setFrom(1):setOnComplete(System.Action(slot4))
+	end))
+	slot5 = slot5:setFrom(1)
+
+	slot5:setOnComplete(System.Action(function ()
+		pg.UIMgr.GetInstance():LoadingOff()
+		uv0()
+	end))
 end
 
 function slot0.RegisterEvent(slot0)
@@ -53,7 +63,24 @@ end
 
 function slot0.FetchFinalAward(slot0)
 	uv0.super.FetchFinalAward(slot0)
-	pg.NewStoryMgr.GetInstance():Play(slot0.activity:getConfig("config_client").story[slot0.nday][1])
+
+	if (slot0.activity:getConfig("config_client").story[slot0.nday] or {})[1] then
+		pg.NewStoryMgr.GetInstance():Play(slot2[1])
+	end
+end
+
+function slot0.OnFetchFinalAwardDone(slot0)
+	slot1 = {}
+	slot3 = ipairs
+	slot4 = slot0.activity:getConfig("config_client").story or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		if (slot2[slot6] or {})[1] and not pg.NewStoryMgr.GetInstance():IsPlayed(slot8[1]) then
+			table.insert(slot1, slot8[1])
+		end
+	end
+
+	pg.NewStoryMgr.GetInstance():SeriesPlay(slot1)
 end
 
 function slot0.ReplaceBg(slot0)

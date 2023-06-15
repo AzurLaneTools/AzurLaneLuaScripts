@@ -39,7 +39,7 @@ function slot0.execute(slot0, slot1)
 		if not _.all(uv2, function (slot0)
 			assert(DROP_TYPE_USE_ACTIVITY_DROP < slot0[1])
 
-			return slot0[3] * uv0 <= (uv1.data1KeyValueList[1][slot0[2]] or 0)
+			return slot0[3] * uv0 <= uv1:getVitemNumber(slot0[2])
 		end) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("workbench_tips2"))
 
@@ -62,11 +62,7 @@ function slot0.execute(slot0, slot1)
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			_.each(uv0, function (slot0)
-				slot2 = slot0[3] * uv0
-				slot3 = uv1.data1KeyValueList[1][slot0[2]] or 0
-				uv1.data1KeyValueList[1][slot1] = math.max(0, slot3 - slot2)
-
-				return slot2 <= slot3
+				uv1:subVitemNumber(slot0[2], slot0[3] * uv0)
 			end)
 			getProxy(ActivityProxy):updateActivity(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_VIRTUAL_BAG))
 

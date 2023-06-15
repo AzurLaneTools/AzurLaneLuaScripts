@@ -27660,6 +27660,304 @@ _G.pg.base.task_data_template[5737] = {
 	}
 }
 
+_G.pg.base.task_data_template[5741] = {
+	name = "極地的愛斯基摩？",
+	guild_coin_award = 0,
+	award = 5534,
+	type = 5,
+	desc = "提交3個《魚雷天婦羅》",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "aisijimo",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "50003",
+	next_task = "5742",
+	auto_commit = 0,
+	story_id = "AISIJIMOREN1",
+	id = 5741,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5742] = {
+	name = "來自太空的兔兔星冰淇淋",
+	guild_coin_award = 0,
+	award = 5535,
+	type = 5,
+	desc = "強化任意角色10次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "aisijimo",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AISIJIMOREN2",
+	target_id = "0",
+	next_task = "5743",
+	auto_commit = 0,
+	scene = "",
+	id = 5742,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5743] = {
+	name = "準備工作其一",
+	guild_coin_award = 0,
+	award = 5536,
+	type = 5,
+	desc = "愛斯基摩上陣出擊(關卡)勝利20次",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "aisijimo",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AISIJIMOREN3",
+	target_id = "20132",
+	next_task = "5744",
+	auto_commit = 0,
+	scene = "",
+	id = 5743,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5744] = {
+	name = "準備工作其二",
+	guild_coin_award = 0,
+	award = 5537,
+	type = 5,
+	desc = "愛斯基摩上陣完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "aisijimo",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AISIJIMOREN4",
+	target_id = "20132",
+	next_task = "5745",
+	auto_commit = 0,
+	scene = "",
+	id = 5744,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5745] = {
+	name = "宣傳也很重要！",
+	guild_coin_award = 0,
+	award = 5538,
+	type = 5,
+	desc = "愛斯基摩好感度達到100",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "aisijimo",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AISIJIMOREN5",
+	target_id = "20132",
+	next_task = "5746",
+	auto_commit = 0,
+	scene = "",
+	id = 5745,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5746] = {
+	name = "夏日雪世界",
+	guild_coin_award = 0,
+	award = 5539,
+	type = 5,
+	desc = "愛斯基摩突破至滿星",
+	count_inherit = 0,
+	sub_type = 35,
+	target_id_2 = "",
+	story_icon = "aisijimo",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AISIJIMOREN6",
+	target_id = "201324",
+	next_task = "5747",
+	auto_commit = 0,
+	scene = "",
+	id = 5746,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5747] = {
+	name = "愛斯基摩的快樂",
+	guild_coin_award = 0,
+	award = 5540,
+	type = 5,
+	desc = "愛斯基摩等級達到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "aisijimo",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "AISIJIMOREN7",
+	target_id = "20132",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5747,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18002,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[5751] = {
 	name = "為什麼秘書艦是我？",
 	guild_coin_award = 0,
@@ -127801,6 +128099,306 @@ _G.pg.base.task_data_template[17448] = {
 			1,
 			241,
 			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17449] = {
+	name = "『纳尔维克下篇复刻』SP1通关一次",
+	guild_coin_award = 0,
+	award = 97041,
+	type = 6,
+	desc = "擊敗SP1旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17449,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1370001
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		},
+		{
+			2,
+			18002,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1370001,
+			chapterId = 1370001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17450] = {
+	name = "『纳尔维克下篇复刻』SP2通关一次",
+	guild_coin_award = 0,
+	award = 97042,
+	type = 6,
+	desc = "擊敗SP2旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17450,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1370002
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		},
+		{
+			2,
+			18002,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1370001,
+			chapterId = 1370002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17451] = {
+	name = "『纳尔维克下篇复刻』SP3通关一次",
+	guild_coin_award = 0,
+	award = 97043,
+	type = 6,
+	desc = "擊敗SP3旗艦1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17451,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1370003
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		},
+		{
+			2,
+			18003,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1370001,
+			chapterId = 1370003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17452] = {
+	name = "『纳尔维克下篇复刻』SP1的三星",
+	guild_coin_award = 0,
+	award = 97044,
+	type = 6,
+	desc = "完成SP1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1370001",
+	next_task = "17453",
+	auto_commit = 0,
+	story_id = "",
+	id = 17452,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1370001,
+			chapterId = 1370001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17453] = {
+	name = "『纳尔维克下篇复刻』SP2的三星",
+	guild_coin_award = 0,
+	award = 97045,
+	type = 6,
+	desc = "完成SP2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1370002",
+	next_task = "17454",
+	auto_commit = 0,
+	story_id = "",
+	id = 17453,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1370001,
+			chapterId = 1370002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17454] = {
+	name = "『纳尔维克下篇复刻』SP3的三星",
+	guild_coin_award = 0,
+	award = 97046,
+	type = 6,
+	desc = "完成SP3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1370003",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17454,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1370001,
+			chapterId = 1370003
 		}
 	}
 }

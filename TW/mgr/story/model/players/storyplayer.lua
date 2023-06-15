@@ -901,7 +901,7 @@ end
 function slot0.OnStart(slot0)
 end
 
-function slot0.OnReset(slot0, slot1)
+function slot0.OnReset(slot0, slot1, slot2)
 end
 
 function slot0.OnBgUpdate(slot0, slot1)

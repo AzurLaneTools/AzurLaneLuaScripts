@@ -8,16 +8,15 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
+	slot7 = slot2.callback
+	slot8 = slot2.onConfirm
+
 	if not slot5:getStudentById(slot3) then
-		if callback ~= nil then
-			callback()
-		end
+		existCall(slot7)
 
 		return
 	end
 
-	slot7 = slot2.callback
-	slot8 = slot2.onConfirm
 	slot10 = getProxy(BayProxy):getShipById(slot6.shipId)
 
 	if not slot10.skills[slot6:getSkillId(slot10)] then

@@ -55,10 +55,10 @@ end
 function slot0.OnPlayerUpdated(slot0)
 end
 
-function slot0.OnDisplayUpdated(slot0)
+function slot0.OnDisplayUpdated(slot0, slot1)
 end
 
-function slot0.OnCardUpdated(slot0)
+function slot0.OnCardUpdated(slot0, slot1)
 end
 
 function slot0.OnDormUpdated(slot0)

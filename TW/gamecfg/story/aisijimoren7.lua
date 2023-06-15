@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“惊喜”\n\n<size=45>七　爱斯基摩人的快乐</size>",
+					"夏日里的“驚喜”\n\n<size=45>七 愛斯基摩的快樂</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在少女们的欢声笑语中，不知不觉到太阳落山的时间了。",
+			say = "在少女們的歡聲笑語中，不知不覺到太陽落山的時間了。",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "不得不说，在炎热的夏日里创造出短暂的冬季，这个想法真的很厉害。",
+			say = "不得不說，在炎熱的夏日裡創造出短暫的冬季，這個想法真的很厲害。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，玩得真开心啊~指挥官怎么样，玩的开心么？",
+			say = "啊，玩得真開心啊~指揮官怎麼樣，玩的開心嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示玩得很开心",
+					content = "表示玩得很開心",
 					flag = 1
 				}
 			}
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，那就太好了~太阳要落山了，大家都陆续回去，指挥官也快点回去吧。",
+			say = "嘿嘿，那就太好了~太陽要落山了，大家都陸續回去，指揮官也快點回去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我还要留在这里处理一下收尾工作，得把泳池恢复原状才是嘛~",
+			say = "我還要留在這裡處理一下收尾工作，得把泳池恢復原狀才是嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示多一个人会收拾的更快",
+					content = "表示多一個人會收拾的更快",
 					flag = 1
 				}
 			}
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？指挥官愿意留下来帮忙么，太好了~！那就让我们一起为这场惊喜画上句号吧。",
+			say = "哎？指揮官願意留下來幫忙嗎，太好了~！那就讓我們一起為這場驚喜畫上句號吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "收尾工作花费了比预想中更多的时间，爱斯基摩人居然一个人就准备好了这些么。",
+			say = "收尾工作花費了比預想中更多的時間，愛斯基摩居然一個人就準備好了這些麼。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前在准备的时候确实感觉好忙好累啊~不过只要能看到大家的笑容，这一切都是值得的！嗯！",
+			say = "之前在準備的時候確實感覺好忙好累啊~不過只要能看到大家的笑容，這一切都是值得的！嗯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要大家能开心起来，我也能开心起来哦。",
+			say = "只要大家能開心起來，我也能開心起來哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像这样大家在一起热热闹闹的玩，对我来说就是最快乐的事~",
+			say = "像這樣大家在一起熱熱鬧鬧的玩，對我來說就是最快樂的事~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说起来，指挥官喜欢什么鱼？",
+			say = "說起來，指揮官喜歡什麼魚？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "喜欢的鱼么，唔--------------",
+			say = "喜歡的魚嗎，唔--------------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,23 +252,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = " ......哎？为什么突然问起这种事。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 201320,
-			side = 2,
-			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哼哼~一场惊喜的落幕，肯定预示着另一场惊喜的开始嘛~",
+			say = "......哎？為什麼突然問起這種事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +268,23 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今后我还打算继续做更多能让港区的大家都能感到快乐的事哦！",
+			say = "哼哼~一場驚喜的落幕，肯定預示著另一場驚喜的開始嘛~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 201320,
+			side = 2,
+			bgName = "bg_main_twilight",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "今後我還打算繼續做更多能讓港區的大家都能感到快樂的事哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下次的话......就按之前本森提到过的，举办一场钓鱼大赛好了。",
+			say = "下次的話......就按之前班森提到過的，舉辦一場釣魚大賽好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一次，指挥官愿意陪着我一起准备么？",
+			say = "這一次，指揮官願意陪著我一起準備嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			bgName = "bg_main_twilight",
 			dir = 1,
 			blackBg = true,
-			say = "如果能让爱斯基摩人和港区的同伴感到快乐的话，这样的活动多来一些也无妨吧——",
+			say = "如果能讓愛斯基摩和港區的同伴感到快樂的話，這樣的活動多來一些也無妨吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

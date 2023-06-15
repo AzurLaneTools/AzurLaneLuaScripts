@@ -232,10 +232,10 @@ function slot0.ClearCache(slot0, slot1)
 	end
 end
 
-function slot0.ClearAllCacheAsyn(slot0)
-	for slot4, slot5 in pairs(uv0.caches) do
-		if not IsNil(slot5.asset) then
-			Object.Destroy(slot5.asset)
+function slot0.ClearAllCacheAsyn()
+	for slot3, slot4 in pairs(uv0.caches) do
+		if not IsNil(slot4.asset) then
+			Object.Destroy(slot4.asset)
 		end
 	end
 
@@ -244,7 +244,7 @@ function slot0.ClearAllCacheAsyn(slot0)
 	gcAll(false)
 end
 
-function slot0.ClearAllCache(slot0)
+function slot0.ClearAllCache()
 	uv0.loader = {}
 
 	uv0.ClearAllCacheAsyn()

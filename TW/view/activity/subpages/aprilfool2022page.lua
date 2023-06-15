@@ -71,12 +71,12 @@ function slot0.OnFirstFlush(slot0)
 		end)
 	end, SFX_PANEL)
 
-	function slot1(slot0, slot1)
-		slot3 = GetOrAddComponent(slot0, "ButtonEventExtend").onPointerDown
+	function slot1(slot0, slot1, slot2)
+		slot4 = GetOrAddComponent(slot1, "ButtonEventExtend").onPointerDown
 
-		pg.DelegateInfo.Add(binder, slot3)
-		slot3:RemoveAllListeners()
-		slot3:AddListener(function ()
+		pg.DelegateInfo.Add(slot0, slot4)
+		slot4:RemoveAllListeners()
+		slot4:AddListener(function ()
 			if uv0.activity.data1 ~= 0 then
 				return
 			end
@@ -115,7 +115,7 @@ function slot0.OnFirstFlush(slot0)
 				activity_id = uv0.activity.id
 			})
 		end)
-		uv1(slot1, slot0)
+		uv1(uv0, slot1, slot0)
 	end)
 end
 
@@ -126,10 +126,6 @@ function slot0.OnUpdateFlush(slot0)
 	table.Foreach(slot0.Order, function (slot0, slot1)
 		setActive(uv0.stars[slot1]:Find("Effect"), slot0 <= uv0.clickIndex or uv0.activity.data1 ~= 0)
 	end)
-end
-
-function slot0.OnDestroy(slot0)
-	uv0.super.OnDestroy(slot0)
 end
 
 return slot0

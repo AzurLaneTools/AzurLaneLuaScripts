@@ -188,6 +188,7 @@ pg.memory_group = setmetatable({
 		569,
 		570,
 		571,
+		572,
 		573
 	}
 }, confHX)
@@ -3718,6 +3719,22 @@ pg.base.memory_group = {
 			1999,
 			2000,
 			2001
+		}
+	},
+	[572] = {
+		icon = "title_chara_aisijimoren",
+		subtype = 0,
+		type = 3,
+		id = 572,
+		title = "夏日里的“驚喜”",
+		memories = {
+			2041,
+			2042,
+			2043,
+			2044,
+			2045,
+			2046,
+			2047
 		}
 	},
 	[573] = {

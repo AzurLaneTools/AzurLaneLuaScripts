@@ -10,7 +10,6 @@ slot0.GET_RANK_CNT = "WorldBossMediator:GET_RANK_CNT"
 slot0.UPDATE_CACHE_BOSS_HP = "WorldBossMediator:UPDATE_CACHE_BOSS_HP"
 slot0.GO_META = "WorldBossMediator:GO_META"
 slot0.FETCH_RANK_FORMATION = "WorldBossMediator:FETCH_RANK_FORMATION"
-slot0.ON_META_AWARD_PREVIEW = "WorldBossMediator:ON_META_AWARD_PREVIEW"
 slot0.ON_SWITCH_ARCHIVES = "WorldBossMediator:ON_SWITCH_ARCHIVES"
 slot0.ON_ACTIVE_ARCHIVES_BOSS = "WorldBossMediator:ON_ACTIVE_ARCHIVES_BOSS"
 slot0.ON_ARCHIVES_BOSS_AUTO_BATTLE = "WorldBossMediator:ON_ARCHIVES_BOSS_AUTO_BATTLE"
@@ -51,15 +50,6 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.SWITCH_WORLD_BOSS_ARCHIVES, {
 			id = slot1
 		})
-	end)
-	slot0:bind(uv0.ON_META_AWARD_PREVIEW, function (slot0, slot1)
-		uv0:addSubLayers(Context.New({
-			viewComponent = ArchivesMetaPTAwardPreviewLayer,
-			mediator = ArchivesMetaPTAwardPreviewMediator,
-			data = {
-				metaProgressVO = slot1
-			}
-		}))
 	end)
 	slot0:bind(uv0.FETCH_RANK_FORMATION, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.WORLD_BOSS_GET_FORMATION, {

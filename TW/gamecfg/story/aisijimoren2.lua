@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“惊喜”\n\n<size=45>二　来自太空的兔兔星雪糕</size>",
+					"夏日里的“驚喜”\n\n<size=45>二 來自太空的兔兔星冰淇淋</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼~哼哼~啦啦啦~（开心的整理文件中）",
+			say = "哼~哼哼~啦啦啦~（開心的整理文件中）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,23 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "明明是炎热夏日的正午，最容易感到疲惫的时候，爱斯基摩人还真是精力充沛啊......",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 201320,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "嗯？指挥官为什么这么看着我...啊！到午休时间了么。",
+			say = "明明是炎熱夏日的正午，最容易感到疲憊的時候，愛斯基摩還真是精力充沛啊......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +85,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，指挥官半天的工作辛苦了！今天还真热啊...我去找点解渴又解暑的东西来吧~！",
+			say = "嗯？指揮官為什麼這麼看著我...啊！到午休時間了嗎。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 201320,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "嘿嘿嘿，指揮官半天的工作辛苦了！今天還真熱啊...我去找點解渴又消暑的東西來吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）",
+			say = "（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，爱斯基摩人，我给你们带了点好东西来哦~",
+			say = "指揮官，愛斯基摩，我幫你們帶了點好東西來哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些是......兔兔形状的雪糕？！",
+			say = "這些是......兔兔形狀的冰淇淋？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚还在跟指挥官说找点解暑的东西来...居、居然正好就送来了雪糕！",
+			say = "剛剛還在跟指揮官說找點解暑的東西來...居、居然正好就送來了冰淇淋！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，今天实在是太热啦...看着大家都没什么精神，萨拉托加就说做点雪糕给大家提提神。",
+			say = "嘿嘿，今天實在是太熱啦...看大家都沒什麼精神，薩拉托加就說做點冰淇淋幫大家提提神。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,23 +213,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "萨拉托加做的雪糕......难道说？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101270,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "没错~萨拉托加用舰载机将原材料全部准备好，我和本森姐姐她们一起用模具加工出来的。",
+			say = "薩拉托加做的冰淇淋......難道說？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +229,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其名为「来自太空的兔兔星雪糕」哦~",
+			say = "沒錯~薩拉托加用艦載機將原材料全部準備好，我和班森姐姐她們一起用模具加工出來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +245,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝利还要给其他人去送雪糕，指挥官，爱斯基摩人，工作加油哦~",
+			say = "其名為「來自太空的兔兔星冰淇淋」哦~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101270,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "貝利還要給其他人去送冰淇淋，指揮官，愛斯基摩，工作加油哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "贝利留下了一盒兔兔形的雪糕，转身离开了。",
+			say = "貝利留下了一盒兔兔形的冰淇淋，轉身離開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼——！指挥官也来一个吧~",
+			say = "呼——！指揮官也來一個吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "世界上有雪糕这种美好的东西真是太好了！",
+			say = "世界上有冰淇淋這種美好的東西真是太好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯，夏天有雪糕这种美好的东西真是太好了。",
+			say = "嗯，夏天有冰淇淋這種美好的東西真是太好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，总感觉这样还远远不够呢......",
+			say = "不過，總感覺這樣還遠遠不夠呢......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "夏日的应对对策...盛大一点的...唔......啊，有了！",
+			say = "夏日的應對對策...盛大一點的...唔......啊，有了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "爱斯基摩人盯着手上的雪糕愣了一会儿，然后好像突然想到了什么主意。",
+			say = "愛斯基摩盯著手上的冰淇淋愣了一會兒，然後好像突然想到了什麼主意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问爱斯基摩人的想法",
+					content = "詢問愛斯基摩的想法",
 					flag = 1
 				}
 			}
@@ -426,7 +426,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官就吃着雪糕在指挥室好好休息，我稍微离开一会哦~！",
+			say = "指揮官就吃著冰淇淋在指揮室好好休息，我稍微離開一下哦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

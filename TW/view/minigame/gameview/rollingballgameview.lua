@@ -253,7 +253,7 @@ function slot0.gameStop(slot0)
 	end
 
 	slot0:clearUI()
-	slot0:showScoreUI(slot0.gameScore, 1000)
+	slot0:showScoreUI(slot0.gameScore)
 end
 
 function slot0.timerStart(slot0)
@@ -733,7 +733,7 @@ function slot0.checkGridRemove(slot0, slot1, slot2, slot3)
 					slot6 = slot0.gridDic[slot11][slot3]:getRemoveId()
 				end
 			else
-				slot5 = nil
+				slot5 = false
 			end
 		end
 
@@ -762,7 +762,7 @@ function slot0.checkGridRemove(slot0, slot1, slot2, slot3)
 					slot6 = slot0.gridDic[slot2][slot11]:getRemoveId()
 				end
 			else
-				slot5 = nil
+				slot5 = false
 			end
 		end
 
@@ -812,8 +812,7 @@ function slot0.checkChangePos(slot0, slot1)
 	slot4, slot5 = slot0.selectGrid:getPosData()
 
 	if slot1 == slot0.selectGrid or slot4 ~= slot2 and slot5 ~= slot3 then
-		slot0:moveGridsBySelfPos(slot0.gridDic, slot0.selectGrid, function ()
-		end)
+		slot0:moveGridsBySelfPos(slot0.gridDic, slot0.selectGrid)
 
 		slot0.selectEnterGrid = nil
 		slot0.changeGridsDic = nil
