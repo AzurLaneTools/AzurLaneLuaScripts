@@ -403,20 +403,24 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._backBtn, function ()
-		GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
+		slot0 = uv0
 
-		uv0:uiExitAnimating()
+		slot0:emit(LimitChallengePreCombatMediator.ON_UPDATE_CUSTOM_FLEET)
+
+		GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
+		slot1 = uv0
+
+		slot1:uiExitAnimating()
 		LeanTween.delayedCall(0.3, System.Action(function ()
 			uv0:closeView()
 		end))
-		uv0:emit(LimitChallengePreCombatMediator.ON_UPDATE_CUSTOM_FLEET)
 	end, SFX_CANCEL)
 
 	slot3 = slot0._tf
 
 	onButton(slot0, slot3:Find("blur_panel/top/option"), function ()
-		uv0:quickExitFunc()
 		uv0:emit(LimitChallengePreCombatMediator.ON_UPDATE_CUSTOM_FLEET)
+		uv0:quickExitFunc()
 	end, SFX_PANEL)
 	onButton(slot0, slot0._startBtn, function ()
 		uv0:emit(LimitChallengePreCombatMediator.ON_START)
@@ -467,7 +471,9 @@ function slot0.didEnter(slot0)
 		uv0:uiStartAnimating()
 	end)
 	slot0:SetFleetStepper()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+		groupName = LayerWeightConst.GROUP_FORMATION_PAGE
+	})
 end
 
 function slot0.UpdateSubToggle(slot0)

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“驚喜”\n\n<size=45>五 宣傳也很重要！</size>",
+					"夏日裡的“驚喜”\n\n<size=45>五 宣傳也很重要！</size>",
 					1
 				}
 			}
