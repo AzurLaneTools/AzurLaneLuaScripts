@@ -471,7 +471,9 @@ function slot0.didEnter(slot0)
 		uv0:uiStartAnimating()
 	end)
 	slot0:SetFleetStepper()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+		groupName = LayerWeightConst.GROUP_FORMATION_PAGE
+	})
 end
 
 function slot0.UpdateSubToggle(slot0)
