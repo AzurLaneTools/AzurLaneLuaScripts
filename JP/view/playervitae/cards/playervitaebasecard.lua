@@ -55,7 +55,7 @@ end
 function slot0.OnInit(slot0)
 end
 
-function slot0.OnUpdate(slot0, slot1)
+function slot0.OnUpdate(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot0.OnDispose(slot0)

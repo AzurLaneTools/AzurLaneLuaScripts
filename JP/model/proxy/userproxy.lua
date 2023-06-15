@@ -39,19 +39,19 @@ function slot0.setLastLogin(slot0, slot1)
 	end
 end
 
-function slot0.getLastLoginUser(slot0)
-	slot1 = tonumber(PlayerPrefs.GetString("user.type"))
-	slot3 = PlayerPrefs.GetString("user.arg2")
-	slot4 = PlayerPrefs.GetString("user.arg3")
+function slot0.getLastLoginUser()
+	slot0 = tonumber(PlayerPrefs.GetString("user.type"))
+	slot2 = PlayerPrefs.GetString("user.arg2")
+	slot3 = PlayerPrefs.GetString("user.arg3")
 
-	print("last login:", slot1, " arg1:", PlayerPrefs.GetString("user.arg1"))
+	print("last login:", slot0, " arg1:", PlayerPrefs.GetString("user.arg1"))
 
-	if slot1 ~= "" and slot2 ~= "" and slot3 ~= "" then
+	if slot0 ~= "" and slot1 ~= "" and slot2 ~= "" then
 		return User.New({
-			type = slot1,
-			arg1 = slot2,
-			arg2 = slot3,
-			arg3 = slot4
+			type = slot0,
+			arg1 = slot1,
+			arg2 = slot2,
+			arg3 = slot3
 		})
 	end
 

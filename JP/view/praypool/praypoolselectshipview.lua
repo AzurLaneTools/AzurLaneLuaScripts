@@ -142,7 +142,7 @@ function slot0.initUI(slot0)
 end
 
 function slot0.updateUI(slot0)
-	setImageSprite(slot0.poolNameImg, GetSpriteFromAtlas("ui/prayselectshippage_atlas", "pool_name_" .. slot0.poolType, true), true)
+	setImageSprite(slot0.poolNameImg, GetSpriteFromAtlas("ui/prayselectshippage_atlas", "pool_name_" .. slot0.poolType), true)
 	slot0:updateSelectedShipList()
 	slot0:updateShipList(slot0.fliteList)
 end

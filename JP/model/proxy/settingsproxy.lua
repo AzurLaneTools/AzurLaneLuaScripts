@@ -593,11 +593,11 @@ function slot0.GetCommanderPlaySortData(slot0)
 	return slot0.commanderPlaySortDataValue1, slot0.commanderPlaySortDataValue2
 end
 
-function slot0.IsShowActivityMapSPTip(slot0)
+function slot0.IsShowActivityMapSPTip()
 	return PlayerPrefs.GetInt("ActivityMapSPTip" .. getProxy(PlayerProxy):getRawData().id, 0) < pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.SetActivityMapSPTip(slot0)
+function slot0.SetActivityMapSPTip()
 	PlayerPrefs.SetInt("ActivityMapSPTip" .. getProxy(PlayerProxy):getRawData().id, GetZeroTime())
 	PlayerPrefs.Save()
 end

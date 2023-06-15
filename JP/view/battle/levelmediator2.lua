@@ -146,7 +146,7 @@ function slot0.register(slot0)
 		end
 	end)
 	slot0:bind(uv0.CLICK_CHALLENGE_BTN, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.CHALLENGE_MAIN_SCENE)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.LIMIT_CHALLENGE)
 	end)
 	slot0:bind(uv0.ON_DAILY_LEVEL, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DAILYLEVEL)

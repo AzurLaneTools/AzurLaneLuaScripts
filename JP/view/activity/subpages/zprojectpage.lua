@@ -12,7 +12,7 @@ function slot0.OnFirstFlush(slot0)
 	slot1 = slot0.activity
 
 	updateDrop(slot0.awardTF, slot1:getConfig("config_client").drop)
-	onButton(slot0, item, function ()
+	onButton(slot0, slot0.awardTF, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
 end

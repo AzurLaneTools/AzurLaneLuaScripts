@@ -5,7 +5,7 @@ return {
 		{
 			stageIndex = 1,
 			failCondition = 1,
-			timeCount = 180,
+			timeCount = 600,
 			passCondition = 1,
 			backGroundStageID = 1,
 			totalArea = {
@@ -61,7 +61,7 @@ return {
 							corrdinate = {
 								-10,
 								0,
-								70
+								67
 							},
 							buffList = {
 								600006
@@ -172,7 +172,7 @@ return {
 								},
 								{
 									switchParam = 8,
-									switchTo = 300,
+									switchTo = 0,
 									index = 200,
 									switchType = 1,
 									setAI = 20006
@@ -192,13 +192,13 @@ return {
 							corrdinate = {
 								-10,
 								0,
-								40
+								43
 							},
 							buffList = {
 								600006
 							},
 							bossData = {
-								hpBarNum = 50,
+								hpBarNum = 140,
 								icon = ""
 							},
 							phase = {
@@ -303,14 +303,14 @@ return {
 								},
 								{
 									switchParam = 8,
-									switchTo = 300,
+									switchTo = 0,
 									index = 200,
 									switchType = 1,
 									setAI = 20006
 								},
 								{
 									switchParam = -10,
-									switchTo = 1,
+									switchTo = 0,
 									index = 300,
 									switchType = 4,
 									setAI = 200002

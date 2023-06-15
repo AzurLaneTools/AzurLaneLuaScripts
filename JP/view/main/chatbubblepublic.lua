@@ -26,7 +26,7 @@ function slot0.update(slot0, slot1)
 	end)
 
 	if slot0.channel then
-		slot0.channel.sprite = GetSpriteFromAtlas("channel", ChatConst.GetChannelSprite(slot1.type) .. "_1920", true)
+		slot0.channel.sprite = GetSpriteFromAtlas("channel", ChatConst.GetChannelSprite(slot1.type) .. "_1920")
 
 		slot0.channel:SetNativeSize()
 	end

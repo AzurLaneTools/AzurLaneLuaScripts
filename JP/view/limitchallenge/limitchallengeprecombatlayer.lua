@@ -8,7 +8,8 @@ function slot0.getUIName(slot0)
 	return "LimitChallengePreCombatUI"
 end
 
-function slot0.ResUISettings(slot0)
+function slot0.tempCache(slot0)
+	return true
 end
 
 function slot0.init(slot0)
@@ -73,6 +74,7 @@ function slot0.CommonInit(slot0)
 	setText(findTF(slot0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
 	setText(findTF(slot0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
 	setText(findTF(slot0._tf, "middle/gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
+	setText(slot0._costContainer:Find("title"), i18n("pre_combat_consume"))
 	setText(findTF(slot0._tf, "right/infomation/target/title/GameObject"), i18n("pre_combat_targets"))
 	setText(findTF(slot0._tf, "right/infomation/atlasloot/atlasloot/title/GameObject"), i18n("pre_combat_atlasloot"))
 	setText(slot0._startBtn:Find("text"), i18n("pre_combat_start"))
@@ -84,6 +86,8 @@ function slot0.CommonInit(slot0)
 	slot0.btnRegular = slot0:findTF("fleet_select/regular", slot0._bottom)
 	slot0.btnSub = slot0:findTF("fleet_select/sub", slot0._bottom)
 
+	setText(slot0.btnRegular:Find("fleet/CnFleet"), Fleet.DEFAULT_NAME[1])
+	setText(slot0.btnSub:Find("fleet/CnFleet"), Fleet.DEFAULT_NAME[1])
 	setAnchoredPosition(slot0._middle, {
 		x = -840
 	})
@@ -400,13 +404,20 @@ end
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._backBtn, function ()
 		GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
-		slot1 = uv0
 
-		slot1:uiExitAnimating()
+		uv0:uiExitAnimating()
 		LeanTween.delayedCall(0.3, System.Action(function ()
 			uv0:closeView()
 		end))
+		uv0:emit(LimitChallengePreCombatMediator.ON_UPDATE_CUSTOM_FLEET)
 	end, SFX_CANCEL)
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("blur_panel/top/option"), function ()
+		uv0:quickExitFunc()
+		uv0:emit(LimitChallengePreCombatMediator.ON_UPDATE_CUSTOM_FLEET)
+	end, SFX_PANEL)
 	onButton(slot0, slot0._startBtn, function ()
 		uv0:emit(LimitChallengePreCombatMediator.ON_START)
 	end, SFX_UI_WEIGHANCHOR)
@@ -456,6 +467,7 @@ function slot0.didEnter(slot0)
 		uv0:uiStartAnimating()
 	end)
 	slot0:SetFleetStepper()
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 end
 
 function slot0.UpdateSubToggle(slot0)
@@ -521,6 +533,7 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0.commanderFormationPanel:Destroy()
 	slot0._formationLogic:Destroy()
 

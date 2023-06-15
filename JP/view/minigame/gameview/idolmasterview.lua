@@ -330,7 +330,7 @@ function slot40(slot0, slot1, slot2)
 			return #slot0.fans
 		end,
 		changeCharAction = function (slot0, slot1, slot2, slot3)
-			if slot0.modelData.actionName == slot1 and slot0.modelData.actionName ~= stateJump then
+			if slot0.modelData.actionName == slot1 then
 				return
 			end
 

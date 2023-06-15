@@ -57,7 +57,7 @@ function slot0.register(slot0)
 
 	slot2 = slot0.viewComponent
 
-	slot2:setShipsCount(table.getCount(slot0.shipsById))
+	slot2:setShipsCount(slot1:getShipCount())
 
 	slot2 = getProxy(PlayerProxy)
 	slot4 = slot0.viewComponent
@@ -120,6 +120,7 @@ function slot0.handleNotification(slot0, slot1)
 		end
 
 		slot0.viewComponent:updateShipCount()
+		slot0.viewComponent:setShipsCount(getProxy(BayProxy):getShipCount())
 		slot0.viewComponent:updateBarInfo()
 		slot0.viewComponent:updateSelected()
 		slot0.viewComponent:updateDestroyRes()

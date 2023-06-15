@@ -2,8 +2,7 @@ slot0 = class("MonopolyCarGame")
 slot1 = 100
 slot2 = 50
 slot3 = "redcar"
-slot4, slot5 = nil
-slot6 = {
+slot4 = {
 	"gaoxiong_5",
 	"aidang_5",
 	"dafeng_5",
@@ -14,26 +13,15 @@ slot6 = {
 	"ougen_5",
 	"qiye_7"
 }
-slot7 = {
-	"gaoxiong_5",
-	"aidang_5",
-	"dafeng_5",
-	"yuekegongjue_2",
-	"weiershiqinwang_3",
-	"xianghe_3",
-	"ruihe_3",
-	"ougen_5",
-	"qiye_7"
-}
-slot8 = 0.6
-slot9 = "B-stand"
-slot10 = "F-stand"
-slot11 = "B-walk"
-slot12 = "F-walk"
-slot13 = "typeMoveUp"
-slot14 = "typeMoveDown"
-slot15 = "typeMoveLeft"
-slot16 = "typeMoveRight"
+slot5 = 0.6
+slot6 = "B-stand"
+slot7 = "F-stand"
+slot8 = "B-walk"
+slot9 = "F-walk"
+slot10 = "typeMoveUp"
+slot11 = "typeMoveDown"
+slot12 = "typeMoveLeft"
+slot13 = "typeMoveRight"
 
 function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0._binder = slot1
@@ -49,9 +37,7 @@ function slot0.initData(slot0)
 	slot0.leftCount = 0
 	slot0.inAnimatedFlag = false
 	slot0.mapCells = {}
-	slot1 = math.random(1, #uv0)
-	uv1 = uv0[slot1]
-	uv2 = uv3[slot1]
+	slot0.showSkinId = uv0[math.random(1, #uv0)]
 end
 
 function slot0.initUI(slot0)
@@ -307,7 +293,7 @@ function slot0.initChar(slot0)
 
 	slot1 = PoolMgr.GetInstance()
 
-	slot1:GetSpineChar(uv1, true, function (slot0)
+	slot1:GetSpineChar(slot0.showSkinId, true, function (slot0)
 		uv0.showModel = slot0
 		uv0.showModel.transform.localScale = Vector3.one
 		uv0.showModel.transform.localPosition = Vector3.zero
@@ -435,7 +421,7 @@ function slot0.checkStep(slot0, slot1)
 
 			seriesAsync({
 				function (slot0)
-					uv1:moveCharWithPaths(uv0, #uv0 > 3 and stateRun or stateJump, slot0)
+					uv0:moveCharWithPaths(uv1, nil, slot0)
 				end,
 				function (slot0)
 					uv0:checkEffect(slot0)
@@ -671,8 +657,8 @@ function slot0.moveCharWithPaths(slot0, slot1, slot2, slot3)
 end
 
 function slot0.dispose(slot0)
-	PoolMgr.GetInstance():ReturnSpineChar(uv0, slot0.showModel)
-	PoolMgr.GetInstance():ReturnSpineChar(show, slot0.showSkinId)
+	PoolMgr.GetInstance():ReturnSpineChar(uv0, slot0.model)
+	PoolMgr.GetInstance():ReturnSpineChar(slot0.showSkinId, slot0.showModel)
 end
 
 return slot0

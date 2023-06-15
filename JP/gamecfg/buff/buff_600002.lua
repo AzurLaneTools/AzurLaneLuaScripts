@@ -14,7 +14,7 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				time = 0.1
+				maxX = -70
 			}
 		}
 	}

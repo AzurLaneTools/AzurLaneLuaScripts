@@ -96,6 +96,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 
 	function slot4()
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeChallenge)
 	end
 
 	slot5 = SFX_PANEL
@@ -125,8 +126,27 @@ function slot0.addListener(slot0)
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setText(uv0:findTF("Name", slot2), uv0.descList[slot1 + 1][1])
-			setText(uv0:findTF("Desc", slot2), uv0.descList[slot1 + 1][2])
+			slot3 = uv0:findTF("Name", slot2)
+			slot4 = uv0:findTF("Desc", slot2)
+			slot6 = uv0.descList[slot1 + 1][2]
+
+			setText(slot3, uv0.descList[slot1 + 1][1])
+			Canvas.ForceUpdateCanvases()
+
+			slot7 = 24
+			slot8 = "　"
+			slot9, slot10 = math.modf(slot3.sizeDelta.x / slot7)
+			slot11 = math.ceil(slot7 * slot10)
+
+			for slot15 = 1, slot9 do
+				slot8 = slot8 .. "　"
+			end
+
+			if slot10 > 0 then
+				slot8 = slot8 .. "<size=" .. slot11 .. ">　</size>"
+			end
+
+			setText(slot4, slot8 .. slot6)
 		end
 	end)
 end
@@ -202,7 +222,7 @@ function slot0.updateBossImg(slot0)
 	slot4 = slot2.information_icon
 
 	setImageSprite(slot0.bgImg, LoadSprite("limitchallenge/boss/" .. slot3, slot3))
-	setImageSprite(slot0.nameImg, LoadSprite("limitchallenge/name/" .. slot4, slot4))
+	setImageSprite(slot0.nameImg, LoadSprite("limitchallenge/name/" .. slot4, slot4), true)
 end
 
 function slot0.updateDescPanel(slot0)
@@ -223,16 +243,21 @@ function slot0.updateAward(slot0)
 
 	setActive(slot0.awardGotTF, slot0.proxy:isAwardedByChallengeID(slot1))
 
-	if #pg.expedition_constellation_challenge_template[slot1].award_display > 0 then
+	if pg.expedition_constellation_challenge_template[slot1].award_display[1] and #slot2 > 0 then
 		updateDrop(slot0.awardIconTF, {
 			type = slot2[1],
 			id = slot2[2],
-			count = slot2[3]
+			count = slot2[3] or 1
 		})
+		onButton(slot0, slot0.awardIconTF, function ()
+			uv0:emit(BaseUI.ON_DROP, uv1)
+		end, SFX_PANEL)
 		setActive(slot0.awardIconTF, true)
-	else
-		setActive(slot0.awardIconTF, false)
+
+		return
 	end
+
+	setActive(slot0.awardIconTF, false)
 end
 
 function slot0.trigeHigestUnlockLevel(slot0)

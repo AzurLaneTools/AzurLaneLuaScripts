@@ -477,6 +477,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>無人島でのバケーションを楽しもう~！</color>\nイベント「潮風と夏の無人島」に参加した指揮官に贈る",
 		scene = {}
 	},
+	[10001] = {
+		time_limit_type = 0,
+		name = "限界挑戦・ふたご座",
+		gain_by = "",
+		id = 10001,
+		time_second = 0,
+		desc = "<size=24><color=#ffffff>「ふたご座」限界挑戦ステージクリア記念。己の限界に挑む勇気のある指揮官に贈る</color>「限界挑戦」で入手可能（23.06.15-23.06.30）</size>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -530,6 +539,7 @@ pg.item_data_frame = {
 		410,
 		501,
 		601,
-		602
+		602,
+		10001
 	}
 }

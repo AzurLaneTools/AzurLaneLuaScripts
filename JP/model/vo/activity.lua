@@ -407,17 +407,22 @@ function slot0.readyToAchieve(slot0)
 				if pg.activity_event_building[slot6] and slot7 < #slot8.buff and slot5.all(slot8.material[slot7], function (slot0)
 					slot2 = slot0[2]
 					slot3 = slot0[3]
-					slot4 = nil
+					slot4 = 0
 
 					if slot0[1] == DROP_TYPE_VITEM then
-						assert(AcessWithinNull(pg.item_data_statistics[slot2], "link_id") == activity.id)
+						assert(AcessWithinNull(pg.item_data_statistics[slot2], "link_id") == uv0.id)
 
-						slot4 = activity
+						slot4 = uv0:GetMaterialCount(slot2)
 					elseif DROP_TYPE_USE_ACTIVITY_DROP < slot1 then
-						slot4 = getProxy(ActivityProxy):getActivityById(AcessWithinNull(pg.activity_drop_type[slot1], "activity_id"))
+						slot5 = AcessWithinNull(pg.activity_drop_type[slot1], "activity_id")
+
+						assert(slot5)
+
+						bagAct = getProxy(ActivityProxy):getActivityById(slot5)
+						slot4 = bagAct:getVitemNumber(slot2)
 					end
 
-					return slot3 <= (slot4.data1KeyValueList[1][slot2] or 0)
+					return slot3 <= slot4
 				end) then
 					return true
 				end

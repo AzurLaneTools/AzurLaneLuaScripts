@@ -34,7 +34,7 @@ function slot0.initUI(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = slot1 + 1
 
-			setImageSprite(uv0:findTF("PoolImg", slot2), GetSpriteFromAtlas("ui/prayselectpoolpage_atlas", "pool" .. slot3, true))
+			setImageSprite(uv0:findTF("PoolImg", slot2), GetSpriteFromAtlas("ui/prayselectpoolpage_atlas", "pool" .. slot3))
 			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
 					uv0.nextBtnCom.interactable = true

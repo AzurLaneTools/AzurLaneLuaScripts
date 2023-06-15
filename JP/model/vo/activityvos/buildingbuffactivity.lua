@@ -16,4 +16,8 @@ function slot0.GetBuildingIds(slot0)
 	return slot0:getConfig("config_data")
 end
 
+function slot0.GetMaterialCount(slot0, slot1)
+	return slot0.data1KeyValueList[1][slot1] or 0
+end
+
 return slot0

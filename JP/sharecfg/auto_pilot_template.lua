@@ -12341,7 +12341,7 @@ pg.auto_pilot_template = {
 				type = 1,
 				param = {
 					x = -10,
-					z = 70
+					z = 67
 				}
 			},
 			{
@@ -12369,7 +12369,7 @@ pg.auto_pilot_template = {
 				type = 1,
 				param = {
 					x = -10,
-					z = 40
+					z = 43
 				}
 			},
 			{
@@ -12378,7 +12378,7 @@ pg.auto_pilot_template = {
 				type = 4,
 				param = {
 					z = 55,
-					radius = 15,
+					radius = 12,
 					antiClockWise = false,
 					duration = -1,
 					x = -10
@@ -12397,7 +12397,7 @@ pg.auto_pilot_template = {
 				type = 4,
 				param = {
 					z = 55,
-					radius = 15,
+					radius = 12,
 					antiClockWise = false,
 					duration = -1,
 					x = -10

@@ -36,6 +36,8 @@ function slot0.setPassTime(slot0, slot1, slot2)
 		slot0.passTimeDict[slot1] = slot2
 	elseif slot2 < slot3 then
 		slot0.passTimeDict[slot1] = slot2
+
+		slot0:sendNotification(LimitChallengeConst.UPDATE_PASS_TIME)
 	end
 end
 

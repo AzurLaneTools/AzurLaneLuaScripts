@@ -618,9 +618,7 @@ function slot0.didEnter(slot0)
 	setActive(slot0.challengeBtn:Find("lock"), not slot5)
 	setActive(slot0.entranceLayer:Find("btns/btn_challenge/lock"), not slot5)
 
-	slot6 = checkExist(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE), {
-		"isEnd"
-	}) == false
+	slot6 = pg.constellation_challenge_month and #pg.constellation_challenge_month.all > 0
 
 	setActive(slot0.challengeBtn, slot6)
 	setActive(slot0.entranceLayer:Find("btns/btn_challenge"), slot6)

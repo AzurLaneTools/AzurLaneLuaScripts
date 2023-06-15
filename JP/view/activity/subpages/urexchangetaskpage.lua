@@ -71,7 +71,7 @@ function slot0.UpdateTask(slot0, slot1, slot2)
 
 	slot3 = slot2:getConfig("award_display")[1]
 
-	assert(slot3, taskId)
+	assert(slot3, slot2.id)
 	assert(slot3)
 
 	slot5 = slot1:Find("item")

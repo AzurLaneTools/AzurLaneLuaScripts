@@ -17097,7 +17097,13 @@ pg.base.furniture_data_template = {
 	},
 	[251] = {
 		spine_extra = "",
-		describe = "余響繞梁し、天女の如く",
+		describe = [[
+余響繞梁し、天女の如く
+
+
+
+
+<color=#fcae33>寮舎で配置しタップすると演奏可能…？</color>]],
 		gain_by = "",
 		type = 15,
 		dir = 0,

@@ -79,6 +79,9 @@ function slot0.AttachOrbit(slot0)
 					if uv2.orbit_ui_back == 1 then
 						slot4:SetParent(uv0.modelRoot.transform, false)
 						slot4:SetAsFirstSibling()
+					else
+						slot4:SetParent(uv0.modelRoot.transform, false)
+						slot4:SetAsLastSibling()
 					end
 
 					SetActive(slot3, uv0._visible)

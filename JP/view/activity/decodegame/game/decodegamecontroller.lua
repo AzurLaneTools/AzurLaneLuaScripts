@@ -184,7 +184,7 @@ function slot0.EnterPassWord(slot0, slot1)
 			slot4 = slot0.view
 
 			slot4:OnSuccess(function ()
-				pg.NewStoryMgr.GetInstance():Play(DecodeGameConst.LAST_STORYID, callback)
+				pg.NewStoryMgr.GetInstance():Play(DecodeGameConst.LAST_STORYID)
 
 				if uv0.successCallback then
 					uv0.successCallback()

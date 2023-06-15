@@ -45,7 +45,7 @@ function slot0.Init(slot0)
 			return
 		end
 
-		uv0:Adpater(slot0)
+		uv0:Adpater()
 
 		if not uv0.isInitList then
 			uv0:UpdateList()

@@ -197,7 +197,7 @@ function slot0.AdditionAnim(slot0, slot1, slot2)
 		setActive(uv0.addition, false)
 		uv1()
 
-		uv0.addition.localPosition = Vector3(uv0.addition.localPosition.x, y, 0)
+		uv0.addition.localPosition = Vector3(uv0.addition.localPosition.x, 0, 0)
 	end))
 end
 

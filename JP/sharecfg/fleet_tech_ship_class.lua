@@ -3134,7 +3134,7 @@ pg.fleet_tech_ship_class = {
 		name = "アルジェリー(META)",
 		nation = 97,
 		id = 970302,
-		t_level_1 = 1,
+		t_level_1 = 6,
 		t_level = 3,
 		ships = {
 			970302

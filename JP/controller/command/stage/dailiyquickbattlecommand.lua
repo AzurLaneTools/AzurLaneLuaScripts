@@ -43,10 +43,6 @@ function slot0.execute(slot0, slot1)
 				dailyLevelId = uv2
 			})
 		else
-			if callback then
-				callback({})
-			end
-
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end
 	end)

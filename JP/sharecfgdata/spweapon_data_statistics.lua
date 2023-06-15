@@ -11009,3 +11009,757 @@ _G.pg.base.spweapon_data_statistics[11030] = {
 		}
 	}
 }
+
+_G.pg.base.spweapon_data_statistics[11040] = {
+	tech = 0,
+	name = "彼女の世界だったもの",
+	value_2_random = 20,
+	type = 1,
+	value_1_random = 10,
+	value_1 = 16,
+	effect_id_display = 902210,
+	level = 1,
+	descrip = "特殊装備コアで製造できる艦船の専用兵装 ",
+	uncraftable = 0,
+	next = 11041,
+	upgrade_id = 101,
+	value_2 = 100,
+	icon = "11040",
+	effect_id = 902210,
+	attribute_2 = "durability",
+	id = 11040,
+	rarity = 4,
+	unique = 40146,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1090120
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[11041] = {
+	prev = 11040,
+	base = 11040,
+	next = 11042,
+	upgrade_id = 102,
+	id = 11041,
+	value_2 = 110,
+	value_1 = 17,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[11042] = {
+	prev = 11041,
+	base = 11040,
+	next = 11043,
+	upgrade_id = 103,
+	id = 11042,
+	value_2 = 120,
+	value_1 = 18,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[11043] = {
+	prev = 11042,
+	base = 11040,
+	next = 11044,
+	upgrade_id = 104,
+	id = 11043,
+	value_2 = 130,
+	value_1 = 19,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[11044] = {
+	prev = 11043,
+	base = 11040,
+	next = 11045,
+	upgrade_id = 105,
+	id = 11044,
+	value_2 = 140,
+	value_1 = 20,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[11045] = {
+	prev = 11044,
+	base = 11040,
+	next = 11046,
+	upgrade_id = 106,
+	id = 11045,
+	value_2 = 150,
+	value_1 = 21,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[11046] = {
+	prev = 11045,
+	base = 11040,
+	next = 11047,
+	upgrade_id = 107,
+	id = 11046,
+	value_2 = 160,
+	value_1 = 22,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[11047] = {
+	prev = 11046,
+	base = 11040,
+	next = 11048,
+	upgrade_id = 108,
+	id = 11047,
+	value_2 = 170,
+	value_1 = 23,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[11048] = {
+	prev = 11047,
+	base = 11040,
+	next = 11049,
+	upgrade_id = 109,
+	id = 11048,
+	value_2 = 180,
+	value_1 = 24,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[11049] = {
+	prev = 11048,
+	base = 11040,
+	next = 11050,
+	upgrade_id = 110,
+	id = 11049,
+	value_2 = 190,
+	value_1 = 25,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[11050] = {
+	base = 11040,
+	prev = 11049,
+	next = 0,
+	upgrade_id = 111,
+	id = 11050,
+	value_2 = 200,
+	value_1 = 26,
+	level = 11,
+	skill_upgrade = {
+		{
+			2081,
+			1090120
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[11060] = {
+	tech = 0,
+	name = "睦月のアメさん！",
+	value_2_random = 10,
+	type = 1,
+	value_1_random = 10,
+	value_1 = 15,
+	effect_id_display = 901010,
+	level = 1,
+	descrip = "特殊装備コアで製造できる艦船の専用兵装 ",
+	uncraftable = 0,
+	next = 11061,
+	upgrade_id = 101,
+	value_2 = 6,
+	icon = "11060",
+	effect_id = 901010,
+	attribute_2 = "reload",
+	id = 11060,
+	rarity = 4,
+	unique = 30132,
+	important = 2,
+	prev = 0,
+	attribute_1 = "torpedo",
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1090130
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[11061] = {
+	prev = 11060,
+	base = 11060,
+	next = 11062,
+	upgrade_id = 102,
+	id = 11061,
+	value_2 = 6,
+	value_1 = 16,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[11062] = {
+	prev = 11061,
+	base = 11060,
+	next = 11063,
+	upgrade_id = 103,
+	id = 11062,
+	value_2 = 7,
+	value_1 = 17,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[11063] = {
+	prev = 11062,
+	base = 11060,
+	next = 11064,
+	upgrade_id = 104,
+	id = 11063,
+	value_2 = 8,
+	value_1 = 18,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[11064] = {
+	prev = 11063,
+	base = 11060,
+	next = 11065,
+	upgrade_id = 105,
+	id = 11064,
+	value_2 = 9,
+	value_1 = 19,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[11065] = {
+	prev = 11064,
+	base = 11060,
+	next = 11066,
+	upgrade_id = 106,
+	id = 11065,
+	value_2 = 10,
+	value_1 = 20,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[11066] = {
+	prev = 11065,
+	base = 11060,
+	next = 11067,
+	upgrade_id = 107,
+	id = 11066,
+	value_2 = 11,
+	value_1 = 21,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[11067] = {
+	prev = 11066,
+	base = 11060,
+	next = 11068,
+	upgrade_id = 108,
+	id = 11067,
+	value_2 = 12,
+	value_1 = 22,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[11068] = {
+	prev = 11067,
+	base = 11060,
+	next = 11069,
+	upgrade_id = 109,
+	id = 11068,
+	value_2 = 13,
+	value_1 = 23,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[11069] = {
+	prev = 11068,
+	base = 11060,
+	next = 11070,
+	upgrade_id = 110,
+	id = 11069,
+	value_2 = 14,
+	value_1 = 24,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[11070] = {
+	base = 11060,
+	prev = 11069,
+	next = 0,
+	upgrade_id = 111,
+	id = 11070,
+	value_2 = 15,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			2001,
+			1090130
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[11080] = {
+	tech = 0,
+	name = "サラトガちゃんセレクション！",
+	value_2_random = 5,
+	type = 7,
+	value_1_random = 10,
+	value_1 = 22,
+	effect_id_display = 902060,
+	level = 1,
+	descrip = "特殊装備コアで製造できる艦船の専用兵装 ",
+	uncraftable = 0,
+	next = 11081,
+	upgrade_id = 101,
+	value_2 = 4,
+	icon = "11080",
+	effect_id = 902060,
+	attribute_2 = "reload",
+	id = 11080,
+	rarity = 4,
+	unique = 10703,
+	important = 2,
+	prev = 0,
+	attribute_1 = "air",
+	usability = {
+		7
+	},
+	skill_upgrade = {
+		{
+			0,
+			1090140
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[11081] = {
+	prev = 11080,
+	base = 11080,
+	next = 11082,
+	upgrade_id = 102,
+	id = 11081,
+	value_2 = 5,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[11082] = {
+	prev = 11081,
+	base = 11080,
+	next = 11083,
+	upgrade_id = 103,
+	id = 11082,
+	value_2 = 5,
+	value_1 = 23,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[11083] = {
+	prev = 11082,
+	base = 11080,
+	next = 11084,
+	upgrade_id = 104,
+	id = 11083,
+	value_2 = 6,
+	value_1 = 23,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[11084] = {
+	prev = 11083,
+	base = 11080,
+	next = 11085,
+	upgrade_id = 105,
+	id = 11084,
+	value_2 = 6,
+	value_1 = 24,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[11085] = {
+	prev = 11084,
+	base = 11080,
+	next = 11086,
+	upgrade_id = 106,
+	id = 11085,
+	value_2 = 7,
+	value_1 = 25,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[11086] = {
+	prev = 11085,
+	base = 11080,
+	next = 11087,
+	upgrade_id = 107,
+	id = 11086,
+	value_2 = 7,
+	value_1 = 26,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[11087] = {
+	prev = 11086,
+	base = 11080,
+	next = 11088,
+	upgrade_id = 108,
+	id = 11087,
+	value_2 = 8,
+	value_1 = 27,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[11088] = {
+	prev = 11087,
+	base = 11080,
+	next = 11089,
+	upgrade_id = 109,
+	id = 11088,
+	value_2 = 8,
+	value_1 = 28,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[11089] = {
+	prev = 11088,
+	base = 11080,
+	next = 11090,
+	upgrade_id = 110,
+	id = 11089,
+	value_2 = 9,
+	value_1 = 29,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[11090] = {
+	base = 11080,
+	prev = 11089,
+	next = 0,
+	upgrade_id = 111,
+	id = 11090,
+	value_2 = 10,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			10180,
+			1090140
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12000] = {
+	tech = 0,
+	name = "ナカヨシマホウ",
+	value_2_random = 5,
+	type = 1,
+	value_1_random = 10,
+	value_1 = 9,
+	effect_id_display = 901010,
+	level = 1,
+	descrip = "特殊装備コアで製造できる艦船の専用兵装 ",
+	uncraftable = 0,
+	next = 12001,
+	upgrade_id = 101,
+	value_2 = 4,
+	icon = "12000",
+	effect_id = 901010,
+	attribute_2 = "hit",
+	id = 12000,
+	rarity = 4,
+	unique = 80104,
+	important = 2,
+	prev = 0,
+	attribute_1 = "torpedo",
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1012350
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[12001] = {
+	prev = 12000,
+	base = 12000,
+	next = 12002,
+	upgrade_id = 102,
+	id = 12001,
+	value_2 = 5,
+	value_1 = 10,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[12002] = {
+	prev = 12001,
+	base = 12000,
+	next = 12003,
+	upgrade_id = 103,
+	id = 12002,
+	value_2 = 5,
+	value_1 = 11,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[12003] = {
+	prev = 12002,
+	base = 12000,
+	next = 12004,
+	upgrade_id = 104,
+	id = 12003,
+	value_2 = 6,
+	value_1 = 12,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[12004] = {
+	prev = 12003,
+	base = 12000,
+	next = 12005,
+	upgrade_id = 105,
+	id = 12004,
+	value_2 = 6,
+	value_1 = 13,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[12005] = {
+	prev = 12004,
+	base = 12000,
+	next = 12006,
+	upgrade_id = 106,
+	id = 12005,
+	value_2 = 7,
+	value_1 = 14,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[12006] = {
+	prev = 12005,
+	base = 12000,
+	next = 12007,
+	upgrade_id = 107,
+	id = 12006,
+	value_2 = 7,
+	value_1 = 15,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[12007] = {
+	prev = 12006,
+	base = 12000,
+	next = 12008,
+	upgrade_id = 108,
+	id = 12007,
+	value_2 = 8,
+	value_1 = 16,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[12008] = {
+	prev = 12007,
+	base = 12000,
+	next = 12009,
+	upgrade_id = 109,
+	id = 12008,
+	value_2 = 8,
+	value_1 = 17,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[12009] = {
+	prev = 12008,
+	base = 12000,
+	next = 12010,
+	upgrade_id = 110,
+	id = 12009,
+	value_2 = 9,
+	value_1 = 18,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[12010] = {
+	base = 12000,
+	prev = 12009,
+	next = 0,
+	upgrade_id = 111,
+	id = 12010,
+	value_2 = 10,
+	value_1 = 20,
+	level = 11,
+	skill_upgrade = {
+		{
+			12350,
+			1012350
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12020] = {
+	tech = 0,
+	name = "Incantare",
+	value_2_random = 5,
+	type = 6,
+	value_1_random = 10,
+	value_1 = 13,
+	effect_id_display = 902030,
+	level = 1,
+	descrip = "特殊装備コアで製造できる艦船の専用兵装 ",
+	uncraftable = 0,
+	next = 12021,
+	upgrade_id = 101,
+	value_2 = 5,
+	icon = "12020",
+	effect_id = 902030,
+	attribute_2 = "reload",
+	id = 12020,
+	rarity = 4,
+	unique = 60502,
+	important = 2,
+	prev = 0,
+	attribute_1 = "cannon",
+	usability = {
+		5
+	},
+	skill_upgrade = {
+		{
+			0,
+			1012600
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[12021] = {
+	prev = 12020,
+	base = 12020,
+	next = 12022,
+	upgrade_id = 102,
+	id = 12021,
+	value_2 = 6,
+	value_1 = 14,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[12022] = {
+	prev = 12021,
+	base = 12020,
+	next = 12023,
+	upgrade_id = 103,
+	id = 12022,
+	value_2 = 6,
+	value_1 = 15,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[12023] = {
+	prev = 12022,
+	base = 12020,
+	next = 12024,
+	upgrade_id = 104,
+	id = 12023,
+	value_2 = 7,
+	value_1 = 16,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[12024] = {
+	prev = 12023,
+	base = 12020,
+	next = 12025,
+	upgrade_id = 105,
+	id = 12024,
+	value_2 = 7,
+	value_1 = 17,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[12025] = {
+	prev = 12024,
+	base = 12020,
+	next = 12026,
+	upgrade_id = 106,
+	id = 12025,
+	value_2 = 8,
+	value_1 = 18,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[12026] = {
+	prev = 12025,
+	base = 12020,
+	next = 12027,
+	upgrade_id = 107,
+	id = 12026,
+	value_2 = 8,
+	value_1 = 19,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[12027] = {
+	prev = 12026,
+	base = 12020,
+	next = 12028,
+	upgrade_id = 108,
+	id = 12027,
+	value_2 = 9,
+	value_1 = 20,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[12028] = {
+	prev = 12027,
+	base = 12020,
+	next = 12029,
+	upgrade_id = 109,
+	id = 12028,
+	value_2 = 9,
+	value_1 = 21,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[12029] = {
+	prev = 12028,
+	base = 12020,
+	next = 12030,
+	upgrade_id = 110,
+	id = 12029,
+	value_2 = 10,
+	value_1 = 23,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[12030] = {
+	base = 12020,
+	prev = 12029,
+	next = 0,
+	upgrade_id = 111,
+	id = 12030,
+	value_2 = 10,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			12600,
+			1012600
+		}
+	}
+}

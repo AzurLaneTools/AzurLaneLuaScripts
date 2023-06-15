@@ -155,7 +155,7 @@ function slot0.PlayCV(slot0, slot1, slot2)
 	slot0:StopCV()
 	pg.CriMgr.GetInstance():PlayCV_V3(slot3, slot4, slot2)
 
-	slot0._currentVoice = voiceContent
+	slot0._currentVoice = slot3
 end
 
 function slot0.StopCV(slot0)

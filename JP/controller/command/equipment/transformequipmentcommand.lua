@@ -320,7 +320,7 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 					end
 				})
 			end
-		}), true)
+		}))
 	end)
 end
 

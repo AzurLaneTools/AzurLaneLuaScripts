@@ -1,7 +1,6 @@
 pg = pg or {}
-slot0 = pg
-slot0.UIMgr = singletonClass("UIMgr")
-slot1 = slot0.UIMgr
+slot1 = singletonClass("UIMgr")
+pg.UIMgr = slot1
 slot1._loadPanel = nil
 slot1.CameraUI = 1
 slot1.CameraLevel = 2
