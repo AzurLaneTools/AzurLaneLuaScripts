@@ -185,16 +185,18 @@ function slot0.CreateMetaClassConfig()
 		end
 	end
 
-	for slot3, slot4 in pairs(uv0.MetaClassConfig) do
-		slot6 = {}
+	if uv0.MetaClassConfig then
+		for slot3, slot4 in pairs(uv0.MetaClassConfig) do
+			slot6 = {}
 
-		for slot10, slot11 in ipairs(slot4.indexList) do
-			_.each(slot4.ships[slot11], function (slot0)
-				table.insert(uv0, slot0)
-			end)
+			for slot10, slot11 in ipairs(slot4.indexList) do
+				_.each(slot4.ships[slot11], function (slot0)
+					table.insert(uv0, slot0)
+				end)
+			end
+
+			slot4.ships = slot6
 		end
-
-		slot4.ships = slot6
 	end
 end
 

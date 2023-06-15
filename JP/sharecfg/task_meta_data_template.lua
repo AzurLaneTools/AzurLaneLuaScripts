@@ -1920,7 +1920,7 @@ pg.base.task_meta_data_template = {
 	},
 	[200091] = {
 		target_id_2 = "970302",
-		sub_type = 320,
+		sub_type = 302,
 		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊で1回勝利する",
 		id = 200091,
 		target_num = 1,
@@ -1928,7 +1928,7 @@ pg.base.task_meta_data_template = {
 	},
 	[200092] = {
 		target_id_2 = "970302",
-		sub_type = 320,
+		sub_type = 302,
 		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊でLv70+の敵を撃破",
 		id = 200092,
 		target_num = 1,
@@ -1936,7 +1936,7 @@ pg.base.task_meta_data_template = {
 	},
 	[200093] = {
 		target_id_2 = "970302",
-		sub_type = 320,
+		sub_type = 302,
 		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊でLv90+の敵を撃破",
 		id = 200093,
 		target_num = 1,
@@ -1944,7 +1944,7 @@ pg.base.task_meta_data_template = {
 	},
 	[200094] = {
 		target_id_2 = "970302",
-		sub_type = 320,
+		sub_type = 302,
 		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊でLv100+の敵を撃破",
 		id = 200094,
 		target_num = 1,
