@@ -120,9 +120,7 @@ function slot0.update_task_list_mikasa_museum(slot0, slot1, slot2, slot3)
 end
 
 function slot0.set_mikasa_btn(slot0, slot1, slot2, slot3, slot4, slot5)
-	print(tostring(slot1) .. "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-	print(tostring(getProxy(TaskProxy):getTaskById(slot1) or slot6:getFinishTaskById(slot1)))
-
+	slot7 = getProxy(TaskProxy):getTaskById(slot1) or slot6:getFinishTaskById(slot1)
 	slot8 = slot2:Find("award")
 	slot9 = slot2:Find("face")
 

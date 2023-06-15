@@ -125,6 +125,9 @@ end
 
 function slot6(slot0)
 	slot3 = getProxy(ActivityProxy):getActivityById(slot0.actId):GetSeriesData()
+
+	assert(slot3)
+
 	slot6 = slot3:GetFleetIds()[slot3:GetStaegLevel()]
 
 	if slot3:GetMode() == BossRushSeriesData.MODE.SINGLE then
@@ -151,15 +154,15 @@ function slot0.GetNewMainShips(slot0)
 	slot2 = {}
 
 	if slot0.system == SYSTEM_SCENARIO then
-		slot2 = uv0(slot0)
+		slot2 = uv0()
 	elseif slot1 == SYSTEM_WORLD then
-		slot2 = uv1(slot0)
+		slot2 = uv1()
 	elseif slot1 == SYSTEM_WORLD_BOSS then
 		slot2 = uv2(slot0)
 	elseif slot1 == SYSTEM_HP_SHARE_ACT_BOSS or slot1 == SYSTEM_ACT_BOSS or slot1 == SYSTEM_BOSS_EXPERIMENT then
 		slot2 = uv3(slot0)
 	elseif slot1 == SYSTEM_GUILD then
-		slot2 = uv4(slot0)
+		slot2 = uv4()
 	elseif slot1 == SYSTEM_BOSS_RUSH or slot1 == SYSTEM_BOSS_RUSH_EX then
 		slot2 = uv5(slot0)
 	elseif slot1 ~= SYSTEM_DODGEM and slot1 ~= SYSTEM_SUBMARINE_RUN and slot1 ~= SYSTEM_REWARD_PERFORM and slot1 ~= SYSTEM_AIRFIGHT then

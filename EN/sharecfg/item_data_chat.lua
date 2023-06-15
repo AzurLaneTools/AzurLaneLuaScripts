@@ -64,6 +64,14 @@ pg.item_data_chat = {
 		desc = "<color=#ffffff>Set sail for the best deserted island vacation ever!</color>\nAwarded to Commanders who participated in the \"Uncharted Summer\" event.",
 		scene = {}
 	},
+	[10001] = {
+		time_limit_type = 0,
+		name = "Extreme Challenge - Gemini",
+		id = 10001,
+		time_second = 0,
+		desc = "<color=#ffffff>Presented to Commanders who demonstrated the courage to challenge their limits.</color>\n<color=#A7A7AAFF>Obtained from [Extreme Challenge] (06/15/23 - 06/30/23)</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -72,6 +80,7 @@ pg.item_data_chat = {
 		104,
 		300,
 		301,
-		602
+		602,
+		10001
 	}
 }

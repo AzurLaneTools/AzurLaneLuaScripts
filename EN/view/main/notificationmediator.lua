@@ -14,9 +14,9 @@ function slot0.register(slot0)
 	slot0.viewComponent:setMessages(slot0:getAllMessages())
 	slot0:bind(uv0.ON_SEND_PUBLIC, function (slot0, slot1, slot2)
 		if slot2 == "$ rndsec refresh" and Application.isEditor then
-			MainRandomFlagShipSkinSeqence.ForceRandom()
+			MainRandomFlagShipSequence.ForceRandom()
 		elseif slot2:match("$ rndskin print %d+") and Application.isEditor then
-			MainRandomFlagShipSkinSeqence.CalcRatio(tonumber(string.gmatch(slot2, "%d+")()), function (slot0)
+			MainRandomFlagShipSequence.CalcRatio(tonumber(string.gmatch(slot2, "%d+")()), function (slot0)
 				getProxy(ChatProxy):addNewMsg(ChatMsg.New(ChatConst.ChannelWorld, {
 					richText = true,
 					player = getProxy(PlayerProxy):getData(),

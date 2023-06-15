@@ -8,9 +8,6 @@ function slot0.Ctor(slot0, slot1, slot2)
 
 	slot3:GetUI(slot0:getUIName(), true, function (slot0)
 		slot0.transform:SetParent(uv0, false)
-
-		uv1.tecID = tecId
-
 		uv1:onUILoaded(slot0)
 
 		if uv2 then
@@ -21,6 +18,8 @@ end
 
 function slot0.getUIName(slot0)
 	assert(false)
+
+	return ""
 end
 
 function slot0.init(slot0)

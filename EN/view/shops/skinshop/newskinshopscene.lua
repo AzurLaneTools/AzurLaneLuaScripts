@@ -515,7 +515,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	if slot0.triggerFirstCard and slot1 == 0 then
 		slot0.triggerFirstCard = nil
 
-		triggerButton(slot3._go, true)
+		triggerButton(slot3._go)
 	end
 end
 

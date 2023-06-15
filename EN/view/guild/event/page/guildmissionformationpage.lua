@@ -349,7 +349,7 @@ function slot0.UpdateShipSlot(slot0, slot1, slot2, slot3, slot4)
 
 				SetAction(slot0, "stand")
 				GetOrAddComponent(slot0, "EventTriggerListener"):AddPointClickFunc(function (slot0, slot1)
-					uv0:emit(GuildEventMediator.ON_SELECT_MISSION_SHIP, uv1.id, uv2, uv3, index)
+					uv0:emit(GuildEventMediator.ON_SELECT_MISSION_SHIP, uv1.id, uv2, uv3)
 				end)
 
 				uv2.shipGos[uv6] = slot0

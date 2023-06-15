@@ -8,7 +8,6 @@ function slot0.OnLoaded(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.parent = parent
 	slot1 = slot0._tf
 	slot1 = slot1:Find("window/frame/Text")
 	slot0.context = slot1:GetComponent(typeof(Text))
@@ -63,7 +62,7 @@ function slot0.Show(slot0, slot1, slot2, slot3)
 end
 
 function slot0.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.parent)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	setActive(slot0._tf, false)
 
 	slot0.func = nil

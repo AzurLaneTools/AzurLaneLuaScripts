@@ -126,7 +126,7 @@ end
 function slot0.UpdateMessage(slot0, slot1, slot2)
 	setActive(slot1, true)
 
-	findTF(slot1, "channel"):GetComponent("Image").sprite = GetSpriteFromAtlas("channel", ChatConst.GetChannelSprite(slot2.type) .. "_1920", true)
+	findTF(slot1, "channel"):GetComponent("Image").sprite = GetSpriteFromAtlas("channel", ChatConst.GetChannelSprite(slot2.type) .. "_1920")
 	slot4 = findTF(slot1, "text"):GetComponent("RichText")
 
 	if slot2.type == ChatConst.ChannelPublic then

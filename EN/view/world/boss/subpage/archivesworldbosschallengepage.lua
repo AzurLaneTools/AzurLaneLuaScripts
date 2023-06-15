@@ -19,7 +19,7 @@ function slot0.OnLoaded(slot0)
 	slot0.currentChallengeBtn = slot0:findTF("current_list_btn")
 	slot0.tipTr = slot0:findTF("tip")
 
-	setText(slot0.tipTr, isCurrBoss and "" or i18n("world_boss_archives_boss_tip"))
+	setText(slot0.tipTr, i18n("world_boss_archives_boss_tip"))
 end
 
 function slot0.OnInit(slot0)

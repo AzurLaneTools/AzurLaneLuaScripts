@@ -323,8 +323,8 @@ pg.expedition_daily_template = {
 			{
 				{
 					2023,
-					3,
-					16
+					6,
+					15
 				},
 				{
 					0,
@@ -335,8 +335,8 @@ pg.expedition_daily_template = {
 			{
 				{
 					2023,
-					3,
-					22
+					6,
+					21
 				},
 				{
 					23,

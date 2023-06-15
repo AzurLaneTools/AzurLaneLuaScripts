@@ -629,14 +629,6 @@ function slot0.remove(slot0)
 	slot0:RemoveInstagramTimer()
 end
 
-function slot0.ShouldShowInsTip(slot0)
-	if not slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) or slot1:isEnd() then
-		return false
-	end
-
-	return slot1:ShouldShowTip()
-end
-
 function slot0.ExistSkinCouponActivityAndItemId(slot0, slot1)
 	return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON) and not slot2:isEnd() and table.contains(slot2.data1_list, slot1) and slot2.data1 == 1
 end

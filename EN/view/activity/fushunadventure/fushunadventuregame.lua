@@ -9,7 +9,7 @@ slot6 = 4
 function slot0.Ctor(slot0, slot1, slot2, slot3)
 	pg.DelegateInfo.New(slot0)
 
-	pg.fushunLoader = AutoLoader.New()
+	slot0.fushunLoader = AutoLoader.New()
 	slot0.state = uv0
 	slot0._go = slot1
 	slot0.gameData = slot2
@@ -260,7 +260,7 @@ function slot0.LoadScene(slot0, slot1)
 				setActive(uv0.gameUI, true)
 				slot0()
 			else
-				slot1 = pg.fushunLoader
+				slot1 = uv0.fushunLoader
 
 				slot1:LoadPrefab("ui/FushunAdventureGame", "", function (slot0)
 					uv0.gameUI = slot0
@@ -288,7 +288,7 @@ function slot0.LoadScene(slot0, slot1)
 					uv0:EnterAnimation(slot0)
 				end,
 				function (slot0)
-					slot1 = pg.fushunLoader
+					slot1 = uv0.fushunLoader
 
 					slot1:LoadPrefab("FushunAdventure/fushun", "", function (slot0)
 						uv0.fushun = FushunChar.New(slot0)
@@ -479,14 +479,14 @@ end
 function slot0.AddHitEffect(slot0, slot1)
 	slot6 = Vector3(slot0.gameUI.transform:InverseTransformPoint(slot1.collider2D.bounds:GetMin()).x, slot0.gameUI.transform:InverseTransformPoint(slot0.fushun.effectCollider2D.bounds.center).y, 0)
 
-	pg.fushunLoader:GetPrefab("FushunAdventure/attack_effect", "", function (slot0)
+	slot0.fushunLoader:GetPrefab("FushunAdventure/attack_effect", "", function (slot0)
 		slot0.transform:SetParent(uv0.gameUI.transform, false)
 
 		slot0.transform.localPosition = uv1
 
 		slot0:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
 			uv0:SetEndEvent(nil)
-			pg.fushunLoader:ReturnPrefab("FushunAdventure/attack_effect", "", uv1, true)
+			uv1.fushunLoader:ReturnPrefab(uv2)
 		end)
 	end)
 	slot0:ShakeScreen(slot0.gameUI)
@@ -532,14 +532,14 @@ function slot0.SpawnEnemys(slot0)
 	slot0.spawner = FuShunEnemySpawner.New(slot0.gameUI.transform:Find("game").transform, function (slot0)
 		slot1 = slot0.config
 		slot3 = slot0.index
-		slot4 = uv0[slot1.id].New(slot0.go, slot3, slot1)
-		slot6 = slot0.speed + uv1(uv2.score)
+		slot4 = uv0[slot1.id].New(slot0.go, slot3, slot1, uv1.fushunLoader)
+		slot6 = slot0.speed + uv2(uv1.score)
 
 		uv3.LOG("  顺序 :", slot3, " id :", slot1.id, " speed :", slot6)
 		slot4:SetSpeed(slot6)
 		slot4:SetPosition(FushunAdventureGameConst.ENEMY_SPAWN_POSITION)
-		table.insert(uv2.enemys, slot4)
-	end)
+		table.insert(uv1.enemys, slot4)
+	end, slot0.fushunLoader)
 
 	slot0.spawner:NormalMode()
 end
@@ -559,10 +559,10 @@ end
 
 function slot0.AddCombo(slot0, slot1)
 	if slot1 > 0 then
-		slot2 = pg.fushunLoader
+		slot2 = slot0.fushunLoader
 
 		slot2:GetPrefab("UI/fushun_combo", "", function (slot0)
-			if not pg.fushunLoader then
+			if not uv0.fushunLoader then
 				Destroy(slot0)
 
 				return
@@ -570,11 +570,11 @@ function slot0.AddCombo(slot0, slot1)
 
 			slot0.transform:SetParent(uv0.gameUI.transform:Find("UI"), false)
 			Timer.New(function ()
-				if not pg.fushunLoader then
+				if not uv0.fushunLoader then
 					return
 				end
 
-				pg.fushunLoader:ReturnPrefab("UI/fushun_combo", "", uv0, true)
+				uv0.fushunLoader:ReturnPrefab(uv1)
 			end, 2, 1):Start()
 		end)
 	end
@@ -745,9 +745,9 @@ function slot0.Dispose(slot0)
 	slot0.btnSprites = nil
 	slot0.state = uv0
 
-	pg.fushunLoader:Clear()
+	slot0.fushunLoader:Clear()
 
-	pg.fushunLoader = nil
+	slot0.fushunLoader = nil
 	slot0.OnShowResult = nil
 	slot0.OnLevelUpdate = nil
 end

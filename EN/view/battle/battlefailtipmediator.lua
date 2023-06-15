@@ -222,7 +222,7 @@ function slot0.removeContextBeforeGO(slot0)
 			end
 
 			if slot3:getContextByMediator(BattleResultMediator) then
-				dailyLevelContext:removeChild(slot5)
+				slot3:removeChild(slot5)
 			end
 		end
 	elseif slot2 == SYSTEM_HP_SHARE_ACT_BOSS then

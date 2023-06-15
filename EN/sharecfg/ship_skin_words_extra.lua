@@ -201,7 +201,9 @@ pg.ship_skin_words_extra = setmetatable({
 		405050,
 		402100,
 		406030,
-		401990
+		401990,
+		207130,
+		307130
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -13503,6 +13505,150 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"I already know there's no beating you..."
+			}
+		}
+	},
+	[207130] = {
+		feeling4 = "",
+		feeling3 = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		upgrade = "",
+		unlock = "",
+		feeling2 = "",
+		skill = "",
+		battle = "",
+		id = 207130,
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Commander! You've finally returned! Did you bring that Iris dessert I said I wanted to try? ...Wow, thank you, Commander!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I won! Look, Commander, I'm in first place!"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"Urk... Commander, they're bullying meee..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, come over here! There there, pat pat, good Commander! Hm? Big sis Illustrious taught me this! She said this is the best way to help you relax."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hawawah! I put so much effort into brushing my hair just right... You'd better get it back to how it was!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Etiquette training does suck, but I'll keep doing my best to become a dependable lady of the Royal Navy! ...Ehehe, this is how I'll hide my true self in front of others so that only the people I really care about get to see the real me! Yep, that's perfect!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"At tea parties, you have to sit straight up and deal with all these dumb, annoying manners... But when I'm with you and my sisters, I can relax! I wish I could always eat tasty foods without a care!|Commander, you know one or two of Her Majesty's secrets, don't you? For example... Maybe she's not all that elegant in private? I promise I won't tell anyone else!|I recently learned about this \"rock\" genre of music. I rather like it! My sisters say it's not ladylike, but... What about you? Do you like \"rock,\" Commander?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"If you're free right now, then let's have a tea party together! We can leave out all of the boring manners and stuff."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Going out with you to greet the commission team... I know what this is! This is what they call a \"grown-up date\"! ...It's not?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"A new mission? If you're going to be busy, then I guess I'll have to pass the time alone... How sad."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission complete! Commander, shall we take a break? You look tired, so I'm worried about you..."
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Commander, you've got mail! I brought it right away! Do you have a reward for me?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I-i-i-it is far too soon for me to be participating in such acts!"
+			}
+		}
+	},
+	[307130] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		mission = "",
+		touch2 = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 307130,
+		detail = "",
+		login = {
+			{
+				1100,
+				"I've been waiting for you this whooole time, my darling~♥"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Heehee... Now I can finally be alone with my Commander~❤"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Could you please lie down for me, my Commander? See, this is what's called a \"lap pillow\" and it helps you really unwind~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"What's your favorite food? I can make it for you~ I'm a little girl with lots of spare time, so I can practice whichever dish you like.|Do you feel worn out, my Commander? I'll get you a snack to munch on~ I'll also feed you it, so you can simply lie back and relax."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Heehee... You can't forget about my touch, can you? ♥"
 			}
 		}
 	}

@@ -35,7 +35,7 @@ function slot0.execute(slot0, slot1)
 				slot3 = uv2:getData()
 
 				slot3:consume({
-					[id2res(shopCfg.resource_type)] = uv1.count
+					[id2res(uv1.id)] = uv1.count
 				})
 				uv2:updatePlayer(slot3)
 			elseif uv1.type == DROP_TYPE_WORLD_ITEM then

@@ -74,7 +74,7 @@ function slot0.Setup(slot0, slot1)
 	slot0.isFetched = false
 end
 
-function slot0.CheckRemouldShip(slot0, slot1)
+function slot0.CheckRemouldShip(slot0)
 	if slot0.fleet and slot0.fleetForArchives then
 		slot0:GenFleet()
 	end

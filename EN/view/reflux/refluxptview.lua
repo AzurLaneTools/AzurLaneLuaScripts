@@ -86,7 +86,7 @@ function slot0.updateTpl(slot0, slot1, slot2)
 	setImageColor(slot3, slot19)
 
 	slot21, slot22 = slot0:getPTMinAndMax(slot2)
-	slot9.sizeDelta = Vector2(i == 0 and 86 or 125, 20)
+	slot9.sizeDelta = Vector2(125, 20)
 
 	setSlider(slot9, slot21, slot22, slot14)
 	setActive(slot11, slot21 < slot14)

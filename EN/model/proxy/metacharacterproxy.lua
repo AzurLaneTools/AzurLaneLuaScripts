@@ -166,7 +166,7 @@ function slot0.addExpToMetaTacticsInfo(slot0, slot1)
 		slot3:updateExp(slot1)
 		slot3:printInfo()
 	else
-		errorMessage("MetaTacticsInfo is Null", slot2)
+		errorMsg("MetaTacticsInfo is Null", slot2)
 	end
 end
 
@@ -175,7 +175,7 @@ function slot0.switchMetaTacticsSkill(slot0, slot1, slot2)
 		slot3:switchSkill(slot2)
 		slot3:printInfo()
 	else
-		errorMessage("MetaTacticsInfo is Null", slot1)
+		errorMsg("MetaTacticsInfo is Null", slot1)
 	end
 end
 

@@ -1907,6 +1907,7 @@ pg.skill_data_display = setmetatable({
 		29202,
 		29211,
 		29212,
+		29214,
 		29221,
 		29222,
 		29231,
@@ -2535,6 +2536,11 @@ pg.skill_data_display = setmetatable({
 		1011711,
 		1011360,
 		1011361,
+		1012350,
+		1012351,
+		1012353,
+		1012600,
+		1012601,
 		1090020,
 		1090042,
 		1090043,
@@ -2546,7 +2552,10 @@ pg.skill_data_display = setmetatable({
 		1090091,
 		1090092,
 		1090110,
-		1090111
+		1090111,
+		1090120,
+		1090121,
+		1090141
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -10171,6 +10180,10 @@ pg.base.skill_data_display = {
 		id = 29212,
 		name = "EX Barrage: Z46 Ⅱ"
 	},
+	[29214] = {
+		id = 29214,
+		name = "EX Barrage: Z46 II"
+	},
 	[29221] = {
 		id = 29221,
 		name = "EX Barrage: {namecode:152} Ⅰ"
@@ -12683,6 +12696,26 @@ pg.base.skill_data_display = {
 		id = 1011361,
 		name = "Lunga Point's Strike+"
 	},
+	[1012350] = {
+		id = 1012350,
+		name = "Unyielding Magician+"
+	},
+	[1012351] = {
+		id = 1012351,
+		name = "Unyielding Magician+"
+	},
+	[1012353] = {
+		id = 1012353,
+		name = "Unyielding Magician+"
+	},
+	[1012600] = {
+		id = 1012600,
+		name = "Rose Bombardamento +"
+	},
+	[1012601] = {
+		id = 1012601,
+		name = "Rose Bombardamento +"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -12730,5 +12763,17 @@ pg.base.skill_data_display = {
 	[1090111] = {
 		id = 1090111,
 		name = "Torpedo Launch - Gneisenau"
+	},
+	[1090120] = {
+		id = 1090120,
+		name = "Piercing Shells – Z46"
+	},
+	[1090121] = {
+		id = 1090121,
+		name = "Piercing Shells – Z46"
+	},
+	[1090141] = {
+		id = 1090141,
+		name = "Artillery Cover - Saratoga"
 	}
 }

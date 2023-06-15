@@ -8483,6 +8483,179 @@ pg.activity_template = {
 			}
 		}
 	},
+	[4890] = {
+		mark = 20230615,
+		title_res_tag = "",
+		page_info = "",
+		type = 43,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4890,
+		config_data = {
+			{
+				92,
+				99932
+			},
+			{
+				93,
+				99933
+			},
+			{
+				94,
+				99934
+			},
+			{
+				95,
+				99935
+			},
+			{
+				96,
+				99936
+			},
+			{
+				97,
+				99937
+			},
+			{
+				98,
+				99938
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			ui = "ColoringJupiterUI"
+		}
+	},
+	[4891] = {
+		mark = 20230615,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4891,
+		config_data = {
+			18903,
+			18904,
+			18905,
+			18906,
+			18907,
+			18908,
+			18909,
+			18910,
+			18911,
+			18912,
+			18913,
+			18914,
+			18915,
+			18916,
+			18917,
+			18918,
+			18919,
+			18920
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4892] = {
+		mark = 20230615,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4892,
+		config_data = {
+			10155,
+			10156,
+			10157,
+			10158,
+			10159
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		id = 7001,
@@ -17605,7 +17778,6 @@ pg.activity_template = {
 		config_id = 0,
 		is_show = 0,
 		title_res_tag = "tvtianse",
-		config_client = "",
 		id = 30225,
 		config_data = {
 			{
@@ -17640,6 +17812,9 @@ pg.activity_template = {
 				38,
 				0
 			}
+		},
+		config_client = {
+			ui = "ColoringJupiterUI"
 		}
 	},
 	[30226] = {
@@ -30650,6 +30825,9 @@ pg.activity_template = {
 		4886,
 		4888,
 		4889,
+		4890,
+		4891,
+		4892,
 		7001,
 		7002,
 		7003,

@@ -2453,19 +2453,19 @@ function slot0.gameStep(slot0)
 	slot0.gameStepTime = slot0.gameStepTime + Time.deltaTime
 
 	if slot0.boatController then
-		slot0.boatController:step(slot0.gameStepTime)
+		slot0.boatController:step()
 	end
 
 	if slot0.itemController then
-		slot0.itemController:step(slot0.gameStepTime)
+		slot0.itemController:step()
 	end
 
 	if slot0.catchController then
-		slot0.catchController:step(slot0.gameStepTime)
+		slot0.catchController:step()
 	end
 
 	if slot0.charController then
-		slot0.charController:step(slot0.gameStepTime)
+		slot0.charController:step()
 	end
 
 	if slot0.gameTime < 0 then

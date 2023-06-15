@@ -1830,8 +1830,9 @@ pg.skill_data_template = setmetatable({
 		902160,
 		902170,
 		902180,
-		902200,
 		902190,
+		902200,
+		902210,
 		1010140,
 		1010390,
 		1010410,
@@ -1857,6 +1858,8 @@ pg.skill_data_template = setmetatable({
 		1010670,
 		1011520,
 		1011360,
+		1012350,
+		1012600,
 		1090010,
 		1090020,
 		1090030,
@@ -1867,7 +1870,10 @@ pg.skill_data_template = setmetatable({
 		1090080,
 		1090090,
 		1090100,
-		1090110
+		1090110,
+		1090120,
+		1090130,
+		1090140
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -30961,7 +30967,7 @@ pg.base.skill_data_template = {
 		id = 12350,
 		type = 1,
 		max_level = 10,
-		desc = "Starting at 80.0% of this ship's max HP: increases this ship's FP and TRP (up to a maximum of $2) based on its HP lost. Additionally, once per battle, when this ship's HP falls below 30.0%: increases this ship's AA by $1 until the end of the battle.",
+		desc = "When this ship is below 80.0% Max HP: increases her FP and TRP by up to $2, based on the percentage of missing HP. Additionally, once per battle, when this ship's HP falls below 30.0%: increases this ship's AA by $1 until the end of the battle.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -113518,6 +113524,20 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[902190] = {
+		desc_get = "",
+		name = "Bulin, full-charge attack!",
+		id = 902190,
+		type = 3,
+		max_level = 1,
+		desc = "When the battle starts: increases this ship's FP, TRP, AVI, AA, RLD, EVA, and ACC, ASW by 9.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[902200] = {
 		desc_get = "",
 		name = "Fantastic Loop",
@@ -113532,13 +113552,13 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 		desc_get_add = {},
 		desc_add = {}
 	},
-	[902190] = {
+	[902210] = {
 		desc_get = "",
-		name = "Bulin, full-charge attack!",
-		id = 902190,
+		name = "Anti-Air Techniques",
+		id = 902210,
 		type = 3,
 		max_level = 1,
-		desc = "When the battle starts: increases this ship's FP, TRP, AVI, AA, RLD, EVA, and ACC, ASW by 9.",
+		desc = "Increases the efficiency of this ship's AA gun slot by 30.0%, and reduces the DMG this ship takes from aircraft by 10.0%.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -116563,6 +116583,256 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 			}
 		}
 	},
+	[1012350] = {
+		desc_get = "",
+		name = "Unyielding Magician+",
+		id = 1012350,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's AA and EVA by $1. When this ship is below 80.0% Max HP: increases her FP and TRP by up to $2, based on the percentage of missing HP. Every 20s: $3 chance to fire a $4 torpedo barrage (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"30",
+				"60"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"30",
+					"+3"
+				},
+				{
+					"33",
+					"+3"
+				},
+				{
+					"36",
+					"+3"
+				},
+				{
+					"39",
+					"+3"
+				},
+				{
+					"42",
+					"+3"
+				},
+				{
+					"45",
+					"+3"
+				},
+				{
+					"48",
+					"+4"
+				},
+				{
+					"52",
+					"+4"
+				},
+				{
+					"56",
+					"+4"
+				},
+				{
+					"60"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[1012600] = {
+		desc_get = "",
+		name = "Rosa Bombardamento+",
+		id = 1012600,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns: $1 chance to fire a special barrage (DMG is based on the skill's level).",
+		system_transform = {
+			[3.0] = 1012602
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"45.0%",
+				"75.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"45.0%",
+					"+3.3%"
+				},
+				{
+					"48.3%",
+					"+3.3%"
+				},
+				{
+					"51.6%",
+					"+3.3%"
+				},
+				{
+					"54.9%",
+					"+3.3%"
+				},
+				{
+					"58.2%",
+					"+3.3%"
+				},
+				{
+					"61.5%",
+					"+3.3%"
+				},
+				{
+					"64.8%",
+					"+3.3%"
+				},
+				{
+					"68.1%",
+					"+3.3%"
+				},
+				{
+					"71.4%",
+					"+3.6%"
+				},
+				{
+					"75.0%"
+				}
+			}
+		}
+	},
 	[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -118015,6 +118285,396 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 				},
 				{
 					"10.0%"
+				}
+			}
+		}
+	},
+	[1090120] = {
+		desc_get = "",
+		name = "Piercing Shells – Z46",
+		id = 1090120,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's AP DMG by $1. If this ship has an AP Main Gun equipped: 1) increases this ship's Crit Rate by $2; 2) increases the Main Gun DMG this ship deals to enemies of any armor type by $3; 3) improves this ship's All Out Assault.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"25.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[1090130] = {
+		desc_get = "",
+		name = "Quick Reload - Mutsuki",
+		id = 1090130,
+		type = 1,
+		max_level = 10,
+		desc = "Every 20s: $1 chance to increase this ship's RLD by $2 for 10s and restore 5.0% max HP to a random ship in your Vanguard. 3s after the first time this effect activates in battle: decreases the loading time of this ship's next wave of torpedoes by 20s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
+	[1090140] = {
+		desc_get = "",
+		name = "Artillery Cover - Saratoga",
+		id = 1090140,
+		type = 1,
+		max_level = 10,
+		desc = "Every $1: fires a $2 supporting barrage using CA-caliber guns, and launches a $3 special airstrike (barrage and airstrike DMG are both based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20",
+				"10"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20",
+					"-1"
+				},
+				{
+					"19",
+					"-1"
+				},
+				{
+					"18",
+					"-1"
+				},
+				{
+					"17",
+					"-1"
+				},
+				{
+					"16",
+					"-1"
+				},
+				{
+					"15",
+					"-1"
+				},
+				{
+					"14",
+					"-1"
+				},
+				{
+					"13",
+					"-1"
+				},
+				{
+					"12",
+					"-2"
+				},
+				{
+					"10"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
 				}
 			}
 		}

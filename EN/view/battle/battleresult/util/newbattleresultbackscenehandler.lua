@@ -33,6 +33,8 @@ function slot0.Execute(slot0)
 	else
 		slot0:ExitCommonSystem(slot1)
 	end
+
+	getProxy(MetaCharacterProxy):clearLastMetaSkillExpInfoList()
 end
 
 function slot0.ExitDuelSystem(slot0, slot1)

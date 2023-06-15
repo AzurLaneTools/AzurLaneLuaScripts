@@ -89,7 +89,7 @@ function slot0.execute(slot0, slot1)
 						uv0.callback(slot5, slot3, slot6)
 					end
 				elseif slot2 == ActivityConst.MONOPOLY_OP_TRIGGER then
-					slot8 = uv0.callback or function ()
+					slot8 = uv0.callback or function (slot0, slot1)
 					end
 					uv1.data3 = slot5
 					uv1.data2 = slot7

@@ -189,13 +189,16 @@ pg.share_template = {
 		name = "挑战分享",
 		show_comps = "",
 		deck = 1,
-		hidden_comps = "",
 		id = 11,
 		move_comps = "",
-		camera = "OverlayCamera",
+		camera = "UICamera",
 		qrcode_location = {
 			-592,
 			381
+		},
+		hidden_comps = {
+			"UICamera/Canvas/UIMain/LimitChallengeUI(Clone)/blur_panel",
+			"UICamera/Canvas/UIMain/LimitChallengeUI(Clone)/Adapt/StartBtn"
 		}
 	},
 	{

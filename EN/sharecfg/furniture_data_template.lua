@@ -15758,7 +15758,12 @@ pg.base.furniture_data_template = {
 		themeId = 0,
 		count = 1,
 		is_3d_obj = 0,
-		describe = "Its tones soar, just as the elegant apsaras who plucks its strings.",
+		describe = [[
+Its tones soar, just as the elegant apsaras who plucks its strings.n
+
+
+
+<color=#fcae33>Can be used to play music.</color>]],
 		tag = 6,
 		icon = "dunhuangpipaicon",
 		spine_extra = "",

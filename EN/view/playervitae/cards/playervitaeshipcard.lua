@@ -292,11 +292,11 @@ function slot0.UpdateRandomBtns(slot0)
 	uv0(slot0, slot0.randomSkinBtn, slot4, function (slot0)
 		uv0 = slot0
 		uv1.randomFlagValue = uv2(uv0, uv3)
-	end, SFX_PANEL)
+	end)
 	uv0(slot0, slot0.randomShipBtn, slot5, function (slot0)
 		uv0 = slot0
 		uv1.randomFlagValue = uv2(uv3, uv0)
-	end, SFX_PANEL)
+	end)
 
 	slot0.randomFlagValue = (function (slot0, slot1)
 		return (slot0 and 1 or 0) + (slot1 and 2 or 0)

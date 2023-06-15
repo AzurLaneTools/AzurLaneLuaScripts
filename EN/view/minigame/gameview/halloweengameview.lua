@@ -1563,7 +1563,7 @@ end
 
 function slot0.getSoundData(slot0, slot1)
 	CueData.GetCueData().channelName = pg.CriMgr.C_GALLERY_MUSIC
-	slot0.cueData.cueSheetName = musicName
+	slot0.cueData.cueSheetName = slot1
 	slot0.cueData.cueName = ""
 end
 
@@ -1771,10 +1771,6 @@ function slot0.AddDebugInput(slot0)
 			slot0:changeDirect(uv1, false)
 		end
 	end
-end
-
-function slot0.getGameTimes(slot0)
-	return slot0:GetMGHubData().count
 end
 
 function slot0.clearUI(slot0)

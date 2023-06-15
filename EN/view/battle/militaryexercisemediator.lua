@@ -28,8 +28,8 @@ function slot0.register(slot0)
 	slot0:bind(uv0.OPEN_DOCKYARD, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.EXERCISEFORMATION)
 	end)
-	slot0:bind(uv0.OPEN_SHOP, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, data or {
+	slot0:bind(uv0.OPEN_SHOP, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, slot1 or {
 			warp = NewShopsScene.TYPE_MILITARY_SHOP
 		})
 	end)

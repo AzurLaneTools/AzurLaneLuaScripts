@@ -228,8 +228,8 @@ end
 
 function slot0.updateBuff(slot0, slot1)
 	if slot1 then
-		setImageSprite(slot0.buffImg, GetSpriteFromAtlas("ui/newyearshrineui_atlas", "buff_type_" .. slot1, true))
-		setImageSprite(slot0.buffRope, GetSpriteFromAtlas("ui/newyearshrineui_atlas", "buff_rope_" .. slot1, true))
+		setImageSprite(slot0.buffImg, GetSpriteFromAtlas("ui/newyearshrineui_atlas", "buff_type_" .. slot1))
+		setImageSprite(slot0.buffRope, GetSpriteFromAtlas("ui/newyearshrineui_atlas", "buff_rope_" .. slot1))
 		setActive(slot0.buffImg, true)
 	else
 		slot3 = slot0:GetMGData():getConfig("config_data")[2]
@@ -238,8 +238,8 @@ function slot0.updateBuff(slot0, slot1)
 		for slot8, slot9 in ipairs(getProxy(PlayerProxy):getData().buff_list) do
 			if table.indexof(slot3, slot9.id, 1) then
 				if pg.TimeMgr.GetInstance():GetServerTime() < slot9.timestamp then
-					setImageSprite(slot0.buffImg, GetSpriteFromAtlas("ui/newyearshrineui_atlas", "buff_type_" .. slot4, true))
-					setImageSprite(slot0.buffRope, GetSpriteFromAtlas("ui/newyearshrineui_atlas", "buff_rope_" .. slot4, true))
+					setImageSprite(slot0.buffImg, GetSpriteFromAtlas("ui/newyearshrineui_atlas", "buff_type_" .. slot4))
+					setImageSprite(slot0.buffRope, GetSpriteFromAtlas("ui/newyearshrineui_atlas", "buff_rope_" .. slot4))
 					setActive(slot0.buffImg, true)
 
 					break

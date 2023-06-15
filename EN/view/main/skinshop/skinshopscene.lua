@@ -461,7 +461,7 @@ function slot0.UpdateViewMode(slot0, slot1)
 	end
 
 	setActive(slot0.leftPanel, slot0.viewMode == uv0.SHOP_TYPE_COMMON)
-	triggerButton(slot1:Find(slot2), true)
+	triggerButton(slot1:Find(slot2))
 	setImageSprite(slot0.title, GetSpriteFromAtlas("ui/SkinShopUI_atlas", uv1[slot0.viewMode][1]), true)
 	setImageSprite(slot0.titleEn, GetSpriteFromAtlas("ui/SkinShopUI_atlas", uv1[slot0.viewMode][2]), true)
 end

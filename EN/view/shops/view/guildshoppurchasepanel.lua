@@ -124,13 +124,13 @@ function slot0.UpdateItem(slot0, slot1, slot2, slot3)
 	end)()
 end
 
-function slot0.ClearZeroItem(slot0)
-	slot1 = slot0.list
+function slot0.ClearZeroItem(slot0, slot1)
+	slot2 = slot0.list
 
-	slot1:each(function (slot0, slot1)
+	slot2:each(function (slot0, slot1)
 		slot2 = uv0.displays[slot0 + 1]
 
-		if tr ~= slot1 and not table.contains(uv0.selectedList, slot2) then
+		if uv1 ~= slot1 and not table.contains(uv0.selectedList, slot2) then
 			setActive(slot1:Find("cnt"), false)
 			setActive(slot1:Find("selected"), false)
 		end

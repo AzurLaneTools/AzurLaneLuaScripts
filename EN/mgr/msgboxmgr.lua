@@ -1,7 +1,6 @@
 pg = pg or {}
-slot0 = pg
-slot0.MsgboxMgr = singletonClass("MsgboxMgr")
-slot1 = slot0.MsgboxMgr
+slot1 = singletonClass("MsgboxMgr")
+pg.MsgboxMgr = slot1
 slot1.BUTTON_BLUE = 1
 slot1.BUTTON_GRAY = 2
 slot1.BUTTON_RED = 3

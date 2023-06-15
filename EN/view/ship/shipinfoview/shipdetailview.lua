@@ -117,7 +117,7 @@ function slot0.InitDetail(slot0)
 end
 
 function slot0.InitEvent(slot0)
-	onButton(slot0, slot0.fashionToggle, function (slot0)
+	onButton(slot0, slot0.fashionToggle, function ()
 		uv0:emit(ShipViewConst.SWITCH_TO_PAGE, ShipViewConst.PAGE.FASHION)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.propertyIcons, function ()
@@ -304,7 +304,7 @@ function slot0.InitEvent(slot0)
 		end
 	end, SFX_PANEL)
 	triggerToggle(slot0.equiping, true)
-	onButton(slot0, slot0.fillter, function (slot0)
+	onButton(slot0, slot0.fillter, function ()
 		table.remove(Clone(IndexConst.EquipmentExtraIndexs), 2)
 		table.remove(Clone(IndexConst.EquipmentExtraNames), 2)
 
@@ -351,8 +351,8 @@ function slot0.InitEvent(slot0)
 				},
 				extraIndex = {
 					mode = CustomIndexLayer.Mode.OR,
-					options = slot1,
-					names = slot2
+					options = slot0,
+					names = slot1
 				}
 			},
 			groupList = {

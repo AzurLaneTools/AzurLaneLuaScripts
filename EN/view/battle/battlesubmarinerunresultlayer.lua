@@ -52,7 +52,7 @@ function slot0.init(slot0)
 	else
 		slot6 = slot1[1]
 		slot4 = "battlescore/battle_score_" .. slot6 .. "/letter_" .. slot6
-		slot5 = "battlescore/battle_score_" .. slot6 .. "/label_" .. (failLabel or slot6)
+		slot5 = "battlescore/battle_score_" .. slot6 .. "/label_" .. slot6
 	end
 
 	LoadImageSpriteAsync(slot4, slot2, false)
