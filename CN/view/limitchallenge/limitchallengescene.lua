@@ -222,7 +222,7 @@ function slot0.updateBossImg(slot0)
 	slot4 = slot2.information_icon
 
 	setImageSprite(slot0.bgImg, LoadSprite("limitchallenge/boss/" .. slot3, slot3))
-	setImageSprite(slot0.nameImg, LoadSprite("limitchallenge/name/" .. slot4, slot4))
+	setImageSprite(slot0.nameImg, LoadSprite("limitchallenge/name/" .. slot4, slot4), true)
 end
 
 function slot0.updateDescPanel(slot0)

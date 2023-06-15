@@ -8,7 +8,9 @@ slot0.GET_CHALLENGE_AWARD_DONE = "LimitChallengeConst.GET_CHALLENGE_AWARD_DONE"
 slot0.UPDATE_PASS_TIME = "LimitChallengeConst.UPDATE_PASS_TIME"
 
 function slot0.RequestInfo()
-	pg.m02:sendNotification(LimitChallengeConst.REQ_CHALLENGE_INFO)
+	if pg.constellation_challenge_month and #pg.constellation_challenge_month.all > 0 then
+		pg.m02:sendNotification(LimitChallengeConst.REQ_CHALLENGE_INFO)
+	end
 end
 
 function slot0.GetNextMonthTS()

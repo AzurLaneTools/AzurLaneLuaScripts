@@ -209,7 +209,7 @@ function slot0.setCharSit(slot0, slot1, slot2)
 	slot1.target = nil
 	slot1.sitItem = slot2
 	slot1.sitFlag = true
-	slot1.time = math.random(6, 12)
+	slot1.time = math.random(10, 20)
 	slot1.tf.localScale = uv0
 	slot1.vel = Vector2(0, 0)
 	slot2.sitFlag = true
@@ -376,7 +376,7 @@ function slot0.checkCharSit(slot0, slot1)
 		slot9 = slot7.max
 
 		if slot7.min.x < slot2.x and slot2.x < slot9.x and slot8.y < slot2.y and slot2.y < slot9.y then
-			if math.random(1, 10) > 4 then
+			if math.random(1, 10) > 7 then
 				print("角色想坐下")
 				slot0:setCharSit(slot1, slot7)
 			else
