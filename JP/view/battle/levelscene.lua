@@ -618,10 +618,12 @@ function slot0.didEnter(slot0)
 	setActive(slot0.challengeBtn:Find("lock"), not slot5)
 	setActive(slot0.entranceLayer:Find("btns/btn_challenge/lock"), not slot5)
 
-	slot6 = pg.constellation_challenge_month and #pg.constellation_challenge_month.all > 0
+	slot8 = LOCK_LIMIT_CHALLENGE and checkExist(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE), {
+		"isEnd"
+	}) == false or pg.constellation_challenge_month and #pg.constellation_challenge_month.all > 0
 
-	setActive(slot0.challengeBtn, slot6)
-	setActive(slot0.entranceLayer:Find("btns/btn_challenge"), slot6)
+	setActive(slot0.challengeBtn, slot8)
+	setActive(slot0.entranceLayer:Find("btns/btn_challenge"), slot8)
 	slot0:initMapBtn(slot0.btnPrev, -1)
 	slot0:initMapBtn(slot0.btnNext, 1)
 
@@ -635,7 +637,7 @@ function slot0.didEnter(slot0)
 		slot0.contextData.selectedChapterVO = nil
 	end
 
-	if not slot0.contextData.chapterVO or not slot7.active then
+	if not slot0.contextData.chapterVO or not slot9.active then
 		slot0:tryPlaySubGuide()
 	end
 
