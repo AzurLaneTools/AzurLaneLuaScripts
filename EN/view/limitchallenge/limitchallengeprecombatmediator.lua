@@ -73,9 +73,10 @@ function slot0.bindEvent(slot0)
 		end)), uv0.contextData.actId)
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			selectedMax = 1,
 			useBlackBlock = true,
 			selectedMin = 0,
+			skipSelect = true,
+			selectedMax = 1,
 			energyDisplay = false,
 			leastLimitMsg = i18n("battle_preCombatMediator_leastLimit"),
 			quitTeam = slot1 ~= nil,
