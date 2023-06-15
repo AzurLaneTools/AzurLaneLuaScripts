@@ -8540,7 +8540,7 @@ pg.base.skill_data_display = {
 	},
 	[16792] = {
 		id = 16792,
-		name = "{namecode:291}的护卫之甲"
+		name = "{namecode:291}의 가드 아머"
 	},
 	[18010] = {
 		id = 18010,
@@ -11856,19 +11856,19 @@ pg.base.skill_data_display = {
 	},
 	[800121] = {
 		id = 800121,
-		name = "격멸의 횃불·헬레나I"
+		name = "섬멸의 횃불·헬레나I"
 	},
 	[800122] = {
 		id = 800122,
-		name = "격멸의 횃불·헬레나II"
+		name = "섬멸의 횃불·헬레나II"
 	},
 	[800125] = {
 		id = 800125,
-		name = "격멸의 횃불·헬레나I"
+		name = "섬멸의 횃불·헬레나I"
 	},
 	[800127] = {
 		id = 800127,
-		name = "격멸의 횃불·헬레나II"
+		name = "섬멸의 횃불·헬레나II"
 	},
 	[800130] = {
 		id = 800130,
@@ -12100,11 +12100,11 @@ pg.base.skill_data_display = {
 	},
 	[800415] = {
 		id = 800415,
-		name = "요동치는 불꽃·{namecode:79}I"
+		name = "일렁이는 불꽃·{namecode:79}I"
 	},
 	[800417] = {
 		id = 800417,
-		name = "요동치는 불꽃·{namecode:79}II"
+		name = "일렁이는 불꽃·{namecode:79}II"
 	},
 	[800420] = {
 		id = 800420,

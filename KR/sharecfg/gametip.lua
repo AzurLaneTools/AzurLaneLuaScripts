@@ -20978,96 +20978,96 @@ cs.gametip = {
 	},
 	meta_class_t_level_1 = {
 		849347,
-		97,
-		true
-	},
-	meta_class_t_level_2 = {
-		849444,
 		100,
 		true
 	},
+	meta_class_t_level_2 = {
+		849447,
+		101,
+		true
+	},
 	meta_class_t_level_3 = {
-		849544,
+		849548,
 		104,
 		true
 	},
 	meta_class_t_level_4 = {
-		849648,
-		100,
+		849652,
+		103,
 		true
 	},
 	meta_shop_exchange_limit_tip = {
-		849748,
+		849755,
 		145,
 		true
 	},
 	meta_shop_exchange_limit_2_tip = {
-		849893,
+		849900,
 		175,
 		true
 	},
 	charge_tip_crusing_label = {
-		850068,
+		850075,
 		114,
 		true
 	},
 	mktea_1 = {
-		850182,
+		850189,
 		158,
 		true
 	},
 	mktea_2 = {
-		850340,
+		850347,
 		155,
 		true
 	},
 	mktea_3 = {
-		850495,
+		850502,
 		156,
 		true
 	},
 	mktea_4 = {
-		850651,
+		850658,
 		234,
 		true
 	},
 	mktea_5 = {
-		850885,
+		850892,
 		229,
 		true
 	},
 	random_skin_list_item_desc_label = {
-		851114,
+		851121,
 		103,
 		true
 	},
 	notice_input_desc = {
-		851217,
+		851224,
 		100,
 		true
 	},
 	notice_label_send = {
-		851317,
+		851324,
 		87,
 		true
 	},
 	notice_label_room = {
-		851404,
+		851411,
 		87,
 		true
 	},
 	notice_label_recv = {
-		851491,
+		851498,
 		90,
 		true
 	},
 	notice_label_tip = {
-		851581,
+		851588,
 		138,
 		true
 	},
 	littleTaihou_npc = {
-		851719,
+		851726,
 		1453,
 		true
 	}

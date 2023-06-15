@@ -107459,7 +107459,7 @@ pg.base.skill_data_template = {
 	},
 	[800121] = {
 		desc_get = "",
-		name = "격멸의 횃불·헬레나I",
+		name = "섬멸의 횃불·헬레나I",
 		id = 800121,
 		type = 3,
 		max_level = 1,
@@ -107475,7 +107475,7 @@ pg.base.skill_data_template = {
 	},
 	[800122] = {
 		desc_get = "",
-		name = "격멸의 횃불·헬레나II",
+		name = "섬멸의 횃불·헬레나II",
 		id = 800122,
 		type = 3,
 		max_level = 1,
@@ -107491,7 +107491,7 @@ pg.base.skill_data_template = {
 	},
 	[800125] = {
 		desc_get = "",
-		name = "격멸의 횃불·헬레나I",
+		name = "섬멸의 횃불·헬레나I",
 		id = 800125,
 		type = 3,
 		max_level = 1,
@@ -107507,7 +107507,7 @@ pg.base.skill_data_template = {
 	},
 	[800127] = {
 		desc_get = "",
-		name = "격멸의 횃불·헬레나II",
+		name = "섬멸의 횃불·헬레나II",
 		id = 800127,
 		type = 3,
 		max_level = 1,
@@ -109400,7 +109400,7 @@ pg.base.skill_data_template = {
 	},
 	[800411] = {
 		desc_get = "",
-		name = "요동치는 불꽃·{namecode:79}I",
+		name = "일렁이는 불꽃·{namecode:79}I",
 		id = 800411,
 		type = 1,
 		max_level = 1,
@@ -109416,7 +109416,7 @@ pg.base.skill_data_template = {
 	},
 	[800412] = {
 		desc_get = "",
-		name = "요동치는 불꽃·{namecode:79}II",
+		name = "일렁이는 불꽃·{namecode:79}II",
 		id = 800412,
 		type = 1,
 		max_level = 1,
@@ -109432,7 +109432,7 @@ pg.base.skill_data_template = {
 	},
 	[800415] = {
 		desc_get = "",
-		name = "요동치는 불꽃·{namecode:79}I",
+		name = "일렁이는 불꽃·{namecode:79}I",
 		id = 800415,
 		type = 1,
 		max_level = 1,
@@ -109448,7 +109448,7 @@ pg.base.skill_data_template = {
 	},
 	[800417] = {
 		desc_get = "",
-		name = "요동치는 불꽃·{namecode:79}II",
+		name = "일렁이는 불꽃·{namecode:79}II",
 		id = 800417,
 		type = 1,
 		max_level = 1,
@@ -110492,7 +110492,7 @@ pg.base.skill_data_template = {
 	},
 	[800531] = {
 		desc_get = "",
-		name = "흔들리는 불빛·트렌토I",
+		name = "일렁이는 불꽃·트렌토I",
 		id = 800531,
 		type = 1,
 		max_level = 1,
@@ -110508,7 +110508,7 @@ pg.base.skill_data_template = {
 	},
 	[800532] = {
 		desc_get = "",
-		name = "흔들리는 불빛·트렌토II",
+		name = "일렁이는 불꽃·트렌토II",
 		id = 800532,
 		type = 1,
 		max_level = 1,
@@ -110524,7 +110524,7 @@ pg.base.skill_data_template = {
 	},
 	[800535] = {
 		desc_get = "",
-		name = "흔들리는 불빛·트렌토I",
+		name = "일렁이는 불꽃·트렌토I",
 		id = 800535,
 		type = 1,
 		max_level = 1,
@@ -110540,7 +110540,7 @@ pg.base.skill_data_template = {
 	},
 	[800537] = {
 		desc_get = "",
-		name = "흔들리는 불빛·트렌토II",
+		name = "일렁이는 불꽃·트렌토II",
 		id = 800537,
 		type = 1,
 		max_level = 1,
@@ -113148,7 +113148,7 @@ pg.base.skill_data_template = {
 	},
 	[800811] = {
 		desc_get = "",
-		name = "흔들리는 불·U-556 I",
+		name = "일렁이는 불꽃·U-556 I",
 		id = 800811,
 		type = 3,
 		max_level = 1,
@@ -113164,7 +113164,7 @@ pg.base.skill_data_template = {
 	},
 	[800812] = {
 		desc_get = "",
-		name = "흔들리는 불·U-556 II",
+		name = "일렁이는 불꽃·U-556 II",
 		id = 800812,
 		type = 3,
 		max_level = 1,
@@ -113180,7 +113180,7 @@ pg.base.skill_data_template = {
 	},
 	[800815] = {
 		desc_get = "",
-		name = "흔들리는 불·U-556 I",
+		name = "일렁이는 불꽃·U-556 I",
 		id = 800815,
 		type = 3,
 		max_level = 1,
@@ -113196,7 +113196,7 @@ pg.base.skill_data_template = {
 	},
 	[800817] = {
 		desc_get = "",
-		name = "흔들리는 불·U-556 II",
+		name = "일렁이는 불꽃·U-556 II",
 		id = 800817,
 		type = 3,
 		max_level = 1,
@@ -113424,7 +113424,7 @@ pg.base.skill_data_template = {
 	},
 	[800841] = {
 		desc_get = "",
-		name = "구조의 원리·베스탈I",
+		name = "구조의 이치·베스탈I",
 		id = 800841,
 		type = 3,
 		max_level = 1,
@@ -113440,7 +113440,7 @@ pg.base.skill_data_template = {
 	},
 	[800842] = {
 		desc_get = "",
-		name = "구조의 원리·베스탈II",
+		name = "구조의 이치·베스탈II",
 		id = 800842,
 		type = 3,
 		max_level = 1,
@@ -113456,7 +113456,7 @@ pg.base.skill_data_template = {
 	},
 	[800845] = {
 		desc_get = "",
-		name = "구조의 원리·베스탈I",
+		name = "구조의 이치·베스탈I",
 		id = 800845,
 		type = 3,
 		max_level = 1,
@@ -113472,7 +113472,7 @@ pg.base.skill_data_template = {
 	},
 	[800847] = {
 		desc_get = "",
-		name = "구조의 원리·베스탈II",
+		name = "구조의 이치·베스탈II",
 		id = 800847,
 		type = 3,
 		max_level = 1,

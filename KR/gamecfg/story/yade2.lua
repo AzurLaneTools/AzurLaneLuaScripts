@@ -505,7 +505,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "음… 나쁘지 않네요….",
+			say = "음… 나쁘지 않네….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

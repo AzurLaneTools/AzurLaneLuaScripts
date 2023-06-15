@@ -24708,7 +24708,7 @@ _G.pg.base.item_data_statistics[40927] = {
 	link_id = 0,
 	virtual_type = 0,
 	is_world = 0,
-	icon = "Props/lihecn6lf",
+	icon = "Props/liheus6lf",
 	id = 40927,
 	display_icon = {
 		{
@@ -194771,7 +194771,7 @@ _G.pg.base.item_data_statistics[59457] = {
 }
 
 _G.pg.base.item_data_statistics[59458] = {
-	display = "뜨거운 고백 연습' 이벤트에서 캐릭터 호감도를 높이는 데 사용되며, 이벤트 종료 후 사라진다.",
+	display = "「뜨거운 고백 연습」 이벤트에서 캐릭터 호감도를 높이는 데 사용되며, 이벤트 종료 후 사라진다.",
 	name = "연애 편지 연습",
 	max_num = 0,
 	type = 98,
@@ -207004,7 +207004,7 @@ _G.pg.base.item_data_statistics[69926] = {
 
 _G.pg.base.item_data_statistics[69927] = {
 	display = "不会被看到",
-	name = "랜덤 신년 스킨(2023) ",
+	name = "랜덤 연회 스킨(2023) ",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,

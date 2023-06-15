@@ -534,7 +534,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "훌륭하네요…. 얏센이 기대하는 가장 좋은 대답은 단숨에 한 잔을 전부 마셔버리는 것이겠죠?",
+			say = "훌륭하네…. 얏센이 기대하는 가장 좋은 대답은 단숨에 한 잔을 전부 마셔버리는 것이겠지?",
 			painting = {
 				alpha = 0.3,
 				time = 1

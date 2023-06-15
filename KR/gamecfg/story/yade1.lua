@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "반, 반박할 수 없네요….",
+			say = "반, 반박할 수 없네….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

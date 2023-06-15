@@ -221,7 +221,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702011] = {
-		breakout_view = "스킬 [격멸의 횃불·헬레나] 습득/주포 효율 5% 향상",
+		breakout_view = "스킬 [섬멸의 횃불·헬레나] 습득/주포 효율 5% 향상",
 		gold = 1000,
 		breakout_id = 9702012,
 		repair = 0,
@@ -254,7 +254,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702013] = {
-		breakout_view = "[격멸의 횃불·헬레나] 레벨업/주포 효율 15% 향상",
+		breakout_view = "[섬멸의 횃불·헬레나] 레벨업/주포 효율 15% 향상",
 		gold = 10000,
 		breakout_id = 9702014,
 		repair = 0,
@@ -473,7 +473,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9703011] = {
-		breakout_view = "스킬 [흔들리는 불빛·트렌토] 습득/주포 효율 +5%",
+		breakout_view = "스킬 [일렁이는 불꽃·트렌토] 습득/주포 효율 +5%",
 		gold = 500,
 		breakout_id = 9703012,
 		repair = 0,
@@ -506,7 +506,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703013] = {
-		breakout_view = "[흔들리는 불빛·트렌토] 강화/어뢰 효율 +15%",
+		breakout_view = "[일렁이는 불꽃·트렌토] 강화/어뢰 효율 +15%",
 		gold = 2500,
 		breakout_id = 9703014,
 		repair = 0,

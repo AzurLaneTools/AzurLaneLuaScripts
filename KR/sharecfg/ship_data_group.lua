@@ -18792,7 +18792,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：热烈的告白练习",
+				"한정 이벤트：뜨거운 고백 연습",
 				{
 					""
 				},

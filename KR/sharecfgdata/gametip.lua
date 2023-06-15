@@ -23661,19 +23661,19 @@ _G.pg.base.gametip.urdraw_complement = {
 }
 
 _G.pg.base.gametip.meta_class_t_level_1 = {
-	tip = "적의 횃불"
+	tip = "섬멸의 횃불"
 }
 
 _G.pg.base.gametip.meta_class_t_level_2 = {
-	tip = "구조의 원리"
+	tip = "구조의 이치 "
 }
 
 _G.pg.base.gametip.meta_class_t_level_3 = {
-	tip = "빛을 쫓는 불꽃"
+	tip = "빛을 쫓는 화염"
 }
 
 _G.pg.base.gametip.meta_class_t_level_4 = {
-	tip = "흔들리는 불"
+	tip = "일렁이는 불꽃"
 }
 
 _G.pg.base.gametip.meta_shop_exchange_limit_tip = {

@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "뽑은 카드는—— 벌칙 카드네요….",
+			say = "뽑은 카드는—— 벌칙 카드네….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "친절함의 대가가 이런 거라니… 벌칙이니 순순히 인정할게요.",
+			say = "친절함의 대가가 이런 거라니… 벌칙이니 순순히 인정할게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "예상대로 이번엔 엘베가 졌네요.",
+			say = "예상대로 이번엔 엘베가 졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
