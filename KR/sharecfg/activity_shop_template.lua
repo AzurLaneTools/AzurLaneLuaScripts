@@ -18763,7 +18763,7 @@ pg.activity_shop_template = {
 		commodity_type = 4,
 		resource_type = 59900,
 		id = 10074,
-		resource_num = 15000,
+		resource_num = 1500,
 		order = 0
 	},
 	[10075] = {
