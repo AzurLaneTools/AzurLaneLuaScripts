@@ -89,7 +89,11 @@ pg.ship_meta_breakout = setmetatable({
 		9712011,
 		9712012,
 		9712013,
-		9712014
+		9712014,
+		9703021,
+		9703022,
+		9703023,
+		9703024
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1530,6 +1534,69 @@ pg.base.ship_meta_breakout = {
 		id = 9712014,
 		item1 = 21022,
 		pre_id = 9712013,
+		weapon_ids = {}
+	},
+	[9703021] = {
+		breakout_view = "习得技能【逐光之焰·阿尔及利亚】/主炮效率提高5%",
+		gold = 1000,
+		breakout_id = 9703022,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9703021,
+		item1 = 21023,
+		pre_id = 0,
+		weapon_ids = {
+			80011
+		}
+	},
+	[9703022] = {
+		breakout_view = "어뢰 발사 수 +1/어뢰 탑재량 +1/어뢰 효율 +10%",
+		gold = 3000,
+		breakout_id = 9703023,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9703022,
+		item1 = 21023,
+		pre_id = 9703021,
+		weapon_ids = {
+			105,
+			105
+		}
+	},
+	[9703023] = {
+		breakout_view = "【逐光之焰·阿尔及利亚】升级/鱼雷效率提高15%",
+		gold = 10000,
+		breakout_id = 9703024,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9703023,
+		item1 = 21023,
+		pre_id = 9703022,
+		weapon_ids = {
+			80012
+		}
+	},
+	[9703024] = {
+		breakout_view = "없음",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9703024,
+		item1 = 21023,
+		pre_id = 9703023,
 		weapon_ids = {}
 	}
 }

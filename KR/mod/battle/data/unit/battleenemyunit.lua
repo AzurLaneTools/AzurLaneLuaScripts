@@ -47,6 +47,14 @@ function slot8.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
+function slot8.SetMaster(slot0, slot1)
+	slot0._master = slot1
+end
+
+function slot8.GetMaster(slot0)
+	return slot0._master
+end
+
 function slot8.SetTemplate(slot0, slot1, slot2)
 	uv0.super.SetTemplate(slot0, slot1)
 

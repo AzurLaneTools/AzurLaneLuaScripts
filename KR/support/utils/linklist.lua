@@ -62,7 +62,7 @@ function slot1.AddAfter(slot0, slot1, slot2)
 
 	slot3.Next = slot1.Next
 	slot1.Next = slot3
-	slot3.Before = Node
+	slot3.Before = slot1
 
 	if slot0.Tail == slot1 then
 		slot0.Tail = slot3

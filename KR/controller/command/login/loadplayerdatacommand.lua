@@ -190,6 +190,14 @@ function slot0.execute(slot0, slot1)
 
 	slot5:registerProxy(IslandProxy.New())
 
+	slot5 = slot0.facade
+
+	slot5:registerProxy(LimitChallengeProxy.New())
+
+	slot5 = slot0.facade
+
+	slot5:registerProxy(GameRoomProxy.New())
+
 	slot5 = pg.ConnectionMgr.GetInstance()
 
 	slot5:setPacketIdx(1)
@@ -228,6 +236,7 @@ function slot0.execute(slot0, slot1)
 		uv1:sendNotification(GAME.REQUEST_MINI_GAME, {
 			type = MiniGameRequestCommand.REQUEST_HUB_DATA
 		})
+		LimitChallengeConst.RequestInfo()
 		pg.SdkMgr.GetInstance():BindCPU()
 		pg.SecondaryPWDMgr.GetInstance():FetchData()
 		MonthCardOutDateTipPanel.SetMonthCardEndDateLocal()

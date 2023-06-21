@@ -172,10 +172,10 @@ pg.expedition_daily_template = {
 		}
 	},
 	[501] = {
-		tips = "통상 파괴는 매일 오픈되며, 매주 2회 진행 가능.",
+		tips = "매일 오픈 (매주 4회까지)",
 		limit_type = 2,
 		show_with_count = 0,
-		limit_time = 2,
+		limit_time = 4,
 		insert_daily = 0,
 		title = "통상 파괴",
 		pic = "daily5",

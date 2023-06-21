@@ -143,11 +143,13 @@ function slot0.willExit(slot0)
 		slot0.backSceneHandler = nil
 	end
 
-	for slot4, slot5 in ipairs(slot0.history) do
-		slot5:Destroy()
-	end
+	if slot0.history then
+		for slot4, slot5 in ipairs(slot0.history) do
+			slot5:Destroy()
+		end
 
-	slot0.history = nil
+		slot0.history = nil
+	end
 end
 
 return slot0

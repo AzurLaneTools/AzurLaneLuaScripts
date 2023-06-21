@@ -111,10 +111,10 @@ function slot0.execute(slot0, slot1)
 		elseif slot10 == 1 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 				blockLock = true,
-				selectedMax = 10,
 				skipSelect = true,
 				mode = DockyardScene.MODE_DESTROY,
 				onShip = ShipStatus.canDestroyShip,
+				selectedMax = getGameset("ship_select_limit")[1],
 				leftTopInfo = i18n("word_destroy"),
 				ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
 					isActivityNpc = true

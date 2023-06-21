@@ -75,11 +75,7 @@ function slot0.CollectActEntrance(slot0)
 end
 
 function slot0.CustomOnClick(slot0)
-	if slot0.priority then
-		slot0:emit(NewMainMediator.SKIP_ACTIVITY, slot0.priority.id)
-	else
-		slot0:emit(NewMainMediator.SKIP_ACTIVITY)
-	end
+	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CARD_TOWER_MODE_SELECT)
 end
 
 return slot0

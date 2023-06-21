@@ -41,10 +41,6 @@ function slot0.init(slot0)
 		slot0.toggles[slot6 .. "Panel"] = slot0:findTF("toggle_controll/" .. slot6)
 	end
 
-	slot0.destroyMsgBox = slot0:findTF("destroy_msgbox")
-
-	setActive(slot0.destroyMsgBox, false)
-
 	slot0.sample = slot0:findTF("sample")
 
 	setActive(slot0.sample, false)
@@ -53,6 +49,8 @@ function slot0.init(slot0)
 	slot0.txtQuickEnable = findTF(slot0._tf, "txtQuickEnable")
 
 	setText(slot0.txtQuickEnable, i18n("ship_equip_check"))
+
+	slot0.equipDestroyConfirmWindow = EquipDestoryConfirmWindow.New(slot0._tf, slot0.event)
 end
 
 function slot0.setEquipment(slot0, slot1)
@@ -285,11 +283,24 @@ function slot0.initAndSetBtn(slot0, slot1)
 				return
 			end
 
+			slot0 = {}
+
 			if uv0.equipmentVO:isImportance() then
-				uv0:showDestoryMsgbox(slot0)
-			else
-				uv0:emit(EquipmentInfoMediator.ON_DESTROY, uv0.destroyCount)
+				table.insert(slot0, function (slot0)
+					uv0.equipDestroyConfirmWindow:Load()
+					uv0.equipDestroyConfirmWindow:ActionInvoke("Show", {
+						setmetatable({
+							count = uv0.destroyCount
+						}, {
+							__index = uv0.equipmentVO
+						})
+					}, slot0)
+				end)
 			end
+
+			seriesAsync(slot0, function ()
+				uv0:emit(EquipmentInfoMediator.ON_DESTROY, uv0.destroyCount)
+			end)
 		end, SFX_UI_EQUIPMENT_RESOLVE)
 	elseif slot1 == uv0.PANEL_REVERT then
 		slot0.initRevertPanel = true
@@ -471,57 +482,6 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.showDestoryMsgbox(slot0, slot1)
-	slot0.isOpenDestoryMsgbox = true
-
-	if not slot0.isInitDestoryMsgBox then
-		slot0.isInitDestoryMsgBox = true
-		slot0.destroyMsgboxIntro = slot0.destroyMsgBox:Find("window/info/intro")
-		slot0.destroyMsgBoxConfirmBtn = slot0.destroyMsgBox:Find("window/button_container/confirm_btn")
-		slot0.destroyMsgBoxCancelBtn = slot0.destroyMsgBox:Find("window/button_container/cancel_btn")
-		slot0.destroyMsgBoxInput = slot0.destroyMsgBox:Find("window/info/InputField")
-		slot0.destoryMsgboxBackBtn = slot0.destroyMsgBox:Find("window/top/btnBack")
-
-		setText(slot0:findTF("Placeholder", slot0.destroyMsgBoxInput), i18n("box_equipment_del_click"))
-	end
-
-	setText(slot0.destroyMsgboxIntro, SwitchSpecialChar(i18n("destory_important_equipment_tip", slot1.config.name)))
-	onButton(slot0, slot0.destroyMsgBoxConfirmBtn, function ()
-		if not getInputText(uv0.destroyMsgBoxInput) or slot0 == "" then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("word_should_input"))
-
-			return
-		end
-
-		if slot0 ~= uv1.config.name then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("destory_important_equipment_input_erro"))
-
-			return
-		end
-
-		uv0:emit(EquipmentInfoMediator.ON_DESTROY, uv0.destroyCount)
-		uv0:closeDestoryMsgbox()
-	end, SFX_PANEL)
-	onButton(slot0, slot0.destroyMsgBoxCancelBtn, function ()
-		uv0:closeDestoryMsgbox()
-	end, SFX_PANEL)
-	onButton(slot0, slot0.destoryMsgboxBackBtn, function ()
-		uv0:closeDestoryMsgbox()
-	end, SFX_PANEL)
-	onButton(slot0, slot0.destroyMsgBox:Find("bg"), function ()
-		uv0:closeDestoryMsgbox()
-	end, SFX_PANEL)
-	setActive(slot0.destroyMsgBox, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.destroyMsgBox)
-end
-
-function slot0.closeDestoryMsgbox(slot0)
-	slot0.isOpenDestoryMsgbox = nil
-
-	setActive(slot0.destroyMsgBox, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.destroyMsgBox, slot0._tf)
-end
-
 function slot0.UpdateTransformTipBar(slot0, slot1)
 	if not slot0.defaultTransformTipBar then
 		return
@@ -587,12 +547,13 @@ function slot0.cloneSampleTo(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.willExit(slot0)
+	slot0.equipDestroyConfirmWindow:Destroy()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
 function slot0.onBackPressed(slot0)
-	if slot0.isOpenDestoryMsgbox then
-		slot0:closeDestoryMsgbox()
+	if slot0.equipDestroyConfirmWindow:isShowing() then
+		slot0.equipDestroyConfirmWindow:Hide()
 
 		return
 	end

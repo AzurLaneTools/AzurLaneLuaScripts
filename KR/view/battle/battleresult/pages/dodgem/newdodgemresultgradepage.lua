@@ -4,7 +4,11 @@ function slot0.LoadBG(slot0, slot1)
 	slot3 = ResourceMgr.Inst
 
 	slot3:getAssetAsync("BattleResultItems/" .. "CommonBg", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if uv0.exited then
+		if uv0.exited or IsNil(slot0) then
+			if uv1 then
+				uv1()
+			end
+
 			return
 		end
 

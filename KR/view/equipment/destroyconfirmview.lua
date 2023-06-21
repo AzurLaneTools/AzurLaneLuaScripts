@@ -97,7 +97,7 @@ function slot0.DisplayDestroyBonus(slot0, slot1)
 				uv1.hasShip = true
 			end
 
-			updateDrop(slot2:Find("bg"), slot3)
+			updateDrop(slot2, slot3)
 
 			slot4, slot5 = contentWrap(slot3.cfg.name, 10, 2)
 
@@ -105,7 +105,7 @@ function slot0.DisplayDestroyBonus(slot0, slot1)
 				slot5 = slot5 .. "..."
 			end
 
-			setText(slot2:Find("bg/name"), slot5)
+			setText(slot2:Find("name"), slot5)
 			onButton(uv1, slot2, function ()
 				if uv0.type == DROP_TYPE_RESOURCE or uv0.type == DROP_TYPE_ITEM then
 					uv1:emit(BaseUI.ON_ITEM, uv0.cfg.id)

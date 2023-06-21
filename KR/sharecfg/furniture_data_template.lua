@@ -123,6 +123,7 @@ pg.furniture_data_template = setmetatable({
 			243,
 			245,
 			248,
+			251,
 			100002,
 			100003,
 			100004,
@@ -4778,6 +4779,7 @@ pg.furniture_data_template = setmetatable({
 			243,
 			245,
 			248,
+			251,
 			100002,
 			100003,
 			100004,
@@ -7422,6 +7424,9 @@ pg.furniture_data_template = setmetatable({
 			100037,
 			100048
 		},
+		[15] = {
+			251
+		},
 		[13] = {
 			100015,
 			100032,
@@ -8260,6 +8265,7 @@ pg.furniture_data_template = setmetatable({
 		243,
 		245,
 		248,
+		251,
 		100002,
 		100003,
 		100004,
@@ -16535,6 +16541,59 @@ pg.base.furniture_data_template = {
 			{
 				"bisimaizxunzhang",
 				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[251] = {
+		spine_extra = "",
+		describe = "자아내는 음색의 여운이 마치 선녀와도 같다.",
+		gain_by = "",
+		type = 15,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "dunhuangpipaicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "고운의 비파",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 251,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"theme-haitian-soft-loop"
+			},
+			{
+				"action"
+			}
+		},
+		spine = {
+			{
+				"dunhuangpipa",
+				"normal",
+				{
+					"action",
+					true
+				}
 			}
 		},
 		interAction_group = {}

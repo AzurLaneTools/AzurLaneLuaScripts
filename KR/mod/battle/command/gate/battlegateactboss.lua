@@ -139,18 +139,14 @@ function slot0.Exit(slot0, slot1)
 	slot19.commander_id_list = slot16
 
 	slot1:SendRequest(slot19, function (slot0)
-		if uv0.end_sink_cost > 0 then
-			uv1.DeadShipEnergyCosume(uv2, uv3)
-		end
+		uv0.addShipsExp(slot0.ship_exp_list, uv1.statistics, true)
 
-		uv1.addShipsExp(slot0.ship_exp_list, uv2.statistics, true)
+		uv1.statistics.mvpShipID = slot0.mvp
+		slot1, slot2 = uv0:GeneralLoot(slot0)
+		slot3 = ys.Battle.BattleConst.BattleScore.C < uv2
+		slot4 = uv0.GenerateCommanderExp(slot0, uv3, uv4[uv1.mainFleetId + 10])
 
-		uv2.statistics.mvpShipID = slot0.mvp
-		slot1, slot2 = uv1:GeneralLoot(slot0)
-		slot3 = ys.Battle.BattleConst.BattleScore.C < uv4
-		slot4 = uv1.GenerateCommanderExp(slot0, uv5, uv6[uv2.mainFleetId + 10])
-
-		uv1.GeneralPlayerCosume(SYSTEM_ACT_BOSS, slot3, uv7, slot0.player_exp)
+		uv0.GeneralPlayerCosume(SYSTEM_ACT_BOSS, slot3, uv5, slot0.player_exp)
 
 		slot5 = nil
 
@@ -159,15 +155,15 @@ function slot0.Exit(slot0, slot1)
 				return getProxy(ActivityProxy):getActivityById(uv0.actId).data1KeyValueList[1][uv0.stageId] == 1 and slot0.data1KeyValueList[2][slot1] <= 0
 			end)()
 
-			uv1:sendNotification(GAME.ACT_BOSS_NORMAL_UPDATE, {
-				stageId = uv2.stageId
+			uv0:sendNotification(GAME.ACT_BOSS_NORMAL_UPDATE, {
+				stageId = uv1.stageId
 			})
 		end
 
 		slot6 = {
 			system = SYSTEM_ACT_BOSS,
-			statistics = uv2.statistics,
-			score = uv4,
+			statistics = uv1.statistics,
+			score = uv2,
 			drops = slot1,
 			commanderExps = slot4,
 			result = slot0.result,
@@ -193,7 +189,7 @@ function slot0.Exit(slot0, slot1)
 			end
 		end
 
-		uv1:sendNotification(GAME.FINISH_STAGE_DONE, slot6)
+		uv0:sendNotification(GAME.FINISH_STAGE_DONE, slot6)
 	end)
 end
 

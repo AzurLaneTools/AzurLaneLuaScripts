@@ -487,6 +487,8 @@ function slot0.addResources(slot0, slot1)
 			slot0.awardGem = slot0:getFreeGem() + slot6
 		elseif slot5 == id2res(WorldConst.ResourceID) then
 			slot0[slot5] = math.min(slot0[slot5] + slot6, pg.gameset.world_resource_max.key_value)
+		elseif slot5 == "gameticket" then
+			slot0[slot5] = math.min(slot0[slot5] + slot6, pg.gameset.game_room_remax.key_value)
 		else
 			slot0[slot5] = slot0[slot5] + slot6
 		end

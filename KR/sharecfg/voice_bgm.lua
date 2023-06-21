@@ -593,5 +593,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-musicanniversary-gorgeous"
+	},
+	LinkDunHuangPage = {
+		default_bgm = "theme-haitian-soft-loop",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-haitian-soft-loop"
 	}
 }

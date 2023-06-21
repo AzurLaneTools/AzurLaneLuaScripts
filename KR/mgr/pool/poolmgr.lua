@@ -286,6 +286,28 @@ function slot0.GetUI(slot0, slot1, slot2, slot3)
 	end, table.contains(uv1, slot1) or table.contains(uv2, slot1))
 end
 
+function slot0.BuildUIPlural(slot0, slot1, slot2)
+	if slot0.pools_plural["ui/" .. slot1 .. slot1] then
+		return
+	end
+
+	slot5 = table.contains(uv0, slot1) and 3 or 1
+
+	slot0:LoadAsset(slot3, slot1, true, typeof(Object), function (slot0)
+		if slot0 == nil then
+			Debugger.LogError("can not find asset: " .. uv0 .. " : " .. uv1)
+
+			return
+		end
+
+		if not uv2.pools_plural[uv3] then
+			uv2.pools_plural[uv3] = uv4.New(slot0, uv5)
+		end
+
+		existCall(uv6)
+	end, table.contains(uv1, slot1) or table.contains(uv2, slot1))
+end
+
 function slot0.ReturnUI(slot0, slot1, slot2)
 	slot4 = "ui/" .. slot1 .. slot1
 
@@ -758,7 +780,9 @@ function slot0.LoadAsset(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 		uv0:getAssetAsync(slot1, slot2, slot4, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if uv0.callbacks[uv1] then
-				for slot6 = 1, #uv0.callbacks[uv1] do
+				slot1 = uv0.callbacks[uv1]
+
+				while next(slot1) do
 					table.remove(slot1)(slot0)
 				end
 
@@ -777,7 +801,19 @@ function slot0.PrintPools(slot0)
 		slot1 = slot1 .. "\n" .. slot5
 	end
 
-	originalPrint(slot1)
+	warning(slot1)
+end
+
+function slot0.PrintObjPack(slot0)
+	slot1 = ""
+
+	for slot5, slot6 in pairs(slot0.pools_pack) do
+		for slot10, slot11 in pairs(slot6.items) do
+			slot1 = slot1 .. "\n" .. slot5 .. " " .. slot10
+		end
+	end
+
+	warning(slot1)
 end
 
 return slot0

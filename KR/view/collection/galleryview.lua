@@ -563,19 +563,6 @@ function slot0.cardUpdate(slot0, slot1, slot2)
 		if slot18 then
 			setActive(slot5, GalleryConst.GetBGFuncTag())
 			setActive(slot6, false)
-			onButton(slot0, slot5, function ()
-				if strColor == green then
-					if GalleryConst.RemoveBGID(uv0) then
-						strColor = white
-
-						setImageColor(uv1, strColor)
-					end
-				elseif strColor == white and GalleryConst.AddBGID(uv0) then
-					strColor = green
-
-					setImageColor(uv1, strColor)
-				end
-			end, SFX_PANEL)
 		else
 			setActive(slot5, false)
 

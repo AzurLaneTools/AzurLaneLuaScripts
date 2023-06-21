@@ -7,39 +7,40 @@ function slot0.Entrance(slot0, slot1)
 	slot4 = getProxy(FleetProxy)
 	slot5 = getProxy(BayProxy)
 	slot7 = pg.battle_cost_template[SYSTEM_BOSS_RUSH].oil_cost > 0
-	slot8 = 0
-	slot9 = 0
-	slot11 = getProxy(ActivityProxy):getActivityById(slot0.actId):GetSeriesData()
-	slot12 = slot11:GetStaegLevel() + 1
-	slot13 = slot11:GetExpeditionIds()[slot12]
-	slot14 = slot11:GetFleetIds()
-	slot15 = slot14[slot12]
-	slot16 = slot14[#slot14]
+	slot9 = getProxy(ActivityProxy):getActivityById(slot0.actId):GetSeriesData()
+	slot10 = slot9:GetStaegLevel() + 1
+	slot11 = slot9:GetExpeditionIds()[slot10]
+	slot12 = slot9:GetFleetIds()
+	slot13 = slot12[slot10]
+	slot14 = slot12[#slot12]
 
-	if slot11:GetMode() == BossRushSeriesData.MODE.SINGLE then
-		slot15 = slot14[1]
+	if slot9:GetMode() == BossRushSeriesData.MODE.SINGLE then
+		slot13 = slot12[1]
 	end
 
-	slot18 = slot4:getActivityFleets()[slot2]
-	slot20 = slot18[slot16]
-	slot21 = {}
+	slot16 = slot4:getActivityFleets()[slot2]
+	slot18 = slot16[slot14]
+	slot19 = {}
 
-	for slot26, slot27 in ipairs(slot5:getSortShipsByFleet(slot18[slot15])) do
-		slot21[#slot21 + 1] = slot27.id
+	for slot24, slot25 in ipairs(slot5:getSortShipsByFleet(slot16[slot13])) do
+		slot19[#slot19 + 1] = slot25.id
 	end
 
-	slot23 = slot3:getRawData()
-	slot9 = slot19:getStartCost().oil
+	slot21 = slot3:getRawData()
+	slot22 = slot17:GetCostSum().oil
 
-	if slot7 and slot23.oil < slot9 then
+	if slot7 and slot21.oil < slot22 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
 	end
 
 	slot1.ShipVertify()
-	BeginStageCommand.SendRequest(SYSTEM_BOSS_RUSH, slot21, {
-		slot13
+
+	slot23 = slot17:getStartCost().oil
+
+	BeginStageCommand.SendRequest(SYSTEM_BOSS_RUSH, slot19, {
+		slot11
 	}, function (slot0)
 		if uv0 then
 			uv1:consume({

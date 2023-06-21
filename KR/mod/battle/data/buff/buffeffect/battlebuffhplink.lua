@@ -39,6 +39,13 @@ function slot1.onTakeDamage(slot0, slot1, slot2, slot3)
 				isHeal = false,
 				isShare = true
 			})
+
+			if slot3.damageSrc then
+				slot7 = slot3.damageSrc
+
+				uv0.Battle.BattleDataProxy.GetInstance():DamageStatistics(slot7, slot1:GetAttrByName("id"), -slot4)
+				uv0.Battle.BattleDataProxy.GetInstance():DamageStatistics(slot7, slot5:GetAttrByName("id"), slot4)
+			end
 		end
 	end
 end

@@ -255,8 +255,8 @@ function slot0.UpdateMapItem(slot0, slot1, slot2)
 end
 
 function slot0.OnDestroy(slot0)
-	uv0.super.OnDestroy(slot0)
 	slot0.loader:Clear()
+	uv0.super.OnDestroy(slot0)
 end
 
 return slot0

@@ -334,6 +334,8 @@ function slot0.updateGemItem(slot0, slot1, slot2)
 		LoadSpriteAsync(slot10.icon, function (slot0)
 			if slot0 then
 				uv0.iconTF.sprite = slot0
+
+				uv0.iconTF:SetNativeSize()
 			end
 		end)
 	end

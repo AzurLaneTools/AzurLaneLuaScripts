@@ -1055,14 +1055,6 @@ _G.pg.base.gametip.common_no_item_1 = {
 	tip = "아이템이 부족합니다!"
 }
 
-_G.pg.base.gametip.common_use_item_sos_max = {
-	tip = "더 이상 신호를 수신할 수 없습니다."
-}
-
-_G.pg.base.gametip.common_use_item_sos_used = {
-	tip = "구조신호 수신 수 +$1"
-}
-
 _G.pg.base.gametip.common_no_x = {
 	tip = "<color=#92fc63>$1</color>이(가) 부족합니다!"
 }
@@ -3645,22 +3637,6 @@ _G.pg.base.gametip.levelScene_destroy_torpedo = {
 	tip = "수뢰 해체 성공"
 }
 
-_G.pg.base.gametip.levelScene_sub_refresh_count_not_enough = {
-	tip = "구조신호를 수신하지 못했습니다."
-}
-
-_G.pg.base.gametip.levelScene_jump_to_sub_confirm = {
-	tip = "구조신호 발신지 탐색 완료. 「$1」(제$2장) 해역으로 이동하시겠습니까?"
-}
-
-_G.pg.base.gametip.levelScene_signal_help_tip = {
-	tip = "구조신호에 관하여"
-}
-
-_G.pg.base.gametip.levelScene_search_area = {
-	tip = "[수신 범위 : 제$1장 해역]"
-}
-
 _G.pg.base.gametip.levelScene_new_chapter_coming = {
 	tip = "신 챕터 개방 :"
 }
@@ -3765,10 +3741,6 @@ _G.pg.base.gametip.levelScene_select_SP_OP_reminder = {
 
 _G.pg.base.gametip.tack_tickets_max_warning = {
 	tip = "<color=#ffde38>데이터 키</color>의 소지 횟수에는 한계가 있습니다. 임무 보수인 데이터 키는 <color=#ff5c5c>$1</color> 개 입수 가능합니다. 임무 보수를 받으시겠습니까?"
-}
-
-_G.pg.base.gametip.error_refresh_sub_chapter = {
-	tip = "더 이상 구조 임무를 진행할 수 없습니다."
 }
 
 _G.pg.base.gametip.world_battle_count = {
@@ -4526,6 +4498,26 @@ _G.pg.base.gametip.buy_item_quest = {
 
 _G.pg.base.gametip.refresh_shopStreet_question = {
 	tip = "<color=#92fc63>$2</color>의 $1을(를) 사용하여 상품 리스트를 갱신하시겠습니까?\n\n<size=22>(오늘은 이미 <size=25><color=#FF0000>$3</color></size>회 구입했습니다.)</size>"
+}
+
+_G.pg.base.gametip.quota_shop_title = {
+	tip = "「코어 교환·한정」"
+}
+
+_G.pg.base.gametip.quota_shop_description = {
+	tip = "코어 데이터를 소비하여 아이템(소지 한도 있음)으로 교환 가능."
+}
+
+_G.pg.base.gametip.quota_shop_owned = {
+	tip = "소지 한도"
+}
+
+_G.pg.base.gametip.quota_shop_good_limit = {
+	tip = "한도 도달"
+}
+
+_G.pg.base.gametip.quota_shop_limit_error = {
+	tip = "이미 소지 한도 수에 도달하여 더 이상 획득할 수 없습니다."
 }
 
 _G.pg.base.gametip.event_start_success = {
@@ -8297,7 +8289,7 @@ _G.pg.base.gametip.destroy_high_level_tip = {
 }
 
 _G.pg.base.gametip.destroy_eliteequipment_tip = {
-	tip = "$1의 장비가 선택되어 있습니다. 진행하시겠습니까?"
+	tip = "$1 장비가 선택되어 있습니다. 계속하시겠습니까?"
 }
 
 _G.pg.base.gametip.destroy_high_intensify_tip = {
@@ -8306,6 +8298,10 @@ _G.pg.base.gametip.destroy_high_intensify_tip = {
 
 _G.pg.base.gametip.destroy_inHardFormation_tip = {
 	tip = "어려움 편성 중"
+}
+
+_G.pg.base.gametip.destroy_equip_rarity_tip = {
+	tip = "<color=#92fc63>$1</color>(을)를 입력하여 확인하세요."
 }
 
 _G.pg.base.gametip.ship_quick_change_noequip = {
@@ -8454,10 +8450,6 @@ _G.pg.base.gametip.word_status_rest = {
 
 _G.pg.base.gametip.word_status_train = {
 	tip = "<size=23>훈련 중</size>"
-}
-
-_G.pg.base.gametip.word_status_challenge = {
-	tip = "이벤트 편성 중"
 }
 
 _G.pg.base.gametip.word_status_world = {
@@ -9169,44 +9161,6 @@ _G.pg.base.gametip.anniversary_task_title_13 = {
 
 _G.pg.base.gametip.anniversary_task_title_14 = {
 	tip = "당신은, 지배되지 않는 자아를 가진 '인간'이란 존재에 걸맞는 자……"
-}
-
-_G.pg.base.gametip.help_sos = {
-	tip = {
-		{
-			info = "해역구조에 관해서"
-		},
-		{
-			info = [[
-
-
-해역구조 횟수
-·해역구조 가능 횟수는 불특정하게 증가합니다.
-·모항 이탈 기간 동안에도 해역구조를 준비하며, 해역구조 횟수가 정상적으로 증가합니다.
-
-신호 탐색
-·해역주고 횟수를 1회 소모하여 지정 챕터의 해역에서 신호 탐색을 진행할 수 있습니다.
-·탐색 완료 후 해당 챕터의 구조 작전이 시작됩니다. 구조 작전은 12시간 동안 지속됩니다.
-·제한된 시간 내에 구조를 완료하지 못할 경우, 신호의 근원이 사라지며, 작전을 진행할 수 없습니다.
-·한 챕터 내에서는 동시에 최대 1개 작전만 출현합니다.
-·신호가 강해지기 전에는 챕터3 해역의 신호만 탐색할 수 있습니다.
-
-신호 강도
-·신호 수신기의 강도는 총 8까지 있으며, 기본 상태의 신호 강도는 1입니다.
-·신호 강도가 1 증가할 때마다, 진행 가능한 해역구조 횟수가 1 증가하며, 탐색 가능한 해역도 한 챕터 늘어납니다.
-·해당 챕터의 모든 스테이지 클리어 후 해역구조 작전을 탐색할 수 있습니다.
-·신호 강도가 높아질수록 구조 완료 후 획득하는 보상도 풍부해집니다.
-·탐색 가능한 최고 챕터의 구조 작전을 S 등급으로 완료 시, 신호 강도가 1 증가합니다.
-·신호 강도는 해역구조 횟수의 상한을 결정합니다.
-
-전투 조우
-·구조 과정 중 적의 잠수함 부대과 조우할 수 있으니, 출격 함대는 대잠수함 설비를 갖추어야 합니다.]]
-		}
-	}
-}
-
-_G.pg.base.gametip.sos_lock = {
-	tip = "구조 스테이지가 아직 개방되지 않았습니다"
 }
 
 _G.pg.base.gametip.charge_scene_buy_confirm = {
@@ -10660,6 +10614,10 @@ _G.pg.base.gametip.school_title_xueyuan = {
 
 _G.pg.base.gametip.school_title_shoucang = {
 	tip = "보관실"
+}
+
+_G.pg.base.gametip.school_title_xiaoyouxiting = {
+	tip = "게임 로비"
 }
 
 _G.pg.base.gametip.tag_level_fighting = {
@@ -17728,26 +17686,6 @@ _G.pg.base.gametip.daily_level_quick_battle_label3 = {
 	tip = "빠른 도전 1회"
 }
 
-_G.pg.base.gametip.LevelSignal = {
-	tip = "해역구조"
-}
-
-_G.pg.base.gametip.LevelSignal_go = {
-	tip = "이동"
-}
-
-_G.pg.base.gametip.LevelSignal_search = {
-	tip = "신호 탐색"
-}
-
-_G.pg.base.gametip.LevelSignal_times = {
-	tip = "구조 가능 횟수:"
-}
-
-_G.pg.base.gametip.LevelSignal_intensity = {
-	tip = "신호 강도:"
-}
-
 _G.pg.base.gametip.backyard_longpress_ship_tip = {
 	tip = "※길게 눌러 캐릭터 육성 화면으로 이동"
 }
@@ -19738,10 +19676,6 @@ _G.pg.base.gametip.shipmodechange_reject_1stfleet_only = {
 
 _G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
 	tip = "월드 함대 선봉/주력 함대의 유일한 함선입니다. 편대 진형을 조정 후 재시도 해주세요."
-}
-
-_G.pg.base.gametip.shipmodechange_reject_inactivity = {
-	tip = "함선이 한계 챌린지/공투 이벤트에 편성되어 있습니다. 편대 진형을 조정 후 재시도 해주세요."
 }
 
 _G.pg.base.gametip.monopoly3thre_tip = {
@@ -23116,6 +23050,47 @@ _G.pg.base.gametip.limit_team_character_tips = {
 	tip = "※참전 중인 함대에 동명의 캐릭터 편성 불가"
 }
 
+_G.pg.base.gametip.game_room_help = {
+	tip = {
+		{
+			info = [[
+게임 로비 기능 설명: 
+1. 「게임 코인」을 사용하여 게임을 진행하면「게임 쿠폰」을 획득할 수 있습니다. 사용한 게임 코인의 수가 많을수록 당첨 확률이 높아지며, 한번에 최대 5개의 게임 코인을 사용할 수 있습니다. 매월 최대 10,000개의 쿠폰이 주어지며, 최대 보유 가능 수량은 50,000개입니다.
+2. 매주 게임 로비에서 10개의 게임 코인을 무료로 수령할 수 있으며, 코인의 최대 보유 가능 수량은 40개입니다. 게임 코인이 부족할 경우, 지휘관은 물자를 사용하여 교환할 수 있습니다. 
+3. 쥬쥬 쿠폰을 사용하면 쿠폰 상점에서 다른 아이템으로 교환할 수 있습닌다. 아이템은 교환 횟수가 존재하며, 아이템 목록은 추후 지속적으로 업데이트될 예정입니다.
+4. 이벤트가 종료된 미니게임은 추후 게임 목록에 추가될 예정이며, 일부 미니게임은 일시적으로 게임 로비에 추가되지 않을 수도 있으니, 양해 부탁드립니다.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.game_cannot_go = {
+	tip = "현재 플레이할 수 없습니다."
+}
+
+_G.pg.base.gametip.game_ticket_notenough = {
+	tip = "게임 쿠폰이 부족합니다. 미니 게임 로비로 돌아가시겠습니까?"
+}
+
+_G.pg.base.gametip.game_ticket_max_all = {
+	tip = "게임 쿠폰이 소지 한도에 도달하여, 한도 수량을 초과한 게임 쿠폰은 획득이 불가능합니다. 그래도 플레이하시겠습니까?"
+}
+
+_G.pg.base.gametip.game_ticket_max_month = {
+	tip = "이번 달에 획득 가능한 쿠폰 수가 한도에 도달하여, 한도 수량을 초과한 게임 쿠폰은 획득이 불가능합니다. 그래도 플레이하시겠습니까?"
+}
+
+_G.pg.base.gametip.game_icon_notenough = {
+	tip = "코인이 부족합니다. 물자를 소비하여 코인을 구매하시겠습니까?"
+}
+
+_G.pg.base.gametip.game_goldbyicon = {
+	tip = "물자를 $1 소비하여 코인 $2개를 구매하시겠습니까?"
+}
+
+_G.pg.base.gametip.game_icon_max = {
+	tip = "코인이 소지 한도에 도달하여, 한도 수량을 초과한 게임 코인은 획득이 불가능합니다. 그래도 획득하시겠습니까?"
+}
+
 _G.pg.base.gametip.caibulin_tip1 = {
 	tip = "작전 중 단서를 수색하자, 목표 1-2 푸링!"
 }
@@ -23559,6 +23534,10 @@ _G.pg.base.gametip.islandshop_tips4 = {
 	tip = "$1부족"
 }
 
+_G.pg.base.gametip.island_shop_limit_error = {
+	tip = "이미 소지 한도 수에 도달하여 더 이상 획득할 수 없습니다."
+}
+
 _G.pg.base.gametip.haidaojudian_upgrade_limit = {
 	tip = "이 건물은 당분간 업그레이드할 수 없습니다. 지휘관은 먼저 다른 건물을 업그레이드해주세요~"
 }
@@ -23759,4 +23738,60 @@ _G.pg.base.gametip.littleTaihou_npc = {
 			info = "8. npc 캐릭터는 대함대 작전의 사건 파견과 공방대, 수령전에 참여할 수 없습니다."
 		}
 	}
+}
+
+_G.pg.base.gametip.disassemble_selected = {
+	tip = "선택 완료"
+}
+
+_G.pg.base.gametip.disassemble_available = {
+	tip = "획득 가능"
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_challenge = {
+	tip = "한계 챌린지 함대"
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_challenge_sub = {
+	tip = "한계 챌린지 함대"
+}
+
+_G.pg.base.gametip.word_status_activity = {
+	tip = "이벤트 출격 중입니다."
+}
+
+_G.pg.base.gametip.word_status_challenge = {
+	tip = "한계 챌린지에 편성되어 있습니다."
+}
+
+_G.pg.base.gametip.shipmodechange_reject_inactivity = {
+	tip = "해당 함선은 이벤트 출격 함대에 편성되어 있습니다. 편성을 바꾸어 다시 시도하시기 바랍니다."
+}
+
+_G.pg.base.gametip.shipmodechange_reject_inchallenge = {
+	tip = "해당 함선은 한계 챌린지 함대에 편성되어 있습니다. 편성을 바꾸어 다시 시도하시기 바랍니다."
+}
+
+_G.pg.base.gametip.battle_result_total_time = {
+	tip = "클리어 시간:"
+}
+
+_G.pg.base.gametip.charge_game_room_coin_tip = {
+	tip = "물자를 <color=#92fc63><icon name=gold w=0.7 h=0.7/>$1</color> 소비하여 <color=$3>$4 × $2</color>(을)를 구매하시겠습니까?"
+}
+
+_G.pg.base.gametip.game_room_shooting_tip = {
+	tip = "점수:"
+}
+
+_G.pg.base.gametip.mini_game_shop_ticked_not_enough = {
+	tip = "게임 쿠폰이 부족합니다. 미니 게임 로비로 돌아가시겠습니까?"
+}
+
+_G.pg.base.gametip.game_ticket_current_month = {
+	tip = "이번 달 획득 가능 한도"
+}
+
+_G.pg.base.gametip.game_icon_max_full = {
+	tip = "이미 소지 한도 수에 도달하여 더 이상 획득할 수 없습니다."
 }

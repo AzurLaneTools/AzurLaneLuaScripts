@@ -668,6 +668,8 @@ function slot5.InitPool(slot0, slot1, slot2)
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
 	elseif slot1 == "UI/MonsterAppearUI" then
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
+	elseif slot1 == "UI/CardTowerCardCombat" then
+		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 7, 20, false, false):InitSize()
 	elseif slot1 == "UI/CombatHPBar" then
 		uv1.Battle.BattleHPBarManager.GetInstance():Init(slot2, slot3)
 	elseif slot1 == "UI/CombatHPPop" then
@@ -1074,6 +1076,10 @@ function slot5.GetStageResource(slot0)
 			elseif slot13.triggerType == uv0.Battle.BattleConst.WaveTriggerType.ENVIRONMENT then
 				for slot17, slot18 in ipairs(slot13.spawn) do
 					uv1.GetEnvironmentRes(slot2, slot18)
+				end
+			elseif slot13.triggerType == uv0.Battle.BattleConst.WaveTriggerType.CARD_PUZZLE then
+				for slot18, slot19 in ipairs(uv0.Battle.BattleDataFunction.GetCardRes(slot13.triggerParams.card_id)) do
+					table.insert(slot2, slot19)
 				end
 			end
 

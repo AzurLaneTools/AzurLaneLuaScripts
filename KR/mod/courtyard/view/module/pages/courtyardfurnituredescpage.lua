@@ -14,9 +14,10 @@ function slot0.OnLoaded(slot0)
 	slot0.comtableTxt = findTF(slot0._tf, "desc/container/frame/comfortable_container/Text"):GetComponent(typeof(Text))
 	slot0.approachTxt = findTF(slot0._tf, "desc/container/frame/approach_container/Text"):GetComponent(typeof(Text))
 	slot0.dateTxt = findTF(slot0._tf, "desc/container/frame/date_container/Text"):GetComponent(typeof(Text))
-	slot0.voiceBtn = findTF(slot0._tf, "desc/container/frame/voice")
-	slot0.bgVoiceBtn = findTF(slot0._tf, "desc/container/frame/bg_voice")
-	slot0.bgVoiceMark = findTF(slot0._tf, "desc/container/frame/bg_voice/mark")
+	slot0.voiceBtn = findTF(slot0._tf, "desc/container/frame/music_btn/voice")
+	slot0.bgVoiceBtn = findTF(slot0._tf, "desc/container/frame/music_btn/bg_voice")
+	slot0.bgVoiceMark = findTF(slot0._tf, "desc/container/frame/music_btn/bg_voice/mark")
+	slot0.musicalInstrumentsBtn = findTF(slot0._tf, "desc/container/frame/music_btn/play")
 
 	setText(findTF(slot0._tf, "desc/container/frame/comfortable_container/label"), i18n("word_comfort_level"))
 	setText(findTF(slot0._tf, "desc/container/frame/approach_container/label"), i18n("word_get_way"))
@@ -38,6 +39,11 @@ function slot0.OnInit(slot0)
 		uv0:Emit("PlayFurnitureBg", uv0.furniture.id)
 		setActive(uv0.bgVoiceMark, uv0.furniture:GetMusicData())
 	end, SFX_PANEL)
+	onButton(slot0, slot0.musicalInstrumentsBtn, function ()
+		if uv0.furniture:IsMusicalInstruments() then
+			uv0:Emit("PlayMusicalInstruments", uv0.furniture.id)
+		end
+	end, SFX_PANEL)
 end
 
 function slot0.Show(slot0, slot1)
@@ -51,6 +57,7 @@ function slot0.Show(slot0, slot1)
 	setAnchoredPosition(slot0.voiceBtn, {
 		y = slot3 == 3 and -72 or -22
 	})
+	setActive(slot0.musicalInstrumentsBtn, slot1:IsMusicalInstruments())
 	setActive(slot0.bgVoiceMark, slot0.furniture:GetMusicData())
 	LoadSpriteAsync("FurnitureIcon/" .. slot1:GetIcon(), function (slot0)
 		if not uv0.exited then
@@ -66,6 +73,11 @@ function slot0.Show(slot0, slot1)
 	slot0.typeTxt.text = slot1:GetGametipType()
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+
+	slot4 = slot1:IsType(Furniture.TYPE_LUTE)
+
+	setActive(slot0.approachTxt.gameObject.transform.parent, not slot4)
+	setActive(slot0.dateTxt.gameObject.transform.parent, not slot4)
 end
 
 function slot0.Close(slot0)
