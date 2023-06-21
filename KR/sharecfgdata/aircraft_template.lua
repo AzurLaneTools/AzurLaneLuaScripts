@@ -28098,6 +28098,48 @@ _G.pg.base.aircraft_template[47190] = {
 	}
 }
 
+_G.pg.base.aircraft_template[47191] = {
+	max_hp = 111,
+	hp_growth = 4274,
+	base = 47180,
+	id = 47191,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59051,
+		59451,
+		59911,
+		59931
+	}
+}
+
+_G.pg.base.aircraft_template[47192] = {
+	max_hp = 117,
+	hp_growth = 4516,
+	base = 47180,
+	id = 47192,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59052,
+		59452,
+		59912,
+		59932
+	}
+}
+
+_G.pg.base.aircraft_template[47193] = {
+	max_hp = 124,
+	hp_growth = 4758,
+	base = 47180,
+	id = 47193,
+	spawn_brownian = 1,
+	weapon_ID = {
+		59053,
+		59453,
+		59913,
+		59933
+	}
+}
+
 _G.pg.base.aircraft_template[48000] = {
 	attack_power = 2,
 	name = "Ar-195舰载鱼雷机",
