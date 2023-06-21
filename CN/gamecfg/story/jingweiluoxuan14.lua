@@ -671,13 +671,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 107140,
 			say = "……塞壬总是在进行的数据收集可能就是在为这样的对抗实验做准备？",
 			typewriter = {
 				speed = 0.05,
