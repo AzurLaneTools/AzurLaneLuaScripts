@@ -10,9 +10,6 @@ slot0.COMMIT_FLEET = "DefenseFormationMedator:COMMIT_FLEET"
 
 function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
-
-	slot1:setSelectShipId(nil)
-
 	slot0.ships = slot1:getRawData()
 	slot2 = slot0.viewComponent
 

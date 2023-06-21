@@ -183,12 +183,11 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actor = 301820,
 			side = 2,
 			bgName = "star_level_bg_157",
-			actor = 301820,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			dir = 1,
 			say = "色鮮やかなハナウメを足せば大丈夫なんですけど…香りがちょっと物足りなくて…",
 			hidePaintEquip = true,
 			painting = {

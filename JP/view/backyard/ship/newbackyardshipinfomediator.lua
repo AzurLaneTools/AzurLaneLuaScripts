@@ -61,7 +61,6 @@ function slot0.OnSelShips(slot0, slot1, slot2)
 
 	slot7.leftTopWithFrameInfo = i18n("backyard_longpress_ship_tip")
 	slot7.isLayer = true
-	slot7.skipSelect = true
 	slot7.energyDisplay = true
 
 	slot0:addSubLayers(Context.New({

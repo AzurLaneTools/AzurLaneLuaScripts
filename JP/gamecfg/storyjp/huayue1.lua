@@ -285,12 +285,11 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actor = 301820,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			dir = 1,
 			say = "今は花が咲く春ですからね。毎日色んな花が咲き誇っています",
 			hidePaintEquip = true,
 			painting = {

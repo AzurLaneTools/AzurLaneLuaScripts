@@ -8,11 +8,7 @@ slot0.ON_AUTO = "WorldBossFormationMediator:ON_AUTO"
 slot0.CHANGE_FLEET_SHIPS_ORDER = "WorldBossFormationMediator:CHANGE_FLEET_SHIPS_ORDER"
 
 function slot0.register(slot0)
-	slot1 = getProxy(BayProxy)
-
-	slot1:setSelectShipId(nil)
-
-	slot0.ships = slot1:getRawData()
+	slot0.ships = getProxy(BayProxy):getRawData()
 
 	slot0.viewComponent:SetShips(slot0.ships)
 

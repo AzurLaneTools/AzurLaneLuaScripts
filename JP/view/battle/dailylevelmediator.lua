@@ -18,9 +18,6 @@ function slot0.register(slot0)
 	slot2:setDailyCounts(slot1:getRawData())
 
 	slot2 = getProxy(BayProxy)
-
-	slot2:setSelectShipId(nil)
-
 	slot0.ships = slot2:getRawData()
 	slot3 = slot0.viewComponent
 

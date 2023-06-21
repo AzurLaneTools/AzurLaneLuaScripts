@@ -19880,6 +19880,120 @@ _G.pg.base.item_data_statistics[30523] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30524] = {
+	display = "使用すると、装備外装（饅頭ランド）から任意の装備外装を1個選択して入手できます",
+	name = "選択装備外装箱（饅頭ランド）",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxyouleyuanzixuan",
+	id = 30524,
+	display_icon = {
+		{
+			9,
+			400,
+			1
+		},
+		{
+			9,
+			401,
+			1
+		},
+		{
+			9,
+			402,
+			1
+		},
+		{
+			9,
+			403,
+			1
+		},
+		{
+			9,
+			404,
+			1
+		},
+		{
+			9,
+			405,
+			1
+		},
+		{
+			9,
+			406,
+			1
+		},
+		{
+			9,
+			407,
+			1
+		},
+		{
+			9,
+			408,
+			1
+		},
+		{
+			9,
+			409,
+			1
+		},
+		{
+			9,
+			410,
+			1
+		},
+		{
+			9,
+			411,
+			1
+		},
+		{
+			9,
+			412,
+			1
+		},
+		{
+			9,
+			413,
+			1
+		},
+		{
+			9,
+			414,
+			1
+		},
+		{
+			9,
+			415,
+			1
+		},
+		{
+			9,
+			416,
+			1
+		},
+		{
+			9,
+			417,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30900] = {
 	display = "各種パーツから一つ選択して入手できます",
 	name = "指向性強化パーツT4",
@@ -202629,6 +202743,98 @@ _G.pg.base.item_data_statistics[59458] = {
 	is_world = 0,
 	icon = "Props/little_taihou_pt",
 	id = 59458,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59459] = {
+	display = "「照らす螺旋の鏡海」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "ミラープレート",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xinzexi_pt",
+	id = 59459,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59460] = {
+	display = "イベント「照らす螺旋の鏡海」で入手できる期間限定建造チケット。イベント終了後に削除されます",
+	name = "建造支援チケット",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4902,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 59460,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59461] = {
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2023.6.28メンテナンスまで）で削除されます",
+	name = "試着貸出チケット（2023.6.28まで）",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59461,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59462] = {
+	display = "「作戦準備・ユニオン」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "訓練Pt",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_v4",
+	id = 59462,
 	display_icon = {},
 	price = {},
 	index = {},

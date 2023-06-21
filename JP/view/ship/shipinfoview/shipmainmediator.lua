@@ -38,19 +38,23 @@ slot0.ON_SELECT_SPWEAPON = "ShipMainMediator:ON_SELECT_SPWEAPON"
 function slot0.register(slot0)
 	slot0.bayProxy = getProxy(BayProxy)
 	slot0.contextData.shipVOs = slot0.contextData.shipVOs or {}
-	slot2 = slot0.bayProxy:getShipById(slot0.contextData.shipId)
 	slot0.contextData.index = _.detect(slot0.contextData.shipVOs, function (slot0)
 		return uv0.contextData.shipId == slot0.id
 	end) and table.indexof(slot0.contextData.shipVOs, slot1) or 1
 
 	slot0.viewComponent:setShipList(slot0.contextData.shipVOs)
 	slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy):getSkinList())
-	slot0.viewComponent:setShip(slot2)
+	slot0.viewComponent:setShip(slot0.bayProxy:getShipById(slot0.contextData.shipId))
+
+	if slot0.contextData.selectContextData then
+		slot0.contextData.selectContextData.infoShipId = slot0.contextData.shipId
+	end
 
 	slot0.showTrans = slot2:isRemoulded()
+	slot3 = getProxy(PlayerProxy)
+	slot5 = slot0.viewComponent
 
-	slot0.bayProxy:setSelectShipId(slot0.contextData.shipId)
-	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
+	slot5:setPlayer(slot3:getData())
 
 	slot5 = getProxy(ContextProxy)
 
@@ -381,9 +385,13 @@ function slot0.nextPage(slot0, slot1, slot2)
 		slot0.viewComponent.fashionSkinId = 0
 
 		slot0.viewComponent:setShip(slot6)
+
+		if slot0.contextData.selectContextData then
+			slot0.contextData.selectContextData.infoShipId = slot6.id
+		end
+
 		slot0.viewComponent:updatePreferenceTag()
 		slot0.viewComponent:displayShipWord("detail", true)
-		slot0.bayProxy:setSelectShipId(slot6.id)
 		slot0.viewComponent:closeRecordPanel()
 
 		if ShipViewConst.currentPage == ShipViewConst.PAGE.UPGRADE then

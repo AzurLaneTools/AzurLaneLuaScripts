@@ -30,7 +30,6 @@ function slot0.register(slot0)
 		end)), slot1.id)
 		uv1:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			destroyCheck = true,
-			skipSelect = true,
 			leftTopInfo = i18n("word_upgrade"),
 			mode = DockyardScene.MODE_UPGRADE,
 			selectedMax = slot2 or 1,

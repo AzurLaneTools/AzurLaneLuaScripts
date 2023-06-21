@@ -336,7 +336,6 @@ function slot0.BindEvent(slot0)
 			selectedMax = 1,
 			useBlackBlock = true,
 			selectedMin = 0,
-			skipSelect = true,
 			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
 			quitTeam = slot3 ~= nil,
 			teamFilter = slot5,

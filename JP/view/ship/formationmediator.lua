@@ -12,11 +12,7 @@ slot0.ON_CMD_SKILL = "FormationMediator:ON_CMD_SKILL"
 slot0.COMMANDER_FORMATION_OP = "FormationMediator:COMMANDER_FORMATION_OP"
 
 function slot0.register(slot0)
-	slot1 = getProxy(BayProxy)
-
-	slot1:setSelectShipId(nil)
-
-	slot0.ships = slot1:getRawData()
+	slot0.ships = getProxy(BayProxy):getRawData()
 
 	slot0.viewComponent:setShips(slot0.ships)
 

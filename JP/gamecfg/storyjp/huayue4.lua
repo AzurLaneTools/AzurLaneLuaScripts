@@ -377,12 +377,11 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actor = 301820,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			dir = 1,
 			say = "この子たちはみんな違うところもあれば、同じところもあると思うんです",
 			hidePaintEquip = true,
 			painting = {

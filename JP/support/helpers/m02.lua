@@ -1773,7 +1773,6 @@ end
 function openDockyardClear()
 	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 		blockLock = true,
-		skipSelect = true,
 		mode = DockyardScene.MODE_DESTROY,
 		leftTopInfo = i18n("word_destroy"),
 		selectedMax = getGameset("ship_select_limit")[1],
@@ -3839,6 +3838,8 @@ function getSurveyUrl(slot0)
 		elseif PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
 			slot2 = slot1.main_url
 		end
+	else
+		slot2 = slot1.main_url
 	end
 
 	slot3 = getProxy(PlayerProxy):getRawData().id
@@ -3887,28 +3888,6 @@ function FilterVarchar(slot0)
 	end
 
 	return slot0
-end
-
-function fillSurveyUrl(slot0)
-	slot3 = nil
-	slot10 = {
-		getProxy(PlayerProxy):getRawData().id,
-		getProxy(UserProxy):getRawData().arg2 or "",
-		PLATFORM == PLATFORM_ANDROID and 1 or PLATFORM == PLATFORM_IPHONEPLAYER and 2 or 3,
-		getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot4.server or 0] and slot5.name or "",
-		getProxy(PlayerProxy):getRawData().level,
-		""
-	}
-
-	if slot0 then
-		for slot14, slot15 in ipairs(slot10) do
-			slot9 = string.gsub(slot9, "$" .. slot14, tostring(slot15))
-		end
-	end
-
-	warning(slot9)
-
-	return slot9
 end
 
 function getGameset(slot0)

@@ -17,11 +17,7 @@ slot0.GET_CHAPTER_DROP_SHIP_LIST = "PreCombatMediator:GET_CHAPTER_DROP_SHIP_LIST
 function slot0.register(slot0)
 	slot0:bindEvent()
 
-	slot1 = getProxy(BayProxy)
-
-	slot1:setSelectShipId(nil)
-
-	slot0.ships = slot1:getRawData()
+	slot0.ships = getProxy(BayProxy):getRawData()
 
 	slot0.viewComponent:SetShips(slot0.ships)
 

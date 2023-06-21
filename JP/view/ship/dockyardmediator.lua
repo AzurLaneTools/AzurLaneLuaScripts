@@ -32,12 +32,6 @@ function slot0.register(slot0)
 		end
 	end
 
-	if DockyardScene.MODE_DESTROY ~= slot0.contextData.mode and DockyardScene.MODE_OVERVIEW ~= slot0.contextData.mode and slot0.contextData.fromMediatorName ~= CourtYardMediator.__cname and slot0.contextData.fromMediatorName ~= NavalAcademyMediator.__cname and not slot0.contextData.skipSelect then
-		slot0.contextData.selectShipId = slot1.selectShipId
-
-		slot1:setSelectShipId(nil)
-	end
-
 	if slot0.contextData.mode == DockyardScene.MODE_MOD then
 		slot0.viewComponent:setModShip(slot0.shipsById[slot0.contextData.ignoredIds[1]]:clone())
 	end
@@ -69,10 +63,11 @@ function slot0.register(slot0)
 			shipIds = slot1
 		})
 	end)
-	slot0:bind(uv0.ON_SHIP_DETAIL, function (slot0, slot1, slot2)
+	slot0:bind(uv0.ON_SHIP_DETAIL, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
 			shipId = slot1.id,
-			shipVOs = slot2
+			shipVOs = slot2,
+			selectContextData = slot3
 		})
 	end)
 	slot0:bind(uv0.ON_WORLD_FORMATION, function ()
