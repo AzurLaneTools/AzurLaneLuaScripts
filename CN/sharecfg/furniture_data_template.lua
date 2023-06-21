@@ -18776,7 +18776,7 @@ pg.base.furniture_data_template = {
 	},
 	[252] = {
 		spine_extra = "",
-		describe = "",
+		describe = "250万关注！感谢各位指挥官们的陪伴与厚爱！",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -18793,7 +18793,7 @@ pg.base.furniture_data_template = {
 		level = 1,
 		advice = 0,
 		effect = "",
-		name = "250w纪念",
+		name = "250W·纪念的小加加",
 		comfortable = 4,
 		spine_action_replace = "",
 		picture = "",
