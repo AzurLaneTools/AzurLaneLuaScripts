@@ -24,9 +24,9 @@ function slot0.Show(slot0, slot1)
 end
 
 function slot1(slot0)
-	slot3 = pg.ship_data_create_material[pg.activity_template[slot0:getConfig("config_id")].config_id]
+	slot2 = pg.ship_data_create_exchange[slot0:getConfig("config_id")]
 
-	return slot0.data1, math.min(slot3.exchange_available_times, slot0.data2 + 1) * slot3.exchange_request, slot3.exchange_ship_id
+	return slot0.data1, math.min(slot2.exchange_available_times, slot0.data2 + 1) * slot2.exchange_request, slot2.exchange_ship_id
 end
 
 function slot2(slot0)

@@ -152,6 +152,7 @@ pg.furniture_data_template = setmetatable({
 			249,
 			250,
 			251,
+			252,
 			100001,
 			100002,
 			100003,
@@ -5141,6 +5142,7 @@ pg.furniture_data_template = setmetatable({
 			249,
 			250,
 			251,
+			252,
 			100001,
 			100002,
 			100003,
@@ -6083,6 +6085,7 @@ pg.furniture_data_template = setmetatable({
 			248,
 			249,
 			250,
+			252,
 			100001,
 			100002,
 			100004,
@@ -8878,6 +8881,7 @@ pg.furniture_data_template = setmetatable({
 		249,
 		250,
 		251,
+		252,
 		100001,
 		100002,
 		100003,
@@ -18765,6 +18769,53 @@ pg.base.furniture_data_template = {
 				{
 					"action",
 					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[252] = {
+		spine_extra = "",
+		describe = "",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "bili250wicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "250w纪念",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 252,
+		can_rotate = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bili250w",
+				"normal",
+				{
+					"action",
+					false
 				}
 			}
 		},

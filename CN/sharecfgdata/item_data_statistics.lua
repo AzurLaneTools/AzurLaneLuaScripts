@@ -20209,6 +20209,120 @@ _G.pg.base.item_data_statistics[30523] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30524] = {
+	display = "使用后可从「啾啾乐园」主题外观装备中任意选择一种获得1个",
+	name = "定向外观装备箱(游乐园)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxyouleyuanzixuan",
+	id = 30524,
+	display_icon = {
+		{
+			9,
+			400,
+			1
+		},
+		{
+			9,
+			401,
+			1
+		},
+		{
+			9,
+			402,
+			1
+		},
+		{
+			9,
+			403,
+			1
+		},
+		{
+			9,
+			404,
+			1
+		},
+		{
+			9,
+			405,
+			1
+		},
+		{
+			9,
+			406,
+			1
+		},
+		{
+			9,
+			407,
+			1
+		},
+		{
+			9,
+			408,
+			1
+		},
+		{
+			9,
+			409,
+			1
+		},
+		{
+			9,
+			410,
+			1
+		},
+		{
+			9,
+			411,
+			1
+		},
+		{
+			9,
+			412,
+			1
+		},
+		{
+			9,
+			413,
+			1
+		},
+		{
+			9,
+			414,
+			1
+		},
+		{
+			9,
+			415,
+			1
+		},
+		{
+			9,
+			416,
+			1
+		},
+		{
+			9,
+			417,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30900] = {
 	display = "使用后可从T4部件中任意选择一种获得1个",
 	name = "定向部件T4",
@@ -204096,6 +204210,98 @@ _G.pg.base.item_data_statistics[59458] = {
 	is_world = 0,
 	icon = "Props/little_taihou_pt",
 	id = 59458,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59459] = {
+	display = "用于「镜位螺旋」复刻活动兑换，活动结束后将会消失",
+	name = "镜位之证",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xinzexi_pt",
+	id = 59459,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59460] = {
+	display = "于「镜位螺旋」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	name = "单次建造券",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4902,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 59460,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59461] = {
+	display = "用于「限时体验商店」兑换角色限时换装",
+	name = "换装体验券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59461,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59462] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_v4",
+	id = 59462,
 	display_icon = {},
 	price = {},
 	index = {},

@@ -285,12 +285,11 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actor = 301820,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			dir = 1,
 			say = "因为现在是万卉争荣的春天~各式各样的鲜花都在肆意盛开着。",
 			hidePaintEquip = true,
 			painting = {

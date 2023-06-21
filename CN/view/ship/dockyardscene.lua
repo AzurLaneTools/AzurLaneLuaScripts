@@ -33,17 +33,26 @@ function slot0.init(slot0)
 	slot0.selectedMin = slot1.selectedMin or 1
 	slot0.leastLimitMsg = slot1.leastLimitMsg
 	slot0.selectedMax = slot1.selectedMax or 0
-	slot0.selectedIds = slot1.selectedIds and _.select(slot1.selectedIds, function (slot0)
-		return getProxy(BayProxy):getShipById(slot0) ~= nil
-	end) or {}
+	slot1.selectedIds = slot1.selectedIds or {}
+
+	if slot1.infoShipId then
+		table.insert(slot1.selectedIds, slot1.infoShipId)
+
+		slot1.infoShipId = nil
+	end
+
+	slot0.selectedIds = underscore(slot1.selectedIds):chain():select(function (slot0)
+		return getProxy(BayProxy):RawGetShipById(slot0) ~= nil
+	end):first(slot0.selectedMax):value()
+	slot1.selectedIds = nil
 	slot0.checkShip = slot1.onShip or function (slot0, slot1, slot2)
 		return true
 	end
 	slot0.onCancelShip = slot1.onCancelShip or function (slot0, slot1, slot2)
 		return true
 	end
-	slot0.onClick = slot1.onClick or function (slot0, slot1)
-		uv0:emit(DockyardMediator.ON_SHIP_DETAIL, slot0, slot1)
+	slot0.onClick = slot1.onClick or function (slot0, slot1, slot2)
+		uv0:emit(DockyardMediator.ON_SHIP_DETAIL, slot0, slot1, slot2)
 	end
 	slot0.confirmSelect = slot1.confirmSelect
 	slot0.callbackQuit = slot1.callbackQuit
@@ -337,11 +346,10 @@ function slot0.onInitItem(slot0, slot1)
 		slot3:AddListener(function ()
 			if uv0.shipVO then
 				uv1.contextData.selectedIds = uv1.selectedIds
-				uv1.contextData.skipSelect = true
 
-				uv1.onClick(uv0.shipVO, _.select(uv1.shipVOs, function (slot0)
+				uv1.onClick(uv0.shipVO, underscore.select(uv1.shipVOs, function (slot0)
 					return slot0
-				end))
+				end), uv1.contextData)
 			end
 		end)
 	else

@@ -345,7 +345,7 @@ function slot0.SwitchPool(slot0, slot1)
 	setText(slot0:findTF("gallery/item_bg/gold/Text"), slot6.use_gold)
 	slot0:UpdateBuildPoolExchange(slot1)
 	slot0:UpdateTestBtn(slot1)
-	slot0:UpdateBuildPoolPaiting(slot6)
+	slot0:UpdateBuildPoolPaiting(slot1)
 
 	if slot0.useTicket then
 		onButton(slot0, slot0:findTF("gallery/start_btn"), function ()
@@ -398,17 +398,25 @@ function slot0.SwitchPool(slot0, slot1)
 	end
 end
 
+function slot2(slot0)
+	if not slot0:IsActivity() then
+		return false
+	end
+
+	return pg.ship_data_create_exchange[slot0:GetActivityId()] and slot2[slot1].exchange_ship_id > 0
+end
+
 function slot0.UpdateBuildPoolPaiting(slot0, slot1)
 	slot2 = nil
 
 	if slot0.buildPainting then
 		slot2 = slot0.buildPainting
-	elseif slot1.exchange_ship_id and slot1.exchange_ship_id > 0 then
-		slot3 = pg.ship_data_statistics[slot1.exchange_ship_id]
+	elseif uv0(slot1) then
+		slot4 = pg.ship_data_statistics[pg.ship_data_create_exchange[slot1:GetActivityId()].exchange_ship_id]
 
-		assert(slot3)
+		assert(slot4)
 
-		slot2 = pg.ship_skin_template[slot3.skin_id].painting
+		slot2 = pg.ship_skin_template[slot4.skin_id].painting
 	else
 		slot2 = slot0.contextData.falgShip:getPainting()
 	end
@@ -427,21 +435,26 @@ function slot0.UpdateBuildPoolPaiting(slot0, slot1)
 end
 
 function slot0.UpdateBuildPoolExchange(slot0, slot1)
-	slot2 = slot1:getConfigTable()
-	slot4 = slot2.exchange_available_times
-	slot5 = slot2.exchange_ship_id
+	slot2, slot3, slot4 = nil
 
-	if slot2.exchange_request and slot3 > 0 and slot4 and slot4 > 0 and slot1:IsActivity() then
-		slot7 = slot1:GetActivity()
-		slot9 = slot7.data2
-		slot0.buildPoolExchangeTxt.text = i18n("build_count_tip") .. "<color=#FFDF48>" .. slot7.data1 .. "</color>/" .. math.min(slot4, slot9 + 1) * slot3
-		slot11 = slot9 < slot4 and slot10 <= slot8
+	if slot1:IsActivity() then
+		slot6 = pg.ship_data_create_exchange[slot1:GetActivityId()] or {}
+		slot2 = slot6.exchange_request
+		slot3 = slot6.exchange_available_times
+		slot4 = slot6.exchange_ship_id
+	end
 
-		setActive(slot0.buildPoolExchangeGetBtnMark, slot11)
+	if slot2 and slot2 > 0 and slot3 and slot3 > 0 then
+		slot6 = slot1:GetActivity()
+		slot8 = slot6.data2
+		slot0.buildPoolExchangeTxt.text = i18n("build_count_tip") .. "<color=#FFDF48>" .. slot6.data1 .. "</color>/" .. math.min(slot3, slot8 + 1) * slot2
+		slot10 = slot8 < slot3 and slot9 <= slot7
 
-		slot0.buildPoolExchangeGetTxt.text = slot9 .. "/" .. slot4
-		slot0.buildPoolExchangeName.text = SwitchSpecialChar(pg.ship_data_statistics[slot5].name, true)
-		slot13 = pg.ship_data_statistics[slot5].rarity
+		setActive(slot0.buildPoolExchangeGetBtnMark, slot10)
+
+		slot0.buildPoolExchangeGetTxt.text = slot8 .. "/" .. slot3
+		slot0.buildPoolExchangeName.text = SwitchSpecialChar(pg.ship_data_statistics[slot4].name, true)
+		slot12 = pg.ship_data_statistics[slot4].rarity
 
 		eachChild(slot0.buildPoolExchangeTF:Find("bg"), function (slot0)
 			setActive(slot0, slot0.name == tostring(uv0))
@@ -451,13 +464,13 @@ function slot0.UpdateBuildPoolExchange(slot0, slot1)
 				uv1:emit(BuildShipMediator.ON_BUILDPOOL_EXCHANGE, uv2.id)
 			end
 		end, SFX_PANEL)
-		setGray(slot0.buildPoolExchangeGetBtn, not slot11, true)
-		setButtonEnabled(slot0.buildPoolExchangeTF, slot11)
+		setGray(slot0.buildPoolExchangeGetBtn, not slot10, true)
+		setButtonEnabled(slot0.buildPoolExchangeTF, slot10)
 	else
 		removeOnButton(slot0.buildPoolExchangeTF)
 	end
 
-	setActive(slot0.buildPoolExchangeTF, slot6)
+	setActive(slot0.buildPoolExchangeTF, slot5)
 	slot0:UpdateTicket()
 end
 

@@ -24,8 +24,6 @@ function slot0.init(slot0)
 	slot0._detailContentTxtComp:AddListener(function (slot0, slot1)
 		if slot0 == "url" then
 			Application.OpenURL(slot1)
-		elseif slot0 == "yostarqn" then
-			Application.OpenURL(fillSurveyUrl(slot1))
 		end
 	end)
 

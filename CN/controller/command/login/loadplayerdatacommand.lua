@@ -237,6 +237,15 @@ function slot0.execute(slot0, slot1)
 			type = MiniGameRequestCommand.REQUEST_HUB_DATA
 		})
 		LimitChallengeConst.RequestInfo()
+
+		slot7, slot8 = getProxy(ActivityProxy):isSurveyOpen()
+
+		if slot7 then
+			uv1:sendNotification(GAME.GET_SURVEY_STATE, {
+				surveyID = slot8
+			})
+		end
+
 		pg.SdkMgr.GetInstance():BindCPU()
 		pg.SecondaryPWDMgr.GetInstance():FetchData()
 		MonthCardOutDateTipPanel.SetMonthCardEndDateLocal()
