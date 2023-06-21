@@ -78,7 +78,6 @@ function slot0.OnSelShips(slot0, slot1, slot2)
 			end),
 			leftTopWithFrameInfo = i18n("backyard_longpress_ship_tip"),
 			isLayer = true,
-			skipSelect = true,
 			energyDisplay = true
 		}
 	}))

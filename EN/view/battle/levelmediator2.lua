@@ -253,10 +253,9 @@ function slot0.register(slot0)
 		slot12, slot13, slot14 = uv0:getDockCallbackFuncs(slot5, slot4, slot6, slot3)
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+			selectedMax = 1,
 			useBlackBlock = true,
 			selectedMin = 0,
-			skipSelect = true,
-			selectedMax = 1,
 			energyDisplay = true,
 			ignoredIds = slot10,
 			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),

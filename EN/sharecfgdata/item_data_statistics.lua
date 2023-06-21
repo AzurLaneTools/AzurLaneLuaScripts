@@ -19892,6 +19892,120 @@ _G.pg.base.item_data_statistics[30523] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30524] = {
+	display = "Use to receive 1 Manjuu Theme Park-themed gear skin of your choosing.",
+	name = "Gear Skin Box (Manjuu Theme Park)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxyouleyuanzixuan",
+	id = 30524,
+	display_icon = {
+		{
+			9,
+			400,
+			1
+		},
+		{
+			9,
+			401,
+			1
+		},
+		{
+			9,
+			402,
+			1
+		},
+		{
+			9,
+			403,
+			1
+		},
+		{
+			9,
+			404,
+			1
+		},
+		{
+			9,
+			405,
+			1
+		},
+		{
+			9,
+			406,
+			1
+		},
+		{
+			9,
+			407,
+			1
+		},
+		{
+			9,
+			408,
+			1
+		},
+		{
+			9,
+			409,
+			1
+		},
+		{
+			9,
+			410,
+			1
+		},
+		{
+			9,
+			411,
+			1
+		},
+		{
+			9,
+			412,
+			1
+		},
+		{
+			9,
+			413,
+			1
+		},
+		{
+			9,
+			414,
+			1
+		},
+		{
+			9,
+			415,
+			1
+		},
+		{
+			9,
+			416,
+			1
+		},
+		{
+			9,
+			417,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30900] = {
 	display = "Can be used to obtain a T4 Part of your choosing.",
 	name = "Universal T4 Part",
@@ -194966,6 +195080,98 @@ _G.pg.base.item_data_statistics[59458] = {
 	is_world = 0,
 	icon = "Props/little_taihou_pt",
 	id = 59458,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59459] = {
+	display = "Used to exchange for items in \"Mirror Involution.\" Will be removed after the event ends.",
+	name = "Involuted Seal",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xinzexi_pt",
+	id = 59459,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59460] = {
+	display = "A limited construction ticket for use during the \"Mirror Involution\" event. Removed after the event ends.",
+	name = "Shipbuilding Support Ticket",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4902,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 59460,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59461] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period ends.",
+	name = "Rental Outfit Voucher",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59461,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59462] = {
+	display = "Used to exchange for a portrait frame. Removed after the event ends.",
+	name = "Training Points",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_v4",
+	id = 59462,
 	display_icon = {},
 	price = {},
 	index = {},

@@ -781,7 +781,7 @@ pg.activity_const = {
 		act_id = 916
 	},
 	NEWMEIXIV4_SKIRMISH_ID = {
-		act_id = 974
+		act_id = 4904
 	},
 	MINIGAME_DANGAOBAOWEIZHAN = {
 		act_id = 987

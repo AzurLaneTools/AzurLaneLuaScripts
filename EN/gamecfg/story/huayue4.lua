@@ -377,12 +377,11 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actor = 301820,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			dir = 1,
 			say = "Even though flowers are different from us in many ways, they can also be quite similar to us.",
 			hidePaintEquip = true,
 			painting = {

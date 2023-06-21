@@ -10174,7 +10174,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Build 200 times to get an extra Bismarck Zwei! (Max: 4)"
+	tip = "Build 200 times to get an extra New Jersey! (Max: 4)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -18304,28 +18304,28 @@ _G.pg.base.gametip.MeixiV4_help = {
 			info = "\"Silver Archives\" Prelude Event Info:"
 		},
 		{
-			info = "1. During the event, two time-limited missions will unlock every day at midnight until 5/26."
+			info = "1. During the event, clear the available 2 event missions to unlock the next 2 missions."
 		},
 		{
-			info = "2.Upon clearing a set of two missions, the next day's missions will become available."
+			info = "2. Complete missions to get rewards including the limited gear Action Report: Operation AF."
 		},
 		{
 			info = [[
-3.Each days' rewards are as follows:：
-5/20 Mission 1: 5 T2 Plates, 100 Coins.
-5/20 Mission 2: Unlocks Part 1 of the event story.
-5/21 Mission 1: 2 T2 Retrofit Blueprints
-5/21 Mission 2: 100 Coins.
-5/22 Mission 1: 3 T2 Tech Packs, 100 Coins.
-5/22 Mission 2: Unlocks Part 2 of the event story.
-5/23 Mission 1: 3 Naval Curry.
-5/23 Mission 2: 100 Coins.
-5/24 Mission 1: T3 Tech Pack, 100 Coins.
-5/24 Mission 2: Unlocks Part 3 of the event story.
-5/25 Mission 1: 2 T3 Skill Books.
-5/25 Mission 2: 100 Coins.
-5/26 Mission 1: Action Report: Operation AF, 100 Coins.
-5/26 Mission 2: Unlocks Part 4 of the event story.]]
+3. Each days' rewards are as follows:
+Mission 1: 5 T2 Plates, 100 Coins.
+Mission 2: Unlocks Part 1 of the event story.
+Mission 3: 2 T2 Retrofit Blueprints.
+Mission 4: 100 Coins.
+Mission 5: 3 T2 Tech Packs, 100 Coins.
+Mission 6: Unlocks Part 2 of the event story.
+Mission 7: 3 Naval Curry.
+Mission 8: 100 Coins.
+Mission 9: T3 Tech Pack, 100 Coins.
+Mission 10: Unlocks Part 3 of the event story.
+Mission 11: 2 T3 Skill Books.
+Mission 12: 100 Coins.
+Mission 13: Action Report: Operation AF, 100 Coins.
+Mission 14: Unlocks Part 4 of the event story.]]
 		}
 	}
 }

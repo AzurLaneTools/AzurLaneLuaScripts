@@ -55,11 +55,11 @@ function slot4(slot0)
 		return false
 	end
 
-	slot5 = pg.ship_data_create_material[pg.activity_template[slot2:getConfig("config_id")].config_id]
-	slot7 = slot5.exchange_available_times
-	slot9 = slot2.data2
+	slot4 = pg.ship_data_create_exchange[slot2:getConfig("config_id")]
+	slot6 = slot4.exchange_available_times
+	slot8 = slot2.data2
 
-	return slot9 < slot7 and math.min(slot7, slot9 + 1) * slot5.exchange_request <= slot2.data1
+	return slot8 < slot6 and math.min(slot6, slot8 + 1) * slot4.exchange_request <= slot2.data1
 end
 
 function slot0.TryFetchUrShips(slot0, slot1, slot2)

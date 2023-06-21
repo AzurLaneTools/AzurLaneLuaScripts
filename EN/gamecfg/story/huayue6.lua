@@ -183,12 +183,11 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actor = 301820,
 			side = 2,
 			bgName = "star_level_bg_157",
-			actor = 301820,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			dir = 1,
 			say = "Adding some winter plum flowers should really liven up the colors, but I still need to give some extra consideration to the aroma...",
 			hidePaintEquip = true,
 			painting = {

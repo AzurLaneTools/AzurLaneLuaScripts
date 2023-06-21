@@ -42,7 +42,6 @@ function slot0.register(slot0)
 			selectedMax = 1,
 			selectedMin = 1,
 			destroyCheck = true,
-			skipSelect = true,
 			shipVOs = slot2,
 			ignoredIds = slot3,
 			selectedIds = uv1.contextData.materialShipIds or {},

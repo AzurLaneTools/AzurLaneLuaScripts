@@ -42,7 +42,6 @@ function slot0.register(slot0)
 			end
 		end
 
-		getProxy(BayProxy):setSelectShipId(nil)
 		uv0.viewComponent:close()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.NAVALACADEMYSCENE, {
 			warp = NavalAcademyScene.WARP_TO_TACTIC,
