@@ -934,4 +934,14 @@ function slot0.checkBattleTimeInBossAct(slot0)
 	return pg.TimeMgr.GetInstance():inTime(pg.activity_event_worldboss[slot0:getConfig("config_id")].time)
 end
 
+function slot0.GetEndTimeStrByConfig(slot0)
+	if type(slot0:getConfig("time")) == "table" then
+		slot2 = slot1[3]
+
+		return slot2[1][2] .. "." .. slot2[1][3]
+	else
+		return ""
+	end
+end
+
 return slot0

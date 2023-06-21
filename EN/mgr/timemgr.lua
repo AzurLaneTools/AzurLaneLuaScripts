@@ -179,11 +179,17 @@ function slot1.CTimeDescC(slot0, slot1, slot2)
 end
 
 function slot1.STimeDescC(slot0, slot1, slot2, slot3)
+	originalPrint("Before : ", slot1)
+
 	slot2 = slot2 or "%Y/%m/%d %H:%M:%S"
 
 	if slot3 then
+		originalPrint("2after : ", os.date(slot2, slot1))
+
 		return os.date(slot2, slot1 + os.time() - slot0:GetServerTime())
 	else
+		originalPrint("1after : ", os.date(slot2, slot1))
+
 		return os.date(slot2, slot1)
 	end
 end
