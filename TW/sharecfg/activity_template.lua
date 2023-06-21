@@ -27257,15 +27257,41 @@ pg.activity_template = {
 	},
 	[41166] = {
 		mark = 20230518,
+		config_client = "",
 		title_res_tag = "yingxiV3_frame",
-		time = "stop",
 		type = 87,
 		login_pop = 0,
 		config_id = 41166,
 		is_show = 36,
-		config_client = "",
 		id = 41166,
 		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		page_info = {
 			class_name = "YingxiV3FramePage",
 			ui_name = "YingxiV3FramePage"

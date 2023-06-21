@@ -4499,40 +4499,6 @@ _G.pg.base.ship_skin_words[102095] = {
 	couple_encourage = {}
 }
 
-_G.pg.base.ship_skin_words[102096] = {
-	feeling1 = "",
-	feeling3 = "",
-	lose = "",
-	propose = "",
-	expedition = "",
-	win_mvp = "",
-	home = "呼～嗯？你要帮我揉揉？练习久了，手臂确实有些酸了……那我就恭敬不如从命了！嘿嘿～",
-	mission = "",
-	touch2 = "哇！指挥官，不、不要故意让我分心啊！",
-	voice_key_2 = -1,
-	skill = "",
-	drop_descrip = "咳咳，指挥克利夫兰，登场！哇，回音真的很小啊，没想到港区里还有这么豪华的音乐厅……那个，指挥官你要不要也来一句试试？",
-	mail = "",
-	touch = "指挥官，要试试站在指挥台上的感觉吗？",
-	profile = "",
-	mission_complete = "",
-	feeling4 = "",
-	unlock = "咳咳，指挥克利夫兰，登场！哇，回音真的很小啊，没想到港区里还有这么豪华的音乐厅……那个，指挥官你要不要也来一句试试？",
-	feeling5 = "",
-	main = "一、二、三、四……嗯！四拍子的话大概就是这样吧！三拍子的话应该是……这样的？|据说，有些指挥家沉浸入演奏的氛围中后，会展现出夸张的肢体动作……我应该做不到那样吧？啊哈哈……|如果让克利夫兰级组一个乐团……嗯，好像不太够？再加上弗莱彻级她们……又，又好像太多了？",
-	battle = "",
-	upgrade = "",
-	voice_key = 0,
-	headtouch = "",
-	feeling2 = "",
-	login = "指挥官是来看我练习的吗？既然这样，辛苦你扮演一下乐团成员吧！坐我正对面就好～",
-	vote = "",
-	hp_warning = "",
-	id = 102096,
-	detail = "一想到要面对所有演奏者，就难免有些紧张呢。不过，作为演奏时唯一背对观众的人，某种意义上指挥也是幸运的？",
-	couple_encourage = {}
-}
-
 _G.pg.base.ship_skin_words[102098] = {
 	feeling1 = "",
 	feeling3 = "",
