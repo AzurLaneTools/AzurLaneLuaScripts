@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"暴风雨与麦芽糖\n\n<size=45>七　暴风雨Sonata：尾章</size>",
+					"暴風雨與麥芽糖\n\n<size=45>七　暴風雨Sonata：尾章</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·第二天",
+			say = "港區·第二天",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说，你们要睡到什么时候？",
+			say = "我說，你們要睡到什麼時候？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "已经白天了么……等等，为什么我正躺在海伦娜的腿上？",
+			say = "已經白天了嗎……等等，為什麼我正躺在海倫娜的腿上？",
 			flashout = {
 				dur = 0.3,
 				alpha = {
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这正是我想要问的问题！",
+			say = "這正是我想要問的問題！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶……路易斯姐姐和火奴鲁鲁？你们怎么来了……？",
+			say = "欸……路易斯姐姐和火奴魯魯？妳們怎麼來了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "见你一晚上没回来，想来是因为台风的缘故和指挥官困在指挥室了。",
+			say = "看妳一晚上沒回來，想來是因為颱風的緣故和指揮官困在指揮室了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 102130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在雨停了我们也过来了，看到你们没事真好~",
+			say = "現在雨停了我們也過來了，看到你們沒事真好~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说！你们……昨天晚上，没发生什么奇怪的事情吧！",
+			say = "我說！你們……昨天晚上，沒發生什麼奇怪的事情吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "昨天晚上的话————",
+			say = "昨天晚上的話————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……原来如此。暂且先相信你们好了。",
+			say = "……原來如此。暫且先相信你們好了。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -265,7 +265,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…………指挥室的情况比昨天晚上看起来还严重。",
+			say = "唔…………指揮室的情況比昨天晚上看起來還嚴重。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "窗户需要订做新的玻璃，线路也需要翻新一下……以防再出现这种极端的情况……",
+			say = "窗戶需要訂做新的玻璃，線路也需要翻新一下……以防再出現這種極端的情況……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我先去明石那边让她说一下线路改造的事吧。",
+			say = "指揮官，我先去明石那邊讓她說一下線路改造的事吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "點頭",
 					flag = 1
 				}
 			}
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我先告辞了……",
+			say = "那我先告辭了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "海伦娜脸泛着红晕，匆匆离开了办公室……？",
+			say = "海倫娜臉泛著紅暈，匆匆地離開了辦公室……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不可思议……看来回去得找海伦娜问清楚你们昨晚到底发生了什么事才行！",
+			say = "不可思議……看來回去得找海倫娜問清楚你們昨晚到底發生了什麼事才行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼呼~指挥官，麦芽糖是不是也不错呢？",
+			say = "呼呼呼~指揮官，麥芽糖是不是也不錯呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "今后你可要多多关照她哦~",
+			say = "今後你可要多多關照她哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

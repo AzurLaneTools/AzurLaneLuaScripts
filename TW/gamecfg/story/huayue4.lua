@@ -377,12 +377,11 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actor = 301820,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			dir = 1,
 			say = "{namecode:29}觉得每种花都有自己不可替代的特质。",
 			hidePaintEquip = true,
 			painting = {

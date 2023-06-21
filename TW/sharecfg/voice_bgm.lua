@@ -97,7 +97,7 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "story-musicanniversary-gorgeous",
+		default_bgm = "login",
 		special_bgm = "",
 		time = "",
 		bgm = "login"
@@ -599,6 +599,36 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "theme-haitian-soft-loop"
+	},
+	NewMeixiV4MainPage = {
+		default_bgm = "hunhe-eagle",
+		special_bgm = "",
+		time = "",
+		bgm = "hunhe-eagle"
+	},
+	NewMeixiV4PtPage = {
+		default_bgm = "hunhe-story",
+		special_bgm = "",
+		time = "",
+		bgm = "hunhe-story"
+	},
+	NewMeixiV4frameRePage = {
+		default_bgm = "hunhe-story",
+		special_bgm = "",
+		time = "",
+		bgm = "hunhe-story"
+	},
+	NewMeixiV4SkirmishPage = {
+		default_bgm = "Beverly_short_inst",
+		special_bgm = "",
+		time = "",
+		bgm = "Beverly_short_inst"
+	},
+	BuildLoginPage = {
+		default_bgm = "blueocean-image",
+		special_bgm = "",
+		time = "",
+		bgm = "blueocean-image"
 	},
 	LimitChallengeScene = {
 		default_bgm = "theme-starsea-core",

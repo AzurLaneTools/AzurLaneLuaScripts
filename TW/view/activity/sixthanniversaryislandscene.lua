@@ -210,7 +210,7 @@ function slot0.init(slot0)
 	slot10 = slot0.rtResPanel
 
 	onButton(slot0, slot10:Find("tpl_2"), function ()
-		uv0:emit(SixthAnniversaryIslandMediator.OPEN_RES, uv0.resDrop, i18n("island_game_limit_help", uv0.resDailyNumber))
+		uv0:emit(SixthAnniversaryIslandMediator.OPEN_RES, Clone(uv0.resDrop), i18n("island_game_limit_help", uv0.resDailyNumber))
 	end, SFX_PANEL)
 end
 

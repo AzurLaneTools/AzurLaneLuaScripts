@@ -35,7 +35,6 @@ function slot0.register(slot0)
 			selectedMax = 1,
 			useBlackBlock = true,
 			selectedMin = 0,
-			skipSelect = true,
 			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
 			quitTeam = slot4 ~= nil,
 			teamFilter = slot6,

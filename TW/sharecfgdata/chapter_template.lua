@@ -310215,7 +310215,7 @@ _G.pg.base.chapter_template[1520002] = {
 	act_id = 40635,
 	pos_y = "0.052083333",
 	is_ai = 1,
-	progress_boss = 34,
+	progress_boss = 50,
 	model = 2,
 	boss_refresh = 4,
 	is_limit_move = 1,
@@ -310883,7 +310883,7 @@ _G.pg.base.chapter_template[1520002] = {
 	},
 	defeat_story_count = {
 		1,
-		3
+		2
 	},
 	npc_data = {},
 	risk_levels = {
@@ -310922,7 +310922,7 @@ _G.pg.base.chapter_template[1520003] = {
 	act_id = 40635,
 	pos_y = "0.344791667",
 	is_ai = 1,
-	progress_boss = 34,
+	progress_boss = 50,
 	model = 2,
 	boss_refresh = 4,
 	is_limit_move = 1,
@@ -311705,7 +311705,7 @@ _G.pg.base.chapter_template[1520003] = {
 	},
 	defeat_story_count = {
 		1,
-		3
+		2
 	},
 	npc_data = {},
 	risk_levels = {
@@ -311744,7 +311744,7 @@ _G.pg.base.chapter_template[1520004] = {
 	act_id = 40636,
 	pos_y = "0.227083333",
 	is_ai = 1,
-	progress_boss = 25,
+	progress_boss = 50,
 	model = 2,
 	boss_refresh = 4,
 	is_limit_move = 1,
@@ -312515,7 +312515,7 @@ _G.pg.base.chapter_template[1520004] = {
 	},
 	defeat_story_count = {
 		1,
-		4
+		2
 	},
 	npc_data = {},
 	risk_levels = {
@@ -312554,7 +312554,7 @@ _G.pg.base.chapter_template[1520005] = {
 	act_id = 40636,
 	pos_y = "0.052083333",
 	is_ai = 1,
-	progress_boss = 25,
+	progress_boss = 50,
 	model = 2,
 	boss_refresh = 5,
 	is_limit_move = 1,
@@ -313339,7 +313339,7 @@ _G.pg.base.chapter_template[1520005] = {
 	},
 	defeat_story_count = {
 		1,
-		4
+		2
 	},
 	npc_data = {},
 	risk_levels = {
@@ -313378,7 +313378,7 @@ _G.pg.base.chapter_template[1520006] = {
 	act_id = 40636,
 	pos_y = "0.383333333",
 	is_ai = 1,
-	progress_boss = 25,
+	progress_boss = 34,
 	model = 2,
 	boss_refresh = 5,
 	is_limit_move = 1,
@@ -314167,9 +314167,9 @@ _G.pg.base.chapter_template[1520006] = {
 	defeat_story_count = {
 		1,
 		2,
+		3,
 		4,
-		5,
-		6
+		5
 	},
 	npc_data = {},
 	risk_levels = {
@@ -314209,7 +314209,7 @@ _G.pg.base.chapter_template[1520021] = {
 	act_id = 40635,
 	pos_y = "0.392708333",
 	is_ai = 1,
-	progress_boss = 34,
+	progress_boss = 50,
 	model = 2,
 	boss_refresh = 4,
 	is_limit_move = 1,
@@ -314899,7 +314899,7 @@ _G.pg.base.chapter_template[1520021] = {
 	},
 	defeat_story_count = {
 		1,
-		3
+		2
 	},
 	npc_data = {},
 	risk_levels = {
@@ -314938,7 +314938,7 @@ _G.pg.base.chapter_template[1520022] = {
 	act_id = 40635,
 	pos_y = "0.052083333",
 	is_ai = 1,
-	progress_boss = 34,
+	progress_boss = 50,
 	model = 2,
 	boss_refresh = 4,
 	is_limit_move = 1,
@@ -315648,7 +315648,7 @@ _G.pg.base.chapter_template[1520022] = {
 	},
 	defeat_story_count = {
 		1,
-		3
+		2
 	},
 	npc_data = {},
 	risk_levels = {
@@ -315687,7 +315687,7 @@ _G.pg.base.chapter_template[1520023] = {
 	act_id = 40635,
 	pos_y = "0.344791667",
 	is_ai = 1,
-	progress_boss = 25,
+	progress_boss = 50,
 	model = 2,
 	boss_refresh = 5,
 	is_limit_move = 1,
@@ -316513,7 +316513,7 @@ _G.pg.base.chapter_template[1520023] = {
 	},
 	defeat_story_count = {
 		1,
-		4
+		2
 	},
 	npc_data = {},
 	risk_levels = {
@@ -316552,7 +316552,7 @@ _G.pg.base.chapter_template[1520024] = {
 	act_id = 40636,
 	pos_y = "0.380208333",
 	is_ai = 1,
-	progress_boss = 25,
+	progress_boss = 34,
 	model = 2,
 	boss_refresh = 5,
 	is_limit_move = 1,
@@ -316741,7 +316741,11 @@ _G.pg.base.chapter_template[1520024] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		29,
+		39,
+		15
+	},
 	win_condition = {
 		{
 			1,
@@ -317365,7 +317369,7 @@ _G.pg.base.chapter_template[1520024] = {
 	},
 	defeat_story_count = {
 		1,
-		4
+		3
 	},
 	npc_data = {},
 	risk_levels = {
@@ -317404,7 +317408,7 @@ _G.pg.base.chapter_template[1520025] = {
 	act_id = 40636,
 	pos_y = "0.122916667",
 	is_ai = 1,
-	progress_boss = 20,
+	progress_boss = 34,
 	model = 2,
 	boss_refresh = 6,
 	is_limit_move = 1,
@@ -317595,7 +317599,11 @@ _G.pg.base.chapter_template[1520025] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		32,
+		43,
+		16
+	},
 	win_condition = {
 		{
 			1,
@@ -318233,7 +318241,7 @@ _G.pg.base.chapter_template[1520025] = {
 	},
 	defeat_story_count = {
 		1,
-		5
+		3
 	},
 	npc_data = {},
 	risk_levels = {
@@ -318272,7 +318280,7 @@ _G.pg.base.chapter_template[1520026] = {
 	act_id = 40636,
 	pos_y = "0.35625",
 	is_ai = 1,
-	progress_boss = 20,
+	progress_boss = 34,
 	model = 2,
 	boss_refresh = 6,
 	is_limit_move = 1,
@@ -318463,7 +318471,11 @@ _G.pg.base.chapter_template[1520026] = {
 	submarine_refresh = {
 		0
 	},
-	use_oil_limit = {},
+	use_oil_limit = {
+		35,
+		47,
+		16
+	},
 	win_condition = {
 		{
 			1,
@@ -319104,9 +319116,9 @@ _G.pg.base.chapter_template[1520026] = {
 	defeat_story_count = {
 		1,
 		2,
-		5,
-		6,
-		7
+		3,
+		4,
+		5
 	},
 	npc_data = {},
 	risk_levels = {

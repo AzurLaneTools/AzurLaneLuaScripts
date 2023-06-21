@@ -183,12 +183,11 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actor = 301820,
 			side = 2,
 			bgName = "star_level_bg_157",
-			actor = 301820,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			dir = 1,
 			say = "如果用明媚灿烂的冬梅，虽说在色彩上足够了，但在香味的表达上总感觉有些欠缺……",
 			hidePaintEquip = true,
 			painting = {

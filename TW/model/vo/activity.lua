@@ -582,6 +582,11 @@ function slot0.readyToAchieve(slot0)
 			end)() or (function ()
 				return PlayerPrefs.GetInt("DAY_TIP_" .. uv0.id .. "_" .. getProxy(PlayerProxy):getData().id .. "_" .. uv0:getDayIndex()) == 0
 			end)()
+		end,
+		[ActivityConst.ACTIVITY_TYPE_SURVEY] = function (slot0)
+			slot1, slot2 = getProxy(ActivityProxy):isSurveyOpen()
+
+			return slot1 and not SurveyPage.IsEverEnter(slot2)
 		end
 	}
 
@@ -662,10 +667,16 @@ function slot0.isShow(slot0)
 
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
 		return slot0.data1 ~= 0
-	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_CLIENT_DISPLAY and slot0:getConfig("config_client").display_link then
-		return underscore.any(slot1, function (slot0)
-			return slot0[2] == 0 or pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot0[2]].time)
-		end)
+	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_CLIENT_DISPLAY then
+		if slot0:getConfig("config_client").display_link then
+			return underscore.any(slot1, function (slot0)
+				return slot0[2] == 0 or pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot0[2]].time)
+			end)
+		end
+	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_SURVEY then
+		slot1 = getProxy(ActivityProxy)
+
+		return slot1:isSurveyOpen() and not slot1:isSurveyDone()
 	end
 
 	return true

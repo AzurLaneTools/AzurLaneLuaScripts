@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"暴风雨与麦芽糖\n\n<size=45>三　摇曳的灯火·上</size>",
+					"暴風雨與麥芽糖\n\n<size=45>三　搖曳的燈火·上</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "借助应急灯和海伦娜来到了线路箱所在的位置。",
+			say = "借助緊急照明和海倫娜來到了變電箱所在的位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "刚一接近，一股烧焦的气味就扑鼻而来……看来一时半会是无法修复了。",
+			say = "剛一接近，一股燒焦的氣味就撲鼻而來……看來一時半會是無法修復了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，我记得仓库里好像放着一台应急用的小型发电机……",
+			say = "指揮官，我記得倉庫裡好像放著一台應急用的小型發電機……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "用那个的话……应该能解决今晚的照明问题。",
+			say = "用那個的話……應該能解決今晚的照明問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们一起去把它找出来吧……？",
+			say = "我們一起去把它找出來吧……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "指挥室大楼地下的结构十分复杂，再加上停电的影响，实在有些难以摸清方向。",
+			say = "指揮室大樓地下的結構十分複雜，再加上停電的影響，實在有些難以摸清方向。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "是这边吗？——不对，这边是档案室。是那边么？似乎也不对……",
+			say = "是這邊嗎？ ——不對，這邊是檔案室。是那邊嗎？似乎也不對……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……指挥官，存放发电机的区域，好像是往这边走……",
+			say = "……指揮官，存放發電機的區域，好像是往這邊走……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			},
 			options = {
 				{
-					content = "海伦娜，你对这里熟悉吗？",
+					content = "海倫娜，妳對這裡熟悉嗎？",
 					flag = 1
 				}
 			}
@@ -203,7 +203,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……没有，只是很久之前来过一次，所以有一点点印象……",
+			say = "……沒有，只是很久之前來過一次，所以有一點點印象……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我记得，应该是先往右边，然后往左，之后再往左……",
+			say = "我記得，應該是先往右邊，然後往左，之後再往左……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "跟着海伦娜前进，很快便到达了仓库的位置。",
+			say = "跟著海倫娜前進，很快便到達了倉庫的位置。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "仅仅来了一次就记住这么复杂的路了么……真厉害。",
+			say = "僅僅來了一次就記住這麼複雜的路了嗎……真厲害。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "不过找到仓库只是第一步，接下来还要在众多的物品中找到那个应急发电机——",
+			say = "不過找到倉庫只是第一步，接下來還要在眾多的物品中找到那個應急發電機——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "发电机的话，我记得…...好像是在这里。第十二排第一层的位置？",
+			say = "發電機的話，我記得…...好像是在這裡。第十二排第一層的位置？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……呼~太好了，没有记错……！",
+			say = "……呼~太好了，沒有記錯……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "居然连具体位置都记得这么清楚……",
+			say = "居然連具體位置都記得這麼清楚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			},
 			options = {
 				{
-					content = "海伦娜的记忆力，真的很厉害啊。",
+					content = "海倫娜的記憶力，真的很厲害啊。",
 					flag = 1
 				}
 			}
@@ -349,7 +349,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……欸？没有的事啦，只是稍微有些印象而已……",
+			say = "……欸？沒有的事啦，只是稍微有些印象而已……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接，接下来还要找到配套的燃油……",
+			say = "接，接下來還要找到配套的燃油……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "不知为何，在一片昏暗之中似乎看到了海伦娜脸颊上出现的一抹红晕。",
+			say = "不知為何，在一片昏暗之中似乎看到了海倫娜臉頰上出現的一抹紅暈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "伴随着发电机嗡嗡的运转声，指挥室重新恢复了光明。",
+			say = "伴隨著發電機嗡嗡的運轉聲，指揮室重新恢復了光明。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -428,7 +428,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能正常运转真是太好了……接下来…...",
+			say = "能正常運轉真是太好了……接下來…...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶……？！发电机？对不起，对不起…….",
+			say = "欸……？！發電機？對不起，對不起…….",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不用紧张，不是操作错误引起的。",
+			say = "不用緊張，不是操作錯誤引起的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "看来是发电机因为老化性能下降了……总之先关掉一些用电设施……只开一盏台灯试试吧——",
+			say = "看來是發電機因為老化性能下降了……總之先關掉一些用電設施……只開一盞檯燈試試吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "暖黄色的灯光点亮了指挥室的一隅。和坐在身旁的海伦娜一起分享着这来之不易的光明。",
+			say = "暖黃色的燈光點亮了指揮室的一隅。和坐在身旁的海倫娜一起分享著這來之不易的光明。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

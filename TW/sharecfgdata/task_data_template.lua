@@ -28256,6 +28256,304 @@ _G.pg.base.task_data_template[5757] = {
 	}
 }
 
+_G.pg.base.task_data_template[5761] = {
+	name = "藍色麥芽糖",
+	guild_coin_award = 0,
+	award = 5548,
+	type = 5,
+	desc = "提交3個《魚雷天婦羅》",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "50003",
+	next_task = "5762",
+	auto_commit = 0,
+	story_id = "HAILUNNA1",
+	id = 5761,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5762] = {
+	name = "風暴來臨",
+	guild_coin_award = 0,
+	award = 5549,
+	type = 5,
+	desc = "強化任意角色10次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "HAILUNNA2",
+	target_id = "0",
+	next_task = "5763",
+	auto_commit = 0,
+	scene = "",
+	id = 5762,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5763] = {
+	name = "搖曳的燈火·上",
+	guild_coin_award = 0,
+	award = 5550,
+	type = 5,
+	desc = "海倫娜上陣出擊(關卡)勝利20次",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "HAILUNNA3",
+	target_id = "10205",
+	next_task = "5764",
+	auto_commit = 0,
+	scene = "",
+	id = 5763,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5764] = {
+	name = "搖曳的燈火·下",
+	guild_coin_award = 0,
+	award = 5551,
+	type = 5,
+	desc = "海倫娜上陣完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "HAILUNNA4",
+	target_id = "10205",
+	next_task = "5765",
+	auto_commit = 0,
+	scene = "",
+	id = 5764,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5765] = {
+	name = "暴風雨Sonata：第一樂章",
+	guild_coin_award = 0,
+	award = 5552,
+	type = 5,
+	desc = "海倫娜好感度達到100",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "HAILUNNA5",
+	target_id = "10205",
+	next_task = "5766",
+	auto_commit = 0,
+	scene = "",
+	id = 5765,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16022,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5766] = {
+	name = "暴風雨Sonata：第二樂章",
+	guild_coin_award = 0,
+	award = 5553,
+	type = 5,
+	desc = "海倫娜突破至滿星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "HAILUNNA6",
+	target_id = "10205",
+	next_task = "5767",
+	auto_commit = 0,
+	scene = "",
+	id = 5766,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5767] = {
+	name = "暴風雨Sonata：尾章",
+	guild_coin_award = 0,
+	award = 5554,
+	type = 5,
+	desc = "海倫娜等級達到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "hailunna",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "HAILUNNA7",
+	target_id = "10205",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5767,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "困難·近海演習",
 	guild_coin_award = 0,

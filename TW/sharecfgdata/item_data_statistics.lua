@@ -157408,6 +157408,29 @@ _G.pg.base.item_data_statistics[59304] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59305] = {
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "訓練點數",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_d",
+	id = 59305,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59308] = {
 	display = "用於「起司奶酪要加糖！」活動提升角色好感，活動結束後將會消失",
 	name = "起司蛋糕",

@@ -189,7 +189,8 @@ pg.memory_group = setmetatable({
 		570,
 		571,
 		572,
-		573
+		573,
+		574
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3751,6 +3752,22 @@ pg.base.memory_group = {
 			2067,
 			2068,
 			2069
+		}
+	},
+	[574] = {
+		icon = "title_chara_hailunna",
+		subtype = 0,
+		type = 3,
+		id = 574,
+		title = "暴風雨與麥芽糖",
+		memories = {
+			2121,
+			2122,
+			2123,
+			2124,
+			2125,
+			2126,
+			2127
 		}
 	}
 }

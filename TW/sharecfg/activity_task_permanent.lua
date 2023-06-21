@@ -7,6 +7,7 @@ pg.activity_task_permanent = setmetatable({
 		6002,
 		6008,
 		6009,
+		6010,
 		6011,
 		6018
 	}
@@ -128,6 +129,17 @@ pg.base.activity_task_permanent = {
 			35116,
 			35117
 		}
+	},
+	[6010] = {
+		gametip = "可獲得薩拉托加限定換裝「異國的偶像？」",
+		banner_route = "permanent_salatuojia",
+		gametip_extra = "最快9日獲得",
+		over_pt = 0,
+		task_extra = "",
+		id = 6010,
+		activity_name = "異國的偶像？",
+		over_task_id = "",
+		eliminate_task_id = {}
 	},
 	[6011] = {
 		gametip = "可獲得標槍限定換裝「微速前進！」",

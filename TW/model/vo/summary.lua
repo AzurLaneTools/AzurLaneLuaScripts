@@ -3,7 +3,7 @@ slot0 = class("Summary", import(".BaseVO"))
 function slot0.Ctor(slot0, slot1)
 	slot0.name = getProxy(PlayerProxy):getData().name
 	slot0.registerTime = pg.TimeMgr.GetInstance():STimeDescC(slot1.register_date, "%Y.%m.%d")
-	slot0.days = math.ceil((getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY):getStartTime() - slot1.register_date) / 86400) + 1
+	slot0.days = math.max(math.ceil((getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY):getStartTime() - slot1.register_date) / 86400), 0) + 1
 	slot0.serverName = getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot5.server or 0] and slot6.name or ""
 	slot8 = pg.chapter_template[math.max(slot1.chapter_id, 101)]
 	slot0.chapterName = slot8.chapter_name .. " " .. slot8.name

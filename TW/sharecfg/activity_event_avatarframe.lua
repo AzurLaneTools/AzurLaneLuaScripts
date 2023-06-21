@@ -874,6 +874,17 @@ pg.activity_event_avatarframe = {
 			}
 		}
 	},
+	[41206] = {
+		task_level = "",
+		start_time = "stop",
+		icon_frame = 319,
+		link_event = 0,
+		award_display = "",
+		target = 3000,
+		task_ship = "",
+		id = 41206,
+		pt_id = 59305
+	},
 	all = {
 		40724,
 		40783,
@@ -882,6 +893,7 @@ pg.activity_event_avatarframe = {
 		41066,
 		41092,
 		41116,
-		41166
+		41166,
+		41206
 	}
 }

@@ -306,6 +306,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff><size=24>「對在極地任務中做出卓越貢獻的同志致以最崇高的敬意，歡迎回家！」</size></color>\n「深度回音」活動獲取",
 		scene = {}
 	},
+	[319] = {
+		time_limit_type = 0,
+		name = "終幕奇點",
+		gain_by = "虹彩的終幕曲",
+		id = 319,
+		time_second = 0,
+		desc = "<color=#ffffff>「此為終結，亦為開端」</color>\n「虹彩的終幕曲」活動獲取",
+		scene = {}
+	},
 	[320] = {
 		time_limit_type = 0,
 		name = "泠誓之庭",
@@ -413,6 +422,7 @@ pg.item_data_frame = {
 		316,
 		317,
 		318,
+		319,
 		320,
 		401,
 		402,
