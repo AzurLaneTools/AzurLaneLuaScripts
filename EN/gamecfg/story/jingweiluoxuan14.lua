@@ -671,13 +671,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 107140,
 			say = "Do you think they're collecting data from the results of the battle?",
 			typewriter = {
 				speed = 0.05,

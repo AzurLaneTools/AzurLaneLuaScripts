@@ -18304,7 +18304,7 @@ _G.pg.base.gametip.MeixiV4_help = {
 			info = "\"Silver Archives\" Prelude Event Info:"
 		},
 		{
-			info = "1. During the event, clear the available 2 event missions to unlock the next 2 missions."
+			info = "1. During the event, clear the available event mission to unlock the next mission."
 		},
 		{
 			info = "2. Complete missions to get rewards including the limited gear Action Report: Operation AF."
@@ -24177,7 +24177,7 @@ _G.pg.base.gametip.haidaojudian_upgrade_limit = {
 }
 
 _G.pg.base.gametip.chargetip_monthcard_1 = {
-	tip = "Trade License purchased! You received the following items:"
+	tip = "Trade License purchased! \nYou received the following items:"
 }
 
 _G.pg.base.gametip.chargetip_monthcard_2 = {
