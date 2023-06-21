@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "울리히 각하를 따라 미드가르드 탑을 통과한 거…맞지?",
+			say = "울리히를 따라 미드가르드 탑을 통과한 거…맞지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "듣기만 해도 위험한데… 울리히 각하께선 밤늦게 여긴 무슨 일로 오신 거지?",
+			say = "듣기만 해도 위험한데… 울리히가 밤늦게 여긴 무슨 일로 오신 거지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "응, 지금 당장 울리히 각하를 뒤쫓아가서 확실하게 물어봐야겠어!",
+			say = "응, 지금 당장 울리히를 뒤쫓아가서 확실하게 물어봐야겠어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1094,7 +1094,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……그래, 그럼 울리히 각하를 깨우는 건 나에게 맡겨—— 에, 어디간 거지!?",
+			say = "……그래, 그럼 울리히를 깨우는 건 나에게 맡겨—— 에, 어디간 거지!?",
 			painting = {
 				alpha = 0.3,
 				time = 1

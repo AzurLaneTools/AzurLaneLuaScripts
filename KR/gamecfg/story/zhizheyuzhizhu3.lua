@@ -459,7 +459,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "울리히 각하께서 모종의 연구를 하고 계신 건가? 아니면 그저 취미로 독서를 즐기고 계신 걸까….",
+			say = "울리히께서 모종의 연구를 하고 있는 건가? 아니면 그저 취미로 독서를 즐기고 있는 걸까….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "으악……! 내가 방금 나도 모르게… 울리히 각하께서 읽고 계신 자료들을 훑어봤잖아!?",
+			say = "으악……! 내가 방금 나도 모르게… 울리히께서 읽고 있는 자료들을 훑어봤잖아!?",
 			painting = {
 				alpha = 0.3,
 				time = 1

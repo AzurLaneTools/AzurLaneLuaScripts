@@ -1094,7 +1094,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "이번 여행은 저도 끝까지 함께 할게!",
+			say = "이번 여행은 나도 끝까지 함께 할게!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -1537,7 +1537,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9703021] = {
-		breakout_view = "习得技能【逐光之焰·阿尔及利亚】/主炮效率提高5%",
+		breakout_view = "스킬 [빛을 쫓는 화염·알제리] 습득/주포 효율 +5%",
 		gold = 1000,
 		breakout_id = 9703022,
 		repair = 0,
@@ -1570,7 +1570,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703023] = {
-		breakout_view = "【逐光之焰·阿尔及利亚】升级/鱼雷效率提高15%",
+		breakout_view = "[빛을 쫓는 화염·알제리] 업그레이드/어뢰 효율 +15%",
 		gold = 10000,
 		breakout_id = 9703024,
 		repair = 0,

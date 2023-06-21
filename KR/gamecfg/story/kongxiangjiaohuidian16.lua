@@ -428,7 +428,7 @@ return {
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "정찰이 끝났으니 돌아가서 비스마르크 각하와 상의해 보자.",
+			say = "정찰이 끝났으니 돌아가서 비스마르크와 상의해 보자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

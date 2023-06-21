@@ -1162,7 +1162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "모두 포탄을 3회 발포하고, 비스마르크 각하의 앞길을 열어라.",
+			say = "모두 포탄을 3회 발포하고, 비스마르크의 앞길을 열어라.",
 			painting = {
 				alpha = 0.3,
 				time = 1

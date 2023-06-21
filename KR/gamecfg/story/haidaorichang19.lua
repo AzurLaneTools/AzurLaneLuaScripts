@@ -552,7 +552,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "소브라디텔듸가 낙엽으로 위장한 밧줄을 밟은 듯하더니, 공중에 거꾸로 매달렸다——",
+			say = "소브라지 텔니가 낙엽으로 위장한 밧줄을 밟은 듯하더니, 공중에 거꾸로 매달렸다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "소브라디텔듸가 지금 밟은 것처럼 말이지..",
+			say = "소브라지 텔니가 지금 밟은 것처럼 말이지..",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "소브라디텔듸 뒤로 검은 연기가 보이는 것 같아. 정말 무섭네.",
+			say = "소브라지 텔니 뒤로 검은 연기가 보이는 것 같아. 정말 무섭네.",
 			painting = {
 				alpha = 0.3,
 				time = 1
