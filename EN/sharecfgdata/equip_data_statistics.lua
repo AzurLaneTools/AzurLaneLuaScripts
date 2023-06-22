@@ -37349,7 +37349,7 @@ _G.pg.base.equip_data_statistics[16460] = {
 
 _G.pg.base.equip_data_statistics[16461] = {
 	id = 16461,
-	damage = "93/轮",
+	damage = "93/wave",
 	base = 16460,
 	weapon_id = {
 		16461
