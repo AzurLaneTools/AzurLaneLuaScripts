@@ -27475,14 +27475,40 @@ pg.activity_template = {
 	},
 	[41175] = {
 		mark = 20230525,
+		id = 41175,
 		title_res_tag = "yingxiV3_pt",
-		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 41175,
 		is_show = 41,
-		id = 41175,
 		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		page_info = {
 			class_name = "YingxiV3PtPage",
 			ui_name = "YingxiV3PtPage"
@@ -27547,13 +27573,12 @@ pg.activity_template = {
 	},
 	[41178] = {
 		mark = 20230525,
-		time = "stop",
+		title_res_tag = "",
 		page_info = "",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
-		title_res_tag = "",
 		id = 41178,
 		config_data = {
 			1723,
@@ -27578,6 +27603,33 @@ pg.activity_template = {
 			1742,
 			1743,
 			1744
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					5,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					6,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		},
 		config_client = {
 			"commonbg/bg_pt_qianwei",
