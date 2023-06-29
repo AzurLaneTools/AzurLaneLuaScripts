@@ -136,6 +136,19 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
+	table.insert(slot19, function (slot0)
+		slot1 = {}
+
+		if uv0.skin_id and slot2 ~= 0 then
+			PaintingConst.AddPaintingNameBySkinID(slot1, slot2)
+		end
+
+		PaintingConst.PaintingDownload({
+			isShowBox = true,
+			paintingNameList = slot1,
+			finishFunc = slot0
+		})
+	end)
 	seriesAsync(slot19, function ()
 		slot0 = pg.ConnectionMgr.GetInstance()
 

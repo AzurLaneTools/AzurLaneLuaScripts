@@ -18585,6 +18585,253 @@ _G.pg.base.equip_data_statistics[3911] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[3920] = {
+	type = 10,
+	name = "オアシス気圧計",
+	speciality = "无",
+	tech = 0,
+	value_2 = 6,
+	ammo = 10,
+	nationality = 6,
+	descrip = "真鍮製のカバーで覆われたオーソドックスな気象測量機材。最も受けのいいオアシス土産の一つ",
+	rarity = 4,
+	attribute_1 = "dodge",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3920,
+	icon = "3920",
+	value_1 = "10",
+	attribute_2 = "hit",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60370
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3921] = {
+	id = 3921,
+	value_2 = 7,
+	value_1 = "11",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3922] = {
+	id = 3922,
+	value_2 = 7,
+	value_1 = "12",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3923] = {
+	id = 3923,
+	value_2 = 8,
+	value_1 = "13",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3924] = {
+	id = 3924,
+	value_2 = 9,
+	value_1 = "14",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3925] = {
+	id = 3925,
+	value_2 = 10,
+	value_1 = "15",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3926] = {
+	id = 3926,
+	value_2 = 11,
+	value_1 = "16",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3927] = {
+	id = 3927,
+	value_2 = 12,
+	value_1 = "17",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3928] = {
+	id = 3928,
+	value_2 = 13,
+	value_1 = "18",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3929] = {
+	id = 3929,
+	value_2 = 14,
+	value_1 = "19",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3930] = {
+	id = 3930,
+	value_2 = 15,
+	value_1 = "20",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3931] = {
+	value_2 = 16,
+	anti_siren = 100,
+	base = 3920,
+	id = 3931,
+	value_1 = "21",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3940] = {
+	type = 10,
+	name = "精鋭航空整備饅頭",
+	speciality = "无",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "航空支援のために十分なチェックをこなす饅頭整備隊。飛び上がるのが遅れる分、戦果を期待しよう！",
+	nationality = 0,
+	rarity = 4,
+	id = 3940,
+	value_3 = 0,
+	attribute_1 = "air",
+	icon = "3940",
+	value_1 = "18",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60380
+	},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7,
+		10
+	},
+	part_sub = {
+		6,
+		7,
+		10
+	},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3941] = {
+	id = 3941,
+	value_1 = "22",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3942] = {
+	id = 3942,
+	value_1 = "26",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3943] = {
+	id = 3943,
+	value_1 = "30",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3944] = {
+	id = 3944,
+	value_1 = "34",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3945] = {
+	id = 3945,
+	value_1 = "39",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3946] = {
+	id = 3946,
+	value_1 = "43",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3947] = {
+	id = 3947,
+	value_1 = "47",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3948] = {
+	id = 3948,
+	value_1 = "51",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3949] = {
+	id = 3949,
+	value_1 = "55",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3950] = {
+	id = 3950,
+	value_1 = "60",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3951] = {
+	id = 3951,
+	anti_siren = 100,
+	value_1 = "65",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[4000] = {
 	tech = 1,
 	name = "従来型爆雷投射機",
@@ -121074,12 +121321,12 @@ _G.pg.base.equip_data_statistics[80002] = {
 _G.pg.base.equip_data_statistics[80011] = {
 	type = 1,
 	name = "专属弹幕-阿尔及利亚.METAI",
-	speciality = "无",
+	speciality = "なし",
 	tech = 1,
 	rarity = 1,
 	ammo = 10,
 	nationality = 0,
-	descrip = "技能弹幕",
+	descrip = "スキル弾幕",
 	id = 80011,
 	value_3 = 0,
 	value_2 = 0,
@@ -121120,6 +121367,59 @@ _G.pg.base.equip_data_statistics[80012] = {
 	base = 80011,
 	weapon_id = {
 		170092
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[80021] = {
+	type = 1,
+	name = "专属弹幕-阿蒂利奥·雷戈洛I",
+	speciality = "なし",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "スキル弾幕",
+	id = 80021,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170101
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[80022] = {
+	id = 80022,
+	name = "专属弹幕-阿蒂利奥·雷戈洛II",
+	base = 80021,
+	weapon_id = {
+		170102
 	},
 	hidden_skill_id = {}
 }

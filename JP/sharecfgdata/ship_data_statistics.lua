@@ -244980,6 +244980,502 @@ _G.pg.base.ship_data_statistics[601094] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[601101] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "アッティリオ・レゴロ",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601100,
+	english_name = "RN Attilio Regolo",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601101,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		452,
+		23,
+		63,
+		30,
+		0,
+		76,
+		0,
+		73,
+		63,
+		51.6,
+		63,
+		51
+	},
+	attrs_growth = {
+		12871,
+		322,
+		822,
+		652,
+		0,
+		531,
+		0,
+		1125,
+		1159,
+		0,
+		0,
+		579
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Capitani Romani-class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[601102] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "アッティリオ・レゴロ",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601100,
+	english_name = "RN Attilio Regolo",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601102,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		562,
+		29,
+		79,
+		37,
+		0,
+		76,
+		0,
+		73,
+		63,
+		51.6,
+		63,
+		64
+	},
+	attrs_growth = {
+		12871,
+		322,
+		822,
+		652,
+		0,
+		531,
+		0,
+		1125,
+		1159,
+		0,
+		0,
+		579
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.2,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Capitani Romani-class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[601103] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "アッティリオ・レゴロ",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601100,
+	english_name = "RN Attilio Regolo",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601103,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		783,
+		40,
+		110,
+		52,
+		0,
+		76,
+		0,
+		73,
+		63,
+		51.6,
+		63,
+		89
+	},
+	attrs_growth = {
+		12871,
+		322,
+		822,
+		652,
+		0,
+		531,
+		0,
+		1125,
+		1159,
+		0,
+		0,
+		579
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.2,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Capitani Romani-class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[601104] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "アッティリオ・レゴロ",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 601100,
+	english_name = "RN Attilio Regolo",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 601104,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1113,
+		58,
+		156,
+		74,
+		0,
+		76,
+		0,
+		73,
+		63,
+		51.6,
+		63,
+		127
+	},
+	attrs_growth = {
+		12871,
+		322,
+		822,
+		652,
+		0,
+		531,
+		0,
+		1125,
+		1159,
+		0,
+		0,
+		579
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.25,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Capitani Romani-class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[602011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -248516,6 +249012,506 @@ _G.pg.base.ship_data_statistics[603054] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[603061] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "ゴリツィア",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 603060,
+	english_name = "RN Gorizia",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 603061,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		853,
+		47,
+		0,
+		42,
+		0,
+		64,
+		0,
+		39,
+		9,
+		26.4,
+		85,
+		0
+	},
+	attrs_growth = {
+		21515,
+		643,
+		0,
+		923,
+		0,
+		447,
+		0,
+		613,
+		377,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		0.5,
+		0.95
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Gorizia",
+		"Zara-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[603062] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "ゴリツィア",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 603060,
+	english_name = "RN Gorizia",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 603062,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1061,
+		59,
+		0,
+		52,
+		0,
+		64,
+		0,
+		39,
+		9,
+		26.4,
+		85,
+		0
+	},
+	attrs_growth = {
+		21515,
+		643,
+		0,
+		923,
+		0,
+		447,
+		0,
+		613,
+		377,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		0.5,
+		0.95
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Gorizia",
+		"Zara-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[603063] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "ゴリツィア",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 603060,
+	english_name = "RN Gorizia",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 603063,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1477,
+		82,
+		0,
+		73,
+		0,
+		64,
+		0,
+		39,
+		9,
+		26.4,
+		85,
+		0
+	},
+	attrs_growth = {
+		21515,
+		643,
+		0,
+		923,
+		0,
+		447,
+		0,
+		613,
+		377,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		0.5,
+		0.95
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Gorizia",
+		"Zara-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[603064] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "ゴリツィア",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 603060,
+	english_name = "RN Gorizia",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 603064,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2102,
+		116,
+		0,
+		104,
+		0,
+		64,
+		0,
+		39,
+		9,
+		26.4,
+		85,
+		0
+	},
+	attrs_growth = {
+		21515,
+		643,
+		0,
+		923,
+		0,
+		447,
+		0,
+		613,
+		377,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		0.55,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Gorizia",
+		"Zara-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[605011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -250989,6 +251985,502 @@ _G.pg.base.ship_data_statistics[605064] = {
 	},
 	tag_list = {
 		"Conte di Cavour-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[605071] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "アンドレア・ドーリア",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 605070,
+	english_name = "RN Andrea Doria",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 605071,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1188,
+		69,
+		0,
+		37,
+		0,
+		55,
+		0,
+		22,
+		7,
+		26,
+		77,
+		0
+	},
+	attrs_growth = {
+		31886,
+		839,
+		0,
+		813,
+		0,
+		385,
+		0,
+		343,
+		234,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.95,
+		1.5,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Andrea Doria-class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[605072] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "アンドレア・ドーリア",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 605070,
+	english_name = "RN Andrea Doria",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 605072,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1478,
+		86,
+		0,
+		46,
+		0,
+		55,
+		0,
+		22,
+		7,
+		26,
+		77,
+		0
+	},
+	attrs_growth = {
+		31886,
+		839,
+		0,
+		813,
+		0,
+		385,
+		0,
+		343,
+		234,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1.5,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Andrea Doria-class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[605073] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "アンドレア・ドーリア",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 605070,
+	english_name = "RN Andrea Doria",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 605073,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2057,
+		120,
+		0,
+		64,
+		0,
+		55,
+		0,
+		22,
+		7,
+		26,
+		77,
+		0
+	},
+	attrs_growth = {
+		31886,
+		839,
+		0,
+		813,
+		0,
+		385,
+		0,
+		343,
+		234,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.5,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Andrea Doria-class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[605074] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "アンドレア・ドーリア",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 605070,
+	english_name = "RN Andrea Doria",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 6,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 605074,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2926,
+		172,
+		0,
+		92,
+		0,
+		55,
+		0,
+		22,
+		7,
+		26,
+		77,
+		0
+	},
+	attrs_growth = {
+		31886,
+		839,
+		0,
+		813,
+		0,
+		385,
+		0,
+		343,
+		234,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.5,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Andrea Doria-class"
 	}
 }
 

@@ -1,10 +1,11 @@
 pg = pg or {}
 pg.expedition_constellation_challenge_template = {
 	[10001] = {
+		painting = "huashengdun",
+		button_style = 6,
+		information_icon = "huashengdun_constellation",
 		id = 10001,
 		dungeon_id = 5103,
-		information_icon = "huashengdun_constellation",
-		painting = "huashengdun",
 		objective = {
 			5,
 			180
@@ -29,10 +30,11 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10002] = {
+		painting = "huashengdun",
+		button_style = 6,
+		information_icon = "huashengdun_constellation",
 		id = 10002,
 		dungeon_id = 5102,
-		information_icon = "huashengdun_constellation",
-		painting = "huashengdun",
 		objective = {
 			5,
 			180
@@ -57,10 +59,11 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10003] = {
+		painting = "huashengdun",
+		button_style = 6,
+		information_icon = "huashengdun_constellation",
 		id = 10003,
 		dungeon_id = 5101,
-		information_icon = "huashengdun_constellation",
-		painting = "huashengdun",
 		objective = {
 			5,
 			180
@@ -84,9 +87,99 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10004] = {
+		painting = "sipeibojue",
+		button_style = 6,
+		information_icon = "sipeibojue_constellation",
+		id = 10004,
+		dungeon_id = 5106,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"グッドコンビネーション",
+				"戦闘中、限界挑戦ボスのサウスダコタとワシントンは下記の効果を得る：自身が戦闘不能になるダメージを受けた場合、もう片方が【行動停止】状態でなければ、そのダメージを無効にし、自身が8秒間【行動停止】状態になる（この効果はサウスダコタとワシントン合計3回まで発動可能）；もう片方が【行動停止】状態である場合、2隻とも戦闘不能になる。【行動停止】状態のサウスダコタとワシントンはべてのダメージを回避する"
+			},
+			{
+				"ベストバディ",
+				"「グッドコンビネーション」が発動した場合、6秒後サウスダコタとワシントンは一旦攻撃を停止し一度戦場の中心に合流する。合流して2秒後、「グッドコンビネーション」を発動した艦船自身の耐久が回復する。この回復効果は最大3回まで発動でき、回復量は発動するたびに減少する（耐久上限の<color=#92fc63>60%</color>→<color=#92fc63>40%</color>→<color=#92fc63>20%</color>）"
+			}
+		},
+		award_display = {
+			{
+				14,
+				202,
+				1
+			}
+		}
+	},
+	[10005] = {
+		painting = "sipeibojue",
+		button_style = 6,
+		information_icon = "sipeibojue_constellation",
+		id = 10005,
+		dungeon_id = 5105,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"グッドコンビネーション",
+				"戦闘中、限界挑戦ボスのサウスダコタとワシントンは下記の効果を得る：自身が戦闘不能になるダメージを受けた場合、もう片方が【行動停止】状態でなければ、そのダメージを無効にし、自身が8秒間【行動停止】状態になる（この効果はサウスダコタとワシントン合計3回まで発動可能）；もう片方が【行動停止】状態である場合、2隻とも戦闘不能になる。【行動停止】状態のサウスダコタとワシントンはべてのダメージを回避する"
+			},
+			{
+				"ベストバディ",
+				"「グッドコンビネーション」が発動した場合、6秒後サウスダコタとワシントンは一旦攻撃を停止し一度戦場の中心に合流する。合流して2秒後、「グッドコンビネーション」を発動した艦船自身の耐久が回復する。この回復効果は最大3回まで発動でき、回復量は発動するたびに減少する（耐久上限の<color=#92fc63>60%</color>→<color=#92fc63>40%</color>→<color=#92fc63>20%</color>）"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10002,
+				1
+			}
+		}
+	},
+	[10006] = {
+		painting = "sipeibojue",
+		button_style = 6,
+		information_icon = "sipeibojue_constellation",
+		id = 10006,
+		dungeon_id = 5104,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"グッドコンビネーション",
+				"戦闘中、限界挑戦ボスのサウスダコタとワシントンは下記の効果を得る：自身が戦闘不能になるダメージを受けた場合、もう片方が【行動停止】状態でなければ、そのダメージを無効にし、自身が8秒間【行動停止】状態になる（この効果はサウスダコタとワシントン合計3回まで発動可能）；もう片方が【行動停止】状態である場合、2隻とも戦闘不能になる。【行動停止】状態のサウスダコタとワシントンはべてのダメージを回避する"
+			},
+			{
+				"ベストバディ",
+				"「グッドコンビネーション」が発動した場合、6秒後サウスダコタとワシントンは一旦攻撃を停止し一度戦場の中心に合流する。合流して2秒後、「グッドコンビネーション」を発動した艦船自身の耐久が回復する。この回復効果は最大3回まで発動でき、回復量は発動するたびに減少する（耐久上限の<color=#92fc63>60%</color>→<color=#92fc63>40%</color>→<color=#92fc63>20%</color>）"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10002,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
-		10003
+		10003,
+		10004,
+		10005,
+		10006
 	}
 }

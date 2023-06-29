@@ -15,7 +15,7 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				maxX = -70
+				maxX = -100
 			}
 		}
 	}

@@ -12363,5 +12363,224 @@ pg.ship_skin_expression_ex = {
 				"2"
 			}
 		}
+	},
+	geliqiya = {
+		main_2 = "",
+		feeling3 = "",
+		main_1 = "",
+		lose = "",
+		feeling4 = "",
+		upgrade = "",
+		skill = "",
+		mission = "",
+		feeling2 = "",
+		profile = "",
+		painting = "geliqiya",
+		headtouch = "",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		feeling5 = "",
+		login = {
+			{
+				1100,
+				""
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"2"
+			}
+		},
+		home = {
+			{
+				1100,
+				"2"
+			}
+		},
+		battle = {
+			{
+				1100,
+				""
+			}
+		},
+		detail = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"2|2"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"2"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"2"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"2"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"6"
+			}
+		}
+	},
+	adiliao = {
+		main_2 = "",
+		feeling3 = "",
+		main_1 = "",
+		lose = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		painting = "adiliao",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		feeling5 = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"4|2"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"2"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"1"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"2"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"6"
+			}
+		}
+	},
+	andelieyaduoliya = {
+		main_2 = "",
+		feeling3 = "",
+		main_1 = "",
+		lose = "",
+		feeling4 = "",
+		upgrade = "",
+		skill = "",
+		headtouch = "",
+		feeling2 = "",
+		feeling5 = "",
+		painting = "andelieyaduoliya",
+		profile = "",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"1"
+			}
+		},
+		home = {
+			{
+				1100,
+				"1"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"1"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"3"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"4|3"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"1"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				""
+			}
+		},
+		mission = {
+			{
+				1100,
+				""
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"1"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"1"
+			}
+		}
 	}
 }

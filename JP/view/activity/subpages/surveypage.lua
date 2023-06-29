@@ -48,6 +48,7 @@ function slot0.OnFirstFlush(slot0)
 		end
 	end, SFX_PANEL)
 	uv0.SetEnterTag(slot0.surveyID)
+	slot0:emit(ActivityMainScene.FLUSH_TABS)
 end
 
 return slot0

@@ -10065,7 +10065,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「ニュージャージー」を確定で入手可能！（最大4隻まで）"
+	tip = "「アッティリオ・レゴロ」「ゴリツィア」などの出現率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -10985,7 +10985,7 @@ _G.pg.base.gametip.world_boss_help = {
 			info = "<color=#92fc63>★遊び方</color>"
 		},
 		{
-			info = "イベント「共闘　冬の案内人」とは、<color=#92fc63>「演習Pt」</color>を集めて作戦進捗を進めると、個人累計Pt報酬と作戦進捗報酬が得られるイベントになります。"
+			info = "イベント「緑地伽話」とは、<color=#92fc63>「演習Pt」</color>を集めて作戦進捗を進めると、個人累計Pt報酬と作戦進捗報酬が得られるイベントになります。"
 		},
 		{
 			info = [[
@@ -13768,6 +13768,10 @@ _G.pg.base.gametip.msgbox_repair_l2d = {
 	tip = "Live2D修復"
 }
 
+_G.pg.base.gametip.msgbox_repair_painting = {
+	tip = "立ち絵アセットDL"
+}
+
 _G.pg.base.gametip.word_no_cache = {
 	tip = "修復するアセットはありません"
 }
@@ -16335,7 +16339,7 @@ _G.pg.base.gametip.destroy_ur_rarity_tip = {
 }
 
 _G.pg.base.gametip.destory_ur_pt_overflowa = {
-	tip = "※今月の<color=#92fc63>「特装コア」</color>入手上限に達しているため、<color=#ff5c5c>上限を超えた分の<color=#92fc63>「特装コア」</color>は入手できません。</color>"
+	tip = "※今月の<color=#92fc63>「特装コア」</color>入手上限に達しているため、\n<color=#ff5c5c>上限を超えた分の<color=#92fc63>「特装コア」</color>は入手できません。</color>"
 }
 
 _G.pg.base.gametip.jiujiu_expedition_help = {
@@ -19819,6 +19823,14 @@ _G.pg.base.gametip.setting_resdownload_title_music = {
 
 _G.pg.base.gametip.setting_resdownload_title_sound = {
 	tip = "ボイス更新"
+}
+
+_G.pg.base.gametip.setting_resdownload_title_manga = {
+	tip = "1コマアセットDL"
+}
+
+_G.pg.base.gametip.setting_resdownload_title_main_group = {
+	tip = "全アセットDL"
 }
 
 _G.pg.base.gametip.settings_battle_title = {
@@ -24477,11 +24489,11 @@ _G.pg.base.gametip.ship_formationUI_fleetName_challenge_sub = {
 }
 
 _G.pg.base.gametip.word_status_activity = {
-	tip = "イベントに出撃中です"
+	tip = "<size=24>ｲﾍﾞﾝﾄ出撃中</size>"
 }
 
 _G.pg.base.gametip.word_status_challenge = {
-	tip = "<size=24>ｲﾍﾞﾝﾄ出撃</size>"
+	tip = "<size=24>ﾁｬﾚﾝｼﾞ編成中</size>"
 }
 
 _G.pg.base.gametip.shipmodechange_reject_inactivity = {
@@ -24518,4 +24530,208 @@ _G.pg.base.gametip.game_icon_max_full = {
 
 _G.pg.base.gametip.pre_combat_consume = {
 	tip = "消費："
+}
+
+_G.pg.base.gametip.file_down_msgbox = {
+	tip = "ゲーム起動に必要なアセットが不足しています。<color=#92fc63>$1</color>のデータをダウンロードしますか？"
+}
+
+_G.pg.base.gametip.file_down_mgr_title = {
+	tip = "アセットをダウンロード中"
+}
+
+_G.pg.base.gametip.file_down_mgr_progress = {
+	tip = "$1/$2"
+}
+
+_G.pg.base.gametip.file_down_mgr_error = {
+	tip = "アセットダウンロードに失敗しました::$1\nエラーコード:$2\nタウンロードを再度行いますか?"
+}
+
+_G.pg.base.gametip.last_building_not_shown = {
+	tip = "下記の艦船が建造されました"
+}
+
+_G.pg.base.gametip.setting_group_prefs_tip = {
+	tip = "起動時に自動更新"
+}
+
+_G.pg.base.gametip.group_prefs_switch_tip = {
+	tip = "アセットDL設定を変更しました。次回起動時に適用されます"
+}
+
+_G.pg.base.gametip.main_group_msgbox_content = {
+	tip = "フルアセットのダウンロードを行うと、実装済みのすべてのコンテンツのダウンロードが行われます。$1のデータのダウンロードを行いますか？"
+}
+
+_G.pg.base.gametip.word_maingroup_checking = {
+	tip = "チェック中"
+}
+
+_G.pg.base.gametip.word_maingroup_checktoupdate = {
+	tip = "タップでDL"
+}
+
+_G.pg.base.gametip.word_maingroup_checkfailure = {
+	tip = "チェックに失敗しました。再度お試しください"
+}
+
+_G.pg.base.gametip.word_maingroup_updating = {
+	tip = "更新中…"
+}
+
+_G.pg.base.gametip.word_maingroup_updatesuccess = {
+	tip = "更新完了"
+}
+
+_G.pg.base.gametip.word_maingroup_updatefailure = {
+	tip = "更新に失敗しました。再度お試しください"
+}
+
+_G.pg.base.gametip.group_download_tip = {
+	tip = "更新するには$1のデータをダウンロードする必要があります。更新を行いますか？"
+}
+
+_G.pg.base.gametip.word_manga_checking = {
+	tip = "チェック中"
+}
+
+_G.pg.base.gametip.word_manga_checktoupdate = {
+	tip = "タップでDL"
+}
+
+_G.pg.base.gametip.word_manga_checkfailure = {
+	tip = "チェックに失敗しました。再度お試しください"
+}
+
+_G.pg.base.gametip.word_manga_updating = {
+	tip = "更新中:$1/$2"
+}
+
+_G.pg.base.gametip.word_manga_updatesuccess = {
+	tip = "更新完了"
+}
+
+_G.pg.base.gametip.word_manga_updatefailure = {
+	tip = "更新に失敗しました。再度お試しください"
+}
+
+_G.pg.base.gametip.cryptolalia_lock_res = {
+	tip = "アセット未DL"
+}
+
+_G.pg.base.gametip.cryptolalia_not_download_res = {
+	tip = "未DLアセット"
+}
+
+_G.pg.base.gametip.cryptolalia_timelimie = {
+	tip = "期間限定"
+}
+
+_G.pg.base.gametip.cryptolalia_label_downloading = {
+	tip = "アセットダウンロード中"
+}
+
+_G.pg.base.gametip.cryptolalia_delete_res = {
+	tip = "アセット削除($1)"
+}
+
+_G.pg.base.gametip.cryptolalia_delete_res_tip = {
+	tip = "メモリーズアセットを削除しますか？($1)"
+}
+
+_G.pg.base.gametip.cryptolalia_delete_res_title = {
+	tip = "アセットDL"
+}
+
+_G.pg.base.gametip.cryptolalia_use_gem_title = {
+	tip = "ダイヤで開放"
+}
+
+_G.pg.base.gametip.cryptolalia_use_ticket_title = {
+	tip = "チケットで開放"
+}
+
+_G.pg.base.gametip.cryptolalia_exchange = {
+	tip = "すぐに開放"
+}
+
+_G.pg.base.gametip.cryptolalia_exchange_success = {
+	tip = "開放しました"
+}
+
+_G.pg.base.gametip.cryptolalia_list_title = {
+	tip = "メモリーズ一覧"
+}
+
+_G.pg.base.gametip.cryptolalia_list_subtitle = {
+	tip = "合計$1個"
+}
+
+_G.pg.base.gametip.cryptolalia_download_done = {
+	tip = "アセットDL完了"
+}
+
+_G.pg.base.gametip.cryptolalia_coming_soom = {
+	tip = "日服不用这个"
+}
+
+_G.pg.base.gametip.cryptolalia_unopen = {
+	tip = "未開放"
+}
+
+_G.pg.base.gametip.cryptolalia_no_ticket = {
+	tip = "メモリーズ開放チケットが不足しています。ショップでダイヤを消費し購入可能"
+}
+
+_G.pg.base.gametip.cryptolalia_entrance_coming_soom = {
+	tip = "密语档案室建设中..."
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_sp = {
+	tip = "ｶｽﾀﾏｲｽﾞ前衛"
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_sp_ss = {
+	tip = "ｶｽﾀﾏｲｽﾞ潜水"
+}
+
+_G.pg.base.gametip.activityboss_sp_all_buff = {
+	tip = "選択可能"
+}
+
+_G.pg.base.gametip.activityboss_sp_best_score = {
+	tip = "最高スコア："
+}
+
+_G.pg.base.gametip.activityboss_sp_display_reward = {
+	tip = "報酬確認"
+}
+
+_G.pg.base.gametip.activityboss_sp_score_bonus = {
+	tip = "スコア増加"
+}
+
+_G.pg.base.gametip.activityboss_sp_active_buff = {
+	tip = "選択中"
+}
+
+_G.pg.base.gametip.activityboss_sp_window_best_score = {
+	tip = "達成済スコア："
+}
+
+_G.pg.base.gametip.activityboss_sp_score_target = {
+	tip = "目標スコア："
+}
+
+_G.pg.base.gametip.activityboss_sp_score = {
+	tip = "現在スコア"
+}
+
+_G.pg.base.gametip.activityboss_sp_score_update = {
+	tip = "最高スコア更新"
+}
+
+_G.pg.base.gametip.activityboss_sp_score_not_update = {
+	tip = "最高スコア未更新"
 }

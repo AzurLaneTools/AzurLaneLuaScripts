@@ -67,10 +67,8 @@ function slot0.Register(slot0)
 	slot1 = slot0._formationLogic
 
 	slot1:AddClick(function (slot0, slot1, slot2)
-		if uv0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS and uv0.contextData.system ~= SYSTEM_ACT_BOSS and uv0.contextData.system ~= SYSTEM_BOSS_EXPERIMENT then
-			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_CLICK)
-			uv0:emit(ExercisePreCombatMediator.CHANGE_FLEET_SHIP, slot0, slot2, slot1)
-		end
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_CLICK)
+		uv0:emit(ExercisePreCombatMediator.CHANGE_FLEET_SHIP, slot0, slot2, slot1)
 	end)
 
 	slot1 = slot0._formationLogic
@@ -100,17 +98,13 @@ function slot0.Register(slot0)
 	slot1 = slot0._formationLogic
 
 	slot1:AddCheckRemove(function (slot0, slot1, slot2, slot3, slot4)
-		if uv0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS and uv0.contextData.system ~= SYSTEM_ACT_BOSS and uv0.contextData.system ~= SYSTEM_BOSS_EXPERIMENT then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				zIndex = -100,
-				hideNo = false,
-				content = i18n("battle_preCombatLayer_quest_leaveFleet", slot2:getConfigTable().name),
-				onYes = slot1,
-				onNo = slot0
-			})
-		else
-			slot0()
-		end
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			zIndex = -100,
+			hideNo = false,
+			content = i18n("battle_preCombatLayer_quest_leaveFleet", slot2:getConfigTable().name),
+			onYes = slot1,
+			onNo = slot0
+		})
 	end)
 
 	slot1 = slot0._formationLogic
@@ -268,31 +262,6 @@ function slot0.didEnter(slot0)
 
 	if slot0._currentForm == uv0.FORM_PREVIEW and slot0.contextData.system == SYSTEM_DUEL and #slot0._currentFleetVO.mainShips <= 0 then
 		triggerButton(slot0._checkBtn)
-	end
-end
-
-function slot0.displayFleetInfo(slot0)
-	uv0.super.displayFleetInfo(slot0)
-
-	slot1 = slot0.contextData.system
-	slot2 = nil
-
-	if slot0._ticketItemID then
-		setImageSprite(slot0._ticket:Find("icon"), GetSpriteFromAtlas(itemId2icon(pg.player_resource[slot0._ticketItemID].itemid), ""))
-	end
-
-	if slot1 == SYSTEM_BOSS_EXPERIMENT then
-		setActive(slot0._ticket, true)
-		setText(slot0._ticket:Find("Text"), 0)
-	elseif slot1 == SYSTEM_HP_SHARE_ACT_BOSS then
-		setActive(slot0._ticket, true)
-		setText(slot0._ticket:Find("Text"), 1)
-	end
-
-	if slot1 == SYSTEM_ACT_BOSS or slot1 == SYSTEM_HP_SHARE_ACT_BOSS or slot1 == SYSTEM_BOSS_EXPERIMENT then
-		setText(slot0._fleetNameText, Fleet.DEFAULT_NAME_BOSS_ACT[slot0._currentFleetVO.id])
-	else
-		setText(slot0._fleetNameText, uv1.defaultFleetName(slot0._currentFleetVO))
 	end
 end
 

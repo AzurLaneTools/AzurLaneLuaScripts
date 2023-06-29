@@ -20,12 +20,6 @@ end
 function slot0.init(slot0)
 	slot0.top = slot0._tf:Find("Top")
 	slot0.viewContainer = slot0._tf:Find("Main")
-	slot0.toggles = {}
-
-	for slot5 = 0, slot0.top:Find("Adapt/Bar/ToggleGroup").childCount - 1 do
-		slot0.toggles[slot5 + 1] = slot1:GetChild(slot5)
-	end
-
 	slot0.subViews = {}
 end
 
@@ -40,63 +34,47 @@ function slot0.GetCurrentPage(slot0)
 end
 
 function slot0.didEnter(slot0)
-	slot1 = pg.UIMgr.GetInstance()
-
-	slot1:OverlayPanel(slot0.top, {
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.top, {
 		groupName = LayerWeightConst.GROUP_COLLECTION
 	})
-
-	slot3 = slot0.top
-
-	onButton(slot0, slot3:Find("blur_panel/adapt/top/option"), function ()
+	onButton(slot0, slot0.top:Find("blur_panel/adapt/top/option"), function ()
 		uv0:quickExitFunc()
 	end, SFX_PANEL)
-
-	slot3 = slot0.top
-
-	function slot4()
+	onButton(slot0, slot0.top:Find("blur_panel/adapt/top/back_btn"), function ()
 		uv0:Backward()
-	end
-
-	onButton(slot0, slot3:Find("blur_panel/adapt/top/back_btn"), slot4, SFX_UI_CANCEL)
-
-	for slot4 = 1, #slot0.toggles do
-		onToggle(slot0, slot0.toggles[slot4], function (slot0)
-			if not slot0 then
-				return
-			end
-
-			slot1 = uv0 == uv1.contextData.page
-
-			if not uv1.subViews[uv0] then
-				if not uv2[uv0] then
-					return
-				end
-
-				uv1.contextData[slot3] = uv1.contextData[slot3] or {}
-
-				slot3.New(uv1, uv1.viewContainer, uv1.event, uv1.contextData):Load()
-			end
-
-			if uv1.contextData.page and uv1.subViews[uv1.contextData.page] and not slot1 then
-				uv1.subViews[uv1.contextData.page].buffer:OnDeselected()
-			end
-
-			uv1.contextData.page = uv0
-			uv1.subViews[uv0] = slot2
-
-			if not slot1 then
-				slot2.buffer:OnSelected()
-			else
-				slot2.buffer:OnReselected()
-			end
-		end, SFX_UI_TAG)
-	end
+	end, SFX_UI_CANCEL)
 
 	slot0.contextData.page = nil
 
-	triggerToggle(slot0.toggles[slot0.contextData.page or uv1.PAGE_MEMORTY], true)
+	slot0:EnterPage(slot0.contextData.page or uv0.PAGE_MEMORTY)
 	slot0:UpdateView()
+end
+
+function slot0.EnterPage(slot0, slot1)
+	slot2 = slot1 == slot0.contextData.page
+
+	if not slot0.subViews[slot1] then
+		if not uv0[slot1] then
+			return
+		end
+
+		slot0.contextData[slot4] = slot0.contextData[slot4] or {}
+
+		slot4.New(slot0, slot0.viewContainer, slot0.event, slot0.contextData):Load()
+	end
+
+	if slot0.contextData.page and slot0.subViews[slot0.contextData.page] and not slot2 then
+		slot0.subViews[slot0.contextData.page].buffer:OnDeselected()
+	end
+
+	slot0.contextData.page = slot1
+	slot0.subViews[slot1] = slot3
+
+	if not slot2 then
+		slot3.buffer:OnSelected()
+	else
+		slot3.buffer:OnReselected()
+	end
 end
 
 function slot0.Backward(slot0)
@@ -126,13 +104,11 @@ function slot0.WorldRecordLock()
 end
 
 function slot0.UpdateView(slot0)
-	setActive(slot0.top:Find("Adapt/Bar/ToggleGroup"), not uv0.WorldRecordLock())
-
 	if not slot0.subViews[slot0.contextData.page] then
 		return
 	end
 
-	slot2.buffer:UpdateView()
+	slot1.buffer:UpdateView()
 end
 
 function slot0.willExit(slot0)

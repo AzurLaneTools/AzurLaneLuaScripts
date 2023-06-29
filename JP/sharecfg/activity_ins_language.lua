@@ -4138,7 +4138,40 @@ pg.activity_ins_language = setmetatable({
 		"ins_discuss_378_2",
 		"ins_reply_378_2_1",
 		"ins_op_378_1_1",
-		"op_reply_378_1_1"
+		"op_reply_378_1_1",
+		"ins_380",
+		"ins_discuss_380_1",
+		"ins_reply_380_1_1",
+		"ins_reply_380_1_2",
+		"ins_discuss_380_2",
+		"ins_reply_380_2_1",
+		"ins_discuss_380_3",
+		"ins_reply_380_3_1",
+		"ins_op_380_1_1",
+		"op_reply_380_1_1",
+		"ins_381",
+		"ins_discuss_381_1",
+		"ins_reply_381_1_1",
+		"ins_reply_381_1_2",
+		"ins_reply_381_1_3",
+		"ins_discuss_381_2",
+		"ins_reply_381_2_1",
+		"ins_discuss_381_3",
+		"ins_reply_381_3_1",
+		"ins_op_381_1_1",
+		"op_reply_381_1_1",
+		"ins_op_381_1_2",
+		"op_reply_381_1_2",
+		"ins_382",
+		"ins_discuss_382_1",
+		"ins_reply_382_1_1",
+		"ins_discuss_382_2",
+		"ins_reply_382_2_1",
+		"ins_discuss_382_3",
+		"ins_reply_382_3_1",
+		"ins_reply_382_3_2",
+		"ins_op_382_1_1",
+		"op_reply_382_1_1"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16273,285 +16306,384 @@ pg.base.activity_ins_language = {
 		value = "同志指揮官、何よその小馬鹿にした言い方！この通りと～～～～～～っても元気よ！"
 	},
 	ins_370 = {
-		value = ""
+		value = "憩いのひと時はクラッシクがうってつけだわ"
 	},
 	ins_discuss_370_1 = {
-		value = ""
+		value = "ビスマルクのアネキ！新しいレコードならあたしに任せて！"
 	},
 	ins_reply_370_1_1 = {
-		value = ""
+		value = "ええ、ありがとう。いつも頼りにしているわ"
 	},
 	ins_reply_370_1_2 = {
-		value = ""
+		value = "えへへ、アネキのお役に立てて嬉しい！"
 	},
 	ins_discuss_370_2 = {
-		value = ""
+		value = "他人が奏でる楽章に耳を傾けるのも一興ね。ふふふ"
 	},
 	ins_reply_370_2_1 = {
-		value = ""
+		value = "公務に追われる身にとって、ゆったりとした音楽に耽ける時間が最高の癒やしになるわね"
 	},
 	ins_discuss_370_3 = {
-		value = ""
+		value = "姉さんはご機嫌のようね"
 	},
 	ins_reply_370_3_1 = {
-		value = ""
+		value = "ティルピッツも。最近はみんなとよく打ち解けられていると聞いてるわ"
 	},
 	ins_reply_370_3_2 = {
-		value = ""
+		value = "ふふ、それは母港という場所の力…と言うべきかしら"
 	},
 	ins_op_370_1_1 = {
-		value = ""
+		value = "執務室にも蓄音機を置きたい"
 	},
 	op_reply_370_1_1 = {
-		value = ""
+		value = "いいわね。レコードを薦めてもいいかしら？"
 	},
 	ins_371 = {
-		value = ""
+		value = "これこそが闇龍の財宝よ！"
 	},
 	ins_discuss_371_1 = {
-		value = ""
+		value = "いっぱい溜まったら割らなくちゃならないと思うと…"
 	},
 	ins_reply_371_1_1 = {
-		value = ""
+		value = "別に割らなくてもいいんじゃない？"
 	},
 	ins_discuss_371_2 = {
-		value = ""
+		value = "ふふーん、お宝の匂いがしたと思ったらそんな物があるなんてね♪"
 	},
 	ins_reply_371_2_1 = {
-		value = ""
+		value = "貴様、何を企んでいる？"
 	},
 	ins_reply_371_2_2 = {
-		value = ""
+		value = "ううん、ドラゴンの財宝なんて今のヒーローのレベルではとても狙えないけどぉ？"
 	},
 	ins_reply_371_2_3 = {
-		value = ""
+		value = "ふん、財宝がほしければ奪いにでも来るがいい！"
 	},
 	ins_discuss_371_3 = {
-		value = ""
+		value = "それで？どこからこんな小銭を手に入れたわけ？"
 	},
 	ins_reply_371_3_1 = {
-		value = ""
+		value = "母港中に落ちているのをレジーナが回収してくれただけよ。どうせ落ちてるものだから、別にもらっても構わないでしょ？"
 	},
 	ins_op_371_1_1 = {
-		value = ""
+		value = "塵も積もれば龍の財宝になるな…"
 	},
 	op_reply_371_1_1 = {
-		value = ""
+		value = "そういうことよ！分かってるじゃない"
 	},
 	ins_372 = {
-		value = ""
+		value = "今日はまだ誰も艦船通信を投稿していませんの？じゃあヤーデが一番乗りぃ！"
 	},
 	ins_discuss_372_1 = {
-		value = ""
+		value = "ヤーデって四六時中張り付いている気がしますわ……"
 	},
 	ins_reply_372_1_1 = {
-		value = ""
+		value = "話題になるものとか、ほかの子の投稿とかいっぱいありますからチェックしないといけませんの。それに指揮官についての話を見逃したら損ですわよね？"
 	},
 	ins_reply_372_1_2 = {
-		value = ""
+		value = "そ、そうでした！私も張り付きますわ！"
 	},
 	ins_reply_372_1_3 = {
-		value = ""
+		value = "ふふふ、エルベちゃん、実はね〜。通知をオンに設定すれば大丈夫ですの♪"
 	},
 	ins_reply_372_1_4 = {
-		value = ""
+		value = "…むぅ。なんかまたバカにされた気が…"
 	},
 	ins_discuss_372_2 = {
-		value = ""
+		value = "そういえば、この間の大人気限定アイス、今日の午後だけ復刻販売されるらしいよ"
 	},
 	ins_reply_372_2_1 = {
-		value = ""
+		value = "うんうん、お店はとっくに予約済みですの。時間になったら一緒に行きましょ♪"
 	},
 	ins_op_372_1_1 = {
-		value = ""
+		value = "最近何か面白い話題あった？"
 	},
 	op_reply_372_1_1 = {
-		value = ""
+		value = "うーん、ないわけでもないけど…指揮官、ヤーデのように自撮りでもアップしてみません？指揮官がやったらそれだけで面白い話題になるはず、ですの♪"
 	},
 	ins_373 = {
-		value = ""
+		value = "この程度の訓練、ちょちょいのちょいだわ"
 	},
 	ins_discuss_373_1 = {
-		value = ""
+		value = "このレーベ様と互角に走れるなんてやるじゃない"
 	},
 	ins_reply_373_1_1 = {
-		value = ""
+		value = "そちらもなかなかよ。さすがZ1型の一番艦、その実力は本物のようね"
 	},
 	ins_discuss_373_2 = {
-		value = ""
+		value = "コースがくねくねしすぎですよ…直線に直せないのですかね……もう疲れた……"
 	},
 	ins_reply_373_2_1 = {
-		value = ""
+		value = "普通に航行しているだけだったらなんだか…単調じゃない？"
 	},
 	ins_reply_373_2_2 = {
-		value = ""
+		value = "確かに…遊べる要素とかがあるといいね！"
 	},
 	ins_reply_373_2_3 = {
-		value = ""
+		value = "みんなが閃いた面白いギミックを入れよう！踏んだら空を飛べるようになるタイルとか！"
 	},
 	ins_reply_373_2_4 = {
-		value = ""
+		value = "ええと、これは運動会ではなく訓練ですよ……？"
 	},
 	ins_op_373_1_1 = {
-		value = ""
+		value = "みんな、よく頑張った！"
 	},
 	op_reply_373_1_1 = {
-		value = ""
+		value = "ふふん、もっと褒めてくれたっていいわよ"
 	},
 	ins_374 = {
-		value = ""
+		value = "ゆーちゃんと練習中"
 	},
 	ins_discuss_374_1 = {
-		value = ""
+		value = "演奏する子に助ける子、ワニとチドリみたい……"
 	},
 	ins_reply_374_1_1 = {
-		value = ""
+		value = "ワニと…チドリ？"
 	},
 	ins_reply_374_1_2 = {
-		value = ""
+		value = "仲の良いお友達って意味よ…？"
 	},
 	ins_discuss_374_2 = {
-		value = ""
+		value = "いいね！パーティーの出し物の練習かな？"
 	},
 	ins_reply_374_2_1 = {
-		value = ""
+		value = "うん！ユニコーン、がんばる！"
 	},
 	ins_discuss_374_3 = {
-		value = ""
+		value = "真面目ですわね…指揮官のために演奏するの？"
 	},
 	ins_reply_374_3_1 = {
-		value = ""
+		value = "ま、まだヒミツだよ…！"
 	},
 	ins_op_374_1_1 = {
-		value = ""
+		value = "楽しみにしているよ"
 	},
 	op_reply_374_1_1 = {
-		value = ""
+		value = "ユニコーンもゆーちゃんも…一生懸命がんばるよ！"
 	},
 	ins_375 = {
-		value = ""
+		value = "ガンガン盛り上げてこう！"
 	},
 	ins_discuss_375_1 = {
-		value = ""
+		value = "わぁ！ハインリヒとチェシャー、いいコンビになりそう！"
 	},
 	ins_reply_375_1_1 = {
-		value = ""
+		value = "コンビもいいわね！名前はどうする？"
 	},
 	ins_reply_375_1_2 = {
-		value = ""
+		value = "「キャット＆ラビット」でどう？元気いっぱいのネコとウサギってこと！"
 	},
 	ins_reply_375_1_3 = {
-		value = ""
+		value = "すごくいい響き！それじゃあ今度一緒に出よう！"
 	},
 	ins_discuss_375_2 = {
-		value = ""
+		value = "卿にしては印象深いギャップの演出ね。うん"
 	},
 	ins_reply_375_2_1 = {
-		value = ""
+		value = "リハーサルの時にぱっと思いついただけよ！本番じゃないから！"
 	},
 	ins_reply_375_2_2 = {
-		value = ""
+		value = "リハーサルでここまでやれるなら、本番は……ある意味楽しめそうだな"
 	},
 	ins_op_375_1_1 = {
-		value = ""
+		value = "いいテンション！"
 	},
 	op_reply_375_1_1 = {
-		value = ""
+		value = "でしょ？さすが指揮官くん、良いセンスだよ！"
 	},
 	ins_376 = {
-		value = ""
+		value = "眠っているラフィーを発見、です"
 	},
 	ins_discuss_376_1 = {
-		value = ""
+		value = "もうまたソファで寝てるなんて！風邪引くって何度も言ってるのに！"
 	},
 	ins_reply_376_1_1 = {
-		value = ""
+		value = "あははは…ラフィーちゃんっぽい…"
 	},
 	ins_discuss_376_2 = {
-		value = ""
+		value = "撮られた……"
 	},
 	ins_reply_376_2_1 = {
-		value = ""
+		value = "爆睡しているのを見て一枚撮ったです。おはようです"
 	},
 	ins_reply_376_2_2 = {
-		value = ""
+		value = "Zzzz……おはよう……"
 	},
 	ins_discuss_376_3 = {
-		value = ""
+		value = "すごく大きいなニンジンですね！"
 	},
 	ins_reply_376_3_1 = {
-		value = ""
+		value = "抱き心地は指揮官と似てる…いい気持ち"
 	},
 	ins_reply_376_3_2 = {
-		value = ""
+		value = "え？"
 	},
 	ins_reply_376_3_3 = {
-		value = ""
+		value = "ええええ？！"
 	},
 	ins_op_376_1_1 = {
-		value = ""
+		value = "クッションの上の制帽は……？"
 	},
 	op_reply_376_1_1 = {
-		value = ""
+		value = "指揮官の代わり…？"
 	},
 	ins_377 = {
-		value = ""
+		value = "たまの楽しみ"
 	},
 	ins_discuss_377_1 = {
-		value = ""
+		value = "最近思うけど、天城さんの食事量がどんどん増えていないか？"
 	},
 	ins_reply_377_1_1 = {
-		value = ""
+		value = "母港のみんなが作った料理が美味しいからでしょう。ふふふ"
 	},
 	ins_discuss_377_2 = {
-		value = ""
+		value = "赤城の作ったお菓子が天城姉さまの口に合ったみたいでよかったです！"
 	},
 	ins_reply_377_2_1 = {
-		value = ""
+		value = "ええ、とても美味しい…というより、ヒトの胃袋を掴めそうな味ですね"
 	},
 	ins_reply_377_2_2 = {
-		value = ""
+		value = "すべては指揮官様の胃袋を掴むがために、ですわ～"
 	},
 	ins_discuss_377_3 = {
-		value = ""
+		value = "お、美味しそうなマカロンであーる…"
 	},
 	ins_reply_377_3_1 = {
-		value = ""
+		value = "今度指揮官様に作る時についでにいくつか分けてやってもいいわ"
 	},
 	ins_reply_377_3_2 = {
-		value = ""
+		value = "やったぁ！"
 	},
 	ins_op_377_1_1 = {
-		value = ""
+		value = "見てるだけで美味しそう"
 	},
 	op_reply_377_1_1 = {
-		value = ""
+		value = "実際美味しいですもの。フフフ"
 	},
 	ins_378 = {
-		value = ""
+		value = "指揮官に捧げる一曲よ"
 	},
 	ins_discuss_378_1 = {
-		value = ""
+		value = "手錠……？"
 	},
 	ins_reply_378_1_1 = {
-		value = ""
+		value = "重りをつけて練習しているというのか…？"
 	},
 	ins_reply_378_1_2 = {
-		value = ""
+		value = "重り？なんだか変なの……"
 	},
 	ins_reply_378_1_3 = {
-		value = ""
+		value = "なんだか使えそうって気がしたからつけてみただけよ。別に深い意味などないわ"
 	},
 	ins_discuss_378_2 = {
-		value = ""
+		value = "音楽で「縛り付ける」…ふふふ、いい発想ですね～"
 	},
 	ins_reply_378_2_1 = {
-		value = ""
+		value = "音楽「だけ」ではそんな力ないわよ？"
 	},
 	ins_op_378_1_1 = {
-		value = ""
+		value = "手首につけているのは……"
 	},
 	op_reply_378_1_1 = {
+		value = "指揮官との共演が楽しみよ。ふふふ"
+	},
+	ins_380 = {
+		value = ""
+	},
+	ins_discuss_380_1 = {
+		value = ""
+	},
+	ins_reply_380_1_1 = {
+		value = ""
+	},
+	ins_reply_380_1_2 = {
+		value = ""
+	},
+	ins_discuss_380_2 = {
+		value = ""
+	},
+	ins_reply_380_2_1 = {
+		value = ""
+	},
+	ins_discuss_380_3 = {
+		value = ""
+	},
+	ins_reply_380_3_1 = {
+		value = ""
+	},
+	ins_op_380_1_1 = {
+		value = ""
+	},
+	op_reply_380_1_1 = {
+		value = ""
+	},
+	ins_381 = {
+		value = ""
+	},
+	ins_discuss_381_1 = {
+		value = ""
+	},
+	ins_reply_381_1_1 = {
+		value = ""
+	},
+	ins_reply_381_1_2 = {
+		value = ""
+	},
+	ins_reply_381_1_3 = {
+		value = ""
+	},
+	ins_discuss_381_2 = {
+		value = ""
+	},
+	ins_reply_381_2_1 = {
+		value = ""
+	},
+	ins_discuss_381_3 = {
+		value = ""
+	},
+	ins_reply_381_3_1 = {
+		value = ""
+	},
+	ins_op_381_1_1 = {
+		value = ""
+	},
+	op_reply_381_1_1 = {
+		value = ""
+	},
+	ins_op_381_1_2 = {
+		value = ""
+	},
+	op_reply_381_1_2 = {
+		value = ""
+	},
+	ins_382 = {
+		value = ""
+	},
+	ins_discuss_382_1 = {
+		value = ""
+	},
+	ins_reply_382_1_1 = {
+		value = ""
+	},
+	ins_discuss_382_2 = {
+		value = ""
+	},
+	ins_reply_382_2_1 = {
+		value = ""
+	},
+	ins_discuss_382_3 = {
+		value = ""
+	},
+	ins_reply_382_3_1 = {
+		value = ""
+	},
+	ins_reply_382_3_2 = {
+		value = ""
+	},
+	ins_op_382_1_1 = {
+		value = ""
+	},
+	op_reply_382_1_1 = {
 		value = ""
 	}
 }

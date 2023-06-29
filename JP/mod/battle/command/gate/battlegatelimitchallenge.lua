@@ -10,23 +10,29 @@ function slot0.Entrance(slot0, slot1)
 
 	slot4 = getProxy(PlayerProxy):getData()
 	slot7 = getProxy(LimitChallengeProxy)
-	slot9 = pg.expedition_data_template[slot0.stageId].dungeon_id
-	slot10 = {}
+	slot10 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot0.stageId].dungeon_id).fleet_prefab
+	slot12 = {}
 
-	for slot16, slot17 in ipairs(getProxy(BayProxy):getSortShipsByFleet(getProxy(FleetProxy):getFleetById(FleetProxy.CHALLENGE_FLEET_ID))) do
-		slot10[#slot10 + 1] = slot17.id
+	for slot17, slot18 in ipairs(getProxy(BayProxy):getSortShipsByFleet(getProxy(FleetProxy):getFleetById(FleetProxy.CHALLENGE_FLEET_ID))) do
+		slot12[#slot12 + 1] = slot18.id
 	end
 
-	slot15 = slot11:getStartCost().oil
-	slot16 = slot11:GetCostSum().oil
+	slot16 = 0
+	slot17 = 0
 
-	if pg.battle_cost_template[uv0.BattleSystem].oil_cost > 0 and slot4.oil < slot16 then
+	if pg.battle_cost_template[uv0.BattleSystem].oil_cost > 0 then
+		slot16 = slot11:getStartCost().oil
+		slot17 = slot11:GetCostSum().oil
+	end
+
+	if slot15 and slot4.oil < slot17 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
 	end
 
-	BeginStageCommand.SendRequest(uv0.BattleSystem, slot10, {
+	slot1.ShipVertify()
+	BeginStageCommand.SendRequest(uv0.BattleSystem, slot12, {
 		slot8
 	}, function (slot0)
 		if uv0 then
@@ -48,11 +54,11 @@ function slot0.Entrance(slot0, slot1)
 		slot1 = uv6
 
 		slot1:updatePlayer(uv1)
-		uv9:sendNotification(GAME.BEGIN_STAGE_DONE, {
+		uv10:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			mainFleetId = mainFleetID,
-			prefabFleet = {},
-			stageId = uv7,
-			system = uv8.BattleSystem,
+			prefabFleet = uv7,
+			stageId = uv8,
+			system = uv9.BattleSystem,
 			token = slot0.key
 		})
 	end, function (slot0)

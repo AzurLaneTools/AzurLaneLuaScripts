@@ -125,7 +125,7 @@ function slot0.Clear(slot0)
 end
 
 function slot0.Dispose(slot0)
-	pg.m02:removeMediator(slot0)
+	pg.m02:removeMediator(slot0.__cname)
 	slot0:Clear()
 end
 

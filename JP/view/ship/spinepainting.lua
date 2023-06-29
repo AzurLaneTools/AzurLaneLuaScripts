@@ -160,15 +160,7 @@ end
 
 function slot0.SetEmptyAction(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.spineAnimList) do
-		if ReflectionHelp.RefGetField(typeof("SpineAnimUI"), "spineAnimationState", slot6) then
-			ReflectionHelp.RefCallMethod(typeof("Spine.AnimationState"), "SetEmptyAnimation", slot7, {
-				typeof("System.Int32"),
-				typeof("System.Single")
-			}, {
-				slot1,
-				0
-			})
-		end
+		slot6:GetAnimationState():SetEmptyAnimation(slot1, 0)
 	end
 end
 

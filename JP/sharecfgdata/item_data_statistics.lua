@@ -16716,6 +16716,123 @@ _G.pg.base.item_data_statistics[30345] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30346] = {
+	display = "ランダムの装備外装を入手可能",
+	name = "装備外装箱（オフィス）",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbangongshiguang",
+	id = 30346,
+	display_icon = {
+		{
+			9,
+			780,
+			1
+		},
+		{
+			9,
+			781,
+			1
+		},
+		{
+			9,
+			782,
+			1
+		},
+		{
+			9,
+			783,
+			1
+		},
+		{
+			9,
+			784,
+			1
+		},
+		{
+			9,
+			785,
+			1
+		},
+		{
+			9,
+			786,
+			1
+		},
+		{
+			9,
+			787,
+			1
+		},
+		{
+			9,
+			788,
+			1
+		},
+		{
+			9,
+			789,
+			1
+		},
+		{
+			9,
+			790,
+			1
+		},
+		{
+			9,
+			791,
+			1
+		},
+		{
+			9,
+			792,
+			1
+		},
+		{
+			9,
+			793,
+			1
+		},
+		{
+			9,
+			794,
+			1
+		},
+		{
+			9,
+			795,
+			1
+		},
+		{
+			9,
+			796,
+			1
+		},
+		{
+			9,
+			797,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
 	name = "ランダム装備外装",
@@ -19985,6 +20102,120 @@ _G.pg.base.item_data_statistics[30524] = {
 		{
 			9,
 			417,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30525] = {
+	display = "使用すると、装備外装（アニマルオフィス）から任意の装備外装を1個選択して入手できます",
+	name = "選択装備外装箱（オフィス）",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbangongshiguangzixuan",
+	id = 30525,
+	display_icon = {
+		{
+			9,
+			780,
+			1
+		},
+		{
+			9,
+			781,
+			1
+		},
+		{
+			9,
+			782,
+			1
+		},
+		{
+			9,
+			783,
+			1
+		},
+		{
+			9,
+			784,
+			1
+		},
+		{
+			9,
+			785,
+			1
+		},
+		{
+			9,
+			786,
+			1
+		},
+		{
+			9,
+			787,
+			1
+		},
+		{
+			9,
+			788,
+			1
+		},
+		{
+			9,
+			789,
+			1
+		},
+		{
+			9,
+			790,
+			1
+		},
+		{
+			9,
+			791,
+			1
+		},
+		{
+			9,
+			792,
+			1
+		},
+		{
+			9,
+			793,
+			1
+		},
+		{
+			9,
+			794,
+			1
+		},
+		{
+			9,
+			795,
+			1
+		},
+		{
+			9,
+			796,
+			1
+		},
+		{
+			9,
+			797,
 			1
 		}
 	},
@@ -195800,6 +196031,153 @@ _G.pg.base.item_data_statistics[58878] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[58879] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58879,
+	display_icon = {
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			60,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			10125,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58880] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58880,
+	display_icon = {
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		},
+		{
+			2,
+			10105,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			10125,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58881] = {
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58881,
+	display_icon = {
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		},
+		{
+			2,
+			10105,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			11048,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "参加キャラは経験値を獲得できます",
 	name = "経験値",
@@ -202835,6 +203213,75 @@ _G.pg.base.item_data_statistics[59462] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_v4",
 	id = 59462,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59463] = {
+	display = "イベント「緑地伽話」で得られるイベントポイント。イベントバナーで「累計Pt報酬」を入手可能",
+	name = "オアシススター",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/geliqiya_pt",
+	id = 59463,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59464] = {
+	display = "「緑地伽話」EXステージ出撃、もしくはボーナス出撃回数回復時に使用可能",
+	name = "特別戦闘券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	id = 59464,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59465] = {
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2023.7.12メンテナンスまで）で削除されます",
+	name = "試着貸出チケット（2023.7.12まで）",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59465,
 	display_icon = {},
 	price = {},
 	index = {},

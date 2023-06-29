@@ -1415,5 +1415,17 @@ pg.voice_actor_CN = {
 	[365] = {
 		code = 365,
 		actor_name = "香月はるか"
+	},
+	[368] = {
+		code = 368,
+		actor_name = "藍原ことみ"
+	},
+	[369] = {
+		code = 369,
+		actor_name = "津田里穂"
+	},
+	[370] = {
+		code = 370,
+		actor_name = "富士原晴乃"
 	}
 }

@@ -286,19 +286,25 @@ function slot0.doMain(slot0)
 					return
 				end
 
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("word_propose_cost_tip" .. (uv1.proposeType == "imas" and "1" or ""), slot0),
-					onYes = function ()
-						if uv0.intimacydescTime then
-							uv0:onUpdateIntimacydescTime(pg.TimeMgr.GetInstance():GetServerTime())
-						end
+				uv1:checkPaintingRes(uv1.shipVO, function ()
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("word_propose_cost_tip" .. (uv0.proposeType == "imas" and "1" or ""), uv1),
+						onYes = function ()
+							if uv0.intimacydescTime then
+								uv0:onUpdateIntimacydescTime(pg.TimeMgr.GetInstance():GetServerTime())
+							end
 
-						uv0:hideWindow()
-						setActive(uv0.window, false)
-						uv0:doPlay()
-					end
-				})
-			elseif uv2 then
+							uv0:hideWindow()
+							setActive(uv0.window, false)
+							uv0:doPlay()
+						end
+					})
+				end)
+
+				return
+			end
+
+			if uv2 then
 				function uv1.afterRegisterCall()
 					uv0.afterRegisterCall = nil
 
@@ -1254,6 +1260,20 @@ end
 function slot0.hideExchangePanel(slot0)
 	setActive(slot0.exchangePanel, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.exchangePanel, slot0._tf)
+end
+
+function slot0.checkPaintingRes(slot0, slot1, slot2)
+	slot3 = {}
+
+	if slot1:getProposeSkin() and slot4.id > 0 then
+		PaintingConst.AddPaintingNameBySkinID(slot3, slot4.id)
+	end
+
+	PaintingConst.PaintingDownload({
+		isShowBox = true,
+		paintingNameList = slot3,
+		finishFunc = slot2
+	})
 end
 
 return slot0

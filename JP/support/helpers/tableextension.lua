@@ -304,3 +304,7 @@ function table.map(slot0, slot1)
 
 	return slot2
 end
+
+function table.lastof(slot0)
+	return slot0[#slot0]
+end

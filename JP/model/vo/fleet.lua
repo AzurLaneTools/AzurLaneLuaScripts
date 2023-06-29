@@ -34,7 +34,13 @@ slot0.DEFAULT_NAME_BOSS_ACT = {
 	i18n("ship_formationUI_fleetName_easy"),
 	i18n("ship_formationUI_fleetName_normal"),
 	i18n("ship_formationUI_fleetName_hard"),
-	i18n("ship_formationUI_fleetName_extra")
+	i18n("ship_formationUI_fleetName_extra"),
+	i18n("ship_formationUI_fleetName_sp"),
+	[11] = i18n("ship_formationUI_fleetName_easy_ss"),
+	[12] = i18n("ship_formationUI_fleetName_normal_ss"),
+	[13] = i18n("ship_formationUI_fleetName_hard_ss"),
+	[14] = i18n("ship_formationUI_fleetName_extra_ss"),
+	[15] = i18n("ship_formationUI_fleetName_sp_ss")
 }
 slot0.REGULAR_FLEET_ID = 1
 slot0.REGULAR_FLEET_NUMS = 6
@@ -43,7 +49,7 @@ slot0.SUBMARINE_FLEET_NUMS = 4
 
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
-	slot0.name = slot1.name
+	slot0.name = slot1.name or ""
 	slot0.defaultName = uv0.DEFAULT_NAME[slot0.id]
 
 	slot0:updateShips(slot1.ship_list)
@@ -433,14 +439,6 @@ function slot0.isLegalToFight(slot0)
 	return true
 end
 
-function slot0.IsLegalToFightForSubmarine(slot0)
-	if #slot0.subShips == 0 then
-		return TeamType.Submarine, 1
-	end
-
-	return true
-end
-
 function slot0.getSkillNum(slot0)
 	slot2 = {}
 
@@ -578,7 +576,7 @@ function slot0.GetEnergyStatus(slot0)
 	slot5(slot0.subShips)
 
 	if false then
-		slot2 = slot0.name == "" and uv0.DEFAULT_NAME[slot0.id] or slot0.name
+		slot2 = slot0:GetName()
 	end
 
 	return slot1, i18n("ship_energy_low_warn", slot2, slot3)

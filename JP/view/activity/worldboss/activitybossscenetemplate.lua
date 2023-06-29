@@ -40,6 +40,12 @@ function slot0.init(slot0)
 		slot0.stageList[slot4] = slot0:findTF(slot4, slot0.right)
 	end
 
+	slot0.stageSP = slot0:findTF("5", slot0.right)
+
+	if not IsNil(slot0.stageSP) then
+		setActive(slot0.stageSP, false)
+	end
+
 	slot0.awardFlash = slot0:findTF("ptaward/flash", slot0.right)
 	slot0.awardBtn = slot0:findTF("ptaward/button", slot0.right)
 	slot0.ptScoreTxt = slot0:findTF("ptaward/Text", slot0.right)
@@ -131,9 +137,7 @@ function slot0.didEnter(slot0)
 	for slot4 = 1, #slot0.stageList - 1 do
 		onButton(slot0, slot0.stageList[slot4], function ()
 			if uv0.contextData.activity:checkBattleTimeInBossAct() then
-				uv0.contextData.manulOpen = true
-
-				uv0:ShowNormalFleet(uv1)
+				uv0:ShowNormalFleet(uv1, true)
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 			end
@@ -148,11 +152,24 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_PANEL)
 
+	if not IsNil(slot0.stageSP) then
+		setActive(slot0.stageSP, slot0.contextData.spStageID)
+		onButton(slot0, slot0.stageSP, function ()
+			if uv0.contextData.activity:checkBattleTimeInBossAct() then
+				uv0:emit(ActivityBossMediatorTemplate.ONEN_BUFF_SELECT)
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+			end
+		end, SFX_PANEL)
+	end
+
 	if slot0.contextData.editFleet then
 		if slot0.contextData.editFleet <= #slot0.contextData.normalStageIDs then
 			slot0:ShowNormalFleet(slot1)
-		else
+		elseif slot0.contextData.editFleet == #slot0.contextData.normalStageIDs + 1 then
 			slot0:ShowEXFleet()
+		elseif slot0.contextData.editFleet == #slot0.contextData.normalStageIDs + 2 then
+			slot0:ShowSPFleet()
 		end
 	end
 
@@ -178,7 +195,9 @@ function slot0.didEnter(slot0)
 					return getProxy(BayProxy):getShipById(slot0)
 				end), Fleet.DEFAULT_NAME_BOSS_ACT[uv0.id], function (slot0)
 					if slot0 then
-						uv0:emit(PreCombatMediator.BEGIN_STAGE_PROXY, uv1.id)
+						uv0:emit(PreCombatMediator.BEGIN_STAGE_PROXY, {
+							curFleetId = uv1.id
+						})
 					end
 				end)
 			end
@@ -264,7 +283,7 @@ function slot0.GetEXTicket(slot0)
 	return getProxy(PlayerProxy):getRawData():getResource(slot0.contextData.TicketID)
 end
 
-function slot0.ShowNormalFleet(slot0, slot1)
+function slot0.ShowNormalFleet(slot0, slot1, slot2)
 	if not slot0.contextData.actFleets[slot1] then
 		slot0.contextData.actFleets[slot1] = slot0:CreateNewFleet(slot1)
 	end
@@ -273,44 +292,43 @@ function slot0.ShowNormalFleet(slot0, slot1)
 		slot0.contextData.actFleets[slot1 + 10] = slot0:CreateNewFleet(slot1 + 10)
 	end
 
-	slot2 = slot0.contextData.actFleets[slot1]
+	slot3 = slot0.contextData.actFleets[slot1]
 
-	if slot0.contextData.manulOpen and #slot2.ships <= 0 then
-		for slot6 = #slot0.contextData.normalStageIDs, 1, -1 do
-			slot7 = slot0.contextData.actFleets[slot6]
+	if slot2 and #slot3.ships <= 0 then
+		for slot7 = #slot0.contextData.normalStageIDs, 1, -1 do
+			slot8 = slot0.contextData.actFleets[slot7]
 
-			if slot6 ~= slot1 and slot7 and slot7:isLegalToFight() then
-				slot2:updateShips(slot7.ships)
+			if slot7 ~= slot1 and slot8 and slot8:isLegalToFight() then
+				slot3:updateShips(slot8.ships)
 
 				break
 			end
 		end
 	end
 
-	slot0.contextData.manulOpen = nil
-	slot3 = slot0:GetFleetEditPanel()
+	slot4 = slot0:GetFleetEditPanel()
 
-	slot3.buffer:SetSettings(1, 1, true, false)
-	slot3.buffer:SetFleets({
+	slot4.buffer:SetSettings(1, 1, false)
+	slot4.buffer:SetFleets({
 		slot0.contextData.actFleets[slot1],
 		slot0.contextData.actFleets[slot1 + 10]
 	})
 
-	slot4 = slot0.contextData.useOilLimit[slot1]
+	slot5 = slot0.contextData.useOilLimit[slot1]
 
 	if not slot0.contextData.activity:IsOilLimit(slot0.contextData.normalStageIDs[slot1]) then
-		slot4 = {
+		slot5 = {
 			0,
 			0
 		}
 	end
 
-	slot3.buffer:SetOilLimit(slot4)
+	slot4.buffer:SetOilLimit(slot5)
 
 	slot0.contextData.editFleet = slot1
 
-	slot3.buffer:UpdateView()
-	slot3.buffer:Show()
+	slot4.buffer:UpdateView()
+	slot4.buffer:Show()
 end
 
 function slot0.ShowEXFleet(slot0)
@@ -324,7 +342,7 @@ function slot0.ShowEXFleet(slot0)
 
 	slot2 = slot0:GetFleetEditPanel()
 
-	slot2.buffer:SetSettings(1, 1, true, true)
+	slot2.buffer:SetSettings(1, 1, true)
 	slot2.buffer:SetFleets({
 		slot0.contextData.actFleets[slot1],
 		slot0.contextData.actFleets[slot1 + 10]
@@ -347,15 +365,44 @@ function slot0.ShowEXFleet(slot0)
 	slot2.buffer:Show()
 end
 
+function slot0.ShowSPFleet(slot0)
+	if not slot0.contextData.actFleets[#slot0.contextData.normalStageIDs + 2] then
+		slot0.contextData.actFleets[slot1] = slot0:CreateNewFleet(slot1)
+	end
+
+	if not slot0.contextData.actFleets[slot1 + 10] then
+		slot0.contextData.actFleets[slot1 + 10] = slot0:CreateNewFleet(slot1 + 10)
+	end
+
+	slot2 = slot0:GetFleetEditPanel()
+
+	slot2.buffer:SetSettings(1, 1, false)
+	slot2.buffer:SetFleets({
+		slot0.contextData.actFleets[slot1],
+		slot0.contextData.actFleets[slot1 + 10]
+	})
+	slot2.buffer:SetOilLimit({
+		0,
+		0
+	})
+
+	slot0.contextData.editFleet = slot1
+
+	slot2.buffer:UpdateView()
+	slot2.buffer:Show()
+end
+
 function slot0.commitEdit(slot0)
 	slot0:emit(slot0.contextData.mediatorClass.ON_COMMIT_FLEET)
 end
 
 function slot0.commitCombat(slot0)
-	if slot0.contextData.editFleet > #slot0.contextData.normalStageIDs then
-		slot0:emit(slot0.contextData.mediatorClass.ON_EX_PRECOMBAT, slot0.contextData.editFleet, false)
-	else
+	if slot0.contextData.editFleet <= #slot0.contextData.normalStageIDs then
 		slot0:emit(slot0.contextData.mediatorClass.ON_PRECOMBAT, slot0.contextData.editFleet)
+	elseif slot0.contextData.editFleet == #slot0.contextData.normalStageIDs + 1 then
+		slot0:emit(slot0.contextData.mediatorClass.ON_EX_PRECOMBAT, slot0.contextData.editFleet, false)
+	elseif slot0.contextData.editFleet <= #slot0.contextData.normalStageIDs + 2 then
+		slot0:emit(slot0.contextData.mediatorClass.ON_SP_PRECOMBAT, slot0.contextData.editFleet, false)
 	end
 end
 
@@ -465,10 +512,11 @@ function slot0.ShowAwards(slot0)
 end
 
 function slot0.CreateNewFleet(slot0, slot1)
-	return Fleet.New({
+	return TypedFleet.New({
 		id = slot1,
 		ship_list = {},
-		commanders = {}
+		commanders = {},
+		fleetType = slot1 > 10 and FleetType.Submarine or FleetType.Normal
 	})
 end
 
@@ -498,6 +546,22 @@ function slot0.UpdateDropItems(slot0)
 			uv0:emit(uv1.ON_DROP, uv2)
 		end, SFX_PANEL)
 	end
+end
+
+function slot0.onBackPressed(slot0)
+	if slot0.fleetEditPanel and slot0.fleetEditPanel:IsShowing() then
+		slot0.fleetEditPanel.buffer:Hide()
+
+		return
+	end
+
+	if slot0.bonusWindow and slot0.bonusWindow:IsShowing() then
+		slot0.bonusWindow.buffer:Hide()
+
+		return
+	end
+
+	uv0.super.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)

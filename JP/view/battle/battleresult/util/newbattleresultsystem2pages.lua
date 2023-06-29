@@ -20,7 +20,7 @@ return {
 	[SYSTEM_BOSS_EXPERIMENT] = {
 		NewBossExperimentResultGradePage,
 		NewBattleResultDisplayPaintingsPage,
-		NewBattleResultStatisticsPage
+		NewBossExperimentResultStatisticsPage
 	},
 	[SYSTEM_HP_SHARE_ACT_BOSS] = {
 		NewHpShareActBossResultGradePage,
@@ -33,6 +33,12 @@ return {
 		NewBattleResultDisplayAwardPage,
 		NewBattleResultDisplayPaintingsPage,
 		NewActivityBossResultStatisticsPage
+	},
+	[SYSTEM_ACT_BOSS_SP] = {
+		NewActivityBossSPResultGradePage,
+		NewBattleResultDisplayAwardPage,
+		NewBattleResultDisplayPaintingsPage,
+		NewBattleResultStatisticsPage
 	},
 	[SYSTEM_WORLD_BOSS] = {
 		NewBattleResultDisplayAwardPage,

@@ -1,10 +1,5 @@
 slot0 = class("NewActivityBossResultStatisticsPage", import("..NewBattleResultStatisticsPage"))
 
-function slot0.UpdateGrade(slot0)
-	LoadImageSpriteAsync("battlescore/grade_label_clear", slot0.gradeTxt, false)
-	setActive(slot0.gradeIcon, false)
-end
-
 function slot0.UpdateCommanders(slot0, slot1)
 	parallelAsync({
 		function (slot0)
@@ -37,13 +32,28 @@ function slot0.GetTicketItemID(slot0, slot1)
 	return pg.activity_event_worldboss[getProxy(ActivityProxy):RawGetActivityById(slot1):getConfig("config_id")].ticket
 end
 
+function slot0.GetTicketUseCount(slot0)
+	return 1
+end
+
+function slot0.GetOilCost(slot0)
+	if not (pg.battle_cost_template[slot0.contextData.system].oil_cost > 0) then
+		return 0
+	end
+
+	return uv0(slot0.contextData.actId, slot0.contextData.stageId, slot0.contextData.mainFleetId)
+end
+
 function slot0.InitActivityPanel(slot0, slot1)
+	slot1:SetAsFirstSibling()
+
 	slot0.playAgain = slot1:Find("playAgain")
 	slot0.toggle = slot1:Find("playAgain/ticket/checkbox")
-	slot2 = uv0(slot0.contextData.actId, slot0.contextData.stageId, slot0.contextData.mainFleetId)
+	slot2 = slot0:GetOilCost()
 
-	setActive(slot1:Find("playAgain/bonus"), uv1(slot0.contextData.actId, slot0.contextData.stageId) > 0)
+	setActive(slot1:Find("playAgain/bonus"), uv0(slot0.contextData.actId, slot0.contextData.stageId) > 0)
 	setActive(slot1:Find("playAgain/ticket"), slot3 <= 0)
+	setText(slot1:Find("playAgain/bonus/Text"), slot3)
 
 	if slot3 <= 0 then
 		slot0:UpdateTicket(slot1)
@@ -59,14 +69,13 @@ function slot0.UpdateTicket(slot0, slot1)
 
 	setImageSprite(slot1:Find("playAgain/ticket/icon"), GetSpriteFromAtlas(itemId2icon(pg.player_resource[slot2].itemid), ""))
 
-	if getProxy(PlayerProxy):getRawData():getResource(slot2) < 1 then
+	slot7 = getProxy(PlayerProxy):getRawData():getResource(slot2) > 0
+
+	if slot5 < slot0:GetTicketUseCount() then
 		slot5 = setColorStr(slot5, COLOR_RED) or slot5
 	end
 
 	setText(slot1:Find("playAgain/ticket/Text"), slot6 .. "/" .. slot5)
-
-	slot7 = slot5 > 0
-
 	setToggleEnabled(slot0.toggle, slot7)
 	triggerToggle(slot0.toggle, slot7 and getProxy(SettingsProxy):isTipActBossExchangeTicket() == 1)
 end
@@ -86,12 +95,7 @@ end
 
 function slot0.RegisterEvent(slot0, slot1)
 	uv0.super.RegisterEvent(slot0, slot1)
-
-	slot2 = getProxy(SettingsProxy):isTipActBossExchangeTicket() == 1
-
 	onToggle(slot0, slot0.toggle, function (slot0)
-		uv0 = slot0
-
 		getProxy(SettingsProxy):setActBossExchangeTicketTip(slot0 and 1 or 0)
 	end, SFX_PANEL, SFX_CANCEL)
 	onButton(slot0, slot0.playAgain, function ()
@@ -104,11 +108,8 @@ function slot0.IsLastBonus(slot0)
 end
 
 function slot0.NotEnoughOilCost(slot0)
-	slot3 = uv0(slot0.contextData.actId, slot0.contextData.stageId, slot0.contextData.mainFleetId)
-	slot4 = getProxy(PlayerProxy):getRawData().oil
-
-	if pg.battle_cost_template[slot0.contextData.system].oil_cost > 0 and slot4 < slot3 then
-		return true, slot3
+	if getProxy(PlayerProxy):getRawData().oil < slot0:GetOilCost() then
+		return true, slot1
 	end
 
 	return false

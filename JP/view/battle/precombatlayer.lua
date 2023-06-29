@@ -142,9 +142,9 @@ function slot0.Register(slot0)
 			setImageSprite(slot5, slot8)
 		end
 
-		setActive(slot5, slot4 and uv0.contextData.system ~= SYSTEM_DUEL)
+		setActive(slot5, slot4 and pg.battle_cost_template[uv0.contextData.system].enter_energy_cost > 0)
 
-		for slot10 = 1, slot1:getStar() do
+		for slot12 = 1, slot1:getStar() do
 			cloneTplTo(uv0._starTpl, slot3)
 		end
 
@@ -152,20 +152,20 @@ function slot0.Register(slot0)
 			warning("找不到船形, shipConfigId: " .. slot1.configId)
 		end
 
-		setImageSprite(findTF(slot2, "type"), slot7, true)
+		setImageSprite(findTF(slot2, "type"), slot9, true)
 		setText(findTF(slot2, "frame/lv_contain/lv"), slot1.level)
 
-		if uv0.contextData.system == SYSTEM_SCENARIO or slot8 == SYSTEM_ROUTINE or slot8 == SYSTEM_ACT_BOSS or slot8 == SYSTEM_SUB_ROUTINE then
+		if slot7.ship_exp_award > 0 then
 			setActive(slot2:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot1:getGroupId()] ~= nil)
 
-			if slot11 then
-				slot15 = tostring(slot11 / 100)
+			if slot12 then
+				slot16 = tostring(slot12 / 100)
 
-				if slot11 % 100 > 0 then
-					slot15 = slot15 .. "." .. tostring(slot14)
+				if slot12 % 100 > 0 then
+					slot16 = slot16 .. "." .. tostring(slot15)
 				end
 
-				setText(slot12:Find("text"), string.format("EXP +%s%%", slot15))
+				setText(slot13:Find("text"), string.format("EXP +%s%%", slot16))
 			end
 		else
 			setActive(slot2:Find("expbuff"), false)
@@ -193,10 +193,8 @@ function slot0.Register(slot0)
 	slot1 = slot0._formationLogic
 
 	slot1:AddClick(function (slot0, slot1, slot2)
-		if uv0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS and uv0.contextData.system ~= SYSTEM_ACT_BOSS and uv0.contextData.system ~= SYSTEM_BOSS_EXPERIMENT then
-			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_CLICK)
-			uv0:emit(PreCombatMediator.CHANGE_FLEET_SHIP, slot0, slot2, slot1)
-		end
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_CLICK)
+		uv0:emit(PreCombatMediator.CHANGE_FLEET_SHIP, slot0, slot2, slot1)
 	end)
 
 	slot1 = slot0._formationLogic
@@ -214,23 +212,19 @@ function slot0.Register(slot0)
 	slot1 = slot0._formationLogic
 
 	slot1:AddCheckRemove(function (slot0, slot1, slot2, slot3, slot4)
-		if uv0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS and uv0.contextData.system ~= SYSTEM_ACT_BOSS and uv0.contextData.system ~= SYSTEM_BOSS_EXPERIMENT then
-			if not slot3:canRemove(slot2) then
-				slot5, slot6 = slot3:getShipPos(slot2)
+		if not slot3:canRemove(slot2) then
+			slot5, slot6 = slot3:getShipPos(slot2)
 
-				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", slot2:getConfigTable().name, slot3.name, Fleet.C_TEAM_NAME[slot6]))
-				slot0()
-			else
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					zIndex = -100,
-					hideNo = false,
-					content = i18n("battle_preCombatLayer_quest_leaveFleet", slot2:getConfigTable().name),
-					onYes = slot1,
-					onNo = slot0
-				})
-			end
-		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", slot2:getConfigTable().name, slot3.name, Fleet.C_TEAM_NAME[slot6]))
 			slot0()
+		else
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				zIndex = -100,
+				hideNo = false,
+				content = i18n("battle_preCombatLayer_quest_leaveFleet", slot2:getConfigTable().name),
+				onYes = slot1,
+				onNo = slot0
+			})
 		end
 	end)
 
@@ -269,10 +263,6 @@ function slot0.Register(slot0)
 	slot1:AddGridTipClick(function (slot0, slot1)
 		uv0:emit(PreCombatMediator.CHANGE_FLEET_SHIP, nil, uv0._currentFleetVO, slot0)
 	end)
-
-	if slot0.contextData.system == SYSTEM_ACT_BOSS then
-		slot0._formationLogic:DisableTip()
-	end
 end
 
 function slot0.SetPlayerInfo(slot0, slot1)
@@ -406,10 +396,6 @@ function slot0.SetCurrentFleet(slot0, slot1)
 			break
 		end
 	end
-end
-
-function slot0.SetTicketItemID(slot0, slot1)
-	slot0._ticketItemID = slot1
 end
 
 function slot0.CheckLegalFleet(slot0)
@@ -558,42 +544,33 @@ function slot0.didEnter(slot0)
 		slot0._formationLogic:SwitchToPreviewMode()
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	slot1 = pg.UIMgr.GetInstance()
 
-	if slot0.contextData.system == SYSTEM_DUEL then
-		setActive(slot0._autoToggle, false)
-		setActive(slot0._autoSubToggle, false)
-	else
-		setActive(slot0._autoToggle, true)
-		onToggle(slot0, slot0._autoToggle, function (slot0)
-			uv0:emit(PreCombatMediator.ON_AUTO, {
-				isOn = not slot0,
-				toggle = uv0._autoToggle
-			})
+	slot1:BlurPanel(slot0._tf)
+	setActive(slot0._autoToggle, true)
+	onToggle(slot0, slot0._autoToggle, function (slot0)
+		uv0:emit(PreCombatMediator.ON_AUTO, {
+			isOn = not slot0,
+			toggle = uv0._autoToggle
+		})
 
-			if slot0 and uv0._subUseable == true then
-				setActive(uv0._autoSubToggle, true)
-				onToggle(uv0, uv0._autoSubToggle, function (slot0)
-					uv0:emit(PreCombatMediator.ON_SUB_AUTO, {
-						isOn = not slot0,
-						toggle = uv0._autoSubToggle
-					})
-				end, SFX_PANEL, SFX_PANEL)
-				triggerToggle(uv0._autoSubToggle, ys.Battle.BattleState.IsAutoSubActive())
-			else
-				setActive(uv0._autoSubToggle, false)
-			end
-		end, SFX_PANEL, SFX_PANEL)
-		triggerToggle(slot0._autoToggle, ys.Battle.BattleState.IsAutoBotActive())
-	end
-
+		if slot0 and uv0._subUseable == true then
+			setActive(uv0._autoSubToggle, true)
+			onToggle(uv0, uv0._autoSubToggle, function (slot0)
+				uv0:emit(PreCombatMediator.ON_SUB_AUTO, {
+					isOn = not slot0,
+					toggle = uv0._autoSubToggle
+				})
+			end, SFX_PANEL, SFX_PANEL)
+			triggerToggle(uv0._autoSubToggle, ys.Battle.BattleState.IsAutoSubActive())
+		else
+			setActive(uv0._autoSubToggle, false)
+		end
+	end, SFX_PANEL, SFX_PANEL)
+	triggerToggle(slot0._autoToggle, ys.Battle.BattleState.IsAutoBotActive())
 	onNextTick(function ()
 		uv0:uiStartAnimating()
 	end)
-
-	if slot0._currentForm == uv0.FORM_PREVIEW and slot0.contextData.system == SYSTEM_DUEL and #slot0._currentFleetVO.mainShips <= 0 then
-		triggerButton(slot0._checkBtn)
-	end
 end
 
 function slot0.displayFleetInfo(slot0)
@@ -610,7 +587,7 @@ function slot0.displayFleetInfo(slot0)
 end
 
 function slot0.SetFleetStepper(slot0)
-	if slot0.contextData.system == SYSTEM_DUEL or slot1 == SYSTEM_ACT_BOSS or slot1 == SYSTEM_HP_SHARE_ACT_BOSS or slot1 == SYSTEM_BOSS_EXPERIMENT or slot0._currentForm == uv0.FORM_EDIT then
+	if slot0.contextData.system == SYSTEM_DUEL or slot0._currentForm == uv0.FORM_EDIT then
 		SetActive(slot0._nextPage, false)
 		SetActive(slot0._prevPage, false)
 	else
