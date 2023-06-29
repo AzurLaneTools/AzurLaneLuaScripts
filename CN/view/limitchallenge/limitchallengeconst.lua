@@ -22,7 +22,7 @@ function slot0.GetNextMonthTS()
 		slot1 = slot1 + 1
 	end
 
-	return os.time({
+	return pg.TimeMgr.GetInstance():Table2ServerTime({
 		sec = 0,
 		min = 0,
 		hour = 0,
