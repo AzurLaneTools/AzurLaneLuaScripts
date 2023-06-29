@@ -377,6 +377,8 @@ function slot0.OpInteractive(slot0, slot1)
 
 						uv1:Op("OpOpenLayer", Context.New(slot7))
 					end
+				else
+					slot0()
 				end
 			elseif slot1.type == WorldMapAttachment.TypeBox then
 				uv1:Op("OpReqBox", slot2, slot1)

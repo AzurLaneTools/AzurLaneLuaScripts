@@ -153,6 +153,7 @@ function slot1.Reconnect(slot0, slot1)
 				end
 
 				uv6.GuideMgr.GetInstance():onReconneceted()
+				uv6.m02:sendNotification(GAME.ON_RECONNECTION)
 			else
 				originalPrint("reconnect failed: " .. slot0.result)
 				uv6.m02:sendNotification(GAME.LOGOUT, {

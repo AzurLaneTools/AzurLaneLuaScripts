@@ -226,6 +226,7 @@ function slot10.SetTemplateData(slot0, slot1)
 	slot0._gravity = slot0:GetTemplate().extra_param.gravity or 0
 	slot0._fieldSwitchHeight = slot2.effectSwitchHeight or 0
 	slot0._ignoreShield = slot0._tempData.extra_param.ignoreShield == true
+	slot0._autoRotate = slot0._tempData.extra_param.dontRotate ~= true
 
 	slot0:SetDiverFilter()
 end
@@ -645,6 +646,10 @@ end
 
 function slot10.GetIgnoreShield(slot0)
 	return slot0._ignoreShield
+end
+
+function slot10.IsAutoRotate(slot0)
+	return slot0._autoRotate
 end
 
 function slot10.Dispose(slot0)

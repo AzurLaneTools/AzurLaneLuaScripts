@@ -18996,6 +18996,253 @@ _G.pg.base.equip_data_statistics[3911] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[3920] = {
+	type = 10,
+	name = "Oasis Barometer",
+	speciality = "N/A",
+	tech = 0,
+	value_2 = 6,
+	ammo = 10,
+	nationality = 6,
+	descrip = "An old-fashioned weather-measuring instrument enclosed in a brass case, one of the Oasis' most popular and practical souvenirs.",
+	rarity = 4,
+	attribute_1 = "dodge",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3920,
+	icon = "3920",
+	value_1 = "10",
+	attribute_2 = "hit",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60370
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3921] = {
+	id = 3921,
+	value_2 = 7,
+	value_1 = "11",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3922] = {
+	id = 3922,
+	value_2 = 7,
+	value_1 = "12",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3923] = {
+	id = 3923,
+	value_2 = 8,
+	value_1 = "13",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3924] = {
+	id = 3924,
+	value_2 = 9,
+	value_1 = "14",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3925] = {
+	id = 3925,
+	value_2 = 10,
+	value_1 = "15",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3926] = {
+	id = 3926,
+	value_2 = 11,
+	value_1 = "16",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3927] = {
+	id = 3927,
+	value_2 = 12,
+	value_1 = "17",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3928] = {
+	id = 3928,
+	value_2 = 13,
+	value_1 = "18",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3929] = {
+	id = 3929,
+	value_2 = 14,
+	value_1 = "19",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3930] = {
+	id = 3930,
+	value_2 = 15,
+	value_1 = "20",
+	base = 3920,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3931] = {
+	value_2 = 16,
+	anti_siren = 100,
+	base = 3920,
+	id = 3931,
+	value_1 = "21",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3940] = {
+	type = 10,
+	name = "Elite Aviation Maintenance Manjuu",
+	speciality = "N/A",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "A Manjuu maintenance team that performs extensive checks for air support capabilities. Hopefully, the extra launch time yields worthwhile results.",
+	nationality = 0,
+	rarity = 4,
+	id = 3940,
+	value_3 = 0,
+	attribute_1 = "air",
+	icon = "3940",
+	value_1 = "18",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60380
+	},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7,
+		10
+	},
+	part_sub = {
+		6,
+		7,
+		10
+	},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3941] = {
+	id = 3941,
+	value_1 = "22",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3942] = {
+	id = 3942,
+	value_1 = "26",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3943] = {
+	id = 3943,
+	value_1 = "30",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3944] = {
+	id = 3944,
+	value_1 = "34",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3945] = {
+	id = 3945,
+	value_1 = "39",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3946] = {
+	id = 3946,
+	value_1 = "43",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3947] = {
+	id = 3947,
+	value_1 = "47",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3948] = {
+	id = 3948,
+	value_1 = "51",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3949] = {
+	id = 3949,
+	value_1 = "55",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3950] = {
+	id = 3950,
+	value_1 = "60",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3951] = {
+	id = 3951,
+	anti_siren = 100,
+	value_1 = "65",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[4000] = {
 	tech = 1,
 	name = "Basic Depth Charge Projector",
@@ -123276,6 +123523,59 @@ _G.pg.base.equip_data_statistics[80012] = {
 	base = 80011,
 	weapon_id = {
 		170092
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[80021] = {
+	type = 1,
+	name = "专属弹幕-阿蒂利奥·雷戈洛I",
+	speciality = "N/A",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 80021,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170101
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[80022] = {
+	id = 80022,
+	name = "专属弹幕-阿蒂利奥·雷戈洛II",
+	base = 80021,
+	weapon_id = {
+		170102
 	},
 	hidden_skill_id = {}
 }

@@ -67,18 +67,14 @@ pg.ship_data_create_material = {
 		icon = "build_4",
 		rate_tip = {
 			"<color=#ffde38>Super Rare</color>: 7%",
-			"",
 			"<color=#d797ff>Elite</color>: 12%",
-			"",
 			"<color=#3dc6ff>Rare</color>: 51%",
-			"",
-			"Common: 30%",
-			"",
-			"<color=#ffde38>Voroshilov</color>: 2.0%<color=#92FC63>(up!)</color>",
+			"Normal: 30%",
+			"<color=#ffde38>Attilio Regolo</color>: 2.0% <color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>Kursk</color>: 2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>Gorizia</color>: 2.0% <color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#d797ff>Sevastopol</color>: 2.5%<color=#92FC63>(up!)</color>"
+			"<color=#d797ff>Andrea Doria</color>: 2.5% <color=#92FC63>(up!)</color>"
 		}
 	},
 	{

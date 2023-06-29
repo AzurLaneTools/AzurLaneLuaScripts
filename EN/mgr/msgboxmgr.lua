@@ -39,6 +39,7 @@ MSGBOX_TYPE_CONTENT_ITEMS = 20
 MSGBOX_TYPE_BLUEPRINT_UNLOCK_ITEM = 21
 MSGBOX_TYPE_CONFIRM_DELETE = 22
 MSGBOX_TYPE_SUBPATTERN = 23
+MSGBOX_TYPE_FILE_DOWNLOAD = 24
 slot1.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -1009,30 +1010,26 @@ function slot1.commonSetting(slot0, slot1)
 		end)
 	end
 
-	slot7 = slot0.settings.hideNo or false
 	slot8 = slot0.settings.hideYes or false
 	slot10 = slot0.settings.onYes or function ()
 	end
 	slot11 = slot0.settings.onNo or function ()
 	end
 
-	if not (slot0.settings.modal or false) then
-		onButton(slot0, slot0._go, function ()
-			if uv0.settings.onClose then
-				uv0.settings.onClose()
-			else
-				uv1()
-			end
+	onButton(slot0, tf(slot0._go):Find("bg"), function ()
+		if uv0.settings.onClose then
+			uv0.settings.onClose()
+		else
+			uv1()
+		end
 
-			uv0:hide()
-		end, SFX_CANCEL)
-	else
-		removeOnButton(slot0._go)
-	end
+		uv0:hide()
+	end, SFX_CANCEL)
+	SetCompomentEnabled(tf(slot0._go):Find("bg"), typeof(Button), not (slot0.settings.modal or false))
 
 	slot12, slot13 = nil
 
-	if not slot7 then
+	if not (slot0.settings.hideNo or false) then
 		slot12 = slot0:createBtn({
 			text = slot0.settings.noText or uv1.TEXT_CANCEL,
 			btnType = slot0.settings.noBtnType or uv1.BUTTON_GRAY,
@@ -1368,6 +1365,9 @@ function slot1.ShowMsgBox(slot0, slot1)
 		end,
 		[MSGBOX_TYPE_SUBPATTERN] = function ()
 			uv0:GetPanel(uv1.patternClass).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_FILE_DOWNLOAD] = function ()
+			uv0:GetPanel(FileDownloadPanel).buffer:UpdateView(uv1)
 		end
 	})
 end

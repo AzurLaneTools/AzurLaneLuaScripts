@@ -203,7 +203,10 @@ pg.ship_skin_words_extra = setmetatable({
 		406030,
 		401990,
 		207130,
-		307130
+		307130,
+		603060,
+		601100,
+		605070
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -13649,6 +13652,222 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Heehee... You can't forget about my touch, can you? ♥"
+			}
+		}
+	},
+	[603060] = {
+		unlock = "",
+		feeling3 = "",
+		feeling5 = "",
+		main = "",
+		feeling1 = "",
+		upgrade = "",
+		mail = "",
+		mission = "",
+		feeling2 = "",
+		profile = "",
+		skill = "",
+		headtouch = "",
+		id = 603060,
+		lose = "",
+		feeling4 = "",
+		login = {
+			{
+				1100,
+				"*fidget, fidget*... Where's my good-morning kiss? ...You need time to gather your courage? Come ooon!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Tell me how magnificent I am! Heheh!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, my dear Commander! I'm glad you're safe! I've been here, praying for you the whole– Err, of course I've made you something to eat!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Please tell me you're watching, my dear Commander..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"*stares coquettishly*... Hm? What is it? ...You want to go somewhere with me since the weather is nice today? Oh, um... Yes, I'd love to!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"If you ever end up in danger, I'll protect you. Don't worry, I could stand completely still and not get hit.|I-if you don't know what to talk about, do you mind if I pick a topic, my dear Commander?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I'll be counting on you to escort me today, my dear Commander."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The commission goods, my dear Commander."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Hey, mission complete. Y-you could praise me a little, you know..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"It's not me you want, but this, right? ...You're so predictable... *blushes*"
+			}
+		}
+	},
+	[601100] = {
+		feeling4 = "",
+		feeling3 = "",
+		feeling1 = "",
+		profile = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		unlock = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 601100,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, I missed you so much! Hehehe, huggies, huggies!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, let my bunnies soothe you! Hup... Commander secured! Do you mind if I keep hugging you?|With the Commander by my side, I'm a real princess! Hehehe, I love you, Commander!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Hehe, you're my favorite person to play with!"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"We have lots of mish-shuns to do! Let's do our best and get lots and LOTS of rewards!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Commander, we've got rewards! Yay, hooray!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"This feels weird... I dunno how to feel about it..."
+			}
+		}
+	},
+	[605070] = {
+		mail = "",
+		feeling3 = "",
+		feeling5 = "",
+		main = "",
+		feeling4 = "",
+		upgrade = "",
+		feeling1 = "",
+		unlock = "",
+		feeling2 = "",
+		headtouch = "",
+		skill = "",
+		profile = "",
+		id = 605070,
+		lose = "",
+		login = {
+			{
+				1100,
+				"Here's your daily cup of hot milk. Enjoy it, and then let's get to work♪"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Now this is how a role model rolls! Heehee~"
+			}
+		},
+		home = {
+			{
+				1100,
+				"You've been out on nonstop sorties lately, haven't you? So here, I sorted your paperwork to make it easier to read. That should extend your break by a solid ten minutes. Heehee."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I'm fine, because I have the Commander with me!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I'm glad to have someone to rely on, but I feel bad doing it when the Commander already has so much work to do... Ugghh... I won't work this out myself. Guess I should ask Trento and the girls for advice..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I should probably make some time for just you and me so I can carry on my always-there role model attitude. But... then it's like I'm keeping you all to myself...|Some girls love doting on you, and some love being doted on by you... I'm not sure how to put it, I just feel a little nagged about that..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Yes? Do you want me to pamper you? Heehee."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Commission completed. I'll tally up the rewards for you."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"You have a mission. How about we complete it together for a change of pace?"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission done and dusted. You're awesome, Commander! Come here for a hug... The rest of you will get one later♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Indulge yourself as much as you want♪"
 			}
 		}
 	}

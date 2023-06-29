@@ -400,6 +400,14 @@ function slot0.didEnter(slot0)
 			end)
 		end
 	end, SFX_CANCEL)
+	onButton(slot0, slot0.privateBtn, function ()
+		pg.SdkMgr.GetInstance():ShowPrivate()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.licenceBtn, function ()
+		pg.SdkMgr.GetInstance():ShowLicence()
+	end, SFX_PANEL)
+	setActive(slot0.privateBtn, PLATFORM_CODE == PLATFORM_CH)
+	setActive(slot0.licenceBtn, PLATFORM_CODE == PLATFORM_CH)
 
 	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
 		onButton(slot0, slot0.userDisagreeConfirmTF, function ()
@@ -458,6 +466,12 @@ function slot0.didEnter(slot0)
 		end
 
 		if not uv0.initFinished then
+			return
+		end
+
+		if uv0.isNeedResCheck then
+			uv0.event:emit(LoginMediator.CHECK_RES)
+
 			return
 		end
 
@@ -832,6 +846,17 @@ end
 function slot0.closeYostarAlertView(slot0)
 	if slot0.yostarAlertView and slot0.yostarAlertView:CheckState(BaseSubView.STATES.INITED) then
 		slot0.yostarAlertView:Destroy()
+	end
+end
+
+function slot0.onLoadDataDone(slot0)
+	slot0:unloadExtraVoice()
+
+	if getProxy(PlayerProxy) then
+		getProxy(PlayerProxy):setFlag("login", true)
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.MAINUI, {
+			isFromLogin = true
+		})
 	end
 end
 

@@ -2090,6 +2090,31 @@ pg.activity_ins_ship_group_template = {
 		name = "Alvensleben",
 		sculpture = "aotuo"
 	},
+	[60306] = {
+		ship_group = 60306,
+		name = "Gorizia",
+		sculpture = "geliqiya"
+	},
+	[60110] = {
+		ship_group = 60110,
+		name = "Attilio",
+		sculpture = "adiliao"
+	},
+	[19903] = {
+		ship_group = 19903,
+		name = "Anchorage",
+		sculpture = "ankeleiqi"
+	},
+	[30128] = {
+		ship_group = 30128,
+		name = "Oyashio",
+		sculpture = "qinchao"
+	},
+	[60507] = {
+		ship_group = 60507,
+		name = "Andrea",
+		sculpture = "andelieyaduoliya"
+	},
 	all = {
 		30701,
 		30702,
@@ -2508,6 +2533,11 @@ pg.activity_ins_ship_group_template = {
 		70302,
 		40210,
 		40603,
-		40199
+		40199,
+		60306,
+		60110,
+		19903,
+		30128,
+		60507
 	}
 }

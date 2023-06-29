@@ -65,6 +65,11 @@ pg.player_resource = {
 		name = "freeGem",
 		itemid = 59005
 	},
+	[15] = {
+		id = 15,
+		name = "soundStoryCard",
+		itemid = 59017
+	},
 	[101] = {
 		id = 101,
 		name = "battery",
@@ -1105,6 +1110,11 @@ pg.player_resource = {
 		name = "skinTicket50",
 		itemid = 59461
 	},
+	[358] = {
+		id = 358,
+		name = "skinTicket51",
+		itemid = 59465
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1224,6 +1234,16 @@ pg.player_resource = {
 		id = 2017,
 		name = "worldboss118_ticket",
 		itemid = 59381
+	},
+	[2018] = {
+		id = 2018,
+		name = "contribution_worldboss230629",
+		itemid = 59463
+	},
+	[2019] = {
+		id = 2019,
+		name = "worldboss230629_ticket",
+		itemid = 59464
 	},
 	[3000] = {
 		id = 3000,
@@ -1429,6 +1449,9 @@ pg.player_resource = {
 		},
 		freeGem = {
 			14
+		},
+		soundStoryCard = {
+			15
 		},
 		battery = {
 			101
@@ -2054,6 +2077,9 @@ pg.player_resource = {
 		skinTicket50 = {
 			357
 		},
+		skinTicket51 = {
+			358
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2125,6 +2151,12 @@ pg.player_resource = {
 		},
 		worldboss118_ticket = {
 			2017
+		},
+		contribution_worldboss230629 = {
+			2018
+		},
+		worldboss230629_ticket = {
+			2019
 		},
 		guild_boss_damage = {
 			3000
@@ -2240,6 +2272,7 @@ pg.player_resource = {
 		11,
 		12,
 		14,
+		15,
 		101,
 		102,
 		103,
@@ -2448,6 +2481,7 @@ pg.player_resource = {
 		355,
 		356,
 		357,
+		358,
 		950,
 		951,
 		952,
@@ -2472,6 +2506,8 @@ pg.player_resource = {
 		2015,
 		2016,
 		2017,
+		2018,
+		2019,
 		3000,
 		3001,
 		3002,

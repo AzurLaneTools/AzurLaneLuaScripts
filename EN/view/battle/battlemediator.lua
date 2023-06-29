@@ -726,7 +726,7 @@ function slot0.GenBattleData(slot0)
 				slot1.WorldBossSupportDays = slot19
 			end
 		end
-	elseif slot2 == SYSTEM_HP_SHARE_ACT_BOSS or slot2 == SYSTEM_ACT_BOSS or slot2 == SYSTEM_BOSS_EXPERIMENT then
+	elseif slot2 == SYSTEM_HP_SHARE_ACT_BOSS or slot2 == SYSTEM_ACT_BOSS or slot2 == SYSTEM_ACT_BOSS_SP or slot2 == SYSTEM_BOSS_EXPERIMENT then
 		if slot0.contextData.mainFleetId then
 			slot8 = getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId][slot0.contextData.mainFleetId]
 			slot9 = _.values(slot8:getCommanders())
@@ -767,25 +767,47 @@ function slot0.GenBattleData(slot0)
 			end
 
 			slot20 = getProxy(PlayerProxy):getRawData()
-			slot21 = 0
-			slot22 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId)
-			slot25 = pg.activity_event_worldboss[slot22:getConfig("config_id")].use_oil_limit[slot0.contextData.mainFleetId]
-			slot27 = slot8:GetCostSum().oil
-			slot28 = slot16:GetCostSum().oil
+			slot21 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId)
+			slot24 = pg.activity_event_worldboss[slot21:getConfig("config_id")].use_oil_limit[slot0.contextData.mainFleetId]
+			slot25 = slot21:IsOilLimit(slot0.contextData.stageId)
+			slot26 = 0
+			slot27 = slot3.oil_cost > 0
 
-			if slot22:IsOilLimit(slot0.contextData.stageId) then
-				if slot25[1] > 0 then
-					slot27 = math.min(slot27, slot25[1])
-				end
+			function slot28(slot0, slot1)
+				if uv0 then
+					slot2 = slot0:getEndCost().oil
 
-				if slot25[2] > 0 then
-					slot28 = math.min(slot28, slot25[2])
+					if slot1 > 0 then
+						cost = math.clamp(slot1 - slot0:getStartCost().oil, 0, slot2)
+					end
+
+					uv1 = uv1 + slot2
 				end
 			end
 
-			slot21 = slot27 + slot28
+			if slot2 == SYSTEM_ACT_BOSS_SP then
+				slot29 = getProxy(ActivityProxy)
+				slot30 = _.map(slot29:GetActivityBossRuntime(slot0.contextData.actId).buffIds, function (slot0)
+					return ActivityBossBuff.New({
+						configId = slot0
+					})
+				end)
+				slot1.ExtraBuffList = _.map(_.select(slot30, function (slot0)
+					return slot0:CastOnEnemy()
+				end), function (slot0)
+					return slot0:GetBuffID()
+				end)
+				slot1.ChapterBuffIDs = _.map(_.select(slot30, function (slot0)
+					return not slot0:CastOnEnemy()
+				end), function (slot0)
+					return slot0:GetBuffID()
+				end)
+			else
+				slot28(slot8, slot25 and slot24[1] or 0)
+				slot28(slot16, slot25 and slot24[2] or 0)
+			end
 
-			if slot16:isLegalToFight() == true and (slot2 == SYSTEM_BOSS_EXPERIMENT or slot21 <= slot20.oil) then
+			if slot16:isLegalToFight() == true and (slot2 == SYSTEM_BOSS_EXPERIMENT or slot26 <= slot20.oil) then
 				slot1.SubFlag = 1
 				slot1.TotalSubAmmo = 1
 			end
@@ -920,7 +942,7 @@ function slot0.GenBattleData(slot0)
 
 		slot28 = 0 + slot31(slot19, slot29[1]) + slot31(slot23, slot29[2])
 
-		if slot23:IsLegalToFightForSubmarine() == true and slot28 <= slot27.oil then
+		if slot23:isLegalToFight() == true and slot28 <= slot27.oil then
 			slot1.SubFlag = 1
 			slot1.TotalSubAmmo = 1
 		end

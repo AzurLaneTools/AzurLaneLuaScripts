@@ -44,6 +44,7 @@ function slot0.InitDetail(slot0)
 	slot0.evaluationBtn = slot0.detailPanel:Find("evaluation_btn")
 	slot0.profileBtn = slot0.detailPanel:Find("profile_btn")
 	slot0.fashionToggle = slot0.detailPanel:Find("fashion_toggle")
+	slot0.fashionTag = slot0.fashionToggle:Find("Tag")
 	slot0.commonTagToggle = slot0.detailPanel:Find("common_toggle")
 	slot0.spWeaponSlot = slot0.equipments:Find("SpSlot")
 	slot0.propertyIcons = slot0.detailPanel:Find("attrs/attrs/property/icons")
@@ -580,7 +581,12 @@ function slot0.UpdateDetail(slot0, slot1)
 		setActive(slot0.fashionToggle, false)
 	end
 
+	slot0:UpdateFashionTag()
 	setActive(slot0.profileBtn, not slot1:isActivityNpc())
+end
+
+function slot0.UpdateFashionTag(slot0)
+	setActive(slot0.fashionTag, #PaintingConst.GetPaintingNameListByShipVO(slot0:GetShipVO()) > 0)
 end
 
 function slot0.UpdateEquipments(slot0, slot1)

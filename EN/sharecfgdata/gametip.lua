@@ -10174,7 +10174,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Build 200 times to get an extra New Jersey! (Max: 4)"
+	tip = "Rate UP for Attilio Regolo, Gorizia, and more!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11099,7 +11099,7 @@ _G.pg.base.gametip.world_boss_help = {
 			info = "<color=#92fc63>- Overview -</color>"
 		},
 		{
-			info = "During Winter Pathfinder event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
+			info = "During Reflections of the Oasis  event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
 		},
 		{
 			info = [[
@@ -13624,6 +13624,10 @@ _G.pg.base.gametip.msgbox_repair = {
 
 _G.pg.base.gametip.msgbox_repair_l2d = {
 	tip = "Repair Live2D"
+}
+
+_G.pg.base.gametip.msgbox_repair_painting = {
+	tip = "修复立绘"
 }
 
 _G.pg.base.gametip.word_no_cache = {
@@ -19698,6 +19702,14 @@ _G.pg.base.gametip.setting_resdownload_title_sound = {
 	tip = "Update Voices"
 }
 
+_G.pg.base.gametip.setting_resdownload_title_manga = {
+	tip = "Update Comics"
+}
+
+_G.pg.base.gametip.setting_resdownload_title_main_group = {
+	tip = "Update All Assets"
+}
+
 _G.pg.base.gametip.settings_battle_title = {
 	tip = "Control Adjustment"
 }
@@ -24441,4 +24453,208 @@ _G.pg.base.gametip.game_icon_max_full = {
 
 _G.pg.base.gametip.pre_combat_consume = {
 	tip = "Cost:"
+}
+
+_G.pg.base.gametip.file_down_msgbox = {
+	tip = "Assets needed for the game's bootup are missing. Would you like to download <color=#92fc63>$1</color> of data?"
+}
+
+_G.pg.base.gametip.file_down_mgr_title = {
+	tip = "Downloading necessary assets..."
+}
+
+_G.pg.base.gametip.file_down_mgr_progress = {
+	tip = "$1/$2"
+}
+
+_G.pg.base.gametip.file_down_mgr_error = {
+	tip = "Could not download assets: $1\nError code: $2\nWould you like to try again?"
+}
+
+_G.pg.base.gametip.last_building_not_shown = {
+	tip = "Built the following shipgirl(s):"
+}
+
+_G.pg.base.gametip.setting_group_prefs_tip = {
+	tip = "Automatically downloaded on bootup."
+}
+
+_G.pg.base.gametip.group_prefs_switch_tip = {
+	tip = "Asset download settings updated. They will apply after your next bootup."
+}
+
+_G.pg.base.gametip.main_group_msgbox_content = {
+	tip = "This will download all of the game's additional assets. Would you like to download $1 of data?"
+}
+
+_G.pg.base.gametip.word_maingroup_checking = {
+	tip = "Checking..."
+}
+
+_G.pg.base.gametip.word_maingroup_checktoupdate = {
+	tip = "Tap to download"
+}
+
+_G.pg.base.gametip.word_maingroup_checkfailure = {
+	tip = "Check failed. Please try again."
+}
+
+_G.pg.base.gametip.word_maingroup_updating = {
+	tip = "Updating..."
+}
+
+_G.pg.base.gametip.word_maingroup_updatesuccess = {
+	tip = "Update complete."
+}
+
+_G.pg.base.gametip.word_maingroup_updatefailure = {
+	tip = "Updated failed. Please try again."
+}
+
+_G.pg.base.gametip.group_download_tip = {
+	tip = "You must download $1 of data to perform an update. Proceed with download?"
+}
+
+_G.pg.base.gametip.word_manga_checking = {
+	tip = "Checking..."
+}
+
+_G.pg.base.gametip.word_manga_checktoupdate = {
+	tip = "Tap to download"
+}
+
+_G.pg.base.gametip.word_manga_checkfailure = {
+	tip = "Check failed. Please try again."
+}
+
+_G.pg.base.gametip.word_manga_updating = {
+	tip = "Updating: $1/$2"
+}
+
+_G.pg.base.gametip.word_manga_updatesuccess = {
+	tip = "Update complete."
+}
+
+_G.pg.base.gametip.word_manga_updatefailure = {
+	tip = "Updated failed. Please try again."
+}
+
+_G.pg.base.gametip.cryptolalia_lock_res = {
+	tip = "Unavailable Assets"
+}
+
+_G.pg.base.gametip.cryptolalia_not_download_res = {
+	tip = "Assets Not Downloaded"
+}
+
+_G.pg.base.gametip.cryptolalia_timelimie = {
+	tip = "Limited Time"
+}
+
+_G.pg.base.gametip.cryptolalia_label_downloading = {
+	tip = "Downloading assets..."
+}
+
+_G.pg.base.gametip.cryptolalia_delete_res = {
+	tip = "Delete assets ($1)"
+}
+
+_G.pg.base.gametip.cryptolalia_delete_res_tip = {
+	tip = "Do you want to delete Secrets assets? ($1)"
+}
+
+_G.pg.base.gametip.cryptolalia_delete_res_title = {
+	tip = "Download Assets"
+}
+
+_G.pg.base.gametip.cryptolalia_use_gem_title = {
+	tip = "Unlock with Gems"
+}
+
+_G.pg.base.gametip.cryptolalia_use_ticket_title = {
+	tip = "Unlock with Tickets"
+}
+
+_G.pg.base.gametip.cryptolalia_exchange = {
+	tip = "Unlock Now"
+}
+
+_G.pg.base.gametip.cryptolalia_exchange_success = {
+	tip = "Secret Unlocked"
+}
+
+_G.pg.base.gametip.cryptolalia_list_title = {
+	tip = "Secrets"
+}
+
+_G.pg.base.gametip.cryptolalia_list_subtitle = {
+	tip = "$1 in total"
+}
+
+_G.pg.base.gametip.cryptolalia_download_done = {
+	tip = "Assets Downloaded"
+}
+
+_G.pg.base.gametip.cryptolalia_coming_soom = {
+	tip = ""
+}
+
+_G.pg.base.gametip.cryptolalia_unopen = {
+	tip = "Locked"
+}
+
+_G.pg.base.gametip.cryptolalia_no_ticket = {
+	tip = "You don't have enough Secrets Tickets. You can buy them in the Shop with Gems."
+}
+
+_G.pg.base.gametip.cryptolalia_entrance_coming_soom = {
+	tip = "密语档案室建设中..."
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_sp = {
+	tip = "Custom Chal. Fleet"
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_sp_ss = {
+	tip = "Custom Chal. Sub Fleet"
+}
+
+_G.pg.base.gametip.activityboss_sp_all_buff = {
+	tip = "Selectable"
+}
+
+_G.pg.base.gametip.activityboss_sp_best_score = {
+	tip = "High Score:"
+}
+
+_G.pg.base.gametip.activityboss_sp_display_reward = {
+	tip = "View Rewards"
+}
+
+_G.pg.base.gametip.activityboss_sp_score_bonus = {
+	tip = "Score Gained"
+}
+
+_G.pg.base.gametip.activityboss_sp_active_buff = {
+	tip = "Selected"
+}
+
+_G.pg.base.gametip.activityboss_sp_window_best_score = {
+	tip = "Completion Score:"
+}
+
+_G.pg.base.gametip.activityboss_sp_score_target = {
+	tip = "Target Score:"
+}
+
+_G.pg.base.gametip.activityboss_sp_score = {
+	tip = "Your Score"
+}
+
+_G.pg.base.gametip.activityboss_sp_score_update = {
+	tip = "New High Score"
+}
+
+_G.pg.base.gametip.activityboss_sp_score_not_update = {
+	tip = "High Score Not Updated"
 }

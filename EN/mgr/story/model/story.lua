@@ -33,22 +33,34 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.hideSkip = slot1.hideSkip
 	slot0.skipTip = defaultValue(slot1.skipTip, true)
 	slot0.noWaitFade = defaultValue(slot1.noWaitFade, false)
-	slot0.speedData = slot1.speed or getProxy(SettingsProxy):GetStorySpeed() or 0
-	slot0.steps = {}
-	slot5 = 0
-	slot6 = slot3 or {}
 
-	for slot10, slot11 in ipairs(slot1.scripts) do
-		if uv0.GetStoryStepCls(slot11.mode or slot0.mode).New(slot11):ExistOption() and slot6[slot5 + 1] then
-			slot14:SetOptionSelCodes(slot6[slot5])
+	if UnGamePlayState then
+		slot0.speedData = slot1.speed or 0
+	else
+		slot0.speedData = slot1.speed or getProxy(SettingsProxy):GetStorySpeed() or 0
+	end
+
+	slot0.steps = {}
+	slot4 = 0
+	slot5 = slot3 or {}
+
+	for slot9, slot10 in ipairs(slot1.scripts) do
+		if uv0.GetStoryStepCls(slot10.mode or slot0.mode).New(slot10):ExistOption() and slot5[slot4 + 1] then
+			slot13:SetOptionSelCodes(slot5[slot4])
 		end
 
-		table.insert(slot0.steps, slot14)
+		table.insert(slot0.steps, slot13)
 	end
 
 	slot0.branchCode = nil
 	slot0.force = slot2
-	slot0.isPlayed = pg.NewStoryMgr:GetInstance():IsPlayed(slot0.name)
+
+	if UnGamePlayState then
+		slot0.isPlayed = false
+	else
+		slot0.isPlayed = pg.NewStoryMgr:GetInstance():IsPlayed(slot0.name)
+	end
+
 	slot0.nextScriptName = nil
 	slot0.skipAll = false
 	slot0.isAuto = false
@@ -185,6 +197,24 @@ end
 
 function slot0.ShouldSkipAll(slot0)
 	return slot0.skipAll
+end
+
+function slot0.GetUsingPaintingNames(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0.steps) do
+		for slot11, slot12 in ipairs(slot6:GetUsingPaintingNames()) do
+			slot1[slot12] = true
+		end
+	end
+
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot1) do
+		table.insert(slot2, slot6)
+	end
+
+	return slot2
 end
 
 return slot0

@@ -180,7 +180,26 @@ function slot0.Ctor(slot0, slot1)
 		table.insert(slot0.customRandomShips, slot8)
 	end
 
+	slot0.buildShipNotification = {}
+	slot4 = ipairs
+	slot5 = slot1.taking_ship_list or {}
+
+	for slot7, slot8 in slot4(slot5) do
+		table.insert(slot0.buildShipNotification, {
+			uid = slot8.uid,
+			new = slot8.isnew == 1
+		})
+	end
+
 	slot0.proposeShipId = slot1.marry_ship
+	slot0.unlockCryptolaliaList = {}
+	slot4 = ipairs
+	slot5 = slot1.soundstory or {}
+
+	for slot7, slot8 in slot4(slot5) do
+		table.insert(slot0.unlockCryptolaliaList, slot8)
+	end
+
 	slot0.displayInfo = slot1.display or {}
 	slot0.attireInfo = {
 		[AttireConst.TYPE_ICON_FRAME] = slot0.iconFrame,
@@ -751,6 +770,45 @@ end
 
 function slot0.GetProposeShipId(slot0)
 	return slot0.proposeShipId
+end
+
+function slot0.GetCryptolaliaList(slot0)
+	slot1 = {}
+	slot2 = {}
+
+	for slot7, slot8 in ipairs(slot0.unlockCryptolaliaList) do
+		slot2[slot8] = true
+	end
+
+	for slot7, slot8 in ipairs(pg.soundstory_template.all) do
+		slot9 = Cryptolalia.New({
+			id = slot8
+		})
+
+		if slot2[slot8] then
+			slot9:Unlock()
+		end
+
+		table.insert(slot1, slot9)
+	end
+
+	return slot1
+end
+
+function slot0.UnlockCryptolalia(slot0, slot1)
+	if not table.contains(slot0.unlockCryptolaliaList) then
+		table.insert(slot0.unlockCryptolaliaList, slot1)
+	end
+end
+
+function slot0.ExistCryptolalia(slot0, slot1)
+	for slot6, slot7 in ipairs(slot0:GetCryptolaliaList()) do
+		if (slot7:InTime() or not slot7:IsLock()) and slot7:IsSameGroup(slot1) then
+			return true
+		end
+	end
+
+	return false
 end
 
 return slot0

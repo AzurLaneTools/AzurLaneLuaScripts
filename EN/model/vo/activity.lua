@@ -924,16 +924,6 @@ function slot0.GetPicturePuzzleIds(slot0)
 	return slot2
 end
 
-function slot0.checkBattleTimeInBossAct(slot0)
-	assert(slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2)
-
-	if slot0:isEnd() then
-		return false
-	end
-
-	return pg.TimeMgr.GetInstance():inTime(pg.activity_event_worldboss[slot0:getConfig("config_id")].time)
-end
-
 function slot0.GetEndTimeStrByConfig(slot0)
 	if type(slot0:getConfig("time")) == "table" then
 		slot2 = slot1[3]

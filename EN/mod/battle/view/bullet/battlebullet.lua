@@ -27,7 +27,10 @@ function slot4.Update(slot0, slot1)
 	end
 
 	if slot0._cacheSpeed ~= slot0._calcSpeed then
-		slot0._rotateScript:SetSpeed(slot0._calcSpeed)
+		if slot0._rotateScript then
+			slot0._rotateScript:SetSpeed(slot0._calcSpeed)
+		end
+
 		slot0._cacheSpeed:Set(slot0._calcSpeed.x, slot0._calcSpeed.y, slot0._calcSpeed.z)
 	end
 
@@ -152,7 +155,10 @@ function slot4.AddModel(slot0, slot1)
 
 		slot0:SetGO(slot1)
 		slot0._bulletData:ActiveCldBox()
-		slot0:AddRotateScript()
+
+		if slot0._bulletData:IsAutoRotate() then
+			slot0:AddRotateScript()
+		end
 
 		if slot0._tf:Find("bullet") and slot2:GetComponent(typeof(SpineAnim)) then
 			slot0._skeleton = slot2:GetComponent("SkeletonAnimation")
@@ -186,7 +192,10 @@ function slot4.AddTempModel(slot0, slot1)
 	slot0._isTempGO = true
 
 	slot0:SetGO(slot1)
-	slot0:AddRotateScript()
+
+	if slot0._bulletData:IsAutoRotate() then
+		slot0:AddRotateScript()
+	end
 end
 
 function slot4.AddTrack(slot0, slot1)

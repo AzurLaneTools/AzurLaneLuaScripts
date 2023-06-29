@@ -156,7 +156,15 @@ function slot12(slot0)
 	end
 
 	if slot1 ~= slot0.ignoreReact then
-		slot0:setReactPos(slot1)
+		if not slot1 then
+			if not slot0.mouseInputDown then
+				if slot0.isPlaying then
+					-- Nothing
+				end
+			end
+		else
+			slot0:setReactPos(slot1)
+		end
 	end
 end
 
@@ -199,6 +207,8 @@ function slot13(slot0)
 			return
 		end
 
+		uv0.mouseInputDown = true
+
 		if #uv0.drags > 0 and uv0.liveCom:GetDragPart() > 0 then
 			slot0 = uv0.liveCom:GetDragPart()
 			slot1 = uv0.dragParts[slot0]
@@ -215,6 +225,8 @@ function slot13(slot0)
 		if not uv0._l2dCharEnable then
 			return
 		end
+
+		uv0.mouseInputDown = false
 
 		if uv0.drags and #uv0.drags > 0 then
 			if uv0.liveCom:GetDragPart() > 0 then

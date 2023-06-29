@@ -158,6 +158,7 @@ pg.furniture_data_template = setmetatable({
 			100037,
 			100038,
 			100039,
+			100040,
 			200001,
 			200002,
 			200003,
@@ -4498,6 +4499,7 @@ pg.furniture_data_template = setmetatable({
 			100037,
 			100038,
 			100039,
+			100040,
 			31101,
 			54104,
 			54105
@@ -5320,7 +5322,8 @@ pg.furniture_data_template = setmetatable({
 			100035,
 			100036,
 			100038,
-			100039
+			100039,
+			100040
 		},
 		[2] = {
 			120,
@@ -7764,6 +7767,7 @@ pg.furniture_data_template = setmetatable({
 		100037,
 		100038,
 		100039,
+		100040,
 		200001,
 		200002,
 		200003,
@@ -14765,7 +14769,7 @@ pg.base.furniture_data_template = {
 		},
 		followBone = {
 			"char",
-			-1
+			1
 		},
 		interAction_group = {}
 	},
@@ -18408,6 +18412,57 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100040] = {
+		effect = "",
+		name = "Manjuu Weather Generator (Summer)",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Sand and surf! Watermelon and shaved ice! Summer is right at your fingertips!",
+		tag = 6,
+		icon = "summerboxicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100040,
+		can_rotate = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"summerbox",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"houzhai_pugongying",
+					"action1"
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -108651,7 +108706,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 			},
 			{
 				{
-					13.1,
+					7.4,
 					92.3
 				},
 				{
@@ -108661,7 +108716,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 				"xy/miaorenouxy_mask"
 			},
 			{
-				-29,
+				2.4,
 				-102
 			},
 			{
@@ -108672,7 +108727,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		followBone = {
 			"char",
-			-1
+			1
 		},
 		interAction_group = {}
 	},

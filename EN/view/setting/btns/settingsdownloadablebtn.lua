@@ -1,10 +1,16 @@
 slot0 = class("SettingsDownloadableBtn")
 
+function slot0.InitTpl(slot0, slot1)
+	slot0._tf = cloneTplTo(slot1.tpl, slot1.container, slot0:GetDownloadGroup())
+	slot0._go = slot0._tf.gameObject
+
+	setImageSprite(slot0._tf:Find("icon"), slot1.iconSP)
+end
+
 function slot0.Ctor(slot0, slot1)
+	slot0:InitTpl(slot1)
 	pg.DelegateInfo.New(slot0)
 
-	slot0._tf = slot1
-	slot0._go = slot1.gameObject
 	slot0.loadProgress = findTF(slot0._tf, "progress")
 	slot0.loadProgressHandle = findTF(slot0._tf, "progress/handle")
 	slot0.loadInfo1 = findTF(slot0._tf, "status")
@@ -15,6 +21,7 @@ function slot0.Ctor(slot0, slot1)
 
 	setText(slot0._tf:Find("title"), slot0:GetTitle())
 	slot0:Init()
+	slot0:InitPrefsBar()
 end
 
 function slot0.Init(slot0)
@@ -22,6 +29,30 @@ function slot0.Init(slot0)
 	setActive(slot0.loadDot, false)
 	setActive(slot0.loadLoading, false)
 	slot0:Check()
+end
+
+function slot0.InitPrefsBar(slot0)
+	slot0.prefsBar = findTF(slot0._tf, "PrefsBar")
+
+	setText(findTF(slot0.prefsBar, "Text"), i18n("setting_group_prefs_tip"))
+	setActive(slot0.prefsBar, true)
+
+	slot0.hideTip = true
+
+	onToggle(slot0, slot0.prefsBar, function (slot0)
+		if slot0 == true then
+			GroupHelper.SetGroupPrefsByName(uv0, DMFileChecker.Prefs.Max)
+		else
+			GroupHelper.SetGroupPrefsByName(uv0, DMFileChecker.Prefs.Min)
+		end
+
+		if not uv1.hideTip then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("group_prefs_switch_tip"))
+		end
+	end, SFX_PANEL)
+	triggerToggle(slot0.prefsBar, GroupHelper.GetGroupPrefsByName(slot0:GetDownloadGroup()) == DMFileChecker.Prefs.Max)
+
+	slot0.hideTip = false
 end
 
 function slot0.Check(slot0)
@@ -106,9 +137,6 @@ function slot0.UpdateDownLoadState(slot0)
 
 	setText(slot0.loadInfo1, slot5)
 	setText(slot0.loadInfo2, slot6)
-	setAnchoredPosition(slot0.loadInfo2, {
-		x = slot3 == DownloadState.CheckToUpdate and 82.5 or 91.5
-	})
 	setSlider(slot0.loadProgress, 0, 1, slot7)
 	setActive(slot0.loadProgressHandle, slot7 ~= 0 and slot7 ~= 1)
 	setActive(slot0.loadDot, slot8)

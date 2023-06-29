@@ -1259,7 +1259,7 @@ function slot5.SwitchShader(slot0, slot1, slot2)
 end
 
 function slot5.PauseActionAnimation(slot0, slot1)
-	ReflectionHelp.RefSetProperty(typeof("Spine.AnimationState"), "TimeScale", ReflectionHelp.RefGetField(typeof("SpineAnim"), "spineAnimationState", slot0._animator), slot1 and 0 or 1)
+	slot0._animator:GetAnimationState().TimeScale = slot1 and 0 or 1
 end
 
 function slot5.GetFactory(slot0)

@@ -109,7 +109,14 @@ function slot0.checkToggleActive(slot0, slot1)
 	elseif slot1 == ShipViewConst.PAGE.REMOULD then
 		return not slot0.shipVO:isTestShip() and not slot0.shipVO:isBluePrintShip() and pg.ship_data_trans[slot0.shipVO.groupId] and not slot0.shipVO:isMetaShip()
 	elseif slot1 == ShipViewConst.PAGE.FASHION then
-		return slot0:hasFashion()
+		if not slot0:hasFashion() then
+			return false
+		else
+			slot3 = nil
+			slot3 = (PaintingConst.IsPaintingNeedCheck() or false) and PaintingConst.CalcPaintingListSize(PaintingConst.GetPaintingNameListByShipVO(slot0.shipVO)) > 0
+
+			return not slot3
+		end
 	else
 		return false
 	end
@@ -125,6 +132,10 @@ end
 
 function slot0.updatePreferenceTag(slot0)
 	slot0.shipDetailView:ActionInvoke("UpdatePreferenceTag")
+end
+
+function slot0.updateFashionTag(slot0)
+	slot0.shipDetailView:ActionInvoke("UpdateFashionTag")
 end
 
 function slot0.closeRecordPanel(slot0)
@@ -792,7 +803,9 @@ end
 
 function slot0.gotoPage(slot0, slot1)
 	if slot1 == ShipViewConst.PAGE.FASHION then
-		slot0:switchToPage(slot1)
+		slot0:checkPaintingRes(function ()
+			uv0:switchToPage(uv1)
+		end)
 	else
 		triggerToggle(slot0.togglesList[slot1], true)
 	end
@@ -1451,6 +1464,14 @@ function slot0.OnWillLogout(slot0)
 	if slot0.inPaintingView then
 		slot0:hidePaintView(true)
 	end
+end
+
+function slot0.checkPaintingRes(slot0, slot1)
+	PaintingConst.PaintingDownload({
+		isShowBox = true,
+		paintingNameList = PaintingConst.GetPaintingNameListByShipVO(slot0.shipVO),
+		finishFunc = slot1
+	})
 end
 
 return slot0

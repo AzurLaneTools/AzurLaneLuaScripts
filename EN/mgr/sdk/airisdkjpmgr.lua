@@ -392,6 +392,9 @@ return {
 			uv1:UserEventUpload(slot0, tostring(getProxy(PlayerProxy):getData().id), slot1)
 		end
 	end,
+	Survey = function (slot0)
+		Application.OpenURL(slot0)
+	end,
 	OnAndoridBackPress = function ()
 		PressBack()
 	end,

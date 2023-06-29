@@ -306,6 +306,42 @@ pg.extraenemy_template = {
 			}
 		}
 	},
+	{
+		mail_title = "world_boss_title_10",
+		name = "戈里齐亚",
+		hp = 10000,
+		mail_content = "world_boss_content_1",
+		id = 10,
+		background = "",
+		reward = {
+			900075,
+			900076,
+			900077,
+			900078
+		},
+		reward_display = {
+			{
+				2,
+				17003,
+				10
+			},
+			{
+				2,
+				18013,
+				2
+			},
+			{
+				2,
+				11048,
+				5
+			},
+			{
+				3,
+				95960,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -315,6 +351,7 @@ pg.extraenemy_template = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	}
 }

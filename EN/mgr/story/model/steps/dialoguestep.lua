@@ -348,4 +348,45 @@ end
 function slot0.OnClear(slot0)
 end
 
+function slot2(slot0)
+	if IsUnityEditor or UnGamePlayState then
+		return true
+	else
+		return true
+	end
+end
+
+function slot0.GetUsingPaintingNames(slot0)
+	slot1 = {}
+	slot2 = slot0:GetPainting()
+
+	if not slot0:IsLive2dPainting() and not slot0:IsSpinePainting() and slot2 ~= nil then
+		if slot0:IsShowNPainting() and uv0(slot2 .. "_n") then
+			slot2 = slot2 .. "_n"
+		end
+
+		if slot0:IsShowWJZPainting() and uv0(slot2 .. "_wjz") then
+			slot2 = slot2 .. "_wjz"
+		end
+
+		if uv0(slot2) then
+			table.insert(slot1, slot2)
+		end
+	end
+
+	for slot7, slot8 in ipairs(slot0:GetSubPaintings()) do
+		slot9 = slot8.name
+
+		if slot8.showNPainting and uv0(slot9 .. "_n") then
+			slot9 = slot9 .. "_n"
+		end
+
+		if uv0(slot9) then
+			table.insert(slot1, slot9)
+		end
+	end
+
+	return slot1
+end
+
 return slot0

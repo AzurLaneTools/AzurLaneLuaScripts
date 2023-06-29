@@ -24,30 +24,32 @@ SCENE = {
 	CHARGE = "scene charge",
 	SKINSHOP = "scene skinshop",
 	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
-	NEWGUILD = "scene newguild",
+	MEDIA_COLLECTION_ENTRANCE = "media collection entrance",
 	MONOPOLY_PT = "MONOPOLY_PT",
-	TRANSITION = "scene transition",
+	NEWGUILD = "scene newguild",
 	ANNIVERSARY_ISLAND_SPRING = "anniversary island spring",
-	SPWEAPON_STOREHOUSE = "spweapon storehouse",
+	TRANSITION = "scene transition",
 	MUSIC_FESTIVAL = "music festival",
+	SPWEAPON_STOREHOUSE = "spweapon storehouse",
 	WORLD_FORMATION = "scene world formation",
+	SINGLE_ACTIVITY = "single activity",
+	SHIP_PROFILE = "ship profile",
 	ACT_BOSS_SPF = "act boss spf",
 	ATELIER_COMPOSITE = "ATELIER_COMPOSITE",
-	SHIP_PROFILE = "ship profile",
-	RYZA_TASK = "ryza task scene",
-	ANNIVERSARY_ISLAND_WORKBENCH = "anniversary island workbench",
 	TECHNOLOGY = "technology",
 	BACKHILL_FIFTH_ANNIVERSARY = "BACKHILL FIFTH ANNIVERSARY",
+	RYZA_TASK = "ryza task scene",
+	ANNIVERSARY_ISLAND_WORKBENCH = "anniversary island workbench",
 	RANDOM_DOCKYARD = "random dockyard",
 	SUMMARY = "summary",
-	BACKHILL_SUMMERPARK_2022 = "BACKHILL_SUMMERPARK_2022",
-	NAVALTACTICS = "naval tactics",
 	COLLECTSHIP = "scene collect ship",
 	REFLUX = "reflux",
-	DOA2_MEDAL_COLLECTION_SCENE = "scene doa2 medal collection",
-	CREATE_PLAYER = "scene create player",
+	BACKHILL_SUMMERPARK_2022 = "BACKHILL_SUMMERPARK_2022",
+	NAVALTACTICS = "naval tactics",
 	BATTLE = "scene battle",
 	PROPINFO = "scene prop info",
+	DOA2_MEDAL_COLLECTION_SCENE = "scene doa2 medal collection",
+	CREATE_PLAYER = "scene create player",
 	RESOLVESHIPS = "scene resolve ships",
 	WORLD = "scene world",
 	MAINUI = "scene mainUI",
@@ -80,7 +82,7 @@ SCENE = {
 	BILLBOARD = "scene billboard",
 	ROGUE_FINAL_RESULT = "ROGUE_FINAL_RESULT",
 	SHOP = "scene shop",
-	SINGLE_ACTIVITY = "single activity",
+	CRYPTOLALIA = "scene Cryptolalia",
 	BACKYARD_THEME_TEMPLATE = "backyard theme template",
 	ANNIVERSARY_ISLAND_SPRING_TASK = "anniversary island spring task",
 	IMAS_STAGE = "IdolMaster Stage",
@@ -136,10 +138,18 @@ SCENE = {
 	AIRFORCE_DRAGONEMPERY = "scene AirForceOfDragonEmpery",
 	SPRING_FESTIVAL_BACKHILL_2022 = "springfestival BackHill 2022",
 	METACHARACTER = "metacharacter",
-	MILITARYEXERCISE = "scene militaryexercise",
+	MILITARYEXERCISE = " scene militaryexercise",
 	AMUSEMENT_PARK2 = "amusement park 2"
 }
 slot0 = {
+	[SCENE.MEDIA_COLLECTION_ENTRANCE] = function (slot0, slot1)
+		slot0.mediator = WorldMediaCollectionEntranceMediator
+		slot0.viewComponent = WorldMediaCollectionEntranceScene
+	end,
+	[SCENE.CRYPTOLALIA] = function (slot0, slot1)
+		slot0.mediator = CryptolaliaMediator
+		slot0.viewComponent = CryptolaliaScene
+	end,
 	[SCENE.SCULPTURE] = function (slot0, slot1)
 		slot0.mediator = SculptureMediator
 		slot0.viewComponent = SculptureScene
@@ -714,14 +724,23 @@ slot1 = {
 		slot3 = {}
 
 		if not slot0.context.data.inSave then
+			WorldConst.WorldStoryPaintingList = WorldConst.WorldStoryList or underscore.map(pg.painting_filte_world.all, function (slot0)
+				return pg.painting_filte_world[slot0].name
+			end)
+
+			table.insert(slot3, function (slot0)
+				PaintingConst.PaintingDownload({
+					isShowBox = true,
+					paintingNameList = WorldConst.WorldStoryPaintingList,
+					finishFunc = slot0
+				})
+			end)
 			table.insert(slot3, function (slot0)
 				WorldConst.ReqWorldCheck(slot0)
 			end)
 			table.insert(slot3, function (slot0)
 				if nowWorld():CheckReset(true) then
-					slot2 = pg.ConnectionMgr.GetInstance()
-
-					slot2:Send(33112, {
+					pg.ConnectionMgr.GetInstance():Send(33112, {
 						type = 1
 					}, 33113, function (slot0)
 						if slot0.result == 0 then
@@ -741,9 +760,7 @@ slot1 = {
 						end
 					end)
 				elseif slot1:CheckResetProgress() then
-					slot2 = pg.ConnectionMgr.GetInstance()
-
-					slot2:Send(33112, {
+					pg.ConnectionMgr.GetInstance():Send(33112, {
 						type = 2
 					}, 33113, function (slot0)
 						if slot0.result == 0 then
@@ -853,6 +870,30 @@ slot1 = {
 		end
 
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ANNIVERSARY_ISLAND_SEA)
+	end,
+	ShipBluePrintMediator = function (slot0, slot1)
+		PaintingConst.PaintingDownload({
+			isShowBox = true,
+			paintingNameList = PaintingConst.GetPaintingNameListForTec(),
+			finishFunc = slot1
+		})
+	end,
+	SwichSkinMediator = function (slot0, slot1)
+		PaintingConst.PaintingDownload({
+			isShowBox = true,
+			paintingNameList = PaintingConst.GetPaintingNameListByShipVO(slot0.context.data.shipVO),
+			finishFunc = slot1
+		})
+	end,
+	NewShipMediator = function (slot0, slot1)
+		slot3 = {}
+
+		PaintingConst.AddPaintingNameByShipConfigID(slot3, slot0.context.data.ship.configId)
+		PaintingConst.PaintingDownload({
+			isShowBox = false,
+			paintingNameList = slot3,
+			finishFunc = slot1
+		})
 	end
 }
 

@@ -302,6 +302,8 @@ pg.skill_data_template = setmetatable({
 		60340,
 		60350,
 		60360,
+		60370,
+		60380,
 		7000,
 		9010,
 		9020,
@@ -994,6 +996,12 @@ pg.skill_data_template = setmetatable({
 		16780,
 		16790,
 		16800,
+		16810,
+		16820,
+		16830,
+		16840,
+		16850,
+		16860,
 		18010,
 		18040,
 		18050,
@@ -1514,6 +1522,8 @@ pg.skill_data_template = setmetatable({
 		30011,
 		30021,
 		30022,
+		30031,
+		30032,
 		101010,
 		101020,
 		101030,
@@ -11391,6 +11401,34 @@ pg.base.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		desc = "Able to hit underwater enemies (deals 35.0% DMG when hitting underwater enemies).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60370] = {
+		desc_get = "",
+		name = "Oasis Barometer",
+		id = 60370,
+		type = 0,
+		max_level = 0,
+		desc = "A device that forecasts short-term weather changes. Increases the SPD of the ship equipping this gear by 2.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60380] = {
+		desc_get = "",
+		name = "Precise Maintenance",
+		id = 60380,
+		type = 0,
+		max_level = 0,
+		desc = "Increases airstrike DMG by 4.0%, but increases airstrike loading time by 4.0%.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -79040,6 +79078,660 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 			}
 		}
 	},
+	[16810] = {
+		desc_get = "",
+		name = "Role Model Torchbearer",
+		id = 16810,
+		type = 3,
+		max_level = 10,
+		desc = "Increases your Sardegna Empire BBs' FP and EVA by $1. When this ship's Main Guns hit an enemy: increases all your Sardegna Empire ships' DMG dealt to that enemy by $2 for 6s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			}
+		}
+	},
+	[16820] = {
+		desc_get = "",
+		name = "To Uphold Expectations",
+		id = 16820,
+		type = 1,
+		max_level = 10,
+		desc = "When the battle starts, if there is another Sardegna Empire BB in your fleet: increases this ship's DMG dealt by $1; if there is none, decreases this ship's DMG taken by $1. When this ship fires her Main Guns: $2 chance to fire a $3 special barrage (DMG is based on the skill's level).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"20.0%",
+				"50.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[16830] = {
+		desc_get = "",
+		name = "Porpora Strike",
+		id = 16830,
+		type = 1,
+		max_level = 10,
+		desc = "Every 4 times this ship fires her Main Guns: $1 chance to fire a $2 special barrage (DMG is based on the skill's level). If this ship has Sardegna Empire gear equipped: increases this ship's AA by $3 and increases this skill's barrage activation chance by 30.0%.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[16840] = {
+		desc_get = "",
+		name = "In Arduis Intrepida",
+		id = 16840,
+		type = 2,
+		max_level = 10,
+		desc = "Increases this ship's EVA by $1 and increases your Zara-class ships' DMG dealt by 6.0%. Once per battle, when this ship's HP falls below 90.0% as a result of DMG taken: increases this ship's Evasion Rate by 4.0% and increases your Sardegna Empire Vanguard ships' ACC by $2.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[16850] = {
+		desc_get = "",
+		name = "Help Me! Duke Monochrome Rabbit!",
+		id = 16850,
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns: summons either Black Rabbit or White Rabbit and performs a $1 special attack (DMG is based on the skill's level). Every 16 times this special attack is performed: summons Duke Monochrome Rabbit and performs a $1 wide-range special attack.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[16860] = {
+		desc_get = "",
+		name = "Princess of the Fairytale Kingdom",
+		id = 16860,
+		type = 2,
+		max_level = 10,
+		desc = "Increases this ship's FP and EVA by $1. When this ship fires her torpedoes: $2 chance to restore 1.5% of this ship's max HP. When the battle starts, if there is another Sardegna Empire ship in your fleet: increases this skill's health restoring effect's activation chance by 20.0% and, 5s after it activates, increases this ship's EVA by 5.0% for 5s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"50.0%",
+				"80.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+3.3%"
+				},
+				{
+					"53.3%",
+					"+3.3%"
+				},
+				{
+					"56.6%",
+					"+3.3%"
+				},
+				{
+					"59.9%",
+					"+3.3%"
+				},
+				{
+					"63.2%",
+					"+3.3%"
+				},
+				{
+					"66.5%",
+					"+3.3%"
+				},
+				{
+					"69.8%",
+					"+3.3%"
+				},
+				{
+					"73.1%",
+					"+3.3%"
+				},
+				{
+					"76.4%",
+					"+3.6%"
+				},
+				{
+					"80.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -94098,6 +94790,34 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 		type = 1,
 		max_level = 1,
 		desc = "Every 8 times this ship fires her Main Guns: fires a special barrage. When this effect activates while an enemy is locked on by \"Regina, the Iron Empress\", the barrage will be improved.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30031] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		id = 30031,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Attilio Regolo once every 24 times the Main Guns are fired.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30032] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		id = 30032,
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Attilio Regolo once every 16 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1

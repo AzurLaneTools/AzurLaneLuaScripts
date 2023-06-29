@@ -16728,6 +16728,123 @@ _G.pg.base.item_data_statistics[30345] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30346] = {
+	display = "Contains a random gear skin.",
+	name = "Gear Skin Box (On the Job)",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbangongshiguang",
+	id = 30346,
+	display_icon = {
+		{
+			9,
+			780,
+			1
+		},
+		{
+			9,
+			781,
+			1
+		},
+		{
+			9,
+			782,
+			1
+		},
+		{
+			9,
+			783,
+			1
+		},
+		{
+			9,
+			784,
+			1
+		},
+		{
+			9,
+			785,
+			1
+		},
+		{
+			9,
+			786,
+			1
+		},
+		{
+			9,
+			787,
+			1
+		},
+		{
+			9,
+			788,
+			1
+		},
+		{
+			9,
+			789,
+			1
+		},
+		{
+			9,
+			790,
+			1
+		},
+		{
+			9,
+			791,
+			1
+		},
+		{
+			9,
+			792,
+			1
+		},
+		{
+			9,
+			793,
+			1
+		},
+		{
+			9,
+			794,
+			1
+		},
+		{
+			9,
+			795,
+			1
+		},
+		{
+			9,
+			796,
+			1
+		},
+		{
+			9,
+			797,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	display = "Contains 1 random Cruise Mission gear skin.",
 	name = "Random Gear Skin Box",
@@ -19997,6 +20114,120 @@ _G.pg.base.item_data_statistics[30524] = {
 		{
 			9,
 			417,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30525] = {
+	display = "Can be opened to receive 1 On the Job-themed gear skin of your choosing.",
+	name = "Selection Gear Skin Box  (On the Job)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbangongshiguangzixuan",
+	id = 30525,
+	display_icon = {
+		{
+			9,
+			780,
+			1
+		},
+		{
+			9,
+			781,
+			1
+		},
+		{
+			9,
+			782,
+			1
+		},
+		{
+			9,
+			783,
+			1
+		},
+		{
+			9,
+			784,
+			1
+		},
+		{
+			9,
+			785,
+			1
+		},
+		{
+			9,
+			786,
+			1
+		},
+		{
+			9,
+			787,
+			1
+		},
+		{
+			9,
+			788,
+			1
+		},
+		{
+			9,
+			789,
+			1
+		},
+		{
+			9,
+			790,
+			1
+		},
+		{
+			9,
+			791,
+			1
+		},
+		{
+			9,
+			792,
+			1
+		},
+		{
+			9,
+			793,
+			1
+		},
+		{
+			9,
+			794,
+			1
+		},
+		{
+			9,
+			795,
+			1
+		},
+		{
+			9,
+			796,
+			1
+		},
+		{
+			9,
+			797,
 			1
 		}
 	},
@@ -26355,6 +26586,65 @@ _G.pg.base.item_data_statistics[40984] = {
 		{
 			2,
 			69979,
+			1
+		},
+		{
+			1,
+			4,
+			2023
+		},
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40985] = {
+	display = "Contains 1 Random Outfit, 2023 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 2 Special General Blueprints - Series 5, 10 Quick Finishers, and 100 Decor Tokens ",
+	name = "Office Hour Lucky Box",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/fudai80",
+	id = 40985,
+	display_icon = {
+		{
+			2,
+			69980,
 			1
 		},
 		{
@@ -188344,6 +188634,153 @@ _G.pg.base.item_data_statistics[58878] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[58879] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58879,
+	display_icon = {
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			60,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			10125,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58880] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58880,
+	display_icon = {
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		},
+		{
+			2,
+			10105,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			10125,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58881] = {
+	display = "Chance to receive following designs",
+	name = "Mystery Design",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58881,
+	display_icon = {
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		},
+		{
+			2,
+			10105,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			11048,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "EXP is required to level up",
 	name = "Ship EXP",
@@ -188659,6 +189096,29 @@ _G.pg.base.item_data_statistics[59016] = {
 	is_world = 0,
 	icon = "Props/gameticket",
 	id = 59016,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59017] = {
+	display = "A ticket that can be used to unlock Secrets.",
+	name = "Secrets Ticket",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/soundStoryTicket",
+	id = 59017,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -195172,6 +195632,75 @@ _G.pg.base.item_data_statistics[59462] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_v4",
 	id = 59462,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59463] = {
+	display = "Earned by participating in the \"Reflections of the Oasis\" event. Earning a certain amount will allow you to claim Individual Rewards.",
+	name = "Oasis Star",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/geliqiya_pt",
+	id = 59463,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59464] = {
+	display = "A ticket used to access the EX stage in the \"Reflections of the Oasis\" event. Can also be used to gain more Reward Sorties.",
+	name = "Bonus Ticket",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	id = 59464,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59465] = {
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period ends.",
+	name = "Rental Outfit Voucher",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59465,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -208765,6 +209294,72 @@ The available outfits and their rarities are as follows:
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[69980] = {
+	display = [[
+Use this to randomly obtain one of the following outfits (duplicate outfits will be converted into a corresponding sum of Gems) 
+The available outfits and their rarities are as follows:
+（<color=#92fc63>12.3%</color>）&& - 购买皮肤:230629戈里齐亚制服（L2D）<color=#92fc63> Live2D</color>;
+（<color=#92fc64>12.6%</color>）Essex - 购买皮肤:230629埃塞克斯制服（动态） ；
+（<color=#92fc65>10.2%</color>）London - 购买皮肤:230629伦敦制服（动态） ；
+（<color=#92fc66>9.9%</color>）&& - 购买皮肤:230629阿蒂利奥制服 ；
+（<color=#92fc67>8.9%</color>）Hood - 购买皮肤:230629胡德制服 ；
+（<color=#92fc68>9.1%</color>）Littorio - 购买皮肤:230629利托里奥制服 ；
+（<color=#92fc69>8.9%</color>）&& - 购买皮肤:230629安德烈亚多利亚制服 ；
+（<color=#92fc70>9.1%</color>）Pola  - Seaside Coincidence ；
+（<color=#92fc71>10.2%</color>）Pola  - Seaside Coincidence ；
+（<color=#92fc72>8.8%</color>）Pola  - Seaside Coincidence ；
+（<color=#92fc73>8.0%</color>）Pola  - Seaside Coincidence ；
+（<color=#92fc74>8.4%</color>）Pola  - Seaside Coincidence<color=#92fc63> Live2D</color>]],
+	name = "Random Ship skin ",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 69980,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			603061,
+			1300
+		},
+		{
+			107095,
+			1300
+		},
+		{
+			203011,
+			1300
+		},
+		{
+			601101,
+			1500
+		},
+		{
+			204034,
+			1500
+		},
+		{
+			605024,
+			1500
+		},
+		{
+			605071,
+			1600
+		}
+	}
 }
 
 _G.pg.base.item_data_statistics[70000] = {
