@@ -3829,13 +3829,13 @@ function getSurveyUrl(slot0)
 
 	if not IsUnityEditor then
 		if PLATFORM_CODE == PLATFORM_CH then
-			if PLATFORM == PLATFORM_ANDROID then
+			if getProxy(UserProxy):GetCacheGatewayInServerLogined() == PLATFORM_ANDROID then
 				if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_BILI then
 					slot2 = slot1.main_url
 				else
 					slot2 = slot1.uo_url
 				end
-			elseif PLATFORM == PLATFORM_IPHONEPLAYER then
+			elseif slot3 == PLATFORM_IPHONEPLAYER then
 				slot2 = slot1.ios_url
 			end
 		elseif PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
