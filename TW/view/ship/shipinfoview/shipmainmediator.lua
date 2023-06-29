@@ -511,7 +511,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.PROPOSE_SHIP_DONE,
 		GAME.USE_ADD_SHIPEXP_ITEM_DONE,
 		EquipmentProxy.EQUIPMENT_UPDATED,
-		GAME.WILL_LOGOUT
+		GAME.WILL_LOGOUT,
+		PaintingConst.NotifyPaintingDownloadFinish
 	}
 end
 
@@ -615,6 +616,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:equipmentChange()
 	elseif slot2 == GAME.WILL_LOGOUT then
 		slot0.viewComponent:OnWillLogout()
+	elseif slot2 == PaintingConst.NotifyPaintingDownloadFinish then
+		slot0.viewComponent:updateFashionTag()
 	end
 end
 

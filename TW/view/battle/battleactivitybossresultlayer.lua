@@ -17,28 +17,27 @@ function slot0.showRightBottomPanel(slot0)
 	setText(slot1:Find("playAgain/Image"), i18n("re_battle"))
 	setText(slot1:Find("playAgain/bonus/title"), i18n("expedition_extra_drop_tip"))
 
-	slot5 = getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId]
+	slot6 = slot1:Find("playAgain/bonus")
 	slot8 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId)
 	slot9 = slot0.contextData.stageId
 	slot11 = pg.activity_event_worldboss[slot8:getConfig("config_id")]
 	slot12 = slot11.ticket
-	slot14 = slot8:IsOilLimit(slot9)
-	slot16 = slot11.use_oil_limit[slot0.contextData.mainFleetId]
+	slot13 = slot8:GetStageBonus(slot9)
 
-	(function ()
-		slot1 = uv0[uv1.contextData.mainFleetId]:GetCostSum().oil
+	(function (slot0, slot1)
+		slot2 = slot0:GetCostSum().oil
 
-		if uv2 and uv3[1] > 0 then
-			slot1 = math.min(slot1, uv3[1])
+		if slot1 > 0 then
+			slot2 = math.min(slot2, uv0[1])
 		end
 
-		uv4 = uv4 + slot1
-	end)()
+		uv1 = uv1 + slot2
+	end)(getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId][slot0.contextData.mainFleetId], slot8:IsOilLimit(slot9) and slot11.use_oil_limit[slot0.contextData.mainFleetId][1] or 0)
 	setText(slot1:Find("playAgain/Text"), 0)
 
 	slot18, slot19 = nil
 
-	setActive(slot1:Find("playAgain/bonus"), slot8:GetStageBonus(slot9) > 0)
+	setActive(slot6, slot13 > 0)
 	setActive(slot1:Find("playAgain/ticket"), slot13 <= 0)
 	setText(slot6:Find("Text"), slot13)
 

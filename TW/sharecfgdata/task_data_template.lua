@@ -87677,7 +87677,7 @@ _G.pg.base.task_data_template[15853] = {
 }
 
 _G.pg.base.task_data_template[15854] = {
-	name = "『俾斯麦复刻』通关A1/C1",
+	name = "『俾斯麦复刻』通關A1/C1",
 	guild_coin_award = 0,
 	award = 93604,
 	type = 6,
@@ -87733,7 +87733,7 @@ _G.pg.base.task_data_template[15854] = {
 }
 
 _G.pg.base.task_data_template[15855] = {
-	name = "『俾斯麦复刻』通关A2/C2",
+	name = "『俾斯麦复刻』通關A2/C2",
 	guild_coin_award = 0,
 	award = 93605,
 	type = 6,
@@ -87789,7 +87789,7 @@ _G.pg.base.task_data_template[15855] = {
 }
 
 _G.pg.base.task_data_template[15856] = {
-	name = "『俾斯麦复刻』通关A3/C3",
+	name = "『俾斯麦复刻』通關A3/C3",
 	guild_coin_award = 0,
 	award = 93606,
 	type = 6,
@@ -87845,7 +87845,7 @@ _G.pg.base.task_data_template[15856] = {
 }
 
 _G.pg.base.task_data_template[15857] = {
-	name = "『俾斯麦复刻』通关B1/D1",
+	name = "『俾斯麦复刻』通關B1/D1",
 	guild_coin_award = 0,
 	award = 93607,
 	type = 6,
@@ -87901,7 +87901,7 @@ _G.pg.base.task_data_template[15857] = {
 }
 
 _G.pg.base.task_data_template[15858] = {
-	name = "『俾斯麦复刻』通关B2/D2",
+	name = "『俾斯麦复刻』通關B2/D2",
 	guild_coin_award = 0,
 	award = 93608,
 	type = 6,
@@ -87957,7 +87957,7 @@ _G.pg.base.task_data_template[15858] = {
 }
 
 _G.pg.base.task_data_template[15859] = {
-	name = "『俾斯麦复刻』通关B3/D3",
+	name = "『俾斯麦复刻』通關B3/D3",
 	guild_coin_award = 0,
 	award = 93609,
 	type = 6,
@@ -88013,7 +88013,7 @@ _G.pg.base.task_data_template[15859] = {
 }
 
 _G.pg.base.task_data_template[15860] = {
-	name = "『俾斯麦复刻』通关SP",
+	name = "『俾斯麦复刻』通關SP",
 	guild_coin_award = 0,
 	award = 93610,
 	type = 6,
@@ -88062,7 +88062,7 @@ _G.pg.base.task_data_template[15860] = {
 }
 
 _G.pg.base.task_data_template[15861] = {
-	name = "『俾斯麦复刻』通关D3",
+	name = "『俾斯麦复刻』通關D3",
 	guild_coin_award = 0,
 	award = 93611,
 	type = 6,
@@ -93421,7 +93421,7 @@ _G.pg.base.task_data_template[16061] = {
 }
 
 _G.pg.base.task_data_template[16062] = {
-	name = "『偶像V2』通关SP1",
+	name = "『偶像V2』通關SP1",
 	guild_coin_award = 0,
 	award = 93949,
 	type = 6,
@@ -93470,7 +93470,7 @@ _G.pg.base.task_data_template[16062] = {
 }
 
 _G.pg.base.task_data_template[16063] = {
-	name = "『偶像V2』通关SP2",
+	name = "『偶像V2』通關SP2",
 	guild_coin_award = 0,
 	award = 93950,
 	type = 6,
@@ -93519,7 +93519,7 @@ _G.pg.base.task_data_template[16063] = {
 }
 
 _G.pg.base.task_data_template[16064] = {
-	name = "『偶像V2』通关SP3",
+	name = "『偶像V2』通關SP3",
 	guild_coin_award = 0,
 	award = 93951,
 	type = 6,
@@ -93568,7 +93568,7 @@ _G.pg.base.task_data_template[16064] = {
 }
 
 _G.pg.base.task_data_template[16065] = {
-	name = "『偶像V2』通关SP4",
+	name = "『偶像V2』通關SP4",
 	guild_coin_award = 0,
 	award = 93952,
 	type = 6,
@@ -93617,7 +93617,7 @@ _G.pg.base.task_data_template[16065] = {
 }
 
 _G.pg.base.task_data_template[16066] = {
-	name = "『偶像V2』通关SP5",
+	name = "『偶像V2』通關SP5",
 	guild_coin_award = 0,
 	award = 93953,
 	type = 6,
@@ -93671,7 +93671,7 @@ _G.pg.base.task_data_template[16066] = {
 }
 
 _G.pg.base.task_data_template[16067] = {
-	name = "『偶像V2』通关μSP",
+	name = "『偶像V2』通關μSP",
 	guild_coin_award = 0,
 	award = 93954,
 	type = 6,
@@ -94008,7 +94008,7 @@ _G.pg.base.task_data_template[16080] = {
 }
 
 _G.pg.base.task_data_template[16081] = {
-	name = "『纳尔维克上复刻』通关序章",
+	name = "『纳尔维克上复刻』通關序章",
 	guild_coin_award = 0,
 	award = 94021,
 	type = 6,
@@ -94057,7 +94057,7 @@ _G.pg.base.task_data_template[16081] = {
 }
 
 _G.pg.base.task_data_template[16082] = {
-	name = "『纳尔维克上复刻』通关SP1",
+	name = "『纳尔维克上复刻』通關SP1",
 	guild_coin_award = 0,
 	award = 94022,
 	type = 6,
@@ -94106,7 +94106,7 @@ _G.pg.base.task_data_template[16082] = {
 }
 
 _G.pg.base.task_data_template[16083] = {
-	name = "『纳尔维克上复刻』通关SP2",
+	name = "『纳尔维克上复刻』通關SP2",
 	guild_coin_award = 0,
 	award = 94023,
 	type = 6,
@@ -94155,7 +94155,7 @@ _G.pg.base.task_data_template[16083] = {
 }
 
 _G.pg.base.task_data_template[16084] = {
-	name = "『纳尔维克上复刻』通关SP3",
+	name = "『纳尔维克上复刻』通關SP3",
 	guild_coin_award = 0,
 	award = 94024,
 	type = 6,
@@ -94374,7 +94374,7 @@ _G.pg.base.task_data_template[16088] = {
 }
 
 _G.pg.base.task_data_template[16089] = {
-	name = "『纳尔维克上复刻』sp3累计通关1",
+	name = "『纳尔维克上复刻』sp3累计通關1",
 	guild_coin_award = 0,
 	award = 94029,
 	type = 6,
@@ -94418,7 +94418,7 @@ _G.pg.base.task_data_template[16089] = {
 }
 
 _G.pg.base.task_data_template[16090] = {
-	name = "『纳尔维克上复刻』sp3累计通关2",
+	name = "『纳尔维克上复刻』sp3累计通關2",
 	guild_coin_award = 0,
 	award = 94030,
 	type = 6,
@@ -94462,7 +94462,7 @@ _G.pg.base.task_data_template[16090] = {
 }
 
 _G.pg.base.task_data_template[16091] = {
-	name = "『纳尔维克上复刻』sp3累计通关3",
+	name = "『纳尔维克上复刻』sp3累计通關3",
 	guild_coin_award = 0,
 	award = 94031,
 	type = 6,
@@ -94506,7 +94506,7 @@ _G.pg.base.task_data_template[16091] = {
 }
 
 _G.pg.base.task_data_template[16092] = {
-	name = "『纳尔维克上复刻』sp3累计通关4",
+	name = "『纳尔维克上复刻』sp3累计通關4",
 	guild_coin_award = 0,
 	award = 94032,
 	type = 6,
@@ -113209,7 +113209,7 @@ _G.pg.base.task_data_template[16872] = {
 }
 
 _G.pg.base.task_data_template[16873] = {
-	name = "『微层混合复刻』通关A1/C1",
+	name = "『微层混合复刻』通關A1/C1",
 	guild_coin_award = 0,
 	award = 95603,
 	type = 6,
@@ -113265,7 +113265,7 @@ _G.pg.base.task_data_template[16873] = {
 }
 
 _G.pg.base.task_data_template[16874] = {
-	name = "『微层混合复刻』通关A2/C2",
+	name = "『微层混合复刻』通關A2/C2",
 	guild_coin_award = 0,
 	award = 95604,
 	type = 6,
@@ -113321,7 +113321,7 @@ _G.pg.base.task_data_template[16874] = {
 }
 
 _G.pg.base.task_data_template[16875] = {
-	name = "『微层混合复刻』通关A3/C3",
+	name = "『微层混合复刻』通關A3/C3",
 	guild_coin_award = 0,
 	award = 95605,
 	type = 6,
@@ -113377,7 +113377,7 @@ _G.pg.base.task_data_template[16875] = {
 }
 
 _G.pg.base.task_data_template[16876] = {
-	name = "『微层混合复刻』通关B1/D1",
+	name = "『微层混合复刻』通關B1/D1",
 	guild_coin_award = 0,
 	award = 95606,
 	type = 6,
@@ -113433,7 +113433,7 @@ _G.pg.base.task_data_template[16876] = {
 }
 
 _G.pg.base.task_data_template[16877] = {
-	name = "『微层混合复刻』通关B2/D2",
+	name = "『微层混合复刻』通關B2/D2",
 	guild_coin_award = 0,
 	award = 95607,
 	type = 6,
@@ -113489,7 +113489,7 @@ _G.pg.base.task_data_template[16877] = {
 }
 
 _G.pg.base.task_data_template[16878] = {
-	name = "『微层混合复刻』通关B3/D3",
+	name = "『微层混合复刻』通關B3/D3",
 	guild_coin_award = 0,
 	award = 95608,
 	type = 6,
@@ -113545,7 +113545,7 @@ _G.pg.base.task_data_template[16878] = {
 }
 
 _G.pg.base.task_data_template[16879] = {
-	name = "『微层混合复刻』通关SP",
+	name = "『微层混合复刻』通關SP",
 	guild_coin_award = 0,
 	award = 95609,
 	type = 6,
@@ -113594,7 +113594,7 @@ _G.pg.base.task_data_template[16879] = {
 }
 
 _G.pg.base.task_data_template[16880] = {
-	name = "『微层混合复刻』通关D3",
+	name = "『微层混合复刻』通關D3",
 	guild_coin_award = 0,
 	award = 95610,
 	type = 6,
@@ -129378,6 +129378,1445 @@ _G.pg.base.task_data_template[17521] = {
 	}
 }
 
+_G.pg.base.task_data_template[17522] = {
+	name = "『公海舰队』吸血鬼主题活动1",
+	guild_coin_award = 0,
+	award = 97298,
+	type = 26,
+	desc = "擊敗旗艦3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17522,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17523] = {
+	name = "『公海舰队』吸血鬼主题活动2",
+	guild_coin_award = 0,
+	award = 97299,
+	type = 26,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17523,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17524] = {
+	name = "『公海舰队』吸血鬼主题活动3",
+	guild_coin_award = 0,
+	award = 97300,
+	type = 26,
+	desc = "強化艦船5次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17524,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54050,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17525] = {
+	name = "『公海舰队』吸血鬼主题活动4",
+	guild_coin_award = 0,
+	award = 97301,
+	type = 26,
+	desc = "退役艦船2次",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17525,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17526] = {
+	name = "『公海舰队』吸血鬼主题活动5",
+	guild_coin_award = 0,
+	award = 97302,
+	type = 26,
+	desc = "進行2次戰術訓練",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17526,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54032,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17527] = {
+	name = "『公海舰队』吸血鬼主题活动6",
+	guild_coin_award = 0,
+	award = 97303,
+	type = 26,
+	desc = "後宅補充5次食物",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17527,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17528] = {
+	name = "『公海舰队』吸血鬼主题活动7",
+	guild_coin_award = 0,
+	award = 97304,
+	type = 26,
+	desc = "擊沉任意敵人20艘",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17528,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50004,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17529] = {
+	name = "『公海舰队』吸血鬼主题活动8",
+	guild_coin_award = 0,
+	award = 97305,
+	type = 26,
+	desc = "建造艦船2次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17529,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17530] = {
+	name = "『公海舰队』吸血鬼主题活动9",
+	guild_coin_award = 0,
+	award = 97306,
+	type = 26,
+	desc = "打開任意科技箱1個",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17530,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17531] = {
+	name = "『公海舰队』吸血鬼主题活动10",
+	guild_coin_award = 0,
+	award = 97307,
+	type = 26,
+	desc = "強化艦船5次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17531,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17532] = {
+	name = "『公海舰队』吸血鬼主题活动11",
+	guild_coin_award = 0,
+	award = 97308,
+	type = 26,
+	desc = "完成2次委託",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17532,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17533] = {
+	name = "『公海舰队』吸血鬼主题活动12",
+	guild_coin_award = 0,
+	award = 97309,
+	type = 26,
+	desc = "後宅補充5次食物",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17533,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17534] = {
+	name = "『公海舰队』吸血鬼主题活动13",
+	guild_coin_award = 0,
+	award = 97310,
+	type = 26,
+	desc = "強化裝備2次",
+	count_inherit = 0,
+	sub_type = 40,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17534,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54034,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17535] = {
+	name = "『公海舰队』吸血鬼主题活动14",
+	guild_coin_award = 0,
+	award = 97311,
+	type = 26,
+	desc = "艦隊出征，以S評價通關10次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17535,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			88117,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17536] = {
+	name = "『公海舰队』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 97312,
+	type = 6,
+	desc = "登录游戏",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17536,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			254,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17537] = {
+	name = "『公海舰队』通關EX",
+	guild_coin_award = 0,
+	award = 97313,
+	type = 6,
+	desc = "通關EX關卡",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1640051",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17537,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1640026,
+			chapterId = 1640051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17538] = {
+	name = "『公海舰队』-日常建造",
+	guild_coin_award = 0,
+	award = 97314,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17538,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59307,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17539] = {
+	name = "『公海舰队』-日常出击",
+	guild_coin_award = 0,
+	award = 97315,
+	type = 36,
+	desc = "艦隊出擊，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17539,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59307,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17540] = {
+	name = "『公海舰队』-日常困难本",
+	guild_coin_award = 0,
+	award = 97316,
+	type = 36,
+	desc = "通關1次任意困難關卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17540,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59307,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17541] = {
+	name = "『公海舰队』通關A1/C1",
+	guild_coin_award = 0,
+	award = 97317,
+	type = 6,
+	desc = "通關A1或C1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17542",
+	auto_commit = 0,
+	story_id = "",
+	id = 17541,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1640001,
+		1640021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59307,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4320
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17542] = {
+	name = "『公海舰队』通關A2/C2",
+	guild_coin_award = 0,
+	award = 97318,
+	type = 6,
+	desc = "通關A2或C2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17543",
+	auto_commit = 0,
+	story_id = "",
+	id = 17542,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1640002,
+		1640022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59307,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4320
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17543] = {
+	name = "『公海舰队』通關A3/C3",
+	guild_coin_award = 0,
+	award = 97319,
+	type = 6,
+	desc = "通關A3或C3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17544",
+	auto_commit = 0,
+	story_id = "",
+	id = 17543,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1640003,
+		1640023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59307,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4320
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17544] = {
+	name = "『公海舰队』通關B1/D1",
+	guild_coin_award = 0,
+	award = 97320,
+	type = 6,
+	desc = "通關B1或D1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17545",
+	auto_commit = 0,
+	story_id = "",
+	id = 17544,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1640004,
+		1640024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59307,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4321
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17545] = {
+	name = "『公海舰队』通關B2/D2",
+	guild_coin_award = 0,
+	award = 97321,
+	type = 6,
+	desc = "通關B2或D2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17546",
+	auto_commit = 0,
+	story_id = "",
+	id = 17545,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1640005,
+		1640025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59307,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4321
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17546] = {
+	name = "『公海舰队』通關B3/D3",
+	guild_coin_award = 0,
+	award = 97322,
+	type = 6,
+	desc = "通關B3或D3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17547",
+	auto_commit = 0,
+	story_id = "",
+	id = 17546,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1640006,
+		1640026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59307,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4321
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17547] = {
+	name = "『公海舰队』通關SP",
+	guild_coin_award = 0,
+	award = 97323,
+	type = 6,
+	desc = "通關SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1640041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17547,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1640025,
+			chapterId = 1640041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17548] = {
+	name = "『公海舰队』通關D3",
+	guild_coin_award = 0,
+	award = 97324,
+	type = 6,
+	desc = "通關D3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1640026",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17548,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			225,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1640012,
+			chapterId = 1640026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17549] = {
+	name = "『公海舰队』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 97325,
+	type = 6,
+	desc = "完成A1或C1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17550",
+	auto_commit = 0,
+	story_id = "",
+	id = 17549,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1640001,
+		1640021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4320
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17550] = {
+	name = "『公海舰队』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 97326,
+	type = 6,
+	desc = "完成A2或C2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17551",
+	auto_commit = 0,
+	story_id = "",
+	id = 17550,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1640002,
+		1640022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4320
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17551] = {
+	name = "『公海舰队』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 97327,
+	type = 6,
+	desc = "完成A3或C3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17552",
+	auto_commit = 0,
+	story_id = "",
+	id = 17551,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1640003,
+		1640023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4320
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17552] = {
+	name = "『公海舰队』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 97328,
+	type = 6,
+	desc = "完成B1或D1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17553",
+	auto_commit = 0,
+	story_id = "",
+	id = 17552,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1640004,
+		1640024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4321
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17553] = {
+	name = "『公海舰队』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 97329,
+	type = 6,
+	desc = "完成B2或D2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "17554",
+	auto_commit = 0,
+	story_id = "",
+	id = 17553,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1640005,
+		1640025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4321
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17554] = {
+	name = "『公海舰队』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 97330,
+	type = 6,
+	desc = "完成B3或D3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17554,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	target_id = {
+		1640006,
+		1640026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			4321
+		}
+	}
+}
+
 _G.pg.base.task_data_template[17555] = {
 	name = "小欧根通常任务1",
 	guild_coin_award = 0,
@@ -140390,7 +141829,7 @@ _G.pg.base.task_data_template[18074] = {
 }
 
 _G.pg.base.task_data_template[18075] = {
-	name = "『莱莎联动』通关T1",
+	name = "『莱莎联动』通關T1",
 	guild_coin_award = 0,
 	award = 98516,
 	type = 6,
@@ -140443,7 +141882,7 @@ _G.pg.base.task_data_template[18075] = {
 }
 
 _G.pg.base.task_data_template[18076] = {
-	name = "『莱莎联动』通关T2",
+	name = "『莱莎联动』通關T2",
 	guild_coin_award = 0,
 	award = 98517,
 	type = 6,
@@ -140496,7 +141935,7 @@ _G.pg.base.task_data_template[18076] = {
 }
 
 _G.pg.base.task_data_template[18077] = {
-	name = "『莱莎联动』通关T3",
+	name = "『莱莎联动』通關T3",
 	guild_coin_award = 0,
 	award = 98518,
 	type = 6,
@@ -140549,7 +141988,7 @@ _G.pg.base.task_data_template[18077] = {
 }
 
 _G.pg.base.task_data_template[18078] = {
-	name = "『莱莎联动』通关T4",
+	name = "『莱莎联动』通關T4",
 	guild_coin_award = 0,
 	award = 98519,
 	type = 6,
@@ -140602,7 +142041,7 @@ _G.pg.base.task_data_template[18078] = {
 }
 
 _G.pg.base.task_data_template[18079] = {
-	name = "『莱莎联动』通关T5",
+	name = "『莱莎联动』通關T5",
 	guild_coin_award = 0,
 	award = 98520,
 	type = 6,
@@ -140655,7 +142094,7 @@ _G.pg.base.task_data_template[18079] = {
 }
 
 _G.pg.base.task_data_template[18080] = {
-	name = "『莱莎联动』通关A.SP",
+	name = "『莱莎联动』通關A.SP",
 	guild_coin_award = 0,
 	award = 98521,
 	type = 6,
@@ -140944,7 +142383,7 @@ _G.pg.base.task_data_template[18085] = {
 }
 
 _G.pg.base.task_data_template[18086] = {
-	name = "『莱莎联动』通关EX",
+	name = "『莱莎联动』通關EX",
 	guild_coin_award = 0,
 	award = 98527,
 	type = 6,
@@ -220078,5 +221517,43 @@ _G.pg.base.task_data_template[80379] = {
 	},
 	scene = {
 		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[80380] = {
+	name = "台服『公海舰队』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 300588,
+	type = 6,
+	desc = "開啟20個外觀裝備箱(紅月)",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "30333",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 80380,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			80034,
+			1
+		}
 	}
 }

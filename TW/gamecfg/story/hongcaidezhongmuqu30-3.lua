@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官！重樱舰队加入战斗了！",
+			say = "指揮官！重櫻艦隊加入戰鬥了！",
 			bgm = "theme-arbitrator-tower",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "重樱舰队终于选择不再冷眼旁观了么……很好，这样我们的胜算又大了一分。",
+			say = "重櫻艦隊終於選擇不再冷眼旁觀了嗎……很好，這樣我們的勝算又大了一分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这次是重樱么……那就来看看属于你们的记录吧。",
+			say = "這次是重櫻嗎……那就來看看屬於妳們的紀錄吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "海雾再次出现了。",
+			say = "海霧再次出現了。",
 			effects = {
 				{
 					active = true,
@@ -77,7 +77,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……啧。",
+			say = "……嘖。",
 			effects = {
 				{
 					active = true,
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "{namecode:96}，你的伤……！",
+			say = "瑞鶴，妳的傷……！",
 			effects = {
 				{
 					active = true,
@@ -132,7 +132,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……别管我了，你们快走吧。",
+			say = "……別管我了，妳們快走吧。",
 			effects = {
 				{
 					active = true,
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "话虽如此，行动已经失败，作为诱饵的我们已经无路可逃了吧。",
+			say = "話雖如此，行動已經失敗，作為誘餌的我們已經無路可逃了吧。",
 			effects = {
 				{
 					active = true,
@@ -177,7 +177,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "说的也是，已经无路可逃了呢……",
+			say = "說的也是，已經無路可逃了呢……",
 			effects = {
 				{
 					active = true,
@@ -199,7 +199,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "直到最后，我们好像都没帮上大家什么忙呢，啊哈哈……",
+			say = "直到最後，我們好像都沒幫上大家甚麼忙呢，啊哈哈……",
 			effects = {
 				{
 					active = true,
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "更多的敌方舰载机过来了，{namecode:96}，{namecode:103}姐，你们还有飞机么……",
+			say = "更多的敵方艦載機過來了，瑞鶴，千歲姐，妳們還有飛機嗎……",
 			effects = {
 				{
 					active = true,
@@ -244,7 +244,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没有了。我们已经没有任何反击的能力，也没有任何反击的必要了……",
+			say = "沒有了。我們已經沒有任何反擊的能力，也沒有任何反擊的必要了……",
 			effects = {
 				{
 					active = true,
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "{namecode:103}姐，我的身体好沉……",
+			say = "千歲姐，我的身體好沉……",
 			effects = {
 				{
 					active = true,
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没事的，我会陪在你的身边的，让我们共赴黄泉吧。",
+			say = "沒事的，我會陪在妳的身邊的，讓我們共赴黃泉吧。",
 			effects = {
 				{
 					active = true,
@@ -312,7 +312,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:95}姐，再等我一下，我们很快就能重逢了……",
+			say = "翔鶴姐，再等我一下，我們很快就能重逢了……",
 			effects = {
 				{
 					active = true,
@@ -331,7 +331,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……伴随着炸弹的呼啸声，海雾中的重樱舰队一艘接一艘消失在爆炸与火光中。",
+			say = "……伴隨著炸彈的呼嘯聲，海霧中的重櫻艦隊一艘接一艘消失在爆炸與火光中。",
 			effects = {
 				{
 					active = true,
@@ -353,7 +353,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那些……是白鹰的舰载机？",
+			say = "那些……是白鷹的艦載機？",
 			effects = {
 				{
 					active = false,
@@ -375,7 +375,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这次莫名其妙幻象的主角变成我们了么？",
+			say = "這次莫名其妙幻象的主角變成我們了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "白鹰的航空力量确实强大的，但我们也一样！",
+			say = "白鷹的航空力量確實強大的，但我們也一樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "而且用缺乏护卫的航母编队进行诱敌……？就算{namecode:91}前辈脑子真昏了头也不会做出这种决定的！",
+			say = "而且用缺乏護衛的航母編隊進行誘敵……？就算赤城前輩腦子真昏了頭也不會做出這種決定的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这种景象在过去没有发生过，在未来也绝不会发生！",
+			say = "這種景像在過去沒有發生過，在未來也絕不會發生！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "构建者，不要在继续用蛊惑人心的幻象拖延时间了！我们是不会动摇的。",
+			say = "構建者，不要在繼續用蠱惑人心的幻象拖延時間了！我們是不會動搖的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "经历之事未必是真实的，未经历之事未必是虚假的。记录不会说谎。",
+			say = "經歷之事未必是真實的，未經歷之事未必是虛假的。紀錄不會說謊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "{namecode:91}，你不是早就明白了么。",
+			say = "赤城，妳不是早就明白了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "明白了，还要做出如此选择，无法理解。",
+			say = "明白了，還要做出如此選擇，無法理解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "呵，不要太得意忘形了，我们之间的关系自始至终都是相互利用而已。",
+			say = "呵，不要太得意忘形了，我們之間的關係自始至終都是相互利用而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "你对我们发动攻击，我们进行反击是理所应当的。",
+			say = "妳對我們發動攻擊，我們進行反擊是理所應當的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "重樱舰队全员准备战斗，粉碎构建者。给我打出重樱舰队的气势来！",
+			say = "重櫻艦隊全員準備戰鬥，粉碎構建者。給我打出重櫻艦隊的氣勢來！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -584,7 +584,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "领命。",
+			say = "領命。",
 			effects = {
 				{
 					active = true,
@@ -606,7 +606,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿，这才像是前辈们的一贯作风嘛————！",
+			say = "嘿嘿，這才像是前輩們的一貫作風嘛————！",
 			effects = {
 				{
 					active = false,

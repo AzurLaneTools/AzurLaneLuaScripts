@@ -1,4 +1,4 @@
-slot0 = class("BossRushPreCombatMediator", import("view.battle.PreCombatMediator"))
+slot0 = class("BossRushPreCombatMediator", import("view.base.ContextMediator"))
 slot0.ON_UPDATE_CUSTOM_FLEET = "BossRushPreCombatMediator:ON_UPDATE_CUSTOM_FLEET"
 slot0.ON_START = "BossRushPreCombatMediator:ON_START"
 slot0.BEGIN_STAGE = "BossRushPreCombatMediator:BEGIN_STAGE"
@@ -28,7 +28,7 @@ function slot0.register(slot0)
 
 	slot4 = slot0.contextData.fleets
 
-	slot0.viewComponent:SetSubFlag(slot4[#slot4]:IsLegalToFightForSubmarine())
+	slot0.viewComponent:SetSubFlag(slot4[#slot4]:isLegalToFight())
 end
 
 function slot0.bindEvent(slot0)
@@ -111,10 +111,6 @@ function slot0.bindEvent(slot0)
 			actID = uv0.contextData.actId,
 			fleets = {}
 		})
-	end)
-	slot0:bind(uv0.ON_COMMIT_EDIT, function (slot0)
-		assert(false)
-		uv0:commitEdit()
 	end)
 	slot0:bind(uv0.ON_START, function (slot0, slot1)
 		slot2 = uv0.viewComponent
@@ -279,6 +275,11 @@ function slot0.changeFleet(slot0, slot1)
 end
 
 function slot0.refreshEdit(slot0, slot1)
+	slot2 = getProxy(FleetProxy)
+	slot3 = slot0.contextData.actId
+
+	slot2:updateActivityFleet(slot3, slot1.id, slot1)
+	slot0.viewComponent:SetFleets(slot2:getActivityFleets()[slot3])
 	slot0.viewComponent:UpdateFleetView(false)
 	slot0:sendNotification(uv0.ON_FLEET_REFRESHED)
 end
@@ -325,10 +326,6 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.BOSSRUSH_TRACE_DONE then
 		slot0.viewComponent:emit(uv0.BEGIN_STAGE)
 	end
-end
-
-function slot0.remove(slot0)
-	uv0.super.remove(slot0)
 end
 
 return slot0

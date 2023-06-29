@@ -9,7 +9,7 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.SetFleetType(slot0, slot1)
-	slot0.fleetType = slot1
+	slot0.fleetType = slot1 or FleetType.Normal
 end
 
 function slot0.isSubmarineFleet(slot0)

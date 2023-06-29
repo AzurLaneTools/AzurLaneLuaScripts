@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在重樱舰队远处可见的天际线上，已经依稀出现了港湾的轮廓。",
+			say = "在重櫻艦隊遠處可見的天際線上，已經依稀出現了港灣的輪廓。",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前辈，我们就要抵达斯卡帕湾了！",
+			say = "前輩，我們就要抵達斯卡帕灣了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家居然没有进行任何反击……周围也没有看到任何皇家舰队。",
+			say = "皇家居然沒有進行任何反擊……周圍也沒有看到任何皇家艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道这里已经被铁血拿下了？……速度也太惊人了吧？！",
+			say = "難道這裡已經被鐵血拿下了？ ……速度也太驚人了吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实是速度惊人……不过{namecode:96}，仔细观察。",
+			say = "確實是速度驚人……不過瑞鶴，仔細觀察。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里的损伤都是一段时间之前留下的，没有新的交战痕迹，也没有任何人员抵抗的迹象。",
+			say = "這裡的損傷都是一段時間之前留下的，沒有新的交戰痕跡，也沒有任何人員抵抗的跡象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在我看来，这里更像是在皇家人员已经提前撤离的情况下，被铁血兵不血刃占领的。",
+			say = "在我看來，這裡更像是在皇家人員已經提前撤離的情況下，被鐵血兵不血刃佔領的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实太反常了……斯卡帕湾对于皇家来说是一处无可取代的重要锚地。",
+			say = "確實太反常了……斯卡帕灣對於皇家來說是一處無可取代的重要錨地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然之前被铁血舰队袭击过一次，但也不至于像这样开战之初就干净利落的放弃吧？",
+			say = "雖然之前被鐵血艦隊襲擊過一次，但也不至於像這樣開戰之初就乾淨俐落的放棄吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "谁知道呢。好消息是我们不用靠自己的力量打上观众席了。",
+			say = "誰知道呢。好消息是我們不用靠自己的力量打上觀眾席了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "走吧，进入斯卡帕湾，相信{namecode:440}会给我们的疑问一个答案的。",
+			say = "走吧，進入斯卡帕灣，相信腓特烈大帝會給我們的疑問一個答案的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "斯卡帕湾锚地·内部海域",
+			say = "斯卡帕灣錨地·內部海域",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "四面被岛屿包围，拥有七条航道分别通向三片海域……",
+			say = "四面被島嶼包圍，擁有七條航道分別通向三片海域……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "百闻不如一见，斯卡帕湾真是一处能让人感叹大自然鬼斧神工的优质海上基地啊……",
+			say = "百聞不如一見，斯卡帕灣真是一處能讓人感嘆大自然鬼斧神工的優質海上基地啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，前辈，那艘船是什么？",
+			say = "啊，前輩，那艘船是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看起来既不像铁血的量产型，也不像皇家的量产型。",
+			say = "看起來既不像鐵血的量產型，也不像皇家的量產型。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "顺着{namecode:96}的视线，重樱众人看到了一艘隐藏在阴影中的巨大军舰。",
+			say = "順著瑞鶴的視線，重櫻眾人看到了一艘隱藏在陰影中的巨大軍艦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "这个是…………战舰伊丽莎白女王号……？",
+			say = "這個是…………戰艦伊莉莎白女王號……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "军舰？和量产型不一样么。",
+			say = "軍艦？和量產型不一樣嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "嗯，现在的孩子也许已经不太了解其中的区别了吧……",
+			say = "嗯，現在的孩子也許已經不太了解其中的區別了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你应该很清楚，我们是利用心智魔方诞生的舰船。",
+			say = "妳應該很清楚，我們是利用心智魔方誕生的艦船。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "可是在出现心智魔方之前，人类是依靠什么在海上战斗的呢？",
+			say = "可是在出現心智魔方之前，人類是依靠什麼在海上戰鬥的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "答案就是战舰。",
+			say = "答案就是戰艦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "与现在可以方便的进行大量制造的量产型不同，每一艘军舰都是制造周期漫长的，独一无二的工艺品。",
+			say = "與現在可以方便的進行大量製造的量產型不同，每一艘軍艦都是製造週期漫長的，獨一無二的工藝品。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "所有最初的舰船都是利用当时服役的战舰和心智魔方共同创造出来的。",
+			say = "所有最初的艦船都是利用當時服役的戰艦和心智魔方共同創造出來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只不过在后来的研究中，科研部门发现并不需要实际建造出军舰的船体也能让我们诞生。",
+			say = "只不過在後來的研究中，科研部門發現並不需要實際建造出軍艦的船體也能讓我們誕生。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "所以在某个时间点开始，成本过高而在对抗塞壬战斗中难以起到作用的传统军舰就彻底停止建造了。",
+			say = "所以在某個時間點開始，成本過高而在對抗塞壬戰鬥中難以起到作用的傳統軍艦就徹底停止建造了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "当时依然幸存的船体也大多进行了退役处理。",
+			say = "當時依然倖存的船體也大多進行了退役處理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "原本以为老古董伊丽莎白女王号肯定也是如此……",
+			say = "原本以為老古董伊莉莎白女王號肯定也是如此……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "想来也许是被皇家当成纪念品保存起来了吧。",
+			say = "想來也許是被皇家當成紀念品保存起來了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，作为有象征意义的战利品来说还真不错。",
+			say = "呵呵，作為有像徵意義的戰利品來說還真不錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前辈也有过么？作为军舰存在的船体。",
+			say = "前輩也有過嗎？作為軍艦存在的船體。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "………………那种东西，从很久之前就没有了哦。",
+			say = "………………那種東西，從很久之前就沒有了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:91}大人，已经能看到铁血的迎接舰队了。",
+			say = "赤城大人，已經能看到鐵血的迎接艦隊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "顺着{namecode:39}的视线，众人看到了两艘沿着水道缓缓接近的铁血舰船。",
+			say = "順著神通的視線，眾人看到了兩艘沿著水道緩緩接近的鐵血艦船。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499050,
-			say = "各位应该就是应邀而来的重樱舰队吧，{namecode:480}向各位问好。",
+			say = "各位應該就是應邀而來的重櫻艦隊吧，埃吉爾向各位問好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499060,
-			say = "{namecode:481}向各位问好。",
+			say = "奧古斯特·馮·帕塞瓦爾向各位問好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:480}和{namecode:482}……你们都是铁血计划舰队中的一员？",
+			say = "埃吉爾和奧古斯特……妳們都是鐵血計劃艦隊中的一員？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错。如果对于我们的战斗性能有兴趣的话，期待能有并肩作战的机会哦。",
+			say = "沒錯。如果對於我們的戰鬥性能有興趣的話，期待能有並肩作戰的機會哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "{namecode:482}与{namecode:480}微微颔首，各自后退半步让出一条通路。",
+			say = "奧古斯特與埃吉爾微微頷首，各自後退半步讓出一條通路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			actor = 499060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "各位这边请，{namecode:440}已经恭候多时了。",
+			say = "各位這邊請，腓特烈大帝已經恭候多時了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

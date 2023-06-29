@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "东大陆架C区域·指挥舰内",
+			say = "東大陸棚C區域·指揮艦內",
 			side = 2,
 			bgName = "bg_endingsong_10",
 			dir = 1,
@@ -37,8 +37,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "指挥官，现在开始战况汇报。",
+			actorName = "喬治亞",
+			say = "指揮官，現在開始戰況匯報。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,8 +54,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "根据苏维埃同盟的情报，舰队行动重点已经从排除铁血幻影转为了对斯卡帕湾进行包围。",
+			actorName = "喬治亞",
+			say = "根據蘇維埃聯盟的情報，艦隊行動重點已經從排除鐵血幻影轉為了對斯卡帕灣進行包圍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,8 +71,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "{namecode:199}稍早前发来的联络表示，其手下的一支舰队在向斯卡帕湾前进之时遭遇到铁血{namecode:436}带领舰队的猛烈阻击。",
+			actorName = "喬治亞",
+			say = "紐澤西稍早前發來的聯絡表示，其手下的一支艦隊在向斯卡帕灣前進之時遭遇到鐵血鐵必制帶領艦隊的猛烈阻擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,8 +88,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "她本人所在的舰队也遭遇了自称{namecode:482}与{namecode:480}的两艘未知铁血计划舰的阻拦。",
+			actorName = "喬治亞",
+			say = "她本人所在的艦隊也遭遇了自稱奧古斯特與埃吉爾的兩艘未知鐵血計劃艦的阻攔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,8 +105,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "同时根据{namecode:199}的情报，她发现了铁血前线总指挥{namecode:463}的行踪。",
+			actorName = "喬治亞",
+			say = "同時根據紐澤西的情報，她發現了鐵血前線總指揮烏爾里希·馮·胡騰的行蹤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,8 +122,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "其正带领着包括计划舰{namecode:439}与{namecode:479}在内的舰队主力向我们的方向直扑而来。",
+			actorName = "喬治亞",
+			say = "其正帶領著包括計劃艦羅恩與美因茨在內的艦隊主力向我們的方向直撲而來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,8 +139,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "{namecode:199}表示所有拦截企图均已失败，她已经改变作战部署，也希望我们一切小心。",
+			actorName = "喬治亞",
+			say = "紐澤西表示所有攔截企圖均已失敗，她已經改變作戰部署，也希望我們一切小心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "佐治亚，回复{namecode:199}我们了解了。",
+			say = "喬治亞，回復紐澤西我們了解了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "同时向华盛顿和企业发报，敌方航空舰队正向着我方前进，护卫舰提高警惕，舰载机群升空待命，准备迎战。",
+			say = "同時向華盛頓和企業發報，敵方航空艦隊正向著我方前進，護衛艦提高警惕，艦載機群升空待命，準備迎戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
+			actorName = "喬治亞",
 			say = "遵命。",
 			typewriter = {
 				speed = 0.05,
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "真没想到铁血居然还有隐藏起来的计划舰……",
+			say = "真沒想到鐵血居然還有隱藏起來的計劃艦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "斯卡帕湾方向果然有问题，我们一改变部署，铁血的部署也变了。",
+			say = "斯卡帕灣方向果然有問題，我們一改變部署，鐵血的部署也變了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			},
 			options = {
 				{
-					content = "皇家的回复呢？",
+					content = "皇家的回復呢？",
 					flag = 1
 				}
 			}
@@ -235,8 +235,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "皇家LD司令部表示，其在开战不久后确实与斯卡帕湾失去了联络。",
+			actorName = "喬治亞",
+			say = "皇家LD司令部表示，其在開戰不久後確實與斯卡帕灣失去了聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,8 +252,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "不过之前一直在当成单纯的通讯故障进行排查。",
+			actorName = "喬治亞",
+			say = "不過之前一直在當成單純的通訊故障進行排查。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,8 +269,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "在上次斯卡帕湾遇袭之后那里就一直在进行重建，没有什么军事力量，也没有什么补给物资。",
+			actorName = "喬治亞",
+			say = "在上次斯卡帕灣遇襲之後那裡就一直在進行重建，沒有什麼軍事力量，也沒有什麼補給物資。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,8 +286,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "虽然存在被铁血乘虚而入的可能性。",
+			actorName = "喬治亞",
+			say = "雖然存在被鐵血乘虛而入的可能性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,8 +303,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "不过那里一旦被包围就是死地，看不出战略价值所在。",
+			actorName = "喬治亞",
+			say = "不過那裡一旦被包圍就是死地，看不出戰略價值所在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "嗯……从常规来讲这个判断十分正确。",
+			say = "嗯……從常規來講這個判斷十分正確。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "铁血没有丝毫道理抛下岌岌可危的前线，转而进攻一处基本丧失功能的锚地。",
+			say = "鐵血沒有絲毫道理拋下岌岌可危的前線，轉而進攻一處基本喪失功能的錨地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,24 +346,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "不过{namecode:440}的部署总是不走寻常路……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_endingsong_10",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "佐治亚",
-			say = "指挥官，关于袭来的铁血主力舰队，能否让我带领舰队前去迎战。",
+			say = "不過腓特烈大帝的部署總是不走尋常路……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,8 +362,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "{namecode:463}是一位优秀的指挥者，铁血的计划舰同样不容小觑。",
+			actorName = "喬治亞",
+			say = "指揮官，關於襲來的鐵血主力艦隊，能否讓我帶領艦隊前去迎戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,8 +379,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "本次我就是为了保护您的安全，为了应对现在这种局面而离开星海提前服役的。",
+			actorName = "喬治亞",
+			say = "烏爾里希·馮·胡滕是一位優秀的指揮者，鐵血的計劃艦同樣不容小覷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,8 +396,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "至此，除总旗舰{namecode:440}之外，铁血在NA海域中的所有已知主力舰均已暴露行踪。",
+			actorName = "喬治亞",
+			say = "本次我就是為了保護您的安全，為了應對現在這種局面而離開星海提前服役的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,8 +413,25 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "此时的斯卡帕湾必定防御空虚。指挥官请带领舰队直奔目的地，这里就交给我吧。",
+			actorName = "喬治亞",
+			say = "至此，除總旗艦腓特烈大帝之外，鐵血在NA海域中的所有已知主力艦均已暴露行蹤。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_endingsong_10",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "喬治亞",
+			say = "此時的斯卡帕灣必定防禦空虛。指揮官請帶領艦隊直奔目的地，這裡就交給我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			},
 			options = {
 				{
-					content = "许可",
+					content = "許可",
 					flag = 1
 				},
 				{
@@ -450,7 +450,7 @@ return {
 					flag = 2
 				},
 				{
-					content = "首次参战，可不要用力过猛哦?",
+					content = "首次參戰，可不要用力過猛哦?",
 					flag = 3
 				}
 			}
@@ -462,9 +462,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			actorName = "佐治亚",
+			actorName = "喬治亞",
 			hidePaintObj = true,
-			say = "遵命。白鹰所属计划舰佐治亚，现在加入战斗——",
+			say = "遵命。白鷹所屬計劃艦喬治亞，現在加入戰鬥——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,9 +481,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			actorName = "佐治亚",
+			actorName = "喬治亞",
 			hidePaintObj = true,
-			say = "遵命。白鹰所属计划舰佐治亚，现在加入战斗——",
+			say = "遵命。白鷹所屬計劃艦喬治亞，現在加入戰鬥——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,13 +495,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "佐治亚",
+			actorName = "喬治亞",
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "相比指挥官您，铁血的{namecode:463}恐怕更需要担心这件事~",
+			say = "相比指揮官您，鐵血的烏爾里希·馮·胡滕恐怕更需要擔心這件事~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,9 +518,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
-			actorName = "佐治亚",
+			actorName = "喬治亞",
 			hidePaintObj = true,
-			say = "那么我去了。白鹰所属计划舰佐治亚，现在加入战斗——",
+			say = "遵命。白鷹所屬計劃艦喬治亞，現在加入戰鬥——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

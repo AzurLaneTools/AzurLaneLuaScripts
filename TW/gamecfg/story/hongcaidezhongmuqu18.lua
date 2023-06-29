@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域·东北航道D区域",
+			say = "NA海域·東北航道D區域",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "在由喀琅施塔得带队的北方联合舰队前方，一个熟悉的身影正大摇大摆的向舰队靠近着。",
+			say = "在由喀琅施塔得帶隊的北方聯合艦隊前方，一個熟悉的身影正大搖大擺的向艦隊靠近著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "哟~好久不见啊我的老朋友。",
+			say = "喲~好久不見啊我的老朋友。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这不是{namecode:427}么，什么风把你吹过来了？",
+			say = "這不是歐根親王嗎，什麼風把妳吹過來了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "啊，停下，不要再继续接近了，否则我就要被迫开火了哦。",
+			say = "啊，停下，不要再繼續接近了，否則我就要被迫開火了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "喂喂喂，你这人面对多年没见的老朋友也太冷淡了吧！",
+			say = "喂喂喂，妳這人面對多年沒見的老朋友也太冷淡了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "此一时彼一时咯。",
+			say = "此一時彼一時囉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "这么久都没收到过你的消息了，最近在什么地方忙什么呢？",
+			say = "這麼久都沒收到過妳的消息了，最近在什麼地方忙什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "那自然是在需要我的地方做着需要我来做的事。",
+			say = "那自然是在需要我的地方做著需要我來做的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "是怀念我们一起吃晚餐的时光了么？",
+			say = "是懷念我們一起吃晚餐的時光了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "倒是有些想念，要是顺便能在饭桌上多告诉我些情报就好了。",
+			say = "倒是有點想念，要是順便能在飯桌上多告訴我些情報就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "哈哈哈，那就得看你的本事了。到底是你套到的情报多，还是被我套到的情报多。",
+			say = "哈哈哈，那就得看妳的本事了。到底是妳套到的情報多，還是被我套到的情報多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "多年未见，你倒是没什么变化。",
+			say = "多年未見，妳倒是沒什麼變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "你要是观察的更仔细点的话就会发现，我多少还是变了一些的，就跟你一样。",
+			say = "妳要是觀察的更仔細點的話就會發現，我多少還是變了一些的，就跟妳一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "欸~是么？我倒觉得自己一直以来没什么变化哦。",
+			say = "欸~是嗎？我倒覺得自己一直以來沒什麼變化哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "只是装作没什么变化而已吧。伪装是用来掩盖的，你在试图掩盖什么？",
+			say = "只是裝作沒什麼變化而已吧。偽裝是用來掩蓋的，妳在試圖掩蓋什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对往昔的怀念？对友人的思念？或者是什么更复杂的事——？",
+			say = "對往昔的懷念？對友人的思念？或者是什麼更複雜的事——？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "作为老友的经验之谈来说，过度压抑情感可是一件非常危险的事哦。",
+			say = "作為老友的經驗之談來說，過度壓抑情感可是一件非常危險的事哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "目光倒还是依旧那么敏锐~不过秘密让女人更女人，这一点上大家彼此彼此吧？",
+			say = "目光倒還是依舊那麼敏銳~不過秘密讓女人更女人，這一點上大家彼此彼此吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "我倒是很乐意跟你彻夜长谈哦————在你作为俘虏跟我回去之后。",
+			say = "我倒是很樂意跟妳徹夜長談哦————在妳作為俘虜跟我回去之後。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "哎呀呀，要是这样可就麻烦了。我还有要做的事呢，可不能就这么被你抓住~",
+			say = "哎呀呀，要是這樣可就麻煩了。我還有要做的事呢，可不能就這麼被妳抓住~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这是什么话。你人都来到这个距离了，接下来的事可由不得你了！",
+			say = "這是什麼話。妳人都來到這個距離了，接下來的事可由不得妳了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "轟————————！",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "……炮弹不受阻碍的穿过了身体……？你是幻影？",
+			say = "……炮彈不受阻礙的穿過了身體……？妳是幻影？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "你们这次来势汹汹的，我也多少做了一些准备嘛~",
+			say = "妳們這次來勢洶洶的，我也多少做了一些準備嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "铁血的技术进步，就让你们好好感受一下吧！",
+			say = "鐵血的技術進步，就讓妳們好好感受一下吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "{namecode:486}————！",
+			say = "奧丁————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 499040,
-			say = "主神之枪充能完毕。",
+			say = "主神之槍充能完畢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			actor = 499040,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "撕裂吧，冈格尼尔——————",
+			say = "撕裂吧，岡格尼爾——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -671,13 +671,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 107140,
 			say = "這麼說來…塞壬總是在進行的數據收集可能就是為了這樣的模擬實驗做準備的。",
 			typewriter = {
 				speed = 0.05,

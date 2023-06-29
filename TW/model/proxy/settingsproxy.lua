@@ -467,6 +467,14 @@ function slot0.SetStoryAutoPlayFlag(slot0, slot1)
 	end
 end
 
+function slot0.GetPaintingDownloadPrefs(slot0)
+	return PlayerPrefs.GetInt("Painting_Download_Prefs", 0)
+end
+
+function slot0.SetPaintingDownloadPrefs(slot0, slot1)
+	PlayerPrefs.SetInt("Painting_Download_Prefs", slot1)
+end
+
 function slot0.ShouldShipMainSceneWord(slot0)
 	return slot0.showMainSceneWordTip
 end

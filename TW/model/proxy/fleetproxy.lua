@@ -319,74 +319,98 @@ function slot0.getActivityFleets(slot0)
 end
 
 function slot0.addActivityFleet(slot0, slot1, slot2)
-	if not slot0.activityFleetData[slot1] then
-		slot0.activityFleetData[slot1] = {}
+	if not slot0.activityFleetData[slot1.id] then
+		slot0.activityFleetData[slot3] = {}
 	end
 
-	slot3 = slot0.activityFleetData[slot1]
-	slot4 = getProxy(BayProxy)
-	slot5 = nil
-	slot6 = pg.activity_template[slot1]
+	slot4 = slot0.activityFleetData[slot3]
+	slot5 = getProxy(BayProxy)
+	slot6, slot7 = nil
 
-	for slot10, slot11 in ipairs(slot2) do
-		slot12 = Fleet
-
-		if slot6.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
-			slot12 = BossRushFleet
+	function slot8()
+		if uv0 then
+			return uv0
 		end
 
-		slot13 = slot12.New(slot11)
-		slot3[slot13.id] = slot13
+		slot0 = uv1
+		uv0 = _.map(slot0:GetActiveSeriesIds(), function (slot0)
+			return table.lastof(BossRushSeriesData.New({
+				id = slot0,
+				actId = uv0.id
+			}):GetFleetIds())
+		end)
 
-		for slot17, slot18 in ipairs(slot11.ship_list) do
-			if not slot4:getShipById(slot18) then
-				slot5 = true
+		return uv0
+	end
+
+	slot9 = pg.activity_template[slot3]
+
+	for slot13, slot14 in ipairs(slot2) do
+		slot15 = CreateShell(slot14)
+
+		if slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+			slot15.fleetType = table.contains(slot8(), slot14.id) and FleetType.Submarine or FleetType.Normal
+		elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+			slot15.fleetType = Fleet.SUBMARINE_FLEET_ID <= slot14.id and FleetType.Submarine or FleetType.Normal
+		else
+			slot15.fleetType = Fleet.isSubmarineFleet({
+				id = slot14.id
+			}) and FleetType.Submarine or FleetType.Normal
+		end
+
+		slot16 = TypedFleet.New(slot15)
+		slot4[slot16.id] = slot16
+
+		for slot20, slot21 in ipairs(slot14.ship_list) do
+			if not slot5:RawGetShipById(slot21) then
+				slot6 = true
 
 				break
 			end
 		end
 	end
 
-	if slot5 then
-		slot0:commitActivityFleet(slot1)
+	if slot6 then
+		slot0:commitActivityFleet(slot3)
 	end
 
-	slot7, slot8 = nil
+	slot10, slot11 = nil
 
-	if slot6.type == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
-		slot7 = 2
-		slot8 = 2
-	elseif slot6.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
-		slot9 = pg.activity_event_worldboss[slot6.config_id]
-		slot7 = slot9.group_num
-		slot8 = slot9.submarine_num
-	elseif slot6.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
-		slot7 = 0
-		slot8 = 0
+	if slot9.type == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
+		slot10 = 2
+		slot11 = 2
+	elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+		slot10 = 0
+		slot11 = 0
+	elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+		slot10 = 0
+		slot11 = 0
 	end
 
-	slot9 = 0
+	slot12 = 0
 
-	while slot7 > slot9 do
-		if slot3[slot9 + 1] == nil then
-			slot3[slot9] = uv0.CreateFleet({
-				id = slot9,
-				ship_list = {}
+	while slot10 > slot12 do
+		if slot4[slot12 + 1] == nil then
+			slot4[slot12] = TypedFleet.New({
+				id = slot12,
+				ship_list = {},
+				fleetType = FleetType.Normal
 			})
 		end
 	end
 
-	slot9 = 0
+	slot12 = 0
 
-	while slot8 > slot9 do
-		if slot3[Fleet.SUBMARINE_FLEET_ID + slot9] == nil then
-			slot3[slot10] = uv0.CreateFleet({
-				id = slot10,
-				ship_list = {}
+	while slot11 > slot12 do
+		if slot4[Fleet.SUBMARINE_FLEET_ID + slot12] == nil then
+			slot4[slot13] = TypedFleet.New({
+				id = slot13,
+				ship_list = {},
+				fleetType = FleetType.Submarine
 			})
 		end
 
-		slot9 = slot9 + 1
+		slot12 = slot12 + 1
 	end
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inActivity")
@@ -473,6 +497,30 @@ function slot0.recommendActivityFleet(slot0, slot1, slot2)
 	end
 
 	slot0:updateActivityFleet(slot1, slot2, slot4)
+end
+
+function slot0.GetBossRushFleets(slot0, slot1, slot2)
+	slot4 = slot0:getActivityFleets()[slot1]
+
+	table.Foreach(slot2, function (slot0, slot1)
+		slot2 = slot0 == #uv0
+
+		if not uv1[slot1] then
+			uv1[slot1] = TypedFleet.New({
+				id = slot1,
+				ship_list = {},
+				fleetType = slot2 and FleetType.Submarine or FleetType.Norma
+			})
+		end
+
+		slot3 = uv1[slot1]
+
+		slot3:RemoveUnusedItems()
+
+		uv2[slot0] = slot3
+	end)
+
+	return {}
 end
 
 return slot0

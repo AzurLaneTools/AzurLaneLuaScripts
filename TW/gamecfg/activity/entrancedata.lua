@@ -51,8 +51,8 @@ return {
 
 			if slot0.checkBattleTimeInBossAct(slot0) then
 				slot1 = slot0.data2 ~= 1
-			elseif getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_BOSS_PT_ID) then
-				slot1 = ActivityBossPtData.New(slot3):CanGetAward()
+			elseif getProxy(ActivityProxy):getActivityById(slot0:GetBindPtActID()) then
+				slot1 = ActivityBossPtData.New(slot4):CanGetAward()
 			end
 
 			return slot1
@@ -313,19 +313,19 @@ return {
 		end
 	},
 	{
-		banner = "meta_entrance_970403",
+		banner = "meta_entrance_970404",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
 			SCENE.METACHARACTER,
 			{
-				autoOpenShipConfigID = 9704031
+				autoOpenShipConfigID = 9704041
 			}
 		},
 		isShow = function ()
-			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970403) and slot1:isInAct()
+			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970404) and slot1:isInAct()
 		end,
 		isTip = function ()
-			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970403):isPassType() then
+			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970404):isPassType() then
 				return false
 			end
 

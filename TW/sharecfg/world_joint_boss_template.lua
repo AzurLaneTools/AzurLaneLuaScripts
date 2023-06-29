@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.world_joint_boss_template = {
 	{
-		state = "stop",
+		state = "always",
 		name = "飛龍·META",
 		painting = "feilong",
 		boss_level_id = 1,
@@ -30,7 +30,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "皇家方舟·META",
 		painting = "huangjiafangzhou",
 		boss_level_id = 16,
@@ -208,12 +208,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "反擊·META",
 		painting = "fanji",
 		boss_level_id = 91,
 		id = 7,
 		meta_id = 970403,
+		item_id = 100000,
 		description = {
 			{
 				"反擊焰火",
@@ -231,32 +232,6 @@ pg.world_joint_boss_template = {
 				"戰鬥中將會出現巨型熔岩形狀球體，觸碰敵方主力造成巨額傷害，並完全解除航母的隱蔽狀態。"
 			}
 		},
-		state = {
-			{
-				{
-					2023,
-					4,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					6,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		p_offset = {
 			-28.2,
 			609.2,
@@ -270,6 +245,74 @@ pg.world_joint_boss_template = {
 			0.95
 		}
 	},
+	{
+		item_id = 100000,
+		name = "聲望·META",
+		painting = "shengwang",
+		boss_level_id = 106,
+		id = 8,
+		meta_id = 970404,
+		description = {
+			{
+				"流星火雨",
+				3,
+				"戰鬥中將會出現從天而降的隕石形狀球體，在落地後造成範圍傷害。"
+			},
+			{
+				"破敵之炬-烈",
+				1,
+				"每次蓄力攻擊成功，都會提升自身增傷屬性。\n<color=#92fc63>累計蓄力攻擊成功兩次後進入“全力以赴”狀態，攻擊方式發生變化，提升自身增傷屬性並降低減傷屬性，同時增加命中。</color>"
+			},
+			{
+				"破敵之炬-靜",
+				1,
+				"每次蓄力攻擊失敗，都會回復自身少量耐久並提升減傷屬性。\n<color=#92fc63>累計蓄力攻擊失敗兩次後進入“沉寂”狀態，攻擊方式發生變化，提升自身減傷屬性並降低增傷屬性，同時減少命中。</color>"
+			},
+			{
+				"熔火之心",
+				2,
+				"戰鬥中將會出現巨型熔岩形狀球體，觸碰敵方主力造成巨額傷害，並完全解除航母的隱蔽狀態。"
+			}
+		},
+		state = {
+			{
+				{
+					2023,
+					6,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					9,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-49.8,
+			589.5,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			388,
+			586.2,
+			0.9,
+			0.9
+		}
+	},
 	all = {
 		1,
 		2,
@@ -277,6 +320,7 @@ pg.world_joint_boss_template = {
 		4,
 		5,
 		6,
-		7
+		7,
+		8
 	}
 }

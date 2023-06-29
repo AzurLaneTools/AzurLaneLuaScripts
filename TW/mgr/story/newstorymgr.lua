@@ -149,6 +149,57 @@ function slot0.StoryLinkNames(slot0, slot1)
 	return uv0.linkNames[slot1]
 end
 
+function slot0._GetStoryPaintingsByName(slot0, slot1)
+	return slot1:GetUsingPaintingNames()
+end
+
+function slot0.GetStoryPaintingsByName(slot0, slot1)
+	if not uv0(slot1) then
+		uv1("not exist story file")
+
+		return {}
+	end
+
+	return slot0:_GetStoryPaintingsByName(Story.New(slot2, false))
+end
+
+function slot0.GetStoryPaintingsByNameList(slot0, slot1)
+	slot2 = {}
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot1) do
+		slot12 = slot8
+
+		for slot12, slot13 in ipairs(slot0:GetStoryPaintingsByName(slot12)) do
+			slot3[slot13] = true
+		end
+	end
+
+	for slot7, slot8 in pairs(slot3) do
+		table.insert(slot2, slot7)
+	end
+
+	return slot2
+end
+
+function slot0.GetStoryPaintingsById(slot0, slot1)
+	return slot0:GetStoryPaintingsByIdList({
+		slot1
+	})
+end
+
+function slot0.GetStoryPaintingsByIdList(slot0, slot1)
+	return slot0:GetStoryPaintingsByNameList(_.map(slot1, function (slot0)
+		return uv0:StoryId2StoryName(slot0)
+	end))
+end
+
+function slot0.ShouldDownloadRes(slot0, slot1)
+	return _.any(slot0:GetStoryPaintingsByName(slot1), function (slot0)
+		return PaintingConst.VerifyPaintingFileName(slot0)
+	end)
+end
+
 function slot0.Init(slot0, slot1)
 	slot0.state = uv0
 	slot0.playedList = {}
@@ -330,26 +381,41 @@ function slot0.SoloPlay(slot0, slot1, slot2, slot3, slot4)
 		return nil
 	end
 
-	slot0:OnStart()
+	slot0:CheckResDownload(slot0.storyScript, function ()
+		uv0:OnStart()
 
-	slot0.records = {}
-	slot8 = {}
-	slot0.currPlayer = nil
+		uv0.records = {}
+		slot0 = {}
+		uv0.currPlayer = nil
 
-	for slot12, slot13 in ipairs(slot0.storyScript.steps) do
-		table.insert(slot8, function (slot0)
-			slot1 = uv0.players[uv1:GetMode()]
-			uv0.currPlayer = slot1
-			slot2 = StoryRecord.New()
+		for slot4, slot5 in ipairs(uv0.storyScript.steps) do
+			table.insert(slot0, function (slot0)
+				slot1 = uv0.players[uv1:GetMode()]
+				uv0.currPlayer = slot1
+				slot2 = StoryRecord.New()
 
-			table.insert(uv0.records, slot2)
-			slot1:Play(uv0.storyScript, uv2, slot2, slot0)
+				table.insert(uv0.records, slot2)
+				slot1:Play(uv0.storyScript, uv2, slot2, slot0)
+			end)
+		end
+
+		seriesAsync(slot0, function ()
+			uv0:OnEnd(uv1)
 		end)
-	end
-
-	seriesAsync(slot8, function ()
-		uv0:OnEnd(uv1)
 	end)
+end
+
+function slot0.CheckResDownload(slot0, slot1, slot2)
+	slot3 = slot0:_GetStoryPaintingsByName(slot1)
+
+	originalPrint("start download res " .. table.concat(slot3, ","))
+	PaintingConst.PaintingDownload({
+		isShowBox = true,
+		paintingNameList = _.map(slot3, function (slot0)
+			return "painting/" .. slot0
+		end),
+		finishFunc = slot2
+	})
 end
 
 function slot0.CheckState(slot0)

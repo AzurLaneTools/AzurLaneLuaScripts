@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"永夜之城的魅影\n\n<size=45>六 猝不及防的攻势</size>",
+					"永夜之城的魅影\n\n<size=45>六 猝不及防的攻勢</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "来到了一处宽阔的大厅。",
+			say = "來到了一處寬闊的大廳。",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "终于来到这里了啊，人类~多亏你的所作所为，现在城堡变得一团乱了哦。",
+			say = "終於來到這裡了啊，人類~多虧你的所作所為，現在城堡變得一團亂了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "不过放心吧，我暂时不打算对你做些什么，毕竟我的目的和你一样——要离开这座城堡。",
+			say = "不過放心吧，我暫時不打算對你做些什麼，畢竟我的目的和你一樣——要離開這座城堡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405041,
-			say = "大小姐每天都嚷嚷着要出去看看，但从来没有得到过许可。所以这次计划瞒着所有人趁乱逃出去。",
+			say = "大小姐每天都嚷嚷著要出去看看，但從來沒有得到過許可。所以這次計劃瞞著所有人趁亂逃出去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "理由是什么不重要吧？重要的是我们目的一致~",
+			say = "理由是什麼不重要吧？重要的是我們目的一致~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "你不知道出口在哪里，但是我知道，所以跟我走吧~",
+			say = "你不知道出口在哪裡，但是我知道，所以跟我走吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "跟着{namecode:461}与{namecode:466}二人一同宽敞的大厅中走着。",
+			say = "跟著呂措與圖林根二人一同寬敞的大廳中走著。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "总感觉很安静呢……",
+			say = "總感覺很安靜呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "肩膀突然被{namecode:461}抱住了。",
+			say = "肩膀突然被呂措抱住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "哎呀，带人类你走了这么久的路，突然有些饿了呢。不补充下体力的话，我可就没法离开这里了。",
+			say = "哎呀，帶人類你走了這麼久的路，突然有些餓了呢。不補充下體力的話，我可就沒法離開這裡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "所以呀，人类，对不起啦~变成我的食粮吧！",
+			say = "所以呀，人類，對不起啦~變成我的食糧吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			},
 			options = {
 				{
-					content = "放弃抵抗",
+					content = "放棄抵抗",
 					flag = 1
 				},
 				{
@@ -280,7 +280,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那就多谢款待，我开动啦~",
+			say = "那就多謝款待，我開動啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "脖子被吸血鬼咬住，血液一点点地流出体内，意识也逐渐变得黯淡……",
+			say = "脖子被吸血鬼咬住，血液一點點地流出體內，意識也逐漸變得黯淡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "虽说刚才都是脑海中想象出的画面，但实际上……好疼？！",
+			say = "雖說剛才都是腦海中想像出的畫面，但實際上……好痛？！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -370,7 +370,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "居然真的咬了一下，甚至还舔了一口……",
+			say = "居然真的咬了一下，甚至還舔了一口……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呼呼，这就是指挥官的味道吗？我记住了哦~",
+			say = "呼呼，這就是指揮官的味道嗎？我記住了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "毕竟剧本这里写着“人类没能反应过来，被任性的吸血鬼大小姐咬住脖子吸干了血液”，所以不象征性地咬一下可不行吧~",
+			say = "畢竟劇本這裡寫著“人類沒能反應過來，被任性的吸血鬼大小姐咬住脖子吸乾了血液”，所以不象徵性地咬一下可不行吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			actor = 405041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "按照流程，这里就该游戏结束了。不过，既然是试玩，那么就请当做无事发生过，继续前进吧。",
+			say = "按照流程，這裡就該遊戲結束了。不過，既然是試玩，那麼就請當做無事發生過，繼續前進吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "千钧一发之际，拿出之前得到的十字架对准{namecode:461}。",
+			say = "千鈞一髮之際，拿出之前得到的十字架對準呂措。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "眼前的两名“吸血鬼”如同雕塑般定住不动了……接下来，应该能够轻易挣脱————",
+			say = "眼前的兩名“吸血鬼”如同雕塑般定住不動了……接下來，應該能夠輕易掙脫————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "……奇怪，{namecode:461}依然将整个身体用力压过来，完全无法挣脱……这是怎么回事？",
+			say = "……奇怪，呂措依然將整個身體用力壓過來，完全無法掙脫……這是怎麼回事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			actor = 405041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……{namecode:461}，按照剧本，你应该表现出一副受了攻击的样子，然后松开指挥官。",
+			say = "……呂措，按照劇本，妳應該表現出一副受了攻擊的樣子，然後鬆開指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "欸？我好不容易才抓住了指挥官，就这么放开也太可惜了！你说是吧，指挥官？",
+			say = "欸？我好不容易才抓住了指揮官，就這麼放開也太可惜了！你說對吧，指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "……原来不是解密出了问题，而是流程本身出了问题。",
+			say = "……原來不是解密出了問題，而是流程本身出了問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			actor = 405041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我不会直接干涉你这么做，不过我会把情况都如实反馈，至于{namecode:428}听了之后会不会考虑换个NPC……",
+			say = "我不會直接干涉妳這麼做，不過我會把情況都如實反饋，至於歐根聽了之後會不會考慮換個NPC……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎好吧好吧~那就……“哇！你怎么会有那个东西！”",
+			say = "哎好吧好吧~那就……“哇！你怎麼會有那個東西！”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "{namecode:461}以相当夸张的姿势退后了几步。",
+			say = "呂措以相當誇張的姿勢退後了幾步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呜……没想到你会有这种力量，那我就忍一忍肚子饿好了。我们的目的姑且还是一致的，继续跟我来吧~",
+			say = "嗚……沒想到你會有這種力量，那我就忍一忍肚子餓好了。我們的目的姑且還是一致的，繼續跟我來吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "人类，只要穿过这个很——长的走廊，就可以离开这座城堡了哦~",
+			say = "人類，只要穿過這個很——長的走廊，就可以離開這座城堡了哦~",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -683,7 +683,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "（不过——没记错的话，该到下一幕的角色登场的时候了呢~）",
+			say = "（不過——沒記錯的話，該到下一幕的角色登場的時候了呢~）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "不知从何处而来的烟雾弹在狭窄的走廊中爆炸了。",
+			say = "不知從何處而來的煙霧彈在狹窄的走廊中爆炸了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "烟雾之中隐约出现了两个身影——是{namecode:460}和谢菲尔德。",
+			say = "煙霧之中隱約出現了兩個身影——是塞德利茨和謝菲爾德。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "站住！你们要去哪里！",
+			say = "站住！妳們要去哪裡！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -805,7 +805,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405041,
-			say = "居然是吸血鬼猎人……趁乱进入城堡中的么，这下可麻烦了。",
+			say = "居然是吸血鬼獵人……趁亂進入城堡中的嗎，這下可麻煩了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论是吸血鬼还是其眷属，所有的血族都应接受圣裁，做好觉悟吧！",
+			say = "不論是吸血鬼還是其眷屬，所有的血族都應接受聖裁，做好覺悟吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -839,7 +839,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不会让你们逃跑的。",
+			say = "不會讓你們逃跑的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "人类，看来与我们一同行动的你被吸血鬼猎人当成眷属了哦。",
+			say = "人類，看來與我們一同行動的你被吸血鬼獵人當成眷屬了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +874,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "别担心，跑就完事了~我才不会乖乖被她们抓住呢！",
+			say = "別擔心，跑就好了~我才不會乖乖被她們抓住呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -893,7 +893,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "最后的终点就在眼前了。人……不对，同伴啊，一起加油逃出这里吧~",
+			say = "最後的終點就在眼前了。人……不對，同伴啊，一起加油逃出這裡吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

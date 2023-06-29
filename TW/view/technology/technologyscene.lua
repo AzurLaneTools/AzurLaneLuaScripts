@@ -844,7 +844,7 @@ end
 
 function slot0.updateInfo(slot0, slot1, slot2, slot3)
 	setImageSprite(slot1:Find("frame"), GetSpriteFromAtlas("technologycard", slot2:getConfig("bg") .. (slot3 == "desc" and "_l" or "")))
-	LoadImageSpriteAtlasAsync("technologyshipicon/" .. slot2:getConfig("bg_icon"), slot2:getConfig("bg_icon"), slot1:Find("frame/icon_mask/icon"), true)
+	setImageSprite(slot1:Find("frame/icon_mask/icon"), GetSpriteFromAtlas("technologyshipicon/" .. slot2:getConfig("bg_icon"), slot2:getConfig("bg_icon")), true)
 	setImageSprite(slot1:Find("frame/label"), GetSpriteFromAtlas("technologycard", slot2:getConfig("label")))
 	setImageSprite(slot1:Find("frame/label/text"), GetSpriteFromAtlas("technologycard", slot2:getConfig("label_color")), true)
 	setImageSprite(slot1:Find("frame/label/version"), GetSpriteFromAtlas("technologycard", "version_" .. slot2:getConfig("blueprint_version")), true)

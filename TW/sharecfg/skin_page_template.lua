@@ -96,6 +96,12 @@ pg.skin_page_template = {
 		res = "nvpu",
 		english_name = "Maid"
 	},
+	[18] = {
+		id = 18,
+		name = "紅月之夜 ",
+		res = "xixuegui",
+		english_name = "VAMPIRE NIGHT"
+	},
 	[19] = {
 		id = 19,
 		name = "夢幻童話",
@@ -149,6 +155,7 @@ pg.skin_page_template = {
 		15,
 		16,
 		17,
+		18,
 		19,
 		20,
 		21,

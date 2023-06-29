@@ -1,7 +1,6 @@
 slot0 = class("LotteryMediator", import("..base.ContextMediator"))
 slot0.ON_LAUNCH = "LotteryMediator:ON_LAUNCH"
 slot0.ON_SWITCH = "LotteryMediator:ON_SWITCH"
-slot0.OPEN = "LotteryMediator:OPEN"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.ON_LAUNCH, function (slot0, slot1, slot2, slot3, slot4)
@@ -31,7 +30,6 @@ function slot0.register(slot0)
 	end)
 	slot0.viewComponent:setActivity(getProxy(ActivityProxy):getActivityById(slot0.contextData.activityId))
 	slot0.viewComponent:setPlayerVO(getProxy(PlayerProxy):getData())
-	slot0:sendNotification(uv0.OPEN)
 end
 
 function slot0.listNotificationInterests(slot0)

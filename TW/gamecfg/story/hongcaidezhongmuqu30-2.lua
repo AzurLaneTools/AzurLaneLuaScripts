@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "theme-arbitrator-tower",
-			say = "就在白鹰、北方联合以及铁血舰队都奋战之时，重樱舰队依然选择了按兵不动。",
+			say = "就在白鷹、北方聯合以及鐵血艦隊都奮戰之時，重櫻艦隊依然選擇了按兵不動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "（在这种战况下叫我怎么能忍住在一边冷眼旁观下去啊……）",
+			say = "（在這種戰況下叫我怎麼能忍住在一邊冷眼旁觀下去啊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:96}突然向着侧面加速，几枚塞壬的炮弹落到在她的身边，是近失弹。",
+			say = "瑞鶴突然向著側面加速，幾枚塞壬的炮彈落到在她的身邊，是近失彈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊————被攻击了——————",
+			say = "啊————被攻擊了——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "被攻击了就要发动反击对吧——————舰载机群出动！",
+			say = "被攻擊了就要發動反擊對吧——————艦載機群出動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "我可没违反命令哦，是塞壬先对我们开火的~！",
+			say = "我可沒違反命令哦，是塞壬先對我們開火的~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "随你便。",
+			say = "隨妳便。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那我就先上咯，重樱五航战所属，{namecode:96}号航空母舰现在加入战斗！",
+			say = "那我就先上了，重櫻五航戰所屬，瑞鶴號航空母艦現在加入戰鬥！",
 			effects = {
 				{
 					active = true,

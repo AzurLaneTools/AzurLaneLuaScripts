@@ -148,6 +148,7 @@ function slot0.listNotificationInterests(slot0)
 		GAME.FETCH_NPC_SHIP_DONE,
 		GAME.ZERO_HOUR_OP_DONE,
 		uv0.REFRESH_VIEW,
+		GAME.CONFIRM_GET_SHIP,
 		GAME.WILL_LOGOUT
 	}
 
@@ -215,6 +216,15 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == uv0.REFRESH_VIEW then
 		slot0.viewComponent:setVisible(false)
 		slot0.viewComponent:setVisible(true)
+	elseif slot2 == GAME.CONFIRM_GET_SHIP then
+		slot0:addSubLayers(Context.New({
+			mediator = BuildShipRemindMediator,
+			viewComponent = BuildShipRemindLayer,
+			data = {
+				ships = slot3.ships
+			},
+			onRemoved = slot3.callback
+		}))
 	elseif slot2 == GAME.WILL_LOGOUT then
 		slot0.viewComponent:OnLogOut()
 	end

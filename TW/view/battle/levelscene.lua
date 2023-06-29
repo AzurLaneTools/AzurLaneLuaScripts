@@ -620,7 +620,7 @@ function slot0.didEnter(slot0)
 
 	slot8 = LOCK_LIMIT_CHALLENGE and checkExist(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE), {
 		"isEnd"
-	}) == false or pg.constellation_challenge_month and #pg.constellation_challenge_month.all > 0
+	}) == false or pg.constellation_challenge_month and #pg.constellation_challenge_month.all > 0 and LimitChallengeConst.GetCurMonthConfig()
 
 	setActive(slot0.challengeBtn, slot8)
 	setActive(slot0.entranceLayer:Find("btns/btn_challenge"), slot8)

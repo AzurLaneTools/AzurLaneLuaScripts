@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域·未知空间",
+			say = "NA海域·未知空間",
 			side = 2,
 			bgName = "bg_endingsong_14",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "第十五台构建者，确认击破。",
+			say = "第十五台構建者，確認擊破。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "新的构建者出现确认……这次一次性出来了三台，打出的空缺又被补上了！",
+			say = "新的構建者出現確認……這次一次性出來了三台，打出的空缺又被補上了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那我们就加大火力再次消灭它们！",
+			say = "那我們就加大火力再次消滅它們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "裂缝之中的塞壬舰队与此前最明显的区别就是混入其中的大量“构建者”。",
+			say = "裂縫之中的塞壬艦隊與此前最明顯的區別就是混入其中的大量“構建者”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "它们穿插在规模庞大的塞壬舰队中与其他型号的塞壬协同作战，其标志性的蓝色护盾在一众量产型中格外显眼。",
+			say = "它們穿插在規模龐大的塞壬艦隊中與其他型號的塞壬協同作戰，其標誌性的藍色護盾在一眾量產型中格外顯眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "连天空和水下都不放过，现代与塞壬的对抗程度还真是疯狂。",
+			say = "連天空和水下都不放過，現代與塞壬的對抗程度還真是瘋狂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "我这辈子……不对，我这两辈子都没见过这么多的敌人！！！",
+			say = "我這輩子……不對，我這兩輩子都沒見過這麼多的敵人！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "简直无穷无尽！一直拖下去的话真的要打到弹药耗尽了！",
+			say = "簡直無窮無盡！一直拖下去的話真的要打到彈藥耗盡了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "届时，我们的配剑不就派上用场了？就算没有弹药，依靠利刃也能粉碎敌人！",
+			say = "屆時，我們的配劍不就派上用場了？就算沒有彈藥，依靠利刃也能粉碎敵人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "所以说这种方式太累了，我才不要啊……",
+			say = "所以說這種方式太累了，我才不要啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "埃尔德里奇……放电。",
+			say = "埃爾德里奇……放電。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "电气从埃尔德里奇的体内涌出，交错的电弧在空中形成了的奇怪电场，将整个指挥舰包覆其中。",
+			say = "電氣從埃爾德里奇的體內湧出，交錯的電弧在空中形成了的奇怪電場，將整個指揮艦包覆其中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "所有射向指挥舰的炮弹都因为电场的存在在很远的距离就发生了偏转。",
+			say = "所有射向指揮艦的炮彈都因為電場的存在在很遠的距離就發生了偏轉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……指挥官，不要让指挥舰，离开埃尔德里奇。",
+			say = "……指揮官，不要讓指揮艦，離開埃爾德里奇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "这个就是强化指挥舰安全性的特别对策么？！可究竟是怎么做到的……",
+			say = "這個就是強化指揮艦安全性的特別對策嗎？！可究竟是怎麼做到的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "指挥官，这些机体恐怕承担了指挥节点的作用，塞壬舰队的表现比往常更灵活了。",
+			say = "指揮官，這些機體恐怕承擔了指揮節點的作用，塞壬艦隊的表現比往常更靈活了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "和之前遇到的量产型测试这类似，这些应该就是构建者的量产型机体？",
+			say = "和之前遇到的量產型測試這類似，這些應該就是構建者的量產型機體？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,38 +323,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "看起来是这样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 499020,
-			side = 2,
-			bgName = "bg_endingsong_14",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			say = "不错，构建者的意识不在这里，那些不过是没有灵魂的躯壳而已。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_endingsong_14",
-			say = "这么下去永无止境，{namecode:440}，你发起了这场作战，接下来肯定有对策吧。",
+			say = "看起來是這樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +340,38 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "当然。继续向着光亮汇聚的方向前进，作为核心存储器的塔很快就要出现了。",
+			say = "不錯，構建者的意識不在這裡，那些不過是沒有靈魂的軀殼而已。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_endingsong_14",
+			say = "這麼下去永無止境，腓特烈大帝，妳發起了這場作戰，接下來肯定有對策吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 499020,
+			side = 2,
+			bgName = "bg_endingsong_14",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			say = "當然。繼續向著光亮匯聚的方向前進，作為核心儲存器的塔很快就要出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "那里就是构建者的主机，构建者的意识真正所在之处。",
+			say = "那裡就是構建者的主機，構建者的意識真正所在之處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "将其破坏就能给予塞壬致命一击，为其带来永久不可逆的损伤。",
+			say = "將其破壞就能給予塞壬致命一擊，為其帶來永久不可逆的損傷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "……不过那里也是敌人最为密集的方向。",
+			say = "……不過那裡也是敵人最為密集的方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "好说好说~把那个塔拆了就能解决问题了吧？",
+			say = "好說好說~把那個塔拆了就能解決問題了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "你们就是……{namecode:480}与{namecode:482}？",
+			say = "妳們就是……埃吉爾與奧古斯特？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没错，正式见面还是第一次吧，碧蓝航线的指挥官。",
+			say = "沒錯，正式見面還是第一次吧，碧藍航線的指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "外面的敌人已经全部清理干净，我们也就进来玩咯。",
+			say = "外面的敵人已經全部清理乾淨，我們也就進來玩囉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "请在指挥舰中扶稳把手。前进的道路就由我们来打开好了。",
+			say = "請在指揮艦中扶穩把手。前進的道路就由我們來打開好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "用幻想撕裂现实，用火焰洗刷海天！",
+			say = "用幻想撕裂現實，用火焰洗刷海天！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "轟————————！",
 			side = 2,
 			bgName = "bg_endingsong_14",
 			dir = 1,
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "{namecode:480}开火了。其炮口的爆风振聋发聩，即便有着电场的保护，指挥舰也在气浪中产生了剧烈的摇晃。",
+			say = "埃吉爾與奧古斯特同時開火了。炮口的爆風振聾發聵，即便有著電場的保護，指揮艦也在氣浪中產生了劇烈的搖晃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "紧接着，由铁血计划舰组成的舰队向着敌人最密集的方向突击而去。",
+			say = "緊接著，由鐵血計劃艦組成的艦隊向著敵人最密集的方向突擊而去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "出膛的炮弹拖着发光的尾迹如同流星群一样坠落在塞壬舰队中，海面上逐渐形成了一条道路。",
+			say = "出膛的炮彈拖著發光的尾跡如同流星群一樣墜落在塞壬艦隊中，海面上逐漸形成了一條道路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "不过，也有漏网之鱼。",
+			say = "不過，也有漏網之魚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "大量未被完全摧毁的塞壬没有选择攻击铁血计划舰队，而是向着指挥舰方向直扑而来。",
+			say = "大量未被完全摧毀的塞壬沒有選擇攻擊鐵血計劃艦隊，而是向著指揮艦方向直撲而來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			say = "佐治亚快速移动到指挥舰最前方，开始一个不漏的狩猎着漏网之鱼。",
+			say = "喬治亞快速移動到指揮艦最前方，開始一個不漏的狩獵著漏網之魚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			bgName = "bg_endingsong_14",
 			dir = 1,
 			blackBg = true,
-			say = "前路畅通无阻，各舰继续前进————",
+			say = "前路暢通無阻，各艦繼續前進————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

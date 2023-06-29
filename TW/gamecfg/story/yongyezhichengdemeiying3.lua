@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"永夜之城的魅影\n\n<size=45>三 不胜的诅咒</size>",
+					"永夜之城的魅影\n\n<size=45>三 不勝的詛咒</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "果然，结果是平局。",
+			say = "果然，結果是平局。",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来，和之前相比并没有什么变化呢。",
+			say = "看來，和之前相比並沒有什麼變化呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402071,
-			say = "持续在这棋局里的诅咒，终究无法被打破，实在可惜。",
+			say = "持續在這棋局裡的詛咒，終究無法被打破，實在可惜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402071,
-			say = "但就这么吸干你的话，也只能解一时之渴，无法排解这困扰吾许久的乏闷感……",
+			say = "但就這麼吸乾你的話，也只能解一時之渴，無法排解這困擾吾許久的乏悶感……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我改变主意了~如果你愿意服从于我，今后永远留在这里作为我的宠物取悦我，我就将给予你无忧无虑的生活，以及人类梦寐以求的永生~",
+			say = "我改變主意了~如果你願意服從於我，今後永遠留在這裡作為我的寵物取悅我，我就將給予你無憂無慮的生活，以及人類夢寐以求的永生~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402071,
-			say = "亦或是，吾再给予你一次对弈的机会。但你若没能把握住这最后的机会，等待你的就只有成为食粮的悲惨下场了。",
+			say = "亦或是，吾再給予你一次對弈的機會。但你若沒能把握住這最後的機會，等待你的就只有成為食糧的悲慘下場了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "识时务者为俊杰，你应该知道哪一边才是对你而言是正确的选择吧~?",
+			say = "識時務者為俊傑，你應該知道哪一邊才是對你而言是正確的選擇吧~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "这是要做出选择的意思么……如果选错的话，看来会有非常危险的后果……",
+			say = "這是要做出選擇的意思嗎……如果選錯的話，看來會有非常危險的後果……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,11 +169,11 @@ return {
 			},
 			options = {
 				{
-					content = "选择「服从」",
+					content = "選擇「服從」",
 					flag = 1
 				},
 				{
-					content = "选择「再次对弈」",
+					content = "選擇「再次對弈」",
 					flag = 2
 				}
 			}
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，居然选择了服从么，真是软弱呢~",
+			say = "哎呀，居然選擇了服從嗎，真是軟弱呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错，这才是你最正确的选择~现在，到我的身边来吧，我可爱的小宠物。",
+			say = "沒錯，這才是你最正確的選擇~現在，到我的身邊來吧，我可愛的小寵物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "我还需要时间准备隶属之契与初拥之仪，在那之前就在我的怀里好好躺着，于梦乡之中静静等待吧~",
+			say = "我還需要時間準備隸屬之契與初擁之儀，在那之前就在我的懷裡好好躺著，於夢鄉之中靜靜等待吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "无须担心，不必害怕，只需要稍微睡一会就好~",
+			say = "無須擔心，不必害怕，只需要稍微睡一會就好~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "轻柔而又魅惑的声音叩击着心防，而且为什么……好像真的……有点……困……了……",
+			say = "輕柔而又魅惑的聲音叩擊著心防，而且為什麼……好像真的……有點……睏……了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>BAD END 01：眷属</size>",
+					"<size=51>BAD END 01：眷屬</size>",
 					2
 				}
 			}
@@ -300,7 +300,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "醒来的时候，{namecode:457}和{namecode:448}已经不见了，桌上只剩下了一个镶嵌着红宝石的项链。",
+			say = "醒來的時候，約克和埃姆登已經不見了，桌上只剩下了一個鑲嵌著紅寶石的項鍊。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -336,7 +336,7 @@ return {
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎呀，没想到指挥官在第一个关卡就走到坏结局了呢。不过既然是试玩，就请继续吧。",
+			say = "哎呀，沒想到指揮官在第一個關卡就走到壞結局了呢。不過既然是試玩，就請繼續吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "桌上的“血之诅咒项链”原本是通过这一关时获得的奖励物品，请务必带上哦~",
+			say = "桌上的“血之詛咒項鍊”原本是通過這一關時獲得的獎勵物品，請務必帶上哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "从与携带的“通讯器”完全不同的方向传来了{namecode:428}的声音。",
+			say = "從與攜帶的“通訊器”完全不同的方向傳來了歐根的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "通往下一关的门我已经打开了哦。失败的关卡无法重来，下一关再加把劲吧~",
+			say = "通往下一關的門我已經打開了哦。失敗的關卡無法重來，下一關再加把勁吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼……敬酒不吃吃罚酒呢。",
+			say = "哼……敬酒不吃吃罰酒呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "{namecode:448}的语气突然严肃了起来。",
+			say = "埃姆登的語氣突然嚴肅了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那这就是你最后的机会了，人类。",
+			say = "那這就是你最後的機會了，人類。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果给不出让我们满意的答卷，等待你的就只有成为食粮的悲惨结局。",
+			say = "如果給不出讓我們滿意的答卷，等待你的就只有成為食糧的悲慘結局。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "要破解的谜面是“不胜的诅咒”，而不是“赢下{namecode:448}”。",
+			say = "要破解的謎面是“不勝的詛咒”，而不是“贏下埃姆登”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "那么也许，这个思路能行……",
+			say = "那麼也許，這個思路能行……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			actor = 403111,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对局结束。取得胜利的是……{namecode:448}。",
+			say = "對局結束。取得勝利的是……埃姆登。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "没有试图赢下对局，而是故意将胜利拱手相让么！",
+			say = "沒有試圖贏下對局，而是故意將勝利拱手相讓嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯……“不胜的诅咒”确实只需要任何一方获胜就能视为破除。",
+			say = "嗯……“不勝的詛咒”確實只需要任何一方獲勝就能視為破除。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "虽然很可惜，不过我也必须按规则办事……你可以离开了，人类。",
+			say = "雖然很可惜，不過我也必須按規則辦事……你可以離開了，人類。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对了，在离开之前……{namecode:457}，把那个东西拿出来吧。",
+			say = "對了，在離開之前……約克，把那個東西拿出來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "接过了{namecode:457}递来的东西——一个镶嵌着红宝石的项链。",
+			say = "接過了約克遞來的東西——一個鑲嵌著紅寶石的項鍊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "这个项链叫做“血之诅咒项链”。记住它的名字，以后你会用上的。",
+			say = "這個項鍊叫做“血之詛咒項鍊”。記住它的名字，以後你會用上的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			blackBg = true,
-			say = "通往其他房间的门打开了，这一关……就算过了吧？",
+			say = "通往其他房間的門打開了，這一關……就算過了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

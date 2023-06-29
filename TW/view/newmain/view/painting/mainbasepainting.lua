@@ -91,12 +91,43 @@ function slot0.TriggerPersonalTask(slot0, slot1)
 	end
 
 	for slot7, slot8 in ipairs(pg.task_data_trigger.all) do
-		if pg.task_data_trigger[slot8].group_id == slot1 and not slot2:getFinishTaskById(slot9.task_id) then
-			pg.m02:sendNotification(GAME.TRIGGER_TASK, slot10)
+		if pg.task_data_trigger[slot8].group_id == slot1 then
+			if not slot2:getFinishTaskById(slot9.task_id) then
+				slot0:CheckStoryDownload(slot10, function ()
+					pg.m02:sendNotification(GAME.TRIGGER_TASK, uv0)
+				end)
 
-			return
+				break
+			end
 		end
 	end
+end
+
+function slot0.CheckStoryDownload(slot0, slot1, slot2)
+	slot3 = {}
+	slot4 = slot1
+
+	while true do
+		slot5 = pg.task_data_template[slot4]
+
+		table.insert(slot3, slot5.story_id)
+
+		if slot5.next_task == "" or slot5.next_task == "0" then
+			break
+		end
+
+		slot4 = slot4 + 1
+	end
+
+	slot5 = pg.NewStoryMgr.GetInstance()
+
+	PaintingConst.PaintingDownload({
+		isShowBox = true,
+		paintingNameList = _.map(slot5:GetStoryPaintingsByNameList(slot3), function (slot0)
+			return "painting/" .. slot0
+		end),
+		finishFunc = slot2
+	})
 end
 
 function slot0.TriggerEventAtFirstTime(slot0)

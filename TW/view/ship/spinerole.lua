@@ -150,15 +150,7 @@ function slot0.SetActionOnce(slot0, slot1)
 		return
 	end
 
-	ReflectionHelp.RefCallMethod(typeof("Spine.AnimationState"), "SetAnimation", slot0._modleGraphic.AnimationState, {
-		typeof("System.Int32"),
-		typeof("System.String"),
-		typeof("System.Boolean")
-	}, {
-		0,
-		slot1,
-		false
-	})
+	slot0._modleGraphic.AnimationState:SetAnimation(0, slot1, false)
 	slot0:HiddenAttachmentByAction(slot1)
 end
 

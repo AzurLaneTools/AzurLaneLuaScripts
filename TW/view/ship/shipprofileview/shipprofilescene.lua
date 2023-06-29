@@ -68,6 +68,7 @@ function slot0.init(slot0)
 	slot0.viewBtn = slot0:findTF("bottom/view_btn")
 	slot0.shareBtn = slot0:findTF("bottom/share_btn")
 	slot0.rotateBtn = slot0:findTF("bottom/rotate_btn")
+	slot0.cryptolaliaBtn = slot0:findTF("bottom/cryptolalia_btn")
 	slot0.leftProfile = slot0:findTF("adapt/profile_left_panel", slot0.blurPanel)
 	slot0.modelContainer = slot0:findTF("model", slot0.leftProfile)
 	slot0.live2DBtn = ShipProfileLive2dBtn.New(slot0:findTF("L2D_btn", slot0.blurPanel))
@@ -99,6 +100,9 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
+	onButton(slot0, slot0.cryptolaliaBtn, function ()
+		uv0:emit(ShipProfileMediator.OPEN_CRYPTOLALIA, uv0.shipGroup.id)
+	end, SFX_PANEL)
 	onButton(slot0, slot0.obtainBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_OBTAIN,
@@ -249,6 +253,8 @@ function slot0.SetPainting(slot0, slot1, slot2)
 	setPaintingPrefabAsync(slot0.painting, slot3, "chuanwu")
 
 	slot0.paintingName = slot3
+
+	slot0:UpdateCryptolaliaBtn(slot1)
 end
 
 function slot0.RecyclePainting(slot0)
@@ -460,6 +466,12 @@ function slot0.ShiftSkin(slot0, slot1)
 	slot0:LoadSkinBg((not slot0.skin.bg_sp or slot0.skin.bg_sp == "" or not (PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.skin.painting, 0) == 0) or slot0.skin.bg_sp) and (not slot0.skin.bg or slot0.skin.bg == "" or slot0.skin.bg) and slot0.shipGroup:rarity2bgPrintForGet(slot0.showTrans, slot0.skin.id))
 
 	slot0.haveOp = PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/star_level_unlock_anim_" .. slot0.skin.id))
+end
+
+function slot0.UpdateCryptolaliaBtn(slot0, slot1)
+	setActive(slot0.cryptolaliaBtn, not LOCK_CRYPTOLALIA and getProxy(PlayerProxy):getRawData():ExistCryptolalia(ShipSkin.New({
+		id = slot1
+	}):getConfig("ship_group")))
 end
 
 function slot0.LoadModel(slot0, slot1)

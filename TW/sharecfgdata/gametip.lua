@@ -4092,7 +4092,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2023.4.6-2023.6.29</color>期間限時開放「反擊·META」的挑戰，在此期間指揮官可挑戰「反擊·META」累計其同步值獲取<color=#92fc63>「反擊·META」角色</color>及其他豐厚獎勵
+1. <color=#92fc63>2023.4.6-2023.6.29</color>期間限時開放「聲望·META」的挑戰，在此期間指揮官可挑戰「聲望·META」累計其同步值獲取<color=#92fc63>「聲望·META」角色</color>及其他豐厚獎勵
 <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標數據」獲取與解析
@@ -4121,7 +4121,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>請在參與作戰時保持網路環境順暢</color>
 
 6.火力支援
-隨著信標·META挑戰的進行，從第31天開始，即2023.5.5~2023.6.29期間，艦隊挑戰「反擊·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。
+隨著信標·META挑戰的進行，從第31天開始，即2023.7.28~2023.9.21期間，艦隊挑戰「聲望·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。
 ※此支援只會在指揮官自己發現的信標·META戰鬥中出現，每次挑戰均會觸發。 ]]
 		}
 	}
@@ -9635,7 +9635,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "前衛、不撓、復仇 建造機率UP！"
+	tip = "埃姆登、呂措、埃爾賓、約克建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -13061,6 +13061,10 @@ _G.pg.base.gametip.msgbox_repair = {
 
 _G.pg.base.gametip.msgbox_repair_l2d = {
 	tip = "修復L2D"
+}
+
+_G.pg.base.gametip.msgbox_repair_painting = {
+	tip = "修復立繪"
 }
 
 _G.pg.base.gametip.word_no_cache = {
@@ -18821,6 +18825,14 @@ _G.pg.base.gametip.setting_resdownload_title_sound = {
 	tip = "語音包資源更新"
 }
 
+_G.pg.base.gametip.setting_resdownload_title_manga = {
+	tip = "漫畫資源更新"
+}
+
+_G.pg.base.gametip.setting_resdownload_title_main_group = {
+	tip = "完整資源更新"
+}
+
 _G.pg.base.gametip.settings_battle_title = {
 	tip = "鍵位設置"
 }
@@ -20047,8 +20059,194 @@ P.S.紀錄儀的記錄容量有限，請務必及時前往解析
 紀錄容量上限:$3/$4]]
 }
 
+_G.pg.base.gametip.world_past_boss_item_info = {
+	tip = [[
+檔案信標紀錄儀|用於紀錄在大型作戰中收集到的「檔案信標數據」的裝置，達到指定數據量後可據此數據進行解析，發現特定的信標
+P.S.紀錄儀的紀錄容量有限，請務必及時前往解析
+每日獲取上限:$1/$2
+紀錄容量上限：$3/$4]]
+}
+
+_G.pg.base.gametip.world_boss_lefttime = {
+	tip = "$1天"
+}
+
+_G.pg.base.gametip.world_boss_item_count_noenough = {
+	tip = "情報解析數據不足"
+}
+
+_G.pg.base.gametip.world_boss_item_usage_tip = {
+	tip = "※本期信標與檔案信標不能同時進行解析"
+}
+
+_G.pg.base.gametip.world_boss_no_select_archives = {
+	tip = "請先在信標檔案中開啟解析"
+}
+
+_G.pg.base.gametip.world_boss_archives_item_count_noenough = {
+	tip = "檔案信標數據不足"
+}
+
+_G.pg.base.gametip.world_boss_archives_are_clear = {
+	tip = "全部META解析完成"
+}
+
+_G.pg.base.gametip.world_boss_switch_archives = {
+	tip = "當前已開啟$1的檔案解析，是否切換？ \n（不會影響當前開啟的檔案信標）"
+}
+
+_G.pg.base.gametip.world_boss_switch_archives_success = {
+	tip = "開啟成功，可在檔案信標界面進行解析"
+}
+
+_G.pg.base.gametip.world_boss_archives_auto_battle_unopen = {
+	tip = "自動作戰將在完成一次挑戰後開啟"
+}
+
+_G.pg.base.gametip.world_boss_archives_need_stop_auto_battle = {
+	tip = "自動作戰進行中，無法開始挑戰"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle = {
+	tip = "結束作戰"
+}
+
+_G.pg.base.gametip.world_boss_archives_continue_auto_battle = {
+	tip = "繼續作戰"
+}
+
+_G.pg.base.gametip.world_boss_archives_auto_battle_reusle_title = {
+	tip = "自動作戰完成"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_title = {
+	tip = "自動作戰中···"
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip = {
+	tip = "剩餘時間："
+}
+
+_G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip1 = {
+	tip = "(中途結束自動作戰不會對信標造成傷害且油耗不返還)"
+}
+
+_G.pg.base.gametip.world_archives_boss_help = {
+	tip = {
+		{
+			info = [[
+檔案信標說明
+
+1. 玩家可以從「信標檔案」介面中開啟檔案META的解析並進行挑戰，累計其同步值獲取<color=#92fc63>META角色</color>及其他豐厚獎勵；早期活動獲取的同步值將繼承至信標檔案中
+
+2.「檔案信標數據」獲取與解析
+·指揮官可通過在大型作戰中獲取「檔案信標數據」，達到指定數據量後進行解析並發現信標
+·每日最多可獲取 <color=#92fc63>200</color>點，每日0點刷新可獲取點數，尚未使用的「檔案信標數據」將會保留。
+·每次解析消耗「檔案信標數據」<color=#92fc63>100</color>點
+
+3.開啟檔案解析和檔案解析切換
+·指揮官可以在「信標檔案」介面開啟需要解析的META角色，開啟後可以在「檔案信標」介面進行解析和挑戰
+·開啟解析後可以任意切換，沒有限制。
+
+4.挑戰自己解析的信標
+·第一次挑戰自己解析的信標不會消耗石油，從第二次開始，隨著挑戰次數的增加，每次挑戰消耗的石油會從<color=#92fc63>40</color>點逐漸減少至<color=#92fc63>0</color>點。 (不會消耗挑戰次數)
+·當信標HP歸零後視為戰鬥勝利，指揮官可以領取大量角色同步值獎勵。
+·每個被解析的信標只會存在<color=#92fc63>24小時</color>，過期後將會消失。
+·檔案信標初始等級為15級。
+
+5.挑戰其他信標
+·在檔案列表介面的「好友」、「大艦隊」欄處可以挑戰其他指揮官發起求助的信標
+·<color=#92fc63>檔案信標支援挑戰無次數限制，不消耗石油，也沒有獎勵</color>
+·同一個信標最多能允許累計30位指揮官進行挑戰
+
+6.戰鬥說明
+·挑戰檔案信標暫不可使用指揮喵與潛艇
+·戰鬥結算時不會獲得經驗值，不會影響艦船心情值
+·戰鬥中不可中途退出，如果出現網路波動導致掉線的情況：
+①挑戰自己解析的信標時將會消耗40點石油(非第一次挑戰)，且不會計算已造成的傷害
+②支援檔案信標作戰無獎勵，無次數限制
+ <color=#92fc63>請在參與作戰時保持網路環境暢通</color>
+
+7.自動戰鬥功能說明
+·指揮官在手動挑戰一次自己解析的信標後可以解鎖自動作戰功能
+·自動作戰根據指揮官對當前檔案META造成的最高傷害進行自動戰鬥，根據最高傷害計算需要作戰的次數，並消耗對應的石油，石油消耗和手動挑戰的消耗相同
+·自動作戰固定耗時15分鐘，離開挑戰介面或退出遊戲不影響自動作戰
+·指揮官可以手動取消自動作戰，但已消耗的石油不會返還，且不會計算已造成的傷害。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.world_archives_boss_list_help = {
+	tip = {
+		{
+			info = [[
+信標檔案功能說明
+
+1. 信標檔案中的META艦船同步值會繼承，累計同步值獎勵無法重複獲取
+2.指揮官可以在信標檔案中開啟檔案解析、切換解析、領取同步值獎勵
+3.META艦船同步值獎勵全部領取完後會進入解析完畢分頁，指揮官可以在分頁中查看]]
+		}
+	}
+}
+
+_G.pg.base.gametip.archives_boss_was_opened = {
+	tip = "當前有正在解析的檔案信標，暫時無法前往我的信標"
+}
+
+_G.pg.base.gametip.current_boss_was_opened = {
+	tip = "當前有正在解析的本期信標，暫時無法前往檔案信標"
+}
+
+_G.pg.base.gametip.world_boss_title_auto_battle = {
+	tip = "自動作戰"
+}
+
+_G.pg.base.gametip.world_boss_title_highest_damge = {
+	tip = "最高傷害"
+}
+
+_G.pg.base.gametip.world_boss_title_estimation = {
+	tip = "本次自動作戰預計"
+}
+
+_G.pg.base.gametip.world_boss_title_battle_cnt = {
+	tip = "作戰次數"
+}
+
+_G.pg.base.gametip.world_boss_title_consume_oil_cnt = {
+	tip = "累計油耗"
+}
+
+_G.pg.base.gametip.world_boss_title_spend_time = {
+	tip = "所需時間"
+}
+
+_G.pg.base.gametip.world_boss_title_total_damage = {
+	tip = "總傷害"
+}
+
+_G.pg.base.gametip.world_no_time_to_auto_battle = {
+	tip = "當前信標剩餘時間不足！"
+}
+
+_G.pg.base.gametip.world_boss_current_boss_label = {
+	tip = "今日已獲取"
+}
+
+_G.pg.base.gametip.world_boss_current_boss_label1 = {
+	tip = "解析消耗"
+}
+
+_G.pg.base.gametip.world_boss_archives_boss_tip = {
+	tip = "支援檔案信標作戰無獎勵，不消耗次數"
+}
+
 _G.pg.base.gametip.world_boss_progress_no_enough = {
 	tip = "信標數據不足"
+}
+
+_G.pg.base.gametip.world_boss_auto_battle_no_oil = {
+	tip = "當前石油儲備不足！"
 }
 
 _G.pg.base.gametip.meta_syn_value_label = {
@@ -22583,4 +22781,160 @@ _G.pg.base.gametip.game_ticket_current_month = {
 
 _G.pg.base.gametip.pre_combat_consume = {
 	tip = "消耗："
+}
+
+_G.pg.base.gametip.file_down_msgbox = {
+	tip = "檢測到客戶端存在關鍵資源缺失的情況，\n需要下載<color=#92fc63>$1</color>的資源才能繼續進行遊戲，\n是否開始下載？"
+}
+
+_G.pg.base.gametip.file_down_mgr_title = {
+	tip = "資源下載中"
+}
+
+_G.pg.base.gametip.file_down_mgr_progress = {
+	tip = "$1/$2"
+}
+
+_G.pg.base.gametip.file_down_mgr_error = {
+	tip = "檔案下載失敗:$1\n錯誤代碼:$2\n是否重試?"
+}
+
+_G.pg.base.gametip.last_building_not_shown = {
+	tip = "上次建造時未能展示的已獲取角色"
+}
+
+_G.pg.base.gametip.setting_group_prefs_tip = {
+	tip = "啟動時默認下載"
+}
+
+_G.pg.base.gametip.group_prefs_switch_tip = {
+	tip = "默認下載方式已更改，將在下次啟動時生效"
+}
+
+_G.pg.base.gametip.main_group_msgbox_content = {
+	tip = "下載後，客戶端將會變為完整客戶端，獲得遊戲的完整體驗。本次更新需要下載$1的檔案，是否確認？"
+}
+
+_G.pg.base.gametip.word_maingroup_checking = {
+	tip = "校驗中"
+}
+
+_G.pg.base.gametip.word_maingroup_checktoupdate = {
+	tip = "點擊下載"
+}
+
+_G.pg.base.gametip.word_maingroup_checkfailure = {
+	tip = "檢查失敗，點擊重試"
+}
+
+_G.pg.base.gametip.word_maingroup_updating = {
+	tip = "更新中..."
+}
+
+_G.pg.base.gametip.word_maingroup_updatesuccess = {
+	tip = "更新完成"
+}
+
+_G.pg.base.gametip.word_maingroup_updatefailure = {
+	tip = "更新失敗，點擊重試"
+}
+
+_G.pg.base.gametip.group_download_tip = {
+	tip = "本次更新需要下載$1的檔案，是否確認？"
+}
+
+_G.pg.base.gametip.word_manga_checking = {
+	tip = "校驗中"
+}
+
+_G.pg.base.gametip.word_manga_checktoupdate = {
+	tip = "點擊下載"
+}
+
+_G.pg.base.gametip.word_manga_checkfailure = {
+	tip = "檢查失敗，點擊重試"
+}
+
+_G.pg.base.gametip.word_manga_updating = {
+	tip = "更新中，進度:$1/$2"
+}
+
+_G.pg.base.gametip.word_manga_updatesuccess = {
+	tip = "更新完成"
+}
+
+_G.pg.base.gametip.word_manga_updatefailure = {
+	tip = "更新失敗，點擊重試"
+}
+
+_G.pg.base.gametip.cryptolalia_lock_res = {
+	tip = "尚未獲得資源"
+}
+
+_G.pg.base.gametip.cryptolalia_not_download_res = {
+	tip = "尚未下載的資源"
+}
+
+_G.pg.base.gametip.cryptolalia_timelimie = {
+	tip = "限時"
+}
+
+_G.pg.base.gametip.cryptolalia_label_downloading = {
+	tip = "下載中loading....."
+}
+
+_G.pg.base.gametip.cryptolalia_delete_res = {
+	tip = "清除資源($1)"
+}
+
+_G.pg.base.gametip.cryptolalia_delete_res_tip = {
+	tip = "是否確認刪除資源($1)"
+}
+
+_G.pg.base.gametip.cryptolalia_delete_res_title = {
+	tip = "下載資源"
+}
+
+_G.pg.base.gametip.cryptolalia_use_gem_title = {
+	tip = "使 用 鑽 石 兌 換"
+}
+
+_G.pg.base.gametip.cryptolalia_use_ticket_title = {
+	tip = "使 用 獎 券 兌 換"
+}
+
+_G.pg.base.gametip.cryptolalia_exchange = {
+	tip = "立即兌換"
+}
+
+_G.pg.base.gametip.cryptolalia_exchange_success = {
+	tip = "解鎖成功"
+}
+
+_G.pg.base.gametip.cryptolalia_list_title = {
+	tip = "密語列表"
+}
+
+_G.pg.base.gametip.cryptolalia_list_subtitle = {
+	tip = "共$1個"
+}
+
+_G.pg.base.gametip.cryptolalia_download_done = {
+	tip = "下載完成"
+}
+
+_G.pg.base.gametip.cryptolalia_coming_soom = {
+	tip = "製作中……"
+}
+
+_G.pg.base.gametip.cryptolalia_unopen = {
+	tip = "暫未開放"
+}
+
+_G.pg.base.gametip.cryptolalia_no_ticket = {
+	tip = "密語獎券不足，可前往功能道具商店進行購買"
+}
+
+_G.pg.base.gametip.cryptolalia_entrance_coming_soom = {
+	tip = "密語檔案室建設中..."
 }

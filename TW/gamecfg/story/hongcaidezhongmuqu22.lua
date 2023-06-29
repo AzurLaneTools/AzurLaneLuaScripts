@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "斯卡帕湾周边海域·指挥舰内",
+			say = "斯卡帕灣周邊海域·指揮艦內",
 			side = 2,
 			bgName = "bg_endingsong_11",
 			dir = 1,
@@ -37,8 +37,8 @@ return {
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃尔德里奇",
-			say = "指挥官……收到了好多、好多的通讯联络。",
+			actorName = "埃爾德里奇",
+			say = "指揮官……收到了好多、好多的通訊聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,8 +54,8 @@ return {
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃尔德里奇",
-			say = "要埃尔德里奇，读给你听么？",
+			actorName = "埃爾德里奇",
+			say = "要埃爾德里奇，讀給你聽嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,18 +66,18 @@ return {
 			},
 			options = {
 				{
-					content = "让埃尔德里奇来读。",
+					content = "讓埃爾德里奇來讀。",
 					flag = 1
 				},
 				{
-					content = "还是自己看吧。",
+					content = "還是自己看吧。",
 					flag = 2
 				}
 			}
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "埃爾德里奇",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
@@ -95,13 +95,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "埃爾德里奇",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“指挥官，铁血舰队，似乎……”",
+			say = "“指揮官，鐵血艦隊，似乎……”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,13 +113,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "埃爾德里奇",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“改变了，部署。”",
+			say = "“改變了，部署。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,13 +131,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "埃爾德里奇",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“{namecode:464}，已经向着，斯……卡帕湾撤退了。”",
+			say = "“烏爾里希，已經向著，斯……卡帕灣撤退了。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,13 +149,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "埃爾德里奇",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“明明，没遭遇到，严重损失。”",
+			say = "“明明，沒遭遇到，嚴重損失。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,13 +167,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "埃爾德里奇",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“计划舰，战斗力，果然，不容小觑。”",
+			say = "“計劃艦，戰鬥力，果然，不容小覷。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,13 +185,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "埃爾德里奇",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“打起来，真的，很过瘾……”",
+			say = "“打起來，真的，很過癮……”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,13 +203,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "埃爾德里奇",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“接下来，我需要，稍微，重整舰队……”",
+			say = "“接下來，我需要，稍微，重整艦隊……”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,13 +221,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "埃爾德里奇",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“在，安排好，受伤的，同伴……“",
+			say = "“再，安排好，受傷的，同伴……“",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,13 +239,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "埃爾德里奇",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“补充完，量产型，后再，继续前进……”",
+			say = "“補充完，量產型，後再，繼續前進……”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,13 +257,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "埃爾德里奇",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“我们，决战时候，再见啦……来自，{namecode:199}。”",
+			say = "“我們，決戰時候，再見啦……來自，紐澤西。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "……让埃尔德里奇来读这些报告似乎有些太困难了，接下来还是自己看吧。",
+			say = "……讓埃爾德里奇來讀這些報告似乎有些太困難了，接下來還是自己看吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "一段时间后——",
+			say = "一段時間後——",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "根据情报汇总，可以确认铁血舰队再次整体性改变了战术。",
+			say = "根據情報匯總，可以確認鐵血艦隊再次整體性改變了戰術。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "她们不再漫无止境的干扰与拖延，而是边打边撤，有序向斯卡帕湾方向集中。",
+			say = "她們不再漫無止境的干擾與拖延，而是邊打邊撤，有序向斯卡帕灣方向集中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "尚无法判断这是在阻止主力打击群前进失败之后做出的选择，还是斯卡帕湾方向已经没有继续拖延的必要了……",
+			say = "尚無法判斷這是在阻止主力打擊群前進失敗之後做出的選擇，還是斯卡帕灣方向已經沒有繼續拖延的必要了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "从各条战线上的情况来看，北方联合舰队主要与{namecode:427}舰队指挥的舰队进行了交战，虽然损失轻微但推进速度最慢。",
+			say = "從各條戰線上的情況來看，北方聯合艦隊主要與歐根親王艦隊智慧的艦隊進行了交戰，雖然損失輕微但推進速度最慢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "NA海域舰队打击群则与{namecode:436}指挥的舰队发生了交战，双方量产型损失严重，舰船也均有数艘受损。",
+			say = "NA海域艦隊打擊群則與鐵必制指揮的艦隊發生了交戰，雙方量產型損失嚴重，艦船也均有數艘受損。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "佐治亚的情况也相同，在与{namecode:464}带领的主力舰队激战之后，双方互有损伤。",
+			say = "喬治亞的情況也相同，在與烏爾里希帶領的主力艦隊激戰之後，雙方互有損傷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "看来计划舰的高战斗力很好缓解了铁血舰队数量不足的优势。",
+			say = "看來計劃艦的高戰鬥力很好緩解了鐵血艦隊數量不足的優勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "不过只是缓解而已……要想逆转局势，铁血恐怕还需要更多的计划舰。",
+			say = "不過只是緩解而已……要想逆轉局勢，鐵血恐怕還需要更多的計劃艦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "而我们不会继续给铁血时间了。",
+			say = "而我們不會繼續給鐵血時間了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "铁血似乎意图在斯卡帕湾进行决战，我们也是如此。",
+			say = "鐵血似乎意圖在斯卡帕灣進行決戰，我們也是如此。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_endingsong_11",
 			dir = 1,
 			blackBg = true,
-			say = "目前还有萨拉托加指挥的两支预备舰队可用，看来是时候投入战斗了————",
+			say = "目前還有薩拉托加指揮的兩支預備艦隊可用，看來是時候投入戰鬥了————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

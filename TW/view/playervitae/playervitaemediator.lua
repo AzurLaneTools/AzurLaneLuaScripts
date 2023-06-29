@@ -8,8 +8,14 @@ slot0.CHANGE_PAINT = "PlayerVitaeMediator:CHANGE_PAINT"
 slot0.CHANGE_RANDOM_SETTING = "PlayerVitaeMediator:CHANGE_RANDOM_SETTING"
 slot0.GO_SCENE = "PlayerVitaeMediator:GO_SCENE"
 slot0.ON_SWITCH_RANDOM_FLAG_SHIP_BTN = "PlayerVitaeMediator:ON_SWITCH_RANDOM_FLAG_SHIP_BTN"
+slot0.OPEN_CRYPTOLALIA = "PlayerVitaeMediator:OPEN_CRYPTOLALIA"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.OPEN_CRYPTOLALIA, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.CRYPTOLALIA, {
+			groupId = slot1
+		})
+	end)
 	slot0:bind(uv0.ON_SWITCH_RANDOM_FLAG_SHIP_BTN, function (slot0, slot1)
 		uv0:sendNotification(GAME.RANDOM_FLAG_SHIP, {
 			isOn = slot1
@@ -120,7 +126,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.CHANGE_PLAYER_NAME_DONE,
 		SetShipSkinCommand.SKIN_UPDATED,
 		GAME.UPDATE_SKINCONFIG,
-		GAME.CHANGE_PLAYER_ICON_DONE
+		GAME.CHANGE_PLAYER_ICON_DONE,
+		PaintingConst.NotifyPaintingDownloadFinish
 	}
 end
 
@@ -135,6 +142,12 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:ReloadPanting(slot3.skinId)
 	elseif slot2 == GAME.CHANGE_PLAYER_ICON_DONE then
 		slot0.viewComponent:RefreshShips()
+	elseif slot2 == PaintingConst.NotifyPaintingDownloadFinish then
+		slot0.viewComponent:updateSwitchSkinBtnTag()
+
+		if slot0.viewComponent.shipsPage and slot0.viewComponent.shipsPage:GetLoaded() then
+			slot0.viewComponent.shipsPage:UpdateCardPaintingTag()
+		end
 	end
 end
 

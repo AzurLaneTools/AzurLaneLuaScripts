@@ -59,8 +59,8 @@ function slot0.init(slot0)
 	slot0._skipButton = slot0._shake:Find("ForNotch/skip")
 
 	setActive(slot0._skipButton, slot0.contextData.canSkipBatch)
-	setActive(slot0._left, not slot0.contextData.canSkip)
-	setActive(slot0.audioBtn, not slot0.contextData.canSkip)
+	setActive(slot0._left, true)
+	setActive(slot0.audioBtn, true)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		hideLowerLayer = true,
 		weight = slot0:getWeightFromData()

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"永夜之城的魅影\n\n<size=45>四 第二个谜题</size>",
+					"永夜之城的魅影\n\n<size=45>四 第二個謎題</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在破解了几个小谜题后，来到了第二个大房间。",
+			say = "在破解了幾個小謎題後，來到了第二個大房間。",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "映入眼帘的是……许许多多的门，以及……躺在地上的{namecode:449}与{namecode:413}？",
+			say = "映入眼簾的是……許許多多的門，以及……躺在地上的埃爾賓與U-47？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官……是指挥官么？真没想到，指挥官居然能来到这里……",
+			say = "指揮官……是指揮官嗎？真沒想到，指揮官居然能來到這裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "果然，只要我想着指挥官什么都做不到，会被谜题困住，会被{namecode:448}诱惑住，指挥官就能顺利过关……",
+			say = "果然，只要我想著指揮官什麼都做不到，會被謎題困住，會被埃姆登誘惑住，指揮官就能順利過關……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408024,
-			say = "（{namecode:449}，台词……）",
+			say = "（埃爾賓，台詞……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "（啊，对不起……！）",
+			say = "（啊，對不起……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "……人类啊，我乃永夜一族的后裔，旁边这位是我的仆人……",
+			say = "……人類啊，我乃永夜一族的後裔，旁邊這位是我的僕人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这座城堡本由我们永夜一族共有，但那位自称“永夜之主”的家伙却设下这个恶劣的机关困住了我们，利用诅咒夺取了我们的力量与自由……",
+			say = "這座城堡本由我們永夜一族共有，但那位自稱“永夜之主”的傢伙卻設下這個惡劣的機關困住了我們，利用詛咒奪取了我們的力量與自由……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408024,
-			say = "你所看到的就是“永夜之主”用幻术制造的无数假门，一旦踏入，就会永远迷失在黑暗之中。",
+			say = "你所看到的就是“永夜之主”用幻術製造的無數假門，一旦踏入，就會永遠迷失在黑暗之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408024,
-			say = "当然，只要主人能够恢复力量，就能轻松破解这个把戏。作为回报，你也可以安全离开此处。",
+			say = "當然，只要主人能夠恢復力量，就能輕鬆破解這個把戲。作為回報，你也可以安全離開此處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "就是这样……你能帮帮我们么？",
+			say = "就是這樣……你能幫幫我們嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "诶！这，这难道是……公主抱………///",
+			say = "欸！這，這難道是……公主抱………///",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "一直躺在地上也太冷了，总之先把她们安置到那边的沙发上……",
+			say = "一直躺在地上也太冷了，總之先把她們安置到那邊的沙發上……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "咳……感谢你，人类。",
+			say = "咳……感謝你，人類。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "但只靠休息的话，在恢复力量之前那位“永夜之主”就会先发现这里的异常……",
+			say = "但只靠休息的話，在恢復力量之前那位“永夜之主”就會先發現這裡的異常……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "所以……必须要那个……“依靠进食”才行……",
+			say = "所以……必須要那個……“依靠進食”才行……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（小声）肯定会被理解成是变着法子要吸指挥官的血，然后指挥官会头也不回地走掉的……",
+			say = "（小聲）肯定會被理解成是變著法子要吸指揮官的血，然後指揮官會頭也不回地走掉的……",
 			fontsize = 40,
 			typewriter = {
 				speed = 0.05,
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408024,
-			say = "咳咳、人类的血蕴含的力量实在过于弱小，要想让主人快速恢复力量，需要能够破除诅咒的、更强力的食物才行。",
+			say = "咳咳、人類的血蘊含的力量實在過於弱小，要想讓主人快速恢復力量，需要能夠破除詛咒的、更強力的食物才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			blackBg = true,
-			say = "能够破除诅咒的、更强力的食物……先在这个房间里搜索一下有没有类似的物品吧。",
+			say = "能夠破除詛咒的、更強力的食物……先在這個房間裡搜索一下有沒有類似的物品吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

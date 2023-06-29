@@ -1,5 +1,6 @@
 slot0 = class("ShipProfileMediator", import("...base.ContextMediator"))
 slot0.CLICK_ROTATE_BTN = "ShipProfileMediator:CLICK_ROTATE_BTN"
+slot0.OPEN_CRYPTOLALIA = "ShipProfileMediator:OPEN_CRYPTOLALIA"
 
 function slot0.register(slot0)
 	slot1 = getProxy(CollectionProxy)
@@ -17,6 +18,11 @@ function slot0.register(slot0)
 	slot4 = slot0.viewComponent
 
 	slot4:setOwnedSkinList(slot2:getSkinList())
+	slot0:bind(uv0.OPEN_CRYPTOLALIA, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.CRYPTOLALIA, {
+			groupId = slot1
+		})
+	end)
 	slot0:bind(uv0.CLICK_ROTATE_BTN, function (slot0, slot1, slot2, slot3)
 		uv0:addSubLayers(Context.New({
 			mediator = ShipRotateMediator,

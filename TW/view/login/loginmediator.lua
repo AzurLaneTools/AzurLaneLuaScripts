@@ -4,6 +4,7 @@ slot0.ON_REGISTER = "LoginMediator:ON_REGISTER"
 slot0.ON_SERVER = "LoginMediator:ON_SERVER"
 slot0.ON_LOGIN_PROCESS = "LoginMediator:ON_LOGIN_PROCESS"
 slot0.ON_SEARCH_ACCOUNT = "LoginMediator:ON_SEARCH_ACCOUNT"
+slot0.CHECK_RES = "LoginMediator:CHECK_RES"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.ON_LOGIN, function (slot0, slot1)
@@ -44,30 +45,9 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_SEARCH_ACCOUNT, function (slot0, slot1)
 		uv0:sendNotification(GAME.ACCOUNT_SEARCH, slot1)
 	end)
-
-	if CSharpVersion == 31 or CSharpVersion == 32 or CSharpVersion == 33 or CSharpVersion == 34 then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			modal = true,
-			hideNo = true,
-			content = "檢測到版本更新，需要手動下載更新包，是否前往下載？",
-			hideClose = true,
-			onYes = function ()
-				if YongshiSdkMgr.inst.channelUID == "0" then
-					Application.OpenURL("https://play.google.com/store/apps/details?id=com.hkmanjuu.azurlane.gp")
-				elseif slot0 == "1" then
-					Application.OpenURL("https://apps.apple.com/app/id1479022429")
-				elseif slot0 == "2" then
-					Application.OpenURL("http://www.mygame.com.tw/MyGameAD/Accept.aspx?P=YAS3ZA2RSR&S=QUNRMMN7HY")
-				end
-
-				Application.Quit()
-			end,
-			onClose = function ()
-				Application.Quit()
-			end
-		})
-	end
-
+	slot0:bind(uv0.CHECK_RES, function (slot0)
+		uv0:checkPaintingRes()
+	end)
 	pg.SdkMgr.GetInstance():EnterLoginScene()
 end
 
@@ -308,11 +288,7 @@ function slot0.handleNotification(slot0, slot1)
 			end
 		})
 	elseif slot2 == GAME.LOAD_PLAYER_DATA_DONE then
-		slot0.viewComponent:unloadExtraVoice()
-		getProxy(PlayerProxy):setFlag("login", true)
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI, {
-			isFromLogin = true
-		})
+		slot0:checkPaintingRes()
 	elseif slot2 == GAME.BEGIN_STAGE_DONE then
 		slot0.viewComponent:unloadExtraVoice()
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
@@ -335,6 +311,25 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.ON_SOCIAL_LINKED then
 		slot0.viewComponent:closeYostarAlertView()
 	end
+end
+
+function slot0.checkPaintingRes(slot0)
+	function slot2()
+		uv0.viewComponent.isNeedResCheck = true
+	end
+
+	slot3 = pg.FileDownloadMgr.GetInstance()
+
+	slot3:SetRemind(false)
+	PaintingConst.PaintingDownload({
+		isShowBox = true,
+		paintingNameList = PaintingConst.GetPaintingNameListInLogin(),
+		finishFunc = function ()
+			uv0.viewComponent:onLoadDataDone()
+		end,
+		onNo = slot2,
+		onClose = slot2
+	})
 end
 
 return slot0

@@ -340,7 +340,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 242
+		key_value = 251
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1916,7 +1916,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 261
+		key_value = 254
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2052,7 +2052,47 @@ pg.gameset = {
 			5,
 			5,
 			5,
-			1
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			0
 		}
 	},
 	joint_boss_ap_recove_cnt_pre_day = {
@@ -2093,6 +2133,14 @@ pg.gameset = {
 			100,
 			200,
 			200
+		}
+	},
+	past_joint_boss_ticket = {
+		key_value = 0,
+		description = {
+			100,
+			200,
+			1400
 		}
 	},
 	past_joint_boss_autofight_time = {

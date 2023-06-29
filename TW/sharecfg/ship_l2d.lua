@@ -24,6 +24,7 @@ pg.ship_l2d = {
 		id = 101,
 		range_abs = 0,
 		offset_y = 50,
+		revert_smooth = 200,
 		range = {
 			-2,
 			3
@@ -53,6 +54,7 @@ pg.ship_l2d = {
 		id = 102,
 		range_abs = 0,
 		offset_y = 50,
+		revert_smooth = 200,
 		range = {
 			-2,
 			3
@@ -82,6 +84,7 @@ pg.ship_l2d = {
 		id = 103,
 		range_abs = 0,
 		offset_y = 50,
+		revert_smooth = 200,
 		range = {
 			-2,
 			3
@@ -111,6 +114,7 @@ pg.ship_l2d = {
 		id = 104,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 200,
 		range = {
 			-2,
 			3
@@ -140,6 +144,7 @@ pg.ship_l2d = {
 		id = 105,
 		range_abs = 0,
 		offset_y = 2,
+		revert_smooth = 200,
 		range = {
 			-2,
 			3
@@ -168,6 +173,7 @@ pg.ship_l2d = {
 		id = 201,
 		range_abs = 1,
 		offset_y = 180,
+		revert_smooth = 200,
 		range = {
 			0,
 			1
@@ -203,6 +209,7 @@ pg.ship_l2d = {
 		id = 202,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 200,
 		range = {
 			-30,
 			30
@@ -232,6 +239,7 @@ pg.ship_l2d = {
 		id = 203,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 200,
 		range = {
 			-30,
 			30
@@ -261,6 +269,7 @@ pg.ship_l2d = {
 		id = 204,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 200,
 		range = {
 			-30,
 			30
@@ -290,6 +299,7 @@ pg.ship_l2d = {
 		id = 205,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 200,
 		range = {
 			-30,
 			30
@@ -318,6 +328,7 @@ pg.ship_l2d = {
 		id = 206,
 		range_abs = 1,
 		offset_y = 130,
+		revert_smooth = 200,
 		range = {
 			0,
 			1
@@ -353,6 +364,7 @@ pg.ship_l2d = {
 		id = 207,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 200,
 		range = {
 			-10,
 			10
@@ -382,6 +394,7 @@ pg.ship_l2d = {
 		id = 208,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 200,
 		range = {
 			-3.5,
 			3.5
@@ -410,6 +423,7 @@ pg.ship_l2d = {
 		id = 1031651,
 		range_abs = 1,
 		offset_y = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			10
@@ -444,6 +458,7 @@ pg.ship_l2d = {
 		id = 3012921,
 		range_abs = 0,
 		offset_y = 80,
+		revert_smooth = 200,
 		range = {
 			-1,
 			1
@@ -478,6 +493,7 @@ pg.ship_l2d = {
 		id = 3012922,
 		range_abs = 1,
 		offset_y = 30,
+		revert_smooth = 200,
 		range = {
 			0,
 			10
@@ -514,6 +530,7 @@ pg.ship_l2d = {
 		id = 3012923,
 		range_abs = 1,
 		offset_y = 80,
+		revert_smooth = 200,
 		range = {
 			0,
 			1
@@ -543,6 +560,7 @@ pg.ship_l2d = {
 		id = 3012924,
 		range_abs = 1,
 		offset_y = 80,
+		revert_smooth = 200,
 		range = {
 			0,
 			1
@@ -572,6 +590,7 @@ pg.ship_l2d = {
 		id = 3070741,
 		range_abs = 1,
 		offset_y = 80,
+		revert_smooth = 200,
 		range = {
 			0,
 			1
@@ -601,6 +620,7 @@ pg.ship_l2d = {
 		id = 3070742,
 		range_abs = 1,
 		offset_y = 80,
+		revert_smooth = 200,
 		range = {
 			0,
 			1
@@ -629,6 +649,7 @@ pg.ship_l2d = {
 		id = 3070821,
 		range_abs = 1,
 		offset_y = 20,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -664,6 +685,7 @@ pg.ship_l2d = {
 		id = 3070822,
 		range_abs = 1,
 		offset_y = 80,
+		revert_smooth = 200,
 		range = {
 			0,
 			1
@@ -693,6 +715,7 @@ pg.ship_l2d = {
 		id = 3070823,
 		range_abs = 1,
 		offset_y = 70,
+		revert_smooth = 200,
 		range = {
 			0,
 			1
@@ -721,6 +744,7 @@ pg.ship_l2d = {
 		id = 3070824,
 		range_abs = 1,
 		offset_y = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -756,6 +780,7 @@ pg.ship_l2d = {
 		id = 3070825,
 		range_abs = 1,
 		offset_y = 100,
+		revert_smooth = 200,
 		range = {
 			0,
 			1
@@ -784,6 +809,7 @@ pg.ship_l2d = {
 		id = 6050311,
 		range_abs = 1,
 		offset_y = 230,
+		revert_smooth = 200,
 		range = {
 			0,
 			1
@@ -817,6 +843,7 @@ pg.ship_l2d = {
 		id = 3060721,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 200,
 		range = {
 			-10,
 			0
@@ -857,6 +884,7 @@ pg.ship_l2d = {
 		id = 3060722,
 		range_abs = 1,
 		offset_y = 60,
+		revert_smooth = 200,
 		range = {
 			0,
 			1
@@ -899,6 +927,7 @@ pg.ship_l2d = {
 		id = 8990311,
 		range_abs = 1,
 		offset_y = 20,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -933,6 +962,7 @@ pg.ship_l2d = {
 		id = 8990312,
 		range_abs = 1,
 		offset_y = 30,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -967,6 +997,7 @@ pg.ship_l2d = {
 		id = 8990313,
 		range_abs = 1,
 		offset_y = 30,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -1002,6 +1033,7 @@ pg.ship_l2d = {
 		id = 1032611,
 		range_abs = 1,
 		offset_y = 4,
+		revert_smooth = 100,
 		range = {
 			0,
 			30
@@ -1030,6 +1062,7 @@ pg.ship_l2d = {
 		id = 3022161,
 		range_abs = 1,
 		offset_y = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -1065,6 +1098,7 @@ pg.ship_l2d = {
 		id = 3022162,
 		range_abs = 0,
 		offset_y = 80,
+		revert_smooth = 100,
 		range = {
 			-1,
 			1
@@ -1094,6 +1128,7 @@ pg.ship_l2d = {
 		id = 4990521,
 		range_abs = 1,
 		offset_y = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			8
@@ -1123,6 +1158,7 @@ pg.ship_l2d = {
 		id = 4990522,
 		range_abs = 1,
 		offset_y = 30,
+		revert_smooth = 100,
 		range = {
 			0,
 			8
@@ -1152,6 +1188,7 @@ pg.ship_l2d = {
 		id = 4990523,
 		range_abs = 1,
 		offset_y = 5,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -1179,6 +1216,7 @@ pg.ship_l2d = {
 		id = 4990524,
 		range_abs = 1,
 		offset_y = 25,
+		revert_smooth = 100,
 		range = {
 			0,
 			10
@@ -1220,6 +1258,7 @@ pg.ship_l2d = {
 		id = 4990525,
 		range_abs = 1,
 		offset_y = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			10
@@ -1263,6 +1302,7 @@ pg.ship_l2d = {
 		id = 4990526,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 200,
 		range = {
 			-10,
 			10
@@ -1292,6 +1332,7 @@ pg.ship_l2d = {
 		id = 4990527,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 200,
 		range = {
 			-10,
 			10
@@ -1321,6 +1362,7 @@ pg.ship_l2d = {
 		id = 4990528,
 		range_abs = 1,
 		offset_y = 1,
+		revert_smooth = 30,
 		range = {
 			0,
 			1
@@ -1350,6 +1392,7 @@ pg.ship_l2d = {
 		id = 5020521,
 		range_abs = 1,
 		offset_y = 100,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -1378,6 +1421,7 @@ pg.ship_l2d = {
 		id = 4990711,
 		range_abs = 1,
 		offset_y = 20,
+		revert_smooth = 100,
 		range = {
 			0,
 			10
@@ -1413,6 +1457,7 @@ pg.ship_l2d = {
 		id = 4060221,
 		range_abs = 1,
 		offset_y = 100,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -1442,6 +1487,7 @@ pg.ship_l2d = {
 		id = 7030211,
 		range_abs = 1,
 		offset_y = 100,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -1471,6 +1517,7 @@ pg.ship_l2d = {
 		id = 7030212,
 		range_abs = 1,
 		offset_y = 100,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -1500,6 +1547,7 @@ pg.ship_l2d = {
 		id = 3070751,
 		range_abs = 1,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -1528,6 +1576,7 @@ pg.ship_l2d = {
 		id = 3070752,
 		range_abs = 1,
 		offset_y = 100,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -1570,6 +1619,7 @@ pg.ship_l2d = {
 		id = 3070753,
 		range_abs = 1,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -1598,6 +1648,7 @@ pg.ship_l2d = {
 		id = 3070754,
 		range_abs = 1,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -1632,6 +1683,7 @@ pg.ship_l2d = {
 		id = 3070755,
 		range_abs = 1,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -1665,6 +1717,7 @@ pg.ship_l2d = {
 		id = 3070756,
 		range_abs = 1,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -1705,6 +1758,7 @@ pg.ship_l2d = {
 		id = 3070757,
 		range_abs = 1,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -1748,6 +1802,7 @@ pg.ship_l2d = {
 		id = 3070758,
 		range_abs = 1,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			45
@@ -1777,6 +1832,7 @@ pg.ship_l2d = {
 		id = 3070759,
 		range_abs = 1,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			30
@@ -1806,6 +1862,7 @@ pg.ship_l2d = {
 		id = 4021011,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			-30,
 			10
@@ -1835,6 +1892,7 @@ pg.ship_l2d = {
 		id = 4021012,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			-10,
 			30
@@ -1864,6 +1922,7 @@ pg.ship_l2d = {
 		id = 1990311,
 		range_abs = 0,
 		offset_y = 15,
+		revert_smooth = 0,
 		range = {
 			-10,
 			0
@@ -1893,6 +1952,7 @@ pg.ship_l2d = {
 		id = 1990312,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			10
@@ -1921,6 +1981,7 @@ pg.ship_l2d = {
 		id = 1990313,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			10
@@ -1955,6 +2016,7 @@ pg.ship_l2d = {
 		id = 1051721,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -1989,6 +2051,7 @@ pg.ship_l2d = {
 		id = 1051722,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -2023,6 +2086,7 @@ pg.ship_l2d = {
 		id = 1051723,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -2061,6 +2125,7 @@ pg.ship_l2d = {
 		id = 1051724,
 		range_abs = 0,
 		offset_y = 100,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -2090,6 +2155,7 @@ pg.ship_l2d = {
 		id = 1051725,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -2118,6 +2184,7 @@ pg.ship_l2d = {
 		id = 1051726,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -2156,6 +2223,7 @@ pg.ship_l2d = {
 		id = 1051727,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -2191,6 +2259,7 @@ pg.ship_l2d = {
 		id = 1051728,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			-10,
 			10
@@ -2219,6 +2288,7 @@ pg.ship_l2d = {
 		id = 3040521,
 		range_abs = 1,
 		offset_y = 100,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -2257,6 +2327,7 @@ pg.ship_l2d = {
 		id = 3040522,
 		range_abs = 1,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			0,
 			1
@@ -2286,6 +2357,7 @@ pg.ship_l2d = {
 		id = 3040523,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			-15,
 			15
@@ -2315,9 +2387,130 @@ pg.ship_l2d = {
 		id = 3040524,
 		range_abs = 0,
 		offset_y = 0,
+		revert_smooth = 0,
 		range = {
 			-15,
 			15
+		}
+	},
+	[6030611] = {
+		draw_able_name = "TouchDrag1",
+		offset_x = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 2,
+		start_value = 0,
+		ship_skin_id = 603061,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		action_trigger = "",
+		revert = 100,
+		ignore_action = 0,
+		react_pos_x = 0,
+		parameter = "touch_drag1",
+		shop_action = 0,
+		gyro_z = 0,
+		smooth = 100,
+		id = 6030611,
+		range_abs = 1,
+		offset_y = 100,
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		}
+	},
+	[6030612] = {
+		draw_able_name = "TouchDrag2",
+		offset_x = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 2,
+		start_value = 0,
+		ship_skin_id = 603061,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		action_trigger = "",
+		revert = 100,
+		ignore_action = 0,
+		react_pos_x = 0,
+		parameter = "touch_drag2",
+		shop_action = 0,
+		gyro_z = 0,
+		smooth = 100,
+		id = 6030612,
+		range_abs = 1,
+		offset_y = 100,
+		revert_smooth = 100,
+		range = {
+			0,
+			1
+		}
+	},
+	[6030613] = {
+		draw_able_name = "TouchDrag3",
+		offset_x = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 2,
+		start_value = 0,
+		ship_skin_id = 603061,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		action_trigger = "",
+		revert = 100,
+		ignore_action = 1,
+		react_pos_x = 0,
+		parameter = "touch_drag3",
+		shop_action = 0,
+		gyro_z = 0,
+		smooth = 100,
+		id = 6030613,
+		range_abs = 1,
+		offset_y = 4,
+		revert_smooth = 100,
+		range = {
+			0,
+			30
+		}
+	},
+	[6030614] = {
+		draw_able_name = "TouchDrag4",
+		offset_x = 0,
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 1,
+		start_value = 0,
+		ship_skin_id = 603061,
+		ignore_react = 1,
+		mode = 1,
+		gyro = 0,
+		gyro_x = 0,
+		react_pos_y = 0,
+		action_trigger = "",
+		revert = -1,
+		ignore_action = 1,
+		react_pos_x = 0,
+		parameter = "touch_drag4",
+		shop_action = 0,
+		gyro_z = 0,
+		smooth = 100,
+		id = 6030614,
+		range_abs = 1,
+		offset_y = 100,
+		revert_smooth = 100,
+		range = {
+			0,
+			1
 		}
 	},
 	all = {
@@ -2393,6 +2586,10 @@ pg.ship_l2d = {
 		3040521,
 		3040522,
 		3040523,
-		3040524
+		3040524,
+		6030611,
+		6030612,
+		6030613,
+		6030614
 	}
 }

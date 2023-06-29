@@ -133,13 +133,15 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
-		if uv0.tweeningId then
-			LeanTween.cancel(uv0.tweeningId)
+		uv0:checkPaintingRes(function ()
+			if uv0.tweeningId then
+				LeanTween.cancel(uv0.tweeningId)
 
-			uv0.tweeningId = nil
-		end
+				uv0.tweeningId = nil
+			end
 
-		uv0:emit(uv1.ON_CLOSE)
+			uv0:emit(uv1.ON_CLOSE)
+		end)
 	end, SFX_CANCEL, {
 		noShip = not slot0.hasShip
 	})
@@ -178,7 +180,7 @@ function slot0.didEnter(slot0)
 		end
 
 		if uv0.contextData.closeOnCompleted then
-			uv0:closeView()
+			triggerButton(uv0._tf)
 		end
 
 		if uv0.enterCallback then
@@ -322,6 +324,14 @@ function slot0.updateSpriteMaskScale(slot0)
 
 		setLocalScale(uv0.spriteMask, Vector3(uv0.spriteMask.rect.width / WHITE_DOT_SIZE * PIXEL_PER_UNIT, uv0.spriteMask.rect.height / WHITE_DOT_SIZE * PIXEL_PER_UNIT, 1))
 	end)
+end
+
+function slot0.checkPaintingRes(slot0, slot1)
+	PaintingConst.PaintingDownload({
+		isShowBox = false,
+		paintingNameList = PaintingConst.GetPaintingNameListForAwardList(slot0.awards),
+		finishFunc = slot1
+	})
 end
 
 return slot0

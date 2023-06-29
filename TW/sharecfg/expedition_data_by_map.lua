@@ -223,6 +223,12 @@ pg.expedition_data_by_map = setmetatable({
 		1630001,
 		1630002,
 		1630003,
+		1640001,
+		1640002,
+		1640011,
+		1640012,
+		1640025,
+		1640026,
 		1650001,
 		1650002,
 		1650011,
@@ -9974,6 +9980,270 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 1630001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1640001] = {
+		map = 1640001,
+		name = "虹彩的終幕曲·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-highseasfleet",
+		enter_story = "HONGCAIDEZHONGMUQU1",
+		ani_name = "Map_1640001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 41210,
+		ui_type = 1,
+		bg = "Map_1630001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1640011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1640002] = {
+		map = 1640002,
+		name = "虹彩的終幕曲·下篇| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-highseasfleet-reborn",
+		enter_story = "HONGCAIDEZHONGMUQU17",
+		ani_name = "Map_1640002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 41210,
+		ui_type = 1,
+		bg = "Map_1630002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1640012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1640011] = {
+		map = 1640011,
+		name = "虹彩的終幕曲·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-highseasfleet",
+		enter_story = "HONGCAIDEZHONGMUQU1",
+		ani_name = "Map_1640003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 41210,
+		ui_type = 1,
+		bg = "Map_1630003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1640001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1640012] = {
+		map = 1640012,
+		name = "虹彩的終幕曲·下篇| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-highseasfleet-reborn",
+		enter_story = "HONGCAIDEZHONGMUQU17",
+		ani_name = "Map_1640004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 41210,
+		ui_type = 1,
+		bg = "Map_1630004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1640002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1640025] = {
+		map = 1640025,
+		name = "虹彩的終幕曲·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-frederick",
+		enter_story = "",
+		ani_name = "Map_1640004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 41210,
+		ui_type = 1,
+		bg = "Map_1630004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1640012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1640026] = {
+		map = 1640026,
+		name = "虹彩的終幕曲·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-frederick",
+		enter_story = "",
+		ani_name = "Map_1640004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 41210,
+		ui_type = 1,
+		bg = "Map_1630004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1640012,
 		clouds_pos = {
 			{
 				332,

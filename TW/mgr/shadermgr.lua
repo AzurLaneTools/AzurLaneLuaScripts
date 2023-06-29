@@ -15,9 +15,6 @@ function slot0.ShaderMgr.Init(slot0, slot1)
 		end,
 		function (slot0)
 			ResourceMgr.Inst:LoadShaderAndCached("spineshader", slot0, false, false)
-		end,
-		function (slot0)
-			ResourceMgr.Inst:LoadShaderAndCached("spineshader2", slot0, false, false)
 		end
 	}, function ()
 		originalPrint("所有shader加载完成")

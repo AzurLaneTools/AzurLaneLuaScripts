@@ -1,20 +1,4 @@
 slot0 = class("ActivityBossBattleFleetSelectSubPanel", import("view.base.BaseSubPanel"))
-slot1 = {
-	"ship_formationUI_fleetName_easy",
-	"ship_formationUI_fleetName_normal",
-	"ship_formationUI_fleetName_hard",
-	"ship_formationUI_fleetName_extra",
-	nil,
-	nil,
-	nil,
-	nil,
-	nil,
-	nil,
-	"ship_formationUI_fleetName_easy_ss",
-	"ship_formationUI_fleetName_normal_ss",
-	"ship_formationUI_fleetName_hard_ss",
-	"ship_formationUI_fleetName_extra_ss"
-}
 
 function slot0.getUIName(slot0)
 	return "ActivityBossFleetSelectView"
@@ -154,18 +138,17 @@ function slot0.SetOilLimit(slot0, slot1)
 	end
 end
 
-function slot0.SetSettings(slot0, slot1, slot2, slot3, slot4)
+function slot0.SetSettings(slot0, slot1, slot2, slot3)
 	slot0.groupNum = slot1
 	slot0.submarineNum = slot2
-	slot0.useCMD = slot3
-	slot0.showTryBtn = slot4
+	slot0.showTryBtn = slot3
 end
 
 function slot0.UpdateView(slot0)
 	slot0:clearFleets()
 	slot0:UpdateFleets()
 
-	slot1 = not LOCK_COMMANDER and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CommandRoomMediator") and slot0.useCMD
+	slot1 = not LOCK_COMMANDER and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CommandRoomMediator")
 
 	triggerToggle(slot0.viewParent.contextData.showCommander and slot1 and slot0.commanderToggle or slot0.formationToggle, true)
 	setActive(slot0.commanderToggle, slot1)
@@ -219,7 +202,7 @@ function slot0.updateFleet(slot0, slot1, slot2)
 	end
 
 	if slot3 and slot4 then
-		setText(slot6, i18n(uv0[slot4.id]) or "")
+		setText(slot6, Fleet.DEFAULT_NAME_BOSS_ACT[slot4.id] or "")
 
 		if slot1 == FleetType.Submarine then
 			slot0:updateShips(slot9, slot4.subShips, slot4.id, TeamType.Submarine)
@@ -254,10 +237,10 @@ function slot0.updateShips(slot0, slot1, slot2, slot3, slot4)
 		setActive(slot0:findTF("ship_type", slot12), false)
 
 		slot13 = GetOrAddComponent(slot12, typeof(UILongPressTrigger))
-		slot15 = slot13.onLongPressed
+		slot14 = slot13.onLongPressed
 
-		slot15:RemoveAllListeners()
-		onButton(slot0, GetOrAddComponent(slot12, typeof(Button)), function ()
+		slot14:RemoveAllListeners()
+		onButton(slot0, slot12, function ()
 			uv0:emit(uv0.viewParent.contextData.mediatorClass.ON_OPEN_DOCK, {
 				fleet = uv1,
 				shipVO = uv2,
@@ -266,9 +249,9 @@ function slot0.updateShips(slot0, slot1, slot2, slot3, slot4)
 			})
 		end)
 
-		slot16 = slot13.onLongPressed
+		slot15 = slot13.onLongPressed
 
-		slot16:AddListener(function ()
+		slot15:AddListener(function ()
 			if uv0 then
 				uv1:OnLongPressShip(uv2[uv3], uv4)
 			else

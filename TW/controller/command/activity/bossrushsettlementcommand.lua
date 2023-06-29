@@ -14,10 +14,9 @@ function slot0.execute(slot0, slot1)
 			slot1:SetSeriesData(nil)
 
 			slot3 = PlayerConst.GetTranAwards(uv0, slot0)
+			getProxy(ActivityProxy):GetBossRushRuntime(slot1.id).settlementData = nil
 
-			getProxy(ActivityProxy):SetExtraDataMember(slot1.id, "settlementData", nil)
-
-			if getProxy(ActivityProxy):GetExtraDataMember(uv0.actId, "settlementData").win then
+			if getProxy(ActivityProxy):GetBossRushRuntime(uv0.actId).settlementData.win then
 				slot1:AddPassSeries(slot5.seriesId)
 				slot1:AddUsedBonus(slot5.seriesId)
 			end

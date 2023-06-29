@@ -194387,6 +194387,1030 @@ _G.pg.base.ship_data_statistics[402064] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[402071] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "埃姆登",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 402070,
+	english_name = "SMS Emden",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.23",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 402071,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		639,
+		29,
+		54,
+		56,
+		0,
+		74,
+		0,
+		56,
+		26,
+		23.5,
+		85,
+		22
+	},
+	attrs_growth = {
+		16250,
+		401,
+		725,
+		1203,
+		0,
+		515,
+		0,
+		855,
+		634,
+		0,
+		0,
+		269
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		231
+	},
+	default_equip_list = {
+		100,
+		100,
+		106
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.7,
+		0.95,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Emden",
+		"SOTP"
+	}
+}
+
+_G.pg.base.ship_data_statistics[402072] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "埃姆登",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 402070,
+	english_name = "SMS Emden",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.23",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 402072,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		795,
+		36,
+		67,
+		70,
+		0,
+		74,
+		0,
+		56,
+		26,
+		23.5,
+		85,
+		27
+	},
+	attrs_growth = {
+		16250,
+		401,
+		725,
+		1203,
+		0,
+		515,
+		0,
+		855,
+		634,
+		0,
+		0,
+		269
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		232
+	},
+	default_equip_list = {
+		100,
+		100,
+		106
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		0.7,
+		0.95,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Emden",
+		"SOTP"
+	}
+}
+
+_G.pg.base.ship_data_statistics[402073] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "埃姆登",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 402070,
+	english_name = "SMS Emden",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.23",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 402073,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1107,
+		50,
+		94,
+		97,
+		0,
+		74,
+		0,
+		56,
+		26,
+		23.5,
+		85,
+		38
+	},
+	attrs_growth = {
+		16250,
+		401,
+		725,
+		1203,
+		0,
+		515,
+		0,
+		855,
+		634,
+		0,
+		0,
+		269
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		233
+	},
+	default_equip_list = {
+		100,
+		100,
+		106
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		0.7,
+		0.95,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Emden",
+		"SOTP"
+	}
+}
+
+_G.pg.base.ship_data_statistics[402074] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "埃姆登",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 402070,
+	english_name = "SMS Emden",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.23",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 402074,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1575,
+		72,
+		134,
+		139,
+		0,
+		74,
+		0,
+		56,
+		26,
+		23.5,
+		85,
+		54
+	},
+	attrs_growth = {
+		16250,
+		401,
+		725,
+		1203,
+		0,
+		515,
+		0,
+		855,
+		634,
+		0,
+		0,
+		269
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		234
+	},
+	default_equip_list = {
+		100,
+		100,
+		106
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		2,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		0.75,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Emden",
+		"SOTP"
+	}
+}
+
+_G.pg.base.ship_data_statistics[402081] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "埃爾賓",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 402080,
+	english_name = "SMS Elbing",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.23",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 402081,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		580,
+		23,
+		39,
+		54,
+		0,
+		73,
+		0,
+		51,
+		29,
+		27.5,
+		30,
+		19
+	},
+	attrs_growth = {
+		14734,
+		322,
+		541,
+		1171,
+		0,
+		510,
+		0,
+		780,
+		683,
+		0,
+		0,
+		239
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		231
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1.3,
+		0.5,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Elbing",
+		"SOTP"
+	}
+}
+
+_G.pg.base.ship_data_statistics[402082] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "埃爾賓",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 402080,
+	english_name = "SMS Elbing",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.23",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 402082,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		721,
+		29,
+		49,
+		67,
+		0,
+		73,
+		0,
+		51,
+		29,
+		27.5,
+		30,
+		24
+	},
+	attrs_growth = {
+		14734,
+		322,
+		541,
+		1171,
+		0,
+		510,
+		0,
+		780,
+		683,
+		0,
+		0,
+		239
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		232
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		1.3,
+		0.5,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Elbing",
+		"SOTP"
+	}
+}
+
+_G.pg.base.ship_data_statistics[402083] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "埃爾賓",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 402080,
+	english_name = "SMS Elbing",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.23",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 402083,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1004,
+		40,
+		68,
+		94,
+		0,
+		73,
+		0,
+		51,
+		29,
+		27.5,
+		30,
+		33
+	},
+	attrs_growth = {
+		14734,
+		322,
+		541,
+		1171,
+		0,
+		510,
+		0,
+		780,
+		683,
+		0,
+		0,
+		239
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		233
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.3,
+		0.5,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Elbing",
+		"SOTP"
+	}
+}
+
+_G.pg.base.ship_data_statistics[402084] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "埃爾賓",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 402080,
+	english_name = "SMS Elbing",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.23",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 402084,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1428,
+		58,
+		97,
+		134,
+		0,
+		73,
+		0,
+		51,
+		29,
+		27.5,
+		30,
+		48
+	},
+	attrs_growth = {
+		14734,
+		322,
+		541,
+		1171,
+		0,
+		510,
+		0,
+		780,
+		683,
+		0,
+		0,
+		239
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		234
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.35,
+		0.55,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Elbing",
+		"SOTP"
+	}
+}
+
 _G.pg.base.ship_data_statistics[403011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -198443,6 +199467,502 @@ _G.pg.base.ship_data_statistics[403104] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[403111] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "約克",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 403110,
+	english_name = "SMS Yorck",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 403111,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		814,
+		42,
+		30,
+		32,
+		0,
+		64,
+		0,
+		45,
+		11,
+		16.32,
+		28,
+		0
+	},
+	attrs_growth = {
+		20695,
+		585,
+		414,
+		696,
+		0,
+		445,
+		0,
+		661,
+		421,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		101,
+		448
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		0.5,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Roon-class",
+		"SOTP"
+	}
+}
+
+_G.pg.base.ship_data_statistics[403112] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "約克",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 403110,
+	english_name = "SMS Yorck",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 403112,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1013,
+		52,
+		37,
+		40,
+		0,
+		64,
+		0,
+		45,
+		11,
+		16.32,
+		28,
+		0
+	},
+	attrs_growth = {
+		20695,
+		585,
+		414,
+		696,
+		0,
+		445,
+		0,
+		661,
+		421,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		101,
+		448
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.12,
+		0.52,
+		1.02
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Roon-class",
+		"SOTP"
+	}
+}
+
+_G.pg.base.ship_data_statistics[403113] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "約克",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 403110,
+	english_name = "SMS Yorck",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 403113,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1410,
+		73,
+		52,
+		55,
+		0,
+		64,
+		0,
+		45,
+		11,
+		16.32,
+		28,
+		0
+	},
+	attrs_growth = {
+		20695,
+		585,
+		414,
+		696,
+		0,
+		445,
+		0,
+		661,
+		421,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		101,
+		448
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		0.55,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Roon-class",
+		"SOTP"
+	}
+}
+
+_G.pg.base.ship_data_statistics[403114] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "約克",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 403110,
+	english_name = "SMS Yorck",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 403114,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2006,
+		105,
+		74,
+		79,
+		0,
+		64,
+		0,
+		45,
+		11,
+		16.32,
+		28,
+		0
+	},
+	attrs_growth = {
+		20695,
+		585,
+		414,
+		696,
+		0,
+		445,
+		0,
+		661,
+		421,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		101,
+		448
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		0.6,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Roon-class",
+		"SOTP"
+	}
+}
+
 _G.pg.base.ship_data_statistics[403121] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -200447,6 +201967,1006 @@ _G.pg.base.ship_data_statistics[404024] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[404031] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "塞德利茨",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404030,
+	english_name = "SMS Seydlitz",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404031,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1225,
+		73,
+		33,
+		49,
+		0,
+		55,
+		0,
+		22,
+		7,
+		26.5,
+		83,
+		0
+	},
+	attrs_growth = {
+		33004,
+		925,
+		457,
+		1072,
+		0,
+		381,
+		0,
+		354,
+		209,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.7,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Moltke-Class",
+		"SOTP",
+		"Seydlitz"
+	}
+}
+
+_G.pg.base.ship_data_statistics[404032] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "塞德利茨",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404030,
+	english_name = "SMS Seydlitz",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404032,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1524,
+		91,
+		41,
+		61,
+		0,
+		55,
+		0,
+		22,
+		7,
+		26.5,
+		83,
+		0
+	},
+	attrs_growth = {
+		33004,
+		925,
+		457,
+		1072,
+		0,
+		381,
+		0,
+		354,
+		209,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.7,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Moltke-Class",
+		"SOTP",
+		"Seydlitz"
+	}
+}
+
+_G.pg.base.ship_data_statistics[404033] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "塞德利茨",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404030,
+	english_name = "SMS Seydlitz",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404033,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2122,
+		127,
+		57,
+		85,
+		0,
+		55,
+		0,
+		22,
+		7,
+		26.5,
+		83,
+		0
+	},
+	attrs_growth = {
+		33004,
+		925,
+		457,
+		1072,
+		0,
+		381,
+		0,
+		354,
+		209,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.7,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Moltke-Class",
+		"SOTP",
+		"Seydlitz"
+	}
+}
+
+_G.pg.base.ship_data_statistics[404034] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "塞德利茨",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404030,
+	english_name = "SMS Seydlitz",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404034,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3018,
+		181,
+		82,
+		122,
+		0,
+		55,
+		0,
+		22,
+		7,
+		26.5,
+		83,
+		0
+	},
+	attrs_growth = {
+		33004,
+		925,
+		457,
+		1072,
+		0,
+		381,
+		0,
+		354,
+		209,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.7,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Moltke-Class",
+		"SOTP",
+		"Seydlitz"
+	}
+}
+
+_G.pg.base.ship_data_statistics[404041] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "呂措",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404040,
+	english_name = "SMS Lützow",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404041,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1269,
+		74,
+		33,
+		50,
+		0,
+		60,
+		0,
+		22,
+		6,
+		26.4,
+		30,
+		0
+	},
+	attrs_growth = {
+		34165,
+		935,
+		462,
+		1088,
+		0,
+		419,
+		0,
+		343,
+		202,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.95,
+		1.7,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Derfflinger-class",
+		"SOTP",
+		"Lützow"
+	}
+}
+
+_G.pg.base.ship_data_statistics[404042] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "呂措",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404040,
+	english_name = "SMS Lützow",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404042,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1578,
+		92,
+		41,
+		62,
+		0,
+		60,
+		0,
+		22,
+		6,
+		26.4,
+		30,
+		0
+	},
+	attrs_growth = {
+		34165,
+		935,
+		462,
+		1088,
+		0,
+		419,
+		0,
+		343,
+		202,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1.7,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Derfflinger-class",
+		"SOTP",
+		"Lützow"
+	}
+}
+
+_G.pg.base.ship_data_statistics[404043] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "呂措",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404040,
+	english_name = "SMS Lützow",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404043,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2197,
+		129,
+		58,
+		87,
+		0,
+		60,
+		0,
+		22,
+		6,
+		26.4,
+		30,
+		0
+	},
+	attrs_growth = {
+		34165,
+		935,
+		462,
+		1088,
+		0,
+		419,
+		0,
+		343,
+		202,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.7,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Derfflinger-class",
+		"SOTP",
+		"Lützow"
+	}
+}
+
+_G.pg.base.ship_data_statistics[404044] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "呂措",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404040,
+	english_name = "SMS Lützow",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404044,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3125,
+		184,
+		83,
+		124,
+		0,
+		60,
+		0,
+		22,
+		6,
+		26.4,
+		30,
+		0
+	},
+	attrs_growth = {
+		34165,
+		935,
+		462,
+		1088,
+		0,
+		419,
+		0,
+		343,
+		202,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.7,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Derfflinger-class",
+		"SOTP",
+		"Lützow"
+	}
+}
+
 _G.pg.base.ship_data_statistics[405011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -201936,6 +204456,506 @@ _G.pg.base.ship_data_statistics[405034] = {
 	},
 	tag_list = {
 		"H39"
+	}
+}
+
+_G.pg.base.ship_data_statistics[405041] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "圖林根",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 405040,
+	english_name = "SMS Thüringen",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 405041,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1100,
+		76,
+		21,
+		33,
+		0,
+		51,
+		0,
+		19,
+		4,
+		20.8,
+		60,
+		0
+	},
+	attrs_growth = {
+		26840,
+		904,
+		295,
+		718,
+		0,
+		356,
+		0,
+		313,
+		148,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.95,
+		2,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Helgoland-Class",
+		"Thüringen",
+		"SOTP"
+	}
+}
+
+_G.pg.base.ship_data_statistics[405042] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "圖林根",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 405040,
+	english_name = "SMS Thüringen",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 405042,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1368,
+		95,
+		26,
+		41,
+		0,
+		51,
+		0,
+		19,
+		4,
+		20.8,
+		60,
+		0
+	},
+	attrs_growth = {
+		26840,
+		904,
+		295,
+		718,
+		0,
+		356,
+		0,
+		313,
+		148,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		2,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Helgoland-Class",
+		"Thüringen",
+		"SOTP"
+	}
+}
+
+_G.pg.base.ship_data_statistics[405043] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "圖林根",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 405040,
+	english_name = "SMS Thüringen",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 405043,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1905,
+		132,
+		37,
+		57,
+		0,
+		51,
+		0,
+		19,
+		4,
+		20.8,
+		60,
+		0
+	},
+	attrs_growth = {
+		26840,
+		904,
+		295,
+		718,
+		0,
+		356,
+		0,
+		313,
+		148,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		2,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Helgoland-Class",
+		"Thüringen",
+		"SOTP"
+	}
+}
+
+_G.pg.base.ship_data_statistics[405044] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "圖林根",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 405040,
+	english_name = "SMS Thüringen",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 405044,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2710,
+		189,
+		53,
+		81,
+		0,
+		51,
+		0,
+		19,
+		4,
+		20.8,
+		60,
+		0
+	},
+	attrs_growth = {
+		26840,
+		904,
+		295,
+		718,
+		0,
+		356,
+		0,
+		313,
+		148,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		2,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Helgoland-Class",
+		"Thüringen",
+		"SOTP"
 	}
 }
 
@@ -284519,6 +287539,753 @@ _G.pg.base.ship_data_statistics[900282] = {
 	tag_list = {}
 }
 
+_G.pg.base.ship_data_statistics[900300] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "埃姆登",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 402070,
+	english_name = "SMS Emden",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 900300,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		175643,
+		50,
+		45,
+		133,
+		0,
+		64,
+		0,
+		46,
+		10,
+		28.4,
+		65,
+		0
+	},
+	attrs_growth = {
+		15110,
+		312,
+		0,
+		1168,
+		0,
+		340,
+		0,
+		888,
+		414,
+		0,
+		0,
+		262
+	},
+	attrs_growth_extra = {
+		3778,
+		738,
+		0,
+		597,
+		0,
+		800,
+		0,
+		0,
+		426,
+		0,
+		0,
+		353
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		650601,
+		650603,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.55,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+_G.pg.base.ship_data_statistics[900301] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "巴尔的摩",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 103160,
+	english_name = "USS Baltimore",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 900301,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1953,
+		124,
+		0,
+		120,
+		0,
+		68,
+		0,
+		45,
+		9,
+		26.4,
+		56,
+		0
+	},
+	attrs_growth = {
+		19985,
+		683,
+		0,
+		1056,
+		0,
+		470,
+		0,
+		701,
+		377,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		13170,
+		11250,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		0.75,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Baltimore-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900302] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "埃吉尔",
+	type = 18,
+	oxy_cost = 0,
+	skin_id = 499050,
+	english_name = "KMS Ägir",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 900302,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3084,
+		53,
+		38,
+		116,
+		0,
+		62,
+		0,
+		45,
+		12,
+		26.8,
+		0,
+		0
+	},
+	attrs_growth = {
+		30525,
+		1036,
+		736,
+		920,
+		0,
+		308,
+		0,
+		660,
+		174,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		615,
+		502,
+		614,
+		0,
+		727,
+		0,
+		-110,
+		571,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		438
+	},
+	default_equip_list = {
+		44410,
+		45150,
+		46350
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.32,
+		1.1,
+		1,
+		0.45
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Plan-Class",
+		"Agir"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900303] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "塞德利茨",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404030,
+	english_name = "SMS Seydlitz",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 900303,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1225,
+		73,
+		33,
+		49,
+		0,
+		55,
+		0,
+		22,
+		7,
+		26.5,
+		83,
+		0
+	},
+	attrs_growth = {
+		33004,
+		925,
+		457,
+		1072,
+		0,
+		381,
+		0,
+		354,
+		209,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.7,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Moltke-Class",
+		"SOTP",
+		"Seydlitz"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900304] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "佐治亚",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 199020,
+	english_name = "simulation",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 900304,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1459,
+		84,
+		0,
+		79,
+		0,
+		60,
+		0,
+		23,
+		9,
+		33,
+		0,
+		0
+	},
+	attrs_growth = {
+		35580,
+		1656,
+		0,
+		1540,
+		0,
+		298,
+		0,
+		342,
+		138,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		333,
+		0,
+		425,
+		0,
+		707,
+		0,
+		278,
+		172,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		892914,
+		11250,
+		16450
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.65,
+		2.1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+_G.pg.base.ship_data_statistics[900305] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "吕佐夫",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404040,
+	english_name = "SMS Lützow",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 900305,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1166,
+		72,
+		31,
+		48,
+		0,
+		60,
+		0,
+		22,
+		9,
+		31,
+		64,
+		0
+	},
+	attrs_growth = {
+		31403,
+		914,
+		431,
+		1044,
+		0,
+		419,
+		0,
+		343,
+		232,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.7,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Derfflinger-class",
+		"SOTP",
+		"Lützow"
+	}
+}
+
 _G.pg.base.ship_data_statistics[900310] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -297393,6 +301160,502 @@ _G.pg.base.ship_data_statistics[9704034] = {
 	tag_list = {
 		"RepulseMETA",
 		"bunao"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9704041] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "聲望·META",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 9704040,
+	english_name = "Renown.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9704041,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1196,
+		72,
+		0,
+		61,
+		0,
+		57,
+		0,
+		17,
+		7,
+		33,
+		85,
+		0
+	},
+	attrs_growth = {
+		20586,
+		913,
+		0,
+		788,
+		0,
+		399,
+		0,
+		254,
+		179,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RenownMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9704042] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "聲望·META",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 9704040,
+	english_name = "Renown.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9704042,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1488,
+		90,
+		0,
+		76,
+		0,
+		57,
+		0,
+		17,
+		7,
+		33,
+		85,
+		0
+	},
+	attrs_growth = {
+		20586,
+		913,
+		0,
+		788,
+		0,
+		399,
+		0,
+		254,
+		179,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RenownMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9704043] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "聲望·META",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 9704040,
+	english_name = "Renown.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9704043,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2071,
+		125,
+		0,
+		106,
+		0,
+		57,
+		0,
+		17,
+		7,
+		33,
+		85,
+		0
+	},
+	attrs_growth = {
+		20586,
+		913,
+		0,
+		788,
+		0,
+		399,
+		0,
+		254,
+		179,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RenownMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9704044] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "聲望·META",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 9704040,
+	english_name = "Renown.META",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9704044,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2946,
+		179,
+		0,
+		150,
+		0,
+		57,
+		0,
+		17,
+		7,
+		33,
+		85,
+		0
+	},
+	attrs_growth = {
+		20586,
+		913,
+		0,
+		788,
+		0,
+		399,
+		0,
+		254,
+		179,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"RenownMETA"
 	}
 }
 

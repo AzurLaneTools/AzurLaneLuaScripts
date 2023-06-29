@@ -9,7 +9,7 @@ return {
 		{
 			soundeffect = "event:/battle/boom2",
 			side = 2,
-			say = "轰————————！",
+			say = "轟————————！",
 			continueBgm = true,
 			dir = 1,
 			bgm = "battle-inthememory",
@@ -64,7 +64,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:433}·META的炮击在塔的内部引发了一连串爆炸，爆炸产生的巨大尘埃云几乎将塔完全吞没。",
+			say = "沙恩霍斯特·META的炮擊在塔的內部引發了一連串爆炸，爆炸產生的巨大塵埃雲幾乎將塔完全吞沒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……居然一轮炮击就击穿了？！",
+			say = "……居然一輪炮擊就擊穿了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "所有人注意，准备迎接冲击！",
+			say = "所有人注意，準備迎接衝擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_white",
-			say = "塔身上强烈的光芒突然聚集成一点，在光点的周围，圆形的光晕有节奏地跳动了几下。",
+			say = "塔身上強烈的光芒突然聚集成一點，在光點的周圍，圓形的光暈有節奏地跳動了幾下",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_white",
-			say = "然后球形的半透明“场”开始向外侧极速扩散，随之而来的爆炸声仿佛撕裂了海天。",
+			say = "然後球形的半透明“場”開始向外側極速擴散，隨之而來的爆炸聲彷彿撕裂了海天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "爆炸之后，塔变为了难以辨认的残骸，海域中的所有塞壬单位也同时停止了行动。",
+			say = "爆炸之後，塔變為了難以辨認的殘骸，海域中的所有塞壬單位也同時停止了行動。",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "构建者的核心数据塔，确认摧毁。",
+			say = "構建者的核心數據塔，確認摧毀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "哇哦，真是华丽的收尾！META战列舰的实力真是令人大开眼界！",
+			say = "哇哦，真是華麗的收尾！ META戰列艦的實力真是令人大開眼界！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家注意，失去动力的塞壬舰载机正在从空中坠落，各舰注意规避，不要被伤到了！",
+			say = "大家注意，失去動力的塞壬艦載機正在從空中墜落，各艦注意迴避，不要被傷到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "了解~最后关头还不让人省心，要是在这种时候被砸伤可要错过庆功宴了。",
+			say = "了解~最後關頭還不讓人放心，要是在這種時候被砸傷可要錯過慶功宴了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "埃尔德里奇……高兴。",
+			say = "埃爾德里奇……高興。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "你的表现的很棒哦，埃尔德里奇。",
+			say = "妳的表現很棒哦，埃爾德里奇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……埃尔德里奇……想要保护指挥官。",
+			say = "嗯……埃爾德里奇……想要保護指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "真是一场出色的战斗，指挥官同志。",
+			say = "真是一場出色的戰鬥，指揮官同志。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "胜利了……？！！面对这种强的乱七八糟的敌人我们居然胜利了么？",
+			say = "勝利了……？！！面對這種強的亂七八糟的敵人我們居然勝利了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "太美好了……我一定是在做梦吧……",
+			say = "太美好了……我一定是在做夢吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这是现实哦，{namecode:449}。我们战胜了无法想象的强敌，然后赢得了胜利。",
+			say = "這是現實哦，埃爾賓。我們戰勝了無法想像的強敵，然後贏得了勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "好累……我感觉已经彻底燃尽了……记得把我拖回去，{namecode:460}zZZZ",
+			say = "好累……我感覺已經徹底燃盡了……記得把我拖回去，塞德利茨zZZZ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "没问题，{namecode:461}小姐。",
+			say = "沒問題，呂措小姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过有人马上就要进入梦乡了就是了……",
+			say = "不過有人馬上就要進入夢鄉了就是了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这样就算是赢得胜利了么……?",
+			say = "這樣就算是贏得勝利了嗎……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "没错，我们胜利了。",
+			say = "沒錯，我們勝利了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这是这么多年以来，我们对抗塞壬的第一场真正意义上的胜利。",
+			say = "這是這麼多年以來，我們對抗塞壬的第一場真正意義上的勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "真是不错的调度能力，我都想把你挖过来帮我办事了。",
+			say = "真是不錯的調度能力，我都想把你挖過來幫我辦事了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "怎么样，要不要考虑来我这里当指挥官？",
+			say = "怎麼樣，要不要考慮來我這裡當指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "果断拒绝",
+					content = "果斷拒絕",
 					flag = 2
 				}
 			}
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 1,
-			say = "其实……我期待这一刻已经很久了。",
+			say = "其實……我期待這一刻已經很久了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
-			say = "呵呵，心里话最好还是藏在心里比较好哦，碧蓝航线的指挥官。",
+			say = "呵呵，心裡話最好還是藏在心裡比較好哦，碧藍航線的指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#ffff4d",
-			say = "你要是真的来了我这边，恐怕今天我们所有人都走不出这片海域了。",
+			say = "你要是真的來了我這邊，恐怕今天我們所有人都走不出這片海域了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#ffff4d",
-			say = "那还真是令人遗憾。",
+			say = "那還真是令人遺憾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "不过我这个提案不会过期哟，你可以慢慢考虑~",
+			say = "不過我這個提案不會過期喲，你可以慢慢考慮~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……铁血之后打算走向何方？",
+			say = "……鐵血之後打算走向何方？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "如你所见，如你所听。",
+			say = "如你所見，如你所聽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "接下来的铁血要重新在{namecode:435}的领导下前进了，具体的细节去问她吧。",
+			say = "接下來的鐵血要重新在俾斯麥的領導下前進了，具體的細節去問她吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "………………这还真是突然的变化，那你之后打算走向何方？",
+			say = "………………這還真是突然的變化，那妳之後打算走向何方？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "不用担心我，我自有安排。",
+			say = "不用擔心我，我自有安排。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "对了，最后再送你一个情报吧————萨默斯岛。",
+			say = "對了，最後再送你一個情報吧————薩摩斯島。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "有时间的话去仔细调查一下如何？",
+			say = "有時間的話去仔細調查一下如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……哪里有什么么？",
+			say = "……哪裡有什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "谁知道呢。",
+			say = "誰知道呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "好了，你们差不多该回去了。离开这里，享受欢呼与凯旋吧。",
+			say = "好了，你們差不多該回去了。離開這裡，享受歡呼與凱旋吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这次你们从正面堂堂正正击败了全力应战的塞壬构建者，昂首挺胸起来哟。",
+			say = "這次你們從正面堂堂正正擊敗了全力應戰的塞壬構建者，昂首挺胸起來喲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……那就祝你好运了，铁血的{namecode:440}。",
+			say = "……那就祝妳好運了，鐵血的腓特烈大帝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "破败的塔下，庞大的碧蓝航线舰队与赤色中轴舰队分离，向着出口的方向驶去。",
+			say = "破敗的塔下，龐大的碧藍航線艦隊與赤色中軸艦隊分離，向著出口的方向駛去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +792,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "外部世界的光顺着裂隙处照了进来，刺眼，又和煦——",
+			say = "外部世界的光順著裂隙處照了進來，刺眼，又和煦——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这一次，所有人都终于可以在阳光下睡个好觉了吧。",
+			say = "這一次，所有人都終於可以在陽光下睡個好覺了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

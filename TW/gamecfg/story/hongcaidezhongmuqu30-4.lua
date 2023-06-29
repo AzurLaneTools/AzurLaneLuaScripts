@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，强化型构建者的护盾装置正在崩溃，即将破坏至装甲层。",
+			say = "指揮官，強化型構建者的護盾裝置正在崩潰，即將破壞至裝甲層。",
 			bgm = "theme-arbitrator-tower",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "白鹰舰队……确实强大。",
+			say = "白鷹艦隊……確實強大。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "信念坚定，勇往无畏。",
+			say = "信念堅定，勇往無畏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "拥有着远超一切阵营的军事实力，自然，也理所应当的赢得了战争。",
+			say = "擁有著遠超一切陣營的軍事實力，自然，也理所應當的贏得了戰爭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "然后呢？",
+			say = "然後呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "如果一切照常发展，你们觉得会发生什么？",
+			say = "如果一切照常發展，妳們覺得會發生什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "海雾再次出现了。",
+			say = "海霧再次出現了。",
 			effects = {
 				{
 					active = true,
@@ -131,7 +131,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "比基尼环礁，最后能在这种风景优美的地方走完最后的旅程也还不错嘛~",
+			say = "比基尼環礁，最後能在這種風景優美的地方走完最後的旅程也還不錯嘛~",
 			effects = {
 				{
 					active = true,
@@ -153,7 +153,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在这种时候说这种话，最多也就算是苦中作乐了吧。",
+			say = "在這種時候說這種話，最多也就算是苦中作樂了吧。",
 			effects = {
 				{
 					active = true,
@@ -175,7 +175,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "快乐也要走，不快乐也要走，还不如最后快乐一些！",
+			say = "快樂也要走，不快樂也要走，還不如最後快樂一些！",
 			effects = {
 				{
 					active = true,
@@ -197,7 +197,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "说的也是……",
+			say = "說的也是……",
 			effects = {
 				{
 					active = true,
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "大家也不用垂头丧气的嘛！",
+			say = "大家也不用垂頭喪氣的嘛！",
 			effects = {
 				{
 					active = true,
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "正是我们的一同努力，才使得战争最终取得了胜利。",
+			say = "正是我們的一同努力，才使得戰爭最終取得了勝利。",
 			effects = {
 				{
 					active = true,
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "现在只不过是，需要我们再挺身而出一次罢了。",
+			say = "現在只不過是，需要我們再挺身而出一次罷了。",
 			effects = {
 				{
 					active = true,
@@ -298,7 +298,7 @@ return {
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我们的所作所为是有意义的，世人也不会忘记我们的牺牲。",
+			say = "我們的所作所為是有意義的，世人也不會忘記我們的犧牲。",
 			effects = {
 				{
 					active = true,
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "所以……我们无怨无悔。",
+			say = "所以……我們無怨無悔。",
 			effects = {
 				{
 					active = true,
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "只不过，果然还是，稍微有些遗憾啊……",
+			say = "只不過，果然還是，稍微有些遺憾啊……",
 			effects = {
 				{
 					active = true,
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "企业，白鹰舰队接下来就拜托你了……",
+			say = "企業，白鷹艦隊接下來就拜託妳了……",
 			effects = {
 				{
 					active = true,
@@ -386,7 +386,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "刺眼的光芒缓缓覆盖了视野，然后笼罩了整片海域。",
+			say = "刺眼的光芒緩緩覆蓋了視野，然後籠罩了整片海域。",
 			flashout = {
 				dur = 0.2,
 				alpha = {
@@ -420,7 +420,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "没有轰鸣，没有爆炸，但即便只是海雾之中生成的幻影，这无声的白光依然令人毛骨悚然……",
+			say = "沒有轟鳴，沒有爆炸，但即便只是海霧之中生成的幻影，這無聲的白光依然令人毛骨悚然……",
 			effects = {
 				{
 					active = true,
@@ -456,15 +456,15 @@ return {
 			},
 			options = {
 				{
-					content = "……这些究竟是？",
+					content = "……這些究竟是？",
 					flag = 1
 				},
 				{
-					content = "……………怎么会这样。",
+					content = "……………怎麼會這樣。",
 					flag = 2
 				},
 				{
-					content = "这种事绝不允许发生！",
+					content = "這種事絕不允許發生！",
 					flag = 3
 				},
 				{
@@ -480,7 +480,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不要被迷惑了，指挥官！",
+			say = "不要被迷惑了，指揮官！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那些只是塞壬一如既往干扰人心的幻象！……没有什么特别的！",
+			say = "那些只是塞壬一如既往干擾人心的幻象！……沒有什麼特別的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种结局绝对不会存在……我也绝对不会让这种结局发生的！",
+			say = "這種結局絕對不會存在……我也絕對不會讓這種結局發生的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯，不要动摇指挥官，不管是现在还是未来，我们都会一直陪在你的身边。",
+			say = "嗯，不要動搖指揮官，不管是現在還是未來，我們都會一直陪在你的身邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "真是一群忠心耿耿的部下，都让我有些羡慕了。",
+			say = "真是一群忠心耿耿的部下，都讓我有些羨慕了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "不论你们如何否认，记录之中的过去与未来是无可置疑的。",
+			say = "不論你們如何否認，紀錄之中的過去與未來是無可置疑的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "因此，我们实验是必要的，接受我们的实验是必要的。",
+			say = "因此，我們實驗是必要的，接受我們的實驗是必要的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "也许吧。所以我们之前才“愉快”相处了那么久，不是么？",
+			say = "也許吧。所以我們之前才“愉快”相處了那麼久，不是麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "过去的事已经过去了，未来从现在开始。",
+			say = "過去的事已經過去了，未來從現在開始。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这些事过去没有发生，未来也不会发生。",
+			say = "這些事過去沒有發生，未來也不會發生。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "你们的未来只会重蹈覆辙。",
+			say = "你們的未來只會重蹈覆轍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们的未来将有我们自己创造，塞壬，你们定义不了我们的未来。",
+			say = "我們的未來將有我們自己創造，塞壬，妳們定義不了我們的未來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没错哟。相信有了这些磨练，未来一定会有所改观的。",
+			say = "沒錯喲。相信有了這些磨練，未來一定會有所改觀的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,7 +711,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "况且，你们不就是一个能够引起团结的绝佳目标么。",
+			say = "況且，妳們不就是一個能夠引起團結的絕佳目標嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,7 +727,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "某种意义上来说，现在的展开也与你们的目的相同。",
+			say = "某種意義上來說，現在的展開也與妳們的目的相同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,7 +744,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "如果要道谢的话，我不介意听一听哟？",
+			say = "如果要道謝的話，我不介意聽一聽喲？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "我还从没见过你们表达谢意的样子呢。",
+			say = "我還從沒見過妳們表達謝意的樣子呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "没有什么好谈的。",
+			say = "沒有什麼好談的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,7 +793,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这是一场严重的实验事故。我作为构建者，有义务终结这场失控。",
+			say = "這是一場嚴重的實驗事故。我作為構建者，有義務終結這場失控。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "局部清理指令申请中————",
+			say = "局部清理指令申請中————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "现状：核心存储塔正在遭受攻击，威胁等级判定为最高。",
+			say = "現狀：核心儲存塔正在遭受攻擊，威脅等級判定為最高。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "根据底层协议：此时局部清理指令可以由申请子节点自决。",
+			say = "根據底層協議：此時局部清理指令可以由申請子節點自決。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -859,7 +859,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "结论：局部清理指令已被批准。",
+			say = "結論：局部清理指令已被批准。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -875,7 +875,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "清理程序现在开始蓄能————将海域中的一切都抹去吧。",
+			say = "清理程序現在開始蓄能————將海域中的一切都抹去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "伴随着构建者的无感情的话语，塔也开始了令人不安的闪烁。",
+			say = "伴隨著構建者的無感情的話語，塔也開始了令人不安的閃爍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "闪烁的强度每分每秒都在增加，而低沉的嗡鸣声响仿佛要让整片海域在共振中沸腾。",
+			say = "閃爍的強度每分每秒都在增加，而低沉的嗡鳴聲響彷彿要讓整片海域在共振中沸騰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -914,7 +914,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当然，还有不计其数的塞壬发疯一般从四面八方向着塔所在的位置突进而来。",
+			say = "當然，還有不計其數的塞壬發瘋一般從四面八方向著塔所在的位置突進而來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -930,7 +930,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "终于开始执行了么……构建者所拥有的最后王牌。",
+			say = "終於開始執行了嗎……構建者所擁有的最後王牌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -947,7 +947,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "看吧，碧蓝航线的指挥官，这才是构建者的真正实力。",
+			say = "看吧，碧藍航線的指揮官，這才是構建者的真正實力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,7 +963,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "依靠早已深深扎根于这个世界的塞壬系统，构建者获得了彻底毁灭一片大洋中所有生命的能力。",
+			say = "依靠早已深深紮根於這個世界的塞壬系統，構建者獲得了徹底毀滅一片大洋中所有生命的能力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "如果局部清理程序的蓄能达到100%，我们就真的结束了。",
+			say = "如果局部清理程序的蓄能達到100%，我們就真的結束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -996,7 +996,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "物理意义上的游戏结束。",
+			say = "物理意義上的遊戲結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1013,7 +1013,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不过你有信心取胜，对吧？",
+			say = "不過你有信心取勝，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1026,7 +1026,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "那是当然————",
+			say = "那是當然————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1037,11 +1037,11 @@ return {
 			},
 			options = {
 				{
-					content = "我们等待这一刻已经很久了！",
+					content = "我們等待這一刻已經很久了！",
 					flag = 1
 				},
 				{
-					content = "让我们一起扼住命运的咽喉吧！",
+					content = "讓我們一起扼住命運的咽喉吧！",
 					flag = 2
 				}
 			}
@@ -1050,7 +1050,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 1,
-			say = "全军出击！与铁血和重樱一起，彻底粉碎构建者的垂死挣扎！",
+			say = "全軍出擊！與鐵血和重櫻一起，徹底粉碎構建者的垂死掙扎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1067,7 +1067,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "呵呵，那就如此吧。各舰自由开火，尽情倾泻你们被压抑多时的怒火，送构建者退场吧！",
+			say = "呵呵，那就如此吧。各艦自由開火，盡情傾瀉妳們被壓抑多時的怒火，送構建者退場吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -234,15 +234,7 @@ function GetImageSpriteFromAtlasAsync(slot0, slot1, slot2, slot3)
 end
 
 function SetAction(slot0, slot1, slot2)
-	ReflectionHelp.RefCallMethod(typeof("Spine.AnimationState"), "SetAnimation", GetComponent(slot0, "SkeletonGraphic").AnimationState, {
-		typeof("System.Int32"),
-		typeof("System.String"),
-		typeof("System.Boolean")
-	}, {
-		0,
-		slot1,
-		defaultValue(slot2, true)
-	})
+	GetComponent(slot0, "SkeletonGraphic").AnimationState:SetAnimation(0, slot1, defaultValue(slot2, true))
 end
 
 function SetActionCallback(slot0, slot1)
@@ -881,7 +873,7 @@ function updateItem(slot0, slot1, slot2)
 		slot7 = "SquareIcon/" .. ShipGroup.getDefaultSkin(slot1.extra).prefab
 	end
 
-	GetImageSpriteFromAtlasAsync(slot7, "", slot6)
+	setImageSprite(slot6, GetSpriteFromAtlas(slot7, ""))
 	setIconStars(slot0, false)
 	setIconName(slot0, slot3.name, slot2)
 	setIconColorful(slot0, slot3.rarity + 1, slot2)
@@ -2168,7 +2160,7 @@ function filterSpecChars(slot0)
 
 				slot3 = slot3 + 1
 			end
-		elseif slot6 > 233 and PLATFORM_CODE == PLATFORM_KR then
+		elseif slot6 >= 224 and PLATFORM_CODE == PLATFORM_KR then
 			slot8 = string.byte(slot0, slot5 + 2)
 
 			if string.byte(slot0, slot5 + 1) and slot8 and slot7 >= 128 and slot7 <= 191 and slot8 >= 128 and slot8 <= 191 then
@@ -3158,8 +3150,19 @@ end
 function showRepairMsgbox()
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		hideYes = true,
+		hideNo = true,
 		content = i18n("resource_verify_warn"),
 		custom = {
+			{
+				text = i18n("msgbox_repair_painting"),
+				onCallback = function ()
+					if PathMgr.FileExists(Application.persistentDataPath .. "/hashes-painting.csv") then
+						BundleWizard.Inst:GetGroupMgr("PAINTING"):StartVerifyForLua()
+					else
+						pg.TipsMgr.GetInstance():ShowTips(i18n("word_no_cache"))
+					end
+				end
+			},
 			{
 				text = i18n("msgbox_repair_l2d"),
 				onCallback = function ()
@@ -3850,7 +3853,7 @@ function getSurveyUrl(slot0)
 		PLATFORM == PLATFORM_ANDROID and 1 or PLATFORM == PLATFORM_IPHONEPLAYER and 2 or 3,
 		getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot6.server or 0] and slot7.name or "",
 		getProxy(PlayerProxy):getRawData().level,
-		slot0 .. "_" .. slot3
+		slot3 .. "_" .. slot0
 	}
 
 	if slot2 then

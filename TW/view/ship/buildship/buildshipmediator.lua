@@ -1,7 +1,6 @@
 slot0 = class("BuildShipMediator", import("...base.ContextMediator"))
 slot0.OPEN_DESTROY = "BuildShipMediator OPEN_CHUANWUSTART"
 slot0.OPEN_START_PROJECT = "BuildShipMediator OPEN_START_PROJECT"
-slot0.GET_BATCH_SHIP = "BuildShipMediator GET_BATCH_SHIP"
 slot0.ACTIVITY_OPERATION = "BuildShipMediator ACTIVITY_OPERATION"
 slot0.OPEN_PROJECT_LIST = "BuildShipMediator OPEN_PROJECT_LIST"
 slot0.REMOVE_PROJECT_LIST = "BuildShipMediator REMOVE_PROJECT_LIST"
@@ -142,9 +141,7 @@ function slot0.listNotificationInterests(slot0)
 		GAME.BUILD_SHIP_DONE,
 		BagProxy.ITEM_UPDATED,
 		PlayerProxy.UPDATED,
-		GAME.GET_SHIP_DONE,
-		GAME.SKIP_SHIP_DONE,
-		GAME.SKIP_BATCH_DONE,
+		GAME.CONFIRM_GET_SHIP,
 		BuildShipProxy.ADDED,
 		BuildShipProxy.REMOVED,
 		GAME.BEGIN_STAGE_DONE,
@@ -159,99 +156,113 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot3)
-	elseif slot2 == GAME.GET_SHIP_DONE then
-		slot0:addSubLayers(Context.New({
-			mediator = NewShipMediator,
-			viewComponent = NewShipLayer,
-			data = {
-				ship = slot3.ship,
-				quitCallBack = slot3.quitCallBack,
-				canSkipBatch = slot3.canSkipBatch
-			},
-			onRemoved = function ()
-				if not uv0.isBatch then
-					uv1:buildFinishComeback()
-				end
-			end
-		}))
-		slot0.viewComponent:updateQueueTip(getProxy(BuildShipProxy):getFinishCount())
-	elseif slot2 == GAME.SKIP_SHIP_DONE then
-		slot0.viewComponent:updateQueueTip(getProxy(BuildShipProxy):getFinishCount())
-	elseif slot2 == GAME.SKIP_BATCH_DONE then
-		if #slot3 > 0 then
-			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = slot3,
-				title = AwardInfoLayer.TITLE.SHIP,
-				removeFunc = function ()
-					uv0:buildFinishComeback()
-				end
-			})
-		else
-			slot0:buildFinishComeback()
-		end
-	elseif slot2 == GAME.BUILD_SHIP_DONE then
-		triggerToggle(slot0.viewComponent.toggles[BuildShipScene.PAGE_QUEUE], true)
-	elseif slot2 == BagProxy.ITEM_UPDATED then
-		slot0.viewComponent:setUseItem(getProxy(BagProxy):getItemById(slot0.useItem))
-	elseif slot2 == BuildShipProxy.ADDED or slot2 == BuildShipProxy.REMOVED then
-		slot0.viewComponent:setStartCount(table.getCount(getProxy(BuildShipProxy):getRawData()))
-	elseif slot2 == GAME.SUPPORT_SHIP_DONE then
-		slot4 = {}
+	else
+		if slot2 == GAME.CONFIRM_GET_SHIP then
+			slot0.viewComponent:updateQueueTip(getProxy(BuildShipProxy):getFinishCount())
 
-		for slot8, slot9 in ipairs(slot3.ships) do
-			if slot9.virgin or slot9:getRarity() >= 4 then
-				table.insert(slot4, function (slot0)
-					uv0:addSubLayers(Context.New({
-						mediator = NewShipMediator,
-						viewComponent = NewShipLayer,
-						data = {
-							ship = uv1
-						},
-						onRemoved = slot0
-					}))
-				end)
-			end
-		end
+			slot6 = {}
 
-		seriesAsync(slot4, function ()
-			uv0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = underscore.map(uv1.ships, function (slot0)
-					slot1 = Item.New({
-						count = 1,
+			if slot3.isBatch then
+				slot4:setSkipBatchBuildFlag(false)
+
+				slot7 = {}
+
+				for slot11, slot12 in ipairs(slot3.ships) do
+					slot7[#slot7 + 1] = {
 						type = DROP_TYPE_SHIP,
-						id = slot0.configId
-					})
-					slot1.virgin = slot0.virgin
+						id = slot12.configId,
+						count = 1,
+						virgin = slot12.virgin,
+						reMetaSpecialItemVO = slot12:getReMetaSpecialItemVO()
+					}
+				end
 
-					return slot1
-				end),
-				title = AwardInfoLayer.TITLE.SHIP,
-				removeFunc = function ()
-					if uv0.viewComponent then
-						uv0.viewComponent.supportShipPoolPage:UpdateMedal()
-					end
+				if #slot7 > 0 then
+					table.insert(slot6, function (slot0)
+						uv0.viewComponent:emit(BaseUI.ON_AWARD, {
+							items = uv1,
+							title = AwardInfoLayer.TITLE.SHIP,
+							removeFunc = slot0
+						})
+					end)
 				end
-			})
-		end)
-	elseif slot2 == GAME.BEGIN_STAGE_DONE then
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
-	elseif slot2 == ActivityProxy.ACTIVITY_UPDATED then
-		if slot3 then
-			if slot4:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 then
-				slot0.viewComponent:RefreshActivityBuildPool(slot4)
-			elseif slot5 == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD then
-				if slot4.data2 < ((ship_data_create_exchange[slot4.id] or {}).exchange_available_times or 0) then
-					slot0.viewComponent:RefreshActivityBuildPool(slot4)
-				else
-					slot0.viewComponent:setPools(getProxy(BuildShipProxy):GetPools())
-					slot0.viewComponent:checkPage()
-				end
-			elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILD_FREE then
-				slot0.viewComponent:RefreshFreeBuildActivity()
 			end
+
+			seriesAsync(slot6, function ()
+				if uv0.isBatch and uv1 > 0 then
+					NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
+				else
+					uv2:buildFinishComeback()
+				end
+			end)
+
+			return
 		end
-	elseif slot2 == GAME.ACTIVITY_BUILD_POOL_EXCHANGE_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+
+		if slot2 == GAME.BUILD_SHIP_DONE then
+			triggerToggle(slot0.viewComponent.toggles[BuildShipScene.PAGE_QUEUE], true)
+		elseif slot2 == BagProxy.ITEM_UPDATED then
+			slot0.viewComponent:setUseItem(getProxy(BagProxy):getItemById(slot0.useItem))
+		elseif slot2 == BuildShipProxy.ADDED or slot2 == BuildShipProxy.REMOVED then
+			slot0.viewComponent:setStartCount(table.getCount(getProxy(BuildShipProxy):getRawData()))
+		elseif slot2 == GAME.SUPPORT_SHIP_DONE then
+			slot4 = {}
+
+			for slot8, slot9 in ipairs(slot3.ships) do
+				if slot9.virgin or slot9:getRarity() >= 4 then
+					table.insert(slot4, function (slot0)
+						uv0:addSubLayers(Context.New({
+							mediator = NewShipMediator,
+							viewComponent = NewShipLayer,
+							data = {
+								ship = uv1
+							},
+							onRemoved = slot0
+						}))
+					end)
+				end
+			end
+
+			seriesAsync(slot4, function ()
+				uv0.viewComponent:emit(BaseUI.ON_AWARD, {
+					items = underscore.map(uv1.ships, function (slot0)
+						slot1 = Item.New({
+							count = 1,
+							type = DROP_TYPE_SHIP,
+							id = slot0.configId
+						})
+						slot1.virgin = slot0.virgin
+
+						return slot1
+					end),
+					title = AwardInfoLayer.TITLE.SHIP,
+					removeFunc = function ()
+						if uv0.viewComponent then
+							uv0.viewComponent.supportShipPoolPage:UpdateMedal()
+						end
+					end
+				})
+			end)
+		elseif slot2 == GAME.BEGIN_STAGE_DONE then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
+		elseif slot2 == ActivityProxy.ACTIVITY_UPDATED then
+			if slot3 then
+				if slot4:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 then
+					slot0.viewComponent:RefreshActivityBuildPool(slot4)
+				elseif slot5 == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD then
+					if slot4.data2 < ((pg.ship_data_create_exchange[slot4.id] or {}).exchange_available_times or 0) then
+						slot0.viewComponent:RefreshActivityBuildPool(slot4)
+					else
+						slot0.viewComponent:setPools(getProxy(BuildShipProxy):GetPools())
+						slot0.viewComponent:checkPage()
+					end
+				elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILD_FREE then
+					slot0.viewComponent:RefreshFreeBuildActivity()
+				end
+			end
+		elseif slot2 == GAME.ACTIVITY_BUILD_POOL_EXCHANGE_DONE then
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+		end
 	end
 end
 

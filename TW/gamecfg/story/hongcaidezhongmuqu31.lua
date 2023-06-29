@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "阿瓦隆之门内侧·？？？",
+			say = "阿瓦隆之門內側·？？？",
 			side = 2,
 			bgName = "bg_endingsong_15",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "嗯……依靠这些设备的话，确实可以抵达一个补给据点。",
+			say = "嗯……依靠這些設備的話，確實可以抵達一個補給據點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "不过你们确定要这么做么？",
+			say = "不過妳們確定要這麼做嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "没有保证你们之后还能回来，也没有保证你们能在残酷的战斗中生存多久。",
+			say = "沒有保證妳們之後還能回來，也沒有保證你們能在殘酷的戰鬥中生存多久。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "无须担心。铁血已经寻回了它的领袖，她的智慧必定能带给铁血，还有这个世界更光明的未来。",
+			say = "無須擔心。鐵血已經尋回了它的領袖，她的智慧必定能帶給鐵血，還有這個世界更光明的未來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "这里已经没有我需要做的事了，更需要我去做的事也不在这里。",
+			say = "這裡已經沒有我需要做的事了，更需要我去做的事也不在這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "你们呢，公海舰队的诸位？开弓没有回头箭哦。",
+			say = "妳們呢，公海艦隊的諸位？開弓沒有回頭箭哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "公海舰队将会追随{namecode:440}的步伐。",
+			say = "公海艦隊將會追隨腓特烈大帝的步伐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "过去是，现在是，未来是，哪怕直至宇宙的尽头也是——",
+			say = "過去是，現在是，未來是，哪怕直至宇宙的盡頭也是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "不过……你们那里至少有能睡觉的地方吧？",
+			say = "不過……妳們那裏至少有能睡覺的地方吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "有是有，不过质量就不敢保证了。",
+			say = "有是有，不過質量就不敢保證了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "哼哼，不足的部分就让{namecode:460}想办法解决一下就好了~",
+			say = "哼哼，不足的部分就讓塞德利茨想辦法解決一下就好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没问题，{namecode:461}小姐。不论前路通向何方，我都会作为公海舰队的利刃与各位一同前进的。",
+			say = "沒問題，呂措小姐。不論前路通向何方，我都會作為公海艦隊的利刃與各位一同前進的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "有同伴的地方就是家……虽然不知道能为大家做到什么，不过{namecode:449}会加油努力的！",
+			say = "有同伴的地方就是家……雖然不知道能為大家做到什麼，不過埃爾賓會加油努力的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 403110,
-			say = "哼哼哼~人就要有恶人的样子，我们该退场了~",
+			say = "哼哼哼~人就要有惡人的樣子，我們該退場了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不要自顾自说些奇怪的帅气台词，也不要擅自把人算作恶人啊……",
+			say = "不要自顧自說些奇怪的帥氣台詞，也不要擅自把人算作惡人啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 403110,
-			say = "我不介意化身为邪恶军团的干部哦？",
+			say = "我不介意化身為邪惡軍團的幹部哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "让我们一同去征服新的世界，开辟新的未来吧！",
+			say = "讓我們一同去征服新的世界，開闢新的未來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……已经完全代入角色了。",
+			say = "……已經完全代入角色了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704020,
-			say = "好了，坐标设置完成，装置蓄能完毕，随时可以出发。",
+			say = "好了，座標設置完成，裝置蓄能完畢，隨時可以出發。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "那就让我们起航吧。",
+			say = "那就讓我們起航吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "前往余烬的据点，见证余烬的道路——————！",
+			say = "前往餘燼的據點，見證餘燼的道路——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
