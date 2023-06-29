@@ -72,6 +72,14 @@ pg.item_data_chat = {
 		desc = "<color=#ffffff>무인도의 멋진 풍경을 만끽해 보세요~!</color>\n한정 이벤트「바닷바람과 여름날의 무인도」를 통해 획득",
 		scene = {}
 	},
+	[10001] = {
+		time_limit_type = 0,
+		name = "한계 챌린지·쌍둥이 자리",
+		id = 10001,
+		time_second = 0,
+		desc = "<color=#ffffff>자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물.</color>\n<color=#A7A7AAFF>\"한계 챌린지\"에서 획득 가능</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -81,6 +89,7 @@ pg.item_data_chat = {
 		105,
 		300,
 		301,
-		602
+		602,
+		10001
 	}
 }

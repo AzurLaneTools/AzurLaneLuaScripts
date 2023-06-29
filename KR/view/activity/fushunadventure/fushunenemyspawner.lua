@@ -2,7 +2,7 @@ slot0 = class("FuShunEnemySpawner")
 slot1 = 1
 slot2 = 2
 
-function slot0.Ctor(slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.parent = slot1
 	slot0.index = 0
 	slot0.score = 0
@@ -12,6 +12,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.targetTime = 0
 	slot0.delta = 0
 	slot0.starting = false
+	slot0.fushunLoader = slot3
 end
 
 function slot0.Start(slot0, slot1, slot2, slot3)
@@ -63,7 +64,7 @@ function slot0.Spawn(slot0)
 
 	assert(slot3)
 
-	slot4 = pg.fushunLoader
+	slot4 = slot0.fushunLoader
 
 	slot4:GetPrefab("FushunAdventure/" .. slot3.name, "", function (slot0)
 		slot0.transform:SetParent(uv0.parent, false)

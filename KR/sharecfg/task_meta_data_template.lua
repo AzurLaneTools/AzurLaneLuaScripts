@@ -1920,7 +1920,7 @@ pg.base.task_meta_data_template = {
 	},
 	[200091] = {
 		target_id_2 = "970302",
-		sub_type = 320,
+		sub_type = 302,
 		desc = "대형작전에서 알제리·META를 사용해 1회 승리",
 		id = 200091,
 		target_num = 1,
@@ -1928,7 +1928,7 @@ pg.base.task_meta_data_template = {
 	},
 	[200092] = {
 		target_id_2 = "970302",
-		sub_type = 320,
+		sub_type = 302,
 		desc = "대형작전에서 알제리·META를 사용해 70 이상 레벨의 적 1회 격파",
 		id = 200092,
 		target_num = 1,
@@ -1936,7 +1936,7 @@ pg.base.task_meta_data_template = {
 	},
 	[200093] = {
 		target_id_2 = "970302",
-		sub_type = 320,
+		sub_type = 302,
 		desc = "대형작전에서 알제리·META를 사용해 90 이상 레벨의 적 1회 격파",
 		id = 200093,
 		target_num = 1,
@@ -1944,7 +1944,7 @@ pg.base.task_meta_data_template = {
 	},
 	[200094] = {
 		target_id_2 = "970302",
-		sub_type = 320,
+		sub_type = 302,
 		desc = "대형작전에서 알제리·META를 사용해 100 이상 레벨의 적 1회 격파",
 		id = 200094,
 		target_num = 1,

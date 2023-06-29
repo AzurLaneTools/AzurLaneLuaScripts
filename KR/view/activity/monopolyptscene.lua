@@ -623,7 +623,11 @@ function slot0.move(slot0, slot1, slot2)
 			slot3:changeCharAction(uv1, 0, nil)
 
 			function slot3()
-				if uv0:getPtAwardData(uv1)[1] == 1 and slot0[2] == 1 then
+				slot0 = uv0:getPtAwardData(uv1)
+
+				assert(slot0)
+
+				if slot0[1] == 1 and slot0[2] == 1 then
 					slot1 = uv0
 
 					slot1:setModelAnim(uv0.anims[1], uv2, 1, function ()

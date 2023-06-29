@@ -117,7 +117,7 @@ end
 function slot0.OnSetUp(slot0)
 	slot0:InitCommodities(slot0.shop:GetCommodities())
 	slot0:RemoveTimer()
-	slot0:AddTimer(slot0.shop)
+	slot0:AddTimer()
 end
 
 function slot0.OnUpdateAll(slot0)

@@ -8,7 +8,8 @@ end
 function slot0.listNotificationInterests(slot0)
 	return {
 		LimitChallengeConst.REQ_CHALLENGE_INFO_DONE,
-		LimitChallengeConst.GET_CHALLENGE_AWARD_DONE
+		LimitChallengeConst.GET_CHALLENGE_AWARD_DONE,
+		LimitChallengeConst.UPDATE_PASS_TIME
 	}
 end
 
@@ -19,6 +20,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:onReqInfo()
 	elseif slot2 == LimitChallengeConst.GET_CHALLENGE_AWARD_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+		slot0.viewComponent:updateToggleList()
+		slot0.viewComponent:trigeHigestUnlockLevel()
+	elseif slot2 == LimitChallengeConst.UPDATE_PASS_TIME then
+		slot0.viewComponent:updatePassTime()
 	end
 end
 

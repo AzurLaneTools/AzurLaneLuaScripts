@@ -128,7 +128,7 @@ function slot0.tryOpenLetterView(slot0)
 		slot0.letterView:ActionInvoke("setCloseFunc", function ()
 			triggerToggle(uv0.toggleList[uv1.Sign], true)
 		end)
-		slot0:switchLetter(slot0.letterView)
+		slot0:switchLetter()
 
 		return true
 	else

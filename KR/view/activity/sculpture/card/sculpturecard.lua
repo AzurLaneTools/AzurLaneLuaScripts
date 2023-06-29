@@ -18,7 +18,7 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0.id = slot1
 
 	if slot2:GetSculptureState(slot1) < SculptureActivity.STATE_UNLOCK then
-		slot0:UpdateConsume(slot3)
+		slot0:UpdateConsume()
 	end
 
 	slot0:UpdateName()

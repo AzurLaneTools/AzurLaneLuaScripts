@@ -154,7 +154,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "샤른호르스트·META",
 		painting = "shaenhuosite",
 		boss_level_id = 76,
@@ -297,12 +297,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "퀸 엘리자베스·META",
 		painting = "yilishabainvwang",
 		boss_level_id = 136,
 		id = 10,
 		meta_id = 970504,
+		item_id = 100000,
 		description = {
 			{
 				"「퀸 엘리자베스」 사분면 확장",
@@ -313,32 +314,6 @@ pg.world_joint_boss_template = {
 				"META 친화성",
 				2,
 				"비META 캐릭터에게 입히는 대미지가 증가하며, META 캐릭터로부터 더 높은 대미지를 받는다."
-			}
-		},
-		state = {
-			{
-				{
-					2023,
-					3,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					6,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -354,6 +329,64 @@ pg.world_joint_boss_template = {
 			0.9
 		}
 	},
+	{
+		item_id = 100000,
+		name = "알제리·META",
+		painting = "aerjiliya",
+		boss_level_id = 151,
+		id = 11,
+		meta_id = 970302,
+		description = {
+			{
+				"필러 오브 신",
+				3,
+				"전투 개시 시 '필러 오브 신'을 소환한다. '필러 오브 신'은 알제리·META가 받는 피해를 30% 경감한다.\n'필러 오브 신'이 피해를 받을 경우, 알제리·META가 대신 그 피해의 25%를 받는다."
+			},
+			{
+				"엑스퍼게이트 플레임",
+				1,
+				"알제리·META의 공격이 명중한 적을 지속 시간이 짧고 고정 화염 피해량이 높은 특수 화염 '엑스퍼게이트 플레임' 상태로 만든다.\n또한, 전투 중 9초마다 내구가 가장 낮은 적을 '엑스퍼게이트 플레임' 상태로 만든다. 해당 효과는 주력 함대의 발견 게이지 효과를 무시한다."
+			}
+		},
+		state = {
+			{
+				{
+					2023,
+					6,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-7,
+			685,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			659,
+			684.2,
+			0.9,
+			0.9
+		}
+	},
 	all = {
 		1,
 		2,
@@ -364,6 +397,7 @@ pg.world_joint_boss_template = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }

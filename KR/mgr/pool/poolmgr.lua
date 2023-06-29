@@ -164,7 +164,7 @@ function slot0.GetSpineChar(slot0, slot1, slot2, slot3)
 			end
 
 			uv4()
-		end, true)
+		end)
 	else
 		slot6()
 	end
@@ -781,12 +781,11 @@ function slot0.LoadAsset(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		uv0:getAssetAsync(slot1, slot2, slot4, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if uv0.callbacks[uv1] then
 				slot1 = uv0.callbacks[uv1]
+				uv0.callbacks[uv1] = nil
 
 				while next(slot1) do
 					table.remove(slot1)(slot0)
 				end
-
-				uv0.callbacks[uv1] = nil
 			end
 		end), slot6, false)
 	else

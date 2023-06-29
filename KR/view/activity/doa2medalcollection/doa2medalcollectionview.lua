@@ -18,7 +18,7 @@ function slot0.didEnter(slot0)
 	slot0:checkAward()
 
 	if slot0.activeIDList then
-		setText(slot0.progressText, setColorStr(tostring(#slot0.activeIDList), COLOR_WHITE) .. "/" .. #slot0.allIDList or 0)
+		setText(slot0.progressText, setColorStr(tostring(#slot0.activeIDList), COLOR_WHITE) .. "/" .. #slot0.allIDList)
 	end
 
 	triggerToggle(slot0.switchBtnList[1], true)

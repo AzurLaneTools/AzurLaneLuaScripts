@@ -1,5 +1,165 @@
 pg = pg or {}
 pg.enemy_data_statistics_342 = {
+	[16500016] = {
+		cannon = 45,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 80000,
+		air = 0,
+		battle_unit_type = 15,
+		dodge = 0,
+		base = 90080,
+		durability_growth = 2550,
+		antiaircraft = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 0,
+		hit = 81,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 0,
+		torpedo = 85,
+		durability = 60,
+		armor_growth = 0,
+		torpedo_growth = 900,
+		luck_growth = 0,
+		hit_growth = 1200,
+		armor = 0,
+		id = 16500016,
+		fog_fx = "",
+		antisub = 0,
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			1000865
+		}
+	},
+	[16500017] = {
+		cannon = 5,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 300,
+		pilot_ai_template_id = 10002,
+		air = 0,
+		battle_unit_type = 65,
+		dodge = 0,
+		base = 90129,
+		durability_growth = 3800,
+		antiaircraft = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 14,
+		luck = 0,
+		hit = 8,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 0,
+		torpedo = 24,
+		durability = 120,
+		armor_growth = 0,
+		torpedo_growth = 1600,
+		luck_growth = 0,
+		hit_growth = 120,
+		armor = 0,
+		id = 16500017,
+		fog_fx = "",
+		antisub = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			1100695,
+			1100710
+		}
+	},
+	[16500021] = {
+		cannon = 5,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 300,
+		battle_unit_type = 25,
+		air = 0,
+		base = 90743,
+		dodge = 0,
+		durability_growth = 4000,
+		antiaircraft = 25,
+		speed = 15,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 800,
+		torpedo = 27,
+		durability = 105,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		luck_growth = 0,
+		hit_growth = 144,
+		armor = 0,
+		fog_fx = "",
+		id = 16500021,
+		specific_fx_scale = {
+			yuanchou_tianping = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_tianping"
+		},
+		equipment_list = {
+			1100070,
+			1100180,
+			1100490
+		}
+	},
+	[16500022] = {
+		cannon = 10,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 800,
+		battle_unit_type = 30,
+		air = 0,
+		base = 90744,
+		dodge = 0,
+		durability_growth = 5920,
+		antiaircraft = 45,
+		speed = 15,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 1600,
+		torpedo = 22,
+		durability = 180,
+		armor_growth = 0,
+		torpedo_growth = 2000,
+		luck_growth = 0,
+		hit_growth = 144,
+		armor = 0,
+		fog_fx = "",
+		id = 16500022,
+		specific_fx_scale = {
+			yuanchou_tianping = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_tianping"
+		},
+		equipment_list = {
+			1100335,
+			1100270,
+			1100490
+		}
+	},
 	[16500023] = {
 		cannon = 12,
 		reload = 150,
@@ -822,202 +982,6 @@ pg.enemy_data_statistics_342 = {
 			1100620,
 			1100650,
 			1100475
-		}
-	},
-	[16500124] = {
-		cannon = 31,
-		name = "에밀 베르탱 통제 무장-「Annihilate」",
-		type = 5,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		fog_fx = "",
-		dodge = 3,
-		speed = 14,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 48,
-		antiaircraft_growth = 3744,
-		reload = 150,
-		hit = 18,
-		antisub_growth = 0,
-		air_growth = 0,
-		cannon_growth = 2592,
-		base = 90742,
-		icon_type = 5,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 45,
-		hit_growth = 210,
-		armor = 0,
-		durability = 1020,
-		torpedo = 0,
-		id = 16500124,
-		durability_growth = 49600,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		specific_fx_scale = {
-			yuanchou_tianping = 0.04
-		},
-		appear_fx = {
-			"appearsmall",
-			"yuanchou_tianping"
-		},
-		equipment_list = {
-			1100030,
-			1100550,
-			1100915,
-			1100735
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 1
-			}
-		}
-	},
-	[16500125] = {
-		cannon = 0,
-		name = "에밀 베르탱 통제 무장-「Moderate」",
-		type = 7,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 31,
-		fog_fx = "",
-		dodge = 9,
-		speed = 16,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 132,
-		antiaircraft_growth = 3168,
-		reload = 150,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 2574,
-		cannon_growth = 0,
-		base = 90742,
-		icon_type = 7,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 38,
-		hit_growth = 210,
-		armor = 0,
-		durability = 890,
-		torpedo = 0,
-		id = 16500125,
-		durability_growth = 39200,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		specific_fx_scale = {
-			yuanchou_tianping = 0.04
-		},
-		appear_fx = {
-			"appearsmall",
-			"yuanchou_tianping"
-		},
-		equipment_list = {
-			1100020,
-			1100170,
-			1100795,
-			1100925,
-			1100935
-		}
-	},
-	[16500201] = {
-		cannon = 20,
-		name = "조프르 통제 무장-「Wander」",
-		type = 1,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		fog_fx = "",
-		dodge = 19,
-		speed = 20,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 270,
-		antiaircraft_growth = 2800,
-		reload = 150,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		cannon_growth = 1200,
-		base = 90648,
-		icon_type = 1,
-		armor_growth = 0,
-		torpedo_growth = 3000,
-		antiaircraft = 65,
-		hit_growth = 210,
-		armor = 0,
-		durability = 950,
-		torpedo = 80,
-		id = 16500201,
-		durability_growth = 96000,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_gongjian"
-		},
-		equipment_list = {
-			1101070,
-			1101075,
-			1101080,
-			1101085
-		}
-	},
-	[16500202] = {
-		cannon = 30,
-		name = "조프르 통제 무장-「Guard」",
-		type = 2,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		fog_fx = "",
-		dodge = 14,
-		speed = 20,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 198,
-		antiaircraft_growth = 3600,
-		reload = 150,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		cannon_growth = 1600,
-		base = 90648,
-		icon_type = 2,
-		armor_growth = 0,
-		torpedo_growth = 2000,
-		antiaircraft = 115,
-		hit_growth = 210,
-		armor = 0,
-		durability = 1000,
-		torpedo = 50,
-		id = 16500202,
-		durability_growth = 123200,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_gongjian"
-		},
-		equipment_list = {
-			1101070,
-			1101075,
-			1101080,
-			1101085,
-			769000
 		}
 	}
 }

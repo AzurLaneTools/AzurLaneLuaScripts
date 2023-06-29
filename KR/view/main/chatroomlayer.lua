@@ -173,7 +173,7 @@ function slot0.initFriend(slot0, slot1)
 		if slot0 and uv0.friendVO then
 			uv1:openChatPanel(uv0.friendVO)
 
-			uv1.contextData.friendVO = friendVO
+			uv1.contextData.friendVO = uv0.friendVO
 
 			uv1:setFriendVO(uv0.friendVO)
 			uv1:emit(ChatRoomMediator.CLEAR_UNREADCOUNT, uv0.friendVO.id)

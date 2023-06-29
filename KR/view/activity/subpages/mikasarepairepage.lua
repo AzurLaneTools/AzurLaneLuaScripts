@@ -155,7 +155,7 @@ function slot0.set_mikasa_btn(slot0, slot1, slot2, slot3, slot4, slot5)
 		setActive(slot9:Find("black_block"), slot6:getFinishTaskById(slot1))
 	end
 
-	if slot7:getConfig("sub_type") == TASK_SUB_TYPE_FROM_TASKS and slot5 then
+	if slot7:getConfig("sub_type") == 90 and slot5 then
 		for slot13, slot14 in ipairs(slot5) do
 			if slot14[1] == slot1 and slot14[2] == slot7:getProgress() and not pg.NewStoryMgr.GetInstance():IsPlayed(slot14[3]) then
 				pg.NewStoryMgr.GetInstance():Play(slot14[3])

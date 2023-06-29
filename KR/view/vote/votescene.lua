@@ -141,7 +141,7 @@ function slot0.didEnter(slot0)
 
 		uv1:emit(VoteMediator.ON_FILTER, slot0)
 	end, SFX_PANEL)
-	slot0:updateMainview(true)
+	slot0:updateMainview()
 	slot0:initTitles()
 	slot0:UpdateMode()
 end

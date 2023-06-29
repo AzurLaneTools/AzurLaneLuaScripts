@@ -326699,6 +326699,514 @@ _G.pg.base.ship_data_statistics[9703014] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[9703021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "알제리·META",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 9703020,
+	english_name = "Algérie.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9703021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		887,
+		53,
+		42,
+		46,
+		0,
+		73,
+		0,
+		35,
+		13,
+		25,
+		50,
+		0
+	},
+	attrs_growth = {
+		15279,
+		716,
+		584,
+		621,
+		0,
+		507,
+		0,
+		507,
+		279,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		321
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.5,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"AlgérieMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9703022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "알제리·META",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 9703020,
+	english_name = "Algérie.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9703022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1103,
+		66,
+		52,
+		57,
+		0,
+		73,
+		0,
+		35,
+		13,
+		25,
+		50,
+		0
+	},
+	attrs_growth = {
+		15279,
+		716,
+		584,
+		621,
+		0,
+		507,
+		0,
+		507,
+		279,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		322
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.5,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"AlgérieMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9703023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "알제리·META",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 9703020,
+	english_name = "Algérie.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9703023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1536,
+		92,
+		73,
+		80,
+		0,
+		73,
+		0,
+		35,
+		13,
+		25,
+		50,
+		0
+	},
+	attrs_growth = {
+		15279,
+		716,
+		584,
+		621,
+		0,
+		507,
+		0,
+		507,
+		279,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		323
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.6,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"AlgérieMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9703024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "알제리·META",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 9703020,
+	english_name = "Algérie.META",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	is_character = 1,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 9703024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2186,
+		132,
+		105,
+		113,
+		0,
+		73,
+		0,
+		35,
+		13,
+		25,
+		50,
+		0
+	},
+	attrs_growth = {
+		15279,
+		716,
+		584,
+		621,
+		0,
+		507,
+		0,
+		507,
+		279,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		324
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.75,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"AlgérieMETA"
+	}
+}
+
 _G.pg.base.ship_data_statistics[9704011] = {
 	raid_distance = 0,
 	oxy_max = 0,

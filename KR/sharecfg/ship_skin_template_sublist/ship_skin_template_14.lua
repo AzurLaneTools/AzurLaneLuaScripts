@@ -5287,7 +5287,8 @@ pg.base.ship_skin_template_14 = {
 		show_skin = "stand",
 		ship_l2d_id = "",
 		tag = {
-			4
+			4,
+			5
 		},
 		live2d_offset = {
 			0,

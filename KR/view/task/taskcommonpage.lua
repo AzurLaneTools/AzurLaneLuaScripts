@@ -312,28 +312,28 @@ function slot0.filterSubmitTaskVOList(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.filterChoiceTaskVOList(slot0, slot1)
-	slot2 = {}
+function slot0.filterChoiceTaskVOList(slot0, slot1, slot2)
+	slot3 = {}
 
-	for slot7, slot8 in ipairs(slot1) do
-		if slot8:isSelectable() then
-			slot10 = {}
+	for slot8, slot9 in ipairs(slot1) do
+		if slot9:isSelectable() then
+			slot11 = {}
 
-			for slot14, slot15 in ipairs(slot8:getConfig("award_choice")) do
-				slot10[#slot10 + 1] = {
-					type = slot15[1],
-					id = slot15[2],
-					count = slot15[3],
-					index = slot14
+			for slot15, slot16 in ipairs(slot9:getConfig("award_choice")) do
+				slot11[#slot11 + 1] = {
+					type = slot16[1],
+					id = slot16[2],
+					count = slot16[3],
+					index = slot15
 				}
 			end
 
-			slot11 = nil
+			slot12 = nil
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_ITEM_BOX,
 				content = i18n("select_award_warning"),
-				items = slot10,
+				items = slot11,
 				itemFunc = function (slot0)
 					uv0 = slot0.index
 				end,
@@ -354,20 +354,20 @@ function slot0.filterChoiceTaskVOList(slot0, slot1)
 						uv2.choiceItemList = slot0
 
 						table.insert(uv3, uv2)
-						process()
+						uv4()
 					end
 				end,
 				onNo = function ()
-					process()
+					uv0()
 				end
 			})
 			coroutine.yield()
 		else
-			table.insert(slot2, slot8)
+			table.insert(slot3, slot9)
 		end
 	end
 
-	return slot2
+	return slot3
 end
 
 return slot0

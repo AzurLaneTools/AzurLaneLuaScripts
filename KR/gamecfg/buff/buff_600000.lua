@@ -43,8 +43,49 @@ return {
 				"onBeforeFatalDamage"
 			},
 			arg_list = {
+				minTargetNumber = 1,
 				skill_id = 600000,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				check_target = {
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"huifu1"
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onBeforeFatalDamage"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				skill_id = 600000,
+				target = "TargetSelf",
+				check_target = {
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"huifu2"
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onBeforeFatalDamage"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				skill_id = 600000,
+				target = "TargetSelf",
+				check_target = {
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"huifu3"
+				}
 			}
 		},
 		{

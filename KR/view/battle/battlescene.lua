@@ -483,7 +483,7 @@ function slot0.initPauseWindow(slot0)
 
 		setText(slot3, slot6.chapter_name)
 		setText(slot4, string.split(slot6.name, "|")[1])
-	elseif slot5 == SYSTEM_ROUTINE or slot5 == SYSTEM_DUEL or slot5 == SYSTEM_HP_SHARE_ACT_BOSS or slot5 == SYSTEM_BOSS_EXPERIMENT or slot5 == SYSTEM_ACT_BOSS or slot5 == SYSTEM_BOSS_RUSH or slot5 == SYSTEM_BOSS_RUSH_EX then
+	elseif slot5 == SYSTEM_ROUTINE or slot5 == SYSTEM_DUEL or slot5 == SYSTEM_HP_SHARE_ACT_BOSS or slot5 == SYSTEM_BOSS_EXPERIMENT or slot5 == SYSTEM_ACT_BOSS or slot5 == SYSTEM_BOSS_RUSH or slot5 == SYSTEM_BOSS_RUSH_EX or slot5 == SYSTEM_LIMIT_CHALLENGE then
 		setText(slot3, "SP")
 		setText(slot4, pg.expedition_data_template[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().StageTmpId].name)
 	elseif slot5 == SYSTEM_DEBUG then
@@ -503,6 +503,10 @@ function slot0.initPauseWindow(slot0)
 	elseif slot5 == SYSTEM_GUILD then
 		setText(slot3, "BOSS")
 		setText(slot4, pg.guild_boss_event[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().ActID] and slot7.name or "")
+	elseif slot5 ~= SYSTEM_TEST and slot5 ~= SYSTEM_SUB_ROUTINE and slot5 ~= SYSTEM_PERFORM and slot5 ~= SYSTEM_PROLOGUE and slot5 ~= SYSTEM_DODGEM and slot5 ~= SYSTEM_SIMULATION and slot5 ~= SYSTEM_SUBMARINE_RUN and slot5 ~= SYSTEM_BOSS_EXPERIMENT and slot5 ~= SYSTEM_REWARD_PERFORM then
+		if slot5 ~= SYSTEM_AIRFIGHT then
+			assert(false, "System not defined " .. (slot5 or "NIL"))
+		end
 	end
 
 	onButton(slot0, slot0.leaveBtn, function ()

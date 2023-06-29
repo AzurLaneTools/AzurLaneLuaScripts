@@ -64,7 +64,9 @@ function slot0.openDescPanel(slot0, slot1)
 	})
 	LeanTween.moveX(slot0.samllTF, 800, slot2):setOnComplete(System.Action(function ()
 		setActive(uv0.descPanel, true)
-		pg.UIMgr.GetInstance():OverlayPanel(uv0._tf)
+		pg.UIMgr.GetInstance():OverlayPanel(uv0._tf, {
+			groupName = LayerWeightConst.GROUP_FORMATION_PAGE
+		})
 		setAnchoredPosition(uv0.descFrameTF, {
 			x = 800
 		})

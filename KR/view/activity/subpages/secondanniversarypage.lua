@@ -70,14 +70,4 @@ function slot0.initBtn(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.srollAnimation(slot0)
-	slot1 = slot0.Content.localPosition.x
-	slot2 = slot0.Content.localPosition.y
-	slot3 = slot0.Content.localPosition.z
-	slot4 = LeanTween.value(go(slot0.Content), 0, -2285, 40)
-	slot4 = slot4:setOnUpdate(System.Action_float(function (slot0)
-		alpha.alpha = slot0
-	end))
-end
-
 return slot0

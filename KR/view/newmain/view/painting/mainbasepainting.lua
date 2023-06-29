@@ -446,16 +446,16 @@ end
 function slot0.OnTriggerEventAuto(slot0)
 end
 
-function slot0.OnDisplayWorld(slot0)
+function slot0.OnDisplayWorld(slot0, slot1)
 end
 
 function slot0.OnDisplayWordEnd(slot0)
 end
 
-function slot0.OnFold(slot0)
+function slot0.OnFold(slot0, slot1)
 end
 
-function slot0.OnEnableOrDisableDragAndZoom(slot0)
+function slot0.OnEnableOrDisableDragAndZoom(slot0, slot1)
 end
 
 function slot0.OnPuase(slot0)

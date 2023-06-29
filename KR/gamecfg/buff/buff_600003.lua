@@ -15,8 +15,9 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				skill_id = 600002,
-				target = "TargetSelf"
+				quota = 3,
+				target = "TargetSelf",
+				skill_id = 600002
 			}
 		}
 	}

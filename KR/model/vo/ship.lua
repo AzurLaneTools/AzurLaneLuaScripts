@@ -1362,7 +1362,7 @@ function slot0.getTransGearScore(slot0)
 
 	for slot6, slot7 in pairs(slot0.transforms) do
 		for slot11 = 1, slot7.level do
-			slot1 = slot1 + slot2[slot7.id].gear_score[slot11] or 0
+			slot1 = slot1 + (slot2[slot7.id].gear_score[slot11] or 0)
 		end
 	end
 

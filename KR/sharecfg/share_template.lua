@@ -189,13 +189,16 @@ pg.share_template = {
 		name = "获得新舰娘界面之科研彩皮",
 		show_comps = "",
 		deck = 2,
-		hidden_comps = "",
 		id = 11,
 		move_comps = "",
-		camera = "OverlayCamera",
+		camera = "UICamera",
 		qrcode_location = {
 			412,
 			-261
+		},
+		hidden_comps = {
+			"UICamera/Canvas/UIMain/LimitChallengeUI(Clone)/blur_panel",
+			"UICamera/Canvas/UIMain/LimitChallengeUI(Clone)/Adapt/StartBtn"
 		}
 	},
 	{

@@ -154,7 +154,7 @@ function slot0.OpenBook(slot0, slot1)
 	onButton(slot0, slot0.goBtn, function ()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("towerclimbing_reward_tip"))
 	end, SFX_PANEL)
-	triggerButton(slot0.prevPageBtn, true)
+	triggerButton(slot0.prevPageBtn)
 end
 
 function slot0.UpdatePage(slot0, slot1, slot2, slot3)

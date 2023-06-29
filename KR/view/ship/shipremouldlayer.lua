@@ -204,11 +204,11 @@ slot0.STATE_LOCK = 3
 
 function slot0.getTransformState(slot0, slot1)
 	if slot0:getTransformLevel(slot1) == pg.transform_data_template[slot1].max_level then
-		return uv0.STATE_FINISHED, transformlevel
+		return uv0.STATE_FINISHED
 	elseif slot0:canRemould(slot1) then
-		return uv0.STATE_ACTIVE, transformlevel
+		return uv0.STATE_ACTIVE
 	else
-		return uv0.STATE_LOCK, transformlevel
+		return uv0.STATE_LOCK
 	end
 end
 

@@ -1,6 +1,6 @@
 slot0 = class("FushunBeastChar")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.index = slot2
@@ -20,6 +20,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.collider2D = slot0._tf:GetComponent(typeof(UnityEngine.Collider2D))
 	slot0.effectCollider2D = slot0._tf:Find("effect"):GetComponent(typeof(UnityEngine.Collider2D))
 	slot0.hpBar = UIItemList.New(slot1.transform:Find("hp"), slot1.transform:Find("hp/tpl"))
+	slot0.fushunLoader = slot4
 
 	slot0:MakeHpBar()
 end
@@ -164,7 +165,7 @@ end
 function slot0.Dispose(slot0)
 	slot0.animatorEvent:SetTriggerEvent(nil)
 	slot0.animatorEvent:SetEndEvent(nil)
-	pg.fushunLoader:ReturnPrefab("FushunAdventure/" .. slot0.name, "", slot0._go, false)
+	slot0.fushunLoader:ReturnPrefab("FushunAdventure/" .. slot0.name, "", slot0._go, false)
 
 	slot0._go = nil
 	slot0._tf = nil

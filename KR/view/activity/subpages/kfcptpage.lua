@@ -114,7 +114,7 @@ function slot0.SetLocalData(slot0)
 	PlayerPrefs.Save()
 end
 
-function slot0.GetRandomName(slot0)
+function slot0.GetRandomName()
 	return uv0.SpineCharName[math.random(#uv0.SpineCharName)]
 end
 

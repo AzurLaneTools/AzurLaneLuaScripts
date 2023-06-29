@@ -34,7 +34,7 @@ function slot0.getConfig(slot0, slot1)
 	elseif slot1 == "award_choice" then
 		return nil
 	else
-		assert(false, "表 weekly_task_template 没有字段:" .. name)
+		assert(false, "表 weekly_task_template 没有字段:" .. slot1)
 	end
 end
 

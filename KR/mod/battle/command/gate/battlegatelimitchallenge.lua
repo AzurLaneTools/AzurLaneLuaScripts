@@ -96,8 +96,9 @@ function slot0.Exit(slot0, slot1)
 
 		uv1.statistics.mvpShipID = slot0.mvp
 		slot1, slot2 = uv0:GeneralLoot(slot0)
+		slot3 = ys.Battle.BattleConst.BattleScore.C < uv2
 
-		uv0.GeneralPlayerCosume(uv5.BattleSystem, ys.Battle.BattleConst.BattleScore.C < uv2, uv6, slot0.player_exp)
+		uv0.GeneralPlayerCosume(uv5.BattleSystem, slot3, uv6, slot0.player_exp)
 		uv0:sendNotification(GAME.FINISH_STAGE_DONE, {
 			system = uv5.BattleSystem,
 			statistics = uv1.statistics,
@@ -107,7 +108,10 @@ function slot0.Exit(slot0, slot1)
 			result = slot0.result,
 			extraDrops = slot2
 		})
-		getProxy(LimitChallengeProxy):setPassTime(LimitChallengeConst.GetChallengeIDByStageID(uv7), uv1.statistics._totalTime)
+
+		if slot3 then
+			getProxy(LimitChallengeProxy):setPassTime(LimitChallengeConst.GetChallengeIDByStageID(uv7), uv1.statistics._totalTime)
+		end
 	end)
 end
 

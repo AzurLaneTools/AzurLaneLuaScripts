@@ -76,12 +76,14 @@ function slot0.didEnter(slot0)
 		end
 
 		if _.any(uv0.contextData.fleets, function (slot0)
-			return _.any(slot0:GetRawShipIds(), function (slot0)
-				return getProxy(BayProxy):RawGetShipById(slot0):getFlag("inEvent")
-			end)
-		end) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_ship_escort"))
+			slot1, slot2 = slot0:HaveShipsInEvent()
 
+			if slot1 then
+				pg.TipsMgr.GetInstance():ShowTips(slot2)
+
+				return true
+			end
+		end) then
 			return
 		end
 

@@ -185,7 +185,7 @@ function slot1.AddItemAndDepend(slot0, slot1)
 	end
 
 	table.insert(slot0.sortedItems, slot1)
-	assert(slot1.sortedFlag ~= sortedFlag, "依赖关系产生了循环！")
+	assert(slot1.sortedFlag ~= slot0.sortedFlag, "依赖关系产生了循环！")
 
 	slot1.sortedFlag = slot0.sortedFlag
 end

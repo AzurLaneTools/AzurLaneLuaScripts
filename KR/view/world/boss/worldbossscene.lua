@@ -95,9 +95,9 @@ function slot0.OnAutoBattleResult(slot0, slot1)
 	end
 end
 
-function slot0.OnAutoBattleStart(slot0)
+function slot0.OnAutoBattleStart(slot0, slot1)
 	if slot0.archivesDetailPage and slot0.archivesDetailPage:isShowing() then
-		slot0.archivesDetailPage:OnAutoBattleStart(data)
+		slot0.archivesDetailPage:OnAutoBattleStart(slot1)
 	end
 end
 

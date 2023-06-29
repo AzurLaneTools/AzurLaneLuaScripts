@@ -38,7 +38,7 @@ function slot2(slot0, slot1)
 			uv1(math.floor(slot0 / uv0), slot1)
 			table.insert(slot1, slot0 % uv0)
 		end
-	end)(slot0, slot3, slot1)
+	end)(slot0, slot3)
 
 	return slot3
 end

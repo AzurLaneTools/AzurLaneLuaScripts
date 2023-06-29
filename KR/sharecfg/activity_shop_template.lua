@@ -18908,24 +18908,6 @@ pg.activity_shop_template = {
 			}
 		}
 	},
-	[10900] = {
-		activity = 0,
-		resource_category = 2,
-		num_limit = 0,
-		num = 1,
-		commodity_id = 502021,
-		commodity_type = 7,
-		resource_type = 59900,
-		id = 10900,
-		resource_num = 1000,
-		order = 94,
-		limit_args = {
-			{
-				"quota",
-				1
-			}
-		}
-	},
 	[10901] = {
 		activity = 0,
 		resource_category = 2,
@@ -19530,7 +19512,6 @@ pg.activity_shop_template = {
 			10065,
 			10069,
 			10076,
-			10900,
 			10901,
 			10902,
 			10903,
@@ -22342,7 +22323,6 @@ pg.activity_shop_template = {
 		10502,
 		10503,
 		10504,
-		10900,
 		10901,
 		10902,
 		10903,

@@ -72206,6 +72206,384 @@ _G.pg.base.aircraft_template[161200] = {
 	}
 }
 
+_G.pg.base.aircraft_template[161231] = {
+	attack_power = 2,
+	name = "萨拉托加技能鱼雷机Lv1",
+	type = 2,
+	accuracy = 23,
+	model_ID = "tbf",
+	ACC_growth = 0,
+	crash_DMG = 406,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 161231,
+	icon = "tbf",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1149,
+	speed = 48,
+	max_hp = 30,
+	scale = 1,
+	weapon_ID = {
+		161251
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.15,
+			-0.08,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[161232] = {
+	id = 161232,
+	name = "萨拉托加技能鱼雷机Lv2",
+	hp_growth = 1385,
+	base = 161231,
+	max_hp = 36,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161252
+	}
+}
+
+_G.pg.base.aircraft_template[161233] = {
+	id = 161233,
+	name = "萨拉托加技能鱼雷机Lv3",
+	hp_growth = 1621,
+	base = 161231,
+	max_hp = 42,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161253
+	}
+}
+
+_G.pg.base.aircraft_template[161234] = {
+	id = 161234,
+	name = "萨拉托加技能鱼雷机Lv4",
+	hp_growth = 1857,
+	base = 161231,
+	max_hp = 48,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161254
+	}
+}
+
+_G.pg.base.aircraft_template[161235] = {
+	id = 161235,
+	name = "萨拉托加技能鱼雷机Lv5",
+	hp_growth = 2093,
+	base = 161231,
+	max_hp = 54,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161255
+	}
+}
+
+_G.pg.base.aircraft_template[161236] = {
+	id = 161236,
+	name = "萨拉托加技能鱼雷机Lv6",
+	hp_growth = 2329,
+	base = 161231,
+	max_hp = 60,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161256
+	}
+}
+
+_G.pg.base.aircraft_template[161237] = {
+	id = 161237,
+	name = "萨拉托加技能鱼雷机Lv7",
+	hp_growth = 2565,
+	base = 161231,
+	max_hp = 66,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161257
+	}
+}
+
+_G.pg.base.aircraft_template[161238] = {
+	id = 161238,
+	name = "萨拉托加技能鱼雷机Lv8",
+	hp_growth = 2801,
+	base = 161231,
+	max_hp = 72,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161258
+	}
+}
+
+_G.pg.base.aircraft_template[161239] = {
+	id = 161239,
+	name = "萨拉托加技能鱼雷机Lv9",
+	hp_growth = 3037,
+	base = 161231,
+	max_hp = 78,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161259
+	}
+}
+
+_G.pg.base.aircraft_template[161240] = {
+	id = 161240,
+	name = "萨拉托加技能鱼雷机Lv10",
+	hp_growth = 3274,
+	base = 161231,
+	max_hp = 84,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161260
+	}
+}
+
+_G.pg.base.aircraft_template[161241] = {
+	attack_power = 2,
+	name = "萨拉托加技能轰炸机Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "sbdwuwei",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	id = 161241,
+	icon = "sbdwuwei",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1183,
+	speed = 46,
+	max_hp = 31,
+	scale = 1,
+	weapon_ID = {
+		161261,
+		161271
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.72,
+			-0.15,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[161242] = {
+	id = 161242,
+	name = "萨拉托加技能轰炸机Lv2",
+	hp_growth = 1345,
+	base = 161241,
+	max_hp = 35,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161262,
+		161272
+	}
+}
+
+_G.pg.base.aircraft_template[161243] = {
+	id = 161243,
+	name = "萨拉托加技能轰炸机Lv3",
+	hp_growth = 1507,
+	base = 161241,
+	max_hp = 39,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161263,
+		161273
+	}
+}
+
+_G.pg.base.aircraft_template[161244] = {
+	id = 161244,
+	name = "萨拉托加技能轰炸机Lv4",
+	hp_growth = 1669,
+	base = 161241,
+	max_hp = 43,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161264,
+		161274
+	}
+}
+
+_G.pg.base.aircraft_template[161245] = {
+	id = 161245,
+	name = "萨拉托加技能轰炸机Lv5",
+	hp_growth = 1831,
+	base = 161241,
+	max_hp = 47,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161265,
+		161275
+	}
+}
+
+_G.pg.base.aircraft_template[161246] = {
+	id = 161246,
+	name = "萨拉托加技能轰炸机Lv6",
+	hp_growth = 1994,
+	base = 161241,
+	max_hp = 51,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161266,
+		161276
+	}
+}
+
+_G.pg.base.aircraft_template[161247] = {
+	id = 161247,
+	name = "萨拉托加技能轰炸机Lv7",
+	hp_growth = 2157,
+	base = 161241,
+	max_hp = 55,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161267,
+		161277
+	}
+}
+
+_G.pg.base.aircraft_template[161248] = {
+	id = 161248,
+	name = "萨拉托加技能轰炸机Lv8",
+	hp_growth = 2320,
+	base = 161241,
+	max_hp = 59,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161268,
+		161278
+	}
+}
+
+_G.pg.base.aircraft_template[161249] = {
+	id = 161249,
+	name = "萨拉托加技能轰炸机Lv9",
+	hp_growth = 2483,
+	base = 161241,
+	max_hp = 63,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161269,
+		161279
+	}
+}
+
+_G.pg.base.aircraft_template[161250] = {
+	id = 161250,
+	name = "萨拉托加技能轰炸机Lv10",
+	hp_growth = 2646,
+	base = 161241,
+	max_hp = 68,
+	spawn_brownian = 1,
+	weapon_ID = {
+		161270,
+		161280
+	}
+}
+
 _G.pg.base.aircraft_template[200101] = {
 	attack_power = 2,
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",

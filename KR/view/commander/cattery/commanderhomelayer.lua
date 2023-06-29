@@ -154,7 +154,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.levelInfoBtn, function ()
 		uv0.levelInfoPage:ExecuteAction("Show", uv0.home)
 	end, SFX_PANEL)
-	onButton(slot0, slot0.helpBtn, function (slot0)
+	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.cat_home_help.tip

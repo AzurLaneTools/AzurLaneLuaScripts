@@ -48,9 +48,7 @@ function slot0.execute(slot0, slot1)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("player_changePlayerIcon_ok"))
 			end
 
-			uv5:sendNotification(GAME.CHANGE_PLAYER_ICON_DONE, {
-				ship = ship
-			})
+			uv5:sendNotification(GAME.CHANGE_PLAYER_ICON_DONE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("player_changePlayerIcon", slot0.result))
 		end

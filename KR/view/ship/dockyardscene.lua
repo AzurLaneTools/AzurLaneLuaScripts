@@ -36,10 +36,10 @@ function slot0.init(slot0)
 	slot0.selectedIds = slot1.selectedIds and _.select(slot1.selectedIds, function (slot0)
 		return getProxy(BayProxy):getShipById(slot0) ~= nil
 	end) or {}
-	slot0.checkShip = slot1.onShip or function (slot0)
+	slot0.checkShip = slot1.onShip or function (slot0, slot1, slot2)
 		return true
 	end
-	slot0.onCancelShip = slot1.onCancelShip or function (slot0)
+	slot0.onCancelShip = slot1.onCancelShip or function (slot0, slot1, slot2)
 		return true
 	end
 	slot0.onClick = slot1.onClick or function (slot0, slot1)
@@ -47,7 +47,7 @@ function slot0.init(slot0)
 	end
 	slot0.confirmSelect = slot1.confirmSelect
 	slot0.callbackQuit = slot1.callbackQuit
-	slot0.onSelected = slot1.onSelected or function ()
+	slot0.onSelected = slot1.onSelected or function (slot0, slot1)
 		warning("not implemented.")
 	end
 	slot0.blurPanel = slot0:findTF("blur_panel")
@@ -87,7 +87,7 @@ function slot0.init(slot0)
 	slot0.energyDescTextTF = slot0.energyDescTF:Find("Text")
 	slot0.selectPanel = slot0.blurPanel:Find("select_panel")
 	slot0.bottomTipsText = slot0.selectPanel:Find("tip")
-	slot0.bottomTipsWithFrameText = slot0.selectPanel:Find("tipwithframe/Text")
+	slot0.bottomTipsWithFrame = slot0.selectPanel:Find("tipwithframe")
 
 	setText(slot0.selectPanel:Find("bottom_info/bg_input/selected"), i18n("disassemble_selected") .. ":")
 
@@ -562,20 +562,14 @@ function slot0.setFriends(slot0, slot1)
 end
 
 function slot0.updateBarInfo(slot0)
-	setActive(slot0.bottomTipsWithFrameText.parent, false)
+	setActive(slot0.bottomTipsText, slot0.contextData.leftTopInfo)
+	setText(slot0.bottomTipsText, slot0.contextData.leftTopInfo and i18n("dock_yard_left_tips", slot0.contextData.leftTopInfo) or "")
+	setActive(slot0.bottomTipsWithFrame, slot0.contextData.leftTopWithFrameInfo)
+	setText(slot0.bottomTipsWithFrame:Find("Text"), slot0.contextData.leftTopWithFrameInfo or "")
 
-	if slot0.contextData.mode == uv0.MODE_WORLD or slot0.contextData.mode == uv0.MODE_GUILD_BOSS then
-		setText(slot0.bottomTipsText, "")
-	elseif slot0.contextData.leftTopInfo then
-		setText(slot0.bottomTipsText, i18n("dock_yard_left_tips", slot0.contextData.leftTopInfo))
-	elseif slot0.contextData.leftTopWithFrameInfo then
-		setActive(slot0.bottomTipsWithFrameText.parent, true)
-		setText(slot0.bottomTipsWithFrameText, slot0.contextData.leftTopWithFrameInfo)
-		setText(slot0.bottomTipsText, "")
-	elseif slot0.contextData.mode == uv0.MODE_REMOULD then
-		setText(slot0.bottomTipsText, "")
+	if slot0.contextData.mode == uv0.MODE_WORLD or slot0.contextData.mode == uv0.MODE_GUILD_BOSS or slot0.contextData.mode == uv0.MODE_REMOULD then
+		setActive(slot0.leftTipsText, false)
 	else
-		setText(slot0.bottomTipsText, "")
 		setActive(slot0.leftTipsText, true)
 		setText(slot0.leftTipsText:Find("label"), i18n("ship_dockyardScene_capacity"))
 		setText(slot0.leftTipsText:Find("Text"), slot0.shipsCount .. "/" .. slot0.player:getMaxShipBag())

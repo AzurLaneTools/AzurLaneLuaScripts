@@ -233,7 +233,8 @@ pg.memory_group = setmetatable({
 		583,
 		584,
 		585,
-		586
+		586,
+		587
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -4770,6 +4771,22 @@ pg.base.memory_group = {
 			2765,
 			2766,
 			2767
+		}
+	},
+	[587] = {
+		icon = "title_chara_saidelici",
+		subtype = 0,
+		type = 3,
+		id = 587,
+		title = "피어나는 아이언 로즈",
+		memories = {
+			2771,
+			2772,
+			2773,
+			2774,
+			2775,
+			2776,
+			2777
 		}
 	}
 }

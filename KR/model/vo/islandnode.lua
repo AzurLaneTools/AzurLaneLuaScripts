@@ -77,7 +77,7 @@ function slot0.RedDotHint(slot0)
 		end,
 		[5] = function ()
 			uv0.markDic = uv0.markDic or {
-				minigame1 = function ()
+				minigame1 = function (...)
 					return getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityById(ActivityConst.ISLAND_GAME_ID):getConfig("config_id")).count > 0
 				end,
 				minigame2 = function (...)

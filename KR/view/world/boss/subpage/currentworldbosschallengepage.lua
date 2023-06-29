@@ -90,7 +90,7 @@ end
 
 function slot0.UpdateMainView(slot0, slot1, slot2)
 	uv0.super.UpdateMainView(slot0, slot1, slot2)
-	setActive(slot0.awardBtn, not isDeath)
+	setActive(slot0.awardBtn, not slot1:isDeath())
 	onButton(slot0, slot0.awardBtn, function ()
 		uv0.awardPage:ExecuteAction("Update", uv1)
 	end, SFX_PANEL)

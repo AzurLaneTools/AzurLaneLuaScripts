@@ -1,5 +1,4 @@
 slot0 = class("ShipMainMediator", import("...base.ContextMediator"))
-slot0.ON_DESTROY_SHIP = "ShipMainMediator:ON_DESTROY_SHIP"
 slot0.ON_LOCK = "ShipMainMediator:ON_LOCK"
 slot0.ON_TAG = "ShipMainMediator:ON_TAG"
 slot0.ON_UPGRADE = "ShipMainMediator:ON_UPGRADE"
@@ -94,14 +93,6 @@ function slot0.register(slot0)
 				skinId = slot2
 			}
 		}))
-	end)
-	slot0:bind(uv0.ON_DESTROY_SHIP, function (slot0)
-		uv0:sendNotification(GAME.DESTROY_SHIPS, {
-			destroyEquipment = destroyEquipment,
-			shipIds = {
-				uv0.contextData.shipId
-			}
-		})
 	end)
 	slot0:bind(uv0.ON_RECORD_EQUIPMENT, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.RECORD_SHIP_EQUIPMENT, {
@@ -251,7 +242,7 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDPOST, {
 			selectedMin = 1,
 			selectedMax = 1,
-			mode = CommandPostScene.MODE_SELECT,
+			mode = CommandRoomScene.MODE_SELECT,
 			onShip = function (slot0)
 				if slot0.shipId == uv0.contextData.shipId then
 					return false, i18n("commander_ship_already_equip")

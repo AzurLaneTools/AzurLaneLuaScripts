@@ -91,9 +91,7 @@ function slot0.CheckIncludeSelf(slot0, slot1)
 end
 
 function slot0.OnUpdateItem(slot0, slot1, slot2)
-	slot3 = slot0.cards[slot2]
-
-	if not cards then
+	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
 		slot3 = slot0.cards[slot2]

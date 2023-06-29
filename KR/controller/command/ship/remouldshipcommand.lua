@@ -308,7 +308,7 @@ function slot0.execute(slot0, slot1)
 					})
 
 					if nowWorld() and slot0:GetBossProxy() and slot1.isSetup then
-						slot1:CheckRemouldShip(ship)
+						slot1:CheckRemouldShip()
 					end
 				end)
 

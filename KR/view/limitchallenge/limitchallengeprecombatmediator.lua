@@ -73,9 +73,10 @@ function slot0.bindEvent(slot0)
 		end)), uv0.contextData.actId)
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			selectedMax = 1,
 			useBlackBlock = true,
 			selectedMin = 0,
+			skipSelect = true,
+			selectedMax = 1,
 			energyDisplay = false,
 			leastLimitMsg = i18n("battle_preCombatMediator_leastLimit"),
 			quitTeam = slot1 ~= nil,
@@ -149,13 +150,15 @@ function slot0.bindEvent(slot0)
 			end,
 			function (slot0)
 				table.SerialIpairsAsync(uv0.contextData.fleets, function (slot0, slot1, slot2)
-					Fleet.EnergyCheck(_.map(_.values(slot1.ships), function (slot0)
-						return getProxy(BayProxy):getShipById(slot0)
-					end), slot1:GetName(), function (slot0)
-						if slot0 then
-							uv0()
-						end
-					end)
+					slot3, slot4 = slot1:HaveShipsInEvent()
+
+					if slot3 then
+						pg.TipsMgr.GetInstance():ShowTips(slot4)
+
+						return
+					end
+
+					slot2()
 				end, slot0)
 			end,
 			function (slot0)
@@ -221,6 +224,7 @@ function slot0.refreshEdit(slot0, slot1)
 	slot2 = slot0.contextData.fleets
 
 	slot0.viewComponent:SetSubFlag(slot2[#slot2]:isLegalToFight())
+	getProxy(FleetProxy):updateFleet(slot1)
 end
 
 function slot0.removeShipFromFleet(slot0, slot1, slot2)
@@ -288,17 +292,22 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 	end, function (slot0, slot1, slot2)
 		slot1()
 	end, function (slot0)
-		if uv0 then
-			uv1:removeShip(uv0)
-		end
+		if #slot0 == 0 then
+			if uv0 then
+				uv1:removeShip(uv0)
+			end
+		elseif #slot0 > 0 then
+			slot2 = uv2:getShipById(slot0[1])
 
-		if #slot0 > 0 then
-			if not uv1:containShip(uv2:getShipById(slot0[1])) then
-				uv1:insertShip(slot1, nil, uv3)
-			elseif uv0 then
-				uv1:insertShip(uv0, nil, uv3)
+			if uv1:getShipPos(uv0) then
+				uv1:removeShip(uv0)
+
+				if slot2.id == uv0.id then
+					slot1 = nil
+				end
 			end
 
+			uv1:insertShip(slot2, slot1, uv3)
 			uv1:RemoveUnusedItems()
 		end
 

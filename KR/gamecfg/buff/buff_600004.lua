@@ -16,78 +16,63 @@ return {
 	color = "red",
 	picture = "",
 	desc = "",
-	stack = 1,
+	stack = 999,
 	id = 600004,
 	icon = 600004,
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffCount",
+			type = "BattleBuffCastSkill",
 			trigger = {
 				"onAttach",
 				"onStack"
 			},
 			arg_list = {
-				countTarget = 1,
-				countType = 600000
-			}
-		},
-		{
-			type = "BattleBuffCount",
-			trigger = {
-				"onAttach",
-				"onStack"
-			},
-			arg_list = {
-				countTarget = 2,
-				countType = 600001
-			}
-		},
-		{
-			type = "BattleBuffCount",
-			trigger = {
-				"onAttach",
-				"onStack"
-			},
-			arg_list = {
-				countTarget = 3,
-				countType = 600002
-			}
-		},
-		{
-			type = "BattleBuffCastSkill",
-			trigger = {
-				"onBattleBuffCount"
-			},
-			arg_list = {
-				quota = 1,
-				target = "TargetSelf",
-				skill_id = 600003,
-				countType = 600000
-			}
-		},
-		{
-			type = "BattleBuffCastSkill",
-			trigger = {
-				"onBattleBuffCount"
-			},
-			arg_list = {
-				quota = 1,
-				target = "TargetSelf",
-				skill_id = 600004,
-				countType = 600001
-			}
-		},
-		{
-			type = "BattleBuffCastSkill",
-			trigger = {
-				"onBattleBuffCount"
-			},
-			arg_list = {
-				quota = 1,
-				target = "TargetSelf",
+				minTargetNumber = 1,
 				skill_id = 600005,
-				countType = 600002
+				target = "TargetSelf",
+				check_target = {
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"huifu3"
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach",
+				"onStack"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				skill_id = 600004,
+				target = "TargetSelf",
+				check_target = {
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"huifu2"
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach",
+				"onStack"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				skill_id = 600003,
+				target = "TargetSelf",
+				check_target = {
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"huifu1"
+				}
 			}
 		}
 	}

@@ -9,6 +9,12 @@ function slot0.Ctor(slot0, slot1)
 	slot0.academyGraphPath = GraphPath.New(AcademyGraph)
 end
 
+function slot0.BindBuildings(slot0, slot1)
+	slot0.buildings = _.map(slot1, function (slot0)
+		return slot0._tf
+	end)
+end
+
 function slot0.Refresh(slot0)
 	slot1, slot2 = slot0:getStudents()
 
@@ -64,9 +70,7 @@ function slot0.onStateChange(slot0, slot1, slot2)
 end
 
 function slot0.sortStudents(slot0)
-	slot1 = {
-		slot0._fountain
-	}
+	table.insertto({}, slot0.buildings)
 
 	for slot5, slot6 in pairs(slot0.academyStudents) do
 		table.insert(slot1, slot6._tf)
@@ -76,7 +80,7 @@ function slot0.sortStudents(slot0)
 		return slot1.anchoredPosition.y < slot0.anchoredPosition.y
 	end)
 
-	slot2 = 7
+	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot1) do
 		slot7:SetSiblingIndex(slot2)

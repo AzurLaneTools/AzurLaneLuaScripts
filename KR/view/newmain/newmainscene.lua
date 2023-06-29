@@ -110,6 +110,9 @@ function slot0.didEnter(slot0)
 			uv0.awakeSequenceView:Execute(slot0)
 		end,
 		function (slot0)
+			onNextTick(slot0)
+		end,
+		function (slot0)
 			uv0.isInit = true
 			uv1 = uv0:GetFlagShip()
 
