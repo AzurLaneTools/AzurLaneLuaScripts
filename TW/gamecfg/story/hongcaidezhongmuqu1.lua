@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "在這些人知情人中，沒有被其表象迷惑，真正了解到其深層內容的又有多少……",
+			say = "在這些知情人中，沒有被其表象迷惑，真正了解到其深層內容的又有多少……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

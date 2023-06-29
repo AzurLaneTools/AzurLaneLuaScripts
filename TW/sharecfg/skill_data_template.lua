@@ -78216,11 +78216,11 @@ pg.base.skill_data_template = {
 	},
 	[23241] = {
 		desc_get = "",
-		name = "全弹发射I",
+		name = "全彈發射I",
 		id = 23241,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行9次攻击，触发全弹发射-{namecode:439}级I",
+		desc = "主炮每進行9次攻擊，觸發全彈發射-羅恩級I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -78230,11 +78230,11 @@ pg.base.skill_data_template = {
 	},
 	[23242] = {
 		desc_get = "",
-		name = "全弹发射II",
+		name = "全彈發射II",
 		id = 23242,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行6次攻击，触发全弹发射-{namecode:439}级II",
+		desc = "主炮每進行6次攻擊，觸發全彈發射-羅恩級II",
 		system_transform = {},
 		world_death_mark = {
 			1
