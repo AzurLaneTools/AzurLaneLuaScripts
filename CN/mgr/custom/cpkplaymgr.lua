@@ -7,6 +7,7 @@ function this.Ctor(slot0)
 	slot0._mainTF = nil
 	slot0._closeLimit = nil
 	slot0._animator = nil
+	slot0._timer = nil
 	slot0._criUsm = nil
 	slot0._criCpk = nil
 	slot0._stopGameBGM = false
@@ -20,13 +21,14 @@ function this.Reset(slot0)
 	slot0._criUsm = nil
 	slot0._criCpk = nil
 	slot0._stopGameBGM = false
+	slot0._timer = nil
 end
 
 function this.OnPlaying(slot0)
 	return slot0._onPlaying
 end
 
-function this.PlayCpkMovie(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+function this.PlayCpkMovie(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._onPlaying = true
@@ -34,26 +36,24 @@ function this.PlayCpkMovie(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot
 
 	pg.UIMgr.GetInstance():LoadingOn()
 
-	function slot8()
+	function slot10()
 		if not uv0._mainTF then
 			return
 		end
 
-		if Time.realtimeSinceStartup < uv0._closeLimit then
+		if not uv1 and Time.realtimeSinceStartup < uv0._closeLimit then
 			return
 		end
 
 		setActive(uv0._mainTF, false)
 		uv0:DisposeCpkMovie()
 
-		if uv1 then
-			uv1()
+		if uv2 then
+			uv2()
 		end
 	end
 
-	function slot9()
-		uv0._animator.enabled = true
-
+	function slot11()
 		onButton(uv0, uv0._mainTF, function ()
 			if uv0 then
 				uv1()
@@ -78,24 +78,32 @@ function this.PlayCpkMovie(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot
 			end)
 		end
 
-		slot0 = uv0._mainTF:GetComponent("DftAniEvent")
+		if uv0._animator ~= nil then
+			uv0._animator.enabled = true
+			slot0 = uv0._mainTF:GetComponent("DftAniEvent")
 
-		slot0:SetStartEvent(function (slot0)
-			if uv0._criUsm then
-				uv0._criUsm:Play()
-			end
-		end)
-		slot0:SetEndEvent(function (slot0)
-			uv0()
-		end)
+			slot0:SetStartEvent(function (slot0)
+				if uv0._criUsm then
+					uv0._criUsm:Play()
+				end
+			end)
+			slot0:SetEndEvent(function (slot0)
+				uv0()
+			end)
+		else
+			uv0._timer = Timer.New(uv2, uv3)
+
+			uv0._timer:Start()
+		end
+
 		setActive(uv0._mainTF, true)
 
 		if uv0._stopGameBGM then
 			pg.CriMgr.GetInstance():StopBGM()
 		end
 
-		if uv3 then
-			uv3()
+		if uv4 then
+			uv4()
 		end
 	end
 
@@ -122,7 +130,7 @@ function this.PlayCpkMovie(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot
 			uv2()
 		end)
 	else
-		slot9()
+		slot11()
 	end
 end
 
@@ -140,7 +148,15 @@ function this.DisposeCpkMovie(slot0)
 			pg.UIMgr.GetInstance():UnOverlayPanel(slot0._mainTF.transform, slot0._tf)
 			Destroy(slot0._mainTF)
 
-			slot0._animator.enabled = false
+			if slot0._animator ~= nil then
+				slot0._animator.enabled = false
+			end
+
+			if slot0._timer ~= nil then
+				slot0._timer:Stop()
+
+				slot0._timer = nil
+			end
 
 			if slot0._criUsm then
 				slot0._criUsm:Stop()

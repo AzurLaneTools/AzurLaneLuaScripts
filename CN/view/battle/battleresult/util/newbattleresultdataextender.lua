@@ -5,7 +5,7 @@ function slot0.NeedCloseCamera(slot0)
 end
 
 function slot0.NeedVibrate(slot0)
-	return ys.Battle.BattleState.IsAutoBotActive() and PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0 and not uv0.GetAutoSkipFlag(slot0)
+	return ys.Battle.BattleState.IsAutoBotActive() and PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0 and not slot0
 end
 
 function slot0.NeedHelpMessage(slot0, slot1)
@@ -16,14 +16,14 @@ function slot0.NeedHelpMessage(slot0, slot1)
 	return false
 end
 
-function slot0.GetAutoSkipFlag(slot0)
-	if slot0 == SYSTEM_SCENARIO then
+function slot0.GetAutoSkipFlag(slot0, slot1)
+	if slot1 == SYSTEM_SCENARIO then
 		return getProxy(ChapterProxy):GetChapterAutoFlag(getProxy(ChapterProxy):getActiveChapter().id) == 1
-	elseif slot0 == SYSTEM_WORLD then
+	elseif slot1 == SYSTEM_WORLD then
 		return nowWorld().isAutoFight
 	end
 
-	return false
+	return slot0.autoSkipFlag or false
 end
 
 function slot0.GetExpBuffs(slot0)
@@ -159,7 +159,7 @@ function slot0.GetNewMainShips(slot0)
 		slot2 = uv1()
 	elseif slot1 == SYSTEM_WORLD_BOSS then
 		slot2 = uv2(slot0)
-	elseif slot1 == SYSTEM_HP_SHARE_ACT_BOSS or slot1 == SYSTEM_ACT_BOSS or slot1 == SYSTEM_BOSS_EXPERIMENT then
+	elseif slot1 == SYSTEM_HP_SHARE_ACT_BOSS or slot1 == SYSTEM_ACT_BOSS or slot1 == SYSTEM_ACT_BOSS_SP or slot1 == SYSTEM_BOSS_EXPERIMENT then
 		slot2 = uv3(slot0)
 	elseif slot1 == SYSTEM_GUILD then
 		slot2 = uv4()

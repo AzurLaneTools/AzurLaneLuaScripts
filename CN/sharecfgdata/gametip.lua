@@ -10048,7 +10048,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 {namecode:199}(最多4次)"
+	tip = "阿蒂利奥·雷戈洛、戈里齐亚等角色 建造概率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -10992,7 +10992,7 @@ _G.pg.base.gametip.world_boss_help = {
 8.当「演习据点」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗尽</color>后，会记录本服达成的里程碑时间，同时，在演习中获得过「贡献值」的玩家可以获得相应奖励
 9.奖励将在「演习据点」完全耗尽后，通过邮件发放，如果活动结束时耐久未被耗尽，则会根据据点推进进度，为在演习中获得过「贡献值」的玩家发放对应进度的奖励
 10.活动期间，可以领取个人贡献奖励，个人贡献奖励需要当据点攻略进度和拥有的「贡献值」达到指定要求后才能领取
-11.1月18日维护后-2月2日维护前可以参与演习战斗，奖励领取的截止时间为2月8日23:59:59]]
+11.6月29日维护后-7月13日维护前可以参与演习战斗，奖励领取的截止时间为7月19日23:59:59]]
 		},
 		{
 			info = [[
@@ -13534,6 +13534,10 @@ _G.pg.base.gametip.msgbox_repair = {
 
 _G.pg.base.gametip.msgbox_repair_l2d = {
 	tip = "修复L2D"
+}
+
+_G.pg.base.gametip.msgbox_repair_painting = {
+	tip = "修复立绘"
 }
 
 _G.pg.base.gametip.word_no_cache = {
@@ -19666,6 +19670,14 @@ _G.pg.base.gametip.setting_resdownload_title_sound = {
 	tip = "语音包资源更新"
 }
 
+_G.pg.base.gametip.setting_resdownload_title_manga = {
+	tip = "漫画资源更新"
+}
+
+_G.pg.base.gametip.setting_resdownload_title_main_group = {
+	tip = "完整资源更新"
+}
+
 _G.pg.base.gametip.settings_battle_title = {
 	tip = "键位设置"
 }
@@ -24172,4 +24184,208 @@ _G.pg.base.gametip.game_icon_max_full = {
 
 _G.pg.base.gametip.pre_combat_consume = {
 	tip = "消耗："
+}
+
+_G.pg.base.gametip.file_down_msgbox = {
+	tip = "检测到客户端存在关键资源缺失的情况，\n需要下载<color=#92fc63>$1</color>的资源才能继续进行游戏，\n是否开始下载？"
+}
+
+_G.pg.base.gametip.file_down_mgr_title = {
+	tip = "资源下载中"
+}
+
+_G.pg.base.gametip.file_down_mgr_progress = {
+	tip = "$1/$2"
+}
+
+_G.pg.base.gametip.file_down_mgr_error = {
+	tip = "资源下载失败:$1\n错误代码:$2\n是否重试?"
+}
+
+_G.pg.base.gametip.last_building_not_shown = {
+	tip = "上次建造时未能展示的已获取角色"
+}
+
+_G.pg.base.gametip.setting_group_prefs_tip = {
+	tip = "启动时默认下载"
+}
+
+_G.pg.base.gametip.group_prefs_switch_tip = {
+	tip = "默认下载方式已更改，将在下次启动时生效"
+}
+
+_G.pg.base.gametip.main_group_msgbox_content = {
+	tip = "下载后，客户端将会变为完整客户端，获得游戏的完整体验。本次更新需要下载$1的文件，是否确认？"
+}
+
+_G.pg.base.gametip.word_maingroup_checking = {
+	tip = "校验中"
+}
+
+_G.pg.base.gametip.word_maingroup_checktoupdate = {
+	tip = "点击下载"
+}
+
+_G.pg.base.gametip.word_maingroup_checkfailure = {
+	tip = "检查失败，点击重试"
+}
+
+_G.pg.base.gametip.word_maingroup_updating = {
+	tip = "更新中..."
+}
+
+_G.pg.base.gametip.word_maingroup_updatesuccess = {
+	tip = "更新完成"
+}
+
+_G.pg.base.gametip.word_maingroup_updatefailure = {
+	tip = "更新失败，点击重试"
+}
+
+_G.pg.base.gametip.group_download_tip = {
+	tip = "本次更新需要下载$1的文件，是否确认？"
+}
+
+_G.pg.base.gametip.word_manga_checking = {
+	tip = "校验中"
+}
+
+_G.pg.base.gametip.word_manga_checktoupdate = {
+	tip = "点击下载"
+}
+
+_G.pg.base.gametip.word_manga_checkfailure = {
+	tip = "检查失败，点击重试"
+}
+
+_G.pg.base.gametip.word_manga_updating = {
+	tip = "更新中，进度:$1/$2"
+}
+
+_G.pg.base.gametip.word_manga_updatesuccess = {
+	tip = "更新完成"
+}
+
+_G.pg.base.gametip.word_manga_updatefailure = {
+	tip = "更新失败，点击重试"
+}
+
+_G.pg.base.gametip.cryptolalia_lock_res = {
+	tip = "尚未获得资源"
+}
+
+_G.pg.base.gametip.cryptolalia_not_download_res = {
+	tip = "尚未下载得资源"
+}
+
+_G.pg.base.gametip.cryptolalia_timelimie = {
+	tip = "限时"
+}
+
+_G.pg.base.gametip.cryptolalia_label_downloading = {
+	tip = "下载中loading....."
+}
+
+_G.pg.base.gametip.cryptolalia_delete_res = {
+	tip = "清除资源($1)"
+}
+
+_G.pg.base.gametip.cryptolalia_delete_res_tip = {
+	tip = "是否确认删除资源($1)"
+}
+
+_G.pg.base.gametip.cryptolalia_delete_res_title = {
+	tip = "下载资源"
+}
+
+_G.pg.base.gametip.cryptolalia_use_gem_title = {
+	tip = "使 用 钻 石 兑 换"
+}
+
+_G.pg.base.gametip.cryptolalia_use_ticket_title = {
+	tip = "使 用 奖 券 兑 换"
+}
+
+_G.pg.base.gametip.cryptolalia_exchange = {
+	tip = "立即兑换"
+}
+
+_G.pg.base.gametip.cryptolalia_exchange_success = {
+	tip = "解锁成功"
+}
+
+_G.pg.base.gametip.cryptolalia_list_title = {
+	tip = "密语列表"
+}
+
+_G.pg.base.gametip.cryptolalia_list_subtitle = {
+	tip = "共$1个"
+}
+
+_G.pg.base.gametip.cryptolalia_download_done = {
+	tip = "下载完成"
+}
+
+_G.pg.base.gametip.cryptolalia_coming_soom = {
+	tip = "制作中……"
+}
+
+_G.pg.base.gametip.cryptolalia_unopen = {
+	tip = "暂未开放"
+}
+
+_G.pg.base.gametip.cryptolalia_no_ticket = {
+	tip = "密语奖券不足，可前往功能道具商店进行购买"
+}
+
+_G.pg.base.gametip.cryptolalia_entrance_coming_soom = {
+	tip = "密语档案室建设中..."
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_sp = {
+	tip = "进阶挑战舰队"
+}
+
+_G.pg.base.gametip.ship_formationUI_fleetName_sp_ss = {
+	tip = "进阶挑战潜艇舰队"
+}
+
+_G.pg.base.gametip.activityboss_sp_all_buff = {
+	tip = "可选词条"
+}
+
+_G.pg.base.gametip.activityboss_sp_best_score = {
+	tip = "最佳纪录"
+}
+
+_G.pg.base.gametip.activityboss_sp_display_reward = {
+	tip = "查看奖励"
+}
+
+_G.pg.base.gametip.activityboss_sp_score_bonus = {
+	tip = "分数加成"
+}
+
+_G.pg.base.gametip.activityboss_sp_active_buff = {
+	tip = "已选词条"
+}
+
+_G.pg.base.gametip.activityboss_sp_window_best_score = {
+	tip = "当前最高分："
+}
+
+_G.pg.base.gametip.activityboss_sp_score_target = {
+	tip = "目标分数："
+}
+
+_G.pg.base.gametip.activityboss_sp_score = {
+	tip = "获得分数"
+}
+
+_G.pg.base.gametip.activityboss_sp_score_update = {
+	tip = "最高积分更新"
+}
+
+_G.pg.base.gametip.activityboss_sp_score_not_update = {
+	tip = "积分未更新"
 }

@@ -519,8 +519,6 @@ function slot0.DisappearSubPainting(slot0, slot1, slot2, slot3)
 
 		table.insert(slot8, function (slot0)
 			for slot4, slot5 in ipairs(uv0) do
-				print(slot5.actor, uv1)
-
 				if slot5.actor == uv1 then
 					table.remove(uv0, slot4)
 
@@ -528,7 +526,6 @@ function slot0.DisappearSubPainting(slot0, slot1, slot2, slot3)
 				end
 			end
 
-			print(#uv0)
 			uv2:InitSubPainting(uv3, uv0, uv4)
 			uv2:DelayCall(uv5, slot0)
 		end)

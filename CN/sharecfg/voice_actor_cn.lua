@@ -1467,5 +1467,17 @@ pg.voice_actor_CN = {
 	{
 		code = 367,
 		actor_name = "秦紫翼"
+	},
+	{
+		code = 368,
+		actor_name = "蓝原琴美"
+	},
+	{
+		code = 369,
+		actor_name = "津田里穗"
+	},
+	{
+		code = 370,
+		actor_name = "富士原晴乃"
 	}
 }

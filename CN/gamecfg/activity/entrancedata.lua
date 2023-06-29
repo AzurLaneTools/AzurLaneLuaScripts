@@ -51,8 +51,8 @@ return {
 
 			if slot0.checkBattleTimeInBossAct(slot0) then
 				slot1 = slot0.data2 ~= 1
-			elseif getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_BOSS_PT_ID) then
-				slot1 = ActivityBossPtData.New(slot3):CanGetAward()
+			elseif getProxy(ActivityProxy):getActivityById(slot0:GetBindPtActID()) then
+				slot1 = ActivityBossPtData.New(slot4):CanGetAward()
 			end
 
 			return slot1

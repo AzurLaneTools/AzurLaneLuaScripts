@@ -36,6 +36,12 @@ function slot0.UpdateCard(slot0, slot1)
 	end
 end
 
+function slot0.UpdateCardPaintingTag(slot0)
+	for slot5, slot6 in ipairs(slot0.cards[uv0]) do
+		slot6:updatePaintingTag()
+	end
+end
+
 function slot0.RefreshShips(slot0)
 	slot0:Update()
 end

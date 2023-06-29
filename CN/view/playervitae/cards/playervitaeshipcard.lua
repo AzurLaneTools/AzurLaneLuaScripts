@@ -17,6 +17,7 @@ function slot0.OnInit(slot0)
 	slot0.otherBg = slot0._tf:Find("front/bg_other")
 	slot0.editTr = slot0._tf:Find("mask")
 	slot0.changskinBtn = slot0.editTr:Find("skin")
+	slot0.changskinBtnTag = slot0.changskinBtn:Find("Tag")
 	slot0.randomTr = slot0._tf:Find("mask1")
 	slot0.randomSkinBtn = slot0.randomTr:Find("random_skin")
 	slot0.randomShipBtn = slot0.randomTr:Find("random_ship")
@@ -155,8 +156,14 @@ function slot0.OnUpdate(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot0:UpdateShip(slot7)
 	end
 
-	setActive(slot0.changskinBtn, not HXSet.isHxSkin() and getProxy(ShipSkinProxy):HasFashion(slot7))
+	slot8 = not HXSet.isHxSkin() and getProxy(ShipSkinProxy):HasFashion(slot7)
+
+	setActive(slot0.changskinBtn, slot8)
 	setActive(slot0.nativeTr, slot0.canClick and slot0.native)
+
+	if slot8 then
+		slot0:updatePaintingTag(slot7)
+	end
 end
 
 function slot0.Refresh(slot0)
@@ -192,6 +199,12 @@ function slot0.UpdateShip(slot0, slot1)
 	setFrameEffect(slot0.otherBg, slot7)
 	setProposeMarkIcon(slot0.proposeMark, slot1)
 	slot0:UpdateProps(slot1)
+end
+
+function slot0.updatePaintingTag(slot0)
+	if slot0.displayShip then
+		setActive(slot0.changskinBtnTag, #PaintingConst.GetPaintingNameListByShipVO(slot1) > 0)
+	end
 end
 
 function slot0.UpdateProps(slot0, slot1)

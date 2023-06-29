@@ -106,6 +106,10 @@ function slot0.GetChannelUID(slot0)
 end
 
 function slot0.GetLoginType(slot0)
+	if PathMgr.FileExists(Application.persistentDataPath .. "/server_config.txt") then
+		return LoginType.PLATFORM_INNER
+	end
+
 	return slot0:Get("GetLoginType")
 end
 
@@ -131,6 +135,10 @@ end
 
 function slot0.Service(slot0)
 	slot0:Call("Service")
+end
+
+function slot0.Survey(slot0, slot1)
+	slot0:Call("Survey", slot1)
 end
 
 function slot0.IsAUPackage(slot0)

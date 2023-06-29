@@ -13,11 +13,47 @@ function slot0.GetTitleEn(slot0)
 end
 
 function slot0.OnInit(slot0)
-	slot0.repairBtn = SettingsResRepairBtn.New(slot0._tf:Find("list/repair"))
-	slot0.live2dBtn = SettingsLive2DBtn.New(slot0._tf:Find("list/live2d"))
-	slot0.galleryBtn = SettingsGalleryBtn.New(slot0._tf:Find("list/gallery"))
-	slot0.soundBtn = SettingsSoundBtn.New(slot0._tf:Find("list/cv"))
-	slot0.musicBtn = SettingsMusicBtn.New(slot0._tf:Find("list/music"))
+	slot0.tpl = slot0._tf:Find("Tpl")
+	slot0.containerTF = slot0._tf:Find("list")
+	slot0.iconTF = slot0._tf:Find("Icon")
+	slot2 = not GroupMainHelper.IsVerSameWithServer()
+
+	setActive(slot0._tf:Find("MainGroup"), slot2)
+
+	if slot2 then
+		slot0.mainGroupBtn = SettingsMainGroupBtn.New(slot1)
+	end
+
+	slot0.soundBtn = SettingsSoundBtn.New({
+		tpl = slot0.tpl,
+		container = slot0.containerTF,
+		iconSP = getImageSprite(slot0.iconTF:Find("CV"))
+	})
+	slot0.live2dBtn = SettingsLive2DBtn.New({
+		tpl = slot0.tpl,
+		container = slot0.containerTF,
+		iconSP = getImageSprite(slot0.iconTF:Find("L2D"))
+	})
+	slot0.galleryBtn = SettingsGalleryBtn.New({
+		tpl = slot0.tpl,
+		container = slot0.containerTF,
+		iconSP = getImageSprite(slot0.iconTF:Find("GALLERY_PIC"))
+	})
+	slot0.musicBtn = SettingsMusicBtn.New({
+		tpl = slot0.tpl,
+		container = slot0.containerTF,
+		iconSP = getImageSprite(slot0.iconTF:Find("GALLERY_BGM"))
+	})
+	slot0.mangaBtn = SettingsMangaBtn.New({
+		tpl = slot0.tpl,
+		container = slot0.containerTF,
+		iconSP = getImageSprite(slot0.iconTF:Find("MANGA"))
+	})
+	slot0.repairBtn = SettingsResRepairBtn.New({
+		tpl = slot0.tpl,
+		container = slot0.containerTF,
+		iconSP = getImageSprite(slot0.iconTF:Find("REPAIR"))
+	})
 end
 
 function slot0.Dispose(slot0)
@@ -43,6 +79,16 @@ function slot0.Dispose(slot0)
 		slot0.musicBtn:Dispose()
 
 		slot0.musicBtn = nil
+
+		slot0.mangaBtn:Dispose()
+
+		slot0.mangaBtn = nil
+
+		if slot0.mainGroupBtn then
+			slot0.mainGroupBtn:Dispose()
+
+			slot0.mainGroupBtn = nil
+		end
 	end
 end
 

@@ -34,6 +34,12 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.panel:Find("battle"), function ()
+		if getProxy(PlayerProxy):getRawData().oil < uv0.contextData.oilCost * uv0.contextData.battleTimes then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
+
+			return
+		end
+
 		uv0:emit(PreCombatMediator.CONTINUOUS_OPERATION)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf:Find("window/top/btnBack"), function ()
@@ -87,7 +93,12 @@ function slot0.UpdateContent(slot0)
 	setActive(slot0.panel:Find("ticket/checkboxBan"), not slot11)
 	setToggleEnabled(slot0.panel:Find("ticket/checkbox"), slot11)
 
-	slot13 = i18n("multiple_sorties_cost1", slot0.contextData.oilCost * slot1)
+	slot12 = slot0.contextData.oilCost * slot1
+	slot13 = i18n("multiple_sorties_cost1", slot12)
+
+	if getProxy(PlayerProxy):getRawData().oil < slot12 then
+		slot13 = string.gsub(slot13, "#92fc63", COLOR_RED)
+	end
 
 	if slot9 > 0 then
 		slot13 = slot13 .. i18n("multiple_sorties_cost2", slot9)

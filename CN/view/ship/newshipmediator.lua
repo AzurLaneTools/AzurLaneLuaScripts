@@ -4,7 +4,6 @@ slot0.ON_EXIT = "NewShipMediator:ON_EXIT"
 slot0.ON_SKILLINFO = "NewShipMediator:ON_SKILLINFO"
 slot0.ON_EVALIATION = "NewShipMediator:ON_EVALIATION"
 slot0.ON_SKIP_BATCH = "NewShipMediator:ON_SKIP_BATCH"
-slot0.OPEN = "NewShipMediator:OPEN"
 
 function slot0.register(slot0)
 	slot1 = slot0.contextData.ship
@@ -47,7 +46,15 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_EVALIATION, function (slot0, slot1)
 		uv0:sendNotification(GAME.FETCH_EVALUATION, slot1)
 	end)
-	slot0:sendNotification(uv0.OPEN, {})
+
+	slot3 = getProxy(PlayerProxy):getData()
+
+	if slot1:getRarity() >= 4 and not slot3:GetCommonFlag(GAME_RESTOREVIEW_ALREADY) then
+		pg.SdkMgr.GetInstance():StoreReview()
+		slot0:sendNotification(GAME.COMMON_FLAG, {
+			flagID = GAME_RESTOREVIEW_ALREADY
+		})
+	end
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -77,12 +84,6 @@ function slot0.handleNotification(slot0, slot1)
 				LayerWeightMgr_weight = slot0.viewComponent:getWeightFromData()
 			}
 		}))
-	end
-end
-
-function slot0.remove(slot0)
-	if slot0.contextData.quitCallBack then
-		slot0.contextData.quitCallBack(slot0.contextData.ship)
 	end
 end
 

@@ -1,10 +1,16 @@
 slot0 = class("SettingsResRepairBtn")
 
+function slot0.InitTpl(slot0, slot1)
+	slot0._tf = cloneTplTo(slot1.tpl, slot1.container, "REPAIR")
+	slot0._go = slot0._tf.gameObject
+
+	setImageSprite(slot0._tf:Find("icon"), slot1.iconSP)
+end
+
 function slot0.Ctor(slot0, slot1)
+	slot0:InitTpl(slot1)
 	pg.DelegateInfo.New(slot0)
 
-	slot0._tf = slot1
-	slot0._go = slot1.gameObject
 	slot0.Progress = slot0._tf:Find("progress")
 	slot0.ProgressHandle = slot0._tf:Find("progress/handle")
 	slot0.Info1 = slot0._tf:Find("status")

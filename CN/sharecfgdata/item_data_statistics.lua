@@ -17045,6 +17045,123 @@ _G.pg.base.item_data_statistics[30345] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30346] = {
+	display = "可以获得一件随机的办公时光风格外观装备",
+	name = "外观装备箱(办公时光)",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbangongshiguang",
+	id = 30346,
+	display_icon = {
+		{
+			9,
+			780,
+			1
+		},
+		{
+			9,
+			781,
+			1
+		},
+		{
+			9,
+			782,
+			1
+		},
+		{
+			9,
+			783,
+			1
+		},
+		{
+			9,
+			784,
+			1
+		},
+		{
+			9,
+			785,
+			1
+		},
+		{
+			9,
+			786,
+			1
+		},
+		{
+			9,
+			787,
+			1
+		},
+		{
+			9,
+			788,
+			1
+		},
+		{
+			9,
+			789,
+			1
+		},
+		{
+			9,
+			790,
+			1
+		},
+		{
+			9,
+			791,
+			1
+		},
+		{
+			9,
+			792,
+			1
+		},
+		{
+			9,
+			793,
+			1
+		},
+		{
+			9,
+			794,
+			1
+		},
+		{
+			9,
+			795,
+			1
+		},
+		{
+			9,
+			796,
+			1
+		},
+		{
+			9,
+			797,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	display = "可以随机获得一件本次世界巡游限定外观装备",
 	name = "外观装备箱(世界巡游)",
@@ -20314,6 +20431,120 @@ _G.pg.base.item_data_statistics[30524] = {
 		{
 			9,
 			417,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30525] = {
+	display = "使用后可从「办公时光」主题外观装备中任意选择一种获得1个",
+	name = "定向外观装备箱(办公时光)",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbangongshiguangzixuan",
+	id = 30525,
+	display_icon = {
+		{
+			9,
+			780,
+			1
+		},
+		{
+			9,
+			781,
+			1
+		},
+		{
+			9,
+			782,
+			1
+		},
+		{
+			9,
+			783,
+			1
+		},
+		{
+			9,
+			784,
+			1
+		},
+		{
+			9,
+			785,
+			1
+		},
+		{
+			9,
+			786,
+			1
+		},
+		{
+			9,
+			787,
+			1
+		},
+		{
+			9,
+			788,
+			1
+		},
+		{
+			9,
+			789,
+			1
+		},
+		{
+			9,
+			790,
+			1
+		},
+		{
+			9,
+			791,
+			1
+		},
+		{
+			9,
+			792,
+			1
+		},
+		{
+			9,
+			793,
+			1
+		},
+		{
+			9,
+			794,
+			1
+		},
+		{
+			9,
+			795,
+			1
+		},
+		{
+			9,
+			796,
+			1
+		},
+		{
+			9,
+			797,
 			1
 		}
 	},
@@ -197198,6 +197429,153 @@ _G.pg.base.item_data_statistics[58878] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[58879] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58879,
+	display_icon = {
+		{
+			2,
+			4,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			60,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			10125,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58880] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58880,
+	display_icon = {
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		},
+		{
+			2,
+			10105,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			10125,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[58881] = {
+	display = "有几率获得以下设计图",
+	name = "未知设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 1,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 58881,
+	display_icon = {
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10006,
+			1
+		},
+		{
+			2,
+			10105,
+			1
+		},
+		{
+			2,
+			10109,
+			1
+		},
+		{
+			2,
+			11048,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59000] = {
 	display = "参与角色将获得经验值",
 	name = "角色经验",
@@ -204302,6 +204680,75 @@ _G.pg.base.item_data_statistics[59462] = {
 	is_world = 0,
 	icon = "Props/xunliandianshu_v4",
 	id = 59462,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59463] = {
+	display = "参与「绿洲往事」获得的点数，累计一定程度可以领取报酬",
+	name = "绿洲之星",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/geliqiya_pt",
+	id = 59463,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59464] = {
+	display = "参与「绿洲往事」EX关的必要道具，也可以用来增加普通关额外奖励次数",
+	name = "特别挑战券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/nvpu_ticket",
+	id = 59464,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59465] = {
+	display = "用于「限时体验商店」兑换角色限时换装",
+	name = "换装体验券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59465,
 	display_icon = {},
 	price = {},
 	index = {},

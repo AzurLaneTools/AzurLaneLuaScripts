@@ -203,6 +203,7 @@ pg.furniture_data_template = setmetatable({
 			100048,
 			100049,
 			100050,
+			100051,
 			200001,
 			200002,
 			200003,
@@ -5193,6 +5194,7 @@ pg.furniture_data_template = setmetatable({
 			100048,
 			100049,
 			100050,
+			100051,
 			31101,
 			54101,
 			54102,
@@ -6123,7 +6125,8 @@ pg.furniture_data_template = setmetatable({
 			100046,
 			100047,
 			100049,
-			100050
+			100050,
+			100051
 		},
 		[2] = {
 			120,
@@ -8932,6 +8935,7 @@ pg.furniture_data_template = setmetatable({
 		100048,
 		100049,
 		100050,
+		100051,
 		200001,
 		200002,
 		200003,
@@ -17226,7 +17230,7 @@ pg.base.furniture_data_template = {
 		},
 		followBone = {
 			"char",
-			-1
+			1
 		},
 		interAction_group = {}
 	},
@@ -22381,6 +22385,86 @@ pg.base.furniture_data_template = {
 				{},
 				{
 					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[100051] = {
+		spine_extra = "",
+		describe = "这里面可是龙的宝藏！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "龙形存钱罐",
+		themeId = 0,
+		icon = "cunqianguanicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100051,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cunqianguanB",
+				"normal"
+			},
+			{
+				"cunqianguanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"attack"
+					},
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
 				}
 			},
 			{},
@@ -127034,7 +127118,7 @@ pg.base.furniture_data_template = {
 			},
 			{
 				{
-					13.1,
+					7.4,
 					92.3
 				},
 				{
@@ -127044,7 +127128,7 @@ pg.base.furniture_data_template = {
 				"xy/miaorenouxy_mask"
 			},
 			{
-				-29,
+				2.4,
 				-102
 			},
 			{
@@ -127055,7 +127139,7 @@ pg.base.furniture_data_template = {
 		},
 		followBone = {
 			"char",
-			-1
+			1
 		},
 		interAction_group = {}
 	},

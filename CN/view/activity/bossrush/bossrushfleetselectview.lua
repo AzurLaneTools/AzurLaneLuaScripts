@@ -245,7 +245,7 @@ function slot0.didEnter(slot0)
 			end, SFX_PANEL)
 		end)
 	else
-		setText(slot0._tf:Find("Panel/Reward/EX/Title/Text"), math.floor(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK):getData1() or 0))
+		setText(slot0._tf:Find("Panel/Reward/EX/Title/Text"), math.floor(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK):GetScore()))
 	end
 
 	slot0:updateEliteFleets()

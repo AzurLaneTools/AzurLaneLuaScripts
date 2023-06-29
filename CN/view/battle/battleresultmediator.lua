@@ -153,6 +153,9 @@ function slot0.register(slot0)
 		end
 	elseif slot7 == SYSTEM_BOSS_RUSH or slot7 == SYSTEM_BOSS_RUSH_EX then
 		slot11 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetSeriesData()
+
+		assert(slot11)
+
 		slot14 = slot11:GetFleetIds()[slot11:GetStaegLevel()]
 
 		if slot11:GetMode() == BossRushSeriesData.MODE.SINGLE then
@@ -186,28 +189,18 @@ function slot0.register(slot0)
 				existCall(uv1.viewComponent.HideConfirmPanel, uv1.viewComponent)
 
 				slot5 = getProxy(ActivityProxy):getActivityById(uv1.contextData.actId)
-				slot8 = slot5:IsOilLimit(uv1.contextData.stageId)
-				slot10 = getProxy(FleetProxy):getActivityFleets()[uv1.contextData.actId]
 				slot12 = pg.activity_event_worldboss[slot5:getConfig("config_id")].use_oil_limit[uv1.contextData.mainFleetId]
 
-				(function ()
-					slot1 = uv0[uv1.contextData.mainFleetId]:GetCostSum().oil
+				(function (slot0, slot1)
+					slot2 = slot0:GetCostSum().oil
 
-					if uv2 and uv3[1] > 0 then
-						slot1 = math.min(slot1, uv3[1])
+					if slot1 > 0 then
+						slot2 = math.min(slot2, slot1)
 					end
 
-					uv4 = uv4 + slot1
-				end)()
-				(function ()
-					slot1 = uv0[uv1.contextData.mainFleetId + 10]:GetCostSum().oil
-
-					if uv2 and uv3[2] > 0 then
-						slot1 = math.min(slot1, uv3[2])
-					end
-
-					uv4 = uv4 + slot1
-				end)()
+					uv0 = uv0 + slot2
+				end)(getProxy(FleetProxy):getActivityFleets()[uv1.contextData.actId][uv1.contextData.mainFleetId], slot5:IsOilLimit(uv1.contextData.stageId) and slot12[1] or 0)
+				slot13(slot10[uv1.contextData.mainFleetId + 10], slot8 and slot12[2] or 0)
 
 				if getProxy(PlayerProxy):getRawData().oil < 0 then
 					uv1:DisplayTotalReward(i18n("multiple_sorties_stop_reason1"))
@@ -226,9 +219,9 @@ function slot0.register(slot0)
 						return slot1
 					end
 				end) > 0 then
-					slot22 = uv1
+					slot21 = uv1
 
-					slot22:DisplayTotalReward(i18n("multiple_sorties_stop_reason2", Fleet.DEFAULT_NAME_BOSS_ACT[uv1.contextData.mainFleetId], table.concat(_.map(slot18, function (slot0)
+					slot21:DisplayTotalReward(i18n("multiple_sorties_stop_reason2", Fleet.DEFAULT_NAME_BOSS_ACT[uv1.contextData.mainFleetId], table.concat(_.map(slot17, function (slot0)
 						return "「" .. slot0:getConfig("name") .. "」"
 					end), "")))
 
@@ -241,15 +234,15 @@ function slot0.register(slot0)
 					return
 				end
 
-				if pg.GuildMsgBoxMgr.GetInstance():GetShouldShowBattleTip() and getProxy(GuildProxy):getRawData() and slot20:getWeeklyTask() and slot21.id ~= 0 then
-					slot19:SubmitTask(function (slot0, slot1)
+				if pg.GuildMsgBoxMgr.GetInstance():GetShouldShowBattleTip() and getProxy(GuildProxy):getRawData() and slot19:getWeeklyTask() and slot20.id ~= 0 then
+					slot18:SubmitTask(function (slot0, slot1)
 						if slot1 then
 							uv0:CancelShouldShowBattleTip()
 						end
 					end)
 				end
 
-				if slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) and not slot20.data.autoFlag then
+				if slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) and not slot19.data.autoFlag then
 					uv1:DisplayTotalReward()
 
 					return

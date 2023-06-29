@@ -50,8 +50,6 @@ function slot0.startDrag(slot0)
 		slot0.mouseInputDownTime = Time.time
 		slot0.triggerActionTime = 0
 		slot0.actionListIndex = 1
-
-		print("开始触发" .. slot0.drawAbleName)
 	end
 end
 
@@ -106,7 +104,6 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 			if slot0.actionListIndex == #slot0.actionTrigger.action_list then
 				slot0:triggerAction()
 				slot0:stopDrag()
-				print("连锁动作播放完成 退出 ")
 			else
 				slot0.actionListIndex = slot0.actionListIndex + 1
 			end
@@ -115,8 +112,6 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 		print("开始播放动作： " .. slot5)
 
 		if slot4.idle and slot4.idle == slot0.idleIndex and not slot4.repeatFlag then
-			print("拖拽后的待机动画和当前动画相同 不允许执行")
-
 			return
 		end
 
@@ -184,6 +179,14 @@ function slot0.updateReactValue(slot0)
 		slot0.parameterTargetValue = slot0.reactPos.x * slot0.reactX
 	else
 		slot0.parameterTargetValue = slot0.reactPos.y * slot0.reactY
+	end
+
+	focus = slot0.actionTrigger.action_list[slot0.actionListIndex].focus or false
+
+	if slot0.actionListIndex == #slot0.actionTrigger.action_list then
+		slot0:triggerAction()
+		slot0:stopDrag()
+		print("连锁动作播放完成 退出 ")
 	end
 
 	if slot0.live2dAction then
@@ -420,6 +423,8 @@ function slot0.updateStateData(slot0, slot1)
 	if not slot0.live2dAction and slot0.isTriggerAtion then
 		slot0.isTriggerAtion = false
 	end
+
+	slot0:updateTriggerAction()
 end
 
 function slot0.updateTriggerAction(slot0)

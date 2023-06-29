@@ -261,7 +261,7 @@ end
 function slot0.Dispose(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:Disable()
-	pg.m02:removeMediator(slot0)
+	pg.m02:removeMediator(slot0.__cname)
 	PoolMgr.GetInstance():ReturnUI("ResPanel", slot0._go)
 
 	slot0.state = uv0

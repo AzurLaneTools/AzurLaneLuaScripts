@@ -34,21 +34,19 @@ function slot0.register(slot0)
 			else
 				if Activity.Create(slot5):getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
 					if slot6:checkBattleTimeInBossAct() then
-						uv0:updateActivityFleet(slot5)
+						uv0:InitActtivityFleet(slot6, slot5)
 					end
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
-					uv0:updateActivityFleet(slot5)
+					uv0:InitActtivityFleet(slot6, slot5)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_PARAMETER then
 					uv0:addActivityParameter(slot6)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BUFF then
 					table.insert(uv0.shipModExpActs, slot6.id)
+				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+					uv0:InitActtivityFleet(slot6, slot5)
 				end
 
 				uv0.data[slot5.id] = slot6
-
-				if slot7 == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
-					uv0:updateActivityFleet(slot5)
-				end
 			end
 		end
 
@@ -104,7 +102,7 @@ function slot0.register(slot0)
 		end
 
 		if slot2 == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
-			uv0:updateActivityFleet(slot0.activity_info)
+			uv0:InitActtivityFleet(slot1, slot0.activity_info)
 			uv0:InitActivityBossData(slot1)
 		end
 
@@ -122,7 +120,7 @@ function slot0.register(slot0)
 		slot3 = BossRushSettlementCommand.ConcludeEXP(slot0, slot1, slot2 and slot2:GetBattleStatistics())
 
 		(function ()
-			getProxy(ActivityProxy):SetExtraDataMember(uv0.id, "settlementData", uv1)
+			getProxy(ActivityProxy):GetBossRushRuntime(uv0.id).settlementData = uv1
 		end)()
 	end)
 	slot0:on(24100, function (slot0)
@@ -156,6 +154,19 @@ function slot0.register(slot0)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
+	end)
+	slot0:on(26033, function (slot0)
+		if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) then
+			return
+		end
+
+		slot2 = slot0.point
+		uv0:GetActivityBossRuntime(slot1.id).spScore = {
+			score = slot2,
+			new = slot1:UpdateHighestScore(slot2)
+		}
+
+		uv0:updateActivity(slot1)
 	end)
 
 	slot0.requestTime = {}
@@ -569,8 +580,8 @@ function slot0.monitorTaskList(slot0, slot1)
 	end
 end
 
-function slot0.updateActivityFleet(slot0, slot1)
-	getProxy(FleetProxy):addActivityFleet(slot1.id, slot1.group_list)
+function slot0.InitActtivityFleet(slot0, slot1, slot2)
+	getProxy(FleetProxy):addActivityFleet(slot1, slot2.group_list)
 end
 
 function slot0.InitActivityBossData(slot0, slot1)
@@ -836,17 +847,27 @@ function slot0.PopBossRushAwards(slot0)
 	return slot0.bossrushAwards or {}
 end
 
-function slot0.SetExtraDataMember(slot0, slot1, slot2, slot3)
-	slot0.extraDatas[slot1] = slot0.extraDatas[slot1] or {}
-	slot0.extraDatas[slot1][slot2] = slot3
-end
-
-function slot0.GetExtraDataMember(slot0, slot1, slot2)
+function slot0.GetBossRushRuntime(slot0, slot1)
 	if not slot0.extraDatas[slot1] then
-		return
+		slot0.extraDatas[slot1] = {
+			record = 0
+		}
 	end
 
-	return slot0.extraDatas[slot1][slot2]
+	return slot0.extraDatas[slot1]
+end
+
+function slot0.GetActivityBossRuntime(slot0, slot1)
+	if not slot0.extraDatas[slot1] then
+		slot0.extraDatas[slot1] = {
+			buffIds = {},
+			spScore = {
+				score = 0
+			}
+		}
+	end
+
+	return slot0.extraDatas[slot1]
 end
 
 function slot0.GetTaskActivities(slot0)
@@ -882,6 +903,16 @@ function slot0.isSurveyOpen(slot0)
 			return slot4 <= getProxy(PlayerProxy):getData().level, slot1:getConfig("config_id")
 		end
 	end
+end
+
+function slot0.GetActBossLinkPTActID(slot0, slot1)
+	return table.Find(slot0.data, function (slot0, slot1)
+		if slot1:getConfig("type") ~= ActivityConst.ACTIVITY_TYPE_PT_BUFF then
+			return
+		end
+
+		return slot1:getDataConfig("link_id") == uv0
+	end) and slot2.id
 end
 
 return slot0

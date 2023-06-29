@@ -1,5 +1,13 @@
 slot0 = class("NewHpShareActBossResultGradePage", import("..activityBoss.NewActivityBossResultGradePage"))
 
+function slot0.LoadGrade(slot0, slot1)
+	LoadImageSpriteAsync("battlescore/grade_label_clear", slot0.gradeTxt, true)
+
+	if slot1 then
+		slot1()
+	end
+end
+
 function slot0.GetContributionPoint(slot0)
 	slot1 = slot0.contextData
 	slot3 = pg.activity_event_worldboss[pg.activity_template[slot1.actId].config_id].damage_resource

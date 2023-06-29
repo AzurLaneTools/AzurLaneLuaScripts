@@ -175,20 +175,6 @@ slot1.action2Words = {
 	"touch",
 	"headtouch"
 }
-slot1.action2Drags = {
-	touch_drag = 101,
-	touch_idle2 = 203,
-	touch_drag4 = 105,
-	touch_idle1 = 202,
-	touch_idle = 201,
-	touch_idle4 = 205,
-	touch_drag1 = 102,
-	touch_idle3 = 204,
-	touch_drag3 = 104,
-	touch_idle5 = 206,
-	touch_drag5 = 106,
-	touch_drag2 = 103
-}
 slot1.idleActions = {
 	slot1.action2Id.idle
 }

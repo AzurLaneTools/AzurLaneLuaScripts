@@ -109,6 +109,7 @@ function slot5(slot0, slot1, slot2, slot3)
 				slot1.transform.anchorMax = slot1.transform.pivot
 
 				slot1.transform:SetSiblingIndex(2)
+				setActive(slot1, false)
 				uv3()
 			end), true, true)
 		end)
@@ -203,7 +204,7 @@ function slot9(slot0, slot1, slot2, slot3)
 				slot1.name = "icon_front_" .. uv2
 				slot1.transform.localPosition = Vector3(0, 0, 0)
 
-				setActive(slot1, true)
+				setActive(slot1, false)
 				uv3()
 			end), true, true)
 		end)

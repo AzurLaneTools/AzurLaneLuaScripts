@@ -8,16 +8,8 @@ slot0.CHANGE_FLEET_SHIPS_ORDER = "ExercisePreCombatMediator:CHANGE_FLEET_SHIPS_O
 slot0.CHANGE_FLEET_SHIP = "ExercisePreCombatMediator:CHANGE_FLEET_SHIP"
 slot0.ON_AUTO = "ExercisePreCombatMediator:ON_AUTO"
 slot0.ON_SUB_AUTO = "ExercisePreCombatMediator:ON_SUB_AUTO"
-slot0.GET_CHAPTER_DROP_SHIP_LIST = "ExercisePreCombatMediator:GET_CHAPTER_DROP_SHIP_LIST"
 
 function slot0.register(slot0)
-	slot0:bind(uv0.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
-		uv0:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST, {
-			chapterId = slot1,
-			callback = slot2
-		})
-	end)
-
 	slot0.ships = getProxy(BayProxy):getRawData()
 
 	slot0.viewComponent:SetShips(slot0.ships)
@@ -121,62 +113,27 @@ function slot0.register(slot0)
 		uv0:commitEdit(slot1)
 	end)
 	slot0:bind(uv0.ON_START, function (slot0, slot1)
-		function slot2()
-			if uv0.contextData.customFleet then
-				uv0.contextData.func()
-			else
-				slot0 = nil
-				slot0 = (not uv0.contextData.rivalId or uv0.contextData.rivalId) and uv0.contextData.stageId
+		slot2 = nil
+		slot2 = (not uv0.contextData.rivalId or uv0.contextData.rivalId) and uv0.contextData.stageId
 
-				seriesAsync({
-					function (slot0)
-						if uv0.contextData.OnConfirm then
-							uv0.contextData.OnConfirm(slot0)
-						else
-							slot0()
-						end
-					end,
-					function ()
-						uv0:sendNotification(GAME.BEGIN_STAGE, {
-							stageId = uv1,
-							mainFleetId = uv2,
-							system = uv0.contextData.system,
-							actId = uv0.contextData.actId,
-							rivalId = uv0.contextData.rivalId
-						})
-					end
+		seriesAsync({
+			function (slot0)
+				if uv0.contextData.OnConfirm then
+					uv0.contextData.OnConfirm(slot0)
+				else
+					slot0()
+				end
+			end,
+			function ()
+				uv0:sendNotification(GAME.BEGIN_STAGE, {
+					stageId = uv1,
+					mainFleetId = uv2,
+					system = uv0.contextData.system,
+					actId = uv0.contextData.actId,
+					rivalId = uv0.contextData.rivalId
 				})
 			end
-		end
-
-		if uv1 == SYSTEM_DUEL then
-			slot2()
-		else
-			slot3, slot4 = nil
-
-			if uv1 == SYSTEM_HP_SHARE_ACT_BOSS or uv1 == SYSTEM_BOSS_EXPERIMENT or uv1 == SYSTEM_ACT_BOSS then
-				slot3 = uv2[1]
-				slot4 = "ship_energy_low_warn_no_exp"
-			else
-				slot3 = uv3:getFleetById(slot1)
-			end
-
-			slot5 = {}
-
-			for slot9, slot10 in ipairs(slot3.ships) do
-				table.insert(slot5, uv4:getShipById(slot10))
-			end
-
-			if slot3.name == "" or slot6 == nil then
-				slot6 = Fleet.DEFAULT_NAME[slot1]
-			end
-
-			Fleet.EnergyCheck(slot5, slot6, function (slot0)
-				if slot0 then
-					uv0()
-				end
-			end, nil, slot4)
-		end
+		})
 	end)
 end
 
@@ -195,8 +152,7 @@ function slot0.refreshEdit(slot0, slot1)
 	getProxy(FleetProxy).EdittingFleet = slot1
 
 	if slot0.contextData.system ~= SYSTEM_SUB_ROUTINE then
-		slot3 = nil
-		slot3 = (slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS or slot2:getActivityFleets()[slot0.contextData.actId]) and slot2:getData()
+		slot3 = slot2:getData()
 		slot3[slot1.id] = slot1
 
 		slot0.viewComponent:SetFleets(slot3)
@@ -207,12 +163,7 @@ end
 
 function slot0.commitEdit(slot0, slot1)
 	if getProxy(FleetProxy).EdittingFleet == nil or slot3:isFirstFleet() or slot3:isLegalToFight() == true then
-		if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS or slot0.contextData.system == SYSTEM_BOSS_EXPERIMENT then
-			slot2:commitActivityFleet(slot0.contextData.actId)
-			slot1()
-		else
-			slot2:commitEdittingFleet(slot1)
-		end
+		slot2:commitEdittingFleet(slot1)
 	elseif #slot3.ships == 0 then
 		slot2:commitEdittingFleet(slot1)
 

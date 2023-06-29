@@ -18,6 +18,7 @@ slot0.Gates = {
 	[SYSTEM_ACT_BOSS] = ys.Battle.BattleGateActBoss,
 	[SYSTEM_HP_SHARE_ACT_BOSS] = ys.Battle.BattleGateHPShareActBoss,
 	[SYSTEM_BOSS_EXPERIMENT] = ys.Battle.BattleGateBossExperiment,
+	[SYSTEM_ACT_BOSS_SP] = ys.Battle.BattleGateActBossSP,
 	[SYSTEM_CHALLENGE] = ys.Battle.BattleGateChallenge,
 	[SYSTEM_LIMIT_CHALLENGE] = ys.Battle.BattleGateLimitChallenge,
 	[SYSTEM_WORLD] = ys.Battle.BattleGateWorld,

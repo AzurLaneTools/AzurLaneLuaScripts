@@ -8,7 +8,7 @@ function slot0.execute(slot0, slot1)
 	}, 11026, function (slot0)
 		if slot0.result == 0 then
 			print(uv0.surveyID, uv0.surveyUrlStr)
-			pg.SdkMgr.GetInstance():ShowSurvey(uv0.surveyID, uv0.surveyUrlStr)
+			pg.SdkMgr.GetInstance():Survey(uv0.surveyUrlStr)
 
 			if IsUnityEditor then
 				Application.OpenURL(uv0.surveyUrlStr)

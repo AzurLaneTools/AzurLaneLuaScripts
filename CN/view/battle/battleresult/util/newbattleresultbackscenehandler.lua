@@ -18,7 +18,7 @@ function slot0.Execute(slot0)
 		slot0:ExitScenarioSystem(slot1)
 	elseif slot2 == SYSTEM_CHALLENGE then
 		slot0:ExitChallengeSystem(slot1)
-	elseif slot2 == SYSTEM_HP_SHARE_ACT_BOSS or slot2 == SYSTEM_BOSS_EXPERIMENT then
+	elseif slot2 == SYSTEM_HP_SHARE_ACT_BOSS or slot2 == SYSTEM_BOSS_EXPERIMENT or slot2 == SYSTEM_ACT_BOSS_SP then
 		slot0:ExitShareBossSystem(slot1)
 	elseif slot2 == SYSTEM_WORLD_BOSS then
 		slot0:ExitWorldBossSystem(slot1)
@@ -46,7 +46,7 @@ function slot0.ExitDuelSystem(slot0, slot1)
 end
 
 function slot0.ExitActBossSystem(slot0, slot1)
-	slot3, slot4 = getProxy(ContextProxy):getContextByMediator(PreCombatMediator)
+	slot3, slot4 = getProxy(ContextProxy):getContextByMediator(ActivityBossPreCombatMediator)
 
 	if slot3 then
 		slot4:removeChild(slot3)
@@ -99,7 +99,7 @@ function slot0.ExitChallengeSystem(slot0, slot1)
 end
 
 function slot0.ExitShareBossSystem(slot0, slot1)
-	slot3, slot4 = getProxy(ContextProxy):getContextByMediator(PreCombatMediator)
+	slot3, slot4 = getProxy(ContextProxy):getContextByMediator(ActivityBossPreCombatMediator)
 
 	if slot3 then
 		slot4:removeChild(slot3)
@@ -227,31 +227,19 @@ function slot0.ShowExtraChapterActSocre(slot0, slot1)
 end
 
 function slot2(slot0)
-	slot1 = getProxy(ActivityProxy)
-	slot1 = slot1:getActivityById(slot0.actId)
-	slot4 = slot1:IsOilLimit(slot0.stageId)
-	slot5 = getProxy(FleetProxy)
-	slot6 = slot5:getActivityFleets()[slot0.actId]
+	slot1 = getProxy(ActivityProxy):getActivityById(slot0.actId)
 	slot8 = pg.activity_event_worldboss[slot1:getConfig("config_id")].use_oil_limit[slot0.mainFleetId]
 
-	(function ()
-		slot1 = uv0[uv1.mainFleetId]:GetCostSum().oil
+	(function (slot0, slot1)
+		slot2 = slot0:GetCostSum().oil
 
-		if uv2 and uv3[1] > 0 then
-			slot1 = math.min(slot1, uv3[1])
+		if slot1 > 0 then
+			slot2 = math.min(slot2, slot1)
 		end
 
-		uv4 = uv4 + slot1
-	end)()
-	(function ()
-		slot1 = uv0[uv1.mainFleetId + 10]:GetCostSum().oil
-
-		if uv2 and uv3[2] > 0 then
-			slot1 = math.min(slot1, uv3[2])
-		end
-
-		uv4 = uv4 + slot1
-	end)()
+		uv0 = uv0 + slot2
+	end)(getProxy(FleetProxy):getActivityFleets()[slot0.actId][slot0.mainFleetId], slot1:IsOilLimit(slot0.stageId) and slot8[1] or 0)
+	slot9(slot6[slot0.mainFleetId + 10], slot4 and slot8[2] or 0)
 
 	return 0
 end
@@ -406,9 +394,6 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		ContinuousOperationMediator.CONTINUE_OPERATION,
-		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE,
-		NewBattleResultMediator.SET_SKIP_FLAG,
 		GAME.BOSSRUSH_SETTLE_DONE,
 		ContinuousOperationMediator.ON_REENTER
 	}
@@ -417,11 +402,7 @@ end
 function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == ContinuousOperationMediator.CONTINUE_OPERATION then
-		slot0.contextData.continuousBattleTimes = slot0.contextData.continuousBattleTimes - 1
-	elseif slot2 == NewBattleResultMediator.SET_SKIP_FLAG then
-		slot0.contextData.autoSkipFlag = slot3
-	elseif slot2 == GAME.BOSSRUSH_SETTLE_DONE then
+	if slot1:getName() == GAME.BOSSRUSH_SETTLE_DONE then
 		slot0:ExitRushBossSystem(slot0.contextData, slot3)
 	elseif slot2 == ContinuousOperationMediator.ON_REENTER then
 		if not slot3.autoFlag then
@@ -437,8 +418,6 @@ function slot0.handleNotification(slot0, slot1)
 		else
 			uv2(slot0.contextData)
 		end
-	elseif slot2 == GAME.ACT_BOSS_EXCHANGE_TICKET_DONE then
-		uv2(slot0.contextData)
 	end
 end
 
@@ -461,7 +440,7 @@ function slot0.addSubLayers(slot0, slot1, slot2, slot3)
 end
 
 function slot0.Dispose(slot0)
-	pg.m02:removeMediator(slot0)
+	pg.m02:removeMediator(slot0.__cname)
 end
 
 return slot0
