@@ -15,14 +15,16 @@ end
 
 function slot0.GetNextMonthTS()
 	slot0 = pg.TimeMgr.GetInstance():GetServerTime()
-	slot1 = tonumber(os.date("%Y", slot0))
+	slot2 = tonumber(pg.TimeMgr.GetInstance():STimeDescS(slot0, "%m"))
 
-	if tonumber(os.date("%m", slot0)) + 1 > 12 then
+	print("------------", tostring(tonumber(pg.TimeMgr.GetInstance():STimeDescS(slot0, "%Y"))), tostring(slot2))
+
+	if slot2 + 1 > 12 then
 		slot2 = 1
 		slot1 = slot1 + 1
 	end
 
-	return os.time({
+	return pg.TimeMgr.GetInstance():Table2ServerTime({
 		sec = 0,
 		min = 0,
 		hour = 0,
@@ -33,7 +35,7 @@ function slot0.GetNextMonthTS()
 end
 
 function slot0.GetCurMonth()
-	return tonumber(os.date("%m", pg.TimeMgr.GetInstance():GetServerTime()))
+	return tonumber(pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "%m"))
 end
 
 function slot0.GetCurMonthConfig()

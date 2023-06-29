@@ -549,12 +549,6 @@ function slot0.UpdateDropItems(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	if slot0.fleetEditPanel and slot0.fleetEditPanel:IsShowing() then
-		slot0.fleetEditPanel.buffer:Hide()
-
-		return
-	end
-
 	if slot0.bonusWindow and slot0.bonusWindow:IsShowing() then
 		slot0.bonusWindow.buffer:Hide()
 

@@ -18427,7 +18427,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		themeId = 0,
 		count = 1,
 		is_3d_obj = 0,
-		describe = "Sand and surf! Watermelon and shaved ice! Summer is right at your fingertips!",
+		describe = "Who's your dandelion girl?",
 		tag = 6,
 		icon = "summerboxicon",
 		spine_extra = "",
