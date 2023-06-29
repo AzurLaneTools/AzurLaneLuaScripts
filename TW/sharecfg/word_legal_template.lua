@@ -1146,6 +1146,9 @@ function temp()
 						this = true
 					}
 				}
+			},
+			["賓"] = {
+				this = true
 			}
 		},
 		["克"] = {
@@ -1173,6 +1176,11 @@ function temp()
 				this = true
 			},
 			["爾"] = {
+				this = true
+			}
+		},
+		["姆"] = {
+			["登"] = {
 				this = true
 			}
 		}
@@ -3147,7 +3155,18 @@ temp()
 function temp()
 	uv0["聲"] = {
 		["望"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -5918,6 +5937,42 @@ function temp()
 	uv0["復"] = {
 		["仇"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["圖"] = {
+		["林"] = {
+			["根"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["呂"] = {
+		["措"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["塞"] = {
+		["德"] = {
+			["利"] = {
+				["茨"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

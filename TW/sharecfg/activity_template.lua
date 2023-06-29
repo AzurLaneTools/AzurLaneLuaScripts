@@ -27875,14 +27875,40 @@ pg.activity_template = {
 	},
 	[41200] = {
 		mark = 20230615,
+		id = 41200,
 		title_res_tag = "eski_pt",
-		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 41200,
 		is_show = 38,
-		id = 41200,
 		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					6,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		page_info = {
 			class_name = "EskiPtPage",
 			ui_name = "EskiPtPage"

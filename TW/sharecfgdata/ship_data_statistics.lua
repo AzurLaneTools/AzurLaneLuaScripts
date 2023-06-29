@@ -291386,6 +291386,258 @@ _G.pg.base.ship_data_statistics[900346] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[900350] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "神通",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 302130,
+	english_name = "IJN Jintsū",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 3,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 900350,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1101,
+		72,
+		162,
+		132,
+		0,
+		70,
+		0,
+		52,
+		29,
+		35.3,
+		38,
+		59
+	},
+	attrs_growth = {
+		11481,
+		398,
+		767,
+		1151,
+		0,
+		490,
+		0,
+		768,
+		742,
+		0,
+		0,
+		293
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		324
+	},
+	default_equip_list = {
+		101,
+		105,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.65,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Sendai-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900351] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "新泽西",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 105170,
+	english_name = "USS New Jersey",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 900351,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3927,
+		217,
+		0,
+		208,
+		0,
+		62,
+		0,
+		24,
+		9,
+		33,
+		72,
+		0
+	},
+	attrs_growth = {
+		42474,
+		1005,
+		0,
+		1662,
+		0,
+		434,
+		0,
+		389,
+		235,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		2.1,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Iowa-Class",
+		"New Jersey"
+	}
+}
+
 _G.pg.base.ship_data_statistics[900352] = {
 	raid_distance = 0,
 	oxy_max = 0,
