@@ -21668,66 +21668,66 @@ cs.gametip = {
 	},
 	cryptolalia_entrance_coming_soom = {
 		899843,
-		123,
+		111,
 		true
 	},
 	ship_formationUI_fleetName_sp = {
-		899966,
+		899954,
 		120,
 		true
 	},
 	ship_formationUI_fleetName_sp_ss = {
-		900086,
+		900074,
 		123,
 		true
 	},
 	activityboss_sp_all_buff = {
-		900209,
+		900197,
 		100,
 		true
 	},
 	activityboss_sp_best_score = {
-		900309,
+		900297,
 		108,
 		true
 	},
 	activityboss_sp_display_reward = {
-		900417,
+		900405,
 		106,
 		true
 	},
 	activityboss_sp_score_bonus = {
-		900523,
+		900511,
 		106,
 		true
 	},
 	activityboss_sp_active_buff = {
-		900629,
+		900617,
 		100,
 		true
 	},
 	activityboss_sp_window_best_score = {
-		900729,
+		900717,
 		118,
 		true
 	},
 	activityboss_sp_score_target = {
-		900847,
+		900835,
 		110,
 		true
 	},
 	activityboss_sp_score = {
-		900957,
+		900945,
 		100,
 		true
 	},
 	activityboss_sp_score_update = {
-		901057,
+		901045,
 		113,
 		true
 	},
 	activityboss_sp_score_not_update = {
-		901170,
+		901158,
 		120,
 		true
 	}

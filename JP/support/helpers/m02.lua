@@ -873,7 +873,7 @@ function updateItem(slot0, slot1, slot2)
 		slot7 = "SquareIcon/" .. ShipGroup.getDefaultSkin(slot1.extra).prefab
 	end
 
-	setImageSprite(slot6, GetSpriteFromAtlas(slot7, ""))
+	GetImageSpriteFromAtlasAsync(slot7, "", slot6)
 	setIconStars(slot0, false)
 	setIconName(slot0, slot3.name, slot2)
 	setIconColorful(slot0, slot3.rarity + 1, slot2)
@@ -3851,7 +3851,7 @@ function getSurveyUrl(slot0)
 		slot3,
 		getProxy(UserProxy):getRawData().arg2 or "",
 		PLATFORM == PLATFORM_ANDROID and 1 or PLATFORM == PLATFORM_IPHONEPLAYER and 2 or 3,
-		getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot6.server or 0] and slot7.name or "",
+		getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot6.server or 0] and slot7.id or "",
 		getProxy(PlayerProxy):getRawData().level,
 		slot3 .. "_" .. slot0
 	}

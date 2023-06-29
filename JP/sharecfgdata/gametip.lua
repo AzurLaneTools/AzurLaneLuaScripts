@@ -24685,7 +24685,7 @@ _G.pg.base.gametip.cryptolalia_no_ticket = {
 }
 
 _G.pg.base.gametip.cryptolalia_entrance_coming_soom = {
-	tip = "密语档案室建设中..."
+	tip = "メモリーズ"
 }
 
 _G.pg.base.gametip.ship_formationUI_fleetName_sp = {
