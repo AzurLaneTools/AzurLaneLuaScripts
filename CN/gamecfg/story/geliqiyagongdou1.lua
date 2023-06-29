@@ -115,7 +115,7 @@ return {
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Les matelots la harponna♪\n（所有税收都到船舷用鱼叉与其搏斗♪）",
+			say = "Les matelots la harponna♪\n（所有水手都到船舷用鱼叉与其搏斗♪）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

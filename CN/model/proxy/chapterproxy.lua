@@ -693,7 +693,7 @@ function slot0.getHigestClearChapterAndMap(slot0)
 	slot1 = slot0.baseMaps[1]
 
 	for slot5, slot6 in ipairs(slot0:getNormalMaps()) do
-		if not slot6:isAnyChapterClear(true) then
+		if not slot6:isAnyChapterClear() then
 			break
 		end
 

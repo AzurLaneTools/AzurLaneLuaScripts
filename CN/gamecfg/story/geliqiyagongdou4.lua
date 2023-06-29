@@ -876,7 +876,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "这绿洲确实除了绿就……噗，话题话题是不是绕回一开始了？",
+			say = "这绿洲确实除了绿就……噗，话题是不是绕回一开始了？",
 			painting = {
 				alpha = 0.3,
 				time = 1

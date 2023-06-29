@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "就这样执行吧。运输车队会在明天拂{namecode:11}的时候离开，你和车队一起出发就好。",
+			say = "就这样执行吧。运输车队会在明天拂晓的时候离开，你和车队一起出发就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1119,7 +1119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "“唔嗯，如果没有想好如何结束战争，就不要该卷入战争”之类的。",
+			say = "“唔嗯，如果没有想好如何结束战争，就不要卷入该战争”之类的。",
 			painting = {
 				alpha = 0.3,
 				time = 1

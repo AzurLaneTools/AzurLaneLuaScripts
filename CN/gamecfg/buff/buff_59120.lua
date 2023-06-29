@@ -66,6 +66,16 @@ return {
 				attr = "DMG_TAG_EHC_T_19",
 				number = 0.2
 			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				attr = "DMG_TAG_EHC_T_20",
+				number = 0.2
+			}
 		}
 	}
 }
