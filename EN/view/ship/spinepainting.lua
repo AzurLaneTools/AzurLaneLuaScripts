@@ -162,7 +162,9 @@ function slot0.SetEmptyAction(slot0, slot1)
 	slot0:SetVisible(true)
 
 	for slot5, slot6 in ipairs(slot0.spineAnimList) do
-		slot6:GetAnimationState():SetEmptyAnimation(slot1, 0)
+		if slot6:GetAnimationState() then
+			slot7:SetEmptyAnimation(slot1, 0)
+		end
 	end
 end
 

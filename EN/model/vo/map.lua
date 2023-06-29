@@ -41,7 +41,7 @@ function slot0.isUnlock(slot0)
 		elseif not getProxy(ActivityProxy):getActivityById(slot0:getConfig("on_activity")) or slot2:isEnd() then
 			return false, i18n("common_activity_end")
 		else
-			slot3, slot4 = slot0:isAnyChapterUnlocked()
+			slot3, slot4 = slot0:isAnyChapterUnlocked(true)
 
 			if slot3 then
 				return true

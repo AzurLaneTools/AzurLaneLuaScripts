@@ -1212,7 +1212,7 @@ pg.enemy_data_statistics_365 = {
 		}
 	},
 	[900035] = {
-		cannon = 100,
+		cannon = 105,
 		antiaircraft_growth = 0,
 		fog_fx = "",
 		speed_growth = 0,
@@ -1230,7 +1230,7 @@ pg.enemy_data_statistics_365 = {
 		hit = 150,
 		antisub_growth = 0,
 		air_growth = 0,
-		torpedo = 100,
+		torpedo = 105,
 		base = 90215,
 		durability = 2400000,
 		armor_growth = 0,
@@ -1332,7 +1332,7 @@ pg.enemy_data_statistics_365 = {
 		air_growth = 0,
 		antiaircraft_growth = 0,
 		torpedo = 0,
-		durability = 12000,
+		durability = 18000,
 		armor_growth = 0,
 		torpedo_growth = 0,
 		luck_growth = 0,

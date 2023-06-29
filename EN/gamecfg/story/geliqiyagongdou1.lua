@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绿洲往事\n\n<size=45>今日天气</size>",
+					"Reflections of the Oasis\n\n<size=45>1 Sandstorm in the Oasis</size>",
 					1
 				}
 			}
@@ -44,15 +44,15 @@ return {
 			},
 			sequence = {
 				{
-					"撒丁帝国实控区",
+					"Unknown Location",
 					1
 				},
 				{
-					"亚历山大港·绿洲",
+					"Sardegna Fleet Garrison - The Oasis",
 					2
 				},
 				{
-					"「沙尘暴警告」",
+					"During the World Expo",
 					3
 				}
 			},
@@ -71,9 +71,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
-			actorName = "收音机",
+			actorName = "Radio",
 			bgmDelay = 1,
-			say = "Avant que le bateau ne percute I’eau♪\n（在船抨击水面之前♪）",
+			say = "Before the boat had hit the water♪",
 			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
@@ -99,11 +99,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "收音机",
+			actorName = "Radio",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "La queue de la baleine surgit des eaux♪\n（鲸尾甩起击中了她♪）",
+			say = "The whale's tail came up and caught her♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,11 +111,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "收音机",
+			actorName = "Radio",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Les matelots la harponna♪\n（所有税收都到船舷用鱼叉与其搏斗♪）",
+			say = "All hands to the side, harpooned and fought her♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,22 +123,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "收音机",
+			actorName = "Radio",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Mais la baleine s’ enfonça♪\n（只是鲸鱼又潜入了水中♪）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
-			say = "休息室的收音机中，正播放着轻快的歌曲——",
+			say = "When she dived down below♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +138,18 @@ return {
 			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
-			say = "（推门声）——",
+			say = "A lighthearted sea shanty played over the desk radio in the Sardegnian docking facility's break room.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_alexandria_1",
+			hidePaintObj = true,
+			say = "*door clicks*",
 			soundeffect = "event:/ui/dg-zoxiazhuanpan",
 			typewriter = {
 				speed = 0.05,
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "啊！安德烈亚姐姐！早上好~还顺利么？",
+			say = "Oh! Andrea, hello! Are you having a lovely morning?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "还好……？",
+			say = "Attilio? Um, I guess...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "只能说，今天的天色真是奇怪……",
+			say = "The weather does seem a little odd today...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "话说回来，这首歌曲阿蒂利奥你听得懂么？",
+			say = "By the way, Attilio, are you the one who put this station on the radio?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "唔……！完全听不懂！不过很好听~",
+			say = "Yep! I don't really understand what's going on in the song, but it sounds fun, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "嘿嘿，所以我现在也多了一个听歌的兴趣哦，多亏了戈里齐亚找到了这个音乐电台！",
+			say = "Heheh, I've gotten a lot more into music ever since you found this radio for us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "原来如此……",
+			say = "Is that so...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "言传身教的力量真是强大呢。",
+			say = "Well, I'm glad I could awaken a new interest in you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
-			say = "（用力的推门声）——",
+			say = "*door clicks*",
 			soundeffect = "event:/ui/dg-zoxiazhuanpan",
 			typewriter = {
 				speed = 0.05,
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "啊！戈里齐亚姐姐也回来了！",
+			say = "Oh, Gorizia's back, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "一起听吧，戈里齐亚姐姐~音乐电台又开始……",
+			say = "Come and listen with me. The program's already...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "欸？！别换台啊！戈里齐亚姐姐！好不容易才等到的——",
+			say = "Whaaat?! Don't change the station! They were just getting to my favorite music...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,11 +452,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "收音机",
+			actorName = "Radio",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这里是绿洲之星广播，插播一条紧急消息。",
+			say = "We now bring you urgent news.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,11 +464,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "收音机",
+			actorName = "Radio",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "受不明原因影响，首都时间下午2时30分起至次日凌晨3时，本地区将迎来一次特大沙尘暴。",
+			say = "Due to an abnormal situation of unknown cause, this region will experience an enormous sandstorm from 2:30 PM today to 3:00 AM tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,11 +476,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "收音机",
+			actorName = "Radio",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为防范沙尘暴灾害，防风墙所有出入口将于十五分钟后关闭，请所有人员待在建筑物中，以免受到伤害。",
+			say = "In order to minimize damage, the facility's windbreak walls will be closed in fifteen minutes. Please remain inside the facility to avoid injury.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,11 +488,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "收音机",
+			actorName = "Radio",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "接下来是沙尘暴防御指南————",
+			say = "Now, here is a list of instructions for minimizing danger in the face of a sandstorm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "沙、沙尘暴？！",
+			say = "A... sandstorm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "怎么会在这个时节来沙尘暴……",
+			say = "They did call it abnormal... Sandstorms should be unthinkable at this time of year.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "我刚才听到的时候也震惊的不行呢。",
+			say = "I was surprised when I heard it, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "明明自从防风墙修好后，就再也没有沙尘暴闯进来过……",
+			say = "But no sandstorm has ever gotten through since the windbreak walls were installed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "据说今天元老院会有一场重要演讲，要是能赶在沙尘暴来之前开始就好了……",
+			say = "Actually... They were planning to hold a presentation in the Upper Senate today. I hope the sandstorm doesn't interrupt that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "……重要演讲？主讲人是？",
+			say = "A presentation? Who's the speaker?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "马可波罗阁下！好像是和博览会闭幕式有关的内容。",
+			say = "Marco Polo. I hear it's related to the World Expo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "啊哈哈……这样啊。",
+			say = "Ahahaha... Of course it is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "这件事我都是第一次听说，你最近格外关注这些？",
+			say = "I had no idea. Have you been keeping a close eye on these things lately, Gorizia?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "毕竟驻扎在这片安宁的区域，总要找点事情做嘛。",
+			say = "Not really? It's peaceful around here, so I'm just finding ways to pass the time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "不过有沙尘暴的话，通讯就会变得有点麻烦了……",
+			say = "But the sandstorm is going to make communications rough for a while, huh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "不光是通讯，户外工作也没办法正常进行了哦。",
+			say = "Not just communications. We won't be able to do any work outside.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,7 +762,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "是啊……看来今天只能提前收工了。",
+			say = "Right... Ah, well. Guess I'm calling it quits early today!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -780,7 +780,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "好耶！休假！",
+			say = "Yeah! Let's take the day off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -824,7 +824,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "…………等等，要是沙尘暴来了，阿蒂利奥岂不是连收音机都听不了！",
+			say = "...Oh, but the sandstorm means I won't be able to listen to the radio anymore...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -848,7 +848,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "坏耶！那种事情不要啊！",
+			say = "Now I'm sad. I won't have anything to do!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -886,7 +886,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "这么说的确……我这边也是，带来的书基本都看完了。",
+			say = "Now that you mention it... I've read all of the books I brought with me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -904,7 +904,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "绿洲确实除了绿就……唔，等沙尘暴过去，确实得想办法好好完善一下生活设施了。",
+			say = "We're kind of surrounded by sand... After the sandstorm passes, we'll have to look into serious repairs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -922,7 +922,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "如此有年代感的陈设，仿佛正无言得诉说着过去的艰辛——",
+			say = "It is an old facility, after all. You never know what they went through in the old days.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -940,7 +940,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "呵呵……也确实如此。这里在过去确实发生了不少故事呢。",
+			say = "Haha... That's true. I happen to know of a few old stories, myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -958,7 +958,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "…………故事？故事！",
+			say = "...Stories? I want to hear stories!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -976,7 +976,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "就是这个！阿蒂利奥想听戈里齐亚姐姐和安德烈亚姐姐的故事！",
+			say = "Yeah, tell us some stories! I want to hear stuff about you two!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1014,7 +1014,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "咦……？你是想听我们来绿洲以前的故事么？",
+			say = "Stories, huh? Will any old story from before our coming to the Oasis do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1052,7 +1052,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "我倒是想到了一些，不过那是很久之前的事了……久到连战争都没开始。",
+			say = "I do have some, but they're from a long time ago... Before this whole war even started.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1070,7 +1070,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "那还真是很久以前呢，连我都感兴趣了，戈里齐亚。",
+			say = "Goodness, that is long ago. Now you've piqued my interest, hahaha.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1088,7 +1088,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "别取笑我啦，多利亚前辈。",
+			say = "I'm sure it's nothing compared to yours, Andrea...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1106,7 +1106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "你们之后也要把故事分享出来才行。多利亚前辈肯定知道很多趣事吧？",
+			say = "If I tell a story, then you have to share one too, okay? You must have plenty of fascinating things to talk about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1124,7 +1124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "当然没问题，我们说定了。",
+			say = "Of course! You have yourself a deal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1142,7 +1142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "那我去搞点饮料和零食！",
+			say = "I'll go get drinks and snacks!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1178,9 +1178,9 @@ return {
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			hideOther = true,
-			actorName = "安德烈亚&戈里齐亚",
+			actorName = "Andrea & Gorizia",
 			side = 0,
-			say = "不许拿太多哦！",
+			say = "In moderation, please.",
 			subActors = {
 				{
 					actor = 603060,
@@ -1212,7 +1212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "嘿嘿，知道啦知道啦~",
+			say = "I know! Hahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1

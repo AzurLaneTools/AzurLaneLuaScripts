@@ -105,6 +105,7 @@ return {
 									switchType = 1,
 									addWeapon = {},
 									removeWeapon = {
+										950349,
 										950350
 									}
 								},
@@ -177,9 +178,12 @@ return {
 								},
 								{
 									index = 9,
-									switchType = 1,
-									switchTo = 10,
 									switchParam = 2,
+									switchTo = 10,
+									switchType = 1,
+									addWeapon = {
+										950349
+									},
 									removeWeapon = {
 										950357
 									}

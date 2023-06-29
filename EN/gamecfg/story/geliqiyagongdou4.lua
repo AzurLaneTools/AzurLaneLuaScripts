@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绿洲往事\n\n<size=45>盐海漫溯</size>",
+					"Reflections of the Oasis\n\n<size=45>4 Mirage in the Dead Sea</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
-			say = "绿洲·休息室，一段时间后————",
+			say = "Oasis Facility - Break Room",
 			bgmDelay = 2,
 			bgm = "story-italy",
 			flashout = {
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "……哎，要是那座超大型城堡是真实存在的就好了。",
+			say = "And then, we saw this unusual castle!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "可惜只是海市蜃楼形成的幻影……",
+			say = "It was enormous, but they called it a mirage!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "明明就在触手可及的距离，结果阿蒂利奥一靠近，就消失不见了！",
+			say = "When I tried to approach and touch it, it disappeared into thin air!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "实在太令人伤心了！",
+			say = "That was so disappointing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "确实很遗憾呢……不过能看到这么奇幻的风景，也算不虚此行了。",
+			say = "Oh, my... You experienced a very rare sight, Attilio.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "嗯！总之，大概就是这样一个故事~",
+			say = "Yeah! Anyway, that's basically my story.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "……虽然过程真的很有趣，不过结果上来说，只能算是无功而返了。",
+			say = "It was fun, but we couldn't find the thing that Marco Polo wanted us to look for...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "呼……说了这么多感觉都口渴了，我喝口茶，两位姐姐有什么要问么！",
+			say = "Mm... I'm thirsty from all of this talking. Drink time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "……你们执行任务的地方是在盐海？",
+			say = "You went to the Dead Sea, correct...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "虽然离得不远，但那里姑且还算是碧蓝航线的控制区吧？",
+			say = "There were shipgirls from other factions present, right? How did you get in?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "没错~不过马可波罗大人给我们了一些设备，据说是从铁血要来的。",
+			say = "Yeah! So, Marco Polo gave us this incredible device.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "让我们避开了碧蓝航线的探查，隐秘的潜入了目的地！",
+			say = "When we used it, somehow, we were able to get in without anybody noticing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "不过从盐海回来之后就惨了……！",
+			say = "But when we got back from the Dead Sea, or whatever, it was awful...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "事后维护和清洁花了好大功夫呢……",
+			say = "Our clothes and the device were all messed up. It took ages to clean it all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "的确，盐海的盐度高到了对机械构造十分有害的地步。",
+			say = "It is the Dead Sea, after all. The salinity is so high that it causes equipment to rust in no time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "不过最后总算是全部好好保养完成了~",
+			say = "But in the end, everything worked out just fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "再之后我就调动到这里来驻防，后面的事你们都知道了。",
+			say = "After that, I came to this garrison, and here we are!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "盐海……要是除去种种不便，那里确实还算一个有趣的地方。",
+			say = "I had no idea you'd gone to the Dead Sea...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "不过，你们那次的任务是搜索“文物”吧？",
+			say = "But you were there searching for something, weren't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "最后一无所得的回去，马可波罗阁下什么都没说么？",
+			say = "Marco Polo didn't complain when you came home with nothing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "呜……在回去之前，我满脑子想的都是任务失败了，回去肯定好不了。",
+			say = "Mmm, I thought she'd lecture us, too...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "结果！回去之后，马可波罗大人看完报告什么都重话都没说！",
+			say = "But when she read the report I made for her, she didn't complain at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "就说我们一路上辛苦了，快去保养维护吧，就结束了！",
+			say = "She just thanked us for our hard work and sent us home for maintenance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "好大度……咦，等等……直接向马可波罗阁下汇报？",
+			say = "I see... That is like her... Huh? You only reported directly to Marco Polo?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "不是维内托大人或者利托里奥大人么？",
+			say = "None of this involved Veneto or Littorio?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "不是哦。那次行动好像是得到了元老院的授权，由马可波罗大人全权负责的。",
+			say = "I dunno... Marco Polo said something about the Senate authorizing it, or something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "就连行动资金也都是元老院承担的！",
+			say = "It all goes over my head.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "……又是利用军舰运输古董，又是兴师动众去海外寻找文物。",
+			say = "(It sounds like the rumors of them collecting curios are true...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "……元老院对于马可波罗阁下的想法拨款也太大方了。",
+			say = "(Is this the Senate's strategy, or is it Marco Polo going rogue?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "哇哦……戈里齐亚姐姐的表情突然变得好严肃！",
+			say = "Hm? Gorizia? Is something wrong?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -718,7 +718,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "哼哼，那你是没见过她之前看到博览会总花费时候的表情。",
+			say = "Ahahaha... That's the same face she made when she saw the expense list for the World Expo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "那才叫一个严肃呢——",
+			say = "But I can't imagine it's as shocking as that was—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "安德烈亚！不是说好不提那个事了么……！",
+			say = "Andrea. Did you not promise you wouldn't bring that up again?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,7 +798,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "我怎么知道开一次博览会，账单后面会有那么多零啊……",
+			say = "Spreading the glory of Sardegna is a lovely thing, but anyone would get a migraine seeing all the zeros on that expense list...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "真是的——要是能给我们的预算也能这么大方就好了！",
+			say = "If only we could splurge that much on more romantic, exciting things. Like sightseeing locales!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,7 +840,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "是啊，要是给我们也能那么大方就好了……",
+			say = "Fair... I'd certainly be happier if we had invested more money into this oasis facility.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -858,7 +858,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "你看看周围，煤油灯，收音机，报纸……",
+			say = "Look around us. Oil lamps for lighting, newspapers and radios our only entertainment, surrounded by sand as far as the eye can see...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -876,7 +876,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "这绿洲确实除了绿就……噗，话题话题是不是绕回一开始了？",
+			say = "*sniffle*... I didn't know that this was the life I'd forced upon you all...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -894,7 +894,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "是啊……",
+			say = "Okay, that's enough of that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -912,7 +912,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "外面的沙尘暴，完全没有消散的征兆呢。",
+			say = "But goodness... This sandstorm just won't let up, will it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -930,7 +930,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "毕竟是特大沙尘暴嘛。",
+			say = "I recall they used the word \"enormous\"...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -948,7 +948,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "通讯器也还没恢复……",
+			say = "Communications are still down, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -966,7 +966,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "故事环节看来就到这里了，接下来做什么？",
+			say = "As for stories... Let's call it for now, shall we? What should we do next?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -984,7 +984,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "接下来的话……唱歌吧？",
+			say = "How about we sing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1002,7 +1002,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "就从戈里齐亚先开始。",
+			say = "Gorizia, would you like to go first?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1020,7 +1020,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "咦？等等……这么突然？",
+			say = "Huh? Why, exactly...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1058,7 +1058,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "阿蒂利奥想听么？",
+			say = "Attilio, would you like to hear Gorizia sing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1076,7 +1076,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "想~！阿蒂利奥想听戈里齐亚姐姐唱歌！",
+			say = "Yeah! Gorizia, I want to hear you sing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1120,7 +1120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "你看~",
+			say = "Hahaha! See?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1154,7 +1154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "欸————",
+			say = "Come ooon!",
 			painting = {
 				alpha = 0.3,
 				time = 1

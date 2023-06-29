@@ -20125,7 +20125,7 @@ _G.pg.base.item_data_statistics[30524] = {
 
 _G.pg.base.item_data_statistics[30525] = {
 	display = "Can be opened to receive 1 On the Job-themed gear skin of your choosing.",
-	name = "Selection Gear Skin Box  (On the Job)",
+	name = "Selection Gear Skin Box (On the Job)",
 	max_num = 0,
 	type = 13,
 	time_limit = 0,
@@ -209312,7 +209312,7 @@ The available outfits and their rarities are as follows:
 （<color=#92fc72>8.8%</color>）Pola  - Seaside Coincidence ；
 （<color=#92fc73>8.0%</color>）Pola  - Seaside Coincidence ；
 （<color=#92fc74>8.4%</color>）Pola  - Seaside Coincidence<color=#92fc63> Live2D</color>]],
-	name = "Random Ship skin ",
+	name = "Random Ship skin",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,

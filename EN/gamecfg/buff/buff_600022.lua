@@ -1,7 +1,7 @@
 return {
 	icon = 600022,
 	name = "",
-	time = 2,
+	time = 1.5,
 	stack = 1,
 	id = 600022,
 	picture = "",

@@ -18673,7 +18673,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10079,
 		resource_num = 500,
-		order = 0
+		order = 4
 	},
 	[10500] = {
 		activity = 0,

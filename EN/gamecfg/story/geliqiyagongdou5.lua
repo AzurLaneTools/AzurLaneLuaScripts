@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绿洲往事\n\n<size=45>理想的火花</size>",
+					"Reflections of the Oasis\n\n<size=45>5 Fireworks</size>",
 					1
 				}
 			}
@@ -22,15 +22,15 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"罗■帝■辖区",
+					"Unknown Location",
 					1
 				},
 				{
-					"亚■山■里■主教区·绿洲",
+					"Sardegna Fleet Garrison - The Oasis",
 					2
 				},
 				{
-					"「为新秩序欢呼」",
+					"A few hours after the start of the sandstorm",
 					3
 				}
 			},
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			bgm = "theme-vichy-church",
 			bgmDelay = 1,
-			say = "笼罩了整个绿洲的沙尘暴似乎遥遥无尽。",
+			say = "The sandstorm engulfing the facility seemed unceasing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
-			say = "先一步耗尽了精力的阿蒂利奥已经沉沉睡去，安德烈亚也困得连打了几个哈欠。",
+			say = "The exhausted Attilio had already drifted off into the world of dreams, and Andrea was beginning to yawn suspiciously often.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "早点休息吧，戈里齐亚……",
+			say = "Gorizia, how about we get to bed early tonight?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "可…元老院，还有马可波罗阁下的演讲怎么办？",
+			say = "But aren't you curious about Marco Polo's speech at the upper senate, and all?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "都这个时间了，演讲肯定早结束了。",
+			say = "It's late. I'm sure they're done by now, anyway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "就算通讯恢复了，你听不成现场实况了哦。",
+			say = "Even if communications were restored, we wouldn't be able to hear it live.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "至、至少也得知道一些相关的消息才行……",
+			say = "I'm still curious. You don't know for sure, anyway, Andrea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "那种事听第二天的收音机就好啦。",
+			say = "Geez... Look, we'll receive word tomorrow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "只要我们的通讯基础设施没被沙子埋掉就行。",
+			say = "Assuming the facility hasn't been buried in sand, that is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "但元老院有要事发表，我们作为撒丁帝国的一员，肯定也……",
+			say = "Not being able to join my comrades at such an important time... I don't know if this is good or bad luck.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "好啦好啦，我知道你很急。",
+			say = "Now, now. Attilio and I are here, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "但是这么大的沙尘暴，你就算再着急，也什么用都没有哦。",
+			say = "We can't help the sandstorm. No matter how much you rush it, it's not going to hurry on your account.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "还不如早点休息，第二天早点起来听消息呢。",
+			say = "Get some rest and check in the morning. Okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "唔…………唉，好吧，我去洗漱了。",
+			say = "Fine... I'll go wash up and get ready for bed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "去吧~阿蒂利奥我来照顾。",
+			say = "Good. I'll take care of Attilio.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在安德烈亚的劝说下，戈里齐亚终于放弃了。",
+			say = "After Andrea's lecturing, Gorizia relented and left the break room.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "呼……接下来，就先把阿蒂利奥搬运到卧室……",
+			say = "Phew... I'll just take Attilio to her room...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,11 +358,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "收音机",
+			actorName = "Radio",
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "………[杂音]………",
+			say = "*static crackling*",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
-			say = "在走廊重归平静的同时，戈里齐亚念念不忘的收音机却突然响了起来。",
+			say = "In the quiet room, the radio suddenly began making noise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,11 +382,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "收音机",
+			actorName = "Radio",
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……[杂音]…国度…[杂音]…",
+			say = "...Within...",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -395,11 +395,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "收音机",
+			actorName = "Radio",
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……[杂音]…之中…[杂音]……",
+			say = "...His Kingdom...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,11 +407,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "收音机",
+			actorName = "Radio",
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……[杂音]…祂已…[杂音]……",
+			say = "...He hath...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,11 +419,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "收音机",
+			actorName = "Radio",
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……[杂音]…降临…[杂音]……",
+			say = "...already come...",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -435,7 +435,7 @@ return {
 			side = 2,
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
-			say = "——吧嗒。",
+			say = "*click*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			side = 2,
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
-			say = "安德烈亚拔掉了收音机的电池。",
+			say = "Andrea returned to the break room and yanked the radio's electric cord from the wall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "哎呀哎呀……",
+			say = ".........",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "这些事和孩子们可没什么关系啊……",
+			say = "(I don't know what they're doing, but I can't let the children get involved in this.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "——是吧，永恒之城的大人物们？",
+			say = "(Marco Polo... Don't lose yourself.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			side = 2,
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
-			say = "「绿洲往事…",
+			say = "Reflections of the Oasis",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
-			say = "…END？」",
+			say = "The End?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

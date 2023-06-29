@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绿洲往事\n\n<size=45>重樱游记</size>",
+					"Reflections of the Oasis\n\n<size=45>3 Reflections of Travel</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
-			say = "绿洲·休息室",
+			say = "Oasis Facility - Break Room",
 			bgmDelay = 2,
 			bgm = "battle-italy",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
-			say = "黄沙漫过高耸的防风墙，此时此刻，窗外已宛如黑夜。",
+			say = "As the night wore on, the sandstorm outside rumbled endlessly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "我和{namecode:82}第一次见面，还是在上次大战的反攻阶段——",
+			say = "Now, Gran—ahem... Mikasa and I fought together in one major battle...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			actor = 605070,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "那个，请问您是重樱的……",
+			say = "Oh, I know you. You're Mikasa, aren't you...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "噢~撒丁帝国原来采用的是这种技术路线啊！",
+			say = "Huh, so this is what Sardegna is putting all their innovation toward...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "技术路线……咦……？",
+			say = "Innovation...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "啊，抱歉，安德烈亚·多利亚小姐，对吧？",
+			say = "Oh, excuse me. You are Andrea Doria from Sardegna, if I'm not mistaken?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "欢迎来到重樱，我是重樱联合舰队的旗舰，{namecode:82}。",
+			say = "Thanks for coming all this way to the Sakura Empire. As you know, I'm the Combined Fleet's flagship, Mikasa.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "在您访问期间将由我全程负责接待，如果有什么需要尽管开口，不用客气。",
+			say = "I'll be your guide during your stay, so feel free to speak up if you need anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "……原来您就是{namecode:82}。",
+			say = "Combined Fleet flagship, dreadnought Mikasa...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "真是百闻不如一见，您的名字即便在遥远的欧罗巴也时常被人提起。",
+			say = "Seeing really is believing. Even in Europa, you're as famous as they come.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "重樱的第一艘舰船、联合舰队的旗舰……",
+			say = "Together with Avrora's fleet, you struck a mighty blow to the Sirens and seized victory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "与阿芙乐尔带领的罗西亚帝国舰队一同给予塞壬重创，打破了塞壬不可战胜神话的人。",
+			say = "A distinguished shipgirl who shattered the myth that the Sirens were invincible and untouchable. A symbol of hope.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "相比之下，我连实战经验都没有……怎么能劳烦您来接待我呢！",
+			say = "I've never so much as been on a battlefield. It would be wrong for you of all people to be stuck guiding me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "多利亚小姐过奖了，我只是做了应该做的事而已。",
+			say = "Hahaha, come on, you don't have to butter me up. We're all just doing our jobs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "您是撒丁帝国的第一批舰船，代表的是我们的未来，实战经验，日后有的是机会积累。",
+			say = "We might be from different factions, but we're all shipgirls. If you need combat experience, you'll be able to get plenty here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "更何况您作为远道而来的客人，于情于理都应该我亲自来接待才是。",
+			say = "Besides, it's a host's duty to receive guests. There's nothing wrong with me taking care of you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "现在战况并不紧急，又是需要交流的时候。为了我们的最终胜利——你就不用客气了。",
+			say = "Now that the war situation is stable, it's time for us to form relationships with other factions. For the sake of our ultimate victory, let us treat you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "……非常感谢。",
+			say = "...Th-thank you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "那么，我们接下来要直接前往国会么？",
+			say = "U-umm, so where should we go next?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不必着急，您在国会议事堂的演讲我已经安排在后天了。",
+			say = "Good question. Your meeting with Lady Nagato is the day after tomorrow, so how about I show you the sights until then?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "后天……呼，那我可以花时间再准备一下了。",
+			say = "The day after tomorrow? Phew... That's good. I needed time to prepare myself...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "我还是第一次来重樱，有什么需要特别注意的事么？",
+			say = "In that case, I should ask now. Are there any things I should avoid doing, or be careful about doing, in the Sakura Empery?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "唔……注意放松？",
+			say = "Uh, what...? Hahaha, you don't have to be so tense. Take it easy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "哈哈哈，开个玩笑。您对于重樱来说是贵客，不要有压力。",
+			say = "You're an honored guest. Don't put so much pressure on yourself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "况且之前您在鸢尾的演说令人印象深刻，相信后天也会一切顺利的。",
+			say = "Your speech at the Holy Iris was fantastic; you know how to carry yourself, so you'll be just fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "没想到您居然知道我在鸢尾的那场演说……",
+			say = "You knew about that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "不要小看现在国际新闻的传播速度哦？",
+			say = "Heh. Don't underestimate your elders, now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -618,7 +618,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "自从碧蓝航线成立以来，局势的发展可谓是日新月异，我自然也是时刻关注的。",
+			say = "Since the formation of Azur Lane, the global situation has been developing daily. We've put a lot of effort into information collection.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "……那您，对于我在演说中提到的内容怎么看呢？",
+			say = "Ahaha... Sorry if this is sudden, but what did you think of the opinions in my speech?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "完全支持。对于我而言，「碧蓝航线」承载着我对于未来的期许。",
+			say = "I agree, of course. Azur Lane is our hopes for the future given form.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "既然已经成立许久，迟迟没有签订纸面条约确实不妥。",
+			say = "I have to find it strange that we haven't signed our treaties sooner, given how long it's been since Azur Lane was formed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "时光在流逝，我们这些先驱者早晚也会成为过去式。",
+			say = "Time waits for no shipgirl. Someday, we pioneer ships will fall behind the times.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "有些事还是趁着现在尽快定下来比较好。",
+			say = "So, we need to settle whatever we can now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "我倒是没有考虑的这么深……",
+			say = "You're right...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "我只是想着有了明确条约之后，很多事办起来就会更加容易了。",
+			say = "All I'd considered was that these treaties would make things easier for everyone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -761,7 +761,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这方面的好处自然也是实打实的。",
+			say = "Of course. That's a real benefit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -779,7 +779,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "我们之间的观点无深浅之分，只是着眼角度不同而已。",
+			say = "You and I see the same things. If there's a difference between us, it's that we see them from different angles.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -797,7 +797,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "可是现在就考虑未来的事……是不是有些太早了？",
+			say = "Hopes for the future... I don't know if I can envision things that far ahead, hahaha...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -815,7 +815,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "未雨绸缪嘛，况且我对于这方面的感受可是深有感触，你看你这一身装备，就已经比我先进不少了。",
+			say = "Consider it the wisdom of us fanciful older shipgirls.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -833,7 +833,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "这么下去过不了多久，我就可以退居二线咯。",
+			say = "There'll be plenty of shipgirls, like you, who can do even better than we did. Maybe it's about time for us to exit the spotlight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -851,7 +851,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "完全没到那种程度啦……{namecode:82}阁下，您看起来至少还能再战十年呢。",
+			say = "That's not true. I think you have at least ten more years in you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -889,7 +889,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "哈哈哈哈，那就谢你吉言了。",
+			say = "I hope you're right. Hahahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -906,7 +906,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至于这两日的安排，多利亚小姐有听说过天宇启户祭么？",
+			say = "So, about that sightseeing. Have you ever heard of the Sakura Empire's Diadem of Light?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -924,7 +924,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "啊……！我听说过！就是那个“祈求丰收与来年好运”的节日对么？！",
+			say = "Of course! Those would be the islands where rituals and ceremonies are held, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -968,7 +968,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "好像还有“许愿石”什么的，感觉就像是对着流星许愿一样呢。",
+			say = "You offer your prayers to some artifact... Umm, a divine stone, I think? Heheh, it's a lot like wishing on a shooting star!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -992,7 +992,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "啊哈哈，大体正确。",
+			say = "More or less.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1010,7 +1010,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "说来也巧，祭典正好是今夜开始，不知多利亚小姐是否有兴趣一同前往？",
+			say = "Y'know, there's a ritual today. Want to go see it before you go to your hotel for the night?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1031,7 +1031,7 @@ return {
 			actor = 601100,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "哇哦，然后安德烈亚姐姐就直接去参加祭典了么？",
+			say = "Wow! So you got to go to a festival?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1072,7 +1072,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "嗯，当时玩的真开心，也品尝了很多有特色的小吃。",
+			say = "That's right. I had a lot of fun gorging myself on Sakura cuisine!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1090,7 +1090,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "现在想来，那时候的{namecode:82}浑身散发着“年轻气盛”的感觉呢。",
+			say = "Looking back, Mikasa might have called herself old, but she had such a youthful vigor about her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1108,7 +1108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "她当时还说过，“也许以后天宇启户祭会有舰船来成为主祭的巫女”之类的话。",
+			say = "I think she said that someday, a shipgirl might become the priestess of the Diadem of Light.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1126,7 +1126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "……我现在都还印象深刻。",
+			say = "...That was a great trip.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1144,7 +1144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "不管怎么说，那还真是一场盛大的庆典……虽然没能见到“海若”有点可惜。",
+			say = "It was a shame that I didn't get to see Watatsumi, but such a large festival is a rare opportunity.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1162,7 +1162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "但也就是因为这段经历，不知道为什么被马可波罗在去年想起来了……",
+			say = "Huh. You know, last time I brought this up, Marco Polo bombarded me with questions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1180,7 +1180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "连续追着我问个不停……我哪里见过嘛。",
+			say = "She really wanted to know about Watatsumi... I never saw it, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1198,7 +1198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "安德烈亚姐姐你还认识马可波罗大人么？",
+			say = "Are you acquainted with Marco Polo, too, Andrea?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1216,7 +1216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "算是认识吧……主要是听加富尔伯爵说过不少她的事。",
+			say = "Acquainted... is a word. Most of my knowledge of her came from Cavour...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1234,7 +1234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "怎么了？",
+			say = "Why do you ask?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1252,7 +1252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "哼哼哼~说到马可波罗大人！",
+			say = "Now that you mention Marco Polo...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1290,7 +1290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "接下来阿蒂利奥要讲的故事就跟马可波罗大人亲自布置的任务有关哦！",
+			say = "I have a story for you two!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1308,7 +1308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "安德烈亚姐姐和戈里齐亚想不想听~",
+			say = "It's a big job that Marco Polo gave me! Wanna hear about it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1325,7 +1325,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "亲自布置的任务……？是和你调来这里之前的经历有关么？",
+			say = "Marco Polo gave you a mission? What was it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1359,7 +1359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "没错~阿蒂利奥在调来之前，执行了一次马可波罗大人亲自布置的搜寻任务！",
+			say = "Yeah! She had me search for something before I came here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1381,7 +1381,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601100,
-			say = "那绝对是阿蒂利奥参加的最奇怪的任务了——",
+			say = "It's also the weirdest mission I've ever been on...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

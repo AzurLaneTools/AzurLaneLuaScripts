@@ -2571,7 +2571,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60504] = {
 		shiptype = 5,
-		name = "Andrea Doria-class ",
+		name = "Andrea Doria-class",
 		nation = 6,
 		id = 60504,
 		t_level_1 = 135,

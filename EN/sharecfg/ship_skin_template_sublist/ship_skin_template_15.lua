@@ -1860,14 +1860,13 @@ pg.base.ship_skin_template_15 = {
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
-		ship_l2d_id = "",
 		tag = {
 			1,
 			2
 		},
 		live2d_offset = {
 			0,
-			0,
+			30,
 			0
 		},
 		fx_container = {
@@ -1953,6 +1952,11 @@ pg.base.ship_skin_template_15 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
+		},
+		ship_l2d_id = {
+			6030611,
+			6030613,
+			6030614
 		}
 	},
 	[605010] = {

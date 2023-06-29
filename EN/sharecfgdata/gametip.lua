@@ -13627,7 +13627,7 @@ _G.pg.base.gametip.msgbox_repair_l2d = {
 }
 
 _G.pg.base.gametip.msgbox_repair_painting = {
-	tip = "修复立绘"
+	tip = "Download Art Asset"
 }
 
 _G.pg.base.gametip.word_no_cache = {
@@ -24596,7 +24596,7 @@ _G.pg.base.gametip.cryptolalia_download_done = {
 }
 
 _G.pg.base.gametip.cryptolalia_coming_soom = {
-	tip = ""
+	tip = "Coming Soon..."
 }
 
 _G.pg.base.gametip.cryptolalia_unopen = {
@@ -24608,7 +24608,7 @@ _G.pg.base.gametip.cryptolalia_no_ticket = {
 }
 
 _G.pg.base.gametip.cryptolalia_entrance_coming_soom = {
-	tip = "密语档案室建设中..."
+	tip = "Secrets Coming Soon..."
 }
 
 _G.pg.base.gametip.ship_formationUI_fleetName_sp = {
