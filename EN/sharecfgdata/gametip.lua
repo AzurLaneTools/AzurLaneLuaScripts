@@ -8684,7 +8684,7 @@ _G.pg.base.gametip.destroy_high_level_tip = {
 }
 
 _G.pg.base.gametip.destroy_eliteequipment_tip = {
-	tip = "You've selected gear of $1 rarity. Continue?"
+	tip = "You've selected $1 gear(s)."
 }
 
 _G.pg.base.gametip.destroy_high_intensify_tip = {
@@ -8716,7 +8716,7 @@ _G.pg.base.gametip.word_energy_recov_speed = {
 }
 
 _G.pg.base.gametip.destroy_eliteship_tip = {
-	tip = "You've selected a $1 ship. Continue?"
+	tip = "You've selected a $1 ship."
 }
 
 _G.pg.base.gametip.err_resloveequip_nochoice = {
@@ -11099,11 +11099,11 @@ _G.pg.base.gametip.world_boss_help = {
 			info = "<color=#92fc63>- Overview -</color>"
 		},
 		{
-			info = "During Reflections of the Oasis  event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
+			info = "During Reflections of the Oasis event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
 		},
 		{
 			info = [[
-During the event period, you will play on a special stage and face off against an exercise fleet led by the light aircraft carrier Albion.
+During the event period, you will play on a special stage and face off against an exercise fleet led by the heavy cruiser Gorizia.
 All Commanders on the same server will need to work together by gathering CP and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.
 Once the mission is completed, all players who participated will be rewarded with a special piece of gear sent to their Mailbox.
 Be aware that you will not be able to claim this reward if your Mailbox is completely full (i.e. you have 1,000 mail stored).
@@ -16125,7 +16125,7 @@ _G.pg.base.gametip.guild_cancel_assult_ship_recommend_conflict = {
 }
 
 _G.pg.base.gametip.guild_mission_complate = {
-	tip = "Guild mission completed:"
+	tip = "Guild mission completed."
 }
 
 _G.pg.base.gametip.guild_operation_event_occurrence = {
@@ -16260,7 +16260,7 @@ _G.pg.base.gametip.build_ship_accumulative = {
 }
 
 _G.pg.base.gametip.destory_ship_before_tip = {
-	tip = "Are you sure you want to select this ship? "
+	tip = "Continue?"
 }
 
 _G.pg.base.gametip.destory_ship_input_erro = {

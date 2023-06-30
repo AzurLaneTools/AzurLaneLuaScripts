@@ -326,16 +326,8 @@ function slot0.getTeamByName(slot0, slot1)
 	end
 end
 
-function slot0.IsTeamMatch(slot0, slot1)
-	if slot0:getFleetType() == FleetType.Submarine then
-		return slot1 == TeamType.Submarine
-	elseif slot2 == FleetType.Normal then
-		return slot1 == TeamType.Vanguard or slot1 == TeamType.Main
-	end
-end
-
 function slot0.CanInsertShip(slot0, slot1, slot2)
-	if not slot0:IsTeamMatch(slot2) or slot0:isFull() or slot0:containShip(slot1) or not slot1:isAvaiable() or TeamType.GetTeamShipMax(slot2) <= #slot0:getTeamByName(slot2) then
+	if slot0:isFull() or slot0:containShip(slot1) or not slot1:isAvaiable() or TeamType.GetTeamShipMax(slot2) <= #slot0:getTeamByName(slot2) then
 		return false
 	end
 
