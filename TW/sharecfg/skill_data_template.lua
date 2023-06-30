@@ -78104,11 +78104,11 @@ pg.base.skill_data_template = {
 	},
 	[23131] = {
 		desc_get = "",
-		name = "全弹发射I",
+		name = "全彈發射I",
 		id = 23131,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行12次攻击，触发全弹发射-{namecode:488}级I",
+		desc = "主炮每進行12次攻擊，觸發全彈發射-皮勞I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -78118,11 +78118,11 @@ pg.base.skill_data_template = {
 	},
 	[23132] = {
 		desc_get = "",
-		name = "全弹发射II",
+		name = "全彈發射II",
 		id = 23132,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行8次攻击，触发全弹发射-{namecode:488}级II",
+		desc = "主炮每進行8次攻擊，觸發全彈發射-皮勞II",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -81360,11 +81360,11 @@ pg.base.skill_data_template = {
 	},
 	[29841] = {
 		desc_get = "",
-		name = "专属弹幕-{namecode:448}I",
+		name = "專屬彈幕-埃姆登I",
 		id = 29841,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行15次攻击，触发专属弹幕-{namecode:448}I",
+		desc = "主炮每進行15次攻擊，觸發專屬彈幕-埃姆登I",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -81374,11 +81374,11 @@ pg.base.skill_data_template = {
 	},
 	[29842] = {
 		desc_get = "",
-		name = "专属弹幕-{namecode:448}II",
+		name = "專屬彈幕-埃姆登II",
 		id = 29842,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行10次攻击，触发专属弹幕-{namecode:448}II",
+		desc = "主炮每進行10次攻擊，觸發專屬彈幕-埃姆登II",
 		system_transform = {},
 		world_death_mark = {
 			1
