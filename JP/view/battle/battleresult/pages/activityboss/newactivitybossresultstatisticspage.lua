@@ -136,9 +136,13 @@ function slot0.NotEnoughEnergy(slot0)
 end
 
 function slot0.NotEnoughTicket(slot0)
-	slot3 = getProxy(SettingsProxy):isTipActBossExchangeTicket() == 1
+	if uv0(slot0.contextData.actId, slot0.contextData.stageId) > 0 then
+		return false
+	end
 
-	if getProxy(PlayerProxy):getRawData():getResource(slot0:GetTicketItemID(slot0.contextData.actId)) > 0 and slot3 then
+	slot4 = getProxy(SettingsProxy):isTipActBossExchangeTicket() == 1
+
+	if getProxy(PlayerProxy):getRawData():getResource(slot0:GetTicketItemID(slot0.contextData.actId)) > 0 and slot4 then
 		return true
 	end
 

@@ -34,6 +34,9 @@ function slot0.InitActivityPanel(slot0, slot1)
 	slot0.toggle = slot1:Find("playAgain/ticket/checkbox")
 	slot2 = getProxy(ActivityProxy):GetActivityBossRuntime(slot0.contextData.actId)
 	slot3 = slot2.spScore
+	slot2.spScore = {
+		score = 0
+	}
 
 	setText(slot1:Find("Score/Text"), slot3.score)
 	setActive(slot1:Find("Score/NewText"), slot3.new)

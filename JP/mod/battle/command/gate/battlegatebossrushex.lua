@@ -96,7 +96,7 @@ function slot0.Exit(slot0, slot1)
 
 		(function (slot0)
 			table.insertto(uv0, _.values(slot0.commanderIds))
-			table.insertto(uv1, uv2:getShipsByFleet(slot0))
+			table.insertto(uv1, uv2:getSortShipsByFleet(slot0))
 		end)(slot8[slot5])
 
 		if uv0.statistics.submarineAid then
