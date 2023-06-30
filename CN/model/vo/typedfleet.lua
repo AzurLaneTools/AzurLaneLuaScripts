@@ -44,4 +44,24 @@ function slot0.getFleetType(slot0)
 	return slot0.fleetType
 end
 
+function slot0.IsTeamMatch(slot0, slot1)
+	if slot0:getFleetType() == FleetType.Submarine then
+		return slot1 == TeamType.Submarine
+	elseif slot2 == FleetType.Normal then
+		return slot1 == TeamType.Vanguard or slot1 == TeamType.Main
+	end
+
+	assert(false)
+
+	return true
+end
+
+function slot0.CanInsertShip(slot0, slot1, slot2)
+	if not uv0.super.CanInsertShip(slot0, slot1, slot2) then
+		return false
+	end
+
+	return slot0:IsTeamMatch(slot2)
+end
+
 return slot0
