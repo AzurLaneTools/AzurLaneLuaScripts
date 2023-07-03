@@ -357,149 +357,159 @@ function slot0.Preload(slot0)
 			end
 		end
 
+		slot5 = {}
+
 		if slot0.contextData.rivalId then
-			slot6 = getProxy(MilitaryExerciseProxy):getRivalById(slot0.contextData.rivalId)
+			slot7 = getProxy(MilitaryExerciseProxy):getRivalById(slot0.contextData.rivalId)
 
-			assert(slot6, "rival id >>>> " .. slot0.contextData.rivalId)
+			assert(slot7, "rival id >>>> " .. slot0.contextData.rivalId)
 
-			for slot11, slot12 in ipairs(slot6:getShips()) do
-				table.insert(slot3, slot12)
+			for slot12, slot13 in ipairs(slot7:getShips()) do
+				table.insert(slot3, slot13)
+
+				slot5[slot13] = true
 			end
 		end
 
 		if BATTLE_DEBUG and BATTLE_FREE_SUBMARINE then
-			for slot11, slot12 in ipairs(getProxy(FleetProxy):getFleetById(11):getTeamByName(TeamType.Submarine)) do
-				table.insert(slot3, slot2:getShipById(slot12))
+			for slot12, slot13 in ipairs(getProxy(FleetProxy):getFleetById(11):getTeamByName(TeamType.Submarine)) do
+				table.insert(slot3, slot2:getShipById(slot13))
 			end
 
-			uv0.addCommanderBuffRes(slot6:buildBattleBuffList())
+			uv0.addCommanderBuffRes(slot7:buildBattleBuffList())
 		end
 
 		if slot0.contextData.prefabFleet then
-			slot6 = slot0.contextData.prefabFleet.vanguard_unitList
-			slot7 = slot0.contextData.prefabFleet.submarine_unitList
+			slot7 = slot0.contextData.prefabFleet.vanguard_unitList
+			slot8 = slot0.contextData.prefabFleet.submarine_unitList
 
 			if slot0.contextData.prefabFleet.main_unitList then
-				for slot11, slot12 in ipairs(slot5) do
-					slot13 = {
-						configId = slot12.configId,
+				for slot12, slot13 in ipairs(slot6) do
+					slot14 = {
+						configId = slot13.configId,
 						equipments = {},
-						skinId = slot12.skinId,
-						buffs = slot12.skills
+						skinId = slot13.skinId,
+						buffs = slot13.skills
 					}
 
-					for slot19 = 1, math.max(#slot12.equipment, #ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot12.configId).default_equip_list) do
-						slot13.equipments[slot19] = slot12.equipment[slot19] or false
+					for slot20 = 1, math.max(#slot13.equipment, #ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot13.configId).default_equip_list) do
+						slot14.equipments[slot20] = slot13.equipment[slot20] or false
 					end
 
-					function slot13.getActiveEquipments(slot0)
+					function slot14.getActiveEquipments(slot0)
 						return slot0.equipments
 					end
 
-					table.insert(slot3, slot13)
-				end
-			end
-
-			if slot6 then
-				for slot11, slot12 in ipairs(slot6) do
-					slot13 = {
-						configId = slot12.configId,
-						equipments = {},
-						skinId = slot12.skinId,
-						buffs = slot12.skills
-					}
-
-					for slot19 = 1, math.max(#slot12.equipment, #ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot12.configId).default_equip_list) do
-						slot13.equipments[slot19] = slot12.equipment[slot19] or false
-					end
-
-					function slot13.getActiveEquipments(slot0)
-						return slot0.equipments
-					end
-
-					table.insert(slot3, slot13)
+					table.insert(slot3, slot14)
 				end
 			end
 
 			if slot7 then
-				for slot11, slot12 in ipairs(slot7) do
-					slot13 = {
-						configId = slot12.configId,
+				for slot12, slot13 in ipairs(slot7) do
+					slot14 = {
+						configId = slot13.configId,
 						equipments = {},
-						skinId = slot12.skinId,
-						buffs = slot12.skills
+						skinId = slot13.skinId,
+						buffs = slot13.skills
 					}
 
-					for slot19 = 1, math.max(#slot12.equipment, #ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot12.configId).default_equip_list) do
-						slot13.equipments[slot19] = slot12.equipment[slot19] or false
+					for slot20 = 1, math.max(#slot13.equipment, #ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot13.configId).default_equip_list) do
+						slot14.equipments[slot20] = slot13.equipment[slot20] or false
 					end
 
-					function slot13.getActiveEquipments(slot0)
+					function slot14.getActiveEquipments(slot0)
 						return slot0.equipments
 					end
 
-					table.insert(slot3, slot13)
+					table.insert(slot3, slot14)
+				end
+			end
+
+			if slot8 then
+				for slot12, slot13 in ipairs(slot8) do
+					slot14 = {
+						configId = slot13.configId,
+						equipments = {},
+						skinId = slot13.skinId,
+						buffs = slot13.skills
+					}
+
+					for slot20 = 1, math.max(#slot13.equipment, #ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot13.configId).default_equip_list) do
+						slot14.equipments[slot20] = slot13.equipment[slot20] or false
+					end
+
+					function slot14.getActiveEquipments(slot0)
+						return slot0.equipments
+					end
+
+					table.insert(slot3, slot14)
 				end
 			end
 		end
 
-		for slot8, slot9 in ipairs(slot3) do
-			slot1:AddPreloadCV(slot9.skinId)
+		for slot9, slot10 in ipairs(slot3) do
+			slot1:AddPreloadCV(slot10.skinId)
 
-			slot14 = slot9.skinId
-			slot15 = true
+			slot11 = true
 
-			slot1:AddPreloadResource(slot1.GetShipResource(slot9.configId, slot14, slot15))
+			if slot5[slot10] == true then
+				slot11 = false
+			end
 
-			slot10 = ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot9.configId)
+			slot16 = slot10.skinId
+			slot17 = slot11
 
-			for slot14, slot15 in ipairs(slot9:getActiveEquipments()) do
-				slot16, slot17 = nil
-				slot18 = 0
+			slot1:AddPreloadResource(slot1.GetShipResource(slot10.configId, slot16, slot17))
 
-				if not slot15 then
-					slot16 = slot10.default_equip_list[slot14]
+			slot12 = ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot10.configId)
+
+			for slot16, slot17 in ipairs(slot10:getActiveEquipments()) do
+				slot18, slot19 = nil
+				slot20 = 0
+
+				if not slot17 then
+					slot18 = slot12.default_equip_list[slot16]
 				else
-					slot16 = slot15.configId
-					slot18 = slot15.skinId
+					slot18 = slot17.configId
+					slot20 = slot17.skinId
 				end
 
-				if slot16 then
-					if #ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot16).weapon_id > 0 then
-						for slot23, slot24 in ipairs(slot19) do
-							slot1:AddPreloadResource(slot1.GetWeaponResource(slot24, slot18))
+				if slot18 then
+					if #ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot18).weapon_id > 0 then
+						for slot25, slot26 in ipairs(slot21) do
+							slot1:AddPreloadResource(slot1.GetWeaponResource(slot26, slot20))
 						end
 					else
-						slot1:AddPreloadResource(slot1.GetEquipResource(slot16, slot18, slot0.contextData.system))
+						slot1:AddPreloadResource(slot1.GetEquipResource(slot18, slot20, slot0.contextData.system))
 					end
 				end
 			end
 
-			for slot14, slot15 in ipairs(slot10.depth_charge_list) do
-				for slot20, slot21 in ipairs(ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot15).weapon_id) do
-					slot1:AddPreloadResource(slot1.GetWeaponResource(slot21))
+			for slot16, slot17 in ipairs(slot12.depth_charge_list) do
+				for slot22, slot23 in ipairs(ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot17).weapon_id) do
+					slot1:AddPreloadResource(slot1.GetWeaponResource(slot23))
 				end
 			end
 
-			for slot14, slot15 in ipairs(slot10.fix_equip_list) do
-				for slot20, slot21 in ipairs(ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot15).weapon_id) do
-					slot1:AddPreloadResource(slot1.GetWeaponResource(slot21))
+			for slot16, slot17 in ipairs(slot12.fix_equip_list) do
+				for slot22, slot23 in ipairs(ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot17).weapon_id) do
+					slot1:AddPreloadResource(slot1.GetWeaponResource(slot23))
 				end
 			end
 
-			if slot9.GetSpWeapon and slot9:GetSpWeapon() then
-				slot1:AddPreloadResource(slot1.GetSpWeaponResource(slot11:GetConfigID(), slot0.contextData.system))
+			if slot10.GetSpWeapon and slot10:GetSpWeapon() then
+				slot1:AddPreloadResource(slot1.GetSpWeaponResource(slot13:GetConfigID(), slot0.contextData.system))
 			end
 
-			slot16 = slot9.skinId
-			slot17 = slot11
+			slot18 = slot10.skinId
+			slot19 = slot13
 
-			for slot16, slot17 in pairs(ys.Battle.BattleDataFunction.GetBuffBulletRes(slot9.configId, slot9.skills, slot0.contextData.system, slot16, slot17)) do
-				slot1:AddPreloadResource(slot17)
+			for slot18, slot19 in pairs(ys.Battle.BattleDataFunction.GetBuffBulletRes(slot10.configId, slot10.skills, slot0.contextData.system, slot18, slot19)) do
+				slot1:AddPreloadResource(slot19)
 			end
 
-			if slot9.buffs then
-				slot1:AddPreloadResource(ys.Battle.BattleDataFunction.GetBuffListRes(slot9.buffs, slot0.contextData.system, slot9.skinId))
+			if slot10.buffs then
+				slot1:AddPreloadResource(ys.Battle.BattleDataFunction.GetBuffListRes(slot10.buffs, slot0.contextData.system, slot10.skinId))
 			end
 		end
 	end

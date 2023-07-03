@@ -1067,17 +1067,17 @@ pg.name_code = {
 	},
 	{
 		id = 214,
-		name = "最上改",
+		name = "最上.改",
 		code = "最上改"
 	},
 	{
 		id = 215,
 		name = "扶桑.改",
-		code = "扶桑.改"
+		code = "扶桑改"
 	},
 	{
 		id = 216,
-		name = "山城改",
+		name = "山城.改",
 		code = "山城改"
 	},
 	{
