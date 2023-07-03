@@ -158,7 +158,7 @@ pg.painting_filte_world = {
 	},
 	{
 		key = 40,
-		name = "U47"
+		name = "u47"
 	},
 	{
 		key = 41,
