@@ -724,9 +724,15 @@ slot1 = {
 		slot3 = {}
 
 		if not slot0.context.data.inSave then
-			WorldConst.WorldStoryPaintingList = WorldConst.WorldStoryList or underscore.map(pg.painting_filte_world.all, function (slot0)
-				return pg.painting_filte_world[slot0].name
-			end)
+			if not WorldConst.WorldStoryPaintingList then
+				WorldConst.WorldStoryPaintingList = {}
+
+				for slot8, slot9 in ipairs(pg.painting_filte_world.all) do
+					for slot14, slot15 in ipairs(pg.painting_filte_map[pg.painting_filte_world[slot9].name].res_list) do
+						table.insert(WorldConst.WorldStoryPaintingList, slot15)
+					end
+				end
+			end
 
 			table.insert(slot3, function (slot0)
 				PaintingConst.PaintingDownload({
@@ -740,7 +746,9 @@ slot1 = {
 			end)
 			table.insert(slot3, function (slot0)
 				if nowWorld():CheckReset(true) then
-					pg.ConnectionMgr.GetInstance():Send(33112, {
+					slot2 = pg.ConnectionMgr.GetInstance()
+
+					slot2:Send(33112, {
 						type = 1
 					}, 33113, function (slot0)
 						if slot0.result == 0 then
@@ -760,7 +768,9 @@ slot1 = {
 						end
 					end)
 				elseif slot1:CheckResetProgress() then
-					pg.ConnectionMgr.GetInstance():Send(33112, {
+					slot2 = pg.ConnectionMgr.GetInstance()
+
+					slot2:Send(33112, {
 						type = 2
 					}, 33113, function (slot0)
 						if slot0.result == 0 then

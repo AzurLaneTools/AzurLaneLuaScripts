@@ -3143,7 +3143,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295106] = {
 		cannon = 146,
-		name = "声望·META(Tier.1)",
+		name = "聲望·META(Tier.1)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3184,7 +3184,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295107] = {
 		cannon = 158,
-		name = "声望·META(Tier.2)",
+		name = "聲望·META(Tier.2)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3225,7 +3225,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295108] = {
 		cannon = 171,
-		name = "声望·META(Tier.3)",
+		name = "聲望·META(Tier.3)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3266,7 +3266,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295109] = {
 		cannon = 184,
-		name = "声望·META(Tier.4)",
+		name = "聲望·META(Tier.4)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3307,7 +3307,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295110] = {
 		cannon = 198,
-		name = "声望·META(Tier.5)",
+		name = "聲望·META(Tier.5)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3348,7 +3348,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295111] = {
 		cannon = 212,
-		name = "声望·META(Tier.6)",
+		name = "聲望·META(Tier.6)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3389,7 +3389,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295112] = {
 		cannon = 227,
-		name = "声望·META(Tier.7)",
+		name = "聲望·META(Tier.7)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3430,7 +3430,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295113] = {
 		cannon = 242,
-		name = "声望·META(Tier.8)",
+		name = "聲望·META(Tier.8)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3471,7 +3471,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295114] = {
 		cannon = 258,
-		name = "声望·META(Tier.9)",
+		name = "聲望·META(Tier.9)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3512,7 +3512,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295115] = {
 		cannon = 274,
-		name = "声望·META(Tier.10)",
+		name = "聲望·META(Tier.10)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3553,7 +3553,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295116] = {
 		cannon = 291,
-		name = "声望·META(Tier.11)",
+		name = "聲望·META(Tier.11)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3594,7 +3594,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295117] = {
 		cannon = 308,
-		name = "声望·META(Tier.12)",
+		name = "聲望·META(Tier.12)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3635,7 +3635,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295118] = {
 		cannon = 326,
-		name = "声望·META(Tier.13)",
+		name = "聲望·META(Tier.13)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3676,7 +3676,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295119] = {
 		cannon = 345,
-		name = "声望·META(Tier.14)",
+		name = "聲望·META(Tier.14)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -3717,7 +3717,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295120] = {
 		cannon = 381,
-		name = "声望·META(Tier.15)",
+		name = "聲望·META(Tier.15)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,

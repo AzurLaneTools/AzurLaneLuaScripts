@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不錯，妳的判斷是正確的，我們破壞不了這座塔。",
+			say = "不錯，你的判斷是正確的，我們破壞不了這座塔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "相信以妳們鐵血的科技實力來說，做到這些肯定是輕輕鬆動的。",
+			say = "相信以妳們鐵血的科技實力來說，做到這些肯定是輕輕鬆鬆的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
