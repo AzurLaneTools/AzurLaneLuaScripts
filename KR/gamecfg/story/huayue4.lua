@@ -377,12 +377,11 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actor = 301820,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			dir = 1,
 			say = "하나즈키는 모든 꽃은 대체할 수 없는 고유한 특성이 있다고 생각해요.",
 			hidePaintEquip = true,
 			painting = {

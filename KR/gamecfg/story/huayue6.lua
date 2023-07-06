@@ -183,12 +183,11 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actor = 301820,
 			side = 2,
 			bgName = "star_level_bg_157",
-			actor = 301820,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			dir = 1,
 			say = "화사하고 찬란한 겨울 매화를 사용하면 색은 예쁘겠지만 향기가 조금 아쉬운데….",
 			hidePaintEquip = true,
 			painting = {

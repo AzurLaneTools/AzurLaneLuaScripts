@@ -240,7 +240,7 @@ function slot0.handleNotification(slot0, slot1)
 			if slot4:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 then
 				slot0.viewComponent:RefreshActivityBuildPool(slot4)
 			elseif slot5 == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD then
-				if slot4.data2 < pg.ship_data_create_material[slot4:getConfig("config_id")].exchange_available_times then
+				if slot4.data2 < ((pg.ship_data_create_exchange[slot4.id] or {}).exchange_available_times or 0) then
 					slot0.viewComponent:RefreshActivityBuildPool(slot4)
 				else
 					slot0.viewComponent:setPools(getProxy(BuildShipProxy):GetPools())

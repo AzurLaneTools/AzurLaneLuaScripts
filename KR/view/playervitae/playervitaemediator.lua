@@ -68,7 +68,6 @@ function slot0.register(slot0)
 			viewComponent = PlayerVitaeDockyardScene,
 			mediator = DockyardMediator,
 			data = {
-				skipSelect = true,
 				callbackQuit = true,
 				selectedMax = slot6,
 				hideTagFlags = ShipStatus.TAG_HIDE_ADMIRAL,

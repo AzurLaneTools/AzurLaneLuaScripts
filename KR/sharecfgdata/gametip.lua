@@ -9778,7 +9778,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "건조 200회 누적할 때마다 UR함선 {namecode:514} 획득 가능(최대 4회)"
+	tip = "건조 200회 누적 시마다 UR 함선 뉴저지, 획득 가능(최대 4회)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -13324,6 +13324,10 @@ _G.pg.base.gametip.msgbox_repair = {
 
 _G.pg.base.gametip.msgbox_repair_l2d = {
 	tip = "L2D 복원"
+}
+
+_G.pg.base.gametip.msgbox_repair_painting = {
+	tip = "修复立绘"
 }
 
 _G.pg.base.gametip.word_no_cache = {
@@ -17938,7 +17942,7 @@ _G.pg.base.gametip.MeixiV4_help = {
 			info = "「은색 파일」 설명:"
 		},
 		{
-			info = "1.이벤트 기간 동안, 6월 2일까지 매일 0시마다 작전 임무가 2회 해제되며, 현재 임무 완성 시 다음 임무 해제 가능"
+			info = "1.이벤트 총 14개의 임무, 현재 임무 완성 시 다음 임무 해제 가능"
 		},
 		{
 			info = "2.모든 임무 완성 시 한정 장비 「작전 보고: AF」 획득 가능"
@@ -17946,20 +17950,20 @@ _G.pg.base.gametip.MeixiV4_help = {
 		{
 			info = [[
 3.보상 설명:
-1일차 임무1: T2 랜덤 부속*5, 물자*100
-1일차 임무2：은색 파일 스토리1 해제
-2일차 임무1：T2 랜덤 개조 도면*2
-2일차 임무2：물자*100
-3일차 임무1：T2 랜덤 장비 상자*3, 물자*100
-3일차 임무2：은색 파일 스토리2 해제
-4일차 임무1：해군 카레*3
-4일차 임무2：물자*100
-5일차 임무1：T3 랜덤 장비 상자*1, 물자*100
-5일차 임무2：은색 파일 스토리3 해제
-6일차 임무1：T3 랜덤 교본*2
-6일차 임무2：물자*100
-7일차 임무1：작전 보고 AF, 물자*100
-7일차 임무2：은색 파일 스토리4 해제]]
+임무1: T2 랜덤 부속*5, 물자*100
+임무2：은색 파일 스토리1 해제
+임무3：T2 랜덤 개조 도면*2
+임무4：물자*100
+임무5：T2 랜덤 장비 상자*3, 물자*100
+임무6：은색 파일 스토리2 해제
+임무7：해군 카레*3
+임무8：물자*100
+임무9：T3 랜덤 장비 상자*1, 물자*100
+임무10：은색 파일 스토리3 해제
+임무11：T3 랜덤 교본*2
+임무12：물자*100
+임무13：작전 보고 AF, 물자*100
+임무14：은색 파일 스토리4 해제]]
 		}
 	}
 }
@@ -19318,6 +19322,14 @@ _G.pg.base.gametip.setting_resdownload_title_music = {
 
 _G.pg.base.gametip.setting_resdownload_title_sound = {
 	tip = "보이스 리소스 업데이트"
+}
+
+_G.pg.base.gametip.setting_resdownload_title_manga = {
+	tip = "漫画资源更新"
+}
+
+_G.pg.base.gametip.setting_resdownload_title_main_group = {
+	tip = "完整资源更新"
 }
 
 _G.pg.base.gametip.settings_battle_title = {
@@ -23783,4 +23795,88 @@ _G.pg.base.gametip.game_icon_max_full = {
 
 _G.pg.base.gametip.pre_combat_consume = {
 	tip = "소모:"
+}
+
+_G.pg.base.gametip.file_down_msgbox = {
+	tip = "클라이언트에서 주요 리소스가 누락된 것을 감지하여 게임을 계속하려면 <color=#92fc63>$1</color>의 리소스를 다운로드해야 합니다. 다운로드 시작하시겠습니까?"
+}
+
+_G.pg.base.gametip.file_down_mgr_title = {
+	tip = "리소스 다운로드 중"
+}
+
+_G.pg.base.gametip.file_down_mgr_progress = {
+	tip = "$1/$2"
+}
+
+_G.pg.base.gametip.file_down_mgr_error = {
+	tip = "리소스 다운로드 실패: $1\n 오류 코드: $2\n 다시 시도하시겠습니까?"
+}
+
+_G.pg.base.gametip.last_building_not_shown = {
+	tip = "아래 함선이 건조되었습니다"
+}
+
+_G.pg.base.gametip.setting_group_prefs_tip = {
+	tip = "부팅 시 자동 다운로드"
+}
+
+_G.pg.base.gametip.group_prefs_switch_tip = {
+	tip = "디폴트 다운로드 양식이 변경되었습니다. 다음 부팅 시 적용됩니다."
+}
+
+_G.pg.base.gametip.main_group_msgbox_content = {
+	tip = "다운로드 후, 전체 클라이언트로 변경되어 게임의 모든 컨텐츠를 체험할 수 있습니다. 이번 업데이트는 $1의 파일을 다운로드하시겠습니까?"
+}
+
+_G.pg.base.gametip.word_maingroup_checking = {
+	tip = "체크 중"
+}
+
+_G.pg.base.gametip.word_maingroup_checktoupdate = {
+	tip = "터치하여 다운로드"
+}
+
+_G.pg.base.gametip.word_maingroup_checkfailure = {
+	tip = "오류 발생, 다시 시도해 주세요"
+}
+
+_G.pg.base.gametip.word_maingroup_updating = {
+	tip = "업데이트 중..."
+}
+
+_G.pg.base.gametip.word_maingroup_updatesuccess = {
+	tip = "업데이트 완료"
+}
+
+_G.pg.base.gametip.word_maingroup_updatefailure = {
+	tip = "업데이트에 실패했습니다. 다시 시도해 주세요"
+}
+
+_G.pg.base.gametip.group_download_tip = {
+	tip = "업데이트하려면 $1의 데이터를 다운로드해야 합니다. 업데이트를 진행하겠습니까?"
+}
+
+_G.pg.base.gametip.word_manga_checking = {
+	tip = "체크 중"
+}
+
+_G.pg.base.gametip.word_manga_checktoupdate = {
+	tip = "터치하여 다운로드"
+}
+
+_G.pg.base.gametip.word_manga_checkfailure = {
+	tip = "오류 발생, 다시 시도해 주세요"
+}
+
+_G.pg.base.gametip.word_manga_updating = {
+	tip = "업데이트: $1/$2"
+}
+
+_G.pg.base.gametip.word_manga_updatesuccess = {
+	tip = "업데이트 완료"
+}
+
+_G.pg.base.gametip.word_manga_updatefailure = {
+	tip = "업데이트에 실패했습니다. 다시 시도해 주세요"
 }

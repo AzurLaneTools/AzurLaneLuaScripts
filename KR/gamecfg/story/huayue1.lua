@@ -285,12 +285,11 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actor = 301820,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			dir = 1,
 			say = "지금은 꽃들이 자태를 뽐내는 봄이니까~ 각양각색의 꽃들이 만발하고 있답니다.",
 			hidePaintEquip = true,
 			painting = {

@@ -79,21 +79,21 @@ function slot0.register(slot0)
 end
 
 function slot0.CreateFleet(slot0)
-	slot2 = TypedFleet.New(slot0)
+	CreateShell(slot0).fleetType = FleetType.Normal
 
 	if Fleet.REGULAR_FLEET_ID <= slot0.id and slot1 < Fleet.REGULAR_FLEET_ID + Fleet.REGULAR_FLEET_NUMS then
 		if slot1 == Fleet.REGULAR_FLEET_ID then
-			slot2:SetSaveLastShip(true)
+			slot2.saveLastShipFlag = true
 		end
 	elseif Fleet.SUBMARINE_FLEET_ID <= slot1 and slot1 < Fleet.SUBMARINE_FLEET_ID + Fleet.SUBMARINE_FLEET_NUMS then
-		slot2:SetFleetType(FleetType.Submarine)
+		slot2.fleetType = FleetType.Submarine
 	elseif slot1 == FleetProxy.CHALLENGE_FLEET_ID then
 		-- Nothing
 	elseif slot1 == FleetProxy.CHALLENGE_SUB_FLEET_ID then
-		slot2:SetFleetType(FleetType.Submarine)
+		slot2.fleetType = FleetType.Submarine
 	end
 
-	return slot2
+	return TypedFleet.New(slot2)
 end
 
 function slot0.addFleet(slot0, slot1)

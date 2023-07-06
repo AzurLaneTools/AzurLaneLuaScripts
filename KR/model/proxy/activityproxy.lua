@@ -146,6 +146,17 @@ function slot0.register(slot0)
 		slot3:AddEXScore(slot0)
 		uv0:updateActivity(slot2)
 	end)
+	slot0:on(11028, function (slot0)
+		print("接受到问卷状态", slot0.result)
+
+		if slot0.result == 0 then
+			uv0:setSurveyState(slot0.result)
+		elseif slot0.result > 0 then
+			uv0:setSurveyState(slot0.result)
+		else
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
+		end
+	end)
 
 	slot0.requestTime = {}
 	slot0.extraDatas = {}
@@ -860,6 +871,29 @@ function slot0.GetTaskActivities(slot0)
 	end)
 
 	return {}
+end
+
+function slot0.setSurveyState(slot0, slot1)
+	if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SURVEY) and not slot2:isEnd() then
+		slot0.surveyState = slot1
+	end
+end
+
+function slot0.isSurveyDone(slot0)
+	if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SURVEY) and not slot1:isEnd() then
+		return slot0.surveyState and slot0.surveyState > 0
+	end
+end
+
+function slot0.isSurveyOpen(slot0)
+	if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SURVEY) and not slot1:isEnd() then
+		slot2 = slot1:getConfig("config_data")
+		slot4 = slot2[2]
+
+		if slot2[1] == 1 then
+			return slot4 <= getProxy(PlayerProxy):getData().level, slot1:getConfig("config_id")
+		end
+	end
 end
 
 return slot0

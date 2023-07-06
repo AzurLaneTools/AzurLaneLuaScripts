@@ -671,13 +671,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 107140,
 			say = "...세이렌이 데이터를 수집하는 건 이런 대항 실험을 하기 위한 준비겠지?",
 			typewriter = {
 				speed = 0.05,

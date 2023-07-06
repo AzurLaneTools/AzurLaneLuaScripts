@@ -148,7 +148,7 @@ function slot0.setShips(slot0, slot1)
 end
 
 function slot0.SetFleets(slot0, slot1)
-	slot0._fleetVOs = _(_.values(slot1)):chain():filter(function (slot0)
+	slot0._fleetVOs = _(slot1):chain():values():filter(function (slot0)
 		return slot0:isRegularFleet()
 	end):sort(function (slot0, slot1)
 		return slot0.id < slot1.id

@@ -52,11 +52,7 @@ function slot0.register(slot0)
 		uv0:refreshEdit(slot1)
 	end)
 
-	slot2 = getProxy(BayProxy)
-
-	slot2:setSelectShipId(nil)
-
-	slot0.ships = slot2:getRawData()
+	slot0.ships = getProxy(BayProxy):getRawData()
 
 	slot0.viewComponent:setShips(slot0.ships)
 	assert(#slot0.contextData.fleets > 0)

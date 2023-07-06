@@ -19,6 +19,11 @@ end
 
 function slot0.initTaskData(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
+
+	print(slot0.taskGroup)
+	print(slot0.config)
+	print("123-123123")
+
 	slot0.taskGroup = pg.activity_template[ActivityConst.NEWMEIXIV4_SKIRMISH_ID].config_data
 	slot0.taskList = {}
 
@@ -74,7 +79,7 @@ function slot0.OnFirstFlush(slot0)
 			slot6 = uv0.taskProxy:getTaskById(uv0.taskList[slot1 + 1]) or uv0.taskProxy:getFinishTaskById(slot5)
 
 			setActive(uv0:findTF("finish", slot2), slot6 and slot6:getTaskStatus() == 2 or slot3 <= uv0.clearTaskNum)
-			setActive(uv0:findTF("lock", slot2), uv0.curTaskIndex < slot3)
+			setActive(uv0:findTF("lock", slot2), false)
 			setText(uv0:findTF("title", slot2), "P" .. slot3)
 		end
 	end)

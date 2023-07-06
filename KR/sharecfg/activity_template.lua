@@ -12001,6 +12001,805 @@ pg.activity_template = {
 			}
 		}
 	},
+	[4893] = {
+		mark = 20230621,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 0,
+		config_client = "",
+		id = 4893,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4895] = {
+		mark = 20230621,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4895,
+		config_data = {
+			1525001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4896] = {
+		mark = 20230621,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 356,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 4896,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4897] = {
+		mark = 20230621,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4897,
+		config_data = {
+			18921,
+			18922,
+			18923,
+			18924,
+			18925,
+			18926,
+			18927,
+			18928,
+			18929,
+			18930,
+			18931,
+			18932,
+			18933,
+			18934,
+			18935,
+			18936,
+			18937,
+			18938,
+			18939,
+			18940
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4898] = {
+		mark = 20230621,
+		id = 4898,
+		title_res_tag = "NewMeixiV4_main",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 50,
+		config_data = {
+			1520001,
+			1520002,
+			1520003,
+			1520021,
+			1520022,
+			1520023
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewMeixiV4MainPage",
+			ui_name = "NewMeixiV4MainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4899] = {
+		mark = 20230621,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4899,
+		config_data = {
+			1520004,
+			1520005,
+			1520006,
+			1520024,
+			1520025,
+			1520026,
+			1520041,
+			1520051
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[4900] = {
+		mark = 20230621,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31975,100}]",
+		config_client = "",
+		id = 4900,
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4901] = {
+		mark = 20230621,
+		config_client = "",
+		title_res_tag = "NewMeixiV4_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 4901,
+		is_show = 49,
+		id = 4901,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewMeixiV4PtPage",
+			ui_name = "NewMeixiV4PtPage"
+		}
+	},
+	[4902] = {
+		mark = 20230621,
+		title_res_tag = "",
+		page_info = "",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4902,
+		config_data = {
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			59460
+		}
+	},
+	[4903] = {
+		mark = 20230621,
+		id = 4903,
+		title_res_tag = "NewMeixiV4_frame",
+		type = 87,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 48,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewMeixiV4frameRePage",
+			ui_name = "NewMeixiV4frameRePage"
+		},
+		config_client = {
+			"timer",
+			{
+				{
+					2021,
+					5,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					6,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4904] = {
+		mark = 20230621,
+		id = 4904,
+		title_res_tag = "NewMeixiV4_skirmish",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 47,
+		config_data = {
+			{
+				18941,
+				18942,
+				18943,
+				18944,
+				18945,
+				18946,
+				18947,
+				18948,
+				18949,
+				18950,
+				18951,
+				18952,
+				18953,
+				18954
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewMeixiV4SkirmishPage",
+			ui_name = "NewMeixiV4SkirmishPage"
+		},
+		config_client = {
+			memoryGroup = 197,
+			storys = {
+				{
+					18942,
+					1661,
+					3051
+				},
+				{
+					18946,
+					1662,
+					3052
+				},
+				{
+					18950,
+					1663,
+					3053
+				},
+				{
+					18954,
+					1664,
+					3054
+				}
+			}
+		}
+	},
+	[4905] = {
+		mark = 20230621,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 4905,
+		config_data = {
+			18955
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4906] = {
+		mark = 20230621,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 4906,
+		config_data = {
+			2120,
+			2121,
+			2122,
+			2123,
+			2124,
+			2125,
+			2126,
+			2127,
+			2128,
+			2129,
+			2130,
+			2131,
+			2132,
+			2133,
+			2134,
+			2135,
+			2136,
+			2137,
+			2138,
+			2139,
+			2140,
+			2141
+		},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_xinzexi",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			painting = "kaliyong_pt",
+			pt_id = 356,
+			outline = {
+				0,
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[4907] = {
+		mark = 20230621,
+		config_client = "",
+		title_res_tag = "YidaliV2_login",
+		type = 3,
+		login_pop = 0,
+		config_id = 43,
+		is_show = 46,
+		id = 4907,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "BuildLoginPage",
+			ui_name = "BuildLoginPage"
+		}
+	},
+	[4908] = {
+		mark = 20230621,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 12,
+		is_show = 0,
+		config_client = "",
+		id = 4908,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4910] = {
+		mark = 20230621,
+		title_res_tag = "",
+		page_info = "",
+		type = 10,
+		login_pop = 0,
+		config_id = 4893,
+		is_show = 0,
+		config_client = "",
+		id = 4910,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2023,
+					7,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7004] = {
 		mark = 20220324,
 		id = 7004,
@@ -18151,6 +18950,22 @@ pg.activity_template = {
 		4890,
 		4891,
 		4892,
+		4893,
+		4895,
+		4896,
+		4897,
+		4898,
+		4899,
+		4900,
+		4901,
+		4902,
+		4903,
+		4904,
+		4905,
+		4906,
+		4907,
+		4908,
+		4910,
 		7004,
 		7005,
 		7006,

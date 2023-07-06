@@ -746,10 +746,6 @@ function slot0.GetSpWeaponsInShips(slot0, slot1)
 	return slot2
 end
 
-function slot0.setSelectShipId(slot0, slot1)
-	slot0.selectShipId = slot1
-end
-
 function slot0.getProposeGroupList(slot0)
 	slot1 = {}
 

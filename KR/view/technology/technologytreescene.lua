@@ -615,6 +615,10 @@ function slot0.getClassConfigForShow(slot0, slot1)
 end
 
 function slot0.isMetaOn(slot0)
+	if slot0.lastNationTrige == uv0.NationTrige.All then
+		return false
+	end
+
 	return slot0.nationMetaToggleCom.isOn
 end
 

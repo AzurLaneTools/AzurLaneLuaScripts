@@ -112,7 +112,6 @@ function slot0.continueClass(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot4:setSelectShipId(nil)
 	slot0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS, {
 		shipToLesson = {
 			shipId = slot1,

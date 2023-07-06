@@ -61,7 +61,6 @@ function slot0.register(slot0)
 			selectedMax = 6,
 			useBlackBlock = true,
 			selectedMin = 1,
-			skipSelect = true,
 			ignoredIds = slot4,
 			selectedIds = slot5.selectedEvent and slot5.selectedEvent.shipIds or {},
 			onShip = slot6,
