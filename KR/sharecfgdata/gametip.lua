@@ -9778,7 +9778,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "건조 200회 누적 시마다 UR 함선 뉴저지, 획득 가능(최대 4회)"
+	tip = "건조 200회 누적 시마다 UR 함선 뉴저지 획득 가능(최대 4회)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
