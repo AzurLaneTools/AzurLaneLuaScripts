@@ -195000,7 +195000,7 @@ _G.pg.base.item_data_statistics[59458] = {
 }
 
 _G.pg.base.item_data_statistics[59459] = {
-	display = "用于「镜位螺旋」复刻活动兑换，活动结束后将会消失",
+	display = "「비추는 나선의 경해」 복각 이벤트에서 교환할 수 있으며, 이벤트 종료 후 사라집니다 ",
 	name = "경해의 증표",
 	max_num = 0,
 	type = 98,
@@ -195023,7 +195023,7 @@ _G.pg.base.item_data_statistics[59459] = {
 }
 
 _G.pg.base.item_data_statistics[59460] = {
-	display = "于「镜位螺旋」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	display = "「비추는 나선의 경해」 한정 복각 이벤트에서 획득. 한정 건조 1회 무료 진행 가능(이벤트 종료 후 사라짐)",
 	name = "1회 건조권",
 	max_num = 0,
 	type = 0,
