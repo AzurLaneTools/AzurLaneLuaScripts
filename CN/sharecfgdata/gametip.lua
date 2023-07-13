@@ -11748,7 +11748,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_49909 = {
 使用装备：<color=#92fc63>
 试作型三联装203mmSKC主炮改
 四联装533mm磁性鱼雷
-试作型55mm Gerät 58防空炮
+试作型三联装203mmSKC主炮改
 </color></size>]]
 }
 
@@ -24347,7 +24347,7 @@ _G.pg.base.gametip.cryptolalia_lock_res = {
 }
 
 _G.pg.base.gametip.cryptolalia_not_download_res = {
-	tip = "尚未下载得资源"
+	tip = "尚未下载该资源"
 }
 
 _G.pg.base.gametip.cryptolalia_timelimie = {

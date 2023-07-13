@@ -1,7 +1,7 @@
 return {
 	init_effect = "",
 	name = "",
-	time = 6,
+	time = 6.1,
 	picture = "",
 	desc = "6s DOT",
 	stack = 1,
