@@ -90255,6 +90255,200 @@ _G.pg.base.equip_data_statistics[43073] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[43080] = {
+	tech = 0,
+	name = "雙聯裝203mmSKC主炮改",
+	speciality = "锁定",
+	type = 3,
+	descrip = "由鐵血開發的雙聯裝203mmSKC主炮的改進型主炮",
+	ammo = 1,
+	damage = "33 x 6",
+	nationality = 4,
+	rarity = 5,
+	id = 43080,
+	value_3 = 0,
+	torpedo_ammo = 0,
+	value_2 = 45,
+	icon = "43080",
+	attribute_2 = "cannon",
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			1,
+			1424
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1424
+		},
+		{
+			4,
+			1206
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		43080
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"CA",
+		"MG",
+		"AP"
+	}
+}
+
+_G.pg.base.equip_data_statistics[43081] = {
+	id = 43081,
+	damage = "35 x 6",
+	base = 43080,
+	weapon_id = {
+		43081
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[43082] = {
+	id = 43082,
+	damage = "37 x 6",
+	base = 43080,
+	weapon_id = {
+		43082
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[43083] = {
+	id = 43083,
+	damage = "39 x 6",
+	base = 43080,
+	weapon_id = {
+		43083
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[43084] = {
+	id = 43084,
+	damage = "41 x 6",
+	base = 43080,
+	weapon_id = {
+		43084
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[43085] = {
+	id = 43085,
+	damage = "43 x 6",
+	base = 43080,
+	weapon_id = {
+		43085
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[43086] = {
+	id = 43086,
+	damage = "45 x 6",
+	base = 43080,
+	weapon_id = {
+		43086
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[43087] = {
+	id = 43087,
+	damage = "47 x 6",
+	base = 43080,
+	weapon_id = {
+		43087
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[43088] = {
+	id = 43088,
+	damage = "49 x 6",
+	base = 43080,
+	weapon_id = {
+		43088
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[43089] = {
+	id = 43089,
+	damage = "51 x 6",
+	base = 43080,
+	weapon_id = {
+		43089
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[43090] = {
+	id = 43090,
+	damage = "53 x 6",
+	base = 43080,
+	weapon_id = {
+		43090
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[43091] = {
+	id = 43091,
+	anti_siren = 100,
+	damage = "53 x 6",
+	base = 43080,
+	weapon_id = {
+		43091
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[43092] = {
+	id = 43092,
+	anti_siren = 200,
+	damage = "53 x 6",
+	base = 43080,
+	weapon_id = {
+		43092
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[43093] = {
+	id = 43093,
+	anti_siren = 300,
+	damage = "53 x 6",
+	base = 43080,
+	weapon_id = {
+		43093
+	},
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[43100] = {
 	tech = 1,
 	name = "三聯283mmSKC28主炮",
@@ -108314,6 +108508,59 @@ _G.pg.base.equip_data_statistics[73012] = {
 	base = 73011,
 	weapon_id = {
 		73012
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[73021] = {
+	type = 1,
+	name = "全彈發射-1934A型I",
+	speciality = "無",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能彈幕",
+	id = 73021,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		73021
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[73022] = {
+	id = 73022,
+	name = "全彈發射-1934A型II",
+	base = 73021,
+	weapon_id = {
+		73022
 	},
 	hidden_skill_id = {}
 }

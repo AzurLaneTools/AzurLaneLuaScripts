@@ -14,7 +14,6 @@ function slot0.init(slot0)
 
 	setText(slot0:findTF("Main/empty/label"), i18n("cryptolalia_unopen"))
 	setText(slot0:findTF("Main/empty1/label"), i18n("cryptolalia_unopen"))
-	setText(slot0.cryptolaliaBtn:Find("Text"), i18n("cryptolalia_entrance_coming_soom"))
 end
 
 function slot0.didEnter(slot0)
@@ -28,7 +27,11 @@ function slot0.didEnter(slot0)
 		uv0:emit(WorldMediaCollectionEntranceMediator.OPEN_RECALL)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.cryptolaliaBtn, function ()
-		pg.TipsMgr.GetInstance():ShowTips(i18n("word_comingSoon"))
+		if LOCK_CRYPTOLALIA then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("word_comingSoon"))
+		else
+			uv0:emit(WorldMediaCollectionEntranceMediator.OPEN_CRYPTOLALIA)
+		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.archiveBtn, function ()
 		uv0:emit(WorldMediaCollectionEntranceMediator.OPEN_ARCHIVE)

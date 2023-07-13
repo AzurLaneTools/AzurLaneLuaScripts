@@ -1,6 +1,125 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
+	[201032] = {
+		ship_group = 20103,
+		name = "Master·熱心？",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "145",
+		id = 201032,
+		group_index = 2,
+		l2d_drag_rate = "",
+		painting = "rexin_3",
+		prefab = "rexin_3",
+		air_bullet_skin = "",
+		aircraft_skin = "",
+		shop_type_id = 16,
+		shop_id = 70584,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "歡迎來到熱心的桌遊小屋，我是為大家提供各種遊戲的熱心~雖然大部分遊戲都是在邊玩邊學就是了呢~",
+		voice_actor = 111,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.225,
+					1.188,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.216,
+					1.181,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.266,
+					1.271,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.543,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201039] = {
 		ship_group = 20103,
 		name = "熱心.改",
@@ -10068,153 +10187,6 @@ pg.base.ship_skin_template_5 = {
 					}
 				}
 			}
-		}
-	},
-	[202121] = {
-		ship_group = 20212,
-		name = "彩雲之玫瑰",
-		bullet_skin_secondary = "",
-		hand_id = 9,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "102",
-		id = 202121,
-		group_index = 1,
-		l2d_drag_rate = "",
-		painting = "beierfasite_2",
-		prefab = "beierfasite_2",
-		air_bullet_skin = "",
-		aircraft_skin = "",
-		shop_type_id = 3,
-		shop_id = 70146,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		illustrator = 20,
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "呵呵…指揮官，這一身就這麼讓您吃驚嗎？還以為您會想看我穿上旗袍的樣子呢…難道是我想錯了嗎～？",
-		voice_actor = 39,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			-11,
-			-170,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.552,
-					0.942,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.592,
-					0.942,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.621,
-					0.932,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.527,
-							2.327,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			login = 1.43,
-			home = 1.43,
-			main_1 = 1.27,
-			propose = 1.27,
-			expedition = 1.96,
-			main_2 = 1.27,
-			mission_complete = 1.96,
-			mission = 1.96,
-			touch2 = 1.47,
-			main_3 = 1.5,
-			mail = 1.96,
-			touch1 = 1.6
 		}
 	}
 }

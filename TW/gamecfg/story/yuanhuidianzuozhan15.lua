@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			bgm = "story-6",
 			nameColor = "#A9F548FF",
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			flashout = {
 				black = true,
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			say = "炮弹的爆响与爽朗的笑声回荡在海域上空——",
+			say = "炮彈的爆響與爽朗的笑聲迴盪在海域上空——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "就战列巡洋舰来说，你的身手还算不错嘛~",
+			say = "就戰鬥巡洋艦來說，妳的身手還算不錯嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 404050,
-			say = "你们也是。虽然火力较差，但是相互之间的配合完美，很难找到将你们一鼓作气消灭的机会。",
+			say = "妳們也是。雖然火力較差，但是相互之間的配合完美，很難找到將妳們一鼓作氣消滅的機會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "真敢说啊———你的行动规律我们已经了如指掌了，下一轮雷击看你怎么躲！",
+			say = "真敢說啊———妳的行動規律我們已經瞭如指掌了，下一輪雷擊看妳怎麼躲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			actorName = "？？？",
-			say = "看起来你们还挺有精神的啊？",
+			say = "看起來妳們還挺有精神的啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			say = "一阵悠闲的声音同时从背后与众人的通讯器中传来，打断了三人接下来的动作。",
+			say = "一陣悠閒的聲音同時從背後與眾人的通訊器中傳來，打斷三人接下來的動作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "实验好不容易才结束，还这么精神……这就是所谓的“余波”？",
+			say = "實驗好不容易才結束，還這麼有精神……這就是所謂的“餘波”？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "这个声音是…………{namecode:427}？！",
+			say = "這個聲音是…………歐根親王？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没错~好久不见啊，{namecode:442}，还有{namecode:450}。",
+			say = "沒錯~好久不見啊，Z16，還有布呂歇爾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "呜呜呜，没想到会是你来接我！明明出发的时候都没见你人！",
+			say = "嗚嗚嗚，沒想到會是妳來接我！明明出發的時候都沒見到妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "当时我有些……事，抱歉啦。不过你看，我现在不是来接你了么。",
+			say = "當時我有些……事，抱歉啦。不過妳看，我現在不是來接妳了嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "历时悠久的测试真是辛苦你了。以及，你跟我是初次见面吧，{namecode:462}。",
+			say = "歷時悠久的測試真是辛苦妳了。以及，妳跟我是初次見面吧，布倫希爾德。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "初次见面，{namecode:427}阁下，以及{namecode:440}阁下，好久不见。",
+			say = "初次見面，歐根親王閣下，以及腓特烈大帝閣下，好久不見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 404050,
-			say = "我已经完成了您指派的任务，现在申请归队。",
+			say = "我已經完成了您指派的任務，現在申請歸隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "原来这位很帅的大姐姐名字叫{namecode:440}……就是你以前说的不能透露名字的人么？",
+			say = "原來這位很帥的大姐姐名字叫腓特烈大帝……就是妳以前說的不能透露名字的人麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 404050,
-			say = "是的。不过既然她选择了亲自露面，至少证明名字这件事是可以公开的了吧。",
+			say = "是的。不過既然她選擇了親自露面，至少證明名字這件事是可以公開的了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没错。我是{namecode:440}。铁血海军战列舰，{namecode:440}。",
+			say = "沒錯。我是腓特烈大帝。鐵血海軍戰列艦，腓特烈大帝。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:450}，以及{namecode:442}，测试实验辛苦了。你们的成果对于铁血很有帮助。",
+			say = "布呂歇爾，以及Z16，測試實驗辛苦了。妳們的成果對於鐵血很有幫助。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "诶嘿嘿，能帮上大家的忙真是太好了~",
+			say = "欸嘿嘿，能幫上大家的忙真是太好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "{namecode:440}！你的舰装好帅啊！（两眼放光）",
+			say = "腓特烈大帝！妳的艦裝好帥啊！ （兩眼放光）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，多谢夸奖。",
+			say = "呵呵，多謝誇獎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "还有{namecode:462}，有关你之前提到的“归队”——我们的舰队已经解散重组了哦。",
+			say = "還有布倫希爾德，有關妳之前提到的“歸隊”——我們的艦隊已經解散重組了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 404050,
-			say = "啊……说的也是，毕竟已经过去这么长时间了……",
+			say = "啊……說的也是，畢竟已經過去這麼長時間了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "{namecode:428}{namecode:428}，{namecode:435}大人她这次怎么没来呀？我还有问题想问她呢！",
+			say = "歐根歐根，俾斯麥大人她這次怎麼沒來呀？我還有問題想問她呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:435}她……你有什么问题要问？",
+			say = "俾斯麥她……妳有什麼問題要問？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "数据更新的问题！",
+			say = "數據更新的問題！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "明明所有棋子的数据更新都是正常的，只有我这边最强的{namecode:435}大人的棋子从某一天开始就完全不更新了！",
+			say = "明明所有棋子的數據更新都是正常的，只有我這邊最強的俾斯麥大人的棋子從某一天開始就完全不更新了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "原本我跟{namecode:442}还是有胜算的……结果因为这件事被对面欺负得好惨，到最后就连战列舰实力都比不过对面了！",
+			say = "原本我跟Z16還是有勝算的……結果因為這件事被對面欺負的好慘，到最後就連戰列艦實力都比不過對面了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……没想到会以这种方式影响到这里。",
+			say = "……沒想到會以這種方式影響到這裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:427}，我们该回去了。",
+			say = "歐根親王，我們該回去了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……说得对，我们还是先回去，有什么事等回家之后慢慢聊嘛~",
+			say = "……說得對，我們還是先回去，有什麼事等回家之後慢慢聊嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "也是，那就回家再聊————",
+			say = "說的也對，那就回家再聊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "不对……路上就跟我聊聊吧！",
+			say = "不對……路上就跟我聊聊吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "在这里呆了这么久，除了{namecode:442}和{namecode:462}就没有能聊天的人，我都快闷死了！",
+			say = "在這裡待了這麼久，除了Z16和布倫希爾德就沒有能聊天的人，我都快悶死了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "好好好~路上就跟你聊，路上就跟你聊。",
+			say = "好好好~路上就跟妳聊，路上就跟妳聊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -547,7 +547,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "回家咯，回家——",
+			say = "回家囉，回家——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			blackBg = true,
-			say = "在{namecode:450}与{namecode:427}有一搭没一搭的闲聊中，一行人的背影逐渐远去，最终从镜面海域中消失了。",
+			say = "在布呂歇爾與歐根親王有一搭沒一搭的閒聊中，一行人的背影逐漸遠去，最終從鏡面海域中消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -92,6 +92,10 @@ function slot0.levelupTacticsSkillData(slot0, slot1, slot2)
 	slot0.taskInfoTable[slot1] = {}
 end
 
+function slot0.updateSkillExp(slot0, slot1, slot2)
+	slot0.skillExpTable[slot1] = slot2
+end
+
 function slot0.initUI(slot0)
 	slot0.shipImg = slot0:findTF("ShipImg")
 	slot0.nameTF = slot0:findTF("NamePanel")
@@ -117,6 +121,7 @@ function slot0.initUI(slot0)
 	slot0.curSkillDescText = slot0:findTF("DescView/Viewport/SkillDesc", slot0.skillInfoPanel)
 	slot0.curSkillProgressText = slot0:findTF("ExpProgress/Text", slot0.skillInfoPanel)
 	slot0.curSkillProgressSlider = slot0:findTF("ExpSlider", slot0.skillInfoPanel)
+	slot0.curSkillQuickBtn = slot0:findTF("QuickBtn", slot0.skillInfoPanel)
 	slot0.studySkillTip = slot0:findTF("StudySkillTip", slot0.taskPanel)
 	slot0.startSkillTip = slot0:findTF("StartLearn", slot0.taskPanel)
 	slot0.maxSkillTip = slot0:findTF("SkillMax", slot0.taskPanel)
@@ -304,13 +309,20 @@ function slot0.updateSkillInfoPanel(slot0, slot1)
 
 	setImageSprite(slot0.curSkillIcon, LoadSprite("skillicon/" .. slot3.icon))
 	setScrollText(slot0.curSkillNameScrollText, getSkillName(slot3.id))
+
+	slot6 = pg.skill_data_template[slot1].max_level <= slot0.curShipVO:getMetaSkillLevelBySkillID(slot1)
+
 	setText(slot0.curSkillLevelText, slot5)
 	setText(slot0.nextSkillLevelText, math.min(slot5 + 1, slot4))
 	setText(slot0.curSkillDescText, getSkillDesc(slot1, slot2:getMetaSkillLevelBySkillID(slot1)))
+	setActive(slot0.curSkillQuickBtn, not slot6)
+	onButton(slot0, slot0.curSkillQuickBtn, function ()
+		uv0:emit(MetaCharacterTacticsMediator.ON_QUICK, uv0.curShipVO.id, uv1)
+	end, SFX_PANEL)
 
 	slot8 = slot0.skillExpTable[slot1] or 0
 
-	if not (pg.skill_data_template[slot1].max_level <= slot0.curShipVO:getMetaSkillLevelBySkillID(slot1)) then
+	if not slot6 then
 		slot10 = slot0:getMetaSkillTacticsConfigBySkillID(slot1, slot5).need_exp
 
 		setText(slot0.curSkillProgressText, slot8 .. "/" .. slot10)

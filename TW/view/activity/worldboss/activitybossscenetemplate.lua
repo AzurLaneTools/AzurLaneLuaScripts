@@ -298,7 +298,7 @@ function slot0.ShowNormalFleet(slot0, slot1, slot2)
 		for slot7 = #slot0.contextData.normalStageIDs, 1, -1 do
 			slot8 = slot0.contextData.actFleets[slot7]
 
-			if slot7 ~= slot1 and slot8 and slot8:isLegalToFight() then
+			if slot7 ~= slot1 and slot8 and slot8:isLegalToFight() == true then
 				slot3:updateShips(slot8.ships)
 
 				break
@@ -549,12 +549,6 @@ function slot0.UpdateDropItems(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	if slot0.fleetEditPanel and slot0.fleetEditPanel:IsShowing() then
-		slot0.fleetEditPanel.buffer:Hide()
-
-		return
-	end
-
 	if slot0.bonusWindow and slot0.bonusWindow:IsShowing() then
 		slot0.bonusWindow.buffer:Hide()
 

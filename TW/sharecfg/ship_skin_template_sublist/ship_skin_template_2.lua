@@ -1,6 +1,121 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
+	[101440] = {
+		ship_group = 10144,
+		name = "庫珀",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 101440,
+		group_index = 0,
+		l2d_drag_rate = "",
+		painting = "kubo",
+		prefab = "kubo",
+		air_bullet_skin = "",
+		aircraft_skin = "",
+		shop_type_id = 0,
+		shop_id = 0,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "艾倫·M·桑拿級驅逐艦—庫珀，舷號DD-695 ",
+		voice_actor = 229,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.112,
+					1.049,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.125,
+					1.05,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			remote = {
+				-50,
+				0,
+				0
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.19,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101441] = {
 		ship_group = 10144,
 		name = "烈日的網球場",
@@ -9973,125 +10088,6 @@ pg.base.ship_skin_template_2 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
-		}
-	},
-	[102292] = {
-		ship_group = 10229,
-		name = "古堡奇談",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "119",
-		id = 102292,
-		group_index = 2,
-		l2d_drag_rate = "",
-		painting = "boyixi_3",
-		prefab = "boyixi_3",
-		air_bullet_skin = "",
-		aircraft_skin = "",
-		shop_type_id = 8,
-		shop_id = 70612,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "那個……萬聖節近了，我也稍微做了些準備……女巫，應該就是這種感覺吧……？",
-		voice_actor = 276,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.07,
-					1.048,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.169,
-					1.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.097,
-					1.095,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.618,
-							2.466,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }

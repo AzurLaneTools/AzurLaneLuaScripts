@@ -48,23 +48,23 @@ function slot0.UpdateRefreshBtn(slot0)
 	setButtonEnabled(slot0.refreshBtn, slot0.shop:CanRefresh())
 end
 
-function slot0.UpdateCard(slot0, slot1, slot2)
-	slot3 = GuildGoodsCard.New(slot1)
+function slot0.OnInitItem(slot0, slot1)
+	slot2 = GuildGoodsCard.New(slot1)
 
-	slot3:update(slot2)
+	onButton(slot0, slot2._go, function ()
+		if not uv0.goods:CanPurchase() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
-	slot0.cards[slot2.id] = slot3
+			return
+		end
 
-	onButton(slot0, slot3.itemTF, function ()
-		uv0:OnCardClick(uv1)
+		uv1:OnCardClick(uv0)
 	end, SFX_PANEL)
+
+	slot0.cards[slot1] = slot2
 end
 
 function slot0.OnCardClick(slot0, slot1)
-	if not slot1.goods:CanPurchase() then
-		return
-	end
-
 	if slot1.goods:Selectable() then
 		slot0.purchaseWindow:ExecuteAction("Show", {
 			id = slot1.goods.id,

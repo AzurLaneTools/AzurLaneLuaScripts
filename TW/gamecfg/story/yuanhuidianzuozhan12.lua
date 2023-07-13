@@ -15,7 +15,7 @@ return {
 			bgm = "story-6",
 			actor = 401160,
 			stopbgm = true,
-			say = "{namecode:450}，能听到么？",
+			say = "布呂歇爾，能聽到嗎？",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -44,7 +44,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "计划执行顺利，对面的注意力已经全放在我身上了。",
+			say = "計劃執行順利，對面的注意力已經全放在我身上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			actor = 401160,
 			paintingNoise = true,
-			say = "前锋舰队与主力舰队已经脱节，请尽快行动！",
+			say = "前鋒艦隊主力艦隊已經脫節，請盡快行動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "了解~战斗了这么久，对面这个对于迎面之敌过于认真的优点就将在今天变为导致她失败的弱点！",
+			say = "了解~戰鬥了這麼久，對面這個對於迎面之敵過於認真的優點就將在今天轉化為導致她失敗的弱點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "战列舰编队，出发咯————————",
+			say = "戰列艦編隊，出發囉————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			actor = 403020,
 			nameColor = "#A9F548FF",
-			say = "战列舰编队…………出发……咯…………",
+			say = "戰列艦編隊…………出發……囉…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			actor = 401160,
 			paintingNoise = true,
-			say = "怎么了，{namecode:450}，还没解决掉对面么？我这边拖延快要到极限了！",
+			say = "怎麼了，布呂歇爾，還沒解決掉對面嗎？我這邊拖延快要到極限了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "对面……也有战列舰编队了。",
+			say = "對面……也有戰列艦編隊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			nameColor = "#ff5c5c",
 			bgName = "bg_yuanhuidian",
 			side = 2,
-			actorName = "{namecode:463}？",
+			actorName = "烏爾里希·馮·胡滕？",
 			say = "…………………………",
 			typewriter = {
 				speed = 0.05,
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "而且看上去有种超不妙的感觉…………",
+			say = "而且看上去有種超不妙的感覺…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			actor = 401160,
 			paintingNoise = true,
-			say = "已经没有犹豫的时间了！虽然{namecode:435}大人的棋子有些问题，但是数量上还是我们有优势的！",
+			say = "已經沒有猶豫的時間了！雖然俾斯麥大人的棋子有些問題，但是數量上還是我們有優勢的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			actor = 401160,
 			paintingNoise = true,
-			say = "上吧，{namecode:450}！",
+			say = "上吧，布呂歇爾！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "好——————！那就全军出击，给我消灭对面的舰队啊啊啊！！！！",
+			say = "好——————！那就全軍出擊，給我消滅對面的艦隊啊啊啊！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

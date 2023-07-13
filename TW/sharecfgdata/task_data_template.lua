@@ -28554,6 +28554,304 @@ _G.pg.base.task_data_template[5767] = {
 	}
 }
 
+_G.pg.base.task_data_template[5791] = {
+	name = "某個陽光明媚的午後",
+	guild_coin_award = 0,
+	award = 5569,
+	type = 5,
+	desc = "提交3個《魚雷天婦羅》",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "shuixingjinian",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "50003",
+	next_task = "5792",
+	auto_commit = 0,
+	story_id = "SHUIXINGJINIAN1",
+	id = 5791,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5792] = {
+	name = "為了健康作息",
+	guild_coin_award = 0,
+	award = 5570,
+	type = 5,
+	desc = "強化任意角色10次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "shuixingjinian",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "SHUIXINGJINIAN2",
+	target_id = "0",
+	next_task = "5793",
+	auto_commit = 0,
+	scene = "",
+	id = 5792,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5793] = {
+	name = "秘書艦的第一天",
+	guild_coin_award = 0,
+	award = 5571,
+	type = 5,
+	desc = "水星紀念上陣出擊(關卡)勝利20次",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "shuixingjinian",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "SHUIXINGJINIAN3",
+	target_id = "70202",
+	next_task = "5794",
+	auto_commit = 0,
+	scene = "",
+	id = 5793,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5794] = {
+	name = "秘書艦的自主原則",
+	guild_coin_award = 0,
+	award = 5572,
+	type = 5,
+	desc = "水星紀念上陣完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 19,
+	target_id_2 = "",
+	story_icon = "shuixingjinian",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "SHUIXINGJINIAN4",
+	target_id = "70202",
+	next_task = "5795",
+	auto_commit = 0,
+	scene = "",
+	id = 5794,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5795] = {
+	name = "關於獎勵的話題",
+	guild_coin_award = 0,
+	award = 5573,
+	type = 5,
+	desc = "水星紀念好感度達到100",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "shuixingjinian",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "SHUIXINGJINIAN5",
+	target_id = "70202",
+	next_task = "5796",
+	auto_commit = 0,
+	scene = "",
+	id = 5795,
+	target_num = 10000,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5796] = {
+	name = "薰衣草的香氣",
+	guild_coin_award = 0,
+	award = 5574,
+	type = 5,
+	desc = "水星紀念突破至滿星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "shuixingjinian",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "SHUIXINGJINIAN6",
+	target_id = "70202",
+	next_task = "5797",
+	auto_commit = 0,
+	scene = "",
+	id = 5796,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5797] = {
+	name = "直到落日的盡頭",
+	guild_coin_award = 0,
+	award = 5575,
+	type = 5,
+	desc = "水星紀念等級達到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "shuixingjinian",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "SHUIXINGJINIAN7",
+	target_id = "70202",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 5797,
+	target_num = 100,
+	fix_task = 0,
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "困難·近海演習",
 	guild_coin_award = 0,
@@ -132170,6 +132468,542 @@ _G.pg.base.task_data_template[17587] = {
 	}
 }
 
+_G.pg.base.task_data_template[17588] = {
+	name = "『伊56校服』复刻-七日任务1",
+	guild_coin_award = 0,
+	award = 97364,
+	type = 26,
+	desc = "艦隊出擊，以S評價通關10次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17588,
+	target_num = 10,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17589] = {
+	name = "『伊56校服』复刻-七日任务2",
+	guild_coin_award = 0,
+	award = 97365,
+	type = 26,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17589,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17590] = {
+	name = "『伊56校服』复刻-七日任务3",
+	guild_coin_award = 0,
+	award = 97366,
+	type = 26,
+	desc = "進行2次演習",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17590,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17591] = {
+	name = "『伊56校服』复刻-七日任务4",
+	guild_coin_award = 0,
+	award = 97367,
+	type = 26,
+	desc = "完成軍事委託2次",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17591,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17592] = {
+	name = "『伊56校服』复刻-七日任务5",
+	guild_coin_award = 0,
+	award = 97368,
+	type = 26,
+	desc = "艦船退役2次",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17592,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17593] = {
+	name = "『伊56校服』复刻-七日任务6",
+	guild_coin_award = 0,
+	award = 97369,
+	type = 26,
+	desc = "完成3次每日挑戰",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17593,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17594] = {
+	name = "『伊56校服』复刻-七日任务7",
+	guild_coin_award = 0,
+	award = 97370,
+	type = 26,
+	desc = "艦船強化5次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17594,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17595] = {
+	name = "『伊56校服』复刻-七日任务8",
+	guild_coin_award = 0,
+	award = 97371,
+	type = 26,
+	desc = "進行戰術訓練2次",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17595,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17596] = {
+	name = "『伊56校服』复刻-七日任务9",
+	guild_coin_award = 0,
+	award = 97372,
+	type = 26,
+	desc = "擊沉任意敵人20艘",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17596,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17597] = {
+	name = "『伊56校服』复刻-七日任务10",
+	guild_coin_award = 0,
+	award = 97373,
+	type = 26,
+	desc = "後宅補充食物5次",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17597,
+	target_num = 5,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17598] = {
+	name = "『伊56校服』复刻-七日任务11",
+	guild_coin_award = 0,
+	award = 97374,
+	type = 26,
+	desc = "建造艦船2次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17598,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17599] = {
+	name = "『伊56校服』复刻-七日任务12",
+	guild_coin_award = 0,
+	award = 97375,
+	type = 26,
+	desc = "打開任意科技箱1個",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17599,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17600] = {
+	name = "『伊56校服』复刻-七日任务13",
+	guild_coin_award = 0,
+	award = 97376,
+	type = 26,
+	desc = "進行2次戰術訓練",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17600,
+	target_num = 2,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17601] = {
+	name = "『伊56校服』复刻-七日任务14",
+	guild_coin_award = 0,
+	award = 97377,
+	type = 26,
+	desc = "擊敗旗艦3次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17601,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			7,
+			308051,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
 _G.pg.base.task_data_template[17619] = {
 	name = "『前卫』登录送皮肤体验券活动",
 	guild_coin_award = 0,
@@ -139676,6 +140510,645 @@ _G.pg.base.task_data_template[17853] = {
 	}
 }
 
+_G.pg.base.task_data_template[17854] = {
+	name = "『布呂歇爾SP』登入送造型體驗券活動",
+	guild_coin_award = 0,
+	award = 97894,
+	type = 6,
+	desc = "登入遊戲",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17854,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			275,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17855] = {
+	name = "『布呂歇爾SP』日常建造",
+	guild_coin_award = 0,
+	award = 97895,
+	type = 36,
+	desc = "建造艦船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17855,
+	target_num = 3,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59336,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17856] = {
+	name = "『布呂歇爾SP』日常出擊",
+	guild_coin_award = 0,
+	award = 97896,
+	type = 36,
+	desc = "艦隊出擊，獲得15次勝利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17856,
+	target_num = 15,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59336,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17857] = {
+	name = "『布呂歇爾SP』日常困難本",
+	guild_coin_award = 0,
+	award = 97897,
+	type = 36,
+	desc = "通關1次任意困難關卡 ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17857,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59336,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17858] = {
+	name = "『布呂歇爾SP』通關SP1",
+	guild_coin_award = 0,
+	award = 97898,
+	type = 6,
+	desc = "通關SP1",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1670001",
+	next_task = "17859",
+	auto_commit = 0,
+	story_id = "",
+	id = 17858,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59336,
+			200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17859] = {
+	name = "『布呂歇爾SP』通關SP2",
+	guild_coin_award = 0,
+	award = 97899,
+	type = 6,
+	desc = "通關SP2",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1670002",
+	next_task = "17860",
+	auto_commit = 0,
+	story_id = "",
+	id = 17859,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59336,
+			400
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17860] = {
+	name = "『布呂歇爾SP』通關SP3",
+	guild_coin_award = 0,
+	award = 97900,
+	type = 6,
+	desc = "通關SP3",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1670003",
+	next_task = "17861",
+	auto_commit = 0,
+	story_id = "",
+	id = 17860,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59336,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17861] = {
+	name = "『布呂歇爾SP』通關SP4",
+	guild_coin_award = 0,
+	award = 97901,
+	type = 6,
+	desc = "通關SP4",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1670004",
+	next_task = "17862",
+	auto_commit = 0,
+	story_id = "",
+	id = 17861,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59336,
+			800
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17862] = {
+	name = "『布呂歇爾SP』通關ESP",
+	guild_coin_award = 0,
+	award = 97902,
+	type = 6,
+	desc = "通關ESP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1670041",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17862,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670002,
+			chapterId = 1670041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17863] = {
+	name = "『布呂歇爾SP』SP1三星",
+	guild_coin_award = 0,
+	award = 97903,
+	type = 6,
+	desc = "完成SP1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1670001",
+	next_task = "17864",
+	auto_commit = 0,
+	story_id = "",
+	id = 17863,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17864] = {
+	name = "『布呂歇爾SP』SP2三星",
+	guild_coin_award = 0,
+	award = 97904,
+	type = 6,
+	desc = "完成SP2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1670002",
+	next_task = "17865",
+	auto_commit = 0,
+	story_id = "",
+	id = 17864,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17865] = {
+	name = "『布呂歇爾SP』SP3三星",
+	guild_coin_award = 0,
+	award = 97905,
+	type = 6,
+	desc = "完成SP3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1670003",
+	next_task = "17866",
+	auto_commit = 0,
+	story_id = "",
+	id = 17865,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17866] = {
+	name = "『布呂歇爾SP』SP4三星",
+	guild_coin_award = 0,
+	award = 97906,
+	type = 6,
+	desc = "完成SP4的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1670004",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17866,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[17867] = {
+	name = "『布呂歇爾SP』通關EX",
+	guild_coin_award = 0,
+	award = 97907,
+	type = 6,
+	desc = "通關EX關卡",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1670051",
+	next_task = "0",
+	auto_commit = 0,
+	story_id = "",
+	id = 17867,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670003,
+			chapterId = 1670051
+		}
+	}
+}
+
 _G.pg.base.task_data_template[17868] = {
 	name = "『五十铃运动会』七日任务1",
 	guild_coin_award = 0,
@@ -140209,6 +141682,44 @@ _G.pg.base.task_data_template[17881] = {
 	},
 	scene = {
 		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[17882] = {
+	name = "『布呂歇爾SP』外觀裝備箱保底",
+	guild_coin_award = 0,
+	award = 97929,
+	type = 6,
+	desc = "開啟20個外觀裝備箱(鐵血之志)",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	story_id = "",
+	target_id = "30337",
+	next_task = "0",
+	auto_commit = 0,
+	scene = "",
+	id = 17882,
+	target_num = 20,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30509,
+			1
+		}
 	}
 }
 

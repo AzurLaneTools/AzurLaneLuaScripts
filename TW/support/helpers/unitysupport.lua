@@ -178,6 +178,22 @@ function removeOnButton(slot0)
 	end
 end
 
+function removeAllOnButton(slot0)
+	for slot5 = 1, slot0.GetComponentsInChildren(slot0, typeof(Button)).Length do
+		if slot1[slot5 - 1] ~= nil then
+			slot6.onClick:RemoveAllListeners()
+		end
+	end
+end
+
+function ClearAllText(slot0)
+	for slot5 = 1, slot0.GetComponentsInChildren(slot0, typeof(Text)).Length do
+		if slot1[slot5 - 1] ~= nil then
+			slot6.text = ""
+		end
+	end
+end
+
 function onLongPressTrigger(slot0, slot1, slot2, slot3)
 	slot4 = GetOrAddComponent(slot1, typeof(UILongPressTrigger))
 
@@ -765,10 +781,43 @@ function cloneTplTo(slot0, slot1, slot2)
 	return slot3
 end
 
+slot5 = nil
+slot6 = {}
+
 function setGray(slot0, slot1, slot2)
-	if slot1 and GetOrAddComponent(slot0, "UIGrayScale") or GetComponent(slot0, "UIGrayScale") then
-		slot3.Recursive = defaultValue(slot2, true)
-		slot3.enabled = slot1
+	if not slot1 and not uv0[slot0] then
+		return
+	else
+		uv0[slot0] = true
+	end
+
+	uv1 = uv1 or Material.New(pg.ShaderMgr.GetInstance():GetShader("UI/GrayScale"))
+	slot3 = {}
+
+	if slot2 then
+		for slot7, slot8 in ipairs({
+			Image,
+			Text
+		}) do
+			slot9 = tf(slot0):GetComponentsInChildren(typeof(slot8), true)
+
+			warning(slot9.Length)
+
+			for slot13 = 0, slot9.Length - 1 do
+				table.insert(slot3, slot9[slot13])
+			end
+		end
+	else
+		for slot7, slot8 in ipairs({
+			Image,
+			Text
+		}) do
+			table.insert(slot3, tf(slot0):GetComponent(typeof(slot8)))
+		end
+	end
+
+	for slot7, slot8 in ipairs(slot3) do
+		slot8.material = slot1 and uv1 or nil
 	end
 end
 

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 199030,
 			dir = 1,
-			say = "安克雷奇……充满力量……！老师……谢谢……！",
+			say = "安克拉治……充滿力量……！老師……謝謝……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "新的力量……保护老师……保护朋友……保护大家！",
+			say = "新的力量……保護老師……保護朋友……保護大家！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			actor = 199030,
 			dir = 1,
-			say = "坏家伙……不害怕，老师……不用怕……！",
+			say = "壞傢伙……不害怕，老師……不用怕……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "安克雷奇……和老师拉勾……！安克雷奇……保护老师……！",
+			say = "安克拉治……和老師打勾勾……！安克拉治……保護老師……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			actor = 199030,
 			dir = 1,
-			say = "安克雷奇，老师……一直在一起……！",
+			say = "安克拉治，老師……一直在一起……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

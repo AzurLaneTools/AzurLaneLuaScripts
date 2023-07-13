@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			stopbgm = true,
-			say = "铁血实验场·战场区块H8",
+			say = "鐵血實驗場·戰場區塊H8",
 			bgm = "story-6",
 			flashout = {
 				black = true,
@@ -40,7 +40,7 @@ return {
 			nameColor = "#ff5c5c",
 			bgName = "bg_yuanhuidian",
 			side = 2,
-			actorName = "{namecode:412}？",
+			actorName = "Z46？",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "发现敌方侦察舰队！",
+			say = "發現敵方偵察艦隊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "领头的是……{namecode:412}的棋子和大量与我们相同的塞壬I型量产型！",
+			say = "領頭的是……Z46的棋子與大量和我們相同的塞壬I型量產型！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "唔……{namecode:412}啊。在她离开本土之前我见过她一面，当时她的舰装应该还没完工才是。",
+			say = "唔……Z46啊。在她離開本土之前我見過她一面，當時她的艦裝應該還沒完工才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "没想到这里的棋子居然已经是完成状态了……有趣！",
+			say = "沒想到這裡的棋子居然已經是完成狀態了……有趣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "不过她应该不难对付吧~毕竟{namecode:412}只是驱逐舰，而我们这边可是有一整支战列舰编队呢！",
+			say = "不過她應該不難對付吧~畢竟Z46只是驅逐艦，而我們這邊可是有一整支戰列艦編隊呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			expression = 4,
 			blackBg = true,
-			say = "哼哼~就当开胃菜，碾压式取胜吧！",
+			say = "哼哼~就當開胃菜，碾壓式取勝吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

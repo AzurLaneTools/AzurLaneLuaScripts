@@ -894,6 +894,7 @@ function slot9.Spawn(slot0, slot1, slot2)
 	slot4 = slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, (slot2 ~= nil or Vector3.zero) and (slot2:GetBeenAimedPosition() or slot2:GetPosition()))
 
 	slot0:setBulletSkin(slot4, slot1)
+	slot0:setBulletOrb(slot4)
 	slot0:TriggerBuffWhenSpawn(slot4)
 
 	return slot4
@@ -923,6 +924,24 @@ end
 
 function slot9.cacheBulletID(slot0)
 	slot0._emitBulletIDList = slot0._bulletList
+end
+
+function slot9.setBulletOrb(slot0, slot1)
+	if not slot0._orbID then
+		return
+	end
+
+	slot1:AppendAttachBuff({
+		buff_id = slot0._orbID,
+		rant = slot0._orbRant,
+		level = slot0._orbLevel
+	})
+end
+
+function slot9.SetBulletOrbData(slot0, slot1)
+	slot0._orbID = slot1.buffID
+	slot0._orbRant = slot1.rant
+	slot0._orbLevel = slot1.level
 end
 
 function slot9.ShiftBarrage(slot0, slot1)

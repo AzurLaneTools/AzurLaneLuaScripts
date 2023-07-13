@@ -81,10 +81,6 @@ return {
 				pathIndex = -1,
 				triggerType = {
 					2
-				},
-				fingerPos = {
-					posY = -24.93,
-					posX = 39.67
 				}
 			},
 			code = {
@@ -105,10 +101,6 @@ return {
 				pathIndex = -1,
 				triggerType = {
 					1
-				},
-				fingerPos = {
-					posY = 0,
-					posX = 7.8
 				}
 			}
 		},

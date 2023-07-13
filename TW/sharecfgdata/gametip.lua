@@ -9635,7 +9635,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "埃姆登、呂措、埃爾賓、約克建造機率UP！"
+	tip = "布倫希爾德、布呂歇爾、Z16建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -12898,6 +12898,10 @@ _G.pg.base.gametip.msgbox_text_breakthrough = {
 
 _G.pg.base.gametip.msgbox_text_equipdetail = {
 	tip = "裝備詳情"
+}
+
+_G.pg.base.gametip.msgbox_text_use = {
+	tip = "使 用 "
 }
 
 _G.pg.base.gametip.common_flag_ship = {
@@ -22935,6 +22939,54 @@ _G.pg.base.gametip.cryptolalia_no_ticket = {
 	tip = "密語獎券不足，可前往功能道具商店進行購買"
 }
 
-_G.pg.base.gametip.cryptolalia_entrance_coming_soom = {
-	tip = "密語檔案室建設中..."
+_G.pg.base.gametip.charge_menu_month_tip = {
+	tip = "目前貿易許可剩餘$1天，暫時無法購買"
+}
+
+_G.pg.base.gametip.activity_shop_title = {
+	tip = "活動"
+}
+
+_G.pg.base.gametip.street_shop_title = {
+	tip = "軍火"
+}
+
+_G.pg.base.gametip.military_shop_title = {
+	tip = "軍需"
+}
+
+_G.pg.base.gametip.quota_shop_title1 = {
+	tip = "核心限定"
+}
+
+_G.pg.base.gametip.sham_shop_title = {
+	tip = "核心月度"
+}
+
+_G.pg.base.gametip.fragment_shop_title = {
+	tip = "原型"
+}
+
+_G.pg.base.gametip.guild_shop_title = {
+	tip = "艦隊"
+}
+
+_G.pg.base.gametip.medal_shop_title = {
+	tip = "勳章"
+}
+
+_G.pg.base.gametip.meta_shop_title = {
+	tip = "META"
+}
+
+_G.pg.base.gametip.mini_game_shop_title = {
+	tip = "獎券"
+}
+
+_G.pg.base.gametip.metaskill_up = {
+	tip = "<color=#E0E0E0>*使用「META通用戰術教材」可以快速獲得技能經驗，不計入每日經驗上限 </color>"
+}
+
+_G.pg.base.gametip.metaskill_overflow_tip = {
+	tip = "本次研習會溢出<color=#FFDE60>$1</color>經驗，是否繼續？"
 }

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰衣草味的“恶魔”\n\n<size=45>七　直到落日的尽头</size>",
+					"薰衣草味的“惡魔”\n\n<size=45>七 直到落日的盡頭</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "休息日的游乐园，一段时间之前——",
+			say = "休息日的遊樂園，一段時間之前——",
 			bgm = "story-2",
 			flashout = {
 				black = true,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哇…………这个难道是，新增的游乐设施？！指挥官，我们试试吧！",
+			say = "哇…………這個難道是，新增的遊樂設施？ ！指揮官，我們試試吧！",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哇！那个看起来好好吃！指挥官，我要吃那个！",
+			say = "哇！那個看起來好好吃！指揮官，我要吃那個！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "喔哦！是新出的游戏！指挥官指挥官！给我买给我买！",
+			say = "喔哦！是新出的遊戲！指揮官指揮官！給我買給我買！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哇~~！这边的游戏机看起来很有意思！我要先过去咯！",
+			say = "哇~~！這邊的遊戲機看起來很有意思！我要先過去咯！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "不得不说，她……在游乐园这种地方可真是精力充沛。",
+			say = "不得不說，她……在遊樂園這種地方可真是精力充沛。",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -175,7 +175,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "而且……从她刚才在游戏厅大杀四方的情况来看，水星纪念的游戏水平其实相当高超。",
+			say = "而且……從她剛才在遊戲廳大殺四方的情況來看，水星紀念的遊戲水平其實相當高超。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "难道说……她在那天晚上是故意的？",
+			say = "難道說……她在那天晚上是故意的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "指挥官~你看这是什么？",
+			say = "指揮官~你看這是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "正在有些发呆时，又结束了一轮游戏的水星纪念走了过来。",
+			say = "正在有些發呆時，又結束了一輪遊戲的水星紀念走了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "她向前伸出合拢的双手，脸上露出狡黠的笑容。",
+			say = "她向前伸出合攏的雙手，臉上露出狡黠的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嘿嘿~看看我给你拿到了什么~",
+			say = "嘿嘿~看看我幫你拿到了什麼~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "她打开双手，手心中捧着的是一个小小的水晶球。",
+			say = "她打開雙手，手心中捧著的是一個小小的水晶球。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "水晶球里白色的小房子静静地矗立在小小的雪原当中，按下开关就有纷纷白雪落下。",
+			say = "水晶球裡白色的小房子靜靜地矗立在小小的雪原當中，按下開關就有紛紛白雪落下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "只是个简单的小工艺品，但依然能从中感受到水星纪念的心意。",
+			say = "只是個簡單的小工藝品，但依然能從中感受到水星紀念的心意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "这可是游戏厅的冲关积分奖励哟！我很厉害吧！",
+			say = "這可是遊戲廳的衝關積分獎勵喲！我很厲害吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "再多夸奖一下我也没关系的哦！哼哼~♪",
+			say = "再多誇獎一下我也沒關係的哦！哼哼~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "就这样，和水星纪念在游乐园度过一个难忘的白天——",
+			say = "就這樣，和水星紀念在遊樂園度過一個難忘的白天——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
-			say = "黄昏之时，火色的落霞融化在路面上，把整个世界都染成金黄。",
+			say = "黃昏之時，火色的落霞融化在路面上，把整個世界都染成金黃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
-			say = "在返回港区的路上，水星纪念在前面蹦蹦跳跳地走着。",
+			say = "在返回港區的路上，水星紀念在前面蹦蹦跳跳地走著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
-			say = "黑色的小皮靴碰撞着路面，发出哒哒哒的声音。",
+			say = "黑色的小皮靴碰撞著路面，發出噠噠噠的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
-			say = "在她的身后不远处是拎着大包小包的我。其中虽然也有一些购买的纪念品，不过大部分都是她在游戏厅里赢下来的奖励。",
+			say = "在她的身後不遠處是拎著大包小包的我。其中雖然也有一些購買的紀念品，不過大部分都是她在遊戲廳裡贏下來的獎勵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
-			say = "……在离开的时候{namecode:98}的眼神都要变得不对劲了。",
+			say = "……在離開的時候明石的眼神都要變得不對勁了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嗯哼哼哼♪~雪球花儿♪，雪球花♪~",
+			say = "嗯哼哼哼♪~雪球花♪，雪球花♪~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
-			say = "不知是不是错觉，在前面空着手蹦蹦跳跳的水星纪念似乎有意地往回瞟了一眼。",
+			say = "不知是不是錯覺，在前面空著手蹦蹦跳跳的水星紀念似乎有意地往回瞟了一眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "指挥官，人家好累……我们要不先休息一下吧？",
+			say = "指揮官，人家好累……我們要不然先休息一下吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
-			say = "她有些夸张地扶着腰，摆出一副辛苦的样子，指了指不远处的长椅。",
+			say = "她有些誇張地扶著腰，擺出一副辛苦的樣子，指了指不遠處的長椅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,18 +465,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
-			say = "这个样子的水星纪念其实也挺可爱的。",
+			say = "這個樣子的水星紀念其實也挺可愛的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那就先在路边的长椅上休息一下吧。",
+					content = "那就先在路邊的長椅上休息一下吧。",
 					flag = 1
 				},
 				{
-					content = "还是先回港区吧。",
+					content = "還是先回港區吧。",
 					flag = 2
 				}
 			}
@@ -487,7 +487,7 @@ return {
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "和水星纪念一起坐到路旁的长椅上，她习惯性的把头靠了过来。",
+			say = "和水星紀念一起坐到路旁的長椅上，她習慣性的把頭靠了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "平时让你使唤使唤，到了休息日就可以加倍使唤回来。",
+			say = "平時讓你使喚使喚，到了休息日就可以加倍使喚回來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就这样给指挥官当秘书舰的生活……感觉也不错嘛~",
+			say = "就這樣給指揮官當秘書艦的生活……感覺也不錯嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以后……就像这样一直陪在你身边，也不是不能考虑哦？",
+			say = "以後……就像這樣一直陪在你身邊，也不是不能考慮哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,7 +559,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过当然，过度压榨劳动力的行为严禁！嘿嘿~",
+			say = "不過當然，過度壓榨勞動力的行為嚴禁！嘿嘿~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "………………决定了。",
+			say = "………………決定了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你今天帮我做了这么多，是应该给你一点奖励。",
+			say = "你今天幫我做了這麼多，是應該給你一點獎勵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（悄声）闭上眼睛。",
+			say = "（悄聲）閉上眼睛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -632,7 +632,7 @@ return {
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "听从她的建议，慢慢地闭上双眼，而后——",
+			say = "聽從她的建議，慢慢地閉上雙眼，而後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "——感受到了带着些许湿气的温暖触感。",
+			say = "——感受到了帶著些許濕氣的溫暖觸感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦，奖励结束————",
+			say = "好啦，獎勵結束————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -678,7 +678,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……指挥官还真是不体贴。",
+			say = "……指揮官還真是不體貼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你今天帮我做了这么多，本来想给你点奖励呢。",
+			say = "你今天幫我做了這麼多，本來想給你點獎勵呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算啦，这种情况也有这种情况的方案。",
+			say = "算啦，這種情況也有這種情況的方案。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -735,7 +735,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（悄声）闭上眼睛。",
+			say = "（悄聲）閉上眼睛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -751,7 +751,7 @@ return {
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "听从她的建议，慢慢地闭上双眼，而后——",
+			say = "聽從她的建議，慢慢地閉上雙眼，而後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………稍微弯一下腰！",
+			say = "…………稍微彎一下腰！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,7 +785,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这就对了，笨……",
+			say = "這就對了，笨……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,7 +801,7 @@ return {
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "——感受到了带着些许湿气的温暖触感。",
+			say = "——感受到了帶著些許濕氣的溫暖觸感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -816,7 +816,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦，奖励结束————",
+			say = "好啦，獎勵結束————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -834,7 +834,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "指挥官，继续前进吧！",
+			say = "指揮官，繼續前進吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -852,7 +852,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "我们的旅途现在才刚刚开始，可不能在这种地方停下来哦~",
+			say = "我們的旅途現在才剛剛開始，可不能在這種地方停下來哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1

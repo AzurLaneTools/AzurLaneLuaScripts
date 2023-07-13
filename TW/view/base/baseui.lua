@@ -295,7 +295,7 @@ function slot0.enter(slot0)
 					pg.SeriesGuideMgr.CODES.MAINUI
 				}
 			})
-			pg.GuideMgr.GetInstance():onSceneAnimDone({
+			pg.NewGuideMgr.GetInstance():OnSceneEnter({
 				view = uv0.__cname
 			})
 		end)
@@ -354,7 +354,7 @@ function slot0.exit(slot0)
 		uv0:willExit()
 		uv0:ShowOrHideResUI(false)
 		uv0:detach()
-		pg.GuideMgr.GetInstance():onSceneExit({
+		pg.NewGuideMgr.GetInstance():OnSceneExit({
 			view = uv0.__cname
 		})
 		pg.NewStoryMgr.GetInstance():OnSceneExit({

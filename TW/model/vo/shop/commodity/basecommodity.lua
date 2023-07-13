@@ -24,6 +24,18 @@ function slot0.GetPurchasableCnt(slot0)
 	assert(false, "overwrite!!!")
 end
 
+function slot0.GetName(slot0)
+	assert(false, "overwrite!!!")
+end
+
+function slot0.GetDropList(slot0)
+	assert(false, "overwrite!!!")
+end
+
+function slot0.GetResType(slot0)
+	assert(false, "overwrite!!!")
+end
+
 function slot0.reduceBuyCount(slot0)
 	slot0.buyCount = slot0.buyCount - 1
 end
@@ -130,6 +142,14 @@ function slot0.calDayLeft(slot0)
 	if slot1 and slot2 and slot2 > 0 then
 		return slot1, pg.TimeMgr.GetInstance():parseTimeFrom(slot2) + 1
 	end
+end
+
+function slot0.GetName(slot0)
+	assert(false, "overwrite me !!!!")
+end
+
+function slot0.IsGroupLimit(slot0)
+	assert(false, "overwrite me !!!!")
 end
 
 return slot0

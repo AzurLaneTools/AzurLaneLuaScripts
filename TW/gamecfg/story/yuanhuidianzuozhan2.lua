@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "经过数日航行后，{namecode:450}与{namecode:442}来到了任务书中指定的海域。",
+			say = "經過數日航行後，布呂歇爾與Z16來到了任務書中指定的海域。",
 			bgm = "bsm-7",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "只是一眨眼之间，原本风平浪静的无垠海面上就出现了大量机械结构的人工设施。",
+			say = "只是一眨眼之間，原本風平浪靜的無垠海面上就出現了大量機械結構的人工設施。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "此处名为镜面海域内侧，是一种与外侧截然不同的，另一种风景。",
+			say = "此處名為鏡面海域內側，是一種與外側截然不同的，另一種風景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "铁血实验场·休息区",
+			say = "鐵血實驗場·休息區",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "哇哦……这里就是我们的基地么。",
+			say = "哇哦……這裡就是我們的基地嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "虽然从外面看上去有点阴森，不过走进来就是另一种感觉了！",
+			say = "雖然從外面看上去感覺實在是有點陰森，不過走進來就是另一種感覺了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "是啊~生活设施一应俱全，场地也十分宽广，简直就像度假区一样~",
+			say = "是啊~設施一應俱全，場地也十分寬廣，簡直就像度假區一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 7,
-			say = "哎嘿嘿，接下来一段时间我们就要在这里度过了啊。",
+			say = "哎嘿嘿，接下來一段時間就要在這裡度過了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "{namecode:450}径直扑向了摆在休息室的巨大沙发，然后拿出了指令书。",
+			say = "布呂歇爾徑直撲向了擺在休息室的巨大沙發，然後拿出了指令書。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 5,
-			say = "接下来要进行漫长的对抗演习，不好好熟悉一下这里的设施可不行。",
+			say = "接下來要進行漫長的對抗演習，不好好熟悉一下這裡的設施可不行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "让我再仔细看看哦……舰队……棋子……雕刻车间……",
+			say = "讓我再仔細看看哦……艦隊……棋子……雕刻車間……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 6,
-			say = "棋子和雕刻车间？我还从来没有见过棋子被生产出来的样子呢，{namecode:450}你见过么？",
+			say = "棋子和雕刻車間？我還從來沒有見過棋子被生產出來的樣子呢，布呂希爾妳見過嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "我也完全没。毕竟塞壬在以前也不会主动让我们看嘛~",
+			say = "我也完全沒。畢竟塞壬在以前也不會讓我們看嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "而且这次使用到的棋子是特制的，战斗力和自主作战能力得到了全方位的强化……",
+			say = "而且這次使用到的棋子是特製的，戰鬥力和自主作戰能力得到了全方位的強化……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "哇哦……上面还写了我们和棋子的战斗力都会根据演习规则进行了调整。",
+			say = "哇哦……上面還寫了我們和棋子的戰鬥力都會根據演習規則進行了調整。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "如果像以前那样不管不顾地冲锋，说不定会全军覆没……",
+			say = "如果像以前那樣不管不顧地衝鋒，說不定會全軍覆沒……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "就在{namecode:450}研究指令书的时候，{namecode:442}正在津津有味地巡视着餐饮区。",
+			say = "就在布呂歇爾研究指令書的時候，Z16正在津津有味地巡視著餐飲區。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "哇！{namecode:450}，我看了一下，这里的菜单还蛮丰富的！",
+			say = "哇！布呂歇爾，我看了一下，菜單還蠻豐富的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "不光是本土菜，鸢尾菜皇家菜、甚至撒丁菜都有哦，{namecode:450}你要不要吃点什么？",
+			say = "不光是本土菜，鳶尾菜皇家菜、甚至薩丁菜都有哦，布呂歇爾妳要不要吃點什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "唔……“如果当日战斗的舰队全灭或者旗舰被消灭，则会视为战斗失败并失去一小块海域的控制权。”",
+			say = "唔……“如果當日戰鬥的艦隊全滅或者旗艦被消滅，則會視為戰鬥失敗並失去一小塊海域控制權。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "然后……“在夺取了足够多的海域之后，便可以对对方的基地发动攻击。”",
+			say = "然後……“在失去了足夠多的場地之後，可以對對方的基地發動攻擊。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401160,
-			say = "{namecode:450}！你有在听么！",
+			say = "布呂歇爾！妳有在聽嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "啊？！你刚才说什么……？",
+			say = "啊？！妳剛才說什麼……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "我在说吃饭的话题！",
+			say = "我在說吃飯的話題！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "真是的……走了一路你不饿么？吃完饭再看呗。",
+			say = "真是的……走了一路妳不餓嗎？吃完飯再看吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "测试战斗也不是一会就要打吧。",
+			say = "測試戰鬥也不是等下就要打吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "啊哈哈……说的也是。{namecode:442}打算吃什么？",
+			say = "啊哈哈……說的也是。 Z16打算吃什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 7,
-			say = "烤猪肘，土豆泥还有酸菜丝！",
+			say = "烤豬腳，馬鈴薯泥還有酸菜絲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "那我就蹭点你的肘子，然后再来点香肠和烤蔬菜好了！",
+			say = "那我就拿點妳的豬腳，然後再來點香腸和烤蔬菜好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "唔……“直到任何一边的基地被攻陷之前，实验不能停止，也不能被外部干涉。”",
+			say = "唔……“直到任何一邊的基地被攻陷之前，實驗不能停止，也不能被外部干涉。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "呜啊——！！",
+			say = "嗚啊——！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "……这次又怎么了？",
+			say = "……這次又怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "给，饭做好了哦。用自动化生产线做菜效率就是高啊。",
+			say = "給妳，飯做好了哦。用自動化生產線做菜效率就是高啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "“第一天的作战从下午三点开始。”",
+			say = "“第一天的作戰從下午三點開始。”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 5,
-			say = "哈啊？！为什么会在第一天就安排作战啊！",
+			say = "哈啊？！為什麼會在第一天就安排作戰啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "……现在几点了？",
+			say = "……現在幾點了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "十一点半……而我们还完全没进行过舰队检查。",
+			say = "十一點半……而我們還完全沒進行過艦隊檢查。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 403020,
-			say = "快点吃！吃完之后咱们快去船坞看看，该准备参战舰队了！！",
+			say = "快點吃！吃完之後咱們快去船塢看看，該準備參戰艦隊了！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

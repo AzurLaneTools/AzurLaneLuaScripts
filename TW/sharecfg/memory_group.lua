@@ -112,6 +112,7 @@ pg.memory_group = setmetatable({
 		219,
 		220,
 		221,
+		224,
 		227,
 		228,
 		230,
@@ -192,7 +193,8 @@ pg.memory_group = setmetatable({
 		571,
 		572,
 		573,
-		574
+		574,
+		577
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2609,6 +2611,32 @@ pg.base.memory_group = {
 			2197
 		}
 	},
+	[224] = {
+		id = 224,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
+		title = "遠匯點作戰",
+		memories = {
+			2271,
+			2272,
+			2273,
+			2274,
+			2275,
+			2276,
+			2277,
+			2278,
+			2279,
+			2280,
+			2281,
+			2282,
+			2283,
+			2284,
+			2285,
+			2286
+		}
+	},
 	[227] = {
 		id = 227,
 		subtype = 2,
@@ -4020,6 +4048,23 @@ pg.base.memory_group = {
 			2125,
 			2126,
 			2127
+		}
+	},
+	[577] = {
+		id = 577,
+		subtype = 0,
+		icon = "title_chara_shuixingjinian",
+		type = 3,
+		link_event = 0,
+		title = "薰衣草味的“惡魔”",
+		memories = {
+			2261,
+			2262,
+			2263,
+			2264,
+			2265,
+			2266,
+			2267
 		}
 	}
 }

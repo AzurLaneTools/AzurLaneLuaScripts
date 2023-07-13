@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#A9F548FF",
-			say = "轰————————！",
+			say = "轟————————！",
 			bgm = "story-6",
 			flashout = {
 				black = true,
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			say = "伴随着一声巨响，拥有着庞大又怪异舰装的{namecode:437}最终倒在了海面上。",
+			say = "伴隨著一聲巨響，擁有著龐大又怪異艦裝的齊柏林伯爵最終倒在了海面上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "敌方舰队旗舰，{namecode:437}击破！",
+			say = "敵方艦隊旗艦，齊柏林伯爵擊破！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "嚯？不愧是量产型舰队！在击破了旗舰之后立刻就失去统一指挥了！",
+			say = "嚯？不愧是量產型艦隊！在擊破了旗艦之後立刻就失去統一指揮了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "接下来交给我们的量产型收尾就好啦~",
+			say = "接下來交給我們的量產型收尾就好啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "呼……到底是航空母舰，真是费了一番功夫啊。",
+			say = "呼……到底是航空母艦，真是廢了一番功夫啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "要不是遵循演习规则的战斗力调整，我们早就解决了！",
+			say = "要不是演習規則的戰鬥力調整，我們早就解決了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "可是那样就失去演习的意义了吧！",
+			say = "可是那樣就失去演習的意義了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "真是的~接下来海域里只剩下一坨敌人了。",
+			say = "真是的~接下來海域裡只剩下一坨敵人了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "唔……其中有一个没见过的名字，系统识别名为{namecode:462}，战列巡洋舰，你有听说过么？",
+			say = "唔……其中有一個沒見過的名字，系統識別名為布倫希爾德，戰鬥巡洋艦，妳有聽說過嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "{namecode:462}……？我没听说过，但是名字听起来好酷！",
+			say = "布倫希爾德……？我沒聽說過，但是名字聽起來好酷！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "嚯嚯~我对于这个秘密计划越来越好奇了！",
+			say = "嚯嚯~我對於這個秘密計劃越來越好奇了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "不过对话要等战斗结束之后——",
+			say = "不過對話要等戰鬥結束之後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "对面就剩了一艘战列巡洋舰，而我们还有四艘战列舰，优势在我！",
+			say = "對面就剩了一艘戰鬥巡洋艦，而我們還有四艘戰列艦，優勢在我！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			expression = 3,
 			blackBg = true,
-			say = "全军出击，让对面看看咱们的厉害！",
+			say = "全軍出擊，讓對面看看我們的厲害！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

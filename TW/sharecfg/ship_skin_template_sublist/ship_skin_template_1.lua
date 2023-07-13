@@ -2472,6 +2472,129 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101119] = {
+		ship_group = 10111,
+		name = "查爾斯·奧斯本.改",
+		bullet_skin_secondary = "",
+		hand_id = 5,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		id = 101119,
+		group_index = 9,
+		l2d_drag_rate = "",
+		painting = "aosiben_g",
+		prefab = "aosiben_g",
+		air_bullet_skin = "",
+		aircraft_skin = "",
+		shop_type_id = 9997,
+		shop_id = 0,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "小海狸分隊隊長奧斯本，裝備升級完成！哼哼，升級後的正義可不是一般的強哦！這下壞孩子們可要倒大霉了！",
+		voice_actor = 29,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.825,
+					0.863,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.017,
+					0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.055,
+					1.39,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.687,
+							1.859,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.567,
+							0.622,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101120] = {
 		ship_group = 10112,
 		name = "柴契爾",
@@ -9755,121 +9878,6 @@ pg.base.ship_skin_template_1 = {
 						{
 							-0.6,
 							2.18,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[101440] = {
-		ship_group = 10144,
-		name = "庫珀",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 101440,
-		group_index = 0,
-		l2d_drag_rate = "",
-		painting = "kubo",
-		prefab = "kubo",
-		air_bullet_skin = "",
-		aircraft_skin = "",
-		shop_type_id = 0,
-		shop_id = 0,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "艾倫·M·桑拿級驅逐艦—庫珀，舷號DD-695 ",
-		voice_actor = 229,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.112,
-					1.049,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.125,
-					1.05,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			remote = {
-				-50,
-				0,
-				0
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.19,
 							0
 						}
 					}

@@ -185248,6 +185248,502 @@ _G.pg.base.ship_data_statistics[401024] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[401161] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Z16",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 401160,
+	english_name = "KMS Friedrich Eckoldt",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 401161,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		335,
+		13,
+		87,
+		28,
+		0,
+		78,
+		0,
+		69,
+		55,
+		43.2,
+		51,
+		47
+	},
+	attrs_growth = {
+		9405,
+		174,
+		1057,
+		615,
+		0,
+		541,
+		0,
+		1062,
+		1020,
+		0,
+		0,
+		542
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Z-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[401162] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Z16",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 401160,
+	english_name = "KMS Friedrich Eckoldt",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 401162,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		417,
+		16,
+		109,
+		35,
+		0,
+		78,
+		0,
+		69,
+		55,
+		43.2,
+		51,
+		59
+	},
+	attrs_growth = {
+		9405,
+		174,
+		1057,
+		615,
+		0,
+		541,
+		0,
+		1062,
+		1020,
+		0,
+		0,
+		542
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.25,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Z-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[401163] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Z16",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 401160,
+	english_name = "KMS Friedrich Eckoldt",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 401163,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		580,
+		22,
+		152,
+		49,
+		0,
+		78,
+		0,
+		69,
+		55,
+		43.2,
+		51,
+		82
+	},
+	attrs_growth = {
+		9405,
+		174,
+		1057,
+		615,
+		0,
+		541,
+		0,
+		1062,
+		1020,
+		0,
+		0,
+		542
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.35,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Z-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[401164] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Z16",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 401160,
+	english_name = "KMS Friedrich Eckoldt",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 401164,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		825,
+		32,
+		217,
+		69,
+		0,
+		78,
+		0,
+		69,
+		55,
+		43.2,
+		51,
+		117
+	},
+	attrs_growth = {
+		9405,
+		174,
+		1057,
+		615,
+		0,
+		541,
+		0,
+		1062,
+		1020,
+		0,
+		0,
+		542
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.4,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Z-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[401181] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -195919,6 +196415,510 @@ _G.pg.base.ship_data_statistics[403014] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[403021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "布呂歇爾",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 403020,
+	english_name = "KMS Blücher",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 403021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		811,
+		54,
+		44,
+		39,
+		0,
+		67,
+		0,
+		44,
+		9,
+		25.6,
+		17,
+		0
+	},
+	attrs_growth = {
+		19780,
+		725,
+		615,
+		848,
+		0,
+		467,
+		0,
+		648,
+		409,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		331
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.45,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Admiral Hipper-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[403022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "布呂歇爾",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 403020,
+	english_name = "KMS Blücher",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 403022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1009,
+		67,
+		55,
+		49,
+		0,
+		67,
+		0,
+		44,
+		9,
+		25.6,
+		17,
+		0
+	},
+	attrs_growth = {
+		19780,
+		725,
+		615,
+		848,
+		0,
+		467,
+		0,
+		648,
+		409,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		332
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.45,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Admiral Hipper-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[403023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "布呂歇爾",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 403020,
+	english_name = "KMS Blücher",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 403023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1404,
+		94,
+		77,
+		68,
+		0,
+		67,
+		0,
+		44,
+		9,
+		25.6,
+		17,
+		0
+	},
+	attrs_growth = {
+		19780,
+		725,
+		615,
+		848,
+		0,
+		467,
+		0,
+		648,
+		409,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		333
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.45,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Admiral Hipper-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[403024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "布呂歇爾",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 403020,
+	english_name = "KMS Blücher",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 403024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1998,
+		134,
+		110,
+		96,
+		0,
+		67,
+		0,
+		44,
+		9,
+		25.6,
+		17,
+		0
+	},
+	attrs_growth = {
+		19780,
+		725,
+		615,
+		848,
+		0,
+		467,
+		0,
+		648,
+		409,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		334
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.6,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Admiral Hipper-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[403031] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -198039,7 +199039,7 @@ _G.pg.base.ship_data_statistics[403081] = {
 	},
 	default_equip_list = {
 		102,
-		106,
+		107,
 		104
 	},
 	depth_charge_list = {},
@@ -198167,7 +199167,7 @@ _G.pg.base.ship_data_statistics[403082] = {
 	},
 	default_equip_list = {
 		102,
-		106,
+		107,
 		104
 	},
 	depth_charge_list = {},
@@ -198295,7 +199295,7 @@ _G.pg.base.ship_data_statistics[403083] = {
 	},
 	default_equip_list = {
 		102,
-		106,
+		107,
 		104
 	},
 	depth_charge_list = {},
@@ -198423,7 +199423,7 @@ _G.pg.base.ship_data_statistics[403084] = {
 	},
 	default_equip_list = {
 		102,
-		106,
+		107,
 		104
 	},
 	depth_charge_list = {},
@@ -202964,6 +203964,498 @@ _G.pg.base.ship_data_statistics[404044] = {
 		"Derfflinger-class",
 		"SOTP",
 		"Lützow"
+	}
+}
+
+_G.pg.base.ship_data_statistics[404051] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "布倫希爾德",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404050,
+	english_name = "KMS Brünhilde",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404051,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1235,
+		71,
+		44,
+		58,
+		0,
+		60,
+		0,
+		20,
+		10,
+		33.5,
+		50,
+		0
+	},
+	attrs_growth = {
+		33265,
+		906,
+		615,
+		1245,
+		0,
+		419,
+		0,
+		325,
+		250,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"O-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[404052] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "布倫希爾德",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404050,
+	english_name = "KMS Brünhilde",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404052,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1536,
+		89,
+		55,
+		72,
+		0,
+		60,
+		0,
+		20,
+		10,
+		33.5,
+		50,
+		0
+	},
+	attrs_growth = {
+		33265,
+		906,
+		615,
+		1245,
+		0,
+		419,
+		0,
+		325,
+		250,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"O-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[404053] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "布倫希爾德",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404050,
+	english_name = "KMS Brünhilde",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404053,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2139,
+		124,
+		77,
+		101,
+		0,
+		60,
+		0,
+		20,
+		10,
+		33.5,
+		50,
+		0
+	},
+	attrs_growth = {
+		33265,
+		906,
+		615,
+		1245,
+		0,
+		419,
+		0,
+		325,
+		250,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"O-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[404054] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "布倫希爾德",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404050,
+	english_name = "KMS Brünhilde",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404054,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3043,
+		176,
+		110,
+		144,
+		0,
+		60,
+		0,
+		20,
+		10,
+		33.5,
+		50,
+		0
+	},
+	attrs_growth = {
+		33265,
+		906,
+		615,
+		1245,
+		0,
+		419,
+		0,
+		325,
+		250,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"O-Class"
 	}
 }
 
@@ -323022,7 +324514,7 @@ _G.pg.base.ship_data_statistics[499011] = {
 	},
 	default_equip_list = {
 		102,
-		106,
+		107,
 		104
 	},
 	depth_charge_list = {},
@@ -323148,7 +324640,7 @@ _G.pg.base.ship_data_statistics[499012] = {
 	},
 	default_equip_list = {
 		102,
-		106,
+		107,
 		104
 	},
 	depth_charge_list = {},
@@ -323274,7 +324766,7 @@ _G.pg.base.ship_data_statistics[499013] = {
 	},
 	default_equip_list = {
 		102,
-		106,
+		107,
 		104
 	},
 	depth_charge_list = {},
@@ -323400,7 +324892,7 @@ _G.pg.base.ship_data_statistics[499014] = {
 	},
 	default_equip_list = {
 		102,
-		106,
+		107,
 		104
 	},
 	depth_charge_list = {},

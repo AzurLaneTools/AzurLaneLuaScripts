@@ -29970,6 +29970,190 @@ _G.pg.base.aircraft_template[62660] = {
 	}
 }
 
+_G.pg.base.aircraft_template[62791] = {
+	attack_power = 2,
+	name = "齐柏林空艇Lv1",
+	type = 3,
+	accuracy = 23,
+	model_ID = "feiji_qibolinfeiting",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 4,
+	id = 62791,
+	icon = "feiji_qibolinfeiting",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1846,
+	speed = 20,
+	max_hp = 48,
+	scale = 1,
+	weapon_ID = {
+		62801
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[62792] = {
+	id = 62792,
+	name = "齐柏林空艇Lv2",
+	hp_growth = 2087,
+	base = 62791,
+	max_hp = 54,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62802
+	}
+}
+
+_G.pg.base.aircraft_template[62793] = {
+	id = 62793,
+	name = "齐柏林空艇Lv3",
+	hp_growth = 2327,
+	base = 62791,
+	max_hp = 61,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62803
+	}
+}
+
+_G.pg.base.aircraft_template[62794] = {
+	id = 62794,
+	name = "齐柏林空艇Lv4",
+	hp_growth = 2568,
+	base = 62791,
+	max_hp = 67,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62804
+	}
+}
+
+_G.pg.base.aircraft_template[62795] = {
+	id = 62795,
+	name = "齐柏林空艇Lv5",
+	hp_growth = 2809,
+	base = 62791,
+	max_hp = 73,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62805
+	}
+}
+
+_G.pg.base.aircraft_template[62796] = {
+	id = 62796,
+	name = "齐柏林空艇Lv6",
+	hp_growth = 3050,
+	base = 62791,
+	max_hp = 79,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62806
+	}
+}
+
+_G.pg.base.aircraft_template[62797] = {
+	id = 62797,
+	name = "齐柏林空艇Lv7",
+	hp_growth = 3290,
+	base = 62791,
+	max_hp = 86,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62807
+	}
+}
+
+_G.pg.base.aircraft_template[62798] = {
+	id = 62798,
+	name = "齐柏林空艇Lv8",
+	hp_growth = 3531,
+	base = 62791,
+	max_hp = 92,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62808
+	}
+}
+
+_G.pg.base.aircraft_template[62799] = {
+	id = 62799,
+	name = "齐柏林空艇Lv9",
+	hp_growth = 3772,
+	base = 62791,
+	max_hp = 98,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62809
+	}
+}
+
+_G.pg.base.aircraft_template[62800] = {
+	id = 62800,
+	name = "齐柏林空艇Lv10",
+	hp_growth = 4013,
+	base = 62791,
+	max_hp = 104,
+	spawn_brownian = 1,
+	weapon_ID = {
+		62810
+	}
+}
+
 _G.pg.base.aircraft_template[63051] = {
 	attack_power = 2,
 	name = "苍龙·META_轰炸机 Lv1",
@@ -202841,6 +203025,386 @@ _G.pg.base.aircraft_template[2967044] = {
 			{
 				0.48,
 				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3011001] = {
+	attack_power = 2,
+	name = "【2022布吕歇尔活动SP2】BOSS 齐柏林 红色弹幕战斗机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "Me155A",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3011001,
+	icon = "Me155A",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 33,
+	max_hp = 86,
+	scale = 0.75,
+	weapon_ID = {
+		3011003
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3011002] = {
+	attack_power = 2,
+	name = "【2022布吕歇尔活动SP2】BOSS 齐柏林 地毯式轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "JU87C",
+	ACC_growth = 0,
+	crash_DMG = 89,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3011002,
+	icon = "JU87C",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2560,
+	speed = 30,
+	max_hp = 106,
+	scale = 0.75,
+	weapon_ID = {
+		3011004
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3012003] = {
+	attack_power = 2,
+	name = "【2022布吕歇尔活动SP3】BOSS 彼得史特拉塞 特殊鱼雷机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "qibolin",
+	ACC_growth = 0,
+	crash_DMG = 69,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3012003,
+	icon = "qibolin",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2380,
+	speed = 33,
+	max_hp = 96,
+	scale = 0.75,
+	weapon_ID = {
+		3012006
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3012004] = {
+	attack_power = 2,
+	name = "【2022布吕歇尔活动SP3】BOSS 彼得史特拉塞 特殊轰炸机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "JU87C",
+	ACC_growth = 0,
+	crash_DMG = 89,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3012004,
+	icon = "JU87C",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2560,
+	speed = 30,
+	max_hp = 106,
+	scale = 0.75,
+	weapon_ID = {
+		3012007
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.13,
+				-1.29,
+				0
+			},
+			{
+				-1.25,
+				1.47,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3012005] = {
+	attack_power = 2,
+	name = "【2022布吕歇尔活动SP3】BOSS 彼得史特拉塞 常规战斗机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "Me155A",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3012005,
+	icon = "Me155A",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1960,
+	speed = 30,
+	max_hp = 86,
+	scale = 0.75,
+	weapon_ID = {
+		3012008
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
 				0
 			}
 		}

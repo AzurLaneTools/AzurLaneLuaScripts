@@ -1740,7 +1740,7 @@ pg.ship_data_blueprint = {
 		blueprint_version = 4,
 		name = "安克雷奇",
 		simulate_dungeon = 9918,
-		luck_story = "",
+		luck_story = "LUCK19903",
 		strengthen_item = 42031,
 		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>850</color>",
 		id = 19903,
@@ -1749,7 +1749,12 @@ pg.ship_data_blueprint = {
 		unlock_task_open_condition = {
 			60181
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19440,
+				18440
+			}
+		},
 		unlock_task = {
 			{
 				60182,
@@ -1816,7 +1821,13 @@ pg.ship_data_blueprint = {
 			1829,
 			1830
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			1831,
+			1832,
+			1833,
+			1834,
+			1835
+		},
 		attr_exp = {
 			100,
 			100,
@@ -2010,7 +2021,7 @@ pg.ship_data_blueprint = {
 		blueprint_version = 4,
 		name = "奥古斯特·冯·帕塞瓦尔",
 		simulate_dungeon = 9921,
-		luck_story = "",
+		luck_story = "LUCK49906",
 		strengthen_item = 42034,
 		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>600</color>",
 		id = 49906,
@@ -2019,7 +2030,12 @@ pg.ship_data_blueprint = {
 		unlock_task_open_condition = {
 			60211
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19460,
+				18460
+			}
+		},
 		unlock_task = {
 			{
 				60212,
@@ -2086,7 +2102,13 @@ pg.ship_data_blueprint = {
 			2129,
 			2130
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			2131,
+			2132,
+			2133,
+			2134,
+			2135
+		},
 		attr_exp = {
 			100,
 			100,
@@ -2100,7 +2122,7 @@ pg.ship_data_blueprint = {
 		blueprint_version = 4,
 		name = "马可波罗",
 		simulate_dungeon = 9922,
-		luck_story = "",
+		luck_story = "LUCK69901",
 		strengthen_item = 42035,
 		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>600</color>、皇家陣營科技點數達到<color=#92fc63>700</color>",
 		id = 69901,
@@ -2110,7 +2132,12 @@ pg.ship_data_blueprint = {
 			60220,
 			60221
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19500,
+				18500
+			}
+		},
 		unlock_task = {
 			{
 				60222,
@@ -2177,7 +2204,13 @@ pg.ship_data_blueprint = {
 			2229,
 			2230
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			2231,
+			2232,
+			2233,
+			2234,
+			2235
+		},
 		attr_exp = {
 			100,
 			100,

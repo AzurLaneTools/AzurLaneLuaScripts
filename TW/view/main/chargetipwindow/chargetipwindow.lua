@@ -164,6 +164,10 @@ function slot0.Hide(slot0)
 end
 
 function slot0.OnDestroy(slot0)
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
+
 	for slot4, slot5 in pairs(slot0.window) do
 		if not IsNil(slot5) then
 			Object.Destroy(slot5.gameObject)

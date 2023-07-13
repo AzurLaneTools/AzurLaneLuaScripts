@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰衣草味的“恶魔”\n\n<size=45>一　某个阳光明媚的午后</size>",
+					"薰衣草味的“惡魔”\n\n<size=45>一 某個陽光明媚的午後</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "指挥室，某个阳光明媚的午后——",
+			say = "指揮室，某個陽光明媚的午後——",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，桌子上的文件也已经全部处理好了……",
+			say = "指揮官，桌子上的文件也已經全部處理好了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，理论上还会有一份北方联合的演习文件需要您处理……不知她为什么到现在还没送过来。",
+			say = "不過，理論上還會有一份北方聯合的演習文件需要您處理……不知到為什麼到現在還沒送過來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "阿芙乐尔显得稍微有些焦急。不知道迟迟没有将文件送过来的人究竟是……",
+			say = "曙光顯得稍微有些焦急。不知道遲遲沒有將文件送過來的人究竟是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "一阵小皮靴踩在地板上的哒哒声打断了思绪。而后，一位黑色长发的白衣少女推门而入——",
+			say = "一陣小皮靴踩在地板上的噠噠聲打斷了思緒。而後，一位黑色長髮的白衣少女推門而入——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哈啊！~~（打了个哈欠）早上好呀，指挥官……",
+			say = "哈啊！~~（打了個哈欠）早上好呀，指揮官……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "迟迟没有将文件送来的人，是水星纪念。",
+			say = "遲遲沒有將文件送來的人，是水星紀念。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "但是现在已经是下午了！",
+					content = "但是現在已經是下午了！",
 					flag = 2
 				}
 			}
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "感觉今天的水星纪念好像没有什么精神，是昨晚没休息好么？",
+			say = "感覺今天的水星紀念好像沒有什麼精神，是昨晚沒休息好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "差、差不多算是这样吧…！",
+			say = "差、差不多算是這樣吧…！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诶……是嘛……哈哈，随便啦，别在意这些细节嘛。",
+			say = "欸……是嘛……哈哈，隨便啦，別在意這些細節嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要太阳还在散发着光芒，世界上就总有一个角落可以被定义为早上哦！",
+			say = "只要太陽還在散發著光芒，世界上就總有一個角落可以被定義為早上哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "水星纪念正顶着黑眼圈一脸正经地胡说八道着……",
+			say = "水星紀念正頂著黑眼圈一臉正經地胡說八道著……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哦对了，我是来干正事的。",
+			say = "哦對了，我是來幹正事的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嗯……这边是北方联合上次作战的记录文件，还有作战报告书……诶，我放在什么地方来着……",
+			say = "嗯……這邊是北方聯合上次作戰的紀錄文件，還有作戰報告書……欸，我放在什麼地方來著……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "对了对了，在这边……啊咧咧咧！！！",
+			say = "對了對了，在這邊……啊咧咧咧！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "找到文件的水星纪念有些激动地来了个大转身。然后因为重心不稳，在即将摔倒的危险关头被一旁的阿芙乐尔扶住了。",
+			say = "找到文件的水星紀念有些激動地來了個大轉身。然後因為重心不穩，在即將摔倒的危險關頭被一旁的曙光扶住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "呜啊……好险好险……指挥官，我把文件放在桌子上了，有空的时候看一下哦。",
+			say = "嗚啊……好險好險……指揮官，我把文件放在桌子上了，有空的時候看一下哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			},
 			options = {
 				{
-					content = "对水星纪念表示关切",
+					content = "對水星紀念表示關切",
 					flag = 1
 				}
 			}
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "诶嘿嘿，没事啦……那指挥官，我就先回去了哦……（哈欠）",
+			say = "欸嘿嘿，沒事啦……那指揮官，我就先回去了哦……（哈欠）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "……她这个样子真的不要紧么？",
+			say = "……她這個樣子真的不要緊嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,24 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毫无疑问……是无节制非健康生活的体现。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 702010,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "前几天的时候她似乎买了一款新出的游戏，然后就……很少出宿舍了。",
+			say = "毫無疑問……是無節制不健康生活的體現。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我想，应该是这段时间一直沉浸在游戏的世界中不可自拔吧。",
+			say = "前幾天的時候她似乎買了一款新出的遊戲，然後就……很少出宿舍了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +417,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官要不要去宿舍看一看她？",
+			say = "我想，應該是這段時間一直沉浸在遊戲的世界中不可自拔吧。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 702010,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "指揮官要不要去宿舍看一看她？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "一直像现在这样可不行……不过看她那么困，也许回去之后会进入回笼觉的状态。",
+			say = "一直像現在這樣可不行……不過看她那麼睏，也許回去之後會進入回籠覺的狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "等晚饭之后再去看看吧——",
+			say = "等晚飯之後再去看看吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

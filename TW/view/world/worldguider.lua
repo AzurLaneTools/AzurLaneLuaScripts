@@ -9,7 +9,7 @@ function slot0.Init(slot0)
 end
 
 function slot0.SetTempGridPos(slot0, slot1, slot2)
-	slot0.tempGridPos[slot2 or 1] = pg.GuideMgr.GetInstance():transformPos(slot1)
+	slot0.tempGridPos[slot2 or 1] = pg.NewGuideMgr.GetInstance()._tf:InverseTransformPoint(slot1)
 end
 
 function slot0.SetTempGridPos2(slot0, slot1, slot2)
@@ -54,7 +54,7 @@ function slot0.CheckUseStaminaItem(slot0)
 end
 
 function slot0.CheckMapLimit(slot0)
-	pg.GuideMgr.GetInstance():play("WorldG012")
+	pg.NewGuideMgr.GetInstance():Play("WorldG012")
 end
 
 function slot0.SpecialCheck(slot0, slot1)
@@ -75,9 +75,9 @@ slot0.interruptReplayList = {
 }
 
 function slot0.PlayGuide(slot0, slot1, slot2, slot3)
-	slot4 = pg.GuideMgr.GetInstance()
+	slot4 = pg.NewGuideMgr.GetInstance()
 
-	if not GUIDE_WROLD or not slot2 and slot4:isPlayed(slot1) or not slot4:canPlay() then
+	if not GUIDE_WROLD or not slot2 and pg.NewStoryMgr.GetInstance():IsPlayed(slot1) or not slot4:CanPlay() then
 		existCall(slot3)
 
 		return false
@@ -91,7 +91,7 @@ function slot0.PlayGuide(slot0, slot1, slot2, slot3)
 		})
 	end
 
-	slot4:play(slot1, nil, function ()
+	slot4:Play(slot1, nil, function ()
 		return existCall(uv0)
 	end)
 

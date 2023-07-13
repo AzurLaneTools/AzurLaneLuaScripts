@@ -13,7 +13,7 @@ return {
 			stopbgm = true,
 			actor = 401160,
 			nameColor = "#A9F548FF",
-			say = "{namecode:450}，前方发现了敌方的增援！",
+			say = "布呂歇爾，前方發現了敵方的增援！",
 			bgm = "story-6",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "这次的领队是……{namecode:437}的棋子！",
+			say = "這次的領隊是……齊柏林伯爵的棋子！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "只有{namecode:437}，没有其他护卫……？",
+			say = "只有齊柏林伯爵，沒有其他護衛……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "看来对面的战术指挥能力相当的不行啊~",
+			say = "看來對面的戰術指揮能力相當的不行啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "不过{namecode:437}，我记得她当时的舰装完成度也比较……",
+			say = "不過齊柏林伯爵，我記得她當時的艦裝完成度也比較……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			nameColor = "#ff5c5c",
 			bgName = "bg_yuanhuidian",
 			side = 2,
-			actorName = "{namecode:437}？",
+			actorName = "齊柏林伯爵？",
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "也比较……………………哈啊？！！",
+			say = "也比較……………………哈啊？！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "？！！那、那个夸张的舰装是什么东西啊！？！",
+			say = "？！！那、那個誇張的艦裝是什麼東西啊！？！",
 			effects = {
 				{
 					active = true,
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "好帅……而且看起来好强！要是我能有这样的舰装的话……",
+			say = "好帥……而且看起來好強！要是我能有這樣的艦裝的話……",
 			effects = {
 				{
 					active = false,
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "喂，别发呆，对面的舰载机攻过来了！",
+			say = "喂，別發呆，對面的艦載機攻過來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			expression = 1,
 			blackBg = true,
-			say = "舰队，准备进行防空射击！",
+			say = "艦隊，準備進行防空射擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,6 +1,118 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
+	[204032] = {
+		ship_group = 20403,
+		name = "五彩的Glorius",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "142",
+		id = 204032,
+		group_index = 2,
+		l2d_drag_rate = "",
+		painting = "hude_3",
+		prefab = "hude_3",
+		air_bullet_skin = "",
+		aircraft_skin = "",
+		shop_type_id = 2,
+		shop_id = 70533,
+		air_bomb_skin = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		illustrator = 11,
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "真是一場不錯的旅行，得感謝指揮官的邀請才是呢。穿上這般美麗的服飾，就該悠然而優雅地享受重櫻的茶會，不是嗎？呵呵~",
+		voice_actor = 36,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.996,
+					0.996,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.985,
+					1.018,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.995,
+					1.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.526,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[204033] = {
 		ship_group = 20403,
 		name = "晨曦的淑女",
@@ -1065,15 +1177,15 @@ pg.base.ship_skin_template_7 = {
 		hand_id = 13,
 		bgm = "",
 		illustrator2 = -1,
-		bg = "",
+		bg = "117",
 		id = 205016,
 		group_index = 6,
 		l2d_drag_rate = "",
-		painting = "yilishabai",
-		prefab = "yilishabai",
+		painting = "yilishabai_7",
+		prefab = "yilishabai_7",
 		air_bullet_skin = "",
 		aircraft_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 6,
 		shop_id = 0,
 		air_bomb_skin = "",
 		lip_smoothing = 0,
@@ -1101,7 +1213,9 @@ pg.base.ship_skin_template_7 = {
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		ship_l2d_id = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -1132,17 +1246,12 @@ pg.base.ship_skin_template_7 = {
 		bound_bone = {
 			cannon = {
 				{
-					-0.106,
-					1.3,
+					1.17,
+					1.08,
 					0
 				}
 			},
 			vicegun = {
-				{
-					-0.591,
-					1.589,
-					0
-				},
 				{
 					0.688,
 					1.12,
@@ -1150,11 +1259,6 @@ pg.base.ship_skin_template_7 = {
 				}
 			},
 			antiaircraft = {
-				{
-					-0.591,
-					1.589,
-					0
-				},
 				{
 					0.688,
 					1.12,
@@ -9944,109 +10048,6 @@ pg.base.ship_skin_template_7 = {
 							-0.62,
 							2.24,
 							-1.47
-						}
-					}
-				}
-			}
-		}
-	},
-	[207060] = {
-		ship_group = 20706,
-		name = "光榮",
-		bullet_skin_secondary = "",
-		hand_id = 1,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		id = 207060,
-		group_index = 0,
-		l2d_drag_rate = "",
-		painting = "guangrong",
-		prefab = "guangrong",
-		air_bullet_skin = "",
-		aircraft_skin = "",
-		shop_type_id = 0,
-		shop_id = 0,
-		air_bomb_skin = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		illustrator = 39,
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "勇敢級航空母艦—光榮，舷號77",
-		voice_actor = 113,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					-0.18,
-					0.7,
-					0
-				}
-			},
-			plane = {
-				{
-					1.12,
-					1.44,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.28,
-							2.43,
-							0
 						}
 					}
 				}

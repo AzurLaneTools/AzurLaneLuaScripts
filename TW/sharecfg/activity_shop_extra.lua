@@ -2573,7 +2573,7 @@ pg.activity_shop_extra = {
 	},
 	[5004] = {
 		commodity_id = 308051,
-		activity = 338,
+		activity = 41239,
 		scene = "",
 		num = 1,
 		num_limit = 1,
@@ -2584,9 +2584,9 @@ pg.activity_shop_extra = {
 		time = {
 			{
 				{
-					2020,
-					7,
-					9
+					2023,
+					8,
+					17
 				},
 				{
 					0,
@@ -2596,9 +2596,9 @@ pg.activity_shop_extra = {
 			},
 			{
 				{
-					2020,
-					7,
-					23
+					2023,
+					8,
+					31
 				},
 				{
 					23,

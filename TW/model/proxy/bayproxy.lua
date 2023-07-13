@@ -313,6 +313,10 @@ function slot0.getSortShipsByFleet(slot0, slot1)
 		table.insert(slot2, slot0.data[slot7])
 	end
 
+	for slot6, slot7 in ipairs(slot1.subShips) do
+		table.insert(slot2, slot0.data[slot7])
+	end
+
 	return slot2
 end
 

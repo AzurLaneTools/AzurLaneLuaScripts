@@ -13,7 +13,7 @@ return {
 			stopbgm = true,
 			actor = 401160,
 			nameColor = "#A9F548FF",
-			say = "{namecode:450}，对面舰队好像开始撤退了……！",
+			say = "布呂歇爾，對面艦隊好像開始撤退了……！",
 			bgm = "story-6",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "欸！？我们还根本没怎么打啊？！",
+			say = "欸！？我們還根本沒怎麼打啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "全速追击，别让对面跑了，我还没玩够呢！",
+			say = "全速追擊，別讓對面跑了，我還沒玩夠呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "不行……蓝方旗舰{namecode:462}已经离开了交战海域，无法继续追击了。",
+			say = "不行……藍方旗艦布呂歇爾已經離開了交戰海域，無法繼續追擊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "按照规则来说，战斗结束，我们赢了哦。",
+			say = "按照規則來說，戰鬥結束，我們贏了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "哈啊……完全被对面摆了一道。",
+			say = "哈啊……完全被對面擺了一道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "欸？什么意思，我们不是赢了么？",
+			say = "欸？什麼意思，我們不是贏了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "赢了，但是完全没看出来对面指挥官的战斗力！",
+			say = "贏了，但是完全沒看出來對面指揮官的戰鬥力！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "……在现在的规则下一场胜利根本不能决定最终胜利。",
+			say = "……在現在的規則下一場勝利不能決定最終勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "对面现在对我们了如指掌，我们却对她一无所知，接下来的战斗要变难打了……！",
+			say = "對面現在對我們瞭如指掌，我們卻對她一無所知，接下來的戰鬥要變難打了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "好复杂啊……这就是舰队指挥官应该想的事么。",
+			say = "好複雜啊……這就是艦隊指揮官應該想的事嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "不对，{namecode:450}，你是不是突然变聪明了！",
+			say = "不對，布呂歇爾，妳是不是突然變聰明了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "哼哼哼~{namecode:426}在我出发之前没日没夜唠叨了很多，我多少也是记住了一些的哟~",
+			say = "哼哼哼~希佩爾在我出發之前沒日沒夜的嘮叨了很多，我多少也是記住了一些的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "哇哦……只要让聪明的人在耳边没日没夜地唠叨，就算是{namecode:450}也能变聪明啊……",
+			say = "哇哦……只要讓聰明的人沒日沒夜的嘮叨，就算是布呂歇爾也能變聰明啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "呼呼~战斗结束，凯旋而归咯————",
+			say = "呼呼~戰鬥結束，凱旋而歸了————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			expression = 1,
 			blackBg = true,
-			say = "等等，你什么意思？！你给我回来！！！！",
+			say = "等等！妳給我回來！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

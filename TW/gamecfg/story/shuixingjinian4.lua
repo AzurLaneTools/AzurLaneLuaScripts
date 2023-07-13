@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰衣草味的“恶魔”\n\n<size=45>四　秘书舰的自主原则</size>",
+					"薰衣草味的“惡魔”\n\n<size=45>四 秘書艦的自主原則</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "几天后的指挥室——",
+			say = "幾天後的指揮室——",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "早上好，指挥官~",
+			say = "早上好，指揮官~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "信件在那边哦，我给你做了整理，不过你得自己去拿~",
+			say = "信件在那邊哦，我幫你做了整理，不過你得自己去拿~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "这边是今日演习的文件资料，已经做好分类了！",
+			say = "這邊是今日演習的文件資料，已經做好分類了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "还有这份远洋演习的报告书，需要你来审阅和批示~",
+			say = "還有這份遠洋演習的報告書，需要你來審閱和批示~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "吩咐我的工作都做完了~怎么样，还不错吧？",
+			say = "吩咐我的工作都做完了~怎麼樣，還不錯吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "水星纪念的秘书舰工作已经持续了几天。",
+			say = "水星紀念的秘書艦工作已經持續了幾天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "不得不说有些出乎意料，没想到水星纪念在工作上意外的上手……",
+			say = "不得不說有些出乎意料，沒想到水星紀念在工作上意外的上手……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "果然是人不可貌相，怎么说她也是拥有漫长服役经历的————",
+			say = "果然是人不可貌相，怎麼說她也是擁有漫長服役經歷的————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "指—挥—官————！",
+			say = "指—揮—官————！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "你是不是在想什么失礼的事！",
+			say = "你是不是在想什麼失禮的事！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "水星纪念突然把脸凑了过来，在吐息之中闻到了薰衣草的芳香。",
+			say = "水星紀念突然把臉湊了過來，在吐息之中聞到了薰衣草的芳香。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哼哼哼~既然如此，指挥官，晚上我想吃拉面哦~做完工作之后要记得带我去！",
+			say = "哼哼哼~既然如此，指揮官，晚上我想吃拉麵哦~做完工作之後要記得帶我去！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "所以说……",
+			say = "所以說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "不，我不想听~总而言之，晚上指挥官请吃拉面！",
+			say = "不，我不想聽~總而言之，晚上指揮官請吃拉麵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "剩下的工作还有很多呢，该继续工作咯~",
+			say = "剩下的工作還有很多呢，該繼續工作囉~",
 			painting = {
 				alpha = 0.3,
 				time = 1

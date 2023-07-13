@@ -235,6 +235,9 @@ pg.expedition_data_by_map = setmetatable({
 		1650012,
 		1650025,
 		1650026,
+		1670001,
+		1670002,
+		1670003,
 		1690001,
 		1690002,
 		1690003,
@@ -10624,6 +10627,138 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 1650012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1670001] = {
+		map = 1670001,
+		name = "遠匯點作戰|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-6",
+		enter_story = "YUANHUIDIANZUOZHAN1",
+		ani_name = "Map_1670001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 41230,
+		ui_type = 1,
+		bg = "Map_1670001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1670002] = {
+		map = 1670002,
+		name = "遠匯點作戰·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-4",
+		enter_story = "",
+		ani_name = "Map_1670001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 41230,
+		ui_type = 1,
+		bg = "Map_1670001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1670001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1670003] = {
+		map = 1670003,
+		name = "遠匯點作戰·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-4",
+		enter_story = "",
+		ani_name = "Map_1670001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 41230,
+		ui_type = 1,
+		bg = "Map_1670001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1670001,
 		clouds_pos = {
 			{
 				332,

@@ -1,6 +1,8 @@
-slot0 = class("MedalGoodsCard")
+slot0 = class("MedalGoodsCard", import(".BaseGoodsCard"))
 
 function slot0.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
+
 	slot0._go = slot1
 	slot0._tr = tf(slot1)
 	slot0.itemTF = slot0._tr:Find("item")
@@ -15,8 +17,12 @@ function slot0.Ctor(slot0, slot1)
 	slot0.maskTF = slot0._tr:Find("mask")
 	slot0.cntTxt = slot0._tr:Find("item/count_contain/count"):GetComponent(typeof(Text))
 	slot0.groupMark = slot0._tr:Find("item/group_locked")
+	slot0.limitCountLabelTF = findTF(slot0._tr, "item/count_contain/label"):GetComponent(typeof(Text))
+	slot0.limitCountLabelTF.text = i18n("activity_shop_exchange_count")
 
 	setActive(slot0.discountTF, false)
+
+	slot0.selloutTag = slot0._tr:Find("mask/tag/sellout_tag")
 end
 
 function slot0.update(slot0, slot1)
@@ -29,8 +35,10 @@ function slot0.update(slot0, slot1)
 	end
 
 	slot0.cntTxt.text = slot0.goods.count .. "/" .. slot0.goods:GetLimit()
+	slot2 = slot0.goods:CanPurchase()
 
-	setActive(slot0.maskTF, not slot0.goods:CanPurchase())
+	setActive(slot0.maskTF, not slot2)
+	setActive(slot0.selloutTag, not slot2)
 end
 
 function slot0.Init(slot0)
@@ -65,7 +73,8 @@ function slot0.Init(slot0)
 	end
 end
 
-function slot0.dispose(slot0)
+function slot0.OnDispose(slot0)
+	slot0.goods = nil
 end
 
 return slot0

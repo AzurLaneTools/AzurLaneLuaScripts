@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "铁血实验场·雕刻车间",
+			say = "鐵血實驗場·雕刻車間",
 			bgm = "bsm-7",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "{namecode:450}与{namecode:442}来到了被标注为雕刻车间的场所。然后，二人随即被映入眼帘的景象惊呆了。",
+			say = "布呂歇爾與Z16來到了被標註為雕刻車間的場所。然後，二人隨即被映入眼簾的景象驚呆了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "划分为无数分区的巨大车间被棋子填得满满当当，“熟面孔”们安静的屹立着，有如一整支严整的克隆军队。",
+			say = "劃分為無數分區的巨大車間被棋子填的滿滿的，“熟面孔”們安靜的屹立著，有如一整支嚴整的複製軍隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "量产型军团……",
+			say = "量產型軍團……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "好、好厉害，这些全都是自动化生产的么？我还是第一次见这么夸张的东西！",
+			say = "好、好厲害，這些全都是自動化生產的嗎？我還是第一次見這麼誇張的東西！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "{namecode:400}、{namecode:401}、{namecode:422}、哇！这边是{namecode:428}和{namecode:426}……",
+			say = "Z1、Z2、卡爾斯厄魯、哇！這邊是歐根和希佩爾……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "我还看到了{namecode:434}和{namecode:433}……甚至连{namecode:435}大人的棋子都有！",
+			say = "我還看到了格奈森瑙和沙恩霍斯特……甚至連俾斯麥大人的棋子都有！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "嚯嚯嚯，这不就没剩多少给对面了嘛~",
+			say = "嚯嚯嚯，這不就沒剩多少給對面了嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 7,
-			say = "咱们有了这样的阵容，我根本想不到该怎么输啊！",
+			say = "我們有了這樣的陣容，我根本想不到如何輸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "你们觉得是不是啊——",
+			say = "妳們，妳覺得是不是啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "因眼前的景象而兴奋不已的{namecode:442}蹦蹦跳跳地跑到大群的{namecode:401}的棋子跟前，伸出手来跟其中一位打招呼。",
+			say = "因眼前的景象而興奮不已的Z16蹦蹦跳跳地跑到大群的Z2的棋子跟前，伸出手來跟其中一位打招呼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "喂——{namecode:401}，中午好！",
+			say = "喂——Z2，中午好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "……你在做什么？跟棋子聊天没意义的吧…？",
+			say = "……妳在做什麼？跟棋子聊天沒意義的吧…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:401}？",
+			actorName = "Z2？",
 			say = "中午好。",
 			typewriter = {
 				speed = 0.05,
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "？！竟、竟然回话了！",
+			say = "？！竟、竟然回話了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "但是只回了一句……我再问问其他人！",
+			say = "但是只回了一句……我再問問其他人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "喂——{namecode:427}！你知道这里是哪里么？",
+			say = "喂——歐根親王！妳知道這裡是哪裡嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,8 +239,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:427}？",
-			say = "关于这个问题，建议你好好查看一下任务指令书呢。",
+			actorName = "歐根親王？",
+			say = "關於這個問題，建議你好好查看一下任務指令書呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,8 +252,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:427}？",
-			say = "这里是用于远汇点作战的实验型镜面海域，而你和{namecode:450}是这次作战的红方指挥官。",
+			actorName = "歐根親王？",
+			say = "這裡是用於遠匯點作戰的實驗型鏡面海域，而妳和布呂歇爾是這次作戰的紅方指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,8 +265,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:427}？",
-			say = "你们的目标只有一个，通过合理的舰队指挥，尽快取得本次测试的最终胜利。",
+			actorName = "歐根親王？",
+			say = "你們的目標只有一個，通過合理的指揮艦隊，盡快獲取本次測試的最終勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,8 +278,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:427}？",
-			say = "直到任何一边的基地被攻陷之前，实验不能停止，也不能被外部干涉哦。",
+			actorName = "歐根親王？",
+			say = "直到任何一邊的基地被攻陷之前，實驗不能停止，也不能被外部干涉哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 8,
-			say = "好……好厉害！说明的内容跟作战指令书里一模一样……",
+			say = "好……好厲害！說明的內容跟作戰指令書裡一模一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "那我们要怎么才能取胜呢？！",
+			say = "那我們要怎麼才能取勝呢？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,8 +316,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:427}？",
-			say = "你们需要通过合理的舰队指挥，尽快获取本次测试的最终胜利。",
+			actorName = "歐根親王？",
+			say = "妳們需要通過合理的指揮艦隊，盡快獲取本次測試的最終勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "……对话是不是跟刚才重复了。",
+			say = "……對話是不是跟剛才重複了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "你能解释一下什么才叫合理的舰队指挥么！",
+			say = "妳能解釋一下什麼才叫合理的指揮艦隊嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,8 +354,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:427}？",
-			say = "关于这个问题，建议你好好查看一下任务指令书呢。",
+			actorName = "歐根親王？",
+			say = "關於這個問題，建議你好好查看一下任務指令書呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 5,
-			say = "喂——{namecode:427}，你的发言是不是重复了！",
+			say = "喂——歐根親王，妳的對話是不是重複了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,8 +380,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:427}？",
-			say = "是的，因为我只是一个用于实验的棋子而已，你指望我能说些什么呢？",
+			actorName = "歐根親王？",
+			say = "是的，因為我只是一個用於實驗的棋子而已，妳指望我能說些什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401160,
-			say = "……………………被、被棋子吐槽了？！但是又好有道理……不愧是{namecode:428}！",
+			say = "……………………被、被棋子吐槽了？！但是又好有道理……不愧是歐根！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "再怎么说……和棋子对话也太怪了，咱们还是继续视察舰队吧。",
+			say = "再怎麼說……和棋子對話也很奇怪，咱們還是繼續視察艦隊吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "坏消息是，在没开始第一场战斗之前，我们完全不知道对手的情报。",
+			say = "壞消息是，還沒開始第一場戰鬥之前，我們完全不知道對手的情報。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "但是相应的，对手应该也不了解我们才对。",
+			say = "但是相應的，對手也應該不了解我們才對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			blackBg = true,
-			say = "既然如此，那就让咱们拿出最强的阵容，狠狠地教训一下对面吧！",
+			say = "既然如此，那就讓我們拿出最強的陣容，狠狠地教訓一下對面吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

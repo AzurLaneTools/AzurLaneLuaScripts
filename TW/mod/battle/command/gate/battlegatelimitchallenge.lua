@@ -86,7 +86,7 @@ function slot0.Exit(slot0, slot1)
 			uv0 = uv0 + slot0:getEndCost().oil
 
 			table.insertto(uv1, _.values(slot0.commanderIds))
-			table.insertto(uv2, uv3:getShipsByFleet(slot0))
+			table.insertto(uv2, uv3:getSortShipsByFleet(slot0))
 		end)(uv4)
 
 		if uv5.statistics.submarineAid then

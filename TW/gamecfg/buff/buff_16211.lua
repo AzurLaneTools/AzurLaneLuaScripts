@@ -13,6 +13,16 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "enemyantiAirPowerDownTag"
+				}
+			},
+			{
 				type = "BattleBuffCastSkill",
 				trigger = {
 					"onSink"
@@ -41,6 +51,16 @@ return {
 				arg_list = {
 					attr = "antiAirPower",
 					number = -200
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "enemyantiAirPowerDownTag"
 				}
 			},
 			{
@@ -75,6 +95,16 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "enemyantiAirPowerDownTag"
+				}
+			},
+			{
 				type = "BattleBuffCastSkill",
 				trigger = {
 					"onSink"
@@ -103,6 +133,16 @@ return {
 				arg_list = {
 					attr = "antiAirPower",
 					number = -300
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "enemyantiAirPowerDownTag"
 				}
 			},
 			{
@@ -137,6 +177,16 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "enemyantiAirPowerDownTag"
+				}
+			},
+			{
 				type = "BattleBuffCastSkill",
 				trigger = {
 					"onSink"
@@ -165,6 +215,16 @@ return {
 				arg_list = {
 					attr = "antiAirPower",
 					number = -400
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "enemyantiAirPowerDownTag"
 				}
 			},
 			{
@@ -199,6 +259,16 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "enemyantiAirPowerDownTag"
+				}
+			},
+			{
 				type = "BattleBuffCastSkill",
 				trigger = {
 					"onSink"
@@ -227,6 +297,16 @@ return {
 				arg_list = {
 					attr = "antiAirPower",
 					number = -500
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "enemyantiAirPowerDownTag"
 				}
 			},
 			{
@@ -261,6 +341,16 @@ return {
 				}
 			},
 			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "enemyantiAirPowerDownTag"
+				}
+			},
+			{
 				type = "BattleBuffCastSkill",
 				trigger = {
 					"onSink"
@@ -289,6 +379,16 @@ return {
 				arg_list = {
 					attr = "antiAirPower",
 					number = -600
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "enemyantiAirPowerDownTag"
 				}
 			},
 			{
@@ -328,6 +428,16 @@ return {
 			arg_list = {
 				attr = "antiAirPower",
 				number = -150
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "enemyantiAirPowerDownTag"
 			}
 		},
 		{

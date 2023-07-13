@@ -1073,6 +1073,9 @@ pg.ship_data_group = setmetatable({
 		[40102] = {
 			379
 		},
+		[40116] = {
+			564
+		},
 		[40118] = {
 			346
 		},
@@ -1142,6 +1145,9 @@ pg.ship_data_group = setmetatable({
 		[40301] = {
 			242
 		},
+		[40302] = {
+			243
+		},
 		[40303] = {
 			244
 		},
@@ -1177,6 +1183,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[40404] = {
 			544
+		},
+		[40405] = {
+			566
 		},
 		[40501] = {
 			250
@@ -2047,6 +2056,7 @@ pg.ship_data_group = setmetatable({
 		472,
 		233,
 		379,
+		564,
 		346,
 		264,
 		265,
@@ -2070,6 +2080,7 @@ pg.ship_data_group = setmetatable({
 		245,
 		246,
 		242,
+		243,
 		244,
 		422,
 		479,
@@ -2082,6 +2093,7 @@ pg.ship_data_group = setmetatable({
 		249,
 		543,
 		544,
+		566,
 		250,
 		251,
 		529,
@@ -3839,7 +3851,7 @@ pg.base.ship_data_group = {
 		redirect_id = 101,
 		hide = 0,
 		nationality = 1,
-		trans_skin = 0,
+		trans_skin = 101119,
 		handbook_type = 0,
 		index_id = 36,
 		code = 13,
@@ -3854,8 +3866,17 @@ pg.base.ship_data_group = {
 			"C",
 			"C"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			15910
+		},
 		description = {
 			{
 				"勳章支援（機率產出）",
@@ -17426,6 +17447,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[564] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 4,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 379,
+		code = 564,
+		group_type = 40116,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：遠匯點作戰",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[346] = {
 		type = 1,
 		redirect_id = 101,
@@ -18355,6 +18408,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[243] = {
+		type = 3,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 4,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 405,
+		code = 243,
+		group_type = 40302,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：遠匯點作戰",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[244] = {
 		type = 3,
 		redirect_id = 101,
@@ -18771,6 +18856,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：虹彩的終幕曲",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[566] = {
+		type = 4,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 4,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 418,
+		code = 566,
+		group_type = 40405,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：遠匯點作戰",
 				{
 					""
 				},

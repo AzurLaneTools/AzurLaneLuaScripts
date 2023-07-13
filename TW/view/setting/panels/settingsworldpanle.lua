@@ -47,7 +47,7 @@ function slot0.GetList(slot0)
 end
 
 function slot0.DisplayWorldBossProgressTipSettings(slot0)
-	slot1 = pg.GuideMgr.GetInstance():isPlayed("WorldG190")
+	slot1 = pg.NewStoryMgr.GetInstance():IsPlayed("WorldG190")
 
 	setActive(slot0.worldbossProgressTip, slot1)
 

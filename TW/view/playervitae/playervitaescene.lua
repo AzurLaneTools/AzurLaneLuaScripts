@@ -201,7 +201,7 @@ function slot0.UpdatePainting(slot0)
 		slot0.displaySkinID = slot1.skinId
 	end
 
-	setActive(slot0.cryptolaliaBtn, not LOCK_CRYPTOLALIA and getProxy(PlayerProxy):getRawData():ExistCryptolalia(slot1:getGroupId()))
+	setActive(slot0.cryptolaliaBtn, getProxy(PlayerProxy):getRawData():ExistCryptolalia(slot1:getGroupId()))
 	slot0:updateSwitchSkinBtnTag()
 end
 

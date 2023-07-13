@@ -47,7 +47,6 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.GetBtn = slot0._tf:Find("frame/get_btn")
 	slot0.storyIconFrame = slot0._tf:Find("frame/storyIcon")
 	slot0.storyIcon = slot0._tf:Find("frame/storyIcon/icon")
-	slot0.frame = slot0._tf:Find("frame")
 	slot0._modelWidth = slot0.frame.rect.width + 100
 	slot0.finishBg = slot0._tf:Find("frame/finish_bg")
 	slot0.unfinishBg = slot0._tf:Find("frame/unfinish_bg")

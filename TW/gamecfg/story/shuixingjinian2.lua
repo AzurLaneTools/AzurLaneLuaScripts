@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰衣草味的“恶魔”\n\n<size=45>二　为了健康作息</size>",
+					"薰衣草味的“惡魔”\n\n<size=45>二 為了健康作息</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			say = "北方联合休息室·晚饭后",
+			say = "北方聯合休息室·晚飯後",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "水星纪念的房间，应该是这一间吧……",
+			say = "水星紀念的房間，應該是這一間吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）咚、咚咚——",
+			say = "（敲門聲）咚、咚咚——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,10 +66,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "？ ？ ？",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "啊，门没有锁~请进吧。",
+			say = "啊，門沒有鎖~請進吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "推门进入房间后，映入眼帘的是摆放混乱的储物柜以及多少有些需要清理的地板。",
+			say = "推門進入房間後，映入眼簾的是擺放混亂的儲物櫃以及多少有些需要清理的地板。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -106,7 +106,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "水星纪念正坐在一个巨大的懒人沙发上打着游戏。昏暗的房间中，炫目的闪光此起彼伏。",
+			say = "水星紀念正坐在一個巨大的懶人沙發上打著遊戲。昏暗的房間中，炫目的閃光此起彼伏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，晚上好！",
+			say = "指揮官，晚上好！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "居然使用了和时间相符的正确问候用语……！",
+			say = "居然使用了和時間相符的正確問候用語……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟天已经完全黑了，可以开始夜晚生活了~",
+			say = "畢竟天已經完全黑了，可以開始夜晚生活了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我现在正在打的是上周出的新游戏哦，嘿嘿~指挥官，要一起来玩嘛？",
+			say = "我現在正在打的是上週出的新遊戲哦，嘿嘿~指揮官，要一起來玩嘛？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！不对，不是现在！！",
+			say = "啊！不對，不是現在！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官稍等一下……诶诶诶诶诶稍等一下啦！",
+			say = "指揮官稍等一下……欸欸欸欸欸稍等一下啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————————！",
+			say = "轟——————————！",
 			flashN = {
 				color = {
 					1,
@@ -261,7 +261,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "一阵看起来颇为逼真的演出反馈之后，水星纪念面前的屏幕正中间出现了一个大大的“死”字。",
+			say = "一陣看起來頗為逼真的演出效果之後，水星紀念面前的螢幕正中間出現了一個大大的“死”字。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "居然被流弹击中……呜！都怪你指挥官！",
+			say = "居然被流彈擊中……嗚！都怪你指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			},
 			options = {
 				{
-					content = "向她表示歉意，同时提醒她注意休息",
+					content = "向她表示歉意，同時提醒她注意休息",
 					flag = 1
 				}
 			}
@@ -297,7 +297,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜……指挥官不要突然开始说教啊！",
+			say = "嗚……指揮官不要突然開始說教啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "休息方式可以有很多种，打游戏放松不也是休息的一种方式嘛！",
+			say = "休息方式可以有很多種，打遊戲放鬆不也是休息的一種方式嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我看起来很累？呜……知道啦，我之后会注意的！",
+			say = "我看起來很累？嗚……知道啦，我之後會注意的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,14 +345,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "看上去完全被敷衍过去了……既然如此————",
+			say = "看上去完全被敷衍過去了……既然如此————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "提出希望水星纪念担任秘书舰的邀请",
+					content = "提出希望水星紀念擔任秘書艦的邀請",
 					flag = 1
 				}
 			}
@@ -364,7 +364,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈？！怎、怎么这么突然？！现在的秘书舰不是阿芙乐尔么！",
+			say = "哈？！怎、怎麼這麼突然？！現在的秘書艦不是曙光嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "其实在来之前已经和阿芙乐尔谈好了，她也十分支持这个提议。",
+			say = "其實在來之前已經和曙光談好了，她也十分支持這個提議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（呜……相比于我帮指挥官做事，我还是更喜欢现在这样指挥官替我忙前忙后的氛围呢……不过——）",
+			say = "（嗚……相比於我幫指揮官做事，我還是更喜歡現在這樣指揮官替我忙前忙後的氛圍呢……不過——）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……这样好了！",
+			say = "嗯……這樣好了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "水星纪念举起游戏机的手柄递了过来。",
+			say = "水星紀念舉起遊戲機的手把遞了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果指挥官能在游戏里赢过我，我就答应指挥官当秘书舰的邀约，如何呀？",
+			say = "如果指揮官能在遊戲裡贏過我，我就答應指揮官當秘書艦的邀約，如何呀？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，在这方面我还是挺有自信的哟？",
+			say = "嘿嘿，在這方面我還是挺有自信的喲？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "十分钟之后——",
+			say = "十分鐘之後——",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -496,7 +496,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诶诶诶！！！……刚才那个不算啦！重来！",
+			say = "欸欸欸！！！……剛才那個不算啦！重來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			withoutActorName = true,
 			actor = 702022,
 			nameColor = "#A9F548FF",
-			say = "又一个十分钟之后——垂头丧气的水星纪念正颓废的瘫倒在懒人沙发上。",
+			say = "又一個十分鐘之後——垂頭喪氣的水星紀念正頹廢的癱倒在懶人沙發上。",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -548,7 +548,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可恶……反应还是慢了一点点……怎么会……呜……",
+			say = "可惡……反應還是慢了一點點……怎麼會……嗚……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "（难道她的游戏水平其实很差的么……令人意外。）",
+			say = "（難道她的遊戲水平其實很差的嗎……令人意外。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜，再见了，我美好的居家生活……",
+			say = "嗚，再見了，我美好的居家生活……",
 			painting = {
 				alpha = 0.3,
 				time = 1

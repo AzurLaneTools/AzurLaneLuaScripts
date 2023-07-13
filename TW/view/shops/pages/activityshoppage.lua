@@ -49,17 +49,12 @@ function slot0.GetPaintingTouchVoice(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.uilist = UIItemList.New(slot0:findTF("scrollView/view"), slot0:findTF("tpl"))
 	slot0.resTF = slot0:findTF("res_battery"):GetComponent(typeof(Image))
 	slot0.resIcon = slot0:findTF("res_battery/icon"):GetComponent(typeof(Image))
 	slot0.resCnt = slot0:findTF("res_battery/Text"):GetComponent(typeof(Text))
 	slot0.eventResCnt = slot0:findTF("event_res_battery/Text"):GetComponent(typeof(Text))
 	slot0.resName = slot0:findTF("res_battery/label"):GetComponent(typeof(Text))
 	slot0.time = slot0:findTF("Text"):GetComponent(typeof(Text))
-
-	setText(slot0:findTF("tpl/mask/tag/sellout_tag"), i18n("word_sell_out"))
-	setText(slot0:findTF("tpl/mask/tag/unexchange_tag"), i18n("meta_shop_exchange_limit"))
-	setText(slot0:findTF("tpl/mask/tag/unexchange_tag/sellout_tag_en"), "LIMIT")
 end
 
 function slot0.OnInit(slot0)
@@ -72,7 +67,6 @@ function slot0.OnUpdatePlayer(slot0)
 end
 
 function slot0.OnSetUp(slot0)
-	slot0:InitCommodities()
 	slot0:SetResIcon()
 end
 
@@ -81,14 +75,30 @@ function slot0.OnUpdateAll(slot0)
 end
 
 function slot0.OnUpdateCommodity(slot0, slot1)
-	slot3, slot4, slot5 = slot0.shop:getBgPath()
+	slot2 = nil
 
-	slot0.cards[slot1.id]:update(slot1, nil, slot4, slot5)
+	for slot6, slot7 in pairs(slot0.cards) do
+		if slot7.goodsVO.id == slot1.id then
+			slot2 = slot7
+
+			break
+		end
+	end
+
+	if slot2 then
+		slot3, slot4, slot5 = slot0.shop:getBgPath()
+
+		slot2:update(slot1, nil, slot4, slot5)
+	end
 end
 
 function slot0.SetResIcon(slot0)
 	slot2 = pg.item_data_statistics[id2ItemId(slot0.shop:getResId())]
-	slot0.resIcon.sprite = GetSpriteFromAtlas(slot2.icon, "")
+
+	GetSpriteFromAtlasAsync(slot2.icon, "", function (slot0)
+		uv0.resIcon.sprite = slot0
+	end)
+
 	slot0.resName.text = slot2.name
 	slot0.time.text = i18n("activity_shop_lable", slot0.shop:getOpenTime())
 	slot3 = slot0.shop:IsEventShop()
@@ -97,27 +107,31 @@ function slot0.SetResIcon(slot0)
 	setActive(slot0:findTF("event_res_battery"), slot3)
 end
 
-function slot0.InitCommodities(slot0)
-	slot0.cards = {}
-	slot2, slot3, slot4 = slot0.shop:getBgPath()
+function slot0.OnInitItem(slot0, slot1)
+	slot2 = ActivityGoodsCard.New(slot1)
+	slot2.tagImg.raycastTarget = false
 
-	slot0.uilist:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
-			slot4 = ActivityGoodsCard.New(slot2)
-			slot4.tagImg.raycastTarget = false
+	onButton(slot0, slot2.tr, function ()
+		slot0 = uv0
 
-			slot4:update(slot3, nil, uv1, uv2)
-			onButton(uv3, slot4.tr, function ()
-				uv0:OnClickCommodity(uv1.goodsVO, function (slot0, slot1)
-					uv0:OnPurchase(slot0, slot1)
-				end)
-			end, SFX_PANEL)
+		slot0:OnClickCommodity(uv1.goodsVO, function (slot0, slot1)
+			uv0:OnPurchase(slot0, slot1)
+		end)
+	end, SFX_PANEL)
 
-			uv3.cards[slot3.id] = slot4
-		end
-	end)
-	slot0.uilist:align(#slot0.shop:GetCommodities())
+	slot0.cards[slot1] = slot2
+end
+
+function slot0.OnUpdateItem(slot0, slot1, slot2)
+	if not slot0.cards[slot2] then
+		slot0:OnInitItem(slot2)
+
+		slot3 = slot0.cards[slot2]
+	end
+
+	slot5, slot6, slot7 = slot0.shop:getBgPath()
+
+	slot3:update(slot0.displays[slot1 + 1], nil, slot6, slot7)
 end
 
 function slot0.TipPurchase(slot0, slot1, slot2, slot3, slot4)
@@ -173,9 +187,6 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 	end
 
 	uv0.super.OnClickCommodity(slot0, slot1, slot2)
-end
-
-function slot0.OnDestroy(slot0)
 end
 
 return slot0

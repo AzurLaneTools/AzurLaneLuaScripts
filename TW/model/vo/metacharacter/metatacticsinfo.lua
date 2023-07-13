@@ -23,6 +23,12 @@ function slot0.updateExp(slot0, slot1)
 	slot0.skillExpInfoTable[slot1.skill_id] = slot1.skill_exp
 end
 
+function slot0.setNewExp(slot0, slot1, slot2)
+	slot0.skillExpInfoTable[slot1] = slot2
+
+	slot0:printInfo()
+end
+
 function slot0.switchSkill(slot0, slot1)
 	slot0.curSkillID = slot1
 end

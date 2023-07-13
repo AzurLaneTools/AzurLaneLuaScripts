@@ -65,6 +65,11 @@ pg.player_resource = {
 		name = "freeGem",
 		itemid = 59005
 	},
+	[15] = {
+		id = 15,
+		name = "soundStoryCard",
+		itemid = 59017
+	},
 	[101] = {
 		id = 101,
 		name = "battery",
@@ -1525,6 +1530,9 @@ pg.player_resource = {
 		freeGem = {
 			14
 		},
+		soundStoryCard = {
+			15
+		},
 		battery = {
 			101
 		},
@@ -2392,6 +2400,7 @@ pg.player_resource = {
 		11,
 		12,
 		14,
+		15,
 		101,
 		102,
 		103,

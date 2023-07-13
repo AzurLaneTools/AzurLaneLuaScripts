@@ -1859,6 +1859,17 @@ pg.fleet_tech_ship_class = {
 			40146
 		}
 	},
+	[40106] = {
+		shiptype = 1,
+		name = "1934A型",
+		nation = 4,
+		id = 40106,
+		t_level_1 = 113,
+		t_level = 4,
+		ships = {
+			40116
+		}
+	},
 	[40201] = {
 		shiptype = 2,
 		name = "柯尼斯堡級",
@@ -1937,7 +1948,8 @@ pg.fleet_tech_ship_class = {
 		t_level = 7,
 		ships = {
 			40301,
-			40303
+			40303,
+			40302
 		}
 	},
 	[40302] = {
@@ -2040,6 +2052,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 9,
 		ships = {
 			49907
+		}
+	},
+	[40406] = {
+		shiptype = 4,
+		name = "O級",
+		nation = 4,
+		id = 40406,
+		t_level_1 = 123,
+		t_level = 7,
+		ships = {
+			40405
 		}
 	},
 	[40501] = {
@@ -3025,6 +3048,7 @@ pg.fleet_tech_ship_class = {
 		40103,
 		40104,
 		40105,
+		40106,
 		40201,
 		40202,
 		40203,
@@ -3041,6 +3065,7 @@ pg.fleet_tech_ship_class = {
 		40403,
 		40404,
 		40405,
+		40406,
 		40501,
 		40502,
 		40503,

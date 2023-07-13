@@ -15,6 +15,8 @@ function slot0.init(slot0)
 	slot0.cg = slot0._tf:GetComponent(typeof(CanvasGroup))
 	slot0.backBtn = slot0:findTF("Top/blur_panel/adapt/top/back_btn")
 	slot0.auditionBtn = slot0:findTF("Main/audition/toggle")
+	slot0.auditionBtnOn = slot0:findTF("Main/audition/toggle/on")
+	slot0.auditionBtnOff = slot0:findTF("Main/audition/toggle/off")
 	slot0.cdImg = slot0:findTF("Main/cd"):GetComponent(typeof(Image))
 	slot0.cdSignatureImg = slot0:findTF("Main/cd/signature"):GetComponent(typeof(Image))
 	slot0.shipName = slot0:findTF("Main/cd/name"):GetComponent(typeof(Text))
@@ -24,10 +26,14 @@ function slot0.init(slot0)
 	slot0.authorTxt = slot0:findTF("Main/name/author"):GetComponent(typeof(Text))
 	slot0.descTxt = slot0:findTF("Main/desc"):GetComponent(typeof(Text))
 	slot0.signatureImg = slot0:findTF("Main/desc/signature"):GetComponent(typeof(Image))
-	slot0.auditionTxt = slot0:findTF("Main/audition/Text"):GetComponent(typeof(Text))
+	slot0.auditionTxt = slot0:findTF("Main/audition/mask/Text"):GetComponent("ScrollText")
+	slot0.auditionEffect = slot0:findTF("Main/audition/p2/Lines"):GetComponent(typeof(Animation))
+
+	slot0.auditionEffect:Play("anim_line_reset")
+
 	slot0.btnsTr = slot0:findTF("Main/btns")
 	slot0.lockBtn = slot0.btnsTr:Find("lock")
-	slot0.downloadBtn = slot0.btnsTr:Find("dowmload")
+	slot0.downloadBtn = slot0.btnsTr:Find("download")
 	slot0.downloadingBtn = slot0.btnsTr:Find("downloading")
 	slot0.playBtn = slot0.btnsTr:Find("play")
 	slot0.playPrevBtn = slot0.btnsTr:Find("play/prev")
@@ -44,29 +50,36 @@ function slot0.init(slot0)
 	slot0.soundPlayer = CryptolaliaSoundPlayer.New()
 	slot0.mainView = CryptolaliaMainView.New(slot0)
 	slot0.listView = CryptolaliaListView.New(slot0._tf, slot0.event)
-	slot0.scrollRect = CryptolaliaScrollRect.New(slot0:findTF("Main/list/tpl"))
+	slot0.scrollRect = CryptolaliaScrollRect.New(slot0:findTF("Main/list/tpl"), CryptolaliaScrollRectAnimation.New(slot0._tf))
 
 	slot0.scrollRect:Make(function (slot0)
 		uv0:OnItemUpdate(slot0)
 	end, function (slot0)
 		uv0:OnItemSelected(slot0:GetInitIndex())
 	end)
+
+	slot0.dftAniEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
+
 	setText(slot0:findTF("Main/cd/timelimit/label"), i18n("cryptolalia_timelimie"))
 	setText(slot0.downloadingBtn:Find("label"), i18n("cryptolalia_label_downloading"))
+
+	Input.multiTouchEnabled = false
 end
 
 function slot0.didEnter(slot0)
 	slot0.cards = {}
 	slot0.downloadReqList = {}
 
-	seriesAsync({
+	parallelAsync({
 		function (slot0)
-			uv0:InitCryptolaliaList(slot0)
+			uv0.dftAniEvent:SetEndEvent(slot0)
 		end,
 		function (slot0)
-			onNextTick(slot0)
+			uv0:InitCryptolaliaList(slot0)
 		end
 	}, function ()
+		uv0.dftAniEvent:SetEndEvent(nil)
+		uv0.scrollRect:SetUp()
 		uv0:ActiveDefault()
 		uv0:RegisterEvent()
 	end)
@@ -101,16 +114,16 @@ function slot0.ActiveDefault(slot0)
 end
 
 function slot0.OnItemUpdate(slot0, slot1)
+	slot1:Interactable(false)
+
 	if not slot0.displays[slot1:GetInitIndex()] then
 		return
 	end
 
+	slot1:Interactable(true)
 	LoadSpriteAtlasAsync("CryptolaliaShip/" .. slot3:GetShipGroupId(), "icon", function (slot0)
 		uv0:UpdateSprite(slot0)
 	end)
-	onButton(slot0, slot1._go, function ()
-		uv0.scrollRect:JumpToMid(uv1:GetIndex())
-	end, SFX_PANEL)
 
 	slot0.cards[slot3.id] = slot1
 end
@@ -132,7 +145,9 @@ function slot0.OnItemSelected(slot0, slot1)
 
 	slot0.selectedIndex = slot1
 
-	slot0.soundPlayer:Stop()
+	if slot0.auditionFlag then
+		triggerButton(slot0.auditionBtn)
+	end
 end
 
 function slot0.Filter(slot0)
@@ -227,7 +242,7 @@ function slot0.RegisterEvent(slot0)
 		end
 
 		if uv0.displays[uv0.selectedIndex] then
-			uv0.listView:ExecuteAction("Show", uv0:Filter(), uv0.langType, slot0.id)
+			uv0.listView:ExecuteAction("Show", uv0:Filter(), uv0.langType, slot0.id, uv0.scrollRect)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.deleteBtn, function ()
@@ -239,10 +254,7 @@ function slot0.RegisterEvent(slot0)
 			uv0.resDeleteWindow:ExecuteAction("Show", slot0, uv0.langType)
 		end
 	end, SFX_PANEL)
-
-	slot3 = slot0.playBtn
-
-	onButton(slot0, slot3:Find("play"), function ()
+	onButton(slot0, slot0.playBtn:Find("play"), function ()
 		if not uv0.selectedIndex then
 			return
 		end
@@ -283,25 +295,67 @@ function slot0.RegisterEvent(slot0)
 			uv0.purchaseWindow:ExecuteAction("Show", slot0, uv0.langType)
 		end
 	end, SFX_PANEL)
+
+	slot0.auditionFlag = false
+
 	onButton(slot0, slot0.auditionBtn, function ()
 		if not uv0.selectedIndex then
 			return
 		end
 
-		if uv0.displays[uv0.selectedIndex] then
-			uv0:PlayAudition(slot0)
+		if not uv0.displays[uv0.selectedIndex] then
+			return
 		end
+
+		uv0.auditionFlag = not uv0.auditionFlag
+
+		if uv0.auditionFlag then
+			uv0:PlayAudition(slot0)
+		else
+			uv0:ClearAuditionTimer()
+			uv0.soundPlayer:Stop()
+			uv0.auditionEffect:Play("anim_line_reset")
+		end
+
+		uv0:UpdateAudition(uv0.auditionFlag)
 	end, SFX_PANEL)
+	slot0:UpdateAudition(slot0.auditionFlag)
+end
+
+function slot0.UpdateAudition(slot0, slot1)
+	setActive(slot0.auditionBtnOn, slot1)
+	setActive(slot0.auditionBtnOff, not slot1)
 end
 
 function slot0.PlayAudition(slot0, slot1)
+	slot0:ClearAuditionTimer()
+
+	slot2 = slot0.auditionEffect
+
+	slot2:Play("anim_line_loop")
+
 	slot2 = getProxy(PlayerProxy)
 	slot2 = slot2:getRawData()
 	slot2 = slot2:GetFlagShip()
 	slot5 = slot0.soundPlayer
 
-	slot5:Load(slot1:GetAudition(slot0.langType), slot1:GetAuditionVoice(slot0.langType), 0, function ()
+	slot5:Load(slot1:GetAudition(slot0.langType), slot1:GetAuditionVoice(slot0.langType), 0, function (slot0)
+		uv0.timer = Timer.New(function ()
+			if uv0.auditionFlag then
+				triggerButton(uv0.auditionBtn)
+			end
+		end, slot0, 1)
+
+		uv0.timer:Start()
 	end)
+end
+
+function slot0.ClearAuditionTimer(slot0)
+	if slot0.timer then
+		slot0.timer:Stop()
+
+		slot0.timer = nil
+	end
 end
 
 function slot0.DownloadRes(slot0, slot1)
@@ -311,7 +365,12 @@ function slot0.DownloadRes(slot0, slot1)
 		return
 	end
 
-	if slot0.displays[slot1] and slot2:IsDownloadableState(slot0.langType) and not slot0.downloadReqList[slot2.id] then
+	slot2 = slot0.displays[slot1]
+
+	originalPrint(slot2:IsDownloadableState(slot0.langType))
+
+	if slot2 and slot2:IsDownloadableState(slot0.langType) and not slot0.downloadReqList[slot2.id] then
+		originalPrint("Downloading............")
 		slot0:OnUpdateForResDownload("Request", slot2, slot1)
 		slot0:OnItemSelected(slot0.selectedIndex)
 	end
@@ -416,6 +475,8 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
+	slot0:ClearAuditionTimer()
+
 	if slot0.scrollRect then
 		slot0.scrollRect:Dispose()
 
@@ -467,6 +528,8 @@ function slot0.willExit(slot0)
 
 		slot0.soundPlayer = nil
 	end
+
+	Input.multiTouchEnabled = true
 end
 
 return slot0
