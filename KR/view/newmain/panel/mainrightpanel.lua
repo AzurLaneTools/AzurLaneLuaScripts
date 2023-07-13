@@ -15,7 +15,7 @@ end
 
 function slot0.OnRegist(slot0)
 	onButton(slot0, slot0.memoryBtn, function ()
-		uv0:emit(NewMainMediator.GO_SCENE, SCENE.WORLD_COLLECTION)
+		uv0:emit(NewMainMediator.GO_SCENE, SCENE.MEDIA_COLLECTION_ENTRANCE)
 	end, SFX_MAIN)
 	onButton(slot0, slot0.collectionBtn, function ()
 		uv0:emit(NewMainMediator.GO_SCENE, SCENE.COLLECTSHIP)

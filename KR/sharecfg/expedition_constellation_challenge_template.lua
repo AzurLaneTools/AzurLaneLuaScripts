@@ -1,10 +1,11 @@
 pg = pg or {}
 pg.expedition_constellation_challenge_template = {
 	[10001] = {
+		painting = "huashengdun",
+		button_style = 6,
+		information_icon = "huashengdun_constellation",
 		id = 10001,
 		dungeon_id = 5103,
-		information_icon = "huashengdun_constellation",
-		painting = "huashengdun",
 		objective = {
 			5,
 			180
@@ -29,10 +30,11 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10002] = {
+		painting = "huashengdun",
+		button_style = 6,
+		information_icon = "huashengdun_constellation",
 		id = 10002,
 		dungeon_id = 5102,
-		information_icon = "huashengdun_constellation",
-		painting = "huashengdun",
 		objective = {
 			5,
 			180
@@ -57,10 +59,11 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10003] = {
+		painting = "huashengdun",
+		button_style = 6,
+		information_icon = "huashengdun_constellation",
 		id = 10003,
 		dungeon_id = 5101,
-		information_icon = "huashengdun_constellation",
-		painting = "huashengdun",
 		objective = {
 			5,
 			180

@@ -234,15 +234,7 @@ function GetImageSpriteFromAtlasAsync(slot0, slot1, slot2, slot3)
 end
 
 function SetAction(slot0, slot1, slot2)
-	ReflectionHelp.RefCallMethod(typeof("Spine.AnimationState"), "SetAnimation", GetComponent(slot0, "SkeletonGraphic").AnimationState, {
-		typeof("System.Int32"),
-		typeof("System.String"),
-		typeof("System.Boolean")
-	}, {
-		0,
-		slot1,
-		defaultValue(slot2, true)
-	})
+	GetComponent(slot0, "SkeletonGraphic").AnimationState:SetAnimation(0, slot1, defaultValue(slot2, true))
 end
 
 function SetActionCallback(slot0, slot1)
@@ -1199,7 +1191,7 @@ function getDropInfo(slot0)
 		end
 	end
 
-	return table.concat(slot1, "、")
+	return table.concat(slot1, ",")
 end
 
 function updateDrop(slot0, slot1, slot2)
@@ -2158,7 +2150,7 @@ function filterSpecChars(slot0)
 
 				slot2 = slot2 + 1
 			end
-		elseif slot6 == 227 and PLATFORM_CODE == PLATFORM_JP then
+		elseif slot6 == 227 and (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_KR) then
 			slot8 = string.byte(slot0, slot5 + 2)
 
 			if string.byte(slot0, slot5 + 1) and slot8 and slot7 > 128 and slot7 <= 191 and slot8 >= 128 and slot8 <= 191 then
@@ -2751,6 +2743,27 @@ function enableNotch(slot0, slot1)
 	end
 end
 
+function numberFormat(slot0, slot1)
+	slot2 = ""
+	slot4 = string.len(tostring(slot0))
+
+	if slot1 == nil then
+		slot1 = ","
+	end
+
+	slot1 = tostring(slot1)
+
+	for slot8 = 1, slot4 do
+		slot2 = string.char(string.byte(slot3, slot4 + 1 - slot8)) .. slot2
+
+		if slot8 % 3 == 0 and slot4 - slot8 ~= 0 then
+			slot2 = slot1 .. slot2
+		end
+	end
+
+	return slot2
+end
+
 function comma_value(slot0)
 	slot1 = slot0
 	slot2 = 0
@@ -3158,8 +3171,19 @@ end
 function showRepairMsgbox()
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		hideYes = true,
+		hideNo = true,
 		content = i18n("resource_verify_warn"),
 		custom = {
+			{
+				text = i18n("msgbox_repair_painting"),
+				onCallback = function ()
+					if PathMgr.FileExists(Application.persistentDataPath .. "/hashes-painting.csv") then
+						BundleWizard.Inst:GetGroupMgr("PAINTING"):StartVerifyForLua()
+					else
+						pg.TipsMgr.GetInstance():ShowTips(i18n("word_no_cache"))
+					end
+				end
+			},
 			{
 				text = i18n("msgbox_repair_l2d"),
 				onCallback = function ()
@@ -3826,13 +3850,13 @@ function getSurveyUrl(slot0)
 
 	if not IsUnityEditor then
 		if PLATFORM_CODE == PLATFORM_CH then
-			if PLATFORM == PLATFORM_ANDROID then
+			if getProxy(UserProxy):GetCacheGatewayInServerLogined() == PLATFORM_ANDROID then
 				if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_BILI then
 					slot2 = slot1.main_url
 				else
 					slot2 = slot1.uo_url
 				end
-			elseif PLATFORM == PLATFORM_IPHONEPLAYER then
+			elseif slot3 == PLATFORM_IPHONEPLAYER then
 				slot2 = slot1.ios_url
 			end
 		elseif PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
@@ -3848,9 +3872,9 @@ function getSurveyUrl(slot0)
 		slot3,
 		getProxy(UserProxy):getRawData().arg2 or "",
 		PLATFORM == PLATFORM_ANDROID and 1 or PLATFORM == PLATFORM_IPHONEPLAYER and 2 or 3,
-		getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot6.server or 0] and slot7.name or "",
+		getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot6.server or 0] and slot7.id or "",
 		getProxy(PlayerProxy):getRawData().level,
-		slot0 .. "_" .. slot3
+		slot3 .. "_" .. slot0
 	}
 
 	if slot2 then

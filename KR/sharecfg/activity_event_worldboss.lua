@@ -7,10 +7,11 @@ pg.activity_event_worldboss = {
 		expedition_both_buff = "",
 		ex_expedition = 0,
 		expedition_buff = "",
+		extrachallenge_id = 0,
 		normal_expedition_drop_num = "",
-		id = 1,
 		normal_expedition = "",
 		damage_resource = 2001,
+		id = 1,
 		ticket = 0,
 		submarine_num = 1,
 		boss_id = {
@@ -160,6 +161,7 @@ pg.activity_event_worldboss = {
 		ticket = 2003,
 		submarine_num = 1,
 		ex_expedition = 1260004,
+		extrachallenge_id = 0,
 		id = 2,
 		boss_id = {
 			3
@@ -262,6 +264,7 @@ pg.activity_event_worldboss = {
 		ticket = 2005,
 		submarine_num = 1,
 		ex_expedition = 1320401,
+		extrachallenge_id = 0,
 		id = 3,
 		boss_id = {
 			4
@@ -364,6 +367,7 @@ pg.activity_event_worldboss = {
 		ticket = 2007,
 		submarine_num = 1,
 		ex_expedition = 1410004,
+		extrachallenge_id = 0,
 		id = 4,
 		boss_id = {
 			5
@@ -466,6 +470,7 @@ pg.activity_event_worldboss = {
 		ticket = 2009,
 		submarine_num = 1,
 		ex_expedition = 1260004,
+		extrachallenge_id = 0,
 		id = 5,
 		boss_id = {
 			3
@@ -568,6 +573,7 @@ pg.activity_event_worldboss = {
 		ticket = 2011,
 		submarine_num = 1,
 		ex_expedition = 1610004,
+		extrachallenge_id = 0,
 		id = 6,
 		boss_id = {
 			6
@@ -670,6 +676,7 @@ pg.activity_event_worldboss = {
 		ticket = 2007,
 		submarine_num = 1,
 		ex_expedition = 1410004,
+		extrachallenge_id = 0,
 		id = 7,
 		boss_id = {
 			5
@@ -772,6 +779,7 @@ pg.activity_event_worldboss = {
 		ticket = 2013,
 		submarine_num = 1,
 		ex_expedition = 1659004,
+		extrachallenge_id = 0,
 		id = 8,
 		boss_id = {
 			7
@@ -875,6 +883,7 @@ pg.activity_event_worldboss = {
 		ticket = 2015,
 		submarine_num = 1,
 		id = 9,
+		extrachallenge_id = 0,
 		boss_id = {
 			8
 		},
@@ -1002,6 +1011,7 @@ pg.activity_event_worldboss = {
 		ticket = 2017,
 		submarine_num = 1,
 		ex_expedition = 1709004,
+		extrachallenge_id = 0,
 		id = 10,
 		boss_id = {
 			9
@@ -1097,6 +1107,134 @@ pg.activity_event_worldboss = {
 			}
 		}
 	},
+	{
+		group_num = 1,
+		damage_resource = 2018,
+		ex_expedition = 1729004,
+		ticket = 2019,
+		submarine_num = 1,
+		id = 11,
+		extrachallenge_id = 1,
+		boss_id = {
+			10
+		},
+		reward_pt = {
+			9500,
+			9500,
+			9500,
+			9000,
+			8500,
+			8000,
+			7500,
+			7000,
+			6500,
+			6000,
+			5500,
+			5000,
+			4500,
+			4000,
+			3500,
+			3000,
+			2500,
+			2000,
+			1500,
+			1000,
+			500,
+			0,
+			0
+		},
+		time = {
+			{
+				{
+					2023,
+					7,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		formula = {
+			10,
+			5,
+			2,
+			60,
+			0.026,
+			0.68,
+			1.3,
+			11.7,
+			0.1
+		},
+		ex_expedition_enemy = {
+			{
+				1729004,
+				{
+					16529401
+				}
+			}
+		},
+		normal_expedition = {
+			1729001,
+			1729002,
+			1729003
+		},
+		normal_expedition_drop_num = {
+			{
+				{
+					1729001
+				},
+				15
+			},
+			{
+				{
+					1729002
+				},
+				15
+			},
+			{
+				{
+					1729003
+				},
+				15
+			}
+		},
+		stage_hp = {},
+		expedition_buff = {},
+		expedition_both_buff = {},
+		use_oil_limit = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				25,
+				16
+			},
+			{
+				40,
+				16
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1107,6 +1245,7 @@ pg.activity_event_worldboss = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }

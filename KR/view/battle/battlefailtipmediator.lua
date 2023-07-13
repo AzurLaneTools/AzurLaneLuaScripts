@@ -226,7 +226,7 @@ function slot0.removeContextBeforeGO(slot0)
 			end
 		end
 	elseif slot2 == SYSTEM_HP_SHARE_ACT_BOSS then
-		slot3, slot4 = slot1:getContextByMediator(PreCombatMediator)
+		slot3, slot4 = slot1:getContextByMediator(ActivityBossPreCombatMediator)
 
 		if slot3 then
 			slot4:removeChild(slot3)

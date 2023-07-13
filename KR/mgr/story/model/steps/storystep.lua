@@ -195,4 +195,8 @@ function slot0.GetEventDelayTime(slot0)
 	return slot0.eventDelay
 end
 
+function slot0.GetUsingPaintingNames(slot0)
+	return {}
+end
+
 return slot0

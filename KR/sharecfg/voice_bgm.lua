@@ -641,5 +641,17 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "theme-starsea-core"
+	},
+	ActivityBossGoriziaScene = {
+		default_bgm = "battle-boss-italy",
+		special_bgm = "",
+		time = "",
+		bgm = "battle-boss-italy"
+	},
+	SkinGuide3Page = {
+		default_bgm = "theme-schoolfuture",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-schoolfuture"
 	}
 }

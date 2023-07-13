@@ -1696,6 +1696,120 @@ pg.base.ship_skin_template_4 = {
 			}
 		}
 	},
+	[107095] = {
+		ship_group = 10709,
+		name = "크로스본 엑스트라",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "169",
+		l2d_drag_rate = "",
+		group_index = 5,
+		id = 107095,
+		painting = "aisaikesi_7",
+		prefab = "aisaikesi_7",
+		air_bullet_skin = "",
+		shop_id = 70862,
+		shop_type_id = 23,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "\"닻을 올려라! 해적 항공모함 에식스 님이 나가신다! 이 세상 모든 것이 있는 곳으로 출발이다!\" …딸꾹, 에헤헤… 해적이란 거... 참 좋군요~",
+		voice_actor = 149,
+		air_bomb_skin = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.048,
+					1.32,
+					0
+				}
+			},
+			plane = {
+				{
+					1.368,
+					0.472,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.761,
+							1.98,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				57,
+				-630,
+				0
+			},
+			{
+				0.45
+			}
+		}
+	},
 	[107100] = {
 		ship_group = 10710,
 		name = "요크타운Ⅱ",
@@ -10267,115 +10381,6 @@ pg.base.ship_skin_template_4 = {
 						{
 							0.456,
 							0.371,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201121] = {
-		ship_group = 20112,
-		name = "하늘 아래 운명의 명주실",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		l2d_drag_rate = "",
-		group_index = 1,
-		id = 201121,
-		painting = "mingyunnvshen_2",
-		prefab = "mingyunnvshen_2",
-		air_bullet_skin = "",
-		shop_id = 70604,
-		shop_type_id = 7,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "1101",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "날씨가 좋으니까, 뭘 해도 잘 풀릴 것 같아요. 모두들 아름다운 하루를 보내길 바래요… 앗! 이 아이가 넘어졌네요? … 괜찮아요?",
-		voice_actor = 75,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.12,
-					1.11,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.19,
-					1.55,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.55,
 							0
 						}
 					}

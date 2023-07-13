@@ -66,15 +66,15 @@ pg.ship_data_create_material = {
 		id = 4,
 		icon = "build_4",
 		rate_tip = {
-			"<color=#ffde38>SSR</color>: 7%",
-			"<color=#d797ff>SR</color>: 12%",
-			"<color=#3dc6ff>R</color>: 51%",
-			"N: 30%",
-			" <color=#ffde38>보로실로프</color>: 2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>SS 레어</color>: 7%",
+			"<color=#d797ff>S 레어</color>: 12%",
+			"<color=#3dc6ff>레어</color>: 51%",
+			"노멀: 30%",
+			"<color=#ffde38>아틸리오 레골로</color>: 2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>쿠르스크</color>: 2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>고리치아</color>: 2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#d797ff>세바스토폴</color>: 2.5%<color=#92FC63>(up!)</color>"
+			"<color=#d797ff>안드레아 도리아</color>: 2.5%<color=#92FC63>(up!)</color>"
 		}
 	},
 	{

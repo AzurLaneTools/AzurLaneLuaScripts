@@ -4,6 +4,7 @@ slot0.ON_REGISTER = "LoginMediator:ON_REGISTER"
 slot0.ON_SERVER = "LoginMediator:ON_SERVER"
 slot0.ON_LOGIN_PROCESS = "LoginMediator:ON_LOGIN_PROCESS"
 slot0.ON_SEARCH_ACCOUNT = "LoginMediator:ON_SEARCH_ACCOUNT"
+slot0.CHECK_RES = "LoginMediator:CHECK_RES"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.ON_LOGIN, function (slot0, slot1)
@@ -44,6 +45,9 @@ function slot0.register(slot0)
 	slot0:bind(uv0.ON_SEARCH_ACCOUNT, function (slot0, slot1)
 		uv0:sendNotification(GAME.ACCOUNT_SEARCH, slot1)
 	end)
+	slot0:bind(uv0.CHECK_RES, function (slot0)
+		uv0:checkPaintingRes()
+	end)
 	pg.SdkMgr.GetInstance():EnterLoginScene()
 end
 
@@ -68,10 +72,8 @@ function slot0.loginProcessHandler(slot0)
 
 		slot0 = nil
 
-		if uv2 == LoginType.PLATFORM then
+		if uv2 == LoginType.PLATFORM or uv2 == LoginType.PLATFORM_TENCENT then
 			uv0.viewComponent:switchToServer()
-		elseif uv2 == LoginType.PLATFORM_TENCENT then
-			uv0.viewComponent:switchToTencentLogin()
 		elseif uv2 == LoginType.PLATFORM_INNER then
 			uv0.viewComponent:switchToLogin()
 			uv0.viewComponent:setLastLogin(getProxy(UserProxy):getLastLoginUser())
@@ -121,10 +123,8 @@ function slot0.loginProcessHandler(slot0)
 			uv0.viewComponent:setAutoLogin()
 		end
 
-		if uv2 == LoginType.PLATFORM then
+		if uv2 == LoginType.PLATFORM or uv2 == LoginType.PLATFORM_TENCENT then
 			pg.SdkMgr.GetInstance():LoginSdk()
-		elseif uv2 == LoginType.PLATFORM_TENCENT then
-			pg.SdkMgr.GetInstance():TryLoginSdk()
 		elseif uv2 == LoginType.PLATFORM_INNER then
 			-- Nothing
 		end
@@ -274,7 +274,7 @@ function slot0.handleNotification(slot0, slot1)
 			hideNo = true,
 			content = errorTip("login_loginMediator_serverLoginFail", slot3),
 			onYes = function ()
-				if pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM or LoginType.PLATFORM_TENCENT then
+				if pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM or slot0 == LoginType.PLATFORM_TENCENT then
 					uv0.viewComponent:switchToServer()
 				elseif slot0 == LoginType.PLATFORM_AIRIJP or slot0 == LoginType.PLATFORM_AIRIUS then
 					uv0.viewComponent:switchToAiriLogin()
@@ -284,11 +284,7 @@ function slot0.handleNotification(slot0, slot1)
 			end
 		})
 	elseif slot2 == GAME.LOAD_PLAYER_DATA_DONE then
-		slot0.viewComponent:unloadExtraVoice()
-		getProxy(PlayerProxy):setFlag("login", true)
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI, {
-			isFromLogin = true
-		})
+		slot0:checkPaintingRes()
 	elseif slot2 == GAME.BEGIN_STAGE_DONE then
 		slot0.viewComponent:unloadExtraVoice()
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
@@ -311,6 +307,25 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.ON_SOCIAL_LINKED then
 		slot0.viewComponent:closeYostarAlertView()
 	end
+end
+
+function slot0.checkPaintingRes(slot0)
+	function slot2()
+		uv0.viewComponent.isNeedResCheck = true
+	end
+
+	slot3 = pg.FileDownloadMgr.GetInstance()
+
+	slot3:SetRemind(false)
+	PaintingConst.PaintingDownload({
+		isShowBox = true,
+		paintingNameList = PaintingConst.GetPaintingNameListInLogin(),
+		finishFunc = function ()
+			uv0.viewComponent:onLoadDataDone()
+		end,
+		onNo = slot2,
+		onClose = slot2
+	})
 end
 
 return slot0

@@ -176,7 +176,14 @@ function slot0.ReturnSpineChar(slot0, slot1, slot2)
 	if IsNil(slot2) then
 		Debugger.LogError(debug.traceback("empty go: " .. slot1))
 	elseif slot0.pools_plural[slot4] then
-		UIUtil.ClearChildren(slot2)
+		if slot2:GetComponent("SkeletonGraphic").allowMultipleCanvasRenderers then
+			UIUtil.ClearChildren(slot2, {
+				"Renderer"
+			})
+		else
+			UIUtil.ClearChildren(slot2)
+		end
+
 		setActiveViaLayer(slot2.transform, true)
 		slot2:SetActive(false)
 		slot2.transform:SetParent(slot0.root, false)

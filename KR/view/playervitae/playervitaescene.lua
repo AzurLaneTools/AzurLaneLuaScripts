@@ -59,8 +59,11 @@ function slot0.init(slot0)
 	slot0.mainViewCg = slot1:GetComponent(typeof(CanvasGroup))
 	slot0.mainTr = slot0.mainViewCg.gameObject.transform
 	slot0.painting = slot0:findTF("adapt/paint")
-	slot0.switchSkinBtn = slot0:findTF("adapt/swichSkin_btn")
-	slot0.replaceBtn = slot0:findTF("adapt/replace_btn")
+	slot0.btnContainer = slot0:findTF("adapt/btns")
+	slot0.switchSkinBtn = slot0:findTF("adapt/btns/swichSkin_btn")
+	slot0.replaceBtn = slot0:findTF("adapt/btns/replace_btn")
+	slot0.cryptolaliaBtn = slot0:findTF("adapt/btns/cryptolalia_btn")
+	slot0.switchSkinBtnTag = slot0:findTF("Tag", slot0.switchSkinBtn)
 	slot0.titlt = slot0:findTF("top/frame/title")
 	slot0.titltNative = slot0:findTF("top/frame/title_native")
 	slot0.titltRandom = slot0:findTF("top/frame/title_random")
@@ -106,6 +109,9 @@ function slot0.didEnter(slot0)
 		uv0.shipsPage:ExecuteAction("Update")
 		uv0:ShowOrHideMainView(false)
 	end, SFX_PANEL)
+	onButton(slot0, slot0.cryptolaliaBtn, function ()
+		uv0:emit(PlayerVitaeMediator.OPEN_CRYPTOLALIA, uv0:GetFlagShip():getGroupId())
+	end, SFX_PANEL)
 	slot0:bind(uv0.ON_PAGE_SWTICH, function (slot0, slot1)
 		setActive(uv0.titlt, slot1 == uv1.PAGE_DEFAULT)
 		setActive(uv0.titltNative, slot1 == uv1.PAGE_NATIVE_SHIPS)
@@ -140,8 +146,7 @@ function slot0.DoEnterAnimation(slot0)
 	end
 
 	for slot6, slot7 in ipairs({
-		slot0.switchSkinBtn,
-		slot0.replaceBtn,
+		slot0.btnContainer,
 		slot0.painting
 	}) do
 		slot1(slot7)
@@ -195,6 +200,13 @@ function slot0.UpdatePainting(slot0)
 
 		slot0.displaySkinID = slot1.skinId
 	end
+
+	setActive(slot0.cryptolaliaBtn, not LOCK_CRYPTOLALIA and getProxy(PlayerProxy):getRawData():ExistCryptolalia(slot1:getGroupId()))
+	slot0:updateSwitchSkinBtnTag()
+end
+
+function slot0.updateSwitchSkinBtnTag(slot0)
+	setActive(slot0.switchSkinBtnTag, #PaintingConst.GetPaintingNameListByShipVO(slot0:GetFlagShip()) > 0)
 end
 
 function slot0.onBackPressed(slot0)

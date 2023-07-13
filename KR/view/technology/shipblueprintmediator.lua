@@ -187,7 +187,6 @@ function slot0.handleNotification(slot0, slot1)
 			viewComponent = NewShipLayer,
 			data = {
 				ship = slot3.ship,
-				quitCallBack = slot3.quitCallBack,
 				canSkipBatch = slot3.canSkipBatch
 			},
 			onRemoved = function ()

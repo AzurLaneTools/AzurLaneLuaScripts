@@ -99,7 +99,7 @@ function slot0.Exit(slot0, slot1)
 	slot8 = slot3:getFleetById(slot0.mainFleetId)
 	slot6 = slot8:getEndCost().oil
 
-	slot1:SendRequest(slot1.GeneralPackage(slot0, slot4:getShipsByFleet(slot8)), function (slot0)
+	slot1:SendRequest(slot1.GeneralPackage(slot0, slot4:getSortShipsByFleet(slot8)), function (slot0)
 		uv0.addShipsExp(slot0.ship_exp_list, uv1.statistics, false)
 
 		uv1.statistics.mvpShipID = slot0.mvp

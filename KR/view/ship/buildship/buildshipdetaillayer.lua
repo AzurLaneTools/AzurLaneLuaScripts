@@ -104,7 +104,11 @@ function slot0.didEnter(slot0)
 			return
 		end
 
-		uv0:emit(BuildShipDetailMediator.LAUNCH_ALL)
+		if #uv0.projectList > 0 then
+			uv0:emit(BuildShipDetailMediator.LAUNCH_ALL)
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_getShip_error_noShip"))
+		end
 	end, SFX_UI_BUILDING_FASTBUILDING)
 	onButton(slot0, slot0.quickCount, function ()
 		shoppingBatch(61009, {
@@ -284,103 +288,34 @@ end
 function slot0.playGetShipAnimate(slot0, slot1, slot2)
 	slot0.canvasgroup.blocksRaycasts = false
 	slot0.isPlayAnim = true
+	slot4 = slot0:findTF((pg.ship_data_create_material[slot2].build_anim or "Building") .. "(Clone)")
+	slot0.onLoading = true
 
-	function slot4()
-		setActive(uv0.buildAni, false)
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.buildAni.transform, uv0._tf)
+	pg.CpkPlayMgr.GetInstance():PlayCpkMovie(function ()
+		uv0.onLoading = false
 
+		if uv1 and uv1.build_voice ~= "" then
+			uv0:playCV(uv1.build_voice)
+		end
+	end, function ()
 		uv0.isPlayAnim = false
-
-		uv0:stopCV()
-
 		uv0.canvasgroup.blocksRaycasts = true
 
-		if uv0.aniTimer then
-			uv0.aniTimer:Stop()
-
-			uv0.aniTimer = nil
-		end
-
-		if uv0.buildAni then
-			Destroy(uv0.buildAni)
-
-			uv0.buildAni = nil
-		end
-
-		if uv1 then
-			uv1()
-
-			uv1 = nil
-		end
-	end
-
-	function slot5()
-		uv0.aniTimer = Timer.New(function ()
-			setActive(uv0.buildAni, false)
-			uv1()
-		end, 4.5)
-
-		uv0.aniTimer:Start()
-		pg.UIMgr.GetInstance():BlurPanel(uv0.buildAni.transform, false, {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
-		setActive(uv0.buildAni, true)
-
-		if uv2 and uv2.build_voice ~= "" then
-			uv0:playCV(uv2.build_voice)
-		end
-	end
-
-	if slot0:findTF((pg.ship_data_create_material[slot2].build_anim or "Building") .. "(Clone)") then
-		slot0.buildAni = go(slot6)
-
-		removeOnButton(slot0.buildAni)
-	end
-
-	if not slot0.buildAni and not slot0.onLoading then
-		slot0.onLoading = true
-
-		LoadAndInstantiateAsync("ui", slot3.build_anim or "Building", function (slot0)
-			if uv0.exited then
-				Destroy(slot0)
-
-				uv0.buildAni = nil
-			else
-				uv0.onLoading = false
-
-				slot0:SetActive(false)
-
-				uv0.buildAni = slot0
-
-				uv0.buildAni.transform:SetParent(uv0._tf, false)
-				setActive(uv0.buildAni, false)
-				onButton(uv0, uv0.buildAni, function ()
-					uv0()
-				end)
-				uv2()
-			end
-		end)
-	elseif not slot0.onLoading then
-		slot5()
-		onButton(slot0, slot0.buildAni, function ()
-			uv0()
-		end)
-	end
+		uv1()
+	end, "ui", slot3.build_anim or "Building", true, true, {
+		weight = LayerWeightConst.SECOND_LAYER
+	}, 4.5, true)
 end
 
 function slot0.willExit(slot0)
+	pg.CpkPlayMgr.GetInstance():DisposeCpkMovie()
+
 	for slot4, slot5 in pairs(slot0.buildTimers) do
 		pg.TimeMgr.GetInstance():RemoveTimer(slot5)
 	end
 
 	if slot0.aniBgTF then
 		SetParent(slot0.aniBgTF, slot0._tf)
-	end
-
-	if slot0.aniTimer then
-		slot0.aniTimer:Stop()
-
-		slot0.aniTimer = nil
 	end
 
 	slot0.buildTimers = nil

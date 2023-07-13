@@ -34,7 +34,7 @@ function slot0.register(slot0)
 		uv0.viewComponent:UpdateFleetView()
 	end)
 	slot0:bind(uv0.OPEN_SHIP_INFO, function (slot0, slot1, slot2)
-		uv0.contextData.form = ExercisePreCombatLayer.FORM_EDIT
+		uv0.contextData.form = PreCombatLayer.FORM_EDIT
 		slot3 = uv0.viewComponent._currentFleetVO
 		slot4 = {}
 

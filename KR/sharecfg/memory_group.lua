@@ -150,6 +150,8 @@ pg.memory_group = setmetatable({
 		246,
 		247,
 		248,
+		249,
+		250,
 		501,
 		502,
 		503,
@@ -240,10 +242,11 @@ pg.memory_group = setmetatable({
 pg.base = pg.base or {}
 pg.base.memory_group = {
 	{
-		icon = "title_main",
-		subtype = 0,
-		type = 1,
 		id = 1,
+		subtype = 0,
+		icon = "title_main",
+		type = 1,
+		link_event = 0,
 		title = "프롤로그",
 		memories = {
 			1,
@@ -255,10 +258,11 @@ pg.base.memory_group = {
 		}
 	},
 	{
-		icon = "title_main",
-		subtype = 0,
-		type = 1,
 		id = 2,
+		subtype = 0,
+		icon = "title_main",
+		type = 1,
+		link_event = 0,
 		title = "진주만을 기억하라!",
 		memories = {
 			7,
@@ -274,10 +278,11 @@ pg.base.memory_group = {
 		}
 	},
 	{
-		icon = "title_main",
-		subtype = 0,
-		type = 1,
 		id = 3,
+		subtype = 0,
+		icon = "title_main",
+		type = 1,
+		link_event = 0,
 		title = "출전! 산호해",
 		memories = {
 			17,
@@ -286,10 +291,11 @@ pg.base.memory_group = {
 		}
 	},
 	{
-		icon = "title_main",
-		subtype = 0,
-		type = 1,
 		id = 4,
+		subtype = 0,
+		icon = "title_main",
+		type = 1,
+		link_event = 0,
 		title = "미드웨이 결전",
 		memories = {
 			20,
@@ -304,10 +310,11 @@ pg.base.memory_group = {
 		}
 	},
 	[98] = {
-		icon = "title_main",
-		subtype = 0,
-		type = 1,
 		id = 98,
+		subtype = 0,
+		icon = "title_main",
+		type = 1,
+		link_event = 0,
 		title = "「용골편찬」오픈 ",
 		memories = {
 			716,
@@ -333,10 +340,11 @@ pg.base.memory_group = {
 		}
 	},
 	[99] = {
-		icon = "title_main",
-		subtype = 0,
-		type = 1,
 		id = 99,
+		subtype = 0,
+		icon = "title_main",
+		type = 1,
+		link_event = 0,
 		title = "지휘냥, 등장!",
 		memories = {
 			457,
@@ -346,10 +354,11 @@ pg.base.memory_group = {
 		}
 	},
 	[100] = {
-		icon = "title_main",
-		subtype = 0,
-		type = 1,
 		id = 100,
+		subtype = 0,
+		icon = "title_main",
+		type = 1,
+		link_event = 0,
 		title = "과학연구 시스템 개방!",
 		memories = {
 			299,
@@ -358,10 +367,11 @@ pg.base.memory_group = {
 		}
 	},
 	[101] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 101,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "「노력, 희망과 계획」",
 		memories = {
 			10000,
@@ -378,10 +388,11 @@ pg.base.memory_group = {
 		}
 	},
 	[102] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 102,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "거울에 비친 이색",
 		memories = {
 			35,
@@ -406,10 +417,11 @@ pg.base.memory_group = {
 		}
 	},
 	[107] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 107,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "옥토끼 - 달밤에 취하다",
 		memories = {
 			107,
@@ -422,10 +434,11 @@ pg.base.memory_group = {
 		}
 	},
 	[108] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 108,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "홍염의 방문자",
 		memories = {
 			114,
@@ -449,10 +462,11 @@ pg.base.memory_group = {
 		}
 	},
 	[109] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 109,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "영광스런 최종전",
 		memories = {
 			132,
@@ -468,10 +482,11 @@ pg.base.memory_group = {
 		}
 	},
 	[110] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 110,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "\"마녀들\"의 전야제",
 		memories = {
 			142,
@@ -484,10 +499,11 @@ pg.base.memory_group = {
 		}
 	},
 	[111] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 111,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "스타더스트와 자그마한 용기 ",
 		memories = {
 			149,
@@ -500,10 +516,11 @@ pg.base.memory_group = {
 		}
 	},
 	[112] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 112,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "왁자지껄 다과회",
 		memories = {
 			156,
@@ -516,10 +533,11 @@ pg.base.memory_group = {
 		}
 	},
 	[113] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 113,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "사랑과 평화의 성야제 ",
 		memories = {
 			163,
@@ -533,10 +551,11 @@ pg.base.memory_group = {
 		}
 	},
 	[115] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 115,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "어둠에 떨어진 푸른 날개",
 		memories = {
 			178,
@@ -555,10 +574,11 @@ pg.base.memory_group = {
 		}
 	},
 	[116] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 116,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "여름(?)의 대작전",
 		memories = {
 			189,
@@ -571,10 +591,11 @@ pg.base.memory_group = {
 		}
 	},
 	[117] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 117,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "그라프 슈피 추격전",
 		memories = {
 			196,
@@ -589,10 +610,11 @@ pg.base.memory_group = {
 		}
 	},
 	[118] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 118,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "다른 차원의 방문자 - 일상 편",
 		memories = {
 			10036,
@@ -605,10 +627,11 @@ pg.base.memory_group = {
 		}
 	},
 	[119] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 119,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "다른 차원의 방문자 - 스테이지 편",
 		memories = {
 			10043,
@@ -622,10 +645,11 @@ pg.base.memory_group = {
 		}
 	},
 	[120] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 120,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "안샨의 그림 교실 ",
 		memories = {
 			205,
@@ -636,10 +660,11 @@ pg.base.memory_group = {
 		}
 	},
 	[121] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 121,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "푸슌의 대모험 ",
 		memories = {
 			210,
@@ -649,10 +674,11 @@ pg.base.memory_group = {
 		}
 	},
 	[122] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 122,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "여름 바람의 십자성",
 		memories = {
 			214,
@@ -665,10 +691,11 @@ pg.base.memory_group = {
 		}
 	},
 	[123] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 123,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "싸늘한 겨울의 왕관",
 		memories = {
 			221,
@@ -692,10 +719,11 @@ pg.base.memory_group = {
 		}
 	},
 	[124] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 124,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "벚꽃놀이 대소동 ",
 		memories = {
 			239,
@@ -708,10 +736,11 @@ pg.base.memory_group = {
 		}
 	},
 	[125] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 125,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "사쿠라 로맨스 - 새 학기",
 		memories = {
 			253,
@@ -724,20 +753,22 @@ pg.base.memory_group = {
 		}
 	},
 	[126] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 126,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "귀환과 신생",
 		memories = {
 			10018
 		}
 	},
 	[128] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 128,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "가르쳐줘! Z23 선생님!",
 		memories = {
 			10029,
@@ -750,10 +781,11 @@ pg.base.memory_group = {
 		}
 	},
 	[129] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 129,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "귀여운 꼬마 메이드",
 		memories = {
 			295,
@@ -763,10 +795,11 @@ pg.base.memory_group = {
 		}
 	},
 	[130] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 130,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "여름의 전골 대회?!",
 		memories = {
 			315,
@@ -778,10 +811,11 @@ pg.base.memory_group = {
 		}
 	},
 	[131] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 131,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "검게 물든 강철의 벚꽃 ",
 		memories = {
 			10051,
@@ -801,10 +835,11 @@ pg.base.memory_group = {
 		}
 	},
 	[132] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 132,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "월하의 서곡",
 		memories = {
 			10072,
@@ -819,10 +854,11 @@ pg.base.memory_group = {
 		}
 	},
 	[133] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 133,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "빛과 그림자의 아이리스 ",
 		memories = {
 			371,
@@ -839,10 +875,11 @@ pg.base.memory_group = {
 		}
 	},
 	[134] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 134,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "백의의 천사 or 악마?",
 		memories = {
 			382,
@@ -853,10 +890,11 @@ pg.base.memory_group = {
 		}
 	},
 	[135] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 135,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "한여름의 사수자리",
 		memories = {
 			401,
@@ -868,10 +906,11 @@ pg.base.memory_group = {
 		}
 	},
 	[136] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 136,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "미카사 선배의 프라모델 박물관",
 		memories = {
 			407,
@@ -881,10 +920,11 @@ pg.base.memory_group = {
 		}
 	},
 	[137] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 137,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "특별 제전, 개막!",
 		memories = {
 			432,
@@ -895,10 +935,11 @@ pg.base.memory_group = {
 		}
 	},
 	[138] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 138,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "모항의 특별 연회",
 		memories = {
 			437,
@@ -910,10 +951,11 @@ pg.base.memory_group = {
 		}
 	},
 	[139] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 139,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "빛나라! ☆ 배틀스타~!",
 		memories = {
 			461,
@@ -923,10 +965,11 @@ pg.base.memory_group = {
 		}
 	},
 	[140] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 140,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "싸워라! 로열 메이드대",
 		memories = {
 			466,
@@ -937,10 +980,11 @@ pg.base.memory_group = {
 		}
 	},
 	[141] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 141,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "장난스런 핼러윈 ",
 		memories = {
 			494,
@@ -953,10 +997,11 @@ pg.base.memory_group = {
 		}
 	},
 	[142] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 142,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "꿈의 만남 - 스테이지편",
 		memories = {
 			522,
@@ -990,10 +1035,11 @@ pg.base.memory_group = {
 		}
 	},
 	[143] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 143,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "꿈의 만남 - 일상편",
 		memories = {
 			550,
@@ -1006,10 +1052,11 @@ pg.base.memory_group = {
 		}
 	},
 	[144] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 144,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "꿈의 만남 - 스페셜",
 		memories = {
 			557,
@@ -1025,10 +1072,11 @@ pg.base.memory_group = {
 		}
 	},
 	[145] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 145,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "솔로몬의 무사 ",
 		memories = {
 			574,
@@ -1045,10 +1093,11 @@ pg.base.memory_group = {
 		}
 	},
 	[146] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 146,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "크리스마스 선물 대작전! ",
 		memories = {
 			592,
@@ -1061,10 +1110,11 @@ pg.base.memory_group = {
 		}
 	},
 	[147] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 147,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "정월의 축복 ",
 		memories = {
 			613,
@@ -1077,10 +1127,11 @@ pg.base.memory_group = {
 		}
 	},
 	[148] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 148,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "청홍의 메아리 ",
 		memories = {
 			620,
@@ -1108,10 +1159,11 @@ pg.base.memory_group = {
 		}
 	},
 	[149] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 149,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "시끌벅적 설날 축제 ",
 		memories = {
 			677,
@@ -1124,10 +1176,11 @@ pg.base.memory_group = {
 		}
 	},
 	[150] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 150,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "특별훈련·에식스급 ",
 		memories = {
 			684,
@@ -1138,10 +1191,11 @@ pg.base.memory_group = {
 		}
 	},
 	[151] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 151,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "피오르드의 별 ",
 		memories = {
 			696,
@@ -1159,10 +1213,11 @@ pg.base.memory_group = {
 		}
 	},
 	[152] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 152,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "「버츄얼 연결고리의 공시성」 -일상편",
 		memories = {
 			728,
@@ -1175,10 +1230,11 @@ pg.base.memory_group = {
 		}
 	},
 	[153] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 153,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "「버츄얼 연결고리의 공시성」 -정화편",
 		memories = {
 			735,
@@ -1188,10 +1244,11 @@ pg.base.memory_group = {
 		}
 	},
 	[154] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 154,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "「버츄얼 연결고리의 공시성」 -클리어편",
 		memories = {
 			739,
@@ -1221,10 +1278,11 @@ pg.base.memory_group = {
 		}
 	},
 	[155] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 155,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "항구탈출 대작전!",
 		memories = {
 			763,
@@ -1235,10 +1293,11 @@ pg.base.memory_group = {
 		}
 	},
 	[156] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 156,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "희망의 맹세",
 		memories = {
 			775,
@@ -1247,10 +1306,11 @@ pg.base.memory_group = {
 		}
 	},
 	[157] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 157,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "이과 시험시간!",
 		memories = {
 			792,
@@ -1261,10 +1321,11 @@ pg.base.memory_group = {
 		}
 	},
 	[158] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 158,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "메탈 블러드, 음표 & 맹세 ",
 		memories = {
 			797,
@@ -1291,10 +1352,11 @@ pg.base.memory_group = {
 		}
 	},
 	[159] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 159,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "평화에 기도를 ",
 		memories = {
 			818,
@@ -1307,10 +1369,11 @@ pg.base.memory_group = {
 		}
 	},
 	[160] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 160,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "월간 만화 - 재블린 ",
 		memories = {
 			825,
@@ -1321,10 +1384,11 @@ pg.base.memory_group = {
 		}
 	},
 	[161] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 161,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "외톨이 해바라기 ",
 		memories = {
 			840,
@@ -1334,10 +1398,11 @@ pg.base.memory_group = {
 		}
 	},
 	[162] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 162,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "폭풍전야 ",
 		memories = {
 			830,
@@ -1353,10 +1418,11 @@ pg.base.memory_group = {
 		}
 	},
 	[163] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 163,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "샌드 플레이 ",
 		memories = {
 			851,
@@ -1395,10 +1461,11 @@ pg.base.memory_group = {
 		}
 	},
 	[164] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 164,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "바다의 아이돌 ",
 		memories = {
 			884,
@@ -1409,10 +1476,11 @@ pg.base.memory_group = {
 		}
 	},
 	[165] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 165,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "모두의 여름 축제 ",
 		memories = {
 			889,
@@ -1420,10 +1488,11 @@ pg.base.memory_group = {
 		}
 	},
 	[166] = {
-		icon = "title_chara_rongyaodiantang",
-		subtype = 0,
-		type = 3,
 		id = 166,
+		subtype = 0,
+		icon = "title_chara_rongyaodiantang",
+		type = 3,
+		link_event = 0,
 		title = "명예의 전당",
 		memories = {
 			892,
@@ -1432,10 +1501,11 @@ pg.base.memory_group = {
 		}
 	},
 	[167] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 167,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "디바인 트래지코미디 ",
 		memories = {
 			907,
@@ -1464,10 +1534,11 @@ pg.base.memory_group = {
 		}
 	},
 	[168] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 168,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "영감이 떠오르는 파티 ",
 		memories = {
 			930,
@@ -1477,10 +1548,11 @@ pg.base.memory_group = {
 		}
 	},
 	[169] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 169,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "저편을 건너온 물결 ",
 		memories = {
 			934,
@@ -1491,10 +1563,11 @@ pg.base.memory_group = {
 		}
 	},
 	[170] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 170,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "최고의 보물 ",
 		memories = {
 			940,
@@ -1510,10 +1583,11 @@ pg.base.memory_group = {
 		}
 	},
 	[171] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 171,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "혼돈의 핼러윈 나이트 ",
 		memories = {
 			950,
@@ -1524,10 +1598,11 @@ pg.base.memory_group = {
 		}
 	},
 	[172] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 172,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "격주의 폴라리스",
 		memories = {
 			960,
@@ -1557,10 +1632,11 @@ pg.base.memory_group = {
 		}
 	},
 	[173] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 173,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "어느 날의 폴라리스",
 		memories = {
 			990,
@@ -1569,10 +1645,11 @@ pg.base.memory_group = {
 		}
 	},
 	[174] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 174,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "환상과 진실의 이중주-스테이지 편",
 		memories = {
 			995,
@@ -1629,10 +1706,11 @@ pg.base.memory_group = {
 		}
 	},
 	[175] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 175,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "환상과 진실의 이중주-일상 편",
 		memories = {
 			1046,
@@ -1648,10 +1726,11 @@ pg.base.memory_group = {
 		}
 	},
 	[176] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 176,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "크리스마스 이브 진저브레드 이야기 ",
 		memories = {
 			1056,
@@ -1662,10 +1741,11 @@ pg.base.memory_group = {
 		}
 	},
 	[177] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 177,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "빛나는 벚꽃의 그림자",
 		memories = {
 			1061,
@@ -1699,10 +1779,11 @@ pg.base.memory_group = {
 		}
 	},
 	[178] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 178,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "각자의 새해",
 		memories = {
 			1091,
@@ -1713,10 +1794,11 @@ pg.base.memory_group = {
 		}
 	},
 	[179] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 179,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "싸워라! 로열 메이드 2nd",
 		memories = {
 			1096,
@@ -1727,10 +1809,11 @@ pg.base.memory_group = {
 		}
 	},
 	[180] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 180,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "각자의 설날",
 		memories = {
 			1101,
@@ -1740,10 +1823,11 @@ pg.base.memory_group = {
 		}
 	},
 	[181] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 181,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "동절의 북해 ",
 		memories = {
 			1110,
@@ -1781,10 +1865,11 @@ pg.base.memory_group = {
 		}
 	},
 	[182] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 182,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "언더 더 미스트 ",
 		memories = {
 			1149,
@@ -1794,10 +1879,11 @@ pg.base.memory_group = {
 		}
 	},
 	[183] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 183,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "어둠을 쫓는 은익 ",
 		memories = {
 			1153,
@@ -1838,10 +1924,11 @@ pg.base.memory_group = {
 		}
 	},
 	[184] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 184,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "황금의 보물 ",
 		memories = {
 			1188,
@@ -1851,10 +1938,11 @@ pg.base.memory_group = {
 		}
 	},
 	[185] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 185,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "어둠 속의 귀로 ",
 		memories = {
 			1211,
@@ -1869,10 +1957,11 @@ pg.base.memory_group = {
 		}
 	},
 	[186] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 186,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "하늘 아래의 찬송가 ",
 		memories = {
 			1231,
@@ -1912,10 +2001,11 @@ pg.base.memory_group = {
 		}
 	},
 	[187] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 187,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "피오르드 반격전 ",
 		memories = {
 			1265,
@@ -1934,10 +2024,11 @@ pg.base.memory_group = {
 		}
 	},
 	[188] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 188,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "영원한 밤의 환광 ",
 		memories = {
 			1281,
@@ -1983,10 +2074,11 @@ pg.base.memory_group = {
 		}
 	},
 	[189] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 189,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "나비 바다 꿈의 꽃",
 		memories = {
 			1341,
@@ -2034,10 +2126,11 @@ pg.base.memory_group = {
 		}
 	},
 	[190] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 190,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "날카로운 해상의 날개",
 		memories = {
 			1386,
@@ -2053,10 +2146,11 @@ pg.base.memory_group = {
 		}
 	},
 	[191] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 191,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "격창의 유니버스",
 		memories = {
 			1411,
@@ -2084,10 +2178,11 @@ pg.base.memory_group = {
 		}
 	},
 	[192] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 192,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "휴일항로-해역편",
 		memories = {
 			1436,
@@ -2109,10 +2204,11 @@ pg.base.memory_group = {
 		}
 	},
 	[193] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 193,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "휴일항로-일상편",
 		memories = {
 			1452,
@@ -2122,10 +2218,11 @@ pg.base.memory_group = {
 		}
 	},
 	[194] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 194,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "부상한 작전",
 		memories = {
 			1481,
@@ -2166,10 +2263,11 @@ pg.base.memory_group = {
 		}
 	},
 	[195] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 195,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "새벽녘에 비치는 빙화",
 		memories = {
 			1530,
@@ -2206,10 +2304,11 @@ pg.base.memory_group = {
 		}
 	},
 	[196] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 196,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "부흥의 찬송가",
 		memories = {
 			1601,
@@ -2250,10 +2349,11 @@ pg.base.memory_group = {
 		}
 	},
 	[197] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 197,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "은색 파일",
 		memories = {
 			1661,
@@ -2263,10 +2363,11 @@ pg.base.memory_group = {
 		}
 	},
 	[198] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 198,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "비추는 나선의 경해",
 		memories = {
 			1681,
@@ -2305,10 +2406,11 @@ pg.base.memory_group = {
 		}
 	},
 	[199] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 199,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "바다에 울려퍼지는 아이돌 노래-스테이지 편",
 		memories = {
 			1746,
@@ -2318,10 +2420,11 @@ pg.base.memory_group = {
 		}
 	},
 	[200] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 200,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "바다에 울려퍼지는 아이돌 노래-일상 편",
 		memories = {
 			1751,
@@ -2343,10 +2446,11 @@ pg.base.memory_group = {
 		}
 	},
 	[202] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 202,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "맑고 푸른 바다",
 		memories = {
 			1801,
@@ -2387,10 +2491,11 @@ pg.base.memory_group = {
 		}
 	},
 	[203] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 203,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "제노바의 화염",
 		memories = {
 			1881,
@@ -2408,10 +2513,11 @@ pg.base.memory_group = {
 		}
 	},
 	[204] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 204,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "호광은 교차하는 세계에서-스테이지 편",
 		memories = {
 			1896,
@@ -2442,10 +2548,11 @@ pg.base.memory_group = {
 		}
 	},
 	[205] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 205,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "호광은 교차하는 세계에서-일상 편",
 		memories = {
 			1921,
@@ -2455,10 +2562,11 @@ pg.base.memory_group = {
 		}
 	},
 	[206] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 206,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "탄산과 홍차",
 		memories = {
 			1926,
@@ -2476,10 +2584,11 @@ pg.base.memory_group = {
 		}
 	},
 	[207] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 207,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "역행하는 무지개 탑",
 		memories = {
 			1941,
@@ -2522,10 +2631,11 @@ pg.base.memory_group = {
 		}
 	},
 	[208] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 208,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "연습 신비 사건 조사",
 		memories = {
 			1980,
@@ -2536,10 +2646,11 @@ pg.base.memory_group = {
 		}
 	},
 	[209] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 209,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "춘절 기념 촬영회",
 		memories = {
 			1985,
@@ -2552,10 +2663,11 @@ pg.base.memory_group = {
 		}
 	},
 	[210] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 210,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "새벽의 어둠",
 		memories = {
 			2002,
@@ -2565,10 +2677,11 @@ pg.base.memory_group = {
 		}
 	},
 	[211] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 211,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "깊게 울리는 메아리",
 		memories = {
 			2006,
@@ -2607,10 +2720,11 @@ pg.base.memory_group = {
 		}
 	},
 	[212] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 212,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "한정 이벤트: 허상의 탑·프롤로그",
 		memories = {
 			2050,
@@ -2627,10 +2741,11 @@ pg.base.memory_group = {
 		}
 	},
 	[213] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 213,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "부린의 맹세",
 		memories = {
 			2061,
@@ -2638,10 +2753,11 @@ pg.base.memory_group = {
 		}
 	},
 	[214] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 214,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "영야의 성의 그림자",
 		memories = {
 			2071,
@@ -2654,10 +2770,11 @@ pg.base.memory_group = {
 		}
 	},
 	[215] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 215,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "레인보우 피날레",
 		memories = {
 			2081,
@@ -2697,10 +2814,11 @@ pg.base.memory_group = {
 		}
 	},
 	[216] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 216,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "뜻밖의 여정",
 		memories = {
 			2116,
@@ -2710,10 +2828,11 @@ pg.base.memory_group = {
 		}
 	},
 	[217] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 217,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "메이드 스타일",
 		memories = {
 			2128,
@@ -2722,10 +2841,11 @@ pg.base.memory_group = {
 		}
 	},
 	[218] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 218,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "빛나는 맹세의 정원",
 		memories = {
 			2131,
@@ -2767,10 +2887,11 @@ pg.base.memory_group = {
 		}
 	},
 	[219] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 219,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "우아한 연회",
 		memories = {
 			2167,
@@ -2780,10 +2901,11 @@ pg.base.memory_group = {
 		}
 	},
 	[220] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 220,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "숲속 동화 이야기",
 		memories = {
 			2181,
@@ -2795,10 +2917,11 @@ pg.base.memory_group = {
 		}
 	},
 	[221] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 221,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "아이리스의 천사",
 		memories = {
 			2191,
@@ -2811,10 +2934,11 @@ pg.base.memory_group = {
 		}
 	},
 	[222] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 222,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "사르데냐의 초대",
 		memories = {
 			2211,
@@ -2827,10 +2951,11 @@ pg.base.memory_group = {
 		}
 	},
 	[223] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 223,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "독수리의 서사곡",
 		memories = {
 			2221,
@@ -2873,10 +2998,11 @@ pg.base.memory_group = {
 		}
 	},
 	[224] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 224,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "결상점 작전",
 		memories = {
 			2271,
@@ -2898,10 +3024,11 @@ pg.base.memory_group = {
 		}
 	},
 	[225] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 225,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "정해경뢰",
 		memories = {
 			2291,
@@ -2914,10 +3041,11 @@ pg.base.memory_group = {
 		}
 	},
 	[226] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 226,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "짙은 자줏빛의 안개",
 		memories = {
 			2301,
@@ -2962,10 +3090,11 @@ pg.base.memory_group = {
 		}
 	},
 	[227] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 227,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "용자의 여정",
 		memories = {
 			2351,
@@ -2976,10 +3105,11 @@ pg.base.memory_group = {
 		}
 	},
 	[228] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 228,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "꼬마 그라프 슈피 추격전",
 		memories = {
 			2361,
@@ -2988,10 +3118,11 @@ pg.base.memory_group = {
 		}
 	},
 	[229] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 229,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "싸워라! 로열 메이드 3rd?",
 		memories = {
 			2378,
@@ -3002,10 +3133,11 @@ pg.base.memory_group = {
 		}
 	},
 	[230] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 230,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "핼러윈 밤의 '기묘한 만남'",
 		memories = {
 			2383,
@@ -3017,10 +3149,11 @@ pg.base.memory_group = {
 		}
 	},
 	[231] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 231,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 4584,
 		title = "연금술사와 비밀 유적군도 - '일상편'",
 		memories = {
 			2401,
@@ -3033,10 +3166,11 @@ pg.base.memory_group = {
 		}
 	},
 	[232] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 232,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 4580,
 		title = "연금술사와 비밀 유적군도 - '스테이지 편'",
 		memories = {
 			2411,
@@ -3068,10 +3202,11 @@ pg.base.memory_group = {
 		}
 	},
 	[233] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 233,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 4597,
 		title = "이방성 편광",
 		memories = {
 			2441,
@@ -3084,10 +3219,11 @@ pg.base.memory_group = {
 		}
 	},
 	[234] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 234,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 4618,
 		title = "물가의 휴일",
 		memories = {
 			2461,
@@ -3100,10 +3236,11 @@ pg.base.memory_group = {
 		}
 	},
 	[235] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 235,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 4607,
 		title = "거듭되는 평행세계",
 		memories = {
 			2471,
@@ -3144,10 +3281,11 @@ pg.base.memory_group = {
 		}
 	},
 	[236] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 236,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "겨울날의 길잡이",
 		memories = {
 			2521,
@@ -3158,10 +3296,11 @@ pg.base.memory_group = {
 		}
 	},
 	[237] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 237,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "현란한 등불의 기쁨",
 		memories = {
 			2531,
@@ -3171,10 +3310,11 @@ pg.base.memory_group = {
 		}
 	},
 	[238] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 238,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "춘절 폭죽",
 		memories = {
 			2541,
@@ -3183,10 +3323,11 @@ pg.base.memory_group = {
 		}
 	},
 	[239] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 239,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "여왕의 하루",
 		memories = {
 			2551,
@@ -3199,10 +3340,11 @@ pg.base.memory_group = {
 		}
 	},
 	[240] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 240,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "잿빛 폐허",
 		memories = {
 			2571,
@@ -3238,10 +3380,11 @@ pg.base.memory_group = {
 		}
 	},
 	[241] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 241,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "극지 폭풍Pt",
 		memories = {
 			2611,
@@ -3266,10 +3409,11 @@ pg.base.memory_group = {
 		}
 	},
 	[242] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 242,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "눈 녹는 날의 초대",
 		memories = {
 			2631,
@@ -3280,10 +3424,11 @@ pg.base.memory_group = {
 		}
 	},
 	[243] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 243,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "원 펀치! 푸링!",
 		memories = {
 			2641,
@@ -3292,10 +3437,11 @@ pg.base.memory_group = {
 		}
 	},
 	[244] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 244,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "지자와 거미",
 		memories = {
 			2661,
@@ -3308,10 +3454,11 @@ pg.base.memory_group = {
 		}
 	},
 	[245] = {
-		icon = "title_event",
-		subtype = 1,
-		type = 2,
 		id = 245,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "오엽각 교차점",
 		memories = {
 			2671,
@@ -3354,10 +3501,11 @@ pg.base.memory_group = {
 		}
 	},
 	[246] = {
-		icon = "title_event",
-		subtype = 2,
-		type = 2,
 		id = 246,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "바닷바람과 여름날의 무인도",
 		memories = {
 			2711,
@@ -3397,30 +3545,61 @@ pg.base.memory_group = {
 		}
 	},
 	[247] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 247,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "청차의 향기",
 		memories = {
 			2751
 		}
 	},
 	[248] = {
-		icon = "title_event",
-		subtype = 3,
-		type = 2,
 		id = 248,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 0,
 		title = "신선의 춤사위",
 		memories = {
 			2781
 		}
 	},
+	[249] = {
+		id = 249,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 4915,
+		title = "오아시스 옛담",
+		memories = {
+			2791,
+			2792,
+			2793,
+			2794,
+			2795
+		}
+	},
+	[250] = {
+		id = 250,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 4919,
+		title = "오피스 드림",
+		memories = {
+			2801,
+			2802,
+			2803
+		}
+	},
 	[501] = {
-		icon = "title_chara_mingshi",
-		subtype = 0,
-		type = 3,
 		id = 501,
+		subtype = 0,
+		icon = "title_chara_mingshi",
+		type = 3,
+		link_event = 0,
 		title = "아카시의 의뢰",
 		memories = {
 			62,
@@ -3446,10 +3625,11 @@ pg.base.memory_group = {
 		}
 	},
 	[502] = {
-		icon = "title_chara_changdao",
-		subtype = 0,
-		type = 3,
 		id = 502,
+		subtype = 0,
+		icon = "title_chara_changdao",
+		type = 3,
+		link_event = 0,
 		title = "유령 씨는 노력하지 않아",
 		memories = {
 			10011,
@@ -3462,10 +3642,11 @@ pg.base.memory_group = {
 		}
 	},
 	[503] = {
-		icon = "title_chara_ruihe",
-		subtype = 0,
-		type = 3,
 		id = 503,
+		subtype = 0,
+		icon = "title_chara_ruihe",
+		type = 3,
+		link_event = 0,
 		title = "행운의 학 ",
 		memories = {
 			246,
@@ -3478,10 +3659,11 @@ pg.base.memory_group = {
 		}
 	},
 	[504] = {
-		icon = "title_chara_xuefeng",
-		subtype = 0,
-		type = 3,
 		id = 504,
+		subtype = 0,
+		icon = "title_chara_xuefeng",
+		type = 3,
+		link_event = 0,
 		title = "나는 {namecode:22}님이다! ",
 		memories = {
 			260,
@@ -3494,10 +3676,11 @@ pg.base.memory_group = {
 		}
 	},
 	[505] = {
-		icon = "title_chara_ajiakesi",
-		subtype = 0,
-		type = 3,
 		id = 505,
+		subtype = 0,
+		icon = "title_chara_ajiakesi",
+		type = 3,
+		link_event = 0,
 		title = "나의 아름다운 기억 ",
 		memories = {
 			267,
@@ -3510,10 +3693,11 @@ pg.base.memory_group = {
 		}
 	},
 	[506] = {
-		icon = "title_chara_haman",
-		subtype = 0,
-		type = 3,
 		id = 506,
+		subtype = 0,
+		icon = "title_chara_haman",
+		type = 3,
+		link_event = 0,
 		title = "허먼 관찰일기 ",
 		memories = {
 			274,
@@ -3526,10 +3710,11 @@ pg.base.memory_group = {
 		}
 	},
 	[507] = {
-		icon = "title_chara_chicheng",
-		subtype = 0,
-		type = 3,
 		id = 507,
+		subtype = 0,
+		icon = "title_chara_chicheng",
+		type = 3,
+		link_event = 0,
 		title = "피안화의 사랑 ",
 		memories = {
 			281,
@@ -3542,10 +3727,11 @@ pg.base.memory_group = {
 		}
 	},
 	[508] = {
-		icon = "title_chara_kelifulan",
-		subtype = 0,
-		type = 3,
 		id = 508,
+		subtype = 0,
+		icon = "title_chara_kelifulan",
+		type = 3,
+		link_event = 0,
 		title = "기사와 포상 ",
 		memories = {
 			288,
@@ -3558,10 +3744,11 @@ pg.base.memory_group = {
 		}
 	},
 	[509] = {
-		icon = "title_chara_shancheng2",
-		subtype = 0,
-		type = 3,
 		id = 509,
+		subtype = 0,
+		icon = "title_chara_shancheng2",
+		type = 3,
+		link_event = 0,
 		title = "비 온 뒤 맑음 ",
 		memories = {
 			301,
@@ -3574,10 +3761,11 @@ pg.base.memory_group = {
 		}
 	},
 	[510] = {
-		icon = "title_chara_guangrong",
-		subtype = 0,
-		type = 3,
 		id = 510,
+		subtype = 0,
+		icon = "title_chara_guangrong",
+		type = 3,
+		link_event = 0,
 		title = "영광스런 간주곡",
 		memories = {
 			308,
@@ -3590,10 +3778,11 @@ pg.base.memory_group = {
 		}
 	},
 	[511] = {
-		icon = "title_chara_salatuojia",
-		subtype = 0,
-		type = 3,
 		id = 511,
+		subtype = 0,
+		icon = "title_chara_salatuojia",
+		type = 3,
+		link_event = 0,
 		title = "Best Pictures! ",
 		memories = {
 			322,
@@ -3606,10 +3795,11 @@ pg.base.memory_group = {
 		}
 	},
 	[512] = {
-		icon = "title_chara_aidang",
-		subtype = 0,
-		type = 3,
 		id = 512,
+		subtype = 0,
+		icon = "title_chara_aidang",
+		type = 3,
+		link_event = 0,
 		title = "누나와의 일일 데이트 ",
 		memories = {
 			329,
@@ -3622,10 +3812,11 @@ pg.base.memory_group = {
 		}
 	},
 	[513] = {
-		icon = "title_chara_z46",
-		subtype = 0,
-		type = 3,
 		id = 513,
+		subtype = 0,
+		icon = "title_chara_z46",
+		type = 3,
+		link_event = 0,
 		title = "순백의 시 ",
 		memories = {
 			336,
@@ -3638,10 +3829,11 @@ pg.base.memory_group = {
 		}
 	},
 	[515] = {
-		icon = "title_chara_kaixuan",
-		subtype = 0,
-		type = 3,
 		id = 515,
+		subtype = 0,
+		icon = "title_chara_kaixuan",
+		type = 3,
+		link_event = 0,
 		title = "기사 공주의 우울",
 		memories = {
 			350,
@@ -3654,10 +3846,11 @@ pg.base.memory_group = {
 		}
 	},
 	[516] = {
-		icon = "title_chara_aimier",
-		subtype = 0,
-		type = 3,
 		id = 516,
+		subtype = 0,
+		icon = "title_chara_aimier",
+		type = 3,
+		link_event = 0,
 		title = "무희 천사 에밀",
 		memories = {
 			357,
@@ -3670,10 +3863,11 @@ pg.base.memory_group = {
 		}
 	},
 	[517] = {
-		icon = "title_chara_xukufu",
-		subtype = 0,
-		type = 3,
 		id = 517,
+		subtype = 0,
+		icon = "title_chara_xukufu",
+		type = 3,
+		link_event = 0,
 		title = "쥬르네 쉬르쿠프!",
 		memories = {
 			364,
@@ -3686,10 +3880,11 @@ pg.base.memory_group = {
 		}
 	},
 	[518] = {
-		icon = "title_chara_tierbici",
-		subtype = 0,
-		type = 3,
 		id = 518,
+		subtype = 0,
+		icon = "title_chara_tierbici",
+		type = 3,
+		link_event = 0,
 		title = "녹아내리는 얼음",
 		memories = {
 			387,
@@ -3702,10 +3897,11 @@ pg.base.memory_group = {
 		}
 	},
 	[519] = {
-		icon = "title_chara_banrenma",
-		subtype = 0,
-		type = 3,
 		id = 519,
+		subtype = 0,
+		icon = "title_chara_banrenma",
+		type = 3,
+		link_event = 0,
 		title = "센토와 선배님들",
 		memories = {
 			394,
@@ -3718,10 +3914,11 @@ pg.base.memory_group = {
 		}
 	},
 	[520] = {
-		icon = "title_chara_birui",
-		subtype = 0,
-		type = 3,
 		id = 520,
+		subtype = 0,
+		icon = "title_chara_birui",
+		type = 3,
+		link_event = 0,
 		title = "의전함의 연회",
 		memories = {
 			411,
@@ -3734,10 +3931,11 @@ pg.base.memory_group = {
 		}
 	},
 	[521] = {
-		icon = "title_chara_deyizhi",
-		subtype = 0,
-		type = 3,
 		id = 521,
+		subtype = 0,
+		icon = "title_chara_deyizhi",
+		type = 3,
+		link_event = 0,
 		title = "도이칠란트의 우울",
 		memories = {
 			418,
@@ -3750,10 +3948,11 @@ pg.base.memory_group = {
 		}
 	},
 	[522] = {
-		icon = "title_chara_daqinghuayu",
-		subtype = 0,
-		type = 3,
 		id = 522,
+		subtype = 0,
+		icon = "title_chara_daqinghuayu",
+		type = 3,
+		link_event = 0,
 		title = "서브마린 트랩!",
 		memories = {
 			425,
@@ -3766,10 +3965,11 @@ pg.base.memory_group = {
 		}
 	},
 	[523] = {
-		icon = "title_chara_dafeng",
-		subtype = 0,
-		type = 3,
 		id = 523,
+		subtype = 0,
+		icon = "title_chara_dafeng",
+		type = 3,
+		link_event = 0,
 		title = "비서함 다이호의 헌신",
 		memories = {
 			443,
@@ -3782,10 +3982,11 @@ pg.base.memory_group = {
 		}
 	},
 	[524] = {
-		icon = "title_chara_aisaikesi",
-		subtype = 0,
-		type = 3,
 		id = 524,
+		subtype = 0,
+		icon = "title_chara_aisaikesi",
+		type = 3,
+		link_event = 0,
 		title = "선배와의 앙금",
 		memories = {
 			450,
@@ -3798,10 +3999,11 @@ pg.base.memory_group = {
 		}
 	},
 	[525] = {
-		icon = "title_chara_xiao",
-		subtype = 0,
-		type = 3,
 		id = 525,
+		subtype = 0,
+		icon = "title_chara_xiao",
+		type = 3,
+		link_event = 0,
 		title = "닌자의 길",
 		memories = {
 			471,
@@ -3814,10 +4016,11 @@ pg.base.memory_group = {
 		}
 	},
 	[526] = {
-		icon = "title_chara_niukasier",
-		subtype = 0,
-		type = 3,
 		id = 526,
+		subtype = 0,
+		icon = "title_chara_niukasier",
+		type = 3,
+		link_event = 0,
 		title = "평온한 일상을 바라며",
 		memories = {
 			478,
@@ -3830,10 +4033,11 @@ pg.base.memory_group = {
 		}
 	},
 	[527] = {
-		icon = "title_chara_huonululu",
-		subtype = 0,
-		type = 3,
 		id = 527,
+		subtype = 0,
+		icon = "title_chara_huonululu",
+		type = 3,
+		link_event = 0,
 		title = "호놀룰루의 사소한 일들",
 		memories = {
 			485,
@@ -3846,10 +4050,11 @@ pg.base.memory_group = {
 		}
 	},
 	[528] = {
-		icon = "title_chara_beili",
-		subtype = 0,
-		type = 3,
 		id = 528,
+		subtype = 0,
+		icon = "title_chara_beili",
+		type = 3,
+		link_event = 0,
 		title = "토끼토끼성인의 수수께끼? ",
 		memories = {
 			501,
@@ -3862,10 +4067,11 @@ pg.base.memory_group = {
 		}
 	},
 	[529] = {
-		icon = "title_chara_buzhihuo",
-		subtype = 0,
-		type = 3,
 		id = 529,
+		subtype = 0,
+		icon = "title_chara_buzhihuo",
+		type = 3,
+		link_event = 0,
 		title = "만능 점원 시라누이 ",
 		memories = {
 			508,
@@ -3878,10 +4084,11 @@ pg.base.memory_group = {
 		}
 	},
 	[530] = {
-		icon = "title_chara_kangkede",
-		subtype = 0,
-		type = 3,
 		id = 530,
+		subtype = 0,
+		icon = "title_chara_kangkede",
+		type = 3,
+		link_event = 0,
 		title = "스위티 콩코드 ",
 		memories = {
 			515,
@@ -3894,10 +4101,11 @@ pg.base.memory_group = {
 		}
 	},
 	[531] = {
-		icon = "title_chara_longxiang",
-		subtype = 0,
-		type = 3,
 		id = 531,
+		subtype = 0,
+		icon = "title_chara_longxiang",
+		type = 3,
+		link_event = 0,
 		title = "경항공모함 류조 참전! ",
 		memories = {
 			567,
@@ -3910,10 +4118,11 @@ pg.base.memory_group = {
 		}
 	},
 	[532] = {
-		icon = "title_chara_dachao",
-		subtype = 0,
-		type = 3,
 		id = 532,
+		subtype = 0,
+		icon = "title_chara_dachao",
+		type = 3,
+		link_event = 0,
 		title = "오오시오의 선물♪ ",
 		memories = {
 			585,
@@ -3926,10 +4135,11 @@ pg.base.memory_group = {
 		}
 	},
 	[533] = {
-		icon = "title_chara_zubing",
-		subtype = 0,
-		type = 3,
 		id = 533,
+		subtype = 0,
+		icon = "title_chara_zubing",
+		type = 3,
+		link_event = 0,
 		title = "전진하라! 아시가라!",
 		memories = {
 			599,
@@ -3942,10 +4152,11 @@ pg.base.memory_group = {
 		}
 	},
 	[534] = {
-		icon = "title_chara_canglong",
-		subtype = 0,
-		type = 3,
 		id = 534,
+		subtype = 0,
+		icon = "title_chara_canglong",
+		type = 3,
+		link_event = 0,
 		title = "소류씨와 함께",
 		memories = {
 			606,
@@ -3958,10 +4169,11 @@ pg.base.memory_group = {
 		}
 	},
 	[535] = {
-		icon = "title_chara_chuchun",
-		subtype = 0,
-		type = 3,
 		id = 535,
+		subtype = 0,
+		icon = "title_chara_chuchun",
+		type = 3,
+		link_event = 0,
 		title = "하츠하루의 고민 ",
 		memories = {
 			642,
@@ -3974,10 +4186,11 @@ pg.base.memory_group = {
 		}
 	},
 	[536] = {
-		icon = "title_chara_wensensi",
-		subtype = 0,
-		type = 3,
 		id = 536,
+		subtype = 0,
+		icon = "title_chara_wensensi",
+		type = 3,
+		link_event = 0,
 		title = "동생의 변화 ",
 		memories = {
 			649,
@@ -3990,10 +4203,11 @@ pg.base.memory_group = {
 		}
 	},
 	[537] = {
-		icon = "title_chara_xiefeierde",
-		subtype = 0,
-		type = 3,
 		id = 537,
+		subtype = 0,
+		icon = "title_chara_xiefeierde",
+		type = 3,
+		link_event = 0,
 		title = "탄환과, 사랑을 담아 ",
 		memories = {
 			656,
@@ -4006,10 +4220,11 @@ pg.base.memory_group = {
 		}
 	},
 	[538] = {
-		icon = "title_chara_tianlangxing",
-		subtype = 0,
-		type = 3,
 		id = 538,
+		subtype = 0,
+		icon = "title_chara_tianlangxing",
+		type = 3,
+		link_event = 0,
 		title = "시리우스 개조 계획 ",
 		memories = {
 			663,
@@ -4022,10 +4237,11 @@ pg.base.memory_group = {
 		}
 	},
 	[539] = {
-		icon = "title_chara_yanzhan",
-		subtype = 0,
-		type = 3,
 		id = 539,
+		subtype = 0,
+		icon = "title_chara_yanzhan",
+		type = 3,
+		link_event = 0,
 		title = "나이트 오브 로열 네이비 ",
 		memories = {
 			670,
@@ -4038,10 +4254,11 @@ pg.base.memory_group = {
 		}
 	},
 	[540] = {
-		icon = "title_chara_xianggelila",
-		subtype = 0,
-		type = 3,
 		id = 540,
+		subtype = 0,
+		icon = "title_chara_xianggelila",
+		type = 3,
+		link_event = 0,
 		title = "기행의 사프란 ",
 		memories = {
 			689,
@@ -4054,10 +4271,11 @@ pg.base.memory_group = {
 		}
 	},
 	[542] = {
-		icon = "title_chara_sipei",
-		subtype = 0,
-		type = 3,
 		id = 542,
+		subtype = 0,
+		icon = "title_chara_sipei",
+		type = 3,
+		link_event = 0,
 		title = "항만 ",
 		memories = {
 			768,
@@ -4070,10 +4288,11 @@ pg.base.memory_group = {
 		}
 	},
 	[543] = {
-		icon = "title_chara_qiaozhiwushi",
-		subtype = 0,
-		type = 3,
 		id = 543,
+		subtype = 0,
+		icon = "title_chara_qiaozhiwushi",
+		type = 3,
+		link_event = 0,
 		title = "또 다른 지도자?",
 		memories = {
 			778,
@@ -4086,10 +4305,11 @@ pg.base.memory_group = {
 		}
 	},
 	[544] = {
-		icon = "title_chara_u556story",
-		subtype = 0,
-		type = 3,
 		id = 544,
+		subtype = 0,
+		icon = "title_chara_u556story",
+		type = 3,
+		link_event = 0,
 		title = "기사의 맹세!",
 		memories = {
 			785,
@@ -4102,10 +4322,11 @@ pg.base.memory_group = {
 		}
 	},
 	[545] = {
-		icon = "title_chara_jiqi",
-		subtype = 0,
-		type = 3,
 		id = 545,
+		subtype = 0,
+		icon = "title_chara_jiqi",
+		type = 3,
+		link_event = 0,
 		title = "어린 애가 아니야! ",
 		memories = {
 			844,
@@ -4118,10 +4339,11 @@ pg.base.memory_group = {
 		}
 	},
 	[546] = {
-		icon = "title_chara_zhala",
-		subtype = 0,
-		type = 3,
 		id = 546,
+		subtype = 0,
+		icon = "title_chara_zhala",
+		type = 3,
+		link_event = 0,
 		title = "피안의 장미 ",
 		memories = {
 			900,
@@ -4134,10 +4356,11 @@ pg.base.memory_group = {
 		}
 	},
 	[547] = {
-		icon = "title_chara_afuleer",
-		subtype = 0,
-		type = 3,
 		id = 547,
+		subtype = 0,
+		icon = "title_chara_afuleer",
+		type = 3,
+		link_event = 0,
 		title = "아브로라와 유쾌한 동료들 ",
 		memories = {
 			1142,
@@ -4150,10 +4373,11 @@ pg.base.memory_group = {
 		}
 	},
 	[548] = {
-		icon = "title_chara_juanbo",
-		subtype = 0,
-		type = 3,
 		id = 548,
+		subtype = 0,
+		icon = "title_chara_juanbo",
+		type = 3,
+		link_event = 0,
 		title = "스마일 Overflow！ ",
 		memories = {
 			1204,
@@ -4166,10 +4390,11 @@ pg.base.memory_group = {
 		}
 	},
 	[549] = {
-		icon = "title_chara_botelan",
-		subtype = 0,
-		type = 3,
 		id = 549,
+		subtype = 0,
+		icon = "title_chara_botelan",
+		type = 3,
+		link_event = 0,
 		title = "인디짱의 스마일을 위해!",
 		memories = {
 			1321,
@@ -4182,10 +4407,11 @@ pg.base.memory_group = {
 		}
 	},
 	[550] = {
-		icon = "title_chara_guanghui",
-		subtype = 0,
-		type = 3,
 		id = 550,
+		subtype = 0,
+		icon = "title_chara_guanghui",
+		type = 3,
+		link_event = 0,
 		title = "숙녀의 작은 제안 ",
 		memories = {
 			1331,
@@ -4198,10 +4424,11 @@ pg.base.memory_group = {
 		}
 	},
 	[551] = {
-		icon = "title_chara_fanji",
-		subtype = 0,
-		type = 3,
 		id = 551,
+		subtype = 0,
+		icon = "title_chara_fanji",
+		type = 3,
+		link_event = 0,
 		title = "미소 뒤의 진심",
 		memories = {
 			1401,
@@ -4214,10 +4441,11 @@ pg.base.memory_group = {
 		}
 	},
 	[552] = {
-		icon = "title_chara_xipeier",
-		subtype = 0,
-		type = 3,
 		id = 552,
+		subtype = 0,
+		icon = "title_chara_xipeier",
+		type = 3,
+		link_event = 0,
 		title = "행복의 패러다임",
 		memories = {
 			1461,
@@ -4230,10 +4458,11 @@ pg.base.memory_group = {
 		}
 	},
 	[553] = {
-		icon = "title_chara_kente",
-		subtype = 0,
-		type = 3,
 		id = 553,
+		subtype = 0,
+		icon = "title_chara_kente",
+		type = 3,
+		link_event = 0,
 		title = "GO! 켄트 선수!",
 		memories = {
 			1471,
@@ -4246,10 +4475,11 @@ pg.base.memory_group = {
 		}
 	},
 	[554] = {
-		icon = "title_chara_zhuiganzhe",
-		subtype = 0,
-		type = 3,
 		id = 554,
+		subtype = 0,
+		icon = "title_chara_zhuiganzhe",
+		type = 3,
+		link_event = 0,
 		title = "「아가씨」와 함께하는 시간",
 		memories = {
 			1521,
@@ -4262,10 +4492,11 @@ pg.base.memory_group = {
 		}
 	},
 	[555] = {
-		icon = "title_chara_gelasige",
-		subtype = 0,
-		type = 3,
 		id = 555,
+		subtype = 0,
+		icon = "title_chara_gelasige",
+		type = 3,
+		link_event = 0,
 		title = "그것은…연애의 계절",
 		memories = {
 			1561,
@@ -4278,10 +4509,11 @@ pg.base.memory_group = {
 		}
 	},
 	[556] = {
-		icon = "title_chara_beilaluosi",
-		subtype = 0,
-		type = 3,
 		id = 556,
+		subtype = 0,
+		icon = "title_chara_beilaluosi",
+		type = 3,
+		link_event = 0,
 		title = "씩씩한 흰색",
 		memories = {
 			1571,
@@ -4294,10 +4526,11 @@ pg.base.memory_group = {
 		}
 	},
 	[557] = {
-		icon = "title_chara_danfo",
-		subtype = 0,
-		type = 3,
 		id = 557,
+		subtype = 0,
+		icon = "title_chara_danfo",
+		type = 3,
+		link_event = 0,
 		title = "덴버의 모항 의뢰!",
 		memories = {
 			1581,
@@ -4310,10 +4543,11 @@ pg.base.memory_group = {
 		}
 	},
 	[558] = {
-		icon = "title_chara_ailunsamuna",
-		subtype = 0,
-		type = 3,
 		id = 558,
+		subtype = 0,
+		icon = "title_chara_ailunsamuna",
+		type = 3,
+		link_event = 0,
 		title = "3성 럭셔리 로맨스",
 		memories = {
 			1591,
@@ -4326,10 +4560,11 @@ pg.base.memory_group = {
 		}
 	},
 	[559] = {
-		icon = "title_chara_shiyu",
-		subtype = 0,
-		type = 3,
 		id = 559,
+		subtype = 0,
+		icon = "title_chara_shiyu",
+		type = 3,
+		link_event = 0,
 		title = "걱정 많은 그녀는 진지해",
 		memories = {
 			1641,
@@ -4342,10 +4577,11 @@ pg.base.memory_group = {
 		}
 	},
 	[560] = {
-		icon = "title_chara_tianying",
-		subtype = 0,
-		type = 3,
 		id = 560,
+		subtype = 0,
+		icon = "title_chara_tianying",
+		type = 3,
+		link_event = 0,
 		title = "레이디의 학습 일지",
 		memories = {
 			1651,
@@ -4358,10 +4594,11 @@ pg.base.memory_group = {
 		}
 	},
 	[561] = {
-		icon = "title_chara_u47",
-		subtype = 0,
-		type = 3,
 		id = 561,
+		subtype = 0,
+		icon = "title_chara_u47",
+		type = 3,
+		link_event = 0,
 		title = "상냥하고 조용한, 그리고 따뜻한",
 		memories = {
 			1671,
@@ -4374,10 +4611,11 @@ pg.base.memory_group = {
 		}
 	},
 	[562] = {
-		icon = "title_chara_naerxun",
-		subtype = 0,
-		type = 3,
 		id = 562,
+		subtype = 0,
+		icon = "title_chara_naerxun",
+		type = 3,
+		link_event = 0,
 		title = "솔직하지 못한 마음",
 		memories = {
 			1716,
@@ -4390,10 +4628,11 @@ pg.base.memory_group = {
 		}
 	},
 	[563] = {
-		icon = "title_chara_boyixi",
-		subtype = 0,
-		type = 3,
 		id = 563,
+		subtype = 0,
+		icon = "title_chara_boyixi",
+		type = 3,
+		link_event = 0,
 		title = "맛있는 티라미수",
 		memories = {
 			1725,
@@ -4406,10 +4645,11 @@ pg.base.memory_group = {
 		}
 	},
 	[564] = {
-		icon = "title_chara_fusang",
-		subtype = 0,
-		type = 3,
 		id = 564,
+		subtype = 0,
+		icon = "title_chara_fusang",
+		type = 3,
+		link_event = 0,
 		title = "벚꽃이 흩날리던 그날 이후",
 		memories = {
 			1736,
@@ -4422,10 +4662,11 @@ pg.base.memory_group = {
 		}
 	},
 	[565] = {
-		icon = "title_chara_guinu",
-		subtype = 0,
-		type = 3,
 		id = 565,
+		subtype = 0,
+		icon = "title_chara_guinu",
+		type = 3,
+		link_event = 0,
 		title = "악귀처럼 매서운 추위",
 		memories = {
 			1771,
@@ -4438,10 +4679,11 @@ pg.base.memory_group = {
 		}
 	},
 	[566] = {
-		icon = "title_chara_dahuangfeng",
-		subtype = 0,
-		type = 3,
 		id = 566,
+		subtype = 0,
+		icon = "title_chara_dahuangfeng",
+		type = 3,
+		link_event = 0,
 		title = "카우보이처럼!",
 		memories = {
 			1781,
@@ -4454,10 +4696,11 @@ pg.base.memory_group = {
 		}
 	},
 	[567] = {
-		icon = "title_chara_kasabulanka",
-		subtype = 0,
-		type = 3,
 		id = 567,
+		subtype = 0,
+		icon = "title_chara_kasabulanka",
+		type = 3,
+		link_event = 0,
 		title = "갑작스런 로맨스",
 		memories = {
 			1791,
@@ -4470,10 +4713,11 @@ pg.base.memory_group = {
 		}
 	},
 	[568] = {
-		icon = "title_chara_mabuerheide",
-		subtype = 0,
-		type = 3,
 		id = 568,
+		subtype = 0,
+		icon = "title_chara_mabuerheide",
+		type = 3,
+		link_event = 0,
 		title = "태양을 닮은 소녀",
 		memories = {
 			1841,
@@ -4486,10 +4730,11 @@ pg.base.memory_group = {
 		}
 	},
 	[569] = {
-		icon = "title_chara_daofeng",
-		subtype = 0,
-		type = 3,
 		id = 569,
+		subtype = 0,
+		icon = "title_chara_daofeng",
+		type = 3,
+		link_event = 0,
 		title = "급할수록 돌아가라",
 		memories = {
 			1851,
@@ -4502,10 +4747,11 @@ pg.base.memory_group = {
 		}
 	},
 	[570] = {
-		icon = "title_chara_junhe",
-		subtype = 0,
-		type = 3,
 		id = 570,
+		subtype = 0,
+		icon = "title_chara_junhe",
+		type = 3,
+		link_event = 0,
 		title = "매력 발산 MAX!",
 		memories = {
 			1861,
@@ -4518,10 +4764,11 @@ pg.base.memory_group = {
 		}
 	},
 	[571] = {
-		icon = "title_chara_wuerlixi",
-		subtype = 0,
-		type = 3,
 		id = 571,
+		subtype = 0,
+		icon = "title_chara_wuerlixi",
+		type = 3,
+		link_event = 0,
 		title = "essential.",
 		memories = {
 			1995,
@@ -4534,10 +4781,11 @@ pg.base.memory_group = {
 		}
 	},
 	[572] = {
-		icon = "title_chara_aisijimoren",
-		subtype = 0,
-		type = 3,
 		id = 572,
+		subtype = 0,
+		icon = "title_chara_aisijimoren",
+		type = 3,
+		link_event = 0,
 		title = "여름의 \"서프라이즈\"",
 		memories = {
 			2041,
@@ -4550,10 +4798,11 @@ pg.base.memory_group = {
 		}
 	},
 	[573] = {
-		icon = "title_chara_aidingbao",
-		subtype = 0,
-		type = 3,
 		id = 573,
+		subtype = 0,
+		icon = "title_chara_aidingbao",
+		type = 3,
+		link_event = 0,
 		title = "\"나\"만의 가치",
 		memories = {
 			2063,
@@ -4566,10 +4815,11 @@ pg.base.memory_group = {
 		}
 	},
 	[574] = {
-		icon = "title_chara_hailunna",
-		subtype = 0,
-		type = 3,
 		id = 574,
+		subtype = 0,
+		icon = "title_chara_hailunna",
+		type = 3,
+		link_event = 0,
 		title = "폭풍우와 호박엿",
 		memories = {
 			2121,
@@ -4582,10 +4832,11 @@ pg.base.memory_group = {
 		}
 	},
 	[575] = {
-		icon = "title_chara_xinanfeng",
-		subtype = 0,
-		type = 3,
 		id = 575,
+		subtype = 0,
+		icon = "title_chara_xinanfeng",
+		type = 3,
+		link_event = 0,
 		title = "리베치오, 전속 전진!",
 		memories = {
 			2171,
@@ -4598,10 +4849,11 @@ pg.base.memory_group = {
 		}
 	},
 	[576] = {
-		icon = "title_chara_jiaweisi",
-		subtype = 0,
-		type = 3,
 		id = 576,
+		subtype = 0,
+		icon = "title_chara_jiaweisi",
+		type = 3,
+		link_event = 0,
 		title = "좋아한다고 말해",
 		memories = {
 			2201,
@@ -4614,10 +4866,11 @@ pg.base.memory_group = {
 		}
 	},
 	[577] = {
-		icon = "title_chara_shuixingjinian",
-		subtype = 0,
-		type = 3,
 		id = 577,
+		subtype = 0,
+		icon = "title_chara_shuixingjinian",
+		type = 3,
+		link_event = 0,
 		title = "라벤더 향기의 “악마”",
 		memories = {
 			2261,
@@ -4630,10 +4883,11 @@ pg.base.memory_group = {
 		}
 	},
 	[578] = {
-		icon = "title_chara_neihuada",
-		subtype = 0,
-		type = 3,
 		id = 578,
+		subtype = 0,
+		icon = "title_chara_neihuada",
+		type = 3,
+		link_event = 0,
 		title = "카우보이와의 여행",
 		memories = {
 			2341,
@@ -4646,10 +4900,11 @@ pg.base.memory_group = {
 		}
 	},
 	[579] = {
-		icon = "title_chara_huayue",
-		subtype = 0,
-		type = 3,
 		id = 579,
+		subtype = 0,
+		icon = "title_chara_huayue",
+		type = 3,
+		link_event = 0,
 		title = "꽃말",
 		memories = {
 			2371,
@@ -4662,10 +4917,11 @@ pg.base.memory_group = {
 		}
 	},
 	[580] = {
-		icon = "title_chara_bulvxieer",
-		subtype = 0,
-		type = 3,
 		id = 580,
+		subtype = 0,
+		icon = "title_chara_bulvxieer",
+		type = 3,
+		link_event = 0,
 		title = "애정 공세!",
 		memories = {
 			2391,
@@ -4678,10 +4934,11 @@ pg.base.memory_group = {
 		}
 	},
 	[581] = {
-		icon = "title_chara_aerfuleiduo",
-		subtype = 0,
-		type = 3,
 		id = 581,
+		subtype = 0,
+		icon = "title_chara_aerfuleiduo",
+		type = 3,
+		link_event = 0,
 		title = "<모항 비화> 특별판",
 		memories = {
 			2451,
@@ -4694,10 +4951,11 @@ pg.base.memory_group = {
 		}
 	},
 	[582] = {
-		icon = "title_chara_yinggelahan",
-		subtype = 0,
-		type = 3,
 		id = 582,
+		subtype = 0,
+		icon = "title_chara_yinggelahan",
+		type = 3,
+		link_event = 0,
 		title = "눈에 깃든 빛을 위하여",
 		memories = {
 			2511,
@@ -4710,10 +4968,11 @@ pg.base.memory_group = {
 		}
 	},
 	[583] = {
-		icon = "title_chara_xiyatu",
-		subtype = 0,
-		type = 3,
 		id = 583,
+		subtype = 0,
+		icon = "title_chara_xiyatu",
+		type = 3,
+		link_event = 0,
 		title = "떠들썩한 '세계 여행' 파티",
 		memories = {
 			2561,
@@ -4726,10 +4985,11 @@ pg.base.memory_group = {
 		}
 	},
 	[584] = {
-		icon = "title_chara_tuolichaili",
-		subtype = 0,
-		type = 3,
 		id = 584,
+		subtype = 0,
+		icon = "title_chara_tuolichaili",
+		type = 3,
+		link_event = 0,
 		title = "햇빛이 빛나는 밖",
 		memories = {
 			2601,
@@ -4742,10 +5002,11 @@ pg.base.memory_group = {
 		}
 	},
 	[585] = {
-		icon = "title_chara_liekexingdun",
-		subtype = 0,
-		type = 3,
 		id = 585,
+		subtype = 0,
+		icon = "title_chara_liekexingdun",
+		type = 3,
+		link_event = 0,
 		title = "푸른 바다에 바치는 노래",
 		memories = {
 			2651,
@@ -4758,10 +5019,11 @@ pg.base.memory_group = {
 		}
 	},
 	[586] = {
-		icon = "title_chara_yade",
-		subtype = 0,
-		type = 3,
 		id = 586,
+		subtype = 0,
+		icon = "title_chara_yade",
+		type = 3,
+		link_event = 0,
 		title = "“착한 아이”의 게으름 피우기 시간",
 		memories = {
 			2761,
@@ -4774,10 +5036,11 @@ pg.base.memory_group = {
 		}
 	},
 	[587] = {
-		icon = "title_chara_saidelici",
-		subtype = 0,
-		type = 3,
 		id = 587,
+		subtype = 0,
+		icon = "title_chara_saidelici",
+		type = 3,
+		link_event = 0,
 		title = "피어나는 아이언 로즈",
 		memories = {
 			2771,

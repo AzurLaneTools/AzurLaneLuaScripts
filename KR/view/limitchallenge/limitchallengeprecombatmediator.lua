@@ -34,7 +34,7 @@ function slot0.register(slot0)
 	slot0.contextData.fleetIndex = slot0.contextData.fleetIndex or 1
 
 	slot0.viewComponent:SetCurrentFleet(slot3[slot0.contextData.fleetIndex].id)
-	slot0.viewComponent:SetSubFlag(slot3[#slot3]:isLegalToFight())
+	slot0.viewComponent:SetSubFlag(slot3[#slot3]:isLegalToFight() == true)
 	slot0.viewComponent:SetStageID(slot0.contextData.stageId)
 end
 
@@ -158,6 +158,24 @@ function slot0.bindEvent(slot0)
 						return
 					end
 
+					slot5 = uv0.contextData.actId
+
+					if _.any(slot1:getShipIds(), function (slot0)
+						if not getProxy(BayProxy):RawGetShipById(slot0) then
+							return
+						end
+
+						slot2, slot3 = ShipStatus.ShipStatusCheck("inChallenge", slot1)
+
+						if not slot2 then
+							pg.TipsMgr.GetInstance():ShowTips(slot3)
+
+							return true
+						end
+					end) then
+						return
+					end
+
 					slot2()
 				end, slot0)
 			end,
@@ -223,7 +241,7 @@ function slot0.refreshEdit(slot0, slot1)
 
 	slot2 = slot0.contextData.fleets
 
-	slot0.viewComponent:SetSubFlag(slot2[#slot2]:isLegalToFight())
+	slot0.viewComponent:SetSubFlag(slot2[#slot2]:isLegalToFight() == true)
 	getProxy(FleetProxy):updateFleet(slot1)
 end
 

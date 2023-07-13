@@ -15555,7 +15555,7 @@ pg.base.furniture_data_template = {
 		},
 		followBone = {
 			"char",
-			-1
+			1
 		},
 		interAction_group = {}
 	},
@@ -19359,7 +19359,7 @@ pg.base.furniture_data_template = {
 	},
 	[100040] = {
 		spine_extra = "",
-		describe = "밝은 태양과 모래사장! 수박과 아이스크림! 열정의 여름이 바로 눈앞에!",
+		describe = "쨍쨍한 햇빛에 해변가! 수박에 아이스크림까지! 정열의 여름이 왔다삐약!",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -19376,7 +19376,7 @@ pg.base.furniture_data_template = {
 		level = 1,
 		advice = 0,
 		effect = "",
-		name = "쥬쥬 날씨 상자(여름)",
+		name = "만쥬 날씨 상자 (여름)",
 		comfortable = 0,
 		spine_action_replace = "",
 		picture = "",
@@ -20029,7 +20029,7 @@ pg.base.furniture_data_template = {
 	},
 	[100050] = {
 		spine_extra = "",
-		describe = "절대 방어 보여준다!",
+		describe = "절대 방어다삐약!",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -20039,7 +20039,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		count = 1,
 		is_3d_obj = 0,
-		name = "실드 생성 장치(전시용)",
+		name = "실드 생성 장치 (전시용)",
 		themeId = 0,
 		icon = "pingzhanglichangicon",
 		deblocking = 1,
@@ -117643,7 +117643,7 @@ pg.base.furniture_data_template = {
 			},
 			{
 				{
-					13.1,
+					7.4,
 					92.3
 				},
 				{
@@ -117653,7 +117653,7 @@ pg.base.furniture_data_template = {
 				"xy/miaorenouxy_mask"
 			},
 			{
-				-29,
+				2.4,
 				-102
 			},
 			{
@@ -117664,7 +117664,7 @@ pg.base.furniture_data_template = {
 		},
 		followBone = {
 			"char",
-			-1
+			1
 		},
 		interAction_group = {}
 	},

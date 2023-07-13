@@ -38,7 +38,7 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == NewBattleResultMediator.ON_ENTER_BATTLE_RESULT then
-		slot0:sendNotification(BattleResultMediator.SET_SKIP_FLAG, true)
+		slot0:sendNotification(NewBattleResultMediator.SET_SKIP_FLAG, true)
 		slot0.viewComponent:OnEnterBattleResult()
 	elseif slot2 == NewBattleResultMediator.ON_COMPLETE_BATTLE_RESULT then
 		slot0.viewComponent:AnimatingSlider()

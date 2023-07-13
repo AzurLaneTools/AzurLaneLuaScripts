@@ -88,73 +88,52 @@ function slot0.Entrance(slot0, slot1)
 end
 
 function slot0.Exit(slot0, slot1)
-	slot2 = pg.battle_cost_template[SYSTEM_HP_SHARE_ACT_BOSS]
-	slot3 = getProxy(FleetProxy)
 	slot4 = getProxy(BayProxy)
 	slot0.statistics._battleScore = ys.Battle.BattleConst.BattleScore.S
-	slot6 = getProxy(ActivityProxy)
-	slot6 = slot6:getActivityById(slot0.actId)
-	slot9 = pg.activity_event_worldboss[slot6:getConfig("config_id")].use_oil_limit[slot0.mainFleetId]
-	slot10 = slot6:IsOilLimit(slot0.stageId)
-	slot14 = 0
-	slot15 = {}
+	slot6 = getProxy(ActivityProxy):getActivityById(slot0.actId)
+	slot14 = nil
+	slot15 = 0
 	slot16 = {}
+	slot17 = {}
+	slot18 = pg.battle_cost_template[SYSTEM_HP_SHARE_ACT_BOSS].oil_cost > 0
 
-	(function (slot0)
-		slot1 = slot0:getStartCost()
-		slot3 = slot0:getEndCost().oil
+	(function (slot0, slot1)
+		if uv0 then
+			slot2 = slot0:getEndCost().oil
 
-		if uv0 and uv1[1] > 0 then
-			slot3 = math.clamp(uv1[1] - slot1.oil, 0, slot2.oil)
+			if slot1 > 0 then
+				slot2 = math.clamp(slot1 - slot0:getStartCost().oil, 0, slot2)
+			end
+
+			uv1 = uv1 + slot2
 		end
 
-		for slot7, slot8 in pairs(slot0.commanderIds) do
-			table.insert(uv2, slot8)
-		end
-
-		uv3 = uv4:getSortShipsByFleet(slot0)
-		uv5 = uv5 + slot3
-	end)(slot3:getActivityFleets()[slot0.actId][slot0.mainFleetId])
-
-	function slot18(slot0)
-		slot1 = slot0:getStartCost()
-		slot3 = slot0:getEndCost().oil
-
-		if uv0 and uv1[2] > 0 then
-			slot3 = math.clamp(uv1[2] - slot1.oil, 0, slot2.oil)
-		end
-
-		for slot7, slot8 in pairs(slot0.commanderIds) do
-			table.insert(uv2, slot8)
-		end
-
-		table.insertto(uv4, uv3:getShipsByFleet(slot0))
-
-		uv5 = uv5 + slot3
-	end
+		table.insertto(uv2, uv3:getSortShipsByFleet(slot0))
+		table.insertto(uv4, slot0.commanderIds)
+	end)(getProxy(FleetProxy):getActivityFleets()[slot0.actId][slot0.mainFleetId], slot6:IsOilLimit(slot0.stageId) and pg.activity_event_worldboss[slot6:getConfig("config_id")].use_oil_limit[slot0.mainFleetId][1] or 0)
 
 	if slot0.statistics.submarineAid then
 		if slot12[slot0.mainFleetId + 10] then
-			slot18(slot19)
+			slot19(slot14, slot10 and slot9[2] or 0)
 		else
 			originalPrint("finish stage error: can not find submarin fleet.")
 		end
 	end
 
-	slot1.GeneralPackage(slot0, slot15).commander_id_list = slot16
-	slot20 = {}
+	slot1.GeneralPackage(slot0, slot16).commander_id_list = slot17
+	slot21 = {}
 
-	for slot24, slot25 in ipairs(slot0.statistics._enemyInfoList) do
-		table.insert(slot20, {
-			enemy_id = slot25.id,
-			damage_taken = slot25.damage,
-			total_hp = slot25.totalHp
+	for slot25, slot26 in ipairs(slot0.statistics._enemyInfoList) do
+		table.insert(slot21, {
+			enemy_id = slot26.id,
+			damage_taken = slot26.damage,
+			total_hp = slot26.totalHp
 		})
 	end
 
-	slot19.enemy_info = slot20
+	slot20.enemy_info = slot21
 
-	slot1:SendRequest(slot19, function (slot0)
+	slot1:SendRequest(slot20, function (slot0)
 		uv0.addShipsExp(slot0.ship_exp_list, uv1.statistics, true)
 
 		uv1.statistics.mvpShipID = slot0.mvp
@@ -168,7 +147,7 @@ function slot0.Exit(slot0, slot1)
 			statistics = uv1.statistics,
 			score = uv2,
 			drops = slot1,
-			commanderExps = uv0.GenerateCommanderExp(slot0, uv3, uv4[uv1.mainFleetId + 10]),
+			commanderExps = uv0.GenerateCommanderExp(slot0, uv3, uv4),
 			result = slot0.result,
 			extraDrops = slot2
 		})

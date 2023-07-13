@@ -88,12 +88,12 @@ function slot0.Exit(slot0, slot1)
 	slot7 = 0
 	slot8 = nil
 	slot11 = getProxy(FleetProxy):getActivityFleets()[slot0.actId][slot0.mainFleetId]
-	slot8 = bayProxy:getShipsByFleet(slot11)
+	slot8 = bayProxy:getSortShipsByFleet(slot11)
 	slot7 = slot11:getEndCost().oil
 
 	if slot0.statistics.submarineAid then
 		if slot3:getActivityFleets()[slot0.actId][Fleet.SUBMARINE_FLEET_ID] then
-			for slot20, slot21 in ipairs(bayProxy:getShipsByFleet(slot15)) do
+			for slot20, slot21 in ipairs(bayProxy:getSortShipsByFleet(slot15)) do
 				if slot0.statistics[slot21.id] then
 					table.insert(slot8, slot21)
 

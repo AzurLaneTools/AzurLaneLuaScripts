@@ -1,6 +1,360 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
+	[205061] = {
+		ship_group = 20506,
+		name = "윈저의 태양",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "106",
+		l2d_drag_rate = "",
+		group_index = 1,
+		id = 205061,
+		painting = "weiershiqinwang_2",
+		prefab = "weiershiqinwang_2",
+		air_bullet_skin = "",
+		shop_id = 70011,
+		shop_type_id = 6,
+		air_bomb_skin = "",
+		illustrator = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "비치발리볼은 별로 내키진 않지만, 뭐, 모처럼 후드의 부탁이니…… 저기, 뭐지? 거기 있는 「태양보다 찬란한 레이디」 씨? 응원 좀 부탁해!",
+		voice_actor = 12,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand2",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.56,
+					1.3,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.56,
+					0.61,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.24,
+					0.03,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.56,
+					0.61,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.2,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[205062] = {
+		ship_group = 20506,
+		name = "로열 네이비의 풍류 ",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "101",
+		l2d_drag_rate = "",
+		group_index = 2,
+		id = 205062,
+		painting = "weiershiqinwang_4",
+		prefab = "weiershiqinwang_4",
+		air_bullet_skin = "",
+		shop_id = 70133,
+		shop_type_id = 2,
+		air_bomb_skin = "",
+		illustrator = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "가끔은 로열 네이비가 아닌, 타국의 풍류도 좋네. 지휘관, 마침 잘 됐어. 이곳의 '정월'이란 건 어떻게 보내는 건지 설명해줘. ",
+		voice_actor = 12,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand2",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.002,
+					0.734,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.219,
+					0.773,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.24,
+					0.03,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.459,
+					0.742,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.2,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[205064] = {
+		ship_group = 20506,
+		name = "영광의 빅토리 레이싱",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "132",
+		l2d_drag_rate = "",
+		group_index = 4,
+		id = 205064,
+		painting = "weiershiqinwang_3",
+		prefab = "weiershiqinwang_3",
+		air_bullet_skin = "",
+		shop_id = 70387,
+		shop_type_id = 14,
+		air_bomb_skin = "",
+		illustrator = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관인가. 걱정 하지마, 맡은 업무는 당연히 마지막까지 해낼 거니까——게다가 누군가와 경쟁하고 싶은 이런 기분은 아주 오랜만이군. 후훗.",
+		voice_actor = 12,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand2",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.951,
+					1.039,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.011,
+					1.111,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.009,
+					-0.019,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.987,
+					1.047,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.721,
+							2.307,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[205070] = {
 		ship_group = 20507,
 		name = "듀크 오브 요크",
@@ -10857,356 +11211,6 @@ pg.base.ship_skin_template_7 = {
 		},
 		l2d_voice_calibrate = {
 			propose = 2.5
-		}
-	},
-	[301051] = {
-		ship_group = 30105,
-		name = "해질녘의 마녀",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		l2d_drag_rate = "",
-		group_index = 1,
-		id = 301051,
-		painting = "lingbo_2",
-		prefab = "lingbo_2",
-		air_bullet_skin = "",
-		shop_id = 70019,
-		shop_type_id = 8,
-		air_bomb_skin = "",
-		illustrator = 2,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "핼러윈에 참석하려면 이런 옷을 입지 않으면 안 돼, 라는 말을 들었어요. 지휘관… 지금의 제 모습은 귀여운가요?",
-		voice_actor = 32,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.34,
-					0.74,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.34,
-					0.74,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0.11,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.34,
-					0.74,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.65,
-							2.74,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301053] = {
-		ship_group = 30105,
-		name = "Gwisin of Rock",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "",
-		l2d_drag_rate = "",
-		group_index = 3,
-		id = 301053,
-		painting = "Lingbo_4",
-		prefab = "Lingbo_4",
-		air_bullet_skin = "",
-		shop_id = 70061,
-		shop_type_id = 9999,
-		air_bomb_skin = "",
-		illustrator = 2,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "지휘관, 같이 음악 듣는 건 어떤가요? 병기가 아닌 아야나미… 좋아하나요?",
-		voice_actor = 32,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.57,
-					0.46,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.54,
-					0.43,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.16,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.55,
-					0.41,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.63,
-							2.53,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301054] = {
-		ship_group = 30105,
-		name = "파도신년 ",
-		bullet_skin_secondary = "",
-		hand_id = 14,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "102",
-		l2d_drag_rate = "",
-		group_index = 4,
-		id = 301054,
-		painting = "lingbo_5",
-		prefab = "lingbo_5",
-		air_bullet_skin = "",
-		shop_id = 70153,
-		shop_type_id = 3,
-		air_bomb_skin = "",
-		illustrator = 2,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "이스트 글림의 정월과 사쿠라 엠파이어의 정월, 꽤 분위기가 다르… 네요. 다 같이 왁자지껄 떠드는 분위기도 나쁘지 않아요. 지휘관도 이런 명절이 좋은…가요? ",
-		voice_actor = 32,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.286,
-					1.007,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.228,
-					0.977,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.16,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.286,
-					1.026,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.63,
-							2.53,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }

@@ -53,6 +53,8 @@ slot2 = {
 	SC_11003_RANDOM_SHIP_MODE_FIELD = slot0.FieldDescriptor(),
 	SC_11003_RANDOM_SHIP_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11003_MARRY_SHIP_FIELD = slot0.FieldDescriptor(),
+	SC_11003_TAKING_SHIP_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_11003_SOUNDSTORY_FIELD = slot0.FieldDescriptor(),
 	SC_11004_RESOURCE_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_11005_TYPE_FIELD = slot0.FieldDescriptor(),
 	CS_11005_ID_FIELD = slot0.FieldDescriptor(),
@@ -260,7 +262,9 @@ slot2 = {
 	SC_11754_AWARD_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_11755_TYPE_FIELD = slot0.FieldDescriptor(),
 	SC_11756_RESULT_FIELD = slot0.FieldDescriptor(),
-	SC_11756_AWARD_LIST_FIELD = slot0.FieldDescriptor()
+	SC_11756_AWARD_LIST_FIELD = slot0.FieldDescriptor(),
+	SHIP_TAKING_DATA_UID_FIELD = slot0.FieldDescriptor(),
+	SHIP_TAKING_DATA_ISNEW_FIELD = slot0.FieldDescriptor()
 }
 SC_11000 = slot0.Descriptor()
 CS_11001 = slot0.Descriptor()
@@ -358,6 +362,7 @@ CS_11753 = slot0.Descriptor()
 SC_11754 = slot0.Descriptor()
 CS_11755 = slot0.Descriptor()
 SC_11756 = slot0.Descriptor()
+SHIP_TAKING_DATA = slot0.Descriptor()
 slot2.SC_11000_TIMESTAMP_FIELD.name = "timestamp"
 slot2.SC_11000_TIMESTAMP_FIELD.full_name = "p11.sc_11000.timestamp"
 slot2.SC_11000_TIMESTAMP_FIELD.number = 1
@@ -837,6 +842,25 @@ slot2.SC_11003_MARRY_SHIP_FIELD.has_default_value = false
 slot2.SC_11003_MARRY_SHIP_FIELD.default_value = 0
 slot2.SC_11003_MARRY_SHIP_FIELD.type = 13
 slot2.SC_11003_MARRY_SHIP_FIELD.cpp_type = 3
+slot2.SC_11003_TAKING_SHIP_LIST_FIELD.name = "taking_ship_list"
+slot2.SC_11003_TAKING_SHIP_LIST_FIELD.full_name = "p11.sc_11003.taking_ship_list"
+slot2.SC_11003_TAKING_SHIP_LIST_FIELD.number = 44
+slot2.SC_11003_TAKING_SHIP_LIST_FIELD.index = 43
+slot2.SC_11003_TAKING_SHIP_LIST_FIELD.label = 3
+slot2.SC_11003_TAKING_SHIP_LIST_FIELD.has_default_value = false
+slot2.SC_11003_TAKING_SHIP_LIST_FIELD.default_value = {}
+slot2.SC_11003_TAKING_SHIP_LIST_FIELD.message_type = SHIP_TAKING_DATA
+slot2.SC_11003_TAKING_SHIP_LIST_FIELD.type = 11
+slot2.SC_11003_TAKING_SHIP_LIST_FIELD.cpp_type = 10
+slot2.SC_11003_SOUNDSTORY_FIELD.name = "soundstory"
+slot2.SC_11003_SOUNDSTORY_FIELD.full_name = "p11.sc_11003.soundstory"
+slot2.SC_11003_SOUNDSTORY_FIELD.number = 45
+slot2.SC_11003_SOUNDSTORY_FIELD.index = 44
+slot2.SC_11003_SOUNDSTORY_FIELD.label = 3
+slot2.SC_11003_SOUNDSTORY_FIELD.has_default_value = false
+slot2.SC_11003_SOUNDSTORY_FIELD.default_value = {}
+slot2.SC_11003_SOUNDSTORY_FIELD.type = 13
+slot2.SC_11003_SOUNDSTORY_FIELD.cpp_type = 3
 SC_11003.name = "sc_11003"
 SC_11003.full_name = "p11.sc_11003"
 SC_11003.nested_types = {}
@@ -884,7 +908,9 @@ SC_11003.fields = {
 	slot2.SC_11003_CARTOON_COLLECT_MARK_FIELD,
 	slot2.SC_11003_RANDOM_SHIP_MODE_FIELD,
 	slot2.SC_11003_RANDOM_SHIP_LIST_FIELD,
-	slot2.SC_11003_MARRY_SHIP_FIELD
+	slot2.SC_11003_MARRY_SHIP_FIELD,
+	slot2.SC_11003_TAKING_SHIP_LIST_FIELD,
+	slot2.SC_11003_SOUNDSTORY_FIELD
 }
 SC_11003.is_extendable = false
 SC_11003.extensions = {}
@@ -3734,6 +3760,34 @@ SC_11756.fields = {
 }
 SC_11756.is_extendable = false
 SC_11756.extensions = {}
+slot2.SHIP_TAKING_DATA_UID_FIELD.name = "uid"
+slot2.SHIP_TAKING_DATA_UID_FIELD.full_name = "p11.ship_taking_data.uid"
+slot2.SHIP_TAKING_DATA_UID_FIELD.number = 1
+slot2.SHIP_TAKING_DATA_UID_FIELD.index = 0
+slot2.SHIP_TAKING_DATA_UID_FIELD.label = 2
+slot2.SHIP_TAKING_DATA_UID_FIELD.has_default_value = false
+slot2.SHIP_TAKING_DATA_UID_FIELD.default_value = 0
+slot2.SHIP_TAKING_DATA_UID_FIELD.type = 13
+slot2.SHIP_TAKING_DATA_UID_FIELD.cpp_type = 3
+slot2.SHIP_TAKING_DATA_ISNEW_FIELD.name = "isnew"
+slot2.SHIP_TAKING_DATA_ISNEW_FIELD.full_name = "p11.ship_taking_data.isnew"
+slot2.SHIP_TAKING_DATA_ISNEW_FIELD.number = 2
+slot2.SHIP_TAKING_DATA_ISNEW_FIELD.index = 1
+slot2.SHIP_TAKING_DATA_ISNEW_FIELD.label = 2
+slot2.SHIP_TAKING_DATA_ISNEW_FIELD.has_default_value = false
+slot2.SHIP_TAKING_DATA_ISNEW_FIELD.default_value = 0
+slot2.SHIP_TAKING_DATA_ISNEW_FIELD.type = 13
+slot2.SHIP_TAKING_DATA_ISNEW_FIELD.cpp_type = 3
+SHIP_TAKING_DATA.name = "ship_taking_data"
+SHIP_TAKING_DATA.full_name = "p11.ship_taking_data"
+SHIP_TAKING_DATA.nested_types = {}
+SHIP_TAKING_DATA.enum_types = {}
+SHIP_TAKING_DATA.fields = {
+	slot2.SHIP_TAKING_DATA_UID_FIELD,
+	slot2.SHIP_TAKING_DATA_ISNEW_FIELD
+}
+SHIP_TAKING_DATA.is_extendable = false
+SHIP_TAKING_DATA.extensions = {}
 activityinfo = slot0.Message(ACTIVITYINFO)
 benefitbuff = slot0.Message(BENEFITBUFF)
 cardinfo = slot0.Message(CARDINFO)
@@ -3830,3 +3884,4 @@ sc_11754 = slot0.Message(SC_11754)
 sc_11756 = slot0.Message(SC_11756)
 sc_11801 = slot0.Message(SC_11801)
 sc_11802 = slot0.Message(SC_11802)
+ship_taking_data = slot0.Message(SHIP_TAKING_DATA)

@@ -32,6 +32,8 @@ end
 
 ReflectionHelp.RefSetField(typeof("ResourceMgr"), "_asyncMax", ResourceMgr.Inst, 30)
 
+tf(GameObject.Find("EventSystem")):GetComponent(typeof(EventSystem)).sendNavigationEvents = false
+
 if IsUnityEditor then
 	function luaIdeDebugFunc()
 		breakInfoFun = require("LuaDebugjit")("localhost", 7003)
@@ -79,6 +81,10 @@ end
 function OnApplicationExit()
 	originalPrint("OnApplicationExit")
 
+	if pg.FileDownloadMgr.GetInstance():IsRunning() then
+		return
+	end
+
 	if pg.NewStoryMgr.GetInstance():IsRunning() then
 		pg.NewStoryMgr.GetInstance():ForEscPress()
 
@@ -124,7 +130,7 @@ function OnApplicationExit()
 
 	if pg.ShareMgr.GetInstance().go and isActive(slot8.go) then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-		triggerButton(sharePanel:Find("main/top/btnBack"))
+		triggerButton(slot8.panel:Find("main/top/btnBack"))
 
 		return
 	end
@@ -261,6 +267,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.BgmMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.FileDownloadMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end

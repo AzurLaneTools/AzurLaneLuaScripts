@@ -143,20 +143,21 @@ function setWidgetTextEN(slot0, slot1, slot2)
 	setTextEN(findTF(slot0, slot2 or "Text"), slot1)
 end
 
-slot0 = true
-slot1 = -1
+slot0 = nil
+slot1 = true
+slot2 = -1
 
-function onButton(slot0, slot1, slot2, slot3, slot4)
-	slot5 = GetOrAddComponent(slot1, typeof(Button))
+function onButton(slot0, slot1, slot2, slot3)
+	slot4 = GetOrAddComponent(slot1, typeof(Button))
 
-	assert(slot5, "could not found Button component on " .. slot1.name)
+	assert(slot4, "could not found Button component on " .. slot1.name)
 	assert(slot2, "callback should exist")
 
-	slot6 = slot5.onClick
+	slot5 = slot4.onClick
 
-	pg.DelegateInfo.Add(slot0, slot6)
-	slot6:RemoveAllListeners()
-	slot6:AddListener(function ()
+	pg.DelegateInfo.Add(slot0, slot5)
+	slot5:RemoveAllListeners()
+	slot5:AddListener(function ()
 		if uv0 == Time.frameCount and Input.touchCount > 1 then
 			return
 		end
@@ -174,6 +175,31 @@ end
 function removeOnButton(slot0)
 	if slot0.GetComponent(slot0, typeof(Button)) ~= nil then
 		slot1.onClick:RemoveAllListeners()
+	end
+end
+
+function onLongPressTrigger(slot0, slot1, slot2, slot3)
+	slot4 = GetOrAddComponent(slot1, typeof(UILongPressTrigger))
+
+	assert(slot4, "could not found UILongPressTrigger component on " .. slot1.name)
+	assert(slot2, "callback should exist")
+
+	slot5 = slot4.onLongPressed
+
+	pg.DelegateInfo.Add(slot0, slot5)
+	slot5:RemoveAllListeners()
+	slot5:AddListener(function ()
+		if uv0 then
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0)
+		end
+
+		uv1()
+	end)
+end
+
+function removeOnLongPressTrigger(slot0)
+	if slot0.GetComponent(slot0, typeof(UILongPressTrigger)) ~= nil then
+		slot1.onLongPressed:RemoveAllListeners()
 	end
 end
 
@@ -198,7 +224,7 @@ function triggerButton(slot0)
 	uv0 = true
 end
 
-slot2 = true
+slot3 = true
 
 function onToggle(slot0, slot1, slot2, slot3, slot4)
 	assert(slot2, "callback should exist")
@@ -240,6 +266,14 @@ function triggerToggle(slot0, slot1)
 	else
 		slot2.onValueChanged:Invoke(slot1)
 	end
+
+	uv0 = true
+end
+
+function triggerToggleWithoutNotify(slot0, slot1)
+	uv0 = false
+
+	LuaHelper.ChangeToggleValueWithoutNotify(GetComponent(slot0, typeof(Toggle)), tobool(slot1))
 
 	uv0 = true
 end
@@ -652,7 +686,7 @@ function setOutlineColor(slot0, slot1)
 	GetComponent(slot0, typeof(Outline)).effectColor = slot1
 end
 
-slot3 = {}
+slot4 = {}
 
 function pressPersistTrigger(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	assert(defaultValue(slot6, 0.25) > 0, "maxSpeed less than zero")
@@ -731,11 +765,60 @@ function cloneTplTo(slot0, slot1, slot2)
 	return slot3
 end
 
+slot5 = nil
+slot6 = {}
+
 function setGray(slot0, slot1, slot2)
-	if slot1 and GetOrAddComponent(slot0, "UIGrayScale") or GetComponent(slot0, "UIGrayScale") then
-		slot3.recursive = defaultValue(slot2, true)
-		slot3.enabled = slot1
+	if not slot1 and not uv0[slot0] then
+		return
+	else
+		uv0[slot0] = true
 	end
+
+	uv1 = uv1 or Material.New(pg.ShaderMgr.GetInstance():GetShader("UI/GrayScale"))
+	slot3 = {}
+
+	if slot2 then
+		for slot7, slot8 in ipairs({
+			Image,
+			Text
+		}) do
+			slot9 = tf(slot0):GetComponentsInChildren(typeof(slot8), true)
+
+			warning(slot9.Length)
+
+			for slot13 = 0, slot9.Length - 1 do
+				table.insert(slot3, slot9[slot13])
+			end
+		end
+	else
+		for slot7, slot8 in ipairs({
+			Image,
+			Text
+		}) do
+			table.insert(slot3, tf(slot0):GetComponent(typeof(slot8)))
+		end
+	end
+
+	for slot7, slot8 in ipairs(slot3) do
+		slot8.material = slot1 and uv1 or nil
+	end
+end
+
+function setBlackMask(slot0, slot1, slot2)
+	slot4 = nil
+
+	if not GetComponent(slot0, "UIMaterialAdjuster") then
+		slot3 = GetOrAddComponent(slot0, "UIMaterialAdjuster")
+		slot4 = Material.New(pg.ShaderMgr.GetInstance():GetShader("M02/Unlit Colored_Alpha_UI"))
+	else
+		slot4 = slot3.AjusterMaterial
+	end
+
+	slot4.SetColor(slot4, "_Color", slot2)
+
+	slot3.AjusterMaterial = slot4
+	slot3.enabled = slot1
 end
 
 function long2int(slot0)

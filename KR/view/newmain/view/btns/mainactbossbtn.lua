@@ -16,9 +16,9 @@ function slot0.IsShowTip(slot0)
 	slot2 = false
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2):checkBattleTimeInBossAct() then
-		slot2 = slot1.data2 ~= 1
-	elseif getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_BOSS_PT_ID) then
-		slot2 = ActivityBossPtData.New(slot4):CanGetAward()
+		slot2 = slot1:readyToAchieve()
+	elseif getProxy(ActivityProxy):getActivityById(slot1:GetBindPtActID()) then
+		slot2 = ActivityBossPtData.New(slot5):CanGetAward()
 	end
 
 	return slot2

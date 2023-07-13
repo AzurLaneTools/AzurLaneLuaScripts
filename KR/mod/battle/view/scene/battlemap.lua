@@ -14,7 +14,7 @@ slot1.LAYERS = {
 function slot1.Ctor(slot0, slot1)
 	slot0._go = GameObject.New("scenes")
 	slot0.mapLayerCtrls = {}
-	slot0.materialList = {}
+	slot0.seaAnimList = {}
 	slot6 = slot1
 
 	assert(pg.map_data[slot1], "找不到地图: " .. slot6)
@@ -37,19 +37,14 @@ function slot1.Ctor(slot0, slot1)
 
 		for slot15, slot16 in ipairs(slot0.GetMapResNames(slot1, slot7)) do
 			slot17 = uv1.Battle.BattleResourceManager.GetInstance():InstMap(slot16)
+			tf(slot17).localScale = string2vector3(slot11[slot15])
 
 			setParent(slot17, slot8, false)
 
 			tf(slot17).localPosition = string2vector3(slot10[slot15])
-			tf(slot17).localScale = string2vector3(slot11[slot15])
 
-			if slot17:GetComponent(typeof(MeshRenderer)) then
-				slot19 = slot18.sharedMaterial
-
-				table.insert(slot0.materialList, {
-					material = slot19,
-					offset = slot19:GetTextureOffset("_SeaTex")
-				})
+			if slot17:GetComponent(typeof(SeaAnim)) then
+				table.insert(slot0.seaAnimList, slot18)
 			end
 
 			if slot17:GetComponent(typeof(Renderer)) then
@@ -92,7 +87,7 @@ function slot1.ShiftSurface(slot0, slot1, slot2, slot3, slot4)
 	slot0._shiftTimer = pg.TimeMgr.GetInstance():AddBattleTimer("", -1, slot3, function ()
 		if (uv0 - uv1) * uv2 > 0 then
 			uv3.Battle.BattleVariable.AppendMapFactor("seaSurfaceShift", uv1)
-			uv4:UpdateMapOffset()
+			uv4:updateSeaSpeed()
 			uv4:UpdateSpeedScaler()
 
 			uv1 = uv1 + uv2
@@ -144,14 +139,11 @@ function slot1.setSpeedScaler(slot0, slot1)
 	end
 end
 
-function slot1.UpdateMapOffset(slot0)
-	slot2 = -0.0005 * uv0.Battle.BattleVariable.MapSpeedRatio
+function slot1.updateSeaSpeed(slot0)
+	slot1 = uv0.Battle.BattleVariable.MapSpeedRatio
 
-	for slot6, slot7 in ipairs(slot0.materialList) do
-		slot8 = slot7.offset
-		slot8.x = slot8.x + slot2
-
-		slot7.material:SetTextureOffset("_SeaTex", slot8)
+	for slot5, slot6 in ipairs(slot0.seaAnimList) do
+		slot6:AdjustAnimSpeed(slot1)
 	end
 end
 

@@ -15,8 +15,12 @@ slot0.SKIP_INS = "NewMainMediator:SKIP_INS"
 slot0.SKIP_LOTTERY = "NewMainMediator:SKIP_LOTTERY"
 slot0.GO_SINGLE_ACTIVITY = "NewMainMediator:GO_SINGLE_ACTIVITY"
 slot0.REFRESH_VIEW = "NewMainMediator:REFRESH_VIEW"
+slot0.SKIP_DELEGATION = "NewMainMediator:SKIP_DELEGATION"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.SKIP_DELEGATION, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.RYZA_TASK)
+	end)
 	slot0:bind(uv0.GO_SINGLE_ACTIVITY, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			mediator = ActivitySingleMediator,
@@ -148,6 +152,7 @@ function slot0.listNotificationInterests(slot0)
 		GAME.FETCH_NPC_SHIP_DONE,
 		GAME.ZERO_HOUR_OP_DONE,
 		uv0.REFRESH_VIEW,
+		GAME.CONFIRM_GET_SHIP,
 		GAME.WILL_LOGOUT
 	}
 
@@ -215,6 +220,15 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == uv0.REFRESH_VIEW then
 		slot0.viewComponent:setVisible(false)
 		slot0.viewComponent:setVisible(true)
+	elseif slot2 == GAME.CONFIRM_GET_SHIP then
+		slot0:addSubLayers(Context.New({
+			mediator = BuildShipRemindMediator,
+			viewComponent = BuildShipRemindLayer,
+			data = {
+				ships = slot3.ships
+			},
+			onRemoved = slot3.callback
+		}))
 	elseif slot2 == GAME.WILL_LOGOUT then
 		slot0.viewComponent:OnLogOut()
 	end

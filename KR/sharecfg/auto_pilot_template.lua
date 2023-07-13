@@ -9239,6 +9239,203 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70220] = {
+		id = 70220,
+		name = "2023意大利共斗 EX难度 召唤大型沙尘龙卷-持续追踪",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 8,
+				param = {
+					offsetZ = 0,
+					duration = -1,
+					offsetX = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70221] = {
+		id = 70221,
+		name = "2023意大利共斗 EX难度 召唤大型沙尘龙卷-四周封锁1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -75,
+					z = 86
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 1,
+				param = {
+					x = -75,
+					z = 22
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					x = -11,
+					z = 22
+				}
+			},
+			{
+				index = 4,
+				to = 1,
+				type = 1,
+				param = {
+					x = -11,
+					z = 86
+				}
+			}
+		}
+	},
+	[70222] = {
+		id = 70222,
+		name = "2023意大利共斗 EX难度 召唤大型沙尘龙卷-四周封锁2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -11,
+					z = 22
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 1,
+				param = {
+					x = -11,
+					z = 86
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					x = -75,
+					z = 86
+				}
+			},
+			{
+				index = 4,
+				to = 1,
+				type = 1,
+				param = {
+					x = -75,
+					z = 22
+				}
+			}
+		}
+	},
+	[70223] = {
+		id = 70223,
+		name = "2023意大利共斗 EX难度 召唤大型沙尘龙卷-四周封锁3",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -75,
+					z = 22
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 1,
+				param = {
+					x = -11,
+					z = 22
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					x = -11,
+					z = 86
+				}
+			},
+			{
+				index = 4,
+				to = 1,
+				type = 1,
+				param = {
+					x = -75,
+					z = 86
+				}
+			}
+		}
+	},
+	[70224] = {
+		id = 70224,
+		name = "2023意大利共斗 EX难度 召唤大型沙尘龙卷-四周封锁4",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -11,
+					z = 86
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 1,
+				param = {
+					x = -75,
+					z = 86
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					x = -75,
+					z = 22
+				}
+			},
+			{
+				index = 4,
+				to = 1,
+				type = 1,
+				param = {
+					x = -11,
+					z = 22
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

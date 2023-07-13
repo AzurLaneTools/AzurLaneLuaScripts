@@ -2481,7 +2481,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 132,
 		t_level = 10,
 		ships = {
-			60107
+			60107,
+			60110
 		}
 	},
 	[60201] = {
@@ -2565,6 +2566,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 8,
 		ships = {
 			69901
+		}
+	},
+	[60504] = {
+		shiptype = 5,
+		name = "안드레아 도리아급 ",
+		nation = 6,
+		id = 60504,
+		t_level_1 = 135,
+		t_level = 5,
+		ships = {
+			60507
 		}
 	},
 	[60701] = {
@@ -3516,6 +3528,7 @@ pg.fleet_tech_ship_class = {
 		60501,
 		60502,
 		60503,
+		60504,
 		60701,
 		60702,
 		60801,

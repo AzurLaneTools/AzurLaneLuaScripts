@@ -1435,5 +1435,17 @@ pg.voice_actor_CN = {
 	[365] = {
 		code = 365,
 		actor_name = "Haruka Kouduki"
+	},
+	[368] = {
+		code = 368,
+		actor_name = "Kotomi Aihara"
+	},
+	[369] = {
+		code = 369,
+		actor_name = "Riho Tsuda"
+	},
+	[370] = {
+		code = 370,
+		actor_name = "Haruno Fujiwara"
 	}
 }

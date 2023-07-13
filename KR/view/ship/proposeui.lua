@@ -286,19 +286,25 @@ function slot0.doMain(slot0)
 					return
 				end
 
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("word_propose_cost_tip" .. (uv1.proposeType == "imas" and "1" or ""), slot0),
-					onYes = function ()
-						if uv0.intimacydescTime then
-							uv0:onUpdateIntimacydescTime(pg.TimeMgr.GetInstance():GetServerTime())
-						end
+				uv1:checkPaintingRes(uv1.shipVO, function ()
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("word_propose_cost_tip" .. (uv0.proposeType == "imas" and "1" or ""), uv1),
+						onYes = function ()
+							if uv0.intimacydescTime then
+								uv0:onUpdateIntimacydescTime(pg.TimeMgr.GetInstance():GetServerTime())
+							end
 
-						uv0:hideWindow()
-						setActive(uv0.window, false)
-						uv0:doPlay()
-					end
-				})
-			elseif uv2 then
+							uv0:hideWindow()
+							setActive(uv0.window, false)
+							uv0:doPlay()
+						end
+					})
+				end)
+
+				return
+			end
+
+			if uv2 then
 				function uv1.afterRegisterCall()
 					uv0.afterRegisterCall = nil
 
@@ -329,18 +335,16 @@ function slot0.getProposeText(slot0)
 
 		if not IsNil(GetComponent(slot0.intimacyDesc, "VerticalText")) then
 			GetComponent(slot0.intimacyDesc, "VerticalText").enabled = true
-			slot1 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():STimeDescS(slot0.shipVO.proposeTime, "%Y년%m월%d일"))
+			slot1 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():STimeDescC(slot0.shipVO.proposeTime, "%Y년%m월%d일"))
 		end
 	else
-		slot1 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():STimeDescS(slot0.shipVO.proposeTime, "%Y/%m/%d", true))
+		slot1 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():STimeDescS(slot0.shipVO.proposeTime, true))
 
 		if not IsNil(GetComponent(slot0.intimacyDesc, "VerticalText")) then
 			GetComponent(slot0.intimacyDesc, "VerticalText").enabled = true
-			slot1 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():STimeDescS(slot0.shipVO.proposeTime, "%Y/%m/%d"))
+			slot1 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():STimeDescS(slot0.shipVO.proposeTime, true))
 		end
 	end
-
-	return slot1
 end
 
 function slot0.getProposeItemId(slot0)
@@ -567,7 +571,15 @@ function slot0.stampWindow(slot0)
 
 	if slot0.intimacyDesc then
 		setActive(slot0.intimacyDesc, not slot0.intimacyDescPic)
-		setText(slot0.intimacyDesc, slot0:getProposeText())
+
+		slot2 = i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():ChieseDescTime(slot0.shipVO.proposeTime, true))
+
+		if not IsNil(GetComponent(slot0.intimacyDesc, "VerticalText")) then
+			GetComponent(slot0.intimacyDesc, "VerticalText").enabled = true
+			slot2 = i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():ChieseDescTime(slot0.shipVO.proposeTime, true))
+		end
+
+		setText(slot0.intimacyDesc, slot2)
 
 		slot1 = GetOrAddComponent(slot0.intimacyDesc, typeof(CanvasGroup))
 	end
@@ -1254,6 +1266,20 @@ end
 function slot0.hideExchangePanel(slot0)
 	setActive(slot0.exchangePanel, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.exchangePanel, slot0._tf)
+end
+
+function slot0.checkPaintingRes(slot0, slot1, slot2)
+	slot3 = {}
+
+	if slot1:getProposeSkin() and slot4.id > 0 then
+		PaintingConst.AddPaintingNameBySkinID(slot3, slot4.id)
+	end
+
+	PaintingConst.PaintingDownload({
+		isShowBox = true,
+		paintingNameList = slot3,
+		finishFunc = slot2
+	})
 end
 
 return slot0

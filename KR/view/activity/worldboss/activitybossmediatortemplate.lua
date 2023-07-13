@@ -3,6 +3,7 @@ slot0.ON_SUBMIT_TASK = "ActivityBossMediatorTemplate ON_SUBMIT_TASK"
 slot0.ON_RANK = "ActivityBossMediatorTemplate ON_RANK"
 slot0.ON_PRECOMBAT = "ActivityBossMediatorTemplate ON_PRECOMBAT"
 slot0.ON_EX_PRECOMBAT = "ActivityBossMediatorTemplate ON_EX_PRECOMBAT"
+slot0.ON_SP_PRECOMBAT = "ActivityBossMediatorTemplate ON_SP_PRECOMBAT"
 slot0.ON_COMMIT_FLEET = "ActivityBossMediatorTemplate ON_COMMIT_FLEET"
 slot0.ON_FLEET_RECOMMEND = "ActivityBossMediatorTemplate ON_FLEET_RECOMMEND"
 slot0.ON_FLEET_CLEAR = "ActivityBossMediatorTemplate ON_FLEET_CLEAR"
@@ -10,6 +11,7 @@ slot0.ON_OPEN_DOCK = "ActivityBossMediatorTemplate ON_OPEN_DOCK"
 slot0.ON_FLEET_SHIPINFO = "ActivityBossMediatorTemplate ON_FLEET_SHIPINFO"
 slot0.ON_SELECT_COMMANDER = "ActivityBossMediatorTemplate ON_SELECT_COMMANDER"
 slot0.ON_PERFORM_COMBAT = "ActivityBossMediatorTemplate ON_PERFORM_COMBAT"
+slot0.ONEN_BUFF_SELECT = "ActivityBossMediatorTemplate ONEN_BUFF_SELECT"
 slot0.COMMANDER_FORMATION_OP = "ActivityBossMediatorTemplate COMMANDER_FORMATION_OP"
 slot0.ON_COMMANDER_SKILL = "ActivityBossMediatorTemplate ON_COMMANDER_SKILL"
 slot1 = {
@@ -36,32 +38,28 @@ function slot0.register(slot0)
 	end
 
 	slot0:BindEvent()
-
-	slot2 = getProxy(FleetProxy)
-
 	slot0:UpdateActivityData(slot1)
 
 	slot0.contextData.activityID = slot1 and slot1.id
-
-	if pg.activity_event_worldboss[slot1 and slot1:getConfig("config_id")] then
-		slot0.contextData.TicketID = slot4.ticket
-		slot0.contextData.exStageID = slot4.ex_expedition
-		slot0.contextData.normalStageIDs = slot4.normal_expedition or {}
-		slot0.contextData.groupNum = slot4.group_num
-		slot0.contextData.submarineNum = slot4.submarine_num
-		slot0.contextData.ticketInitPools = slot4.normal_expedition_drop_num or {}
-		slot0.contextData.useOilLimit = slot4.use_oil_limit
-		slot0.contextData.DisplayItems = pg.extraenemy_template[slot4.boss_id[1]] and slot6.reward_display or {}
-	end
+	slot3 = slot1:GetBossConfig()
+	slot0.contextData.TicketID = slot3:GetTicketID()
+	slot0.contextData.exStageID = slot3:GetEXStageID()
+	slot0.contextData.normalStageIDs = slot3:GetNormalStageIDs()
+	slot0.contextData.ticketInitPools = slot3:GetInitTicketPools()
+	slot0.contextData.useOilLimit = slot3:GetOilLimits()
+	slot0.contextData.DisplayItems = slot3:GetMilestoneRewards()
+	slot0.contextData.spStageID = slot3:GetSPStageID()
 
 	slot0:RequestAndUpdateView()
 
-	slot0.contextData.actFleets = slot2:getActivityFleets()[slot1.id]
+	slot0.contextData.actFleets = getProxy(FleetProxy):getActivityFleets()[slot1.id]
+	slot6 = slot1:GetBindPtActID()
+	slot0.contextData.ptActId = slot6
 
-	if slot0.activityProxy:getActivityById(ActivityConst.ACTIVITY_BOSS_PT_ID) then
+	if slot0.activityProxy:getActivityById(slot6) then
 		slot0.contextData.ptData = ActivityBossPtData.New(slot7)
 	else
-		errorMsg("没有找到当期BossPT活动 修改Activity_Const ACTIVITY_BOSS_PT_ID")
+		errorMsg("没有找到当期BossPT活动 activity_event_pt link_id 未找到id: " .. slot1.id)
 	end
 
 	if slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RANK) and not slot8:isEnd() then
@@ -82,8 +80,8 @@ end
 function slot0.BindEvent(slot0)
 	slot1 = getProxy(FleetProxy)
 	slot2 = slot0.activityProxy
-	slot2 = slot2:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2)
 
+	assert(slot2:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2))
 	slot0:bind(uv0.ON_RANK, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
 			index = PowerRank.TYPE_ACT_BOSS_BATTLE
@@ -110,43 +108,63 @@ function slot0.BindEvent(slot0)
 			return
 		end
 
-		slot3, slot4 = slot2[slot1]:HaveShipsInEvent()
+		slot3 = slot2[slot1 + 10]
 
-		if slot3 then
-			pg.TipsMgr.GetInstance():ShowTips(slot4)
+		slot3:RemoveUnusedItems()
 
+		slot4 = uv1.id
+
+		if _.any({
+			slot2[slot1],
+			slot2[slot1 + 10]
+		}, function (slot0)
+			slot1, slot2 = slot0:HaveShipsInEvent()
+
+			if slot1 then
+				pg.TipsMgr.GetInstance():ShowTips(slot2)
+
+				return true
+			end
+
+			return _.any(slot0:getShipIds(), function (slot0)
+				if not getProxy(BayProxy):RawGetShipById(slot0) then
+					return
+				end
+
+				slot2, slot3 = ShipStatus.ShipStatusCheck("inActivity", slot1, nil, {
+					inActivity = uv0
+				})
+
+				if not slot2 then
+					pg.TipsMgr.GetInstance():ShowTips(slot3)
+
+					return true
+				end
+			end)
+		end) then
 			return
 		end
 
 		slot5, slot6 = nil
-		slot7 = {
-			slot2[slot1]
-		}
 		slot5 = SYSTEM_ACT_BOSS
-		slot8 = uv2.contextData.useOilLimit[slot1]
+		slot7 = uv2.contextData.useOilLimit[slot1]
 
 		if not uv2.contextData.activity:IsOilLimit(uv2.contextData.normalStageIDs[slot1]) then
-			slot8 = {
+			slot7 = {
 				0,
 				0
 			}
 		end
 
-		slot2[slot1 + 10]:RemoveUnusedItems()
-
-		if slot2[slot1 + 10]:isLegalToFight() == true then
-			table.insert(slot7, slot2[slot1 + 10])
-		end
-
 		uv2:addSubLayers(Context.New({
-			mediator = PreCombatMediator,
-			viewComponent = ActivityBossPrecombatLayer,
+			mediator = ActivityBossPreCombatMediator,
+			viewComponent = ActivityBossPreCombatLayer,
 			data = {
 				system = slot5,
 				stageId = slot6,
 				actId = uv1.id,
-				fleets = slot7,
-				costLimit = slot8,
+				fleets = slot3,
+				costLimit = slot7,
 				OnConfirm = function (slot0)
 					if not uv0.contextData.activity:checkBattleTimeInBossAct() then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
@@ -222,11 +240,40 @@ function slot0.BindEvent(slot0)
 			return
 		end
 
-		slot4, slot5 = slot3[slot1]:HaveShipsInEvent()
+		slot4 = slot3[slot1 + 10]
 
-		if slot4 then
-			pg.TipsMgr.GetInstance():ShowTips(slot5)
+		slot4:RemoveUnusedItems()
 
+		slot5 = uv1.id
+
+		if _.any({
+			slot3[slot1],
+			slot3[slot1 + 10]
+		}, function (slot0)
+			slot1, slot2 = slot0:HaveShipsInEvent()
+
+			if slot1 then
+				pg.TipsMgr.GetInstance():ShowTips(slot2)
+
+				return true
+			end
+
+			return _.any(slot0:getShipIds(), function (slot0)
+				if not getProxy(BayProxy):RawGetShipById(slot0) then
+					return
+				end
+
+				slot2, slot3 = ShipStatus.ShipStatusCheck("inActivity", slot1, nil, {
+					inActivity = uv0
+				})
+
+				if not slot2 then
+					pg.TipsMgr.GetInstance():ShowTips(slot3)
+
+					return true
+				end
+			end)
+		end) then
 			return
 		end
 
@@ -265,34 +312,107 @@ function slot0.BindEvent(slot0)
 			end,
 			function (slot0)
 				slot1, slot2 = nil
-				slot3 = {
-					uv0[uv1]
-				}
-				slot1 = uv2 and SYSTEM_BOSS_EXPERIMENT or SYSTEM_HP_SHARE_ACT_BOSS
-				slot4 = uv3.contextData.useOilLimit[4]
+				slot1 = uv0 and SYSTEM_BOSS_EXPERIMENT or SYSTEM_HP_SHARE_ACT_BOSS
+				slot3 = uv1.contextData.useOilLimit[4]
 
-				if not uv3.contextData.activity:IsOilLimit(uv3.contextData.exStageID) then
-					slot4 = {
+				if not uv1.contextData.activity:IsOilLimit(uv1.contextData.exStageID) then
+					slot3 = {
 						0,
 						0
 					}
 				end
 
-				uv0[uv1 + 10]:RemoveUnusedItems()
-
-				if uv0[uv1 + 10]:isLegalToFight() == true then
-					table.insert(slot3, uv0[uv1 + 10])
-				end
-
-				uv3:addSubLayers(Context.New({
-					mediator = PreCombatMediator,
-					viewComponent = ActivityBossPrecombatLayer,
+				uv1:addSubLayers(Context.New({
+					mediator = ActivityBossPreCombatMediator,
+					viewComponent = ActivityBossPreCombatLayer,
 					data = {
 						system = slot1,
 						stageId = slot2,
-						actId = uv4.id,
-						fleets = slot3,
-						costLimit = slot4,
+						actId = uv2.id,
+						fleets = uv3,
+						costLimit = slot3,
+						OnConfirm = function (slot0)
+							if not uv0.contextData.activity:checkBattleTimeInBossAct() then
+								pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+								return
+							end
+
+							slot0()
+						end
+					}
+				}))
+			end
+		})
+	end)
+	slot0:bind(uv0.ON_SP_PRECOMBAT, function (slot0, slot1)
+		if not uv0:getActivityFleets()[uv1.id] then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
+
+			return
+		end
+
+		slot2[slot1]:RemoveUnusedItems()
+
+		if slot2[slot1]:isLegalToFight() ~= true then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_formation_unsatisfied"))
+
+			return
+		end
+
+		slot3 = slot2[slot1 + 10]
+
+		slot3:RemoveUnusedItems()
+
+		slot4 = uv1.id
+
+		if _.any({
+			slot2[slot1],
+			slot2[slot1 + 10]
+		}, function (slot0)
+			slot1, slot2 = slot0:HaveShipsInEvent()
+
+			if slot1 then
+				pg.TipsMgr.GetInstance():ShowTips(slot2)
+
+				return true
+			end
+
+			return _.any(slot0:getShipIds(), function (slot0)
+				if not getProxy(BayProxy):RawGetShipById(slot0) then
+					return
+				end
+
+				slot2, slot3 = ShipStatus.ShipStatusCheck("inActivity", slot1, nil, {
+					inActivity = uv0
+				})
+
+				if not slot2 then
+					pg.TipsMgr.GetInstance():ShowTips(slot3)
+
+					return true
+				end
+			end)
+		end) then
+			return
+		end
+
+		seriesAsync({
+			function (slot0)
+				slot1, slot2 = nil
+
+				uv0:addSubLayers(Context.New({
+					mediator = ActivityBossPreCombatMediator,
+					viewComponent = ActivityBossPreCombatLayer,
+					data = {
+						system = SYSTEM_ACT_BOSS_SP,
+						stageId = uv0.contextData.spStageID,
+						actId = uv1.id,
+						fleets = uv2,
+						costLimit = {
+							0,
+							0
+						},
 						OnConfirm = function (slot0)
 							if not uv0.contextData.activity:checkBattleTimeInBossAct() then
 								pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
@@ -428,7 +548,19 @@ function slot0.BindEvent(slot0)
 		})
 	end)
 	slot0:bind(PreCombatMediator.BEGIN_STAGE_PROXY, function (slot0, slot1)
-		uv0:sendNotification(PreCombatMediator.BEGIN_STAGE_PROXY, slot1)
+		uv0:sendNotification(PreCombatMediator.BEGIN_STAGE_PROXY, {
+			curFleetId = slot1
+		})
+	end)
+	slot0:bind(uv0.ONEN_BUFF_SELECT, function (slot0)
+		uv0:addSubLayers(Context.New({
+			mediator = ActivityBossBuffSelectMediator,
+			viewComponent = ActivityBossBuffSelectLayer,
+			data = {
+				spEnemyInfo = uv0.contextData.activity:GetBossConfig():GetSPEnemy(),
+				score = uv0.contextData.activity:GetHighestScore()
+			}
+		}))
 	end)
 end
 
@@ -442,6 +574,7 @@ function slot0.listNotificationInterests(slot0)
 		GAME.ACT_NEW_PT_DONE,
 		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE,
 		GAME.GET_POWERRANK_DONE,
+		ActivityBossBuffSelectMediator.ON_START,
 		GAME.COMMANDER_ACTIVITY_FORMATION_OP_DONE,
 		CommanderProxy.PREFAB_FLEET_UPDATE
 	}
@@ -451,7 +584,7 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_ADDED or slot2 == ActivityProxy.ACTIVITY_UPDATED then
-		if slot3.id == ActivityConst.ACTIVITY_BOSS_PT_ID then
+		if slot3.id == slot0.contextData.ptActId then
 			if slot0.contextData.ptData then
 				slot0.contextData.ptData:Update(slot3)
 			else
@@ -492,6 +625,8 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == CommanderProxy.PREFAB_FLEET_UPDATE then
 		slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
 		slot0.viewComponent:updateCommanderPrefab()
+	elseif slot2 == ActivityBossBuffSelectMediator.ON_START then
+		slot0.viewComponent:ShowSPFleet()
 	end
 end
 

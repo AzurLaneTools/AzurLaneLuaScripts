@@ -53,6 +53,30 @@ function slot0.GetAllSkinByGroup(slot0)
 	return slot1
 end
 
+function slot0.GetShareSkinsByGroupId(slot0)
+	function slot1(slot0)
+		return not (slot0:getConfig("skin_type") == uv0.SKIN_TYPE_DEFAULT or slot1 == uv0.SKIN_TYPE_REMAKE or slot1 == uv0.SKIN_TYPE_OLD)
+	end
+
+	if not pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[slot0][1]].share_group_id or #slot3.share_group_id <= 0 then
+		return {}
+	end
+
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(slot3.share_group_id) do
+		for slot14, slot15 in ipairs(pg.ship_skin_template.get_id_list_by_ship_group[slot9]) do
+			if slot1(ShipSkin.New({
+				id = slot15
+			})) then
+				table.insert(slot4, slot16)
+			end
+		end
+	end
+
+	return slot4
+end
+
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot1.id

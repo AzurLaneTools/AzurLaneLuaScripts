@@ -40,7 +40,7 @@ function slot0.Exit(slot0, slot1)
 	slot6 = 0
 	slot7 = {}
 
-	slot1:SendRequest(slot1.GeneralPackage(slot0, slot4:getShipsByFleet(slot3:getFleetById(slot0.mainFleetId))), function (slot0)
+	slot1:SendRequest(slot1.GeneralPackage(slot0, slot4:getSortShipsByFleet(slot3:getFleetById(slot0.mainFleetId))), function (slot0)
 		uv0.statistics.mvpShipID = -1
 
 		uv2:sendNotification(GAME.FINISH_STAGE_DONE, {

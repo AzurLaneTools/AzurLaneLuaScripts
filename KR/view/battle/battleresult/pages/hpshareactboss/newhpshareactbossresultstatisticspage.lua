@@ -1,5 +1,10 @@
 slot0 = class("NewHpShareActBossResultStatisticsPage", import("..activityBoss.NewActivityBossResultStatisticsPage"))
 
+function slot0.UpdateGrade(slot0)
+	LoadImageSpriteAsync("battlescore/grade_label_clear", slot0.gradeTxt, false)
+	setActive(slot0.gradeIcon, false)
+end
+
 function slot0.UpdateTicket(slot0, slot1)
 	uv0.super.UpdateTicket(slot0, slot1)
 

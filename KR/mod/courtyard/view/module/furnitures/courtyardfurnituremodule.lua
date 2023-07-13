@@ -157,6 +157,10 @@ function slot0.OnStartInterAction(slot0, slot1)
 		slot0._tf.localPosition = slot3
 	end
 
+	for slot7, slot8 in pairs(slot0.masks) do
+		setActive(slot8, true)
+	end
+
 	if slot0.isMultiMask then
 		for slot7, slot8 in pairs(slot0.masks) do
 			slot8:SetSiblingIndex(1 + 2 * (slot7 - 1))
@@ -195,6 +199,10 @@ function slot0.OnStopInterAction(slot0, slot1)
 	if slot0:GetBodyMask(slot1.id) then
 		slot3.localScale = Vector3.one
 		slot3.localEulerAngles = Vector3.zero
+	end
+
+	for slot7, slot8 in pairs(slot0.masks) do
+		setActive(slot8, false)
 	end
 end
 
