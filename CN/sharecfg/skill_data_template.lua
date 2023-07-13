@@ -96310,7 +96310,7 @@ pg.base.skill_data_template = {
 		id = 30041,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行15次攻击，触发专属弹幕-{namecode:510}I；使用轻巡主炮时，专属弹幕触发所需主炮攻击次数降低为6",
+		desc = "主炮每进行15次攻击，触发专属弹幕-{namecode:518}I；使用轻巡主炮时，专属弹幕触发所需主炮攻击次数降低为6",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -96324,7 +96324,7 @@ pg.base.skill_data_template = {
 		id = 30051,
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行10次攻击，触发专属弹幕-{namecode:510}II；使用轻巡主炮时，专属弹幕触发所需主炮攻击次数降低为4",
+		desc = "主炮每进行10次攻击，触发专属弹幕-{namecode:518}II；使用轻巡主炮时，专属弹幕触发所需主炮攻击次数降低为4",
 		system_transform = {},
 		world_death_mark = {
 			1

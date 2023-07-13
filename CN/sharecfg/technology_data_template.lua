@@ -12112,7 +12112,7 @@ pg.technology_data_template = {
 		label_color = "tag_sp",
 		blueprint_version = 6,
 		id = 554,
-		bg_icon = "chara_shuerci",
+		bg_icon = "chara_feilikesishuerci",
 		consume = {
 			{
 				1,
@@ -12312,7 +12312,7 @@ pg.technology_data_template = {
 		label_color = "tag_sp",
 		blueprint_version = 6,
 		id = 564,
-		bg_icon = "chara_shuerci",
+		bg_icon = "chara_feilikesishuerci",
 		consume = {
 			{
 				1,
@@ -19423,7 +19423,7 @@ pg.technology_data_template = {
 		label_color = "tag_sp",
 		blueprint_version = 6,
 		id = 1508,
-		bg_icon = "chara_shuerci",
+		bg_icon = "chara_feilikesishuerci",
 		consume = {
 			{
 				1,
@@ -19718,7 +19718,7 @@ pg.technology_data_template = {
 		label_color = "tag_sp",
 		blueprint_version = 6,
 		id = 1516,
-		bg_icon = "chara_shuerci",
+		bg_icon = "chara_feilikesishuerci",
 		consume = {
 			{
 				1,
