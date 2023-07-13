@@ -9255,10 +9255,16 @@ _G.pg.base.gametip.technology_stop_tip = {
 _G.pg.base.gametip.technology_help_text = {
 	tip = {
 		{
-			info = "<color=#A1E400FF>- Update - (July 14th, 2022)</color>\n"
+			info = "<color=#A1E400FF>- Update - (July 13th, 2023)</color>\n"
 		},
 		{
 			info = [[
+The Research Academy has received an update with the addition of series 6 PRs/DRs.
+
+New series 6 research projects have been added.
+
+
+- Update -
 The Research Academy has received an update with the addition of series 5 PRs/DRs.
 
 1. New series 5 research projects have been added.
