@@ -19313,11 +19313,11 @@ _G.pg.base.gametip.setting_resdownload_title_sound = {
 }
 
 _G.pg.base.gametip.setting_resdownload_title_manga = {
-	tip = "漫画资源更新"
+	tip = "만화 리소스 업데이트"
 }
 
 _G.pg.base.gametip.setting_resdownload_title_main_group = {
-	tip = "完整资源更新"
+	tip = "풀 리소스 업데이트"
 }
 
 _G.pg.base.gametip.settings_battle_title = {

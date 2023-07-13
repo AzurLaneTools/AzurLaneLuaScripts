@@ -17020,7 +17020,7 @@ _G.pg.base.item_data_statistics[30345] = {
 
 _G.pg.base.item_data_statistics[30346] = {
 	display = "애니멀 오피스스타일 장비스킨 1가지 랜덤 획득 가능",
-	name = "장비 외장 상자 (오피스 타임)",
+	name = "장비 스킨 상자(오피스 타임) ",
 	max_num = 0,
 	type = 11,
 	time_limit = 0,
