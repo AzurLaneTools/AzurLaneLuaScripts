@@ -7246,7 +7246,13 @@ pg.pay_data_display = {
 		sub_display = {},
 		ignorePlatform = {},
 		limit_args = {},
-		drop_item = {}
+		drop_item = {
+			{
+				2,
+				40012,
+				1
+			}
+		}
 	},
 	[121] = {
 		subject = "New Commanders Support Pack II",
@@ -7358,7 +7364,13 @@ pg.pay_data_display = {
 		sub_display = {},
 		ignorePlatform = {},
 		limit_args = {},
-		drop_item = {}
+		drop_item = {
+			{
+				2,
+				40013,
+				1
+			}
+		}
 	},
 	[122] = {
 		subject = "New Commanders Support Pack III",
@@ -7475,7 +7487,13 @@ pg.pay_data_display = {
 		sub_display = {},
 		ignorePlatform = {},
 		limit_args = {},
-		drop_item = {}
+		drop_item = {
+			{
+				2,
+				40014,
+				1
+			}
+		}
 	},
 	[123] = {
 		subject = "Crimson Echoes' Lucky Bag",

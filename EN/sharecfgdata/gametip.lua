@@ -10188,7 +10188,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Eskimo is added to the standard build pool!"
+	tip = "Tashkent, Chapayev and others added to the standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -24626,7 +24626,7 @@ _G.pg.base.gametip.cryptolalia_not_download_res = {
 }
 
 _G.pg.base.gametip.cryptolalia_timelimie = {
-	tip = "Limited Time"
+	tip = "Limited"
 }
 
 _G.pg.base.gametip.cryptolalia_label_downloading = {
