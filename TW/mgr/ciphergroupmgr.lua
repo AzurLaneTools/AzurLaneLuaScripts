@@ -24,11 +24,11 @@ function slot0.GetValidFileList(slot0, slot1)
 	if GroupHelper.IsGroupWaitToUpdate(uv0.GroupName) then
 		for slot6, slot7 in ipairs(slot1) do
 			slot7 = string.lower(slot7)
-			slot8 = table.contains(slot0.downloadList, slot7)
+			slot8 = GroupHelper.VerifyFile(uv0.GroupName, slot7)
 
-			warning(slot7 .. " " .. tostring(slot8) .. " " .. tostring(GroupHelper.VerifyFile(uv0.GroupName, slot7)))
+			warning(slot7 .. " " .. tostring(slot8))
 
-			if not slot8 and slot9 then
+			if slot8 then
 				table.insert(slot2, slot7)
 			end
 		end
@@ -52,9 +52,7 @@ end
 function slot0.AddFileList(slot0, slot1)
 	if #slot0:GetValidFileList(slot1) > 0 then
 		for slot6, slot7 in ipairs(slot2) do
-			if not table.contains(slot0.downloadList, slot7) then
-				table.insert(slot0.downloadList, slot7)
-			end
+			table.insert(slot0.downloadList, slot7)
 		end
 	end
 end

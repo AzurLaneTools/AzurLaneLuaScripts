@@ -11994,6 +11994,13 @@ pg.painting_filte_map = {
 			"painting/yilishabai_6"
 		}
 	},
+	yilishabai_7 = {
+		key = "yilishabai_7",
+		res_list = {
+			"painting/yilishabai_7_tex",
+			"painting/yilishabai_7"
+		}
+	},
 	ying = {
 		key = "ying",
 		res_list = {

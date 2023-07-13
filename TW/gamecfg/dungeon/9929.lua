@@ -124,6 +124,24 @@ return {
 								8001
 							}
 						}
+					},
+					airFighter = {
+						{
+							interval = 8,
+							onceNumber = 3,
+							formation = 10007,
+							delay = 0,
+							templateID = 145,
+							totalNumber = 12,
+							weaponID = {
+								311530
+							},
+							attr = {
+								airPower = 40,
+								maxHP = 100,
+								attackRating = 23
+							}
+						}
 					}
 				},
 				{

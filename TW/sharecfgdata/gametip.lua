@@ -4092,7 +4092,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2023.4.6-2023.6.29</color>期間限時開放「聲望·META」的挑戰，在此期間指揮官可挑戰「聲望·META」累計其同步值獲取<color=#92fc63>「聲望·META」角色</color>及其他豐厚獎勵
+1. <color=#92fc63>2023.6.29~2023.9.21</color>期間限時開放「聲望·META」的挑戰，在此期間指揮官可挑戰「聲望·META」累計其同步值獲取<color=#92fc63>「聲望·META」角色</color>及其他豐厚獎勵
 <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標數據」獲取與解析
@@ -9635,7 +9635,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "布倫希爾德、布呂歇爾、Z16建造機率UP！"
+	tip = "布倫希爾德、Z16建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {

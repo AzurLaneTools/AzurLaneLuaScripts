@@ -1085,7 +1085,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90671] = {
 		cannon = 0,
-		name = "馬格德堡",
+		name = "馬德堡",
 		type = 2,
 		speed_growth = 0,
 		battle_unit_type = 49,

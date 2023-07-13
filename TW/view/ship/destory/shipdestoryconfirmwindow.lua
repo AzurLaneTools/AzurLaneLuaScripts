@@ -68,6 +68,9 @@ function slot0.Confirm(slot0)
 end
 
 function slot0.Show(slot0, slot1, slot2, slot3, slot4)
+	uv0.super.Show(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+
 	slot0.key = nil
 	slot0.eliteShips = slot1
 	slot0.highLevelShips = slot2
@@ -76,11 +79,11 @@ function slot0.Show(slot0, slot1, slot2, slot3, slot4)
 	slot0:SetCallBack(slot4)
 	slot0:Updatelayout()
 	slot0:UpdateShips()
-	uv0.super.Show(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 function slot0.ShowEliteTag(slot0, slot1, slot2)
+	uv0.super.Show(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:SetCallBack(slot2)
 	setText(slot0.title, i18n("destroy_eliteship_tip", i18n("destroy_inHardFormation_tip")))
 	setActive(slot0.urOverflowLabel, false)
@@ -90,33 +93,40 @@ function slot0.ShowEliteTag(slot0, slot1, slot2)
 	slot0.ships = slot1
 
 	if #slot0.ships > 5 then
-		setActive(slot0._tf:Find("window/content/ships"), true)
-		setActive(slot0._tf:Find("window/content/ships_single"), false)
+		slot4 = slot0._tf
 
-		slot4 = slot0._tf:Find("window/content/ships/content"):GetComponent("LScrollRect")
+		setActive(slot4:Find("window/content/ships"), true)
 
-		function slot4.onUpdateItem(slot0, slot1)
+		slot4 = slot0._tf
+
+		setActive(slot4:Find("window/content/ships_single"), false)
+
+		slot3 = slot0._tf
+		slot3 = slot3:Find("window/content/ships/content")
+
+		slot3:GetComponent("LScrollRect").onUpdateItem = function (slot0, slot1)
 			updateShip(tf(slot1), uv0.ships[slot0 + 1])
 		end
 
-		slot4:SetTotalCount(#slot0.ships)
-	else
-		setActive(slot0._tf:Find("window/content/ships"), false)
-		setActive(slot0._tf:Find("window/content/ships_single"), true)
-
-		slot3 = slot0._tf:Find("window/content/ships_single")
-		slot4 = UIItemList.New(slot3, slot3:Find("IconTpl"))
-
-		slot4:make(function (slot0, slot1, slot2)
-			if slot0 == UIItemList.EventUpdate then
-				updateShip(slot2, uv0.ships[slot1 + 1])
-			end
+		onNextTick(function ()
+			uv0:SetTotalCount(#uv1.ships)
 		end)
-		slot4:align(#slot0.ships)
+
+		return
 	end
 
-	uv0.super.Show(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	setActive(slot0._tf:Find("window/content/ships"), false)
+	setActive(slot0._tf:Find("window/content/ships_single"), true)
+
+	slot3 = slot0._tf:Find("window/content/ships_single")
+	slot4 = UIItemList.New(slot3, slot3:Find("IconTpl"))
+
+	slot4:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			updateShip(slot2, uv0.ships[slot1 + 1])
+		end
+	end)
+	slot4:align(#slot0.ships)
 end
 
 function slot0.Updatelayout(slot0)
@@ -163,43 +173,56 @@ function slot0.UpdateShips(slot0)
 	slot0.ships = slot3
 
 	if #slot0.ships > 5 then
-		setActive(slot0._tf:Find("window/content/ships"), true)
-		setActive(slot0._tf:Find("window/content/ships_single"), false)
+		slot5 = slot0._tf
 
-		slot5 = slot0._tf:Find("window/content/ships/content"):GetComponent("LScrollRect")
+		setActive(slot5:Find("window/content/ships"), true)
 
-		function slot5.onUpdateItem(slot0, slot1)
+		slot5 = slot0._tf
+
+		setActive(slot5:Find("window/content/ships_single"), false)
+
+		slot4 = slot0._tf
+		slot4 = slot4:Find("window/content/ships/content")
+
+		slot4:GetComponent("LScrollRect").onUpdateItem = function (slot0, slot1)
 			updateShip(tf(slot1), uv0.ships[slot0 + 1])
 		end
 
-		slot5:SetTotalCount(#slot0.ships)
-	else
-		setActive(slot0._tf:Find("window/content/ships"), false)
-		setActive(slot0._tf:Find("window/content/ships_single"), true)
-
-		slot4 = slot0._tf:Find("window/content/ships_single")
-		slot5 = UIItemList.New(slot4, slot4:Find("IconTpl"))
-
-		slot5:make(function (slot0, slot1, slot2)
-			if slot0 == UIItemList.EventUpdate then
-				updateShip(slot2, uv0.ships[slot1 + 1])
-			end
+		onNextTick(function ()
+			uv0:SetTotalCount(#uv1.ships)
 		end)
-		slot5:align(#slot0.ships)
+
+		return
 	end
+
+	setActive(slot0._tf:Find("window/content/ships"), false)
+	setActive(slot0._tf:Find("window/content/ships_single"), true)
+
+	slot4 = slot0._tf:Find("window/content/ships_single")
+	slot5 = UIItemList.New(slot4, slot4:Find("IconTpl"))
+
+	slot5:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			updateShip(slot2, uv0.ships[slot1 + 1])
+		end
+	end)
+	slot5:align(#slot0.ships)
 end
 
 function slot0.Hide(slot0)
+	uv0.super.Hide(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+
 	slot0.key = nil
 	slot0.callback = nil
 
 	setInputText(slot0.urInput, "")
-	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
 function slot0.OnDestroy(slot0)
-	slot0:Hide()
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
 end
 
 return slot0

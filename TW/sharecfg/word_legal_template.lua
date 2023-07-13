@@ -1302,6 +1302,22 @@ function temp()
 					}
 				}
 			}
+		},
+		["呂"] = {
+			["歇"] = {
+				["爾"] = {
+					this = true
+				}
+			}
+		},
+		["倫"] = {
+			["希"] = {
+				["爾"] = {
+					["德"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -4438,6 +4454,9 @@ function temp()
 				this = true
 			},
 			["9"] = {
+				this = true
+			},
+			["6"] = {
 				this = true
 			}
 		},

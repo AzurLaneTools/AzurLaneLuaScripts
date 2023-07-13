@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "歐根親王？",
-			say = "關於這個問題，建議你好好查看一下任務指令書呢。",
+			say = "關於這個問題，建議妳好好查看一下任務指令書呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "歐根親王？",
-			say = "你們的目標只有一個，通過合理的指揮艦隊，盡快獲取本次測試的最終勝利。",
+			say = "妳們的目標只有一個，通過合理的指揮艦隊，盡快獲取本次測試的最終勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "歐根親王？",
-			say = "關於這個問題，建議你好好查看一下任務指令書呢。",
+			say = "關於這個問題，建議妳好好查看一下任務指令書呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
