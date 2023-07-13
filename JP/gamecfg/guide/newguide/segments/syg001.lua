@@ -81,7 +81,8 @@ return {
 				posX = -595.6,
 				text = slot0[4],
 				ui = {
-					path = "UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/leftPanel/train_btn"
+					path = "UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/leftPanel/train_btn",
+					lineMode = 1
 				}
 			}
 		},
@@ -94,7 +95,8 @@ return {
 				posX = 348.85,
 				text = slot0[5],
 				ui = {
-					path = "UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/topPanel/comfortable"
+					path = "UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/topPanel/comfortable",
+					lineMode = 1
 				}
 			}
 		},
@@ -107,7 +109,8 @@ return {
 				posX = 562.01,
 				text = slot0[6],
 				ui = {
-					path = "UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/shop_btn"
+					path = "UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/shop_btn",
+					lineMode = 1
 				}
 			}
 		},
@@ -120,7 +123,8 @@ return {
 				posX = 395.2,
 				text = slot0[7],
 				ui = {
-					path = "UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/decorate_btn"
+					path = "UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/decorate_btn",
+					lineMode = 1
 				}
 			}
 		},

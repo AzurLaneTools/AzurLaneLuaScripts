@@ -10073,7 +10073,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ハーマイオニー」常設実装！"
+	tip = "「エスキモー」常設実装！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -11709,6 +11709,56 @@ _G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
 試作型四連装330mm砲設計図Mle1931(超巡用)
 138.6mm単装砲Mle1929
 二連装ボフォース40mm機関砲 </color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_19904 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型406mm三連装砲Mk6改
+F8Fベアキャット
+127mm連装両用砲Mk12(時限信管)</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_39906 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型150mm三連装五式高角砲
+610mm四連装魚雷
+100mm連装高角砲</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49908 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型150mmTbtsKC42T式連装砲
+533mm四連装磁気魚雷
+試作型55mm Gerät 58対空砲</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49909 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型203mmSKC三連装砲改
+533mm四連装磁気魚雷
+試作型55mm Gerät 58対空砲</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型380mm三連装砲Mle1935
+152mm三連装砲Mle1930
+二連装ボフォース40mm機関砲</color></size>]]
 }
 
 _G.pg.base.gametip.electrotherapy_wanning = {
@@ -13586,6 +13636,10 @@ _G.pg.base.gametip.msgbox_text_breakthrough = {
 
 _G.pg.base.gametip.msgbox_text_equipdetail = {
 	tip = "装備詳細"
+}
+
+_G.pg.base.gametip.msgbox_text_use = {
+	tip = "使用"
 }
 
 _G.pg.base.gametip.common_flag_ship = {
@@ -21225,6 +21279,14 @@ _G.pg.base.gametip.techpackage_item_use = {
 	tip = "特別開放を行うと、PR艦船交換アイテムが消費されます。$1を特別開放しますか？（艦船「$1」を入手でき、レベル・強化レベルは1）"
 }
 
+_G.pg.base.gametip.techpackage_item_use_1 = {
+	tip = "特別開放は同年度に実装する特別計画艦1隻のみを選択して入手できます。<color=#92fc63>$1</color>を選択しますか？"
+}
+
+_G.pg.base.gametip.techpackage_item_use_2 = {
+	tip = "アイテム<color=#ff5c5c>$1*1</color>を消費し、対象の特別計画艦を入手します。（レベル・強化レベルは初期状態になります）"
+}
+
 _G.pg.base.gametip.techpackage_item_use_confirm = {
 	tip = "開放できる艦船が全部所持しているため、使用すると下記のアイテムを入手できます："
 }
@@ -24684,10 +24746,6 @@ _G.pg.base.gametip.cryptolalia_no_ticket = {
 	tip = "メモリーズ開放チケットが不足しています。ショップでダイヤを消費し購入可能"
 }
 
-_G.pg.base.gametip.cryptolalia_entrance_coming_soom = {
-	tip = "メモリーズ"
-}
-
 _G.pg.base.gametip.ship_formationUI_fleetName_sp = {
 	tip = "ｶｽﾀﾏｲｽﾞ前衛"
 }
@@ -24734,4 +24792,56 @@ _G.pg.base.gametip.activityboss_sp_score_update = {
 
 _G.pg.base.gametip.activityboss_sp_score_not_update = {
 	tip = "最高スコア未更新"
+}
+
+_G.pg.base.gametip.charge_menu_month_tip = {
+	tip = "貿易許可証有効期限残り$1日のため購入できません"
+}
+
+_G.pg.base.gametip.activity_shop_title = {
+	tip = "イベント"
+}
+
+_G.pg.base.gametip.street_shop_title = {
+	tip = "ショップ"
+}
+
+_G.pg.base.gametip.military_shop_title = {
+	tip = "演習"
+}
+
+_G.pg.base.gametip.quota_shop_title1 = {
+	tip = "コア限定"
+}
+
+_G.pg.base.gametip.sham_shop_title = {
+	tip = "コア月度"
+}
+
+_G.pg.base.gametip.fragment_shop_title = {
+	tip = "プロト"
+}
+
+_G.pg.base.gametip.guild_shop_title = {
+	tip = "大艦隊"
+}
+
+_G.pg.base.gametip.medal_shop_title = {
+	tip = "勲章"
+}
+
+_G.pg.base.gametip.meta_shop_title = {
+	tip = "META"
+}
+
+_G.pg.base.gametip.mini_game_shop_title = {
+	tip = "チケット"
+}
+
+_G.pg.base.gametip.metaskill_up = {
+	tip = "<color=#E0E0E0>*「META汎用戦技教科書」で入手できる経験値は毎日入手可能経験上限に含まれない </color>"
+}
+
+_G.pg.base.gametip.metaskill_overflow_tip = {
+	tip = "上限を上回った<color=#FFDE60>$1</color>のスキル強化経験値は加算されません。続けますか？"
 }

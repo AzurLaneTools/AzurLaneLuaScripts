@@ -91,7 +91,7 @@ function OnApplicationExit()
 		return
 	end
 
-	if pg.GuideMgr.GetInstance():isRuning() then
+	if pg.NewGuideMgr.GetInstance():IsBusy() then
 		return
 	end
 
@@ -235,7 +235,7 @@ seriesAsync({
 				pg.SystemGuideMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
-				pg.GuideMgr.GetInstance():Init(slot0)
+				pg.NewGuideMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
 				pg.SeriesGuideMgr.GetInstance():Init(slot0)

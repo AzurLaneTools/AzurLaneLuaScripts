@@ -1,58 +1,6 @@
 pg = pg or {}
 pg.soundstory_template = {
-	{
-		CV_JP = "石見 舞菜香",
-		audition_resource_CN = "ss-50601-1",
-		audition_text = "指挥官，今日的茶室已经由镇海预定了，借着这个机会一起休息一下吧。 ",
-		story_resource_CN = "soundStory1_CN",
-		story_pic = "",
-		overview = "受到镇海的邀请，与她一起共赴茶室度过愉快的闲暇时光。\n 茶香阵阵，她递上茶盏，心中的话语只对你倾诉。",
-		name = "悠然茶室 ",
-		ship_id = 50601,
-		audition_resource_JP = "",
-		CV_CN = "龟娘",
-		id = 1,
-		story_resource_JP = "",
-		order = 2,
-		cost1 = {
-			1,
-			14,
-			120
-		},
-		cost2 = {
-			1,
-			15,
-			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					6,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
+	[2] = {
 		CV_JP = "近藤玲奈",
 		audition_resource_CN = "",
 		audition_text = "ふぅ、楽しかった♪ふふっ、頑張っちゃいましたね。こんなに海で遊んだの、いつぶりでしょう…？",
@@ -81,8 +29,8 @@ pg.soundstory_template = {
 			{
 				{
 					2023,
-					6,
-					29
+					7,
+					13
 				},
 				{
 					0,
@@ -94,7 +42,7 @@ pg.soundstory_template = {
 				{
 					2023,
 					7,
-					6
+					20
 				},
 				{
 					23,
@@ -104,7 +52,7 @@ pg.soundstory_template = {
 			}
 		}
 	},
-	{
+	[3] = {
 		CV_JP = "木野 日菜",
 		audition_resource_CN = "",
 		time = "always",
@@ -131,7 +79,6 @@ pg.soundstory_template = {
 		}
 	},
 	all = {
-		1,
 		2,
 		3
 	}

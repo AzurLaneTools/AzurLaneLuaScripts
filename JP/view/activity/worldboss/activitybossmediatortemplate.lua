@@ -108,32 +108,52 @@ function slot0.BindEvent(slot0)
 			return
 		end
 
-		slot3, slot4 = slot2[slot1]:HaveShipsInEvent()
+		slot3 = slot2[slot1 + 10]
 
-		if slot3 then
-			pg.TipsMgr.GetInstance():ShowTips(slot4)
+		slot3:RemoveUnusedItems()
 
+		slot4 = uv1.id
+
+		if _.any({
+			slot2[slot1],
+			slot2[slot1 + 10]
+		}, function (slot0)
+			slot1, slot2 = slot0:HaveShipsInEvent()
+
+			if slot1 then
+				pg.TipsMgr.GetInstance():ShowTips(slot2)
+
+				return true
+			end
+
+			return _.any(slot0:getShipIds(), function (slot0)
+				if not getProxy(BayProxy):RawGetShipById(slot0) then
+					return
+				end
+
+				slot2, slot3 = ShipStatus.ShipStatusCheck("inActivity", slot1, nil, {
+					inActivity = uv0
+				})
+
+				if not slot2 then
+					pg.TipsMgr.GetInstance():ShowTips(slot3)
+
+					return true
+				end
+			end)
+		end) then
 			return
 		end
 
 		slot5, slot6 = nil
-		slot7 = {
-			slot2[slot1]
-		}
 		slot5 = SYSTEM_ACT_BOSS
-		slot8 = uv2.contextData.useOilLimit[slot1]
+		slot7 = uv2.contextData.useOilLimit[slot1]
 
 		if not uv2.contextData.activity:IsOilLimit(uv2.contextData.normalStageIDs[slot1]) then
-			slot8 = {
+			slot7 = {
 				0,
 				0
 			}
-		end
-
-		slot2[slot1 + 10]:RemoveUnusedItems()
-
-		if slot2[slot1 + 10]:isLegalToFight() == true then
-			table.insert(slot7, slot2[slot1 + 10])
 		end
 
 		uv2:addSubLayers(Context.New({
@@ -143,8 +163,8 @@ function slot0.BindEvent(slot0)
 				system = slot5,
 				stageId = slot6,
 				actId = uv1.id,
-				fleets = slot7,
-				costLimit = slot8,
+				fleets = slot3,
+				costLimit = slot7,
 				OnConfirm = function (slot0)
 					if not uv0.contextData.activity:checkBattleTimeInBossAct() then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
@@ -220,11 +240,40 @@ function slot0.BindEvent(slot0)
 			return
 		end
 
-		slot4, slot5 = slot3[slot1]:HaveShipsInEvent()
+		slot4 = slot3[slot1 + 10]
 
-		if slot4 then
-			pg.TipsMgr.GetInstance():ShowTips(slot5)
+		slot4:RemoveUnusedItems()
 
+		slot5 = uv1.id
+
+		if _.any({
+			slot3[slot1],
+			slot3[slot1 + 10]
+		}, function (slot0)
+			slot1, slot2 = slot0:HaveShipsInEvent()
+
+			if slot1 then
+				pg.TipsMgr.GetInstance():ShowTips(slot2)
+
+				return true
+			end
+
+			return _.any(slot0:getShipIds(), function (slot0)
+				if not getProxy(BayProxy):RawGetShipById(slot0) then
+					return
+				end
+
+				slot2, slot3 = ShipStatus.ShipStatusCheck("inActivity", slot1, nil, {
+					inActivity = uv0
+				})
+
+				if not slot2 then
+					pg.TipsMgr.GetInstance():ShowTips(slot3)
+
+					return true
+				end
+			end)
+		end) then
 			return
 		end
 
@@ -263,34 +312,25 @@ function slot0.BindEvent(slot0)
 			end,
 			function (slot0)
 				slot1, slot2 = nil
-				slot3 = {
-					uv0[uv1]
-				}
-				slot1 = uv2 and SYSTEM_BOSS_EXPERIMENT or SYSTEM_HP_SHARE_ACT_BOSS
-				slot4 = uv3.contextData.useOilLimit[4]
+				slot1 = uv0 and SYSTEM_BOSS_EXPERIMENT or SYSTEM_HP_SHARE_ACT_BOSS
+				slot3 = uv1.contextData.useOilLimit[4]
 
-				if not uv3.contextData.activity:IsOilLimit(uv3.contextData.exStageID) then
-					slot4 = {
+				if not uv1.contextData.activity:IsOilLimit(uv1.contextData.exStageID) then
+					slot3 = {
 						0,
 						0
 					}
 				end
 
-				uv0[uv1 + 10]:RemoveUnusedItems()
-
-				if uv0[uv1 + 10]:isLegalToFight() == true then
-					table.insert(slot3, uv0[uv1 + 10])
-				end
-
-				uv3:addSubLayers(Context.New({
+				uv1:addSubLayers(Context.New({
 					mediator = ActivityBossPreCombatMediator,
 					viewComponent = ActivityBossPreCombatLayer,
 					data = {
 						system = slot1,
 						stageId = slot2,
-						actId = uv4.id,
-						fleets = slot3,
-						costLimit = slot4,
+						actId = uv2.id,
+						fleets = uv3,
+						costLimit = slot3,
 						OnConfirm = function (slot0)
 							if not uv0.contextData.activity:checkBattleTimeInBossAct() then
 								pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
@@ -320,42 +360,59 @@ function slot0.BindEvent(slot0)
 			return
 		end
 
-		slot3, slot4 = slot2[slot1]:HaveShipsInEvent()
+		slot3 = slot2[slot1 + 10]
 
-		if slot3 then
-			pg.TipsMgr.GetInstance():ShowTips(slot4)
+		slot3:RemoveUnusedItems()
 
+		slot4 = uv1.id
+
+		if _.any({
+			slot2[slot1],
+			slot2[slot1 + 10]
+		}, function (slot0)
+			slot1, slot2 = slot0:HaveShipsInEvent()
+
+			if slot1 then
+				pg.TipsMgr.GetInstance():ShowTips(slot2)
+
+				return true
+			end
+
+			return _.any(slot0:getShipIds(), function (slot0)
+				if not getProxy(BayProxy):RawGetShipById(slot0) then
+					return
+				end
+
+				slot2, slot3 = ShipStatus.ShipStatusCheck("inActivity", slot1, nil, {
+					inActivity = uv0
+				})
+
+				if not slot2 then
+					pg.TipsMgr.GetInstance():ShowTips(slot3)
+
+					return true
+				end
+			end)
+		end) then
 			return
 		end
 
 		seriesAsync({
 			function (slot0)
 				slot1, slot2 = nil
-				slot3 = {
-					uv0[uv1]
-				}
-				slot1 = SYSTEM_ACT_BOSS_SP
-				slot2 = uv2.contextData.spStageID
-				slot4 = {
-					0,
-					0
-				}
 
-				uv0[uv1 + 10]:RemoveUnusedItems()
-
-				if uv0[uv1 + 10]:isLegalToFight() == true then
-					table.insert(slot3, uv0[uv1 + 10])
-				end
-
-				uv2:addSubLayers(Context.New({
+				uv0:addSubLayers(Context.New({
 					mediator = ActivityBossPreCombatMediator,
 					viewComponent = ActivityBossPreCombatLayer,
 					data = {
-						system = slot1,
-						stageId = slot2,
-						actId = uv3.id,
-						fleets = slot3,
-						costLimit = slot4,
+						system = SYSTEM_ACT_BOSS_SP,
+						stageId = uv0.contextData.spStageID,
+						actId = uv1.id,
+						fleets = uv2,
+						costLimit = {
+							0,
+							0
+						},
 						OnConfirm = function (slot0)
 							if not uv0.contextData.activity:checkBattleTimeInBossAct() then
 								pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))

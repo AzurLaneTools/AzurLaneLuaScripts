@@ -6898,6 +6898,144 @@ _G.pg.base.item_data_statistics[13036] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[13037] = {
+	display = "試作型406mm三連装砲Mk6改T0設計図",
+	name = "試作型406mm三連装砲Mk6改T0設計図",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/14540",
+	id = 13037,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13038] = {
+	display = "試作型203mmSKC三連装砲改T0設計図",
+	name = "試作型203mmSKC三連装砲改T0設計図",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/43160",
+	id = 13038,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13039] = {
+	display = "試作型150mm三連装五式高角砲T0設計図",
+	name = "試作型150mm三連装五式高角砲T0設計図",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/32360",
+	id = 13039,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13040] = {
+	display = "試作型150mmTbtsKC42T式連装砲T0設計図",
+	name = "試作型150mmTbtsKC42T式連装砲T0設計図",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/42360",
+	id = 13040,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13041] = {
+	display = "試作型380mm三連装砲Mle1935T0設計図",
+	name = "試作型380mm三連装砲Mle1935T0設計図",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/50480",
+	id = 13041,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13042] = {
+	display = "試作型55mm Gerät  58対空砲T0設計図",
+	name = "試作型55mm Gerät  58対空砲T0設計図",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/46420",
+	id = 13042,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[14001] = {
 	display = [[
 下記任意のSSレアの装備の設計図と交換可能
@@ -7863,6 +8001,75 @@ _G.pg.base.item_data_statistics[16024] = {
 	is_world = 0,
 	icon = "Props/16024",
 	id = 16024,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[16031] = {
+	display = "META艦船用の汎用スキル教科書T1。METAラボの「戦技習得」画面で使用でき、スキル強化経験値を100加算可能",
+	name = "META汎用戦技教科書T1",
+	max_num = 0,
+	type = 25,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16031",
+	id = 16031,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[16032] = {
+	display = "META艦船用の汎用スキル教科書T2。METAラボの「戦技習得」画面で使用でき、スキル強化経験値を1000加算可能",
+	name = "META汎用戦技教科書T2",
+	max_num = 0,
+	type = 25,
+	time_limit = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16032",
+	id = 16032,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[16033] = {
+	display = "META艦船用の汎用スキル教科書T1。METAラボの「戦技習得」画面で使用でき、スキル強化経験値を10000加算可能",
+	name = "META汎用戦技教科書T3",
+	max_num = 0,
+	type = 25,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16033",
+	id = 16033,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -21728,6 +21935,98 @@ _G.pg.base.item_data_statistics[40023] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[40026] = {
+	display = "大量のアイテムを入手できます",
+	name = "PR艦船Ⅲ期交換アイテム＋強化ユニットセット",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_promotion",
+	id = 40026,
+	display_icon = {
+		{
+			2,
+			40130,
+			1
+		},
+		{
+			2,
+			42020,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40027] = {
+	display = "大量のアイテムを入手できます",
+	name = "PR艦船Ⅲ期交換アイテム",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_normal",
+	id = 40027,
+	display_icon = {
+		{
+			2,
+			40130,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40028] = {
+	display = "大量のアイテムを入手できます",
+	name = "PR特別計画艦Ⅲ期強化ユニットセット",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_promotion",
+	id = 40028,
+	display_icon = {
+		{
+			2,
+			42020,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[40100] = {
 	display = "誓いの指輪を2個手に入れます",
 	name = "指輪パック",
@@ -22757,6 +23056,63 @@ _G.pg.base.item_data_statistics[40129] = {
 			2,
 			16023,
 			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40130] = {
+	display = [[
+使用すると下記のPR特別計画艦を1隻開放（入手・強化レベル1）可能。
+ チェシャー、マインツ、オーディン、シャンパーニュ 
+<color=#92fc63>上記艦船が全て入手済みの場合</color>倉庫で使用すると下記のアイテムを入手できます：
+戦術データパック·Ⅲ期*300
+指向型改造図T3*5
+指向型改造図T2*10
+キューブ*5
+資金*20000]],
+	name = "PR艦船Ⅲ期交換券",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/research3",
+	id = 40130,
+	display_icon = {
+		{
+			2,
+			20103,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
 		}
 	},
 	price = {},
@@ -49119,6 +49475,344 @@ _G.pg.base.item_data_statistics[42046] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[42050] = {
+	display = "特別計画艦一期目・二期目・三期目・四期目・五期目・六期目の強化ユニット（PR）から選択して入手できます",
+	name = "指向型強化ユニット・六期目",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42050",
+	id = 42050,
+	display_icon = {
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42051] = {
+	display = "ユニオン航空戦艦「キアサージ」の強化ユニット。\n<color=#92fc63>「キアサージ」開発完了後、「開発ドック」で「キアサージ」の性能を強化できる。</color>",
+	name = "強化ユニット「キアサージ」",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42051",
+	id = 42051,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42052] = {
+	display = "重桜巡洋艦「四万十」の強化ユニット。\n<color=#92fc63>「四万十」開発完了後、「開発ドック」で「四万十」の性能を強化できる。</color>",
+	name = "強化ユニット「四万十」",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42052",
+	id = 42052,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42053] = {
+	display = "鉄血駆逐「フィリックス・シュルツ」の強化ユニット。\n<color=#92fc63>「フィリックス・シュルツ」開発完了後、「開発ドック」で「フィリックス・シュルツ」の性能を強化できる。</color>",
+	name = "強化ユニット「フィリックス・シュルツ」",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42053",
+	id = 42053,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42054] = {
+	display = "鉄血巡洋艦「ヒンデンブルク」の強化ユニット。\n<color=#92fc63>「ヒンデンブルク」開発完了後、「開発ドック」で「ヒンデンブルク」の性能を強化できる。</color>",
+	name = "強化ユニット「ヒンデンブルク」",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42054",
+	id = 42054,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42055] = {
+	display = "ヴィシア戦艦「フランドル」の強化ユニット。\n<color=#92fc63>「フランドル」開発完了後、「開発ドック」で「フランドル」の性能を強化できる。</color>",
+	name = "強化ユニット「フランドル」",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42055",
+	id = 42055,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42056] = {
+	display = "特別計画艦二期目・三期目・四期目・五期目・六期目の強化ユニット（DR）を選択して入手できます",
+	name = "上級指向型強化ユニット・六期目",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42056",
+	id = 42056,
+	display_icon = {
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[43001] = {
 	display = "汎用型ブリからのバレンタインプレゼント",
 	name = "バレンタインプレゼント",
@@ -60814,6 +61508,134 @@ _G.pg.base.item_data_statistics[52062] = {
 		{
 			2,
 			13007,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[52071] = {
+	display = "ランダムで下記の強化ユニットを入手できます。",
+	name = "強化ユニット(ランダム)",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/52001",
+	id = 52071,
+	display_icon = {
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[52072] = {
+	display = "ランダムで下記の設計図を入手できます。",
+	name = "兵装設計図(ランダム)",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 52072,
+	display_icon = {
+		{
+			2,
+			13038,
+			1
+		},
+		{
+			2,
+			13037,
+			1
+		},
+		{
+			2,
+			13039,
+			1
+		},
+		{
+			2,
+			13040,
+			1
+		},
+		{
+			2,
+			13041,
+			1
+		},
+		{
+			2,
+			13042,
+			1
+		},
+		{
+			2,
+			13024,
+			1
+		},
+		{
+			2,
+			13007,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13009,
+			1
+		},
+		{
+			2,
+			13011,
 			1
 		}
 	},
@@ -196493,6 +197315,29 @@ _G.pg.base.item_data_statistics[59016] = {
 	is_world = 0,
 	icon = "Props/gameticket",
 	id = 59016,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59017] = {
+	display = "メモリーズコンテンツを開放できるチケット。ショップでも購入可能",
+	name = "メモリーズチケット",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/soundStoryTicket",
+	id = 59017,
 	display_icon = {},
 	price = {},
 	index = {},

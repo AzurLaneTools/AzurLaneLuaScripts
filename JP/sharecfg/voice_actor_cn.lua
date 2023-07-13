@@ -1427,5 +1427,25 @@ pg.voice_actor_CN = {
 	[370] = {
 		code = 370,
 		actor_name = "富士原晴乃"
+	},
+	[371] = {
+		code = 371,
+		actor_name = "青山吉能"
+	},
+	[372] = {
+		code = 372,
+		actor_name = "松井恵理子"
+	},
+	[373] = {
+		code = 373,
+		actor_name = "澤田姫"
+	},
+	[374] = {
+		code = 374,
+		actor_name = "斉藤朱夏"
+	},
+	[375] = {
+		code = 375,
+		actor_name = "守屋亨香"
 	}
 }

@@ -21,6 +21,16 @@ return {
 			}
 		},
 		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "enemyantiAirPowerDownTag"
+			}
+		},
+		{
 			type = "BattleBuffAddBuff",
 			trigger = {
 				"onAttach"

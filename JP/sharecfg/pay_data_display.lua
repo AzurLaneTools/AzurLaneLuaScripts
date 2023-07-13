@@ -6859,6 +6859,232 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[2015] = {
+		subject = "PR特別計画艦パック・Ⅲ期",
+		limit_group = 3,
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		limit_arg = 0,
+		name = "PR特別計画艦パック・Ⅲ期",
+		name_display = "PR特別計画艦パック・Ⅲ期",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2015,
+		money = 2000,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_display",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "特別計画艦・Ⅲ期と交換できるアイテムなどを入手できます",
+		airijp_id = "com.yostarjp.azurlane.tech",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {}
+	},
+	[2016] = {
+		subject = "PR艦船Ⅲ期交換アイテム\n＋強化ユニットセット",
+		limit_group = 3,
+		descrip_extra = "*既にPR艦船・Ⅲ期をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
+		type = 0,
+		limit_arg = 1,
+		name = "PR艦船Ⅲ期交換アイテム＋強化ユニットセット",
+		name_display = "PR艦船Ⅲ期交換アイテム\n＋強化ユニットセット",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2016,
+		money = 2000,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_promotion",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan7",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "内容",
+		airijp_id = "com.yostarjp.azurlane.tech7",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40026,
+				1
+			}
+		}
+	},
+	[2017] = {
+		subject = "PR艦船Ⅲ期交換アイテム",
+		limit_group = 3,
+		descrip_extra = "*既にPR艦船・Ⅲ期をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
+		type = 0,
+		limit_arg = 2,
+		name = "PR艦船Ⅲ期交換アイテム",
+		name_display = "PR艦船Ⅲ期交換アイテム",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2017,
+		money = 1200,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_normal",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan8",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "内容",
+		airijp_id = "com.yostarjp.azurlane.tech8",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40027,
+				1
+			}
+		}
+	},
+	[2018] = {
+		subject = "強化ユニット",
+		limit_group = 3,
+		descrip_extra = "購入すると指向型強化ユニット・Ⅲ期×343個を入手可能",
+		type = 0,
+		limit_arg = 3,
+		name = "PR特別計画艦Ⅲ期強化ユニットセット",
+		name_display = "強化ユニット",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2018,
+		money = 1000,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_promotion",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan9",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "内容",
+		airijp_id = "com.yostarjp.azurlane.tech9",
+		extra_service_item = {
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40028,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -6933,6 +7159,10 @@ pg.pay_data_display = {
 		2009,
 		2010,
 		2011,
-		2014
+		2014,
+		2015,
+		2016,
+		2017,
+		2018
 	}
 }

@@ -5,8 +5,8 @@ pg.survey_data_template = {
 		uo_url = "https://usersurvey.biligame.com/vm/OtgEluc.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6",
 		id = 1001,
 		name = "满意度调查",
-		main_url = "https://usersurvey.biligame.com/vm/Ya3WBJs.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6",
-		main_activity = "226303557",
+		main_url = "https://usersurvey.biligame.com/vm/mxYPRez.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6",
+		main_activity = "227257271",
 		ios_activity = "226303698",
 		uo_activity = "226303542",
 		bonus = {

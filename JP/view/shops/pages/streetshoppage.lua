@@ -5,12 +5,8 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.uilist = UIItemList.New(slot0:findTF("scrollView/view"), slot0:findTF("tpl"))
 	slot0.timerText = slot0:findTF("timer_bg/Text"):GetComponent(typeof(Text))
 	slot0.refreshBtn = slot0:findTF("refresh_btn")
-
-	setText(slot0:findTF("tpl/mask/tag/sellout_tag"), i18n("word_sell_out"))
-
 	slot0.actTip = slot0:findTF("tip/tip_activity"):GetComponent(typeof(Text))
 
 	setActive(slot0.actTip, #_.select(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP_STREET), function (slot0)
@@ -115,21 +111,39 @@ function slot0.OnUpdatePlayer(slot0)
 end
 
 function slot0.OnSetUp(slot0)
-	slot0:InitCommodities(slot0.shop:GetCommodities())
 	slot0:RemoveTimer()
 	slot0:AddTimer()
 end
 
 function slot0.OnUpdateAll(slot0)
+	slot0:InitCommodities()
 	slot0:OnSetUp()
 end
 
 function slot0.OnUpdateCommodity(slot0, slot1)
-	slot0.cards[slot1.id]:update(slot1)
+	slot2 = nil
+
+	for slot6, slot7 in pairs(slot0.cards) do
+		if slot7.goodsVO.id == slot1.id then
+			slot2 = slot7
+		end
+	end
+
+	if slot2 then
+		slot2:update(slot1)
+	end
 end
 
-function slot0.InitCommodities(slot0, slot1)
-	function slot2(slot0)
+function slot0.OnInitItem(slot0, slot1)
+	slot2 = GoodsCard.New(slot1)
+
+	onButton(slot0, slot2.go, function ()
+		if not uv0.goodsVO:canPurchase() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
+
+			return
+		end
+
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			showOwned = true,
 			hideLine = true,
@@ -143,33 +157,22 @@ function slot0.InitCommodities(slot0, slot1)
 				uv0:Purchase(uv1)
 			end
 		})
+	end, SFX_PANEL)
+
+	slot0.cards[slot1] = slot2
+end
+
+function slot0.OnUpdateItem(slot0, slot1, slot2)
+	if not slot0.cards[slot2] then
+		slot0:OnInitItem(slot2)
+
+		slot3 = slot0.cards[slot2]
 	end
 
-	slot0.cards = {}
-
-	slot0.uilist:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
-			slot4 = GoodsCard.New(slot2)
-
-			onButton(uv1, slot4.itemTF, function ()
-				uv0(uv1.goodsVO)
-			end, SFX_PANEL)
-			slot4:update(slot3)
-
-			uv1.cards[slot3.id] = slot4
-		end
-	end)
-	slot0.uilist:align(#slot1)
+	slot3:update(slot0.displays[slot1 + 1])
 end
 
 function slot0.Purchase(slot0, slot1)
-	if not slot1:canPurchase() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
-
-		return
-	end
-
 	if slot1:getConfig("resource_type") == 4 or slot2 == 14 then
 		slot3 = slot0.player:getResById(slot2)
 

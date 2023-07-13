@@ -556,6 +556,17 @@ pg.fleet_tech_ship_class = {
 			10807
 		}
 	},
+	[11001] = {
+		shiptype = 10,
+		name = "キアサージ",
+		nation = 1,
+		id = 11001,
+		t_level_1 = 1,
+		t_level = 9,
+		ships = {
+			19904
+		}
+	},
 	[11201] = {
 		shiptype = 12,
 		name = "ヴェスタル",
@@ -1444,6 +1455,17 @@ pg.fleet_tech_ship_class = {
 			30223
 		}
 	},
+	[30206] = {
+		shiptype = 2,
+		name = "四万十",
+		nation = 3,
+		id = 30206,
+		t_level_1 = 86,
+		t_level = 8,
+		ships = {
+			39906
+		}
+	},
 	[30301] = {
 		shiptype = 3,
 		name = "古鷹型",
@@ -1950,6 +1972,17 @@ pg.fleet_tech_ship_class = {
 			40199
 		}
 	},
+	[40108] = {
+		shiptype = 1,
+		name = "フィリックス・シュルツ",
+		nation = 4,
+		id = 40108,
+		t_level_1 = 119,
+		t_level = 8,
+		ships = {
+			49908
+		}
+	},
 	[40201] = {
 		shiptype = 2,
 		name = "ケーニヒスベルク級",
@@ -2077,6 +2110,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 1,
 		ships = {
 			40311
+		}
+	},
+	[40306] = {
+		shiptype = 3,
+		name = "ヒンデンブルク",
+		nation = 4,
+		id = 40306,
+		t_level_1 = 1,
+		t_level = 10,
+		ships = {
+			49909
 		}
 	},
 	[40401] = {
@@ -3054,6 +3098,17 @@ pg.fleet_tech_ship_class = {
 			99901
 		}
 	},
+	[90502] = {
+		shiptype = 5,
+		name = "アルザス級",
+		nation = 9,
+		id = 90502,
+		t_level_1 = 1,
+		t_level = 9,
+		ships = {
+			99902
+		}
+	},
 	[90701] = {
 		shiptype = 7,
 		name = "ジョッフル級",
@@ -3362,6 +3417,7 @@ pg.fleet_tech_ship_class = {
 		10801,
 		10802,
 		10803,
+		11001,
 		11201,
 		20101,
 		20102,
@@ -3433,6 +3489,7 @@ pg.fleet_tech_ship_class = {
 		30203,
 		30204,
 		30205,
+		30206,
 		30301,
 		30302,
 		30303,
@@ -3476,6 +3533,7 @@ pg.fleet_tech_ship_class = {
 		40105,
 		40106,
 		40107,
+		40108,
 		40201,
 		40202,
 		40203,
@@ -3487,6 +3545,7 @@ pg.fleet_tech_ship_class = {
 		40303,
 		40304,
 		40305,
+		40306,
 		40401,
 		40402,
 		40403,
@@ -3572,6 +3631,7 @@ pg.fleet_tech_ship_class = {
 		90302,
 		90401,
 		90501,
+		90502,
 		90701,
 		970101,
 		970102,

@@ -42,4 +42,16 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
+function slot0.UpdateEmptyCard(slot0)
+	slot2 = slot0:findTF("list_panel/mask/tpl"):Find("empty"):GetComponent(typeof(Image))
+
+	if WorldBossConst.GetAchieveState() == WorldBossConst.ACHIEVE_STATE_STARTING then
+		slot2.sprite = GetSpriteFromAtlas("MetaWorldboss/" .. WorldBossConst.BossId2MetaId(WorldBossConst.GetArchivesId()), "item_04")
+	else
+		slot2.sprite = GetSpriteFromAtlas("MetaWorldboss/extra_empty", "")
+	end
+
+	slot2:SetNativeSize()
+end
+
 return slot0

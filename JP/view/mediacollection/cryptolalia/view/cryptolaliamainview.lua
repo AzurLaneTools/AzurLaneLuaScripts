@@ -6,6 +6,8 @@ function slot0.Ctor(slot0, slot1)
 			return rawget(slot0, "class")[slot1] and slot2[slot1] or uv0[slot1]
 		end
 	})
+
+	slot0.downloadBtnAnim = slot0.downloadBtn:GetComponent(typeof(Animation))
 end
 
 function slot0.Flush(slot0, slot1, slot2, slot3)
@@ -13,8 +15,8 @@ function slot0.Flush(slot0, slot1, slot2, slot3)
 		slot0.shipName.text = slot1:GetShipName()
 		slot0.nameTxt.text = slot1:GetName()
 		slot0.descTxt.text = slot1:GetDescription()
-		slot0.auditionTxt.text = slot1:GetAuditionTitle()
 
+		slot0.auditionTxt:SetText(slot1:GetAuditionTitle())
 		slot0:LoadCryptolaliaSpriteForShipGroup(slot1:GetShipGroupId())
 
 		slot4 = not slot1:IsForever() and slot1:IsLock()
@@ -55,6 +57,12 @@ function slot0.FlushState(slot0, slot1, slot2, slot3)
 
 	setActive(slot0.lockBtn, Cryptolalia.STATE_LOCK == slot4)
 	setActive(slot0.downloadBtn, Cryptolalia.STATE_DOWNLOADABLE == slot4)
+
+	if slot0.state and slot0.state == Cryptolalia.STATE_LOCK and slot4 == Cryptolalia.STATE_DOWNLOADABLE then
+		slot0.downloadBtnAnim:Stop()
+		slot0.downloadBtnAnim:Play("anim_Cryptolalia_dowmload")
+	end
+
 	setSlider(slot0.downloadingBtn, 0, 1, 0)
 	setActive(slot0.downloadingBtn, slot4 == Cryptolalia.STATE_DOWNLOADING)
 	setActive(slot0.playBtn, Cryptolalia.STATE_PLAYABLE == slot4)
@@ -78,6 +86,8 @@ function slot0.FlushState(slot0, slot1, slot2, slot3)
 	else
 		slot0.stateBtnTxt.text = ""
 	end
+
+	slot0.state = slot4
 end
 
 function slot1(slot0, slot1, slot2)

@@ -421,18 +421,7 @@ function slot0.paresingToggleString(slot0)
 		return {}
 	end
 
-	slot1 = {}
-	slot3 = string.find(slot0, "&", 1)
-
-	while slot3 do
-		table.insert(slot1, string.sub(slot0, slot2, slot3))
-
-		slot3 = string.find(slot0, "&", slot3 + 1)
-	end
-
-	table.insert(slot1, string.sub(slot0, slot2))
-
-	return slot1
+	return string.split(slot0, "&")
 end
 
 function slot0.checkDifficultValid(slot0, slot1)

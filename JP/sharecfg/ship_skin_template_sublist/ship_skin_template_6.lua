@@ -9482,20 +9482,20 @@ pg.base.ship_skin_template_6 = {
 	},
 	[205016] = {
 		ship_group = 20501,
-		name = "伊丽莎白占坑",
+		name = "シーサイドオーダーズ",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
 		illustrator2 = -1,
-		bg = "",
+		bg = "117",
 		l2d_drag_rate = "",
 		group_index = 6,
 		id = 205016,
-		painting = "yilishabai",
-		prefab = "yilishabai",
+		painting = "yilishabai_7",
+		prefab = "yilishabai_7",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
+		shop_type_id = 6,
 		air_bomb_skin = "",
 		illustrator = -1,
 		lip_smoothing = 0,
@@ -9512,7 +9512,7 @@ pg.base.ship_skin_template_6 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "占坑",
+		desc = "もう、そこで何をしているのこの下僕！仕事なんてしてないで早く海に入って羽を伸ばしてきなさい！せっかく海辺に来てやったんだから、がっかりさせないでよねっ！",
 		voice_actor = 28,
 		spine_offset = "",
 		gyro = 0,
@@ -9522,7 +9522,9 @@ pg.base.ship_skin_template_6 = {
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		ship_l2d_id = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -9553,17 +9555,12 @@ pg.base.ship_skin_template_6 = {
 		bound_bone = {
 			cannon = {
 				{
-					-0.106,
-					1.3,
+					1.17,
+					1.08,
 					0
 				}
 			},
 			vicegun = {
-				{
-					-0.591,
-					1.589,
-					0
-				},
 				{
 					0.688,
 					1.12,
@@ -9571,11 +9568,6 @@ pg.base.ship_skin_template_6 = {
 				}
 			},
 			antiaircraft = {
-				{
-					-0.591,
-					1.589,
-					0
-				},
 				{
 					0.688,
 					1.12,

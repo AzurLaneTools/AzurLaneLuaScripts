@@ -307,5 +307,26 @@ pg.ship_spine_shift = {
 			-27.1,
 			18
 		}
+	},
+	yilishabai_7 = {
+		spine = "yilishabai_7",
+		mainui_shift = {
+			16.1,
+			0
+		}
+	},
+	xingdengbao = {
+		spine = "xingdengbao",
+		mainui_shift = {
+			-12.4,
+			-158.1
+		}
+	},
+	feilikesishuerci = {
+		spine = "feilikesishuerci",
+		mainui_shift = {
+			0,
+			-10
+		}
 	}
 }

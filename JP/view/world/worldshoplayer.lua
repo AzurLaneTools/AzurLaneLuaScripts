@@ -162,6 +162,9 @@ function slot0.updateGoods(slot0, slot1, slot2, slot3)
 	table.sort(slot8, CompareFuncs({
 		function (slot0)
 			return pg.shop_template[slot0.id].order
+		end,
+		function (slot0)
+			return slot0.id
 		end
 	}))
 

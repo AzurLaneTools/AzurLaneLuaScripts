@@ -362,11 +362,11 @@ function slot0.GetUsingPaintingNames(slot0)
 
 	if not slot0:IsLive2dPainting() and not slot0:IsSpinePainting() and slot2 ~= nil then
 		if slot0:IsShowNPainting() and uv0(slot2 .. "_n") then
-			slot2 = slot2 .. "_n"
+			table.insert(slot1, slot2 .. "_n")
 		end
 
 		if slot0:IsShowWJZPainting() and uv0(slot2 .. "_wjz") then
-			slot2 = slot2 .. "_wjz"
+			table.insert(slot1, slot2 .. "_wjz")
 		end
 
 		if uv0(slot2) then
@@ -378,7 +378,7 @@ function slot0.GetUsingPaintingNames(slot0)
 		slot9 = slot8.name
 
 		if slot8.showNPainting and uv0(slot9 .. "_n") then
-			slot9 = slot9 .. "_n"
+			table.insert(slot1, slot9 .. "_n")
 		end
 
 		if uv0(slot9) then

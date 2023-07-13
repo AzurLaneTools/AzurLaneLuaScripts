@@ -162,7 +162,7 @@ function slot0.Execute(slot0, slot1)
 		return
 	end
 
-	if not pg.GuideMgr.GetInstance():canPlay() then
+	if not pg.NewGuideMgr.GetInstance():CanPlay() then
 		slot1()
 
 		return
@@ -174,9 +174,9 @@ function slot0.Execute(slot0, slot1)
 		storyId = slot3
 	})
 
-	slot6 = pg.GuideMgr.GetInstance()
+	slot6 = pg.NewGuideMgr.GetInstance()
 
-	slot6:play(slot3, slot5, function ()
+	slot6:Play(slot3, slot5, function ()
 		if uv0.nextOne then
 			slot0, slot1 = uv0.nextOne()
 
@@ -190,7 +190,7 @@ function slot0.PlayNextOne(slot0, slot1, slot2)
 		return
 	end
 
-	pg.GuideMgr.GetInstance():play(slot1, slot2, function ()
+	pg.NewGuideMgr.GetInstance():Play(slot1, slot2, function ()
 	end)
 	pg.m02:sendNotification(GAME.STORY_UPDATE, {
 		storyId = slot1
