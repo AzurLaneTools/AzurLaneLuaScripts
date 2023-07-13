@@ -626,7 +626,7 @@ end
 function slot0.UpdatedUnlockProgress(slot0, slot1, slot2)
 	if slot2 <= slot1 or not nowWorld():IsSystemOpen(WorldConst.SystemWorldBoss) then
 		slot0.tipProgress = false
-	elseif not (pg.GuideMgr.GetInstance():isPlayed("WorldG190") or not GUIDE_WROLD) then
+	elseif not (pg.NewStoryMgr.GetInstance():IsPlayed("WorldG190") or not GUIDE_WROLD) then
 		slot0.tipProgress = true
 	elseif #getProxy(SettingsProxy):GetWorldBossProgressTipTable() == 0 then
 		slot0.tipProgress = false

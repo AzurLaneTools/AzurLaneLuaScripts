@@ -29,8 +29,8 @@ pg.soundstory_template = {
 			{
 				{
 					2023,
-					6,
-					29
+					7,
+					13
 				},
 				{
 					0,
@@ -42,7 +42,7 @@ pg.soundstory_template = {
 				{
 					2023,
 					7,
-					6
+					20
 				},
 				{
 					23,
@@ -53,12 +53,12 @@ pg.soundstory_template = {
 		}
 	},
 	{
-		CV_JP = "近藤玲奈",
+		CV_JP = "近藤 玲奈",
 		audition_resource_CN = "",
 		audition_text = "呼，真开心呀♪嘿嘿，有点不小心脑过头了呢。有多久没在海边像这样玩的这么开心了呢？ ",
 		story_resource_CN = "",
 		story_pic = "",
-		overview = "“指挥官喜欢大海吗，樫野我很喜欢哦！” \n和樫野一起享受碧海阳光 \n冰凉的海水也无法掩盖她炽热的内心",
+		overview = "“指挥官喜欢大海吗，樫我很喜欢哦！” \n和樫一起享受碧海阳光 \n冰凉的海水也无法掩盖她炽热的内心",
 		name = "碧海阳光",
 		ship_id = 31901,
 		audition_resource_JP = "ss-31901-1",
@@ -81,8 +81,8 @@ pg.soundstory_template = {
 			{
 				{
 					2023,
-					6,
-					29
+					7,
+					13
 				},
 				{
 					0,
@@ -94,7 +94,7 @@ pg.soundstory_template = {
 				{
 					2023,
 					7,
-					6
+					20
 				},
 				{
 					23,

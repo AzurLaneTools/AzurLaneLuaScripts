@@ -169,7 +169,7 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getRawData())
-	slot0.viewComponent:UpdateItems(getProxy(BagProxy):getRawData())
+	slot0.viewComponent:OnUpdateItems(getProxy(BagProxy):getRawData())
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -206,7 +206,7 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == PlayerProxy.UPDATED then
 		slot0.viewComponent:SetPlayer(slot3)
 	elseif slot2 == ShopsProxy.SHOPPINGSTREET_UPDATE then
-		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_SHOP_STREET, slot3.shopStreet)
+		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_SHOP_STREET, slot3.shopStreet)
 	elseif slot2 == GAME.SHOPPING_DONE then
 		slot4 = nil
 
@@ -214,12 +214,12 @@ function slot0.handleNotification(slot0, slot1)
 			slot5 = getProxy(ShopsProxy):getShopStreet()
 			slot4 = slot5:getGoodsById(slot3.id)
 
-			slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_SHOP_STREET, slot5, slot3.id)
+			slot0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_SHOP_STREET, slot5, slot3.id)
 		elseif slot3.shopType == ShopArgs.MilitaryShop then
 			slot5 = getProxy(ShopsProxy):getMeritorousShop()
 			slot4 = slot5.goods[slot3.id]
 
-			slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_MILITARY_SHOP, slot5, slot3.id)
+			slot0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_MILITARY_SHOP, slot5, slot3.id)
 		end
 
 		if slot3.awards and #slot3.awards > 0 then
@@ -231,25 +231,25 @@ function slot0.handleNotification(slot0, slot1)
 		slot0:ShowGetShip(slot4)
 		slot0:ShowGetSkin(slot4)
 	elseif slot2 == ShopsProxy.MERITOROUS_SHOP_UPDATED then
-		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_MILITARY_SHOP, slot3)
+		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_MILITARY_SHOP, slot3)
 	elseif slot2 == ShopsProxy.SHAM_SHOP_UPDATED then
-		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_SHAM_SHOP, slot3)
+		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_SHAM_SHOP, slot3)
 	elseif slot2 == GAME.SHAM_SHOPPING_DONE then
-		slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_SHAM_SHOP, getProxy(ShopsProxy):getShamShop(), slot3.id)
+		slot0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_SHAM_SHOP, getProxy(ShopsProxy):getShamShop(), slot3.id)
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == BagProxy.ITEM_UPDATED then
-		slot0.viewComponent:UpdateItems(getProxy(BagProxy):getRawData())
+		slot0.viewComponent:OnUpdateItems(getProxy(BagProxy):getRawData())
 	elseif slot2 == GAME.FRAG_SHOPPING_DONE then
-		slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_FRAGMENT, getProxy(ShopsProxy):getFragmentShop(), slot3.id)
+		slot0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_FRAGMENT, getProxy(ShopsProxy):getFragmentShop(), slot3.id)
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == ShopsProxy.FRAGMENT_SHOP_UPDATED then
-		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_FRAGMENT, slot3)
+		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_FRAGMENT, slot3)
 	elseif slot2 == ShopsProxy.ACTIVITY_SHOP_GOODS_UPDATED then
-		slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_ACTIVITY, getProxy(ShopsProxy):getActivityShopById(slot3.activityId), slot3.goodsId)
+		slot0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_ACTIVITY, getProxy(ShopsProxy):getActivityShopById(slot3.activityId), slot3.goodsId)
 	elseif slot2 == ShopsProxy.META_SHOP_GOODS_UPDATED then
-		slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_META, getProxy(ShopsProxy):GetMetaShop(), slot3.goodsId)
+		slot0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_META, getProxy(ShopsProxy):GetMetaShop(), slot3.goodsId)
 	elseif slot2 == ShopsProxy.ACTIVITY_SHOP_UPDATED then
-		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_ACTIVITY, slot3.shop)
+		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_ACTIVITY, slot3.shop)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 	elseif slot2 == GAME.USE_ITEM_DONE then
@@ -269,22 +269,22 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.ON_MEDAL_SHOP_PURCHASE_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == ShopsProxy.GUILD_SHOP_UPDATED then
-		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_GUILD, slot3.shop)
+		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_GUILD, slot3.shop)
 	elseif slot2 == ShopsProxy.MEDAL_SHOP_UPDATED then
-		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_MEDAL, slot3)
+		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_MEDAL, slot3)
 	elseif slot2 == GAME.ON_META_SHOPPING_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == ShopsProxy.QUOTA_SHOP_UPDATED then
-		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_QUOTA, slot3.shop)
+		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_QUOTA, slot3.shop)
 	elseif slot2 == GAME.QUOTA_SHOPPING_DONE then
-		slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_QUOTA_SHOP, getProxy(ShopsProxy):getQuotaShop(), slot3.id)
+		slot0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_QUOTA_SHOP, getProxy(ShopsProxy):getQuotaShop(), slot3.id)
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == GAME.MINI_GAME_SHOP_BUY_DONE then
 		if slot3.list and #slot4 > 0 then
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot4)
 		end
 
-		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_MINI_GAME, getProxy(ShopsProxy):getMiniShop())
+		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_MINI_GAME, getProxy(ShopsProxy):getMiniShop())
 	end
 end
 

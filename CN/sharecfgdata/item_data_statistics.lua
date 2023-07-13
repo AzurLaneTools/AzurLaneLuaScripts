@@ -7151,6 +7151,144 @@ _G.pg.base.item_data_statistics[13036] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[13037] = {
+	display = "试作型三联装406mm主炮Mk6改T0设计图",
+	name = "试作型三联装406mm主炮Mk6改T0设计图",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/14540",
+	id = 13037,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13038] = {
+	display = "试作型三联装203mmSKC主炮改T0设计图",
+	name = "试作型三联装203mmSKC主炮改T0设计图",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/43160",
+	id = 13038,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13039] = {
+	display = "试作型三联装150mm五式高平两用炮T0设计图",
+	name = "试作型三联装150mm五式高平两用炮T0设计图",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/32360",
+	id = 13039,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13040] = {
+	display = "试作型双联装TbtsKC42T式150mm主炮T0设计图",
+	name = "试作型双联装TbtsKC42T式150mm主炮T0设计图",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/42360",
+	id = 13040,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13041] = {
+	display = "试作型三联装380mm主炮Mle1935T0设计图",
+	name = "试作型三联装380mm主炮Mle1935T0设计图",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/50480",
+	id = 13041,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13042] = {
+	display = "试作型55mm防空炮Gerät 58T0设计图",
+	name = "试作型55mm防空炮Gerät 58T0设计图",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/46420",
+	id = 13042,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[14001] = {
 	display = [[
 使用后可从超稀有科研装备(I期)的设计图中任意选择一张
@@ -8146,6 +8284,75 @@ _G.pg.base.item_data_statistics[16024] = {
 	is_world = 0,
 	icon = "Props/16024",
 	id = 16024,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[16031] = {
+	display = " META通用战术教材T1，可在META战术研习界面使用，为所选角色提供100技能经验",
+	name = "META通用战术教材T1",
+	max_num = 0,
+	type = 25,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16031",
+	id = 16031,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[16032] = {
+	display = " META通用战术教材T2，可在META战术研习界面使用，为所选角色提供1000技能经验",
+	name = "META通用战术教材T2",
+	max_num = 0,
+	type = 25,
+	time_limit = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16032",
+	id = 16032,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[16033] = {
+	display = " META通用战术教材T3，可在META战术研习界面使用，为所选角色提供10000技能经验",
+	name = "META通用战术教材T3",
+	max_num = 0,
+	type = 25,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16033",
+	id = 16033,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -22327,6 +22534,98 @@ _G.pg.base.item_data_statistics[40025] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[40026] = {
+	display = "购买礼包可获得大量材料奖励",
+	name = "最高方案研发礼包(三期)·高级版",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_promotion",
+	id = 40026,
+	display_icon = {
+		{
+			2,
+			40130,
+			1
+		},
+		{
+			2,
+			42020,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40027] = {
+	display = "购买礼包可获得大量材料奖励",
+	name = "最高方案研发礼包(三期)·标准版",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_normal",
+	id = 40027,
+	display_icon = {
+		{
+			2,
+			40130,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40028] = {
+	display = "购买礼包可获得大量材料奖励",
+	name = "最高方案研发礼包(三期)·升级版",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_promotion",
+	id = 40028,
+	display_icon = {
+		{
+			2,
+			42020,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[40100] = {
 	display = "购买礼包可获得永恒礼盒*2",
 	name = "比翼双飞",
@@ -23291,6 +23590,62 @@ _G.pg.base.item_data_statistics[40129] = {
 			2,
 			16023,
 			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40130] = {
+	display = [[
+可于科研-开发船坞界面，从柴郡、{namecode:479}、{namecode:486}、香槟中选择并获取一位等级与科研等级均为1级的角色
+<color=#92fc63>上述角色全部获得时</color>，在仓库中使用此道具将会获得：
+科研测试数据·三期*300
+定向改造图纸T3*5
+定向改造图纸T2*10
+心智魔方*5
+物资*20000]],
+	name = "最高方案快速研发券·三期",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/research3",
+	id = 40130,
+	display_icon = {
+		{
+			2,
+			20103,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
 		}
 	},
 	price = {},
@@ -49798,6 +50153,344 @@ _G.pg.base.item_data_statistics[42046] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[42050] = {
+	display = "使用后可从第一期、第二期、第三期、第四期、第五期、第六期方案舰的最高方案蓝图中任意选择一张",
+	name = "定向蓝图・六期",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42050",
+	id = 42050,
+	display_icon = {
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42051] = {
+	display = "白鹰航战「奇尔沙治」的设计蓝图。\n<color=#92fc63>获得「奇尔沙治」后，可在「开发船坞」中用于增强「奇尔沙治」的能力。</color>",
+	name = "蓝图：奇尔沙治",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42051",
+	id = 42051,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42052] = {
+	display = "重樱巡洋「{namecode:292}」的设计蓝图。\n<color=#92fc63>获得「{namecode:292}」后，可在「开发船坞」中用于增强「{namecode:292}」的能力。</color>",
+	name = "蓝图：{namecode:292}",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42052",
+	id = 42052,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42053] = {
+	display = "铁血驱逐「{namecode:518}」的设计蓝图。\n<color=#92fc63>获得「{namecode:518}」后，可在「开发船坞」中用于增强「{namecode:518}」的能力。</color>",
+	name = "蓝图：{namecode:518}",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42053",
+	id = 42053,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42054] = {
+	display = "铁血巡洋「{namecode:521}」的设计蓝图。\n<color=#92fc63>获得「{namecode:521}」后，可在「开发船坞」中用于增强「{namecode:521}」的能力。</color>",
+	name = "蓝图：{namecode:521}",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42054",
+	id = 42054,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42055] = {
+	display = "维希教廷战列「弗兰德尔」的设计蓝图。\n<color=#92fc63>获得「弗兰德尔」后，可在「开发船坞」中用于增强「弗兰德尔」的能力。</color>",
+	name = "蓝图：弗兰德尔",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42055",
+	id = 42055,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42056] = {
+	display = "使用后可从第二期、第三期、第四期、第五期、第六期方案舰的决战方案蓝图中任意选择一张",
+	name = "高级定向蓝图・六期",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42056",
+	id = 42056,
+	display_icon = {
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[43001] = {
 	display = "泛用型布里赠送的情人节礼物",
 	name = "情人节礼物",
@@ -61493,6 +62186,134 @@ _G.pg.base.item_data_statistics[52062] = {
 		{
 			2,
 			13007,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[52071] = {
+	display = "有几率获得以下蓝图",
+	name = "未知蓝图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/52001",
+	id = 52071,
+	display_icon = {
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[52072] = {
+	display = "有几率获得以下设计图",
+	name = "未知限定装备设计图",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 52072,
+	display_icon = {
+		{
+			2,
+			13038,
+			1
+		},
+		{
+			2,
+			13037,
+			1
+		},
+		{
+			2,
+			13039,
+			1
+		},
+		{
+			2,
+			13040,
+			1
+		},
+		{
+			2,
+			13041,
+			1
+		},
+		{
+			2,
+			13042,
+			1
+		},
+		{
+			2,
+			13024,
+			1
+		},
+		{
+			2,
+			13007,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13009,
+			1
+		},
+		{
+			2,
+			13011,
 			1
 		}
 	},
@@ -197891,6 +198712,29 @@ _G.pg.base.item_data_statistics[59016] = {
 	is_world = 0,
 	icon = "Props/gameticket",
 	id = 59016,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59017] = {
+	display = "用于解锁角色密语的专门票据。",
+	name = "密语奖券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/soundStoryTicket",
+	id = 59017,
 	display_icon = {},
 	price = {},
 	index = {},

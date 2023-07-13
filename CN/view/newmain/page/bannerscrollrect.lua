@@ -157,6 +157,8 @@ function slot0.Disable(slot0)
 	end
 
 	for slot4, slot5 in ipairs(slot0.dots) do
+		slot5:GetComponent(typeof(Image)).color = Color.New(0.4, 0.45, 0.55)
+
 		setActive(slot5, false)
 	end
 end

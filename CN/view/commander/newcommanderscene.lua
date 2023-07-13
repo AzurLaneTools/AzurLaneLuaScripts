@@ -27,7 +27,7 @@ function slot0.init(slot0)
 	slot0.getEffect = slot0:findTF("main/effect")
 	slot0.skipAnim = true
 
-	if pg.GuideMgr.GetInstance()._go.activeSelf then
+	if pg.NewGuideMgr.GetInstance():IsBusy() then
 		slot0.skipAnim = false
 	end
 

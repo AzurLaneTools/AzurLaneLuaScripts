@@ -34,6 +34,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.lock = findTF(slot0.tr, "content/dockyard/container/lock")
 	slot0.maskStatusOb = findTF(slot0.tr, "content/front/status_mask")
 	slot0.iconStatus = findTF(slot0.tr, "content/dockyard/status")
+	slot0.iconStatusMask = slot0.iconStatus:GetComponent(typeof(RectMask2D))
 	slot0.iconStatusTxt = findTF(slot0.tr, "content/dockyard/status/Text"):GetComponent("Text")
 	slot0.selectedGo = findTF(slot0.tr, "content/front/selected").gameObject
 	slot0.energyTF = findTF(slot0.tr, "content/dockyard/container/energy")
@@ -167,6 +168,8 @@ function slot0.flush(slot0)
 					uv0.iconStatus.sizeDelta = Vector2(195, 36)
 					uv0.iconStatusTxt.fontSize = 30
 				end
+
+				uv0.iconStatusMask.enabled = false
 			end)
 		else
 			setActive(slot0.iconStatus, false)

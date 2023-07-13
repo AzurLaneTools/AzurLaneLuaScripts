@@ -41,15 +41,21 @@ function slot0.OnInitItem(slot0, slot1)
 	slot3 = CryptolaliaCard.New(slot1)
 
 	onButton(slot0, slot3._go, function ()
-		uv0()
+		if uv0:CanSwitch() then
+			uv1()
 
-		uv1.cryptolaliaId = uv2.cryptolalia.id
+			uv0.cryptolaliaId = uv2.cryptolalia.id
 
-		uv2:Update(uv2.cryptolalia, uv1.langType, true)
-		uv1:SelectCard(uv1.cryptolaliaId)
+			uv2:Update(uv2.cryptolalia, uv0.langType, true)
+			uv0:SelectCard(uv0.cryptolaliaId)
+		end
 	end, SFX_PANEL)
 
 	slot0.cards[slot1] = slot3
+end
+
+function slot0.CanSwitch(slot0)
+	return not slot0.scrollRect.inAnimation
 end
 
 function slot0.onUpdateItem(slot0, slot1, slot2)
@@ -62,7 +68,9 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 	slot3:Update(slot4, slot0.langType, slot0.displays[slot1 + 1].id == slot0.cryptolaliaId)
 end
 
-function slot0.Show(slot0, slot1, slot2, slot3)
+function slot0.Show(slot0, slot1, slot2, slot3, slot4)
+	slot0.scrollRect = slot4
+
 	uv0.super.Show(slot0)
 	seriesAsync({
 		function (slot0)

@@ -7115,7 +7115,8 @@ pg.activity_template = {
 			12002,
 			12003,
 			12004,
-			12005
+			12005,
+			12006
 		},
 		config_client = {
 			"commonbg/meta_shop_bg",
@@ -7653,41 +7654,15 @@ pg.activity_template = {
 	},
 	[4901] = {
 		mark = 20230621,
-		config_client = "",
 		title_res_tag = "NewMeixiV4_pt",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 4901,
 		is_show = 49,
+		config_client = "",
 		id = 4901,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					6,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewMeixiV4PtPage",
 			ui_name = "NewMeixiV4PtPage"
@@ -7712,40 +7687,14 @@ pg.activity_template = {
 	},
 	[4903] = {
 		mark = 20230621,
-		id = 4903,
 		title_res_tag = "NewMeixiV4_frame",
+		time = "stop",
 		type = 87,
 		login_pop = 0,
 		config_id = 10,
 		is_show = 48,
+		id = 4903,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					6,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "NewMeixiV4frameRePage",
 			ui_name = "NewMeixiV4frameRePage"
@@ -7959,46 +7908,20 @@ pg.activity_template = {
 	},
 	[4910] = {
 		mark = 20230621,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 10,
 		login_pop = 0,
 		config_id = 4893,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4910,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					6,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4914] = {
 		mark = 20230629,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
@@ -8006,34 +7929,8 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "[{31956,100}]",
 		config_client = "",
-		id = 4914,
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					6,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 4914
 	},
 	[4915] = {
 		mark = 20230629,
@@ -8128,7 +8025,7 @@ pg.activity_template = {
 				{
 					2023,
 					7,
-					13
+					19
 				},
 				{
 					23,
@@ -8140,12 +8037,13 @@ pg.activity_template = {
 	},
 	[4917] = {
 		mark = 20230629,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4917,
 		config_data = {
@@ -8156,113 +8054,34 @@ pg.activity_template = {
 			18960,
 			18961,
 			18962
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					6,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4918] = {
 		mark = 20230629,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4918,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					6,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4919] = {
 		mark = 20230629,
-		id = 4919,
 		title_res_tag = "SkinGuide3",
+		time = "stop",
 		type = 86,
 		login_pop = 0,
 		config_id = 1,
 		is_show = 55,
+		id = 4919,
 		config_data = {
 			18963,
 			18964,
 			18965
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					6,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "SkinGuide3Page",
@@ -8284,86 +8103,34 @@ pg.activity_template = {
 	},
 	[4920] = {
 		mark = 20230629,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4920,
 		config_data = {
 			18966
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					6,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4921] = {
 		mark = 20230629,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4921,
 		config_data = {
 			380,
 			381,
 			382
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					6,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4922] = {

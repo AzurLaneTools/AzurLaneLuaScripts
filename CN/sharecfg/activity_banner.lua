@@ -17,18 +17,15 @@ pg.activity_banner = {
 		pic = "temp1",
 		type = 2,
 		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
+			"scene Cryptolalia",
+			{}
 		},
 		time = {
 			{
 				{
 					2023,
-					6,
-					29
+					7,
+					13
 				},
 				{
 					0,
@@ -40,7 +37,7 @@ pg.activity_banner = {
 				{
 					2023,
 					7,
-					13
+					19
 				},
 				{
 					23,
@@ -55,15 +52,18 @@ pg.activity_banner = {
 		pic = "temp2",
 		type = 2,
 		param = {
-			"scene skinshop",
-			{}
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
 		},
 		time = {
 			{
 				{
 					2023,
-					6,
-					29
+					7,
+					13
 				},
 				{
 					0,
@@ -75,7 +75,7 @@ pg.activity_banner = {
 				{
 					2023,
 					7,
-					12
+					20
 				},
 				{
 					23,
@@ -97,20 +97,17 @@ pg.activity_banner = {
 	},
 	{
 		id = 5,
-		pic = "temp4",
+		pic = "temp5",
 		type = 2,
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"seltechnology"
 		},
 		time = {
 			{
 				{
 					2023,
-					6,
-					29
+					7,
+					13
 				},
 				{
 					0,
@@ -122,7 +119,7 @@ pg.activity_banner = {
 				{
 					2023,
 					7,
-					12
+					20
 				},
 				{
 					23,
@@ -134,20 +131,18 @@ pg.activity_banner = {
 	},
 	{
 		id = 6,
-		pic = "temp5",
+		pic = "temp6",
 		type = 2,
 		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2023,
-					6,
-					29
+					7,
+					13
 				},
 				{
 					0,
@@ -159,7 +154,7 @@ pg.activity_banner = {
 				{
 					2023,
 					7,
-					12
+					20
 				},
 				{
 					23,
@@ -170,16 +165,22 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4916",
 		id = 7,
-		pic = "temp6",
-		type = 3,
+		pic = "temp4",
+		type = 2,
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = true
+			}
+		},
 		time = {
 			{
 				{
 					2023,
-					6,
-					29
+					7,
+					13
 				},
 				{
 					0,
@@ -191,7 +192,7 @@ pg.activity_banner = {
 				{
 					2023,
 					7,
-					12
+					20
 				},
 				{
 					23,
@@ -329,11 +330,9 @@ pg.activity_banner = {
 			4,
 			5,
 			6,
+			7,
 			8,
 			9
-		},
-		[3] = {
-			7
 		},
 		[9] = {
 			90,

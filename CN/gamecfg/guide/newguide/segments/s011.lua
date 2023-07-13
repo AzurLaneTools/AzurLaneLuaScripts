@@ -58,10 +58,6 @@ return {
 				pathIndex = -1,
 				triggerType = {
 					1
-				},
-				fingerPos = {
-					posY = -22.71,
-					posX = 25.91
 				}
 			}
 		}

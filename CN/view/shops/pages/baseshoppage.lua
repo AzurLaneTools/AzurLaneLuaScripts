@@ -1,5 +1,14 @@
 slot0 = class("BaseShopPage", import("...base.BaseSubView"))
 
+function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+	uv0.super.Ctor(slot0, slot1, slot2, slot3)
+
+	slot0.lScrollrect = slot4
+	slot0.scrollbar = slot1:Find("Scrollbar")
+
+	assert(slot0.lScrollrect)
+end
+
 function slot0.Load(slot0)
 	if slot0._state ~= uv0.STATES.NONE then
 		return
@@ -20,6 +29,13 @@ function slot0.Load(slot0)
 		slot0:Loaded(slot2.gameObject)
 		slot0:Init()
 	end
+end
+
+function slot0.Loaded(slot0, slot1)
+	slot0.canvasGroup = slot1:GetComponent(typeof(CanvasGroup))
+
+	assert(slot0.canvasGroup)
+	uv0.super.Loaded(slot0, slot1)
 end
 
 function slot0.SetShop(slot0, slot1)
@@ -43,8 +59,56 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 	slot0:SetShop(slot1)
 	slot0:SetPlayer(slot2)
 	slot0:SetItems(slot3)
+	slot0:InitCommodities()
 	slot0:OnSetUp()
 	slot0:SetPainting()
+end
+
+function slot0.InitCommodities(slot0)
+	slot0.cards = {}
+	slot0.displays = slot0.shop:GetCommodities()
+
+	slot0.lScrollrect:SetTotalCount(#slot0.displays, 0)
+	setActive(slot0.scrollbar, #slot0.displays > 10)
+end
+
+function slot0.Show(slot0)
+	function slot0.lScrollrect.onInitItem(slot0)
+		uv0:OnInitItem(slot0)
+	end
+
+	function slot0.lScrollrect.onUpdateItem(slot0, slot1)
+		uv0:OnUpdateItem(slot0, slot1)
+	end
+
+	slot0.canvasGroup.alpha = 1
+	slot0.canvasGroup.blocksRaycasts = true
+
+	slot0:ShowOrHideResUI(true)
+end
+
+function slot0.Hide(slot0)
+	for slot4, slot5 in pairs(slot0.cards) do
+		slot5:Dispose()
+	end
+
+	slot0.displays = {}
+	slot0.cards = {}
+
+	ClearLScrollrect(slot0.lScrollrect)
+
+	slot0.canvasGroup.alpha = 0
+	slot0.canvasGroup.blocksRaycasts = false
+
+	slot0:ShowOrHideResUI(false)
+end
+
+function slot0.Destroy(slot0)
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
+
+	uv0.super.Destroy(slot0)
 end
 
 function slot0.SetPainting(slot0)
@@ -226,6 +290,12 @@ function slot0.OnUpdatePlayer(slot0)
 end
 
 function slot0.OnUpdateItems(slot0)
+end
+
+function slot0.OnInitItem(slot0, slot1)
+end
+
+function slot0.OnUpdateItem(slot0, slot1, slot2)
 end
 
 function slot0.CanOpenPurchaseWindow(slot0, slot1)

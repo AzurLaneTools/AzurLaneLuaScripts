@@ -19,12 +19,12 @@ end
 function slot1.DoWave(slot0)
 	uv0.super.DoWave(slot0)
 
-	if not pg.GuideMgr.ENABLE_GUIDE then
+	if not pg.NewGuideMgr.ENABLE_GUIDE then
 		slot0:doPass()
 	elseif slot0._guideType == 1 and pg.SeriesGuideMgr.GetInstance():isEnd() then
 		slot0:doFail()
 	else
-		pg.GuideMgr.GetInstance():play(slot0._guideStep, {
+		pg.NewGuideMgr.GetInstance():Play(slot0._guideStep, {
 			slot0._event
 		}, function ()
 			uv0:doPass()

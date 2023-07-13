@@ -77,17 +77,27 @@ function slot0.execute(slot0, slot1)
 	end
 
 	seriesAsync(slot8, function ()
-		slot0 = getProxy(TechnologyProxy)
+		slot0 = nil
+		slot1 = getProxy(TechnologyProxy)
 
-		if underscore.any(uv0, function (slot0)
-			return slot0.type == DROP_TYPE_ITEM and tobool(uv0:getItemCanUnlockBluePrint(slot0.id))
-		end) and not PlayerPrefs.HasKey("help_research_package") then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				type = MSGBOX_TYPE_HELP,
-				helps = i18n("help_research_package")
-			})
+		if PlayerPrefs.GetInt("help_research_package", 0) == 0 then
+			for slot5, slot6 in ipairs(uv0) do
+				if slot6.type == DROP_TYPE_ITEM and checkExist(slot1:getItemCanUnlockBluePrint(slot6.id), {
+					1
+				}) then
+					break
+				end
+			end
+		end
+
+		if slot0 then
 			PlayerPrefs.SetInt("help_research_package", 1)
 			PlayerPrefs.Save()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = i18n("help_research_package"),
+				show_blueprint = slot0
+			})
 		end
 	end)
 end

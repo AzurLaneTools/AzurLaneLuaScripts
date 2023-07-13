@@ -10955,5 +10955,116 @@ pg.base.ship_skin_template_1 = {
 				}
 			}
 		}
+	},
+	[101471] = {
+		ship_group = 10147,
+		name = "小熊整备中",
+		bullet_skin_secondary = "",
+		hand_id = 13,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "145",
+		l2d_drag_rate = "",
+		group_index = 1,
+		id = 101471,
+		painting = "molisen_2",
+		prefab = "molisen_2",
+		air_bullet_skin = "",
+		shop_id = 70551,
+		shop_type_id = 16,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 4,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "呼…Zzz…啊，指挥官？不、不好意思…一不小心多睡了一会…那个…需、需要我做些什么吗？",
+		voice_actor = 277,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.187,
+					1.173,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.21,
+					1.175,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.521,
+							2.39,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

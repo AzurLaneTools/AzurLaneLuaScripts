@@ -10,10 +10,6 @@ end
 
 function slot0.OnLoaded(slot0)
 	slot0.exploitTF = slot0._tf:Find("res_exploit/bg/Text"):GetComponent(typeof(Text))
-	slot0.uilist = UIItemList.New(slot0._tf:Find("scrollView/view"), slot0:findTF("tpl"))
-
-	setText(slot0._tf:Find("tpl/mask/tag/sellout_tag"), i18n("word_sell_out"))
-
 	slot0.timerTF = slot0._tf:Find("time/day"):GetComponent(typeof(Text))
 
 	setText(slot0._tf:Find("time"), i18n("title_limit_time"))
@@ -45,23 +41,23 @@ function slot0.OnUpdateItems(slot0)
 	slot0.exploitTF.text = slot0.items[ITEM_ID_SILVER_HOOK] and slot1[ITEM_ID_SILVER_HOOK].count or 0
 end
 
-function slot0.UpdateCard(slot0, slot1, slot2)
-	slot3 = MedalGoodsCard.New(slot1)
+function slot0.OnInitItem(slot0, slot1)
+	slot2 = MedalGoodsCard.New(slot1)
 
-	slot3:update(slot2)
+	onButton(slot0, slot2._go, function ()
+		if not uv0.goods:CanPurchase() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
-	slot0.cards[slot2.id] = slot3
+			return
+		end
 
-	onButton(slot0, slot3.itemTF, function ()
-		uv0:OnCardClick(uv1)
+		uv1:OnCardClick(uv0)
 	end, SFX_PANEL)
+
+	slot0.cards[slot1] = slot2
 end
 
 function slot0.OnCardClick(slot0, slot1)
-	if not slot1.goods:CanPurchase() then
-		return
-	end
-
 	if slot1.goods:Selectable() then
 		slot0.purchaseWindow:ExecuteAction("Show", {
 			id = slot1.goods.id,

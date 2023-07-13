@@ -27,11 +27,7 @@ function slot0.isOpen(slot0)
 
 	if slot0:bindConfigTable()[slot0.id] then
 		slot3 = pg.TimeMgr.GetInstance()
-		slot4 = slot3:STimeDescS(slot3:GetServerTime(), "*t")
-
-		print("====base=========", slot4.month, slot0.id)
-
-		slot1 = slot4.month == slot0.id
+		slot1 = slot3:STimeDescS(slot3:GetServerTime(), "*t").month == slot0.id
 	end
 
 	return slot1
@@ -54,17 +50,7 @@ function slot0.getRestDays(slot0)
 	slot3.month = slot3.month + 1
 	slot3.day = 0
 
-	print(slot0.__cname, ">>>", "month : ", slot3.month, "osTime(next):", os.time(slot3), "serverTime:", slot1:GetServerTime())
-
-	slot4 = os.date("%d", os.time(slot3))
-
-	print(slot0.__cname, "<<<", "osdate:", slot4, "serverDate:", slot2.day)
-
-	slot5 = math.max(slot4 - slot2.day + 1, 1)
-
-	print(slot0.__cname, "<<>>", "calcdate:", slot5)
-
-	return slot5
+	return math.max(os.date("%d", os.time(slot3)) - slot2.day + 1, 1)
 end
 
 function slot0.GetRestTime(slot0)

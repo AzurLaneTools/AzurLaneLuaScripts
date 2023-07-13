@@ -12,37 +12,14 @@ function slot0.CanOpen(slot0, slot1, slot2)
 end
 
 function slot0.OnLoaded(slot0)
-	slot0.scrollrect = slot0:findTF("scrollView"):GetComponent("LScrollRect")
 	slot0.dayTxt = slot0:findTF("time/day"):GetComponent(typeof(Text))
 	slot0.nanoTxt = slot0:findTF("res_nano/Text"):GetComponent(typeof(Text))
 end
 
 function slot0.OnInit(slot0)
-	slot2 = slot0._tf
-
-	setText(slot2:Find("time"), i18n("title_limit_time"))
-
-	slot2 = slot0._tf
-
-	setText(slot2:Find("time/text"), i18n("shops_rest_day"))
-
-	slot2 = slot0._tf
-
-	setText(slot2:Find("time/text_day"), i18n("word_date"))
-
-	slot2 = slot0._tf
-
-	setText(slot2:Find("tpl/mask/tag/sellout_tag"), i18n("word_sell_out"))
-
-	slot0.cards = {}
-
-	function slot0.scrollrect.onInitItem(slot0)
-		uv0:OnInitItem(slot0)
-	end
-
-	function slot0.scrollrect.onUpdateItem(slot0, slot1)
-		uv0:OnUpdateItem(slot0, slot1)
-	end
+	setText(slot0._tf:Find("time"), i18n("title_limit_time"))
+	setText(slot0._tf:Find("time/text"), i18n("shops_rest_day"))
+	setText(slot0._tf:Find("time/text_day"), i18n("word_date"))
 end
 
 function slot0.OnUpdateItems(slot0)
@@ -73,9 +50,15 @@ function slot0.OnInitItem(slot0, slot1)
 	slot2 = ActivityGoodsCard.New(slot1)
 
 	onButton(slot0, slot2.tr, function ()
-		slot0 = uv0
+		if not uv0.goodsVO:canPurchase() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
-		slot0:OnClickCommodity(uv1.goodsVO, function (slot0, slot1)
+			return
+		end
+
+		slot0 = uv1
+
+		slot0:OnClickCommodity(uv0.goodsVO, function (slot0, slot1)
 			uv0:OnPurchase(slot0, slot1)
 		end)
 	end, SFX_PANEL)
@@ -94,19 +77,12 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 end
 
 function slot0.OnUpdateAll(slot0)
+	slot0:InitCommodities()
 	slot0:OnSetUp()
 end
 
 function slot0.OnSetUp(slot0)
-	slot0:InitCommodities()
-
 	slot0.dayTxt.text = string.format("%02d", slot0.shop:getRestDays())
-end
-
-function slot0.InitCommodities(slot0)
-	slot0.displays = slot0.shop:GetCommodities()
-
-	slot0.scrollrect:SetTotalCount(#slot0.displays)
 end
 
 function slot0.OnPurchase(slot0, slot1, slot2)

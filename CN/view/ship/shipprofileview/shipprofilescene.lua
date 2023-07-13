@@ -469,7 +469,7 @@ function slot0.ShiftSkin(slot0, slot1)
 end
 
 function slot0.UpdateCryptolaliaBtn(slot0, slot1)
-	setActive(slot0.cryptolaliaBtn, not LOCK_CRYPTOLALIA and getProxy(PlayerProxy):getRawData():ExistCryptolalia(ShipSkin.New({
+	setActive(slot0.cryptolaliaBtn, getProxy(PlayerProxy):getRawData():ExistCryptolalia(ShipSkin.New({
 		id = slot1
 	}):getConfig("ship_group")))
 end

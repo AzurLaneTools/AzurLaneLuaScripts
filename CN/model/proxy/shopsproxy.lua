@@ -409,4 +409,32 @@ function slot0.ShouldRefreshChargeList(slot0)
 	return not slot0:getFirstChargeList() or not slot0:getChargedList() or not slot0:GetNormalList() or not slot0:GetNormalGroupList() or slot0.refreshChargeList
 end
 
+function slot0.GetRecommendCommodities(slot0)
+	slot2 = slot0:GetNormalList()
+	slot3 = slot0:GetNormalGroupList()
+
+	if not slot0:getChargedList() or not slot2 or not slot3 then
+		return {}
+	end
+
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(pg.recommend_shop.all) do
+		if RecommendCommodity.New({
+			id = slot9,
+			chargedList = slot1,
+			normalList = slot2,
+			normalGroupList = slot3
+		}):CanShow() then
+			table.insert(slot4, slot10)
+		end
+	end
+
+	table.sort(slot4, function (slot0, slot1)
+		return slot0:GetOrder() < slot1:GetOrder()
+	end)
+
+	return slot4
+end
+
 return slot0

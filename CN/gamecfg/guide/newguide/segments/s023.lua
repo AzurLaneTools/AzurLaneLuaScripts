@@ -37,6 +37,11 @@ return {
 				posY = -200,
 				posX = -190,
 				text = slot0[2]
+			},
+			baseui = {
+				delay = 0.2,
+				path = "LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_6/attachment",
+				pathIndex = 0
 			}
 		},
 		{

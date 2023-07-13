@@ -6967,6 +6967,232 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[2015] = {
+		subject = "最高方案研发礼包(三期)",
+		limit_group = 3,
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		limit_arg = 0,
+		name = "最高方案研发礼包(三期)",
+		name_display = "最高方案研发礼包(三期)",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2015,
+		money = 108,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_display",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可获得最高方案快速研发券·三期*1、定向蓝图·三期*343",
+		airijp_id = "com.yostarjp.azurlane.tech",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {}
+	},
+	[2016] = {
+		subject = "最高方案研发礼包(三期)高级版",
+		limit_group = 3,
+		descrip_extra = "*最高方案快速研发券·三期奖励可能发生变化，点击道具查看详情",
+		type = 0,
+		limit_arg = 1,
+		name = "最高方案研发礼包(三期)高级版",
+		name_display = "高级版",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2016,
+		money = 108,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_promotion",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan7",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "礼包内容",
+		airijp_id = "com.yostarjp.azurlane.tech7",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40026,
+				1
+			}
+		}
+	},
+	[2017] = {
+		subject = "最高方案研发礼包(三期)标准版",
+		limit_group = 3,
+		descrip_extra = "*最高方案快速研发券·三期奖励可能发生变化，点击道具查看详情",
+		type = 0,
+		limit_arg = 2,
+		name = "最高方案研发礼包(三期)标准版",
+		name_display = "标准版",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2017,
+		money = 68,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_normal",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan8",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "礼包内容",
+		airijp_id = "com.yostarjp.azurlane.tech8",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40027,
+				1
+			}
+		}
+	},
+	[2018] = {
+		subject = "最高方案研发礼包(三期)升级版",
+		limit_group = 3,
+		descrip_extra = "升级为高级版后可获得定向蓝图·三期x343",
+		type = 0,
+		limit_arg = 3,
+		name = "最高方案研发礼包(三期)升级版",
+		name_display = "高级版",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2018,
+		money = 40,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_promotion",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan9",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "礼包内容",
+		airijp_id = "com.yostarjp.azurlane.tech9",
+		extra_service_item = {
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40028,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -7042,6 +7268,10 @@ pg.pay_data_display = {
 		2011,
 		2012,
 		2013,
-		2014
+		2014,
+		2015,
+		2016,
+		2017,
+		2018
 	}
 }

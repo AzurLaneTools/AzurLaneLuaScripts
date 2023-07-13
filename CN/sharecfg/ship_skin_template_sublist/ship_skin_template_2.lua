@@ -1,117 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[101471] = {
-		ship_group = 10147,
-		name = "小熊整备中",
-		bullet_skin_secondary = "",
-		hand_id = 13,
-		bgm = "",
-		illustrator2 = -1,
-		bg = "145",
-		l2d_drag_rate = "",
-		group_index = 1,
-		id = 101471,
-		painting = "molisen_2",
-		prefab = "molisen_2",
-		air_bullet_skin = "",
-		shop_id = 70551,
-		shop_type_id = 16,
-		air_bomb_skin = "",
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_voice_calibrate = "",
-		bullet_skin_main = "",
-		spine_action_offset = false,
-		skin_type = 4,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "呼…Zzz…啊，指挥官？不、不好意思…一不小心多睡了一会…那个…需、需要我做些什么吗？",
-		voice_actor = 277,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.187,
-					1.173,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.21,
-					1.175,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.521,
-							2.39,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[101480] = {
 		ship_group = 10148,
 		name = "英格拉罕",
@@ -11238,6 +11127,226 @@ pg.base.ship_skin_template_2 = {
 						{
 							-0.779,
 							2.099,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[103072] = {
+		ship_group = 10307,
+		name = "环城之夜",
+		bullet_skin_secondary = "",
+		hand_id = 7,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "135",
+		l2d_drag_rate = "",
+		group_index = 2,
+		id = 103072,
+		painting = "bolisi_3",
+		prefab = "bolisi_3",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 7,
+		air_bomb_skin = "",
+		illustrator = 10,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = 4,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "啊、晚上好，指挥官。要不要来块牛排？和红酒很配哦。",
+		voice_actor = 7,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.832,
+					1.24,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.721,
+					1.286,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.807,
+					1.157,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.566,
+							2.406,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[103080] = {
+		ship_group = 10308,
+		name = "阿斯托利亚",
+		bullet_skin_secondary = "",
+		hand_id = 1,
+		bgm = "",
+		illustrator2 = -1,
+		bg = "",
+		l2d_drag_rate = "",
+		group_index = 0,
+		id = 103080,
+		painting = "asituoliya",
+		prefab = "asituoliya",
+		air_bullet_skin = "",
+		shop_id = 0,
+		shop_type_id = 0,
+		air_bomb_skin = "",
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_voice_calibrate = "",
+		bullet_skin_main = "",
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "新奥尔良级重巡洋舰——阿斯托利亚，舷号CA-34",
+		voice_actor = 143,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.03,
+					0.73,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.07,
+					0.61,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.33,
+					0.77,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.42,
+							2.19,
 							0
 						}
 					}

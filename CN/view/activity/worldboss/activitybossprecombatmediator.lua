@@ -25,7 +25,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetCurrentFleet(slot2[1].id)
 
 	for slot9, slot10 in ipairs(slot2) do
-		if slot10:isSubmarineFleet() and slot10:isLegalToFight() then
+		if slot10:isSubmarineFleet() and slot10:isLegalToFight() == true then
 			slot0.viewComponent:SetSubFlag(true)
 
 			break

@@ -10056,7 +10056,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "赫敏 建造追加！"
+	tip = "爱斯基摩人 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -11700,6 +11700,66 @@ _G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
 使用装备：<color=#92fc63>
 试作型四联装330mm主炮Mle1931（超巡用）
 138.6mm单装炮Mle1929
+双联40mm博福斯对空机炮
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_19904 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型三联装406mm主炮Mk6改
+F8F熊猫
+双联装127mm高平两用炮Mk12(定时引信)
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_39906 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型三联装150mm五式高平两用炮
+四联装610mm鱼雷
+100mm连装高炮
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49908 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型双联装TbtsKC42T式150mm主炮
+四联装533mm磁性鱼雷
+试作型55mm Gerät 58防空炮
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49909 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型三联装203mmSKC主炮改
+四联装533mm磁性鱼雷
+试作型55mm Gerät 58防空炮
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型三联装380mm主炮Mle1935
+三联装152mm主炮Mle1930
 双联40mm博福斯对空机炮
 </color></size>]]
 }
@@ -13376,6 +13436,10 @@ _G.pg.base.gametip.msgbox_text_breakthrough = {
 
 _G.pg.base.gametip.msgbox_text_equipdetail = {
 	tip = "装备详情"
+}
+
+_G.pg.base.gametip.msgbox_text_use = {
+	tip = "使 用"
 }
 
 _G.pg.base.gametip.common_flag_ship = {
@@ -20971,6 +21035,14 @@ _G.pg.base.gametip.techpackage_item_use = {
 	tip = "快速研发只能选定1名角色，是否确认研发$1？\n研发后会获得对应角色(等级与科研等级均为1级)\n<color=#ff5c5c>将消耗道具$2*1</color>"
 }
 
+_G.pg.base.gametip.techpackage_item_use_1 = {
+	tip = "快速研发只能选定1名角色，是否确认研发<color=#92fc63>$1</color>?"
+}
+
+_G.pg.base.gametip.techpackage_item_use_2 = {
+	tip = "研发将消耗<color=#ff5c5c>道具$1*1</color>，可获得对应角色（等级与科研等级均为1级）"
+}
+
 _G.pg.base.gametip.techpackage_item_use_confirm = {
 	tip = "角色已全部获得，使用后将获得以下道具"
 }
@@ -24338,10 +24410,6 @@ _G.pg.base.gametip.cryptolalia_no_ticket = {
 	tip = "密语奖券不足，可前往功能道具商店进行购买"
 }
 
-_G.pg.base.gametip.cryptolalia_entrance_coming_soom = {
-	tip = "密语档案室建设中..."
-}
-
 _G.pg.base.gametip.ship_formationUI_fleetName_sp = {
 	tip = "进阶挑战舰队"
 }
@@ -24388,4 +24456,56 @@ _G.pg.base.gametip.activityboss_sp_score_update = {
 
 _G.pg.base.gametip.activityboss_sp_score_not_update = {
 	tip = "积分未更新"
+}
+
+_G.pg.base.gametip.charge_menu_month_tip = {
+	tip = "目前贸易许可剩余$1天，暂时无法购买"
+}
+
+_G.pg.base.gametip.activity_shop_title = {
+	tip = "活动"
+}
+
+_G.pg.base.gametip.street_shop_title = {
+	tip = "军火"
+}
+
+_G.pg.base.gametip.military_shop_title = {
+	tip = "军需"
+}
+
+_G.pg.base.gametip.quota_shop_title1 = {
+	tip = "<size=28>核心限定</size>"
+}
+
+_G.pg.base.gametip.sham_shop_title = {
+	tip = "<size=28>核心月度</size>"
+}
+
+_G.pg.base.gametip.fragment_shop_title = {
+	tip = "原型"
+}
+
+_G.pg.base.gametip.guild_shop_title = {
+	tip = "舰队"
+}
+
+_G.pg.base.gametip.medal_shop_title = {
+	tip = "勋章"
+}
+
+_G.pg.base.gametip.meta_shop_title = {
+	tip = "META"
+}
+
+_G.pg.base.gametip.mini_game_shop_title = {
+	tip = "奖券"
+}
+
+_G.pg.base.gametip.metaskill_up = {
+	tip = "<color=#E0E0E0>*使用「META通用战术教材」可以快速获得技能经验，不计入每日经验上限 </color>"
+}
+
+_G.pg.base.gametip.metaskill_overflow_tip = {
+	tip = "本次研习会溢出<color=#FFDE60>$1</color>经验，是否继续？"
 }

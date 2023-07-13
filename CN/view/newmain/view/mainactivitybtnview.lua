@@ -11,6 +11,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.linkBtnTop = slot0._tf.parent:Find("link_top")
 	slot4 = slot0._tf.parent
 	slot0.eventPanel = slot4:Find("eventPanel")
+	slot0.checkNotchRatio = NotchAdapt.CheckNotchRatio
 	slot0.activityBtns = {
 		MainActSummaryBtn.New(slot3, slot2),
 		MainActEscortBtn.New(slot3, slot2),
@@ -91,6 +92,11 @@ function slot0.Init(slot0)
 end
 
 function slot0.Flush(slot0)
+	if slot0.checkNotchRatio ~= NotchAdapt.CheckNotchRatio then
+		slot0.checkNotchRatio = NotchAdapt.CheckNotchRatio
+		slot0.initPos = nil
+	end
+
 	slot1 = {}
 	slot2 = {}
 

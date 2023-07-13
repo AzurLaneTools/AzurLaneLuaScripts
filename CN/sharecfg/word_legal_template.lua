@@ -336,6 +336,30 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["郎"] = {
+			["西"] = {
+				["斯"] = {
+					["卡"] = {
+						["·"] = {
+							["舒"] = {
+								["伯"] = {
+									["特"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["兰"] = {
+			["德"] = {
+				["尔"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -1246,6 +1270,21 @@ function temp()
 			["克"] = {
 				["斯"] = {
 					this = true
+				}
+			}
+		},
+		["利"] = {
+			["克"] = {
+				["斯"] = {
+					["·"] = {
+						["舒"] = {
+							["尔"] = {
+								["茨"] = {
+									this = true
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -5248,6 +5287,15 @@ function temp()
 					}
 				}
 			}
+		},
+		["尔"] = {
+			["德"] = {
+				["加"] = {
+					["德"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -6397,6 +6445,42 @@ function temp()
 		},
 		this = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["奇"] = {
+		["尔"] = {
+			["沙"] = {
+				["治"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["虒"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["兴"] = {
+		["登"] = {
+			["堡"] = {
+				this = true
+			}
 		}
 	}
 end
