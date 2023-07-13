@@ -64,7 +64,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = function ()
+				dynamicPath = function ()
 					if #getProxy(BuildShipProxy):GetPoolsWithoutNewServer() > 4 then
 						return "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/mask/bg/toggles/heavy(Clone)/frame"
 					else

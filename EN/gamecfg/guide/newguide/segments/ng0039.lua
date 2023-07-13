@@ -10,7 +10,8 @@ return {
 				dir = -1,
 				posX = -364.9,
 				ui = {
-					path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/container/content/top/free"
+					path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/container/content/top/free",
+					lineMode = 2
 				}
 			}
 		},
@@ -20,7 +21,7 @@ return {
 				text = "Choose a minigame by tapping on the game console or the Start Game button!\t ",
 				mode = 1,
 				dir = 1,
-				posX = -156.2,
+				posX = -370,
 				posY = 128.64,
 				lineMode = true,
 				trigger = {
@@ -28,10 +29,12 @@ return {
 				},
 				uiset = {
 					{
-						path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/container/content/top/btnGameList"
+						path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/container/content/top/btnGameList",
+						lineMode = 1
 					},
 					{
-						path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/btnPlay"
+						path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/btnPlay",
+						lineMode = 1
 					}
 				}
 			}
@@ -40,7 +43,7 @@ return {
 			alpha = 0.4,
 			ui = {
 				path = "/UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/listPanel/ad/viewport/content",
-				pathIndex = 1,
+				pathIndex = 0,
 				triggerType = {
 					1
 				}

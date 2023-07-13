@@ -10060,20 +10060,20 @@ pg.base.ship_skin_template_6 = {
 	},
 	[205016] = {
 		ship_group = 20501,
-		name = "伊丽莎白占坑",
+		name = "Seaside Orders",
 		bullet_skin_secondary = "",
 		hand_id = 13,
 		bgm = "",
 		illustrator2 = -1,
-		bg = "",
+		bg = "117",
 		l2d_drag_rate = "",
 		group_index = 6,
 		id = 205016,
-		painting = "yilishabai",
-		prefab = "yilishabai",
+		painting = "yilishabai_7",
+		prefab = "yilishabai_7",
 		air_bullet_skin = "",
 		shop_id = 0,
-		shop_type_id = 0,
+		shop_type_id = 6,
 		air_bomb_skin = "",
 		illustrator = -1,
 		lip_smoothing = 0,
@@ -10090,7 +10090,7 @@ pg.base.ship_skin_template_6 = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "占坑",
+		desc = "Servant, what do you think you're doing?! Instead of wasting your life working, go have some fun in the sea for once! We went out of our way to come to the beach, so do not disappoint me!",
 		voice_actor = 28,
 		spine_offset = "",
 		gyro = 0,
@@ -10100,7 +10100,9 @@ pg.base.ship_skin_template_6 = {
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		ship_l2d_id = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -10131,17 +10133,12 @@ pg.base.ship_skin_template_6 = {
 		bound_bone = {
 			cannon = {
 				{
-					-0.106,
-					1.3,
+					1.17,
+					1.08,
 					0
 				}
 			},
 			vicegun = {
-				{
-					-0.591,
-					1.589,
-					0
-				},
 				{
 					0.688,
 					1.12,
@@ -10149,11 +10146,6 @@ pg.base.ship_skin_template_6 = {
 				}
 			},
 			antiaircraft = {
-				{
-					-0.591,
-					1.589,
-					0
-				},
 				{
 					0.688,
 					1.12,

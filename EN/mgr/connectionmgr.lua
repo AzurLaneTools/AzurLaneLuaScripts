@@ -152,7 +152,7 @@ function slot1.Reconnect(slot0, slot1)
 					uv6.SecondaryPWDMgr.GetInstance():FetchData()
 				end
 
-				uv6.GuideMgr.GetInstance():onReconneceted()
+				uv6.NewGuideMgr.GetInstance():Resume()
 				uv6.m02:sendNotification(GAME.ON_RECONNECTION)
 			else
 				originalPrint("reconnect failed: " .. slot0.result)
@@ -246,7 +246,7 @@ function slot1.onError(slot0)
 				onNo = slot1,
 				weight = LayerWeightConst.TOP_LAYER
 			})
-			uv0.GuideMgr.GetInstance():onDisconnected()
+			uv0.NewGuideMgr.GetInstance():Pause()
 		end
 	else
 		uv0.ConnectionMgr.GetInstance():ConnectByProxy()

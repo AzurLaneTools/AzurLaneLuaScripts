@@ -28,6 +28,8 @@ function slot1.overrideBullet(slot0, slot1)
 		if slot5 == "diverFilter" then
 			slot1:SetDiverFilter(slot6)
 			slot1:ResetCldSurface()
+		elseif slot5 == "ignoreShield" then
+			slot1:SetIgnoreShield(slot6)
 		end
 	end
 end

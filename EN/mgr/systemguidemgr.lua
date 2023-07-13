@@ -36,7 +36,7 @@ function slot4(slot0, slot1, slot2)
 		return
 	end
 
-	if not pg.GuideMgr.GetInstance():canPlay() then
+	if not pg.NewGuideMgr.GetInstance():CanPlay() then
 		uv0(slot2)
 
 		return
@@ -53,7 +53,7 @@ function slot4(slot0, slot1, slot2)
 	pg.m02:sendNotification(GAME.STORY_UPDATE, {
 		storyId = slot0
 	})
-	pg.GuideMgr.GetInstance():play(slot0, slot1, slot2)
+	pg.NewGuideMgr.GetInstance():Play(slot0, slot1, slot2)
 end
 
 function slot0.Play(slot0, slot1, slot2)

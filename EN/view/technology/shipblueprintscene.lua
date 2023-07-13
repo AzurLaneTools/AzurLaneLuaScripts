@@ -192,6 +192,10 @@ function slot0.init(slot0)
 	slot0.topWidth = slot0.topPanel.rect.height * 2
 	slot0.taskTFs = {}
 	slot0.leanTweens = {}
+	slot0.unlockPanel = slot0.blurPanel:Find("unlock_panel")
+
+	setActive(slot0.unlockPanel, false)
+
 	slot0.svQuickExchange = BlueprintQuickExchangeView.New(slot0._tf, slot0.event)
 end
 
@@ -255,23 +259,7 @@ function slot0.didEnter(slot0)
 			return
 		end
 
-		slot0 = uv0.contextData.shipBluePrintVO.id
-		slot1 = uv0.contextData.shipBluePrintVO:getUnlockItem()
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			type = MSGBOX_TYPE_CONTENT_ITEMS,
-			content = i18n("techpackage_item_use", uv0.contextData.shipBluePrintVO:getShipVO():getName(), Item.GetName(DROP_TYPE_ITEM, slot1)),
-			items = {
-				{
-					count = 1,
-					type = DROP_TYPE_ITEM,
-					id = slot1
-				}
-			},
-			onYes = function ()
-				uv0:emit(ShipBluePrintMediator.ON_ITEM_UNLOCK, uv1, uv2)
-			end
-		})
+		uv0:showUnlockPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.preViewBtn, function ()
 		uv0:openPreView()
@@ -328,6 +316,7 @@ function slot0.didEnter(slot0)
 			slot7:Find("ships/bg")
 		}
 	})
+	setText(slot0:findTF("window/top/bg/infomation/title", slot0.msgPanel), i18n("title_info"))
 	onButton(slot0, slot0:findTF("window/top/btnBack", slot0.msgPanel), function ()
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.msgPanel, uv0.top)
 		setActive(uv0.msgPanel, false)
@@ -341,6 +330,39 @@ function slot0.didEnter(slot0)
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.msgPanel, uv0.top)
 		setActive(uv0.msgPanel, false)
 	end, SFX_CANCEL)
+
+	slot4 = slot0.unlockPanel
+
+	onButton(slot0, slot4:Find("window/top/btnBack"), function ()
+		pg.UIMgr.GetInstance():UnblurPanel(uv0.unlockPanel, uv0.top)
+		setActive(uv0.unlockPanel, false)
+	end, SFX_CANCEL)
+
+	slot3 = slot0.unlockPanel
+
+	setText(slot3:Find("window/confirm_btn/Text"), i18n("text_confirm"))
+
+	slot3 = slot0.unlockPanel
+
+	setText(slot3:Find("window/cancel_btn/Text"), i18n("text_cancel"))
+
+	slot3 = slot0.unlockPanel
+
+	setText(slot3:Find("window/top/bg/infomation/title"), i18n("title_info"))
+
+	slot4 = slot0.unlockPanel
+
+	onButton(slot0, slot4:Find("window/cancel_btn"), function ()
+		pg.UIMgr.GetInstance():UnblurPanel(uv0.unlockPanel, uv0.top)
+		setActive(uv0.unlockPanel, false)
+	end, SFX_CANCEL)
+
+	slot4 = slot0.unlockPanel
+
+	onButton(slot0, slot4:Find("bg"), function ()
+		pg.UIMgr.GetInstance():UnblurPanel(uv0.unlockPanel, uv0.top)
+		setActive(uv0.unlockPanel, false)
+	end, SFX_CANCEL)
 	GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. slot0.version, slot0.versionBtn)
 
 	if slot1 > 1 then
@@ -352,19 +374,22 @@ function slot0.didEnter(slot0)
 			setActive(uv0.versionPanel, true)
 			pg.UIMgr.GetInstance():BlurPanel(uv0.versionPanel)
 		end, SFX_PANEL)
-
-		slot6 = SFX_CANCEL
-
 		onButton(slot0, slot0.versionPanel:Find("bg"), function ()
 			pg.UIMgr.GetInstance():UnblurPanel(uv0.versionPanel, uv0._tf)
 			setActive(uv0.versionPanel, false)
-		end, slot6)
+		end, SFX_CANCEL)
 
-		for slot6 = 1, slot0.versionPanel:Find("window/content").childCount do
-			setActive(slot2:Find("version_" .. slot6), slot6 <= slot1)
+		slot2 = UIItemList.New(slot0.versionPanel:Find("window/content"), slot0.versionPanel:Find("window/content/version_1"))
 
-			if slot6 <= slot1 then
-				onButton(slot0, slot7, function ()
+		slot2:make(function (slot0, slot1, slot2)
+			slot1 = slot1 + 1
+
+			if slot0 == UIItemList.EventUpdate then
+				slot2.name = "version_" .. slot1
+
+				GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. slot1, slot2:Find("image"))
+				setText(slot2:Find("number/Text"), string.format("%02d", slot1))
+				onButton(uv0, slot2, function ()
 					uv0.version = uv1
 
 					uv0:emit(ShipBluePrintMediator.SET_TECHNOLOGY_VERSION, uv0.version)
@@ -377,7 +402,8 @@ function slot0.didEnter(slot0)
 					setActive(uv0.versionPanel, false)
 				end, SFX_CANCEL)
 			end
-		end
+		end)
+		slot2:align(slot1)
 	end
 
 	LeanTween.alpha(rtf(slot0.skillArrLeft), 0.25, 1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
@@ -2234,7 +2260,13 @@ function slot0.cloneTplTo(slot0, slot1, slot2)
 end
 
 function slot0.onBackPressed(slot0)
-	if isActive(slot0.versionPanel) then
+	if isActive(slot0.msgPanel) then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.msgPanel, slot0.top)
+		setActive(slot0.msgPanel, false)
+	elseif isActive(slot0.unlockPanel) then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.unlockPanel, slot0.top)
+		setActive(slot0.unlockPanel, false)
+	elseif isActive(slot0.versionPanel) then
 		triggerButton(slot0.versionPanel:Find("bg"))
 	elseif slot0.isShowPreview then
 		slot0:closePreview(true)
@@ -2249,8 +2281,13 @@ end
 
 function slot0.willExit(slot0)
 	if isActive(slot0.msgPanel) then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.msgPanel, slot0._tf)
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.msgPanel, slot0.top)
 		setActive(slot0.msgPanel, false)
+	end
+
+	if isActive(slot0.unlockPanel) then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.unlockPanel, slot0.top)
+		setActive(slot0.unlockPanel, false)
 	end
 
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
@@ -2406,6 +2443,42 @@ function slot0.showFittingMsgPanel(slot0, slot1)
 			end
 		end
 	end)()
+end
+
+function slot0.showUnlockPanel(slot0)
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:BlurPanel(slot0.unlockPanel)
+	setActive(slot0.unlockPanel, true)
+
+	slot1 = slot0.contextData.shipBluePrintVO.id
+	slot2 = slot0.contextData.shipBluePrintVO
+	slot2 = slot2:getUnlockItem()
+	slot3 = slot0.contextData.shipBluePrintVO
+	slot3 = slot3:getShipVO()
+	slot4 = slot3:getPainting()
+	slot5 = slot0.unlockPanel
+	slot5 = slot5:Find("window/content")
+
+	GetImageSpriteFromAtlasAsync("shipYardIcon/" .. slot4, slot4, slot5:Find("Image/mask/icon"), true)
+	setText(slot5:Find("words/Text"), i18n("techpackage_item_use_1", slot3:getName()))
+	setText(slot5:Find("words/Text_2"), i18n("techpackage_item_use_2", Item.GetName(DROP_TYPE_ITEM, slot2)))
+
+	slot10 = slot0.unlockPanel
+
+	GetImageSpriteFromAtlasAsync(pg.item_data_statistics[slot2].icon, "", slot10:Find("window/confirm_btn/Image/Image"))
+
+	slot8 = slot0.unlockPanel
+
+	setText(slot8:Find("window/confirm_btn/Image/Text"), i18n("event_ui_consume"))
+
+	slot9 = slot0.unlockPanel
+
+	onButton(slot0, slot9:Find("window/confirm_btn"), function ()
+		pg.UIMgr.GetInstance():UnblurPanel(uv0.unlockPanel, uv0.top)
+		setActive(uv0.unlockPanel, false)
+		uv0:emit(ShipBluePrintMediator.ON_ITEM_UNLOCK, uv1, uv2)
+	end, SFX_CANCEL)
 end
 
 function slot0.checkStory(slot0)

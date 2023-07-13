@@ -1284,7 +1284,7 @@ pg.re_map_template = {
 		activity_type = 2,
 		id = 24,
 		bg = "temp_taertu",
-		order = 22,
+		order = 24,
 		config_data = {
 			2200091,
 			2200092,
@@ -1313,7 +1313,7 @@ pg.re_map_template = {
 		activity_type = 1,
 		id = 25,
 		bg = "temp_qiaba",
-		order = 24,
+		order = 25,
 		config_data = {
 			2100261,
 			2100262,

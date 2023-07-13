@@ -69,8 +69,10 @@ function slot0.Delete(slot0, slot1, slot2)
 	if slot1 and slot1:IsPlayableState(slot2) then
 		slot3 = slot1:GetCpkName(slot2)
 
-		pg.CipherGroupMgr.GetInstance():DelFile(Cryptolalia.BuildCpkPath(slot3))
-		pg.CipherGroupMgr.GetInstance():DelFile(Cryptolalia.BuildSubtitlePath(slot3))
+		pg.CipherGroupMgr.GetInstance():DelFile({
+			Cryptolalia.BuildCpkPath(slot3),
+			Cryptolalia.BuildSubtitlePath(slot3)
+		})
 		slot0:emit(CryptolaliaScene.ON_DELETE)
 	end
 end

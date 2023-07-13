@@ -68,9 +68,7 @@ function slot0.UpdateIconDesc(slot0, slot1, slot2)
 			setParent(slot0, uv0.frame, false)
 		end)
 
-		slot6 = Ship.New({
-			configId = slot2.icon
-		})
+		slot6 = slot2:GetFlagShip()
 
 		LoadSpriteAsync("qicon/" .. slot6:getPrefab(), function (slot0)
 			uv0.icon:GetComponent(typeof(Image)).sprite = slot0

@@ -19133,7 +19133,7 @@ pg.activity_shop_template = {
 		resource_type = 21000,
 		id = 12001,
 		resource_num = 80,
-		order = 0,
+		order = 1,
 		limit_args = {
 			{
 				1,
@@ -19168,7 +19168,7 @@ pg.activity_shop_template = {
 		resource_type = 21000,
 		id = 12002,
 		resource_num = 5,
-		order = 0
+		order = 2
 	},
 	[12003] = {
 		limit_args = "",
@@ -19181,7 +19181,7 @@ pg.activity_shop_template = {
 		resource_type = 21000,
 		id = 12003,
 		resource_num = 5,
-		order = 0
+		order = 3
 	},
 	[12004] = {
 		limit_args = "",
@@ -19194,7 +19194,7 @@ pg.activity_shop_template = {
 		resource_type = 21000,
 		id = 12004,
 		resource_num = 5,
-		order = 0
+		order = 4
 	},
 	[12005] = {
 		limit_args = "",
@@ -19207,7 +19207,20 @@ pg.activity_shop_template = {
 		resource_type = 21000,
 		id = 12005,
 		resource_num = 5,
-		order = 0
+		order = 5
+	},
+	[12006] = {
+		limit_args = "",
+		resource_category = 2,
+		activity = 4877,
+		num_limit = 0,
+		num = 1,
+		commodity_id = 16033,
+		commodity_type = 2,
+		resource_type = 21000,
+		id = 12006,
+		resource_num = 5,
+		order = 6
 	},
 	get_id_list_by_commodity_type = {
 		{
@@ -20645,7 +20658,8 @@ pg.activity_shop_template = {
 			12002,
 			12003,
 			12004,
-			12005
+			12005,
+			12006
 		},
 		[7] = {
 			603,
@@ -22169,6 +22183,7 @@ pg.activity_shop_template = {
 		12002,
 		12003,
 		12004,
-		12005
+		12005,
+		12006
 	}
 }

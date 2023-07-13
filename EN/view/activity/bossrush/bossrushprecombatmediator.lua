@@ -28,7 +28,7 @@ function slot0.register(slot0)
 
 	slot4 = slot0.contextData.fleets
 
-	slot0.viewComponent:SetSubFlag(slot4[#slot4]:isLegalToFight())
+	slot0.viewComponent:SetSubFlag(slot4[#slot4]:isLegalToFight() == true)
 end
 
 function slot0.bindEvent(slot0)
@@ -143,6 +143,39 @@ function slot0.bindEvent(slot0)
 				end
 
 				slot0()
+			end,
+			function (slot0)
+				table.SerialIpairsAsync(uv0.contextData.fleets, function (slot0, slot1, slot2)
+					slot3, slot4 = slot1:HaveShipsInEvent()
+
+					if slot3 then
+						pg.TipsMgr.GetInstance():ShowTips(slot4)
+
+						return
+					end
+
+					slot5 = uv0.contextData.actId
+
+					if _.any(slot1:getShipIds(), function (slot0)
+						if not getProxy(BayProxy):RawGetShipById(slot0) then
+							return
+						end
+
+						slot2, slot3 = ShipStatus.ShipStatusCheck("inActivity", slot1, nil, {
+							inActivity = uv0
+						})
+
+						if not slot2 then
+							pg.TipsMgr.GetInstance():ShowTips(slot3)
+
+							return true
+						end
+					end) then
+						return
+					end
+
+					slot2()
+				end, slot0)
 			end,
 			function (slot0)
 				if uv0.contextData.mode == BossRushSeriesData.MODE.SINGLE then

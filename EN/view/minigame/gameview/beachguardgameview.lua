@@ -47,7 +47,7 @@ end
 
 function slot0.PlayGuider(slot0, slot1)
 	if not pg.NewStoryMgr.GetInstance():IsPlayed(slot1) then
-		pg.GuideMgr.GetInstance():play(slot1)
+		pg.NewGuideMgr.GetInstance():Play(slot1)
 		pg.m02:sendNotification(GAME.STORY_UPDATE, {
 			storyId = slot1
 		})

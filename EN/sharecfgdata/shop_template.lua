@@ -20943,6 +20943,33 @@ _G.pg.base.shop_template[61018] = {
 	}
 }
 
+_G.pg.base.shop_template[61019] = {
+	is_auto_use = 0,
+	time_second = 0,
+	resource_type = 14,
+	type = 1,
+	genre = "gem_shop",
+	desc = "40钻石密语奖券",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 14,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 61019,
+	resource_num = 40,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		15
+	}
+}
+
 _G.pg.base.shop_template[70001] = {
 	is_auto_use = 0,
 	time_second = 0,
@@ -65692,7 +65719,7 @@ _G.pg.base.shop_template[100014] = {
 	tag = 0,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 10,
 	discount = 0,

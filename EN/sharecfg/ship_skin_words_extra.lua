@@ -206,7 +206,12 @@ pg.ship_skin_words_extra = setmetatable({
 		307130,
 		603060,
 		601100,
-		605070
+		605070,
+		199040,
+		499090,
+		399060,
+		499080,
+		999020
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -221,8 +226,9 @@ pg.base.ship_skin_words_extra = {
 		headtouch = "",
 		unlock = "",
 		feeling2 = "",
-		skill = "",
 		battle = "",
+		skill = "",
+		hp_warning = "",
 		id = 999010,
 		lose = "",
 		login = {
@@ -314,13 +320,14 @@ pg.base.ship_skin_words_extra = {
 		mail = "",
 		touch = "",
 		profile = "",
+		battle = "",
 		login = "",
 		main = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 801040,
 		detail = "",
 		feeling5 = {
@@ -346,13 +353,14 @@ pg.base.ship_skin_words_extra = {
 		mail = "",
 		touch = "",
 		profile = "",
+		battle = "",
 		login = "",
 		main = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 108030,
 		detail = "",
 		feeling5 = {
@@ -371,6 +379,7 @@ pg.base.ship_skin_words_extra = {
 		win_mvp = "",
 		profile = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -379,7 +388,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 999011,
 		unlock = {
 			{
@@ -436,10 +445,11 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 207050,
 		lose = "",
 		profile = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -513,9 +523,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 905030,
 		lose = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -598,13 +609,14 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		mail = "",
 		lose = "",
+		battle = "",
 		login = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 301090,
 		detail = "",
 		main = {
@@ -632,9 +644,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		feeling1 = "",
 		skill = "",
-		profile = "",
+		hp_warning = "",
 		id = 305140,
 		touch = "",
+		profile = "",
 		feeling4 = "",
 		login = {
 			{
@@ -709,6 +722,7 @@ pg.base.ship_skin_words_extra = {
 		touch2 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -716,7 +730,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 306070,
 		detail = "",
 		login = {
@@ -759,6 +773,7 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		mail = "",
 		touch = "",
+		battle = "",
 		login = "",
 		feeling5 = "",
 		main = "",
@@ -766,7 +781,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 301260,
 		win_mvp = {
 			{
@@ -797,13 +812,14 @@ pg.base.ship_skin_words_extra = {
 		mail = "",
 		touch = "",
 		profile = "",
+		battle = "",
 		login = "",
 		main = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 202100,
 		detail = "",
 		feeling5 = {
@@ -825,15 +841,16 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		skill = "",
-		login = "",
+		battle = "",
 		mail = "",
 		lose = "",
+		login = "",
 		feeling5 = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 705010,
 		detail = "",
 		main = {
@@ -856,22 +873,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[702030] = {
-		main_extra = "",
-		feeling3 = "",
 		unlock = "",
-		mail = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
+		main_extra = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
 		upgrade = "",
 		mission_complete = "",
-		mission = "",
-		feeling2 = "",
-		profile = "",
-		skill = "",
-		feeling4 = "",
-		id = 702030,
-		lose = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 702030,
 		login = {
 			{
 				1100,
@@ -942,11 +960,12 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		mail = "",
 		touch = "",
+		battle = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 702020,
 		login = {
 			{
@@ -989,8 +1008,9 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		mission = "",
 		profile = "",
-		login = "",
+		battle = "",
 		skill = "",
+		login = "",
 		mail = "",
 		lose = "",
 		feeling5 = "",
@@ -998,7 +1018,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 705050,
 		home = {
 			{
@@ -1049,6 +1069,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 106550,
 		login = {
 			{
@@ -1105,13 +1126,14 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 103240,
 		login = {
 			{
@@ -1162,6 +1184,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		lose = "",
 		feeling5 = "",
@@ -1169,7 +1192,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 102270,
 		login = {
 			{
@@ -1203,22 +1226,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[107110] = {
-		upgrade = "",
-		feeling3 = "",
 		main_extra = "",
-		mail = "",
+		feeling3 = "",
+		lose = "",
+		feeling4 = "",
 		expedition = "",
 		win_mvp = "",
-		lose = "",
-		unlock = "",
-		feeling2 = "",
 		feeling1 = "",
-		skill = "",
-		battle = "",
-		id = 107110,
-		touch = "",
-		feeling4 = "",
+		unlock = "",
 		profile = "",
+		battle = "",
+		skill = "",
+		mail = "",
+		touch = "",
+		upgrade = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 107110,
 		login = {
 			{
 				1100,
@@ -1293,6 +1317,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 207020,
 		login = {
 			{
@@ -1341,6 +1366,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -1349,7 +1375,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 105030,
 		login = {
 			{
@@ -1405,6 +1431,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 302140,
 		detail = "",
 		login = {
@@ -1460,6 +1487,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -1467,7 +1495,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 805010,
 		login = {
 			{
@@ -1524,9 +1552,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		feeling1 = "",
 		skill = "",
-		headtouch = "",
+		hp_warning = "",
 		id = 905010,
 		lose = "",
+		headtouch = "",
 		profile = "",
 		login = {
 			{
@@ -1599,6 +1628,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		unlock = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -1606,7 +1636,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 301820,
 		login = {
 			{
@@ -1663,9 +1693,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 305080,
 		lose = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -1745,10 +1776,11 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		feeling1 = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 903020,
 		touch = "",
 		profile = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -1820,6 +1852,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -1828,7 +1861,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 802020,
 		login = {
 			{
@@ -1877,6 +1910,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -1884,7 +1918,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 901020,
 		detail = "",
 		login = {
@@ -1933,13 +1967,14 @@ pg.base.ship_skin_words_extra = {
 		main_extra = "",
 		profile = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 901030,
 		detail = "",
 		login = {
@@ -1992,22 +2027,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[202030] = {
-		main_extra = "",
+		unlock = "",
 		feeling3 = "",
-		feeling5 = "",
-		feeling4 = "",
 		feeling1 = "",
-		upgrade = "",
-		mission_complete = "",
+		profile = "",
+		main_extra = "",
 		mission = "",
 		touch2 = "",
-		profile = "",
 		skill = "",
-		unlock = "",
-		id = 202030,
+		feeling4 = "",
 		touch = "",
+		feeling5 = "",
+		upgrade = "",
+		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
+		id = 202030,
 		login = {
 			{
 				1100,
@@ -2072,6 +2108,7 @@ pg.base.ship_skin_words_extra = {
 		main_extra = "",
 		profile = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -2079,7 +2116,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 201100,
 		login = {
 			{
@@ -2142,9 +2179,10 @@ pg.base.ship_skin_words_extra = {
 		touch2 = "",
 		headtouch = "",
 		skill = "",
-		feeling2 = "",
+		hp_warning = "",
 		id = 901110,
 		touch = "",
+		feeling2 = "",
 		login = {
 			{
 				1100,
@@ -2224,9 +2262,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		feeling4 = "",
 		skill = "",
-		headtouch = "",
+		hp_warning = "",
 		id = 205060,
 		feeling1 = "",
+		headtouch = "",
 		profile = "",
 		login = {
 			{
@@ -2307,6 +2346,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 205070,
 		detail = "",
 		login = {
@@ -2358,6 +2398,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -2365,7 +2406,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 902010,
 		login = {
 			{
@@ -2410,13 +2451,14 @@ pg.base.ship_skin_words_extra = {
 		touch2 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		lose = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 205100,
 		detail = "",
 		login = {
@@ -2459,6 +2501,7 @@ pg.base.ship_skin_words_extra = {
 		win_mvp = "",
 		feeling1 = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -2466,7 +2509,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 207010,
 		detail = "",
 		login = {
@@ -2522,6 +2565,7 @@ pg.base.ship_skin_words_extra = {
 		home = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -2529,7 +2573,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		mission_complete = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 201330,
 		detail = "",
 		login = {
@@ -2581,13 +2625,14 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		lose = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 202270,
 		detail = "",
 		login = {
@@ -2631,6 +2676,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -2638,7 +2684,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 205090,
 		detail = "",
 		login = {
@@ -2683,18 +2729,18 @@ pg.base.ship_skin_words_extra = {
 		feeling3 = "",
 		feeling4 = "",
 		feeling1 = "",
-		profile = "",
+		battle = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
 		skill = "",
 		mail = "",
 		lose = "",
-		upgrade = "",
+		profile = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 206060,
 		login = {
 			{
@@ -2706,6 +2752,12 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Okay, fine. I use my mirror for conversation practice... Stop giggling, it's not funny."
+			}
+		},
+		upgrade = {
+			{
+				1100,
+				"Thanks a bunch... Well, yeah, didn't you want a thank-you?"
 			}
 		},
 		main = {
@@ -2757,13 +2809,14 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 499040,
 		login = {
 			{
@@ -2814,11 +2867,12 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 299030,
 		detail = "",
 		login = {
@@ -2879,12 +2933,13 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		mail = "",
 		touch = "",
+		battle = "",
 		login = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 299040,
 		detail = "",
 		main = {
@@ -2907,22 +2962,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[499030] = {
-		upgrade = "",
+		main_extra = "",
 		feeling3 = "",
-		feeling5 = "",
-		feeling4 = "",
+		feeling1 = "",
+		profile = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		main_extra = "",
 		skill = "",
-		profile = "",
-		id = 499030,
+		feeling4 = "",
 		lose = "",
+		feeling5 = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 499030,
 		login = {
 			{
 				1100,
@@ -2997,6 +3053,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 305120,
 		detail = "",
 		login = {
@@ -3040,6 +3097,7 @@ pg.base.ship_skin_words_extra = {
 		home = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -3047,7 +3105,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 319010,
 		login = {
 			{
@@ -3104,12 +3162,13 @@ pg.base.ship_skin_words_extra = {
 		touch2 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		touch = "",
 		main = "",
 		upgrade = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 301840,
 		login = {
 			{
@@ -3166,6 +3225,7 @@ pg.base.ship_skin_words_extra = {
 		touch2 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		lose = "",
 		feeling5 = "",
@@ -3173,7 +3233,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 204040,
 		login = {
 			{
@@ -3218,9 +3278,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		profile = "",
+		hp_warning = "",
 		id = 408090,
 		lose = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -3303,11 +3364,12 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		mail = "",
 		lose = "",
+		battle = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 201320,
 		detail = "",
 		login = {
@@ -3347,9 +3409,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 901120,
 		lose = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -3427,6 +3490,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -3434,7 +3498,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 107230,
 		login = {
 			{
@@ -3491,6 +3555,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -3499,7 +3564,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 407030,
 		detail = "",
 		login = {
@@ -3530,6 +3595,7 @@ pg.base.ship_skin_words_extra = {
 		win_mvp = "",
 		profile = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -3537,7 +3603,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 403090,
 		login = {
 			{
@@ -3598,6 +3664,7 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		mission = "",
 		touch2 = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -3607,7 +3674,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 401240,
 		login = {
 			{
@@ -3658,6 +3725,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		mission_complete = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 402050,
 		detail = "",
 		login = {
@@ -3698,22 +3766,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[301630] = {
-		upgrade = "",
-		feeling3 = "",
-		feeling5 = "",
 		feeling1 = "",
+		feeling3 = "",
+		profile = "",
+		battle = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
 		unlock = "",
 		touch2 = "",
-		profile = "",
 		skill = "",
-		battle = "",
-		id = 301630,
+		feeling4 = "",
 		lose = "",
-		feeling2 = "",
+		feeling5 = "",
+		upgrade = "",
 		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 301630,
 		login = {
 			{
 				1100,
@@ -3774,6 +3843,7 @@ pg.base.ship_skin_words_extra = {
 		feeling3 = "",
 		feeling4 = "",
 		profile = "",
+		battle = "",
 		win_mvp = "",
 		home = "",
 		mission = "",
@@ -3785,7 +3855,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 202290,
 		detail = "",
 		login = {
@@ -3846,11 +3916,12 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		mail = "",
 		touch = "",
+		battle = "",
 		main = "",
 		upgrade = "",
 		mission_complete = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 502040,
 		detail = "",
 		login = {
@@ -3890,10 +3961,11 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 502050,
 		touch = "",
 		profile = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -3962,6 +4034,7 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		expedition = "",
 		win_mvp = "",
+		battle = "",
 		unlock = "",
 		skill = "",
 		mail = "",
@@ -3971,7 +4044,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 701070,
 		login = {
 			{
@@ -4034,6 +4107,7 @@ pg.base.ship_skin_words_extra = {
 		touch2 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -4041,7 +4115,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 701080,
 		login = {
 			{
@@ -4086,6 +4160,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -4094,7 +4169,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 702060,
 		detail = "",
 		login = {
@@ -4125,6 +4200,7 @@ pg.base.ship_skin_words_extra = {
 		win_mvp = "",
 		profile = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -4133,7 +4209,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 703010,
 		detail = "",
 		login = {
@@ -4183,6 +4259,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -4192,7 +4269,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 702040,
 		detail = "",
 		login = {
@@ -4227,6 +4304,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		win_mvp = "",
+		battle = "",
 		mission = "",
 		skill = "",
 		feeling4 = "",
@@ -4236,7 +4314,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 705040,
 		detail = "",
 		login = {
@@ -4300,6 +4378,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 101450,
 		login = {
 			{
@@ -4354,6 +4433,7 @@ pg.base.ship_skin_words_extra = {
 		home = "",
 		unlock = "",
 		touch2 = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -4363,7 +4443,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 101460,
 		login = {
 			{
@@ -4399,19 +4479,20 @@ pg.base.ship_skin_words_extra = {
 	[605010] = {
 		unlock = "",
 		feeling3 = "",
+		feeling1 = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		feeling4 = "",
+		lose = "",
 		feeling5 = "",
 		main = "",
-		feeling4 = "",
 		upgrade = "",
 		mission_complete = "",
-		mission = "",
-		feeling2 = "",
-		feeling1 = "",
-		skill = "",
 		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
 		id = 605010,
-		lose = "",
-		profile = "",
 		detail = "",
 		login = {
 			{
@@ -4475,6 +4556,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		expedition = "",
 		profile = "",
+		battle = "",
 		mission = "",
 		skill = "",
 		mail = "",
@@ -4484,7 +4566,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 304070,
 		login = {
 			{
@@ -4544,6 +4626,7 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		home = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -4552,7 +4635,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 602010,
 		login = {
 			{
@@ -4598,22 +4681,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[607010] = {
-		upgrade = "",
-		feeling3 = "",
-		feeling5 = "",
 		lose = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
 		win_mvp = "",
-		feeling4 = "",
-		unlock = "",
-		feeling2 = "",
-		mail = "",
-		skill = "",
 		profile = "",
-		id = 607010,
+		unlock = "",
+		skill = "",
+		mail = "",
 		touch = "",
+		feeling5 = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 607010,
 		login = {
 			{
 				1100,
@@ -4686,6 +4770,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 601040,
 		login = {
 			{
@@ -4748,6 +4833,7 @@ pg.base.ship_skin_words_extra = {
 		touch2 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		lose = "",
 		feeling5 = "",
@@ -4755,7 +4841,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 601050,
 		login = {
 			{
@@ -4800,13 +4886,14 @@ pg.base.ship_skin_words_extra = {
 		touch2 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		touch = "",
 		upgrade = "",
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 601060,
 		login = {
 			{
@@ -4854,6 +4941,7 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		home = "",
 		unlock = "",
+		battle = "",
 		login = "",
 		skill = "",
 		mail = "",
@@ -4862,7 +4950,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 608010,
 		detail = "",
 		win_mvp = {
@@ -4908,6 +4996,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		expedition = "",
+		battle = "",
 		mission = "",
 		skill = "",
 		feeling4 = "",
@@ -4918,7 +5007,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 102290,
 		login = {
 			{
@@ -4976,6 +5065,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		win_mvp = "",
+		battle = "",
 		mission = "",
 		touch2 = "",
 		skill = "",
@@ -4986,7 +5076,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 103140,
 		detail = "",
 		login = {
@@ -5038,9 +5128,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		profile = "",
+		hp_warning = "",
 		id = 101470,
 		lose = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -5120,6 +5211,7 @@ pg.base.ship_skin_words_extra = {
 		touch2 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		touch = "",
 		main = "",
@@ -5127,7 +5219,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 107140,
 		login = {
 			{
@@ -5177,6 +5269,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 105170,
 		login = {
 			{
@@ -5239,6 +5332,7 @@ pg.base.ship_skin_words_extra = {
 		touch2 = "",
 		profile = "",
 		skill = "",
+		battle = "",
 		mail = "",
 		lose = "",
 		main = "",
@@ -5246,7 +5340,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 107990,
 		login = {
 			{
@@ -5289,6 +5383,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -5297,7 +5392,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 207052,
 		login = {
 			{
@@ -5346,6 +5441,7 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		mission = "",
 		touch2 = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -5354,7 +5450,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 301860,
 		login = {
 			{
@@ -5403,6 +5499,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -5410,7 +5507,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		mission_complete = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 399050,
 		login = {
 			{
@@ -5456,22 +5553,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10700010] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10700010,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10700010,
 		login = {
 			{
 				1100,
@@ -5528,22 +5626,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10700020] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10700020,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10700020,
 		login = {
 			{
 				1100,
@@ -5600,22 +5699,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10700030] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10700030,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10700030,
 		login = {
 			{
 				1100,
@@ -5672,22 +5772,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10700040] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10700040,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10700040,
 		login = {
 			{
 				1100,
@@ -5744,22 +5845,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10700050] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10700050,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10700050,
 		login = {
 			{
 				1100,
@@ -5816,22 +5918,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10700060] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10700060,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10700060,
 		login = {
 			{
 				1100,
@@ -5888,22 +5991,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10700070] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10700070,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10700070,
 		login = {
 			{
 				1100,
@@ -5977,6 +6081,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		mission_complete = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 108070,
 		home = {
 			{
@@ -6033,6 +6138,7 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		profile = "",
 		skill = "",
+		hp_warning = "",
 		id = 301290,
 		lose = "",
 		login = {
@@ -6118,13 +6224,14 @@ pg.base.ship_skin_words_extra = {
 		home = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
 		upgrade = "",
 		mission_complete = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 307120,
 		detail = "",
 		login = {
@@ -6171,22 +6278,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[301470] = {
-		main_extra = "",
-		feeling3 = "",
 		unlock = "",
-		mail = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
+		main_extra = "",
+		profile = "",
+		mission = "",
+		battle = "",
+		skill = "",
+		mail = "",
+		lose = "",
 		upgrade = "",
 		mission_complete = "",
-		mission = "",
 		feeling2 = "",
-		profile = "",
-		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 301470,
-		lose = "",
-		feeling1 = "",
-		feeling4 = "",
 		login = {
 			{
 				1100,
@@ -6243,22 +6351,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[301480] = {
-		upgrade = "",
-		feeling3 = "",
 		unlock = "",
-		mail = "",
+		feeling3 = "",
 		feeling4 = "",
-		win_mvp = "",
-		mission_complete = "",
-		mission = "",
-		feeling2 = "",
 		feeling1 = "",
-		skill = "",
-		battle = "",
-		id = 301480,
-		lose = "",
 		profile = "",
+		win_mvp = "",
+		battle = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		upgrade = "",
+		mission_complete = "",
 		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 301480,
 		login = {
 			{
 				1100,
@@ -6326,9 +6435,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		profile = "",
 		skill = "",
-		mission_complete = "",
+		hp_warning = "",
 		id = 302070,
 		feeling1 = "",
+		mission_complete = "",
 		feeling4 = "",
 		login = {
 			{
@@ -6403,10 +6513,11 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 303060,
 		lose = "",
 		profile = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -6471,19 +6582,20 @@ pg.base.ship_skin_words_extra = {
 	[801070] = {
 		unlock = "",
 		feeling3 = "",
-		mail = "",
-		main = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		profile = "",
 		home = "",
 		mission = "",
-		feeling2 = "",
-		feeling1 = "",
 		skill = "",
-		headtouch = "",
-		id = 801070,
+		mail = "",
 		lose = "",
-		feeling4 = "",
+		main = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 801070,
 		detail = "",
 		login = {
 			{
@@ -6549,6 +6661,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -6557,7 +6670,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 801080,
 		login = {
 			{
@@ -6614,9 +6727,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 903010,
 		feeling1 = "",
+		battle = "",
 		detail = "",
 		login = {
 			{
@@ -6680,22 +6794,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10800010] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10800010,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10800010,
 		login = {
 			{
 				1100,
@@ -6752,22 +6867,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10800060] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10800060,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10800060,
 		login = {
 			{
 				1100,
@@ -6840,6 +6956,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 10800070,
 		login = {
 			{
@@ -6891,22 +7008,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10800040] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10800040,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10800040,
 		login = {
 			{
 				1100,
@@ -6963,22 +7081,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10800030] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10800030,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10800030,
 		login = {
 			{
 				1100,
@@ -7035,22 +7154,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10800050] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10800050,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10800050,
 		login = {
 			{
 				1100,
@@ -7107,22 +7227,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10800020] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10800020,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10800020,
 		login = {
 			{
 				1100,
@@ -7188,6 +7309,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -7196,7 +7318,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 403100,
 		login = {
 			{
@@ -7236,22 +7358,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[402060] = {
-		upgrade = "",
+		feeling4 = "",
 		feeling3 = "",
-		mail = "",
-		main = "",
+		feeling1 = "",
+		profile = "",
 		expedition = "",
 		win_mvp = "",
-		mission_complete = "",
-		unlock = "",
-		feeling2 = "",
-		profile = "",
-		skill = "",
 		battle = "",
-		id = 402060,
+		unlock = "",
+		skill = "",
+		mail = "",
 		lose = "",
-		feeling4 = "",
-		feeling1 = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 402060,
 		login = {
 			{
 				1100,
@@ -7316,6 +7439,7 @@ pg.base.ship_skin_words_extra = {
 		unlock = "",
 		feeling2 = "",
 		skill = "",
+		hp_warning = "",
 		id = 405030,
 		feeling1 = "",
 		login = {
@@ -7421,10 +7545,11 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 406020,
 		lose = "",
 		profile = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -7490,18 +7615,18 @@ pg.base.ship_skin_words_extra = {
 		unlock = "",
 		feeling3 = "",
 		feeling4 = "",
-		main = "",
+		feeling1 = "",
 		expedition = "",
 		upgrade = "",
 		mission_complete = "",
 		mission = "",
 		feeling2 = "",
-		feeling1 = "",
+		profile = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 408120,
 		lose = "",
-		profile = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -7530,6 +7655,12 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Okay, so... I'm meant to press this blue button instead of the red one on the AC... Achoo! Aww, dang it... I pressed the red one without even thinking about it!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"I've got an idea! Hehehe, lemme just push this button... There we go! Fan's on now! Enjoy that cool air!|nil|Your documents are printed and good to go! I made sure to read the instructions this time! ...Agh, the text is on both sides of the paper! How'd this happen?!"
 			}
 		},
 		main_extra = {
@@ -7570,6 +7701,7 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		expedition = "",
 		win_mvp = "",
+		battle = "",
 		mission = "",
 		skill = "",
 		mail = "",
@@ -7579,7 +7711,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		mission_complete = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 101490,
 		detail = "",
 		login = {
@@ -7635,6 +7767,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -7644,7 +7777,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 502080,
 		detail = "",
 		login = {
@@ -7681,6 +7814,7 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		home = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -7688,7 +7822,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		mission_complete = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 502070,
 		detail = "",
 		login = {
@@ -7746,10 +7880,11 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 202300,
 		feeling1 = "",
 		profile = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -7812,22 +7947,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[705060] = {
-		upgrade = "",
+		feeling4 = "",
 		feeling3 = "",
-		mail = "",
-		main = "",
+		feeling1 = "",
+		profile = "",
 		expedition = "",
 		win_mvp = "",
-		feeling1 = "",
-		unlock = "",
-		feeling2 = "",
-		profile = "",
-		skill = "",
 		battle = "",
-		id = 705060,
+		unlock = "",
+		skill = "",
+		mail = "",
 		lose = "",
-		feeling4 = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 705060,
 		login = {
 			{
 				1100,
@@ -7892,6 +8028,7 @@ pg.base.ship_skin_words_extra = {
 		win_mvp = "",
 		profile = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -7899,7 +8036,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 707010,
 		login = {
 			{
@@ -7962,9 +8099,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		profile = "",
+		hp_warning = "",
 		id = 701100,
 		touch = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -8044,10 +8182,11 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 718010,
 		touch = "",
 		profile = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -8121,9 +8260,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		profile = "",
+		hp_warning = "",
 		id = 701090,
 		lose = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -8197,6 +8337,7 @@ pg.base.ship_skin_words_extra = {
 		feeling4 = "",
 		profile = "",
 		expedition = "",
+		battle = "",
 		home = "",
 		mission = "",
 		skill = "",
@@ -8207,7 +8348,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 601070,
 		login = {
 			{
@@ -8270,10 +8411,11 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 603040,
 		lose = "",
 		profile = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -8340,11 +8482,12 @@ pg.base.ship_skin_words_extra = {
 		feeling3 = "",
 		profile = "",
 		main = "",
+		battle = "",
 		upgrade = "",
 		unlock = "",
 		feeling2 = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 607020,
 		feeling1 = "",
 		login = {
@@ -8441,6 +8584,7 @@ pg.base.ship_skin_words_extra = {
 		win_mvp = "",
 		home = "",
 		unlock = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -8449,7 +8593,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 506010,
 		detail = "",
 		login = {
@@ -8501,9 +8645,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		profile = "",
+		hp_warning = "",
 		id = 603010,
 		lose = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -8583,10 +8728,11 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 402080,
 		lose = "",
 		profile = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -8660,10 +8806,11 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		feeling4 = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 402070,
 		feeling1 = "",
 		profile = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -8744,6 +8891,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 404040,
 		login = {
 			{
@@ -8794,9 +8942,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		profile = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 404030,
 		feeling1 = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -8871,6 +9020,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		expedition = "",
 		profile = "",
+		battle = "",
 		mission = "",
 		skill = "",
 		mail = "",
@@ -8881,7 +9031,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 403110,
 		login = {
 			{
@@ -8935,6 +9085,7 @@ pg.base.ship_skin_words_extra = {
 		win_mvp = "",
 		profile = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -8944,7 +9095,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 405040,
 		detail = "",
 		login = {
@@ -8984,6 +9135,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		expedition = "",
+		battle = "",
 		unlock = "",
 		skill = "",
 		mail = "",
@@ -8994,7 +9146,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 403120,
 		login = {
 			{
@@ -9056,6 +9208,7 @@ pg.base.ship_skin_words_extra = {
 		unlock = "",
 		feeling2 = "",
 		mission_complete = "",
+		hp_warning = "",
 		id = 205130,
 		feeling1 = "",
 		login = {
@@ -9147,8 +9300,9 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		unlock = "",
 		feeling2 = "",
-		skill = "",
 		battle = "",
+		skill = "",
+		hp_warning = "",
 		id = 201340,
 		touch = "",
 		login = {
@@ -9236,9 +9390,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		profile = "",
+		hp_warning = "",
 		id = 207120,
 		feeling1 = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -9309,19 +9464,20 @@ pg.base.ship_skin_words_extra = {
 	[205110] = {
 		unlock = "",
 		feeling3 = "",
-		feeling4 = "",
-		main = "",
+		feeling1 = "",
+		profile = "",
 		expedition = "",
+		mission = "",
+		skill = "",
+		feeling4 = "",
+		lose = "",
+		main = "",
 		upgrade = "",
 		mission_complete = "",
-		mission = "",
-		feeling2 = "",
-		feeling1 = "",
-		skill = "",
 		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
 		id = 205110,
-		lose = "",
-		profile = "",
 		detail = "",
 		login = {
 			{
@@ -9385,6 +9541,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		expedition = "",
 		profile = "",
+		battle = "",
 		mission = "",
 		skill = "",
 		mail = "",
@@ -9395,7 +9552,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 202310,
 		detail = "",
 		login = {
@@ -9444,6 +9601,7 @@ pg.base.ship_skin_words_extra = {
 		win_mvp = "",
 		profile = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -9453,7 +9611,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 203100,
 		login = {
 			{
@@ -9509,6 +9667,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 907010,
 		login = {
 			{
@@ -9571,9 +9730,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		profile = "",
 		skill = "",
-		feeling4 = "",
+		hp_warning = "",
 		id = 901130,
 		touch = "",
+		feeling4 = "",
 		login = {
 			{
 				1100,
@@ -9644,20 +9804,21 @@ pg.base.ship_skin_words_extra = {
 	[202320] = {
 		unlock = "",
 		feeling3 = "",
-		mail = "",
-		main = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
 		upgrade = "",
 		mission_complete = "",
-		mission = "",
-		feeling2 = "",
-		profile = "",
-		skill = "",
-		feeling1 = "",
-		id = 202320,
-		lose = "",
 		headtouch = "",
-		feeling4 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 202320,
 		login = {
 			{
 				1100,
@@ -9716,20 +9877,21 @@ pg.base.ship_skin_words_extra = {
 	[299050] = {
 		unlock = "",
 		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
 		feeling5 = "",
 		main = "",
-		expedition = "",
 		upgrade = "",
-		feeling1 = "",
-		mission = "",
-		feeling2 = "",
-		feeling4 = "",
-		skill = "",
-		profile = "",
-		id = 299050,
-		lose = "",
 		headtouch = "",
-		mail = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 299050,
 		login = {
 			{
 				1100,
@@ -9797,9 +9959,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		profile = "",
+		hp_warning = "",
 		id = 499070,
 		lose = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -9879,6 +10042,7 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
+		hp_warning = "",
 		id = 599010,
 		touch = "",
 		login = {
@@ -9966,10 +10130,11 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 799010,
 		lose = "",
 		profile = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -10034,20 +10199,21 @@ pg.base.ship_skin_words_extra = {
 	[899030] = {
 		unlock = "",
 		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
 		feeling5 = "",
 		main = "",
-		expedition = "",
 		upgrade = "",
 		mission_complete = "",
-		mission = "",
 		feeling2 = "",
-		feeling4 = "",
-		skill = "",
-		profile = "",
+		hp_warning = "",
 		id = 899030,
-		lose = "",
-		feeling1 = "",
-		mail = "",
 		login = {
 			{
 				1100,
@@ -10110,6 +10276,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		win_mvp = "",
+		battle = "",
 		mission = "",
 		skill = "",
 		mail = "",
@@ -10120,7 +10287,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 605030,
 		login = {
 			{
@@ -10182,6 +10349,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 602020,
 		login = {
 			{
@@ -10244,6 +10412,7 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
+		hp_warning = "",
 		id = 608020,
 		lose = "",
 		login = {
@@ -10326,6 +10495,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		expedition = "",
 		profile = "",
+		battle = "",
 		mission = "",
 		skill = "",
 		mail = "",
@@ -10334,7 +10504,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		mission_complete = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 601090,
 		detail = "",
 		login = {
@@ -10398,9 +10568,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		profile = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 601080,
 		lose = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -10480,9 +10651,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		profile = "",
+		hp_warning = "",
 		id = 603050,
 		touch = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -10553,19 +10725,20 @@ pg.base.ship_skin_words_extra = {
 	[305100] = {
 		unlock = "",
 		feeling3 = "",
-		mail = "",
-		main = "",
 		feeling4 = "",
+		profile = "",
+		battle = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		feeling1 = "",
+		main = "",
 		upgrade = "",
 		mission_complete = "",
-		mission = "",
-		feeling2 = "",
 		headtouch = "",
-		skill = "",
-		battle = "",
+		feeling2 = "",
+		hp_warning = "",
 		id = 305100,
-		feeling1 = "",
-		profile = "",
 		detail = "",
 		login = {
 			{
@@ -10642,6 +10815,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		mission_complete = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 301880,
 		battle = {
 			{
@@ -10686,6 +10860,7 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		profile = "",
 		skill = "",
+		hp_warning = "",
 		id = 302230,
 		touch = "",
 		login = {
@@ -10762,22 +10937,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[303100] = {
-		mail = "",
+		feeling4 = "",
 		feeling3 = "",
+		feeling1 = "",
+		profile = "",
+		battle = "",
+		unlock = "",
+		skill = "",
+		mail = "",
+		touch = "",
 		feeling5 = "",
 		main = "",
-		feeling4 = "",
 		upgrade = "",
 		mission_complete = "",
-		unlock = "",
-		feeling2 = "",
-		feeling1 = "",
-		skill = "",
-		battle = "",
-		id = 303100,
-		touch = "",
-		profile = "",
 		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 303100,
 		login = {
 			{
 				1100,
@@ -10845,10 +11021,11 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		feeling4 = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 301040,
 		feeling1 = "",
 		profile = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -10916,6 +11093,7 @@ pg.base.ship_skin_words_extra = {
 		feeling4 = "",
 		profile = "",
 		expedition = "",
+		battle = "",
 		login = "",
 		mission = "",
 		skill = "",
@@ -10927,7 +11105,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 404050,
 		detail = "",
 		win_mvp = {
@@ -10976,6 +11154,7 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		home = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -10985,7 +11164,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 403020,
 		login = {
 			{
@@ -11036,9 +11215,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		profile = "",
+		hp_warning = "",
 		id = 401160,
 		lose = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -11113,6 +11293,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		expedition = "",
 		profile = "",
+		battle = "",
 		mission = "",
 		skill = "",
 		mail = "",
@@ -11122,7 +11303,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 101110,
 		detail = "",
 		login = {
@@ -11180,9 +11361,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		profile = "",
 		skill = "",
-		feeling1 = "",
+		hp_warning = "",
 		id = 403130,
 		lose = "",
+		feeling1 = "",
 		login = {
 			{
 				1100,
@@ -11253,20 +11435,21 @@ pg.base.ship_skin_words_extra = {
 	[206070] = {
 		unlock = "",
 		feeling3 = "",
-		mail = "",
-		main = "",
+		feeling4 = "",
 		feeling1 = "",
+		profile = "",
+		battle = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
 		upgrade = "",
 		mission_complete = "",
-		mission = "",
-		feeling2 = "",
-		feeling4 = "",
-		skill = "",
-		battle = "",
-		id = 206070,
-		lose = "",
-		profile = "",
 		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 206070,
 		login = {
 			{
 				1100,
@@ -11327,6 +11510,7 @@ pg.base.ship_skin_words_extra = {
 		feeling3 = "",
 		feeling1 = "",
 		profile = "",
+		battle = "",
 		win_mvp = "",
 		home = "",
 		unlock = "",
@@ -11338,7 +11522,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 201350,
 		login = {
 			{
@@ -11396,6 +11580,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		expedition = "",
 		profile = "",
+		battle = "",
 		mission = "",
 		skill = "",
 		mail = "",
@@ -11406,7 +11591,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 202090,
 		login = {
 			{
@@ -11467,6 +11652,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 9600010,
 		detail = "",
 		login = {
@@ -11519,22 +11705,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10900010] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10900010,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10900010,
 		login = {
 			{
 				1100,
@@ -11591,22 +11778,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10900020] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10900020,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10900020,
 		login = {
 			{
 				1100,
@@ -11663,22 +11851,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10900030] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10900030,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10900030,
 		login = {
 			{
 				1100,
@@ -11735,22 +11924,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10900040] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10900040,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10900040,
 		login = {
 			{
 				1100,
@@ -11807,22 +11997,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10900050] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10900050,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10900050,
 		login = {
 			{
 				1100,
@@ -11879,22 +12070,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10900060] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10900060,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10900060,
 		login = {
 			{
 				1100,
@@ -11959,6 +12151,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		profile = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -11968,7 +12161,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 103260,
 		detail = "",
 		login = {
@@ -12008,6 +12201,7 @@ pg.base.ship_skin_words_extra = {
 		feeling4 = "",
 		feeling1 = "",
 		profile = "",
+		battle = "",
 		mission = "",
 		skill = "",
 		mail = "",
@@ -12018,7 +12212,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 107100,
 		login = {
 			{
@@ -12078,6 +12272,7 @@ pg.base.ship_skin_words_extra = {
 		win_mvp = "",
 		profile = "",
 		mission = "",
+		battle = "",
 		mail = "",
 		touch = "",
 		feeling5 = "",
@@ -12085,7 +12280,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 107120,
 		login = {
 			{
@@ -12145,6 +12340,7 @@ pg.base.ship_skin_words_extra = {
 		win_mvp = "",
 		profile = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -12154,7 +12350,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 101500,
 		login = {
 			{
@@ -12200,6 +12396,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		expedition = "",
 		profile = "",
+		battle = "",
 		mission = "",
 		skill = "",
 		mail = "",
@@ -12210,7 +12407,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 107270,
 		detail = "",
 		login = {
@@ -12262,6 +12459,7 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		profile = "",
 		skill = "",
+		hp_warning = "",
 		id = 702050,
 		feeling1 = "",
 		login = {
@@ -12349,9 +12547,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		feeling4 = "",
 		skill = "",
-		headtouch = "",
+		hp_warning = "",
 		id = 206080,
 		lose = "",
+		headtouch = "",
 		profile = "",
 		login = {
 			{
@@ -12424,6 +12623,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -12433,7 +12633,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 519010,
 		detail = "",
 		login = {
@@ -12478,6 +12678,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 506020,
 		detail = "",
 		login = {
@@ -12535,9 +12736,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		profile = "",
 		skill = "",
-		feeling1 = "",
+		hp_warning = "",
 		id = 207070,
 		lose = "",
+		feeling1 = "",
 		feeling4 = "",
 		login = {
 			{
@@ -12612,9 +12814,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 202330,
 		lose = "",
+		battle = "",
 		login = {
 			{
 				1100,
@@ -12700,6 +12903,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
+		hp_warning = "",
 		id = 205140,
 		login = {
 			{
@@ -12751,6 +12955,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		expedition = "",
 		profile = "",
+		battle = "",
 		mission = "",
 		skill = "",
 		mail = "",
@@ -12761,7 +12966,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 201360,
 		login = {
 			{
@@ -12818,9 +13023,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		feeling1 = "",
 		skill = "",
-		headtouch = "",
+		hp_warning = "",
 		id = 206020,
 		lose = "",
+		headtouch = "",
 		profile = "",
 		login = {
 			{
@@ -12892,6 +13098,7 @@ pg.base.ship_skin_words_extra = {
 		win_mvp = "",
 		profile = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -12899,7 +13106,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		mission_complete = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 702070,
 		detail = "",
 		login = {
@@ -12946,22 +13153,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[703020] = {
-		upgrade = "",
+		feeling4 = "",
 		feeling3 = "",
-		feeling5 = "",
-		main = "",
+		feeling1 = "",
+		profile = "",
 		expedition = "",
 		win_mvp = "",
-		feeling1 = "",
-		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
-		skill = "",
 		battle = "",
-		id = 703020,
-		lose = "",
+		unlock = "",
+		skill = "",
 		mail = "",
-		profile = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		upgrade = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 703020,
 		login = {
 			{
 				1100,
@@ -13026,6 +13234,7 @@ pg.base.ship_skin_words_extra = {
 		win_mvp = "",
 		profile = "",
 		mission = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -13035,7 +13244,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 705070,
 		login = {
 			{
@@ -13075,22 +13284,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10600080] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10600080,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10600080,
 		login = {
 			{
 				1100,
@@ -13147,22 +13357,23 @@ pg.base.ship_skin_words_extra = {
 		}
 	},
 	[10600090] = {
-		mail = "",
-		feeling3 = "",
 		lose = "",
-		main = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
 		expedition = "",
-		upgrade = "",
+		profile = "",
 		home = "",
 		unlock = "",
-		feeling2 = "",
-		feeling4 = "",
 		skill = "",
-		profile = "",
-		id = 10600090,
+		mail = "",
 		touch = "",
+		main = "",
+		upgrade = "",
 		headtouch = "",
-		feeling1 = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 10600090,
 		login = {
 			{
 				1100,
@@ -13229,6 +13440,7 @@ pg.base.ship_skin_words_extra = {
 		mission = "",
 		feeling2 = "",
 		profile = "",
+		hp_warning = "",
 		id = 405050,
 		feeling1 = "",
 		login = {
@@ -13322,9 +13534,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		profile = "",
+		hp_warning = "",
 		id = 402100,
 		lose = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -13395,19 +13608,20 @@ pg.base.ship_skin_words_extra = {
 	[406030] = {
 		unlock = "",
 		feeling3 = "",
-		mail = "",
-		main = "",
-		expedition = "",
-		upgrade = "",
-		feeling1 = "",
-		mission = "",
-		feeling2 = "",
-		profile = "",
-		skill = "",
-		battle = "",
-		id = 406030,
-		lose = "",
 		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		profile = "",
+		battle = "",
+		mission = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 406030,
 		detail = "",
 		login = {
 			{
@@ -13474,6 +13688,7 @@ pg.base.ship_skin_words_extra = {
 		home = "",
 		mission = "",
 		profile = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -13483,7 +13698,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 401990,
 		detail = "",
 		login = {
@@ -13518,10 +13733,11 @@ pg.base.ship_skin_words_extra = {
 		main = "",
 		profile = "",
 		upgrade = "",
+		battle = "",
 		unlock = "",
 		feeling2 = "",
 		skill = "",
-		battle = "",
+		hp_warning = "",
 		id = 207130,
 		feeling1 = "",
 		login = {
@@ -13610,6 +13826,7 @@ pg.base.ship_skin_words_extra = {
 		feeling1 = "",
 		expedition = "",
 		profile = "",
+		battle = "",
 		mission = "",
 		touch2 = "",
 		skill = "",
@@ -13621,7 +13838,7 @@ pg.base.ship_skin_words_extra = {
 		mission_complete = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 307130,
 		detail = "",
 		login = {
@@ -13667,9 +13884,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		profile = "",
 		skill = "",
-		headtouch = "",
+		hp_warning = "",
 		id = 603060,
 		lose = "",
+		headtouch = "",
 		feeling4 = "",
 		login = {
 			{
@@ -13741,6 +13959,7 @@ pg.base.ship_skin_words_extra = {
 		win_mvp = "",
 		home = "",
 		unlock = "",
+		battle = "",
 		skill = "",
 		mail = "",
 		lose = "",
@@ -13749,7 +13968,7 @@ pg.base.ship_skin_words_extra = {
 		upgrade = "",
 		headtouch = "",
 		feeling2 = "",
-		battle = "",
+		hp_warning = "",
 		id = 601100,
 		detail = "",
 		login = {
@@ -13801,9 +14020,10 @@ pg.base.ship_skin_words_extra = {
 		feeling2 = "",
 		headtouch = "",
 		skill = "",
-		profile = "",
+		hp_warning = "",
 		id = 605070,
 		lose = "",
+		profile = "",
 		login = {
 			{
 				1100,
@@ -13868,6 +14088,486 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Indulge yourself as much as you want♪"
+			}
+		}
+	},
+	[199040] = {
+		unlock = "",
+		feeling3 = "",
+		mail = "",
+		main = "",
+		feeling1 = "",
+		upgrade = "",
+		feeling4 = "",
+		mission = "",
+		feeling2 = "",
+		headtouch = "",
+		skill = "",
+		hp_warning = "",
+		id = 199040,
+		lose = "",
+		profile = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"This time, you go ahead and set the pace. Don't worry about me, just do whatever feels natural to you. I like it better that way."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Combat appraisal complete... I'm the MVP? It's not like you to get excited about the usual. N-no, I don't mean you can't do that, just..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"How did the sortie go, Commander? I know I don't need to worry about you, but disasters can always happen. Want me to check your vitals?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Vitals check done. All signs clear. I can't guess why else you'd visit, so... You just felt like it? Heheh, what an irrational reason, but that sounds like you alright."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"What is it? Why'd you put your pen down? Your vitals all look fine to me, so... You're just taking a break? Sorry, I didn't mean to heckle you...|Still not finished? Okay, I'll order takeaway. That way I can stay with you until tomorrow if need be– Oh, it won't take that long?|I put my full trust in your ability to lead. Whenever you want to change targets, change course, use and change equipment, or give me tactical advice, just say the word.|(Kearsarge's breathing is faintly audible. Is she meditating again, or is she just sleeping?)"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"...Commander. If you're going to play a prank on someone, you should make sure they're asleep first."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Confirming the commission team has returned. Hate to rain on your parade, but have you prepared gifts for the girls?"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Confirming arrival and receipt of rewards. I don't want to dampen your celebration, but... you should go pick up your stuff."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"If you want this, be my guest. I respect your will, and I've reached the conclusion that I'm fine with it, too."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"*smooch*... Yep. You're the same as always, and I'm in love with you. Is that all you wanted to confirm? I thought you would... as my friends have put it, \"do what your heart yearns for.\" Are you really not going to do that?"
+			}
+		}
+	},
+	[499090] = {
+		feeling4 = "",
+		feeling3 = "",
+		profile = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		battle = "",
+		unlock = "",
+		feeling2 = "",
+		skill = "",
+		hp_warning = "",
+		id = 499090,
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"I've been waiting ages for you. Don't tell me you WANTED to incur my wrath and make me discipline you?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Supposing I were to grant your wish, what would you then do for me in return?"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"It's time to retreat, Contract Binder. The shame of running away matters little compared to personal safety."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Regardless of how your last battle went, now you can relax. Focus on what's in front of you."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"If there's no stopping you... Fine, just this once."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"If you're really going to keep staring at my tail, I will use it to restrain you. You'd probably enjoy that anyway... Unless you're saying I've misjudged your character?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I've never before felt such pleasure as I do by your side... If anything, YOU may genuinely possess a devilish power to seduce others.|Maybe I should spend some time teaching other shipgirls who truly belongs at your side... Get along, you say? Very well. Only out of respect for you, Contract Binder.|Tastes like bitter mud water... Is this supposed to be coffee?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"If you have something to say, out with it. You already know what's going to happen if you get on my nerves."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Do what you must do, Contract Binder... You cannot afford to let distractions get between yours and my time."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission complete. I suppose I should give you a reward... Do you want one?"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"A letter for you. Take it... Yes, I gave you it with my tail rather than my hands. And what of it?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"If you've forgotten how to plead for forgiveness, I'll just have to make you remember, Contract Binder."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"What is it? Thinking of rescinding your earlier decision? Since the moment you surrendered your leader privileges, your opinions as a person have had no weight. You understand what this means, yes, Contract Binder?"
+			}
+		}
+	},
+	[399060] = {
+		mail = "",
+		feeling3 = "",
+		feeling4 = "",
+		main = "",
+		feeling1 = "",
+		upgrade = "",
+		profile = "",
+		unlock = "",
+		feeling2 = "",
+		skill = "",
+		hp_warning = "",
+		id = 399060,
+		lose = "",
+		login = {
+			{
+				1100,
+				"Now then, make your wish. My power belongs to you– Wait, hold on a sec! If you want me to grant THAT wish, you'll have to double my snack allowance!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Maybe I should call down a celebratory rainstorm? Heehee, just joking."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Well fought, Commander. Now then, got any souvenirs for me? Hehe, it doesn't have to be an offering of snacks for the Dragon God. An interesting tale or two will suffice."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"\"Ryuu ga waga teki wo\"... Haha, I'll stop now."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"People are in awe of me because I have these growing out of my head... Probably...?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Let's set the work aside and take it easy for now. Not many people come by these parts, and even if they do, all you gotta do is say that you were praying to the Dragon God~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Don't you think the sun's been a bit too strong lately? ...Heehee, I guess that's where I come in. Shall I call down a bit of rain for you?|Tired? I guess that's bound to happen eventually. Wanna scroll through Juustagram 'til you feel better?|Whose katana is this...? Oh. Mm, mm. I see, I see... I think I'll have that girl offer me a whole bunch of snacks. Ehehe~"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Do you require my power? Very well, I'd be more than glad to assist you."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The commission team seems to have returned. Heehee, the Dragon God sees all~"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"I suppose I don't mind helping you with your mission. After all, the great Dragon God is but a secretary now~"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Oh, done already...? And here I was finally trying to make myself useful... I mean, uh, yes, well done!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You wish for even more wondrous blessings from the Dragon God~? I guess I can do that~"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Yeah, yeah. Just like that. No need for reservation, no need to be polite. You're the head honcho here, so feel free to be yourself. I will always be your Shimanto, your personal Dragon God."
+			}
+		}
+	},
+	[499080] = {
+		feeling4 = "",
+		feeling3 = "",
+		profile = "",
+		main = "",
+		upgrade = "",
+		unlock = "",
+		feeling2 = "",
+		skill = "",
+		hp_warning = "",
+		id = 499080,
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Ahhh, you've finally returned. What will your first order be for me? ...\"Get off the desk\"? Heehee~♪"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Worms should know better than to get between me and the Commander."
+			}
+		},
+		lose = {
+			{
+				1100,
+				"Would you be upset with me if I said I lost on purpose?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"If you missed me so badly, use those noodly arms and wobbly back of yours to carry me. That way, the two of us will always be together~♪"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I'll go mop them up, Commander~"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Just a headpat? And you're satisfied with only that? Well, I'M not satisfied at all."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Want an apple? Here you go– Oh, gimme a sec– *chomp*~ Okay, here you go~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"(Look at you, so hard at work again. Why are you putting yourself through that even though I'm here...?) H-huh?! Wh-why are you trying to chat me up all of a sudden?|The things on my feet keep poking you? It's said that certain things practically become a part of you once you've grown accustomed to them. I don't think you're any exception in this regard, Commander. Heehee~"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"(Are you finally going to put your hands all over me?) ......Hmm? Um... You're not going to do anything? *sigh*..."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The commission fleet has returned. Shall we go greet them? Naturally, the two of us will hold hands as we go, heehee~"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Eheh~ Shower me with praise or I won't help with your mission~♪"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Eheh~ Wag your tail or I won't fetch the rewards for you~♪"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"You've got new mail... but each one will cost you one kiss. Pretty good deal, right~?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ahhn~♥ I love it when you give in to your primal urges like this~"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, despite the profundity of our relationship, why are you still so indifferent towards me... Urgh, I can't just sit around until you get eaten up by one of those big sister types... You know what, I don't care what happens next...! "
+			}
+		}
+	},
+	[999020] = {
+		feeling4 = "",
+		feeling3 = "",
+		profile = "",
+		main = "",
+		upgrade = "",
+		unlock = "",
+		feeling2 = "",
+		id = 999020,
+		feeling1 = "",
+		login = {
+			{
+				1100,
+				"Commander, what are you going to do today? I promised to try to help you today..."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I am victorious. If it is not too much to ask, Commander, I would like a reward from you..."
+			}
+		},
+		lose = {
+			{
+				1100,
+				"I have become soft and weak. Commander, I was afraid I'd never see you again, so I ran away... I'm so sorry..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"I've been waiting for you all this time. I've wanted to see you... even if for no particular reason..."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"For victory, and for the one I love!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"That feels so good..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"What else do I want to do...? Is there anything the two of us can do other than \"play\"? If I want to try doing everything, will you be okay with that...?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"My free will, and the things I hold dear to me... Yes, I wish to give more of myself for you, and for this port. That is my will.|You wish for me to be the bird that flies freely, not one that is confined to a cage... Even if that bird wishes to remain at your side, you can allow that, right?|Playing with friends makes me feel good. But it's a different kind of good feeling compared to when I'm playing with you... The \"good feeling\" I get from you is special..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"So warm... I want to keep holding on to your hand, now and forever..."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"A new commission has just been completed. I shall now go greet my companions. Commander, if you have time to spare, do you think we could..."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Commander, can you leave this mission to me? You look rather tired, so please rest up for now."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission complete. If you think I did a good job, then... could you please praise me?"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Commander, I've come to deliver the mail. Is it okay that I'm a bit late...?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I shall offer you all that I am. That is my will, Commander..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"You want me to tell you everything I want to do, and everything I don't want to do...? Very well, I promise. In that case, could you tell me what you want, Commander? I want to learn more about you, and experience more things with you..."
+			}
+		},
+		skill = {
+			{
+				1100,
+				"I won't let you have your way...!"
+			}
+		},
+		hp_warning = {
+			{
+				1100,
+				"I can't let things end here, the Commander is waiting for me...!"
 			}
 		}
 	}

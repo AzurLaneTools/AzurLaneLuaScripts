@@ -1451,5 +1451,25 @@ pg.voice_actor_CN = {
 	[370] = {
 		code = 370,
 		actor_name = "Haruno Fujiwara"
+	},
+	[371] = {
+		code = 371,
+		actor_name = "Yoshino Aoyama"
+	},
+	[372] = {
+		code = 372,
+		actor_name = "Eriko Matsui"
+	},
+	[373] = {
+		code = 373,
+		actor_name = "Hime Sawada"
+	},
+	[374] = {
+		code = 374,
+		actor_name = "Shuka Saito"
+	},
+	[375] = {
+		code = 375,
+		actor_name = "Kyoka Moriya"
 	}
 }

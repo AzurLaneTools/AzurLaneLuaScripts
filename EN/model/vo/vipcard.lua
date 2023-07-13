@@ -14,6 +14,10 @@ function slot0.getLeftDate(slot0)
 	end
 end
 
+function slot0.GetLeftDay(slot0)
+	return math.floor((slot0:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400)
+end
+
 function slot0.isExpire(slot0)
 	if slot0.type == uv0.MONTH then
 		return slot0:getLeftDate() <= pg.TimeMgr.GetInstance():GetServerTime()

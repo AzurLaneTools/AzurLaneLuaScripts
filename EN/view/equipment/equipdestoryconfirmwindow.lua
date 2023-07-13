@@ -68,14 +68,15 @@ function slot0.Confirm(slot0)
 end
 
 function slot0.Show(slot0, slot1, slot2)
+	uv0.super.Show(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+
 	slot0.key = nil
 	slot0.equips = slot1
 
 	slot0:SetCallBack(slot2)
 	slot0:Updatelayout()
 	slot0:UpdateEquips()
-	uv0.super.Show(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 function slot0.Updatelayout(slot0)
@@ -121,38 +122,55 @@ function slot0.UpdateEquips(slot0)
 	}, true))
 
 	if #slot0.equips > 5 then
-		slot1 = slot0._tf:Find("window/content/ships/content")
-		slot0.iconList = UIItemList.New(slot1, slot1:Find("IconTpl"))
+		slot2 = slot0._tf
 
-		setActive(slot0._tf:Find("window/content/ships"), true)
-		setActive(slot0._tf:Find("window/content/ships_single"), false)
-	else
-		slot1 = slot0._tf:Find("window/content/ships_single")
-		slot0.iconList = UIItemList.New(slot1, slot1:Find("IconTpl"))
+		setActive(slot2:Find("window/content/ships"), true)
 
-		setActive(slot0._tf:Find("window/content/ships"), false)
-		setActive(slot0._tf:Find("window/content/ships_single"), true)
+		slot2 = slot0._tf
+
+		setActive(slot2:Find("window/content/ships_single"), false)
+
+		slot1 = slot0._tf
+		slot1 = slot1:Find("window/content/ships/content")
+
+		slot1:GetComponent("LScrollRect").onUpdateItem = function (slot0, slot1)
+			updateEquipment(tf(slot1), uv0.equips[slot0 + 1])
+		end
+
+		onNextTick(function ()
+			uv0:SetTotalCount(#uv1.equips)
+		end)
+
+		return
 	end
 
-	slot0.iconList:make(function (slot0, slot1, slot2)
+	slot1 = slot0._tf:Find("window/content/ships_single")
+	slot2 = UIItemList.New(slot1, slot1:Find("IconTpl"))
+
+	setActive(slot0._tf:Find("window/content/ships"), false)
+	setActive(slot0._tf:Find("window/content/ships_single"), true)
+	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			updateEquipment(slot2, uv0.equips[slot1 + 1])
 		end
 	end)
-	slot0.iconList:align(#slot0.equips)
+	slot2:align(#slot0.equips)
 end
 
 function slot0.Hide(slot0)
+	uv0.super.Hide(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+
 	slot0.key = nil
 	slot0.callback = nil
 
 	setInputText(slot0.urInput, "")
-	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
 function slot0.OnDestroy(slot0)
-	slot0:Hide()
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
 end
 
 return slot0

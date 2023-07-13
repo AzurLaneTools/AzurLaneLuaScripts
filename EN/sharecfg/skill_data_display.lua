@@ -184,6 +184,7 @@ pg.skill_data_display = setmetatable({
 		7500,
 		8521,
 		8530,
+		8533,
 		8609,
 		8640,
 		8641,
@@ -1679,6 +1680,35 @@ pg.skill_data_display = setmetatable({
 		19653,
 		19654,
 		19655,
+		19670,
+		19671,
+		19672,
+		19673,
+		19680,
+		19681,
+		19683,
+		19684,
+		19685,
+		19690,
+		19691,
+		19700,
+		19702,
+		19710,
+		19711,
+		19712,
+		19720,
+		19721,
+		19722,
+		19730,
+		19731,
+		19740,
+		19741,
+		19750,
+		19751,
+		19754,
+		19760,
+		19761,
+		19762,
 		20011,
 		20012,
 		20021,
@@ -2013,6 +2043,10 @@ pg.skill_data_display = setmetatable({
 		30021,
 		30022,
 		30023,
+		30043,
+		30053,
+		30071,
+		30072,
 		39000,
 		39001,
 		39002,
@@ -2547,6 +2581,11 @@ pg.skill_data_display = setmetatable({
 		1012353,
 		1012600,
 		1012601,
+		1010540,
+		1010541,
+		1010100,
+		1010101,
+		1010102,
 		1090020,
 		1090042,
 		1090043,
@@ -3293,6 +3332,10 @@ pg.base.skill_data_display = {
 	[8530] = {
 		id = 8530,
 		name = "Battle Simulation - Fast Reload"
+	},
+	[8533] = {
+		id = 8533,
+		name = "Tormentor of the Weak"
 	},
 	[8609] = {
 		id = 8609,
@@ -9274,6 +9317,122 @@ pg.base.skill_data_display = {
 		id = 19655,
 		name = "Panacea's Paean"
 	},
+	[19670] = {
+		id = 19670,
+		name = "Amplifier - Shelling"
+	},
+	[19671] = {
+		id = 19671,
+		name = "Amplifier - Aviation"
+	},
+	[19672] = {
+		id = 19672,
+		name = "Air Raid Assistance - Kearsarge"
+	},
+	[19673] = {
+		id = 19673,
+		name = "Amplifier - Shelling"
+	},
+	[19680] = {
+		id = 19680,
+		name = "Adaption - Oceanic Blaze"
+	},
+	[19681] = {
+		id = 19681,
+		name = "Adaption - Precision Strike"
+	},
+	[19683] = {
+		id = 19683,
+		name = "Adaption - Airstrike"
+	},
+	[19684] = {
+		id = 19684,
+		name = "Adaption - Oceanic Blaze"
+	},
+	[19685] = {
+		id = 19685,
+		name = "Adaption - Oceanic Blaze"
+	},
+	[19690] = {
+		id = 19690,
+		name = "Tormentor of the Weak"
+	},
+	[19691] = {
+		id = 19691,
+		name = "Tormentor of the Weak"
+	},
+	[19700] = {
+		id = 19700,
+		name = "Drown in the Abyss of Desire"
+	},
+	[19702] = {
+		id = 19702,
+		name = "Drown in the Abyss of Desire"
+	},
+	[19710] = {
+		id = 19710,
+		name = "The Most Dangerous Game"
+	},
+	[19711] = {
+		id = 19711,
+		name = "The Most Dangerous Game"
+	},
+	[19712] = {
+		id = 19712,
+		name = "The Most Dangerous Game"
+	},
+	[19720] = {
+		id = 19720,
+		name = "The Most Dangerous Game"
+	},
+	[19721] = {
+		id = 19721,
+		name = "Doombringer's Euphoria"
+	},
+	[19722] = {
+		id = 19722,
+		name = "Doombringer's Euphoria"
+	},
+	[19730] = {
+		id = 19730,
+		name = "Apotheosis: Flourishing Assault"
+	},
+	[19731] = {
+		id = 19731,
+		name = "Apotheosis: Flourishing Assault"
+	},
+	[19740] = {
+		id = 19740,
+		name = "Apotheosis: Lightplume Vestments"
+	},
+	[19741] = {
+		id = 19741,
+		name = "Apotheosis: Lightplume Vestments"
+	},
+	[19750] = {
+		id = 19750,
+		name = "Torrential Wrath"
+	},
+	[19751] = {
+		id = 19751,
+		name = "Torrential Wrath"
+	},
+	[19754] = {
+		id = 19754,
+		name = "Torrential Wrath"
+	},
+	[19760] = {
+		id = 19760,
+		name = "Divine Presence"
+	},
+	[19761] = {
+		id = 19761,
+		name = "Divine Presence"
+	},
+	[19762] = {
+		id = 19762,
+		name = "Divine Presence"
+	},
 	[20011] = {
 		id = 20011,
 		name = "All Out Assault Ⅰ"
@@ -10609,6 +10768,22 @@ pg.base.skill_data_display = {
 	[30023] = {
 		id = 30023,
 		name = "All Out Assault II+"
+	},
+	[30043] = {
+		id = 30043,
+		name = "All Out Assault I"
+	},
+	[30053] = {
+		id = 30053,
+		name = "All Out Assault II"
+	},
+	[30071] = {
+		id = 30071,
+		name = "All Out Assault I"
+	},
+	[30072] = {
+		id = 30072,
+		name = "All Out Assault II"
 	},
 	[39000] = {
 		id = 39000,
@@ -12745,6 +12920,26 @@ pg.base.skill_data_display = {
 	[1012601] = {
 		id = 1012601,
 		name = "Rose Bombardamento +"
+	},
+	[1010540] = {
+		id = 1010540,
+		name = "Royal Alliance+"
+	},
+	[1010541] = {
+		id = 1010541,
+		name = "Royal Alliance+"
+	},
+	[1010100] = {
+		id = 1010100,
+		name = "Ghost of Java Coast+"
+	},
+	[1010101] = {
+		id = 1010101,
+		name = "Ghost of Java Coast+"
+	},
+	[1010102] = {
+		id = 1010102,
+		name = "Ghost of Java Coast+"
 	},
 	[1090020] = {
 		id = 1090020,

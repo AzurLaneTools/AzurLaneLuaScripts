@@ -37,6 +37,10 @@ function slot0.init(slot0)
 
 	setText(slot0.loveRepairBtn:Find("pic"), i18n("loveletter_exchange_button"))
 
+	slot0.metaskillBtn = slot0:findTF("window/actions/metaskill_use_btn")
+
+	setText(slot0.metaskillBtn:Find("pic"), i18n("msgbox_text_use"))
+
 	slot0.itemTF = slot0:findTF("window/item")
 	slot0.stars = slot0.itemTF:Find("icon_bg/stars")
 	slot0.window = slot0:findTF("window")
@@ -182,6 +186,12 @@ function slot0.setItem(slot0, slot1)
 						uv0:emit(ItemInfoMediator.EXCHANGE_LOVE_LETTER_ITEM, uv1.id)
 					end
 				})
+			end, SFX_PANEL)
+		elseif slot4 == Item.METALESSON_TYPE then
+			setActive(slot0.metaskillBtn, true)
+			onButton(slot0, slot0.metaskillBtn, function ()
+				uv0:closeView()
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER)
 			end, SFX_PANEL)
 		end
 	end

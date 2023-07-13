@@ -9277,6 +9277,232 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[2015] = {
+		subject = "PR Construction Pack - Series 3",
+		limit_group = 3,
+		descrip_extra = "",
+		type = 0,
+		limit_arg = 0,
+		name = "PR Construction Pack - Series 3",
+		name_display = "PR Construction Pack - Series 3",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2015,
+		money = 1599,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_display",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.pack4",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains one PR Voucher - Series 3 and 343 General Blueprints - Series 3.",
+		airijp_id = "com.yostaren.azurlane.pack4",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {}
+	},
+	[2016] = {
+		subject = "PR Voucher & Blueprint \n         Bundle - Series 3",
+		limit_group = 3,
+		descrip_extra = "If you've already built all Series 3 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
+		type = 0,
+		limit_arg = 1,
+		name = "PR Voucher & Blueprint Bundle - Series 3",
+		name_display = "Voucher & Blueprint Bundle",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2016,
+		money = 1599,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_promotion",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.pack4",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains:",
+		airijp_id = "com.yostaren.azurlane.pack4",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40026,
+				1
+			}
+		}
+	},
+	[2017] = {
+		subject = "PR Voucher Pack - Series 3",
+		limit_group = 3,
+		descrip_extra = "If you've already built all Series 3 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
+		type = 0,
+		limit_arg = 2,
+		name = "PR Voucher Pack - Series 3",
+		name_display = "Voucher",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2017,
+		money = 999,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_normal",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.pack2",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains:",
+		airijp_id = "com.yostaren.azurlane.pack2",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40027,
+				1
+			}
+		}
+	},
+	[2018] = {
+		subject = "Blueprints",
+		limit_group = 3,
+		descrip_extra = "Buy to receive 343 General Blueprints - Series 3.",
+		type = 0,
+		limit_arg = 3,
+		name = "PR Blueprint Pack - Series 3",
+		name_display = "Blueprints",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2018,
+		money = 699,
+		tag = 2,
+		gem = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_promotion",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.pack3",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains:",
+		airijp_id = "com.yostaren.azurlane.pack3",
+		extra_service_item = {
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40028,
+				1
+			}
+		}
+	},
 	[139] = {
 		subject = "Black Friday Lucky Bag (2022)",
 		limit_group = 0,
@@ -9828,6 +10054,10 @@ pg.pay_data_display = {
 		137,
 		138,
 		2014,
+		2015,
+		2016,
+		2017,
+		2018,
 		139,
 		140,
 		141,

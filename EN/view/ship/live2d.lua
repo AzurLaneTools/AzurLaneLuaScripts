@@ -9,6 +9,7 @@ slot4 = 0.3
 slot0.DRAG_TIME_ACTION = 1
 slot0.DRAG_CLICK_ACTION = 2
 slot0.DRAG_DOWN_ACTION = 3
+slot0.DRAG_CLICK_PARAME = 4
 slot0.EVENT_ACTION_APPLY = "event action apply"
 slot0.EVENT_ACTION_ABLE = "event action able"
 slot5 = {

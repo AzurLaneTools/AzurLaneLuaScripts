@@ -10182,7 +10182,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Tashkent, Chapayev and others added to the standard build pool!"
+	tip = "Eskimo is added to the standard build pool!"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -11787,6 +11787,66 @@ Equipped gear:<color=#ff5c5c>
 Prototype Quadruple 330mm Mle 1931 (CB Only) Main Gun Mount
 Single 138.6mm Mle 1929 Naval Gun
 Twin 40mm Bofors AA Gun Mount</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_19904 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+<color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.</color>
+Equipped gear:<color=#92fc63>
+Prototype Triple 406mm Mk6 Main Gun Mount
+F8F Bearcat
+Twin 127mm Mk 12 Dual-Purpose Gun Mount (Time Fuze)
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_39906 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+<color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.</color>
+Equipped gear:<color=#92fc63>
+Prototype Triple 150mm Type 5 High-Angle Gun Mount
+610mm Quadruple Torpedo Mount
+Twin 100mm Type 98 AA Gun Mount
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49908 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+<color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.</color>
+Equipped gear:<color=#92fc63>
+Prototype Twin 150mm TbtsK C42T Main Gun Mount
+533mm Quadruple Magnetic Torpedo Mount
+Prototype 55mm Gerät 58 AA Gun Mount
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49909 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+<color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.</color>
+Equipped gear:<color=#92fc63>
+Prototype Triple 203mm SKC Main Gun Mount
+533mm Quadruple Magnetic Torpedo Mount
+Prototype Triple 203mm SKC Main Gun Mount
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+<color=#ff5c5c>Note: the Priority ship's stats and abilities may differ from her fully-developed equivalent.</color>
+Equipped gear:<color=#92fc63>
+Prototype Triple 380mm Mle 1935 Main Gun Mount
+Triple 152mm Mle 1930 Main Gun Mount
+Twin 40mm Bofors AA Gun Mount
+</color></size>]]
 }
 
 _G.pg.base.gametip.electrotherapy_wanning = {
@@ -13457,6 +13517,10 @@ _G.pg.base.gametip.msgbox_text_breakthrough = {
 
 _G.pg.base.gametip.msgbox_text_equipdetail = {
 	tip = "Details"
+}
+
+_G.pg.base.gametip.msgbox_text_use = {
+	tip = "Use"
 }
 
 _G.pg.base.gametip.common_flag_ship = {
@@ -21138,6 +21202,14 @@ _G.pg.base.gametip.techpackage_item_use = {
 	tip = "Do you want to spend your PR Voucher to immediately unlock $1? \nShe will be added to your Dock at Development Level 1."
 }
 
+_G.pg.base.gametip.techpackage_item_use_1 = {
+	tip = "You can only use the Voucher once for 1 ship of the same series. Do you want to spend your PR Voucher to immediately unlock <color=#92fc63>$1</color>?"
+}
+
+_G.pg.base.gametip.techpackage_item_use_2 = {
+	tip = "This will consume <color=#ff5c5c>$1*1</color>. The chosen ship will be added to your Dock at Development Level 1."
+}
+
 _G.pg.base.gametip.techpackage_item_use_confirm = {
 	tip = "With all eligible PRs unlocked, you will get:"
 }
@@ -24607,10 +24679,6 @@ _G.pg.base.gametip.cryptolalia_no_ticket = {
 	tip = "You don't have enough Secrets Tickets. You can buy them in the Shop with Gems."
 }
 
-_G.pg.base.gametip.cryptolalia_entrance_coming_soom = {
-	tip = "Secrets Coming Soon..."
-}
-
 _G.pg.base.gametip.ship_formationUI_fleetName_sp = {
 	tip = "Custom Chal. Fleet"
 }
@@ -24657,4 +24725,56 @@ _G.pg.base.gametip.activityboss_sp_score_update = {
 
 _G.pg.base.gametip.activityboss_sp_score_not_update = {
 	tip = "High Score Not Updated"
+}
+
+_G.pg.base.gametip.charge_menu_month_tip = {
+	tip = "Your Trade License is still valid for another $1 day(s) and you cannot purchase another one."
+}
+
+_G.pg.base.gametip.activity_shop_title = {
+	tip = "Event"
+}
+
+_G.pg.base.gametip.street_shop_title = {
+	tip = "Shop"
+}
+
+_G.pg.base.gametip.military_shop_title = {
+	tip = "Merit"
+}
+
+_G.pg.base.gametip.quota_shop_title1 = {
+	tip = "Core (Ltd.)"
+}
+
+_G.pg.base.gametip.sham_shop_title = {
+	tip = "Core (Mo.)"
+}
+
+_G.pg.base.gametip.fragment_shop_title = {
+	tip = "Proto"
+}
+
+_G.pg.base.gametip.guild_shop_title = {
+	tip = "Guild"
+}
+
+_G.pg.base.gametip.medal_shop_title = {
+	tip = "Medal"
+}
+
+_G.pg.base.gametip.meta_shop_title = {
+	tip = "META"
+}
+
+_G.pg.base.gametip.mini_game_shop_title = {
+	tip = "Prize"
+}
+
+_G.pg.base.gametip.metaskill_up = {
+	tip = "<color=#E0E0E0>* EXP gained from META Universal Skill Books does not count towards the daily EXP limit</color>"
+}
+
+_G.pg.base.gametip.metaskill_overflow_tip = {
+	tip = "<color=#FFDE60>$1</color> EXP will go over the cap. Do you want to continue?"
 }

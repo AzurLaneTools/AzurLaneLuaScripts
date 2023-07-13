@@ -1225,6 +1225,11 @@ pg.name_code = {
 		name = "Taihou-chan",
 		code = "Taihou-chan"
 	},
+	[292] = {
+		id = 292,
+		name = "Shimanto",
+		code = "Shimanto"
+	},
 	[400] = {
 		id = 400,
 		name = "Z1",
@@ -1814,5 +1819,25 @@ pg.name_code = {
 		id = 517,
 		name = "U-556 META?",
 		code = "U-556 META?"
+	},
+	[518] = {
+		id = 518,
+		name = "Felix Schultz",
+		code = "Felix Schultz"
+	},
+	[519] = {
+		id = 519,
+		name = "Felix Schultz",
+		code = "Felix Schultz"
+	},
+	[520] = {
+		id = 520,
+		name = "Felix Schultz",
+		code = "Felix Schultz"
+	},
+	[521] = {
+		id = 521,
+		name = "Hindenburg",
+		code = "Hindenburg"
 	}
 }

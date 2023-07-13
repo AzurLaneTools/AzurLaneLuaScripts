@@ -1660,5 +1660,16 @@ pg.effect_offset = {
 			0,
 			4
 		}
+	},
+	xingdengbao_zhuimie = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = true,
+		offset = {
+			0,
+			0.5,
+			0
+		}
 	}
 }

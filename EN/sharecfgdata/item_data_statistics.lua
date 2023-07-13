@@ -6921,6 +6921,144 @@ _G.pg.base.item_data_statistics[13036] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[13037] = {
+	display = "Prototype Triple 406mm Mk6 Main Gun Mount T0 Design",
+	name = "Prototype Triple 406mm Mk6 Main Gun Mount T0 Design",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/14540",
+	id = 13037,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13038] = {
+	display = "Prototype Triple 203mm SKC Main Gun Mount T0 Design",
+	name = "Prototype Triple 203mm SKC Main Gun Mount T0 Design",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/43160",
+	id = 13038,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13039] = {
+	display = "Prototype Triple 150mm Type 5 High-Angle Gun Mount T0 Design",
+	name = "Prototype Triple 150mm Type 5 High-Angle Gun Mount T0 Design",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/32360",
+	id = 13039,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13040] = {
+	display = "Prototype Twin 150mm TbtsK C42T Main Gun Mount T0 Design",
+	name = "Prototype Twin 150mm TbtsK C42T Main Gun Mount T0 Design",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/42360",
+	id = 13040,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13041] = {
+	display = "Prototype Triple 380mm Mle 1935 Main Gun Mount T0 Design",
+	name = "Prototype Triple 380mm Mle 1935 Main Gun Mount T0 Design",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/50480",
+	id = 13041,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[13042] = {
+	display = "Prototype 55mm Gerät 58 AA Gun Mount T0 Design",
+	name = "Prototype 55mm Gerät 58 AA Gun Mount T0 Design",
+	max_num = 0,
+	type = 9,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/46420",
+	id = 13042,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[14001] = {
 	display = [[
 Can be exchanged for one of the following SR gear blueprints:
@@ -7885,6 +8023,75 @@ _G.pg.base.item_data_statistics[16024] = {
 	is_world = 0,
 	icon = "Props/16024",
 	id = 16024,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[16031] = {
+	display = "Can be used in the META Lab to grant a META shipgirl 100 Tactical Research EXP.",
+	name = "T1 META Universal Skill Book",
+	max_num = 0,
+	type = 25,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16031",
+	id = 16031,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[16032] = {
+	display = "Can be used in the META Lab to grant a META shipgirl 1,000 Tactical Research EXP.",
+	name = "T2 META Universal Skill Book",
+	max_num = 0,
+	type = 25,
+	time_limit = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16032",
+	id = 16032,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[16033] = {
+	display = "Can be used in the META Lab to grant a META shipgirl 10,000 Tactical Research EXP.",
+	name = "T3 META Universal Skill Book",
+	max_num = 0,
+	type = 25,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/16033",
+	id = 16033,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -21647,6 +21854,98 @@ _G.pg.base.item_data_statistics[40023] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[40026] = {
+	display = "Contains loads of valuable rewards.",
+	name = "PR Voucher & Blueprint Bundle - Series 3",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_promotion",
+	id = 40026,
+	display_icon = {
+		{
+			2,
+			40130,
+			1
+		},
+		{
+			2,
+			42020,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40027] = {
+	display = "Contains loads of valuable rewards.",
+	name = "PR Voucher - Series 3",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_normal",
+	id = 40027,
+	display_icon = {
+		{
+			2,
+			40130,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40028] = {
+	display = "Contains loads of valuable rewards.",
+	name = "PR Blueprint Pack - Series 3",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_promotion",
+	id = 40028,
+	display_icon = {
+		{
+			2,
+			42020,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[40100] = {
 	display = "Contains 2 Promise Rings",
 	name = "Promise Crate",
@@ -22462,6 +22761,63 @@ _G.pg.base.item_data_statistics[40129] = {
 			2,
 			16023,
 			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40130] = {
+	display = [[
+Use this item to instantly unlock any Series 3 PR ship at Development Level 1. Eligible ships:
+Cheshire, Mainz, Odin, Champagne
+<color=#92fc63>If you already have all eligible ships</color>, using this item will instead give you the following: 
+Combat Data Pack - Series 3 x 300
+T3 General Retrofit Blueprint x 5
+T2 General Retrofit Blueprint x 10
+Wisdom Cube x 5
+Coins x 20,000]],
+	name = "PR Voucher - Series 3",
+	max_num = 0,
+	type = 17,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/research3",
+	id = 40130,
+	display_icon = {
+		{
+			2,
+			20103,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
 		}
 	},
 	price = {},
@@ -42903,6 +43259,344 @@ _G.pg.base.item_data_statistics[42046] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[42050] = {
+	display = "Can be converted to a Blueprint for any of the Series 1, 2, 3, 4, 5, or 6 Priority ships.",
+	name = "General Blueprint - Series 6",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42050",
+	id = 42050,
+	display_icon = {
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42051] = {
+	display = "Blueprint for Eagle Union BBV Kearsarge.\n<color=#92fc63>Can be used in the Shipyard to increase Kearsarge's stats once you've finished developing her.</color>",
+	name = "Blueprint - Kearsarge",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42051",
+	id = 42051,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42052] = {
+	display = "Blueprint for Sakura Empire CL Shimanto.\n<color=#92fc63>Can be used in the Shipyard to increase Shimanto's stats once you've finished developing her.</color>",
+	name = "Blueprint - Shimanto",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42052",
+	id = 42052,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42053] = {
+	display = "Blueprint for Iron Blood DD Felix Schultz.\n<color=#92fc63>Can be used in the Shipyard to increase Felix Schultz's stats once you've finished developing her.</color>",
+	name = "Blueprint - Felix Schultz",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42053",
+	id = 42053,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42054] = {
+	display = "Blueprint for Iron Blood CA Hindenburg.\n<color=#92fc63>Can be used in the Shipyard to increase Hindenburg's stats once you've finished developing her.</color>",
+	name = "Blueprint - Hindenburg",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42054",
+	id = 42054,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42055] = {
+	display = "Blueprint for Vichya Dominion BB Flandre.\n<color=#92fc63>Can be used in the Shipyard to increase Flandre's stats once you've finished developing her.</color>",
+	name = "Blueprint - Flandre",
+	max_num = 0,
+	type = 12,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42055",
+	id = 42055,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[42056] = {
+	display = "Can be converted to a Blueprint for any of the Series 2, 3, 4, 5, or 6 DR ships.",
+	name = "Special General Blueprint - Series 6",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 5,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/42056",
+	id = 42056,
+	display_icon = {
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[43001] = {
 	display = "A Valentine Gift from Universal Bulin",
 	name = "Valentine Gift ",
@@ -54598,6 +55292,134 @@ _G.pg.base.item_data_statistics[52062] = {
 		{
 			2,
 			13007,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[52071] = {
+	display = "You can acquire a number of the following Blueprints at random:",
+	name = "Random Blueprint",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/52001",
+	id = 52071,
+	display_icon = {
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[52072] = {
+	display = "Chance to receive following designs",
+	name = "Random Gear Design",
+	max_num = 0,
+	type = 99,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/55000",
+	id = 52072,
+	display_icon = {
+		{
+			2,
+			13038,
+			1
+		},
+		{
+			2,
+			13037,
+			1
+		},
+		{
+			2,
+			13039,
+			1
+		},
+		{
+			2,
+			13040,
+			1
+		},
+		{
+			2,
+			13041,
+			1
+		},
+		{
+			2,
+			13042,
+			1
+		},
+		{
+			2,
+			13024,
+			1
+		},
+		{
+			2,
+			13007,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13009,
+			1
+		},
+		{
+			2,
+			13011,
 			1
 		}
 	},
@@ -189109,7 +189931,7 @@ _G.pg.base.item_data_statistics[59017] = {
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
-	rarity = 3,
+	rarity = 4,
 	shop_id = -1,
 	replace_item = 0,
 	drop_gold_max = 0,

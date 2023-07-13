@@ -22,6 +22,7 @@ end
 function slot0.OnRegist(slot0)
 	onButton(slot0, slot0.mallBtn, function ()
 		uv0:emit(NewMainMediator.GO_SCENE, SCENE.CHARGE_MENU)
+		pg.m02:sendNotification(GAME.TRACK, TrackConst.GetTrackData(TrackConst.SYSTEM_SHOP, TrackConst.ACTION_ENTER_MAIN, isActive(uv0.sellTag) or isActive(uv0.skinTag) or isActive(uv0.mallTip)))
 		PlayerPrefs.SetInt("Tec_Ship_Gift_Enter_Tag", 1)
 		PlayerPrefs.Save()
 	end, SFX_MAIN)
@@ -91,7 +92,6 @@ function slot0.OnFresh(slot0)
 		TagTipHelper.FreeBuildTicketTip(uv0.buildTag)
 		onNextTick(slot0)
 	end)
-	print("------------------------------------------------------------------------------")
 	seriesAsync(slot1)
 end
 

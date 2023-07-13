@@ -150,9 +150,9 @@ function slot3.switch(slot0, slot1)
 		if slot2.guide.type == 1 and pg.SeriesGuideMgr.GetInstance():isEnd() then
 			-- Nothing
 		elseif slot2.guide.event == nil then
-			pg.GuideMgr.GetInstance():play(slot2.guide.step)
+			pg.NewGuideMgr.GetInstance():Play(slot2.guide.step)
 		else
-			pg.GuideMgr.GetInstance():play(slot2.guide.step, {
+			pg.NewGuideMgr.GetInstance():Play(slot2.guide.step, {
 				slot2.guide.event
 			})
 		end

@@ -41,7 +41,7 @@ end
 function slot0.Init(slot0, slot1)
 	slot0.state = uv0.IDLE
 	slot0.guideCfgs = slot0:loadGuide("SG001")
-	slot0.guideMgr = pg.GuideMgr.GetInstance()
+	slot0.guideMgr = pg.NewGuideMgr.GetInstance()
 	slot0.protocols = {}
 	slot0.onReceiceProtocol = nil
 
@@ -50,7 +50,7 @@ end
 
 function slot0.dispatch(slot0, slot1)
 	if slot0:canPlay(slot1) then
-		slot0.guideMgr:mask()
+		slot0.guideMgr:PlayNothing()
 	end
 end
 
@@ -58,7 +58,7 @@ function slot0.start(slot0, slot1)
 	if slot0:canPlay(slot1) then
 		slot0.state = uv0.BUSY
 
-		slot0.guideMgr:unMask()
+		slot0.guideMgr:StopNothing()
 
 		slot0.stepConfig = slot0:getStepConfig(slot0.currIndex)
 
@@ -73,7 +73,7 @@ function slot0.start(slot0, slot1)
 
 		slot0:doGuideStep(slot1, function (slot0, slot1)
 			if uv0.stepConfig.end_segment and slot1 then
-				uv0.guideMgr:play(uv0.stepConfig.end_segment, uv1.code, function ()
+				uv0.guideMgr:Play(uv0.stepConfig.end_segment, uv1.code, function ()
 					uv0(uv1)
 				end)
 			else
@@ -103,10 +103,10 @@ function slot0.doGuideStep(slot0, slot1, slot2)
 	assert(slot3[2], "protocol can not be nil")
 	seriesAsync({
 		function (slot0)
-			uv0.guideMgr:play(uv1, uv2.code, slot0, function ()
+			uv0.guideMgr:Play(uv1, uv2.code, slot0, function ()
 				uv0:updateIndex(uv1)
 			end)
-			uv0.guideMgr:mask()
+			uv0.guideMgr:PlayNothing()
 		end,
 		function (slot0)
 			if _.any(uv0.protocols, function (slot0)
@@ -126,7 +126,7 @@ function slot0.doGuideStep(slot0, slot1, slot2)
 			end
 		end,
 		function (slot0)
-			uv0.guideMgr:unMask()
+			uv0.guideMgr:StopNothing()
 			uv0:increaseIndex(slot0)
 		end
 	}, function ()
