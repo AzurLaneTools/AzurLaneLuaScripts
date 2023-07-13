@@ -12003,42 +12003,16 @@ pg.activity_template = {
 	},
 	[4893] = {
 		mark = 20230621,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 10,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4893,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					7,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[4895] = {
 		mark = 20230621,
