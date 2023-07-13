@@ -11748,7 +11748,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_49909 = {
 使用兵装：<color=#ff5c5c>
 試作型203mmSKC三連装砲改
 533mm四連装磁気魚雷
-試作型55mm Gerät 58対空砲</color></size>]]
+試作型203mmSKC三連装砲改</color></size>]]
 }
 
 _G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
