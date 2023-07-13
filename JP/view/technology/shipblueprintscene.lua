@@ -316,6 +316,7 @@ function slot0.didEnter(slot0)
 			slot7:Find("ships/bg")
 		}
 	})
+	setText(slot0:findTF("window/top/bg/infomation/title", slot0.msgPanel), i18n("title_info"))
 	onButton(slot0, slot0:findTF("window/top/btnBack", slot0.msgPanel), function ()
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.msgPanel, uv0.top)
 		setActive(uv0.msgPanel, false)

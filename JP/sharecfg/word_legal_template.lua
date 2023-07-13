@@ -5230,6 +5230,13 @@ function temp()
 						}
 					}
 				}
+			},
+			["ち"] = {
+				["ゃ"] = {
+					["ん"] = {
+						this = true
+					}
+				}
 			}
 		},
 		["神"] = {
@@ -6476,6 +6483,18 @@ function temp()
 		},
 		["ナ"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["四"] = {
+		["万"] = {
+			["十"] = {
+				this = true
+			}
 		}
 	}
 end

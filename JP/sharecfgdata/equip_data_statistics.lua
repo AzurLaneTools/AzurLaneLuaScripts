@@ -102495,7 +102495,7 @@ _G.pg.base.equip_data_statistics[46420] = {
 	type = 6,
 	descrip = "说明未填写",
 	ammo = 5,
-	damage = "35/回",
+	damage = "37/回",
 	nationality = 4,
 	rarity = 5,
 	id = 46420,
@@ -102568,7 +102568,7 @@ _G.pg.base.equip_data_statistics[46421] = {
 
 _G.pg.base.equip_data_statistics[46422] = {
 	id = 46422,
-	damage = "45/回",
+	damage = "43/回",
 	base = 46420,
 	weapon_id = {
 		46422
@@ -102578,7 +102578,7 @@ _G.pg.base.equip_data_statistics[46422] = {
 
 _G.pg.base.equip_data_statistics[46423] = {
 	id = 46423,
-	damage = "50/回",
+	damage = "46/回",
 	base = 46420,
 	weapon_id = {
 		46423
@@ -102588,7 +102588,7 @@ _G.pg.base.equip_data_statistics[46423] = {
 
 _G.pg.base.equip_data_statistics[46424] = {
 	id = 46424,
-	damage = "56/回",
+	damage = "49/回",
 	base = 46420,
 	weapon_id = {
 		46424
@@ -102598,7 +102598,7 @@ _G.pg.base.equip_data_statistics[46424] = {
 
 _G.pg.base.equip_data_statistics[46425] = {
 	id = 46425,
-	damage = "62/回",
+	damage = "52/回",
 	base = 46420,
 	weapon_id = {
 		46425
@@ -102608,7 +102608,7 @@ _G.pg.base.equip_data_statistics[46425] = {
 
 _G.pg.base.equip_data_statistics[46426] = {
 	id = 46426,
-	damage = "68/回",
+	damage = "55/回",
 	base = 46420,
 	weapon_id = {
 		46426
@@ -102618,7 +102618,7 @@ _G.pg.base.equip_data_statistics[46426] = {
 
 _G.pg.base.equip_data_statistics[46427] = {
 	id = 46427,
-	damage = "74/回",
+	damage = "58/回",
 	base = 46420,
 	weapon_id = {
 		46427
@@ -102628,7 +102628,7 @@ _G.pg.base.equip_data_statistics[46427] = {
 
 _G.pg.base.equip_data_statistics[46428] = {
 	id = 46428,
-	damage = "80/回",
+	damage = "61/回",
 	base = 46420,
 	weapon_id = {
 		46428
@@ -102638,7 +102638,7 @@ _G.pg.base.equip_data_statistics[46428] = {
 
 _G.pg.base.equip_data_statistics[46429] = {
 	id = 46429,
-	damage = "86/回",
+	damage = "64/回",
 	base = 46420,
 	weapon_id = {
 		46429
@@ -102648,7 +102648,7 @@ _G.pg.base.equip_data_statistics[46429] = {
 
 _G.pg.base.equip_data_statistics[46430] = {
 	id = 46430,
-	damage = "92/回",
+	damage = "68/回",
 	base = 46420,
 	weapon_id = {
 		46430
@@ -102659,7 +102659,7 @@ _G.pg.base.equip_data_statistics[46430] = {
 _G.pg.base.equip_data_statistics[46431] = {
 	id = 46431,
 	anti_siren = 100,
-	damage = "92/回",
+	damage = "68/回",
 	base = 46420,
 	weapon_id = {
 		46431
@@ -102670,7 +102670,7 @@ _G.pg.base.equip_data_statistics[46431] = {
 _G.pg.base.equip_data_statistics[46432] = {
 	id = 46432,
 	anti_siren = 200,
-	damage = "92/回",
+	damage = "68/回",
 	base = 46420,
 	weapon_id = {
 		46432
@@ -102681,7 +102681,7 @@ _G.pg.base.equip_data_statistics[46432] = {
 _G.pg.base.equip_data_statistics[46433] = {
 	id = 46433,
 	anti_siren = 300,
-	damage = "92/回",
+	damage = "68/回",
 	base = 46420,
 	weapon_id = {
 		46433

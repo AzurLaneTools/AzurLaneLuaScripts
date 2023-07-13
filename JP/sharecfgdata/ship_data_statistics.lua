@@ -321004,7 +321004,7 @@ _G.pg.base.ship_data_statistics[900931] = {
 	default_equip_list = {
 		43170,
 		45150,
-		46420
+		43170
 	},
 	depth_charge_list = {},
 	base_list = {

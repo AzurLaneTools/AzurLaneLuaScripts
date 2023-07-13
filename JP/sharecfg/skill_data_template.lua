@@ -89569,7 +89569,7 @@ pg.base.skill_data_template = {
 		desc_get = "",
 		name = "歓喜求む血戦の戯れ",
 		id = 19710,
-		type = 1,
+		type = 2,
 		max_level = 10,
 		desc = [[
 戦闘開始時、自身の火力が5％アップし、回避・命中が$1アップ。

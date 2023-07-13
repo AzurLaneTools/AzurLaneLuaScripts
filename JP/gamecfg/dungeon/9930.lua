@@ -98,24 +98,6 @@ return {
 								8007
 							}
 						}
-					},
-					airFighter = {
-						{
-							interval = 8,
-							onceNumber = 3,
-							formation = 10007,
-							delay = 0,
-							templateID = 145,
-							totalNumber = 20,
-							weaponID = {
-								311530
-							},
-							attr = {
-								airPower = 40,
-								maxHP = 100,
-								attackRating = 23
-							}
-						}
 					}
 				},
 				{
@@ -128,59 +110,43 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 901,
+							monsterTemplateID = 903,
 							moveCast = true,
 							delay = 0,
 							corrdinate = {
 								-5,
 								0,
 								55
-							},
-							buffList = {
-								8001,
-								8007
 							}
 						},
 						{
-							monsterTemplateID = 901,
+							monsterTemplateID = 903,
 							moveCast = true,
 							delay = 0,
 							corrdinate = {
 								0,
 								0,
 								75
-							},
-							buffList = {
-								8001,
-								8007
 							}
 						},
 						{
-							monsterTemplateID = 902,
+							monsterTemplateID = 903,
 							moveCast = true,
 							delay = 0,
 							corrdinate = {
 								0,
 								0,
 								35
-							},
-							buffList = {
-								8001,
-								8007
 							}
 						},
 						{
-							monsterTemplateID = 902,
+							monsterTemplateID = 903,
 							moveCast = true,
 							delay = 0,
 							corrdinate = {
 								10,
 								0,
 								51
-							},
-							buffList = {
-								8001,
-								8007
 							}
 						}
 					}
@@ -215,7 +181,7 @@ return {
 					},
 					reinforcement = {
 						{
-							monsterTemplateID = 901,
+							monsterTemplateID = 903,
 							moveCast = true,
 							delay = 1,
 							score = 20,
@@ -223,10 +189,6 @@ return {
 								0,
 								0,
 								75
-							},
-							buffList = {
-								8001,
-								8007
 							}
 						},
 						{
@@ -304,7 +266,7 @@ return {
 						level = 10
 					},
 					{
-						id = 30051,
+						id = 30053,
 						level = 1
 					},
 					{

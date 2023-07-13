@@ -1233,107 +1233,107 @@ pg.name_code = {
 	[400] = {
 		id = 400,
 		name = "Z1",
-		code = "莉泽洛特"
+		code = "Z1"
 	},
 	[401] = {
 		id = 401,
 		name = "Z2",
-		code = "格尔达"
+		code = "Z2"
 	},
 	[402] = {
 		id = 402,
 		name = "Z5",
-		code = "保拉"
+		code = "Z5"
 	},
 	[403] = {
 		id = 403,
 		name = "Z17",
-		code = "迪特琳德"
+		code = "Z17"
 	},
 	[404] = {
 		id = 404,
 		name = "Z18",
-		code = "汉娜"
+		code = "Z18"
 	},
 	[405] = {
 		id = 405,
 		name = "Z19",
-		code = "赫尔米娜"
+		code = "Z19"
 	},
 	[406] = {
 		id = 406,
 		name = "Z20",
-		code = "卡洛琳"
+		code = "Z20"
 	},
 	[407] = {
 		id = 407,
 		name = "Z21",
-		code = "威尔赫米娜"
+		code = "Z21"
 	},
 	[408] = {
 		id = 408,
 		name = "Z23",
-		code = "妮米"
+		code = "Z23"
 	},
 	[409] = {
 		id = 409,
 		name = "Z25",
-		code = "妮可"
+		code = "Z25"
 	},
 	[410] = {
 		id = 410,
 		name = "Z35",
-		code = "咪菓"
+		code = "Z35"
 	},
 	[411] = {
 		id = 411,
 		name = "Z36",
-		code = "咪露"
+		code = "Z36"
 	},
 	[412] = {
 		id = 412,
 		name = "Z46",
-		code = "希露"
+		code = "Z46"
 	},
 	[413] = {
 		id = 413,
 		name = "U-47",
-		code = "优希娜"
+		code = "U-47"
 	},
 	[414] = {
 		id = 414,
 		name = "U-81",
-		code = "优哈依"
+		code = "U-81"
 	},
 	[415] = {
 		id = 415,
 		name = "U-557",
-		code = "优可可娜"
+		code = "U-557"
 	},
 	[416] = {
 		id = 416,
 		name = "U-556",
-		code = "优可可洛"
+		code = "U-556"
 	},
 	[417] = {
 		id = 417,
 		name = "U-73",
-		code = "优娜米"
+		code = "U-73"
 	},
 	[418] = {
 		id = 418,
 		name = "U-101",
-		code = "优伊欧伊"
+		code = "U-101"
 	},
 	[419] = {
 		id = 419,
 		name = "U-522",
-		code = "优柯妮妮"
+		code = "U-522"
 	},
 	[420] = {
 		id = 420,
 		name = "U-110",
-		code = "优伊伊丽"
+		code = "U-110"
 	},
 	[421] = {
 		id = 421,
@@ -1443,22 +1443,22 @@ pg.name_code = {
 	[442] = {
 		id = 442,
 		name = "Z16",
-		code = "弗蕾德贡"
+		code = "Z16"
 	},
 	[443] = {
 		id = 443,
 		name = "Z24",
-		code = "妮丝"
+		code = "Z24"
 	},
 	[444] = {
 		id = 444,
 		name = "Z26",
-		code = "妮露"
+		code = "Z26"
 	},
 	[445] = {
 		id = 445,
 		name = "Z28",
-		code = "妮娅"
+		code = "Z28"
 	},
 	[446] = {
 		id = 446,
@@ -1598,22 +1598,22 @@ pg.name_code = {
 	[473] = {
 		id = 473,
 		name = "U-96",
-		code = "优玖露"
+		code = "U-96"
 	},
 	[474] = {
 		id = 474,
 		name = "U-37",
-		code = "优米娜"
+		code = "U-37"
 	},
 	[475] = {
 		id = 475,
 		name = "U-410",
-		code = "优斯伊丽"
+		code = "U-410"
 	},
 	[476] = {
 		id = 476,
 		name = "U-1206",
-		code = "优伊妮欧露"
+		code = "U-1206"
 	},
 	[477] = {
 		id = 477,
@@ -1703,32 +1703,32 @@ pg.name_code = {
 	[494] = {
 		id = 494,
 		name = "Z47",
-		code = "希娜"
+		code = "Z47"
 	},
 	[495] = {
 		id = 495,
 		name = "Z9",
-		code = "沃尔特劳"
+		code = "Z9"
 	},
 	[496] = {
 		id = 496,
 		name = "Z11",
-		code = "贝尔纳黛特"
+		code = "Z11"
 	},
 	[497] = {
 		id = 497,
 		name = "Z12",
-		code = "埃丽卡"
+		code = "Z12"
 	},
 	[498] = {
 		id = 498,
 		name = "Z13",
-		code = "埃丝特"
+		code = "Z13"
 	},
 	[499] = {
 		id = 499,
 		name = "Z22",
-		code = "安妮特"
+		code = "Z22"
 	},
 	[500] = {
 		id = 500,

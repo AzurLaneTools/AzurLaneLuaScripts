@@ -5,14 +5,6 @@ return {
 	id = 19720,
 	picture = "0",
 	desc = "",
-	aniEffect = {
-		effect = "jineng",
-		offset = {
-			0,
-			-2,
-			0
-		}
-	},
 	effect_list = {
 		{
 			type = "BattleSkillFire",

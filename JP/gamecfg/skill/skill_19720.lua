@@ -227,13 +227,5 @@ return {
 	picture = "0",
 	castCV = "skill",
 	desc = "",
-	aniEffect = {
-		effect = "jineng",
-		offset = {
-			0,
-			-2,
-			0
-		}
-	},
 	effect_list = {}
 }
