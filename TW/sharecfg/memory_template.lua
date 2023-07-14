@@ -1817,6 +1817,9 @@ pg.memory_template = setmetatable({
 		2284,
 		2285,
 		2286,
+		2287,
+		2288,
+		2289,
 		2351,
 		2352,
 		2353,
@@ -8740,7 +8743,7 @@ pg.base.memory_template = {
 		condition = "對應艦船科研等級達到30級",
 		story = "LUCK39904",
 		id = 724,
-		icon = "memory_jhwuqi",
+		icon = "memory_wuqi",
 		is_open = 0
 	},
 	[725] = {
@@ -21908,6 +21911,39 @@ pg.base.memory_template = {
 		story = "YUANHUIDIANZUOZHAN16",
 		id = 2286,
 		icon = "memory_yuanhuidianzuozhan",
+		is_open = 0
+	},
+	[2287] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-馬可波羅",
+		condition = "對應艦船科研等級達到30級",
+		story = "LUCK69901",
+		id = 2287,
+		icon = "memory_jhmakeboluo",
+		is_open = 0
+	},
+	[2288] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-安克拉治",
+		condition = "對應艦船科研等級達到30級",
+		story = "LUCK19903",
+		id = 2288,
+		icon = "memory_jhankeleiqi",
+		is_open = 0
+	},
+	[2289] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "新的旅程-{namecode:481}",
+		condition = "對應艦船科研等級達到30級",
+		story = "LUCK49906",
+		id = 2289,
+		icon = "memory_jhaogusite",
 		is_open = 0
 	},
 	[2351] = {
