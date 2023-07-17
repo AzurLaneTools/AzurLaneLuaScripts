@@ -292,7 +292,7 @@ return {
 				},
 				properties = {
 					cannon = 550,
-					air = 0,
+					air = 500,
 					antiaircraft = 500,
 					torpedo = 300,
 					durability = 15000,
