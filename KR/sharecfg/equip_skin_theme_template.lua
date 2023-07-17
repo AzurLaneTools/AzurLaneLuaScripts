@@ -1017,7 +1017,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 48,
-		name = "办公时光",
+		name = "애니멀 오피스",
 		ids = {
 			780,
 			781,

@@ -114560,7 +114560,7 @@ pg.base.skill_data_template = {
 	},
 	[800881] = {
 		desc_get = "",
-		name = "염추의 재 - 알제리Ⅰ",
+		name = "빛을 쫓는 화염 - 알제리Ⅰ",
 		id = 800881,
 		type = 3,
 		max_level = 1,
@@ -114576,7 +114576,7 @@ pg.base.skill_data_template = {
 	},
 	[800882] = {
 		desc_get = "",
-		name = "염추의 재 - 알제리Ⅱ",
+		name = "빛을 쫓는 화염 - 알제리Ⅱ",
 		id = 800882,
 		type = 3,
 		max_level = 1,
@@ -114592,7 +114592,7 @@ pg.base.skill_data_template = {
 	},
 	[800885] = {
 		desc_get = "",
-		name = "염추의 재 - 알제리Ⅰ",
+		name = "빛을 쫓는 화염 - 알제리Ⅰ",
 		id = 800885,
 		type = 3,
 		max_level = 1,
@@ -114608,7 +114608,7 @@ pg.base.skill_data_template = {
 	},
 	[800887] = {
 		desc_get = "",
-		name = "염추의 재 - 알제리Ⅱ",
+		name = "빛을 쫓는 화염 - 알제리Ⅱ",
 		id = 800887,
 		type = 3,
 		max_level = 1,

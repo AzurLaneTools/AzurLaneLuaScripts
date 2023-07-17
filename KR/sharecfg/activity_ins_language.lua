@@ -16567,7 +16567,7 @@ pg.base.activity_ins_language = {
 		value = "왜 피아노를 치는데 수갑을 차고 있는 거야?"
 	},
 	ins_reply_378_1_1 = {
-		value = "더 좋은 연습 효과를 위해선가요!?"
+		value = "더 좋은 연습 효과를 위해선가!?"
 	},
 	ins_reply_378_1_2 = {
 		value = "에? 뭔가 이상해보이는데…?"

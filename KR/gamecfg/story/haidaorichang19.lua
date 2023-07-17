@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "흐음… 자, 빈칸 채우 완료.",
+			say = "흐음… 자, 빈칸 채우기 완료.",
 			painting = {
 				alpha = 0.3,
 				time = 1
