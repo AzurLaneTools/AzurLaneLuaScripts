@@ -27,7 +27,7 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				attr = "cannonPower",
+				attr = "airPower",
 				exposeGroup = 1,
 				time = 3,
 				cloakExpose = 36,
