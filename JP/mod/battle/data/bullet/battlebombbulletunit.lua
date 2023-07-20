@@ -77,7 +77,11 @@ function slot3.SetSpawnPosition(slot0, slot1)
 end
 
 function slot3.SetExplodePosition(slot0, slot1)
-	slot0._explodePos = slot1:Clone()
+	if slot0:GetTemplate().extra_param.targetFixX and slot2.targetFixZ then
+		slot0._explodePos = Vector3(slot2.targetFixX, 0, slot2.targetFixZ)
+	else
+		slot0._explodePos = slot1:Clone()
+	end
 
 	if not slot0._barragePriority then
 		slot0._explodePos = slot0._explodePos + slot0._randomOffset

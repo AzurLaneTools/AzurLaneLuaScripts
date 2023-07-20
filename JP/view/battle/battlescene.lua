@@ -548,33 +548,31 @@ function slot0.updatePauseWindow(slot0)
 		weight = LayerWeightConst.SECOND_LAYER
 	})
 
-	function slot1(slot0, slot1, slot2)
+	slot2 = ys.Battle.BattleState.GetInstance():GetProxyByName(ys.Battle.BattleDataProxy.__name)
+	slot3 = slot2:GetFleetByIFF(ys.Battle.BattleConfig.FRIENDLY_CODE)
+
+	function slot6(slot0, slot1, slot2)
 		if not slot0 then
 			return
 		end
 
-		slot3 = 1
-
-		for slot7 = 1, #slot0 do
-			if slot1[slot3] and slot8:GetAttrByName("id") == slot0[slot7].id then
-				setSlider(slot2[slot7]:Find("blood"), 0, 1, slot8:GetHPRate())
-
-				slot3 = slot3 + 1
-
-				SetActive(slot2[slot7]:Find("mask"), false)
+		for slot6 = 1, #slot0 do
+			if uv0:GetFreezeShipByID(slot0[slot6].id) then
+				setSlider(slot2[slot6]:Find("blood"), 0, 1, uv0:GetFreezeShipByID(slot7):GetHPRate())
+				SetActive(slot2[slot6]:Find("mask"), false)
+			elseif uv0:GetShipByID(slot7) then
+				setSlider(slot2[slot6]:Find("blood"), 0, 1, uv0:GetShipByID(slot7):GetHPRate())
+				SetActive(slot2[slot6]:Find("mask"), false)
 			else
-				setSlider(slot2[slot7]:Find("blood"), 0, 1, 0)
-				SetActive(slot2[slot7]:Find("mask"), true)
+				setSlider(slot2[slot6]:Find("blood"), 0, 1, 0)
+				SetActive(slot2[slot6]:Find("mask"), true)
 			end
 		end
 	end
 
-	slot3 = ys.Battle.BattleState.GetInstance():GetProxyByName(ys.Battle.BattleDataProxy.__name)
-	slot4 = slot3:GetFleetByIFF(ys.Battle.BattleConfig.FRIENDLY_CODE)
-
-	slot1(slot0._mainShipVOs, slot4:GetMainList(), slot0.mainTFs)
-	slot1(slot0._vanShipVOs, slot4:GetScoutList(), slot0.vanTFs)
-	setText(slot0.LeftTime, ys.Battle.BattleTimerView.formatTime(math.floor(slot3:GetCountDown())))
+	slot6(slot0._mainShipVOs, slot3:GetMainList(), slot0.mainTFs)
+	slot6(slot0._vanShipVOs, slot3:GetScoutList(), slot0.vanTFs)
+	setText(slot0.LeftTime, ys.Battle.BattleTimerView.formatTime(math.floor(slot2:GetCountDown())))
 end
 
 function slot0.AddUIFX(slot0, slot1, slot2)

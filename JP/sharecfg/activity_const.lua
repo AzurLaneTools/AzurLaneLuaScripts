@@ -801,11 +801,8 @@ pg.activity_const = {
 	CATCH_TREASURE_ID = {
 		act_id = 4109
 	},
-	SSSS_MAP_ACT_ID = {
-		act_id = 4174
-	},
 	SSSS_PT = {
-		act_id = 4177
+		act_id = 4934
 	},
 	MINIGAME_CURLING = {
 		act_id = 4196

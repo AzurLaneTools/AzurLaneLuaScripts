@@ -66,7 +66,7 @@ end
 
 function slot0.GetAddList(slot0)
 	slot1 = {}
-	slot3 = slot0.dorm:GetAllFurniture()
+	slot3 = slot0.dorm:GetPurchasedFurnitures()
 
 	for slot7, slot8 in ipairs(slot0.themeVO:GetFurnitures()) do
 		if not slot3[slot8] then

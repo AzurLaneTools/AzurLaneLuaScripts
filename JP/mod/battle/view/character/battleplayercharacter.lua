@@ -290,12 +290,11 @@ end
 function slot4.AddCloakBar(slot0, slot1)
 	uv0.super.AddCloakBar(slot0, slot1)
 
-	slot2 = slot0._HPBarTf:Find("cloakBar")
-	slot0._hpCloakBar = uv1.Battle.BattleCloakBar.New(slot2, uv1.Battle.BattleCloakBar.FORM_BAR)
+	slot0._hpCloakBar = uv1.Battle.BattleCloakBar.New(slot0._HPBarTf:Find("cloakBar"), uv1.Battle.BattleCloakBar.FORM_BAR)
 
 	slot0._hpCloakBar:ConfigCloak(slot0._unitData:GetCloak())
 	slot0._hpCloakBar:UpdateCloakProgress()
-	SetActive(slot2, true)
+	slot0._hpCloakBar:SetActive(true)
 end
 
 function slot4.onUpdateCloakConfig(slot0, slot1)

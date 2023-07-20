@@ -10332,6 +10332,29 @@ _G.pg.base.item_data_statistics[21023] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21024] = {
+	display = "旗風(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	name = "結晶：旗風(META)",
+	max_num = 0,
+	type = 4,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/21024",
+	id = 21024,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	display = "艤装の火力を強化できるレア素材。「メタラボ」の「強化」で使用可能",
 	name = "耐熱強化結晶鋼",
@@ -17622,6 +17645,99 @@ _G.pg.base.item_data_statistics[30413] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30414] = {
+	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
+	name = "ランダム装備外装",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	id = 30414,
+	display_icon = {
+		{
+			9,
+			2043,
+			1
+		},
+		{
+			9,
+			2044,
+			1
+		},
+		{
+			9,
+			2045,
+			1
+		},
+		{
+			9,
+			2046,
+			1
+		},
+		{
+			9,
+			2047,
+			1
+		},
+		{
+			9,
+			2048,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30415] = {
+	display = "ドットサポートボム（攻撃）、ドットサポートボム（戦闘）、ドットサポートボム（爆撃）を1個ずつ入手できます",
+	name = "ドットサポートボム",
+	max_num = 0,
+	type = 11,
+	time_limit = 0,
+	rarity = 3,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Equips/96631",
+	id = 30415,
+	display_icon = {
+		{
+			9,
+			2046,
+			1
+		},
+		{
+			9,
+			2047,
+			1
+		},
+		{
+			9,
+			2048,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	display = "使用すると、装備外装（晩夏）から任意の装備外装を1個選択して入手できます",
 	name = "選択装備外装箱（晩夏）",
@@ -20423,6 +20539,234 @@ _G.pg.base.item_data_statistics[30525] = {
 		{
 			9,
 			797,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30526] = {
+	display = "使用すると、装備外装（鉄血風情）から任意の装備外装を1個選択して入手できます",
+	name = "選択装備外装箱（鉄血）",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtiexuezixuan",
+	id = 30526,
+	display_icon = {
+		{
+			9,
+			360,
+			1
+		},
+		{
+			9,
+			361,
+			1
+		},
+		{
+			9,
+			362,
+			1
+		},
+		{
+			9,
+			363,
+			1
+		},
+		{
+			9,
+			364,
+			1
+		},
+		{
+			9,
+			365,
+			1
+		},
+		{
+			9,
+			366,
+			1
+		},
+		{
+			9,
+			367,
+			1
+		},
+		{
+			9,
+			368,
+			1
+		},
+		{
+			9,
+			369,
+			1
+		},
+		{
+			9,
+			370,
+			1
+		},
+		{
+			9,
+			371,
+			1
+		},
+		{
+			9,
+			372,
+			1
+		},
+		{
+			9,
+			373,
+			1
+		},
+		{
+			9,
+			374,
+			1
+		},
+		{
+			9,
+			375,
+			1
+		},
+		{
+			9,
+			376,
+			1
+		},
+		{
+			9,
+			377,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30527] = {
+	display = "使用すると、装備外装（SSSS）から任意の装備外装を1個選択して入手できます",
+	name = "選択装備外装箱（SSSS）",
+	max_num = 0,
+	type = 13,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxsssszixuan",
+	id = 30527,
+	display_icon = {
+		{
+			9,
+			480,
+			1
+		},
+		{
+			9,
+			481,
+			1
+		},
+		{
+			9,
+			482,
+			1
+		},
+		{
+			9,
+			483,
+			1
+		},
+		{
+			9,
+			484,
+			1
+		},
+		{
+			9,
+			485,
+			1
+		},
+		{
+			9,
+			486,
+			1
+		},
+		{
+			9,
+			487,
+			1
+		},
+		{
+			9,
+			488,
+			1
+		},
+		{
+			9,
+			489,
+			1
+		},
+		{
+			9,
+			490,
+			1
+		},
+		{
+			9,
+			491,
+			1
+		},
+		{
+			9,
+			492,
+			1
+		},
+		{
+			9,
+			493,
+			1
+		},
+		{
+			9,
+			494,
+			1
+		},
+		{
+			9,
+			495,
+			1
+		},
+		{
+			9,
+			496,
+			1
+		},
+		{
+			9,
+			497,
 			1
 		}
 	},
@@ -204134,6 +204478,98 @@ _G.pg.base.item_data_statistics[59465] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[59466] = {
+	display = "「弧光は交わる世界にて」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "弧光結晶",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/ssss_pt",
+	id = 59466,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59467] = {
+	display = "キャンペーン「シーズン任務」(2023.8.1~2023.9.30)で累計獲得数報酬を入手するための任務Ptアイテム。キャンペーン終了後に削除されます",
+	name = "進捗Pt",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59467,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59468] = {
+	display = "不该被看到",
+	name = "通行证十二期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7012,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59468,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59469] = {
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2023.8.2メンテナンスまで）で削除されます",
+	name = "試着貸出チケット（2023.8.2まで）",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59469,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",
@@ -220739,6 +221175,336 @@ _G.pg.base.item_data_statistics[70143] = {
 	is_world = 0,
 	icon = "Props/doa_collect",
 	id = 70143,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70145] = {
+	display = "「宝多六花」「新条アカネ」「南夢芽」「飛鳥川ちせ」「はっす」「なみこ」から一体選んで入手可能「交換チケット」は8月10日(木)メンテナンスまで使用可能です。",
+	name = "SSSS交換チケット",
+	max_num = 0,
+	type = 13,
+	time_limit = 1,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/70145",
+	id = 70145,
+	display_icon = {
+		{
+			4,
+			10800011,
+			1
+		},
+		{
+			4,
+			10800021,
+			1
+		},
+		{
+			4,
+			10800051,
+			1
+		},
+		{
+			4,
+			10800061,
+			1
+		},
+		{
+			4,
+			10800031,
+			1
+		},
+		{
+			4,
+			10800041,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70146] = {
+	display = "イベント「弧光交わる世界にて」の収集アイテム。12個集めると記念章家具を入手可能",
+	name = "セイレーン情報Ⅰ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70146,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70147] = {
+	display = "イベント「弧光交わる世界にて」の収集アイテム。12個集めると記念章家具を入手可能",
+	name = "セイレーン情報Ⅱ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70147,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70148] = {
+	display = "イベント「弧光交わる世界にて」の収集アイテム。12個集めると記念章家具を入手可能",
+	name = "セイレーン情報Ⅲ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70148,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70149] = {
+	display = "イベント「弧光交わる世界にて」の収集アイテム。12個集めると記念章家具を入手可能",
+	name = "セイレーン情報Ⅳ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70149,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70150] = {
+	display = "イベント「弧光交わる世界にて」の収集アイテム。12個集めると記念章家具を入手可能",
+	name = "セイレーン情報Ⅴ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70150,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70151] = {
+	display = "イベント「弧光交わる世界にて」の収集アイテム。12個集めると記念章家具を入手可能",
+	name = "セイレーン情報Ⅵ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70151,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70152] = {
+	display = "イベント「弧光交わる世界にて」の収集アイテム。12個集めると記念章家具を入手可能",
+	name = "セイレーン情報Ⅶ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70152,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70153] = {
+	display = "イベント「弧光交わる世界にて」の収集アイテム。12個集めると記念章家具を入手可能",
+	name = "セイレーン情報Ⅷ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70153,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70154] = {
+	display = "イベント「弧光交わる世界にて」の収集アイテム。12個集めると記念章家具を入手可能",
+	name = "セイレーン情報Ⅸ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70154,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70155] = {
+	display = "イベント「弧光交わる世界にて」の収集アイテム。12個集めると記念章家具を入手可能",
+	name = "セイレーン情報Ⅹ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70155,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70156] = {
+	display = "イベント「弧光交わる世界にて」の収集アイテム。12個集めると記念章家具を入手可能",
+	name = "セイレーン情報Ⅺ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70156,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[70157] = {
+	display = "イベント「弧光交わる世界にて」の収集アイテム。12個集めると記念章家具を入手可能",
+	name = "セイレーン情報Ⅻ",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 4935,
+	virtual_type = 1,
+	is_world = 0,
+	icon = "Props/gridsireninfo",
+	id = 70157,
 	display_icon = {},
 	price = {},
 	index = {},

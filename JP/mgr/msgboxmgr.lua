@@ -40,6 +40,7 @@ MSGBOX_TYPE_BLUEPRINT_UNLOCK_ITEM = 21
 MSGBOX_TYPE_CONFIRM_DELETE = 22
 MSGBOX_TYPE_SUBPATTERN = 23
 MSGBOX_TYPE_FILE_DOWNLOAD = 24
+MSGBOX_TYPE_LIKN_COLLECT_GUIDE = 25
 slot1.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -839,7 +840,7 @@ function slot12(slot0, slot1)
 			slot5 = slot3[2]
 			slot6 = slot3[3]
 
-			slot2:Find("mask/title"):GetComponent("ScrollText"):SetText(slot3[1])
+			slot2:Find("mask/title"):GetComponent("ScrollText"):SetText(HXSet.hxLan(slot3[1]))
 			setActive(slot2:Find("skip_btn"), uv1 and slot5[1] ~= "" and slot5[1] ~= "COLLECTSHIP")
 
 			if slot5[1] ~= "" then
@@ -1374,6 +1375,9 @@ function slot1.ShowMsgBox(slot0, slot1)
 		end,
 		[MSGBOX_TYPE_FILE_DOWNLOAD] = function ()
 			uv0:GetPanel(FileDownloadPanel).buffer:UpdateView(uv1)
+		end,
+		[MSGBOX_TYPE_LIKN_COLLECT_GUIDE] = function ()
+			uv0:GetPanel(Msgbox4LinkCollectGuide).buffer:UpdateView(uv1)
 		end
 	})
 end

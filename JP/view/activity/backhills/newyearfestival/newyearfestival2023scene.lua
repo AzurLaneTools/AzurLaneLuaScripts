@@ -109,6 +109,28 @@ function slot0.UpdateView(slot0)
 	end)
 end
 
+function slot0.IsShowMainTip(slot0)
+	return _.any(_.values({
+		fudai = function ()
+			return BeachPacketLayer.isShowRedPoint()
+		end,
+		hotspring = function ()
+			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING))
+		end,
+		shrine = function ()
+			return Shrine2023View.IsNeedShowTipWithoutActivityFinalReward()
+		end,
+		duihuanwu = function ()
+			return AmusementParkShopPage.GetActivityShopTip()
+		end,
+		firework = function ()
+			return BackHillTemplate.IsMiniActNeedTip(ActivityConst.MINIGAME_FIREWORK_VS_SAIREN)
+		end
+	}), function (slot0)
+		return slot0()
+	end)
+end
+
 function slot0.willExit(slot0)
 	slot0:clearStudents()
 	uv0.super.willExit(slot0)

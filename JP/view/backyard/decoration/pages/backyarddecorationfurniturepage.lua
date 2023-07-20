@@ -24,9 +24,19 @@ end
 function slot0.OnFurnitureUpdated(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.cards) do
 		if slot6.furniture:getConfig("id") == slot1:getConfig("id") then
-			slot6:Flush(slot1, slot0.dorm:GetPutCntForFurniture(slot1))
+			slot6:Flush(slot1, slot0:GetPutCntByConfigId(slot0.dorm, slot1:getConfig("id")))
 		end
 	end
+end
+
+function slot0.GetPutCntByConfigId(slot0, slot1, slot2)
+	slot3 = 0
+
+	for slot7, slot8 in pairs(slot1:GetThemeList()) do
+		slot3 = slot3 + slot8:GetSameFurnitureCnt(slot2)
+	end
+
+	return slot3
 end
 
 function slot0.OnDisplayList(slot0)
@@ -40,7 +50,7 @@ function slot0.SortDisplays(slot0)
 		slot1 = {}
 
 		for slot5, slot6 in ipairs(slot0.displays) do
-			slot1[slot6.id] = slot6:GetOwnCnt() <= slot0.dorm:GetPutCnt(slot6.configId) and 0 or 1
+			slot1[slot6.id] = slot6:GetOwnCnt() <= slot0:GetPutCntByConfigId(slot0.dorm, slot6.configId) and 0 or 1
 		end
 
 		slot2 = slot0.orderMode
@@ -145,10 +155,7 @@ function slot0.OnLoaded(slot0)
 			if uv2(slot1) and slot3:HasMask() and slot3.furniture:isPaper() then
 				uv1:emit(BackYardDecorationMediator.REMOVE_PAPER, slot3.furniture)
 			elseif slot3 and not slot3:HasMask() then
-				slot4 = Clone(slot3.furniture)
-
-				slot4:clearPosition()
-				uv1:emit(BackYardDecorationMediator.ADD_FURNITURE, slot4)
+				uv1:emit(BackYardDecorationMediator.ADD_FURNITURE, Clone(slot3.furniture))
 			end
 		end
 	end)
@@ -167,12 +174,12 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 
 	slot4 = slot0.lastDiaplys[slot1 + 1]
 
-	slot3:Update(slot4, slot0.dorm:GetPutCntForFurniture(slot4))
+	slot3:Update(slot4, slot0:GetPutCntByConfigId(slot0.dorm, slot4:getConfig("id")))
 end
 
 function slot0.GetDisplays(slot0)
 	slot1 = {}
-	slot2 = slot0.dorm:GetAllFurniture()
+	slot2 = slot0.dorm:GetPurchasedFurnitures()
 	slot5 = ipairs
 	slot6 = pg.furniture_data_template.get_id_list_by_tag[uv0(slot0.pageType)] or {}
 

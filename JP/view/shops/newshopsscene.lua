@@ -131,11 +131,11 @@ end
 function slot0.init(slot0)
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_button")
 	slot0.frame = slot0:findTF("blur_panel")
-	slot0.pageContainer = slot0:findTF("frame/pages")
+	slot0.pageContainer = slot0:findTF("frame/bg/pages")
 	slot0.stamp = slot0:findTF("stamp")
 	slot0.switchBtn = slot0:findTF("blur_panel/adapt/switch_btn")
 	slot0.skinBtn = slot0:findTF("blur_panel/adapt/skin_btn")
-	slot1 = slot0:findTF("frame/pages/scrollrect"):GetComponent("LScrollRect")
+	slot1 = slot0:findTF("frame/bg/pages/scrollrect"):GetComponent("LScrollRect")
 	slot0.pages = {
 		[uv0.TYPE_ACTIVITY] = ActivityShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData, slot1),
 		[uv0.TYPE_SHOP_STREET] = StreetShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData, slot1),
@@ -151,10 +151,10 @@ function slot0.init(slot0)
 	slot0.contextData.singleWindow = ShopSingleWindow.New(slot0._tf, slot0.event)
 	slot0.contextData.multiWindow = ShopMultiWindow.New(slot0._tf, slot0.event)
 	slot0.contextData.singleWindowForESkin = EquipmentSkinInfoUIForShopWindow.New(slot0._tf, slot0.event)
-	slot0.contextData.paintingView = ShopPaintingView.New(slot0:findTF("paint"), slot0:findTF("paint/chat"))
+	slot0.contextData.paintingView = ShopPaintingView.New(slot0:findTF("paint/paint"), slot0:findTF("frame/chat"))
 	slot2 = slot0.contextData.paintingView
 
-	slot2:setSecretaryPos(slot0:findTF("secretaryPos"))
+	slot2:setSecretaryPos(slot0:findTF("paint/secretaryPos"))
 
 	slot0.contextData.bgView = ShopBgView.New(slot0:findTF("bg"))
 	slot0.recorder = {
@@ -163,8 +163,8 @@ function slot0.init(slot0)
 		[uv0.CATEGORY_SUPPLY] = false
 	}
 	slot0.frameTr = slot0:findTF("frame")
-	slot0.categoryUIList = UIItemList.New(slot0:findTF("frame/types"), slot0:findTF("frame/types/tpl"))
-	slot0.shopUIList = UIItemList.New(slot0:findTF("frame/shops"), slot0:findTF("frame/shops/tpl"))
+	slot0.categoryUIList = UIItemList.New(slot0:findTF("frame/bg/types"), slot0:findTF("frame/bg/types/tpl"))
+	slot0.shopUIList = UIItemList.New(slot0:findTF("frame/bg/shops"), slot0:findTF("frame/bg/shops/tpl"))
 end
 
 function slot0.didEnter(slot0)
@@ -490,7 +490,7 @@ end
 function slot0.BlurView(slot0)
 	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.frameTr, {
 		pbList = {
-			slot0.frameTr
+			slot0.frameTr:Find("bg")
 		}
 	})
 end

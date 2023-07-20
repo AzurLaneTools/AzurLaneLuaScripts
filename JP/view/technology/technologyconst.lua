@@ -181,6 +181,7 @@ function slot0.CreateMetaClassConfig()
 			slot11.id = slot8
 			slot11.name = slot9
 			slot11.nation = slot6
+			slot11.t_level = slot7
 
 			table.insert(slot11.ships[slot10], slot5.ships[1])
 		end
@@ -203,15 +204,26 @@ end
 
 function slot0.GetOrderMetaClassList(slot0)
 	slot1 = {}
+	slot3 = {}
 
-	for slot5, slot6 in pairs(uv0.MetaClassConfig) do
-		slot7 = slot6.ships
-		slot8 = nil
+	for slot7, slot8 in ipairs(pg.gameset.meta_tech_sort.description) do
+		for slot12, slot13 in pairs(uv0.MetaClassConfig) do
+			if slot8 == slot13.t_level then
+				table.insert(slot3, slot13)
 
-		if #((not slot0 or #slot0 == 0) and slot7 or _.select(slot7, function (slot0)
+				break
+			end
+		end
+	end
+
+	for slot7, slot8 in ipairs(slot3) do
+		slot9 = slot8.ships
+		slot10 = nil
+
+		if #((not slot0 or #slot0 == 0) and slot9 or _.select(slot9, function (slot0)
 			return table.contains(uv1, uv0.GetShipTypeByGroupID(slot0))
 		end)) > 0 then
-			table.insert(slot1, slot6.id)
+			table.insert(slot1, slot8.id)
 		end
 	end
 

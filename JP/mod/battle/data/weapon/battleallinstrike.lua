@@ -168,7 +168,7 @@ function slot6.GetReloadTime(slot0)
 end
 
 function slot6.GetReloadTimeByRate(slot0, slot1)
-	return uv0.CalculateReloadTime(slot0._cacheReloadMax * slot1, battleAttr.GetCurrent(slot0._host, "loadSpeed"))
+	return uv1.CalculateReloadTime(slot0._cacheReloadMax * slot1, uv0.GetCurrent(slot0._host, "loadSpeed"))
 end
 
 function slot6.SetModifyInitialCD(slot0)
@@ -200,6 +200,10 @@ function slot6.AddCDTimer(slot0, slot1)
 	slot0._currentState = uv0.STATE_OVER_HEAT
 	slot0._CDstartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 	slot0._reloadRequire = slot1
+end
+
+function slot6.GetCDStartTimeStamp(slot0)
+	return slot0._CDstartTime
 end
 
 function slot6.handleCoolDown(slot0)

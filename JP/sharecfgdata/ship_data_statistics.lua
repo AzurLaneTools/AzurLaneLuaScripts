@@ -317928,6 +317928,122 @@ _G.pg.base.ship_data_statistics[900807] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[900808] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "ローグカイゼルグリッドマン",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 10800120,
+	english_name = "Rogue Kaiser Gridman",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 108,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 900808,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	attrs_growth = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {},
+	cld_box = {
+		6,
+		8,
+		8
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
 _G.pg.base.ship_data_statistics[900907] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -323166,6 +323282,502 @@ _G.pg.base.ship_data_statistics[9701024] = {
 	tag_list = {
 		"FortuneMETA",
 		"F-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701031] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "旗風(META)",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701030,
+	english_name = "Hatakaze.META",
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701031,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		300,
+		16,
+		59,
+		30,
+		0,
+		77,
+		0,
+		50,
+		54,
+		45,
+		87,
+		47
+	},
+	attrs_growth = {
+		6087,
+		202,
+		782,
+		405,
+		0,
+		534,
+		0,
+		711,
+		842,
+		0,
+		0,
+		637
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"HatakazeMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701032] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "旗風(META)",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701030,
+	english_name = "Hatakaze.META",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701032,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		373,
+		20,
+		74,
+		37,
+		0,
+		77,
+		0,
+		50,
+		54,
+		45,
+		87,
+		59
+	},
+	attrs_growth = {
+		6087,
+		202,
+		782,
+		405,
+		0,
+		534,
+		0,
+		711,
+		842,
+		0,
+		0,
+		637
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"HatakazeMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701033] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "旗風(META)",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701030,
+	english_name = "Hatakaze.META",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701033,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		520,
+		28,
+		103,
+		52,
+		0,
+		77,
+		0,
+		50,
+		54,
+		45,
+		87,
+		82
+	},
+	attrs_growth = {
+		6087,
+		202,
+		782,
+		405,
+		0,
+		534,
+		0,
+		711,
+		842,
+		0,
+		0,
+		637
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"HatakazeMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701034] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "旗風(META)",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701030,
+	english_name = "Hatakaze.META",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701034,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		739,
+		40,
+		147,
+		74,
+		0,
+		77,
+		0,
+		50,
+		54,
+		45,
+		87,
+		118
+	},
+	attrs_growth = {
+		6087,
+		202,
+		782,
+		405,
+		0,
+		534,
+		0,
+		711,
+		842,
+		0,
+		0,
+		637
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.35,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"HatakazeMETA"
 	}
 }
 
@@ -356081,7 +356693,8 @@ _G.pg.base.ship_data_statistics[10800011] = {
 	},
 	tag_list = {
 		"SSSS",
-		"RIKKA"
+		"RIKKA",
+		"3IN1"
 	}
 }
 
@@ -356209,7 +356822,8 @@ _G.pg.base.ship_data_statistics[10800012] = {
 	},
 	tag_list = {
 		"SSSS",
-		"RIKKA"
+		"RIKKA",
+		"3IN1"
 	}
 }
 
@@ -356337,7 +356951,8 @@ _G.pg.base.ship_data_statistics[10800013] = {
 	},
 	tag_list = {
 		"SSSS",
-		"RIKKA"
+		"RIKKA",
+		"3IN1"
 	}
 }
 
@@ -356465,7 +357080,8 @@ _G.pg.base.ship_data_statistics[10800014] = {
 	},
 	tag_list = {
 		"SSSS",
-		"RIKKA"
+		"RIKKA",
+		"3IN1"
 	}
 }
 
@@ -358097,7 +358713,10 @@ _G.pg.base.ship_data_statistics[10800051] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"YUME",
+		"DYNA",
+		"3IN1"
 	}
 }
 
@@ -358221,7 +358840,10 @@ _G.pg.base.ship_data_statistics[10800052] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"YUME",
+		"DYNA",
+		"3IN1"
 	}
 }
 
@@ -358345,7 +358967,10 @@ _G.pg.base.ship_data_statistics[10800053] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"YUME",
+		"DYNA",
+		"3IN1"
 	}
 }
 
@@ -358469,7 +359094,10 @@ _G.pg.base.ship_data_statistics[10800054] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"YUME",
+		"DYNA",
+		"3IN1"
 	}
 }
 
@@ -358593,7 +359221,8 @@ _G.pg.base.ship_data_statistics[10800061] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 
@@ -358717,7 +359346,8 @@ _G.pg.base.ship_data_statistics[10800062] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 
@@ -358841,7 +359471,8 @@ _G.pg.base.ship_data_statistics[10800063] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 
@@ -358965,7 +359596,8 @@ _G.pg.base.ship_data_statistics[10800064] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 
@@ -359089,7 +359721,8 @@ _G.pg.base.ship_data_statistics[10800071] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 
@@ -359213,7 +359846,8 @@ _G.pg.base.ship_data_statistics[10800072] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 
@@ -359337,7 +359971,8 @@ _G.pg.base.ship_data_statistics[10800073] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
 	}
 }
 
@@ -359461,7 +360096,1008 @@ _G.pg.base.ship_data_statistics[10800074] = {
 		{}
 	},
 	tag_list = {
-		"SSSS"
+		"SSSS",
+		"DYNA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10800081] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "2代目",
+	type = 10,
+	oxy_cost = 0,
+	skin_id = 10800080,
+	english_name = "Nidaime",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 108,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 10800081,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1390,
+		75,
+		0,
+		58,
+		71,
+		48,
+		0,
+		26,
+		9,
+		33,
+		55,
+		0
+	},
+	attrs_growth = {
+		37891,
+		933,
+		0,
+		1244,
+		900,
+		328,
+		0,
+		395,
+		227,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"SSSS",
+		"DYNA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10800082] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "2代目",
+	type = 10,
+	oxy_cost = 0,
+	skin_id = 10800080,
+	english_name = "Nidaime",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 108,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 10800082,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1729,
+		93,
+		0,
+		72,
+		89,
+		48,
+		0,
+		26,
+		9,
+		33,
+		55,
+		0
+	},
+	attrs_growth = {
+		37891,
+		933,
+		0,
+		1244,
+		900,
+		328,
+		0,
+		395,
+		227,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"SSSS",
+		"DYNA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10800083] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "2代目",
+	type = 10,
+	oxy_cost = 0,
+	skin_id = 10800080,
+	english_name = "Nidaime",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 108,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 10800083,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2407,
+		130,
+		0,
+		101,
+		124,
+		48,
+		0,
+		26,
+		9,
+		33,
+		55,
+		0
+	},
+	attrs_growth = {
+		37891,
+		933,
+		0,
+		1244,
+		900,
+		328,
+		0,
+		395,
+		227,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"SSSS",
+		"DYNA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10800084] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "2代目",
+	type = 10,
+	oxy_cost = 0,
+	skin_id = 10800080,
+	english_name = "Nidaime",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 108,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 10800084,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3424,
+		186,
+		0,
+		144,
+		177,
+		48,
+		0,
+		26,
+		9,
+		33,
+		55,
+		0
+	},
+	attrs_growth = {
+		37891,
+		933,
+		0,
+		1244,
+		900,
+		328,
+		0,
+		395,
+		227,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"SSSS",
+		"DYNA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10800091] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "ひめ",
+	type = 19,
+	oxy_cost = 0,
+	skin_id = 10800090,
+	english_name = "Hime",
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 108,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 10800091,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		873,
+		13,
+		0,
+		24,
+		0,
+		80,
+		0,
+		73,
+		18,
+		30,
+		55,
+		0
+	},
+	attrs_growth = {
+		24160,
+		177,
+		0,
+		513,
+		0,
+		547,
+		0,
+		1076,
+		454,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		104,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.85,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"SSSS",
+		"HIME",
+		"DYNA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10800092] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "ひめ",
+	type = 19,
+	oxy_cost = 0,
+	skin_id = 10800090,
+	english_name = "Hime",
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 108,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 10800092,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1086,
+		16,
+		0,
+		30,
+		0,
+		80,
+		0,
+		73,
+		18,
+		30,
+		55,
+		0
+	},
+	attrs_growth = {
+		24160,
+		177,
+		0,
+		513,
+		0,
+		547,
+		0,
+		1076,
+		454,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		104,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.9,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"SSSS",
+		"HIME",
+		"DYNA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10800093] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "ひめ",
+	type = 19,
+	oxy_cost = 0,
+	skin_id = 10800090,
+	english_name = "Hime",
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 108,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 10800093,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1512,
+		23,
+		0,
+		41,
+		0,
+		80,
+		0,
+		73,
+		18,
+		30,
+		55,
+		0
+	},
+	attrs_growth = {
+		24160,
+		177,
+		0,
+		513,
+		0,
+		547,
+		0,
+		1076,
+		454,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		104,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"SSSS",
+		"HIME",
+		"DYNA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[10800094] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "ひめ",
+	type = 19,
+	oxy_cost = 0,
+	skin_id = 10800090,
+	english_name = "Hime",
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 108,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 10800094,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2151,
+		33,
+		0,
+		59,
+		0,
+		80,
+		0,
+		73,
+		18,
+		30,
+		55,
+		0
+	},
+	attrs_growth = {
+		24160,
+		177,
+		0,
+		513,
+		0,
+		547,
+		0,
+		1076,
+		454,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		104,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"SSSS",
+		"HIME",
+		"DYNA"
 	}
 }
 
@@ -377554,15 +379190,15 @@ _G.pg.base.ship_data_statistics[499091] = {
 		0
 	},
 	attrs_growth = {
+		25300,
+		1260,
+		1039,
+		945,
 		0,
+		445,
 		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
+		735,
+		431,
 		0,
 		0,
 		0
@@ -377680,15 +379316,15 @@ _G.pg.base.ship_data_statistics[499092] = {
 		0
 	},
 	attrs_growth = {
+		25300,
+		1260,
+		1039,
+		945,
 		0,
+		445,
 		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
+		735,
+		431,
 		0,
 		0,
 		0
@@ -377806,15 +379442,15 @@ _G.pg.base.ship_data_statistics[499093] = {
 		0
 	},
 	attrs_growth = {
+		25300,
+		1260,
+		1039,
+		945,
 		0,
+		445,
 		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
+		735,
+		431,
 		0,
 		0,
 		0
@@ -378058,15 +379694,15 @@ _G.pg.base.ship_data_statistics[999021] = {
 		0
 	},
 	attrs_growth = {
+		37998,
+		1709,
 		0,
+		1096,
 		0,
+		426,
 		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
+		367,
+		219,
 		0,
 		0,
 		0
@@ -378182,15 +379818,15 @@ _G.pg.base.ship_data_statistics[999022] = {
 		0
 	},
 	attrs_growth = {
+		37998,
+		1709,
 		0,
+		1096,
 		0,
+		426,
 		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
+		367,
+		219,
 		0,
 		0,
 		0
@@ -378306,15 +379942,15 @@ _G.pg.base.ship_data_statistics[999023] = {
 		0
 	},
 	attrs_growth = {
+		37998,
+		1709,
 		0,
+		1096,
 		0,
+		426,
 		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
+		367,
+		219,
 		0,
 		0,
 		0

@@ -357,7 +357,7 @@ function slot0.RegisterEvent(slot0, slot1, slot2)
 
 	onButton(pg.NewGuideMgr.GetInstance(), slot0._tf, function ()
 		if uv0:ShouldGoScene() then
-			pg.m02:sendNotification(GAME.GO_SCENE, SCENE[event.style.scene])
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE[uv0.sceneName])
 			uv1()
 		elseif uv0:ShouldTriggerOtherTarget() then
 			slot0 = uv2

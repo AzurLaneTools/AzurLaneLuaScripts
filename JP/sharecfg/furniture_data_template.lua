@@ -181,6 +181,7 @@ pg.furniture_data_template = setmetatable({
 			100048,
 			100049,
 			100050,
+			100051,
 			200001,
 			200002,
 			200003,
@@ -2329,6 +2330,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			84301
 		},
 		[85] = {
@@ -4856,6 +4860,7 @@ pg.furniture_data_template = setmetatable({
 			100048,
 			100049,
 			100050,
+			100051,
 			31101,
 			54104,
 			54105
@@ -4994,6 +4999,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			85126,
 			86122,
 			88126,
@@ -5743,7 +5751,8 @@ pg.furniture_data_template = setmetatable({
 			100046,
 			100047,
 			100049,
-			100050
+			100050,
+			100051
 		},
 		[2] = {
 			120,
@@ -7450,6 +7459,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			90104,
 			90117,
 			94119,
@@ -8373,6 +8385,7 @@ pg.furniture_data_template = setmetatable({
 		100048,
 		100049,
 		100050,
+		100051,
 		200001,
 		200002,
 		200003,
@@ -10379,6 +10392,9 @@ pg.furniture_data_template = setmetatable({
 		84184,
 		84185,
 		84186,
+		84187,
+		84188,
+		84189,
 		84301,
 		85001,
 		85002,
@@ -20638,6 +20654,86 @@ pg.base.furniture_data_template = {
 				{},
 				{
 					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[100051] = {
+		spine_extra = "",
+		describe = "「貯めては上に座って守る。そしたら龍の宝の出来上がりよ」",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "ドラゴン貯金箱",
+		themeId = 0,
+		icon = "cunqianguanicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100051,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cunqianguanB",
+				"normal"
+			},
+			{
+				"cunqianguanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"attack"
+					},
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
 				}
 			},
 			{},
@@ -108396,7 +108492,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "zhanlongglticon",
 		deblocking = 1,
@@ -108433,7 +108529,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "feiyiglticon",
 		deblocking = 1,
@@ -108470,7 +108566,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "qianzhouglticon",
 		deblocking = 1,
@@ -108507,7 +108603,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "rexglticon",
 		deblocking = 1,
@@ -108544,7 +108640,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "jicheglticon",
 		deblocking = 1,
@@ -108751,7 +108847,7 @@ pg.base.furniture_data_template = {
 		rarity = 4,
 		is_get_time_note = 0,
 		belong = 1,
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		name = "怪獣饅頭着ぐるみ",
 		themeId = 84,
@@ -108826,6 +108922,261 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[84187] = {
+		spine_extra = "",
+		describe = "正義の楔から解き放たれし黒い悪魔が得た新たな姿の着ぐるみ。友のための約束は、かつての敵の力を借りて守るピョ！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "アレクシス・ケリヴ(ニュー・オーダー）饅頭着ぐるみ",
+		themeId = 84,
+		icon = "alexisglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84187,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"alexisgltB",
+				"normal"
+			},
+			{
+				"alexisgltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					12.4,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[84188] = {
+		spine_extra = "",
+		describe = "夢の力をも身にまとい誕生した帝王、超竜王合体饅頭の着ぐるみ。ローグカイゼルパワーフィニーッシューーー！！！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "ローグカイゼルグリッドマン饅頭着ぐるみ",
+		themeId = 84,
+		icon = "kaisaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84188,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"kaisagltB",
+				"normal"
+			},
+			{
+				"kaisagltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					0,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84189] = {
+		spine_extra = "",
+		describe = "まだ見ぬ力で戦う騎士、超合体饅頭の着ぐるみ。いつだって、どこでだってお前を倒すのが饅頭の宿命ピョ！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "フルパワーグリッドナイト饅頭着ぐるみ",
+		themeId = 84,
+		icon = "qishiglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84189,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qishigltB",
+				"normal"
+			},
+			{
+				"qishigltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					12.4,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[84301] = {
 		spine_extra = "",
 		describe = "グリッド饅頭VS怪獣饅頭の激しい戦いが描かれている",
@@ -108838,7 +109189,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 2,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 5,
 		icon = "chuangglticon",
 		deblocking = 1,

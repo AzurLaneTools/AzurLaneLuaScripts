@@ -133,42 +133,40 @@ function slot0.getUnreadCount(slot0)
 	return slot0.unread
 end
 
-function slot0.hasAttachmentsType(slot0, slot1)
-	for slot6, slot7 in ipairs(slot0:getMails()) do
-		if slot7.attachFlag == Mail.ATTACHMENT_EXIST and slot7:hasAttachmentsType(slot1) then
-			return slot7:hasAttachmentsType(slot1)
-		end
-	end
-end
+function slot0.GetAttchmentDic(slot0)
+	slot1 = {
+		[DROP_TYPE_ITEM] = {},
+		[DROP_TYPE_RESOURCE] = {},
+		[DROP_TYPE_EQUIP] = 0,
+		[DROP_TYPE_SHIP] = 0,
+		[DROP_TYPE_WORLD_ITEM] = 0
+	}
 
-function slot0.OverflowShipExpAttachment(slot0)
 	for slot5, slot6 in ipairs(slot0:getMails()) do
-		if slot6.attachFlag == Mail.ATTACHMENT_EXIST and slot6:OverflowShipExpAttachment() then
-			return true
-		end
-	end
-
-	return false
-end
-
-function slot0.getAttatchmentsCount(slot0, slot1, slot2)
-	slot3 = 0
-
-	for slot8, slot9 in ipairs(slot0:getMails()) do
-		if slot9.attachFlag == Mail.ATTACHMENT_EXIST then
-			slot3 = slot3 + slot9:getAttatchmentsCount(slot1, slot2)
-		end
-	end
-
-	return slot3
-end
-
-function slot0.getAttatchmentMailIds(slot0)
-	slot1 = {}
-
-	for slot6, slot7 in ipairs(slot0:getMails()) do
-		if slot7.attachFlag == Mail.ATTACHMENT_EXIST then
-			table.insert(slot1, slot7.id)
+		if slot6.attachFlag == Mail.ATTACHMENT_EXIST then
+			for slot11, slot12 in pairs(slot6:GetAttchmentDic()) do
+				switch(slot11, {
+					[DROP_TYPE_ITEM] = function ()
+						for slot3, slot4 in pairs(uv0) do
+							uv1[uv2][slot3] = defaultValue(uv1[uv2][slot3], 0) + slot4
+						end
+					end,
+					[DROP_TYPE_RESOURCE] = function ()
+						for slot3, slot4 in pairs(uv0) do
+							uv1[uv2][slot3] = defaultValue(uv1[uv2][slot3], 0) + slot4
+						end
+					end,
+					[DROP_TYPE_EQUIP] = function ()
+						uv0[uv1] = uv0[uv1] + uv2
+					end,
+					[DROP_TYPE_SHIP] = function ()
+						uv0[uv1] = uv0[uv1] + uv2
+					end,
+					[DROP_TYPE_WORLD_ITEM] = function ()
+						uv0[uv1] = uv0[uv1] + uv2
+					end
+				})
+			end
 		end
 	end
 

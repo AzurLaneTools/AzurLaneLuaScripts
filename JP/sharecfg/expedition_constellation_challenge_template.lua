@@ -89,7 +89,7 @@ pg.expedition_constellation_challenge_template = {
 	},
 	[10004] = {
 		painting = "sipeibojue",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "sipeibojue_constellation",
 		id = 10004,
 		dungeon_id = 5106,
@@ -118,7 +118,7 @@ pg.expedition_constellation_challenge_template = {
 	},
 	[10005] = {
 		painting = "sipeibojue",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "sipeibojue_constellation",
 		id = 10005,
 		dungeon_id = 5105,
@@ -147,7 +147,7 @@ pg.expedition_constellation_challenge_template = {
 	},
 	[10006] = {
 		painting = "sipeibojue",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "sipeibojue_constellation",
 		id = 10006,
 		dungeon_id = 5104,
@@ -174,12 +174,102 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10007] = {
+		painting = "shengdiyage",
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		id = 10007,
+		dungeon_id = 5109,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"ソング・オブ・スター",
+				"戦闘中18秒毎に大声で歌い、味方前衛艦隊をノックバックさせ、味方の空襲・魚雷攻撃・主砲攻撃の準備/装填進捗をそれぞれ<color=#92fc63>5%</color>、<color=#92fc63>10%</color>、<color=#92fc63>15%</color>減少させる（準備/装填済みの攻撃は影響を受けない）。"
+			},
+			{
+				"ステージ・オブ・スター",
+				"【ソング・オブ・スター】発動2秒後、海域に5秒間持続する、特殊なステージエリアを出現させる。中にいる全ての艦船は速力が20アップし、回避が20％アップする；"
+			}
+		},
+		award_display = {
+			{
+				14,
+				203,
+				1
+			}
+		}
+	},
+	[10008] = {
+		painting = "shengdiyage",
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		id = 10008,
+		dungeon_id = 5108,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"ソング・オブ・スター",
+				"戦闘中18秒毎に大声で歌い、味方前衛艦隊をノックバックさせ、味方の空襲・魚雷攻撃・主砲攻撃の準備/装填進捗をそれぞれ<color=#92fc63>10%</color>、<color=#92fc63>15%</color>、<color=#92fc63>20%</color>減少させる（準備/装填済みの攻撃は影響を受けない）。"
+			},
+			{
+				"ステージ・オブ・スター",
+				"【ソング・オブ・スター】発動2秒後、海域に5秒間持続する、特殊なステージエリアを出現させる。中にいる全ての艦船は速力が20アップし、回避が20％アップする；"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10003,
+				1
+			}
+		}
+	},
+	[10009] = {
+		painting = "shengdiyage",
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		id = 10009,
+		dungeon_id = 5107,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"ソング・オブ・スター",
+				"戦闘中18秒毎に大声で歌い、味方前衛艦隊をノックバックさせ、味方の空襲・魚雷攻撃・主砲攻撃の準備/装填進捗をそれぞれ<color=#92fc63>15%</color>、<color=#92fc63>20%</color>、<color=#92fc63>30%</color>減少させる（準備/装填済みの攻撃は影響を受けない）。"
+			},
+			{
+				"ステージ・オブ・スター",
+				"【ソング・オブ・スター】発動2秒後、海域に5秒間持続する、特殊なステージエリアを出現させる。中にいる全ての艦船は速力が20アップし、回避が20％アップする；"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10003,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
 		10003,
 		10004,
 		10005,
-		10006
+		10006,
+		10007,
+		10008,
+		10009
 	}
 }

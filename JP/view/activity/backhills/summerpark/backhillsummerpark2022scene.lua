@@ -96,6 +96,20 @@ function slot0.UpdateView(slot0)
 	end)())
 end
 
+function slot0.IsShowMainTip(slot0)
+	return (function ()
+		return BackHillTemplate.IsMiniActNeedTip(ActivityConst.MINIGAME_ICECREAM)
+	end)() or (function ()
+		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.ISUZU_SPORTS_SKIN_ID))
+	end)() or (function ()
+		if PLATFORM_CODE ~= PLATFORM_US then
+			return
+		end
+
+		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY))
+	end)()
+end
+
 function slot0.willExit(slot0)
 	slot0:clearStudents()
 	uv0.super.willExit(slot0)

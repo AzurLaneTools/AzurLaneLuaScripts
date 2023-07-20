@@ -87,6 +87,8 @@ function slot0.CreateFleet(slot0)
 		end
 	elseif Fleet.SUBMARINE_FLEET_ID <= slot1 and slot1 < Fleet.SUBMARINE_FLEET_ID + Fleet.SUBMARINE_FLEET_NUMS then
 		slot2.fleetType = FleetType.Submarine
+	elseif slot1 == FleetProxy.PVP_FLEET_ID then
+		slot2.saveLastShipFlag = true
 	elseif slot1 == FleetProxy.CHALLENGE_FLEET_ID then
 		-- Nothing
 	elseif slot1 == FleetProxy.CHALLENGE_SUB_FLEET_ID then

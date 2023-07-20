@@ -55,8 +55,8 @@ function slot0.SetItems(slot0, slot1)
 end
 
 function slot0.SetUp(slot0, slot1, slot2, slot3)
-	slot0:Show()
 	slot0:SetShop(slot1)
+	slot0:Show()
 	slot0:SetPlayer(slot2)
 	slot0:SetItems(slot3)
 	slot0:InitCommodities()

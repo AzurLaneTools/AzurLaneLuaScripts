@@ -778,7 +778,8 @@ function slot0.StaticTransformChapterFleet2Fleet(slot0, slot1)
 		})
 	end
 
-	return Fleet.New({
+	return TypedFleet.New({
+		fleetType = FleetType.Normal,
 		ship_list = slot2,
 		commanders = slot3
 	})

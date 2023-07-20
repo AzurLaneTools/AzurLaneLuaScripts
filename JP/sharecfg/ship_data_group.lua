@@ -1739,6 +1739,12 @@ pg.ship_data_group = setmetatable({
 		[1080007] = {
 			10087
 		},
+		[1080008] = {
+			10088
+		},
+		[1080009] = {
+			10089
+		},
 		[1090001] = {
 			10091
 		},
@@ -1921,6 +1927,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970302] = {
 			30023
+		},
+		[970103] = {
+			30024
 		}
 	},
 	all = {
@@ -2503,6 +2512,8 @@ pg.ship_data_group = setmetatable({
 		10085,
 		10086,
 		10087,
+		10088,
+		10089,
 		10091,
 		10092,
 		10093,
@@ -2563,7 +2574,8 @@ pg.ship_data_group = setmetatable({
 		30020,
 		30021,
 		30022,
-		30023
+		30023,
+		30024
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -27044,6 +27056,70 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[10088] = {
+		type = 10,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 108,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10088,
+		code = 10088,
+		group_type = 1080008,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"B",
+			"D",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：弧光は交わる世界にて",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10089] = {
+		type = 19,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 108,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10089,
+		code = 10089,
+		group_type = 1080009,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：弧光は交わる世界にて",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[10091] = {
 		type = 2,
 		redirect_id = 101,
@@ -29156,6 +29232,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9703021
+					}
+				},
+				0
+			}
+		}
+	},
+	[30024] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30024,
+		code = 30024,
+		group_type = 970103,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"メタラボ・シーズン任務",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701031
 					}
 				},
 				0

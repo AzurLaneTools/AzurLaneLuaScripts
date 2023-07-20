@@ -28,7 +28,6 @@ end
 function slot0.CheckLevel(slot0)
 	if slot0.level ~= getProxy(DormProxy):getRawData().level then
 		slot0.furnitruesByIds = nil
-		slot0.furnitures = nil
 		slot0.putInfo = nil
 		slot0.level = slot1
 	end
@@ -52,12 +51,12 @@ function slot0.GetWarpFurnitures(slot0)
 end
 
 function slot0.CheckData(slot0)
-	slot1 = getProxy(DormProxy)
+	slot1 = getProxy(DormProxy):getRawData()
 	slot2 = {}
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0.furnitruesByIds) do
-		if not slot1:getFurniById(slot7) then
+		if not slot1:IsPurchasedFurniture(slot8.configId) then
 			if slot8.parent ~= 0 then
 				table.insert(slot3, {
 					pid = slot8.parent,

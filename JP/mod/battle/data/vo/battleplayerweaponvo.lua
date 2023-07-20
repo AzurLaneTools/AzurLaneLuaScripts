@@ -98,6 +98,28 @@ function slot3.AppendWeapon(slot0, slot1)
 	slot0._readyList[#slot0._readyList + 1] = slot1
 end
 
+function slot3.AppendFreezeWeapon(slot0, slot1)
+	slot0._weaponList[#slot0._weaponList + 1] = slot1
+	slot0._total = slot0._total + 1
+
+	slot0:DispatchTotalChange()
+
+	if slot1:GetCurrentState() == slot1.STATE_READY then
+		slot0._count = slot0._count + 1
+
+		table.insert(slot0._readyList, slot1)
+	elseif slot1:GetCDStartTimeStamp() then
+		table.insert(slot0._chargingList, slot1)
+	else
+		table.insert(slot0._overHeatList, slot1)
+	end
+
+	slot0:resetCurrent()
+	slot0:refreshCD()
+	slot0:RefreshReloadingBar()
+	slot0:DispatchOverLoadChange()
+end
+
 function slot3.RemoveWeapon(slot0, slot1)
 	slot2 = slot0.deleteElementFromArray(slot1, slot0._weaponList)
 	slot0._total = slot0._total - 1

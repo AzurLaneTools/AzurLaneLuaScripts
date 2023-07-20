@@ -6505,6 +6505,11 @@ function temp()
 	uv0["2"] = {
 		["2"] = {
 			this = true
+		},
+		["代"] = {
+			["目"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -6741,6 +6746,16 @@ function temp()
 			["芽"] = {
 				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["ひ"] = {
+		["め"] = {
+			this = true
 		}
 	}
 end

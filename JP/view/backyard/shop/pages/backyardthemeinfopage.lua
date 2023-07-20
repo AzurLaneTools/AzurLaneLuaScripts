@@ -71,7 +71,7 @@ function slot0.DormUpdated(slot0, slot1)
 end
 
 function slot0.FurnituresUpdated(slot0, slot1)
-	slot2 = slot0.dorm:GetAllFurniture()
+	slot2 = slot0.dorm:GetPurchasedFurnitures()
 
 	for slot6, slot7 in ipairs(slot1) do
 		slot8 = slot2[slot7]
@@ -118,7 +118,7 @@ function slot0.UpdateRes(slot0)
 end
 
 function slot0.InitFurnitureList(slot0)
-	slot2 = slot0.dorm:GetAllFurniture()
+	slot2 = slot0.dorm:GetPurchasedFurnitures()
 	slot0.displays = {}
 
 	for slot6, slot7 in ipairs(slot0.themeVO:GetFurnitures()) do
@@ -182,13 +182,13 @@ function slot0.UpdatePurchaseBtn(slot0)
 	slot1 = slot0.themeVO
 	slot1 = slot1:GetFurnitures()
 	slot2 = slot0.dorm
-	slot2 = slot2:GetAllFurniture()
+	slot2 = slot2:GetPurchasedFurnitures()
 
 	setActive(slot0.purchaseBtn, _.any(slot1, function (slot0)
 		return not uv0[slot0]
 	end))
 	setActive(slot0.purchaseAllBtn, _.any(slot1, function (slot0)
-		return uv0.dorm:GetOwnFurnitrueCount(slot0) < pg.furniture_data_template[slot0].count
+		return uv0.dorm:GetOwnFurnitureCount(slot0) < pg.furniture_data_template[slot0].count
 	end))
 end
 

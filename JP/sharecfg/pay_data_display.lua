@@ -6000,6 +6000,81 @@ pg.pay_data_display = {
 		limit_args = {},
 		drop_item = {}
 	},
+	[1011] = {
+		subject = "クルーズパス(23夏)",
+		limit_group = 0,
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
+		type = 0,
+		limit_arg = 1,
+		name = "クルーズパス(23夏)",
+		name_display = "クルーズパス(23夏)",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1011,
+		money = 1200,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.battlepass13",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		airijp_id = "com.yostarjp.azurlane.seasonpass12",
+		extra_service_item = {
+			{
+				1,
+				4012,
+				1500
+			},
+			{
+				8,
+				59468,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					9,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4012,
+				1500
+			}
+		},
+		sub_display = {
+			7012,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
 	[2001] = {
 		subject = "PR特別計画艦パック・Ⅰ期",
 		limit_group = 1,
@@ -7148,6 +7223,7 @@ pg.pay_data_display = {
 		1008,
 		1009,
 		1010,
+		1011,
 		2001,
 		2002,
 		2003,

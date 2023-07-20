@@ -611,7 +611,7 @@ function slot0.GetObtainBtnState(slot0, slot1)
 	if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 		return uv0
 	elseif slot0.isPreviewFurniture then
-		if getProxy(DormProxy):getRawData():hasFurnitrue(Goods.Id2FurnitureId(slot1.id)) then
+		if getProxy(DormProxy):getRawData():HasFurniture(Goods.Id2FurnitureId(slot1.id)) then
 			return uv1
 		else
 			return uv2

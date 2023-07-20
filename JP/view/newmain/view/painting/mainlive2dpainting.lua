@@ -107,7 +107,7 @@ end
 function slot0.OnClick(slot0)
 	slot1 = nil
 
-	if slot0.live2dChar and slot0.live2dChar.state == Live2D.STATE_INITED then
+	if slot0.live2dChar and slot0.live2dChar.state == Live2D.STATE_INITED and not slot0.live2dChar.ignoreReact then
 		if not Input.mousePosition then
 			return
 		end

@@ -29,6 +29,12 @@ function slot7.DeadActionEvent(slot0)
 	slot0._unitState:ChangeState(uv0.Battle.UnitState.STATE_DEAD)
 end
 
+function slot7.IsSpectre(slot0)
+	slot1 = nil
+
+	return ((slot0:GetAttr()[uv0.Battle.BattleBuffSetBattleUnitType.ATTR_KEY] == nil or slot0:GetAttrByName(slot2)) and uv1.PLAYER_DEFAULT) <= uv1.SPECTRE_UNIT_TYPE
+end
+
 function slot7.InitCurrentHP(slot0, slot1)
 	slot0:SetCurrentHP(math.ceil(slot0:GetMaxHP() * slot1))
 	slot0:TriggerBuff(uv0.BuffEffectType.ON_HP_RATIO_UPDATE, {})

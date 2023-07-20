@@ -1447,5 +1447,9 @@ pg.voice_actor_CN = {
 	[375] = {
 		code = 375,
 		actor_name = "守屋亨香"
+	},
+	[376] = {
+		code = 376,
+		actor_name = "高橋花林"
 	}
 }

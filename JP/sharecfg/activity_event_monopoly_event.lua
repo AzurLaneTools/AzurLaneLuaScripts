@@ -763,31 +763,31 @@ pg.activity_event_monopoly_event = {
 	},
 	[432] = {
 		id = 432,
-		drop = 96475,
+		drop = 900207,
 		story = "GULITERICHANG1",
 		effect = {}
 	},
 	[433] = {
 		id = 433,
-		drop = 96476,
+		drop = 900208,
 		story = "GULITERICHANG2",
 		effect = {}
 	},
 	[434] = {
 		id = 434,
-		drop = 96477,
+		drop = 900209,
 		story = "GULITERICHANG3",
 		effect = {}
 	},
 	[435] = {
 		id = 435,
-		drop = 96478,
+		drop = 900210,
 		story = "GULITERICHANG4",
 		effect = {}
 	},
 	[436] = {
 		id = 436,
-		drop = 96479,
+		drop = 900211,
 		story = "0",
 		effect = {}
 	},
