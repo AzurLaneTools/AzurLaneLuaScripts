@@ -11,6 +11,16 @@ return {
 					attr = "dodgeRate",
 					number = 500
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "injureRatio",
+					number = -0.08
+				}
 			}
 		}
 	},
@@ -25,6 +35,16 @@ return {
 				arg_list = {
 					attr = "dodgeRate",
 					number = 610
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "injureRatio",
+					number = -0.08
 				}
 			}
 		}
@@ -41,6 +61,16 @@ return {
 					attr = "dodgeRate",
 					number = 720
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "injureRatio",
+					number = -0.08
+				}
 			}
 		}
 	},
@@ -55,6 +85,16 @@ return {
 				arg_list = {
 					attr = "dodgeRate",
 					number = 830
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "injureRatio",
+					number = -0.08
 				}
 			}
 		}
@@ -71,6 +111,16 @@ return {
 					attr = "dodgeRate",
 					number = 940
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "injureRatio",
+					number = -0.08
+				}
 			}
 		}
 	},
@@ -85,6 +135,16 @@ return {
 				arg_list = {
 					attr = "dodgeRate",
 					number = 1050
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "injureRatio",
+					number = -0.08
 				}
 			}
 		}
@@ -101,6 +161,16 @@ return {
 					attr = "dodgeRate",
 					number = 1160
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "injureRatio",
+					number = -0.08
+				}
 			}
 		}
 	},
@@ -115,6 +185,16 @@ return {
 				arg_list = {
 					attr = "dodgeRate",
 					number = 1270
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "injureRatio",
+					number = -0.08
 				}
 			}
 		}
@@ -131,6 +211,16 @@ return {
 					attr = "dodgeRate",
 					number = 1380
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "injureRatio",
+					number = -0.08
+				}
 			}
 		}
 	},
@@ -145,6 +235,16 @@ return {
 				arg_list = {
 					attr = "dodgeRate",
 					number = 1500
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					attr = "injureRatio",
+					number = -0.08
 				}
 			}
 		}
@@ -176,6 +276,16 @@ return {
 			arg_list = {
 				attr = "dodgeRate",
 				number = 500
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				attr = "injureRatio",
+				number = -0.08
 			}
 		}
 	}

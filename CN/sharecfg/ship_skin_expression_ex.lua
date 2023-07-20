@@ -13067,9 +13067,10 @@ pg.ship_skin_expression_ex = {
 		lose = "",
 		home = "",
 		feeling4 = "",
+		touch2 = "",
 		skill = "",
-		profile = "",
 		painting = "gongzhu",
+		profile = "",
 		mail = "",
 		touch = "",
 		main_3 = "",
@@ -13116,12 +13117,6 @@ pg.ship_skin_expression_ex = {
 			{
 				1100,
 				"1"
-			}
-		},
-		touch2 = {
-			{
-				1100,
-				"5"
 			}
 		},
 		feeling5 = {

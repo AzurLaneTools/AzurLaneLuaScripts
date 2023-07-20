@@ -308,10 +308,6 @@ function slot8.initCommanderBuff(slot0)
 end
 
 function slot8.Clear(slot0)
-	for slot4, slot5 in pairs(slot0._fleetList) do
-		slot5:UndoFusion()
-	end
-
 	for slot4, slot5 in pairs(slot0._teamList) do
 		slot0:KillNPCTeam(slot5)
 	end

@@ -14600,6 +14600,7 @@ pg.base.ship_skin_words_extra = {
 		profile = "",
 		home = "",
 		unlock = "",
+		touch2 = "",
 		skill = "",
 		mail = "",
 		touch = "",
@@ -14649,12 +14650,6 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"辛苦了！我给你泡杯茶，来这边休息一下吧？"
-			}
-		},
-		touch2 = {
-			{
-				1100,
-				"别对我太温柔…因为我会想起……"
 			}
 		},
 		feeling5 = {

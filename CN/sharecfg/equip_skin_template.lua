@@ -24007,7 +24007,7 @@ pg.equip_skin_template = {
 					condition = {
 						type = 1,
 						param = {
-							">=0.1"
+							">=0.4"
 						}
 					}
 				},
@@ -24020,7 +24020,7 @@ pg.equip_skin_template = {
 					condition = {
 						type = 1,
 						param = {
-							"<0.1"
+							"<0.4"
 						}
 					}
 				}

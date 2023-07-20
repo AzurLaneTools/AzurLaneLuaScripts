@@ -259,6 +259,7 @@ function slot8.AppendPlayerUnit(slot0, slot1)
 end
 
 function slot8.RemovePlayerUnit(slot0, slot1, slot2)
+	slot0._freezeList[slot1] = nil
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0._unitList) do
@@ -370,6 +371,14 @@ end
 
 function slot8.GetScoutList(slot0)
 	return slot0._scoutList
+end
+
+function slot8.GetFreezeShipByID(slot0, slot1)
+	for slot5, slot6 in pairs(slot0._freezeList) do
+		if slot1 == slot5:GetAttrByName("id") then
+			return slot5
+		end
+	end
 end
 
 function slot8.GetShipByID(slot0, slot1)
@@ -1260,9 +1269,9 @@ function slot8.GetFleetBias(slot0)
 end
 
 function slot8.FreezeUnit(slot0, slot1)
-	slot0._freezeList[slot1] = true
-
 	slot0:RemovePlayerUnit(slot1, true)
+
+	slot0._freezeList[slot1] = true
 end
 
 function slot8.ActiveFreezeUnit(slot0, slot1)
@@ -1305,7 +1314,11 @@ function slot8.UndoFusion(slot0)
 			slot11 = 0
 
 			for slot15, slot16 in pairs(slot7) do
-				slot0:GetShipByID(slot15):UpdateHP(math.floor(slot16 * slot10) * -1, {})
+				if not slot0:GetFreezeShipByID(slot15) then
+					slot0:GetShipByID(slot15)
+				end
+
+				slot17:UpdateHP(math.floor(slot16 * slot10) * -1, {})
 			end
 		end
 	end

@@ -963,8 +963,8 @@ function slot6.AddModel(slot0, slot1)
 	slot0._unitData:RegisterEventListener(slot0, uv1.CHANGE_ACTION, slot0.OnActionChange)
 end
 
-function slot6.SwitchModel(slot0, slot1)
-	slot2 = slot0._go
+function slot6.SwitchModel(slot0, slot1, slot2)
+	slot3 = slot0._go
 
 	slot0:SetGO(slot1)
 
@@ -984,8 +984,8 @@ function slot6.SwitchModel(slot0, slot1)
 
 	slot0:UpdateHPBarPosition()
 
-	slot3 = slot0:GetInitScale()
-	slot0._tf.localScale = Vector3(slot3 * slot0._unitData:GetDirection(), slot3, slot3)
+	slot4 = slot0:GetInitScale()
+	slot0._tf.localScale = Vector3(slot4 * slot0._unitData:GetDirection(), slot4, slot4)
 
 	slot0._animator:SetActionCallBack(function (slot0)
 		if slot0 == "finish" then
@@ -996,26 +996,28 @@ function slot6.SwitchModel(slot0, slot1)
 	end)
 	slot0:SwitchShader(slot0._shaderType, slot0._color)
 
-	slot4 = {}
 	slot5 = {}
+	slot6 = {}
 
-	for slot9, slot10 in pairs(slot0._blinkDict) do
-		slot11 = SpineAnim.CharBlink(slot0._go, slot10.r, slot10.g, slot10.b, slot10.a, slot10.peroid, slot10.duration, false)
-		slot4[slot11] = slot10
-		slot5[slot9] = slot11
+	for slot10, slot11 in pairs(slot0._blinkDict) do
+		slot12 = SpineAnim.CharBlink(slot0._go, slot11.r, slot11.g, slot11.b, slot11.a, slot11.peroid, slot11.duration, false)
+		slot5[slot12] = slot11
+		slot6[slot10] = slot12
 	end
 
-	slot0._blinkDict = slot4
+	slot0._blinkDict = slot5
 
 	slot0:PlayAction(slot0._actionIndex)
 
-	for slot9, slot10 in pairs(slot0._orbitList) do
-		SpineAnim.AddFollower(slot10.boundBone, slot0._tf, slot9.transform):GetComponent("Spine.Unity.BoneFollower").followBoneRotation = false
+	if not slot2 then
+		for slot10, slot11 in pairs(slot0._orbitList) do
+			SpineAnim.AddFollower(slot11.boundBone, slot0._tf, slot10.transform):GetComponent("Spine.Unity.BoneFollower").followBoneRotation = false
+		end
 	end
 
-	slot0._effectOb:SwitchOwner(slot0, slot5)
+	slot0._effectOb:SwitchOwner(slot0, slot6)
 	slot0._FXAttachPoint.transform:SetParent(slot0:GetTf(), false)
-	uv0.GetInstance():DestroyOb(slot2)
+	uv0.GetInstance():DestroyOb(slot3)
 end
 
 function slot6.AddOrbit(slot0, slot1, slot2)
