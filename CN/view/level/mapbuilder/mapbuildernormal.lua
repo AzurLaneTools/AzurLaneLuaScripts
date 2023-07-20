@@ -22,10 +22,18 @@ function slot1.Load(slot0)
 	end
 
 	slot0._state = uv0.STATES.LOADING
+	slot1 = pg.UIMgr.GetInstance()
 
-	pg.UIMgr.GetInstance():LoadingOn()
-	slot0:Loaded(slot0.float:Find("levels").gameObject)
-	slot0:Init()
+	slot1:LoadingOn()
+	seriesAsync({
+		function (slot0)
+			uv0:preload(slot0)
+		end,
+		function (slot0)
+			uv0:Loaded(uv0.float:Find("levels").gameObject)
+			uv0:Init()
+		end
+	})
 end
 
 function slot1.Destroy(slot0)

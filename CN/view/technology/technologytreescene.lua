@@ -92,12 +92,13 @@ function slot0.findUI(slot0)
 	slot0.pointNumText = slot0:findTF("PointCount/PointNumText", slot0.adapt)
 	slot0.redPointImg = slot0:findTF("RedPoint", slot0.switchBtn)
 	slot0.helpBtn = slot0:findTF("help_btn", slot0.adapt)
-	slot0.leftContainer = slot0:findTF("Adapt/Left/Scroll View/Viewport/Content")
+	slot0.leftContainer = slot0:findTF("Adapt/Left/Scroll View/Content")
 	slot0.selectNationItem = slot0:findTF("SelectCampItem")
-	slot0.bottomContainer = slot0:findTF("Adapt/Bottom/Scroll View/Viewport/Content")
+	slot0.bottomContainer = slot0:findTF("Adapt/Bottom/Content")
 	slot0.selectTypeItem = slot0:findTF("SelectTypeItem")
-	slot0.rightLSC = slot0:findTF("Adapt/Right"):GetComponent("LScrollRect")
-	slot0.rightContainer = slot0:findTF("Adapt/Right/ViewPort/Container")
+	slot0.rightContainer = slot0:findTF("Adapt/Right/Container")
+	slot0.rightLSC = slot0.rightContainer:GetComponent("LScrollRect")
+	slot0.rightLayoutGroup = slot0.rightContainer:GetComponent("VerticalLayoutGroup")
 	slot0.headItem = slot0:findTF("HeadItem")
 	slot0.rowHeight = slot0.headItem.rect.height
 	slot0.maxRowHeight = 853.5
@@ -362,6 +363,17 @@ function slot0.updateTypeToggleUIList(slot0)
 	end
 end
 
+function slot0.updatePreferredHeight(slot0, slot1, slot2)
+	slot3 = tf(slot1):Find("ShipScrollView/ShipContainer")
+	slot4 = slot2 + slot0.rowHeight
+	slot0.rightLayoutGroup.padding.bottom = slot0.rightLayoutGroup.padding.bottom + slot4 - GetComponent(slot1, "LayoutElement").preferredHeight
+	GetComponent(slot1, "LayoutElement").preferredHeight = slot4
+
+	setLocalRotation(tf(slot1):Find("ClickBtn/ArrowBtn"), {
+		z = slot2 > 0 and 0 or 180
+	})
+end
+
 function slot0.onClassItemUpdate(slot0, slot1, slot2)
 	slot5 = slot0:findTF("Level/LevelImg", slot2)
 	slot6 = slot0:findTF("Level/TypeTextImg", slot2)
@@ -387,41 +399,28 @@ function slot0.onClassItemUpdate(slot0, slot1, slot2)
 	setLocalRotation(slot0:findTF("ClickBtn/ArrowBtn", slot2), {
 		z = 180
 	})
-	slot0:updateShipItemList(slot14, slot0:findTF("ShipScrollView/Viewport/ShipContainer", slot2), slot0.expanded[slot1])
+	slot0:updateShipItemList(slot14, slot0:findTF("ShipScrollView/ShipContainer", slot2))
+
+	slot0.expanded[slot1] = 0
+
+	slot0:updatePreferredHeight(slot2, slot0.expanded[slot1])
 	setActive(slot7, #slot14 > 5)
 	onButton(slot0, slot7, function ()
-		uv0.expanded[uv1] = not uv0.expanded[uv1]
+		if defaultValue(uv0.expanded[uv1], 0) > 0 then
+			uv0.expanded[uv1] = 0
+		else
+			uv0.expanded[uv1] = uv2.rect.height - uv0.rowHeight
+		end
 
-		uv0.rightLSC:ScrollTo(uv0.rightLSC:HeadIndexToValue(uv1) - 0.0001)
+		uv0:updatePreferredHeight(uv3, uv0.expanded[uv1])
 	end, SFX_PANEL)
-
-	slot19 = slot0.rowHeight
-
-	if slot0.expanded[slot1] then
-		Canvas.ForceUpdateCanvases()
-
-		slot19 = slot18.rect.height
-	end
-
-	GetComponent(slot2, "LayoutElement").preferredHeight = slot19
-	slot20 = slot0:findTF("ClickBtn/ArrowBtn", slot2)
-
-	if slot0.expanded[slot1] then
-		setLocalRotation(slot20, {
-			z = 0
-		})
-	else
-		setLocalRotation(slot20, {
-			z = 180
-		})
-	end
 end
 
 function slot0.onClassItemReturn(slot0, slot1, slot2)
-	slot3 = slot0.expanded[slot1] or false
+	if defaultValue(slot0.expanded[slot1], 0) > 0 then
+		slot0.expanded[slot1] = 0
 
-	if slot0.expanded[slot1] then
-		-- Nothing
+		slot0:updatePreferredHeight(slot2, slot0.expanded[slot1])
 	end
 end
 
@@ -455,59 +454,39 @@ function slot0.updateTecItemList(slot0)
 	end
 end
 
-function slot0.updateShipItemList(slot0, slot1, slot2, slot3)
-	slot4 = UIItemList.New(slot2, slot0.headItem)
+function slot0.updateShipItemList(slot0, slot1, slot2)
+	slot3 = UIItemList.New(slot2, slot0.headItem)
 
-	slot4:make(function (slot0, slot1, slot2)
+	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0
-			slot4 = uv0
-			slot4 = slot4:findTF("BaseImg/CharImg", slot2)
+			slot4 = uv0:findTF("BaseImg/CharImg", slot2)
 			slot5 = uv0
-			slot6 = uv0
-			slot7 = uv0
-			slot7 = slot7:findTF("Frame", slot2)
-			slot8 = uv0
-			slot8 = slot8:findTF("Star", slot2)
-			slot9 = uv0
-			slot9 = slot9:findTF("Star/StarImg", slot2)
-			slot10 = uv0
-			slot10 = slot10:findTF("Info", slot2)
-			slot11 = uv0
-			slot11 = slot11:findTF("PointText", slot10)
+			slot7 = uv0:findTF("Frame", slot2)
+			slot8 = uv0:findTF("Star", slot2)
+			slot9 = uv0:findTF("Star/StarImg", slot2)
+			slot10 = uv0:findTF("Info", slot2)
+			slot11 = uv0:findTF("PointText", slot10)
 			slot12 = uv0
-			slot13 = uv0
-			slot13 = slot13:findTF("TypeIcon", slot12:findTF("BuffGet", slot10))
-			slot14 = uv0
-			slot14 = slot14:findTF("AttrIcon", slot13)
-			slot15 = uv0
-			slot15 = slot15:findTF("NumText", slot13)
-			slot16 = uv0
-			slot16 = slot16:findTF("Lock", slot10)
+			slot13 = uv0:findTF("TypeIcon", slot12:findTF("BuffGet", slot10))
+			slot14 = uv0:findTF("AttrIcon", slot13)
+			slot15 = uv0:findTF("NumText", slot13)
+			slot16 = uv0:findTF("Lock", slot10)
 			slot17 = uv0
-			slot18 = uv0
-			slot18 = slot18:findTF("TypeIcon", slot17:findTF("BuffComplete", slot10))
-			slot19 = uv0
-			slot19 = slot19:findTF("AttrIcon", slot18)
-			slot20 = uv0
-			slot20 = slot20:findTF("NumText", slot18)
-			slot21 = uv0
-			slot21 = slot21:findTF("BottomBG", slot2)
-			slot22 = uv0
-			slot22 = slot22:findTF("BottomBG/StatusUnknow", slot2)
-			slot23 = uv0
-			slot23 = slot23:findTF("BottomBG/StatusResearching", slot2)
-			slot24 = uv0
-			slot24 = slot24:findTF("ViewIcon", slot2)
-			slot25 = uv0
-			slot25 = slot25:findTF("keyansaohguang", slot2)
+			slot18 = uv0:findTF("TypeIcon", slot17:findTF("BuffComplete", slot10))
+			slot19 = uv0:findTF("AttrIcon", slot18)
+			slot20 = uv0:findTF("NumText", slot18)
+			slot21 = uv0:findTF("BottomBG", slot2)
+			slot22 = uv0:findTF("BottomBG/StatusUnknow", slot2)
+			slot23 = uv0:findTF("BottomBG/StatusResearching", slot2)
+			slot24 = uv0:findTF("ViewIcon", slot2)
+			slot25 = uv0:findTF("keyansaohguang", slot2)
 			slot26 = uv1[slot1 + 1]
 
-			setText(slot6:findTF("NameText", slot5:findTF("NameBG", slot2)), shortenString(ShipGroup.getDefaultShipNameByGroupID(slot26), 6))
+			setText(uv0:findTF("NameText", slot5:findTF("NameBG", slot2)), shortenString(ShipGroup.getDefaultShipNameByGroupID(slot26), 6))
 
 			slot27 = slot26 * 10 + 1
 
-			setImageSprite(slot3:findTF("BaseImg", slot2), GetSpriteFromAtlas("shipraritybaseicon", "base_" .. pg.ship_data_statistics[slot27].rarity))
+			setImageSprite(uv0:findTF("BaseImg", slot2), GetSpriteFromAtlas("shipraritybaseicon", "base_" .. pg.ship_data_statistics[slot27].rarity))
 			LoadSpriteAsync("shipmodels/" .. Ship.getPaintingName(slot27), function (slot0)
 				if slot0 and not uv0.exited then
 					setImageSprite(uv1, slot0, true)
@@ -595,14 +574,7 @@ function slot0.updateShipItemList(slot0, slot1, slot2, slot3)
 			setActive(slot2, true)
 		end
 	end)
-
-	slot5 = #slot1
-
-	if not slot3 then
-		slot5 = math.min(slot5, 5)
-	end
-
-	slot4:align(slot5)
+	slot3:align(#slot1)
 end
 
 function slot0.getClassIDListForShow(slot0, slot1, slot2)

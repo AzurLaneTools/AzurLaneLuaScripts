@@ -63,6 +63,7 @@ return {
 				text = slot0[3]
 			},
 			ui = {
+				scale = 0.85,
 				pathIndex = -1,
 				dynamicPath = function ()
 					if #getProxy(BuildShipProxy):GetPoolsWithoutNewServer() > 4 then

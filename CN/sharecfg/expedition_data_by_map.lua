@@ -267,6 +267,7 @@ pg.expedition_data_by_map = setmetatable({
 		1590001,
 		1590002,
 		1590003,
+		1590004,
 		1600001,
 		1600002,
 		1600011,
@@ -1859,7 +1860,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "white",
 		uifx = "UIhuohua2",
 		on_activity = 0,
-		ui_type = 1,
+		ui_type = 2,
 		bg = "Map_70000",
 		destory_icon_suffix = "blue",
 		animtor = 0,
@@ -5814,7 +5815,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		uifx = "",
 		on_activity = 337,
-		ui_type = 1,
+		ui_type = 4,
 		bg = "Map_1230005",
 		destory_icon_suffix = "blue",
 		animtor = 0,
@@ -11886,12 +11887,12 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		cloud_suffix = "",
 		uifx = "",
-		on_activity = 4174,
-		ui_type = 1,
+		on_activity = 4932,
+		ui_type = 6,
 		bg = "Map_1590001",
 		destory_icon_suffix = "blue",
 		animtor = 1,
-		bind_map = 0,
+		bind_map = 1590004,
 		clouds_pos = {
 			{
 				332,
@@ -11933,12 +11934,12 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		cloud_suffix = "",
 		uifx = "",
-		on_activity = 4174,
-		ui_type = 1,
+		on_activity = 4932,
+		ui_type = 6,
 		bg = "Map_1590001",
 		destory_icon_suffix = "blue",
 		animtor = 1,
-		bind_map = 1590001,
+		bind_map = 1590004,
 		clouds_pos = {
 			{
 				332,
@@ -11980,9 +11981,56 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		cloud_suffix = "",
 		uifx = "",
-		on_activity = 4174,
-		ui_type = 1,
+		on_activity = 4932,
+		ui_type = 6,
 		bg = "Map_1590001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1590004,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[1590004] = {
+		map = 1590004,
+		name = "交汇世界的弧光·再现|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "ssss-1114A",
+		ani_name = "Map_1590002",
+		ani_controller = "",
+		guide_id = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 4932,
+		ui_type = 6,
+		bg = "Map_1590002",
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 1590001,

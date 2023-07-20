@@ -41,7 +41,7 @@ end
 
 function slot0.InitFurnitureList(slot0)
 	slot0.displays = {}
-	slot2 = slot0.dorm:GetAllFurniture()
+	slot2 = slot0.dorm:GetPurchasedFurnitures()
 
 	for slot6, slot7 in pairs(slot0.template:GetFurnitureCnt()) do
 		if pg.furniture_data_template[slot6] then
@@ -95,16 +95,15 @@ function slot0.UpdateThemeInfo(slot0)
 end
 
 function slot0.UpdatePurchaseBtn(slot0)
-	slot1 = slot0.dorm:OwnThemeTemplateFurniture(slot0.template)
+	slot1 = slot0.template:OwnThemeTemplateFurniture()
 	slot3 = false
 
 	for slot7, slot8 in pairs(slot0.template:GetFurnitureCnt()) do
-		slot9 = Furniture.New({
-			id = slot7
-		})
-		slot10 = slot0.dorm:GetOwnFurnitrueCount(slot9.configId)
+		slot10 = slot0.dorm:GetOwnFurnitureCount(slot7)
 
-		if slot9:inTime() and slot9:canPurchaseByDormMoeny() and slot10 < slot8 then
+		if Furniture.New({
+			id = slot7
+		}):inTime() and slot9:canPurchaseByDormMoeny() and slot10 < slot8 then
 			slot3 = true
 
 			break

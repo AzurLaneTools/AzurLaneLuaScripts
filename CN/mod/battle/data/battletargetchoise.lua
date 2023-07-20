@@ -29,6 +29,16 @@ function slot3.TargetEntityUnit()
 	return slot0
 end
 
+function slot3.TargetSpectreUnit(slot0, slot1, slot2)
+	slot3 = {}
+
+	for slot8, slot9 in pairs(ys.Battle.BattleDataProxy.GetInstance():GetSpectreShipList()) do
+		slot3[#slot3 + 1] = slot9
+	end
+
+	return slot3
+end
+
 function slot3.TargetTemplate(slot0, slot1, slot2)
 	slot3 = slot1.targetTemplateIDList or {
 		slot1.targetTemplateID
@@ -130,13 +140,13 @@ function slot3.TargetAllHelp(slot0, slot1, slot2)
 	if slot0 then
 		slot4 = (slot1 or {}).exceptCaster
 		slot5 = slot0:GetUniqueID()
-		slot6 = slot2 or uv0.getShipListByIFF(slot0:GetIFF())
+		slot7 = slot2 or uv0.getShipListByIFF(slot0:GetIFF())
 
-		for slot10, slot11 in pairs(slot6) do
-			slot12 = slot11:GetUniqueID()
+		for slot11, slot12 in pairs(slot7) do
+			slot13 = slot12:GetUniqueID()
 
-			if slot11:IsAlive() and (not slot4 or slot12 ~= slot5) then
-				slot3[#slot3 + 1] = slot11
+			if slot12:IsAlive() and slot12:GetIFF() == slot6 and (not slot4 or slot13 ~= slot5) then
+				slot3[#slot3 + 1] = slot12
 			end
 		end
 	end

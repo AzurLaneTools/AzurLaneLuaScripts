@@ -18,8 +18,18 @@ pg.constellation_challenge_month = {
 			10006
 		}
 	},
+	[8] = {
+		id = 8,
+		constellation_icon = "Lio",
+		stage = {
+			10007,
+			10008,
+			10009
+		}
+	},
 	all = {
 		6,
-		7
+		7,
+		8
 	}
 }

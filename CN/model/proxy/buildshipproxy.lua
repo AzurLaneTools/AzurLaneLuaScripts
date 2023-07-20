@@ -73,7 +73,7 @@ end
 
 function slot0.GetPoolsWithoutNewServer(slot0)
 	return _.select(slot0:GetPools(), function (slot0)
-		return slot0.mark ~= BuildShipPool.BUILD_POOL_MARK_NEW
+		return not (slot0:IsActivity() and slot0:IsNewServerBuild())
 	end)
 end
 

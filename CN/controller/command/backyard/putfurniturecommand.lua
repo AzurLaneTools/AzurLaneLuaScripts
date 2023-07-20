@@ -12,65 +12,51 @@ function slot0.execute(slot0, slot1)
 
 	assert(slot2.floor or slot6.floor, "floor should exist")
 
-	slot10, slot11 = CourtYardRawDataChecker.Check(slot3, slot6:getData().level)
+	slot9, slot10 = CourtYardRawDataChecker.Check(slot3, slot6:getRawData().level)
 
-	if not slot10 then
+	if not slot9 then
 		if slot5 then
-			slot5(false, slot11)
+			slot5(false, slot10)
 
 			return
 		end
 
-		pg.TipsMgr.GetInstance():ShowTips(slot11)
+		pg.TipsMgr.GetInstance():ShowTips(slot10)
 
 		return
 	end
 
-	slot12 = {}
-	slot16 = slot7
+	slot11 = {}
 
-	for slot16, slot17 in pairs(slot8:getFurnitrues(slot16)) do
-		slot17:clearPosition()
-		slot6:updateFurniture(slot17)
-	end
+	for slot15, slot16 in pairs(slot3) do
+		slot17 = {}
 
-	for slot16, slot17 in pairs(slot3) do
-		slot18 = slot6:getFurniById(slot16)
-		slot23 = slot17.y
-
-		slot18:updatePosition(Vector2(slot17.x, slot23))
-
-		slot18.dir = slot17.dir
-		slot18.child = slot17.child
-		slot18.parent = slot17.parent
-		slot18.floor = slot7
-
-		slot6:updateFurniture(slot18)
-
-		slot19 = {}
-
-		for slot23, slot24 in pairs(slot17.child) do
-			table.insert(slot19, {
-				id = tostring(slot23),
-				x = slot24.x,
-				y = slot24.y
+		for slot21, slot22 in pairs(slot16.child) do
+			table.insert(slot17, {
+				id = tostring(slot21),
+				x = slot22.x,
+				y = slot22.y
 			})
 		end
 
-		table.insert(slot12, {
-			shipId = 0,
-			id = tostring(slot18:getConfig("id")),
-			x = slot17.x,
-			y = slot17.y,
-			dir = slot17.dir,
-			child = slot19,
-			parent = slot17.parent
+		table.insert(slot11, {
+			shipId = 1,
+			id = tostring(slot16.configId),
+			x = slot16.x,
+			y = slot16.y,
+			dir = slot16.dir,
+			child = slot17,
+			parent = slot16.parent
 		})
 	end
 
+	slot6:getRawData():SetTheme(slot7, BackYardSelfThemeTemplate.New({
+		id = -1,
+		furniture_put_list = slot11
+	}, slot7))
 	pg.ConnectionMgr.GetInstance():Send(19008, {
 		floor = slot7,
-		furniture_put_list = slot12
+		furniture_put_list = slot11
 	})
 
 	if slot4 then

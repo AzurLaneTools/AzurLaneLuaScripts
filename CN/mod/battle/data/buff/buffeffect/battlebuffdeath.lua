@@ -18,6 +18,13 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._maxY = slot3.maxY
 	slot0._minY = slot3.minY
 	slot0._countType = slot3.countType
+	slot0._instantkill = slot0._tempData.arg_list.instant_kill
+end
+
+function slot1.onAttach(slot0, slot1, slot2, slot3)
+	if slot0._instantkill then
+		slot0:DoDead(slot1)
+	end
 end
 
 function slot1.onUpdate(slot0, slot1, slot2, slot3)

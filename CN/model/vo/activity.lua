@@ -22,7 +22,8 @@ function slot0.GetType2Class()
 		[ActivityConst.ACTIVITY_TYPE_SCULPTURE] = SculptureActivity,
 		[ActivityConst.ACTIVITY_TYPE_HOTSPRING] = SpringActivity,
 		[ActivityConst.ACTIVITY_TYPE_HOTSPRING_2] = Spring2Activity,
-		[ActivityConst.ACTIVITY_TYPE_TASK_RYZA] = ActivityTaskActivity
+		[ActivityConst.ACTIVITY_TYPE_TASK_RYZA] = ActivityTaskActivity,
+		[ActivityConst.ACTIVITY_TYPE_PUZZLA] = PuzzleActivity
 	}
 
 	return uv0
@@ -465,7 +466,7 @@ function slot0.readyToAchieve(slot0)
 		[ActivityConst.ACTIVITY_TYPE_PUZZLA] = function (slot0)
 			slot1 = slot0.data1_list
 			slot2 = slot0.data2_list
-			slot3 = uv0.GetPicturePuzzleIds(slot0.id)
+			slot3 = slot0:GetPicturePuzzleIds()
 
 			if slot0:getConfig("config_client").linkActID and getProxy(ActivityProxy):getActivityById(slot4) and slot5:readyToAchieve() then
 				return true
@@ -912,16 +913,6 @@ end
 
 function slot0.isHaveActivableMedal()
 	return uv0.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
-end
-
-function slot0.GetPicturePuzzleIds(slot0)
-	assert(pg.activity_event_picturepuzzle[slot0], "Can't Find activity_event_picturepuzzle 's ID : " .. (slot0 or "NIL"))
-
-	slot2 = Clone(slot1.pickup_picturepuzzle)
-
-	table.insertto(slot2, slot1.drop_picturepuzzle)
-
-	return slot2
 end
 
 return slot0

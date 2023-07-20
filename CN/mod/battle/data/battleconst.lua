@@ -23,7 +23,6 @@ slot0.WaveTriggerType = {
 	GUIDE = 6,
 	CAMERA = 7,
 	CLEAR = 8,
-	JAMMING = 9,
 	ENVIRONMENT = 10,
 	LABEL = 11,
 	CARD_PUZZLE = 12
@@ -328,7 +327,8 @@ slot0.UnitDeathReason = {
 	DESTRUCT = 3,
 	TOUCHDOWN = 4,
 	CRUSH = 5,
-	CLS = 6
+	CLS = 6,
+	DEFUSION = 7
 }
 slot0.BattleScore = {
 	D = 0,

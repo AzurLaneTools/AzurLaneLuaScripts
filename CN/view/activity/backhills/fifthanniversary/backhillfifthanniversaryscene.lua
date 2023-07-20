@@ -125,6 +125,20 @@ function slot0.UpdateView(slot0)
 	end)())
 end
 
+function slot0.IsShowMainTip(slot0)
+	return (function ()
+		return BackHillTemplate.IsMiniActNeedTip(ActivityConst.JIUJIU_DUOMAOMAO_ID)
+	end)() or (function ()
+		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_MAID_DAY))
+	end)() or (function ()
+		if PLATFORM_CODE ~= PLATFORM_CH then
+			return
+		end
+
+		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY))
+	end)()
+end
+
 function slot0.willExit(slot0)
 	slot0:clearStudents()
 	uv0.super.willExit(slot0)

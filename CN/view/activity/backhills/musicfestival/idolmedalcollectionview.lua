@@ -25,7 +25,7 @@ end
 function slot0.initData(slot0)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.activityData = slot0.activityProxy:getActivityById(ActivityConst.IDOL_MEDAL_COLLECTION)
-	slot0.allIDList = Activity.GetPicturePuzzleIds(slot0.activityData.id)
+	slot0.allIDList = slot0.activityData:GetPicturePuzzleIds()
 	slot0.pageIDList = {}
 
 	for slot4 = 1, uv0.PAGE_NUM do

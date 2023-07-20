@@ -4242,6 +4242,17 @@ function temp()
 	uv0["樋"] = {
 		this = {
 			this = true
+		},
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -6828,6 +6839,28 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["第"] = {
+		["二"] = {
+			["代"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["公"] = {
+		["主"] = {
+			this = true
 		}
 	}
 end

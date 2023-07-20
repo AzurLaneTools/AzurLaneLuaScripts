@@ -204,6 +204,7 @@ pg.furniture_data_template = setmetatable({
 			100049,
 			100050,
 			100051,
+			100052,
 			200001,
 			200002,
 			200003,
@@ -2513,6 +2514,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			84301
 		},
 		[85] = {
@@ -5195,6 +5199,7 @@ pg.furniture_data_template = setmetatable({
 			100049,
 			100050,
 			100051,
+			100052,
 			31101,
 			54101,
 			54102,
@@ -5334,6 +5339,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			85126,
 			86122,
 			88126,
@@ -6126,7 +6134,8 @@ pg.furniture_data_template = setmetatable({
 			100047,
 			100049,
 			100050,
-			100051
+			100051,
+			100052
 		},
 		[2] = {
 			120,
@@ -7932,6 +7941,9 @@ pg.furniture_data_template = setmetatable({
 			84184,
 			84185,
 			84186,
+			84187,
+			84188,
+			84189,
 			90104,
 			90117,
 			94119,
@@ -8936,6 +8948,7 @@ pg.furniture_data_template = setmetatable({
 		100049,
 		100050,
 		100051,
+		100052,
 		200001,
 		200002,
 		200003,
@@ -11097,6 +11110,9 @@ pg.furniture_data_template = setmetatable({
 		84184,
 		84185,
 		84186,
+		84187,
+		84188,
+		84189,
 		84301,
 		85001,
 		85002,
@@ -22457,6 +22473,89 @@ pg.base.furniture_data_template = {
 					},
 					{
 						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[100052] = {
+		spine_extra = "",
+		describe = "来体验下当特工的感觉吧！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "特工秀场",
+		themeId = 0,
+		icon = "tegongtiyanicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100052,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tegongtiyanB",
+				"normal"
+			},
+			{
+				"tegongtiyanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					},
+					{
+						"dance"
+					},
+					{
+						"walk"
 					}
 				},
 				{
@@ -116933,7 +117032,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "zhanlongglticon",
 		deblocking = 1,
@@ -116970,7 +117069,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "feiyiglticon",
 		deblocking = 1,
@@ -117007,7 +117106,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "qianzhouglticon",
 		deblocking = 1,
@@ -117044,7 +117143,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "rexglticon",
 		deblocking = 1,
@@ -117081,7 +117180,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 1,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 1,
 		icon = "jicheglticon",
 		deblocking = 1,
@@ -117288,7 +117387,7 @@ pg.base.furniture_data_template = {
 		rarity = 4,
 		is_get_time_note = 0,
 		belong = 1,
-		count = 1,
+		count = 2,
 		is_3d_obj = 0,
 		name = "怪兽啾戏服",
 		themeId = 84,
@@ -117363,6 +117462,261 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[84187] = {
+		spine_extra = "",
+		describe = "从正义的枷锁中解放的黑色恶魔，其所获得的新形态的啾啾戏服。和朋友的约定，就用过去之敌的力量守护啾！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "亚历克西斯·凯利夫(新秩序)啾戏服",
+		themeId = 84,
+		icon = "alexisglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84187,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"alexisgltB",
+				"normal"
+			},
+			{
+				"alexisgltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					12.4,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[84188] = {
+		spine_extra = "",
+		describe = "身缠梦想之力诞生的帝王，超龙王合体啾啾的戏服。狂战帝王能量终结——！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "狂战帝王古立特啾戏服",
+		themeId = 84,
+		icon = "kaisaglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84188,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"kaisagltB",
+				"normal"
+			},
+			{
+				"kaisagltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					0,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[84189] = {
+		spine_extra = "",
+		describe = "使用未知之力战斗的骑士，超合体啾啾的戏服。不管在何时何处都会战胜你，这就是啾啾的宿命！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "全能古立特骑士啾戏服",
+		themeId = 84,
+		icon = "qishiglticon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 84189,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qishigltB",
+				"normal"
+			},
+			{
+				"qishigltT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					12.4,
+					-7.1
+				},
+				{
+					60,
+					30
+				},
+				"glt/diwangglt_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[84301] = {
 		spine_extra = "",
 		describe = "描绘了古立特啾VS怪兽啾画面的挂画",
@@ -117375,7 +117729,7 @@ pg.base.furniture_data_template = {
 		themeId = 84,
 		belong = 2,
 		is_3d_obj = 0,
-		count = 1,
+		count = 2,
 		tag = 5,
 		icon = "chuangglticon",
 		deblocking = 1,

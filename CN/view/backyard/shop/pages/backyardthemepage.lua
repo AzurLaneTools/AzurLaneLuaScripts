@@ -97,7 +97,7 @@ end
 function slot0.GetData(slot0)
 	slot1 = {}
 	slot3 = getInputText(slot0.searchInput)
-	slot4 = slot0.dorm:GetAllFurniture()
+	slot4 = slot0.dorm:GetPurchasedFurnitures()
 	slot5 = {}
 
 	for slot9, slot10 in ipairs(getProxy(DormProxy):GetSystemThemes()) do
@@ -216,7 +216,7 @@ function slot0.OnUpdateCard(slot0, slot1, slot2)
 	slot3 = slot0.cards[slot2]
 	slot5 = slot0.disPlays[slot1 + 1]
 
-	slot3:Update(slot5, slot5:IsPurchased(slot0.dorm:GetAllFurniture()))
+	slot3:Update(slot5, slot5:IsPurchased(slot0.dorm:GetPurchasedFurnitures()))
 	slot3:UpdateSelected(slot0.selected)
 
 	if slot0:NoSelected() and slot1 == 0 then

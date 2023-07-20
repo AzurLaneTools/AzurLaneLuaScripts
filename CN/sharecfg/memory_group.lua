@@ -241,7 +241,8 @@ pg.memory_group = setmetatable({
 		584,
 		585,
 		586,
-		587
+		587,
+		588
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2613,7 +2614,7 @@ pg.base.memory_group = {
 		subtype = 2,
 		icon = "title_event",
 		type = 2,
-		link_event = 0,
+		link_event = 4932,
 		title = "「交汇世界的弧光」-关卡篇",
 		memories = {
 			1896,
@@ -2648,7 +2649,7 @@ pg.base.memory_group = {
 		subtype = 2,
 		icon = "title_event",
 		type = 2,
-		link_event = 0,
+		link_event = 4933,
 		title = "「交汇世界的弧光」-日常篇",
 		memories = {
 			1921,
@@ -5146,6 +5147,23 @@ pg.base.memory_group = {
 			2775,
 			2776,
 			2777
+		}
+	},
+	[588] = {
+		id = 588,
+		subtype = 0,
+		icon = "title_chara_dafenqi",
+		type = 3,
+		link_event = 0,
+		title = "最甜蜜的发明",
+		memories = {
+			2811,
+			2812,
+			2813,
+			2814,
+			2815,
+			2816,
+			2817
 		}
 	}
 }

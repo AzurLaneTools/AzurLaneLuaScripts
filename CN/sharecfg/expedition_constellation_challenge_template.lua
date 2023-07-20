@@ -89,7 +89,7 @@ pg.expedition_constellation_challenge_template = {
 	},
 	[10004] = {
 		painting = "sipeibojue",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "sipeibojue_constellation",
 		id = 10004,
 		dungeon_id = 5106,
@@ -118,7 +118,7 @@ pg.expedition_constellation_challenge_template = {
 	},
 	[10005] = {
 		painting = "sipeibojue",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "sipeibojue_constellation",
 		id = 10005,
 		dungeon_id = 5105,
@@ -147,7 +147,7 @@ pg.expedition_constellation_challenge_template = {
 	},
 	[10006] = {
 		painting = "sipeibojue",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "sipeibojue_constellation",
 		id = 10006,
 		dungeon_id = 5104,
@@ -174,12 +174,102 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10007] = {
+		painting = "shengdiyage",
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		id = 10007,
+		dungeon_id = 5109,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"星之歌",
+				"战斗中每18秒，狮子座化身将会大声歌唱，强制击退我方先锋舰队，并使我方所有舰队成员蓄力空袭、蓄力鱼雷和蓄力主炮的装填进度分别减少<color=#92fc63>5%</color>、<color=#92fc63>10%</color>和<color=#92fc63>15%</color>（已装填完毕的武器不受影响）。"
+			},
+			{
+				"星星舞台",
+				"【星之歌】触发2秒后，海域中将会出现一个特殊的舞台区域，持续5秒，位于舞台区域中的敌我双方所有单位航速提升20点、回避率提高20%；"
+			}
+		},
+		award_display = {
+			{
+				14,
+				203,
+				1
+			}
+		}
+	},
+	[10008] = {
+		painting = "shengdiyage",
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		id = 10008,
+		dungeon_id = 5108,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"星之歌",
+				"战斗中每18秒，狮子座化身将会大声歌唱，强制击退我方先锋舰队，并使我方所有舰队成员蓄力空袭、蓄力鱼雷和蓄力主炮的装填进度分别减少<color=#92fc63>10%</color>、<color=#92fc63>15%</color>和<color=#92fc63>20%</color>（已装填完毕的武器不受影响）。"
+			},
+			{
+				"星星舞台",
+				"【星之歌】触发2秒后，海域中将会出现一个特殊的舞台区域，持续5秒，位于舞台区域中的敌我双方所有单位航速提升20点、回避率提高20%；"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10003,
+				1
+			}
+		}
+	},
+	[10009] = {
+		painting = "shengdiyage",
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		id = 10009,
+		dungeon_id = 5107,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"星之歌",
+				"战斗中每18秒，狮子座化身将会大声歌唱，强制击退我方先锋舰队，并使我方所有舰队成员蓄力空袭、蓄力鱼雷和蓄力主炮的装填进度分别减少<color=#92fc63>15%</color>、<color=#92fc63>20%</color>和<color=#92fc63>30%</color>（已装填完毕的武器不受影响）。"
+			},
+			{
+				"星星舞台",
+				"【星之歌】触发2秒后，海域中将会出现一个特殊的舞台区域，持续5秒，位于舞台区域中的敌我双方所有单位航速提升20点、回避率提高20%；"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10003,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
 		10003,
 		10004,
 		10005,
-		10006
+		10006,
+		10007,
+		10008,
+		10009
 	}
 }

@@ -28,9 +28,8 @@ function slot0.execute(slot0, slot1)
 		if slot0.ret == 0 then
 			print("after quick", slot0.level, slot0.exp)
 
-			slot1 = getProxy(BayProxy)
 			slot2 = getProxy(BagProxy)
-			slot4 = slot1:getShipById(uv0)
+			slot6 = getProxy(BayProxy):getShipById(uv0):getMetaSkillLevelBySkillID(uv1) < slot0.level
 
 			slot4:updateSkill({
 				skill_id = uv1,
@@ -38,21 +37,19 @@ function slot0.execute(slot0, slot1)
 				skill_exp = slot0.exp
 			})
 			slot1:updateShip(slot4)
+			getProxy(MetaCharacterProxy):getMetaTacticsInfoByShipID(uv0):setNewExp(uv1, slot0.exp)
 
-			slot8 = slot0.exp
-
-			getProxy(MetaCharacterProxy):getMetaTacticsInfoByShipID(uv0):setNewExp(uv1, slot8)
-
-			for slot8, slot9 in pairs(uv2) do
-				if slot9 > 0 then
-					slot2:removeItemById(slot8, slot9)
+			for slot10, slot11 in pairs(uv2) do
+				if slot11 > 0 then
+					slot2:removeItemById(slot10, slot11)
 				end
 			end
 
 			uv3:sendNotification(GAME.META_QUICK_TACTICS_DONE, {
 				skillID = uv1,
 				skillLevel = slot0.level,
-				skillExp = slot0.exp
+				skillExp = slot0.exp,
+				isLevelUp = slot6
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.ret))

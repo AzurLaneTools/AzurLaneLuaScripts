@@ -56,8 +56,13 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateTaskPanel(slot4)
 	elseif slot2 == GAME.META_QUICK_TACTICS_DONE then
 		slot4 = slot3.skillID
+		slot5 = slot3.skillExp
 
-		slot0.viewComponent:updateSkillExp(slot4, slot3.skillExp)
+		if slot3.isLevelUp then
+			slot0.viewComponent:clearTaskInfo(slot4)
+		end
+
+		slot0.viewComponent:updateSkillExp(slot4, slot5)
 		slot0.viewComponent:updateData()
 		slot0.viewComponent:updateTacticsRedTag()
 		slot0.viewComponent:updateSkillListPanel()

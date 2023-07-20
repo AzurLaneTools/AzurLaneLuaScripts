@@ -143,9 +143,17 @@ function slot0.LoadVedioPlayer(slot0, slot1, slot2)
 		uv0.backBtn = slot1.transform:Find("back")
 		uv0._go = slot1
 
+		uv0.player:SetPlayEndHandler(System.Action(function ()
+			uv0:OnPlayEnd()
+		end))
 		uv0:_Play()
 		uv3()
 	end), true, true)
+end
+
+function slot0.OnPlayEnd(slot0)
+	setActive(slot0.playBtn, true)
+	setActive(slot0.backBtn, true)
 end
 
 function slot8(slot0)
@@ -206,6 +214,7 @@ function slot0.Dispose(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 
 	if slot0.player then
+		slot0.player:SetPlayEndHandler(nil)
 		slot0.player.player:Stop()
 	end
 

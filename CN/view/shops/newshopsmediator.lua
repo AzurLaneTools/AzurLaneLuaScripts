@@ -223,13 +223,8 @@ function slot0.handleNotification(slot0, slot1)
 		end
 
 		if slot3.awards and #slot3.awards > 0 then
-			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = slot3.awards
-			})
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 		end
-
-		slot0:ShowGetShip(slot4)
-		slot0:ShowGetSkin(slot4)
 	elseif slot2 == ShopsProxy.MERITOROUS_SHOP_UPDATED then
 		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_MILITARY_SHOP, slot3)
 	elseif slot2 == ShopsProxy.SHAM_SHOP_UPDATED then
@@ -285,30 +280,6 @@ function slot0.handleNotification(slot0, slot1)
 		end
 
 		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_MINI_GAME, getProxy(ShopsProxy):getMiniShop())
-	end
-end
-
-function slot0.ShowGetShip(slot0, slot1)
-	if slot1 and slot1:getConfig("type") == DROP_TYPE_SHIP then
-		slot0:addSubLayers(Context.New({
-			mediator = NewShipMediator,
-			viewComponent = NewShipLayer,
-			data = {
-				ship = getProxy(BayProxy):getNewShip(true)[1]
-			}
-		}))
-	end
-end
-
-function slot0.ShowGetSkin(slot0, slot1)
-	if slot1 and slot1:getConfig("commodity_type") == DROP_TYPE_SKIN then
-		slot0:addSubLayers(Context.New({
-			mediator = NewSkinMediator,
-			viewComponent = NewSkinLayer,
-			data = {
-				skinId = slot1:getConfig("commodity_id")
-			}
-		}))
 	end
 end
 

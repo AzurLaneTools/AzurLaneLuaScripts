@@ -182,6 +182,11 @@ pg.task_meta_data_template = setmetatable({
 		100093,
 		100094,
 		100095,
+		100101,
+		100102,
+		100103,
+		100104,
+		100105,
 		200001,
 		200002,
 		200003,
@@ -217,7 +222,11 @@ pg.task_meta_data_template = setmetatable({
 		200091,
 		200092,
 		200093,
-		200094
+		200094,
+		200101,
+		200102,
+		200103,
+		200104
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1662,6 +1671,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100101] = {
+		target_id_2 = "970103",
+		sub_type = 180,
+		desc = "使用旗风·META获得1次胜利",
+		id = 100101,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100102] = {
+		target_id_2 = "970103",
+		sub_type = 180,
+		desc = "使用旗风·META击破等级＞30的敌方1次",
+		id = 100102,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100103] = {
+		target_id_2 = "970103",
+		sub_type = 180,
+		desc = "使用旗风·META击破等级＞55的敌方1次",
+		id = 100103,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100104] = {
+		target_id_2 = "970103",
+		sub_type = 180,
+		desc = "使用旗风·META击破等级＞80的敌方1次",
+		id = 100104,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100105] = {
+		target_id_2 = "970103",
+		sub_type = 180,
+		desc = "使用旗风·META击破等级＞100的敌方1次",
+		id = 100105,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -1947,6 +1996,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用阿尔及利亚·META击破等级＞100的敌方1次",
 		id = 200094,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200101] = {
+		target_id_2 = "970103",
+		sub_type = 302,
+		desc = "大型作战内使用旗风·META获得1次胜利",
+		id = 200101,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200102] = {
+		target_id_2 = "970103",
+		sub_type = 302,
+		desc = "大型作战内使用旗风·META击破等级＞70的敌方1次",
+		id = 200102,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200103] = {
+		target_id_2 = "970103",
+		sub_type = 302,
+		desc = "大型作战内使用旗风·META击破等级＞90的敌方1次",
+		id = 200103,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200104] = {
+		target_id_2 = "970103",
+		sub_type = 302,
+		desc = "大型作战内使用旗风·META击破等级＞100的敌方1次",
+		id = 200104,
 		target_num = 1,
 		target_id = "100"
 	}

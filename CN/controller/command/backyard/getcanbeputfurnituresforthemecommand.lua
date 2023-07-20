@@ -62,13 +62,23 @@ function slot0.StoreyFurniture2ThemeFurniture(slot0)
 end
 
 function slot0.GetOtherFloorHouse(slot0)
-	uv0.Furniture2ThemeFurnitures(getProxy(DormProxy):getData():getOtherFloorFurnitrues(getProxy(DormProxy).floor), slot0)
+	for slot5, slot6 in pairs(uv0.GetFurnitureInOtherFloor(getProxy(DormProxy).floor)) do
+		slot0[slot6.id] = slot6
+	end
 end
 
-function slot0.Furniture2ThemeFurnitures(slot0, slot1)
-	for slot5, slot6 in pairs(slot0) do
-		slot1[slot6.id] = slot6:ToBackYardThemeFurnitrue()
+function slot0.GetFurnitureInOtherFloor(slot0)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(getProxy(DormProxy):getRawData():GetThemeList()) do
+		if slot0 ~= slot6 then
+			for slot11, slot12 in pairs(slot7:GetAllFurniture()) do
+				slot2[slot11] = slot12
+			end
+		end
 	end
+
+	return slot2
 end
 
 function slot0.IsUsing(slot0)

@@ -308,6 +308,10 @@ function slot8.initCommanderBuff(slot0)
 end
 
 function slot8.Clear(slot0)
+	for slot4, slot5 in pairs(slot0._fleetList) do
+		slot5:UndoFusion()
+	end
+
 	for slot4, slot5 in pairs(slot0._teamList) do
 		slot0:KillNPCTeam(slot5)
 	end
@@ -665,7 +669,9 @@ function slot8.updateLoop(slot0, slot1)
 
 	for slot6, slot7 in pairs(slot0._unitList) do
 		if slot7:IsSpectre() then
-			slot7:Update(slot1)
+			if slot7:GetAttrByName(uv1.Battle.BattleBuffSetBattleUnitType.ATTR_KEY) > uv0.FUSION_ELEMENT_UNIT_TYPE then
+				slot7:Update(slot1)
+			end
 		else
 			if slot0.checkCld then
 				slot0._cldSystem:UpdateShipCldTree(slot7)
@@ -716,16 +722,16 @@ function slot8.updateLoop(slot0, slot1)
 		slot13 = slot11:GetPosition()
 		slot14 = slot11:GetType()
 
-		if slot11:GetOutBound() == uv1.BulletOutBound.SPLIT and slot14 == uv1.BulletType.SHRAPNEL and (slot0._bulletRightBound < slot13.x and slot12.x > 0 or slot13.x < slot0._bulletLeftBoundSplit and slot12.x < 0 or slot0._bulletUpperBound < slot13.z and slot12.z > 0 or slot13.z < slot0._bulletLowerBoundSplit and slot12.z < 0) then
+		if slot11:GetOutBound() == uv2.BulletOutBound.SPLIT and slot14 == uv2.BulletType.SHRAPNEL and (slot0._bulletRightBound < slot13.x and slot12.x > 0 or slot13.x < slot0._bulletLeftBoundSplit and slot12.x < 0 or slot0._bulletUpperBound < slot13.z and slot12.z > 0 or slot13.z < slot0._bulletLowerBoundSplit and slot12.z < 0) then
 			if slot11:GetExist() then
 				slot11:OutRange()
 			else
 				slot0:RemoveBulletUnit(slot11:GetUniqueID())
 			end
-		elseif slot15 == uv1.BulletOutBound.COMMON and (slot0._bulletRightBound < slot13.x and slot12.x > 0 or slot13.z < slot0._bulletLowerBound and slot12.z < 0) then
+		elseif slot15 == uv2.BulletOutBound.COMMON and (slot0._bulletRightBound < slot13.x and slot12.x > 0 or slot13.z < slot0._bulletLowerBound and slot12.z < 0) then
 			slot0:RemoveBulletUnit(slot11:GetUniqueID())
-		elseif slot13.x < slot0._bulletLeftBound and slot12.x < 0 and slot14 ~= uv1.BulletType.BOMB then
-			if slot15 == uv1.BulletOutBound.RANDOM and slot0._fleetList[uv0.FRIENDLY_CODE]:RandomMainVictim() then
+		elseif slot13.x < slot0._bulletLeftBound and slot12.x < 0 and slot14 ~= uv2.BulletType.BOMB then
+			if slot15 == uv2.BulletOutBound.RANDOM and slot0._fleetList[uv0.FRIENDLY_CODE]:RandomMainVictim() then
 				slot0:HandleDamage(slot11, slot16)
 			end
 
@@ -733,11 +739,11 @@ function slot8.updateLoop(slot0, slot1)
 		else
 			slot11:Update(slot1)
 
-			if (slot11.GetCurrentState and slot11:GetCurrentState() or nil) == uv2.Battle.BattleShrapnelBulletUnit.STATE_FINAL_SPLIT then
+			if (slot11.GetCurrentState and slot11:GetCurrentState() or nil) == uv1.Battle.BattleShrapnelBulletUnit.STATE_FINAL_SPLIT then
 				-- Nothing
-			elseif slot16 == uv2.Battle.BattleShrapnelBulletUnit.STATE_SPLIT and not slot11:IsFragile() then
+			elseif slot16 == uv1.Battle.BattleShrapnelBulletUnit.STATE_SPLIT and not slot11:IsFragile() then
 				-- Nothing
-			elseif slot15 == uv1.BulletOutBound.COMMON and slot0._bulletUpperBound < slot13.z and slot12.z > 0 or slot15 == uv1.BulletOutBound.VISION and slot0._bulletUpperBoundVision < slot13.z and slot12.z > 0 or slot11:IsOutRange(slot1) then
+			elseif slot15 == uv2.BulletOutBound.COMMON and slot0._bulletUpperBound < slot13.z and slot12.z > 0 or slot15 == uv2.BulletOutBound.VISION and slot0._bulletUpperBoundVision < slot13.z and slot12.z > 0 or slot11:IsOutRange(slot1) then
 				if slot11:GetExist() then
 					slot11:OutRange()
 				else
@@ -805,12 +811,14 @@ function slot8.updateLoop(slot0, slot1)
 		end
 	end
 
-	for slot10, slot11 in pairs(slot0._foeShipList) do
-		if slot11:GetPosition().x + slot11:GetBoxSize().x < slot0._leftZoneLeftBound then
-			slot11:SetDeathReason(uv1.UnitDeathReason.TOUCHDOWN)
-			slot11:DeadAction()
-			slot0:KillUnit(slot11:GetUniqueID())
-			slot0:HandleShipMissDamage(slot11, slot0._fleetList[uv0.FRIENDLY_CODE])
+	if slot0._battleInitData.battleType ~= SYSTEM_DUEL then
+		for slot10, slot11 in pairs(slot0._foeShipList) do
+			if slot11:GetPosition().x + slot11:GetBoxSize().x < slot0._leftZoneLeftBound then
+				slot11:SetDeathReason(uv2.UnitDeathReason.TOUCHDOWN)
+				slot11:DeadAction()
+				slot0:KillUnit(slot11:GetUniqueID())
+				slot0:HandleShipMissDamage(slot11, slot0._fleetList[uv0.FRIENDLY_CODE])
+			end
 		end
 	end
 end
@@ -1091,9 +1099,6 @@ function slot8.SpawnNPC(slot0, slot1, slot2)
 
 	slot7:SetMaster(slot2)
 	slot7:InheritMasterAttr()
-
-	slot8 = nil
-
 	slot7:SetCurrentHP(slot7:GetMaxHP())
 	slot7:SetPosition(Clone(slot2:GetPosition()))
 	slot7:SetAI(slot1.pilotAITemplateID or slot5.pilot_ai_template_id)
@@ -1462,15 +1467,15 @@ end
 
 function slot8.SwitchSpectreUnit(slot0, slot1)
 	slot2 = slot1:GetUniqueID()
+	slot4 = slot1:GetIFF() == uv0.FRIENDLY_CODE and slot0._friendlyShipList or slot0._foeShipList
 
 	if slot1:IsSpectre() then
-		slot0._foeShipList[slot2] = nil
 		slot0._spectreShipList[slot2] = slot1
 
 		slot0._cldSystem:DeleteShipCld(slot1)
 	else
 		slot0._spectreShipList[slot2] = nil
-		slot0._foeShipList[slot2] = slot1
+		slot4[slot2] = slot1
 
 		slot1:ActiveCldBox()
 		slot0._cldSystem:InitShipCld(slot1)
@@ -1495,6 +1500,10 @@ end
 
 function slot8.GetFreeShipList(slot0)
 	return slot0._freeShipList
+end
+
+function slot8.GetSpectreShipList(slot0)
+	return slot0._spectreShipList
 end
 
 function slot8.GenerateUnitID(slot0)
@@ -2157,4 +2166,79 @@ function slot8.DispatchCustomWarning(slot0, slot1)
 	slot0:DispatchEvent(uv0.Event.New(uv1.EDIT_CUSTOM_WARNING_LABEL, {
 		labelData = slot1
 	}))
+end
+
+function slot8.DispatchGridmanSkill(slot0, slot1, slot2)
+	slot0:DispatchEvent(uv0.Event.New(uv1.GRIDMAN_SKILL_FLOAT, {
+		type = slot1,
+		IFF = slot2
+	}))
+end
+
+function slot8.SpawnFusionUnit(slot0, slot1, slot2, slot3, slot4)
+	slot7 = slot0:generatePlayerUnit(slot2, slot1:GetIFF(), Clone(slot1:GetPosition()), slot0._commanderBuff)
+
+	uv0.SetFusionAttrFromElement(slot7, slot1, slot3, slot4)
+	slot7:SetCurrentHP(slot7:GetMaxHP())
+	slot1:GetFleetVO():AppendPlayerUnit(slot7)
+	uv1.AttachWeather(slot7, slot0._weahter)
+	slot0._cldSystem:InitShipCld(slot7)
+	slot0:DispatchEvent(uv3.Event.New(uv4.ADD_UNIT, {
+		type = uv2.UnitType.PLAYER_UNIT,
+		unit = slot7
+	}))
+
+	return slot7
+end
+
+function slot8.DefusionUnit(slot0, slot1)
+	slot3 = slot0:GetFleetByIFF(slot1:GetIFF())
+
+	slot3:RemovePlayerUnit(slot1)
+
+	slot4 = {}
+
+	if slot3:GetFleetAntiAirWeapon():GetRange() == 0 then
+		slot4.isShow = false
+	end
+
+	slot0:DispatchEvent(uv0.Event.New(uv1.ANTI_AIR_AREA, slot4))
+	slot1:SetDeathReason(uv2.UnitDeathReason.DEFUSION)
+	slot0:KillUnit(slot1:GetUniqueID())
+end
+
+function slot8.FreezeUnit(slot0, slot1)
+	uv0.SetCurrent(slot1, uv1.Battle.BattleBuffSetBattleUnitType.ATTR_KEY, uv2.FUSION_ELEMENT_UNIT_TYPE)
+	slot1:UpdateBlindInvisibleBySpectre()
+	slot0:SwitchSpectreUnit(slot1)
+
+	if slot1:GetAimBias() then
+		slot2 = slot1:GetAimBias()
+
+		slot2:RemoveCrew(slot1)
+
+		if slot2:GetCurrentState() == slot2.STATE_EXPIRE then
+			slot0:DispatchEvent(uv1.Event.New(uv3.REMOVE_AIM_BIAS, {
+				aimBias = slot1:GetAimBias()
+			}))
+		end
+	end
+
+	slot1:Freeze()
+
+	if slot1:GetFleetVO() then
+		slot2:FreezeUnit(slot1)
+	end
+end
+
+function slot8.ActiveFreezeUnit(slot0, slot1)
+	uv0.SetCurrent(slot1, uv1.Battle.BattleBuffSetBattleUnitType.ATTR_KEY, uv2.PLAYER_DEFAULT)
+	slot1:UpdateBlindInvisibleBySpectre()
+	slot0:SwitchSpectreUnit(slot1)
+	uv3.AttachWeather(slot1, slot0._weahter)
+	slot1:ActiveFreeze()
+
+	if slot1:GetFleetVO() then
+		slot2:ActiveFreezeUnit(slot1)
+	end
 end

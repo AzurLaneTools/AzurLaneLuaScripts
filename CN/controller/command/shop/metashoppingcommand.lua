@@ -65,26 +65,11 @@ function slot0.execute(slot0, slot1)
 
 			getProxy(ActivityProxy):updateActivity(uv1)
 			PlayerConst.ConsumeResForShopping(uv3:GetConsume(), uv2.arg2)
-
-			if #PlayerConst.GetTranAwards(uv2, slot0) == 1 and slot2[1].type == DROP_TYPE_ITEM then
-				slot4 = Item.EQUIPMENT_SKIN_BOX == pg.item_data_statistics[slot2[1].id].type
-
-				if slot3.type == DROP_TYPE_ITEM and slot4 then
-					slot2 = {}
-
-					uv4:sendNotification(GAME.USE_ITEM, {
-						skip_check = true,
-						id = slot3.id,
-						count = slot3.count
-					})
-				end
-			end
-
 			uv0:UpdateMetaShopGoods(uv2.arg1, uv2.arg2)
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
 			uv4:sendNotification(GAME.ON_META_SHOPPING_DONE, {
-				awards = slot2
+				awards = PlayerConst.GetTranAwards(uv2, slot0)
 			})
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

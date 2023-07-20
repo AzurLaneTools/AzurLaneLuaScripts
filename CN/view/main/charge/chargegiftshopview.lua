@@ -32,12 +32,6 @@ function slot0.initData(slot0)
 end
 
 function slot0.initUI(slot0)
-	setLocalPosition(slot0._tf, Vector2.zero)
-
-	slot0._tf.anchorMin = Vector2.zero
-	slot0._tf.anchorMax = Vector2.one
-	slot0._tf.offsetMax = Vector2.zero
-	slot0._tf.offsetMin = Vector2.zero
 	slot0.lScrollRect = GetComponent(slot0._tf, "LScrollRect")
 	slot0.chargeCardTable = {}
 

@@ -24,6 +24,22 @@ function slot0.Ctor(slot0, slot1)
 	slot0.order = 0
 end
 
+function slot0.GetSameFurnitureCnt(slot0, slot1)
+	slot2 = 0
+
+	for slot7, slot8 in pairs(slot0:GetAllFurniture()) do
+		if slot8.configId == slot1 then
+			slot2 = slot2 + 1
+		end
+	end
+
+	return slot2
+end
+
+function slot0.InitFurnitures(slot0, slot1)
+	return RawData2ThemeConvertor.New():GenFurnitures(slot1)
+end
+
 function slot0.WarpPutInfo2BackYardFurnitrue(slot0, slot1, slot2)
 	slot3 = ipairs
 	slot4 = slot2 or {}
@@ -195,21 +211,17 @@ function slot0.GetAllFurniture(slot0)
 end
 
 function slot0.GetWarpFurnitures(slot0)
-	assert(false, "请重写我")
+	slot1 = {}
+
+	for slot6, slot7 in pairs(slot0:GetAllFurniture()) do
+		table.insert(slot1, slot7)
+	end
+
+	return slot1
 end
 
 function slot0.GetFurnitureCnt(slot0)
 	assert(false, "请重写我")
-end
-
-function slot0.ContainsFurniture(slot0, slot1)
-	for slot6, slot7 in pairs(slot0:GetWarpFurnitures()) do
-		if slot7.id == slot1.id then
-			return true
-		end
-	end
-
-	return false
 end
 
 function slot0.IsOccupyed(slot0, slot1, slot2)
@@ -262,6 +274,22 @@ function slot0.GetUsableFurnituresForFloor(slot0, slot1, slot2)
 	end
 
 	return slot3
+end
+
+function slot0.OwnThemeTemplateFurniture(slot0)
+	slot2 = getProxy(DormProxy):getRawData():GetPurchasedFurnitures()
+
+	function slot3(slot0, slot1)
+		return uv0[slot0] and slot1 <= slot2.count
+	end
+
+	for slot7, slot8 in pairs(slot0:GetFurnitureCnt()) do
+		if not slot3(slot7, slot8) then
+			return false
+		end
+	end
+
+	return true
 end
 
 function slot0.MatchSearchKey(slot0, slot1)

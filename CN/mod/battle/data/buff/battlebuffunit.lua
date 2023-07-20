@@ -104,12 +104,12 @@ function slot3.Remove(slot0, slot1)
 	slot2 = slot0._owner
 	slot3 = slot0._id
 
-	slot0:onTrigger(uv0.ON_REMOVE, slot2)
-	slot0:Clear()
-	slot2:DispatchEvent(uv1.Event.New(uv2.BUFF_REMOVE, {
+	slot2:DispatchEvent(uv0.Event.New(uv1.BUFF_REMOVE, {
 		unit_id = slot2:GetUniqueID(),
 		buff_id = slot3
 	}))
+	slot0:onTrigger(uv2.ON_REMOVE, slot2)
+	slot0:Clear()
 
 	slot2:GetBuffList()[slot3] = nil
 end

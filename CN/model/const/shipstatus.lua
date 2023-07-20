@@ -586,7 +586,7 @@ function slot0.ChangeStatusCheckBox(slot0, slot1, slot2)
 
 		return false, nil
 	elseif slot0 == "inExercise" then
-		if getProxy(MilitaryExerciseProxy):getExerciseFleet():canRemove(slot1, true) then
+		if getProxy(MilitaryExerciseProxy):getExerciseFleet():canRemove(slot1) then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("shipchange_alert_inexercise"),
 				onYes = function ()

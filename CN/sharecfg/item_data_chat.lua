@@ -96,6 +96,14 @@ pg.item_data_chat = {
 		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
 	},
+	[10003] = {
+		time_limit_type = 0,
+		name = "限界的挑战者·狮子座",
+		id = 10003,
+		time_second = 0,
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -108,6 +116,7 @@ pg.item_data_chat = {
 		301,
 		602,
 		10001,
-		10002
+		10002,
+		10003
 	}
 }

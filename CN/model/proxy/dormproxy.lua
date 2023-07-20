@@ -157,59 +157,21 @@ function slot0.havePopEvent(slot0)
 	return false
 end
 
-function slot1(slot0, slot1)
-	slot3 = slot1.count
-
-	if not slot0:getFurniById(slot1.id) then
-		slot2 = slot1
-
-		slot0.data:addFurniture(slot1)
-	else
-		slot2:addFurnitrueCount(slot1.count)
-		slot0:updateFurniture(slot2)
-
-		slot3 = slot3 + 1
-	end
-
-	for slot7 = 1, slot3 - 1 do
-		for slot11 = 1, slot2.count - 1 do
-			if not slot0:getFurniById(slot2:getCloneId(slot11)) then
-				slot0.data:addFurniture(Furniture.New({
-					count = 1,
-					id = slot12,
-					configId = slot2.id,
-					get_time = slot2.date
-				}))
-
-				break
-			end
-		end
-	end
-end
-
-function slot0.addFurniture(slot0, slot1)
-	uv0(slot0, slot1)
+function slot0.AddFurniture(slot0, slot1)
+	assert(isa(slot1, Furniture))
+	slot0.data:AddFurniture(slot1)
 	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_FURNITURE)
 end
 
 function slot0.AddFurnitrues(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
-		uv0(slot0, Furniture.New({
+		slot0.data:AddFurniture(Furniture.New({
 			count = 1,
 			id = slot6
 		}))
 	end
 
 	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_FURNITURE)
-end
-
-function slot0.updateFurniture(slot0, slot1)
-	slot0.data:updateFurniture(slot1)
-	slot0:sendNotification(uv0.FURNITURE_UPDATED, slot1:clone())
-end
-
-function slot0.getFurniById(slot0, slot1)
-	return Clone(slot0.data:getFurnitrueById(slot1))
 end
 
 function slot0.addDorm(slot0, slot1)

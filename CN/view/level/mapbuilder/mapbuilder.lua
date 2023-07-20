@@ -4,6 +4,7 @@ slot0.TYPEESCORT = 2
 slot0.TYPESHINANO = 3
 slot0.TYPESKIRMISH = 4
 slot0.TYPEBISMARCK = 5
+slot0.TYPESSSS = 6
 
 function slot0.Ctor(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2.event, slot2.contextData)
@@ -30,6 +31,60 @@ function slot0.Ctor(slot0, slot1, slot2)
 			errorMsg("Cant write Data in ActionInvoke buffer")
 		end
 	})
+	slot0.isFrozen = nil
+
+	slot0:bind(LevelUIConst.ON_FROZEN, function ()
+		uv0.isFrozen = true
+	end)
+	slot0:bind(LevelUIConst.ON_UNFROZEN, function ()
+		uv0.isFrozen = nil
+	end)
+end
+
+function slot0.Load(slot0)
+	if slot0._state ~= uv0.STATES.NONE then
+		return
+	end
+
+	slot0._state = uv0.STATES.LOADING
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:LoadingOn()
+
+	slot1 = PoolMgr.GetInstance()
+	slot2 = nil
+
+	parallelAsync({
+		function (slot0)
+			slot1 = uv0
+			slot3 = uv1
+
+			slot1:GetUI(slot3:getUIName(), true, function (slot0)
+				if uv0._state == uv1.STATES.DESTROY then
+					pg.UIMgr.GetInstance():LoadingOff()
+					uv2:ReturnUI(uv0:getUIName(), slot0)
+				else
+					uv3 = slot0
+
+					uv4()
+				end
+			end)
+		end,
+		function (slot0)
+			uv0:preload(slot0)
+		end
+	}, function ()
+		uv0:Loaded(uv1)
+		uv0:Init()
+	end)
+end
+
+function slot0.preload(slot0, slot1)
+	slot1()
+end
+
+function slot0.isfrozen(slot0)
+	return slot0.isFrozen
 end
 
 function slot0.DoFunction(slot0, slot1)

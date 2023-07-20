@@ -347,10 +347,10 @@ function slot0.insertShip(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.canRemove(slot0, slot1, slot2)
-	slot3, slot4 = slot0:getShipPos(slot1)
+function slot0.canRemove(slot0, slot1)
+	slot2, slot3 = slot0:getShipPos(slot1)
 
-	if slot3 > 0 and #(slot0:getTeamByName(slot4) or {}) == 1 and (slot2 or slot0:isFirstFleet() or slot0:isPVPFleet()) then
+	if slot2 > 0 and #(slot0:getTeamByName(slot3) or {}) == 1 and slot0:isFirstFleet() then
 		return false
 	else
 		return true
