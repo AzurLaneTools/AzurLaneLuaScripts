@@ -516,7 +516,7 @@ function slot0.openBuyPanel(slot0)
 		name = slot2:getConfig("name_display"),
 		tipExtra = i18n("battlepass_pay_tip"),
 		extraItems = slot4,
-		price = usMoneyFormat(slot2:getConfig("money")),
+		price = slot2:getConfig("money"),
 		isLocalPrice = slot2:IsLocalPrice(),
 		tagType = slot3,
 		isMonthCard = slot2:isMonthCard(),

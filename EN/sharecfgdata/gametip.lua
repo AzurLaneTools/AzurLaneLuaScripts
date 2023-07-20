@@ -19634,7 +19634,7 @@ _G.pg.base.gametip.ssss_medal_tip = {
 			info = [[
 - Overview -
 
-· "Akane's Collection" is a special campaign in which you can unlock data files about Siren foes by completing certain achievements. Unlock all the data files to get the exclusive ""SSSS Commemoration"" furniture.
+· "Akane's Collection" is a special campaign in which you can unlock data files about Siren foes by completing certain achievements. Unlock all the data files to get the exclusive "SSSS Commemoration" furniture.
 
 · You must collect the SSSS Commemoration before 8/09 23:59 (UTC-7).]]
 		}
